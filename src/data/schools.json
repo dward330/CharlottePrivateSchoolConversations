@@ -1,0 +1,2312 @@
+{
+  "generated": "2026-07-03",
+  "description": "Charlotte private-school research manifest. Topics x schools x documents.",
+  "schools": [
+    {
+      "slug": "cannon",
+      "name": "Cannon School"
+    },
+    {
+      "slug": "charlotte-christian",
+      "name": "Charlotte Christian School"
+    },
+    {
+      "slug": "charlotte-country-day",
+      "name": "Charlotte Country Day School"
+    },
+    {
+      "slug": "charlotte-latin",
+      "name": "Charlotte Latin School"
+    },
+    {
+      "slug": "davidson-day",
+      "name": "Davidson Day School"
+    },
+    {
+      "slug": "providence-day",
+      "name": "Providence Day School"
+    }
+  ],
+  "topics": [
+    {
+      "slug": "the-arts",
+      "name": "The Arts"
+    },
+    {
+      "slug": "sports",
+      "name": "Sports"
+    },
+    {
+      "slug": "college-support",
+      "name": "College Support"
+    },
+    {
+      "slug": "student-clubs",
+      "name": "Student Clubs"
+    }
+  ],
+  "matrix": [
+    {
+      "topic_slug": "college-support",
+      "school_slug": "cannon",
+      "doc_count": 8
+    },
+    {
+      "topic_slug": "college-support",
+      "school_slug": "charlotte-christian",
+      "doc_count": 9
+    },
+    {
+      "topic_slug": "college-support",
+      "school_slug": "charlotte-country-day",
+      "doc_count": 8
+    },
+    {
+      "topic_slug": "college-support",
+      "school_slug": "charlotte-latin",
+      "doc_count": 9
+    },
+    {
+      "topic_slug": "college-support",
+      "school_slug": "davidson-day",
+      "doc_count": 8
+    },
+    {
+      "topic_slug": "college-support",
+      "school_slug": "providence-day",
+      "doc_count": 9
+    },
+    {
+      "topic_slug": "sports",
+      "school_slug": "cannon",
+      "doc_count": 13
+    },
+    {
+      "topic_slug": "sports",
+      "school_slug": "charlotte-christian",
+      "doc_count": 13
+    },
+    {
+      "topic_slug": "sports",
+      "school_slug": "charlotte-country-day",
+      "doc_count": 13
+    },
+    {
+      "topic_slug": "sports",
+      "school_slug": "charlotte-latin",
+      "doc_count": 13
+    },
+    {
+      "topic_slug": "sports",
+      "school_slug": "davidson-day",
+      "doc_count": 13
+    },
+    {
+      "topic_slug": "sports",
+      "school_slug": "providence-day",
+      "doc_count": 13
+    },
+    {
+      "topic_slug": "student-clubs",
+      "school_slug": "cannon",
+      "doc_count": 9
+    },
+    {
+      "topic_slug": "student-clubs",
+      "school_slug": "charlotte-christian",
+      "doc_count": 9
+    },
+    {
+      "topic_slug": "student-clubs",
+      "school_slug": "charlotte-country-day",
+      "doc_count": 9
+    },
+    {
+      "topic_slug": "student-clubs",
+      "school_slug": "charlotte-latin",
+      "doc_count": 7
+    },
+    {
+      "topic_slug": "student-clubs",
+      "school_slug": "davidson-day",
+      "doc_count": 7
+    },
+    {
+      "topic_slug": "student-clubs",
+      "school_slug": "providence-day",
+      "doc_count": 7
+    },
+    {
+      "topic_slug": "the-arts",
+      "school_slug": "cannon",
+      "doc_count": 7
+    },
+    {
+      "topic_slug": "the-arts",
+      "school_slug": "charlotte-christian",
+      "doc_count": 7
+    },
+    {
+      "topic_slug": "the-arts",
+      "school_slug": "charlotte-country-day",
+      "doc_count": 7
+    },
+    {
+      "topic_slug": "the-arts",
+      "school_slug": "charlotte-latin",
+      "doc_count": 6
+    },
+    {
+      "topic_slug": "the-arts",
+      "school_slug": "davidson-day",
+      "doc_count": 4
+    },
+    {
+      "topic_slug": "the-arts",
+      "school_slug": "providence-day",
+      "doc_count": 6
+    }
+  ],
+  "documents": [
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Course Offerings",
+      "source_file": "source-material/the-arts/cannon/Cannon - The Arts - Course Offerings.pdf",
+      "note_file": ".claude/docs/the-arts/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Deep Research",
+      "source_file": "source-material/the-arts/cannon/Cannon - The Arts - Deep Research.pdf",
+      "note_file": ".claude/docs/the-arts/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Facilities",
+      "source_file": "source-material/the-arts/cannon/Cannon - The Arts - Facilities.pdf",
+      "note_file": ".claude/docs/the-arts/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Music",
+      "source_file": "source-material/the-arts/cannon/Cannon - The Arts - Music.pdf",
+      "note_file": ".claude/docs/the-arts/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Program Overview",
+      "source_file": "source-material/the-arts/cannon/Cannon - The Arts - Program Overview.pdf",
+      "note_file": ".claude/docs/the-arts/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Theater",
+      "source_file": "source-material/the-arts/cannon/Cannon - The Arts - Theater.pdf",
+      "note_file": ".claude/docs/the-arts/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Visual Arts",
+      "source_file": "source-material/the-arts/cannon/Cannon - The Arts - Visual Arts.pdf",
+      "note_file": ".claude/docs/the-arts/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Awards and Recognition",
+      "source_file": "source-material/the-arts/charlotte-christian/Charlotte Christian - The Arts - Awards and Recognition.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Deep Research",
+      "source_file": "source-material/the-arts/charlotte-christian/Charlotte Christian - The Arts - Deep Research.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Digital Arts",
+      "source_file": "source-material/the-arts/charlotte-christian/Charlotte Christian - The Arts - Digital Arts.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Music",
+      "source_file": "source-material/the-arts/charlotte-christian/Charlotte Christian - The Arts - Music.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Program Overview",
+      "source_file": "source-material/the-arts/charlotte-christian/Charlotte Christian - The Arts - Program Overview.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Theatre",
+      "source_file": "source-material/the-arts/charlotte-christian/Charlotte Christian - The Arts - Theatre.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Visual Arts",
+      "source_file": "source-material/the-arts/charlotte-christian/Charlotte Christian - The Arts - Visual Arts.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Awards and Recognition",
+      "source_file": "source-material/the-arts/charlotte-country-day/CCD - The Arts - Awards and Recognition.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Deep Research",
+      "source_file": "source-material/the-arts/charlotte-country-day/CCD - The Arts - Deep Research.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Drama",
+      "source_file": "source-material/the-arts/charlotte-country-day/CCD - The Arts - Drama.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Facilities",
+      "source_file": "source-material/the-arts/charlotte-country-day/CCD - The Arts - Facilities.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Music",
+      "source_file": "source-material/the-arts/charlotte-country-day/CCD - The Arts - Music.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Program Overview",
+      "source_file": "source-material/the-arts/charlotte-country-day/CCD - The Arts - Program Overview.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Visual Arts",
+      "source_file": "source-material/the-arts/charlotte-country-day/CCD - The Arts - Visual Arts.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Awards and Recognition",
+      "source_file": "source-material/the-arts/charlotte-latin/Charlotte Latin - The Arts - Awards and Recognition.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Deep Research",
+      "source_file": "source-material/the-arts/charlotte-latin/Charlotte Latin - The Arts - Deep Research.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Facilities",
+      "source_file": "source-material/the-arts/charlotte-latin/Charlotte Latin - The Arts - Facilities.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Performing Arts",
+      "source_file": "source-material/the-arts/charlotte-latin/Charlotte Latin - The Arts - Performing Arts.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Program Overview",
+      "source_file": "source-material/the-arts/charlotte-latin/Charlotte Latin - The Arts - Program Overview.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Visual Arts",
+      "source_file": "source-material/the-arts/charlotte-latin/Charlotte Latin - The Arts - Visual Arts.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Deep Research",
+      "source_file": "source-material/the-arts/davidson-day/Davidson Day - The Arts - Deep Research.pdf",
+      "note_file": ".claude/docs/the-arts/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Performing Arts",
+      "source_file": "source-material/the-arts/davidson-day/Davidson Day - The Arts - Performing Arts.pdf",
+      "note_file": ".claude/docs/the-arts/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Program Overview",
+      "source_file": "source-material/the-arts/davidson-day/Davidson Day - The Arts - Program Overview.pdf",
+      "note_file": ".claude/docs/the-arts/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Visual Arts",
+      "source_file": "source-material/the-arts/davidson-day/Davidson Day - The Arts - Visual Arts.pdf",
+      "note_file": ".claude/docs/the-arts/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Awards and Recognition",
+      "source_file": "source-material/the-arts/providence-day/Providence Day - The Arts - Awards and Recognition.pdf",
+      "note_file": ".claude/docs/the-arts/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Deep Research",
+      "source_file": "source-material/the-arts/providence-day/Providence Day - The Arts - Deep Research.pdf",
+      "note_file": ".claude/docs/the-arts/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Music",
+      "source_file": "source-material/the-arts/providence-day/Providence Day - The Arts - Music.pdf",
+      "note_file": ".claude/docs/the-arts/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Program Overview",
+      "source_file": "source-material/the-arts/providence-day/Providence Day - The Arts - Program Overview.pdf",
+      "note_file": ".claude/docs/the-arts/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Theater",
+      "source_file": "source-material/the-arts/providence-day/Providence Day - The Arts - Theater.pdf",
+      "note_file": ".claude/docs/the-arts/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Visual Arts",
+      "source_file": "source-material/the-arts/providence-day/Providence Day - The Arts - Visual Arts.pdf",
+      "note_file": ".claude/docs/the-arts/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Awards and Honors",
+      "source_file": "source-material/sports/cannon/Cannon - Sports - Awards and Honors.pdf",
+      "note_file": ".claude/docs/sports/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Championships",
+      "source_file": "source-material/sports/cannon/Cannon - Sports - Championships.pdf",
+      "note_file": ".claude/docs/sports/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Coaches, Pedigree and Continuity",
+      "source_file": "source-material/sports/cannon/Cannon - Sports - Coaches, Pedigree and Continuity.pdf",
+      "note_file": ".claude/docs/sports/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "D1 Matriculation",
+      "source_file": "source-material/sports/cannon/Cannon - Sports - D1 Matriculation.pdf",
+      "note_file": ".claude/docs/sports/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Facilities and Infrastructure",
+      "source_file": "source-material/sports/cannon/Cannon - Sports - Facilities and Infrastructure.pdf",
+      "note_file": ".claude/docs/sports/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "NIL Landscape",
+      "source_file": "source-material/sports/cannon/Cannon - Sports - NIL Landscape.pdf",
+      "note_file": ".claude/docs/sports/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "National Basketball Profile",
+      "source_file": "source-material/sports/cannon/Cannon - Sports - National Basketball Profile.pdf",
+      "note_file": ".claude/docs/sports/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Power 4 Offers",
+      "source_file": "source-material/sports/cannon/Cannon - Sports - Power 4 Offers.pdf",
+      "note_file": ".claude/docs/sports/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Professional Athletes",
+      "source_file": "source-material/sports/cannon/Cannon - Sports - Professional Athletes.pdf",
+      "note_file": ".claude/docs/sports/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Sports Medicine and Performance",
+      "source_file": "source-material/sports/cannon/Cannon - Sports - Sports Medicine and Performance.pdf",
+      "note_file": ".claude/docs/sports/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Sports Offered",
+      "source_file": "source-material/sports/cannon/Cannon - Sports - Sports Offered.pdf",
+      "note_file": ".claude/docs/sports/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Top 100 Recruiting Rankings",
+      "source_file": "source-material/sports/cannon/Cannon - Sports - Top 100 Recruiting Rankings.pdf",
+      "note_file": ".claude/docs/sports/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Win-Loss Records",
+      "source_file": "source-material/sports/cannon/Cannon - Sports - Win-Loss Records.pdf",
+      "note_file": ".claude/docs/sports/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Awards and Honors",
+      "source_file": "source-material/sports/charlotte-christian/Charlotte Christian - Sports - Awards and Honors.pdf",
+      "note_file": ".claude/docs/sports/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Championships",
+      "source_file": "source-material/sports/charlotte-christian/Charlotte Christian - Sports - Championships.pdf",
+      "note_file": ".claude/docs/sports/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Coaches, Pedigree and Continuity",
+      "source_file": "source-material/sports/charlotte-christian/Charlotte Christian - Sports - Coaches, Pedigree and Continuity.pdf",
+      "note_file": ".claude/docs/sports/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "D1 Matriculation",
+      "source_file": "source-material/sports/charlotte-christian/Charlotte Christian - Sports - D1 Matriculation.pdf",
+      "note_file": ".claude/docs/sports/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Facilities and Infrastructure",
+      "source_file": "source-material/sports/charlotte-christian/Charlotte Christian - Sports - Facilities and Infrastructure.pdf",
+      "note_file": ".claude/docs/sports/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "NIL Landscape",
+      "source_file": "source-material/sports/charlotte-christian/Charlotte Christian - Sports - NIL Landscape.pdf",
+      "note_file": ".claude/docs/sports/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "National Profile",
+      "source_file": "source-material/sports/charlotte-christian/Charlotte Christian - Sports - National Profile.pdf",
+      "note_file": ".claude/docs/sports/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Power 4 Offers",
+      "source_file": "source-material/sports/charlotte-christian/Charlotte Christian - Sports - Power 4 Offers.pdf",
+      "note_file": ".claude/docs/sports/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Professional Athletes",
+      "source_file": "source-material/sports/charlotte-christian/Charlotte Christian - Sports - Professional Athletes.pdf",
+      "note_file": ".claude/docs/sports/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Sports Medicine and Performance",
+      "source_file": "source-material/sports/charlotte-christian/Charlotte Christian - Sports - Sports Medicine and Performance.pdf",
+      "note_file": ".claude/docs/sports/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Sports Offered",
+      "source_file": "source-material/sports/charlotte-christian/Charlotte Christian - Sports - Sports Offered.pdf",
+      "note_file": ".claude/docs/sports/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Top 100 Recruiting Rankings",
+      "source_file": "source-material/sports/charlotte-christian/Charlotte Christian - Sports - Top 100 Recruiting Rankings.pdf",
+      "note_file": ".claude/docs/sports/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Win-Loss Records",
+      "source_file": "source-material/sports/charlotte-christian/Charlotte Christian - Sports - Win-Loss Records.pdf",
+      "note_file": ".claude/docs/sports/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Awards and Honors",
+      "source_file": "source-material/sports/charlotte-country-day/CCD - Sports - Awards and Honors.pdf",
+      "note_file": ".claude/docs/sports/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Championships",
+      "source_file": "source-material/sports/charlotte-country-day/CCD - Sports - Championships.pdf",
+      "note_file": ".claude/docs/sports/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Coaches Pedigree and Continuity",
+      "source_file": "source-material/sports/charlotte-country-day/CCD - Sports - Coaches Pedigree and Continuity.pdf",
+      "note_file": ".claude/docs/sports/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "D1 and Top-50 Academic Matriculation",
+      "source_file": "source-material/sports/charlotte-country-day/CCD - Sports - D1 and Top-50 Academic Matriculation.pdf",
+      "note_file": ".claude/docs/sports/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Facilities and Infrastructure",
+      "source_file": "source-material/sports/charlotte-country-day/CCD - Sports - Facilities and Infrastructure.pdf",
+      "note_file": ".claude/docs/sports/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "NIL Landscape",
+      "source_file": "source-material/sports/charlotte-country-day/CCD - Sports - NIL Landscape.pdf",
+      "note_file": ".claude/docs/sports/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "National Swimming Profile",
+      "source_file": "source-material/sports/charlotte-country-day/CCD - Sports - National Swimming Profile.pdf",
+      "note_file": ".claude/docs/sports/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Power 4 Offers",
+      "source_file": "source-material/sports/charlotte-country-day/CCD - Sports - Power 4 Offers.pdf",
+      "note_file": ".claude/docs/sports/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Professional Athletes",
+      "source_file": "source-material/sports/charlotte-country-day/CCD - Sports - Professional Athletes.pdf",
+      "note_file": ".claude/docs/sports/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Sports Medicine and Performance",
+      "source_file": "source-material/sports/charlotte-country-day/CCD - Sports - Sports Medicine and Performance.pdf",
+      "note_file": ".claude/docs/sports/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Sports Offered",
+      "source_file": "source-material/sports/charlotte-country-day/CCD - Sports - Sports Offered.pdf",
+      "note_file": ".claude/docs/sports/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Top 100 Recruiting Rankings",
+      "source_file": "source-material/sports/charlotte-country-day/CCD - Sports - Top 100 Recruiting Rankings.pdf",
+      "note_file": ".claude/docs/sports/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "WinLoss Records",
+      "source_file": "source-material/sports/charlotte-country-day/CCD - Sports - WinLoss Records.pdf",
+      "note_file": ".claude/docs/sports/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Awards and Honors",
+      "source_file": "source-material/sports/charlotte-latin/Charlotte Latin - Sports - Awards and Honors.pdf",
+      "note_file": ".claude/docs/sports/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Championships",
+      "source_file": "source-material/sports/charlotte-latin/Charlotte Latin - Sports - Championships.pdf",
+      "note_file": ".claude/docs/sports/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Coaches, Pedigree and Continuity",
+      "source_file": "source-material/sports/charlotte-latin/Charlotte Latin - Sports - Coaches, Pedigree and Continuity.pdf",
+      "note_file": ".claude/docs/sports/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "D1 Matriculation",
+      "source_file": "source-material/sports/charlotte-latin/Charlotte Latin - Sports - D1 Matriculation.pdf",
+      "note_file": ".claude/docs/sports/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Facilities and Infrastructure",
+      "source_file": "source-material/sports/charlotte-latin/Charlotte Latin - Sports - Facilities and Infrastructure.pdf",
+      "note_file": ".claude/docs/sports/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "NIL Landscape",
+      "source_file": "source-material/sports/charlotte-latin/Charlotte Latin - Sports - NIL Landscape.pdf",
+      "note_file": ".claude/docs/sports/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "National Football Profile",
+      "source_file": "source-material/sports/charlotte-latin/Charlotte Latin - Sports - National Football Profile.pdf",
+      "note_file": ".claude/docs/sports/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Power 4 Offers",
+      "source_file": "source-material/sports/charlotte-latin/Charlotte Latin - Sports - Power 4 Offers.pdf",
+      "note_file": ".claude/docs/sports/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Professional Athletes",
+      "source_file": "source-material/sports/charlotte-latin/Charlotte Latin - Sports - Professional Athletes.pdf",
+      "note_file": ".claude/docs/sports/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Sports Medicine and Performance",
+      "source_file": "source-material/sports/charlotte-latin/Charlotte Latin - Sports - Sports Medicine and Performance.pdf",
+      "note_file": ".claude/docs/sports/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Sports Offered",
+      "source_file": "source-material/sports/charlotte-latin/Charlotte Latin - Sports - Sports Offered.pdf",
+      "note_file": ".claude/docs/sports/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Top 100 Recruiting Rankings",
+      "source_file": "source-material/sports/charlotte-latin/Charlotte Latin - Sports - Top 100 Recruiting Rankings.pdf",
+      "note_file": ".claude/docs/sports/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Win-Loss Records",
+      "source_file": "source-material/sports/charlotte-latin/Charlotte Latin - Sports - Win-Loss Records.pdf",
+      "note_file": ".claude/docs/sports/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Awards and Honors",
+      "source_file": "source-material/sports/davidson-day/Davidson_Day__Sports__Awards_and_Honors.pdf",
+      "note_file": ".claude/docs/sports/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Championships",
+      "source_file": "source-material/sports/davidson-day/Davidson_Day__Sports__Championships.pdf",
+      "note_file": ".claude/docs/sports/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Coaches Pedigree and Continuity",
+      "source_file": "source-material/sports/davidson-day/Davidson_Day__Sports__Coaches_Pedigree_and_Continuity.pdf",
+      "note_file": ".claude/docs/sports/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "D1 and Top-50 Academic Matriculation",
+      "source_file": "source-material/sports/davidson-day/Davidson_Day__Sports__D1_and_Top-50_Academic_Matriculation.pdf",
+      "note_file": ".claude/docs/sports/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Facilities and Infrastructure",
+      "source_file": "source-material/sports/davidson-day/Davidson_Day__Sports__Facilities_and_Infrastructure.pdf",
+      "note_file": ".claude/docs/sports/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "NIL Landscape",
+      "source_file": "source-material/sports/davidson-day/Davidson_Day__Sports__NIL_Landscape.pdf",
+      "note_file": ".claude/docs/sports/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "National Basketball Profile",
+      "source_file": "source-material/sports/davidson-day/Davidson_Day__Sports__National_Basketball_Profile.pdf",
+      "note_file": ".claude/docs/sports/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Power 4 Offers",
+      "source_file": "source-material/sports/davidson-day/Davidson_Day__Sports__Power_4_Offers.pdf",
+      "note_file": ".claude/docs/sports/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Professional Athletes",
+      "source_file": "source-material/sports/davidson-day/Davidson_Day__Sports__Professional_Athletes.pdf",
+      "note_file": ".claude/docs/sports/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Sports Medicine and Performance",
+      "source_file": "source-material/sports/davidson-day/Davidson_Day__Sports__Sports_Medicine_and_Performance.pdf",
+      "note_file": ".claude/docs/sports/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Sports Offered",
+      "source_file": "source-material/sports/davidson-day/Davidson_Day__Sports__Sports_Offered.pdf",
+      "note_file": ".claude/docs/sports/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Top 100 Recruiting Rankings",
+      "source_file": "source-material/sports/davidson-day/Davidson_Day__Sports__Top_100_Recruiting_Rankings.pdf",
+      "note_file": ".claude/docs/sports/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "WinLoss Records",
+      "source_file": "source-material/sports/davidson-day/Davidson_Day__Sports__WinLoss_Records.pdf",
+      "note_file": ".claude/docs/sports/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Awards and Honors",
+      "source_file": "source-material/sports/providence-day/PD - Sports - Awards and Honors.pdf",
+      "note_file": ".claude/docs/sports/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Championships",
+      "source_file": "source-material/sports/providence-day/PD - Sports - Championships.pdf",
+      "note_file": ".claude/docs/sports/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Coaches, Pedigree and Continuity",
+      "source_file": "source-material/sports/providence-day/PD - Sports - Coaches, Pedigree and Continuity.pdf",
+      "note_file": ".claude/docs/sports/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "D1 Matriculation",
+      "source_file": "source-material/sports/providence-day/PD - Sports - D1 Matriculation.pdf",
+      "note_file": ".claude/docs/sports/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Facilities and Infrastructure",
+      "source_file": "source-material/sports/providence-day/PD - Sports - Facilities and Infrastructure.pdf",
+      "note_file": ".claude/docs/sports/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "NIL Landscape",
+      "source_file": "source-material/sports/providence-day/PD - Sports - NIL Landscape.pdf",
+      "note_file": ".claude/docs/sports/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "National Football Profile",
+      "source_file": "source-material/sports/providence-day/PD - Sports - National Football Profile.pdf",
+      "note_file": ".claude/docs/sports/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Power 4 Offers",
+      "source_file": "source-material/sports/providence-day/PD - Sports - Power 4 Offers.pdf",
+      "note_file": ".claude/docs/sports/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Professional Athletes",
+      "source_file": "source-material/sports/providence-day/PD - Sports - Professional Athletes.pdf",
+      "note_file": ".claude/docs/sports/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Sports Medicine and Performance",
+      "source_file": "source-material/sports/providence-day/PD - Sports - Sports Medicine and Performance.pdf",
+      "note_file": ".claude/docs/sports/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Sports Offered",
+      "source_file": "source-material/sports/providence-day/PD - Sports - Sports Offered.pdf",
+      "note_file": ".claude/docs/sports/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Top 100 Recruiting Rankings",
+      "source_file": "source-material/sports/providence-day/PD - Sports - Top 100 Recruiting Rankings.pdf",
+      "note_file": ".claude/docs/sports/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Win-Loss Records",
+      "source_file": "source-material/sports/providence-day/PD - Sports - Win-Loss Records.pdf",
+      "note_file": ".claude/docs/sports/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Academic Case",
+      "source_file": "source-material/college-support/cannon/Cannon School - College Support - Academic Case.pdf",
+      "note_file": ".claude/docs/college-support/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Application Support",
+      "source_file": "source-material/college-support/cannon/Cannon School - College Support - Application Support.pdf",
+      "note_file": ".claude/docs/college-support/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Counseling Engine",
+      "source_file": "source-material/college-support/cannon/Cannon School - College Support - Counseling Engine.pdf",
+      "note_file": ".claude/docs/college-support/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Fit and Rank",
+      "source_file": "source-material/college-support/cannon/Cannon School - College Support - Fit and Rank.pdf",
+      "note_file": ".claude/docs/college-support/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Institutional Leverage",
+      "source_file": "source-material/college-support/cannon/Cannon School - College Support - Institutional Leverage.pdf",
+      "note_file": ".claude/docs/college-support/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "NotebookLM Prompt",
+      "source_file": "source-material/college-support/cannon/Cannon School - College Support - NotebookLM Prompt.md",
+      "note_file": ".claude/docs/college-support/cannon.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Outcomes",
+      "source_file": "source-material/college-support/cannon/Cannon School - College Support - Outcomes.pdf",
+      "note_file": ".claude/docs/college-support/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Standing Out",
+      "source_file": "source-material/college-support/cannon/Cannon School - College Support - Standing Out.pdf",
+      "note_file": ".claude/docs/college-support/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Academic Case",
+      "source_file": "source-material/college-support/charlotte-christian/Charlotte Christian - College Support - Academic Case.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Application Support",
+      "source_file": "source-material/college-support/charlotte-christian/Charlotte Christian - College Support - Application Support.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Counseling Engine",
+      "source_file": "source-material/college-support/charlotte-christian/Charlotte Christian - College Support - Counseling Engine.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Fit and Rank",
+      "source_file": "source-material/college-support/charlotte-christian/Charlotte Christian - College Support - Fit and Rank.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Institutional Leverage",
+      "source_file": "source-material/college-support/charlotte-christian/Charlotte Christian - College Support - Institutional Leverage.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "NotebookLM Prompt",
+      "source_file": "source-material/college-support/charlotte-christian/Charlotte Christian - College Support - NotebookLM Prompt.txt",
+      "note_file": ".claude/docs/college-support/charlotte-christian.md",
+      "type": "txt"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Outcomes",
+      "source_file": "source-material/college-support/charlotte-christian/Charlotte Christian - College Support - Outcomes.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Standing Out",
+      "source_file": "source-material/college-support/charlotte-christian/Charlotte Christian - College Support - Standing Out.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Deep Research",
+      "source_file": "source-material/college-support/charlotte-christian/Charlotte Christian School - College Counseling, Preparation, and Placement Outcomes — A Parent-Facing Report - Deep Research.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Academic Case",
+      "source_file": "source-material/college-support/charlotte-country-day/CCD - College Support - Academic Case.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Application Support",
+      "source_file": "source-material/college-support/charlotte-country-day/CCD - College Support - Application Support.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Counseling Engine",
+      "source_file": "source-material/college-support/charlotte-country-day/CCD - College Support - Counseling Engine.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Fit and Rank",
+      "source_file": "source-material/college-support/charlotte-country-day/CCD - College Support - Fit and Rank.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Institutional Leverage",
+      "source_file": "source-material/college-support/charlotte-country-day/CCD - College Support - Institutional Leverage.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "NotebookLM Prompt",
+      "source_file": "source-material/college-support/charlotte-country-day/CCD - College Support - NotebookLM Prompt.txt",
+      "note_file": ".claude/docs/college-support/charlotte-country-day.md",
+      "type": "txt"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Outcomes",
+      "source_file": "source-material/college-support/charlotte-country-day/CCD - College Support - Outcomes.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Standing Out",
+      "source_file": "source-material/college-support/charlotte-country-day/CCD - College Support - Standing Out.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Academic Case",
+      "source_file": "source-material/college-support/charlotte-latin/Charlotte Latin - College Support - Academic Case.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Application Support",
+      "source_file": "source-material/college-support/charlotte-latin/Charlotte Latin - College Support - Application Support.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Counseling Engine",
+      "source_file": "source-material/college-support/charlotte-latin/Charlotte Latin - College Support - Counseling Engine.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Fit and Rank",
+      "source_file": "source-material/college-support/charlotte-latin/Charlotte Latin - College Support - Fit and Rank.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Institutional Leverage",
+      "source_file": "source-material/college-support/charlotte-latin/Charlotte Latin - College Support - Institutional Leverage.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "NotebookLM Prompt v2",
+      "source_file": "source-material/college-support/charlotte-latin/Charlotte Latin - College Support - NotebookLM Prompt v2.md",
+      "note_file": ".claude/docs/college-support/charlotte-latin.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Outcomes",
+      "source_file": "source-material/college-support/charlotte-latin/Charlotte Latin - College Support - Outcomes.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Standing Out",
+      "source_file": "source-material/college-support/charlotte-latin/Charlotte Latin - College Support - Standing Out.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Deep Research",
+      "source_file": "source-material/college-support/charlotte-latin/Charlotte Latin School College Counseling - 2025-26 Program Review - Deep Research.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Academic Case",
+      "source_file": "source-material/college-support/davidson-day/Davidson Day - College Support - Academic Case.pdf",
+      "note_file": ".claude/docs/college-support/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Application Support",
+      "source_file": "source-material/college-support/davidson-day/Davidson Day - College Support - Application Support.pdf",
+      "note_file": ".claude/docs/college-support/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Counseling Engine",
+      "source_file": "source-material/college-support/davidson-day/Davidson Day - College Support - Counseling Engine.pdf",
+      "note_file": ".claude/docs/college-support/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Fit and the Whole Class",
+      "source_file": "source-material/college-support/davidson-day/Davidson Day - College Support - Fit and the Whole Class.pdf",
+      "note_file": ".claude/docs/college-support/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Institutional Leverage",
+      "source_file": "source-material/college-support/davidson-day/Davidson Day - College Support - Institutional Leverage.pdf",
+      "note_file": ".claude/docs/college-support/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "NotebookLM Prompt",
+      "source_file": "source-material/college-support/davidson-day/Davidson Day - College Support - NotebookLM Prompt.md",
+      "note_file": ".claude/docs/college-support/davidson-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Outcomes",
+      "source_file": "source-material/college-support/davidson-day/Davidson Day - College Support - Outcomes.pdf",
+      "note_file": ".claude/docs/college-support/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Standing Out",
+      "source_file": "source-material/college-support/davidson-day/Davidson Day - College Support - Standing Out.pdf",
+      "note_file": ".claude/docs/college-support/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Academic Case",
+      "source_file": "source-material/college-support/providence-day/Providence Day - College Support - Academic Case.pdf",
+      "note_file": ".claude/docs/college-support/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Application Support",
+      "source_file": "source-material/college-support/providence-day/Providence Day - College Support - Application Support.pdf",
+      "note_file": ".claude/docs/college-support/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Counseling Engine",
+      "source_file": "source-material/college-support/providence-day/Providence Day - College Support - Counseling Engine.pdf",
+      "note_file": ".claude/docs/college-support/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Fit and Rank",
+      "source_file": "source-material/college-support/providence-day/Providence Day - College Support - Fit and Rank.pdf",
+      "note_file": ".claude/docs/college-support/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Institutional Leverage",
+      "source_file": "source-material/college-support/providence-day/Providence Day - College Support - Institutional Leverage.pdf",
+      "note_file": ".claude/docs/college-support/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "NotebookLM Prompt",
+      "source_file": "source-material/college-support/providence-day/Providence Day - College Support - NotebookLM Prompt.txt",
+      "note_file": ".claude/docs/college-support/providence-day.md",
+      "type": "txt"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Outcomes",
+      "source_file": "source-material/college-support/providence-day/Providence Day - College Support - Outcomes.pdf",
+      "note_file": ".claude/docs/college-support/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Standing Out",
+      "source_file": "source-material/college-support/providence-day/Providence Day - College Support - Standing Out.pdf",
+      "note_file": ".claude/docs/college-support/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Deep Research",
+      "source_file": "source-material/college-support/providence-day/Providence Day School College Counseling and Placement Program - Program Review and Outcomes Analysis - Deep Research.pdf",
+      "note_file": ".claude/docs/college-support/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Affinity and Identity Groups",
+      "source_file": "source-material/student-clubs/cannon/Cannon - Clubs - Affinity and Identity Groups.pdf",
+      "note_file": ".claude/docs/student-clubs/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Catalog Upper School",
+      "source_file": "source-material/student-clubs/cannon/Cannon - Clubs - Catalog Upper School.pdf",
+      "note_file": ".claude/docs/student-clubs/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Governance and Student Leadership",
+      "source_file": "source-material/student-clubs/cannon/Cannon - Clubs - Governance and Student Leadership.pdf",
+      "note_file": ".claude/docs/student-clubs/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Honor Societies",
+      "source_file": "source-material/student-clubs/cannon/Cannon - Clubs - Honor Societies.pdf",
+      "note_file": ".claude/docs/student-clubs/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Lower School",
+      "source_file": "source-material/student-clubs/cannon/Cannon - Clubs - Lower School.pdf",
+      "note_file": ".claude/docs/student-clubs/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Middle School",
+      "source_file": "source-material/student-clubs/cannon/Cannon - Clubs - Middle School.pdf",
+      "note_file": ".claude/docs/student-clubs/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "NotebookLM Prompt",
+      "source_file": "source-material/student-clubs/cannon/Cannon - Clubs - NotebookLM Prompt.md",
+      "note_file": ".claude/docs/student-clubs/cannon.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Service Learning and Community Engagement",
+      "source_file": "source-material/student-clubs/cannon/Cannon - Clubs - Service Learning and Community Engagement.pdf",
+      "note_file": ".claude/docs/student-clubs/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Signature Competitive Programs",
+      "source_file": "source-material/student-clubs/cannon/Cannon - Clubs - Signature Competitive Programs.pdf",
+      "note_file": ".claude/docs/student-clubs/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Academic and Competition Clubs",
+      "source_file": "source-material/student-clubs/charlotte-christian/Charlotte Christian - Clubs - Academic and Competition Clubs.pdf",
+      "note_file": ".claude/docs/student-clubs/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Affinity Identity and Global Awareness Groups",
+      "source_file": "source-material/student-clubs/charlotte-christian/Charlotte Christian - Clubs - Affinity Identity and Global Awareness Groups.pdf",
+      "note_file": ".claude/docs/student-clubs/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Clubs and Activities Landscape",
+      "source_file": "source-material/student-clubs/charlotte-christian/Charlotte Christian - Clubs - Clubs and Activities Landscape.pdf",
+      "note_file": ".claude/docs/student-clubs/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Honor Societies",
+      "source_file": "source-material/student-clubs/charlotte-christian/Charlotte Christian - Clubs - Honor Societies.pdf",
+      "note_file": ".claude/docs/student-clubs/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Leadership Governance and Student Media",
+      "source_file": "source-material/student-clubs/charlotte-christian/Charlotte Christian - Clubs - Leadership Governance and Student Media.pdf",
+      "note_file": ".claude/docs/student-clubs/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Lower and Middle School Activities",
+      "source_file": "source-material/student-clubs/charlotte-christian/Charlotte Christian - Clubs - Lower and Middle School Activities.pdf",
+      "note_file": ".claude/docs/student-clubs/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "NotebookLM Prompt",
+      "source_file": "source-material/student-clubs/charlotte-christian/Charlotte Christian - Clubs - NotebookLM Prompt.md",
+      "note_file": ".claude/docs/student-clubs/charlotte-christian.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Service and Outreach Organizations",
+      "source_file": "source-material/student-clubs/charlotte-christian/Charlotte Christian - Clubs - Service and Outreach Organizations.pdf",
+      "note_file": ".claude/docs/student-clubs/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Special Interest and Recreational Clubs",
+      "source_file": "source-material/student-clubs/charlotte-christian/Charlotte Christian - Clubs - Special Interest and Recreational Clubs.pdf",
+      "note_file": ".claude/docs/student-clubs/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Academic and Competition Clubs",
+      "source_file": "source-material/student-clubs/charlotte-country-day/CCD - Clubs - Academic and Competition Clubs.pdf",
+      "note_file": ".claude/docs/student-clubs/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Affinity and Identity Groups",
+      "source_file": "source-material/student-clubs/charlotte-country-day/CCD - Clubs - Affinity and Identity Groups.pdf",
+      "note_file": ".claude/docs/student-clubs/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Club Catalog and Overview",
+      "source_file": "source-material/student-clubs/charlotte-country-day/CCD - Clubs - Club Catalog and Overview.pdf",
+      "note_file": ".claude/docs/student-clubs/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Governance and Leadership",
+      "source_file": "source-material/student-clubs/charlotte-country-day/CCD - Clubs - Governance and Leadership.pdf",
+      "note_file": ".claude/docs/student-clubs/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Honor Societies",
+      "source_file": "source-material/student-clubs/charlotte-country-day/CCD - Clubs - Honor Societies.pdf",
+      "note_file": ".claude/docs/student-clubs/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "NotebookLM Prompt",
+      "source_file": "source-material/student-clubs/charlotte-country-day/CCD - Clubs - NotebookLM Prompt.md",
+      "note_file": ".claude/docs/student-clubs/charlotte-country-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Publications and Media",
+      "source_file": "source-material/student-clubs/charlotte-country-day/CCD - Clubs - Publications and Media.pdf",
+      "note_file": ".claude/docs/student-clubs/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Service and Civic Engagement",
+      "source_file": "source-material/student-clubs/charlotte-country-day/CCD - Clubs - Service and Civic Engagement.pdf",
+      "note_file": ".claude/docs/student-clubs/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Signature Achievements and Honors",
+      "source_file": "source-material/student-clubs/charlotte-country-day/CCD - Clubs - Signature Achievements and Honors.pdf",
+      "note_file": ".claude/docs/student-clubs/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Academic and Competitive Programs",
+      "source_file": "source-material/student-clubs/charlotte-latin/Charlotte Latin - Clubs - Academic and Competitive Programs.pdf",
+      "note_file": ".claude/docs/student-clubs/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Club Catalog and Descriptions",
+      "source_file": "source-material/student-clubs/charlotte-latin/Charlotte Latin - Clubs - Club Catalog and Descriptions.pdf",
+      "note_file": ".claude/docs/student-clubs/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Governance, Formation, Funding and Discovery",
+      "source_file": "source-material/student-clubs/charlotte-latin/Charlotte Latin - Clubs - Governance, Formation, Funding and Discovery.pdf",
+      "note_file": ".claude/docs/student-clubs/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "NotebookLM Episode Prompt",
+      "source_file": "source-material/student-clubs/charlotte-latin/Charlotte Latin - Clubs - NotebookLM Episode Prompt.md",
+      "note_file": ".claude/docs/student-clubs/charlotte-latin.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Participation and Popularity",
+      "source_file": "source-material/student-clubs/charlotte-latin/Charlotte Latin - Clubs - Participation and Popularity.pdf",
+      "note_file": ".claude/docs/student-clubs/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Service, Leadership and Civic Engagement",
+      "source_file": "source-material/student-clubs/charlotte-latin/Charlotte Latin - Clubs - Service, Leadership and Civic Engagement.pdf",
+      "note_file": ".claude/docs/student-clubs/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Thematic Pathways",
+      "source_file": "source-material/student-clubs/charlotte-latin/Charlotte Latin - Clubs - Thematic Pathways.pdf",
+      "note_file": ".claude/docs/student-clubs/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "AFAR Archaeology and Global Studies",
+      "source_file": "source-material/student-clubs/davidson-day/Davidson Day - Clubs - AFAR Archaeology and Global Studies.pdf",
+      "note_file": ".claude/docs/student-clubs/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Academic Recognition and Competition",
+      "source_file": "source-material/student-clubs/davidson-day/Davidson Day - Clubs - Academic Recognition and Competition.pdf",
+      "note_file": ".claude/docs/student-clubs/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Diversity Belonging and Student Leadership",
+      "source_file": "source-material/student-clubs/davidson-day/Davidson Day - Clubs - Diversity Belonging and Student Leadership.pdf",
+      "note_file": ".claude/docs/student-clubs/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "NotebookLM Prompt",
+      "source_file": "source-material/student-clubs/davidson-day/Davidson Day - Clubs - NotebookLM Prompt.txt",
+      "note_file": ".claude/docs/student-clubs/davidson-day.md",
+      "type": "txt"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Publications and Student Media",
+      "source_file": "source-material/student-clubs/davidson-day/Davidson Day - Clubs - Publications and Student Media.pdf",
+      "note_file": ".claude/docs/student-clubs/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Service and Community Engagement",
+      "source_file": "source-material/student-clubs/davidson-day/Davidson Day - Clubs - Service and Community Engagement.pdf",
+      "note_file": ".claude/docs/student-clubs/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Signature Traditions and Student Life",
+      "source_file": "source-material/student-clubs/davidson-day/Davidson Day - Clubs - Signature Traditions and Student Life.pdf",
+      "note_file": ".claude/docs/student-clubs/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Academic and Competitive Programs",
+      "source_file": "source-material/student-clubs/providence-day/PD - Clubs - Academic and Competitive Programs.pdf",
+      "note_file": ".claude/docs/student-clubs/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Club Catalog and Descriptions",
+      "source_file": "source-material/student-clubs/providence-day/PD - Clubs - Club Catalog and Descriptions.pdf",
+      "note_file": ".claude/docs/student-clubs/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Governance, Formation, Funding and Discovery",
+      "source_file": "source-material/student-clubs/providence-day/PD - Clubs - Governance, Formation, Funding and Discovery.pdf",
+      "note_file": ".claude/docs/student-clubs/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "NotebookLM Episode Prompt",
+      "source_file": "source-material/student-clubs/providence-day/PD - Clubs - NotebookLM Episode Prompt.md",
+      "note_file": ".claude/docs/student-clubs/providence-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Participation and Popularity",
+      "source_file": "source-material/student-clubs/providence-day/PD - Clubs - Participation and Popularity.pdf",
+      "note_file": ".claude/docs/student-clubs/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Service, Leadership and Civic Engagement",
+      "source_file": "source-material/student-clubs/providence-day/PD - Clubs - Service, Leadership and Civic Engagement.pdf",
+      "note_file": ".claude/docs/student-clubs/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Thematic Pathways",
+      "source_file": "source-material/student-clubs/providence-day/PD - Clubs - Thematic Pathways.pdf",
+      "note_file": ".claude/docs/student-clubs/providence-day.md",
+      "type": "pdf"
+    }
+  ]
+}

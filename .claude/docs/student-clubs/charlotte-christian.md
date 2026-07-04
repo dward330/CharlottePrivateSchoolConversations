@@ -1,0 +1,534 @@
+# Charlotte Christian School — Student Clubs
+> Distilled from 9 source document(s) in `source-material/student-clubs/charlotte-christian/`. Auto-extracted full text, lightly cleaned. Compiled 2026-07-03.
+**Documents:** Academic and Competition Clubs, Affinity Identity and Global Awareness Groups, Clubs and Activities Landscape, Honor Societies, Leadership Governance and Student Media, Lower and Middle School Activities, NotebookLM Prompt, Service and Outreach Organizations, Special Interest and Recreational Clubs
+
+
+---
+
+## Academic and Competition Clubs
+
+*Source file: `Charlotte Christian - Clubs - Academic and Competition Clubs.pdf`*
+
+CHARLOTTE CHRISTIAN SCHOOL KNIGHTS — CLUBS & ACTIVITIES RESEARCH DOSSIER Charlotte, NC
+Academic & Competition Clubs
+Research Area — Scholastic and competitive student organizations
+Charlotte Christian's competition-oriented clubs span business, debate, diplomacy, classical language, robotics,
+and chess, across the Upper and Middle Schools.
+AT A GLANCE
+Upper School DECA, Debate, Model UN, Latin Club, and the VEX Robotics Competition Team.
+Middle School Chess (with a competitive Chess Team that has placed at tournament).
+VEX VRC team for grades 9–12; Middle and Lower School robotics also compete via
+Robotics
+VEX.
+Listed as available student clubs; competitive results cited only where the school
+Calibration
+reports them.
+Upper School academic & competition clubs
+Club Focus Notes
+DECA Business / marketing Career-and-technical student organization for business, marketing,
+and entrepreneurship events.
+Debate Speech & debate Student-led competitive debate club.
+Model UN Diplomacy / global Simulated UN committees; pairs with the school's global-awareness
+affairs emphasis.
+Latin Club Classical language & Student club tied to the classical world-languages program.
+culture
+Robotics Competition STEM / engineering VEX VRC team (grades 9–12): design, build, program, and
+Team compete; emphasis on the engineering design process.
+[Source: Charlotte Christian School — Upper School page (charlottechristian.com/academics/upper-school)]
+Middle School: Chess
+Chess is offered as a Middle School after-school club, and the school fields a competitive Middle School
+Chess Team. School news reported the team earning second place at a tournament (“Making Their Move:
+Middle School Chess Team Earns Second Place”). A student-proposed “chess club” also appears among
+“Knight Tank” student-pitch winners; Knight Tank is an idea-pitch program, so not every proposal becomes
+a standing club — but the competitive Chess Team is separately and firmly confirmed.
+[Source: Charlotte Christian School — Middle School page (charlottechristian.com/academics/middle-school); Source:
+Charlotte Christian School — CCS News (charlottechristian.com/about/ccs-news)]
+Robotics across divisions
+(cid:127) Upper School: VEX VRC Robotics Competition Team for grades 9–12.
+(cid:127) Middle School: robotics is offered primarily as an innovation elective, with VEX competition teams.
+(cid:127) Lower School: a parent review notes “the recent addition of a competitive Robotics Team” among
+after-school offerings.
+Compiled June 25, 2026. Sources cited inline and listed at the end of each document. Page 1
+CHARLOTTE CHRISTIAN SCHOOL KNIGHTS — CLUBS & ACTIVITIES RESEARCH DOSSIER Charlotte, NC
+[Source: Charlotte Christian School — Upper School page (charlottechristian.com/academics/upper-school); Source:
+Charlotte Christian School — Middle School page (charlottechristian.com/academics/middle-school); Source:
+PrivateSchoolReview.com — Charlotte Christian School parent reviews]
+Gaps
+Charlotte Christian does not publish per-club competitive records or membership numbers for most
+academic clubs. Where results are not reported by the school, none are inferred here.
+Sources
+Source: Charlotte Christian School — Upper School page (charlottechristian.com/academics/upper-school).
+Source: Charlotte Christian School — Middle School page (charlottechristian.com/academics/middle-school).
+Source: Charlotte Christian School — CCS News (charlottechristian.com/about/ccs-news).
+Source: PrivateSchoolReview.com — Charlotte Christian School parent reviews.
+Compiled June 25, 2026. Sources cited inline and listed at the end of each document. Page 2
+
+
+---
+
+## Affinity Identity and Global Awareness Groups
+
+*Source file: `Charlotte Christian - Clubs - Affinity Identity and Global Awareness Groups.pdf`*
+
+CHARLOTTE CHRISTIAN SCHOOL KNIGHTS — CLUBS & ACTIVITIES RESEARCH DOSSIER Charlotte, NC
+Affinity, Identity & Global Awareness Groups
+Research Area — Belonging, global-awareness, and identity-oriented student groups
+The student-facing groups in this category center on global awareness. The school also runs belonging
+programs and a parent/community group, which are distinguished from student clubs below.
+AT A GLANCE
+Upper School Global Knights Club, supported by staff and the Global Awareness Prefect.
+Middle School Global Knights student group (multicultural assemblies, guest speakers, initiatives).
+Belonging program Middle School “kingdom” system (six kingdoms) — a structure, not a club.
+Parent/community Romans 12 Initiative — a community group, not a student club.
+Only Global Knights could be confirmed as a student affinity/global group in each
+Calibration
+division.
+Global Knights (student groups)
+(cid:127) Upper School — Global Knights Club: a global-awareness student club; the Diversity & Belonging
+page notes students celebrate cultures “with the support of staff, Global Knights Club, and the Global
+Awareness Prefect.”
+(cid:127) Middle School — Global Knights student group: Middle School students “strengthen their global
+awareness” through “involvement in initiatives from our Global Knights student group,” alongside
+multicultural assemblies and guest speakers.
+[Source: Charlotte Christian School — Diversity & Belonging (charlottechristian.com/about/diversity)]
+Belonging programs (not clubs)
+(cid:127) “Six kingdoms, one king”: the Middle School assigns every student to one of six “kingdoms” that meet
+routinely for activities, games, and team-building — a belonging/leadership structure rather than a
+student club.
+(cid:127) Diversity & Belonging division programming: Lower, Middle, and Upper School each run
+developmental belonging programming led by the Director of Diversity, Belonging and Global
+Awareness.
+[Source: Charlotte Christian School — Middle School page (charlottechristian.com/academics/middle-school); Source:
+Charlotte Christian School — Diversity & Belonging (charlottechristian.com/about/diversity)]
+Parent / community group (not a student club)
+The Romans 12 Initiative is a monthly diversity-and-belonging discussion group made up of members of
+the CCS community (parents and staff). It is a community group, not a student club, and is excluded from
+the student-club count.
+[Source: Charlotte Christian School — Diversity & Belonging (charlottechristian.com/about/diversity)]
+Gaps
+Compiled June 25, 2026. Sources cited inline and listed at the end of each document. Page 1
+CHARLOTTE CHRISTIAN SCHOOL KNIGHTS — CLUBS & ACTIVITIES RESEARCH DOSSIER Charlotte, NC
+Beyond Global Knights, no ethnicity-, gender-, or identity-specific student affinity groups could be
+confirmed from public sources. (Girl's Leadership appears among Upper School clubs and is covered in the
+special-interest dossier.) Their absence in public sources is reported as a gap, not as confirmation that
+none exist.
+Sources
+Source: Charlotte Christian School — Diversity & Belonging (charlottechristian.com/about/diversity).
+Source: Charlotte Christian School — Middle School page (charlottechristian.com/academics/middle-school).
+Compiled June 25, 2026. Sources cited inline and listed at the end of each document. Page 2
+
+
+---
+
+## Clubs and Activities Landscape
+
+*Source file: `Charlotte Christian - Clubs - Clubs and Activities Landscape.pdf`*
+
+CHARLOTTE CHRISTIAN SCHOOL KNIGHTS — CLUBS & ACTIVITIES RESEARCH DOSSIER Charlotte, NC
+Clubs & Activities Landscape
+Research Area — Full in-scope roster across JK–12, with count reconciliation
+A division-by-division map of Charlotte Christian's student clubs and organizations. Upper School publishes the
+fullest list; Middle and Lower School offerings are partly schedule-embedded and rotate, so those counts are
+reported as named minimums.
+AT A GLANCE
+35 named student organizations across JK–12 (Lower/Middle counts are
+In-scope total
+non-exhaustive minimums).
+14 student clubs, 5 honor societies, 3 leadership/media bodies, 1 global-awareness
+Upper School
+club.
+3 in-scope clubs + 1 global-awareness student group (plus the six-“kingdom”
+Middle School
+belonging program).
+8 named after-school enrichment clubs (offerings rotate weekly; list is
+Lower School
+representative).
+Esports Confirmed present — an Upper School club and a Middle School after-school club.
+Named clubs are spread across several pages; the school publishes no single
+No master list
+directory.
+How the count is derived
+Charlotte Christian does not publish a single consolidated club directory. The roster below is assembled
+from the Upper School, Middle School, Diversity & Belonging, Campus Life, and news pages, plus a
+confirmed booster-store reference for esports. Where a page signals its list is partial (“just a few of the
+clubs,” “a variety of”), the count is reported as a named minimum rather than a closed total. Scope note:
+This series covers student clubs, activities, and organizations outside of interscholastic athletics and the
+fine arts, which are documented in their own dedicated dossiers and episodes. Recreational student-led
+clubs and arts-affiliated honor societies remain in scope; esports is in scope. Advisor and student-leader
+names are omitted by design.
+In-scope roster by division
+Division Category Count Named organizations
+Upper Student clubs 14 Athletes in Action; Best Buddies; Debate; DECA; Environmental; Girl's
+(9–12) Leadership; Healthy Lifestyle; Letters of Light; Movie; Spikeball; Ultimate
+Frisbee; Latin; Model UN; Esports
+Upper Honor 5 National Honor Society; Spanish NHS; Tri-M Music; National Art HS;
+(9–12) societies International Thespian Society
+Upper Leadership / 3 Prefect Leadership System (9 roles); Knights Knews broadcast; VEX
+(9–12) media Robotics Competition Team
+Upper Global 1 Global Knights Club
+(9–12) awareness
+Compiled June 25, 2026. Sources cited inline and listed at the end of each document. Page 1
+CHARLOTTE CHRISTIAN SCHOOL KNIGHTS — CLUBS & ACTIVITIES RESEARCH DOSSIER Charlotte, NC
+Division Category Count Named organizations
+Middle Student clubs 3 Mountain biking; Chess (incl. competitive Chess Team); Esports
+(5–8)
+Middle Global 1 Global Knights student group
+(5–8) awareness
+Lower Enrichment 8 Art; Coding; Flag football; Lacrosse; Running; Soccer; STEM; Robotics
+(JK–4) clubs Team (representative)
+[Source: Charlotte Christian School — Upper School page (charlottechristian.com/academics/upper-school); Source:
+Charlotte Christian School — Middle School page (charlottechristian.com/academics/middle-school); Source: Charlotte
+Christian School — Extended Day & After School Clubs (charlottechristian.com/campus-life/extended-day-after-school-clubs);
+Source: Charlotte Christian School — Diversity & Belonging (charlottechristian.com/about/diversity); Source: Emerge Apparel
+— Charlotte Christian Knights Booster Shop product pages (booster-store proceeds note)]
+Reconciliation & honest gaps
+(cid:127) Named in-scope total = 35: 23 Upper School + 4 Middle School + 8 Lower School. Division-specific
+instances of the same program (e.g., Global Knights at Upper and Middle) are counted separately.
+(cid:127) Lower & Middle School are minimums. Lower School enrichment rotates weekly and is posted in the
+school's “Focus” email; the public list is explicitly partial. The Middle School integrates clubs into the
+weekly schedule, so some offerings are not posted publicly.
+(cid:127) Programs counted separately from clubs: the Middle School “kingdom” system, Reading Knights,
+and Knights Serve are structured programs, not student clubs, and are not in the 35.
+(cid:127) Not student clubs (excluded): Romans 12 Initiative, PTF, N.E.W., Friends of the Arts, Booster Clubs,
+and the Grandparents Association are parent/community or support organizations.
+(cid:127) Could not confirm: a Middle School student council, a National Junior Honor Society chapter, or any
+identity/affinity student group beyond Global Knights. These are not assumed to exist.
+Sources
+Source: Charlotte Christian School — Upper School page (charlottechristian.com/academics/upper-school).
+Source: Charlotte Christian School — Middle School page (charlottechristian.com/academics/middle-school).
+Source: Charlotte Christian School — Extended Day & After School Clubs
+(charlottechristian.com/campus-life/extended-day-after-school-clubs).
+Source: Charlotte Christian School — Diversity & Belonging (charlottechristian.com/about/diversity).
+Source: Charlotte Christian School — Campus Life (charlottechristian.com/campus-life).
+Source: Charlotte Christian School — CCS News (charlottechristian.com/about/ccs-news).
+Source: Emerge Apparel — Charlotte Christian Knights Booster Shop product pages (booster-store proceeds note).
+Source: PrivateSchoolReview.com — Charlotte Christian School parent reviews.
+Compiled June 25, 2026. Sources cited inline and listed at the end of each document. Page 2
+
+
+---
+
+## Honor Societies
+
+*Source file: `Charlotte Christian - Clubs - Honor Societies.pdf`*
+
+CHARLOTTE CHRISTIAN SCHOOL KNIGHTS — CLUBS & ACTIVITIES RESEARCH DOSSIER Charlotte, NC
+Honor Societies
+Research Area — Academic and arts-affiliated honor societies
+Charlotte Christian's Upper School lists five honor societies spanning general academics, world language,
+music, visual art, and theatre.
+AT A GLANCE
+Count 5 honor societies, all at the Upper School.
+General National Honor Society.
+Spanish National Honor Society; Tri-M Music; National Art Honor Society;
+Discipline-specific
+International Thespian Society.
+Arts-affiliated honor societies are recognition bodies and remain in scope for this
+In scope
+series.
+Not confirmed No National Junior Honor Society chapter could be confirmed at the Middle School.
+Upper School honor societies
+Honor society Field Notes
+National Honor Society General Recognizes scholarship, leadership, service, and character.
+academics
+Spanish National Honor Society World language Recognizes achievement in Spanish.
+Tri-M Music Honor Society Music Recognizes musicianship and service through music.
+National Art Honor Society Visual art Recognizes achievement in the visual arts.
+International Thespian Society Theatre Recognizes achievement in theatre arts.
+[Source: Charlotte Christian School — Upper School page (charlottechristian.com/academics/upper-school)]
+Scope note on arts-affiliated societies
+Three of the five societies (Tri-M, National Art Honor Society, International Thespian Society) are tied to the
+fine arts. They are included here because they are recognition bodies — honor societies — rather than the
+performing or studio-arts programs themselves, which are covered in the separate arts dossier and
+episode.
+Gaps
+(cid:127) Middle School: no National Junior Honor Society chapter could be confirmed from public sources; its
+existence is not assumed.
+(cid:127) Membership / induction data: the school does not publish chapter sizes or induction counts, so none
+are reported here.
+Sources
+Source: Charlotte Christian School — Upper School page (charlottechristian.com/academics/upper-school).
+Compiled June 25, 2026. Sources cited inline and listed at the end of each document. Page 1
+
+
+---
+
+## Leadership Governance and Student Media
+
+*Source file: `Charlotte Christian - Clubs - Leadership Governance and Student Media.pdf`*
+
+CHARLOTTE CHRISTIAN SCHOOL KNIGHTS — CLUBS & ACTIVITIES RESEARCH DOSSIER Charlotte, NC
+Leadership, Governance & Student Media
+Research Area — Student government, leadership, and student-run media
+Upper School student governance runs on a prefect model, paired with a student-produced broadcast. Middle
+School leadership is less publicly documented and is flagged honestly.
+AT A GLANCE
+Upper School
+Prefect Leadership System — 9 mentored student-leader positions.
+government
+Student media Knights Knews — weekly student-produced broadcast + daily announcements.
+Model Each prefect leads a committee of student volunteers in an area of oversight.
+Middle School A formal Middle School student council could not be confirmed publicly.
+Prefect Leadership System (Upper School)
+Upper School student government uses a prefect system: nine student leaders are each mentored by a
+faculty member and lead a committee of student volunteers guiding their area of oversight. Prefects are
+framed as servant leaders.
+Prefect role Area of oversight
+Head Prefect Overall student leadership
+Academic Prefect Academics
+Admissions Prefect Admissions / ambassadors
+Athletic Prefect Athletics
+Global Awareness Prefect Global awareness / belonging
+Fine Arts Prefect Fine arts
+Service Prefect Service
+Spiritual Life Prefect Spiritual life
+Student Life Prefect Student life
+[Source: Charlotte Christian School — Upper School page (charlottechristian.com/academics/upper-school)]
+Knights Knews (student media)
+Knights Knews is a student-produced broadcast that airs weekly to all Upper School students, combining
+news and comedy sketches, and the group also provides daily video announcements. It maintains a
+YouTube channel.
+[Source: Charlotte Christian School — Upper School page (charlottechristian.com/academics/upper-school)]
+Middle & Lower School leadership
+(cid:127) Middle School: the “kingdom” system develops belonging and leadership, but a formal, named Middle
+School student council could not be confirmed from public sources.
+Compiled June 25, 2026. Sources cited inline and listed at the end of each document. Page 1
+CHARLOTTE CHRISTIAN SCHOOL KNIGHTS — CLUBS & ACTIVITIES RESEARCH DOSSIER Charlotte, NC
+(cid:127) Knight Tank: a student-idea pitch program in which student groups propose campus improvements;
+winners have included proposals such as a chess club and a fun run.
+[Source: Charlotte Christian School — Middle School page (charlottechristian.com/academics/middle-school); Source:
+Charlotte Christian School — CCS News (charlottechristian.com/about/ccs-news)]
+Gaps
+Public sources do not confirm a Middle School student council, Lower School student-leadership bodies, or
+prefect-election mechanics. None are inferred here.
+Sources
+Source: Charlotte Christian School — Upper School page (charlottechristian.com/academics/upper-school).
+Source: Charlotte Christian School — Middle School page (charlottechristian.com/academics/middle-school).
+Source: Charlotte Christian School — CCS News (charlottechristian.com/about/ccs-news).
+Compiled June 25, 2026. Sources cited inline and listed at the end of each document. Page 2
+
+
+---
+
+## Lower and Middle School Activities
+
+*Source file: `Charlotte Christian - Clubs - Lower and Middle School Activities.pdf`*
+
+CHARLOTTE CHRISTIAN SCHOOL KNIGHTS — CLUBS & ACTIVITIES RESEARCH DOSSIER Charlotte, NC
+Lower & Middle School Activities
+Research Area — Grade-level activities (JK–8), with how clubs form, fund, and are found
+Lower and Middle School offerings are partly schedule-embedded and rotate, so this dossier reports named
+minimums by grade band and folds in governance, funding, and discovery where data is thin.
+AT A GLANCE
+Lower School (JK–4) Rotating after-school enrichment clubs + a competitive Robotics Team.
+Middle School (5–8) Mountain biking, chess, esports; Global Knights group; six-“kingdom” system.
+Discovery Offerings posted in the weekly “Focus” email and integrated into the MS schedule.
+After-school/enrichment clubs run through Extended Day; specific fees not published
+Funding
+per club.
+Caveat Lower/Middle lists are representative, not exhaustive.
+Lower School (JK–4) after-school enrichment
+Lower School enrichment clubs run outside school hours, with descriptions and registration posted in the
+weekly “Focus” email. The school's own wording — “just a few of the clubs” — signals the list rotates and is
+not exhaustive.
+Activity Type
+Art Creative enrichment
+Coding STEM
+Flag football Recreational
+Lacrosse Recreational
+Running Recreational
+Soccer Recreational
+STEM STEM
+Robotics Team STEM / competitive (recent addition)
+[Source: Charlotte Christian School — Extended Day & After School Clubs
+(charlottechristian.com/campus-life/extended-day-after-school-clubs); Source: PrivateSchoolReview.com — Charlotte
+Christian School parent reviews]
+Two related programs sit alongside the clubs: Reading Knights, a reading-incentive program with
+quarterly recognition (a program, not a club), and winter youth athletics (Junior Knights basketball,
+interfaith basketball, intramural cheerleading), which fall under athletics.
+[Source: Charlotte Christian School — Extended Day & After School Clubs
+(charlottechristian.com/campus-life/extended-day-after-school-clubs); Source: Charlotte Christian School — Knights Parents'
+Hub (charlottechristian.com/campus-life/parents)]
+Middle School (5–8) activities
+(cid:127) In-scope clubs: mountain biking, chess (with a competitive Chess Team), and esports.
+Compiled June 25, 2026. Sources cited inline and listed at the end of each document. Page 1
+CHARLOTTE CHRISTIAN SCHOOL KNIGHTS — CLUBS & ACTIVITIES RESEARCH DOSSIER Charlotte, NC
+(cid:127) Global Knights student group: global-awareness involvement via assemblies, guest speakers, and
+initiatives.
+(cid:127) “Six kingdoms, one king”: every Middle School student is placed in one of six kingdoms that meet
+routinely for activities, games, and team-building — a belonging/leadership program.
+(cid:127) Innovation electives (curricular, not clubs): coding, engineering, architecture, 3D modeling, genius
+hour, design lab, robotics, and more — listed for context only.
+[Source: Charlotte Christian School — Middle School page (charlottechristian.com/academics/middle-school); Source:
+Charlotte Christian School — Diversity & Belonging (charlottechristian.com/about/diversity)]
+Governance, funding & discovery
+(cid:127) Governance: Lower/Middle clubs operate through division programming and Extended Day rather than
+a published club-charter process; a Middle School student council could not be confirmed.
+(cid:127) Funding: after-school and enrichment clubs run via the Extended Day structure; the school does not
+publish per-club fees publicly.
+(cid:127) Discovery: families learn of offerings through the weekly “Focus” email and myCCS, and (for Middle
+School) through clubs built into the weekly schedule — which is why public pages undercount actual
+offerings.
+[Source: Charlotte Christian School — Extended Day & After School Clubs
+(charlottechristian.com/campus-life/extended-day-after-school-clubs); Source: Charlotte Christian School — Knights Parents'
+Hub (charlottechristian.com/campus-life/parents); Source: PrivateSchoolReview.com — Charlotte Christian School parent
+reviews]
+Gaps
+A comprehensive Lower/Middle School named-club list beyond those above is not publicly retrievable; the
+rotating, schedule-embedded model means the true count is higher than what public pages show. No
+additional clubs are invented to fill the gap.
+Sources
+Source: Charlotte Christian School — Extended Day & After School Clubs
+(charlottechristian.com/campus-life/extended-day-after-school-clubs).
+Source: Charlotte Christian School — Middle School page (charlottechristian.com/academics/middle-school).
+Source: Charlotte Christian School — Diversity & Belonging (charlottechristian.com/about/diversity).
+Source: Charlotte Christian School — Knights Parents' Hub (charlottechristian.com/campus-life/parents).
+Source: PrivateSchoolReview.com — Charlotte Christian School parent reviews.
+Compiled June 25, 2026. Sources cited inline and listed at the end of each document. Page 2
+
+
+---
+
+## NotebookLM Prompt
+
+*Source file: `Charlotte Christian - Clubs - NotebookLM Prompt.md`*
+
+# NotebookLM Episode Prompt - Inside Charlotte Christian Clubs & Activities
+
+**How to use:** In NotebookLM, load the 8 Charlotte Christian Clubs dossiers as sources, choose Audio Overview, click Customize, and paste everything below the "PASTE FROM HERE" line into the customize box. Everything above that line is for you only and should NOT be pasted.
+
+- **Pasteable body length:** 4,609 characters including spaces (NotebookLM customize cap is 4,990).
+- **Recommended episode length setting:** Default (see reasoning in the chat message).
+- The two standing Clubs-series wording rules are built in: (1) sports and arts are framed as already-released past episodes, and (2) the sincere closing apology for any missed club.
+
+--- PASTE FROM HERE ---
+
+You are producing one episode of an audio podcast series titled "Inside Charlotte Christian Clubs & Activities." Two warm, conversational co-hosts talk through what our research found about student clubs and organizations at Charlotte Christian School — the Knights, in Charlotte, NC — across Lower, Middle, and Upper School. Ground every claim in the provided dossiers; do not invent clubs, numbers, or results. Avoid hype words like "elite," "best," or "powerhouse" unless a source explicitly supports them. Keep a balanced, honest tone and honor every "we couldn't confirm" caveat.
+
+Open with one host stating the full agenda in plain language: today we cover the overall clubs landscape; academic and competition clubs; service and outreach; honor societies; affinity and global-awareness groups; student leadership, government, and media; special-interest and recreational clubs; and Lower and Middle School activities — then close with takeaways. Say early that we've already devoted past episodes to Charlotte Christian's sports and to its arts, so we're not re-covering those here; this episode is about everything else.
+
+Segment 1 - Landscape: There's no single published club directory; we assembled the roster from several school pages. Read the FULL Upper School club list aloud: Athletes in Action, Best Buddies, Debate, DECA, Environmental Club, Girl's Leadership, Healthy Lifestyle Club, Letters of Light, Movie Club, Spikeball Club, Ultimate Frisbee, Latin Club, Model UN, and Esports. Across all divisions we counted about 35 named in-scope groups, but stress the Lower and Middle School numbers are minimums. Note the published Upper School list is representative, not exhaustive - esports isn't on the main clubs page but is confirmed elsewhere.
+
+Segment 2 - Academic & competition: DECA (business), Debate, Model UN, Latin Club, and the VEX Robotics Competition Team in the Upper School; Chess in the Middle School, with a competitive Chess Team that placed second at a tournament.
+
+Segment 3 - Service & outreach: Best Buddies (inclusion and friendship), Letters of Light (encouragement), and Athletes in Action (faith plus service). Note Knights Serve is the school-wide service program, not a single club.
+
+Segment 4 - Honor societies: five at the Upper School - National Honor Society, Spanish National Honor Society, Tri-M Music Honor Society, National Art Honor Society, and the International Thespian Society. We could not confirm a National Junior Honor Society chapter at the Middle School.
+
+Segment 5 - Affinity & global awareness: Global Knights - an Upper School club and a Middle School student group - is the confirmed global-awareness group. The Middle School also runs a "six kingdoms, one king" belonging system. Clarify the Romans 12 Initiative is a parent-and-community group, not a student club. Beyond Global Knights, we couldn't confirm other identity-based student groups.
+
+Segment 6 - Leadership, government & media: the Upper School Prefect Leadership System - nine student leaders (Head, Academic, Admissions, Athletic, Global Awareness, Fine Arts, Service, Spiritual Life, Student Life), each mentoring a committee. Knights Knews is the student-run weekly broadcast. A formal Middle School student council couldn't be confirmed.
+
+Segment 7 - Special-interest & recreational: Esports (confirmed at Charlotte Christian specifically), Spikeball, Ultimate Frisbee, Movie Club, Healthy Lifestyle Club, Environmental Club, and Girl's Leadership; plus Mountain Biking in the Middle School.
+
+Segment 8 - Lower & Middle School: Lower School after-school enrichment rotates weekly via the school's "Focus" email - named examples include art, coding, flag football, lacrosse, running, soccer, STEM, and a new competitive Robotics Team; plus the Reading Knights incentive program. Stress these lists are minimums, not complete. In the Middle School, in-scope clubs are mountain biking, chess, and esports; the after-school list also shows wrestling, baseball, and cheer, but those are athletics and belong to our sports coverage, not this episode.
+
+Closing - Takeaways: Charlotte Christian's student life is broad and faith-rooted, fullest and best-documented in the Upper School, with global awareness and service woven throughout; the Middle and Lower offerings clearly run deeper than public pages show. End with a sincere note: we apologize if we missed any club or activity - we're reporting only what our research surfaced.
+
+Pronunciation: DECA = "DECK-uh"; Tri-M = "Try-Em"; VEX = "vex"; Model UN = "Model U-N"; esports = "E-sports"; JK = "J-K" (junior kindergarten).
+
+
+---
+
+## Service and Outreach Organizations
+
+*Source file: `Charlotte Christian - Clubs - Service and Outreach Organizations.pdf`*
+
+CHARLOTTE CHRISTIAN SCHOOL KNIGHTS — CLUBS & ACTIVITIES RESEARCH DOSSIER Charlotte, NC
+Service & Outreach Organizations
+Research Area — Service, inclusion, and outreach student groups
+Service is woven through Charlotte Christian's student life as both standalone clubs and a school-wide program.
+The clubs below are student-facing; Knights Serve is the umbrella program.
+AT A GLANCE
+Service clubs Best Buddies, Letters of Light, and Athletes in Action (faith + service).
+Umbrella program Knights Serve coordinates service-learning school-wide.
+Inclusion Best Buddies focuses on friendship and inclusion.
+Calibration Described from the school's own framing; participation figures are not published.
+Service & outreach clubs
+Organization Type Notes
+Best Buddies Inclusion / friendship Student club fostering one-to-one friendship and inclusion.
+Letters of Light Outreach / Student club centered on written encouragement and outreach.
+encouragement
+Athletes in Action Faith + service Faith-based student group connecting athletics and Christian
+service.
+[Source: Charlotte Christian School — Upper School page (charlottechristian.com/academics/upper-school)]
+Knights Serve (school-wide program)
+Knights Serve is Charlotte Christian's service-learning program rather than a single club. It organizes
+service projects and partnerships across divisions and is woven into the school's spiritual-life rhythm. It is
+included here for context; it is a program, not a student club, and is not part of the in-scope club count.
+[Source: Charlotte Christian School — Campus Life (charlottechristian.com/campus-life); Source: Charlotte Christian School
+— Spiritual Life / Knights Serve (charlottechristian.com/campus-life)]
+Leadership overlap
+Service also runs through the Upper School Prefect Leadership System via the Service Prefect and
+Spiritual Life Prefect, who lead committees of student volunteers. Those leadership roles are detailed in the
+Leadership, Governance & Student Media dossier.
+[Source: Charlotte Christian School — Upper School page (charlottechristian.com/academics/upper-school)]
+Gaps
+The school does not publish rosters, hour totals, or partner lists for individual service clubs. No participation
+figures are inferred here.
+Sources
+Source: Charlotte Christian School — Upper School page (charlottechristian.com/academics/upper-school).
+Source: Charlotte Christian School — Campus Life (charlottechristian.com/campus-life).
+Compiled June 25, 2026. Sources cited inline and listed at the end of each document. Page 1
+CHARLOTTE CHRISTIAN SCHOOL KNIGHTS — CLUBS & ACTIVITIES RESEARCH DOSSIER Charlotte, NC
+Source: Charlotte Christian School — Spiritual Life / Knights Serve (charlottechristian.com/campus-life).
+Compiled June 25, 2026. Sources cited inline and listed at the end of each document. Page 2
+
+
+---
+
+## Special Interest and Recreational Clubs
+
+*Source file: `Charlotte Christian - Clubs - Special Interest and Recreational Clubs.pdf`*
+
+CHARLOTTE CHRISTIAN SCHOOL KNIGHTS — CLUBS & ACTIVITIES RESEARCH DOSSIER Charlotte, NC
+Special-Interest & Recreational Clubs
+Research Area — Hobby, recreational, and interest-based student clubs
+Charlotte Christian's recreational and special-interest clubs cover gaming, casual sport, film, wellness, the
+environment, and leadership — student-led and distinct from interscholastic teams.
+AT A GLANCE
+Esports Confirmed as an Upper School club (and a Middle School after-school club).
+Recreational sport
+Spikeball and Ultimate Frisbee — student clubs, not interscholastic teams.
+clubs
+Interest clubs Movie Club, Healthy Lifestyle Club, Environmental Club, Girl's Leadership.
+Middle School Mountain biking is offered as an after-school club.
+Calibration Recreational clubs are in scope; interscholastic athletic teams are excluded.
+Upper School special-interest & recreational clubs
+Club Type Notes
+Esports Competitive gaming Confirmed Upper School club; a booster store notes 50% of
+proceeds support the “Charlotte Christian Knights Esports club.”
+Spikeball Club Recreational sport Student-led roundnet club (not an interscholastic team).
+Ultimate Frisbee Recreational sport Student-led ultimate club (not an interscholastic team).
+Movie Club Hobby / film Student film-and-discussion club.
+Healthy Lifestyle Club Wellness Student club focused on wellness habits.
+Environmental Club Environment / Student club focused on environmental stewardship.
+stewardship
+Girl's Leadership Leadership / interest Student leadership group for girls.
+[Source: Charlotte Christian School — Upper School page (charlottechristian.com/academics/upper-school); Source: Emerge
+Apparel — Charlotte Christian Knights Booster Shop product pages (booster-store proceeds note)]
+Middle School recreational clubs (in scope)
+Among the Middle School after-school clubs, the in-scope recreational/interest offerings are mountain
+biking, chess, and esports. (Wrestling, baseball, and cheer also appear on the Middle School
+after-school list but are treated as athletics and excluded from this series.)
+[Source: Charlotte Christian School — Middle School page (charlottechristian.com/academics/middle-school)]
+Esports detail
+Esports is confirmed at Charlotte Christian specifically — not merely a regional or collegiate program. It
+appears as an Upper School student club and as a Middle School after-school club. The strongest
+confirmation is the school's booster apparel store, whose product pages state that 50% of proceeds from
+the Knights Booster Shop go back into the Charlotte Christian Knights Esports club. Esports does not
+appear on the main Upper School clubs tab, which is one reason that published 13-club list is treated here
+Compiled June 25, 2026. Sources cited inline and listed at the end of each document. Page 1
+CHARLOTTE CHRISTIAN SCHOOL KNIGHTS — CLUBS & ACTIVITIES RESEARCH DOSSIER Charlotte, NC
+as representative rather than complete.
+[Source: Emerge Apparel — Charlotte Christian Knights Booster Shop product pages (booster-store proceeds note); Source:
+Charlotte Christian School — Upper School page (charlottechristian.com/academics/upper-school); Source: Charlotte
+Christian School — Middle School page (charlottechristian.com/academics/middle-school)]
+Gaps
+Game titles, leagues, rosters, and competitive results for esports are not published by the school and are
+not inferred here.
+Sources
+Source: Charlotte Christian School — Upper School page (charlottechristian.com/academics/upper-school).
+Source: Charlotte Christian School — Middle School page (charlottechristian.com/academics/middle-school).
+Source: Emerge Apparel — Charlotte Christian Knights Booster Shop product pages (booster-store proceeds note).
+Compiled June 25, 2026. Sources cited inline and listed at the end of each document. Page 2
