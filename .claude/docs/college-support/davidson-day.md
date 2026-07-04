@@ -1,5 +1,5 @@
 # Davidson Day School — College Support
-> Distilled from 8 source document(s) in `source-material/college-support/davidson-day/`. Auto-extracted full text, lightly cleaned. Compiled 2026-07-03.
+> Distilled from 8 source document(s) in `source-material/college-support/davidson-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-07-03.
 **Documents:** Academic Case, Application Support, Counseling Engine, Fit and the Whole Class, Institutional Leverage, NotebookLM Prompt, Outcomes, Standing Out
 
 

@@ -1,5 +1,5 @@
 # Providence Day School — College Support
-> Distilled from 9 source document(s) in `source-material/college-support/providence-day/`. Auto-extracted full text, lightly cleaned. Compiled 2026-07-03.
+> Distilled from 9 source document(s) in `source-material/college-support/providence-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-07-03.
 **Documents:** Academic Case, Application Support, Counseling Engine, Fit and Rank, Institutional Leverage, NotebookLM Prompt, Outcomes, Standing Out, Deep Research
 
 

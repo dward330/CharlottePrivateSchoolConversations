@@ -1,5 +1,5 @@
 # Charlotte Christian School — Sports
-> Distilled from 13 source document(s) in `source-material/sports/charlotte-christian/`. Auto-extracted full text, lightly cleaned. Compiled 2026-07-03.
+> Distilled from 13 source document(s) in `source-material/sports/charlotte-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-07-03.
 **Documents:** Awards and Honors, Championships, Coaches, Pedigree and Continuity, D1 Matriculation, Facilities and Infrastructure, NIL Landscape, National Profile, Power 4 Offers, Professional Athletes, Sports Medicine and Performance, Sports Offered, Top 100 Recruiting Rankings, Win-Loss Records
 
 
