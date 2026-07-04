@@ -1,5 +1,5 @@
 # Charlotte Latin School — Student Clubs
-> Distilled from 7 source document(s) in `source-material/student-clubs/charlotte-latin/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-07-03.
+> Distilled from 7 source document(s) in `source-material/student-clubs/charlotte-latin/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-07-04.
 **Documents:** Academic and Competitive Programs, Club Catalog and Descriptions, Governance, Formation, Funding and Discovery, NotebookLM Episode Prompt, Participation and Popularity, Service, Leadership and Civic Engagement, Thematic Pathways
 
 
