@@ -23,7 +23,15 @@ source-material/<topic>/<school>/<files>   (raw, gitignored — PDFs, .md, .txt)
 .claude/docs/<topic>/<school>.md           (one consolidated note per school × topic)
 src/data/schools.json                      (machine-readable manifest for the React app)
 .claude/docs/INDEX.md                      (regenerated index)
+        │  scripts/build_site_content.py   (second, dependency-free pass)
+        ▼
+src/content/<topic>/<school>.json          (per-school-topic text the web app lazy-loads)
 ```
+
+Two passes: `build_docs.py` produces the notes + manifest; then
+`scripts/build_site_content.py` slices those notes into the per-school-topic JSON the
+React app reads. Always run the second pass after the first, or the website's school
+pages go stale relative to `.claude/docs/`.
 
 The build is **discovery-based**: it reads whatever topic and school folders exist under
 `source-material/`, so new topics/schools are picked up automatically with no code edits.
@@ -42,7 +50,11 @@ python .claude/skills/ingest-source-material/build_docs.py the-arts  # rebuild j
 ```
 
 Rebuilding a single topic preserves the other topics already in `schools.json` (it merges,
-not overwrites).
+not overwrites). Then refresh the web app's content layer (no extra dependencies):
+
+```bash
+python scripts/build_site_content.py   # regenerates src/content/ from .claude/docs/
+```
 
 ## Steps for the agent
 
@@ -51,10 +63,11 @@ not overwrites).
      slug→name pair to `SCHOOL_NAMES` in `build_docs.py`.
    - New topic → create `source-material/<new-topic-slug>/<school>/` and add it to `TOPIC_NAMES`.
 2. Run `build_docs.py` (whole project, or pass the one topic slug that changed).
-3. Verify: `python -c "import json;m=json.load(open('src/data/schools.json'));print(len(m['documents']),'docs')"`
+3. Run `python scripts/build_site_content.py` to regenerate `src/content/` from the notes.
+4. Verify: `python -c "import json;m=json.load(open('src/data/schools.json'));print(len(m['documents']),'docs')"`
    and spot-check the regenerated note(s) under `.claude/docs/<topic>/`.
-4. Commit the regenerated `.claude/docs/` and `src/data/schools.json` (raw files in
-   `source-material/` stay gitignored and are not committed).
+5. Commit the regenerated `.claude/docs/`, `src/data/schools.json`, and `src/content/`
+   (raw files in `source-material/` stay gitignored and are not committed).
 
 ## Notes & limitations
 
@@ -64,3 +77,8 @@ not overwrites).
 - Subtopic titles are derived from filenames (everything after the last " - "; underscores in
   legacy names are normalized). Keep the `<School> - <Topic> - <Subtopic>` naming for clean titles.
 - `build_docs.py` is safe to re-run; it fully regenerates the derived files each time.
+- **Data-provenance standard:** any school data fetched from an external source (web /
+  recruiting sites / school pages) must be saved as a committed `.md` file in the matching
+  `source-material/<topic>/<school>/` folder, with source URLs and record-level detail,
+  before (or as part of) surfacing it in the app. `.md` files under `source-material/` are
+  committed (PDFs are not). See "Data-provenance standard" in the root `CLAUDE.md`.
