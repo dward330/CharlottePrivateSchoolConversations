@@ -1,0 +1,97 @@
+// Metric normalization.
+//
+// The raw subtopic strings in schools.json drift across schools ("Theater" vs
+// "Theatre", "Win-Loss Records" vs "WinLoss Records", "Coaches Pedigree and
+// Continuity" vs "Coaches, Pedigree and Continuity", sport-specific "National
+// Football/Basketball/Swimming Profile"). If we compared on the raw strings, schools
+// would show false N/A gaps just from naming. So we canonicalize each subtopic to a
+// stable metric { key, label } per topic before building any comparison.
+//
+// Rules are ordered — first match wins — so put specific patterns before generic ones.
+// A subtopic that matches no rule becomes its own metric (slugified). Returning null
+// hides a subtopic from the parent-facing UI (internal artifacts like NotebookLM
+// prompts and the aggregate "Sources referenced" section).
+
+export type Metric = { key: string; label: string }
+type Rule = { match: RegExp; key: string; label: string }
+
+// Hidden everywhere (both the metrics axis and the detail sections).
+const HIDE = [/notebooklm/i, /^sources? referenced/i]
+
+const RULES: Record<string, Rule[]> = {
+  'after-school': [
+    { match: /program overview/i, key: 'overview', label: 'Program Overview' },
+    { match: /program details/i, key: 'details', label: 'Program Details' },
+    { match: /enrichment|swim|youth athletics/i, key: 'enrichment', label: 'Enrichment & Activities' },
+    { match: /extended (day|care)|clubhouse|hawks club|talons|after ?care/i, key: 'aftercare', label: 'Extended Day / Aftercare' },
+    { match: /deep research/i, key: 'in-depth-report', label: 'In-Depth Report' },
+  ],
+  'college-support': [
+    { match: /academic case/i, key: 'academic-case', label: 'Academic Case' },
+    { match: /application support/i, key: 'application-support', label: 'Application Support' },
+    { match: /counseling engine/i, key: 'counseling-engine', label: 'Counseling Engine' },
+    { match: /fit and/i, key: 'fit-rank', label: 'Fit & Rank' },
+    { match: /institutional leverage/i, key: 'institutional-leverage', label: 'Institutional Leverage' },
+    { match: /outcomes/i, key: 'outcomes', label: 'Placement Outcomes' },
+    { match: /standing out/i, key: 'standing-out', label: 'Standing Out' },
+    { match: /deep research/i, key: 'in-depth-report', label: 'In-Depth Report' },
+  ],
+  sports: [
+    { match: /awards and honors/i, key: 'awards', label: 'Awards & Honors' },
+    { match: /championships/i, key: 'championships', label: 'Championships' },
+    { match: /coach/i, key: 'coaches', label: 'Coaches: Pedigree & Continuity' },
+    { match: /d1|matriculation/i, key: 'matriculation', label: 'D1 / Top-College Matriculation' },
+    { match: /facilities/i, key: 'facilities', label: 'Facilities & Infrastructure' },
+    { match: /nil/i, key: 'nil', label: 'NIL Landscape' },
+    { match: /national.*profile|^national profile/i, key: 'national-profile', label: 'National Profile' },
+    { match: /power 4/i, key: 'power-4', label: 'Power 4 Offers' },
+    { match: /professional athletes/i, key: 'pros', label: 'Professional Athletes' },
+    { match: /sports medicine/i, key: 'sports-medicine', label: 'Sports Medicine & Performance' },
+    { match: /sports offered/i, key: 'sports-offered', label: 'Sports Offered' },
+    { match: /top 100|recruiting/i, key: 'recruiting', label: 'Top-100 Recruiting Rankings' },
+    { match: /win.?loss/i, key: 'win-loss', label: 'Win–Loss Records' },
+  ],
+  'student-clubs': [
+    { match: /honor societ/i, key: 'honor-societies', label: 'Honor Societies' },
+    { match: /affinity|identity|diversity|belonging|global awareness/i, key: 'affinity', label: 'Affinity & Identity Groups' },
+    { match: /governance|leadership/i, key: 'governance', label: 'Governance & Student Leadership' },
+    { match: /publication|student media|\bmedia\b/i, key: 'media', label: 'Publications & Media' },
+    { match: /service|civic|outreach|community engagement/i, key: 'service', label: 'Service & Civic Engagement' },
+    { match: /academic|competit/i, key: 'academic-clubs', label: 'Academic & Competitive Clubs' },
+    { match: /lower (school|and middle)|middle school/i, key: 'lower-middle', label: 'Lower / Middle School Activities' },
+    { match: /catalog|landscape|club.*overview|descriptions|clubs and activities/i, key: 'catalog', label: 'Club Catalog & Overview' },
+    { match: /signature|tradition|thematic|participation|popularity|special interest|recreational|afar|archaeology/i, key: 'signature', label: 'Signature Programs & Traditions' },
+  ],
+  'the-arts': [
+    { match: /awards and recognition/i, key: 'awards', label: 'Awards & Recognition' },
+    { match: /program overview/i, key: 'overview', label: 'Program Overview' },
+    { match: /visual arts/i, key: 'visual-arts', label: 'Visual Arts' },
+    { match: /performing arts/i, key: 'performing-arts', label: 'Performing Arts' },
+    { match: /music/i, key: 'music', label: 'Music' },
+    { match: /theat|drama/i, key: 'theatre', label: 'Theatre & Drama' },
+    { match: /digital arts/i, key: 'digital-arts', label: 'Digital Arts' },
+    { match: /course offerings/i, key: 'courses', label: 'Course Offerings' },
+    { match: /facilities/i, key: 'facilities', label: 'Facilities' },
+    { match: /deep research/i, key: 'in-depth-report', label: 'In-Depth Report' },
+  ],
+}
+
+function slugify(s: string): string {
+  return s
+    .toLowerCase()
+    .replace(/&/g, 'and')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+}
+
+/** Canonicalize a raw subtopic to a metric, or null if it should be hidden. */
+export function normalizeMetric(topicSlug: string, subtopic: string): Metric | null {
+  if (HIDE.some((re) => re.test(subtopic))) return null
+  const rules = RULES[topicSlug] ?? []
+  for (const rule of rules) {
+    if (rule.match.test(subtopic)) return { key: rule.key, label: rule.label }
+  }
+  // Unknown topic or subtopic: stand up a metric from the raw label so new
+  // source-material still renders (just without hand-tuned grouping).
+  return { key: slugify(subtopic), label: subtopic }
+}

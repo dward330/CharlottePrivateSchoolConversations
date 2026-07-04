@@ -28,5 +28,9 @@ dist-ssr
 *.sln
 *.sw?
 
-# Raw reference files (read/convert locally; not committed)
-source-material/
+# Raw reference files (PDFs, spreadsheets) are read/converted locally and NOT committed.
+source-material/**
+# EXCEPTION: text-based data we fetch/compile (hard data + source URLs) IS committed, so
+# the repo always retains the underlying data. Keep these as .md next to the raw files.
+!source-material/**/
+!source-material/**/*.md
