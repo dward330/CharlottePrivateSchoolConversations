@@ -89,6 +89,15 @@ button { font: inherit; }
   letter-spacing: 0.02em;
 }
 .brand-name { font-size: 15px; }
+/* Logo art (public/logo.png) has a cream field baked in; rounded corners make that
+   read as an intentional plate on both light and dark navs. */
+.brand-logo {
+  height: 40px;
+  width: auto;
+  display: block;
+  border-radius: 8px;
+}
+@media (max-width: 480px) { .brand-logo { height: 34px; } }
 .navlink {
   padding: 8px 14px;
   border-radius: 999px;
@@ -184,6 +193,15 @@ main { flex: 1; }
 /* -------------------------------------------------------------- home hero */
 
 .hero { padding: clamp(8px, 3vw, 28px) 0 clamp(20px, 4vw, 36px); }
+.hero-logo {
+  display: block;
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  border-radius: 16px;
+  margin-bottom: clamp(16px, 3vw, 26px);
+  box-shadow: var(--shadow-sm);
+}
 .eyebrow {
   text-transform: uppercase;
   letter-spacing: 0.08em;

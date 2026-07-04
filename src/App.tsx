@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { useRoute, toHome, toCompare, useNavigate } from './lib/router.ts'
 import { topics, schools } from './lib/manifest.ts'
 import { Home } from './pages/Home.tsx'
@@ -8,6 +9,8 @@ function App() {
   const route = useRoute()
   const navigate = useNavigate()
   const allSlugs = schools.map((s) => s.slug)
+  // Falls back to the text mark if public/logo.png isn't present yet.
+  const [logoOk, setLogoOk] = useState(true)
 
   return (
     <div className="app">
@@ -16,9 +19,21 @@ function App() {
           className="brand"
           href={toHome()}
           onClick={(e) => { e.preventDefault(); navigate(toHome()) }}
+          aria-label="Charlotte Private School Conversations — home"
         >
-          <span className="brand-mark" aria-hidden="true">CLT</span>
-          <span className="brand-name">Charlotte School Compare</span>
+          {logoOk ? (
+            <img
+              src="/logo.png"
+              className="brand-logo"
+              alt="Charlotte Private School Conversations"
+              onError={() => setLogoOk(false)}
+            />
+          ) : (
+            <>
+              <span className="brand-mark" aria-hidden="true">CLT</span>
+              <span className="brand-name">Charlotte School Compare</span>
+            </>
+          )}
         </a>
         <a
           className={`navlink ${route.name === 'compare' ? 'on' : ''}`}

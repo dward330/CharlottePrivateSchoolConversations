@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { schools, topics, topicsForSchool, docCount, projectStats, generated, brandOf } from '../lib/manifest.ts'
 import { SchoolBadge } from '../components/SchoolBadge.tsx'
 import { TopicIcon } from '../components/TopicIcon.tsx'
@@ -7,10 +8,19 @@ export function Home() {
   const navigate = useNavigate()
   const stats = projectStats()
   const allSlugs = schools.map((s) => s.slug)
+  const [logoOk, setLogoOk] = useState(true)
 
   return (
     <div className="page">
       <header className="hero">
+        {logoOk && (
+          <img
+            src="/logo.png"
+            className="hero-logo"
+            alt="Charlotte Private School Conversations — Navigating Your Family's Options"
+            onError={() => setLogoOk(false)}
+          />
+        )}
         <p className="eyebrow">Charlotte private schools · parent research</p>
         <h1>Compare Charlotte's private schools, side by side.</h1>
         <p className="lede">
