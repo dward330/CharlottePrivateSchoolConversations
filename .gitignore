@@ -34,3 +34,6 @@ source-material/**
 # the repo always retains the underlying data. Keep these as .md next to the raw files.
 !source-material/**/
 !source-material/**/*.md
+
+# Claude Code local settings (machine-specific permissions; not shared)
+.claude/settings.local.json
