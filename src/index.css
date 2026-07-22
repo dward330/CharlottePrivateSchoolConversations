@@ -193,15 +193,6 @@ main { flex: 1; }
 /* -------------------------------------------------------------- home hero */
 
 .hero { padding: clamp(8px, 3vw, 28px) 0 clamp(20px, 4vw, 36px); }
-.hero-logo {
-  display: block;
-  width: 100%;
-  max-width: 420px;
-  height: auto;
-  border-radius: 16px;
-  margin-bottom: clamp(16px, 3vw, 26px);
-  box-shadow: var(--shadow-sm);
-}
 .eyebrow {
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -283,7 +274,8 @@ main { flex: 1; }
 .school-sub { color: var(--muted); margin: 6px 0 0; font-size: 14px; }
 .school-header-topics { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
 
-.topic-section { margin-top: 34px; }
+/* scroll-margin clears the sticky top nav when a header chip scrolls here. */
+.topic-section { margin-top: 34px; scroll-margin-top: 76px; }
 .topic-section-head {
   display: flex;
   align-items: center;
@@ -334,24 +326,238 @@ main { flex: 1; }
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-.metric-body { padding: 4px 16px 16px; border-top: 1px solid var(--border); }
-.section-text { margin-top: 14px; }
-.section-sub { font-size: 14px; color: var(--text); margin-bottom: 6px; }
-.prose {
-  white-space: pre-wrap;
-  word-break: break-word;
-  font-family: var(--sans);
-  font-size: 14.5px;
+/* Expanded card: the full text is visible below, so the teaser is redundant. */
+.metric[open] > summary .metric-preview { display: none; }
+.metric-body { padding: 6px 18px 20px; border-top: 1px solid var(--border); }
+.section-text { margin-top: 18px; }
+.section-text:first-child { margin-top: 8px; }
+.section-sub {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 800;
+  color: var(--muted);
+  margin: 22px 0 6px;
+}
+
+/* -------------------------------------------------- structured research prose */
+
+.prose-doc { display: flex; flex-direction: column; gap: 4px; }
+
+.prose-lede .para {
+  font-size: 15.5px;
   line-height: 1.6;
   color: var(--text);
-  margin: 0;
-  max-height: 460px;
-  overflow: auto;
-  padding: 12px;
+}
+.prose-lede { margin-bottom: 6px; }
+
+.scope {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 650;
+  letter-spacing: 0.02em;
+  color: var(--muted);
   background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 3px 11px;
+  margin: 0 0 10px;
+}
+
+.prose-section { margin-top: 20px; }
+/* Inner sub-headings (e.g. "Lower School Extended Day"). Differentiated on several
+   channels at once — tinted band, brand accent bar, size, weight, and whitespace —
+   not color alone, so the hierarchy still reads for color-blind viewers. */
+.section-h {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 15.5px;
+  font-weight: 800;
+  color: var(--text);
+  margin: 0 0 10px;
+  padding: 7px 12px;
+  background: color-mix(in srgb, var(--brand) 8%, var(--surface));
+  border-left: 3px solid var(--brand);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  line-height: 1.3;
+}
+
+.para {
+  font-size: 14.5px;
+  line-height: 1.62;
+  color: var(--text);
+  margin: 0 0 10px;
+}
+
+.prose-list {
+  margin: 4px 0 10px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.prose-list li {
+  position: relative;
+  padding-left: 22px;
+  font-size: 14.5px;
+  line-height: 1.58;
+  color: var(--text);
+}
+.prose-list li::before {
+  content: '';
+  position: absolute;
+  left: 4px;
+  top: 0.62em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--brand);
+}
+
+/* inline source citations (names, not links) */
+.cite {
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--muted);
+  margin: -2px 0 10px;
+}
+.cite-label {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 800;
+  font-size: 10.5px;
+  color: var(--muted);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 1px 5px;
+  margin-right: 6px;
+}
+
+/* tinted callouts: strengths (good) / caveats & gaps (caution) / at-a-glance */
+.callout {
+  margin: 14px 0;
+  padding: 14px 16px 6px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  border-left-width: 4px;
+  background: var(--surface-2);
+}
+.callout-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  margin: 0 0 8px;
+}
+.callout-title::before { font-size: 15px; line-height: 1; }
+.callout.good { border-left-color: var(--yes); background: color-mix(in srgb, var(--yes) 8%, var(--surface)); }
+.callout.good .callout-title { color: var(--yes); }
+.callout.good .callout-title::before { content: '✓'; }
+.callout.good .prose-list li::before { background: var(--yes); }
+.callout.caution { border-left-color: #d98a1a; background: color-mix(in srgb, #d98a1a 9%, var(--surface)); }
+.callout.caution .callout-title { color: #b06f12; }
+.callout.caution .callout-title::before { content: '!'; font-weight: 900; }
+.callout.caution .prose-list li::before { background: #d98a1a; }
+@media (prefers-color-scheme: dark) {
+  .callout.caution .callout-title { color: #e9a94a; }
+}
+.callout.glance { border-left-color: var(--brand); background: color-mix(in srgb, var(--brand) 8%, var(--surface)); }
+.callout.glance .callout-title { color: var(--brand); }
+.callout.glance .callout-title::before { content: '★'; }
+
+/* data tables (e.g. pricing matrix by grade band × days/week) */
+.prose-table-wrap {
+  overflow-x: auto;
+  margin: 6px 0 12px;
+  border: 1px solid var(--border);
   border-radius: var(--radius-sm);
 }
-.source { font-size: 12px; color: var(--muted); margin: 8px 0 0; font-style: italic; }
+.prose-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13.5px;
+  line-height: 1.45;
+  font-variant-numeric: tabular-nums;
+}
+.prose-table th,
+.prose-table td {
+  padding: 8px 12px;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+.prose-table thead th {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-weight: 800;
+  color: var(--text);
+  background: color-mix(in srgb, var(--brand) 9%, var(--surface));
+}
+.prose-table tbody th {
+  font-weight: 650;
+  background: color-mix(in srgb, var(--brand) 4%, var(--surface));
+}
+.prose-table tbody tr:last-child th,
+.prose-table tbody tr:last-child td { border-bottom: none; }
+.prose-table tbody tr:hover td { background: var(--surface-2); }
+
+/* quick-fact / stat panel (line structure preserved from source) */
+.facts {
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-size: 13.5px;
+  line-height: 1.7;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+  margin: 4px 0 10px;
+  padding: 10px 14px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--brand);
+  border-radius: var(--radius-sm);
+}
+/* inside the "At a glance" callout the tint is the panel — don't nest a second box */
+.callout.glance .facts {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+}
+
+/* clickable source links */
+.source-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 4px 0 2px;
+}
+.source-chip {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 1px;
+  max-width: 100%;
+  padding: 7px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  transition: border-color 0.12s ease, transform 0.08s ease;
+}
+.source-chip:hover { border-color: var(--brand); transform: translateY(-1px); }
+.source-chip-label {
+  font-size: 13px;
+  font-weight: 650;
+  color: var(--text);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.source-chip-host { font-size: 11.5px; color: var(--brand); font-weight: 600; }
 
 /* -------------------------------------------------------------- compare */
 
@@ -478,6 +684,41 @@ tbody tr:hover th.row-metric, tbody tr:hover td { background: var(--surface-2); 
 
 .table-note { margin-top: 14px; color: var(--muted); font-size: 13px; }
 .table-note .mark-yes { font-size: 14px; }
+
+/* ------------------------------------------------------- back-to-top button */
+
+.back-to-top {
+  position: fixed;
+  right: clamp(14px, 4vw, 28px);
+  bottom: clamp(14px, 4vw, 28px);
+  z-index: 30;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  background: var(--brand);
+  color: #fff;
+  cursor: pointer;
+  box-shadow: var(--shadow-md);
+  /* Hidden until scrolled: fade + slide + disable pointer events so it can't be
+     clicked or tab-focused while invisible. */
+  opacity: 0;
+  transform: translateY(10px);
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease, background 0.15s ease;
+}
+.back-to-top.show {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+.back-to-top:hover { background: color-mix(in srgb, var(--brand) 78%, #000); }
+.back-to-top:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+}
 
 /* ------------------------------------------------------------ breakpoints */
 

@@ -1,9 +1,10 @@
 import { useState } from 'react'
 import { useRoute, toHome, toCompare, useNavigate } from './lib/router.ts'
-import { topics, schools } from './lib/manifest.ts'
+import { topics, schools, brandOf } from './lib/manifest.ts'
 import { Home } from './pages/Home.tsx'
 import { SchoolDetail } from './pages/SchoolDetail.tsx'
 import { Compare } from './pages/Compare.tsx'
+import { BackToTop } from './components/BackToTop.tsx'
 
 function App() {
   const route = useRoute()
@@ -25,15 +26,13 @@ function App() {
             <img
               src="/logo.png"
               className="brand-logo"
-              alt="Charlotte Private School Conversations"
+              alt=""
               onError={() => setLogoOk(false)}
             />
           ) : (
-            <>
-              <span className="brand-mark" aria-hidden="true">CLT</span>
-              <span className="brand-name">Charlotte School Compare</span>
-            </>
+            <span className="brand-mark" aria-hidden="true">CLT</span>
           )}
+          <span className="brand-name">Charlotte School Compare</span>
         </a>
         <a
           className={`navlink ${route.name === 'compare' ? 'on' : ''}`}
@@ -56,6 +55,8 @@ function App() {
           lightly-cleaned extracts of source documents — verify specifics with each school.
         </p>
       </footer>
+
+      <BackToTop accent={route.name === 'school' ? brandOf(route.slug).color : undefined} />
     </div>
   )
 }

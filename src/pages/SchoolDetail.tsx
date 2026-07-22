@@ -8,6 +8,8 @@ import {
 import { loadMetricGroups, type MetricGroup } from '../lib/content.ts'
 import { SchoolBadge } from '../components/SchoolBadge.tsx'
 import { TopicIcon } from '../components/TopicIcon.tsx'
+import { ProseContent } from '../components/ProseContent.tsx'
+import { proseSummary } from '../lib/prose.ts'
 import { toCompare, toHome, useNavigate } from '../lib/router.ts'
 import { schools as allSchools } from '../lib/manifest.ts'
 
@@ -67,7 +69,19 @@ export function SchoolDetail({ slug }: { slug: string }) {
           </p>
           <div className="school-header-topics">
             {covered.map((t) => (
-              <a key={t.slug} className="chip" href={`#topic-${t.slug}`}>
+              <a
+                key={t.slug}
+                className="chip"
+                href={`#topic-${t.slug}`}
+                onClick={(e) => {
+                  // The hash router owns location.hash, so a raw "#topic-…" anchor would
+                  // be parsed as an unknown route and bounce home. Scroll in place instead.
+                  e.preventDefault()
+                  document
+                    .getElementById(`topic-${t.slug}`)
+                    ?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+                }}
+              >
                 <TopicIcon slug={t.slug} size={14} /> {t.name}
               </a>
             ))}
@@ -102,18 +116,19 @@ export function SchoolDetail({ slug }: { slug: string }) {
                 <details key={g.metric.key} className="metric">
                   <summary>
                     <span className="metric-label">{g.metric.label}</span>
-                    <span className="metric-preview">{g.sections[0]?.preview}</span>
+                    <span className="metric-preview">
+                      {proseSummary(g.sections[0]?.text ?? '', g.metric.label) || g.sections[0]?.preview}
+                    </span>
                   </summary>
                   <div className="metric-body">
                     {g.sections.map((s, i) => (
                       <article key={i} className="section-text">
-                        {s.subtopic !== g.metric.label && (
-                          <h4 className="section-sub">{s.subtopic}</h4>
-                        )}
-                        <pre className="prose">{s.text}</pre>
-                        {s.source_file && (
-                          <p className="source">Source: {s.source_file}</p>
-                        )}
+                        {g.sections.length > 1 &&
+                          s.subtopic !== g.metric.label &&
+                          !/deep research/i.test(s.subtopic) && (
+                            <h3 className="section-sub">{s.subtopic}</h3>
+                          )}
+                        <ProseContent text={s.text} title={g.metric.label} />
                       </article>
                     ))}
                   </div>

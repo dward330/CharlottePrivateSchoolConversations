@@ -4,14 +4,21 @@
 
 import raw from '../data/schools.json'
 import { brandFor, type Brand } from '../data/brands.ts'
-import { normalizeMetric, type Metric } from './metrics.ts'
+import { normalizeMetric, orderTopicSlugs, type Metric } from './metrics.ts'
 import type { Manifest, School, Topic } from './types.ts'
 
 const manifest = raw as Manifest
 
 export const schools: School[] = manifest.schools
-export const topics: Topic[] = manifest.topics
+// Topic section headers render in the explicit TOPIC_ORDER (metrics.ts), so the
+// top-level order is config-driven rather than tied to manifest/folder order.
+export const topics: Topic[] = orderBySlug(manifest.topics)
 export const generated = manifest.generated
+
+function orderBySlug(list: Topic[]): Topic[] {
+  const bySlug = new Map(list.map((t) => [t.slug, t]))
+  return orderTopicSlugs(list.map((t) => t.slug)).map((s) => bySlug.get(s)!)
+}
 
 export function schoolBySlug(slug: string): School | undefined {
   return schools.find((s) => s.slug === slug)

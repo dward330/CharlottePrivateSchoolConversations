@@ -29,10 +29,20 @@ MULTI_BLANK = re.compile(r"\n{3,}")
 SOURCE_LINE = re.compile(r"^\*Source file:.*$", re.MULTILINE)
 PREVIEW_MAX = 320
 
+# Dropped-ligature / smart-quote artifacts from PDF extraction. Each replacement is
+# unambiguous (there is no real word "o!ce" — it is always "office").
+GLYPH_FIXES = [("O!ce", "Office"), ("o!ce", "office"), ("„", '"'), ("‟", '"')]
+
+# Internal NotebookLM audio-episode prompts are not parent-facing content.
+PROMPT_RE = re.compile(r"notebooklm|episode prompt", re.I)
+AGG_RE = re.compile(r"sources? referenced", re.I)
+
 
 def clean(text: str) -> str:
     text = CID_BULLET.sub("• ", text)
     text = CID_ANY.sub("", text)
+    for bad, good in GLYPH_FIXES:
+        text = text.replace(bad, good)
     text = "\n".join(line.rstrip() for line in text.splitlines())
     text = MULTI_BLANK.sub("\n\n", text)
     return text.strip()
@@ -57,12 +67,25 @@ def parse_note(md: str):
     parts = re.split(r"(?m)^## ", md)
     header = parts[0]
     sections = []
+    # A NotebookLM prompt note carries its own "## " sub-headings; once we hit the prompt
+    # section, skip it and any following source-less orphan headings that belong to it.
+    skip_orphans = False
     for chunk in parts[1:]:
         lines = chunk.splitlines()
         subtopic = lines[0].strip()
         rest = "\n".join(lines[1:]).strip()
         src_match = re.search(r"\*Source file:\s*`([^`]+)`\*", rest)
         source_file = src_match.group(1) if src_match else None
+
+        is_prompt = bool(PROMPT_RE.search(subtopic)) or bool(source_file and PROMPT_RE.search(source_file))
+        if is_prompt:
+            skip_orphans = True
+            continue
+        if source_file is None and skip_orphans and not AGG_RE.search(subtopic):
+            continue  # inner heading of the skipped prompt file
+        if source_file is not None:
+            skip_orphans = False
+
         body = SOURCE_LINE.sub("", rest).strip()
         body = clean(body)
         if not body:

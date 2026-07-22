@@ -24,6 +24,9 @@ const RULES: Record<string, Rule[]> = {
     { match: /program details/i, key: 'details', label: 'Program Details' },
     { match: /enrichment|swim|youth athletics/i, key: 'enrichment', label: 'Enrichment & Activities' },
     { match: /extended (day|care)|clubhouse|hawks club|talons|after ?care/i, key: 'aftercare', label: 'Extended Day / Aftercare' },
+    // Pricing notes fold into the same card as the deep-research report so the cost
+    // matrix appears inside "In-Depth Report".
+    { match: /pricing|cost/i, key: 'in-depth-report', label: 'In-Depth Report' },
     { match: /deep research/i, key: 'in-depth-report', label: 'In-Depth Report' },
   ],
   'college-support': [
@@ -74,6 +77,50 @@ const RULES: Record<string, Rule[]> = {
     { match: /facilities/i, key: 'facilities', label: 'Facilities' },
     { match: /deep research/i, key: 'in-depth-report', label: 'In-Depth Report' },
   ],
+}
+
+// Explicit order for the topic section headers themselves (the "After School",
+// "Sports"… bands on a school page and the topic list on Home). Topic slugs not
+// listed fall to the end in manifest order (alphabetical). Edit this to reorder the
+// top-level sections without touching source-material folder names.
+const TOPIC_ORDER: string[] = [
+  'student-clubs',
+  'the-arts',
+  'sports',
+  'college-support',
+  'after-school'
+]
+
+/** Stable-sort topic slugs into the explicit TOPIC_ORDER; unlisted slugs keep order. */
+export function orderTopicSlugs(slugs: string[]): string[] {
+  const rank = (s: string) => {
+    const i = TOPIC_ORDER.indexOf(s)
+    return i === -1 ? TOPIC_ORDER.length : i
+  }
+  return slugs
+    .map((s, i) => [s, i] as const)
+    .sort((a, b) => rank(a[0]) - rank(b[0]) || a[1] - b[1])
+    .map(([s]) => s)
+}
+
+// Explicit page order for a topic's sub-sections. Keys not listed keep their document
+// order after the listed ones; topics without an entry keep document order entirely.
+const SECTION_ORDER: Record<string, string[]> = {
+  'after-school': ['overview', 'details', 'enrichment', 'aftercare', 'in-depth-report'],
+}
+
+/** Stable-sort metric keys into the topic's explicit page order, if it has one. */
+export function orderMetricKeys(topicSlug: string, keys: string[]): string[] {
+  const order = SECTION_ORDER[topicSlug]
+  if (!order) return keys
+  const rank = (k: string) => {
+    const i = order.indexOf(k)
+    return i === -1 ? order.length : i
+  }
+  return keys
+    .map((k, i) => [k, i] as const)
+    .sort((a, b) => rank(a[0]) - rank(b[0]) || a[1] - b[1])
+    .map(([k]) => k)
 }
 
 function slugify(s: string): string {
