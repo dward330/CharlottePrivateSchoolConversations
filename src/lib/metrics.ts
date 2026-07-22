@@ -25,9 +25,9 @@ const RULES: Record<string, Rule[]> = {
     { match: /enrichment|swim|youth athletics/i, key: 'enrichment', label: 'Enrichment & Activities' },
     { match: /extended (day|care)|clubhouse|hawks club|talons|after ?care/i, key: 'aftercare', label: 'Extended Day / Aftercare' },
     // Pricing notes fold into the same card as the deep-research report so the cost
-    // matrix appears inside "Executive Summary".
-    { match: /pricing|cost/i, key: 'in-depth-report', label: 'Executive Summary' },
-    { match: /deep research/i, key: 'in-depth-report', label: 'Executive Summary' },
+    // matrix appears inside "In-Depth Report".
+    { match: /pricing|cost/i, key: 'in-depth-report', label: 'In-Depth Report' },
+    { match: /deep research/i, key: 'in-depth-report', label: 'In-Depth Report' },
   ],
   'college-support': [
     { match: /academic case/i, key: 'academic-case', label: 'Academic Case' },
@@ -77,6 +77,30 @@ const RULES: Record<string, Rule[]> = {
     { match: /facilities/i, key: 'facilities', label: 'Facilities' },
     { match: /deep research/i, key: 'in-depth-report', label: 'In-Depth Report' },
   ],
+}
+
+// Explicit order for the topic section headers themselves (the "After School",
+// "Sports"… bands on a school page and the topic list on Home). Topic slugs not
+// listed fall to the end in manifest order (alphabetical). Edit this to reorder the
+// top-level sections without touching source-material folder names.
+const TOPIC_ORDER: string[] = [
+  'student-clubs',
+  'the-arts',
+  'sports',
+  'college-support',
+  'after-school'
+]
+
+/** Stable-sort topic slugs into the explicit TOPIC_ORDER; unlisted slugs keep order. */
+export function orderTopicSlugs(slugs: string[]): string[] {
+  const rank = (s: string) => {
+    const i = TOPIC_ORDER.indexOf(s)
+    return i === -1 ? TOPIC_ORDER.length : i
+  }
+  return slugs
+    .map((s, i) => [s, i] as const)
+    .sort((a, b) => rank(a[0]) - rank(b[0]) || a[1] - b[1])
+    .map(([s]) => s)
 }
 
 // Explicit page order for a topic's sub-sections. Keys not listed keep their document

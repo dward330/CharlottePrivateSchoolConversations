@@ -69,7 +69,19 @@ export function SchoolDetail({ slug }: { slug: string }) {
           </p>
           <div className="school-header-topics">
             {covered.map((t) => (
-              <a key={t.slug} className="chip" href={`#topic-${t.slug}`}>
+              <a
+                key={t.slug}
+                className="chip"
+                href={`#topic-${t.slug}`}
+                onClick={(e) => {
+                  // The hash router owns location.hash, so a raw "#topic-…" anchor would
+                  // be parsed as an unknown route and bounce home. Scroll in place instead.
+                  e.preventDefault()
+                  document
+                    .getElementById(`topic-${t.slug}`)
+                    ?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+                }}
+              >
                 <TopicIcon slug={t.slug} size={14} /> {t.name}
               </a>
             ))}
@@ -100,8 +112,8 @@ export function SchoolDetail({ slug }: { slug: string }) {
             )}
 
             <div className="metric-list">
-              {groups.map((g, gi) => (
-                <details key={g.metric.key} className="metric" open={gi === 0}>
+              {groups.map((g) => (
+                <details key={g.metric.key} className="metric">
                   <summary>
                     <span className="metric-label">{g.metric.label}</span>
                     <span className="metric-preview">

@@ -193,15 +193,6 @@ main { flex: 1; }
 /* -------------------------------------------------------------- home hero */
 
 .hero { padding: clamp(8px, 3vw, 28px) 0 clamp(20px, 4vw, 36px); }
-.hero-logo {
-  display: block;
-  width: 100%;
-  max-width: 420px;
-  height: auto;
-  border-radius: 16px;
-  margin-bottom: clamp(16px, 3vw, 26px);
-  box-shadow: var(--shadow-sm);
-}
 .eyebrow {
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -283,7 +274,8 @@ main { flex: 1; }
 .school-sub { color: var(--muted); margin: 6px 0 0; font-size: 14px; }
 .school-header-topics { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
 
-.topic-section { margin-top: 34px; }
+/* scroll-margin clears the sticky top nav when a header chip scrolls here. */
+.topic-section { margin-top: 34px; scroll-margin-top: 76px; }
 .topic-section-head {
   display: flex;
   align-items: center;
@@ -692,6 +684,41 @@ tbody tr:hover th.row-metric, tbody tr:hover td { background: var(--surface-2); 
 
 .table-note { margin-top: 14px; color: var(--muted); font-size: 13px; }
 .table-note .mark-yes { font-size: 14px; }
+
+/* ------------------------------------------------------- back-to-top button */
+
+.back-to-top {
+  position: fixed;
+  right: clamp(14px, 4vw, 28px);
+  bottom: clamp(14px, 4vw, 28px);
+  z-index: 30;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  background: var(--brand);
+  color: #fff;
+  cursor: pointer;
+  box-shadow: var(--shadow-md);
+  /* Hidden until scrolled: fade + slide + disable pointer events so it can't be
+     clicked or tab-focused while invisible. */
+  opacity: 0;
+  transform: translateY(10px);
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease, background 0.15s ease;
+}
+.back-to-top.show {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+.back-to-top:hover { background: color-mix(in srgb, var(--brand) 78%, #000); }
+.back-to-top:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+}
 
 /* ------------------------------------------------------------ breakpoints */
 
