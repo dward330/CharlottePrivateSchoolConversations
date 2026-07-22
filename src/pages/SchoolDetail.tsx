@@ -8,6 +8,8 @@ import {
 import { loadMetricGroups, type MetricGroup } from '../lib/content.ts'
 import { SchoolBadge } from '../components/SchoolBadge.tsx'
 import { TopicIcon } from '../components/TopicIcon.tsx'
+import { ProseContent } from '../components/ProseContent.tsx'
+import { proseSummary } from '../lib/prose.ts'
 import { toCompare, toHome, useNavigate } from '../lib/router.ts'
 import { schools as allSchools } from '../lib/manifest.ts'
 
@@ -98,22 +100,21 @@ export function SchoolDetail({ slug }: { slug: string }) {
             )}
 
             <div className="metric-list">
-              {groups.map((g) => (
-                <details key={g.metric.key} className="metric">
+              {groups.map((g, gi) => (
+                <details key={g.metric.key} className="metric" open={gi === 0}>
                   <summary>
                     <span className="metric-label">{g.metric.label}</span>
-                    <span className="metric-preview">{g.sections[0]?.preview}</span>
+                    <span className="metric-preview">
+                      {proseSummary(g.sections[0]?.text ?? '', g.metric.label) || g.sections[0]?.preview}
+                    </span>
                   </summary>
                   <div className="metric-body">
                     {g.sections.map((s, i) => (
                       <article key={i} className="section-text">
-                        {s.subtopic !== g.metric.label && (
-                          <h4 className="section-sub">{s.subtopic}</h4>
+                        {g.sections.length > 1 && s.subtopic !== g.metric.label && (
+                          <h3 className="section-sub">{s.subtopic}</h3>
                         )}
-                        <pre className="prose">{s.text}</pre>
-                        {s.source_file && (
-                          <p className="source">Source: {s.source_file}</p>
-                        )}
+                        <ProseContent text={s.text} title={g.metric.label} />
                       </article>
                     ))}
                   </div>
