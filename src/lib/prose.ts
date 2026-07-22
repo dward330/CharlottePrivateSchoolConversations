@@ -22,7 +22,12 @@ export type ProseBlock =
   | { kind: 'para'; text: string; cites: string[] }
   | { kind: 'list'; items: string[]; cites: string[] }
   | { kind: 'facts'; lines: string[] }
+  | { kind: 'table'; header: string[]; rows: string[][] }
   | { kind: 'sources'; items: SourceLink[] }
+
+// Markdown-style pipe-table row: "| Grade | 1 day | … |"
+const TABLE_ROW = /^\s*\|.*\|\s*$/
+const TABLE_DIVIDER = /^\s*\|[\s:|-]+\|\s*$/
 
 const BULLET = /^\s*[•‣▪·]\s+|^\s*[-–]\s+/
 const URL_RE = /https?:\/\/\S+/
@@ -67,7 +72,7 @@ function isStatRow(line: string): boolean {
 function headingTone(line: string): HeadingTone | null {
   const t = line.trim()
   if (!t) return null
-  if (BULLET.test(t) || URL_RE.test(t) || CITE_LINE.test(t) || isStatRow(t)) return null
+  if (BULLET.test(t) || URL_RE.test(t) || CITE_LINE.test(t) || TABLE_ROW.test(t) || isStatRow(t)) return null
 
   const letters = t.replace(/[^A-Za-z]/g, '')
   const isAllCaps = letters.length >= 2 && t === t.toUpperCase()
@@ -102,6 +107,13 @@ function isBanner(line: string): boolean {
 
 function normalizeTitle(s: string): string {
   return s.toLowerCase().replace(/[^a-z0-9]+/g, '')
+}
+
+/** True if a section heading merely repeats the card's own title (e.g. an
+ *  "Executive Summary" heading inside the "Executive Summary" card). */
+export function headingEchoesTitle(heading: string, title?: string): boolean {
+  if (!title) return false
+  return normalizeTitle(heading) === normalizeTitle(title)
 }
 
 /** True if a leading line is just the doc title (equals or ends with the card's label). */
@@ -197,6 +209,7 @@ export function parseProse(raw: string, title?: string): ProseBlock[] {
   let listItems: string[] = []
   const listCites: string[] = []
   let facts: string[] = []
+  let tableRows: string[][] = []
   let sources: SourceLink[] = []
   let pendingSourceLabel = ''
 
@@ -216,6 +229,15 @@ export function parseProse(raw: string, title?: string): ProseBlock[] {
     if (facts.length) blocks.push({ kind: 'facts', lines: facts })
     facts = []
   }
+  const flushTable = () => {
+    if (tableRows.length >= 2) {
+      blocks.push({ kind: 'table', header: tableRows[0], rows: tableRows.slice(1) })
+    } else if (tableRows.length === 1) {
+      // A lone pipe row isn't a table — keep its text rather than dropping it.
+      blocks.push({ kind: 'para', text: tableRows[0].join(' · '), cites: [] })
+    }
+    tableRows = []
+  }
   const flushSources = () => {
     if (sources.length) blocks.push({ kind: 'sources', items: sources })
     sources = []
@@ -225,6 +247,7 @@ export function parseProse(raw: string, title?: string): ProseBlock[] {
     flushPara()
     flushList()
     flushFacts()
+    flushTable()
     flushSources()
   }
 
@@ -258,6 +281,20 @@ export function parseProse(raw: string, title?: string): ProseBlock[] {
     }
 
     // body mode
+
+    // Markdown pipe tables (from .md source notes, e.g. pricing matrices).
+    if (TABLE_ROW.test(line)) {
+      flushPara()
+      flushList()
+      flushFacts()
+      if (!TABLE_DIVIDER.test(line)) {
+        tableRows.push(
+          line.trim().replace(/^\|/, '').replace(/\|$/, '').split('|').map((c) => c.trim()),
+        )
+      }
+      continue
+    }
+    if (tableRows.length) flushTable()
 
     // Consecutive flattened stat-table rows (e.g. "SAT 1470–1590 1220–1380") are
     // gathered into a quick-fact panel rather than scattered as pseudo-headings.

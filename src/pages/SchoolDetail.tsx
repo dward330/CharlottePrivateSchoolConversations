@@ -111,9 +111,11 @@ export function SchoolDetail({ slug }: { slug: string }) {
                   <div className="metric-body">
                     {g.sections.map((s, i) => (
                       <article key={i} className="section-text">
-                        {g.sections.length > 1 && s.subtopic !== g.metric.label && (
-                          <h3 className="section-sub">{s.subtopic}</h3>
-                        )}
+                        {g.sections.length > 1 &&
+                          s.subtopic !== g.metric.label &&
+                          !/deep research/i.test(s.subtopic) && (
+                            <h3 className="section-sub">{s.subtopic}</h3>
+                          )}
                         <ProseContent text={s.text} title={g.metric.label} />
                       </article>
                     ))}

@@ -3,7 +3,7 @@
 // scripts/build_site_content.py) and is code-split into its own chunk, so the raw
 // research text is only fetched when a parent opens that specific school page.
 
-import { normalizeMetric, type Metric } from './metrics.ts'
+import { normalizeMetric, orderMetricKeys, type Metric } from './metrics.ts'
 import type { ContentSection, SchoolTopicContent } from './types.ts'
 
 const loaders = import.meta.glob<SchoolTopicContent>('../content/*/*.json')
@@ -47,5 +47,5 @@ export async function loadMetricGroups(
     }
     group.sections.push(section)
   }
-  return order.map((k) => byKey.get(k)!)
+  return orderMetricKeys(topicSlug, order).map((k) => byKey.get(k)!)
 }

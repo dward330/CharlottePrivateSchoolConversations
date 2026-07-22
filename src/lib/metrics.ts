@@ -24,7 +24,10 @@ const RULES: Record<string, Rule[]> = {
     { match: /program details/i, key: 'details', label: 'Program Details' },
     { match: /enrichment|swim|youth athletics/i, key: 'enrichment', label: 'Enrichment & Activities' },
     { match: /extended (day|care)|clubhouse|hawks club|talons|after ?care/i, key: 'aftercare', label: 'Extended Day / Aftercare' },
-    { match: /deep research/i, key: 'in-depth-report', label: 'In-Depth Report' },
+    // Pricing notes fold into the same card as the deep-research report so the cost
+    // matrix appears inside "Executive Summary".
+    { match: /pricing|cost/i, key: 'in-depth-report', label: 'Executive Summary' },
+    { match: /deep research/i, key: 'in-depth-report', label: 'Executive Summary' },
   ],
   'college-support': [
     { match: /academic case/i, key: 'academic-case', label: 'Academic Case' },
@@ -74,6 +77,26 @@ const RULES: Record<string, Rule[]> = {
     { match: /facilities/i, key: 'facilities', label: 'Facilities' },
     { match: /deep research/i, key: 'in-depth-report', label: 'In-Depth Report' },
   ],
+}
+
+// Explicit page order for a topic's sub-sections. Keys not listed keep their document
+// order after the listed ones; topics without an entry keep document order entirely.
+const SECTION_ORDER: Record<string, string[]> = {
+  'after-school': ['overview', 'details', 'enrichment', 'aftercare', 'in-depth-report'],
+}
+
+/** Stable-sort metric keys into the topic's explicit page order, if it has one. */
+export function orderMetricKeys(topicSlug: string, keys: string[]): string[] {
+  const order = SECTION_ORDER[topicSlug]
+  if (!order) return keys
+  const rank = (k: string) => {
+    const i = order.indexOf(k)
+    return i === -1 ? order.length : i
+  }
+  return keys
+    .map((k, i) => [k, i] as const)
+    .sort((a, b) => rank(a[0]) - rank(b[0]) || a[1] - b[1])
+    .map(([k]) => k)
 }
 
 function slugify(s: string): string {

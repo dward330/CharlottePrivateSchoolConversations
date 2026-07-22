@@ -1,4 +1,4 @@
-import { parseProse, type ProseBlock, type HeadingTone } from '../lib/prose.ts'
+import { parseProse, headingEchoesTitle, type ProseBlock, type HeadingTone } from '../lib/prose.ts'
 
 // Renders one distilled research note as structured content: a lede, section headings,
 // bulleted lists, "at a glance" quick-fact panels, tinted callouts for strengths /
@@ -6,12 +6,19 @@ import { parseProse, type ProseBlock, type HeadingTone } from '../lib/prose.ts'
 
 type Section = { heading?: { text: string; tone: HeadingTone }; blocks: ProseBlock[] }
 
-function group(blocks: ProseBlock[]): { lede: ProseBlock[]; sections: Section[] } {
+function group(blocks: ProseBlock[], title?: string): { lede: ProseBlock[]; sections: Section[] } {
   const lede: ProseBlock[] = []
   const sections: Section[] = []
   let current: Section | null = null
   for (const b of blocks) {
     if (b.kind === 'heading') {
+      // A leading heading that just repeats the card's title (e.g. "Executive
+      // Summary" inside the Executive Summary card) is dropped, so its content
+      // reads directly under the card header.
+      if (sections.length === 0 && headingEchoesTitle(b.text, title)) {
+        current = null
+        continue
+      }
       current = { heading: { text: b.text, tone: b.tone }, blocks: [] }
       sections.push(current)
     } else if (current) {
@@ -57,6 +64,23 @@ function Blocks({ blocks }: { blocks: ProseBlock[] }) {
             )
           case 'facts':
             return <div key={i} className="facts">{b.lines.join('\n')}</div>
+          case 'table':
+            return (
+              <div key={i} className="prose-table-wrap">
+                <table className="prose-table">
+                  <thead>
+                    <tr>{b.header.map((h, j) => <th key={j}>{h}</th>)}</tr>
+                  </thead>
+                  <tbody>
+                    {b.rows.map((row, j) => (
+                      <tr key={j}>
+                        {row.map((cell, k) => (k === 0 ? <th key={k} scope="row">{cell}</th> : <td key={k}>{cell}</td>))}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            )
           case 'sources':
             return (
               <div key={i} className="source-chips">
@@ -85,7 +109,7 @@ function hostOf(url: string): string {
 }
 
 export function ProseContent({ text, title }: { text: string; title?: string }) {
-  const { lede, sections } = group(parseProse(text, title))
+  const { lede, sections } = group(parseProse(text, title), title)
   return (
     <div className="prose-doc">
       {lede.length > 0 && <div className="prose-lede"><Blocks blocks={lede} /></div>}
