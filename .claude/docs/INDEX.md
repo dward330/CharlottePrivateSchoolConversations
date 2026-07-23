@@ -23,9 +23,9 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Davidson Day School](college-support/davidson-day.md) — 8 docs
 - [Providence Day School](college-support/providence-day.md) — 9 docs
 
-### Financial Aid & Tuition (`financialAid-tuition/`)
+### Financial Aid & Tuition (`financial-aid-tuition/`)
 
-- [Davidson Day School](financialAid-tuition/davidson-day.md) — 1 docs
+- [Davidson Day School](financial-aid-tuition/davidson-day.md) — 1 docs
 
 ### Sports (`sports/`)
 

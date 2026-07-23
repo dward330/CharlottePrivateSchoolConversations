@@ -1,5 +1,5 @@
 # Davidson Day School — Financial Aid & Tuition
-> Distilled from 1 source document(s) in `source-material/financialAid-tuition/davidson-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-07-23.
+> Distilled from 1 source document(s) in `source-material/financial-aid-tuition/davidson-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-07-23.
 **Documents:** Deep Dive Report
 
 
