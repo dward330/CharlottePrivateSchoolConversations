@@ -2,6 +2,7 @@
 const ICONS: Record<string, string> = {
   'after-school': '🎒',
   'college-support': '🎓',
+  'financialAid-tuition': '💵',
   sports: '🏅',
   'student-clubs': '🤝',
   'the-arts': '🎨',

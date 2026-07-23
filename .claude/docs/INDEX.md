@@ -23,6 +23,10 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Davidson Day School](college-support/davidson-day.md) — 8 docs
 - [Providence Day School](college-support/providence-day.md) — 9 docs
 
+### Financial Aid & Tuition (`financialAid-tuition/`)
+
+- [Davidson Day School](financialAid-tuition/davidson-day.md) — 1 docs
+
 ### Sports (`sports/`)
 
 - [Cannon School](sports/cannon.md) — 14 docs
@@ -52,4 +56,4 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 
 ## Data layer
-- `src/data/schools.json` — 247 documents across 5 topics and 6 schools.
+- `src/data/schools.json` — 248 documents across 6 topics and 6 schools.
