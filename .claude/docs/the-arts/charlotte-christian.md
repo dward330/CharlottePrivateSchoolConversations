@@ -1,5 +1,5 @@
 # Charlotte Christian School — The Arts
-> Distilled from 7 source document(s) in `source-material/the-arts/charlotte-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-07-04.
+> Distilled from 7 source document(s) in `source-material/the-arts/charlotte-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-07-23.
 **Documents:** Awards and Recognition, Deep Research, Digital Arts, Music, Program Overview, Theatre, Visual Arts
 
 

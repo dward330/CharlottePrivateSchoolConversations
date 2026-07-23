@@ -1,6 +1,6 @@
 # Charlotte Christian School — Sports
-> Distilled from 13 source document(s) in `source-material/sports/charlotte-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-07-04.
-**Documents:** Awards and Honors, Championships, Coaches, Pedigree and Continuity, D1 Matriculation, Facilities and Infrastructure, NIL Landscape, National Profile, Power 4 Offers, Professional Athletes, Sports Medicine and Performance, Sports Offered, Top 100 Recruiting Rankings, Win-Loss Records
+> Distilled from 14 source document(s) in `source-material/sports/charlotte-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-07-23.
+**Documents:** Awards and Honors, Championships, Coaches, Pedigree and Continuity, College Commitments 2024-2026, D1 Matriculation, Facilities and Infrastructure, NIL Landscape, National Profile, Power 4 Offers, Professional Athletes, Sports Medicine and Performance, Sports Offered, Top 100 Recruiting Rankings, Win-Loss Records
 
 
 ---
@@ -181,6 +181,71 @@ harlotte-christian-football-coach/article_71a60fea-9db6-11ed-8c63-332aa01ffd72.h
 (cid:127) Shonn Brown — professional profile (400+ wins; coached Curry) — https://www.linkedin.com/in/shonn-brown-6a780b20/
 (cid:127) CoachComm — Charlotte Christian / Estep profile — http://www.coachcomm.com/team/charlotte-christian-high-school/
 Compiled June 17, 2026. Sources cited inline and listed at end of each document. Page 2
+
+
+---
+
+## College Commitments 2024-2026
+
+*Source file: `Charlotte Christian - Sports - College Commitments 2024-2026.md`*
+
+# Charlotte Christian School — Sports — College Commitments (2024–2026)
+
+> **Provenance:** Compiled by Claude Code on 2026-07-04 from the public sources listed
+> below, to preserve the hard data behind the *Power 4 commits* and *Division I commits*
+> metrics in the app (`src/data/metricValues.ts`). Level classification is by hand:
+> **Power 4 = SEC / Big Ten / ACC / Big 12** only. Counts are distinct athletes; a
+> documented minimum.
+>
+> **Coverage note:** Charlotte Christian's public "Knights in College" list runs through
+> the Class of 2025; the Class of 2026 was not yet compiled at time of research, so the
+> totals below cover 2024–2025 only and undercount the true 2024–2026 figure.
+
+## Sources
+- Charlotte Christian "Knights in College" / Knights Accolades roster (school-published),
+ as compiled in `Charlotte Christian - Sports - D1 Matriculation.pdf`.
+- Charlotte-area National Signing Day roundup (2024–25 signing day, Class of 2025 cycle;
+ accessed 2026-07-04) — Yahoo Sports / Charlotte Observer:
+ https://sports.yahoo.com/national-signing-day-where-charlotte-111500448.html
+
+## Class of 2025 — Division I (15), of which Power 4 (4)
+| Athlete | Sport | College | Conference | P4 |
+|---------|-------|---------|------------|----|
+| Cohen Bettencourt | Baseball | High Point | Big South | |
+| Aron Boykin | Track & Field | Alabama A&M | SWAC | |
+| Evan Boykin | Track & Field | Kentucky | SEC | ✅ |
+| Nina Dominique | Track & Field | James Madison | Sun Belt | |
+| Owen Farrell | Football | Charleston Southern | Big South | |
+| Corban Hall | Football | Dartmouth | Ivy | |
+| Sophia Harris | Tennis | Fairfield | MAAC | |
+| Brandon Hettwer | Football | Marshall | Sun Belt | |
+| Anna Hinde | Softball | Florida State | ACC | ✅ |
+| Kelsey Mayers | Swimming | New Hampshire | America East | |
+| Grant Nicholson | Baseball | Wake Forest | ACC | ✅ |
+| MadisonRae Noble | Track & Field | North Carolina A&T | CAA | |
+| Caroline Noonan | Volleyball | College of Charleston | CAA | |
+| Alexander Paschall | Golf | Davidson | Atlantic 10 | |
+| Beckett Vance | Lacrosse | Penn State | Big Ten | ✅ |
+
+## Class of 2024 — Division I (11), of which Power 4 (4)
+| Athlete | Sport | College | Conference | P4 |
+|---------|-------|---------|------------|----|
+| Drew Beard | Baseball | James Madison | Sun Belt | |
+| Olivia Dawson | Track & Field | UNC-Greensboro | Southern | |
+| Micah Gilbert | Football | Notre Dame | FBS Independent | |
+| Nic Harris | Baseball | Elon | CAA | |
+| Ryan Henley | Football | Wake Forest | ACC | ✅ |
+| Gavin Major | Football | Wofford | Southern | |
+| Christian Vann | Football | Gardner-Webb | Big South | |
+| Tre Wilfong | Wrestling | NC State | ACC | ✅ |
+| Tripp Woody | Football | Iowa | Big Ten | ✅ |
+| Bryce Young | Football | Notre Dame | FBS Independent | |
+| Zach Zinger | Football | Wake Forest | ACC | ✅ |
+
+## Class of 2026
+Not yet compiled in any located public source.
+
+**App metric values (2024–2025 documented):** Power 4 = 8 · Division I = 26
 
 
 ---
@@ -1095,6 +1160,7 @@ Compiled June 17, 2026. Sources cited inline and listed at end of each document.
 - https://charlotte49ers.com/sports/2010/7/27/204971114
 - https://en.wikipedia.org/wiki/Stephen_Curry
 - https://news.medill.northwestern.edu/chicago/inside-the-high-school-that-was-monumental-in-stephen-currys-life/
+- https://sports.yahoo.com/national-signing-day-where-charlotte-111500448.html
 - https://www.charlottechristian.com/about/leadership
 - https://www.charlottechristian.com/about/master-campus-plan
 - https://www.charlottechristian.com/athletics/athletic-facilities

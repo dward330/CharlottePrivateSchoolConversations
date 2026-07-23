@@ -1,5 +1,5 @@
 # Davidson Day School — After School
-> Distilled from 4 source document(s) in `source-material/after-school/davidson-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-07-22.
+> Distilled from 4 source document(s) in `source-material/after-school/davidson-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-07-23.
 **Documents:** Deep Research, Extended Care, Pricing, Program Overview
 
 

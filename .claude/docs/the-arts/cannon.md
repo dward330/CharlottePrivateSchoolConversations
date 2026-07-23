@@ -1,5 +1,5 @@
 # Cannon School — The Arts
-> Distilled from 7 source document(s) in `source-material/the-arts/cannon/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-07-04.
+> Distilled from 7 source document(s) in `source-material/the-arts/cannon/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-07-23.
 **Documents:** Course Offerings, Deep Research, Facilities, Music, Program Overview, Theater, Visual Arts
 
 
