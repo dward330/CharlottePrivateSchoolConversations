@@ -1,15 +1,36 @@
 import { schools, topics, topicsForSchool, docCount, projectStats, generated, brandOf } from '../lib/manifest.ts'
 import { SchoolBadge } from '../components/SchoolBadge.tsx'
-import { TopicIcon } from '../components/TopicIcon.tsx'
+import { TopicGlyph } from '../components/TopicGlyph.tsx'
+import { BlueprintCorners } from '../components/BlueprintCorners.tsx'
 import { toSchool, toCompare, useNavigate } from '../lib/router.ts'
+
+function ArrowIcon() {
+  return (
+    <svg
+      width="15"
+      height="15"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+      focusable="false"
+    >
+      <path d="M5 12h14M12 5l7 7-7 7" />
+    </svg>
+  )
+}
 
 export function Home() {
   const navigate = useNavigate()
   const stats = projectStats()
   const allSlugs = schools.map((s) => s.slug)
+  const compareAll = toCompare(topics[0]?.slug ?? null, allSlugs)
 
   return (
-    <div className="page">
+    <div className="page home">
       <header className="hero">
         <p className="eyebrow">Charlotte private schools · parent research</p>
         <h1>Compare Charlotte's private schools, side by side.</h1>
@@ -19,14 +40,43 @@ export function Home() {
           {stats.documents} source documents.
         </p>
         <div className="hero-actions">
-          <a className="btn primary" href={toCompare(topics[0]?.slug ?? null, allSlugs)}>
-            Compare schools
-          </a>
-          <a className="btn ghost" href="#schools">
+          <span className="cta-frame">
+            <BlueprintCorners />
+            <a
+              className="btn primary"
+              href={compareAll}
+              onClick={(e) => { e.preventDefault(); navigate(compareAll) }}
+            >
+              Compare schools <ArrowIcon />
+            </a>
+          </span>
+          <a
+            className="btn ghost"
+            href="#schools"
+            onClick={(e) => {
+              // The hash router owns location.hash — scroll in place instead.
+              e.preventDefault()
+              document.getElementById('schools')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+            }}
+          >
             Browse a school
           </a>
+          <span className="freshness">Research current as of {generated}.</span>
         </div>
-        <p className="freshness">Research current as of {generated}.</p>
+        <div className="stat-strip hero-stats">
+          <div className="stat-tile">
+            <div className="stat-tile-val">{stats.schools}</div>
+            <div className="stat-tile-label">schools researched</div>
+          </div>
+          <div className="stat-tile">
+            <div className="stat-tile-val">{stats.topics}</div>
+            <div className="stat-tile-label">research areas</div>
+          </div>
+          <div className="stat-tile">
+            <div className="stat-tile-val">{stats.documents}</div>
+            <div className="stat-tile-label">source documents distilled</div>
+          </div>
+        </div>
       </header>
 
       <section aria-labelledby="topics-h" className="block">
@@ -35,14 +85,14 @@ export function Home() {
           {topics.map((t) => (
             <a
               key={t.slug}
-              className="topic-card"
+              className="topic-cell"
               href={toCompare(t.slug, allSlugs)}
               onClick={(e) => {
                 e.preventDefault()
                 navigate(toCompare(t.slug, allSlugs))
               }}
             >
-              <TopicIcon slug={t.slug} size={28} />
+              <span className="topic-cell-icon"><TopicGlyph slug={t.slug} size={20} /></span>
               <span className="topic-name">{t.name}</span>
               <span className="topic-cta">Compare all →</span>
             </a>
@@ -67,19 +117,22 @@ export function Home() {
                 }}
                 style={{ ['--brand' as string]: brandOf(s.slug).color }}
               >
-                <SchoolBadge slug={s.slug} name={s.name} size={52} />
-                <div className="school-card-body">
-                  <span className="school-card-name">{s.name}</span>
-                  <span className="school-card-meta">
-                    {covered.length} topics · {docs} documents
-                  </span>
-                  <div className="school-card-topics">
-                    {covered.map((t) => (
-                      <span key={t.slug} className="mini-chip">
-                        <TopicIcon slug={t.slug} size={13} /> {t.name}
-                      </span>
-                    ))}
+                <BlueprintCorners />
+                <div className="school-card-head">
+                  <SchoolBadge slug={s.slug} name={s.name} size={44} />
+                  <div className="school-card-body">
+                    <span className="school-card-name">{s.name}</span>
+                    <span className="school-card-meta">
+                      {covered.length} topics · {docs} documents
+                    </span>
                   </div>
+                </div>
+                <div className="school-card-topics">
+                  {covered.map((t) => (
+                    <span key={t.slug} className="mini-chip">
+                      <TopicGlyph slug={t.slug} size={11} /> {t.name}
+                    </span>
+                  ))}
                 </div>
               </a>
             )
