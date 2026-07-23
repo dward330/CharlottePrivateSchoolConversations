@@ -8,6 +8,7 @@ import {
 import { loadMetricGroups, type MetricGroup } from '../lib/content.ts'
 import { SchoolBadge } from '../components/SchoolBadge.tsx'
 import { TopicGlyph } from '../components/TopicGlyph.tsx'
+import { BlueprintCorners } from '../components/BlueprintCorners.tsx'
 import { ProseContent } from '../components/ProseContent.tsx'
 import { proseSummary } from '../lib/prose.ts'
 import { toCompare, toHome, useNavigate } from '../lib/router.ts'
@@ -15,15 +16,6 @@ import { schools as allSchools } from '../lib/manifest.ts'
 import { valueMetricsForTopic } from '../data/metricValues.ts'
 
 type Loaded = Record<string, MetricGroup[]>
-
-function BlueprintCorners() {
-  return (
-    <>
-      <i className="bp-corner tl" /><i className="bp-corner tr" />
-      <i className="bp-corner bl" /><i className="bp-corner br" />
-    </>
-  )
-}
 
 function PlusIcon() {
   return (

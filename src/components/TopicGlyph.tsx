@@ -1,6 +1,6 @@
-// Stroke-style topic icons for the school "dossier" page, matching the blueprint
-// design system (1.5px round-capped strokes, currentColor). The emoji TopicIcon
-// remains in use on the home page cards.
+// Stroke-style topic icons matching the blueprint design system
+// (1.5px round-capped strokes, currentColor). Used on the school "dossier"
+// pages and the home page topic/school cards.
 
 const PATHS: Record<string, React.ReactNode> = {
   'student-clubs': <path d="M17 6.1H3M21 12.1H3M15.1 18H3" />,

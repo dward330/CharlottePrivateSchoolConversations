@@ -225,6 +225,7 @@ main { flex: 1; }
   transition: transform 0.08s ease, background 0.15s ease;
 }
 .btn:active { transform: translateY(1px); }
+.btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .btn.primary { background: var(--accent); color: var(--bg); border-color: var(--accent); }
 .btn.primary:hover { background: var(--accent-700); }
 .btn.ghost { background: var(--surface); color: var(--text); }
@@ -242,18 +243,34 @@ main { flex: 1; }
   flex: none;
 }
 
-.chip, .mini-chip {
+.chip {
   display: inline-flex;
   align-items: center;
   gap: 6px;
+  padding: 5px 11px;
+  font-size: 13px;
+  font-weight: 600;
   border: 1px solid var(--border);
   background: transparent;
   color: var(--muted);
   white-space: nowrap;
 }
-.chip { padding: 5px 11px; font-size: 13px; font-weight: 600; }
 .chip:hover { color: var(--text); border-color: var(--brand); }
-.mini-chip { padding: 3px 8px; font-size: 12px; }
+
+/* neutral tag with a small accent topic glyph (school directory cards) */
+.mini-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 8px;
+  font-size: 10.5px;
+  letter-spacing: 0.02em;
+  border-radius: 3px;
+  background: var(--surface-2);
+  color: color-mix(in srgb, var(--text) 82%, var(--bg));
+  white-space: nowrap;
+}
+.mini-chip svg { color: var(--accent); flex: none; }
 
 .back {
   display: inline-flex;
@@ -276,7 +293,12 @@ main { flex: 1; }
 
 /* -------------------------------------------------------------- home hero */
 
-.hero { padding: clamp(8px, 3vw, 28px) 0 clamp(20px, 4vw, 36px); }
+.page.home { max-width: 1160px; }
+
+.hero {
+  padding: clamp(36px, 8vw, 90px) 0 clamp(30px, 6vw, 70px);
+  border-bottom: 1px solid var(--border);
+}
 .eyebrow {
   text-transform: uppercase;
   letter-spacing: 0.14em;
@@ -285,62 +307,85 @@ main { flex: 1; }
   color: var(--accent-700);
   margin: 0 0 12px;
 }
-.hero h1 { font-size: clamp(30px, 6vw, 48px); max-width: 16ch; }
-.lede {
-  font-size: clamp(16px, 2.4vw, 19px);
-  color: var(--muted);
-  max-width: 60ch;
-  margin: 16px 0 24px;
+.hero h1 {
+  font-size: clamp(34px, 6vw, 64px);
+  line-height: 1.05;
+  max-width: 720px;
 }
-.hero-actions { display: flex; flex-wrap: wrap; gap: 12px; }
-.freshness { margin: 18px 0 0; font-size: 13px; color: var(--muted); }
+.lede {
+  font-size: 17px;
+  line-height: 1.6;
+  color: var(--muted);
+  max-width: 560px;
+  margin: 16px 0 28px;
+}
+.hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+.hero-actions .btn { padding: 10px 22px; }
+/* blueprint frame around the primary CTA — the one solid object on the page */
+.cta-frame {
+  position: relative;
+  display: inline-flex;
+  border: 1px solid var(--border);
+}
+.freshness { font-size: 12.5px; color: var(--muted); }
 
-.block { margin-top: clamp(30px, 6vw, 52px); }
-.block > h2 { font-size: clamp(20px, 3vw, 26px); margin-bottom: 18px; }
+/* hero stat strip — same hairline-grid construction as the dossier stat strips */
+.hero-stats {
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 640px;
+  margin: clamp(36px, 6vw, 60px) 0 0;
+}
+.hero-stats .stat-tile-val { color: var(--text); font-size: 30px; }
 
-/* topic cards */
+.block { padding: clamp(32px, 6vw, 60px) 0; scroll-margin-top: 70px; }
+.block + .block { border-top: 1px solid var(--border); }
+.block > h2 { font-size: clamp(22px, 3.2vw, 30px); margin-bottom: 20px; }
+
+/* explore-by-topic — hairline grid of cells, whole cell is the link */
 .topic-grid {
   display: grid;
-  gap: 14px;
-  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
 }
-.topic-card {
+.topic-cell {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  padding: 18px;
-  border-radius: var(--radius);
-  background: var(--surface);
-  border: 1px solid var(--border);
-  box-shadow: var(--shadow-sm);
-  transition: transform 0.1s ease, box-shadow 0.15s ease;
+  gap: 6px;
+  padding: clamp(16px, 2.5vw, 22px);
+  background: var(--bg);
+  transition: background 0.12s ease;
 }
-.topic-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
-.topic-name { font-family: var(--heading); font-weight: 600; font-size: 18px; }
-.topic-cta { color: var(--muted); font-size: 13px; font-weight: 600; }
+.topic-cell:hover { background: color-mix(in srgb, var(--accent) 7%, var(--bg)); }
+.topic-cell:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.topic-cell-icon { display: inline-flex; color: var(--accent); }
+.topic-name { font-family: var(--heading); font-weight: 600; font-size: 21px; }
+.topic-cta { color: var(--accent-700); font-size: 13px; }
 
-/* school cards */
+/* school directory — blueprint cards */
 .school-grid {
   display: grid;
-  gap: 16px;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  align-items: stretch;
 }
 .school-card {
+  position: relative;
   display: flex;
-  gap: 14px;
-  padding: 18px;
-  border-radius: var(--radius);
-  background: var(--surface);
+  flex-direction: column;
+  gap: 12px;
+  padding: clamp(16px, 2.5vw, 22px);
   border: 1px solid var(--border);
-  border-left: 5px solid var(--brand);
-  box-shadow: var(--shadow-sm);
-  transition: transform 0.1s ease, box-shadow 0.15s ease;
+  transition: border-color 0.12s ease;
 }
-.school-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
-.school-card-body { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
-.school-card-name { font-family: var(--heading); font-weight: 600; font-size: 18px; }
-.school-card-meta { color: var(--muted); font-size: 13px; }
-.school-card-topics { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.school-card:hover { border-color: color-mix(in srgb, var(--text) 45%, transparent); }
+.school-card:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.school-card-head { display: flex; align-items: center; gap: 12px; }
+.school-card-body { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.school-card-name { font-family: var(--heading); font-weight: 600; font-size: 20px; line-height: 1.15; }
+.school-card-meta { color: var(--muted); font-size: 12.5px; }
+.school-card-topics { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; padding-top: 6px; }
 
 /* --------------------------------------------- school detail ("dossier") */
 
@@ -911,6 +956,11 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   .dossier-layout { grid-template-columns: 1fr; }
   .dossier-nav { display: none; }
   .note-cards { grid-template-columns: 1fr; }
+  .topic-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 540px) {
+  .topic-grid { grid-template-columns: 1fr; }
 }
 
 @media (prefers-reduced-motion: reduce) {

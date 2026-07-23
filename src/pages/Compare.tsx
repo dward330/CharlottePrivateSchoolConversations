@@ -7,6 +7,7 @@ import {
   schoolHasMetric,
 } from '../lib/manifest.ts'
 import { SchoolBadge } from '../components/SchoolBadge.tsx'
+import { BlueprintCorners } from '../components/BlueprintCorners.tsx'
 import { toCompare, toSchool, toHome, useNavigate } from '../lib/router.ts'
 import { valueMetricsForTopic } from '../data/metricValues.ts'
 
@@ -114,8 +115,7 @@ export function Compare({ topic, schools }: Props) {
         <p className="empty">Select at least one school to compare.</p>
       ) : (
         <div className="table-frame">
-          <i className="bp-corner tl" /><i className="bp-corner tr" />
-          <i className="bp-corner bl" /><i className="bp-corner br" />
+          <BlueprintCorners />
           <div className="table-wrap" role="region" aria-label="Comparison table" tabIndex={0}>
             <table className="compare">
               <thead>
