@@ -48,6 +48,8 @@ pretty = lambda slug, table: table.get(slug, slug.replace("-", " ").title())
 HEADER_SPLITS = [
     ("Sectio Subject Confidence\nn", "Section Subject Confidence"),
     ("Name Clas College Level\ns", "Name Class College Level"),
+    ("Secti Topic Answered The limiting factor\non",
+     "Section Topic Answered The limiting factor"),
 ]
 FRAGMENT_LINE = re.compile(r"^(.+)\n([a-z]{1,2})$", re.MULTILINE)
 
