@@ -40,13 +40,32 @@ SCHOOL_NAMES = {
 }
 pretty = lambda slug, table: table.get(slug, slug.replace("-", " ").title())
 
+# A table header cell that wraps inside its own column comes out of pdfplumber as a
+# split word: the header row on one line, then the tail of the wrapped word alone on
+# the next ("Sectio Subject Confidence" / "n"). Text order alone can't say which word
+# the tail belongs to, so the repairs are listed explicitly. `warn_fragments` flags any
+# new occurrence so an unlisted one shows up at build time instead of on the page.
+HEADER_SPLITS = [
+    ("Sectio Subject Confidence\nn", "Section Subject Confidence"),
+    ("Name Clas College Level\ns", "Name Class College Level"),
+]
+FRAGMENT_LINE = re.compile(r"^(.+)\n([a-z]{1,2})$", re.MULTILINE)
+
 def clean(t):
     if not t: return ""
     t = t.replace("\x00", " ")
     t = re.sub(r"[ \t]+\n", "\n", t)
     t = re.sub(r"\n{3,}", "\n\n", t)
     t = re.sub(r"[ \t]{2,}", " ", t)
+    for broken, fixed in HEADER_SPLITS:
+        t = t.replace(broken, fixed)
     return t.strip()
+
+def warn_fragments(text, path):
+    """Report split-word leftovers that HEADER_SPLITS doesn't cover yet."""
+    for m in FRAGMENT_LINE.finditer(text):
+        print(f"  ! split-word fragment {m.group(2)!r} after {m.group(1)[:60]!r} "
+              f"in {os.path.basename(path)}")
 
 def extract(path):
     ext = os.path.splitext(path)[1].lower()
@@ -109,6 +128,7 @@ def main():
             for f in files:
                 st = subtopic(f)
                 text = extract(os.path.join(sdir, f))
+                warn_fragments(text, f)
                 if len(text) > 45000:
                     text = text[:45000] + "\n\n…[truncated]"
                 urls.update(find_urls(text))

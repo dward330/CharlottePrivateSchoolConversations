@@ -35,8 +35,7 @@ Section-by-section confidence, based on what Davidson Day publishes.
 Each section below was scored on how much of its subject the school actually puts on the public record. A low
 score means the school publishes little on that topic — not that the school performs poorly on it. The pattern here is
 common among independent schools: prices are published, aid statistics are not.
-Sectio Subject Confidence
-n
+Section Subject Confidence
 1 Tuition by grade level 90%
 2 Fees and additional costs 70%
 3 Aid process and timeline 85%

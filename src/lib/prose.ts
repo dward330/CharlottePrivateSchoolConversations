@@ -19,7 +19,10 @@ export type SourceLink = { label: string; url: string }
 export type ProseBlock =
   | { kind: 'heading'; text: string; tone: HeadingTone }
   | { kind: 'scope'; text: string }
-  | { kind: 'para'; text: string; cites: string[] }
+  // `demoted` marks a line that read as a heading but headed nothing (see
+  // demoteEmptyHeadings). It still renders as prose, but it is a stray title rather
+  // than a sentence, so it makes a poor collapsed-card summary.
+  | { kind: 'para'; text: string; cites: string[]; demoted?: boolean }
   | { kind: 'list'; items: string[]; cites: string[] }
   | { kind: 'facts'; lines: string[] }
   | { kind: 'table'; header: string[]; rows: string[][] }
@@ -68,11 +71,16 @@ function isStatRow(line: string): boolean {
   return numeric.length >= 2
 }
 
+// Cover-page provenance ("Prepared July 2026", "Figures cover the 2026–27 school
+// year"). Short and title-ish, so it reads as a heading, but it heads nothing.
+const COVER_META = /^(Prepared|Retrieved|Compiled|Figures cover|Published|Last updated)\b/i
+
 /** Decide whether a line is a section heading; returns its tone, or null if it isn't. */
 function headingTone(line: string): HeadingTone | null {
   const t = line.trim()
   if (!t) return null
   if (BULLET.test(t) || URL_RE.test(t) || CITE_LINE.test(t) || TABLE_ROW.test(t) || isStatRow(t)) return null
+  if (COVER_META.test(t)) return null
 
   const letters = t.replace(/[^A-Za-z]/g, '')
   const isAllCaps = letters.length >= 2 && t === t.toUpperCase()
@@ -103,6 +111,13 @@ function isBanner(line: string): boolean {
     /\bSCHOOL\b.*\b(College Support|Clubs|Activities|Athletics|Series|Dossier)\b/.test(line) ||
     /\b(CHARGERS|COUGARS|HAWKS|KNIGHTS)\b/.test(line)
   )
+}
+
+/** The series banner that opens a report's PDF cover page. Distinct from isBanner:
+ *  a dossier's banner is followed by the segment's real subtitle, whereas a cover
+ *  page is followed only by more cover text. */
+function isCoverBanner(line: string): boolean {
+  return /^CHARLOTTE-AREA INDEPENDENT SCHOOLS\b/i.test(line)
 }
 
 function normalizeTitle(s: string): string {
@@ -140,7 +155,7 @@ function parseSource(rawLabel: string, url: string): SourceLink {
 /** A clean one-line summary (first real paragraph) for collapsed card previews. */
 export function proseSummary(raw: string, title?: string): string {
   for (const b of parseProse(raw, title)) {
-    if (b.kind === 'para' && b.text) return b.text
+    if (b.kind === 'para' && b.text && !b.demoted) return b.text
     if (b.kind === 'facts' && b.lines.length) return b.lines.join(' — ')
   }
   return raw.replace(/\s+/g, ' ').trim()
@@ -191,6 +206,17 @@ export function parseProse(raw: string, title?: string): ProseBlock[] {
       if (scopeRe.test(l)) {
         const r = lines.shift()!
         blocks.push({ kind: 'scope', text: r.replace(scopeRe, '').trim() || r.trim() })
+        continue
+      }
+      if (isCoverBanner(l)) {
+        lines.shift()
+        // A cover page stacks its title lines under the banner — report title, then
+        // school name — with no body between them. They read as headings but head no
+        // section, so drop the whole run as front matter. A scope line is the note's
+        // real subject rather than cover text, so it stops the run.
+        while (lines.length && headingTone(lines[0]) !== null && !scopeRe.test(lines[0])) {
+          lines.shift()
+        }
         continue
       }
       if (isBanner(l) || looksLikeSubtitle(l) || isTitleDup(l, title)) {
@@ -340,5 +366,19 @@ export function parseProse(raw: string, title?: string): ProseBlock[] {
   }
   flushAll()
 
-  return blocks
+  return demoteEmptyHeadings(blocks)
+}
+
+/** A heading with nothing under it heads no section — it's a line the classifier
+ *  over-read (a flattened table row like "Financial Aid Workshop All families", a
+ *  leftover cover-page date). Demote it to a paragraph: the text still shows, but
+ *  the page stops rendering section bars over empty space. Same conservative
+ *  principle as the rest of the parser — when unsure, it's prose. */
+function demoteEmptyHeadings(blocks: ProseBlock[]): ProseBlock[] {
+  return blocks.map((b, i) => {
+    if (b.kind !== 'heading') return b
+    const next = blocks[i + 1]
+    if (next && next.kind !== 'heading') return b
+    return { kind: 'para', text: b.text, cites: [], demoted: true }
+  })
 }

@@ -352,14 +352,12 @@ Reproduced from Providence Day's official “Alumni at the Next Level” list, f
 Baseball
 Compiled June 17, 2026. Sources cited inline and listed at end of each document. Page 1
 PROVIDENCE DAY SCHOOL CHARGERS — ATHLETICS RESEARCH DOSSIER Charlotte, NC
-Name Clas College Level
-s
+Name Class College Level
 Thomas Daly '26 Denison University D3
 Austin Nelson '25 Rhodes College D3
 Chase Jackson '24 Gardner-Webb University D1 (Big South)
 Boys Basketball
-Name Clas College Level
-s
+Name Class College Level
 Osvaldo “Deuce” Haynes '26 Morehouse College D2
 Aidan Scruitsky '26 Hampden-Sydney College D3
 Trajan Thompson '25 University of Denver D1 (Summit)
@@ -367,21 +365,18 @@ Julian Johnson '25 Howard University D1 (MEAC)
 Jonah Lawrence '25 USC – Aiken D2
 Jordan Appling '24 Johnson & Wales University D3
 Girls Basketball
-Name Clas College Level
-s
+Name Class College Level
 Katelyn Ramsden '26 University of Chicago D3
 Julia O’Malley '26 Johns Hopkins University D3
 Jaida McClure '26 Appalachian State University D1 (Sun Belt)
 Ellie Fyans '25 Western Carolina University D1 (Southern)
 Sophie Levine '24 Franklin & Marshall College D3
 Girls Cross Country
-Name Clas College Level
-s
+Name Class College Level
 Sophie Powell '24 Emory University D3
 Morgan Boonshaft '24 Brown University D1 (Ivy)
 Field Hockey
-Name Clas College Level
-s
+Name Class College Level
 Tina Garofoli '26 Miami University (Ohio) D1 (MAC)
 Reese Ziegler '24 Connecticut College D3
 Gracie Kaspar '24 Washington & Lee University D3
@@ -390,8 +385,7 @@ Kenna White '24 Hamilton College D3
 Compiled June 17, 2026. Sources cited inline and listed at end of each document. Page 2
 PROVIDENCE DAY SCHOOL CHARGERS — ATHLETICS RESEARCH DOSSIER Charlotte, NC
 Football
-Name Clas College Level
-s
+Name Class College Level
 Gordon Sellars '26 Clemson University D1 — Power 4 (ACC)
 Zaid Lott '26 Syracuse University D1 — Power 4 (ACC)
 Leo Delaney '26 Clemson University D1 — Power 4 (ACC)
@@ -416,69 +410,59 @@ Jordan Shipp '24 Univ. of North Carolina D1 — Power 4 (ACC)
 Channing Goodwin '24 University of Michigan D1 — Power 4 (Big Ten)
 Jadyn Davis '24 Univ. of Michigan (HS commit) D1 — Power 4 (Big Ten)
 Boys/Girls Golf
-Name Clas College Level
-s
+Name Class College Level
 Chloe Scofield '26 Presbyterian College D1 (Big South)
 Jason Zawtocki '25 Tufts University D3
 George Hinton '24 Bates College D3
 Boys Lacrosse
-Name Clas College Level
-s
+Name Class College Level
 Carter Martin '26 Jacksonville University D1 (ASUN)
 Compiled June 17, 2026. Sources cited inline and listed at end of each document. Page 3
 PROVIDENCE DAY SCHOOL CHARGERS — ATHLETICS RESEARCH DOSSIER Charlotte, NC
-Name Clas College Level
-s
+Name Class College Level
 William McDermott '26 Stevenson University D3
 Scott Thompson '25 Hampden-Sydney College D3
 Harry O’Neil '25 Ithaca College D3
 Kyle Van Dam '24 Colgate University D1 (Patriot)
 Alex Jessey '24 Dartmouth College D1 (Ivy)
 Girls Lacrosse
-Name Clas College Level
-s
+Name Class College Level
 Bridget Brewster '26 Hamilton College D3
 Marlo Stuart '25 Tufts University D3
 Lucy Dyer '25 Colby College D3
 Boys Soccer
-Name Clas College Level
-s
+Name Class College Level
 Ethan He '26 MIT D3
 Owen Yu '25 New York University D3
 Will Chase '25 Dean College D3/NAIA
 Ethan Andrews '25 Vassar College D3
 Liam Hedinger '24 Gettysburg College D3
 Girls Soccer
-Name Clas College Level
-s
+Name Class College Level
 Abby Goldean '26 Southern Methodist Univ. D1 — Power 4 (ACC)
 Mikaela Arey '26 Emory University D3
 Devin McElroy '26 Miami University (Ohio) D1 (MAC)
 Blane McElroy '25 Princeton University D1 (Ivy)
 KK Hart '24 University of Tulsa D1 (American)
 Softball
-Name Clas College Level
-s
+Name Class College Level
 Rachel Lyons '26 Kenyon College D3
 Swimming
 Compiled June 17, 2026. Sources cited inline and listed at end of each document. Page 4
 PROVIDENCE DAY SCHOOL CHARGERS — ATHLETICS RESEARCH DOSSIER Charlotte, NC
-Name Clas College Level
-s
+Name Class College Level
 Zetta Grace Bartee '26 Auburn University D1 — Power 4 (SEC)
 Granger Bartee '25 Univ. of North Carolina D1 — Power 4 (ACC)
 Clark Neace '25 University of Georgia D1 — Power 4 (SEC)
 Emma Grace Sachar '25 Hamilton College D3
 Davis Dunham '24 Georgetown University D1 (Big East)
 Boys Tennis
-Name Clas College Level
-s
+Name Class College Level
 Tejus Ranadive '25 Hobart & William Smith D3
 Renat Kramin '25 Stevens Inst. of Technology D3
 Shaurya Bharadwaj '24 Univ. of Pennsylvania D1 (Ivy)
 Track & Field
-Name Clas College Level
-s
+Name Class College Level
 Evelyn Hee '26 Emory University D3
 Raj Das '26 Emory University D3
 Aiden Ray '25 Northeastern University D1 (CAA)
@@ -488,8 +472,7 @@ Kashe Smith '24 Wingate University D2
 Nia Poole '24 NC State University D1 — Power 4 (ACC)
 Zach Makemson '24 University of Tennessee D1 — Power 4 (SEC)
 Volleyball
-Name Clas College Level
-s
+Name Class College Level
 Austen Graziano '26 Belmont Abbey College D2
 Mikayla Moore '25 Tennessee State University D1 (OVC)
 Division I Tally, Classes of 2024–2026
