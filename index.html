@@ -10,6 +10,21 @@
       content="Compare Charlotte-area private schools across sports, the arts, student clubs, and college support."
     />
     <title>Charlotte School Compare</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&family=Barlow:wght@400;500;600;700&display=swap"
+    />
+    <!-- Pin the saved theme before first paint so there's no light/dark flash.
+         Mirrors src/lib/theme.ts; with nothing saved we fall through to the
+         prefers-color-scheme rules in index.css until React mounts. -->
+    <script>
+      try {
+        var t = localStorage.getItem('cs-theme')
+        if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t
+      } catch (e) {}
+    </script>
   </head>
   <body>
     <div id="root"></div>

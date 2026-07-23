@@ -5,6 +5,7 @@ import { Home } from './pages/Home.tsx'
 import { SchoolDetail } from './pages/SchoolDetail.tsx'
 import { Compare } from './pages/Compare.tsx'
 import { BackToTop } from './components/BackToTop.tsx'
+import { ThemeToggle } from './components/ThemeToggle.tsx'
 
 function App() {
   const route = useRoute()
@@ -34,13 +35,16 @@ function App() {
           )}
           <span className="brand-name">Charlotte School Compare</span>
         </a>
-        <a
-          className={`navlink ${route.name === 'compare' ? 'on' : ''}`}
-          href={toCompare(topics[0]?.slug ?? null, allSlugs)}
-          onClick={(e) => { e.preventDefault(); navigate(toCompare(topics[0]?.slug ?? null, allSlugs)) }}
-        >
-          Compare
-        </a>
+        <div className="nav-actions">
+          <a
+            className={`navlink ${route.name === 'compare' ? 'on' : ''}`}
+            href={toCompare(topics[0]?.slug ?? null, allSlugs)}
+            onClick={(e) => { e.preventDefault(); navigate(toCompare(topics[0]?.slug ?? null, allSlugs)) }}
+          >
+            Compare
+          </a>
+          <ThemeToggle />
+        </div>
       </nav>
 
       <main>

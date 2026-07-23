@@ -7,13 +7,67 @@ import {
 } from '../lib/manifest.ts'
 import { loadMetricGroups, type MetricGroup } from '../lib/content.ts'
 import { SchoolBadge } from '../components/SchoolBadge.tsx'
-import { TopicIcon } from '../components/TopicIcon.tsx'
+import { TopicGlyph } from '../components/TopicGlyph.tsx'
 import { ProseContent } from '../components/ProseContent.tsx'
 import { proseSummary } from '../lib/prose.ts'
 import { toCompare, toHome, useNavigate } from '../lib/router.ts'
 import { schools as allSchools } from '../lib/manifest.ts'
+import { valueMetricsForTopic } from '../data/metricValues.ts'
 
 type Loaded = Record<string, MetricGroup[]>
+
+function BlueprintCorners() {
+  return (
+    <>
+      <i className="bp-corner tl" /><i className="bp-corner tr" />
+      <i className="bp-corner bl" /><i className="bp-corner br" />
+    </>
+  )
+}
+
+function PlusIcon() {
+  return (
+    <svg
+      width="16"
+      height="16"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      aria-hidden="true"
+      focusable="false"
+    >
+      <path d="M12 5v14M5 12h14" />
+    </svg>
+  )
+}
+
+function ArrowIcon() {
+  return (
+    <svg
+      width="14"
+      height="14"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+      focusable="false"
+    >
+      <path d="M5 12h14M12 5l7 7-7 7" />
+    </svg>
+  )
+}
+
+/* The hash router owns location.hash, so a raw "#topic-…" anchor would be
+   parsed as an unknown route and bounce home. Scroll in place instead. */
+function scrollToTopic(e: React.MouseEvent, slug: string) {
+  e.preventDefault()
+  document.getElementById(`topic-${slug}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+}
 
 export function SchoolDetail({ slug }: { slug: string }) {
   const navigate = useNavigate()
@@ -55,14 +109,16 @@ export function SchoolDetail({ slug }: { slug: string }) {
   const otherSlugs = allSchools.map((s) => s.slug)
 
   return (
-    <div className="page" style={{ ['--brand' as string]: brand.color }}>
+    <div className="page school-page" style={{ ['--brand' as string]: brand.color }}>
       <a className="back" href={toHome()} onClick={(e) => { e.preventDefault(); navigate(toHome()) }}>
         ← All schools
       </a>
 
-      <header className="school-header">
-        <SchoolBadge slug={slug} name={school.name} size={72} />
-        <div>
+      <header className="dossier-header">
+        <BlueprintCorners />
+        <SchoolBadge slug={slug} name={school.name} size={84} />
+        <div className="dossier-body">
+          <p className="dossier-kicker">School dossier · Charlotte, NC</p>
           <h1>{school.name}</h1>
           <p className="school-sub">
             {covered.length} research areas · {totalDocs} documents distilled
@@ -73,71 +129,99 @@ export function SchoolDetail({ slug }: { slug: string }) {
                 key={t.slug}
                 className="chip"
                 href={`#topic-${t.slug}`}
-                onClick={(e) => {
-                  // The hash router owns location.hash, so a raw "#topic-…" anchor would
-                  // be parsed as an unknown route and bounce home. Scroll in place instead.
-                  e.preventDefault()
-                  document
-                    .getElementById(`topic-${t.slug}`)
-                    ?.scrollIntoView({ behavior: 'smooth', block: 'start' })
-                }}
+                onClick={(e) => scrollToTopic(e, t.slug)}
               >
-                <TopicIcon slug={t.slug} size={14} /> {t.name}
+                {t.name}
               </a>
             ))}
           </div>
         </div>
       </header>
 
-      {covered.map((t) => {
-        const groups = loaded[t.slug] ?? []
-        return (
-          <section key={t.slug} id={`topic-${t.slug}`} className="topic-section">
-            <div className="topic-section-head">
-              <h2>
-                <TopicIcon slug={t.slug} size={22} /> {t.name}
-              </h2>
-              <a
-                className="btn small ghost"
-                href={toCompare(t.slug, otherSlugs)}
-                onClick={(e) => { e.preventDefault(); navigate(toCompare(t.slug, otherSlugs)) }}
-              >
-                Compare on {t.name} →
-              </a>
-            </div>
+      <div className="dossier-layout">
+        <aside className="dossier-nav">
+          <div className="dossier-nav-label">Research areas</div>
+          {covered.map((t) => (
+            <a key={t.slug} href={`#topic-${t.slug}`} onClick={(e) => scrollToTopic(e, t.slug)}>
+              {t.name}
+              <span className="count">{String(docCount(t.slug, slug)).padStart(2, '0')}</span>
+            </a>
+          ))}
+          <p className="dossier-nav-hint">
+            Click any card to expand its full research note. Sources are cited on every fact.
+          </p>
+        </aside>
 
-            {!ready && <p className="loading">Loading research…</p>}
-            {ready && groups.length === 0 && (
-              <p className="empty">No readable notes for this area yet.</p>
-            )}
+        <main className="dossier-main">
+          {covered.map((t) => {
+            const groups = loaded[t.slug] ?? []
+            const stats = valueMetricsForTopic(t.slug).filter((vm) => vm.values[slug] != null)
+            return (
+              <section key={t.slug} id={`topic-${t.slug}`} className="topic-section">
+                <div className="topic-section-head">
+                  <span className="glyph"><TopicGlyph slug={t.slug} /></span>
+                  <h2>{t.name}</h2>
+                  <span className="topic-count">
+                    {ready ? `${groups.length} topics` : '…'}
+                  </span>
+                  <a
+                    className="btn"
+                    href={toCompare(t.slug, otherSlugs)}
+                    onClick={(e) => { e.preventDefault(); navigate(toCompare(t.slug, otherSlugs)) }}
+                  >
+                    Compare on {t.name} <ArrowIcon />
+                  </a>
+                </div>
 
-            <div className="metric-list">
-              {groups.map((g) => (
-                <details key={g.metric.key} className="metric">
-                  <summary>
-                    <span className="metric-label">{g.metric.label}</span>
-                    <span className="metric-preview">
-                      {proseSummary(g.sections[0]?.text ?? '', g.metric.label) || g.sections[0]?.preview}
-                    </span>
-                  </summary>
-                  <div className="metric-body">
-                    {g.sections.map((s, i) => (
-                      <article key={i} className="section-text">
-                        {g.sections.length > 1 &&
-                          s.subtopic !== g.metric.label &&
-                          !/deep research/i.test(s.subtopic) && (
-                            <h3 className="section-sub">{s.subtopic}</h3>
-                          )}
-                        <ProseContent text={s.text} title={g.metric.label} />
-                      </article>
+                {stats.length > 0 && (
+                  <div className="stat-strip">
+                    {stats.map((vm) => (
+                      <div key={vm.key} className="stat-tile">
+                        <div className="stat-tile-val">{vm.values[slug]}</div>
+                        <div className="stat-tile-label">{vm.label}</div>
+                      </div>
                     ))}
                   </div>
-                </details>
-              ))}
-            </div>
-          </section>
-        )
-      })}
+                )}
+
+                {!ready && <p className="loading">Loading research…</p>}
+                {ready && groups.length === 0 && (
+                  <p className="empty">No readable notes for this area yet.</p>
+                )}
+
+                <div className="note-cards">
+                  {groups.map((g) => (
+                    <details key={g.metric.key} className="note-card">
+                      <BlueprintCorners />
+                      <summary>
+                        <span className="note-card-head">
+                          <span className="topic-title">{g.metric.label}</span>
+                          <span className="topic-teaser">
+                            {proseSummary(g.sections[0]?.text ?? '', g.metric.label) || g.sections[0]?.preview}
+                          </span>
+                        </span>
+                        <span className="plusmark"><PlusIcon /></span>
+                      </summary>
+                      <div className="note-card-body">
+                        {g.sections.map((s, i) => (
+                          <article key={i} className="section-text">
+                            {g.sections.length > 1 &&
+                              s.subtopic !== g.metric.label &&
+                              !/deep research/i.test(s.subtopic) && (
+                                <h3 className="section-sub">{s.subtopic}</h3>
+                              )}
+                            <ProseContent text={s.text} title={g.metric.label} />
+                          </article>
+                        ))}
+                      </div>
+                    </details>
+                  ))}
+                </div>
+              </section>
+            )
+          })}
+        </main>
+      </div>
     </div>
   )
 }
