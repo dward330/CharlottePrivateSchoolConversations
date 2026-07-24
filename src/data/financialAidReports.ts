@@ -7,13 +7,14 @@
 // src/content/financial-aid-tuition/<school>.json) — nothing is inferred,
 // averaged, or carried across schools.
 //
-// The four schools' reports do NOT share a structure, because the schools
+// The schools' reports do NOT share a structure, because the schools
 // themselves publish different things. Charlotte Country Day publishes two
 // consecutive years of rates and an endowed-scholarship gift ladder; Cannon and
-// Davidson Day explicitly state their tuition history could not be retrieved.
-// So every block below is optional and a school renders only the blocks its
-// source actually supports. Adding an empty block to "fill out" a school would
-// invent data — don't.
+// Davidson Day explicitly state their tuition history could not be retrieved;
+// Providence Day's aid detail lives in its Report on Philanthropy, not on the
+// tuition page. So every block below is optional and a school renders only the
+// blocks its source actually supports. Adding an empty block to "fill out" a
+// school would invent data — don't.
 //
 // Schools with no entry here fall back to the standard prose card.
 
@@ -1442,12 +1443,325 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
     'charlottelatin.org — Tuition & Financial Assistance; Policies, Procedures and Documents; Transportation; Hawks\' Club; Dining; Upper School Profile 2025–26; Endowed Gifts (all 24 Jul 2026) · charlottelatinleads.org — Strategic Plan, "Access and Affordability" (24 Jul 2026) · "2025-26 Scholarships" and "2025-26 Commonly Asked Questions about Financial Aid" (document summaries only; bodies not retrievable) · 2024–2025 financial aid process presentation (research pass, not re-retrieved) · IRS Form 990, Charlotte Latin Schools Inc, EIN 56-0944449, FY ending June 2024, via ProPublica Nonprofit Explorer. Commercial school-directory sites publish tuition figures that disagree with one another and with the school\'s own page; none is the source of any figure here. The school did not commission, review or approve this report.',
 }
 
+const PROVIDENCE_DAY: FinancialAidReport = {
+  title: 'Tuition & Financial Aid — Deep Dive Report',
+  meta: '2026–27 school year · figures as of 24 Jul 2026',
+  framing: [
+    {
+      icon: 'info',
+      title: 'Unpublished ≠ deficient.',
+      body: '"Not published" flags a transparency gap — never a judgement that the aid programme is small or unwelcoming. The school discloses more than its tuition page suggests — the detailed figures live in the Report on Philanthropy.',
+    },
+    {
+      icon: 'clock',
+      title: 'Published ≠ current.',
+      body: 'Every dollar figure carries the school year it applies to. The transportation page still refers to 2023–2024 while the tuition table has moved to 2026–27 — different cycles, not a contradiction.',
+    },
+    {
+      icon: 'book',
+      title: 'K–12 aid only.',
+      body: 'Tuition assistance while enrolled — not the FAFSA, CSS Profile or college merit money the school publishes for its graduates. Not financial advice.',
+    },
+  ],
+  sections: [
+    {
+      id: 'fa-tuition',
+      navTitle: 'The Tuition Table',
+      title: 'The Tuition Table — Price by Band',
+      confidence: 95,
+      figureCaption: 'Published tuition by band, 2026–27',
+      // No `prior` on any band: the deep-dive states prior-year rate cards were
+      // not retrieved, so there are no school-published earlier rates to ghost
+      // against. Third-party listings disagree with one another and are
+      // deliberately not used — see the Section 7 navigation-hazard note.
+      bands: [
+        { label: 'Transitional Kindergarten', amount: 25510 },
+        { label: 'Kindergarten', amount: 28010 },
+        { label: 'Grades 1–5', amount: 32960 },
+        { label: 'Grades 6–12', amount: 36325 },
+      ],
+      figureNote:
+        'Four bands cover all fourteen grade levels from TK through Grade 12, with no gap and no overlap — TK and Kindergarten priced individually, Grades 1–5 sharing one rate, Grades 6–12 another. Tuition includes student iPads and all technology, all textbooks (including A.P. textbooks), A.P. exam fees, most class field trips, and all Lower School student supplies — an explicit inclusion list that is the least consistently disclosed item in this series.',
+      figureNote2:
+        'No prior-year bars: the school\'s live page shows only the current year and is overwritten each cycle; archived rate cards could not be retrieved — a limit of the toolchain, not a school gap. The page notes tuition is subject to change for 2027–28.',
+      boxes: [{ tag: 'NOT PUBLISHED', title: 'Tuition-table specifics', body: '' }],
+      bullets: [
+        'A per-grade breakdown within the Grades 1–5 and Grades 6–12 bands',
+        'A separate rate for new versus returning students, if one exists',
+        'Half-day, part-week or other Transitional Kindergarten variants',
+        'A sibling-based variation on the published rate',
+      ],
+      source:
+        'providenceday.org — Tuition and Financial Assistance, retrieved 24 Jul 2026',
+    },
+    {
+      id: 'fa-beyond',
+      navTitle: 'Beyond Tuition',
+      title: 'Beyond Tuition — The Real Cost of Attendance',
+      confidence: 60,
+      componentsTitle: 'Fifteen confirmed components for a 2026–27 family — 11 unpriced',
+      componentsAside: 'All-in estimate not built: 73% unpriced > ⅓ threshold',
+      components: [
+        { label: 'Tuition — four bands, priced', status: 'priced' },
+        { label: 'Enrollment deposit · $2,500, non-refundable', status: 'priced' },
+        { label: 'Clubhouse registration · $100/student/yr (MS)', status: 'priced' },
+        { label: 'Extended Day late pick-up · $1/min after 6 p.m.', status: 'priced' },
+        { label: 'Extended Day programme fee · schedule not retrieved', status: 'range' },
+        { label: 'Bus transportation · 2023–24 page, fares not retrieved', status: 'range' },
+        { label: 'FLIK Dining participation · no rate', status: 'unpriced' },
+        { label: 'Extended Day enrichment classes · no rate', status: 'unpriced' },
+        { label: '8th grade field trip · no rate', status: 'unpriced' },
+        { label: '12th grade field trip · no rate', status: 'unpriced' },
+        { label: 'Club travel · no rate', status: 'unpriced' },
+        { label: 'Arts competition travel · no rate', status: 'unpriced' },
+        { label: 'Athletic tournament travel · no rate', status: 'unpriced' },
+        { label: 'P.E. uniforms · no rate', status: 'unpriced' },
+        { label: 'Graphing calculators · no rate', status: 'unpriced' },
+        { label: 'Tutoring services · no rate', status: 'unpriced' },
+      ],
+      componentsNote:
+        'Of fifteen confirmed components, four carry a published price and eleven do not — 73% unpriced against a one-third threshold, so the all-in estimate aborts rather than assemble a range from mostly-missing parts. The existence of two endowed funds (Section 5) dedicated to costs above and beyond tuition independently confirms these charges are real.',
+      boxes: [
+        {
+          title: 'The deposit, 2026–27',
+          body: 'A **$2,500** non-refundable deposit, with a signed agreement, secures a place for an accepted student. It is credited toward the total tuition cost — so it is a timing obligation rather than an addition to the published rate, and it is the first instalment, not an extra cost.',
+        },
+        {
+          tag: 'TWO PUBLIC FIGURES NOT RETRIEVED',
+          body: 'The Lower School page links a "2025–26 Extended Day Schedules and Fees" document, and the transportation page states fare information is available — but its live text refers to **2023–2024** and the fare table did not render. Both are documents a family can open or request in a single step; their contents were not retrieved here, not withheld by the school.',
+        },
+      ],
+      source:
+        'providenceday.org — Tuition and Financial Assistance; Extended Day (Lower School); Clubhouse (Middle School); Transportation, all retrieved 24 Jul 2026',
+    },
+    {
+      id: 'fa-engine',
+      navTitle: 'The Aid Engine',
+      title: 'The Aid Engine — Process, Forms & Timeline',
+      confidence: 88,
+      timeline: [
+        {
+          when: '1 Nov 2025',
+          detail:
+            'Information due for **current families** re-applying — application via **Clarity**',
+        },
+        {
+          when: '23 Jan 2026',
+          detail: 'Information due for **prospective families** — same Clarity application',
+        },
+        {
+          when: 'With the agreement',
+          detail:
+            'The assistance decision arrives **with the enrollment or re-enrollment agreement** — a family learns the award and the enrollment commitment at the same moment',
+          emphasis: true,
+        },
+        {
+          when: 'Every year',
+          detail:
+            'Assistance is granted annually; parents must reapply each year to be considered for continued assistance',
+        },
+      ],
+      boxes: [
+        {
+          title: 'Platform & cost to apply',
+          body: 'Providence Day partners with **Clarity** to assess need · **$65** application fee, paid by the family (2026–27). The school describes the application as taking under an hour and mobile-friendly, and runs family webinars at which Clarity walks through the application and the tax-verification process. Need is assessed on gross income, assets, liabilities, family size, and the number of children in tuition-based schools; assistance does not exceed demonstrated need and depends on the availability of school funds.',
+        },
+        {
+          title: 'Documents & divorced or separated parents',
+          body: 'A 1040 return, W-2s and the most recent pay stub — tax documents transfer automatically from the I.R.S. once verification is complete — plus business returns and 1099s for the self-employed. Documents are required from **both custodial and non-custodial parents**, whether divorced, separated or never married; the school states that missing information from either parent may affect eligibility.',
+        },
+        {
+          title: 'Aid and admission are separate',
+          body: 'The school states plainly that applying for assistance does **not** influence a candidate\'s admission selection, and that separate committees decide admission and assistance. It does not use the terms "need-blind" or "need-aware," so this report applies neither label.',
+        },
+        {
+          tag: 'NOT PUBLISHED — FIVE PROCESS QUESTIONS',
+          body: 'No appeals or reconsideration process · no mid-year change-of-circumstance policy · no statement of whether awards typically renew at a consistent level (the practical question behind annual reapplication) · no confidentiality policy naming who inside the school sees a family\'s file · no composition of the assistance committee.',
+        },
+      ],
+      source:
+        'providenceday.org — Tuition and Financial Assistance, Application Process and the five published FAQs, retrieved 24 Jul 2026',
+    },
+    {
+      id: 'fa-numbers',
+      navTitle: 'The Aid Numbers',
+      title: 'The Aid Numbers — How Much, To Whom, How Far',
+      confidence: 65,
+      tag: 'DETAIL LIVES IN THE PHILANTHROPY REPORT',
+      // The school's own historical aid figures, published in the Report on
+      // Philanthropy "Enrollment at a Glance" pages rather than on the tuition
+      // page. The `note` on RangeRow is not available, so the year and figures
+      // are carried in the stats + boxes. No current-year detail is published;
+      // the only current figure is the undated "≈21% of families".
+      stats: [
+        { value: '≈21%', label: 'of families receive some assistance — current page, no year and no denominator stated' },
+        { value: '$3,683,971', label: 'total aid awarded, 2017–18 — the most recent detailed year published' },
+        { value: '$13,695', label: 'average grant, 2017–18 (the school\'s own term; not a median)' },
+        { value: '16%', label: 'of students assisted, 2017–18 — and also 2012–13' },
+      ],
+      boxes: [
+        {
+          title: 'Where the detailed figures live',
+          body: 'The tuition page omits every aid figure but one; the numbers live in the annual **Report on Philanthropy**, "Enrollment at a Glance." Published editions: **2012–13** $3,105,191 awarded, avg $12,273, 16% of students · **2013–14** $3,013,928, avg $12,664 · **2017–18** $3,683,971, avg $13,695, 16%. No comparable figures were located after 2017–18. A parent reading only the tuition page would never encounter any of this — a placement finding, not a disclosure gap.',
+        },
+        {
+          tag: 'AVERAGE IS NOT MEDIAN',
+          body: 'Every award figure the school publishes is an **average grant** — reproduced unchanged and never treated here as a typical award. Aid awards carry a long upper tail, so an average usually sits above what a typical recipient receives; no median is published in any edition located, so a family cannot tell how far above.',
+        },
+        {
+          tag: 'A UNIT CHANGE THAT BLOCKS COMPARISON',
+          body: 'The historical editions count **students** receiving aid (16%); the current page counts **families** receiving assistance (≈21%). Different units, different bases — the apparent 16% → 21% movement cannot be read as growth in reach. It may be an artefact of the unit change, entirely real, or a mixture. This report declines to reconcile them.',
+        },
+        {
+          title: 'An internal discrepancy, reported not resolved',
+          body: 'The 2012–13 Report on Philanthropy states **$3,105,191** as total aid awarded on its enrollment page and **$3,092,165** as the financial-aid line in its expense breakdown a page later — a **$13,026** difference, both published by the school in the same document. Both are reproduced; the likeliest explanation is different accounting bases, but the school does not say so and inferring it would be a guess.',
+        },
+        {
+          tag: 'HOW AID IS FUNDED',
+          body: 'Assistance draws on both operating funds and endowment income. 2017–18: financial aid and discounts were **9.7%** of expenses against a stated $40.6M budget, and 5% of Annual Fund gifts were designated to Student Financial Assistance. 2012–13: a $3,092,165 aid line within a $33,320,795 expense total — a 9.3% share (our arithmetic on the school\'s two figures). Schedule I and Schedule D of the Form 990, which would carry the K–12 assistance and endowment detail, could not be retrieved.',
+        },
+      ],
+      source:
+        'providenceday.org — Tuition and Financial Assistance; Report on Philanthropy 2012–13, 2013–14 and 2017–18. I.R.S. Form 990, EIN 56-0952382, via ProPublica. Retrieved 24 Jul 2026',
+    },
+    {
+      id: 'fa-merit',
+      navTitle: 'Merit & Scholarships',
+      title: 'Merit, Discounts & Special Programmes',
+      confidence: 72,
+      tag: 'ALL AID IS NEED-BASED',
+      // The school publishes at least eleven named endowed funds. There is no
+      // gift-ladder to establish a fund at graded levels (that ladder shape is
+      // Country Day's), so this renders as boxes + a stats strip rather than a
+      // `ladder`. Fund market values are as of 30 Jun 2018, the most recent
+      // edition located, and are historical.
+      stats: [
+        { value: '11+', label: 'named endowed funds supporting financial aid or tuition assistance' },
+        { value: '2', label: 'funds specifically for costs above and beyond tuition (Murdock, Latchwood)' },
+        { value: '$100,000', label: 'minimum gift to establish a named endowment fund (raised from $50,000 in 2013)' },
+      ],
+      boxes: [
+        {
+          title: 'Need-based, no general merit track',
+          body: 'Assistance is need-based; **no general academic, arts, athletic or leadership merit scholarship programme is published.** At least eleven named permanent funds support aid — e.g. the Paula C. Freeman Financial Aid Endowment ($511,383 in Jun 2018), the Rob Eck Memorial Scholarship, the Edward E. Ford Minority Scholarship, and diversity-focused funds (Brinkley, McGee Family). Fund values are as of 30 June 2018, the most recent edition located, and are historical.',
+        },
+        {
+          title: 'Two funds for the costs outside tuition',
+          body: 'The **Gilmer L. Murdock, Jr. Endowment** and **The Latchwood Endowment** exist specifically to help students with demonstrated need meet costs above and beyond tuition — the published descriptions name tutoring, review classes, calculators, class trips, sports equipment, team camps, tournaments, dining and activity fees. These are the same categories that appear unpriced in Section 2; their existence confirms those costs are real.',
+        },
+        {
+          title: 'Children of faculty and staff',
+          body: 'The **Kristina C. Brockmeier Endowment for Financial Aid** provides assistance annually to children of current faculty and staff who demonstrate need. This is a need-based endowed award, not a blanket tuition-remission benefit; whether the school separately offers a remission percentage to employees is not published.',
+        },
+        {
+          tag: 'NOT PUBLISHED — SIX ITEMS',
+          body: 'No indexed or variable tuition · no sibling, clergy, military or first-responder discount · no general merit programme · no figure for how many awards any named fund makes in a year or what a typical award is worth · no statement of whether a named-fund award stacks with or substitutes for a need-based grant. Absence of a published discount is not evidence none exists — several are commonly handled case by case.',
+        },
+      ],
+      source:
+        'providenceday.org — Endowment page and Donor Recognition; Report on Philanthropy 2017–18 and 2012–13, Endowments sections. Retrieved 24 Jul 2026',
+    },
+    {
+      id: 'fa-paying',
+      navTitle: 'Paying the Balance',
+      title: 'Paying the Balance — Plans & Contract Terms',
+      confidence: 55,
+      plans: [
+        {
+          figure: '1×',
+          label: 'In full',
+          detail: 'Tuition paid in a single payment. Whether paying in full earns a discount is not published.',
+        },
+        {
+          figure: '3×',
+          label: 'Three installments',
+          detail: 'Structure published; the terms, fee or interest attached are not.',
+        },
+        {
+          figure: '10×',
+          label: 'Ten installments',
+          detail: 'Structure published; the terms, fee or interest attached are not.',
+        },
+        {
+          figure: '12×',
+          label: 'Twelve installments',
+          detail: 'Structure published; the terms, fee or interest attached are not.',
+        },
+      ],
+      boxes: [
+        {
+          title: 'The deposit as a contract term',
+          body: 'The **$2,500** deposit is non-refundable and secures placement for an accepted student, credited to the overall tuition cost. The published language establishes it is not returned if a family withdraws after signing — but it does not describe what further obligation, if any, a family carries on withdrawal later in the year.',
+        },
+        {
+          tag: 'ONE FIGURE AT A LOWER VERIFICATION TIER',
+          body: 'An older school document tied to a previous billing provider referenced a **$45 per family** annual fee for the extended payment plan. It could not be confirmed against any current-year page and the billing arrangement has since changed — recorded only to show plan fees have existed historically, **not** a 2026–27 figure.',
+        },
+        {
+          tag: 'NOT PUBLISHED — SEVEN CONTRACT & PAYMENT QUESTIONS',
+          body: 'Whether the 3/10/12-installment plans carry a service fee or interest · whether paying in full earns a discount · which third-party lender, if any, the school partners with · whether a tuition refund or insurance plan is offered, mandatory, and what it costs · the withdrawal and mid-year departure obligation beyond the deposit · the late-payment and arrears policy · whether any prepaid multi-year or tuition-lock option exists. These sit in the enrollment contract, which is not public — a normal arrangement.',
+        },
+      ],
+      source:
+        'providenceday.org — Tuition and Financial Assistance, "Are tuition payment plans available?" Retrieved 24 Jul 2026',
+    },
+    {
+      id: 'fa-trend',
+      navTitle: 'Trend & Questions',
+      title: 'Trend, Reach & the Honest Questions',
+      confidence: 60,
+      stats: [
+        {
+          value: '$472,595',
+          label:
+            'a full TK–12 run at 2026–27 rates — our arithmetic, tuition only, not a projection',
+        },
+        { value: '$254,275', label: 'a Grades 6–12 run at 2026–27 rates ($36,325 × 7)' },
+        { value: '$145,300', label: 'a Grades 9–12 run at 2026–27 rates ($36,325 × 4)' },
+      ],
+      boxes: [
+        {
+          tag: 'TUITION TREND — NOT BUILT',
+          body: 'This section normally carries three to five years of published rates. For Providence Day it does not: the tuition page shows only the current year and is overwritten each cycle, and archived prior-year rate cards were not retrieved. Rather than substitute third-party figures for the school\'s own rate cards, this report reports no tuition trend — a limit of the toolchain, not a disclosure failure.',
+        },
+        {
+          title: 'The aid trend the school does publish',
+          body: 'Total aid awarded rose from **$3,105,191 (2012–13)** to **$3,683,971 (2017–18)**, with a $3,013,928 dip in 2013–14 between. The average grant rose $12,273 → $13,695; the share of students at 16% at both ends. Enrollment grew 1,552 → 1,627 students over the window. No comparable figures were located after 2017–18. Endowment market value grew $6,486,512 (Jun 2013) → $14,029,707 (Jun 2018); the school\'s strategic framework targets $55M by 2030.',
+        },
+        {
+          tag: 'NAVIGATION HAZARD',
+          body: 'Widely-circulated third-party listings carry tuition figures that agree neither with each other nor with the school — an "≈$20,500" single rate, a "$34,430" 2024 top rate, a "$20,800–$29,620" range, a "$23,040–$32,810" 2024–25 range. **None** matches the school\'s published 2026–27 bands of $25,510–$36,325. Aggregators cache prior-year figures and are frequently out of date — treat the school\'s own tuition page as the only authority, even when a search engine surfaces an aggregator above it.',
+        },
+      ],
+      questionsTitle: 'Questions worth putting to the business office',
+      questionsNote:
+        'Each corresponds to a gap in this report and is ordered by how much it is likely to move a family\'s total.',
+      questions: [
+        'What does Extended Day cost per day per week, and what are the bus fares for our address, for the current year?',
+        'What do the 8th and 12th grade field trips cost, and when are those charges billed?',
+        'What is the current cost of FLIK Dining participation, and is it charged per meal or per term?',
+        'Do the 3-, 10- or 12-installment plans carry a fee or interest, and is there a discount for paying in full?',
+        'What are the current-year figures for total assistance awarded, the average grant, and the number of students or families assisted?',
+        'Is the ≈21% figure a share of all enrolled families, or of families who applied?',
+        'What is the range of awards, and does any award cover full tuition?',
+        'If we receive an award, what has typically happened to award levels on reapplication in following years?',
+        'Is there an appeals process, and what happens if our circumstances change mid-year?',
+        'What obligation do we carry if a student withdraws after the school year begins?',
+        'Do you offer a sibling, employee, clergy, military or first-responder accommodation?',
+      ],
+    },
+  ],
+  sources:
+    'providenceday.org — Tuition and Financial Assistance, Extended Day (Lower School), Clubhouse (Middle School), Transportation, Endowment and Donor Recognition, Strategic Framework (all 24 Jul 2026) · Report on Philanthropy 2012–13, 2013–14 and 2017–18, "Enrollment at a Glance" and Endowments · I.R.S. Form 990 filings for Providence Day School, Inc., EIN 56-0952382, via ProPublica Nonprofit Explorer (Schedule I and Schedule D not retrieved). Commercial tuition aggregators were reviewed only to identify discrepancies against the school\'s own page (Section 7) and are the source of no figure here. Every figure was anchored to EIN 56-0952382, the 5800 Sardis Road address, or CEEB 340687 before use. The school did not commission, review or approve this report.',
+}
+
 const REPORTS: Record<string, FinancialAidReport> = {
   'charlotte-country-day': COUNTRY_DAY,
   cannon: CANNON,
   'charlotte-christian': CHARLOTTE_CHRISTIAN,
   'davidson-day': DAVIDSON_DAY,
   'charlotte-latin': CHARLOTTE_LATIN,
+  'providence-day': PROVIDENCE_DAY,
 }
 
 /** The structured deep-dive for a school, or undefined to fall back to prose. */

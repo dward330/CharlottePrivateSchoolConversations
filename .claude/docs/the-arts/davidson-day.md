@@ -1,5 +1,5 @@
 # Davidson Day School — The Arts
-> Distilled from 4 source document(s) in `source-material/the-arts/davidson-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-07-23.
+> Distilled from 4 source document(s) in `source-material/the-arts/davidson-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-07-24.
 **Documents:** Deep Research, Performing Arts, Program Overview, Visual Arts
 
 

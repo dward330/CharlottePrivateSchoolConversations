@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-23",
+  "generated": "2026-07-24",
   "description": "Charlotte private-school research manifest. Topics x schools x documents.",
   "schools": [
     {
@@ -138,6 +138,11 @@
       "topic_slug": "financial-aid-tuition",
       "school_slug": "davidson-day",
       "doc_count": 2
+    },
+    {
+      "topic_slug": "financial-aid-tuition",
+      "school_slug": "providence-day",
+      "doc_count": 1
     },
     {
       "topic_slug": "sports",
@@ -1090,6 +1095,16 @@
       "source_file": "source-material/financial-aid-tuition/davidson-day/Davidson Day - Financial Aid and Tuition - Tuition History.md",
       "note_file": ".claude/docs/financial-aid-tuition/davidson-day.md",
       "type": "md"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "financial-aid-tuition",
+      "topic": "Financial Aid & Tuition",
+      "subtopic": "Deep Dive Report",
+      "source_file": "source-material/financial-aid-tuition/providence-day/Providence Day - Financial Aid - Deep Dive Report.pdf",
+      "note_file": ".claude/docs/financial-aid-tuition/providence-day.md",
+      "type": "pdf"
     },
     {
       "school_slug": "cannon",

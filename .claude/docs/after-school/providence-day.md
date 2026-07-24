@@ -1,5 +1,5 @@
 # Providence Day School — After School
-> Distilled from 4 source document(s) in `source-material/after-school/providence-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-07-23.
+> Distilled from 4 source document(s) in `source-material/after-school/providence-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-07-24.
 **Documents:** Deep Research, Extended Day and Clubhouse, Pricing, Program Overview
 
 
