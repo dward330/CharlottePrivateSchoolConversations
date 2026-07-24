@@ -5,9 +5,12 @@ description: >
   reference files (PDFs, .md, .txt) are added, changed, or removed under
   source-material/<topic>/<school>/, or when a new topic or school folder is created.
   Regenerates the distilled notes in .claude/docs/ and the app manifest
-  src/data/schools.json so they stay in sync with source-material. Triggers include
-  "ingest", "I dropped new files in source-material", "rebuild the docs/notes",
-  "update schools.json", "add a new school/topic".
+  src/data/schools.json so they stay in sync with source-material, then covers the
+  hand-maintained app layers the pipeline does not touch (metric rules in
+  src/lib/metrics.ts, Compare numbers in src/data/metricValues.ts, structured reports
+  in src/data/financialAidReports.ts). Triggers include "ingest", "I dropped new files
+  in source-material", "rebuild the docs/notes", "update schools.json", "add a new
+  school/topic".
 ---
 
 # Ingest Source Material
@@ -26,6 +29,11 @@ src/data/schools.json                      (machine-readable manifest for the Re
         │  scripts/build_site_content.py   (second, dependency-free pass)
         ▼
 src/content/<topic>/<school>.json          (per-school-topic text the web app lazy-loads)
+
+        ┈┈ pipeline ends here ┈┈ everything below is HAND-MAINTAINED ┈┈
+        src/lib/metrics.ts             (subtopic → metric rules, topic/section order)
+        src/data/metricValues.ts       (Compare numbers + school-page stat tiles)
+        src/data/financialAidReports.ts (structured deep-dive reports)
 ```
 
 Two passes: `build_docs.py` produces the notes + manifest; then
@@ -66,8 +74,64 @@ python scripts/build_site_content.py   # regenerates src/content/ from .claude/d
 3. Run `python scripts/build_site_content.py` to regenerate `src/content/` from the notes.
 4. Verify: `python -c "import json;m=json.load(open('src/data/schools.json'));print(len(m['documents']),'docs')"`
    and spot-check the regenerated note(s) under `.claude/docs/<topic>/`.
-5. Commit the regenerated `.claude/docs/`, `src/data/schools.json`, and `src/content/`
-   (raw files in `source-material/` stay gitignored and are not committed).
+5. **Work the app-layer checklist below.** The pipeline stops at prose; the comparison
+   numbers and structured reports are hand-maintained and will silently go stale.
+6. Commit the regenerated `.claude/docs/`, `src/data/schools.json`, and `src/content/`,
+   plus any app-layer edits from step 5 (raw files in `source-material/` stay gitignored
+   and are not committed, except `.md` — see the data-provenance standard).
+
+## App-layer checklist (hand-maintained — the pipeline does NOT do this)
+
+Ingest alone only guarantees that a school's **prose** renders. Three layers of the app
+are hand-authored, and new source material is invisible to all three until someone edits
+them. After every ingest, walk this list:
+
+### 1. Unmatched subtopics → `src/lib/metrics.ts`
+
+`normalizeMetric()` canonicalizes each raw subtopic to a stable `{ key, label }` per
+topic. **A subtopic matching no rule does not error — it becomes its own metric** via
+`slugify()`. The failure is silent and looks like: a school sprouting a one-off section
+header its peers lack, and false `N/A` gaps in Compare where two schools said the same
+thing with different filenames ("Theater" vs "Theatre").
+
+After ingesting, list the topic's distinct subtopics and check each one resolves to an
+existing rule key. If a new phrasing should join an existing metric, add a `RULES` entry —
+**ordered, first match wins**, so put specific patterns before generic ones.
+
+New *topic* folder → it needs its own `RULES[topicSlug]` array, an entry in `TOPIC_ORDER`,
+and optionally `SECTION_ORDER` for within-topic card order. Without a rules array every
+subtopic falls through to slugify.
+
+### 2. Comparison numbers → `src/data/metricValues.ts`
+
+`VALUE_METRICS` powers both the Compare value rows and the stat tiles on a school page.
+It is keyed `school slug -> display string | null`, and **a school absent from a `values`
+map renders as N/A / is dropped from the stat strip** (`SchoolDetail.tsx` filters on
+`!= null`). So ingesting a new school's sports research gives it a page but leaves it
+blank in the Power 4 / D1 rows until backfilled.
+
+When new material moves a number, update the value **and** its trailing per-school
+comment — those comments carry the per-athlete/per-figure sourcing. Prefer `null` over a
+guess: `null` honestly means "not located", whereas a filled-in estimate silently becomes
+a claim. Keep the `note` field current when the definition or time window shifts.
+
+### 3. Structured deep-dive reports → `src/data/financialAidReports.ts`
+
+The Financial Aid topic replaces the prose renderer with a hand-transcribed structured
+report. The coupling is load-bearing on **two** keys, both of which must line up:
+
+- the subtopic must normalize to metric key **`in-depth-report`**, and
+- the school slug must be present in the `REPORTS` map.
+
+`SchoolDetail.tsx` only swaps in `<FinancialAidReportCard>` when
+`t.slug === 'financial-aid-tuition' && g.metric.key === 'in-depth-report'`. Miss either
+and the card quietly falls back to plain prose — no error. `financialAidReport()`
+returning `undefined` is the *intended* fallback for schools without a transcribed report
+(currently Charlotte Latin and Providence Day), so an unmapped school is not a bug.
+
+Every block in a report is optional by design: schools publish different things, and a
+school renders only the blocks its own source supports. **Do not add an empty or
+carried-over block to make a school look complete — that invents data.**
 
 ## Notes & limitations
 
