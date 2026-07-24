@@ -187,9 +187,15 @@ export function SchoolDetail({ slug }: { slug: string }) {
                   {groups.map((g) => {
                     /* The Financial Aid deep-dive has a hand-structured report
                        behind it; it replaces the prose body and always claims
-                       the full grid row rather than reflowing into columns. */
+                       the full grid row rather than reflowing into columns.
+                       It attaches to the deep-dive card only — the topic also
+                       carries plain notes (tuition history, provenance) that
+                       must keep rendering as prose. */
                     const report =
-                      t.slug === 'financial-aid-tuition' ? financialAidReport(slug) : undefined
+                      t.slug === 'financial-aid-tuition' &&
+                      g.metric.key === 'in-depth-report'
+                        ? financialAidReport(slug)
+                        : undefined
                     return (
                       <details
                         key={g.metric.key}

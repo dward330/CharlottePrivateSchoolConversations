@@ -164,19 +164,20 @@ const COUNTRY_DAY: FinancialAidReport = {
       title: 'The Tuition Table — Price by Band',
       confidence: 95,
       figureCaption: 'Published tuition by band',
-      // The source publishes the 2026–27 table and states every band rose 5.0%,
-      // but not the 2025–26 dollar figures themselves. Back-computing them would
-      // present our arithmetic as a school figure, so `prior` stays unset until
-      // real published rates are ingested into source-material/.
+      // 2025–26 rates are the school's own published figures, recovered from
+      // Wayback snapshots of the tuition page (see "… - Tuition History.md" in
+      // source-material). They are deliberately NOT 2026–27 ÷ 1.05: the school
+      // rounds each band, so the derived figures would be off by a few dollars
+      // in three of five bands.
       bands: [
-        { label: 'Junior K', amount: 24515, delta: '+5.0%' },
-        { label: 'Kindergarten', amount: 25725, delta: '+5.0%' },
-        { label: 'Grades 1–4', amount: 30375, delta: '+5.0%' },
-        { label: 'Grades 5–8', amount: 32700, delta: '+5.0%' },
-        { label: 'Grades 9–12', amount: 34075, delta: '+5.0%' },
+        { label: 'Junior K', amount: 24515, prior: 23350, delta: '+5.0%' },
+        { label: 'Kindergarten', amount: 25725, prior: 24500, delta: '+5.0%' },
+        { label: 'Grades 1–4', amount: 30375, prior: 28930, delta: '+5.0%' },
+        { label: 'Grades 5–8', amount: 32700, prior: 31145, delta: '+5.0%' },
+        { label: 'Grades 9–12', amount: 34075, prior: 32450, delta: '+5.0%' },
       ],
       figureNote:
-        'Five bands cover all 14 grades — the school has never priced individual grades. Tuition covers "the core educational experience including technology," per the school\'s wording. 2025–26 middle bands rest on a single secondary source.',
+        'Five bands cover all 14 grades — the school has never priced individual grades. Tuition covers "the core educational experience including technology," per the school\'s wording. 2025–26 rates are the school\'s own published figures, recovered from archived copies of the tuition page.',
       boxes: [
         { tag: 'NOT PUBLISHED', title: 'Four tuition-table specifics', body: '' },
       ],
@@ -394,24 +395,26 @@ const CANNON: FinancialAidReport = {
       navTitle: 'The Tuition Table',
       title: 'The Tuition Table — Price by Band',
       confidence: 92,
-      figureCaption: 'Published tuition by band, 2026–27',
-      // No prior-year rates: the report states the multi-year tuition trend could
-      // not be retrieved, so no ghost bars or deltas are rendered.
+      figureCaption: 'Published tuition by band',
+      // The school's own 2025–26 rates, recovered from Wayback snapshots of the
+      // tuition page (see "… - Tuition History.md" in source-material). The
+      // deep-dive report predates that retrieval and says the trend could not be
+      // reached; it can, and five prior years are now on file.
       bands: [
-        { label: 'Junior K', amount: 21450 },
-        { label: 'Kindergarten', amount: 22300 },
-        { label: 'Grades 1–4', amount: 26080 },
-        { label: 'Grades 5–8', amount: 29870 },
-        { label: 'Grades 9–12', amount: 32070 },
+        { label: 'Junior K', amount: 21450, prior: 20530, delta: '+4.5%' },
+        { label: 'Kindergarten', amount: 22300, prior: 21340, delta: '+4.5%' },
+        { label: 'Grades 1–4', amount: 26080, prior: 24960, delta: '+4.5%' },
+        { label: 'Grades 5–8', amount: 29870, prior: 28580, delta: '+4.5%' },
+        { label: 'Grades 9–12', amount: 32070, prior: 30690, delta: '+4.5%' },
       ],
       figureNote:
-        'Five bands, priced by band rather than by individual grade. What tuition includes is not stated affirmatively. Only 2026–27 rates are published on the live site — archived pages carrying 2022–23 through 2025–26 rates could not be reached, so no trend is shown.',
+        'Five bands, priced by band rather than by individual grade. What tuition includes is not stated affirmatively. The live site publishes only current rates, but archived copies of the tuition page carry 2021–22 through 2025–26 — every band rose about 4.5% into 2026–27.',
       boxes: [{ tag: 'NOT PUBLISHED', title: 'Tuition-table specifics', body: '' }],
       bullets: [
         'New-student vs returning-student rates',
         'Half-day, part-week or partial-enrolment variants for JrK or K',
         'What tuition includes, stated affirmatively',
-        'Published rates for any prior year',
+        'Rate history on the live site — recovered only from archived copies',
       ],
       source:
         'cannonschool.org — Tuition & Affordability, retrieved 23 Jul 2026',
@@ -589,7 +592,11 @@ const CANNON: FinancialAidReport = {
       boxes: [
         {
           title: 'Aid trend — two years',
-          body: 'Awarded aid moved **$2,700,000 to 23% of students (2024–25)** to **$3,000,000 to 24% (2025–26)**. A tuition trend cannot be shown alongside it: only current-year rates are published, so there is no rate history to compare against.',
+          body: 'Awarded aid moved **$2,700,000 to 23% of students (2024–25)** to **$3,000,000 to 24% (2025–26)**. Tuition over the same span rose about 4.5%, so aid grew roughly in step with price.',
+        },
+        {
+          tag: 'SIX YEARS OF RATES, FROM THE ARCHIVE',
+          body: 'The live site publishes only the current year, but archived copies carry 2021–22 onward. Most bands track 2–4.5% a year, with one exception: **Grades 5–8 jumped 8.5% in 2023–24 and 7.5% in 2024–25**, well outside the pattern elsewhere in the table — worth asking about if your child is entering middle school.',
         },
         {
           tag: 'FEE TREND, 2024–25 → 2026–27',
@@ -888,16 +895,22 @@ const DAVIDSON_DAY: FinancialAidReport = {
       navTitle: 'Tuition by Division',
       title: 'Tuition by Grade Level',
       confidence: 90,
-      figureCaption: 'Published tuition by division, 2026–27',
-      // Prior-year rates could not be recovered; no ghost bars or deltas.
+      figureCaption: 'Published tuition by division',
+      // 2025–26 rates recovered from Wayback (see "… - Tuition History.md" in
+      // source-material). The Early Childhood prior-year figure is the FULL-TIME
+      // price: through 2025–26 the band was six priced options (half-day from
+      // $12,290), collapsing to a single row for 2026–27. Charting the current
+      // row against the discontinued half-day price would invent an ~84% rise.
       bands: [
-        { label: 'Early Childhood', amount: 22590 },
-        { label: 'Lower (K–4)', amount: 25010 },
-        { label: 'Middle (5–8)', amount: 26320 },
-        { label: 'Upper (9–12)', amount: 26910 },
+        { label: 'Early Childhood', amount: 22590, prior: 21620, delta: '+4.5%' },
+        { label: 'Lower (K–4)', amount: 25010, prior: 23930, delta: '+4.5%' },
+        { label: 'Middle (5–8)', amount: 26320, prior: 25190, delta: '+4.5%' },
+        { label: 'Upper (9–12)', amount: 26910, prior: 25750, delta: '+4.5%' },
       ],
       figureNote:
-        'Four division bands covering ages two through 12th grade, a $4,320 spread from lowest to highest. Prior-year versions of the tuition page could not be recovered and the school does not publish rate history, so no trend is shown. Half-day options, new-vs-returning rates, and what tuition includes are all unpublished.',
+        'Four division bands covering ages two through 12th grade, a $4,320 spread from lowest to highest. The school does not publish rate history, but archived copies of the tuition page carry 2022–23 onward — every division has risen about 4.5% a year since 2023–24. Half-day options, new-vs-returning rates, and what tuition includes are all unpublished.',
+      figureNote2:
+        'The Early Childhood bar compares full-time rates only. Through 2025–26 that band was six separately priced options (half-day from $12,290); for 2026–27 it collapsed to one row, so anything but the full-time figure would be a false comparison.',
       source:
         'davidsonday.org — Tuition and Affordability (published 9 Apr 2026), retrieved 22 Jul 2026',
     },
@@ -1077,8 +1090,12 @@ const DAVIDSON_DAY: FinancialAidReport = {
       ],
       boxes: [
         {
-          tag: 'NO TREND CAN BE SHOWN',
-          body: 'This report cannot show a tuition trend: the current-year table overwrites the previous one, prior-year pages could not be recovered, and the school publishes no rate history. Early Childhood years are excluded from the run above because the number of years a child spends in that band varies.',
+          tag: 'FOUR YEARS, FROM THE ARCHIVE',
+          body: 'The school publishes no rate history — the current-year table overwrites the previous one — but archived copies carry 2022–23 onward. Every division has risen a near-flat **~4.5% a year** since 2023–24, one of the steadiest patterns in this series. Early Childhood years are excluded from the run above because the number of years a child spends in that band varies.',
+        },
+        {
+          tag: 'A COMPARISON TRAP IN THE EARLY YEARS',
+          body: 'The Early Childhood band was **restructured**, not merely repriced: six separately priced options through 2025–26 (half-day from $12,290) became a single row for 2026–27. Comparing the current row against the old half-day price would suggest an ~84% increase that never happened. The Section 01 chart compares full-time rates only.',
         },
         {
           tag: 'A THIRD-PARTY FIGURE, NOT A SCHOOL ONE',

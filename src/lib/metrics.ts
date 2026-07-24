@@ -29,6 +29,18 @@ const RULES: Record<string, Rule[]> = {
     { match: /pricing|cost/i, key: 'in-depth-report', label: 'In-Depth Report' },
     { match: /deep research/i, key: 'in-depth-report', label: 'In-Depth Report' },
   ],
+  // The deep-dive report is rendered by a dedicated component keyed to
+  // 'in-depth-report' (see pages/SchoolDetail.tsx), so it must land on that key.
+  // The tuition-history provenance file arrives as one section per markdown
+  // heading; those all fold into a single card rather than becoming seven.
+  'financial-aid-tuition': [
+    { match: /deep dive report|deep research/i, key: 'in-depth-report', label: 'In-Depth Report' },
+    {
+      match: /tuition history|provenance|source snapshots|tuition by (band|division)|year-over-year|reduced-day|captured in the same snapshots|published \d+(\.\d+)?% increase/i,
+      key: 'tuition-history',
+      label: 'Tuition History & Sources',
+    },
+  ],
   'college-support': [
     { match: /academic case/i, key: 'academic-case', label: 'Academic Case' },
     { match: /application support/i, key: 'application-support', label: 'Application Support' },
