@@ -1,5 +1,5 @@
 # Charlotte Latin School — Sports
-> Distilled from 14 source document(s) in `source-material/sports/charlotte-latin/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-07-23.
+> Distilled from 14 source document(s) in `source-material/sports/charlotte-latin/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-07-24.
 **Documents:** Awards and Honors, Championships, Coaches, Pedigree and Continuity, College Commitments 2024-2026, D1 Matriculation, Facilities and Infrastructure, NIL Landscape, National Football Profile, Power 4 Offers, Professional Athletes, Sports Medicine and Performance, Sports Offered, Top 100 Recruiting Rankings, Win-Loss Records
 
 

@@ -1,5 +1,5 @@
 # Charlotte Christian School — College Support
-> Distilled from 9 source document(s) in `source-material/college-support/charlotte-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-07-23.
+> Distilled from 9 source document(s) in `source-material/college-support/charlotte-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-07-24.
 **Documents:** Academic Case, Application Support, Counseling Engine, Fit and Rank, Institutional Leverage, NotebookLM Prompt, Outcomes, Standing Out, Deep Research
 
 
