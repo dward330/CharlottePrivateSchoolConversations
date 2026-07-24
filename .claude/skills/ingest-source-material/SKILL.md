@@ -112,8 +112,9 @@ reads as ingested while contributing nothing. Convert to a supported format firs
 **Topic × school research gaps.** `topicsForSchool()` filters a school page to topics
 that have documents, so an un-researched pair is not rendered as "no data" — the section
 simply **does not appear**. A parent sees "5 research areas" with nothing indicating a
-sixth exists for other schools. Currently `financial-aid-tuition` is missing for
-Charlotte Latin and Providence Day (4/6 covered).
+sixth exists for other schools. As of Jul 2026 all six schools cover all six topics
+(the check in step 5 confirms "every school has documents for every topic"); a future
+new topic or school is where a gap would reappear.
 
 A gap is a research to-do, not a bug — the fix is collecting the material under the
 data-provenance standard, never fabricating it. But it should be a *known* gap.
@@ -158,12 +159,26 @@ report. The coupling is load-bearing on **two** keys, both of which must line up
 `SchoolDetail.tsx` only swaps in `<FinancialAidReportCard>` when
 `t.slug === 'financial-aid-tuition' && g.metric.key === 'in-depth-report'`. Miss either
 and the card quietly falls back to plain prose — no error. `financialAidReport()`
-returning `undefined` is the *intended* fallback for schools without a transcribed report
-(currently Charlotte Latin and Providence Day), so an unmapped school is not a bug.
+returning `undefined` is the safe fallback (nothing breaks), but it is **not** the
+desired end state.
+
+**Standing rule — always transcribe the structured report.** Whenever a financial-aid
+deep-dive is ingested for a school, add that school's entry to the `REPORTS` map in the
+**same** pass, transcribed faithfully from its own deep-dive note in
+`.claude/docs/financial-aid-tuition/<school>.md`. All six schools currently have entries
+(Country Day, Cannon, Charlotte Christian, Davidson Day, Charlotte Latin, Providence Day);
+a new financial-aid school is not "done" until it has one too. If the check in step 5
+reports "has a deep-dive note but no structured report," that is a to-do to clear now, not
+an accepted fallback. Follow the existing entries as the template — the seven-section
+shape (tuition table, beyond tuition, aid engine, aid numbers, merit, paying the balance,
+trend & questions), the per-section `confidence` taken from the source's own confidence
+table where it publishes one, and the `NOT PUBLISHED` boxes that name each disclosure gap.
 
 Every block in a report is optional by design: schools publish different things, and a
-school renders only the blocks its own source supports. **Do not add an empty or
-carried-over block to make a school look complete — that invents data.**
+school renders only the blocks its own source supports. Transcribe faithfully — **do not
+add an empty or carried-over block to make a school look complete, and do not invent a
+figure the source does not state. Faithful transcription and completeness are the same
+goal, not competing ones.**
 
 ## Notes & limitations
 
