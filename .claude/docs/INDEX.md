@@ -28,6 +28,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Cannon School](financial-aid-tuition/cannon.md) — 2 docs
 - [Charlotte Christian School](financial-aid-tuition/charlotte-christian.md) — 1 docs
 - [Charlotte Country Day School](financial-aid-tuition/charlotte-country-day.md) — 2 docs
+- [Charlotte Latin School](financial-aid-tuition/charlotte-latin.md) — 1 docs
 - [Davidson Day School](financial-aid-tuition/davidson-day.md) — 2 docs
 
 ### Sports (`sports/`)
@@ -59,4 +60,4 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 
 ## Data layer
-- `src/data/schools.json` — 254 documents across 6 topics and 6 schools.
+- `src/data/schools.json` — 255 documents across 6 topics and 6 schools.
