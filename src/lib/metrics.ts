@@ -55,7 +55,9 @@ const RULES: Record<string, Rule[]> = {
     { match: /awards and honors/i, key: 'awards', label: 'Awards & Honors' },
     { match: /championships/i, key: 'championships', label: 'Championships' },
     { match: /coach/i, key: 'coaches', label: 'Coaches: Pedigree & Continuity' },
-    { match: /d1|matriculation/i, key: 'matriculation', label: 'D1 / Top-College Matriculation' },
+    // "College Commitments <years>" is the same material as the D1 matriculation
+    // note; without this it slugified into its own orphan section on every school.
+    { match: /d1|matriculation|college commitments/i, key: 'matriculation', label: 'D1 / Top-College Matriculation' },
     { match: /facilities/i, key: 'facilities', label: 'Facilities & Infrastructure' },
     { match: /nil/i, key: 'nil', label: 'NIL Landscape' },
     { match: /national.*profile|^national profile/i, key: 'national-profile', label: 'National Profile' },
@@ -153,4 +155,31 @@ export function normalizeMetric(topicSlug: string, subtopic: string): Metric | n
   // Unknown topic or subtopic: stand up a metric from the raw label so new
   // source-material still renders (just without hand-tuned grouping).
   return { key: slugify(subtopic), label: subtopic }
+}
+
+/**
+ * How a subtopic resolved — for tooling, not the UI.
+ *
+ * The fallthrough path in `normalizeMetric` is deliberately silent so new
+ * source-material always renders, which also means an unmatched subtopic looks
+ * identical to a matched one on screen. `scripts/check_metrics.mjs` uses this to
+ * tell the two apart. It mirrors `normalizeMetric`'s branches exactly; keep the
+ * two in step if that function's logic changes.
+ */
+export type MetricResolution =
+  | { status: 'hidden' }
+  | { status: 'matched'; metric: Metric }
+  | { status: 'no-topic-rules'; metric: Metric }
+  | { status: 'fellthrough'; metric: Metric }
+
+export function resolveMetric(topicSlug: string, subtopic: string): MetricResolution {
+  if (HIDE.some((re) => re.test(subtopic))) return { status: 'hidden' }
+  const rules = RULES[topicSlug]
+  for (const rule of rules ?? []) {
+    if (rule.match.test(subtopic)) {
+      return { status: 'matched', metric: { key: rule.key, label: rule.label } }
+    }
+  }
+  const metric = { key: slugify(subtopic), label: subtopic }
+  return { status: rules ? 'fellthrough' : 'no-topic-rules', metric }
 }

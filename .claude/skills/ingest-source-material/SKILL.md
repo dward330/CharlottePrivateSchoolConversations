@@ -34,6 +34,8 @@ src/content/<topic>/<school>.json          (per-school-topic text the web app la
         src/lib/metrics.ts             (subtopic → metric rules, topic/section order)
         src/data/metricValues.ts       (Compare numbers + school-page stat tiles)
         src/data/financialAidReports.ts (structured deep-dive reports)
+                ▲
+                └─ scripts/check_metrics.mjs verifies these against the manifest
 ```
 
 Two passes: `build_docs.py` produces the notes + manifest; then
@@ -74,8 +76,16 @@ python scripts/build_site_content.py   # regenerates src/content/ from .claude/d
 3. Run `python scripts/build_site_content.py` to regenerate `src/content/` from the notes.
 4. Verify: `python -c "import json;m=json.load(open('src/data/schools.json'));print(len(m['documents']),'docs')"`
    and spot-check the regenerated note(s) under `.claude/docs/<topic>/`.
-5. **Work the app-layer checklist below.** The pipeline stops at prose; the comparison
-   numbers and structured reports are hand-maintained and will silently go stale.
+5. **Run the app-layer check and work anything it reports:**
+
+   ```bash
+   node scripts/check_metrics.mjs
+   ```
+
+   It imports the real `metrics.ts` / `metricValues.ts` / `financialAidReports.ts` (no
+   re-implemented logic, so it cannot drift from the app) and exits non-zero when
+   something needs a look. Findings are **advisory** — see the checklist below for how to
+   judge each one. Never silence a warning by inventing a value.
 6. Commit the regenerated `.claude/docs/`, `src/data/schools.json`, and `src/content/`,
    plus any app-layer edits from step 5 (raw files in `source-material/` stay gitignored
    and are not committed, except `.md` — see the data-provenance standard).
@@ -84,7 +94,8 @@ python scripts/build_site_content.py   # regenerates src/content/ from .claude/d
 
 Ingest alone only guarantees that a school's **prose** renders. Three layers of the app
 are hand-authored, and new source material is invisible to all three until someone edits
-them. After every ingest, walk this list:
+them. `scripts/check_metrics.mjs` (step 5) detects all three; this section explains how
+to act on what it reports.
 
 ### 1. Unmatched subtopics → `src/lib/metrics.ts`
 
