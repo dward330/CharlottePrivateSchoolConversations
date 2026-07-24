@@ -1121,11 +1121,333 @@ const DAVIDSON_DAY: FinancialAidReport = {
     'davidsonday.org — Tuition and Affordability (published 9 Apr 2026), enrollment instructions, employee-parent enrollment instructions, deposit instructions, extended care and back-to-school pages (all 22 Jul 2026) · Clarity Financial Aid family application guide, 2025–26 cycle · ProPublica Nonprofit Explorer, EIN 11-1976223, Form 990 FY2019–FY2025 · Instrumentl Form 990 report (unverified third-party digitisation). Third-party listing sites disagree with one another on both tuition and enrollment and are not the source of any figure here. The school did not commission, review or approve this report.',
 }
 
+const CHARLOTTE_LATIN: FinancialAidReport = {
+  title: 'Tuition & Financial Aid — Deep Dive Report',
+  meta: '2026–27 school year · figures as of 24 Jul 2026',
+  framing: [
+    {
+      icon: 'info',
+      title: 'Unpublished ≠ deficient.',
+      body: '"Not published" flags a transparency gap — never a judgement that the aid programme is small or unwelcoming.',
+    },
+    {
+      icon: 'clock',
+      title: 'Published ≠ current.',
+      body: 'Every dollar figure carries the school year it applies to. The transport and aid-document pages sit a year behind the 2026–27 tuition table — different cycles, not a contradiction.',
+    },
+    {
+      icon: 'book',
+      title: 'K–12 aid only.',
+      body: 'Tuition assistance toward attending this school — not the FAFSA, CSS Profile or college merit money. Not financial advice. Roughly 75% of this series\' questions could be answered from published sources.',
+    },
+  ],
+  sections: [
+    {
+      id: 'fa-tuition',
+      navTitle: 'The Tuition Table',
+      title: 'The Tuition Table — Price by Band',
+      confidence: 95,
+      figureCaption: 'Published tuition by band, 2026–27',
+      // No `prior` on any band: unlike Country Day, Cannon and Davidson Day,
+      // no tuition-history file exists for Latin. The deep-dive states the web
+      // archive could not be reached across repeated attempts, so there are no
+      // school-published 2022–23 through 2025–26 rates to ghost against. Third-
+      // party summaries of past tuition exist but disagree with one another and
+      // are deliberately not used. See the Section 07 note.
+      bands: [
+        { label: 'TK & Kindergarten', amount: 27600 },
+        { label: 'Grades 1–5', amount: 32600 },
+        { label: 'Grades 6–8', amount: 35200 },
+        { label: 'Grades 9–12', amount: 36500 },
+      ],
+      figureNote:
+        'Four bands cover the full stated span of Transitional Kindergarten through Grade 12, so no grade is unpriced. The school labels the table "These fees are from the 2026-27 school year." Tuition includes most course and laboratory fees; textbooks are included in TK–5 but are an additional expense in grades 6–12, and that amount is not published.',
+      figureNote2:
+        'No prior-year bars: the school\'s live page shows only the current year and the archived copies could not be retrieved — a limit of our toolchain, not a school gap. Enrolment context: 1,555 students total, 586 in the Upper School (2025–26 Upper School Profile).',
+      source:
+        'charlottelatin.org — Tuition & Financial Assistance; Upper School Profile 2025–26, retrieved 24 Jul 2026',
+    },
+    {
+      id: 'fa-beyond',
+      navTitle: 'Beyond Tuition',
+      title: 'Beyond Tuition — The Real Cost of Attendance',
+      confidence: 72,
+      componentsTitle: 'Fourteen confirmed components for a 2026–27 family — 8 unpriced or a year behind',
+      componentsAside: 'All-in estimate not built: 57% unpriced > ⅓ threshold',
+      components: [
+        { label: 'Tuition — four bands, priced', status: 'priced' },
+        { label: 'Enrolment deposit · $2,500, non-refundable', status: 'priced' },
+        { label: 'Class trip advance · up to $710 (gr. 5–8, 12)', status: 'priced' },
+        { label: 'Student accident insurance · $75, optional', status: 'priced' },
+        { label: 'Tuition Refund Plan · 0.53% of tuition, optional', status: 'priced' },
+        { label: "Hawks' Club extended day · priced, TK–5 only", status: 'priced' },
+        { label: 'Bus service · 2025–26 rates only', status: 'range' },
+        { label: 'Textbooks, grades 6–12 · no rate', status: 'unpriced' },
+        { label: 'Meals · no price list', status: 'unpriced' },
+        { label: 'Athletics participation · no rate', status: 'unpriced' },
+        { label: 'School trips beyond the class-trip advance · no rate', status: 'unpriced' },
+        { label: 'Enrichment programmes · no rate', status: 'unpriced' },
+        { label: 'Talons youth sports · no rate', status: 'unpriced' },
+        { label: 'Lower School uniforms · supplier purchase, no amount', status: 'unpriced' },
+      ],
+      componentsNote:
+        'Six components are priced at 2026–27. The rest are unpriced or published only at 2025–26 rates. The school\'s own strategic plan confirms these charges are real: families "often arrive with tuition assistance but are unprepared for the additional costs … including the costs of athletics, school trips, and other activities."',
+      boxes: [
+        {
+          title: 'Bus service — a year behind the tuition table',
+          body: 'Round trip **$1,800** · one way **$900** · activity bus **$450** per season. The fee panel is headed "Bus Service Annual Fees 2025-26" while the tuition page has moved to 2026–27, so a family budgeting for next year cannot price the bus from the website.',
+        },
+        {
+          title: "Hawks' Club — two rates break their own pattern",
+          body: 'Per-semester, TK–5, 2026–27. Three of five rows scale exactly with their own one-day rate; two do not. TK/K 1:30–4:30 p.m.: $635/day implies $2,540 for four days, but the table prints **$2300**. Grades 1–5 2:55–4:30 p.m.: $295/day implies $1,180 for four days, but the table prints **$1,880**. Reproduced exactly as published rather than corrected — confirm both with the business office.',
+        },
+        {
+          tag: 'NO PUBLISHED EVIDENCE — TREATED AS NOT CHARGED',
+          body: 'General activity, technology, facilities, new-family and graduation fees · arts, instrument or production fees · testing fees · a required device purchase · a costed summer coursework requirement. Silence on a fee schedule most likely means the charge does not apply, but confirm rather than assume.',
+        },
+        {
+          tag: 'THE SCHOOL INTENDS TO ANSWER THIS ITSELF',
+          body: 'Goal 5.1 of the published strategic plan commits the school to "conduct a comprehensive audit of the full costs of a Latin education, including tuition, trips, extracurricular programs, and out of school experiences." A family asking these questions is asking for something the school has already said it wants to produce.',
+        },
+      ],
+      source:
+        'charlottelatin.org — Tuition & Financial Assistance; Transportation; Hawks\' Club; Dining; Charlotte Latin Strategic Plan, "Access and Affordability", retrieved 24 Jul 2026',
+    },
+    {
+      id: 'fa-engine',
+      navTitle: 'The Aid Engine',
+      title: 'The Aid Engine — Process, Forms & Timeline',
+      confidence: 86,
+      note: 'platform, dates, method and decision-maker are all published',
+      timeline: [
+        { when: '15 Sep', detail: 'Financial aid application process **opens**' },
+        {
+          when: '15 Jan',
+          detail:
+            'Priority round deadline — stated as **15 January 2027** for the next cycle. Applications in by this date are considered for priority decisions',
+          emphasis: true,
+        },
+        {
+          when: 'Not published',
+          detail:
+            'When awards are released relative to the admission decision, or whether a family will know their award before an enrolment contract is due',
+        },
+        {
+          when: 'Not retrieved',
+          detail:
+            'Whether aid must be reapplied for annually — very likely inside the document library below, which could not be opened',
+        },
+      ],
+      boxes: [
+        {
+          title: 'Platform & how a family applies',
+          body: '**Clarity.** One application covers all children in a family. Designed for a phone and stated to take **30 minutes or less**, with progress saved and resumed. Federal 1040 and W2 documents transfer automatically from the IRS after a verification step. The family application guide and platform quick-reference are published in **English and Spanish**.',
+        },
+        {
+          title: 'How need is determined, and who decides',
+          body: 'The school defines need plainly: "the difference between tuition and the family\'s ability to pay for tuition." It states it "strives to cover 100% of the identified family\'s need" — an aim, not a guarantee, and not read here as a promise of any particular award. A **Financial Aid Committee** conducts the review and decision.',
+        },
+        {
+          title: 'Need-blind',
+          body: 'The published financial aid questions-and-answers document states an applying family can expect "**a need-blind decision**" — the clearest available statement that applying for aid is described as not affecting the admission decision.',
+        },
+        {
+          tag: 'NOT RETRIEVED — THE AID DOCUMENT LIBRARY',
+          body: 'Nine financial aid documents are published — guiding principles, commonly-asked questions, scholarships, the Clarity guides in English and Spanish, and a non-custodial parent waiver form. All sit on a third-party document service our tools could not open; only each summary line was readable. **These are public and open fine in an ordinary browser.** The renewal policy, appeals process and mid-year change-of-circumstance policy are very likely inside them, and are recorded as not retrieved rather than not published.',
+        },
+        {
+          tag: 'NOT PUBLISHED',
+          body: 'What it costs a family to file (aid platforms commonly charge a fee; the pages do not say whether one applies) · when aid decisions arrive relative to admission decisions · the confidentiality policy — who inside the school sees a family\'s financial information, and how long it is retained.',
+        },
+        {
+          tag: 'RESEARCH PASS, NOT RE-RETRIEVED',
+          body: 'The 2024–25 financial aid process presentation describes the mechanism in more detail: the platform produces an Estimated Family Contribution, demonstrated need is published tuition minus that contribution, and a Financial Aid Committee decides. It names **School and Student Services** as the 2024–25 platform against **Clarity** today — a change of platform between years, not a contradiction. Surfaced through a research pass and not re-read at the source.',
+        },
+      ],
+      source:
+        'charlottelatin.org — Tuition & Financial Assistance; Policies, Procedures and Documents, retrieved 24 Jul 2026',
+    },
+    {
+      id: 'fa-numbers',
+      navTitle: 'The Aid Numbers',
+      title: 'The Aid Numbers — How Much, To Whom, How Far',
+      confidence: 80,
+      note: 'unusually full disclosure for a public page',
+      stats: [
+        { value: '$3.25M', label: 'total financial aid awarded (2024–25)' },
+        { value: '6%', label: 'of the total operational budget (2024–25)' },
+        { value: '$17,900', label: 'average award (2024–25) — an average, not a median' },
+        { value: '14%', label: 'of students receiving some funding — no year stated' },
+        { value: '36', label: 'students holding awards from 17 endowed scholarships (2024–25)' },
+      ],
+      boxes: [
+        {
+          title: 'What is published, and where',
+          body: 'Total awarded **$3.25M**, aid as **6%** of operational budget, average award **$17,900**, and **36 students across 17 endowed scholarships** — all 2024–25, all on the tuition page. Separately: **$3.125M** offered in 2021–22 (strategic plan) and an undated "over three million dollars" (policies page). These are not added together and are not a trend — different pages, different years, and in one case no year at all.',
+        },
+        {
+          tag: 'THE PARTICIPATION SHARE CARRIES A DENOMINATOR BUT NO YEAR',
+          body: 'The measure most families look for first **is** published — but on the strategic-plan site, a separate web property from admissions, as "14% of students receiving some funding." The denominator is clear and it is the right one: a share of **students**, not of applicants or filers, which are different and usually larger-looking numbers. The year is not. The sentence sits beside a figure tagged 2021–22, but adjacency is not a year tag and is not treated as one here.',
+        },
+        {
+          tag: 'NOT PUBLISHED',
+          body: 'The **median** award — the published $17,900 average must not be read as a typical or middle award · the award range, smallest to largest · whether any need-based award covers full tuition · how many students or families receive need-based aid overall (the count of 36 is endowed scholarships only).',
+        },
+        {
+          tag: 'WHY THE AVERAGE AWARD IS NOT SHOWN AS A SHARE OF TUITION',
+          body: 'We normally divide the average award by the same year\'s tuition to show how far a typical award reaches. The average is published for **2024–25**; the tuition table has moved to **2026–27**; and the 2024–25 published rates could not be retrieved. Dividing across those years would produce a figure describing no actual year, so it is left out rather than printed precise and meaningless.',
+        },
+        {
+          title: 'Supplemental support',
+          body: 'Beyond tuition assistance, the school states that for its **highest-need families** it also covers supplemental support for school essentials, **including lunch**. The scope beyond lunch, and the threshold at which a family qualifies, are not published.',
+        },
+        {
+          tag: 'HOW TO READ THE 990 FIGURE',
+          body: 'Charlotte Latin Schools Inc, EIN 56-0944449, FY ending June 2024: grants to domestic individuals **$3.0M**, total revenue $55.7M, total expenses $55.1M. This is aggregate institutional accounting filed with the IRS, not a school statement about its aid programme — it runs one to two years behind the current school year and its definition of a grant need not match what the school counts as tuition assistance. Context only; it does not close the gaps above.',
+        },
+      ],
+      source:
+        'charlottelatin.org — Tuition & Financial Assistance; Policies, Procedures and Documents; Charlotte Latin Strategic Plan, "Access and Affordability"; IRS Form 990 via ProPublica, retrieved 24 Jul 2026',
+    },
+    {
+      id: 'fa-merit',
+      navTitle: 'Merit & Scholarships',
+      title: 'Merit, Discounts & Special Programmes',
+      confidence: 78,
+      tag: "NORTH CAROLINA'S ONLY MALONE SCHOLARS SCHOOL",
+      boxes: [
+        {
+          title: 'The Malone Scholars programme',
+          body: 'Charlotte Latin states it is the **only Malone Scholars School in North Carolina**, endowed by the Malone Family Foundation to provide scholarships to highly capable students. The foundation\'s published basis for selecting its fifty partner schools nationally: academic calibre, quality of staff, accommodations for gifted and talented students, strong Advanced Placement and enrichment programmes, attention to individual student needs, and an economically, culturally, ethnically and socially diverse population.',
+        },
+        {
+          title: 'Named funds that reach beyond tuition',
+          body: 'The scholarships document states that the **Malone, Sunny, Thrive, Wall and Kearney** scholarships cover additional school expenses **beyond tuition**, that they are Middle and Upper School awards, and that they are made **at the time of admission**. That is a meaningful distinction: a scholarship reaching costs beyond tuition addresses precisely the gap Section 02 describes. (Document summary only — the body could not be opened.)',
+        },
+        {
+          tag: 'NOT PUBLISHED — SIZES, CRITERIA AND STACKING',
+          body: 'For each named fund the public record does not state the award amount, how many are awarded in a year, the eligibility criteria, or whether a scholarship can be held alongside need-based aid. The one quantitative anchor is that **36 students held awards from 17 endowed scholarships in 2024–25** — a reach figure, not an award size. Ask which scholarships an applicant would be considered for, whether consideration is automatic, and whether an award reduces need-based aid.',
+        },
+        {
+          tag: 'NOT PUBLISHED — DISCOUNTS',
+          body: 'Sibling discounts · employee tuition remission · clergy, military or first-responder discounts · an indexed or variable tuition programme · whether merit awards may be held together with need-based aid. Each is recorded as not published rather than as not offered.',
+        },
+        {
+          tag: 'RESEARCH PASS, NOT RE-RETRIEVED',
+          body: 'The endowed gifts page lists a wider set of named scholarship and award funds beyond the five above, including funds supporting Lower School students, a student-athlete fund, and an alumni-established fund. Surfaced through a research pass and not re-read at the source, so **no count of funds is stated here**. Fund names are institutional proper nouns; no recipient is named anywhere in this report.',
+        },
+      ],
+      source:
+        'charlottelatin.org — "2025-26 Scholarships" document summary; Upper School Profile 2025–26; Endowed Gifts, retrieved 24 Jul 2026',
+    },
+    {
+      id: 'fa-paying',
+      navTitle: 'Paying the Balance',
+      title: 'Paying the Balance — Plans & Contract Terms',
+      confidence: 68,
+      plans: [
+        {
+          figure: '$2.5K',
+          label: 'Enrolment deposit',
+          detail:
+            'Non-refundable, **deducted from the second tuition payment**. No student can be enrolled or re-enrolled without it (2026–27).',
+          emphasis: true,
+        },
+        {
+          figure: '2×',
+          label: 'Two Payment Plan',
+          detail:
+            'Half of tuition due **31 May**; the balance, less the $2,500 deposit, due **30 November**.',
+        },
+        {
+          figure: '8×',
+          label: 'Monthly Payment Plan',
+          detail:
+            'The $2,500 deposit at enrolment, then monthly payments **May through December**. The school states there is **no fee or service charge** if payments are made on time.',
+        },
+      ],
+      boxes: [
+        {
+          title: 'Late payment and arrears — published directly',
+          body: 'A service charge of **1.5% per month**, which the school states as **18% annual**, is added to tuition charges not received or postmarked by their due date and to any unpaid balance. All tuition must be paid before students may attend classes following the respective due dates. Miscellaneous charges must be paid before re-enrolment is offered, report cards issued, diplomas awarded or transcripts released.',
+        },
+        {
+          title: 'Extended-day billing',
+          body: "Hawks' Club fees are billed per semester rather than with tuition: the first-semester fee (August–December) on **23 September 2026**, the second (January–May) on **20 January 2027**.",
+        },
+        {
+          tag: 'NOT PUBLISHED — THE WITHDRAWAL OBLIGATION',
+          body: 'The public pages do not set out the withdrawal or mid-year departure obligation, any refund schedule, or the point at which full-year tuition becomes payable regardless of attendance. The optional Tuition Refund Plan at 0.53% of tuition implies some obligation survives a withdrawal — that is what such plans exist to cover — but the underlying terms are not on the public record. **This is the single most consequential unpublished item in this report;** read the contract carefully before signing.',
+        },
+        {
+          tag: 'NOT PUBLISHED',
+          body: 'Third-party tuition lenders or financing partners · any prepayment or single-payment discount · any prepaid multi-year or tuition-lock programme.',
+        },
+      ],
+      source:
+        "charlottelatin.org — Tuition & Financial Assistance; Hawks' Club, retrieved 24 Jul 2026",
+    },
+    {
+      id: 'fa-trend',
+      navTitle: 'Trend & Questions',
+      title: 'Trend, Reach & the Honest Questions',
+      confidence: 45,
+      stats: [
+        {
+          value: '$469,800',
+          label:
+            "full TK–12 run (14 years) at 2026–27 rates — our arithmetic, tuition only, not a projection",
+        },
+        { value: '$146,000', label: 'a Grades 9–12 run at 2026–27 rates' },
+      ],
+      boxes: [
+        {
+          tag: 'NOT RETRIEVED — OUR LIMITATION, NOT THE SCHOOL\'S',
+          body: 'A tuition page shows the current year and overwrites the last, so a multi-year trend has to come from web archive captures. Our retrieval tools could not reach the archive service across repeated attempts, in the initial pass and again in a deeper research pass, so there are **no school-published rates for 2022–23 through 2025–26**. This is a toolchain limit. It is **not** a finding that the school conceals its pricing history and should not be read as one. Third-party summaries exist but disagree with one another and none is reproduced.',
+        },
+        {
+          title: 'Aid figures across years — two points, not a trend',
+          body: '**$3.125M** offered in 2021–22 and **$3.25M** awarded in 2024–25. These sit three years apart with nothing published in between, and come from different pages that may not count identically. Two points do not make a trend, and no line is drawn between them.',
+        },
+        {
+          tag: 'READ THE TENURE FIGURES AS ARITHMETIC, NOT A FORECAST',
+          body: 'The totals above apply 2026–27 bands across a full run (2 years at $27,600; 5 at $32,600; 3 at $35,200; 4 at $36,500) as if today\'s prices held every year — which they will not, since published tuition is re-set annually and has historically risen. They are tuition only, net of nothing, and exclude the deposit, trips, insurance, transport, extended day, meals, books and every unpriced item in Section 02. They exist only to give a sense of scale.',
+        },
+        {
+          tag: 'THE MIDDLE-INCOME QUESTION',
+          body: 'The school publishes an aim to meet up to 100% of demonstrated need and a share of students receiving some funding. It publishes nothing about families above the aid threshold but below comfortable full-pay — no indexed tuition, no middle-income initiative, no guidance on where the threshold falls. A publication gap rather than a statement about who the school serves.',
+        },
+        {
+          tag: 'TWO NAVIGATION HAZARDS',
+          body: '**A stale page is still circulating.** The live tuition page gives the aid deadline as 15 January 2027, but search engines still serve cached text from the same address giving 15 January 2026. Open the page directly rather than trusting the snippet. **The contact address is misspelled in one place** — the tuition page invites inquiries at an address whose domain has two letters transposed, while the correct address appears elsewhere on the same page. Mail to the misspelled version will not arrive; use the contact panel.',
+        },
+      ],
+      questionsTitle: 'Questions worth putting to the business office',
+      questionsNote:
+        'Each is unanswerable from published sources and materially affects what a family pays or receives.',
+      questions: [
+        'What is the withdrawal and mid-year departure obligation, and is there a refund schedule?',
+        'What does a year of school meals cost, by division, and what do textbooks cost in grades 6, 9 and 12?',
+        'What are the participation costs for specific sports and activities?',
+        'What are the 2026–27 bus rates?',
+        'What is the current share of students receiving tuition assistance, and for which year?',
+        'What is the median award, what is the range from smallest to largest, and does any award reach full tuition?',
+        'For each named scholarship: the amount, how many are awarded, the criteria, and whether it can be held alongside need-based aid?',
+        'Must aid be reapplied for annually, do awards typically renew at a consistent level, and is there an appeals or change-of-circumstance process?',
+        "Please confirm the four-day and five-day Hawks' Club rates in the two rows flagged in Section 02.",
+      ],
+    },
+  ],
+  sources:
+    'charlottelatin.org — Tuition & Financial Assistance; Policies, Procedures and Documents; Transportation; Hawks\' Club; Dining; Upper School Profile 2025–26; Endowed Gifts (all 24 Jul 2026) · charlottelatinleads.org — Strategic Plan, "Access and Affordability" (24 Jul 2026) · "2025-26 Scholarships" and "2025-26 Commonly Asked Questions about Financial Aid" (document summaries only; bodies not retrievable) · 2024–2025 financial aid process presentation (research pass, not re-retrieved) · IRS Form 990, Charlotte Latin Schools Inc, EIN 56-0944449, FY ending June 2024, via ProPublica Nonprofit Explorer. Commercial school-directory sites publish tuition figures that disagree with one another and with the school\'s own page; none is the source of any figure here. The school did not commission, review or approve this report.',
+}
+
 const REPORTS: Record<string, FinancialAidReport> = {
   'charlotte-country-day': COUNTRY_DAY,
   cannon: CANNON,
   'charlotte-christian': CHARLOTTE_CHRISTIAN,
   'davidson-day': DAVIDSON_DAY,
+  'charlotte-latin': CHARLOTTE_LATIN,
 }
 
 /** The structured deep-dive for a school, or undefined to fall back to prose. */
