@@ -14,6 +14,8 @@ import { proseSummary } from '../lib/prose.ts'
 import { toCompare, toHome, useNavigate } from '../lib/router.ts'
 import { schools as allSchools } from '../lib/manifest.ts'
 import { valueMetricsForTopic } from '../data/metricValues.ts'
+import { financialAidReport } from '../data/financialAidReports.ts'
+import { FinancialAidReportCard } from '../components/FinancialAidReport.tsx'
 
 type Loaded = Record<string, MetricGroup[]>
 
@@ -182,32 +184,52 @@ export function SchoolDetail({ slug }: { slug: string }) {
                 )}
 
                 <div className="note-cards">
-                  {groups.map((g) => (
-                    <details key={g.metric.key} className="note-card">
-                      <BlueprintCorners />
-                      <summary>
-                        <span className="note-card-head">
-                          <span className="topic-title">{g.metric.label}</span>
-                          <span className="topic-teaser">
-                            {proseSummary(g.sections[0]?.text ?? '', g.metric.label) || g.sections[0]?.preview}
+                  {groups.map((g) => {
+                    /* The Financial Aid deep-dive has a hand-structured report
+                       behind it; it replaces the prose body and always claims
+                       the full grid row rather than reflowing into columns.
+                       It attaches to the deep-dive card only — the topic also
+                       carries plain notes (tuition history, provenance) that
+                       must keep rendering as prose. */
+                    const report =
+                      t.slug === 'financial-aid-tuition' &&
+                      g.metric.key === 'in-depth-report'
+                        ? financialAidReport(slug)
+                        : undefined
+                    return (
+                      <details
+                        key={g.metric.key}
+                        className={`note-card${report ? ' note-card-report' : ''}`}
+                      >
+                        <BlueprintCorners />
+                        <summary>
+                          <span className="note-card-head">
+                            <span className="topic-title">{g.metric.label}</span>
+                            <span className="topic-teaser">
+                              {proseSummary(g.sections[0]?.text ?? '', g.metric.label) || g.sections[0]?.preview}
+                            </span>
                           </span>
-                        </span>
-                        <span className="plusmark"><PlusIcon /></span>
-                      </summary>
-                      <div className="note-card-body">
-                        {g.sections.map((s, i) => (
-                          <article key={i} className="section-text">
-                            {g.sections.length > 1 &&
-                              s.subtopic !== g.metric.label &&
-                              !/deep research/i.test(s.subtopic) && (
-                                <h3 className="section-sub">{s.subtopic}</h3>
-                              )}
-                            <ProseContent text={s.text} title={g.metric.label} />
-                          </article>
-                        ))}
-                      </div>
-                    </details>
-                  ))}
+                          <span className="plusmark"><PlusIcon /></span>
+                        </summary>
+                        <div className="note-card-body">
+                          {report ? (
+                            <FinancialAidReportCard report={report} />
+                          ) : (
+                            g.sections.map((s, i) => (
+                              <article key={i} className="section-text">
+                                {g.sections.length > 1 &&
+                                  s.subtopic !== g.metric.label &&
+                                  !/deep research/i.test(s.subtopic) && (
+                                    <h3 className="section-sub">{s.subtopic}</h3>
+                                  )}
+                                <ProseContent text={s.text} title={g.metric.label} />
+                              </article>
+                            ))
+                          )}
+                        </div>
+                      </details>
+                    )
+                  })}
                 </div>
               </section>
             )
