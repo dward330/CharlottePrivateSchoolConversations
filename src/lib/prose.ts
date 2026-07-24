@@ -366,7 +366,67 @@ export function parseProse(raw: string, title?: string): ProseBlock[] {
   }
   flushAll()
 
-  return demoteEmptyHeadings(blocks)
+  return promoteFlattenedTables(demoteEmptyHeadings(blocks))
+}
+
+// A pure money / number token — a value cell of a flattened stat-table row
+// ("$21,300", "$10,650.00", "48%"). Ranges ("1470–1590") deliberately don't match:
+// only rows whose trailing cells are unambiguous values get promoted to a table.
+const VALUE_TOKEN = /^\$\d[\d,]*(?:\.\d+)?$|^\d[\d,]*(?:\.\d+)?%?$/
+
+/** Split "Early Education (JK–K) $21,300 $10,650.00" into label + trailing values. */
+function splitStatValues(line: string): { label: string; values: string[] } {
+  const words = line.trim().split(/\s+/)
+  let i = words.length
+  while (i > 0 && VALUE_TOKEN.test(words[i - 1])) i--
+  return { label: words.slice(0, i).join(' '), values: words.slice(i) }
+}
+
+/** Split a flattened header line ("Division (2026–27) Published tuition Ceiling on
+ *  any grant") into column names, assuming each column name starts with a capital
+ *  ("Division …", "Published …", "Ceiling …"). Returns null unless the capitals
+ *  yield exactly the expected column count — when in doubt, no table. */
+function splitHeaderCells(text: string, cols: number): string[] | null {
+  if (text.length > 90) return null
+  const words = text.split(/\s+/)
+  const starts: number[] = []
+  words.forEach((w, i) => {
+    if (/^[A-Z]/.test(w)) starts.push(i)
+  })
+  if (starts.length !== cols || starts[0] !== 0) return null
+  return starts.map((s, j) => words.slice(s, starts[j + 1] ?? words.length).join(' '))
+}
+
+/** A PDF table flattens into a header line (absorbed by the paragraph above it,
+ *  since it reads as prose) followed by "label $X $Y" stat rows (gathered into a
+ *  facts panel). That renders as bare unlabeled numbers — e.g. tuition next to the
+ *  maximum-grant ceiling with nothing saying which is which. When every facts row
+ *  splits into label + the same count of value tokens AND the preceding paragraph's
+ *  last sentence splits into matching column names, rebuild the real table. */
+function promoteFlattenedTables(blocks: ProseBlock[]): ProseBlock[] {
+  const out: ProseBlock[] = []
+  for (let i = 0; i < blocks.length; i++) {
+    const b = blocks[i]
+    const next = blocks[i + 1]
+    if (b.kind === 'para' && b.text && next?.kind === 'facts' && next.lines.length >= 2) {
+      const rows = next.lines.map(splitStatValues)
+      const k = rows[0].values.length
+      if (k >= 1 && rows.every((r) => r.label && r.values.length === k)) {
+        const cut = b.text.lastIndexOf('. ')
+        const tail = (cut === -1 ? b.text : b.text.slice(cut + 2)).trim()
+        const header = tail && !/[.!?]$/.test(tail) ? splitHeaderCells(tail, k + 1) : null
+        if (header) {
+          const lead = cut === -1 ? '' : b.text.slice(0, cut + 1)
+          if (lead || b.cites.length) out.push({ kind: 'para', text: lead, cites: b.cites })
+          out.push({ kind: 'table', header, rows: rows.map((r) => [r.label, ...r.values]) })
+          i++
+          continue
+        }
+      }
+    }
+    out.push(b)
+  }
+  return out
 }
 
 /** A heading with nothing under it heads no section — it's a line the classifier
