@@ -82,10 +82,12 @@ python scripts/build_site_content.py   # regenerates src/content/ from .claude/d
    node scripts/check_metrics.mjs
    ```
 
-   It imports the real `metrics.ts` / `metricValues.ts` / `financialAidReports.ts` (no
-   re-implemented logic, so it cannot drift from the app) and exits non-zero when
-   something needs a look. Findings are **advisory** — see the checklist below for how to
-   judge each one. Never silence a warning by inventing a value.
+   Section 0 answers "did we pull in everything?" — files on disk the ingest skipped,
+   unsupported file types, and topic × school research gaps. Sections 1–3 import the real
+   `metrics.ts` / `metricValues.ts` / `financialAidReports.ts` (no re-implemented logic,
+   so they cannot drift from the app). Exits non-zero when something needs a look.
+   Findings are **advisory** — see the checklist below for how to judge each one. Never
+   silence a warning by inventing a value.
 6. Commit the regenerated `.claude/docs/`, `src/data/schools.json`, and `src/content/`,
    plus any app-layer edits from step 5 (raw files in `source-material/` stay gitignored
    and are not committed, except `.md` — see the data-provenance standard).
@@ -96,6 +98,25 @@ Ingest alone only guarantees that a school's **prose** renders. Three layers of 
 are hand-authored, and new source material is invisible to all three until someone edits
 them. `scripts/check_metrics.mjs` (step 5) detects all three; this section explains how
 to act on what it reports.
+
+### 0. Did the ingest capture everything? (coverage)
+
+Two kinds of data loss happen *upstream* of the manifest, so no amount of checking the
+derived layers will reveal them:
+
+**Files the ingest skipped.** `build_docs.py`'s `extract()` handles `.pdf`, `.md` and
+`.txt` only — **every other extension silently returns empty string**, producing a
+manifest entry with no text rather than an error. Drop an `.xlsx` or `.docx` in and it
+reads as ingested while contributing nothing. Convert to a supported format first.
+
+**Topic × school research gaps.** `topicsForSchool()` filters a school page to topics
+that have documents, so an un-researched pair is not rendered as "no data" — the section
+simply **does not appear**. A parent sees "5 research areas" with nothing indicating a
+sixth exists for other schools. Currently `financial-aid-tuition` is missing for
+Charlotte Latin and Providence Day (4/6 covered).
+
+A gap is a research to-do, not a bug — the fix is collecting the material under the
+data-provenance standard, never fabricating it. But it should be a *known* gap.
 
 ### 1. Unmatched subtopics → `src/lib/metrics.ts`
 
