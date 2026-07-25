@@ -1133,6 +1133,70 @@ main { flex: 1; }
   .fa-stats { grid-template-columns: 1fr; }
 }
 
+/* ------------------------------------ academic & competitive clubs (layered) */
+
+/* The expanded "Academic & Competitive Clubs" card: a verdict line plus one
+   disclosure row per cluster. Recreates the "2a — Finalized" design in
+   "Academic Clubs Expand Options.dc.html" using the app's tokens; the per-school
+   --brand accent stands in for the reference's --color-accent. Attaches to a
+   note-card-report body, so it keeps a single full-width column. */
+
+.club-verdict {
+  margin: 0 0 4px;
+  font-size: 14.5px;
+  line-height: 1.5;
+}
+.club-verdict strong { font-weight: 700; }
+
+.clubrow { border-bottom: 1px solid var(--border); }
+.clubrow > summary {
+  cursor: pointer;
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  padding: 11px 0;
+  list-style: none;
+}
+.clubrow > summary::-webkit-details-marker { display: none; }
+.clubrow > summary:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+}
+.clubrow-name {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 17px;
+  flex: none;
+  width: 170px;
+}
+.clubrow > summary:hover .clubrow-name { color: var(--brand); }
+.clubrow-oneliner { font-size: 13px; flex: 1; line-height: 1.4; }
+.clubrow-plus {
+  flex: none;
+  display: inline-flex;
+  align-self: center;
+  color: var(--brand);
+  transition: transform 0.18s ease;
+}
+.clubrow[open] > summary .clubrow-plus { transform: rotate(45deg); }
+.clubrow-detail {
+  padding: 0 0 14px 182px;
+  font-size: 13px;
+  line-height: 1.65;
+}
+.clubrow-detail p { margin: 0 0 8px; }
+.clubrow-src { display: flex; gap: 8px; align-items: baseline; }
+.clubrow-src-text { color: var(--muted); font-size: 12px; }
+
+@media (max-width: 600px) {
+  /* The 170px name column and its 182px detail indent don't fit narrow
+     screens — stack the row and drop the indent. */
+  .clubrow > summary { flex-wrap: wrap; }
+  .clubrow-name { width: auto; }
+  .clubrow-oneliner { flex: 1 0 100%; order: 3; }
+  .clubrow-detail { padding-left: 0; }
+}
+
 /* -------------------------------------------------------------- compare */
 
 .compare-title { font-size: clamp(32px, 5vw, 44px); margin-bottom: 4px; }
