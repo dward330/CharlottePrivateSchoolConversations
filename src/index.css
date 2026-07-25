@@ -256,6 +256,7 @@ main { flex: 1; }
   white-space: nowrap;
 }
 .chip:hover { color: var(--text); border-color: var(--brand); }
+.chip.is-active { color: var(--ink); border-color: var(--brand); }
 
 /* neutral tag with a small accent topic glyph (school directory cards) */
 .mini-chip {

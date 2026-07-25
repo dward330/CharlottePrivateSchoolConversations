@@ -126,9 +126,12 @@ export function SchoolDetail({ slug }: { slug: string }) {
             {covered.map((t) => (
               <a
                 key={t.slug}
-                className="chip"
+                className={t.slug === activeSlug ? 'chip is-active' : 'chip'}
                 href={`#topic-${t.slug}`}
-                onClick={(e) => scrollToTopic(e, t.slug)}
+                onClick={(e) => {
+                  setActiveSlug(t.slug)
+                  scrollToTopic(e, t.slug)
+                }}
               >
                 {t.name}
               </a>
