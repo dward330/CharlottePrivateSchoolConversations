@@ -221,10 +221,10 @@ export const VALUE_METRICS: ValueMetric[] = [
     values: {
       cannon: '~15k service hrs', // ~15,000 service hours/year school-wide
       'charlotte-christian': null, // no participation figure published
-      'charlotte-country-day': '~½ mentor weekly', // ~half of juniors/seniors mentor weekly
+      'charlotte-country-day': '~50% mentor weekly', // ~half of juniors/seniors mentor weekly
       'charlotte-latin': '~90% play a sport', // ~90% in grades 7–12 play a sanctioned sport
       'davidson-day': null, // no participation figure published
-      'providence-day': '~½ in service clubs', // service clubs engage ~half of Upper School
+      'providence-day': '~50% in service clubs', // service clubs engage ~half of Upper School
     },
   },
 

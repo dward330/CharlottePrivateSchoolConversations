@@ -206,7 +206,7 @@ const COUNTRY_DAY: FinancialAidReport = {
       figureNote:
         'Scale $0–700. A bounded estimate per division, not an itemised fee schedule — covers textbooks & supplies (gr. 5–12), activity fees, and athletic fees. Enrolment deposit: 10% of tuition, credited toward tuition due.',
       componentsTitle: 'Ten confirmed cost components — 6 unpriced',
-      componentsAside: 'All-in estimate not built: 60% unpriced > ⅓ threshold',
+      componentsAside: 'All-in estimate not built: 60% unpriced > 33% threshold',
       components: [
         { label: 'Tuition — five bands, priced', status: 'priced' },
         { label: 'Textbooks & supplies · in range only', status: 'range' },
@@ -428,7 +428,7 @@ const CANNON: FinancialAidReport = {
       // Cannon publishes a grade-by-grade fee schedule rather than per-division
       // ranges, so this section renders the component grid only.
       componentsTitle: 'Eleven confirmed components for a Grade 9 student — 4 unpriced',
-      componentsAside: 'All-in estimate not built: ~36% unpriced > ⅓ threshold',
+      componentsAside: 'All-in estimate not built: ~36% unpriced > 33% threshold',
       components: [
         { label: 'Tuition — five bands, priced', status: 'priced' },
         { label: 'Required class trip · $400 (gr. 9)', status: 'priced' },
@@ -680,7 +680,7 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
       // The only school of the four whose all-in estimate could be built: 14 of
       // 15 confirmed components carry a published price.
       componentsTitle: 'Fifteen confirmed components — 14 priced',
-      componentsAside: 'All-in estimate built: well inside the ⅓ threshold',
+      componentsAside: 'All-in estimate built: well inside the 33% threshold',
       components: [
         { label: 'Tuition — four bands, priced', status: 'priced' },
         { label: 'Enrollment fee · $1,500 per student', status: 'priced' },
@@ -1174,7 +1174,7 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
       title: 'Beyond Tuition — The Real Cost of Attendance',
       confidence: 72,
       componentsTitle: 'Fourteen confirmed components for a 2026–27 family — 8 unpriced or a year behind',
-      componentsAside: 'All-in estimate not built: 57% unpriced > ⅓ threshold',
+      componentsAside: 'All-in estimate not built: 57% unpriced > 33% threshold',
       components: [
         { label: 'Tuition — four bands, priced', status: 'priced' },
         { label: 'Enrolment deposit · $2,500, non-refundable', status: 'priced' },
@@ -1500,7 +1500,7 @@ const PROVIDENCE_DAY: FinancialAidReport = {
       title: 'Beyond Tuition — The Real Cost of Attendance',
       confidence: 60,
       componentsTitle: 'Fifteen confirmed components for a 2026–27 family — 11 unpriced',
-      componentsAside: 'All-in estimate not built: 73% unpriced > ⅓ threshold',
+      componentsAside: 'All-in estimate not built: 73% unpriced > 33% threshold',
       components: [
         { label: 'Tuition — four bands, priced', status: 'priced' },
         { label: 'Enrollment deposit · $2,500, non-refundable', status: 'priced' },
