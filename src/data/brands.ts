@@ -8,19 +8,25 @@
 //
 // `initials` is the badge monogram. New schools that appear in schools.json but are
 // missing here fall back to a neutral slate color and auto-generated initials.
+//
+// `logo` is the school's official athletics mascot mark, shown on the school-page header.
+// Files live in `public/logos/<slug>.png` (transparent PNG). Provenance + source URLs
+// for each are in `source-material/branding/<slug>/`. These are trademarked marks kept
+// for a private research tool; schools without a logo simply show no crest.
 
 export type Brand = {
   color: string
   initials: string
+  logo?: string
 }
 
 export const BRANDS: Record<string, Brand> = {
-  cannon: { color: '#8a2433', initials: 'CA' }, // Cougars — maroon & gold
-  'charlotte-christian': { color: '#1e40af', initials: 'CC' }, // Knights — royal blue & white
-  'charlotte-country-day': { color: '#107a43', initials: 'CD' }, // Buccaneers — green & gold
-  'charlotte-latin': { color: '#12294f', initials: 'CL' }, // Hawks — navy & white
-  'davidson-day': { color: '#1e5fd1', initials: 'DD' }, // Patriots — red, white & navy
-  'providence-day': { color: '#be123c', initials: 'PD' }, // Chargers — red, white & navy
+  cannon: { color: '#8a2433', initials: 'CA', logo: '/logos/cannon.png' }, // Cougars — maroon & gold
+  'charlotte-christian': { color: '#1e40af', initials: 'CC', logo: '/logos/charlotte-christian.png' }, // Knights — royal blue & white
+  'charlotte-country-day': { color: '#107a43', initials: 'CD', logo: '/logos/charlotte-country-day.png' }, // Buccaneers — green & gold
+  'charlotte-latin': { color: '#12294f', initials: 'CL', logo: '/logos/charlotte-latin.png' }, // Hawks — navy & white
+  'davidson-day': { color: '#1e5fd1', initials: 'DD', logo: '/logos/davidson-day.png' }, // Patriots — red, white & navy
+  'providence-day': { color: '#be123c', initials: 'PD', logo: '/logos/providence-day.png' }, // Chargers — red, white & navy
 }
 
 const FALLBACK_COLOR = '#5b6472'

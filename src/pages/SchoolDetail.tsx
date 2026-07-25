@@ -68,6 +68,9 @@ export function SchoolDetail({ slug }: { slug: string }) {
   const school = schoolBySlug(slug)
   const [loaded, setLoaded] = useState<Loaded>({})
   const [ready, setReady] = useState(false)
+  /* The last-clicked research area in the nav keeps the active (foreground)
+     treatment so the reader can see which section they jumped to. */
+  const [activeSlug, setActiveSlug] = useState<string | null>(null)
 
   const covered = school ? topicsForSchool(slug) : []
 
@@ -130,13 +133,29 @@ export function SchoolDetail({ slug }: { slug: string }) {
             ))}
           </div>
         </div>
+        {brand.logo && (
+          <img
+            className="dossier-crest"
+            src={brand.logo}
+            alt={`${school.name} athletics logo`}
+            loading="lazy"
+          />
+        )}
       </header>
 
       <div className="dossier-layout">
         <aside className="dossier-nav">
           <div className="dossier-nav-label">Research areas</div>
           {covered.map((t) => (
-            <a key={t.slug} href={`#topic-${t.slug}`} onClick={(e) => scrollToTopic(e, t.slug)}>
+            <a
+              key={t.slug}
+              className={t.slug === activeSlug ? 'is-active' : undefined}
+              href={`#topic-${t.slug}`}
+              onClick={(e) => {
+                setActiveSlug(t.slug)
+                scrollToTopic(e, t.slug)
+              }}
+            >
               {t.name}
               <span className="count">{String(docCount(t.slug, slug)).padStart(2, '0')}</span>
             </a>

@@ -415,6 +415,17 @@ main { flex: 1; }
 .dossier-header h1 { font-size: clamp(30px, 5vw, 44px); margin: 0 0 6px; }
 .school-sub { color: var(--muted); margin: 0 0 12px; font-size: 14px; }
 .school-header-topics { display: flex; flex-wrap: wrap; gap: 8px; }
+/* School's official athletics mascot mark, pinned to the right of the header.
+   dossier-body has flex:1, so the crest sits at the far right; on narrow/wrapping
+   layouts the whole header reflows and the crest drops below the text. */
+.dossier-crest {
+  flex: 0 0 auto;
+  height: clamp(72px, 9vw, 104px);
+  width: auto;
+  max-width: 40%;
+  object-fit: contain;
+  align-self: center;
+}
 
 .dossier-layout {
   display: grid;
@@ -449,7 +460,9 @@ main { flex: 1; }
   border-left: 2px solid var(--border);
   transition: border-color 0.12s ease, color 0.12s ease;
 }
-.dossier-nav a:hover { border-left-color: var(--brand); color: var(--ink); }
+.dossier-nav a:hover,
+.dossier-nav a.is-active { border-left-color: var(--brand); color: var(--ink); }
+.dossier-nav a.is-active .count { color: var(--ink); }
 .dossier-nav .count { font-family: var(--sans); font-weight: 400; font-size: 12px; color: var(--muted); }
 .dossier-nav-hint { font-size: 11.5px; line-height: 1.5; color: var(--muted); padding: 14px 10px 0; margin: 0; }
 
