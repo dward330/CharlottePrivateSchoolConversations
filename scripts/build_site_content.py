@@ -37,6 +37,65 @@ GLYPH_FIXES = [("O!ce", "Office"), ("o!ce", "office"), ("„", '"'), ("‟", '"'
 PROMPT_RE = re.compile(r"notebooklm|episode prompt", re.I)
 AGG_RE = re.compile(r"sources? referenced", re.I)
 
+# PDF text extraction hard-wraps long URLs across lines, e.g.
+#   …/back-on-top-providence-day-reclai
+#   ms-division-i-state-title-…/22257301/
+# which leaves the URL split by a newline, so the app links only the first
+# fragment (a dead link). Rejoin ONLY unambiguous wraps: a line whose trailing
+# token is a URL that was cut MID-PATH (its last char is a path char and is NOT
+# a completing char like "/" or a file extension), immediately followed by a
+# line that CONTINUES the path (starts with a path char, no leading space, and
+# is not a bullet/heading/new sentence). Complete URLs followed by a new line of
+# text are deliberately left alone.
+_URL_WRAP = re.compile(
+    r"""(?P<url>https?://[^\s]*[A-Za-z0-9%=&?#_-])   # URL ending mid-path token…
+        (?<!\.html)(?<!\.htm)(?<!\.pdf)(?<!\.aspx)   # …not a completed file URL
+        \n
+        (?P<cont>[a-z0-9/][A-Za-z0-9%=&?#/._-]*)     # continuation must START lowercase/
+                                                     # digit/slash: real path slugs are
+                                                     # lowercase, so a Capitalized next
+                                                     # line (a new label/sentence) is left
+    """,
+    re.VERBOSE,
+)
+
+
+def _rejoin_wrapped_urls(text: str) -> str:
+    # Apply repeatedly: a URL may wrap across more than two lines.
+    prev = None
+    while prev != text:
+        prev = text
+        text = _URL_WRAP.sub(lambda m: m.group("url") + m.group("cont"), text)
+    return text
+
+
+# A line that is nothing but "- <bare URL>" (no descriptive text). Real citations
+# always carry prose ("- HighSchoolOT — 2025 title — https://…"); a long RUN of
+# these bare-URL items is the machine-generated "Sources referenced across these
+# documents" dump appended to each note. Those dumps are redundant with the inline
+# citations and — because PDF extraction truncated many of them mid-URL — render as
+# dead links. Strip any run of >=3 consecutive bare-URL items.
+_BARE_URL_ITEM = re.compile(r"^[-*] +https?://\S+$")
+_BARE_RUN_MIN = 3
+
+
+def _strip_bare_url_dumps(text: str) -> str:
+    lines = text.split("\n")
+    out: list[str] = []
+    i = 0
+    n = len(lines)
+    while i < n:
+        if _BARE_URL_ITEM.match(lines[i]):
+            j = i
+            while j < n and _BARE_URL_ITEM.match(lines[j]):
+                j += 1
+            if j - i >= _BARE_RUN_MIN:
+                i = j  # drop the whole run
+                continue
+        out.append(lines[i])
+        i += 1
+    return "\n".join(out)
+
 
 def clean(text: str) -> str:
     text = CID_BULLET.sub("• ", text)
@@ -44,6 +103,8 @@ def clean(text: str) -> str:
     for bad, good in GLYPH_FIXES:
         text = text.replace(bad, good)
     text = "\n".join(line.rstrip() for line in text.splitlines())
+    text = _rejoin_wrapped_urls(text)
+    text = _strip_bare_url_dumps(text)
     text = MULTI_BLANK.sub("\n\n", text)
     return text.strip()
 
