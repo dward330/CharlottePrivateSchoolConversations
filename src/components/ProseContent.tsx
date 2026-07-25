@@ -1,4 +1,30 @@
+import type { ReactNode } from 'react'
 import { parseProse, headingEchoesTitle, type ProseBlock, type HeadingTone } from '../lib/prose.ts'
+
+// Bare URLs in the distilled notes are stored as plain text (no markdown link
+// syntax). Turn them into real anchors while leaving the surrounding prose intact.
+// Trailing sentence punctuation and a single closing bracket/paren/backtick are
+// kept out of the href so "…111500448.html." or "(https://…)" link cleanly.
+const URL_RE = /(https?:\/\/[^\s]+)/g
+const TRAILING = /[.,;:!?)\]}>"'`]+$/
+
+function linkify(text: string): ReactNode {
+  const parts = text.split(URL_RE)
+  if (parts.length === 1) return text
+  return parts.map((part, i) => {
+    if (i % 2 === 0) return part // plain-text segment
+    const trailer = part.match(TRAILING)?.[0] ?? ''
+    const href = trailer ? part.slice(0, -trailer.length) : part
+    return (
+      <span key={i}>
+        <a className="prose-link" href={href} target="_blank" rel="noreferrer">
+          {href}
+        </a>
+        {trailer}
+      </span>
+    )
+  })
+}
 
 // Renders one distilled research note as structured content: a lede, section headings,
 // bulleted lists, "at a glance" quick-fact panels, tinted callouts for strengths /
@@ -49,7 +75,7 @@ function Blocks({ blocks }: { blocks: ProseBlock[] }) {
           case 'para':
             return (
               <div key={i}>
-                {b.text && <p className="para">{b.text}</p>}
+                {b.text && <p className="para">{linkify(b.text)}</p>}
                 <Cites cites={b.cites} />
               </div>
             )
@@ -57,7 +83,7 @@ function Blocks({ blocks }: { blocks: ProseBlock[] }) {
             return (
               <div key={i}>
                 <ul className="prose-list">
-                  {b.items.map((it, j) => <li key={j}>{it}</li>)}
+                  {b.items.map((it, j) => <li key={j}>{linkify(it)}</li>)}
                 </ul>
                 <Cites cites={b.cites} />
               </div>
@@ -74,7 +100,7 @@ function Blocks({ blocks }: { blocks: ProseBlock[] }) {
                   <tbody>
                     {b.rows.map((row, j) => (
                       <tr key={j}>
-                        {row.map((cell, k) => (k === 0 ? <th key={k} scope="row">{cell}</th> : <td key={k}>{cell}</td>))}
+                        {row.map((cell, k) => (k === 0 ? <th key={k} scope="row">{linkify(cell)}</th> : <td key={k}>{linkify(cell)}</td>))}
                       </tr>
                     ))}
                   </tbody>
