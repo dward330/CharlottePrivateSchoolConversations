@@ -7,12 +7,7 @@
 // using the app's own tokens (src/index.css), the same way the Financial Aid
 // deep-dive recreated its reference.
 
-import type { ClubClusters, ClubEvidence } from '../data/clubClusters.ts'
-
-const EVIDENCE_LABEL: Record<ClubEvidence, string> = {
-  'verified-event': 'Verified — event',
-  'official-list': 'Official list',
-}
+import type { ClubClusters } from '../data/clubClusters.ts'
 
 /** Small plus mark; rotates 45° to an ✕ when its row opens (CSS-driven). */
 function RowPlus() {
@@ -50,11 +45,9 @@ export function ClubClustersBody({ clusters }: { clusters: ClubClusters }) {
             <span className="clubrow-name">{row.name}</span>
             <span className="clubrow-oneliner">{row.oneLiner}</span>
             <span
-              className={
-                row.evidence === 'verified-event' ? 'tag-accent' : 'tag-outline'
-              }
+              className={row.evidence === 'verified' ? 'tag-accent' : 'tag-outline'}
             >
-              {EVIDENCE_LABEL[row.evidence]}
+              {row.evidenceLabel}
             </span>
             <RowPlus />
           </summary>
