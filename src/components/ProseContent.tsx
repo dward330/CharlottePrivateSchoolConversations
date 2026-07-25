@@ -60,7 +60,13 @@ function Cites({ cites }: { cites: string[] }) {
   if (!cites.length) return null
   return (
     <p className="cite">
-      <span className="cite-label">Source</span> {cites.join(' · ')}
+      <span className="cite-label">Source</span>{' '}
+      {cites.map((c, i) => (
+        <span key={i}>
+          {i > 0 && ' · '}
+          {linkify(c)}
+        </span>
+      ))}
     </p>
   )
 }
