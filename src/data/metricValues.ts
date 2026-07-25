@@ -15,6 +15,219 @@ export type ValueMetric = {
 }
 
 export const VALUE_METRICS: ValueMetric[] = [
+  // ============================ College Support ============================
+  // Extracted from each school's College Support research note (verified against
+  // the note text July 2026). null = the school does not publish that figure.
+  {
+    topic: 'college-support',
+    key: 'ap-scope',
+    label: 'AP scope',
+    note: 'AP exam volume for the most recent reported year, or AP course/subject count where exam volume is unpublished. IB flagged where offered.',
+    values: {
+      cannon: '425 AP exams', // 197 students sat 425 AP exams (most recent reported)
+      'charlotte-christian': '21 AP courses', // 21 AP/college-level courses in a 45+ AP/honors catalog
+      'charlotte-country-day': '530 AP exams + IB', // 238 students sat 530 AP exams; also full IB Diploma
+      'charlotte-latin': '23 AP subjects', // AP in 23 subjects; every AP student must sit the exam
+      'davidson-day': null, // AP volume not published
+      'providence-day': '1,213 AP exams', // May 2025: 461 students, 1,213 exams
+    },
+  },
+  {
+    topic: 'college-support',
+    key: 'ap-performance',
+    label: 'AP scoring 3+',
+    note: 'Share of AP exams scoring 3 or higher, most recent reported year. Charlotte Latin & Davidson Day do not publish a pass rate.',
+    values: {
+      cannon: '92%', // 92.39% of exams scored 3+
+      'charlotte-christian': '89%', // 2024: 265/298 (89%)
+      'charlotte-country-day': '93%', // 2025 overall 93%
+      'charlotte-latin': null, // pass rate not published
+      'davidson-day': null, // pass rate not published
+      'providence-day': '94%', // May 2025: 94% scored 3+
+    },
+  },
+  {
+    topic: 'college-support',
+    key: 'national-merit',
+    label: 'National Merit',
+    note: 'Most recent single-class Semifinalist/Finalist count the school announced. Cannon & Davidson Day unpublished; Charlotte Christian reports only rolling multi-year totals.',
+    values: {
+      cannon: null, // no recent-year NM count located
+      'charlotte-christian': null, // only 15-year rolling totals published
+      'charlotte-country-day': '2 Finalists ’25', // Class of 2025: 2 Finalists, 2 Semifinalists, 5 Commended
+      'charlotte-latin': '12 Semifinalists ’26', // Class of 2026: 12 Semifinalists, 18 Commended
+      'davidson-day': null, // NM standing unpublished/unconfirmed
+      'providence-day': '7 Semifinalists ’25', // Class of 2025: 7 Semifinalists, 16 Commended
+    },
+  },
+  {
+    topic: 'college-support',
+    key: 'counselor-caseload',
+    label: 'Seniors per counselor',
+    note: 'Approximate seniors per dedicated college counselor at peak application season, from each school’s note.',
+    values: {
+      cannon: '28:1', // 111 seniors ÷ 4 counselors
+      'charlotte-christian': '~47:1', // effective caseload ~47 seniors/counselor
+      'charlotte-country-day': '~34:1', // ~34–35 seniors/counselor
+      'charlotte-latin': '~36:1', // ~36–37 seniors/counselor
+      'davidson-day': '~23:1', // ~23–24 seniors in a ~47-student class
+      'providence-day': '~44:1', // ~44–45 seniors/counselor (quarter-class model)
+    },
+  },
+
+  // ============================ Financial Aid ============================
+  // From each school's structured Financial-Aid Deep-Dive report / note (verified
+  // July 2026). Many schools publish tuition but withhold aid detail — null there.
+  {
+    topic: 'financial-aid-tuition',
+    key: 'top-tuition',
+    label: 'Top tuition',
+    note: 'Highest published grade-band tuition, 2026–27 school year.',
+    values: {
+      cannon: '$32,070', // Grades 9–12, 2026–27
+      'charlotte-christian': '$27,055', // Grades 9–12, 2026–27
+      'charlotte-country-day': '$34,075', // Grades 9–12, 2026–27
+      'charlotte-latin': '$36,500', // Grades 9–12, 2026–27
+      'davidson-day': '$26,910', // Upper School 9–12, 2026–27
+      'providence-day': '$36,325', // Grades 6–12, 2026–27
+    },
+  },
+  {
+    topic: 'financial-aid-tuition',
+    key: 'pct-aid',
+    label: '% receiving aid',
+    note: 'Share of students/families receiving aid as the school states it. “~” where the school says “approximately”; year/denominator vary — see the school’s report. Charlotte Christian & Davidson Day do not publish this.',
+    values: {
+      cannon: '24%', // 24% of students, 2025–26
+      'charlotte-christian': null, // share receiving aid not published
+      'charlotte-country-day': '~20%', // ~20% of student body (undated)
+      'charlotte-latin': '14%', // 14% of students (strategic plan)
+      'davidson-day': null, // share on aid not published
+      'providence-day': '~21%', // ~21% of families (undated)
+    },
+  },
+  {
+    topic: 'financial-aid-tuition',
+    key: 'aid-awarded',
+    label: 'Aid awarded / year',
+    note: 'Total tuition assistance awarded, most recent year the school states a figure. Charlotte Christian & Davidson Day do not publish a total; Country Day’s published totals conflict and are omitted.',
+    values: {
+      cannon: '$3.0M', // $3,000,000 in 2025–26
+      'charlotte-christian': null, // total awarded not published
+      'charlotte-country-day': null, // four conflicting undated totals — omitted to avoid a guess
+      'charlotte-latin': '$3.25M', // $3.25M, 2024–25
+      'davidson-day': null, // aid budget not published
+      'providence-day': '$3.68M', // $3,683,971 (2017–18, most recent published)
+    },
+  },
+  {
+    topic: 'financial-aid-tuition',
+    key: 'avg-award',
+    label: 'Average award',
+    note: 'Average aid grant where the school publishes one. Most schools publish neither an average nor a median.',
+    values: {
+      cannon: null, // average award not published
+      'charlotte-christian': null, // average/median not published
+      'charlotte-country-day': null, // average/median not published
+      'charlotte-latin': '$17,900', // average award, 2024–25
+      'davidson-day': null, // average/median not published
+      'providence-day': '$13,695', // average grant (2017–18, most recent published)
+    },
+  },
+
+  // ============================ The Arts ============================
+  // From each school's The Arts research note (verified July 2026).
+  {
+    topic: 'the-arts',
+    key: 'program-span',
+    label: 'Program span',
+    note: 'Grade span of the arts program as each school states it.',
+    values: {
+      cannon: 'JrK–12',
+      'charlotte-christian': 'JK–12',
+      'charlotte-country-day': 'JK–12',
+      'charlotte-latin': 'TK–12',
+      'davidson-day': 'Age 2–Gr 12',
+      'providence-day': 'TK–12',
+    },
+  },
+  {
+    topic: 'the-arts',
+    key: 'signature-recognition',
+    label: 'Signature recognition',
+    note: 'The most notable arts recognition or distinction named in each school’s note (measured differently per school).',
+    values: {
+      cannon: 'NCTC festival', // competes in NC Theatre Conference HS Play Festival
+      'charlotte-christian': 'Blumey Best Show', // Blumey Best Show for Oklahoma! (2013)
+      'charlotte-country-day': '31+ Blumey noms', // 31+ Blumey Award nominations
+      'charlotte-latin': '80%+ participation', // 80%+ of students participate in the arts
+      'davidson-day': null, // no signature recognition named
+      'providence-day': 'Blumey recognition', // repeated Blumey Awards recognition
+    },
+  },
+  {
+    topic: 'the-arts',
+    key: 'advanced-arts-coursework',
+    label: 'Advanced coursework',
+    note: 'Advanced (AP/IB) arts coursework offered, where the note names it.',
+    values: {
+      cannon: 'AP Studio Art',
+      'charlotte-christian': null, // advanced arts coursework not detailed
+      'charlotte-country-day': 'AP + IB', // AP and IB arts pathways (rare dual offering)
+      'charlotte-latin': null, // not detailed
+      'davidson-day': null, // not detailed
+      'providence-day': '3 AP arts', // AP Studio Art, AP Art History, AP Music Theory
+    },
+  },
+  {
+    topic: 'the-arts',
+    key: 'ensembles',
+    label: 'Ensembles / offerings',
+    note: 'Count or breadth of ensembles / arts offerings as each note describes them.',
+    values: {
+      cannon: '3 pillars', // Visual Arts, Music, Theater
+      'charlotte-christian': '40+ electives', // 40+ arts electives across four areas
+      'charlotte-country-day': '8 ensembles', // 8 vocal/instrumental groups
+      'charlotte-latin': null, // no count stated
+      'davidson-day': null, // no count stated
+      'providence-day': '4 ensembles', // Band, Orchestra, Chorus, Jazz
+    },
+  },
+
+  // ============================ Student Clubs ============================
+  // From each school's Student Clubs note (verified July 2026). Two proposed tiles
+  // (total-club count, competitive-club count) were dropped: club counts are defined
+  // inconsistently across schools (exact vs range vs minimum) and a competitive count
+  // was published by only one school — neither compares cleanly.
+  {
+    topic: 'student-clubs',
+    key: 'flagship-result',
+    label: 'Flagship result',
+    note: 'The single most notable competitive club achievement documented in each school’s note.',
+    values: {
+      cannon: 'FLL Worlds top 100', // FIRST Lego League World Championship, top 100 of 32,000+ (2024 & 2025)
+      'charlotte-christian': 'Chess 2nd place', // MS Chess team 2nd at tournament
+      'charlotte-country-day': 'Model UN — 6 awards', // MUNCH 2025: 6 awards incl. 4 Outstanding Delegate
+      'charlotte-latin': 'Debate top-20 US', // NSDA Schools of Excellence — top 20 nationally
+      'davidson-day': 'Battle of Books 1st', // MS team 1st in regional competition
+      'providence-day': 'DECA → ICDC ’26', // DECA advanced to national ICDC 2026
+    },
+  },
+  {
+    topic: 'student-clubs',
+    key: 'participation',
+    label: 'Participation signal',
+    note: 'A breadth-of-participation figure where the school publishes one (measured differently per school — see the school’s note). Charlotte Latin’s figure is sports participation.',
+    values: {
+      cannon: '~15k service hrs', // ~15,000 service hours/year school-wide
+      'charlotte-christian': null, // no participation figure published
+      'charlotte-country-day': '~½ mentor weekly', // ~half of juniors/seniors mentor weekly
+      'charlotte-latin': '~90% play a sport', // ~90% in grades 7–12 play a sanctioned sport
+      'davidson-day': null, // no participation figure published
+      'providence-day': '~½ in service clubs', // service clubs engage ~half of Upper School
+    },
+  },
+
   {
     topic: 'after-school',
     key: 'latest-pickup',
