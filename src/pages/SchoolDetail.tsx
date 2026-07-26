@@ -32,6 +32,19 @@ import {
   FacilitiesBody,
   NationalStageBody,
 } from '../components/SportsProgram.tsx'
+import {
+  artsProgram,
+  ARTS_CARDS,
+  artsCardTitle,
+  type ArtsProgram,
+} from '../data/artsProgram.ts'
+import {
+  ArtsLadderBody,
+  TheatreBody,
+  MusicBody,
+  VisualArtsBody,
+  VerdictBody,
+} from '../components/ArtsProgram.tsx'
 import { WelcomeVideo, PlayIcon } from '../components/WelcomeVideo.tsx'
 
 type Loaded = Record<string, MetricGroup[]>
@@ -93,6 +106,30 @@ function SportsCardBody({
       return <FacilitiesBody data={program.facilities!} />
     case 'national':
       return <NationalStageBody data={program.national!} />
+  }
+}
+
+/* Maps an Arts card key to its body renderer — same explicit dispatch as
+   SportsCardBody, for the same reason: each card is a purpose-built layout
+   rather than a shared prose body. */
+function ArtsCardBody({
+  program,
+  cardKey,
+}: {
+  program: ArtsProgram
+  cardKey: (typeof ARTS_CARDS)[number]['key']
+}) {
+  switch (cardKey) {
+    case 'ladder':
+      return <ArtsLadderBody data={program.ladder!} />
+    case 'theatre':
+      return <TheatreBody data={program.theatre!} />
+    case 'music':
+      return <MusicBody data={program.music!} />
+    case 'visual':
+      return <VisualArtsBody data={program.visual!} />
+    case 'verdict':
+      return <VerdictBody data={program.verdict!} />
   }
 }
 
@@ -317,11 +354,28 @@ export function SchoolDetail({ slug }: { slug: string }) {
             const sportsCards = sports
               ? SPORTS_CARDS.filter((c) => sports[c.key] != null)
               : []
+            /* The Arts is six ingested sub-sections but five consolidated cards
+               on the page (see data/artsProgram.ts) — same substitution as
+               Sports. A school with no theatre season and no awards history
+               simply omits 1b rather than rendering it empty.
+
+               A school whose structured entry has no cards at all must keep
+               rendering its ingested prose: an entry that is present but empty
+               is still truthy, and would otherwise suppress the prose and leave
+               the whole section blank. */
+            const artsEntry = t.slug === 'the-arts' ? artsProgram(slug) : undefined
+            const artsCardList = artsEntry
+              ? ARTS_CARDS.filter((c) => artsEntry[c.key] != null)
+              : []
+            const arts = artsCardList.length > 0 ? artsEntry : undefined
+            const artsCards = artsCardList
             const cardCount = offerings
               ? offerings.divisions.length
               : sports
                 ? sportsCards.length
-                : groups.length
+                : arts
+                  ? artsCards.length
+                  : groups.length
             return (
               <section key={t.slug} id={`topic-${t.slug}`} className="topic-section">
                 <div className="topic-section-head">
@@ -416,10 +470,46 @@ export function SchoolDetail({ slug }: { slug: string }) {
                   </div>
                 )}
 
+                {/* The Arts: five consolidated cards built from the structured
+                    program layer, in the fixed 1a–1e order. Card titles adapt
+                    per school — a school outside the Blumey footprint gets
+                    "Theatre & External Recognition" rather than a card naming
+                    an award it does not compete for. */}
+                {ready && t.slug === 'the-arts' && arts && (
+                  <div className="note-cards">
+                    {artsCards.map((card) => (
+                      <details
+                        key={card.key}
+                        className="note-card note-card-report note-card-arts"
+                      >
+                        <BlueprintCorners />
+                        <summary>
+                          <span className="note-card-head">
+                            <span className="course-kicker">
+                              {card.num} · {card.kicker}
+                            </span>
+                            <span className="topic-title">
+                              {artsCardTitle(slug, card)}
+                            </span>
+                            <span className="topic-teaser">
+                              {arts[card.key]!.headline}
+                            </span>
+                          </span>
+                          <span className="plusmark"><PlusIcon /></span>
+                        </summary>
+                        <div className="note-card-body">
+                          <ArtsCardBody program={arts} cardKey={card.key} />
+                        </div>
+                      </details>
+                    ))}
+                  </div>
+                )}
+
                 <div className="note-cards">
                   {(
                     (t.slug === 'course-offerings' && offerings) ||
-                    (t.slug === 'sports' && sports)
+                    (t.slug === 'sports' && sports) ||
+                    (t.slug === 'the-arts' && arts)
                       ? []
                       : groups
                   ).map((g) => {

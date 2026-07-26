@@ -61,13 +61,13 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 ### The Arts (`the-arts/`)
 
-- [Cannon School](the-arts/cannon.md) — 7 docs
-- [Charlotte Christian School](the-arts/charlotte-christian.md) — 7 docs
-- [Charlotte Country Day School](the-arts/charlotte-country-day.md) — 7 docs
-- [Charlotte Latin School](the-arts/charlotte-latin.md) — 6 docs
-- [Davidson Day School](the-arts/davidson-day.md) — 4 docs
-- [Providence Day School](the-arts/providence-day.md) — 6 docs
+- [Cannon School](the-arts/cannon.md) — 8 docs
+- [Charlotte Christian School](the-arts/charlotte-christian.md) — 8 docs
+- [Charlotte Country Day School](the-arts/charlotte-country-day.md) — 8 docs
+- [Charlotte Latin School](the-arts/charlotte-latin.md) — 7 docs
+- [Davidson Day School](the-arts/davidson-day.md) — 5 docs
+- [Providence Day School](the-arts/providence-day.md) — 7 docs
 
 
 ## Data layer
-- `src/data/schools.json` — 269 documents across 7 topics and 6 schools.
+- `src/data/schools.json` — 275 documents across 7 topics and 6 schools.

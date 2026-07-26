@@ -1,14 +1,3 @@
-# Charlotte Christian School — The Arts
-> Distilled from 8 source document(s) in `source-material/the-arts/charlotte-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-07-26.
-**Documents:** Arts Redesign Deep Research, Awards and Recognition, Deep Research, Digital Arts, Music, Program Overview, Theatre, Visual Arts
-
-
----
-
-## Arts Redesign Deep Research
-
-*Source file: `Charlotte Christian - The Arts - Arts Redesign Deep Research.md`*
-
 # Charlotte Christian School — The Arts — Arts Redesign Deep Research
 
 ## Provenance
@@ -522,296 +511,160 @@ The faith integration here is **structural, not decorative** — and that cuts b
 
 6. **"Digital Arts has nine electives and professional software but no AP. If my child wants a film or design portfolio, what's the path — and does it have to route through AP Studio Art in Visual Art?"** — Probes the branch-to-branch seam and the missing capstone.
 
-7. **"Which students earned Scholastic Art & Writing Gold or Silver Keys in the last two years, and in what categories?"** 
+7. **"Which students earned Scholastic Art & Writing Gold or Silver Keys in the last two years, and in what categories?"** — Not one named visual-art award was verifiable anywhere. Scholastic publishes regional results, so a genuinely "award-winning" program should answer instantly.
 
-…[truncated]
-
-
----
-
-## Awards and Recognition
-
-*Source file: `Charlotte Christian - The Arts - Awards and Recognition.pdf`*
-
-Charlotte Christian - Arts Awards &
-Recognition
-Charlotte Christian School (JK-12, Christian) - Charlotte, NC - Awards, Honors &
-Highlights
-Compiled research note - Charlotte private school arts programs. Prepared July 2026. Draft for family review.
-Theatre
-(cid:127) Christians in Theatre Arts (CITA) competition honors.
-(cid:127) NC Theatre Conference (NCTC) play festival recognition.
-(cid:127) Wells Fargo Blumey Awards - Best Show for Oklahoma! (2013).
-Music
-(cid:127) Placement in NC regional and state honors band, chorus, and orchestra.
-(cid:127) Excellent and Superior ratings at local music festivals.
-Visual Art
-(cid:127) Festival in the Park recognition.
-(cid:127) Patriotic Art Competition honors.
-(cid:127) Scholastic Art & Writing Awards.
-Program-Level
-Charlotte Christian describes its fine arts as "award-winning" with a "rich tradition of excellence in local
-and regional competitions," and the school is recognized among Niche Best Schools (2026) and as an
-Apple Distinguished School.
-Sources & Where to Verify
-Fine Arts Home: https://www.charlottechristian.com/fine-arts
-Digital Arts: https://www.charlottechristian.com/fine-arts/digital-arts
-Music: https://www.charlottechristian.com/fine-arts/music
-Theatre: https://www.charlottechristian.com/fine-arts/theatre
-Visual Art: https://www.charlottechristian.com/fine-arts/visual-art
-Box Office: https://www.charlottechristian.com/fine-arts/box-office
-Middle School Fine Arts: https://www.charlottechristian.com/fine-arts/middle-school-fine-arts
-External context: Christians in Theatre Arts (CITA); NC Theatre Conference (nctc.org); Wells Fargo Blumey Awards; Scholastic
-Art & Writing Awards; Festival in the Park.
-
+8. **"Of the 40-plus electives, how many can one Upper School student realistically take across four years alongside AP academics?"** — The 40+ figure is a JK–12 whole-program count that includes Grade 5 brass and Grade 6 choir. This reframes it as actual access.
 
 ---
 
-## Deep Research
+## Photos
 
-*Source file: `Charlotte Christian - The Arts - Deep Research.pdf`*
+Every URL below was **read directly out of HTML I fetched**. None is constructed, guessed, or inferred. Filenames are reproduced exactly.
 
-The Arts at Charlotte Christian School
-Charlotte Christian School (JK-12, Christian) - Charlotte, NC - Parent-Facing Deep
-Research Report
-Compiled research note - Charlotte private school arts programs. Prepared July 2026. Draft for family review.
-Executive Summary
-Charlotte Christian offers a broad, faith-integrated fine arts program - 40+ electives plus co-curricular
-options across Digital Arts, Music, Theatre, and Visual Art - with a genuine competitive track record.
-Distinctive features include a stand-alone Digital Arts branch (supported by Apple Distinguished School
-status) and a decorated theater program with CITA, NCTC, and Blumey recognition (Best Show for
-Oklahoma!, 2013). The program's stated purpose - stewarding "God-given gifts" - will especially
-resonate with families seeking an explicitly Christian arts environment.
-Strengths
-(cid:127) Unusually broad elective count (40+) with all-student access, not just specialists.
-(cid:127) Separate, tech-forward Digital Arts pathway.
-(cid:127) Competitive theater with named awards; honors-ensemble music pipeline; recognized visual artists.
-(cid:127) Faith integration and strong parent support (Friends of the Arts).
-Questions for a Visit
-(cid:127) What are the current 40+ electives, and how are they distributed across divisions?
-(cid:127) How selective are theater casts and honors ensembles, and what recent CITA/NCTC/Blumey results
-stand out?
-(cid:127) What does the Digital Arts sequence include, and what tools/facilities support it?
-(cid:127) How does the Christian mission shape arts content and performance repertoire?
-Caveats
-Synthesized from Charlotte Christian's public fine arts pages (2025-26). Some per-discipline specifics
-are summarized at the program level where detailed course lists were not published; confirm current
-offerings with the school and course catalog (see Sources).
-Sources & Where to Verify
-Fine Arts Home: https://www.charlottechristian.com/fine-arts
-Digital Arts: https://www.charlottechristian.com/fine-arts/digital-arts
-Music: https://www.charlottechristian.com/fine-arts/music
-Theatre: https://www.charlottechristian.com/fine-arts/theatre
-Visual Art: https://www.charlottechristian.com/fine-arts/visual-art
-Box Office: https://www.charlottechristian.com/fine-arts/box-office
-Middle School Fine Arts: https://www.charlottechristian.com/fine-arts/middle-school-fine-arts
-External context: Christians in Theatre Arts (CITA); NC Theatre Conference (nctc.org); Wells Fargo Blumey Awards; Scholastic
-Art & Writing Awards; Festival in the Park.
+### (a) Arts / performance facility — GOOD COVERAGE [VERIFIED]
 
+The general contractor's project page hosts a dedicated photo set for this exact building. The filename token **`WPAC`** = **W**orship and **P**erforming **A**rts **C**enter, so subject identification is high-confidence, though I have not visually inspected the frames.
 
----
+Full-resolution, from https://www.rodgersbuilders.com/projects/charlotte-christian-school-2/ :
+- `https://www.rodgersbuilders.com/wp-content/uploads/CharlotteChristian_WPAC_F.jpg` ← likely the lead/feature image
+- `https://www.rodgersbuilders.com/wp-content/uploads/CharlotteChristian_WPAC_0.jpg`
+- `https://www.rodgersbuilders.com/wp-content/uploads/CharlotteChristian_WPAC_1.jpg`
+- `https://www.rodgersbuilders.com/wp-content/uploads/CharlotteChristian_WPAC_2.jpg`
+- `https://www.rodgersbuilders.com/wp-content/uploads/CharlotteChristian_WPAC_4.jpg`
+- `https://www.rodgersbuilders.com/wp-content/uploads/CharlotteChristian_WPAC_5.jpg`
+- `https://www.rodgersbuilders.com/wp-content/uploads/CharlotteChristian_WPAC_6.jpg`
+- `https://www.rodgersbuilders.com/wp-content/uploads/CharlotteChristian_WPAC_7.jpg`
 
-## Digital Arts
+(300x175 thumbnails of the same frames also exist, e.g. `CharlotteChristian_WPAC_1-300x175.jpg`.)
 
-*Source file: `Charlotte Christian - The Arts - Digital Arts.pdf`*
+Architect **LS3P** photography (professional, OpenAsset-hosted), from https://www.ls3p.com/portfolio/charlotte-christian-school/ — note these span the school's campus work generally, and the two asset groups (`9201_204290_*` and `9201_218740_*`) likely correspond to two different buildings, so **inspect before captioning**:
+- `https://data.openasset.com/wbs1pf5c/3a43ad8dba1c2f0726c229deef76bd8f/9201_204290_N14_jpg/9201_204290_N14_print.jpg`
+- `https://data.openasset.com/wbs1pf5c/213b86510ad93cf4ab9399dc8db5ef4d/9201_204290_N11_jpg/9201_204290_N11_print.jpg`
+- `https://data.openasset.com/wbs1pf5c/975a381e71509a7e48847ee13b64f726/9201_204290_N7_jpg/9201_204290_N7_print.jpg`
+- `https://data.openasset.com/wbs1pf5c/7faff848e7fabbb2d9458626d45418d1/9201_204290_N3_jpg/9201_204290_N3_print.jpg`
+- `https://data.openasset.com/wbs1pf5c/15d27e2212ad49964d762909e59b35fc/9201_218740_jpg/9201_218740_print.jpg`
+- `https://data.openasset.com/wbs1pf5c/ba6e278516db1f45777ad14eec0d2a82/9201_218740_N3_jpg/9201_218740_N3_print.jpg`
+- `https://data.openasset.com/wbs1pf5c/12df569a10ab8eff41802e3c0a0a3c5e/9201_218740_N10_jpg/9201_218740_N10_print.jpg`
 
-Charlotte Christian - Digital Arts
-Charlotte Christian School (JK-12, Christian) - Charlotte, NC - Digital Arts
-Compiled research note - Charlotte private school arts programs. Prepared July 2026. Draft for family review.
-A Distinct Fine Arts Branch
-Unlike many peer schools that fold digital work into visual arts, Charlotte Christian lists Digital Arts as
-its own fine arts area. This aligns with the school's status as an Apple Distinguished School and its
-emphasis on technology and innovation, giving students screen-based creative pathways alongside
-traditional studio art.
-What It Typically Covers
-Digital arts programs of this kind generally include graphic design, digital illustration,
-photography/photo editing, and video/media production. Confirm the exact Charlotte Christian course
-sequence and software (e.g., Adobe Creative Cloud) on the Digital Arts page and in the course catalog.
-Why It Matters
-A dedicated digital-arts track signals investment in contemporary, career-relevant creative skills and
-gives students who are drawn to design and media a clear home within the fine arts.
-Sources & Where to Verify
-Fine Arts Home: https://www.charlottechristian.com/fine-arts
-Digital Arts: https://www.charlottechristian.com/fine-arts/digital-arts
-Music: https://www.charlottechristian.com/fine-arts/music
-Theatre: https://www.charlottechristian.com/fine-arts/theatre
-Visual Art: https://www.charlottechristian.com/fine-arts/visual-art
-Box Office: https://www.charlottechristian.com/fine-arts/box-office
-Middle School Fine Arts: https://www.charlottechristian.com/fine-arts/middle-school-fine-arts
-External context: Christians in Theatre Arts (CITA); NC Theatre Conference (nctc.org); Wells Fargo Blumey Awards; Scholastic
-Art & Writing Awards; Festival in the Park.
+**Licensing caution:** these are the architect's and contractor's marketing photographs, not the school's. They are fine as research provenance, but **check reuse rights before publishing them in the app.**
 
+### (b) Theatre production — [NOT FOUND]
+
+No production photograph URL was recoverable. The Theatre page carries a "Past Performances" carousel that rendered as placeholders with **no image file paths** in the HTML.
+Page checked: https://www.charlottechristian.com/fine-arts/theatre
+
+The one school-hosted image resource found in this entire pass was on the Box Office page:
+- `https://www.charlottechristian.com/fs/resource-manager/view/88fd1cb5-ae3b-4af7-a892-dbc7a161857e` **[VERIFIED as present in HTML; subject UNCONFIRMED]** — from its placement, most likely the 2025-26 "Pure Imagination" **season artwork**, not a production still. Do not caption it as a production photo without opening it.
+
+### (c) Art studio or digital-arts lab — [NOT FOUND]
+
+No studio, gallery, or Digital Media Studio image URL was recoverable from either branch page.
+Pages checked: https://www.charlottechristian.com/fine-arts/visual-art, https://www.charlottechristian.com/fine-arts/digital-arts
+
+### Why school-hosted images were mostly unavailable, and how to get them
+
+charlottechristian.com serves media through a JavaScript resource-manager keyed by UUID (`/fs/resource-manager/view/{uuid}`), populated client-side. A raw HTML fetch sees placeholders, not paths. **To capture branch-page images (Huge Gallery, Digital Media Studio, production stills), render the pages in a headless browser and harvest the resolved `/fs/resource-manager/view/` UUIDs** — they cannot be enumerated by guessing, and must never be fabricated.
 
 ---
 
-## Music
+## Sources
 
-*Source file: `Charlotte Christian - The Arts - Music.pdf`*
+**School — fine arts**
+- Fine Arts overview — https://www.charlottechristian.com/fine-arts
+- Digital Arts — https://www.charlottechristian.com/fine-arts/digital-arts
+- Music — https://www.charlottechristian.com/fine-arts/music
+- Theatre — https://www.charlottechristian.com/fine-arts/theatre
+- Visual Art — https://www.charlottechristian.com/fine-arts/visual-art
+- Box Office (2025-26 "Pure Imagination" season) — https://www.charlottechristian.com/fine-arts/box-office
+- Friends of the Arts (giving tiers, funded items, venue) — https://www.charlottechristian.com/fine-arts/friends-of-the-arts
 
-Charlotte Christian - Music
-Charlotte Christian School (JK-12, Christian) - Charlotte, NC - Music
-Compiled research note - Charlotte private school arts programs. Prepared July 2026. Draft for family review.
-Program
-Music spans middle and upper school with band, chorus, and orchestra ensembles, embedded in a fine
-arts program of 40+ electives and co-curricular options.
-Recognition
-(cid:127) Students regularly earn placement in North Carolina regional and state honors band, chorus, and
-orchestra ensembles.
-(cid:127) Ensembles receive Excellent and Superior ratings at local music festivals.
-(cid:127) Music is part of the school's broader "award-winning" fine arts tradition.
-What to Confirm
-(cid:127) Specific ensembles by division and any auditioned/honors groups.
-(cid:127) Worship/chapel music opportunities given the school's Christian mission.
-(cid:127) Private lesson options and the annual concert calendar.
-Sources & Where to Verify
-Fine Arts Home: https://www.charlottechristian.com/fine-arts
-Digital Arts: https://www.charlottechristian.com/fine-arts/digital-arts
-Music: https://www.charlottechristian.com/fine-arts/music
-Theatre: https://www.charlottechristian.com/fine-arts/theatre
-Visual Art: https://www.charlottechristian.com/fine-arts/visual-art
-Box Office: https://www.charlottechristian.com/fine-arts/box-office
-Middle School Fine Arts: https://www.charlottechristian.com/fine-arts/middle-school-fine-arts
-External context: Christians in Theatre Arts (CITA); NC Theatre Conference (nctc.org); Wells Fargo Blumey Awards; Scholastic
-Art & Writing Awards; Festival in the Park.
+**School — academics & campus**
+- Upper School (musical list, honor societies, Conservatory distinction) — https://www.charlottechristian.com/academics/upper-school
+- Curriculum — https://www.charlottechristian.com/academics/curriculum
+- Apple Distinguished School — https://www.charlottechristian.com/academics/apple-distinguished-school
+- Master Campus Plan — https://www.charlottechristian.com/about/master-campus-plan
+- Campus Map — https://www.charlottechristian.com/about/campus-map
+- News: CITA 2016 results (ACT 1 / ACT 2, directors) — https://www.charlottechristian.com/cf_news/view.cfm?newsid=1030
+- News: auditorium seat-count announcement — https://www.charlottechristian.com/cf_news/view.cfm?newsid=1205
+- *Voice* magazine 2012-13 Issue 2 — https://www.charlottechristian.com/uploaded/Documents/AboutUs/Voice/Voice_1213_Issue2.pdf
 
+**Blumey Awards**
+- 2013 winners (Oklahoma! — Best Musical + 3 more) — https://www.blumenthalarts.org/news/detail/announcing-2013-blumey-award-winners
+- 2013 nominees, 17-school field — https://www.wbtv.com/story/22087449/blumey-award-nominees-for-2013/
+- 2013 BroadwayWorld coverage — https://www.broadwayworld.com/charlotte/westend/article/BWW-Reviews-The-BLUMEY-AWARDS-Recognizing-Excellence-in-High-School-Theater-20130528
+- 2024 nominees announcement (Tarzan participation, 50-school field) — https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-the-2024-blumey-awards-nominees
+- 2024 all nominees & finalists PDF (**unparsed — binary**) — https://www.blumenthalarts.org/assets/doc/2024-Blumey-All-Nominees-and-Finalists-c0f5a7ba22.pdf
+- 2024 nominees & finalists PDF (alt) — https://www.blumenthalarts.org/assets/doc/2024-Blumey-Nominees-and-Finalists-6435d5b18b.pdf
+- 2023 nominees & finalists PDF (**unparsed**) — https://www.blumenthalarts.org/assets/doc/2023-Blumey-Nominees-and-Finalists-dc56d4a6fb.pdf
+- 2023 finalists PDF — https://www.blumenthalarts.org/assets/doc/2023-Blumey-Finalists-74f46cf759.pdf
+- 2025 winners coverage (no CCS result confirmed) — https://www.axios.com/local/charlotte/2025/05/19/2025-blumey-award-winners
+- Blumeys / Jimmy Awards program page — https://www.jimmyawards.com/participation/regional-awards-programs/blumey-awards
+- 2024 nominees news article (**HTTP 429 — not retrieved**) — https://independenttribune.com/news/local/blumenthal-arts-announces-2024-blumey-awards-nominees/article_af4c3ce8-0c91-11ef-bb3a-67fa73989932.html
 
----
+**NCTC**
+- Middle School Play Festival (2025 participant list) — https://nctc.org/programs/middle-school-play-festival/
+- High School Play Festival — https://nctc.org/programs/high-school-play-festival/
+- Awards — https://nctc.org/programs/awards/
+- Middle School Awards Hub — https://nctc.org/programs/middle-school-play-festival/awards-hub/
 
-## Program Overview
+**CITA**
+- CITA — https://cita.org
 
-*Source file: `Charlotte Christian - The Arts - Program Overview.pdf`*
+**Facility (architect / builder)**
+- LS3P project page — https://www.ls3p.com/portfolio/charlotte-christian-school/
+- Rodgers Builders project page — https://www.rodgersbuilders.com/projects/charlotte-christian-school-2/
 
-The Arts at Charlotte Christian School
-Charlotte Christian School (JK-12, Christian) - Charlotte, NC - Fine Arts Program
-Overview
-Compiled research note - Charlotte private school arts programs. Prepared July 2026. Draft for family review.
-At a Glance
-Charlotte Christian frames its Fine Arts program around "exploring God-given gifts." It is described as
-an integral part of student life with over forty electives plus extensive co-curricular programming
-across four areas: Digital Arts, Music, Theatre, and Visual Art. The program values both the creative
-process and the finished product, with a mission framing of impacting "the culture for Christ through
-excellence in the arts."
-It is an award-winning program with a rich tradition in local and regional competition, spanning all three
-divisions (Lower, Middle, Upper School).
-Four Fine Arts Areas
-(cid:127) Digital Arts - a distinct branch (Charlotte Christian is an Apple Distinguished School), covering
-screen-based and media creation.
-(cid:127) Music - band, chorus, and orchestra with regional/state honors placements.
-(cid:127) Theatre - competitive and production theater across middle and upper school.
-(cid:127) Visual Art - studio work recognized in regional art competitions.
-Support & Access
-A parent "Friends of the Arts" organization and a Fine Arts Box Office support productions and events.
-The 40+ elective structure and co-curricular options are designed so that all students can engage the
-arts meaningfully, not only specialists.
-Note on Detail
-Per-course lists for each area live on the discipline pages and in the Upper School course catalog;
-families should confirm current electives and ensembles with the school (see Sources).
-Sources & Where to Verify
-Fine Arts Home: https://www.charlottechristian.com/fine-arts
-Digital Arts: https://www.charlottechristian.com/fine-arts/digital-arts
-Music: https://www.charlottechristian.com/fine-arts/music
-Theatre: https://www.charlottechristian.com/fine-arts/theatre
-Visual Art: https://www.charlottechristian.com/fine-arts/visual-art
-Box Office: https://www.charlottechristian.com/fine-arts/box-office
-Middle School Fine Arts: https://www.charlottechristian.com/fine-arts/middle-school-fine-arts
-External context: Christians in Theatre Arts (CITA); NC Theatre Conference (nctc.org); Wells Fargo Blumey Awards; Scholastic
-Art & Writing Awards; Festival in the Park.
-
+**Third-party profiles**
+- Niche — https://www.niche.com/k12/charlotte-christian-school-charlotte-nc/
+- Wikipedia — https://en.wikipedia.org/wiki/Charlotte_Christian_School
 
 ---
 
-## Theatre
+## Gaps / Could Not Verify
 
-*Source file: `Charlotte Christian - The Arts - Theatre.pdf`*
+Ordered by impact on the parent-facing comparison.
 
-Charlotte Christian - Theatre
-Charlotte Christian School (JK-12, Christian) - Charlotte, NC - Theatre
-Compiled research note - Charlotte private school arts programs. Prepared July 2026. Draft for family review.
-Program
-Theatre at Charlotte Christian is competitive and production-oriented, engaging middle and upper
-school students across acting and technical craft, supported by a Fine Arts Box Office for ticketed
-productions.
-Competitive Honors
-(cid:127) Recognition at Christians in Theatre Arts (CITA) competitions.
-(cid:127) Participation and honors at the NC Theatre Conference (NCTC) play festival.
-(cid:127) Wells Fargo Blumey Awards recognition - including Best Show for Oklahoma! in 2013.
-(cid:127) Individual and group honors earned each year by middle and upper school students.
-What to Confirm
-(cid:127) Current-season productions and audition process.
-(cid:127) Technical theater / stagecraft opportunities.
-(cid:127) Performance venue(s) on the Sardis Road campus.
-Sources & Where to Verify
-Fine Arts Home: https://www.charlottechristian.com/fine-arts
-Digital Arts: https://www.charlottechristian.com/fine-arts/digital-arts
-Music: https://www.charlottechristian.com/fine-arts/music
-Theatre: https://www.charlottechristian.com/fine-arts/theatre
-Visual Art: https://www.charlottechristian.com/fine-arts/visual-art
-Box Office: https://www.charlottechristian.com/fine-arts/box-office
-Middle School Fine Arts: https://www.charlottechristian.com/fine-arts/middle-school-fine-arts
-External context: Christians in Theatre Arts (CITA); NC Theatre Conference (nctc.org); Wells Fargo Blumey Awards; Scholastic
-Art & Writing Awards; Festival in the Park.
+### High impact
 
+> **RESOLVED during this pass — the 2024 *Tarzan* question.** The prior attempt's open item is now closed: *Tarzan* earned **five Blumey finalist slots** in 2024 (Best Actor — Jayden Stall; Best Actress — Karsen Betzold; Best Supporting Actor — Jeffery Wilson; Best Supporting Actress — Hannah Roddy; Best Featured Performer — Isa Long), and **no** top-6 nomination. Extracted from the Blumenthal all-nominees PDF by local decompression after the fetch tool returned unparseable binary. See bucket 1b.
 
----
+1. **2025-26 individual production titles.** Season theme "Pure Imagination" is [VERIFIED]; the specific **fall play and spring musical titles are [NOT FOUND]**. Retry the Box Office page mid-season, or locate the fine arts events calendar. **Highest-value remaining gap for a current-season parent view.**
 
-## Visual Arts
+2. **All faculty and chair names for all four branches.** **[NOT FOUND]**, except two theatre directors from a **2016** post (**Angela Tomaselli** — ACT 1/high school; **Conrad Bear** — ACT 2/middle school), which may be stale. No fine arts department chair identified for any branch. Try a faculty/staff directory page or an athletics-style staff listing.
 
-*Source file: `Charlotte Christian - The Arts - Visual Arts.pdf`*
+3. **Upper School course catalog / program of studies PDF.** **[NOT FOUND]** at any fetchable URL. The "40+ electives" count and the AP arts list therefore rest on branch pages rather than an authoritative catalog. The Upper School page references an "Academic Conservatory Program" document and a "Winterim" packet whose direct URLs were not exposed.
 
-Charlotte Christian - Visual Arts
-Charlotte Christian School (JK-12, Christian) - Charlotte, NC - Visual Art
-Compiled research note - Charlotte private school arts programs. Prepared July 2026. Draft for family review.
-Program
-Visual art runs across all three divisions, with studio coursework that is part of the 40+ fine arts
-electives. Students develop practical skills and a personal point of view.
-Recognition
-(cid:127) Routine recognition at regional art festivals and competitions.
-(cid:127) Participation in Festival in the Park, the Patriotic Art Competition, and the Scholastic Art &
-Writing Awards.
-(cid:127) Awards across Lower, Middle, and Upper School divisions.
-What to Confirm
-(cid:127) Studio media offered (drawing, painting, ceramics, etc.) and any AP/honors art.
-(cid:127) How visual art and the separate Digital Arts track relate.
-(cid:127) Gallery/exhibition opportunities for student work.
-Sources & Where to Verify
-Fine Arts Home: https://www.charlottechristian.com/fine-arts
-Digital Arts: https://www.charlottechristian.com/fine-arts/digital-arts
-Music: https://www.charlottechristian.com/fine-arts/music
-Theatre: https://www.charlottechristian.com/fine-arts/theatre
-Visual Art: https://www.charlottechristian.com/fine-arts/visual-art
-Box Office: https://www.charlottechristian.com/fine-arts/box-office
-Middle School Fine Arts: https://www.charlottechristian.com/fine-arts/middle-school-fine-arts
-External context: Christians in Theatre Arts (CITA); NC Theatre Conference (nctc.org); Wells Fargo Blumey Awards; Scholastic
-Art & Writing Awards; Festival in the Park.
+4. **Photo URLs for a theatre production, an art studio, and a digital-arts lab.** **[NOT FOUND]**. Facility photography **is** now covered (8 `WPAC_*` frames from the contractor + 7 LS3P frames — see Photos), but school-hosted branch-page imagery requires a headless-browser render to resolve the `/fs/resource-manager/view/{uuid}` endpoints.
 
+5. **Black box theater and scene shop — corroborate.** Both are **[VERIFIED]** on the contractor's page (https://www.rodgersbuilders.com/projects/charlotte-christian-school-2/) but appear **nowhere on the school's own site**. Worth a second source or a tour confirmation, since they materially improve the program assessment.
 
----
+### Medium impact
 
-## Sources referenced across these documents
+6. **"Excellent/Superior" festival ratings — could not be verified at any source.** Not present on the music page. **Recommend removing this claim from the app** unless a source is produced.
 
-- https://nctc.org/programs/awards/
-- https://nctc.org/programs/middle-school-play-festival/
-- https://nctc.org/programs/middle-school-play-festival/awards-hub/
-- https://www.axios.com/local/charlotte/2025/05/19/2025-blumey-award-winners
-- https://www.blumenthalarts.org/assets/doc/2023-Blumey-Nominees-and-Finalists-dc56d4a6fb.pdf
-- https://www.blumenthalarts.org/assets/doc/2024-Blumey-All-Nominees-and-Finalists-c0f5a7ba22.pdf
-- https://www.blumenthalarts.org/assets/doc/2024-Blumey-Nominees-and-Finalists-6435d5b18b.pdf
-- https://www.blumenthalarts.org/news/detail/announcing-2013-blumey-award-winners
-- https://www.blumenthalarts.org/news/detail/blumenthal-arts-announces-the-2024-blumey-awards-nominees
-- https://www.broadwayworld.com/charlotte/westend/article/BWW-Reviews-The-BLUMEY-AWARDS-Recognizing-Excellence-in-High-School-Theater-20130528
-- https://www.charlottechristian.com/about/master-campus-plan
-- https://www.charlottechristian.com/academics/apple-distinguished-school
-- https://www.charlottechristian.com/academics/upper-school
-- https://www.charlottechristian.com/cf_news/view.cfm?newsid=1030
-- https://www.charlottechristian.com/cf_news/view.cfm?newsid=1205
-- https://www.charlottechristian.com/fine-arts
-- https://www.charlottechristian.com/fine-arts/box-office
-- https://www.charlottechristian.com/fine-arts/digital-arts
-- https://www.charlottechristian.com/fine-arts/friends-of-the-arts
-- https://www.charlottechristian.com/fine-arts/middle-school-fine-arts
-- https://www.charlottechristian.com/fine-arts/music
-- https://www.charlottechristian.com/fine-arts/theatre
-- https://www.charlottechristian.com/fine-arts/visual-art
-- https://www.ls3p.com/portfolio/charlotte-christian-school/
-- https://www.rodgersbuilders.com/projects/charlotte-christian-school-2/
-- https://www.wbtv.com/story/22087449/blumey-award-nominees-for-2013/
+7. **CITA results for any year except 2016.** The school claims annual recognition; only 2016 has published detail. Given CITA is the school's strongest current-era credential, this gap materially weakens it.
+
+8. **Specific NCTC awards.** Participation in the 2025 Middle School Play Festival is [VERIFIED]; **no award or placement** was confirmed in any year, despite NCTC's public awards hubs.
+
+9. **Named Scholastic Art & Writing / Festival in the Park / Patriotic Art recognition.** Participation [VERIFIED] for all three; **not one student name, year, category, or award level** found. Scholastic publishes searchable regional results — verifiable with more effort.
+
+10. **NC regional/state honors band, chorus, orchestra placements.** Participation in NCAIS Honor Band/Chorus, Carnegie Hall Honors Performance Series, Winthrop and UNC Charlotte Invitationals is [VERIFIED]; **no named student or year** for any placement.
+
+11. **Exact as-built auditorium seat count — minor conflict, largely settled.** Architect **LS3P says 518** (https://www.ls3p.com/portfolio/charlotte-christian-school/); builder **Rodgers says 513** (https://www.rodgersbuilders.com/projects/charlotte-christian-school-2/); an earlier school announcement said **520** (likely pre-construction). **Use 518**, or "~515–520" if hedging. Square footage similarly differs: 20,515 vs 20,775 sq ft.
+
+12. **Apple Distinguished School designation years, and any explicit link to Digital Arts.** The page exists but was not fetched for detail; the Digital Arts page does not mention the designation. The connection is inferential (Apple-native software stack) rather than stated.
+
+### Lower impact
+
+13. **Auditioned vs. open-enrollment ensemble split.** All six Upper School ensembles are Honors-designated, implying placement, but **no audition requirement is stated**. Do not publish a split as verified.
+14. **No music theory / AP Music Theory course found** — appears to be a genuine absence, notable against AP Studio Art + AP Art History.
+15. **No AP capstone in Digital Arts** — appears genuine; the branch is tool-rich but has no AP endpoint.
+16. **Specific studio media** (ceramics, printmaking, sculpture, fibers) and studio facilities (kiln, wheels, darkroom) — **[NOT FOUND]**; page says only "a variety of media" and splits 2-D/3-D.
+17. **Digital Media Studio specs** — named but not described; no station count, broadcast studio, or recording booth detail.
+18. **Graphic design and digital illustration as named courses** — **[NOT FOUND]**; evidenced only via software (Canva, Photoshop, Procreate) and the overview page's prose.
+19. **Year attributions for the published musical list** (*High School Musical*, *Shrek*, *Footloose*, *Beauty and the Beast*, *Joseph*, *Into the Woods*, *Tarzan*, *Freaky Friday*) — published as an unordered set.
+20. **Named visiting artists.** Guest artist visits are funded by Friends of the Arts, but **no artist is named** and no residency roster exists.
+21. **Blumey results for 2014–2023, 2025, 2026.** No CCS result confirmed in any of those years (2013 win and 2024 five-finalist result are both verified). The 2023 nominees/finalists PDFs exist and could be mined with the same local-decompression technique that resolved 2024 — a likely quick win. The baseline's "**2026 field was 59 schools**" figure was **not independently verified**; the verified field size is **50 schools (2024)**, vs 17 in 2013.
+22. **uKnight Worship's chapel role**, and whether a Middle School worship ensemble exists — **[NOT FOUND]**.
+23. **Huge Gallery location on campus** and a dated exhibition calendar — **[NOT FOUND]**.
+24. **Named tech-theatre course sequence** (Stagecraft I/II/III) or student tech-crew organization — **[NOT FOUND]**; technical directing and stage management exist as two of seven electives.
