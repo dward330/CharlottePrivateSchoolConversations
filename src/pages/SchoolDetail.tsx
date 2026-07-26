@@ -27,6 +27,14 @@ type Loaded = Record<string, MetricGroup[]>
    absorbs, so they don't render as standalone cards on the Cannon page. */
 const MERGED_INTO_CANNON_CATALOG = new Set(['affinity', 'lower-middle', 'service'])
 
+/* Cannon-only card order overrides, per topic. Keys not listed keep their
+   existing order after the listed ones. Cannon-specific so no other school's
+   ordering changes (the shared order lives in metrics.ts SECTION_ORDER). */
+const CANNON_SECTION_ORDER: Record<string, string[]> = {
+  'student-clubs': ['academic-clubs', 'honor-societies', 'catalog'],
+  'the-arts': ['overview', 'visual-arts', 'music', 'theatre', 'courses', 'facilities', 'in-depth-report'],
+}
+
 function PlusIcon() {
   return (
     <svg
@@ -184,12 +192,27 @@ export function SchoolDetail({ slug }: { slug: string }) {
                data/clubCatalog.ts), so those three don't also render standalone
                on the Cannon Student Clubs page. Cannon-only — every other school
                keeps all its cards. */
-            const groups =
-              slug === 'cannon' && t.slug === 'student-clubs'
-                ? allGroups.filter(
-                    (g) => !MERGED_INTO_CANNON_CATALOG.has(g.metric.key),
-                  )
-                : allGroups
+            /* Cannon overrides (Cannon-only): its Student Clubs card absorbs the
+               merged sections, and both Student Clubs and The Arts use a
+               Cannon-specific card order. Other schools use allGroups as-is. */
+            let groups = allGroups
+            if (slug === 'cannon') {
+              if (t.slug === 'student-clubs') {
+                groups = groups.filter(
+                  (g) => !MERGED_INTO_CANNON_CATALOG.has(g.metric.key),
+                )
+              }
+              const cannonOrder = CANNON_SECTION_ORDER[t.slug]
+              if (cannonOrder) {
+                const rank = (k: string) => {
+                  const i = cannonOrder.indexOf(k)
+                  return i === -1 ? cannonOrder.length : i
+                }
+                groups = [...groups].sort(
+                  (a, b) => rank(a.metric.key) - rank(b.metric.key),
+                )
+              }
+            }
             const stats = valueMetricsForTopic(t.slug).filter((vm) => vm.values[slug] != null)
             return (
               <section key={t.slug} id={`topic-${t.slug}`} className="topic-section">
