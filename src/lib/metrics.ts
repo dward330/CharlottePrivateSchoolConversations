@@ -72,6 +72,19 @@ const RULES: Record<string, Rule[]> = {
     { match: /deep research/i, key: 'in-depth-report', label: 'In-Depth Report' },
   ],
   sports: [
+    // Sports renders as seven consolidated cards driven by data/sportsProgram.ts,
+    // not by the ingested prose (same arrangement as Course Offerings above). The
+    // 2026 redesign research file is one long document per school, so the content
+    // builder slices its markdown headings into many subtopics ("3. College
+    // Pipeline — 48 commits…", "GAPS / UNCONFIRMED", …). This leading rule folds
+    // every one of those slices onto a single key so they cannot slugify into
+    // orphan prose cards. It must stay FIRST: the slice headings also contain
+    // words like "coaching" and "facilities" that later rules would match.
+    {
+      match: /redesign research|^\d\.\s|^corrections to|^gaps ?\/|^sources$|^class(es)? of \d{4}|^division i total|^power 4 commitments/i,
+      key: 'redesign-research',
+      label: 'Sports Research Dossier (2026)',
+    },
     { match: /awards and honors/i, key: 'awards', label: 'Awards & Honors' },
     { match: /championships/i, key: 'championships', label: 'Championships' },
     { match: /coach/i, key: 'coaches', label: 'Coaches: Pedigree & Continuity' },

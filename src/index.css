@@ -1850,3 +1850,483 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   .courses-filter { width: 100%; margin-left: 0; }
   .courselist { max-height: 320px; padding: 0 10px; }
 }
+
+/* ============================================================================
+   Sports research area — the seven consolidated cards
+   (components/SportsProgram.tsx, data/sportsProgram.ts). Recreates the Claude
+   Design "Sports Section Redesign" with this app's tokens. Reuses the existing
+   .catalog-chip / .catalog-count / .tag-* / .srcrow primitives so the Sports
+   cards read as the same system as Club Catalog and Course Offerings.
+   ============================================================================ */
+
+.sports-body { font-size: 14px; }
+
+.sports-lead {
+  margin: 0 0 16px;
+  font-size: 14.5px;
+  line-height: 1.5;
+}
+
+/* Section heading inside a card body. */
+.sports-h {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.sports-h-hint { font-weight: 400; letter-spacing: 0; text-transform: none; }
+
+.sports-p { margin: 0 0 10px; font-size: 13px; line-height: 1.6; }
+
+.sports-note {
+  margin: 10px 0 16px;
+  font-size: 12.5px;
+  line-height: 1.55;
+}
+.sports-note-strong { color: var(--text); }
+
+/* TO VERIFY / qualifier tag, inline after a figure. */
+.sports-verify {
+  font-size: 9px;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+
+/* Four-up stat strip (1a, 1g) — hairline grid, matching .stat-strip. */
+.sports-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  margin-bottom: 18px;
+}
+.sports-stat { background: var(--bg); padding: 12px 14px; }
+.sports-stat-val {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 1.15;
+  color: var(--ink, var(--text));
+}
+.sports-stat-label { font-size: 12px; margin-top: 2px; }
+
+/* Generic scroll container for the card ledgers. */
+.sports-scroll {
+  max-height: 320px;
+  overflow-y: auto;
+  border: 1px solid var(--border);
+  margin-bottom: 12px;
+}
+.sports-scroll-tall { max-height: 360px; }
+.sports-scroll-med { max-height: 240px; }
+.sports-scroll-short { max-height: 190px; }
+
+/* Sticky table headers inside the scrollers. */
+.sports-th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: var(--bg);
+  color: var(--muted);
+  padding: 8px 10px;
+  font-size: 10.5px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--border);
+}
+.sports-th-c { text-align: center; }
+
+/* -- 1a · season board ---------------------------------------------------- */
+
+.sports-legend {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+.sports-legend > span { display: flex; gap: 6px; align-items: baseline; }
+
+.sports-depth {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 10px;
+  padding: 1px 5px;
+  flex: none;
+}
+.sports-depth-v { background: var(--accent); color: var(--bg); }
+.sports-depth-jv { border: 1px solid var(--accent); color: var(--accent-700); }
+.sports-depth-ms { border: 1px solid var(--border); color: var(--muted); }
+
+.sports-board {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+}
+.sports-season { background: var(--bg); padding: 14px; }
+.sports-season-head {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 6px;
+  margin-bottom: 8px;
+}
+.sports-season-head .text-muted {
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+.sports-season-list { display: flex; flex-direction: column; gap: 7px; font-size: 13px; }
+.sports-sport { display: flex; justify-content: space-between; gap: 8px; }
+.sports-depths { display: flex; gap: 3px; flex: none; }
+
+/* -- 1b · title matrix + win bars ----------------------------------------- */
+
+.sports-matrix { display: grid; font-size: 13px; }
+.sports-prog {
+  padding: 9px 12px;
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 15px;
+  border-bottom: 1px solid var(--border);
+}
+.sports-cell {
+  padding: 9px 12px;
+  text-align: center;
+  border-bottom: 1px solid var(--border);
+}
+.sports-cell-sub { font-size: 11px; margin-top: 3px; }
+.sports-rownote {
+  padding: 9px 12px;
+  font-size: 12px;
+  border-bottom: 1px solid var(--border);
+  line-height: 1.45;
+}
+
+/* Result chips: STATE filled, RUNNER-UP outlined, SEMIFINAL plain. */
+.sports-chip {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 11px;
+  background: var(--accent);
+  color: var(--bg);
+  padding: 2px 7px;
+  white-space: nowrap;
+}
+.sports-chip-out {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 11px;
+  border: 1px solid var(--accent);
+  color: var(--accent-700);
+  padding: 1px 7px;
+  white-space: nowrap;
+}
+.sports-chip-semi { font-size: 11px; }
+
+.sports-bars { display: flex; flex-direction: column; gap: 10px; margin-bottom: 16px; }
+.sports-bar-row {
+  display: grid;
+  grid-template-columns: 170px 1fr 130px;
+  gap: 12px;
+  align-items: center;
+  font-size: 13px;
+}
+.sports-bar-name { font-family: var(--heading); font-weight: 600; font-size: 15px; }
+.sports-bar-track {
+  height: 14px;
+  border: 1px solid var(--border);
+  position: relative;
+  display: block;
+}
+.sports-bar-track-sm { height: 12px; }
+.sports-bar-track-xs { height: 10px; }
+.sports-bar-fill {
+  position: absolute;
+  inset: 0;
+  background: var(--accent);
+  display: block;
+}
+.sports-bar-fill.is-pale { background: var(--accent-200); }
+
+.sports-detail { border-top: 1px solid var(--border); padding-top: 12px; }
+.sports-detail-p { margin: 0 0 6px; font-size: 13px; line-height: 1.65; }
+
+/* -- 1c · pipeline -------------------------------------------------------- */
+
+.sports-funnel { display: flex; flex-direction: column; gap: 8px; margin-bottom: 10px; }
+.sports-funnel-row {
+  display: grid;
+  grid-template-columns: 250px 1fr 60px;
+  gap: 12px;
+  align-items: center;
+  font-size: 13px;
+}
+.sports-funnel-track {
+  height: 22px;
+  border: 1px solid var(--border);
+  position: relative;
+  display: block;
+}
+.sports-funnel-fill { position: absolute; inset: 0; display: block; }
+.sports-funnel-fill.is-pale { background: var(--accent-200); }
+.sports-funnel-fill.is-mid { background: color-mix(in srgb, var(--accent) 60%, var(--bg)); }
+.sports-funnel-fill.is-full { background: var(--accent); }
+.sports-funnel-count { font-family: var(--heading); font-size: 18px; }
+
+/* Two-column split used by 1c, 1f and 1g. */
+.sports-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 16px;
+}
+.sports-panel { border-left: 1px solid var(--border); padding-left: 24px; }
+
+.sports-sportbars { display: flex; flex-direction: column; gap: 7px; font-size: 12.5px; }
+.sports-sportbar {
+  display: grid;
+  grid-template-columns: 110px 1fr 34px;
+  gap: 8px;
+  align-items: center;
+}
+
+/* Roster: filter tabs, search, then the scrolling table. */
+.sports-rostertools {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+.sports-tabs { display: flex; gap: 8px; flex-wrap: wrap; }
+.sports-search {
+  font-family: inherit;
+  font-size: 12.5px;
+  padding: 6px 10px;
+  width: 300px;
+  max-width: 100%;
+  margin-left: auto;
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 0;
+}
+.sports-search:focus-visible { outline: 2px solid var(--accent); outline-offset: -1px; }
+.sports-rostertools .catalog-count { margin-left: 0; flex: none; }
+
+.sports-roster {
+  display: grid;
+  grid-template-columns: 46px 1fr 120px 180px 100px 58px;
+  font-size: 12.5px;
+}
+.sports-td {
+  padding: 7px 10px;
+  border-bottom: 1px solid var(--border);
+  overflow-wrap: anywhere;
+}
+.sports-td-name { font-weight: 500; }
+.sports-level { font-size: 9px; }
+.sports-hl { background: var(--accent-200); color: inherit; padding: 0; }
+.sports-empty { padding: 16px 12px; font-size: 12.5px; margin: 0; }
+
+/* -- 1d · pros + honors --------------------------------------------------- */
+
+.sports-pros {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  margin-bottom: 16px;
+}
+.sports-pro { background: var(--bg); padding: 14px; }
+.sports-pro-kicker {
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+}
+.sports-pro-name { font-family: var(--heading); font-weight: 600; font-size: 19px; }
+.sports-pro-detail { font-size: 12.5px; line-height: 1.5; margin-top: 4px; }
+.sports-pro-path { font-size: 11.5px; margin-top: 6px; }
+
+.sports-ledger { display: flex; flex-direction: column; }
+.sports-honor {
+  display: grid;
+  grid-template-columns: 200px 1fr 130px;
+  gap: 12px;
+  align-items: baseline;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+  font-size: 13px;
+}
+.sports-honor:last-child { border-bottom: none; }
+.sports-honor-label { font-family: var(--heading); font-weight: 600; font-size: 15px; }
+.sports-honor-text { line-height: 1.55; }
+.sports-honor .tag-accent,
+.sports-honor .tag-outline { font-size: 10px; justify-self: end; text-align: center; }
+
+/* -- 1e · coaching -------------------------------------------------------- */
+
+.sports-coaches {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  margin-bottom: 16px;
+}
+.sports-coaches.is-single { grid-template-columns: 1fr; }
+.sports-coach { background: var(--bg); padding: 14px 20px; }
+.sports-coach-name {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 21px;
+  margin-bottom: 6px;
+}
+.sports-coach-stats { display: flex; gap: 18px; flex-wrap: wrap; margin-bottom: 8px; }
+.sports-coach-stat { font-family: var(--heading); font-weight: 600; font-size: 24px; }
+.sports-coach-statlabel { font-size: 11.5px; }
+
+.sports-tenures { display: flex; flex-direction: column; }
+.sports-tenure {
+  display: grid;
+  grid-template-columns: 170px 190px 1fr 120px;
+  gap: 12px;
+  align-items: center;
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--border);
+  font-size: 13px;
+}
+.sports-tenure:last-child { border-bottom: none; }
+.sports-tenure-name { font-family: var(--heading); font-weight: 600; font-size: 15px; }
+.sports-tenure-role { font-size: 12px; }
+.sports-tenure-since { font-size: 12.5px; }
+
+/* -- 1f · facilities ------------------------------------------------------ */
+
+.sports-photos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-bottom: 18px;
+}
+.sports-photo { margin: 0; }
+.sports-photo img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  display: block;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+}
+.sports-photo figcaption {
+  font-size: 12px;
+  margin-top: 6px;
+  line-height: 1.5;
+}
+.sports-photo figcaption strong { font-family: var(--heading); font-size: 14px; }
+.sports-credit { font-size: 10.5px; margin-top: 2px; }
+
+.sports-venues { display: flex; flex-direction: column; font-size: 13px; }
+.sports-venue {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 7px 12px;
+  border-bottom: 1px solid var(--border);
+}
+.sports-venue:last-child { border-bottom: none; }
+.sports-venue .text-muted { font-size: 12px; text-align: right; flex: none; max-width: 55%; }
+
+.sports-care { display: flex; flex-direction: column; font-size: 13px; }
+.sports-care-row {
+  display: flex;
+  gap: 10px;
+  padding: 7px 12px;
+  border-bottom: 1px solid var(--border);
+  align-items: baseline;
+  line-height: 1.5;
+}
+.sports-care-row:last-child { border-bottom: none; }
+.sports-care-label {
+  font-family: var(--heading);
+  font-weight: 600;
+  flex: none;
+  width: 120px;
+}
+
+/* -- 1g · NIL timeline ---------------------------------------------------- */
+
+.sports-timeline { display: flex; flex-direction: column; }
+.sports-tl-row { display: flex; gap: 12px; }
+.sports-tl-rail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: none;
+  width: 14px;
+}
+.sports-tl-dot {
+  width: 10px;
+  height: 10px;
+  border: 2px solid var(--accent);
+  background: var(--bg);
+  flex: none;
+}
+.sports-tl-dot.is-on { background: var(--accent); }
+.sports-tl-line { width: 1px; flex: 1; background: var(--border); }
+.sports-tl-text {
+  padding-bottom: 12px;
+  font-size: 12.5px;
+  line-height: 1.5;
+}
+.sports-tl-text strong { font-family: var(--heading); font-size: 14px; }
+.sports-tl-tag { font-size: 9px; margin-left: 6px; }
+
+/* Card SOURCE row — same rhythm as the other cards' source rows. */
+.sports-src {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+  flex-wrap: wrap;
+  border-top: 1px solid var(--border);
+  padding-top: 12px;
+  font-size: 12px;
+}
+.sports-src .tag-outline { font-size: 10px; flex: none; }
+
+/* The Sports cards are wide, structured layouts: never reflow them into the
+   two-column prose columns .note-card[open] applies by default. */
+.note-card-sports[open] .note-card-body { column-count: 1; }
+
+@media (max-width: 900px) {
+  .sports-board,
+  .sports-split,
+  .sports-coaches { grid-template-columns: 1fr; }
+  .sports-panel { border-left: none; padding-left: 0; }
+  .sports-stats { grid-template-columns: 1fr 1fr; }
+  .sports-search { margin-left: 0; width: 100%; }
+  /* The matrix and roster keep their column widths and scroll sideways
+     rather than crushing — the scroller owns the overflow. */
+  .sports-scroll { overflow-x: auto; }
+  .sports-matrix { min-width: 640px; }
+  .sports-roster { min-width: 620px; }
+  .sports-bar-row,
+  .sports-funnel-row { grid-template-columns: 120px 1fr 70px; }
+  .sports-honor { grid-template-columns: 1fr; gap: 4px; }
+  .sports-honor .tag-accent,
+  .sports-honor .tag-outline { justify-self: start; }
+  .sports-tenure { grid-template-columns: 1fr 1fr; }
+}

@@ -43,12 +43,12 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 ### Sports (`sports/`)
 
-- [Cannon School](sports/cannon.md) — 14 docs
-- [Charlotte Christian School](sports/charlotte-christian.md) — 14 docs
-- [Charlotte Country Day School](sports/charlotte-country-day.md) — 14 docs
-- [Charlotte Latin School](sports/charlotte-latin.md) — 14 docs
-- [Davidson Day School](sports/davidson-day.md) — 14 docs
-- [Providence Day School](sports/providence-day.md) — 14 docs
+- [Cannon School](sports/cannon.md) — 15 docs
+- [Charlotte Christian School](sports/charlotte-christian.md) — 15 docs
+- [Charlotte Country Day School](sports/charlotte-country-day.md) — 15 docs
+- [Charlotte Latin School](sports/charlotte-latin.md) — 15 docs
+- [Davidson Day School](sports/davidson-day.md) — 15 docs
+- [Providence Day School](sports/providence-day.md) — 15 docs
 
 ### Student Clubs (`student-clubs/`)
 
@@ -70,4 +70,4 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 
 ## Data layer
-- `src/data/schools.json` — 263 documents across 7 topics and 6 schools.
+- `src/data/schools.json` — 269 documents across 7 topics and 6 schools.

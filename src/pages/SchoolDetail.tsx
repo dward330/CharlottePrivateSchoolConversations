@@ -22,6 +22,16 @@ import { clubCatalog } from '../data/clubCatalog.ts'
 import { ClubCatalogBody } from '../components/ClubCatalog.tsx'
 import { courseOfferings } from '../data/courseOfferings.ts'
 import { CourseOfferingsBody } from '../components/CourseOfferings.tsx'
+import { sportsProgram, SPORTS_CARDS, type SportsProgram } from '../data/sportsProgram.ts'
+import {
+  SportsOfferedBody,
+  WinningRecordBody,
+  CollegePipelineBody,
+  HonorsBody,
+  CoachingBody,
+  FacilitiesBody,
+  NationalStageBody,
+} from '../components/SportsProgram.tsx'
 import { WelcomeVideo, PlayIcon } from '../components/WelcomeVideo.tsx'
 
 type Loaded = Record<string, MetricGroup[]>
@@ -56,6 +66,34 @@ const SCHOOL_SECTION_ORDER: Record<string, Record<string, string[]>> = {
     'student-clubs': ['academic-clubs', 'governance', 'signature', 'catalog'],
     'the-arts': ['overview', 'awards', 'visual-arts', 'music', 'theatre', 'in-depth-report'],
   },
+}
+
+/* Maps a Sports card key to its body renderer. Each card has a purpose-built
+   layout rather than a shared prose body, so the dispatch is explicit; the
+   caller only renders keys the school's program actually has. */
+function SportsCardBody({
+  program,
+  cardKey,
+}: {
+  program: SportsProgram
+  cardKey: (typeof SPORTS_CARDS)[number]['key']
+}) {
+  switch (cardKey) {
+    case 'offered':
+      return <SportsOfferedBody data={program.offered!} />
+    case 'record':
+      return <WinningRecordBody data={program.record!} />
+    case 'pipeline':
+      return <CollegePipelineBody data={program.pipeline!} />
+    case 'honors':
+      return <HonorsBody data={program.honors!} />
+    case 'coaching':
+      return <CoachingBody data={program.coaching!} />
+    case 'facilities':
+      return <FacilitiesBody data={program.facilities!} />
+    case 'national':
+      return <NationalStageBody data={program.national!} />
+  }
 }
 
 function PlusIcon() {
@@ -270,7 +308,20 @@ export function SchoolDetail({ slug }: { slug: string }) {
                from `offerings` rather than the ingested metric groups. */
             const offerings =
               t.slug === 'course-offerings' ? courseOfferings(slug) : undefined
-            const cardCount = offerings ? offerings.divisions.length : groups.length
+            /* Sports is thirteen ingested sub-sections but seven consolidated
+               cards on the page (see data/sportsProgram.ts), so — like Course
+               Offerings — it replaces the metric-group loop rather than
+               swapping one card's body. Cards absent from a school's entry
+               (no pro alumni, no NIL posture) simply don't render. */
+            const sports = t.slug === 'sports' ? sportsProgram(slug) : undefined
+            const sportsCards = sports
+              ? SPORTS_CARDS.filter((c) => sports[c.key] != null)
+              : []
+            const cardCount = offerings
+              ? offerings.divisions.length
+              : sports
+                ? sportsCards.length
+                : groups.length
             return (
               <section key={t.slug} id={`topic-${t.slug}`} className="topic-section">
                 <div className="topic-section-head">
@@ -333,8 +384,45 @@ export function SchoolDetail({ slug }: { slug: string }) {
                   </div>
                 )}
 
+                {/* Sports: seven consolidated cards built from the structured
+                    program layer, in the fixed 1a–1g order. A school missing a
+                    card's data (no verified pro alumni, no NIL story) omits
+                    that card rather than rendering it thin. */}
+                {ready && t.slug === 'sports' && sports && (
+                  <div className="note-cards">
+                    {sportsCards.map((card) => (
+                      <details
+                        key={card.key}
+                        className="note-card note-card-report note-card-sports"
+                      >
+                        <BlueprintCorners />
+                        <summary>
+                          <span className="note-card-head">
+                            <span className="course-kicker">
+                              {card.num} · {card.kicker}
+                            </span>
+                            <span className="topic-title">{card.title}</span>
+                            <span className="topic-teaser">
+                              {sports[card.key]!.headline}
+                            </span>
+                          </span>
+                          <span className="plusmark"><PlusIcon /></span>
+                        </summary>
+                        <div className="note-card-body">
+                          <SportsCardBody program={sports} cardKey={card.key} />
+                        </div>
+                      </details>
+                    ))}
+                  </div>
+                )}
+
                 <div className="note-cards">
-                  {(t.slug === 'course-offerings' && offerings ? [] : groups).map((g) => {
+                  {(
+                    (t.slug === 'course-offerings' && offerings) ||
+                    (t.slug === 'sports' && sports)
+                      ? []
+                      : groups
+                  ).map((g) => {
                     /* The Financial Aid deep-dive has a hand-structured report
                        behind it; it replaces the prose body and always claims
                        the full grid row rather than reflowing into columns.
