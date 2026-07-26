@@ -140,8 +140,17 @@ function hostOf(url: string): string {
   }
 }
 
-export function ProseContent({ text, title }: { text: string; title?: string }) {
-  const { lede, sections } = group(parseProse(text, title), title)
+export function ProseContent({
+  text,
+  title,
+  topic,
+}: {
+  text: string
+  title?: string
+  /** Topic slug — lets the parser scope its research-gap filtering (see prose.ts). */
+  topic?: string
+}) {
+  const { lede, sections } = group(parseProse(text, title, topic), title)
   return (
     <div className="prose-doc">
       {lede.length > 0 && <div className="prose-lede"><Blocks blocks={lede} /></div>}

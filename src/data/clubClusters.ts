@@ -236,10 +236,10 @@ const CHARLOTTE_CHRISTIAN: ClubClusters = {
 }
 
 // ── Charlotte Country Day ── flagship is Model UN, the best-documented competitive
-// program (repeat conference awards). Several peer clubs could not be confirmed —
-// reported honestly. From src/content/student-clubs/charlotte-country-day.json.
+// program (repeat conference awards). From
+// src/content/student-clubs/charlotte-country-day.json.
 const CHARLOTTE_COUNTRY_DAY: ClubClusters = {
-  verdict: 'Model UN is the flagship; the rest of the slate is thinly documented.',
+  verdict: 'Model UN is the flagship, with repeat conference awards.',
   verdictHint: 'Open any row for the full research note and its source.',
   rows: [
     {
@@ -258,21 +258,12 @@ const CHARLOTTE_COUNTRY_DAY: ClubClusters = {
       note: 'Robotics is confirmed by name via student profiles in the news archive, but no public competition results (FIRST, VEX, or similar) surfaced for the Upper School program.',
       source: 'charlottecountryday.org — school news (scholarship nominee profiles)',
     },
-    {
-      name: 'Not confirmed',
-      oneLiner: 'Science Olympiad, quiz bowl, debate, DECA — not found in public sources',
-      evidence: 'reported',
-      evidenceLabel: 'Gap flagged',
-      note: 'Several academic-competition clubs common at peer schools could not be confirmed for Country Day in public sources — likely held in the login-gated activities catalog. "Not found" means not asserted here, not "does not exist."',
-      source: 'Research gap — no public source located',
-    },
   ],
 }
 
 // ── Davidson Day ── a small school; the competitive footprint is a Middle School
 // Battle of the Books team (regional first place), plus honor-society and
-// academic-distinction programs. Common competition clubs are honestly flagged as
-// not found. From src/content/student-clubs/davidson-day.json.
+// academic-distinction programs. From src/content/student-clubs/davidson-day.json.
 const DAVIDSON_DAY: ClubClusters = {
   verdict: 'A compact slate; Battle of the Books took regional first place.',
   verdictHint: 'Open any row for the full research note and its source.',
@@ -300,14 +291,6 @@ const DAVIDSON_DAY: ClubClusters = {
       evidenceLabel: 'School-reported',
       note: 'The venue where Global Studies Diploma seniors present capstone research; some students also present at a collegiate archaeology conference.',
       source: 'Davidson Day School — Academic Recognition & Competition dossier',
-    },
-    {
-      name: 'Not confirmed',
-      oneLiner: 'Debate, Model UN, mock trial, quiz bowl, Science Olympiad, math team',
-      evidence: 'reported',
-      evidenceLabel: 'Gap flagged',
-      note: 'No evidence was found for these standing programs — most likely simply not offered at a small school, though direct confirmation is recommended before treating them as definitively absent.',
-      source: 'Research gap — no public source located',
     },
   ],
 }

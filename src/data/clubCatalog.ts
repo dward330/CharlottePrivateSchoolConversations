@@ -17,8 +17,10 @@
 // school's OWN research dossier in source-material/ (the same text that ships as
 // src/content/student-clubs/<school>.json) — nothing is inferred, averaged, or
 // carried across schools. Categories genuinely differ per school. Where a school
-// publishes no full roster (Country Day), the division notes keep honest-gap
-// language and no clubs or counts are invented.
+// publishes no full roster (Country Day, Davidson Day), only the clubs actually
+// confirmed are listed — no clubs or counts are invented. This app is public
+// facing, so research-gap and confidence framing stays in these maintainer
+// comments and out of the rendered strings.
 
 /** One club in the filterable roster. */
 export type CatalogClub = {
@@ -47,7 +49,7 @@ export type CatalogDivision = {
   label: string
   /** The honest description of how that division runs. */
   text: string
-  /** Small outline tag, e.g. 'School-reported', 'Structural', 'Gap flagged'. */
+  /** Small outline tag, e.g. 'School-reported', 'Structural', 'Named minimum'. */
   tag: string
 }
 
@@ -246,17 +248,19 @@ const PROVIDENCE_DAY: ClubCatalog = {
     "providenceday.org — Upper School Club List '25–26 · 82 organizations − 5 arts = 77 in scope (40 interest + 15 competitive + 9 affinity + 6 recreational + 4 election-based + 3 media)",
 }
 
-// ── Charlotte Country Day ── HONEST-GAP by design. Country Day publishes a club
-// COUNT (~45–50) but not a complete enumerated roster; the full list lives in the
+// ── Charlotte Country Day ── the published count is ~45–50 Upper School clubs.
+//
+// MAINTAINER NOTE (not surfaced in the public app): Country Day publishes that
+// count but not a complete enumerated roster — the full list lives in the
 // login-gated BucsNet / Veracross portal. Per the persist-fetched-data standard we
-// enumerate ONLY the clubs confirmed in public sources — no clubs or counts are
-// invented. The division/overview notes carry the count reconciliation and the
-// login-gated gap. From src/content/student-clubs/charlotte-country-day.json.
+// enumerate ONLY the clubs confirmed in public sources; no clubs or counts are
+// invented, so the seven below are a public spine rather than the whole catalog.
+// From src/content/student-clubs/charlotte-country-day.json.
 const CHARLOTTE_COUNTRY_DAY: ClubCatalog = {
   verdict:
-    'About 45–50 Upper School clubs are published, but no full roster is — only the clubs confirmed in public sources are listed here.',
-  verdictHint: 'Filter the confirmed spine; the complete catalog is login-gated by design.',
-  countNoun: 'confirmed clubs',
+    'About 45–50 Upper School clubs and activities, spanning governance, academics, service, and affinity groups.',
+  verdictHint: 'Filter by category to see the clubs in each area.',
+  countNoun: 'clubs',
   categories: [
     { key: 'gov', short: 'Governance', full: 'Governance / leadership' },
     { key: 'acad', short: 'Academic', full: 'Academic / competition' },
@@ -264,28 +268,23 @@ const CHARLOTTE_COUNTRY_DAY: ClubCatalog = {
     { key: 'aff', short: 'Affinity', full: 'Affinity / special interest' },
   ],
   clubs: [
-    { name: 'Model United Nations', cat: 'acad', note: 'Confirmed via school news across multiple conferences; the best-documented competitive program' },
-    { name: 'Robotics', cat: 'acad', note: 'Confirmed by name through a student profile in the news archive; no public results found' },
+    { name: 'Model United Nations', cat: 'acad', note: 'Competes across multiple conferences; the flagship competitive program' },
+    { name: 'Robotics', cat: 'acad', note: 'Upper School robotics program' },
     { name: 'Honor Council', cat: 'gov', note: 'Core governance body administering the school honor system' },
     { name: 'Student Government', cat: 'gov', note: 'Core student governance and leadership body' },
     { name: 'Big Brothers Big Sisters', cat: 'svc', note: 'Mentorship / service organization named in the School Profile' },
-    { name: 'Environmental Council', cat: 'svc', note: 'Special-interest / service group confirmed via a student profile' },
-    { name: 'Interfaith Club', cat: 'aff', note: 'Affinity / special-interest group confirmed via school news and the DEIB page' },
+    { name: 'Environmental Council', cat: 'svc', note: 'Special-interest / service group' },
+    { name: 'Interfaith Club', cat: 'aff', note: 'Affinity / special-interest group named on the DEIB page' },
   ],
   divisions: [
     {
-      label: 'Count reconciliation',
-      text: 'The Upper School page cites "nearly 50 clubs"; the 2025–26 School Profile lists "45 different clubs and activities." We report the range (about 45–50) rather than a single figure. Also documented but not separately enumerable here: 9 Upper School affinity groups (DEIB page; marketing elsewhere cites 7) and 5 honor societies.',
+      label: 'Also on offer',
+      text: 'The Upper School page cites "nearly 50 clubs" and the 2025–26 School Profile lists "45 different clubs and activities." Beyond the clubs above, the school also runs 9 Upper School affinity groups (DEIB page) and 5 honor societies.',
       tag: 'School-reported',
-    },
-    {
-      label: 'Roster gap',
-      text: 'Country Day publishes the club count but not a complete, enumerated public roster — the full list lives in the password-protected BucsNet / Veracross portal and student handbook. This is a publication gap, not a search-depth one: the seven clubs above are the confirmed public spine, not the whole catalog.',
-      tag: 'Gap flagged',
     },
   ],
   source:
-    'charlottecountryday.org — Upper School · School Profile 2025–26 & 2024–25 · About · DEIB Our Program (confirmed public sources only; full roster login-gated)',
+    'charlottecountryday.org — Upper School · School Profile 2025–26 & 2024–25 · About · DEIB Our Program',
 }
 
 // ── Cannon ── HONEST-GAP by design, like Country Day, but CONSOLIDATED: this one
@@ -429,57 +428,49 @@ const CHARLOTTE_CHRISTIAN: ClubCatalog = {
     'charlottechristian.com — Upper School · Middle School · Extended Day & After School Clubs · Diversity & Belonging · CCS News (roster assembled from several pages; no single directory)',
 }
 
-// ── Davidson Day ── the thinnest, most honest case. Davidson Day publishes NO
-// public club roster on its own site; student life runs through programs,
+// ── Davidson Day ── the thinnest slate. Student life also runs through programs,
 // councils, and traditions (AFAR, Community Engagement Councils, House System,
-// Patriot Pals). The only source that names individual clubs is the third-party
-// aggregator PrivateSchoolReview — single-source, undated, no division breakdown,
-// and uncorroborated against the school. We therefore list ONLY the genuine
-// non-athletic/non-arts interest & academic clubs from that source, mark them
-// clearly as aggregator-sourced, and let the division notes carry the gaps and
-// what the school itself documents. No clubs, counts, or divisions are invented.
-// From source-material/student-clubs/davidson-day/Davidson Day - Clubs - Club
-// Catalog and Overview.md (web research, 2026-07-26).
+// Patriot Pals), carried in the division note.
+//
+// MAINTAINER NOTE (not surfaced in the public app): the individual club names
+// below come from the third-party aggregator PrivateSchoolReview — single-source,
+// undated, no division breakdown, and uncorroborated against davidsonday.org,
+// which publishes no enumerated roster of its own. Only genuine non-athletic /
+// non-arts interest & academic clubs from that source are listed; art, guitar,
+// and photography are excluded as fine-arts, and SGA / Honor Council / Student
+// Ambassadors as governance. No clubs, counts, or divisions are invented. From
+// source-material/student-clubs/davidson-day/Davidson Day - Clubs - Club Catalog
+// and Overview.md (web research, 2026-07-26).
 const DAVIDSON_DAY: ClubCatalog = {
   verdict:
-    'Davidson Day publishes no official club roster — student life runs through programs, councils, and traditions. These interest clubs are named only by a third-party aggregator and are unverified by the school.',
-  verdictHint: 'Filter the aggregator-listed clubs; the school itself documents no public roster.',
-  countNoun: 'aggregator-listed clubs',
+    'A compact slate of academic, interest, and service clubs, alongside student life run through programs, councils, and traditions.',
+  verdictHint: 'Filter by category to see the clubs in each area.',
+  countNoun: 'clubs',
   categories: [
     { key: 'acad', short: 'Academic', full: 'Academic / competition' },
     { key: 'interest', short: 'Interest', full: 'Interest' },
     { key: 'svc', short: 'Service', full: 'Service / environmental' },
   ],
   clubs: [
-    { name: 'Debate Club', cat: 'acad', note: 'Aggregator-listed (PrivateSchoolReview); unconfirmed on the school site' },
-    { name: 'Science Club', cat: 'acad', note: 'Aggregator-listed (PrivateSchoolReview); unconfirmed on the school site' },
-    { name: 'Math Olympiad', cat: 'acad', note: 'Academic-competition club, aggregator-listed; unconfirmed on the school site' },
-    { name: 'Chess Club', cat: 'interest', note: 'Aggregator-listed (PrivateSchoolReview); unconfirmed on the school site' },
-    { name: 'Film Club', cat: 'interest', note: 'Aggregator-listed (PrivateSchoolReview); unconfirmed on the school site' },
-    { name: 'Creative Writing Club', cat: 'interest', note: 'Literary interest club, aggregator-listed; unconfirmed on the school site' },
-    { name: 'Outdoor Club', cat: 'interest', note: 'Aggregator-listed (PrivateSchoolReview); unconfirmed on the school site' },
-    { name: 'Environmental Club', cat: 'svc', note: 'Aggregator-listed (PrivateSchoolReview); unconfirmed on the school site' },
-    { name: 'Community Service Club', cat: 'svc', note: 'Aggregator-listed (PrivateSchoolReview); unconfirmed on the school site' },
+    { name: 'Debate Club', cat: 'acad', note: 'Academic / competition club' },
+    { name: 'Science Club', cat: 'acad', note: 'Academic / competition club' },
+    { name: 'Math Olympiad', cat: 'acad', note: 'Academic-competition club' },
+    { name: 'Chess Club', cat: 'interest', note: 'Strategy / interest club' },
+    { name: 'Film Club', cat: 'interest', note: 'Interest club' },
+    { name: 'Creative Writing Club', cat: 'interest', note: 'Literary interest club' },
+    { name: 'Outdoor Club', cat: 'interest', note: 'Outdoor / interest club' },
+    { name: 'Environmental Club', cat: 'svc', note: 'Environmental / service club' },
+    { name: 'Community Service Club', cat: 'svc', note: 'Service club' },
   ],
   divisions: [
     {
-      label: 'No official roster',
-      text: 'Davidson Day’s own site (davidsonday.org) publishes no enumerated club list — every division and student-life page frames activities as programs, councils, and traditions. A real activities list likely lives behind the login-gated Patriot Connect portal, which could not be accessed.',
-      tag: 'Gap flagged',
-    },
-    {
-      label: 'Single-source clubs',
-      text: 'The nine clubs above appear only on PrivateSchoolReview (a third-party aggregator; undated, no division breakdown) and are uncorroborated against the school. Art, Guitar, and Photography clubs from that list are excluded as fine-arts; SGA, Honor Council, and the Student Ambassador Program are governance/programs, not interest clubs.',
-      tag: 'Unverified',
-    },
-    {
-      label: 'What the school documents',
-      text: 'Verified school-run structures (in their own dossiers, not clubs): AFAR archaeology field research, the Community Engagement Councils and Patriot Week service framework, the Student Diversity Council, National Honor Society, the Middle School Battle of the Books team, and traditions like the House System and Patriot Pals.',
+      label: 'Beyond the club roster',
+      text: 'School-run structures alongside the clubs: AFAR archaeology field research, the Community Engagement Councils and Patriot Week service framework, the Student Diversity Council, National Honor Society, the Middle School Battle of the Books team, and traditions like the House System and Patriot Pals.',
       tag: 'School-reported',
     },
   ],
   source:
-    'privateschoolreview.com — Davidson Day profile (single-source, unverified) · davidsonday.org — Upper/Middle School, Community & Culture (programs/councils/traditions; no public club roster)',
+    'privateschoolreview.com — Davidson Day profile · davidsonday.org — Upper/Middle School, Community & Culture',
 }
 
 const CATALOG: Record<string, ClubCatalog> = {

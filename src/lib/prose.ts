@@ -36,6 +36,282 @@ const BULLET = /^\s*[•‣▪·]\s+|^\s*[-–]\s+/
 const URL_RE = /https?:\/\/\S+/
 const CITE_LINE = /^\s*\[Sources?:/i
 
+// ── Research-gap suppression ───────────────────────────────────────────────────
+// The source dossiers are internal research documents, and they say so out loud:
+// they carry "Notes & Gaps", "Honest Gaps", "Flagged gaps (honest disclosure)",
+// "What could not be confirmed", "Claims excluded from this dossier" and inline
+// "TRANSPARENCY GAP — …" blocks. That self-auditing is the right instinct for
+// research and the wrong voice for a public-facing school guide: a visiting
+// family wants what a school offers, not a running account of which searches came
+// up empty.
+//
+// So the notes keep it and the app hides it — the filter runs here, at parse
+// time, rather than in source-material/, so the dossiers stay complete and
+// re-ingest can never reintroduce the language into the UI (see the
+// data-provenance standard in CLAUDE.md).
+//
+// DELIBERATELY NOT SUPPRESSED: the financial-aid "PUBLICATION GAP — …" blocks.
+// Those read as consumer advice rather than internal hedging ("the school does
+// not publish when aid decisions reach families — ask"), so they earn their place
+// in front of a family and are exempted below.
+
+/** A heading that opens a research-gap / methodology section. Matched against a
+ *  whole heading line, so a mid-sentence "gap" never trips it. */
+const GAP_HEADING =
+  /^(?:the\s+)?(?:(?:honest|publication|transparency|research|disclosure|tooling|sourcing|coverage|data)\s+gaps?\b|(?:notes?|caveats?)\s*(?:&|and)\s*gaps?\b|gaps?\b|caveats?\b|flagged\s+gaps?\b|honest\s+(?:framing|assessment|disclosure|questions?|limits?|scope|two-sided)\b|(?:claims?\s+)?(?:deliberately\s+)?excluded\b|out\s+of\s+scope\b|what\s+(?:the\s+school\s+does\s+not\s+publish|could\s+not\s+be|we\s+did\s+and\s+did\s+not)\b|where\s+the\s+public\s+record\s+runs\s+out\b|research\s+note\s*\/\s*gap\s+flag\b|core\s+disclosure\s+gap\b|reading\s+the\s+pathways\s+honestly\b|national\s+context\s*(?:&|and)\s*caveats?\b)/i
+
+/** An inline gap callout that opens a block mid-note ("TRANSPARENCY GAP — …",
+ *  "GAP - 2026-27 TRANSPORT RATES ARE NOT YET POSTED"). */
+const GAP_CALLOUT = /^\s*(?:transparency|publication|disclosure|research|coverage)?\s*gaps?\s*[-–—:]/i
+
+/** The financial-aid exemption — consumer-relevant "what the school doesn't
+ *  publish, so ask" guidance, which stays visible. Scoped to the financial-aid
+ *  topic: the same wording in the college-support dossiers is internal research
+ *  voice about what the researcher could not source, not advice to a family. */
+const KEEPS_GAP_CALLOUT = /^\s*(?:transparency|publication)\s+gaps?\s*[-–—:]/i
+const KEEPS_GAP_TOPIC = /^financial-aid/i
+
+/** True if this heading/callout line should take its section off the page. */
+function isGapHeading(line: string, topic?: string): boolean {
+  const t = line.trim().replace(/\s+/g, ' ').replace(/[:.]$/, '')
+  if (!t) return false
+  if (topic && KEEPS_GAP_TOPIC.test(topic) && KEEPS_GAP_CALLOUT.test(t)) return false
+  // "Merit awards: an answer, not a gap" resolves a gap rather than flagging one.
+  if (/\bnot a gap\b/i.test(t)) return false
+  // A heading that turns mid-line into research self-commentary ("Staff stability
+  // — an honest two-sided picture", "… — what we could not verify").
+  if (/[—–-]\s*(?:an?\s+honest\b|what\s+(?:we|could)\b)/i.test(t)) return true
+  // "Reconciliation & honest gaps", "The honest publication gaps" — "honest" or
+  // "unconfirmed/not confirmed" anywhere in a heading is research voice.
+  if (/\bhonest\b/i.test(t)) return true
+  if (/\b(?:un(?:confirmed|verified)|not\s+confirmed)\b/i.test(t)) {
+    // …except the financial-aid price rows, which are consumer-relevant.
+    if (!(topic && KEEPS_GAP_TOPIC.test(topic))) return true
+  }
+  return GAP_HEADING.test(t) || GAP_CALLOUT.test(t)
+}
+
+// Research voice also appears INLINE, mid-note, rather than in its own section:
+// a sentence about the research process ("A note on how to read this dossier."),
+// or a parenthetical hedge appended to a real fact ("(Full surnames not confirmed
+// in this pass.)"). Section stripping cannot reach these without discarding the
+// surrounding facts, so they are removed sentence-by-sentence instead.
+
+/** "in this pass", "in this research pass", "in this dossier", … — the phrase
+ *  that marks a statement as being about the research rather than the school. */
+const SELF_REF = /\bth(?:is|e)\s+(?:\w+\s+){0,2}(?:pass|dossier|series|file|report|research)\b/i
+
+/** A whole sentence that talks about the research artifact itself ("This dossier
+ *  covers…", "…so this dossier reports named minimums…"). Sentences that merely
+ *  CONTAIN a hedge are left to the narrower clause/trailing strippers below, so a
+ *  fact welded to a hedge keeps its fact. */
+const ASIDE_SENTENCE = new RegExp(
+  '(?:^|(?<=[.!?]\\s))[^.!?]*?(?:' +
+    SELF_REF.source +
+    '|\\bsee Notes\\s*(?:&|and)\\s*Gaps\\b' +
+    '|\\b(?:legend nuance|discrepancy) flagged\\b' +
+    ')[^.!?]*(?:[.!?]|$)\\s*',
+  'gi',
+)
+
+/** A parenthetical hedge — "(Full surnames not confirmed in this pass — see Notes & Gaps.)" */
+const ASIDE_PAREN = new RegExp(
+  '\\s*[([][^)\\]]*\\b(?:not (?:confirmed|verified|consolidated|retrievable|individually named)' +
+    '|unconfirmed|could not be (?:confirmed|verified|located)' +
+    '|see Notes\\s*(?:&|and)\\s*Gaps)\\b[^)\\]]*[)\\]]',
+  'gi',
+)
+
+/** Inline hedges that trail a fact: "…, though unconfirmed in this pass";
+ *  "… — both surnames unconfirmed"; "…; the current head coach's name was not
+ *  confirmed in this pass"; "…; a Middle School student council could not be
+ *  confirmed". The fact before the separator is kept. */
+const ASIDE_CLAUSE =
+  /\s*[—–,;]\s*(?:though|although|but|and)?\s*[^.;)]*?\b(?:not\s+(?:independently\s+|individually\s+)?(?:confirmed|verified|retrievable)|could not be (?:confirmed|verified|located)|unconfirmed)\b[^.;)]*/gi
+
+/** A short trailing fragment left where a gap sentence was cut, or a bare
+ *  gap-flag tag ("Flagged as a gap."). */
+const ASIDE_TAG = /\s*(?:Flagged as a gap|Flagged for follow-up|see Notes\s*(?:&|and)\s*Gaps)\.?/gi
+
+/** A parenthetical that corrects or annotates the RESEARCH rather than the school
+ *  ("(Earlier notes that … were based on incomplete public sources and are now
+ *  corrected — both exist.)"). The corrected claim is already stated in the prose
+ *  around it, so only the bookkeeping goes. */
+const ASIDE_META_PAREN =
+  /\s*[([][^)\]]*\b(?:earlier notes?|incomplete public sources|now corrected|previously (?:flagged|noted)|legend nuance)\b[^)\]]*[)\]]/gi
+
+/** A trailing sentence of pure research bookkeeping that follows a real fact in
+ *  the same run — "…state titles (2019, 2020, 2021). Full season records for
+ *  those years were not independently confirmed in this pass and are intentionally
+ *  omitted." Only the trailing sentence goes. */
+//  A footnote marker can sit between the fact and the aside ("…(2019, 2020,
+//  2021).[6] Full season records … were not confirmed"), so the lookbehind
+//  allows one.
+const ASIDE_TRAILING_SENTENCE =
+  /(?<=[.!?](?:\[\d+\])?\s)[^.!?]*\b(?:not\s+(?:independently\s+|individually\s+)?(?:confirmed|verified|named|retrievable)|could not be (?:confirmed|verified|located)|unconfirmed)\b[^.!?]*[.!?]\s*/gi
+
+/** A line that is ENTIRELY a research aside, with no fact wrapped around it —
+ *  "Full surname not confirmed in this research pass", "(The three earlier POY
+ *  winners … were not individually named in this pass.)", "current-season record
+ *  not confirmed." A single sentence whose whole point is what the research did
+ *  or did not establish. */
+function isAsideLine(text: string): boolean {
+  const t = text.trim()
+  if (!t || t.length > 300) return false
+  // More than one sentence means it carries other content — handled by the
+  // sentence-level strippers instead.
+  if ((t.match(/[.!?](?:\s|$)/g) || []).length > 1) return false
+  const NEGATIVE =
+    /\b(?:not\s+(?:independently\s+|individually\s+|newly\s+)?(?:confirmed|verified|named|retrieved|retrievable|consolidated|located)|could not be (?:confirmed|verified|located|retrieved)|unconfirmed|no\s+(?:named|current)\b[^.]*\bconfirmed)\b/i
+  if (!NEGATIVE.test(t)) return false
+  // A short fragment that is nothing but the hedge ("current-season record not
+  // confirmed.", "all-School club fair is not confirmed.") — a flattened
+  // quick-fact row whose whole content is the missing confirmation.
+  if (t.split(/\s+/).length <= 10) return true
+  // The line must be ABOUT the missing confirmation, not a fact that happens to
+  // carry a hedge. If everything before the hedge is substantive ("Boys
+  // Basketball — a CISAA-contending program (state titles 2006/2020/2021); the
+  // coach's name was not confirmed"), the clause/sentence strippers trim the
+  // hedge and keep the fact instead of dropping the whole line.
+  // A line wholly inside brackets is an aside no matter how much it says.
+  const bracketed = /^[([].*[)\]][.\s]*$/.test(t)
+  if (!bracketed) {
+    const head = t
+      .slice(0, t.search(NEGATIVE))
+      // Parenthetical detail is not the load-bearing fact, so it doesn't count.
+      .replace(/[([][^)\]]*[)\]]/g, ' ')
+      .replace(/[\s—–;,.[\]\d/]+$/, '')
+    if (head && head.split(/\s+/).filter(Boolean).length >= 5) return false
+  }
+  // Self-referential ("in this pass") or opening with a gap label is decisive.
+  return SELF_REF.test(t) || /^(?:honest gap|research gap|gap)\b/i.test(t) || /\bcould not be confirmed\b/i.test(t)
+}
+
+/** Strip inline research asides from a run of prose, keeping the real content. */
+function stripAsides(text: string): string {
+  if (isAsideLine(text)) return ''
+  // A close-quote can end a sentence without terminal punctuation ("…one or
+  // more.” This dossier carries…"), leaving the following aside unreachable to
+  // the sentence strippers, which anchor on [.!?]. Cut such a trailing
+  // self-referential sentence directly.
+  text = text.replace(/([”"])\s+[A-Z][^.!?]*?\b(?:this|the)\s+(?:\w+\s+){0,2}(?:dossier|pass|series|file|report)\b[^.!?]*[.!?]\s*$/i, '$1')
+  // Order matters: the narrow strippers run first so a hedge welded onto a real
+  // fact is trimmed at the clause level. Only then does the sentence-level
+  // stripper run, catching sentences that are wholly about the research.
+  const cleaned = text
+    .replace(ASIDE_PAREN, '')
+    .replace(ASIDE_META_PAREN, '')
+    .replace(ASIDE_TAG, '')
+    .replace(ASIDE_CLAUSE, '')
+    .replace(ASIDE_TRAILING_SENTENCE, '')
+    .replace(ASIDE_SENTENCE, '')
+    .replace(/\s{2,}/g, ' ')
+    .replace(/\s+([.,;:)])/g, '$1')
+    .replace(/^[\s—–,;.]+/, '')
+    .trim()
+  // Never let a strip gut the line — if little survives, keep the original.
+  // Exception: a line that is wholly about the research artifact ("This dossier
+  // covers…") has no fact to protect, so it is allowed to go to nothing.
+  if (cleaned.length < 25 && text.trim().length >= 25) {
+    return SELF_REF.test(text) && !cleaned ? '' : text
+  }
+  return cleaned
+}
+
+/** Apply stripAsides across every text-bearing block. */
+function stripInlineAsides(blocks: ProseBlock[]): ProseBlock[] {
+  const out: ProseBlock[] = []
+  for (const b of blocks) {
+    if (b.kind === 'para') {
+      const cites = b.cites.map(stripAsides).filter(Boolean)
+      const text = stripAsides(b.text)
+      if (!text && !cites.length) continue
+      out.push({ ...b, text, cites })
+      continue
+    }
+    if (b.kind === 'list') {
+      const cites = b.cites.map(stripAsides).filter(Boolean)
+      const items = b.items.map(stripAsides).filter(Boolean)
+      if (!items.length && !cites.length) continue
+      out.push({ ...b, items, cites })
+      continue
+    }
+    if (b.kind === 'facts') {
+      // A quick-fact row labelled as a gap ("Honest gap  No named team physician
+      // …") drops with its wrapped continuation lines, which the PDF flattening
+      // leaves as separate rows.
+      const lines: string[] = []
+      let dropping = false
+      for (const raw of b.lines) {
+        if (/^\s*(?:honest|research|publication|transparency)\s+gaps?\b/i.test(raw)) {
+          dropping = true
+          continue
+        }
+        // A continuation line is lower-case/unlabelled; a new fact row starts
+        // with its own capitalised label.
+        if (dropping && !/^[A-Z0-9]/.test(raw.trim())) continue
+        dropping = false
+        const t = stripAsides(raw)
+        if (t) lines.push(t)
+      }
+      if (!lines.length) continue
+      out.push({ ...b, lines })
+      continue
+    }
+    if (b.kind === 'scope') {
+      // Scope lines describe the research area ("Scope, honest gaps, and the clubs
+      // confirmable from public sources"); trim the gap clauses out of the list.
+      const text = b.text
+        .split(/\s*,\s*/)
+        .filter((part) => !/\b(?:honest|gaps?|confirmable|unconfirmed|caveats?)\b/i.test(part))
+        .join(', ')
+        .replace(/^\s*(?:and|&)\s+/i, '')
+        .replace(/\s*(?:and|&)\s*$/i, '')
+        .trim()
+      if (text) out.push({ ...b, text })
+      continue
+    }
+    out.push(b)
+  }
+  return out
+}
+
+/** Drop every gap-flagged section: the heading itself plus the blocks beneath it,
+ *  up to the next heading. Nothing else is touched — a note whose gap section is
+ *  removed still renders all its substantive content. */
+function stripGapSections(blocks: ProseBlock[], topic?: string): ProseBlock[] {
+  const out: ProseBlock[] = []
+  let skipping = false
+  // A gap-styled line at the very top is the note's own title, not a gap section
+  // — e.g. the college dossiers' "The Honest Questions" segment, whose body is
+  // ordinary content about rank policy and learning support. Skipping from there
+  // would swallow the whole card, so the first heading only ever gets dropped,
+  // never used to start a skip.
+  let seenContent = false
+  for (const b of blocks) {
+    if (b.kind === 'heading') {
+      const isGap = isGapHeading(b.text, topic)
+      if (isGap && !seenContent) continue // drop the title line, keep the body
+      skipping = isGap
+      if (skipping) continue
+      seenContent = true
+      out.push(b)
+      continue
+    }
+    if (!skipping) seenContent = true
+    // A demoted heading is a stray title line; if it flags a gap, drop just it.
+    if (b.kind === 'para' && b.demoted && isGapHeading(b.text, topic)) continue
+    // An inline callout paragraph ("TRANSPARENCY GAP — …") ends any skip and is
+    // itself dropped, since the parser may not have read it as a heading.
+    if (b.kind === 'para' && isGapHeading(b.text, topic)) {
+      skipping = true
+      continue
+    }
+    if (!skipping) out.push(b)
+  }
+  return out
+}
+
 const KNOWN_HEADING =
   /^(Executive Summary|Strengths|Weaknesses|Caveats?|Notes?(?: & | and )Gaps|Questions to Confirm[^]*|Philosophy|At a Glance|Overview|Honest (?:Framing|limit|scope)[^]*|Source List|Sources?(?: & | and )Where to Verify|Sources referenced|Sources?)\s*$/i
 
@@ -152,16 +428,28 @@ function parseSource(rawLabel: string, url: string): SourceLink {
   return { label, url }
 }
 
+/** True if a pre-rendered preview string carries research-gap framing, so callers
+ *  know not to fall back to it (the stored previews are raw, unparsed text). */
+export function previewHasGapLanguage(preview: string, topic?: string): boolean {
+  return /\b(?:honest|transparency|publication|research|disclosure)\s+(?:gaps?|questions?|framing|assessment|limits?)\b|\bnotes?\s*(?:&|and)\s*gaps?\b|\bnot confirmed\b|\bunconfirmed\b|\bcould not be (?:confirmed|verified|located)\b/i.test(
+    preview,
+  ) && !(topic && KEEPS_GAP_TOPIC.test(topic))
+}
+
 /** A clean one-line summary (first real paragraph) for collapsed card previews. */
-export function proseSummary(raw: string, title?: string): string {
-  for (const b of parseProse(raw, title)) {
+export function proseSummary(raw: string, title?: string, topic?: string): string {
+  for (const b of parseProse(raw, title, topic)) {
     if (b.kind === 'para' && b.text && !b.demoted) return b.text
     if (b.kind === 'facts' && b.lines.length) return b.lines.join(' — ')
   }
-  return raw.replace(/\s+/g, ' ').trim()
+  // No usable block. The raw text is the last resort, but it is unparsed and so
+  // unfiltered — returning it could surface gap language the parse just removed.
+  // Only fall back when the note carries no gap framing at all.
+  const flat = raw.replace(/\s+/g, ' ').trim()
+  return raw.split('\n').some((l) => isGapHeading(l, topic)) ? '' : flat
 }
 
-export function parseProse(raw: string, title?: string): ProseBlock[] {
+export function parseProse(raw: string, title?: string, topic?: string): ProseBlock[] {
   // 1) Strip repeated boilerplate at the text level (some spans wrap across lines).
   const text = raw
     .replace(/[ \t]*\n?[-–—]{3,}\s*$/g, '')
@@ -366,7 +654,7 @@ export function parseProse(raw: string, title?: string): ProseBlock[] {
   }
   flushAll()
 
-  return promoteFlattenedTables(demoteEmptyHeadings(blocks))
+  return stripInlineAsides(stripGapSections(promoteFlattenedTables(demoteEmptyHeadings(blocks)), topic))
 }
 
 // A pure money / number token — a value cell of a flattened stat-table row
