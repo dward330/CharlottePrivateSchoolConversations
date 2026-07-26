@@ -121,6 +121,7 @@ export function orderTopicSlugs(slugs: string[]): string[] {
 // order after the listed ones; topics without an entry keep document order entirely.
 const SECTION_ORDER: Record<string, string[]> = {
   'after-school': ['overview', 'details', 'enrichment', 'aftercare', 'in-depth-report'],
+  'the-arts': ['overview', 'awards', 'performing-arts', 'visual-arts', 'facilities', 'in-depth-report'],
 }
 
 /** Stable-sort metric keys into the topic's explicit page order, if it has one. */
