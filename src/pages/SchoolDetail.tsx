@@ -354,12 +354,21 @@ export function SchoolDetail({ slug }: { slug: string }) {
             const sportsCards = sports
               ? SPORTS_CARDS.filter((c) => sports[c.key] != null)
               : []
-            /* The Arts is six ingested sub-sections but five consolidated
-               cards on the page (see data/artsProgram.ts) — same substitution
-               as Sports. A school with no theatre season and no awards history
-               simply omits 1b rather than rendering it empty. */
-            const arts = t.slug === 'the-arts' ? artsProgram(slug) : undefined
-            const artsCards = arts ? ARTS_CARDS.filter((c) => arts[c.key] != null) : []
+            /* The Arts is six ingested sub-sections but five consolidated cards
+               on the page (see data/artsProgram.ts) — same substitution as
+               Sports. A school with no theatre season and no awards history
+               simply omits 1b rather than rendering it empty.
+
+               A school whose structured entry has no cards at all must keep
+               rendering its ingested prose: an entry that is present but empty
+               is still truthy, and would otherwise suppress the prose and leave
+               the whole section blank. */
+            const artsEntry = t.slug === 'the-arts' ? artsProgram(slug) : undefined
+            const artsCardList = artsEntry
+              ? ARTS_CARDS.filter((c) => artsEntry[c.key] != null)
+              : []
+            const arts = artsCardList.length > 0 ? artsEntry : undefined
+            const artsCards = artsCardList
             const cardCount = offerings
               ? offerings.divisions.length
               : sports
