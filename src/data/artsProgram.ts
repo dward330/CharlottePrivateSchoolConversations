@@ -1,0 +1,344 @@
+// The "The Arts" research area — five consolidated cards per school, replacing
+// the six prose sub-sections the ingest pipeline produces (see
+// components/ArtsProgram.tsx).
+//
+// Recreates the design's "Arts Section Redesign" using the app's own tokens
+// (src/index.css). The design's premise: arts parents ask by DISCIPLINE — "my
+// kid sings", "my kid draws", "my kid wants the stage" — but the old card set
+// scattered each discipline's proof into a separate "Awards & Recognition"
+// card, away from the program it validated. So each discipline card here
+// absorbs its own recognition, the overview becomes a division-by-division
+// ladder, and the In-Depth Report becomes what it really is: a verdict plus a
+// visit checklist.
+//
+//   1a The TK–12 Arts Ladder      — division rungs, stat strip, enrichment layer
+//   1b Theatre & the Blumeys      — season rhythm + year-by-year awards ledger
+//   1c Music & the Honors Pipeline — ensemble board + numbered honors ladder
+//   1d Studio to Gallery          — studio media, course path, exhibit calendar
+//   1e Verdict & Visit Checklist  — why it holds up + tickable tour questions
+//
+// Every figure here is transcribed from that school's OWN published arts pages,
+// Blumenthal Arts / Blumey nominee lists, NCTC results, or named news coverage
+// — see the committed research files under source-material/the-arts/<school>/
+// for the hard data, source URLs, and per-school gap notes. Nothing is
+// inferred, averaged, or carried across schools.
+//
+// Cards are OPTIONAL by design. A school with no theatre season and no awards
+// history gets no 1b; one with no documented honors pipeline may still get a
+// 1c if its ensembles are real. Rendering a thin card would imply the research
+// found nothing when the truth is the school publishes nothing — see the
+// `ArtsProgram` fields, all of which may be undefined. Card order and numbering
+// stay fixed across schools for the cards that do render.
+
+/* ---------------------------------------------------------------- shared -- */
+
+/** A citation shown in a card's SOURCE row. `url` makes it a clickable link. */
+export type ArtsSource = {
+  /** Human-readable label, e.g. "providenceday.org — US Arts". */
+  label: string
+  /** Deep link to the specific page the fact came from. */
+  url?: string
+}
+
+/** A stat tile in a card's four-up strip. */
+export type ArtsStat = {
+  /** Large figure, e.g. "TK–12" or "3 AP". */
+  value: string
+  /** Caption beneath, e.g. "continuous arts program". */
+  label: string
+}
+
+/**
+ * A real photograph of this school's own arts space. The design gives cards
+ * 1a / 1b / 1d a photo slot; per the handoff, a slot with no genuine photo is
+ * dropped entirely rather than shipped as an empty placeholder, and the
+ * adjacent column takes the full width.
+ */
+export type ArtsPhoto = {
+  /** Path under public/, e.g. "/arts/providence-day-mcmahon.jpg". */
+  src: string
+  /** Venue or subject name, bolded in the caption. */
+  name: string
+  /** Muted caption line describing what the space holds. */
+  caption?: string
+  /** Where the photo came from — required for attribution. */
+  credit?: string
+}
+
+/* --------------------------------------------------------- 1a arts ladder -- */
+
+/** One division column of the ladder — a rung on the TK–12 climb. */
+export type Division = {
+  /** e.g. "Lower School". */
+  name: string
+  /** Grade range shown beside the name, e.g. "TK–5". */
+  grades?: string
+  /** What arts arrive at this rung, one line each. */
+  items: string[]
+}
+
+/** One row of the enrichment layer beneath the ladder. */
+export type EnrichmentRow = {
+  /** e.g. "Spotlight on the Arts", "Visiting artists". */
+  label: string
+  text: string
+}
+
+export type ArtsLadder = {
+  /** Lead sentence, bolded on the card. */
+  headline: string
+  /** Muted continuation of the headline. */
+  subhead?: string
+  /** Four-up stat strip above the ladder. */
+  stats: ArtsStat[]
+  divisions: Division[]
+  /** Heading over the enrichment rows, e.g. "The enrichment layer". */
+  enrichmentTitle?: string
+  enrichment: EnrichmentRow[]
+  /** The facility photo. Omitted when no genuine photo could be sourced. */
+  photo?: ArtsPhoto
+  sources: ArtsSource[]
+}
+
+/* ------------------------------------------------------------- 1b theatre -- */
+
+/** One half of the season board — the fall slot or the spring slot. */
+export type SeasonSlot = {
+  /** "Fall" | "Spring", or the school's own framing. */
+  season: string
+  /** What kind of show fills it, e.g. "Play / One-Act", "Musical". */
+  kind: string
+  /** Current and recent productions, as prose. */
+  detail: string
+}
+
+/**
+ * One year of the awards ledger. The design renders these as a scrollable
+ * list with a sticky header; `win` fills the WIN chip.
+ */
+export type AwardRow = {
+  /** e.g. "2025". */
+  year: string
+  /** The show that was judged, e.g. "Peter Pan". */
+  show: string
+  /** What it won or was nominated for. */
+  result: string
+  /** Renders the filled WIN chip ahead of the result. */
+  win?: boolean
+}
+
+export type Theatre = {
+  headline: string
+  subhead?: string
+  /** Heading over the season board. */
+  seasonTitle?: string
+  /** Fall and spring slots. Omit the card if a school has no season at all. */
+  season: SeasonSlot[]
+  /** Who runs it — director, technical director, the tech-theater track. */
+  whoRunsIt?: string
+  /** Closing note on venue, ticketing, festival participation. */
+  venueNote?: string
+  /**
+   * Heading over the ledger, e.g. "The Blumey ledger". Adapted per school:
+   * a school outside the Blumey footprint gets its own framing.
+   */
+  ledgerTitle?: string
+  /**
+   * Year-by-year external judging. Omitted entirely when a school has no
+   * awards history — the card still renders on its season data alone.
+   */
+  ledger?: AwardRow[]
+  /** The "honest context" note — where this school sits in the field. */
+  honestContext?: string
+  /** The theatre photo. Omitted when no genuine photo could be sourced. */
+  photo?: ArtsPhoto
+  sources: ArtsSource[]
+}
+
+/* --------------------------------------------------------------- 1c music -- */
+
+/**
+ * One track of the ensemble board. The design splits ensembles by how a
+ * student gets in, because that is the question a parent is actually asking.
+ */
+export type EnsembleTrack = {
+  /** e.g. "Curricular — join by enrolling", "Auditioned — earn a seat". */
+  label: string
+  /** Ensemble names in this track. */
+  ensembles: string[]
+}
+
+/** One numbered rung of the honors ladder. */
+export type HonorsRung = {
+  /** Bolded lead, e.g. "Join an ensemble". */
+  label: string
+  text: string
+}
+
+export type Music = {
+  headline: string
+  subhead?: string
+  boardTitle?: string
+  tracks: EnsembleTrack[]
+  /** Note beneath the board — who chairs it, affiliations. */
+  boardNote?: string
+  ladderTitle?: string
+  /** The join → audition up → external honors → honor society climb. */
+  ladder: HonorsRung[]
+  /** Note beneath the ladder — usually what could not be confirmed. */
+  ladderNote?: string
+  sources: ArtsSource[]
+}
+
+/* -------------------------------------------------------- 1d visual arts -- */
+
+/** One tile of the studio-media grid. */
+export type Medium = {
+  /** e.g. "Film photography". */
+  name: string
+  /** Muted qualifier, e.g. "shot, developed & printed in-house". */
+  detail?: string
+}
+
+/** One step of the course path chevron, e.g. Art I → Art II → AP Studio Art. */
+export type CourseStep = {
+  name: string
+  /** The terminal course, rendered as a filled accent chip. */
+  terminal?: boolean
+}
+
+/** One column of the "where the work goes public" exhibition calendar. */
+export type Exhibit = {
+  /** Cadence kicker, e.g. "Spring", "Annual", "Monthly". */
+  when: string
+  name: string
+  detail?: string
+}
+
+export type VisualArts = {
+  headline: string
+  subhead?: string
+  mediaTitle?: string
+  media: Medium[]
+  pathTitle?: string
+  path: CourseStep[]
+  /** Trailing note on the path, e.g. "AP Art History runs parallel". */
+  pathNote?: string
+  exhibitsTitle?: string
+  exhibits: Exhibit[]
+  /** Faculty roster and recognition caveats. */
+  footnote?: string
+  /** The studio / darkroom photo. Omitted when none could be sourced. */
+  photo?: ArtsPhoto
+  sources: ArtsSource[]
+}
+
+/* ------------------------------------------------------------- 1e verdict -- */
+
+export type Verdict = {
+  headline: string
+  subhead?: string
+  holdsUpTitle?: string
+  /** The "why it holds up" checkmark rows. */
+  holdsUp: { label: string; text: string }[]
+  askTitle?: string
+  /** Tickable "ask on the tour" questions. */
+  ask: string[]
+  sources: ArtsSource[]
+}
+
+/* --------------------------------------------------------------- program -- */
+
+/**
+ * One school's full Arts research area. Every card is optional: a school with
+ * no theatre season and no awards history omits `theatre`, one that publishes
+ * no ensemble detail omits `music`. SchoolDetail renders only the cards
+ * present, in this fixed order, so numbering stays consistent across schools.
+ */
+export type ArtsProgram = {
+  ladder?: ArtsLadder
+  theatre?: Theatre
+  music?: Music
+  visual?: VisualArts
+  verdict?: Verdict
+}
+
+/**
+ * Per-card metadata: the number badge, title, and kicker shown on each card.
+ * `title` is the default; a school may override it via `TITLE_OVERRIDES` below
+ * when a regional award does not apply to it.
+ */
+export const ARTS_CARDS = [
+  { key: 'ladder', num: '1a', title: 'The TK–12 Arts Ladder', kicker: 'Topic 01 of 05' },
+  { key: 'theatre', num: '1b', title: 'Theatre & the Blumeys', kicker: 'Topic 02 of 05' },
+  { key: 'music', num: '1c', title: 'Music & the Honors Pipeline', kicker: 'Topic 03 of 05' },
+  { key: 'visual', num: '1d', title: 'Studio to Gallery', kicker: 'Topic 04 of 05' },
+  { key: 'verdict', num: '1e', title: 'Verdict & Visit Checklist', kicker: 'Topic 05 of 05' },
+] as const satisfies readonly {
+  key: keyof ArtsProgram
+  num: string
+  title: string
+  kicker: string
+}[]
+
+/**
+ * Per-school card-title overrides. Two reasons a title changes:
+ *
+ *  - the grade span differs (Cannon and Country Day start at JrK/JK, not TK;
+ *    Davidson Day starts at age 2), so the ladder is named for that school;
+ *  - the Blumey Awards do not apply. The Blumeys are Blumenthal Performing
+ *    Arts' Charlotte-region high-school musical-theater awards; a school that
+ *    has never been in that field gets "Theatre & External Recognition"
+ *    instead, so the card never implies a competition the school isn't in.
+ */
+const TITLE_OVERRIDES: Record<string, Partial<Record<keyof ArtsProgram, string>>> = {
+  cannon: {
+    ladder: 'The JrK–12 Arts Ladder',
+    theatre: 'Theatre & External Recognition',
+  },
+  'charlotte-country-day': {
+    ladder: 'The JK–12 Arts Ladder',
+  },
+  'charlotte-christian': {
+    ladder: 'The JK–12 Arts Ladder',
+  },
+  'davidson-day': {
+    ladder: 'The Age 2–12 Arts Ladder',
+    theatre: 'Theatre & External Recognition',
+  },
+}
+
+/** The card title for a school, applying any per-school override. */
+export function artsCardTitle(
+  slug: string,
+  card: (typeof ARTS_CARDS)[number],
+): string {
+  return TITLE_OVERRIDES[slug]?.[card.key] ?? card.title
+}
+
+/* ------------------------------------------------------------ school data -- */
+
+/**
+ * Per-school entries live in ./artsPrograms/<slug>.ts so each school's research
+ * stays reviewable on its own. Add a school by importing it here.
+ */
+import { providenceDay } from './artsPrograms/providence-day.ts'
+import { charlotteLatin } from './artsPrograms/charlotte-latin.ts'
+import { charlotteChristian } from './artsPrograms/charlotte-christian.ts'
+import { charlotteCountryDay } from './artsPrograms/charlotte-country-day.ts'
+import { cannon } from './artsPrograms/cannon.ts'
+import { davidsonDay } from './artsPrograms/davidson-day.ts'
+
+const PROGRAMS: Record<string, ArtsProgram> = {
+  'providence-day': providenceDay,
+  'charlotte-latin': charlotteLatin,
+  'charlotte-christian': charlotteChristian,
+  'charlotte-country-day': charlotteCountryDay,
+  cannon: cannon,
+  'davidson-day': davidsonDay,
+}
+
+/** The structured Arts program for a school, or undefined if not yet built. */
+export function artsProgram(slug: string): ArtsProgram | undefined {
+  return PROGRAMS[slug]
+}

@@ -2330,3 +2330,362 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   .sports-honor .tag-outline { justify-self: start; }
   .sports-tenure { grid-template-columns: 1fr 1fr; }
 }
+
+/* ============================================================================
+   The Arts research area — the five consolidated cards
+   (components/ArtsProgram.tsx, data/artsProgram.ts). Recreates the Claude
+   Design "Arts Section Redesign" with this app's tokens. Reuses the existing
+   .tag-* / .srcrow primitives so the Arts cards read as the same system as
+   Sports, Club Catalog, and Course Offerings.
+   ============================================================================ */
+
+.arts-body { font-size: 14px; }
+
+.arts-lead {
+  margin: 0 0 16px;
+  font-size: 14.5px;
+  line-height: 1.5;
+}
+
+/* Section heading inside a card body. */
+.arts-h {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.arts-h-hint { font-weight: 400; letter-spacing: 0; text-transform: none; }
+
+.arts-p { margin: 0 0 10px; font-size: 13px; line-height: 1.6; }
+
+.arts-note {
+  margin: 10px 0 16px;
+  font-size: 12.5px;
+  line-height: 1.55;
+}
+.arts-note-strong { color: var(--text); }
+
+/* TO VERIFY / qualifier tag, inline after a figure. */
+.arts-verify {
+  font-size: 9px;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+
+/* -- 1a · stat strip + division ladder ------------------------------------ */
+
+.arts-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  margin-bottom: 20px;
+}
+.arts-stat { background: var(--bg); padding: 12px 14px; }
+.arts-stat-val {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 1.1;
+}
+.arts-stat-label { font-size: 12px; margin-top: 2px; }
+
+/* The ladder: one column per division, hairline-separated. */
+.arts-divisions {
+  display: grid;
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  margin-bottom: 20px;
+}
+.arts-division { background: var(--bg); padding: 14px; }
+.arts-division-head {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 6px;
+  margin-bottom: 8px;
+}
+.arts-division-head .text-muted {
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+.arts-division-list {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+/* Photo beside a column of content. Without a photo the wrapper class is not
+   applied at all, so the content block takes the full width. */
+.arts-figsplit {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 24px;
+  align-items: start;
+  margin-bottom: 16px;
+}
+.arts-figsplit.is-reverse { grid-template-columns: 1fr 300px; }
+
+.arts-photo { margin: 0; }
+.arts-photo img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+}
+.arts-photo figcaption { font-size: 12px; margin-top: 6px; line-height: 1.5; }
+.arts-photo figcaption strong { font-family: var(--heading); font-size: 14px; }
+.arts-credit { font-size: 10.5px; margin-top: 2px; }
+
+/* The enrichment layer — label / text rows. */
+.arts-enrich { display: flex; flex-direction: column; font-size: 13px; }
+.arts-enrich-row {
+  display: grid;
+  grid-template-columns: 170px 1fr;
+  gap: 12px;
+  border-bottom: 1px solid var(--border);
+  padding: 10px 0;
+  line-height: 1.55;
+}
+.arts-enrich-row:last-child { border-bottom: none; }
+.arts-enrich-label { font-family: var(--heading); font-size: 15px; }
+
+/* -- 1b · season board + awards ledger ------------------------------------ */
+
+.arts-season {
+  display: grid;
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  margin-bottom: 12px;
+}
+.arts-season-slot { background: var(--bg); padding: 12px 14px; }
+.arts-season-kicker {
+  font-size: 10.5px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+.arts-season-kind { font-family: var(--heading); font-weight: 600; font-size: 17px; }
+.arts-season-detail { font-size: 12.5px; line-height: 1.5; margin-top: 4px; }
+
+.arts-scroll {
+  max-height: 240px;
+  overflow-y: auto;
+  border: 1px solid var(--border);
+  margin-bottom: 12px;
+}
+.arts-ledger {
+  display: grid;
+  grid-template-columns: 70px 220px 1fr;
+  font-size: 13px;
+}
+/* Sticky header so the year/show/result columns stay labelled while scrolling. */
+.arts-th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: var(--bg);
+  color: var(--muted);
+  padding: 8px 12px;
+  font-size: 10.5px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--border);
+}
+.arts-ledger-year,
+.arts-ledger-show,
+.arts-ledger-result {
+  padding: 9px 12px;
+  border-bottom: 1px solid var(--border);
+  line-height: 1.5;
+}
+.arts-ledger-year { font-family: var(--heading); font-weight: 600; font-size: 15px; }
+.arts-win {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 11px;
+  background: var(--accent);
+  color: var(--bg);
+  padding: 2px 7px;
+  margin-right: 6px;
+}
+
+/* -- 1c · ensemble board + honors ladder ---------------------------------- */
+
+.arts-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 16px;
+}
+.arts-panel { border-left: 1px solid var(--border); padding-left: 24px; }
+
+.arts-board { border: 1px solid var(--border); }
+.arts-board-label {
+  padding: 7px 12px;
+  font-size: 10.5px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+}
+.arts-board-row { display: grid; font-size: 13px; }
+.arts-ensemble {
+  padding: 9px 12px;
+  border-bottom: 1px solid var(--border);
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 15px;
+}
+.arts-board > div:last-child .arts-ensemble:last-child { border-bottom: none; }
+
+.arts-rungs { display: flex; flex-direction: column; }
+.arts-rung {
+  display: grid;
+  grid-template-columns: 26px 1fr;
+  gap: 12px;
+  padding: 9px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 13px;
+  line-height: 1.5;
+}
+.arts-rung:last-child { border-bottom: none; }
+.arts-rung-num {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--accent-700);
+}
+
+/* -- 1d · studio media, course path, exhibits ----------------------------- */
+
+.arts-media {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  margin-bottom: 16px;
+}
+.arts-medium { background: var(--bg); padding: 8px 12px; font-size: 13px; }
+.arts-medium strong { font-family: var(--heading); font-size: 15px; }
+.arts-medium .text-muted { font-size: 12px; }
+
+.arts-path {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+.arts-path-item { display: inline-flex; align-items: center; gap: 8px; }
+.arts-path-arrow { flex: none; }
+.arts-step {
+  padding: 5px 12px;
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 14px;
+  border: 1px solid var(--border);
+}
+.arts-step.is-terminal {
+  background: var(--accent);
+  color: var(--bg);
+  border-color: var(--accent);
+}
+.arts-path-note { font-size: 12px; }
+
+.arts-exhibits {
+  display: grid;
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  margin-bottom: 12px;
+}
+.arts-exhibit { background: var(--bg); padding: 12px 14px; }
+.arts-exhibit-when {
+  font-size: 10.5px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+}
+.arts-exhibit-name { font-family: var(--heading); font-weight: 600; font-size: 15px; }
+.arts-exhibit-detail { font-size: 12px; line-height: 1.45; margin-top: 3px; }
+
+/* -- 1e · verdict + visit checklist --------------------------------------- */
+
+.arts-checks { display: flex; flex-direction: column; font-size: 13px; line-height: 1.55; }
+.arts-check {
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  gap: 10px;
+  padding: 9px 0;
+  border-bottom: 1px solid var(--border);
+}
+.arts-check:last-child { border-bottom: none; }
+.arts-tick { color: var(--accent-700); font-family: var(--heading); font-weight: 600; }
+
+.arts-asks { display: flex; flex-direction: column; font-size: 13px; line-height: 1.55; }
+.arts-ask {
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  gap: 10px;
+  padding: 9px 0;
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+  align-items: start;
+}
+.arts-ask:last-child { border-bottom: none; }
+.arts-ask input {
+  accent-color: var(--accent);
+  margin: 2px 0 0;
+  width: 15px;
+  height: 15px;
+}
+
+/* Card SOURCE row — same rhythm as the other cards' source rows. */
+.arts-src {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+  flex-wrap: wrap;
+  border-top: 1px solid var(--border);
+  padding-top: 12px;
+  font-size: 12px;
+}
+.arts-src .tag-outline { font-size: 10px; flex: none; }
+
+/* The Arts cards are wide, structured layouts: never reflow them into the
+   two-column prose columns .note-card[open] applies by default. */
+.note-card-arts[open] .note-card-body { column-count: 1; }
+
+@media (max-width: 900px) {
+  .arts-divisions,
+  .arts-season,
+  .arts-split,
+  .arts-media,
+  .arts-exhibits { grid-template-columns: 1fr !important; }
+  .arts-figsplit,
+  .arts-figsplit.is-reverse { grid-template-columns: 1fr; }
+  .arts-panel { border-left: none; padding-left: 0; }
+  .arts-stats { grid-template-columns: 1fr 1fr; }
+  .arts-enrich-row { grid-template-columns: 1fr; gap: 4px; }
+  /* The ledger keeps its column widths and scrolls sideways rather than
+     crushing — the scroller owns the overflow. */
+  .arts-scroll { overflow-x: auto; }
+  .arts-ledger { min-width: 560px; }
+}
