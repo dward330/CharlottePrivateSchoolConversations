@@ -354,11 +354,6 @@ const CANNON: ClubCatalog = {
       text: 'Service runs deep — ~15,000 school-wide hours a year (not a graduation requirement), Senior Capstone philanthropy projects, and a House Day of Service — but as frameworks/traditions rather than standing clubs. Affinity work sits under the Diversity, Belongingness & Engagement (DBE) commitment.',
       tag: 'School-reported',
     },
-    {
-      label: 'Roster gap',
-      text: 'Cannon does not publish a centralized, chartered club directory. The organizations above are those it names on its own pages and Deans’ Daily Download — representative, not exhaustive. A precise club count is not supportable from public sources.',
-      tag: 'Gap flagged',
-    },
   ],
   source:
     'cannonschool.org — Upper / Middle / Lower School Student Life · Esports · Student Profile · Deans’ Daily Download · Niche (named orgs only; no public chartered directory)',
