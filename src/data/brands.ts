@@ -14,19 +14,55 @@
 // for each are in `source-material/branding/<slug>/`. These are trademarked marks kept
 // for a private research tool; schools without a logo simply show no crest.
 
+// `welcomeVideoUrl` is the school's own introduction video, embedded above the
+// research areas on its dossier page. Must be a YouTube **embed** URL
+// (`https://www.youtube.com/embed/<id>`), not a watch/share link. Optional —
+// schools without one hide the Welcome Video section and its two TOC entries.
+
 export type Brand = {
   color: string
   initials: string
   logo?: string
+  welcomeVideoUrl?: string
 }
 
 export const BRANDS: Record<string, Brand> = {
-  cannon: { color: '#8a2433', initials: 'CA', logo: '/logos/cannon.png' }, // Cougars — maroon & gold
-  'charlotte-christian': { color: '#1e40af', initials: 'CC', logo: '/logos/charlotte-christian.png' }, // Knights — royal blue & white
-  'charlotte-country-day': { color: '#107a43', initials: 'CD', logo: '/logos/charlotte-country-day.png' }, // Buccaneers — green & gold
-  'charlotte-latin': { color: '#12294f', initials: 'CL', logo: '/logos/charlotte-latin.png' }, // Hawks — navy & white
-  'davidson-day': { color: '#1e5fd1', initials: 'DD', logo: '/logos/davidson-day.png' }, // Patriots — red, white & navy
-  'providence-day': { color: '#be123c', initials: 'PD', logo: '/logos/providence-day.png' }, // Chargers — red, white & navy
+  cannon: {
+    color: '#8a2433', // Cougars — maroon & gold
+    initials: 'CA',
+    logo: '/logos/cannon.png',
+    welcomeVideoUrl: 'https://www.youtube.com/embed/dI5x4KEkBSY',
+  },
+  'charlotte-christian': {
+    color: '#1e40af', // Knights — royal blue & white
+    initials: 'CC',
+    logo: '/logos/charlotte-christian.png',
+    welcomeVideoUrl: 'https://www.youtube.com/embed/Be0ULPLDrMM',
+  },
+  'charlotte-country-day': {
+    color: '#107a43', // Buccaneers — green & gold
+    initials: 'CD',
+    logo: '/logos/charlotte-country-day.png',
+    welcomeVideoUrl: 'https://www.youtube.com/embed/voNR9UF346g',
+  },
+  'charlotte-latin': {
+    color: '#12294f', // Hawks — navy & white
+    initials: 'CL',
+    logo: '/logos/charlotte-latin.png',
+    welcomeVideoUrl: 'https://www.youtube.com/embed/QvM-MuKndus',
+  },
+  'davidson-day': {
+    color: '#1e5fd1', // Patriots — red, white & navy
+    initials: 'DD',
+    logo: '/logos/davidson-day.png',
+    welcomeVideoUrl: 'https://www.youtube.com/embed/wTYvCc7FXCs',
+  },
+  'providence-day': {
+    color: '#be123c', // Chargers — red, white & navy
+    initials: 'PD',
+    logo: '/logos/providence-day.png',
+    welcomeVideoUrl: 'https://www.youtube.com/embed/EfrQPAWsqv8',
+  },
 }
 
 const FALLBACK_COLOR = '#5b6472'

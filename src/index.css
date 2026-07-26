@@ -257,6 +257,14 @@ main { flex: 1; }
 }
 .chip:hover { color: var(--text); border-color: var(--brand); }
 .chip.is-active { color: var(--ink); border-color: var(--brand); }
+/* Accent-tinted variant — marks the Welcome Video tag as not-a-research-area
+   against the neutral topic chips beside it. */
+.chip-accent {
+  color: var(--brand);
+  border-color: color-mix(in srgb, var(--brand) 45%, transparent);
+  background: color-mix(in srgb, var(--brand) 8%, transparent);
+}
+.chip-accent:hover { color: var(--brand); border-color: var(--brand); }
 
 /* neutral tag with a small accent topic glyph (school directory cards) */
 .mini-chip {
@@ -466,8 +474,53 @@ main { flex: 1; }
 .dossier-nav a.is-active .count { color: var(--ink); }
 .dossier-nav .count { font-family: var(--sans); font-weight: 400; font-size: 12px; color: var(--muted); }
 .dossier-nav-hint { font-size: 11.5px; line-height: 1.5; color: var(--muted); padding: 14px 10px 0; margin: 0; }
+/* Welcome Video sits above the "Research areas" group label and carries no
+   count badge, so it centers its label+icon instead of the nav's space-between. */
+.dossier-nav-welcome {
+  justify-content: flex-start !important;
+  margin-bottom: 10px;
+  color: var(--brand);
+}
 
 .dossier-main { display: flex; flex-direction: column; gap: 56px; min-width: 0; }
+
+/* ---- Welcome Video ---------------------------------------------------------
+   Not a research area: same blueprint frame as the note cards, but no count,
+   no expand behavior, and no source citations. */
+.welcome-head {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 10px;
+  margin-bottom: 16px;
+}
+.welcome-head h2 { font-size: clamp(24px, 3vw, 30px); margin: 0; }
+.welcome-head .glyph { color: var(--brand); align-self: center; display: inline-flex; }
+.welcome-note { color: var(--muted); font-size: 13px; }
+
+.welcome-section { scroll-margin-top: 80px; }
+.welcome-frame {
+  position: relative;
+  border: 1px solid var(--border);
+  padding: 16px;
+}
+/* 16:9 box that tracks the column width; the iframe fills it absolutely so the
+   ratio holds regardless of the iframe's own width/height attributes. */
+.welcome-embed {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  background: color-mix(in srgb, var(--brand) 88%, black);
+}
+.welcome-embed iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.welcome-caption { color: var(--muted); font-size: 12.5px; margin: 12px 0 0; }
 
 .topic-section { scroll-margin-top: 80px; }
 .topic-section-head {
