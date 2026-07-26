@@ -1648,3 +1648,136 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   .topic-section { break-before: auto; }
   a { text-decoration: none; }
 }
+
+/* ══════════════════════════════════════════════════════════════════════════
+   Course Offerings — the per-division cards on a school page. Department tabs
+   drive a fixed-height scrolling course list. Every value below resolves to an
+   existing token (--border, --muted, --accent-700, --accent-900, --bg,
+   --heading), so dark mode is handled by the two :root dark blocks with no
+   component-level overrides.
+   ══════════════════════════════════════════════════════════════════════════ */
+
+/* Grade-band kicker above the card title, e.g. "TK – GRADE 5". */
+.course-kicker {
+  font-size: 10.5px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent-700);
+}
+
+/* An honest note where a school publishes subject areas, not named courses. */
+.courses-gap {
+  margin: 0 0 12px;
+  font-size: 12.5px;
+  line-height: 1.5;
+  color: var(--muted);
+  border-left: 2px solid var(--border);
+  padding-left: 10px;
+}
+
+/* Department tabs — transparent hairline buttons; the active one is the single
+   filled object, mirroring the system's primary-button rule. */
+.courses-tabs {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+.depttab {
+  appearance: none;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 0;
+  color: inherit;
+  font-family: var(--heading);
+  font-weight: 500;
+  font-size: 14.5px;
+  letter-spacing: 0.03em;
+  padding: 6px 14px;
+  cursor: pointer;
+}
+.depttab:hover {
+  border-color: var(--accent);
+  color: var(--accent-700);
+}
+.depttab[data-active='true'] {
+  background: var(--accent-900);
+  border-color: var(--accent-900);
+  color: var(--bg);
+}
+.depttab:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* Active-department name + course count, above the scroll frame. */
+.courses-listhead {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+.courses-deptname {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent-700);
+}
+.courses-count { font-size: 12px; }
+
+/* The scroll region. Fixed max height inside a hairline frame; rows are
+   divider-separated with the last border suppressed. */
+.courselist {
+  max-height: 380px;
+  overflow-y: auto;
+  border: 1px solid var(--border);
+  padding: 0 14px;
+  -webkit-overflow-scrolling: touch;
+}
+.courselist:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.course-row {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border);
+}
+.course-row:last-child { border-bottom: none; }
+.course-row-head {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.course-title {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 16.5px;
+}
+.course-row-head .tag-accent,
+.course-row-head .tag-outline { font-size: 10px; flex: none; }
+.course-desc {
+  margin: 4px 0 0;
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+/* SOURCE row, sharing the Club Catalog toggle treatment. */
+.courses-foot {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+.courses-src { display: flex; gap: 8px; align-items: baseline; flex: 1 1 auto; }
+.courses-src-text { font-size: 12px; }
+
+/* Structured division cards opt out of the parent's two-column reflow (the
+   .note-card-report rule already does this) and the scroll frame must not be
+   split across columns. */
+.note-card[open] .note-card-body .courses { column-span: all; }
+
+@media (max-width: 600px) {
+  /* Tabs wrap tightly and the list header stacks on narrow screens. */
+  .depttab { font-size: 13.5px; padding: 5px 11px; }
+  .courses-listhead { flex-wrap: wrap; }
+  .courselist { max-height: 320px; padding: 0 10px; }
+}

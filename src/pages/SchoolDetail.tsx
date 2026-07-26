@@ -20,6 +20,8 @@ import { clubClusters } from '../data/clubClusters.ts'
 import { ClubClustersBody } from '../components/ClubClusters.tsx'
 import { clubCatalog } from '../data/clubCatalog.ts'
 import { ClubCatalogBody } from '../components/ClubCatalog.tsx'
+import { courseOfferings } from '../data/courseOfferings.ts'
+import { CourseOfferingsBody } from '../components/CourseOfferings.tsx'
 import { WelcomeVideo, PlayIcon } from '../components/WelcomeVideo.tsx'
 
 type Loaded = Record<string, MetricGroup[]>
@@ -263,13 +265,23 @@ export function SchoolDetail({ slug }: { slug: string }) {
               )
             }
             const stats = valueMetricsForTopic(t.slug).filter((vm) => vm.values[slug] != null)
+            /* Course Offerings is rendered from the structured curriculum layer
+               as one card per division, so its header count and card grid come
+               from `offerings` rather than the ingested metric groups. */
+            const offerings =
+              t.slug === 'course-offerings' ? courseOfferings(slug) : undefined
+            const cardCount = offerings ? offerings.divisions.length : groups.length
             return (
               <section key={t.slug} id={`topic-${t.slug}`} className="topic-section">
                 <div className="topic-section-head">
                   <span className="glyph"><TopicGlyph slug={t.slug} /></span>
                   <h2>{t.name}</h2>
                   <span className="topic-count">
-                    {ready ? `${groups.length} topics` : '…'}
+                    {!ready
+                      ? '…'
+                      : offerings
+                        ? `${cardCount} divisions`
+                        : `${cardCount} topics`}
                   </span>
                   <a
                     className="btn"
@@ -296,8 +308,33 @@ export function SchoolDetail({ slug }: { slug: string }) {
                   <p className="empty">No readable notes for this area yet.</p>
                 )}
 
+                {/* Course Offerings is one research file per school but three
+                    per-division cards on the page (Lower / Middle / Upper), so
+                    it replaces the metric-group loop entirely rather than
+                    swapping a single card's body. */}
+                {ready && t.slug === 'course-offerings' && offerings && (
+                  <div className="note-cards">
+                    {offerings.divisions.map((d) => (
+                      <details key={d.title} className="note-card note-card-report">
+                        <BlueprintCorners />
+                        <summary>
+                          <span className="note-card-head">
+                            <span className="course-kicker">{d.grades}</span>
+                            <span className="topic-title">{d.title}</span>
+                            <span className="topic-teaser">{d.teaser}</span>
+                          </span>
+                          <span className="plusmark"><PlusIcon /></span>
+                        </summary>
+                        <div className="note-card-body">
+                          <CourseOfferingsBody division={d} />
+                        </div>
+                      </details>
+                    ))}
+                  </div>
+                )}
+
                 <div className="note-cards">
-                  {groups.map((g) => {
+                  {(t.slug === 'course-offerings' && offerings ? [] : groups).map((g) => {
                     /* The Financial Aid deep-dive has a hand-structured report
                        behind it; it replaces the prose body and always claims
                        the full grid row rather than reflowing into columns.

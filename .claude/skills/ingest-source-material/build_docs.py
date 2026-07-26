@@ -29,6 +29,7 @@ TOPIC_NAMES = {
     "the-arts": "The Arts", "sports": "Sports",
     "college-support": "College Support", "student-clubs": "Student Clubs",
     "after-school": "After School", "financial-aid-tuition": "Financial Aid & Tuition",
+    "course-offerings": "Course Offerings",
 }
 SCHOOL_NAMES = {
     "cannon": "Cannon School",
