@@ -112,6 +112,20 @@ const RULES: Record<string, Rule[]> = {
     { match: /signature|tradition|thematic|participation|popularity|special interest|recreational|afar|archaeology/i, key: 'signature', label: 'Signature Programs & Traditions' },
   ],
   'the-arts': [
+    // The Arts Redesign deep-research notes are structured as "1a … 1e" sections,
+    // so the ingest lifts each heading into its own subtopic. Fold them onto the
+    // existing metric keys FIRST — an unmapped "1a. Arts Ladder" would slugify
+    // into a metric of its own, i.e. a new card. These must stay ahead of the
+    // generic patterns below, since the first match wins.
+    { match: /^\W*1a\b|arts ladder/i, key: 'overview', label: 'Program Overview' },
+    { match: /^\W*1b\b/i, key: 'theatre', label: 'Theatre & Drama' },
+    { match: /^\W*1c\b/i, key: 'music', label: 'Music' },
+    { match: /^\W*1d\b|studio to gallery/i, key: 'visual-arts', label: 'Visual Arts' },
+    { match: /^\W*1e\b|verdict/i, key: 'in-depth-report', label: 'In-Depth Report' },
+    // The research notes' own provenance/confidence header — sourcing metadata,
+    // not a research finding, so it rides along with the report rather than
+    // becoming a card.
+    { match: /^provenance$|confidence key/i, key: 'in-depth-report', label: 'In-Depth Report' },
     { match: /awards and recognition/i, key: 'awards', label: 'Awards & Recognition' },
     { match: /program overview/i, key: 'overview', label: 'Program Overview' },
     { match: /visual arts/i, key: 'visual-arts', label: 'Visual Arts' },
