@@ -288,10 +288,180 @@ const CHARLOTTE_COUNTRY_DAY: ClubCatalog = {
     'charlottecountryday.org — Upper School · School Profile 2025–26 & 2024–25 · About · DEIB Our Program (confirmed public sources only; full roster login-gated)',
 }
 
+// ── Cannon ── HONEST-GAP by design, like Country Day. Cannon publishes no
+// centralized chartered Upper School club directory; its student-initiated model
+// means the live roster shifts year to year. We enumerate ONLY the organizations
+// Cannon names directly on its own pages / Upper School Deans' Daily Download —
+// representative, explicitly NOT exhaustive; no count is asserted. From
+// src/content/student-clubs/cannon.json ("Catalog Upper School"). Two families
+// (honor societies; signature competitive programs) live in their own cards.
+const CANNON: ClubCatalog = {
+  verdict:
+    'Cannon publishes no chartered club directory — only the organizations it names directly are listed here; the live roster shifts year to year by design.',
+  verdictHint: 'Filter the representative spine; the full Upper School roster is not publicly disclosed.',
+  countNoun: 'named orgs',
+  categories: [
+    { key: 'comp', short: 'Competitive', full: 'Competitive program' },
+    { key: 'aff', short: 'Affinity', full: 'Affinity / belonging' },
+    { key: 'svc', short: 'Service', full: 'Service' },
+    { key: 'media', short: 'Publications', full: 'Student publication' },
+    { key: 'interest', short: 'Interest', full: 'Interest / social' },
+  ],
+  clubs: [
+    { name: 'DECA', cat: 'comp', note: 'Business competition team; reached 2026 CDC finalist standing (see Signature Competitive Programs)' },
+    { name: 'Model UN', cat: 'comp', note: 'Academic competition team; earned awards at Duke’s DUMUNC (see Signature Competitive Programs)' },
+    { name: 'Cannon School Gaming (CSG)', cat: 'comp', note: 'Cross-division esports program with a dedicated lab since 2021' },
+    { name: 'Affinity Groups', cat: 'aff', note: 'Named as a flagship category of Upper School club life; detailed in the Affinity & Identity Groups card' },
+    { name: 'Habitat Club', cat: 'svc', note: 'Cited as a representative service-based club' },
+    { name: 'Yearbook (The Flashback)', cat: 'media', note: 'Active US publication with student editors and a dedication ceremony' },
+    { name: 'Star Wars Club', cat: 'interest', note: 'Cited as a representative “fun and adventurous” interest club' },
+  ],
+  divisions: [
+    {
+      label: 'Student-initiated model',
+      text: 'Cannon frames Upper School club life as student-led and faculty-supported, meeting during and after school; students may found new clubs when their interests aren’t already represented, so the active roster changes annually.',
+      tag: 'School-reported',
+    },
+    {
+      label: 'Roster gap',
+      text: 'Cannon does not publish a centralized, chartered Upper School club directory. The organizations above are those it names on its own pages and Upper School blog — representative, not exhaustive. A precise club count is not supportable from public sources.',
+      tag: 'Gap flagged',
+    },
+  ],
+  source:
+    'cannonschool.org — Upper School Student Life · Esports · Deans’ Daily Download · Niche (representative named orgs only; no public chartered directory)',
+}
+
+// ── Charlotte Christian ── the fullest enumerated roster of the honest-gap set:
+// 35 named organizations across JK–12, assembled from several school pages (no
+// single directory). The filterable grid holds the 23 Upper School orgs by the
+// school's own four categories (14 clubs, 5 honor societies, 3 leadership/media,
+// 1 global-awareness); Middle & Lower School are named minimums in the division
+// notes because those offerings rotate / are schedule-embedded. Arts honor
+// societies stay in scope per the series rule; esports is in scope. From
+// src/content/student-clubs/charlotte-christian.json ("Clubs and Activities
+// Landscape").
+const CHARLOTTE_CHRISTIAN: ClubCatalog = {
+  verdict:
+    '23 named Upper School organizations across four categories, part of 35 across JK–12; the younger divisions rotate, so their counts are named minimums.',
+  verdictHint: 'Filter the Upper School roster by category; there is no single published directory.',
+  countNoun: 'US orgs',
+  categories: [
+    { key: 'club', short: 'Student clubs', full: 'Student club' },
+    { key: 'honor', short: 'Honor societies', full: 'Honor society' },
+    { key: 'lead', short: 'Leadership & media', full: 'Leadership / media' },
+    { key: 'global', short: 'Global awareness', full: 'Global awareness' },
+  ],
+  clubs: [
+    // Upper School student clubs (14)
+    { name: 'Athletes in Action', cat: 'club', note: 'Upper School student club' },
+    { name: 'Best Buddies', cat: 'club', note: 'Friendship and inclusion for people with intellectual and developmental disabilities' },
+    { name: 'Debate', cat: 'club', note: 'Student-led debate club' },
+    { name: 'DECA', cat: 'club', note: 'Business, marketing, and entrepreneurship competition chapter' },
+    { name: 'Environmental', cat: 'club', note: 'Environmental awareness and stewardship' },
+    { name: "Girl's Leadership", cat: 'club', note: 'Leadership development for young women' },
+    { name: 'Healthy Lifestyle', cat: 'club', note: 'Wellness and healthy-living club' },
+    { name: 'Letters of Light', cat: 'club', note: 'Encouragement / letter-writing service club' },
+    { name: 'Movie', cat: 'club', note: 'Film-appreciation interest club' },
+    { name: 'Spikeball', cat: 'club', note: 'Recreational Spikeball club' },
+    { name: 'Ultimate Frisbee', cat: 'club', note: 'Recreational ultimate frisbee club' },
+    { name: 'Latin', cat: 'club', note: 'Latin language and classical culture' },
+    { name: 'Model UN', cat: 'club', note: 'Model United Nations diplomacy and debate' },
+    { name: 'Esports', cat: 'club', note: 'Competitive video-gaming (also a Middle School after-school club)' },
+    // Honor societies (5)
+    { name: 'National Honor Society', cat: 'honor', note: 'Academic honor society' },
+    { name: 'Spanish National Honor Society', cat: 'honor', note: 'Spanish-language honor society' },
+    { name: 'Tri-M Music Honor Society', cat: 'honor', note: 'Music honor society' },
+    { name: 'National Art Honor Society', cat: 'honor', note: 'Visual-arts honor society (retained per the series rule)' },
+    { name: 'International Thespian Society', cat: 'honor', note: 'Theater honor society (retained per the series rule)' },
+    // Leadership / media (3)
+    { name: 'Prefect Leadership System', cat: 'lead', note: 'Nine student leadership roles across the Upper School' },
+    { name: 'Knights Knews', cat: 'lead', note: 'Student broadcast / news media program' },
+    { name: 'VEX Robotics Competition Team', cat: 'lead', note: 'Competitive VEX robotics team (grades 9–12)' },
+    // Global awareness (1)
+    { name: 'Global Knights Club', cat: 'global', note: 'Global-awareness student club (also a Middle School student group)' },
+  ],
+  divisions: [
+    {
+      label: 'Middle School (5–8)',
+      text: 'Named minimum: Mountain Biking, Chess (incl. a competitive Chess Team), and Esports, plus a Global Knights student group — some offerings are schedule-embedded and not posted publicly, so this is a floor, not a total.',
+      tag: 'Named minimum',
+    },
+    {
+      label: 'Lower School (JK–4)',
+      text: 'Named minimum: eight rotating after-school enrichment clubs — Art, Coding, Flag Football, Lacrosse, Running, Soccer, STEM, and a Robotics Team (representative). Enrichment rotates weekly and the public list is explicitly partial.',
+      tag: 'Named minimum',
+    },
+    {
+      label: 'Count & scope',
+      text: '35 named in-scope organizations JK–12 (23 Upper + 4 Middle + 8 Lower); no single published directory. Excluded as non-clubs: the “kingdom” system, Reading Knights, Knights Serve, and parent/community bodies (PTF, boosters, etc.). Could not confirm: a Middle School student council or an NJHS chapter.',
+      tag: 'School-reported',
+    },
+  ],
+  source:
+    'charlottechristian.com — Upper School · Middle School · Extended Day & After School Clubs · Diversity & Belonging · CCS News (roster assembled from several pages; no single directory)',
+}
+
+// ── Davidson Day ── the thinnest, most honest case. Davidson Day publishes NO
+// public club roster on its own site; student life runs through programs,
+// councils, and traditions (AFAR, Community Engagement Councils, House System,
+// Patriot Pals). The only source that names individual clubs is the third-party
+// aggregator PrivateSchoolReview — single-source, undated, no division breakdown,
+// and uncorroborated against the school. We therefore list ONLY the genuine
+// non-athletic/non-arts interest & academic clubs from that source, mark them
+// clearly as aggregator-sourced, and let the division notes carry the gaps and
+// what the school itself documents. No clubs, counts, or divisions are invented.
+// From source-material/student-clubs/davidson-day/Davidson Day - Clubs - Club
+// Catalog and Overview.md (web research, 2026-07-26).
+const DAVIDSON_DAY: ClubCatalog = {
+  verdict:
+    'Davidson Day publishes no official club roster — student life runs through programs, councils, and traditions. These interest clubs are named only by a third-party aggregator and are unverified by the school.',
+  verdictHint: 'Filter the aggregator-listed clubs; the school itself documents no public roster.',
+  countNoun: 'aggregator-listed clubs',
+  categories: [
+    { key: 'acad', short: 'Academic', full: 'Academic / competition' },
+    { key: 'interest', short: 'Interest', full: 'Interest' },
+    { key: 'svc', short: 'Service', full: 'Service / environmental' },
+  ],
+  clubs: [
+    { name: 'Debate Club', cat: 'acad', note: 'Aggregator-listed (PrivateSchoolReview); unconfirmed on the school site' },
+    { name: 'Science Club', cat: 'acad', note: 'Aggregator-listed (PrivateSchoolReview); unconfirmed on the school site' },
+    { name: 'Math Olympiad', cat: 'acad', note: 'Academic-competition club, aggregator-listed; unconfirmed on the school site' },
+    { name: 'Chess Club', cat: 'interest', note: 'Aggregator-listed (PrivateSchoolReview); unconfirmed on the school site' },
+    { name: 'Film Club', cat: 'interest', note: 'Aggregator-listed (PrivateSchoolReview); unconfirmed on the school site' },
+    { name: 'Creative Writing Club', cat: 'interest', note: 'Literary interest club, aggregator-listed; unconfirmed on the school site' },
+    { name: 'Outdoor Club', cat: 'interest', note: 'Aggregator-listed (PrivateSchoolReview); unconfirmed on the school site' },
+    { name: 'Environmental Club', cat: 'svc', note: 'Aggregator-listed (PrivateSchoolReview); unconfirmed on the school site' },
+    { name: 'Community Service Club', cat: 'svc', note: 'Aggregator-listed (PrivateSchoolReview); unconfirmed on the school site' },
+  ],
+  divisions: [
+    {
+      label: 'No official roster',
+      text: 'Davidson Day’s own site (davidsonday.org) publishes no enumerated club list — every division and student-life page frames activities as programs, councils, and traditions. A real activities list likely lives behind the login-gated Patriot Connect portal, which could not be accessed.',
+      tag: 'Gap flagged',
+    },
+    {
+      label: 'Single-source clubs',
+      text: 'The nine clubs above appear only on PrivateSchoolReview (a third-party aggregator; undated, no division breakdown) and are uncorroborated against the school. Art, Guitar, and Photography clubs from that list are excluded as fine-arts; SGA, Honor Council, and the Student Ambassador Program are governance/programs, not interest clubs.',
+      tag: 'Unverified',
+    },
+    {
+      label: 'What the school documents',
+      text: 'Verified school-run structures (in their own dossiers, not clubs): AFAR archaeology field research, the Community Engagement Councils and Patriot Week service framework, the Student Diversity Council, National Honor Society, the Middle School Battle of the Books team, and traditions like the House System and Patriot Pals.',
+      tag: 'School-reported',
+    },
+  ],
+  source:
+    'privateschoolreview.com — Davidson Day profile (single-source, unverified) · davidsonday.org — Upper/Middle School, Community & Culture (programs/councils/traditions; no public club roster)',
+}
+
 const CATALOG: Record<string, ClubCatalog> = {
   'charlotte-latin': CHARLOTTE_LATIN,
   'providence-day': PROVIDENCE_DAY,
   'charlotte-country-day': CHARLOTTE_COUNTRY_DAY,
+  cannon: CANNON,
+  'charlotte-christian': CHARLOTTE_CHRISTIAN,
+  'davidson-day': DAVIDSON_DAY,
 }
 
 /** The interest-index catalog for a school, or undefined to fall back to prose. */
