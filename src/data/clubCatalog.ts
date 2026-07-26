@@ -288,48 +288,80 @@ const CHARLOTTE_COUNTRY_DAY: ClubCatalog = {
     'charlottecountryday.org — Upper School · School Profile 2025–26 & 2024–25 · About · DEIB Our Program (confirmed public sources only; full roster login-gated)',
 }
 
-// ── Cannon ── HONEST-GAP by design, like Country Day. Cannon publishes no
-// centralized chartered Upper School club directory; its student-initiated model
-// means the live roster shifts year to year. We enumerate ONLY the organizations
-// Cannon names directly on its own pages / Upper School Deans' Daily Download —
-// representative, explicitly NOT exhaustive; no count is asserted. From
-// src/content/student-clubs/cannon.json ("Catalog Upper School"). Two families
-// (honor societies; signature competitive programs) live in their own cards.
+// ── Cannon ── HONEST-GAP by design, like Country Day, but CONSOLIDATED: this one
+// card is Cannon's whole student-clubs view. It merges the named, enumerable
+// organizations from four dossiers — Catalog Upper School, Middle School,
+// Affinity & Identity Groups, and Service Learning & Community Engagement — so on
+// the Cannon page those four render only here (the merge is applied in
+// SchoolDetail.tsx, Cannon-only). Only orgs Cannon names DIRECTLY are listed;
+// each note carries its grade band. The prose those sections also contain
+// (the DBE framework, Lower School structure, service scale/traditions, the
+// student-initiated model) is folded into the division notes so nothing is lost.
+// Still representative, NOT exhaustive — Cannon publishes no chartered directory,
+// so no precise count is asserted. Honor societies and the signature competitive
+// programs (robotics deep-dive, DECA/MUN results) keep their own cards.
 const CANNON: ClubCatalog = {
   verdict:
-    'Cannon publishes no chartered club directory — only the organizations it names directly are listed here; the live roster shifts year to year by design.',
-  verdictHint: 'Filter the representative spine; the full Upper School roster is not publicly disclosed.',
+    'One consolidated view of every student organization Cannon names directly, across Upper, Middle, and Lower School — the school publishes no chartered directory, so this is representative, not exhaustive.',
+  verdictHint: 'Filter the named spine by interest; the full roster shifts year to year and is not fully disclosed.',
   countNoun: 'named orgs',
   categories: [
     { key: 'comp', short: 'Competitive', full: 'Competitive program' },
-    { key: 'aff', short: 'Affinity', full: 'Affinity / belonging' },
+    { key: 'acad', short: 'Academic teams', full: 'Academic competition team' },
+    { key: 'gov', short: 'Governance', full: 'Student leadership' },
     { key: 'svc', short: 'Service', full: 'Service' },
+    { key: 'aff', short: 'Affinity', full: 'Affinity / belonging' },
     { key: 'media', short: 'Publications', full: 'Student publication' },
     { key: 'interest', short: 'Interest', full: 'Interest / social' },
   ],
   clubs: [
-    { name: 'DECA', cat: 'comp', note: 'Business competition team; reached 2026 CDC finalist standing (see Signature Competitive Programs)' },
-    { name: 'Model UN', cat: 'comp', note: 'Academic competition team; earned awards at Duke’s DUMUNC (see Signature Competitive Programs)' },
+    // Competitive programs (cross-division / Upper School)
+    { name: 'Brainy Yaks Robotics', cat: 'comp', note: 'Flagship FLL robotics team (grades 6–10); FLL World top 100 in ’24 & ’25 (see Signature Competitive Programs)' },
+    { name: 'DECA', cat: 'comp', note: 'Upper School business competition team; 2026 CDC finalist standing (see Signature Competitive Programs)' },
     { name: 'Cannon School Gaming (CSG)', cat: 'comp', note: 'Cross-division esports program with a dedicated lab since 2021' },
-    { name: 'Affinity Groups', cat: 'aff', note: 'Named as a flagship category of Upper School club life; detailed in the Affinity & Identity Groups card' },
-    { name: 'Habitat Club', cat: 'svc', note: 'Cited as a representative service-based club' },
-    { name: 'Yearbook (The Flashback)', cat: 'media', note: 'Active US publication with student editors and a dedication ceremony' },
-    { name: 'Star Wars Club', cat: 'interest', note: 'Cited as a representative “fun and adventurous” interest club' },
+    // Academic competition teams (Middle School, named by the school)
+    { name: 'Model United Nations', cat: 'acad', note: 'Middle & Upper School; MS team named among the academic-competition teams, US team earned awards at Duke’s DUMUNC' },
+    { name: 'Science Olympiad', cat: 'acad', note: 'Middle School faculty-facilitated academic-competition team' },
+    { name: 'Battle of the Books', cat: 'acad', note: 'Middle School reading-competition team (plus an Elementary Battle of the Books)' },
+    { name: 'Envirothon', cat: 'acad', note: 'Middle School environmental academic-competition team' },
+    // Student leadership / governance (all three divisions)
+    { name: 'Upper School Student Council', cat: 'gov', note: 'Elected Upper School student governance body' },
+    { name: 'Middle School Student Council', cat: 'gov', note: 'Grades 5–8, ~4 elected students per grade; plans events and supports student life' },
+    { name: 'Lower School Student Council', cat: 'gov', note: 'Elected Lower School leadership; year-long core-values initiatives' },
+    // Service (named clubs / teams)
+    { name: 'Habitat Club', cat: 'svc', note: 'Upper School service club; Habitat for Humanity builds incl. Winterm trips' },
+    { name: 'Special Olympics Team (MS)', cat: 'svc', note: 'Middle School team coordinating volunteers for the Special Olympics of Cabarrus County' },
+    // Affinity
+    { name: 'Affinity Groups', cat: 'aff', note: 'Flagship category of Upper School club life under the DBE framework; no named roster published (Black affinity groups cited in reviews)' },
+    // Publications
+    { name: 'Yearbook (The Flashback)', cat: 'media', note: 'Active Upper School publication with student editors and a dedication ceremony' },
+    // Interest
+    { name: 'Star Wars Club', cat: 'interest', note: 'Cited as a representative “fun and adventurous” Upper School interest club' },
   ],
   divisions: [
     {
       label: 'Student-initiated model',
-      text: 'Cannon frames Upper School club life as student-led and faculty-supported, meeting during and after school; students may found new clubs when their interests aren’t already represented, so the active roster changes annually.',
+      text: 'Cannon frames club life as student-led and faculty-supported, meeting during and after school (Middle School clubs meet at lunch or a designated club time). Students may found new clubs when their interests aren’t represented, so the active roster changes annually.',
+      tag: 'School-reported',
+    },
+    {
+      label: 'Lower School (JrK–4)',
+      text: 'Runs on elected student leadership, signature traditions, Adaptive Expertise (AE) “passion class” days, and after-school enrichment (After School Program + Beyond the Bell) rather than a roster of standing interest clubs — a structural difference, not a gap.',
+      tag: 'Structural',
+    },
+    {
+      label: 'Service & belonging',
+      text: 'Service runs deep — ~15,000 school-wide hours a year (not a graduation requirement), Senior Capstone philanthropy projects, and a House Day of Service — but as frameworks/traditions rather than standing clubs. Affinity work sits under the Diversity, Belongingness & Engagement (DBE) commitment.',
       tag: 'School-reported',
     },
     {
       label: 'Roster gap',
-      text: 'Cannon does not publish a centralized, chartered Upper School club directory. The organizations above are those it names on its own pages and Upper School blog — representative, not exhaustive. A precise club count is not supportable from public sources.',
+      text: 'Cannon does not publish a centralized, chartered club directory. The organizations above are those it names on its own pages and Deans’ Daily Download — representative, not exhaustive. A precise club count is not supportable from public sources.',
       tag: 'Gap flagged',
     },
   ],
   source:
-    'cannonschool.org — Upper School Student Life · Esports · Deans’ Daily Download · Niche (representative named orgs only; no public chartered directory)',
+    'cannonschool.org — Upper / Middle / Lower School Student Life · Esports · Student Profile · Deans’ Daily Download · Niche (named orgs only; no public chartered directory)',
 }
 
 // ── Charlotte Christian ── the fullest enumerated roster of the honest-gap set:
