@@ -333,7 +333,7 @@ const COUNTRY_DAY: FinancialAidReport = {
     {
       id: 'fa-trend',
       navTitle: 'Trend & Questions',
-      title: 'Trend, Reach & the Honest Questions',
+      title: 'Trend, Reach & the Questions to Ask',
       confidence: 52,
       stats: [
         {
@@ -580,7 +580,7 @@ const CANNON: FinancialAidReport = {
     {
       id: 'fa-trend',
       navTitle: 'Trend & Questions',
-      title: 'Trend, Reach & the Honest Questions',
+      title: 'Trend, Reach & the Questions to Ask',
       confidence: 68,
       stats: [
         {
@@ -832,7 +832,7 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
     {
       id: 'fa-trend',
       navTitle: 'Trend & Questions',
-      title: 'Trend, Reach & the Honest Questions',
+      title: 'Trend, Reach & the Questions to Ask',
       confidence: 88,
       stats: [
         {
@@ -1079,7 +1079,7 @@ const DAVIDSON_DAY: FinancialAidReport = {
     {
       id: 'fa-trend',
       navTitle: 'Trend & Questions',
-      title: 'Trend, Reach & the Honest Questions',
+      title: 'Trend, Reach & the Questions to Ask',
       confidence: 50,
       stats: [
         {
@@ -1391,7 +1391,7 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
     {
       id: 'fa-trend',
       navTitle: 'Trend & Questions',
-      title: 'Trend, Reach & the Honest Questions',
+      title: 'Trend, Reach & the Questions to Ask',
       confidence: 45,
       stats: [
         {
@@ -1708,7 +1708,7 @@ const PROVIDENCE_DAY: FinancialAidReport = {
     {
       id: 'fa-trend',
       navTitle: 'Trend & Questions',
-      title: 'Trend, Reach & the Honest Questions',
+      title: 'Trend, Reach & the Questions to Ask',
       confidence: 60,
       stats: [
         {

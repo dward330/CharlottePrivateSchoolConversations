@@ -10,7 +10,7 @@ import { SchoolBadge } from '../components/SchoolBadge.tsx'
 import { TopicGlyph } from '../components/TopicGlyph.tsx'
 import { BlueprintCorners } from '../components/BlueprintCorners.tsx'
 import { ProseContent } from '../components/ProseContent.tsx'
-import { proseSummary } from '../lib/prose.ts'
+import { proseSummary, previewHasGapLanguage } from '../lib/prose.ts'
 import { toCompare, toHome, useNavigate } from '../lib/router.ts'
 import { schools as allSchools } from '../lib/manifest.ts'
 import { valueMetricsForTopic } from '../data/metricValues.ts'
@@ -309,7 +309,12 @@ export function SchoolDetail({ slug }: { slug: string }) {
                                 ? clusters.verdict
                                 : catalog
                                   ? catalog.verdict
-                                  : proseSummary(g.sections[0]?.text ?? '', g.metric.label) || g.sections[0]?.preview}
+                                  : proseSummary(g.sections[0]?.text ?? '', g.metric.label, t.slug) ||
+                                    // The stored preview is raw, unparsed text, so it can carry the
+                                    // research-gap framing the parser strips — only use it if clean.
+                                    (previewHasGapLanguage(g.sections[0]?.preview ?? '', t.slug)
+                                      ? ''
+                                      : g.sections[0]?.preview)}
                             </span>
                           </span>
                           <span className="plusmark"><PlusIcon /></span>
@@ -329,7 +334,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                                   !/deep research/i.test(s.subtopic) && (
                                     <h3 className="section-sub">{s.subtopic}</h3>
                                   )}
-                                <ProseContent text={s.text} title={g.metric.label} />
+                                <ProseContent text={s.text} title={g.metric.label} topic={t.slug} />
                               </article>
                             ))
                           )}
