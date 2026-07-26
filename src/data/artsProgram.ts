@@ -282,28 +282,37 @@ export const ARTS_CARDS = [
 }[]
 
 /**
- * Per-school card-title overrides. Two reasons a title changes:
+ * Per-school card-title overrides, driven by what the research actually found.
  *
- *  - the grade span differs (Cannon and Country Day start at JrK/JK, not TK;
- *    Davidson Day starts at age 2), so the ladder is named for that school;
- *  - the Blumey Awards do not apply. The Blumeys are Blumenthal Performing
- *    Arts' Charlotte-region high-school musical-theater awards; a school that
- *    has never been in that field gets "Theatre & External Recognition"
- *    instead, so the card never implies a competition the school isn't in.
+ *  - The ladder is renamed for each school's own grade span (Cannon and Country
+ *    Day start at JrK/JK, not TK; Davidson Day from early childhood).
+ *  - The theatre card is renamed only where the Blumeys are not the school's
+ *    story. The Blumeys are Blumenthal Performing Arts' Charlotte-region
+ *    high-school musical-theater awards, so a card naming them must not appear
+ *    for a school that does not compete in them.
+ *
+ * Worth recording, because it contradicts the obvious guess: BOTH out-of-town
+ * schools do compete. Cannon (Concord, Cabarrus County) has ten verified Blumey
+ * finalist placements across 2023 and 2025 and enters again in 2026, so it keeps
+ * the Blumey title. Davidson Day (Davidson) has 2023 program-level nominations
+ * and three 2026 finalists — but no NCTC record at all, so its card is titled
+ * for the recognition it actually has rather than implying a second circuit.
+ * Charlotte Christian competes in four circuits, of which the Blumeys are one,
+ * so its card is titled for the wider set.
  */
 const TITLE_OVERRIDES: Record<string, Partial<Record<keyof ArtsProgram, string>>> = {
   cannon: {
     ladder: 'The JrK–12 Arts Ladder',
-    theatre: 'Theatre & External Recognition',
   },
   'charlotte-country-day': {
     ladder: 'The JK–12 Arts Ladder',
   },
   'charlotte-christian': {
     ladder: 'The JK–12 Arts Ladder',
+    theatre: 'Theatre, the Blumeys & CITA',
   },
   'davidson-day': {
-    ladder: 'The Age 2–12 Arts Ladder',
+    ladder: 'The Early Childhood–12 Arts Ladder',
     theatre: 'Theatre & External Recognition',
   },
 }
