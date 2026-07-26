@@ -15,6 +15,70 @@ export type ValueMetric = {
 }
 
 export const VALUE_METRICS: ValueMetric[] = [
+  // =========================== Course Offerings ============================
+  // Transcribed from each school's OWN published curriculum guide (see
+  // source-material/course-offerings/<school>/). Guide vintages differ by
+  // school — Cannon, Charlotte Christian, and Davidson Day publish 2026-27;
+  // Providence Day and Country Day publish 2025-26; Charlotte Latin publishes
+  // an undated live course list. Where a school's own documents disagree, the
+  // per-school research file records the discrepancy and which figure was used.
+  {
+    topic: 'course-offerings',
+    key: 'us-courses',
+    label: 'Upper School courses catalogued',
+    note: 'Distinct Upper School course entries in the school’s own current curriculum guide. Counting conventions differ — Country Day’s index bundles language levels onto one line, so its true course count is higher than the line count shown.',
+    values: {
+      cannon: '104', // counted from the 11 course-offering sections of the 2026-27 catalog
+      'charlotte-christian': '~135', // ~135 unique titles; 6 are cross-listed in two departments
+      'charlotte-country-day': '119', // line-by-line count of the Total Index of Courses by Department (p.8)
+      'charlotte-latin': '129', // counted from the live Upper School course-offerings page
+      'davidson-day': '~75', // 74 described + AP Spanish Literature listed without a description; 66 on the 2026-27 offerings grid
+      'providence-day': '149', // distinct entries; multi-year language sequences counted once per track
+    },
+  },
+  {
+    topic: 'course-offerings',
+    key: 'advanced-courses',
+    label: 'AP / advanced courses',
+    note: 'The school’s own count of college-level courses. Country Day is the only school here offering both AP and the IB Diploma; Cannon adds 13 faculty-designed Advanced Topics courses carrying the same weight as an AP.',
+    values: {
+      cannon: '14 AP + 13 AT', // 2026-27 catalog count; the 2025-26 profile stated 13 AP / 8 AT before the AT program expanded
+      'charlotte-christian': '21 AP', // the guide's own AP roster, corroborated by the admissions FAQ
+      'charlotte-country-day': '23 AP + 18 IB', // plus the IB core (Theory of Knowledge, Extended Essay, CAS)
+      'charlotte-latin': '22 AP subjects', // the school's stated figure; 23 AP-titled entries appear on the course page
+      'davidson-day': '26 AP', // the catalog's explicit AP list (p.11)
+      'providence-day': '28 AP', // 28 AP courses described; catalog prose names 27 subject areas
+    },
+  },
+  {
+    topic: 'course-offerings',
+    key: 'us-departments',
+    label: 'Upper School departments',
+    note: 'Academic departments in the Upper School catalog. Cannon has no standalone computer-science department — CS sits inside Innovation & Enterprise.',
+    values: {
+      cannon: '8', // English, Arts, Math, Science, Social Studies, World Languages, Innovation/Enterprise, PE
+      'charlotte-christian': '11', // counting Fine Arts as one department with four sub-areas
+      'charlotte-country-day': '9', // 7 core academic plus Non-Departmental and Physical Education
+      'charlotte-latin': '13', // department headings on the course-offerings page
+      'davidson-day': '9', // per the catalog contents (pp. 4-6)
+      'providence-day': '11', // catalog sections, incl. both IDEAS@PDS strands
+    },
+  },
+  {
+    topic: 'course-offerings',
+    key: 'grade-span',
+    label: 'one continuous course of study',
+    note: 'The school’s own lowest published entry point through Grade 12. Division bands differ: Charlotte Christian puts Grade 5 in Middle School, and Davidson Day enrolls from age 2.',
+    values: {
+      cannon: 'JrK–12', // Junior Kindergarten through Grade 12
+      'charlotte-christian': 'JK–12', // Junior Kindergarten through Grade 12; Lower School is JK–4
+      'charlotte-country-day': 'JK–12', // 13 grades served, Junior Kindergarten through 12
+      'charlotte-latin': 'TK–12', // Transitional Kindergarten through Grade 12
+      'davidson-day': 'Age 2–12', // Early Preschool (2s/3s) through Grade 12
+      'providence-day': 'TK–12', // Transitional Kindergarten through Grade 12
+    },
+  },
+
   // ============================ College Support ============================
   // Extracted from each school's College Support research note (verified against
   // the note text July 2026). null = the school does not publish that figure.

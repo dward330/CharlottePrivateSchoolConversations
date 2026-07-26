@@ -31,6 +31,14 @@ const HIDE = [
 ]
 
 const RULES: Record<string, Rule[]> = {
+  // Course Offerings renders as three per-division cards driven by
+  // data/courseOfferings.ts, not by the ingested prose. The single research
+  // file per school ("… - Course Offerings - Curriculum Guide.md") folds onto
+  // one key so SchoolDetail can swap in the division cards; without a rules
+  // array the subtopic would slugify into an orphan prose section.
+  'course-offerings': [
+    { match: /curriculum guide|course offerings|program of stud/i, key: 'curriculum', label: 'Course Offerings' },
+  ],
   'after-school': [
     { match: /program overview/i, key: 'overview', label: 'Program Overview' },
     { match: /program details/i, key: 'details', label: 'Program Details' },
@@ -109,6 +117,7 @@ const RULES: Record<string, Rule[]> = {
 // listed fall to the end in manifest order (alphabetical). Edit this to reorder the
 // top-level sections without touching source-material folder names.
 const TOPIC_ORDER: string[] = [
+  'course-offerings',
   'student-clubs',
   'the-arts',
   'sports',
