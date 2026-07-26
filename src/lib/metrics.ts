@@ -16,7 +16,19 @@ export type Metric = { key: string; label: string }
 type Rule = { match: RegExp; key: string; label: string }
 
 // Hidden everywhere (both the metrics axis and the detail sections).
-const HIDE = [/notebooklm/i, /^sources? referenced/i]
+//
+// The governance/student-leadership subtopics are dropped by request: the
+// "Governance & Student Leadership" card is removed from every school's Student
+// Clubs page. These anchored patterns match only the student-clubs subtopics that
+// used to feed that card (verified not to collide with any other topic), including
+// the ones that fuse governance with service or student media.
+const HIDE = [
+  /notebooklm/i,
+  /^sources? referenced/i,
+  /^governance\b/i,
+  /^leadership,?\s+governance/i,
+  /^service,?\s+leadership/i,
+]
 
 const RULES: Record<string, Rule[]> = {
   'after-school': [
@@ -71,7 +83,6 @@ const RULES: Record<string, Rule[]> = {
   'student-clubs': [
     { match: /honor societ/i, key: 'honor-societies', label: 'Honor Societies' },
     { match: /affinity|identity|diversity|belonging|global awareness/i, key: 'affinity', label: 'Affinity & Identity Groups' },
-    { match: /governance|leadership/i, key: 'governance', label: 'Governance & Student Leadership' },
     { match: /publication|student media|\bmedia\b/i, key: 'media', label: 'Publications & Media' },
     { match: /service|civic|outreach|community engagement/i, key: 'service', label: 'Service & Civic Engagement' },
     { match: /academic|competit/i, key: 'academic-clubs', label: 'Academic & Competitive Clubs' },
