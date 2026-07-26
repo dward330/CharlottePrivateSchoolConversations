@@ -168,6 +168,20 @@ export function orderTopicSlugs(slugs: string[]): string[] {
 // order after the listed ones; topics without an entry keep document order entirely.
 const SECTION_ORDER: Record<string, string[]> = {
   'after-school': ['overview', 'details', 'enrichment', 'aftercare', 'in-depth-report'],
+  // Student Clubs: the Club Catalog & Overview card is the full expandable list of
+  // every club, so it reads as the reference appendix to the themed cards above it
+  // and always sorts last. Unlisted keys rank last too, so the other keys are named
+  // explicitly to keep the catalog behind them.
+  'student-clubs': [
+    'academic-clubs',
+    'honor-societies',
+    'signature',
+    'media',
+    'affinity',
+    'service',
+    'lower-middle',
+    'catalog',
+  ],
   'the-arts': ['overview', 'awards', 'performing-arts', 'visual-arts', 'facilities', 'in-depth-report'],
 }
 
