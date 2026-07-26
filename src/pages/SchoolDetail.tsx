@@ -18,6 +18,8 @@ import { financialAidReport } from '../data/financialAidReports.ts'
 import { FinancialAidReportCard } from '../components/FinancialAidReport.tsx'
 import { clubClusters } from '../data/clubClusters.ts'
 import { ClubClustersBody } from '../components/ClubClusters.tsx'
+import { clubCatalog } from '../data/clubCatalog.ts'
+import { ClubCatalogBody } from '../components/ClubCatalog.tsx'
 
 type Loaded = Record<string, MetricGroup[]>
 
@@ -229,10 +231,18 @@ export function SchoolDetail({ slug }: { slug: string }) {
                       g.metric.key === 'academic-clubs'
                         ? clubClusters(slug)
                         : undefined
+                    /* The Club Catalog & Overview card, where the school has a
+                       structured entry, swaps its prose body for the filterable
+                       interest index and leads with the catalog verdict as its
+                       collapsed teaser. */
+                    const catalog =
+                      t.slug === 'student-clubs' && g.metric.key === 'catalog'
+                        ? clubCatalog(slug)
+                        : undefined
                     return (
                       <details
                         key={g.metric.key}
-                        className={`note-card${report || clusters ? ' note-card-report' : ''}`}
+                        className={`note-card${report || clusters || catalog ? ' note-card-report' : ''}`}
                       >
                         <BlueprintCorners />
                         <summary>
@@ -241,7 +251,9 @@ export function SchoolDetail({ slug }: { slug: string }) {
                             <span className="topic-teaser">
                               {clusters
                                 ? clusters.verdict
-                                : proseSummary(g.sections[0]?.text ?? '', g.metric.label) || g.sections[0]?.preview}
+                                : catalog
+                                  ? catalog.verdict
+                                  : proseSummary(g.sections[0]?.text ?? '', g.metric.label) || g.sections[0]?.preview}
                             </span>
                           </span>
                           <span className="plusmark"><PlusIcon /></span>
@@ -251,6 +263,8 @@ export function SchoolDetail({ slug }: { slug: string }) {
                             <FinancialAidReportCard report={report} />
                           ) : clusters ? (
                             <ClubClustersBody clusters={clusters} />
+                          ) : catalog ? (
+                            <ClubCatalogBody catalog={catalog} />
                           ) : (
                             g.sections.map((s, i) => (
                               <article key={i} className="section-text">
