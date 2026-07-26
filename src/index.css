@@ -27,6 +27,7 @@
      chips, coverage checks, links. */
   --accent: #5980a6;
   --accent-100: #eef6ff;
+  --accent-200: #d6ebff;
   --accent-700: #416180;
   --accent-800: #2c455d;
   --accent-900: #1d2d3d;
@@ -62,6 +63,7 @@
     --yes: #34d17e;
     --accent: #7fa3c7;
     --accent-100: #24313f;
+    --accent-200: #33475b;
     --accent-700: #b9cee2;
     --accent-800: #c9d9e9;
     --accent-900: #dce7f2;
@@ -82,6 +84,7 @@
   --yes: #34d17e;
   --accent: #7fa3c7;
   --accent-100: #24313f;
+  --accent-200: #33475b;
   --accent-700: #b9cee2;
   --accent-800: #c9d9e9;
   --accent-900: #dce7f2;
@@ -876,7 +879,8 @@ main { flex: 1; }
 }
 
 .tag-outline,
-.tag-accent {
+.tag-accent,
+.tag-neutral {
   display: inline-flex;
   align-items: center;
   flex: none;
@@ -889,6 +893,15 @@ main { flex: 1; }
 }
 .tag-outline { border: 1px solid var(--accent); color: var(--accent-700); }
 .tag-accent { background: var(--accent-100); color: var(--accent-800); border: 1px solid var(--accent); }
+/* Neutral tag — the department label carried by course rows in the "All" view.
+   Deliberately the quietest of the three: a step off the page ground with no
+   accent border, so it never competes with the AP/grade tag beside it. Built
+   from --text/--bg (like .fa-report's ghost bars) so it survives both themes. */
+.tag-neutral {
+  background: color-mix(in srgb, var(--text) 7%, var(--bg));
+  color: color-mix(in srgb, var(--text) 78%, transparent);
+  border: 1px solid transparent;
+}
 
 .fa-report-head {
   display: flex;
@@ -1707,14 +1720,51 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
 }
 .depttab:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
-/* Active-department name + course count, above the scroll frame. */
+/* Active-department name + live count + right-aligned filter, above the scroll
+   frame. Centre-aligned (not baseline) because the input box sits in this row;
+   the name and count are pinned by `flex: none` and the filter is pushed right
+   with margin-left:auto, so a long department name never squeezes the input. */
 .courses-listhead {
   display: flex;
-  justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   gap: 12px;
   margin-bottom: 8px;
 }
+.courses-deptname,
+.courses-count { flex: none; }
+
+/* Filter box. The magnifier is absolutely positioned inside the field's left
+   padding, so the icon scrolls with neither the text nor the caret. */
+.courses-filter {
+  position: relative;
+  margin-left: auto;
+  width: 250px;
+  max-width: 100%;
+}
+.courses-filter-icon {
+  position: absolute;
+  left: 9px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  color: var(--muted);
+  pointer-events: none;
+}
+.courses-filter .input {
+  width: 100%;
+  min-height: 32px;
+  padding: 6px 10px 6px 28px;
+  font: inherit;
+  font-size: 13px;
+  color: var(--text);
+  caret-color: var(--accent);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 0;
+}
+.courses-filter .input::placeholder { color: var(--muted); }
+.courses-filter .input:hover { border-color: color-mix(in srgb, var(--text) 45%, transparent); }
+.courses-filter .input:focus-visible { border-color: var(--accent); outline: 2px solid var(--accent); outline-offset: 0; }
 .courses-deptname {
   font-family: var(--heading);
   font-weight: 600;
@@ -1753,10 +1803,26 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
 }
 .course-row-head .tag-accent,
 .course-row-head .tag-outline { font-size: 10px; flex: none; }
+.course-row-head .tag-neutral { font-size: 10px; flex: none; }
 .course-desc {
   margin: 4px 0 0;
   font-size: 13px;
   line-height: 1.55;
+}
+
+/* Matched substring inside a title or description. Tint only — no bold, no
+   underline — so highlighting never re-weights the type as the reader types. */
+.course-hl {
+  background: var(--accent-200);
+  color: var(--accent-900);
+}
+
+/* Zero matches: centred inside the scroll frame rather than collapsing it. */
+.courses-empty {
+  margin: 0;
+  padding: 28px 0;
+  text-align: center;
+  font-size: 13px;
 }
 
 /* SOURCE row, sharing the Club Catalog toggle treatment. */
@@ -1779,5 +1845,8 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   /* Tabs wrap tightly and the list header stacks on narrow screens. */
   .depttab { font-size: 13.5px; padding: 5px 11px; }
   .courses-listhead { flex-wrap: wrap; }
+  /* The filter drops onto its own full-width line rather than being squeezed
+     beside the department name. */
+  .courses-filter { width: 100%; margin-left: 0; }
   .courselist { max-height: 320px; padding: 0 10px; }
 }
