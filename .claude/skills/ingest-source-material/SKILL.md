@@ -17,6 +17,43 @@ description: >
 
 Keeps the project's derived layers in sync with the raw research in `source-material/`.
 
+## Hard constraint — ingestion never changes the UX design
+
+**Ingestion is a data-enrichment operation only. It must not change the web app's UX
+design in any way.** This governs both this skill and any workflow that incorporates its
+output.
+
+**Out of scope — design work.** This constraint applies when the task at hand is *ingesting
+material*. It does **not** apply to Claude Design MCP work (a `design_handoff_*/` import, a
+`.dc.html` reference) or to a direct request to add or restyle UI — that work is meant to
+change the UX and needs no advance approval. If such a task also ingests supporting research,
+the ingestion still follows the provenance rules below; only the approval gate lifts.
+
+Allowed without asking:
+
+- Enrich / correct / extend the data that flows into cards and sections that already exist
+  (notes, `src/content/`, `schools.json`, values in `metricValues.ts`, report fields in
+  `financialAidReports.ts` for shapes already in use).
+- Map a new subtopic phrasing onto an **existing** metric key via a `RULES` entry — that
+  prevents a new card from appearing, which is the point.
+
+Requires the user's explicit approval **first** — stop and ask:
+
+- Adding a new card, section, sub-section, stat tile, Compare row, or metric key.
+- A new `TOPIC_ORDER` / `SECTION_ORDER` entry, or reordering existing ones.
+- A new report block/section shape in `financialAidReports.ts`.
+- Any change to components, layout, styling, copy chrome, or card ordering.
+
+When the material genuinely warrants a new card/sub-section, **prompt the user and explain
+why** — what the material contains, why it does not fit an existing card, and what the
+addition would look like. Then wait. Do not implement it in the same pass "pending
+approval". If approval doesn't come, land the data enrichment and report the deferred
+suggestion.
+
+Corollary: a new subtopic that falls through `normalizeMetric()` to `slugify()` would
+create an unapproved card. Treat that as a blocker to raise, not a silent outcome — see
+section 1 of the app-layer checklist.
+
 ## Data flow
 
 ```
@@ -88,7 +125,11 @@ python scripts/build_site_content.py   # regenerates src/content/ from .claude/d
    so they cannot drift from the app). Exits non-zero when something needs a look.
    Findings are **advisory** — see the checklist below for how to judge each one. Never
    silence a warning by inventing a value.
-6. Commit the regenerated `.claude/docs/`, `src/data/schools.json`, and `src/content/`,
+6. **Check the diff for UX changes before committing.** The result should be data only —
+   notes, content JSON, manifest, values, report fields. If the work would add or reorder a
+   card/section/tile/Compare row, or touch a component or style, stop: that needs the
+   user's approval first (see the hard constraint above). Ask, and commit only the data.
+7. Commit the regenerated `.claude/docs/`, `src/data/schools.json`, and `src/content/`,
    plus any app-layer edits from step 5 (raw files in `source-material/` stay gitignored
    and are not committed, except `.md` — see the data-provenance standard).
 
@@ -129,11 +170,20 @@ thing with different filenames ("Theater" vs "Theatre").
 
 After ingesting, list the topic's distinct subtopics and check each one resolves to an
 existing rule key. If a new phrasing should join an existing metric, add a `RULES` entry —
-**ordered, first match wins**, so put specific patterns before generic ones.
+**ordered, first match wins**, so put specific patterns before generic ones. Folding a new
+phrasing into an existing metric is the preferred fix and needs no approval; it keeps the
+existing card set intact.
+
+An unmatched subtopic that slugifies into its own metric **is a new card** — a UX change.
+Do not let it land silently. Either map it onto an existing metric, or stop and ask the
+user to approve the new card, explaining what the material is and why no existing card
+fits (see the hard constraint at the top).
 
 New *topic* folder → it needs its own `RULES[topicSlug]` array, an entry in `TOPIC_ORDER`,
 and optionally `SECTION_ORDER` for within-topic card order. Without a rules array every
-subtopic falls through to slugify.
+subtopic falls through to slugify. A new topic adds a new research-area section to every
+school page, so it is a UX change by definition: get the user's approval on the topic and
+its card breakdown before wiring `TOPIC_ORDER` / `SECTION_ORDER`.
 
 ### 2. Comparison numbers → `src/data/metricValues.ts`
 
@@ -142,6 +192,10 @@ It is keyed `school slug -> display string | null`, and **a school absent from a
 map renders as N/A / is dropped from the stat strip** (`SchoolDetail.tsx` filters on
 `!= null`). So ingesting a new school's sports research gives it a page but leaves it
 blank in the Power 4 / D1 rows until backfilled.
+
+Backfilling a school into an **existing** `VALUE_METRICS` entry is data enrichment — do it.
+Adding a **new** entry creates a new Compare row and stat tile, which is a UX change: ask
+first.
 
 When new material moves a number, update the value **and** its trailing per-school
 comment — those comments carry the per-athlete/per-figure sourcing. Prefer `null` over a
