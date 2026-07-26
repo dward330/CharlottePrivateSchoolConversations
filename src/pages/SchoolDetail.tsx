@@ -23,6 +23,10 @@ import { ClubCatalogBody } from '../components/ClubCatalog.tsx'
 
 type Loaded = Record<string, MetricGroup[]>
 
+/* Student-clubs metrics whose named orgs Cannon's consolidated Club Catalog card
+   absorbs, so they don't render as standalone cards on the Cannon page. */
+const MERGED_INTO_CANNON_CATALOG = new Set(['affinity', 'lower-middle', 'service'])
+
 function PlusIcon() {
   return (
     <svg
@@ -174,7 +178,18 @@ export function SchoolDetail({ slug }: { slug: string }) {
 
         <main className="dossier-main">
           {covered.map((t) => {
-            const groups = loaded[t.slug] ?? []
+            const allGroups = loaded[t.slug] ?? []
+            /* Cannon's Club Catalog card is a consolidated view: it absorbs the
+               named orgs from the Affinity, Lower/Middle, and Service cards (see
+               data/clubCatalog.ts), so those three don't also render standalone
+               on the Cannon Student Clubs page. Cannon-only — every other school
+               keeps all its cards. */
+            const groups =
+              slug === 'cannon' && t.slug === 'student-clubs'
+                ? allGroups.filter(
+                    (g) => !MERGED_INTO_CANNON_CATALOG.has(g.metric.key),
+                  )
+                : allGroups
             const stats = valueMetricsForTopic(t.slug).filter((vm) => vm.values[slug] != null)
             return (
               <section key={t.slug} id={`topic-${t.slug}`} className="topic-section">
