@@ -59,7 +59,6 @@ const MERGED_INTO_CANNON_CATALOG = new Set(['affinity', 'lower-middle', 'service
    metrics.ts SECTION_ORDER). */
 const SCHOOL_SECTION_ORDER: Record<string, Record<string, string[]>> = {
   cannon: {
-    'student-clubs': ['academic-clubs', 'honor-societies', 'catalog'],
     'the-arts': ['overview', 'visual-arts', 'music', 'theatre', 'courses', 'facilities', 'in-depth-report'],
   },
   // Charlotte Christian: The Arts has sub-sections (digital-arts, music, theatre)
@@ -73,10 +72,9 @@ const SCHOOL_SECTION_ORDER: Record<string, Record<string, string[]>> = {
   'charlotte-country-day': {
     'the-arts': ['overview', 'awards', 'visual-arts', 'theatre', 'music', 'facilities', 'in-depth-report'],
   },
-  // Providence Day: Student Clubs — Club Catalog & Overview card last; The Arts —
-  // In-Depth Report last (music/theatre were falling past it under the shared order).
+  // Providence Day: The Arts — In-Depth Report last (music/theatre were falling
+  // past it under the shared order).
   'providence-day': {
-    'student-clubs': ['academic-clubs', 'governance', 'signature', 'catalog'],
     'the-arts': ['overview', 'awards', 'visual-arts', 'music', 'theatre', 'in-depth-report'],
   },
 }
