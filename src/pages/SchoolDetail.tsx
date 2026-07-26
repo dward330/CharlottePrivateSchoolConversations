@@ -20,6 +20,7 @@ import { clubClusters } from '../data/clubClusters.ts'
 import { ClubClustersBody } from '../components/ClubClusters.tsx'
 import { clubCatalog } from '../data/clubCatalog.ts'
 import { ClubCatalogBody } from '../components/ClubCatalog.tsx'
+import { WelcomeVideo, PlayIcon } from '../components/WelcomeVideo.tsx'
 
 type Loaded = Record<string, MetricGroup[]>
 
@@ -96,7 +97,14 @@ function ArrowIcon() {
    parsed as an unknown route and bounce home. Scroll in place instead. */
 function scrollToTopic(e: React.MouseEvent, slug: string) {
   e.preventDefault()
-  document.getElementById(`topic-${slug}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  scrollToId(e, `topic-${slug}`)
+}
+
+/* Same reason as scrollToTopic: the hash router would treat a bare "#welcome"
+   as an unknown route. */
+function scrollToId(e: React.MouseEvent, id: string) {
+  e.preventDefault()
+  document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
 }
 
 export function SchoolDetail({ slug }: { slug: string }) {
@@ -157,6 +165,16 @@ export function SchoolDetail({ slug }: { slug: string }) {
             {covered.length} research areas · {totalDocs} documents distilled
           </p>
           <div className="school-header-topics">
+            {brand.welcomeVideoUrl && (
+              <a
+                className="chip chip-accent"
+                href="#welcome"
+                onClick={(e) => scrollToId(e, 'welcome')}
+              >
+                <PlayIcon size={10} />
+                Welcome Video
+              </a>
+            )}
             {covered.map((t) => (
               <a
                 key={t.slug}
@@ -184,6 +202,16 @@ export function SchoolDetail({ slug }: { slug: string }) {
 
       <div className="dossier-layout">
         <aside className="dossier-nav">
+          {brand.welcomeVideoUrl && (
+            <a
+              className="dossier-nav-welcome"
+              href="#welcome"
+              onClick={(e) => scrollToId(e, 'welcome')}
+            >
+              <PlayIcon size={13} />
+              Welcome Video
+            </a>
+          )}
           <div className="dossier-nav-label">Research areas</div>
           {covered.map((t) => (
             <a
@@ -205,6 +233,9 @@ export function SchoolDetail({ slug }: { slug: string }) {
         </aside>
 
         <main className="dossier-main">
+          {brand.welcomeVideoUrl && (
+            <WelcomeVideo name={school.name} url={brand.welcomeVideoUrl} />
+          )}
           {covered.map((t) => {
             const allGroups = loaded[t.slug] ?? []
             /* Cannon's Club Catalog card is a consolidated view: it absorbs the
