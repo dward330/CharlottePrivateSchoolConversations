@@ -12,8 +12,9 @@ Fees & Fine Print
 • Late pick-up: $25 per quarter hour beginning at 6:01 p.m.
 • Billing is monthly, based on days attended per week.
 Notes & Gaps
-• The Extended Day program overall serves JK-grade 8, but published pricing covers only the Lower School (JK-4) packet; Middle School families enroll through the middle school office and no MS rates are published.
-• The 2024-25 packet is the most recent the school surfaces (checked July 2026) - no 2025-26 or 2026-27 packet was found, so treat these rates as a floor, two cycles old.
+• SUPERSEDED (July 27, 2026): both gap notes below were closed by a later research pass. A live 2026-27 Lower School packet exists and Middle School rates ARE published. See "Charlotte Christian - After School - Redesign Research 2026.md" in this folder for the current 2026-27 figures; the rates in the table above are the 2024-25 packet and are two cycles stale.
+• The Extended Day program overall serves JK-grade 8, but the 2024-25 published pricing covered only the Lower School (JK-4) packet. SUPERSEDED: Middle School rates are now published in a dedicated MS parent-information PDF - $8 per hour, 3:00-5:00 pm, billed monthly on hourly attendance, late fee $25/quarter hour from 5:01 pm.
+• The 2024-25 packet was the most recent found in the July 22, 2026 pass. SUPERSEDED: a 2026-27 packet is live and linked from the school's Extended Day page. 2026-27 monthly rates are $125 / $175 / $245 / $295 / $325 for 1-5 days per week - a 32-52% increase over the 2024-25 figures above.
 Sources & Where to Verify
 Lower School Extended Day packet 2024-25 (PDF): https://resources.finalsite.net/images/v1685545479/charlotte/cpbmgjfambkvjwhxie94/ExtendedDay.pdf
 Extended Day & After School Clubs: https://www.charlottechristian.com/campus-life/extended-day-after-school-clubs

@@ -3299,3 +3299,444 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   .cs-stats { grid-template-columns: 1fr !important; }
   .cs-mechanics { grid-template-columns: 1fr; }
 }
+
+/* == After School ========================================================== */
+/* The four redesigned After School cards (components/AfterSchool.tsx). Reuses
+   the existing .tag-* / .srcrow primitives so these read as the same system as
+   the Sports, Arts, Clubs and College Support cards above.
+
+   Two blocks here are interactive rather than static: the cost matrix responds
+   to a selected row and days-per-week column, and the enrichment catalog filters
+   and highlights in place. Both are styled from the same accent tokens so the
+   selection state reads as one idea across the card. */
+
+.as-body { font-size: 14px; }
+
+.as-lead { margin: 0 0 16px; font-size: 14.5px; line-height: 1.5; }
+
+.as-h {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin: 20px 0 10px;
+}
+.as-h-hint { font-weight: 400; letter-spacing: 0; text-transform: none; }
+
+.as-note { margin: 8px 0 16px; font-size: 12.5px; line-height: 1.55; }
+
+.as-flag {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+  margin: 10px 0 0;
+  font-size: 12.5px;
+  line-height: 1.55;
+}
+.as-flag-tag { flex: none; font-size: 10px; }
+.as-inline-tag { font-size: 9px; margin-left: 6px; vertical-align: 1px; }
+
+.as-rows { display: flex; flex-direction: column; font-size: 13px; }
+.as-row {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 12px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+  line-height: 1.5;
+}
+.as-row:last-child { border-bottom: none; }
+.as-row-label { font-family: var(--heading); font-size: 14px; }
+
+/* -- 1a the coverage timeline ---------------------------------------------- */
+
+.as-timeline { display: flex; flex-direction: column; gap: 10px; }
+
+.as-tl-row {
+  display: grid;
+  grid-template-columns: 170px 1fr;
+  gap: 14px;
+  align-items: center;
+}
+.as-tl-hours {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10.5px;
+  letter-spacing: 0.08em;
+}
+.as-tl-label { font-size: 12.5px; line-height: 1.35; }
+.as-tl-label strong { font-family: var(--heading); font-size: 14px; }
+
+/* The hour grid behind each bar — one hairline per hour of the window. */
+.as-tl-track {
+  position: relative;
+  height: 38px;
+  background-image: repeating-linear-gradient(
+    to right,
+    var(--border) 0 1px,
+    transparent 1px 20%
+  );
+}
+
+.as-tl-band {
+  position: absolute;
+  top: 4px;
+  bottom: 4px;
+  display: flex;
+  border: 1px solid var(--accent-300);
+  background: color-mix(in oklab, var(--accent) 9%, transparent);
+  overflow: hidden;
+}
+/* An uncovered division still gets a row — drawn as a dashed outline, because
+   the gap in coverage is the finding rather than an absence of data. */
+.as-tl-band.is-uncovered {
+  border: 1px dashed var(--border);
+  background: transparent;
+}
+
+.as-tl-tier {
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+  border-right: 1px dashed var(--accent-300);
+  font-size: 10.5px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent-900);
+  white-space: nowrap;
+  overflow: hidden;
+}
+.as-tl-tier.is-last {
+  border-right: none;
+  background: color-mix(in oklab, var(--accent) 8%, transparent);
+}
+.as-tl-tier.is-flat {
+  width: 100%;
+  border-right: none;
+  background: color-mix(in oklab, var(--accent) 8%, transparent);
+}
+.as-tl-band.is-uncovered .as-tl-tier {
+  color: var(--text-muted);
+  background: transparent;
+}
+
+.as-summer {
+  border: 1px solid var(--border);
+  padding: 8px 12px;
+  display: flex;
+  gap: 14px;
+  align-items: baseline;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.as-summer-chip { font-size: 10px; flex: none; }
+
+.as-facts {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  border-top: 1px solid var(--border);
+  margin-top: 16px;
+  padding-top: 12px;
+  font-size: 12.5px;
+  line-height: 1.5;
+}
+.as-facts strong { font-family: var(--heading); }
+
+/* -- 1b the cost planner --------------------------------------------------- */
+
+/* The matrix and the estimate rail are independent columns, so with a short
+   table (Cannon publishes ONE row) the taller rail used to leave several hundred
+   pixels of dead space beside it. Aligning the grid to `stretch` and letting the
+   matrix column flow its own content means a short table's card is only as tall
+   as it needs to be, while a 13-row table (Country Day) still drives the height
+   itself. */
+.as-cost {
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 24px;
+  align-items: start;
+}
+.as-cost-matrix { min-width: 0; }
+.as-cost-side { display: flex; flex-direction: column; gap: 12px; }
+
+/* A short matrix can't fill the rail's height on its own, so the fee ledger
+   moves under the table and the two columns meet in the middle rather than
+   leaving a tall blank gap. Keyed off a modifier the component sets from the
+   published row count, so long tables keep the original side-by-side rail. */
+.as-cost.is-short { grid-template-columns: 1fr 1fr; }
+.as-cost.is-short .as-cost-matrix { display: flex; flex-direction: column; gap: 12px; }
+
+.as-daysel { display: flex; gap: 10px; align-items: center; margin-bottom: 10px; }
+.as-daysel-label {
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.as-table-wrap { overflow-x: auto; }
+.as-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.as-th {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-align: right;
+  padding: 6px 8px;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+.as-th-row { text-align: left; }
+.as-th-note { font-weight: 400; font-size: 9.5px; letter-spacing: 0.08em; }
+.as-th-day.is-active { color: var(--accent-700); }
+.as-th-fee { text-align: right; }
+
+.as-td {
+  padding: 7px 8px;
+  border-bottom: 1px solid var(--border);
+  text-align: right;
+  vertical-align: top;
+}
+.as-td-row { text-align: left; font-weight: 400; }
+.as-table tbody tr:last-child .as-td { border-bottom: none; }
+
+/* The whole row is clickable; the button carries the accessible pressed state
+   so keyboard users get the same selection the pointer does. */
+.as-table tbody tr { cursor: pointer; }
+.as-table tbody tr:hover .as-td {
+  background: color-mix(in oklab, var(--accent) 5%, transparent);
+}
+.as-table tbody tr.is-selected .as-td {
+  background: color-mix(in oklab, var(--accent) 10%, transparent);
+}
+.as-td-price.is-active {
+  box-shadow: inset 0 0 0 999px color-mix(in oklab, var(--accent) 7%, transparent);
+}
+.as-rowbtn {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 14px;
+  background: none;
+  border: none;
+  padding: 0;
+  color: inherit;
+  cursor: pointer;
+  text-align: left;
+}
+.as-rowbtn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.as-estimate { border: 1px solid var(--accent-300); padding: 16px; }
+.as-estimate-kicker {
+  font-size: 10.5px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+.as-estimate-row { font-family: var(--heading); font-weight: 600; font-size: 16px; }
+.as-estimate-days { font-size: 12.5px; margin-bottom: 10px; }
+.as-estimate-big { display: flex; align-items: baseline; gap: 8px; }
+.as-estimate-big .text-muted { font-size: 12.5px; }
+.as-estimate-val {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 34px;
+  color: var(--accent-700);
+}
+.as-estimate-lines {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border-top: 1px solid var(--border);
+  margin-top: 10px;
+  padding-top: 10px;
+  font-size: 13px;
+}
+.as-estimate-lines > div { display: flex; justify-content: space-between; gap: 10px; }
+.as-estimate-lines strong { font-family: var(--heading); font-size: 15px; }
+.as-estimate-gap { margin: 10px 0 0; font-size: 12.5px; line-height: 1.55; }
+.as-estimate-est { margin: 10px 0 0; }
+.as-estimate-est .tag-neutral { font-size: 10px; }
+
+.as-aside {
+  border: 1px solid var(--border);
+  padding: 12px 16px;
+  font-size: 12.5px;
+  line-height: 1.55;
+}
+.as-aside strong { font-family: var(--heading); font-size: 14px; }
+
+.as-fees { border: 1px solid var(--border); padding: 12px 16px; }
+.as-fees-kicker {
+  font-size: 10.5px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+.as-fees-list { display: flex; flex-direction: column; font-size: 12.5px; line-height: 1.5; }
+.as-fee {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 5px 0;
+  border-bottom: 1px solid var(--border);
+}
+.as-fee strong { font-family: var(--heading); white-space: nowrap; }
+.as-fee-note { margin: 5px 0 0; }
+
+/* -- 1c enrichment catalog ------------------------------------------------- */
+
+.as-rhythm {
+  display: grid;
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  margin-bottom: 16px;
+}
+.as-rhythm-block { background: var(--bg); padding: 12px; }
+.as-rhythm-time { font-size: 10.5px; letter-spacing: 0.1em; }
+.as-rhythm-name { font-family: var(--heading); font-weight: 600; font-size: 15px; }
+.as-rhythm-detail { font-size: 12px; line-height: 1.45; margin-top: 3px; }
+
+.as-chips { display: flex; flex-wrap: wrap; gap: 8px 10px; }
+.as-chips .tag-accent { font-size: 12px; }
+
+.as-filters { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-bottom: 8px; }
+.as-filters-label {
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-right: 2px;
+}
+.as-filter {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 13px;
+  padding: 4px 12px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+}
+.as-filter:hover { border-color: var(--accent); color: var(--accent-700); }
+.as-filter.is-active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--bg);
+}
+
+.as-search {
+  width: 100%;
+  max-width: 340px;
+  font: inherit;
+  font-size: 13px;
+  padding: 6px 10px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  margin-bottom: 6px;
+}
+.as-search:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
+
+.as-count { font-size: 11.5px; margin-bottom: 6px; }
+
+.as-scroll {
+  max-height: 320px;
+  overflow-y: auto;
+  border: 1px solid var(--border);
+  scrollbar-width: thin;
+  scrollbar-color: var(--accent-300) transparent;
+}
+.as-catalog .as-th {
+  position: sticky;
+  top: 0;
+  background: var(--bg);
+  z-index: 1;
+  text-align: left;
+}
+.as-catalog .as-th-fee { text-align: right; }
+.as-catalog .as-td { text-align: left; }
+.as-catalog .as-td-fee { text-align: right; white-space: nowrap; }
+.as-class-name { font-family: var(--heading); font-size: 14px; }
+.as-class-desc { font-size: 12px; line-height: 1.45; }
+.as-empty { padding: 16px 12px; font-size: 13px; text-align: center; }
+
+/* Search highlights the matched characters in place, so a parent can see WHY a
+   row matched when the hit is in the description rather than the title. */
+.as-mark {
+  background: color-mix(in oklab, var(--accent) 32%, transparent);
+  color: inherit;
+  padding: 0;
+}
+
+/* -- 1d verdict & checklist ------------------------------------------------ */
+
+.as-split { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: start; }
+.as-split > :only-child { grid-column: 1 / -1; }
+
+.as-marks { display: flex; flex-direction: column; font-size: 13px; line-height: 1.55; }
+.as-mark-row {
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  gap: 10px;
+  padding: 9px 0;
+  border-bottom: 1px solid var(--border);
+}
+.as-mark-row:last-child { border-bottom: none; }
+.as-mark-good { color: var(--accent-700); font-family: var(--heading); font-weight: 600; }
+.as-mark-warn { color: var(--accent-900); font-family: var(--heading); font-weight: 600; }
+
+.as-checklist { display: flex; flex-direction: column; font-size: 13px; line-height: 1.55; }
+.as-check-item {
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  gap: 10px;
+  padding: 9px 0;
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+  align-items: start;
+}
+.as-check-item:last-child { border-bottom: none; }
+.as-check-item input {
+  accent-color: var(--accent);
+  margin: 2px 0 0;
+  width: 15px;
+  height: 15px;
+}
+.as-check-item .is-checked { color: var(--text-muted); text-decoration: line-through; }
+
+/* -- source row ------------------------------------------------------------ */
+
+.as-src {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+  flex-wrap: wrap;
+  border-top: 1px solid var(--border);
+  margin-top: 16px;
+  padding-top: 12px;
+  font-size: 12px;
+}
+.as-src .tag-outline { font-size: 10px; flex: none; }
+
+/* Same reason as the College Support cards: these are wide, structured layouts
+   and must never reflow into the two-column prose columns .note-card[open]
+   applies by default. */
+.note-card-as[open] .note-card-body { column-count: 1; }
+
+@media (max-width: 900px) {
+  .as-cost,
+  .as-split { grid-template-columns: 1fr !important; }
+  .as-rhythm { grid-template-columns: 1fr 1fr !important; }
+  .as-row { grid-template-columns: 1fr; gap: 4px; }
+  .as-tl-row { grid-template-columns: 120px 1fr; }
+  /* The matrix scrolls sideways rather than crushing its columns. */
+  .as-cost-matrix .as-table { min-width: 520px; }
+}
+
+@media (max-width: 600px) {
+  .as-rhythm { grid-template-columns: 1fr !important; }
+  .as-tl-row { grid-template-columns: 96px 1fr; gap: 8px; }
+  .as-tl-tier { font-size: 9px; padding: 0 4px; }
+}

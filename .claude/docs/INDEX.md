@@ -7,12 +7,12 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 ### After School (`after-school/`)
 
-- [Cannon School](after-school/cannon.md) — 4 docs
-- [Charlotte Christian School](after-school/charlotte-christian.md) — 5 docs
-- [Charlotte Country Day School](after-school/charlotte-country-day.md) — 5 docs
-- [Charlotte Latin School](after-school/charlotte-latin.md) — 5 docs
-- [Davidson Day School](after-school/davidson-day.md) — 4 docs
-- [Providence Day School](after-school/providence-day.md) — 4 docs
+- [Cannon School](after-school/cannon.md) — 5 docs
+- [Charlotte Christian School](after-school/charlotte-christian.md) — 6 docs
+- [Charlotte Country Day School](after-school/charlotte-country-day.md) — 6 docs
+- [Charlotte Latin School](after-school/charlotte-latin.md) — 6 docs
+- [Davidson Day School](after-school/davidson-day.md) — 5 docs
+- [Providence Day School](after-school/providence-day.md) — 6 docs
 
 ### College Support (`college-support/`)
 
@@ -70,4 +70,4 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 
 ## Data layer
-- `src/data/schools.json` — 287 documents across 7 topics and 6 schools.
+- `src/data/schools.json` — 294 documents across 7 topics and 6 schools.
