@@ -146,7 +146,9 @@ button { font: inherit; }
   background: var(--bg);
   border-bottom: 1px solid var(--border);
 }
-.brand { display: flex; align-items: center; gap: 10px; font-family: var(--heading); font-weight: 600; }
+/* min-width: 0 lets the brand name ellipsise instead of forcing the nav wider
+   than the viewport once the language trigger joins .nav-actions. */
+.brand { display: flex; align-items: center; gap: 10px; font-family: var(--heading); font-weight: 600; min-width: 0; }
 .brand-mark {
   display: grid;
   place-items: center;
@@ -157,7 +159,7 @@ button { font: inherit; }
   font-weight: 600;
   letter-spacing: 0.04em;
 }
-.brand-name { font-size: 18px; }
+.brand-name { font-size: 18px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 /* Logo art (public/logo.png) has a cream field baked in; a hairline keeps it
    reading as an intentional plate on both light and dark navs. */
 .brand-logo {
@@ -178,7 +180,7 @@ button { font: inherit; }
 .navlink:hover { color: var(--text); }
 .navlink.on { color: var(--accent-700); }
 
-.nav-actions { display: flex; align-items: center; gap: 8px; }
+.nav-actions { display: flex; align-items: center; gap: 8px; flex: none; }
 
 .theme-toggle {
   display: grid;
@@ -195,20 +197,151 @@ button { font: inherit; }
 .theme-toggle:hover { color: var(--text); background: var(--surface-2); border-color: var(--brand); }
 .theme-toggle:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
 
-.lang-picker { display: flex; align-items: center; flex: none; }
-.lang-picker select {
+/* Language selector — globe trigger + blueprint panel. Sized off the theme
+   toggle so the two read as one pair of nav controls. Directional properties are
+   logical throughout (inset-inline, padding-inline, margin-inline) so the whole
+   control mirrors for free under [dir='rtl'] on the Arabic and Farsi locales. */
+.lang-picker { position: relative; display: flex; align-items: center; flex: none; }
+
+.lang-trigger {
+  display: flex;
+  align-items: center;
+  gap: 7px;
   height: 36px;
-  padding: 0 8px;
+  padding-inline: 11px;
   border: 1px solid var(--border);
   background: var(--surface);
   color: var(--muted);
-  font: inherit;
-  font-size: 0.82rem;
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.01em;
   cursor: pointer;
   transition: color 0.12s ease, background 0.12s ease, border-color 0.12s ease;
 }
-.lang-picker select:hover { color: var(--text); background: var(--surface-2); border-color: var(--brand); }
-.lang-picker select:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
+.lang-trigger:hover { color: var(--text); background: var(--surface-2); border-color: var(--brand); }
+.lang-trigger:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
+.lang-trigger[aria-expanded='true'] { color: var(--text); border-color: var(--brand); }
+/* Native names in longer scripts (Kreyòl Ayisyen, తెలుగు) would otherwise widen
+   the nav past the logo on a narrow phone. */
+.lang-trigger-name {
+  max-width: 11ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  /* The name is a native-script run (العربية, తెలుగు) inside button chrome whose
+     direction follows the page; isolate it so it can't reorder the icons. */
+  unicode-bidi: isolate;
+}
+
+.lang-panel {
+  position: absolute;
+  top: calc(100% + 9px);
+  inset-inline-end: 0;
+  z-index: 200;
+  min-width: 262px;
+  border: 1px solid var(--text);
+  background: var(--bg);
+  box-shadow: var(--shadow-md);
+}
+
+.lang-panel-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 12px 8px;
+  border-bottom: 1px solid var(--border);
+}
+.lang-panel-head .tag-outline { font-size: 10px; }
+/* Quiet inline notice — a locale bundle that failed to load, English still up. */
+.lang-note {
+  font-family: var(--heading);
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--accent-700);
+  text-align: end;
+}
+
+/* Scrolls so every row stays reachable on a short viewport. */
+.lang-list { max-height: min(52vh, 420px); overflow-y: auto; }
+
+.lang-row {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 12px;
+  border: 0;
+  border-bottom: 1px solid var(--border);
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: start;
+  cursor: pointer;
+  transition: background 0.12s ease;
+}
+.lang-row:last-child { border-bottom: 0; }
+.lang-row:hover:not(:disabled) { background: color-mix(in srgb, var(--accent) 9%, transparent); }
+.lang-row.on { background: color-mix(in srgb, var(--accent) 6%, transparent); }
+.lang-row:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+/* Not yet translated: listed to show what's coming, but inert. Dimmed as a whole
+   so the row reads as unavailable rather than merely low-contrast. */
+.lang-row.soon { cursor: default; opacity: 0.55; }
+
+.lang-row-names { flex: 1; min-width: 0; }
+/* isolate keeps an RTL name (العربية, فارسی) shaped correctly while leaving the
+   block's own direction alone, so every name starts at the same column edge. */
+.lang-row-native {
+  display: block;
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.25;
+  text-align: start;
+  unicode-bidi: isolate;
+}
+.lang-row-label {
+  display: block;
+  margin-top: 1px;
+  font-family: var(--sans);
+  font-size: 11px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+/* Listed but not yet translated — selectable, renders English. */
+.lang-soon {
+  flex: none;
+  padding: 2px 5px;
+  border: 1px solid var(--border);
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 9px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  white-space: nowrap;
+}
+.lang-check { flex: none; width: 13px; display: inline-flex; color: var(--accent); }
+
+.lang-foot {
+  margin: 0;
+  padding: 9px 12px 11px;
+  border-top: 1px solid var(--border);
+  font-size: 10.5px;
+  line-height: 1.45;
+  color: var(--muted);
+}
+
+/* The globe alone below the logo's breakpoint; the native name returns with room. */
+@media (max-width: 480px) {
+  .lang-trigger { padding-inline: 9px; gap: 5px; }
+  .lang-trigger-name { max-width: 7ch; }
+  .lang-panel { min-width: 232px; }
+}
 
 /* Visually hidden, still read by screen readers. */
 .sr-only {
@@ -224,6 +357,18 @@ button { font: inherit; }
 }
 
 main { flex: 1; }
+
+/* RTL locales (ar, fa) mirror the chrome — nav, footer, card grids, corner marks.
+   The research content itself is deliberately NOT translated (see the i18n note
+   in CLAUDE.md), so it stays an LTR run: left as RTL, the bidi algorithm moves a
+   sentence's trailing period to the front (".side"), and figures like "6 of 7"
+   reverse. Isolating the page body pins that English text to LTR while the
+   surrounding layout still flips. Remove this when a locale's prose is translated
+   at the data layer. */
+:root[dir='rtl'] main {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
 
 .page {
   width: 100%;
@@ -1487,13 +1632,15 @@ main { flex: 1; }
   color: color-mix(in srgb, var(--text) 55%, transparent);
   pointer-events: none;
 }
+/* Logical insets so the registration marks land on the right corners under
+   [dir='rtl'] (Arabic, Farsi) — .tl/.tr are read as inline-start/inline-end. */
 .bp-corner::before, .bp-corner::after { content: ''; position: absolute; background: currentColor; }
-.bp-corner::before { left: 5px; top: 0; width: 1px; height: 100%; }
-.bp-corner::after { top: 5px; left: 0; width: 100%; height: 1px; }
-.bp-corner.tl { top: -6px; left: -6px; }
-.bp-corner.tr { top: -6px; right: -6px; }
-.bp-corner.bl { bottom: -6px; left: -6px; }
-.bp-corner.br { bottom: -6px; right: -6px; }
+.bp-corner::before { inset-inline-start: 5px; top: 0; width: 1px; height: 100%; }
+.bp-corner::after { top: 5px; inset-inline-start: 0; width: 100%; height: 1px; }
+.bp-corner.tl { top: -6px; inset-inline-start: -6px; }
+.bp-corner.tr { top: -6px; inset-inline-end: -6px; }
+.bp-corner.bl { bottom: -6px; inset-inline-start: -6px; }
+.bp-corner.br { bottom: -6px; inset-inline-end: -6px; }
 
 .table-wrap {
   overflow: auto;
