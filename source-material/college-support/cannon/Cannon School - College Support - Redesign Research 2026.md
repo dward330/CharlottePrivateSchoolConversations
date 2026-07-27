@@ -1,407 +1,3 @@
-# Cannon School — College Support
-> Distilled from 9 source document(s) in `source-material/college-support/cannon/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-07-27.
-**Documents:** Academic Case, Application Support, Counseling Engine, Fit and Rank, Institutional Leverage, NotebookLM Prompt, Outcomes, Redesign Research 2026, Standing Out
-
-
----
-
-## Academic Case
-
-*Source file: `Cannon School - College Support - Academic Case.pdf`*
-
-CANNON SCHOOL Segment 2 — Academic Case
-The Academic Case
-Segment 2 of 7 — Rigor and Credentials
-The headline. Cannon publishes figures many peer schools withhold. The 2025–26 School Profile reports, for the
-Class of 2025, an actual AP exam pass rate: 197 students sat 425 AP exams, and 92.39% of exams scored 3 or
-higher. A published pass rate — not just a course count — is genuinely uncommon in this series.
-Standardized testing (Class of 2025, school-reported):
-Measure Top 10% Mid-50%
-SAT 1470–1590 1220–1380
-ACT 33–36 25–31
-A test-optional nuance worth knowing: the 2024–25 profile stated that scores for the then-current senior class were
-not reported, citing the school's support for students' right to choose whether to submit scores — and the following
-year's edition then reported that class's distributions retrospectively. Families see current-class score data one
-edition late, by design.
-Curriculum ceiling. Cannon offers 13 AP courses, 8 Advanced Topics (AT) courses, and 21 Advanced
-courses. AT and AP are the most rigorous tier per discipline; students in either may sit the AP exam. AP/AT course
-loads are capped by grade for the Class of 2026: none in 9th grade, one in 10th, up to four in 11th and six in 12th
-(math placement affects the maximums in the upper years).
-Beyond the catalog. For students who exhaust it, the profile documents public-defense “signature learning
-experiences”: Portfolio Defense (AT American Language), Symposium (AT U.S. History), BIOREX
-biological-research projects defended before faculty and outside professionals, faculty-mentored Independent Study
-producing an end-of-year artifact, and Senior Capstone projects presented publicly. Zero Hour (before-school) and
-Summer Term courses extend scheduling room.
-Grading context for colleges. The profile hands colleges the full decoding kit: a published grading scale (A =
-93–100 at 4.00, down to F below 60), weighting policy (only AT/AP carry a +1.0 quality point; Honors and Honors
-Accelerated are unweighted), trimester calendar, six-course load, and both weighted and unweighted GPA
-distributions:
-GPA (Class of 2025, cumulative grades 9–11) Top 10% Mid-50%
-Weighted 4.22–4.28 3.67–4.11
-Unweighted 3.96–4.0 3.57–3.94
-A weighted ceiling of 4.28 signals restrained weighting compared with public-school scales that run to 5.0+ — the
-profile lets an admissions reader see that directly rather than asking them to trust a claim. Cannon does not publish a
-direct statement comparing its grading severity to local public schools; the published scale and distributions are the
-evidence it offers instead.
-Two-edition trend (overlapping windows, not year-over-year). Both available profile editions report the same
-GPA distributions for their respective classes (2024 and 2025) — identical top-10% bands — suggesting a stable
-grading regime across the two most recent cohorts. Only two editions are publicly hosted; no 2023–24 or earlier
-edition could be located, so a longer trend table is not possible.
-Cannon School — College Support Series Page 1
-CANNON SCHOOL Segment 2 — Academic Case
-UNPUBLISHED — NATIONAL MERIT RESULTS
-No school-wide National Merit Semifinalist, Finalist, or Commended counts for any recent year could be found in the
-profiles, school press, or local news. The only reference located is a single dated article predating the current era.
-Unpublished — a transparency gap, not a verdict on student caliber.
-UNPUBLISHED — AP SCHOLAR COUNTS
-Neither profile edition publishes AP Scholar honoree counts, so the multi-edition credentials trend this series usually
-builds is limited to the GPA and AP-pass-rate figures above.
-Third-party context, clearly labeled. Niche reports an average SAT around 1300 and ACT around 30 for Cannon
-— figures self-reported by Niche users, not by the school. They sit beside the school-reported distributions above
-for context only; they do not substitute for them.
-Digital portfolios. The AT Portfolio Defense requires students to design and present digital portfolios of drafted work
-— a curricular answer to the growing role of portfolios in admissions, though Cannon does not publish an
-admissions-specific portfolio program.
-Cannon School — College Support Series Page 2
-
-
----
-
-## Application Support
-
-*Source file: `Cannon School - College Support - Application Support.pdf`*
-
-CANNON SCHOOL Segment 4 — Application Support
-Hands-On Support
-Segment 4 of 7 — The Application Itself
-What is documented. The published record covers the family-facing scaffolding in detail: individual family
-appointments with the assigned counselor (open to all parents, actively scheduled by Cannon for junior and senior
-families), a Financial Aid Workshop, ACT/PSAT interpretation sessions, a College Admission Case Studies event
-that walks junior parents through real application decisions, a College Admission Deans Panel, and senior-year
-College Kick-Off programming. Transcripts and application documents flow through Scoir.
-UNPUBLISHED — APPLICATION MECHANICS
-The operational core — essay coaching methods, interview preparation, Early Decision / Early Action strategy
-guidance, how teacher and counselor recommendation letters are solicited and tracked, and whether counselors
-review every application before submission — is not described in any accessible Cannon-published source. Families
-evaluating the school should ask these questions in writing. Unpublished process „ absent process; but it is
-unverifiable from the outside.
-Scholarships and merit aid. Two distinct things are easy to conflate here. First, Cannon itself: the school states
-plainly that it does not offer academic, arts, or athletics scholarships for its own tuition; it runs a need-based aid
-program through the Clarity Tuition platform ($3,000,000 awarded to 24% of students in 2025–26). Second, college
-merit aid earned by graduating seniors — the question this segment actually asks:
-UNPUBLISHED — CLASS SCHOLARSHIP DOLLARS
-No published total of college scholarship dollars earned by a Cannon graduating class could be found in school
-publications or local press, and neither profile edition reports one. Whether faculty help identify outside scholarships is
-likewise unpublished.
-Need-based aid navigation. The counseling office's published parent programming includes financial-aid
-presentations, and the college-planning calendar addresses the aid process; the profile does not specify FAFSA /
-CSS Profile workshop mechanics or award-letter comparison and appeal support by name. Ask directly whether the
-office reviews award letters.
-Internships and work experience — a genuine documented strength. Cannon's answer here is concrete and
-unusual:
-Program What it is
-Cougars On-Site workshop A College Counseling–hosted junior workshop on securing a summer job, internship, or
-job-shadowing placement: decision-making, cover letters and résumés, interviewing,
-networking
-Winterm course version A multi-day intensive form of the same program during the January Winterm week:
-finished résumé and cover letter, a mock interview, an etiquette lunch, and a networking
-contact list
-Winterm Junior Experience Career exploration with on- or off-campus job shadowing built into the junior year
-Senior Capstone A philanthropic immersion project with a public culminating presentation
-No separate senior internship program beyond these components was found — the junior-year placement machinery
-plus the senior Capstone is the documented model.
-Cannon School — College Support Series Page 1
-CANNON SCHOOL Segment 4 — Application Support
-Bottom line. The financial-aid education layer and the internship pipeline are documented; the
-essay/recommendation/review machinery — the part most parents mean by “hands-on” — is the segment's biggest
-publication gap.
-Cannon School — College Support Series Page 2
-
-
----
-
-## Counseling Engine
-
-*Source file: `Cannon School - College Support - Counseling Engine.pdf`*
-
-CANNON SCHOOL Segment 1 — Counseling Engine
-The Counseling Engine
-Segment 1 of 7 — People, Timing, and Tools
-The core model. Cannon School runs college counseling as a four-year program that begins formally in ninth grade.
-The defining structural choice is continuity: every Upper School student keeps the same college counselor and the
-same dean for all four years, layered on an advisory system that pairs each student with one advisor for their full
-high school experience. In the school's own framing, the adults guiding the college process know the student and the
-family long before application season arrives.
-Staffing and ratios. The office is a five-person team — two Co-Directors of College Counseling, two Associate
-Directors, and a College Counseling Coordinator — per the school's published 2024–25 and 2025–26 School
-Profiles. (Staff are identified by role only in this dossier.) Against the published Upper School enrollment of 423
-(grades 9–12) and a Class of 2025 of 111 seniors, the arithmetic works out as follows:
-Measure Figure Derivation
-Upper School students per counselor » 106 : 1 423 students ÷ 4 counselors (coordinator excluded)
-Seniors per counselor, per class year » 28 : 1 111 seniors ÷ 4 counselors
-“28 : 1” figure on aggregator sites third-party Not in Cannon's own profile; it matches the senior-caseload
-arithmetic, not the overall ratio
-Each counselor carries all four grade levels simultaneously, so the honest reading is roughly 28 active application
-files per counselor each fall inside a total advising load of roughly 106 students.
-Counselor backgrounds. Cannon does not publish narrative biographies for the counseling staff. Independent
-research established that one of the four counselors has documented prior experience inside a university
-admissions office (as an admissions counselor at a private national university), and one came to the role from
-public high school English teaching. No public career history could be located for the remaining team members.
-UNPUBLISHED — COUNSELOR BIOGRAPHIES
-Cannon publishes the team's roles and contact information on its School Profile but no credentials or
-prior-employment histories. Whether additional team members have admissions-office experience is unknown. This is
-a gap in what the school publishes — not a judgment on the team's quality.
-Staff stability. The current five-person team is identical across the 2024–25 and 2025–26 profiles — at least two
-consecutive years of stability. Research indicates the two co-directors joined Cannon around 2020 and one associate
-director has been at the school since roughly 2011; an earlier directorate preceded the current team. The pattern:
-one leadership transition in recent years, followed by a settled office.
-Tools and data families receive. Cannon runs the college process on the Scoir platform — families log in through
-the school's counseling pages, transcripts and application documents flow through it, and college representatives
-book their Cannon visits through the school's Scoir calendar. Scoir's product includes admission-outcome
-scattergrams and a “Predictive Chances” feature built on de-identified national application records; visibility of that
-data to families is controlled by each high school.
-Cannon School — College Support Series Page 1
-CANNON SCHOOL Segment 1 — Counseling Engine
-UNPUBLISHED — PREDICTIVE-DATA VISIBILITY
-No Cannon-published source states whether families see Scoir's scattergrams or predictive admission data for
-Cannon applicants specifically. The platform supports it; whether Cannon enables it is unpublished. Families should
-ask this question directly.
-The parent-facing calendar. Cannon publishes a specific menu of parent programming by grade level:
-Program Audience
-Parent Night All Upper School grade levels
-Coffee with College Counseling (Q&A) Freshman and junior parents
-ACT / PSAT score-interpretation sessions Testing-year families
-Financial Aid Workshop All families
-College Admission Case Studies Event Junior parents
-College Admission Deans Panel Upper School families
-College Kick-Off Senior parents
-“Transitioning your child beyond Cannon” Senior parents
-Individual family appointments with the counselor Open to all parents; scheduled by Cannon for
-junior and senior parents
-Bottom line. The engine is built on continuity and a modest per-class caseload rather than on published counselor
-pedigrees. The published record documents the structure thoroughly; it documents the people thinly.
-Cannon School — College Support Series Page 2
-
-
----
-
-## Fit and Rank
-
-*Source file: `Cannon School - College Support - Fit and Rank.pdf`*
-
-CANNON SCHOOL Segment 7 — Fit and Rank
-The Honest Questions
-Segment 7 of 7 — Fit, Rank, and the Whole Class
-Class rank: the policy is published and unambiguous. “Cannon School does not rank students.” With only AT/AP
-courses weighted (+1.0) and a published weighted ceiling of 4.28, the school avoids the GPA arms race that crowds
-high achievers at ranked schools — the profile's GPA distributions give colleges the context rank would otherwise
-supply. The same policy paragraph discloses that the office reports out-of-school suspensions and expulsions
-through graduation to colleges that request them — a notable piece of candor published alongside the no-rank policy.
-Students not at the top of the class. The structural answer is the continuity model: the same counselor and dean
-for four years, an advisor for four years, and individual family appointments open to every family, not reserved for star
-applicants. Academic scaffolding runs through the Academic Resource Center (The ARC) and subject Academic
-Labs in math, writing, science, and world languages. The acceptance list's breadth — community colleges and
-regional publics beside highly selective institutions — is the outcome-side evidence that the office works the whole
-class.
-Learning differences and accommodations (optional question — answerable here). Cannon publishes a
-Learning Support Program with a public policy document. In the Upper School, Learning Specialists lead a support
-team that includes the student, parents, teachers, the Assistant Head for Academics, the dean, the counselor, and
-the advisor; students get one-on-one executive-function coaching. Most relevant to this series: juniors and seniors
-receive dedicated guidance navigating testing-accommodation requests to the College Board — the exact
-pressure point where learning-difference support meets the admissions process.
-Fit versus prestige. The published mission language is fit-forward: alumni continue at institutions “that best fit their
-individual aspirations and needs, from small liberal arts colleges and major state universities to Ivy League schools
-and service academies.” The counseling program's stated goal is building self-awareness, research, and
-decision-making skills students will reuse for life. The list backs the rhetoric: 279 institutions across every selectivity
-tier, including two-year colleges the school reports without embarrassment (2% of each class).
-Changing direction. Winterm career exploration, the four-year self-assessment curriculum, and the same-counselor
-continuity give a student who pivots — to art school, a service academy, a gap in the traditional path — an adult who
-has known them since ninth grade. The list's specialized destinations (conservatory-style arts schools, military
-academies, international universities) show non-traditional routes actually taken.
-UNPUBLISHED — WHAT REMAINS UNPUBLISHED
-How the school manages internal competition among its own high achievers beyond the no-rank policy, and any
-formal program for students who change direction late, are not described in published sources. The structures above
-are the documented answer; the day-to-day practice is a question for the office.
-Bottom line. On this segment's honest questions, Cannon's published record is stronger than most: an explicit
-no-rank policy with the context data to make it work, a documented learning-support pathway that reaches into
-College Board accommodations, and a fit-forward mission the acceptance list visibly matches.
-Cannon School — College Support Series Page 1
-
-
----
-
-## Institutional Leverage
-
-*Source file: `Cannon School - College Support - Institutional Leverage.pdf`*
-
-CANNON SCHOOL Segment 3 — Institutional Leverage
-Institutional Leverage
-Segment 3 of 7 — How the School's Name Works for Your Child
-The School Profile is the instrument. Cannon publishes its School Profile openly — the same document
-admissions offices receive. It carries the levers a reader needs: CEEB code 340879, accreditations (SAIS; a Cum
-Laude Society chapter since 2005), memberships (ACCIS, NACAC, SACAC, NAIS, NCAIS, CSEE), the no-rank
-policy, the grading scale and GPA distributions, the AP pass rate, course-rigor mapping with the most demanding
-course per discipline marked in bold, and the three-year acceptance list with enrolled institutions distinguished. A
-counselor can point a first-time reader of a Cannon transcript to every calibration they need on two pages.
-Contextualizing each student. The profile explains that AP/AT maximums are grade-capped — which tells a reader
-that a Cannon transcript with four AP/AT courses in 11th grade represents the school's ceiling, not a light load. The
-bold most-demanding-course markers per discipline do the “rigor within context” work that admissions readers ask
-school profiles to do.
-Representative access. Cannon hosts individual college-representative visits on campus each fall — 30-minute
-sessions bookable through the school's Scoir calendar, in person or via a dedicated counseling Zoom room. These
-are information/recruiting visits by college reps; no evaluative on-campus admissions interviews are documented.
-UNPUBLISHED — COLLEGE FAIRS
-No Cannon-hosted multi-college fair is documented in public sources. Whether students attend regional fairs (e.g.,
-NACAC or Charlotte-area events) through the school is unpublished.
-UNPUBLISHED — HISTORIC RELATIONSHIPS WITH SPECIFIC ADMISSIONS OFFICES
-Like nearly every school in this series, Cannon publishes no claims about relationships with particular admissions
-offices, and no repeat-placement (“yield”) history with specific colleges. The three-year acceptance list is the only
-published evidence of institutional reach.
-What the list shows about reach. The published 2022–2024 acceptance list spans 279 distinct institutions — from
-community colleges and regional publics through service academies, flagship publics, and highly selective privates,
-plus international universities (St Andrews, Edinburgh, Aberdeen, Toronto, McGill, University College Dublin). Reach
-breadth is documented; per-college relationships are not.
-Professional network. The school's NACAC and SACAC memberships place its counselors inside the admissions
-profession's main associations — the standard channel through which school-college relationships are built —
-though the profile does not enumerate conference participation.
-Bottom line. Cannon's leverage runs through an unusually transparent School Profile and standard professional
-channels, not through published claims of special access — and the profile is strong enough that the school evidently
-treats it as the primary instrument.
-Cannon School — College Support Series Page 1
-
-
----
-
-## NotebookLM Prompt
-
-*Source file: `Cannon School - College Support - NotebookLM Prompt.md`*
-
-# Cannon School — College Support — NotebookLM Episode Prompt
-
-**Character count of pasteable body: 4948** (target 4,600–4,950; ceiling 4,990)
-
-**Episode length setting: Default** — see reasoning in chat.
-
----
-
-**PASTE FROM HERE:**
-
-Create a two-host Deep Dive episode: "Inside Cannon School College Support" — how Cannon School (Concord, NC) prepares students for college and where graduates go, using only the seven source documents.
-
-GLOBAL RULES: (1) Never use inflated words like "elite," "powerhouse," "dynasty," or "world-class." (2) Whenever a figure is not published, frame it as the sources do: a transparency gap on the school's part, never a verdict that the program is weak. (3) Speak no individual student or counselor names — roles and aggregates only. (4) At most ONE analogy in the entire episode; do not spend it on opening banter. (5) State only what the sources support.
-
-OPEN with one host stating the full agenda in plain language: the counseling team and tools, academic credentials, how the school's profile works for a student, hands-on application help, standing out, where graduates go, and the honest questions about rank and fit. Cover the seven segments IN ORDER, each as its own beat.
-
-SEGMENT 1 — The Counseling Engine [Counseling Engine PDF]: the same counselor and same dean for all four years starting in ninth grade; a five-person office; the math — about one hundred six students per counselor overall, about twenty-eight seniors per counselor each fall; one counselor with documented university admissions-office experience; the Scoir platform; whether families see its predictive data is an open question.
-
-SEGMENT 2 — The Academic Case [Academic Case PDF]: the headline is a published AP pass rate — ninety-two point three nine percent of four hundred twenty-five exams scored three or higher (Class of 2025); SAT mid-fifty twelve-twenty to thirteen-eighty; thirteen A.P. and eight A.T. courses with grade-level caps; public-defense experiences like BIOREX; only A.P./A.T. weighted, ceiling four point two eight; National Merit counts unpublished.
-
-SEGMENT 3 — Institutional Leverage [Institutional Leverage PDF]: the openly published School Profile is the instrument — CEEB code, no-rank policy, grading scale, rigor map, three-year acceptance list; rep visits booked through Scoir; no published claims of special relationships — say so plainly.
-
-SEGMENT 4 — Hands-On Support [Application Support PDF]: documented — family appointments, a case-studies night, a deans panel, a financial-aid workshop, and the Cougars On-Site internship workshop with its Winterm intensive (mock interview, finished resume). Unpublished — essay coaching, recommendation-letter handling, pre-submission review, class scholarship totals. Cannon itself offers need-based aid only.
-
-SEGMENT 5 — Standing Out [Standing Out PDF] — REQUIRED, its own beat, at least two specifics: hooks are built through public defense and artifacts (BIOREX defended before outside professionals; makerspaces and a recording studio; Winterm); athletic-recruiting and arts-portfolio process support is unpublished — a question to ask, not a verdict.
-
-SEGMENT 6 — The Outcomes [Outcomes PDF]: two straight classes at ninety-eight percent four-year; a published three-year acceptance list of two hundred seventy-nine distinct schools with enrolled schools marked; list-breadth counts, never placement rates: Ivy League three of eight (Brown, Cornell, Penn); Ivy Plus ten of seventeen; sixty-four Top Seventy-Five national universities; twenty-nine Top Seventy-Five liberal arts colleges; fifty-five Power Four schools; a blended top twenty-five from MIT and Stanford through Washington and Lee and Richmond. Per-class percentages, yield, and persistence are unpublished — transparency gaps.
-
-SEGMENT 7 — Fit, Rank, and the Whole Class [Fit and Rank PDF] — REQUIRED, its own beat, at least two specifics: the published no-rank policy and the disclosure that suspensions are reported; whole-class support through the ARC and academic labs; the Learning Support Program guiding juniors and seniors through College Board accommodation requests; a fit-forward list running from community colleges to service academies.
-
-CLOSING — its own mandatory beat, NOT a continuation of Segment 7. Pivot with "To pull this together…", then exactly three one-line takeaways spanning the episode (the continuity model; unusual data transparency; the biggest gaps sit in application mechanics). Then end with the full disclaimer as the LITERAL FINAL SENTENCE, nothing after it: we reported only what Cannon School publishes and what our research surfaced, and where a figure is not published, that is a transparency gap, not a verdict on quality.
-
-PRONUNCIATION: Scoir is pronounced "score" — never spell the letters S-C-O-I-R. Say "Power Four," "Top Seventy-Five," "A.P.," "A.T.," FAFSA as "FAF-suh," BIOREX as "BYE-oh-rex," Concord as "CON-kurd." Gloss on first use: "yield" = the share of admitted students who enroll; "matriculation" = where students actually enroll; "Ivy Plus" = the eight Ivy League schools plus nine similarly selective peers like MIT, Stanford, and Duke, counted out of seventeen.
-
-
----
-
-## Outcomes
-
-*Source file: `Cannon School - College Support - Outcomes.pdf`*
-
-CANNON SCHOOL Segment 6 — Outcomes
-The Outcomes
-Segment 6 of 7 — Where Graduates Actually Go
-What the school publishes. Two consecutive classes at 98% to four-year colleges and 2% to two-year colleges
-(Classes of 2024 and 2025; 111 seniors in each). The 2024–25 School Profile carries a consolidated 2022–2024
-College Acceptances list of 279 distinct institutions, with institutions where Class of 2024 members enrolled
-marked in bold — so the school itself distinguishes acceptances from matriculations on the same page. This is a
-three-year multi-year list, not a single-year snapshot.
-Retrieval note (methodology). The bold enrolled-markers do not survive machine text extraction of the PDF, so this
-dossier's counts are computed on the acceptance list — the correct base for the list-breadth metrics below — and
-the enrolled-vs-accepted overlay is reported qualitatively. The 2025–26 profile edition retrieved for this build did not
-include an acceptance-list page; the 2022–2024 list is the verified roster.
-Selectivity counts — list breadth, not placement rates. These count distinct schools appearing on the
-published list, never students. They describe how far the list reaches, not what share of a class lands where.
-Classified against the current (2026) US News editions and 2025–26 Power Four membership, both pulled fresh for
-this build.
-Bucket Count Notes
-Ivy League 3 of 8 Brown, Cornell, Penn. Absent: Columbia, Dartmouth, Harvard,
-Princeton, Yale. (“Columbia College” on the list is a different institution,
-not Columbia University.)
-Ivy Plus¹ 10 of 17 The 3 Ivies + MIT, Stanford, Duke, UChicago, Johns Hopkins,
-Georgetown, WashU. Absent: the 5 Ivies above, Northwestern, Caltech.
-Top-75 National Universities 64 2026 US News edition
-Top-75 Liberal Arts Colleges 29 2026 US News edition; includes the Air Force Academy, which US News
-ranks as a liberal arts college (#5) — a category fact, not a sorting quirk
-Power Four 55 distinct ACC 16, Big Ten 16, SEC 14, Big 12 9 (each school counted once;
-overlap with the Top-75 buckets is expected and correct)
-¹ “Ivy Plus” here is this series' fixed 17-school convention: the eight Ivy League members plus MIT, Stanford, Duke, University of Chicago,
-Johns Hopkins, Northwestern, Caltech, Georgetown, and Washington University in St. Louis. It is an informal grouping, so the denominator
-and the absent schools are always shown.
-Blended Top-25 on the list — National Universities and Liberal Arts Colleges merged by current US News rank,
-deduplicated, rank-ties broken alphabetically. The cut falls at rank 22; Colgate (LAC #23), Emory (#24), and
-Georgetown (#24) just miss and are named here for transparency.
-# Institution Category / 2026 rank
-1 Massachusetts Institute of Technology National #2
-2 Stanford University National #4
-3 Bowdoin College LAC #5
-4 United States Air Force Academy LAC #5 (service academy)
-5 University of Chicago National #6
-6 Duke University National #7
-Cannon School — College Support Series Page 1
-CANNON SCHOOL Segment 6 — Outcomes
-# Institution Category / 2026 rank
-7 Johns Hopkins University National #7
-8 University of Pennsylvania National #7
-9 Harvey Mudd College LAC #10
-10 Cornell University National #12
-11 Brown University National #13
-12 Davidson College LAC #13
-13 Hamilton College LAC #13
-14 Middlebury College LAC #13
-15 Vassar College LAC #13
-16 Wesleyan University LAC #13
-17 University of California, Berkeley National #15
-18 Rice University National #17
-19 University of California, Los Angeles National #17
-20 Vanderbilt University National #17
-21 Carnegie Mellon University National #20
-22 University of Michigan National #20
-23 Washington University in St. Louis National #20
-24 Washington and Lee University LAC #21
-25 University of Richmond LAC #22
-Near-cutoff cases, flagged. Counted in by the narrowest margins: Clemson (National, exactly #75), Syracuse and Buffalo (#75), Indiana
-(#73), Muhlenberg (LAC #70). Verified just outside and not counted: Drexel, NJIT, Stevens (National #80); Baylor, SMU, American, Howard,
-RIT (#88); Hampden-Sydney (LAC #107), Roanoke (#126), Hollins (#135). University of Delaware and Wheaton College (MA) sat just
-outside the top 75 in the prior edition and no 2026 rank could be verified for either; both are conservatively excluded. Three LAC entries are
-counted on verified rank-bands rather than exact ranks: Oberlin (between #35 and the #45 tie), DePauw and Wheaton (IL) (top-50 per
-current-edition sources).
-UNPUBLISHED — PER-CLASS PERCENTAGES, YIELD, AND PERSISTENCE
-Cannon does not publish the percentage of a class admitted to any selectivity tier, repeat-placement (“yield”) history
-with specific colleges, or post-enrollment persistence, graduation, or transfer data. All are typical publication gaps in
-this series — transparency gaps, not verdicts. The list-breadth counts above are the honest substitute.
-Reading it straight. A 111-student class produced a three-year list reaching 279 institutions, 93 of them in a current
-US News top-75 category and 55 of them Power Four members — alongside community colleges, regional publics,
-faith-based colleges, arts schools, and international universities. The school's own framing — institutions “that best fit
-their individual aspirations and needs” — matches the shape of the list.
-Cannon School — College Support Series Page 2
-
-
----
-
-## Redesign Research 2026
-
-*Source file: `Cannon School - College Support - Redesign Research 2026.md`*
-
 # Cannon School — College Support — Redesign Research 2026
 
 **Provenance:** Researched by Claude via web research, 2026-07-27.
@@ -454,14 +50,14 @@ Source: 2025-26 Profile, "AP STATS / CLASS OF 2025" panel.
 
 Notes and caveats:
 - Exams per tester ≈ **2.16** (425 ÷ 197) — `TO VERIFY` as *interpolated*: it is my arithmetic on two
- published figures, not a school-published ratio.
+  published figures, not a school-published ratio.
 - The 197 figure is labeled "Total Students" in an AP Stats panel headed "Class of 2025." It almost
- certainly means *all Upper School AP exam takers in the 2024-25 testing year* (Upper School
- enrollment is 423), **not** 197 members of a 111-person graduating class. `TO VERIFY` — the profile
- does not define the denominator, and the panel's "Class of 2025" heading is ambiguous.
+  certainly means *all Upper School AP exam takers in the 2024-25 testing year* (Upper School
+  enrollment is 423), **not** 197 members of a 111-person graduating class. `TO VERIFY` — the profile
+  does not define the denominator, and the panel's "Class of 2025" heading is ambiguous.
 - **% scoring 4-5: NOT PUBLISHED.** Cannon reports only the 3+ threshold.
 - **AP Scholar / AP Scholar with Distinction counts: NOT PUBLISHED.** No College Board recognition
- press release for Cannon was found in searching.
+  press release for Cannon was found in searching.
 
 ### AP exam policy
 
@@ -501,20 +97,20 @@ otherwise. Currently, all classes are taught as full-year courses." Cannon runs 
 ### Grade-trust mechanics
 
 - **Weighting:** "Our Advanced Topics (AT) and Advanced Placement (AP) courses are weighted with a 1.0
- quality point. Honors and Honors Accelerated courses are **not** weighted." Both weighted and
- unweighted cumulative GPAs are calculated, using **only** final grades from courses taken at Cannon.
+  quality point. Honors and Honors Accelerated courses are **not** weighted." Both weighted and
+  unweighted cumulative GPAs are calculated, using **only** final grades from courses taken at Cannon.
 - **Class rank:** "Cannon School does **not** rank students." No decile or quintile reporting either —
- but see the GPA distribution table in Whole Class Analytics, which functions as a partial substitute.
+  but see the GPA distribution table in Whole Class Analytics, which functions as a partial substitute.
 - **Discipline reporting:** "The College Counseling office reports out-of-school suspensions and
- expulsions through time of graduation to any colleges and universities that request this
- information." This is a disclose-on-request posture (not proactive disclosure), consistent with
- post-2020 NACAC norms.
+  expulsions through time of graduation to any colleges and universities that request this
+  information." This is a disclose-on-request posture (not proactive disclosure), consistent with
+  post-2020 NACAC norms.
 - **Grading scale** (2024-25 Profile; **dropped from the 2025-26 edition** — flagged as a regression in
- disclosure): A 93-100 = 4.00; A- 90-92 = 3.67; B+ 87-89 = 3.33; B 83-86 = 3.00; B- 80-82 = 2.67;
- C+ 77-79 = 2.33; C 73-76 = 2.00; C- 70-72 = 1.67; D+ 67-69 = 1.33; D 63-66 = 1.00; D- 60-62 = 0.67;
- F below 60 = 0.
+  disclosure): A 93-100 = 4.00; A- 90-92 = 3.67; B+ 87-89 = 3.33; B 83-86 = 3.00; B- 80-82 = 2.67;
+  C+ 77-79 = 2.33; C 73-76 = 2.00; C- 70-72 = 1.67; D+ 67-69 = 1.33; D 63-66 = 1.00; D- 60-62 = 0.67;
+  F below 60 = 0.
 - Senior grade reporting: "Grade reports for Trimester 1 are automatically sent for all seniors; grade
- reports for Trimester 2 are sent upon request" (2024-25 Profile).
+  reports for Trimester 2 are sent upon request" (2024-25 Profile).
 
 ### National Merit ledger
 
@@ -527,26 +123,26 @@ Merit announcement, unlike several peer schools. Recorded as genuinely unpublish
 ### Post-AP depth
 
 - **Math:** Ceiling is AP Calculus BC / AP Statistics. Honors Calculus and Honors Discrete and Finance
- sit below BC. **No published post-BC course** (no Multivariable Calculus, no Linear Algebra) in the
- 2025-26 catalog table. Note the 2024-25 Profile listed "*Advanced Topics: Calculus with Applications"
- which is **absent** from the 2025-26 table — flagged discrepancy / apparent course discontinuation.
+  sit below BC. **No published post-BC course** (no Multivariable Calculus, no Linear Algebra) in the
+  2025-26 catalog table. Note the 2024-25 Profile listed "*Advanced Topics: Calculus with Applications"
+  which is **absent** from the 2025-26 table — flagged discrepancy / apparent course discontinuation.
 - **Computer Science:** **AP Computer Science** only (2025-26). The 2024-25 edition instead listed
- "Honors Coding and Computer Science." No post-AP CS, no Data Structures. Thin relative to the AP
- offering elsewhere in the catalog.
+  "Honors Coding and Computer Science." No post-AP CS, no Data Structures. Thin relative to the AP
+  offering elsewhere in the catalog.
 - **World language:** Chinese, French, and Spanish each run **Honors I-V** plus an AP Language and
- Culture course. Five levels plus AP is genuine depth; **no AP Literature-level** world-language
- course and no fourth language.
+  Culture course. Five levels plus AP is genuine depth; **no AP Literature-level** world-language
+  course and no fourth language.
 - **Beyond campus:** **Global Online Academy is NOT mentioned** anywhere on the profile, the curriculum
- page, or the international programs page — checked specifically. No online consortium, **no published
- dual enrollment**, and no named university partnership. Cannon's "beyond the AP ceiling" answer is
- instead **Independent Study** (student petitions to work with a faculty member, develops course
- content and assessment rubrics, produces an end-of-year artifact) rather than external coursework.
+  page, or the international programs page — checked specifically. No online consortium, **no published
+  dual enrollment**, and no named university partnership. Cannon's "beyond the AP ceiling" answer is
+  instead **Independent Study** (student petitions to work with a faculty member, develops course
+  content and assessment rubrics, produces an end-of-year artifact) rather than external coursework.
 - **Summer Term** as acceleration: Honors Biology and Honors Chemistry are offered for a grade in
- summer, and Geometry Acceleration Pass/Fail. Students taking a summer science "may opt to either take
- a course load of 5 classes during the school year OR take an additional elective" (2024-25 Profile).
- Summer Term courses are designated as such on the transcript.
+  summer, and Geometry Acceleration Pass/Fail. Students taking a summer science "may opt to either take
+  a course load of 5 classes during the school year OR take an additional elective" (2024-25 Profile).
+  Summer Term courses are designated as such on the transcript.
 - **Zero Hour** (MWF before school): Varsity Chorus and Varsity Orchestra, both Pass/Fail — a schedule
- release valve that lets a student protect an academic slot.
+  release valve that lets a student protect an academic slot.
 
 ### Sources
 
@@ -640,13 +236,13 @@ a stated scholarship-search function is consistent with the absence of a scholar
 ### Reach and tools
 
 - **Platform: SCOIR.** Confirmed — the College Counseling Information page carries a "Login to SCOIR"
- action alongside transcript requests. (Not Naviance, not MaiaLearning.)
+  action alongside transcript requests. (Not Naviance, not MaiaLearning.)
 - **Published School Profile: YES**, and refreshed annually — 2024-25 and 2025-26 editions both located
- and archived. The profile is linked from the college counseling resources page as "View Cannon's
- Student Profile."
+  and archived. The profile is linked from the college counseling resources page as "View Cannon's
+  Student Profile."
 - **Rep visits per year: NOT PUBLISHED.** Cannon states no number. (For contrast, co-host Davidson Day
- publishes "more than 80 college admission representatives" per year — that figure belongs to Davidson
- Day, **not** Cannon, and must not be attributed to Cannon.)
+  publishes "more than 80 college admission representatives" per year — that figure belongs to Davidson
+  Day, **not** Cannon, and must not be attributed to Cannon.)
 - **Campus visits by staff (counselor fly-ins / travel): NOT PUBLISHED.** No count, no named tours.
 
 ### The Lake Norman consortium event — Cannon as host
@@ -906,18 +502,18 @@ also appearing as enrollments/acceptances.
 **NOT PUBLISHED — this is Cannon's single largest outcome-data gap.** Specifically:
 
 - **Total merit scholarship dollars: NOT PUBLISHED.** No "$X million in merit aid offered" headline
- appears on either profile or any news post.
+  appears on either profile or any news post.
 - **Morehead-Cain:** No current-cycle recipient published. The only Cannon Morehead-Cain items located
- are **2015** (senior Jack Amoroso, recipient) and a faculty item (social studies chair **Laura
- Huffman** named a Morehead-Cain **Impact Educator** by a semifinalist — which implies a Cannon
- semifinalist existed in that cycle, but the student is not named and the year is not stated).
- `TO VERIFY`.
+  are **2015** (senior Jack Amoroso, recipient) and a faculty item (social studies chair **Laura
+  Huffman** named a Morehead-Cain **Impact Educator** by a semifinalist — which implies a Cannon
+  semifinalist existed in that cycle, but the student is not named and the year is not stated).
+  `TO VERIFY`.
 - **Park Scholarship (NC State): NOT PUBLISHED.** No Cannon recipient found.
 - **QuestBridge: NOT PUBLISHED.** No Cannon Scholar/Match found; Cannon is not listed as a QuestBridge
- partner in anything located.
+  partner in anything located.
 - **ROTC: NOT PUBLISHED.** No scholarship counts.
 - **Service academy appointments:** only inferable from the USAFA matriculation above; no appointment
- count is published.
+  count is published.
 
 Cannon does publish an *inbound* financial-aid figure — **$3,000,000 awarded to 24% of students**
 (2025-26; up from $2,700,000 / 23% in 2024-25) — but that is Cannon's own tuition assistance, **not**
@@ -973,25 +569,25 @@ Biology Summer Term," so summer accelerators forgo it — a real tradeoff to rai
 **Distinction / certificate programs:**
 
 - **Global Education Certificate** (also styled Global Studies Certificate) — **CONFIRMED and fully
- specified.** Requirements: (1) complete World History I and II plus World Language I, II, and III;
- (2) senior-year **Glocal Perspectives** class including a **Capstone Essay** and a presentation on a
- global topic; (3) at least **two of three** global experiences — International Exposure (a
- Cannon-sponsored spring/summer international trip, living abroad ≥1 month, or hosting an international
- student), a second **Winterm** course (international trip, local international-community service
- learning, or a global issues course), or two approved global education events (World Affairs Council
- of Charlotte, World Quest, SDLC, Lenoir-Rhyne Foreign Language Competition, or Model UN). Awarded at
- **Senior Night**. Program contact: **Jady Arriaga-Arango**.
+  specified.** Requirements: (1) complete World History I and II plus World Language I, II, and III;
+  (2) senior-year **Glocal Perspectives** class including a **Capstone Essay** and a presentation on a
+  global topic; (3) at least **two of three** global experiences — International Exposure (a
+  Cannon-sponsored spring/summer international trip, living abroad ≥1 month, or hosting an international
+  student), a second **Winterm** course (international trip, local international-community service
+  learning, or a global issues course), or two approved global education events (World Affairs Council
+  of Charlotte, World Quest, SDLC, Lenoir-Rhyne Foreign Language Competition, or Model UN). Awarded at
+  **Senior Night**. Program contact: **Jady Arriaga-Arango**.
 - **Entrepreneurship — a course track, not a certificate.** Cannon offers **Honors Design Thinking &
- Entrepreneurship Lab** and **Advanced Topics: Design Thinking for Entrepreneurship** (a 2-credit
- pairing when introduced in 2024-25). Genuine depth, but **no published "Entrepreneurship Distinction"
- or capstone credential** — checked. Report as a track only.
+  Entrepreneurship Lab** and **Advanced Topics: Design Thinking for Entrepreneurship** (a 2-credit
+  pairing when introduced in 2024-25). Genuine depth, but **no published "Entrepreneurship Distinction"
+  or capstone credential** — checked. Report as a track only.
 - **Engineering — a course track, not a certificate.** **Creative Design and Engineering I, II, III**
- plus **Creative Design & Engineering Studio**, housed alongside **The Mill** and additional
- Makerspaces. Again, **no published Engineering Distinction.**
+  plus **Creative Design & Engineering Studio**, housed alongside **The Mill** and additional
+  Makerspaces. Again, **no published Engineering Distinction.**
 - **Cum Laude Society chapter awarded 2005** — an external academic-honor credential colleges recognize.
 - **Science National Honor Society** — chapter newly established by students (Annette Mensah '26 and
- Jake Miranda '26), inaugural induction of 21 founding members on April 2. A student-initiated
- institution-building story, itself a spike exemplar.
+  Jake Miranda '26), inaugural induction of 21 founding members on April 2. A student-initiated
+  institution-building story, itself a spike exemplar.
 
 **Required internship / capstone / independent research:** The **Senior Capstone service project is the
 one near-universal senior experience**; Independent Study is explicitly **petition-based** (opt-in), and
@@ -1017,15 +613,15 @@ general elective, and Esports is a named learning opportunity.
 several things well:
 
 - It publishes a **maximum AP/AT load table by grade** — so an admissions reader can tell instantly
- whether a student maxed out, and cannot penalize a Cannon 9th grader for zero APs.
+  whether a student maxed out, and cannot penalize a Cannon 9th grader for zero APs.
 - It **bolds the most demanding course in each discipline per grade level**, giving a per-subject rigor
- key rather than a single blunt "most rigorous" checkbox.
+  key rather than a single blunt "most rigorous" checkbox.
 - It publishes **both weighted and unweighted GPA distributions** (top 10% and mid-50%), which
- substitutes for the class rank Cannon refuses to provide.
+  substitutes for the class rank Cannon refuses to provide.
 - It footnotes that **transfer-student GPAs are excluded** from the distribution — a precision most
- profiles skip.
+  profiles skip.
 - It flags **course-availability by class year** (+ for Classes of 2026-2027, ~ for 2028-2029) so a
- reader knows a course genuinely wasn't available to a given student.
+  reader knows a course genuinely wasn't available to a given student.
 - It designates **Summer Term courses on the transcript**, so acceleration is visible rather than hidden.
 
 **Weaknesses of the current instrument (fair to name):** the 2025-26 edition **dropped the college
@@ -1047,69 +643,254 @@ integrity" (2024-25 Profile). A student-run honor council plus a written disclos
 combination colleges look for.
 
 **Repeat pipelines.** Strongest evidence is where **acceptances and 2023 matriculations overlap** —
-institutions Cannon both gets into and sends students to, repeatedly: UNC-Chapel Hil
+institutions Cannon both gets into and sends students to, repeatedly: UNC-Chapel Hill, NC State,
+Appalachian State, UNC-Charlotte, UNC-Greensboro, UNC-Wilmington, UNC-Asheville, East Carolina, Elon,
+High Point, Wake Forest, Clemson, College of Charleston, South Carolina, Wofford, Sewanee, Georgia Tech,
+Georgia, Florida, Tennessee, Miami (FL), Virginia, Virginia Tech, William & Mary, Penn State, Boston
+College, SMU, TCU, Tulane, Duke, Vanderbilt. The **Carolinas + Southeast flagship** core is the true
+pipeline; the Ivy Plus and top-LAC results are real but thinner and episodic.
 
-…[truncated]
+**Memberships and accreditation** (2025-26 Profile, verbatim list): Accredited by **Southern Association
+of Independent Schools (SAIS)**; the 2024-25 edition additionally cites **SACS**. Awarded a **Cum Laude**
+chapter in **2005**. "Selected additional memberships: **ACCIS, CSEE, NAIS, NCAIS, NACAC, SACAC**."
 
+That set is exactly right for college-admissions credibility: **NACAC** (National Association for College
+Admission Counseling) and **SACAC** (Southern ACAC) bind the office to the *Guide to Ethical Practice in
+College Admission*, and **ACCIS** (Association of College Counselors in Independent Schools) is the
+independent-school college-counseling professional body — a membership schools without a serious college
+office typically do not hold. Also cited (2024-25): **The National Network of Schools in Partnership**
+and the **Independent Curriculum Group (ICG)**. ICG membership is philosophically significant — ICG
+schools deliberately prioritize school-designed courses over standardized AP syllabi, which explains
+Cannon's **Advanced Topics** tier and its optional-exam stance.
 
----
+### Sources
 
-## Standing Out
-
-*Source file: `Cannon School - College Support - Standing Out.pdf`*
-
-CANNON SCHOOL Segment 5 — Standing Out
-Standing Out
-Segment 5 of 7 — Cultivating a Distinct Hook
-The documented machinery is curricular. Cannon's published approach to differentiation runs through a four-year
-self-exploration curriculum — assessments of learning styles, decision-making preferences, individual strengths,
-personalities, and career aptitudes, per the School Profile — and through public-defense signature learning
-experiences that convert a student's interest into a defensible artifact:
-Vehicle The hook it can build
-BIOREX An original scientific hypothesis tested, analyzed statistically, and defended before
-faculty, science professionals, and local business leaders
-Independent Study A faculty-mentored deep dive in any discipline, producing an end-of-year artifact
-Symposium / Portfolio Defense An original historical argument, or a curated digital portfolio of drafted writing, publicly
-presented
-Senior Capstone A philanthropic project with a public culminating presentation
-Winterm A one-week experiential term — travel, career immersion, and skill-based courses
-outside the catalog
-Named niche assets The Mill and additional makerspaces, a recording studio and audio lab, Esports, a Global
-Education Certificate, Jazz Combo, technical theater
-The consistent pattern: every vehicle ends in a public defense or tangible artifact — exactly the kind of evidence an
-application can point to. What Cannon does not publish is admissions-side packaging: no named “spike
-development” program or narrative-positioning process is described.
-UNPUBLISHED — ATHLETIC RECRUITING SUPPORT (PROCESS LEVEL)
-Cannon fields competitive athletics and its student-athletes appear on third-party recruiting platforms, but the school
-publishes no process-level description of how the counseling office or athletics staff manages NCAA Eligibility Center
-registration, recruiting communications, or athletic transcripts. Families of recruitable athletes should confirm who
-owns this process. (Recruiting outcomes themselves are covered in this series' Outcomes research, not here.)
-UNPUBLISHED — ARTS PORTFOLIO / AUDITION DEVELOPMENT
-Cannon's arts program spans visual arts, music, and theater with dedicated facilities, and the acceptance list includes
-specialized arts destinations (SCAD, Pratt, FIT, Parsons, Ringling, the School of the Art Institute of Chicago, UNC
-School of the Arts) — evidence that arts-bound students get where they aim. But no published program describes
-portfolio or audition preparation for selective arts admission. Ask the arts faculty directly.
-Bottom line. The hook-building machinery Cannon documents is real and distinctive — public defense, research,
-making — but it is framed as education, not as admissions packaging. The application-side translation of those
-experiences is undocumented.
-Cannon School — College Support Series Page 1
-
-
----
-
-## Sources referenced across these documents
-
-- https://begin.wofford.edu/register/?id=c6a6e0e1-4472-4123-8001-0536bec2ae0c
-- https://resources.finalsite.net/images/v1727105974/cannonschoolorg/q6vdhpxfxelejegmx4n8/2024-2025_StudentProfile_87212e_webemail.pdf
 - https://resources.finalsite.net/images/v1757349467/cannonschoolorg/i5lqf0krxcb4uejss6ul/Cannon_2526_Profile.pdf
-- https://www.cannonschool.org/News-Detail?fromId=186341&pk=780939
-- https://www.cannonschool.org/academics/college-counseling
-- https://www.cannonschool.org/academics/college-counseling/college-counseling-resources
+- https://resources.finalsite.net/images/v1727105974/cannonschoolorg/q6vdhpxfxelejegmx4n8/2024-2025_StudentProfile_87212e_webemail.pdf
 - https://www.cannonschool.org/academics/international-programs
 - https://www.cannonschool.org/academics/upper-school/curriculum
+- https://www.cannonschool.org/academics/upper-school
+- https://www.cannonschool.org/cannon-school-news/details/~board/cannon-news-cougar-news-internal-sources/post/cannon-school-students-establish-first-science-national-honor-society-chapter
+
+---
+
+## Card — Whole Class Analytics
+
+### Standardized testing — Class of 2025
+
+The 2025-26 Profile publishes a "TESTING DISTRIBUTION / CLASS OF 2025" panel:
+
+| Test | Top 10% | Mid-50% |
+| --- | --- | --- |
+| **SAT (total)** | **1470-1590** | **1220-1380** |
+| **ACT (composite)** | **33-36** | **25-31** |
+
+**Reporting-format caveat — read carefully.** Cannon publishes a **top-10% band and a mid-50% band
+only**. It does **NOT** publish 10th / 25th / 50th / 75th / 90th percentiles, and it does **NOT** publish
+a mean or median. The mid-50% band is conventionally the 25th-75th percentile range, so **SAT 25th ≈
+1220 and 75th ≈ 1380**, **ACT 25th ≈ 25 and 75th ≈ 31** — `TO VERIFY` as *interpolated*, since Cannon
+never labels the band's endpoints as percentiles.
+
+**Explicitly NOT PUBLISHED:**
+- **SAT section scores** — no Reading/Writing subscore, no Math subscore. Total only.
+- **Number of testers** for either SAT or ACT. There is no way to tell what share of 111 seniors sat
+  either exam, which materially limits interpretation of the bands.
+- **Mean / median** for either test.
+- **10th and 90th percentiles.**
+
+**Discrepancy flagged (significant).** The **2024-25 Profile published no test scores at all**, stating:
+"Given the shift in test optional admission review, we support our students' right to choose whether
+they will submit scores with their application. Therefore, test scores for the Class of 2025 are not
+reported." The **2025-26 Profile then published a full Class of 2025 testing distribution.** Same class
+year, opposite decisions, one year apart. Both are shown here; the 2025-26 figures are the later and
+presumably operative ones, but the reversal is unexplained and should be raised directly with the school.
+
+### GPA distribution — Class of 2025 (cumulative, Grades 9-11)
+
+| | Top 10% | Mid-50% |
+| --- | --- | --- |
+| **Weighted GPA** | **4.22-4.28** | **3.67-4.11** |
+| **Unweighted GPA** | **3.96-4.00** | **3.57-3.94** |
+
+Footnote: "GPAs for transfer students are not included in the class distribution."
+
+**Identical figures appear in the 2024-25 Profile for the Class of 2024** — all four bands match to the
+hundredth (4.22-4.28 / 3.67-4.11 / 3.96-4.0 / 3.57-3.94). Two possibilities: genuinely stable
+distributions across consecutive classes, or **the table was carried forward unchanged** between profile
+editions. Flagged as a **possible stale-data issue**, `TO VERIFY` — an exact four-band match across two
+different cohorts is statistically unlikely.
+
+Reading the distribution: the **unweighted mid-50% of 3.57-3.94** is the most informative number here.
+The median Cannon student sits in the high-B-plus to A-minus range unweighted, and the weighted top
+decile tops out at **4.28** — a modest weighted ceiling that follows directly from the 1.0-quality-point
+cap and the 11-course AP/AT maximum. Cannon does **not** produce inflated 4.9 weighted GPAs, which is a
+transparency point in its favor but requires context for readers used to heavier weighting schemes.
+
+**NOT PUBLISHED:** a full quintile table, decile breakdown, class-rank substitute beyond these two bands,
+median GPA, or number of students in each band.
+
+### Learning-difference support
+
+Named, staffed, and division-specific — one of Cannon's genuinely well-documented areas.
+
+| Division | Named specialist(s) |
+| --- | --- |
+| Lower School | **Rhiannon Bresalier**, Learning Specialist |
+| Middle School | **Tracy Wade**, Learning Specialist |
+| **Upper School** | **Michelle Donah**, **Tere Hurtado**, **Jennifer Ridenhour**, Learning Specialists |
+
+**Three named Upper School learning specialists** for 423 Upper School students is substantial staffing.
+
+- **Program posture:** "strengths-based and growth-oriented," aimed at self-awareness and
+  **self-advocacy** for students with learning differences.
+- **Upper School model:** students **actively participate in creating their own personalized learning
+  plans** with specific accommodations — a deliberate handoff of ownership consistent with Cannon's
+  "Ownership" core value.
+- **The support team** is formally constituted and unusually broad: the student, parents, teachers, the
+  **Upper School Assistant Head for Academics**, the **Student Dean**, the **Upper School Counselor**,
+  and the student's **advisor**.
+- **The ARC (Academic Resource Center):** targeted help in math, writing, science, and world languages
+  (Spanish, French, Chinese).
+- **Academic Coaching:** 1:1 sessions with Upper School Learning Specialists building executive function
+  — planning, organization, task initiation, flexibility, attention, self-control, metacognition.
+- **Academic Lab Program:** faculty-facilitated, **peer-led** tutoring in writing, math, and science.
+- **Testing accommodations — directly college-relevant:** for **juniors and seniors**, the program
+  provides guidance on **requesting College Board and ACT testing accommodations**. This is the specific
+  service that converts learning support into college-application support.
+
+**NOT PUBLISHED:** number of students on formal learning plans, whether accommodations carry a fee, and
+specialist credentials/certifications.
+
+### Serving the middle of the class and non-traditional paths
+
+The evidence that Cannon does not only serve its top decile:
+
+- **List breadth is the strongest signal.** The 2022-2024 acceptance list runs from MIT, Stanford, and
+  Bowdoin down through **Rowan-Cabarrus Community College, Cape Fear Community College, Central Piedmont
+  Community College, Brevard College, Barton College, Catawba College, Mars Hill, Wingate, Limestone,
+  Methodist, Gardner-Webb, Guilford, Lenoir-Rhyne, Belmont Abbey, and Coker.** A school optimizing its
+  profile for prestige would omit these; Cannon prints them. The **2% attending two-year colleges** is
+  likewise disclosed rather than buried, and Rowan-Cabarrus appears on the Class of 2023
+  **matriculation** list — a real enrollment, published.
+- **Non-traditional paths served:**
+  - **Art/design conservatory track** — Pratt, Parsons, SAIC, SCAD, Ringling, FIT, FIDM, UNC School of
+    the Arts, Emerson. Genuinely deep, and supported by the studio/media-arts/recording-studio curriculum.
+  - **International universities** — St Andrews, Edinburgh, Aberdeen, University College Dublin, McGill,
+    Toronto. Aberdeen is a confirmed 2023 enrollment.
+  - **Service academies and military** — US Air Force Academy (acceptance **and** 2023 enrollment),
+    The Citadel, Virginia Military Institute.
+  - **Technical and specialized institutes** — Rose-Hulman, Worcester Polytechnic, Stevens Institute,
+    Wentworth Institute of Technology, Michigan Tech, New Jersey Institute of Technology, Colorado School
+    of Mines, Rensselaer, Harvey Mudd.
+  - **Faith-based institutions** — Belmont Abbey, Liberty, Samford, Grace College, North Greenville,
+    Point Loma Nazarene, Milligan, Wheaton (IL).
+  - **HBCUs** — Howard, Spelman, North Carolina A&T, North Carolina Central, Winston-Salem State.
+  - **Online/nontraditional delivery** — Penn State World Campus appears explicitly.
+- **Gap year: NOT PUBLISHED.** No gap-year statistic, policy, or counseling service is described
+  anywhere. Given 98% four-year + 2% two-year accounts for 100% of the Class of 2025, Cannon's reported
+  outcomes leave **no room for a gap-year cohort at all** — which either means there were none or means
+  the two categories are rounded to absorb them. `TO VERIFY`.
+- **Conservatories (music):** no Juilliard/Curtis/NEC/Berklee-tier conservatory appears. The arts
+  pathway is **visual/design-weighted**, not music-conservatory-weighted, despite strong ensemble
+  offerings.
+
+### Sources
+
+- https://resources.finalsite.net/images/v1757349467/cannonschoolorg/i5lqf0krxcb4uejss6ul/Cannon_2526_Profile.pdf
+- https://resources.finalsite.net/images/v1727105974/cannonschoolorg/q6vdhpxfxelejegmx4n8/2024-2025_StudentProfile_87212e_webemail.pdf
+- https://www.cannonschool.org/academics/learning-support-program
+- https://www.cannonschool.org/academics/upper-school/academic-resource-center
+- https://www.cannonschool.org/academics/upper-school/academic-coaching
 - https://www.cannonschool.org/college-counseling-resources-clone
-- https://www.cannonschool.org/news-and-stories/in-the-news-details/~board/cannon-news-cougar-news-internal-sources/post/cannon-school-celebrates-its-27th-commencement-ceremony
-- https://www.cannonschool.org/news-and-stories/in-the-news-details/~board/cannon-news-cougar-news-internal-sources/post/laura-huffman-recognized-as-morehead-cain-impact-educator
+
+---
+
+## Card — Verdict & Visit Checklist
+
+### Why it holds up
+
+1. **Four-year counselor continuity, published as policy.** "Students will have the same College
+   Counselor for their whole high school experience," and the five-person roster — Brayboy, Waibel,
+   LeFevre, Stavrakas, Morrell — is **unchanged between the 2024-25 and 2025-26 profiles.** Continuity
+   promised *and* continuity demonstrated is rarer than either alone.
+
+2. **Cannon hosts a regional admissions event rather than only attending them.** The **Second Annual
+   Lake Norman Area College Admissions Case Studies Program and College Fair, Sunday April 26 2026, at
+   Cannon School**, co-hosted with Davidson Day — independently confirmed from Wofford College's own
+   admissions registration portal. Pulling admissions officers onto your campus at regional scale is
+   leverage a 423-student Upper School would not otherwise have.
+
+3. **A 92.39% AP pass rate on real volume.** **425 exams, 197 students, 92.39% scoring 3+** (Class of
+   2025). Even discounting for the optional-exam self-selection, 425 exams from a 423-student Upper
+   School is meaningful participation, not a boutique AP program.
+
+4. **The School Profile is unusually honest and unusually useful.** It publishes a **maximum AP/AT load
+   by grade** (0/1/4/6), **bolds the most demanding course per discipline per grade**, gives **both
+   weighted and unweighted GPA bands**, excludes transfer GPAs, and flags which courses were available
+   to which class years. These are the disclosures that protect a student from being misread — and most
+   schools omit them.
+
+5. **Research with genuine external stakes.** **BIOREX** sends student science to "a committee of
+   faculty, science professionals, and local business leaders"; **Independent Study** has the student
+   co-writing the course rubric; **Symposium** and **Portfolio Defense** are public defenses embedded in
+   AT courses. Combined with the fully-specified **Global Education Certificate**, there are real,
+   documented ways to build a spike.
+
+6. **Three named Upper School learning specialists**, a formally constituted support team including the
+   Assistant Head for Academics and Student Dean, and — the college-relevant piece — explicit guidance
+   for juniors and seniors on **requesting College Board and ACT accommodations**.
+
+7. **Outcome breadth is disclosed, not curated.** The list runs from MIT and Stanford to Rowan-Cabarrus
+   Community College, and the 2% two-year figure is printed rather than hidden. Confirmed **2023
+   enrollments** at Stanford, Duke, Penn, UCLA, Vanderbilt, Middlebury, Vassar, and the Air Force Academy
+   give the top end evidentiary weight that an acceptance list alone would not.
+
+### Ask on the tour
+
+1. **"Your 2025-26 profile dropped the college acceptance list. Why — and can I see the Class of 2025 and
+   2026 lists?"** The newest published list is a 2022-2024 rollup, a full cycle stale, and the current
+   edition has no list at all. This is the single biggest gap. Ask for per-year lists with matriculations
+   bolded.
+
+2. **"What is the 28:1 ratio actually counting?"** With 423 Upper School students and four counselors,
+   28:1 only works if it counts seniors only (111 ÷ 4 ≈ 28). Ask directly: how many students is each
+   counselor responsible for across all four grades, and how many individual meetings does a junior get?
+
+3. **"Your 2024-25 profile said you would not report Class of 2025 test scores on principle; the 2025-26
+   profile reports them. What changed — and how many students are in those bands?"** No tester counts are
+   published for SAT or ACT, so the 1220-1380 and 25-31 mid-50% bands can't be weighted. Ask for **n**,
+   plus the section-level SAT breakdown and the median.
+
+4. **"How many college representatives visit Cannon each year, and how much do counselors travel?"**
+   Cannon publishes neither number. (Co-host Davidson Day publishes 80+ reps/year — a fair benchmark to
+   put to Cannon directly.)
+
+5. **"What happens after AP Calculus BC — and after AP Computer Science?"** There is no published
+   post-BC math (no multivariable, no linear algebra), no post-AP CS, **no Global Online Academy**, and
+   no published dual enrollment. For a student who exhausts the sequence by junior year, Independent
+   Study appears to be the entire answer. Ask what that looks like concretely, and note that **AT:
+   Calculus with Applications** was in the 2024-25 catalog but is gone from 2025-26 — ask why.
+
+6. **"What are your National Merit numbers, and what were last year's merit scholarship totals?"**
+   Cannon publishes **no National Merit ledger** and **no scholarship-dollar figure** — both standard
+   disclosures at peer schools. Ask for Semifinalists/Finalists/Commended by class year, plus
+   Morehead-Cain, Park, and QuestBridge outcomes for the last three cycles.
+
+7. **"Only 4 AP/AT courses are possible in 11th grade and 6 in 12th, with none in 9th. How do highly
+   selective colleges read that ceiling — and how does math placement change it?"** Cannon's own
+   footnote says math placement gates the maximum. Ask what placement decision in middle school
+   determines whether a student can reach 6 in senior year, and when that decision is made.
+
+8. **"Is the GPA distribution current?"** All four GPA bands are **identical** in the 2024-25 (Class of
+   2024) and 2025-26 (Class of 2025) profiles. Ask whether the table was recalculated or carried forward.
+
+### Sources
+
+- https://resources.finalsite.net/images/v1757349467/cannonschoolorg/i5lqf0krxcb4uejss6ul/Cannon_2526_Profile.pdf
+- https://resources.finalsite.net/images/v1727105974/cannonschoolorg/q6vdhpxfxelejegmx4n8/2024-2025_StudentProfile_87212e_webemail.pdf
+- https://www.cannonschool.org/academics/college-counseling
+- https://www.cannonschool.org/academics/college-counseling/college-counseling-resources
 - https://www.davidsonday.org/academics/college-counseling
-- https://www.usnews.com/best-colleges/rankings/national-universities
-- https://www.usnews.com/education/best-colleges/articles/us-news-ranks-best-colleges
+- https://begin.wofford.edu/register/?id=c6a6e0e1-4472-4123-8001-0536bec2ae0c
+- https://www.cannonschool.org/academics/learning-support-program
+- https://www.cannonschool.org/college-counseling-resources-clone

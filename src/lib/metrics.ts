@@ -62,6 +62,20 @@ const RULES: Record<string, Rule[]> = {
     },
   ],
   'college-support': [
+    // College Support renders as six consolidated cards driven by
+    // data/collegeSupport.ts, not by the ingested prose (same arrangement as
+    // Sports above). The 2026 redesign research file is one long document per
+    // school whose headings the content builder slices into many subtopics
+    // ("Card — The Transcript Colleges See", "Card — Where Graduates Go", …).
+    // This leading rule folds every one of those slices onto a single key so
+    // they cannot slugify into orphan prose cards. It must stay FIRST: those
+    // headings also contain words like "counseling engine" and "outcomes" that
+    // the later rules would otherwise match.
+    {
+      match: /^card —|^card --|redesign research 2026|^provenance$|^sources$/i,
+      key: 'redesign-research',
+      label: 'College Support Research Dossier (2026)',
+    },
     { match: /academic case/i, key: 'academic-case', label: 'Academic Case' },
     { match: /application support/i, key: 'application-support', label: 'Application Support' },
     { match: /counseling engine/i, key: 'counseling-engine', label: 'Counseling Engine' },
