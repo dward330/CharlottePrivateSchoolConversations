@@ -1,6 +1,6 @@
 # Charlotte Christian School — College Support
-> Distilled from 9 source document(s) in `source-material/college-support/charlotte-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-07-24.
-**Documents:** Academic Case, Application Support, Counseling Engine, Fit and Rank, Institutional Leverage, NotebookLM Prompt, Outcomes, Standing Out, Deep Research
+> Distilled from 10 source document(s) in `source-material/college-support/charlotte-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-07-27.
+**Documents:** Academic Case, Application Support, Counseling Engine, Fit and Rank, Institutional Leverage, NotebookLM Prompt, Outcomes, Redesign Research 2026, Standing Out, Deep Research
 
 
 ---
@@ -387,6 +387,695 @@ The full acceptance roster and the enrolled matriculation list are both in hand 
 list-breadth counts. The unpublishable layer — tiered percentages, yield, and persistence — remains a genuine
 transparency gap.
 Parent-facing research dossier — reports only what the school publishes and what public research surfaced. Page 2
+
+
+---
+
+## Redesign Research 2026
+
+*Source file: `Charlotte Christian - College Support - Redesign Research 2026.md`*
+
+# Charlotte Christian School — College Support — Redesign Research 2026
+
+**Provenance:** Researched by Claude via web research, 2026-07-27.
+**School verified:** Charlotte Christian School, 7301 Sardis Road, Charlotte, NC 28270 — JK–12,
+Christ-centered, non-denominational, independent, founded 1950. Domain: **charlottechristian.com**
+(note: *not* .org). **CEEB code 340667.**
+
+**Name-collision guard.** Distinct from (a) *Charlotte Christian College and Theological Seminary*
+(charlottechristian.**edu**, a post-secondary institution), (b) *Charlotte United Christian Academy*,
+(c) *Charlotte Catholic High School*, and (d) *Carolina Christian School*. All figures below come
+from charlottechristian.com or its finalsite resources CDN unless explicitly noted.
+
+**Primary sources located.** The richest documents are, in order:
+1. **2024-25 Academic & Student Profile** (the current published School Profile) —
+ `2024_USprofile_admiss.pdf`
+2. **Celebrating Seniors 2025** — full named matriculation roster, AP Scholars, awards
+3. **College & Career Planning brochure** — three-year (2023–25) acceptance list + aggregate stats
+4. **College Planning Checklist** — the grade-by-grade 9→12 timeline
+5. **2021-22 Academic & Student Profile** — retained because it publishes AP course lists,
+ graduation requirements, honors lists and the NACAC discipline statement that the 2024-25
+ edition drops
+
+**Currency caveat (applies throughout).** As of this research date the newest published School
+Profile is the **2024-25** edition (describing the **Class of 2025**). Searches for a
+`2025-26` / `2025_USprofile` edition returned nothing — see NOT PUBLISHED notes. Where a figure
+comes only from the older 2021-22 profile it is labelled as such and flagged `TO VERIFY`.
+
+---
+
+## Card — The Transcript Colleges See
+
+### AP scope
+
+Charlotte Christian publishes a full AP dashboard on its School Profile each year. Two years of
+hard data are available:
+
+| Metric | 2024 (from 2024-25 Profile) | 2021 (from 2021-22 Profile) |
+|---|---|---|
+| Total AP exams taken | **298** | **349** |
+| Exams scoring 3+ | **265 (89%)** | **273 (78%)** |
+| Total AP students | **151** | **158** |
+| Students scoring 3+ | **134 (89%)** | **125 (79%)** |
+| Total AP Scholars | **59** | **58** |
+| — AP Scholars | 13 | 19 |
+| — Scholars with Honors | 18 | 11 |
+| — Scholars with Distinction | 28 | 28 |
+
+- The 89% (3+) rate in 2024 is a **notable jump** from 78–79% in 2021, on a smaller exam volume
+ (298 vs 349). Both are school-published; the trend is real but the driver is not explained.
+- **% scoring 4–5: NOT PUBLISHED.** The school reports only the 3+ threshold. Do not infer a 4–5
+ rate.
+- **Three-year AP Scholar total: 203 Advanced Placement Scholar Awards** across the classes of
+ 2023–2025 (College & Career Planning brochure).
+- **Class of 2025 specifically: 27 AP Scholars** (Celebrating Seniors 2025), broken out as
+ AP Scholars with Distinction (Corban Hall, Natalie Johnson, Jack Krause, Jewel Lewis,
+ Shenghan Liu, Ashlynn Miller, Eva Nieto), AP Scholars with Honors (Marshall Blakeney,
+ Max Carson, Sofia Cohane, Maddie Efird, Faith Giller, Darcy Howard, Anthony Korolos,
+ Kelsey Mayers, Rachel Padilla, Grant Scerri, Nicholas Welburn), and AP Scholars (Kaitlyn
+ Blackson, Jillian Del Corso, Addison Floyd, Griffin Fox, Sydney Francois, Anna Hinde,
+ Zoe Huff, Katarina Kay, MadisonRae Noble).
+
+### Number of AP courses — DISCREPANCY, FLAGGED
+
+Two school-published figures conflict and are **not reconcilable** from public text:
+
+- The **Upper School page** states *"more than 45 Advanced Placement and honors classes are
+ offered."* This is an explicitly **combined AP + honors** count.
+- The **2021-22 Profile** enumerates an AP/500-level list of **~23 distinct AP courses** plus a
+ separate honors list of ~25 honors courses.
+
+Enumerated AP/500-level courses (2021-22 Profile — `TO VERIFY`, four years stale; the current
+profile omits this list):
+- **Computer Science & Technology:** AP Computer Science
+- **Fine Arts:** AP Art History*, AP Music Theory, AP Studio Art
+- **English:** AP Language & Composition, AP Literature & Composition
+- **Mathematics:** AP Calculus AB/BC, AP Statistics, Calculus III / AP Physics C: Electricity &
+ Magnetism
+- **Science:** AP Biology, AP Chemistry**, AP Environmental Science, AP Physics C – Mechanics
+- **Social Studies:** AP European History, AP U.S. Government & Politics, AP U.S. History,
+ AP Psychology, AP World History
+- **World Languages:** AP French Language, AP Latin, AP Spanish Language
+
+(*Open enrollment. **Offered in alternate years.) The current curriculum site adds
+**AP Pre-Calculus** and **AP Spanish Literature**, which do not appear on the 2021-22 list.
+
+**Recommendation:** treat "45+ AP and honors combined" as the citable school claim and the
+~23-course AP list as indicative-only.
+
+### Exam policy
+
+- **"Students in AP classes are required to take the AP exam."** (2021-22 Profile.) An explicit
+ mandatory-exam policy — this is the strong version of the policy and is worth surfacing, as it
+ means the 89% pass rate is *not* self-selected down to only confident testers.
+- **Placement gate:** *"Students must meet placement criteria in order to take Honors and AP level
+ courses. In general, students must earn an 'A' in the prerequisite course to move up a level."*
+- **"We do not maintain a formal dual enrollment program."** (2021-22 Profile.) `TO VERIFY` —
+ four years stale; the school does list Central Piedmont Community College among acceptances and
+ enrollments, but that is a matriculation destination, not dual enrollment.
+- **2021 delivery note:** *"All students, with few exceptions, took the full-length paper-based AP
+ exams in May 2021 and they were proctored on campus."*
+
+### National Merit ledger
+
+- **15-year cumulative, as of the 2024-25 Profile: 14 finalists and 48 commended scholars**
+ in the National Merit Scholarship Competition.
+- **15-year cumulative, as of the 2021-22 Profile: 16 finalists and 45 commended scholars.**
+- **DISCREPANCY, FLAGGED:** the finalist count *decreased* from 16 to 14 while commended rose from
+ 45 to 48. Because both are rolling 15-year windows, older strong years can drop out of the
+ window — so this is arithmetically possible rather than an error, but the school does not
+ explain it. Present both with their profile years; do not average or reconcile.
+- **Class of 2025: 1 National Merit Commended Scholar — Jack Krause** (Celebrating Seniors 2025).
+- **Class of 2025: 1 National Merit Semifinalist — Keller Ulman**, per the Charlotte Observer /
+ Yahoo News roundup of the 71st National Merit competition (PSAT taken fall 2024 as juniors).
+ `TO VERIFY` — Ulman does not appear in the Celebrating Seniors 2025 enrollment roster or the
+ school's own National Merit block, which lists only Krause as Commended. The two school/press
+ sources are inconsistent about who the Class of 2025 National Merit honorees were.
+- **Per-class-year National Merit history (a year-by-year ledger): NOT PUBLISHED.** Only rolling
+ 15-year cumulative totals and the current class are published.
+
+### College Board National Recognition Program (Class of 2025)
+
+Four seniors selected, *"based on their academic achievements in school, outstanding performance
+on the PSAT or AP exam and their application they each submitted last spring"*:
+- **National African American Recognition Award:** Jewel Lewis
+- **National Hispanic Recognition Award:** Logan Davila, Eva Nieto, Rachel Padilla
+- Class of 2024 comparison: **5 College Board National African American and Hispanic Scholars.**
+
+### Seal of Biliteracy (a Christian/CCS-specific rigor marker)
+
+Implemented 2019; awarded on a proficiency exam across listening, speaking, reading, writing in
+two languages.
+- **Class of 2024: 4% of graduates** earned it.
+- **Class of 2021: 11% of graduates** earned it. (Sharp decline; unexplained — flagged.)
+- **Class of 2025 recipients:** Latin — Addison Floyd, Jewel Lewis; Spanish — Harper Brown,
+ Cristian Fahami, Kelsey Mayers, Eva Nieto, Rachel Padilla.
+
+### Post-AP course depth
+
+- **Math — genuine post-AP:** **Calculus III** (1 credit), described as *"Multivariable functions,
+ vector-valued functions in plane and space, curvature, double and triple integrals, vector
+ analysis, differential equations."* Prerequisite: **93% in AP Calculus AB or completion of AP
+ Calculus BC.** This is the school's deepest published math course and reaches genuine
+ multivariable/vector-calculus territory.
+- **Physics post-AP:** Calculus III is paired on the profile with **AP Physics C: Electricity &
+ Magnetism**, alongside AP Physics C – Mechanics.
+- **Computer science — THIN.** The 2021-22 Profile lists a single **AP Computer Science**. The
+ current curriculum page *"does not list dedicated computer science or information technology
+ courses at the upper school level"*; coding/design-lab work appears as **middle school**
+ innovation electives. There is a **VEX VRC robotics team**. Post-AP CS (Data Structures, CS
+ research): **NOT PUBLISHED / appears not to exist.**
+- **World language ceiling:** AP French Language & Culture, AP Spanish Language & Culture,
+ **AP Spanish Literature**, AP Latin. Honors ladders run French II/III/IV, Latin II/III/IV,
+ Spanish II/III/IV. No published post-AP language seminar.
+- **Beyond-campus:** **Winterim** (below) supplies internships and travel; **no formal dual
+ enrollment program** (2021-22 Profile, `TO VERIFY`).
+
+### Grade-trust mechanics
+
+**GPA weighting and quality points** (identical language in both the 2021-22 and 2024-25 profiles —
+stable policy):
+> *"Grade point average (GPA) is based on a 4.0 scale, with the exception that honors courses
+> receive 0.5 extra quality point and AP 500 level courses receive 1.0 extra quality point. All
+> (CCS) upper school courses are included in the calculation of GPA."*
+
+- **Transfer-grade policy:** *"If a student enters Charlotte Christian with credits from another
+ high school, a transcript from the previous high school will be enclosed with the CCS
+ transcript. Those grades are not included in the CCS cumulative GPA calculation."*
+- **Weighting-scheme change:** *"Effective with the Class of 2019, weighted courses receive 0.5 and
+ 1.0 extra quality points for honors and 500 level courses respectively (vs. 1.0 and 2.0 for all
+ prior graduating classes)."* — i.e. the school **halved its weighting** at the Class of 2019.
+ Any pre-2019 GPA is not comparable.
+- **Transcripts updated in June**, at the conclusion of each academic year; two semesters per year.
+
+**Grading scale** (unchanged 2021-22 → 2024-25):
+A+ 97–100 = 4.0 · A 93–96 = 4.0 · A− 90–92 = 3.67 · B+ 87–89 = 3.33 · B 83–86 = 3.0 ·
+B− 80–82 = 2.67 · C+ 77–79 = 2.33 · C 73–76 = 2.0 · C− 70–72 = 1.67 · D+ 67–69 = 1.33 ·
+D 63–66 = 1.0 · D− 60–62 = 0.67 · F 0–59 = 0.
+
+**Class rank:** *"Charlotte Christian School does not rank its students."* — stated flatly in both
+profiles. **But the school does publish a five-quintile GPA table** (see Card 5), which is the
+functional substitute: colleges can locate a student's band without a rank.
+
+**"Most rigorous" course-load norms: NOT PUBLISHED.** The profile does not state what fraction of
+students take the most demanding available program, nor does it publish a counselor
+rigor-rating rubric.
+
+**Honors Graduate designation (CCS-specific):** *"Recognized for earning a cumulative GPA above a
+4.0 in grades 9-12."* Class of 2025: **41 Honors Graduates** out of ~94. Three-year total
+(2023–25): **115 Honor Graduates.**
+
+**Graduation requirements — 27 total credits** (2021-22 Profile, `TO VERIFY` for currency):
+4 English · 4 Mathematics · **4 Biblical Studies** · 4 Social Studies · 3 Science ·
+3 World Languages (or Level III) · 1 Fine Arts · 1 Electives · **1 January Term** ·
+**.5 Junior Seminar** · .5 Speech · 1 Physical Education (or two seasons on varsity/JV team).
+*.25 J-Term credit per year is a graduation requirement.* The **4 credits of Biblical Studies** is
+the single largest Christian-specific transcript signature — it consumes elective space that
+peer schools spend elsewhere.
+
+### Sources
+
+- https://resources.finalsite.net/images/v1725038322/charlotte/b12msqpqbmeqjqgszan1/2024_USprofile_admiss.pdf
+- https://resources.finalsite.net/images/v1696272879/charlotte/b12msqpqbmeqjqgszan1/2023_USprofile_admiss.pdf
+- https://resources.finalsite.net/images/v1631722989/charlotte/sagbkblgmbzxjygq3c0m/CharlotteChristianProfile.pdf
+- https://resources.finalsite.net/images/v1749220148/charlotte/gzwsvqljdhd0npdfzcmb/CelebratingSeniors2025.pdf
+- https://resources.finalsite.net/images/v1776695347/charlotte/xbyo0rgcgfcg1lcxp9cz/CounselingBrochure2023-24.pdf
+- https://www.charlottechristian.com/academics/upper-school
+- https://www.charlottechristian.com/academics/curriculum
+- https://www.yahoo.com/news/articles/93-charlotte-students-national-merit-175830607.html
+
+---
+
+## Card — The Counseling Engine
+
+### Counselor roster, titles and caseload
+
+**College counseling (2 counselors, named on the current profile and checklist):**
+
+| Name | Title | Caseload |
+|---|---|---|
+| **Jodi Foxx** | **Director of College Counseling** | Students with last names **K–Z** |
+| **Lauren Miller** | College Counselor | Students with last names **A–J** |
+
+**Personal/school counseling (separate function, upper school):**
+- **Olivia Day** — US School Counselor
+- **Olivia Brilhante** — US School Counselor (listed as "Olivia McCarrick" on the 2024-25 Profile
+ and as "Olivia Brilhante" on the counseling brochure and Student Counseling page — **DISCREPANCY,
+ FLAGGED**; most likely the same person following a name change, but the school publishes both
+ and this is not confirmed)
+- **Kirsten Mayers** — Upper School Registrar (transcripts)
+
+**Roster change over time** (evidence of turnover in the second college-counseling seat):
+- **2021-22 Profile:** Jodi Foxx (Director of College Counseling), **Katrina Cassier** (College
+ Counselor), **Ginny Schmidt** (US Personal & Academic Counselor), Kirsten Mayers (Registrar).
+- **2024-25 Profile:** Jodi Foxx (Director), **Lauren Miller** (College Counselor), Olivia Day,
+ Olivia McCarrick, Kirsten Mayers.
+- **Jodi Foxx is the constant** — Director of College Counseling in both the 2021-22 and 2024-25
+ profiles, i.e. **at least four years in the role** as of the current profile. Her exact start
+ date / total tenure: **NOT PUBLISHED.** `TO VERIFY`.
+- **Counselor tenure, prior employer, and professional background (e.g. former admissions officer)
+ for any counselor: NOT PUBLISHED.** No bios are published on the college counseling page.
+
+### Counselor:student ratio — CALCULATED, TO VERIFY
+
+The school does **not publish a ratio**. Derived from published figures on the 2024-25 Profile:
+
+- **435 students in grades 9-12**, **2 college counselors** → **≈218:1 across the whole upper
+ school**.
+- **94 students in the Class of 2025**, 2 college counselors → **≈47:1 per senior class**.
+
+`TO VERIFY` — both are **modeled by me, not school-reported.** The 47:1 senior-class figure is the
+more meaningful one for application load and is the fairer comparison against peer schools that
+quote a per-class ratio; the 218:1 figure reflects that the alphabet split (K–Z / A–J) assigns
+each counselor all four grades. Also note the two *personal* counselors (Day, Brilhante) are **not**
+college counselors and should not be added to the denominator.
+
+### The 9 → 12 timeline of named programming
+
+From the **College Planning Checklist** and the counseling brochure — counseling formally
+*"begins in the eighth grade"* (brochure) / *"begins in ninth grade"* (website). Minor
+inconsistency, flagged.
+
+**Grades 9–10**
+- Get involved in community (church, volunteer, school activities)
+- Focus on college-prep curriculum; develop study habits
+- Choose electives meeting graduation requirements + exploring career interests
+- **PSAT 8/9 (Grade 9)** and **PSAT/NMSQT (Grade 10)** in October
+- Get to know your counselors
+- **Complete career assessments with your college counselor (Grade 10)**
+- Named events: **Grade 9 Parent Orientation** (Aug), **Freshman Walk** (Aug), **Freshman Seminar**
+ (Aug–Sep, in **WIN Lab**), **Rising Grade 9 Parent Night** (Jan, middle school),
+ **Grade 10 College Planning Parent Night** (Jan)
+
+**Grade 11 — the structural core**
+- **Junior Seminar**, a *"specially-designed class for students in grade 11"* and a **0.5-credit
+ graduation requirement**. In it students are taught to: **write college essays**, **prepare
+ their resume**, discover potential majors based on interests and strengths, learn budgeting
+ time and money, determine which colleges to visit or apply to, and **complete a mock admission
+ committee activity with college representatives.**
+- **Students are required to visit two colleges in the spring semester for Junior Seminar.**
+- **PSAT/NMSQT in October**
+- Meet college admission officers visiting CCS in the fall
+- Attend **Christian College Fair** (fall) and **NACAC National College Fair** (spring)
+- Talk with counselor about the **SAT and ACT testing plan**
+- **Meet with your college counselor in the spring to discuss your letter of recommendation**
+- **Ask 1–2 teachers to write a letter of recommendation in the spring**
+- Evaluate/deepen community involvement; seek leadership positions
+- Finalize the college list, *"being sure to include every possible type of college that might be
+ of interest"*
+- Named events: **Grade 11 College Planning Parent Night** (Sep/Nov), **Financial Aid Information
+ Night** (Oct)
+
+**Grade 12**
+- **College Application Kick-off with the college counselors in August**
+- Meet visiting admission officers in the fall *"to demonstrate your interest"*
+- Attend the **Christian College Fair** in the fall
+- **Finalize your test-optional strategy with your college counselor**, and send scores if needed
+- Complete applications with counselor help
+- **Work with your college counselor and the CCS Writing Center to finalize your application essay
+ and supplemental responses**
+- **Use Scoir to request supporting documents be sent to your colleges**
+- Complete the **Self-Reported Academic Record (SRAR)** if required
+- Set up and monitor applicant portals
+- Attend admitted-student events in the spring
+- **Optional: parents complete the FAFSA; students complete scholarship applications**
+- *"Pray as a family for discernment throughout the application process"*
+- Named events: **Grade 12 College Planning Parent Night** (Aug), **Financial Aid Information
+ Night** (Oct), **Transition to College Parent Night** (Apr), **Senior Walk** (Apr),
+ **College T-Shirt Picture** (Apr)
+
+**Dated instances for the 2025-26 cycle** (college counseling page): Grade 12 College Planning
+Parent Night **Aug 28, 2025**; Christian College Fair **Sep 22, 2025**; Paying for College Night
+**Oct 21, 2025**; **PSAT Oct 22, 2025**; Grade 11 College Planning Parent Night **Nov 13, 2025**;
+Grade 10 College Planning Parent Night **Jan 12, 2026**; Rising Gr. 9 Parent Night **Jan 21, 2026**;
+Transition to College Senior Parent Night **Apr 9, 2026**.
+
+### Application mechanics owned by the office
+
+Confirmed **owned/supported**: applications (*"complete college applications with the help of your
+college counselor"*), **essays** (taught in Junior Seminar + finalized with counselor **and the
+Writing Center**), **testing** (SAT/ACT plan, test-optional strategy, score sends, on-campus
+**standardized testing preparation classes**), **teacher recommendations** (structured spring ask
+of 1–2 teachers, plus a counselor letter discussion), **financial aid** (Financial Aid Information
+Night, Paying for College Night, FAFSA, parent education series *"including topics such as
+financial aid and transitioning to college"*), **scholarship search** (senior scholarship
+applications; the school publishes a full named 2025 scholarship inventory), **transcripts** (via
+Scoir + a dedicated transcript request form), and **SRAR**.
+
+Also published as **services provided by the counseling office** (brochure):
+- Individual meetings with **all new to upper school students**
+- **Personality and interest assessments**
+- **Standardized testing preparation classes**
+- **On-campus visits by college admissions counselors**
+- **On-campus Christian College Fair open to the community**
+- Parent education series (financial aid, transitioning to college)
+- Post-decision support: *"how to choose a roommate or how to navigate the first few weeks of life
+ on a college campus — counseling does not end once the college decision has been made."*
+
+### Reach and tools
+
+- **Platform: Scoir** (`app.scoir.com`) — used for transcript requests, **Scoir Visits** for
+ scheduling college rep visits, and sending supporting documents. **Not** Naviance/MaiaLearning.
+- **College rep visit window:** *"The office welcomes college representatives from August through
+ November."* **Number of rep visits per year: NOT PUBLISHED.** `TO VERIFY` — a four-month window
+ is published but no count.
+- **Number of campus visits made by staff per year: NOT PUBLISHED.**
+- **Published School Profile: YES** — an annual *Academic & Student Profile*, currently the
+ 2024-25 edition, with CEEB 340667. This is a real institutional asset (see Card 4).
+- **Writing Center:** *"a free resource on campus that provides individual guidance to students as
+ they complete their application essays"* — the counseling office formally partners with it in
+ senior year. Referenced on site as the **Media & Writing Center**.
+- **Distinctive framing:** the brochure states counselors remind families a *"good college"* is one
+ that *"provides opportunities for spiritual growth,"* *"allows families to be good stewards of
+ their financial resources,"* and *"prepares students for a career and calling through their
+ education."* This is an explicit, published values filter on college fit — unusual to state
+ so plainly and material to how the list is built.
+
+### Sources
+
+- https://www.charlottechristian.com/academics/college-counseling
+- https://resources.finalsite.net/images/v1733328662/charlotte/jofw4plqiufw25b4fvch/CollegeChecklist.pdf
+- https://resources.finalsite.net/images/v1776695347/charlotte/xbyo0rgcgfcg1lcxp9cz/CounselingBrochure2023-24.pdf
+- https://resources.finalsite.net/images/v1725038322/charlotte/b12msqpqbmeqjqgszan1/2024_USprofile_admiss.pdf
+- https://resources.finalsite.net/images/v1631722989/charlotte/sagbkblgmbzxjygq3c0m/CharlotteChristianProfile.pdf
+- https://www.charlottechristian.com/academics/student-counseling
+- https://www.charlottechristian.com/academics/college-counseling/countdown-to-college
+- https://app.scoir.com/signin
+- https://www.charlottechristian.com/cf_forms/view.cfm?formID=95
+
+---
+
+## Card — Where Graduates Go
+
+### Headline outcomes
+
+- **"100% of our graduating seniors are offered admission to a four-year college or university.
+ 99% of our graduates choose to attend a four-year college."** — stated identically in both the
+ 2021-22 and 2024-25 profiles (stable claim).
+- **Class of 2025 size: 94 students.** (2024-25 Profile.) Class of 2024: **99**. Class of 2022:
+ **109**. Class of 2021: **104**.
+- **Class of 2025: 409 college acceptances** (Celebrating Seniors 2025) — ≈**4.4 acceptances per
+ graduate**.
+- **Upper school enrollment (2024-25): 435 in grades 9-12**; whole school **1,280 JK–12**
+ (455 JK-4, 390 in 5-8, 435 in 9-12).
+
+### Geographic and sector distribution
+
+**Classes of 2023–2025 (College & Career Planning brochure):**
+- **64% attend college out-of-state**
+- **35% attend a private college**
+- **14% attend a Christian college**
+
+**Classes of 2019–2021 (2021-22 Profile) — for trend only:**
+- Region: Southeast 81% · Midwest 9% · West 8% · Northeast 2%
+- **In-state 41% / Out-of-state 59%**
+- **Public 64% / Private 36%**
+
+Note the out-of-state share rose 59% → 64% between the two windows. The **Southeast concentration
+(81%)** is the single most defining fact about this school's outcomes and is only published for the
+2019–21 window; `TO VERIFY` whether it still holds.
+
+### The full acceptance list — Classes of 2023–2025
+
+Source: College & Career Planning brochure, *"CLASSES OF 2023-25 · COLLEGE ACCEPTANCES."*
+**An asterisk (\*) marks colleges where at least one graduate from the Class of 2025 enrolled** —
+this is the school's own enrolling marker, the equivalent of bolding. **Exact year range: 2023–2025
+(three classes).**
+
+Abilene Christian University\* · The University of Alabama-Birmingham · Alabama A&M University\* ·
+American University · Anderson University · Appalachian State University\* · University of Arizona ·
+Arizona State University-Tempe · University of Arkansas · Auburn University\* · Averett University ·
+Baylor University\* · Belhaven University · Belmont Abbey College · Belmont University\* ·
+Biola University · Boston College · Boston University · Brevard College · Bridgewater College ·
+Butler University · University of California-Irvine · University of California-San Diego ·
+University of California-Santa Cruz · Campbell University · Cedarville University\* ·
+University of Central Florida · Central Piedmont Community College\* · Chapman University ·
+Charleston Southern University\* · Christopher Newport University\* · University of Cincinnati ·
+Clemson University\* · Coastal Carolina University\* · Colby College · College of Charleston\* ·
+College of the Ozarks · College of William and Mary · University of Colorado-Boulder ·
+University of Connecticut · Cornell University · Dark Horse Institute · Dartmouth College\* ·
+Davidson College\* · University of Delaware · DePaul University · Drexel University ·
+Duke University · East Carolina University\* · University of Edinburgh · Elon University\* ·
+Embry-Riddle Aeronautical University-Daytona Beach · Emerson College · Emory & Henry College ·
+Emory University · Fairfield University\* · University of Florida · Florida Agricultural &
+Mechanical University · Florida Gulf Coast University · Florida International University ·
+Florida Southern College · Florida State University\* · Fordham University\* · Furman University ·
+Gardner-Webb University · Georgetown University · George Washington University ·
+University of Georgia\* · Georgia Southern University\* · Gordon College · Grove City College\* ·
+Guilford College · Hampden-Sydney College · Hampton University · Harding University ·
+High Point University\* · Hillsdale College · Hollins University · Howard University ·
+University of Illinois at Urbana-Champaign · Indiana University-Bloomington · University of Iowa ·
+James Madison University\* · Johnson C. Smith University\* · Kent State University ·
+University of Kentucky\* · Loyola Marymount University · Lenoir-Rhyne University ·
+LeTourneau University · Liberty University\* · Limestone University · Lipscomb University ·
+Louisiana State University · Lynn University · Marshall University\* · University of Maryland-College
+Park · Marymount University · University of Mary Washington · University of Massachusetts-Boston ·
+Mercer University · Messiah University · Methodist University · University of Miami ·
+Miami University-Oxford · Michigan State University\* · University of Michigan-Ann Arbor ·
+University of Mississippi\* · University of Montana · Montreat College · Morehouse College ·
+New College of Florida · University of New Hampshire\* · New York University\* ·
+University of North Carolina at Asheville · **University of North Carolina at Chapel Hill\*** ·
+University of North Carolina at Charlotte\* · University of North Carolina at Greensboro\* ·
+University of North Carolina at Pembroke · University of North Carolina at Wilmington\* ·
+North Carolina A&T State University\* · North Carolina Central University ·
+North Carolina State University\* · Northeastern University · North Greenville University ·
+University of Northern Colorado · University of Notre Dame · Nova Southeastern University ·
+The Ohio State University · Ohio University · University of Oklahoma · Oklahoma State University ·
+Old Dominion University · Pace University · Palm Beach Atlantic University · Palm Beach State
+College · Pennsylvania State University · Penn State University\* · Pepperdine University ·
+University of Pittsburgh-Pittsburgh · Presbyterian College · Purdue University-Main Campus ·
+Queens University of Charlotte\* · Rensselaer Polytechnic Institute · Rhodes College ·
+University of Richmond · Ringling College of Art & Design · Roanoke College ·
+University of Rochester · Rochester Institute of Technology · Rollins College ·
+Rutgers University-New Brunswick · Samford University\* · San Diego State University ·
+Savannah College of Art & Design · Seton Hall University · Shenandoah University ·
+The University of the South · University of South Carolina-Columbia ·
+University of Southern California · University of Southern Mississippi · University of South
+Florida · Southern Methodist University\* · Spelman College · Stetson University ·
+Stevens Institute of Technology · St. John's University-New York · Suffolk University ·
+The University of Tampa · Temple University · The University of Tennessee-Knoxville\* ·
+Texas A&M University · Texas Christian University\* · Trinity University · Universal Technical
+Institute · University of Virginia · Virginia Commonwealth University · Virginia Polytechnic
+Institute and State University\* · Wake Forest University\* · West Virginia University ·
+Western Carolina University · Wheaton College\* · Wingate University\* · Winston-Salem State
+University · Winthrop University · Wofford College · Worcester Polytechnic Institute ·
+Xavier University of Louisiana
+
+**Count: ~180 distinct institutions across three classes.** (Note "Pennsylvania State University"
+and "Penn State University\*" both appear — a duplicate in the school's own list; flagged.)
+
+### Selectivity buckets — scored against CURRENT 2026 U.S. News
+
+**Ivy League: 3 of 8** appear in the 2023–25 acceptance list.
+- **Present:** **Cornell University**, **Dartmouth College\*** (enrolled, Class of 2025 — Corban
+ Hall, a football signee), **Yale University** (2019–21 list only, *not* on the 2023–25 list).
+- **On the 2023–25 list specifically: Cornell and Dartmouth = 2 of 8.**
+- **Named absences from the 2023–25 list:** **Harvard, Princeton, Yale, Columbia, Brown,
+ University of Pennsylvania** (6 of 8 absent). Yale and Columbia appear on the older 2019–21
+ list; Harvard, Princeton, Brown and Penn appear on **neither** published list.
+
+**Ivy Plus (Ivies + Stanford, MIT, Duke, Chicago):**
+- Present on 2023–25: **Duke University**, plus Cornell and Dartmouth\*.
+- **Absent:** Stanford, MIT, University of Chicago.
+
+**Top-25 National Universities (2026 U.S. News)** appearing on the 2023–25 list:
+Cornell, Dartmouth\*, Duke, University of Notre Dame, Georgetown University, University of
+Michigan-Ann Arbor, University of North Carolina at Chapel Hill\*, University of Southern
+California, University of Virginia, Rice — *(Rice appears on the brochure's "Top Colleges" prose
+callout but not the 2023–25 A–Z list; flagged)*. Emory, Washington University, Vanderbilt,
+Carnegie Mellon: **Vanderbilt and Rice appear only in the prose callout**, not the A–Z list.
+
+**Top-75 National Universities (2026)** — additionally present:
+Boston College, Boston University, Northeastern, NYU\*, University of Florida, University of
+Georgia\*, Ohio State, Purdue, University of Maryland-College Park, University of Illinois
+Urbana-Champaign, University of Wisconsin *(not present)*, Rutgers-New Brunswick, University of
+Rochester, Texas A&M, Virginia Tech\*, Penn State\*, Wake Forest\*, University of Miami,
+Case Western *(not present)*, University of Connecticut, Michigan State\*, Indiana-Bloomington,
+Pitt, UC-Irvine, UC-San Diego, Clemson\*, Rensselaer Polytechnic, Worcester Polytechnic,
+SMU\*, University of Massachusetts *(Boston campus only — not the Amherst flagship)*, TCU\*,
+Stevens Institute of Technology, Syracuse *(2019–21 only)*, Tulane *(not present)*.
+`TO VERIFY` — exact 2026 rank positions for the 40–75 band were not machine-verified against the
+U.S. News list (the usnews.com ranking page timed out and a mirror returned 403); treat this
+bucket as **indicative**, not a precise count.
+
+**Top-75 National Liberal Arts Colleges (2026)** appearing on the 2023–25 list:
+**Davidson College\*** (enrolled — Alexander Paschall, golf signee), **Colby College**,
+**University of Richmond**, **The University of the South (Sewanee)**, **Furman University**,
+**Rhodes College**, **Hampden-Sydney College**, **Wofford College**, **Morehouse College**,
+**Spelman College**. Amherst College appears in the **prose callout** and the 2019–21 list, not the
+2023–25 A–Z list. `TO VERIFY` — same ranking-verification caveat as above.
+
+**Power Four athletics conferences (ACC / SEC / Big Ten / Big 12)** — heavily represented, and this
+is a genuine strength: Clemson\*, UNC-Chapel Hill\*, NC State\*, Duke, Wake Forest\*, Virginia Tech\*,
+UVA, Boston College, Georgia Tech *(prose callout)*, SMU\*, Miami, Louisville *(not present)*,
+Pitt, Syracuse *(2019–21)*, Stanford/Cal *(not present)* [ACC]; Alabama-Birmingham, Auburn\*,
+Arkansas, Florida, Georgia\*, Kentucky\*, LSU, Ole Miss\*, Missouri *(2019–21)*, Oklahoma,
+South Carolina, Tennessee-Knoxville\*, Texas A&M, Vanderbilt *(prose)*, Texas *(not present)* [SEC];
+Illinois, Indiana\*, Maryland, Michigan, Michigan State\*, Ohio State, Penn State\*, Purdue,
+Rutgers, USC, UCLA *(not present)*, Oregon *(2019–21)*, Washington *(not present)*, Wisconsin
+*(not present)*, Northwestern *(not present)*, Iowa, Minnesota *(not present)*, Nebraska *(not
+present)* [Big Ten]; Arizona, Arizona State, Baylor\*, Cincinnati, Kansas *(2019–21)*, Oklahoma
+State, TCU\*, West Virginia, Colorado *(Boulder)*, Houston *(not present)*, BYU *(not present)*
+[Big 12].
+
+**The honest read:** this is a list with **broad Power-Four and strong regional-flagship depth**,
+**solid Top-75 national presence**, and **thin true-elite presence** (2 of 8 Ivies on the current
+list, no Stanford/MIT/Chicago, no Harvard/Princeton/Penn/Brown on either published list).
+
+### Christian-college destinations — a defining feature
+
+The brochure gives Christian colleges their **own named tier**, which most peer schools do not:
+> *"Top Christian Colleges and Universities including Anderson University, Baylor University,
+> Cedarville University, Gordon College, Grove City College, Lee University, LeTourneau University,
+> Liberty University, Lipscomb University, Messiah University, Palm Beach Atlantic University,
+> Samford University, Taylor University, Wheaton College"*
+
+**14% of graduates (Classes of 2023–25) attend a Christian college.** Class of 2025 enrollments
+confirm the pipeline is live: Wheaton College (×2 — William Horton, Faith Giller), Liberty
+University (×4 — Caleb Hinson, Jonathan McCall, Maryn Payne, Kaya Shropshire), Samford University
+(×2 — Kaitlyn Blackson, Abigail Bryant), Charleston Southern University (×2 — Owen Farrell,
+Caden Rice), Cedarville University (Andrew Boythe), Grove City College (Griffin Fox), Baylor
+University (Abigail Smith), Abilene Christian University (Ashlyn Preston).
+
+**HBCUs also get a named tier:** *"Top Historically Black Colleges and Universities including
+Hampton University, Howard University, Morehouse College, North Carolina A&T State University,
+Spelman College."* Class of 2025 enrollments: NC A&T (MadisonRae Noble), Johnson C. Smith
+(Alesia Sylverain), Alabama A&M (Aron Boykin).
+
+**Prestigious Art Institutions tier:** *"The New School, Savannah College of Art and Design."*
+
+### Class of 2025 — enrolling destinations (named roster, 94 students)
+
+Complete matriculation list from Celebrating Seniors 2025 (~ = Honors Graduate, \* = Lifer,
++ = Legacy Graduate):
+
+East Carolina (Hanna Ali McGinnis) · Southern Methodist (Andrew Askins) · Superior School of Real
+Estate (Julian Barker\*) · Kentucky (Bella Benton) · High Point (Cohen Bettencourt\*) ·
+Clemson (Margaret Biggers~\*) · Samford (Kaitlyn Blackson~\*) · Wake Forest (Marshall Blakeney~\*) ·
+Alabama A&M (Aron Boykin) · Kentucky (Evan Boykin) · Cedarville (Andrew Boythe~+) ·
+Tennessee (Harper Brown~) · Samford (Abigail Bryant~) · Career in Childcare (Sarah Buchmann~) ·
+Coastal Carolina (Mitch Burrus\*) · UNC Wilmington (Parker Cadd\*) · College of Charleston (Hendrick
+Carlson) · UNC Chapel Hill (Max Carson~) · UNC Chapel Hill (Sofia Cohane~) · UNC Wilmington (Abby
+Conde) · Michigan State (Walker Darnell) · Elon (Logan Davila~\*) · Georgia (Jillian Del Corso~) ·
+James Madison (Nina Dominique) · Christopher Newport (Nick Dunkley) · UNC Chapel Hill (Madeline
+Efird~\*) · Clemson (Cristian Fahami~\*) · Charleston Southern (Owen Farrell) · Virginia Tech
+(Addison Floyd~) · Grove City (Griffin Fox~) · Appalachian State (Sydney Francois~) ·
+Central Piedmont CC (Cai Gillette) · UNC Charlotte (Landen Goncharow) · Tennessee (Holden Greene) ·
+Queens University of Charlotte (Stokes Greene) · Auburn (Finley Griffiths) · **Dartmouth College
+(Corban Hall~)** · Fairfield (Sophia Harris) · Appalachian State (Cassie Hendricks) ·
+Marshall (Brandon Hettwer~) · Florida State (Anna Hinde~\*) · Liberty (Caleb Hinson\*) ·
+UNC Greensboro (Sanai Horne) · Wheaton College (William Horton\*) · Georgia (Darcy Howard~\*) ·
+Ole Miss (Zoe Huff~) · Clemson (Natalie Johnson~\*) · Auburn (Matt Jones) · Clemson (Katarina Kay~) ·
+Fordham (Anthony Korolos~\*) · Kentucky (Bella Korolos\*) · NC State (Maddie Kotula~\*) ·
+Auburn (Jack Krause~) · Postgraduate Program (John Lash) · NC State (Jewel Lewis~) ·
+**New York University (Shenghan Liu~ — Valedictorian)** · Belmont (Maisie Macholz) ·
+Elon (Sarah Major\*) · Central Piedmont CC (Egypt Maxwell-Wright) ·
+**University of New Hampshire (Kelsey Mayers~ — Salutatorian)** · Liberty (Jonathan McCall) ·
+Appalachian State (Ronnie McCoy) · NC State (Dickson McLean~) · UNC Chapel Hill (Ashlynn Miller~) ·
+Ole Miss (Madilynn Miller) · Wake Forest (Grant Nicholson\*) · UNC Wilmington (Eva Nieto~\*) ·
+NC A&T (MadisonRae Noble) · College of Charleston (Caroline Noonan\*) · UNC Chapel Hill (Rachel
+Padilla~) · Georgia Southern (Claire Pannell) · Appalachian State (Jenna Parascand) ·
+**Davidson College (Alexander Paschall~)** · Liberty (Maryn Payne) · Abilene Christian (Ashlyn
+Preston~\*) · Kentucky (Caleb Reilly) · Charleston Southern (Caden Rice) · Auburn (Piper Rozsak~\*+) ·
+Georgia (Grant Scerri) · Georgia Southern (Myra See\*) · James Madison (Griffin Shaw) ·
+New Hampshire (Emily Shelton) · Liberty (Kaya Shropshire) · Baylor (Abigail Smith~) ·
+Kentucky (Cooper Solomon) · Texas Christian (Cate Spaeth) · Johnson C. Smith (Alesia Sylverain) ·
+Wingate (Wade Thompson) · UNC Wilmington (Katelyn Turner~) · Penn State (Beckett Vance\*+) ·
+Kentucky (Mia Webber) · Auburn (Nicholas Welburn~) · High Point (Sam Zinger\*)
+
+**Class of 2025 composition markers:** **41 Honors Graduates** (cumulative GPA above 4.0 in grades
+9-12), **28 Lifers** (JK, K or Grade 1 → Grade 12), **3 Legacy Graduates** (a parent also graduated
+from CCS).
+
+**Non-four-year destinations in the Class of 2025** (important context for the "99% four-year"
+claim): Superior School of Real Estate, Career in Childcare, Central Piedmont Community College
+(×2), and a Postgraduate Program — **5 of 94 (≈5%)**. **DISCREPANCY, FLAGGED:** this is difficult
+to square with the profile's *"99% of our graduates choose to attend a four-year college."* The
+named roster suggests ~95%, not 99%. Both are school-published in the same cycle. Show both.
+
+### Scholarships and named awards
+
+- **Class of 2025: "$6,400,00 in College and University Scholarships (through 5/19/25)"** as
+ printed in Celebrating Seniors 2025 — **this is a typo in the source** (a digit is missing).
+ The school's own website and search summaries render it as **"more than $6.4 million."**
+ **Use $6.4 million and flag the source typo.**
+- **Classes of 2023–2025 combined: $13,875,968 in College & University Scholarships.**
+- Class of 2024: *"The 99 students of the class of 2024 received more than $4 million in
+ scholarships."* Class of 2021: *"The 104 students of the class of 2021 received more than
+ $4.1 million."*
+- **Morehead-Cain: NOT PUBLISHED** — no mention in any source reviewed.
+- **QuestBridge: NOT PUBLISHED.**
+- **ROTC: NOT PUBLISHED.**
+- **Service academies: NOT PUBLISHED for 2023–25.** The 2019–21 list includes **Citadel Military
+ College of South Carolina** and **Fork Union Military Academy** (a prep school, not an academy).
+ No Army/Navy/Air Force/Coast Guard/Merchant Marine academy appears on either list.
+- **Named scholarship inventory (Class of 2025)** — the school publishes ~90 individually named
+ awards, which is unusually granular. Highlights: Baylor Presidential, Baylor Invitation 2
+ Excellence, Auburn Presidential / Academic Charter / Heritage, Clemson Merit, Elon Presidential /
+ Business Fellowship / Communications Fellows, Florida Distinguished Scholar Tuition, Georgia
+ Classic, Hillsdale Merit, Michigan State Presidential Study Abroad / Dean's, Miami Presidential,
+ Pepperdine George Pepperdine Achievement, Rochester Institute of Technology Presidential,
+ Samford Crossland / Davis / Merit, **SMU Hunt Leadership Scholars Program**, TCU Dean's /
+ Purple and White, UNC Wilmington Chancellor's Distinguished Merit, Alabama Competitive
+ Admissions, UAB Presidential Elite, South Carolina Distinction / Superlative / Academic,
+ Tennessee Volunteer, Wheaton Presidential, Wofford Benjamin Wofford / Old Main, plus athletic
+ scholarships at Florida State, Queens, Wake Forest, Kentucky and New Hampshire.
+ The **SMU Hunt Leadership Scholars Program** is the most competitive named award on the list.
+
+### Acceptance-vs-matriculation caveat — IMPORTANT
+
+The **~180-institution list is acceptances across three graduating classes (2023, 2024, 2025)**,
+not a single-year matriculation list, and **not** a list of where students enrolled. The school
+marks enrollment only with an asterisk and only for the **Class of 2025**. Concretely:
+**Duke, Cornell, Georgetown, Notre Dame, Emory, USC, UVA, Michigan, William & Mary, Colby,
+Boston College and Rice/Vanderbilt (prose) carry no asterisk** — i.e. no Class of 2025 graduate
+enrolled at any of them. The single most elite *enrollment* in the Class of 2025 is
+**Dartmouth (1 student, a football signee)**, followed by **Davidson (1, a golf signee)**,
+**NYU (1, the valedictorian)**, and **UNC-Chapel Hill (5)**. Any presentation that shows the
+acceptance list without this caveat materially overstates outcomes.
+
+### Sources
+
+- https://resources.finalsite.net/images/v1776695347/charlotte/xbyo0rgcgfcg1lcxp9cz/CounselingBrochure2023-24.pdf
+- https://resources.finalsite.net/images/v1749220148/charlotte/gzwsvqljdhd0npdfzcmb/CelebratingSeniors2025.pdf
+- https://resources.finalsite.net/images/v1725038322/charlotte/b12msqpqbmeqjqgszan1/2024_USprofile_admiss.pdf
+- https://resources.finalsite.net/images/v1631722989/charlotte/sagbkblgmbzxjygq3c0m/CharlotteChristianProfile.pdf
+- https://www.charlottechristian.com/academics/seniorclass
+- https://www.usnews.com/best-colleges/rankings/national-universities
+- https://www.collegekickstart.com/blog/item/u-s-news-world-report-posts-2026-college-rankings
+- https://www.usnews.com/education/best-colleges/articles/us-news-ranks-best-colleges
+
+---
+
+## Card — The Applicant's Edge
+
+### Lever 1 — Build the spike
+
+**Academic Conservatory Program — the school's flagship distinction credential.**
+> *"Charlotte Christian School recognizes that students are gifted in a variety of areas, including
+> academics, athletics, fine arts, or spiritual life. The Academic Conservatory Program provides a
+> special opportunity for students in academics, fine arts or ministry to challenge and stretch
+> themselves beyond the four walls of the classroom. Conservatory achievement is noted on the
+> student's transcript in the fall and spring of senior year upon completion of all requirements."*
+
+- **It appears on the transcript** — this is the key admissions-facing fact.
+- Requires *"the high grade point average as well as completed work outside the classroom in the
+ area of specialization"* — i.e. it is an **independent/extension-work requirement**, the closest
+ thing the school has to a capstone. **Exact GPA threshold and the specific outside-classroom
+ deliverable: NOT PUBLISHED.**
+- **Distinction areas (6 per the profiles):** Math and Science · Fine Arts · Bible, Philosophy &
+ Religion · English · Social Studies · World Languages. The Upper School page instead lists
+ **8 areas**, splitting Math from Science and Classical from Modern World Languages —
+ **DISCREPANCY, FLAGGED** (6 vs 8).
+- **Participation rates:** Class of 2021 — **17% of graduates** qualified for at least one
+ distinction. Class of 2024 — **14% of graduates.** Class of 2025 — **37 Academic Conservatory
+ Distinctions** awarded across the class of 94 (note: distinctions, not students; several students
+ hold two or three, e.g. Shenghan Liu appears under Math/Science, Science, Social Studies and
+ Fine Arts).
+
+**Winterim — the requi
+
+…[truncated]
 
 
 ---
@@ -891,4 +1580,22 @@ https://claude.ai/chat/4fa33988-070f-46aa-9e7b-27dcd2655b91 Page 12 of 12
 
 ## Sources referenced across these documents
 
+- https://app.scoir.com/signin
 - https://claude.ai/chat/4fa33988-070f-46aa-9e7b-27dcd2655b91
+- https://resources.finalsite.net/images/v1631722989/charlotte/sagbkblgmbzxjygq3c0m/CharlotteChristianProfile.pdf
+- https://resources.finalsite.net/images/v1696272879/charlotte/b12msqpqbmeqjqgszan1/2023_USprofile_admiss.pdf
+- https://resources.finalsite.net/images/v1725038322/charlotte/b12msqpqbmeqjqgszan1/2024_USprofile_admiss.pdf
+- https://resources.finalsite.net/images/v1733328662/charlotte/jofw4plqiufw25b4fvch/CollegeChecklist.pdf
+- https://resources.finalsite.net/images/v1749220148/charlotte/gzwsvqljdhd0npdfzcmb/CelebratingSeniors2025.pdf
+- https://resources.finalsite.net/images/v1776695347/charlotte/xbyo0rgcgfcg1lcxp9cz/CounselingBrochure2023-24.pdf
+- https://www.charlottechristian.com/academics/college-counseling
+- https://www.charlottechristian.com/academics/college-counseling/countdown-to-college
+- https://www.charlottechristian.com/academics/curriculum
+- https://www.charlottechristian.com/academics/seniorclass
+- https://www.charlottechristian.com/academics/student-counseling
+- https://www.charlottechristian.com/academics/upper-school
+- https://www.charlottechristian.com/cf_forms/view.cfm?formID=95
+- https://www.collegekickstart.com/blog/item/u-s-news-world-report-posts-2026-college-rankings
+- https://www.usnews.com/best-colleges/rankings/national-universities
+- https://www.usnews.com/education/best-colleges/articles/us-news-ranks-best-colleges
+- https://www.yahoo.com/news/articles/93-charlotte-students-national-merit-175830607.html

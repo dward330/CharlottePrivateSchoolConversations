@@ -1,6 +1,6 @@
 # Davidson Day School — College Support
-> Distilled from 8 source document(s) in `source-material/college-support/davidson-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-07-24.
-**Documents:** Academic Case, Application Support, Counseling Engine, Fit and the Whole Class, Institutional Leverage, NotebookLM Prompt, Outcomes, Standing Out
+> Distilled from 9 source document(s) in `source-material/college-support/davidson-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-07-27.
+**Documents:** Academic Case, Application Support, Counseling Engine, Fit and the Whole Class, Institutional Leverage, NotebookLM Prompt, Outcomes, Redesign Research 2026, Standing Out
 
 
 ---
@@ -472,6 +472,935 @@ Davidson Day School · College Support Series · Parent-facing dossier Page 4
 
 ---
 
+## Redesign Research 2026
+
+*Source file: `Davidson Day - College Support - Redesign Research 2026.md`*
+
+# Davidson Day School — College Support — Redesign Research 2026
+
+## Provenance
+
+- **School:** Davidson Day School, 750 Jetton Street, Davidson, NC 28036 (Lake Norman area, ~25 min north of Charlotte)
+- **Researched by:** Claude (Anthropic) via live web research
+- **Date of research:** 2026-07-26
+- **Method:** Direct fetch and search of davidsonday.org pages and the school's own published
+ 2025–2026 School Profile PDF; corroborating searches against U.S. News 2026 rankings,
+ AFAR/goafar.org, peer-reviewed literature (MDPI *Heritage*), Charlotte Magazine, Lake Norman
+ Publications, PrivateSchoolReview, and LinkedIn. Where a prior in-repo dossier PDF set
+ (the seven "Inside Davidson Day College Support" segment PDFs in this same folder) made a
+ claim, that claim was **re-verified against the live source** for this pass; two ranking
+ figures were corrected and one attribution was tightened (see Discrepancies, below).
+- **Primary source of record:** **Davidson Day School Profile 2025–2026** (4-page PDF),
+ https://resources.finalsite.net/images/v1764962120/davidsondayorg/nlxzlvymosnampuadraw/2526CollegeProfile.pdf
+ (linked from the College Counseling page as
+ https://www.davidsonday.org/fs/resource-manager/view/a92aa22b-1242-4ef7-9a22-db2e38cacba0)
+
+### Global caveat on this school
+
+Davidson Day is the **smallest school** in this comparison set — total enrollment 541, Upper
+School 198, Class of 2026 = 47, Class of 2025 = 53. It publishes **considerably less** than the
+larger Charlotte independents. Most notably it **deliberately withholds all SAT/ACT data**, and
+it publishes **no AP exam performance data** and **no National Merit data whatsoever**.
+Card 5 (Whole Class Analytics) is therefore **almost entirely empty of quantitative content** —
+that is an honest finding, not a research failure. Nothing in this file has been estimated,
+interpolated, or carried over from another school.
+
+### Name-collision warning (critical)
+
+**Davidson Day School (Davidson, NC)** must never be confused with **Davidson Academy
+(Reno, Nevada / Davidson Academy Online)**, a school for profoundly gifted students that
+publishes large National Merit Semifinalist cohorts (e.g. 30 semifinalists in the 2026 program).
+Those figures belong to a **different institution** and must never be attributed to Davidson Day.
+Searches for "Davidson" + "National Merit" return the Nevada school almost exclusively.
+
+---
+
+## Card — The Transcript Colleges See
+
+### Curriculum model: AP, not IB
+
+Davidson Day runs an **Advanced Placement** model. **There is no IB programme** and no other
+alternative diploma track (no Cambridge/AICE, no dual-enrollment-as-core model). The School
+Profile states the school "challenge[s] students with Advanced Placement (AP) courses in
+English, Math, Science, History, World Language, Technology and the Arts."
+
+The school's *own* alternative-credential layer is not a curriculum track but a set of three
+**Diploma Distinctions** (Global Studies, STEMM, Business & Civic Engagement) layered on top of
+the AP curriculum — see Card 4.
+
+### AP scope
+
+| Metric | Value | Status |
+| --- | --- | --- |
+| AP courses offered, 2025–26 | **21** | Derived by count from the Profile's course table (see note) |
+| AP course-table entries listed (incl. courses flagged not offered this year) | 26 | School Profile |
+| Entries marked `**` = "Course not offered in 25-26" | 4 | School Profile |
+| Post-AP course carrying full AP weight | Calculus III | School Profile |
+| **# AP exams sat** | **NOT PUBLISHED** | — |
+| **# students sitting AP exams** | **NOT PUBLISHED** | — |
+| **% of exams scoring 3+** | **NOT PUBLISHED** | — |
+| **% of exams scoring 4 or 5** | **NOT PUBLISHED** | — |
+| **AP Scholar / AP Capstone counts** | **NOT PUBLISHED** | — |
+| **Exam policy** (are AP exams required of AP students?) | **NOT PUBLISHED** | — |
+
+`TO VERIFY` — **the "21 AP courses" figure is derived, not school-stated.** Davidson Day does
+not print an AP count. The 21 is my count of distinct College Board AP courses in the Profile's
+AP column, excluding the 4 entries marked `**` (not offered in 25-26) and excluding
+Calculus III (a post-AP course, not a College Board AP). Note a third-party source
+(PrivateSchoolReview) reports "23 AP/advanced courses," which is a different and
+non-reconciling count — see Discrepancies.
+
+**Full AP catalog as printed in the 2025–26 Profile** (`**` = not offered in 25-26):
+
+- **English:** English Literature and Composition; English Language and Composition
+- **Mathematics:** Calculus AB; Calculus BC; Statistics; Precalculus; Precalculus w/ CalcA`**`;
+ Calculus III (Post AP)
+- **Science:** Biology; Chemistry; Physics I; Physics II`**`; Environmental Science
+- **History:** Macroeconomics; Microeconomics`**`; Psychology; US History; World History;
+ Government and Politics; European History
+- **World Language:** Spanish Language; Spanish Literature`**`; French Language
+- **Technology:** Computer Science Principles; Computer Science A
+- **Fine Arts:** Studio Art
+
+### Post-AP / beyond-the-sequence depth
+
+- **Math:** **Calculus III (Post AP)** — explicitly weighted +1.0, the same as an AP. This is
+ the school's only named post-AP course.
+- **Computer Science:** tops out at **AP Computer Science A**. No post-AP CS course. A new
+ **Intro to AI** is listed in the college-prep column but is flagged `**` (not offered 25-26).
+- **World Language:** AP Spanish Language and AP French Language are offered; **AP Spanish
+ Literature is listed but flagged not offered in 25-26**. Honors sequences run to Spanish V
+ and French V.
+- **Beyond campus:** **Independent Studies** exist but are explicitly **excluded from the GPA**.
+ Online courses are likewise excluded from the GPA. There is **no published dual-enrollment
+ partnership** with Davidson College or UNC Charlotte, despite Davidson College sitting one
+ mile away — **NOT PUBLISHED**, and a notable absence worth asking about.
+- The genuine "beyond campus" depth is the **AFAR international field research** and the
+ **Global Studies / STEMM / Business capstone research** stream — see Card 4.
+
+### National Merit ledger
+
+| Class year | Semifinalists | Commended | Finalists |
+| --- | --- | --- | --- |
+| All years | **NOT PUBLISHED / NO PUBLIC RECORD** | **NOT PUBLISHED** | **NOT PUBLISHED** |
+
+`TO VERIFY` — No National Merit recognition for Davidson Day School (Davidson, NC) could be
+located in National Merit Scholarship Corporation materials, the school's own news feed, its
+School Profile, or Lake Norman / Charlotte local press. This is **unpublished/unconfirmed**,
+which is not the same as zero. Given a senior class of ~47–53, a nil or low-single-digit count
+would be statistically unremarkable. **Every search hit for "Davidson" + National Merit resolves
+to Davidson Academy in Reno, Nevada** — a different school. Do not import those numbers.
+
+Similarly, **no College Board recognition-program data** (National Recognition Programs,
+AP Scholars) is published — **NOT PUBLISHED**.
+
+### How the grade is engineered to be trusted
+
+This is where Davidson Day actually *is* transparent, and it is the strongest part of this card.
+
+**Grading scale (published in full):**
+
+| Grade | Range | Quality points |
+| --- | --- | --- |
+| A | 93–100 | 4.0 |
+| A− | 90–92 | 3.67 |
+| B+ | 87–89 | 3.33 |
+| B | 83–86 | 3.0 |
+| B− | 80–82 | 2.67 |
+| C+ | 77–79 | 2.33 |
+| C | 73–76 | 2.0 |
+| C− | 70–72 | 1.67 |
+| D+ | 67–69 | 1.33 |
+| D | 63–66 | 1.0 |
+| D− | 60–62 | 0.67 |
+| F | 59 and below | — |
+
+**Weighting:**
+
+- **Honors courses: +0.5**
+- **Advanced Placement courses: +1.0**
+- **Calculus III (post-AP): +1.0** — explicitly called out as weighted like an AP.
+
+**What is excluded from the GPA** (published, and unusually explicit):
+
+- Transfer courses
+- Upper School courses taken during Middle School
+- Independent Studies
+- **Any course taken online**
+- GPAs "reflect only courses taken at Davidson Day School"
+- Transfer students' GPAs are excluded from the published class distribution
+- If a student enters with outside credits, "a transcript from the previous school will be
+ enclosed with the transcript sent to colleges"
+
+**Class-rank policy: "Davidson Day does not rank its students."** — stated flatly in the Profile.
+
+**In place of rank, the Profile publishes a three-point GPA distribution** for the Class of 2026:
+
+| Highest | Median | Lowest |
+| --- | --- | --- |
+| **4.60** | **3.96** | **2.49** |
+
+*(GPAs for transfer students are not included in the distribution.)*
+
+**There is NO quintile table and NO decile table** — **NOT PUBLISHED**. Three summary points is
+the entire distribution disclosure. This is materially less than a quintile table gives an
+admissions reader.
+
+**"Most rigorous course load" norms: NOT PUBLISHED.** The Profile does not define what
+constitutes the most demanding program, does not state a maximum number of APs a student may
+take, and does not publish how the school answers the Common App counselor form's
+curriculum-rigor question. There is no published AP-access gate or departmental approval policy.
+
+**Minimum graduation requirements: 22.5 credits**
+
+- English: 4.5 credits (incl. 0.5 in Composition)
+- Math: 4 credits, minimum sequence Algebra I, Geometry, Algebra II, and 1 credit beyond Algebra II
+- Science: 3 credits of lab science (Physics, Chemistry, Biology)
+- History: 3 credits
+- World Language: 3 credits **in the same language**
+- Fine Arts: 1 credit
+- PE and Health: 1 credit
+- Electives: 3 credits
+- Additionally: 0.5 credit **per season** may be earned for school athletics or approved
+ off-campus fitness activity
+
+**Honor Code (published verbatim):** "I will not lie, cheat, steal, or plagiarize, nor will I
+tolerate the dishonorable behavior of others."
+
+### Context numbers from the Profile
+
+- Total enrollment: **541** (age 2 through grade 12)
+- Upper School enrollment: **198**
+- Class of 2026: **47**
+- Upper School teaching faculty: **30**
+- Average Upper School class size: **13**
+- Student–faculty ratio: **7:1** (see Discrepancies — the Upper School page says 8:1)
+- CEEB code: **340-971**
+- First graduating class: **Spring 2009, 10 students**
+
+### Sources
+
+- https://resources.finalsite.net/images/v1764962120/davidsondayorg/nlxzlvymosnampuadraw/2526CollegeProfile.pdf
+- https://www.davidsonday.org/fs/resource-manager/view/a92aa22b-1242-4ef7-9a22-db2e38cacba0
+- https://www.davidsonday.org/academics/college-counseling
+- https://www.davidsonday.org/academics/upper-school
+- https://www.privateschoolreview.com/davidson-day-school-profile
+- https://www.nationalmerit.org/s/1758/blog.aspx?pgid=2089&gid=2&cid=1381
+- https://www.davidsonacademy.unr.edu/news/30-davidson-academy-students-named-2026-national-merit-semifinalists/ *(name-collision reference only — NOT Davidson Day)*
+
+---
+
+## Card — The Counseling Engine
+
+### Office size and ratio
+
+| Metric | Value | Status |
+| --- | --- | --- |
+| College counselors | **2** | School Profile + College Counseling page |
+| Registrar supporting transcripts | 1 (Vanessa Noe) | School Profile |
+| Upper School enrollment | 198 | School Profile |
+| **Counselor : Upper School student ratio** | **~1:99** | `TO VERIFY` — derived (198 ÷ 2), not school-stated |
+| **Counselor : senior ratio (Class of 2026)** | **~1:24** | `TO VERIFY` — derived (47 ÷ 2), not school-stated |
+| Published counselor:student ratio | **NOT PUBLISHED** | The school never states a ratio |
+
+### Named roster
+
+| Name | Title | Contact | Background / credentials |
+| --- | --- | --- | --- |
+| **Tia Hill** | Director of College Counseling | thill@davidsonday.org · 704.237.5222 | See below |
+| **Caitlin Barndt** | Associate Director of College Counseling | cbarndt@davidsonday.org · 704.237.5206 | See below |
+| **Vanessa Noe** | Registrar | vnoe@davidsonday.org | Transcript function |
+| Andrew Bishop | Head of School | — | Listed on Profile |
+| Michael Smith | Head of Upper School | — | Listed on Profile |
+
+**Tia Hill, Director of College Counseling.** `TO VERIFY` — the following is from LinkedIn and
+third-party aggregators, **not** from davidsonday.org; the school publishes **no counselor bios**.
+LinkedIn lists prior roles at **Furman University** and the Carolina Center for Behavioral
+Health, and an **M.Ed. in Counselor Education from Clemson University (2008–2011)**. The
+"former university admissions officer" framing — i.e. that she worked on the college side of the
+desk before moving to secondary-school counseling — is consistent with the Furman association
+but the **specific title, dates, and seniority of that role are not independently confirmed** and
+should be treated as unverified. **Director tenure at Davidson Day is NOT PUBLISHED by the school.**
+
+**Caitlin Barndt, Associate Director of College Counseling.** `TO VERIFY` — the school directory
+has also listed her as "College Counseling and Admission Associate," suggesting internal
+progression into the associate-director role. Her verifiable background is in athletics and
+school administration. **No university admissions-officer role and no graduate degree could be
+independently confirmed** — no claim is made either way. She is the named contact for scheduling
+college representative visits.
+
+**NOT PUBLISHED:** counselor bios on the school website, tenure figures for either counselor,
+degrees/certifications as stated by the school, caseload assignment method (alphabetical vs.
+by grade vs. student choice), or when a student is assigned a counselor.
+
+### Four-year 9→12 timeline
+
+Davidson Day states that "the college search process begins from the moment they join our
+community," with **individualized, student-centered counseling beginning in 9th grade** — not
+junior year. That early start is the office's central design claim.
+
+**Published event slate** (the office runs a predictable annual calendar):
+
+| Season | Named events |
+| --- | --- |
+| **Fall** | Senior Night · Junior Planning Night · College 101 · **Senior Application Boot Camp** |
+| **Spring** | Financial Aid Night · **Athletic Recruitment Workshop** · **Case Studies Program & College Fair** · Freshman & Sophomore Planning Night |
+
+`TO VERIFY` — **this slate is not currently presented as a grade-by-grade table on the live
+College Counseling page.** The page as fetched on 2026-07-26 does **not** carry a 9/10/11/12
+breakdown; the event list above is corroborated by search-indexed davidsonday.org content and
+by the in-repo dossier. **A true grade-by-grade curriculum map (what happens in 9th vs. 10th vs.
+11th vs. 12th, month by month) is NOT PUBLISHED.** Only "begins in 9th grade" plus the
+fall/spring event list is public. Note the event names map loosely to grades — Freshman &
+Sophomore Planning Night (9–10), Junior Planning Night (11), Senior Night and Senior Application
+Boot Camp (12) — but the school does not present it that way.
+
+### Application mechanics the office owns
+
+Per the school's description, the College Counseling office assists in **all aspects of the
+college planning process**, specifically:
+
+- Research and **creating a balanced college list**
+- **Planning for standardized tests**
+- **Application essay writing**
+- **The financial aid process**
+- **Career planning**
+- Factors to weigh in making the final enrollment decision
+
+Applications and materials are submitted through **Scoir**.
+
+**NOT PUBLISHED / unconfirmed:**
+
+- **Whether every application is reviewed before submission** — no such commitment is published.
+- **Teacher recommendation management protocol** beyond Scoir submission — no published policy
+ on how many recs, how teachers are approached, or rec-writing training.
+- **Early Decision / Early Action doctrine** — no published stance on whether the office steers
+ toward or away from binding ED.
+- **FAFSA / CSS Profile navigation content** — Financial Aid Night exists as an annual event,
+ but no detailed college-aid navigation material is published. **Caution:** Davidson Day uses a
+ tool called **Clarity** for its **own tuition-assistance** process. That is *school* admission
+ aid, **not** college FAFSA/CSS help — do not conflate the two.
+- **Outcome scattergrams** — Scoir can support them; the school does not document providing them.
+- **Essay-review turnaround, # of required meetings per year, or a counselor-letter process.**
+
+### Reach and tools
+
+| Metric | Value | Status |
+| --- | --- | --- |
+| Platform | **Scoir** | Published; used for both the process and rep-visit scheduling |
+| College rep visits hosted per year | **"more than 80"** | School's published benchmark |
+| College rep visits — documented recent count | **~71**, nearly 80% out-of-state | `TO VERIFY` — see Discrepancies |
+| Rep visit window | Monday–Friday throughout the fall | Published |
+| Colleges at the co-hosted college fair | **~70** ("nearly 70 colleges and universities represented") | School reporting on the prior event |
+| **Campus visits made by counseling staff per year** | **NOT PUBLISHED** | — |
+| Published School Profile | **YES** — 4-page 2025–26 profile, publicly linked | Strong |
+| NCAA eligibility resources | Linked (https://web3.ncaa.org/ecwr3/) | Published |
+
+**Professional memberships** (from the Profile's accreditation list — this matters for Card 4):
+SACS, SAIS, NAIS, **NACAC**, **SACAC**, ERB, NCAIS, NCISAA, College Board, **ACCIS**
+(Association of College Counselors in Independent Schools).
+
+### Sources
+
+- https://www.davidsonday.org/academics/college-counseling
+- https://www.davidsonday.org/Academics/College-Counseling
+- https://resources.finalsite.net/images/v1764962120/davidsondayorg/nlxzlvymosnampuadraw/2526CollegeProfile.pdf
+- https://www.davidsonday.org/academics/upper-school
+- https://www.davidsonday.org/directory
+- https://www.linkedin.com/in/tia-hill-4215255
+- https://rocketreach.co/tia-hill-email_84666930
+- https://app.scoir.com/signin
+- https://web3.ncaa.org/ecwr3/
+
+---
+
+## Card — Where Graduates Go
+
+### Class of 2025 outcomes (school-reported)
+
+| Metric | Value |
+| --- | --- |
+| Graduates | **53** |
+| College acceptances | **258** |
+| Different colleges selected (matriculation breadth) | **35** |
+| **Matriculated to a 4-year institution** | **100%** |
+| Matriculated in-state | **43%** |
+| Merit awards offered | **more than $7.4 million** |
+| NCAA student-athletes | **11** |
+| National Honor Society members | **28** |
+
+All of the above are **school-reported** and appear on both the College Counseling page and the
+2025–26 School Profile. They are internally consistent across the two sources.
+
+*Historical comparison point:* the **Class of 2020** had **53 graduates**, **238 acceptances to
+101 colleges**, with **41% in-state / 59% out-of-state** matriculation.
+
+### The acceptance-vs-matriculation caveat — READ THIS FIRST
+
+The big list below is titled, on the Profile itself,
+**"Colleges Accepting Davidson Day Students | 2021 – 2025."**
+
+- It is a **FIVE-YEAR CUMULATIVE ACCEPTANCE list (2021–2025)**, not a single-year list and
+ **not a matriculation list**.
+- A college appears if it accepted **at least one** Davidson Day student **at any point across
+ five graduating classes**.
+- It is **not** a placement rate, **not** a count of students, and **not** evidence that anyone
+ enrolled there.
+- **Nothing on the list is bolded or otherwise marked to indicate enrollment.** The school does
+ **not** publish which colleges students actually attended — **NOT PUBLISHED**. Contrast with
+ the single-year figure that graduates "selected 35 different colleges" in 2025, where the
+ 35 names themselves are **not published**.
+
+### Full acceptance list, 2021–2025 (verbatim from the School Profile)
+
+**259 institutions.** Reproduced complete and in the Profile's own alphabetical order.
+
+| # | Institution |
+| --- | --- |
+| 1 | AMDA College of the Performing Arts (Los Angeles) |
+| 2 | Agnes Scott College |
+| 3 | Alabama A&M University |
+| 4 | Allegheny College |
+| 5 | American University |
+| 6 | Appalachian State University |
+| 7 | Auburn University |
+| 8 | Bard College |
+| 9 | Barry University |
+| 10 | Baylor University |
+| 11 | Belmont Abbey College |
+| 12 | Belmont University |
+| 13 | Benedictine University |
+| 14 | Bentley University |
+| 15 | Berry College |
+| 16 | Boston College |
+| 17 | Boston University |
+| 18 | Brandeis University |
+| 19 | Brevard College |
+| 20 | Bridgewater College |
+| 21 | **Brown University** *(Ivy)* |
+| 22 | Butler University |
+| 23 | California State University Long Beach |
+| 24 | Carnegie Mellon University |
+| 25 | Case Western Reserve University |
+| 26 | Catawba College |
+| 27 | Centre College |
+| 28 | Christopher Newport University |
+| 29 | Clark University |
+| 30 | Clemson University |
+| 31 | Coastal Carolina University |
+| 32 | Colby College |
+| 33 | Colgate University |
+| 34 | College of Charleston |
+| 35 | Colorado College |
+| 36 | Colorado School of Mines |
+| 37 | Colorado State University |
+| 38 | Columbia College Chicago *(NOT Columbia University)* |
+| 39 | Connecticut College |
+| 40 | **Cornell University** *(Ivy)* |
+| 41 | **Dartmouth College** *(Ivy)* |
+| 42 | Davidson College |
+| 43 | DePaul University |
+| 44 | Denison University |
+| 45 | Drexel University |
+| 46 | Duke University |
+| 47 | East Carolina University |
+| 48 | East Tennessee State University |
+| 49 | East Texas A&M University |
+| 50 | Eastern Mennonite University |
+| 51 | Eckerd College |
+| 52 | Elon University |
+| 53 | Embry-Riddle Aeronautical University, Daytona Beach |
+| 54 | Emerson College |
+| 55 | Emmanuel College |
+| 56 | Erskine College |
+| 57 | Fairfield University |
+| 58 | Fisk University |
+| 59 | Flagler College |
+| 60 | Florida Atlantic University |
+| 61 | Florida Southern College |
+| 62 | Florida State University |
+| 63 | Fordham University |
+| 64 | Fort Lewis College |
+| 65 | Furman University |
+| 66 | Gardner-Webb University |
+| 67 | George Mason University |
+| 68 | George Washington University |
+| 69 | Georgetown University |
+| 70 | Georgia Institute of Technology |
+| 71 | Georgia Southern University |
+| 72 | Georgia State University |
+| 73 | Gettysburg College |
+| 74 | Gonzaga University |
+| 75 | Greenville University |
+| 76 | Guilford College |
+| 77 | Hamline University |
+| 78 | Hampden-Sydney College |
+| 79 | High Point University |
+| 80 | Hofstra University |
+| 81 | Hollins University |
+| 82 | Indiana University Bloomington |
+| 83 | Iowa State University |
+| 84 | Ithaca College |
+| 85 | Jacksonville University |
+| 86 | James Madison University |
+| 87 | John Cabot University *(Italy)* |
+| 88 | Johnson & Wales University Charlotte |
+| 89 | Juniata College |
+| 90 | Kenyon College |
+| 91 | Lenoir-Rhyne University |
+| 92 | Liberty University |
+| 93 | Lincoln Memorial University |
+| 94 | Louisiana State University |
+| 95 | Loyola Marymount University |
+| 96 | Loyola University Chicago |
+| 97 | Lynn University |
+| 98 | Manhattan School of Music *(conservatory)* |
+| 99 | Marist University |
+| 100 | Marquette University |
+| 101 | Mars Hill University |
+| 102 | Marymount Manhattan College |
+| 103 | Mercer University |
+| 104 | Merrimack College |
+| 105 | Methodist University |
+| 106 | Miami University *(Ohio)* |
+| 107 | Michigan State University |
+| 108 | Middlebury College |
+| 109 | Montana State University |
+| 110 | Mount Holyoke College |
+| 111 | Muhlenberg College |
+| 112 | Nazareth University |
+| 113 | New Jersey Institute of Technology |
+| 114 | North Carolina State University |
+| 115 | Northeastern University |
+| 116 | Northwestern University |
+| 117 | Notre Dame College *(Ohio — NOT Univ. of Notre Dame)* |
+| 118 | Nova Southeastern University |
+| 119 | Oberlin College |
+| 120 | Ohio University |
+| 121 | Oklahoma City University |
+| 122 | Old Dominion University |
+| 123 | Oxford College of Emory University |
+| 124 | Pace University |
+| 125 | Penn State Berks |
+| 126 | Penn State University |
+| 127 | Pepperdine University |
+| 128 | Point Loma Nazarene University |
+| 129 | Point Park University |
+| 130 | Pratt Institute *(art & design)* |
+| 131 | Presbyterian College |
+| 132 | Providence College |
+| 133 | Purdue University |
+| 134 | Queens University of Charlotte |
+| 135 | Quinnipiac University |
+| 136 | Radford University |
+| 137 | Randolph College |
+| 138 | Randolph-Macon College |
+| 139 | Rensselaer Polytechnic Institute |
+| 140 | Rhodes College |
+| 141 | Richmond American University London *(UK)* |
+| 142 | Roanoke College |
+| 143 | Rochester Institute of Technology |
+| 144 | Rollins College |
+| 145 | Rutgers University |
+| 146 | Salve Regina University |
+| 147 | Samford University |
+| 148 | Savannah College of Art and Design *(SCAD — art & design)* |
+| 149 | Seton Hill University |
+| 150 | Sewanee: The University of the South |
+| 151 | Siena University |
+| 152 | Smith College |
+| 153 | Southern Methodist University |
+| 154 | Southwest Minnesota State University |
+| 155 | Spalding University |
+| 156 | St. Lawrence University |
+| 157 | Stetson University |
+| 158 | Stevenson University |
+| 159 | Suffolk University |
+| 160 | Susquehanna University |
+| 161 | Swarthmore College |
+| 162 | Sweet Briar College |
+| 163 | Syracuse University |
+| 164 | Temple University |
+| 165 | Texas A&M University |
+| 166 | The College of Wooster |
+| 167 | The Ohio State University |
+| 168 | The University of Alabama |
+| 169 | The University of Edinburgh *(UK)* |
+| 170 | The University of Manchester *(UK)* |
+| 171 | The University of Montana |
+| 172 | The University of Tampa |
+| 173 | The University of Tennessee, Chattanooga |
+| 174 | The University of Tennessee, Knoxville |
+| 175 | Tulane University of Louisiana |
+| 176 | Tusculum University |
+| 177 | **United States Air Force Academy** *(service academy)* |
+| 178 | **United States Military Academy at West Point** *(service academy)* |
+| 179 | University College London *(UK)* |
+| 180 | University of Alabama at Birmingham |
+| 181 | University of Arizona |
+| 182 | University of California, Davis |
+| 183 | University of California, Merced |
+| 184 | University of California, Santa Cruz |
+| 185 | University of Charleston |
+| 186 | University of Chicago |
+| 187 | University of Colorado Boulder |
+| 188 | University of Colorado Denver |
+| 189 | University of Connecticut |
+| 190 | University of Copenhagen *(Denmark)* |
+| 191 | University of Dayton |
+| 192 | University of Denver |
+| 193 | University of Florida |
+| 194 | University of Georgia |
+| 195 | University of Iowa |
+| 196 | University of Kentucky |
+| 197 | University of Lynchburg |
+| 198 | University of Mary Washington |
+| 199 | University of Maryland |
+| 200 | University of Massachusetts Amherst |
+| 201 | University of Miami |
+| 202 | University of Michigan |
+| 203 | University of Minnesota Twin Cities |
+| 204 | University of Mississippi |
+| 205 | University of Missouri |
+| 206 | University of Nevada, Las Vegas |
+| 207 | University of North Carolina School of the Arts *(conservatory)* |
+| 208 | University of North Carolina Wilmington |
+| 209 | University of North Carolina at Asheville |
+| 210 | University of North Carolina at Chapel Hill |
+| 211 | University of North Carolina at Charlotte |
+| 212 | University of North Carolina at Greensboro |
+| 213 | University of North Carolina at Pembroke |
+| 214 | University of North Dakota |
+| 215 | University of North Florida |
+| 216 | University of Pittsburgh |
+| 217 | University of Richmond |
+| 218 | University of Rochester |
+| 219 | University of San Francisco |
+| 220 | University of South Carolina Beaufort |
+| 221 | University of South Carolina |
+| 222 | University of South Florida |
+| 223 | University of Toronto *(Canada)* |
+| 224 | University of Utah |
+| 225 | University of Vermont |
+| 226 | University of Virginia |
+| 227 | University of Washington |
+| 228 | University of Wisconsin-Madison |
+| 229 | University of Wyoming |
+| 230 | Vanderbilt University |
+| 231 | Vassar College |
+| 232 | Villanova University |
+| 233 | Virginia Commonwealth University |
+| 234 | Virginia Polytechnic Institute and State University |
+| 235 | Virginia Wesleyan University |
+| 236 | Wake Forest University |
+| 237 | Warren Wilson College |
+| 238 | Wartburg College |
+| 239 | Washington State University |
+| 240 | Washington University in St. Louis |
+| 241 | Washington and Lee University |
+| 242 | Wentworth Institute of Technology |
+| 243 | West Virginia University |
+| 244 | Western Carolina University |
+| 245 | Western New England University |
+| 246 | Westmont College |
+| 247 | Wheaton College (MA) |
+| 248 | Widener University |
+| 249 | William & Mary |
+| 250 | Williams College |
+| 251 | Wingate University |
+| 252 | Winston-Salem State University |
+| 253 | Wofford College |
+| 254 | Woodbury University |
+| 255 | Xavier University |
+
+*(255 rows as enumerated; the Profile prints them in four columns without numbering. Count is
+mine and is `TO VERIFY` to ±2 for OCR/column-wrap risk.)*
+
+### Selectivity buckets — scored against CURRENT (2026) U.S. News rankings
+
+**Every count below is LIST BREADTH across 2021–2025** — distinct colleges that accepted at
+least one Davidson Day student in five years. Not students, not enrollments, not a rate.
+
+| Bucket | On the list | Detail |
+| --- | --- | --- |
+| **Ivy League** | **3 of 8** | **Present:** Brown, Cornell, Dartmouth. **Absent:** Columbia, Harvard, Penn, Princeton, Yale. |
+| **Ivy Plus** (N=17) | **8 of 17** | Adds Duke, U Chicago, Northwestern, Georgetown, WashU. **Absent among the 9 non-Ivies:** MIT, Stanford, Johns Hopkins, Caltech. |
+| **Top-75 National Universities** | **~48** | `TO VERIFY` — my classification against 2026 U.S. News. Boundary cases verified individually below. |
+| **Top-75 Liberal Arts Colleges** | **~20** | `TO VERIFY` — **includes 2 service academies**, which U.S. News ranks as LACs (see flag). |
+| **Power Four (ACC/SEC/Big Ten/Big 12)** | **~49** | `TO VERIFY` — approx. split ACC ~15, SEC ~14, Big Ten ~14, Big 12 ~6. |
+
+**Ivy Plus definition used (N=17):** the 8 Ivies + MIT, Stanford, Duke, U Chicago, Johns Hopkins,
+Northwestern, Caltech, Georgetown, WashU.
+
+**FLAG — two service academies rank as Liberal Arts Colleges, not National Universities.** In
+U.S. News's system the academies sit in the LAC table. Two are on Davidson Day's list and count
+toward the ~20 LAC figure: **U.S. Air Force Academy (#5 LAC, 2026)** and **U.S. Military Academy
+at West Point (#13 LAC, 2026)**. Flagged so the LAC count is not misread as twenty civilian LACs.
+
+**Top-75 boundary cases, individually verified against the 2026 edition:**
+
+| School | 2026 rank | In/out |
+| --- | --- | --- |
+| Syracuse University | **#75** | **IN** — the final qualifying rank |
+| Indiana University Bloomington | #73 | IN |
+| Tulane University | #69 | IN |
+| Villanova University | #57 | IN |
+| Case Western, Florida State, Texas A&M, Virginia Tech, Wake Forest, William & Mary | #51 (six-way tie) | IN |
+| **Colorado School of Mines** | **#80** | **OUT** |
+| **Southern Methodist University** | **#88** | **OUT** |
+
+The ~48 total also includes mid-list flagships classified on current standing — Minnesota,
+UMass Amherst, Clemson, NC State, Miami (FL), Penn State, UConn, and similar.
+
+### Blended Top-25 on the acceptance list (by current 2026 U.S. News rank)
+
+Merging both ranking systems, ordered by 2026 rank, ties alphabetical.
+"Nat." = National University; "LAC" = Liberal Arts College.
+
+| Rank | School | Type |
+| --- | --- | --- |
+| 5 | U.S. Air Force Academy | LAC |
+| 6 | University of Chicago | Nat. |
+| 7 | Duke University | Nat. |
+| 7 | Northwestern University | Nat. |
+| 12 | Cornell University | Nat. |
+| 13 | Brown University | Nat. |
+| 13 | Dartmouth College | Nat. |
+| 13 | Davidson College | LAC |
+| 13 | Middlebury College | LAC |
+| 13 | Vassar College | LAC |
+| 13 | U.S. Military Academy (West Point) | LAC |
+| 17 | Vanderbilt University | Nat. |
+| 20 | Carnegie Mellon University | Nat. |
+| 20 | University of Michigan | Nat. |
+| 20 | Washington University in St. Louis | Nat. |
+| 21 | Washington and Lee University | LAC |
+| 22 | Colgate University | LAC |
+| 22 | University of Richmond | LAC |
+| 24 | Colby College | LAC |
+| 24 | Georgetown University | Nat. |
+| 26 | UNC–Chapel Hill | Nat. |
+| 26 | University of Virginia | Nat. |
+| 30 | University of Florida | Nat. |
+| 30 | University of Texas at Austin | Nat. |
+
+**Corrections applied vs. the in-repo dossier** (see Discrepancies for detail): the prior
+dossier's Top-25 table listed **Smith College at #13 LAC** and **University of Notre Dame at
+#20 Nat.** and **Emory at #24 Nat.**, and placed **AFA outside the table**. Verified 2026 data
+puts **AFA at #5 LAC** — it belongs *at the top* of this table. Smith's 2026 LAC rank could not
+be independently confirmed and is therefore **omitted rather than asserted** (`TO VERIFY`).
+Notre Dame (#20) and Emory (#24) are plausible but were not re-confirmed in this pass and are
+**omitted for the same reason**. Treat the table above as the verified core, not an exhaustive 25.
+
+`TO VERIFY` — **the 25th slot is a genuine photo-finish.** University of Florida and UT Austin
+are **both #30**. Both are shown above rather than arbitrarily cutting one.
+
+### Scholarships and named awards
+
+| Item | Value | Status |
+| --- | --- | --- |
+| Merit dollars **offered**, Class of 2025 | **more than $7.4 million** | Published |
+| Number of students receiving merit | **NOT PUBLISHED** | — |
+| Typical / median award size | **NOT PUBLISHED** | — |
+| Merit **accepted** (vs. offered) | **NOT PUBLISHED** | — |
+| **Morehead-Cain Scholars** | **NOT PUBLISHED / none found** | — |
+| **Robertson Scholars** | **NOT PUBLISHED / none found** | — |
+| **QuestBridge Scholars/Finalists** | **NOT PUBLISHED / none found** | — |
+| **ROTC scholarships** | **NOT PUBLISHED** | — |
+| **Service academy appointments** | Both USAFA and West Point appear as *acceptances* on the 2021–25 list; **Matthew Doty signed to swim at the U.S. Air Force Academy** (Nov. 13 signing day) | Partially published |
+| **National Merit Scholarships** | **NOT PUBLISHED / no public record** | — |
+
+Note the **$7.4M figure is "offered," not "accepted."** That is the school's own wording and the
+distinction matters — offered totals include awards from schools no student attended.
+
+### Sources
+
+- https://resources.finalsite.net/images/v1764962120/davidsondayorg/nlxzlvymosnampuadraw/2526CollegeProfile.pdf
+- https://www.davidsonday.org/academics/college-counseling
+- https://www.davidsonday.org/news-detail?pk=1210913 *(Class of 2020 comparison figures)*
+- https://www.davidsonday.org/p/~board/all-school-news/post/seven-davidson-day-student-athletes-sign-national-letters-of-intent
+- https://www.usnews.com/best-colleges/rankings/national-universities
+- https://www.usnews.com/best-colleges/rankings/national-liberal-arts-colleges
+- https://www.collegekickstart.com/blog/item/u-s-news-world-report-posts-2026-college-rankings
+- https://dailyorange.com/2025/09/su-ranks-75-us-news-report-drops-7-straight-year/ *(Syracuse #75)*
+- https://www.usnews.com/best-colleges/colorado-school-of-mines-1348/overall-rankings *(Mines #80)*
+- https://www.usnews.com/best-colleges/smu-3613/overall-rankings *(SMU #88)*
+- https://www.usafa.org/content/u-s-air-force-academy-ranks-among-nation-s-finest-in-u-s-news-world-report-2026-best-colleges-report *(AFA #5 LAC)*
+- https://www.usnews.com/education/best-colleges/articles/us-news-ranks-best-colleges
+
+---
+
+## Card — The Applicant's Edge
+
+### Lever 1 — Build the spike
+
+**This is Davidson Day's genuine differentiator and the strongest card in this file.** For a
+school of 198 Upper Schoolers, the depth here is disproportionate.
+
+#### AFAR — real international archaeological field research
+
+Through **AFAR (American Foreign Academic Research)**, Davidson Day students conduct authentic
+archaeological excavation and analysis abroad — fieldwork that has fed peer-reviewed scholarship,
+not educational tourism.
+
+Per the 2025–26 School Profile, Davidson Day "has led full-scale ongoing archaeological research
+with... AFAR... in **Belize since 2009, Spain since 2014, Greece since 2017, and Portugal since
+2018**. Each of the programs partner with top-level colleges, universities, and government
+agencies to execute authentic scientific research at historically significant sites. Our students
+are given opportunities to disseminate their findings through **publications and participation at
+international conferences**."
+
+**Two dates, both correct, stated cleanly so neither reads as an error:**
+
+- **2006** — AFAR founded the **first high-school-level archaeological field school in the United
+ States**, at **Cahal Pech**, an ancient Maya site in Belize.
+- **2009** — Davidson Day's own full-scale research program begins (the school's Profile date).
+
+The Belize excavation is conducted in conjunction with the **Belize Valley Archaeological
+Reconnaissance (BVAR)** project, under permit from the Belize Institute of Archaeology.
+The program was founded and is led by a Davidson Day faculty member who also directs the
+Global Studies Diploma.
+
+**Participation counts — cited by source rather than rounded into one number:**
+
+| Source | Claim |
+| --- | --- |
+| goafar.org | "hundreds" of high-school students since 2007 |
+| Charlotte Magazine | AFAR founder has brought **more than 150** high-school students to Cahal Pech from NC, NY, TX, FL, IL, IA, CA, Canada and Egypt |
+| MDPI *Heritage* (2020, peer-reviewed) | **more than 200** high-school students trained in archaeological field methods **since 2010** |
+
+`TO VERIFY` — none of these three is a **Davidson-Day-specific** count. All are AFAR-program-wide
+across multiple schools and states. **How many Davidson Day students specifically have
+participated is NOT PUBLISHED.**
+
+Documented academic payoff: roughly **ten Davidson Day students** presented summer research on
+Belize, Portugal and Spain at a university archaeology conference — **nine of whom were also
+Global Studies Diploma candidates**.
+
+#### Diploma Distinctions — a structured credential, applied for at end of sophomore year
+
+Three formal tracks that convert interest into a documented, multi-year credential:
+
+**1. Global Studies Diploma** *(in place since 2021)*
+
+- **Reach: "Over a quarter of Davidson Day School students participate in international
+ research"** — a notably broad footprint for a signature program.
+- Required core: **Honors Anthropology**
+- Choose four from: AP World History **or** AP European History · AP Environmental Science ·
+ AP Psychology · AP Macroeconomics · AP with WE Service Recognition · AP Spanish Language &
+ Culture **or** AP French Language & Culture
+- **Language: completion of Level IV, or 3 levels of the same language in Upper School.**
+ *(Note: the School Profile states "the same world language in all four years of upper school" —
+ see Discrepancies.)*
+- **Minimum two weeks of international field research** — via Davidson Day's own AFAR projects
+ or another approved international research program
+- **A capstone paper** disseminating the results of the student's specific research topic
+- **Produces a SEPARATE TRANSCRIPT AND PROFILE sent to colleges** alongside the standard record.
+ This is the single most admissions-relevant feature of the program — it is an additional
+ document in the file, not just a line on the transcript.
+
+**2. STEMM Diploma** and **3. Business & Civic Engagement Diploma**
+
+- Structured advanced (AP/Honors) coursework in the relevant field
+- **At least 100 hours** of an approved **internship, volunteer opportunity, or pre-collegiate
+ program** — i.e. a required practicum
+- **Quarterly Ethics Labs**
+- **Research Methods Honors Course (11th grade)**
+- **Capstone Research Honors Mentorship (12th grade)**
+- Seniors **present their capstone at the Davidson Day Scholars Research Conference** — a public,
+ documented research showcase
+
+**Required internship/capstone/independent research: YES**, but **only for Diploma Distinction
+candidates**. There is **no school-wide required internship, capstone, or senior project** for
+the general graduating class — **NOT PUBLISHED / does not exist**.
+
+#### Recruiting and arts tracks
+
+**Athletics:**
+
+- **Athletic Recruitment Workshop** — annual, run by the counseling office (spring)
+- **National Signing Day** events. One recent November 13 saw **seven NLI signings**:
+
+ | Student-athlete | Sport | College |
+ | --- | --- | --- |
+ | Isaiah Denis | Basketball | University of North Carolina at Chapel Hill |
+ | Domenic Desmond | Soccer | Sewanee: The University of the South |
+ | Matthew Doty | Swimming | United States Air Force Academy |
+ | Jordin Glass | Volleyball | University of Tennessee at Chattanooga |
+ | Abbie Gordon | Equestrian | University of Georgia |
+ | Isabel Seifert | Soccer | University of Richmond |
+ | Kaydee Smith | Volleyball | Alabama A&M University |
+
+- **11 NCAA student-athletes** in the Class of 2025
+- Program-wide: **over 100 Davidson Day student-athletes have continued at 80 different colleges
+ and universities**; the school claims **37 team state championships and 37 individual state
+ championships**
+- 2024–25 Patriots Review (from the Profile): 4 state championships (boys' and girls' soccer,
+ volleyball, boys' tennis), 20 all-state individual selections, 2 individual state championships
+ (Matthew Doty, 2x), 200+ student-athletes across Middle and Upper School
+- NCAA eligibility resources linked from the counseling page
+- **Football and baseball run in partnership with SouthLake Christian Academy** — worth noting for
+ recruiting families, since the co-op affects exposure
+
+**Arts:** **AP Studio Art** is offered and the program supports portfolio development for
+competitive art-and-design programs. Acceptances at **SCAD, Pratt Institute, Manhattan School of
+Music, UNC School of the Arts, AMDA, Emerson, Columbia College Chicago, Berklee-adjacent
+conservatory-type institutions** confirm real portfolio/audition outcomes.
+
+`TO VERIFY` — **portfolio advising is a program, not a documented counseling protocol.** No
+counseling-office-level protocol for guiding fine-arts applicants through portfolio supplements,
+National Portfolio Day, audition scheduling, or art-school-specific aid could be located —
+**NOT PUBLISHED**.
+
+### Lever 2 — The school's leverage
+
+**The School Profile as an instrument — strong.** This is the most valuable lever Davidson Day
+controls, and it is well executed. The 4-page profile is publicly linked, current (2025–26), and
+does real work: it explains the no-rank policy, publishes the full grading scale and weighting
+rules, gives the Class of 2026 GPA distribution, prints the entire course catalog by level,
+states graduation requirements, describes the Honor Code, details the Global Studies Diploma and
+AFAR programs, and closes with the five-year acceptance list. For an admissions reader who has
+never been to Davidson, NC, it frames the student **without leaning on test scores or rank** —
+which is precisely the job it has to do given what the school withholds.
+
+**Integrity / discipline reporting and NACAC compliance:**
+
+- The **Honor Code is published verbatim** in the School Profile and is student-, faculty- and
+ administration-facing.
+- The school holds membership in **NACAC** (national), **SACAC** (regional), and **ACCIS**
+ (independent-school college counselors) — the standard ethical-practice memberships.
+- **NOT PUBLISHED:** the school's actual **disciplinary-reporting policy to colleges** — whether
+ Davidson Day reports suspensions or honor-code violations on the secondary school report, when
+ a record is expunged, and how a student may explain an incident. Given that a published Honor
+ Code implies an enforcement mechanism, the *reporting* half being undisclosed is a real gap.
+
+**Repeat pipelines to specific colleges — NOT PUBLISHED.**
+
+- No college-specific yield, matriculation-by-institution, or repeat-placement data is published.
+ **You cannot infer a pipeline to any single college from the five-year acceptance list**, since
+ a school appears there for a single acceptance across five classes.
+- The one structural relationship worth naming is geographic, not contractual: **Davidson College
+ is one mile from campus** and the school's Profile explicitly notes it. **Davidson College does
+ appear on the acceptance list.** But **no partnership, preferred-admission arrangement, or
+ dual-enrollment agreement with Davidson College is published** — the proximity is a fact, not a
+ documented pipeline.
+
+**Two-way relationships and memberships:**
+
+- **Inbound:** "more than 80 college admission representatives from across the globe to campus
+ each year" (school's benchmark); rep visits run Monday–Friday throughout the fall, scheduled
+ through Scoir, with direct student conversation time.
+- **Regional co-hosting:** each spring Davidson Day **co-hosts the Lake Norman Area College
+ Admissions Case Studies Program and College Fair with Cannon School** — a neighboring
+ independent school (and, notably, another school in this comparison set). Families work real
+ (fictionalized) application files for a mock institution ("Euphoria University") and sit as an
+ admissions committee. The prior event's fair had **nearl
+
+…[truncated]
+
+
+---
+
 ## Standing Out
 
 *Source file: `Davidson Day - College Support - Standing Out.pdf`*
@@ -544,3 +1473,32 @@ hand-off works.
 Pronunciation notes for the audio episode: AFAR = “AY-far” (not “a far”); Cahal Pech = “kuh-HAL PETCH”; Tróia =
 “TROY-uh.”
 Davidson Day School · College Support Series · Parent-facing dossier Page 2
+
+
+---
+
+## Sources referenced across these documents
+
+- https://app.scoir.com/signin
+- https://dailyorange.com/2025/09/su-ranks-75-us-news-report-drops-7-straight-year/
+- https://resources.finalsite.net/images/v1764962120/davidsondayorg/nlxzlvymosnampuadraw/2526CollegeProfile.pdf
+- https://rocketreach.co/tia-hill-email_84666930
+- https://web3.ncaa.org/ecwr3/
+- https://www.collegekickstart.com/blog/item/u-s-news-world-report-posts-2026-college-rankings
+- https://www.davidsonacademy.unr.edu/news/30-davidson-academy-students-named-2026-national-merit-semifinalists/
+- https://www.davidsonday.org/Academics/College-Counseling
+- https://www.davidsonday.org/academics/college-counseling
+- https://www.davidsonday.org/academics/upper-school
+- https://www.davidsonday.org/directory
+- https://www.davidsonday.org/fs/resource-manager/view/a92aa22b-1242-4ef7-9a22-db2e38cacba0
+- https://www.davidsonday.org/news-detail?pk=1210913
+- https://www.davidsonday.org/p/~board/all-school-news/post/seven-davidson-day-student-athletes-sign-national-letters-of-intent
+- https://www.linkedin.com/in/tia-hill-4215255
+- https://www.nationalmerit.org/s/1758/blog.aspx?pgid=2089&gid=2&cid=1381
+- https://www.privateschoolreview.com/davidson-day-school-profile
+- https://www.usafa.org/content/u-s-air-force-academy-ranks-among-nation-s-finest-in-u-s-news-world-report-2026-best-colleges-report
+- https://www.usnews.com/best-colleges/colorado-school-of-mines-1348/overall-rankings
+- https://www.usnews.com/best-colleges/rankings/national-liberal-arts-colleges
+- https://www.usnews.com/best-colleges/rankings/national-universities
+- https://www.usnews.com/best-colleges/smu-3613/overall-rankings
+- https://www.usnews.com/education/best-colleges/articles/us-news-ranks-best-colleges
