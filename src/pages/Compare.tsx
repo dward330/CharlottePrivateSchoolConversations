@@ -1,5 +1,6 @@
 import { localizeMoneyText } from '../lib/format.ts'
 import { useTranslation } from 'react-i18next'
+import { topicLabel, metricLabel } from '../lib/labels.ts'
 import {
   schools as allSchools,
   topics,
@@ -75,15 +76,15 @@ export function Compare({ topic, schools }: Props) {
         <fieldset className="control">
           <legend>{t('compare.topicLegend')}</legend>
           <div className="pill-row">
-            {topics.map((t) => (
+            {topics.map((topic) => (
               <button
-                key={t.slug}
+                key={topic.slug}
                 type="button"
-                className={`pill ${t.slug === activeTopic ? 'on' : ''}`}
-                aria-pressed={t.slug === activeTopic}
-                onClick={() => setTopic(t.slug)}
+                className={`pill ${topic.slug === activeTopic ? 'on' : ''}`}
+                aria-pressed={topic.slug === activeTopic}
+                onClick={() => setTopic(topic.slug)}
               >
-                {t.name}
+                {topicLabel(t, topic.slug, topic.name)}
               </button>
             ))}
           </div>
@@ -122,7 +123,7 @@ export function Compare({ topic, schools }: Props) {
               <thead>
                 <tr>
                   <th className="corner" scope="col">
-                    <span className="corner-label">{topicBySlug(activeTopic ?? '')?.name}</span>
+                    <span className="corner-label">{topicLabel(t, activeTopic ?? '', topicBySlug(activeTopic ?? '')?.name ?? '')}</span>
                     <span className="corner-sub">{t('compare.researchMetric')}</span>
                   </th>
                   {cols.map((s) => (
@@ -194,7 +195,7 @@ export function Compare({ topic, schools }: Props) {
                 {metrics.map((m) => (
                   <tr key={m.metric.key}>
                     <th scope="row" className="row-metric">
-                      <span className="row-metric-label">{m.metric.label}</span>
+                      <span className="row-metric-label">{metricLabel(t, m.metric.key, m.metric.label)}</span>
                       <span className="row-metric-cov">{t('compare.coverage', { count: m.coverage, total: allSchools.length })}</span>
                     </th>
                     {cols.map((s) => {
