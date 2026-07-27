@@ -514,7 +514,7 @@ export function FinancialAidReportCard({
         ))}
       </div>
 
-      <nav className="fa-contents" aria-label="Report sections">
+      <nav className="fa-contents" aria-label={t('tables.reportSectionsAria')}>
         {report.sections.map((s, i) => (
           <a key={s.id} href={`#${s.id}`} onClick={(e) => jump(e, s.id)}>
             <span className="fa-contents-title">

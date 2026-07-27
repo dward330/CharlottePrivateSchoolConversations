@@ -46,30 +46,36 @@ with an overlay.
 
 ---
 
-## Review gate
+## Review
 
-Every content stage (1–6) is gated on native-speaker review before merge. **Stage 0
-is not** — it contains no Spanish, so its review is an ordinary code review.
+**Decision, 2026-07-27 (project owner): stages proceed without a review gate.**
+Spanish review happens once, after all stages are complete. No stage waits on a
+reviewer, and no stage is blocked from merging for lack of one.
 
-**As of July 2026 no reviewer is identified.** This is the single largest risk to the
-rollout and it is a resourcing question, not an engineering one: stages 1–5 are
-**54,427 measured words**, plus ~39k at stage 6 — roughly 93k words of review across
-six rounds. The realistic failure mode is that Stage 0 lands and the rest stalls.
+Practical consequences:
 
-For scale: stage 1 alone is 4,607 words (a comfortable single sitting), while stage 5
-is 17,463 (several). Recruiting one reviewer for stage 1 is a genuinely small ask and
-is the right first commitment — it validates both the translation quality and the
-review workflow before anyone signs up for the large topics.
+- Stages 1–6 land back-to-back at whatever pace the work allows.
+- **`PROSE_TRANSLATED` stays `[]` until the end-of-rollout review.** This is the one
+  remaining ordering constraint, and it is technical rather than editorial: that list
+  drives `data-prose` on `<html>` and the RTL LTR-pin CSS rule (see
+  [`prose-vs-chrome-translation-layers`]). It also means the Spanish prose is not
+  presented as finished while it is still unreviewed.
+- Corrections arrive in bulk against the whole corpus. The overlay format makes this
+  cheap: a reviewer edits `t` values in `src/data/overlays/<topic>.es.json` without
+  touching English or structure, and `check_translations.mjs` verifies nothing drifted
+  underneath them.
 
-Deliberate consequence: **Stage 0 is worth doing on its own merits** — it is
-risk-free, language-independent, and converts the estimates above into a measured
-number that says how much reviewer time is actually being asked for. Do not start
-Stage 1 before a reviewer exists; translating prose that cannot be reviewed inverts
-the gate the whole plan is built around and would sit unmerged.
+**Translation notes are kept as we go** in `src/data/overlays/NOTES.md` — terminology
+choices, hedges that were hard to carry into Spanish, and anything a stage was unsure
+of. This costs almost nothing during the work and gives the eventual review a list of
+known soft spots rather than an undifferentiated 93k-word wall.
 
-If reviewers prove scarce, ship **fewer topics well** rather than all seven
-unreviewed. Partial coverage is a supported state end-to-end — untranslated fields
-fall back to English silently.
+Worth stating plainly, since it is the risk being accepted rather than removed: this
+is factual research families use for five-figure decisions, the prose carries
+deliberate hedges ("school-reported, no methodology published"), and a mistranslation
+is invisible to a reader who does not read Spanish. A systematic error in how a hedge
+is rendered will surface at the end rather than after the first stage. `NOTES.md` and
+the `PROSE_TRANSLATED` hold are what keep that recoverable.
 
 ---
 

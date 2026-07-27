@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next'
+import { topicLabel } from '../lib/labels.ts'
 import { schools, topics, topicsForSchool, docCount, projectStats, generated, brandOf } from '../lib/manifest.ts'
 import { SchoolBadge } from '../components/SchoolBadge.tsx'
 import { TopicGlyph } from '../components/TopicGlyph.tsx'
@@ -103,7 +104,7 @@ export function Home() {
               }}
             >
               <span className="topic-cell-icon"><TopicGlyph slug={topic.slug} size={20} /></span>
-              <span className="topic-name">{topic.name}</span>
+              <span className="topic-name">{topicLabel(t, topic.slug, topic.name)}</span>
               <span className="topic-cta">{t('home.compareAll')}</span>
             </a>
           ))}
@@ -140,7 +141,7 @@ export function Home() {
                 <div className="school-card-topics">
                   {covered.map((topic) => (
                     <span key={topic.slug} className="mini-chip">
-                      <TopicGlyph slug={topic.slug} size={11} /> {topic.name}
+                      <TopicGlyph slug={topic.slug} size={11} /> {topicLabel(t, topic.slug, topic.name)}
                     </span>
                   ))}
                 </div>

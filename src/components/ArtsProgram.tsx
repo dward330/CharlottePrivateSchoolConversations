@@ -152,6 +152,7 @@ export function ArtsLadderBody({ data }: { data: ArtsLadder }) {
 /* --------------------------------------------------------- 1b · theatre -- */
 
 export function TheatreBody({ data }: { data: Theatre }) {
+  const { t } = useTranslation()
   return (
     <div className="arts-body">
       <Lead headline={data.headline} subhead={data.subhead} />
@@ -192,7 +193,7 @@ export function TheatreBody({ data }: { data: Theatre }) {
             <div className="arts-ledger">
               <div className="arts-th">Year</div>
               <div className="arts-th">Show</div>
-              <div className="arts-th">Result</div>
+              <div className="arts-th">{t('tables.result')}</div>
               {data.ledger.map((row) => (
                 <LedgerRow key={`${row.year}-${row.show}`} row={row} />
               ))}

@@ -13,10 +13,12 @@
 
 import { useEffect, useRef, useState } from 'react'
 import type { ClubCatalog } from '../data/clubCatalog.ts'
+import { useTranslation } from 'react-i18next'
 
 const ALL = 'all'
 
 export function ClubCatalogBody({ catalog }: { catalog: ClubCatalog }) {
+  const { t } = useTranslation()
   const [filter, setFilter] = useState<string>(ALL)
   const [hideSources, setHideSources] = useState(false)
   const rootRef = useRef<HTMLDivElement>(null)
@@ -56,7 +58,7 @@ export function ClubCatalogBody({ catalog }: { catalog: ClubCatalog }) {
       </p>
 
       {/* Single-select filter chips — real buttons, accent fill when active. */}
-      <div className="catalog-filters" role="group" aria-label="Filter clubs by interest">
+      <div className="catalog-filters" role="group" aria-label={t('tables.filterClubsAria')}>
         <button
           type="button"
           className={filter === ALL ? 'catalog-chip is-active' : 'catalog-chip'}

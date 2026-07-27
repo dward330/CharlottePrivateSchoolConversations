@@ -271,6 +271,7 @@ export function CoverageBody({ data }: { data: Coverage }) {
  * than a number, so the planner can't invent a total.
  */
 export function CostBody({ data }: { data: Cost }) {
+  const { t } = useTranslation()
   const [rowId, setRowId] = useState(data.defaultRow)
   const [days, setDays] = useState(data.defaultDays)
 
@@ -328,7 +329,7 @@ export function CostBody({ data }: { data: Cost }) {
       <div className={`as-cost${isShort ? ' is-short' : ''}`}>
         <div className="as-cost-matrix">
           <div className="as-daysel">
-            <span className="as-daysel-label text-muted">Days / week</span>
+            <span className="as-daysel-label text-muted">{t('tables.daysPerWeekShort')}</span>
             <div className="as-filters">
               {[1, 2, 3, 4, 5].map((d) => (
                 <button
@@ -405,7 +406,7 @@ export function CostBody({ data }: { data: Cost }) {
 
         <div className="as-cost-side">
           <div className="as-estimate">
-            <div className="as-estimate-kicker text-muted">Your estimate</div>
+            <div className="as-estimate-kicker text-muted">{t('tables.yourEstimate')}</div>
             <div className="as-estimate-row">{row.panelLabel}</div>
             <div className="as-estimate-days text-muted">
               {days} day{days > 1 ? 's' : ''} / week, until pickup
@@ -432,7 +433,7 @@ export function CostBody({ data }: { data: Cost }) {
                       not price against would invent a rate. */}
                   {row.flatRate ? (
                     <div>
-                      <span className="text-muted">Days per week</span>
+                      <span className="text-muted">{t('tables.daysPerWeek')}</span>
                       <strong>flat rate</strong>
                     </div>
                   ) : (
@@ -550,7 +551,7 @@ function EnrichmentCatalog({ data }: { data: DayInside }) {
 
       {data.gradeFilters.length > 0 && (
         <div className="as-filters">
-          <span className="as-filters-label text-muted">Grade</span>
+          <span className="as-filters-label text-muted">{t('tables.grade')}</span>
           {data.gradeFilters.map((g) => (
             <button
               key={g}
@@ -582,9 +583,9 @@ function EnrichmentCatalog({ data }: { data: DayInside }) {
         <table className="as-table as-catalog">
           <thead>
             <tr>
-              <th className="as-th">Class</th>
+              <th className="as-th">{t('tables.classLabel')}</th>
               <th className="as-th">Day</th>
-              <th className="as-th">Grades</th>
+              <th className="as-th">{t('tables.grades')}</th>
               <th className="as-th as-th-fee">Fee</th>
             </tr>
           </thead>

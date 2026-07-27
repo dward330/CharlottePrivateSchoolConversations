@@ -187,6 +187,7 @@ function RichText({ text }: { text: string }) {
 /* ------------------------------------ 1a · the transcript colleges see ---- */
 
 export function TranscriptBody({ data }: { data: Transcript }) {
+  const { t: tr } = useTranslation()
   const { t } = useTranslation()
   return (
     <div className="cs-body">
@@ -204,7 +205,7 @@ export function TranscriptBody({ data }: { data: Transcript }) {
               <table className="cs-ledger">
                 <thead>
                   <tr>
-                    <th className="cs-th cs-th-year">Class</th>
+                    <th className="cs-th cs-th-year">{tr('tables.classLabel')}</th>
                     <th className="cs-th">National Merit &amp; College Board honors</th>
                   </tr>
                 </thead>
@@ -455,6 +456,7 @@ function CollegeList({ data }: { data: Outcomes }) {
 }
 
 export function OutcomesBody({ data }: { data: Outcomes }) {
+  const { t: tr } = useTranslation()
   const { t } = useTranslation()
   return (
     <div className="cs-body">
@@ -470,7 +472,7 @@ export function OutcomesBody({ data }: { data: Outcomes }) {
                 <thead>
                   <tr>
                     <th className="cs-th">Tier</th>
-                    <th className="cs-th cs-th-count">On list</th>
+                    <th className="cs-th cs-th-count">{tr('tables.onList')}</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -569,6 +571,7 @@ export function EdgeBody({ data }: { data: Edge }) {
 const PERCENTILE_COLS = ['10th', '25th', '50th', '75th', '90th', 'Mean']
 
 export function WholeClassBody({ data }: { data: WholeClass }) {
+  const { t: tr } = useTranslation()
   const { t } = useTranslation()
   return (
     <div className="cs-body">
@@ -583,7 +586,7 @@ export function WholeClassBody({ data }: { data: WholeClass }) {
             <table className="cs-scores">
               <thead>
                 <tr>
-                  <th className="cs-th cs-th-metric">Percentile</th>
+                  <th className="cs-th cs-th-metric">{tr('tables.percentile')}</th>
                   {PERCENTILE_COLS.map((c) => (
                     <th key={c} className="cs-th cs-th-pct">
                       {c}

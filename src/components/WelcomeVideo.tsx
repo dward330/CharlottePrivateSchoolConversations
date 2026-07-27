@@ -33,14 +33,14 @@ export function WelcomeVideo({ name, url }: { name: string; url: string }) {
       <div className="welcome-head">
         <span className="glyph"><PlayIcon /></span>
         <h2>{t('school.welcomeVideo')}</h2>
-        <span className="welcome-note">From the school</span>
+        <span className="welcome-note">{t('school.welcomeFrom')}</span>
       </div>
       <div className="welcome-frame">
         <BlueprintCorners />
         <div className="welcome-embed">
           <iframe
             src={url}
-            title={`${name} — Welcome Video`}
+            title={t('school.welcomeIframeTitle', { school: name })}
             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
             allowFullScreen
@@ -48,7 +48,7 @@ export function WelcomeVideo({ name, url }: { name: string; url: string }) {
           />
         </div>
         <p className="welcome-caption">
-          An introduction to {name}, in the school&rsquo;s own words. Press play to watch.
+          {t('school.welcomeCaption', { school: name })}
         </p>
       </div>
     </section>

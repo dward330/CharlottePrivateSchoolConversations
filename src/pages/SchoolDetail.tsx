@@ -75,6 +75,7 @@ import { afterSchoolProgram, AFTER_SCHOOL_CARDS } from '../data/afterSchool.ts'
 import { AfterSchoolCardBody } from '../components/AfterSchool.tsx'
 import { WelcomeVideo, PlayIcon } from '../components/WelcomeVideo.tsx'
 import { useTranslation } from 'react-i18next'
+import { topicLabel, metricLabel } from '../lib/labels.ts'
 
 type Loaded = Record<string, MetricGroup[]>
 
@@ -254,7 +255,7 @@ function scrollToId(e: React.MouseEvent, id: string) {
 }
 
 export function SchoolDetail({ slug }: { slug: string }) {
-  const { t } = useTranslation()
+  const { t: tr } = useTranslation()
   const navigate = useNavigate()
   const school = schoolBySlug(slug)
   const [loaded, setLoaded] = useState<Loaded>({})
@@ -286,7 +287,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
     return (
       <div className="page">
         <p className="empty">
-          {t('school.unknown')} <a href={toHome()}>{t('school.backHome')}</a>.
+          {tr('school.unknown')} <a href={toHome()}>{tr('school.backHome')}</a>.
         </p>
       </div>
     )
@@ -299,17 +300,18 @@ export function SchoolDetail({ slug }: { slug: string }) {
   return (
     <div className="page school-page" style={{ ['--brand' as string]: brand.color }}>
       <a className="back" href={toHome()} onClick={(e) => { e.preventDefault(); navigate(toHome()) }}>
-        ← All schools
+        {tr('school.allSchools')}
       </a>
 
       <header className="dossier-header">
         <BlueprintCorners />
         <SchoolBadge slug={slug} name={school.name} size={84} />
         <div className="dossier-body">
-          <p className="dossier-kicker">School dossier · Charlotte, NC</p>
+          <p className="dossier-kicker">{tr('school.dossierKicker')}</p>
           <h1>{school.name}</h1>
           <p className="school-sub">
-            {covered.length} research areas · {totalDocs} documents distilled
+            {tr('school.subAreas', { count: covered.length })} ·{' '}
+            {tr('school.subDocs', { count: totalDocs })}
           </p>
           <div className="school-header-topics">
             {brand.welcomeVideoUrl && (
@@ -319,7 +321,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                 onClick={(e) => scrollToId(e, 'welcome')}
               >
                 <PlayIcon size={10} />
-                Welcome Video
+                {tr('school.welcomeVideo')}
               </a>
             )}
             {covered.map((t) => (
@@ -332,7 +334,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                   scrollToTopic(e, t.slug)
                 }}
               >
-                {t.name}
+                {topicLabel(tr, t.slug, t.name)}
               </a>
             ))}
           </div>
@@ -356,10 +358,10 @@ export function SchoolDetail({ slug }: { slug: string }) {
               onClick={(e) => scrollToId(e, 'welcome')}
             >
               <PlayIcon size={13} />
-              Welcome Video
+              {tr('school.welcomeVideo')}
             </a>
           )}
-          <div className="dossier-nav-label">Research areas</div>
+          <div className="dossier-nav-label">{tr('school.researchAreas')}</div>
           {covered.map((t) => (
             <a
               key={t.slug}
@@ -370,12 +372,12 @@ export function SchoolDetail({ slug }: { slug: string }) {
                 scrollToTopic(e, t.slug)
               }}
             >
-              {t.name}
+              {topicLabel(tr, t.slug, t.name)}
               <span className="count">{String(docCount(t.slug, slug)).padStart(2, '0')}</span>
             </a>
           ))}
           <p className="dossier-nav-hint">
-            Click any card to expand its full research note. Sources are cited on every fact.
+            {tr('school.navHint')}
           </p>
         </aside>
 
@@ -514,7 +516,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
               <section key={t.slug} id={`topic-${t.slug}`} className="topic-section">
                 <div className="topic-section-head">
                   <span className="glyph"><TopicGlyph slug={t.slug} /></span>
-                  <h2>{t.name}</h2>
+                  <h2>{topicLabel(tr, t.slug, t.name)}</h2>
                   <span className="topic-count">
                     {!ready
                       ? '…'
@@ -527,7 +529,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                     href={toCompare(t.slug, otherSlugs)}
                     onClick={(e) => { e.preventDefault(); navigate(toCompare(t.slug, otherSlugs)) }}
                   >
-                    Compare on {t.name} <ArrowIcon />
+                    {tr('school.compareOn', { topic: topicLabel(tr, t.slug, t.name) })} <ArrowIcon />
                   </a>
                 </div>
 
@@ -544,7 +546,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
 
                 {!ready && <p className="loading">Loading research…</p>}
                 {ready && groups.length === 0 && (
-                  <p className="empty">No readable notes for this area yet.</p>
+                  <p className="empty">{tr('tables.noReadableNotes')}</p>
                 )}
 
                 {/* Course Offerings is one research file per school but three
@@ -788,7 +790,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                         <BlueprintCorners />
                         <summary>
                           <span className="note-card-head">
-                            <span className="topic-title">{g.metric.label}</span>
+                            <span className="topic-title">{metricLabel(tr, g.metric.key, g.metric.label)}</span>
                             <span className="topic-teaser">
                               {clusters
                                 ? clusters.verdict
@@ -819,7 +821,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                                   !/deep research/i.test(s.subtopic) && (
                                     <h3 className="section-sub">{s.subtopic}</h3>
                                   )}
-                                <ProseContent text={s.text} title={g.metric.label} topic={t.slug} />
+                                <ProseContent text={s.text} title={metricLabel(tr, g.metric.key, g.metric.label)} topic={t.slug} />
                               </article>
                             ))
                           )}
