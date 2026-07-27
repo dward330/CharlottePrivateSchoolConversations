@@ -22,6 +22,7 @@ import { clubCatalog } from '../data/clubCatalog.ts'
 import { ClubCatalogBody } from '../components/ClubCatalog.tsx'
 import {
   clubsProgram,
+  loadClubsOverlay,
   CLUBS_CARDS,
   clubsCardTitle,
   type ClubsProgram,
@@ -255,7 +256,8 @@ function scrollToId(e: React.MouseEvent, id: string) {
 }
 
 export function SchoolDetail({ slug }: { slug: string }) {
-  const { t: tr } = useTranslation()
+  const { t: tr, i18n } = useTranslation()
+  const lang = i18n.resolvedLanguage ?? 'en'
   const navigate = useNavigate()
   const school = schoolBySlug(slug)
   const [loaded, setLoaded] = useState<Loaded>({})
@@ -270,9 +272,13 @@ export function SchoolDetail({ slug }: { slug: string }) {
     let alive = true
     setReady(false)
     setLoaded({})
-    Promise.all(
-      covered.map(async (t) => [t.slug, await loadMetricGroups(t.slug, slug)] as const),
-    ).then((entries) => {
+    Promise.all([
+      /* Prose overlays load alongside the notes and behind the same `ready`
+         gate: resolving them after first paint would render the English
+         research for a frame and then swap it, which reads as a glitch. */
+      loadClubsOverlay(lang),
+      ...covered.map(async (t) => [t.slug, await loadMetricGroups(t.slug, slug)] as const),
+    ]).then(([, ...entries]) => {
       if (!alive) return
       setLoaded(Object.fromEntries(entries))
       setReady(true)
@@ -281,7 +287,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
       alive = false
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [slug])
+  }, [slug, lang])
 
   if (!school) {
     return (
@@ -447,7 +453,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                A school with no data for a card omits it entirely rather than
                rendering it empty: Davidson Day publishes no affinity roster and
                no honor-society record, so it shows 1b alone. */
-            const clubs = t.slug === 'student-clubs' ? clubsProgram(slug) : undefined
+            const clubs = t.slug === 'student-clubs' ? clubsProgram(slug, lang) : undefined
             const clubsCards = clubs
               ? CLUBS_CARDS.filter((c) => clubs[c.key] != null)
               : []

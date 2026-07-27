@@ -18,7 +18,7 @@ admissions outcomes and tuition. Word counts below are **measured**
 | Stage | Scope | Words | Fields | Why here |
 |---|---|---|---|---|
 | 0 ✅ | Extraction + `check_translations.mjs` + field classification. No prose, no `localized()`. | — | — | **Done.** Machinery alone; measured the real surface |
-| 1 | **Student Clubs** | 4,607 | 240 | **Smallest topic** — proves the pipeline end-to-end on the least content. Also lands `localized()` + accessor rewiring |
+| 1 ✅ | **Student Clubs** | 4,471 | 240 | **Done.** Smallest topic; proved the pipeline end-to-end and landed `localized()` + accessor rewiring |
 | 2 | **The Arts** | 12,988 | 587 | Low stakes; first substantial prose volume |
 | 3 | **Sports** | 9,939 | 719 | Most field sites — stresses reinjection breadth |
 | 4 | **After School** | 9,430 | 603 | Money strings — verify `localizeMoneyText()` still owns them |

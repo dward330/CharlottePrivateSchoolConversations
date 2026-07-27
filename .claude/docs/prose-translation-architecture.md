@@ -268,6 +268,39 @@ research in §1.
 
 ---
 
+## 5b. As built (Stage 1, 2026-07-27)
+
+The mechanism above is implemented. Three details that were decided in the build
+rather than in the plan:
+
+**Two files per topic per language, not one.**
+
+```
+src/data/overlays/work/student-clubs.es.json   English + Spanish — the REVIEWABLE artifact
+src/data/overlays/student-clubs.es.json        Spanish only — what the app SHIPS
+```
+
+`i18n_build_overlay.mjs` compiles the second from the first, stripping the English
+`text` and dropping untranslated entries. The runtime never needs the English — it
+re-derives the hash from the live `src/data/**` — so shipping it would send the
+corpus to the browser twice. Measured: **35% smaller**, 80,580 → 49,479 bytes for
+Student Clubs. The work file stays committed, because a reviewer cannot check a
+translation without the original beside it.
+
+**The stamp is FNV-1a, not sha256.** The runtime must compute the identical hash
+in the browser, where `node:crypto` does not exist. It lives in its own module
+(`scripts/i18n_stamp.mjs`) so importing it has no side effects, and
+`scripts/check_hash_parity.mjs` asserts the build-time and runtime implementations
+agree — including on non-ASCII, since this prose is full of curly quotes and
+accents. **If those two ever diverge, every entry reads as stale and the locale
+silently renders English with no error.** That check is the guard against a
+total, invisible loss of translation.
+
+**Overlays load behind the existing `ready` gate.** `SchoolDetail` already
+withholds render until its notes resolve; the overlay fetch joins that same
+`Promise.all`. Resolving it later would paint English research for a frame and
+then swap it, which reads as a glitch rather than as a language.
+
 ## 6. Stage 0 — the only thing to build before any language commits
 
 **Scope: measurement and checking tooling only.**

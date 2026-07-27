@@ -29,7 +29,6 @@
  * findings, 2 = script error.
  */
 import { readdirSync, readFileSync, existsSync } from 'node:fs'
-import { createHash } from 'node:crypto'
 import { PROSE_KEYS, SKIP_KEYS, PATH_OVERRIDES } from './i18n_fields.mjs'
 
 const SLUGS = [
@@ -50,7 +49,7 @@ const QUIET = args.includes('--quiet')
 const i = args.indexOf('--lang')
 const ONLY_LANG = i === -1 ? null : args[i + 1]
 
-const stamp = (s) => createHash('sha256').update(s).digest('hex').slice(0, 8)
+import { stamp } from './i18n_stamp.mjs'
 const generic = (p) => p.replace(/\[\d+\]/g, '[]')
 
 function classify(path, leaf) {

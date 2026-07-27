@@ -20,6 +20,11 @@
  *   node scripts/i18n_extract.mjs --topic sports      # emit one topic's work file
  *   node scripts/i18n_extract.mjs --topic sports --lang es --out DIR
  *
+ * The work file carries the English beside each translation so a translator and
+ * a reviewer can see the source. It is COMMITTED and is the reviewable artifact.
+ * Compile it to the shipped overlay with i18n_build_overlay.mjs, which strips
+ * the English — the runtime re-derives the hash from src/data/** instead.
+ *
  * Exit codes: 0 = clean, 1 = unclassified fields found, 2 = script error.
  *
  * The dedupe is the point, not an optimisation. `label` alone is ~1,073
@@ -28,7 +33,7 @@
  * once with its occurrence list. Translate once, reinject everywhere.
  */
 import { writeFileSync, mkdirSync } from 'node:fs'
-import { createHash } from 'node:crypto'
+import { stamp } from './i18n_stamp.mjs'
 import { PROSE_KEYS, SKIP_KEYS, PATH_OVERRIDES } from './i18n_fields.mjs'
 
 const SLUGS = [
@@ -52,13 +57,10 @@ const val = (f, d) => { const i = args.indexOf(f); return i === -1 ? d : args[i 
 const REPORT = has('--report')
 const RESIDUAL = has('--residual')
 const LANG = val('--lang', 'es')
-const OUT = val('--out', 'i18n-work')
+const OUT = val('--out', 'src/data/overlays/work')
 const ONLY = val('--topic', null)
 
-/** Stable short hash of an English source string — the overlay's `of` stamp. */
-export function stamp(s) {
-  return createHash('sha256').update(s).digest('hex').slice(0, 8)
-}
+
 
 const words = (s) => s.trim().split(/\s+/).filter(Boolean).length
 
