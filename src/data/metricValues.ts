@@ -283,7 +283,12 @@ export const VALUE_METRICS: ValueMetric[] = [
     label: 'Participation signal',
     note: 'A breadth-of-participation figure where the school publishes one (measured differently per school — see the school’s note). Charlotte Latin’s figure is sports participation.',
     values: {
-      cannon: '~15k service hrs', // ~15,000 service hours/year school-wide
+      // Corrected Jul 2026: the ~15,000 figure came from the 2024-25 Student
+      // Profile and is superseded. The live Upper School page says "almost
+      // 10,000 service hours each year", and the 2025-26 Profile drops the stat
+      // entirely — so this is scoped to the Upper School, the page carrying it.
+      // See source-material/student-clubs/cannon/…Clubs Redesign Deep Research.md
+      cannon: '~10k service hrs', // ~10,000 service hours/year (Upper School)
       'charlotte-christian': null, // no participation figure published
       'charlotte-country-day': '~50% mentor weekly', // ~half of juniors/seniors mentor weekly
       'charlotte-latin': '~90% play a sport', // ~90% in grades 7–12 play a sanctioned sport

@@ -102,6 +102,23 @@ const RULES: Record<string, Rule[]> = {
     { match: /win.?loss/i, key: 'win-loss', label: 'Win–Loss Records' },
   ],
   'student-clubs': [
+    // The Clubs Redesign deep-research notes are structured as "1a … 1c" sections,
+    // so the ingest lifts each heading into its own subtopic. Fold them onto the
+    // existing metric keys FIRST — an unmapped "1a. Affinity & Identity Groups"
+    // would slugify into a metric of its own, i.e. a new card. These must stay
+    // ahead of the generic patterns below, since the first match wins. (Same
+    // arrangement, and the same reason, as the-arts' "1a … 1e" rules.)
+    { match: /^\W*1a\b/i, key: 'affinity', label: 'Affinity & Identity Groups' },
+    { match: /^\W*1b\b/i, key: 'service', label: 'Service & Civic Engagement' },
+    { match: /^\W*1c\b/i, key: 'honor-societies', label: 'Honor Societies' },
+    // The research notes' own provenance/confidence header and cross-cutting
+    // context — sourcing metadata rather than a finding, so it rides along with
+    // the catalog card instead of becoming one. The filename-derived subtopic
+    // ("… - Clubs Redesign Deep Research") folds here too: the file's actual
+    // findings are rendered by the structured 1a/1b/1c cards
+    // (data/clubsProgram.ts), so letting it slugify would add a sixth card to
+    // every school for material already on screen.
+    { match: /^provenance$|confidence key|^cross-cutting|^technical notes|clubs redesign deep research/i, key: 'catalog', label: 'Club Catalog & Overview' },
     { match: /honor societ/i, key: 'honor-societies', label: 'Honor Societies' },
     { match: /affinity|identity|diversity|belonging|global awareness/i, key: 'affinity', label: 'Affinity & Identity Groups' },
     { match: /publication|student media|\bmedia\b/i, key: 'media', label: 'Publications & Media' },

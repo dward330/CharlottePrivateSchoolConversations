@@ -20,6 +20,18 @@ import { clubClusters } from '../data/clubClusters.ts'
 import { ClubClustersBody } from '../components/ClubClusters.tsx'
 import { clubCatalog } from '../data/clubCatalog.ts'
 import { ClubCatalogBody } from '../components/ClubCatalog.tsx'
+import {
+  clubsProgram,
+  CLUBS_CARDS,
+  clubsCardTitle,
+  type ClubsProgram,
+} from '../data/clubsProgram.ts'
+import {
+  AffinityBody,
+  ServiceBody,
+  // Sports also exports a HonorsBody (athletic honors); alias to disambiguate.
+  HonorsBody as ClubsHonorsBody,
+} from '../components/ClubsProgram.tsx'
 import { courseOfferings } from '../data/courseOfferings.ts'
 import { CourseOfferingsBody } from '../components/CourseOfferings.tsx'
 import { sportsProgram, SPORTS_CARDS, type SportsProgram } from '../data/sportsProgram.ts'
@@ -48,10 +60,6 @@ import {
 import { WelcomeVideo, PlayIcon } from '../components/WelcomeVideo.tsx'
 
 type Loaded = Record<string, MetricGroup[]>
-
-/* Student-clubs metrics whose named orgs Cannon's consolidated Club Catalog card
-   absorbs, so they don't render as standalone cards on the Cannon page. */
-const MERGED_INTO_CANNON_CATALOG = new Set(['affinity', 'lower-middle', 'service'])
 
 /* Per-school card-order overrides, keyed slug → topic → metric-key order. Keys
    not listed keep their existing order after the listed ones. School-specific so
@@ -128,6 +136,26 @@ function ArtsCardBody({
       return <VisualArtsBody data={program.visual!} />
     case 'verdict':
       return <VerdictBody data={program.verdict!} />
+  }
+}
+
+/* Maps a Clubs card key to its body renderer — same explicit dispatch as
+   SportsCardBody and ArtsCardBody, for the same reason: each card is a
+   purpose-built layout rather than a shared prose body. */
+function ClubsCardBody({
+  program,
+  cardKey,
+}: {
+  program: ClubsProgram
+  cardKey: (typeof CLUBS_CARDS)[number]['key']
+}) {
+  switch (cardKey) {
+    case 'affinity':
+      return <AffinityBody data={program.affinity!} />
+    case 'service':
+      return <ServiceBody data={program.service!} />
+    case 'honors':
+      return <ClubsHonorsBody data={program.honors!} />
   }
 }
 
@@ -313,20 +341,15 @@ export function SchoolDetail({ slug }: { slug: string }) {
           )}
           {covered.map((t) => {
             const allGroups = loaded[t.slug] ?? []
-            /* Cannon's Club Catalog card is a consolidated view: it absorbs the
-               named orgs from the Affinity, Lower/Middle, and Service cards (see
-               data/clubCatalog.ts), so those three don't also render standalone
-               on the Cannon Student Clubs page. Cannon-only — every other school
-               keeps all its cards. */
-            /* Per-school overrides: Cannon's Student Clubs card absorbs the
-               merged sections, and some schools use a school-specific card order
-               for a topic. Other schools use allGroups as-is. */
+            /* Per-school overrides: some schools use a school-specific card
+               order for a topic. Other schools use allGroups as-is.
+
+               Cannon used to need an extra filter here, because its consolidated
+               Club Catalog card absorbs the named orgs from the Affinity,
+               Lower/Middle and Service sub-sections. The Student Clubs redesign
+               subsumes it: the prose loop is now narrowed to Academic Clubs and
+               the Catalog for EVERY school, which drops those keys anyway. */
             let groups = allGroups
-            if (slug === 'cannon' && t.slug === 'student-clubs') {
-              groups = groups.filter(
-                (g) => !MERGED_INTO_CANNON_CATALOG.has(g.metric.key),
-              )
-            }
             const schoolOrder = SCHOOL_SECTION_ORDER[slug]?.[t.slug]
             if (schoolOrder) {
               const rank = (k: string) => {
@@ -367,13 +390,40 @@ export function SchoolDetail({ slug }: { slug: string }) {
               : []
             const arts = artsCardList.length > 0 ? artsEntry : undefined
             const artsCards = artsCardList
+            /* Student Clubs differs from Sports and The Arts: the redesign
+               replaces only THREE of the five sub-sections (1a Affinity,
+               1b Service, 1c Honor Societies) while Academic & Competitive
+               Clubs and Club Catalog & Overview keep rendering from their own
+               structured layers below. So this is a merge, not a substitution —
+               the structured cards render first, and the prose loop is filtered
+               down to the two that remain.
+
+               A school with no data for a card omits it entirely rather than
+               rendering it empty: Davidson Day publishes no affinity roster and
+               no honor-society record, so it shows 1b alone. */
+            const clubs = t.slug === 'student-clubs' ? clubsProgram(slug) : undefined
+            const clubsCards = clubs
+              ? CLUBS_CARDS.filter((c) => clubs[c.key] != null)
+              : []
+            /* The two prose cards Student Clubs keeps: everything the redesign
+               replaced (affinity, service, honor-societies) plus the legacy
+               sub-sections it removed outright (Publications & Media, Signature
+               Programs & Traditions, Lower/Middle School Activities) drop out of
+               the prose loop. Only Academic & Competitive Clubs and the Club
+               Catalog survive, each with its own structured body. */
+            const clubsProseKeys = new Set(['academic-clubs', 'catalog'])
+            if (clubs) {
+              groups = groups.filter((g) => clubsProseKeys.has(g.metric.key))
+            }
             const cardCount = offerings
               ? offerings.divisions.length
               : sports
                 ? sportsCards.length
                 : arts
                   ? artsCards.length
-                  : groups.length
+                  : clubs
+                    ? clubsCards.length + groups.length
+                    : groups.length
             return (
               <section key={t.slug} id={`topic-${t.slug}`} className="topic-section">
                 <div className="topic-section-head">
@@ -450,9 +500,6 @@ export function SchoolDetail({ slug }: { slug: string }) {
                         <BlueprintCorners />
                         <summary>
                           <span className="note-card-head">
-                            <span className="course-kicker">
-                              {card.num} · {card.kicker}
-                            </span>
                             <span className="topic-title">{card.title}</span>
                             <span className="topic-teaser">
                               {sports[card.key]!.headline}
@@ -483,9 +530,6 @@ export function SchoolDetail({ slug }: { slug: string }) {
                         <BlueprintCorners />
                         <summary>
                           <span className="note-card-head">
-                            <span className="course-kicker">
-                              {card.num} · {card.kicker}
-                            </span>
                             <span className="topic-title">
                               {artsCardTitle(slug, card)}
                             </span>
@@ -504,6 +548,41 @@ export function SchoolDetail({ slug }: { slug: string }) {
                 )}
 
                 <div className="note-cards">
+                  {/* Student Clubs: the three redesigned cards, in the fixed
+                      1a–1c order, ahead of the two prose cards that remain.
+                      Cards a school has no data for are absent from clubsCards
+                      and simply do not render.
+
+                      These render INSIDE the shared .note-cards grid rather than
+                      in a grid of their own: two adjacent grids each start their
+                      own rows, so the prose cards below could not see these
+                      cards' row heights and collided with the tallest of them.
+                      One grid means all five cards flow as siblings. */}
+                  {ready &&
+                    t.slug === 'student-clubs' &&
+                    clubs &&
+                    clubsCards.map((card) => (
+                      <details
+                        key={card.key}
+                        className="note-card note-card-report note-card-clubs"
+                      >
+                        <BlueprintCorners />
+                        <summary>
+                          <span className="note-card-head">
+                            <span className="topic-title">
+                              {clubsCardTitle(slug, card)}
+                            </span>
+                            <span className="topic-teaser">
+                              {clubs[card.key]!.headline}
+                            </span>
+                          </span>
+                          <span className="plusmark"><PlusIcon /></span>
+                        </summary>
+                        <div className="note-card-body">
+                          <ClubsCardBody program={clubs} cardKey={card.key} />
+                        </div>
+                      </details>
+                    ))}
                   {(
                     (t.slug === 'course-offerings' && offerings) ||
                     (t.slug === 'sports' && sports) ||

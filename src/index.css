@@ -2689,3 +2689,234 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   .arts-scroll { overflow-x: auto; }
   .arts-ledger { min-width: 560px; }
 }
+
+/* ============================================================================
+   Student Clubs research area — the three redesigned cards
+   (components/ClubsProgram.tsx, data/clubsProgram.ts). Recreates the Claude
+   Design "Clubs Section Redesign" with this app's tokens. Reuses the existing
+   .tag-* / .srcrow primitives so these read as the same system as the Sports,
+   Arts and Club Catalog cards. The other two Student Clubs cards — Academic &
+   Competitive Clubs and Club Catalog & Overview — keep their own styles above.
+   ============================================================================ */
+
+.clubs-body { font-size: 14px; }
+
+.clubs-lead {
+  margin: 0 0 16px;
+  font-size: 14.5px;
+  line-height: 1.5;
+}
+
+.clubs-h {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.clubs-p { margin: 0 0 10px; font-size: 13px; line-height: 1.6; }
+
+/* The honesty flags: COUNT FLAG / GAP / INDIVIDUAL — NOT A CLUB. Deliberately
+   quiet — they qualify the card's claims rather than competing with them. */
+.clubs-flag {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  margin-bottom: 14px;
+  font-size: 12.5px;
+  line-height: 1.55;
+}
+.clubs-flag-tag { flex: none; font-size: 10px; }
+
+/* -- 1a · the ecosystem map ----------------------------------------------- */
+
+/* The umbrella band: a filled accent bar sitting directly on top of the roster
+   grid, so the roster reads as hanging beneath it. */
+.clubs-umbrella {
+  background: var(--accent-900);
+  color: var(--bg);
+  padding: 12px 16px;
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+.clubs-umbrella-name {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.clubs-umbrella-detail { font-size: 12.5px; opacity: 0.85; line-height: 1.5; }
+
+/* Hairline group grid, matching .sports-stats / .arts-divisions. */
+.clubs-roster {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  margin-bottom: 16px;
+}
+/* When an umbrella band sits above, drop the shared top border so the two read
+   as one object rather than two stacked boxes. */
+.clubs-roster.is-under-umbrella { border-top: none; }
+.clubs-group { background: var(--bg); padding: 9px 12px; }
+.clubs-group-name { font-family: var(--heading); font-size: 15px; }
+.clubs-group-detail { font-size: 12px; line-height: 1.45; }
+
+/* Division / parent strips. */
+.clubs-strips {
+  display: grid;
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  margin-bottom: 16px;
+}
+.clubs-strip { background: var(--bg); padding: 12px 16px; }
+.clubs-strip-head {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 6px;
+  margin-bottom: 8px;
+}
+.clubs-strip-head .text-muted {
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+.clubs-strip-text { font-size: 12.5px; line-height: 1.6; }
+
+/* The leadership arm — label column + prose, per the design. */
+.clubs-leadership {
+  display: grid;
+  grid-template-columns: 190px 1fr;
+  gap: 12px;
+  font-size: 13px;
+  line-height: 1.55;
+  border: 1px solid var(--border);
+  padding: 12px 16px;
+  margin-bottom: 12px;
+}
+.clubs-leadership-label { font-family: var(--heading); font-size: 15px; }
+
+/* -- 1b · signature programs, scale-led ----------------------------------- */
+
+.clubs-programs {
+  display: grid;
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  margin-bottom: 18px;
+}
+.clubs-program { background: var(--bg); padding: 16px; }
+.clubs-program-val {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1;
+  color: var(--ink, var(--text));
+}
+.clubs-program-vallabel {
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin: 4px 0 10px;
+  line-height: 1.4;
+}
+.clubs-program-name {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 17px;
+  border-top: 1px solid var(--border);
+  padding-top: 10px;
+}
+.clubs-program-detail { margin: 6px 0 0; font-size: 12.5px; line-height: 1.55; }
+.clubs-program-src { font-size: 11px; margin-top: 8px; line-height: 1.5; }
+.clubs-src-tag { font-size: 9px; }
+
+.clubs-footnote { margin-bottom: 14px; }
+
+/* -- 1c · the recognition ledger ------------------------------------------ */
+
+/* The ledger keeps its column widths and scrolls sideways rather than crushing
+   — the wrapper owns the overflow (same arrangement as .arts-scroll). */
+.clubs-ledger-wrap { overflow-x: auto; margin-bottom: 14px; }
+.clubs-ledger {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+.clubs-th {
+  text-align: left;
+  color: var(--muted);
+  font-weight: 600;
+  padding: 8px 10px;
+  font-size: 10.5px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+.clubs-th-society { width: 27%; }
+.clubs-th-div { width: 16%; }
+.clubs-th-feeds { width: 20%; }
+.clubs-td {
+  padding: 9px 10px;
+  border-bottom: 1px solid var(--border);
+  line-height: 1.5;
+  vertical-align: top;
+}
+.clubs-td-name { font-weight: 600; }
+
+/* Adjacent recognition — prizes and distinctions that are NOT societies. */
+.clubs-adjacent { margin-bottom: 14px; }
+.clubs-adjacent-row {
+  display: grid;
+  grid-template-columns: 190px 1fr;
+  gap: 12px;
+  font-size: 13px;
+  line-height: 1.55;
+  padding: 9px 0;
+  border-top: 1px solid var(--border);
+}
+.clubs-adjacent-label { font-family: var(--heading); font-size: 15px; }
+
+/* -- source row ----------------------------------------------------------- */
+
+.clubs-src {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+  flex-wrap: wrap;
+  border-top: 1px solid var(--border);
+  padding-top: 12px;
+  font-size: 12px;
+}
+.clubs-src .tag-outline { font-size: 10px; flex: none; }
+
+/* The Clubs cards are wide, structured layouts: never reflow them into the
+   two-column prose columns .note-card[open] applies by default. */
+.note-card-clubs[open] .note-card-body { column-count: 1; }
+
+@media (max-width: 900px) {
+  .clubs-roster { grid-template-columns: 1fr 1fr; }
+  .clubs-strips,
+  .clubs-programs { grid-template-columns: 1fr !important; }
+  .clubs-leadership,
+  .clubs-adjacent-row { grid-template-columns: 1fr; gap: 4px; }
+  /* The ledger scrolls sideways rather than crushing its four columns. */
+  .clubs-ledger { min-width: 620px; }
+}
+
+@media (max-width: 600px) {
+  .clubs-roster { grid-template-columns: 1fr; }
+}
