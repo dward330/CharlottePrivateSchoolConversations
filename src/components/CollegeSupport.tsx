@@ -83,7 +83,9 @@ function Flags({ flags }: { flags: CsFlag[] }) {
           <span className="tag-neutral cs-flag-tag">
             {f.label ?? FLAG_LABEL[f.kind]}
           </span>
-          <span className="text-muted">{f.text}</span>
+          <span className="text-muted">
+            <RichText text={f.text} />
+          </span>
         </div>
       ))}
     </>
@@ -142,9 +144,19 @@ function Rows({ rows }: { rows: CsRow[] }) {
   )
 }
 
-/** A trailing note beneath a block — modeling caveats, gaps, discrepancies. */
-function Note({ children }: { children: React.ReactNode }) {
-  return <p className="cs-note text-muted">{children}</p>
+/**
+ * A trailing note beneath a block — modeling caveats, gaps, discrepancies.
+ *
+ * Takes `text` rather than children so every note gets `**bold**` handling from
+ * one place; the caveat in 1c passes children instead, because it prepends its
+ * own bold label.
+ */
+function Note({ text, children }: { text?: string; children?: React.ReactNode }) {
+  return (
+    <p className="cs-note text-muted">
+      {text != null ? <RichText text={text} /> : children}
+    </p>
+  )
 }
 
 /**
@@ -208,7 +220,7 @@ export function TranscriptBody({ data }: { data: Transcript }) {
                 </tbody>
               </table>
             </div>
-            {data.meritNote && <Note>{data.meritNote}</Note>}
+            {data.meritNote && <Note text={data.meritNote} />}
           </div>
         )}
 
@@ -323,7 +335,7 @@ export function CounselingBody({ data }: { data: Counseling }) {
                 </div>
               ))}
             </div>
-            {data.mechanicsNote && <Note>{data.mechanicsNote}</Note>}
+            {data.mechanicsNote && <Note text={data.mechanicsNote} />}
           </div>
         )}
 
@@ -465,7 +477,7 @@ export function OutcomesBody({ data }: { data: Outcomes }) {
                 </tbody>
               </table>
             </div>
-            {data.bucketsNote && <Note>{data.bucketsNote}</Note>}
+            {data.bucketsNote && <Note text={data.bucketsNote} />}
           </div>
         )}
 
@@ -484,7 +496,7 @@ export function OutcomesBody({ data }: { data: Outcomes }) {
               </span>
             ))}
           </div>
-          {data.scholarshipsNote && <Note>{data.scholarshipsNote}</Note>}
+          {data.scholarshipsNote && <Note text={data.scholarshipsNote} />}
         </div>
       )}
 
@@ -494,7 +506,8 @@ export function OutcomesBody({ data }: { data: Outcomes }) {
           rather than a quiet footnote. */}
       {data.caveat && (
         <p className="cs-note text-muted">
-          <strong className="cs-note-strong">Honest caveat:</strong> {data.caveat}
+          <strong className="cs-note-strong">Honest caveat:</strong>{' '}
+          <RichText text={data.caveat} />
         </p>
       )}
 
@@ -528,7 +541,7 @@ export function EdgeBody({ data }: { data: Edge }) {
                 </div>
               ))}
             </div>
-            {l.note && <Note>{l.note}</Note>}
+            {l.note && <Note text={l.note} />}
           </div>
         ))}
       </div>
@@ -585,7 +598,7 @@ export function WholeClassBody({ data }: { data: WholeClass }) {
               </tbody>
             </table>
           </div>
-          {t.note && <Note>{t.note}</Note>}
+          {t.note && <Note text={t.note} />}
         </div>
       ))}
 
@@ -609,7 +622,7 @@ export function WholeClassBody({ data }: { data: WholeClass }) {
               </div>
             ))}
           </div>
-          {data.gpaNote && <Note>{data.gpaNote}</Note>}
+          {data.gpaNote && <Note text={data.gpaNote} />}
         </>
       )}
 
@@ -620,7 +633,7 @@ export function WholeClassBody({ data }: { data: WholeClass }) {
               {data.supportTitle ?? 'Learning differences through the process'}
             </Heading>
             <Rows rows={data.support} />
-            {data.supportNote && <Note>{data.supportNote}</Note>}
+            {data.supportNote && <Note text={data.supportNote} />}
           </div>
         )}
 
