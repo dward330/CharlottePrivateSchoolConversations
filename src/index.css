@@ -359,13 +359,17 @@ button { font: inherit; }
 main { flex: 1; }
 
 /* RTL locales (ar, fa) mirror the chrome — nav, footer, card grids, corner marks.
-   The research content itself is deliberately NOT translated (see the i18n note
-   in CLAUDE.md), so it stays an LTR run: left as RTL, the bidi algorithm moves a
-   sentence's trailing period to the front (".side"), and figures like "6 of 7"
-   reverse. Isolating the page body pins that English text to LTR while the
-   surrounding layout still flips. Remove this when a locale's prose is translated
-   at the data layer. */
-:root[dir='rtl'] main {
+   But the research prose ships on its own schedule (see the i18n note in
+   CLAUDE.md), so an RTL locale can have a translated UI wrapped around English
+   content. Left as RTL, the bidi algorithm mangles that English: a sentence's
+   trailing period jumps to the front (".side"), figures like "6 of 7" reverse.
+   Pinning the body to LTR fixes the text while the layout around it still flips.
+
+   Keyed off data-prose — the language the *content* is in, set by syncHtml() in
+   src/lib/i18n.ts — not off dir. So this applies only while prose is still
+   English, and stops applying on its own once a locale is added to
+   PROSE_TRANSLATED. No cleanup task, no rule to remember to delete. */
+:root[dir='rtl'][data-prose='en'] main {
   direction: ltr;
   unicode-bidi: isolate;
 }

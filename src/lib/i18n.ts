@@ -70,11 +70,31 @@ export function langCodeOf(code: string | undefined): string {
  * Locales with a catalog in src/locales/. Everything else in SUPPORTED is
  * listed with a COMING SOON tag and renders English until its file lands —
  * adding `fr.json` and `'fr'` here is the whole job of shipping a language.
+ *
+ * This is UI chrome only. Whether a locale's *research prose* is translated is
+ * tracked separately in PROSE_TRANSLATED below — the two layers ship on
+ * different schedules by design (see the i18n note in CLAUDE.md).
  */
 export const TRANSLATED: readonly string[] = ['en', 'es']
 
 export function isTranslated(code: string): boolean {
   return TRANSLATED.includes(code)
+}
+
+/**
+ * Locales whose *research prose* (src/data/**) is translated, as opposed to the
+ * UI chrome in TRANSLATED above. Deliberately a separate list: Spanish has full
+ * chrome coverage today while its ~165k words of school prose are still English.
+ *
+ * Only consumer is the `dir` attribute below, which drives one CSS rule. An RTL
+ * locale whose prose is still English has to render that prose as an LTR run,
+ * or the bidi algorithm mangles it (see `[data-prose='en'] main` in index.css).
+ * Adding a locale here retires that rule for it automatically.
+ */
+export const PROSE_TRANSLATED: readonly string[] = []
+
+export function isProseTranslated(code: string): boolean {
+  return PROSE_TRANSLATED.includes(code)
 }
 
 // Catalogs load on demand so ten locales don't ride along in the initial bundle.
@@ -195,11 +215,22 @@ function persist(code: string) {
 // Document-level effects of the active locale
 // ---------------------------------------------------------------------------
 
-/** Keep <html lang>/<html dir> in step, for screen readers and RTL mirroring. */
+/**
+ * Keep <html lang>/<html dir> in step, for screen readers and RTL mirroring.
+ *
+ * Also publishes `data-prose`, the language the research content is actually
+ * written in — 'en' until that locale's prose is translated at the data layer.
+ * CSS keys the RTL prose workaround off this rather than off the locale, so the
+ * workaround retires itself the moment the prose lands.
+ */
 function syncHtml(code: string) {
   const lang = langOf(code)
   document.documentElement.setAttribute('lang', lang.code)
   document.documentElement.setAttribute('dir', lang.rtl ? 'rtl' : 'ltr')
+  document.documentElement.setAttribute(
+    'data-prose',
+    isProseTranslated(lang.code) ? lang.code : FALLBACK_LANG,
+  )
 }
 
 /**
