@@ -2920,3 +2920,382 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
 @media (max-width: 600px) {
   .clubs-roster { grid-template-columns: 1fr; }
 }
+
+/* ============================================================================
+   College Support research area — the six redesigned cards
+   (components/CollegeSupport.tsx, data/collegeSupport.ts). Recreates the Claude
+   Design "College Support Section Redesign" with this app's tokens. Reuses the
+   existing .tag-* / .srcrow primitives so these read as the same system as the
+   Sports, Arts and Clubs cards.
+
+   This area is data-forward, not photo-driven: no image slots. The argument is
+   carried by stat strips, ledgers, percentile tables, and timelines.
+   ============================================================================ */
+
+.cs-body {
+  font-size: 14px;
+  /* Local neutral steps, matching .fa-report — used by the filled bands and
+     table header rows so both themes get a real surface step. */
+  --neutral-100: color-mix(in srgb, var(--text) 7%, var(--bg));
+}
+
+.cs-lead { margin: 0 0 16px; font-size: 14.5px; line-height: 1.5; }
+
+.cs-h {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.cs-h-hint { font-weight: 400; letter-spacing: 0; text-transform: none; }
+
+.cs-note { margin: 8px 0 16px; font-size: 12.5px; line-height: 1.55; }
+.cs-note-strong { color: var(--text); }
+
+/* Evidence qualifiers. Unlike the Clubs flags these all render — in College
+   Support what a school declines to publish is itself parent-facing content. */
+.cs-flag {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  margin-bottom: 14px;
+  font-size: 12.5px;
+  line-height: 1.55;
+}
+.cs-flag-tag { flex: none; font-size: 10px; }
+.cs-inline-tag { font-size: 9px; margin-left: 6px; vertical-align: 1px; }
+
+/* -- stat strip ------------------------------------------------------------ */
+
+.cs-stats {
+  display: grid;
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  margin-bottom: 20px;
+}
+.cs-stat { background: var(--bg); padding: 12px 14px; }
+.cs-stat-val {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 1.1;
+}
+.cs-stat-label { font-size: 12px; margin-top: 2px; line-height: 1.4; }
+
+/* -- the two-column split the cards keep returning to ---------------------- */
+
+.cs-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  align-items: start;
+  margin-bottom: 16px;
+}
+/* 1b pairs a wide mechanics grid with a narrow reach column. */
+.cs-split-wide { grid-template-columns: 1fr 300px; }
+/* Sub-blocks are individually optional, so a split regularly ends up holding a
+   single child — a school with no National Merit ledger, or no test tables.
+   Let that lone child span the full width instead of stranding a dead column
+   beside it and squeezing its text into half the card. */
+.cs-split > :only-child { grid-column: 1 / -1; }
+
+/* -- label/text detail rows ------------------------------------------------ */
+
+.cs-rows { display: flex; flex-direction: column; font-size: 13px; }
+.cs-row {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  gap: 12px;
+  padding: 9px 0;
+  border-bottom: 1px solid var(--border);
+  line-height: 1.55;
+}
+.cs-row:last-child { border-bottom: none; }
+.cs-row-label { font-family: var(--heading); font-size: 14px; }
+
+/* -- ledgers & tables ------------------------------------------------------ */
+
+.cs-ledger-wrap { overflow-x: auto; }
+
+.cs-ledger,
+.cs-scores {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid var(--border);
+  font-size: 13px;
+}
+.cs-th {
+  background: var(--neutral-100);
+  color: var(--muted);
+  font-family: var(--sans);
+  font-weight: 600;
+  font-size: 10.5px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--border);
+}
+.cs-th-year { width: 90px; }
+.cs-th-count { width: 80px; text-align: right; }
+.cs-td {
+  padding: 9px 12px;
+  border-bottom: 1px solid var(--border);
+  line-height: 1.5;
+  vertical-align: top;
+}
+.cs-ledger tr:last-child .cs-td,
+.cs-scores tr:last-child .cs-td { border-bottom: none; }
+.cs-td-year { font-family: var(--heading); font-weight: 600; font-size: 15px; }
+.cs-td-count {
+  text-align: right;
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 16px;
+  white-space: nowrap;
+}
+.cs-bucket-note { font-size: 12px; }
+
+/* Percentile tables: the median and mean columns carry the emphasis, because
+   those are the two figures a parent actually benchmarks a child against. */
+.cs-th-metric { width: 120px; }
+.cs-th-pct { text-align: center; }
+.cs-td-metric { font-family: var(--heading); font-weight: 600; }
+.cs-td-pct { text-align: center; }
+.cs-td-pct.is-median { font-family: var(--heading); font-weight: 600; font-size: 15px; }
+.cs-td-pct.is-mean { font-family: var(--heading); font-weight: 600; }
+
+/* -- the filled band (grade-trust, scholarships) --------------------------- */
+
+.cs-band {
+  border: 1px solid var(--border);
+  background: var(--neutral-100);
+  padding: 16px;
+  margin-bottom: 16px;
+}
+.cs-band-grid { display: grid; gap: 24px; font-size: 13px; line-height: 1.55; }
+.cs-band-cell { display: block; }
+.cs-band-label { font-family: var(--heading); font-size: 14px; display: block; }
+
+.cs-chips { display: flex; flex-wrap: wrap; gap: 8px 10px; }
+.cs-chips .tag-accent,
+.cs-chips .tag-neutral { font-size: 12px; }
+
+/* -- 1b · roster & timeline ------------------------------------------------ */
+
+.cs-roster,
+.cs-timeline {
+  display: grid;
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  margin-bottom: 20px;
+}
+.cs-counselor { background: var(--bg); padding: 12px 14px; }
+.cs-counselor-role {
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+}
+.cs-counselor-name { font-family: var(--heading); font-weight: 600; font-size: 15px; }
+.cs-counselor-detail { font-size: 12px; line-height: 1.4; margin-top: 2px; }
+
+.cs-year { background: var(--bg); padding: 14px; }
+.cs-year-head {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 6px;
+  margin-bottom: 8px;
+}
+.cs-year-num {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--accent-700);
+}
+.cs-year-intensity {
+  font-size: 10.5px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.cs-year-items {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 12.5px;
+  line-height: 1.5;
+}
+
+/* -- 1b · mechanics & reach ------------------------------------------------ */
+
+.cs-mechanics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+}
+.cs-mechanic {
+  background: var(--bg);
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+}
+.cs-check { color: var(--accent-700); font-family: var(--heading); font-weight: 600; }
+.cs-mechanic-name { font-family: var(--heading); font-size: 14px; }
+
+.cs-reach { display: flex; flex-direction: column; font-size: 12.5px; line-height: 1.5; }
+.cs-reach-row { padding: 7px 0; border-bottom: 1px solid var(--border); }
+.cs-reach-row:last-child { border-bottom: none; }
+.cs-reach-row strong { font-family: var(--heading); font-size: 15px; }
+
+/* -- 1c · the acceptance list ---------------------------------------------- */
+
+.cs-filters { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
+.cs-filter {
+  font-family: var(--heading);
+  font-size: 12px;
+  letter-spacing: 0.03em;
+  padding: 5px 9px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  cursor: pointer;
+  line-height: 1.1;
+}
+.cs-filter:hover { border-color: var(--accent); color: var(--accent-700); }
+.cs-filter.is-active {
+  background: var(--accent-900);
+  color: var(--bg);
+  border-color: var(--accent-900);
+}
+
+.cs-search {
+  width: 100%;
+  box-sizing: border-box;
+  font-family: var(--sans);
+  font-size: 13px;
+  padding: 7px 10px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  margin-bottom: 8px;
+}
+.cs-search:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
+
+.cs-count { font-size: 11.5px; margin-bottom: 6px; }
+
+.cs-college-list {
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid var(--border);
+}
+.cs-college {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 10px;
+  align-items: baseline;
+  padding: 7px 12px;
+  border-bottom: 1px solid var(--border);
+  font-size: 13px;
+}
+.cs-college:last-child { border-bottom: none; }
+/* Bold marks an enrolling school, mirroring how the schools print their own
+   lists — it is the only enrollment signal most of them publish. */
+.cs-college-name.is-enrolling { font-weight: 600; }
+.cs-college-rank { font-size: 11.5px; white-space: nowrap; }
+.cs-college-empty { padding: 16px 12px; font-size: 13px; }
+
+/* -- 1d · levers & 1f · verdict -------------------------------------------- */
+
+.cs-lever { display: flex; flex-direction: column; font-size: 13px; line-height: 1.55; }
+.cs-lever-row {
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  gap: 10px;
+  padding: 9px 0;
+  border-bottom: 1px solid var(--border);
+}
+.cs-lever-row:last-child { border-bottom: none; }
+.cs-glyph { color: var(--accent-700); font-family: var(--heading); font-weight: 600; }
+
+/* -- 1e · quintiles -------------------------------------------------------- */
+
+.cs-scoreblock { margin-bottom: 16px; }
+
+.cs-quintiles {
+  display: grid;
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  margin-bottom: 8px;
+}
+.cs-quintile { background: var(--bg); padding: 12px 14px; }
+.cs-quintile-label {
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+}
+.cs-quintile-gpa { font-family: var(--heading); font-weight: 600; font-size: 20px; }
+.cs-quintile-detail { font-size: 12px; margin-top: 2px; line-height: 1.4; }
+
+/* -- 1f · the tour checklist ----------------------------------------------- */
+
+.cs-checklist { display: flex; flex-direction: column; font-size: 13px; line-height: 1.55; }
+.cs-check-row {
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  gap: 10px;
+  padding: 9px 0;
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+  align-items: start;
+}
+.cs-check-row:last-child { border-bottom: none; }
+.cs-checkbox { accent-color: var(--accent); margin: 2px 0 0; width: 15px; height: 15px; }
+
+/* -- source row ------------------------------------------------------------ */
+
+.cs-src {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+  flex-wrap: wrap;
+  border-top: 1px solid var(--border);
+  padding-top: 12px;
+  font-size: 12px;
+}
+.cs-src .tag-outline { font-size: 10px; flex: none; }
+
+/* The College Support cards are wide, structured layouts: never reflow them
+   into the two-column prose columns .note-card[open] applies by default. */
+.note-card-cs[open] .note-card-body { column-count: 1; }
+
+@media (max-width: 900px) {
+  .cs-stats { grid-template-columns: 1fr 1fr !important; }
+  .cs-split,
+  .cs-split-wide,
+  .cs-roster,
+  .cs-timeline,
+  .cs-quintiles,
+  .cs-band-grid { grid-template-columns: 1fr !important; }
+  .cs-mechanics { grid-template-columns: 1fr 1fr; }
+  .cs-row { grid-template-columns: 1fr; gap: 4px; }
+  /* Tables scroll sideways rather than crushing their columns. */
+  .cs-scores { min-width: 620px; }
+  .cs-ledger { min-width: 420px; }
+}
+
+@media (max-width: 600px) {
+  .cs-stats { grid-template-columns: 1fr !important; }
+  .cs-mechanics { grid-template-columns: 1fr; }
+}

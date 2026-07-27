@@ -57,6 +57,20 @@ import {
   VisualArtsBody,
   VerdictBody,
 } from '../components/ArtsProgram.tsx'
+import {
+  collegeSupportProgram,
+  COLLEGE_SUPPORT_CARDS,
+  type CollegeSupportProgram,
+} from '../data/collegeSupport.ts'
+import {
+  TranscriptBody,
+  CounselingBody,
+  OutcomesBody,
+  EdgeBody,
+  WholeClassBody,
+  // Arts also exports a VerdictBody; alias to disambiguate.
+  VerdictBody as CsVerdictBody,
+} from '../components/CollegeSupport.tsx'
 import { WelcomeVideo, PlayIcon } from '../components/WelcomeVideo.tsx'
 
 type Loaded = Record<string, MetricGroup[]>
@@ -156,6 +170,32 @@ function ClubsCardBody({
       return <ServiceBody data={program.service!} />
     case 'honors':
       return <ClubsHonorsBody data={program.honors!} />
+  }
+}
+
+/* Maps a College Support card key to its body renderer — same explicit dispatch
+   as SportsCardBody / ArtsCardBody / ClubsCardBody, for the same reason: each
+   card is a purpose-built layout rather than a shared prose body. */
+function CollegeSupportCardBody({
+  program,
+  cardKey,
+}: {
+  program: CollegeSupportProgram
+  cardKey: (typeof COLLEGE_SUPPORT_CARDS)[number]['key']
+}) {
+  switch (cardKey) {
+    case 'transcript':
+      return <TranscriptBody data={program.transcript!} />
+    case 'counseling':
+      return <CounselingBody data={program.counseling!} />
+    case 'outcomes':
+      return <OutcomesBody data={program.outcomes!} />
+    case 'edge':
+      return <EdgeBody data={program.edge!} />
+    case 'wholeClass':
+      return <WholeClassBody data={program.wholeClass!} />
+    case 'verdict':
+      return <CsVerdictBody data={program.verdict!} />
   }
 }
 
@@ -415,15 +455,35 @@ export function SchoolDetail({ slug }: { slug: string }) {
             if (clubs) {
               groups = groups.filter((g) => clubsProseKeys.has(g.metric.key))
             }
+            /* College Support: a full substitution like Sports and The Arts —
+               the six consolidated cards replace ALL eight ingested prose
+               sub-sections (Academic Case, Application Support, Counseling
+               Engine, Fit & Rank, Institutional Leverage, Placement Outcomes,
+               Standing Out, In-Depth Report), which are the very topics the
+               redesign merged.
+
+               A school whose structured entry has no cards at all must keep
+               rendering its ingested prose: an entry that is present but empty
+               is still truthy, and would otherwise suppress the prose and leave
+               the whole section blank. */
+            const csEntry =
+              t.slug === 'college-support' ? collegeSupportProgram(slug) : undefined
+            const csCardList = csEntry
+              ? COLLEGE_SUPPORT_CARDS.filter((c) => csEntry[c.key] != null)
+              : []
+            const collegeSupport = csCardList.length > 0 ? csEntry : undefined
+            const csCards = csCardList
             const cardCount = offerings
               ? offerings.divisions.length
               : sports
                 ? sportsCards.length
                 : arts
                   ? artsCards.length
-                  : clubs
-                    ? clubsCards.length + groups.length
-                    : groups.length
+                  : collegeSupport
+                    ? csCards.length
+                    : clubs
+                      ? clubsCards.length + groups.length
+                      : groups.length
             return (
               <section key={t.slug} id={`topic-${t.slug}`} className="topic-section">
                 <div className="topic-section-head">
@@ -547,6 +607,42 @@ export function SchoolDetail({ slug }: { slug: string }) {
                   </div>
                 )}
 
+                {/* College Support: six consolidated cards built from the
+                    structured program layer, in the fixed order set by
+                    COLLEGE_SUPPORT_CARDS. The design reference labels these
+                    1a–1f for review only — the shipped cards show the topic
+                    name alone, with no letter/number prefix.
+
+                    A school with no data for a card omits it entirely rather
+                    than rendering it with placeholder content. */}
+                {ready && t.slug === 'college-support' && collegeSupport && (
+                  <div className="note-cards">
+                    {csCards.map((card) => (
+                      <details
+                        key={card.key}
+                        className="note-card note-card-report note-card-cs"
+                      >
+                        <BlueprintCorners />
+                        <summary>
+                          <span className="note-card-head">
+                            <span className="topic-title">{card.title}</span>
+                            <span className="topic-teaser">
+                              {collegeSupport[card.key]!.headline}
+                            </span>
+                          </span>
+                          <span className="plusmark"><PlusIcon /></span>
+                        </summary>
+                        <div className="note-card-body">
+                          <CollegeSupportCardBody
+                            program={collegeSupport}
+                            cardKey={card.key}
+                          />
+                        </div>
+                      </details>
+                    ))}
+                  </div>
+                )}
+
                 <div className="note-cards">
                   {/* Student Clubs: the three redesigned cards, in the fixed
                       1a–1c order, ahead of the two prose cards that remain.
@@ -586,7 +682,8 @@ export function SchoolDetail({ slug }: { slug: string }) {
                   {(
                     (t.slug === 'course-offerings' && offerings) ||
                     (t.slug === 'sports' && sports) ||
-                    (t.slug === 'the-arts' && arts)
+                    (t.slug === 'the-arts' && arts) ||
+                    (t.slug === 'college-support' && collegeSupport)
                       ? []
                       : groups
                   ).map((g) => {
