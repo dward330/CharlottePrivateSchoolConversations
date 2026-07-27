@@ -195,6 +195,34 @@ button { font: inherit; }
 .theme-toggle:hover { color: var(--text); background: var(--surface-2); border-color: var(--brand); }
 .theme-toggle:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
 
+.lang-picker { display: flex; align-items: center; flex: none; }
+.lang-picker select {
+  height: 36px;
+  padding: 0 8px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--muted);
+  font: inherit;
+  font-size: 0.82rem;
+  cursor: pointer;
+  transition: color 0.12s ease, background 0.12s ease, border-color 0.12s ease;
+}
+.lang-picker select:hover { color: var(--text); background: var(--surface-2); border-color: var(--brand); }
+.lang-picker select:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
+
+/* Visually hidden, still read by screen readers. */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
 main { flex: 1; }
 
 .page {
@@ -1640,6 +1668,7 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   }
   /* Screen-only affordances. */
   .theme-toggle,
+  .lang-picker,
   .back-to-top,
   .bp-corner,
   .navlink { display: none; }

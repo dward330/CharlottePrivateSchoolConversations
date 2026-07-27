@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next'
 import { schools, topics, topicsForSchool, docCount, projectStats, generated, brandOf } from '../lib/manifest.ts'
 import { SchoolBadge } from '../components/SchoolBadge.tsx'
 import { TopicGlyph } from '../components/TopicGlyph.tsx'
@@ -24,6 +25,7 @@ function ArrowIcon() {
 }
 
 export function Home() {
+  const { t } = useTranslation()
   const navigate = useNavigate()
   const stats = projectStats()
   const allSlugs = schools.map((s) => s.slug)
@@ -32,12 +34,14 @@ export function Home() {
   return (
     <div className="page home">
       <header className="hero">
-        <p className="eyebrow">Charlotte private schools · parent research</p>
-        <h1>Compare Charlotte's private schools, side by side.</h1>
+        <p className="eyebrow">{t('home.eyebrow')}</p>
+        <h1>{t('home.title')}</h1>
         <p className="lede">
-          Independent research on {stats.schools} Charlotte-area private (K–12) schools
-          across {stats.topics} areas that matter to families — distilled from{' '}
-          {stats.documents} source documents.
+          {t('home.lede', {
+            schools: stats.schools,
+            topics: stats.topics,
+            documents: stats.documents,
+          })}
         </p>
         <div className="hero-actions">
           <span className="cta-frame">
@@ -47,7 +51,7 @@ export function Home() {
               href={compareAll}
               onClick={(e) => { e.preventDefault(); navigate(compareAll) }}
             >
-              Compare schools <ArrowIcon />
+              {t('home.ctaCompare')} <ArrowIcon />
             </a>
           </span>
           <a
@@ -59,53 +63,59 @@ export function Home() {
               document.getElementById('schools')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
             }}
           >
-            Browse a school
+            {t('home.ctaBrowse')}
           </a>
-          <span className="freshness">Research current as of {generated}.</span>
+          <span className="freshness">{t('home.freshness', { date: generated })}</span>
         </div>
         <div className="stat-strip hero-stats">
           <div className="stat-tile">
             <div className="stat-tile-val">{stats.schools}</div>
-            <div className="stat-tile-label">schools researched</div>
+            <div className="stat-tile-label">
+              {t('home.stats.schools', { count: stats.schools })}
+            </div>
           </div>
           <div className="stat-tile">
             <div className="stat-tile-val">{stats.topics}</div>
-            <div className="stat-tile-label">research areas</div>
+            <div className="stat-tile-label">
+              {t('home.stats.topics', { count: stats.topics })}
+            </div>
           </div>
           <div className="stat-tile">
             <div className="stat-tile-val">{stats.documents}</div>
-            <div className="stat-tile-label">source documents distilled</div>
+            <div className="stat-tile-label">
+              {t('home.stats.documents', { count: stats.documents })}
+            </div>
           </div>
         </div>
       </header>
 
       <section aria-labelledby="topics-h" className="block">
-        <h2 id="topics-h">What you can explore</h2>
+        <h2 id="topics-h">{t('home.topicsHeading')}</h2>
         <div className="topic-grid">
-          {topics.map((t) => (
+          {topics.map((topic) => (
             <a
-              key={t.slug}
+              key={topic.slug}
               className="topic-cell"
-              href={toCompare(t.slug, allSlugs)}
+              href={toCompare(topic.slug, allSlugs)}
               onClick={(e) => {
                 e.preventDefault()
-                navigate(toCompare(t.slug, allSlugs))
+                navigate(toCompare(topic.slug, allSlugs))
               }}
             >
-              <span className="topic-cell-icon"><TopicGlyph slug={t.slug} size={20} /></span>
-              <span className="topic-name">{t.name}</span>
-              <span className="topic-cta">Compare all →</span>
+              <span className="topic-cell-icon"><TopicGlyph slug={topic.slug} size={20} /></span>
+              <span className="topic-name">{topic.name}</span>
+              <span className="topic-cta">{t('home.compareAll')}</span>
             </a>
           ))}
         </div>
       </section>
 
       <section aria-labelledby="schools-h" className="block" id="schools">
-        <h2 id="schools-h">The schools</h2>
+        <h2 id="schools-h">{t('home.schoolsHeading')}</h2>
         <div className="school-grid">
           {schools.map((s) => {
             const covered = topicsForSchool(s.slug)
-            const docs = topics.reduce((sum, t) => sum + docCount(t.slug, s.slug), 0)
+            const docs = topics.reduce((sum, topic) => sum + docCount(topic.slug, s.slug), 0)
             return (
               <a
                 key={s.slug}
@@ -123,14 +133,14 @@ export function Home() {
                   <div className="school-card-body">
                     <span className="school-card-name">{s.name}</span>
                     <span className="school-card-meta">
-                      {covered.length} topics · {docs} documents
+                      {t('home.schoolCardMeta', { topics: covered.length, documents: docs })}
                     </span>
                   </div>
                 </div>
                 <div className="school-card-topics">
-                  {covered.map((t) => (
-                    <span key={t.slug} className="mini-chip">
-                      <TopicGlyph slug={t.slug} size={11} /> {t.name}
+                  {covered.map((topic) => (
+                    <span key={topic.slug} className="mini-chip">
+                      <TopicGlyph slug={topic.slug} size={11} /> {topic.name}
                     </span>
                   ))}
                 </div>
