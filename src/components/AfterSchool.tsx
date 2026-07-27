@@ -195,8 +195,16 @@ export function CoverageBody({ data }: { data: Coverage }) {
                         className={i === r.tiers.length - 1 ? 'as-tl-tier is-last' : 'as-tl-tier'}
                         style={{ flexBasis: `${span * 100}%` }}
                       >
-                        to {t.until}
-                        {t.price && ` · ${t.price}`}
+                        {/* The "to 4:30 · " prefix is dropped at phone width
+                            (see .as-tl-until): it is the longest part of the
+                            label and the least load-bearing, since the tier's
+                            right edge already shows where it ends. Keeping it
+                            would force a narrow slot to borrow width from its
+                            neighbours, which visibly distorts the clock — Country
+                            Day's 30-minute 3:00–3:30 tier would render as wide as
+                            the 60-minute one beside it. */}
+                        <span className="as-tl-until">to {t.until} · </span>
+                        {t.price && <span className="as-tl-price">{t.price}</span>}
                         {t.estimated && <span className="as-inline-tag tag-neutral">EST.</span>}
                       </span>
                     )

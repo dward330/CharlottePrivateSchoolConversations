@@ -3777,4 +3777,11 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   .as-rhythm { grid-template-columns: 1fr !important; }
   .as-tl-row { grid-template-columns: 96px 1fr; gap: 8px; }
   .as-tl-tier { font-size: 9px; padding: 0 4px; }
+  /* Drop the "to 4:30 · " prefix at phone width and keep the price. It is the
+     longest part of the label and the least load-bearing — the tier's right
+     edge already shows where it ends — and keeping it forces a narrow slot to
+     borrow width from its neighbours, which distorts the clock: Country Day's
+     30-minute 3:00-3:30 tier otherwise renders as wide as the 60-minute tier
+     beside it, so a half-hour and a full hour look identical. */
+  .as-tl-until { display: none; }
 }
