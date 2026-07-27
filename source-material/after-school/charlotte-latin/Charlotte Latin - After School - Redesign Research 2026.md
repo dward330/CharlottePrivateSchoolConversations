@@ -49,7 +49,10 @@ Programs by division
   sibling-wait room for younger students whose MS/US siblings dismiss later.
 
 Pickup tiers — three flexible dismissal options: 2:55 pm, 4:30 pm, or 6:00 pm.
-Entry price (1 day/week, per semester):
+Entry price (1 day/week, per semester). NOTE: the app's Coverage Map surfaces the
+**5 day/week** column from the full matrix below, not this 1-day entry column,
+because full-time is the common case and a 1-day figure reads as "the price" when
+it is the cheapest possible one:
 
 | Tier | TK/K entry | Grades 1–5 entry |
 | --- | --- | --- |

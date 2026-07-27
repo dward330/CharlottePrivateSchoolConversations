@@ -27,6 +27,8 @@ export const charlotteLatin: AfterSchoolProgram = {
     subhead:
       'Coverage then stops dead: there is no paid after-school care for Middle or Upper School at all, and Middle School is the worst served — its library closes at dismissal.',
     hours: ['1 pm', '2 pm', '3 pm', '4 pm', '5 pm', '6 pm'],
+    basisNote:
+      'Prices on the bars are the **full-time PER-SEMESTER rate — 5 days a week**, and Latin bills twice a year rather than monthly, so double them for a school year. Pricing is otherwise linear, so 1–4 days a week costs proportionally less; open **The Cost Planner** below to price any combination.',
     rows: [
       {
         division: 'TK & Kindergarten',
@@ -34,9 +36,9 @@ export const charlotteLatin: AfterSchoolProgram = {
         startFrac: frac(13, 30),
         endFrac: frac(18),
         tiers: [
-          { until: '2:55', price: 'from $345/sem', endFrac: frac(14, 55) },
-          { until: '4:30', price: '$635', endFrac: frac(16, 30) },
-          { until: '6:00', price: '$930', endFrac: frac(18) },
+          { until: '2:55', price: '$1,725/sem', endFrac: frac(14, 55) },
+          { until: '4:30', price: '$2,540', endFrac: frac(16, 30) },
+          { until: '6:00', price: '$4,650', endFrac: frac(18) },
         ],
       },
       {
@@ -45,8 +47,8 @@ export const charlotteLatin: AfterSchoolProgram = {
         startFrac: frac(14, 55),
         endFrac: frac(18),
         tiers: [
-          { until: '4:30', price: '$295', endFrac: frac(16, 30) },
-          { until: '6:00', price: '$600', endFrac: frac(18) },
+          { until: '4:30', price: '$1,475', endFrac: frac(16, 30) },
+          { until: '6:00', price: '$3,000', endFrac: frac(18) },
         ],
       },
       {

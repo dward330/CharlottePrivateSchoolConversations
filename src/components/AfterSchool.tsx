@@ -179,14 +179,21 @@ export function CoverageBody({ data }: { data: Coverage }) {
                   r.tiers.map((t, i) => {
                     /* Tier widths are the gaps between successive tier ends,
                        expressed as a share of the band — so the bar reads as a
-                       real clock even though each tier is drawn relatively. */
+                       real clock even though each tier is drawn relatively.
+
+                       Passed as flex-basis rather than a hard width so a tier
+                       whose slot is narrower than its price (Country Day's
+                       30-minute 3:00–3:30 tier carrying "$340") can take the
+                       slack from a roomier neighbour instead of clipping the
+                       number. The band's total width is unchanged, so the row
+                       still reads as a clock. */
                     const prevEnd = i === 0 ? r.startFrac : r.tiers[i - 1].endFrac
                     const span = (t.endFrac - prevEnd) / (r.endFrac - r.startFrac)
                     return (
                       <span
                         key={t.until}
                         className={i === r.tiers.length - 1 ? 'as-tl-tier is-last' : 'as-tl-tier'}
-                        style={{ width: `${span * 100}%` }}
+                        style={{ flexBasis: `${span * 100}%` }}
                       >
                         to {t.until}
                         {t.price && ` · ${t.price}`}
@@ -212,6 +219,15 @@ export function CoverageBody({ data }: { data: Coverage }) {
           </div>
         )}
       </div>
+
+      {/* A bar can only carry one number, but every school here prices by
+          days-per-week as well as by pickup time — so the tier figures are
+          always an assumption, and it has to be stated rather than implied. */}
+      {data.basisNote && (
+        <p className="as-basis text-muted">
+          <RichText text={data.basisNote} />
+        </p>
+      )}
 
       {data.facts.length > 0 && (
         <div className="as-facts">

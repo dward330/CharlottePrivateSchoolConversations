@@ -43,7 +43,11 @@ Programs by division:
 Extended Day locations: Auerbach Hall and the Levine Family Extended Day House.
 Clubhouse location: modular classrooms in the West Lot, near the Extended Day house.
 
-Pickup tiers and entry price (1 day/week, monthly):
+Pickup tiers and entry price (1 day/week, monthly). NOTE: the app's Coverage Map
+surfaces the **5 day/week** column from the full matrix below, not this 1-day
+entry column, because full-time is the common case and a 1-day figure reads as
+"the price" when it is the cheapest possible one. The full matrix is the source
+of both:
 
 | Grade band | Tier | Entry price |
 | --- | --- | --- |
