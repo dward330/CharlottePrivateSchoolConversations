@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import { useRoute, toHome, toCompare, useNavigate } from './lib/router.ts'
 import { topics, schools, brandOf } from './lib/manifest.ts'
 import { Home } from './pages/Home.tsx'
@@ -6,8 +7,10 @@ import { SchoolDetail } from './pages/SchoolDetail.tsx'
 import { Compare } from './pages/Compare.tsx'
 import { BackToTop } from './components/BackToTop.tsx'
 import { ThemeToggle } from './components/ThemeToggle.tsx'
+import { LanguagePicker } from './components/LanguagePicker.tsx'
 
 function App() {
+  const { t } = useTranslation()
   const route = useRoute()
   const navigate = useNavigate()
   const allSlugs = schools.map((s) => s.slug)
@@ -21,7 +24,7 @@ function App() {
           className="brand"
           href={toHome()}
           onClick={(e) => { e.preventDefault(); navigate(toHome()) }}
-          aria-label="Charlotte Private School Conversations — home"
+          aria-label={t('nav.homeAria')}
         >
           {logoOk ? (
             <img
@@ -33,7 +36,7 @@ function App() {
           ) : (
             <span className="brand-mark" aria-hidden="true">CLT</span>
           )}
-          <span className="brand-name">Charlotte School Compare</span>
+          <span className="brand-name">{t('nav.brandName')}</span>
         </a>
         <div className="nav-actions">
           <a
@@ -41,8 +44,9 @@ function App() {
             href={toCompare(topics[0]?.slug ?? null, allSlugs)}
             onClick={(e) => { e.preventDefault(); navigate(toCompare(topics[0]?.slug ?? null, allSlugs)) }}
           >
-            Compare
+            {t('nav.compare')}
           </a>
+          <LanguagePicker />
           <ThemeToggle />
         </div>
       </nav>
