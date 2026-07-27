@@ -220,8 +220,12 @@ export function WinningRecordBody({ data }: { data: WinningRecord }) {
         <>
           <Heading>Win percentage, confirmed records</Heading>
           <div className="sports-bars">
+            {/* Keyed on program + tag, not program alone: a school can chart the
+                same sport over two different windows — Davidson Day shows boys
+                basketball at both its '19–20 peak and its 3-year span — and the
+                tag is what tells those rows apart. */}
             {data.bars.map((bar) => (
-              <div key={bar.program} className="sports-bar-row">
+              <div key={`${bar.program}-${bar.tag ?? ''}`} className="sports-bar-row">
                 <span className="sports-bar-name">
                   {bar.program}
                   {bar.tag && <span className="tag-neutral sports-verify">{bar.tag}</span>}
