@@ -71,6 +71,8 @@ import {
   // Arts also exports a VerdictBody; alias to disambiguate.
   VerdictBody as CsVerdictBody,
 } from '../components/CollegeSupport.tsx'
+import { afterSchoolProgram, AFTER_SCHOOL_CARDS } from '../data/afterSchool.ts'
+import { AfterSchoolCardBody } from '../components/AfterSchool.tsx'
 import { WelcomeVideo, PlayIcon } from '../components/WelcomeVideo.tsx'
 
 type Loaded = Record<string, MetricGroup[]>
@@ -473,6 +475,26 @@ export function SchoolDetail({ slug }: { slug: string }) {
               : []
             const collegeSupport = csCardList.length > 0 ? csEntry : undefined
             const csCards = csCardList
+            /* After School: a full substitution like Sports, The Arts and
+               College Support — the four consolidated cards replace ALL five
+               ingested prose sub-sections (Program Overview, Program Details,
+               Enrichment & Activities, Extended Day / Aftercare, In-Depth
+               Report), which are the very topics the redesign merged.
+
+               Cards a school has no data for don't render: Davidson Day
+               publishes no rate of any kind, so it shows three cards rather than
+               an empty Cost Planner.
+
+               Same guard as the areas above — an entry that is present but empty
+               is still truthy, and would otherwise suppress the prose and leave
+               the whole section blank. */
+            const asEntry =
+              t.slug === 'after-school' ? afterSchoolProgram(slug) : undefined
+            const asCardList = asEntry
+              ? AFTER_SCHOOL_CARDS.filter((c) => asEntry[c.key] != null)
+              : []
+            const afterSchool = asCardList.length > 0 ? asEntry : undefined
+            const asCards = asCardList
             const cardCount = offerings
               ? offerings.divisions.length
               : sports
@@ -481,9 +503,11 @@ export function SchoolDetail({ slug }: { slug: string }) {
                   ? artsCards.length
                   : collegeSupport
                     ? csCards.length
-                    : clubs
-                      ? clubsCards.length + groups.length
-                      : groups.length
+                    : afterSchool
+                      ? asCards.length
+                      : clubs
+                        ? clubsCards.length + groups.length
+                        : groups.length
             return (
               <section key={t.slug} id={`topic-${t.slug}`} className="topic-section">
                 <div className="topic-section-head">
@@ -643,6 +667,44 @@ export function SchoolDetail({ slug }: { slug: string }) {
                   </div>
                 )}
 
+                {/* After School: four consolidated cards built from the
+                    structured program layer, in the fixed order set by
+                    AFTER_SCHOOL_CARDS. The design reference labels these 1a–1d
+                    for review only — the shipped cards show the topic name
+                    alone, with no letter/number prefix.
+
+                    A school with no data for a card omits it entirely rather
+                    than rendering it with placeholder content: Davidson Day
+                    publishes no rate of any kind, so its Cost Planner is absent
+                    rather than empty. */}
+                {ready && t.slug === 'after-school' && afterSchool && (
+                  <div className="note-cards">
+                    {asCards.map((card) => (
+                      <details
+                        key={card.key}
+                        className="note-card note-card-report note-card-as"
+                      >
+                        <BlueprintCorners />
+                        <summary>
+                          <span className="note-card-head">
+                            <span className="topic-title">{card.title}</span>
+                            <span className="topic-teaser">
+                              {afterSchool[card.key]!.headline}
+                            </span>
+                          </span>
+                          <span className="plusmark"><PlusIcon /></span>
+                        </summary>
+                        <div className="note-card-body">
+                          <AfterSchoolCardBody
+                            program={afterSchool}
+                            cardKey={card.key}
+                          />
+                        </div>
+                      </details>
+                    ))}
+                  </div>
+                )}
+
                 <div className="note-cards">
                   {/* Student Clubs: the three redesigned cards, in the fixed
                       1a–1c order, ahead of the two prose cards that remain.
@@ -683,7 +745,8 @@ export function SchoolDetail({ slug }: { slug: string }) {
                     (t.slug === 'course-offerings' && offerings) ||
                     (t.slug === 'sports' && sports) ||
                     (t.slug === 'the-arts' && arts) ||
-                    (t.slug === 'college-support' && collegeSupport)
+                    (t.slug === 'college-support' && collegeSupport) ||
+                    (t.slug === 'after-school' && afterSchool)
                       ? []
                       : groups
                   ).map((g) => {

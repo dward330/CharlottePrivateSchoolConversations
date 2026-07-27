@@ -40,6 +40,20 @@ const RULES: Record<string, Rule[]> = {
     { match: /curriculum guide|course offerings|program of stud/i, key: 'curriculum', label: 'Course Offerings' },
   ],
   'after-school': [
+    // After School renders as four consolidated cards driven by
+    // data/afterSchool.ts, not by the ingested prose (same arrangement as
+    // Sports, The Arts and College Support below). The 2026 redesign research
+    // file is one long document per school whose headings the content builder
+    // slices into many subtopics ("Card — The Coverage Map", "Card — The Cost
+    // Planner", "Sources & Where to Verify", …). This leading rule folds every
+    // one of those slices onto a single key so they cannot slugify into orphan
+    // prose cards. It must stay FIRST: those headings also contain words like
+    // "enrichment" and "cost" that the later rules would otherwise match.
+    {
+      match: /^card —|^card --|redesign research 2026|enrichment classes fall|^provenance$|^sources( &| and)? where to verify$|^sources$/i,
+      key: 'redesign-research',
+      label: 'After School Research Dossier (2026)',
+    },
     { match: /program overview/i, key: 'overview', label: 'Program Overview' },
     { match: /program details/i, key: 'details', label: 'Program Details' },
     { match: /enrichment|swim|youth athletics/i, key: 'enrichment', label: 'Enrichment & Activities' },

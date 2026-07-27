@@ -11,8 +11,8 @@ Hawks' Club (Extended Day) serves Transitional Kindergarten through Grade 5, wee
 | 1:30-6:00 pm | $930 | — | — | — | $4,650 |
 
 Notes & Gaps
-• Dashes are intermediate rates that were not captured in verification; the live Extended Day page lists the full table.
-• Grades 1-5 rates (2:55 pm dismissal tiers) could NOT be confirmed - a scraped Grades 1-5 table was refuted 0-3 in adversarial verification, so Latin's pricing for Grades 1-5 remains unverified. Check the Extended Day page directly.
+• SUPERSEDED (July 27, 2026): the dashes above and the Grades 1-5 gap below were both closed by a later research pass. The full 5-row x 5-column matrix, including all TK/K intermediate columns AND the Grades 1-5 rows, is VERIFIED in "Charlotte Latin - After School - Redesign Research 2026.md" in this folder. Use that file for the complete table.
+• Grades 1-5 rates (2:55 pm dismissal tiers) could NOT be confirmed in the July 22, 2026 pass - a scraped Grades 1-5 table was refuted 0-3 in adversarial verification. That finding is now SUPERSEDED: on July 27, 2026 the Grades 1-5 table was live on the Extended Day page and returned identically on two independent fetches (2:55-4:30 pm at $295/$590/$885/$1,180/$1,475 and 2:55-6:00 pm at $600/$1,200/$1,800/$2,400/$3,000 per semester).
 • The tuition & financial assistance page publishes no Extended Day pricing; it links "Extended Day and enrichment programs" (via /fs/pages/3042), which redirects to the Hawks' Club after-school page where the rates live.
 Sources & Where to Verify
 Extended Day (Hawks' Club) rates: https://www.charlottelatin.org/after-school/extended-day
