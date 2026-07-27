@@ -40,7 +40,10 @@ Programs by division
   not by After School.
 
 Pickup tiers — four, plus a JK-only fifth: 2:00 pm (JK only), 3:00 pm (carpool siblings
-only), 3:30 pm, 4:30 pm, 6:00 pm. Entry price (1 day/week, monthly):
+only), 3:30 pm, 4:30 pm, 6:00 pm. Entry price (1 day/week, monthly). NOTE: the
+app's Coverage Map surfaces the **5 day/week** column from the full 13-row matrix
+below, not this 1-day entry column, because full-time is the common case and a
+1-day figure reads as "the price" when it is the cheapest possible one:
 
 | Band | 2:00 pm | 3:00 pm | 3:30 pm | 4:30 pm | 6:00 pm |
 | --- | --- | --- | --- | --- | --- |

@@ -3379,6 +3379,10 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   );
 }
 
+/* The band stays inside its clock-proportional box — an absolutely-positioned
+   box cannot be contained by an ancestor's overflow, so letting it grow would
+   push it clean out of the card. Truncation is solved INSIDE the band instead;
+   see .as-tl-tier. */
 .as-tl-band {
   position: absolute;
   top: 4px;
@@ -3395,6 +3399,17 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   background: transparent;
 }
 
+/* A tier's width comes from clock time, but its LABEL is a price — and a
+   30-minute slot is narrower than "$340". Hard-clipping silently beheaded the
+   last glyph, so Country Day's $340 read as "$34": a 10x error with nothing on
+   screen to signal it. A price must never be truncated.
+
+   `min-width: max-content` guarantees each tier renders its whole label, and
+   `flex-shrink` lets ROOMY neighbours inside the same band give up their slack
+   to a cramped one — the component passes the clock share as flex-basis rather
+   than a hard width. The band keeps its exact clock width, so the row still
+   reads as a timeline; only the internal split between tiers shifts, and only on
+   the few rows where a narrow slot carries a long price. */
 .as-tl-tier {
   display: flex;
   align-items: center;
@@ -3405,15 +3420,27 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   text-transform: uppercase;
   color: var(--accent-900);
   white-space: nowrap;
-  overflow: hidden;
+  /* The label is the floor: a tier never renders narrower than its own text. */
+  min-width: max-content;
+  /* ...but a tier WITH slack may shrink, so it can hand that slack to a cramped
+     neighbour rather than the cramped one clipping its price. */
+  flex-shrink: 1;
 }
 .as-tl-tier.is-last {
   border-right: none;
   background: color-mix(in oklab, var(--accent) 8%, transparent);
 }
+/* The single-label bar (a drop-in program, or an uncovered division) has no
+   neighbouring tier to trade width with, so it keeps the old shrink-to-fit
+   behaviour and simply fills its band. */
 .as-tl-tier.is-flat {
   width: 100%;
+  min-width: 0;
   border-right: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  line-height: 30px;
   background: color-mix(in oklab, var(--accent) 8%, transparent);
 }
 .as-tl-band.is-uncovered .as-tl-tier {
@@ -3431,6 +3458,17 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   line-height: 1.5;
 }
 .as-summer-chip { font-size: 10px; flex: none; }
+
+/* States the attendance assumption behind the tier prices. A bar can carry only
+   one number, but every school prices by days-per-week as well as by pickup
+   time, so the figures on the bars are always an assumption and must say which
+   one. Sits directly beneath the timeline, ahead of the facts row. */
+.as-basis {
+  margin: 14px 0 0;
+  font-size: 12.5px;
+  line-height: 1.55;
+}
+.as-basis strong { color: var(--text); }
 
 .as-facts {
   display: flex;
@@ -3739,4 +3777,11 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   .as-rhythm { grid-template-columns: 1fr !important; }
   .as-tl-row { grid-template-columns: 96px 1fr; gap: 8px; }
   .as-tl-tier { font-size: 9px; padding: 0 4px; }
+  /* Drop the "to 4:30 · " prefix at phone width and keep the price. It is the
+     longest part of the label and the least load-bearing — the tier's right
+     edge already shows where it ends — and keeping it forces a narrow slot to
+     borrow width from its neighbours, which distorts the clock: Country Day's
+     30-minute 3:00-3:30 tier otherwise renders as wide as the 60-minute tier
+     beside it, so a half-hour and a full hour look identical. */
+  .as-tl-until { display: none; }
 }

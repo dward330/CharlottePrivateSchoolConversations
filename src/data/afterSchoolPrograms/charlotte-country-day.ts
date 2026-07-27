@@ -25,6 +25,8 @@ export const charlotteCountryDay: AfterSchoolProgram = {
     subhead:
       'Upper School has no Extended Day at all, and no before-school care is published for the school year. The unusually early 1:15 p.m. JK dismissal is backstopped by its own 2:00 p.m. tier.',
     hours: ['1 pm', '2 pm', '3 pm', '4 pm', '5 pm', '6 pm'],
+    basisNote:
+      'Prices on the bars are the **full-time monthly rate — 5 days a week**, the most common case. Country Day contracts 1–5 days a week, and the cheaper day-counts are substantially less; open **The Cost Planner** below to price any of the 13 published combinations.',
     rows: [
       {
         division: 'Junior Kindergarten',
@@ -32,10 +34,10 @@ export const charlotteCountryDay: AfterSchoolProgram = {
         startFrac: frac(13, 15),
         endFrac: frac(18),
         tiers: [
-          { until: '2:00', price: 'from $60/mo', endFrac: frac(14) },
-          { until: '3:30', price: '$140', endFrac: frac(15, 30) },
-          { until: '4:30', price: '$200', endFrac: frac(16, 30) },
-          { until: '6:00', price: '$255', endFrac: frac(18) },
+          { until: '2:00', price: '$255/mo', endFrac: frac(14) },
+          { until: '3:30', price: '$510', endFrac: frac(15, 30) },
+          { until: '4:30', price: '$670', endFrac: frac(16, 30) },
+          { until: '6:00', price: '$900', endFrac: frac(18) },
         ],
       },
       {
@@ -44,10 +46,10 @@ export const charlotteCountryDay: AfterSchoolProgram = {
         startFrac: frac(14),
         endFrac: frac(18),
         tiers: [
-          { until: '3:00', price: '$60', endFrac: frac(15) },
-          { until: '3:30', price: '$90', endFrac: frac(15, 30) },
-          { until: '4:30', price: '$140', endFrac: frac(16, 30) },
-          { until: '6:00', price: '$208', endFrac: frac(18) },
+          { until: '3:00', price: '$255', endFrac: frac(15) },
+          { until: '3:30', price: '$340', endFrac: frac(15, 30) },
+          { until: '4:30', price: '$510', endFrac: frac(16, 30) },
+          { until: '6:00', price: '$725', endFrac: frac(18) },
         ],
       },
       {
@@ -56,8 +58,8 @@ export const charlotteCountryDay: AfterSchoolProgram = {
         startFrac: frac(15),
         endFrac: frac(18),
         tiers: [
-          { until: '4:30', price: '$90', endFrac: frac(16, 30) },
-          { until: '6:00', price: '$175', endFrac: frac(18) },
+          { until: '4:30', price: '$340', endFrac: frac(16, 30) },
+          { until: '6:00', price: '$610', endFrac: frac(18) },
         ],
       },
       {
@@ -66,8 +68,8 @@ export const charlotteCountryDay: AfterSchoolProgram = {
         startFrac: frac(15, 10),
         endFrac: frac(18),
         tiers: [
-          { until: '4:30', price: '$60', endFrac: frac(16, 30) },
-          { until: '6:00', price: '$140', endFrac: frac(18) },
+          { until: '4:30', price: '$255', endFrac: frac(16, 30) },
+          { until: '6:00', price: '$510', endFrac: frac(18) },
         ],
       },
       {

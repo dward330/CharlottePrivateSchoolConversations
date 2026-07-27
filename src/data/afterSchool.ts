@@ -98,6 +98,17 @@ export type CoverageTier = {
   estimated?: boolean
 }
 
+/**
+ * The pricing assumption behind a timeline's tier prices, e.g. "Prices shown are
+ * for 5 days a week". Rendered once beneath the bars so the figures on the tiers
+ * are never read as an unqualified "the price".
+ *
+ * A coverage timeline can only carry ONE number per tier, but every one of these
+ * schools prices by days-per-week as well as by pickup time — so the tier label
+ * is always an assumption about attendance, and it has to say which one. The
+ * Cost Planner card is where a reader varies that assumption.
+ */
+
 /** One division's row in the coverage timeline. */
 export type CoverageRow = {
   /** Division label, e.g. "TK", "Grades 1–5", "Middle School". */
@@ -130,6 +141,12 @@ export type Coverage = {
   subhead?: string
   /** Hour ticks across the top, e.g. ["1 pm","2 pm",…,"6 pm"]. */
   hours: string[]
+  /**
+   * States the attendance assumption behind the tier prices — see the note above
+   * CoverageRow. Required wherever a row carries a price, so a figure on a bar
+   * can never be mistaken for an unqualified rate.
+   */
+  basisNote?: string
   /** The per-division bars. */
   rows: CoverageRow[]
   /** The summer-programs band beneath the timeline. Omitted when none is known. */

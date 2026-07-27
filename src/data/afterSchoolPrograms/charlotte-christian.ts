@@ -27,6 +27,8 @@ export const charlotteChristian: AfterSchoolProgram = {
     subhead:
       'Two cheap "Bridge Care" tiers exist purely to close the gap between the JK-K bell and the grades 1–4 bell. Upper School has no after-school care at all.',
     hours: ['2 pm', '3 pm', '4 pm', '5 pm', '6 pm'],
+    basisNote:
+      'The to-6:00 price is the **full-time monthly rate — 5 days a week**; 1–4 days a week runs $125–$295. **Bridge Care is a flat $125 a month whatever the day count**, which is what makes it such a cheap way to close the gap to the grades 1–4 bell. Open **The Cost Planner** below to price any combination.',
     rows: [
       {
         division: 'JK & Kindergarten',
@@ -34,8 +36,8 @@ export const charlotteChristian: AfterSchoolProgram = {
         startFrac: frac(14, 20),
         endFrac: frac(18),
         tiers: [
-          { until: '3:15', price: 'Bridge Care $125/mo', endFrac: frac(15, 15) },
-          { until: '6:00', price: 'from $125/mo', endFrac: frac(18) },
+          { until: '3:15', price: 'Bridge Care $125/mo flat', endFrac: frac(15, 15) },
+          { until: '6:00', price: '$325/mo', endFrac: frac(18) },
         ],
       },
       {
@@ -44,8 +46,8 @@ export const charlotteChristian: AfterSchoolProgram = {
         startFrac: frac(14, 40),
         endFrac: frac(18),
         tiers: [
-          { until: '3:35', price: 'Bridge Care $125/mo', endFrac: frac(15, 35) },
-          { until: '6:00', price: 'from $125/mo', endFrac: frac(18) },
+          { until: '3:35', price: 'Bridge Care $125/mo flat', endFrac: frac(15, 35) },
+          { until: '6:00', price: '$325/mo', endFrac: frac(18) },
         ],
       },
       {
@@ -54,7 +56,10 @@ export const charlotteChristian: AfterSchoolProgram = {
         startFrac: frac(15),
         endFrac: frac(17),
         tiers: [],
-        flatLabel: 'Extended Day · 3:00–5:00 only · $8/hour',
+        /* Short by necessity: this band is only two hours wide, and a
+           single-label bar ellipsises rather than trading width with a
+           neighbour, so anything longer would cut the rate. */
+        flatLabel: '$8/hour · to 5:00',
       },
       {
         division: 'Upper School',

@@ -28,6 +28,8 @@ export const providenceDay: AfterSchoolProgram = {
     subhead:
       'Upper School has no published option after dismissal, and there is no before-school care at any division on regular days. Summer Programs carry the coverage year-round under separate registration.',
     hours: ['1 pm', '2 pm', '3 pm', '4 pm', '5 pm', '6 pm'],
+    basisNote:
+      'Prices on the bars are the **full-time monthly rate — 5 days a week**, the most common case. Extended Day is also sold at 1–4 days a week for less; open **The Cost Planner** below to price any combination.',
     rows: [
       {
         division: 'TK',
@@ -35,9 +37,9 @@ export const providenceDay: AfterSchoolProgram = {
         startFrac: frac(13),
         endFrac: frac(18),
         tiers: [
-          { until: '3:00', price: 'from $140/mo', endFrac: frac(15) },
-          { until: '4:30', price: '$165', endFrac: frac(16, 30) },
-          { until: '6:00', price: '$190', endFrac: frac(18) },
+          { until: '3:00', price: '$490/mo', endFrac: frac(15) },
+          { until: '4:30', price: '$610', endFrac: frac(16, 30) },
+          { until: '6:00', price: '$750', endFrac: frac(18) },
         ],
       },
       {
@@ -46,9 +48,9 @@ export const providenceDay: AfterSchoolProgram = {
         startFrac: frac(14),
         endFrac: frac(18),
         tiers: [
-          { until: '3:00', price: '$100', endFrac: frac(15) },
-          { until: '4:30', price: '$130', endFrac: frac(16, 30) },
-          { until: '6:00', price: '$165', endFrac: frac(18) },
+          { until: '3:00', price: '$290', endFrac: frac(15) },
+          { until: '4:30', price: '$450', endFrac: frac(16, 30) },
+          { until: '6:00', price: '$610', endFrac: frac(18) },
         ],
       },
       {
@@ -57,8 +59,8 @@ export const providenceDay: AfterSchoolProgram = {
         startFrac: frac(15),
         endFrac: frac(18),
         tiers: [
-          { until: '4:30', price: '$100', endFrac: frac(16, 30) },
-          { until: '6:00', price: '$135', endFrac: frac(18) },
+          { until: '4:30', price: '$290', endFrac: frac(16, 30) },
+          { until: '6:00', price: '$470', endFrac: frac(18) },
         ],
       },
       {
@@ -67,7 +69,9 @@ export const providenceDay: AfterSchoolProgram = {
         startFrac: frac(15, 10),
         endFrac: frac(18),
         tiers: [],
-        flatLabel: 'Clubhouse · drop-in · 3:10–6:00 · $100/yr flat',
+        /* Kept short so the figure survives at narrow widths — a single-label
+           bar ellipsises rather than trading width with a neighbour. */
+        flatLabel: 'Clubhouse · drop-in · $100/yr flat',
       },
       {
         division: 'Upper School',

@@ -34,6 +34,8 @@ export const cannon: AfterSchoolProgram = {
     subhead:
       'Upper School has nothing. Every division dismisses at 3:00, so the coverage question here is simply whether a child is in grade 8 or below.',
     hours: ['2 pm', '3 pm', '4 pm', '5 pm', '6 pm'],
+    basisNote:
+      'The price on the bar is the **full-time annual rate — 5 days a week**, and Cannon publishes a single annual figure rather than a monthly one. 1–4 days a week runs $1,018–$3,290, or skip the contract entirely at $11.50 an hour; open **The Cost Planner** below for the full ladder. These are 2025-26 rates — no 2026-27 card is published.',
     rows: [
       {
         division: 'JrK – Grade 8',
@@ -41,7 +43,10 @@ export const cannon: AfterSchoolProgram = {
         startFrac: frac(15),
         endFrac: frac(18),
         tiers: [],
-        flatLabel: 'After School Program · 3:00–6:00 · from $1,018/yr or $11.50/hr drop-in',
+        /* Kept short so the figure survives at narrow widths — a single-label
+           bar ellipsises rather than trading width with a neighbour, and the
+           drop-in rate is carried in the basis note and the Cost Planner. */
+        flatLabel: 'After School Program · 3:00–6:00 · $3,784/yr',
       },
       {
         division: 'Grades 9–12',
