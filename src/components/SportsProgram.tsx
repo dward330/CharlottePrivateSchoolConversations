@@ -435,7 +435,7 @@ export function CollegePipelineBody({ data }: { data: CollegePipeline }) {
       {/* The full commitment roster: filter tabs + search over a scrolling table. */}
       <Heading>{t('sports.commitmentRoster')}</Heading>
       <div className="sports-rostertools">
-        <div className="sports-tabs" role="group" aria-label="Filter commitments by level">
+        <div className="sports-tabs" role="group" aria-label={t('tables.filterCommitmentsAria')}>
           {LEVEL_TABS.map((t) => (
             <button
               key={t.key}

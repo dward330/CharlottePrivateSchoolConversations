@@ -300,17 +300,18 @@ export function SchoolDetail({ slug }: { slug: string }) {
   return (
     <div className="page school-page" style={{ ['--brand' as string]: brand.color }}>
       <a className="back" href={toHome()} onClick={(e) => { e.preventDefault(); navigate(toHome()) }}>
-        ← All schools
+        {tr('school.allSchools')}
       </a>
 
       <header className="dossier-header">
         <BlueprintCorners />
         <SchoolBadge slug={slug} name={school.name} size={84} />
         <div className="dossier-body">
-          <p className="dossier-kicker">School dossier · Charlotte, NC</p>
+          <p className="dossier-kicker">{tr('school.dossierKicker')}</p>
           <h1>{school.name}</h1>
           <p className="school-sub">
-            {covered.length} research areas · {totalDocs} documents distilled
+            {tr('school.subAreas', { count: covered.length })} ·{' '}
+            {tr('school.subDocs', { count: totalDocs })}
           </p>
           <div className="school-header-topics">
             {brand.welcomeVideoUrl && (
@@ -320,7 +321,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                 onClick={(e) => scrollToId(e, 'welcome')}
               >
                 <PlayIcon size={10} />
-                Welcome Video
+                {tr('school.welcomeVideo')}
               </a>
             )}
             {covered.map((t) => (
@@ -357,10 +358,10 @@ export function SchoolDetail({ slug }: { slug: string }) {
               onClick={(e) => scrollToId(e, 'welcome')}
             >
               <PlayIcon size={13} />
-              Welcome Video
+              {tr('school.welcomeVideo')}
             </a>
           )}
-          <div className="dossier-nav-label">Research areas</div>
+          <div className="dossier-nav-label">{tr('school.researchAreas')}</div>
           {covered.map((t) => (
             <a
               key={t.slug}
@@ -376,7 +377,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
             </a>
           ))}
           <p className="dossier-nav-hint">
-            Click any card to expand its full research note. Sources are cited on every fact.
+            {tr('school.navHint')}
           </p>
         </aside>
 
@@ -545,7 +546,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
 
                 {!ready && <p className="loading">Loading research…</p>}
                 {ready && groups.length === 0 && (
-                  <p className="empty">No readable notes for this area yet.</p>
+                  <p className="empty">{tr('tables.noReadableNotes')}</p>
                 )}
 
                 {/* Course Offerings is one research file per school but three

@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react'
 import { parseProse, headingEchoesTitle, type ProseBlock, type HeadingTone } from '../lib/prose.ts'
+import { useTranslation } from 'react-i18next'
 
 // Bare URLs in the distilled notes are stored as plain text (no markdown link
 // syntax). Turn them into real anchors while leaving the surrounding prose intact.
@@ -57,10 +58,11 @@ function group(blocks: ProseBlock[], title?: string): { lede: ProseBlock[]; sect
 }
 
 function Cites({ cites }: { cites: string[] }) {
+  const { t } = useTranslation()
   if (!cites.length) return null
   return (
     <p className="cite">
-      <span className="cite-label">Source</span>{' '}
+      <span className="cite-label">{t('tables.source')}</span>{' '}
       {cites.map((c, i) => (
         <span key={i}>
           {i > 0 && ' · '}
@@ -150,6 +152,7 @@ export function ProseContent({
   /** Topic slug — lets the parser scope its research-gap filtering (see prose.ts). */
   topic?: string
 }) {
+  const { t } = useTranslation()
   const { lede, sections } = group(parseProse(text, title, topic), title)
   return (
     <div className="prose-doc">
@@ -159,7 +162,7 @@ export function ProseContent({
         if (tone === 'glance') {
           return (
             <section key={i} className="callout glance">
-              <h4 className="callout-title">At a glance</h4>
+              <h4 className="callout-title">{t('tables.atAGlance')}</h4>
               <Blocks blocks={s.blocks} />
             </section>
           )
