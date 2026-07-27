@@ -250,15 +250,21 @@ research in §1.
 
 ## 5. Rollout rules that apply to every language
 
-- **One topic at a time, with a native-speaker review between stages. Never one bulk
-  pass.** This is factual research families use for five-figure decisions, the prose
-  carries deliberate hedges, and a mistranslation is invisible to a reader who does
-  not read English.
+- **One topic at a time, never one bulk pass.** Not for review reasons — a topic is
+  the unit that fits a PR, keeps a diff readable, and lets the machinery be corrected
+  before it is applied five more times.
 - **Order stages cheapest and lowest-stakes first**, so the machinery is proven before
   it touches admissions outcomes and tuition. Financial Aid last, always.
-- **Do not add a locale to `PROSE_TRANSLATED` until its final stage passes review.**
-  That list drives `data-prose` on `<html>` and the RTL LTR-pin CSS rule; it asserts
-  "the prose is translated", and a partial state must not claim that.
+- **Do not add a locale to `PROSE_TRANSLATED` until its rollout is complete.** That
+  list drives `data-prose` on `<html>` and the RTL LTR-pin CSS rule; it asserts "the
+  prose is translated", and a partial state must not claim that.
+- **How and when a language is reviewed is a per-language decision**, recorded in that
+  language's rollout doc rather than mandated here. Spanish reviews once at the end
+  (owner's decision, 2026-07-27). Note what is being traded: the prose carries
+  deliberate hedges that a loose translation destroys, and a mistranslation is
+  invisible to a reader who does not read English, so a systematic error surfaces
+  later rather than sooner. Keeping per-stage translation notes in
+  `src/data/overlays/NOTES.md` is the cheap mitigation.
 
 ---
 
