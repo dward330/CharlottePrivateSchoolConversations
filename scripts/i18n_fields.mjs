@@ -1,0 +1,149 @@
+/**
+ * Which fields in the structured research layer are translatable prose.
+ *
+ * Shared by i18n_extract.mjs and check_translations.mjs so the two can never
+ * disagree about what "translatable" means — a field the extractor emits but
+ * the checker ignores would drift silently, which is the exact failure mode
+ * the hash stamping exists to prevent.
+ *
+ * The lists are keyed by LEAF KEY (the last path segment), not by full path.
+ * `detail` means the same kind of thing in sportsPrograms and afterSchool, and
+ * keying by leaf keeps this reviewable at ~40 lines instead of 365 full paths.
+ * Where a leaf key is genuinely ambiguous it is resolved by full path in
+ * PATH_OVERRIDES below.
+ *
+ * Classification rule: a field is PROSE if translating it helps a reader who
+ * does not read English, and does not falsify the research. Proper nouns,
+ * figures, codes and URLs are therefore NOT prose even though they are strings
+ * — "Clemson" and "12–1" mean the same in every language, and re-typing them
+ * per locale is how tuition and record data drifts between languages.
+ */
+
+/* --------------------------------------------------------------- prose -- */
+
+/**
+ * Translatable. Sentence- or phrase-level text written by the researcher.
+ */
+export const PROSE_KEYS = new Set([
+  // Card lead text
+  'headline', 'subhead', 'text', 'detail', 'footnote', 'note', 'caption',
+  'desc', 'hint', 'summary', 'body',
+  // Verdict cards — list-of-sentences shapes
+  'checklist', 'ask', 'watchouts', 'strengths', 'holdsUp', 'items',
+  // Named prose blocks (one per card, researcher-written analysis)
+  'honestContext', 'whoRunsIt', 'wordsText', 'caveat', 'rankedRecruits',
+  'boardNote', 'bucketsNote', 'worthKnowing', 'scholarshipsNote', 'funnelNote',
+  'realityCheck', 'gpaNote', 'ladderNote', 'supportNote', 'basisNote',
+  'rosterNote', 'meritNote', 'mechanicsNote', 'careNote', 'pathNote',
+  'venueNote', 'catalogIntro', 'leadership', 'broadcast', 'reach',
+  'recognizes', 'feedsFrom', 'didNotWin',
+  // Human-readable labels and captions
+  'label', 'valueLabel', 'gradeLabel', 'panelLabel', 'flatLabel', 'title',
+  'kicker', 'verdict', 'result',
+  // Per-school section headings. CLAUDE.md's i18n standard splits headings by
+  // the uniform test: one that is byte-identical across all six schools is
+  // chrome and belongs in src/locales/*.json, while one that VARIES per school
+  // ("Every acceptance, 2023–2026") is a research finding and stays here. These
+  // are the varying kind, so they are prose and must be translated at this
+  // layer — the standard explicitly warns against lifting them into a locale
+  // file, which would pin the heading to English.
+  'enrichmentTitle', 'seasonTitle', 'ledgerTitle', 'ladderTitle', 'mediaTitle',
+  'footnoteTitle', 'timelineTitle', 'mechanicsTitle', 'collegesTitle',
+  'wordsTitle', 'gpaTitle', 'rhythmTitle', 'catalogTitle', 'scheduleTitle',
+  'scheduleNote', 'gpaHint', 'collegesTotal', 'periodsLabel',
+  // Photo credits name a publisher and are half descriptive ("Photo: Providence
+  // Day School athletics"); the leading noun reads as chrome in Spanish.
+  'credit',
+])
+
+/* ----------------------------------------------------------- not prose -- */
+
+/**
+ * Deliberately NOT translated, with the reason. Anything here is excluded from
+ * extraction, so it never reaches model context and never appears in an
+ * overlay. Keeping the reasons inline makes this list arguable in review rather
+ * than mysterious.
+ */
+export const SKIP_KEYS = new Map([
+  ['url', 'link target'],
+  ['src', 'asset path'],
+  ['id', 'internal key'],
+  ['name', 'proper noun — people, schools, colleges, sports, venues'],
+  ['college', 'proper noun'],
+  ['conf', 'athletic conference code (ACC, SEC)'],
+  ['level', 'recruiting tier code (P4, D1)'],
+  ['levels', 'competition-level code (V, JV, MS)'],
+  ['cls', 'class year — "\'26"'],
+  ['cats', 'internal category code (lac75)'],
+  ['sport', 'sport name — matched against English data elsewhere'],
+  ['program', 'sport/program name'],
+  ['record', 'win–loss figure — "12–1"'],
+  ['value', 'numeric stat figure'],
+  ['count', 'numeric figure'],
+  ['fee', 'currency — localized at render by localizeMoneyText()'],
+  ['price', 'currency — localized at render'],
+  ['prices', 'currency — localized at render'],
+  ['year', 'numeral'],
+  ['since', 'numeral / short date'],
+  ['grades', 'grade code (TK, K, 9–12)'],
+  ['grade', 'grade code'],
+  ['rankLabel', 'ranking code — "Liberal Rank #2"'],
+  ['tier', 'proper noun — "Ivy League"'],
+  ['show', 'proper noun — production title'],
+  ['ensembles', 'proper noun — ensemble name'],
+  ['role', 'job title — see PATH_OVERRIDES, translated where descriptive'],
+  ['day', 'weekday code (Mon) — rendered from a chrome key'],
+  ['when', 'time literal'],
+  ['time', 'time literal'],
+  ['until', 'time literal'],
+  ['dismissal', 'time literal'],
+  ['hours', 'time literal'],
+  ['division', 'division name — see PATH_OVERRIDES'],
+  ['season', 'season name — chrome-owned (Fall/Winter/Spring)'],
+  ['kind', 'short type code'],
+  ['tag', 'short badge code'],
+  ['meta', 'layout hint'],
+  ['width', 'layout number'],
+  ['shade', 'colour token'],
+  ['intensity', 'layout number'],
+  ['startFrac', 'layout number'],
+  ['endFrac', 'layout number'],
+  ['flags', 'internal render flag'],
+  ['show_', 'internal render flag'],
+  ['source', 'citation label — see PATH_OVERRIDES'],
+  ['sources', 'citation container'],
+  ['words', 'word-cloud tokens — proper nouns and short labels'],
+  ['path', 'career path — proper nouns joined by arrows'],
+  ['scholarships', 'currency + class year'],
+  ['mechanics', 'short noun list, largely proper'],
+  ['sportBars', 'container'],
+  ['honors', 'container'],
+  ['values', 'score-table cell — figures and em-dashes'],
+  ['gpa', 'numeral'],
+  ['seasonLabels', "season code — \"'23–24\""],
+  ['glyph', 'decorative character'],
+  ['tagStyle', 'render style token'],
+  ['gradeFilters', 'filter chip — chrome-owned, matched by value in the component'],
+  ['dayFilters', 'filter chip — chrome-owned'],
+  ['opponent', 'proper noun — school name'],
+  ['date', 'short date literal'],
+  ['basis', 'billing-period code, mapped to a chrome key at render'],
+  ['defaultRow', 'internal row id'],
+])
+
+/**
+ * Full-path decisions that override the leaf-key default, for keys whose
+ * meaning genuinely differs by location.
+ */
+export const PATH_OVERRIDES = new Map([
+  // Citation labels are publisher + page name: "providenceday.org — Arts overview".
+  // Half proper noun, half descriptive. Left English so a citation always matches
+  // the page it points at — a translated citation label cannot be checked against
+  // the source by a reader who follows the link.
+  ['*.sources[].label', false],
+  ['*.source.label', false],
+  // Coaching roles ARE descriptive prose ("Cross Country / Track", "Director of
+  // Athletics") and read as chrome to a Spanish parent.
+  ['coaching.tenure[].role', true],
+  ['counseling.roster[].role', true],
+])

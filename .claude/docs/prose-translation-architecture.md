@@ -62,13 +62,24 @@ Much of the `src/data/` total is **not translatable text at all**: `url` (152),
 (141), `subhead` (141), `text` (463), `detail` (142), `label` (511), `note` (93),
 `footnote` (18), `caption`, `desc`, `hint`, `verdict`.
 
-**Working estimate of real translatable surface: ~45–55k words per language**, not
-165k and not 321k — a ~3–6× reduction versus the earlier assumption, and the reason
-this is tractable.
+**Measured translatable surface: 53,397 words per language** across 3,045 field sites
+(2,637 distinct strings) — not 165k and not 321k.
 
-> ⚠️ **This is an extrapolation from field-frequency counts, not a measurement.**
-> Replacing it with a real number from an extraction run is the entire point of
-> Stage 0 below. Do not plan reviewer time against this figure.
+> ✅ **Measured 2026-07-27** by `node scripts/i18n_extract.mjs --report`, which
+> classifies all 365 distinct string paths in the structured layer as prose or
+> not-prose with zero residual. The earlier ~45–55k estimate was extrapolated from
+> grep counts; the real figure landed just above it. Per topic:
+>
+> | Topic | Field sites | Words |
+> |---|---|---|
+> | college-support | 896 | 17,463 |
+> | the-arts | 587 | 12,988 |
+> | after-school | 603 | 9,430 |
+> | sports | 719 | 9,939 |
+> | student-clubs | 240 | 4,607 |
+>
+> Excludes `src/content/**` (financial-aid ~39k words + surviving Student Clubs
+> groups), which lands in the final stage.
 
 ---
 
@@ -195,16 +206,24 @@ whole-file rewrites risk corrupting non-text fields.
    with hashes computed mechanically. The model never hand-writes an overlay file, so
    it cannot typo a hash or drop a field.
 
-**Deduplication before step 2 is where the real savings are.** `label` alone is 511
-occurrences across a small recurring vocabulary — `"distinct sports"`, `"teams across
-V · JV · MS"` recur across all six schools. A translation-memory map
-(`en string → {lang: translated}`, exact match) is applied before the model is
-called, so each distinct string is translated **once** and reused everywhere. Expect
-this to cut the label/caption surface by well over half.
+A translation-memory map (`en string → {lang: translated}`, exact match) is applied
+before the model is called, so each distinct string is translated **once** and reused
+at every site it occurs.
 
-Net: the model translates ~45–55k words of genuine prose once per language, with
-essentially no structural tokens, instead of re-emitting ~430k words of mixed code
-and data.
+> **Measured 2026-07-27 — the dedupe saving is 2%, not "well over half".** The
+> earlier estimate was wrong. Repetition is real but concentrated in short status
+> codes (`STATE` ×44, `NONE` ×51, `RUNNER-UP` ×15), which carry almost no words;
+> only 31 of 520 Sports strings recur at all. The prose that dominates the word
+> count — `text` (15.8k words), `detail`, `headline`, `subhead` — is per-school
+> research and is **almost entirely unique by nature**. Keep the TM (it is nearly
+> free and prevents inconsistent renderings of the same label), but do not budget
+> against it.
+
+**The real token saving is the extraction itself, and it is large.** The model sees
+only prose strings: no URLs, hex codes, layout numbers, proper nouns, or structural
+re-emission. Against the ~430k words of mixed code and data in the raw files, the
+translatable surface is ~53k words — roughly an 8× reduction, and it comes from the
+whitelist, not the dedupe.
 
 ---
 

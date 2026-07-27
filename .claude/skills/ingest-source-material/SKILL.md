@@ -125,6 +125,24 @@ python scripts/build_site_content.py   # regenerates src/content/ from .claude/d
    so they cannot drift from the app). Exits non-zero when something needs a look.
    Findings are **advisory** — see the checklist below for how to judge each one. Never
    silence a warning by inventing a value.
+5b. **If any research prose changed, check for translation drift:**
+
+   ```bash
+   node scripts/check_translations.mjs
+   ```
+
+   Only relevant once a locale's prose overlays exist (`src/data/overlays/`); until
+   then it reports "nothing to check" and exits 0. Rewriting an English string whose
+   translation was built from the old wording marks that entry STALE. **A stale entry
+   falls back to English at runtime, so the page stays correct — it is just
+   untranslated there.** Advisory like `check_metrics.mjs`: never "fix" it by editing
+   an overlay by hand. Re-extract the topic and re-translate those strings, or leave
+   it for the next translation pass.
+
+   Note this fires far more often on redesign PRs that rewrite card prose than on
+   ingest, since `src/data/**` is hand-authored — see
+   `.claude/docs/prose-translation-architecture.md`.
+
 6. **Check the diff for UX changes before committing.** The result should be data only —
    notes, content JSON, manifest, values, report fields. If the work would add or reorder a
    card/section/tile/Compare row, or touch a component or style, stop: that needs the
