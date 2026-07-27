@@ -241,8 +241,13 @@ export function CourseOfferingsBody({ division }: { division: Division }) {
 
       {/* The scroll region: fixed max height inside a 1px divider frame. */}
       <div className="courselist" ref={listRef} tabIndex={0} role="tabpanel">
+        {/* The grade tag belongs in the key: a middle-school catalog names its
+            per-grade courses identically — Country Day runs four distinct
+            "Health" courses across grades 5–8, and separate "English" courses in
+            7 and 8 — so dept + title is not a unique identity, only dept + title
+            + tag is. */}
         {shown.map((c) => (
-          <div key={`${c.dept}-${c.title}`} className="course-row">
+          <div key={`${c.dept}-${c.title}-${c.tag ?? ''}`} className="course-row">
             <div className="course-row-head">
               <span className="course-title">
                 <Highlighted text={c.title} query={q} />

@@ -206,8 +206,13 @@ export function TranscriptBody({ data }: { data: Transcript }) {
                   </tr>
                 </thead>
                 <tbody>
+                  {/* Keyed on year + detail, not year alone: a class can carry
+                      more than one honor — Charlotte Christian's 2025 lists both
+                      a National Merit Commended Scholar and its College Board
+                      National Recognition awards — so the year is a label, not
+                      an identity. */}
                   {data.merit.map((m) => (
-                    <tr key={m.year}>
+                    <tr key={`${m.year}-${m.detail}`}>
                       <td className="cs-td cs-td-year">{m.year}</td>
                       <td className="cs-td">
                         <RichText text={m.detail} />
