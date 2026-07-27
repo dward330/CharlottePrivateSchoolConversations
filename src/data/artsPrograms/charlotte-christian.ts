@@ -190,7 +190,6 @@ export const charlotteChristian: ArtsProgram = {
       'Instrumental music from Grade 5 by instrument family, climbing to six Honors ensembles — and a Carnegie Hall Honors Performance Series placement.',
     subhead:
       'uKnight Worship makes the faith integration structural rather than decorative: a credit-bearing Upper School worship ensemble.',
-    boardTitle: 'The ensemble board',
     tracks: [
       {
         label: 'Lower School — curricular, by instrument family (grades 5–6)',
@@ -271,7 +270,6 @@ export const charlotteChristian: ArtsProgram = {
       { name: 'Audio production', detail: 'Logic Pro X and Ableton — industry-standard tools' },
       { name: 'Graphic design & illustration', detail: 'taught as content via Canva and Procreate, not as named courses' },
     ],
-    pathTitle: 'The course path',
     path: [
       { name: 'Drawing & Painting' },
       { name: 'Intermediate' },
@@ -280,7 +278,6 @@ export const charlotteChristian: ArtsProgram = {
     ],
     pathNote:
       'Art & Design runs beginner → AP for the 3-D portfolio, and AP Art History runs parallel. Digital Arts has nine electives but NO AP capstone — a portfolio-bound student has to route through Visual Art',
-    exhibitsTitle: 'Where the work goes public',
     exhibits: [
       {
         when: 'Spring',
@@ -317,7 +314,6 @@ export const charlotteChristian: ArtsProgram = {
       'A Best Musical Blumey, a purpose-built two-venue arts facility, a transcript-level arts distinction — and a program whose faculty are entirely unpublished.',
     subhead:
       'The faith integration is structural rather than decorative, which is both the program’s distinctive asset and the thing a comparing parent should probe.',
-    holdsUpTitle: 'Why it holds up',
     holdsUp: [
       {
         label: 'A top-prize win, plus proof of current competitiveness',
@@ -344,7 +340,6 @@ export const charlotteChristian: ArtsProgram = {
         text: 'Friends of the Arts runs seven giving tiers to $7,500 and funds commissioned compositions, guest artists, instrument inventory and faculty development.',
       },
     ],
-    askTitle: 'Ask on the tour',
     ask: [
       'Who directs theatre and who is your technical director, and how long have they been here? No faculty are named for any of the four branches, and the only names findable date to 2016 — ask this first.',
       'In 2024 Tarzan was a finalist in all five acting categories but did not reach the top-6 nominees. What is the gap you are working on, and what is your best Blumey result since 2013?',

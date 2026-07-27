@@ -15,6 +15,8 @@
 // where a school's research actually surfaced them; a school whose sources agree
 // simply has no flag in its data, and nothing is drawn. See the FlagKind docs.
 
+import { useTranslation } from 'react-i18next'
+import { localizeMoneyText } from '../lib/format.ts'
 import type {
   Affinity,
   ClubsFlag,
@@ -102,6 +104,7 @@ function Heading({ children }: { children: React.ReactNode }) {
 /* ------------------------------------------- 1a · affinity & identity ----- */
 
 export function AffinityBody({ data }: { data: Affinity }) {
+  const { t } = useTranslation()
   return (
     <div className="clubs-body">
       <Lead headline={data.headline} subhead={data.subhead} />
@@ -158,7 +161,7 @@ export function AffinityBody({ data }: { data: Affinity }) {
       {data.leadership && (
         <div className="clubs-leadership">
           <strong className="clubs-leadership-label">
-            {data.leadershipTitle ?? 'The leadership arm'}
+            {data.leadershipTitle ?? t('sections.leadershipArm')}
           </strong>
           <span>{data.leadership}</span>
         </div>
@@ -172,6 +175,7 @@ export function AffinityBody({ data }: { data: Affinity }) {
 /* ------------------------------------------- 1b · service & civic --------- */
 
 export function ServiceBody({ data }: { data: Service }) {
+  const { t } = useTranslation()
   return (
     <div className="clubs-body">
       <Lead headline={data.headline} subhead={data.subhead} />
@@ -185,7 +189,7 @@ export function ServiceBody({ data }: { data: Service }) {
       >
         {data.programs.map((p) => (
           <div key={p.name} className="clubs-program">
-            <div className="clubs-program-val">{p.value}</div>
+            <div className="clubs-program-val">{localizeMoneyText(p.value)}</div>
             <div className="clubs-program-vallabel text-muted">{p.valueLabel}</div>
             <div className="clubs-program-name">{p.name}</div>
             <p className="clubs-program-detail">{p.detail}</p>
@@ -207,7 +211,7 @@ export function ServiceBody({ data }: { data: Service }) {
 
       {data.footnote && (
         <div className="clubs-footnote">
-          <Heading>{data.footnoteTitle ?? 'Beyond the big three'}</Heading>
+          <Heading>{data.footnoteTitle ?? t('sections.beyondBigThree')}</Heading>
           <p className="clubs-p">{data.footnote}</p>
         </div>
       )}
@@ -221,6 +225,7 @@ export function ServiceBody({ data }: { data: Service }) {
 /* ------------------------------------------- 1c · honor societies --------- */
 
 export function HonorsBody({ data }: { data: Honors }) {
+  const { t } = useTranslation()
   return (
     <div className="clubs-body">
       <Lead headline={data.headline} subhead={data.subhead} />
@@ -255,7 +260,7 @@ export function HonorsBody({ data }: { data: Honors }) {
           stays honest about what is and isn't a chapter. */}
       {data.adjacent && data.adjacent.length > 0 && (
         <div className="clubs-adjacent">
-          <Heading>{data.adjacentTitle ?? 'Recognition that is not a society'}</Heading>
+          <Heading>{data.adjacentTitle ?? t('sections.notASociety')}</Heading>
           {data.adjacent.map((a) => (
             <div key={a.label} className="clubs-adjacent-row">
               <strong className="clubs-adjacent-label">{a.label}</strong>

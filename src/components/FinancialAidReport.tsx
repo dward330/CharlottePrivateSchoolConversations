@@ -5,6 +5,8 @@
 // Every figure block is optional — a school renders only what its source report
 // actually supports (see src/data/financialAidReports.ts for why).
 
+import { useTranslation } from 'react-i18next'
+import { money, localizeMoneyText } from '../lib/format.ts'
 import type {
   CostComponent,
   FinancialAidReport as Report,
@@ -67,7 +69,7 @@ function Icon({ name, size = 15 }: { name: string; size?: number }) {
   )
 }
 
-const money = (n: number) => `$${n.toLocaleString('en-US')}`
+
 
 /* ------------------------------------------------------------ figure blocks */
 
@@ -201,7 +203,7 @@ function Ladder({
       <div className="fa-ladder">
         {rungs.map((r) => (
           <div key={r.gift} className="fa-ladder-row">
-            <span className="fa-ladder-gift">{r.gift}</span>
+            <span className="fa-ladder-gift">{localizeMoneyText(r.gift)}</span>
             <span className="fa-ladder-track">
               <span className="fa-ladder-fill" style={{ width: `${r.share}%` }} />
             </span>
@@ -398,7 +400,7 @@ function Section({ section, index }: { section: ReportSection; index: number }) 
         <div className="fa-plans">
           {plans.map((p) => (
             <div key={p.label} className={`fa-plan${p.emphasis ? ' on' : ''}`}>
-              <div className="fa-plan-figure">{p.figure}</div>
+              <div className="fa-plan-figure">{localizeMoneyText(p.figure)}</div>
               <div className="fa-plan-label">{p.label}</div>
               <div className="fa-plan-detail">
                 <RichText text={p.detail} />
@@ -416,7 +418,7 @@ function Section({ section, index }: { section: ReportSection; index: number }) 
               <div className="stat-strip fa-stats">
                 {stats.map((s) => (
                   <div key={s.label} className="stat-tile">
-                    <div className="stat-tile-val">{s.value}</div>
+                    <div className="stat-tile-val">{localizeMoneyText(s.value)}</div>
                     <div className="stat-tile-label">{s.label}</div>
                   </div>
                 ))}
@@ -448,7 +450,7 @@ function Section({ section, index }: { section: ReportSection; index: number }) 
             <div className="stat-strip fa-stats">
               {stats.map((s) => (
                 <div key={s.label} className="stat-tile">
-                  <div className="stat-tile-val">{s.value}</div>
+                  <div className="stat-tile-val">{localizeMoneyText(s.value)}</div>
                   <div className="stat-tile-label">{s.label}</div>
                 </div>
               ))}
@@ -476,6 +478,7 @@ export function FinancialAidReportCard({
   report: Report
   onCollapse?: () => void
 }) {
+  const { t } = useTranslation()
   const jump = (e: React.MouseEvent, id: string) => {
     e.preventDefault()
     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
@@ -491,7 +494,7 @@ export function FinancialAidReportCard({
             type="button"
             className="fa-close"
             onClick={onCollapse}
-            aria-label="Collapse report"
+            aria-label={t('school.collapseReport')}
           >
             <Icon name="x" size={15} />
           </button>

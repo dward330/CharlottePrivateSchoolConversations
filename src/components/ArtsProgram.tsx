@@ -16,6 +16,8 @@
 // dropped and the adjacent column takes the full width, per the design handoff
 // — an empty placeholder frame is never shipped.
 
+import { useTranslation } from 'react-i18next'
+import { localizeMoneyText } from '../lib/format.ts'
 import type {
   ArtsLadder,
   ArtsPhoto,
@@ -66,7 +68,7 @@ function StatStrip({ stats }: { stats: ArtsStat[] }) {
     <div className="arts-stats">
       {stats.map((s) => (
         <div key={s.label} className="arts-stat">
-          <div className="arts-stat-val">{s.value}</div>
+          <div className="arts-stat-val">{localizeMoneyText(s.value)}</div>
           <div className="arts-stat-label text-muted">{s.label}</div>
         </div>
       ))}
@@ -227,13 +229,14 @@ function LedgerRow({ row }: { row: Theatre['ledger'] extends (infer R)[] | undef
 /* ----------------------------------------------------------- 1c · music -- */
 
 export function MusicBody({ data }: { data: Music }) {
+  const { t } = useTranslation()
   return (
     <div className="arts-body">
       <Lead headline={data.headline} subhead={data.subhead} />
 
       <div className="arts-split">
         <div>
-          <Heading>{data.boardTitle ?? 'The ensemble board'}</Heading>
+          <Heading>{data.boardTitle ?? t('sections.ensembleBoard')}</Heading>
           <div className="arts-board">
             {data.tracks.map((t) => (
               <div key={t.label}>
@@ -281,6 +284,7 @@ export function MusicBody({ data }: { data: Music }) {
 /* --------------------------------------------------- 1d · studio to gallery -- */
 
 export function VisualArtsBody({ data }: { data: VisualArts }) {
+  const { t } = useTranslation()
   return (
     <div className="arts-body">
       <Lead headline={data.headline} subhead={data.subhead} />
@@ -300,7 +304,7 @@ export function VisualArtsBody({ data }: { data: VisualArts }) {
             ))}
           </div>
 
-          <Heading>{data.pathTitle ?? 'The course path'}</Heading>
+          <Heading>{data.pathTitle ?? t('sections.coursePath')}</Heading>
           <div className="arts-path">
             {data.path.map((step, i) => (
               <span key={step.name} className="arts-path-item">
@@ -317,7 +321,7 @@ export function VisualArtsBody({ data }: { data: VisualArts }) {
         </div>
       </div>
 
-      <Heading>{data.exhibitsTitle ?? 'Where the work goes public'}</Heading>
+      <Heading>{data.exhibitsTitle ?? t('sections.whereWorkGoesPublic')}</Heading>
       <div
         className="arts-exhibits"
         style={{
@@ -343,13 +347,14 @@ export function VisualArtsBody({ data }: { data: VisualArts }) {
 /* --------------------------------------------------------- 1e · verdict -- */
 
 export function VerdictBody({ data }: { data: Verdict }) {
+  const { t } = useTranslation()
   return (
     <div className="arts-body">
       <Lead headline={data.headline} subhead={data.subhead} />
 
       <div className="arts-split">
         <div>
-          <Heading>{data.holdsUpTitle ?? 'Why it holds up'}</Heading>
+          <Heading>{data.holdsUpTitle ?? t('sections.whyItHoldsUp')}</Heading>
           <div className="arts-checks">
             {data.holdsUp.map((h) => (
               <div key={h.label} className="arts-check">

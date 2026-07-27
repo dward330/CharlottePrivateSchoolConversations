@@ -191,7 +191,6 @@ export const davidsonDay: ArtsProgram = {
       'One performing music ensemble, and it is a rock band — open to any level with no audition, but there is no concert band, orchestra or chorus course at all.',
     subhead:
       'A contemporary/rock-band model rather than a concert-ensemble model. Parents expecting a traditional band-and-choir ladder should read that carefully.',
-    boardTitle: 'The ensemble board',
     tracks: [
       {
         label: 'Open enrolment — no audition',
@@ -249,7 +248,6 @@ export const davidsonDay: ArtsProgram = {
       { name: 'Digital photography', detail: 'DSLR and Adobe Lightroom across three course levels' },
       { name: 'Film / darkroom', detail: 'not mentioned anywhere — assume none unless the school says otherwise' },
     ],
-    pathTitle: 'The course path',
     path: [
       { name: 'Studio I' },
       { name: 'Studio II Honors' },
@@ -257,7 +255,6 @@ export const davidsonDay: ArtsProgram = {
     ],
     pathNote:
       'AP Studio Art requires departmental approval. Portfolio runs as an alternate stepping-stone into AP, and Photography I → II → III is a parallel three-year track ending in a personal website',
-    exhibitsTitle: 'Where the work goes public',
     exhibits: [
       {
         when: 'Course-end',
@@ -293,7 +290,6 @@ export const davidsonDay: ArtsProgram = {
       'An accessible arts program, not a conservatory one — with a real Blumey record and a full visual ladder, but almost nothing about it published.',
     subhead:
       'Several of the gaps below may simply be unpublished rather than absent, which is exactly why the tour questions matter more here than at a school that documents everything.',
-    holdsUpTitle: 'Why it holds up',
     holdsUp: [
       {
         label: 'A genuine no-audition way into performing music',
@@ -320,7 +316,6 @@ export const davidsonDay: ArtsProgram = {
         text: 'only one fine-arts credit is required to graduate, so an arts-indifferent student is not forced into a heavy commitment — while an arts-committed one can claim the PE credit for theater, freeing a schedule slot.',
       },
     ],
-    askTitle: 'Ask on the tour',
     ask: [
       'Where do performances actually happen? No arts venue is named anywhere, and catalog photos appear to show a musical staged in the gym and a recital inside the art studio. Ask to stand in the space — is there a dedicated theater with fixed seating, stage lighting and a booth? What is the seat count?',
       'Who teaches the arts, and who directed Big Fish — and are they returning? Not one arts faculty name is published, and in a program this small one departure changes everything.',

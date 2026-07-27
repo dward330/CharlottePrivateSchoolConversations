@@ -333,7 +333,6 @@ export const cannon: CollegeSupportProgram = {
     ],
     // No merit ledger: no National Merit counts are published in any year.
     merit: [],
-    depthTitle: 'Depth past the AP catalog',
     depth: [
       {
         label: 'Mathematics',
@@ -352,7 +351,6 @@ export const cannon: CollegeSupportProgram = {
         text: 'No Global Online Academy membership and no dual-enrolment partnership is published — this was checked specifically.',
       },
     ],
-    trustTitle: 'How the grade is engineered to be trusted',
     trust: [
       {
         label: 'Weighted narrowly, and deliberately',
@@ -398,7 +396,6 @@ export const cannon: CollegeSupportProgram = {
       { value: '4 years', label: 'the same counselor for a student’s whole Upper School career' },
       { value: 'SCOIR', label: 'platform, alongside an annually refreshed School Profile' },
     ],
-    rosterTitle: 'Who’s in the room',
     roster: [
       { role: 'Co-Director', name: 'Courtney Brayboy', detail: 'Cannon runs an unusual shared top role rather than a single director.' },
       { role: 'Co-Director', name: 'Heidi Waibel', detail: 'The roster is identical across the 2024–25 and 2025–26 profiles.' },
@@ -436,7 +433,6 @@ export const cannon: CollegeSupportProgram = {
     ],
     mechanicsNote:
       'That is the published scope. Note what is absent from it: essay coaching or brainstorming workshops, a teacher-recommendation coordination process, interview preparation, and any scholarship-search service are none of them explicitly claimed — consistent with the absence of a scholarship-dollar headline.',
-    reachTitle: 'Reach & tools',
     reach: [
       '**Hosts** the Lake Norman Area College Admissions Case Studies Program and College Fair, co-hosted with Davidson Day — Cannon is the venue',
       'Second annual edition held **26 April 2026**, confirmed independently from a college’s own registration portal',
@@ -474,7 +470,6 @@ export const cannon: CollegeSupportProgram = {
       { value: '111', label: 'graduating seniors — the second largest class in school history' },
       { value: '3 of 8', label: 'Ivy League on the 2022–24 acceptance list' },
     ],
-    bucketsTitle: 'The selectivity buckets',
     buckets: [
       { tier: 'Ivy League', count: '3 / 8', note: '— Brown, Cornell, Penn; absent Harvard, Yale, Princeton, Dartmouth, Columbia' },
       { tier: '“Ivy Plus”', count: '10 / 17' },
@@ -487,7 +482,6 @@ export const cannon: CollegeSupportProgram = {
     collegesTitle: 'Every acceptance, 2022–2024',
     colleges,
     collegesTotal: '283 institutions · bold = a Class of 2023 student enrolled',
-    scholarshipsTitle: 'Scholarship & named-award headline',
     scholarships: [
       'No merit-scholarship total published',
       'Morehead-Cain: a 2015 recipient, nothing current',
@@ -581,7 +575,6 @@ export const cannon: CollegeSupportProgram = {
     ],
     gpaNote:
       'These are bands, not a quintile table — no full quintile or decile breakdown, median GPA, or per-band student count is published. The modest weighted ceiling follows directly from the 1.0-quality-point cap and the eleven-course AP/AT maximum, which is a transparency point in Cannon’s favour but needs context for readers used to heavier weighting schemes.',
-    supportTitle: 'Learning differences through the process',
     support: [
       {
         label: 'Three named Upper School specialists',
@@ -602,7 +595,6 @@ export const cannon: CollegeSupportProgram = {
     ],
     supportNote:
       'Not published: how many students are on formal learning plans, whether accommodations carry a fee, and specialist credentials.',
-    middleTitle: 'The middle & the non-traditional path',
     middle: [
       {
         label: 'The list is printed honestly',
@@ -643,7 +635,6 @@ export const cannon: CollegeSupportProgram = {
       'A stable, structurally honest programme — four-year counselor continuity, a published load ceiling, real research defences, and a genuine matriculation list — wrapped in thinner outcome disclosure than its larger peers.',
     subhead:
       'Most of what is missing here is publication rather than practice, which makes almost every gap a question a tour can answer.',
-    verdictTitle: 'Why it holds up',
     points: [
       {
         label: 'Four-year counselor continuity, stated in writing',
@@ -670,7 +661,6 @@ export const cannon: CollegeSupportProgram = {
         text: 'Honors courses carry no weight at all and only AT/AP add a point, so the weighted top decile tops out near 4.28 rather than in the high 4s.',
       },
     ],
-    checklistTitle: 'Ask on the tour',
     checklist: [
       'The 2025–26 profile dropped the acceptance list entirely, so the newest is a 2022–24 rollup. Where did the Classes of 2025 and 2026 actually enroll?',
       'Your 28:1 ratio only works counting seniors — what is the actual caseload per counselor across all four Upper School grades?',

@@ -90,7 +90,6 @@ export const providenceDay: ClubsProgram = {
         text: 'Faculty of Color Group, est. 2018 · AWARE — Alliance of White Anti-Racist Educators, est. 2019 · AFIRM for alumni, est. 2020.',
       },
     ],
-    leadershipTitle: 'The leadership arm',
     leadership:
       'The Student Diversity Council, established 2017, is the formal liaison between students and Upper School administrators. Faculty attend the NAIS People of Color Conference for professional development; no student attendance at the national Student Diversity Leadership Conference is published.',
     flags: [

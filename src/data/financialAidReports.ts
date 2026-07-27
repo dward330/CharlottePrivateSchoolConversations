@@ -353,7 +353,6 @@ const COUNTRY_DAY: FinancialAidReport = {
           body: 'Nothing is published for families above the typical aid threshold but below comfortable full payment — no sliding scale, no indexed tuition. A gap shared by most independent schools, not a finding about this one.',
         },
       ],
-      questionsTitle: 'Questions worth putting to the business office',
       questionsNote:
         'Each is unanswerable from published sources and materially affects what a family pays or receives.',
       questions: [
@@ -604,7 +603,6 @@ const CANNON: FinancialAidReport = {
           body: 'Senior trip $2,000 → $2,300 · sophomore trip $1,000 → $1,300 · Washington D.C. trip $1,100 → $1,200 · Grade 9 trip $500 → **$400 (down)** · AP exam, marine science trip, Chromebook fee and Grade 5 trip all unchanged.',
         },
       ],
-      questionsTitle: 'Questions worth putting to the business office',
       questionsNote:
         'Each is unanswerable from published sources and materially affects what a family pays or receives.',
       questions: [
@@ -852,7 +850,6 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
           body: 'Section 4 is the weak point at 62%: the 50% ceiling is published, but no total awarded, no share of students, no average and no median. Gifts *received into* the assistance fund are published ($48,422 in 2020–21 falling to $23,798 in 2024–25) — but money received is not money awarded, and the two should not be read as each other.',
         },
       ],
-      questionsTitle: 'Questions worth putting to the business office',
       questionsNote:
         'Ordered by how much the answer would change a family\'s picture.',
       questions: [
@@ -1103,7 +1100,6 @@ const DAVIDSON_DAY: FinancialAidReport = {
           body: 'A commercial service that digitises Form 990 filings reports **$742,270** in grants and assistance to individuals for the fiscal year ending June 2024. We could not open the filed return to verify it, it sits two years behind the 2026–27 year, and it is not a school-published aid budget. It should not be read as one.',
         },
       ],
-      questionsTitle: 'Questions worth putting to the business office',
       questionsNote:
         'Each is unanswerable from published sources and materially affects what a family pays or receives.',
       questions: [
@@ -1423,7 +1419,6 @@ const CHARLOTTE_LATIN: FinancialAidReport = {
           body: '**A stale page is still circulating.** The live tuition page gives the aid deadline as 15 January 2027, but search engines still serve cached text from the same address giving 15 January 2026. Open the page directly rather than trusting the snippet. **The contact address is misspelled in one place** — the tuition page invites inquiries at an address whose domain has two letters transposed, while the correct address appears elsewhere on the same page. Mail to the misspelled version will not arrive; use the contact panel.',
         },
       ],
-      questionsTitle: 'Questions worth putting to the business office',
       questionsNote:
         'Each is unanswerable from published sources and materially affects what a family pays or receives.',
       questions: [
@@ -1733,7 +1728,6 @@ const PROVIDENCE_DAY: FinancialAidReport = {
           body: 'Widely-circulated third-party listings carry tuition figures that agree neither with each other nor with the school — an "≈$20,500" single rate, a "$34,430" 2024 top rate, a "$20,800–$29,620" range, a "$23,040–$32,810" 2024–25 range. **None** matches the school\'s published 2026–27 bands of $25,510–$36,325. Aggregators cache prior-year figures and are frequently out of date — treat the school\'s own tuition page as the only authority, even when a search engine surfaces an aggregator above it.',
         },
       ],
-      questionsTitle: 'Questions worth putting to the business office',
       questionsNote:
         'Each corresponds to a gap in this report and is ordered by how much it is likely to move a family\'s total.',
       questions: [

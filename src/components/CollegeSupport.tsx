@@ -18,6 +18,7 @@
 // card never renders. Nothing here fills a gap with placeholder content.
 
 import { useMemo, useState } from 'react'
+import { localizeMoneyText } from '../lib/format.ts'
 import type {
   Counseling,
   CsFlag,
@@ -32,6 +33,7 @@ import type {
   WholeClass,
 } from '../data/collegeSupport.ts'
 import { COLLEGE_FILTERS } from '../data/collegeSupport.ts'
+import { useTranslation } from 'react-i18next'
 
 /* ------------------------------------------------------------ primitives -- */
 
@@ -122,7 +124,7 @@ function Stats({ stats }: { stats: CsStat[] }) {
     >
       {stats.map((s) => (
         <div key={s.label} className="cs-stat">
-          <div className="cs-stat-val">{s.value}</div>
+          <div className="cs-stat-val">{localizeMoneyText(s.value)}</div>
           <div className="cs-stat-label text-muted">{s.label}</div>
         </div>
       ))}
@@ -185,6 +187,7 @@ function RichText({ text }: { text: string }) {
 /* ------------------------------------ 1a · the transcript colleges see ---- */
 
 export function TranscriptBody({ data }: { data: Transcript }) {
+  const { t } = useTranslation()
   return (
     <div className="cs-body">
       <Lead headline={data.headline} subhead={data.subhead} />
@@ -196,7 +199,7 @@ export function TranscriptBody({ data }: { data: Transcript }) {
       <div className="cs-split">
         {data.merit.length > 0 && (
           <div>
-            <Heading>{data.meritTitle ?? 'The National Merit ledger'}</Heading>
+            <Heading>{data.meritTitle ?? t('sections.nationalMeritLedger')}</Heading>
             <div className="cs-ledger-wrap">
               <table className="cs-ledger">
                 <thead>
@@ -231,7 +234,7 @@ export function TranscriptBody({ data }: { data: Transcript }) {
 
         {data.depth.length > 0 && (
           <div>
-            <Heading>{data.depthTitle ?? 'Depth past the AP catalog'}</Heading>
+            <Heading>{data.depthTitle ?? t('sections.depthPastAp')}</Heading>
             <Rows rows={data.depth} />
           </div>
         )}
@@ -241,7 +244,7 @@ export function TranscriptBody({ data }: { data: Transcript }) {
           carries weighting, the rank stand-in, and the course-load norms. */}
       {data.trust.length > 0 && (
         <div className="cs-band">
-          <Heading>{data.trustTitle ?? 'How the grade is engineered to be trusted'}</Heading>
+          <Heading>{data.trustTitle ?? t('sections.gradeTrusted')}</Heading>
           <div
             className="cs-band-grid"
             style={{
@@ -267,6 +270,7 @@ export function TranscriptBody({ data }: { data: Transcript }) {
 /* ------------------------------------ 1b · the counseling engine ---------- */
 
 export function CounselingBody({ data }: { data: Counseling }) {
+  const { t } = useTranslation()
   return (
     <div className="cs-body">
       <Lead headline={data.headline} subhead={data.subhead} />
@@ -276,7 +280,7 @@ export function CounselingBody({ data }: { data: Counseling }) {
           the card and drops this block rather than showing an empty roster. */}
       {data.roster.length > 0 && (
         <>
-          <Heading>{data.rosterTitle ?? "Who's in the room"}</Heading>
+          <Heading>{data.rosterTitle ?? t('sections.whosInTheRoom')}</Heading>
           <div
             className="cs-roster"
             style={{
@@ -346,7 +350,7 @@ export function CounselingBody({ data }: { data: Counseling }) {
 
         {data.reach.length > 0 && (
           <div>
-            <Heading>{data.reachTitle ?? 'Reach & tools'}</Heading>
+            <Heading>{data.reachTitle ?? t('sections.reachAndTools')}</Heading>
             <div className="cs-reach">
               {data.reach.map((r, i) => (
                 <div key={i} className="cs-reach-row">
@@ -372,6 +376,7 @@ export function CounselingBody({ data }: { data: Counseling }) {
  * page, so it needs no router or persistence.
  */
 function CollegeList({ data }: { data: Outcomes }) {
+  const { t } = useTranslation()
   const [filter, setFilter] = useState<string>('all')
   const [query, setQuery] = useState('')
 
@@ -394,7 +399,7 @@ function CollegeList({ data }: { data: Outcomes }) {
 
   return (
     <div>
-      <Heading hint="— filter & search">
+      <Heading hint={t('collegeSupport.hintFilter')}>
         {data.collegesTitle ?? 'Every acceptance'}
       </Heading>
 
@@ -419,8 +424,8 @@ function CollegeList({ data }: { data: Outcomes }) {
         className="cs-search"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        placeholder="Filter by college name…"
-        aria-label="Filter acceptances by college name"
+        placeholder={t('collegeSupport.filterPlaceholder')}
+        aria-label={t('collegeSupport.filterAria')}
       />
 
       <div className="cs-count text-muted">
@@ -450,6 +455,7 @@ function CollegeList({ data }: { data: Outcomes }) {
 }
 
 export function OutcomesBody({ data }: { data: Outcomes }) {
+  const { t } = useTranslation()
   return (
     <div className="cs-body">
       <Lead headline={data.headline} subhead={data.subhead} />
@@ -458,7 +464,7 @@ export function OutcomesBody({ data }: { data: Outcomes }) {
       <div className="cs-split">
         {data.buckets.length > 0 && (
           <div>
-            <Heading>{data.bucketsTitle ?? 'The selectivity buckets'}</Heading>
+            <Heading>{data.bucketsTitle ?? t('sections.selectivityBuckets')}</Heading>
             <div className="cs-ledger-wrap">
               <table className="cs-ledger">
                 <thead>
@@ -492,7 +498,7 @@ export function OutcomesBody({ data }: { data: Outcomes }) {
       {data.scholarships.length > 0 && (
         <div className="cs-band">
           <Heading>
-            {data.scholarshipsTitle ?? 'Scholarship & named-award headline'}
+            {data.scholarshipsTitle ?? t('sections.scholarshipHeadline')}
           </Heading>
           <div className="cs-chips">
             {data.scholarships.map((s, i) => (
@@ -563,6 +569,7 @@ export function EdgeBody({ data }: { data: Edge }) {
 const PERCENTILE_COLS = ['10th', '25th', '50th', '75th', '90th', 'Mean']
 
 export function WholeClassBody({ data }: { data: WholeClass }) {
+  const { t } = useTranslation()
   return (
     <div className="cs-body">
       <Lead headline={data.headline} subhead={data.subhead} />
@@ -635,7 +642,7 @@ export function WholeClassBody({ data }: { data: WholeClass }) {
         {data.support.length > 0 && (
           <div>
             <Heading>
-              {data.supportTitle ?? 'Learning differences through the process'}
+              {data.supportTitle ?? t('sections.learningDifferences')}
             </Heading>
             <Rows rows={data.support} />
             {data.supportNote && <Note text={data.supportNote} />}
@@ -644,7 +651,7 @@ export function WholeClassBody({ data }: { data: WholeClass }) {
 
         {data.middle.length > 0 && (
           <div>
-            <Heading>{data.middleTitle ?? 'The middle & the non-traditional path'}</Heading>
+            <Heading>{data.middleTitle ?? t('sections.middlePath')}</Heading>
             <Rows rows={data.middle} />
           </div>
         )}
@@ -659,6 +666,7 @@ export function WholeClassBody({ data }: { data: WholeClass }) {
 /* ------------------------------------ 1f · verdict & visit checklist ------ */
 
 export function VerdictBody({ data }: { data: Verdict }) {
+  const { t } = useTranslation()
   return (
     <div className="cs-body">
       <Lead headline={data.headline} subhead={data.subhead} />
@@ -666,7 +674,7 @@ export function VerdictBody({ data }: { data: Verdict }) {
       <div className="cs-split">
         {data.points.length > 0 && (
           <div>
-            <Heading>{data.verdictTitle ?? 'Why it holds up'}</Heading>
+            <Heading>{data.verdictTitle ?? t('sections.whyItHoldsUp')}</Heading>
             <div className="cs-lever">
               {data.points.map((p) => (
                 <div key={p.label} className="cs-lever-row">
@@ -685,8 +693,8 @@ export function VerdictBody({ data }: { data: Verdict }) {
             worth nothing after the tour ends. */}
         {data.checklist.length > 0 && (
           <div>
-            <Heading hint="— tick as you go">
-              {data.checklistTitle ?? 'Ask on the tour'}
+            <Heading hint={t('sections.hintTickAsYouGo')}>
+              {data.checklistTitle ?? t('sections.askOnTour')}
             </Heading>
             <div className="cs-checklist">
               {data.checklist.map((q, i) => (

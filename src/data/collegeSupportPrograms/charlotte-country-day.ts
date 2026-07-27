@@ -374,7 +374,6 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       { value: '25 AP + IB', label: 'AP courses plus a full IB Diploma Programme' },
       { value: 'Quintiles', label: 'no rank reported — a GPA quintile table stands in' },
     ],
-    meritTitle: 'The National Merit ledger',
     merit: [
       { year: '2026', detail: '**6** Semifinalists · **5** Finalists · **13** Commended · 1 NMSC Special Scholarship (C.D. Spangler Foundation)' },
       { year: '2025', detail: '**2** Semifinalists · **2** Finalists · **5** Commended — a conspicuous trough between two normal years', unconfirmed: true },
@@ -385,7 +384,6 @@ export const charlotteCountryDay: CollegeSupportProgram = {
     ],
     meritNote:
       'The Class of 2025 line is the school’s own published figure but sits three times below the classes on either side of it, so it is flagged rather than smoothed. Note also that Semifinalist announcements land in the autumn of senior year, which is why a September 2025 post describes the Class of 2026. College Board National Recognition Program counts are not published in any year.',
-    depthTitle: 'Depth past the AP catalog',
     depth: [
       {
         label: 'Mathematics',
@@ -408,7 +406,6 @@ export const charlotteCountryDay: CollegeSupportProgram = {
         text: '**School Year Abroad** (France, Spain, Italy), **Maine Coast Semester at Chewonki**, and **ALZAR** (Patagonia and Idaho) all carry credit back to the transcript. There is no Global Online Academy membership.',
       },
     ],
-    trustTitle: 'How the grade is engineered to be trusted',
     trust: [
       {
         label: 'Weighted on a flat bump',
@@ -455,7 +452,6 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       { value: '150+', label: 'college admissions officers hosted each year' },
       { value: 'Scoir', label: 'platform for students and for rep-visit scheduling' },
     ],
-    rosterTitle: 'Who’s in the room',
     roster: [
       {
         role: 'Director',
@@ -520,7 +516,6 @@ export const charlotteCountryDay: CollegeSupportProgram = {
     ],
     mechanicsNote:
       'The Class of 2026 submitted **1,107 applications to 203 institutions** — about eight per student. Transcripts and the school report are owned by a dedicated registrar, and testing accommodations are handled by the Educational Resource Program rather than the college office.',
-    reachTitle: 'Reach & tools',
     reach: [
       '**150+** admissions officers a year, in 60-minute sessions across five fixed daily slots',
       'A defined visit window — **24 Aug to 20 Nov 2026** — scheduled through Scoir Visits',
@@ -559,7 +554,6 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       { value: '32', label: 'students to UNC–Chapel Hill — 23% of the class' },
       { value: '$14.7M', label: 'scholarship offers, Class of 2026 ($13M for 2025)' },
     ],
-    bucketsTitle: 'The selectivity buckets',
     buckets: [
       { tier: 'Ivy League', count: '7 / 8', note: '— absent Harvard, across seven published classes' },
       { tier: '“Ivy Plus”', count: '13 / 17', note: '— Stanford and Duke enrolling' },
@@ -572,7 +566,6 @@ export const charlotteCountryDay: CollegeSupportProgram = {
     collegesTitle: 'Every acceptance, 2023–2026',
     colleges,
     collegesTotal: '320 institutions · bold = enrolling a Class of 2026 student',
-    scholarshipsTitle: 'Scholarship & named-award headline',
     scholarships: [
       '$14.7M scholarship offers · Class of 2026',
       '1 Morehead-Cain Scholar (34 all-time)',
@@ -684,7 +677,6 @@ export const charlotteCountryDay: CollegeSupportProgram = {
     ],
     gpaNote:
       'All five quintiles are the school’s own published figures — nothing is interpolated — and tying each fifth to a median SAT and ACT was new in the 2025–26 profile. Grades reflect work done at Country Day only, as of the end of junior year. Over ten years the distribution has stretched at both ends: the top-quintile mean rose from 4.198 to 4.540 while the bottom-quintile floor fell from 2.546 to 2.076.',
-    supportTitle: 'Learning differences through the process',
     support: [
       {
         label: 'The Educational Resource Program',
@@ -701,7 +693,6 @@ export const charlotteCountryDay: CollegeSupportProgram = {
     ],
     supportNote:
       'No learning specialist or academic coach is named anywhere, and no staff count or credentials are published — so the caseload behind that model is unknown.',
-    middleTitle: 'The middle & the non-traditional path',
     middle: [
       {
         label: 'The list matches the distribution',
@@ -742,7 +733,6 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       'A deep, stable office and an unusually candid profile — Country Day hands admissions readers more usable context than almost any peer, then declines to publish its own test scores.',
     subhead:
       'The strengths are structural and durable; the gaps are disclosure choices, which is exactly what a tour can put pressure on.',
-    verdictTitle: 'Why it holds up',
     points: [
       {
         label: 'The profile gives readers more context than peers',
@@ -769,7 +759,6 @@ export const charlotteCountryDay: CollegeSupportProgram = {
         text: '70 destinations for 141 seniors, 55% public and 45% private, community colleges published alongside Princeton and MIT, 32 students to UNC–Chapel Hill, and a substantial HBCU pipeline with four institutions enrolling.',
       },
     ],
-    checklistTitle: 'Ask on the tour',
     checklist: [
       'Your 2024–25 profile published SAT and ACT middle-50% ranges and the 2025–26 edition dropped them. Why — and what were the Class of 2025 and 2026 ranges, and how many students tested?',
       'The Class of 2025 had 2 National Merit Semifinalists where the classes either side had 7 and 6. What happened that year?',

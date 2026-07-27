@@ -159,7 +159,6 @@ export const charlotteLatin: ClubsProgram = {
         feedsFrom: 'The Arts',
       },
     ],
-    adjacentTitle: 'Recognition that is not a society',
     adjacent: [
       {
         label: 'Named subject prizes',

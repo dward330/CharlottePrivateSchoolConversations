@@ -1,3 +1,5 @@
+import { localizeMoneyText } from '../lib/format.ts'
+import { useTranslation } from 'react-i18next'
 import {
   schools as allSchools,
   topics,
@@ -41,6 +43,7 @@ function numericOf(v: string | null | undefined): number | null {
 }
 
 export function Compare({ topic, schools }: Props) {
+  const { t } = useTranslation()
   const navigate = useNavigate()
   const activeTopic = topic && topicBySlug(topic) ? topic : topics[0]?.slug ?? null
 
@@ -63,16 +66,14 @@ export function Compare({ topic, schools }: Props) {
   return (
     <div className="page">
       <a className="back" href={toHome()} onClick={(e) => { e.preventDefault(); navigate(toHome()) }}>
-        ← Home
+        {t('compare.backHome')}
       </a>
-      <h1 className="compare-title">Compare schools</h1>
-      <p className="compare-sub">
-        {allSchools.length} schools, side by side — one research topic at a time.
-      </p>
+      <h1 className="compare-title">{t('compare.title')}</h1>
+      <p className="compare-sub">{t('compare.sub', { count: allSchools.length })}</p>
 
       <div className="controls">
         <fieldset className="control">
-          <legend>Topic</legend>
+          <legend>{t('compare.topicLegend')}</legend>
           <div className="pill-row">
             {topics.map((t) => (
               <button
@@ -89,7 +90,7 @@ export function Compare({ topic, schools }: Props) {
         </fieldset>
 
         <fieldset className="control">
-          <legend>Schools ({selected.length} of {allSchools.length})</legend>
+          <legend>{t('compare.schoolsLegend', { selected: selected.length, total: allSchools.length })}</legend>
           <div className="pill-row">
             {allSchools.map((s) => {
               const on = selected.includes(s.slug)
@@ -107,22 +108,22 @@ export function Compare({ topic, schools }: Props) {
               )
             })}
           </div>
-          <p className="control-hint">Click a school to add or remove its column.</p>
+          <p className="control-hint">{t('compare.schoolsHint')}</p>
         </fieldset>
       </div>
 
       {cols.length === 0 ? (
-        <p className="empty">Select at least one school to compare.</p>
+        <p className="empty">{t('compare.empty')}</p>
       ) : (
         <div className="table-frame">
           <BlueprintCorners />
-          <div className="table-wrap" role="region" aria-label="Comparison table" tabIndex={0}>
+          <div className="table-wrap" role="region" aria-label={t('compare.tableAria')} tabIndex={0}>
             <table className="compare">
               <thead>
                 <tr>
                   <th className="corner" scope="col">
                     <span className="corner-label">{topicBySlug(activeTopic ?? '')?.name}</span>
-                    <span className="corner-sub">Research metric</span>
+                    <span className="corner-sub">{t('compare.researchMetric')}</span>
                   </th>
                   {cols.map((s) => (
                     <th
@@ -146,7 +147,7 @@ export function Compare({ topic, schools }: Props) {
               {valueMetrics.length > 0 && (
                 <tbody>
                   <tr className="group-row">
-                    <td className="group-label" colSpan={cols.length + 1}>Key stats</td>
+                    <td className="group-label" colSpan={cols.length + 1}>{t('compare.keyStats')}</td>
                   </tr>
                   {valueMetrics.map((vm) => {
                     // Highlight the best value only when there's a real spread.
@@ -172,9 +173,9 @@ export function Compare({ topic, schools }: Props) {
                               style={{ ['--brand' as string]: brandOf(s.slug).color }}
                             >
                               {v != null ? (
-                                <span className="mark-val">{v}</span>
+                                <span className="mark-val">{localizeMoneyText(v)}</span>
                               ) : (
-                                <span className="mark-na" title="Not available">N/A</span>
+                                <span className="mark-na" title={t('compare.notAvailable')}>{t('compare.na')}</span>
                               )}
                             </td>
                           )
@@ -187,23 +188,23 @@ export function Compare({ topic, schools }: Props) {
               <tbody>
                 {valueMetrics.length > 0 && (
                   <tr className="group-row">
-                    <td className="group-label" colSpan={cols.length + 1}>Research coverage</td>
+                    <td className="group-label" colSpan={cols.length + 1}>{t('compare.researchCoverage')}</td>
                   </tr>
                 )}
                 {metrics.map((m) => (
                   <tr key={m.metric.key}>
                     <th scope="row" className="row-metric">
                       <span className="row-metric-label">{m.metric.label}</span>
-                      <span className="row-metric-cov">{m.coverage}/{allSchools.length} schools</span>
+                      <span className="row-metric-cov">{t('compare.coverage', { count: m.coverage, total: allSchools.length })}</span>
                     </th>
                     {cols.map((s) => {
                       const has = schoolHasMetric(activeTopic!, s.slug, m.metric.key)
                       return (
                         <td key={s.slug} className={has ? 'cell yes' : 'cell no'}>
                           {has ? (
-                            <span className="mark-check" title="Researched"><CheckIcon /></span>
+                            <span className="mark-check" title={t('compare.researched')}><CheckIcon /></span>
                           ) : (
-                            <span className="mark-na" title="Not available">N/A</span>
+                            <span className="mark-na" title={t('compare.notAvailable')}>{t('compare.na')}</span>
                           )}
                         </td>
                       )
@@ -218,9 +219,8 @@ export function Compare({ topic, schools }: Props) {
 
       {cols.length > 0 && (
         <p className="table-note">
-          <span className="mark-check"><CheckIcon /></span> researched for this school ·{' '}
-          <span className="mark-na">N/A</span> not in our research yet. Tap a school to read
-          the full write-up.
+          <span className="mark-check"><CheckIcon /></span> {t('compare.footnote')}{' '}
+          <span className="mark-na">{t('compare.na')}</span> {t('compare.footnoteRest')}
         </p>
       )}
     </div>

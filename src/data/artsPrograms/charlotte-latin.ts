@@ -211,7 +211,6 @@ export const charlotteLatin: ArtsProgram = {
       'One band, one orchestra and one choir per division — deliberately inclusive rather than tiered, with a two-step theory path to AP.',
     subhead:
       'The school’s own framing: a place for "both the most advanced student and those trying something new for the first time."',
-    boardTitle: 'The ensemble board',
     tracks: [
       {
         label: 'Curricular — join by enrolling',
@@ -274,7 +273,6 @@ export const charlotteLatin: ArtsProgram = {
       { name: 'Fashion & fiber', detail: 'practiced but not a named course — two Scholastic pieces plus a student fashion show' },
       { name: 'Per-studio detail', detail: 'not published — which of the six studios holds ceramics, a kiln or a darkroom is unknown' },
     ],
-    pathTitle: 'The course path',
     path: [
       { name: 'Grade 8 self-designed' },
       { name: 'Art Studio I' },
@@ -283,7 +281,6 @@ export const charlotteLatin: ArtsProgram = {
     ],
     pathNote:
       'Photography runs alongside. There is NO AP Studio Art, no AP 2-D/3-D Art & Design and no AP Art History — the capstone is Art Studio IV plus the Senior Art Show. The course page does list AP Music Theory, so the absence is structural, not a publishing gap',
-    exhibitsTitle: 'Where the work goes public',
     exhibits: [
       {
         when: 'February',
@@ -325,7 +322,6 @@ export const charlotteLatin: ArtsProgram = {
       'A broad, inclusive arts culture with a real Blumey win and a strong tech-theatre track — but thin external validation and no AP studio path.',
     subhead:
       'The gaps here are unusually specific, which makes them good tour questions: no auditioned ensembles, no AP studio art, and an arts facilities page with no text on it.',
-    holdsUpTitle: 'Why it holds up',
     holdsUp: [
       {
         label: 'A Blumey win in the marquee category',
@@ -348,7 +344,6 @@ export const charlotteLatin: ArtsProgram = {
         text: 'a Gold Key for photography plus recognized work in fashion, oil painting and drawing across multiple years — and Cabaret sold out with a managed box-office waitlist.',
       },
     ],
-    askTitle: 'Ask on the tour',
     ask: [
       'You offer AP Music Theory but no AP Studio Art, AP 2-D/3-D Art & Design or AP Art History. If my child wants to submit a college-level studio portfolio, what is the path past Art Studio IV?',
       'Latin had two Blumey wins in 2022, one stage-manager nomination in 2025, and zero nominations for Cabaret in 2026. What changed, and where is the musical theatre program heading with The Little Mermaid?',

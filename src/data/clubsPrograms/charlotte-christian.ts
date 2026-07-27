@@ -86,7 +86,6 @@ export const charlotteChristian: ClubsProgram = {
         text: 'Beyond Romans 12, the parent bodies are PTF (Parent Teacher Fellowship) and N.E.W. (Newcomers Embraced & Welcomed) — new-family assimilation rather than identity-based groups — plus the Haverim Ladies’ Bible Study.',
       },
     ],
-    leadershipTitle: 'The leadership arm',
     leadership:
       'A nine-member prefect system of faculty-mentored student leaders — Head, Academic, Admissions, Athletic, Global Awareness, Fine Arts, Service, Spiritual Life and Student Life. The Global Awareness Prefect is the identity and global leadership role; the Service Prefect is the civic one.',
     flags: [
@@ -195,7 +194,6 @@ export const charlotteChristian: ClubsProgram = {
         feedsFrom: 'world languages',
       },
     ],
-    adjacentTitle: 'Recognition that is not a society',
     adjacent: [
       {
         label: 'Academic Conservatory Program',

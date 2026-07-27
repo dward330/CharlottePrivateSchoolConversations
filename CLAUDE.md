@@ -57,6 +57,20 @@ register it in `SUPPORTED` and `resources` in `src/lib/i18n.ts`.
   translated content is in scope, it should be locale-keyed at the data layer instead
   (e.g. `sportsPrograms/cannon.es.ts`), with English as the fallback.
 
+**Section headings are split by the same test.** A heading that is identical for every
+school is chrome and lives in `sections.*` in the locale files, rendered as
+`data.xTitle ?? t('sections.…')` with the `xTitle` deliberately absent from the school's
+data file. A heading that varies per school (`'Every acceptance, 2023–2025'`) is a research
+finding and stays in the data. Never re-add a lifted `xTitle` during ingest — it pins that
+heading to English. See "App-layer checklist" in the `ingest-source-material` skill.
+
+**Numbers and currency go through `src/lib/format.ts`.** Tuition figures are authored
+US-style in the research data (`'$28,500'`, `'$220K'`) and re-formatted at render time by
+`localizeMoneyText()`, so a Spanish reader sees `28.500 US$` / `220 K US$`. Only the
+presentation is localized — **the currency stays USD and the amount never changes**; no
+figure is ever re-typed, so tuition data cannot drift between languages. Never hand-convert
+a number in a data file to "translate" it.
+
 Rules of thumb: never concatenate sentence fragments — use interpolation
 (`{{count}} schools`) so word order can change per language. Use i18next's `count`
 option for anything pluralized rather than hand-rolling `s` suffixes.
