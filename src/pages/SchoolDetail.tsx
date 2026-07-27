@@ -74,6 +74,7 @@ import {
 import { afterSchoolProgram, AFTER_SCHOOL_CARDS } from '../data/afterSchool.ts'
 import { AfterSchoolCardBody } from '../components/AfterSchool.tsx'
 import { WelcomeVideo, PlayIcon } from '../components/WelcomeVideo.tsx'
+import { useTranslation } from 'react-i18next'
 
 type Loaded = Record<string, MetricGroup[]>
 
@@ -253,6 +254,7 @@ function scrollToId(e: React.MouseEvent, id: string) {
 }
 
 export function SchoolDetail({ slug }: { slug: string }) {
+  const { t } = useTranslation()
   const navigate = useNavigate()
   const school = schoolBySlug(slug)
   const [loaded, setLoaded] = useState<Loaded>({})
@@ -284,7 +286,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
     return (
       <div className="page">
         <p className="empty">
-          Unknown school. <a href={toHome()}>Back home</a>.
+          {t('school.unknown')} <a href={toHome()}>{t('school.backHome')}</a>.
         </p>
       </div>
     )

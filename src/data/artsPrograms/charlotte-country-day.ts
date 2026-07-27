@@ -221,7 +221,6 @@ export const charlotteCountryDay: ArtsProgram = {
       'Eight ensembles across Middle and Upper School, tiered into honors and open-enrollment sections, feeding conservatory summers and national honor bands.',
     subhead:
       'The school reports students earn recognition at 20+ state and regional music events a year; no itemized list of those events or results is published.',
-    boardTitle: 'The ensemble board',
     tracks: [
       {
         label: 'Honors / select tier — Upper School',
@@ -288,7 +287,6 @@ export const charlotteCountryDay: ArtsProgram = {
       { name: 'Sculpture', detail: 'clay, plaster, wood, glass, metal and mixed media' },
       { name: 'Computer graphics', detail: 'plus animation and filmmaking' },
     ],
-    pathTitle: 'The course path',
     path: [
       { name: 'Foundations' },
       { name: '2-D · 3-D studio' },
@@ -296,7 +294,6 @@ export const charlotteCountryDay: ArtsProgram = {
     ],
     pathNote:
       'AP Sculpture and AP Music Theory are named; IB art courses including IB Theatre Arts run in parallel. The exact catalog titles "AP Studio Art" and "IB Visual Arts" are not published — the pages say "AP art courses" and "IB art courses"',
-    exhibitsTitle: 'Where the work goes public',
     exhibits: [
       {
         when: 'Annual',
@@ -332,7 +329,6 @@ export const charlotteCountryDay: ArtsProgram = {
       'The deepest arts facilities of any school in this set, a dual AP-and-IB ceiling, and a statewide-honored theatre director — with a Blumey record that has cooled sharply.',
     subhead:
       'The open questions are about the undocumented NCTC championship count and the 2026 nomination shutout — both good tour material.',
-    holdsUpTitle: 'Why it holds up',
     holdsUp: [
       {
         label: 'The facility is top-tier and verified',
@@ -359,7 +355,6 @@ export const charlotteCountryDay: ArtsProgram = {
         text: 'three dedicated drama directors, one per division, with 7th graders staging Henry V and Julius Caesar.',
       },
     ],
-    askTitle: 'Ask on the tour',
     ask: [
       'Your site says five NCTC state championships. Which five years, and which plays? Only The Crane Wife is documented — and are they recent or decades old?',
       'You had zero Blumey nominations in 2026 for Frozen, after five in 2025 and about nine each in 2023 and 2024. What changed — creative-team turnover, or was Frozen chosen as a large-cast accessible show on purpose?',

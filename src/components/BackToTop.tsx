@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { useTranslation } from 'react-i18next'
 
 // A floating "back to top" button. Hidden until the page is scrolled past a
 // threshold, then fades in at the bottom-right; clicking smooth-scrolls to the top.
@@ -6,6 +7,7 @@ import { useEffect, useState } from 'react'
 // omitted it falls back to the app's default --brand.
 
 export function BackToTop({ accent }: { accent?: string }) {
+  const { t } = useTranslation()
   const [visible, setVisible] = useState(false)
 
   useEffect(() => {
@@ -19,7 +21,7 @@ export function BackToTop({ accent }: { accent?: string }) {
     <button
       type="button"
       className={`back-to-top ${visible ? 'show' : ''}`}
-      aria-label="Back to top"
+      aria-label={t('school.backToTop')}
       aria-hidden={!visible}
       tabIndex={visible ? 0 : -1}
       style={accent ? { ['--brand' as string]: accent } : undefined}

@@ -354,7 +354,6 @@ export const charlotteLatin: CollegeSupportProgram = {
       { value: '418', label: 'AP Scholar awards across the Classes of 2023–25' },
       { value: '12 / 18', label: 'National Merit Semifinalists / Commended, Class of 2026' },
     ],
-    meritTitle: 'The National Merit ledger',
     merit: [
       { year: '2026', detail: '**12** Semifinalists · **18** Commended — all named in the school’s own announcement' },
       { year: '2024', detail: '**6** Finalists · **16** Commended · 1 National Merit Scholar (Evan Li ’24)' },
@@ -364,7 +363,6 @@ export const charlotteLatin: CollegeSupportProgram = {
     ],
     meritNote:
       'The Class of 2026 alone produced 12 Semifinalists — more than half the 20 recorded across the three preceding classes combined. Both figures are school-published and the surge is real per the sources, but the school does not explain it. Note too that the current profile reports Semifinalists and Commended only: it no longer reports Finalists, so Finalist counts for 2023, 2025 and 2026 are unpublished.',
-    depthTitle: 'Depth past the AP catalog',
     depth: [
       {
         label: 'Mathematics',
@@ -387,7 +385,6 @@ export const charlotteLatin: CollegeSupportProgram = {
         text: '**Honors American Studies-History**, a double-period seminar co-created by the History and English departments and taught, per an earlier profile, “at an equivalent level of rigor and depth to Advanced Placement curricula”.',
       },
     ],
-    trustTitle: 'How the grade is engineered to be trusted',
     trust: [
       {
         label: 'Weighted — but no longer stated',
@@ -434,7 +431,6 @@ export const charlotteLatin: CollegeSupportProgram = {
       { value: '9+ yrs', label: 'documented director tenure (Jody Jennings)' },
       { value: 'SCOIR', label: 'platform, alongside the school’s own MyLatin portal' },
     ],
-    rosterTitle: 'Who’s in the room',
     roster: [
       {
         role: 'Director',
@@ -499,7 +495,6 @@ export const charlotteLatin: CollegeSupportProgram = {
     ],
     mechanicsNote:
       'Note two absences from that list. **Teacher recommendations** are not described as an office-owned process anywhere — there is no published account of how recs are solicited, assigned or capped. Neither is a **scholarship search** named as a service, and no scholarship platform is described.',
-    reachTitle: 'Reach & tools',
     reach: [
       '**~100** college representatives a year — published in the 2017–18 profile only',
       'Recurring programmes on **Financial Aid**, **Collegiate Athletics** and **Arts in College**',
@@ -537,7 +532,6 @@ export const charlotteLatin: CollegeSupportProgram = {
       { value: '5 of 8', label: 'Ivy League — absent Columbia, Princeton and Penn' },
       { value: '63 of 64', label: 'Power Four universities represented' },
     ],
-    bucketsTitle: 'The selectivity buckets',
     buckets: [
       { tier: 'Ivy League', count: '5 / 8', note: '— all five matriculated; absent Columbia, Princeton, Penn' },
       { tier: '“Ivy Plus”', count: '12 / 17', note: '— absent Johns Hopkins and Caltech' },
@@ -550,7 +544,6 @@ export const charlotteLatin: CollegeSupportProgram = {
     collegesTitle: 'Every acceptance, 2023–2025',
     colleges,
     collegesTotal: '300 institutions · bold = at least one student matriculated',
-    scholarshipsTitle: 'Scholarship & named-award headline',
     scholarships: [
       '$13M+ merit offers · Class of 2023',
       '231 merit scholarships at 85 colleges (2023)',
@@ -626,7 +619,6 @@ export const charlotteLatin: CollegeSupportProgram = {
     // last testing data it did publish attaches to the Class of 2018.
     scoreTables: [],
     quintiles: [],
-    supportTitle: 'Learning differences through the process',
     support: [
       {
         label: 'Learning Resources, founded 1985',
@@ -647,7 +639,6 @@ export const charlotteLatin: CollegeSupportProgram = {
     ],
     supportNote:
       'The published-invisibility problem, verified directly: every descriptive Learning Resources page on the live site now 404s, and the “Learning Resources” tile on the Student Support and Wellness page is an href="#" anchor with no body copy. The 1985 founding, the coaching model, the 504 process and the per-session billing survive only in archived captures — so a prospective family researching learning support today finds a tile that links nowhere. Upper School LR staffing levels and the number of students served are unpublished, and whether Margaret Sigmon is still Director could not be confirmed.',
-    middleTitle: 'The middle & the non-traditional path',
     middle: [
       {
         label: 'Breadth is the only available proxy',
@@ -684,7 +675,6 @@ export const charlotteLatin: CollegeSupportProgram = {
       'Genuinely elite in two narrow places — debate and design engineering — with a stable, unusually well-staffed counseling office, wrapped in the least transparent profile in this set.',
     subhead:
       'Almost every open question here is answerable in one conversation, because the information exists; the school simply no longer publishes it.',
-    verdictTitle: 'Why it holds up',
     points: [
       {
         label: 'Two externally validated flagship programmes',
@@ -711,7 +701,6 @@ export const charlotteLatin: CollegeSupportProgram = {
         text: 'students in AP classes must sit the exam, and four APs are deliberately open-enrollment rather than faculty-gated — so access is broader than the placement gate alone suggests.',
       },
     ],
-    checklistTitle: 'Ask on the tour',
     checklist: [
       'Your profile publishes no SAT, ACT or AP score data. What were the last class’s middle-50% SAT and ACT ranges, how many students tested, and what share of AP exams scored 3 or higher?',
       'The current profile no longer states your grading scale, your weighting, or whether you report class rank. Do AP and Honors still carry one additional quality point, and do you rank?',

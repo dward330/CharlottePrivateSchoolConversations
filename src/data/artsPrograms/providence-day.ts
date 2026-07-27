@@ -215,7 +215,6 @@ export const providenceDay: ArtsProgram = {
       'Four curricular ensembles plus auditioned groups, feeding an honors circuit that sits on the published arts calendar as recurring fixtures.',
     subhead:
       'The hardest recent result: five students selected for the 2026 ACDA Southern Region Honor Choir, chosen from over 1,500 applicants across 11 southeastern states.',
-    boardTitle: 'The ensemble board',
     tracks: [
       {
         label: 'Curricular — join by enrolling',
@@ -278,7 +277,6 @@ export const providenceDay: ArtsProgram = {
       { name: 'Print & textile', detail: 'stick-and-ink drawing, printing on fabric' },
       { name: 'Ceramics', detail: 'not published — no kiln is mentioned anywhere; ask on the tour' },
     ],
-    pathTitle: 'The course path',
     path: [
       { name: 'MS foundations' },
       { name: 'US studio courses' },
@@ -286,7 +284,6 @@ export const providenceDay: ArtsProgram = {
     ],
     pathNote:
       'AP Art History runs parallel, no portfolio required. The intermediate rungs are not published — the school describes the ladder only in prose',
-    exhibitsTitle: 'Where the work goes public',
     exhibits: [
       {
         when: 'Monthly',
@@ -326,7 +323,6 @@ export const providenceDay: ArtsProgram = {
       'A genuinely competitive arts program beside the academics: AP depth in all three disciplines, a strong NCTC record, and a calendared honors pipeline.',
     subhead:
       'The open questions are about the undocumented course ladder and about converting Blumey finalists into wins — exactly what a campus visit answers.',
-    holdsUpTitle: 'Why it holds up',
     holdsUp: [
       {
         label: 'Three AP arts courses',
@@ -349,7 +345,6 @@ export const providenceDay: ArtsProgram = {
         text: 'increasingly rare at the K–12 level, and corroborated by a student Scholastic Gold Key in photography.',
       },
     ],
-    askTitle: 'Ask on the tour',
     ask: [
       'Show me the visual arts course sequence on paper — what exactly does a student take between Middle School art and AP Studio Art? And is there ceramics, with a kiln?',
       'Of the "26 Blumey Awards" on your awards page, how many were outright wins versus nominations or finalist placements?',

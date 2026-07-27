@@ -233,7 +233,6 @@ export const charlotteChristian: CollegeSupportProgram = {
       { value: '59', label: 'AP Scholar awards in 2024 · 203 across 2023–25' },
       { value: 'No rank', label: 'a published five-quintile GPA table stands in' },
     ],
-    meritTitle: 'The National Merit ledger',
     merit: [
       { year: '15-yr (2024–25 profile)', detail: '**14** Finalists · **48** Commended Scholars' },
       { year: '15-yr (2021–22 profile)', detail: '**16** Finalists · **45** Commended Scholars' },
@@ -242,7 +241,6 @@ export const charlotteChristian: CollegeSupportProgram = {
     ],
     meritNote:
       'Both National Merit figures are rolling 15-year windows, which is why the Finalist count can fall from 16 to 14 while Commended rises from 45 to 48 — strong older years drop out of the window. That is arithmetically possible rather than an error, but the school does not explain it, and no per-class-year ledger is published in any edition.',
-    depthTitle: 'Depth past the AP catalog',
     depth: [
       {
         label: 'Mathematics',
@@ -265,7 +263,6 @@ export const charlotteChristian: CollegeSupportProgram = {
         text: '**Winterim** supplies internships and travel. The school states plainly that it does **not maintain a formal dual-enrolment programme**.',
       },
     ],
-    trustTitle: 'How the grade is engineered to be trusted',
     trust: [
       {
         label: 'Weighted — and deliberately halved',
@@ -311,7 +308,6 @@ export const charlotteChristian: CollegeSupportProgram = {
       { value: '0.5 credit', label: 'Junior Seminar is a graded graduation requirement' },
       { value: 'Scoir', label: 'platform — not Naviance' },
     ],
-    rosterTitle: 'Who’s in the room',
     roster: [
       {
         role: 'Director',
@@ -364,7 +360,6 @@ export const charlotteChristian: CollegeSupportProgram = {
     ],
     mechanicsNote:
       'Test-optional strategy is an explicit counseling topic rather than an unstated assumption — notable given only about 84% of the class sat the SAT and 35% the ACT.',
-    reachTitle: 'Reach & tools',
     reach: [
       'Scoir · an annually published School Profile · CEEB **340667**',
       'NACAC · SACAC · **NACCAP** — the Christian-college counseling association',
@@ -401,7 +396,6 @@ export const charlotteChristian: CollegeSupportProgram = {
       { value: '64%', label: 'attend out of state · 35% private · 14% Christian college' },
       { value: '$6.4M', label: 'scholarships, Class of 2025 · $13.9M across 2023–25' },
     ],
-    bucketsTitle: 'The selectivity buckets',
     buckets: [
       { tier: 'Ivy League', count: '2 / 8', note: '— Cornell and Dartmouth; Yale appears only on the older list' },
       { tier: '“Ivy Plus”', count: '4 / 17' },
@@ -414,7 +408,6 @@ export const charlotteChristian: CollegeSupportProgram = {
     collegesTitle: 'Every acceptance, 2023–2025',
     colleges,
     collegesTotal: '186 institutions · bold = a Class of 2025 graduate enrolled',
-    scholarshipsTitle: 'Scholarship & named-award headline',
     scholarships: [
       '$6.4M scholarships · Class of 2025',
       '$13,875,968 across the Classes of 2023–25',
@@ -514,7 +507,6 @@ export const charlotteChristian: CollegeSupportProgram = {
     ],
     gpaNote:
       'All five quintiles are the school’s own published figures. Comparing them with the Class of 2022 table shows material movement in three years: every quintile boundary rose — the first-quintile floor from 4.133 to 4.277 and the third from 3.56 to 3.686 — while the fifth-quintile floor FELL from 2.179 to 1.941. The distribution rose at the top and stretched at the bottom. No unweighted distribution is published.',
-    supportTitle: 'Learning differences through the process',
     support: [
       {
         label: 'What is published is counseling, not learning support',
@@ -531,7 +523,6 @@ export const charlotteChristian: CollegeSupportProgram = {
     ],
     supportNote:
       'This is the weakest-documented area in the entire research set. No named learning specialist, no named learning-differences programme, no psycho-educational testing, no 504 or accommodation-plan process, no extended-time policy and no College Board accommodations coordination could be found. Given the school gates Honors and AP placement on an A in the prerequisite course AND mandates AP exams, that combination makes this a priority question rather than a footnote.',
-    middleTitle: 'The middle & the non-traditional path',
     middle: [
       {
         label: 'The middle may be the best-served cohort',
@@ -567,7 +558,6 @@ export const charlotteChristian: CollegeSupportProgram = {
       'A structurally rigorous, transparent transcript — mandatory AP exams, a full published quintile table, a granular AP dashboard — attached to the thinnest learning-support disclosure in this set.',
     subhead:
       'The academic reporting is unusually honest. The gaps are concentrated in exactly one place, which makes the tour questions easy to aim.',
-    verdictTitle: 'Why it holds up',
     points: [
       {
         label: 'AP exams are mandatory, so the pass rate means something',
@@ -594,7 +584,6 @@ export const charlotteChristian: CollegeSupportProgram = {
         text: 'NACCAP membership plus named Christian-college and HBCU tiers, with 14% of graduates actually enrolling at a Christian college and confirmed pipelines to Wheaton, Liberty, Samford and Baylor.',
       },
     ],
-    checklistTitle: 'Ask on the tour',
     checklist: [
       'You publish no named learning specialist, no learning-differences programme and no accommodations policy. Who supports a student with a diagnosed learning difference, and who coordinates College Board accommodations?',
       'Honors and AP placement requires an A in the prerequisite course and AP exams are mandatory. How does that combination work for a student with accommodations?',

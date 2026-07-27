@@ -76,7 +76,6 @@ export const charlotteCountryDay: ClubsProgram = {
         text: 'POCIS (People of Color in Independent Schools), established here in 1999, which runs an annual gathering, a community cookout, a Lower School dance and a senior showcase · International Parents Group — families get affinity spaces too.',
       },
     ],
-    leadershipTitle: 'The leadership arm',
     leadership:
       "The Student Diversity Leadership Corps (SDLC) gives selected Middle and Upper Schoolers a formal role in the school's diversity work. Students also attend the national NAIS Student Diversity Leadership Conference, and Country Day created and hosts the Affirming Community Together (ACT) Conference for area middle schoolers — first held in 2012, it grew out of Upper Schoolers wanting to pass on what they learned at national conferences. Since 1998 the school has sent two faculty from each division and six Upper School students to the NAIS People of Color Conference every year.",
     flags: [

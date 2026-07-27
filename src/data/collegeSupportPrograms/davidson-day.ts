@@ -309,7 +309,6 @@ export const davidsonDay: CollegeSupportProgram = {
     // No merit ledger: the school publishes no National Merit record of any
     // kind, so the block is omitted rather than shown empty.
     merit: [],
-    depthTitle: 'Depth past the AP catalog',
     depth: [
       {
         label: 'Mathematics',
@@ -328,7 +327,6 @@ export const davidsonDay: CollegeSupportProgram = {
         text: 'Independent Studies and any course taken online are excluded from the GPA. No dual-enrollment partnership is published — notable given Davidson College sits one mile away. The real off-campus depth is AFAR international field research.',
       },
     ],
-    trustTitle: 'How the grade is engineered to be trusted',
     trust: [
       {
         label: 'Weighted, with a published table',
@@ -378,7 +376,6 @@ export const davidsonDay: CollegeSupportProgram = {
       { value: '9th grade', label: 'when the office says counseling begins' },
       { value: 'Scoir', label: 'platform for applications and rep-visit scheduling' },
     ],
-    rosterTitle: 'Who’s in the room',
     roster: [
       {
         role: 'Director',
@@ -427,7 +424,6 @@ export const davidsonDay: CollegeSupportProgram = {
     ],
     mechanicsNote:
       'Applications and materials are submitted through Scoir. Note what is absent from that list: teacher recommendations appear only as a Scoir submission step, with no published policy on how many, how teachers are approached, or how the office supports them.',
-    reachTitle: 'Reach & tools',
     reach: [
       '**80+** college reps hosted per year — high per-student exposure for a 198-student Upper School',
       '**~70** colleges at the co-hosted Lake Norman case-studies fair',
@@ -469,7 +465,6 @@ export const davidsonDay: CollegeSupportProgram = {
       { value: '3 of 8', label: 'Ivy League on the five-year list — absent Columbia, Harvard, Penn, Princeton, Yale' },
       { value: '$7.4M+', label: 'merit aid offered (not accepted) — Class of 2025' },
     ],
-    bucketsTitle: 'The selectivity buckets',
     buckets: [
       { tier: 'Ivy League', count: '3 / 8', note: '— Brown, Cornell, Dartmouth' },
       { tier: '“Ivy Plus”', count: '8 / 17', note: '— absent MIT, Stanford, Johns Hopkins, Caltech' },
@@ -482,7 +477,6 @@ export const davidsonDay: CollegeSupportProgram = {
     collegesTitle: 'Every acceptance, 2021–2025',
     colleges,
     collegesTotal: '255 institutions across five graduating classes',
-    scholarshipsTitle: 'Scholarship & named-award headline',
     scholarships: [
       '$7.4M+ merit offered · Class of 2025',
       '11 NCAA student-athletes',
@@ -564,7 +558,6 @@ export const davidsonDay: CollegeSupportProgram = {
     ],
     gpaNote:
       'Three summary points is the entire disclosure — there is no quintile or decile table, so an admissions reader learns the range and the midpoint but nothing about the shape: how tightly the class clusters, how many sit above 4.0, or where the 25th percentile falls. Publishing a 2.49 low alongside a 4.60 high is nonetheless a transparency choice many peer schools avoid.',
-    supportTitle: 'Learning differences through the process',
     support: [
       {
         label: 'The Learning Enrichment Center',
@@ -581,7 +574,6 @@ export const davidsonDay: CollegeSupportProgram = {
     ],
     supportNote:
       'No LEC staff are named — no roster, titles, credentials or headcount — and whether services carry a fee beyond tuition is not stated.',
-    middleTitle: 'The middle & the non-traditional path',
     middle: [
       {
         label: 'The list is the evidence',
@@ -618,7 +610,6 @@ export const davidsonDay: CollegeSupportProgram = {
       'A small, program-rich school whose strengths are process, access and spike-building — and whose weakness is disclosure.',
     subhead:
       'Every verdict point below is about what the school does. A family that evaluates schools on published outcome metrics will find less here than anywhere else in this set, which puts the burden of verification on the tour.',
-    verdictTitle: 'Why it holds up',
     points: [
       {
         label: 'The spike machinery is real and credited',
@@ -641,7 +632,6 @@ export const davidsonDay: CollegeSupportProgram = {
         text: '80+ reps a year at a 198-student Upper School, visits running all fall, plus a spring case-studies program and fair co-hosted with Cannon School that drew nearly 70 colleges.',
       },
     ],
-    checklistTitle: 'Ask on the tour',
     checklist: [
       'You don’t publish AP exam results — what share of AP exams scored 3 or higher last year, what share were 4s and 5s, and are students in an AP course required to sit the exam?',
       'The Profile says you won’t provide testing profiles. What were the actual middle-50% SAT and ACT ranges for the last class, and how many students tested?',

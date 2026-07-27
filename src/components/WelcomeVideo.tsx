@@ -1,4 +1,5 @@
 import { BlueprintCorners } from './BlueprintCorners.tsx'
+import { useTranslation } from 'react-i18next'
 
 /** Solid play triangle — marks the Welcome Video section and both of its TOC
     entries, so it reads as "not a research area" at a glance. */
@@ -26,11 +27,12 @@ export function PlayIcon({ size = 22 }: { size?: number }) {
     The iframe is plain (no `autoplay=1`), so YouTube only loads the poster frame
     until the reader presses play. */
 export function WelcomeVideo({ name, url }: { name: string; url: string }) {
+  const { t } = useTranslation()
   return (
     <section id="welcome" className="welcome-section">
       <div className="welcome-head">
         <span className="glyph"><PlayIcon /></span>
-        <h2>Welcome Video</h2>
+        <h2>{t('school.welcomeVideo')}</h2>
         <span className="welcome-note">From the school</span>
       </div>
       <div className="welcome-frame">

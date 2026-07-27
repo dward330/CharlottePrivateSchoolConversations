@@ -216,7 +216,6 @@ export const cannon: ArtsProgram = {
       'A four-year strings ladder, a Hip-Hop-inclusive Modern Ensemble, and a novice-to-portfolio production track on Ableton and Logic Pro — but no documented external honors pipeline.',
     subhead:
       'All nine Upper School music courses carry an Honors designation and most are repeatable, with the academic record reflecting rising rigour under a consistent course name.',
-    boardTitle: 'The ensemble board',
     tracks: [
       {
         label: 'Auditioned / permission-gated',
@@ -292,7 +291,6 @@ export const cannon: ArtsProgram = {
       { name: 'CDE fabrication', detail: 'CAD, woodworking, metalworking, textiles, 3D printing, laser, CNC' },
       { name: 'Electronics & coding', detail: 'inside an arts track — unusual at K–12' },
     ],
-    pathTitle: 'The course path',
     path: [
       { name: 'Visual Foundations' },
       { name: 'Studio-2D / 3D' },
@@ -301,7 +299,6 @@ export const cannon: ArtsProgram = {
     ],
     pathNote:
       'Honors Visual Foundations is the single mandatory gateway into every visual pathway. AP offers 2-D Design, 3-D Design and Drawing portfolios and may be repeated for a second portfolio; Advanced Topics: Art History is a second AP-level option for the arts student who is not a maker',
-    exhibitsTitle: 'Where the work goes public',
     exhibits: [
       {
         when: 'Rotating',
@@ -345,7 +342,6 @@ export const cannon: ArtsProgram = {
       'An arts department that weights the arts like academics — 22 courses all at honors or above, a two-year requirement, and a documented strategic mission.',
     subhead:
       'The asymmetry is the thing to understand: theatre carries hard third-party validation, while music’s external recognition is undocumented and its strength lies in production instead.',
-    holdsUpTitle: 'Why it holds up',
     holdsUp: [
       {
         label: 'The arts are weighted like academics',
@@ -372,7 +368,6 @@ export const cannon: ArtsProgram = {
         text: 'the 7:30 a.m. Varsity ensembles let a student with a full AP schedule still sing in an auditioned 40-person chorus, and put 6th graders alongside 12th graders.',
       },
     ],
-    askTitle: 'Ask on the tour',
     ask: [
       'Media Arts is promoted on your website and named as an AP Studio Art prerequisite, but it has no entry in the course catalog. Is it currently offered, and which courses actually satisfy AP entry?',
       'Ten Blumey finalist placements in 2023 and 2025 but no win I could find — how many Blumey wins has the program had, and in which years?',

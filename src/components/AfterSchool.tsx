@@ -25,6 +25,8 @@
 // school publishes nothing at all the card says so in a PUBLICATION GAP flag.
 
 import { useMemo, useState } from 'react'
+import { money, localizeMoneyText } from '../lib/format.ts'
+import { useTranslation } from 'react-i18next'
 import type {
   AfterSchoolProgram,
   AsFlag,
@@ -204,7 +206,7 @@ export function CoverageBody({ data }: { data: Coverage }) {
                             Day's 30-minute 3:00–3:30 tier would render as wide as
                             the 60-minute one beside it. */}
                         <span className="as-tl-until">to {t.until} · </span>
-                        {t.price && <span className="as-tl-price">{t.price}</span>}
+                        {t.price && <span className="as-tl-price">{localizeMoneyText(t.price)}</span>}
                         {t.estimated && <span className="as-inline-tag tag-neutral">EST.</span>}
                       </span>
                     )
@@ -279,7 +281,6 @@ export function CostBody({ data }: { data: Cost }) {
      is represented. */
   const estimated = !data.columnsVerified[days - 1]
 
-  const money = (n: number) => `$${n.toLocaleString()}`
   const periodTotal = price == null ? null : price * data.periods
   /* Per-afternoon divides the billing period into weeks — 4.33 weeks a month,
      ~18 a semester, or ~36 across a school year — times the days per week
@@ -312,7 +313,7 @@ export function CostBody({ data }: { data: Cost }) {
           ) : (
             <div key={f.label} className="as-fee">
               <span>{f.label}</span>
-              <strong>{f.value}</strong>
+              <strong>{f.value && localizeMoneyText(f.value)}</strong>
             </div>
           ),
         )}
@@ -499,6 +500,7 @@ function highlight(text: string, q: string): React.ReactNode {
 
 /** The filterable, searchable enrichment catalog. */
 function EnrichmentCatalog({ data }: { data: DayInside }) {
+  const { t } = useTranslation()
   const [day, setDay] = useState('All')
   const [grade, setGrade] = useState('All')
   const [query, setQuery] = useState('')
@@ -568,8 +570,8 @@ function EnrichmentCatalog({ data }: { data: DayInside }) {
         className="as-search"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        placeholder="Search class name or description…"
-        aria-label="Search enrichment classes"
+        placeholder={t('afterSchool.searchPlaceholder')}
+        aria-label={t('afterSchool.searchAria')}
       />
 
       <div className="as-count text-muted">
@@ -598,7 +600,7 @@ function EnrichmentCatalog({ data }: { data: DayInside }) {
                 </td>
                 <td className="as-td">{c.day}</td>
                 <td className="as-td">{c.gradeLabel}</td>
-                <td className="as-td as-td-fee">{c.fee}</td>
+                <td className="as-td as-td-fee">{localizeMoneyText(c.fee)}</td>
               </tr>
             ))}
           </tbody>
@@ -614,6 +616,7 @@ function EnrichmentCatalog({ data }: { data: DayInside }) {
 }
 
 export function DayInsideBody({ data }: { data: DayInside }) {
+  const { t } = useTranslation()
   return (
     <div className="as-body">
       <Lead headline={data.headline} subhead={data.subhead} />
@@ -642,7 +645,7 @@ export function DayInsideBody({ data }: { data: DayInside }) {
 
       {data.words.length > 0 && (
         <>
-          <Heading>{data.wordsTitle ?? "In the school's own words"}</Heading>
+          <Heading>{data.wordsTitle ?? t('sections.ownWords')}</Heading>
           <div className="as-chips">
             {data.words.map((w) => (
               <span key={w} className="tag-accent">
@@ -706,6 +709,7 @@ function Checklist({ items, title }: { items: string[]; title?: string }) {
 }
 
 export function VerdictBody({ data }: { data: Verdict }) {
+  const { t } = useTranslation()
   return (
     <div className="as-body">
       <Lead headline={data.headline} subhead={data.subhead} />
@@ -714,7 +718,7 @@ export function VerdictBody({ data }: { data: Verdict }) {
         <div>
           {data.strengths.length > 0 && (
             <>
-              <Heading>{data.strengthsTitle ?? 'Why it holds up'}</Heading>
+              <Heading>{data.strengthsTitle ?? t('sections.strengths')}</Heading>
               <div className="as-marks">
                 {data.strengths.map((s) => (
                   <div key={s} className="as-mark-row">
@@ -730,7 +734,7 @@ export function VerdictBody({ data }: { data: Verdict }) {
 
           {data.watchouts.length > 0 && (
             <>
-              <Heading>{data.watchoutsTitle ?? 'Watch-outs'}</Heading>
+              <Heading>{data.watchoutsTitle ?? t('sections.watchouts')}</Heading>
               <div className="as-marks">
                 {data.watchouts.map((w) => (
                   <div key={w} className="as-mark-row">

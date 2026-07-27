@@ -234,6 +234,33 @@ add an empty or carried-over block to make a school look complete, and do not in
 figure the source does not state. Faithful transcription and completeness are the same
 goal, not competing ones.**
 
+### 4. Translated UI strings → `src/locales/*.json`
+
+The app is internationalized (`react-i18next`; see the i18n standard in CLAUDE.md).
+Ingest touches this layer in exactly one way, and getting it wrong silently un-translates
+part of the Spanish UI.
+
+**Section headings that are identical for every school live in `src/locales/`, not in the
+data files.** Cards like "Why it holds up", "Ask on the tour", "The course path" render
+from `data.xTitle ?? t('sections.…')`. The `xTitle` field is intentionally **absent** from
+each school's data file so the translated fallback wins.
+
+When transcribing a redesign source that repeats those headings verbatim:
+
+- **Do NOT** re-add `verdictTitle: 'Why it holds up'` (or any of the ~23 lifted keys) to a
+  school's data file. Doing so overrides the translation and pins that heading to English.
+- **Do** keep an `xTitle` in the data when the heading genuinely differs per school —
+  `'Every acceptance, 2023–2025'`, `'The six mechanics the office owns'`. Those are research
+  findings, not chrome, and correctly stay in the data layer.
+
+The test is whether the string is the *same for all six schools*: same → locale file;
+varies → data file. To check what is currently lifted, grep `sections\.` in
+`src/components/`.
+
+New user-facing UI text added to a component must be a locale key, never a hardcoded
+literal. Add it to `en.json` **and** `es.json` in the same pass — a key missing from
+`es.json` silently falls back to English.
+
 ## Notes & limitations
 
 - Output is a faithful, lightly-cleaned **extraction** of the source text, not a re-summary.

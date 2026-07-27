@@ -12,6 +12,8 @@
 // silently guessed at.
 
 import { useEffect, useMemo, useRef, useState } from 'react'
+import { winPct, localizeMoneyText } from '../lib/format.ts'
+import { useTranslation } from 'react-i18next'
 import type {
   Coaching,
   CollegePipeline,
@@ -32,10 +34,11 @@ import type {
 
 /** The SOURCE row every card ends with. Citations with a URL become links. */
 function SourceRow({ sources }: { sources: SportsSource[] }) {
+  const { t } = useTranslation()
   if (sources.length === 0) return null
   return (
     <div className="sports-src srcrow">
-      <span className="tag-outline">SOURCE</span>
+      <span className="tag-outline">{t('sports.source')}</span>
       {sources.map((s) =>
         s.url ? (
           <a key={s.label} href={s.url} target="_blank" rel="noreferrer noopener">
@@ -67,7 +70,7 @@ function StatStrip({ stats }: { stats: StatTile[] }) {
     <div className="sports-stats">
       {stats.map((s) => (
         <div key={s.label} className="sports-stat">
-          <div className="sports-stat-val">{s.value}</div>
+          <div className="sports-stat-val">{localizeMoneyText(s.value)}</div>
           <div className="sports-stat-label text-muted">{s.label}</div>
         </div>
       ))}
@@ -81,7 +84,8 @@ function Heading({ children }: { children: React.ReactNode }) {
 }
 
 function ToVerify() {
-  return <span className="tag-neutral sports-verify">TO VERIFY</span>
+  const { t } = useTranslation()
+  return <span className="tag-neutral sports-verify">{t('sports.toVerify')}</span>
 }
 
 /** A depth chip (V / JV / MS) on the season board. */
@@ -92,6 +96,7 @@ function DepthChip({ level }: { level: Level }) {
 /* --------------------------------------------------- 1a · sports offered -- */
 
 export function SportsOfferedBody({ data }: { data: SportsOffered }) {
+  const { t } = useTranslation()
   return (
     <div className="sports-body">
       <Lead headline={data.headline} subhead={data.subhead} />
@@ -99,7 +104,7 @@ export function SportsOfferedBody({ data }: { data: SportsOffered }) {
 
       {/* Depth-chip legend, so V / JV / MS read without guessing. */}
       <div className="sports-legend">
-        <span className="text-muted">Depth chips:</span>
+        <span className="text-muted">{t('sports.depthChips')}</span>
         <span>
           <DepthChip level="V" /> Varsity
         </span>
@@ -145,6 +150,7 @@ export function SportsOfferedBody({ data }: { data: SportsOffered }) {
 
 /** One matrix cell: a result chip over the season's final record. */
 function ResultCell({ cell }: { cell: TitleCell }) {
+  const { t } = useTranslation()
   if (cell.result === 'NONE') {
     return (
       <div className="sports-cell">
@@ -154,9 +160,9 @@ function ResultCell({ cell }: { cell: TitleCell }) {
   }
   const chip =
     cell.result === 'RUNNER-UP' ? (
-      <span className="sports-chip-out">RUNNER-UP</span>
+      <span className="sports-chip-out">{t('sports.runnerUp')}</span>
     ) : cell.result === 'SEMIFINAL' ? (
-      <span className="text-muted sports-chip-semi">SEMIFINAL</span>
+      <span className="text-muted sports-chip-semi">{t('sports.semifinal')}</span>
     ) : (
       <span className="sports-chip">{cell.result}</span>
     )
@@ -188,22 +194,23 @@ function MatrixRow({ row }: { row: TitleRow }) {
 }
 
 export function WinningRecordBody({ data }: { data: WinningRecord }) {
+  const { t } = useTranslation()
   /* Column template: program name, one column per season, then the note. */
   const cols = `170px repeat(${data.seasonLabels.length}, 1fr) 240px`
   return (
     <div className="sports-body">
       <Lead headline={data.headline} subhead={data.subhead} />
 
-      <Heading>State-title matrix, last {data.seasonLabels.length} seasons</Heading>
+      <Heading>{t('sports.stateTitleMatrix', { count: data.seasonLabels.length })}</Heading>
       <div className="sports-scroll sports-scroll-tall">
         <div className="sports-matrix" style={{ gridTemplateColumns: cols }}>
-          <div className="sports-th">Program</div>
+          <div className="sports-th">{t('sports.program')}</div>
           {data.seasonLabels.map((l) => (
             <div key={l} className="sports-th sports-th-c">
               {l}
             </div>
           ))}
-          <div className="sports-th">Note</div>
+          <div className="sports-th">{t('sports.note')}</div>
           {data.rows.map((row) => (
             <MatrixRow key={row.program} row={row} />
           ))}
@@ -212,13 +219,13 @@ export function WinningRecordBody({ data }: { data: WinningRecord }) {
 
       {data.didNotWin && (
         <p className="sports-note text-muted">
-          <strong className="sports-note-strong">What they didn't win:</strong> {data.didNotWin}
+          <strong className="sports-note-strong">{t('sports.didntWin')}</strong> {data.didNotWin}
         </p>
       )}
 
       {data.bars.length > 0 && (
         <>
-          <Heading>Win percentage, confirmed records</Heading>
+          <Heading>{t('sports.winPercentage')}</Heading>
           <div className="sports-bars">
             {/* Keyed on program + tag, not program alone: a school can chart the
                 same sport over two different windows — Davidson Day shows boys
@@ -238,7 +245,7 @@ export function WinningRecordBody({ data }: { data: WinningRecord }) {
                 </span>
                 <span className="sports-bar-val">
                   <strong>{bar.record}</strong>{' '}
-                  <span className="text-muted">({bar.pct.toFixed(3).replace(/^0/, '')})</span>
+                  <span className="text-muted">({winPct(bar.pct)})</span>
                 </span>
               </div>
             ))}
@@ -248,7 +255,7 @@ export function WinningRecordBody({ data }: { data: WinningRecord }) {
 
       {data.seasonDetail && data.seasonDetail.length > 0 && (
         <div className="sports-detail">
-          <Heading>Season-by-season detail</Heading>
+          <Heading>{t('sports.seasonDetail')}</Heading>
           {data.seasonDetail.map((d) => (
             <p key={d.program} className="sports-detail-p">
               <strong>{d.program}:</strong> {d.text}
@@ -322,6 +329,7 @@ function RosterRow({ row, q }: { row: CollegePipeline['roster'][number]; q: stri
 }
 
 export function CollegePipelineBody({ data }: { data: CollegePipeline }) {
+  const { t } = useTranslation()
   const [filter, setFilter] = useState<'all' | 'd1' | 'p4'>('all')
   const [query, setQuery] = useState('')
   const rootRef = useRef<HTMLDivElement>(null)
@@ -359,7 +367,7 @@ export function CollegePipelineBody({ data }: { data: CollegePipeline }) {
     <div className="sports-body" ref={rootRef}>
       <Lead headline={data.headline} subhead={data.subhead} />
 
-      <Heading>The funnel</Heading>
+      <Heading>{t('sports.funnel')}</Heading>
       <div className="sports-funnel">
         {data.funnel.map((stage) => (
           <div key={stage.label} className="sports-funnel-row">
@@ -411,13 +419,13 @@ export function CollegePipelineBody({ data }: { data: CollegePipeline }) {
         <div className="sports-panel">
           {data.realityCheck && (
             <>
-              <Heading>The reality check</Heading>
+              <Heading>{t('sports.realityCheck')}</Heading>
               <p className="sports-p">{data.realityCheck}</p>
             </>
           )}
           {data.rankedRecruits && (
             <>
-              <Heading>Ranked recruits, current cycle</Heading>
+              <Heading>{t('sports.rankedRecruits')}</Heading>
               <p className="sports-p">{data.rankedRecruits}</p>
             </>
           )}
@@ -425,7 +433,7 @@ export function CollegePipelineBody({ data }: { data: CollegePipeline }) {
       </div>
 
       {/* The full commitment roster: filter tabs + search over a scrolling table. */}
-      <Heading>Full commitment roster</Heading>
+      <Heading>{t('sports.commitmentRoster')}</Heading>
       <div className="sports-rostertools">
         <div className="sports-tabs" role="group" aria-label="Filter commitments by level">
           {LEVEL_TABS.map((t) => (
@@ -445,8 +453,8 @@ export function CollegePipelineBody({ data }: { data: CollegePipeline }) {
           type="search"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Search athlete, sport, college, or conference…"
-          aria-label="Search commitments"
+          placeholder={t('sports.searchPlaceholder')}
+          aria-label={t('sports.searchAria')}
         />
         <span className="catalog-count" aria-live="polite">
           {rows.length} of {data.roster.length}
@@ -455,12 +463,12 @@ export function CollegePipelineBody({ data }: { data: CollegePipeline }) {
 
       <div className="sports-scroll">
         <div className="sports-roster">
-          <div className="sports-th">Class</div>
-          <div className="sports-th">Athlete</div>
-          <div className="sports-th">Sport</div>
-          <div className="sports-th">College</div>
-          <div className="sports-th">Conference</div>
-          <div className="sports-th sports-th-c">Level</div>
+          <div className="sports-th">{t('sports.classLabel')}</div>
+          <div className="sports-th">{t('sports.athlete')}</div>
+          <div className="sports-th">{t('sports.sport')}</div>
+          <div className="sports-th">{t('sports.college')}</div>
+          <div className="sports-th">{t('sports.conference')}</div>
+          <div className="sports-th sports-th-c">{t('sports.level')}</div>
           {rows.map((r, i) => (
             <RosterRow key={`${r.name}-${i}`} row={r} q={q} />
           ))}
@@ -481,6 +489,7 @@ export function CollegePipelineBody({ data }: { data: CollegePipeline }) {
 /* ------------------------------------------------ 1d · honors & pro alumni -- */
 
 export function HonorsBody({ data }: { data: HonorsAndPros }) {
+  const { t } = useTranslation()
   return (
     <div className="sports-body">
       <Lead headline={data.headline} subhead={data.subhead} />
@@ -498,7 +507,7 @@ export function HonorsBody({ data }: { data: HonorsAndPros }) {
         </div>
       )}
 
-      <Heading>The honors ledger</Heading>
+      <Heading>{t('sports.honorsLedger')}</Heading>
       <div className="sports-scroll">
         <div className="sports-ledger">
           {data.honors.map((h) => (
@@ -523,6 +532,7 @@ export function HonorsBody({ data }: { data: HonorsAndPros }) {
 /* ---------------------------------------------------------- 1e · coaching -- */
 
 export function CoachingBody({ data }: { data: Coaching }) {
+  const { t } = useTranslation()
   return (
     <div className="sports-body">
       <Lead headline={data.headline} subhead={data.subhead} />
@@ -535,7 +545,7 @@ export function CoachingBody({ data }: { data: Coaching }) {
             <div className="sports-coach-stats">
               {c.stats.map((s) => (
                 <div key={s.label}>
-                  <div className="sports-coach-stat">{s.value}</div>
+                  <div className="sports-coach-stat">{localizeMoneyText(s.value)}</div>
                   <div className="text-muted sports-coach-statlabel">{s.label}</div>
                 </div>
               ))}
@@ -545,7 +555,7 @@ export function CoachingBody({ data }: { data: Coaching }) {
         ))}
       </div>
 
-      <Heading>Tenure ledger — head coaches &amp; key staff</Heading>
+      <Heading>{t('sports.tenureLedger')}</Heading>
       <div className="sports-scroll sports-scroll-short">
         <div className="sports-tenures">
           {data.tenure.map((t) => (
@@ -569,7 +579,7 @@ export function CoachingBody({ data }: { data: Coaching }) {
 
       {data.worthKnowing && (
         <p className="sports-note">
-          <strong className="sports-note-strong">Worth knowing:</strong> {data.worthKnowing}
+          <strong className="sports-note-strong">{t('sports.worthKnowing')}</strong> {data.worthKnowing}
         </p>
       )}
       <SourceRow sources={data.sources} />
@@ -580,6 +590,7 @@ export function CoachingBody({ data }: { data: Coaching }) {
 /* ------------------------------------------ 1f · facilities & athlete care -- */
 
 export function FacilitiesBody({ data }: { data: Facilities }) {
+  const { t } = useTranslation()
   return (
     <div className="sports-body">
       <Lead headline={data.headline} subhead={data.subhead} />
@@ -603,7 +614,7 @@ export function FacilitiesBody({ data }: { data: Facilities }) {
 
       <div className="sports-split">
         <div>
-          <Heading>Venue ledger</Heading>
+          <Heading>{t('sports.venueLedger')}</Heading>
           <div className="sports-scroll sports-scroll-short">
             <div className="sports-venues">
               {data.venues.map((v) => (
@@ -622,7 +633,7 @@ export function FacilitiesBody({ data }: { data: Facilities }) {
           )}
         </div>
         <div className="sports-panel">
-          <Heading>The care model</Heading>
+          <Heading>{t('sports.careModel')}</Heading>
           <div className="sports-scroll sports-scroll-med">
             <div className="sports-care">
               {data.care.map((c) => (

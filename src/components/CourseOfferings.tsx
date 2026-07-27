@@ -22,6 +22,7 @@
 
 import { useEffect, useMemo, useRef, useState } from 'react'
 import type { Course, Division } from '../data/courseOfferings.ts'
+import { useTranslation } from 'react-i18next'
 
 /** AP, Post-AP, and IB read as the advanced track and take the filled tag. */
 function isAdvancedTag(tag: string): boolean {
@@ -86,6 +87,7 @@ function Highlighted({ text, query }: { text: string; query: string }) {
 const ALL_TAB = 0
 
 export function CourseOfferingsBody({ division }: { division: Division }) {
+  const { t } = useTranslation()
   const [active, setActive] = useState(ALL_TAB)
   const [query, setQuery] = useState('')
   const [hideSources, setHideSources] = useState(false)
@@ -233,7 +235,7 @@ export function CourseOfferingsBody({ division }: { division: Division }) {
             className="input"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Filter title or description…"
+            placeholder={t('courses.filterPlaceholder')}
             aria-label={`Filter ${division.title} by title or description`}
           />
         </div>

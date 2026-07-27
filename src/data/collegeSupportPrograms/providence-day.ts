@@ -433,7 +433,6 @@ export const providenceDay: CollegeSupportProgram = {
       { value: '31', label: 'AP subjects examined, plus designated post-AP courses' },
       { value: 'No rank', label: 'a published GPA-quintile table stands in' },
     ],
-    meritTitle: 'The National Merit ledger',
     merit: [
       { year: '2026', detail: '**9** Semifinalists — all 9 advanced to Finalist · **18** Commended · 26 AP Scholars, 29 with Honor, 51 with Distinction' },
       { year: '2025', detail: '**7** Semifinalists · **16** Commended · 13 College Board National Recognition awards' },
@@ -444,7 +443,6 @@ export const providenceDay: CollegeSupportProgram = {
     ],
     meritNote:
       'The 9/18 and 7/16 pairs are different class years rather than a conflict — 2026 is a genuine step up from the recent ~7/~16 baseline. Note the currently-posted 2025–26 Academic Profile is stale on this metric: it still reports the Class of 2024 ledger although the Class of 2026 has graduated.',
-    depthTitle: 'Depth past the AP catalog',
     depth: [
       {
         label: 'Mathematics',
@@ -467,7 +465,6 @@ export const providenceDay: CollegeSupportProgram = {
         text: 'A **Global Online Academy** member, and GOA courses are indicated on the transcript — so the consortium work is legible to a reader.',
       },
     ],
-    trustTitle: 'How the grade is engineered to be trusted',
     trust: [
       {
         label: 'Weighted, and shown both ways',
@@ -513,7 +510,6 @@ export const providenceDay: CollegeSupportProgram = {
       { value: '18+ yrs', label: 'director tenure — continuity at the top' },
       { value: 'SCOIR', label: 'platform linking student, parent, counselor and college' },
     ],
-    rosterTitle: 'Who’s in the room',
     roster: [
       {
         role: 'Director',
@@ -579,7 +575,6 @@ export const providenceDay: CollegeSupportProgram = {
     ],
     mechanicsNote:
       'That is the school’s own published list, verbatim — six named workstreams. Family programming adds “Paying for College”, “Advice on College Scholarships and Aid”, a Gap Year Fair, and athletic-recruiting and arts-in-college sessions run in alternating years.',
-    reachTitle: 'Reach & tools',
     reach: [
       '**~150** college reps hosted annually, especially in the fall travel season',
       '**50+** campus visits made by the counseling team each year',
@@ -618,7 +613,6 @@ export const providenceDay: CollegeSupportProgram = {
       { value: '249', label: 'colleges accepting the Class of 2025 — a PD record' },
       { value: '$23M / $20M', label: 'Class of 2025 scholarship offers — the school’s two figures conflict' },
     ],
-    bucketsTitle: 'The selectivity buckets',
     buckets: [
       { tier: 'Ivy League', count: '8 / 8', note: '— no absences, all bolded' },
       { tier: '“Ivy Plus”', count: '17 / 17', note: '— adds Stanford, MIT, Chicago, Duke, Caltech and peers' },
@@ -631,7 +625,6 @@ export const providenceDay: CollegeSupportProgram = {
     collegesTitle: 'Every acceptance, 2023–2026',
     colleges,
     collegesTotal: '382 institutions · bold = enrolling more than one graduate',
-    scholarshipsTitle: 'Scholarship & named-award headline',
     scholarships: [
       '$23M+ merit offers · Class of 2025',
       '18th Morehead-Cain Scholar (UNC)',
@@ -735,7 +728,6 @@ export const providenceDay: CollegeSupportProgram = {
     ],
     gpaNote:
       'All five quintiles are the school’s own published figures — nothing here is interpolated. Read the spread: 4.467 → 2.930 is a 1.54 weighted-GPA gap and 1445 → 1053 a 392-point SAT gap. Because AP adds a full point, a 3.891 weighted median is a mid-B-plus unweighted transcript with some honours load. Note the quintiles describe the Class of 2026 while the test scores above describe the Class of 2025 — different cohorts, so do not blend them.',
-    supportTitle: 'Learning differences through the process',
     support: [
       {
         label: 'Learning Specialists at every division',
@@ -752,7 +744,6 @@ export const providenceDay: CollegeSupportProgram = {
     ],
     supportNote:
       'How accommodations are documented for College Board / ACT testing, and how many students hold them, is not published — and the Student Services page returned a 404 during this research pass, so the named staff should be re-confirmed.',
-    middleTitle: 'The middle & the non-traditional path',
     middle: [
       {
         label: 'The list matches the distribution',
@@ -785,7 +776,6 @@ export const providenceDay: CollegeSupportProgram = {
       'A mature, stable, high-touch college programme that delivers elite outcomes at the top and real placement through the middle — and hands colleges a transcript built to be trusted.',
     subhead:
       'The open questions are about the current year and the unpublished operational details — exactly what a campus visit answers.',
-    verdictTitle: 'Why it holds up',
     points: [
       {
         label: 'A transcript engineered to be readable',
@@ -812,7 +802,6 @@ export const providenceDay: CollegeSupportProgram = {
         text: 'NACAC ethical-practice compliance plus a commitment to report all behavioral probations, suspensions and expulsions to any college that asks, backed by a student-run Honor Council.',
       },
     ],
-    checklistTitle: 'Ask on the tour',
     checklist: [
       'Your profile shows the fifth quintile averaging a 1053 SAT and a 2.930 weighted GPA. Where did those ~35 students actually enroll last year?',
       'Is every application read before submission, and do you have a stated Early Decision / Early Action strategy?',
