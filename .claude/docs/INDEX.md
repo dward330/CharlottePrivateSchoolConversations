@@ -52,12 +52,12 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 ### Student Clubs (`student-clubs/`)
 
-- [Cannon School](student-clubs/cannon.md) — 9 docs
-- [Charlotte Christian School](student-clubs/charlotte-christian.md) — 9 docs
-- [Charlotte Country Day School](student-clubs/charlotte-country-day.md) — 9 docs
-- [Charlotte Latin School](student-clubs/charlotte-latin.md) — 7 docs
-- [Davidson Day School](student-clubs/davidson-day.md) — 8 docs
-- [Providence Day School](student-clubs/providence-day.md) — 7 docs
+- [Cannon School](student-clubs/cannon.md) — 10 docs
+- [Charlotte Christian School](student-clubs/charlotte-christian.md) — 10 docs
+- [Charlotte Country Day School](student-clubs/charlotte-country-day.md) — 10 docs
+- [Charlotte Latin School](student-clubs/charlotte-latin.md) — 8 docs
+- [Davidson Day School](student-clubs/davidson-day.md) — 9 docs
+- [Providence Day School](student-clubs/providence-day.md) — 8 docs
 
 ### The Arts (`the-arts/`)
 
@@ -70,4 +70,4 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 
 ## Data layer
-- `src/data/schools.json` — 275 documents across 7 topics and 6 schools.
+- `src/data/schools.json` — 281 documents across 7 topics and 6 schools.
