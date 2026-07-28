@@ -1119,7 +1119,9 @@ main { flex: 1; }
 /* contents nav — hairline grid of chips with a confidence meter each */
 .fa-contents {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  /* auto-fit, not a fixed 6: reports run 6 or 7 sections, and a short last row
+     used to expose the grid's own border colour as a grey block. */
+  grid-template-columns: repeat(auto-fit, minmax(148px, 1fr));
   gap: 1px;
   background: var(--border);
   border: 1px solid var(--border);
@@ -1316,10 +1318,15 @@ main { flex: 1; }
 .fa-bullet-mark { flex: none; width: 5px; height: 5px; background: var(--accent); margin-top: 6px; }
 
 .fa-boxrow { display: grid; gap: 14px; }
-.fa-boxrow.multi { grid-template-columns: repeat(3, 1fr); align-items: start; }
+/* minmax floor, not a fixed third: Spanish headings run ~25% longer than the
+   English and a rigid third wrapped them one word per line. */
+.fa-boxrow.multi {
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  align-items: start;
+}
 
 /* payment plans — four equal cards, one emphasized */
-.fa-plans { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; align-items: stretch; margin-bottom: 14px; }
+.fa-plans { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 14px; align-items: stretch; margin-bottom: 14px; }
 .fa-plan { border: 1px solid var(--border); padding: 14px; font-size: 12.5px; line-height: 1.55; }
 .fa-plan.on { border-color: var(--accent); background: var(--accent-100); }
 .fa-plan-figure { font-family: var(--heading); font-weight: 600; font-size: 22px; }
@@ -1353,13 +1360,9 @@ main { flex: 1; }
   flex-wrap: wrap;
 }
 
-@media (max-width: 1100px) {
-  .fa-contents { grid-template-columns: repeat(3, 1fr); }
-}
 @media (max-width: 900px) {
   .fa-split, .fa-split-wide { grid-template-columns: 1fr; }
   .fa-framing { grid-template-columns: 1fr; }
-  .fa-plans { grid-template-columns: repeat(2, 1fr); }
   .fa-boxrow.multi { grid-template-columns: 1fr; }
   .fa-timeline { grid-template-columns: 1fr; row-gap: 16px; }
   /* The connecting rule only reads across a row, not a stack. */
@@ -1367,8 +1370,7 @@ main { flex: 1; }
   .fa-timeline-node { padding-right: 0; }
 }
 @media (max-width: 600px) {
-  .fa-contents { grid-template-columns: repeat(2, 1fr); }
-  .fa-plans, .fa-components { grid-template-columns: 1fr; }
+  .fa-components { grid-template-columns: 1fr; }
   .fa-bars { grid-template-columns: 88px 1fr; row-gap: 8px; }
   /* The value would be too cramped in a third column; drop it under the bar. */
   .fa-bar-value { grid-column: 2; }
