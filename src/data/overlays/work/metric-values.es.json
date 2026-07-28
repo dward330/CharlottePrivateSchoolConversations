@@ -1,0 +1,1032 @@
+{
+  "topic": "metric-values",
+  "lang": "es",
+  "generated": "i18n_extract.mjs",
+  "note": "Translate each `text` into `t`. Leave `of` and `at` untouched — they are how the overlay is rebuilt and drift-checked.",
+  "strings": [
+    {
+      "text": "Upper School courses catalogued",
+      "of": "17b53156",
+      "at": [
+        "providence-day:[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Distinct Upper School course entries in the school’s own current curriculum guide. Counting conventions differ — Country Day’s index bundles language levels onto one line, so its true course count is higher than the line count shown.",
+      "of": "7af2ff24",
+      "at": [
+        "providence-day:[0].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "104",
+      "of": "6333ce50",
+      "at": [
+        "providence-day:[0].values.cannon"
+      ],
+      "t": ""
+    },
+    {
+      "text": "~135",
+      "of": "2119cb24",
+      "at": [
+        "providence-day:[0].values.charlotte-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "119",
+      "of": "743627aa",
+      "at": [
+        "providence-day:[0].values.charlotte-country-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "129",
+      "of": "6c3859a9",
+      "at": [
+        "providence-day:[0].values.charlotte-latin"
+      ],
+      "t": ""
+    },
+    {
+      "text": "~75",
+      "of": "2892a2f5",
+      "at": [
+        "providence-day:[0].values.davidson-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "149",
+      "of": "682948d3",
+      "at": [
+        "providence-day:[0].values.providence-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "AP / advanced courses",
+      "of": "1e59b54b",
+      "at": [
+        "providence-day:[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The school’s own count of college-level courses. Country Day is the only school here offering both AP and the IB Diploma; Cannon adds 13 faculty-designed Advanced Topics courses carrying the same weight as an AP.",
+      "of": "dfffc326",
+      "at": [
+        "providence-day:[1].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "14 AP + 13 AT",
+      "of": "e6fde29d",
+      "at": [
+        "providence-day:[1].values.cannon"
+      ],
+      "t": ""
+    },
+    {
+      "text": "21 AP",
+      "of": "0b1eb37d",
+      "at": [
+        "providence-day:[1].values.charlotte-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "23 AP + 18 IB",
+      "of": "da424912",
+      "at": [
+        "providence-day:[1].values.charlotte-country-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "22 AP subjects",
+      "of": "379a9867",
+      "at": [
+        "providence-day:[1].values.charlotte-latin"
+      ],
+      "t": ""
+    },
+    {
+      "text": "26 AP",
+      "of": "475d503a",
+      "at": [
+        "providence-day:[1].values.davidson-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "28 AP",
+      "of": "ca559284",
+      "at": [
+        "providence-day:[1].values.providence-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Upper School departments",
+      "of": "b7916ae2",
+      "at": [
+        "providence-day:[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Academic departments in the Upper School catalog. Cannon has no standalone computer-science department — CS sits inside Innovation & Enterprise.",
+      "of": "021487aa",
+      "at": [
+        "providence-day:[2].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "8",
+      "of": "3d0cb547",
+      "at": [
+        "providence-day:[2].values.cannon",
+        "providence-day:[19].values.charlotte-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "11",
+      "of": "1ceb2bd7",
+      "at": [
+        "providence-day:[2].values.charlotte-christian",
+        "providence-day:[2].values.providence-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "9",
+      "of": "3c0cb3b4",
+      "at": [
+        "providence-day:[2].values.charlotte-country-day",
+        "providence-day:[2].values.davidson-day",
+        "providence-day:[19].values.charlotte-country-day",
+        "providence-day:[20].values.davidson-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "13",
+      "of": "1eeb2efd",
+      "at": [
+        "providence-day:[2].values.charlotte-latin"
+      ],
+      "t": ""
+    },
+    {
+      "text": "one continuous course of study",
+      "of": "733d1e31",
+      "at": [
+        "providence-day:[3].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The school’s own lowest published entry point through Grade 12. Division bands differ: Charlotte Christian puts Grade 5 in Middle School, and Davidson Day enrolls from age 2.",
+      "of": "2be01b92",
+      "at": [
+        "providence-day:[3].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "JrK–12",
+      "of": "62538c4c",
+      "at": [
+        "providence-day:[3].values.cannon",
+        "providence-day:[12].values.cannon"
+      ],
+      "t": ""
+    },
+    {
+      "text": "JK–12",
+      "of": "12658e2c",
+      "at": [
+        "providence-day:[3].values.charlotte-christian",
+        "providence-day:[3].values.charlotte-country-day",
+        "providence-day:[12].values.charlotte-christian",
+        "providence-day:[12].values.charlotte-country-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "TK–12",
+      "of": "0ebb0ed6",
+      "at": [
+        "providence-day:[3].values.charlotte-latin",
+        "providence-day:[3].values.providence-day",
+        "providence-day:[12].values.charlotte-latin",
+        "providence-day:[12].values.providence-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Age 2–12",
+      "of": "8658981c",
+      "at": [
+        "providence-day:[3].values.davidson-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "AP scope",
+      "of": "d2404258",
+      "at": [
+        "providence-day:[4].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "AP exam volume for the most recent reported year, or AP course/subject count where exam volume is unpublished. IB flagged where offered.",
+      "of": "23eca0ec",
+      "at": [
+        "providence-day:[4].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "425 AP exams",
+      "of": "83fb37fb",
+      "at": [
+        "providence-day:[4].values.cannon"
+      ],
+      "t": ""
+    },
+    {
+      "text": "21 AP courses",
+      "of": "9bef3bd3",
+      "at": [
+        "providence-day:[4].values.charlotte-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "530 AP exams + IB",
+      "of": "733470d4",
+      "at": [
+        "providence-day:[4].values.charlotte-country-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "23 AP subjects",
+      "of": "5123698c",
+      "at": [
+        "providence-day:[4].values.charlotte-latin"
+      ],
+      "t": ""
+    },
+    {
+      "text": "1,213 AP exams",
+      "of": "f60a550b",
+      "at": [
+        "providence-day:[4].values.providence-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "AP scoring 3+",
+      "of": "bb9de4e1",
+      "at": [
+        "providence-day:[5].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Share of AP exams scoring 3 or higher, most recent reported year. Charlotte Latin & Davidson Day do not publish a pass rate.",
+      "of": "abcf3feb",
+      "at": [
+        "providence-day:[5].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "92%",
+      "of": "decf5375",
+      "at": [
+        "providence-day:[5].values.cannon"
+      ],
+      "t": ""
+    },
+    {
+      "text": "89%",
+      "of": "5cb0b6ed",
+      "at": [
+        "providence-day:[5].values.charlotte-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "93%",
+      "of": "3ad222e0",
+      "at": [
+        "providence-day:[5].values.charlotte-country-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "94%",
+      "of": "3ac0d9bf",
+      "at": [
+        "providence-day:[5].values.providence-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "National Merit",
+      "of": "c119ff02",
+      "at": [
+        "providence-day:[6].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Most recent single-class Semifinalist/Finalist count the school announced. Cannon & Davidson Day unpublished; Charlotte Christian reports only rolling multi-year totals.",
+      "of": "08733780",
+      "at": [
+        "providence-day:[6].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2 Finalists ’25",
+      "of": "7f5dd40a",
+      "at": [
+        "providence-day:[6].values.charlotte-country-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "12 Semifinalists ’26",
+      "of": "8205ef02",
+      "at": [
+        "providence-day:[6].values.charlotte-latin"
+      ],
+      "t": ""
+    },
+    {
+      "text": "7 Semifinalists ’25",
+      "of": "8b099623",
+      "at": [
+        "providence-day:[6].values.providence-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Seniors per counselor",
+      "of": "bb1a037b",
+      "at": [
+        "providence-day:[7].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Approximate seniors per dedicated college counselor at peak application season, from each school’s note.",
+      "of": "d8b27599",
+      "at": [
+        "providence-day:[7].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "28:1",
+      "of": "2d11b212",
+      "at": [
+        "providence-day:[7].values.cannon"
+      ],
+      "t": ""
+    },
+    {
+      "text": "~47:1",
+      "of": "6d315a65",
+      "at": [
+        "providence-day:[7].values.charlotte-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "~34:1",
+      "of": "6546401f",
+      "at": [
+        "providence-day:[7].values.charlotte-country-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "~36:1",
+      "of": "1ee45b4d",
+      "at": [
+        "providence-day:[7].values.charlotte-latin"
+      ],
+      "t": ""
+    },
+    {
+      "text": "~23:1",
+      "of": "32575577",
+      "at": [
+        "providence-day:[7].values.davidson-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "~44:1",
+      "of": "a80d4a10",
+      "at": [
+        "providence-day:[7].values.providence-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Top tuition",
+      "of": "233f7a8c",
+      "at": [
+        "providence-day:[8].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Highest published grade-band tuition, 2026–27 school year.",
+      "of": "7c10f0b3",
+      "at": [
+        "providence-day:[8].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "$32,070",
+      "of": "f55a5a85",
+      "at": [
+        "providence-day:[8].values.cannon"
+      ],
+      "t": ""
+    },
+    {
+      "text": "$27,055",
+      "of": "54ac7b3e",
+      "at": [
+        "providence-day:[8].values.charlotte-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "$34,075",
+      "of": "bb245580",
+      "at": [
+        "providence-day:[8].values.charlotte-country-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "$36,500",
+      "of": "05d1c615",
+      "at": [
+        "providence-day:[8].values.charlotte-latin"
+      ],
+      "t": ""
+    },
+    {
+      "text": "$26,910",
+      "of": "d7e28b59",
+      "at": [
+        "providence-day:[8].values.davidson-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "$36,325",
+      "of": "8315551a",
+      "at": [
+        "providence-day:[8].values.providence-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "% receiving aid",
+      "of": "dcbef77c",
+      "at": [
+        "providence-day:[9].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Share of students/families receiving aid as the school states it. “~” where the school says “approximately”; year/denominator vary — see the school’s report. Charlotte Christian & Davidson Day do not publish this.",
+      "of": "aeb0b11c",
+      "at": [
+        "providence-day:[9].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "24%",
+      "of": "3edd8ba2",
+      "at": [
+        "providence-day:[9].values.cannon"
+      ],
+      "t": ""
+    },
+    {
+      "text": "~20%",
+      "of": "7c1640da",
+      "at": [
+        "providence-day:[9].values.charlotte-country-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "14%",
+      "of": "842974e7",
+      "at": [
+        "providence-day:[9].values.charlotte-latin"
+      ],
+      "t": ""
+    },
+    {
+      "text": "~21%",
+      "of": "5813c997",
+      "at": [
+        "providence-day:[9].values.providence-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Aid awarded / year",
+      "of": "c5ec8b05",
+      "at": [
+        "providence-day:[10].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Total tuition assistance awarded, most recent year the school states a figure. Charlotte Christian & Davidson Day do not publish a total; Country Day’s published totals conflict and are omitted.",
+      "of": "2d93b266",
+      "at": [
+        "providence-day:[10].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "$3.0M",
+      "of": "f5d8fd59",
+      "at": [
+        "providence-day:[10].values.cannon"
+      ],
+      "t": ""
+    },
+    {
+      "text": "$3.25M",
+      "of": "22c9d5fe",
+      "at": [
+        "providence-day:[10].values.charlotte-latin"
+      ],
+      "t": ""
+    },
+    {
+      "text": "$3.68M",
+      "of": "d21cc86b",
+      "at": [
+        "providence-day:[10].values.providence-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Average award",
+      "of": "d52ae269",
+      "at": [
+        "providence-day:[11].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Average aid grant where the school publishes one. Most schools publish neither an average nor a median.",
+      "of": "f67cb39d",
+      "at": [
+        "providence-day:[11].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "$17,900",
+      "of": "9e06e14c",
+      "at": [
+        "providence-day:[11].values.charlotte-latin"
+      ],
+      "t": ""
+    },
+    {
+      "text": "$13,695",
+      "of": "63abc83b",
+      "at": [
+        "providence-day:[11].values.providence-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Program span",
+      "of": "a03fe315",
+      "at": [
+        "providence-day:[12].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Grade span of the arts program as each school states it.",
+      "of": "b49060de",
+      "at": [
+        "providence-day:[12].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Age 2–Gr 12",
+      "of": "928a1a5d",
+      "at": [
+        "providence-day:[12].values.davidson-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Signature recognition",
+      "of": "b770b2aa",
+      "at": [
+        "providence-day:[13].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The most notable arts recognition or distinction named in each school’s note (measured differently per school).",
+      "of": "45fef1e1",
+      "at": [
+        "providence-day:[13].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NCTC festival",
+      "of": "d4051bdd",
+      "at": [
+        "providence-day:[13].values.cannon"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Blumey Best Show",
+      "of": "cdb2efd0",
+      "at": [
+        "providence-day:[13].values.charlotte-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "31+ Blumey noms",
+      "of": "1b07308b",
+      "at": [
+        "providence-day:[13].values.charlotte-country-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "80%+ participation",
+      "of": "2f0d86b8",
+      "at": [
+        "providence-day:[13].values.charlotte-latin"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Blumey recognition",
+      "of": "cc199a5c",
+      "at": [
+        "providence-day:[13].values.providence-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Advanced coursework",
+      "of": "a79c3149",
+      "at": [
+        "providence-day:[14].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Advanced (AP/IB) arts coursework offered, where the note names it.",
+      "of": "340c2db7",
+      "at": [
+        "providence-day:[14].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "AP Studio Art",
+      "of": "c75dc683",
+      "at": [
+        "providence-day:[14].values.cannon"
+      ],
+      "t": ""
+    },
+    {
+      "text": "AP + IB",
+      "of": "3b521870",
+      "at": [
+        "providence-day:[14].values.charlotte-country-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "3 AP arts",
+      "of": "513cfd73",
+      "at": [
+        "providence-day:[14].values.providence-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Ensembles / offerings",
+      "of": "65db4389",
+      "at": [
+        "providence-day:[15].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Count or breadth of ensembles / arts offerings as each note describes them.",
+      "of": "66e31b3f",
+      "at": [
+        "providence-day:[15].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "3 pillars",
+      "of": "176bc52f",
+      "at": [
+        "providence-day:[15].values.cannon"
+      ],
+      "t": ""
+    },
+    {
+      "text": "40+ electives",
+      "of": "4a7cca16",
+      "at": [
+        "providence-day:[15].values.charlotte-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "8 ensembles",
+      "of": "10a2036b",
+      "at": [
+        "providence-day:[15].values.charlotte-country-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "4 ensembles",
+      "of": "ddc02b07",
+      "at": [
+        "providence-day:[15].values.providence-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Flagship result",
+      "of": "472b065e",
+      "at": [
+        "providence-day:[16].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The single most notable competitive club achievement documented in each school’s note.",
+      "of": "d2360dbe",
+      "at": [
+        "providence-day:[16].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "FLL Worlds top 100",
+      "of": "6601652a",
+      "at": [
+        "providence-day:[16].values.cannon"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Chess 2nd place",
+      "of": "b9f2156c",
+      "at": [
+        "providence-day:[16].values.charlotte-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Model UN — 6 awards",
+      "of": "b0aa007f",
+      "at": [
+        "providence-day:[16].values.charlotte-country-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Debate top-20 US",
+      "of": "75c75ed4",
+      "at": [
+        "providence-day:[16].values.charlotte-latin"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Battle of Books 1st",
+      "of": "bcec0bda",
+      "at": [
+        "providence-day:[16].values.davidson-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "DECA → ICDC ’26",
+      "of": "d41ceb82",
+      "at": [
+        "providence-day:[16].values.providence-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Participation signal",
+      "of": "c51dd962",
+      "at": [
+        "providence-day:[17].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A breadth-of-participation figure where the school publishes one (measured differently per school — see the school’s note). Charlotte Latin’s figure is sports participation.",
+      "of": "11f5cf07",
+      "at": [
+        "providence-day:[17].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "~10k service hrs",
+      "of": "546c8d85",
+      "at": [
+        "providence-day:[17].values.cannon"
+      ],
+      "t": ""
+    },
+    {
+      "text": "~50% mentor weekly",
+      "of": "c1f3ec73",
+      "at": [
+        "providence-day:[17].values.charlotte-country-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "~90% play a sport",
+      "of": "a1d11602",
+      "at": [
+        "providence-day:[17].values.charlotte-latin"
+      ],
+      "t": ""
+    },
+    {
+      "text": "~50% in service clubs",
+      "of": "c3fd9e34",
+      "at": [
+        "providence-day:[17].values.providence-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Latest pickup time",
+      "of": "678b6663",
+      "at": [
+        "providence-day:[18].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "End of the Lower-School extended-care/aftercare day. Verify current hours with the school.",
+      "of": "33e992af",
+      "at": [
+        "providence-day:[18].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "6:00 PM",
+      "of": "434a888c",
+      "at": [
+        "providence-day:[18].values.charlotte-country-day",
+        "providence-day:[18].values.charlotte-latin",
+        "providence-day:[18].values.davidson-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Power 4 commits",
+      "of": "1f2f8490",
+      "at": [
+        "providence-day:[19].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Distinct athletes committed to an SEC / Big Ten / ACC / Big 12 program, Classes of 2024–2026. Documented minimum.",
+      "of": "4b7d536c",
+      "at": [
+        "providence-day:[19].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "1",
+      "of": "340ca71c",
+      "at": [
+        "providence-day:[19].values.cannon"
+      ],
+      "t": ""
+    },
+    {
+      "text": "3",
+      "of": "360caa42",
+      "at": [
+        "providence-day:[19].values.charlotte-latin",
+        "providence-day:[19].values.davidson-day",
+        "providence-day:[20].values.cannon"
+      ],
+      "t": ""
+    },
+    {
+      "text": "17",
+      "of": "1aeb28b1",
+      "at": [
+        "providence-day:[19].values.providence-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Division I commits",
+      "of": "ce720efb",
+      "at": [
+        "providence-day:[20].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Distinct athletes committed to any NCAA Division I program, Classes of 2024–2026 (includes the Power 4 count above). Documented minimum.",
+      "of": "53ecb641",
+      "at": [
+        "providence-day:[20].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "26",
+      "of": "8bf29659",
+      "at": [
+        "providence-day:[20].values.charlotte-christian"
+      ],
+      "t": ""
+    },
+    {
+      "text": "25",
+      "of": "88f291a0",
+      "at": [
+        "providence-day:[20].values.charlotte-country-day"
+      ],
+      "t": ""
+    },
+    {
+      "text": "14",
+      "of": "17eb23f8",
+      "at": [
+        "providence-day:[20].values.charlotte-latin"
+      ],
+      "t": ""
+    },
+    {
+      "text": "39",
+      "of": "90f05fa1",
+      "at": [
+        "providence-day:[20].values.providence-day"
+      ],
+      "t": ""
+    }
+  ]
+}

@@ -42,6 +42,11 @@ export const PROSE_KEYS = new Set([
   // Course Offerings: the course one-liner, the collapsed-card teaser, and the
   // honest "school publishes subject areas, not named courses" note.
   'description', 'teaser', 'notPublished',
+  // Financial Aid report. `questions` is the parent-facing checklist that is the
+  // point of the last section; the note/caption/title fields carry every figure
+  // caveat in the document.
+  'questions', 'navTitle', 'bullets', 'figureCaption', 'figureNote', 'figureNote2',
+  'componentsTitle', 'componentsAside', 'componentsNote', 'questionsNote',
   'kicker', 'verdict', 'result',
   // Tenure and record annotations read as phrases, not bare figures: "since 2002",
   // "long-tenured", "15+ years", "2 OF 3 YRS", "meet-scored", "stroke play",
@@ -92,6 +97,10 @@ export const PROSE_KEYS = new Set([
 export const SKIP_KEYS = new Map([
   ['url', 'link target'],
   ['sourceUrl', 'link target'],
+  ['status', 'render code — priced / range / unpriced, mapped to a glyph'],
+  ['icon', 'render code — info / clock / book, mapped to an SVG path'],
+  ['topic', 'topic slug — routing key, never displayed'],
+  ['delta', 'figure delta — "+$950", "+4.5%"'],
   ['src', 'asset path'],
   ['id', 'internal key'],
   ['name', 'proper noun — people, schools, colleges, sports, venues'],
@@ -215,6 +224,35 @@ export const PATH_OVERRIDES = new Map([
   // "Top-75 Liberal Arts". Marked prose so those translate; the translator
   // leaves the proper nouns identical and the overlay stores a no-op.
   ['outcomes.buckets[].tier', true],
+  // Financial Aid report. Enumerated before classifying, per the Stage 6 method.
+  //
+  //   ladder[].gift   MIXED — four money rungs ($220K…$880K) and six named
+  //                   scholarship/division labels (Early Ed, Lower, Middle,
+  //                   Upper, Acclaim, Wolter). The money round-trips; the words
+  //                   must translate, and localizeMoneyText() still renders the
+  //                   currency at display time.
+  //   plans[].figure  MIXED — mostly multipliers and money (10×, $1,500, 2.8%)
+  //                   but also "2 wk" and an em-dash placeholder.
+  //
+  // `when`, `tag`, `label`, `meta` and `title` are already prose globally, which
+  // matters here: `when` holds "Every year" / "Not published" / "With contracts"
+  // beside real dates, and would have shipped English under a date-code reading.
+  ['ladder[].gift', true],
+  ['plans[].figure', true],
+
+  // metricValues.ts — the stat-tile captions under every topic header
+  // ("Participation signal", "Flagship result", "AP scope"). `label` and `note`
+  // are already prose globally; the DISPLAY VALUES needed enumerating. They are
+  // keyed by school slug, so each school is its own path, and they are mixed:
+  // bare figures ("149", "~44:1") sit beside phrases a parent reads
+  // ("~50% in service clubs", "Debate top-20 US", "Blumey Best Show", "TK–12").
+  // Marked prose so the phrases translate; the figures round-trip unchanged.
+  ['values.providence-day', true],
+  ['values.charlotte-latin', true],
+  ['values.charlotte-christian', true],
+  ['values.charlotte-country-day', true],
+  ['values.cannon', true],
+  ['values.davidson-day', true],
   // Course Offerings. Classified from an ENUMERATION of every distinct value in
   // the module, not from the leaf names — the lesson of the three College
   // Support splits.
