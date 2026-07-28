@@ -280,13 +280,23 @@ const PROGRAMS: Record<string, ClubsProgram> = {
  * non-English locale asks for them, so the Spanish bytes stay out of the
  * initial bundle. See .claude/docs/prose-translation-architecture.md.
  */
-// `import.meta.glob` is a Vite transform, absent under plain Node — and the
-// build-time checkers (check_translations.mjs) import this module directly to
-// read the English prose. Guarding it keeps this module loadable in both.
-const overlayFiles: Record<string, () => Promise<OverlayFile>> =
-  typeof import.meta.glob === 'function'
-    ? import.meta.glob<OverlayFile>('./overlays/student-clubs.*.json', { import: 'default' })
-    : {}
+/**
+ * Locale overlays, discovered at build time.
+ *
+ * `import.meta.glob` is a COMPILE-TIME transform: Vite replaces the whole call
+ * with an object literal of dynamic imports. It must therefore stand alone —
+ * guarding it with `typeof import.meta.glob === 'function'` still compiles the
+ * object, but leaves the guard in the output, where `import.meta.glob` is
+ * undefined at runtime and the ternary silently picks the empty branch. That
+ * shipped once: every overlay resolved to nothing and the page rendered English
+ * with no error anywhere. Do not wrap this.
+ *
+ * Plain Node (the build-time checkers import this module for its English prose)
+ * cannot evaluate it, so `loadClubsOverlay` tolerates its absence instead.
+ */
+const overlayFiles = import.meta.glob<OverlayFile>('./overlays/student-clubs.*.json', {
+  import: 'default',
+})
 
 const indexes = new Map<string, OverlayIndex | undefined>()
 
@@ -297,7 +307,7 @@ const indexes = new Map<string, OverlayIndex | undefined>()
  */
 export async function loadClubsOverlay(lang: string): Promise<void> {
   if (indexes.has(lang)) return
-  const load = overlayFiles[`./overlays/student-clubs.${lang}.json`]
+  const load = overlayFiles?.[`./overlays/student-clubs.${lang}.json`]
   if (!load) {
     indexes.set(lang, undefined)
     return

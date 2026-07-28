@@ -36,12 +36,40 @@ const SLUGS = [
   'charlotte-country-day', 'cannon', 'davidson-day',
 ]
 
+/**
+ * Topic slug -> the per-school module directory and its export name.
+ *
+ * Deliberately the SCHOOL modules, not the topic loader (sportsProgram.ts etc).
+ * Those loaders now carry `import.meta.glob` for their locale overlays, which is
+ * a Vite-only transform that plain Node cannot evaluate. The per-school files
+ * are plain TypeScript, and they are the actual source of the prose anyway.
+ */
 const TOPICS = {
-  sports: ['../src/data/sportsProgram.ts', 'sportsProgram'],
-  'the-arts': ['../src/data/artsProgram.ts', 'artsProgram'],
-  'student-clubs': ['../src/data/clubsProgram.ts', 'clubsProgram'],
-  'college-support': ['../src/data/collegeSupport.ts', 'collegeSupportProgram'],
-  'after-school': ['../src/data/afterSchool.ts', 'afterSchoolProgram'],
+  sports: 'sportsPrograms',
+  'the-arts': 'artsPrograms',
+  'student-clubs': 'clubsPrograms',
+  'college-support': 'collegeSupportPrograms',
+  'after-school': 'afterSchoolPrograms',
+}
+
+/** Slug -> the export name each per-school module uses. */
+const EXPORTS = {
+  'providence-day': 'providenceDay',
+  'charlotte-latin': 'charlotteLatin',
+  'charlotte-christian': 'charlotteChristian',
+  'charlotte-country-day': 'charlotteCountryDay',
+  cannon: 'cannon',
+  'davidson-day': 'davidsonDay',
+}
+
+/** One school's entry for a topic, or undefined if that school has none. */
+async function entryFor(topic, slug) {
+  try {
+    const m = await import(`../src/data/${TOPICS[topic]}/${slug}.ts`)
+    return m[EXPORTS[slug]]
+  } catch {
+    return undefined
+  }
 }
 
 const args = process.argv.slice(2)
@@ -80,11 +108,9 @@ function walk(node, path, hits) {
 
 /** Current English prose, keyed `school:path` -> { value, of }. */
 async function englishProse(topic) {
-  const [mod, fn] = TOPICS[topic]
-  const m = await import(mod)
   const out = new Map()
   for (const slug of SLUGS) {
-    const entry = m[fn]?.(slug)
+    const entry = await entryFor(topic, slug)
     if (!entry) continue
     const hits = []
     walk(entry, '', hits)
