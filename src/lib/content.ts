@@ -25,8 +25,20 @@ function keyFor(topicSlug: string, schoolSlug: string): string {
  */
 const INTERNAL_SUBTOPICS = /^provenance$/i
 
+/**
+ * A section whose entire body is the source document's own `# Title` line.
+ * Ingest lifts that H1 as a section, so the card renders its own heading twice
+ * — once as chrome, once as untranslatable English body text. No content is
+ * lost by dropping it: the heading is already the card's title.
+ */
+function isTitleOnly(text: string): boolean {
+  const t = text.trim()
+  return t.startsWith('# ') && !t.includes('\n')
+}
+
 function isInternal(section: ContentSection): boolean {
-  return INTERNAL_SUBTOPICS.test((section.subtopic ?? '').trim())
+  if (INTERNAL_SUBTOPICS.test((section.subtopic ?? '').trim())) return true
+  return isTitleOnly(section.text ?? '')
 }
 
 export function hasContent(topicSlug: string, schoolSlug: string): boolean {
