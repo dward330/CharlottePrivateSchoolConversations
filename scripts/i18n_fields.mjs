@@ -199,6 +199,12 @@ export const PATH_OVERRIDES = new Map([
   // leaves them identical.
   ['counseling.stats[].value', true],
   ['transcript.stats[].value', true],
+  // `outcomes.stats[].value` was left as a skip on the assumption it held only
+  // bare figures. A print-out found "8 of 8" and "63 of 64" rendering English
+  // inside Spanish cards — the "of" is a real word, not a separator. The
+  // currency and percentage values beside them ("$14.7M", "99%") round-trip
+  // unchanged, so marking the path prose costs nothing and fixes the ratios.
+  ['outcomes.stats[].value', true],
   // Season names are chrome — byte-identical for every school — but they live at
   // `offered.seasons[].name`, and `name` is otherwise a proper noun (sports,
   // people, venues). Resolved by path so the sport names beneath stay English.

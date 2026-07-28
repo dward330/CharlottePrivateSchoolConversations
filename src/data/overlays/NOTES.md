@@ -408,3 +408,32 @@ translate and the numerals round-trip untouched.
    the standing convention, while SAT/ACT scores stay bare (`1445`, `31`). Both
    appear in the same sentence in several quintile notes, which looks
    inconsistent but is correct: one is a decimal, the other is not.
+
+### Stage 5 — post-print-out corrections
+
+A print-out of Providence Day / College Support caught four leaks the checks
+missed. Recorded because each is a distinct shape:
+
+1. **`sourceLabel()` matched only the American spelling.** The Arts and After
+   School say "Verdict synthesized"; College Support says **"synthesised"**.
+   The Stage 4 fix therefore covered two topics and silently skipped the third.
+   Now matched with `/synthesi[sz]ed/`. A one-character difference between data
+   files defeated a helper written specifically to catch that string.
+
+2. **`PERCENTILE_COLS`** — the SAT/ACT table headers (`10th 25th 50th 75th 90th
+   Mean`) were a module constant, the same shape as After School's `FLAG_LABEL`.
+   Now `tables.pct*` / `tables.mean`.
+
+3. **`{shown.length} shown`** on the acceptance-list filter — interpolated JSX,
+   the shape that hid After School's class count.
+
+4. **`outcomes.stats[].value` was misclassified.** It was left as a skip on the
+   reading that it held only bare figures — but it also holds **`8 of 8`,
+   `5 of 8`, `3 of 8`, `63 of 64`**, where "of" is a real English word. The skip
+   audit passed it because those values are mostly digits. Reclassified as
+   prose; the currency and percentage values beside them round-trip unchanged.
+   Coverage 1089 -> 1113 field sites.
+
+The pattern across stages 4 and 5 is now unambiguous: **the checks catch data
+problems, and the print-outs catch component problems.** Three of these four
+were English living in a component or constant the overlay layer cannot reach.
