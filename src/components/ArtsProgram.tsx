@@ -33,10 +33,11 @@ import type {
 
 /** The SOURCE row every card ends with. Citations with a URL become links. */
 function SourceRow({ sources }: { sources: ArtsSource[] }) {
+  const { t } = useTranslation()
   if (sources.length === 0) return null
   return (
     <div className="arts-src srcrow">
-      <span className="tag-outline">SOURCE</span>
+      <span className="tag-outline">{t('cardLabels.source')}</span>
       {sources.map((s) =>
         s.url ? (
           <a key={s.label} href={s.url} target="_blank" rel="noreferrer noopener">
@@ -192,8 +193,8 @@ export function TheatreBody({ data }: { data: Theatre }) {
           <Heading>{data.ledgerTitle ?? t('cardLabels.awardsLedger')}</Heading>
           <div className="arts-scroll">
             <div className="arts-ledger">
-              <div className="arts-th">Year</div>
-              <div className="arts-th">Show</div>
+              <div className="arts-th">{t('cardLabels.year')}</div>
+              <div className="arts-th">{t('cardLabels.show')}</div>
               <div className="arts-th">{t('tables.result')}</div>
               {data.ledger.map((row) => (
                 <LedgerRow key={`${row.year}-${row.show}`} row={row} />
@@ -216,12 +217,13 @@ export function TheatreBody({ data }: { data: Theatre }) {
 
 /** One ledger row, rendered as bare grid children so the columns line up. */
 function LedgerRow({ row }: { row: Theatre['ledger'] extends (infer R)[] | undefined ? R : never }) {
+  const { t } = useTranslation()
   return (
     <>
       <div className="arts-ledger-year">{row.year}</div>
       <div className="arts-ledger-show">{row.show}</div>
       <div className="arts-ledger-result">
-        {row.win && <span className="arts-win">WIN</span>}
+        {row.win && <span className="arts-win">{t('cardLabels.win')}</span>}
         {row.result}
       </div>
     </>
@@ -373,8 +375,8 @@ export function VerdictBody({ data }: { data: Verdict }) {
 
         <div className="arts-panel">
           <Heading>
-            Ask on the tour{' '}
-            <span className="arts-h-hint text-muted">— tick as you go</span>
+            {t('sections.askOnTour')}{' '}
+            <span className="arts-h-hint text-muted">{t('sections.hintTickAsYouGo')}</span>
           </Heading>
           <div className="arts-asks">
             {data.ask.map((q) => (

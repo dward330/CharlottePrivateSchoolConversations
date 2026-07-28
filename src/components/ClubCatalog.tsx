@@ -119,7 +119,7 @@ export function ClubCatalogBody({ catalog }: { catalog: ClubCatalog }) {
         </button>
         {!hideSources && (
           <div className="catalog-src srcrow">
-            <span className="tag-outline">SOURCES</span>
+            <span className="tag-outline">{t('cardLabels.sources')}</span>
             <span className="catalog-src-text text-muted">{catalog.source}</span>
           </div>
         )}

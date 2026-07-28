@@ -291,7 +291,7 @@ export function CourseOfferingsBody({ division }: { division: Division }) {
         </button>
         {!hideSources && (
           <div className="courses-src srcrow">
-            <span className="tag-outline">SOURCE</span>
+            <span className="tag-outline">{t('cardLabels.source')}</span>
             <span className="courses-src-text text-muted">
               {division.sourceUrl ? (
                 <a href={division.sourceUrl} target="_blank" rel="noopener noreferrer">

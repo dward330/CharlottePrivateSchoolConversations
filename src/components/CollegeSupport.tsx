@@ -39,10 +39,11 @@ import { useTranslation } from 'react-i18next'
 
 /** The SOURCE row every card ends with. Citations with a URL become links. */
 function SourceRow({ sources }: { sources: CsSource[] }) {
+  const { t: tr } = useTranslation()
   if (sources.length === 0) return null
   return (
     <div className="cs-src srcrow">
-      <span className="tag-outline">SOURCE</span>
+      <span className="tag-outline">{tr('cardLabels.source')}</span>
       {sources.map((s) =>
         s.url ? (
           <a key={s.label} href={s.url} target="_blank" rel="noreferrer noopener">
@@ -221,7 +222,7 @@ export function TranscriptBody({ data }: { data: Transcript }) {
                       <td className="cs-td">
                         <RichText text={m.detail} />
                         {m.unconfirmed && (
-                          <span className="tag-neutral cs-inline-tag">TO VERIFY</span>
+                          <span className="tag-neutral cs-inline-tag">{tr('cardLabels.toVerify')}</span>
                         )}
                       </td>
                     </tr>
