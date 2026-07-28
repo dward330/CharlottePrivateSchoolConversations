@@ -344,6 +344,14 @@ export function artsCardTitle(
  * Per-school entries live in ./artsPrograms/<slug>.ts so each school's research
  * stays reviewable on its own. Add a school by importing it here.
  */
+import {
+  localized,
+  indexOverlay,
+  setOverlayIndex,
+  overlayIndex,
+  hasOverlay,
+  type OverlayFile,
+} from '../lib/localizeData.ts'
 import { providenceDay } from './artsPrograms/providence-day.ts'
 import { charlotteLatin } from './artsPrograms/charlotte-latin.ts'
 import { charlotteChristian } from './artsPrograms/charlotte-christian.ts'
@@ -360,7 +368,44 @@ const PROGRAMS: Record<string, ArtsProgram> = {
   'davidson-day': davidsonDay,
 }
 
-/** The structured Arts program for a school, or undefined if not yet built. */
-export function artsProgram(slug: string): ArtsProgram | undefined {
-  return PROGRAMS[slug]
+/* ---------------------------------------------------------- translations -- */
+
+/**
+ * Locale overlays for this topic's prose, loaded on demand.
+ *
+ * MUST stand alone — `import.meta.glob` is a compile-time transform, and
+ * wrapping it in a runtime guard leaves the guard in the output where
+ * `import.meta.glob` is undefined, so every overlay silently resolves to
+ * nothing. See the note in src/data/clubsProgram.ts.
+ */
+const overlayFiles = import.meta.glob<OverlayFile>('./overlays/the-arts.*.json', {
+  import: 'default',
+})
+
+/** Warms the overlay for a locale; resolves once the index is ready. */
+export async function loadArtsOverlay(lang: string): Promise<void> {
+  if (hasOverlay('the-arts', lang)) return
+  const load = overlayFiles?.[`./overlays/the-arts.${lang}.json`]
+  if (!load) {
+    setOverlayIndex('the-arts', lang, undefined)
+    return
+  }
+  try {
+    setOverlayIndex('the-arts', lang, indexOverlay(await load()))
+  } catch {
+    // A missing or malformed overlay must not break the page: English stands in.
+    setOverlayIndex('the-arts', lang, undefined)
+  }
+}
+
+/**
+ * The structured Arts program for a school, or undefined if not yet built.
+ *
+ * With no overlay for `lang` this returns the English object BY REFERENCE (see
+ * the identity requirement in src/lib/localizeData.ts).
+ */
+export function artsProgram(slug: string, lang = 'en'): ArtsProgram | undefined {
+  const en = PROGRAMS[slug]
+  if (!en || lang === 'en') return en
+  return localized(en, overlayIndex('the-arts', lang), slug)
 }
