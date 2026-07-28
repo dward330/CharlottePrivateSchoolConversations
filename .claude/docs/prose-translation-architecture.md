@@ -268,6 +268,37 @@ research in §1.
 
 ---
 
+## 5a. Three layers, not two — card titles are chrome
+
+Strings that live in **module constants in the topic loaders** (`SPORTS_CARDS`,
+`ARTS_CARDS`, `CLUBS_CARDS`, `COLLEGE_SUPPORT_CARDS`, `AFTER_SCHOOL_CARDS`) are
+in neither place the two i18n passes looked: not in a component, and not in the
+per-school entry objects the prose extractor walks. All 25 card titles shipped
+English inside otherwise-Spanish pages before this was caught.
+
+**They are chrome.** By CLAUDE.md's uniform test — byte-identical for every
+school, drawn from a fixed lookup — they belong in `src/locales/*.json`, under
+`cards.<topic>.<key>`. Resolved by `cardTitle()` in `src/lib/labels.ts`.
+
+**Per-school `TITLE_OVERRIDES` are the exception, and they stay in the locale
+files anyway.** An override (`'The Early Childhood–12 Arts Ladder'` for Davidson
+Day) varies per school, so by the same test it is a research finding rather than
+chrome. But it is *defined in the same module constant*, which the prose
+extractor cannot reach — so an overlay could not carry it. They get a
+**school-scoped key** instead:
+
+```
+cards.the-arts.ladder                      shared — five schools
+cards.the-arts.ladder@davidson-day         this school's own wording
+```
+
+A school without a translated override falls back to its own English title,
+never to another school's. There are seven of these today.
+
+**Rule for future topics:** when a redesign adds a `*_CARDS` constant, its
+titles are locale keys from the start. `scripts/check_card_titles.mjs` fails if
+any card title has no `cards.*` key.
+
 ## 5b. As built (Stage 1, 2026-07-27)
 
 The mechanism above is implemented. Three details that were decided in the build

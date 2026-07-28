@@ -317,6 +317,19 @@ const TITLE_OVERRIDES: Record<string, Partial<Record<keyof ArtsProgram, string>>
   },
 }
 
+/**
+ * The school slug when this school overrides the shared card title, else
+ * undefined.
+ *
+ * An override varies per school, so it is a research finding rather than chrome.
+ * `cardTitle()` uses this to look the title up under a school-scoped key
+ * (`cards.the-arts.ladder@davidson-day`) instead of the shared one, and falls
+ * back to the school's own English wording if that key is absent.
+ */
+export function titleOverrideSlug(slug: string, key: keyof ArtsProgram): string | undefined {
+  return TITLE_OVERRIDES[slug]?.[key] != null ? slug : undefined
+}
+
 /** The card title for a school, applying any per-school override. */
 export function artsCardTitle(
   slug: string,

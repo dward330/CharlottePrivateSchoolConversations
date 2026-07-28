@@ -39,9 +39,15 @@ into a claim.
 
 ---
 
-## Stage 1 — Student Clubs (203 strings, 4,471 words)
+## Stage 1 — Student Clubs (493 strings, 7,044 words)
 
-Landed 2026-07-27. Full coverage: 240/240 field sites.
+Landed 2026-07-27. Full coverage: 577/577 field sites across FIVE cards.
+
+Student Clubs renders five cards from three modules: `clubsPrograms/<slug>.ts`
+(affinity, service, honor societies) plus `clubClusters.ts` and
+`clubCatalog.ts`. The first extraction pass only walked `clubsPrograms`, so two
+cards shipped English. Their prose is now extracted under the `clusters.` and
+`catalog.` path prefixes of the same overlay file.
 
 ### Terminology choices worth a second opinion
 
@@ -54,6 +60,10 @@ Landed 2026-07-27. Full coverage: 240/240 field sites.
 | Upper / Middle / Lower School | left in English | Division names, per the standing convention. |
 | GPA | promedio | `3.6 cumulative GPA` → `3,6 de promedio acumulado`. |
 | practicum | practicum | Left as-is; used in Spanish academic contexts. |
+| club | club | Standard loanword in Spanish. |
+| esports | deportes electrónicos | Spelled out; "esports" also circulates. |
+| flagship | emblemático / co-emblema | Avoided "buque insignia", too nautical for a school. |
+| Named minimum | Mínimo con nombre propio | A hedge: the list is a floor, not a total. Verify the force carries. |
 | externship | externship | No clean equivalent; the surrounding sentence explains it. |
 | prefect | prefecto | Literal; the list of nine prefect roles stays English as published titles. |
 

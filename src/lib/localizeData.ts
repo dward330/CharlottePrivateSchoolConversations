@@ -84,6 +84,30 @@ export function stampFor(s: string): string {
 }
 
 /**
+ * Loaded overlay indexes, keyed `<topic>:<lang>`.
+ *
+ * Kept HERE rather than in a topic loader because sibling layers need to read
+ * the same index — clubClusters.ts and clubCatalog.ts render two of the five
+ * Student Clubs cards and resolve against the student-clubs overlay. Importing
+ * the loader to reach it would drag `import.meta.glob` into modules the
+ * build-time checkers load under plain Node, where it throws. This module has
+ * no Vite-only syntax, so anything can import it.
+ */
+const OVERLAYS = new Map<string, OverlayIndex | undefined>()
+
+export function setOverlayIndex(topic: string, lang: string, index: OverlayIndex | undefined): void {
+  OVERLAYS.set(`${topic}:${lang}`, index)
+}
+
+export function overlayIndex(topic: string, lang: string): OverlayIndex | undefined {
+  return OVERLAYS.get(`${topic}:${lang}`)
+}
+
+export function hasOverlay(topic: string, lang: string): boolean {
+  return OVERLAYS.has(`${topic}:${lang}`)
+}
+
+/**
  * Returns `en` with every field the overlay covers replaced by its translation.
  *
  * `prefix` is the school slug, so overlay keys read `cannon:affinity.headline`

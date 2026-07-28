@@ -76,6 +76,43 @@ async function entryFor(topic, slug) {
     return undefined
   }
 }
+/**
+ * Extra per-school layers a topic renders alongside its `*Programs/<slug>.ts`
+ * entry. Student Clubs renders FIVE cards: three from clubsPrograms, plus
+ * Academic & Competitive Clubs (clubClusters.ts) and Club Catalog & Overview
+ * (clubCatalog.ts), which are separate hand-maintained modules.
+ *
+ * They were invisible to the first extraction pass, which only walked the
+ * `*Programs` entries — so two of the five cards shipped English. Paths are
+ * prefixed (`clusters.*`, `catalog.*`) so overlay keys stay unambiguous.
+ */
+const EXTRA_LAYERS = {
+  'student-clubs': [
+    ['clusters', '../src/data/clubClusters.ts', 'clubClusters'],
+    ['catalog', '../src/data/clubCatalog.ts', 'clubCatalog'],
+  ],
+}
+
+/** The extra layers for one school, as [prefix, entry] pairs. */
+async function extraFor(topic, slug) {
+  const out = []
+  for (const [prefix, mod, fn] of EXTRA_LAYERS[topic] ?? []) {
+    try {
+      const m = await import(mod)
+      const entry = m[fn]?.(slug)
+      if (entry) out.push([prefix, entry])
+    } catch (e) {
+      // Never swallow this. A layer that fails to import silently drops its
+      // prose from BOTH the extraction and the coverage count, which reads as
+      // "fully translated" while those cards render English — exactly the bug
+      // this comment replaced.
+      console.error(`  ! ${topic}/${prefix} failed to load: ${e.message}`)
+      process.exitCode = 2
+    }
+  }
+  return out
+}
+
 
 const args = process.argv.slice(2)
 const has = (f) => args.includes(f)
@@ -134,10 +171,17 @@ async function collect(topicSlug) {
   const out = []
   for (const slug of SLUGS) {
     const entry = await entryFor(topicSlug, slug)
-    if (!entry) continue
-    const hits = []
-    walk(entry, '', hits)
-    for (const h of hits) out.push({ ...h, school: slug, generic: generic(h.path) })
+    if (entry) {
+      const hits = []
+      walk(entry, '', hits)
+      for (const h of hits) out.push({ ...h, school: slug, generic: generic(h.path) })
+    }
+    // Extra layers this topic renders alongside its main entry (see EXTRA_LAYERS).
+    for (const [prefix, extra] of await extraFor(topicSlug, slug)) {
+      const hits = []
+      walk(extra, prefix, hits)
+      for (const h of hits) out.push({ ...h, school: slug, generic: generic(h.path) })
+    }
   }
   return out
 }

@@ -25,6 +25,7 @@ import {
   loadClubsOverlay,
   CLUBS_CARDS,
   clubsCardTitle,
+  titleOverrideSlug as clubsOverrideSlug,
   type ClubsProgram,
 } from '../data/clubsProgram.ts'
 import {
@@ -49,6 +50,7 @@ import {
   artsProgram,
   ARTS_CARDS,
   artsCardTitle,
+  titleOverrideSlug as artsOverrideSlug,
   type ArtsProgram,
 } from '../data/artsProgram.ts'
 import {
@@ -76,7 +78,7 @@ import { afterSchoolProgram, AFTER_SCHOOL_CARDS } from '../data/afterSchool.ts'
 import { AfterSchoolCardBody } from '../components/AfterSchool.tsx'
 import { WelcomeVideo, PlayIcon } from '../components/WelcomeVideo.tsx'
 import { useTranslation } from 'react-i18next'
-import { topicLabel, metricLabel } from '../lib/labels.ts'
+import { topicLabel, metricLabel, cardTitle } from '../lib/labels.ts'
 
 type Loaded = Record<string, MetricGroup[]>
 
@@ -594,7 +596,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                         <BlueprintCorners />
                         <summary>
                           <span className="note-card-head">
-                            <span className="topic-title">{card.title}</span>
+                            <span className="topic-title">{cardTitle(tr, 'sports', card.key, card.title)}</span>
                             <span className="topic-teaser">
                               {sports[card.key]!.headline}
                             </span>
@@ -625,7 +627,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                         <summary>
                           <span className="note-card-head">
                             <span className="topic-title">
-                              {artsCardTitle(slug, card)}
+                              {cardTitle(tr, 'the-arts', card.key, artsCardTitle(slug, card), artsOverrideSlug(slug, card.key))}
                             </span>
                             <span className="topic-teaser">
                               {arts[card.key]!.headline}
@@ -659,7 +661,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                         <BlueprintCorners />
                         <summary>
                           <span className="note-card-head">
-                            <span className="topic-title">{card.title}</span>
+                            <span className="topic-title">{cardTitle(tr, 'college-support', card.key, card.title)}</span>
                             <span className="topic-teaser">
                               {collegeSupport[card.key]!.headline}
                             </span>
@@ -697,7 +699,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                         <BlueprintCorners />
                         <summary>
                           <span className="note-card-head">
-                            <span className="topic-title">{card.title}</span>
+                            <span className="topic-title">{cardTitle(tr, 'after-school', card.key, card.title)}</span>
                             <span className="topic-teaser">
                               {afterSchool[card.key]!.headline}
                             </span>
@@ -738,7 +740,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                         <summary>
                           <span className="note-card-head">
                             <span className="topic-title">
-                              {clubsCardTitle(slug, card)}
+                              {cardTitle(tr, 'student-clubs', card.key, clubsCardTitle(slug, card), clubsOverrideSlug(slug, card.key))}
                             </span>
                             <span className="topic-teaser">
                               {clubs[card.key]!.headline}
@@ -778,7 +780,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                     const clusters =
                       t.slug === 'student-clubs' &&
                       g.metric.key === 'academic-clubs'
-                        ? clubClusters(slug)
+                        ? clubClusters(slug, lang)
                         : undefined
                     /* The Club Catalog & Overview card, where the school has a
                        structured entry, swaps its prose body for the filterable
@@ -786,7 +788,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                        collapsed teaser. */
                     const catalog =
                       t.slug === 'student-clubs' && g.metric.key === 'catalog'
-                        ? clubCatalog(slug)
+                        ? clubCatalog(slug, lang)
                         : undefined
                     return (
                       <details

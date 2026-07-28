@@ -54,6 +54,9 @@ export const PROSE_KEYS = new Set([
   // Photo credits name a publisher and are half descriptive ("Photo: Providence
   // Day School athletics"); the leading noun reads as chrome in Spanish.
   'credit',
+  // clubClusters.ts / clubCatalog.ts — the two Student Clubs cards that render
+  // from their own hand-maintained modules rather than clubsPrograms/.
+  'oneLiner', 'evidenceLabel', 'verdictHint', 'countNoun', 'short', 'full',
 ])
 
 /* ----------------------------------------------------------- not prose -- */
@@ -129,6 +132,9 @@ export const SKIP_KEYS = new Map([
   ['date', 'short date literal'],
   ['basis', 'billing-period code, mapped to a chrome key at render'],
   ['defaultRow', 'internal row id'],
+  ['cat', 'internal category code (interest, comp, aff)'],
+  ['key', 'internal object key'],
+  ['evidence', 'internal evidence-tier code (verified, reported)'],
 ])
 
 /**

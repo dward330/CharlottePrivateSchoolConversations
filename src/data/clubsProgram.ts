@@ -235,6 +235,19 @@ const TITLE_OVERRIDES: Record<string, Partial<Record<keyof ClubsProgram, string>
   },
 }
 
+/**
+ * The school slug when this school overrides the shared card title, else
+ * undefined.
+ *
+ * An override varies per school, so it is a research finding rather than chrome.
+ * `cardTitle()` uses this to look the title up under a school-scoped key
+ * (`cards.the-arts.ladder@davidson-day`) instead of the shared one, and falls
+ * back to the school's own English wording if that key is absent.
+ */
+export function titleOverrideSlug(slug: string, key: keyof ClubsProgram): string | undefined {
+  return TITLE_OVERRIDES[slug]?.[key] != null ? slug : undefined
+}
+
 /** The card title for a school, applying any per-school override. */
 export function clubsCardTitle(
   slug: string,
@@ -252,8 +265,10 @@ export function clubsCardTitle(
 import {
   localized,
   indexOverlay,
+  setOverlayIndex,
+  overlayIndex,
+  hasOverlay,
   type OverlayFile,
-  type OverlayIndex,
 } from '../lib/localizeData.ts'
 import { providenceDay } from './clubsPrograms/providence-day.ts'
 import { charlotteLatin } from './clubsPrograms/charlotte-latin.ts'
@@ -298,7 +313,6 @@ const overlayFiles = import.meta.glob<OverlayFile>('./overlays/student-clubs.*.j
   import: 'default',
 })
 
-const indexes = new Map<string, OverlayIndex | undefined>()
 
 /**
  * Warms the overlay for a locale. Resolves once the index is ready (or once we
@@ -306,20 +320,25 @@ const indexes = new Map<string, OverlayIndex | undefined>()
  * painting English and flipping a frame later.
  */
 export async function loadClubsOverlay(lang: string): Promise<void> {
-  if (indexes.has(lang)) return
+  if (hasOverlay('student-clubs', lang)) return
   const load = overlayFiles?.[`./overlays/student-clubs.${lang}.json`]
   if (!load) {
-    indexes.set(lang, undefined)
+    setOverlayIndex('student-clubs', lang, undefined)
     return
   }
   try {
-    indexes.set(lang, indexOverlay(await load()))
+    setOverlayIndex('student-clubs', lang, indexOverlay(await load()))
   } catch {
     // A missing or malformed overlay must not break the page: English stands in.
-    indexes.set(lang, undefined)
+    setOverlayIndex('student-clubs', lang, undefined)
   }
 }
 
+/**
+ * The loaded overlay index for a locale, so the two sibling Student Clubs layers
+ * (clubClusters.ts, clubCatalog.ts) resolve against the same file — their prose
+ * is extracted under the `clusters.*` / `catalog.*` prefixes of this topic.
+ */
 /**
  * The structured Clubs program for a school, or undefined if not yet built.
  *
@@ -330,5 +349,5 @@ export async function loadClubsOverlay(lang: string): Promise<void> {
 export function clubsProgram(slug: string, lang = 'en'): ClubsProgram | undefined {
   const en = PROGRAMS[slug]
   if (!en || lang === 'en') return en
-  return localized(en, indexes.get(lang), slug)
+  return localized(en, overlayIndex('student-clubs', lang), slug)
 }

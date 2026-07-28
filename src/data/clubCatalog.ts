@@ -22,6 +22,8 @@
 // facing, so research-gap and confidence framing stays in these maintainer
 // comments and out of the rendered strings.
 
+import { localized, overlayIndex } from '../lib/localizeData.ts'
+
 /** One club in the filterable roster. */
 export type CatalogClub = {
   /** Display name. */
@@ -482,7 +484,20 @@ const CATALOG: Record<string, ClubCatalog> = {
   'davidson-day': DAVIDSON_DAY,
 }
 
-/** The interest-index catalog for a school, or undefined to fall back to prose. */
-export function clubCatalog(schoolSlug: string): ClubCatalog | undefined {
-  return CATALOG[schoolSlug]
+/**
+ * The interest-index catalog for a school, or undefined to fall back to prose.
+ *
+ * This layer's prose is extracted under the `catalog.` prefix of the
+ * student-clubs overlay — the same file `loadClubsOverlay()` fetches — because
+ * it renders as one of that topic's five cards. With no overlay for `lang` the
+ * English object is returned by reference (see src/lib/localizeData.ts).
+ */
+export function clubCatalog(schoolSlug: string, lang = 'en'): ClubCatalog | undefined {
+  const en = CATALOG[schoolSlug]
+  if (!en || lang === 'en') return en
+  // Keys are `<school>:catalog.<field>`, so resolve the entry nested under its
+  // prefix and unwrap — that makes walk() build exactly those paths.
+  const idx = overlayIndex('student-clubs', lang)
+  if (!idx) return en
+  return localized({ catalog: en }, idx, schoolSlug).catalog
 }
