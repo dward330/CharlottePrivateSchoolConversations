@@ -50,6 +50,7 @@ import {
   artsProgram,
   ARTS_CARDS,
   artsCardTitle,
+  loadArtsOverlay,
   titleOverrideSlug as artsOverrideSlug,
   type ArtsProgram,
 } from '../data/artsProgram.ts'
@@ -279,8 +280,9 @@ export function SchoolDetail({ slug }: { slug: string }) {
          gate: resolving them after first paint would render the English
          research for a frame and then swap it, which reads as a glitch. */
       loadClubsOverlay(lang),
+      loadArtsOverlay(lang),
       ...covered.map(async (t) => [t.slug, await loadMetricGroups(t.slug, slug)] as const),
-    ]).then(([, ...entries]) => {
+    ]).then(([, , ...entries]) => {
       if (!alive) return
       setLoaded(Object.fromEntries(entries))
       setReady(true)
@@ -438,7 +440,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                rendering its ingested prose: an entry that is present but empty
                is still truthy, and would otherwise suppress the prose and leave
                the whole section blank. */
-            const artsEntry = t.slug === 'the-arts' ? artsProgram(slug) : undefined
+            const artsEntry = t.slug === 'the-arts' ? artsProgram(slug, lang) : undefined
             const artsCardList = artsEntry
               ? ARTS_CARDS.filter((c) => artsEntry[c.key] != null)
               : []

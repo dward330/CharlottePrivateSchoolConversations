@@ -540,7 +540,7 @@ export function FinancialAidReportCard({
       ))}
 
       <footer className="fa-sources srcrow">
-        <span className="tag-outline">SOURCES</span>
+        <span className="tag-outline">{t('cardLabels.sources')}</span>
         <span className="fa-src-text">{report.sources}</span>
       </footer>
     </div>

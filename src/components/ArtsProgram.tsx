@@ -33,10 +33,11 @@ import type {
 
 /** The SOURCE row every card ends with. Citations with a URL become links. */
 function SourceRow({ sources }: { sources: ArtsSource[] }) {
+  const { t } = useTranslation()
   if (sources.length === 0) return null
   return (
     <div className="arts-src srcrow">
-      <span className="tag-outline">SOURCE</span>
+      <span className="tag-outline">{t('cardLabels.source')}</span>
       {sources.map((s) =>
         s.url ? (
           <a key={s.label} href={s.url} target="_blank" rel="noreferrer noopener">
@@ -102,6 +103,7 @@ function Photo({ photo }: { photo?: ArtsPhoto }) {
 /* ----------------------------------------------------- 1a · arts ladder -- */
 
 export function ArtsLadderBody({ data }: { data: ArtsLadder }) {
+  const { t } = useTranslation()
   return (
     <div className="arts-body">
       <Lead headline={data.headline} subhead={data.subhead} />
@@ -132,7 +134,7 @@ export function ArtsLadderBody({ data }: { data: ArtsLadder }) {
       <div className={data.photo ? 'arts-figsplit' : undefined}>
         <Photo photo={data.photo} />
         <div>
-          <Heading>{data.enrichmentTitle ?? 'The enrichment layer — beyond the classroom'}</Heading>
+          <Heading>{data.enrichmentTitle ?? t('cardLabels.enrichmentLayer')}</Heading>
           <div className="arts-enrich">
             {data.enrichment.map((e) => (
               <div key={e.label} className="arts-enrich-row">
@@ -161,7 +163,7 @@ export function TheatreBody({ data }: { data: Theatre }) {
           its prose take the full width. */}
       <div className={data.photo ? 'arts-figsplit is-reverse' : undefined}>
         <div>
-          <Heading>{data.seasonTitle ?? 'The season rhythm'}</Heading>
+          <Heading>{data.seasonTitle ?? t('cardLabels.seasonRhythm')}</Heading>
           <div
             className="arts-season"
             style={{ gridTemplateColumns: `repeat(${data.season.length}, 1fr)` }}
@@ -176,7 +178,7 @@ export function TheatreBody({ data }: { data: Theatre }) {
           </div>
           {data.whoRunsIt && (
             <p className="arts-p">
-              <strong className="arts-note-strong">Who runs it:</strong> {data.whoRunsIt}
+              <strong className="arts-note-strong">{t('cardLabels.whoRunsIt')}</strong> {data.whoRunsIt}
             </p>
           )}
           {data.venueNote && <p className="arts-note text-muted">{data.venueNote}</p>}
@@ -188,11 +190,11 @@ export function TheatreBody({ data }: { data: Theatre }) {
           history — the card still stands on its season data. */}
       {data.ledger && data.ledger.length > 0 && (
         <>
-          <Heading>{data.ledgerTitle ?? 'The awards ledger'}</Heading>
+          <Heading>{data.ledgerTitle ?? t('cardLabels.awardsLedger')}</Heading>
           <div className="arts-scroll">
             <div className="arts-ledger">
-              <div className="arts-th">Year</div>
-              <div className="arts-th">Show</div>
+              <div className="arts-th">{t('cardLabels.year')}</div>
+              <div className="arts-th">{t('cardLabels.show')}</div>
               <div className="arts-th">{t('tables.result')}</div>
               {data.ledger.map((row) => (
                 <LedgerRow key={`${row.year}-${row.show}`} row={row} />
@@ -204,7 +206,7 @@ export function TheatreBody({ data }: { data: Theatre }) {
 
       {data.honestContext && (
         <p className="arts-note text-muted">
-          <strong className="arts-note-strong">Honest context:</strong> {data.honestContext}
+          <strong className="arts-note-strong">{t('cardLabels.honestContext')}</strong> {data.honestContext}
         </p>
       )}
 
@@ -215,12 +217,13 @@ export function TheatreBody({ data }: { data: Theatre }) {
 
 /** One ledger row, rendered as bare grid children so the columns line up. */
 function LedgerRow({ row }: { row: Theatre['ledger'] extends (infer R)[] | undefined ? R : never }) {
+  const { t } = useTranslation()
   return (
     <>
       <div className="arts-ledger-year">{row.year}</div>
       <div className="arts-ledger-show">{row.show}</div>
       <div className="arts-ledger-result">
-        {row.win && <span className="arts-win">WIN</span>}
+        {row.win && <span className="arts-win">{t('cardLabels.win')}</span>}
         {row.result}
       </div>
     </>
@@ -262,7 +265,7 @@ export function MusicBody({ data }: { data: Music }) {
         </div>
 
         <div className="arts-panel">
-          <Heading>{data.ladderTitle ?? 'The honors ladder — how far it goes'}</Heading>
+          <Heading>{data.ladderTitle ?? t('cardLabels.honorsLadder')}</Heading>
           <div className="arts-rungs">
             {data.ladder.map((rung, i) => (
               <div key={rung.label} className="arts-rung">
@@ -295,7 +298,7 @@ export function VisualArtsBody({ data }: { data: VisualArts }) {
       <div className={data.photo ? 'arts-figsplit' : undefined}>
         <Photo photo={data.photo} />
         <div>
-          <Heading>{data.mediaTitle ?? 'Studio media'}</Heading>
+          <Heading>{data.mediaTitle ?? t('cardLabels.studioMedia')}</Heading>
           <div className="arts-media">
             {data.media.map((m) => (
               <div key={m.name} className="arts-medium">
@@ -372,8 +375,8 @@ export function VerdictBody({ data }: { data: Verdict }) {
 
         <div className="arts-panel">
           <Heading>
-            Ask on the tour{' '}
-            <span className="arts-h-hint text-muted">— tick as you go</span>
+            {t('sections.askOnTour')}{' '}
+            <span className="arts-h-hint text-muted">{t('sections.hintTickAsYouGo')}</span>
           </Heading>
           <div className="arts-asks">
             {data.ask.map((q) => (

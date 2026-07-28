@@ -8,6 +8,7 @@
 // deep-dive recreated its reference.
 
 import type { ClubClusters } from '../data/clubClusters.ts'
+import { useTranslation } from 'react-i18next'
 
 /** Small plus mark; rotates 45° to an ✕ when its row opens (CSS-driven). */
 function RowPlus() {
@@ -30,6 +31,7 @@ function RowPlus() {
 }
 
 export function ClubClustersBody({ clusters }: { clusters: ClubClusters }) {
+  const { t } = useTranslation()
   return (
     <div className="club-clusters">
       {/* The verdict repeats inside the open body — the summary teaser that
@@ -54,7 +56,7 @@ export function ClubClustersBody({ clusters }: { clusters: ClubClusters }) {
           <div className="clubrow-detail">
             <p>{row.note}</p>
             <div className="clubrow-src srcrow">
-              <span className="tag-outline">SOURCE</span>
+              <span className="tag-outline">{t('cardLabels.source')}</span>
               <span className="clubrow-src-text">{row.source}</span>
             </div>
           </div>

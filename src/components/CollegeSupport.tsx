@@ -39,10 +39,11 @@ import { useTranslation } from 'react-i18next'
 
 /** The SOURCE row every card ends with. Citations with a URL become links. */
 function SourceRow({ sources }: { sources: CsSource[] }) {
+  const { t: tr } = useTranslation()
   if (sources.length === 0) return null
   return (
     <div className="cs-src srcrow">
-      <span className="tag-outline">SOURCE</span>
+      <span className="tag-outline">{tr('cardLabels.source')}</span>
       {sources.map((s) =>
         s.url ? (
           <a key={s.label} href={s.url} target="_blank" rel="noreferrer noopener">
@@ -206,7 +207,7 @@ export function TranscriptBody({ data }: { data: Transcript }) {
                 <thead>
                   <tr>
                     <th className="cs-th cs-th-year">{tr('tables.classLabel')}</th>
-                    <th className="cs-th">National Merit &amp; College Board honors</th>
+                    <th className="cs-th">{tr('cardLabels.nationalMerit')}</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -221,7 +222,7 @@ export function TranscriptBody({ data }: { data: Transcript }) {
                       <td className="cs-td">
                         <RichText text={m.detail} />
                         {m.unconfirmed && (
-                          <span className="tag-neutral cs-inline-tag">TO VERIFY</span>
+                          <span className="tag-neutral cs-inline-tag">{tr('cardLabels.toVerify')}</span>
                         )}
                       </td>
                     </tr>
@@ -271,6 +272,7 @@ export function TranscriptBody({ data }: { data: Transcript }) {
 /* ------------------------------------ 1b · the counseling engine ---------- */
 
 export function CounselingBody({ data }: { data: Counseling }) {
+  const { t: tr } = useTranslation()
   const { t } = useTranslation()
   return (
     <div className="cs-body">
@@ -306,7 +308,7 @@ export function CounselingBody({ data }: { data: Counseling }) {
       {data.timeline.length > 0 && (
         <>
           <Heading>
-            {data.timelineTitle ?? 'The four-year timeline — when individualized support begins'}
+            {data.timelineTitle ?? tr('cardLabels.fourYearTimeline')}
           </Heading>
           <div
             className="cs-timeline"
@@ -336,7 +338,7 @@ export function CounselingBody({ data }: { data: Counseling }) {
       <div className="cs-split cs-split-wide">
         {data.mechanics.length > 0 && (
           <div>
-            <Heading>{data.mechanicsTitle ?? 'The mechanics the office owns'}</Heading>
+            <Heading>{data.mechanicsTitle ?? tr('cardLabels.mechanicsOwned')}</Heading>
             <div className="cs-mechanics">
               {data.mechanics.map((m) => (
                 <div key={m} className="cs-mechanic">
@@ -377,6 +379,7 @@ export function CounselingBody({ data }: { data: Counseling }) {
  * page, so it needs no router or persistence.
  */
 function CollegeList({ data }: { data: Outcomes }) {
+  const { t: tr } = useTranslation()
   const { t } = useTranslation()
   const [filter, setFilter] = useState<string>('all')
   const [query, setQuery] = useState('')
@@ -401,7 +404,7 @@ function CollegeList({ data }: { data: Outcomes }) {
   return (
     <div>
       <Heading hint={t('collegeSupport.hintFilter')}>
-        {data.collegesTitle ?? 'Every acceptance'}
+        {data.collegesTitle ?? tr('cardLabels.everyAcceptance')}
       </Heading>
 
       {available.length > 1 && (
@@ -471,7 +474,7 @@ export function OutcomesBody({ data }: { data: Outcomes }) {
               <table className="cs-ledger">
                 <thead>
                   <tr>
-                    <th className="cs-th">Tier</th>
+                    <th className="cs-th">{tr('cardLabels.tier')}</th>
                     <th className="cs-th cs-th-count">{tr('tables.onList')}</th>
                   </tr>
                 </thead>
@@ -519,7 +522,7 @@ export function OutcomesBody({ data }: { data: Outcomes }) {
           rather than a quiet footnote. */}
       {data.caveat && (
         <p className="cs-note text-muted">
-          <strong className="cs-note-strong">Honest caveat:</strong>{' '}
+          <strong className="cs-note-strong">{tr('cardLabels.honestCaveat')}</strong>{' '}
           <RichText text={data.caveat} />
         </p>
       )}
@@ -620,7 +623,7 @@ export function WholeClassBody({ data }: { data: WholeClass }) {
       {/* The GPA quintile strip — the no-rank mechanism made visible. */}
       {data.quintiles.length > 0 && (
         <>
-          <Heading hint={data.gpaHint}>{data.gpaTitle ?? 'GPA percentiles'}</Heading>
+          <Heading hint={data.gpaHint}>{data.gpaTitle ?? tr('cardLabels.gpaPercentiles')}</Heading>
           <div
             className="cs-quintiles"
             style={{

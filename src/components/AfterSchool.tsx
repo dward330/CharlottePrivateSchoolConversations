@@ -43,10 +43,11 @@ import type {
 
 /** The SOURCE row every card ends with. Citations with a URL become links. */
 function SourceRow({ sources }: { sources: AsSource[] }) {
+  const { t } = useTranslation()
   if (sources.length === 0) return null
   return (
     <div className="as-src srcrow">
-      <span className="tag-outline">SOURCE</span>
+      <span className="tag-outline">{t('cardLabels.source')}</span>
       {sources.map((s) =>
         s.url ? (
           <a key={s.label} href={s.url} target="_blank" rel="noreferrer noopener">
@@ -146,6 +147,7 @@ function RichText({ text }: { text: string }) {
  * gets a row — drawn as a dashed outline — because the gap is the finding.
  */
 export function CoverageBody({ data }: { data: Coverage }) {
+  const { t: tr } = useTranslation()
   return (
     <div className="as-body">
       <Lead headline={data.headline} subhead={data.subhead} />
@@ -207,7 +209,7 @@ export function CoverageBody({ data }: { data: Coverage }) {
                             the 60-minute one beside it. */}
                         <span className="as-tl-until">to {t.until} · </span>
                         {t.price && <span className="as-tl-price">{localizeMoneyText(t.price)}</span>}
-                        {t.estimated && <span className="as-inline-tag tag-neutral">EST.</span>}
+                        {t.estimated && <span className="as-inline-tag tag-neutral">{tr('cardLabels.est')}</span>}
                       </span>
                     )
                   })
@@ -304,7 +306,7 @@ export function CostBody({ data }: { data: Cost }) {
   const isShort = data.rows.length <= 3
   const feeLedger = data.fees.length > 0 && (
     <div className="as-fees">
-      <div className="as-fees-kicker text-muted">Fees &amp; fine print</div>
+      <div className="as-fees-kicker text-muted">{t('cardLabels.feesFinePrint')}</div>
       <div className="as-fees-list">
         {data.fees.map((f) =>
           f.note ? (
@@ -445,7 +447,7 @@ export function CostBody({ data }: { data: Cost }) {
                 </div>
                 {estimated && (
                   <p className="as-estimate-est">
-                    <span className="tag-neutral">EST. — uses a modeled rate</span>
+                    <span className="tag-neutral">{t('cardLabels.estModeled')}</span>
                   </p>
                 )}
               </>
@@ -524,7 +526,7 @@ function EnrichmentCatalog({ data }: { data: DayInside }) {
   return (
     <div>
       <Heading hint={data.catalogEstimated ? '— illustrative catalog' : undefined}>
-        {data.catalogTitle ?? 'Enrichment classes'}
+        {data.catalogTitle ?? t('cardLabels.enrichmentClasses')}
       </Heading>
 
       {data.catalogIntro && (
@@ -584,9 +586,9 @@ function EnrichmentCatalog({ data }: { data: DayInside }) {
           <thead>
             <tr>
               <th className="as-th">{t('tables.classLabel')}</th>
-              <th className="as-th">Day</th>
+              <th className="as-th">{t('cardLabels.day')}</th>
               <th className="as-th">{t('tables.grades')}</th>
-              <th className="as-th as-th-fee">Fee</th>
+              <th className="as-th as-th-fee">{t('cardLabels.fee')}</th>
             </tr>
           </thead>
           <tbody>
@@ -625,7 +627,7 @@ export function DayInsideBody({ data }: { data: DayInside }) {
       {data.rhythm.length > 0 && (
         <>
           <Heading hint={data.rhythmEstimated ? '— typical structure, confirm on visit' : undefined}>
-            {data.rhythmTitle ?? 'The afternoon rhythm'}
+            {data.rhythmTitle ?? t('cardLabels.afternoonRhythm')}
           </Heading>
           <div
             className="as-rhythm"
@@ -679,6 +681,7 @@ export function DayInsideBody({ data }: { data: DayInside }) {
  * it's a scratchpad for one visit, not saved research.
  */
 function Checklist({ items, title }: { items: string[]; title?: string }) {
+  const { t } = useTranslation()
   const [checked, setChecked] = useState<Set<number>>(new Set())
   const toggle = (i: number) =>
     setChecked((prev) => {
@@ -690,7 +693,7 @@ function Checklist({ items, title }: { items: string[]; title?: string }) {
 
   return (
     <div>
-      <Heading>{title ?? 'Ask on the tour'}</Heading>
+      <Heading>{title ?? t('cardLabels.askOnTour')}</Heading>
       <div className="as-checklist">
         {items.map((q, i) => (
           <label key={q} className="as-check-item">

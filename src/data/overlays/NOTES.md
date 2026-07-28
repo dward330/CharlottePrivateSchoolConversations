@@ -106,3 +106,57 @@ cards shipped English. Their prose is now extracted under the `clusters.` and
    `Lower School`, `Academic Conservatory Program`, `Seal of Biliteracy`,
    `Promoting Respect, Inclusion and Safety for Sexual Minorities`,
    `· Upper School`. These are proper nouns, not untranslated leftovers.
+
+---
+
+## Stage 2 — The Arts (553 strings, 12,843 words)
+
+Landed 2026-07-27. Full coverage: 587/587 field sites. Nearly 3× Stage 1.
+
+### Terminology choices worth a second opinion
+
+| English | Spanish used | Note |
+|---|---|---|
+| Blumey Awards | left English | Proper noun — a named regional award. Category names ARE translated (*Mejor Actriz*), since those describe what was won. |
+| finalist placement | puesto de finalista | A hedge the research leans on hard: PD claims "26 Blumey Awards" but only one is a win. The distinction must survive. |
+| one-act (NCTC) | pieza breve | Standard theatrical term in Spanish. |
+| stagecraft / tech theatre | tramoya / teatro técnico | "Tramoya" is the trade term; "teatro técnico" mirrors the course names. |
+| wet darkroom | cuarto oscuro húmedo | Literal. "Húmedo" is the term of art for chemical processing. |
+| thrust stage | escenario de proscenio invertido | Verbose but standard; no short Spanish equivalent. |
+| choice-based (TAB) | por elección | TAB left as the acronym, expanded once. |
+| honors ladder | escalera de honores | Consistent with Stage 1's "sociedad de honor". |
+| Upper/Middle/Lower School | left English | Division names, per the standing convention. |
+| square footage | converted to m² | **The only figures converted anywhere.** 45,730 sq ft → 4.248 m². Reconsider: this breaks the "never re-type a figure" rule. |
+
+### Specific soft spots
+
+1. **Square-footage conversion.** `45,730 sq ft` → `4.248 m²` and `20,500–20,800 sq ft`
+   → `1.900–1.930 m²`. Every other figure in this corpus is left as authored. A
+   reviewer should decide whether to convert or keep imperial — I converted because a
+   Spanish reader cannot picture square feet, but it is inconsistent with the standing
+   rule and the number is now *derived* rather than transcribed.
+
+2. **Award category names.** *Best Actress* → *Mejor Actriz*, *Best Featured
+   Performer* → *Mejor Intérprete Destacado/a*. Gendered in Spanish where English is
+   neutral, so the translation picks a gender per named recipient. Check the
+   agreements against each name.
+
+3. **`providence-day:theatre.honestContext`** — the load-bearing hedge of the whole
+   card: the school claims 26 awards, exactly one is verifiable. Rendered as *"suma
+   nominaciones y puestos de finalista junto con los premios"*. This must not soften.
+
+4. **"FINALIST — not nominee"** (`charlotte-christian:theatre.ledger`) — the English
+   uses caps for emphasis on a distinction that carries the whole claim. Kept as
+   *"FINALISTA — no nominada"*.
+
+5. **`charlotte-latin:visual.honestContext`** — a methodology caveat about reading
+   award levels out of image filenames. Long, technical, and the kind of hedge that
+   degrades easily. Worth a careful read.
+
+6. **Recorder Karate** (`charlotte-country-day:ladder`) — a program name left English
+   inside a translated sentence; reads oddly but it is what a parent will see.
+
+7. **Play and musical titles stay English** throughout (*The Crucible*, *Into the
+   Woods*, *Enrique V* is the exception — Shakespeare has established Spanish titles,
+   so *Henry V* → *Enrique V* and *Julius Caesar* → *Julio César*). That inconsistency
+   is deliberate but arguable.

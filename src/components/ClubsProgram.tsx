@@ -30,10 +30,11 @@ import type {
 
 /** The SOURCE row every card ends with. Citations with a URL become links. */
 function SourceRow({ sources }: { sources: ClubsSource[] }) {
+  const { t } = useTranslation()
   if (sources.length === 0) return null
   return (
     <div className="clubs-src srcrow">
-      <span className="tag-outline">SOURCE</span>
+      <span className="tag-outline">{t('cardLabels.source')}</span>
       {sources.map((s) =>
         s.url ? (
           <a key={s.label} href={s.url} target="_blank" rel="noreferrer noopener">
@@ -195,7 +196,7 @@ export function ServiceBody({ data }: { data: Service }) {
             <p className="clubs-program-detail">{p.detail}</p>
             {p.source && (
               <div className="clubs-program-src text-muted">
-                <span className="tag-outline clubs-src-tag">SOURCE</span>{' '}
+                <span className="tag-outline clubs-src-tag">{t('cardLabels.source')}</span>{' '}
                 {p.source.url ? (
                   <a href={p.source.url} target="_blank" rel="noreferrer noopener">
                     {p.source.label} ↗

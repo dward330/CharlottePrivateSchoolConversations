@@ -1,6 +1,6 @@
 # Spanish research-prose translation — rollout
 
-**Status:** Stage 1 of 8 landed. Written 2026-07-27.
+**Status:** Stages 1–2 of 8 landed. Written 2026-07-27.
 **Mechanism:** see [`prose-translation-architecture.md`](./prose-translation-architecture.md).
 That doc is language-independent; this one is only the Spanish rollout.
 
@@ -19,7 +19,7 @@ admissions outcomes and tuition. Word counts below are **measured**
 |---|---|---|---|---|
 | 0 ✅ | Extraction + `check_translations.mjs` + field classification. No prose, no `localized()`. | — | — | **Done.** Machinery alone; measured the real surface |
 | 1 ✅ | **Student Clubs** (3 modules) | 7,044 | 577 | **Done.** Smallest topic; proved the pipeline end-to-end and landed `localized()` + accessor rewiring |
-| 2 | **The Arts** | 12,988 | 587 | Low stakes; first substantial prose volume |
+| 2 ✅ | **The Arts** | 12,843 | 587 | **Done.** Low stakes; first substantial prose volume |
 | 3 | **Sports** | 9,939 | 719 | Most field sites — stresses reinjection breadth |
 | 4 | **After School** | 9,430 | 603 | Money strings — verify `localizeMoneyText()` still owns them |
 | 5 | **College Support** | 17,463 | 896 | Highest stakes and largest: admissions outcomes |

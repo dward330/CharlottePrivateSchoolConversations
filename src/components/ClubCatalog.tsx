@@ -41,7 +41,7 @@ export function ClubCatalogBody({ catalog }: { catalog: ClubCatalog }) {
   }, [])
 
   const total = catalog.clubs.length
-  const noun = catalog.countNoun ?? 'clubs'
+  const noun = catalog.countNoun ?? t('cardLabels.clubs')
   const counts: Record<string, number> = {}
   for (const c of catalog.clubs) counts[c.cat] = (counts[c.cat] ?? 0) + 1
 
@@ -119,7 +119,7 @@ export function ClubCatalogBody({ catalog }: { catalog: ClubCatalog }) {
         </button>
         {!hideSources && (
           <div className="catalog-src srcrow">
-            <span className="tag-outline">SOURCES</span>
+            <span className="tag-outline">{t('cardLabels.sources')}</span>
             <span className="catalog-src-text text-muted">{catalog.source}</span>
           </div>
         )}
