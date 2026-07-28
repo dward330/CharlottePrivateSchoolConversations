@@ -119,6 +119,24 @@ exact font stack `syncFont()` injects for `bn`. Run the dev server and open
 fix here is language-scoped (`:root[lang='bn']`) unless it is a genuine bug for
 everyone — the Spanish rollout found five of those, so expect some.
 
+**Spike results (2026-07-28) — Phase 0 is COMPLETE.** Three findings:
+
+1. **Letterspacing breaks conjuncts — the serious one.** Bangla joins letters
+   under a মাত্রা headstroke; the Latin-caps tracking (up to 0.14em across 43
+   rules) forces gaps *inside* single characters. `রাজ্য-শিরোপার` rendered with
+   visible holes. Fixed: tracking → 0 for `bn`. Uppercase itself is left alone
+   — inert in Bangla, and removing it would risk the Latin runs (AP, NCISAA)
+   that share those labels.
+2. **Tight line-height clips.** Headings at 1.05–1.15 are fine for Latin caps
+   but not for a script stacking vowel signs above *and* below the headstroke.
+   Fixed: 1.45 on headings, 1.65 on body, for `bn` only.
+3. **Stat tiles were fine.** No fixed height, so they grew cleanly. Recorded so
+   nobody later "fixes" a problem that never existed.
+
+All overrides are scoped `:root[lang='bn']` — verified that the only unscoped
+`letter-spacing: 0` rules in the built CSS are 7 that pre-date this change.
+Font loading worked first time; no tofu, no fallback.
+
 ### Phase 1 — one translation pass, all topics
 
 Extract every topic at once, translate, build overlays, wire nothing new:
