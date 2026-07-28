@@ -41,12 +41,16 @@
   line-height: 1.5;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
-  /* NOT `optimizeLegibility`: it turns on discretionary ligatures, and the
-     Google-Fonts Barlow subsets ship no `ffi`/`ffl` glyph. The browser then
-     draws a missing-glyph box, so "Affinity" rendered as "A!nity" and
-     "official" as "o!cial" — visible in print and in PDF export. Common
-     ligatures stay on; only the discretionary ones are disabled. */
-  font-variant-ligatures: common-ligatures no-discretionary-ligatures;
+  /* The Google-Fonts Barlow build substitutes an `ffi`/`ffl` ligature the
+     shipped subset has no glyph for, so the browser drew a missing-glyph box:
+     "Affinity" rendered as "A!nity", "official" as "o!cial". Visible on screen
+     and in print, in both locales (afiliación, oficial, dificultad).
+
+     `ffi` is a COMMON ligature, not a discretionary one — an earlier fix
+     disabled only the discretionary class and did not help. Turning ligatures
+     off entirely is the correct scope here: Barlow is a UI sans, so there is
+     no typographic loss, and `fi`/`fl` render as plain letter pairs. */
+  font-variant-ligatures: none;
 }
 
 /* Dark palette. Applied two ways, so the same values must be listed twice:
