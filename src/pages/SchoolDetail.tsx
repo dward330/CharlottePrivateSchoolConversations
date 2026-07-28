@@ -13,7 +13,7 @@ import { ProseContent } from '../components/ProseContent.tsx'
 import { proseSummary, previewHasGapLanguage } from '../lib/prose.ts'
 import { toCompare, toHome, useNavigate } from '../lib/router.ts'
 import { schools as allSchools } from '../lib/manifest.ts'
-import { valueMetricsForTopic } from '../data/metricValues.ts'
+import { valueMetricsForTopic, loadMetricValuesOverlay } from '../data/metricValues.ts'
 import { financialAidReport } from '../data/financialAidReports.ts'
 import { FinancialAidReportCard } from '../components/FinancialAidReport.tsx'
 import { clubClusters } from '../data/clubClusters.ts'
@@ -295,8 +295,9 @@ export function SchoolDetail({ slug }: { slug: string }) {
       loadAfterSchoolOverlay(lang),
       loadCollegeSupportOverlay(lang),
       loadCourseOfferingsOverlay(lang),
+      loadMetricValuesOverlay(lang),
       ...covered.map(async (t) => [t.slug, await loadMetricGroups(t.slug, slug)] as const),
-    ]).then(([, , , , , , ...entries]) => {
+    ]).then(([, , , , , , , ...entries]) => {
       if (!alive) return
       setLoaded(Object.fromEntries(entries))
       setReady(true)
@@ -430,7 +431,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                 (a, b) => rank(a.metric.key) - rank(b.metric.key),
               )
             }
-            const stats = valueMetricsForTopic(t.slug).filter((vm) => vm.values[slug] != null)
+            const stats = valueMetricsForTopic(t.slug, lang).filter((vm) => vm.values[slug] != null)
             /* Course Offerings is rendered from the structured curriculum layer
                as one card per division, so its header count and card grid come
                from `offerings` rather than the ingested metric groups. */

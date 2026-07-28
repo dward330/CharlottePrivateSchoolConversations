@@ -1,4 +1,5 @@
 import { localizeMoneyText } from '../lib/format.ts'
+import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { topicLabel, metricLabel } from '../lib/labels.ts'
 import {
@@ -12,7 +13,7 @@ import {
 import { SchoolBadge } from '../components/SchoolBadge.tsx'
 import { BlueprintCorners } from '../components/BlueprintCorners.tsx'
 import { toCompare, toSchool, toHome, useNavigate } from '../lib/router.ts'
-import { valueMetricsForTopic } from '../data/metricValues.ts'
+import { valueMetricsForTopic, loadMetricValuesOverlay } from '../data/metricValues.ts'
 
 type Props = { topic: string | null; schools: string[] }
 
@@ -44,7 +45,18 @@ function numericOf(v: string | null | undefined): number | null {
 }
 
 export function Compare({ topic, schools }: Props) {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
+  const lang = i18n.resolvedLanguage ?? 'en'
+  // Warm the stat-tile overlay; a re-render follows when it lands, and English
+  // stands in until then.
+  const [, setOverlayReady] = useState(0)
+  useEffect(() => {
+    let alive = true
+    void loadMetricValuesOverlay(lang).then(() => alive && setOverlayReady((n) => n + 1))
+    return () => {
+      alive = false
+    }
+  }, [lang])
   const navigate = useNavigate()
   const activeTopic = topic && topicBySlug(topic) ? topic : topics[0]?.slug ?? null
 
@@ -61,7 +73,7 @@ export function Compare({ topic, schools }: Props) {
   }
 
   const metrics = activeTopic ? metricsForTopic(activeTopic) : []
-  const valueMetrics = activeTopic ? valueMetricsForTopic(activeTopic) : []
+  const valueMetrics = activeTopic ? valueMetricsForTopic(activeTopic, lang) : []
   const cols = allSchools.filter((s) => selected.includes(s.slug))
 
   return (
