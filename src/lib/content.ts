@@ -4,6 +4,7 @@
 // research text is only fetched when a parent opens that specific school page.
 
 import { normalizeMetric, orderMetricKeys, type Metric } from './metrics.ts'
+import { stampFor } from './localizeData.ts'
 import type { ContentSection, SchoolTopicContent } from './types.ts'
 
 const loaders = import.meta.glob<SchoolTopicContent>('../content/*/*.json')
@@ -45,6 +46,57 @@ export function hasContent(topicSlug: string, schoolSlug: string): boolean {
   return keyFor(topicSlug, schoolSlug) in loaders
 }
 
+/* ---------------------------------------------------------- translations -- */
+
+type ContentOverlay = { blocks: Record<string, string> }
+
+const CONTENT_OVERLAYS = new Map<string, Record<string, string> | undefined>()
+
+/*
+ * DEFERRED behind a function — `import.meta.glob` cannot be parsed by plain
+ * Node, and the build-time checkers import this module directly.
+ */
+function overlayFiles() {
+  return import.meta.glob<ContentOverlay>('../data/overlays/*.content.*.json', {
+    import: 'default',
+  })
+}
+
+/** Warms the content overlay for a topic+locale; resolves once ready. */
+export async function loadContentOverlay(topicSlug: string, lang: string): Promise<void> {
+  const key = `${topicSlug}:${lang}`
+  if (CONTENT_OVERLAYS.has(key)) return
+  const load = overlayFiles()?.[`../data/overlays/${topicSlug}.content.${lang}.json`]
+  if (!load) {
+    CONTENT_OVERLAYS.set(key, undefined)
+    return
+  }
+  try {
+    CONTENT_OVERLAYS.set(key, (await load()).blocks)
+  } catch {
+    // A missing or malformed overlay must not break the page: English stands in.
+    CONTENT_OVERLAYS.set(key, undefined)
+  }
+}
+
+/**
+ * Swap each translated block inside a section body.
+ *
+ * Blocks are keyed by a hash of their English text, so a block the ingest
+ * pipeline reordered still resolves, and a block it EDITED simply misses and
+ * renders English — the same safe failure the src/data overlays have.
+ *
+ * Verbatim blocks (rate tables, quoted Wayback snapshots) were never extracted,
+ * so they miss by construction and stay English, which is what keeps them
+ * checkable against the school's own archived page.
+ */
+function localizeBody(text: string, blocks: Record<string, string>): string {
+  return text
+    .split(/(\n\s*\n)/)
+    .map((part) => (/^\s*$/.test(part) ? part : (blocks[stampFor(part.replace(/\s+$/, ''))] ?? part)))
+    .join('')
+}
+
 export type MetricGroup = {
   metric: Metric
   sections: ContentSection[]
@@ -57,11 +109,16 @@ export type MetricGroup = {
 export async function loadMetricGroups(
   topicSlug: string,
   schoolSlug: string,
+  lang = 'en',
 ): Promise<MetricGroup[]> {
   const loader = loaders[keyFor(topicSlug, schoolSlug)]
   if (!loader) return []
   const mod = await loader()
   const data = (mod as { default?: SchoolTopicContent }).default ?? (mod as SchoolTopicContent)
+
+  /* Undefined for English and for any topic with no overlay — `localizeBody`
+     is then skipped entirely and sections pass through by reference. */
+  const blocks = lang === 'en' ? undefined : CONTENT_OVERLAYS.get(`${topicSlug}:${lang}`)
 
   const byKey = new Map<string, MetricGroup>()
   const order: string[] = []
@@ -75,7 +132,7 @@ export async function loadMetricGroups(
       byKey.set(metric.key, group)
       order.push(metric.key)
     }
-    group.sections.push(section)
+    group.sections.push(blocks ? { ...section, text: localizeBody(section.text, blocks) } : section)
   }
   return orderMetricKeys(topicSlug, order).map((k) => byKey.get(k)!)
 }

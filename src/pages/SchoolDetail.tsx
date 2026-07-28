@@ -5,7 +5,7 @@ import {
   topicsForSchool,
   docCount,
 } from '../lib/manifest.ts'
-import { loadMetricGroups, type MetricGroup } from '../lib/content.ts'
+import { loadMetricGroups, loadContentOverlay, type MetricGroup } from '../lib/content.ts'
 import { SchoolBadge } from '../components/SchoolBadge.tsx'
 import { TopicGlyph } from '../components/TopicGlyph.tsx'
 import { BlueprintCorners } from '../components/BlueprintCorners.tsx'
@@ -297,7 +297,18 @@ export function SchoolDetail({ slug }: { slug: string }) {
       loadCourseOfferingsOverlay(lang),
       loadMetricValuesOverlay(lang),
       loadFinancialAidReportOverlay(lang),
-      ...covered.map(async (t) => [t.slug, await loadMetricGroups(t.slug, slug)] as const),
+      /* The content overlay must be warmed BEFORE loadMetricGroups reads it —
+         it resolves blocks synchronously off the cached index, so racing them
+         would render English on first paint. */
+      ...covered.map(
+        async (t) =>
+          [
+            t.slug,
+            await loadContentOverlay(t.slug, lang).then(() =>
+              loadMetricGroups(t.slug, slug, lang),
+            ),
+          ] as const,
+      ),
     ]).then(([, , , , , , , , ...entries]) => {
       if (!alive) return
       setLoaded(Object.fromEntries(entries))

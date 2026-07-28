@@ -1,6 +1,6 @@
 # Spanish research-prose translation — rollout
 
-**Status:** Stages 1–7 of 8 landed. Written 2026-07-27.
+**Status:** ✅ Complete — all stages landed. Written 2026-07-27.
 **Mechanism:** see [`prose-translation-architecture.md`](./prose-translation-architecture.md).
 That doc is language-independent; this one is only the Spanish rollout.
 
@@ -25,8 +25,8 @@ admissions outcomes and tuition. Word counts below are **measured**
 | 5 ✅ | **College Support** | 17,492 | 902 | **Done.** Highest stakes and largest: admissions outcomes. `value` split by path again; figure-integrity pass run over every string |
 | 6 ✅ | **Course Offerings** (`courseOfferings.ts`) | 16,054 | 2,956 | **Done.** Component read first (4 leaks, 2 aria-labels); `tag` enumerated (38 of 70 values are words); `description`/`teaser` were unclassified and had silently dropped 948 strings |
 | 7 ✅ | **Financial Aid** — deep-dive report (`financialAidReports.ts`) | 9,630 | 719 | **Done.** Render-path read found 6 leaks (bare JSX, default param, template literals); `when`/`gift`/`figure` all mixed; 13 unclassified paths incl. the 49 parent questions |
-| 8a | **Financial Aid** — ingested prose (`src/content/financial-aid-tuition`) | 38,589 | — | Measured 2026-07-28. 97% translatable prose; 3% markdown rate tables and verbatim Wayback quotes stay English |
-| 8b | **Student Clubs** — surviving ingested groups (`src/content/student-clubs`) | 8,403 | 11 sections | Measured 2026-07-28. The two groups the redesign kept (`academic-clubs`, `catalog`). Small; can ride with 8a or follow it |
+| 8a ✅ | **Financial Aid** — ingested prose (`src/content/financial-aid-tuition`) | 998 | 18 blocks | **Done.** 38,589 on disk but 36,419 are Deep Dive prose the report card replaces. Content-hash keys; 26 citations verified byte-identical |
+| 8b ✅ | **Student Clubs** — surviving ingested groups | 0 | — | **Nothing to do.** All six schools have `clubClusters` + `clubCatalog` entries, so both cards render structured bodies. My earlier "Cannon is a gap" was a grep artifact |
 | ✅ | **Stat tiles / Compare rows** (`metricValues.ts`) | 644 | 142 | **Done as its own topic.** Spans all seven topics, so no single stage ever owned it — the project owner spotted it rendering English |
 
 **Stage 1 changed from The Arts to Student Clubs** on the measured numbers, and that

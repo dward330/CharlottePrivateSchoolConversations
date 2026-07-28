@@ -636,3 +636,58 @@ parent-facing questions** that are the entire point of the last section.
 7. **Clock and date formats** follow the standing conventions: dates are
    Spanish-style (`1 nov 2025`, `15 feb 2026`), currency keeps `$` and US digit
    grouping so `localizeMoneyText()` owns presentation.
+
+---
+
+## Stage 8 — ingested `src/content` prose (18 blocks, 998 words)
+
+Landed 2026-07-28. **The final stage; `PROSE_TRANSLATED` now includes `'es'`.**
+
+### The surface was measured three times and shrank twice
+
+| Claim | Words | Why it was wrong |
+|---|---|---|
+| Rollout doc, original | ~39k | Right topic, but counted prose the report card replaces |
+| My first measurement | 312,534 | Counted files on disk, not the render path |
+| After dead-topic filter | 46,992 | Still counted card-replaced sections |
+| **Actual** | **998** | Deep Dive prose is replaced for all six schools |
+
+Two findings drove the collapse:
+
+1. **The Deep Dive Report prose is dead.** All six schools have an entry in
+   `financialAidReports.ts`, so `FinancialAidReportCard` renders instead —
+   36,419 words Stage 7 already translated in structured form.
+
+2. **Student Clubs has nothing left.** I had reported Cannon as a gap with no
+   `clubClusters`/`clubCatalog` entry. Wrong — it is keyed `cannon: CANNON` in
+   both maps, and my check grepped for `'cannon'` while object keys are written
+   bare. The same bug let Cannon's 7,164-word Deep Dive body through as
+   translatable. Fixed by parsing slugs from the map literal.
+
+### What remains, and what deliberately stays English
+
+The 998 words are the **Tuition History** card: snapshot notes, the
+5.0%-increase explanation, the discontinued early-childhood options.
+
+**26 quoted source citations round-trip byte-identical** — verified by pairing
+quote marks in order rather than regex-matching, which had produced three false
+positives by pairing one citation's closing quote with the next one's opening.
+Rate tables and Wayback quote blocks are never extracted, so they miss by
+construction and stay English. A family must be able to match them against the
+school's own archived page.
+
+One deliberate exception to the decimal-comma convention: block 10 quotes the
+school's published **"5.0%"** claim. Our own prose says `5,0%`; the quotation
+keeps the school's own punctuation, because misquoting a source is worse than a
+locale inconsistency.
+
+### Mechanism
+
+Keyed by **content hash**, not field path — ingest regenerates this layer and
+positional keys renumber when a sub-section is inserted. Sections are split into
+blank-line blocks (one section body ran 7,164 words, not a reviewable unit).
+A block the pipeline reorders still resolves; a block it *edits* misses and
+renders English, the same safe failure the `src/data` overlays have.
+
+Verified by a **runtime resolution test**: 18/18 blocks resolve through the
+real code path, and a live section from disk localizes end-to-end.
