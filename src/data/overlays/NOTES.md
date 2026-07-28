@@ -639,7 +639,7 @@ parent-facing questions** that are the entire point of the last section.
 
 ---
 
-## Stage 8 — ingested `src/content` prose (18 blocks, 998 words)
+## Stage 8 — ingested `src/content` prose (27 blocks, 1,061 words)
 
 Landed 2026-07-28. **The final stage; `PROSE_TRANSLATED` now includes `'es'`.**
 
@@ -691,3 +691,25 @@ renders English, the same safe failure the `src/data` overlays have.
 
 Verified by a **runtime resolution test**: 18/18 blocks resolve through the
 real code path, and a live section from disk localizes end-to-end.
+
+### Two leaks the print-out caught (2026-07-28)
+
+The card body rendered Spanish on the first pass, but two English strings
+framed it — neither reachable by translating section bodies alone:
+
+1. **Sub-section headings.** `SchoolDetail.tsx` renders `<h3>{s.subtopic}`
+   directly, so `SOURCE SNAPSHOTS`, `TUITION BY BAND AND SCHOOL YEAR` and
+   `NOTE ON THE PUBLISHED 5.0% INCREASE` sat in English above Spanish
+   paragraphs. These are research content, not chrome — they vary per school
+   and per note — so they are now extracted on the same content-hash
+   mechanism, with `kind: 'heading'` and looked up whole rather than through
+   the block splitter.
+
+2. **The Deep Dive teaser.** The report replaces the prose BODY but the
+   collapsed teaser still derived from the prose, so a Spanish card summarised
+   itself in English. It now reads `report.title · report.meta`, both already
+   translated in Stage 7.
+
+The lesson is the Stage 7 one again, one layer out: **a card can be fully
+translated and still be framed by English.** Checking the body is not the same
+as checking what a parent sees around it.

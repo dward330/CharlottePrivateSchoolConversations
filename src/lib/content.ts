@@ -132,7 +132,17 @@ export async function loadMetricGroups(
       byKey.set(metric.key, group)
       order.push(metric.key)
     }
-    group.sections.push(blocks ? { ...section, text: localizeBody(section.text, blocks) } : section)
+    group.sections.push(
+      blocks
+        ? {
+            ...section,
+            /* The heading renders as its own <h3>, so it is looked up whole
+               rather than through localizeBody's block splitter. */
+            subtopic: blocks[stampFor(section.subtopic.trim())] ?? section.subtopic,
+            text: localizeBody(section.text, blocks),
+          }
+        : section,
+    )
   }
   return orderMetricKeys(topicSlug, order).map((k) => byKey.get(k)!)
 }

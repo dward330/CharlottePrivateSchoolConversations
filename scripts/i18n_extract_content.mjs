@@ -184,6 +184,19 @@ function main() {
     const data = JSON.parse(readFileSync(join(dir, file), 'utf8'))
     for (const section of liveSections(topic, data)) {
       if (cardReplaces(topic, slug, section.subtopic ?? '')) continue
+      /* The sub-section heading renders above the body as `<h3>{s.subtopic}`.
+         It is research content, not chrome — it varies per school and per note —
+         so it is extracted on the same content-hash mechanism as the body. */
+      const sub = (section.subtopic ?? '').trim()
+      if (sub) {
+        const k = stamp(sub)
+        let e = byHash.get(k)
+        if (!e) {
+          e = { of: k, subtopic: sub, kind: 'heading', at: [], text: sub, t: '' }
+          byHash.set(k, e)
+        }
+        e.at.push(`${slug}:${sub}`)
+      }
       for (const block of blocksOf(section.text)) {
         if (isVerbatimBlock(block)) continue
         const key = stamp(block)

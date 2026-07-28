@@ -829,7 +829,12 @@ export function SchoolDetail({ slug }: { slug: string }) {
                           <span className="note-card-head">
                             <span className="topic-title">{metricLabel(tr, g.metric.key, g.metric.label)}</span>
                             <span className="topic-teaser">
-                              {clusters
+                              {/* The report replaces the prose BODY, so the teaser
+                                  must come from the report too — deriving it from
+                                  the prose would show English under a Spanish card. */}
+                              {report
+                                ? `${report.title} · ${report.meta}`
+                                : clusters
                                 ? clusters.verdict
                                 : catalog
                                   ? catalog.verdict
