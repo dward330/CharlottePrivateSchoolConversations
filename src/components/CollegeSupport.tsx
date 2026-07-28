@@ -34,6 +34,7 @@ import type {
 } from '../data/collegeSupport.ts'
 import { COLLEGE_FILTERS } from '../data/collegeSupport.ts'
 import { useTranslation } from 'react-i18next'
+import { sourceLabel } from '../lib/labels.ts'
 
 /* ------------------------------------------------------------ primitives -- */
 
@@ -51,7 +52,7 @@ function SourceRow({ sources }: { sources: CsSource[] }) {
           </a>
         ) : (
           <span key={s.label} className="text-muted">
-            {s.label}
+            {sourceLabel(tr, s.label)}
           </span>
         ),
       )}
@@ -433,7 +434,7 @@ function CollegeList({ data }: { data: Outcomes }) {
       />
 
       <div className="cs-count text-muted">
-        {shown.length} shown
+        {t('tables.shown', { count: shown.length })}
         {data.collegesTotal && ` · ${data.collegesTotal}`}
       </div>
 
@@ -571,7 +572,14 @@ export function EdgeBody({ data }: { data: Edge }) {
 /* ------------------------------------ 1e · whole class analytics ---------- */
 
 /** The percentile column headers, fixed across every score table. */
-const PERCENTILE_COLS = ['10th', '25th', '50th', '75th', '90th', 'Mean']
+const PERCENTILE_COLS = [
+  'tables.pct10',
+  'tables.pct25',
+  'tables.pct50',
+  'tables.pct75',
+  'tables.pct90',
+  'tables.mean',
+]
 
 export function WholeClassBody({ data }: { data: WholeClass }) {
   const { t: tr } = useTranslation()
@@ -592,7 +600,7 @@ export function WholeClassBody({ data }: { data: WholeClass }) {
                   <th className="cs-th cs-th-metric">{tr('tables.percentile')}</th>
                   {PERCENTILE_COLS.map((c) => (
                     <th key={c} className="cs-th cs-th-pct">
-                      {c}
+                      {tr(c)}
                     </th>
                   ))}
                 </tr>

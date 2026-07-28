@@ -324,7 +324,7 @@ export function CostBody({ data }: { data: Cost }) {
       ? 'afterSchool.unitMonth'
       : data.basis === 'semester'
         ? 'afterSchool.unitSemester'
-        : 'afterSchool.unitYear',
+        : 'afterSchool.unitAnnual',
   )
   const showPeriodTotal = data.basis !== 'annual'
 
@@ -387,7 +387,7 @@ export function CostBody({ data }: { data: Cost }) {
                           ? 'afterSchool.basisMonthly'
                           : data.basis === 'semester'
                             ? 'afterSchool.basisSemester'
-                            : 'afterSchool.basisYear',
+                            : 'afterSchool.basisAnnual',
                       ),
                     })}
                   </th>

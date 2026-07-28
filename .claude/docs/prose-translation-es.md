@@ -1,6 +1,6 @@
 # Spanish research-prose translation — rollout
 
-**Status:** Stages 1–4 of 8 landed. Written 2026-07-27.
+**Status:** Stages 1–5 of 8 landed. Written 2026-07-27.
 **Mechanism:** see [`prose-translation-architecture.md`](./prose-translation-architecture.md).
 That doc is language-independent; this one is only the Spanish rollout.
 
@@ -22,7 +22,7 @@ admissions outcomes and tuition. Word counts below are **measured**
 | 2 ✅ | **The Arts** | 12,843 | 587 | **Done.** Low stakes; first substantial prose volume |
 | 3 ✅ | **Sports** | 9,553 | 719 | **Done.** Most field sites — stressed reinjection breadth |
 | 4 ✅ | **After School** | 9,550 | 657 | **Done.** Money strings verified: every `$` figure preserved verbatim, none hand-converted — `localizeMoneyText()` still owns presentation |
-| 5 | **College Support** | 17,463 | 896 | Highest stakes and largest: admissions outcomes |
+| 5 ✅ | **College Support** | 17,492 | 902 | **Done.** Highest stakes and largest: admissions outcomes. `value` split by path again; figure-integrity pass run over every string |
 | 6 | **Course Offerings** (`courseOfferings.ts`) | 17,858 | 2,992 | Found by the sibling-layer audit; its own card, own module |
 | 7 | **Financial Aid** — deep-dive report (`financialAidReports.ts`) | 11,464 | 934 | Structured card; highest stakes |
 | 8 | **Financial Aid** — ingested prose (`src/content`) | ~39k | — | The only `src/content` stage; do last |

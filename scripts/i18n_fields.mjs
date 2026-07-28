@@ -113,6 +113,9 @@ export const SKIP_KEYS = new Map([
   ['show', 'proper noun — production title'],
   ['ensembles', 'proper noun — ensemble name'],
   ['role', 'job title — see PATH_OVERRIDES, translated where descriptive'],
+  // A description mentioning "chrome" is a PROMISE that the UI translates this
+  // field. check_chrome_keys.mjs verifies it — `day` was skipped on exactly this
+  // claim for a whole stage while the key it named did not exist.
   ['day', 'weekday code (Mon) — rendered from a chrome key'],
   ['time', 'time literal'],
   ['until', 'time literal'],
@@ -187,6 +190,27 @@ export const PATH_OVERRIDES = new Map([
   // than blanket-classifying the leaf.
   ['coaching.featured[].stats[].value', true],
   ['national.stats[].value', true],
+  // College Support splits the same way. `outcomes.stats[].value` is pure
+  // figures ("249", "$14.7M", "8 of 8"), but the counseling and transcript
+  // strips mix figures with phrases a Spanish parent must be able to read:
+  // "No rank", "Not published", "Quintiles", "9th grade", "4 years",
+  // "0.5 credit", "18+ yrs", "25 AP + IB". Marked prose so those translate;
+  // the bare numerals beside them round-trip unchanged, and the translator
+  // leaves them identical.
+  ['counseling.stats[].value', true],
+  ['transcript.stats[].value', true],
+  // `outcomes.stats[].value` was left as a skip on the assumption it held only
+  // bare figures. A print-out found "8 of 8" and "63 of 64" rendering English
+  // inside Spanish cards — the "of" is a real word, not a separator. The
+  // currency and percentage values beside them ("$14.7M", "99%") round-trip
+  // unchanged, so marking the path prose costs nothing and fixes the ratios.
+  ['outcomes.stats[].value', true],
+  // Same mixed shape at `outcomes.buckets[].tier`. Three of its five values are
+  // genuine proper nouns kept English ("Ivy League", "Power Four", "Ivy Plus"),
+  // but two are descriptive phrases — "Top-75 National Universities" and
+  // "Top-75 Liberal Arts". Marked prose so those translate; the translator
+  // leaves the proper nouns identical and the overlay stores a no-op.
+  ['outcomes.buckets[].tier', true],
   // Season names are chrome — byte-identical for every school — but they live at
   // `offered.seasons[].name`, and `name` is otherwise a proper noun (sports,
   // people, venues). Resolved by path so the sport names beneath stay English.

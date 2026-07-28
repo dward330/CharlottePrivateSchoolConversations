@@ -68,6 +68,7 @@ import {
 } from '../components/ArtsProgram.tsx'
 import {
   collegeSupportProgram,
+  loadCollegeSupportOverlay,
   COLLEGE_SUPPORT_CARDS,
   type CollegeSupportProgram,
 } from '../data/collegeSupport.ts'
@@ -292,8 +293,9 @@ export function SchoolDetail({ slug }: { slug: string }) {
       loadArtsOverlay(lang),
       loadSportsOverlay(lang),
       loadAfterSchoolOverlay(lang),
+      loadCollegeSupportOverlay(lang),
       ...covered.map(async (t) => [t.slug, await loadMetricGroups(t.slug, slug)] as const),
-    ]).then(([, , , , ...entries]) => {
+    ]).then(([, , , , , ...entries]) => {
       if (!alive) return
       setLoaded(Object.fromEntries(entries))
       setReady(true)
@@ -494,7 +496,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                is still truthy, and would otherwise suppress the prose and leave
                the whole section blank. */
             const csEntry =
-              t.slug === 'college-support' ? collegeSupportProgram(slug) : undefined
+              t.slug === 'college-support' ? collegeSupportProgram(slug, lang) : undefined
             const csCardList = csEntry
               ? COLLEGE_SUPPORT_CARDS.filter((c) => csEntry[c.key] != null)
               : []

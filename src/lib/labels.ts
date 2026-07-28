@@ -33,7 +33,10 @@ import type { TFunction } from 'i18next'
  * "cards 1a–1d"). Anything else is a real citation and passes through unchanged.
  */
 export function sourceLabel(t: TFunction, label: string): string {
-  if (label.startsWith('Verdict synthesized by the researcher')) {
+  // Both spellings occur in the data: The Arts and After School use the American
+  // "synthesized", College Support the British "synthesised". Matching only one
+  // shipped the other untranslated for a whole stage.
+  if (/^Verdict synthesi[sz]ed by the researcher/.test(label)) {
     return label.includes('1a–1d')
       ? t('cardLabels.verdictSynthesized_1a1d', { defaultValue: label })
       : t('cardLabels.verdictSynthesized', { defaultValue: label })
