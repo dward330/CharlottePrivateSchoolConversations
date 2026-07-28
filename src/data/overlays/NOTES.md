@@ -163,16 +163,25 @@ Landed 2026-07-27. Full coverage: 587/587 field sites. Nearly 3× Stage 1.
 
 ---
 
-## Stage 3 — Sports (577 strings, 9,651 words)
+## Stage 3 — Sports (636 strings, 9,749 words)
 
-Landed 2026-07-27. Full coverage: 813/813 field sites — the most of any topic.
+Landed 2026-07-27. Full coverage: 888/888 field sites — the most of any topic.
 
-**A print-out caught two misclassified fields after the first pass.** `since` was
+**Print-outs caught six misclassified fields across two passes.** `since` was
 skipped as a "numeral / short date" and `tag` as a "short badge code"; both are
 actually phrases — `since 2002`, `long-tenured`, `15+ years`, `2 OF 3 YRS`,
-`meet-scored`, `Statewide, 1 per sport`. Reclassified as prose, which took the topic
-from 719 to 813 field sites. The numerals inside them are preserved; only the
-surrounding words are translated.
+`meet-scored`, `Statewide, 1 per sport`. A second print then caught `meta` ("built 2012–13", "53,000 sq ft, 2001",
+"renamed 2025"), `date` ("May 2023", "July 1, 2025") and season names — all
+phrases with figures embedded rather than bare codes.
+
+`value` needed splitting by path rather than a blanket rule: the stat strips carry
+bare figures ("27", "66") that must never be re-typed, while the coaching and
+national cards use short phrases ("24 yrs", "HOF", "5 straight"). Season names are
+likewise resolved at `offered.seasons[].name` only, so the sport names beneath them
+stay English.
+
+719 -> 888 field sites across the two corrections. Figures inside every translated
+phrase are preserved; only the surrounding words move.
 
 ### Terminology choices worth a second opinion
 

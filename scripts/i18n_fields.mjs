@@ -45,6 +45,10 @@ export const PROSE_KEYS = new Set([
   // "3rd at state". The numerals inside them are preserved by the translator; the
   // surrounding words are not English-invariant.
   'since', 'tag',
+  // Venue metadata ("built 2012–13", "53,000 sq ft, 2001", "renamed 2025"),
+  // timeline dates ("May 2023", "July 1, 2025") and season names are phrases with
+  // figures embedded, not bare codes. The figures are preserved; the words move.
+  'meta', 'date', 'season',
   // Per-school section headings. CLAUDE.md's i18n standard splits headings by
   // the uniform test: one that is byte-identical across all six schools is
   // chrome and belongs in src/locales/*.json, while one that VARIES per school
@@ -106,9 +110,7 @@ export const SKIP_KEYS = new Map([
   ['dismissal', 'time literal'],
   ['hours', 'time literal'],
   ['division', 'division name — see PATH_OVERRIDES'],
-  ['season', 'season name — chrome-owned (Fall/Winter/Spring)'],
   ['kind', 'short type code'],
-  ['meta', 'layout hint'],
   ['width', 'layout number'],
   ['shade', 'colour token'],
   ['intensity', 'layout number'],
@@ -132,7 +134,6 @@ export const SKIP_KEYS = new Map([
   ['gradeFilters', 'filter chip — chrome-owned, matched by value in the component'],
   ['dayFilters', 'filter chip — chrome-owned'],
   ['opponent', 'proper noun — school name'],
-  ['date', 'short date literal'],
   ['basis', 'billing-period code, mapped to a chrome key at render'],
   ['defaultRow', 'internal row id'],
   ['cat', 'internal category code (interest, comp, aff)'],
@@ -155,4 +156,14 @@ export const PATH_OVERRIDES = new Map([
   // Athletics") and read as chrome to a Spanish parent.
   ['coaching.tenure[].role', true],
   ['counseling.roster[].role', true],
+  // `value` is mixed by design: the stat strips carry bare figures ("27", "66")
+  // that must never be re-typed, while the coaching and national cards use short
+  // phrases ("24 yrs", "HOF", "5 straight", "#1 in NC"). Split by path rather
+  // than blanket-classifying the leaf.
+  ['coaching.featured[].stats[].value', true],
+  ['national.stats[].value', true],
+  // Season names are chrome — byte-identical for every school — but they live at
+  // `offered.seasons[].name`, and `name` is otherwise a proper noun (sports,
+  // people, venues). Resolved by path so the sport names beneath stay English.
+  ['offered.seasons[].name', true],
 ])
