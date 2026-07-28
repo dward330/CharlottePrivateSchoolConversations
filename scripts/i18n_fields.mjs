@@ -205,6 +205,12 @@ export const PATH_OVERRIDES = new Map([
   // currency and percentage values beside them ("$14.7M", "99%") round-trip
   // unchanged, so marking the path prose costs nothing and fixes the ratios.
   ['outcomes.stats[].value', true],
+  // Same mixed shape at `outcomes.buckets[].tier`. Three of its five values are
+  // genuine proper nouns kept English ("Ivy League", "Power Four", "Ivy Plus"),
+  // but two are descriptive phrases — "Top-75 National Universities" and
+  // "Top-75 Liberal Arts". Marked prose so those translate; the translator
+  // leaves the proper nouns identical and the overlay stores a no-op.
+  ['outcomes.buckets[].tier', true],
   // Season names are chrome — byte-identical for every school — but they live at
   // `offered.seasons[].name`, and `name` is otherwise a proper noun (sports,
   // people, venues). Resolved by path so the sport names beneath stay English.

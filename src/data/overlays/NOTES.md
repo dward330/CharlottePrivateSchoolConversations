@@ -434,6 +434,18 @@ missed. Recorded because each is a distinct shape:
    prose; the currency and percentage values beside them round-trip unchanged.
    Coverage 1089 -> 1113 field sites.
 
+5. **`outcomes.buckets[].tier` was misclassified**, found in the same print-out
+   round. Skipped as "proper noun", and three of its five values are —
+   `Ivy League`, `Power Four`, `“Ivy Plus”`. But two are descriptive phrases:
+   **`Top-75 National Universities`** and **`Top-75 Liberal Arts`**. Now prose;
+   the proper nouns round-trip identical. Coverage 1113 -> 1143.
+
+   This is the third field in this topic with the same shape — a classification
+   right for most of its values and wrong for a few. `value`, `tier`, and
+   `outcomes.stats[].value` all needed splitting. **A leaf name describes a
+   field's typical value, not all of them**, and the audit's heuristics judge
+   the typical case.
+
 The pattern across stages 4 and 5 is now unambiguous: **the checks catch data
 problems, and the print-outs catch component problems.** Three of these four
 were English living in a component or constant the overlay layer cannot reach.
