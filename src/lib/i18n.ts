@@ -82,16 +82,20 @@ export function isTranslated(code: string): boolean {
 }
 
 /**
- * Locales whose *research prose* (src/data/**) is translated, as opposed to the
- * UI chrome in TRANSLATED above. Deliberately a separate list: Spanish has full
- * chrome coverage today while its ~165k words of school prose are still English.
+ * Locales whose *research prose* is translated, as opposed to the UI chrome in
+ * TRANSLATED above. Deliberately a separate list: the two layers shipped on
+ * different schedules, chrome first (PRs #40–#43), prose across eight stages.
+ *
+ * Spanish joined 2026-07-28 when the last stage landed. That covers both prose
+ * layers — the structured cards in src/data/** and the ingested notes in
+ * src/content/** that a parent can still reach.
  *
  * Only consumer is the `dir` attribute below, which drives one CSS rule. An RTL
  * locale whose prose is still English has to render that prose as an LTR run,
  * or the bidi algorithm mangles it (see `[data-prose='en'] main` in index.css).
  * Adding a locale here retires that rule for it automatically.
  */
-export const PROSE_TRANSLATED: readonly string[] = []
+export const PROSE_TRANSLATED: readonly string[] = ['es']
 
 export function isProseTranslated(code: string): boolean {
   return PROSE_TRANSLATED.includes(code)
