@@ -190,6 +190,15 @@ export const PATH_OVERRIDES = new Map([
   // than blanket-classifying the leaf.
   ['coaching.featured[].stats[].value', true],
   ['national.stats[].value', true],
+  // College Support splits the same way. `outcomes.stats[].value` is pure
+  // figures ("249", "$14.7M", "8 of 8"), but the counseling and transcript
+  // strips mix figures with phrases a Spanish parent must be able to read:
+  // "No rank", "Not published", "Quintiles", "9th grade", "4 years",
+  // "0.5 credit", "18+ yrs", "25 AP + IB". Marked prose so those translate;
+  // the bare numerals beside them round-trip unchanged, and the translator
+  // leaves them identical.
+  ['counseling.stats[].value', true],
+  ['transcript.stats[].value', true],
   // Season names are chrome — byte-identical for every school — but they live at
   // `offered.seasons[].name`, and `name` is otherwise a proper noun (sports,
   // people, venues). Resolved by path so the sport names beneath stay English.
