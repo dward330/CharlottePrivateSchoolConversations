@@ -78,7 +78,15 @@ async function entryFor(topic, slug) {
     }
     const m = await import(`../src/data/${TOPICS[topic]}/${slug}.ts`)
     return m[EXPORTS[slug]]
-  } catch {
+  } catch (err) {
+    // An ACCESSOR topic that fails to import is a REAL error, not a school that
+    // simply has no entry: it drops every school from both the extraction and
+    // the coverage denominator, so this reports 0/0 while the page is fine.
+    // (Exactly how `import.meta.glob` in courseOfferings.ts hid this topic.)
+    if (ACCESSORS[topic]) {
+      console.error(`  ✗ ${topic}: ${err.message}`)
+      process.exitCode = 2
+    }
     return undefined
   }
 }

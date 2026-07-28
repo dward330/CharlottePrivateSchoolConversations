@@ -162,11 +162,11 @@ export function CourseOfferingsBody({ division }: { division: Division }) {
   // While filtering the count reports the match ratio; idle it reports the
   // plain size of the active tab.
   const countText = q
-    ? `${count} of ${total} match`
-    : `${total} ${total === 1 ? 'course' : 'courses'}`
+    ? t('courses.countMatch', { count, total })
+    : t('courses.countCourses', { count: total })
   // The design shows a scroll affordance only where the list actually
   // overflows the 380px frame; ~7 rows is the practical threshold.
-  const scrollHint = !q && total > 7 ? ' — scroll for full list' : ''
+  const scrollHint = !q && total > 7 ? t('courses.scrollHint') : ''
 
   return (
     <div className="courses" ref={rootRef}>
@@ -190,7 +190,7 @@ export function CourseOfferingsBody({ division }: { division: Division }) {
             aria-selected={showingAll}
             onClick={() => setActive(ALL_TAB)}
           >
-            All
+            {t('courses.allTab')}
           </button>
           {depts.map((d, i) => (
             <button

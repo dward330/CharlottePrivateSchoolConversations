@@ -529,3 +529,33 @@ globales contemporáneas`.
    were given their standard Spanish titles where the Spanish name is the one a
    Hispanophone reader knows: `1984`, `El extranjero`, `El gran Gatsby`,
    `Frankenstein`. That inconsistency is deliberate but debatable.
+
+### Stage 6 — post-print-out corrections
+
+The print-out caught two leaks in the very component I had read first, plus one
+infrastructure bug the print-out could not have shown:
+
+1. **`All` on the department tabs** — the word sits alone on its own JSX line,
+   so the grep that found the other four strings (which matched `>text<` on one
+   line) walked straight past it.
+
+2. **`16 courses — scroll for full list`** — built from **template literals**
+   (`` `${total} ${total === 1 ? 'course' : 'courses'}` ``), not a quoted
+   phrase, so no string-literal search could see it. Now uses i18next `count`.
+
+   Both are a lesson about the *method*, not the field: reading a component is
+   only as good as the pattern used to read it. A literal-string grep misses
+   bare identifiers and composed strings.
+
+3. **`import.meta.glob` at module scope broke the build-time checkers.**
+   Course Offerings is one module behind an accessor, so `check_translations.mjs`
+   imports it directly — and plain Node cannot parse `import.meta.glob`. The
+   checker reported **`0/0 field sites` for a fully-translated topic**, which is
+   the Stage 1 failure exactly: a silent `catch` turning a real error into an
+   apparently-empty topic.
+
+   Fixed twice over: the glob is now deferred inside a function (still a
+   build-time transform, so runtime behaviour is identical), and **both**
+   `check_translations.mjs` and `i18n_extract.mjs` now log and set `exitCode = 2`
+   when an ACCESSOR topic fails to import instead of silently returning
+   `undefined`.
