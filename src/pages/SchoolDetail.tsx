@@ -14,7 +14,7 @@ import { proseSummary, previewHasGapLanguage } from '../lib/prose.ts'
 import { toCompare, toHome, useNavigate } from '../lib/router.ts'
 import { schools as allSchools } from '../lib/manifest.ts'
 import { valueMetricsForTopic, loadMetricValuesOverlay } from '../data/metricValues.ts'
-import { financialAidReport } from '../data/financialAidReports.ts'
+import { financialAidReport, loadFinancialAidReportOverlay } from '../data/financialAidReports.ts'
 import { FinancialAidReportCard } from '../components/FinancialAidReport.tsx'
 import { clubClusters } from '../data/clubClusters.ts'
 import { ClubClustersBody } from '../components/ClubClusters.tsx'
@@ -296,8 +296,9 @@ export function SchoolDetail({ slug }: { slug: string }) {
       loadCollegeSupportOverlay(lang),
       loadCourseOfferingsOverlay(lang),
       loadMetricValuesOverlay(lang),
+      loadFinancialAidReportOverlay(lang),
       ...covered.map(async (t) => [t.slug, await loadMetricGroups(t.slug, slug)] as const),
-    ]).then(([, , , , , , , ...entries]) => {
+    ]).then(([, , , , , , , , ...entries]) => {
       if (!alive) return
       setLoaded(Object.fromEntries(entries))
       setReady(true)
@@ -788,7 +789,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                     const report =
                       t.slug === 'financial-aid-tuition' &&
                       g.metric.key === 'in-depth-report'
-                        ? financialAidReport(slug)
+                        ? financialAidReport(slug, lang)
                         : undefined
                     /* The Academic & Competitive Clubs card, where the school
                        has a structured entry, swaps its prose body for the

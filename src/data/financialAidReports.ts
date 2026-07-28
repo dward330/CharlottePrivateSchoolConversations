@@ -19,6 +19,15 @@
 // Schools with no entry here fall back to the standard prose card.
 
 /** A tuition band. `prior` is only set where the school publishes last year's rate. */
+import {
+  localized,
+  indexOverlay,
+  setOverlayIndex,
+  overlayIndex,
+  hasOverlay,
+  type OverlayFile,
+} from '../lib/localizeData.ts'
+
 export type TuitionBand = {
   label: string
   /** Current-year tuition in dollars. */
@@ -1758,7 +1767,47 @@ const REPORTS: Record<string, FinancialAidReport> = {
   'providence-day': PROVIDENCE_DAY,
 }
 
-/** The structured deep-dive for a school, or undefined to fall back to prose. */
-export function financialAidReport(schoolSlug: string): FinancialAidReport | undefined {
-  return REPORTS[schoolSlug]
+/* ---------------------------------------------------------- translations -- */
+
+/*
+ * DEFERRED behind a function — `import.meta.glob` cannot be parsed by plain
+ * Node, and the build-time checkers import this module directly. At module
+ * scope it makes check_translations.mjs report an empty topic. See
+ * courseOfferings.ts for the same treatment and the reasoning.
+ */
+function overlayFiles() {
+  return import.meta.glob<OverlayFile>('./overlays/financial-aid-report.*.json', {
+    import: 'default',
+  })
+}
+
+/** Warms the overlay for a locale; resolves once the index is ready. */
+export async function loadFinancialAidReportOverlay(lang: string): Promise<void> {
+  if (hasOverlay('financial-aid-report', lang)) return
+  const load = overlayFiles()?.[`./overlays/financial-aid-report.${lang}.json`]
+  if (!load) {
+    setOverlayIndex('financial-aid-report', lang, undefined)
+    return
+  }
+  try {
+    setOverlayIndex('financial-aid-report', lang, indexOverlay(await load()))
+  } catch {
+    // A missing or malformed overlay must not break the page: English stands in.
+    setOverlayIndex('financial-aid-report', lang, undefined)
+  }
+}
+
+/**
+ * The structured deep-dive for a school, or undefined to fall back to prose.
+ *
+ * With no overlay for `lang` this returns the English object BY REFERENCE (see
+ * the identity requirement in src/lib/localizeData.ts).
+ */
+export function financialAidReport(
+  schoolSlug: string,
+  lang = 'en',
+): FinancialAidReport | undefined {
+  const en = REPORTS[schoolSlug]
+  if (!en || lang === 'en') return en
+  return localized(en, overlayIndex('financial-aid-report', lang), schoolSlug)
 }

@@ -559,3 +559,80 @@ infrastructure bug the print-out could not have shown:
    `check_translations.mjs` and `i18n_extract.mjs` now log and set `exitCode = 2`
    when an ACCESSOR topic fails to import instead of silently returning
    `undefined`.
+
+---
+
+## Stage 7 — Financial Aid deep-dive report (571 strings, 9,630 words)
+
+Landed 2026-07-28. Full coverage: 716/719 field sites (the 3 shortfall is one
+empty source string occurring at three paths — it correctly stays empty).
+
+**The most money-dense and most hedge-dense corpus in the rollout.** Nearly
+every figure carries a caveat about its year, its units, or its accounting
+basis. A figure-integrity pass over all 571 strings found exactly one flag,
+which was a false positive (`2–4.5%` → `entre un 2% y un 4,5%`, same values,
+more explicit phrasing).
+
+Reading the component on the RENDER PATH rather than grepping it found six
+hardcoded strings a literal search could not see:
+
+- the chart legend `prior year` / `current` as **bare JSX text**
+- `SOURCE` as a **default parameter value**
+- `SECTION nn` and `Qn` built from **template literals**
+- the meters caption as a **wrapped multi-line paragraph**
+
+Enumerating values before classifying caught three mixed fields — `when`
+(`15 Jan` but also `Every year`, `Not published`), `gift` (`$220K` but also
+`Early Ed`, `Lower`, `Acclaim`), `figure` (`10×` but also `2 wk` and `—`).
+The residual detector then found 13 unclassified paths including the **49
+parent-facing questions** that are the entire point of the last section.
+
+### Terminology choices worth a second opinion
+
+| English | Spanish used | Note |
+|---|---|---|
+| need-based aid | ayuda por necesidad | Consistent throughout; the distinction from merit money carries the whole report. |
+| merit scholarship | beca por méritos | Kept distinct from `ayuda`, since several schools state they offer one and not the other. |
+| need-blind / need-aware | left English | Named US admissions terms. One school uses `need-blind` in a direct quote; the report explicitly declines to apply either label elsewhere, and that refusal must survive. |
+| award / grant | ayuda | One word for both. Spanish has no clean pair, and the English uses them interchangeably. |
+| average vs median | media vs mediana | **Load-bearing.** Several schools publish only an average; the report repeatedly warns it must not be read as typical. |
+| enrolment deposit | depósito de matriculación | Literal. |
+| tuition remission | exención de matrícula | Standard. |
+| Tuition Refund Plan / Tuition Protection Program | left English | Named products a family signs up for. |
+| Clarity / SSS by NAIS | left English | Platform names. |
+| Opportunity Scholarship | left English | A named NC state programme. |
+| all-in estimate | estimación total | The report's own term for the assembled figure. |
+| ceiling (on awards) | techo | Literal and unambiguous. |
+| unpriced | sin precio | Consistent; it is a status in the component grid. |
+
+### Specific soft spots
+
+1. **The three framing cards repeat across all six schools** — `Unpublished ≠
+   deficient.` / `Published ≠ current.` / `K–12 aid only.` These set the
+   epistemic frame for the whole report. Rendered as `No publicado ≠
+   deficiente.` etc. Check the `≠` reads as intended in Spanish.
+
+2. **`charlotte-latin:...withdrawal obligation`** — flagged in the English as
+   *"the single most consequential unpublished item in this report"*. That
+   ranking claim must not soften.
+
+3. **Every "not retrieved" vs "not published" distinction.** The report is
+   scrupulous that a document its tooling could not open is NOT a school
+   failing — `no recuperado` vs `no publicado`. Several strings turn entirely
+   on this, e.g. Latin's document library and Providence Day's missing rate
+   archive. Collapsing the two would libel the schools.
+
+4. **`cannon:...$3,000 vs $26,000`** — the report states two school figures do
+   not reconcile and declines to pick one. Same for Providence Day's
+   `$13,026` discrepancy across one document.
+
+5. **The unit-change warning** (`students` vs `families`) at Providence Day —
+   the report refuses to read 16% → 21% as growth. `Este informe renuncia a
+   conciliarlas.`
+
+6. **`—` as a payment-plan figure** at Davidson Day renders as an em-dash with
+   the label `El menú completo no está publicado`. Deliberate.
+
+7. **Clock and date formats** follow the standing conventions: dates are
+   Spanish-style (`1 nov 2025`, `15 feb 2026`), currency keeps `$` and US digit
+   grouping so `localizeMoneyText()` owns presentation.
