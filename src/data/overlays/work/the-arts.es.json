@@ -267,12 +267,53 @@
       "t": "El ritmo de la temporada — cada año, en el escenario del McMahon"
     },
     {
+      "text": "Fall",
+      "of": "7b00bc80",
+      "at": [
+        "providence-day:theatre.season[0].season",
+        "charlotte-latin:theatre.season[0].season",
+        "charlotte-country-day:theatre.season[0].season",
+        "cannon:theatre.season[0].season"
+      ],
+      "t": "Otoño"
+    },
+    {
+      "text": "Play / One-Act",
+      "of": "34a7891f",
+      "at": [
+        "providence-day:theatre.season[0].kind"
+      ],
+      "t": "Obra / pieza breve"
+    },
+    {
       "text": "2025-26: The Crucible (Oct 24–26) — the same production doubles as the NCTC one-act entry. 2026-27 already cast: The Women of Lockerbie. Recent: Psycho Beach Party (2024), Radium Girls (2023).",
       "of": "0ea95b5c",
       "at": [
         "providence-day:theatre.season[0].detail"
       ],
       "t": "2025-26: The Crucible (24–26 de octubre) — la misma producción sirve de pieza breve para la NCTC. 2026-27 ya con reparto: The Women of Lockerbie. Recientes: Psycho Beach Party (2024), Radium Girls (2023)."
+    },
+    {
+      "text": "Spring",
+      "of": "d643be8c",
+      "at": [
+        "providence-day:theatre.season[1].season",
+        "providence-day:visual.exhibits[1].when",
+        "providence-day:visual.exhibits[2].when",
+        "charlotte-latin:theatre.season[1].season",
+        "charlotte-christian:visual.exhibits[0].when",
+        "charlotte-country-day:theatre.season[2].season"
+      ],
+      "t": "Primavera"
+    },
+    {
+      "text": "Musical",
+      "of": "346c73d9",
+      "at": [
+        "providence-day:theatre.season[1].kind",
+        "charlotte-country-day:theatre.season[1].kind"
+      ],
+      "t": "Musical"
     },
     {
       "text": "2025-26: Sweet Charity (Apr 16–18), auditions the prior December. Recent: Peter Pan (2025), Freaky Friday (2024), Once Upon a Mattress (2023), Xanadu (2022).",
@@ -629,6 +670,14 @@
       "t": "AP Art History corre en paralelo, sin portafolio obligatorio. Los peldaños intermedios no se publican — la escuela describe la escalera solo en prosa"
     },
     {
+      "text": "Monthly",
+      "of": "1640a356",
+      "at": [
+        "providence-day:visual.exhibits[0].when"
+      ],
+      "t": "Mensual"
+    },
+    {
       "text": "participatory technique demos in the McMahon foyer, not passive hangs",
       "of": "e88b6771",
       "at": [
@@ -651,6 +700,17 @@
         "providence-day:visual.exhibits[2].detail"
       ],
       "t": "los estudiantes exponen junto a sus profesores"
+    },
+    {
+      "text": "Rotating",
+      "of": "292ee34d",
+      "at": [
+        "providence-day:visual.exhibits[3].when",
+        "charlotte-country-day:visual.exhibits[1].when",
+        "charlotte-country-day:visual.exhibits[2].when",
+        "cannon:visual.exhibits[0].when"
+      ],
+      "t": "Rotatorio"
     },
     {
       "text": "the redefined McMahon foyer plus displays hung across campus",
@@ -1093,6 +1153,14 @@
       "t": "El ritmo de la temporada — cinco producciones en tres divisiones"
     },
     {
+      "text": "Upper School Play",
+      "of": "46e5c7c1",
+      "at": [
+        "charlotte-latin:theatre.season[0].kind"
+      ],
+      "t": "Obra de la Upper School"
+    },
+    {
       "text": "2026-27: The Trial (Oct 9–11) — a Kafka adaptation, a notably literary choice for a fall play. The 2025-26 fall play title is no longer posted; the calendar has rolled over.",
       "of": "46405138",
       "at": [
@@ -1101,12 +1169,37 @@
       "t": "2026-27: The Trial (9–11 de octubre) — una adaptación de Kafka, una elección notablemente literaria para la obra de otoño. El título de la obra de otoño de 2025-26 ya no figura publicado; el calendario ha pasado de curso."
     },
     {
+      "text": "Upper School Musical",
+      "of": "97a5649b",
+      "at": [
+        "charlotte-latin:theatre.season[1].kind",
+        "davidson-day:theatre.season[0].kind"
+      ],
+      "t": "Musical de la Upper School"
+    },
+    {
       "text": "2026-27: The Little Mermaid (Feb 26–28) — Latin’s 2027 Blumey entry. 2025-26: Cabaret, which sold out with a box-office waitlist. 2024-25: The Drowsy Chaperone.",
       "of": "35d6eda0",
       "at": [
         "charlotte-latin:theatre.season[1].detail"
       ],
       "t": "2026-27: The Little Mermaid (26–28 de febrero) — la candidatura Blumey de Latin para 2027. 2025-26: Cabaret, que agotó localidades con lista de espera en taquilla. 2024-25: The Drowsy Chaperone."
+    },
+    {
+      "text": "Also staged",
+      "of": "e91a391c",
+      "at": [
+        "charlotte-latin:theatre.season[2].season"
+      ],
+      "t": "También representadas"
+    },
+    {
+      "text": "MS & LS shows",
+      "of": "510df71e",
+      "at": [
+        "charlotte-latin:theatre.season[2].kind"
+      ],
+      "t": "Montajes de MS y LS"
     },
     {
       "text": "2026-27: Into the Woods Jr. (MS, Nov), Madagascar Kids (LS, Jan), The Odyssey (MS play, May).",
@@ -1334,12 +1427,28 @@
       "t": "La fotografía corre en paralelo. NO hay AP Studio Art, ni AP 2-D/3-D Art & Design, ni AP Art History — la culminación es Art Studio IV más la Senior Art Show. La página de asignaturas sí incluye AP Music Theory, así que la ausencia es estructural, no una laguna de publicación"
     },
     {
+      "text": "February",
+      "of": "fca77633",
+      "at": [
+        "charlotte-latin:visual.exhibits[0].when"
+      ],
+      "t": "febrero"
+    },
+    {
       "text": "the capstone exhibition in place of an AP portfolio submission",
       "of": "1ff25ae1",
       "at": [
         "charlotte-latin:visual.exhibits[0].detail"
       ],
       "t": "la exposición final en lugar de la entrega de un portafolio AP"
+    },
+    {
+      "text": "March",
+      "of": "c0846390",
+      "at": [
+        "charlotte-latin:visual.exhibits[1].when"
+      ],
+      "t": "marzo"
     },
     {
       "text": "opening reception for the month-long showcase",
@@ -1350,12 +1459,28 @@
       "t": "inauguración de la muestra, que dura un mes"
     },
     {
+      "text": "April",
+      "of": "98dbac97",
+      "at": [
+        "charlotte-latin:visual.exhibits[2].when"
+      ],
+      "t": "abril"
+    },
+    {
       "text": "an annual department event",
       "of": "3c0c2fd5",
       "at": [
         "charlotte-latin:visual.exhibits[2].detail"
       ],
       "t": "un acto anual del departamento"
+    },
+    {
+      "text": "Standing",
+      "of": "5a062a15",
+      "at": [
+        "charlotte-latin:visual.exhibits[3].when"
+      ],
+      "t": "Permanente"
     },
     {
       "text": "an online exhibition organized by division, framed as a development opportunity for personal artistic voice",
@@ -1758,12 +1883,46 @@
       "t": "El ritmo de la temporada — tres musicales en el escenario principal, grados 4–12"
     },
     {
+      "text": "2025-26",
+      "of": "fe38e73d",
+      "at": [
+        "charlotte-christian:theatre.season[0].season",
+        "davidson-day:theatre.season[0].season"
+      ],
+      "t": "2025-26"
+    },
+    {
+      "text": "Season: \"Pure Imagination\"",
+      "of": "ba30416a",
+      "at": [
+        "charlotte-christian:theatre.season[0].kind"
+      ],
+      "t": "Temporada: “Pure Imagination”"
+    },
+    {
       "text": "The season carries a theme — \"familiar fictional worlds brimming with humor, joy, love, fantasy, and imagination\" — but individual production titles were not published at time of research.",
       "of": "89ffb444",
       "at": [
         "charlotte-christian:theatre.season[0].detail"
       ],
       "t": "La temporada tiene un lema — “familiar fictional worlds brimming with humor, joy, love, fantasy, and imagination” — pero los títulos concretos no estaban publicados en el momento de la investigación."
+    },
+    {
+      "text": "Recent",
+      "of": "50e888fe",
+      "at": [
+        "charlotte-christian:theatre.season[1].season",
+        "davidson-day:theatre.season[1].season"
+      ],
+      "t": "Recientes"
+    },
+    {
+      "text": "Mainstage musicals",
+      "of": "6b2fde45",
+      "at": [
+        "charlotte-christian:theatre.season[1].kind"
+      ],
+      "t": "Musicales del escenario principal"
     },
     {
       "text": "Published as an unordered set, without years: High School Musical, Shrek, Footloose, Beauty and the Beast, Joseph and the Amazing Technicolor Dreamcoat, Into the Woods, Tarzan, Freaky Friday.",
@@ -2014,6 +2173,14 @@
       "t": "la muestra de toda la escuela, que abarca tanto Arte Visual como Artes Digitales"
     },
     {
+      "text": "Year-round",
+      "of": "d3e50e09",
+      "at": [
+        "charlotte-christian:visual.exhibits[1].when"
+      ],
+      "t": "Todo el año"
+    },
+    {
       "text": "a named gallery holding the curated \"Blue Ribbon Collection\" from all three divisions",
       "of": "89c1893a",
       "at": [
@@ -2022,12 +2189,28 @@
       "t": "una galería con nombre propio que alberga la “Blue Ribbon Collection” comisariada de las tres divisiones"
     },
     {
+      "text": "Regional",
+      "of": "a7aff008",
+      "at": [
+        "charlotte-christian:visual.exhibits[2].when"
+      ],
+      "t": "Regional"
+    },
+    {
       "text": "plus the Patriotic Art Competition — participation confirmed",
       "of": "9c0dd867",
       "at": [
         "charlotte-christian:visual.exhibits[2].detail"
       ],
       "t": "además del Patriotic Art Competition — participación confirmada"
+    },
+    {
+      "text": "National",
+      "of": "746c84f7",
+      "at": [
+        "charlotte-christian:visual.exhibits[3].when"
+      ],
+      "t": "Nacional"
     },
     {
       "text": "participation cited on both the Visual Art and Digital Arts pages",
@@ -2494,6 +2677,14 @@
       "t": "El ritmo de la temporada — un año de tres montajes en la Upper School"
     },
     {
+      "text": "One-Act Play",
+      "of": "d5115c88",
+      "at": [
+        "charlotte-country-day:theatre.season[0].kind"
+      ],
+      "t": "Pieza breve"
+    },
+    {
       "text": "The NCTC festival entry. Country Day competed at the NCTC regional at Charlotte Catholic on Nov 7–8, 2025, so a 2025-26 one-act existed — but its title is not published anywhere findable.",
       "of": "b8c4ecb3",
       "at": [
@@ -2502,12 +2693,29 @@
       "t": "La candidatura al festival de la NCTC. Country Day compitió en el regional de la NCTC en Charlotte Catholic los días 7 y 8 de noviembre de 2025, así que existió una pieza breve de 2025-26 — pero su título no está publicado en ningún sitio localizable."
     },
     {
+      "text": "Winter",
+      "of": "0acedc2c",
+      "at": [
+        "charlotte-country-day:theatre.season[1].season",
+        "cannon:theatre.season[1].season"
+      ],
+      "t": "Invierno"
+    },
+    {
       "text": "The Blumey entry. 2025-26: Frozen. Recent: Bright Star (2025), Bonnie and Clyde (2024), Something Rotten (2023), Anastasia (2022). Earlier: The Drowsy Chaperone, Catch Me If You Can, She Loves Me, Grease.",
       "of": "d35d4424",
       "at": [
         "charlotte-country-day:theatre.season[1].detail"
       ],
       "t": "La candidatura Blumey. 2025-26: Frozen. Recientes: Bright Star (2025), Bonnie and Clyde (2024), Something Rotten (2023), Anastasia (2022). Anteriores: The Drowsy Chaperone, Catch Me If You Can, She Loves Me, Grease."
+    },
+    {
+      "text": "Play",
+      "of": "29ab6f83",
+      "at": [
+        "charlotte-country-day:theatre.season[2].kind"
+      ],
+      "t": "Obra"
     },
     {
       "text": "The third show of the Upper School season; the 2025-26 title is not published. Middle School stages its own musical (recent: Aladdin, Jr.), and 7th graders stage Shakespeare.",
@@ -2774,6 +2982,15 @@
       "t": "Se mencionan AP Sculpture y AP Music Theory; las asignaturas IB de arte, incluida IB Theatre Arts, corren en paralelo. Los títulos exactos “AP Studio Art” e “IB Visual Arts” no se publican — las páginas hablan de “AP art courses” e “IB art courses”"
     },
     {
+      "text": "Annual",
+      "of": "f65af38a",
+      "at": [
+        "charlotte-country-day:visual.exhibits[0].when",
+        "cannon:visual.exhibits[2].when"
+      ],
+      "t": "Anual"
+    },
+    {
       "text": "every student in the school is encouraged to submit work",
       "of": "f2a48b2c",
       "at": [
@@ -2796,6 +3013,14 @@
         "charlotte-country-day:visual.exhibits[2].detail"
       ],
       "t": "en el Lower School Fine Arts Center; expone las tres divisiones"
+    },
+    {
+      "text": "External",
+      "of": "29951daa",
+      "at": [
+        "charlotte-country-day:visual.exhibits[3].when"
+      ],
+      "t": "Externo"
     },
     {
       "text": "student work exhibited in the museum’s sculpture exhibition",
@@ -3247,6 +3472,14 @@
       "t": "El ritmo de la temporada — un año en cuatro partes"
     },
     {
+      "text": "One-Acts (NCTC)",
+      "of": "263c9148",
+      "at": [
+        "cannon:theatre.season[0].kind"
+      ],
+      "t": "Piezas breves (NCTC)"
+    },
+    {
       "text": "The Cannon Theater Company performs a fall play at the North Carolina Theatre Conference festival. 2025: \"Say It To My Face: Five Short Plays,\" one of which — \"Parker and the City in the Sea\" by Ian Shephard — was the NCTC entry.",
       "of": "f57e0207",
       "at": [
@@ -3255,12 +3488,36 @@
       "t": "La Cannon Theater Company representa una obra de otoño en el festival de la North Carolina Theatre Conference. 2025: “Say It To My Face: Five Short Plays”, una de las cuales — “Parker and the City in the Sea”, de Ian Shephard — fue la candidatura a la NCTC."
     },
     {
+      "text": "Musical (Blumey)",
+      "of": "72a6fa72",
+      "at": [
+        "cannon:theatre.season[1].kind"
+      ],
+      "t": "Musical (Blumey)"
+    },
+    {
       "text": "2025-26: Mean Girls: High School Version, Feb 11–14, directed by Andy Macdonald. Recent: Mamma Mia! (2025), Freaky Friday (2023).",
       "of": "7d3b01df",
       "at": [
         "cannon:theatre.season[1].detail"
       ],
       "t": "2025-26: Mean Girls: High School Version, 11–14 de febrero, dirigida por Andy Macdonald. Recientes: Mamma Mia! (2025), Freaky Friday (2023)."
+    },
+    {
+      "text": "Spring & May",
+      "of": "306acd47",
+      "at": [
+        "cannon:theatre.season[2].season"
+      ],
+      "t": "Primavera y mayo"
+    },
+    {
+      "text": "Arts Jam · Cabaret",
+      "of": "fedaa0fe",
+      "at": [
+        "cannon:theatre.season[2].kind"
+      ],
+      "t": "Arts Jam · Cabaret"
     },
     {
       "text": "A spring Arts Jam, then an annual end-of-season Cabaret in May — an evening of short scenes, songs and award presentations.",
@@ -3567,6 +3824,14 @@
       "t": "el vestíbulo del centro de artes escénicas — todo el público lo atraviesa"
     },
     {
+      "text": "Year-long",
+      "of": "2a73775d",
+      "at": [
+        "cannon:visual.exhibits[1].when"
+      ],
+      "t": "Anual"
+    },
+    {
       "text": "a real-world nonprofit client project ending in a presentation of learning",
       "of": "50bf384c",
       "at": [
@@ -3581,6 +3846,14 @@
         "cannon:visual.exhibits[2].detail"
       ],
       "t": "la publicación transmedia estudiantil, producida como optativa de la Middle School"
+    },
+    {
+      "text": "Required",
+      "of": "51e4b240",
+      "at": [
+        "cannon:visual.exhibits[3].when"
+      ],
+      "t": "Obligatorio"
     },
     {
       "text": "named in the catalog as required extensions of the AP Studio Art course",
@@ -3970,7 +4243,8 @@
       "text": "Not found",
       "of": "66d1107a",
       "at": [
-        "davidson-day:ladder.enrichment[3].label"
+        "davidson-day:ladder.enrichment[3].label",
+        "davidson-day:visual.exhibits[3].when"
       ],
       "t": "No encontrado"
     },
@@ -4013,6 +4287,14 @@
         "davidson-day:theatre.season[0].detail"
       ],
       "t": "Big Fish — la candidatura Blumey de la escuela en 2026, que produjo tres puestos de finalista."
+    },
+    {
+      "text": "Upper School Musicals",
+      "of": "a15dd938",
+      "at": [
+        "davidson-day:theatre.season[1].kind"
+      ],
+      "t": "Musicales de la Upper School"
     },
     {
       "text": "Once Upon a One More Time, High School Edition (2024-25); Mean Girls (2022-23), the strongest competitive year. The 2023-24 title could not be found, and the school publishes no theatre season page.",
@@ -4255,6 +4537,14 @@
       "t": "AP Studio Art requiere la aprobación del departamento. Portafolio funciona como peldaño alternativo hacia la AP, y Fotografía I → II → III es un itinerario paralelo de tres años que culmina en un sitio web personal"
     },
     {
+      "text": "Course-end",
+      "of": "f2768a5c",
+      "at": [
+        "davidson-day:visual.exhibits[0].when"
+      ],
+      "t": "Fin de curso"
+    },
+    {
       "text": "Photography I and II both end in a final portfolio",
       "of": "7e73bb1e",
       "at": [
@@ -4263,12 +4553,28 @@
       "t": "Fotografía I y II terminan ambas en un portafolio final"
     },
     {
+      "text": "Ongoing",
+      "of": "680df662",
+      "at": [
+        "davidson-day:visual.exhibits[1].when"
+      ],
+      "t": "Continuo"
+    },
+    {
       "text": "Photography III students build and maintain their own sites — a concrete, checkable output",
       "of": "40dcc80e",
       "at": [
         "davidson-day:visual.exhibits[1].detail"
       ],
       "t": "Los estudiantes de Fotografía III crean y mantienen sus propios sitios — un resultado concreto y comprobable"
+    },
+    {
+      "text": "Internal",
+      "of": "a73eb420",
+      "at": [
+        "davidson-day:visual.exhibits[2].when"
+      ],
+      "t": "Interno"
     },
     {
       "text": "student work is displayed throughout the art studio; no gallery space is named",

@@ -299,6 +299,43 @@ never to another school's. There are seven of these today.
 titles are locale keys from the start. `scripts/check_card_titles.mjs` fails if
 any card title has no `cards.*` key.
 
+## 5a2. Audit the SKIP list before translating, not after
+
+The residual check in `i18n_extract.mjs` catches fields **nobody classified**. It
+is silent about fields classified **wrongly**, which turned out to be the more
+common and more expensive mistake: across Stages 1–3, fourteen fields were
+skipped on the strength of their leaf NAME while their values were phrases.
+
+    since   "numeral / short date"  ->  "since 2002", "long-tenured", "15+ years"
+    tag     "short badge code"      ->  "Statewide, 1 per sport", "2 OF 3 YRS"
+    meta    "layout hint"           ->  "built 2012–13", "renamed 2025"
+    date    "short date literal"    ->  "May 2023", "July 1, 2025"
+    when    "time literal"          ->  "Monthly", "Year-round", "Rotating"
+    kind    "short type code"       ->  "Play / One-Act", "Mainstage musicals"
+    intensity "layout number"       ->  "Light touch", "Senior-weighted"
+    …and seven more
+
+Every one shipped English inside an otherwise-Spanish card. Every one was caught
+by a human reading the rendered page.
+
+**`scripts/i18n_audit_skips.mjs` closes that gap.** It prints the actual values
+behind every skipped field and flags any whose values contain lowercase words —
+a phrase, not a code. Run it BEFORE translating a topic:
+
+```bash
+node scripts/i18n_audit_skips.mjs --suspect
+```
+
+Skips genuinely reviewed and confirmed correct (currency, asset paths, grade
+codes, win–loss records, production titles) are listed in `REVIEWED_SKIPS` so the
+audit reports clean and a NEW misclassification stands out rather than hiding in
+known noise.
+
+**Two fields needed path-level rules**, which the leaf-keyed model did not
+originally support: `value` is a bare figure in stat strips but a phrase in the
+coaching cards, and `time` is a clock literal in one table and a phrase in
+another. `PATH_OVERRIDES` handles both.
+
 ## 5b. As built (Stage 1, 2026-07-27)
 
 The mechanism above is implemented. Three details that were decided in the build
