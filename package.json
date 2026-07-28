@@ -10,7 +10,9 @@
     "check:metrics": "node scripts/check_metrics.mjs",
     "check:translations": "node scripts/check_translations.mjs",
     "i18n:report": "node scripts/i18n_extract.mjs --report",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "check:hashes": "node scripts/check_hash_parity.mjs",
+    "i18n:build": "node scripts/i18n_build_overlay.mjs"
   },
   "dependencies": {
     "i18next": "^26.3.6",

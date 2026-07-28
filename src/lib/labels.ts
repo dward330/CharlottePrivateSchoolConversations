@@ -27,3 +27,37 @@ export function topicLabel(t: TFunction, slug: string, fallback: string): string
 export function metricLabel(t: TFunction, key: string, fallback: string): string {
   return t(`metrics.${key}`, { defaultValue: fallback })
 }
+
+/**
+ * Title of a redesigned research card, e.g. `sports.pipeline` -> 'La cantera
+ * universitaria'.
+ *
+ * These live in `*_CARDS` constants in the topic loaders rather than in either
+ * per-school data or a component, which is how they escaped the first two i18n
+ * passes. By CLAUDE.md's uniform test they are chrome — byte-identical for every
+ * school — so they belong here.
+ *
+ * `fallback` is the topic loader's own `xCardTitle(slug, card)`, which applies
+ * that topic's per-school TITLE_OVERRIDES.
+ *
+ * **Overridden titles are looked up under a school-scoped key** —
+ * `cards.the-arts.ladder@davidson-day` — rather than the shared one, because an
+ * override varies per school and is a research finding, not chrome. They live in
+ * the locale files anyway rather than in a prose overlay: they are defined in
+ * the topic loader's module constants, which the prose extractor never walks
+ * (it reads per-school entry objects), so an overlay could not reach them. A
+ * school without a Spanish override falls back to its own English wording, never
+ * to another school's title.
+ */
+export function cardTitle(
+  t: TFunction,
+  topic: string,
+  key: string,
+  fallback: string,
+  overrideSlug?: string,
+): string {
+  if (overrideSlug) {
+    return t(`cards.${topic}.${key}@${overrideSlug}`, { defaultValue: fallback })
+  }
+  return t(`cards.${topic}.${key}`, { defaultValue: fallback })
+}

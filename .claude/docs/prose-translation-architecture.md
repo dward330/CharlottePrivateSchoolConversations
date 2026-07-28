@@ -268,6 +268,70 @@ research in §1.
 
 ---
 
+## 5a. Three layers, not two — card titles are chrome
+
+Strings that live in **module constants in the topic loaders** (`SPORTS_CARDS`,
+`ARTS_CARDS`, `CLUBS_CARDS`, `COLLEGE_SUPPORT_CARDS`, `AFTER_SCHOOL_CARDS`) are
+in neither place the two i18n passes looked: not in a component, and not in the
+per-school entry objects the prose extractor walks. All 25 card titles shipped
+English inside otherwise-Spanish pages before this was caught.
+
+**They are chrome.** By CLAUDE.md's uniform test — byte-identical for every
+school, drawn from a fixed lookup — they belong in `src/locales/*.json`, under
+`cards.<topic>.<key>`. Resolved by `cardTitle()` in `src/lib/labels.ts`.
+
+**Per-school `TITLE_OVERRIDES` are the exception, and they stay in the locale
+files anyway.** An override (`'The Early Childhood–12 Arts Ladder'` for Davidson
+Day) varies per school, so by the same test it is a research finding rather than
+chrome. But it is *defined in the same module constant*, which the prose
+extractor cannot reach — so an overlay could not carry it. They get a
+**school-scoped key** instead:
+
+```
+cards.the-arts.ladder                      shared — five schools
+cards.the-arts.ladder@davidson-day         this school's own wording
+```
+
+A school without a translated override falls back to its own English title,
+never to another school's. There are seven of these today.
+
+**Rule for future topics:** when a redesign adds a `*_CARDS` constant, its
+titles are locale keys from the start. `scripts/check_card_titles.mjs` fails if
+any card title has no `cards.*` key.
+
+## 5b. As built (Stage 1, 2026-07-27)
+
+The mechanism above is implemented. Three details that were decided in the build
+rather than in the plan:
+
+**Two files per topic per language, not one.**
+
+```
+src/data/overlays/work/student-clubs.es.json   English + Spanish — the REVIEWABLE artifact
+src/data/overlays/student-clubs.es.json        Spanish only — what the app SHIPS
+```
+
+`i18n_build_overlay.mjs` compiles the second from the first, stripping the English
+`text` and dropping untranslated entries. The runtime never needs the English — it
+re-derives the hash from the live `src/data/**` — so shipping it would send the
+corpus to the browser twice. Measured: **35% smaller**, 80,580 → 49,479 bytes for
+Student Clubs. The work file stays committed, because a reviewer cannot check a
+translation without the original beside it.
+
+**The stamp is FNV-1a, not sha256.** The runtime must compute the identical hash
+in the browser, where `node:crypto` does not exist. It lives in its own module
+(`scripts/i18n_stamp.mjs`) so importing it has no side effects, and
+`scripts/check_hash_parity.mjs` asserts the build-time and runtime implementations
+agree — including on non-ASCII, since this prose is full of curly quotes and
+accents. **If those two ever diverge, every entry reads as stale and the locale
+silently renders English with no error.** That check is the guard against a
+total, invisible loss of translation.
+
+**Overlays load behind the existing `ready` gate.** `SchoolDetail` already
+withholds render until its notes resolve; the overlay fetch joins that same
+`Promise.all`. Resolving it later would paint English research for a frame and
+then swap it, which reads as a glitch rather than as a language.
+
 ## 6. Stage 0 — the only thing to build before any language commits
 
 **Scope: measurement and checking tooling only.**

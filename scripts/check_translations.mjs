@@ -29,7 +29,6 @@
  * findings, 2 = script error.
  */
 import { readdirSync, readFileSync, existsSync } from 'node:fs'
-import { createHash } from 'node:crypto'
 import { PROSE_KEYS, SKIP_KEYS, PATH_OVERRIDES } from './i18n_fields.mjs'
 
 const SLUGS = [
@@ -37,20 +36,85 @@ const SLUGS = [
   'charlotte-country-day', 'cannon', 'davidson-day',
 ]
 
+/**
+ * Topic slug -> the per-school module directory and its export name.
+ *
+ * Deliberately the SCHOOL modules, not the topic loader (sportsProgram.ts etc).
+ * Those loaders now carry `import.meta.glob` for their locale overlays, which is
+ * a Vite-only transform that plain Node cannot evaluate. The per-school files
+ * are plain TypeScript, and they are the actual source of the prose anyway.
+ */
 const TOPICS = {
-  sports: ['../src/data/sportsProgram.ts', 'sportsProgram'],
-  'the-arts': ['../src/data/artsProgram.ts', 'artsProgram'],
-  'student-clubs': ['../src/data/clubsProgram.ts', 'clubsProgram'],
-  'college-support': ['../src/data/collegeSupport.ts', 'collegeSupportProgram'],
-  'after-school': ['../src/data/afterSchool.ts', 'afterSchoolProgram'],
+  sports: 'sportsPrograms',
+  'the-arts': 'artsPrograms',
+  'student-clubs': 'clubsPrograms',
+  'college-support': 'collegeSupportPrograms',
+  'after-school': 'afterSchoolPrograms',
 }
+
+/** Slug -> the export name each per-school module uses. */
+const EXPORTS = {
+  'providence-day': 'providenceDay',
+  'charlotte-latin': 'charlotteLatin',
+  'charlotte-christian': 'charlotteChristian',
+  'charlotte-country-day': 'charlotteCountryDay',
+  cannon: 'cannon',
+  'davidson-day': 'davidsonDay',
+}
+
+/** One school's entry for a topic, or undefined if that school has none. */
+async function entryFor(topic, slug) {
+  try {
+    const m = await import(`../src/data/${TOPICS[topic]}/${slug}.ts`)
+    return m[EXPORTS[slug]]
+  } catch {
+    return undefined
+  }
+}
+/**
+ * Extra per-school layers a topic renders alongside its `*Programs/<slug>.ts`
+ * entry. Student Clubs renders FIVE cards: three from clubsPrograms, plus
+ * Academic & Competitive Clubs (clubClusters.ts) and Club Catalog & Overview
+ * (clubCatalog.ts), which are separate hand-maintained modules.
+ *
+ * They were invisible to the first extraction pass, which only walked the
+ * `*Programs` entries — so two of the five cards shipped English. Paths are
+ * prefixed (`clusters.*`, `catalog.*`) so overlay keys stay unambiguous.
+ */
+const EXTRA_LAYERS = {
+  'student-clubs': [
+    ['clusters', '../src/data/clubClusters.ts', 'clubClusters'],
+    ['catalog', '../src/data/clubCatalog.ts', 'clubCatalog'],
+  ],
+}
+
+/** The extra layers for one school, as [prefix, entry] pairs. */
+async function extraFor(topic, slug) {
+  const out = []
+  for (const [prefix, mod, fn] of EXTRA_LAYERS[topic] ?? []) {
+    try {
+      const m = await import(mod)
+      const entry = m[fn]?.(slug)
+      if (entry) out.push([prefix, entry])
+    } catch (e) {
+      // Never swallow this. A layer that fails to import silently drops its
+      // prose from BOTH the extraction and the coverage count, which reads as
+      // "fully translated" while those cards render English — exactly the bug
+      // this comment replaced.
+      console.error(`  ! ${topic}/${prefix} failed to load: ${e.message}`)
+      process.exitCode = 2
+    }
+  }
+  return out
+}
+
 
 const args = process.argv.slice(2)
 const QUIET = args.includes('--quiet')
 const i = args.indexOf('--lang')
 const ONLY_LANG = i === -1 ? null : args[i + 1]
 
-const stamp = (s) => createHash('sha256').update(s).digest('hex').slice(0, 8)
+import { stamp } from './i18n_stamp.mjs'
 const generic = (p) => p.replace(/\[\d+\]/g, '[]')
 
 function classify(path, leaf) {
@@ -81,14 +145,12 @@ function walk(node, path, hits) {
 
 /** Current English prose, keyed `school:path` -> { value, of }. */
 async function englishProse(topic) {
-  const [mod, fn] = TOPICS[topic]
-  const m = await import(mod)
   const out = new Map()
   for (const slug of SLUGS) {
-    const entry = m[fn]?.(slug)
-    if (!entry) continue
     const hits = []
-    walk(entry, '', hits)
+    const entry = await entryFor(topic, slug)
+    if (entry) walk(entry, '', hits)
+    for (const [prefix, extra] of await extraFor(topic, slug)) walk(extra, prefix, hits)
     for (const h of hits) {
       if (classify(generic(h.path), h.leaf) !== 'prose') continue
       out.set(`${slug}:${h.path}`, { value: h.value, of: stamp(h.value) })

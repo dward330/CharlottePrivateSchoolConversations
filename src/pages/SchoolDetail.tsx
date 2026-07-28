@@ -22,8 +22,10 @@ import { clubCatalog } from '../data/clubCatalog.ts'
 import { ClubCatalogBody } from '../components/ClubCatalog.tsx'
 import {
   clubsProgram,
+  loadClubsOverlay,
   CLUBS_CARDS,
   clubsCardTitle,
+  titleOverrideSlug as clubsOverrideSlug,
   type ClubsProgram,
 } from '../data/clubsProgram.ts'
 import {
@@ -48,6 +50,7 @@ import {
   artsProgram,
   ARTS_CARDS,
   artsCardTitle,
+  titleOverrideSlug as artsOverrideSlug,
   type ArtsProgram,
 } from '../data/artsProgram.ts'
 import {
@@ -75,7 +78,7 @@ import { afterSchoolProgram, AFTER_SCHOOL_CARDS } from '../data/afterSchool.ts'
 import { AfterSchoolCardBody } from '../components/AfterSchool.tsx'
 import { WelcomeVideo, PlayIcon } from '../components/WelcomeVideo.tsx'
 import { useTranslation } from 'react-i18next'
-import { topicLabel, metricLabel } from '../lib/labels.ts'
+import { topicLabel, metricLabel, cardTitle } from '../lib/labels.ts'
 
 type Loaded = Record<string, MetricGroup[]>
 
@@ -255,7 +258,8 @@ function scrollToId(e: React.MouseEvent, id: string) {
 }
 
 export function SchoolDetail({ slug }: { slug: string }) {
-  const { t: tr } = useTranslation()
+  const { t: tr, i18n } = useTranslation()
+  const lang = i18n.resolvedLanguage ?? 'en'
   const navigate = useNavigate()
   const school = schoolBySlug(slug)
   const [loaded, setLoaded] = useState<Loaded>({})
@@ -270,9 +274,13 @@ export function SchoolDetail({ slug }: { slug: string }) {
     let alive = true
     setReady(false)
     setLoaded({})
-    Promise.all(
-      covered.map(async (t) => [t.slug, await loadMetricGroups(t.slug, slug)] as const),
-    ).then((entries) => {
+    Promise.all([
+      /* Prose overlays load alongside the notes and behind the same `ready`
+         gate: resolving them after first paint would render the English
+         research for a frame and then swap it, which reads as a glitch. */
+      loadClubsOverlay(lang),
+      ...covered.map(async (t) => [t.slug, await loadMetricGroups(t.slug, slug)] as const),
+    ]).then(([, ...entries]) => {
       if (!alive) return
       setLoaded(Object.fromEntries(entries))
       setReady(true)
@@ -281,7 +289,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
       alive = false
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [slug])
+  }, [slug, lang])
 
   if (!school) {
     return (
@@ -447,7 +455,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                A school with no data for a card omits it entirely rather than
                rendering it empty: Davidson Day publishes no affinity roster and
                no honor-society record, so it shows 1b alone. */
-            const clubs = t.slug === 'student-clubs' ? clubsProgram(slug) : undefined
+            const clubs = t.slug === 'student-clubs' ? clubsProgram(slug, lang) : undefined
             const clubsCards = clubs
               ? CLUBS_CARDS.filter((c) => clubs[c.key] != null)
               : []
@@ -588,7 +596,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                         <BlueprintCorners />
                         <summary>
                           <span className="note-card-head">
-                            <span className="topic-title">{card.title}</span>
+                            <span className="topic-title">{cardTitle(tr, 'sports', card.key, card.title)}</span>
                             <span className="topic-teaser">
                               {sports[card.key]!.headline}
                             </span>
@@ -619,7 +627,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                         <summary>
                           <span className="note-card-head">
                             <span className="topic-title">
-                              {artsCardTitle(slug, card)}
+                              {cardTitle(tr, 'the-arts', card.key, artsCardTitle(slug, card), artsOverrideSlug(slug, card.key))}
                             </span>
                             <span className="topic-teaser">
                               {arts[card.key]!.headline}
@@ -653,7 +661,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                         <BlueprintCorners />
                         <summary>
                           <span className="note-card-head">
-                            <span className="topic-title">{card.title}</span>
+                            <span className="topic-title">{cardTitle(tr, 'college-support', card.key, card.title)}</span>
                             <span className="topic-teaser">
                               {collegeSupport[card.key]!.headline}
                             </span>
@@ -691,7 +699,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                         <BlueprintCorners />
                         <summary>
                           <span className="note-card-head">
-                            <span className="topic-title">{card.title}</span>
+                            <span className="topic-title">{cardTitle(tr, 'after-school', card.key, card.title)}</span>
                             <span className="topic-teaser">
                               {afterSchool[card.key]!.headline}
                             </span>
@@ -732,7 +740,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                         <summary>
                           <span className="note-card-head">
                             <span className="topic-title">
-                              {clubsCardTitle(slug, card)}
+                              {cardTitle(tr, 'student-clubs', card.key, clubsCardTitle(slug, card), clubsOverrideSlug(slug, card.key))}
                             </span>
                             <span className="topic-teaser">
                               {clubs[card.key]!.headline}
@@ -772,7 +780,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                     const clusters =
                       t.slug === 'student-clubs' &&
                       g.metric.key === 'academic-clubs'
-                        ? clubClusters(slug)
+                        ? clubClusters(slug, lang)
                         : undefined
                     /* The Club Catalog & Overview card, where the school has a
                        structured entry, swaps its prose body for the filterable
@@ -780,7 +788,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                        collapsed teaser. */
                     const catalog =
                       t.slug === 'student-clubs' && g.metric.key === 'catalog'
-                        ? clubCatalog(slug)
+                        ? clubCatalog(slug, lang)
                         : undefined
                     return (
                       <details

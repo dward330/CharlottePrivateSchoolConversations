@@ -235,6 +235,19 @@ const TITLE_OVERRIDES: Record<string, Partial<Record<keyof ClubsProgram, string>
   },
 }
 
+/**
+ * The school slug when this school overrides the shared card title, else
+ * undefined.
+ *
+ * An override varies per school, so it is a research finding rather than chrome.
+ * `cardTitle()` uses this to look the title up under a school-scoped key
+ * (`cards.the-arts.ladder@davidson-day`) instead of the shared one, and falls
+ * back to the school's own English wording if that key is absent.
+ */
+export function titleOverrideSlug(slug: string, key: keyof ClubsProgram): string | undefined {
+  return TITLE_OVERRIDES[slug]?.[key] != null ? slug : undefined
+}
+
 /** The card title for a school, applying any per-school override. */
 export function clubsCardTitle(
   slug: string,
@@ -249,6 +262,14 @@ export function clubsCardTitle(
  * Per-school entries live in ./clubsPrograms/<slug>.ts so each school's research
  * stays reviewable on its own. Add a school by importing it here.
  */
+import {
+  localized,
+  indexOverlay,
+  setOverlayIndex,
+  overlayIndex,
+  hasOverlay,
+  type OverlayFile,
+} from '../lib/localizeData.ts'
 import { providenceDay } from './clubsPrograms/providence-day.ts'
 import { charlotteLatin } from './clubsPrograms/charlotte-latin.ts'
 import { charlotteChristian } from './clubsPrograms/charlotte-christian.ts'
@@ -265,7 +286,68 @@ const PROGRAMS: Record<string, ClubsProgram> = {
   'davidson-day': davidsonDay,
 }
 
-/** The structured Clubs program for a school, or undefined if not yet built. */
-export function clubsProgram(slug: string): ClubsProgram | undefined {
-  return PROGRAMS[slug]
+/* ---------------------------------------------------------- translations -- */
+
+/**
+ * Locale overlays for this topic's prose, loaded on demand.
+ *
+ * English readers never fetch these — the glob keys are only resolved when a
+ * non-English locale asks for them, so the Spanish bytes stay out of the
+ * initial bundle. See .claude/docs/prose-translation-architecture.md.
+ */
+/**
+ * Locale overlays, discovered at build time.
+ *
+ * `import.meta.glob` is a COMPILE-TIME transform: Vite replaces the whole call
+ * with an object literal of dynamic imports. It must therefore stand alone —
+ * guarding it with `typeof import.meta.glob === 'function'` still compiles the
+ * object, but leaves the guard in the output, where `import.meta.glob` is
+ * undefined at runtime and the ternary silently picks the empty branch. That
+ * shipped once: every overlay resolved to nothing and the page rendered English
+ * with no error anywhere. Do not wrap this.
+ *
+ * Plain Node (the build-time checkers import this module for its English prose)
+ * cannot evaluate it, so `loadClubsOverlay` tolerates its absence instead.
+ */
+const overlayFiles = import.meta.glob<OverlayFile>('./overlays/student-clubs.*.json', {
+  import: 'default',
+})
+
+
+/**
+ * Warms the overlay for a locale. Resolves once the index is ready (or once we
+ * know there isn't one), so a caller can await it before rendering rather than
+ * painting English and flipping a frame later.
+ */
+export async function loadClubsOverlay(lang: string): Promise<void> {
+  if (hasOverlay('student-clubs', lang)) return
+  const load = overlayFiles?.[`./overlays/student-clubs.${lang}.json`]
+  if (!load) {
+    setOverlayIndex('student-clubs', lang, undefined)
+    return
+  }
+  try {
+    setOverlayIndex('student-clubs', lang, indexOverlay(await load()))
+  } catch {
+    // A missing or malformed overlay must not break the page: English stands in.
+    setOverlayIndex('student-clubs', lang, undefined)
+  }
+}
+
+/**
+ * The loaded overlay index for a locale, so the two sibling Student Clubs layers
+ * (clubClusters.ts, clubCatalog.ts) resolve against the same file — their prose
+ * is extracted under the `clusters.*` / `catalog.*` prefixes of this topic.
+ */
+/**
+ * The structured Clubs program for a school, or undefined if not yet built.
+ *
+ * With no overlay for `lang` — the English path, and any locale whose prose has
+ * not landed — this returns the English object BY REFERENCE, unchanged. See the
+ * identity requirement in src/lib/localizeData.ts.
+ */
+export function clubsProgram(slug: string, lang = 'en'): ClubsProgram | undefined {
+  const en = PROGRAMS[slug]
+  if (!en || lang === 'en') return en
+  return localized(en, overlayIndex('student-clubs', lang), slug)
 }

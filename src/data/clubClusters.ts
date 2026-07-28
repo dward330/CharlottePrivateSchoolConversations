@@ -17,6 +17,8 @@
 // and verified events. A school with no entry falls back to the standard prose
 // card.
 
+import { localized, overlayIndex } from '../lib/localizeData.ts'
+
 /** Whether a row's headline claim carries a verified external result.
  *  - 'verified' → accent tag (an outcome confirmed by an outside body/event)
  *  - 'reported' → outline tag (existence/participation, results not published)
@@ -304,7 +306,20 @@ const CLUSTERS: Record<string, ClubClusters> = {
   'davidson-day': DAVIDSON_DAY,
 }
 
-/** The layered club read for a school, or undefined to fall back to prose. */
-export function clubClusters(schoolSlug: string): ClubClusters | undefined {
-  return CLUSTERS[schoolSlug]
+/**
+ * The layered club read for a school, or undefined to fall back to prose.
+ *
+ * This layer's prose is extracted under the `clusters.` prefix of the
+ * student-clubs overlay — the same file `loadClubsOverlay()` fetches — because
+ * it renders as one of that topic's five cards. With no overlay for `lang` the
+ * English object is returned by reference (see src/lib/localizeData.ts).
+ */
+export function clubClusters(schoolSlug: string, lang = 'en'): ClubClusters | undefined {
+  const en = CLUSTERS[schoolSlug]
+  if (!en || lang === 'en') return en
+  // Keys are `<school>:clusters.<field>`, so resolve the entry nested under its
+  // prefix and unwrap — that makes walk() build exactly those paths.
+  const idx = overlayIndex('student-clubs', lang)
+  if (!idx) return en
+  return localized({ clusters: en }, idx, schoolSlug).clusters
 }
