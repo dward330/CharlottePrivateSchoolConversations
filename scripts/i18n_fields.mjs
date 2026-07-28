@@ -195,4 +195,10 @@ export const PATH_OVERRIDES = new Map([
   // while the coverage table uses phrases ("Grades 1–2", "After class", "Then").
   ['coverage.rows[].tiers[].time', true],
   ['dayInside.rhythm[].time', true],
+  // Cluster row names are mixed: single clubs are proper nouns kept English
+  // ("DECA", "Brainy Yaks", "Chess Team") while grouped rows are descriptive
+  // labels ("Civic clubs →", "US academic clubs →", "Middle School teams →").
+  // Marked prose so the descriptive ones translate; the translator leaves the
+  // proper nouns identical, which the overlay stores as a no-op.
+  ['clusters.rows[].name', true],
 ])
