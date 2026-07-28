@@ -12,6 +12,23 @@ function keyFor(topicSlug: string, schoolSlug: string): string {
   return `../content/${topicSlug}/${schoolSlug}.json`
 }
 
+/**
+ * Retrieval bookkeeping that belongs to the repo, not to a parent reading a
+ * school page: who ran the fetch, on whose behalf, with which Wayback/CDX
+ * query. The ingest pipeline lifts these headers verbatim out of the source
+ * `.md`, so they arrive as ordinary sections.
+ *
+ * Dropped at load, not deleted from the JSON — the data-provenance standard
+ * requires the repo keep the trail, and source-material/ keeps it too. The
+ * substantive sections of the same note (rate tables, snapshot lists, computed
+ * year-over-year changes) are unaffected and still render.
+ */
+const INTERNAL_SUBTOPICS = /^provenance$/i
+
+function isInternal(section: ContentSection): boolean {
+  return INTERNAL_SUBTOPICS.test((section.subtopic ?? '').trim())
+}
+
 export function hasContent(topicSlug: string, schoolSlug: string): boolean {
   return keyFor(topicSlug, schoolSlug) in loaders
 }
@@ -37,6 +54,7 @@ export async function loadMetricGroups(
   const byKey = new Map<string, MetricGroup>()
   const order: string[] = []
   for (const section of data.sections) {
+    if (isInternal(section)) continue
     const metric = normalizeMetric(topicSlug, section.subtopic)
     if (!metric) continue
     let group = byKey.get(metric.key)
