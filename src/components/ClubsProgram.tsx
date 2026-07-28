@@ -125,7 +125,7 @@ export function AffinityBody({ data }: { data: Affinity }) {
           its strips and gap flag instead of drawing an empty grid. */}
       {data.groups.length > 0 && (
         <div
-          className={`clubs-roster${data.umbrella ? ' is-under-umbrella' : ''}`}
+          className={`clubs-roster hairline-grid${data.umbrella ? ' is-under-umbrella' : ''}`}
         >
           {data.groups.map((g) => (
             <div key={g.name} className="clubs-group">

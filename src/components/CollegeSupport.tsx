@@ -340,7 +340,7 @@ export function CounselingBody({ data }: { data: Counseling }) {
         {data.mechanics.length > 0 && (
           <div>
             <Heading>{data.mechanicsTitle ?? tr('cardLabels.mechanicsOwned')}</Heading>
-            <div className="cs-mechanics">
+            <div className="cs-mechanics hairline-grid">
               {data.mechanics.map((m) => (
                 <div key={m} className="cs-mechanic">
                   <span className="cs-check">✓</span>

@@ -534,9 +534,6 @@ main { flex: 1; }
 .topic-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1px;
-  background: var(--border);
-  border: 1px solid var(--border);
 }
 .topic-cell {
   display: flex;
@@ -717,16 +714,33 @@ main { flex: 1; }
 .topic-count { color: var(--muted); font-size: 13px; }
 .topic-section-head .btn { margin-left: auto; }
 
-/* stat-tile strip — hairline grid drawn with 1px gaps over a divider field */
+
+/* Hairline grid without a painted backing field.
+   Setting `gap: 1px` over `background: var(--border)` shows the field through
+   any partial last row (4 tiles across 3 columns) as a grey block. Drawing the
+   rules per cell instead means a short row simply ends. */
+.hairline-grid { gap: 0; overflow: hidden; border: 1px solid var(--border); }
+.hairline-grid > * { box-shadow: -1px 0 0 var(--border), 0 -1px 0 var(--border); }
+
+/* stat-tile strip — hairline grid.
+   The rules are drawn per tile rather than by letting a background field show
+   through 1px gaps: a partial last row (4 tiles across 3 columns) left the
+   field exposed as a grey block. Tiles carry their own top/left hairline and
+   the container clips the overhang. */
 .stat-strip {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 1px;
-  background: var(--border);
+  gap: 0;
   border: 1px solid var(--border);
   margin-bottom: 20px;
+  overflow: hidden;
 }
-.stat-tile { background: var(--bg); padding: 14px; }
+.stat-tile {
+  background: var(--bg);
+  padding: 14px;
+  box-shadow: -1px 0 0 var(--border), 0 -1px 0 var(--border);
+}
+
 .stat-tile-val { font-family: var(--heading); font-weight: 600; font-size: 28px; line-height: 1.15; color: var(--ink); }
 .stat-tile-label { color: var(--muted); font-size: 12px; margin-top: 2px; }
 
@@ -1119,13 +1133,13 @@ main { flex: 1; }
 /* contents nav — hairline grid of chips with a confidence meter each */
 .fa-contents {
   display: grid;
-  /* auto-fit, not a fixed 6: reports run 6 or 7 sections, and a short last row
-     used to expose the grid's own border colour as a grey block. */
+  /* auto-fit, not a fixed 6: reports run 6 or 7 sections. Hairlines are drawn
+     per chip (below) so a short last row leaves no painted field behind. */
   grid-template-columns: repeat(auto-fit, minmax(148px, 1fr));
-  gap: 1px;
-  background: var(--border);
+  gap: 0;
   border: 1px solid var(--border);
   margin: 14px 0 7px;
+  overflow: hidden;
 }
 .fa-contents a {
   display: flex;
@@ -1133,6 +1147,8 @@ main { flex: 1; }
   gap: 6px;
   padding: 10px 12px;
   background: var(--bg);
+  /* per-chip hairlines, so a short last row leaves no painted field */
+  box-shadow: -1px 0 0 var(--border), 0 -1px 0 var(--border);
   transition: background 0.12s ease;
 }
 .fa-contents a:hover { background: var(--accent-100); }
@@ -2080,9 +2096,6 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
 .sports-stats {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1px;
-  background: var(--border);
-  border: 1px solid var(--border);
   margin-bottom: 18px;
 }
 .sports-stat { background: var(--bg); padding: 12px 14px; }
@@ -2327,9 +2340,6 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
 .sports-pros {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
-  gap: 1px;
-  background: var(--border);
-  border: 1px solid var(--border);
   margin-bottom: 16px;
 }
 .sports-pro { background: var(--bg); padding: 14px; }
@@ -2561,9 +2571,6 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
 .arts-stats {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1px;
-  background: var(--border);
-  border: 1px solid var(--border);
   margin-bottom: 20px;
 }
 .arts-stat { background: var(--bg); padding: 12px 14px; }
@@ -2938,9 +2945,6 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
 .clubs-roster {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1px;
-  background: var(--border);
-  border: 1px solid var(--border);
   margin-bottom: 16px;
 }
 /* When an umbrella band sits above, drop the shared top border so the two read
@@ -3319,9 +3323,6 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
 .cs-mechanics {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1px;
-  background: var(--border);
-  border: 1px solid var(--border);
 }
 .cs-mechanic {
   background: var(--bg);

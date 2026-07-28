@@ -67,7 +67,7 @@ function Lead({ headline, subhead }: { headline: string; subhead?: string }) {
 /** The four-up stat strip used by 1a. */
 function StatStrip({ stats }: { stats: ArtsStat[] }) {
   return (
-    <div className="arts-stats">
+    <div className="arts-stats hairline-grid">
       {stats.map((s) => (
         <div key={s.label} className="arts-stat">
           <div className="arts-stat-val">{localizeMoneyText(s.value)}</div>
