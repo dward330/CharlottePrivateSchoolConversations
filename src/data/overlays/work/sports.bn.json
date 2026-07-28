@@ -1,0 +1,5348 @@
+{
+  "topic": "sports",
+  "lang": "bn",
+  "generated": "i18n_extract.mjs",
+  "note": "Translate each `text` into `t`. Leave `of` and `at` untouched — they are how the overlay is rebuilt and drift-checked.",
+  "strings": [
+    {
+      "text": "27 varsity programs, 66 teams total — among the largest private-school athletic programs in North Carolina.",
+      "of": "cf21678e",
+      "at": [
+        "providence-day:offered.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Sports are open to grades 7–12, and historically over 80% of students play. Most varsity sports carry a JV and Middle School ladder beneath them.",
+      "of": "c7db6e87",
+      "at": [
+        "providence-day:offered.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "varsity sports / programs",
+      "of": "1230f3ae",
+      "at": [
+        "providence-day:offered.stats[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "teams across V · JV · MS",
+      "of": "e74eb5c6",
+      "at": [
+        "providence-day:offered.stats[1].label",
+        "charlotte-christian:offered.stats[1].label",
+        "charlotte-country-day:offered.stats[1].label",
+        "cannon:offered.stats[1].label",
+        "davidson-day:offered.stats[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "grades eligible to compete",
+      "of": "a84454be",
+      "at": [
+        "providence-day:offered.stats[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "4A state · CISAA conference",
+      "of": "14bedce5",
+      "at": [
+        "providence-day:offered.stats[3].label",
+        "cannon:offered.stats[3].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Fall",
+      "of": "7b00bc80",
+      "at": [
+        "providence-day:offered.seasons[0].name",
+        "charlotte-latin:offered.seasons[0].name",
+        "charlotte-christian:offered.seasons[0].name",
+        "charlotte-country-day:offered.seasons[0].name",
+        "cannon:offered.seasons[0].name",
+        "davidson-day:offered.seasons[0].name"
+      ],
+      "t": ""
+    },
+    {
+      "text": "9 varsity",
+      "of": "c94b0cba",
+      "at": [
+        "providence-day:offered.seasons[0].note",
+        "providence-day:offered.seasons[1].note",
+        "providence-day:offered.seasons[2].note",
+        "charlotte-latin:offered.seasons[2].note",
+        "charlotte-country-day:offered.seasons[2].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Winter",
+      "of": "0acedc2c",
+      "at": [
+        "providence-day:offered.seasons[1].name",
+        "charlotte-latin:offered.seasons[1].name",
+        "charlotte-christian:offered.seasons[1].name",
+        "charlotte-country-day:offered.seasons[1].name",
+        "cannon:offered.seasons[1].name",
+        "davidson-day:offered.seasons[1].name"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Spring",
+      "of": "d643be8c",
+      "at": [
+        "providence-day:offered.seasons[2].name",
+        "charlotte-latin:offered.seasons[2].name",
+        "charlotte-christian:offered.seasons[2].name",
+        "charlotte-country-day:offered.seasons[2].name",
+        "cannon:offered.seasons[2].name",
+        "davidson-day:offered.seasons[2].name"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Counting boys’ and girls’ editions separately, this is 27 varsity programs; the remaining ~39 of 66 teams are the JV and Middle School squads beneath them. Middle School splits larger sports into \"Blue\" and \"Red\" squads to widen participation. As of 2025–26, football competes in the new NCISAA \"Big South\" conference with Charlotte Latin, Charlotte Christian and Charlotte Country Day — PD went 3–0 and finished first.",
+      "of": "070d8341",
+      "at": [
+        "providence-day:offered.footnote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Four NCISAA 4A state titles in 2025–26 — the most of any 4A school in North Carolina that year.",
+      "of": "5d189a95",
+      "at": [
+        "providence-day:record.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "\"State\" = NCISAA (the private-school association); PD does not compete in the public-school NCHSAA.",
+      "of": "fa5fc291",
+      "at": [
+        "providence-day:record.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "STATE",
+      "of": "e09a6f96",
+      "at": [
+        "providence-day:record.rows[0].cells[0].result",
+        "providence-day:record.rows[0].cells[2].result",
+        "providence-day:record.rows[1].cells[0].result",
+        "providence-day:record.rows[1].cells[1].result",
+        "providence-day:record.rows[1].cells[2].result",
+        "providence-day:record.rows[2].cells[1].result",
+        "providence-day:record.rows[2].cells[2].result",
+        "providence-day:record.rows[3].cells[2].result",
+        "charlotte-latin:record.rows[0].cells[0].result",
+        "charlotte-latin:record.rows[0].cells[1].result",
+        "charlotte-latin:record.rows[0].cells[2].result",
+        "charlotte-latin:record.rows[1].cells[0].result",
+        "charlotte-latin:record.rows[1].cells[2].result",
+        "charlotte-latin:record.rows[2].cells[0].result",
+        "charlotte-latin:record.rows[3].cells[0].result",
+        "charlotte-latin:record.rows[4].cells[2].result",
+        "charlotte-christian:record.rows[0].cells[2].result",
+        "charlotte-christian:record.rows[2].cells[1].result",
+        "charlotte-christian:record.rows[3].cells[1].result",
+        "charlotte-country-day:record.rows[0].cells[0].result",
+        "charlotte-country-day:record.rows[0].cells[1].result",
+        "charlotte-country-day:record.rows[0].cells[2].result",
+        "charlotte-country-day:record.rows[1].cells[0].result",
+        "charlotte-country-day:record.rows[1].cells[2].result",
+        "charlotte-country-day:record.rows[2].cells[0].result",
+        "charlotte-country-day:record.rows[2].cells[1].result",
+        "charlotte-country-day:record.rows[3].cells[0].result",
+        "charlotte-country-day:record.rows[3].cells[1].result",
+        "charlotte-country-day:record.rows[4].cells[1].result",
+        "cannon:record.rows[0].cells[0].result",
+        "cannon:record.rows[0].cells[1].result",
+        "cannon:record.rows[0].cells[2].result",
+        "cannon:record.rows[1].cells[0].result",
+        "cannon:record.rows[2].cells[0].result",
+        "davidson-day:record.rows[0].cells[0].result",
+        "davidson-day:record.rows[0].cells[1].result",
+        "davidson-day:record.rows[0].cells[2].result",
+        "davidson-day:record.rows[1].cells[0].result",
+        "davidson-day:record.rows[1].cells[1].result",
+        "davidson-day:record.rows[2].cells[0].result",
+        "davidson-day:record.rows[2].cells[1].result",
+        "davidson-day:record.rows[3].cells[0].result",
+        "davidson-day:record.rows[3].cells[1].result",
+        "davidson-day:record.rows[4].cells[0].result"
+      ],
+      "t": ""
+    },
+    {
+      "text": "RUNNER-UP",
+      "of": "7b84d2bf",
+      "at": [
+        "providence-day:record.rows[0].cells[1].result",
+        "providence-day:record.rows[4].cells[0].result",
+        "providence-day:record.rows[4].cells[2].result",
+        "providence-day:record.rows[5].cells[2].result",
+        "charlotte-latin:record.rows[1].cells[1].result",
+        "charlotte-latin:record.rows[2].cells[1].result",
+        "charlotte-latin:record.rows[2].cells[2].result",
+        "charlotte-latin:record.rows[5].cells[2].result",
+        "charlotte-latin:record.rows[6].cells[2].result",
+        "charlotte-christian:record.rows[1].cells[2].result",
+        "charlotte-christian:record.rows[4].cells[2].result",
+        "charlotte-country-day:record.rows[2].cells[2].result",
+        "charlotte-country-day:record.rows[5].cells[2].result",
+        "cannon:record.rows[3].cells[2].result",
+        "davidson-day:record.rows[1].cells[2].result"
+      ],
+      "t": ""
+    },
+    {
+      "text": "4 titles in 5 years; first undefeated season in program history",
+      "of": "752c88b8",
+      "at": [
+        "providence-day:record.rows[0].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Three-peat — strongest single program",
+      "of": "50725af7",
+      "at": [
+        "providence-day:record.rows[1].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NONE",
+      "of": "732a0f1b",
+      "at": [
+        "providence-day:record.rows[2].cells[0].result",
+        "providence-day:record.rows[3].cells[0].result",
+        "providence-day:record.rows[3].cells[1].result",
+        "providence-day:record.rows[5].cells[0].result",
+        "providence-day:record.rows[5].cells[1].result",
+        "charlotte-latin:record.rows[3].cells[1].result",
+        "charlotte-latin:record.rows[3].cells[2].result",
+        "charlotte-latin:record.rows[4].cells[0].result",
+        "charlotte-latin:record.rows[4].cells[1].result",
+        "charlotte-latin:record.rows[5].cells[0].result",
+        "charlotte-latin:record.rows[5].cells[1].result",
+        "charlotte-latin:record.rows[6].cells[0].result",
+        "charlotte-latin:record.rows[6].cells[1].result",
+        "charlotte-christian:record.rows[0].cells[0].result",
+        "charlotte-christian:record.rows[0].cells[1].result",
+        "charlotte-christian:record.rows[1].cells[0].result",
+        "charlotte-christian:record.rows[1].cells[1].result",
+        "charlotte-christian:record.rows[2].cells[0].result",
+        "charlotte-christian:record.rows[2].cells[2].result",
+        "charlotte-christian:record.rows[3].cells[0].result",
+        "charlotte-christian:record.rows[3].cells[2].result",
+        "charlotte-christian:record.rows[4].cells[0].result",
+        "charlotte-christian:record.rows[4].cells[1].result",
+        "charlotte-christian:record.rows[5].cells[0].result",
+        "charlotte-christian:record.rows[5].cells[1].result",
+        "charlotte-christian:record.rows[5].cells[2].result",
+        "charlotte-country-day:record.rows[1].cells[1].result",
+        "charlotte-country-day:record.rows[3].cells[2].result",
+        "charlotte-country-day:record.rows[4].cells[0].result",
+        "charlotte-country-day:record.rows[4].cells[2].result",
+        "charlotte-country-day:record.rows[5].cells[0].result",
+        "charlotte-country-day:record.rows[5].cells[1].result",
+        "cannon:record.rows[1].cells[1].result",
+        "cannon:record.rows[1].cells[2].result",
+        "cannon:record.rows[2].cells[1].result",
+        "cannon:record.rows[2].cells[2].result",
+        "cannon:record.rows[3].cells[0].result",
+        "cannon:record.rows[3].cells[1].result",
+        "cannon:record.rows[4].cells[0].result",
+        "cannon:record.rows[4].cells[1].result",
+        "cannon:record.rows[4].cells[2].result",
+        "cannon:record.rows[5].cells[0].result",
+        "cannon:record.rows[5].cells[1].result",
+        "cannon:record.rows[5].cells[2].result",
+        "davidson-day:record.rows[2].cells[2].result",
+        "davidson-day:record.rows[3].cells[2].result",
+        "davidson-day:record.rows[5].cells[1].result",
+        "davidson-day:record.rows[5].cells[2].result",
+        "davidson-day:record.rows[6].cells[0].result",
+        "davidson-day:record.rows[6].cells[1].result",
+        "davidson-day:record.rows[6].cells[2].result"
+      ],
+      "t": ""
+    },
+    {
+      "text": "First-ever title in '25, then repeated",
+      "of": "19643940",
+      "at": [
+        "providence-day:record.rows[2].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Won the 2026 D1 meet by 88 points on depth",
+      "of": "832f0f1a",
+      "at": [
+        "providence-day:record.rows[3].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "SEMIFINAL",
+      "of": "6afcd109",
+      "at": [
+        "providence-day:record.rows[4].cells[1].result",
+        "davidson-day:record.rows[4].cells[1].result",
+        "davidson-day:record.rows[4].cells[2].result"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Elite but title-less in this window",
+      "of": "9ef68dd8",
+      "at": [
+        "providence-day:record.rows[4].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Lost the '26 final to Cannon (Cannon's 3rd straight)",
+      "of": "ffdc3012",
+      "at": [
+        "providence-day:record.rows[5].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "boys basketball (Forsyth Country Day) · girls basketball (Cannon) · boys cross country, boys soccer & boys track (Christ School) · girls cross country, boys lacrosse & boys tennis (Durham Academy) · wrestling and both golf titles (Charlotte Latin) · field hockey & girls tennis (Charlotte Country Day) · boys swimming (Cary Academy) · baseball (Charlotte Christian) · volleyball (North Raleigh Christian).",
+      "of": "6e3a22fa",
+      "at": [
+        "providence-day:record.didNotWin"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2 OF 3 YRS",
+      "of": "a605051b",
+      "at": [
+        "providence-day:record.bars[1].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2023 12–1 (state champion) · 2024 9–3 (runner-up, lost 42–39 to Rabun Gap-Nacoochee, GA) · 2025 13–0 (champion; beat Charlotte Christian 42–6 behind three Zaid Lott touchdown passes — the first undefeated season in program history).",
+      "of": "daf88e0e",
+      "at": [
+        "providence-day:record.seasonDetail[0].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "'23–24 25–9 (lost the final to Christ School) · '24–25 24–7 (semifinal) · '25–26 23–7 (lost the final 69–59 to Forsyth Country Day).",
+      "of": "941ac729",
+      "at": [
+        "providence-day:record.seasonDetail[1].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2026: beat Carmel Christian 2–1 for a third straight title, finishing 18–4–1, with Grayson Dudley scoring both goals. The 2024–25 season record is still unconfirmed.",
+      "of": "cf9e82a5",
+      "at": [
+        "providence-day:record.seasonDetail[2].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2026 NCISAA D1 meet: 420 points to Charlotte Country Day’s 328 — PD won just 2 of 11 events but took the meet by 88 on depth, ending Country Day’s two-year run.",
+      "of": "99e89214",
+      "at": [
+        "providence-day:record.seasonDetail[3].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "~39 Division I commits across the classes of 2024–26, 17 of them Power 4 — and an honest map of which sports feed which level.",
+      "of": "6525519a",
+      "at": [
+        "providence-day:pipeline.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Built from the school’s official \"Alumni at the Next Level\" list; division and conference labels were added by the researcher from each college’s NCAA status.",
+      "of": "493bbb60",
+      "at": [
+        "providence-day:pipeline.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Committed to college athletics",
+      "of": "ef22839e",
+      "at": [
+        "providence-day:pipeline.funnel[0].label",
+        "charlotte-latin:pipeline.funnel[0].label",
+        "charlotte-christian:pipeline.funnel[0].label",
+        "charlotte-country-day:pipeline.funnel[0].label",
+        "cannon:pipeline.funnel[0].label",
+        "davidson-day:pipeline.funnel[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "(all divisions)",
+      "of": "d4173ffd",
+      "at": [
+        "providence-day:pipeline.funnel[0].hint",
+        "charlotte-latin:pipeline.funnel[0].hint",
+        "charlotte-country-day:pipeline.funnel[0].hint"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NCAA Division I",
+      "of": "76125f2c",
+      "at": [
+        "providence-day:pipeline.funnel[1].label",
+        "charlotte-latin:pipeline.funnel[1].label",
+        "charlotte-christian:pipeline.funnel[1].label",
+        "charlotte-country-day:pipeline.funnel[1].label",
+        "cannon:pipeline.funnel[1].label",
+        "davidson-day:pipeline.funnel[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "(any conference)",
+      "of": "ae9f7e5e",
+      "at": [
+        "providence-day:pipeline.funnel[1].hint",
+        "charlotte-latin:pipeline.funnel[1].hint",
+        "charlotte-christian:pipeline.funnel[1].hint",
+        "charlotte-country-day:pipeline.funnel[1].hint",
+        "cannon:pipeline.funnel[1].hint",
+        "davidson-day:pipeline.funnel[1].hint"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Power 4",
+      "of": "59c114f2",
+      "at": [
+        "providence-day:pipeline.funnel[2].label",
+        "charlotte-latin:pipeline.funnel[2].label",
+        "charlotte-christian:pipeline.funnel[2].label",
+        "charlotte-country-day:pipeline.funnel[2].label",
+        "cannon:pipeline.funnel[2].label",
+        "davidson-day:pipeline.funnel[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "(SEC · Big Ten · ACC · Big 12)",
+      "of": "851e32c5",
+      "at": [
+        "providence-day:pipeline.funnel[2].hint",
+        "charlotte-latin:pipeline.funnel[2].hint",
+        "charlotte-christian:pipeline.funnel[2].hint",
+        "charlotte-country-day:pipeline.funnel[2].hint",
+        "cannon:pipeline.funnel[2].hint",
+        "davidson-day:pipeline.funnel[2].hint"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Treat the D1 tally as a floor, not a ceiling: the school’s own single-class graphic claims 31 future NCAA student-athletes across 15 sports and 24 colleges in one senior class. An offer also differs from a commitment — one elite recruit can hold 7–8 Power 4 offers but makes a single commitment. Of the 17 P4 commits, the ACC takes 8, the Big Ten 4 and the SEC 4; the Big 12 is not represented in this window.",
+      "of": "a1cbcd64",
+      "at": [
+        "providence-day:pipeline.funnelNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Baseball, lacrosse, golf, tennis, softball and both basketballs send commits overwhelmingly to NCAA Division III — Denison, Hampden-Sydney, Tufts, Emory, Kenyon, Hamilton and Washington & Lee recur heavily. That pattern matches PD’s academically selective identity: for many families, a D3 offer from a top academic college is the win.",
+      "of": "235386f9",
+      "at": [
+        "providence-day:pipeline.realityCheck"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Seven PD players made NC Football News’ 53-man consensus list for the class of 2027 (blending 247Sports, Rivals and ESPN), led by safety Robert Geathers III. Recent blue-chips: David Sanders ’25 (five-star, the No. 1 offensive tackle and No. 4 recruit nationally, to Tennessee) and Jadyn Davis ’24 (NC Mr. Football, to Michigan). PD fielded one five-star and seven four-stars in the 2025 football class alone.",
+      "of": "7e7069bd",
+      "at": [
+        "providence-day:pipeline.rankedRecruits"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Level labels (P4 / D1 / D2 / D3) and conferences were added by the researcher from each college’s NCAA status — they are not on the school’s list. P4 = SEC · Big Ten · ACC · Big 12.",
+      "of": "3d80e155",
+      "at": [
+        "providence-day:pipeline.rosterNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Four verified pros — an NFL top-10 pick, two NBA players and a Team USA Olympian — atop an NC-record run of Gatorade Players of the Year.",
+      "of": "6ef80316",
+      "at": [
+        "providence-day:honors.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Every name individually verified; PD does not maintain a single pro-alumni tracker.",
+      "of": "ddcddd50",
+      "at": [
+        "providence-day:honors.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NFL · Class of '19",
+      "of": "4048fc48",
+      "at": [
+        "providence-day:honors.pros[0].kicker"
+      ],
+      "t": ""
+    },
+    {
+      "text": "#6 overall pick in the 2022 NFL Draft. Unanimous All-American and ACC Jacobs Blocking Trophy winner at NC State; the Panthers exercised his fifth-year option in 2025.",
+      "of": "96ae4794",
+      "at": [
+        "providence-day:honors.pros[0].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NBA · Class of '16",
+      "of": "c77d608c",
+      "at": [
+        "providence-day:honors.pros[1].kicker"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2019 first-round pick; reached the 2022 NBA Finals with Boston and was elected First Vice President of the NBA Players Association.",
+      "of": "76d188c1",
+      "at": [
+        "providence-day:honors.pros[1].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NBA + intl · Class of '18",
+      "of": "9bb113ae",
+      "at": [
+        "providence-day:honors.pros[2].kicker"
+      ],
+      "t": ""
+    },
+    {
+      "text": "PD's all-time leading scorer with 2,607 points; led the Big 12 in scoring at Kansas and was a 2018 McDonald's All-American.",
+      "of": "bdb3c250",
+      "at": [
+        "providence-day:honors.pros[2].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Olympics · Class of '16",
+      "of": "1d9a5ad7",
+      "at": [
+        "providence-day:honors.pros[3].kicker"
+      ],
+      "t": ""
+    },
+    {
+      "text": "400m hurdler for Team USA, competing at the Paris Games after an All-American career at USC.",
+      "of": "8568c722",
+      "at": [
+        "providence-day:honors.pros[3].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Gatorade Players of the Year",
+      "of": "0ce9d037",
+      "at": [
+        "providence-day:honors.honors[0].label",
+        "charlotte-christian:honors.honors[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Girls basketball holds an NC-record seven, four of them in five years (2012–2016). Recent winners: Jadyn Davis (football, 2022), David Sanders (football, 2023) and Blane McElroy (girls soccer).",
+      "of": "6f5a4e44",
+      "at": [
+        "providence-day:honors.honors[0].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Statewide, 1 per sport",
+      "of": "a8411c31",
+      "at": [
+        "providence-day:honors.honors[0].tag",
+        "charlotte-christian:honors.honors[0].tag",
+        "charlotte-country-day:honors.honors[3].tag",
+        "cannon:honors.honors[0].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "McDonald's All-Americans",
+      "of": "1130edda",
+      "at": [
+        "providence-day:honors.honors[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Three — Jatarie White '14 and Janelle Bailey '17 (girls basketball), Devon Dotson '18 (boys). Only about 24 boys and 24 girls are selected nationally each year.",
+      "of": "f83eac1f",
+      "at": [
+        "providence-day:honors.honors[1].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "National top-tier",
+      "of": "0b25d8d3",
+      "at": [
+        "providence-day:honors.honors[1].tag",
+        "charlotte-christian:honors.honors[1].tag",
+        "cannon:honors.honors[1].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NC Mr. Football + All-Americans",
+      "of": "aab904da",
+      "at": [
+        "providence-day:honors.honors[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Jadyn Davis — 2022 NC Mr. Football and MaxPreps NC Player of the Year. David Sanders — MaxPreps All-American and a Mr. Football finalist who did not allow a sack as a senior.",
+      "of": "25b2afce",
+      "at": [
+        "providence-day:honors.honors[2].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Statewide + national",
+      "of": "d15ade4e",
+      "at": [
+        "providence-day:honors.honors[2].tag",
+        "charlotte-latin:honors.honors[2].tag",
+        "davidson-day:honors.honors[0].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Conference & all-state",
+      "of": "fa4ec44e",
+      "at": [
+        "providence-day:honors.honors[3].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "CISAA Players of the Year 2026: Abby Goldean and Trevor Yancey. NCISAA All-State selections across fall, winter and spring 2025–26.",
+      "of": "8b9f229b",
+      "at": [
+        "providence-day:honors.honors[3].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "League level",
+      "of": "ab17dd36",
+      "at": [
+        "providence-day:honors.honors[3].tag",
+        "charlotte-christian:honors.honors[4].tag",
+        "cannon:honors.honors[3].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "PD ESPYs (in-house)",
+      "of": "7e7fd526",
+      "at": [
+        "providence-day:honors.honors[4].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Annual internal awards for Athletes, Coaches, Academic Athletes and Impact Athletes of the Year. 2026: Jane Updyke & Aidan Gallos (Athletes), Kristina Bond & Chad Grier (Coaches) — both athletes having delivered in their title games.",
+      "of": "5ba3dbdd",
+      "at": [
+        "providence-day:honors.honors[4].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "School culture signal",
+      "of": "6be27165",
+      "at": [
+        "providence-day:honors.honors[4].tag",
+        "charlotte-latin:honors.honors[4].tag",
+        "charlotte-country-day:honors.honors[4].tag",
+        "cannon:honors.honors[4].tag",
+        "davidson-day:honors.honors[4].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A marquee external hire (Grier), a homegrown Hall-of-Famer (Hovis), and an NBA champion volunteering on the bench (Battier).",
+      "of": "9a5c35c7",
+      "at": [
+        "providence-day:coaching.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Athletic Director: Nancy Beatty. A deliberate mix of prestige and stability.",
+      "of": "4b142aef",
+      "at": [
+        "providence-day:coaching.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The pedigree hire · Football, since 2020",
+      "of": "a2a46821",
+      "at": [
+        "providence-day:coaching.featured[0].kicker"
+      ],
+      "t": ""
+    },
+    {
+      "text": "147–26",
+      "of": "3d581f7a",
+      "at": [
+        "providence-day:coaching.featured[0].stats[0].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "career record, 15 seasons",
+      "of": "0b46ec9c",
+      "at": [
+        "providence-day:coaching.featured[0].stats[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "8",
+      "of": "3d0cb547",
+      "at": [
+        "providence-day:coaching.featured[0].stats[1].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "state titles — 3rd-most in NC history",
+      "of": "566ae640",
+      "at": [
+        "providence-day:coaching.featured[0].stats[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "#1",
+      "of": "08c87a19",
+      "at": [
+        "providence-day:coaching.featured[0].stats[2].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "win % in NC, coaches with 100+ games",
+      "of": "e5f0052d",
+      "at": [
+        "providence-day:coaching.featured[0].stats[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "QB-developer reputation: coached his son Will Grier (NFL), Sam Hartman (most TD passes in ACC history) and Jadyn Davis (Mr. Football). Every starting QB across 12+ years has gone on to play college football. Built Davidson Day from scratch (64–9, four titles in six years), then turned around Oceanside Collegiate in South Carolina. Stated reason for staying: raising his youngest son near family.",
+      "of": "b2e23e41",
+      "at": [
+        "providence-day:coaching.featured[0].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The continuity anchor · XC / Track, since 2002",
+      "of": "7539cea7",
+      "at": [
+        "providence-day:coaching.featured[1].kicker"
+      ],
+      "t": ""
+    },
+    {
+      "text": "24 yrs",
+      "of": "8f89380f",
+      "at": [
+        "providence-day:coaching.featured[1].stats[0].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "leading the program — PD alum, Class of '96",
+      "of": "943768a6",
+      "at": [
+        "providence-day:coaching.featured[1].stats[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "HOF",
+      "of": "739e0daa",
+      "at": [
+        "providence-day:coaching.featured[1].stats[1].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NC Track & Field / XC Hall of Fame",
+      "of": "e316f10e",
+      "at": [
+        "providence-day:coaching.featured[1].stats[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "20",
+      "of": "8df2997f",
+      "at": [
+        "providence-day:coaching.featured[1].stats[2].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "consecutive CISAA XC titles, 2000–20",
+      "of": "98906d1b",
+      "at": [
+        "providence-day:coaching.featured[1].stats[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A former PD runner who took over from the founding coach and built a perennial power — 2023 Charlotte Observer Boys Track Coach of the Year, having won a fourth straight state title (nine of the prior ten).",
+      "of": "58de73dd",
+      "at": [
+        "providence-day:coaching.featured[1].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Cross Country / Track",
+      "of": "4a0ad2b7",
+      "at": [
+        "providence-day:coaching.tenure[0].role"
+      ],
+      "t": ""
+    },
+    {
+      "text": "since 2002",
+      "of": "6201126f",
+      "at": [
+        "providence-day:coaching.tenure[0].since"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Football QBs · Game Day Coordinator",
+      "of": "0b858a8d",
+      "at": [
+        "providence-day:coaching.tenure[1].role"
+      ],
+      "t": ""
+    },
+    {
+      "text": "since 2011",
+      "of": "defe059f",
+      "at": [
+        "providence-day:coaching.tenure[1].since"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Football · Asst. AD Facilities",
+      "of": "5271159c",
+      "at": [
+        "providence-day:coaching.tenure[2].role"
+      ],
+      "t": ""
+    },
+    {
+      "text": "since 2020",
+      "of": "7005a5a7",
+      "at": [
+        "providence-day:coaching.tenure[2].since"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Strength & Conditioning (lead)",
+      "of": "a78e9ad2",
+      "at": [
+        "providence-day:coaching.tenure[3].role"
+      ],
+      "t": ""
+    },
+    {
+      "text": "since 2022",
+      "of": "7205a8cd",
+      "at": [
+        "providence-day:coaching.tenure[3].since",
+        "cannon:coaching.tenure[3].since"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Boys Basketball — 19 yrs as assistant",
+      "of": "da45b2bb",
+      "at": [
+        "providence-day:coaching.tenure[4].role"
+      ],
+      "t": ""
+    },
+    {
+      "text": "head coach 2026",
+      "of": "9048a8d9",
+      "at": [
+        "providence-day:coaching.tenure[4].since"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Girls Basketball",
+      "of": "0e4d6f3b",
+      "at": [
+        "providence-day:coaching.tenure[5].role",
+        "charlotte-latin:coaching.tenure[8].role",
+        "cannon:coaching.tenure[2].role"
+      ],
+      "t": ""
+    },
+    {
+      "text": "long-tenured",
+      "of": "11a18fc3",
+      "at": [
+        "providence-day:coaching.tenure[5].since"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Swimming — '26 girls state title",
+      "of": "6ae2b1fd",
+      "at": [
+        "providence-day:coaching.tenure[6].role"
+      ],
+      "t": ""
+    },
+    {
+      "text": "tenure",
+      "of": "86d1b1c2",
+      "at": [
+        "providence-day:coaching.tenure[6].since",
+        "providence-day:coaching.tenure[7].since",
+        "charlotte-christian:coaching.tenure[6].since",
+        "davidson-day:coaching.tenure[2].since"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Girls Soccer — 3 straight state titles",
+      "of": "5b3e4690",
+      "at": [
+        "providence-day:coaching.tenure[7].role"
+      ],
+      "t": ""
+    },
+    {
+      "text": "boys basketball’s staff includes Shane Battier — Duke national champion, 13-year NBA veteran and two-time NBA champion — as an assistant coach; his son Zeke plays for the Chargers. Also on staff is Brian Field, the former PD head coach who led the 2016 state title team to the national tournament in New York.",
+      "of": "6b0cb7ac",
+      "at": [
+        "providence-day:coaching.worthKnowing"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Two weight rooms the program calls \"two of the very best in the nation,\" a 2012 stadium, and an in-house medical staff of three certified trainers plus a team physician.",
+      "of": "e477ce1e",
+      "at": [
+        "providence-day:facilities.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Facilities build the athlete; the care model keeps them on the field.",
+      "of": "9fb87e26",
+      "at": [
+        "providence-day:facilities.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "built 2012–13",
+      "of": "027ed425",
+      "at": [
+        "providence-day:facilities.photos[0].meta"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Mosack Field (football / soccer / lacrosse) plus the Compton Track; the Field House holds the Sports Weight Room",
+      "of": "5e0160d1",
+      "at": [
+        "providence-day:facilities.photos[0].caption"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Photo: Providence Day School athletics",
+      "of": "7e19cdfb",
+      "at": [
+        "providence-day:facilities.photos[0].credit",
+        "providence-day:facilities.photos[1].credit",
+        "providence-day:facilities.photos[2].credit"
+      ],
+      "t": ""
+    },
+    {
+      "text": "53,000 sq ft, 2001",
+      "of": "34968366",
+      "at": [
+        "providence-day:facilities.photos[1].meta"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Main basketball venue; houses the Wellness Center, dance studio and golf simulator",
+      "of": "6a603e1b",
+      "at": [
+        "providence-day:facilities.photos[1].caption"
+      ],
+      "t": ""
+    },
+    {
+      "text": "remodeled Spring 2026",
+      "of": "75a2057d",
+      "at": [
+        "providence-day:facilities.photos[2].meta"
+      ],
+      "t": ""
+    },
+    {
+      "text": "10 custom power racks, 6 digital rowers, dumbbells to 100 lb",
+      "of": "d0ad00fe",
+      "at": [
+        "providence-day:facilities.photos[2].caption"
+      ],
+      "t": ""
+    },
+    {
+      "text": "natural grass, covered batting cage",
+      "of": "8182b567",
+      "at": [
+        "providence-day:facilities.venues[0].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "natural grass, cage + bullpens",
+      "of": "6e206476",
+      "at": [
+        "providence-day:facilities.venues[1].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "eight championship hard courts",
+      "of": "7fe0a65e",
+      "at": [
+        "providence-day:facilities.venues[2].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "MS, lacrosse, field hockey, soccer",
+      "of": "da818c3b",
+      "at": [
+        "providence-day:facilities.venues[3].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "dedicated space",
+      "of": "b502cb00",
+      "at": [
+        "providence-day:facilities.venues[4].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Overcash Field House — 2nd S&C space",
+      "of": "77a79574",
+      "at": [
+        "providence-day:facilities.venues[5].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Hudl TV live streams, the PD Sports Network on YouTube, a Bahakel Sports partnership (PD–Charlotte Christian has been its Game of the Week), GoFan ticketing, and a dedicated Sports Information Director.",
+      "of": "b45c7751",
+      "at": [
+        "providence-day:facilities.broadcast"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Athletic trainers",
+      "of": "b0d0021d",
+      "at": [
+        "providence-day:facilities.care[0].label",
+        "charlotte-latin:facilities.care[0].label",
+        "charlotte-christian:facilities.care[0].label",
+        "charlotte-country-day:facilities.care[0].label",
+        "cannon:facilities.care[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "3 licensed & nationally certified — Carlie Murray (head), Jacqui Frithsen, David Montes",
+      "of": "9294844a",
+      "at": [
+        "providence-day:facilities.care[0].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Team physician",
+      "of": "19a4b86c",
+      "at": [
+        "providence-day:facilities.care[1].label",
+        "charlotte-latin:facilities.care[2].label",
+        "charlotte-christian:facilities.care[2].label",
+        "charlotte-country-day:facilities.care[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Dr. Shadley Schiffern — no hospital-system partnership; care is delivered in-house",
+      "of": "7724567e",
+      "at": [
+        "providence-day:facilities.care[1].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Concussions",
+      "of": "220c11b2",
+      "at": [
+        "providence-day:facilities.care[2].label",
+        "charlotte-christian:facilities.care[3].label",
+        "charlotte-country-day:facilities.care[2].label",
+        "cannon:facilities.care[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "SCAT + King-Devick baselines for grades 7–12; Gfeller-Waller Act return-to-play protocol",
+      "of": "68d148c2",
+      "at": [
+        "providence-day:facilities.care[2].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "S&C staff",
+      "of": "3294caf3",
+      "at": [
+        "providence-day:facilities.care[3].label",
+        "charlotte-latin:facilities.care[3].label",
+        "charlotte-christian:facilities.care[4].label",
+        "charlotte-country-day:facilities.care[4].label",
+        "cannon:facilities.care[5].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2 full-time CSCS coaches (Evan Gates, Tim Mansfield) — year-round, all sports",
+      "of": "c633503c",
+      "at": [
+        "providence-day:facilities.care[3].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Recognition",
+      "of": "226627d0",
+      "at": [
+        "providence-day:facilities.care[4].label",
+        "charlotte-christian:facilities.care[5].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2020 National Safe Sports School 1st Team; 5-year Strength of America Award; training room \"comparable to most college facilities\"",
+      "of": "e56c6b03",
+      "at": [
+        "providence-day:facilities.care[4].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Context: CMS public schools partner with Atrium Health and Charlotte Country Day uses OrthoCarolina. PD’s fully in-house model is the differentiator to probe on a tour. Seating capacities are not published for any PD venue.",
+      "of": "adb15c48",
+      "at": [
+        "providence-day:facilities.careNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "MaxPreps ranked PD #1 in North Carolina across all classifications — and for a full year its athletes could sign NIL deals while public-school rivals legally could not.",
+      "of": "a235364f",
+      "at": [
+        "providence-day:national.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Grier’s stated goal: \"the epicenter of high school football… and beyond.\"",
+      "of": "c4f4ad44",
+      "at": [
+        "providence-day:national.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "#1 in NC",
+      "of": "4956e233",
+      "at": [
+        "providence-day:national.stats[0].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "MaxPreps '24 preseason, all classifications",
+      "of": "ddf0188a",
+      "at": [
+        "providence-day:national.stats[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "#65",
+      "of": "ff9a91db",
+      "at": [
+        "providence-day:national.stats[1].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "MaxPreps national rank, 2025–26",
+      "of": "eb713e31",
+      "at": [
+        "providence-day:national.stats[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "13–0",
+      "of": "1562726e",
+      "at": [
+        "providence-day:national.stats[2].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "first undefeated season, 2025",
+      "of": "c1f0fd64",
+      "at": [
+        "providence-day:national.stats[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "5 straight",
+      "of": "8e2c8676",
+      "at": [
+        "providence-day:national.stats[3].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NCISAA D-I state finals, 2021–25",
+      "of": "f1d78641",
+      "at": [
+        "providence-day:national.stats[3].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The deliberately national schedule — 2025",
+      "of": "e4dc094e",
+      "at": [
+        "providence-day:national.scheduleTitle"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Pennsylvania powerhouse; PIAA 5A finalist",
+      "of": "067f7750",
+      "at": [
+        "providence-day:national.schedule[0].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "National-power boarding school; beat PD twice in '24",
+      "of": "f2b0bffc",
+      "at": [
+        "providence-day:national.schedule[1].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "14–2 public-school state finalist the prior year",
+      "of": "bd9fe8a4",
+      "at": [
+        "providence-day:national.schedule[2].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Charlotte-area public powers, sought out rather than avoided",
+      "of": "154f4bd9",
+      "at": [
+        "providence-day:national.schedule[3].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Scheduling up is the tell of a program chasing national recognition — it also means a harder week-to-week slate for your athlete. Note the tension: PD went 13–0 and won state in 2025 yet MaxPreps still ranked it #3 in NC, because the algorithm weights strength of schedule against large public programs.",
+      "of": "f029466c",
+      "at": [
+        "providence-day:national.scheduleNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "May 2023",
+      "of": "144506af",
+      "at": [
+        "providence-day:national.nil[0].date"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NCHSAA approves public-school NIL; the legislature intervenes and blocks it.",
+      "of": "075e1d28",
+      "at": [
+        "providence-day:national.nil[0].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "June 2024",
+      "of": "680471b3",
+      "at": [
+        "providence-day:national.nil[1].date"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The State Board of Education bans public-school NIL outright.",
+      "of": "0448b309",
+      "at": [
+        "providence-day:national.nil[1].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2024–25",
+      "of": "96952863",
+      "at": [
+        "providence-day:national.nil[2].date"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NCISAA's NIL policy takes effect. For roughly a full year, private-school athletes can sign while public-school rivals cannot — On3 named PD's David Sanders as the direct beneficiary, and he signed with WME Sports and released his own merchandise line.",
+      "of": "02b78417",
+      "at": [
+        "providence-day:national.nil[2].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "PD'S WINDOW",
+      "of": "4d418949",
+      "at": [
+        "providence-day:national.nil[2].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "July 1, 2025",
+      "of": "a6e51f07",
+      "at": [
+        "providence-day:national.nil[3].date"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Public-school NIL becomes legal and the field levels. NCISAA deals still require state-office approval and must stay separate from school branding.",
+      "of": "32d5bb2d",
+      "at": [
+        "providence-day:national.nil[3].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "66 teams across 17 sports on a 128-acre campus, with about 90% of students in grades 7–12 playing something.",
+      "of": "1f45f1cd",
+      "at": [
+        "charlotte-latin:offered.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The largest campus among Charlotte-area independent schools, and 165 state championships across 21 sports since the NCISAA formed in 1973.",
+      "of": "3226e4db",
+      "at": [
+        "charlotte-latin:offered.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "sports offered",
+      "of": "60838c69",
+      "at": [
+        "charlotte-latin:offered.stats[0].label",
+        "charlotte-country-day:offered.stats[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "teams, grades 7–12",
+      "of": "3b8c0c12",
+      "at": [
+        "charlotte-latin:offered.stats[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "of students play a sport",
+      "of": "5ea7fd07",
+      "at": [
+        "charlotte-latin:offered.stats[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "state titles since 1973",
+      "of": "0d4b00d1",
+      "at": [
+        "charlotte-latin:offered.stats[3].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "8 varsity",
+      "of": "2db878e9",
+      "at": [
+        "charlotte-latin:offered.seasons[0].note",
+        "charlotte-christian:offered.seasons[2].note",
+        "charlotte-country-day:offered.seasons[0].note",
+        "cannon:offered.seasons[2].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "6 varsity",
+      "of": "0297e6ff",
+      "at": [
+        "charlotte-latin:offered.seasons[1].note",
+        "charlotte-christian:offered.seasons[0].note",
+        "charlotte-christian:offered.seasons[1].note",
+        "charlotte-country-day:offered.seasons[1].note",
+        "davidson-day:offered.seasons[0].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The school publishes \"17 sports / 66 teams\" while its athletics directory lists 24 varsity programs counting boys’ and girls’ editions separately — both figures are the school’s own and are reproduced as published. JV and Middle School levels are confirmed only for the eight sports with distinct team pages; Latin does not publish a level-by-level breakdown of all 66 teams. Latin competes in NCISAA 4A and the CISAA, with football in the new \"Big South\" conference.",
+      "of": "107957a8",
+      "at": [
+        "charlotte-latin:offered.footnote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Eight NCISAA state championships in three seasons, led by four straight boys golf titles and a 26th wrestling crown.",
+      "of": "29aeeab9",
+      "at": [
+        "charlotte-latin:record.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Latin’s strength is concentrated in the individual-scored sports — wrestling, golf and swimming — rather than the marquee team sports.",
+      "of": "7dae8a10",
+      "at": [
+        "charlotte-latin:record.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Four straight NCISAA titles through 2026",
+      "of": "65da241e",
+      "at": [
+        "charlotte-latin:record.rows[0].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Lost the 2025 title by a single point; 26th title in 2026",
+      "of": "4a6e6bab",
+      "at": [
+        "charlotte-latin:record.rows[1].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Three consecutive state finals",
+      "of": "1e692411",
+      "at": [
+        "charlotte-latin:record.rows[2].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Set four records winning the 2024 D1 meet",
+      "of": "cfe63386",
+      "at": [
+        "charlotte-latin:record.rows[3].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "First title of the window, won in a playoff",
+      "of": "2061318a",
+      "at": [
+        "charlotte-latin:record.rows[4].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "From rank 128 to rank 17 in three years — the best arc in the program",
+      "of": "b68e0345",
+      "at": [
+        "charlotte-latin:record.rows[5].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Lost the final 1–0 to top-seed Charlotte Country Day",
+      "of": "09ce9920",
+      "at": [
+        "charlotte-latin:record.rows[6].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "volleyball (North Raleigh Christian) · field hockey and girls tennis (Charlotte Country Day) · girls lacrosse, girls soccer, football and girls swimming (Providence Day) · boys basketball (Forsyth Country Day) · girls basketball (Cannon) · boys lacrosse, boys tennis, girls cross country and girls track (Durham Academy) · boys soccer, boys cross country and boys track (Christ School) · boys swimming (Cary Academy) · baseball (Charlotte Christian) · softball (Covenant Day).",
+      "of": "39cfe3a6",
+      "at": [
+        "charlotte-latin:record.didNotWin"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The clearest upward arc at the school: 13–11 and ranked 128th in NC, then 18–6 and 35th, then 29–2 and 17th with a state-final appearance — the 2025 team won 22 straight before its first loss, under Caitlin Peters.",
+      "of": "262faad1",
+      "at": [
+        "charlotte-latin:record.seasonDetail[0].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2024 champions with 250 points · 2025 runner-up by one point, 265.5 to 264.5, to Metrolina Christian · 2026 champions with 321 points, a 30–4 dual record and four individual titles.",
+      "of": "3ea59678",
+      "at": [
+        "charlotte-latin:record.seasonDetail[1].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Boys golf has won four straight NCISAA titles through 2026, and girls golf added a first title on a playoff hole in 2026. Golf is stroke-play scored, so no win–loss record exists for the school’s most successful current program.",
+      "of": "8a36356b",
+      "at": [
+        "charlotte-latin:record.seasonDetail[2].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "48 college commitments across 2024–26, 14 of them Division I — and a pipeline led by swimming and golf, not football.",
+      "of": "7accd704",
+      "at": [
+        "charlotte-latin:pipeline.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "That inverts the usual assumption about Latin: football has produced exactly one Division I commit across these three classes.",
+      "of": "c310cebc",
+      "at": [
+        "charlotte-latin:pipeline.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Twenty-nine of the 48 commitments — roughly 60% — are to NCAA Division III programs, heavily concentrated in academically selective conferences (NESCAC, UAA, ODAC, Centennial). Latin has no comprehensive alumni-in-college census; these 48 come from five published signing-day articles and may miss athletes who committed outside those events.",
+      "of": "aae03bc3",
+      "at": [
+        "charlotte-latin:pipeline.funnelNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Latin’s D1 pipeline is swimming- and golf-led. Football produced one D1 commit (Neil Salvage to South Carolina) in three classes, despite the program’s eleven historic state titles. For most Latin families the realistic outcome is a Division III place at an academically strong college — Washington & Lee, Emory, Tufts, Swarthmore and Case Western recur repeatedly on the signing lists.",
+      "of": "ed1015f2",
+      "at": [
+        "charlotte-latin:pipeline.realityCheck"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Wrestling supplies the genuine national credential: Spear Gorelick ’26 was a 2025 National Prep All-American and was pre-seeded No. 6 nationally at 150 lbs for the 2026 National Prep Championships, reaching 100 career wins before signing with Davidson. Freshman Jack Gilson also reached the national bracket at 138 lbs. In golf, Griffin Cheatwood was NCISAA medalist and Charlotte Observer Golfer of the Year; Aston Lee was CISAA Golfer of the Year. No Latin athlete currently appears in a 247Sports/On3/Rivals national top-100 for football or basketball.",
+      "of": "b61847b9",
+      "at": [
+        "charlotte-latin:pipeline.rankedRecruits"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Several Class of 2024 and 2025 signing-day announcements named the college but not the sport; those rows read \"Not published\" rather than being guessed at. Level labels and conferences were added by the researcher from each college’s NCAA status. P4 = SEC · Big Ten · ACC · Big 12.",
+      "of": "c0efd63e",
+      "at": [
+        "charlotte-latin:pipeline.rosterNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "An NFL starting quarterback, an NBA three-point record-holder, and an LPGA golfer — with an NC Mr. Basketball among them.",
+      "of": "62431043",
+      "at": [
+        "charlotte-latin:honors.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Latin’s Athletic Hall of Fame, established in 2014, now carries five induction classes.",
+      "of": "cd60d1be",
+      "at": [
+        "charlotte-latin:honors.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NFL · Class of '15",
+      "of": "3c48f5fc",
+      "at": [
+        "charlotte-latin:honors.pros[0].kicker"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Sixth overall pick in the 2019 NFL Draft and Duke’s career passing-yardage record holder. Re-signed with the Indianapolis Colts in March 2026 as their starting quarterback.",
+      "of": "8c7d5988",
+      "at": [
+        "charlotte-latin:honors.pros[0].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NBA · Class of '04",
+      "of": "478068a3",
+      "at": [
+        "charlotte-latin:honors.pros[1].kicker"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Undrafted in 2008, then scored 37 points in his first NBA start — a record for an undrafted rookie — and became the only rookie ever to win the NBA three-point percentage title. NC Mr. Basketball as a Latin senior.",
+      "of": "7987f835",
+      "at": [
+        "charlotte-latin:honors.pros[1].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NFL · Class of '00",
+      "of": "5346db9a",
+      "at": [
+        "charlotte-latin:honors.pros[2].kicker"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Two-time second-team All-ACC defensive lineman at Virginia. As a Latin senior he recorded 89 tackles and 7 sacks leading the Hawks to the 1999 NCISAA title.",
+      "of": "15d2b8a2",
+      "at": [
+        "charlotte-latin:honors.pros[2].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "LPGA Tour",
+      "of": "66baa541",
+      "at": [
+        "charlotte-latin:honors.pros[3].kicker"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Professional golfer on the LPGA Tour and a 2018 inductee into the Charlotte Latin Athletic Hall of Fame.",
+      "of": "70926163",
+      "at": [
+        "charlotte-latin:honors.pros[3].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NC Mr. Basketball",
+      "of": "61e58ab4",
+      "at": [
+        "charlotte-latin:honors.honors[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Anthony Morrow won it as a senior in 2004, along with three All-State selections, leading Latin to back-to-back state titles while averaging 22.4 points, 9.8 rebounds and 3.1 assists.",
+      "of": "ad378780",
+      "at": [
+        "charlotte-latin:honors.honors[0].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Statewide",
+      "of": "3a606a01",
+      "at": [
+        "charlotte-latin:honors.honors[0].tag",
+        "charlotte-christian:honors.honors[3].tag",
+        "charlotte-country-day:honors.honors[0].tag",
+        "cannon:honors.honors[2].tag",
+        "davidson-day:honors.honors[1].tag",
+        "davidson-day:honors.honors[3].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "National Prep All-American",
+      "of": "8b807e06",
+      "at": [
+        "charlotte-latin:honors.honors[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Spear Gorelick earned wrestling All-American honors at the 2025 National Prep Tournament, and three Hawks — Davis Jones, Liam McConaughy and Banks Cutter — each won three consecutive individual NCISAA state titles from 2024 to 2026.",
+      "of": "966c980b",
+      "at": [
+        "charlotte-latin:honors.honors[1].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "National",
+      "of": "746c84f7",
+      "at": [
+        "charlotte-latin:honors.honors[1].tag",
+        "charlotte-christian:honors.honors[2].tag",
+        "charlotte-country-day:honors.honors[1].tag",
+        "charlotte-country-day:honors.honors[2].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Coach of the Year honors",
+      "of": "c7942697",
+      "at": [
+        "charlotte-latin:honors.honors[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "David Paige was named 2026 NCISAA Wrestling Coach of the Year, the first from the association. Chris Berger has won Charlotte Observer Boys’ Golf Coach of the Year four consecutive years through 2026.",
+      "of": "eb861f6f",
+      "at": [
+        "charlotte-latin:honors.honors[2].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Wells Fargo Cups",
+      "of": "a37e6596",
+      "at": [
+        "charlotte-latin:honors.honors[3].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Seventeen NCISAA Wells Fargo Cups for overall program excellence, most recently in 2019 — including eight consecutive under athletic director Jimmy Broadway.",
+      "of": "77483133",
+      "at": [
+        "charlotte-latin:honors.honors[3].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Program-wide",
+      "of": "9ae09f15",
+      "at": [
+        "charlotte-latin:honors.honors[3].tag",
+        "davidson-day:honors.honors[2].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Athletic Hall of Fame",
+      "of": "9e2243cc",
+      "at": [
+        "charlotte-latin:honors.honors[4].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Established 2014. Inductees include Daniel Jones and Claudia Dickey (2024), Chris Canty (2022), coaches Larry McNulty and Suzie Pignetti (2020), and Anthony Morrow in the inaugural class.",
+      "of": "47709529",
+      "at": [
+        "charlotte-latin:honors.honors[4].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A ten-year NFL fullback on the football staff and a 32-year Latin lifer running two varsity programs.",
+      "of": "3ccd8d3d",
+      "at": [
+        "charlotte-latin:coaching.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Athletic Director: David Gatoux, in the role since 2012 and current president of the CISAA.",
+      "of": "a0db7ed9",
+      "at": [
+        "charlotte-latin:coaching.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The pedigree hire · Associate Head Football Coach, since 2023",
+      "of": "c991d86e",
+      "at": [
+        "charlotte-latin:coaching.featured[0].kicker"
+      ],
+      "t": ""
+    },
+    {
+      "text": "10 yrs",
+      "of": "24e5f95c",
+      "at": [
+        "charlotte-latin:coaching.featured[0].stats[0].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NFL fullback, Carolina Panthers",
+      "of": "f4c44cc7",
+      "at": [
+        "charlotte-latin:coaching.featured[0].stats[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2000–10",
+      "of": "fc8dac55",
+      "at": [
+        "charlotte-latin:coaching.featured[0].stats[1].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "his full professional playing career",
+      "of": "350a80b1",
+      "at": [
+        "charlotte-latin:coaching.featured[0].stats[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2015–20",
+      "of": "92656518",
+      "at": [
+        "charlotte-latin:coaching.featured[0].stats[2].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "head of program at Cannon School",
+      "of": "efae3a92",
+      "at": [
+        "charlotte-latin:coaching.featured[0].stats[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "One of the most recognizable former professional athletes coaching in Charlotte-area high school sports. Hoover played a full decade in the NFL for the Panthers, then led Cannon School’s program for six years before joining Latin in 2023. He also serves as Middle School baseball head coach and a PE teacher — a pro pedigree embedded in the daily life of the school rather than a figurehead appointment.",
+      "of": "179f642c",
+      "at": [
+        "charlotte-latin:coaching.featured[0].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The continuity anchor · Basketball & Golf, since 1994",
+      "of": "49626ca0",
+      "at": [
+        "charlotte-latin:coaching.featured[1].kicker"
+      ],
+      "t": ""
+    },
+    {
+      "text": "32 yrs",
+      "of": "d06d5918",
+      "at": [
+        "charlotte-latin:coaching.featured[1].stats[0].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "at Charlotte Latin — and a Latin alum",
+      "of": "f6e4963d",
+      "at": [
+        "charlotte-latin:coaching.featured[1].stats[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "4",
+      "of": "310ca263",
+      "at": [
+        "charlotte-latin:coaching.featured[1].stats[1].value",
+        "cannon:coaching.featured[1].stats[0].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "straight NCISAA boys golf titles, 2023–26",
+      "of": "23279bd2",
+      "at": [
+        "charlotte-latin:coaching.featured[1].stats[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "4×",
+      "of": "eae4215c",
+      "at": [
+        "charlotte-latin:coaching.featured[1].stats[2].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Observer Boys’ Golf Coach of the Year",
+      "of": "ae2c536a",
+      "at": [
+        "charlotte-latin:coaching.featured[1].stats[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A Latin graduate who was All-Conference and All-State as a student, played at Queens University, and returned in 1994 as Jerry Faulkner’s varsity assistant. He ran JV for a decade before taking over boys basketball in 2009 and golf in 2014, and now heads two varsity programs while serving as Assistant AD for Equipment and Grounds — an unbroken coaching lineage from Faulkner’s 515–157 era to today.",
+      "of": "8c559063",
+      "at": [
+        "charlotte-latin:coaching.featured[1].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Middle School AD — girls basketball 1995–2005",
+      "of": "79b7b941",
+      "at": [
+        "charlotte-latin:coaching.tenure[0].role"
+      ],
+      "t": ""
+    },
+    {
+      "text": "since 1993",
+      "of": "30693861",
+      "at": [
+        "charlotte-latin:coaching.tenure[0].since"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Boys Basketball · Boys Golf",
+      "of": "e531a1e5",
+      "at": [
+        "charlotte-latin:coaching.tenure[1].role"
+      ],
+      "t": ""
+    },
+    {
+      "text": "since 1994",
+      "of": "316939f4",
+      "at": [
+        "charlotte-latin:coaching.tenure[1].since"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Girls Golf · Asst. AD Sports Medicine",
+      "of": "1ee9db4e",
+      "at": [
+        "charlotte-latin:coaching.tenure[2].role"
+      ],
+      "t": ""
+    },
+    {
+      "text": "since 2007",
+      "of": "5d010a90",
+      "at": [
+        "charlotte-latin:coaching.tenure[2].since"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Director of Athletics",
+      "of": "855ff0ff",
+      "at": [
+        "charlotte-latin:coaching.tenure[3].role",
+        "charlotte-country-day:coaching.tenure[3].role",
+        "cannon:coaching.tenure[0].role",
+        "davidson-day:coaching.tenure[2].role"
+      ],
+      "t": ""
+    },
+    {
+      "text": "since 2012",
+      "of": "dffe0732",
+      "at": [
+        "charlotte-latin:coaching.tenure[3].since"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Wrestling · Director of S&C",
+      "of": "ca96b016",
+      "at": [
+        "charlotte-latin:coaching.tenure[4].role"
+      ],
+      "t": ""
+    },
+    {
+      "text": "head coach 2016",
+      "of": "1e41399e",
+      "at": [
+        "charlotte-latin:coaching.tenure[4].since"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Swimming · Asst. AD Sports Information",
+      "of": "5ab45fb0",
+      "at": [
+        "charlotte-latin:coaching.tenure[5].role"
+      ],
+      "t": ""
+    },
+    {
+      "text": "since 2016",
+      "of": "dbfe00e6",
+      "at": [
+        "charlotte-latin:coaching.tenure[5].since"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Volleyball — 29–2 in 2025–26",
+      "of": "e29a80fa",
+      "at": [
+        "charlotte-latin:coaching.tenure[6].role"
+      ],
+      "t": ""
+    },
+    {
+      "text": "since 2018",
+      "of": "e5fe10a4",
+      "at": [
+        "charlotte-latin:coaching.tenure[6].since"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Football",
+      "of": "5f6d2198",
+      "at": [
+        "charlotte-latin:coaching.tenure[7].role"
+      ],
+      "t": ""
+    },
+    {
+      "text": "head coach 2023",
+      "of": "9348ad92",
+      "at": [
+        "charlotte-latin:coaching.tenure[7].since"
+      ],
+      "t": ""
+    },
+    {
+      "text": "head coach 2024",
+      "of": "8e48a5b3",
+      "at": [
+        "charlotte-latin:coaching.tenure[8].since"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Latin’s strength & conditioning department is four people deep — and every one of them also runs a varsity program (Paige/wrestling, Mack/girls basketball, Peters/volleyball, Dayton/football), so strength programming is delivered by the same coaches who run the teams. Volleyball coach Caitlin Peters played twelve years professionally, finishing her final season left-handed after shoulder injuries; girls basketball coach Giavonni Mack played professionally in Istanbul.",
+      "of": "91bad175",
+      "at": [
+        "charlotte-latin:coaching.worthKnowing"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A 128-acre campus — the largest of any Charlotte-area independent school — with three gymnasiums, nine tennis courts and seven playing fields.",
+      "of": "dbdee1ff",
+      "at": [
+        "charlotte-latin:facilities.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Three certified athletic trainers and two treatment centers, run in-house rather than through a hospital system.",
+      "of": "87a5b872",
+      "at": [
+        "charlotte-latin:facilities.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "1,450 seats, 1974",
+      "of": "1a1c740a",
+      "at": [
+        "charlotte-latin:facilities.photos[0].meta"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Football and soccer field with an all-weather outdoor track, named for longtime coach and Dean of Students Bob Patten",
+      "of": "7b6d11cc",
+      "at": [
+        "charlotte-latin:facilities.photos[0].caption"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Photo: Charlotte Latin School",
+      "of": "0f7b8c87",
+      "at": [
+        "charlotte-latin:facilities.photos[0].credit",
+        "charlotte-latin:facilities.photos[1].credit",
+        "charlotte-latin:facilities.photos[2].credit"
+      ],
+      "t": ""
+    },
+    {
+      "text": "50,000 sq ft, 2001",
+      "of": "9cb5df4b",
+      "at": [
+        "charlotte-latin:facilities.photos[1].meta"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Arena, indoor track, wrestling room, coaches’ offices and training facilities",
+      "of": "6a5a754c",
+      "at": [
+        "charlotte-latin:facilities.photos[1].caption"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Dedicated weight-training facility, staffed by four coaches who each also run a varsity program",
+      "of": "84c3b9e2",
+      "at": [
+        "charlotte-latin:facilities.photos[2].caption"
+      ],
+      "t": ""
+    },
+    {
+      "text": "the original 1973 gym; three gyms on campus",
+      "of": "a9bcc23b",
+      "at": [
+        "charlotte-latin:facilities.venues[0].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "50m × 25yd — owned by SwimMAC, not the school",
+      "of": "4c2be879",
+      "at": [
+        "charlotte-latin:facilities.venues[1].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "nine courts",
+      "of": "620ea0bb",
+      "at": [
+        "charlotte-latin:facilities.venues[2].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "seven fields, three of them turf",
+      "of": "9498bbeb",
+      "at": [
+        "charlotte-latin:facilities.venues[3].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "cardio, strength and rehabilitation",
+      "of": "0f4f359c",
+      "at": [
+        "charlotte-latin:facilities.venues[4].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "on-campus course, South Campus",
+      "of": "dc289439",
+      "at": [
+        "charlotte-latin:facilities.venues[5].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "dedicated, with a coaches’ pavilion",
+      "of": "6da97542",
+      "at": [
+        "charlotte-latin:facilities.venues[6].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Events stream on BoxCast and the NFHS Network, both home and away, with student broadcasters providing live commentary alongside media-production staff. Ticketing runs through GoFan. Angel Trimble serves as Assistant AD for Sports Information — and as head swimming coach.",
+      "of": "a62cac97",
+      "at": [
+        "charlotte-latin:facilities.broadcast"
+      ],
+      "t": ""
+    },
+    {
+      "text": "3 certified — Andy Russo (head, joined 2024, from College of Charleston), Kristin Edwards, and Cheri Pratt, at Latin since 2001",
+      "of": "13286a57",
+      "at": [
+        "charlotte-latin:facilities.care[0].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Treatment centers",
+      "of": "c044acc9",
+      "at": [
+        "charlotte-latin:facilities.care[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Two sports-medicine treatment centers on campus, plus an athletic training room in the Beck SAC",
+      "of": "1519fb91",
+      "at": [
+        "charlotte-latin:facilities.care[1].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Not published. No Atrium or Novant partnership was found — the model appears to be in-house, but this is an absence of evidence rather than a stated policy",
+      "of": "c48f4207",
+      "at": [
+        "charlotte-latin:facilities.care[2].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "4 coaches led by David Paige, a certified S&C coach who also heads wrestling — unusually deep for a high school",
+      "of": "2b2149c6",
+      "at": [
+        "charlotte-latin:facilities.care[3].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Concussion protocol",
+      "of": "f70c8b0b",
+      "at": [
+        "charlotte-latin:facilities.care[4].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Not published as a policy document — a genuine gap, unlike its CISAA peers who publish theirs",
+      "of": "240a5172",
+      "at": [
+        "charlotte-latin:facilities.care[4].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Worth probing on a tour: Latin publishes no team physician, hospital partnership or concussion protocol, where Charlotte Country Day names OrthoCarolina, Cannon names Novant, Charlotte Christian names Atrium and Providence Day details a full in-house model. The pool is also owned and operated by SwimMAC Carolina, a third-party club, not the school.",
+      "of": "fd6d763d",
+      "at": [
+        "charlotte-latin:facilities.careNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "22 sports and more than 50 teams, with over 80% of students in grades 7–12 playing.",
+      "of": "15d03144",
+      "at": [
+        "charlotte-christian:offered.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Forty-three state championships across seven different sports — a record concentrated heavily in baseball and football.",
+      "of": "933fa558",
+      "at": [
+        "charlotte-christian:offered.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "sports for boys and girls",
+      "of": "0c390f5e",
+      "at": [
+        "charlotte-christian:offered.stats[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "of grades 7–12 participate",
+      "of": "0bd99b95",
+      "at": [
+        "charlotte-christian:offered.stats[2].label",
+        "charlotte-country-day:offered.stats[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "state titles in 7 sports",
+      "of": "3efb8d68",
+      "at": [
+        "charlotte-christian:offered.stats[3].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The school’s published figure of 22 sports counts boys’ and girls’ editions separately and includes girls’ golf, which is not on the current live teams page. Charlotte Christian competes in NCISAA 4A and the CISAA; its Head of School, Barry Giller, is president of the NCISAA Board of Directors.",
+      "of": "f56e062d",
+      "at": [
+        "charlotte-christian:offered.footnote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Eighteen baseball state championships — the deepest single-sport dynasty in the Charlotte private-school field — capped by a 28–7 title run in 2026.",
+      "of": "96c5e290",
+      "at": [
+        "charlotte-christian:record.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Football supplies the second pillar with nine titles, though Providence Day has ended the Knights’ season in each of the last three years.",
+      "of": "dede97bc",
+      "at": [
+        "charlotte-christian:record.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "18th baseball title; beat Metrolina Christian in the series",
+      "of": "6b4fd164",
+      "at": [
+        "charlotte-christian:record.rows[0].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Lost the final 6–42 to Providence Day; beat Rabun Gap in the semi",
+      "of": "4a570d16",
+      "at": [
+        "charlotte-christian:record.rows[1].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Swept Charlotte Latin for the 2025 D1 title",
+      "of": "06d2440c",
+      "at": [
+        "charlotte-christian:record.rows[2].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Christ School took the 2026 D1 title",
+      "of": "18c4fd9b",
+      "at": [
+        "charlotte-christian:record.rows[3].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Best finish in program history; Max McNeer won at 175 lbs",
+      "of": "d9dff81b",
+      "at": [
+        "charlotte-christian:record.rows[4].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Second-round exit in 2026 after a 10-win improvement",
+      "of": "cf1e144c",
+      "at": [
+        "charlotte-christian:record.rows[5].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "football, girls soccer, girls lacrosse and girls swimming (Providence Day) · boys basketball (Forsyth Country Day) · girls basketball (Cannon) · softball (Covenant Day) · wrestling and both golf titles (Charlotte Latin) · girls tennis and field hockey (Charlotte Country Day) · volleyball (North Raleigh Christian) · boys soccer and both boys distance titles (Christ School) · boys lacrosse, boys tennis and girls track (Durham Academy).",
+      "of": "cfd30dba",
+      "at": [
+        "charlotte-christian:record.didNotWin"
+      ],
+      "t": ""
+    },
+    {
+      "text": "'25–26",
+      "of": "781f5d28",
+      "at": [
+        "charlotte-christian:record.bars[0].tag",
+        "charlotte-country-day:record.bars[0].tag",
+        "charlotte-country-day:record.bars[1].tag",
+        "charlotte-country-day:record.bars[2].tag",
+        "charlotte-country-day:record.bars[3].tag",
+        "charlotte-country-day:record.bars[4].tag",
+        "charlotte-country-day:record.bars[5].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2007–22",
+      "of": "61b38997",
+      "at": [
+        "charlotte-christian:record.bars[1].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2 YRS",
+      "of": "1cc4d7d9",
+      "at": [
+        "charlotte-christian:record.bars[2].tag",
+        "charlotte-christian:record.bars[4].tag",
+        "cannon:record.bars[3].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2023–25",
+      "of": "57be0648",
+      "at": [
+        "charlotte-christian:record.bars[3].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The 2026 NCISAA 4A championship over Metrolina Christian was the program’s 18th state title and lifted the school’s all-time total to 43. Head coach Reid Fronk is a 2004 Charlotte Christian graduate who played in the Tampa Bay Rays organization.",
+      "of": "c03ac719",
+      "at": [
+        "charlotte-christian:record.seasonDetail[0].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Providence Day has ended the Knights’ season three years running — playoff losses in 2023 and 2024, then the 2025 state final, 42–6. The run to that final included a 55–48 win over Rabun Gap-Nacoochee, the Georgia program that had beaten Providence Day for the 2024 title.",
+      "of": "ec24986f",
+      "at": [
+        "charlotte-christian:record.seasonDetail[1].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2026 produced the best team finish in program history — runner-up with 199.5 points — with Max McNeer winning the 175 lb state title and three more Knights placing.",
+      "of": "d52dceaf",
+      "at": [
+        "charlotte-christian:record.seasonDetail[2].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "38 college commitments across the classes of 2024 and 2025, 26 of them Division I and 8 Power 4.",
+      "of": "586f6149",
+      "at": [
+        "charlotte-christian:pipeline.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "More than 100 Division I signees across the 2014–2025 classes — one of the deepest sustained pipelines in the Charlotte private-school field.",
+      "of": "2b3f1ffc",
+      "at": [
+        "charlotte-christian:pipeline.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "(all divisions, '24–'25)",
+      "of": "cdac4cf1",
+      "at": [
+        "charlotte-christian:pipeline.funnel[0].hint"
+      ],
+      "t": ""
+    },
+    {
+      "text": "These totals cover the classes of 2024 and 2025 only — the school’s published \"Knights in College\" roster stops there, and no Class of 2026 list exists as of July 2026. The true three-class figure is therefore higher. At 68%, the Division I share of commitments is the highest of any school in this comparison.",
+      "of": "cfc24ba9",
+      "at": [
+        "charlotte-christian:pipeline.funnelNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Football is the volume engine at nine Division I commits, but the Power 4 placements are spread unusually wide — wrestling to NC State, softball to Florida State, lacrosse to Penn State and track to Kentucky each produced a P4 signee from a single athlete. Charlotte Christian converts across many sports rather than concentrating in one.",
+      "of": "0e06705b",
+      "at": [
+        "charlotte-christian:pipeline.realityCheck"
+      ],
+      "t": ""
+    },
+    {
+      "text": "No top-100 national recruit is confirmed in the 2024–2026 classes; L.J. Porter appears among 247Sports’ 2026 North Carolina football recruits, though his numeric rank is not published. The instructive case is the inverse: Stephen Curry left in 2006 with no major-conference scholarship offer and 31 point guards ranked ahead of him, and Virginia Tech — his father’s alma mater — offered only a walk-on spot.",
+      "of": "bf1f8622",
+      "at": [
+        "charlotte-christian:pipeline.rankedRecruits"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The Class of 2026 is not represented: the school publishes no 2026 commitment list as of July 2026, so every figure here is a floor for the three-class window. Level labels and conferences were added by the researcher from each college’s NCAA status.",
+      "of": "9d85e00c",
+      "at": [
+        "charlotte-christian:pipeline.rosterNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Stephen Curry — four-time NBA champion, two-time MVP and the league’s all-time three-point leader — leads a ledger of 35 professional alumni.",
+      "of": "5a154ef9",
+      "at": [
+        "charlotte-christian:honors.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Charlotte Christian retired his No. 20 in the same small gym where he played, on January 24, 2017.",
+      "of": "4940e856",
+      "at": [
+        "charlotte-christian:honors.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NBA · Class of '06",
+      "of": "49806bc9",
+      "at": [
+        "charlotte-christian:honors.pros[0].kicker"
+      ],
+      "t": ""
+    },
+    {
+      "text": "4× NBA champion, 2× MVP — the first unanimous winner — 12× All-Star, the NBA’s all-time three-point leader, and a 2024 Olympic gold medallist. He left Charlotte Christian as its all-time leading scorer with no major-conference offer.",
+      "of": "b720decf",
+      "at": [
+        "charlotte-christian:honors.pros[0].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NFL · Class of '14",
+      "of": "3d48f78f",
+      "at": [
+        "charlotte-christian:honors.pros[1].kicker",
+        "davidson-day:honors.pros[1].kicker"
+      ],
+      "t": ""
+    },
+    {
+      "text": "First-round pick, 18th overall in 2019, and a long-time starting NFL center after an All-American career at NC State.",
+      "of": "7786e6df",
+      "at": [
+        "charlotte-christian:honors.pros[1].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "MLB · Class of '03",
+      "of": "7eca4650",
+      "at": [
+        "charlotte-christian:honors.pros[2].kicker"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Major League reliever for the Red Sox and Rockies, and the 2003 NC Gatorade Player of the Year in baseball. His brother Luke ’09 also reached the majors.",
+      "of": "e347c28a",
+      "at": [
+        "charlotte-christian:honors.pros[2].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NBA · Class of '08",
+      "of": "53807b87",
+      "at": [
+        "charlotte-christian:honors.pros[3].kicker"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A decade-plus NBA guard and one of the league’s most accurate three-point shooters, now with the Charlotte Hornets.",
+      "of": "09902eac",
+      "at": [
+        "charlotte-christian:honors.pros[3].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Two confirmed — Daniel Bard (baseball, 2003) and Clint Irwin (boys soccer, 2006). Irwin went on to a long MLS goalkeeping career.",
+      "of": "062eae87",
+      "at": [
+        "charlotte-christian:honors.honors[0].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Retired jersey",
+      "of": "c1a52f6e",
+      "at": [
+        "charlotte-christian:honors.honors[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Stephen Curry’s No. 20 was retired on January 24, 2017 in the Lamb/Johnson Gymnasium during a game against Covenant Day; Davidson renamed its student section for him the same day.",
+      "of": "232510e9",
+      "at": [
+        "charlotte-christian:honors.honors[1].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Strength of America Award",
+      "of": "a4ad66f4",
+      "at": [
+        "charlotte-christian:honors.honors[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The Athletic Performance program is a four-time NSCA Strength of America Award recipient and has produced more than ten Strength & Conditioning All-Americans since 2022.",
+      "of": "987ef2f3",
+      "at": [
+        "charlotte-christian:honors.honors[2].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2026 all-state selections",
+      "of": "1e7992bf",
+      "at": [
+        "charlotte-christian:honors.honors[3].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Ten Knights earned NCISAA all-state honors across baseball (four), boys and girls lacrosse, girls soccer, softball and boys tennis. Max McNeer won the 175 lb state wrestling title.",
+      "of": "e92a3e75",
+      "at": [
+        "charlotte-christian:honors.honors[3].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Coaching honors",
+      "of": "ed5177ec",
+      "at": [
+        "charlotte-christian:honors.honors[4].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Jason Estep won NCSAA Coach of the Year twice and multiple Carolina Panthers Coach of the Week awards across a 138–42 run; the stadium field now bears his name.",
+      "of": "9a505acc",
+      "at": [
+        "charlotte-christian:honors.honors[4].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Both marquee coaching seats turned over inside twelve months — a 25-year basketball tenure ended, and a former NFL receiver took over football.",
+      "of": "c55d8ef8",
+      "at": [
+        "charlotte-christian:coaching.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Athletic Director: Andrew Ross. Head of School Barry Giller is president of the NCISAA Board of Directors.",
+      "of": "3805421a",
+      "at": [
+        "charlotte-christian:coaching.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The pedigree hire · Football, since April 2026",
+      "of": "ebe4d9ff",
+      "at": [
+        "charlotte-christian:coaching.featured[0].kicker"
+      ],
+      "t": ""
+    },
+    {
+      "text": "49–21",
+      "of": "aea2b37a",
+      "at": [
+        "charlotte-christian:coaching.featured[0].stats[0].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "as head coach at Forest Hills, 2020–26",
+      "of": "c95c620e",
+      "at": [
+        "charlotte-christian:coaching.featured[0].stats[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2,348",
+      "of": "cd31e2f4",
+      "at": [
+        "charlotte-christian:coaching.featured[0].stats[1].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "receiving yards at Wake Forest",
+      "of": "2b6d00dc",
+      "at": [
+        "charlotte-christian:coaching.featured[0].stats[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "D-II",
+      "of": "3e22ea20",
+      "at": [
+        "charlotte-christian:coaching.featured[0].stats[2].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "national champion as a coordinator",
+      "of": "882ea5cf",
+      "at": [
+        "charlotte-christian:coaching.featured[0].stats[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A Wake Forest star receiver with 184 career catches who played professionally for the Washington Redskins and in the Arena and indoor leagues. He was offensive coordinator at West Florida for its NCAA Division II national title, then went 49–21 at Forest Hills with two fourth-round playoff runs, the school’s first winning season since 2015, and 2025 Union County Coach of the Year. The most credentialed outside hire in the department’s recent history.",
+      "of": "c702244b",
+      "at": [
+        "charlotte-christian:coaching.featured[0].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The tenure that just ended · Boys Basketball, 2000–2025",
+      "of": "3f0ed71f",
+      "at": [
+        "charlotte-christian:coaching.featured[1].kicker"
+      ],
+      "t": ""
+    },
+    {
+      "text": "486",
+      "of": "20444a55",
+      "at": [
+        "charlotte-christian:coaching.featured[1].stats[0].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "wins across 25 seasons",
+      "of": "6615e13a",
+      "at": [
+        "charlotte-christian:coaching.featured[1].stats[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "10",
+      "of": "1beb2a44",
+      "at": [
+        "charlotte-christian:coaching.featured[1].stats[1].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "CISAA conference championships",
+      "of": "a5a83e88",
+      "at": [
+        "charlotte-christian:coaching.featured[1].stats[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "33",
+      "of": "86f04fe3",
+      "at": [
+        "charlotte-christian:coaching.featured[1].stats[2].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "players sent to college basketball",
+      "of": "e274390e",
+      "at": [
+        "charlotte-christian:coaching.featured[1].stats[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The defining tenure in school athletic history — and it closed in April 2025. Brown coached Stephen Curry, Seth Curry and Anthony Gill, sending ten players to the professional ranks, while serving as Upper School Principal from 2017. He stepped down at 51 citing the strain of the dual role, and remains Principal today. Luke Boythe, a 1998 graduate and former player who twice served as Brown’s assistant, succeeded him.",
+      "of": "9c3416ce",
+      "at": [
+        "charlotte-christian:coaching.featured[1].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Boys Basketball — now Upper School Principal",
+      "of": "6c373db5",
+      "at": [
+        "charlotte-christian:coaching.tenure[0].role"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2000–2025",
+      "of": "c55eff23",
+      "at": [
+        "charlotte-christian:coaching.tenure[0].since"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Football — Estep Field is named for him",
+      "of": "e45d4023",
+      "at": [
+        "charlotte-christian:coaching.tenure[1].role"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2007–2022",
+      "of": "dabee8fd",
+      "at": [
+        "charlotte-christian:coaching.tenure[1].since"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Baseball — won the '26 state title",
+      "of": "7617371c",
+      "at": [
+        "charlotte-christian:coaching.tenure[2].role"
+      ],
+      "t": ""
+    },
+    {
+      "text": "since 2023",
+      "of": "7105a73a",
+      "at": [
+        "charlotte-christian:coaching.tenure[2].since"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Director of Athletic Performance",
+      "of": "ed0c8944",
+      "at": [
+        "charlotte-christian:coaching.tenure[3].role"
+      ],
+      "t": ""
+    },
+    {
+      "text": "since 2024",
+      "of": "6c059f5b",
+      "at": [
+        "charlotte-christian:coaching.tenure[3].since",
+        "cannon:coaching.tenure[4].since",
+        "cannon:coaching.tenure[5].since"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Boys Basketball — CCS ’98 alum",
+      "of": "20052c0b",
+      "at": [
+        "charlotte-christian:coaching.tenure[4].role"
+      ],
+      "t": ""
+    },
+    {
+      "text": "since 2025",
+      "of": "6b059dc8",
+      "at": [
+        "charlotte-christian:coaching.tenure[4].since",
+        "cannon:coaching.tenure[6].since",
+        "davidson-day:coaching.tenure[3].since",
+        "davidson-day:coaching.tenure[4].since",
+        "davidson-day:coaching.tenure[5].since"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Football · Director of Football Ops",
+      "of": "ce308c01",
+      "at": [
+        "charlotte-christian:coaching.tenure[5].role"
+      ],
+      "t": ""
+    },
+    {
+      "text": "since 2026",
+      "of": "6e05a281",
+      "at": [
+        "charlotte-christian:coaching.tenure[5].since",
+        "charlotte-country-day:coaching.tenure[4].since",
+        "charlotte-country-day:coaching.tenure[5].since",
+        "charlotte-country-day:coaching.tenure[6].since"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Softball — won the '25 state title",
+      "of": "14128614",
+      "at": [
+        "charlotte-christian:coaching.tenure[6].role"
+      ],
+      "t": ""
+    },
+    {
+      "text": "the school does not publish coach names for roughly fifteen of its sports, so this ledger covers only the programs with documented leadership. Baseball’s Reid Fronk is a 2004 graduate who pitched in the Tampa Bay Rays organization before returning to win the 2026 state title, and the late Greg Simmons — who built the 17-title baseball dynasty and died in 2023 — has the baseball field named for him.",
+      "of": "1659cae6",
+      "at": [
+        "charlotte-christian:coaching.worthKnowing"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A 53,000 sq ft athletic center broke ground in November 2025, joining a 5,400 sq ft weight room and the small gym where Stephen Curry played.",
+      "of": "d631c24a",
+      "at": [
+        "charlotte-christian:facilities.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Care is a hybrid model: two in-house athletic trainers plus a third embedded through a partnership with Atrium Health.",
+      "of": "50d3a5f6",
+      "at": [
+        "charlotte-christian:facilities.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "renamed 2025",
+      "of": "5208db50",
+      "at": [
+        "charlotte-christian:facilities.photos[0].meta"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The stadium field, named for Jason Estep after his 138–42 run; resurfaced with synthetic turf and a new track",
+      "of": "f7c87f85",
+      "at": [
+        "charlotte-christian:facilities.photos[0].caption"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Photo: Charlotte Christian School",
+      "of": "b4dee894",
+      "at": [
+        "charlotte-christian:facilities.photos[0].credit",
+        "charlotte-christian:facilities.photos[1].credit",
+        "charlotte-christian:facilities.photos[2].credit"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The gym where Stephen Curry played — cinder-block walls, limited bleachers, and his retired No. 20 on the north wall",
+      "of": "78578086",
+      "at": [
+        "charlotte-christian:facilities.photos[1].caption"
+      ],
+      "t": ""
+    },
+    {
+      "text": "5,400 sq ft",
+      "of": "47e9e66a",
+      "at": [
+        "charlotte-christian:facilities.photos[2].meta"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Eight powerlift racks and Olympic platforms, periodized by season",
+      "of": "588ced57",
+      "at": [
+        "charlotte-christian:facilities.photos[2].caption"
+      ],
+      "t": ""
+    },
+    {
+      "text": "53,000+ sq ft — broke ground Nov 2025",
+      "of": "e4e6ada6",
+      "at": [
+        "charlotte-christian:facilities.venues[0].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2012 expansion, double-court space",
+      "of": "afe473dc",
+      "at": [
+        "charlotte-christian:facilities.venues[1].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "7,800 sq ft — offices, locker rooms",
+      "of": "7a03bb91",
+      "at": [
+        "charlotte-christian:facilities.venues[2].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "opened Nov 2022; eight courts",
+      "of": "0e8a9c9d",
+      "at": [
+        "charlotte-christian:facilities.venues[3].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "artificial turf, opened Nov 2022",
+      "of": "4817ab24",
+      "at": [
+        "charlotte-christian:facilities.venues[4].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "named for the 17-title coach",
+      "of": "323d1c0f",
+      "at": [
+        "charlotte-christian:facilities.venues[5].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "on-campus pool",
+      "of": "640ce094",
+      "at": [
+        "charlotte-christian:facilities.venues[6].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "indoor cages",
+      "of": "64c38fff",
+      "at": [
+        "charlotte-christian:facilities.venues[7].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Events stream on the school’s YouTube channel, with NCISAA events also on the NFHS Network, and tickets run through HomeTown Fan. Notably, the school charges admission only for varsity football, varsity basketball and NCISAA playoff events — every other contest is free. Football uses Division I-grade wireless sideline communications.",
+      "of": "b39841d5",
+      "at": [
+        "charlotte-christian:facilities.broadcast"
+      ],
+      "t": ""
+    },
+    {
+      "text": "3 — Dr. Kaitlynn Seymour (head, DPT Emory, formerly head football AT at Coastal Carolina), Madison Sitton, and Victor Jurkiewicz",
+      "of": "aecb4e99",
+      "at": [
+        "charlotte-christian:facilities.care[0].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Hospital partnership",
+      "of": "eada3117",
+      "at": [
+        "charlotte-christian:facilities.care[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Atrium Health embeds an athletic trainer on campus during the school day and at after-school events; required forms include an Atrium request for treatment",
+      "of": "e9b6e1c3",
+      "at": [
+        "charlotte-christian:facilities.care[1].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Not named publicly — the Atrium partnership is confirmed, the individual physician is not",
+      "of": "e0ae87c2",
+      "at": [
+        "charlotte-christian:facilities.care[2].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Evidence-based assessment, individualized rehabilitation, functional testing and physician clearance before return to play",
+      "of": "bc9788aa",
+      "at": [
+        "charlotte-christian:facilities.care[3].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "3 — Kyle Jacksic (director, previously Clemson, Davidson and Buffalo), Cami Roy and Morgan Carter, a registered nurse",
+      "of": "7209a661",
+      "at": [
+        "charlotte-christian:facilities.care[4].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "4× NSCA Strength of America Award; 10+ Strength & Conditioning All-Americans since 2022; 80+ collegiate athletes in five years",
+      "of": "c8cd05ba",
+      "at": [
+        "charlotte-christian:facilities.care[5].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The hybrid model is the thing to probe on a tour: two employed trainers plus an Atrium-provided third sits between Providence Day’s fully in-house staff and Cannon’s fully outsourced Novant arrangement. Seating capacities are not published for any Charlotte Christian venue.",
+      "of": "ad7551b2",
+      "at": [
+        "charlotte-christian:facilities.careNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "72 teams across 26 sports, with about 85% of students in grades 7–12 playing — and 155 state championships all-time.",
+      "of": "26d912d0",
+      "at": [
+        "charlotte-country-day:offered.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A 130-person athletics staff supports the broadest participation rate in the Charlotte private-school field.",
+      "of": "e6aedcfb",
+      "at": [
+        "charlotte-country-day:offered.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "state titles all-time",
+      "of": "cc7d0ff4",
+      "at": [
+        "charlotte-country-day:offered.stats[3].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Middle School splits several sports into Green and White squads. The published \"72 teams / 26 sports\" figure counts boys’ and girls’ programs separately; enumerating the team directory yields roughly 65 — a counting convention difference, and both figures are the school’s own. Country Day runs two campuses: Cannon (Upper/Lower School and main athletics) and Bissell (Middle School).",
+      "of": "c569cc89",
+      "at": [
+        "charlotte-country-day:offered.footnote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Girls tennis has won four straight NCISAA titles, and field hockey took its 16th — but the girls swimming dynasty ended in 2026.",
+      "of": "2120891c",
+      "at": [
+        "charlotte-country-day:record.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Country Day won four state titles in each of 2023–24 and 2024–25, then two in 2025–26 with two more runner-up finishes.",
+      "of": "88c4609f",
+      "at": [
+        "charlotte-country-day:record.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Four-peat, beating Durham Academy in the 2026 final",
+      "of": "bd0ba0b9",
+      "at": [
+        "charlotte-country-day:record.rows[0].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "16th title; beat Charlotte Latin 1–0, avenging its only loss",
+      "of": "72faa0b9",
+      "at": [
+        "charlotte-country-day:record.rows[1].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Two-year reign ended by Providence Day, 420–328",
+      "of": "c2112c3a",
+      "at": [
+        "charlotte-country-day:record.rows[2].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Durham Academy took the 2026 title",
+      "of": "89e6d2f8",
+      "at": [
+        "charlotte-country-day:record.rows[3].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "CISAA conference champions in 2026",
+      "of": "6323c581",
+      "at": [
+        "charlotte-country-day:record.rows[4].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Lost 6–5 in overtime to Durham Academy; outright CISAA champions",
+      "of": "8a7c9397",
+      "at": [
+        "charlotte-country-day:record.rows[5].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "girls swimming and boys lacrosse, both lost as runner-up (Providence Day and Durham Academy) · girls cross country, girls track, boys tennis and boys lacrosse (Durham Academy) · volleyball (North Raleigh Christian) · girls lacrosse, girls soccer and football (Providence Day) · both golf titles and wrestling (Charlotte Latin) · baseball (Charlotte Christian) · girls basketball (Cannon) · boys basketball (Forsyth Country Day).",
+      "of": "275d30f9",
+      "at": [
+        "charlotte-country-day:record.didNotWin"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2025–26: 20–1 with an 88–6 goal differential and a perfect 12–0 at home. The sole loss was 0–1 to Charlotte Latin on October 7, avenged 1–0 in the state final on October 25. MaxPreps ranked the team #22 nationally and #2 in NC — though MAX Field Hockey’s own final national top 25 contains no North Carolina team, so treat the national figure as MaxPreps-specific.",
+      "of": "df6f57e8",
+      "at": [
+        "charlotte-country-day:record.seasonDetail[0].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The two-year reign ended in 2026: Providence Day scored 420 to Country Day’s 328 at the D1 meet. Taylor Klein set an NCISAA record in the 100 fly at 53.16 and has committed to Stanford.",
+      "of": "16af3233",
+      "at": [
+        "charlotte-country-day:record.seasonDetail[1].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2026: 19–3, outright CISAA champions and MaxPreps’ No. 1 team in NCISAA Division I, but lost the state final 6–5 in overtime to Durham Academy. Goalkeeper Owen Timperman finished with more than 960 career saves, a program record.",
+      "of": "5fd95376",
+      "at": [
+        "charlotte-country-day:record.seasonDetail[2].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "51 college commitments across 2024–26, 28 of them Division I and 9 Power 4 — with swimming as the clear engine.",
+      "of": "c6d9e223",
+      "at": [
+        "charlotte-country-day:pipeline.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The school reports roughly 15 seniors committing per year over the last five years.",
+      "of": "b9f96a1c",
+      "at": [
+        "charlotte-country-day:pipeline.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Swimming supplies five of the nine Power 4 commits — including all three from the class of 2026, to Stanford, Florida and Purdue. Six commitments went to Ivy League programs, a share matched by no other school in this comparison and consistent with Country Day’s academic profile.",
+      "of": "28bf8a23",
+      "at": [
+        "charlotte-country-day:pipeline.funnelNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Swimming is unambiguously the Power 4 engine — five of nine P4 commits, and every 2026 P4 signee. Football and basketball, the sports that dominate national recruiting coverage, produced one D1 commit each across three classes. For most Country Day families the pipeline runs through Olympic and racquet sports into academically selective programs, not through the revenue sports.",
+      "of": "55818ebb",
+      "at": [
+        "charlotte-country-day:pipeline.realityCheck"
+      ],
+      "t": ""
+    },
+    {
+      "text": "No Country Day athlete appears in a national top-100 composite for football or basketball in the classes reviewed — consistent with a school whose elite output is swimming, tennis and distance running, which those databases do not rank. The school does hold 7 of the 22 NCISAA Division I state swimming records, more than any other school in the division, and recorded 13 USA Swimming All-American nominations from eight swimmers in a single state meet.",
+      "of": "3674e81c",
+      "at": [
+        "charlotte-country-day:pipeline.rankedRecruits"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Level labels and conferences were added by the researcher from each college’s NCAA status; they are not on the school’s published roster. P4 = SEC · Big Ten · ACC · Big 12.",
+      "of": "22b7af4d",
+      "at": [
+        "charlotte-country-day:pipeline.rosterNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A two-time Super Bowl champion, an ATP world No. 29, an NFL running back and a USL Goalkeeper of the Year.",
+      "of": "ae2fa1e1",
+      "at": [
+        "charlotte-country-day:honors.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The Athletics Hall of Honor was revived in October 2024 after roughly two decades dormant.",
+      "of": "dc287f8e",
+      "at": [
+        "charlotte-country-day:honors.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NFL · Class of '82",
+      "of": "c1326e0c",
+      "at": [
+        "charlotte-country-day:honors.pros[0].kicker"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Placekicker and two-time Super Bowl champion with the San Francisco 49ers, winning Super Bowls XXIII and XXIV across an NFL career from 1987 to 1995.",
+      "of": "cec420fb",
+      "at": [
+        "charlotte-country-day:honors.pros[0].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "ATP Tour · Class of '95",
+      "of": "f4b39b07",
+      "at": [
+        "charlotte-country-day:honors.pros[1].kicker"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Reached a career-high world No. 29 in doubles with two ATP titles and a 2006 US Open doubles semifinal. Now associate head coach of UNC men’s tennis.",
+      "of": "13293d92",
+      "at": [
+        "charlotte-country-day:honors.pros[1].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NFL · Class of '01",
+      "of": "5446dd2d",
+      "at": [
+        "charlotte-country-day:honors.pros[2].kicker"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Fourth-round pick in the 2005 NFL Draft, playing for the Jaguars, Seahawks and Titans. He now teaches at Country Day and coaches its track & field program.",
+      "of": "ed38eb9c",
+      "at": [
+        "charlotte-country-day:honors.pros[2].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "USL · pro soccer",
+      "of": "673b0328",
+      "at": [
+        "charlotte-country-day:honors.pros[3].kicker"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2015 USL Goalkeeper of the Year, setting league records for shutouts (13) and goals-against average (0.54). Founder of the Black Players Alliance of the USL.",
+      "of": "22e727b4",
+      "at": [
+        "charlotte-country-day:honors.pros[3].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Wells Fargo Cup",
+      "of": "85eb59a1",
+      "at": [
+        "charlotte-country-day:honors.honors[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Won ten times for statewide athletics excellence — 1982–83 through 2000–01, and most recently 2021–22.",
+      "of": "24f47c0f",
+      "at": [
+        "charlotte-country-day:honors.honors[0].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Swimming records & All-Americans",
+      "of": "876142cd",
+      "at": [
+        "charlotte-country-day:honors.honors[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Country Day holds 7 of the 22 NCISAA Division I state swimming records — more than any other school in the division — and produced 13 USA Swimming All-American nominations from eight swimmers in a single state meet.",
+      "of": "4c26964e",
+      "at": [
+        "charlotte-country-day:honors.honors[1].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "USA Lacrosse All-Americans",
+      "of": "35177295",
+      "at": [
+        "charlotte-country-day:honors.honors[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Five in 2026: Katy Blythe, Piper Brawley and Evelyn Turner (girls); Crandall Wilkins and Owen Timperman (boys). Timperman finished with a program-record 960+ career saves.",
+      "of": "36effb03",
+      "at": [
+        "charlotte-country-day:honors.honors[2].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Gatorade Player of the Year",
+      "of": "763980a4",
+      "at": [
+        "charlotte-country-day:honors.honors[3].label",
+        "cannon:honors.honors[0].label",
+        "davidson-day:honors.honors[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Kearns Kelly won NC Boys Soccer Player of the Year in 1985–86. No recent Country Day Gatorade winner was located.",
+      "of": "5e721deb",
+      "at": [
+        "charlotte-country-day:honors.honors[3].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "In-house awards",
+      "of": "2b93b687",
+      "at": [
+        "charlotte-country-day:honors.honors[4].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The Victora Ludorum (senior girl, since 1968) and Athlete’s Cup (senior boy, since 1964) are the school’s highest athletic honors — 2026 went to Molly Brown and Crandall Wilkins.",
+      "of": "eb72f039",
+      "at": [
+        "charlotte-country-day:honors.honors[4].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The winningest lacrosse coach in North Carolina history and a Hall-of-Fame tennis coach with 38 state championships — both still on staff.",
+      "of": "fe1f4c33",
+      "at": [
+        "charlotte-country-day:coaching.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Athletic Director: Masanori Toguchi Jr., in the role since July 2021 after eleven years as founding AD at Hough High School.",
+      "of": "af0e5e43",
+      "at": [
+        "charlotte-country-day:coaching.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The pedigree hire · Girls Tennis, since 1990",
+      "of": "1890ba8d",
+      "at": [
+        "charlotte-country-day:coaching.featured[0].kicker"
+      ],
+      "t": ""
+    },
+    {
+      "text": "38",
+      "of": "8ff05e0e",
+      "at": [
+        "charlotte-country-day:coaching.featured[0].stats[0].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "combined state championships",
+      "of": "ae4e5e01",
+      "at": [
+        "charlotte-country-day:coaching.featured[0].stats[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "36 yrs",
+      "of": "2f32ee44",
+      "at": [
+        "charlotte-country-day:coaching.featured[0].stats[1].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "at Charlotte Country Day",
+      "of": "30356afc",
+      "at": [
+        "charlotte-country-day:coaching.featured[0].stats[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "5×",
+      "of": "aadfeb05",
+      "at": [
+        "charlotte-country-day:coaching.featured[0].stats[2].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "PTR national Coach of the Year",
+      "of": "182aa830",
+      "at": [
+        "charlotte-country-day:coaching.featured[0].stats[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Inducted into the North Carolina Tennis Hall of Fame in 2024, a USTA-NC Mary Milam Award winner, and named to the Charlotte Observer’s all-time top-10 Mecklenburg County coaches across all sports. He has coached four professionals, including a US Open doubles semifinalist, and the Rankin Courts scoreboard was dedicated in his name in 2022. His son C.C. Davis ’99 now coaches boys tennis alongside him.",
+      "of": "8cdc1d0a",
+      "at": [
+        "charlotte-country-day:coaching.featured[0].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The continuity anchor · Boys Lacrosse, 1987–2026",
+      "of": "799c18e7",
+      "at": [
+        "charlotte-country-day:coaching.featured[1].kicker"
+      ],
+      "t": ""
+    },
+    {
+      "text": "540+",
+      "of": "77e32bed",
+      "at": [
+        "charlotte-country-day:coaching.featured[1].stats[0].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "career wins — most in NC history",
+      "of": "f978ea7b",
+      "at": [
+        "charlotte-country-day:coaching.featured[1].stats[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "39 yrs",
+      "of": "688e0815",
+      "at": [
+        "charlotte-country-day:coaching.featured[1].stats[1].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "coaching his alma mater, Class of ’83",
+      "of": "a968ae44",
+      "at": [
+        "charlotte-country-day:coaching.featured[1].stats[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "19",
+      "of": "14eb1f3f",
+      "at": [
+        "charlotte-country-day:coaching.featured[1].stats[2].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "conference titles, 9 state titles",
+      "of": "43ae8e7f",
+      "at": [
+        "charlotte-country-day:coaching.featured[1].stats[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A 1983 Country Day graduate who helped organize North Carolina’s first high school lacrosse league in 1988 — five teams, now roughly 150 — and founded the Charlotte Lacrosse Jamboree for brain-tumor research in 1996. Inducted into the NILCA Hall of Fame in 2023, he has produced 200+ college players and 20+ USA All-Americans. He retires after the 2026 season, which passes the continuity-anchor role to Calvin Davis Jr.",
+      "of": "dbaefd44",
+      "at": [
+        "charlotte-country-day:coaching.featured[1].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Boys Lacrosse — retiring after 2026",
+      "of": "9669034e",
+      "at": [
+        "charlotte-country-day:coaching.tenure[0].role"
+      ],
+      "t": ""
+    },
+    {
+      "text": "since 1987",
+      "of": "346b7d44",
+      "at": [
+        "charlotte-country-day:coaching.tenure[0].since"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Girls Tennis",
+      "of": "ac0f4957",
+      "at": [
+        "charlotte-country-day:coaching.tenure[1].role"
+      ],
+      "t": ""
+    },
+    {
+      "text": "since 1990",
+      "of": "2d6933a8",
+      "at": [
+        "charlotte-country-day:coaching.tenure[1].since"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Field Hockey — 4 titles since 2017",
+      "of": "08520db9",
+      "at": [
+        "charlotte-country-day:coaching.tenure[2].role"
+      ],
+      "t": ""
+    },
+    {
+      "text": "since 2017",
+      "of": "dcfe0279",
+      "at": [
+        "charlotte-country-day:coaching.tenure[2].since"
+      ],
+      "t": ""
+    },
+    {
+      "text": "since 2021",
+      "of": "6f05a414",
+      "at": [
+        "charlotte-country-day:coaching.tenure[3].since"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Boys Basketball",
+      "of": "c4c4b001",
+      "at": [
+        "charlotte-country-day:coaching.tenure[4].role",
+        "cannon:coaching.tenure[5].role"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Boys Tennis — Calvin Davis Jr.'s son",
+      "of": "88894fa5",
+      "at": [
+        "charlotte-country-day:coaching.tenure[5].role"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Baseball",
+      "of": "aae4e89d",
+      "at": [
+        "charlotte-country-day:coaching.tenure[6].role"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Country Day turned over four head-coaching jobs in the 2025–26 cycle — boys basketball, girls basketball, boys tennis and baseball — with Brad Touma’s lacrosse retirement still to come and the girls basketball seat vacant as of this research. That is unusually high churn for a department otherwise defined by multi-decade tenures, and worth asking about on a tour. Track coach Alvin Pearman is a former NFL running back who returned to teach at his old school.",
+      "of": "a946e566",
+      "at": [
+        "charlotte-country-day:coaching.worthKnowing"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A $30.5M athletics build opened in 2022 — a 700-seat natatorium and a 1,200-seat performance gym — anchored by an OrthoCarolina sports-medicine partnership.",
+      "of": "c27c5849",
+      "at": [
+        "charlotte-country-day:facilities.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Five named certified athletic trainers across two campuses, more than any other school in this comparison.",
+      "of": "19b9947f",
+      "at": [
+        "charlotte-country-day:facilities.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2,500 seats",
+      "of": "cdd0d890",
+      "at": [
+        "charlotte-country-day:facilities.photos[0].meta"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Natural grass with an eight-lane all-weather track, lights and a two-level press box",
+      "of": "1bf155b8",
+      "at": [
+        "charlotte-country-day:facilities.photos[0].caption"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Photo: Charlotte Country Day School",
+      "of": "c3e53b21",
+      "at": [
+        "charlotte-country-day:facilities.photos[0].credit",
+        "charlotte-country-day:facilities.photos[1].credit",
+        "charlotte-country-day:facilities.photos[2].credit"
+      ],
+      "t": ""
+    },
+    {
+      "text": "~30,000 sq ft, 2022",
+      "of": "0947d8c2",
+      "at": [
+        "charlotte-country-day:facilities.photos[1].meta"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Eight-lane competition pool plus a five-lane warm-up pool, seating 700+",
+      "of": "3c380d6c",
+      "at": [
+        "charlotte-country-day:facilities.photos[1].caption"
+      ],
+      "t": ""
+    },
+    {
+      "text": "~47,000 sq ft, 2022",
+      "of": "da6c6eac",
+      "at": [
+        "charlotte-country-day:facilities.photos[2].meta"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Seats 1,200+; houses the strength centre, wrestling room and Hall of Honor",
+      "of": "b49e1407",
+      "at": [
+        "charlotte-country-day:facilities.photos[2].caption"
+      ],
+      "t": ""
+    },
+    {
+      "text": "three courts, elevated indoor track",
+      "of": "bb52a005",
+      "at": [
+        "charlotte-country-day:facilities.venues[0].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "inside Bruton Smith",
+      "of": "cba28ed8",
+      "at": [
+        "charlotte-country-day:facilities.venues[1].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "eight courts, four lit",
+      "of": "c05508e9",
+      "at": [
+        "charlotte-country-day:facilities.venues[2].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "field hockey and lacrosse",
+      "of": "d76f753b",
+      "at": [
+        "charlotte-country-day:facilities.venues[3].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "varsity baseball",
+      "of": "ec6aff47",
+      "at": [
+        "charlotte-country-day:facilities.venues[4].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "soccer training, Cannon Campus",
+      "of": "ce6a416e",
+      "at": [
+        "charlotte-country-day:facilities.venues[5].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "4 fields, 6 tennis courts, 4-lane track",
+      "of": "cdc7cdf9",
+      "at": [
+        "charlotte-country-day:facilities.venues[6].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Home events stream free on Hudl Focus with no account required, via bucs.link/bucssportslive; the Klein Aquatic Center streams separately on the Bucs Sports YouTube channel. Country Day no longer carries the NFHS Network for home events. Schedules publish with RSS and iCal feeds. No Sports Information Director is named publicly.",
+      "of": "77ca62d4",
+      "at": [
+        "charlotte-country-day:facilities.broadcast"
+      ],
+      "t": ""
+    },
+    {
+      "text": "5 named — Monica Erb (Director of Sports Medicine), Stephanie Miller (head), Mike Hervis, plus Jason Farmer and Jessica Raynor at the Middle School",
+      "of": "0f51fd95",
+      "at": [
+        "charlotte-country-day:facilities.care[0].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Dr. James E. Fleischli, MD, of OrthoCarolina — Country Day is listed among OrthoCarolina’s sports-medicine affiliates",
+      "of": "4b8d1d38",
+      "at": [
+        "charlotte-country-day:facilities.care[1].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A formal concussion-management and return-to-play protocol, with evaluations documented and individualized treatment plans",
+      "of": "db8eac6c",
+      "at": [
+        "charlotte-country-day:facilities.care[2].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Facilities",
+      "of": "8400a6ac",
+      "at": [
+        "charlotte-country-day:facilities.care[3].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Two on-campus sports-medicine facilities, anchored by the O'Leary Sports Medicine Center, which the school compares to top college centers",
+      "of": "abe15537",
+      "at": [
+        "charlotte-country-day:facilities.care[3].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2 full-time coaches with dedicated centers in both Harris Performance Gym and Bruton Smith; 6 performance and sports-medicine specialists overall",
+      "of": "bf672fe2",
+      "at": [
+        "charlotte-country-day:facilities.care[4].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The OrthoCarolina partnership is the differentiator among Charlotte private schools — Cannon uses Novant, Charlotte Christian uses Atrium, and Providence Day keeps care fully in-house. The combined Klein and Harris project totalled 77,737 sq ft and roughly $30.5M, funded by a $10M lead gift from the Klein family, the Dowd Foundation and two anonymous donors.",
+      "of": "06f84f5e",
+      "at": [
+        "charlotte-country-day:facilities.careNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "47 teams across 13 sports, serving more than 300 student-athletes.",
+      "of": "fad0da29",
+      "at": [
+        "cannon:offered.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Middle School teams begin in grade 7, and 8th-graders do reach varsity — an eighth-grader scored 12 points in the 2026 state final.",
+      "of": "651e7dd3",
+      "at": [
+        "cannon:offered.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "varsity programs",
+      "of": "904f3c3a",
+      "at": [
+        "cannon:offered.stats[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "student-athletes",
+      "of": "245aa92f",
+      "at": [
+        "cannon:offered.stats[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "7 varsity",
+      "of": "6e66be70",
+      "at": [
+        "cannon:offered.seasons[0].note",
+        "davidson-day:offered.seasons[2].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "5 varsity",
+      "of": "75c581c6",
+      "at": [
+        "cannon:offered.seasons[1].note",
+        "davidson-day:offered.seasons[1].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Middle School basketball splits into Maroon and Gold squads to widen participation. The \"47 teams\" figure is the school’s own count; enumerating the published teams list yields roughly 45–50 depending on how co-ed Middle School teams are counted. Cannon has no on-campus pool — the swim team’s home venue is not published.",
+      "of": "790d0baf",
+      "at": [
+        "cannon:offered.footnote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Three straight NCISAA 4A girls basketball state championships — four titles in six years, and the state’s dominant girls program.",
+      "of": "7c524d50",
+      "at": [
+        "cannon:record.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Cannon also won three titles in 2023–24 alone: girls basketball, volleyball and boys lacrosse.",
+      "of": "3f36c378",
+      "at": [
+        "cannon:record.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Three-peat; beat Providence Day in both the 2024 and 2026 finals",
+      "of": "fcf7fe8b",
+      "at": [
+        "cannon:record.rows[0].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Ended North Raleigh Christian's 8-year reign, 3–0",
+      "of": "ecd843a4",
+      "at": [
+        "cannon:record.rows[1].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Beat Providence Day 8–7; No. 1 in the final statewide top 25",
+      "of": "ff07a979",
+      "at": [
+        "cannon:record.rows[2].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Lost the D1 series to Covenant Day",
+      "of": "3b9ddf4d",
+      "at": [
+        "cannon:record.rows[3].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Second in CISAA at 8–2; lost the 4A quarterfinal at Carmel Christian",
+      "of": "d50bb082",
+      "at": [
+        "cannon:record.rows[4].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Playoff 2nd round; beat Charlotte Latin 40–21, lost to Providence Day",
+      "of": "a560adff",
+      "at": [
+        "cannon:record.rows[5].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "football, girls soccer, girls lacrosse and girls swimming (Providence Day) · boys basketball (Forsyth Country Day) · baseball, in the D1 series (Covenant Day) · volleyball (North Raleigh Christian) · both golf titles and wrestling (Charlotte Latin) · girls tennis and field hockey (Charlotte Country Day) · boys soccer, boys XC and boys track (Christ School) · boys lacrosse, boys tennis, girls XC and girls track (Durham Academy).",
+      "of": "620ed6c0",
+      "at": [
+        "cannon:record.didNotWin"
+      ],
+      "t": ""
+    },
+    {
+      "text": "'23–24",
+      "of": "bc720734",
+      "at": [
+        "cannon:record.bars[0].tag",
+        "cannon:record.bars[1].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2024 beat Providence Day 62–51 · 2025 beat Wesleyan Christian 71–55 · 2026 beat Providence Day 47–37, with eighth-grader London Truesdale scoring 12. Four NCISAA 4A titles in six years (2021, 2024, 2025, 2026).",
+      "of": "fb962868",
+      "at": [
+        "cannon:record.seasonDetail[0].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2023: 23–2, sweeping North Raleigh Christian 25–21, 25–18, 25–23 to end an eight-year title reign. Both losses came to Davidson Day (the 2A champion) and Hoggard, a 2,000-student public school.",
+      "of": "268490aa",
+      "at": [
+        "cannon:record.seasonDetail[1].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2024: 19–3 and the NCISAA D1 title over Providence Day 8–7, finishing No. 1 in HighSchoolOT’s final statewide top 25 with six wins over top-10 finishers.",
+      "of": "a9f0d06e",
+      "at": [
+        "cannon:record.seasonDetail[2].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A documented floor of six college commitments across 2024–26, three of them Division I — but Cannon publishes no consolidated signing list.",
+      "of": "10aea629",
+      "at": [
+        "cannon:pipeline.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "This is the most honest number available, not a census: the school’s athletics news portal renders client-side with no indexable article text, so classes of 2024 and 2026 are almost certainly undercounted.",
+      "of": "d57f5bb1",
+      "at": [
+        "cannon:pipeline.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "(all divisions, documented)",
+      "of": "a0fb88bd",
+      "at": [
+        "cannon:pipeline.funnel[0].hint",
+        "davidson-day:pipeline.funnel[0].hint"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Treat every figure on this card as a floor. Unlike its CISAA peers, Cannon does not publish an \"alumni at the next level\" roster, so these names come from a regional signing-day roundup rather than the school. The recruiting story here is better told by its ranked underclassmen than by its commit count.",
+      "of": "4a422782",
+      "at": [
+        "cannon:pipeline.funnelNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "With only six documented commitments, the by-sport split is too thin to read as a pattern. What is visible: the single Power 4 commit is a swimmer, not a basketball player, despite basketball being the school’s flagship — a reminder that title-winning programs and recruiting pipelines are not the same thing.",
+      "of": "17a0a956",
+      "at": [
+        "cannon:pipeline.realityCheck"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Cannon’s strongest recruiting signal is its underclassmen. JaKaila Gaskin (’28, 6'3\" center) is ranked No. 30 nationally by Prep Girls Hoops and No. 3 in NC for her class, a four-star with a USA Basketball profile and offers from Ohio State, Tennessee, Alabama, Auburn, Florida and Louisville. Brooke Busby (’27) has committed to Princeton. Earlier: Jaden Bradley was a five-star, No. 18 nationally, and Reigan Richardson ’21 was a McDonald’s All-American.",
+      "of": "062ebfef",
+      "at": [
+        "cannon:pipeline.rankedRecruits"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Brooke Busby is Class of 2027 and is listed here because her commitment is already public. Level labels and conferences were added by the researcher from each college’s NCAA status. Two athletes’ sports are not published in the source roundup and are marked as such rather than guessed.",
+      "of": "67a39652",
+      "at": [
+        "cannon:pipeline.rosterNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A Daytona 500 winner, a PGA Tour golfer, an NBA three-point champion and a trophy-winning pro footballer — an unusually wide set of professional paths.",
+      "of": "b1f7abb8",
+      "at": [
+        "cannon:honors.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Cannon’s pro alumni run well beyond the traditional stick-and-ball sports, into NASCAR and professional golf.",
+      "of": "14bbce46",
+      "at": [
+        "cannon:honors.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NASCAR · Class of '17",
+      "of": "1cec8fe8",
+      "at": [
+        "cannon:honors.pros[0].kicker"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2022 Daytona 500 winner — the first rookie ever to win it — and the 2020 Xfinity Series champion. He graduated from Cannon and raced a Truck Series event at Charlotte the same day.",
+      "of": "371123b8",
+      "at": [
+        "cannon:honors.pros[0].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NBA + intl · Class of '10",
+      "of": "93b10716",
+      "at": [
+        "cannon:honors.pros[1].kicker"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Cannon's all-time leading scorer with 2,600 points. Played for the Wizards, Suns, Celtics and Bulls, won the 2015 NBA D-League Three-Point Contest, and has since played in France, Spain, Turkey and Romania.",
+      "of": "c4643c6c",
+      "at": [
+        "cannon:honors.pros[1].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "PGA Tour · Class of '15",
+      "of": "86d219c0",
+      "at": [
+        "cannon:honors.pros[2].kicker"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2019 SEC Player of the Year and a first-team All-American at Vanderbilt; turned pro in 2019 and holds a 2026 PGA Tour card. A U.S. Amateur quarterfinalist in 2018.",
+      "of": "89802693",
+      "at": [
+        "cannon:honors.pros[2].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Pro soccer · Class of '12",
+      "of": "a1083edd",
+      "at": [
+        "cannon:honors.pros[3].kicker"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Won the 2012 NCAA College Cup at UNC, then league titles in Denmark and England. The first-ever signing for Carolina Ascent FC, winning the 2024–25 USL Super League Players’ Shield.",
+      "of": "800e07f5",
+      "at": [
+        "cannon:honors.pros[3].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Jaden Bradley won the 2020 NC Gatorade Player of the Year in boys basketball as a Cannon sophomore, averaging 23.1 points, 6.4 rebounds and 6.1 assists.",
+      "of": "7f2a9ffb",
+      "at": [
+        "cannon:honors.honors[0].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "McDonald's All-American",
+      "of": "7aa5ea8d",
+      "at": [
+        "cannon:honors.honors[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Reigan Richardson (2021) earned the honor at Cannon before going to Duke. Jaden Bradley was also a McDonald's All-American, but earned it at IMG Academy after leaving Cannon.",
+      "of": "81c1a0bf",
+      "at": [
+        "cannon:honors.honors[1].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2026 all-state, girls basketball",
+      "of": "e0c5b3e6",
+      "at": [
+        "cannon:honors.honors[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Two first-team selections — Brooke Busby (10.5 ppg, 61 three-pointers, Princeton commit) and JaKaila Gaskin (14.0 ppg, 9.2 rpg as a sophomore).",
+      "of": "b002068d",
+      "at": [
+        "cannon:honors.honors[2].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "CISAA Player of the Year",
+      "of": "c81ab0ce",
+      "at": [
+        "cannon:honors.honors[3].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Four consecutive Cannon boys basketball players have won it, most recently Austin Swartz as a unanimous selection. The three prior winners are not named in public sources.",
+      "of": "1dbd66b8",
+      "at": [
+        "cannon:honors.honors[3].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Athletics Hall of Fame",
+      "of": "97062bc1",
+      "at": [
+        "cannon:honors.honors[4].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Inaugural 2020 class included Vicky Bruce, Jarell Eddie, Will Gordon, Krista Gross and Anna Redding. The 2025 class added Drew Balsbough, Gabby Holloway, Trey Hoover and two championship golf teams.",
+      "of": "f6661e5c",
+      "at": [
+        "cannon:honors.honors[4].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A 500-win college head coach running boys basketball, and the girls dynasty built by his own former player.",
+      "of": "e421be98",
+      "at": [
+        "cannon:coaching.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Athletic Director: Chris Satterfield. Cannon’s continuity anchor and its marquee hire are former player and coach, now colleagues.",
+      "of": "9e8bc20f",
+      "at": [
+        "cannon:coaching.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The pedigree hire · Boys Basketball, since 2024",
+      "of": "dde00aba",
+      "at": [
+        "cannon:coaching.featured[0].kicker"
+      ],
+      "t": ""
+    },
+    {
+      "text": "500+",
+      "of": "3c47fa01",
+      "at": [
+        "cannon:coaching.featured[0].stats[0].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "career wins — 344 college, 156 high school",
+      "of": "7be2d012",
+      "at": [
+        "cannon:coaching.featured[0].stats[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "20 yrs",
+      "of": "d7cc331b",
+      "at": [
+        "cannon:coaching.featured[0].stats[1].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "head coach at Catawba College, 344–236",
+      "of": "839b0693",
+      "at": [
+        "cannon:coaching.featured[0].stats[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "95–1",
+      "of": "ab402123",
+      "at": [
+        "cannon:coaching.featured[0].stats[2].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "at Central Cabarrus, 2021–24",
+      "of": "ec7835f0",
+      "at": [
+        "cannon:coaching.featured[0].stats[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Twenty seasons as an NCAA head coach at Catawba — six SAC regular-season titles, six conference tournament titles and nine NCAA regional appearances — then back-to-back NCHSAA 3A state championships at Central Cabarrus with a 65-game winning streak. Very few high schools at any level hire a coach with a two-decade college head-coaching record. His 500th win came in January 2026.",
+      "of": "5ea2c711",
+      "at": [
+        "cannon:coaching.featured[0].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The continuity anchor · Girls Basketball, 11 seasons",
+      "of": "42ab84e8",
+      "at": [
+        "cannon:coaching.featured[1].kicker"
+      ],
+      "t": ""
+    },
+    {
+      "text": "state titles in six years",
+      "of": "f54ae112",
+      "at": [
+        "cannon:coaching.featured[1].stats[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "3",
+      "of": "360caa42",
+      "at": [
+        "cannon:coaching.featured[1].stats[1].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "consecutive championships, 2024–26",
+      "of": "51371188",
+      "at": [
+        "cannon:coaching.featured[1].stats[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "'08",
+      "of": "c34a930e",
+      "at": [
+        "cannon:coaching.featured[1].stats[2].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Cannon alumnus and former Cougar",
+      "of": "8d70e488",
+      "at": [
+        "cannon:coaching.featured[1].stats[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A Cannon graduate who played college basketball at Catawba under Jim Baker, then returned to his old school — five seasons in the boys program before taking the girls job in 2015–16. He led Cannon to its first-ever girls basketball state title in 2021 and has since built the state’s dominant 4A program. He also teaches Lower School PE.",
+      "of": "a8faac2d",
+      "at": [
+        "cannon:coaching.featured[1].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "15+ years",
+      "of": "716cb98e",
+      "at": [
+        "cannon:coaching.tenure[0].since"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Director of Sports Performance",
+      "of": "d30ba7bb",
+      "at": [
+        "cannon:coaching.tenure[1].role"
+      ],
+      "t": ""
+    },
+    {
+      "text": "since 2014",
+      "of": "d9fdfdc0",
+      "at": [
+        "cannon:coaching.tenure[1].since"
+      ],
+      "t": ""
+    },
+    {
+      "text": "since 2015",
+      "of": "dafdff53",
+      "at": [
+        "cannon:coaching.tenure[2].since"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Associate Athletic Director",
+      "of": "09467405",
+      "at": [
+        "cannon:coaching.tenure[3].role"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Volleyball",
+      "of": "9bc4f019",
+      "at": [
+        "cannon:coaching.tenure[4].role"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Football Program Director",
+      "of": "0f9be2a4",
+      "at": [
+        "cannon:coaching.tenure[6].role"
+      ],
+      "t": ""
+    },
+    {
+      "text": "the football staff includes Haruki Nakamura as safeties coach — a former NFL safety who played for the Baltimore Ravens and Carolina Panthers. Head coach Jamaal Birch arrived in 2025 from Providence Day, First Baptist School of Charleston and Oceanside Collegiate, where he was part of back-to-back state championships and coached six wide receivers to Division I scholarships.",
+      "of": "b022d800",
+      "at": [
+        "cannon:coaching.worthKnowing"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A two-floor strength center open to every student, a turf stadium with a three-booth press box, and a Novant Health partnership staffing the training room.",
+      "of": "b1688c2d",
+      "at": [
+        "cannon:facilities.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Athletic training and strength & conditioning explicitly \"operate as one team\" here.",
+      "of": "69f894da",
+      "at": [
+        "cannon:facilities.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "synthetic turf",
+      "of": "ed6c908f",
+      "at": [
+        "cannon:facilities.photos[0].meta"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Hosts football, soccer, lacrosse and track meets, ringed by the eight-lane Tysinger Family Track",
+      "of": "dbb23dd3",
+      "at": [
+        "cannon:facilities.photos[0].caption"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Photo: Cannon School athletics",
+      "of": "a74d597d",
+      "at": [
+        "cannon:facilities.photos[0].credit",
+        "cannon:facilities.photos[1].credit",
+        "cannon:facilities.photos[2].credit"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Hoffman Riley Court",
+      "of": "176bfe5e",
+      "at": [
+        "cannon:facilities.photos[1].meta"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Main competition gym; the court was named in January 2019 for announcers Mike Hoffman and the late John Riley",
+      "of": "a2cfb942",
+      "at": [
+        "cannon:facilities.photos[1].caption"
+      ],
+      "t": ""
+    },
+    {
+      "text": "4,100 sq ft, two floors",
+      "of": "d4dd40af",
+      "at": [
+        "cannon:facilities.photos[2].meta"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Eight strength stations, thirteen racks, and a second floor for rehab and low-impact cardio",
+      "of": "b089e818",
+      "at": [
+        "cannon:facilities.photos[2].caption"
+      ],
+      "t": ""
+    },
+    {
+      "text": "4,800 sq ft; three-booth press box",
+      "of": "193e212d",
+      "at": [
+        "cannon:facilities.venues[0].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "eight lanes, behind the Upper School",
+      "of": "182168c8",
+      "at": [
+        "cannon:facilities.venues[1].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "5,000 sq ft — wrestling, cages, agility",
+      "of": "18736cb9",
+      "at": [
+        "cannon:facilities.venues[2].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "adjacent to softball",
+      "of": "7996bcb9",
+      "at": [
+        "cannon:facilities.venues[3].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "behind the school",
+      "of": "dc49148e",
+      "at": [
+        "cannon:facilities.venues[4].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "six courts on two levels",
+      "of": "bc9114bb",
+      "at": [
+        "cannon:facilities.venues[5].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "supplemental practice gym",
+      "of": "91bbb553",
+      "at": [
+        "cannon:facilities.venues[6].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "at the front entrance",
+      "of": "b3a2fc02",
+      "at": [
+        "cannon:facilities.venues[7].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "LocalLive and the NFHS Network carry Cannon events, with Hudl also listed; the Randy Marion Field House holds a three-booth press box for calling, video and scoring. Craig Reynolds serves as Assistant AD and Sports Information Director. The ticketing platform is not published.",
+      "of": "1cd480b9",
+      "at": [
+        "cannon:facilities.broadcast"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2 — Hayley Goldman (head) and Kelby Hurlocker, provided through a partnership with Novant Health",
+      "of": "8b03293a",
+      "at": [
+        "cannon:facilities.care[0].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Team physicians",
+      "of": "7d4dd8cd",
+      "at": [
+        "cannon:facilities.care[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2 Novant Health orthopedic surgeons — Dr. Bryan Edwards (sports-medicine fellowship with the Atlanta Falcons) and Dr. Jess Kirby",
+      "of": "6cafcfb7",
+      "at": [
+        "cannon:facilities.care[1].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Follows current research and national best practices; every case documented with a personalized care and recovery plan",
+      "of": "bad89b6b",
+      "at": [
+        "cannon:facilities.care[2].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Return to play",
+      "of": "9d7a8e9e",
+      "at": [
+        "cannon:facilities.care[3].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Athletes must hit all recovery milestones, pass functional testing, and be cleared by the trainer and, where appropriate, a physician",
+      "of": "6d15eac7",
+      "at": [
+        "cannon:facilities.care[3].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Safety infrastructure",
+      "of": "0515224e",
+      "at": [
+        "cannon:facilities.care[4].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Custom emergency action plans for each venue, AEDs throughout, heat acclimatization plan, and First Aid/CPR/AED certification for all coaches",
+      "of": "89626603",
+      "at": [
+        "cannon:facilities.care[4].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Shawn Powell (director, since 2014) and Duncan Hundley, running a grade-by-grade \"block\" system from grade 7 up",
+      "of": "ea851f6c",
+      "at": [
+        "cannon:facilities.care[5].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Cannon is a clinical education site for UNC Charlotte’s Master’s in Athletic Training. Note the contrast worth probing on a tour: Cannon and Charlotte Christian outsource to Novant and Atrium respectively, Charlotte Country Day uses OrthoCarolina, and Providence Day keeps care fully in-house. Seating capacities are not published for any Cannon venue.",
+      "of": "6111f0cb",
+      "at": [
+        "cannon:facilities.careNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "35 teams across 13 sports on a 15-acre campus, with about 90% of students in grades 5–12 playing.",
+      "of": "1c0730ce",
+      "at": [
+        "davidson-day:offered.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Athletics start in grade 5 here — earlier than any other school in this comparison — and the school fields rowing on Lake Davidson.",
+      "of": "2ee8db1b",
+      "at": [
+        "davidson-day:offered.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "distinct sports",
+      "of": "cbdcfdbc",
+      "at": [
+        "davidson-day:offered.stats[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "of grades 5–12 participate",
+      "of": "83a89a7b",
+      "at": [
+        "davidson-day:offered.stats[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "3A state · Foothills conference",
+      "of": "21c26aa5",
+      "at": [
+        "davidson-day:offered.stats[3].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Davidson Day moved up from 1A to 2A to 3A as enrollment grew, reaching 3A for 2024–25. It fields no wrestling, softball, field hockey or boys lacrosse — MaxPreps lists some of these, but the school’s own teams page does not, and the school’s page is treated as authoritative. Eight of the campus’s fifteen acres are given to fields and a wooded park with waterfront access to the Lake Davidson Nature Preserve, which supports the rowing program.",
+      "of": "7a6a197e",
+      "at": [
+        "davidson-day:offered.footnote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Seven state championships in 2023–24 — the most of any 2A school that year — then four, then one. This is a program in visible decline.",
+      "of": "49995880",
+      "at": [
+        "davidson-day:record.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Boys tennis is the only title survivor of 2025–26; three separate three-peats ended in the same year.",
+      "of": "0fe60628",
+      "at": [
+        "davidson-day:record.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Three straight; blanked Cape Fear Academy in 2026",
+      "of": "ff2ba8dd",
+      "at": [
+        "davidson-day:record.rows[0].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Lost the 2026 final 1–3 to Wake Christian",
+      "of": "e2bd755f",
+      "at": [
+        "davidson-day:record.rows[1].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Three-peat broken; collapsed to a first-round exit",
+      "of": "33a64a18",
+      "at": [
+        "davidson-day:record.rows[2].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Three-peat broken; lost the quarterfinal 2–3",
+      "of": "2f2bd979",
+      "at": [
+        "davidson-day:record.rows[3].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Lost the 2026 semi to eventual champion Greensboro Day",
+      "of": "983aa83e",
+      "at": [
+        "davidson-day:record.rows[4].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "STATE x2",
+      "of": "3a08a5f4",
+      "at": [
+        "davidson-day:record.rows[5].cells[0].result"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Both squads won in 2023–24; GRACE Christian took both in 2026",
+      "of": "50758933",
+      "at": [
+        "davidson-day:record.rows[5].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Seven different head coaches in eight documented seasons",
+      "of": "52f6b007",
+      "at": [
+        "davidson-day:record.rows[6].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "volleyball (Wake Christian) · girls soccer (Gaston Christian) · boys basketball (Greensboro Day, which also eliminated Davidson Day in the semifinal) · both cross country titles (GRACE Christian of Raleigh) · boys soccer (Trinity Academy eliminated the Patriots in the quarterfinals).",
+      "of": "d4d6d045",
+      "at": [
+        "davidson-day:record.didNotWin"
+      ],
+      "t": ""
+    },
+    {
+      "text": "'19–20 PEAK",
+      "of": "513fbc3a",
+      "at": [
+        "davidson-day:record.bars[0].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "5 YRS",
+      "of": "c576cf78",
+      "at": [
+        "davidson-day:record.bars[1].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "4 YRS",
+      "of": "ada3397f",
+      "at": [
+        "davidson-day:record.bars[2].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "3 YRS",
+      "of": "0505d53a",
+      "at": [
+        "davidson-day:record.bars[3].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Seven state titles in one year — boys and girls soccer, volleyball, boys and girls cross country, boys basketball and boys tennis — the most of any 2A school in the NCISAA, plus the Wells Fargo Cup for all-sports excellence.",
+      "of": "0b020d74",
+      "at": [
+        "davidson-day:record.seasonDetail[0].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The historic peak was 2019–20: 30–1, ranked No. 5 in North Carolina, and the NCISAA 2A championship, led by senior C.J. Huntley. In 2025–26 the Patriots went 23–11 under new coach Gary Ellington and beat Oak Hill Academy 86–79 — handing that national program its first loss of the season — before losing the state semifinal to Greensboro Day.",
+      "of": "58497607",
+      "at": [
+        "davidson-day:record.seasonDetail[1].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Three-peats ended in girls soccer and boys soccer, volleyball lost the final, and both cross country titles went elsewhere. Girls soccer fell from 14–2 champions to 3–11. Coaching turnover is the visible common factor: soccer changed hands after 2024–25, and girls basketball has had seven head coaches in eight documented seasons.",
+      "of": "bf324505",
+      "at": [
+        "davidson-day:record.seasonDetail[2].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Ten documented commitments across 2024–26, nine of them Division I and three Power 4 — a remarkably high conversion rate for a 550-student school.",
+      "of": "8b94c64e",
+      "at": [
+        "davidson-day:pipeline.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Basketball drives it: four D1 commits including signees to North Carolina, Clemson and Dayton.",
+      "of": "5f0fe5c8",
+      "at": [
+        "davidson-day:pipeline.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "These are documented floors, not a census. The school published a full seven-athlete list for the class of 2025 but no equivalent for 2024 or 2026, and its official athletics site is dead — so non-basketball commitments in those years are almost certainly missing. The school states that more than 100 Davidson Day athletes have gone on to compete at 80 different colleges.",
+      "of": "940a92df",
+      "at": [
+        "davidson-day:pipeline.funnelNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The unusual thing here is the ratio, not the volume: nine of ten documented commitments are Division I, where larger peer schools convert closer to a third. That reflects a small school whose recruiting story is concentrated almost entirely in one nationally-visible basketball program rather than spread across many sports — and it means the experience for an athlete outside that program looks very different.",
+      "of": "709fe4e2",
+      "at": [
+        "davidson-day:pipeline.realityCheck"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Three four-star basketball recruits in consecutive classes. Cody Peck ’26 is ranked No. 82 nationally by 247Sports and No. 99 by ESPN — he transferred in from IMG Academy for his senior year and chose Dayton over Creighton, Tennessee and Miami. Isaiah Denis ’25 was No. 56 in the On3 Industry ranking and the No. 1 recruit in North Carolina before signing with UNC. Will Stevens ’26, a 6-foot-10 center, was No. 1 in NC per On3 and committed to Clemson over Vanderbilt and South Carolina.",
+      "of": "6a411866",
+      "at": [
+        "davidson-day:pipeline.rankedRecruits"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The classes of 2024 and 2026 are under-represented because the school publishes no signing list for those years and its athletics website is offline. Level labels and conferences were added by the researcher from each college’s NCAA status.",
+      "of": "d856db69",
+      "at": [
+        "davidson-day:pipeline.rosterNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "An NBA two-way signing, a Heisman finalist quarterback, a WNBA draft pick and a NASCAR Cup Series driver.",
+      "of": "da1687bd",
+      "at": [
+        "davidson-day:honors.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Unusually wide professional reach for a school of about 550 students — across three sports and NASCAR.",
+      "of": "9b54c163",
+      "at": [
+        "davidson-day:honors.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NBA · Class of '20",
+      "of": "df7b47bd",
+      "at": [
+        "davidson-day:honors.pros[0].kicker"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Signed a two-way contract with the Phoenix Suns in June 2025 and made his NBA debut in 2025–26 — the first Appalachian State player to appear in an NBA game since 1952. He led Davidson Day to its 30–1 state title season.",
+      "of": "890600ac",
+      "at": [
+        "davidson-day:honors.pros[0].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Third-round pick in the 2019 NFL Draft and fourth in the 2018 Heisman voting. As a Davidson Day senior he threw for 837 yards and 10 touchdowns in a single game.",
+      "of": "d4351f8d",
+      "at": [
+        "davidson-day:honors.pros[1].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "WNBA · Class of '17",
+      "of": "63cf73d8",
+      "at": [
+        "davidson-day:honors.pros[2].kicker"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Drafted 33rd overall by the Indiana Fever in 2021 after an SEC career at Georgia; has played for Atlanta and Indiana and professionally in Israel, Turkey and Spain.",
+      "of": "246402d8",
+      "at": [
+        "davidson-day:honors.pros[2].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NASCAR Cup Series",
+      "of": "4ffac12a",
+      "at": [
+        "davidson-day:honors.pros[3].kicker"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2021 NASCAR Truck Series regular-season champion with 13 Truck and 11 Xfinity Series wins, now driving the No. 42 Toyota for Legacy Motor Club.",
+      "of": "1154a46a",
+      "at": [
+        "davidson-day:honors.pros[3].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Will Grier won it twice in North Carolina, alongside national Player of the Year honors from Parade Magazine and ABC Future Stars, and an Army All-American selection.",
+      "of": "3aaa06e0",
+      "at": [
+        "davidson-day:honors.honors[0].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Individual state champions",
+      "of": "5282e41f",
+      "at": [
+        "davidson-day:honors.honors[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "37 individual state championships. Melissa Zammitti ’17 alone won ten across distance events in three varsity years; Matt Doty and Logan Zucker dominated the pool.",
+      "of": "10a04558",
+      "at": [
+        "davidson-day:honors.honors[1].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Team state championships",
+      "of": "f47540eb",
+      "at": [
+        "davidson-day:honors.honors[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "37 team titles across 13 programs — girls soccer leads with six, and the school has won the NCISAA Wells Fargo Cup twice, in 2019–20 and 2023–24.",
+      "of": "65eba043",
+      "at": [
+        "davidson-day:honors.honors[2].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "All-state selections",
+      "of": "8969ccbb",
+      "at": [
+        "davidson-day:honors.honors[3].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "More than 150 NCISAA All-State athletes all-time. Seven Patriots earned spring 2026 all-state honors across girls lacrosse, girls soccer and boys tennis.",
+      "of": "8b8a681c",
+      "at": [
+        "davidson-day:honors.honors[3].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Patriot Athletic Hall of Fame",
+      "of": "a5654abf",
+      "at": [
+        "davidson-day:honors.honors[4].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Created in 2025 with an eight-person inaugural class — Lamar Briggs, Maya Caldwell, Rashun Davis, Jenny Falcone, Will Grier, Aaron Seward, Melissa Zammitti and contributors Chuck and Karen Wolter. It inducts biennially, next in 2027.",
+      "of": "17cc228e",
+      "at": [
+        "davidson-day:honors.honors[4].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A 319-win, two-time state champion took over boys basketball in 2025 — and won 23 games plus a victory over Oak Hill in year one.",
+      "of": "752baae5",
+      "at": [
+        "davidson-day:coaching.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Athletic Director: Chris Turner. Coaching stability is the sharpest dividing line at this school.",
+      "of": "c8cade1f",
+      "at": [
+        "davidson-day:coaching.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The pedigree hire · Boys Basketball, since 2025",
+      "of": "dee00c4d",
+      "at": [
+        "davidson-day:coaching.featured[0].kicker"
+      ],
+      "t": ""
+    },
+    {
+      "text": "319–143",
+      "of": "e159e8d5",
+      "at": [
+        "davidson-day:coaching.featured[0].stats[0].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "over 17 years at Weddington HS",
+      "of": "5e63dfba",
+      "at": [
+        "davidson-day:coaching.featured[0].stats[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2",
+      "of": "370cabd5",
+      "at": [
+        "davidson-day:coaching.featured[0].stats[1].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NCHSAA state championships",
+      "of": "37ce7bc2",
+      "at": [
+        "davidson-day:coaching.featured[0].stats[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "9×",
+      "of": "eafe64d9",
+      "at": [
+        "davidson-day:coaching.featured[0].stats[2].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "conference Coach of the Year",
+      "of": "76476f72",
+      "at": [
+        "davidson-day:coaching.featured[0].stats[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A genuinely significant hire for a school this size — two state titles, nine conference championships, eight Sweet 16 appearances and two North Carolina Basketball Coaches Association Coach of the Year awards. In year one at Davidson Day he went 23–11, reached the state semifinal and beat Oak Hill Academy. He also serves as the Upper School Strength Teacher, which is the only documented strength-training role on campus.",
+      "of": "7353b4c8",
+      "at": [
+        "davidson-day:coaching.featured[0].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The continuity anchor · Soccer, since 2017",
+      "of": "c56fbcdd",
+      "at": [
+        "davidson-day:coaching.featured[1].kicker"
+      ],
+      "t": ""
+    },
+    {
+      "text": "8+ yrs",
+      "of": "c1c1ce9c",
+      "at": [
+        "davidson-day:coaching.featured[1].stats[0].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "heading both boys and girls soccer",
+      "of": "b23471d8",
+      "at": [
+        "davidson-day:coaching.featured[1].stats[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "5",
+      "of": "300ca0d0",
+      "at": [
+        "davidson-day:coaching.featured[1].stats[1].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "state titles across the two programs",
+      "of": "9f62c728",
+      "at": [
+        "davidson-day:coaching.featured[1].stats[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "63–15–1",
+      "of": "b57e6699",
+      "at": [
+        "davidson-day:coaching.featured[1].stats[2].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "boys record across four title-era seasons",
+      "of": "eed978a3",
+      "at": [
+        "davidson-day:coaching.featured[1].stats[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The longest verified head-coaching tenure at the school, and the clearest illustration of what continuity buys: he rebuilt boys soccer from 7–13 in 2019–20 to 17–4 and a No. 9 state ranking, winning three straight titles, while girls soccer took two more under him. Both programs collapsed in 2025–26 — girls soccer from 14–2 to 3–11 — the season after his departure.",
+      "of": "0e50610d",
+      "at": [
+        "davidson-day:coaching.featured[1].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Volleyball · Assistant AD",
+      "of": "c24233d1",
+      "at": [
+        "davidson-day:coaching.tenure[0].role"
+      ],
+      "t": ""
+    },
+    {
+      "text": "since ~2017",
+      "of": "58948025",
+      "at": [
+        "davidson-day:coaching.tenure[0].since"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Boys & Girls Soccer",
+      "of": "ce8dbaca",
+      "at": [
+        "davidson-day:coaching.tenure[1].role"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2017–2025",
+      "of": "e431ba93",
+      "at": [
+        "davidson-day:coaching.tenure[1].since"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Boys Basketball · Strength Teacher",
+      "of": "5480e773",
+      "at": [
+        "davidson-day:coaching.tenure[3].role"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Girls Basketball — Davidson Day '21 alum",
+      "of": "cff0d3dc",
+      "at": [
+        "davidson-day:coaching.tenure[4].role"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Soccer — succeeded Laatsch",
+      "of": "a8d76627",
+      "at": [
+        "davidson-day:coaching.tenure[5].role"
+      ],
+      "t": ""
+    },
+    {
+      "text": "the school publishes no coaching directory, so head coaches for eight of its thirteen sports are undocumented — a consequence of its official athletics website being offline. Volleyball’s Catherine Glass and soccer’s Brad Laatsch represent long, title-producing tenures; basketball is the opposite, with at least seven boys head coaches since 2008 and seven girls head coaches in eight documented seasons. The 2024 title-winning coach, James Long, left for the college ranks a season later.",
+      "of": "45ea4cdb",
+      "at": [
+        "davidson-day:coaching.worthKnowing"
+      ],
+      "t": ""
+    }
+  ]
+}
