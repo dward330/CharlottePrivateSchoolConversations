@@ -1,6 +1,25 @@
 # Bangla (Bangladesh) research-prose translation — rollout
 
-**Status:** Not started. Written 2026-07-28.
+**Status:** **Phase 0 complete — Phase 1 is the next step.** Written 2026-07-28.
+
+> ## START HERE (fresh session)
+>
+> Phase 0 (typography spike) is **done and verified by print-out**. The script
+> fixes are committed and the numeral rule is enforced by a checker. Nothing
+> from the Spanish rollout needs re-deriving — the extractors, checkers and
+> field classification are language-independent and already correct.
+>
+> **Branch:** `i18n/bengali-bangladesh-label` (PR #58, open). Everything below
+> is pushed; `git pull` and you have it all.
+>
+> **Next command — Phase 1, §3:**
+> ```
+> node scripts/i18n_extract.mjs --topic student-clubs --lang bn
+> ```
+> then the remaining topics, translate the work files, build overlays, and run
+> Phase 2's six checks in order. Read §0 (Dhaka standard is binding), §4
+> (five decisions — numerals already settled), and §5 (Spanish lessons) first.
+> Nothing else from the Spanish conversation is required.
 **Mechanism:** see [`prose-translation-architecture.md`](./prose-translation-architecture.md).
 That doc is language-independent; this one is only the Bangla rollout.
 **Prior rollout:** [`prose-translation-es.md`](./prose-translation-es.md) — Spanish,

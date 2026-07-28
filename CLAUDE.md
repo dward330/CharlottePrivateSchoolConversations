@@ -71,6 +71,12 @@ presentation is localized — **the currency stays USD and the amount never chan
 figure is ever re-typed, so tuition data cannot drift between languages. Never hand-convert
 a number in a data file to "translate" it.
 
+**Active translation work.** The Spanish rollout is complete (all eight stages).
+Bangla (Bangladesh / Dhaka standard) is in progress — **Phase 0 done, Phase 1
+next**. See [`.claude/docs/prose-translation-bn.md`](.claude/docs/prose-translation-bn.md),
+which opens with a START HERE block; the language-independent mechanism lives in
+`prose-translation-architecture.md`. Do not re-derive either from scratch.
+
 Rules of thumb: never concatenate sentence fragments — use interpolation
 (`{{count}} schools`) so word order can change per language. Use i18next's `count`
 option for anything pluralized rather than hand-rolling `s` suffixes.
