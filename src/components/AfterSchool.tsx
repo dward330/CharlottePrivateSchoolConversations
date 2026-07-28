@@ -27,6 +27,7 @@
 import { useMemo, useState } from 'react'
 import { money, localizeMoneyText } from '../lib/format.ts'
 import { useTranslation } from 'react-i18next'
+import type { TFunction } from 'i18next'
 import type {
   AfterSchoolProgram,
   AsFlag,
@@ -61,6 +62,19 @@ function SourceRow({ sources }: { sources: AsSource[] }) {
       )}
     </div>
   )
+}
+
+/**
+ * Weekday code -> localized label.
+ *
+ * `day` is CHROME: a closed five-value vocabulary (Mon…Fri) identical for every
+ * school, which is why `scripts/i18n_fields.mjs` skips it for the prose overlay.
+ * That skip assumed a chrome key already existed; none did, so the raw English
+ * code rendered inside otherwise-Spanish cards. Anything outside the set —
+ * notably the '—' used when a school publishes no day — falls through unchanged.
+ */
+function dayLabel(t: TFunction, day: string): string {
+  return t(`afterSchool.day_${day}`, { defaultValue: day })
 }
 
 /**
@@ -567,7 +581,7 @@ function EnrichmentCatalog({ data }: { data: DayInside }) {
             >
               {/* 'All' is the filter's sentinel value, not a day name — only the
                   LABEL is translated, so the comparisons above keep working. */}
-              {d === 'All' ? t('afterSchool.dayFilterAll') : d}
+              {d === 'All' ? t('afterSchool.dayFilterAll') : dayLabel(t, d)}
             </button>
           ))}
         </div>
@@ -623,7 +637,7 @@ function EnrichmentCatalog({ data }: { data: DayInside }) {
                     {highlight(c.desc, q)}
                   </span>
                 </td>
-                <td className="as-td">{c.day}</td>
+                <td className="as-td">{dayLabel(t, c.day)}</td>
                 <td className="as-td">{c.gradeLabel}</td>
                 <td className="as-td as-td-fee">{localizeMoneyText(c.fee)}</td>
               </tr>
