@@ -321,3 +321,90 @@ and wrong in another, and only the path can tell them apart.
    translated descriptions also stay English (`BrickEd`, `Carolina Soccer
    Factory`, `Le Petit Ballet Co.`). Intentional, and worth confirming it reads
    as deliberate rather than half-finished.
+
+---
+
+## Stage 5 — College Support (902 strings, 17,492 words)
+
+Landed 2026-07-27. Full coverage: 1089/1089 field sites. **The largest and
+highest-stakes stage** — admissions outcomes, acceptance lists, counselor
+ratios, and a very high density of hedges about conflicting figures.
+
+The skip audit ran first and caught the same shape Stage 3 hit: `value` is a
+bare figure in `outcomes.stats` but a phrase in the counseling and transcript
+strips — `"No rank"`, `"Not published"`, `"Quintiles"`, `"9th grade"`,
+`"0.5 credit"`, `"18+ yrs"`, `"25 AP + IB"`. Split by path, so the phrases
+translate and the numerals round-trip untouched.
+
+### Terminology choices worth a second opinion
+
+| English | Spanish used | Note |
+|---|---|---|
+| School Profile / Academic Profile | left English (`el profile`) | A specific named document every admissions office reads. Translating it would break the link to what a family actually requests by name. |
+| acceptance list vs matriculation list | lista de admisiones / lista de matriculaciones | **The single most load-bearing distinction in this stage.** Nearly every school's caveat turns on it. Kept rigidly consistent. |
+| enrolled / matriculated | matriculado | One verb for both, since Spanish does not carry the distinction and the English uses them interchangeably here. |
+| Class of 2025 | promoción de 2025 | Consistent throughout. |
+| seniors / juniors | alumnos de último curso / de tercer curso | Verbose but unambiguous, per Stage 1. |
+| 9th grade | noveno grado | Numerals spelled out where English did, e.g. `9th grade` → `noveno grado`. |
+| quintile table | tabla de quintiles | Literal; the mechanism is explained in surrounding prose. |
+| weighted / unweighted GPA | promedio ponderado / sin ponderar | Standard. |
+| quality point | punto de calidad | Literal calque; no Spanish equivalent exists. |
+| most rigorous | left English in quotes | It is the Common App's term of art, quoted as such. |
+| test-optional | test-optional | Left English — a named US admissions policy with no Spanish equivalent. |
+| merit scholarship / merit aid | beca por méritos / ayuda por méritos | Distinguished from need-based aid, which the Financial Aid stage will cover. |
+| Commended / Semifinalist / Finalist | con mención / semifinalista / finalista | National Merit tiers; the program name stays English. |
+| learning specialist | especialista en aprendizaje | Literal. |
+| 504 plan, IEP | left English | Named US legal instruments. |
+| HBCU | HBCU | Acronym kept; surrounding prose explains it. |
+| rep visits | visitas de representantes | "Representantes universitarios" on first use per card. |
+| spike (admissions) | perfil destacado | No Spanish equivalent for this admissions-jargon sense. Verify it reads naturally. |
+
+### Specific soft spots
+
+1. **Currency was normalised late.** Four strings originally rendered `$23
+   million` as `23 millones de dólares`. Corrected to `$23 millones` so
+   `localizeMoneyText()` still owns presentation and the figure round-trips like
+   every other. Worth confirming none was missed.
+
+2. **`charlotte-latin:transcript.flags[2].text`** — the unremoved internal
+   editorial note in Latin's live PDF (*"We'll need to somehow check to make
+   sure all these students are still here, yes?"*). Quotation left English per
+   convention; the surrounding judgment ("a proofreading lapse in the one
+   document every admissions office reads") is translated. The English quote
+   inside Spanish prose is deliberate.
+
+3. **Every school's `outcomes.caveat`** is the highest-risk string in its card —
+   each explains that an acceptance list is *not* a matriculation list, in
+   different words, with different asterisk semantics. Softening any of them
+   turns a caveat into a claim about where students actually go. Read all six
+   together and check they carry equal force.
+
+4. **`cannon:outcomes.scholarshipsNote`** — draws a hard line between college
+   merit money and the school's own inbound tuition assistance ("the two must
+   not be conflated"). The distinction is the whole point of the note.
+
+5. **`charlotte-country-day:outcomes.tierNote`** — states that no Class of 2026
+   student enrolled at an Ivy, then immediately says the prior class enrolled at
+   five, and calls it "a real year-over-year swing rather than a data artefact".
+   Both halves must survive.
+
+6. **`cannon:transcript.flags[0].text`** — AP exams are OPTIONAL at Cannon, so
+   its 92% is "not directly comparable" with schools that mandate them. That
+   single comparability hedge is what stops a reader ranking six schools on one
+   number. Also `charlotte-christian` and `charlotte-latin` state the opposite
+   (mandatory) — the contrast must stay legible across cards.
+
+7. **Ratio strings** (`~36:1`, `~1:99`, `~1:28`) — several are explicitly
+   *derived by the researcher*, not published, and several note that the honest
+   measure is the all-grades figure rather than the senior-only one. Latin,
+   Christian, Country Day, Cannon and Davidson Day each carry a version of this.
+   The word "derivado" must not drop.
+
+8. **`davidson-day:transcript.flags[1].text`** — *"Unpublished is not the same
+   as zero"* about National Merit. A precise epistemic distinction rendered as
+   *"No publicado no equivale a cero"*. Check the force.
+
+9. **Decimal separators** — GPA figures are Spanish-style (`4,467`, `3,891`) per
+   the standing convention, while SAT/ACT scores stay bare (`1445`, `31`). Both
+   appear in the same sentence in several quintile notes, which looks
+   inconsistent but is correct: one is a decimal, the other is not.
