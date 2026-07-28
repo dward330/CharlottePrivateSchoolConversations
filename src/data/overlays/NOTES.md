@@ -449,3 +449,83 @@ missed. Recorded because each is a distinct shape:
 The pattern across stages 4 and 5 is now unambiguous: **the checks catch data
 problems, and the print-outs catch component problems.** Three of these four
 were English living in a component or constant the overlay layer cannot reach.
+
+---
+
+## Stage 6 — Course Offerings (1,848 strings, 16,054 words)
+
+Landed 2026-07-27. Full coverage: 2956/2956 field sites — by far the most field
+sites of any stage, because course titles and tags repeat across six schools.
+
+**Both Stage 5 lessons were applied BEFORE translating**, and both paid off:
+
+1. **Read the component first.** `CourseOfferings.tsx` had four hardcoded
+   strings, two of them **aria-labels** — screen-reader text that no print-out
+   can ever reveal. That check found something the review process structurally
+   cannot.
+
+2. **Enumerate a field's values; don't read its leaf name.** `tag` has 70
+   distinct values: 32 grade codes (`Gr 9–12`, `TK–Gr 5`) and **38 real words** —
+   `Required`, `Elective`, `Semester`, `Fall`, `Audition`, `Pass/Fail`, `Weekly`,
+   `Zero Hour`. Classifying by the codes would have shipped all 38 in English.
+
+The residual detector then caught the biggest gap: `description`, `teaser` and
+`notPublished` were unclassified, so the first extraction silently dropped 948
+strings and 13k words. **Classifying them also raised The Arts from 641 to 659
+field sites** — `teaser` had been missing there too, unnoticed since Stage 2.
+
+### Course-title policy (project owner's decision)
+
+Translate plain descriptive titles; keep anything a family must match against
+the school's own published catalog. 378 titles kept as published:
+
+- **AP / IB course names** — formally registered with the College Board and IBO
+- **Level-numbered sequences** — `English 6`, `Algebra I`, `Latin III`
+- **Branded names** — `Tech Tank`, `IDEAS@PDS`, `Learning Loft`, `ThinkTank`
+
+Descriptive titles translate: `Music` → `Música`, `The Amazing Human Body` →
+`El asombroso cuerpo humano`, `Contemporary Global Issues` → `Cuestiones
+globales contemporáneas`.
+
+### Terminology choices worth a second opinion
+
+| English | Spanish used | Note |
+|---|---|---|
+| Honors (as a tag/suffix) | Honors | Left English. It is a formal course-level designation that appears on the transcript, like AP. |
+| Semester / Year (tag) | Semestral / Anual | Adjectival, matching how the tag reads beside a title. |
+| Pass/Fail | Apto/no apto | Standard Spanish academic phrasing. |
+| Zero Hour | Hora cero | Literal; the surrounding description explains the 7 a.m. slot. |
+| Language Arts | Lengua y literatura | The US subject name has no direct equivalent. |
+| Social Studies | Ciencias sociales | Standard. |
+| Advanced Topics (Cannon) | left English | A school-designed course tier, like AP — `AT` is its transcript tag. |
+| Signature Learning Experience | left English | Cannon's own named capstone mechanism. |
+| Winterim / Senior Externship | left English | Named programs. |
+| Bible / Biblical Studies | left English | Charlotte Christian's department name as published. |
+| study skills | técnicas de estudio | Literal. |
+| makerspace | makerspace | The loanword is standard in Spanish ed-tech contexts. |
+
+### Specific soft spots
+
+1. **Departments named after school brands** — `IDEAS@PDS`, `iKNIGHTS`,
+   `Knights Knews`, `MidKnight Knews`, `UKnight Worship` — kept English. Several
+   are puns on the school mascot that do not survive translation at all.
+
+2. **`charlotte-latin` Upper School descriptions are researcher-written**, not
+   school copy: Latin publishes titles without descriptions, so every one reads
+   "The junior-year survey of American literature." They are uniform by
+   construction, and the Spanish is uniform to match. Check that reads as
+   deliberate.
+
+3. **Prerequisite grade thresholds** (`requires 90 in Algebra I`, `87 in Honors
+   Precalculus`) — these are US percentage grades, not Spanish 1–10 marks.
+   Left as figures per the standing rule, but a Spanish reader may misread `90`
+   as a scale they know. Worth a reviewer's judgment.
+
+4. **`Age 2 – Grade 4`** → `2 años – Grado 4`. The only `grades` value where the
+   English word is an age rather than a grade band.
+
+5. **Reading-list titles stay English** (`The Great Gatsby`, `Of Mice and Men`,
+   `Beowulf`) — a student reads them in English here. But four canonical works
+   were given their standard Spanish titles where the Spanish name is the one a
+   Hispanophone reader knows: `1984`, `El extranjero`, `El gran Gatsby`,
+   `Frankenstein`. That inconsistency is deliberate but debatable.

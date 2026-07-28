@@ -1,6 +1,6 @@
 # Spanish research-prose translation — rollout
 
-**Status:** Stages 1–5 of 8 landed. Written 2026-07-27.
+**Status:** Stages 1–6 of 8 landed. Written 2026-07-27.
 **Mechanism:** see [`prose-translation-architecture.md`](./prose-translation-architecture.md).
 That doc is language-independent; this one is only the Spanish rollout.
 
@@ -23,7 +23,7 @@ admissions outcomes and tuition. Word counts below are **measured**
 | 3 ✅ | **Sports** | 9,553 | 719 | **Done.** Most field sites — stressed reinjection breadth |
 | 4 ✅ | **After School** | 9,550 | 657 | **Done.** Money strings verified: every `$` figure preserved verbatim, none hand-converted — `localizeMoneyText()` still owns presentation |
 | 5 ✅ | **College Support** | 17,492 | 902 | **Done.** Highest stakes and largest: admissions outcomes. `value` split by path again; figure-integrity pass run over every string |
-| 6 | **Course Offerings** (`courseOfferings.ts`) | 17,858 | 2,992 | Found by the sibling-layer audit; its own card, own module |
+| 6 ✅ | **Course Offerings** (`courseOfferings.ts`) | 16,054 | 2,956 | **Done.** Component read first (4 leaks, 2 aria-labels); `tag` enumerated (38 of 70 values are words); `description`/`teaser` were unclassified and had silently dropped 948 strings |
 | 7 | **Financial Aid** — deep-dive report (`financialAidReports.ts`) | 11,464 | 934 | Structured card; highest stakes |
 | 8 | **Financial Aid** — ingested prose (`src/content`) | ~39k | — | The only `src/content` stage; do last |
 | — | **Stat tiles / Compare rows** (`metricValues.ts`) | 704 | 184 | Small; fold into whichever stage touches its topic |

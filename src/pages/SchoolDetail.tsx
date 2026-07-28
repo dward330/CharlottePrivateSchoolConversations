@@ -34,7 +34,7 @@ import {
   // Sports also exports a HonorsBody (athletic honors); alias to disambiguate.
   HonorsBody as ClubsHonorsBody,
 } from '../components/ClubsProgram.tsx'
-import { courseOfferings } from '../data/courseOfferings.ts'
+import { courseOfferings, loadCourseOfferingsOverlay } from '../data/courseOfferings.ts'
 import { CourseOfferingsBody } from '../components/CourseOfferings.tsx'
 import {
   sportsProgram,
@@ -294,8 +294,9 @@ export function SchoolDetail({ slug }: { slug: string }) {
       loadSportsOverlay(lang),
       loadAfterSchoolOverlay(lang),
       loadCollegeSupportOverlay(lang),
+      loadCourseOfferingsOverlay(lang),
       ...covered.map(async (t) => [t.slug, await loadMetricGroups(t.slug, slug)] as const),
-    ]).then(([, , , , , ...entries]) => {
+    ]).then(([, , , , , , ...entries]) => {
       if (!alive) return
       setLoaded(Object.fromEntries(entries))
       setReady(true)
@@ -434,7 +435,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                as one card per division, so its header count and card grid come
                from `offerings` rather than the ingested metric groups. */
             const offerings =
-              t.slug === 'course-offerings' ? courseOfferings(slug) : undefined
+              t.slug === 'course-offerings' ? courseOfferings(slug, lang) : undefined
             /* Sports is thirteen ingested sub-sections but seven consolidated
                cards on the page (see data/sportsProgram.ts), so — like Course
                Offerings — it replaces the metric-group loop rather than
