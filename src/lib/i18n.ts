@@ -167,18 +167,34 @@ void i18n.use(initReactI18next).init({
 })
 
 /**
- * Resolves once the startup locale's catalog is in i18next.
+ * Resolves once the startup locale's catalog is in i18next AND that locale is
+ * the resolved one.
  *
  * main.tsx awaits this before the first render. Without it a saved locale boots
  * visibly English and repaints a frame later, because init() resolves the
  * language synchronously while its catalog is still in flight. A failure here is
  * deliberately swallowed: English is already loaded, which is exactly the
  * fallback we want.
+ *
+ * The `changeLanguage` call is load-bearing, not a formality. init() is handed
+ * `resources: { en }` only — every other catalog arrives later — so i18next
+ * resolves past a language it has no bundle for and leaves
+ * `i18n.resolvedLanguage === 'en'` even when `lng: 'es'` was passed. Emitting
+ * `languageChanged` does NOT fix that; only changeLanguage() updates it.
+ *
+ * Anything keying off `resolvedLanguage` therefore saw 'en' on a cold load.
+ * That silently disabled the research-prose overlays (see
+ * src/data/clubsProgram.ts), which resolve by locale and fall back to English
+ * without erroring: a returning Spanish reader got Spanish chrome wrapped
+ * around English cards, while switching languages by hand worked fine — because
+ * the picker calls changeLanguage() itself.
  */
-export const ready: Promise<void> = loadCatalog(initialLang).then(
-  () => { i18n.emit('languageChanged', initialLang) },
-  () => { /* startup bundle failure — English stands in, nothing to undo */ },
-)
+export const ready: Promise<void> = loadCatalog(initialLang)
+  .then(() => i18n.changeLanguage(initialLang))
+  .then(
+    () => { /* resolvedLanguage now matches initialLang */ },
+    () => { /* startup bundle failure — English stands in, nothing to undo */ },
+  )
 
 /**
  * Switch the active locale for the whole app.
