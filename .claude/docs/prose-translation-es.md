@@ -1,6 +1,6 @@
 # Spanish research-prose translation — rollout
 
-**Status:** not started. Written 2026-07-27.
+**Status:** Stage 1 of 8 landed. Written 2026-07-27.
 **Mechanism:** see [`prose-translation-architecture.md`](./prose-translation-architecture.md).
 That doc is language-independent; this one is only the Spanish rollout.
 
@@ -18,31 +18,46 @@ admissions outcomes and tuition. Word counts below are **measured**
 | Stage | Scope | Words | Fields | Why here |
 |---|---|---|---|---|
 | 0 ✅ | Extraction + `check_translations.mjs` + field classification. No prose, no `localized()`. | — | — | **Done.** Machinery alone; measured the real surface |
-| 1 ✅ | **Student Clubs** | 4,471 | 240 | **Done.** Smallest topic; proved the pipeline end-to-end and landed `localized()` + accessor rewiring |
+| 1 ✅ | **Student Clubs** (3 modules) | 7,044 | 577 | **Done.** Smallest topic; proved the pipeline end-to-end and landed `localized()` + accessor rewiring |
 | 2 | **The Arts** | 12,988 | 587 | Low stakes; first substantial prose volume |
 | 3 | **Sports** | 9,939 | 719 | Most field sites — stresses reinjection breadth |
 | 4 | **After School** | 9,430 | 603 | Money strings — verify `localizeMoneyText()` still owns them |
 | 5 | **College Support** | 17,463 | 896 | Highest stakes and largest: admissions outcomes |
-| 6 | **Financial Aid** | ~39k (`src/content`) | — | Highest stakes; the only `src/content` stage; do last |
+| 6 | **Course Offerings** (`courseOfferings.ts`) | 17,858 | 2,992 | Found by the sibling-layer audit; its own card, own module |
+| 7 | **Financial Aid** — deep-dive report (`financialAidReports.ts`) | 11,464 | 934 | Structured card; highest stakes |
+| 8 | **Financial Aid** — ingested prose (`src/content`) | ~39k | — | The only `src/content` stage; do last |
+| — | **Stat tiles / Compare rows** (`metricValues.ts`) | 704 | 184 | Small; fold into whichever stage touches its topic |
 
-**Stage 1 changed from The Arts to Student Clubs** on the measured numbers. The Arts
-is 12,988 words — nearly 3× Student Clubs — and the first stage carries the
-architecture risk (`localized()`, accessor rewiring) as well as the first
-translation. Pairing that risk with the smallest content gets the machinery reviewed
-on 240 fields rather than 587.
+**Stage 1 changed from The Arts to Student Clubs** on the measured numbers, and that
+turned out to matter for a second reason: Student Clubs renders from **three**
+modules, not one, so it exposed the sibling-layer problem on the cheapest topic.
 
-Total for stages 1–5: **54,427 words** across 3,045 field sites.
+**Sibling-layer audit (2026-07-27).** After Stage 1 shipped two English cards, every
+topic was checked against the accessors `SchoolDetail` actually calls. Findings:
 
-**One stage per PR.** Seven PRs. Nothing batches.
+- Sports, The Arts, College Support, After School each render from a **single**
+  `*Programs/<slug>.ts` module — no hidden siblings. Their stage numbers stand.
+- Student Clubs renders from **three** (`clubsPrograms` + `clubClusters` +
+  `clubCatalog`) — the Stage 1 gap, now closed.
+- **`courseOfferings.ts` (17,858 words) and `financialAidReports.ts` (11,464) were
+  never in the plan at all.** Both are per-school research prose behind their own
+  cards. They are now stages 6 and 7.
+- `metricValues.ts` (704 words) carries stat-tile labels and Compare-row notes.
 
-Stage 6 is the only one touching the still-prose-first `src/content/` layer, and the
+Total across all stages: **~97,700 words**, up from the 54,427 the plan carried
+before the audit — a 79% increase, all of it work that was always there and simply
+uncounted.
+
+**One stage per PR.** Nine PRs. Nothing batches.
+
+Stage 8 is the only one touching the still-prose-first `src/content/` layer, and the
 only place the ingest-desync concern is real. Same overlay + hash mechanism, keyed by
 `(school, topic, subtopic)`; because runtime falls back to English on hash mismatch,
 an ingest pass that rewrites a section degrades it to English rather than corrupting
 it. Expect this stage to need the most iteration — no ingest pass has yet interacted
 with an overlay.
 
-**Do not flip `PROSE_TRANSLATED` to include `'es'` until Stage 6 passes review.**
+**Do not flip `PROSE_TRANSLATED` to include `'es'` until Stage 8 lands.**
 
 ---
 
@@ -54,7 +69,7 @@ reviewer, and no stage is blocked from merging for lack of one.
 
 Practical consequences:
 
-- Stages 1–6 land back-to-back at whatever pace the work allows.
+- Stages 1–8 land back-to-back at whatever pace the work allows.
 - **`PROSE_TRANSLATED` stays `[]` until the end-of-rollout review.** This is the one
   remaining ordering constraint, and it is technical rather than editorial: that list
   drives `data-prose` on `<html>` and the RTL LTR-pin CSS rule (see
@@ -68,7 +83,7 @@ Practical consequences:
 **Translation notes are kept as we go** in `src/data/overlays/NOTES.md` — terminology
 choices, hedges that were hard to carry into Spanish, and anything a stage was unsure
 of. This costs almost nothing during the work and gives the eventual review a list of
-known soft spots rather than an undifferentiated 93k-word wall.
+known soft spots rather than an undifferentiated ~98k-word wall.
 
 Worth stating plainly, since it is the risk being accepted rather than removed: this
 is factual research families use for five-figure decisions, the prose carries
@@ -81,17 +96,17 @@ the `PROSE_TRANSLATED` hold are what keep that recoverable.
 
 ## Permitted compressions
 
-If seven PRs is too much ceremony, these are defensible:
+If nine PRs is too much ceremony, these are defensible:
 
-- **Fold Stage 0 into Stage 1** — machinery plus The Arts. Sooner working Spanish, at
-  the cost of reviewing architecture and first translation output together. Not
-  recommended, but reasonable.
-- **Merge stages 2–4** (Sports, Clubs, After School) — the three lowest-stakes content
-  stages, sharing one code path. Gets you to five PRs.
+- **Merge stages 2–4** (The Arts, Sports, After School) — the three lowest-stakes
+  remaining content stages, sharing one code path.
+- **Fold `metricValues.ts`** into whichever stage touches its topic rather than giving
+  it one of its own; it is 704 words.
 
-**Not compressible: stages 5 and 6** (College Support, Financial Aid), and neither
-folds into anything else. Those are the admissions-outcome and tuition numbers — the
-reason the gate exists at all.
+**Not compressible: stages 5, 7 and 8** (College Support, and both halves of Financial
+Aid). Those are the admissions-outcome and tuition numbers — the reason the caution
+exists at all. Stage 6 (Course Offerings) is large but low-stakes; it can move earlier
+if a stage needs to be cheap.
 
 ---
 
