@@ -160,3 +160,73 @@ Landed 2026-07-27. Full coverage: 587/587 field sites. Nearly 3× Stage 1.
    Woods*, *Enrique V* is the exception — Shakespeare has established Spanish titles,
    so *Henry V* → *Enrique V* and *Julius Caesar* → *Julio César*). That inconsistency
    is deliberate but arguable.
+
+---
+
+## Stage 3 — Sports (636 strings, 9,749 words)
+
+Landed 2026-07-27. Full coverage: 888/888 field sites — the most of any topic.
+
+**Print-outs caught six misclassified fields across two passes.** `since` was
+skipped as a "numeral / short date" and `tag` as a "short badge code"; both are
+actually phrases — `since 2002`, `long-tenured`, `15+ years`, `2 OF 3 YRS`,
+`meet-scored`, `Statewide, 1 per sport`. A second print then caught `meta` ("built 2012–13", "53,000 sq ft, 2001",
+"renamed 2025"), `date` ("May 2023", "July 1, 2025") and season names — all
+phrases with figures embedded rather than bare codes.
+
+`value` needed splitting by path rather than a blanket rule: the stat strips carry
+bare figures ("27", "66") that must never be re-typed, while the coaching and
+national cards use short phrases ("24 yrs", "HOF", "5 straight"). Season names are
+likewise resolved at `offered.seasons[].name` only, so the sport names beneath them
+stay English.
+
+719 -> 888 field sites across the two corrections. Figures inside every translated
+phrase are preserved; only the surrounding words move.
+
+### Terminology choices worth a second opinion
+
+| English | Spanish used | Note |
+|---|---|---|
+| varsity / JV | varsity / JV | Left English. No Spanish equivalent, and a parent hears these words on a tour. |
+| commit / commitment | compromiso | Consistent throughout; "el estudiante se compromete". |
+| Division I, Power 4 | División I, Power 4 | Division translated, Power 4 left — it is a named conference grouping. |
+| NCISAA / NCHSAA / CISAA | left English | Association acronyms, expanded once each. |
+| state title | título estatal | Literal. NCISAA is a private-school association, which the prose says explicitly. |
+| athletic trainer | fisioterapeuta deportivo | Closest functional equivalent; the US "athletic trainer" role has no exact Spanish analogue. |
+| strength & conditioning | fuerza y acondicionamiento | Standard in Spanish sports contexts. |
+| Class of '19 | promoción de ’19 | Consistent with Stage 1's "penúltimo curso" handling. |
+| sack, touchdown, quarterback | left English | American-football terms with no Spanish currency. |
+| NIL | NIL | Left as the acronym; explained by surrounding prose. |
+| pounds (wrestling weights) | converted to kg | 150 lbs → 68 kg. See soft spot 1. |
+| square feet | converted to m² | Same as Stage 2. See soft spot 1. |
+
+### Specific soft spots
+
+1. **Unit conversions are now in two stages and want a single ruling.** Stage 2
+   converted square footage; Stage 3 converts both square footage *and* wrestling
+   weight classes (150 lbs → 68 kg, 175 lbs → 79 kg) and heights (6'3" → 1,90 m).
+   These are **derived numbers, not transcribed ones** — the standing rule says never
+   re-type a figure. A reviewer should decide once, for the whole corpus: convert
+   imperial units, or keep them as published. I converted because a Spanish reader
+   cannot picture feet or pounds, but I am not confident it is right.
+
+2. **`providence-day:pipeline.funnelNote`** — the "floor, not a ceiling" hedge, plus
+   the distinction between an *offer* and a *commitment* (one recruit can hold eight
+   offers and make one commitment). Both carry the card. Rendered as *"un suelo, no un
+   techo"*.
+
+3. **`cannon:pipeline.rosterNote`** — *"This is the most honest number available, not
+   a census"*, explaining that the school's site renders client-side with no indexable
+   text. A methodology caveat about **why** the number is incomplete; easy to flatten
+   into a plain disclaimer.
+
+4. **`davidson-day:record.headline`** — *"This is a program in visible decline."* A
+   blunt editorial judgment about a real school. Rendered as *"Es un programa en
+   declive visible."* Same force, no hedging added.
+
+5. **Win–loss records and scores are never re-typed** — `12–1`, `42–39`, `69–59`,
+   `23–7` all stay exactly as authored. Only surrounding prose is translated.
+
+6. **`charlotte-christian:pipeline.rankedRecruits`** — the Stephen Curry counter-example
+   (no major-conference offer, 31 point guards ranked ahead of him). The *inverse*
+   framing is the point; check it survives.

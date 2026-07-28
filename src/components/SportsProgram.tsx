@@ -271,10 +271,12 @@ export function WinningRecordBody({ data }: { data: WinningRecord }) {
 
 /* -------------------------------------------------- 1c · college pipeline -- */
 
-const LEVEL_TABS: { key: 'all' | 'd1' | 'p4'; label: string }[] = [
-  { key: 'all', label: 'All' },
-  { key: 'd1', label: 'Division I' },
-  { key: 'p4', label: 'Power 4 Schools' },
+/* Filter keys only — the visible label is resolved per locale at render, since
+   these are chrome rather than research findings. */
+const LEVEL_TABS: { key: 'all' | 'd1' | 'p4'; labelKey: string }[] = [
+  { key: 'all', labelKey: 'cardLabels.filterAll' },
+  { key: 'd1', labelKey: 'cardLabels.filterD1' },
+  { key: 'p4', labelKey: 'cardLabels.filterP4' },
 ]
 
 /** Splits a field around the search hit so the match can be highlighted. */
@@ -392,8 +394,8 @@ export function CollegePipelineBody({ data }: { data: CollegePipeline }) {
       <div className="sports-split">
         <div>
           <Heading>
-            D1 commits by sport{' '}
-            <span className="text-muted sports-h-hint">(■ = Power 4 share)</span>
+            {t('cardLabels.d1CommitsBySport')}{' '}
+            <span className="text-muted sports-h-hint">{t('cardLabels.p4ShareHint')}</span>
           </Heading>
           <div className="sports-sportbars">
             {data.sportBars.map((b) => (
@@ -436,15 +438,15 @@ export function CollegePipelineBody({ data }: { data: CollegePipeline }) {
       <Heading>{t('sports.commitmentRoster')}</Heading>
       <div className="sports-rostertools">
         <div className="sports-tabs" role="group" aria-label={t('tables.filterCommitmentsAria')}>
-          {LEVEL_TABS.map((t) => (
+          {LEVEL_TABS.map((tab) => (
             <button
-              key={t.key}
+              key={tab.key}
               type="button"
-              className={filter === t.key ? 'catalog-chip is-active' : 'catalog-chip'}
-              aria-pressed={filter === t.key}
-              onClick={() => setFilter(t.key)}
+              className={filter === tab.key ? 'catalog-chip is-active' : 'catalog-chip'}
+              aria-pressed={filter === tab.key}
+              onClick={() => setFilter(tab.key)}
             >
-              {t.label}
+              {t(tab.labelKey)}
             </button>
           ))}
         </div>
