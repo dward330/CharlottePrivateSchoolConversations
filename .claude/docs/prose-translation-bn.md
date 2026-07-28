@@ -193,13 +193,25 @@ only once the print-out is clean, and register the catalog in `resources`.
 
 Record the answer in `src/data/overlays/NOTES.md` as each is settled.
 
-1. **Numerals — Western or Bangla digits?** Bangla has its own (০১২৩৪৫৬৭৮৯).
-   **Recommendation: keep Western digits.** Every figure in this corpus is a
-   checkable citation — tuition tables, Wayback timestamps, SAT scores — and a
-   family must be able to match them against the school's own English page.
-   `localizeMoneyText()` also owns currency presentation and expects Western
-   digits. This mirrors the Spanish rule: presentation may localise, the figure
-   never changes.
+1. **Numerals — SETTLED 2026-07-28: Western digits, everywhere.** Bangla has
+   its own (০১২৩৪৫৬৭৮৯), and the Phase 0 spike drifted into them twice —
+   `SECTION 01` → `অধ্যায় ০১` and `LAST 3 SEASONS` → `সর্বশেষ ৩ মৌসুম` — while
+   every dollar figure, year and Wayback timestamp in the same document stayed
+   Western. That inconsistency inside one page is exactly the failure mode to
+   avoid at 84k words.
+
+   **Rule: never use Bangla digits.** Every number in this corpus is either a
+   checkable citation a family matches against the school's own English page
+   (tuition tables, Wayback timestamps, SAT scores, `2026–27`) or a figure
+   `localizeMoneyText()` formats and which expects Western digits. Mixing the
+   two numeral systems on one line reads as a typo, and switching wholesale
+   would break the citations. Mirrors the Spanish rule: presentation may
+   localise, the figure never changes.
+
+   Worth flagging to the reviewer: Bangladeshi Bangla in practice uses both,
+   and a Dhaka reader would not find `৩ মৌসুম` wrong in isolation. This is a
+   consistency decision for a citation-heavy corpus, not a claim about the
+   language.
 
 2. **School and institution names.** `Charlotte Country Day School`,
    `Providence Day`, `NCISAA`, `Model United Nations` — keep in Latin script.
