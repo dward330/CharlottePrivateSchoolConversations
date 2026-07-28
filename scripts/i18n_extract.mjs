@@ -55,6 +55,16 @@ const TOPICS = {
   'student-clubs': 'clubsPrograms',
   'college-support': 'collegeSupportPrograms',
   'after-school': 'afterSchoolPrograms',
+  'course-offerings': null,   // single module + accessor, see ACCESSORS
+}
+
+/**
+ * Topics whose per-school data lives in ONE module behind an accessor rather
+ * than in `<dir>/<slug>.ts`. Course Offerings is a single 5,800-line file with
+ * six school constants and a `courseOfferings(slug)` lookup.
+ */
+const ACCESSORS = {
+  'course-offerings': ['../src/data/courseOfferings.ts', 'courseOfferings'],
 }
 
 /** Slug -> the export name each per-school module uses. */
@@ -69,6 +79,21 @@ const EXPORTS = {
 
 /** One school's entry for a topic, or undefined if that school has none. */
 async function entryFor(topic, slug) {
+  const accessor = ACCESSORS[topic]
+  if (accessor) {
+    const [mod, fn] = accessor
+    try {
+      return (await import(mod))[fn](slug)
+    } catch (err) {
+      // Never swallow this. An accessor that throws silently drops a whole
+      // school from BOTH the extraction and the coverage denominator, so the
+      // checker reports 100% while the page renders English (see the Stage 1
+      // Student Clubs failure).
+      console.error(`  ✗ ${topic}/${slug}: ${err.message}`)
+      process.exitCode = 2
+      return undefined
+    }
+  }
   try {
     const m = await import(`../src/data/${TOPICS[topic]}/${slug}.ts`)
     return m[EXPORTS[slug]]
@@ -189,7 +214,7 @@ async function collect(topicSlug) {
 async function main() {
   const topics = ONLY ? [ONLY] : Object.keys(TOPICS)
   for (const t of topics) {
-    if (!TOPICS[t]) {
+    if (!(t in TOPICS)) {
       console.error(`unknown topic: ${t}\nknown: ${Object.keys(TOPICS).join(', ')}`)
       process.exit(2)
     }

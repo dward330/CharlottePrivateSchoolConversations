@@ -39,6 +39,9 @@ export const PROSE_KEYS = new Set([
   'recognizes', 'feedsFrom', 'didNotWin',
   // Human-readable labels and captions
   'label', 'valueLabel', 'gradeLabel', 'panelLabel', 'flatLabel', 'title',
+  // Course Offerings: the course one-liner, the collapsed-card teaser, and the
+  // honest "school publishes subject areas, not named courses" note.
+  'description', 'teaser', 'notPublished',
   'kicker', 'verdict', 'result',
   // Tenure and record annotations read as phrases, not bare figures: "since 2002",
   // "long-tenured", "15+ years", "2 OF 3 YRS", "meet-scored", "stroke play",
@@ -88,6 +91,7 @@ export const PROSE_KEYS = new Set([
  */
 export const SKIP_KEYS = new Map([
   ['url', 'link target'],
+  ['sourceUrl', 'link target'],
   ['src', 'asset path'],
   ['id', 'internal key'],
   ['name', 'proper noun — people, schools, colleges, sports, venues'],
@@ -211,6 +215,27 @@ export const PATH_OVERRIDES = new Map([
   // "Top-75 Liberal Arts". Marked prose so those translate; the translator
   // leaves the proper nouns identical and the overlay stores a no-op.
   ['outcomes.buckets[].tier', true],
+  // Course Offerings. Classified from an ENUMERATION of every distinct value in
+  // the module, not from the leaf names — the lesson of the three College
+  // Support splits.
+  //
+  //   departments[].name  52 values, all descriptive subject areas
+  //                       ("Mathematics", "World Languages", "Core Academics").
+  //                       The `name` leaf is otherwise a proper noun, so this
+  //                       needs the path.
+  //   divisions[].grades  7 values, all grade bands ("Grades 9 – 12",
+  //                       "Age 2 – Grade 4"). "Grades"/"Age" ARE English words a
+  //                       parent reads, so prose despite the leaf being a skip.
+  //
+  // `tag` and `title` are already prose globally. Worth recording why `tag`
+  // matters here: 38 of its 70 values are real words — Required, Elective,
+  // Semester, Fall, Audition, Pass/Fail, Weekly — and only 32 are grade codes.
+  // Classifying it by the codes would have shipped all 38 in English.
+  ['departments[].name', true],
+  ['divisions[].grades', true],
+  // `guideYear` is mostly year codes ('2026-27') but one school publishes
+  // 'current listing' — a phrase. Prose; the codes round-trip unchanged.
+  ['guideYear', true],
   // Season names are chrome — byte-identical for every school — but they live at
   // `offered.seasons[].name`, and `name` is otherwise a proper noun (sports,
   // people, venues). Resolved by path so the sport names beneath stay English.
