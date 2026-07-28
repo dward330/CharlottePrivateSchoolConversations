@@ -44,7 +44,19 @@ export const SUPPORTED: readonly Lang[] = [
   { code: 'fr', label: 'French', native: 'Français' },
   { code: 'ht', label: 'Haitian Creole', native: 'Kreyòl Ayisyen' },
   { code: 'fa', label: 'Farsi', native: 'فارسی', rtl: true, font: 'Noto Naskh Arabic' },
-  { code: 'bn', label: 'Bengali', native: 'বাংলা', font: 'Noto Sans Bengali' },
+  /* Bangla is standardised differently in Bangladesh and in West Bengal, India
+     — everyday vocabulary diverges (পানি vs জল for water) and the two lean
+     Perso-Arabic vs Sanskritic. This app targets the DHAKA / BANGLADESH
+     standard, so the picker names the country rather than leaving a reader to
+     guess which Bangla they are choosing. Code stays `bn` (not `bn-BD`): no
+     Kolkata variant is offered, so there is nothing to disambiguate at the
+     locale level, and the catalog filename would churn for no gain. */
+  {
+    code: 'bn',
+    label: 'Bengali (Bangladesh)',
+    native: 'বাংলা (বাংলাদেশ)',
+    font: 'Noto Sans Bengali',
+  },
   { code: 'ar', label: 'Arabic', native: 'العربية', rtl: true, font: 'Noto Naskh Arabic' },
   { code: 'hi', label: 'Hindi', native: 'हिन्दी', font: 'Noto Sans Devanagari' },
   { code: 'te', label: 'Telugu', native: 'తెలుగు', font: 'Noto Sans Telugu' },
