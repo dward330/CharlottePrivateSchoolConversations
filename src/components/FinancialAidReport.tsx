@@ -85,6 +85,7 @@ function TuitionChart({
   note?: string
   note2?: string
 }) {
+  const { t } = useTranslation()
   const max = Math.max(...bands.map((b) => Math.max(b.amount, b.prior ?? 0)))
   const anyPrior = bands.some((b) => b.prior != null)
   return (
@@ -95,9 +96,9 @@ function TuitionChart({
           {anyPrior && (
             <span className="fa-legend">
               <span className="fa-legend-ghost" />
-              prior year
+              {t('finAid.priorYear')}
               <span className="fa-legend-fill" />
-              current
+              {t('finAid.current')}
             </span>
           )}
         </figcaption>
@@ -309,10 +310,11 @@ function Boxes({ boxes, bullets }: { boxes: InfoBox[]; bullets?: string[] }) {
   )
 }
 
-function SourceRow({ text, label = 'SOURCE' }: { text: string; label?: string }) {
+function SourceRow({ text, label }: { text: string; label?: string }) {
+  const { t } = useTranslation()
   return (
     <div className="fa-srcrow srcrow">
-      <span className="tag-outline">{label}</span>
+      <span className="tag-outline">{label ?? t('finAid.source')}</span>
       <span className="fa-src-text">{text}</span>
     </div>
   )
@@ -322,6 +324,7 @@ function SourceRow({ text, label = 'SOURCE' }: { text: string; label?: string })
 
 /** Which layout a section uses is driven by which blocks its data supplies. */
 function Section({ section, index }: { section: ReportSection; index: number }) {
+  const { t } = useTranslation()
   const {
     bands,
     ranges,
@@ -366,7 +369,9 @@ function Section({ section, index }: { section: ReportSection; index: number }) 
   return (
     <section id={section.id} className="fa-section">
       <div className="fa-section-head">
-        <span className="fa-kicker">SECTION {String(index + 1).padStart(2, '0')}</span>
+        <span className="fa-kicker">
+          {t('finAid.section', { n: String(index + 1).padStart(2, '0') })}
+        </span>
         <h4>{section.title}</h4>
         {section.note && <span className="fa-section-note">{section.note}</span>}
         {section.tag && <span className="tag-accent">{section.tag}</span>}
@@ -436,7 +441,7 @@ function Section({ section, index }: { section: ReportSection; index: number }) 
             <ol className="fa-questions">
               {questions.map((q, i) => (
                 <li key={q}>
-                  <span className="fa-q">Q{i + 1}</span>
+                  <span className="fa-q">{t('finAid.question', { n: i + 1 })}</span>
                   {q}
                 </li>
               ))}
@@ -530,10 +535,7 @@ export function FinancialAidReportCard({
           </a>
         ))}
       </nav>
-      <p className="fa-contents-caption">
-        Meters show how fully each section could be answered from published evidence — a
-        disclosure score, not a rating of the school.
-      </p>
+      <p className="fa-contents-caption">{t('finAid.metersCaption')}</p>
 
       {report.sections.map((s, i) => (
         <Section key={s.id} section={s} index={i} />

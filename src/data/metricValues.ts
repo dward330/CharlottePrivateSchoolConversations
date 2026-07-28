@@ -6,6 +6,15 @@
 // Keep values as short display strings. `null` renders as N/A. `note` shows as small
 // print under the row label (definition, time window, source caveat).
 
+import {
+  localized,
+  indexOverlay,
+  setOverlayIndex,
+  overlayIndex,
+  hasOverlay,
+  type OverlayFile,
+} from '../lib/localizeData.ts'
+
 export type ValueMetric = {
   topic: string // topic slug
   key: string
@@ -358,6 +367,57 @@ export const VALUE_METRICS: ValueMetric[] = [
   },
 ]
 
-export function valueMetricsForTopic(topicSlug: string): ValueMetric[] {
-  return VALUE_METRICS.filter((m) => m.topic === topicSlug)
+/* ---------------------------------------------------------- translations -- */
+
+/*
+ * DEFERRED behind a function — `import.meta.glob` cannot be parsed by plain
+ * Node, and the build-time checkers import this module directly. At module
+ * scope it makes check_translations.mjs report an empty topic. See
+ * courseOfferings.ts for the same treatment and the reasoning.
+ */
+function overlayFiles() {
+  return import.meta.glob<OverlayFile>('./overlays/metric-values.*.json', {
+    import: 'default',
+  })
+}
+
+/** Warms the overlay for a locale; resolves once the index is ready. */
+export async function loadMetricValuesOverlay(lang: string): Promise<void> {
+  if (hasOverlay('metric-values', lang)) return
+  const load = overlayFiles()?.[`./overlays/metric-values.${lang}.json`]
+  if (!load) {
+    setOverlayIndex('metric-values', lang, undefined)
+    return
+  }
+  try {
+    setOverlayIndex('metric-values', lang, indexOverlay(await load()))
+  } catch {
+    // A missing or malformed overlay must not break the page: English stands in.
+    setOverlayIndex('metric-values', lang, undefined)
+  }
+}
+
+/**
+ * Stat-tile metrics for a topic, localized.
+ *
+ * Unlike the per-school topics, VALUE_METRICS is ONE array shared by every
+ * school, so the overlay was extracted under the first slug and is resolved
+ * with that same prefix here.
+ *
+ * With no overlay for `lang` this returns the English objects BY REFERENCE (see
+ * the identity requirement in src/lib/localizeData.ts).
+ */
+export function valueMetricsForTopic(topicSlug: string, lang = 'en'): ValueMetric[] {
+  const en = VALUE_METRICS.filter((m) => m.topic === topicSlug)
+  if (lang === 'en') return en
+
+  const index = overlayIndex('metric-values', lang)
+  if (!index) return en
+  // The extractor walks the WHOLE array, so overlay keys read
+  // `providence-day:[17].label` — the array index is part of the path, not the
+  // prefix. Localize the array itself so `walk` produces that index, then pick
+  // the topic's rows back out. Filtering first and localizing each row would
+  // renumber the indices and resolve nothing.
+  const all = localized(VALUE_METRICS, index, 'providence-day')
+  return all.filter((m) => m.topic === topicSlug)
 }

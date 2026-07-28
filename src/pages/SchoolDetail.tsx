@@ -13,8 +13,8 @@ import { ProseContent } from '../components/ProseContent.tsx'
 import { proseSummary, previewHasGapLanguage } from '../lib/prose.ts'
 import { toCompare, toHome, useNavigate } from '../lib/router.ts'
 import { schools as allSchools } from '../lib/manifest.ts'
-import { valueMetricsForTopic } from '../data/metricValues.ts'
-import { financialAidReport } from '../data/financialAidReports.ts'
+import { valueMetricsForTopic, loadMetricValuesOverlay } from '../data/metricValues.ts'
+import { financialAidReport, loadFinancialAidReportOverlay } from '../data/financialAidReports.ts'
 import { FinancialAidReportCard } from '../components/FinancialAidReport.tsx'
 import { clubClusters } from '../data/clubClusters.ts'
 import { ClubClustersBody } from '../components/ClubClusters.tsx'
@@ -295,8 +295,10 @@ export function SchoolDetail({ slug }: { slug: string }) {
       loadAfterSchoolOverlay(lang),
       loadCollegeSupportOverlay(lang),
       loadCourseOfferingsOverlay(lang),
+      loadMetricValuesOverlay(lang),
+      loadFinancialAidReportOverlay(lang),
       ...covered.map(async (t) => [t.slug, await loadMetricGroups(t.slug, slug)] as const),
-    ]).then(([, , , , , , ...entries]) => {
+    ]).then(([, , , , , , , , ...entries]) => {
       if (!alive) return
       setLoaded(Object.fromEntries(entries))
       setReady(true)
@@ -367,7 +369,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
           <img
             className="dossier-crest"
             src={brand.logo}
-            alt={`${school.name} athletics logo`}
+            alt={tr('a11y.crestAlt', { school: school.name })}
             loading="lazy"
           />
         )}
@@ -430,7 +432,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                 (a, b) => rank(a.metric.key) - rank(b.metric.key),
               )
             }
-            const stats = valueMetricsForTopic(t.slug).filter((vm) => vm.values[slug] != null)
+            const stats = valueMetricsForTopic(t.slug, lang).filter((vm) => vm.values[slug] != null)
             /* Course Offerings is rendered from the structured curriculum layer
                as one card per division, so its header count and card grid come
                from `offerings` rather than the ingested metric groups. */
@@ -545,8 +547,8 @@ export function SchoolDetail({ slug }: { slug: string }) {
                     {!ready
                       ? '…'
                       : offerings
-                        ? `${cardCount} divisions`
-                        : `${cardCount} topics`}
+                        ? tr('school.divisions', { count: cardCount })
+                        : tr('school.topics', { count: cardCount })}
                   </span>
                   <a
                     className="btn"
@@ -787,7 +789,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                     const report =
                       t.slug === 'financial-aid-tuition' &&
                       g.metric.key === 'in-depth-report'
-                        ? financialAidReport(slug)
+                        ? financialAidReport(slug, lang)
                         : undefined
                     /* The Academic & Competitive Clubs card, where the school
                        has a structured entry, swaps its prose body for the

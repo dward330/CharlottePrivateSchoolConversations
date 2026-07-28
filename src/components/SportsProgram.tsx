@@ -67,7 +67,7 @@ function Lead({ headline, subhead }: { headline: string; subhead?: string }) {
 /** The four-up stat strip used by 1a and 1g. */
 function StatStrip({ stats }: { stats: StatTile[] }) {
   return (
-    <div className="sports-stats">
+    <div className="sports-stats hairline-grid">
       {stats.map((s) => (
         <div key={s.label} className="sports-stat">
           <div className="sports-stat-val">{localizeMoneyText(s.value)}</div>
@@ -497,7 +497,7 @@ export function HonorsBody({ data }: { data: HonorsAndPros }) {
       <Lead headline={data.headline} subhead={data.subhead} />
 
       {data.pros.length > 0 && (
-        <div className="sports-pros">
+        <div className="sports-pros hairline-grid">
           {data.pros.map((p) => (
             <div key={p.name} className="sports-pro">
               <div className="sports-pro-kicker text-muted">{p.kicker}</div>

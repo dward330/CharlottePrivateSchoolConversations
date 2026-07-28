@@ -99,23 +99,27 @@
     "footnoteRest": "aún no está en nuestra investigación. Toque una escuela para leer el análisis completo."
   },
   "school": {
-    "unknown": "Escuela desconocida.",
+    "allSchools": "← Todas las escuelas",
     "backHome": "Volver al inicio",
-    "welcomeVideo": "Video de bienvenida",
     "backToTop": "Volver arriba",
     "collapseReport": "Contraer informe",
     "compareOn": "Comparar en {{topic}}",
-    "allSchools": "← Todas las escuelas",
+    "divisions_one": "{{count}} división",
+    "divisions_other": "{{count}} divisiones",
     "dossierKicker": "Expediente escolar · Charlotte, NC",
-    "researchAreas": "Áreas de investigación",
     "navHint": "Haga clic en cualquier tarjeta para ver la nota completa. Cada dato incluye su fuente.",
+    "researchAreas": "Áreas de investigación",
     "subAreas_one": "{{count}} área de investigación",
     "subAreas_other": "{{count}} áreas de investigación",
     "subDocs_one": "{{count}} documento destilado",
     "subDocs_other": "{{count}} documentos destilados",
+    "topics_one": "{{count}} apartado",
+    "topics_other": "{{count}} apartados",
+    "unknown": "Escuela desconocida.",
+    "welcomeCaption": "Una introducción a {{school}}, en palabras de la propia escuela. Pulse reproducir para verlo.",
     "welcomeFrom": "De la escuela",
     "welcomeIframeTitle": "{{school}} — Video de bienvenida",
-    "welcomeCaption": "Una introducción a {{school}}, en palabras de la propia escuela. Pulse reproducir para verlo."
+    "welcomeVideo": "Video de bienvenida"
   },
   "sports": {
     "stateTitleMatrix_one": "Matriz de títulos estatales, última {{count}} temporada",
@@ -336,5 +340,19 @@
     "whoRunsIt": "Quién lo dirige:",
     "win": "PREMIO",
     "year": "Año"
+  },
+  "finAid": {
+    "current": "actual",
+    "metersCaption": "Los medidores indican en qué medida cada sección pudo responderse a partir de evidencia publicada — es una puntuación de transparencia, no una valoración del colegio.",
+    "priorYear": "año anterior",
+    "question": "P{{n}}",
+    "section": "SECCIÓN {{n}}",
+    "source": "FUENTE"
+  },
+  "a11y": {
+    "crestAlt": "Escudo deportivo de {{school}}",
+    "switchTheme": "Cambiar al tema {{theme}}",
+    "themeDark": "oscuro",
+    "themeLight": "claro"
   }
 }

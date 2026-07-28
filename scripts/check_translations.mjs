@@ -51,11 +51,18 @@ const TOPICS = {
   'college-support': 'collegeSupportPrograms',
   'after-school': 'afterSchoolPrograms',
   'course-offerings': null,   // single module + accessor, see ACCESSORS
+  'financial-aid-report': null,
+  'metric-values': null,
 }
 
 /** Topics whose data lives in one module behind an accessor. Mirrors i18n_extract.mjs. */
 const ACCESSORS = {
   'course-offerings': ['../src/data/courseOfferings.ts', 'courseOfferings'],
+  'financial-aid-report': ['../src/data/financialAidReports.ts', 'financialAidReport'],
+  // Not per-school: one flat array of stat-tile captions keyed by TOPIC. The
+  // accessor ignores the slug and returns the whole set once, under the first
+  // school, so each caption is extracted exactly once.
+  'metric-values': ['../src/data/metricValues.ts', 'VALUE_METRICS'],
 }
 
 /** Slug -> the export name each per-school module uses. */
@@ -74,7 +81,11 @@ async function entryFor(topic, slug) {
     const accessor = ACCESSORS[topic]
     if (accessor) {
       const [mod, fn] = accessor
-      return (await import(mod))[fn](slug)
+      const got = (await import(mod))[fn]
+      // A plain export (not an accessor function) is shared across schools, so
+      // attribute it to the first slug only and let the rest report empty.
+      if (typeof got !== 'function') return slug === SLUGS[0] ? got : undefined
+      return got(slug)
     }
     const m = await import(`../src/data/${TOPICS[topic]}/${slug}.ts`)
     return m[EXPORTS[slug]]

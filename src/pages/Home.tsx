@@ -92,7 +92,7 @@ export function Home() {
 
       <section aria-labelledby="topics-h" className="block">
         <h2 id="topics-h">{t('home.topicsHeading')}</h2>
-        <div className="topic-grid">
+        <div className="topic-grid hairline-grid">
           {topics.map((topic) => (
             <a
               key={topic.slug}
