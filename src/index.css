@@ -41,7 +41,12 @@
   line-height: 1.5;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
+  /* NOT `optimizeLegibility`: it turns on discretionary ligatures, and the
+     Google-Fonts Barlow subsets ship no `ffi`/`ffl` glyph. The browser then
+     draws a missing-glyph box, so "Affinity" rendered as "A!nity" and
+     "official" as "o!cial" — visible in print and in PDF export. Common
+     ligatures stay on; only the discretionary ones are disabled. */
+  font-variant-ligatures: common-ligatures no-discretionary-ligatures;
 }
 
 /* Dark palette. Applied two ways, so the same values must be listed twice:
