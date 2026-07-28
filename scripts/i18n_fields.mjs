@@ -113,6 +113,9 @@ export const SKIP_KEYS = new Map([
   ['show', 'proper noun — production title'],
   ['ensembles', 'proper noun — ensemble name'],
   ['role', 'job title — see PATH_OVERRIDES, translated where descriptive'],
+  // A description mentioning "chrome" is a PROMISE that the UI translates this
+  // field. check_chrome_keys.mjs verifies it — `day` was skipped on exactly this
+  // claim for a whole stage while the key it named did not exist.
   ['day', 'weekday code (Mon) — rendered from a chrome key'],
   ['time', 'time literal'],
   ['until', 'time literal'],
