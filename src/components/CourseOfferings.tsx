@@ -138,7 +138,7 @@ export function CourseOfferingsBody({ division }: { division: Division }) {
   // misnomer for what is simply that department's list — name it instead.
   const label = showingAll
     ? depts.length > 1
-      ? 'All departments'
+      ? t('courses.allDepartments')
       : (depts[0]?.name ?? division.title)
     : current!.name
   const base: ListedCourse[] = showingAll
@@ -162,11 +162,11 @@ export function CourseOfferingsBody({ division }: { division: Division }) {
   // While filtering the count reports the match ratio; idle it reports the
   // plain size of the active tab.
   const countText = q
-    ? `${count} of ${total} match`
-    : `${total} ${total === 1 ? 'course' : 'courses'}`
+    ? t('courses.countMatch', { count, total })
+    : t('courses.countCourses', { count: total })
   // The design shows a scroll affordance only where the list actually
   // overflows the 380px frame; ~7 rows is the practical threshold.
-  const scrollHint = !q && total > 7 ? ' — scroll for full list' : ''
+  const scrollHint = !q && total > 7 ? t('courses.scrollHint') : ''
 
   return (
     <div className="courses" ref={rootRef}>
@@ -180,7 +180,7 @@ export function CourseOfferingsBody({ division }: { division: Division }) {
         <div
           className="courses-tabs"
           role="tablist"
-          aria-label={`${division.title} departments`}
+          aria-label={t('courses.departmentsAria', { division: division.title })}
         >
           <button
             type="button"
@@ -190,7 +190,7 @@ export function CourseOfferingsBody({ division }: { division: Division }) {
             aria-selected={showingAll}
             onClick={() => setActive(ALL_TAB)}
           >
-            All
+            {t('courses.allTab')}
           </button>
           {depts.map((d, i) => (
             <button
@@ -236,7 +236,7 @@ export function CourseOfferingsBody({ division }: { division: Division }) {
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder={t('courses.filterPlaceholder')}
-            aria-label={`Filter ${division.title} by title or description`}
+            aria-label={t('courses.filterAria', { division: division.title })}
           />
         </div>
       </div>
@@ -287,7 +287,7 @@ export function CourseOfferingsBody({ division }: { division: Division }) {
           aria-pressed={hideSources}
           onClick={() => setHideSources((v) => !v)}
         >
-          {hideSources ? 'Show sources' : 'Hide sources'}
+          {t(hideSources ? 'courses.showSources' : 'courses.hideSources')}
         </button>
         {!hideSources && (
           <div className="courses-src srcrow">

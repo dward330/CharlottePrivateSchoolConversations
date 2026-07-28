@@ -22,6 +22,15 @@
 // paper over. `notPublished` records that honestly on the card.
 
 /** One course row: title + optional short tag + one-sentence description. */
+import {
+  localized,
+  indexOverlay,
+  setOverlayIndex,
+  overlayIndex,
+  hasOverlay,
+  type OverlayFile,
+} from '../lib/localizeData.ts'
+
 export type Course = {
   /** Course title, verbatim as the school publishes it. */
   title: string
@@ -5810,7 +5819,59 @@ const OFFERINGS: Record<string, CourseOfferings> = {
   'davidson-day': DAVIDSON_DAY,
 }
 
-/** The structured course offerings for a school, or undefined to fall back to prose. */
-export function courseOfferings(schoolSlug: string): CourseOfferings | undefined {
-  return OFFERINGS[schoolSlug]
+/* ---------------------------------------------------------- translations -- */
+
+/**
+ * Locale overlays for this topic's prose, loaded on demand.
+ *
+ * MUST stand alone — `import.meta.glob` is a compile-time transform, and a
+ * runtime guard around it survives into the output where `import.meta.glob` is
+ * undefined, silently resolving every overlay to nothing. See clubsProgram.ts.
+ */
+/*
+ * DEFERRED behind a function, unlike the other topics. `import.meta.glob` is a
+ * Vite-only form that plain Node cannot even PARSE at module scope, and the
+ * build-time checkers import this module directly (it is one file behind an
+ * accessor rather than per-school files). At module scope it made
+ * check_translations.mjs report `0/0 field sites` for a fully-translated topic.
+ *
+ * Inside a function the statement is still transformed at build time — the glob
+ * is NOT evaluated at runtime — so overlay loading is unchanged, while Node can
+ * import the module as long as it never calls this.
+ */
+function overlayFiles() {
+  return import.meta.glob<OverlayFile>('./overlays/course-offerings.*.json', {
+    import: 'default',
+  })
+}
+
+/** Warms the overlay for a locale; resolves once the index is ready. */
+export async function loadCourseOfferingsOverlay(lang: string): Promise<void> {
+  if (hasOverlay('course-offerings', lang)) return
+  const load = overlayFiles()?.[`./overlays/course-offerings.${lang}.json`]
+  if (!load) {
+    setOverlayIndex('course-offerings', lang, undefined)
+    return
+  }
+  try {
+    setOverlayIndex('course-offerings', lang, indexOverlay(await load()))
+  } catch {
+    // A missing or malformed overlay must not break the page: English stands in.
+    setOverlayIndex('course-offerings', lang, undefined)
+  }
+}
+
+/**
+ * The structured course offerings for a school, or undefined to fall back to prose.
+ *
+ * With no overlay for `lang` this returns the English object BY REFERENCE (see
+ * the identity requirement in src/lib/localizeData.ts).
+ */
+export function courseOfferings(
+  schoolSlug: string,
+  lang = 'en',
+): CourseOfferings | undefined {
+  const en = OFFERINGS[schoolSlug]
+  if (!en || lang === 'en') return en
+  return localized(en, overlayIndex('course-offerings', lang), schoolSlug)
 }
