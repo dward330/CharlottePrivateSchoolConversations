@@ -36,7 +36,12 @@ import {
 } from '../components/ClubsProgram.tsx'
 import { courseOfferings } from '../data/courseOfferings.ts'
 import { CourseOfferingsBody } from '../components/CourseOfferings.tsx'
-import { sportsProgram, SPORTS_CARDS, type SportsProgram } from '../data/sportsProgram.ts'
+import {
+  sportsProgram,
+  loadSportsOverlay,
+  SPORTS_CARDS,
+  type SportsProgram,
+} from '../data/sportsProgram.ts'
 import {
   SportsOfferedBody,
   WinningRecordBody,
@@ -281,8 +286,9 @@ export function SchoolDetail({ slug }: { slug: string }) {
          research for a frame and then swap it, which reads as a glitch. */
       loadClubsOverlay(lang),
       loadArtsOverlay(lang),
+      loadSportsOverlay(lang),
       ...covered.map(async (t) => [t.slug, await loadMetricGroups(t.slug, slug)] as const),
-    ]).then(([, , ...entries]) => {
+    ]).then(([, , , ...entries]) => {
       if (!alive) return
       setLoaded(Object.fromEntries(entries))
       setReady(true)
@@ -427,7 +433,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                Offerings — it replaces the metric-group loop rather than
                swapping one card's body. Cards absent from a school's entry
                (no pro alumni, no NIL posture) simply don't render. */
-            const sports = t.slug === 'sports' ? sportsProgram(slug) : undefined
+            const sports = t.slug === 'sports' ? sportsProgram(slug, lang) : undefined
             const sportsCards = sports
               ? SPORTS_CARDS.filter((c) => sports[c.key] != null)
               : []
