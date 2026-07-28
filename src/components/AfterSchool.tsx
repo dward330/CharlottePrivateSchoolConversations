@@ -28,6 +28,7 @@ import { useMemo, useState } from 'react'
 import { money, localizeMoneyText } from '../lib/format.ts'
 import { useTranslation } from 'react-i18next'
 import type { TFunction } from 'i18next'
+import { sourceLabel } from '../lib/labels.ts'
 import type {
   AfterSchoolProgram,
   AsFlag,
@@ -56,7 +57,7 @@ function SourceRow({ sources }: { sources: AsSource[] }) {
           </a>
         ) : (
           <span key={s.label} className="text-muted">
-            {s.label}
+            {sourceLabel(t, s.label)}
           </span>
         ),
       )}
