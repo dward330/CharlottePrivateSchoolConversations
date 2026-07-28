@@ -368,7 +368,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
           <img
             className="dossier-crest"
             src={brand.logo}
-            alt={`${school.name} athletics logo`}
+            alt={tr('a11y.crestAlt', { school: school.name })}
             loading="lazy"
           />
         )}
@@ -546,8 +546,8 @@ export function SchoolDetail({ slug }: { slug: string }) {
                     {!ready
                       ? '…'
                       : offerings
-                        ? `${cardCount} divisions`
-                        : `${cardCount} topics`}
+                        ? tr('school.divisions', { count: cardCount })
+                        : tr('school.topics', { count: cardCount })}
                   </span>
                   <a
                     className="btn"

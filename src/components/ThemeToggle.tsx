@@ -1,17 +1,22 @@
+import { useTranslation } from 'react-i18next'
 import { useTheme } from '../lib/theme.ts'
 
 /** Nav button that flips light <-> dark. Shows the icon of the theme it switches to. */
 export function ThemeToggle() {
+  const { t } = useTranslation()
   const { theme, toggle } = useTheme()
   const next = theme === 'dark' ? 'light' : 'dark'
 
+  const label = t('a11y.switchTheme', {
+    theme: t(next === 'dark' ? 'a11y.themeDark' : 'a11y.themeLight'),
+  })
   return (
     <button
       type="button"
       className="theme-toggle"
       onClick={toggle}
-      title={`Switch to ${next} theme`}
-      aria-label={`Switch to ${next} theme`}
+      title={label}
+      aria-label={label}
     >
       {theme === 'dark' ? <SunIcon /> : <MoonIcon />}
     </button>

@@ -99,23 +99,27 @@
     "footnoteRest": "not in our research yet. Tap a school to read the full write-up."
   },
   "school": {
-    "unknown": "Unknown school.",
+    "allSchools": "← All schools",
     "backHome": "Back home",
-    "welcomeVideo": "Welcome Video",
     "backToTop": "Back to top",
     "collapseReport": "Collapse report",
     "compareOn": "Compare on {{topic}}",
-    "allSchools": "← All schools",
+    "divisions_one": "{{count}} division",
+    "divisions_other": "{{count}} divisions",
     "dossierKicker": "School dossier · Charlotte, NC",
-    "researchAreas": "Research areas",
     "navHint": "Click any card to expand its full research note. Sources are cited on every fact.",
+    "researchAreas": "Research areas",
     "subAreas_one": "{{count}} research area",
     "subAreas_other": "{{count}} research areas",
     "subDocs_one": "{{count}} document distilled",
     "subDocs_other": "{{count}} documents distilled",
+    "topics_one": "{{count}} topic",
+    "topics_other": "{{count}} topics",
+    "unknown": "Unknown school.",
+    "welcomeCaption": "An introduction to {{school}}, in the school’s own words. Press play to watch.",
     "welcomeFrom": "From the school",
     "welcomeIframeTitle": "{{school}} — Welcome Video",
-    "welcomeCaption": "An introduction to {{school}}, in the school’s own words. Press play to watch."
+    "welcomeVideo": "Welcome Video"
   },
   "sports": {
     "stateTitleMatrix_one": "State-title matrix, last {{count}} season",
@@ -344,5 +348,11 @@
     "question": "Q{{n}}",
     "section": "SECTION {{n}}",
     "source": "SOURCE"
+  },
+  "a11y": {
+    "crestAlt": "{{school}} athletics logo",
+    "switchTheme": "Switch to {{theme}} theme",
+    "themeDark": "dark",
+    "themeLight": "light"
   }
 }
