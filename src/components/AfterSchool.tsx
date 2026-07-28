@@ -27,6 +27,8 @@
 import { useMemo, useState } from 'react'
 import { money, localizeMoneyText } from '../lib/format.ts'
 import { useTranslation } from 'react-i18next'
+import type { TFunction } from 'i18next'
+import { sourceLabel } from '../lib/labels.ts'
 import type {
   AfterSchoolProgram,
   AsFlag,
@@ -55,7 +57,7 @@ function SourceRow({ sources }: { sources: AsSource[] }) {
           </a>
         ) : (
           <span key={s.label} className="text-muted">
-            {s.label}
+            {sourceLabel(t, s.label)}
           </span>
         ),
       )}
@@ -63,12 +65,33 @@ function SourceRow({ sources }: { sources: AsSource[] }) {
   )
 }
 
-/** Default chip wording per flag kind; `label` overrides it per flag. */
-const FLAG_LABEL: Record<AsFlagKind, string> = {
-  verify: 'TO VERIFY',
-  estimate: 'EST.',
-  gap: 'PUBLICATION GAP',
-  stale: 'STALE',
+/**
+ * Weekday code -> localized label.
+ *
+ * `day` is CHROME: a closed five-value vocabulary (Mon…Fri) identical for every
+ * school, which is why `scripts/i18n_fields.mjs` skips it for the prose overlay.
+ * That skip assumed a chrome key already existed; none did, so the raw English
+ * code rendered inside otherwise-Spanish cards. Anything outside the set —
+ * notably the '—' used when a school publishes no day — falls through unchanged.
+ */
+function dayLabel(t: TFunction, day: string): string {
+  return t(`afterSchool.day_${day}`, { defaultValue: day })
+}
+
+/**
+ * Locale key for the default chip wording per flag kind; `label` overrides it
+ * per flag.
+ *
+ * These are CHROME — one fixed word per kind, identical for every school — so
+ * they live in the locale files rather than the prose overlay. A per-flag
+ * `label` in the data IS research and is translated by the overlay, which is
+ * why the two layers disagree by design.
+ */
+const FLAG_LABEL_KEY: Record<AsFlagKind, string> = {
+  verify: 'afterSchool.flag_verify',
+  estimate: 'afterSchool.flag_estimate',
+  gap: 'afterSchool.flag_gap',
+  stale: 'afterSchool.flag_stale',
 }
 
 /**
@@ -80,13 +103,14 @@ const FLAG_LABEL: Record<AsFlagKind, string> = {
  * schools here are in exactly that position.
  */
 function Flags({ flags }: { flags: AsFlag[] }) {
+  const { t } = useTranslation()
   if (flags.length === 0) return null
   return (
     <>
       {flags.map((f) => (
         <p key={f.text} className="as-flag text-muted">
           <span className="as-flag-tag tag-neutral">
-            {f.label ?? FLAG_LABEL[f.kind]}
+            {f.label ?? t(FLAG_LABEL_KEY[f.kind])}
           </span>
           <span>
             <RichText text={f.text} />
@@ -295,8 +319,13 @@ export function CostBody({ data }: { data: Cost }) {
   /* The unit beside the headline figure, and whether a separate school-year line
      adds anything: an annual contract IS the school-year total, so repeating it
      would just print the same number twice. */
-  const unitLabel =
-    data.basis === 'monthly' ? '/ month' : data.basis === 'semester' ? '/ semester' : '/ year'
+  const unitLabel = t(
+    data.basis === 'monthly'
+      ? 'afterSchool.unitMonth'
+      : data.basis === 'semester'
+        ? 'afterSchool.unitSemester'
+        : 'afterSchool.unitYear',
+  )
   const showPeriodTotal = data.basis !== 'annual'
 
   /* A school publishing only a row or two (Cannon has exactly one) can't fill
@@ -352,23 +381,29 @@ export function CostBody({ data }: { data: Cost }) {
               <thead>
                 <tr>
                   <th className="as-th as-th-row">
-                    Grade · pickup slot (
-                    {data.basis === 'monthly'
-                      ? 'monthly'
-                      : data.basis === 'semester'
-                        ? 'per semester'
-                        : 'per year'}
-                    )
+                    {t('afterSchool.gradePickupSlot', {
+                      basis: t(
+                        data.basis === 'monthly'
+                          ? 'afterSchool.basisMonthly'
+                          : data.basis === 'semester'
+                            ? 'afterSchool.basisSemester'
+                            : 'afterSchool.basisYear',
+                      ),
+                    })}
                   </th>
                   {[1, 2, 3, 4, 5].map((d) => (
                     <th
                       key={d}
                       className={`as-th as-th-day${days === d ? ' is-active' : ''}`}
                     >
-                      {d} day{d > 1 ? 's' : ''}
+                      {t('afterSchool.colDays', { count: d })}
                       <br />
                       <span className="as-th-note text-muted">
-                        {data.columnsVerified[d - 1] ? 'VERIFIED' : 'EST.'}
+                        {t(
+                          data.columnsVerified[d - 1]
+                            ? 'afterSchool.colVerified'
+                            : 'afterSchool.colEstimated',
+                        )}
                       </span>
                     </th>
                   ))}
@@ -411,12 +446,10 @@ export function CostBody({ data }: { data: Cost }) {
             <div className="as-estimate-kicker text-muted">{t('tables.yourEstimate')}</div>
             <div className="as-estimate-row">{row.panelLabel}</div>
             <div className="as-estimate-days text-muted">
-              {days} day{days > 1 ? 's' : ''} / week, until pickup
+              {t('afterSchool.daysUntilPickup', { count: days })}
             </div>
             {price == null ? (
-              <p className="as-estimate-gap text-muted">
-                The school does not publish a rate for this combination.
-              </p>
+              <p className="as-estimate-gap text-muted">{t('afterSchool.noRate')}</p>
             ) : (
               <>
                 <div className="as-estimate-big">
@@ -426,7 +459,9 @@ export function CostBody({ data }: { data: Cost }) {
                 <div className="as-estimate-lines">
                   {showPeriodTotal && (
                     <div>
-                      <span className="text-muted">School year ({data.periodsLabel})</span>
+                      <span className="text-muted">
+                        {t('afterSchool.schoolYear', { periods: data.periodsLabel })}
+                      </span>
                       <strong>{money(periodTotal!)}</strong>
                     </div>
                   )}
@@ -436,11 +471,11 @@ export function CostBody({ data }: { data: Cost }) {
                   {row.flatRate ? (
                     <div>
                       <span className="text-muted">{t('tables.daysPerWeek')}</span>
-                      <strong>flat rate</strong>
+                      <strong>{t('afterSchool.flatRate')}</strong>
                     </div>
                   ) : (
                     <div>
-                      <span className="text-muted">≈ per afternoon</span>
+                      <span className="text-muted">{t('afterSchool.perAfternoon')}</span>
                       <strong>{money(perAfternoon!)}</strong>
                     </div>
                   )}
@@ -545,7 +580,9 @@ function EnrichmentCatalog({ data }: { data: DayInside }) {
               onClick={() => setDay(d)}
               aria-pressed={day === d}
             >
-              {d}
+              {/* 'All' is the filter's sentinel value, not a day name — only the
+                  LABEL is translated, so the comparisons above keep working. */}
+              {d === 'All' ? t('afterSchool.dayFilterAll') : dayLabel(t, d)}
             </button>
           ))}
         </div>
@@ -562,7 +599,7 @@ function EnrichmentCatalog({ data }: { data: DayInside }) {
               onClick={() => setGrade(g)}
               aria-pressed={grade === g}
             >
-              {g === 'All' ? 'All' : g}
+              {g === 'All' ? t('afterSchool.gradeFilterAll') : g}
             </button>
           ))}
         </div>
@@ -578,7 +615,7 @@ function EnrichmentCatalog({ data }: { data: DayInside }) {
       />
 
       <div className="as-count text-muted">
-        {shown.length} of {data.classes.length} classes
+        {t('afterSchool.classCount', { shown: shown.length, total: data.classes.length })}
       </div>
 
       <div className="as-scroll">
@@ -601,7 +638,7 @@ function EnrichmentCatalog({ data }: { data: DayInside }) {
                     {highlight(c.desc, q)}
                   </span>
                 </td>
-                <td className="as-td">{c.day}</td>
+                <td className="as-td">{dayLabel(t, c.day)}</td>
                 <td className="as-td">{c.gradeLabel}</td>
                 <td className="as-td as-td-fee">{localizeMoneyText(c.fee)}</td>
               </tr>

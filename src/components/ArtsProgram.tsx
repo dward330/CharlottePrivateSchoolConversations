@@ -18,6 +18,7 @@
 
 import { useTranslation } from 'react-i18next'
 import { localizeMoneyText } from '../lib/format.ts'
+import { sourceLabel } from '../lib/labels.ts'
 import type {
   ArtsLadder,
   ArtsPhoto,
@@ -45,7 +46,7 @@ function SourceRow({ sources }: { sources: ArtsSource[] }) {
           </a>
         ) : (
           <span key={s.label} className="text-muted">
-            {s.label}
+            {sourceLabel(t, s.label)}
           </span>
         ),
       )}

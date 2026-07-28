@@ -18,6 +18,29 @@
 
 import type { TFunction } from 'i18next'
 
+/**
+ * The verdict cards' attribution line, which is a SOURCE LABEL that is not a
+ * citation.
+ *
+ * `sources[].label` is deliberately excluded from the prose overlay by
+ * PATH_OVERRIDES — a citation names a document, and translating "After School
+ * Options" would make the source impossible to find. This one string breaks
+ * that assumption: it is an editorial sentence occupying a citation slot, and
+ * it is byte-identical across all six schools, so by the uniform test it is
+ * chrome.
+ *
+ * Two wordings exist (After School says "the cards above"; The Arts names
+ * "cards 1a–1d"). Anything else is a real citation and passes through unchanged.
+ */
+export function sourceLabel(t: TFunction, label: string): string {
+  if (label.startsWith('Verdict synthesized by the researcher')) {
+    return label.includes('1a–1d')
+      ? t('cardLabels.verdictSynthesized_1a1d', { defaultValue: label })
+      : t('cardLabels.verdictSynthesized', { defaultValue: label })
+  }
+  return label
+}
+
 /** Display name for a research area, e.g. 'sports' -> 'Deportes'. */
 export function topicLabel(t: TFunction, slug: string, fallback: string): string {
   return t(`topics.${slug}`, { defaultValue: fallback })

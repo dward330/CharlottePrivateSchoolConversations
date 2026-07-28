@@ -230,3 +230,94 @@ phrase are preserved; only the surrounding words move.
 6. **`charlotte-christian:pipeline.rankedRecruits`** — the Stephen Curry counter-example
    (no major-conference offer, 31 point guards ranked ahead of him). The *inverse*
    framing is the point; check it survives.
+
+---
+
+## Stage 4 — After School (657 strings, 9,550 words)
+
+Landed 2026-07-27. Full coverage: 779/779 field sites.
+
+**First stage where the skip audit ran BEFORE translating** rather than after a
+print-out caught something. It paid for itself immediately, flagging two
+misclassifications that would otherwise have shipped English inside Spanish cards:
+
+- `dayInside.rhythm[].name` — classified as a proper noun, actually phrases:
+  *"Collected at the door"*, *"Walked over"*, *"Independent"*,
+  *"Snack → class → dismissal"*.
+- `cost.fees[].value` — classified as a numeric figure, actually mixed:
+  *"$80 / student"*, *"not published"*, *"none published"*, *"waived"*,
+  *"25% off lowest rate"*, *"23 Sep & 20 Jan"*.
+
+Both resolved with path overrides in `scripts/i18n_fields.mjs` rather than blanket
+rules, so the bare figures elsewhere (`$50`, `$80`, `$19 / hr`) still skip. This is
+the same shape as Stage 3's `value` split: the leaf name is right in one location
+and wrong in another, and only the path can tell them apart.
+
+### Terminology choices worth a second opinion
+
+| English | Spanish used | Note |
+|---|---|---|
+| drop-in | acceso libre | Used throughout for the no-contract model. "Sin cita previa" was rejected as clinical; "drop-in" recurs constantly here and wants one stable rendering. |
+| Extended Day / Hawks' Club / Clubhouse / Bridge Care / Beyond the Bell / ASP | left English | Program proper nouns, per the standing convention. |
+| after-school care | cuidado extraescolar | Standard. "Programa extraescolar" used where the sense is the program rather than the supervision. |
+| enrichment (class/catalog) | enriquecimiento | Literal. A calque, but it is the term US-Hispanic school communications use. |
+| carpool | carpool | Left English — it names a specific, signposted physical procedure at these schools. |
+| snack | merienda | Consistent throughout. |
+| late pickup fee | cuota / penalización por recogida tardía | "Penalización" where the English frames it as punitive ("steep", "punitive"), "cuota" where neutral. |
+| staff-to-child ratio | proporción de personal por niño | Verbose but unambiguous; "ratio" alone reads as jargon. |
+| teacher workday | día de trabajo docente | Literal — no Spanish-system equivalent exists. |
+| homework block | bloque de tareas | "Deberes" is Spain-Spanish; "tareas" is the US-Hispanic default. |
+| tier (pricing) | tramo | Consistent across all six schools' rate cards. |
+| JK / TK / JrK / TT | left English | Grade-level codes as published, like `LS` / `MS` / `US`. |
+| cohort-differentiated | diferenciado por cohortes | Literal; the quotation that supports it stays English. |
+
+### Specific soft spots
+
+1. **Time-of-day formatting was left US-style throughout** — `3:00 p.m.`,
+   `2:55`, `1:30–4:30`. Spanish convention would be 24-hour (`15:00`), but these
+   are figures a parent matches against the school's own published bell schedule
+   and rate card, so re-typing them risks exactly the drift the standing figures
+   rule exists to prevent. Consistent with treating tuition the same way. **Worth
+   a ruling alongside the unit-conversion question from Stage 3** — both are the
+   same underlying question about derived vs transcribed numbers.
+
+2. **No unit conversions were needed in this stage**, so the Stage 3 imperial-units
+   question is still open and still unanswered. Nothing here forces it.
+
+3. **`charlotte-latin:cost.cliffNote` and the `providence-day` gap flag** — both
+   turn on a specific number of minutes (85 minutes, ten minutes) being paid for
+   or unexplained. The arithmetic carries the point; check the minutes survived.
+
+4. **`charlotte-latin:cost.anomalyNote`** (string 184) — the densest paragraph in
+   the stage: four dollar figures, a linear-pricing argument, and a hedge that
+   ends *"which favours 'real'"*. It concludes the published number is probably
+   correct rather than a typo — a genuinely load-bearing qualification that is
+   easy to flatten into "this is an error".
+
+5. **`charlotte-christian` rate-increase percentages** (strings 315, 353) — five
+   percentages in one sentence (+32/52/48/37/35%). Per the whole-number-percent
+   convention these stay as authored; verify none drifted in translation.
+
+6. **`davidson-day` is almost entirely hedges.** Nearly every string qualifies an
+   archived 2020 source against a live 2026 site — *"unconfirmed for 2026-27"*,
+   *"from the 2020 capture"*, *"six years old"*, *"none of it is confirmed"*.
+   This school's card is the highest-risk in the stage: soften one hedge and
+   six-year-old data reads as current. The `15:1` ratio quotation is the sharpest
+   case — the school's own self-criticism, left English inside Spanish prose.
+
+7. **`cannon:cost.staleFlag`** (strings 520–521) — the flag label is the single
+   word *"stale"*, rendered *"desactualizado"*. A one-word flag carrying a
+   year-out-of-date warning; check it reads as strongly in Spanish.
+
+8. **Long block quotations left entirely English** — strings 208, 340, 453, 534,
+   631. Each is a school's own marketing copy quoted deliberately, sometimes to
+   show precisely what the school does and does not claim. Per convention these
+   are not translated; a reader may expect Spanish here. Deliberate, not an
+   omission.
+
+9. **Enrichment class *descriptions* are translated; class *names* are not** —
+   the names live in a skipped field as published (`Chess`, `Mad Science`,
+   `Beyond the Bell` classes with named providers). Provider names inside the
+   translated descriptions also stay English (`BrickEd`, `Carolina Soccer
+   Factory`, `Le Petit Ballet Co.`). Intentional, and worth confirming it reads
+   as deliberate rather than half-finished.

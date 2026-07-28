@@ -80,7 +80,11 @@ import {
   // Arts also exports a VerdictBody; alias to disambiguate.
   VerdictBody as CsVerdictBody,
 } from '../components/CollegeSupport.tsx'
-import { afterSchoolProgram, AFTER_SCHOOL_CARDS } from '../data/afterSchool.ts'
+import {
+  afterSchoolProgram,
+  loadAfterSchoolOverlay,
+  AFTER_SCHOOL_CARDS,
+} from '../data/afterSchool.ts'
 import { AfterSchoolCardBody } from '../components/AfterSchool.tsx'
 import { WelcomeVideo, PlayIcon } from '../components/WelcomeVideo.tsx'
 import { useTranslation } from 'react-i18next'
@@ -287,8 +291,9 @@ export function SchoolDetail({ slug }: { slug: string }) {
       loadClubsOverlay(lang),
       loadArtsOverlay(lang),
       loadSportsOverlay(lang),
+      loadAfterSchoolOverlay(lang),
       ...covered.map(async (t) => [t.slug, await loadMetricGroups(t.slug, slug)] as const),
-    ]).then(([, , , ...entries]) => {
+    ]).then(([, , , , ...entries]) => {
       if (!alive) return
       setLoaded(Object.fromEntries(entries))
       setReady(true)
@@ -509,7 +514,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                is still truthy, and would otherwise suppress the prose and leave
                the whole section blank. */
             const asEntry =
-              t.slug === 'after-school' ? afterSchoolProgram(slug) : undefined
+              t.slug === 'after-school' ? afterSchoolProgram(slug, lang) : undefined
             const asCardList = asEntry
               ? AFTER_SCHOOL_CARDS.filter((c) => asEntry[c.key] != null)
               : []
