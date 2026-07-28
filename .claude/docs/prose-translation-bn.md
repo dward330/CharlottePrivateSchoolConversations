@@ -104,7 +104,18 @@ Translate a **deliberately hostile sample of ~30 strings** and print it:
 - one long bulleted list item that wraps
 
 Check: line-height, heading crowding, tile overflow, caps labels, and
-Bangla/Latin mixing on the same line. Fix in CSS **before** the main pass. Any
+Bangla/Latin mixing on the same line.
+
+**Known before the spike even renders:** 43 CSS rules combine
+`text-transform: uppercase` with letterspacing up to `0.14em`, tuned for Latin
+caps. Uppercase is a no-op in Bangla, but the letterspacing is not — applied to
+Bangla it separates conjuncts and breaks the মাত্রা headstroke. Expect a
+`:root[lang='bn']` override; the spike confirms how bad, and where.
+
+**Reproducing:** `bangla-spike.html` at the repo root (gitignored, absent from
+`dist`) renders 30 hostile strings through the app's real stylesheet and the
+exact font stack `syncFont()` injects for `bn`. Run the dev server and open
+`/bangla-spike.html`. Fix in CSS **before** the main pass. Any
 fix here is language-scoped (`:root[lang='bn']`) unless it is a genuine bug for
 everyone — the Spanish rollout found five of those, so expect some.
 
