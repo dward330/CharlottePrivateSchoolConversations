@@ -41,7 +41,7 @@ export function ClubCatalogBody({ catalog }: { catalog: ClubCatalog }) {
   }, [])
 
   const total = catalog.clubs.length
-  const noun = catalog.countNoun ?? 'clubs'
+  const noun = catalog.countNoun ?? t('cardLabels.clubs')
   const counts: Record<string, number> = {}
   for (const c of catalog.clubs) counts[c.cat] = (counts[c.cat] ?? 0) + 1
 

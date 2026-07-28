@@ -524,7 +524,7 @@ function EnrichmentCatalog({ data }: { data: DayInside }) {
   return (
     <div>
       <Heading hint={data.catalogEstimated ? '— illustrative catalog' : undefined}>
-        {data.catalogTitle ?? 'Enrichment classes'}
+        {data.catalogTitle ?? t('cardLabels.enrichmentClasses')}
       </Heading>
 
       {data.catalogIntro && (
@@ -584,9 +584,9 @@ function EnrichmentCatalog({ data }: { data: DayInside }) {
           <thead>
             <tr>
               <th className="as-th">{t('tables.classLabel')}</th>
-              <th className="as-th">Day</th>
+              <th className="as-th">{t('cardLabels.day')}</th>
               <th className="as-th">{t('tables.grades')}</th>
-              <th className="as-th as-th-fee">Fee</th>
+              <th className="as-th as-th-fee">{t('cardLabels.fee')}</th>
             </tr>
           </thead>
           <tbody>
@@ -625,7 +625,7 @@ export function DayInsideBody({ data }: { data: DayInside }) {
       {data.rhythm.length > 0 && (
         <>
           <Heading hint={data.rhythmEstimated ? '— typical structure, confirm on visit' : undefined}>
-            {data.rhythmTitle ?? 'The afternoon rhythm'}
+            {data.rhythmTitle ?? t('cardLabels.afternoonRhythm')}
           </Heading>
           <div
             className="as-rhythm"
@@ -679,6 +679,7 @@ export function DayInsideBody({ data }: { data: DayInside }) {
  * it's a scratchpad for one visit, not saved research.
  */
 function Checklist({ items, title }: { items: string[]; title?: string }) {
+  const { t } = useTranslation()
   const [checked, setChecked] = useState<Set<number>>(new Set())
   const toggle = (i: number) =>
     setChecked((prev) => {
@@ -690,7 +691,7 @@ function Checklist({ items, title }: { items: string[]; title?: string }) {
 
   return (
     <div>
-      <Heading>{title ?? 'Ask on the tour'}</Heading>
+      <Heading>{title ?? t('cardLabels.askOnTour')}</Heading>
       <div className="as-checklist">
         {items.map((q, i) => (
           <label key={q} className="as-check-item">

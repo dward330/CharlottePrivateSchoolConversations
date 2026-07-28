@@ -627,7 +627,7 @@ export function FacilitiesBody({ data }: { data: Facilities }) {
           </div>
           {data.broadcast && (
             <p className="sports-note">
-              <strong className="sports-note-strong">Broadcast &amp; game day:</strong>{' '}
+              <strong className="sports-note-strong">{t('cardLabels.broadcastGameDay')}</strong>{' '}
               {data.broadcast}
             </p>
           )}
@@ -656,6 +656,7 @@ export function FacilitiesBody({ data }: { data: Facilities }) {
 /* ----------------------------------------------- 1g · national stage & NIL -- */
 
 export function NationalStageBody({ data }: { data: NationalStage }) {
+  const { t } = useTranslation()
   return (
     <div className="sports-body">
       <Lead headline={data.headline} subhead={data.subhead} />
@@ -663,7 +664,7 @@ export function NationalStageBody({ data }: { data: NationalStage }) {
 
       <div className="sports-split">
         <div>
-          <Heading>{data.scheduleTitle ?? 'The national schedule'}</Heading>
+          <Heading>{data.scheduleTitle ?? t('cardLabels.nationalSchedule')}</Heading>
           <div className="sports-scroll sports-scroll-short">
             <div className="sports-care">
               {data.schedule.map((s) => (
@@ -678,7 +679,7 @@ export function NationalStageBody({ data }: { data: NationalStage }) {
         </div>
 
         <div className="sports-panel">
-          <Heading>{data.nilTitle ?? 'The NIL timeline — private vs public NC'}</Heading>
+          <Heading>{data.nilTitle ?? t('cardLabels.nilTimeline')}</Heading>
           <div className="sports-timeline">
             {data.nil.map((e, i) => (
               <div key={e.date} className="sports-tl-row">
