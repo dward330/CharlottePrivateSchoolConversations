@@ -65,7 +65,7 @@ export function ClubCatalogBody({ catalog }: { catalog: ClubCatalog }) {
           aria-pressed={filter === ALL}
           onClick={() => setFilter(ALL)}
         >
-          All · {total}
+          {t('cardLabels.filterAllCount', { count: total })}
         </button>
         {catalog.categories.map((cat) => (
           <button
@@ -79,7 +79,7 @@ export function ClubCatalogBody({ catalog }: { catalog: ClubCatalog }) {
           </button>
         ))}
         <span className="catalog-count" aria-live="polite">
-          Showing {shown.length} of {total} {noun}
+          {t('cardLabels.showingCount', { shown: shown.length, total, noun })}
         </span>
       </div>
 
@@ -115,7 +115,7 @@ export function ClubCatalogBody({ catalog }: { catalog: ClubCatalog }) {
           aria-pressed={hideSources}
           onClick={() => setHideSources((v) => !v)}
         >
-          {hideSources ? 'Show sources' : 'Hide sources'}
+          {hideSources ? t('cardLabels.showSources') : t('cardLabels.hideSources')}
         </button>
         {!hideSources && (
           <div className="catalog-src srcrow">

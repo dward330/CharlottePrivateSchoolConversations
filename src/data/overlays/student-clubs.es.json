@@ -160,10 +160,43 @@
       ]
     },
     {
+      "t": "laguna",
+      "of": "481721cf",
+      "at": [
+        "providence-day:affinity.flags[0].kind",
+        "providence-day:honors.flags[0].kind",
+        "providence-day:honors.flags[1].kind",
+        "charlotte-latin:affinity.flags[0].kind",
+        "charlotte-latin:honors.flags[0].kind",
+        "charlotte-christian:affinity.flags[1].kind",
+        "charlotte-christian:service.flags[1].kind",
+        "charlotte-christian:honors.flags[0].kind",
+        "charlotte-christian:honors.flags[1].kind",
+        "charlotte-country-day:affinity.flags[1].kind",
+        "charlotte-country-day:service.flags[1].kind",
+        "charlotte-country-day:honors.flags[0].kind",
+        "charlotte-country-day:honors.flags[1].kind",
+        "cannon:affinity.flags[0].kind",
+        "cannon:service.flags[1].kind",
+        "cannon:honors.flags[0].kind",
+        "cannon:honors.flags[1].kind",
+        "davidson-day:service.flags[1].kind"
+      ]
+    },
+    {
       "t": "El sitio web actual de la escuela ya no enumera sus propios grupos de afinidad. La página de EIB los presenta como cuatro mosaicos de imagen sin etiquetar — Lower School, Middle School, Upper School y Familias/Profesorado/Personal — sin nombres y sin ningún recuento en toda la página. La lista completa anterior sobrevive únicamente en capturas fechadas del archivo web de páginas que hoy devuelven 404, y por eso las fuentes que figuran abajo apuntan allí.",
       "of": "2712bf3c",
       "at": [
         "providence-day:affinity.flags[0].text"
+      ]
+    },
+    {
+      "t": "recuento",
+      "of": "39b1ddf4",
+      "at": [
+        "providence-day:affinity.flags[1].kind",
+        "charlotte-christian:affinity.flags[0].kind",
+        "charlotte-country-day:affinity.flags[0].kind"
       ]
     },
     {
@@ -242,6 +275,18 @@
       "of": "8bd1a5ae",
       "at": [
         "providence-day:service.footnote"
+      ]
+    },
+    {
+      "t": "no es un club",
+      "of": "d218da83",
+      "at": [
+        "providence-day:service.flags[0].kind",
+        "charlotte-latin:service.flags[0].kind",
+        "charlotte-christian:service.flags[0].kind",
+        "charlotte-country-day:service.flags[0].kind",
+        "cannon:service.flags[0].kind",
+        "davidson-day:service.flags[0].kind"
       ]
     },
     {
@@ -386,6 +431,13 @@
       ]
     },
     {
+      "t": "DECA",
+      "of": "8e94a636",
+      "at": [
+        "providence-day:clusters.rows[0].name"
+      ]
+    },
+    {
       "t": "Pasó de la conferencia estatal a la ICDC nacional en ’26",
       "of": "9e22cd9a",
       "at": [
@@ -408,6 +460,13 @@
       "of": "46607be3",
       "at": [
         "providence-day:clusters.rows[0].note"
+      ]
+    },
+    {
+      "t": "Clubes cívicos →",
+      "of": "1fd473ea",
+      "at": [
+        "providence-day:clusters.rows[1].name"
       ]
     },
     {
@@ -437,6 +496,13 @@
       ]
     },
     {
+      "t": "Clubes STEM →",
+      "of": "5b91930f",
+      "at": [
+        "providence-day:clusters.rows[2].name"
+      ]
+    },
+    {
       "t": "Science Olympiad, Robotics, TSA, Drone Club, Build Your Own Boat",
       "of": "e0b00854",
       "at": [
@@ -451,6 +517,13 @@
       ]
     },
     {
+      "t": "Clubes de negocios y economía →",
+      "of": "74ad4871",
+      "at": [
+        "providence-day:clusters.rows[3].name"
+      ]
+    },
+    {
       "t": "FBLA, Euro Challenge, PD Economics Challenge — más DECA",
       "of": "9ad2ca7e",
       "at": [
@@ -462,6 +535,13 @@
       "of": "6cdc0ffa",
       "at": [
         "providence-day:clusters.rows[3].note"
+      ]
+    },
+    {
+      "t": "Clubes de salud y deportes electrónicos →",
+      "of": "3b1d6e42",
+      "at": [
+        "providence-day:clusters.rows[4].name"
       ]
     },
     {
@@ -1127,6 +1207,26 @@
       ]
     },
     {
+      "t": "Según la escuela",
+      "of": "eeb62b9f",
+      "at": [
+        "providence-day:catalog.divisions[0].tag",
+        "charlotte-latin:clusters.rows[2].evidenceLabel",
+        "charlotte-latin:clusters.rows[3].evidenceLabel",
+        "charlotte-latin:clusters.rows[4].evidenceLabel",
+        "charlotte-latin:catalog.divisions[0].tag",
+        "charlotte-christian:catalog.divisions[2].tag",
+        "charlotte-country-day:catalog.divisions[0].tag",
+        "cannon:clusters.rows[2].evidenceLabel",
+        "cannon:clusters.rows[3].evidenceLabel",
+        "cannon:catalog.divisions[0].tag",
+        "cannon:catalog.divisions[2].tag",
+        "davidson-day:clusters.rows[1].evidenceLabel",
+        "davidson-day:clusters.rows[2].evidenceLabel",
+        "davidson-day:catalog.divisions[0].tag"
+      ]
+    },
+    {
       "t": "Lower School (TK–5)",
       "of": "1fe494ea",
       "at": [
@@ -1139,6 +1239,15 @@
       "of": "7c7d92eb",
       "at": [
         "providence-day:catalog.divisions[1].text"
+      ]
+    },
+    {
+      "t": "Estructural",
+      "of": "4d8a697a",
+      "at": [
+        "providence-day:catalog.divisions[1].tag",
+        "charlotte-latin:catalog.divisions[1].tag",
+        "cannon:catalog.divisions[1].tag"
       ]
     },
     {
@@ -1367,6 +1476,13 @@
       ]
     },
     {
+      "t": "Speech & Debate",
+      "of": "cd1e171a",
+      "at": [
+        "charlotte-latin:clusters.rows[0].name"
+      ]
+    },
+    {
       "t": "Programa NSDA entre los 20 mejores del país; 5.º en Public Forum en el Nacional de ’26",
       "of": "57c6cbe1",
       "at": [
@@ -1385,6 +1501,13 @@
       "of": "50e32a6c",
       "at": [
         "charlotte-latin:clusters.rows[0].note"
+      ]
+    },
+    {
+      "t": "Science Olympiad",
+      "of": "8097656c",
+      "at": [
+        "charlotte-latin:clusters.rows[1].name"
       ]
     },
     {
@@ -1409,6 +1532,14 @@
       ]
     },
     {
+      "t": "Model UN",
+      "of": "9ba6f23d",
+      "at": [
+        "charlotte-latin:clusters.rows[2].name",
+        "charlotte-country-day:clusters.rows[0].name"
+      ]
+    },
+    {
       "t": "Conferencias locales e internacionales, incluida NAIMUN en Georgetown",
       "of": "f3c65dea",
       "at": [
@@ -1416,23 +1547,17 @@
       ]
     },
     {
-      "t": "Según la escuela",
-      "of": "eeb62b9f",
-      "at": [
-        "charlotte-latin:clusters.rows[2].evidenceLabel",
-        "charlotte-latin:clusters.rows[3].evidenceLabel",
-        "charlotte-latin:clusters.rows[4].evidenceLabel",
-        "cannon:clusters.rows[2].evidenceLabel",
-        "cannon:clusters.rows[3].evidenceLabel",
-        "davidson-day:clusters.rows[1].evidenceLabel",
-        "davidson-day:clusters.rows[2].evidenceLabel"
-      ]
-    },
-    {
       "t": "Los recuentos de premios a delegados no se publican de forma constante de un año a otro, así que esto se recoge a nivel de programa y no con un número de medallas. La escuela menciona viajes internacionales tanto para Model UN como para Debate.",
       "of": "ba11975a",
       "at": [
         "charlotte-latin:clusters.rows[2].note"
+      ]
+    },
+    {
+      "t": "World Quest",
+      "of": "6be6dbe1",
+      "at": [
+        "charlotte-latin:clusters.rows[3].name"
       ]
     },
     {
@@ -1450,6 +1575,13 @@
       ]
     },
     {
+      "t": "Math Team",
+      "of": "10d12f94",
+      "at": [
+        "charlotte-latin:clusters.rows[4].name"
+      ]
+    },
+    {
       "t": "El CLS Math Team compite entre escuelas; las clasificaciones no se publican",
       "of": "b2e17d88",
       "at": [
@@ -1461,6 +1593,13 @@
       "of": "c777d3a0",
       "at": [
         "charlotte-latin:clusters.rows[4].note"
+      ]
+    },
+    {
+      "t": "STEM individual",
+      "of": "4ee58c17",
+      "at": [
+        "charlotte-latin:clusters.rows[5].name"
       ]
     },
     {
@@ -2023,6 +2162,13 @@
       ]
     },
     {
+      "t": "Chess Team",
+      "of": "e1a6ae94",
+      "at": [
+        "charlotte-christian:clusters.rows[0].name"
+      ]
+    },
+    {
       "t": "Equipo competitivo de la Middle School — obtuvo el 2.º puesto en un torneo",
       "of": "37fa2339",
       "at": [
@@ -2037,6 +2183,13 @@
       ]
     },
     {
+      "t": "Clubes académicos de la US →",
+      "of": "a8762b57",
+      "at": [
+        "charlotte-christian:clusters.rows[1].name"
+      ]
+    },
+    {
       "t": "DECA, Debate, Model UN, Latin Club",
       "of": "c41ee9a9",
       "at": [
@@ -2048,6 +2201,13 @@
       "of": "fafc8c5a",
       "at": [
         "charlotte-christian:clusters.rows[1].note"
+      ]
+    },
+    {
+      "t": "Robótica →",
+      "of": "e2b6da96",
+      "at": [
+        "charlotte-christian:clusters.rows[2].name"
       ]
     },
     {
@@ -2294,6 +2454,14 @@
       "of": "91cb9407",
       "at": [
         "charlotte-christian:catalog.divisions[0].text"
+      ]
+    },
+    {
+      "t": "Mínimo con nombre propio",
+      "of": "d932c1b6",
+      "at": [
+        "charlotte-christian:catalog.divisions[0].tag",
+        "charlotte-christian:catalog.divisions[1].tag"
       ]
     },
     {
@@ -2625,6 +2793,13 @@
       "of": "0a77d6e3",
       "at": [
         "charlotte-country-day:clusters.rows[0].note"
+      ]
+    },
+    {
+      "t": "Robótica",
+      "of": "a37971e0",
+      "at": [
+        "charlotte-country-day:clusters.rows[1].name"
       ]
     },
     {
@@ -3031,6 +3206,13 @@
       ]
     },
     {
+      "t": "Brainy Yaks",
+      "of": "79af969e",
+      "at": [
+        "cannon:clusters.rows[0].name"
+      ]
+    },
+    {
       "t": "Robótica FLL (grados 6–10); top 100 de más de 32.000 equipos en el Mundial, ’24 y ’25",
       "of": "b00dc956",
       "at": [
@@ -3052,6 +3234,13 @@
       ]
     },
     {
+      "t": "Negocios y académicos →",
+      "of": "bd3e8a42",
+      "at": [
+        "cannon:clusters.rows[1].name"
+      ]
+    },
+    {
       "t": "DECA (finalistas del CDC de ’26), Model UN (premios en el DUMUNC de Duke)",
       "of": "3f3acf97",
       "at": [
@@ -3066,6 +3255,13 @@
       ]
     },
     {
+      "t": "Deportes electrónicos",
+      "of": "2e26f70b",
+      "at": [
+        "cannon:clusters.rows[2].name"
+      ]
+    },
+    {
       "t": "Cannon School Gaming — laboratorio dedicado de deportes electrónicos desde 2021",
       "of": "47f30588",
       "at": [
@@ -3077,6 +3273,13 @@
       "of": "3f984e2a",
       "at": [
         "cannon:clusters.rows[2].note"
+      ]
+    },
+    {
+      "t": "Equipos de la Middle School →",
+      "of": "be1b0974",
+      "at": [
+        "cannon:clusters.rows[3].name"
       ]
     },
     {
@@ -3411,6 +3614,13 @@
       ]
     },
     {
+      "t": "Battle of the Books",
+      "of": "2aa09b5d",
+      "at": [
+        "davidson-day:clusters.rows[0].name"
+      ]
+    },
+    {
       "t": "Equipo de concurso de lectura de la Middle School — primer puesto regional (documentado)",
       "of": "a3fa6560",
       "at": [
@@ -3425,6 +3635,13 @@
       ]
     },
     {
+      "t": "Distinciones y honores →",
+      "of": "d30c8683",
+      "at": [
+        "davidson-day:clusters.rows[1].name"
+      ]
+    },
+    {
       "t": "National Honor Society (28 en ’25), Global Studies Diploma, Acclaim Scholars",
       "of": "e5ca88c4",
       "at": [
@@ -3436,6 +3653,13 @@
       "of": "266c4d5a",
       "at": [
         "davidson-day:clusters.rows[1].note"
+      ]
+    },
+    {
+      "t": "Muestra de investigación",
+      "of": "a41889a9",
+      "at": [
+        "davidson-day:clusters.rows[2].name"
       ]
     },
     {

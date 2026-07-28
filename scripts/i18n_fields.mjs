@@ -49,6 +49,16 @@ export const PROSE_KEYS = new Set([
   // timeline dates ("May 2023", "July 1, 2025") and season names are phrases with
   // figures embedded, not bare codes. The figures are preserved; the words move.
   'meta', 'date', 'season',
+  // Found by scripts/i18n_audit_skips.mjs — each of these was skipped on the
+  // strength of its field NAME while its values are phrases:
+  //   dismissal    "dismissal 1:00"        (not a bare time)
+  //   intensity    "Light touch", "Ramps up", "Senior-weighted"
+  //   mechanics    "Applications", "Standardized testing", "Teacher recs"
+  //   scholarships "$23M+ merit offers · Class of 2025", "West Point appointment"
+  //   words        "catch up with friends", "safe & supervised"
+  //   when         "Monthly", "Year-round", "Rotating"
+  //   kind         "Play / One-Act", "Mainstage musicals"
+  'dismissal', 'intensity', 'mechanics', 'scholarships', 'words', 'when', 'kind',
   // Per-school section headings. CLAUDE.md's i18n standard splits headings by
   // the uniform test: one that is byte-identical across all six schools is
   // chrome and belongs in src/locales/*.json, while one that VARIES per school
@@ -104,26 +114,19 @@ export const SKIP_KEYS = new Map([
   ['ensembles', 'proper noun — ensemble name'],
   ['role', 'job title — see PATH_OVERRIDES, translated where descriptive'],
   ['day', 'weekday code (Mon) — rendered from a chrome key'],
-  ['when', 'time literal'],
   ['time', 'time literal'],
   ['until', 'time literal'],
-  ['dismissal', 'time literal'],
   ['hours', 'time literal'],
   ['division', 'division name — see PATH_OVERRIDES'],
-  ['kind', 'short type code'],
   ['width', 'layout number'],
   ['shade', 'colour token'],
-  ['intensity', 'layout number'],
   ['startFrac', 'layout number'],
   ['endFrac', 'layout number'],
   ['flags', 'internal render flag'],
   ['show_', 'internal render flag'],
   ['source', 'citation label — see PATH_OVERRIDES'],
   ['sources', 'citation container'],
-  ['words', 'word-cloud tokens — proper nouns and short labels'],
   ['path', 'career path — proper nouns joined by arrows'],
-  ['scholarships', 'currency + class year'],
-  ['mechanics', 'short noun list, largely proper'],
   ['sportBars', 'container'],
   ['honors', 'container'],
   ['values', 'score-table cell — figures and em-dashes'],
@@ -139,6 +142,28 @@ export const SKIP_KEYS = new Map([
   ['cat', 'internal category code (interest, comp, aff)'],
   ['key', 'internal object key'],
   ['evidence', 'internal evidence-tier code (verified, reported)'],
+])
+
+/**
+ * Skips REVIEWED against their actual values (scripts/i18n_audit_skips.mjs) and
+ * confirmed correct, even though the audit's heuristic flags them for containing
+ * words. Listing them here is what lets the audit report clean, so a genuinely
+ * new misclassification stands out instead of hiding in a wall of known noise.
+ *
+ *   basis, shade, tagStyle, defaultRow, cats  render tokens and internal ids
+ *   src                                       asset paths
+ *   fee, price                                currency — localizeMoneyText() owns
+ *                                             these; re-typing is how amounts drift
+ *   grades                                    "TK–4", "JK–6" — grade codes
+ *   record                                    "12–1" — the figure the rule protects
+ *   path                                      "PD → NC State → Panthers" — proper
+ *                                             nouns joined by arrows
+ *   show                                      production titles, kept English like
+ *                                             every other work title in this corpus
+ */
+export const REVIEWED_SKIPS = new Set([
+  'basis', 'cats', 'defaultRow', 'fee', 'grades', 'path',
+  'price', 'record', 'shade', 'show', 'src', 'tagStyle',
 ])
 
 /**
@@ -166,4 +191,14 @@ export const PATH_OVERRIDES = new Map([
   // `offered.seasons[].name`, and `name` is otherwise a proper noun (sports,
   // people, venues). Resolved by path so the sport names beneath stay English.
   ['offered.seasons[].name', true],
+  // `time` is mixed: the enrichment catalog uses clock literals ("2:40–3:00")
+  // while the coverage table uses phrases ("Grades 1–2", "After class", "Then").
+  ['coverage.rows[].tiers[].time', true],
+  ['dayInside.rhythm[].time', true],
+  // Cluster row names are mixed: single clubs are proper nouns kept English
+  // ("DECA", "Brainy Yaks", "Chess Team") while grouped rows are descriptive
+  // labels ("Civic clubs →", "US academic clubs →", "Middle School teams →").
+  // Marked prose so the descriptive ones translate; the translator leaves the
+  // proper nouns identical, which the overlay stores as a no-op.
+  ['clusters.rows[].name', true],
 ])
