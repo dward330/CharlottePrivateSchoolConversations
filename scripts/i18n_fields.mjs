@@ -201,4 +201,13 @@ export const PATH_OVERRIDES = new Map([
   // Marked prose so the descriptive ones translate; the translator leaves the
   // proper nouns identical, which the overlay stores as a no-op.
   ['clusters.rows[].name', true],
+  // After School — caught by the skip audit BEFORE translating, which is what
+  // that script is for. `name` is a proper noun in the enrichment catalog
+  // ("Art", "Chess", "YoLa — Yoga & Language") but a descriptive step in the
+  // day-rhythm strip ("Collected at the door", "Snack → class → dismissal").
+  ['dayInside.rhythm[].name', true],
+  // `value` in the fee ledger carries phrases as often as figures:
+  // "$80 / student", "$1.00 / min", "23 Sep & 20 Jan", "not published".
+  // localizeMoneyText() still owns the pure-currency rows at render.
+  ['cost.fees[].value', true],
 ])
