@@ -40,6 +40,11 @@ export const PROSE_KEYS = new Set([
   // Human-readable labels and captions
   'label', 'valueLabel', 'gradeLabel', 'panelLabel', 'flatLabel', 'title',
   'kicker', 'verdict', 'result',
+  // Tenure and record annotations read as phrases, not bare figures: "since 2002",
+  // "long-tenured", "15+ years", "2 OF 3 YRS", "meet-scored", "stroke play",
+  // "3rd at state". The numerals inside them are preserved by the translator; the
+  // surrounding words are not English-invariant.
+  'since', 'tag',
   // Per-school section headings. CLAUDE.md's i18n standard splits headings by
   // the uniform test: one that is byte-identical across all six schools is
   // chrome and belongs in src/locales/*.json, while one that VARIES per school
@@ -87,7 +92,6 @@ export const SKIP_KEYS = new Map([
   ['price', 'currency — localized at render'],
   ['prices', 'currency — localized at render'],
   ['year', 'numeral'],
-  ['since', 'numeral / short date'],
   ['grades', 'grade code (TK, K, 9–12)'],
   ['grade', 'grade code'],
   ['rankLabel', 'ranking code — "Liberal Rank #2"'],
@@ -104,7 +108,6 @@ export const SKIP_KEYS = new Map([
   ['division', 'division name — see PATH_OVERRIDES'],
   ['season', 'season name — chrome-owned (Fall/Winter/Spring)'],
   ['kind', 'short type code'],
-  ['tag', 'short badge code'],
   ['meta', 'layout hint'],
   ['width', 'layout number'],
   ['shade', 'colour token'],

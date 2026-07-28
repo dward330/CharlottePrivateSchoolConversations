@@ -163,9 +163,16 @@ Landed 2026-07-27. Full coverage: 587/587 field sites. Nearly 3× Stage 1.
 
 ---
 
-## Stage 3 — Sports (527 strings, 9,553 words)
+## Stage 3 — Sports (577 strings, 9,651 words)
 
-Landed 2026-07-27. Full coverage: 719/719 field sites — the most of any topic.
+Landed 2026-07-27. Full coverage: 813/813 field sites — the most of any topic.
+
+**A print-out caught two misclassified fields after the first pass.** `since` was
+skipped as a "numeral / short date" and `tag` as a "short badge code"; both are
+actually phrases — `since 2002`, `long-tenured`, `15+ years`, `2 OF 3 YRS`,
+`meet-scored`, `Statewide, 1 per sport`. Reclassified as prose, which took the topic
+from 719 to 813 field sites. The numerals inside them are preserved; only the
+surrounding words are translated.
 
 ### Terminology choices worth a second opinion
 
