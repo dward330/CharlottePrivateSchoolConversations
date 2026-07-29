@@ -98,7 +98,7 @@ export function langCodeOf(code: string | undefined): string {
  * tracked separately in PROSE_TRANSLATED below — the two layers ship on
  * different schedules by design (see the i18n note in CLAUDE.md).
  */
-export const TRANSLATED: readonly string[] = ['en', 'es', 'bn', 'ht']
+export const TRANSLATED: readonly string[] = ['en', 'es', 'bn', 'ht', 'te']
 
 export function isTranslated(code: string): boolean {
   return TRANSLATED.includes(code)
