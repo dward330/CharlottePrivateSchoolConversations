@@ -8,6 +8,8 @@ import { Compare } from './pages/Compare.tsx'
 import { BackToTop } from './components/BackToTop.tsx'
 import { ThemeToggle } from './components/ThemeToggle.tsx'
 import { LanguagePicker } from './components/LanguagePicker.tsx'
+// TEMPORARY — translation print-out aid, remove with the component.
+import { ExpandAllToggle } from './components/ExpandAllToggle.tsx'
 
 function App() {
   const { t } = useTranslation()
@@ -47,6 +49,8 @@ function App() {
             {t('nav.compare')}
           </a>
           <LanguagePicker />
+          {/* TEMPORARY — print-out aid, only where there are cards to expand. */}
+          {route.name === 'school' && <ExpandAllToggle />}
           <ThemeToggle />
         </div>
       </nav>
