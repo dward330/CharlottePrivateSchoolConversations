@@ -941,6 +941,33 @@ Grouping is applied at **render** time. Figures in the work files should
 round-trip byte-identically; a regrouped figure appearing in a work file is a
 defect, not a localization.
 
+### Known gap, deliberately left: methodology prose inside `sources`
+
+Seven sentences across the six financial-aid reports render **English on every
+non-English page**. They are the aggregator-rejection notes at the end of each
+report's `sources` string — e.g. "Commercial tuition aggregators were reviewed
+only to identify discrepancies against the school's own page (Section 7) and are
+the source of no figure here."
+
+Not fixed, and the reason is the fix's shape rather than its size:
+
+- `sources` is one long string per school: citations, then methodology, then the
+  uniform disclaimer. The disclaimer is uniform so it became a chrome key
+  (`cardLabels.notCommissioned`, see `reportSources()`). The methodology
+  sentences vary per school, so no key can hold them.
+- The prose overlay is not an option either: `walk()` in `localizeData.ts`
+  translates a string by whole-path match, so putting `sources` in the overlay
+  would translate the citations too — breaking the rule that a citation must
+  match the document it names.
+- A real fix means restructuring `sources` into `{citations[], methodology}`
+  across six schools, re-extracting `financial-aid-report` in four locales, and
+  re-verifying. That is a data-model change to move one footer paragraph.
+
+Weighed against: it sits at ~99% of the page depth, inside the sources block,
+and every trust-bearing statement a family acts on — the disclaimer, the
+caveats, the hedges, the flag chips — is translated. Revisit this if `sources`
+is ever restructured for another reason; do not restructure it *for* this.
+
 **Consequence to expect on the page: a tile and the prose beside it will show
 the same figure two different ways.** Found in the Providence Day print-out,
 2026-07-29:
