@@ -117,6 +117,14 @@ Run the print-out on **two** schools — Charlotte Latin exercises flag-chip and
 hedge paths Providence Day never touches — and in a **real browser**. A headless
 render passed Latin clean; the 65-page browser print-out found the currency bug.
 
+**A skipped field can be right about 12 values and wrong about the 13th.**
+`ensembles` is classified "proper noun — ensemble name", correctly — except for
+one hedge sentence that therefore shipped as English to all four non-English
+locales. `i18n_audit_skips.mjs` would have flagged it, but collection stopped at
+8 values per field and it was the 9th of 55, so the audit passed clean. The cap
+now applies only to display. Beware any check whose sample size doubles as its
+coverage.
+
 **Expand the collapsed panels, and check an unabbreviated 7-digit figure.** A
 default school page renders ~17k characters; with every `<details>` opened it is
 ~152k, and the financial-aid sections holding the large figures are collapsed on
