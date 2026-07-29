@@ -1,25 +1,68 @@
 # Bangla (Bangladesh) research-prose translation — rollout
 
-**Status:** **Phase 0 complete — Phase 1 is the next step.** Written 2026-07-28.
+**Status:** **Phase 1 in progress — 6 of 9 topics translated.** Written 2026-07-28.
 
 > ## START HERE (fresh session)
 >
-> Phase 0 (typography spike) is **done and verified by print-out**. The script
-> fixes are committed and the numeral rule is enforced by a checker. Nothing
-> from the Spanish rollout needs re-deriving — the extractors, checkers and
-> field classification are language-independent and already correct.
+> Phase 0 (typography spike) is done. Phase 1 extraction is done for **all
+> nine topics** — every work file exists. Six topics are **translated, built
+> and committed**; three remain.
 >
-> **Branch:** `i18n/bengali-bangladesh-label` (PR #58, open). Everything below
-> is pushed; `git pull` and you have it all.
+> **Branch:** `i18n/bengali-bangladesh-label` (PR #58, open). All pushed.
 >
-> **Next command — Phase 1, §3:**
+> ### Done (100% coverage, no drift, figures verified)
+>
+> | Topic | Strings |
+> |---|---|
+> | metric-values | 126 |
+> | student-clubs | 520 |
+> | sports | 636 |
+> | after-school | 657 |
+> | financial-aid-report | 572 |
+> | the-arts | 599 |
+> | **total** | **3,110** |
+>
+> ### Remaining
+>
+> | Topic | Strings | Note |
+> |---|---|---|
+> | college-support | 929 | largest; 314 long-form passages |
+> | course-offerings | 1,848 | most strings, but many short course titles |
+> | financial-aid-tuition (content) | 27 | uses `i18n_extract_content.mjs`, hash-keyed |
+> | UI chrome `src/locales/bn.json` | 320 keys | copy `en.json`, translate values |
+>
+> ### The loop, per topic
+>
 > ```
-> node scripts/i18n_extract.mjs --topic student-clubs --lang bn
+> # work file already exists — do NOT re-extract (it would blank it)
+> # translate the `t` fields in src/data/overlays/work/<topic>.bn.json
+> node scripts/check_bn_numerals.mjs                     # §4.1 — Western digits
+> node scripts/i18n_build_overlay.mjs --topic <t> --lang bn
+> node scripts/check_translations.mjs --lang bn          # coverage + drift
 > ```
-> then the remaining topics, translate the work files, build overlays, and run
-> Phase 2's six checks in order. Read §0 (Dhaka standard is binding), §4
-> (five decisions — numerals already settled), and §5 (Spanish lessons) first.
-> Nothing else from the Spanish conversation is required.
+>
+> **Run the figure-integrity sweep after every topic, not just at Phase 2.**
+> It caught a real defect in sports *after* that topic was marked complete —
+> `$30.5M` had been rendered as "3.05 কোটি ডলার". Coverage read 100% before and
+> after; only this check sees it:
+>
+> ```python
+> # every $ / % / year in the English must reappear in the Bangla
+> FIG = re.compile(r'\$[\d,]+(?:\.\d+)?[KM]?|\d+(?:\.\d+)?%|\b(?:19|20)\d{2}\b')
+> ```
+>
+> ### Register decisions already made (keep consistent — see §4)
+>
+> - **Latin, always:** school/college/program names, award and festival names
+>   (Blumey, NCTC, Morehead-Cain), venue names, course codes (AP, IB, Honors),
+>   platform names (Clarity, Scoir), athlete and staff names, and award
+>   categories inside citations (Best Actress).
+> - **Translated:** generic descriptors, analysis, and all hedges. The hedges
+>   are the point of this corpus — "documented minimum", "the school's claim",
+>   "an absence of evidence rather than a stated policy" — never smooth them.
+> - **Untouched:** every figure, scoreline, GPA, clock time and date.
+>
+> Read §0 (Dhaka standard is binding) and §5 (Spanish lessons) before starting.
 **Mechanism:** see [`prose-translation-architecture.md`](./prose-translation-architecture.md).
 That doc is language-independent; this one is only the Bangla rollout.
 **Prior rollout:** [`prose-translation-es.md`](./prose-translation-es.md) — Spanish,
