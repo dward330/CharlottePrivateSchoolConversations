@@ -1,15 +1,37 @@
 # Bangla (Bangladesh) research-prose translation — rollout
 
-**Status:** **Phase 1 COMPLETE — all 9 topics + chrome translated.** Phase 2
-checkers pass. Written 2026-07-28.
+**Status:** **Phases 0–3 COMPLETE.** All 9 topics + chrome translated, every
+Phase 2 check passes including a clean browser print-out, and `bn` is live in
+`TRANSLATED` / `PROSE_TRANSLATED`. Only the native-speaker review remains.
+Written 2026-07-28, print-out clean 2026-07-29.
 
 > ## START HERE (fresh session)
 >
-> Phases 0 and 1 are **done**. All nine topics are translated, built and
-> committed, plus the 326-key UI chrome catalog. Every Phase 2 *checker*
-> passes. What remains is Phase 2's **print-out** and Phase 3.
+> Phases 0–3 are **done**. All nine topics are translated, built, committed and
+> shipping; the 326-key UI chrome catalog too. Phase 2's browser print-out is
+> clean after three rounds. **The only thing left is a Bangladeshi
+> native-speaker review** (§6) — soft spots and terminology are listed per
+> topic in `src/data/overlays/NOTES.md`.
 >
 > **Branch:** `i18n/bengali-bangladesh-label` (PR #58, open). All pushed.
+>
+> ### The three print-out rounds, and why each mattered
+>
+> Every defect was in the RENDER layer, invisible to all five checkers, and each
+> round's fix exposed the next. This is the pattern to expect for the next
+> language:
+>
+> | Round | Symptom | Root cause |
+> |---|---|---|
+> | 1 | `৩৬,৩২৫ US$` | `Intl.NumberFormat('bn')` defaults to Bangla digits |
+> | 2 | `36,83,971` | `bn` groups lakh/crore — Western digits, wrong shape |
+> | 3 | *clean* | — |
+>
+> Round 2 hid below 6 digits, so round 1's fix looked complete: every tuition
+> tile (`$36,325`) groups identically either way. Only the philanthropy totals
+> and the TK–12 path figures exposed it. Both now guarded by
+> `check_bn_numerals.mjs`, which tests a 7-digit sample through the shipped
+> `numberLocale()` rather than grepping for a magic string.
 >
 > ### Done (100% coverage, no drift, figures verified)
 >
@@ -33,17 +55,13 @@ checkers pass. Written 2026-07-28.
 >
 > ### What is left
 >
-> 1. **Full-page print-out** (Phase 2 step 6) — the only check that catches
->    render bugs. Spanish needed ~12 rounds. **Verify in a browser**, not in the
->    source: overlays fail silently, and source-level checks pass while the page
->    renders English.
-> 2. **Phase 3** — add `'bn'` to both `TRANSLATED` and `PROSE_TRANSLATED` in
->    `src/lib/i18n.ts`. Deliberately NOT done yet: it is gated on a clean
->    print-out. `bn` is already in `SUPPORTED` with its font, and the catalog
->    loads from the glob automatically, so this is a two-line change.
-> 3. **Native-speaker review** by a *Bangladeshi* Bangla speaker (§6). Soft
->    spots and terminology are listed per topic in
->    `src/data/overlays/NOTES.md`.
+> **A Bangladeshi native-speaker review** (§6) — nothing else. The rollout is
+> functionally complete; what remains is judgement about register, terminology
+> and naturalness, which no check can supply.
+>
+> One piece of scaffolding is still in the tree and should come out when the
+> review is done: `src/components/ExpandAllToggle.tsx` (the EXPAND button in the
+> nav), plus its import and render site in `src/App.tsx`.
 >
 > ### The loop, per topic (for future languages)
 >
@@ -279,16 +297,23 @@ skipping any one of them lets a whole class through:
    translation, and every stamp recomputed from the live English matches its
    stored `of`, so the overlays resolve rather than silently falling back.
    Stage 7's `metricValues` bug read 100% while rendering English.
-6. ⬜ **Full-page print-out** — the only check that catches render bugs. Spanish
-   needed ~12 rounds; expect fewer here, but not zero. **Do this in a browser**
-   — source-level checks pass while the page renders English.
+6. ✅ **Full-page print-out** — the only check that catches render bugs, and it
+   earned that billing: **both** Bangla defects were render-layer, invisible to
+   checks 1–5, and each fix exposed the next (see the round table in START
+   HERE). Spanish needed ~12 rounds; Bangla needed 3. **Do this in a browser** —
+   source-level checks pass while the page renders English.
 
-### Phase 3 — flip `PROSE_TRANSLATED`  ⬜ not yet done
+   The ordering below is slightly wrong and worth fixing for the next language:
+   the print-out is listed before Phase 3, but `setLanguage()` rejects any code
+   not in `TRANSLATED`, so the locale is unselectable until Phase 3 lands. Flip
+   first, print second — the flip is two lines and trivially reverted.
 
-Add `'bn'` to both `TRANSLATED` and `PROSE_TRANSLATED` in `src/lib/i18n.ts`
-only once the print-out is clean. `bn` is already in `SUPPORTED` with its font,
-and `loadCatalog` picks `src/locales/bn.json` up from the glob automatically,
-so no `resources` change is needed — this is a two-line edit.
+### Phase 3 — flip `PROSE_TRANSLATED`  ✅ done
+
+`'bn'` is in both `TRANSLATED` and `PROSE_TRANSLATED` in `src/lib/i18n.ts`.
+`bn` was already in `SUPPORTED` with its font, and `loadCatalog` picks
+`src/locales/bn.json` up from the glob automatically, so no `resources` change
+was needed.
 
 ---
 
