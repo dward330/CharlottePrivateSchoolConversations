@@ -164,7 +164,15 @@ function ResultCell({ cell }: { cell: TitleCell }) {
     ) : cell.result === 'SEMIFINAL' ? (
       <span className="text-muted sports-chip-semi">{t('sports.semifinal')}</span>
     ) : (
-      <span className="sports-chip">{cell.result}</span>
+      // The winner chip. RUNNER-UP and SEMIFINAL were translated but this
+      // branch rendered `cell.result` raw, so "STATE" — the most prominent
+      // label in the table — stayed English in every non-English locale
+      // (8 times on one Telugu page). Matched by prefix, not equality,
+      // because the data also carries "STATE x2": the count suffix is a
+      // figure and is preserved verbatim.
+      <span className="sports-chip">
+        {cell.result.replace(/^STATE/, t('sports.state'))}
+      </span>
     )
   return (
     <div className="sports-cell">

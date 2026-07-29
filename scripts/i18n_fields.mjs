@@ -331,4 +331,13 @@ export const PATH_OVERRIDES = new Map([
   // "$80 / student", "$1.00 / min", "23 Sep & 20 Jan", "not published".
   // localizeMoneyText() still owns the pure-currency rows at render.
   ['cost.fees[].value', true],
+  // `sport` is a proper noun in every row but the ones where the school never
+  // said which sport the athlete signed for: 15 rows across Charlotte Latin and
+  // Cannon read "Not published". SKIP_KEYS covers the field as a sport name, so
+  // that hedge shipped as raw English inside the commitments table — 13 English
+  // rows on one otherwise-Telugu page, in all four non-English locales. The
+  // identical string is translated (ప్రచురించలేదు) where it lands in a prose
+  // field, which is what makes the inconsistency visible to a reader. Real
+  // sport names round-trip unchanged, exactly as course titles already do.
+  ['pipeline.roster[].sport', true],
 ])
