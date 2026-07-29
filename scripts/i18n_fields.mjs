@@ -185,6 +185,22 @@ export const REVIEWED_SKIPS = new Set([
 ])
 
 /**
+ * Individual VALUES reviewed and confirmed correct, for fields that are mostly
+ * proper nouns but hold a few entries the heuristic flags.
+ *
+ * Deliberately value-level, not field-level. Adding the whole field to
+ * REVIEWED_SKIPS above would exempt it forever, including values added later —
+ * which is exactly how "No jazz, a cappella, chamber or tiered band is
+ * published" shipped as English inside `ensembles` to four locales. These two
+ * are ensemble/course names carrying a lowercase descriptor, no different from
+ * "AP Music Theory"; a real sentence appearing in this field must still fail.
+ */
+export const REVIEWED_SKIP_VALUES = new Set([
+  'Grade 5 Music (choral)',
+  'Piano class',
+])
+
+/**
  * Full-path decisions that override the leaf-key default, for keys whose
  * meaning genuinely differs by location.
  */

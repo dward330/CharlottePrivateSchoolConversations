@@ -987,3 +987,36 @@ Both in `src/index.css`, scoped to `[lang='te']`, verified in a real browser.
 
 Stat tiles were fine, as in Bangla. Font (`Noto Sans Telugu`) loaded first time,
 no tofu.
+
+### A PDF artifact that is NOT a bug in this app (2026-07-29)
+
+An 81-page owner print-out of Charlotte Latin rendered perfectly on screen and on
+paper, but the PDF's **text layer** extracted as mojibake — `పాఠశాల` came out
+`!ఠ#ల`, `విద్యార్థులు` came out `;KLరుG లు`. It looks alarming and it is easy to
+mistake for a font or encoding bug in the app. It is neither.
+
+What was checked before concluding that:
+
+- `document.body.innerText` on the live page is correct Telugu; zero occurrences
+  of the corrupt forms in a 152k-char expanded DOM dump.
+- A headless-Chrome PDF of the *same* route extracts **cleanly** — 14 and 18
+  correct instances of `పాఠశాల`, zero corrupt.
+- `pdffonts` on the clean PDF shows `uni: yes` — a ToUnicode map is embedded, so
+  ligated conjunct glyphs reverse-map to characters.
+
+The owner's PDF came from a generator that subset the font *without* a usable
+ToUnicode map for the shaped conjunct glyphs, so extraction falls back to raw
+glyph IDs, which land on ASCII punctuation. That is a property of how the print
+path handles complex-script shaping, and **it would affect Bangla the same way**
+through the same path. Nothing in `src/` causes it and nothing in `src/` fixes it.
+
+**The consequence is still real and worth telling a family about:** a printed or
+saved PDF of a Telugu or Bangla page may be unsearchable and unreadable to a
+screen reader even though it looks perfect. Copy-paste out of it produces
+garbage.
+
+**Diagnostic order for the next language** — do this before filing a bug:
+`innerText` first, then a headless PDF of the same route, then `pdffonts` for the
+`uni` column. Comparing against a control PDF is what separates a real
+encoding bug from a generator artifact; skipping the control makes an app bug out
+of something the app did not do.

@@ -217,8 +217,14 @@ export const charlotteLatin: ArtsProgram = {
         ensembles: ['Band (6–12)', 'Orchestra (6–12)', 'Concert Choir (5–12)', 'Community Chorale'],
       },
       {
+        // `ensembles` is in SKIP_KEYS as "proper noun — ensemble name", so
+        // nothing in this array is ever extracted or translated. A hedge
+        // sentence here therefore shipped as raw English to every non-English
+        // locale — the Telugu print-out showed it sitting directly under its
+        // own translated label. The label already carries the hedge, so the
+        // sentence was redundant; the empty array renders as an empty row.
         label: 'Auditioned — none published',
-        ensembles: ['No jazz, a cappella, chamber or tiered band is published'],
+        ensembles: [],
       },
       {
         label: 'Classroom — theory track',
