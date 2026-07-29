@@ -72,8 +72,10 @@ figure is ever re-typed, so tuition data cannot drift between languages. Never h
 a number in a data file to "translate" it.
 
 **Active translation work.** The Spanish rollout is complete (all eight stages).
-Bangla (Bangladesh / Dhaka standard) is in progress — **Phase 0 done, Phase 1
-next**. See [`.claude/docs/prose-translation-bn.md`](.claude/docs/prose-translation-bn.md),
+Bangla (Bangladesh / Dhaka standard) — **Phases 0 and 1 done, and every Phase 2
+checker passes**. What remains is the Phase 2 browser print-out, then Phase 3
+(adding `'bn'` to `TRANSLATED` / `PROSE_TRANSLATED`) and a native-speaker
+review. See [`.claude/docs/prose-translation-bn.md`](.claude/docs/prose-translation-bn.md),
 which opens with a START HERE block; the language-independent mechanism lives in
 `prose-translation-architecture.md`. Do not re-derive either from scratch.
 

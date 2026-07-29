@@ -1,12 +1,13 @@
 # Bangla (Bangladesh) research-prose translation — rollout
 
-**Status:** **Phase 1 in progress — 6 of 9 topics translated.** Written 2026-07-28.
+**Status:** **Phase 1 COMPLETE — all 9 topics + chrome translated.** Phase 2
+checkers pass. Written 2026-07-28.
 
 > ## START HERE (fresh session)
 >
-> Phase 0 (typography spike) is done. Phase 1 extraction is done for **all
-> nine topics** — every work file exists. Six topics are **translated, built
-> and committed**; three remain.
+> Phases 0 and 1 are **done**. All nine topics are translated, built and
+> committed, plus the 326-key UI chrome catalog. Every Phase 2 *checker*
+> passes. What remains is Phase 2's **print-out** and Phase 3.
 >
 > **Branch:** `i18n/bengali-bangladesh-label` (PR #58, open). All pushed.
 >
@@ -15,41 +16,75 @@
 > | Topic | Strings |
 > |---|---|
 > | metric-values | 126 |
-> | student-clubs | 520 |
+> | student-clubs | 517 |
 > | sports | 636 |
-> | after-school | 657 |
+> | after-school | 654 |
 > | financial-aid-report | 572 |
 > | the-arts | 599 |
-> | **total** | **3,110** |
+> | college-support | 926 |
+> | course-offerings | 1,848 |
+> | financial-aid-tuition (content) | 27 |
+> | **prose total** | **5,905** |
+> | UI chrome `src/locales/bn.json` | 326 keys |
 >
-> ### Remaining
+> Counts for student-clubs, after-school and college-support are 3 lower than
+> the original extraction: `flags[].kind` is an enum key, not prose, and is now
+> excluded. See "the `kind` bug" below.
 >
-> | Topic | Strings | Note |
-> |---|---|---|
-> | college-support | 929 | largest; 314 long-form passages |
-> | course-offerings | 1,848 | most strings, but many short course titles |
-> | financial-aid-tuition (content) | 27 | uses `i18n_extract_content.mjs`, hash-keyed |
-> | UI chrome `src/locales/bn.json` | 320 keys | copy `en.json`, translate values |
+> ### What is left
 >
-> ### The loop, per topic
+> 1. **Full-page print-out** (Phase 2 step 6) — the only check that catches
+>    render bugs. Spanish needed ~12 rounds. **Verify in a browser**, not in the
+>    source: overlays fail silently, and source-level checks pass while the page
+>    renders English.
+> 2. **Phase 3** — add `'bn'` to both `TRANSLATED` and `PROSE_TRANSLATED` in
+>    `src/lib/i18n.ts`. Deliberately NOT done yet: it is gated on a clean
+>    print-out. `bn` is already in `SUPPORTED` with its font, and the catalog
+>    loads from the glob automatically, so this is a two-line change.
+> 3. **Native-speaker review** by a *Bangladeshi* Bangla speaker (§6). Soft
+>    spots and terminology are listed per topic in
+>    `src/data/overlays/NOTES.md`.
+>
+> ### The loop, per topic (for future languages)
 >
 > ```
 > # work file already exists — do NOT re-extract (it would blank it)
 > # translate the `t` fields in src/data/overlays/work/<topic>.bn.json
 > node scripts/check_bn_numerals.mjs                     # §4.1 — Western digits
+> python3 scripts/check_figures.py --topic <t> --lang bn # figures round-trip
 > node scripts/i18n_build_overlay.mjs --topic <t> --lang bn
 > node scripts/check_translations.mjs --lang bn          # coverage + drift
 > ```
 >
-> **Run the figure-integrity sweep after every topic, not just at Phase 2.**
-> It caught a real defect in sports *after* that topic was marked complete —
-> `$30.5M` had been rendered as "3.05 কোটি ডলার". Coverage read 100% before and
-> after; only this check sees it:
+> **The figure-integrity sweep is now a script** — `scripts/check_figures.py`,
+> run it after every topic. It caught a real defect in sports *after* that topic
+> was marked complete (`$30.5M` rendered as "3.05 কোটি ডলার"). Coverage read
+> 100% before and after; only this check sees it.
 >
-> ```python
-> # every $ / % / year in the English must reappear in the Bangla
-> FIG = re.compile(r'\$[\d,]+(?:\.\d+)?[KM]?|\d+(?:\.\d+)?%|\b(?:19|20)\d{2}\b')
-> ```
+> Two things the regex as originally written in this doc got wrong, now fixed in
+> the script: `[\d,]+` absorbed a trailing clause comma (so `$470, তা-ও` read as
+> the figure `$470,` — 15 phantom failures in after-school alone), and the
+> content extractor keys its units under `sections`, not `strings`.
+>
+> **The sweep is necessary but not sufficient.** It only sees `$`/`%`/years. In
+> `financial-aid-tuition` a blanket `' and ' → ' ও '` corrupted text *inside*
+> quoted Wayback citations ("2022-2023 Tuition **ও** Fees") while every dollar
+> figure stayed intact — the sweep passed. For provenance documents also check
+> **quoted-string and timestamp parity** between `text` and `t`.
+>
+> ### The `kind` bug — worth reading before the next language
+>
+> Flag chips render via `FLAG_LABEL[f.kind]` (`'verify'` → "TO VERIFY"). The
+> leaf `kind` was classified as prose (correct for artsPrograms, where it holds
+> season phrases like "Play / One-Act"), so the overlay rewrote the **lookup
+> key** and every chip fell to `undefined`. Spanish had been shipping **58 blank
+> evidence chips** across all six schools, on the one card where the qualifier
+> IS the parent-facing content. Coverage read 100% throughout.
+>
+> Now pinned `['*.flags[].kind', false]` in `PATH_OVERRIDES`, with the chip
+> wording moved to locale keys (`collegeSupport.flag_*`, `clubs.flag_*`) as
+> `afterSchool.flag_*` already did. This is the third leaf — after `value` and
+> `tier` — that is right for most of its values and wrong for a few.
 >
 > ### Register decisions already made (keep consistent — see §4)
 >
@@ -233,21 +268,27 @@ Plus **320 UI-chrome keys** (~1,223 words) in `src/locales/bn.json` — copy
 The Spanish rollout proved these catch **different** classes of bug, and that
 skipping any one of them lets a whole class through:
 
-1. `check_translations.mjs` — coverage and drift, all topics
-2. `check_chrome_keys.mjs` — every chrome-claiming skip resolves
-3. `check_hash_parity.mjs` — build-time and runtime stamps agree
-4. **Figure-integrity pass** — every `$`, `%`, year and timestamp round-trips
-   untouched. Bangla uses its own digits (০১২৩) — **do not** convert figures.
-   See §4.
-5. **Runtime resolution test** — resolve through the real code path, not just
-   coverage. Stage 7's `metricValues` bug read 100% while rendering English.
-6. **Full-page print-out** — the only check that catches render bugs. Spanish
-   needed ~12 rounds; expect fewer here, but not zero.
+1. ✅ `check_translations.mjs` — coverage and drift, all topics. 100%, no drift.
+2. ✅ `check_chrome_keys.mjs` — every chrome-claiming skip resolves.
+3. ✅ `check_hash_parity.mjs` — build-time and runtime stamps agree, 8 cases.
+4. ✅ **Figure-integrity pass** — now `scripts/check_figures.py`. Clean across
+   all nine work files. Bangla uses its own digits (০১২৩) — **do not** convert
+   figures. See §4. Note its blind spot: it only sees `$`/`%`/years, so for
+   provenance documents also check quoted-string and timestamp parity.
+5. ✅ **Runtime resolution test** — all 5,904 overlay entries carry a hash and a
+   translation, and every stamp recomputed from the live English matches its
+   stored `of`, so the overlays resolve rather than silently falling back.
+   Stage 7's `metricValues` bug read 100% while rendering English.
+6. ⬜ **Full-page print-out** — the only check that catches render bugs. Spanish
+   needed ~12 rounds; expect fewer here, but not zero. **Do this in a browser**
+   — source-level checks pass while the page renders English.
 
-### Phase 3 — flip `PROSE_TRANSLATED`
+### Phase 3 — flip `PROSE_TRANSLATED`  ⬜ not yet done
 
 Add `'bn'` to both `TRANSLATED` and `PROSE_TRANSLATED` in `src/lib/i18n.ts`
-only once the print-out is clean, and register the catalog in `resources`.
+only once the print-out is clean. `bn` is already in `SUPPORTED` with its font,
+and `loadCatalog` picks `src/locales/bn.json` up from the glob automatically,
+so no `resources` change is needed — this is a two-line edit.
 
 ---
 
