@@ -87,7 +87,7 @@ export function langCodeOf(code: string | undefined): string {
  * tracked separately in PROSE_TRANSLATED below — the two layers ship on
  * different schedules by design (see the i18n note in CLAUDE.md).
  */
-export const TRANSLATED: readonly string[] = ['en', 'es', 'bn']
+export const TRANSLATED: readonly string[] = ['en', 'es', 'bn', 'ht']
 
 export function isTranslated(code: string): boolean {
   return TRANSLATED.includes(code)
@@ -106,12 +106,16 @@ export function isTranslated(code: string): boolean {
  * LTR, so the `dir` consumer below is a no-op for it; it is listed here because
  * its prose genuinely is translated, which is what this list means.
  *
+ * Haitian Creole joined 2026-07-29, also in one pass. Latin script in Barlow —
+ * it declares no font and needs no FIGURE_SAFE_NUMBERS entry, because
+ * Intl.NumberFormat('ht') is byte-identical to en-US at every digit width.
+ *
  * Only consumer is the `dir` attribute below, which drives one CSS rule. An RTL
  * locale whose prose is still English has to render that prose as an LTR run,
  * or the bidi algorithm mangles it (see `[data-prose='en'] main` in index.css).
  * Adding a locale here retires that rule for it automatically.
  */
-export const PROSE_TRANSLATED: readonly string[] = ['es', 'bn']
+export const PROSE_TRANSLATED: readonly string[] = ['es', 'bn', 'ht']
 
 export function isProseTranslated(code: string): boolean {
   return PROSE_TRANSLATED.includes(code)
