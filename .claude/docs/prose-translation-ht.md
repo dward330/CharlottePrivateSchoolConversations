@@ -1,13 +1,39 @@
 # Haitian Creole (Kreyòl Ayisyen) research-prose translation — rollout
 
-**Status:** IN PROGRESS. Started 2026-07-29. Fourth language, after English,
-Spanish and Bangla.
+**Status:** **COMPLETE — all phases, all checks.** All 9 topics + the 327-key
+chrome catalog translated, `ht` is live in `TRANSLATED` / `PROSE_TRANSLATED`,
+and both required browser print-outs are clean. Written and shipped 2026-07-29.
+One native-speaker review by a Haitian Kreyòl speaker remains.
 
 > ## START HERE (fresh session)
 >
-> **Branch:** `i18n/haitian-creole-prose`.
+> **Branch:** `i18n/haitian-creole-prose`. All pushed.
 >
-> Read this doc for open work. Read
+> ### What is left
+>
+> **One native-speaker review**, by a Haitian Kreyòl speaker. Everything else
+> is done. The register call in §1 is the thing to review first — see the
+> soft-spot list in `src/data/overlays/NOTES.md`.
+>
+> ### The print-out rounds
+>
+> | Round | School | Result |
+> |---|---|---|
+> | 1 | Providence Day | **1 defect** — English footer disclaimer (bare JSX) |
+> | 2 | Providence Day | clean |
+> | 3 | Charlotte Latin | clean |
+>
+> The one defect was NOT ht-specific: `src/App.tsx` had the footer disclaimer as
+> bare JSX text, so **every** non-English locale had been shipping an English
+> footer — Spanish and Bangla included. Grep cannot see bare JSX; only a
+> print-out can. Fixed as `nav.footerDisclaimer` in all four catalogs (326 → 327
+> keys each).
+>
+> Charlotte Latin was round 3 on purpose: it carries the most flag chips and the
+> densest College Support hedges. **106 chip labels rendered in Kreyòl with zero
+> blanks** — the check that catches the Spanish 58-blank-chip class of bug.
+>
+> Read this doc for the METHOD, not for open work. Read
 > [`prose-translation-bn.md`](./prose-translation-bn.md) for the METHOD — it is
 > the worked template and it is complete. Read
 > [`prose-translation-architecture.md`](./prose-translation-architecture.md)
@@ -44,6 +70,15 @@ Spanish and Bangla.
 >
 > Order is cheapest-and-lowest-stakes first, Financial Aid last — the
 > architecture doc's standing rule, unchanged.
+>
+> ### What ht cost, versus Bangla
+>
+> Materially less, and the reason is structural rather than luck. Bangla spent
+> a whole Phase 0 on a typography spike and then burned two print-out rounds on
+> numeral defects (`৩৬,৩২৫ US$`, then lakh/crore grouping). **Neither class can
+> occur for a Latin-script locale whose `Intl.NumberFormat` already equals
+> `en-US`** — which is exactly what Phase 0 confirmed before any translation
+> started. Zero `:root[lang='ht']` CSS rules exist, and none should be added.
 
 ---
 

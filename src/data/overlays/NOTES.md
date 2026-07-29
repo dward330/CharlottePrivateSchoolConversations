@@ -803,3 +803,66 @@ different grouping widths — needs the locale added to `FIGURE_SAFE_NUMBERS`.
 Currency PLACEMENT is left alone: trailing `US$` is genuine CLDR convention for
 both `es` and `bn`, and `money()` preserves each locale's own placement while
 substituting a source-shaped number.
+
+---
+
+## Haitian Creole (ht) — 2026-07-29
+
+Nine topics, 5,904 strings, one pass. Chrome catalog 327 keys.
+
+### The register decision, and why it is the thing to review first
+
+Bangla's binding call was Dhaka vs Kolkata. Kreyòl's analogue is **French
+drift**, and it is more dangerous than Bangla's because it looks *more* correct
+to a non-speaker rather than less. Kreyòl and French share enormous lexical
+stock, so reaching for a "more formal" register slides into French almost
+invisibly — `Upper School` → *l'École Supérieure*, `financial aid` →
+*l'aide financière*. It is also the politically loaded axis in Haitian language
+use: French is the language of institutional gatekeeping, Kreyòl the language
+Haitians actually speak.
+
+**Rule applied: write Kreyòl in standard IPN orthography.** Everyday Kreyòl
+words where Kreyòl has them — *lekòl*, *elèv*, *pwofesè*, *kou*, *ane*, *lajan*,
+*timoun*. Never a French cognate reached for as "formal", never French spelling
+of a Kreyòl word (*lekòl*, not *l'école*).
+
+**A reviewer should scan for French drift first.** That is the failure mode
+this corpus is exposed to, and it is the one a non-speaker cannot catch.
+
+### Terminology choices worth a second opinion
+
+| English | Kreyòl used | Note |
+|---|---|---|
+| financial aid | èd finansye | Standard; *asistans* used for "assistance" to keep the school's own two-term distinction. |
+| tuition | frè eskolè | Literal ("school fees"). Kreyòl has no single word for US-style tuition. |
+| endowment | dotasyon | Technical; a lay reader may not know it. No better option found. |
+| honor society | sosyete onè | Literal, as in Spanish. No equivalent institution exists. |
+| documented minimum | minimòm dokimante | The corpus's key hedge — kept literal everywhere. |
+| absence of evidence rather than a stated policy | absans prèv olye ke yon politik ki deklare | Long but the hedge must not be smoothed. |
+| publication gap | mank nan piblikasyon | Flag chip; also used in prose. |
+| acceptance vs matriculation | aksepte vs enskripsyon | The distinction the college-support cards rest on; kept sharp throughout. |
+| juniors / seniors | elèv twazyèm ane / dènye ane | Avoided borrowing "junior/senior", which do not map. Verbose but unambiguous. |
+| Upper / Middle / Lower School | left in English | Division names — searchable identifiers, per the standing convention. |
+
+### Kept Latin (searchable identifiers)
+
+School and institution names, `AP` / `IB` / `Honors` / `Advanced Topics`, course
+titles, platform names (Clarity, Scoir, SCOIR, Veracross, UltraCamp), award and
+festival names (Blumey, NCTC, NSDA, Morehead-Cain), athlete and staff names,
+conference names, and **all verbatim quoted source strings** inside their
+original quotation marks.
+
+### Numbers
+
+No numeral question at all — Kreyòl uses Western digits and 3-3-3 grouping, and
+`Intl.NumberFormat('ht')` is byte-identical to `en-US` at 5, 7 and 9 digits.
+`ht` is deliberately NOT in `FIGURE_SAFE_NUMBERS`, and must not be added.
+
+### Provenance document — the extra check
+
+`financial-aid-tuition` is the Wayback-citation document. Beyond the figure
+sweep, all **27 verbatim quoted spans and all 38 Wayback timestamps** were
+verified byte-identical between `text` and `t`. That is the check the figure
+sweep is structurally blind to, and the one that caught the Spanish corruption
+where a blanket `' and ' → ' y '` rewrote text *inside* a quoted citation while
+every dollar figure stayed intact.
