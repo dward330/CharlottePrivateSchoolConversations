@@ -164,75 +164,12 @@
       "t": "নিয়মিত দিনে কোনো কর্মসূচি নেই; সকাল 7:30–7:50-এর পৌঁছানোর সময়টুকু তত্ত্বাবধানহীন"
     },
     {
-      "text": "gap",
-      "of": "481721cf",
-      "at": [
-        "providence-day:coverage.flags[0].kind",
-        "providence-day:cost.flags[0].kind",
-        "providence-day:cost.flags[1].kind",
-        "providence-day:dayInside.flags[1].kind",
-        "charlotte-latin:coverage.flags[1].kind",
-        "charlotte-latin:coverage.flags[2].kind",
-        "charlotte-latin:cost.flags[1].kind",
-        "charlotte-latin:cost.flags[2].kind",
-        "charlotte-latin:dayInside.flags[0].kind",
-        "charlotte-latin:dayInside.flags[1].kind",
-        "charlotte-christian:coverage.flags[0].kind",
-        "charlotte-christian:cost.flags[3].kind",
-        "charlotte-christian:dayInside.flags[0].kind",
-        "charlotte-christian:dayInside.flags[2].kind",
-        "charlotte-country-day:coverage.flags[0].kind",
-        "charlotte-country-day:coverage.flags[1].kind",
-        "charlotte-country-day:cost.flags[1].kind",
-        "charlotte-country-day:dayInside.flags[0].kind",
-        "charlotte-country-day:dayInside.flags[3].kind",
-        "cannon:coverage.flags[0].kind",
-        "cannon:coverage.flags[1].kind",
-        "cannon:cost.flags[1].kind",
-        "cannon:cost.flags[2].kind",
-        "cannon:dayInside.flags[2].kind",
-        "davidson-day:coverage.flags[1].kind",
-        "davidson-day:coverage.flags[2].kind",
-        "davidson-day:coverage.flags[3].kind",
-        "davidson-day:dayInside.flags[1].kind"
-      ],
-      "t": "ঘাটতি"
-    },
-    {
       "text": "The Activity Day fee is never stated. The school says a separate fee applies on teacher workdays and holidays but publishes no amount — an unbudgetable line item on exactly the days families most need coverage.",
       "of": "8873cbd7",
       "at": [
         "providence-day:coverage.flags[0].text"
       ],
       "t": "Activity Day-র ফি কখনোই জানানো হয় না। স্কুল বলে যে শিক্ষকদের কর্মদিবস ও ছুটির দিনে আলাদা ফি লাগে, কিন্তু কোনো অঙ্ক প্রকাশ করে না — ঠিক যেসব দিনে পরিবারগুলোর সবচেয়ে বেশি প্রয়োজন, সেসব দিনেই এটি বাজেটে ধরা যায় না এমন একটি খরচ।"
-    },
-    {
-      "text": "verify",
-      "of": "e4ce2924",
-      "at": [
-        "providence-day:coverage.flags[1].kind",
-        "providence-day:cost.flags[2].kind",
-        "providence-day:cost.flags[3].kind",
-        "providence-day:dayInside.flags[0].kind",
-        "charlotte-latin:coverage.flags[0].kind",
-        "charlotte-latin:cost.flags[0].kind",
-        "charlotte-latin:dayInside.flags[2].kind",
-        "charlotte-christian:coverage.flags[1].kind",
-        "charlotte-christian:cost.flags[0].kind",
-        "charlotte-christian:cost.flags[1].kind",
-        "charlotte-christian:cost.flags[2].kind",
-        "charlotte-christian:dayInside.flags[1].kind",
-        "charlotte-country-day:coverage.flags[2].kind",
-        "charlotte-country-day:cost.flags[0].kind",
-        "charlotte-country-day:cost.flags[2].kind",
-        "charlotte-country-day:dayInside.flags[1].kind",
-        "charlotte-country-day:dayInside.flags[2].kind",
-        "cannon:coverage.flags[2].kind",
-        "cannon:cost.flags[3].kind",
-        "cannon:dayInside.flags[0].kind",
-        "davidson-day:dayInside.flags[2].kind"
-      ],
-      "t": "যাচাই করুন"
     },
     {
       "text": "Grades 1–5 dismiss at **2:50** but the fee matrix bills them from **3:00**. The ten-minute gap is not explained on any published page.",
@@ -4275,17 +4212,6 @@
         "cannon:cost.fees[4].label"
       ],
       "t": "নিবন্ধন চলে Veracross-এর মাধ্যমে। **মিনিটে $1 হারে দেরির ফি drop-in পরিবারদের ক্ষেত্রেও প্রযোজ্য** — 20 মিনিট দেরি মানে $20, যা ঘণ্টার হারের প্রায় দ্বিগুণ। 2025-26-এ নিবন্ধন ফি মওকুফের শর্ত ছিল 1 আগস্টের আগে ভর্তি হওয়া; এটি আবার হবে কি না তা প্রকাশিত নয়।"
-    },
-    {
-      "text": "stale",
-      "of": "6844a17e",
-      "at": [
-        "cannon:cost.flags[0].kind",
-        "cannon:dayInside.flags[1].kind",
-        "davidson-day:coverage.flags[0].kind",
-        "davidson-day:dayInside.flags[0].kind"
-      ],
-      "t": "পুরোনো"
     },
     {
       "text": "Every figure above is **2025-26, not 2026-27**. No current rate card is published anywhere — the live Back-to-School Center was emptied and now simply points families to the My Cannon Portal. Treat these as a one-cycle-old floor and expect an increase.",

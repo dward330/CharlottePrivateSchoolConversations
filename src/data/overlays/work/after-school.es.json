@@ -164,75 +164,12 @@
       "t": "sin programa en días regulares; la ventana de llegada de 7:30 a 7:50 a.m. es dejada sin supervisión"
     },
     {
-      "text": "gap",
-      "of": "481721cf",
-      "at": [
-        "providence-day:coverage.flags[0].kind",
-        "providence-day:cost.flags[0].kind",
-        "providence-day:cost.flags[1].kind",
-        "providence-day:dayInside.flags[1].kind",
-        "charlotte-latin:coverage.flags[1].kind",
-        "charlotte-latin:coverage.flags[2].kind",
-        "charlotte-latin:cost.flags[1].kind",
-        "charlotte-latin:cost.flags[2].kind",
-        "charlotte-latin:dayInside.flags[0].kind",
-        "charlotte-latin:dayInside.flags[1].kind",
-        "charlotte-christian:coverage.flags[0].kind",
-        "charlotte-christian:cost.flags[3].kind",
-        "charlotte-christian:dayInside.flags[0].kind",
-        "charlotte-christian:dayInside.flags[2].kind",
-        "charlotte-country-day:coverage.flags[0].kind",
-        "charlotte-country-day:coverage.flags[1].kind",
-        "charlotte-country-day:cost.flags[1].kind",
-        "charlotte-country-day:dayInside.flags[0].kind",
-        "charlotte-country-day:dayInside.flags[3].kind",
-        "cannon:coverage.flags[0].kind",
-        "cannon:coverage.flags[1].kind",
-        "cannon:cost.flags[1].kind",
-        "cannon:cost.flags[2].kind",
-        "cannon:dayInside.flags[2].kind",
-        "davidson-day:coverage.flags[1].kind",
-        "davidson-day:coverage.flags[2].kind",
-        "davidson-day:coverage.flags[3].kind",
-        "davidson-day:dayInside.flags[1].kind"
-      ],
-      "t": "vacío"
-    },
-    {
       "text": "The Activity Day fee is never stated. The school says a separate fee applies on teacher workdays and holidays but publishes no amount — an unbudgetable line item on exactly the days families most need coverage.",
       "of": "8873cbd7",
       "at": [
         "providence-day:coverage.flags[0].text"
       ],
       "t": "La tarifa de los Activity Days nunca se indica. El colegio dice que se aplica una tarifa aparte en días de trabajo docente y feriados, pero no publica ningún monto — una partida imposible de presupuestar justo en los días en que las familias más necesitan cobertura."
-    },
-    {
-      "text": "verify",
-      "of": "e4ce2924",
-      "at": [
-        "providence-day:coverage.flags[1].kind",
-        "providence-day:cost.flags[2].kind",
-        "providence-day:cost.flags[3].kind",
-        "providence-day:dayInside.flags[0].kind",
-        "charlotte-latin:coverage.flags[0].kind",
-        "charlotte-latin:cost.flags[0].kind",
-        "charlotte-latin:dayInside.flags[2].kind",
-        "charlotte-christian:coverage.flags[1].kind",
-        "charlotte-christian:cost.flags[0].kind",
-        "charlotte-christian:cost.flags[1].kind",
-        "charlotte-christian:cost.flags[2].kind",
-        "charlotte-christian:dayInside.flags[1].kind",
-        "charlotte-country-day:coverage.flags[2].kind",
-        "charlotte-country-day:cost.flags[0].kind",
-        "charlotte-country-day:cost.flags[2].kind",
-        "charlotte-country-day:dayInside.flags[1].kind",
-        "charlotte-country-day:dayInside.flags[2].kind",
-        "cannon:coverage.flags[2].kind",
-        "cannon:cost.flags[3].kind",
-        "cannon:dayInside.flags[0].kind",
-        "davidson-day:dayInside.flags[2].kind"
-      ],
-      "t": "verificar"
     },
     {
       "text": "Grades 1–5 dismiss at **2:50** but the fee matrix bills them from **3:00**. The ten-minute gap is not explained on any published page.",
@@ -4275,17 +4212,6 @@
         "cannon:cost.fees[4].label"
       ],
       "t": "La inscripción se hace por Veracross. La **penalización de $1/minuto por retraso se aplica también a las familias de acceso libre** — 20 minutos de retraso son $20, casi el doble de la tarifa por hora. La exención de la cuota estaba ligada a matricularse antes del 1 de agosto en 2025-26; no se publica si se repite."
-    },
-    {
-      "text": "stale",
-      "of": "6844a17e",
-      "at": [
-        "cannon:cost.flags[0].kind",
-        "cannon:dayInside.flags[1].kind",
-        "davidson-day:coverage.flags[0].kind",
-        "davidson-day:dayInside.flags[0].kind"
-      ],
-      "t": "desactualizado"
     },
     {
       "text": "Every figure above is **2025-26, not 2026-27**. No current rate card is published anywhere — the live Back-to-School Center was emptied and now simply points families to the My Cannon Portal. Treat these as a one-cycle-old floor and expect an increase.",

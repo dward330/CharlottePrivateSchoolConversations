@@ -60,11 +60,24 @@ function SourceRow({ sources }: { sources: CsSource[] }) {
   )
 }
 
-/** Default chip wording per flag kind; `label` overrides it per flag. */
-const FLAG_LABEL: Record<CsFlagKind, string> = {
-  verify: 'TO VERIFY',
-  discrepancy: 'DISCREPANCY',
-  gap: 'PUBLICATION GAP',
+/**
+ * Locale key for the default chip wording per flag kind; `label` overrides it
+ * per flag.
+ *
+ * These are CHROME — one fixed word per kind, identical for every school — so
+ * they live in the locale files rather than the prose overlay, exactly as
+ * `afterSchool.flag_*` does. A per-flag `label` in the data IS research and is
+ * translated by the overlay, which is why the two layers disagree by design.
+ *
+ * `kind` itself must never be translated: it is the lookup key, not display
+ * text. The Spanish rollout classified it as prose, so `f.kind` arrived as
+ * "discrepancia" and every chip on this card rendered blank — 58 of them across
+ * six schools. `*.flags[].kind` is now pinned false in PATH_OVERRIDES.
+ */
+const FLAG_LABEL_KEY: Record<CsFlagKind, string> = {
+  verify: 'collegeSupport.flag_verify',
+  discrepancy: 'collegeSupport.flag_discrepancy',
+  gap: 'collegeSupport.flag_gap',
 }
 
 /**
@@ -79,13 +92,14 @@ const FLAG_LABEL: Record<CsFlagKind, string> = {
  * silently picking one.
  */
 function Flags({ flags }: { flags: CsFlag[] }) {
+  const { t } = useTranslation()
   if (flags.length === 0) return null
   return (
     <>
       {flags.map((f, i) => (
         <div key={i} className="cs-flag">
           <span className="tag-neutral cs-flag-tag">
-            {f.label ?? FLAG_LABEL[f.kind]}
+            {f.label ?? t(FLAG_LABEL_KEY[f.kind])}
           </span>
           <span className="text-muted">
             <RichText text={f.text} />
