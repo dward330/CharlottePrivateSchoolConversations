@@ -73,10 +73,15 @@ a number in a data file to "translate" it.
 
 **Shipped languages.** English, Spanish, Bangla (Bangladesh / Dhaka standard)
 and Haitian Creole are all complete — every topic and the chrome catalog
-translated and live, print-outs clean. Spanish and Bangla have signed-off
-native-speaker reviews; **Haitian Creole still needs one** (a Haitian Kreyòl
-speaker; see the soft-spot list in `src/data/overlays/NOTES.md`). No other
-translation work is open.
+translated and live, print-outs clean. No translation work is open.
+
+**One caveat on Haitian Creole:** Spanish and Bangla have signed-off
+native-speaker reviews. Kreyòl was **accepted without one** (2026-07-29), so its
+register — specifically whether the prose drifts toward French — has never been
+checked by a speaker. That is the one failure mode a non-speaker structurally
+cannot catch, and it is invisible to every automated check in this repo. If a
+Kreyòl speaker becomes available, the soft-spot list in
+`src/data/overlays/NOTES.md` is written for exactly that pass.
 
 To add a language, follow the rollout docs rather than re-deriving the method:
 [`prose-translation-bn.md`](.claude/docs/prose-translation-bn.md) is the worked

@@ -810,6 +810,12 @@ substituting a source-shaped number.
 
 Nine topics, 5,904 strings, one pass. Chrome catalog 327 keys.
 
+> **Status 2026-07-29: closed without a native-speaker review.** The list below
+> was written for a Kreyòl speaker who never reviewed it. Everything here is
+> therefore *unverified* — it records the calls that were made and why, not
+> calls that a speaker confirmed. Treat it as the agenda for a review that is
+> still owed, not as a record of one that happened.
+
 ### The register decision, and why it is the thing to review first
 
 Bangla's binding call was Dhaka vs Kolkata. Kreyòl's analogue is **French
