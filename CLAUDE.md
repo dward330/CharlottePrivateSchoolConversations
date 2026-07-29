@@ -71,13 +71,18 @@ presentation is localized — **the currency stays USD and the amount never chan
 figure is ever re-typed, so tuition data cannot drift between languages. Never hand-convert
 a number in a data file to "translate" it.
 
-**Active translation work.** The Spanish rollout is complete (all eight stages).
-Bangla (Bangladesh / Dhaka standard) — **Phases 0–3 done**: all nine topics and
-the chrome catalog are translated and live, and the browser print-out is clean.
-Only a **Bangladeshi native-speaker review** remains.
-See [`.claude/docs/prose-translation-bn.md`](.claude/docs/prose-translation-bn.md),
-which opens with a START HERE block; the language-independent mechanism lives in
-`prose-translation-architecture.md`. Do not re-derive either from scratch.
+**Shipped languages.** English, Spanish and Bangla (Bangladesh / Dhaka standard)
+are all complete — every topic and the chrome catalog translated and live,
+print-outs clean, native-speaker reviews signed off. **No translation work is
+open.**
+
+To add a language, follow the two rollout docs rather than re-deriving the
+method: [`prose-translation-bn.md`](.claude/docs/prose-translation-bn.md) is the
+worked example (each opens with a START HERE block), and
+`prose-translation-architecture.md` holds the language-independent mechanism.
+Note especially that **both Bangla defects were render-layer** — the checkers
+read the work files and passed while the page was wrong — so a browser
+print-out is a required step, not a formality.
 
 Rules of thumb: never concatenate sentence fragments — use interpolation
 (`{{count}} schools`) so word order can change per language. Use i18next's `count`

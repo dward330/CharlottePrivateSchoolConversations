@@ -1,31 +1,41 @@
 # Bangla (Bangladesh) research-prose translation — rollout
 
-**Status:** **Phases 0–3 COMPLETE.** All 9 topics + chrome translated, every
-Phase 2 check passes including a clean browser print-out, and `bn` is live in
-`TRANSLATED` / `PROSE_TRANSLATED`. Only the native-speaker review remains.
-Written 2026-07-28, print-out clean 2026-07-29.
+**Status:** **COMPLETE — all phases, all checks, review signed off.** All 9
+topics + chrome translated, every Phase 2 check passes including clean browser
+print-outs of two schools, `bn` is live in `TRANSLATED` / `PROSE_TRANSLATED`,
+and the native-speaker review is approved. Written 2026-07-28, shipped
+2026-07-29.
 
 > ## START HERE (fresh session)
 >
-> Phases 0–3 are **done**. All nine topics are translated, built, committed and
-> shipping; the 326-key UI chrome catalog too. Phase 2's browser print-out is
-> clean after three rounds. **The only thing left is a Bangladeshi
-> native-speaker review** (§6) — soft spots and terminology are listed per
-> topic in `src/data/overlays/NOTES.md`.
+> **This rollout is finished. Nothing is outstanding.** All nine topics are
+> translated, built, committed and shipping; the 326-key UI chrome catalog too.
+> Phase 2's browser print-out is clean, and the Bangladeshi native-speaker
+> review is signed off.
 >
-> **Branch:** `i18n/bengali-bangladesh-label` (PR #58, open). All pushed.
+> Read this doc for the **method**, not for open work — it is the template for
+> the next language. The per-topic soft spots in `src/data/overlays/NOTES.md`
+> are kept as a record of what a reviewer should look at, not as a to-do list.
 >
-> ### The three print-out rounds, and why each mattered
+> **Branch:** `i18n/bengali-bangladesh-label` (PR #58). All pushed.
+>
+> ### The four print-out rounds, and why each mattered
 >
 > Every defect was in the RENDER layer, invisible to all five checkers, and each
 > round's fix exposed the next. This is the pattern to expect for the next
 > language:
 >
-> | Round | Symptom | Root cause |
-> |---|---|---|
-> | 1 | `৩৬,৩২৫ US$` | `Intl.NumberFormat('bn')` defaults to Bangla digits |
-> | 2 | `36,83,971` | `bn` groups lakh/crore — Western digits, wrong shape |
-> | 3 | *clean* | — |
+> | Round | School | Symptom | Root cause |
+> |---|---|---|---|
+> | 1 | Providence Day | `৩৬,৩২৫ US$` | `Intl.NumberFormat('bn')` defaults to Bangla digits |
+> | 2 | Providence Day | `36,83,971` | `bn` groups lakh/crore — Western digits, wrong shape |
+> | 3 | Providence Day | *clean* | — |
+> | 4 | Charlotte Latin | *clean* | — |
+>
+> Round 4 was a different school on purpose: Latin carries the most flag chips
+> and the densest College Support hedges, so it exercises render paths Providence
+> Day never touches. Spanish shipped 58 blank flag chips once; this is the check
+> that catches that class of bug.
 >
 > Round 2 hid below 6 digits, so round 1's fix looked complete: every tuition
 > tile (`$36,325`) groups identically either way. Only the philanthropy totals
@@ -55,13 +65,13 @@ Written 2026-07-28, print-out clean 2026-07-29.
 >
 > ### What is left
 >
-> **A Bangladeshi native-speaker review** (§6) — nothing else. The rollout is
-> functionally complete; what remains is judgement about register, terminology
-> and naturalness, which no check can supply.
+> **Nothing.** The native-speaker review is signed off, and the print-out
+> scaffolding (`ExpandAllToggle`) has been removed.
 >
-> One piece of scaffolding is still in the tree and should come out when the
-> review is done: `src/components/ExpandAllToggle.tsx` (the EXPAND button in the
-> nav), plus its import and render site in `src/App.tsx`.
+> If a defect turns up later, it will be at the render layer — that is where
+> both Bangla bugs lived, and the checkers cannot see it. Reproduce in a
+> browser before touching the overlays; the data has been right the whole time
+> in every case so far.
 >
 > ### The loop, per topic (for future languages)
 >
@@ -380,9 +390,13 @@ Do not relearn these:
 
 ---
 
-## 6. Review
+## 6. Review — DONE, signed off 2026-07-29
 
 One native-speaker review pass at the end, by a **Bangladeshi** Bangla speaker
 — not a Kolkata speaker, for the reasons in §0. Terminology choices and soft
 spots go in `src/data/overlays/NOTES.md` per topic, as they did for Spanish, so
 the reviewer gets a list rather than 84k words of undifferentiated prose.
+
+**Approved.** The soft-spot list stays in `NOTES.md` as a record of what was
+looked at — it is not outstanding work. Keep it if the corpus is ever
+re-reviewed; those are the passages where register was a judgement call.
