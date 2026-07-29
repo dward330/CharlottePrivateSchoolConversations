@@ -33,7 +33,7 @@ Spanish and Bangla.
 > | metric-values | 126 | ✅ 126 | ✅ | ✅ |
 > | student-clubs | 517 | ✅ 517 | ✅ | ✅ |
 > | sports | 636 | ✅ 636 | ✅ | ✅ |
-> | after-school | 654 | — | — | — |
+> | after-school | 654 | ✅ 654 | ✅ | ✅ |
 > | the-arts | 599 | — | — | — |
 > | financial-aid-report | 572 | — | — | — |
 > | college-support | 926 | — | — | — |
