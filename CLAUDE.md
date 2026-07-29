@@ -71,9 +71,17 @@ presentation is localized — **the currency stays USD and the amount never chan
 figure is ever re-typed, so tuition data cannot drift between languages. Never hand-convert
 a number in a data file to "translate" it.
 
-**Shipped languages.** English, Spanish, Bangla (Bangladesh / Dhaka standard)
-and Haitian Creole are all complete — every topic and the chrome catalog
-translated and live, print-outs clean. No translation work is open.
+**Shipped languages.** English, Spanish, Bangla (Bangladesh / Dhaka standard),
+Haitian Creole and Telugu (Andhra Pradesh) are all complete — every topic and
+the chrome catalog translated and live. No translation work is open.
+
+**Telugu keeps native lakh/crore grouping** — it is deliberately absent from
+`FIGURE_SAFE_NUMBERS`, the opposite of the `bn` line, so `$3,250,000` renders
+`$32,50,000`. This makes it the first locale where a stat tile and the prose
+beside it show the same figure two ways (`$36,83,971` vs `$3,683,971`): tiles
+are regrouped at render, prose figures are never re-typed. Both rules are
+intentional and neither was changed; the interaction is written up for a
+reviewer in `src/data/overlays/NOTES.md`.
 
 **One caveat on Haitian Creole:** Spanish and Bangla have signed-off
 native-speaker reviews. Kreyòl was **accepted without one** (2026-07-29), so its
@@ -108,6 +116,13 @@ breaks on the first that does not.
 Run the print-out on **two** schools — Charlotte Latin exercises flag-chip and
 hedge paths Providence Day never touches — and in a **real browser**. A headless
 render passed Latin clean; the 65-page browser print-out found the currency bug.
+
+**Expand the collapsed panels, and check an unabbreviated 7-digit figure.** A
+default school page renders ~17k characters; with every `<details>` opened it is
+~152k, and the financial-aid sections holding the large figures are collapsed on
+load. `$3.25M`-style tiles prove nothing about digit grouping — only figures like
+`$3,683,971` do. Skipping either step makes the print-out report clean without
+having looked at the part that breaks (Telugu, 2026-07-29).
 
 Rules of thumb: never concatenate sentence fragments — use interpolation
 (`{{count}} schools`) so word order can change per language. Use i18next's `count`

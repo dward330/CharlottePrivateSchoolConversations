@@ -253,6 +253,22 @@ every non-English locale, and `localizeMoneyText()` branching on
 symbol *and* uses non-Western grouping, so it is a good probe for anything that
 still conflates the two.
 
+**Two things the print-out must actually do, learned the hard way here.**
+
+1. **Expand the collapsed panels first.** A default school-page render is ~17k
+   characters; the same page with every `<details>` opened is ~152k. The
+   financial-aid sections — the ones holding the 7-digit figures — are collapsed
+   on load, so a print-out that skips this step never puts the interesting
+   figures on screen and reports clean.
+2. **Find a page with an unabbreviated 7-digit figure.** Providence Day and
+   Charlotte Latin lead with `$3.25M`-style tiles, which have no grouping to get
+   wrong. The grouping decision is only observable on figures like `$3,683,971`,
+   which live in the financial-aid report sections.
+
+Doing both surfaced the tile-vs-prose grouping split now written up in
+`NOTES.md` — the one open question from this rollout. Every automated check
+passed while it was on screen, because both figures are individually correct.
+
 ---
 
 ## 4. Review

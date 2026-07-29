@@ -941,6 +941,36 @@ Grouping is applied at **render** time. Figures in the work files should
 round-trip byte-identically; a regrouped figure appearing in a work file is a
 defect, not a localization.
 
+**Consequence to expect on the page: a tile and the prose beside it will show
+the same figure two different ways.** Found in the Providence Day print-out,
+2026-07-29:
+
+```
+tile   (localizeMoneyText → numberLocale('te'))   $36,83,971
+prose  (rendered verbatim, never re-typed)        $3,683,971
+```
+
+Both are correct, and each follows a standing rule: structured numeric fields
+are regrouped at render, while figures inside research prose are never re-typed
+so tuition data cannot drift between languages. It is only their *interaction*
+that is new. Telugu is the first locale to surface it — `es` and `ht` do not
+regroup digits at all, and `bn` opts out through `FIGURE_SAFE_NUMBERS` — which
+was confirmed by re-rendering the same page under `en`/`bn`/`es`, where the two
+forms agree.
+
+No checker can see this: both figures are individually correct, so the sweep,
+the coverage read and the hash parity check all pass. It is visible only in a
+browser, on a page carrying an **unabbreviated 7-digit** figure. `$3.25M`-style
+tiles prove nothing — the abbreviated forms have no grouping to disagree about.
+The financial-aid sections are collapsed by default, so the panels must be
+expanded before the figures are on screen at all.
+
+**A reviewer should decide whether this is acceptable**, since it is a
+presentation question rather than a translation one. It was left as-is rather
+than resolved unilaterally: the alternatives (adding `te` to
+`FIGURE_SAFE_NUMBERS`, or regrouping figures inside prose) each contradict a
+decision the owner has already made explicitly.
+
 ### Typography — two defects found and fixed in Phase 0
 
 Both in `src/index.css`, scoped to `[lang='te']`, verified in a real browser.
