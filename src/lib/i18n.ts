@@ -177,8 +177,26 @@ void i18n.use(initReactI18next).init({
   // Treat "es-MX", "es-419" etc. as "es" — we translate per language, not per region.
   load: 'languageOnly',
   // A key absent from a partial catalog must render the English string, not the
-  // raw key and not an empty node.
-  parseMissingKeyHandler: (key: string) => i18n.getFixedT(FALLBACK_LANG)(key),
+  // raw key and not an empty node. `fallbackLng` above already does that job —
+  // this handler runs only AFTER the English lookup has itself failed.
+  //
+  // It must therefore NOT call t() again. The previous version did
+  // (`i18n.getFixedT(FALLBACK_LANG)(key)`), which re-entered translate(), missed
+  // again, re-fired this handler, and blew the stack — a white screen a second
+  // after first paint, with `RangeError: Maximum call stack size exceeded`
+  // recursing through i18next's translate().
+  //
+  // It survived Spanish because es.json is key-for-key complete, so nothing
+  // ever reached the handler. Bangla is the first locale to hit a genuinely
+  // absent key at runtime: labels.ts builds SCHOOL-SCOPED card titles like
+  // `cards.the-arts.ladder@davidson-day`, which exist for only a few schools by
+  // design. i18next fires this handler on `usedDefault` too, so even a lookup
+  // carrying a perfectly good `defaultValue` came through here and recursed.
+  //
+  // `fallbackValue` is that caller-supplied defaultValue when there was one —
+  // for the card titles it is the topic loader's own English wording, which is
+  // exactly what should render.
+  parseMissingKeyHandler: (key: string, fallbackValue?: string) => fallbackValue ?? key,
   returnEmptyString: false,
   interpolation: {
     // React already escapes interpolated values.
