@@ -50,11 +50,19 @@ function SourceRow({ sources }: { sources: ClubsSource[] }) {
   )
 }
 
-/** Default chip wording per flag kind; `label` overrides it per flag. */
-const FLAG_LABEL: Record<FlagKind, string> = {
-  count: 'COUNT FLAG',
-  gap: 'GAP',
-  'not-a-club': 'INDIVIDUAL — NOT A CLUB',
+/**
+ * Locale key for the default chip wording per flag kind; `label` overrides it
+ * per flag. Chrome, for the same reason as `afterSchool.flag_*`: one fixed
+ * word per kind, identical for every school.
+ *
+ * Only `not-a-club` can reach the screen (see Flags below), and no school's
+ * data sets a `label` for it — so this constant, not the overlay, is what a
+ * reader actually sees. `count` and `gap` are kept for type completeness.
+ */
+const FLAG_LABEL_KEY: Record<FlagKind, string> = {
+  count: 'clubs.flag_count',
+  gap: 'clubs.flag_gap',
+  'not-a-club': 'clubs.flag_notAClub',
 }
 
 /**
@@ -71,6 +79,7 @@ const FLAG_LABEL: Record<FlagKind, string> = {
  * is on the card — a program or an individual activity read as a club.
  */
 function Flags({ flags }: { flags: ClubsFlag[] }) {
+  const { t } = useTranslation()
   const shown = flags.filter((f) => f.kind === 'not-a-club')
   if (shown.length === 0) return null
   return (
@@ -78,7 +87,7 @@ function Flags({ flags }: { flags: ClubsFlag[] }) {
       {shown.map((f, i) => (
         <div key={i} className="clubs-flag">
           <span className="tag-neutral clubs-flag-tag">
-            {f.label ?? FLAG_LABEL[f.kind]}
+            {f.label ?? t(FLAG_LABEL_KEY[f.kind])}
           </span>
           <span className="text-muted">{f.text}</span>
         </div>
