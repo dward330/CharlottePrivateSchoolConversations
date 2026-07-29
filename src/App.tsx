@@ -58,10 +58,7 @@ function App() {
       </main>
 
       <footer className="footer">
-        <p>
-          Parent-facing research on Charlotte-area private schools. Notes are distilled,
-          lightly-cleaned extracts of source documents — verify specifics with each school.
-        </p>
+        <p>{t('nav.footerDisclaimer')}</p>
       </footer>
 
       <BackToTop accent={route.name === 'school' ? brandOf(route.slug).color : undefined} />
