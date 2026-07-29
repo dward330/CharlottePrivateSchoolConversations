@@ -21,13 +21,27 @@ One native-speaker review by a Haitian Kreyòl speaker remains.
 > |---|---|---|
 > | 1 | Providence Day | **1 defect** — English footer disclaimer (bare JSX) |
 > | 2 | Providence Day | clean |
-> | 3 | Charlotte Latin | clean |
+> | 3 | Charlotte Latin (headless) | clean |
+> | 4 | Charlotte Latin (real browser, 65pp) | **1 defect** — `3.25 M US$` |
 >
-> The one defect was NOT ht-specific: `src/App.tsx` had the footer disclaimer as
-> bare JSX text, so **every** non-English locale had been shipping an English
-> footer — Spanish and Bangla included. Grep cannot see bare JSX; only a
-> print-out can. Fixed as `nav.footerDisclaimer` in all four catalogs (326 → 327
-> keys each).
+> Round 4 is why a headless render is not a substitute for a real one: the
+> currency-placement bug sat in a card headless scoring had passed. **Both**
+> defects turned out NOT to be ht-specific.
+>
+> Neither defect was ht-specific, and both share one shape: **code that treats
+> "not English" as a single bucket.**
+>
+> 1. `src/App.tsx` had the footer disclaimer as bare JSX, so *every* non-English
+>    locale shipped an English footer. Grep cannot see bare JSX.
+> 2. `localizeMoneyText()` branched on `lang().startsWith('en')` for abbreviated
+>    magnitudes, giving every non-English locale the Spanish trailing shape —
+>    so `3.25 M US$` rendered beside `$36,500` on one page. Now derived from
+>    `Intl.formatToParts` (PR #61).
+>
+> That bucket held while every added locale happened to match it. **Haitian
+> Creole is the app's first Latin-script, US-numeric-convention locale**, so it
+> was the first to fall outside — which is exactly why it found these and
+> Bangla did not.
 >
 > Charlotte Latin was round 3 on purpose: it carries the most flag chips and the
 > densest College Support hedges. **106 chip labels rendered in Kreyòl with zero

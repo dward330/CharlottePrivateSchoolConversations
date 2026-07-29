@@ -86,11 +86,23 @@ one (each opens with a START HERE block), and
 `prose-translation-architecture.md` holds the language-independent mechanism.
 
 **A browser print-out is a required step, not a formality.** Every defect found
-after the data read 100% has been render-layer: both Bangla numeral bugs, and
-the English footer disclaimer that Haitian Creole caught in `src/App.tsx` —
-bare JSX text that had been shipping to *every* non-English locale, invisible to
-grep and to all five checkers. Run it on **two** schools; Charlotte Latin
-exercises the flag-chip and hedge paths Providence Day never touches.
+after the data read 100% has been render-layer, and the last two were not even
+specific to the language being added:
+
+- Both Bangla numeral bugs (digits, then lakh/crore grouping).
+- An English footer disclaimer in `src/App.tsx` — bare JSX text, shipping to
+  *every* non-English locale, invisible to grep and to all five checkers.
+- `localizeMoneyText()` branching on `lang().startsWith('en')`, so `3.25 M US$`
+  rendered beside `$36,500` on one Kreyòl page. Placement now comes from
+  `Intl.formatToParts` (PR #61).
+
+The last two share a shape worth watching for: **code that treats "not English"
+as one bucket.** It survives while every added locale matches that bucket, and
+breaks on the first that does not.
+
+Run the print-out on **two** schools — Charlotte Latin exercises flag-chip and
+hedge paths Providence Day never touches — and in a **real browser**. A headless
+render passed Latin clean; the 65-page browser print-out found the currency bug.
 
 Rules of thumb: never concatenate sentence fragments — use interpolation
 (`{{count}} schools`) so word order can change per language. Use i18next's `count`
