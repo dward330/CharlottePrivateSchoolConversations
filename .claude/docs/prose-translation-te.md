@@ -273,18 +273,26 @@ passed while it was on screen, because both figures are individually correct.
 
 ## 4. Review
 
-**Open.** No Telugu speaker has reviewed this yet.
+**Done (2026-07-29).** A Telugu speaker read the rendered pages and accepted the
+prose. Telugu therefore ships reviewed, like Spanish and Bangla — not in Kreyòl's
+unreviewed position.
 
-Record terminology choices and soft spots in `src/data/overlays/NOTES.md` per
-topic, as Spanish and Bangla did, so a reviewer gets a list rather than 84k words
-of undifferentiated prose. The two things a non-speaker structurally cannot
-check:
+That review is what closed the two things a non-speaker structurally cannot check,
+and which no automated check in this repo can reach:
 
 1. **Register drift toward grānthika** — the Telugu analogue of Kreyòl's French
-   drift. Invisible to every automated check in this repo.
+   drift.
 2. **Andhra vs Telangana lexical marking** — §1c binds this, and only a speaker
-   can confirm it held across 84k words.
+   could confirm it held across 84k words.
 
-Kreyòl shipped **without** a native-speaker review (2026-07-29) and that is
-recorded as a known gap in CLAUDE.md. Whether Telugu ships the same way is the
-owner's call.
+The review was a read of the **rendered pages**, not of the work files. That is
+the right shape — it is what a family actually sees — but note what it therefore
+does *not* certify: strings that never reach a page (a hedge inside a
+proper-noun-classified field, for example) were invisible to the reviewer just as
+they were to every checker. Four of the five print-out defects were exactly that
+shape, so a speaker review is a complement to the render-layer sweeps, not a
+replacement.
+
+Soft spots and terminology choices are still worth recording in
+`src/data/overlays/NOTES.md` per topic — for the *next* reviewer, or for a
+re-check after any large ingest rewrites the English underneath a translation.

@@ -83,7 +83,13 @@ are regrouped at render, prose figures are never re-typed. Both rules are
 intentional and neither was changed; the interaction is written up for a
 reviewer in `src/data/overlays/NOTES.md`.
 
-**One caveat on Haitian Creole:** Spanish and Bangla have signed-off
+**Telugu has a native-speaker review.** A Telugu speaker read the rendered pages
+and accepted the prose (2026-07-29). That closes the one failure mode no check in
+this repo can reach — register, naturalness, whether the wording drifts toward a
+formal/Sanskritized style a parent would not use. Telugu therefore ships in the
+same reviewed position as Spanish and Bangla, **not** in Kreyòl's.
+
+**One caveat on Haitian Creole:** Spanish, Bangla and Telugu have signed-off
 native-speaker reviews. Kreyòl was **accepted without one** (2026-07-29), so its
 register — specifically whether the prose drifts toward French — has never been
 checked by a speaker. That is the one failure mode a non-speaker structurally
