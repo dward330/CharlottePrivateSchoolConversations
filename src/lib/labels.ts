@@ -41,6 +41,18 @@ export function sourceLabel(t: TFunction, label: string): string {
       ? t('cardLabels.verdictSynthesized_1a1d', { defaultValue: label })
       : t('cardLabels.verdictSynthesized', { defaultValue: label })
   }
+  // Three more editorial sentences in citation slots, found by the Providence Day
+  // Telugu print-out. The docstring above assumed anything that was not a Verdict
+  // line was a real citation; these are not. They tell a family how far to trust
+  // the card they sit under — a provenance hedge, not a document name — so by the
+  // same uniform test they are chrome. "Staff backgrounds"/"Staff details" differ
+  // only in that one noun across two topics, hence one key for both.
+  if (/^Staff (backgrounds|details) partly from aggregated/.test(label)) {
+    return t('cardLabels.staffFromAggregated', { defaultValue: label })
+  }
+  if (/^Aggregator score ranges consulted/.test(label)) {
+    return t('cardLabels.aggregatorNotUsed', { defaultValue: label })
+  }
   return label
 }
 
