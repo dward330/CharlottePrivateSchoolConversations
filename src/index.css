@@ -3979,25 +3979,34 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
 }
 
 /* ─────────────────────────────────────────────────────────────────────────
-   Bangla (bn) script adjustments — Phase 0 typography spike, 2026-07-28.
+   Indic-script adjustments — Bangla (bn) 2026-07-28, Telugu (te) 2026-07-29.
 
-   Scoped to [lang='bn'] so nothing here can touch Latin locales. The font
-   stack itself is swapped at runtime by syncFont() in src/lib/i18n.ts; this
-   block fixes what the Latin-tuned METRICS get wrong once that font lands.
+   Scoped to [lang='bn'] / [lang='te'] so nothing here can touch Latin locales.
+   The font stack itself is swapped at runtime by syncFont() in src/lib/i18n.ts;
+   this block fixes what the Latin-tuned METRICS get wrong once that font lands.
 
-   Three findings from bangla-spike.html, in order of severity:
+   Both spikes (bangla-spike.html, telugu-spike.html) found the SAME two defects
+   and cleared the same false alarm — but the letterspacing one has a different
+   mechanism in each script, which is worth keeping straight:
 
-   1. LETTERSPACING BREAKS CONJUNCTS. 43 rules pair `text-transform:uppercase`
-      with tracking up to 0.14em. Uppercase is a harmless no-op in Bangla, but
-      the tracking is not: Bangla joins letters under a মাত্রা headstroke, and
-      forcing gaps splits conjuncts — রাজ্য-শিরোপার rendered with visible holes
-      inside single characters. Tracking goes to 0 for Bangla.
+   1. LETTERSPACING. 43 rules pair `text-transform:uppercase` with tracking up
+      to 0.14em. Uppercase is a harmless no-op in both scripts; the tracking is
+      not, in both — for different reasons.
+        · Bangla joins letters under a মাত্রা headstroke, so tracking forces
+          gaps INSIDE a character: রাজ্য-শিরোপার rendered with visible holes.
+        · Telugu stacks subscripts vertically instead, so its conjuncts survive
+          tracking intact — রాష్ట్ర, విద్యార్థి held together at 0.14em. What
+          breaks is BETWEEN syllable clusters: the line scatters into loose
+          fragments and word boundaries stop being readable.
+      Same fix, tracking → 0, so the selector list is shared.
 
-   2. TIGHT LINE-HEIGHT CLIPS. Headings run 1.05–1.15, which is comfortable for
-      Latin caps but not for a script stacking vowel signs both above and below
-      the headstroke. Long two-line headings nearly collided.
+   2. TIGHT LINE-HEIGHT CLIPS. Headings run 1.05–1.15, comfortable for Latin
+      caps but not for scripts that stack marks off the baseline. Telugu is the
+      worse of the two: it stacks BOTH above and below with no headstroke to
+      anchor them, so on a two-line heading line 1's subscripts met line 2's
+      vowel signs. Hence a looser value for te than for bn — see below.
 
-   3. Stat tiles were FINE — they have no fixed height and grew cleanly. Noted
+   3. Stat tiles were FINE in both — no fixed height, they grew cleanly. Noted
       so a later reader does not "fix" a problem that never existed.
    ───────────────────────────────────────────────────────────────────────── */
 
@@ -4006,63 +4015,81 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   line-height: 1.65;
 }
 
+:root[lang='te'] {
+  /* Telugu stacks marks above AND below the baseline, so it needs a shade more
+     body leading than Bangla, which hangs everything off one headstroke. */
+  line-height: 1.7;
+}
+
 /* 1 · Kill the Latin-caps tracking wherever it appears. Uppercase itself is
-      left alone: it is inert in Bangla, and removing it would change nothing
-      visually while risking the Latin runs (AP, NCISAA) that share these
-      labels. */
-:root[lang='bn'] .eyebrow,
-:root[lang='bn'] .back,
-:root[lang='bn'] .dossier-kicker,
-:root[lang='bn'] .dossier-nav-label,
-:root[lang='bn'] .section-sub,
-:root[lang='bn'] .cite-label,
-:root[lang='bn'] .prose-table thead th,
-:root[lang='bn'] .catalog-chip,
-:root[lang='bn'] .catalog-club-cat,
-:root[lang='bn'] .catalog-src-toggle,
-:root[lang='bn'] .control legend,
-:root[lang='bn'] .group-row td.group-label,
-:root[lang='bn'] .course-kicker,
-:root[lang='bn'] .courses-deptname,
-:root[lang='bn'] .sports-h,
-:root[lang='bn'] .sports-th,
-:root[lang='bn'] .sports-season-head,
-:root[lang='bn'] .sports-pro-kicker,
-:root[lang='bn'] .arts-h,
-:root[lang='bn'] .arts-division-head,
-:root[lang='bn'] .arts-season-kicker,
-:root[lang='bn'] .arts-th,
-:root[lang='bn'] .arts-board-label,
-:root[lang='bn'] .arts-exhibit-when,
-:root[lang='bn'] .clubs-h,
-:root[lang='bn'] .clubs-umbrella-name,
-:root[lang='bn'] .clubs-strip-head,
-:root[lang='bn'] .clubs-program-vallabel,
-:root[lang='bn'] .clubs-th,
-:root[lang='bn'] .cs-h,
-:root[lang='bn'] .cs-th,
-:root[lang='bn'] .cs-counselor-role,
-:root[lang='bn'] .cs-year-intensity,
-:root[lang='bn'] .cs-quintile-label,
-:root[lang='bn'] .as-h,
-:root[lang='bn'] .as-tl-tier,
-:root[lang='bn'] .as-daysel-label,
-:root[lang='bn'] .as-th,
-:root[lang='bn'] .as-estimate-kicker,
-:root[lang='bn'] .as-fees-kicker,
-:root[lang='bn'] .as-filters-label,
-:root[lang='bn'] .lang-row-label,
-:root[lang='bn'] .lang-soon {
+      left alone: it is inert in both scripts, and removing it would change
+      nothing visually while risking the Latin runs (AP, NCISAA) that share
+      these labels. Shared between bn and te — the damage differs by script
+      (see the block comment above) but the fix is identical. */
+:root:is([lang='bn'], [lang='te']) .eyebrow,
+:root:is([lang='bn'], [lang='te']) .back,
+:root:is([lang='bn'], [lang='te']) .dossier-kicker,
+:root:is([lang='bn'], [lang='te']) .dossier-nav-label,
+:root:is([lang='bn'], [lang='te']) .section-sub,
+:root:is([lang='bn'], [lang='te']) .cite-label,
+:root:is([lang='bn'], [lang='te']) .prose-table thead th,
+:root:is([lang='bn'], [lang='te']) .catalog-chip,
+:root:is([lang='bn'], [lang='te']) .catalog-club-cat,
+:root:is([lang='bn'], [lang='te']) .catalog-src-toggle,
+:root:is([lang='bn'], [lang='te']) .control legend,
+:root:is([lang='bn'], [lang='te']) .group-row td.group-label,
+:root:is([lang='bn'], [lang='te']) .course-kicker,
+:root:is([lang='bn'], [lang='te']) .courses-deptname,
+:root:is([lang='bn'], [lang='te']) .sports-h,
+:root:is([lang='bn'], [lang='te']) .sports-th,
+:root:is([lang='bn'], [lang='te']) .sports-season-head,
+:root:is([lang='bn'], [lang='te']) .sports-pro-kicker,
+:root:is([lang='bn'], [lang='te']) .arts-h,
+:root:is([lang='bn'], [lang='te']) .arts-division-head,
+:root:is([lang='bn'], [lang='te']) .arts-season-kicker,
+:root:is([lang='bn'], [lang='te']) .arts-th,
+:root:is([lang='bn'], [lang='te']) .arts-board-label,
+:root:is([lang='bn'], [lang='te']) .arts-exhibit-when,
+:root:is([lang='bn'], [lang='te']) .clubs-h,
+:root:is([lang='bn'], [lang='te']) .clubs-umbrella-name,
+:root:is([lang='bn'], [lang='te']) .clubs-strip-head,
+:root:is([lang='bn'], [lang='te']) .clubs-program-vallabel,
+:root:is([lang='bn'], [lang='te']) .clubs-th,
+:root:is([lang='bn'], [lang='te']) .cs-h,
+:root:is([lang='bn'], [lang='te']) .cs-th,
+:root:is([lang='bn'], [lang='te']) .cs-counselor-role,
+:root:is([lang='bn'], [lang='te']) .cs-year-intensity,
+:root:is([lang='bn'], [lang='te']) .cs-quintile-label,
+:root:is([lang='bn'], [lang='te']) .as-h,
+:root:is([lang='bn'], [lang='te']) .as-tl-tier,
+:root:is([lang='bn'], [lang='te']) .as-daysel-label,
+:root:is([lang='bn'], [lang='te']) .as-th,
+:root:is([lang='bn'], [lang='te']) .as-estimate-kicker,
+:root:is([lang='bn'], [lang='te']) .as-fees-kicker,
+:root:is([lang='bn'], [lang='te']) .as-filters-label,
+:root:is([lang='bn'], [lang='te']) .lang-row-label,
+:root:is([lang='bn'], [lang='te']) .lang-soon {
   letter-spacing: 0;
 }
 
-/* 2 · Give headings room for the headstroke and its stacked vowel signs. */
-:root[lang='bn'] .topic-title,
-:root[lang='bn'] .school-card-name,
-:root[lang='bn'] .stat-tile-val,
-:root[lang='bn'] .fa-contents-title,
-:root[lang='bn'] .corner-label,
-:root[lang='bn'] .row-metric-label,
-:root[lang='bn'] .section-sub {
+/* 2 · Give headings room for the stacked marks. Same selector list for both
+      scripts, different values: Bangla hangs its vowel signs off the মাত্রা
+      headstroke, while Telugu stacks above AND below with nothing anchoring
+      them — a two-line Telugu heading collided at 1.45, so it gets 1.6. */
+:root:is([lang='bn'], [lang='te']) .topic-title,
+:root:is([lang='bn'], [lang='te']) .school-card-name,
+:root:is([lang='bn'], [lang='te']) .stat-tile-val,
+:root:is([lang='bn'], [lang='te']) .fa-contents-title,
+:root:is([lang='bn'], [lang='te']) .corner-label,
+:root:is([lang='bn'], [lang='te']) .row-metric-label,
+:root:is([lang='bn'], [lang='te']) .section-sub {
   line-height: 1.45;
+}
+
+:root[lang='te'] .topic-title,
+:root[lang='te'] .school-card-name,
+:root[lang='te'] .fa-contents-title,
+:root[lang='te'] .row-metric-label,
+:root[lang='te'] .section-sub {
+  line-height: 1.6;
 }

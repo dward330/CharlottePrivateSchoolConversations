@@ -30,7 +30,7 @@
  *
  * Exit codes: 0 = reviewed, 1 = suspect fields found (advisory), 2 = error.
  */
-import { SKIP_KEYS, PATH_OVERRIDES, REVIEWED_SKIPS } from './i18n_fields.mjs'
+import { SKIP_KEYS, PATH_OVERRIDES, REVIEWED_SKIPS, REVIEWED_SKIP_VALUES } from './i18n_fields.mjs'
 
 const SLUGS = [
   'providence-day', 'charlotte-latin', 'charlotte-christian',
@@ -111,7 +111,16 @@ async function main() {
         if (!byLeaf.has(leaf)) byLeaf.set(leaf, { paths: new Set(), values: new Set() })
         const rec = byLeaf.get(leaf)
         rec.paths.add(`${topic}:${g}`)
-        if (rec.values.size < 8) rec.values.add(value)
+        // Collect EVERY value. This used to stop at 8 (`if (rec.values.size <
+        // 8)`), which capped the check and not just the printout: the sentence
+        // "No jazz, a cappella, chamber or tiered band is published" sat in
+        // `ensembles` — a field classified "proper noun — ensemble name" — and
+        // was the 9th value, so looksLikeProse() never saw it. The audit
+        // reported "no skipped field has prose-looking values" and exited 0
+        // while shipping that sentence as raw English to all four non-English
+        // locales for four rollouts. Display is still capped below; detection
+        // must not be.
+        rec.values.add(value)
       })
     }
   }
@@ -123,14 +132,22 @@ async function main() {
   for (const [leaf, rec] of rows) {
     const vals = [...rec.values]
     // Already judged against its values and confirmed a code/proper noun.
-    const prosey = REVIEWED_SKIPS.has(leaf) ? [] : vals.filter(looksLikeProse)
+    const prosey = REVIEWED_SKIPS.has(leaf)
+      ? []
+      : vals.filter((v) => looksLikeProse(v) && !REVIEWED_SKIP_VALUES.has(v))
     const flag = prosey.length ? '⚠ ' : '  '
     if (prosey.length) suspect++
     if (SUSPECT_ONLY && !prosey.length) continue
     console.log(`${flag}${leaf}  —  ${SKIP_KEYS.get(leaf)}`)
-    console.log(`     ${vals.map((v) => JSON.stringify(v.slice(0, 40))).join(' · ')}`)
+    // Every prose-looking value is shown, plus a sample of the rest — the
+    // flagged ones are the point, and truncating them away is what hid the
+    // `ensembles` sentence. The "+N more" suffix keeps it honest about the cap.
+    const shown = [...new Set([...prosey, ...vals])].slice(0, 8)
+    const rest = vals.length - shown.length
+    console.log(`     ${shown.map((v) => JSON.stringify(v.slice(0, 40))).join(' · ')}`
+      + (rest > 0 ? ` · +${rest} more` : ''))
     if (prosey.length) {
-      console.log(`     ^ ${prosey.length} of ${vals.length} sampled values contain words —`
+      console.log(`     ^ ${prosey.length} of ${vals.length} values contain words —`
         + ` verify this is a code, not a phrase`)
     }
     console.log()

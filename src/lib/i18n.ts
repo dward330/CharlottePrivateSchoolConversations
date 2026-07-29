@@ -59,7 +59,18 @@ export const SUPPORTED: readonly Lang[] = [
   },
   { code: 'ar', label: 'Arabic', native: 'العربية', rtl: true, font: 'Noto Naskh Arabic' },
   { code: 'hi', label: 'Hindi', native: 'हिन्दी', font: 'Noto Sans Devanagari' },
-  { code: 'te', label: 'Telugu', native: 'తెలుగు', font: 'Noto Sans Telugu' },
+  /* Telugu is written across Andhra Pradesh and Telangana. The two written
+     standards are much closer than Bangladeshi and West Bengali Bangla — the
+     divergence is mostly spoken and lexical — but this app targets ANDHRA
+     PRADESH usage, so the picker names the region rather than leaving a reader
+     to guess. Code stays `te`: no Telangana variant is offered, and a region
+     subtag could not express the split anyway (both are te-IN). */
+  {
+    code: 'te',
+    label: 'Telugu (Andhra Pradesh)',
+    native: 'తెలుగు (ఆంధ్రప్రదేశ్)',
+    font: 'Noto Sans Telugu',
+  },
   { code: 'it', label: 'Italian', native: 'Italiano' },
 ] as const
 
@@ -87,7 +98,7 @@ export function langCodeOf(code: string | undefined): string {
  * tracked separately in PROSE_TRANSLATED below — the two layers ship on
  * different schedules by design (see the i18n note in CLAUDE.md).
  */
-export const TRANSLATED: readonly string[] = ['en', 'es', 'bn', 'ht']
+export const TRANSLATED: readonly string[] = ['en', 'es', 'bn', 'ht', 'te']
 
 export function isTranslated(code: string): boolean {
   return TRANSLATED.includes(code)
@@ -115,7 +126,7 @@ export function isTranslated(code: string): boolean {
  * or the bidi algorithm mangles it (see `[data-prose='en'] main` in index.css).
  * Adding a locale here retires that rule for it automatically.
  */
-export const PROSE_TRANSLATED: readonly string[] = ['es', 'bn', 'ht']
+export const PROSE_TRANSLATED: readonly string[] = ['es', 'bn', 'ht', 'te']
 
 export function isProseTranslated(code: string): boolean {
   return PROSE_TRANSLATED.includes(code)

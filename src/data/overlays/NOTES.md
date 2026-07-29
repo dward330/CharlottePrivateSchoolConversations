@@ -872,3 +872,178 @@ verified byte-identical between `text` and `t`. That is the check the figure
 sweep is structurally blind to, and the one that caught the Spanish corruption
 where a blanket `' and ' → ' y '` rewrote text *inside* a quoted citation while
 every dollar figure stayed intact.
+
+---
+
+## Telugu (te) — 2026-07-29
+
+**Status: IN PROGRESS.** Phase 0 (typography spike) complete; translation not
+started. This section is being written as the rollout goes, so a reviewer gets
+the agenda rather than 84k words. Full rollout doc:
+`.claude/docs/prose-translation-te.md`.
+
+### The register decision, and why it is the thing to review first
+
+Bangla's binding call was Dhaka vs Kolkata; Kreyòl's was French drift. Telugu's
+is **diglossia** — the genuine split between **grānthika** (classical/literary)
+and **vyāvahārika** (spoken/modern).
+
+**Rule applied: vyāvahārika at an educated written register** — the Telugu of
+newspapers, school circulars and government notices. Not grānthika, which is
+archaic for informational prose and would make a page about tuition read as
+ceremonial; not colloquial, which varies more by region and reads as informal
+for a document families use to compare figures.
+
+**A reviewer should scan for grānthika drift first.** It is the Telugu analogue
+of Kreyòl's French drift and fails the same way: reaching for a "more formal"
+register looks *more* correct to a non-speaker, not less.
+
+### Variety: bound to Andhra Pradesh
+
+Owner's decision, 2026-07-29. Prefer coastal **Andhra** lexical choices; avoid
+Telangana-marked vocabulary and Urdu-influenced Hyderabadi forms. The written
+standards are much closer than the two Banglas — the divergence is mostly spoken
+— but the call is binding, so it is a translation instruction and not a
+footnote. **Second thing for a reviewer to check**, after register.
+
+Locale code stays `te`; the picker names the region in both scripts
+(`తెలుగు (ఆంధ్రప్రదేశ్)` / "Telugu (Andhra Pradesh)").
+
+### Kept Latin — wider than the other locales
+
+The standing list (school/institution names, `AP`/`IB`/`Honors`, course titles,
+platform names, award and festival names, athlete and staff names, and all
+verbatim quoted spans) **plus education terms of art**, which Telugu prose
+commonly keeps in English anyway:
+
+`Upper School` · `Middle School` · `Lower School` · `Honor Society` ·
+`Extended Day` · `varsity` · `GPA` · `transcript` · `counselor`
+
+Owner's decision: a parent must be able to search for and say these as published.
+**Do not transliterate them** — స్కూల్ reads fluently but breaks searchability,
+which is the whole reason for the rule.
+
+### Numbers — te DIVERGES from bn, deliberately
+
+Western digits (so the *first* Bangla defect cannot recur), but **native
+lakh/crore grouping is KEPT**: `$3,250,000` renders `$32,50,000`.
+
+`te` is deliberately **NOT** in `FIGURE_SAFE_NUMBERS` and **must not be added** —
+this is the exact opposite of the `bn` line, which borrows `en-US` grouping. The
+same rendering that was a defect in Bangla is the wanted behaviour here. Owner's
+decision, 2026-07-29.
+
+Currency stays USD; **formatting only, never conversion**. No INR, no exchange
+rate, no dual display. The `$` leads in Telugu, derived from `Intl` via
+`currencyLeads()` — never from a language check.
+
+Grouping is applied at **render** time. Figures in the work files should
+round-trip byte-identically; a regrouped figure appearing in a work file is a
+defect, not a localization.
+
+### Known gap, deliberately left: methodology prose inside `sources`
+
+Seven sentences across the six financial-aid reports render **English on every
+non-English page**. They are the aggregator-rejection notes at the end of each
+report's `sources` string — e.g. "Commercial tuition aggregators were reviewed
+only to identify discrepancies against the school's own page (Section 7) and are
+the source of no figure here."
+
+Not fixed, and the reason is the fix's shape rather than its size:
+
+- `sources` is one long string per school: citations, then methodology, then the
+  uniform disclaimer. The disclaimer is uniform so it became a chrome key
+  (`cardLabels.notCommissioned`, see `reportSources()`). The methodology
+  sentences vary per school, so no key can hold them.
+- The prose overlay is not an option either: `walk()` in `localizeData.ts`
+  translates a string by whole-path match, so putting `sources` in the overlay
+  would translate the citations too — breaking the rule that a citation must
+  match the document it names.
+- A real fix means restructuring `sources` into `{citations[], methodology}`
+  across six schools, re-extracting `financial-aid-report` in four locales, and
+  re-verifying. That is a data-model change to move one footer paragraph.
+
+Weighed against: it sits at ~99% of the page depth, inside the sources block,
+and every trust-bearing statement a family acts on — the disclaimer, the
+caveats, the hedges, the flag chips — is translated. Revisit this if `sources`
+is ever restructured for another reason; do not restructure it *for* this.
+
+**Consequence to expect on the page: a tile and the prose beside it will show
+the same figure two different ways.** Found in the Providence Day print-out,
+2026-07-29:
+
+```
+tile   (localizeMoneyText → numberLocale('te'))   $36,83,971
+prose  (rendered verbatim, never re-typed)        $3,683,971
+```
+
+Both are correct, and each follows a standing rule: structured numeric fields
+are regrouped at render, while figures inside research prose are never re-typed
+so tuition data cannot drift between languages. It is only their *interaction*
+that is new. Telugu is the first locale to surface it — `es` and `ht` do not
+regroup digits at all, and `bn` opts out through `FIGURE_SAFE_NUMBERS` — which
+was confirmed by re-rendering the same page under `en`/`bn`/`es`, where the two
+forms agree.
+
+No checker can see this: both figures are individually correct, so the sweep,
+the coverage read and the hash parity check all pass. It is visible only in a
+browser, on a page carrying an **unabbreviated 7-digit** figure. `$3.25M`-style
+tiles prove nothing — the abbreviated forms have no grouping to disagree about.
+The financial-aid sections are collapsed by default, so the panels must be
+expanded before the figures are on screen at all.
+
+**A reviewer should decide whether this is acceptable**, since it is a
+presentation question rather than a translation one. It was left as-is rather
+than resolved unilaterally: the alternatives (adding `te` to
+`FIGURE_SAFE_NUMBERS`, or regrouping figures inside prose) each contradict a
+decision the owner has already made explicitly.
+
+### Typography — two defects found and fixed in Phase 0
+
+Both in `src/index.css`, scoped to `[lang='te']`, verified in a real browser.
+
+1. **Letterspacing** — same fix as Bangla (tracking → 0 across 43 rules), but a
+   *different* mechanism. Telugu stacks subscripts vertically, so its conjuncts
+   survive tracking intact (`రాష్ట్ర`, `విద్యార్థి` held together at 0.14em); what
+   breaks is the spacing *between* syllable clusters, scattering the line so word
+   boundaries stop being legible.
+2. **Line-height** — worse than Bangla. Telugu stacks marks above *and* below the
+   baseline with no headstroke anchoring them, so a two-line heading had line 1's
+   subscripts meeting line 2's vowel signs. 1.6 on headings, 1.7 on body.
+   `.stat-tile-val` excluded — it holds Latin figures.
+
+Stat tiles were fine, as in Bangla. Font (`Noto Sans Telugu`) loaded first time,
+no tofu.
+
+### A PDF artifact that is NOT a bug in this app (2026-07-29)
+
+An 81-page owner print-out of Charlotte Latin rendered perfectly on screen and on
+paper, but the PDF's **text layer** extracted as mojibake — `పాఠశాల` came out
+`!ఠ#ల`, `విద్యార్థులు` came out `;KLరుG లు`. It looks alarming and it is easy to
+mistake for a font or encoding bug in the app. It is neither.
+
+What was checked before concluding that:
+
+- `document.body.innerText` on the live page is correct Telugu; zero occurrences
+  of the corrupt forms in a 152k-char expanded DOM dump.
+- A headless-Chrome PDF of the *same* route extracts **cleanly** — 14 and 18
+  correct instances of `పాఠశాల`, zero corrupt.
+- `pdffonts` on the clean PDF shows `uni: yes` — a ToUnicode map is embedded, so
+  ligated conjunct glyphs reverse-map to characters.
+
+The owner's PDF came from a generator that subset the font *without* a usable
+ToUnicode map for the shaped conjunct glyphs, so extraction falls back to raw
+glyph IDs, which land on ASCII punctuation. That is a property of how the print
+path handles complex-script shaping, and **it would affect Bangla the same way**
+through the same path. Nothing in `src/` causes it and nothing in `src/` fixes it.
+
+**The consequence is still real and worth telling a family about:** a printed or
+saved PDF of a Telugu or Bangla page may be unsearchable and unreadable to a
+screen reader even though it looks perfect. Copy-paste out of it produces
+garbage.
+
+**Diagnostic order for the next language** — do this before filing a bug:
+`innerText` first, then a headless PDF of the same route, then `pdffonts` for the
+`uni` column. Comparing against a control PDF is what separates a real
+encoding bug from a generator artifact; skipping the control makes an app bug out
+of something the app did not do.

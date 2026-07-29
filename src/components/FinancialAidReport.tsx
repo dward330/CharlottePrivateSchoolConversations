@@ -7,6 +7,7 @@
 
 import { useTranslation } from 'react-i18next'
 import { money, localizeMoneyText } from '../lib/format.ts'
+import { reportSources } from '../lib/labels.ts'
 import type {
   CostComponent,
   FinancialAidReport as Report,
@@ -543,7 +544,7 @@ export function FinancialAidReportCard({
 
       <footer className="fa-sources srcrow">
         <span className="tag-outline">{t('cardLabels.sources')}</span>
-        <span className="fa-src-text">{report.sources}</span>
+        <span className="fa-src-text">{reportSources(t, report.sources)}</span>
       </footer>
     </div>
   )

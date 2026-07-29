@@ -71,11 +71,25 @@ presentation is localized — **the currency stays USD and the amount never chan
 figure is ever re-typed, so tuition data cannot drift between languages. Never hand-convert
 a number in a data file to "translate" it.
 
-**Shipped languages.** English, Spanish, Bangla (Bangladesh / Dhaka standard)
-and Haitian Creole are all complete — every topic and the chrome catalog
-translated and live, print-outs clean. No translation work is open.
+**Shipped languages.** English, Spanish, Bangla (Bangladesh / Dhaka standard),
+Haitian Creole and Telugu (Andhra Pradesh) are all complete — every topic and
+the chrome catalog translated and live. No translation work is open.
 
-**One caveat on Haitian Creole:** Spanish and Bangla have signed-off
+**Telugu keeps native lakh/crore grouping** — it is deliberately absent from
+`FIGURE_SAFE_NUMBERS`, the opposite of the `bn` line, so `$3,250,000` renders
+`$32,50,000`. This makes it the first locale where a stat tile and the prose
+beside it show the same figure two ways (`$36,83,971` vs `$3,683,971`): tiles
+are regrouped at render, prose figures are never re-typed. Both rules are
+intentional and neither was changed; the interaction is written up for a
+reviewer in `src/data/overlays/NOTES.md`.
+
+**Telugu has a native-speaker review.** A Telugu speaker read the rendered pages
+and accepted the prose (2026-07-29). That closes the one failure mode no check in
+this repo can reach — register, naturalness, whether the wording drifts toward a
+formal/Sanskritized style a parent would not use. Telugu therefore ships in the
+same reviewed position as Spanish and Bangla, **not** in Kreyòl's.
+
+**One caveat on Haitian Creole:** Spanish, Bangla and Telugu have signed-off
 native-speaker reviews. Kreyòl was **accepted without one** (2026-07-29), so its
 register — specifically whether the prose drifts toward French — has never been
 checked by a speaker. That is the one failure mode a non-speaker structurally
@@ -108,6 +122,30 @@ breaks on the first that does not.
 Run the print-out on **two** schools — Charlotte Latin exercises flag-chip and
 hedge paths Providence Day never touches — and in a **real browser**. A headless
 render passed Latin clean; the 65-page browser print-out found the currency bug.
+
+**The recurring leak shape: a sentence wearing an identifier's clothes.** Four
+print-out defects, three of them this: a hedge in a proper-noun field
+(`ensembles`), a hedge in a sport column (`Not published`), a caveat in a citation
+slot (`Staff backgrounds partly from…`). Each field was classified correctly for
+the values it held when it was classified, and each later gained one value that
+was prose. When adding a locale, grep the *rendered* page for English sentences in
+**table cells, chips, and source lines** — the places where a short label passes
+for a code. That is where all of them lived.
+
+**A skipped field can be right about 12 values and wrong about the 13th.**
+`ensembles` is classified "proper noun — ensemble name", correctly — except for
+one hedge sentence that therefore shipped as English to all four non-English
+locales. `i18n_audit_skips.mjs` would have flagged it, but collection stopped at
+8 values per field and it was the 9th of 55, so the audit passed clean. The cap
+now applies only to display. Beware any check whose sample size doubles as its
+coverage.
+
+**Expand the collapsed panels, and check an unabbreviated 7-digit figure.** A
+default school page renders ~17k characters; with every `<details>` opened it is
+~152k, and the financial-aid sections holding the large figures are collapsed on
+load. `$3.25M`-style tiles prove nothing about digit grouping — only figures like
+`$3,683,971` do. Skipping either step makes the print-out report clean without
+having looked at the part that breaks (Telugu, 2026-07-29).
 
 Rules of thumb: never concatenate sentence fragments — use interpolation
 (`{{count}} schools`) so word order can change per language. Use i18next's `count`
