@@ -713,3 +713,93 @@ framed it — neither reachable by translating section bodies alone:
 The lesson is the Stage 7 one again, one layer out: **a card can be fully
 translated and still be framed by English.** Checking the body is not the same
 as checking what a parent sees around it.
+
+---
+
+# Bangla (Bangladesh / Dhaka standard) — complete
+
+Landed 2026-07-28; print-out clean 2026-07-29. All eight prose topics plus the content-hash topic and the
+UI chrome, in one pass. Coverage 100% on every topic, no drift, all 5,904
+overlay entries hash-matched against live English.
+
+The mechanism needed no work — field classification, `PATH_OVERRIDES` and the
+checkers all key off the English source, so they were already correct. What
+follows is Bangla-specific.
+
+## Standing conventions (Bangla)
+
+Same shape as the Spanish conventions above, with these differences:
+
+- **Variety is binding: বাংলাদেশের প্রমিত বাংলা**, the Dhaka standard — not
+  Kolkata. পানি not জল. A Dhaka reader notices the difference immediately.
+- **Western digits, everywhere.** Bangla has its own (০১২৩), and this corpus is
+  dense with citations a family matches against a school's English page —
+  tuition tables, Wayback stamps, SAT scores, `2026–27`. Mixing numeral systems
+  on one line reads as a typo. `check_bn_numerals.mjs` enforces it.
+  Worth flagging to the reviewer: Bangladeshi Bangla does use both in practice,
+  and `৩ মৌসুম` is not wrong in isolation. This is a consistency decision for a
+  citation-heavy corpus, not a claim about the language.
+- **Latin kept** for school/college/program names, platform names (SCOIR,
+  Scoir, Naviance), course codes and catalog-matchable course titles, award and
+  society names, and division names (Upper School, Lower School).
+- **Translated:** generic descriptors, analysis, and every hedge.
+
+## Terminology choices worth a second opinion
+
+| English | Bangla used | Note |
+|---|---|---|
+| acceptance list vs matriculation list | ভর্তির-সুযোগের তালিকা / প্রকৃত ভর্তির তালিকা | The load-bearing distinction of College Support, as in Spanish. Kept rigidly consistent. |
+| Class of 2025 | Class of 2025 | Left Latin — it is how the school labels the cohort in every document a family will see. |
+| quintile | quintile | Kept Latin; the mechanism is explained in surrounding prose. |
+| weighted / unweighted GPA | ওয়েটেড / আনওয়েটেড GPA | Transliterated rather than calqued; the Bangla equivalents read as statistics jargon. |
+| quality point | quality point | No Bangla equivalent; appears beside the formula that defines it. |
+| test-optional | test-optional | A named US admissions policy. |
+| honor society | Honor Society | Institution name, kept Latin, matching the Latin-for-proper-nouns rule. |
+| most rigorous | “Most rigorous” | Common App term of art, quoted as such. |
+| seniors / juniors | senior / junior | Kept Latin. The Bangla ordinals (একাদশ/দ্বাদশ) do not map onto the US cohort labels a parent reads on the school's page. |
+| spike (admissions) | বিশেষত্ব | Admissions jargon with no Bangla equivalent; verify it reads naturally. |
+| Signature Learning Experience | signature learning experience | Cannon's own program name, left Latin. |
+
+## Specific soft spots
+
+1. **`school.dossierKicker` and the caps labels.** Bangla has no capital forms,
+   so `text-transform: uppercase` is inert. The Phase 0 spike zeroed the
+   letterspacing for `bn` (it was breaking conjuncts under the মাত্রা), but a
+   reviewer should confirm the caps-styled labels still read as labels.
+2. **Long hedges in College Support.** The conflicting-figure caveats are the
+   densest prose in the corpus and degrade most easily. `charlotte-latin`'s
+   unremoved internal editorial note, and the Providence Day $23M/$20M
+   discrepancy, are worth a careful read.
+3. **`courses.scrollHint`** keeps its leading space (` — scroll for full list`);
+   it is concatenated onto a count in the component.
+
+## The render layer is a separate surface — the Bangla lesson
+
+Every Bangla defect found after the data was 100% clean lived in
+`src/lib/format.ts`, not in the overlays. Both were invisible to all five
+checkers because the checkers read the WORK FILES, and the work files were
+right the whole time.
+
+| Print-out | Rendered | Cause |
+|---|---|---|
+| 1 | `৩৬,৩২৫ US$` | `Intl.NumberFormat('bn')` defaults to Bangla digits |
+| 2 | `36,83,971` | `bn` groups lakh/crore (2-2-3), not 3-3-3 |
+
+The second is the instructive one. Fixing the digits looked complete because
+5-digit figures — every tuition tile — group identically in both systems. Only
+`$3,683,971` and `$472,595` exposed it, and a regrouped figure no longer matches
+the Report on Philanthropy it cites, which is the same rule the digits break.
+
+The rule now lives in `src/lib/figureLocale.ts`, deliberately dependency-free so
+`check_bn_numerals.mjs` can import the SHIPPED logic instead of restating it —
+an earlier guard grepped for the `-u-nu-latn` subtag and kept passing when the
+subtag was present but no longer sufficient. It now formats a 7-digit sample
+through the real `numberLocale()`.
+
+**For the next language:** before the first print-out, run the target locale
+through `Intl.NumberFormat` at 5, 7 and 9 digits and compare against `en-US`.
+Anything that differs beyond the decimal/group SEPARATOR — different digits,
+different grouping widths — needs the locale added to `FIGURE_SAFE_NUMBERS`.
+Currency PLACEMENT is left alone: trailing `US$` is genuine CLDR convention for
+both `es` and `bn`, and `money()` preserves each locale's own placement while
+substituting a source-shaped number.

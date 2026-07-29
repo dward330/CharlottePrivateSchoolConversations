@@ -5,10 +5,19 @@
 // the amount never change. A Spanish reader sees "$28.500", not a converted figure.
 
 import i18n from './i18n.ts'
+import { numberLocale } from './figureLocale.ts'
 
 /** Active language, falling back to English. */
 function lang(): string {
   return i18n.resolvedLanguage ?? i18n.language ?? 'en'
+}
+
+/**
+ * The locale to format NUMBERS in — as opposed to the active UI language.
+ * See figureLocale.ts for why a few locales differ.
+ */
+function figureLocale(): string {
+  return numberLocale(lang())
 }
 
 /**
@@ -21,17 +30,36 @@ function lang(): string {
  * keeps a column of tuition figures internally consistent.
  */
 export function money(n: number): string {
-  return new Intl.NumberFormat(lang(), {
+  const parts = new Intl.NumberFormat(lang(), {
     style: 'currency',
     currency: 'USD',
     maximumFractionDigits: 0,
     useGrouping: 'always',
-  }).format(n)
+  }).formatToParts(n)
+
+  // Keep the locale's own currency PLACEMENT — "$28,500" leads in English,
+  // "28.500 US$" trails in Spanish and Bangla, and that is each locale's real
+  // convention — while substituting a figure-safe number for the digits. Only
+  // the numeric run is replaced, so the symbol, spacing and order are untouched.
+  const digits = number(n)
+  let replaced = false
+  return parts
+    .map((p) => {
+      if (p.type !== 'integer' && p.type !== 'group' && p.type !== 'decimal'
+        && p.type !== 'fraction') return p.value
+      if (replaced) return ''
+      replaced = true
+      return digits
+    })
+    .join('')
 }
 
-/** Plain number with locale-appropriate grouping (see `money` on grouping). */
+/**
+ * Plain number with locale-appropriate grouping (see `money` on grouping, and
+ * `numberLocale` on why a few locales borrow en-US's grouping entirely).
+ */
 export function number(n: number): string {
-  return new Intl.NumberFormat(lang(), { useGrouping: 'always' }).format(n)
+  return new Intl.NumberFormat(figureLocale(), { useGrouping: 'always' }).format(n)
 }
 
 /**
@@ -39,7 +67,7 @@ export function number(n: number): string {
  * other locales get the full, unambiguous form ("0,857").
  */
 export function winPct(n: number): string {
-  const s = new Intl.NumberFormat(lang(), {
+  const s = new Intl.NumberFormat(figureLocale(), {
     minimumFractionDigits: 3,
     maximumFractionDigits: 3,
   }).format(n)

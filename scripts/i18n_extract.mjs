@@ -19,6 +19,11 @@
  *   node scripts/i18n_extract.mjs --report --residual # + every field NOT classified
  *   node scripts/i18n_extract.mjs --topic sports      # emit one topic's work file
  *   node scripts/i18n_extract.mjs --topic sports --lang es --out DIR
+ *   node scripts/i18n_extract.mjs --topic sports --lang es --force  # re-extract
+ *
+ * --lang DEFAULTS TO es. Extraction blanks every `t`, and the script refuses to
+ * overwrite a work file that already holds translations unless --force is given
+ * (see guardExisting) — an unrecognised flag must never silently wipe a locale.
  *
  * The work file carries the English beside each translation so a translator and
  * a reviewer can see the source. It is COMMITTED and is the reviewable artifact.
@@ -32,7 +37,7 @@
  * repeats for all six schools), so the work file carries each DISTINCT string
  * once with its occurrence list. Translate once, reinject everywhere.
  */
-import { writeFileSync, mkdirSync } from 'node:fs'
+import { writeFileSync, mkdirSync, readFileSync } from 'node:fs'
 import { stamp } from './i18n_stamp.mjs'
 import { PROSE_KEYS, SKIP_KEYS, PATH_OVERRIDES } from './i18n_fields.mjs'
 
@@ -168,6 +173,34 @@ const LANG = val('--lang', 'es')
 const OUT = val('--out', 'src/data/overlays/work')
 const ONLY = val('--topic', null)
 
+/**
+ * Refuse to overwrite a work file that already carries translations.
+ *
+ * Extraction emits `t: ''` for every string, so re-running it over a translated
+ * work file blanks the whole thing — and because the diff is a clean
+ * same-line-count replacement, it does not look like data loss in `git status`.
+ * This bit the Bangla rollout: `--help` is not a recognised flag, so `--lang`
+ * fell through to its 'es' default and one command wiped all eight committed
+ * Spanish files. Recovered via `git checkout`, but only because the tree was
+ * clean at the time.
+ *
+ * --force is the deliberate escape hatch for a genuine re-extract (English
+ * source changed and the work file must be rebuilt).
+ */
+function guardExisting(dest) {
+  if (has('--force')) return
+  let prior
+  try { prior = JSON.parse(readFileSync(dest, 'utf8')) } catch { return }
+  const translated = (prior.strings ?? []).filter((s) => s.t).length
+  if (!translated) return
+  console.error(
+    `\n✗ refusing to overwrite ${dest}\n`
+    + `  It already holds ${translated} translated string(s); extraction would blank them.\n`
+    + `  Did you mean --lang <other>? Pass --force to re-extract anyway.\n`,
+  )
+  process.exit(2)
+}
+
 
 
 const words = (s) => s.trim().split(/\s+/).filter(Boolean).length
@@ -291,6 +324,7 @@ async function main() {
         strings: [...byString.values()].map((e) => ({ ...e, t: '' })),
       }
       const dest = `${OUT}/${topic}.${LANG}.json`
+      guardExisting(dest)
       writeFileSync(dest, JSON.stringify(payload, null, 2) + '\n', 'utf8')
       console.log(`wrote ${dest} — ${byString.size} strings, ${uniqueWords} words`)
     }

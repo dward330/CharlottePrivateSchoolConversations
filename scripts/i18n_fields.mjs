@@ -66,6 +66,8 @@ export const PROSE_KEYS = new Set([
   //   words        "catch up with friends", "safe & supervised"
   //   when         "Monthly", "Year-round", "Rotating"
   //   kind         "Play / One-Act", "Mainstage musicals"
+  //                (in artsPrograms only — `*.flags[].kind` is an enum key and
+  //                 is pinned false in PATH_OVERRIDES)
   'dismissal', 'intensity', 'mechanics', 'scholarships', 'words', 'when', 'kind',
   // Per-school section headings. CLAUDE.md's i18n standard splits headings by
   // the uniform test: one that is byte-identical across all six schools is
@@ -187,6 +189,22 @@ export const REVIEWED_SKIPS = new Set([
  * meaning genuinely differs by location.
  */
 export const PATH_OVERRIDES = new Map([
+  // `flags[].kind` is an ENUM KEY, not display text. The component looks it up
+  // in a FLAG_LABEL map (`verify` → "TO VERIFY") whose wording is chrome and
+  // lives in src/locales/*.json. Translating the key makes the lookup miss and
+  // the chip render BLANK.
+  //
+  // The leaf `kind` is prose because artsPrograms uses it for season-slot
+  // phrases ("Play / One-Act"). That reading is right for The Arts and wrong
+  // here — the third instance of a leaf name that is correct for most of its
+  // values and wrong for a few, after `value` and `tier`.
+  //
+  // Caught in Bangla, but it had already shipped in Spanish: 58 blank chips
+  // across all six schools, on the one card where the qualifier IS the
+  // parent-facing content. Coverage read 100% throughout — only a runtime
+  // resolution test sees it.
+  ['*.flags[].kind', false],
+
   // Citation labels are publisher + page name: "providenceday.org — Arts overview".
   // Half proper noun, half descriptive. Left English so a citation always matches
   // the page it points at — a translated citation label cannot be checked against

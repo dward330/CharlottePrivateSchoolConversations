@@ -239,7 +239,9 @@ mostly script/layout rather than architecture:
   locales, not a per-language one.
 - **Non-Latin scripts** (Bengali, Hindi, Telugu) — font loading is already wired in
   `syncFont()`, but line-height and heading metrics in a design built for Barlow are
-  untested at paragraph length.
+  untested at paragraph length. Bangla is the first of these to be planned; see
+  [`prose-translation-bn.md`](./prose-translation-bn.md), which front-loads a
+  typography spike before any translation.
 - **Text expansion** — Spanish runs ~20% longer than English, German more. Fixed-width
   stat tiles may need checking; what's learned transfers to later languages.
 

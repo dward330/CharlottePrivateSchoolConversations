@@ -44,7 +44,19 @@ export const SUPPORTED: readonly Lang[] = [
   { code: 'fr', label: 'French', native: 'Français' },
   { code: 'ht', label: 'Haitian Creole', native: 'Kreyòl Ayisyen' },
   { code: 'fa', label: 'Farsi', native: 'فارسی', rtl: true, font: 'Noto Naskh Arabic' },
-  { code: 'bn', label: 'Bengali', native: 'বাংলা', font: 'Noto Sans Bengali' },
+  /* Bangla is standardised differently in Bangladesh and in West Bengal, India
+     — everyday vocabulary diverges (পানি vs জল for water) and the two lean
+     Perso-Arabic vs Sanskritic. This app targets the DHAKA / BANGLADESH
+     standard, so the picker names the country rather than leaving a reader to
+     guess which Bangla they are choosing. Code stays `bn` (not `bn-BD`): no
+     Kolkata variant is offered, so there is nothing to disambiguate at the
+     locale level, and the catalog filename would churn for no gain. */
+  {
+    code: 'bn',
+    label: 'Bengali (Bangladesh)',
+    native: 'বাংলা (বাংলাদেশ)',
+    font: 'Noto Sans Bengali',
+  },
   { code: 'ar', label: 'Arabic', native: 'العربية', rtl: true, font: 'Noto Naskh Arabic' },
   { code: 'hi', label: 'Hindi', native: 'हिन्दी', font: 'Noto Sans Devanagari' },
   { code: 'te', label: 'Telugu', native: 'తెలుగు', font: 'Noto Sans Telugu' },
@@ -75,7 +87,7 @@ export function langCodeOf(code: string | undefined): string {
  * tracked separately in PROSE_TRANSLATED below — the two layers ship on
  * different schedules by design (see the i18n note in CLAUDE.md).
  */
-export const TRANSLATED: readonly string[] = ['en', 'es']
+export const TRANSLATED: readonly string[] = ['en', 'es', 'bn']
 
 export function isTranslated(code: string): boolean {
   return TRANSLATED.includes(code)
@@ -90,12 +102,16 @@ export function isTranslated(code: string): boolean {
  * layers — the structured cards in src/data/** and the ingested notes in
  * src/content/** that a parent can still reach.
  *
+ * Bangla joined 2026-07-29 with all nine topics translated in one pass. It is
+ * LTR, so the `dir` consumer below is a no-op for it; it is listed here because
+ * its prose genuinely is translated, which is what this list means.
+ *
  * Only consumer is the `dir` attribute below, which drives one CSS rule. An RTL
  * locale whose prose is still English has to render that prose as an LTR run,
  * or the bidi algorithm mangles it (see `[data-prose='en'] main` in index.css).
  * Adding a locale here retires that rule for it automatically.
  */
-export const PROSE_TRANSLATED: readonly string[] = ['es']
+export const PROSE_TRANSLATED: readonly string[] = ['es', 'bn']
 
 export function isProseTranslated(code: string): boolean {
   return PROSE_TRANSLATED.includes(code)
@@ -161,8 +177,26 @@ void i18n.use(initReactI18next).init({
   // Treat "es-MX", "es-419" etc. as "es" — we translate per language, not per region.
   load: 'languageOnly',
   // A key absent from a partial catalog must render the English string, not the
-  // raw key and not an empty node.
-  parseMissingKeyHandler: (key: string) => i18n.getFixedT(FALLBACK_LANG)(key),
+  // raw key and not an empty node. `fallbackLng` above already does that job —
+  // this handler runs only AFTER the English lookup has itself failed.
+  //
+  // It must therefore NOT call t() again. The previous version did
+  // (`i18n.getFixedT(FALLBACK_LANG)(key)`), which re-entered translate(), missed
+  // again, re-fired this handler, and blew the stack — a white screen a second
+  // after first paint, with `RangeError: Maximum call stack size exceeded`
+  // recursing through i18next's translate().
+  //
+  // It survived Spanish because es.json is key-for-key complete, so nothing
+  // ever reached the handler. Bangla is the first locale to hit a genuinely
+  // absent key at runtime: labels.ts builds SCHOOL-SCOPED card titles like
+  // `cards.the-arts.ladder@davidson-day`, which exist for only a few schools by
+  // design. i18next fires this handler on `usedDefault` too, so even a lookup
+  // carrying a perfectly good `defaultValue` came through here and recursed.
+  //
+  // `fallbackValue` is that caller-supplied defaultValue when there was one —
+  // for the card titles it is the topic loader's own English wording, which is
+  // exactly what should render.
+  parseMissingKeyHandler: (key: string, fallbackValue?: string) => fallbackValue ?? key,
   returnEmptyString: false,
   interpolation: {
     // React already escapes interpolated values.

@@ -3977,3 +3977,92 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
      beside it, so a half-hour and a full hour look identical. */
   .as-tl-until { display: none; }
 }
+
+/* ─────────────────────────────────────────────────────────────────────────
+   Bangla (bn) script adjustments — Phase 0 typography spike, 2026-07-28.
+
+   Scoped to [lang='bn'] so nothing here can touch Latin locales. The font
+   stack itself is swapped at runtime by syncFont() in src/lib/i18n.ts; this
+   block fixes what the Latin-tuned METRICS get wrong once that font lands.
+
+   Three findings from bangla-spike.html, in order of severity:
+
+   1. LETTERSPACING BREAKS CONJUNCTS. 43 rules pair `text-transform:uppercase`
+      with tracking up to 0.14em. Uppercase is a harmless no-op in Bangla, but
+      the tracking is not: Bangla joins letters under a মাত্রা headstroke, and
+      forcing gaps splits conjuncts — রাজ্য-শিরোপার rendered with visible holes
+      inside single characters. Tracking goes to 0 for Bangla.
+
+   2. TIGHT LINE-HEIGHT CLIPS. Headings run 1.05–1.15, which is comfortable for
+      Latin caps but not for a script stacking vowel signs both above and below
+      the headstroke. Long two-line headings nearly collided.
+
+   3. Stat tiles were FINE — they have no fixed height and grew cleanly. Noted
+      so a later reader does not "fix" a problem that never existed.
+   ───────────────────────────────────────────────────────────────────────── */
+
+:root[lang='bn'] {
+  /* Bangla needs more leading than the Latin default at body size too. */
+  line-height: 1.65;
+}
+
+/* 1 · Kill the Latin-caps tracking wherever it appears. Uppercase itself is
+      left alone: it is inert in Bangla, and removing it would change nothing
+      visually while risking the Latin runs (AP, NCISAA) that share these
+      labels. */
+:root[lang='bn'] .eyebrow,
+:root[lang='bn'] .back,
+:root[lang='bn'] .dossier-kicker,
+:root[lang='bn'] .dossier-nav-label,
+:root[lang='bn'] .section-sub,
+:root[lang='bn'] .cite-label,
+:root[lang='bn'] .prose-table thead th,
+:root[lang='bn'] .catalog-chip,
+:root[lang='bn'] .catalog-club-cat,
+:root[lang='bn'] .catalog-src-toggle,
+:root[lang='bn'] .control legend,
+:root[lang='bn'] .group-row td.group-label,
+:root[lang='bn'] .course-kicker,
+:root[lang='bn'] .courses-deptname,
+:root[lang='bn'] .sports-h,
+:root[lang='bn'] .sports-th,
+:root[lang='bn'] .sports-season-head,
+:root[lang='bn'] .sports-pro-kicker,
+:root[lang='bn'] .arts-h,
+:root[lang='bn'] .arts-division-head,
+:root[lang='bn'] .arts-season-kicker,
+:root[lang='bn'] .arts-th,
+:root[lang='bn'] .arts-board-label,
+:root[lang='bn'] .arts-exhibit-when,
+:root[lang='bn'] .clubs-h,
+:root[lang='bn'] .clubs-umbrella-name,
+:root[lang='bn'] .clubs-strip-head,
+:root[lang='bn'] .clubs-program-vallabel,
+:root[lang='bn'] .clubs-th,
+:root[lang='bn'] .cs-h,
+:root[lang='bn'] .cs-th,
+:root[lang='bn'] .cs-counselor-role,
+:root[lang='bn'] .cs-year-intensity,
+:root[lang='bn'] .cs-quintile-label,
+:root[lang='bn'] .as-h,
+:root[lang='bn'] .as-tl-tier,
+:root[lang='bn'] .as-daysel-label,
+:root[lang='bn'] .as-th,
+:root[lang='bn'] .as-estimate-kicker,
+:root[lang='bn'] .as-fees-kicker,
+:root[lang='bn'] .as-filters-label,
+:root[lang='bn'] .lang-row-label,
+:root[lang='bn'] .lang-soon {
+  letter-spacing: 0;
+}
+
+/* 2 · Give headings room for the headstroke and its stacked vowel signs. */
+:root[lang='bn'] .topic-title,
+:root[lang='bn'] .school-card-name,
+:root[lang='bn'] .stat-tile-val,
+:root[lang='bn'] .fa-contents-title,
+:root[lang='bn'] .corner-label,
+:root[lang='bn'] .row-metric-label,
+:root[lang='bn'] .section-sub {
+  line-height: 1.45;
+}
