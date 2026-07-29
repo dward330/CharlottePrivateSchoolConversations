@@ -1,9 +1,15 @@
 # Haitian Creole (Kreyòl Ayisyen) research-prose translation — rollout
 
-**Status:** **COMPLETE — all phases, all checks.** All 9 topics + the 327-key
-chrome catalog translated, `ht` is live in `TRANSLATED` / `PROSE_TRANSLATED`,
-and both required browser print-outs are clean. Written and shipped 2026-07-29.
-One native-speaker review by a Haitian Kreyòl speaker remains.
+**Status:** **COMPLETE AND CLOSED.** All 9 topics + the 327-key chrome catalog
+translated, `ht` is live in `TRANSLATED` / `PROSE_TRANSLATED`, all four
+print-out rounds done, both defects they found fixed and merged (PRs #59, #61).
+Print-out scaffolding removed. Written, shipped and closed 2026-07-29.
+
+**Closed without a native-speaker review.** Accepted as-is on 2026-07-29. The
+§1 register call — how far the prose drifts toward French — was therefore never
+checked by a Kreyòl speaker. It is the one defect class no checker in this repo
+can see, and unlike a rendering bug it would not announce itself. Recorded here
+so nobody later reads "COMPLETE" as "vetted".
 
 > ## START HERE (fresh session)
 >
@@ -11,9 +17,10 @@ One native-speaker review by a Haitian Kreyòl speaker remains.
 >
 > ### What is left
 >
-> **One native-speaker review**, by a Haitian Kreyòl speaker. Everything else
-> is done. The register call in §1 is the thing to review first — see the
-> soft-spot list in `src/data/overlays/NOTES.md`.
+> **Nothing blocking.** The one thing never done is a native-speaker review;
+> the rollout was accepted without it. If a Kreyòl speaker ever becomes
+> available, start with the §1 register call and the soft-spot list in
+> `src/data/overlays/NOTES.md` — that list was written for this pass.
 >
 > ### The print-out rounds
 >
