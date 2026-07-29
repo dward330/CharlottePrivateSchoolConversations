@@ -64,3 +64,39 @@ if (hits) {
   process.exit(1)
 }
 console.log(`✓ no Bangla-script digits across ${files.length} work file(s)`)
+
+/* ------------------------------------------------------------------ render --
+ * The data being clean is not enough. `Intl.NumberFormat('bn')` emits Bangla
+ * digits BY DEFAULT, so a page whose every stored string is Western can still
+ * render ৩৬,৩২৫ — which is exactly what a print-out caught after this checker
+ * had passed. src/lib/format.ts pins `-u-nu-latn` to prevent it; this asserts
+ * the pin is still there, because the failure is silent and only visible in a
+ * browser.
+ */
+const FORMAT = join(ROOT, 'src/lib/format.ts')
+if (existsSync(FORMAT)) {
+  // Strip comments first: the explanation of WHY the subtag exists also contains
+  // the subtag, so a plain includes() passes even after the code is reverted.
+  const src = readFileSync(FORMAT, 'utf8')
+    .replace(/\/\*[\s\S]*?\*\//g, '')
+    .replace(/\/\/.*$/gm, '')
+  if (!src.includes('-u-nu-latn')) {
+    console.error(
+      '\n✗ src/lib/format.ts no longer pins the numbering system.\n' +
+        '  Intl.NumberFormat("bn") defaults to Bangla digits (০১২৩), so money()\n' +
+        '  and number() would render figures the data layer stores as Western.\n' +
+        '  Restore the `-u-nu-latn` subtag in lang().',
+    )
+    process.exit(1)
+  }
+
+  // Prove it at runtime rather than trusting the grep.
+  const rendered = new Intl.NumberFormat('bn-u-nu-latn', {
+    style: 'currency', currency: 'USD', maximumFractionDigits: 0,
+  }).format(36325)
+  if (BN_DIGITS.test(rendered)) {
+    console.error(`\n✗ bn currency still renders Bangla digits: ${rendered}`)
+    process.exit(1)
+  }
+  console.log(`✓ render layer pins Western digits (bn → ${rendered})`)
+}

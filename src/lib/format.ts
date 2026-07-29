@@ -6,9 +6,27 @@
 
 import i18n from './i18n.ts'
 
-/** Active language, falling back to English. */
+/**
+ * Active language, falling back to English.
+ *
+ * `-u-nu-latn` pins the NUMBERING SYSTEM to Western digits without touching the
+ * locale's grouping or currency conventions. Several locales — Bangla among
+ * them — default to their own digits, so `Intl.NumberFormat('bn')` renders
+ * $36,325 as "৩৬,৩২৫ US$".
+ *
+ * That would break the corpus rule that every figure stays Western (see §4.1 of
+ * the Bangla rollout doc): these numbers are checkable citations a family
+ * matches against the school's own English page — tuition tables, SAT scores,
+ * Wayback timestamps. The prose layer is already all-Western and enforced by
+ * check_bn_numerals.mjs; without this the RENDERED page would disagree with the
+ * data it came from, mixing two numeral systems on one line.
+ *
+ * The subtag is inert for locales that already use Latin digits, so English and
+ * Spanish are unaffected.
+ */
 function lang(): string {
-  return i18n.resolvedLanguage ?? i18n.language ?? 'en'
+  const base = i18n.resolvedLanguage ?? i18n.language ?? 'en'
+  return `${base}-u-nu-latn`
 }
 
 /**
