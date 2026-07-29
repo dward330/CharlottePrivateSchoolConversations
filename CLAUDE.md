@@ -117,6 +117,15 @@ Run the print-out on **two** schools — Charlotte Latin exercises flag-chip and
 hedge paths Providence Day never touches — and in a **real browser**. A headless
 render passed Latin clean; the 65-page browser print-out found the currency bug.
 
+**The recurring leak shape: a sentence wearing an identifier's clothes.** Four
+print-out defects, three of them this: a hedge in a proper-noun field
+(`ensembles`), a hedge in a sport column (`Not published`), a caveat in a citation
+slot (`Staff backgrounds partly from…`). Each field was classified correctly for
+the values it held when it was classified, and each later gained one value that
+was prose. When adding a locale, grep the *rendered* page for English sentences in
+**table cells, chips, and source lines** — the places where a short label passes
+for a code. That is where all of them lived.
+
 **A skipped field can be right about 12 values and wrong about the 13th.**
 `ensembles` is classified "proper noun — ensemble name", correctly — except for
 one hedge sentence that therefore shipped as English to all four non-English

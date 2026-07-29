@@ -99,3 +99,32 @@ export function cardTitle(
   }
   return t(`cards.${topic}.${key}`, { defaultValue: fallback })
 }
+
+/**
+ * The financial-aid report's `sources` is ONE string: a per-school citation list
+ * and methodology note, closed by a sentence that is byte-identical across all
+ * six schools —
+ *
+ *     The school did not commission, review or approve this report.
+ *
+ * `sources` is skipped from the prose overlay as a citation string, which is
+ * right for the citation part and wrong for that closing sentence: it is the
+ * most trust-relevant statement on the card, and it shipped English to every
+ * non-English locale (found in the Providence Day Telugu print-out). Being
+ * uniform across schools, it is chrome by the same test as the "Verdict
+ * synthesised…" labels, so it gets a key rather than an overlay entry.
+ *
+ * Only the closing sentence is swapped. The methodology prose before it varies
+ * per school and is a research finding, so it stays in the data layer and will
+ * be picked up when `financial-aid-report` sources are extracted as prose. A
+ * school whose string lacks the sentence is returned unchanged.
+ */
+const NOT_COMMISSIONED = 'The school did not commission, review or approve this report.'
+
+export function reportSources(t: TFunction, sources: string): string {
+  if (!sources.includes(NOT_COMMISSIONED)) return sources
+  return sources.replace(
+    NOT_COMMISSIONED,
+    t('cardLabels.notCommissioned', { defaultValue: NOT_COMMISSIONED }),
+  )
+}
