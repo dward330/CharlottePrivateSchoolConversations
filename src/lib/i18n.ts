@@ -126,7 +126,7 @@ export function isTranslated(code: string): boolean {
  * or the bidi algorithm mangles it (see `[data-prose='en'] main` in index.css).
  * Adding a locale here retires that rule for it automatically.
  */
-export const PROSE_TRANSLATED: readonly string[] = ['es', 'bn', 'ht']
+export const PROSE_TRANSLATED: readonly string[] = ['es', 'bn', 'ht', 'te']
 
 export function isProseTranslated(code: string): boolean {
   return PROSE_TRANSLATED.includes(code)
