@@ -20,8 +20,16 @@ from collections import Counter
 
 # A thousands separator must be followed by more digits, so a figure ending a
 # clause ("$470, তা-ও") does not absorb the comma and read as a different figure.
+#
+# The year pattern is bounded by DIGIT lookarounds, not by \b. Python's \b is
+# Unicode-aware, so it requires a non-word character after the digits — and in
+# an agglutinative language the case suffix attaches straight to the numeral.
+# Telugu writes "in 2005" as "2005లో", where `ల` is a word character, so \b
+# failed to match and the sweep reported 18 phantom missing years whose figures
+# were in fact present and correct. Guarding on digits keeps the real check
+# (12005 must not read as 2005) while letting any script's suffix follow.
 FIG = re.compile(r'\$\d{1,3}(?:,\d{3})*(?:\.\d+)?[KM]?|\$\d+(?:\.\d+)?[KM]?'
-                 r'|\d+(?:\.\d+)?%|\b(?:19|20)\d{2}\b')
+                 r'|\d+(?:\.\d+)?%|(?<!\d)(?:19|20)\d{2}(?!\d)')
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
