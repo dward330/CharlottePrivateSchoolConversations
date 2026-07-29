@@ -37,8 +37,8 @@ Spanish and Bangla.
 > | the-arts | 599 | ✅ 599 | ✅ | ✅ |
 > | financial-aid-report | 572 | ✅ 571 | ✅ | ✅ |
 > | college-support | 926 | ✅ 926 | ✅ | ✅ |
-> | course-offerings | 1,848 | — | — | — |
-> | financial-aid-tuition (content) | 27 | — | — | — |
+> | course-offerings | 1,848 | ✅ 1,848 | ✅ | ✅ |
+> | financial-aid-tuition (content) | 27 | ✅ 27 | ✅ | ✅ |
 > | **prose total** | **5,905** | | | |
 > | UI chrome `src/locales/ht.json` | 326 keys | — | | |
 >
