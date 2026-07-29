@@ -872,3 +872,88 @@ verified byte-identical between `text` and `t`. That is the check the figure
 sweep is structurally blind to, and the one that caught the Spanish corruption
 where a blanket `' and ' → ' y '` rewrote text *inside* a quoted citation while
 every dollar figure stayed intact.
+
+---
+
+## Telugu (te) — 2026-07-29
+
+**Status: IN PROGRESS.** Phase 0 (typography spike) complete; translation not
+started. This section is being written as the rollout goes, so a reviewer gets
+the agenda rather than 84k words. Full rollout doc:
+`.claude/docs/prose-translation-te.md`.
+
+### The register decision, and why it is the thing to review first
+
+Bangla's binding call was Dhaka vs Kolkata; Kreyòl's was French drift. Telugu's
+is **diglossia** — the genuine split between **grānthika** (classical/literary)
+and **vyāvahārika** (spoken/modern).
+
+**Rule applied: vyāvahārika at an educated written register** — the Telugu of
+newspapers, school circulars and government notices. Not grānthika, which is
+archaic for informational prose and would make a page about tuition read as
+ceremonial; not colloquial, which varies more by region and reads as informal
+for a document families use to compare figures.
+
+**A reviewer should scan for grānthika drift first.** It is the Telugu analogue
+of Kreyòl's French drift and fails the same way: reaching for a "more formal"
+register looks *more* correct to a non-speaker, not less.
+
+### Variety: bound to Andhra Pradesh
+
+Owner's decision, 2026-07-29. Prefer coastal **Andhra** lexical choices; avoid
+Telangana-marked vocabulary and Urdu-influenced Hyderabadi forms. The written
+standards are much closer than the two Banglas — the divergence is mostly spoken
+— but the call is binding, so it is a translation instruction and not a
+footnote. **Second thing for a reviewer to check**, after register.
+
+Locale code stays `te`; the picker names the region in both scripts
+(`తెలుగు (ఆంధ్రప్రదేశ్)` / "Telugu (Andhra Pradesh)").
+
+### Kept Latin — wider than the other locales
+
+The standing list (school/institution names, `AP`/`IB`/`Honors`, course titles,
+platform names, award and festival names, athlete and staff names, and all
+verbatim quoted spans) **plus education terms of art**, which Telugu prose
+commonly keeps in English anyway:
+
+`Upper School` · `Middle School` · `Lower School` · `Honor Society` ·
+`Extended Day` · `varsity` · `GPA` · `transcript` · `counselor`
+
+Owner's decision: a parent must be able to search for and say these as published.
+**Do not transliterate them** — స్కూల్ reads fluently but breaks searchability,
+which is the whole reason for the rule.
+
+### Numbers — te DIVERGES from bn, deliberately
+
+Western digits (so the *first* Bangla defect cannot recur), but **native
+lakh/crore grouping is KEPT**: `$3,250,000` renders `$32,50,000`.
+
+`te` is deliberately **NOT** in `FIGURE_SAFE_NUMBERS` and **must not be added** —
+this is the exact opposite of the `bn` line, which borrows `en-US` grouping. The
+same rendering that was a defect in Bangla is the wanted behaviour here. Owner's
+decision, 2026-07-29.
+
+Currency stays USD; **formatting only, never conversion**. No INR, no exchange
+rate, no dual display. The `$` leads in Telugu, derived from `Intl` via
+`currencyLeads()` — never from a language check.
+
+Grouping is applied at **render** time. Figures in the work files should
+round-trip byte-identically; a regrouped figure appearing in a work file is a
+defect, not a localization.
+
+### Typography — two defects found and fixed in Phase 0
+
+Both in `src/index.css`, scoped to `[lang='te']`, verified in a real browser.
+
+1. **Letterspacing** — same fix as Bangla (tracking → 0 across 43 rules), but a
+   *different* mechanism. Telugu stacks subscripts vertically, so its conjuncts
+   survive tracking intact (`రాష్ట్ర`, `విద్యార్థి` held together at 0.14em); what
+   breaks is the spacing *between* syllable clusters, scattering the line so word
+   boundaries stop being legible.
+2. **Line-height** — worse than Bangla. Telugu stacks marks above *and* below the
+   baseline with no headstroke anchoring them, so a two-line heading had line 1's
+   subscripts meeting line 2's vowel signs. 1.6 on headings, 1.7 on body.
+   `.stat-tile-val` excluded — it holds Latin figures.
+
+Stat tiles were fine, as in Bangla. Font (`Noto Sans Telugu`) loaded first time,
+no tofu.

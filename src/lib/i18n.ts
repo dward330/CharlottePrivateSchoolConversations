@@ -59,7 +59,18 @@ export const SUPPORTED: readonly Lang[] = [
   },
   { code: 'ar', label: 'Arabic', native: 'العربية', rtl: true, font: 'Noto Naskh Arabic' },
   { code: 'hi', label: 'Hindi', native: 'हिन्दी', font: 'Noto Sans Devanagari' },
-  { code: 'te', label: 'Telugu', native: 'తెలుగు', font: 'Noto Sans Telugu' },
+  /* Telugu is written across Andhra Pradesh and Telangana. The two written
+     standards are much closer than Bangladeshi and West Bengali Bangla — the
+     divergence is mostly spoken and lexical — but this app targets ANDHRA
+     PRADESH usage, so the picker names the region rather than leaving a reader
+     to guess. Code stays `te`: no Telangana variant is offered, and a region
+     subtag could not express the split anyway (both are te-IN). */
+  {
+    code: 'te',
+    label: 'Telugu (Andhra Pradesh)',
+    native: 'తెలుగు (ఆంధ్రప్రదేశ్)',
+    font: 'Noto Sans Telugu',
+  },
   { code: 'it', label: 'Italian', native: 'Italiano' },
 ] as const
 
