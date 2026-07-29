@@ -18,6 +18,7 @@
  */
 import { readFileSync, readdirSync, existsSync } from 'node:fs'
 import { dirname, join } from 'node:path'
+import { pathToFileURL } from 'node:url'
 import { fileURLToPath } from 'node:url'
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
@@ -66,37 +67,58 @@ if (hits) {
 console.log(`✓ no Bangla-script digits across ${files.length} work file(s)`)
 
 /* ------------------------------------------------------------------ render --
- * The data being clean is not enough. `Intl.NumberFormat('bn')` emits Bangla
- * digits BY DEFAULT, so a page whose every stored string is Western can still
- * render ৩৬,৩২৫ — which is exactly what a print-out caught after this checker
- * had passed. src/lib/format.ts pins `-u-nu-latn` to prevent it; this asserts
- * the pin is still there, because the failure is silent and only visible in a
- * browser.
+ * The data being clean is not enough: the RENDER layer can rewrite a figure the
+ * data layer stores correctly. Two defects, both found by print-outs after this
+ * checker had already passed, both invisible outside a browser:
+ *
+ *   1. `Intl.NumberFormat('bn')` emits Bangla digits    → ৩৬,৩২৫
+ *   2. `bn` groups by the Indian system (lakh/crore)    → 36,83,971
+ *
+ * The second hides below six digits, which is why fixing only the first looked
+ * complete. Both break the same rule: these are citations a family matches
+ * against the school's own English document, so the figure's digits AND its
+ * shape have to survive.
+ *
+ * Asserted against a 7-digit number, and by mirroring format.ts's actual logic
+ * rather than grepping for a magic string — the previous version of this check
+ * grepped for a subtag, which meant it kept passing when the subtag was still
+ * present but no longer sufficient.
  */
-const FORMAT = join(ROOT, 'src/lib/format.ts')
-if (existsSync(FORMAT)) {
-  // Strip comments first: the explanation of WHY the subtag exists also contains
-  // the subtag, so a plain includes() passes even after the code is reverted.
-  const src = readFileSync(FORMAT, 'utf8')
-    .replace(/\/\*[\s\S]*?\*\//g, '')
-    .replace(/\/\/.*$/gm, '')
-  if (!src.includes('-u-nu-latn')) {
-    console.error(
-      '\n✗ src/lib/format.ts no longer pins the numbering system.\n' +
-        '  Intl.NumberFormat("bn") defaults to Bangla digits (০১২৩), so money()\n' +
-        '  and number() would render figures the data layer stores as Western.\n' +
-        '  Restore the `-u-nu-latn` subtag in lang().',
-    )
-    process.exit(1)
-  }
+// 3,683,971 — 7 digits, so 3-3-3 and lakh/crore grouping disagree. A 5-digit
+// sample (the old one) formats identically either way and proves nothing.
+const SAMPLE = 3683971
+const EXPECTED = '3,683,971'
 
-  // Prove it at runtime rather than trusting the grep.
-  const rendered = new Intl.NumberFormat('bn-u-nu-latn', {
-    style: 'currency', currency: 'USD', maximumFractionDigits: 0,
-  }).format(36325)
-  if (BN_DIGITS.test(rendered)) {
-    console.error(`\n✗ bn currency still renders Bangla digits: ${rendered}`)
-    process.exit(1)
+// Imports the SHIPPED rule rather than restating it, so this cannot drift from
+// what the app does. figureLocale.ts is dependency-free precisely so plain Node
+// can load it — format.ts pulls in i18n.ts, whose `import.meta.glob` throws
+// outside Vite.
+const { FIGURE_SAFE_NUMBERS, numberLocale } = await import(
+  pathToFileURL(join(ROOT, 'src/lib/figureLocale.ts')).href
+).catch(() => ({}))
+
+if (numberLocale) {
+  let bad = 0
+  for (const loc of ['bn', ...FIGURE_SAFE_NUMBERS.filter((l) => l !== 'bn')]) {
+    const rendered = new Intl.NumberFormat(numberLocale(loc), { useGrouping: 'always' })
+      .format(SAMPLE)
+    const naive = new Intl.NumberFormat(loc, { useGrouping: 'always' }).format(SAMPLE)
+
+    if (BN_DIGITS.test(rendered)) {
+      console.error(`\n✗ ${loc}: figures render non-Western digits — ${rendered}`)
+      bad++
+    } else if (rendered !== EXPECTED) {
+      console.error(
+        `\n✗ ${loc}: grouping is not 3-3-3 — got ${rendered}, expected ${EXPECTED}.\n` +
+          '  A regrouped figure no longer matches the source document it cites.',
+      )
+      bad++
+    } else {
+      console.log(
+        `✓ figures are source-shaped for ${loc} (${rendered}` +
+          (naive === rendered ? ')' : `, not ${naive})`),
+      )
+    }
   }
-  console.log(`✓ render layer pins Western digits (bn → ${rendered})`)
+  if (bad) process.exit(1)
 }
