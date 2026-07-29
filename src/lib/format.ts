@@ -74,6 +74,21 @@ export function winPct(n: number): string {
   return lang().startsWith('en') ? s.replace(/^0/, '') : s
 }
 
+/**
+ * Does this locale write the currency symbol BEFORE the amount?
+ *
+ * Asked of Intl rather than hardcoded, because "not English" is not the same as
+ * "trails". English and Haitian Creole both lead ("$3.25M"); Spanish and Bangla
+ * both trail ("3,25 M US$"). An earlier version tested `lang() === 'en'` and so
+ * gave every non-English locale the Spanish shape — which put "3.25 M US$" on
+ * the same Kreyòl page as "$36,500", since money() below already derives
+ * placement correctly. Deriving it in both places keeps them consistent.
+ */
+function currencyLeads(): boolean {
+  return new Intl.NumberFormat(lang(), { style: 'currency', currency: 'USD' })
+    .formatToParts(1)[0]?.type === 'currency'
+}
+
 /** Per-unit suffixes riding along with the baked prices. English is the source. */
 const UNIT_SUFFIX: Record<string, Record<string, string>> = {
   es: { yr: 'año', mo: 'mes', sem: 'sem.', wk: 'sem.', class: 'clase', hr: 'hora' },
@@ -96,7 +111,9 @@ function localizeUnits(text: string): string {
  * amount cannot drift. Non-currency values ("10%", "1×") pass through untouched.
  *
  * Abbreviated magnitudes keep their K/M suffix (localized amounts are still
- * clearer than spelling out 220000), so "$220K" reads "220 K US$" in Spanish.
+ * clearer than spelling out 220000), so "$220K" reads "220 K US$" in Spanish
+ * but stays "$220K" in Haitian Creole, whose convention leads like English.
+ * Placement comes from Intl via currencyLeads(), never from a language check.
  * Per-unit suffixes ("/class", "/mo") are localized in the same pass.
  */
 export function localizeMoneyText(text: string): string {
@@ -106,7 +123,7 @@ export function localizeMoneyText(text: string): string {
     if (!Number.isFinite(n)) return whole
     if (suffix) {
       // Keep the magnitude letter; localize only the number in front of it.
-      return lang().startsWith('en')
+      return currencyLeads()
         ? `$${number(n)}${suffix}`
         : `${number(n)} ${suffix} US$`
     }
