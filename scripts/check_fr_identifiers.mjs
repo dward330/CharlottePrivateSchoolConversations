@@ -107,6 +107,18 @@ const ORDERED = [...FROZEN].sort((a, b) => b.length - a.length)
  */
 const AMBIGUOUS = new Set(['Honors', 'AP', 'IB', 'Cannon', 'Francophone'])
 
+const escapeRe = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+
+/**
+ * Whole-token containment: the term must not be glued to surrounding letters.
+ * Uses explicit boundaries rather than \b because several frozen terms contain
+ * `&`, `/` or spaces ("Speech & Debate", "French III/IV Honors").
+ */
+function hasToken(text, term) {
+  const re = new RegExp(`(^|[^A-Za-z])${escapeRe(term)}($|[^A-Za-z])`)
+  return re.test(text)
+}
+
 function isTermUse(term, text) {
   if (term === 'Cannon') return !/Cannon Campus/.test(text)
   // "Francophone" is frozen inside a course title ("French 7 Advanced:
@@ -150,11 +162,14 @@ for (const file of files) {
     const seen = new Set()
     for (const term of ORDERED) {
       if (seen.has(term)) continue
-      if (!s.text.includes(term)) continue
+      // Whole-token match only. A substring test makes "AP" fire on "TRAP" and
+      // "IB" on "ATTRIBUTE" — which is how an all-caps heading ("A COMPARISON
+      // TRAP IN THE EARLY YEARS") got reported as a lost course code.
+      if (!hasToken(s.text, term)) continue
       // A longer match already covers this text; skip its substrings either way.
       ORDERED.filter((t) => term.includes(t) && t !== term).forEach((t) => seen.add(t))
       if (AMBIGUOUS.has(term) && !isTermUse(term, s.text)) continue
-      if (!s.t.includes(term)) hits.push({ term, en: s.text, fr: s.t })
+      if (!hasToken(s.t, term)) hits.push({ term, en: s.text, fr: s.t })
     }
   }
 
