@@ -92,6 +92,7 @@ function currencyLeads(): boolean {
 /** Per-unit suffixes riding along with the baked prices. English is the source. */
 const UNIT_SUFFIX: Record<string, Record<string, string>> = {
   es: { yr: 'año', mo: 'mes', sem: 'sem.', wk: 'sem.', class: 'clase', hr: 'hora' },
+  fr: { yr: 'an', mo: 'mois', sem: 'sem.', wk: 'sem.', class: 'cours', hr: 'h' },
 }
 
 function localizeUnits(text: string): string {
