@@ -105,10 +105,15 @@ const ORDERED = [...FROZEN].sort((a, b) => b.length - a.length)
  * Treated as a term-of-art use when adjacent to a subject, level or the other
  * markers of a course listing.
  */
-const AMBIGUOUS = new Set(['Honors', 'AP', 'IB', 'Cannon'])
+const AMBIGUOUS = new Set(['Honors', 'AP', 'IB', 'Cannon', 'Francophone'])
 
 function isTermUse(term, text) {
   if (term === 'Cannon') return !/Cannon Campus/.test(text)
+  // "Francophone" is frozen inside a course title ("French 7 Advanced:
+  // Francophone Culture through Literature") but is ordinary prose in "the
+  // African Francophone world", which correctly becomes "monde francophone
+  // africain". Only the title use is an identifier.
+  if (term === 'Francophone') return /French \d|Advanced:/.test(text)
   // A course code sits beside a subject, a roman/arabic level, or another code.
   const near = new RegExp(
     `(${term}\\s+(?:[A-Z][a-z]+|[IVX]+|\\d)|` +
