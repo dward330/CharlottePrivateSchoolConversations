@@ -1,8 +1,10 @@
 # French (Français) research-prose translation — rollout
 
-**Status:** **IN PROGRESS.** Phase 0 complete and verified against `Intl` in this
-repo's Node. Figure and register decisions settled by the owner 2026-07-30.
-Translation not started. Written 2026-07-30.
+**Status:** **TRANSLATION AND VERIFICATION COMPLETE. AWAITING PRINT-OUTS.**
+All nine topics plus the 331-key chrome catalog are translated; every automated
+check passes; `fr` is live in `TRANSLATED` and `PROSE_TRANSLATED`. The browser
+print-outs are the one remaining step and they are **not** optional — see §3.
+Written and executed 2026-07-30.
 
 > ## START HERE (fresh session)
 >
@@ -18,6 +20,47 @@ Translation not started. Written 2026-07-30.
 > only what is French-specific.
 >
 > **Branch:** `i18n/french-rollout`.
+>
+> ### What is left
+>
+> **The browser print-outs, and nothing else.** Providence Day AND Charlotte
+> Latin, in a real browser, with every `<details>` panel expanded, checking an
+> unabbreviated 7-digit figure. Then grep the RENDERED page for English in
+> table cells, chips and source lines. Full instructions in §3.
+>
+> Every Telugu defect was render-layer and invisible to all five checkers. Two
+> of the ht defects were not even locale-specific. Do not treat a clean checker
+> run as a substitute.
+>
+> ### Progress — all translated, all verified
+>
+> | Topic | Strings | Figures | Identifiers | Overlay |
+> |---|---|---|---|---|
+> | metric-values | 126 | ✅ | ✅ | ✅ |
+> | student-clubs | 517 | ✅ | ✅ | ✅ |
+> | sports | 656 | ✅ | ✅ | ✅ |
+> | after-school | 654 | ✅ | ✅ | ✅ |
+> | the-arts | 599 | ✅ | ✅ | ✅ |
+> | college-support | 926 | ✅ | ✅ | ✅ |
+> | course-offerings | 1,848 | ✅ | ✅ | ✅ |
+> | financial-aid-report | 571 | ✅ | ✅ | ✅ |
+> | financial-aid-tuition (content) | 27 | ✅ | ✅ | ✅ |
+> | **shipped entries** | **5,924** | | | |
+> | UI chrome `src/locales/fr.json` | 331 keys | — | | |
+>
+> `financial-aid-report` is 571 of 572 because the 572nd source string is an
+> empty `body` field in the data. There is nothing to translate; it is not a gap.
+>
+> ### The loop that was used, per topic
+>
+> ```
+> node scripts/i18n_extract.mjs --topic <t> --lang fr
+> # translate the `t` fields in src/data/overlays/work/<topic>.fr.json
+> python3 scripts/check_figures.py --topic <t> --lang fr   # AFTER EVERY TOPIC
+> node scripts/i18n_build_overlay.mjs --topic <t> --lang fr
+> node scripts/check_fr_identifiers.mjs                    # fr-specific, see §1a
+> node scripts/check_translations.mjs --lang fr
+> ```
 >
 > ### Settled — do NOT re-raise
 >
@@ -315,24 +358,101 @@ re-discovered as "a French bug".
 
 ---
 
-## 3. Verification — Phase 2, in this order
+## 3. Verification — Phase 2
 
-Same six checks as every prior rollout; they catch different classes and
+Seven checks, all passing as of 2026-07-30. They catch different classes, and
 skipping one lets a class through.
 
-1. `check_translations.mjs --lang fr` — coverage and drift, all topics.
-2. `check_chrome_keys.mjs` — every chrome-claiming skip resolves.
-3. `check_hash_parity.mjs` — build-time and runtime stamps agree.
-4. `check_figures.py --lang fr` — **run after every topic, not just here.**
-   Blind spot: it only sees `$`/`%`/years, so for provenance documents also check
-   quoted-string and timestamp parity between `text` and `t`.
-5. **Runtime resolution test** — coverage can read 100% while the page renders
-   English.
-6. **Full-page browser print-out** — the only check that catches render bugs.
+| # | Check | Result |
+|---|---|---|
+| 1 | `check_translations.mjs --lang fr` | ✅ 9/9 topics 100%, no drift |
+| 2 | `check_chrome_keys.mjs` | ✅ every chrome-claiming skip resolves |
+| 3 | `check_hash_parity.mjs` | ✅ 8 cases, build == runtime |
+| 4 | `check_figures.py --lang fr` | ✅ all 9 topics, figures intact |
+| 5 | `check_fr_identifiers.mjs` | ✅ 5,897 strings, no drift (§1a) |
+| 6 | `check_runtime_resolution.mjs --lang fr` | ✅ 5,924 stamps recompute |
+| 7 | **Browser print-out** | ⬜ **NOT DONE — the remaining step** |
 
-**Flip `TRANSLATED` / `PROSE_TRANSLATED` BEFORE the print-out**, not after.
-`setLanguage()` rejects any code not in `TRANSLATED`, so `fr` is unselectable
-until the flip. Two lines, trivially reverted.
+Checks 5 and 6 are new in this rollout and are wired into `package.json` as
+`npm run check:fr` and `npm run check:runtime`.
+
+**`check_runtime_resolution.mjs` is the one the repo was missing.** Coverage
+reporting 100% does not mean the page renders French: a shipped entry only
+resolves if its FNV-1a stamp still equals the hash of the live English at that
+field path, and if it does not, the runtime falls back to English **silently** —
+no error, no coverage change. The script recomputes every stamp from live
+`src/data/**`. Verified in both directions (corrupting one stamp exits 1) and
+against `es`/`bn`/`ht`/`te`, which all pass unchanged.
+
+**The `TRANSLATED` / `PROSE_TRANSLATED` flip is DONE**, and deliberately landed
+*before* the print-out — `setLanguage()` rejects any code not in `TRANSLATED`,
+so `fr` would be unselectable otherwise. The Bangla doc flags its own ordering
+here as wrong; this rollout does not repeat it.
+
+### Also confirmed in the BUILT output, not the source
+
+- All nine `*.fr-*.js` overlay chunks emit as lazy per-locale bundles.
+- `font-variant-ligatures: none` survives minification (§0b).
+- **Zero `:root[lang='fr']` CSS rules exist**, which is correct — French needs
+  none, and none should ever be added.
+
+### Currency renders consistently — the PR #61 regression does not recur
+
+`fr` is the first trailing-symbol locale added since `currencyLeads()` started
+deriving placement from `Intl.formatToParts`. Simulated across the real
+`format.ts` logic:
+
+| | tile | 7-digit | abbreviated |
+|---|---|---|---|
+| en / ht | `$36,325` | `$3,683,971` | `$3.25M` |
+| es | `36.325 US$` | `3.683.971 US$` | `3,25 M US$` |
+| te | `$36,325` | `$36,83,971` | `$3.25M` |
+| **fr** | **`36 325 $US`** | **`3 683 971 $US`** | **`3,25 M US$`** |
+
+All three French forms trail, so the defect PR #61 fixed — `3.25 M US$` beside
+`$36,500` on the same page — cannot recur here. **Confirm it on the rendered
+page anyway**; this is a simulation, and the ht rollout's round 4 is precisely
+the case where a headless pass missed a currency bug a real browser found.
+
+### Print-out — load-bearing, not ceremony
+
+All five Telugu defects were render-layer and invisible to every checker. Four
+of the five lived in **table cells, chips and source lines** — the places where
+a short label passes for a code.
+
+Required, per CLAUDE.md:
+
+- **A real browser**, not headless. A headless render passed Charlotte Latin
+  clean; the 65-page browser print-out found the currency bug.
+- **Two schools** — Providence Day **and** Charlotte Latin. Latin carries the
+  most flag chips and the densest College Support hedges.
+- **All `<details>` panels expanded.** A default page is ~17k characters; fully
+  expanded it is ~152k, and the financial-aid sections holding the large figures
+  are collapsed on load.
+- **An unabbreviated 7-digit figure.** `$3.25M`-style tiles prove nothing about
+  grouping — only figures like `$3,683,971` do. Expect `3 683 971 $US` with
+  U+202F narrow-no-break-space separators.
+- **Grep the rendered page** for English sentences in table cells, chips and
+  source lines.
+- **Grep the rendered page for the §1a freeze-list** — any French course name
+  that drifted into translated prose. `check_fr_identifiers.mjs` covers the work
+  files; only the rendered page proves what a parent actually sees.
+
+French-specific expectations for round 1:
+
+- Trailing-symbol consistency (`220 K $US` beside `3 683 971 $US`).
+- No missing-glyph boxes in `officiel`, `difficile`, `efficace` — the ligature
+  guard doing its job (§0b). French is the locale that would *find* this bug,
+  not merely be protected by it.
+- No drifted French course names (§1a).
+
+### Review status — UNREVIEWED
+
+No native-speaker review has happened. French ships in **Kreyòl's position, not
+Spanish's**: register and naturalness have never been checked by a speaker, and
+that is the one failure mode no checker in this repo can reach. If a French
+speaker becomes available, start with the §1 register call and the §1a
+identifier list.
 
 ### Print-out — load-bearing, not ceremony
 
