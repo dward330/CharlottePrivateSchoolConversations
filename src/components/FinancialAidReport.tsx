@@ -17,13 +17,20 @@ import type {
 } from '../data/financialAidReports.ts'
 
 /* Source text carries **bold** spans. Rendering them as real <strong> keeps the
-   emphasis the reports rely on without pulling in a markdown dependency. */
+   emphasis the reports rely on without pulling in a markdown dependency.
+
+   Every segment also goes through localizeMoneyText. This is the topic where it
+   matters most — the financial-aid report is almost entirely dollar figures, and
+   without it a French or Spanish reader sees "3 250 000 $US" in a stat tile and
+   "$3.25M" in the sentence explaining it. Same figure, one page, two shapes. */
 function RichText({ text }: { text: string }) {
   const parts = text.split(/\*\*(.+?)\*\*/g)
   return (
     <>
       {parts.map((part, i) =>
-        i % 2 === 1 ? <strong key={i}>{part}</strong> : part,
+        i % 2 === 1
+          ? <strong key={i}>{localizeMoneyText(part)}</strong>
+          : localizeMoneyText(part),
       )}
     </>
   )
