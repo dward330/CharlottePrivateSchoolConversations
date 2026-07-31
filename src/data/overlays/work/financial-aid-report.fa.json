@@ -1,0 +1,4731 @@
+{
+  "topic": "financial-aid-report",
+  "lang": "fa",
+  "generated": "i18n_extract.mjs",
+  "note": "Translate each `text` into `t`. Leave `of` and `at` untouched — they are how the overlay is rebuilt and drift-checked.",
+  "strings": [
+    {
+      "text": "Tuition & Financial Aid — Deep Dive Report",
+      "of": "92839676",
+      "at": [
+        "providence-day:title",
+        "charlotte-latin:title",
+        "charlotte-christian:title",
+        "charlotte-country-day:title",
+        "cannon:title",
+        "davidson-day:title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2026–27 school year · figures as of 24 Jul 2026",
+      "of": "08565aea",
+      "at": [
+        "providence-day:meta",
+        "charlotte-latin:meta"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Unpublished ≠ deficient.",
+      "of": "7d8526af",
+      "at": [
+        "providence-day:framing[0].title",
+        "charlotte-latin:framing[0].title",
+        "charlotte-christian:framing[0].title",
+        "charlotte-country-day:framing[0].title",
+        "cannon:framing[0].title",
+        "davidson-day:framing[0].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "\"Not published\" flags a transparency gap — never a judgement that the aid programme is small or unwelcoming. The school discloses more than its tuition page suggests — the detailed figures live in the Report on Philanthropy.",
+      "of": "d6b95b4d",
+      "at": [
+        "providence-day:framing[0].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Published ≠ current.",
+      "of": "d3a9c126",
+      "at": [
+        "providence-day:framing[1].title",
+        "charlotte-latin:framing[1].title",
+        "charlotte-christian:framing[1].title",
+        "charlotte-country-day:framing[1].title",
+        "cannon:framing[1].title",
+        "davidson-day:framing[1].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Every dollar figure carries the school year it applies to. The transportation page still refers to 2023–2024 while the tuition table has moved to 2026–27 — different cycles, not a contradiction.",
+      "of": "534b6ce2",
+      "at": [
+        "providence-day:framing[1].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "K–12 aid only.",
+      "of": "8508ccc2",
+      "at": [
+        "providence-day:framing[2].title",
+        "charlotte-latin:framing[2].title",
+        "charlotte-christian:framing[2].title",
+        "charlotte-country-day:framing[2].title",
+        "cannon:framing[2].title",
+        "davidson-day:framing[2].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Tuition assistance while enrolled — not the FAFSA, CSS Profile or college merit money the school publishes for its graduates. Not financial advice.",
+      "of": "28d48a3c",
+      "at": [
+        "providence-day:framing[2].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The Tuition Table",
+      "of": "ddc182b8",
+      "at": [
+        "providence-day:sections[0].navTitle",
+        "charlotte-latin:sections[0].navTitle",
+        "charlotte-country-day:sections[0].navTitle",
+        "cannon:sections[0].navTitle"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The Tuition Table — Price by Band",
+      "of": "349407b9",
+      "at": [
+        "providence-day:sections[0].title",
+        "charlotte-latin:sections[0].title",
+        "charlotte-country-day:sections[0].title",
+        "cannon:sections[0].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Published tuition by band, 2026–27",
+      "of": "1761d23f",
+      "at": [
+        "providence-day:sections[0].figureCaption",
+        "charlotte-latin:sections[0].figureCaption"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Transitional Kindergarten",
+      "of": "dbc96d41",
+      "at": [
+        "providence-day:sections[0].bands[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Kindergarten",
+      "of": "68541d89",
+      "at": [
+        "providence-day:sections[0].bands[1].label",
+        "charlotte-country-day:sections[0].bands[1].label",
+        "cannon:sections[0].bands[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Grades 1–5",
+      "of": "c2d451ca",
+      "at": [
+        "providence-day:sections[0].bands[2].label",
+        "charlotte-latin:sections[0].bands[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Grades 6–12",
+      "of": "327ac2eb",
+      "at": [
+        "providence-day:sections[0].bands[3].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Four bands cover all fourteen grade levels from TK through Grade 12, with no gap and no overlap — TK and Kindergarten priced individually, Grades 1–5 sharing one rate, Grades 6–12 another. Tuition includes student iPads and all technology, all textbooks (including A.P. textbooks), A.P. exam fees, most class field trips, and all Lower School student supplies — an explicit inclusion list that is the least consistently disclosed item in this series.",
+      "of": "38493958",
+      "at": [
+        "providence-day:sections[0].figureNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "No prior-year bars: the school's live page shows only the current year and is overwritten each cycle; archived rate cards could not be retrieved — a limit of the toolchain, not a school gap. The page notes tuition is subject to change for 2027–28.",
+      "of": "fe614b55",
+      "at": [
+        "providence-day:sections[0].figureNote2"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NOT PUBLISHED",
+      "of": "2ca9b134",
+      "at": [
+        "providence-day:sections[0].boxes[0].tag",
+        "charlotte-latin:sections[2].boxes[4].tag",
+        "charlotte-latin:sections[3].boxes[2].tag",
+        "charlotte-latin:sections[5].boxes[3].tag",
+        "charlotte-christian:sections[3].boxes[2].tag",
+        "charlotte-country-day:sections[0].boxes[0].tag",
+        "charlotte-country-day:sections[2].boxes[2].tag",
+        "charlotte-country-day:sections[3].boxes[1].tag",
+        "cannon:sections[0].boxes[0].tag",
+        "cannon:sections[2].boxes[2].tag",
+        "cannon:sections[3].boxes[1].tag",
+        "davidson-day:sections[2].boxes[2].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Tuition-table specifics",
+      "of": "f498c14b",
+      "at": [
+        "providence-day:sections[0].boxes[0].title",
+        "cannon:sections[0].boxes[0].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "",
+      "of": "811c9dc5",
+      "at": [
+        "providence-day:sections[0].boxes[0].body",
+        "charlotte-country-day:sections[0].boxes[0].body",
+        "cannon:sections[0].boxes[0].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A per-grade breakdown within the Grades 1–5 and Grades 6–12 bands",
+      "of": "6f085f00",
+      "at": [
+        "providence-day:sections[0].bullets[0]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A separate rate for new versus returning students, if one exists",
+      "of": "207c21f5",
+      "at": [
+        "providence-day:sections[0].bullets[1]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Half-day, part-week or other Transitional Kindergarten variants",
+      "of": "e697cdec",
+      "at": [
+        "providence-day:sections[0].bullets[2]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A sibling-based variation on the published rate",
+      "of": "4acf07ff",
+      "at": [
+        "providence-day:sections[0].bullets[3]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Beyond Tuition",
+      "of": "2ecdac86",
+      "at": [
+        "providence-day:sections[1].navTitle",
+        "charlotte-latin:sections[1].navTitle",
+        "charlotte-country-day:sections[1].navTitle",
+        "cannon:sections[1].navTitle"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Beyond Tuition — The Real Cost of Attendance",
+      "of": "c6c22e80",
+      "at": [
+        "providence-day:sections[1].title",
+        "charlotte-latin:sections[1].title",
+        "charlotte-country-day:sections[1].title",
+        "cannon:sections[1].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Fifteen confirmed components for a 2026–27 family — 11 unpriced",
+      "of": "9cb43d11",
+      "at": [
+        "providence-day:sections[1].componentsTitle"
+      ],
+      "t": ""
+    },
+    {
+      "text": "All-in estimate not built: 73% unpriced > 33% threshold",
+      "of": "0cb19cee",
+      "at": [
+        "providence-day:sections[1].componentsAside"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Tuition — four bands, priced",
+      "of": "c882636a",
+      "at": [
+        "providence-day:sections[1].components[0].label",
+        "charlotte-latin:sections[1].components[0].label",
+        "charlotte-christian:sections[1].components[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Enrollment deposit · $2,500, non-refundable",
+      "of": "29c2e93b",
+      "at": [
+        "providence-day:sections[1].components[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Clubhouse registration · $100/student/yr (MS)",
+      "of": "f493052d",
+      "at": [
+        "providence-day:sections[1].components[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Extended Day late pick-up · $1/min after 6 p.m.",
+      "of": "3b9de803",
+      "at": [
+        "providence-day:sections[1].components[3].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Extended Day programme fee · schedule not retrieved",
+      "of": "9d975303",
+      "at": [
+        "providence-day:sections[1].components[4].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Bus transportation · 2023–24 page, fares not retrieved",
+      "of": "34fcf375",
+      "at": [
+        "providence-day:sections[1].components[5].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "FLIK Dining participation · no rate",
+      "of": "cdbe227f",
+      "at": [
+        "providence-day:sections[1].components[6].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Extended Day enrichment classes · no rate",
+      "of": "99cfd40d",
+      "at": [
+        "providence-day:sections[1].components[7].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "8th grade field trip · no rate",
+      "of": "a814ee61",
+      "at": [
+        "providence-day:sections[1].components[8].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "12th grade field trip · no rate",
+      "of": "43953ba2",
+      "at": [
+        "providence-day:sections[1].components[9].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Club travel · no rate",
+      "of": "ce468795",
+      "at": [
+        "providence-day:sections[1].components[10].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Arts competition travel · no rate",
+      "of": "521467de",
+      "at": [
+        "providence-day:sections[1].components[11].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Athletic tournament travel · no rate",
+      "of": "5a671506",
+      "at": [
+        "providence-day:sections[1].components[12].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "P.E. uniforms · no rate",
+      "of": "9bbccd57",
+      "at": [
+        "providence-day:sections[1].components[13].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Graphing calculators · no rate",
+      "of": "bb4e30c6",
+      "at": [
+        "providence-day:sections[1].components[14].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Tutoring services · no rate",
+      "of": "31402b59",
+      "at": [
+        "providence-day:sections[1].components[15].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Of fifteen confirmed components, four carry a published price and eleven do not — 73% unpriced against a one-third threshold, so the all-in estimate aborts rather than assemble a range from mostly-missing parts. The existence of two endowed funds (Section 5) dedicated to costs above and beyond tuition independently confirms these charges are real.",
+      "of": "eee976a6",
+      "at": [
+        "providence-day:sections[1].componentsNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The deposit, 2026–27",
+      "of": "44ffd316",
+      "at": [
+        "providence-day:sections[1].boxes[0].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A **$2,500** non-refundable deposit, with a signed agreement, secures a place for an accepted student. It is credited toward the total tuition cost — so it is a timing obligation rather than an addition to the published rate, and it is the first instalment, not an extra cost.",
+      "of": "2d4b5d4d",
+      "at": [
+        "providence-day:sections[1].boxes[0].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "TWO PUBLIC FIGURES NOT RETRIEVED",
+      "of": "86970e7e",
+      "at": [
+        "providence-day:sections[1].boxes[1].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The Lower School page links a \"2025–26 Extended Day Schedules and Fees\" document, and the transportation page states fare information is available — but its live text refers to **2023–2024** and the fare table did not render. Both are documents a family can open or request in a single step; their contents were not retrieved here, not withheld by the school.",
+      "of": "a22f0fed",
+      "at": [
+        "providence-day:sections[1].boxes[1].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The Aid Engine",
+      "of": "ffd48cd4",
+      "at": [
+        "providence-day:sections[2].navTitle",
+        "charlotte-latin:sections[2].navTitle",
+        "charlotte-country-day:sections[2].navTitle",
+        "cannon:sections[2].navTitle",
+        "davidson-day:sections[2].navTitle"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The Aid Engine — Process, Forms & Timeline",
+      "of": "dd8aebe5",
+      "at": [
+        "providence-day:sections[2].title",
+        "charlotte-latin:sections[2].title",
+        "charlotte-country-day:sections[2].title",
+        "cannon:sections[2].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "1 Nov 2025",
+      "of": "df7f4cae",
+      "at": [
+        "providence-day:sections[2].timeline[0].when"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Information due for **current families** re-applying — application via **Clarity**",
+      "of": "5ef3a091",
+      "at": [
+        "providence-day:sections[2].timeline[0].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "23 Jan 2026",
+      "of": "c6ae272f",
+      "at": [
+        "providence-day:sections[2].timeline[1].when"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Information due for **prospective families** — same Clarity application",
+      "of": "70688ace",
+      "at": [
+        "providence-day:sections[2].timeline[1].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "With the agreement",
+      "of": "c9f906fe",
+      "at": [
+        "providence-day:sections[2].timeline[2].when"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The assistance decision arrives **with the enrollment or re-enrollment agreement** — a family learns the award and the enrollment commitment at the same moment",
+      "of": "ae0f14f3",
+      "at": [
+        "providence-day:sections[2].timeline[2].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Every year",
+      "of": "1a1b3f6d",
+      "at": [
+        "providence-day:sections[2].timeline[3].when",
+        "charlotte-country-day:sections[2].timeline[3].when",
+        "cannon:sections[2].timeline[3].when",
+        "davidson-day:sections[2].timeline[3].when"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Assistance is granted annually; parents must reapply each year to be considered for continued assistance",
+      "of": "c2d0df8c",
+      "at": [
+        "providence-day:sections[2].timeline[3].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Platform & cost to apply",
+      "of": "b8722f16",
+      "at": [
+        "providence-day:sections[2].boxes[0].title",
+        "charlotte-country-day:sections[2].boxes[0].title",
+        "cannon:sections[2].boxes[0].title",
+        "davidson-day:sections[2].boxes[0].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Providence Day partners with **Clarity** to assess need · **$65** application fee, paid by the family (2026–27). The school describes the application as taking under an hour and mobile-friendly, and runs family webinars at which Clarity walks through the application and the tax-verification process. Need is assessed on gross income, assets, liabilities, family size, and the number of children in tuition-based schools; assistance does not exceed demonstrated need and depends on the availability of school funds.",
+      "of": "309b9893",
+      "at": [
+        "providence-day:sections[2].boxes[0].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Documents & divorced or separated parents",
+      "of": "48d40a32",
+      "at": [
+        "providence-day:sections[2].boxes[1].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A 1040 return, W-2s and the most recent pay stub — tax documents transfer automatically from the I.R.S. once verification is complete — plus business returns and 1099s for the self-employed. Documents are required from **both custodial and non-custodial parents**, whether divorced, separated or never married; the school states that missing information from either parent may affect eligibility.",
+      "of": "9c1de0b5",
+      "at": [
+        "providence-day:sections[2].boxes[1].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Aid and admission are separate",
+      "of": "9d51b860",
+      "at": [
+        "providence-day:sections[2].boxes[2].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The school states plainly that applying for assistance does **not** influence a candidate's admission selection, and that separate committees decide admission and assistance. It does not use the terms \"need-blind\" or \"need-aware,\" so this report applies neither label.",
+      "of": "ddd696d9",
+      "at": [
+        "providence-day:sections[2].boxes[2].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NOT PUBLISHED — FIVE PROCESS QUESTIONS",
+      "of": "b9cff348",
+      "at": [
+        "providence-day:sections[2].boxes[3].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "No appeals or reconsideration process · no mid-year change-of-circumstance policy · no statement of whether awards typically renew at a consistent level (the practical question behind annual reapplication) · no confidentiality policy naming who inside the school sees a family's file · no composition of the assistance committee.",
+      "of": "fcf00a5c",
+      "at": [
+        "providence-day:sections[2].boxes[3].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The Aid Numbers",
+      "of": "e15b3ca0",
+      "at": [
+        "providence-day:sections[3].navTitle",
+        "charlotte-latin:sections[3].navTitle"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The Aid Numbers — How Much, To Whom, How Far",
+      "of": "01785154",
+      "at": [
+        "providence-day:sections[3].title",
+        "charlotte-latin:sections[3].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "DETAIL LIVES IN THE PHILANTHROPY REPORT",
+      "of": "3649ab55",
+      "at": [
+        "providence-day:sections[3].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "of families receive some assistance — current page, no year and no denominator stated",
+      "of": "515670b2",
+      "at": [
+        "providence-day:sections[3].stats[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "total aid awarded, 2017–18 — the most recent detailed year published",
+      "of": "971d0239",
+      "at": [
+        "providence-day:sections[3].stats[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "average grant, 2017–18 (the school's own term; not a median)",
+      "of": "b6fb18ff",
+      "at": [
+        "providence-day:sections[3].stats[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "of students assisted, 2017–18 — and also 2012–13",
+      "of": "5da1556a",
+      "at": [
+        "providence-day:sections[3].stats[3].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Where the detailed figures live",
+      "of": "1b71eb5a",
+      "at": [
+        "providence-day:sections[3].boxes[0].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The tuition page omits every aid figure but one; the numbers live in the annual **Report on Philanthropy**, \"Enrollment at a Glance.\" Published editions: **2012–13** $3,105,191 awarded, avg $12,273, 16% of students · **2013–14** $3,013,928, avg $12,664 · **2017–18** $3,683,971, avg $13,695, 16%. No comparable figures were located after 2017–18. A parent reading only the tuition page would never encounter any of this — a placement finding, not a disclosure gap.",
+      "of": "f60759e1",
+      "at": [
+        "providence-day:sections[3].boxes[0].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "AVERAGE IS NOT MEDIAN",
+      "of": "837655f1",
+      "at": [
+        "providence-day:sections[3].boxes[1].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Every award figure the school publishes is an **average grant** — reproduced unchanged and never treated here as a typical award. Aid awards carry a long upper tail, so an average usually sits above what a typical recipient receives; no median is published in any edition located, so a family cannot tell how far above.",
+      "of": "682edc14",
+      "at": [
+        "providence-day:sections[3].boxes[1].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A UNIT CHANGE THAT BLOCKS COMPARISON",
+      "of": "b9b12468",
+      "at": [
+        "providence-day:sections[3].boxes[2].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The historical editions count **students** receiving aid (16%); the current page counts **families** receiving assistance (≈21%). Different units, different bases — the apparent 16% → 21% movement cannot be read as growth in reach. It may be an artefact of the unit change, entirely real, or a mixture. This report declines to reconcile them.",
+      "of": "d1d9ac05",
+      "at": [
+        "providence-day:sections[3].boxes[2].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "An internal discrepancy, reported not resolved",
+      "of": "30e85012",
+      "at": [
+        "providence-day:sections[3].boxes[3].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The 2012–13 Report on Philanthropy states **$3,105,191** as total aid awarded on its enrollment page and **$3,092,165** as the financial-aid line in its expense breakdown a page later — a **$13,026** difference, both published by the school in the same document. Both are reproduced; the likeliest explanation is different accounting bases, but the school does not say so and inferring it would be a guess.",
+      "of": "9e882875",
+      "at": [
+        "providence-day:sections[3].boxes[3].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "HOW AID IS FUNDED",
+      "of": "71152f51",
+      "at": [
+        "providence-day:sections[3].boxes[4].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Assistance draws on both operating funds and endowment income. 2017–18: financial aid and discounts were **9.7%** of expenses against a stated $40.6M budget, and 5% of Annual Fund gifts were designated to Student Financial Assistance. 2012–13: a $3,092,165 aid line within a $33,320,795 expense total — a 9.3% share (our arithmetic on the school's two figures). Schedule I and Schedule D of the Form 990, which would carry the K–12 assistance and endowment detail, could not be retrieved.",
+      "of": "7c80baed",
+      "at": [
+        "providence-day:sections[3].boxes[4].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Merit & Scholarships",
+      "of": "1449fbfd",
+      "at": [
+        "providence-day:sections[4].navTitle",
+        "charlotte-latin:sections[4].navTitle",
+        "charlotte-country-day:sections[3].navTitle",
+        "cannon:sections[3].navTitle"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Merit, Discounts & Special Programmes",
+      "of": "69669cea",
+      "at": [
+        "providence-day:sections[4].title",
+        "charlotte-latin:sections[4].title",
+        "charlotte-country-day:sections[3].title",
+        "cannon:sections[3].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "ALL AID IS NEED-BASED",
+      "of": "b07bc1c8",
+      "at": [
+        "providence-day:sections[4].tag",
+        "charlotte-country-day:sections[3].tag",
+        "cannon:sections[3].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "named endowed funds supporting financial aid or tuition assistance",
+      "of": "a0356f5f",
+      "at": [
+        "providence-day:sections[4].stats[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "funds specifically for costs above and beyond tuition (Murdock, Latchwood)",
+      "of": "e38ed3ea",
+      "at": [
+        "providence-day:sections[4].stats[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "minimum gift to establish a named endowment fund (raised from $50,000 in 2013)",
+      "of": "9cd000fc",
+      "at": [
+        "providence-day:sections[4].stats[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Need-based, no general merit track",
+      "of": "fdf0793e",
+      "at": [
+        "providence-day:sections[4].boxes[0].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Assistance is need-based; **no general academic, arts, athletic or leadership merit scholarship programme is published.** At least eleven named permanent funds support aid — e.g. the Paula C. Freeman Financial Aid Endowment ($511,383 in Jun 2018), the Rob Eck Memorial Scholarship, the Edward E. Ford Minority Scholarship, and diversity-focused funds (Brinkley, McGee Family). Fund values are as of 30 June 2018, the most recent edition located, and are historical.",
+      "of": "e5664446",
+      "at": [
+        "providence-day:sections[4].boxes[0].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Two funds for the costs outside tuition",
+      "of": "df35499c",
+      "at": [
+        "providence-day:sections[4].boxes[1].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The **Gilmer L. Murdock, Jr. Endowment** and **The Latchwood Endowment** exist specifically to help students with demonstrated need meet costs above and beyond tuition — the published descriptions name tutoring, review classes, calculators, class trips, sports equipment, team camps, tournaments, dining and activity fees. These are the same categories that appear unpriced in Section 2; their existence confirms those costs are real.",
+      "of": "4bb460fc",
+      "at": [
+        "providence-day:sections[4].boxes[1].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Children of faculty and staff",
+      "of": "155bd5f0",
+      "at": [
+        "providence-day:sections[4].boxes[2].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The **Kristina C. Brockmeier Endowment for Financial Aid** provides assistance annually to children of current faculty and staff who demonstrate need. This is a need-based endowed award, not a blanket tuition-remission benefit; whether the school separately offers a remission percentage to employees is not published.",
+      "of": "2c18a834",
+      "at": [
+        "providence-day:sections[4].boxes[2].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NOT PUBLISHED — SIX ITEMS",
+      "of": "b806db54",
+      "at": [
+        "providence-day:sections[4].boxes[3].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "No indexed or variable tuition · no sibling, clergy, military or first-responder discount · no general merit programme · no figure for how many awards any named fund makes in a year or what a typical award is worth · no statement of whether a named-fund award stacks with or substitutes for a need-based grant. Absence of a published discount is not evidence none exists — several are commonly handled case by case.",
+      "of": "987e5544",
+      "at": [
+        "providence-day:sections[4].boxes[3].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Paying the Balance",
+      "of": "46e95218",
+      "at": [
+        "providence-day:sections[5].navTitle",
+        "charlotte-latin:sections[5].navTitle",
+        "charlotte-country-day:sections[4].navTitle",
+        "cannon:sections[4].navTitle",
+        "davidson-day:sections[4].navTitle"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Paying the Balance — Plans & Contract Terms",
+      "of": "2dcbaa3b",
+      "at": [
+        "providence-day:sections[5].title",
+        "charlotte-latin:sections[5].title",
+        "charlotte-country-day:sections[4].title",
+        "cannon:sections[4].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "1×",
+      "of": "baec2491",
+      "at": [
+        "providence-day:sections[5].plans[0].figure",
+        "charlotte-christian:sections[4].plans[1].figure",
+        "charlotte-country-day:sections[4].plans[1].figure",
+        "cannon:sections[4].plans[0].figure"
+      ],
+      "t": ""
+    },
+    {
+      "text": "In full",
+      "of": "8d20daf3",
+      "at": [
+        "providence-day:sections[5].plans[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Tuition paid in a single payment. Whether paying in full earns a discount is not published.",
+      "of": "2f880bde",
+      "at": [
+        "providence-day:sections[5].plans[0].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "3×",
+      "of": "aaf0888f",
+      "at": [
+        "providence-day:sections[5].plans[1].figure"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Three installments",
+      "of": "1cdfa249",
+      "at": [
+        "providence-day:sections[5].plans[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Structure published; the terms, fee or interest attached are not.",
+      "of": "9ab9bc11",
+      "at": [
+        "providence-day:sections[5].plans[1].detail",
+        "providence-day:sections[5].plans[2].detail",
+        "providence-day:sections[5].plans[3].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "10×",
+      "of": "86340569",
+      "at": [
+        "providence-day:sections[5].plans[2].figure",
+        "charlotte-christian:sections[4].plans[2].figure",
+        "charlotte-country-day:sections[4].plans[3].figure",
+        "cannon:sections[4].plans[2].figure",
+        "cannon:sections[4].plans[3].figure"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Ten installments",
+      "of": "78ac4688",
+      "at": [
+        "providence-day:sections[5].plans[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "12×",
+      "of": "d6390087",
+      "at": [
+        "providence-day:sections[5].plans[3].figure"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Twelve installments",
+      "of": "959c46e8",
+      "at": [
+        "providence-day:sections[5].plans[3].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The deposit as a contract term",
+      "of": "0de370e9",
+      "at": [
+        "providence-day:sections[5].boxes[0].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The **$2,500** deposit is non-refundable and secures placement for an accepted student, credited to the overall tuition cost. The published language establishes it is not returned if a family withdraws after signing — but it does not describe what further obligation, if any, a family carries on withdrawal later in the year.",
+      "of": "07d75b5b",
+      "at": [
+        "providence-day:sections[5].boxes[0].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "ONE FIGURE AT A LOWER VERIFICATION TIER",
+      "of": "03074b5d",
+      "at": [
+        "providence-day:sections[5].boxes[1].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "An older school document tied to a previous billing provider referenced a **$45 per family** annual fee for the extended payment plan. It could not be confirmed against any current-year page and the billing arrangement has since changed — recorded only to show plan fees have existed historically, **not** a 2026–27 figure.",
+      "of": "1cb5641f",
+      "at": [
+        "providence-day:sections[5].boxes[1].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NOT PUBLISHED — SEVEN CONTRACT & PAYMENT QUESTIONS",
+      "of": "bcf902c4",
+      "at": [
+        "providence-day:sections[5].boxes[2].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Whether the 3/10/12-installment plans carry a service fee or interest · whether paying in full earns a discount · which third-party lender, if any, the school partners with · whether a tuition refund or insurance plan is offered, mandatory, and what it costs · the withdrawal and mid-year departure obligation beyond the deposit · the late-payment and arrears policy · whether any prepaid multi-year or tuition-lock option exists. These sit in the enrollment contract, which is not public — a normal arrangement.",
+      "of": "38bba7c5",
+      "at": [
+        "providence-day:sections[5].boxes[2].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Trend & Questions",
+      "of": "fc4483df",
+      "at": [
+        "providence-day:sections[6].navTitle",
+        "charlotte-latin:sections[6].navTitle",
+        "charlotte-christian:sections[5].navTitle",
+        "charlotte-country-day:sections[5].navTitle",
+        "cannon:sections[5].navTitle",
+        "davidson-day:sections[5].navTitle"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Trend, Reach & the Questions to Ask",
+      "of": "806c98a9",
+      "at": [
+        "providence-day:sections[6].title",
+        "charlotte-latin:sections[6].title",
+        "charlotte-christian:sections[5].title",
+        "charlotte-country-day:sections[5].title",
+        "cannon:sections[5].title",
+        "davidson-day:sections[5].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "a full TK–12 run at 2026–27 rates — our arithmetic, tuition only, not a projection",
+      "of": "d9fec8f0",
+      "at": [
+        "providence-day:sections[6].stats[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "a Grades 6–12 run at 2026–27 rates ($36,325 × 7)",
+      "of": "c88ad8b9",
+      "at": [
+        "providence-day:sections[6].stats[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "a Grades 9–12 run at 2026–27 rates ($36,325 × 4)",
+      "of": "808660af",
+      "at": [
+        "providence-day:sections[6].stats[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "TUITION TREND — NOT BUILT",
+      "of": "7b852e71",
+      "at": [
+        "providence-day:sections[6].boxes[0].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "This section normally carries three to five years of published rates. For Providence Day it does not: the tuition page shows only the current year and is overwritten each cycle, and archived prior-year rate cards were not retrieved. Rather than substitute third-party figures for the school's own rate cards, this report reports no tuition trend — a limit of the toolchain, not a disclosure failure.",
+      "of": "d3e6f997",
+      "at": [
+        "providence-day:sections[6].boxes[0].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The aid trend the school does publish",
+      "of": "e97d8270",
+      "at": [
+        "providence-day:sections[6].boxes[1].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Total aid awarded rose from **$3,105,191 (2012–13)** to **$3,683,971 (2017–18)**, with a $3,013,928 dip in 2013–14 between. The average grant rose $12,273 → $13,695; the share of students at 16% at both ends. Enrollment grew 1,552 → 1,627 students over the window. No comparable figures were located after 2017–18. Endowment market value grew $6,486,512 (Jun 2013) → $14,029,707 (Jun 2018); the school's strategic framework targets $55M by 2030.",
+      "of": "0fc2e599",
+      "at": [
+        "providence-day:sections[6].boxes[1].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NAVIGATION HAZARD",
+      "of": "4d99b319",
+      "at": [
+        "providence-day:sections[6].boxes[2].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Widely-circulated third-party listings carry tuition figures that agree neither with each other nor with the school — an \"≈$20,500\" single rate, a \"$34,430\" 2024 top rate, a \"$20,800–$29,620\" range, a \"$23,040–$32,810\" 2024–25 range. **None** matches the school's published 2026–27 bands of $25,510–$36,325. Aggregators cache prior-year figures and are frequently out of date — treat the school's own tuition page as the only authority, even when a search engine surfaces an aggregator above it.",
+      "of": "23236771",
+      "at": [
+        "providence-day:sections[6].boxes[2].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Each corresponds to a gap in this report and is ordered by how much it is likely to move a family's total.",
+      "of": "520e904d",
+      "at": [
+        "providence-day:sections[6].questionsNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What does Extended Day cost per day per week, and what are the bus fares for our address, for the current year?",
+      "of": "01224913",
+      "at": [
+        "providence-day:sections[6].questions[0]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What do the 8th and 12th grade field trips cost, and when are those charges billed?",
+      "of": "2e1a7943",
+      "at": [
+        "providence-day:sections[6].questions[1]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What is the current cost of FLIK Dining participation, and is it charged per meal or per term?",
+      "of": "0dec9976",
+      "at": [
+        "providence-day:sections[6].questions[2]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Do the 3-, 10- or 12-installment plans carry a fee or interest, and is there a discount for paying in full?",
+      "of": "5256dd9d",
+      "at": [
+        "providence-day:sections[6].questions[3]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What are the current-year figures for total assistance awarded, the average grant, and the number of students or families assisted?",
+      "of": "f5beaa4d",
+      "at": [
+        "providence-day:sections[6].questions[4]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Is the ≈21% figure a share of all enrolled families, or of families who applied?",
+      "of": "071869ad",
+      "at": [
+        "providence-day:sections[6].questions[5]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What is the range of awards, and does any award cover full tuition?",
+      "of": "c032686e",
+      "at": [
+        "providence-day:sections[6].questions[6]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "If we receive an award, what has typically happened to award levels on reapplication in following years?",
+      "of": "2c7fefb7",
+      "at": [
+        "providence-day:sections[6].questions[7]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Is there an appeals process, and what happens if our circumstances change mid-year?",
+      "of": "8b62b56f",
+      "at": [
+        "providence-day:sections[6].questions[8]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What obligation do we carry if a student withdraws after the school year begins?",
+      "of": "b1dbcac8",
+      "at": [
+        "providence-day:sections[6].questions[9]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Do you offer a sibling, employee, clergy, military or first-responder accommodation?",
+      "of": "3b9d36aa",
+      "at": [
+        "providence-day:sections[6].questions[10]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "\"Not published\" flags a transparency gap — never a judgement that the aid programme is small or unwelcoming.",
+      "of": "a5d181d4",
+      "at": [
+        "charlotte-latin:framing[0].body",
+        "charlotte-christian:framing[0].body",
+        "charlotte-country-day:framing[0].body",
+        "cannon:framing[0].body",
+        "davidson-day:framing[0].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Every dollar figure carries the school year it applies to. The transport and aid-document pages sit a year behind the 2026–27 tuition table — different cycles, not a contradiction.",
+      "of": "bfa694fc",
+      "at": [
+        "charlotte-latin:framing[1].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Tuition assistance toward attending this school — not the FAFSA, CSS Profile or college merit money. Not financial advice. Roughly 75% of this series' questions could be answered from published sources.",
+      "of": "11f6dc28",
+      "at": [
+        "charlotte-latin:framing[2].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "TK & Kindergarten",
+      "of": "8230484a",
+      "at": [
+        "charlotte-latin:sections[0].bands[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Grades 6–8",
+      "of": "914e6250",
+      "at": [
+        "charlotte-latin:sections[0].bands[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Grades 9–12",
+      "of": "3699581c",
+      "at": [
+        "charlotte-latin:sections[0].bands[3].label",
+        "charlotte-country-day:sections[0].bands[4].label",
+        "cannon:sections[0].bands[4].label",
+        "cannon:sections[3].ranges[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Four bands cover the full stated span of Transitional Kindergarten through Grade 12, so no grade is unpriced. The school labels the table \"These fees are from the 2026-27 school year.\" Tuition includes most course and laboratory fees; textbooks are included in TK–5 but are an additional expense in grades 6–12, and that amount is not published.",
+      "of": "af9d8cab",
+      "at": [
+        "charlotte-latin:sections[0].figureNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "No prior-year bars: the school's live page shows only the current year and the archived copies could not be retrieved — a limit of our toolchain, not a school gap. Enrolment context: 1,555 students total, 586 in the Upper School (2025–26 Upper School Profile).",
+      "of": "a24aaf97",
+      "at": [
+        "charlotte-latin:sections[0].figureNote2"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Fourteen confirmed components for a 2026–27 family — 8 unpriced or a year behind",
+      "of": "c07e9fd1",
+      "at": [
+        "charlotte-latin:sections[1].componentsTitle"
+      ],
+      "t": ""
+    },
+    {
+      "text": "All-in estimate not built: 57% unpriced > 33% threshold",
+      "of": "6e420628",
+      "at": [
+        "charlotte-latin:sections[1].componentsAside"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Enrolment deposit · $2,500, non-refundable",
+      "of": "776d475d",
+      "at": [
+        "charlotte-latin:sections[1].components[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Class trip advance · up to $710 (gr. 5–8, 12)",
+      "of": "cec4aac4",
+      "at": [
+        "charlotte-latin:sections[1].components[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Student accident insurance · $75, optional",
+      "of": "5c63b2d4",
+      "at": [
+        "charlotte-latin:sections[1].components[3].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Tuition Refund Plan · 0.53% of tuition, optional",
+      "of": "48dbfd9f",
+      "at": [
+        "charlotte-latin:sections[1].components[4].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Hawks' Club extended day · priced, TK–5 only",
+      "of": "bd1df50c",
+      "at": [
+        "charlotte-latin:sections[1].components[5].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Bus service · 2025–26 rates only",
+      "of": "5a1f5dba",
+      "at": [
+        "charlotte-latin:sections[1].components[6].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Textbooks, grades 6–12 · no rate",
+      "of": "d3f91412",
+      "at": [
+        "charlotte-latin:sections[1].components[7].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Meals · no price list",
+      "of": "c5420fd0",
+      "at": [
+        "charlotte-latin:sections[1].components[8].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Athletics participation · no rate",
+      "of": "bdb065c5",
+      "at": [
+        "charlotte-latin:sections[1].components[9].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "School trips beyond the class-trip advance · no rate",
+      "of": "15216851",
+      "at": [
+        "charlotte-latin:sections[1].components[10].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Enrichment programmes · no rate",
+      "of": "fc3c2261",
+      "at": [
+        "charlotte-latin:sections[1].components[11].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Talons youth sports · no rate",
+      "of": "d3f2d35c",
+      "at": [
+        "charlotte-latin:sections[1].components[12].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Lower School uniforms · supplier purchase, no amount",
+      "of": "a83ac932",
+      "at": [
+        "charlotte-latin:sections[1].components[13].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Six components are priced at 2026–27. The rest are unpriced or published only at 2025–26 rates. The school's own strategic plan confirms these charges are real: families \"often arrive with tuition assistance but are unprepared for the additional costs … including the costs of athletics, school trips, and other activities.\"",
+      "of": "a00d6681",
+      "at": [
+        "charlotte-latin:sections[1].componentsNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Bus service — a year behind the tuition table",
+      "of": "91a888c5",
+      "at": [
+        "charlotte-latin:sections[1].boxes[0].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Round trip **$1,800** · one way **$900** · activity bus **$450** per season. The fee panel is headed \"Bus Service Annual Fees 2025-26\" while the tuition page has moved to 2026–27, so a family budgeting for next year cannot price the bus from the website.",
+      "of": "aa5531a5",
+      "at": [
+        "charlotte-latin:sections[1].boxes[0].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Hawks' Club — two rates break their own pattern",
+      "of": "c34c0146",
+      "at": [
+        "charlotte-latin:sections[1].boxes[1].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Per-semester, TK–5, 2026–27. Three of five rows scale exactly with their own one-day rate; two do not. TK/K 1:30–4:30 p.m.: $635/day implies $2,540 for four days, but the table prints **$2300**. Grades 1–5 2:55–4:30 p.m.: $295/day implies $1,180 for four days, but the table prints **$1,880**. Reproduced exactly as published rather than corrected — confirm both with the business office.",
+      "of": "6ebbddce",
+      "at": [
+        "charlotte-latin:sections[1].boxes[1].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NO PUBLISHED EVIDENCE — TREATED AS NOT CHARGED",
+      "of": "2df6482d",
+      "at": [
+        "charlotte-latin:sections[1].boxes[2].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "General activity, technology, facilities, new-family and graduation fees · arts, instrument or production fees · testing fees · a required device purchase · a costed summer coursework requirement. Silence on a fee schedule most likely means the charge does not apply, but confirm rather than assume.",
+      "of": "c04019fb",
+      "at": [
+        "charlotte-latin:sections[1].boxes[2].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "THE SCHOOL INTENDS TO ANSWER THIS ITSELF",
+      "of": "d5a4805d",
+      "at": [
+        "charlotte-latin:sections[1].boxes[3].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Goal 5.1 of the published strategic plan commits the school to \"conduct a comprehensive audit of the full costs of a Latin education, including tuition, trips, extracurricular programs, and out of school experiences.\" A family asking these questions is asking for something the school has already said it wants to produce.",
+      "of": "25b5ea80",
+      "at": [
+        "charlotte-latin:sections[1].boxes[3].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "platform, dates, method and decision-maker are all published",
+      "of": "1d1b4e85",
+      "at": [
+        "charlotte-latin:sections[2].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "15 Sep",
+      "of": "9718a84b",
+      "at": [
+        "charlotte-latin:sections[2].timeline[0].when"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Financial aid application process **opens**",
+      "of": "b9c62c98",
+      "at": [
+        "charlotte-latin:sections[2].timeline[0].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "15 Jan",
+      "of": "26431f6a",
+      "at": [
+        "charlotte-latin:sections[2].timeline[1].when",
+        "charlotte-country-day:sections[2].timeline[1].when"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Priority round deadline — stated as **15 January 2027** for the next cycle. Applications in by this date are considered for priority decisions",
+      "of": "882d6061",
+      "at": [
+        "charlotte-latin:sections[2].timeline[1].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Not published",
+      "of": "d945d814",
+      "at": [
+        "charlotte-latin:sections[2].timeline[2].when",
+        "cannon:sections[2].timeline[2].when"
+      ],
+      "t": ""
+    },
+    {
+      "text": "When awards are released relative to the admission decision, or whether a family will know their award before an enrolment contract is due",
+      "of": "2b779fa2",
+      "at": [
+        "charlotte-latin:sections[2].timeline[2].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Not retrieved",
+      "of": "c656ef0e",
+      "at": [
+        "charlotte-latin:sections[2].timeline[3].when"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Whether aid must be reapplied for annually — very likely inside the document library below, which could not be opened",
+      "of": "810d666e",
+      "at": [
+        "charlotte-latin:sections[2].timeline[3].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Platform & how a family applies",
+      "of": "ccec335f",
+      "at": [
+        "charlotte-latin:sections[2].boxes[0].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "**Clarity.** One application covers all children in a family. Designed for a phone and stated to take **30 minutes or less**, with progress saved and resumed. Federal 1040 and W2 documents transfer automatically from the IRS after a verification step. The family application guide and platform quick-reference are published in **English and Spanish**.",
+      "of": "1563465b",
+      "at": [
+        "charlotte-latin:sections[2].boxes[0].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "How need is determined, and who decides",
+      "of": "a2efede0",
+      "at": [
+        "charlotte-latin:sections[2].boxes[1].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The school defines need plainly: \"the difference between tuition and the family's ability to pay for tuition.\" It states it \"strives to cover 100% of the identified family's need\" — an aim, not a guarantee, and not read here as a promise of any particular award. A **Financial Aid Committee** conducts the review and decision.",
+      "of": "a08fc97f",
+      "at": [
+        "charlotte-latin:sections[2].boxes[1].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Need-blind",
+      "of": "4cb7783f",
+      "at": [
+        "charlotte-latin:sections[2].boxes[2].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The published financial aid questions-and-answers document states an applying family can expect \"**a need-blind decision**\" — the clearest available statement that applying for aid is described as not affecting the admission decision.",
+      "of": "43143091",
+      "at": [
+        "charlotte-latin:sections[2].boxes[2].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NOT RETRIEVED — THE AID DOCUMENT LIBRARY",
+      "of": "4d3abf67",
+      "at": [
+        "charlotte-latin:sections[2].boxes[3].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Nine financial aid documents are published — guiding principles, commonly-asked questions, scholarships, the Clarity guides in English and Spanish, and a non-custodial parent waiver form. All sit on a third-party document service our tools could not open; only each summary line was readable. **These are public and open fine in an ordinary browser.** The renewal policy, appeals process and mid-year change-of-circumstance policy are very likely inside them, and are recorded as not retrieved rather than not published.",
+      "of": "8f6f96b2",
+      "at": [
+        "charlotte-latin:sections[2].boxes[3].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What it costs a family to file (aid platforms commonly charge a fee; the pages do not say whether one applies) · when aid decisions arrive relative to admission decisions · the confidentiality policy — who inside the school sees a family's financial information, and how long it is retained.",
+      "of": "af194315",
+      "at": [
+        "charlotte-latin:sections[2].boxes[4].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "RESEARCH PASS, NOT RE-RETRIEVED",
+      "of": "65ebef7e",
+      "at": [
+        "charlotte-latin:sections[2].boxes[5].tag",
+        "charlotte-latin:sections[4].boxes[4].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The 2024–25 financial aid process presentation describes the mechanism in more detail: the platform produces an Estimated Family Contribution, demonstrated need is published tuition minus that contribution, and a Financial Aid Committee decides. It names **School and Student Services** as the 2024–25 platform against **Clarity** today — a change of platform between years, not a contradiction. Surfaced through a research pass and not re-read at the source.",
+      "of": "056fdbae",
+      "at": [
+        "charlotte-latin:sections[2].boxes[5].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "unusually full disclosure for a public page",
+      "of": "f67fd99d",
+      "at": [
+        "charlotte-latin:sections[3].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "total financial aid awarded (2024–25)",
+      "of": "81f1da03",
+      "at": [
+        "charlotte-latin:sections[3].stats[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "of the total operational budget (2024–25)",
+      "of": "a3856965",
+      "at": [
+        "charlotte-latin:sections[3].stats[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "average award (2024–25) — an average, not a median",
+      "of": "0906fd3e",
+      "at": [
+        "charlotte-latin:sections[3].stats[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "of students receiving some funding — no year stated",
+      "of": "f194f092",
+      "at": [
+        "charlotte-latin:sections[3].stats[3].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "students holding awards from 17 endowed scholarships (2024–25)",
+      "of": "a494eeac",
+      "at": [
+        "charlotte-latin:sections[3].stats[4].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What is published, and where",
+      "of": "e74cee0f",
+      "at": [
+        "charlotte-latin:sections[3].boxes[0].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Total awarded **$3.25M**, aid as **6%** of operational budget, average award **$17,900**, and **36 students across 17 endowed scholarships** — all 2024–25, all on the tuition page. Separately: **$3.125M** offered in 2021–22 (strategic plan) and an undated \"over three million dollars\" (policies page). These are not added together and are not a trend — different pages, different years, and in one case no year at all.",
+      "of": "47f76af3",
+      "at": [
+        "charlotte-latin:sections[3].boxes[0].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "THE PARTICIPATION SHARE CARRIES A DENOMINATOR BUT NO YEAR",
+      "of": "d7869b89",
+      "at": [
+        "charlotte-latin:sections[3].boxes[1].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The measure most families look for first **is** published — but on the strategic-plan site, a separate web property from admissions, as \"14% of students receiving some funding.\" The denominator is clear and it is the right one: a share of **students**, not of applicants or filers, which are different and usually larger-looking numbers. The year is not. The sentence sits beside a figure tagged 2021–22, but adjacency is not a year tag and is not treated as one here.",
+      "of": "1cd4bc2c",
+      "at": [
+        "charlotte-latin:sections[3].boxes[1].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The **median** award — the published $17,900 average must not be read as a typical or middle award · the award range, smallest to largest · whether any need-based award covers full tuition · how many students or families receive need-based aid overall (the count of 36 is endowed scholarships only).",
+      "of": "c324044e",
+      "at": [
+        "charlotte-latin:sections[3].boxes[2].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "WHY THE AVERAGE AWARD IS NOT SHOWN AS A SHARE OF TUITION",
+      "of": "540b6551",
+      "at": [
+        "charlotte-latin:sections[3].boxes[3].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "We normally divide the average award by the same year's tuition to show how far a typical award reaches. The average is published for **2024–25**; the tuition table has moved to **2026–27**; and the 2024–25 published rates could not be retrieved. Dividing across those years would produce a figure describing no actual year, so it is left out rather than printed precise and meaningless.",
+      "of": "2782283f",
+      "at": [
+        "charlotte-latin:sections[3].boxes[3].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Supplemental support",
+      "of": "8edb15c0",
+      "at": [
+        "charlotte-latin:sections[3].boxes[4].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Beyond tuition assistance, the school states that for its **highest-need families** it also covers supplemental support for school essentials, **including lunch**. The scope beyond lunch, and the threshold at which a family qualifies, are not published.",
+      "of": "073c91dc",
+      "at": [
+        "charlotte-latin:sections[3].boxes[4].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "HOW TO READ THE 990 FIGURE",
+      "of": "d9e65ba9",
+      "at": [
+        "charlotte-latin:sections[3].boxes[5].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Charlotte Latin Schools Inc, EIN 56-0944449, FY ending June 2024: grants to domestic individuals **$3.0M**, total revenue $55.7M, total expenses $55.1M. This is aggregate institutional accounting filed with the IRS, not a school statement about its aid programme — it runs one to two years behind the current school year and its definition of a grant need not match what the school counts as tuition assistance. Context only; it does not close the gaps above.",
+      "of": "f62b1da1",
+      "at": [
+        "charlotte-latin:sections[3].boxes[5].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NORTH CAROLINA'S ONLY MALONE SCHOLARS SCHOOL",
+      "of": "fb7b2fba",
+      "at": [
+        "charlotte-latin:sections[4].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The Malone Scholars programme",
+      "of": "dca5d14b",
+      "at": [
+        "charlotte-latin:sections[4].boxes[0].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Charlotte Latin states it is the **only Malone Scholars School in North Carolina**, endowed by the Malone Family Foundation to provide scholarships to highly capable students. The foundation's published basis for selecting its fifty partner schools nationally: academic calibre, quality of staff, accommodations for gifted and talented students, strong Advanced Placement and enrichment programmes, attention to individual student needs, and an economically, culturally, ethnically and socially diverse population.",
+      "of": "c0679aea",
+      "at": [
+        "charlotte-latin:sections[4].boxes[0].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Named funds that reach beyond tuition",
+      "of": "e83b028f",
+      "at": [
+        "charlotte-latin:sections[4].boxes[1].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The scholarships document states that the **Malone, Sunny, Thrive, Wall and Kearney** scholarships cover additional school expenses **beyond tuition**, that they are Middle and Upper School awards, and that they are made **at the time of admission**. That is a meaningful distinction: a scholarship reaching costs beyond tuition addresses precisely the gap Section 02 describes. (Document summary only — the body could not be opened.)",
+      "of": "a56f729f",
+      "at": [
+        "charlotte-latin:sections[4].boxes[1].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NOT PUBLISHED — SIZES, CRITERIA AND STACKING",
+      "of": "48cbb93a",
+      "at": [
+        "charlotte-latin:sections[4].boxes[2].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "For each named fund the public record does not state the award amount, how many are awarded in a year, the eligibility criteria, or whether a scholarship can be held alongside need-based aid. The one quantitative anchor is that **36 students held awards from 17 endowed scholarships in 2024–25** — a reach figure, not an award size. Ask which scholarships an applicant would be considered for, whether consideration is automatic, and whether an award reduces need-based aid.",
+      "of": "d51f08c3",
+      "at": [
+        "charlotte-latin:sections[4].boxes[2].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NOT PUBLISHED — DISCOUNTS",
+      "of": "e587ad00",
+      "at": [
+        "charlotte-latin:sections[4].boxes[3].tag",
+        "davidson-day:sections[3].boxes[1].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Sibling discounts · employee tuition remission · clergy, military or first-responder discounts · an indexed or variable tuition programme · whether merit awards may be held together with need-based aid. Each is recorded as not published rather than as not offered.",
+      "of": "cb3702f4",
+      "at": [
+        "charlotte-latin:sections[4].boxes[3].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The endowed gifts page lists a wider set of named scholarship and award funds beyond the five above, including funds supporting Lower School students, a student-athlete fund, and an alumni-established fund. Surfaced through a research pass and not re-read at the source, so **no count of funds is stated here**. Fund names are institutional proper nouns; no recipient is named anywhere in this report.",
+      "of": "9c02e157",
+      "at": [
+        "charlotte-latin:sections[4].boxes[4].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "$2.5K",
+      "of": "1efcc1c7",
+      "at": [
+        "charlotte-latin:sections[5].plans[0].figure"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Enrolment deposit",
+      "of": "830acc5d",
+      "at": [
+        "charlotte-latin:sections[5].plans[0].label",
+        "charlotte-country-day:sections[4].plans[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Non-refundable, **deducted from the second tuition payment**. No student can be enrolled or re-enrolled without it (2026–27).",
+      "of": "75ac3576",
+      "at": [
+        "charlotte-latin:sections[5].plans[0].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2×",
+      "of": "aaf13426",
+      "at": [
+        "charlotte-latin:sections[5].plans[1].figure",
+        "charlotte-country-day:sections[4].plans[2].figure",
+        "cannon:sections[4].plans[1].figure"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Two Payment Plan",
+      "of": "4e3b4e1a",
+      "at": [
+        "charlotte-latin:sections[5].plans[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Half of tuition due **31 May**; the balance, less the $2,500 deposit, due **30 November**.",
+      "of": "608c303a",
+      "at": [
+        "charlotte-latin:sections[5].plans[1].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "8×",
+      "of": "ab01d1b0",
+      "at": [
+        "charlotte-latin:sections[5].plans[2].figure"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Monthly Payment Plan",
+      "of": "6a44844b",
+      "at": [
+        "charlotte-latin:sections[5].plans[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The $2,500 deposit at enrolment, then monthly payments **May through December**. The school states there is **no fee or service charge** if payments are made on time.",
+      "of": "212fd287",
+      "at": [
+        "charlotte-latin:sections[5].plans[2].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Late payment and arrears — published directly",
+      "of": "23e98668",
+      "at": [
+        "charlotte-latin:sections[5].boxes[0].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A service charge of **1.5% per month**, which the school states as **18% annual**, is added to tuition charges not received or postmarked by their due date and to any unpaid balance. All tuition must be paid before students may attend classes following the respective due dates. Miscellaneous charges must be paid before re-enrolment is offered, report cards issued, diplomas awarded or transcripts released.",
+      "of": "76b7ddff",
+      "at": [
+        "charlotte-latin:sections[5].boxes[0].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Extended-day billing",
+      "of": "82da1688",
+      "at": [
+        "charlotte-latin:sections[5].boxes[1].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Hawks' Club fees are billed per semester rather than with tuition: the first-semester fee (August–December) on **23 September 2026**, the second (January–May) on **20 January 2027**.",
+      "of": "b7e750a0",
+      "at": [
+        "charlotte-latin:sections[5].boxes[1].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NOT PUBLISHED — THE WITHDRAWAL OBLIGATION",
+      "of": "22d1c1ee",
+      "at": [
+        "charlotte-latin:sections[5].boxes[2].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The public pages do not set out the withdrawal or mid-year departure obligation, any refund schedule, or the point at which full-year tuition becomes payable regardless of attendance. The optional Tuition Refund Plan at 0.53% of tuition implies some obligation survives a withdrawal — that is what such plans exist to cover — but the underlying terms are not on the public record. **This is the single most consequential unpublished item in this report;** read the contract carefully before signing.",
+      "of": "7d8f1e42",
+      "at": [
+        "charlotte-latin:sections[5].boxes[2].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Third-party tuition lenders or financing partners · any prepayment or single-payment discount · any prepaid multi-year or tuition-lock programme.",
+      "of": "1fb77ca6",
+      "at": [
+        "charlotte-latin:sections[5].boxes[3].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "full TK–12 run (14 years) at 2026–27 rates — our arithmetic, tuition only, not a projection",
+      "of": "daa75d93",
+      "at": [
+        "charlotte-latin:sections[6].stats[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "a Grades 9–12 run at 2026–27 rates",
+      "of": "82f03c08",
+      "at": [
+        "charlotte-latin:sections[6].stats[1].label",
+        "charlotte-christian:sections[5].stats[1].label",
+        "charlotte-country-day:sections[5].stats[1].label",
+        "cannon:sections[5].stats[1].label",
+        "davidson-day:sections[5].stats[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NOT RETRIEVED — OUR LIMITATION, NOT THE SCHOOL'S",
+      "of": "02c0c8ec",
+      "at": [
+        "charlotte-latin:sections[6].boxes[0].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A tuition page shows the current year and overwrites the last, so a multi-year trend has to come from web archive captures. Our retrieval tools could not reach the archive service across repeated attempts, in the initial pass and again in a deeper research pass, so there are **no school-published rates for 2022–23 through 2025–26**. This is a toolchain limit. It is **not** a finding that the school conceals its pricing history and should not be read as one. Third-party summaries exist but disagree with one another and none is reproduced.",
+      "of": "43421326",
+      "at": [
+        "charlotte-latin:sections[6].boxes[0].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Aid figures across years — two points, not a trend",
+      "of": "4be14ad5",
+      "at": [
+        "charlotte-latin:sections[6].boxes[1].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "**$3.125M** offered in 2021–22 and **$3.25M** awarded in 2024–25. These sit three years apart with nothing published in between, and come from different pages that may not count identically. Two points do not make a trend, and no line is drawn between them.",
+      "of": "8e9d8956",
+      "at": [
+        "charlotte-latin:sections[6].boxes[1].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "READ THE TENURE FIGURES AS ARITHMETIC, NOT A FORECAST",
+      "of": "74ec6bd3",
+      "at": [
+        "charlotte-latin:sections[6].boxes[2].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The totals above apply 2026–27 bands across a full run (2 years at $27,600; 5 at $32,600; 3 at $35,200; 4 at $36,500) as if today's prices held every year — which they will not, since published tuition is re-set annually and has historically risen. They are tuition only, net of nothing, and exclude the deposit, trips, insurance, transport, extended day, meals, books and every unpriced item in Section 02. They exist only to give a sense of scale.",
+      "of": "e9fa2887",
+      "at": [
+        "charlotte-latin:sections[6].boxes[2].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "THE MIDDLE-INCOME QUESTION",
+      "of": "e0e81455",
+      "at": [
+        "charlotte-latin:sections[6].boxes[3].tag",
+        "charlotte-country-day:sections[5].boxes[1].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The school publishes an aim to meet up to 100% of demonstrated need and a share of students receiving some funding. It publishes nothing about families above the aid threshold but below comfortable full-pay — no indexed tuition, no middle-income initiative, no guidance on where the threshold falls. A publication gap rather than a statement about who the school serves.",
+      "of": "a623ff55",
+      "at": [
+        "charlotte-latin:sections[6].boxes[3].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "TWO NAVIGATION HAZARDS",
+      "of": "bc5269dc",
+      "at": [
+        "charlotte-latin:sections[6].boxes[4].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "**A stale page is still circulating.** The live tuition page gives the aid deadline as 15 January 2027, but search engines still serve cached text from the same address giving 15 January 2026. Open the page directly rather than trusting the snippet. **The contact address is misspelled in one place** — the tuition page invites inquiries at an address whose domain has two letters transposed, while the correct address appears elsewhere on the same page. Mail to the misspelled version will not arrive; use the contact panel.",
+      "of": "c0849b30",
+      "at": [
+        "charlotte-latin:sections[6].boxes[4].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Each is unanswerable from published sources and materially affects what a family pays or receives.",
+      "of": "ce4e6875",
+      "at": [
+        "charlotte-latin:sections[6].questionsNote",
+        "charlotte-country-day:sections[5].questionsNote",
+        "cannon:sections[5].questionsNote",
+        "davidson-day:sections[5].questionsNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What is the withdrawal and mid-year departure obligation, and is there a refund schedule?",
+      "of": "caeb8d82",
+      "at": [
+        "charlotte-latin:sections[6].questions[0]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What does a year of school meals cost, by division, and what do textbooks cost in grades 6, 9 and 12?",
+      "of": "67722d95",
+      "at": [
+        "charlotte-latin:sections[6].questions[1]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What are the participation costs for specific sports and activities?",
+      "of": "e0556d22",
+      "at": [
+        "charlotte-latin:sections[6].questions[2]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What are the 2026–27 bus rates?",
+      "of": "8d402598",
+      "at": [
+        "charlotte-latin:sections[6].questions[3]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What is the current share of students receiving tuition assistance, and for which year?",
+      "of": "fc87bf28",
+      "at": [
+        "charlotte-latin:sections[6].questions[4]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What is the median award, what is the range from smallest to largest, and does any award reach full tuition?",
+      "of": "8edf084f",
+      "at": [
+        "charlotte-latin:sections[6].questions[5]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "For each named scholarship: the amount, how many are awarded, the criteria, and whether it can be held alongside need-based aid?",
+      "of": "94bd0610",
+      "at": [
+        "charlotte-latin:sections[6].questions[6]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Must aid be reapplied for annually, do awards typically renew at a consistent level, and is there an appeals or change-of-circumstance process?",
+      "of": "a7a179ee",
+      "at": [
+        "charlotte-latin:sections[6].questions[7]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Please confirm the four-day and five-day Hawks' Club rates in the two rows flagged in Section 02.",
+      "of": "bf31a8a6",
+      "at": [
+        "charlotte-latin:sections[6].questions[8]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2026–27 school year · figures as of 23 Jul 2026",
+      "of": "a311c291",
+      "at": [
+        "charlotte-christian:meta",
+        "charlotte-country-day:meta",
+        "cannon:meta"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Every dollar figure carries the school year it applies to. Contract terms below are tagged 2023–24 — three years behind the tuition table.",
+      "of": "b14095d2",
+      "at": [
+        "charlotte-christian:framing[1].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Scholarships won by graduating seniors are college money — excluded entirely. Not financial advice.",
+      "of": "1a96873f",
+      "at": [
+        "charlotte-christian:framing[2].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Tuition by Band",
+      "of": "098bc98f",
+      "at": [
+        "charlotte-christian:sections[0].navTitle"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Tuition by Price Band",
+      "of": "2e8278d8",
+      "at": [
+        "charlotte-christian:sections[0].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Published tuition by division",
+      "of": "131e32c1",
+      "at": [
+        "charlotte-christian:sections[0].figureCaption",
+        "davidson-day:sections[0].figureCaption"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Early Ed (JK–K)",
+      "of": "36f892d3",
+      "at": [
+        "charlotte-christian:sections[0].bands[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Lower (1–4)",
+      "of": "d0aacef5",
+      "at": [
+        "charlotte-christian:sections[0].bands[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Middle (5–8)",
+      "of": "de202b17",
+      "at": [
+        "charlotte-christian:sections[0].bands[2].label",
+        "davidson-day:sections[0].bands[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Upper (9–12)",
+      "of": "ca8f9877",
+      "at": [
+        "charlotte-christian:sections[0].bands[3].label",
+        "davidson-day:sections[0].bands[3].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Every band rose by the same flat $950 into 2026–27 — a dollar increase, not a percentage, so the same rise lands harder on the lowest band. Over three transitions ($850, $1,500, $950) every band rose exactly $3,300: 18.33% at Early Education against 13.89% at Upper School.",
+      "of": "24ef6726",
+      "at": [
+        "charlotte-christian:sections[0].figureNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Caveat: in 2023–24 the school grouped grades 1–5 and 6–8; from 2024–25 it groups 1–4 and 5–8. Grade five moved bands, so those two rows are not strictly like-for-like across that boundary.",
+      "of": "a75c3a13",
+      "at": [
+        "charlotte-christian:sections[0].figureNote2"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What tuition includes — stated affirmatively",
+      "of": "f0c7108c",
+      "at": [
+        "charlotte-christian:sections[0].boxes[0].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Unusually, the school says: daily lunch by a contracted food service · textbooks and language arts novels · instructional technology support and an assigned device (iPad gr. 5–8, MacBook Air for Upper School) · the middle and upper school two-day spiritual life retreat and field trips · caps and gowns for seniors.",
+      "of": "160dafca",
+      "at": [
+        "charlotte-christian:sections[0].boxes[0].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Fees & Added Costs",
+      "of": "09c013ce",
+      "at": [
+        "charlotte-christian:sections[1].navTitle",
+        "davidson-day:sections[1].navTitle"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Fees and Additional Costs",
+      "of": "e742ffd4",
+      "at": [
+        "charlotte-christian:sections[1].title",
+        "davidson-day:sections[1].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Fifteen confirmed components — 14 priced",
+      "of": "82a0b931",
+      "at": [
+        "charlotte-christian:sections[1].componentsTitle"
+      ],
+      "t": ""
+    },
+    {
+      "text": "All-in estimate built: well inside the 33% threshold",
+      "of": "e9f9a019",
+      "at": [
+        "charlotte-christian:sections[1].componentsAside"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Enrollment fee · $1,500 per student",
+      "of": "baaf0ddc",
+      "at": [
+        "charlotte-christian:sections[1].components[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "New family fee · $1,250 per family",
+      "of": "8ca90b77",
+      "at": [
+        "charlotte-christian:sections[1].components[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "International student fee · $2,000/yr",
+      "of": "2e622509",
+      "at": [
+        "charlotte-christian:sections[1].components[3].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Tuition Protection Program · $250/yr",
+      "of": "414b77d0",
+      "at": [
+        "charlotte-christian:sections[1].components[4].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Installment fee · $300/yr",
+      "of": "c77ee780",
+      "at": [
+        "charlotte-christian:sections[1].components[5].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Application fee · $100 per child",
+      "of": "49a409a2",
+      "at": [
+        "charlotte-christian:sections[1].components[6].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Extended day, 5 days · $325/mo",
+      "of": "fdd23790",
+      "at": [
+        "charlotte-christian:sections[1].components[7].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Extended day, 3 days · $245/mo",
+      "of": "09d128f9",
+      "at": [
+        "charlotte-christian:sections[1].components[8].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Extended day, 1 day · $125/mo",
+      "of": "354c0d1d",
+      "at": [
+        "charlotte-christian:sections[1].components[9].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Bridge care JK–K · $125/mo",
+      "of": "b08fd8ec",
+      "at": [
+        "charlotte-christian:sections[1].components[10].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Daily drop-in · $50 per day",
+      "of": "2776f398",
+      "at": [
+        "charlotte-christian:sections[1].components[11].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Half-day early dismissal · $25 per day",
+      "of": "1bcb8130",
+      "at": [
+        "charlotte-christian:sections[1].components[12].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Late pickup · $25 per quarter hour",
+      "of": "ac2057c2",
+      "at": [
+        "charlotte-christian:sections[1].components[13].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Middle school extended day · no rate",
+      "of": "cfd66285",
+      "at": [
+        "charlotte-christian:sections[1].components[14].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The enrolment fee of $1,500 per student is non-refundable but applied to the tuition balance. The $300 installment fee includes the required $250 Tuition Protection Program — a $50 difference. The school does not publish an athletics participation fee or a fine arts schedule, which is not the same as confirming no such costs exist.",
+      "of": "4bd5f466",
+      "at": [
+        "charlotte-christian:sections[1].componentsNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Early Education all-in, common case (JK–K)",
+      "of": "82544242",
+      "at": [
+        "charlotte-christian:sections[1].stats[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Upper School all-in, common case (gr. 9–12)",
+      "of": "dbee0838",
+      "at": [
+        "charlotte-christian:sections[1].stats[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Applying for Aid",
+      "of": "c76ef850",
+      "at": [
+        "charlotte-christian:sections[2].navTitle"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Applying for Assistance — Process & Timeline",
+      "of": "33b18c08",
+      "at": [
+        "charlotte-christian:sections[2].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2 Feb 2026",
+      "of": "82f89c2a",
+      "at": [
+        "charlotte-christian:sections[2].timeline[0].when"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Priority deadline for **current families** and for new **JK/K** applicants — via SSS by NAIS, school code 2318",
+      "of": "5acd774f",
+      "at": [
+        "charlotte-christian:sections[2].timeline[0].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "27 Feb 2026",
+      "of": "2777eb27",
+      "at": [
+        "charlotte-christian:sections[2].timeline[1].when"
+      ],
+      "t": ""
+    },
+    {
+      "text": "New JK and kindergarten applicants notified of awards by this date",
+      "of": "7aad52a0",
+      "at": [
+        "charlotte-christian:sections[2].timeline[1].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2 Mar 2026",
+      "of": "0e3d96a9",
+      "at": [
+        "charlotte-christian:sections[2].timeline[2].when"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Priority deadline for new applicants, **grades 1–12**",
+      "of": "03085a24",
+      "at": [
+        "charlotte-christian:sections[2].timeline[2].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2 Apr 2026",
+      "of": "c1bf0e06",
+      "at": [
+        "charlotte-christian:sections[2].timeline[3].when"
+      ],
+      "t": ""
+    },
+    {
+      "text": "New grades 1–12 applicants notified by this date. Later applications still accepted, but awards are limited to funds available at each grade level",
+      "of": "0e2284d6",
+      "at": [
+        "charlotte-christian:sections[2].timeline[3].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A requirement unique in this series",
+      "of": "4ef124f8",
+      "at": [
+        "charlotte-christian:sections[2].boxes[0].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Every applicant family must **also apply to the North Carolina Opportunity Scholarship Program**, a state programme whose applications open 2 February. Across the schools examined here, this is the only instance of a school conditioning its own assistance application on a parallel state application.",
+      "of": "c2a1b69d",
+      "at": [
+        "charlotte-christian:sections[2].boxes[0].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "DOCUMENTATION HAZARD",
+      "of": "8cdb01bb",
+      "at": [
+        "charlotte-christian:sections[2].boxes[1].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The 2026–27 instruction sheet states the documentation requirement **twice, and the two statements do not match** — one asks for the 2024 return plus the 2025 return when available and a 2025 W-2; the other asks for the 2025 return, or the 2024 return with 2025 W-2s. We decline to choose a reading; confirm with the school.",
+      "of": "26e30dc4",
+      "at": [
+        "charlotte-christian:sections[2].boxes[1].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Renewal & conditions",
+      "of": "8ad48c19",
+      "at": [
+        "charlotte-christian:sections[2].boxes[2].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Families reapply each year, and awards may be larger or smaller than the previous year as circumstances and the pool change. Awards are granted only after a student is accepted. As a member of the state independent schools athletic association, no student may receive assistance of any form in exchange for athletic participation.",
+      "of": "7caf9aee",
+      "at": [
+        "charlotte-christian:sections[2].boxes[2].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Discounts & Ceiling",
+      "of": "69e72fce",
+      "at": [
+        "charlotte-christian:sections[3].navTitle"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Discounts, Remissions & the Award Ceiling",
+      "of": "424a0d76",
+      "at": [
+        "charlotte-christian:sections[3].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "AID CAPPED AT 50% OF TUITION",
+      "of": "20308a5c",
+      "at": [
+        "charlotte-christian:sections[3].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The published 50% ceiling, by band",
+      "of": "a3f1fa53",
+      "at": [
+        "charlotte-christian:sections[3].figureCaption"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The school states grants will not exceed 50% of tuition, to extend assistance to as many families as possible. The figures below are our arithmetic against that cap — emphatically not a typical award.",
+      "of": "5c72a6cc",
+      "at": [
+        "charlotte-christian:sections[3].figureNote2"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Early Ed",
+      "of": "591bf7a5",
+      "at": [
+        "charlotte-christian:sections[3].ladder[0].gift"
+      ],
+      "t": ""
+    },
+    {
+      "text": "ceiling · $10,650/yr",
+      "of": "c81810b7",
+      "at": [
+        "charlotte-christian:sections[3].ladder[0].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Lower",
+      "of": "418d545a",
+      "at": [
+        "charlotte-christian:sections[3].ladder[1].gift"
+      ],
+      "t": ""
+    },
+    {
+      "text": "ceiling · $11,647.50/yr",
+      "of": "c253743b",
+      "at": [
+        "charlotte-christian:sections[3].ladder[1].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Middle",
+      "of": "9d92c238",
+      "at": [
+        "charlotte-christian:sections[3].ladder[2].gift"
+      ],
+      "t": ""
+    },
+    {
+      "text": "ceiling · $12,287.50/yr",
+      "of": "576b32da",
+      "at": [
+        "charlotte-christian:sections[3].ladder[2].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Upper",
+      "of": "b2c244e7",
+      "at": [
+        "charlotte-christian:sections[3].ladder[3].gift"
+      ],
+      "t": ""
+    },
+    {
+      "text": "ceiling · $13,527.50/yr",
+      "of": "207697fa",
+      "at": [
+        "charlotte-christian:sections[3].ladder[3].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Parents remain responsible for the balance of tuition and for all fees. No average or median award, and no reach data, is published — the ceiling is the only award figure on the public record.",
+      "of": "c4c54730",
+      "at": [
+        "charlotte-christian:sections[3].figureNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Family Fellowship — a published discount",
+      "of": "07d8ff36",
+      "at": [
+        "charlotte-christian:sections[3].boxes[0].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A **$1,500 tuition credit** for the third, fourth or fifth student enrolled from the same household. Extended day carries a separate 25% sibling rate, applied to the third student against that family's lowest rate.",
+      "of": "bfa7ded5",
+      "at": [
+        "charlotte-christian:sections[3].boxes[0].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "WITHDRAWN",
+      "of": "1c81401b",
+      "at": [
+        "charlotte-christian:sections[3].boxes[1].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The 2024–25 chart carried a **$200 payment-in-full credit** for new students paying within two weeks of acceptance. It does not appear on the 2026–27 chart, and no school statement explains the change.",
+      "of": "fe86f557",
+      "at": [
+        "charlotte-christian:sections[3].boxes[1].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Clergy, faculty and partner-school support are named in fundraising materials but not documented as programmes a family can apply to — whether they are distinct remissions or designated funding inside the general need-based programme is not published. No academic or general merit scholarship exists; athletic awards are explicitly excluded.",
+      "of": "c71e3290",
+      "at": [
+        "charlotte-christian:sections[3].boxes[2].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Paying & Contract",
+      "of": "4b4dfa15",
+      "at": [
+        "charlotte-christian:sections[4].navTitle"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Paying, and the Contract",
+      "of": "9564522b",
+      "at": [
+        "charlotte-christian:sections[4].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "$1,500",
+      "of": "7634a7b9",
+      "at": [
+        "charlotte-christian:sections[4].plans[0].figure"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Enrollment deposit",
+      "of": "e1e9eb43",
+      "at": [
+        "charlotte-christian:sections[4].plans[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Per student, due at initial enrollment or re-enrollment. **Non-refundable**, and applied to the tuition balance.",
+      "of": "7e3b87ad",
+      "at": [
+        "charlotte-christian:sections[4].plans[0].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Paid in full",
+      "of": "3a3ca213",
+      "at": [
+        "charlotte-christian:sections[4].plans[1].label",
+        "charlotte-country-day:sections[4].plans[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Encouraged by the school. No prepayment discount for 2026–27 — the prior $200 credit was withdrawn.",
+      "of": "a70a6aa3",
+      "at": [
+        "charlotte-christian:sections[4].plans[1].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Ten-month plan",
+      "of": "3b74dc2a",
+      "at": [
+        "charlotte-christian:sections[4].plans[2].label",
+        "charlotte-country-day:sections[4].plans[3].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Payments begin in June. **$300** per student per year installment fee, which includes the required Tuition Protection Program. No interest rate is stated.",
+      "of": "dce8b2b7",
+      "at": [
+        "charlotte-christian:sections[4].plans[2].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "$250",
+      "of": "a98d0546",
+      "at": [
+        "charlotte-christian:sections[4].plans[3].figure"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Tuition Protection",
+      "of": "d5804d16",
+      "at": [
+        "charlotte-christian:sections[4].plans[3].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Per student per year, recommended for families paying in full. It governs refund eligibility — and per the 2023–24 terms it is the only route to any refund at all.",
+      "of": "579d8245",
+      "at": [
+        "charlotte-christian:sections[4].plans[3].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "CURRENCY WARNING — CONTRACT TERMS TAGGED 2023–24",
+      "of": "eeb1495d",
+      "at": [
+        "charlotte-christian:sections[4].boxes[0].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "These terms come from the 2023–24 enrollment packet, three years behind the tuition table above, and we could not confirm they are still current. As published then: **no tuition refund for any reason** without the Tuition Protection Program; with it, 90% of unused tuition refunded on withdrawal before 1 May, and **no refund after 30 April**. Withdrawal begins with written notice to the division principal.",
+      "of": "8783e500",
+      "at": [
+        "charlotte-christian:sections[4].boxes[0].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "ARREARS, PER THE SAME 2023–24 PACKET",
+      "of": "6e134411",
+      "at": [
+        "charlotte-christian:sections[4].boxes[1].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A missed payment constitutes default, and at the school's option all tuition and fees become immediately due. An account more than sixty days past due may result in enrollment being revoked and referral to a collection agency, with court and legal costs assumed by the responsible party.",
+      "of": "e7325819",
+      "at": [
+        "charlotte-christian:sections[4].boxes[1].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "full JK–12 run at 2026–27 rates — our arithmetic, tuition only, not a projection",
+      "of": "9ab76a43",
+      "at": [
+        "charlotte-christian:sections[5].stats[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Four consecutive years recovered",
+      "of": "00f7cdac",
+      "at": [
+        "charlotte-christian:sections[5].boxes[0].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The strongest tuition history of the four schools in this series. Every band rose **$850** into 2024–25, **$1,500** into 2025–26 and **$950** into 2026–27 — a flat dollar increment each time, totalling **+$3,300** per band, or 18.33% at the lowest band against 13.89% at the highest.",
+      "of": "efcab71a",
+      "at": [
+        "charlotte-christian:sections[5].boxes[0].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "THE REACH GAP",
+      "of": "b7976307",
+      "at": [
+        "charlotte-christian:sections[5].boxes[1].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Section 4 is the weak point at 62%: the 50% ceiling is published, but no total awarded, no share of students, no average and no median. Gifts *received into* the assistance fund are published ($48,422 in 2020–21 falling to $23,798 in 2024–25) — but money received is not money awarded, and the two should not be read as each other.",
+      "of": "756ec17f",
+      "at": [
+        "charlotte-christian:sections[5].boxes[1].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Ordered by how much the answer would change a family's picture.",
+      "of": "7a2d4dd5",
+      "at": [
+        "charlotte-christian:sections[5].questionsNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What was the total tuition assistance awarded last year, and to how many families?",
+      "of": "f1ac5d9a",
+      "at": [
+        "charlotte-christian:sections[5].questions[0]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What share of students receives assistance — and measured against which enrollment figure?",
+      "of": "c6678deb",
+      "at": [
+        "charlotte-christian:sections[5].questions[1]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What is the average award, and what is the median? Which of the two is the school quoting?",
+      "of": "039e5a5d",
+      "at": [
+        "charlotte-christian:sections[5].questions[2]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Where does the assistance range realistically begin and end for a family in the middle?",
+      "of": "7f12ab86",
+      "at": [
+        "charlotte-christian:sections[5].questions[3]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Are the 2023–24 contract terms still current, particularly the rule that the Tuition Protection Program is the only route to a refund?",
+      "of": "8b95d4e1",
+      "at": [
+        "charlotte-christian:sections[5].questions[4]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Are there athletics or fine arts participation costs, and what are the amounts?",
+      "of": "621bf8f4",
+      "at": [
+        "charlotte-christian:sections[5].questions[5]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Is the middle school extended day rate the same as the published lower school rate?",
+      "of": "e315244a",
+      "at": [
+        "charlotte-christian:sections[5].questions[6]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Every dollar figure carries the school year it applies to. Undated school figures are flagged, not guessed.",
+      "of": "8acff684",
+      "at": [
+        "charlotte-country-day:framing[1].body",
+        "cannon:framing[1].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The $13M in college scholarships from the School Profile is university money — excluded throughout. Not financial advice.",
+      "of": "f57e8e91",
+      "at": [
+        "charlotte-country-day:framing[2].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Published tuition by band",
+      "of": "75ac0cad",
+      "at": [
+        "charlotte-country-day:sections[0].figureCaption",
+        "cannon:sections[0].figureCaption"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Junior K",
+      "of": "ff4582b9",
+      "at": [
+        "charlotte-country-day:sections[0].bands[0].label",
+        "cannon:sections[0].bands[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Grades 1–4",
+      "of": "c3d4535d",
+      "at": [
+        "charlotte-country-day:sections[0].bands[2].label",
+        "cannon:sections[0].bands[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Grades 5–8",
+      "of": "0bea3f5d",
+      "at": [
+        "charlotte-country-day:sections[0].bands[3].label",
+        "cannon:sections[0].bands[3].label",
+        "cannon:sections[3].ranges[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Five bands cover all 14 grades — the school has never priced individual grades. Tuition covers \"the core educational experience including technology,\" per the school's wording. 2025–26 rates are the school's own published figures, recovered from archived copies of the tuition page.",
+      "of": "be6cee79",
+      "at": [
+        "charlotte-country-day:sections[0].figureNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Four tuition-table specifics",
+      "of": "3a912529",
+      "at": [
+        "charlotte-country-day:sections[0].boxes[0].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "New-student vs returning-student rates",
+      "of": "d15c8975",
+      "at": [
+        "charlotte-country-day:sections[0].bullets[0]",
+        "cannon:sections[0].bullets[0]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Half-day or part-week Junior K variants",
+      "of": "2de0363e",
+      "at": [
+        "charlotte-country-day:sections[0].bullets[1]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Whether lunch is included (billing list suggests it is billed separately)",
+      "of": "ad642c1a",
+      "at": [
+        "charlotte-country-day:sections[0].bullets[2]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "An international-student rate — 14% of students are international",
+      "of": "ead5608f",
+      "at": [
+        "charlotte-country-day:sections[0].bullets[3]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Estimated additional expenses, 2026–27",
+      "of": "74aae2a5",
+      "at": [
+        "charlotte-country-day:sections[1].figureCaption"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Lower School",
+      "of": "0921a0ca",
+      "at": [
+        "charlotte-country-day:sections[1].ranges[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Middle School",
+      "of": "15441234",
+      "at": [
+        "charlotte-country-day:sections[1].ranges[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Upper School",
+      "of": "bfabeb69",
+      "at": [
+        "charlotte-country-day:sections[1].ranges[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Scale $0–700. A bounded estimate per division, not an itemised fee schedule — covers textbooks & supplies (gr. 5–12), activity fees, and athletic fees. Enrolment deposit: 10% of tuition, credited toward tuition due.",
+      "of": "ba64b375",
+      "at": [
+        "charlotte-country-day:sections[1].figureNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Ten confirmed cost components — 6 unpriced",
+      "of": "6ed1da98",
+      "at": [
+        "charlotte-country-day:sections[1].componentsTitle"
+      ],
+      "t": ""
+    },
+    {
+      "text": "All-in estimate not built: 60% unpriced > 33% threshold",
+      "of": "6389b9ca",
+      "at": [
+        "charlotte-country-day:sections[1].componentsAside"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Tuition — five bands, priced",
+      "of": "5b3efc9a",
+      "at": [
+        "charlotte-country-day:sections[1].components[0].label",
+        "cannon:sections[1].components[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Textbooks & supplies · in range only",
+      "of": "1428f3ac",
+      "at": [
+        "charlotte-country-day:sections[1].components[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Activity fee · in range only",
+      "of": "539b8d81",
+      "at": [
+        "charlotte-country-day:sections[1].components[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Athletic / sports fee · in range only",
+      "of": "a88518a6",
+      "at": [
+        "charlotte-country-day:sections[1].components[3].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Extended Day · no rate",
+      "of": "6ae2ed40",
+      "at": [
+        "charlotte-country-day:sections[1].components[4].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Enrichment classes · no rate",
+      "of": "d37ccf46",
+      "at": [
+        "charlotte-country-day:sections[1].components[5].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Bus transportation · no rate",
+      "of": "739409af",
+      "at": [
+        "charlotte-country-day:sections[1].components[6].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Tutoring · no rate",
+      "of": "3b96a9e3",
+      "at": [
+        "charlotte-country-day:sections[1].components[7].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Dining hall · no rate",
+      "of": "18e399dd",
+      "at": [
+        "charlotte-country-day:sections[1].components[8].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "MS PE uniforms · no rate",
+      "of": "43c278b7",
+      "at": [
+        "charlotte-country-day:sections[1].components[9].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "All six unpriced items appear on the school's own billing list — real costs, billed monthly, rates visible only on a family's statement. These are the highest-value questions for the business office.",
+      "of": "50e74ebe",
+      "at": [
+        "charlotte-country-day:sections[1].componentsNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "the best-documented part of the picture",
+      "of": "8b851cde",
+      "at": [
+        "charlotte-country-day:sections[2].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "1 Nov",
+      "of": "b39a0e5f",
+      "at": [
+        "charlotte-country-day:sections[2].timeline[0].when"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Deadline for **current families** — application + documents via Clarity",
+      "of": "31c4f59c",
+      "at": [
+        "charlotte-country-day:sections[2].timeline[0].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Deadline for **prospective families**",
+      "of": "72bae068",
+      "at": [
+        "charlotte-country-day:sections[2].timeline[1].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "With contracts",
+      "of": "393f2a12",
+      "at": [
+        "charlotte-country-day:sections[2].timeline[2].when",
+        "davidson-day:sections[2].timeline[2].when"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Award decisions released with enrolment contracts — admission is decided separately",
+      "of": "28df42e8",
+      "at": [
+        "charlotte-country-day:sections[2].timeline[2].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Awards run one year; families re-apply annually. Similar level normally continues absent income change",
+      "of": "d33f9ceb",
+      "at": [
+        "charlotte-country-day:sections[2].timeline[3].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "**Clarity** · $65 fee at submission · under an hour, mobile-friendly, fully translated into Spanish. Docs: 1040, W2s, recent pay stub — tax records pull in automatically.",
+      "of": "1469efc1",
+      "at": [
+        "charlotte-country-day:sections[2].boxes[0].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Divorced or separated parents",
+      "of": "fa3d78a6",
+      "at": [
+        "charlotte-country-day:sections[2].boxes[1].title",
+        "cannon:sections[2].boxes[1].title",
+        "davidson-day:sections[2].boxes[1].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Both custodial and non-custodial parents must file through Clarity regardless of legal settlements; missing information from either parent may prevent an award.",
+      "of": "217d112f",
+      "at": [
+        "charlotte-country-day:sections[2].boxes[1].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "No appeals process · no mid-year change-of-circumstance policy. **Hazard:** a stale portal page still names the old SSS platform — the live admissions page (Clarity) is the one to trust.",
+      "of": "3605a881",
+      "at": [
+        "charlotte-country-day:sections[2].boxes[2].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What an endowed scholarship is designed to cover",
+      "of": "3f5c831f",
+      "at": [
+        "charlotte-country-day:sections[3].figureCaption"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Published donor gift levels and their projected annual distributions — design targets, not awards actually granted.",
+      "of": "1e57391c",
+      "at": [
+        "charlotte-country-day:sections[3].figureNote2"
+      ],
+      "t": ""
+    },
+    {
+      "text": "$220K",
+      "of": "2cdec2b6",
+      "at": [
+        "charlotte-country-day:sections[3].ladder[0].gift"
+      ],
+      "t": ""
+    },
+    {
+      "text": "of tuition · $9,900/yr",
+      "of": "f670b4a3",
+      "at": [
+        "charlotte-country-day:sections[3].ladder[0].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "$440K",
+      "of": "2d408d06",
+      "at": [
+        "charlotte-country-day:sections[3].ladder[1].gift"
+      ],
+      "t": ""
+    },
+    {
+      "text": "of tuition · $19,800/yr",
+      "of": "5cc9a0eb",
+      "at": [
+        "charlotte-country-day:sections[3].ladder[1].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "$660K",
+      "of": "42e3bbde",
+      "at": [
+        "charlotte-country-day:sections[3].ladder[2].gift"
+      ],
+      "t": ""
+    },
+    {
+      "text": "of tuition · $29,700/yr",
+      "of": "f4fd6f31",
+      "at": [
+        "charlotte-country-day:sections[3].ladder[2].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "$880K",
+      "of": "948b045e",
+      "at": [
+        "charlotte-country-day:sections[3].ladder[3].gift"
+      ],
+      "t": ""
+    },
+    {
+      "text": "of tuition · $39,600/yr",
+      "of": "1729ec83",
+      "at": [
+        "charlotte-country-day:sections[3].ladder[3].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Donor gift level → intended share of a student's tuition. Roughly $6,000/yr more can be attached for ancillaries — the same categories Section 02 flags as unpriced. Awarded on demonstrated need via Clarity.",
+      "of": "00de0834",
+      "at": [
+        "charlotte-country-day:sections[3].figureNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "No merit track",
+      "of": "d185f814",
+      "at": [
+        "charlotte-country-day:sections[3].boxes[0].title",
+        "cannon:sections[3].boxes[0].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A family cannot apply for an academic, arts or athletic scholarship — the school does not offer one. Individual endowed funds carry published criteria (e.g. full tuition + ancillaries for an entire career; four years for a scholar-athlete; K–4 full tuition).",
+      "of": "7d8d0073",
+      "at": [
+        "charlotte-country-day:sections[3].boxes[0].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Sibling discounts · employee tuition remission · clergy/military/first-responder discounts · indexed or sliding-scale tuition · how many named scholarships are granted each year, and at what size.",
+      "of": "f4cf1d24",
+      "at": [
+        "charlotte-country-day:sections[3].boxes[1].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "10%",
+      "of": "5433b6b3",
+      "at": [
+        "charlotte-country-day:sections[4].plans[0].figure"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Credited toward tuition — a timing obligation, not an extra charge. Aid applicants pay a **reduced, refundable** deposit if the award isn't enough to attend (amount not published).",
+      "of": "ccb198e2",
+      "at": [
+        "charlotte-country-day:sections[4].plans[0].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Due by 15 July. No prepayment discount published.",
+      "of": "5185eb11",
+      "at": [
+        "charlotte-country-day:sections[4].plans[1].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Two instalments",
+      "of": "3a10e293",
+      "at": [
+        "charlotte-country-day:sections[4].plans[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Equal payments in July and January. No fee published.",
+      "of": "a01ab135",
+      "at": [
+        "charlotte-country-day:sections[4].plans[2].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Automatic bank draft. Whether it carries a fee or interest is not stated — absence of a published fee is not a statement that none is charged.",
+      "of": "59a9dbbf",
+      "at": [
+        "charlotte-country-day:sections[4].plans[3].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NOT PUBLISHED — CONTRACT TERMS",
+      "of": "a2975e7d",
+      "at": [
+        "charlotte-country-day:sections[4].boxes[0].tag",
+        "cannon:sections[4].boxes[1].tag",
+        "davidson-day:sections[4].boxes[0].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Late-payment policy · mid-year withdrawal obligation · plan fees or interest · third-party lenders · tuition refund insurance — these live in the enrolment contract, which is not public.",
+      "of": "74d19b9d",
+      "at": [
+        "charlotte-country-day:sections[4].boxes[0].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "full JK–12 run at today's published rates — our arithmetic, explicitly not a projection",
+      "of": "5577b7d9",
+      "at": [
+        "charlotte-country-day:sections[5].stats[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Two years of documented rates",
+      "of": "d8cc40fb",
+      "at": [
+        "charlotte-country-day:sections[5].boxes[0].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Every band moved **+5.0%** from 2025–26 to 2026–27 — a uniform increase across the table (see the Section 01 chart). Two data points don't make a pattern. **Aid vs tuition growth can't be assessed:** tuition is year-tagged, the aid figures are not.",
+      "of": "dc082460",
+      "at": [
+        "charlotte-country-day:sections[5].boxes[0].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Nothing is published for families above the typical aid threshold but below comfortable full payment — no sliding scale, no indexed tuition. A gap shared by most independent schools, not a finding about this one.",
+      "of": "c6b9f383",
+      "at": [
+        "charlotte-country-day:sections[5].boxes[1].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Which school year does each published aid figure describe — and is the share 20% or 21%, against which enrolment?",
+      "of": "4698fa9c",
+      "at": [
+        "charlotte-country-day:sections[5].questions[0]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What are this year's average and median awards, the range — and does any award cover full tuition?",
+      "of": "d9819c6a",
+      "at": [
+        "charlotte-country-day:sections[5].questions[1]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What are the dollar rates for Extended Day, enrichment, bus, tutoring, dining hall and MS PE uniforms?",
+      "of": "cf063634",
+      "at": [
+        "charlotte-country-day:sections[5].questions[2]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Does the ten-month plan carry a fee or interest, and is there a discount for paying in full?",
+      "of": "0cba5a08",
+      "at": [
+        "charlotte-country-day:sections[5].questions[3]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What is the withdrawal obligation mid-year, the late-payment policy, and is refund insurance offered?",
+      "of": "a879487e",
+      "at": [
+        "charlotte-country-day:sections[5].questions[4]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Is there a sibling discount or employee remission — and what is the reduced deposit for aid applicants?",
+      "of": "8f778596",
+      "at": [
+        "charlotte-country-day:sections[5].questions[5]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Tuition assistance while enrolled — not college aid. Not financial advice. Roughly 81% of this series' questions could be answered from published sources.",
+      "of": "82baa058",
+      "at": [
+        "cannon:framing[2].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Five bands, priced by band rather than by individual grade. What tuition includes is not stated affirmatively. The live site publishes only current rates, but archived copies of the tuition page carry 2021–22 through 2025–26 — every band rose about 4.5% into 2026–27.",
+      "of": "3fab0e46",
+      "at": [
+        "cannon:sections[0].figureNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Half-day, part-week or partial-enrolment variants for JrK or K",
+      "of": "a150749e",
+      "at": [
+        "cannon:sections[0].bullets[1]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What tuition includes, stated affirmatively",
+      "of": "90a0ccf4",
+      "at": [
+        "cannon:sections[0].bullets[2]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Rate history on the live site — recovered only from archived copies",
+      "of": "204aa082",
+      "at": [
+        "cannon:sections[0].bullets[3]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Eleven confirmed components for a Grade 9 student — 4 unpriced",
+      "of": "695dc58c",
+      "at": [
+        "cannon:sections[1].componentsTitle"
+      ],
+      "t": ""
+    },
+    {
+      "text": "All-in estimate not built: ~36% unpriced > 33% threshold",
+      "of": "5d829c51",
+      "at": [
+        "cannon:sections[1].componentsAside"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Required class trip · $400 (gr. 9)",
+      "of": "7850f3f7",
+      "at": [
+        "cannon:sections[1].components[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Student books · $300–500",
+      "of": "2ad73278",
+      "at": [
+        "cannon:sections[1].components[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Personal device · $600–1,200",
+      "of": "38e87228",
+      "at": [
+        "cannon:sections[1].components[3].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Winterm course · $0–500",
+      "of": "7d6a212b",
+      "at": [
+        "cannon:sections[1].components[4].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "AP exams · $98 per exam",
+      "of": "f18009e6",
+      "at": [
+        "cannon:sections[1].components[5].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Bus service · $1,990 round-trip",
+      "of": "4fdba1b4",
+      "at": [
+        "cannon:sections[1].components[6].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Annual dining figure · no rate",
+      "of": "c92fdf9b",
+      "at": [
+        "cannon:sections[1].components[7].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Athletic team packs & equipment · no rate",
+      "of": "35689cec",
+      "at": [
+        "cannon:sections[1].components[8].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Arts supplies & instrument rental · no rate",
+      "of": "b09384e7",
+      "at": [
+        "cannon:sections[1].components[9].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Tuition Refund Plan · no rate",
+      "of": "4c9253b4",
+      "at": [
+        "cannon:sections[1].components[10].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A narrow miss: the estimate is built only where at least two-thirds of components can be priced. For the Lower School the question does not arise — the 2026–27 fee document lists cost categories with no dollar figures at all, though the 2024–25 edition did price them.",
+      "of": "bdcc3e99",
+      "at": [
+        "cannon:sections[1].componentsNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Deposit, 2026–27",
+      "of": "c9911f27",
+      "at": [
+        "cannon:sections[1].boxes[0].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "**$2,000**, or **$650** for families applying for aid — both non-refundable, both applied toward tuition. Because both are credited against the bill, the deposit is not an additional cost; it is the first instalment.",
+      "of": "185be8da",
+      "at": [
+        "cannon:sections[1].boxes[0].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Bus tariff, 2026–27",
+      "of": "f1a294db",
+      "at": [
+        "cannon:sections[1].boxes[1].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Round-trip $1,990 first child · $1,890 each sibling. One-way $1,270 · $1,200. Activity bus $290 per athletic season. Drop-in $12.00 daily one-way, plus a new $200 one-time annual registration fee.",
+      "of": "57ec43a8",
+      "at": [
+        "cannon:sections[1].boxes[1].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "15 Feb 2026",
+      "of": "2af40f40",
+      "at": [
+        "cannon:sections[2].timeline[0].when"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Single deadline for the 2026–27 year — application via **Clarity**",
+      "of": "cbd72486",
+      "at": [
+        "cannon:sections[2].timeline[0].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "1 Mar",
+      "of": "5970a7d4",
+      "at": [
+        "cannon:sections[2].timeline[1].when"
+      ],
+      "t": ""
+    },
+    {
+      "text": "First-round **admission** decisions for applications received by 15 Jan — aid decisions are decided separately",
+      "of": "e883dd9e",
+      "at": [
+        "cannon:sections[2].timeline[1].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "When an aid decision reaches a family, or whether it arrives before, with or after the admission decision",
+      "of": "a9bba2f5",
+      "at": [
+        "cannon:sections[2].timeline[2].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Grants determined annually; families reapply each year through Clarity so awards reflect changed circumstances",
+      "of": "88263b63",
+      "at": [
+        "cannon:sections[2].timeline[3].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "**Clarity Tuition** · $65 per household, non-refundable, charged by the platform · waivers applied automatically for qualifying incomes. Flat regardless of how many children or schools. Decided by a committee of the director of financial aid, the director of business and finance, and an associate director of admission.",
+      "of": "b9812ef2",
+      "at": [
+        "cannon:sections[2].boxes[0].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Both custodial and non-custodial parents must each complete a Clarity application. Remarriage creates a new family unit — step-parent income and assets are treated as relevant, though obligations to a new family are considered. Cannon will not allocate a grant proportionally between two households.",
+      "of": "6a114f6b",
+      "at": [
+        "cannon:sections[2].boxes[1].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "No appeals or reconsideration process · no mid-year change-of-circumstance policy · no release date for aid decisions. **Hazard:** the total awarded appears only in the Student Profile, a document written for college admissions offices — a family reading the financial aid page top to bottom would never encounter it.",
+      "of": "079beec5",
+      "at": [
+        "cannon:sections[2].boxes[2].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Published grant ranges by band, 2026–27",
+      "of": "ebf7a731",
+      "at": [
+        "cannon:sections[3].figureCaption"
+      ],
+      "t": ""
+    },
+    {
+      "text": "JrK–Grade 4",
+      "of": "f3034cba",
+      "at": [
+        "cannon:sections[3].ranges[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Scale $0–26,000. No grant covers full tuition. The school also states that maximum-grant families pay $3,000 per student per year — which does not reconcile with the $26,000 ceiling against $32,070 Grades 9–12 tuition, a difference of $6,070 rather than $3,000.",
+      "of": "95d9a9b8",
+      "at": [
+        "cannon:sections[3].figureNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "On two separate pages Cannon states plainly that it offers no merit scholarships, and specifically no academic, arts or athletics scholarships. All grants are strictly need-based, and a grant is not a loan — it is not owed back to the school.",
+      "of": "89ba630b",
+      "at": [
+        "cannon:sections[3].boxes[0].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "No sibling tuition discount · no employee remission · no clergy, military or first-responder discount · no indexed or variable tuition. The pages are silent rather than negative — silence is not a stated \"no\". A sibling rate *is* published for bus service ($1,890 vs $1,990 round-trip).",
+      "of": "68fd6e29",
+      "at": [
+        "cannon:sections[3].boxes[1].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "State programme ending",
+      "of": "a94fd243",
+      "at": [
+        "cannon:sections[3].boxes[2].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "North Carolina Opportunity Scholarship participation concludes after 2025–26. Recipients ran 11 ($45,000) in 2020–21 to 149 ($654,168) in 2024–25; the 2025–26 figure is not published in a retrieved source.",
+      "of": "200eb910",
+      "at": [
+        "cannon:sections[3].boxes[2].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Annual",
+      "of": "f65af38a",
+      "at": [
+        "cannon:sections[4].plans[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Tuition minus deposit, due 1 June. No fee published.",
+      "of": "3fd080e1",
+      "at": [
+        "cannon:sections[4].plans[0].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Bi-annual",
+      "of": "acf5d568",
+      "at": [
+        "cannon:sections[4].plans[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Two equal payments due 1 June and 1 November. No fee published.",
+      "of": "580d05c4",
+      "at": [
+        "cannon:sections[4].plans[1].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Ten-month bank draft",
+      "of": "6701f0d4",
+      "at": [
+        "cannon:sections[4].plans[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Ten equal monthly payments drafted on the 5th or the 15th, June through March. **No administrative fee.**",
+      "of": "c1ae61c0",
+      "at": [
+        "cannon:sections[4].plans[2].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Ten-month by check",
+      "of": "fe87073c",
+      "at": [
+        "cannon:sections[4].plans[3].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Ten equal monthly payments due on the 1st, June through March. **$200** administrative fee for 2026–27, due 1 June.",
+      "of": "11442152",
+      "at": [
+        "cannon:sections[4].plans[3].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Card payments",
+      "of": "2a66843e",
+      "at": [
+        "cannon:sections[4].boxes[0].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Accepted for any plan except the ten-month bank draft. American Express, Discover, MasterCard and VISA — VISA credit cards only, no VISA debit. **3.5% convenience fee** on all card transactions.",
+      "of": "41281024",
+      "at": [
+        "cannon:sections[4].boxes[0].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What a family owes on withdrawal before the year begins · what is owed on mid-year departure · whether any tuition is refundable and on what schedule · late-payment consequences · arrears and enrolment. No prepayment discount and no third-party lender is named. The Tuition Refund Plan's cost, and whether it is required, sit in a document that is not publicly readable.",
+      "of": "eba30951",
+      "at": [
+        "cannon:sections[4].boxes[1].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "full JrK–12 run at 2026–27 rates — our arithmetic, tuition only, not a projection",
+      "of": "b70c558d",
+      "at": [
+        "cannon:sections[5].stats[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Aid trend — two years",
+      "of": "d1fad686",
+      "at": [
+        "cannon:sections[5].boxes[0].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Awarded aid moved **$2,700,000 to 23% of students (2024–25)** to **$3,000,000 to 24% (2025–26)**. Tuition over the same span rose about 4.5%, so aid grew roughly in step with price.",
+      "of": "7ca2caef",
+      "at": [
+        "cannon:sections[5].boxes[0].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "SIX YEARS OF RATES, FROM THE ARCHIVE",
+      "of": "fc609b2c",
+      "at": [
+        "cannon:sections[5].boxes[1].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The live site publishes only the current year, but archived copies carry 2021–22 onward. Most bands track 2–4.5% a year, with one exception: **Grades 5–8 jumped 8.5% in 2023–24 and 7.5% in 2024–25**, well outside the pattern elsewhere in the table — worth asking about if your child is entering middle school.",
+      "of": "c4b3d0f3",
+      "at": [
+        "cannon:sections[5].boxes[1].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "FEE TREND, 2024–25 → 2026–27",
+      "of": "fca846fa",
+      "at": [
+        "cannon:sections[5].boxes[2].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Senior trip $2,000 → $2,300 · sophomore trip $1,000 → $1,300 · Washington D.C. trip $1,100 → $1,200 · Grade 9 trip $500 → **$400 (down)** · AP exam, marine science trip, Chromebook fee and Grade 5 trip all unchanged.",
+      "of": "80480d2f",
+      "at": [
+        "cannon:sections[5].boxes[2].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Which figure governs the largest grants — the published $26,000 Grades 9–12 ceiling, or the statement that maximum-grant families pay $3,000 per student per year?",
+      "of": "9ba6a4c8",
+      "at": [
+        "cannon:sections[5].questions[0]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What is the average grant, and the median? How many students or families receive aid?",
+      "of": "115e4550",
+      "at": [
+        "cannon:sections[5].questions[1]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "When is a financial aid decision released relative to the admission decision?",
+      "of": "fb77eacc",
+      "at": [
+        "cannon:sections[5].questions[2]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Is there a process for appealing an award, and what happens if our circumstances change mid-year?",
+      "of": "410839e7",
+      "at": [
+        "cannon:sections[5].questions[3]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What does the Tuition Refund Plan cost, and is it required?",
+      "of": "03e217f3",
+      "at": [
+        "cannon:sections[5].questions[4]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What should we budget for dining, athletic team packs, and arts supplies or instrument rental?",
+      "of": "1c1a22bd",
+      "at": [
+        "cannon:sections[5].questions[5]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What do Lower School activities cost? The current fee document names them without pricing them.",
+      "of": "3e898d27",
+      "at": [
+        "cannon:sections[5].questions[6]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What were the published tuition rates for each band in the last three years?",
+      "of": "03ce9004",
+      "at": [
+        "cannon:sections[5].questions[7]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2026–27 school year · figures as of 22 Jul 2026",
+      "of": "6f9ac510",
+      "at": [
+        "davidson-day:meta"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The current-year table overwrites the previous one, so no rate history is recoverable. Undated figures are flagged, not guessed.",
+      "of": "b669af4d",
+      "at": [
+        "davidson-day:framing[1].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Tuition assistance while enrolled — not college aid. Not financial advice.",
+      "of": "e6f51e0f",
+      "at": [
+        "davidson-day:framing[2].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Tuition by Division",
+      "of": "60483d8b",
+      "at": [
+        "davidson-day:sections[0].navTitle"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Tuition by Grade Level",
+      "of": "3e0b286d",
+      "at": [
+        "davidson-day:sections[0].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Early Childhood",
+      "of": "d5d717c0",
+      "at": [
+        "davidson-day:sections[0].bands[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Lower (K–4)",
+      "of": "a8f8b257",
+      "at": [
+        "davidson-day:sections[0].bands[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Four division bands covering ages two through 12th grade, a $4,320 spread from lowest to highest. The school does not publish rate history, but archived copies of the tuition page carry 2022–23 onward — every division has risen about 4.5% a year since 2023–24. Half-day options, new-vs-returning rates, and what tuition includes are all unpublished.",
+      "of": "7344d8ad",
+      "at": [
+        "davidson-day:sections[0].figureNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The Early Childhood bar compares full-time rates only. Through 2025–26 that band was six separately priced options (half-day from $12,290); for 2026–27 it collapsed to one row, so anything but the full-time figure would be a false comparison.",
+      "of": "8eb95dd5",
+      "at": [
+        "davidson-day:sections[0].figureNote2"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Roughly a dozen components — only 5 priced",
+      "of": "96ad0f44",
+      "at": [
+        "davidson-day:sections[1].componentsTitle"
+      ],
+      "t": ""
+    },
+    {
+      "text": "All-in estimate not built: too few parts priced",
+      "of": "0299698c",
+      "at": [
+        "davidson-day:sections[1].componentsAside"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Refund Plan fee · 2.8% of tuition",
+      "of": "9460c44b",
+      "at": [
+        "davidson-day:sections[1].components[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Yearbook · $75",
+      "of": "138413b0",
+      "at": [
+        "davidson-day:sections[1].components[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Technology, gr. 7–12 · $500",
+      "of": "2f33bc3b",
+      "at": [
+        "davidson-day:sections[1].components[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Field Experience, gr. 4–12 · $500–1,000",
+      "of": "0dee9074",
+      "at": [
+        "davidson-day:sections[1].components[3].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Textbooks, gr. 7–12 · $300–1,000",
+      "of": "d0d88a0c",
+      "at": [
+        "davidson-day:sections[1].components[4].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Extended care · no rate",
+      "of": "876349bb",
+      "at": [
+        "davidson-day:sections[1].components[5].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Lunch · no rate on the public site",
+      "of": "2399b1e1",
+      "at": [
+        "davidson-day:sections[1].components[6].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Athletics team packs & equipment · no rate",
+      "of": "7a50e271",
+      "at": [
+        "davidson-day:sections[1].components[7].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Arts supplies & instruments · no rate",
+      "of": "b3484dfc",
+      "at": [
+        "davidson-day:sections[1].components[8].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Summer programmes · no rate",
+      "of": "cd8b27d9",
+      "at": [
+        "davidson-day:sections[1].components[9].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Admission application fee · no amount",
+      "of": "037a6260",
+      "at": [
+        "davidson-day:sections[1].components[10].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Current enrollment deposit · no amount",
+      "of": "7f5641ec",
+      "at": [
+        "davidson-day:sections[1].components[11].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A range built mostly from missing parts would look authoritative and mislead, so we have not built one. Extended care, athletics and arts are the notable gaps — all three are also named in the aid exclusions, so they are confirmed real costs a family pays on top of an award.",
+      "of": "d39a3226",
+      "at": [
+        "davidson-day:sections[1].componentsNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NOT PUBLISHED — THE DEPOSIT",
+      "of": "f4759391",
+      "at": [
+        "davidson-day:sections[1].boxes[0].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The deposit was **$2,400 per student for 2022–23**; the current amount is not published. The school states only that it appears inside each family's Enrollment Tuition Contract, behind the family portal, and is drafted immediately by bank transfer once the contract is signed. Refundability is not published either.",
+      "of": "bf061e80",
+      "at": [
+        "davidson-day:sections[1].boxes[0].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Uniforms & transportation",
+      "of": "6c4144c8",
+      "at": [
+        "davidson-day:sections[1].boxes[1].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Uniforms are required (Early Preschool exempt); families buy from general retailers with the logo applied by a local vendor, so garment prices are set by vendors and not published by the school as a fee. No school-provided busing or transportation charge was found — most likely because none is offered rather than a price being withheld.",
+      "of": "b6995b34",
+      "at": [
+        "davidson-day:sections[1].boxes[1].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Aid Process and Timeline",
+      "of": "690355d8",
+      "at": [
+        "davidson-day:sections[2].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "15 Feb",
+      "of": "860084f6",
+      "at": [
+        "davidson-day:sections[2].timeline[0].when"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Single deadline, recurring every year — application via **Clarity**, with a Form 4506c so tax returns pull in directly",
+      "of": "77fd0cb1",
+      "at": [
+        "davidson-day:sections[2].timeline[0].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Early Mar",
+      "of": "9330bc34",
+      "at": [
+        "davidson-day:sections[2].timeline[1].when"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A Financial Aid Committee meets, then on a rolling basis, working from qualification guidance supplied by Clarity",
+      "of": "f87b12f1",
+      "at": [
+        "davidson-day:sections[2].timeline[1].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The award appears inside the Enrollment Tuition Contract — families review and sign within two weeks of receipt",
+      "of": "82d26287",
+      "at": [
+        "davidson-day:sections[2].timeline[2].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "There is no multi-year award; families reapply annually and the 15 February deadline recurs",
+      "of": "76e4615a",
+      "at": [
+        "davidson-day:sections[2].timeline[3].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "**Clarity Financial Aid** · **$60** charged on submission (2025–26 cycle guide). Families create a new Clarity account the first time they use the system. Aid is an award, not a loan — it is not repaid. Late applications are processed if funds remain.",
+      "of": "c8588f79",
+      "at": [
+        "davidson-day:sections[2].boxes[0].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Each parent is expected to complete a Clarity application and supply tax returns. The only stated exception is a divorce agreement assigning sole responsibility for educational expenses to one parent.",
+      "of": "0c177491",
+      "at": [
+        "davidson-day:sections[2].boxes[1].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "No appeals or reconsideration process · no mid-year change-of-circumstance policy · no public position on whether admission is need-blind or need-aware · the committee's composition. **Hazard:** retired aid pages still in search results describe Acclaim as being for rising 8th-graders and Wolter for rising 9th-graders in 2025–26 — the current live page says Class of 2030 and Upper School applicants.",
+      "of": "4b233a72",
+      "at": [
+        "davidson-day:sections[2].boxes[2].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Scholarships",
+      "of": "d4e0f258",
+      "at": [
+        "davidson-day:sections[3].navTitle"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Merit, Scholarships & Discounts",
+      "of": "78a72539",
+      "at": [
+        "davidson-day:sections[3].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "BOTH SCHOLARSHIPS REQUIRE NEED",
+      "of": "f3c105e4",
+      "at": [
+        "davidson-day:sections[3].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What each named scholarship covers",
+      "of": "27afc87f",
+      "at": [
+        "davidson-day:sections[3].figureCaption"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Neither is a pure merit award sitting on top of a need-based package — qualifying for need-based assistance is a precondition for each.",
+      "of": "50ae4548",
+      "at": [
+        "davidson-day:sections[3].figureNote2"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Acclaim",
+      "of": "b32001a7",
+      "at": [
+        "davidson-day:sections[3].ladder[0].gift"
+      ],
+      "t": ""
+    },
+    {
+      "text": "of tuition through graduation · Class of 2030",
+      "of": "10d6295c",
+      "at": [
+        "davidson-day:sections[3].ladder[0].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Wolter",
+      "of": "1ea6e210",
+      "at": [
+        "davidson-day:sections[3].ladder[1].gift"
+      ],
+      "t": ""
+    },
+    {
+      "text": "all but $500 of annual tuition · Upper School",
+      "of": "1c2f55a1",
+      "at": [
+        "davidson-day:sections[3].ladder[1].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Acclaim Scholars marks the school's 25th anniversary and expects a strong academic profile and exemplary character. The Wolter Family Foundation Scholarship is externally funded by a Cornelius-based family foundation and asks for strong recommendations and significant demonstrated need. Both are contingent on the student remaining in good standing.",
+      "of": "3c34c314",
+      "at": [
+        "davidson-day:sections[3].figureNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NOT PUBLISHED — THE AWARD CEILING'S ARITHMETIC",
+      "of": "41530101",
+      "at": [
+        "davidson-day:sections[3].boxes[0].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The school states no award covers full tuition and that maximum-award families pay **$3,000 per year, per student** (2026–27). Against published tuition that implies ceilings of $19,590 (Early Childhood) to $23,910 (Upper School) — our arithmetic, not a school figure. No share of students on aid, total aid budget, average or median award is published at all.",
+      "of": "52948594",
+      "at": [
+        "davidson-day:sections[3].boxes[0].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "No sibling, military or clergy discount is published, and no indexed or sliding-scale tuition. The school runs a separate enrollment process and an eleven-month plan for employee parents, but whether any tuition remission accompanies employment is not on the public record. How many scholarships are granted each year, and their renewal criteria beyond \"good standing,\" are also unpublished.",
+      "of": "e1c9fd17",
+      "at": [
+        "davidson-day:sections[3].boxes[1].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Payment Plans & Contract Terms",
+      "of": "7e5b3eac",
+      "at": [
+        "davidson-day:sections[4].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "11×",
+      "of": "8634b100",
+      "at": [
+        "davidson-day:sections[4].plans[0].figure"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Eleven-month plan",
+      "of": "5d89dd36",
+      "at": [
+        "davidson-day:sections[4].plans[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "An eleven-month plan exists; instalment due dates are not published. Employee-facing materials carry a Truth in Lending disclosure putting the additional cost of paying monthly at **$0** — but no equivalent statement is published for general families.",
+      "of": "a70febe1",
+      "at": [
+        "davidson-day:sections[4].plans[0].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2.8%",
+      "of": "3d65475a",
+      "at": [
+        "davidson-day:sections[4].plans[1].figure"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Refund Plan fee",
+      "of": "7a59e8a6",
+      "at": [
+        "davidson-day:sections[4].plans[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Of tuition, 2026–27 — without stating whether it is required or elective. On Upper School tuition of $26,910 that is a meaningful sum the public record does not resolve.",
+      "of": "d584b9c9",
+      "at": [
+        "davidson-day:sections[4].plans[1].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2 wk",
+      "of": "4276d9d9",
+      "at": [
+        "davidson-day:sections[4].plans[2].figure"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Contract signing window",
+      "of": "c1be19dc",
+      "at": [
+        "davidson-day:sections[4].plans[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Both parents log into the family portal under their own email addresses, select a payment option, initial to authorise drafting, and sign. The deposit is drafted immediately once submitted.",
+      "of": "d5ab6d31",
+      "at": [
+        "davidson-day:sections[4].plans[2].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "—",
+      "of": "113ed003",
+      "at": [
+        "davidson-day:sections[4].plans[3].figure"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Full menu not published",
+      "of": "f038ab10",
+      "at": [
+        "davidson-day:sections[4].plans[3].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Whether annual, semi-annual and monthly are all offered, and on what terms, is presented inside each family's contract rather than published. No prepayment discount; no external tuition lender is named — billing is handled in-house.",
+      "of": "2c45095c",
+      "at": [
+        "davidson-day:sections[4].plans[3].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Deposit refundability · a family's financial obligation on withdrawal or mid-year departure. These terms live in the Enrollment Tuition Contract, which is issued to enrolling families through the portal and is not publicly available.",
+      "of": "5025670d",
+      "at": [
+        "davidson-day:sections[4].boxes[0].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "full K–12 run at 2026–27 rates — our arithmetic, tuition only, not a projection",
+      "of": "acf3d189",
+      "at": [
+        "davidson-day:sections[5].stats[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "FOUR YEARS, FROM THE ARCHIVE",
+      "of": "309398c6",
+      "at": [
+        "davidson-day:sections[5].boxes[0].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The school publishes no rate history — the current-year table overwrites the previous one — but archived copies carry 2022–23 onward. Every division has risen a near-flat **~4.5% a year** since 2023–24, one of the steadiest patterns in this series. Early Childhood years are excluded from the run above because the number of years a child spends in that band varies.",
+      "of": "e19c0289",
+      "at": [
+        "davidson-day:sections[5].boxes[0].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A COMPARISON TRAP IN THE EARLY YEARS",
+      "of": "f19e0639",
+      "at": [
+        "davidson-day:sections[5].boxes[1].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The Early Childhood band was **restructured**, not merely repriced: six separately priced options through 2025–26 (half-day from $12,290) became a single row for 2026–27. Comparing the current row against the old half-day price would suggest an ~84% increase that never happened. The Section 01 chart compares full-time rates only.",
+      "of": "c7cd2946",
+      "at": [
+        "davidson-day:sections[5].boxes[1].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A THIRD-PARTY FIGURE, NOT A SCHOOL ONE",
+      "of": "f17ac422",
+      "at": [
+        "davidson-day:sections[5].boxes[2].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A commercial service that digitises Form 990 filings reports **$742,270** in grants and assistance to individuals for the fiscal year ending June 2024. We could not open the filed return to verify it, it sits two years behind the 2026–27 year, and it is not a school-published aid budget. It should not be read as one.",
+      "of": "483dba5e",
+      "at": [
+        "davidson-day:sections[5].boxes[2].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What share of students receive tuition assistance, and is that share of total enrollment or of families who applied?",
+      "of": "35a96998",
+      "at": [
+        "davidson-day:sections[5].questions[0]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What is the total aid budget this year, and what is the average award?",
+      "of": "1069b871",
+      "at": [
+        "davidson-day:sections[5].questions[1]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Is the 2.8% Refund Plan fee required, or can we decline it?",
+      "of": "4b7a5426",
+      "at": [
+        "davidson-day:sections[5].questions[2]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What is the current enrollment deposit, and under what conditions is it refundable?",
+      "of": "f06fceb8",
+      "at": [
+        "davidson-day:sections[5].questions[3]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What do we owe if we withdraw mid-year?",
+      "of": "107ed157",
+      "at": [
+        "davidson-day:sections[5].questions[4]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What do extended care, lunch, athletics team packs and arts materials cost per year?",
+      "of": "3ac857a7",
+      "at": [
+        "davidson-day:sections[5].questions[5]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Are admission decisions made with or without reference to our aid application?",
+      "of": "a0b5f334",
+      "at": [
+        "davidson-day:sections[5].questions[6]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What have tuition rates been for each of the last five years?",
+      "of": "49eac663",
+      "at": [
+        "davidson-day:sections[5].questions[7]"
+      ],
+      "t": ""
+    }
+  ]
+}
