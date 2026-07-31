@@ -109,11 +109,19 @@ live English at that field path; otherwise the runtime falls back to English
 (`npm run check:runtime`) recomputes every stamp from live `src/data/**`. It is
 the last check that runs without a browser.
 
-**One caveat on French:** like Kreyòl, it shipped **without a native-speaker
-review**, so its register — and whether leaving `Upper School` and
-`French III Honors` in English reads as deliberate or as an oversight — has
-never been checked by a speaker. The soft-spot list in
-`src/data/overlays/NOTES.md` is written for that pass.
+**French has a native-speaker review.** French speakers read the rendered pages
+and accepted the prose (2026-07-30) — register, hedge strength, and the choice
+to leave `Upper School` and `French III Honors` in English. French therefore
+ships in the same reviewed position as Spanish, Bangla and Telugu, **not**
+Kreyòl's.
+
+**Its two print-out rounds found four defects, three of them cross-locale, and
+every automated check had passed on all four.** Charlotte Latin (65pp) found a
+`18 h 00` clock tile, prose money that never localized, and a hardcoded `US$`
+symbol; Providence Day (80pp) found the topic-header stat tiles rendering raw.
+Three separate render paths were bypassing `localizeMoneyText()` — invisible to
+English readers by construction, which is why no checker saw them. Two new
+checks now close that class: `npm run check:currency` and `npm run check:money`.
 
 **Telugu keeps native lakh/crore grouping** — it is deliberately absent from
 `FIGURE_SAFE_NUMBERS`, the opposite of the `bn` line, so `$3,250,000` renders

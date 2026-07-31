@@ -1,10 +1,16 @@
 # French (Français) research-prose translation — rollout
 
-**Status:** **TRANSLATION AND VERIFICATION COMPLETE. AWAITING PRINT-OUTS.**
-All nine topics plus the 331-key chrome catalog are translated; every automated
-check passes; `fr` is live in `TRANSLATED` and `PROSE_TRANSLATED`. The browser
-print-outs are the one remaining step and they are **not** optional — see §3.
+**Status:** **COMPLETE AND REVIEWED.** All nine topics plus the 331-key chrome
+catalog translated; every automated check passes; both browser print-outs done
+and all four defects they found fixed; **native-speaker review passed
+(2026-07-30)**. `fr` is live in `TRANSLATED` and `PROSE_TRANSLATED`.
 Written and executed 2026-07-30.
+
+**French ships REVIEWED — in Spanish/Bangla/Telugu's position, not Kreyòl's.**
+French speakers read the rendered pages and accepted the prose. That closes the
+one failure mode no check in this repo can reach: register, naturalness, and
+whether leaving `Upper School` and `French III Honors` in English reads as
+deliberate rather than as an oversight.
 
 > ## START HERE (fresh session)
 >
@@ -23,14 +29,25 @@ Written and executed 2026-07-30.
 >
 > ### What is left
 >
-> **The browser print-outs, and nothing else.** Providence Day AND Charlotte
-> Latin, in a real browser, with every `<details>` panel expanded, checking an
-> unabbreviated 7-digit figure. Then grep the RENDERED page for English in
-> table cells, chips and source lines. Full instructions in §3.
+> **Nothing.** Read this doc for the METHOD, not for open work.
 >
-> Every Telugu defect was render-layer and invisible to all five checkers. Two
-> of the ht defects were not even locale-specific. Do not treat a clean checker
-> run as a substitute.
+> ### The print-out rounds
+>
+> | Round | School | Result |
+> |---|---|---|
+> | 1 | Charlotte Latin (real browser, 65pp) | **3 defects** — see §4 |
+> | 2 | Providence Day (real browser, 80pp) | **1 defect** — stat tiles |
+>
+> **Every one was render-layer, and every automated check had passed.** Three
+> of the four were NOT French-specific: two affect Spanish identically and one
+> affects `te`/`ht`/`en` too. This is the fourth consecutive rollout where the
+> print-out found what no checker could — do not treat a clean checker run as a
+> substitute for it.
+>
+> Providence Day earned its place as the second school. Latin's tiles read
+> `$36,500` / `$3.25M` — wrong, but only once you know. Providence Day puts
+> `$3.68M` and `3 683 971 $US` on the *same document*, which is what made the
+> contradiction unmissable.
 >
 > ### Progress — all translated, all verified
 >
@@ -77,16 +94,6 @@ Written and executed 2026-07-30.
 > | Register | **formal `vous` throughout** | §1 |
 > | Identifiers | Latin/English — institutions, AP/Honors, platforms | §1 |
 > | French-language course names | **FROZEN — do not translate** | §1a |
->
-> ### The loop, per topic
->
-> ```
-> node scripts/i18n_extract.mjs --topic <t> --lang fr      # first time only
-> # translate the `t` fields in src/data/overlays/work/<topic>.fr.json
-> python3 scripts/check_figures.py --topic <t> --lang fr   # AFTER EVERY TOPIC
-> node scripts/i18n_build_overlay.mjs --topic <t> --lang fr
-> node scripts/check_translations.mjs --lang fr            # coverage + drift
-> ```
 >
 > Run the **figure sweep after every topic**, not at the end — it caught a real
 > defect in Bangla's `sports` after that topic was already marked complete.
@@ -370,8 +377,10 @@ skipping one lets a class through.
 | 3 | `check_hash_parity.mjs` | ✅ 8 cases, build == runtime |
 | 4 | `check_figures.py --lang fr` | ✅ all 9 topics, figures intact |
 | 5 | `check_fr_identifiers.mjs` | ✅ 5,897 strings, no drift (§1a) |
+| 5b | `check_currency_shape.mjs` | ✅ all 6 locales consistent |
+| 5c | `check_money_render_paths.mjs` | ✅ every money render site localizes |
 | 6 | `check_runtime_resolution.mjs --lang fr` | ✅ 5,924 stamps recompute |
-| 7 | **Browser print-out** | ⬜ **NOT DONE — the remaining step** |
+| 7 | **Browser print-out** | ✅ 2 rounds, 4 defects, all fixed (§4) |
 
 Checks 5 and 6 are new in this rollout and are wired into `package.json` as
 `npm run check:fr` and `npm run check:runtime`.
@@ -446,13 +455,63 @@ French-specific expectations for round 1:
   not merely be protected by it.
 - No drifted French course names (§1a).
 
-### Review status — UNREVIEWED
+### Review status — REVIEWED AND ACCEPTED, 2026-07-30
 
-No native-speaker review has happened. French ships in **Kreyòl's position, not
-Spanish's**: register and naturalness have never been checked by a speaker, and
-that is the one failure mode no checker in this repo can reach. If a French
-speaker becomes available, start with the §1 register call and the §1a
-identifier list.
+French speakers read the rendered pages and accepted the prose. French
+therefore ships in the same position as Spanish, Bangla and Telugu — **not**
+Kreyòl's. The formal-`vous` register call (§1), the hedge strengths, and the
+decision to leave `Upper School` and `French III Honors` in English (§1a) all
+stand as reviewed rather than merely asserted.
+
+---
+
+## 4. What the print-outs found — four defects, three of them cross-locale
+
+Recorded in full because the pattern matters more than the individual bugs.
+
+### Round 1 — Charlotte Latin, 65 pages
+
+1. **`18 h 00` in a stat tile** *(fr only, translation error)*. Every other time
+   on the page read 12-hour (`sortie 1:30`, `jusqu'à 6:00 p.m.`). One string out
+   of 205, translated in the first topic before the clock convention was
+   settled. These times are matched against the school's own bell schedule, so
+   they keep `H:MM`.
+
+2. **Prose money never localized** *(fr AND es)*. `RichText` rendered card prose
+   verbatim while the sibling `price`/`fee`/`value` fields localized, so a
+   coverage bar read `1 725 $US/SEM.` beside a callout reading `$1,725`.
+   214 prose strings carry a `$`. Fixed in all three `RichText` copies.
+
+3. **Hardcoded currency symbol** *(fr, te, ht, en)*. The abbreviated-magnitude
+   branch hardcoded `US$` — correct for exactly one locale, Spanish, the one it
+   was written against. **Same shape as the bug PR #61 fixed**, surviving in the
+   *symbol* after being fixed in the *placement*.
+
+### Round 2 — Providence Day, 80 pages
+
+4. **Stat tiles bypassed `localizeMoneyText`** *(all non-en locales)*.
+   `SchoolDetail` rendered `vm.values[slug]` raw, so `$3.68M` sat thirteen pages
+   above a report reading `3 683 971 $US`. The most visible element on every
+   school page — and `Compare.tsx` had been localizing the *same data*
+   correctly all along.
+
+### The lesson, and the two checkers it produced
+
+**Three separate paths to the screen were bypassing `localizeMoneyText`.** Every
+instance is invisible to English readers, which is why none surfaced until a
+non-English print-out. Two new checks now close that gap:
+
+- **`check_currency_shape.mjs`** (`npm run check:currency`) — asserts every
+  money form in a locale carries the same symbol on the same side, and that
+  English never moves.
+- **`check_money_render_paths.mjs`** (`npm run check:money`) — greps JSX for
+  figure-shaped expressions rendered without localizing, with a `REVIEWED` list
+  for fields hand-verified never to hold one. **It immediately found 8 sites
+  nobody had thought to check** (financial-aid figure captions and chart notes),
+  which were localized defensively rather than marked safe on today's values.
+
+Both were verified in *both* directions — they pass on the fixed code and fail
+against the pre-fix code.
 
 ### Print-out — load-bearing, not ceremony
 

@@ -1128,10 +1128,11 @@ that field path; if it does not, the runtime falls back to English **silently**
 nothing verified it outside a browser. The new script recomputes all 5,924
 stamps from live `src/data/**`, and passes for `es`/`bn`/`ht`/`te` too.
 
-### Soft spots for a future native-speaker review
+### Native-speaker review — PASSED, 2026-07-30
 
-French ships **UNREVIEWED**, in Kreyòl's position rather than Spanish's. If a
-speaker becomes available, start here:
+French speakers read the rendered pages and accepted the prose. French ships
+**REVIEWED**, in Spanish/Bangla/Telugu's position rather than Kreyòl's. The
+list below is kept as a record of what the review covered, not as work owed:
 
 - **Register.** Formal `vous` throughout was the owner's call. The corpus is
   mostly third-person declarative, so `vous` surfaces mainly in the "Ask on the
@@ -1145,3 +1146,36 @@ speaker becomes available, start here:
 - **Division names.** `Upper School` / `Middle School` / `Lower School` stay
   English as searchable identifiers. This is the choice most likely to feel
   wrong to a native reader, and it is deliberate.
+
+### The print-outs — four defects, three of them cross-locale
+
+Two rounds, both in a real browser with every panel expanded. **Every automated
+check had passed on all four.**
+
+| Round | School | Found |
+|---|---|---|
+| 1 | Charlotte Latin, 65pp | `18 h 00` clock tile · prose money unlocalized · hardcoded `US$` |
+| 2 | Providence Day, 80pp | topic-header stat tiles rendering raw |
+
+Only the first was French-specific. Two affect Spanish identically; one affects
+`te`/`ht`/`en` too.
+
+**The through-line: three separate render paths were bypassing
+`localizeMoneyText()`** — `RichText` in three card components, the stat tiles in
+`SchoolDetail`, and (found by the new checker rather than by eye) the
+financial-aid figure captions. Every instance is invisible to an English reader
+by construction, since `localizeMoneyText` is a no-op on `en`. That is why four
+rollouts' worth of checkers never saw them.
+
+Two checks now close it, both verified in *both* directions:
+
+- `npm run check:currency` — every money form in a locale carries the same
+  symbol on the same side; English never moves.
+- `npm run check:money` — greps JSX for figure-shaped expressions rendered
+  without localizing, with a `REVIEWED` list for fields hand-verified never to
+  hold one. It immediately found 8 sites nobody had thought to check.
+
+**Why the second school mattered.** Latin's tiles read `$36,500` / `$3.25M` —
+wrong, but only once you know. Providence Day puts `$3.68M` and `3 683 971 $US`
+on the *same document*. Two schools is not belt-and-braces; it is what makes a
+defect legible.
