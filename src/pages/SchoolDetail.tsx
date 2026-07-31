@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import {
   schoolBySlug,
   brandOf,
@@ -255,6 +255,28 @@ function ArrowIcon() {
   )
 }
 
+/* Double chevron — points down to "expand all", up to "collapse all". The `up`
+   flag flips it so one icon serves both states of the print toolbar. */
+function ExpandAllIcon({ up = false }: { up?: boolean }) {
+  return (
+    <svg
+      width="14"
+      height="14"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+      focusable="false"
+      style={up ? { transform: 'rotate(180deg)' } : undefined}
+    >
+      <path d="M6 9l6 6 6-6M6 4l6 6 6-6" />
+    </svg>
+  )
+}
+
 /* The hash router owns location.hash, so a raw "#topic-…" anchor would be
    parsed as an unknown route and bounce home. Scroll in place instead. */
 function scrollToTopic(e: React.MouseEvent, slug: string) {
@@ -279,6 +301,23 @@ export function SchoolDetail({ slug }: { slug: string }) {
   /* The last-clicked research area in the nav keeps the active (foreground)
      treatment so the reader can see which section they jumped to. */
   const [activeSlug, setActiveSlug] = useState<string | null>(null)
+
+  /* Every research card is an uncontrolled <details>, which is what lets a
+     reader open just the ones they want. The print toolbar drives them all at
+     once through the DOM rather than by lifting `open` into state on each card
+     — the goal is a page ready to print, and this touches no card logic.
+     `allOpen` only tracks which label/icon the button shows. */
+  const mainRef = useRef<HTMLElement>(null)
+  const [allOpen, setAllOpen] = useState(false)
+  const setAllDetails = (open: boolean) => {
+    /* Every <details> inside the report — the top-level cards and the nested
+       club-cluster rows both hold content a printed page needs, so open them
+       all, not just the cards. */
+    mainRef.current
+      ?.querySelectorAll<HTMLDetailsElement>('details')
+      .forEach((d) => { d.open = open })
+    setAllOpen(open)
+  }
 
   const covered = school ? topicsForSchool(slug) : []
 
@@ -419,7 +458,19 @@ export function SchoolDetail({ slug }: { slug: string }) {
           </p>
         </aside>
 
-        <main className="dossier-main">
+        <main className="dossier-main" ref={mainRef}>
+          {/* Print affordance: open (or close) every research card in one click
+              so the page is ready to print. Hidden from print output itself. */}
+          <div className="expand-all-bar no-print">
+            <button
+              type="button"
+              className="btn ghost small expand-all-btn"
+              onClick={() => setAllDetails(!allOpen)}
+            >
+              <ExpandAllIcon up={allOpen} />
+              {allOpen ? tr('school.collapseAll') : tr('school.expandAll')}
+            </button>
+          </div>
           {brand.welcomeVideoUrl && (
             <WelcomeVideo name={school.name} url={brand.welcomeVideoUrl} />
           )}
