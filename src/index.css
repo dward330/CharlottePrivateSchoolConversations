@@ -1858,6 +1858,13 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   .bp-corner,
   .no-print,
   .navlink { display: none; }
+  /* The dossier side-nav is a sticky jump-menu. In print a sticky element
+     re-lays itself at the top of every page, which is what put the block of
+     overlapping RTL nav text across the top of each Farsi print-out page. The
+     topics it links to are already listed in the header, so it prints nothing;
+     the layout then collapses from two columns to one. */
+  .dossier-nav { display: none; }
+  .dossier-layout { display: block; }
   /* Sticky positioning repeats or clips elements across printed pages. */
   .topnav,
   table.compare thead th,
@@ -1875,6 +1882,24 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   table.compare tr { break-inside: avoid; }
   .topic-section { break-before: auto; }
   a { text-decoration: none; }
+
+  /* Force every research card OPEN in print, whether or not the reader clicked
+     "Expand all". A closed <details> keeps its body in the DOM but the UA hides
+     it; overriding display here makes the full research note print regardless.
+     Without this the print-out is just the collapsed teasers — which is exactly
+     what the first Farsi print-out showed. */
+  .note-card > .note-card-body,
+  .clubrow > *:not(summary) { display: block !important; }
+  /* An open card normally claims the full grid row and runs two columns; closed
+     cards never got those rules, so pin them here too or the bodies overflow the
+     half-width collapsed card. Single column in print — RTL two-column flow is
+     not worth the page-break risk. */
+  .note-card { grid-column: 1 / -1 !important; }
+  .note-card .note-card-body { column-count: 1 !important; }
+  /* The collapsed card hides the full note behind a 3-line teaser; with the body
+     now showing, drop the teaser and un-rotate the plus so it reads cleanly. */
+  .note-card > summary .topic-teaser { display: none; }
+  .note-card > summary .plusmark { display: none; }
 }
 
 /* ══════════════════════════════════════════════════════════════════════════
