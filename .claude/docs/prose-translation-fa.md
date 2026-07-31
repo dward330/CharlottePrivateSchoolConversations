@@ -1,15 +1,20 @@
 # Farsi (فارسی) research-prose translation — rollout
 
-**Status:** **IN PROGRESS — Phase 0 complete and merged (PR #66); 6 of 9 topics
-translated.** `fa` is the **seventh** language, after English, Spanish, Bangla,
-Haitian Creole, Telugu and French. Written and executed 2026-07-30.
+**Status:** **DATA + CHROME COMPLETE — awaiting the two browser print-outs.**
+All 9 topics translated (6,524 prose entries) and the 331-key chrome catalog
+shipped; `fa` is now in both `TRANSLATED` and `PROSE_TRANSLATED` (flip landed
+2026-07-31). `fa` is the **seventh** language, after English, Spanish, Bangla,
+Haitian Creole, Telugu and French. Phase 0 (RTL/bidi + typography) merged as
+PR #66. Written and executed 2026-07-30 → 2026-07-31.
 
-**`fa` is NOT yet in `TRANSLATED` or `PROSE_TRANSLATED`** — the flip, the UI
-chrome catalog, and the two browser print-outs all remain ahead. See the
-progress table in START HERE for exactly what is done.
+**Only the two browser print-outs remain** — Charlotte Latin AND Providence Day,
+real browser, every `<details>` expanded, an unabbreviated 7-digit figure
+checked. Until they pass, the rollout is not signed off and no native-speaker
+review has run.
 
-**`fa` is the first RTL locale to reach `PROSE_TRANSLATED`, and that is the
-point of this rollout.** Every RTL page before it rendered LTR-pinned English.
+**`fa` is the first RTL locale to reach `PROSE_TRANSLATED`, and that was the
+point of this rollout.** Every RTL page before it rendered LTR-pinned English;
+that CSS rule now retires for `fa`.
 
 > ## START HERE (fresh session)
 >
@@ -23,7 +28,8 @@ point of this rollout.** Every RTL page before it rendered LTR-pinned English.
 > print-out defects — three of French's four were NOT French-specific and are
 > the class of bug to expect here too.
 >
-> **Branch:** `i18n/farsi-rollout`.
+> **Branch:** the rollout landed across several PRs; the final topics + chrome
+> shipped on `i18n/farsi-course-offerings`.
 >
 > ### The register rule INVERTS the French one — do not inherit it
 >
@@ -48,7 +54,7 @@ point of this rollout.** Every RTL page before it rendered LTR-pinned English.
 > | Identifiers | Latin/English — institutions, AP/Honors, platforms | §1b |
 > | Persian course names | **none exist** — fa does NOT inherit fr's §1a trap | §1c |
 >
-> ### Progress — 6 of 9 topics translated
+> ### Progress — all 9 topics translated, chrome shipped, flip landed
 >
 > | Topic | Strings | State |
 > |---|---|---|
@@ -58,14 +64,16 @@ point of this rollout.** Every RTL page before it rendered LTR-pinned English.
 > | after-school | 654 | ✅ 100% |
 > | the-arts | 599 | ✅ 100% |
 > | college-support | 926 | ✅ 100% |
-> | course-offerings | 1,848 | not started |
-> | financial-aid-report | 572 | not started |
-> | financial-aid-tuition (content) | 27 | not started |
-> | **shipped entries** | **3,478** | |
+> | course-offerings | 1,848 | ✅ 100% |
+> | financial-aid-report | 571 | ✅ 100% |
+> | financial-aid-tuition (content) | 27 | ✅ 100% |
+> | **shipped prose entries** | **6,524** | |
 >
-> UI chrome (`src/locales/fa.json`) is **not** started either — `fa` is not yet
-> in `TRANSLATED` or `PROSE_TRANSLATED`, so the flip and the print-outs are
-> still ahead. A partial state must not claim the prose is translated.
+> UI chrome (`src/locales/fa.json`, 331 keys) is complete and `fa` is in both
+> `TRANSLATED` and `PROSE_TRANSLATED`. `check:runtime --lang fa` recomputes all
+> 5,924 overlay stamps (every entry resolves), and `tsc` + `vite build` are
+> clean. **Only the two browser print-outs remain before sign-off** — a
+> measurement is not a print-out (see the print-out section below).
 >
 > **Half-filled work files are reverted, not committed.** A `t` field holding
 > English reports as translated coverage while rendering English — the exact
