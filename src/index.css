@@ -670,6 +670,13 @@ main { flex: 1; }
 
 .dossier-main { display: flex; flex-direction: column; gap: 56px; min-width: 0; }
 
+/* Expand-all print toolbar — a screen-only affordance so a reader can open
+   every research card in one click before printing. Sits above the topic
+   sections; the flex gap already spaces it from the first card. */
+.expand-all-bar { display: flex; justify-content: flex-end; margin-bottom: -40px; }
+.expand-all-btn { display: inline-flex; align-items: center; gap: 7px; }
+.expand-all-btn svg { transition: transform 0.15s ease; }
+
 /* ---- Welcome Video ---------------------------------------------------------
    Not a research area: same blueprint frame as the note cards, but no count,
    no expand behavior, and no source citations. */
@@ -1849,6 +1856,7 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   .lang-picker,
   .back-to-top,
   .bp-corner,
+  .no-print,
   .navlink { display: none; }
   /* Sticky positioning repeats or clips elements across printed pages. */
   .topnav,
