@@ -1,8 +1,12 @@
 # Farsi (فارسی) research-prose translation — rollout
 
-**Status:** **IN PROGRESS.** Phase 0 complete and committed; per-topic
-translation underway. `fa` is the **seventh** language, after English, Spanish,
-Bangla, Haitian Creole, Telugu and French. Written and executed 2026-07-30.
+**Status:** **IN PROGRESS — Phase 0 complete and merged (PR #66); 4 of 9 topics
+translated.** `fa` is the **seventh** language, after English, Spanish, Bangla,
+Haitian Creole, Telugu and French. Written and executed 2026-07-30.
+
+**`fa` is NOT yet in `TRANSLATED` or `PROSE_TRANSLATED`** — the flip, the UI
+chrome catalog, and the two browser print-outs all remain ahead. See the
+progress table in START HERE for exactly what is done.
 
 **`fa` is the first RTL locale to reach `PROSE_TRANSLATED`, and that is the
 point of this rollout.** Every RTL page before it rendered LTR-pinned English.
@@ -44,6 +48,30 @@ point of this rollout.** Every RTL page before it rendered LTR-pinned English.
 > | Identifiers | Latin/English — institutions, AP/Honors, platforms | §1b |
 > | Persian course names | **none exist** — fa does NOT inherit fr's §1a trap | §1c |
 >
+> ### Progress — 4 of 9 topics translated
+>
+> | Topic | Strings | State |
+> |---|---|---|
+> | metric-values | 126 | ✅ 100% |
+> | student-clubs | 517 | ✅ 100% |
+> | sports | 656 | ✅ 100% |
+> | after-school | 654 | ✅ 100% |
+> | the-arts | 599 | not started |
+> | college-support | 926 | not started |
+> | course-offerings | 1,848 | not started |
+> | financial-aid-report | 572 | not started |
+> | financial-aid-tuition (content) | 27 | not started |
+> | **shipped entries** | **1,953** | |
+>
+> UI chrome (`src/locales/fa.json`) is **not** started either — `fa` is not yet
+> in `TRANSLATED` or `PROSE_TRANSLATED`, so the flip and the print-outs are
+> still ahead. A partial state must not claim the prose is translated.
+>
+> **Half-filled work files are reverted, not committed.** A `t` field holding
+> English reports as translated coverage while rendering English — the exact
+> failure `check_runtime_resolution.mjs` exists to catch. Topics are either
+> 100% or "not started".
+>
 > ### The loop, per topic
 >
 > ```
@@ -57,6 +85,29 @@ point of this rollout.** Every RTL page before it rendered LTR-pinned English.
 >
 > Once a work file holds translations, `i18n_extract.mjs` refuses to overwrite
 > it — that guard is deliberate, do not `--force` past it.
+>
+> ### KEY TRANSLATION MAPS BY ENGLISH TEXT, NEVER BY INDEX
+>
+> **A new failure mode, found in `after-school` and recorded by no prior
+> rollout doc.** An index-keyed map (`{0: '…', 1: '…'}`) drifted by **+1**
+> across several ranges mid-file, so ~94 strings received a fluent Persian
+> translation belonging to their *neighbour*.
+>
+> What makes this dangerous is what it survives:
+>
+> - `check_translations.mjs` reports **100% coverage** — every field is filled.
+> - `check_runtime_resolution.mjs` **passes** — every stamp still matches.
+> - The page renders **fluent Persian**, just describing the wrong thing.
+> - A reader who does not read English cannot detect it at all.
+>
+> Only `check_figures.py` caught it, and only because a figure appeared in one
+> string and not its neighbour. **A drifted map with no figures in range would
+> ship silently.**
+>
+> Repaired by re-anchoring each translation onto the English whose figure-set it
+> shares (0 misaligned after repair, asserted before building the overlay).
+> Every map since is keyed by the English string itself, which makes the whole
+> class structurally impossible.
 
 **Mechanism:** see [`prose-translation-architecture.md`](./prose-translation-architecture.md).
 
@@ -291,6 +342,24 @@ defect in five shipped locales, and fixing it means widening `i18n_fields.mjs`
 path rules and re-extracting topics already complete in five languages. `fa`
 will ship these English too, exactly as `es`/`bn`/`ht`/`te`/`fr` do. Recorded so
 it is not re-discovered as "a Farsi bug".
+
+---
+
+## 2a. What the checkers caught DURING translation
+
+Three defects in four topics, none of which a reader could have detected. Worth
+recording because each one justifies a check that a rushed rollout would skip:
+
+| # | Caught by | Defect |
+|---|---|---|
+| 1 | `check_fa_script.mjs` | 15 strings drifted into **Persian digits** (`۳ محور اصلی`) while every figure beside them stayed Western — the exact inconsistency §0a exists to prevent, and the same slip the Bangla spike made twice. |
+| 2 | `check_figures.py` (sports) | `$30.5M` and `$10M` **written out as Persian words** instead of kept literal. Figures are never re-typed. Found *after* the topic otherwise read complete. |
+| 3 | `check_figures.py` (after-school) | The **+1 index drift** described in START HERE — ~94 translations attached to the wrong English, at 100% reported coverage. |
+
+Defects 2 and 3 both surfaced in the per-topic figure sweep, which is the whole
+argument for running it after **every** topic rather than once at the end. The
+Bangla doc makes the same point from its own experience; this rollout is the
+second confirmation.
 
 ---
 
