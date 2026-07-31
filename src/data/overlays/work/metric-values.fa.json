@@ -1,0 +1,1032 @@
+{
+ "topic": "metric-values",
+ "lang": "fa",
+ "generated": "i18n_extract.mjs",
+ "note": "Translate each `text` into `t`. Leave `of` and `at` untouched — they are how the overlay is rebuilt and drift-checked.",
+ "strings": [
+  {
+   "text": "Upper School courses catalogued",
+   "of": "17b53156",
+   "at": [
+    "providence-day:[0].label"
+   ],
+   "t": "دروس فهرست‌شدهٔ Upper School"
+  },
+  {
+   "text": "Distinct Upper School course entries in the school’s own current curriculum guide. Counting conventions differ — Country Day’s index bundles language levels onto one line, so its true course count is higher than the line count shown.",
+   "of": "7af2ff24",
+   "at": [
+    "providence-day:[0].note"
+   ],
+   "t": "تعداد دروس مجزای Upper School در راهنمای برنامهٔ درسی فعلی خود مدرسه. قراردادهای شمارش متفاوت است — فهرست Country Day سطوح مختلف یک زبان را در یک سطر ادغام می‌کند، بنابراین تعداد واقعی دروس آن بیشتر از تعداد سطرهای نمایش‌داده‌شده است."
+  },
+  {
+   "text": "104",
+   "of": "6333ce50",
+   "at": [
+    "providence-day:[0].values.cannon"
+   ],
+   "t": "104"
+  },
+  {
+   "text": "~135",
+   "of": "2119cb24",
+   "at": [
+    "providence-day:[0].values.charlotte-christian"
+   ],
+   "t": "~135"
+  },
+  {
+   "text": "119",
+   "of": "743627aa",
+   "at": [
+    "providence-day:[0].values.charlotte-country-day"
+   ],
+   "t": "119"
+  },
+  {
+   "text": "129",
+   "of": "6c3859a9",
+   "at": [
+    "providence-day:[0].values.charlotte-latin"
+   ],
+   "t": "129"
+  },
+  {
+   "text": "~75",
+   "of": "2892a2f5",
+   "at": [
+    "providence-day:[0].values.davidson-day"
+   ],
+   "t": "~75"
+  },
+  {
+   "text": "149",
+   "of": "682948d3",
+   "at": [
+    "providence-day:[0].values.providence-day"
+   ],
+   "t": "149"
+  },
+  {
+   "text": "AP / advanced courses",
+   "of": "1e59b54b",
+   "at": [
+    "providence-day:[1].label"
+   ],
+   "t": "دروس AP / پیشرفته"
+  },
+  {
+   "text": "The school’s own count of college-level courses. Country Day is the only school here offering both AP and the IB Diploma; Cannon adds 13 faculty-designed Advanced Topics courses carrying the same weight as an AP.",
+   "of": "dfffc326",
+   "at": [
+    "providence-day:[1].note"
+   ],
+   "t": "شمارش خود مدرسه از دروس در سطح دانشگاهی. Country Day تنها مدرسه در این مجموعه است که هم AP و هم دیپلم IB را ارائه می‌دهد؛ Cannon افزون بر این 13 درس Advanced Topics طراحی‌شده توسط هیئت علمی را ارائه می‌کند که وزنی برابر با AP دارند."
+  },
+  {
+   "text": "14 AP + 13 AT",
+   "of": "e6fde29d",
+   "at": [
+    "providence-day:[1].values.cannon"
+   ],
+   "t": "14 AP + 13 AT"
+  },
+  {
+   "text": "21 AP",
+   "of": "0b1eb37d",
+   "at": [
+    "providence-day:[1].values.charlotte-christian"
+   ],
+   "t": "21 AP"
+  },
+  {
+   "text": "23 AP + 18 IB",
+   "of": "da424912",
+   "at": [
+    "providence-day:[1].values.charlotte-country-day"
+   ],
+   "t": "23 AP + 18 IB"
+  },
+  {
+   "text": "22 AP subjects",
+   "of": "379a9867",
+   "at": [
+    "providence-day:[1].values.charlotte-latin"
+   ],
+   "t": "22 AP subjects"
+  },
+  {
+   "text": "26 AP",
+   "of": "475d503a",
+   "at": [
+    "providence-day:[1].values.davidson-day"
+   ],
+   "t": "26 AP"
+  },
+  {
+   "text": "28 AP",
+   "of": "ca559284",
+   "at": [
+    "providence-day:[1].values.providence-day"
+   ],
+   "t": "28 AP"
+  },
+  {
+   "text": "Upper School departments",
+   "of": "b7916ae2",
+   "at": [
+    "providence-day:[2].label"
+   ],
+   "t": "گروه‌های آموزشی Upper School"
+  },
+  {
+   "text": "Academic departments in the Upper School catalog. Cannon has no standalone computer-science department — CS sits inside Innovation & Enterprise.",
+   "of": "021487aa",
+   "at": [
+    "providence-day:[2].note"
+   ],
+   "t": "گروه‌های آموزشی در فهرست دروس Upper School. Cannon گروه مستقل علوم کامپیوتر ندارد — CS ذیل Innovation & Enterprise قرار دارد."
+  },
+  {
+   "text": "8",
+   "of": "3d0cb547",
+   "at": [
+    "providence-day:[2].values.cannon",
+    "providence-day:[19].values.charlotte-christian"
+   ],
+   "t": "8"
+  },
+  {
+   "text": "11",
+   "of": "1ceb2bd7",
+   "at": [
+    "providence-day:[2].values.charlotte-christian",
+    "providence-day:[2].values.providence-day"
+   ],
+   "t": "11"
+  },
+  {
+   "text": "9",
+   "of": "3c0cb3b4",
+   "at": [
+    "providence-day:[2].values.charlotte-country-day",
+    "providence-day:[2].values.davidson-day",
+    "providence-day:[19].values.charlotte-country-day",
+    "providence-day:[20].values.davidson-day"
+   ],
+   "t": "9"
+  },
+  {
+   "text": "13",
+   "of": "1eeb2efd",
+   "at": [
+    "providence-day:[2].values.charlotte-latin"
+   ],
+   "t": "13"
+  },
+  {
+   "text": "one continuous course of study",
+   "of": "733d1e31",
+   "at": [
+    "providence-day:[3].label"
+   ],
+   "t": "یک دورهٔ تحصیلی پیوسته"
+  },
+  {
+   "text": "The school’s own lowest published entry point through Grade 12. Division bands differ: Charlotte Christian puts Grade 5 in Middle School, and Davidson Day enrolls from age 2.",
+   "of": "2be01b92",
+   "at": [
+    "providence-day:[3].note"
+   ],
+   "t": "پایین‌ترین نقطهٔ ورود منتشرشدهٔ خود مدرسه تا پایهٔ 12. تقسیم‌بندی دوره‌ها متفاوت است: Charlotte Christian پایهٔ 5 را در Middle School قرار می‌دهد و Davidson Day از سن 2 سالگی ثبت‌نام می‌کند."
+  },
+  {
+   "text": "JrK–12",
+   "of": "62538c4c",
+   "at": [
+    "providence-day:[3].values.cannon",
+    "providence-day:[12].values.cannon"
+   ],
+   "t": "JrK–12"
+  },
+  {
+   "text": "JK–12",
+   "of": "12658e2c",
+   "at": [
+    "providence-day:[3].values.charlotte-christian",
+    "providence-day:[3].values.charlotte-country-day",
+    "providence-day:[12].values.charlotte-christian",
+    "providence-day:[12].values.charlotte-country-day"
+   ],
+   "t": "JK–12"
+  },
+  {
+   "text": "TK–12",
+   "of": "0ebb0ed6",
+   "at": [
+    "providence-day:[3].values.charlotte-latin",
+    "providence-day:[3].values.providence-day",
+    "providence-day:[12].values.charlotte-latin",
+    "providence-day:[12].values.providence-day"
+   ],
+   "t": "TK–12"
+  },
+  {
+   "text": "Age 2–12",
+   "of": "8658981c",
+   "at": [
+    "providence-day:[3].values.davidson-day"
+   ],
+   "t": "Age 2–12"
+  },
+  {
+   "text": "AP scope",
+   "of": "d2404258",
+   "at": [
+    "providence-day:[4].label"
+   ],
+   "t": "دامنهٔ AP"
+  },
+  {
+   "text": "AP exam volume for the most recent reported year, or AP course/subject count where exam volume is unpublished. IB flagged where offered.",
+   "of": "23eca0ec",
+   "at": [
+    "providence-day:[4].note"
+   ],
+   "t": "حجم آزمون‌های AP برای آخرین سال گزارش‌شده، یا تعداد دروس/موضوعات AP در جایی که حجم آزمون منتشر نشده است. IB در صورت ارائه علامت‌گذاری شده است."
+  },
+  {
+   "text": "425 AP exams",
+   "of": "83fb37fb",
+   "at": [
+    "providence-day:[4].values.cannon"
+   ],
+   "t": "425 AP exams"
+  },
+  {
+   "text": "21 AP courses",
+   "of": "9bef3bd3",
+   "at": [
+    "providence-day:[4].values.charlotte-christian"
+   ],
+   "t": "21 AP courses"
+  },
+  {
+   "text": "530 AP exams + IB",
+   "of": "733470d4",
+   "at": [
+    "providence-day:[4].values.charlotte-country-day"
+   ],
+   "t": "530 AP exams + IB"
+  },
+  {
+   "text": "23 AP subjects",
+   "of": "5123698c",
+   "at": [
+    "providence-day:[4].values.charlotte-latin"
+   ],
+   "t": "23 AP subjects"
+  },
+  {
+   "text": "1,213 AP exams",
+   "of": "f60a550b",
+   "at": [
+    "providence-day:[4].values.providence-day"
+   ],
+   "t": "1,213 AP exams"
+  },
+  {
+   "text": "AP scoring 3+",
+   "of": "bb9de4e1",
+   "at": [
+    "providence-day:[5].label"
+   ],
+   "t": "نمرهٔ 3 به بالا در AP"
+  },
+  {
+   "text": "Share of AP exams scoring 3 or higher, most recent reported year. Charlotte Latin & Davidson Day do not publish a pass rate.",
+   "of": "abcf3feb",
+   "at": [
+    "providence-day:[5].note"
+   ],
+   "t": "سهم آزمون‌های AP با نمرهٔ 3 یا بالاتر، آخرین سال گزارش‌شده. Charlotte Latin و Davidson Day نرخ قبولی منتشر نمی‌کنند."
+  },
+  {
+   "text": "92%",
+   "of": "decf5375",
+   "at": [
+    "providence-day:[5].values.cannon"
+   ],
+   "t": "92%"
+  },
+  {
+   "text": "89%",
+   "of": "5cb0b6ed",
+   "at": [
+    "providence-day:[5].values.charlotte-christian"
+   ],
+   "t": "89%"
+  },
+  {
+   "text": "93%",
+   "of": "3ad222e0",
+   "at": [
+    "providence-day:[5].values.charlotte-country-day"
+   ],
+   "t": "93%"
+  },
+  {
+   "text": "94%",
+   "of": "3ac0d9bf",
+   "at": [
+    "providence-day:[5].values.providence-day"
+   ],
+   "t": "94%"
+  },
+  {
+   "text": "National Merit",
+   "of": "c119ff02",
+   "at": [
+    "providence-day:[6].label"
+   ],
+   "t": "National Merit"
+  },
+  {
+   "text": "Most recent single-class Semifinalist/Finalist count the school announced. Cannon & Davidson Day unpublished; Charlotte Christian reports only rolling multi-year totals.",
+   "of": "08733780",
+   "at": [
+    "providence-day:[6].note"
+   ],
+   "t": "آخرین تعداد نیمه‌نهایی/نهایی که مدرسه برای یک دورهٔ فارغ‌التحصیلی اعلام کرده است. Cannon و Davidson Day منتشر نکرده‌اند؛ Charlotte Christian تنها مجموع‌های چندساله را گزارش می‌دهد."
+  },
+  {
+   "text": "2 Finalists ’25",
+   "of": "7f5dd40a",
+   "at": [
+    "providence-day:[6].values.charlotte-country-day"
+   ],
+   "t": "2 Finalists ’25"
+  },
+  {
+   "text": "12 Semifinalists ’26",
+   "of": "8205ef02",
+   "at": [
+    "providence-day:[6].values.charlotte-latin"
+   ],
+   "t": "12 Semifinalists ’26"
+  },
+  {
+   "text": "7 Semifinalists ’25",
+   "of": "8b099623",
+   "at": [
+    "providence-day:[6].values.providence-day"
+   ],
+   "t": "7 Semifinalists ’25"
+  },
+  {
+   "text": "Seniors per counselor",
+   "of": "bb1a037b",
+   "at": [
+    "providence-day:[7].label"
+   ],
+   "t": "دانش‌آموزان سال آخر به ازای هر مشاور"
+  },
+  {
+   "text": "Approximate seniors per dedicated college counselor at peak application season, from each school’s note.",
+   "of": "d8b27599",
+   "at": [
+    "providence-day:[7].note"
+   ],
+   "t": "تعداد تقریبی دانش‌آموزان سال آخر به ازای هر مشاور اختصاصی دانشگاه در اوج فصل درخواست، بر پایهٔ یادداشت هر مدرسه."
+  },
+  {
+   "text": "28:1",
+   "of": "2d11b212",
+   "at": [
+    "providence-day:[7].values.cannon"
+   ],
+   "t": "28:1"
+  },
+  {
+   "text": "~47:1",
+   "of": "6d315a65",
+   "at": [
+    "providence-day:[7].values.charlotte-christian"
+   ],
+   "t": "~47:1"
+  },
+  {
+   "text": "~34:1",
+   "of": "6546401f",
+   "at": [
+    "providence-day:[7].values.charlotte-country-day"
+   ],
+   "t": "~34:1"
+  },
+  {
+   "text": "~36:1",
+   "of": "1ee45b4d",
+   "at": [
+    "providence-day:[7].values.charlotte-latin"
+   ],
+   "t": "~36:1"
+  },
+  {
+   "text": "~23:1",
+   "of": "32575577",
+   "at": [
+    "providence-day:[7].values.davidson-day"
+   ],
+   "t": "~23:1"
+  },
+  {
+   "text": "~44:1",
+   "of": "a80d4a10",
+   "at": [
+    "providence-day:[7].values.providence-day"
+   ],
+   "t": "~44:1"
+  },
+  {
+   "text": "Top tuition",
+   "of": "233f7a8c",
+   "at": [
+    "providence-day:[8].label"
+   ],
+   "t": "بالاترین شهریه"
+  },
+  {
+   "text": "Highest published grade-band tuition, 2026–27 school year.",
+   "of": "7c10f0b3",
+   "at": [
+    "providence-day:[8].note"
+   ],
+   "t": "بالاترین شهریهٔ منتشرشده در میان پایه‌های تحصیلی، سال تحصیلی 2026–27."
+  },
+  {
+   "text": "$32,070",
+   "of": "f55a5a85",
+   "at": [
+    "providence-day:[8].values.cannon"
+   ],
+   "t": "$32,070"
+  },
+  {
+   "text": "$27,055",
+   "of": "54ac7b3e",
+   "at": [
+    "providence-day:[8].values.charlotte-christian"
+   ],
+   "t": "$27,055"
+  },
+  {
+   "text": "$34,075",
+   "of": "bb245580",
+   "at": [
+    "providence-day:[8].values.charlotte-country-day"
+   ],
+   "t": "$34,075"
+  },
+  {
+   "text": "$36,500",
+   "of": "05d1c615",
+   "at": [
+    "providence-day:[8].values.charlotte-latin"
+   ],
+   "t": "$36,500"
+  },
+  {
+   "text": "$26,910",
+   "of": "d7e28b59",
+   "at": [
+    "providence-day:[8].values.davidson-day"
+   ],
+   "t": "$26,910"
+  },
+  {
+   "text": "$36,325",
+   "of": "8315551a",
+   "at": [
+    "providence-day:[8].values.providence-day"
+   ],
+   "t": "$36,325"
+  },
+  {
+   "text": "% receiving aid",
+   "of": "dcbef77c",
+   "at": [
+    "providence-day:[9].label"
+   ],
+   "t": "% دریافت‌کنندگان کمک‌هزینه"
+  },
+  {
+   "text": "Share of students/families receiving aid as the school states it. “~” where the school says “approximately”; year/denominator vary — see the school’s report. Charlotte Christian & Davidson Day do not publish this.",
+   "of": "aeb0b11c",
+   "at": [
+    "providence-day:[9].note"
+   ],
+   "t": "سهم دانش‌آموزان/خانواده‌هایی که کمک‌هزینه دریافت می‌کنند، آن‌گونه که مدرسه بیان کرده است. علامت «~» در جایی است که مدرسه می‌گوید «تقریباً»؛ سال و مخرج کسر متفاوت است — به گزارش مدرسه مراجعه کنید. Charlotte Christian و Davidson Day این رقم را منتشر نمی‌کنند."
+  },
+  {
+   "text": "24%",
+   "of": "3edd8ba2",
+   "at": [
+    "providence-day:[9].values.cannon"
+   ],
+   "t": "24%"
+  },
+  {
+   "text": "~20%",
+   "of": "7c1640da",
+   "at": [
+    "providence-day:[9].values.charlotte-country-day"
+   ],
+   "t": "~20%"
+  },
+  {
+   "text": "14%",
+   "of": "842974e7",
+   "at": [
+    "providence-day:[9].values.charlotte-latin"
+   ],
+   "t": "14%"
+  },
+  {
+   "text": "~21%",
+   "of": "5813c997",
+   "at": [
+    "providence-day:[9].values.providence-day"
+   ],
+   "t": "~21%"
+  },
+  {
+   "text": "Aid awarded / year",
+   "of": "c5ec8b05",
+   "at": [
+    "providence-day:[10].label"
+   ],
+   "t": "کمک‌هزینهٔ اعطاشده در سال"
+  },
+  {
+   "text": "Total tuition assistance awarded, most recent year the school states a figure. Charlotte Christian & Davidson Day do not publish a total; Country Day’s published totals conflict and are omitted.",
+   "of": "2d93b266",
+   "at": [
+    "providence-day:[10].note"
+   ],
+   "t": "مجموع کمک‌هزینهٔ تحصیلی اعطاشده، برای آخرین سالی که مدرسه رقمی اعلام کرده است. Charlotte Christian و Davidson Day مجموع را منتشر نمی‌کنند؛ ارقام منتشرشدهٔ Country Day با یکدیگر ناسازگارند و حذف شده‌اند."
+  },
+  {
+   "text": "$3.0M",
+   "of": "f5d8fd59",
+   "at": [
+    "providence-day:[10].values.cannon"
+   ],
+   "t": "$3.0M"
+  },
+  {
+   "text": "$3.25M",
+   "of": "22c9d5fe",
+   "at": [
+    "providence-day:[10].values.charlotte-latin"
+   ],
+   "t": "$3.25M"
+  },
+  {
+   "text": "$3.68M",
+   "of": "d21cc86b",
+   "at": [
+    "providence-day:[10].values.providence-day"
+   ],
+   "t": "$3.68M"
+  },
+  {
+   "text": "Average award",
+   "of": "d52ae269",
+   "at": [
+    "providence-day:[11].label"
+   ],
+   "t": "میانگین کمک‌هزینه"
+  },
+  {
+   "text": "Average aid grant where the school publishes one. Most schools publish neither an average nor a median.",
+   "of": "f67cb39d",
+   "at": [
+    "providence-day:[11].note"
+   ],
+   "t": "میانگین کمک‌هزینهٔ اعطایی در جایی که مدرسه آن را منتشر می‌کند. بیشتر مدارس نه میانگین منتشر می‌کنند و نه میانه."
+  },
+  {
+   "text": "$17,900",
+   "of": "9e06e14c",
+   "at": [
+    "providence-day:[11].values.charlotte-latin"
+   ],
+   "t": "$17,900"
+  },
+  {
+   "text": "$13,695",
+   "of": "63abc83b",
+   "at": [
+    "providence-day:[11].values.providence-day"
+   ],
+   "t": "$13,695"
+  },
+  {
+   "text": "Program span",
+   "of": "a03fe315",
+   "at": [
+    "providence-day:[12].label"
+   ],
+   "t": "گسترهٔ برنامه"
+  },
+  {
+   "text": "Grade span of the arts program as each school states it.",
+   "of": "b49060de",
+   "at": [
+    "providence-day:[12].note"
+   ],
+   "t": "گسترهٔ پایه‌های تحصیلی برنامهٔ هنر، آن‌گونه که هر مدرسه بیان می‌کند."
+  },
+  {
+   "text": "Age 2–Gr 12",
+   "of": "928a1a5d",
+   "at": [
+    "providence-day:[12].values.davidson-day"
+   ],
+   "t": "سن 2 تا پایهٔ 12"
+  },
+  {
+   "text": "Signature recognition",
+   "of": "b770b2aa",
+   "at": [
+    "providence-day:[13].label"
+   ],
+   "t": "شاخص‌ترین افتخار"
+  },
+  {
+   "text": "The most notable arts recognition or distinction named in each school’s note (measured differently per school).",
+   "of": "45fef1e1",
+   "at": [
+    "providence-day:[13].note"
+   ],
+   "t": "برجسته‌ترین افتخار یا تمایز هنری که در یادداشت هر مدرسه نام برده شده است (معیار سنجش در هر مدرسه متفاوت است)."
+  },
+  {
+   "text": "NCTC festival",
+   "of": "d4051bdd",
+   "at": [
+    "providence-day:[13].values.cannon"
+   ],
+   "t": "جشنوارهٔ NCTC"
+  },
+  {
+   "text": "Blumey Best Show",
+   "of": "cdb2efd0",
+   "at": [
+    "providence-day:[13].values.charlotte-christian"
+   ],
+   "t": "بهترین نمایش Blumey"
+  },
+  {
+   "text": "31+ Blumey noms",
+   "of": "1b07308b",
+   "at": [
+    "providence-day:[13].values.charlotte-country-day"
+   ],
+   "t": "بیش از 31 نامزدی Blumey"
+  },
+  {
+   "text": "80%+ participation",
+   "of": "2f0d86b8",
+   "at": [
+    "providence-day:[13].values.charlotte-latin"
+   ],
+   "t": "بیش از 80% مشارکت"
+  },
+  {
+   "text": "Blumey recognition",
+   "of": "cc199a5c",
+   "at": [
+    "providence-day:[13].values.providence-day"
+   ],
+   "t": "افتخارات Blumey"
+  },
+  {
+   "text": "Advanced coursework",
+   "of": "a79c3149",
+   "at": [
+    "providence-day:[14].label"
+   ],
+   "t": "دروس پیشرفته"
+  },
+  {
+   "text": "Advanced (AP/IB) arts coursework offered, where the note names it.",
+   "of": "340c2db7",
+   "at": [
+    "providence-day:[14].note"
+   ],
+   "t": "دروس هنری پیشرفته (AP/IB) که ارائه می‌شود، در جایی که یادداشت آن را نام برده است."
+  },
+  {
+   "text": "AP Studio Art",
+   "of": "c75dc683",
+   "at": [
+    "providence-day:[14].values.cannon"
+   ],
+   "t": "AP Studio Art"
+  },
+  {
+   "text": "AP + IB",
+   "of": "3b521870",
+   "at": [
+    "providence-day:[14].values.charlotte-country-day"
+   ],
+   "t": "AP و IB"
+  },
+  {
+   "text": "3 AP arts",
+   "of": "513cfd73",
+   "at": [
+    "providence-day:[14].values.providence-day"
+   ],
+   "t": "3 درس هنری AP"
+  },
+  {
+   "text": "Ensembles / offerings",
+   "of": "65db4389",
+   "at": [
+    "providence-day:[15].label"
+   ],
+   "t": "گروه‌های هنری / ارائه‌ها"
+  },
+  {
+   "text": "Count or breadth of ensembles / arts offerings as each note describes them.",
+   "of": "66e31b3f",
+   "at": [
+    "providence-day:[15].note"
+   ],
+   "t": "تعداد یا گسترهٔ گروه‌های هنری / ارائه‌های هنری، آن‌گونه که هر یادداشت توصیف می‌کند."
+  },
+  {
+   "text": "3 pillars",
+   "of": "176bc52f",
+   "at": [
+    "providence-day:[15].values.cannon"
+   ],
+   "t": "3 محور اصلی"
+  },
+  {
+   "text": "40+ electives",
+   "of": "4a7cca16",
+   "at": [
+    "providence-day:[15].values.charlotte-christian"
+   ],
+   "t": "بیش از 40 درس اختیاری"
+  },
+  {
+   "text": "8 ensembles",
+   "of": "10a2036b",
+   "at": [
+    "providence-day:[15].values.charlotte-country-day"
+   ],
+   "t": "8 گروه هنری"
+  },
+  {
+   "text": "4 ensembles",
+   "of": "ddc02b07",
+   "at": [
+    "providence-day:[15].values.providence-day"
+   ],
+   "t": "4 گروه هنری"
+  },
+  {
+   "text": "Flagship result",
+   "of": "472b065e",
+   "at": [
+    "providence-day:[16].label"
+   ],
+   "t": "شاخص‌ترین نتیجه"
+  },
+  {
+   "text": "The single most notable competitive club achievement documented in each school’s note.",
+   "of": "d2360dbe",
+   "at": [
+    "providence-day:[16].note"
+   ],
+   "t": "برجسته‌ترین دستاورد رقابتی باشگاه‌ها که در یادداشت هر مدرسه مستند شده است."
+  },
+  {
+   "text": "FLL Worlds top 100",
+   "of": "6601652a",
+   "at": [
+    "providence-day:[16].values.cannon"
+   ],
+   "t": "100 تیم برتر FLL Worlds"
+  },
+  {
+   "text": "Chess 2nd place",
+   "of": "b9f2156c",
+   "at": [
+    "providence-day:[16].values.charlotte-christian"
+   ],
+   "t": "مقام دوم شطرنج"
+  },
+  {
+   "text": "Model UN — 6 awards",
+   "of": "b0aa007f",
+   "at": [
+    "providence-day:[16].values.charlotte-country-day"
+   ],
+   "t": "Model UN — 6 جایزه"
+  },
+  {
+   "text": "Debate top-20 US",
+   "of": "75c75ed4",
+   "at": [
+    "providence-day:[16].values.charlotte-latin"
+   ],
+   "t": "مناظره، 20 تیم برتر آمریکا"
+  },
+  {
+   "text": "Battle of Books 1st",
+   "of": "bcec0bda",
+   "at": [
+    "providence-day:[16].values.davidson-day"
+   ],
+   "t": "مقام اول Battle of Books"
+  },
+  {
+   "text": "DECA → ICDC ’26",
+   "of": "d41ceb82",
+   "at": [
+    "providence-day:[16].values.providence-day"
+   ],
+   "t": "DECA → ICDC ’26"
+  },
+  {
+   "text": "Participation signal",
+   "of": "c51dd962",
+   "at": [
+    "providence-day:[17].label"
+   ],
+   "t": "شاخص مشارکت"
+  },
+  {
+   "text": "A breadth-of-participation figure where the school publishes one (measured differently per school — see the school’s note). Charlotte Latin’s figure is sports participation.",
+   "of": "11f5cf07",
+   "at": [
+    "providence-day:[17].note"
+   ],
+   "t": "رقمی از گسترهٔ مشارکت در جایی که مدرسه آن را منتشر می‌کند (معیار سنجش در هر مدرسه متفاوت است — به یادداشت مدرسه مراجعه کنید). رقم Charlotte Latin مربوط به مشارکت ورزشی است."
+  },
+  {
+   "text": "~10k service hrs",
+   "of": "546c8d85",
+   "at": [
+    "providence-day:[17].values.cannon"
+   ],
+   "t": "حدود 10 هزار ساعت خدمت"
+  },
+  {
+   "text": "~50% mentor weekly",
+   "of": "c1f3ec73",
+   "at": [
+    "providence-day:[17].values.charlotte-country-day"
+   ],
+   "t": "حدود 50% مربی‌گری هفتگی"
+  },
+  {
+   "text": "~90% play a sport",
+   "of": "a1d11602",
+   "at": [
+    "providence-day:[17].values.charlotte-latin"
+   ],
+   "t": "حدود 90% ورزش می‌کنند"
+  },
+  {
+   "text": "~50% in service clubs",
+   "of": "c3fd9e34",
+   "at": [
+    "providence-day:[17].values.providence-day"
+   ],
+   "t": "حدود 50% در باشگاه‌های خدماتی"
+  },
+  {
+   "text": "Latest pickup time",
+   "of": "678b6663",
+   "at": [
+    "providence-day:[18].label"
+   ],
+   "t": "آخرین ساعت تحویل"
+  },
+  {
+   "text": "End of the Lower-School extended-care/aftercare day. Verify current hours with the school.",
+   "of": "33e992af",
+   "at": [
+    "providence-day:[18].note"
+   ],
+   "t": "پایان روز مراقبت تکمیلی/پس از مدرسهٔ Lower School. ساعات فعلی را با مدرسه بررسی کنید."
+  },
+  {
+   "text": "6:00 PM",
+   "of": "434a888c",
+   "at": [
+    "providence-day:[18].values.charlotte-country-day",
+    "providence-day:[18].values.charlotte-latin",
+    "providence-day:[18].values.davidson-day"
+   ],
+   "t": "6:00 PM"
+  },
+  {
+   "text": "Power 4 commits",
+   "of": "1f2f8490",
+   "at": [
+    "providence-day:[19].label"
+   ],
+   "t": "تعهدات Power 4"
+  },
+  {
+   "text": "Distinct athletes committed to an SEC / Big Ten / ACC / Big 12 program, Classes of 2024–2026. Documented minimum.",
+   "of": "4b7d536c",
+   "at": [
+    "providence-day:[19].note"
+   ],
+   "t": "ورزشکاران مجزایی که به یک برنامهٔ SEC / Big Ten / ACC / Big 12 متعهد شده‌اند، دوره‌های فارغ‌التحصیلی 2024–2026. حداقلِ مستند."
+  },
+  {
+   "text": "1",
+   "of": "340ca71c",
+   "at": [
+    "providence-day:[19].values.cannon"
+   ],
+   "t": "1"
+  },
+  {
+   "text": "3",
+   "of": "360caa42",
+   "at": [
+    "providence-day:[19].values.charlotte-latin",
+    "providence-day:[19].values.davidson-day",
+    "providence-day:[20].values.cannon"
+   ],
+   "t": "3"
+  },
+  {
+   "text": "17",
+   "of": "1aeb28b1",
+   "at": [
+    "providence-day:[19].values.providence-day"
+   ],
+   "t": "17"
+  },
+  {
+   "text": "Division I commits",
+   "of": "ce720efb",
+   "at": [
+    "providence-day:[20].label"
+   ],
+   "t": "تعهدات Division I"
+  },
+  {
+   "text": "Distinct athletes committed to any NCAA Division I program, Classes of 2024–2026 (includes the Power 4 count above). Documented minimum.",
+   "of": "53ecb641",
+   "at": [
+    "providence-day:[20].note"
+   ],
+   "t": "ورزشکاران مجزایی که به هر برنامهٔ NCAA Division I متعهد شده‌اند، دوره‌های فارغ‌التحصیلی 2024–2026 (شامل تعداد Power 4 بالا). حداقلِ مستند."
+  },
+  {
+   "text": "26",
+   "of": "8bf29659",
+   "at": [
+    "providence-day:[20].values.charlotte-christian"
+   ],
+   "t": "26"
+  },
+  {
+   "text": "25",
+   "of": "88f291a0",
+   "at": [
+    "providence-day:[20].values.charlotte-country-day"
+   ],
+   "t": "25"
+  },
+  {
+   "text": "14",
+   "of": "17eb23f8",
+   "at": [
+    "providence-day:[20].values.charlotte-latin"
+   ],
+   "t": "14"
+  },
+  {
+   "text": "39",
+   "of": "90f05fa1",
+   "at": [
+    "providence-day:[20].values.providence-day"
+   ],
+   "t": "39"
+  }
+ ]
+}
