@@ -1,6 +1,6 @@
 # Farsi (فارسی) research-prose translation — rollout
 
-**Status:** **IN PROGRESS — Phase 0 complete and merged (PR #66); 4 of 9 topics
+**Status:** **IN PROGRESS — Phase 0 complete and merged (PR #66); 6 of 9 topics
 translated.** `fa` is the **seventh** language, after English, Spanish, Bangla,
 Haitian Creole, Telugu and French. Written and executed 2026-07-30.
 
@@ -48,7 +48,7 @@ point of this rollout.** Every RTL page before it rendered LTR-pinned English.
 > | Identifiers | Latin/English — institutions, AP/Honors, platforms | §1b |
 > | Persian course names | **none exist** — fa does NOT inherit fr's §1a trap | §1c |
 >
-> ### Progress — 4 of 9 topics translated
+> ### Progress — 6 of 9 topics translated
 >
 > | Topic | Strings | State |
 > |---|---|---|
@@ -56,12 +56,12 @@ point of this rollout.** Every RTL page before it rendered LTR-pinned English.
 > | student-clubs | 517 | ✅ 100% |
 > | sports | 656 | ✅ 100% |
 > | after-school | 654 | ✅ 100% |
-> | the-arts | 599 | not started |
-> | college-support | 926 | not started |
+> | the-arts | 599 | ✅ 100% |
+> | college-support | 926 | ✅ 100% |
 > | course-offerings | 1,848 | not started |
 > | financial-aid-report | 572 | not started |
 > | financial-aid-tuition (content) | 27 | not started |
-> | **shipped entries** | **1,953** | |
+> | **shipped entries** | **3,478** | |
 >
 > UI chrome (`src/locales/fa.json`) is **not** started either — `fa` is not yet
 > in `TRANSLATED` or `PROSE_TRANSLATED`, so the flip and the print-outs are
