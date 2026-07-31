@@ -98,7 +98,7 @@ export function langCodeOf(code: string | undefined): string {
  * tracked separately in PROSE_TRANSLATED below — the two layers ship on
  * different schedules by design (see the i18n note in CLAUDE.md).
  */
-export const TRANSLATED: readonly string[] = ['en', 'es', 'bn', 'ht', 'te', 'fr']
+export const TRANSLATED: readonly string[] = ['en', 'es', 'bn', 'ht', 'te', 'fr', 'fa']
 
 export function isTranslated(code: string): boolean {
   return TRANSLATED.includes(code)
@@ -130,12 +130,22 @@ export function isTranslated(code: string): boolean {
  * exists for lakh/crore regrouping, not separator swaps — the precedent is
  * Spanish, which also diverges on separators and is likewise excluded.
  *
+ * Farsi joined 2026-07-31, all nine topics in one pass, and is the FIRST RTL
+ * locale to translate its prose — so it is the first for which the LTR-pin rule
+ * below genuinely retires rather than staying a no-op. Its figures are held
+ * literal (never re-typed) and it IS in FIGURE_SAFE_NUMBERS, but on DIGITS not
+ * separators: Intl.NumberFormat('fa') renders Eastern-Arabic numerals, which a
+ * parent cannot match against the school's own English figure, so the tile falls
+ * back to en-US grouping. Bidi-neutral figures ($3,683,971, 2026–27, 80%) are
+ * wrapped in LRI…PDI isolates at render (see format.ts) so they read left-to-
+ * right inside the RTL paragraph; strong-L Latin identifiers need no isolate.
+ *
  * Only consumer is the `dir` attribute below, which drives one CSS rule. An RTL
  * locale whose prose is still English has to render that prose as an LTR run,
  * or the bidi algorithm mangles it (see `[data-prose='en'] main` in index.css).
  * Adding a locale here retires that rule for it automatically.
  */
-export const PROSE_TRANSLATED: readonly string[] = ['es', 'bn', 'ht', 'te', 'fr']
+export const PROSE_TRANSLATED: readonly string[] = ['es', 'bn', 'ht', 'te', 'fr', 'fa']
 
 export function isProseTranslated(code: string): boolean {
   return PROSE_TRANSLATED.includes(code)
