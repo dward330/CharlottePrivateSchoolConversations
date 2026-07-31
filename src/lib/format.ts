@@ -89,9 +89,33 @@ function currencyLeads(): boolean {
     .formatToParts(1)[0]?.type === 'currency'
 }
 
+/**
+ * The locale's own USD symbol — "$" in English, Kreyòl and Telugu, "US$" in
+ * Spanish, "$US" in French.
+ *
+ * Asked of Intl for the same reason placement is (see currencyLeads above).
+ * The abbreviated-magnitude branch of localizeMoneyText used to hardcode "US$",
+ * which is correct for exactly one locale — Spanish, the one it was written
+ * against. French renders "$US", so an abbreviated figure came out "3,25 M US$"
+ * while the full figure beside it came out "3 250 000 $US": the same currency,
+ * the same page, two different symbols.
+ *
+ * This is the same shape as the bug PR #61 fixed — one locale's convention
+ * generalised to every other — surviving in the symbol after being fixed in the
+ * placement. Caught by the French print-out.
+ */
+function currencySymbol(): string {
+  return (
+    new Intl.NumberFormat(lang(), { style: 'currency', currency: 'USD' })
+      .formatToParts(1)
+      .find((p) => p.type === 'currency')?.value ?? '$'
+  )
+}
+
 /** Per-unit suffixes riding along with the baked prices. English is the source. */
 const UNIT_SUFFIX: Record<string, Record<string, string>> = {
   es: { yr: 'año', mo: 'mes', sem: 'sem.', wk: 'sem.', class: 'clase', hr: 'hora' },
+  fr: { yr: 'an', mo: 'mois', sem: 'sem.', wk: 'sem.', class: 'cours', hr: 'h' },
 }
 
 function localizeUnits(text: string): string {
@@ -123,9 +147,11 @@ export function localizeMoneyText(text: string): string {
     if (!Number.isFinite(n)) return whole
     if (suffix) {
       // Keep the magnitude letter; localize only the number in front of it.
+      // Both the placement AND the symbol come from Intl — see currencySymbol().
+      const sym = currencySymbol()
       return currencyLeads()
-        ? `$${number(n)}${suffix}`
-        : `${number(n)} ${suffix} US$`
+        ? `${sym}${number(n)}${suffix}`
+        : `${number(n)} ${suffix} ${sym}`
     }
     return money(n)
   })

@@ -90,6 +90,7 @@ import { AfterSchoolCardBody } from '../components/AfterSchool.tsx'
 import { WelcomeVideo, PlayIcon } from '../components/WelcomeVideo.tsx'
 import { useTranslation } from 'react-i18next'
 import { topicLabel, metricLabel, cardTitle } from '../lib/labels.ts'
+import { localizeMoneyText } from '../lib/format.ts'
 
 type Loaded = Record<string, MetricGroup[]>
 
@@ -574,7 +575,15 @@ export function SchoolDetail({ slug }: { slug: string }) {
                   <div className="stat-strip">
                     {stats.map((vm) => (
                       <div key={vm.key} className="stat-tile">
-                        <div className="stat-tile-val">{vm.values[slug]}</div>
+                        {/* localizeMoneyText, for the same reason the card bodies
+                            use it: these values are authored US-style ("$36,325",
+                            "$3.68M") and must render in the reader's convention.
+                            Without it the topic-header tiles showed "$3.68M" while
+                            the financial-aid report directly below them showed
+                            "3 683 971 $US" — one figure, one page, two shapes.
+                            This is the most visible element on every school page.
+                            Caught by the Providence Day French print-out. */}
+                        <div className="stat-tile-val">{localizeMoneyText(String(vm.values[slug]))}</div>
                         <div className="stat-tile-label">{vm.label}</div>
                       </div>
                     ))}

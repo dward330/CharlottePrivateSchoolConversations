@@ -17,13 +17,20 @@ import type {
 } from '../data/financialAidReports.ts'
 
 /* Source text carries **bold** spans. Rendering them as real <strong> keeps the
-   emphasis the reports rely on without pulling in a markdown dependency. */
+   emphasis the reports rely on without pulling in a markdown dependency.
+
+   Every segment also goes through localizeMoneyText. This is the topic where it
+   matters most — the financial-aid report is almost entirely dollar figures, and
+   without it a French or Spanish reader sees "3 250 000 $US" in a stat tile and
+   "$3.25M" in the sentence explaining it. Same figure, one page, two shapes. */
 function RichText({ text }: { text: string }) {
   const parts = text.split(/\*\*(.+?)\*\*/g)
   return (
     <>
       {parts.map((part, i) =>
-        i % 2 === 1 ? <strong key={i}>{part}</strong> : part,
+        i % 2 === 1
+          ? <strong key={i}>{localizeMoneyText(part)}</strong>
+          : localizeMoneyText(part),
       )}
     </>
   )
@@ -93,7 +100,7 @@ function TuitionChart({
     <figure className="fa-figure">
       {caption && (
         <figcaption className="fa-figcaption">
-          <span className="fa-figure-title">{caption}</span>
+          <span className="fa-figure-title">{localizeMoneyText(caption)}</span>
           {anyPrior && (
             <span className="fa-legend">
               <span className="fa-legend-ghost" />
@@ -104,7 +111,7 @@ function TuitionChart({
           )}
         </figcaption>
       )}
-      {note2 && <p className="fa-note fa-note-top">{note2}</p>}
+      {note2 && <p className="fa-note fa-note-top">{localizeMoneyText(note2)}</p>}
       <div className="fa-bars">
         {bands.map((b) => (
           <div key={b.label} className="fa-bar-row">
@@ -128,7 +135,7 @@ function TuitionChart({
           </div>
         ))}
       </div>
-      {note && <p className="fa-note">{note}</p>}
+      {note && <p className="fa-note">{localizeMoneyText(note)}</p>}
     </figure>
   )
 }
@@ -149,7 +156,7 @@ function RangeChart({
     <figure className="fa-figure">
       {caption && (
         <figcaption className="fa-figcaption">
-          <span className="fa-figure-title">{caption}</span>
+          <span className="fa-figure-title">{localizeMoneyText(caption)}</span>
         </figcaption>
       )}
       <div className="fa-ranges">
@@ -177,7 +184,7 @@ function RangeChart({
           )
         })}
       </div>
-      {note && <p className="fa-note">{note}</p>}
+      {note && <p className="fa-note">{localizeMoneyText(note)}</p>}
     </figure>
   )
 }
@@ -198,10 +205,10 @@ function Ladder({
     <figure className="fa-figure">
       {caption && (
         <figcaption className="fa-figcaption">
-          <span className="fa-figure-title">{caption}</span>
+          <span className="fa-figure-title">{localizeMoneyText(caption)}</span>
         </figcaption>
       )}
-      {note2 && <p className="fa-note fa-note-top">{note2}</p>}
+      {note2 && <p className="fa-note fa-note-top">{localizeMoneyText(note2)}</p>}
       <div className="fa-ladder">
         {rungs.map((r) => (
           <div key={r.gift} className="fa-ladder-row">
@@ -215,7 +222,7 @@ function Ladder({
           </div>
         ))}
       </div>
-      {note && <p className="fa-note">{note}</p>}
+      {note && <p className="fa-note">{localizeMoneyText(note)}</p>}
     </figure>
   )
 }
@@ -273,7 +280,7 @@ function ComponentGrid({
           </div>
         ))}
       </div>
-      {note && <p className="fa-note">{note}</p>}
+      {note && <p className="fa-note">{localizeMoneyText(note)}</p>}
     </div>
   )
 }

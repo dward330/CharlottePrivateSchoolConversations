@@ -1047,3 +1047,135 @@ garbage.
 `uni` column. Comparing against a control PDF is what separates a real
 encoding bug from a generator artifact; skipping the control makes an app bug out
 of something the app did not do.
+
+---
+
+## French (fr) — rollout notes, 2026-07-30
+
+Sixth language. Latin script, no declared font, **no typography spike** — the
+first rollout that needed none at all. Cost shape follows Kreyòl, not Bangla.
+
+### The figure decision, and why it is not the `bn` line
+
+`fr` gets **no `FIGURE_SAFE_NUMBERS` entry**, even though it is unlike every
+predecessor: narrow no-break space grouping (U+202F), comma decimal separator,
+trailing symbol — `3 683 971 $US`.
+
+The reason is that **French grouping is still 3-3-3**. The group boundaries do
+not move, so a figure stays recognisable against its English source. That list
+exists for *regrouping* — `bn`/`te` lakh-crore turning `3,683,971` into
+`36,83,971` — not for separator swaps. The precedent is **Spanish**, which also
+diverges on separators (`3.683.971`) and is likewise excluded, not Bangla.
+
+Consequence worth knowing: `check_bn_numerals.mjs` asserts the 3-3-3 shape only
+for locales *inside* the list, so it correctly stays silent about `fr`. The
+per-topic `check_figures.py` sweep is the real guard.
+
+### Percent signs stay UNSPACED — found by the sweep on topic 1
+
+French orthography wants `80 %`, and `Intl` agrees. **The corpus does not.**
+Verified across `es`/`ht`/`te` over six topics: zero spaced percents, even
+though Spanish has the identical convention. These percentages are citations a
+parent matches against the school's own page, and the sweep reads the space as
+a dropped figure. The `%` travels with the digits.
+
+### Six decimals had been re-typed with a French comma
+
+`0.5 credit` → `0,5`, `4.4 each` → `4,4`. Restored to source form. A credit
+value is as citable as a GPA. **Note the shipped `es` overlay does this**
+(`5.0%` → `5,0%`); `fr` deliberately does not follow it.
+
+### The French-specific trap: an identifier wearing a sentence's clothes
+
+This is the **inverse** of the Telugu leak shape and it needs its own checker.
+
+Telugu leaked via *a sentence wearing an identifier's clothes* — a hedge in a
+proper-noun field, which `i18n_audit_skips.mjs` can catch. French leaks the
+other way: `French III Honors` and `AP French Language and Culture` are
+searchable course codes that, **in French only**, read as ordinary translatable
+prose. They sit in the same work file as `A five-level French sequence.`, which
+genuinely must move. Both are correctly classified as prose, so neither the skip
+audit nor the figure sweep can see the difference.
+
+977 strings in the corpus contain the word "French". `scripts/check_fr_identifiers.mjs`
+guards them. Three things it had to learn, each from a false positive:
+
+1. **Presence, not occurrence count.** French drops repetitions English keeps
+   (`…en Middle School ; le modèle de clubs y est…`), so demanding ×2 → ×2
+   flags correct prose.
+2. **Some terms are context-sensitive.** `Honors` is a course code in
+   `French III Honors` but an ordinary word in the card heading
+   `Honors & distinctions →`. `Francophone` is frozen in
+   `French 7 Advanced: Francophone Culture through Literature` but is prose in
+   `the African Francophone world` → `monde francophone africain`.
+3. **Whole-token matching.** A substring test fired `AP` on the word **TRAP**,
+   reporting the heading `A COMPARISON TRAP IN THE EARLY YEARS` as a lost code.
+
+### Sport names stay English — the prior precedent was split
+
+The shipped `es` overlay translates 6 sport names and leaves 19 in English;
+`ht` is inconsistent the same way. `fr` needed one rule and keeps them English:
+they are the team's name on the school's own athletics page, and **French
+"football" means soccer**, so translating the label on an American football
+program would be actively wrong rather than merely awkward.
+
+### `check_runtime_resolution.mjs` — the check the repo was missing
+
+Coverage reporting 100% does not mean the page renders French. A shipped entry
+resolves only if its FNV-1a stamp still equals the hash of the live English at
+that field path; if it does not, the runtime falls back to English **silently**
+— no error, no coverage change. That is the Spanish failure mode, and until now
+nothing verified it outside a browser. The new script recomputes all 5,924
+stamps from live `src/data/**`, and passes for `es`/`bn`/`ht`/`te` too.
+
+### Native-speaker review — PASSED, 2026-07-30
+
+French speakers read the rendered pages and accepted the prose. French ships
+**REVIEWED**, in Spanish/Bangla/Telugu's position rather than Kreyòl's. The
+list below is kept as a record of what the review covered, not as work owed:
+
+- **Register.** Formal `vous` throughout was the owner's call. The corpus is
+  mostly third-person declarative, so `vous` surfaces mainly in the "Ask on the
+  tour" questions — check those read as a parent would actually speak.
+- **Hedge strength.** The whole corpus depends on these. `semble être` vs `est`,
+  `n'a pas pu être confirmé` vs `n'existe pas`, `minimum documenté` vs
+  `minimum`. A softened hedge turns a caveat into a claim.
+- **The frozen identifiers** (§1a of the rollout doc). A French reader is the
+  only person who can say whether leaving `French III Honors` untranslated reads
+  as deliberate or as an oversight.
+- **Division names.** `Upper School` / `Middle School` / `Lower School` stay
+  English as searchable identifiers. This is the choice most likely to feel
+  wrong to a native reader, and it is deliberate.
+
+### The print-outs — four defects, three of them cross-locale
+
+Two rounds, both in a real browser with every panel expanded. **Every automated
+check had passed on all four.**
+
+| Round | School | Found |
+|---|---|---|
+| 1 | Charlotte Latin, 65pp | `18 h 00` clock tile · prose money unlocalized · hardcoded `US$` |
+| 2 | Providence Day, 80pp | topic-header stat tiles rendering raw |
+
+Only the first was French-specific. Two affect Spanish identically; one affects
+`te`/`ht`/`en` too.
+
+**The through-line: three separate render paths were bypassing
+`localizeMoneyText()`** — `RichText` in three card components, the stat tiles in
+`SchoolDetail`, and (found by the new checker rather than by eye) the
+financial-aid figure captions. Every instance is invisible to an English reader
+by construction, since `localizeMoneyText` is a no-op on `en`. That is why four
+rollouts' worth of checkers never saw them.
+
+Two checks now close it, both verified in *both* directions:
+
+- `npm run check:currency` — every money form in a locale carries the same
+  symbol on the same side; English never moves.
+- `npm run check:money` — greps JSX for figure-shaped expressions rendered
+  without localizing, with a `REVIEWED` list for fields hand-verified never to
+  hold one. It immediately found 8 sites nobody had thought to check.
+
+**Why the second school mattered.** Latin's tiles read `$36,500` / `$3.25M` —
+wrong, but only once you know. Providence Day puts `$3.68M` and `3 683 971 $US`
+on the *same document*. Two schools is not belt-and-braces; it is what makes a
+defect legible.

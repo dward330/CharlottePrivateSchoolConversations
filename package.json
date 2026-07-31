@@ -12,7 +12,11 @@
     "i18n:report": "node scripts/i18n_extract.mjs --report",
     "preview": "vite preview",
     "check:hashes": "node scripts/check_hash_parity.mjs",
-    "i18n:build": "node scripts/i18n_build_overlay.mjs"
+    "i18n:build": "node scripts/i18n_build_overlay.mjs",
+    "check:runtime": "node scripts/check_runtime_resolution.mjs --lang fr",
+    "check:fr": "node scripts/check_fr_identifiers.mjs",
+    "check:currency": "node scripts/check_currency_shape.mjs",
+    "check:money": "node scripts/check_money_render_paths.mjs"
   },
   "dependencies": {
     "i18next": "^26.3.6",

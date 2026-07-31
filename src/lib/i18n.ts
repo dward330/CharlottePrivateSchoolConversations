@@ -98,7 +98,7 @@ export function langCodeOf(code: string | undefined): string {
  * tracked separately in PROSE_TRANSLATED below — the two layers ship on
  * different schedules by design (see the i18n note in CLAUDE.md).
  */
-export const TRANSLATED: readonly string[] = ['en', 'es', 'bn', 'ht', 'te']
+export const TRANSLATED: readonly string[] = ['en', 'es', 'bn', 'ht', 'te', 'fr']
 
 export function isTranslated(code: string): boolean {
   return TRANSLATED.includes(code)
@@ -121,12 +121,21 @@ export function isTranslated(code: string): boolean {
  * it declares no font and needs no FIGURE_SAFE_NUMBERS entry, because
  * Intl.NumberFormat('ht') is byte-identical to en-US at every digit width.
  *
+ * French joined 2026-07-30, all nine topics in one pass. Like ht it is Latin
+ * script in Barlow and declares no font — the first rollout that needed no
+ * typography spike at all. It gets NO FIGURE_SAFE_NUMBERS entry despite
+ * grouping with a narrow no-break space (3 683 971) and trailing the symbol
+ * (3 683 971 $US): the grouping is still 3-3-3, so the group boundaries do not
+ * move and a figure stays recognisable against its English source. That list
+ * exists for lakh/crore regrouping, not separator swaps — the precedent is
+ * Spanish, which also diverges on separators and is likewise excluded.
+ *
  * Only consumer is the `dir` attribute below, which drives one CSS rule. An RTL
  * locale whose prose is still English has to render that prose as an LTR run,
  * or the bidi algorithm mangles it (see `[data-prose='en'] main` in index.css).
  * Adding a locale here retires that rule for it automatically.
  */
-export const PROSE_TRANSLATED: readonly string[] = ['es', 'bn', 'ht', 'te']
+export const PROSE_TRANSLATED: readonly string[] = ['es', 'bn', 'ht', 'te', 'fr']
 
 export function isProseTranslated(code: string): boolean {
   return PROSE_TRANSLATED.includes(code)

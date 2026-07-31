@@ -154,7 +154,14 @@ function RichText({ text }: { text: string }) {
     <>
       {parts.map((part, i) =>
         // Odd indices are the captured groups — i.e. what was inside the **…**.
-        i % 2 === 1 ? <strong key={i}>{part}</strong> : part,
+        // localizeMoneyText on every segment: prose carries baked figures
+        // ("$1,725 a semester") exactly as the sibling `price` and `fee` fields
+        // do, and those already localize. Without it the same figure renders two
+        // ways on one page — "1 725 $US/sem" on the bar, "$1,725" in the callout
+        // beside it. Caught by the French print-out; it affects es identically.
+        i % 2 === 1
+          ? <strong key={i}>{localizeMoneyText(part)}</strong>
+          : localizeMoneyText(part),
       )}
     </>
   )

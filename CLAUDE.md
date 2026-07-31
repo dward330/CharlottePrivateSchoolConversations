@@ -72,8 +72,56 @@ figure is ever re-typed, so tuition data cannot drift between languages. Never h
 a number in a data file to "translate" it.
 
 **Shipped languages.** English, Spanish, Bangla (Bangladesh / Dhaka standard),
-Haitian Creole and Telugu (Andhra Pradesh) are all complete — every topic and
-the chrome catalog translated and live. No translation work is open.
+Haitian Creole, Telugu (Andhra Pradesh) and French are all complete — every
+topic and the chrome catalog translated and live. No translation work is open.
+
+**French keeps its own separator but not its own grouping.** It is the first
+locale to group with a narrow no-break space and trail the symbol
+(`3 683 971 $US`), yet it is deliberately **absent** from `FIGURE_SAFE_NUMBERS`
+— because its grouping is still 3-3-3, so the group boundaries never move and a
+figure stays recognisable against its English source. That list exists for
+lakh/crore *regrouping* (`bn`), not separator swaps; the precedent is Spanish,
+which also diverges on separators and is likewise excluded. One knock-on:
+`check_bn_numerals.mjs` only asserts the 3-3-3 shape for locales inside the
+list, so it correctly stays silent about `fr`, and the per-topic
+`check_figures.py` sweep is the real guard.
+
+**Percent signs stay unspaced in every locale, French included.** French
+orthography wants `80 %` and `Intl` agrees — but these percentages are citations
+a parent matches against the school's own page, the sweep reads the space as a
+dropped figure, and `es`/`ht`/`te` all ship unspaced despite Spanish having the
+same convention. The `%` travels with the digits.
+
+**French inverts the Telugu leak shape, and needed its own checker.** Telugu
+leaked via *a sentence wearing an identifier's clothes* — catchable by the skip
+audit. French leaks the other way: `French III Honors` and
+`AP French Language and Culture` are searchable course codes that, in French
+only, read as translatable prose, sitting in the same file as
+`A five-level French sequence.` which genuinely must move. Both are correctly
+classified as prose, so no existing check could see the difference.
+`scripts/check_fr_identifiers.mjs` (`npm run check:fr`) guards the 977 affected
+strings.
+
+**Coverage at 100% does not mean the page renders the language.** A shipped
+overlay entry resolves only if its FNV-1a stamp still equals the hash of the
+live English at that field path; otherwise the runtime falls back to English
+**silently** — no error, no coverage change. `scripts/check_runtime_resolution.mjs`
+(`npm run check:runtime`) recomputes every stamp from live `src/data/**`. It is
+the last check that runs without a browser.
+
+**French has a native-speaker review.** French speakers read the rendered pages
+and accepted the prose (2026-07-30) — register, hedge strength, and the choice
+to leave `Upper School` and `French III Honors` in English. French therefore
+ships in the same reviewed position as Spanish, Bangla and Telugu, **not**
+Kreyòl's.
+
+**Its two print-out rounds found four defects, three of them cross-locale, and
+every automated check had passed on all four.** Charlotte Latin (65pp) found a
+`18 h 00` clock tile, prose money that never localized, and a hardcoded `US$`
+symbol; Providence Day (80pp) found the topic-header stat tiles rendering raw.
+Three separate render paths were bypassing `localizeMoneyText()` — invisible to
+English readers by construction, which is why no checker saw them. Two new
+checks now close that class: `npm run check:currency` and `npm run check:money`.
 
 **Telugu keeps native lakh/crore grouping** — it is deliberately absent from
 `FIGURE_SAFE_NUMBERS`, the opposite of the `bn` line, so `$3,250,000` renders
@@ -103,6 +151,11 @@ example for a non-Latin script and
 [`prose-translation-ht.md`](.claude/docs/prose-translation-ht.md) for a Latin
 one (each opens with a START HERE block), and
 `prose-translation-architecture.md` holds the language-independent mechanism.
+[`prose-translation-fr.md`](.claude/docs/prose-translation-fr.md) is the most
+recent and the only one whose §1 register rule **inverts** an earlier doc's:
+for Kreyòl, drifting toward French was the failure mode to avoid; for French
+that same output is simply correct. Read a prior doc for the *method*, never
+for a register rule to inherit unexamined.
 
 **A browser print-out is a required step, not a formality.** Every defect found
 after the data read 100% has been render-layer, and the last two were not even
@@ -146,6 +199,24 @@ default school page renders ~17k characters; with every `<details>` opened it is
 load. `$3.25M`-style tiles prove nothing about digit grouping — only figures like
 `$3,683,971` do. Skipping either step makes the print-out report clean without
 having looked at the part that breaks (Telugu, 2026-07-29).
+
+**KNOWN OPEN DEFECT — seven English strings ship in all five non-English
+locales.** Surfaced by `i18n_audit_skips.mjs` during the French rollout and
+confirmed absent from every overlay. Not French-specific; not fixed, because it
+means widening `i18n_fields.mjs` path rules and re-extracting topics already
+complete in five languages:
+
+| Value | Field | File |
+|---|---|---|
+| `The 2023–24 peak`, `The 2025–26 decline` | `program` | `sportsPrograms/davidson-day.ts` |
+| `Football — Estep era` | `program` | `sportsPrograms/charlotte-christian.ts` |
+| `2 years`, `1 credit` | `value` | `artsPrograms/cannon.ts`, `davidson-day.ts` |
+| `15-yr (2024–25 profile)`, `(2021–22 profile)` | `year` | `collegeSupportPrograms/charlotte-christian.ts` |
+
+This is exactly the "right about 12 values, wrong about the 13th" shape above:
+`program` is a genuine sport name for 23 of 27 values and an editorial phrase
+for 4. Recorded so it is not re-discovered as a bug in whichever locale ships
+next.
 
 Rules of thumb: never concatenate sentence fragments — use interpolation
 (`{{count}} schools`) so word order can change per language. Use i18next's `count`

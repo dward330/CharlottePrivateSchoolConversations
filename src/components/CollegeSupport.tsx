@@ -194,7 +194,12 @@ function RichText({ text }: { text: string }) {
     <>
       {parts.map((part, i) =>
         // Odd indices are the captured groups — i.e. what was inside the **…**.
-        i % 2 === 1 ? <strong key={i}>{part}</strong> : part,
+        // localizeMoneyText on every segment — see the note on the AfterSchool
+        // copy of this component. Prose carries baked figures ("$13M+ in merit
+        // offers") that must localize the same way the stat tiles beside them do.
+        i % 2 === 1
+          ? <strong key={i}>{localizeMoneyText(part)}</strong>
+          : localizeMoneyText(part),
       )}
     </>
   )
