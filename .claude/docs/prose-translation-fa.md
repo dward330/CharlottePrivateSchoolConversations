@@ -1,16 +1,29 @@
 # Farsi (فارسی) research-prose translation — rollout
 
-**Status:** **DATA + CHROME COMPLETE — awaiting the two browser print-outs.**
-All 9 topics translated (6,524 prose entries) and the 331-key chrome catalog
-shipped; `fa` is now in both `TRANSLATED` and `PROSE_TRANSLATED` (flip landed
-2026-07-31). `fa` is the **seventh** language, after English, Spanish, Bangla,
-Haitian Creole, Telugu and French. Phase 0 (RTL/bidi + typography) merged as
-PR #66. Written and executed 2026-07-30 → 2026-07-31.
+**Status:** **COMPLETE — both browser print-outs passed. Awaiting only a
+native-speaker review.** All 9 topics translated (6,524 prose entries) and the
+331-key chrome catalog shipped; `fa` is in both `TRANSLATED` and
+`PROSE_TRANSLATED` (flip landed 2026-07-31). `fa` is the **seventh** language,
+after English, Spanish, Bangla, Haitian Creole, Telugu and French. Phase 0
+(RTL/bidi + typography) merged as PR #66. Written and executed 2026-07-30 →
+2026-07-31.
 
-**Only the two browser print-outs remain** — Charlotte Latin AND Providence Day,
-real browser, every `<details>` expanded, an unabbreviated 7-digit figure
-checked. Until they pass, the rollout is not signed off and no native-speaker
-review has run.
+**Both required print-outs passed (2026-07-31), in a real browser, fully
+expanded:** Providence Day (64pp) and Charlotte Latin (60pp). They verified the
+render layer that no checker can reach — RTL figures isolate LTR (`$3,683,971`,
+`$40.6M`, `2017–18`, `9.7%`, `~44:1`, cost-grid cells all correct on Providence
+Day's unabbreviated 7-digit figures), Latin identifiers stay intact, no bidi
+mangling, no leaked English in table cells/chips/source lines. The two print-out
+*fixes* they forced are shipped separately (PR #71): an "Expand all" affordance
+plus `@media print` rules that open every `<details>` and drop the sticky
+side-nav — the first Farsi print-out had printed only collapsed teasers with a
+mangled RTL header band on every page.
+
+**The one remaining item is a native-speaker review** — register, naturalness,
+whether the prose over-Arabizes. That is the single failure mode no automated
+check and no non-speaker print-out can close; `fa` ships in the same
+UNREVIEWED-on-register position Kreyòl did, NOT the reviewed position of
+Spanish/Bangla/Telugu/French, until a Persian speaker reads the rendered pages.
 
 **`fa` is the first RTL locale to reach `PROSE_TRANSLATED`, and that was the
 point of this rollout.** Every RTL page before it rendered LTR-pinned English;

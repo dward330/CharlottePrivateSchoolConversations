@@ -72,8 +72,37 @@ figure is ever re-typed, so tuition data cannot drift between languages. Never h
 a number in a data file to "translate" it.
 
 **Shipped languages.** English, Spanish, Bangla (Bangladesh / Dhaka standard),
-Haitian Creole, Telugu (Andhra Pradesh) and French are all complete — every
-topic and the chrome catalog translated and live. No translation work is open.
+Haitian Creole, Telugu (Andhra Pradesh), French and Farsi (Persian, formal
+written standard) are all complete — every topic and the chrome catalog
+translated and live. No translation work is open.
+
+**Farsi is the first RTL locale to translate its prose, and both print-outs
+passed.** It ships in `TRANSLATED` + `PROSE_TRANSLATED` (PR #69). RTL was the
+one real unknown, and the render layer holds: bidi-neutral figures
+(`$3,683,971`, `2017–18`, `9.7%`) are wrapped in LRI…PDI isolates so they read
+left-to-right inside a right-to-left paragraph, while strong-L Latin identifiers
+(`AP Calculus BC`, `Upper School`) need no isolate. `fa` IS in
+`FIGURE_SAFE_NUMBERS` — but on DIGITS alone (Eastern-Arabic numerals are
+unmatchable against the school's own English figure), the opposite reason from
+`bn`'s lakh/crore regrouping. Currency stays USD, amounts never re-typed. The
+two Providence Day / Charlotte Latin print-outs (2026-07-31, 64pp + 60pp, fully
+expanded) verified all of this. **Farsi has NOT had a native-speaker review** —
+register (whether the prose over-Arabizes) is the one failure mode no check
+reaches, so it ships in Kreyòl's UNREVIEWED-on-register position, not the
+reviewed position of Spanish/Bangla/Telugu/French. See
+[`prose-translation-fa.md`](.claude/docs/prose-translation-fa.md).
+
+**The first Farsi print-out found a print-path defect class worth remembering:
+cards printed COLLAPSED.** Every research `<details>` printed as just its teaser,
+so the financial-aid deep-dive and its figures never appeared — and a sticky
+side-nav re-laid itself as a mangled RTL band across every page top. Neither is
+language-specific; both were invisible to every checker because they are pure
+print-media render bugs. Fixed in PR #71: an "Expand all" button plus
+`@media print` rules that force every `.note-card > .note-card-body` to
+`display:block` and hide `.dossier-nav`. **When adding the next locale, print a
+school with the panels ALREADY forced open and confirm the deep-dive figures
+actually appear** — a print-out of collapsed teasers reads as clean while
+showing none of the part that breaks.
 
 **French keeps its own separator but not its own grouping.** It is the first
 locale to group with a narrow no-break space and trail the symbol
