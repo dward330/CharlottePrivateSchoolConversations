@@ -3,11 +3,14 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  // GitHub Pages serves this project from a subpath, not the domain root:
-  //   https://dward330.github.io/CharlottePrivateSchoolConversations/
-  // `base` makes Vite emit asset URLs relative to that subpath so the built
-  // site loads correctly there. For local `vite dev` / `vite preview` this is
-  // harmless — they serve under the same prefix.
-  base: '/CharlottePrivateSchoolConversations/',
+  // The site is served from the ROOT of its custom domain
+  // (https://charlotteschoolinsights.com/), so assets resolve at '/'. A CNAME
+  // file in public/ pins that domain on every GitHub Pages deploy.
+  //
+  // History: while the site lived at the project subpath
+  // (dward330.github.io/CharlottePrivateSchoolConversations/) this was
+  // '/CharlottePrivateSchoolConversations/'. If you ever deploy back to the
+  // github.io subpath, restore that value.
+  base: '/',
   plugins: [react()],
 })
