@@ -6,6 +6,7 @@
 //   #/compare?topic=..&schools=a,b  -> comparison
 
 import { useSyncExternalStore, useCallback } from 'react'
+import { pushRoute } from './analytics.ts'
 
 export type Route =
   | { name: 'home' }
@@ -32,8 +33,16 @@ function parse(hash: string): Route {
 }
 
 function subscribe(cb: () => void): () => void {
+  // `hashchange` covers manual URL edits and the browser Back/Forward buttons.
+  // `popstate` covers in-app navigation via pushRoute() (src/lib/analytics.ts),
+  // which uses history.pushState — that does NOT fire hashchange — and then
+  // dispatches popstate so the view re-reads the hash.
   window.addEventListener('hashchange', cb)
-  return () => window.removeEventListener('hashchange', cb)
+  window.addEventListener('popstate', cb)
+  return () => {
+    window.removeEventListener('hashchange', cb)
+    window.removeEventListener('popstate', cb)
+  }
 }
 
 export function useRoute(): Route {
@@ -62,7 +71,10 @@ export function toCompare(topic: string | null, schools: string[]): string {
 
 export function useNavigate(): (href: string) => void {
   return useCallback((href: string) => {
-    window.location.hash = href.startsWith('#') ? href.slice(1) : href
+    // pushRoute adds exactly one history entry and logs a Cloudflare page-view
+    // for the destination (see src/lib/analytics.ts); it falls back to a plain
+    // hash assignment if the History API is unavailable.
+    pushRoute(href)
     // Bring the new view into view on navigation (esp. mobile).
     window.scrollTo({ top: 0 })
   }, [])
