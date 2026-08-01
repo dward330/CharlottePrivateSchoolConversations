@@ -196,12 +196,58 @@ function storedLang(): string | null {
   }
 }
 
-// An explicit choice always wins; with nothing saved we follow the browser.
-// Both sources are already normalised to a bare code we list, which matters:
+/** URL query-string key that pins the language, e.g. `?lang=fr`. */
+export const LANG_PARAM = 'lang'
+
+/**
+ * A language pinned in the page URL via `?lang=xx`. This is the real query
+ * string (before the hash), NOT part of the hash route — the choice is one
+ * app-global setting, so it lives outside the hash router and survives hash
+ * navigation untouched.
+ *
+ * Like storedLang()/detectFromNavigator(), an unknown or listed-but-
+ * untranslated code returns null so load falls through to the next source
+ * rather than stranding the reader on an all-English page under a foreign
+ * selection (e.g. `?lang=hi`). SSR-safe: no window means no param.
+ */
+function urlLang(): string | null {
+  if (typeof window === 'undefined') return null
+  const raw = new URLSearchParams(window.location.search).get(LANG_PARAM)
+  if (!raw) return null
+  const base = raw.toLowerCase().split('-')[0]
+  return BY_CODE.has(base) && isTranslated(base) ? base : null
+}
+
+/**
+ * Write the active language into the URL as `?lang=xx` without adding a history
+ * entry (replaceState), so the address bar always reflects what is on screen and
+ * the link stays shareable. English — the default — clears the param rather than
+ * pinning `?lang=en`, keeping the common URL clean. The hash route is preserved
+ * exactly. A no-op when the URL already matches, so it never churns history.
+ */
+function syncUrl(code: string) {
+  if (typeof window === 'undefined') return
+  const url = new URL(window.location.href)
+  const want = code === FALLBACK_LANG ? null : code
+  const have = url.searchParams.get(LANG_PARAM)
+  if (want === have) return
+  if (want) url.searchParams.set(LANG_PARAM, want)
+  else url.searchParams.delete(LANG_PARAM)
+  try {
+    window.history.replaceState(window.history.state, '', url)
+  } catch {
+    /* replaceState can throw in exotic sandboxes — the language still applied */
+  }
+}
+
+// Precedence on load: a `?lang=` in the URL wins over everything (a shared link
+// is honoured exactly as sent, even for a returning visitor with a saved
+// choice), then the saved choice, then the browser preference, then English.
+// Every source is already normalised to a bare code we list, which matters:
 // `supportedLngs` is checked against the raw `lng` before `load: 'languageOnly'`
 // strips a region, so handing init an "es-MX" here would be rejected at startup
 // and silently boot English.
-const initialLang = storedLang() ?? detectFromNavigator() ?? FALLBACK_LANG
+const initialLang = urlLang() ?? storedLang() ?? detectFromNavigator() ?? FALLBACK_LANG
 
 void i18n.use(initReactI18next).init({
   resources: { en: { translation: en } },
@@ -264,7 +310,20 @@ void i18n.use(initReactI18next).init({
 export const ready: Promise<void> = loadCatalog(initialLang)
   .then(() => i18n.changeLanguage(initialLang))
   .then(
-    () => { /* resolvedLanguage now matches initialLang */ },
+    () => {
+      // resolvedLanguage now matches initialLang.
+      //
+      // When the URL pinned the language (?lang=fr), remember it so a later
+      // visit WITHOUT the param still opens in that language — a shared link
+      // should feel like choosing the language, which is what the dropdown does.
+      // Only persist a genuine URL pin, so merely booting English never clobbers
+      // a returning visitor's saved non-English choice.
+      if (urlLang()) persist(initialLang)
+      // changeLanguage() may resolve to the same language i18next already booted
+      // and then NOT fire `languageChanged`, so applyLocale wouldn't run and a
+      // stale ?lang= would linger. Call it once here — it's idempotent.
+      applyLocale(i18n.resolvedLanguage ?? initialLang)
+    },
     () => { /* startup bundle failure — English stands in, nothing to undo */ },
   )
 
@@ -357,6 +416,11 @@ function syncFont(code: string) {
 function applyLocale(code: string) {
   syncHtml(code)
   syncFont(code)
+  // Keep the address bar's ?lang= in step with the active locale, so the URL is
+  // always shareable and never disagrees with what's on screen. Runs on the
+  // dropdown choice, cross-tab sync, and the initial resolve alike — this is the
+  // one place every language change funnels through.
+  syncUrl(code)
 }
 
 applyLocale(i18n.resolvedLanguage ?? initialLang)
