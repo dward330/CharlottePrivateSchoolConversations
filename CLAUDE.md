@@ -86,10 +86,11 @@ left-to-right inside a right-to-left paragraph, while strong-L Latin identifiers
 unmatchable against the school's own English figure), the opposite reason from
 `bn`'s lakh/crore regrouping. Currency stays USD, amounts never re-typed. The
 two Providence Day / Charlotte Latin print-outs (2026-07-31, 64pp + 60pp, fully
-expanded) verified all of this. **Farsi has NOT had a native-speaker review** —
-register (whether the prose over-Arabizes) is the one failure mode no check
-reaches, so it ships in Kreyòl's UNREVIEWED-on-register position, not the
-reviewed position of Spanish/Bangla/Telugu/French. See
+expanded) verified all of this. **Farsi has a native-speaker review** — a Persian
+speaker read the rendered pages and accepted the prose (2026-08-01), which closes
+the one failure mode no check reaches (register, naturalness, whether the prose
+over-Arabizes). Farsi therefore ships in the same reviewed position as Spanish,
+Bangla, Telugu and French, **not** Kreyòl's. See
 [`prose-translation-fa.md`](.claude/docs/prose-translation-fa.md).
 
 **The first Farsi print-out found a print-path defect class worth remembering:
@@ -166,8 +167,9 @@ this repo can reach — register, naturalness, whether the wording drifts toward
 formal/Sanskritized style a parent would not use. Telugu therefore ships in the
 same reviewed position as Spanish and Bangla, **not** in Kreyòl's.
 
-**One caveat on Haitian Creole:** Spanish, Bangla and Telugu have signed-off
-native-speaker reviews. Kreyòl was **accepted without one** (2026-07-29), so its
+**One caveat on Haitian Creole:** Spanish, Bangla, Telugu, French and Farsi have
+signed-off native-speaker reviews. Kreyòl was **accepted without one**
+(2026-07-29), so its
 register — specifically whether the prose drifts toward French — has never been
 checked by a speaker. That is the one failure mode a non-speaker structurally
 cannot catch, and it is invisible to every automated check in this repo. If a

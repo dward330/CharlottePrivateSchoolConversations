@@ -1,12 +1,12 @@
 # Farsi (فارسی) research-prose translation — rollout
 
-**Status:** **COMPLETE — both browser print-outs passed. Awaiting only a
-native-speaker review.** All 9 topics translated (6,524 prose entries) and the
-331-key chrome catalog shipped; `fa` is in both `TRANSLATED` and
-`PROSE_TRANSLATED` (flip landed 2026-07-31). `fa` is the **seventh** language,
-after English, Spanish, Bangla, Haitian Creole, Telugu and French. Phase 0
-(RTL/bidi + typography) merged as PR #66. Written and executed 2026-07-30 →
-2026-07-31.
+**Status:** **COMPLETE & SIGNED OFF — both browser print-outs passed AND a
+native-speaker review accepted the prose (2026-08-01).** Nothing is open. All 9
+topics translated (6,524 prose entries) and the 331-key chrome catalog shipped;
+`fa` is in both `TRANSLATED` and `PROSE_TRANSLATED` (flip landed 2026-07-31).
+`fa` is the **seventh** language, after English, Spanish, Bangla, Haitian Creole,
+Telugu and French. Phase 0 (RTL/bidi + typography) merged as PR #66. Written and
+executed 2026-07-30 → 2026-07-31; reviewed 2026-08-01.
 
 **Both required print-outs passed (2026-07-31), in a real browser, fully
 expanded:** Providence Day (64pp) and Charlotte Latin (60pp). They verified the
@@ -19,11 +19,12 @@ plus `@media print` rules that open every `<details>` and drop the sticky
 side-nav — the first Farsi print-out had printed only collapsed teasers with a
 mangled RTL header band on every page.
 
-**The one remaining item is a native-speaker review** — register, naturalness,
-whether the prose over-Arabizes. That is the single failure mode no automated
-check and no non-speaker print-out can close; `fa` ships in the same
-UNREVIEWED-on-register position Kreyòl did, NOT the reviewed position of
-Spanish/Bangla/Telugu/French, until a Persian speaker reads the rendered pages.
+**The native-speaker review is done (2026-08-01).** A Persian speaker read the
+rendered pages and accepted the prose — register, naturalness, whether it
+over-Arabizes, the single failure mode no automated check and no non-speaker
+print-out can close. `fa` therefore ships in the same reviewed position as
+Spanish, Bangla, Telugu and French, **not** Kreyòl's. The rollout is fully
+closed.
 
 **`fa` is the first RTL locale to reach `PROSE_TRANSLATED`, and that was the
 point of this rollout.** Every RTL page before it rendered LTR-pinned English;
