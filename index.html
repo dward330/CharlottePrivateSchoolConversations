@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="./icon.png" />
+    <link rel="apple-touch-icon" href="./icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Compare Charlotte-area private schools across sports, the arts, student clubs, and college support."
+    />
+    <title>Charlotte School Compare</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&family=Barlow:wght@400;500;600;700&display=swap"
+    />
+    <!-- Pin the saved theme before first paint so there's no light/dark flash.
+         Mirrors src/lib/theme.ts; with nothing saved we fall through to the
+         prefers-color-scheme rules in index.css until React mounts. -->
+    <script>
+      try {
+        var t = localStorage.getItem('cs-theme')
+        if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t
+      } catch (e) {}
+    </script>
+    <script type="module" crossorigin src="/CharlottePrivateSchoolConversations/assets/index-EHzmSQxB.js"></script>
+    <link rel="stylesheet" crossorigin href="/CharlottePrivateSchoolConversations/assets/index-DrLiBOc3.css">
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!-- Cloudflare Web Analytics — privacy-first, cookieless traffic stats
+         (visits, unique-visitor counts, per-page views, visitor country). Free.
+         Dashboard: Cloudflare → Analytics → Web analytics (hostname
+         dward330.github.io). See src/lib/analytics.ts for the SPA page-view hook
+         this app needs on top of the beacon. -->
+    <script
+      type="module"
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"token": "1fd5db0804194ce1aa057283f2218a64", "spa": true}'
+    ></script>
+  </body>
+</html>

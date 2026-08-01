@@ -1,0 +1,44 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Raw reference files (PDFs, spreadsheets) are read/converted locally and NOT committed.
+source-material/**
+# EXCEPTION: text-based data we fetch/compile (hard data + source URLs) IS committed, so
+# the repo always retains the underlying data. Keep these as .md next to the raw files.
+!source-material/**/
+!source-material/**/*.md
+
+# Claude Code local settings (machine-specific permissions; not shared)
+.claude/settings.local.json
+
+# Phase 0 typography spikes — scratch, never shipped
+bangla-spike.html
+telugu-spike.html
+farsi-spike.html
