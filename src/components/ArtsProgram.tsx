@@ -19,6 +19,7 @@
 import { useTranslation } from 'react-i18next'
 import { localizeMoneyText } from '../lib/format.ts'
 import { sourceLabel } from '../lib/labels.ts'
+import { assetUrl } from '../lib/asset.ts'
 import type {
   ArtsLadder,
   ArtsPhoto,
@@ -91,7 +92,7 @@ function Photo({ photo }: { photo?: ArtsPhoto }) {
   if (!photo) return null
   return (
     <figure className="arts-photo">
-      <img src={photo.src} alt={photo.name} loading="lazy" />
+      <img src={assetUrl(photo.src)} alt={photo.name} loading="lazy" />
       <figcaption>
         <strong>{photo.name}</strong>
         {photo.caption && <div className="text-muted">{photo.caption}</div>}

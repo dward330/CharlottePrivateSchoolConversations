@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { useRoute, toHome, toCompare, useNavigate } from './lib/router.ts'
+import { assetUrl } from './lib/asset.ts'
 import { topics, schools, brandOf } from './lib/manifest.ts'
 import { Home } from './pages/Home.tsx'
 import { SchoolDetail } from './pages/SchoolDetail.tsx'
@@ -28,7 +29,7 @@ function App() {
         >
           {logoOk ? (
             <img
-              src="/logo.png"
+              src={assetUrl('/logo.png')}
               className="brand-logo"
               alt=""
               onError={() => setLogoOk(false)}

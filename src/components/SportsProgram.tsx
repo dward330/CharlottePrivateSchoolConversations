@@ -13,6 +13,7 @@
 
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { winPct, localizeMoneyText } from '../lib/format.ts'
+import { assetUrl } from '../lib/asset.ts'
 import { useTranslation } from 'react-i18next'
 import type {
   Coaching,
@@ -610,7 +611,7 @@ export function FacilitiesBody({ data }: { data: Facilities }) {
         <div className="sports-photos">
           {data.photos.map((p) => (
             <figure key={p.src} className="sports-photo">
-              <img src={p.src} alt={p.name} loading="lazy" />
+              <img src={assetUrl(p.src)} alt={p.name} loading="lazy" />
               <figcaption>
                 <strong>{p.name}</strong>
                 {p.meta && <> · {p.meta}</>}
