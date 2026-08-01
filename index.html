@@ -29,5 +29,17 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+
+    <!-- Cloudflare Web Analytics — privacy-first, cookieless traffic stats
+         (visits, unique-visitor counts, per-page views, visitor country). Free.
+         Dashboard: Cloudflare → Analytics → Web analytics (hostname
+         dward330.github.io). See src/lib/analytics.ts for the SPA page-view hook
+         this app needs on top of the beacon. -->
+    <script
+      type="module"
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"token": "1fd5db0804194ce1aa057283f2218a64", "spa": true}'
+    ></script>
   </body>
 </html>
