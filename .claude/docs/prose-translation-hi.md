@@ -386,6 +386,36 @@ Both fixes are language-independent and benefit every future locale.
 
 ---
 
+## 4c. The cross-locale leak diff is the highest-yield review tool
+
+Inherited from the Italian rollout, where it found **167** leaks the eye had
+caught only 2 of. `.spike-tmp/find_hi_english_leaks.mjs` reports every string
+where Hindi kept the English verbatim **and ≥2 of `es`/`fr`/`it`/`te`/`bn`
+translated that same English**.
+
+The insight is that two independently-reviewed locales agreeing a string is
+prose is far stronger evidence than any heuristic about what "looks like" an
+identifier — and it needs no judgement about the new language at all.
+
+**64 review items for Hindi; 28 were genuine leaks and were fixed:**
+
+| Class | Example | Fix |
+|---|---|---|
+| Month abbreviations | `15 Feb 2026` | `15 फ़र. 2026` — digits/year stay Western |
+| Grade-band ordinals | `1st–5th`, `TK–2nd` | `1ली–5वीं`, `TK–2री` |
+| am/pm clock markers | `2:00–3:00 pm` | `दोपहर 2:00–3:00` (te and bn both do this) |
+| Descriptive labels | `enrichment`, `Drop-in`, `Activity buses` | translated |
+
+The other **36 were reviewed and deliberately kept**: sport names in roster
+columns, named awards (`Gatorade Player of the Year`), production titles, source
+domains, and course-catalog lists a family matches against the school's page.
+The fixer records those as explicit no-op entries, so the decision is documented
+rather than merely implied by absence.
+
+**Run this before the print-out, not after.** It is cheap, and it finds the
+class of defect that a rendered-page review structurally cannot: a short English
+label that looks deliberate.
+
 ## 5. What remains
 
 Follow the te/bn Phase 1 → 2 → 3 order. Phase 2's checks, all of which must be
