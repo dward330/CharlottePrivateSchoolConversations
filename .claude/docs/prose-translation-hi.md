@@ -1,8 +1,9 @@
 # Hindi (हिन्दी) research-prose translation — rollout
 
-**Status:** **IN PROGRESS.** Phase 0 complete (typography spike done, defects
-found and fixed, scoping verified in a browser). Chrome catalog complete and
-verified. Prose translation underway. Written 2026-08-02.
+**Status:** **COMPLETE pending the browser print-out and a native-speaker
+review.** All nine topics + the 333-key chrome catalog translated, every
+automated check green, `hi` live in `TRANSLATED` and `PROSE_TRANSLATED`.
+Written 2026-08-02.
 
 > ## START HERE (fresh session)
 >
@@ -10,6 +11,35 @@ verified. Prose translation underway. Written 2026-08-02.
 > Creole, Telugu, French, Farsi and Italian. Its cost shape is **Telugu** — a
 > declared Noto font, a real typography spike, and the same lakh/crore figure
 > decision — but its typography failure mode is **Bangla's**, not Telugu's.
+>
+> ### Done
+>
+> | Topic | Strings |
+> |---|---|
+> | metric-values | 126 |
+> | student-clubs | 517 |
+> | sports | 656 |
+> | after-school | 654 |
+> | the-arts | 599 |
+> | financial-aid-report | 572 |
+> | college-support | 926 |
+> | course-offerings | 1,848 |
+> | financial-aid-tuition (content) | 27 |
+> | **prose total** | **5,925** |
+> | UI chrome `src/locales/hi.json` | 333 keys |
+>
+> Coverage is 5,924 / 5,925: the one gap is an entry whose **English source is
+> empty**, so there is nothing to translate. Verified, not assumed.
+>
+> ### What is left
+>
+> 1. **The browser print-out** — Providence Day and Charlotte Latin, panels
+>    force-expanded. Headless render checks already pass on both (see §5), but
+>    every post-100% defect in every prior rollout has been render-layer, and
+>    a headless pass once cleared Charlotte Latin while a real browser print-out
+>    found the Kreyòl currency bug.
+> 2. **A native-speaker review.** Until then `hi` sits in Kreyòl's unreviewed
+>    position. See §6 — the axis to check is Sanskritization.
 >
 > **Read [`prose-translation-te.md`](./prose-translation-te.md) for the method**
 > and [`prose-translation-architecture.md`](./prose-translation-architecture.md)
@@ -433,7 +463,38 @@ green before the print-out:
    panels force-expanded
 
 **Flip before you print.** `setLanguage()` rejects any code not in `TRANSLATED`,
-so `hi` is unselectable until the flip lands. Flip first, print second.
+so `hi` is unselectable until the flip lands. Flip first, print second. **Done** —
+`hi` is in both lists.
+
+### Headless render results (2026-08-02) — checks 1–7 all green
+
+Both print-out schools were rendered in headless Chromium with all 36 `<details>`
+panels force-expanded. **This does not replace the browser print-out**, but it
+front-loads everything a headless pass can see:
+
+| | Providence Day | Charlotte Latin |
+|---|---|---|
+| panels expanded | 36 | 36 |
+| page text | 6,862 → 149,775 chars | 6,429 → 125,207 chars |
+| Devanagari chars | 72,889 | 61,208 |
+| **Devanagari DIGITS** | **0** | **0** |
+| stranded English prose | none | none |
+
+`html lang=hi dir=ltr data-prose=hi`, Noto Sans Devanagari resolved on both.
+Every remaining English line on either page is a course title — a deliberately
+kept catalog identifier — checked individually rather than by eye.
+
+**The lakh/crore split, confirmed live on Charlotte Latin.** This is the
+documented Telugu interaction, not a defect:
+
+```
+.stat-tile-val   (rendered from a raw number)      $4,69,800   $1,46,000
+prose figures    (baked in data, never re-typed)   $100,000+   $154,000+   $17,900
+```
+
+Figures below 6 digits group identically either way (`$36,500`, `$17,900`),
+which is why the split is only visible on the large ones — and why a print-out
+that never reaches an unabbreviated 7-digit figure proves nothing about it.
 
 **The print-out is a required step, not a formality.** Every defect found after
 the data read 100% in every prior rollout has been render-layer, and several
