@@ -4013,10 +4013,11 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
 
 /* ─────────────────────────────────────────────────────────────────────────
    Non-Latin script adjustments — Bangla (bn) 2026-07-28, Telugu (te)
-   2026-07-29, Farsi (fa, Arabic script) 2026-07-30.
+   2026-07-29, Farsi (fa, Arabic script) 2026-07-30, Hindi (hi, Devanagari)
+   2026-08-02.
 
-   Scoped to [lang='bn'] / [lang='te'] / [lang='fa'] so nothing here can touch
-   Latin locales.
+   Scoped to [lang='bn'] / [lang='te'] / [lang='fa'] / [lang='hi'] so nothing
+   here can touch Latin locales.
    The font stack itself is swapped at runtime by syncFont() in src/lib/i18n.ts;
    this block fixes what the Latin-tuned METRICS get wrong once that font lands.
 
@@ -4025,8 +4026,8 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
    mechanism in each script, which is worth keeping straight:
 
    1. LETTERSPACING. 43 rules pair `text-transform:uppercase` with tracking up
-      to 0.14em. Uppercase is a harmless no-op in all three scripts; the
-      tracking is not, in any of them — for three DIFFERENT reasons.
+      to 0.14em. Uppercase is a harmless no-op in all four scripts; the
+      tracking is not, in any of them — for four DIFFERENT reasons.
         · Bangla joins letters under a মাত্রা headstroke, so tracking forces
           gaps INSIDE a character: রাজ্য-শিরোপার rendered with visible holes.
         · Telugu stacks subscripts vertically instead, so its conjuncts survive
@@ -4040,19 +4041,32 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
           measured), until the gap WITHIN a word approaches the gap BETWEEN
           words. In a script with no capitals, that word boundary is the main
           parsing cue, so the label stops reading as words.
-      Same fix in all three, tracking → 0, so the selector list is shared.
+        · Devanagari is the BANGLA case, not the Telugu one — it joins its
+          letters under a शिरोरेखा headstroke, so tracking cuts that stroke.
+          Measured by rasterising पाठशाला at 64px and counting contiguous ink
+          runs along the stroke row: 3 runs at tracking 0 (Noto's own hairline
+          joins) but 5 runs at 0.06em and above, with the gaps widening from
+          3px to 8–12px. So the damage is both MORE breaks and WIDER ones, and
+          the word stops reading as one unit.
+      Same fix in all four, tracking → 0, so the selector list is shared.
 
    2. TIGHT LINE-HEIGHT CLIPS. Headings run 1.05–1.15, comfortable for Latin
       caps but not for scripts that stack marks off the baseline. Telugu is the
-      worse of the two: it stacks BOTH above and below with no headstroke to
-      anchor them, so on a two-line heading line 1's subscripts met line 2's
-      vowel signs. Hence a looser value for te than for bn/fa — see below.
+      worst: it stacks BOTH above and below with no headstroke to anchor them,
+      so on a two-line heading line 1's subscripts met line 2's vowel signs.
+      Hence a looser value for te than for bn/fa/hi — see below.
       Naskh's deep descenders and sub-baseline dots crowd the next line at
       1.05; 1.45 clears them and 1.6 was more than it needed.
+      Devanagari measured the same way (ink-box gap between consecutive line
+      boxes, 2-line samples with deep matras above ी ै ो ं and below ु ृ ्र):
+      it OVERLAPS at 1.05 (-5.1px), 1.15 (-3.2px) and even 1.3 (-0.3px), and
+      first clears at 1.45 (+2.5px). Body needs a shade more than headings do —
+      1.45 is still tight there (+1.3px) — so hi takes the shared 1.45 heading
+      value and 1.6 at body size.
 
-   3. Stat tiles were FINE in all three — no fixed height, they grew cleanly.
-      Re-measured for fa (10 tiles, zero label overflow). Noted so a later
-      reader does not "fix" a problem that never existed.
+   3. Stat tiles were FINE in all four — no fixed height, they grew cleanly.
+      Re-measured for fa (10 tiles) and hi (12 tiles), zero label overflow in
+      both. Noted so a later reader does not "fix" a problem that never existed.
 
    4. fa is ALSO the first RTL locale to render its own prose — but none of
       that lives here. The bidi defects it exposed were fixed with isolate
@@ -4078,54 +4092,63 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   line-height: 1.6;
 }
 
+:root[lang='hi'] {
+  /* Devanagari hangs its vowel signs off the शिरोरेखा like Bangla, so it needs
+     less than Telugu — but it carries a second rank of marks below the
+     baseline (ु ू ृ and ्र conjunct forms) that Bangla mostly does not, so it
+     needs a touch more than the 1.55 Latin default. Measured: overlaps up to
+     1.3, clears at 1.45, comfortable at 1.6. */
+  line-height: 1.6;
+}
+
 /* 1 · Kill the Latin-caps tracking wherever it appears. Uppercase itself is
       left alone: it is inert in both scripts, and removing it would change
       nothing visually while risking the Latin runs (AP, NCISAA) that share
       these labels. Shared between bn and te — the damage differs by script
       (see the block comment above) but the fix is identical. */
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .eyebrow,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .back,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .dossier-kicker,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .dossier-nav-label,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .section-sub,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .cite-label,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .prose-table thead th,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .catalog-chip,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .catalog-club-cat,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .catalog-src-toggle,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .control legend,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .group-row td.group-label,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .course-kicker,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .courses-deptname,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .sports-h,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .sports-th,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .sports-season-head,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .sports-pro-kicker,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .arts-h,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .arts-division-head,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .arts-season-kicker,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .arts-th,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .arts-board-label,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .arts-exhibit-when,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .clubs-h,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .clubs-umbrella-name,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .clubs-strip-head,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .clubs-program-vallabel,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .clubs-th,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .cs-h,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .cs-th,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .cs-counselor-role,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .cs-year-intensity,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .cs-quintile-label,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .as-h,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .as-tl-tier,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .as-daysel-label,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .as-th,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .as-estimate-kicker,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .as-fees-kicker,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .as-filters-label,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .lang-row-label,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .lang-soon {
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .eyebrow,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .back,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .dossier-kicker,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .dossier-nav-label,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .section-sub,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .cite-label,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .prose-table thead th,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .catalog-chip,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .catalog-club-cat,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .catalog-src-toggle,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .control legend,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .group-row td.group-label,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .course-kicker,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .courses-deptname,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .sports-h,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .sports-th,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .sports-season-head,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .sports-pro-kicker,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .arts-h,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .arts-division-head,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .arts-season-kicker,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .arts-th,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .arts-board-label,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .arts-exhibit-when,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .clubs-h,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .clubs-umbrella-name,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .clubs-strip-head,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .clubs-program-vallabel,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .clubs-th,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .cs-h,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .cs-th,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .cs-counselor-role,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .cs-year-intensity,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .cs-quintile-label,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .as-h,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .as-tl-tier,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .as-daysel-label,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .as-th,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .as-estimate-kicker,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .as-fees-kicker,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .as-filters-label,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .lang-row-label,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .lang-soon {
   letter-spacing: 0;
 }
 
@@ -4133,13 +4156,13 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
       scripts, different values: Bangla hangs its vowel signs off the মাত্রা
       headstroke, while Telugu stacks above AND below with nothing anchoring
       them — a two-line Telugu heading collided at 1.45, so it gets 1.6. */
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .topic-title,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .school-card-name,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .stat-tile-val,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .fa-contents-title,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .corner-label,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .row-metric-label,
-:root:is([lang='bn'], [lang='te'], [lang='fa']) .section-sub {
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .topic-title,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .school-card-name,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .stat-tile-val,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .fa-contents-title,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .corner-label,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .row-metric-label,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .section-sub {
   line-height: 1.45;
 }
 

@@ -58,6 +58,13 @@ export const SUPPORTED: readonly Lang[] = [
     font: 'Noto Sans Bengali',
   },
   { code: 'ar', label: 'Arabic', native: 'العربية', rtl: true, font: 'Noto Naskh Arabic' },
+  /* Hindi targets the educated modern written standard (मानक हिन्दी) — the
+     register of a school circular or a newspaper education page. Deliberately
+     NOT over-Sanskritized शुद्ध हिन्दी: a parent comparing tuition should not
+     feel they are reading a government gazette. Everyday English loanwords the
+     language genuinely uses in this domain (स्कूल, कॉलेज, कोर्स, रिपोर्ट) are
+     kept in Devanagari rather than calqued. No regional variant is offered, so
+     unlike bn/te the picker names no region. */
   { code: 'hi', label: 'Hindi', native: 'हिन्दी', font: 'Noto Sans Devanagari' },
   /* Telugu is written across Andhra Pradesh and Telangana. The two written
      standards are much closer than Bangladeshi and West Bengali Bangla — the
@@ -98,7 +105,7 @@ export function langCodeOf(code: string | undefined): string {
  * tracked separately in PROSE_TRANSLATED below — the two layers ship on
  * different schedules by design (see the i18n note in CLAUDE.md).
  */
-export const TRANSLATED: readonly string[] = ['en', 'es', 'bn', 'ht', 'te', 'fr', 'fa', 'it']
+export const TRANSLATED: readonly string[] = ['en', 'es', 'bn', 'ht', 'te', 'fr', 'fa', 'it', 'hi']
 
 export function isTranslated(code: string): boolean {
   return TRANSLATED.includes(code)
@@ -149,12 +156,30 @@ export function isTranslated(code: string): boolean {
  * trailing), derived via Intl like every other locale; currency stays USD and
  * amounts are never re-typed.
  *
+ * Hindi joined 2026-08-02, all nine topics in one pass. It is the fourth
+ * non-Latin script and declares `Noto Sans Devanagari`, so it needed a real
+ * typography spike — Devanagari joins its letters under a शिरोरेखा headstroke,
+ * which the Latin-caps tracking cuts (measured: 3 contiguous ink runs along the
+ * stroke at tracking 0, but 5 at 0.06em and above). Same fix as bn/te/fa.
+ *
+ * It gets NO FIGURE_SAFE_NUMBERS entry, which is the TELUGU line and NOT the
+ * Bangla one — read both before citing either. Intl.NumberFormat('hi') uses
+ * Western digits (so the bn digit problem does not arise) but Indian lakh/crore
+ * grouping, so $3,683,971 renders $36,83,971 and the group boundaries genuinely
+ * move. bn is on the list because a regrouped figure no longer matches the
+ * school's own published document; te is deliberately off it so Telugu readers
+ * get native grouping. Hindi follows te: Hindi readers in India read lakh/crore
+ * natively. The known consequence, same as te, is that a stat tile and the prose
+ * beside it can show one figure two ways ($36,83,971 vs $3,683,971) — tiles are
+ * regrouped at render, prose figures are never re-typed. Both are intentional;
+ * see src/data/overlays/NOTES.md.
+ *
  * Only consumer is the `dir` attribute below, which drives one CSS rule. An RTL
  * locale whose prose is still English has to render that prose as an LTR run,
  * or the bidi algorithm mangles it (see `[data-prose='en'] main` in index.css).
  * Adding a locale here retires that rule for it automatically.
  */
-export const PROSE_TRANSLATED: readonly string[] = ['es', 'bn', 'ht', 'te', 'fr', 'fa', 'it']
+export const PROSE_TRANSLATED: readonly string[] = ['es', 'bn', 'ht', 'te', 'fr', 'fa', 'it', 'hi']
 
 export function isProseTranslated(code: string): boolean {
   return PROSE_TRANSLATED.includes(code)
