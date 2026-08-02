@@ -55,7 +55,7 @@ Written 2026-08-02.
 > | Direction | LTR — no bidi/isolate work at all | §0 |
 > | Digits | Western (`36,325`), NOT Devanagari `०१२३` | §0 |
 > | Grouping | **lakh/crore — `$32,50,000`** | §0 |
-> | `FIGURE_SAFE_NUMBERS` | **hi gets NO entry** (follows `te`, not `bn`) | §0 |
+> | `FIGURE_SAFE_NUMBERS` | **hi gets NO entry** (follows `te`, not `bn`) — owner-confirmed twice | §0 |
 > | Currency | USD always; **formatting only, never conversion** | §0 |
 > | Symbol placement | leads, `$32,50,000` — derived via `Intl` | §0 |
 > | Percent | unspaced (`90%`) — Intl already gives this | §0 |
@@ -119,7 +119,9 @@ opposite sides of the list:
 - **`te` is deliberately OFF it.** The owner's call, 2026-07-29: Telugu readers
   get native grouping, so `$3,250,000` renders `$32,50,000`.
 - **`hi` follows `te`.** Hindi readers in India read lakh/crore natively, and
-  `te` already proved the render layer handles it cleanly.
+  `te` already proved the render layer handles it cleanly. **Confirmed by the
+  owner 2026-08-02**, then re-confirmed after the rollout shipped with the
+  tile-vs-prose split below actually on screen. Settled — do not re-litigate.
 
 Note the two locales differ on *why*, which is worth keeping straight: Bangla's
 case is over-determined (digits AND grouping), while Hindi's is grouping alone —
