@@ -98,7 +98,7 @@ export function langCodeOf(code: string | undefined): string {
  * tracked separately in PROSE_TRANSLATED below — the two layers ship on
  * different schedules by design (see the i18n note in CLAUDE.md).
  */
-export const TRANSLATED: readonly string[] = ['en', 'es', 'bn', 'ht', 'te', 'fr', 'fa']
+export const TRANSLATED: readonly string[] = ['en', 'es', 'bn', 'ht', 'te', 'fr', 'fa', 'it']
 
 export function isTranslated(code: string): boolean {
   return TRANSLATED.includes(code)
@@ -140,12 +140,21 @@ export function isTranslated(code: string): boolean {
  * wrapped in LRI…PDI isolates at render (see format.ts) so they read left-to-
  * right inside the RTL paragraph; strong-L Latin identifiers need no isolate.
  *
+ * Italian joined 2026-08-02, all nine topics in one pass. Like es/fr it is Latin
+ * script in Barlow and declares no font — no typography spike. It gets NO
+ * FIGURE_SAFE_NUMBERS entry despite grouping with a dot and using a decimal comma
+ * (3.683.971): the grouping is still 3-3-3, so the boundaries do not move and a
+ * figure stays recognisable against its English source — the Spanish precedent
+ * exactly. Its Intl currency symbol is the ISO code `USD` (3.683.971 USD,
+ * trailing), derived via Intl like every other locale; currency stays USD and
+ * amounts are never re-typed.
+ *
  * Only consumer is the `dir` attribute below, which drives one CSS rule. An RTL
  * locale whose prose is still English has to render that prose as an LTR run,
  * or the bidi algorithm mangles it (see `[data-prose='en'] main` in index.css).
  * Adding a locale here retires that rule for it automatically.
  */
-export const PROSE_TRANSLATED: readonly string[] = ['es', 'bn', 'ht', 'te', 'fr', 'fa']
+export const PROSE_TRANSLATED: readonly string[] = ['es', 'bn', 'ht', 'te', 'fr', 'fa', 'it']
 
 export function isProseTranslated(code: string): boolean {
   return PROSE_TRANSLATED.includes(code)
