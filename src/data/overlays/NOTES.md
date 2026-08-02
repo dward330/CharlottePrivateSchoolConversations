@@ -1247,7 +1247,9 @@ Western digits (Devanagari `०१२३` never appear in a figure — guarded b
 `hi` is deliberately **NOT** in `FIGURE_SAFE_NUMBERS` and **must not be added**.
 This is the `te` line, the opposite of the `bn` line. Owner's decision,
 2026-08-02, on the reasoning that Hindi readers in India read lakh/crore
-natively and Telugu already proved the render layer handles it.
+natively and Telugu already proved the render layer handles it —
+**re-confirmed by the owner after the rollout shipped**, with the tile-vs-prose
+split below on screen. It is a settled call, not a default anyone fell into.
 
 Note the two lakh/crore locales differ in *why* they sit where they do, which is
 worth keeping straight before citing either as precedent:
