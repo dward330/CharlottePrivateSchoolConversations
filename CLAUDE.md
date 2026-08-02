@@ -72,9 +72,51 @@ figure is ever re-typed, so tuition data cannot drift between languages. Never h
 a number in a data file to "translate" it.
 
 **Shipped languages.** English, Spanish, Bangla (Bangladesh / Dhaka standard),
-Haitian Creole, Telugu (Andhra Pradesh), French and Farsi (Persian, formal
-written standard) are all complete — every topic and the chrome catalog
-translated and live. No translation work is open.
+Haitian Creole, Telugu (Andhra Pradesh), French, Farsi (Persian, formal written
+standard), Italian and Hindi are all complete — every topic and the chrome
+catalog translated and live. No translation work is open.
+
+**Hindi is the fourth non-Latin script and the second lakh/crore locale.** It
+follows the **Telugu** line, not the Bangla one: `hi` is deliberately **absent**
+from `FIGURE_SAFE_NUMBERS`, so `$3,683,971` renders `$36,83,971` with Western
+digits and a leading `$`. The two lakh/crore locales sit on opposite sides of
+that list for different reasons, and the distinction matters before citing
+either as precedent — `bn` is on it for **digits AND grouping** (Intl emits
+`৩৬,৮৩,৯৭১`, sharing no glyph with the school's published figure), while `hi`
+faces **grouping alone**, since its digits are already Western. Hindi therefore
+inherits Telugu's documented interaction: a stat tile and the prose beside it
+can show one figure two ways (`$36,83,971` vs `$3,683,971`) — tiles regroup at
+render, prose figures are never re-typed. Both are correct; see
+`src/data/overlays/NOTES.md`. Hindi is LTR, so no bidi/isolate work applies.
+
+**Devanagari breaks like Bangla, not like Telugu — the third distinct failure
+mode for the same 43 caps-tracking rules.** Devanagari joins its letters under a
+शिरोरेखा headstroke, so the Latin-caps tracking *cuts the stroke*, where Telugu's
+vertically-stacked conjuncts survive it and only scatter between clusters.
+Measured rather than eyeballed (rasterise `पाठशाला`, count contiguous ink runs
+along the stroke row): 3 runs at tracking 0, **5 runs at 0.06em and above**, gaps
+widening 3px → 12px. Line-height overlaps through 1.30 and first clears at 1.45;
+Hindi ships 1.45 on headings and 1.6 at body. Scoping was verified **in a
+browser across all nine locales** rather than by reading the built CSS — a
+stronger check than prior rollouts used, and worth repeating.
+
+**Hindi's register axis is how Sanskritized** — the analogue of Telugu's
+grānthika/vyāvahārika and Kreyòl's French drift. It targets **मानक हिन्दी**, the
+standard of a school circular, and deliberately avoids over-Sanskritized
+शुद्ध हिन्दी (`कोर्स` not `अध्ययनक्रम`, `रिपोर्ट` not `प्रतिवेदन`). Domain loanwords are
+written in Devanagari (स्कूल, कॉलेज, ट्यूशन) while searchable identifiers stay
+Latin (`Upper School`, `GPA`, `AP`). **Hindi has NO native-speaker review yet**,
+so it ships in Kreyòl's unreviewed position — Sanskritization drift is exactly
+the class no automated check can reach. See
+[`prose-translation-hi.md`](.claude/docs/prose-translation-hi.md).
+
+**A stale command in every prior rollout doc, found during the Hindi pass.**
+The per-topic loop the bn/te/fr/fa docs all quote includes
+`check_figures.py --topic financial-aid-tuition`, which **never matched a file**
+— the content extractor writes `financial-aid-tuition.content.<lang>.json`. It
+failed loudly rather than passing silently, so nothing shipped unchecked, but
+the documented command was broken for every locale. `check_figures.py` now falls
+back to the `.content` spelling; a genuinely missing topic still exits 1.
 
 **Farsi is the first RTL locale to translate its prose, and both print-outs
 passed.** It ships in `TRANSLATED` + `PROSE_TRANSLATED` (PR #69). RTL was the
@@ -138,6 +180,21 @@ live English at that field path; otherwise the runtime falls back to English
 **silently** — no error, no coverage change. `scripts/check_runtime_resolution.mjs`
 (`npm run check:runtime`) recomputes every stamp from live `src/data/**`. It is
 the last check that runs without a browser.
+
+**The figure sweep cannot see a separator swap — run `check:sepdrift` too.**
+`check_figures.py` NORMALISES 3-3-3 group separators before comparing, so a
+figure that kept its digits but swapped separators (`20,642` → `20.642`,
+`4.33` → `4,33`, GPA `0.5` → `0,5`) reads as a match. Those are still forbidden
+re-typings: a figure is copied **char-for-char** from its English source,
+because a parent matches it against the school's own page. 64 such re-typings
+shipped past the sweep during the Italian rollout, concentrated in
+`college-support` GPA decimals. `scripts/check_sep_drift.mjs`
+(`npm run check:sepdrift -- --lang <code>`) closes it by requiring every
+separator-bearing numeric token in a `t` field to appear verbatim in that
+entry's English `text`. It matters **more** for a lakh/crore locale, not less:
+because `hi`/`te` regroup at render time, the data must still store the English
+3-3-3 figure, so a work file containing `$36,83,971` has hardcoded a regrouping
+the render layer would then apply a second time.
 
 **French has a native-speaker review.** French speakers read the rendered pages
 and accepted the prose (2026-07-30) — register, hedge strength, and the choice

@@ -110,4 +110,20 @@ if (mismatched || orphaned) {
   process.exit(1)
 }
 
+// A locale with no overlays at all must NOT report success. This check exists to
+// prove the page renders the language rather than silently falling back, and
+// "zero entries verified" proves exactly nothing — but it printed the same ✓ as
+// a fully-verified locale, so a typo'd --lang or an un-built overlay set read as
+// a pass. Same shape as the i18n_audit_skips cap that let a defect through
+// because its sample size doubled as its coverage.
+if (!entries) {
+  console.error(
+    `\n✗ no ${LANG} overlay entries found in ${OVERLAYS}.\n` +
+      'Nothing was verified, so this is not a pass. Build the overlays first\n' +
+      '(node scripts/i18n_build_overlay.mjs --topic <t> --lang ' + LANG + '),\n' +
+      'or check the --lang code.',
+  )
+  process.exit(1)
+}
+
 console.log('✓ every shipped stamp recomputes from live English — entries will resolve')

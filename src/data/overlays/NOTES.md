@@ -1179,3 +1179,147 @@ Two checks now close it, both verified in *both* directions:
 wrong, but only once you know. Providence Day puts `$3.68M` and `3 683 971 $US`
 on the *same document*. Two schools is not belt-and-braces; it is what makes a
 defect legible.
+
+---
+
+# Hindi (हिन्दी) — 2026-08-02
+
+**Status: rollout in progress.** Full rollout doc:
+`.claude/docs/prose-translation-hi.md`. This section is the reviewer's agenda —
+what to look at first, and why — rather than a summary of 84k words.
+
+**No native-speaker review yet.** Until a Hindi speaker reads the rendered
+pages, `hi` sits in **Kreyòl's unreviewed position**, not the reviewed position
+of Spanish, Bangla, Telugu, French and Farsi.
+
+## The register decision, and why it is the thing to review first
+
+Every prior non-Latin rollout pinned one register axis: Bangla's was Dhaka vs
+Kolkata, Telugu's was grānthika vs vyāvahārika, Kreyòl's was French drift.
+
+**Hindi's axis is how Sanskritized.** The rule applied is **मानक हिन्दी** — the
+educated modern written standard of a school circular or a newspaper education
+page — and specifically **not over-Sanskritized शुद्ध हिन्दी**:
+
+| Preferred | Avoided |
+|---|---|
+| कोर्स / पाठ्यक्रम | अध्ययनक्रम |
+| रिपोर्ट | प्रतिवेदन |
+| स्कूल / विद्यालय | शिक्षणसंस्थान |
+| फ़ीस / ट्यूशन / शुल्क | शुल्क-राशि |
+| प्रतिशत | शतांश |
+
+**A reviewer should scan for Sanskritization drift first.** It fails exactly the
+way Kreyòl's French drift and Telugu's grānthika drift fail: reaching for the
+"more proper" register looks *more* correct to a non-speaker, not less — so it
+is invisible to everyone who cannot read the language, and to every automated
+check in this repo. The Telugu and Farsi native-speaker reviews each caught this
+class and nothing else.
+
+The corpus is parent-facing. A family comparing tuition should not feel they are
+reading a government gazette.
+
+Equally worth checking: the prose should not have drifted the *other* way into
+Hinglish or a chatty register. It is descriptive third-person throughout, with
+no आप-forms.
+
+## Loanwords — two rules, deliberately different
+
+- **Domain loanwords Hindi genuinely uses are written in Devanagari:** स्कूल,
+  कॉलेज, कोर्स, रिपोर्ट, ट्यूशन, कैंपस, क्लब, टीम, कोच, स्कोर. Calquing these into
+  Sanskrit equivalents is the drift above.
+- **Searchable identifiers stay in LATIN script:** `Upper School`,
+  `Middle School`, `Lower School`, `Extended Day`, `Honor Society`, `varsity`,
+  `GPA`, `transcript`, `counselor`, `AP`, `IB`, `Honors`, `NCISAA`, plus every
+  institution, college, platform, award and person name.
+
+So `स्कूल` for the generic noun but `Upper School` for the division a school
+names on its own site. Same call Bangla made in its §4.4 and Telugu in its §1b.
+**Do not transliterate the identifiers** however fluently they read — it breaks
+the searchability that is the whole reason for the rule.
+
+## Numbers — hi follows te, NOT bn
+
+Western digits (Devanagari `०१२३` never appear in a figure — guarded by
+`scripts/check_hi_numerals.mjs`), but **native lakh/crore grouping is KEPT**:
+`$3,250,000` renders `$32,50,000`, `$3,683,971` renders `$36,83,971`.
+
+`hi` is deliberately **NOT** in `FIGURE_SAFE_NUMBERS` and **must not be added**.
+This is the `te` line, the opposite of the `bn` line. Owner's decision,
+2026-08-02, on the reasoning that Hindi readers in India read lakh/crore
+natively and Telugu already proved the render layer handles it.
+
+Note the two lakh/crore locales differ in *why* they sit where they do, which is
+worth keeping straight before citing either as precedent:
+
+- `bn` is on the list for **digits AND grouping** — Intl emits `৩৬,৮৩,৯৭১`, not
+  one glyph of which matches the school's published figure.
+- `hi` faces **grouping only** — its digits are already Western, so Bangla's
+  first defect cannot arise here at all.
+
+### The interaction this creates — inherited from Telugu, on purpose
+
+A stat tile and the prose sentence beside it can show the same figure two ways:
+
+```
+stat tile   (rendered from a raw number, regrouped by Intl)   $36,83,971
+prose       (baked in the data, never re-typed)               $3,683,971
+```
+
+**Both are individually correct** and every automated check passes with both on
+screen. Tiles regroup at render; prose figures are never re-typed, because a
+figure in prose is a citation a family matches against the school's own page.
+
+This is the single most likely thing for a reviewer to report as a bug. It is
+not one. It is the documented consequence of keeping native grouping, and it is
+identical to what Telugu ships.
+
+Currency stays USD — **formatting only, never conversion.** No INR, no exchange
+rate, no dual display. The `$` leads in Hindi, derived from `Intl` via
+`currencyLeads()`, never from a language check.
+
+## Typography — Devanagari is the Bangla case, not the Telugu one
+
+Recorded because the three non-Latin scripts break differently and the
+distinction keeps getting re-derived:
+
+- **Bangla** joins under a মাত্রা headstroke → tracking forces gaps *inside* a
+  character.
+- **Telugu** stacks subscripts vertically → conjuncts survive tracking; the
+  spacing *between* clusters is what scatters.
+- **Devanagari** joins under a शिरोरेखा headstroke → tracking **cuts the
+  stroke**, like Bangla.
+
+Measured, not eyeballed: rasterising `पाठशाला` at 64px and counting contiguous
+ink runs along the stroke row gives 3 runs at tracking 0 (Noto's own hairline
+joins) but **5 runs at 0.06em and above**, with gaps widening from 3px to 12px.
+
+Line-height: Devanagari ink rows genuinely **overlap** at 1.05 (−5.1px), 1.15
+(−3.2px) and 1.30 (−0.3px), first clearing at 1.45. Shipped at 1.45 on headings
+and 1.6 at body size — between Bangla's 1.65 and Telugu's 1.7.
+
+All overrides are scoped `:root[lang='hi']`, verified in a browser across all
+nine locales rather than by reading the built CSS: every Latin locale is
+byte-identical to English on every probed property.
+
+## Deliberate departures a reviewer might question
+
+**Two financial-aid content blocks diverge from Italian.** In
+`financial-aid-tuition.content`, entries `a540e708` and `45fe4467` were left
+entirely English in the Italian overlay. They are **not** pure citation — each
+wraps our own analysis around quoted spans. Hindi translates the analytic frame
+and leaves every span inside quotation marks byte-identical English. That is the
+standing rule applied correctly; Italian is the outlier. Worth a second opinion.
+
+**No `UNIT_SUFFIX.hi` entry.** `format.ts` localizes `/yr`, `/mo` etc. for
+`es`/`fr`/`it` but not for Hindi, so `$1,725/yr` keeps its English suffix. The
+reasoning: that suffix sits immediately after a `$` figure, inside what is
+functionally one Latin-script citation run, and splicing `/वर्ष` into the middle
+mixes scripts inside a single token for no comprehension gain — the surrounding
+Hindi prose already says "per year". The Latin-script locales have no such
+problem, which is why they have entries. ~64 sites; a one-line change if a
+reviewer disagrees.
+
+**The 7-string known open defect is carried forward**, as in every prior locale
+— see CLAUDE.md. Hindi inherits the same English strings in `program`/`value`/
+`year` fields.
