@@ -28,7 +28,7 @@
 //   node scripts/check_currency_shape.mjs
 
 // fa is RTL and is the reason `leads` below cannot look at slot 0.
-const LOCALES = ['en-US', 'es', 'bn', 'ht', 'te', 'fr', 'fa']
+const LOCALES = ['en-US', 'es', 'bn', 'ht', 'te', 'fr', 'fa', 'it']
 
 const number = (n, l) =>
   new Intl.NumberFormat(l, { useGrouping: 'always' }).format(n)

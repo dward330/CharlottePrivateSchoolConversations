@@ -1,0 +1,4656 @@
+{
+  "topic": "after-school",
+  "lang": "it",
+  "strings": [
+    {
+      "t": "Due programmi coprono dal TK alla grade 8 fino alle 6:00 p.m. — un Extended Day riconosciuto a livello nazionale per la Lower School e il Clubhouse a ingresso libero per la Middle School.",
+      "of": "a3a2692f",
+      "at": [
+        "providence-day:coverage.headline"
+      ]
+    },
+    {
+      "t": "L'Upper School non ha alcuna opzione pubblicata dopo l'uscita, e non esiste assistenza prima della scuola in nessuna divisione nei giorni ordinari. I Summer Programs assicurano la copertura tutto l'anno con iscrizione separata.",
+      "of": "2af23ff1",
+      "at": [
+        "providence-day:coverage.subhead"
+      ]
+    },
+    {
+      "t": "I prezzi sulle barre sono la **tariffa mensile a tempo pieno — 5 giorni a settimana**, il caso più comune. L'Extended Day è venduto anche per 1–4 giorni a settimana a meno; apri **The Cost Planner** qui sotto per calcolare qualsiasi combinazione.",
+      "of": "040eeb2a",
+      "at": [
+        "providence-day:coverage.basisNote"
+      ]
+    },
+    {
+      "t": "uscita 1:00",
+      "of": "2135c9a9",
+      "at": [
+        "providence-day:coverage.rows[0].dismissal"
+      ]
+    },
+    {
+      "t": "uscita 2:00",
+      "of": "a1f6bd06",
+      "at": [
+        "providence-day:coverage.rows[1].dismissal",
+        "charlotte-country-day:coverage.rows[1].dismissal"
+      ]
+    },
+    {
+      "t": "uscita 2:50",
+      "of": "2fef4dcb",
+      "at": [
+        "providence-day:coverage.rows[2].dismissal"
+      ]
+    },
+    {
+      "t": "uscita 3:10",
+      "of": "13af7d82",
+      "at": [
+        "providence-day:coverage.rows[3].dismissal",
+        "providence-day:coverage.rows[4].dismissal",
+        "charlotte-country-day:coverage.rows[3].dismissal"
+      ]
+    },
+    {
+      "t": "Clubhouse · ingresso libero · $100/yr forfettario",
+      "of": "a798a016",
+      "at": [
+        "providence-day:coverage.rows[3].flatLabel"
+      ]
+    },
+    {
+      "t": "Nessun programma pubblicato — chiedere dello studio assistito",
+      "of": "b2dd2a0f",
+      "at": [
+        "providence-day:coverage.rows[4].flatLabel"
+      ]
+    },
+    {
+      "t": "GIU–AGO",
+      "of": "4f3a376a",
+      "at": [
+        "providence-day:coverage.summer.season"
+      ]
+    },
+    {
+      "t": "**Summer at Providence Day** assicura la copertura tutto l'anno — nove sessioni, iscrizione separata su summer.providenceday.org. L'Extended Day vero e proprio chiude l'ultimo giorno di scuola.",
+      "of": "e514c811",
+      "at": [
+        "providence-day:coverage.summer.text"
+      ]
+    },
+    {
+      "t": "Activity Days",
+      "of": "833d8df7",
+      "at": [
+        "providence-day:coverage.facts[0].label"
+      ]
+    },
+    {
+      "t": "L'Extended Day è attivo dalle 7:45 a.m. alle 6:00 p.m. nei giorni di lavoro dei docenti e nella maggior parte delle festività — e apre alle **7:00 a.m.** nei giorni dei colloqui genitori-insegnanti",
+      "of": "5b17a1c5",
+      "at": [
+        "providence-day:coverage.facts[0].text"
+      ]
+    },
+    {
+      "t": "Nessun ingresso libero",
+      "of": "6b100e25",
+      "at": [
+        "providence-day:coverage.facts[1].label"
+      ]
+    },
+    {
+      "t": "per l'Extended Day — solo con contratto settimanale",
+      "of": "8b05f21f",
+      "at": [
+        "providence-day:coverage.facts[1].text"
+      ]
+    },
+    {
+      "t": "Ritiro in ritardo",
+      "of": "9750425b",
+      "at": [
+        "providence-day:coverage.facts[2].label",
+        "charlotte-country-day:coverage.facts[2].label",
+        "cannon:cost.fees[3].label"
+      ]
+    },
+    {
+      "t": "$1.00 al minuto dopo le 6:00 p.m.",
+      "of": "0402bee6",
+      "at": [
+        "providence-day:coverage.facts[2].text"
+      ]
+    },
+    {
+      "t": "Prima della scuola",
+      "of": "e316905e",
+      "at": [
+        "providence-day:coverage.facts[3].label",
+        "charlotte-christian:coverage.facts[3].label",
+        "cannon:coverage.facts[1].label"
+      ]
+    },
+    {
+      "t": "nessun programma nei giorni ordinari; la finestra di arrivo 7:30–7:50 a.m. è un ingresso non sorvegliato",
+      "of": "22601902",
+      "at": [
+        "providence-day:coverage.facts[3].text"
+      ]
+    },
+    {
+      "t": "La tariffa degli Activity Day non è mai indicata. La scuola dichiara che nei giorni di lavoro dei docenti e nelle festività si applica una tariffa separata, ma non pubblica alcun importo — una voce di spesa non preventivabile proprio nei giorni in cui le famiglie hanno più bisogno di copertura.",
+      "of": "8873cbd7",
+      "at": [
+        "providence-day:coverage.flags[0].text"
+      ]
+    },
+    {
+      "t": "Le grades 1–5 escono alle **2:50** ma la matrice delle tariffe le addebita dalle **3:00**. Lo scarto di dieci minuti non è spiegato in nessuna pagina pubblicata.",
+      "of": "90db6264",
+      "at": [
+        "providence-day:coverage.flags[1].text"
+      ]
+    },
+    {
+      "t": "L'Extended Day è tariffato come contratto mensile in base a grado, orario di ritiro e giorni a settimana — fatturato tramite Blackbaud, senza alcuna opzione di ingresso libero.",
+      "of": "3ca44867",
+      "at": [
+        "providence-day:cost.headline"
+      ]
+    },
+    {
+      "t": "Tutte le 40 celle qui sotto sono pubblicate dalla scuola nel suo documento ufficiale delle tariffe 2026-27, quindi nulla qui è stimato. Scegli una riga e una colonna dei giorni a settimana per vedere quanto costa effettivamente il tuo orario.",
+      "of": "bca357e9",
+      "at": [
+        "providence-day:cost.subhead"
+      ]
+    },
+    {
+      "t": "9 mesi di fatturazione",
+      "of": "393e88d2",
+      "at": [
+        "providence-day:cost.periodsLabel",
+        "charlotte-christian:cost.periodsLabel",
+        "charlotte-country-day:cost.periodsLabel"
+      ]
+    },
+    {
+      "t": "TK · 1:00–3:00",
+      "of": "fe5c2bd4",
+      "at": [
+        "providence-day:cost.rows[0].label"
+      ]
+    },
+    {
+      "t": "TK · 1:00–3:00 pm",
+      "of": "d2bb5c4b",
+      "at": [
+        "providence-day:cost.rows[0].panelLabel"
+      ]
+    },
+    {
+      "t": "TK · 1:00–4:30",
+      "of": "eaa6143c",
+      "at": [
+        "providence-day:cost.rows[1].label"
+      ]
+    },
+    {
+      "t": "TK · 1:00–4:30 pm",
+      "of": "2da51093",
+      "at": [
+        "providence-day:cost.rows[1].panelLabel"
+      ]
+    },
+    {
+      "t": "TK · 1:00–6:00",
+      "of": "8431b9f5",
+      "at": [
+        "providence-day:cost.rows[2].label"
+      ]
+    },
+    {
+      "t": "TK · 1:00–6:00 pm",
+      "of": "bdb7d7c0",
+      "at": [
+        "providence-day:cost.rows[2].panelLabel"
+      ]
+    },
+    {
+      "t": "K · 2:00–3:00",
+      "of": "11d9eb37",
+      "at": [
+        "providence-day:cost.rows[3].label"
+      ]
+    },
+    {
+      "t": "Kindergarten · 2:00–3:00 pm",
+      "of": "434f7703",
+      "at": [
+        "providence-day:cost.rows[3].panelLabel"
+      ]
+    },
+    {
+      "t": "K · 2:00–4:30",
+      "of": "f7ad0aef",
+      "at": [
+        "providence-day:cost.rows[4].label"
+      ]
+    },
+    {
+      "t": "Kindergarten · 2:00–4:30 pm",
+      "of": "6b16ea4b",
+      "at": [
+        "providence-day:cost.rows[4].panelLabel"
+      ]
+    },
+    {
+      "t": "K · 2:00–6:00",
+      "of": "8789cdfe",
+      "at": [
+        "providence-day:cost.rows[5].label"
+      ]
+    },
+    {
+      "t": "Kindergarten · 2:00–6:00 pm",
+      "of": "cfdc7018",
+      "at": [
+        "providence-day:cost.rows[5].panelLabel"
+      ]
+    },
+    {
+      "t": "Gr 1–5 · 3:00–4:30",
+      "of": "0bfa0fb5",
+      "at": [
+        "providence-day:cost.rows[6].label"
+      ]
+    },
+    {
+      "t": "Classi 1–5 · 3:00–4:30 pm",
+      "of": "1cbcedbf",
+      "at": [
+        "providence-day:cost.rows[6].panelLabel"
+      ]
+    },
+    {
+      "t": "Gr 1–5 · 3:00–6:00",
+      "of": "10182574",
+      "at": [
+        "providence-day:cost.rows[7].label"
+      ]
+    },
+    {
+      "t": "Classi 1–5 · 3:00–6:00 pm",
+      "of": "aefa6c0c",
+      "at": [
+        "providence-day:cost.rows[7].panelLabel"
+      ]
+    },
+    {
+      "t": "Fratello o sorella alla Middle School?",
+      "of": "23a5cf73",
+      "at": [
+        "providence-day:cost.aside.title"
+      ]
+    },
+    {
+      "t": "Il Clubhouse è un'iscrizione forfettaria di **$100/year** — ingresso libero ogni giorno di scuola, 3:10–6:00, senza tariffe giornaliere od orarie.",
+      "of": "5ee3e0ae",
+      "at": [
+        "providence-day:cost.aside.text"
+      ]
+    },
+    {
+      "t": "Iscrizione annuale all'Extended Day",
+      "of": "f9682632",
+      "at": [
+        "providence-day:cost.fees[0].label"
+      ]
+    },
+    {
+      "t": "$80 / studente",
+      "of": "2ab79f6d",
+      "at": [
+        "providence-day:cost.fees[0].value"
+      ]
+    },
+    {
+      "t": "Iscrizione annuale al Clubhouse",
+      "of": "89d04323",
+      "at": [
+        "providence-day:cost.fees[1].label"
+      ]
+    },
+    {
+      "t": "$100 / studente",
+      "of": "a5e98250",
+      "at": [
+        "providence-day:cost.fees[1].value"
+      ]
+    },
+    {
+      "t": "Ritiro in ritardo dopo le 6:00",
+      "of": "a3834e5b",
+      "at": [
+        "providence-day:cost.fees[2].label",
+        "charlotte-country-day:cost.fees[3].label"
+      ]
+    },
+    {
+      "t": "$1.00 / min",
+      "of": "654421f9",
+      "at": [
+        "providence-day:cost.fees[2].value",
+        "cannon:cost.fees[3].value"
+      ]
+    },
+    {
+      "t": "Modifica non programmata dell'orario",
+      "of": "4d90a2c7",
+      "at": [
+        "providence-day:cost.fees[3].label"
+      ]
+    },
+    {
+      "t": "$30 / hr",
+      "of": "46fccaad",
+      "at": [
+        "providence-day:cost.fees[3].value"
+      ]
+    },
+    {
+      "t": "Ritiro dall'enrichment, dopo 1 lezione",
+      "of": "2c9e43d4",
+      "at": [
+        "providence-day:cost.fees[4].label"
+      ]
+    },
+    {
+      "t": "$25",
+      "of": "d270c952",
+      "at": [
+        "providence-day:cost.fees[4].value",
+        "cannon:cost.fees[0].value"
+      ]
+    },
+    {
+      "t": "Le modifiche di orario si comunicano via email, entro il 1° del mese. Fatturazione mensile tramite Blackbaud Tuition Management. La tariffa di adeguamento di $30/hr **non** è esplicitamente una tariffa a ingresso libero — la scuola non offre l'ingresso libero per l'Extended Day.",
+      "of": "b7e08dbe",
+      "at": [
+        "providence-day:cost.fees[5].label"
+      ]
+    },
+    {
+      "t": "Il numero dei mesi fatturati non è mai indicato. Il documento delle tariffe pubblica gli importi mensili ma non quanti mesi vengono fatturati, quindi non è possibile calcolare esattamente un totale annuo — le cifre dell'anno scolastico qui riportate presuppongono **9 months** e andrebbero confermate.",
+      "of": "3b930cbb",
+      "at": [
+        "providence-day:cost.flags[0].text"
+      ]
+    },
+    {
+      "t": "Non è pubblicato alcuno sconto per fratelli né sulla retta né sull'Extended Day. Due figli nelle grades 1–5 alla fascia piena 3:00–6:00 costano $940/month.",
+      "of": "16e0f8c1",
+      "at": [
+        "providence-day:cost.flags[1].text"
+      ]
+    },
+    {
+      "t": "Le fonti non concordano sulla piattaforma di fatturazione: il documento delle tariffe indica **Blackbaud**, le pagine su retta e aiuti rimandano a **Clarity**, e una FAQ archiviata rimanda a **Smart Tuition**.",
+      "of": "250f3eec",
+      "at": [
+        "providence-day:cost.flags[2].text"
+      ]
+    },
+    {
+      "t": "Qui l'assistenza finanziaria arriva anche al doposcuola, cosa non comune — la pagina sulla retta afferma che l'aiuto \"may be available for some of these additional costs\", citando Extended Day e Clubhouse. È formulato con cautela, non è una garanzia.",
+      "of": "1da83a62",
+      "at": [
+        "providence-day:cost.flags[3].text"
+      ]
+    },
+    {
+      "t": "L'Extended Day è un programma di sviluppo del bambino, non una sala d'attesa — relazioni che nutrono, orari flessibili e scelte guidate dal bambino sono il modo in cui la scuola stessa lo presenta.",
+      "of": "e7656616",
+      "at": [
+        "providence-day:dayInside.headline"
+      ]
+    },
+    {
+      "t": "Il pomeriggio di enrichment è pubblicato passo per passo e varia a seconda della divisione: TK e K vengono prelevati dalle loro aule, le grades 1–2 vengono accompagnate a piedi al Dining Hall e le grades 3–5 ci si recano da sole.",
+      "of": "c433870a",
+      "at": [
+        "providence-day:dayInside.subhead"
+      ]
+    },
+    {
+      "t": "Il pomeriggio di enrichment, divisione per divisione",
+      "of": "800a1f32",
+      "at": [
+        "providence-day:dayInside.rhythmTitle"
+      ]
+    },
+    {
+      "t": "TK / K",
+      "of": "d48e051c",
+      "at": [
+        "providence-day:dayInside.rhythm[0].time",
+        "charlotte-latin:dayInside.rhythm[0].time"
+      ]
+    },
+    {
+      "t": "Prelevati all'ingresso",
+      "of": "9e1cf51a",
+      "at": [
+        "providence-day:dayInside.rhythm[0].name"
+      ]
+    },
+    {
+      "t": "Prelevati direttamente dalle aule da un insegnante dell'Extended Day e accompagnati al Dining Hall",
+      "of": "e5c9956d",
+      "at": [
+        "providence-day:dayInside.rhythm[0].detail"
+      ]
+    },
+    {
+      "t": "Classi 1–2",
+      "of": "bdd449eb",
+      "at": [
+        "providence-day:dayInside.rhythm[1].time"
+      ]
+    },
+    {
+      "t": "Accompagnati a piedi",
+      "of": "0e88bbc1",
+      "at": [
+        "providence-day:dayInside.rhythm[1].name"
+      ]
+    },
+    {
+      "t": "Condotti al Dining Hall all'uscita e registrati dal personale dell'Extended Day",
+      "of": "d567375e",
+      "at": [
+        "providence-day:dayInside.rhythm[1].detail"
+      ]
+    },
+    {
+      "t": "Classi 3–5",
+      "of": "d510c840",
+      "at": [
+        "providence-day:dayInside.rhythm[2].time"
+      ]
+    },
+    {
+      "t": "In autonomia",
+      "of": "9bd93595",
+      "at": [
+        "providence-day:dayInside.rhythm[2].name"
+      ]
+    },
+    {
+      "t": "Si recano da soli al Dining Hall e si registrano dal personale dell'Extended Day",
+      "of": "95041fff",
+      "at": [
+        "providence-day:dayInside.rhythm[2].detail"
+      ]
+    },
+    {
+      "t": "Poi, tutti",
+      "of": "19e2f9b1",
+      "at": [
+        "providence-day:dayInside.rhythm[3].time"
+      ]
+    },
+    {
+      "t": "Merenda → lezione → uscita",
+      "of": "b3489578",
+      "at": [
+        "providence-day:dayInside.rhythm[3].name"
+      ]
+    },
+    {
+      "t": "Merenda senza frutta a guscio e una pausa per il bagno, accompagnati all'enrichment, sorvegliati per tutto il tempo, accompagnati all'uscita",
+      "of": "46533c5d",
+      "at": [
+        "providence-day:dayInside.rhythm[3].detail"
+      ]
+    },
+    {
+      "t": "Il Clubhouse, nelle parole della scuola",
+      "of": "fb3f4021",
+      "at": [
+        "providence-day:dayInside.wordsTitle"
+      ]
+    },
+    {
+      "t": "studiare",
+      "of": "ee4a05ee",
+      "at": [
+        "providence-day:dayInside.words[0]"
+      ]
+    },
+    {
+      "t": "ritrovare gli amici",
+      "of": "ce578b06",
+      "at": [
+        "providence-day:dayInside.words[1]"
+      ]
+    },
+    {
+      "t": "rilassarsi",
+      "of": "a4dc0768",
+      "at": [
+        "providence-day:dayInside.words[2]"
+      ]
+    },
+    {
+      "t": "giocare",
+      "of": "c2cbd863",
+      "at": [
+        "providence-day:dayInside.words[3]"
+      ]
+    },
+    {
+      "t": "mangiare",
+      "of": "6c6e2525",
+      "at": [
+        "providence-day:dayInside.words[4]"
+      ]
+    },
+    {
+      "t": "sicuro e sorvegliato",
+      "of": "bd855050",
+      "at": [
+        "providence-day:dayInside.words[5]"
+      ]
+    },
+    {
+      "t": "Una destinazione a ingresso libero per ogni studente della Middle School, ogni giorno di scuola, senza iscrizione. Gli studenti possono **registrarsi da soli e firmare la propria entrata e uscita** per allenamenti, partite, lezioni di musica e prove — un modello sensibilmente più autonomo rispetto alla Lower School. Nella Lower School lo studio assistito è previsto solo per le grades 3–5, dal lunedì al giovedì, 3:15–4:00 p.m., ed è esplicitamente studio indipendente senza aiuto accademico individuale.",
+      "of": "3ef8a46f",
+      "at": [
+        "providence-day:dayInside.wordsText"
+      ]
+    },
+    {
+      "t": "Corsi di enrichment dell'autunno 2026",
+      "of": "872fae5b",
+      "at": [
+        "providence-day:dayInside.catalogTitle"
+      ]
+    },
+    {
+      "t": "Il pacchetto ufficiale della scuola per l'autunno 2026 — tariffe, giorni e fasce di grado reali. Tutti i corsi durano **10 sessioni**; i corsi TK/K costano $200 e le grades 1–5 $220. Gli studenti possono seguire un solo programma di enrichment al giorno, ed è richiesta l'iscrizione all'Extended Day per frequentarne uno qualsiasi.",
+      "of": "7da5e405",
+      "at": [
+        "providence-day:dayInside.catalogIntro"
+      ]
+    },
+    {
+      "t": "Stili classici e moderni su tela con Coloring on Canvas, LLC",
+      "of": "62068ada",
+      "at": [
+        "providence-day:dayInside.classes[0].desc"
+      ]
+    },
+    {
+      "t": "TK–K",
+      "of": "ad9a656e",
+      "at": [
+        "providence-day:dayInside.classes[0].gradeLabel",
+        "providence-day:dayInside.classes[6].gradeLabel",
+        "providence-day:dayInside.classes[8].gradeLabel"
+      ]
+    },
+    {
+      "t": "Disegno, pittura, stampa e scultura; le grades 3–5 si concentrano sul trovare una propria voce artistica",
+      "of": "03a313be",
+      "at": [
+        "providence-day:dayInside.classes[1].desc"
+      ]
+    },
+    {
+      "t": "1ª–5ª",
+      "of": "f72fe293",
+      "at": [
+        "providence-day:dayInside.classes[1].gradeLabel",
+        "providence-day:dayInside.classes[7].gradeLabel",
+        "providence-day:dayInside.classes[9].gradeLabel"
+      ]
+    },
+    {
+      "t": "Guidato da Terry Tadeo, Tommy Racano e Paul Burnam — impegno, gioco di squadra e resilienza",
+      "of": "b847cbe6",
+      "at": [
+        "providence-day:dayInside.classes[2].desc"
+      ]
+    },
+    {
+      "t": "TK–5ª",
+      "of": "75657060",
+      "at": [
+        "providence-day:dayInside.classes[2].gradeLabel",
+        "providence-day:dayInside.classes[10].gradeLabel",
+        "providence-day:dayInside.classes[13].gradeLabel",
+        "providence-day:dayInside.classes[14].gradeLabel"
+      ]
+    },
+    {
+      "t": "Istruttori professionisti del Charlotte Chess Center and Scholastic Academy",
+      "of": "5588c3d8",
+      "at": [
+        "providence-day:dayInside.classes[3].desc"
+      ]
+    },
+    {
+      "t": "K–5ª",
+      "of": "1a39bf56",
+      "at": [
+        "providence-day:dayInside.classes[3].gradeLabel"
+      ]
+    },
+    {
+      "t": "Charlotte Speech & Hearing Center: attività di alfabetizzazione combinate con yoga pediatrico",
+      "of": "c2209932",
+      "at": [
+        "providence-day:dayInside.classes[4].desc"
+      ]
+    },
+    {
+      "t": "TK–2ª",
+      "of": "26fb7563",
+      "at": [
+        "providence-day:dayInside.classes[4].gradeLabel"
+      ]
+    },
+    {
+      "t": "Condotto dalla Head Coach della PDS Varsity Girls Track and Field, Kris Jones — idratazione, riposo e stretching",
+      "of": "8f517a75",
+      "at": [
+        "providence-day:dayInside.classes[5].desc"
+      ]
+    },
+    {
+      "t": "4ª–5ª",
+      "of": "f2a7125f",
+      "at": [
+        "providence-day:dayInside.classes[5].gradeLabel",
+        "providence-day:dayInside.classes[12].gradeLabel"
+      ]
+    },
+    {
+      "t": "Aria, mare e surf, colore, energia, stati della materia, meteo e laser",
+      "of": "14f5ed16",
+      "at": [
+        "providence-day:dayInside.classes[6].desc"
+      ]
+    },
+    {
+      "t": "Mad Science Charlotte: sostanze super appiccicose, tecnologia fosforescente, pozioni, slime e atomi",
+      "of": "5efd5489",
+      "at": [
+        "providence-day:dayInside.classes[7].desc"
+      ]
+    },
+    {
+      "t": "Narrazione attraverso corpo, voce e immaginazione — nessuno spettacolo finale, poca pressione",
+      "of": "f8579e4d",
+      "at": [
+        "providence-day:dayInside.classes[8].desc"
+      ]
+    },
+    {
+      "t": "Improvvisazione, sviluppo del personaggio, costruzione della scena, voce e collaborazione d'insieme",
+      "of": "eab570bd",
+      "at": [
+        "providence-day:dayInside.classes[9].desc"
+      ]
+    },
+    {
+      "t": "Eliza Newell, cintura nera terzo dan — autodifesa unita a rispetto e disciplina",
+      "of": "e68ddfad",
+      "at": [
+        "providence-day:dayInside.classes[10].desc"
+      ]
+    },
+    {
+      "t": "Fiabe e leggende come sfide di costruzione — equilibrio, ingegneria e progettazione creativa",
+      "of": "f9a5dbb9",
+      "at": [
+        "providence-day:dayInside.classes[11].desc"
+      ]
+    },
+    {
+      "t": "1ª–3ª",
+      "of": "2a106c57",
+      "at": [
+        "providence-day:dayInside.classes[11].gradeLabel"
+      ]
+    },
+    {
+      "t": "Todd Johnson, insegnante di CS della PDS Middle School — creazione di app e competenze da makerspace sugli iPad della scuola",
+      "of": "54923f30",
+      "at": [
+        "providence-day:dayInside.classes[12].desc"
+      ]
+    },
+    {
+      "t": "Condotto da Ari Patterson; la squadra fa il tifo per un quarto di una partita di football della PDS Varsity in autunno",
+      "of": "97349aed",
+      "at": [
+        "providence-day:dayInside.classes[13].desc"
+      ]
+    },
+    {
+      "t": "Le basi di 10 sport con sviluppo delle abilità motorie, nutrizione e riconoscimento dei muscoli",
+      "of": "d2e766de",
+      "at": [
+        "providence-day:dayInside.classes[14].desc"
+      ]
+    },
+    {
+      "t": "L'enrichment è **subordinato all'iscrizione all'Extended Day** — un corso si aggiunge sempre a un addebito mensile dell'Extended Day, e le iscrizioni per l'autunno 2026 si sono chiuse il 26 luglio con i corsi assegnati in ordine di arrivo.",
+      "of": "04470850",
+      "at": [
+        "providence-day:dayInside.flags[0].text"
+      ]
+    },
+    {
+      "t": "Non è pubblicato alcun rapporto personale-bambini né per l'Extended Day né per il Clubhouse, e il Clubhouse non pubblica alcuna struttura giornaliera né alcun impegno di supporto ai compiti.",
+      "of": "a4bc60b3",
+      "at": [
+        "providence-day:dayInside.flags[1].text"
+      ]
+    },
+    {
+      "t": "Un solido percorso TK–8: un programma di Lower School riconosciuto a livello nazionale con la tariffazione più trasparente di questo gruppo, più un modello a ingresso libero dedicato alla Middle School che molti concorrenti non offrono.",
+      "of": "530bee69",
+      "at": [
+        "providence-day:verdict.headline"
+      ]
+    },
+    {
+      "t": "Le domande aperte riguardano i rapporti numerici, la lacuna dell'Upper School e la tariffa non pubblicata degli Activity Day — esattamente ciò a cui risponde una visita.",
+      "of": "1713f3e1",
+      "at": [
+        "providence-day:verdict.subhead"
+      ]
+    },
+    {
+      "t": "**Trasparenza dei prezzi ai vertici della categoria** — una matrice completa pubblicata di 40 celle grado × fascia × giorni, così una famiglia può calcolare il proprio costo annuo esatto prima di presentare domanda.",
+      "of": "d76cd609",
+      "at": [
+        "providence-day:verdict.strengths[0]"
+      ]
+    },
+    {
+      "t": "**Tre fasce per gli studenti più piccoli**, concepite espressamente attorno alla logistica del ritiro dei fratelli. L'uscita del TK alle 1:00 p.m. è un onere reale e la scuola ne ha tariffato una risposta.",
+      "of": "3466411d",
+      "at": [
+        "providence-day:verdict.strengths[1]"
+      ]
+    },
+    {
+      "t": "**Un vero catalogo di enrichment con prezzi reali** — 15 corsi dell'autunno 2026 a $200–$220 su 10 sessioni, tenuti da professionisti esterni indicati per nome e da docenti della PDS.",
+      "of": "3a50bc1a",
+      "at": [
+        "providence-day:verdict.strengths[2]"
+      ]
+    },
+    {
+      "t": "**Un ritmo di enrichment pubblicato e specifico per divisione**, con transizioni accompagnate e una merenda senza frutta a guscio fornita dalla scuola — un livello di dettaglio operativo insolitamente concreto.",
+      "of": "9c7dd9dc",
+      "at": [
+        "providence-day:verdict.strengths[3]"
+      ]
+    },
+    {
+      "t": "**Un'infrastruttura sanitaria e di sicurezza seria** — un infermiere professionale (RN) in servizio ogni giorno, integrazione con i registri Magnus, formazione completa CPR/AED/First Aid, un protocollo senza frutta a guscio e un registro dei farmaci sotto chiave.",
+      "of": "9ec3bc51",
+      "at": [
+        "providence-day:verdict.strengths[4]"
+      ]
+    },
+    {
+      "t": "**L'assistenza finanziaria può estendersi a Extended Day e Clubhouse**, come scritto sulla pagina della retta. Cosa non comune tra i concorrenti.",
+      "of": "e175f635",
+      "at": [
+        "providence-day:verdict.strengths[5]"
+      ]
+    },
+    {
+      "t": "**Buona copertura degli Activity Day** — 7:45 a.m.–6:00 p.m. nei giorni di lavoro dei docenti e nella maggior parte delle festività, con apertura alle 7:00 a.m. nei giorni dei colloqui.",
+      "of": "07615c8b",
+      "at": [
+        "providence-day:verdict.strengths[6]"
+      ]
+    },
+    {
+      "t": "**Il Clubhouse è economico e senza attriti** — $100/year forfettario, ingresso libero illimitato, con uscita autogestita verso allenamenti e prove.",
+      "of": "5dfad61d",
+      "at": [
+        "providence-day:verdict.strengths[7]"
+      ]
+    },
+    {
+      "t": "**L'Upper School non è coperta.** Le grades 9–12 escono alle 3:10 p.m. senza alcun programma pubblicato di alcun tipo.",
+      "of": "480d0dd5",
+      "at": [
+        "providence-day:verdict.watchouts[0]"
+      ]
+    },
+    {
+      "t": "**Nessuna assistenza prima della scuola nei giorni ordinari** in alcuna divisione — anche se gli Activity Day dimostrano che la capacità esiste dalle 7:45 a.m., o dalle 7:00 a.m. nei giorni dei colloqui.",
+      "of": "9a3ecd83",
+      "at": [
+        "providence-day:verdict.watchouts[1]"
+      ]
+    },
+    {
+      "t": "**Nessun ingresso libero per l'Extended Day**, dichiarato esplicitamente. Le famiglie con esigenze occasionali vengono indirizzate alla tariffa di adeguamento di $30/hour, che la scuola dichiara non essere una tariffa a ingresso libero.",
+      "of": "587279bc",
+      "at": [
+        "providence-day:verdict.watchouts[2]"
+      ]
+    },
+    {
+      "t": "**L'enrichment è subordinato all'iscrizione all'Extended Day**, quindi un singolo corso porta sempre con sé un addebito mensile dell'Extended Day.",
+      "of": "de1ca843",
+      "at": [
+        "providence-day:verdict.watchouts[3]"
+      ]
+    },
+    {
+      "t": "**La tariffa degli Activity Day non è pubblicata** — un costo non preventivabile proprio nei giorni che più spesso mandano in crisi l'assistenza ai figli.",
+      "of": "a179ed2f",
+      "at": [
+        "providence-day:verdict.watchouts[4]"
+      ]
+    },
+    {
+      "t": "**Lo studio assistito è ridotto** — solo grades 3–5, dal lunedì al giovedì, 45 minuti, ed esplicitamente studio indipendente senza aiuto individuale. Le grades 1–2 non ne hanno alcuno.",
+      "of": "c97132a6",
+      "at": [
+        "providence-day:verdict.watchouts[5]"
+      ]
+    },
+    {
+      "t": "**Il costo si somma a una retta già alta** — le grades 1–5 a tempo pieno costano $470/month oltre a $32,960; il TK a tempo pieno costa $750/month oltre a $25,510.",
+      "of": "8790cb74",
+      "at": [
+        "providence-day:verdict.watchouts[6]"
+      ]
+    },
+    {
+      "t": "**Il ritiro in ritardo costa $1.00 al minuto** e non ha limite massimo.",
+      "of": "0c512d64",
+      "at": [
+        "providence-day:verdict.watchouts[7]"
+      ]
+    },
+    {
+      "t": "Qual è la tariffa degli Activity Day, ed è giornaliera o inclusa per le famiglie con iscrizione mensile?",
+      "of": "00d89121",
+      "at": [
+        "providence-day:verdict.checklist[0]"
+      ]
+    },
+    {
+      "t": "Per quanti mesi viene fatturato l'Extended Day — 9, 10 o 12? Questo cambia il totale annuo di centinaia di dollari.",
+      "of": "f1ff57da",
+      "at": [
+        "providence-day:verdict.checklist[1]"
+      ]
+    },
+    {
+      "t": "Esiste una qualsiasi sorveglianza doposcuola per l'Upper School — una biblioteca, uno studio assistito, uno spazio sorvegliato — anche se non un programma formale?",
+      "of": "02b03d5a",
+      "at": [
+        "providence-day:verdict.checklist[2]"
+      ]
+    },
+    {
+      "t": "Non esiste davvero alcuna opzione prima della scuola? Se gli Activity Day possono aprire alle 7:00 a.m., perché non i giorni ordinari?",
+      "of": "842d0e4a",
+      "at": [
+        "providence-day:verdict.checklist[3]"
+      ]
+    },
+    {
+      "t": "Cosa succede esattamente tra le 2:50 e le 3:00 p.m. per le grades 1–5, e viene fatturato?",
+      "of": "fe58a38f",
+      "at": [
+        "providence-day:verdict.checklist[4]"
+      ]
+    },
+    {
+      "t": "In che modo l'assistenza finanziaria si applica concretamente a Extended Day e Clubhouse — con la stessa percentuale di erogazione della retta, e arriva anche alle tariffe di enrichment?",
+      "of": "fc35beac",
+      "at": [
+        "providence-day:verdict.checklist[5]"
+      ]
+    },
+    {
+      "t": "Quale piattaforma fattura effettivamente l'Extended Day — Blackbaud, Clarity o Smart Tuition?",
+      "of": "67d6608d",
+      "at": [
+        "providence-day:verdict.checklist[6]"
+      ]
+    },
+    {
+      "t": "Esistono sconti per fratelli? Due figli a $470/month fanno $940/month.",
+      "of": "b35016b2",
+      "at": [
+        "providence-day:verdict.checklist[7]"
+      ]
+    },
+    {
+      "t": "Qual è il rapporto personale-bambini per fascia d'età, e com'è la fidelizzazione del personale?",
+      "of": "e971e5d2",
+      "at": [
+        "providence-day:verdict.checklist[8]"
+      ]
+    },
+    {
+      "t": "Possiamo cambiare fascia a metà anno, e si applica la tariffa di adeguamento di $30/hour?",
+      "of": "9008bceb",
+      "at": [
+        "providence-day:verdict.checklist[9]"
+      ]
+    },
+    {
+      "t": "Dettagli del Clubhouse: rapporto numerico, supporto ai compiti, ed è davvero i $100 l'unico costo?",
+      "of": "221a82e1",
+      "at": [
+        "providence-day:verdict.checklist[10]"
+      ]
+    },
+    {
+      "t": "L'Extended Day ha limiti di capienza in qualche fascia, in particolare 3:00–6:00 a cinque giorni?",
+      "of": "5ce8c0cf",
+      "at": [
+        "providence-day:verdict.checklist[11]"
+      ]
+    },
+    {
+      "t": "Se il corso di enrichment di un bambino termina alle 4:45, dobbiamo acquistare la fascia delle 6:00 p.m.?",
+      "of": "46400404",
+      "at": [
+        "providence-day:verdict.checklist[12]"
+      ]
+    },
+    {
+      "t": "L'Hawks' Club copre dal TK alla grade 5 fino alle 6:00 p.m. da un edificio dedicato al doposcuola, con due adulti qualificati in ogni stanza.",
+      "of": "f36f9c0d",
+      "at": [
+        "charlotte-latin:coverage.headline"
+      ]
+    },
+    {
+      "t": "La copertura poi si interrompe di colpo: non esiste alcuna assistenza doposcuola a pagamento per la Middle o l'Upper School, e la Middle School è la peggio servita — la sua biblioteca chiude all'uscita.",
+      "of": "00406818",
+      "at": [
+        "charlotte-latin:coverage.subhead"
+      ]
+    },
+    {
+      "t": "I prezzi sulle barre sono la **tariffa PER SEMESTRE a tempo pieno — 5 giorni a settimana**, e Latin fattura due volte l'anno anziché mensilmente, quindi raddoppiali per un anno scolastico. Per il resto la tariffazione è lineare, quindi 1–4 giorni a settimana costano proporzionalmente meno; apri **The Cost Planner** qui sotto per calcolare qualsiasi combinazione.",
+      "of": "7d8c9770",
+      "at": [
+        "charlotte-latin:coverage.basisNote"
+      ]
+    },
+    {
+      "t": "uscita 1:30",
+      "of": "273811b2",
+      "at": [
+        "charlotte-latin:coverage.rows[0].dismissal"
+      ]
+    },
+    {
+      "t": "uscita 2:55",
+      "of": "32ef5284",
+      "at": [
+        "charlotte-latin:coverage.rows[1].dismissal"
+      ]
+    },
+    {
+      "t": "uscita ~3:20",
+      "of": "4cf5d07f",
+      "at": [
+        "charlotte-latin:coverage.rows[2].dismissal",
+        "charlotte-latin:coverage.rows[3].dismissal"
+      ]
+    },
+    {
+      "t": "Nessun programma di assistenza — la biblioteca LS/MS chiude all'uscita",
+      "of": "74da6db1",
+      "at": [
+        "charlotte-latin:coverage.rows[2].flatLabel"
+      ]
+    },
+    {
+      "t": "Nessun programma di assistenza — la biblioteca US aperta fino alle 5:30 p.m.",
+      "of": "72c3da9a",
+      "at": [
+        "charlotte-latin:coverage.rows[3].flatLabel"
+      ]
+    },
+    {
+      "t": "GIU–LUG",
+      "of": "6298b842",
+      "at": [
+        "charlotte-latin:coverage.summer.season",
+        "charlotte-christian:coverage.summer.season",
+        "charlotte-country-day:coverage.summer.season",
+        "cannon:coverage.summer.season"
+      ]
+    },
+    {
+      "t": "**Latin Camps** — aperti a qualsiasi bambino dai 3.5 ai 18 anni, sette sessioni settimanali dall'8 giugno al 31 luglio 2026, con doposcuola fino alle 5:30 p.m. Iscrizione $45 per famiglia, per stagione.",
+      "of": "4719914b",
+      "at": [
+        "charlotte-latin:coverage.summer.text"
+      ]
+    },
+    {
+      "t": "Giorni di chiusura della scuola",
+      "of": "0d53d71a",
+      "at": [
+        "charlotte-latin:coverage.facts[0].label"
+      ]
+    },
+    {
+      "t": "L'Hawks' Club funziona **a giornata intera, 7:30 a.m.–4:45 p.m.** nei giorni di lavoro dei docenti, nei giorni di uscita anticipata e nei giorni dei colloqui — con gite a musei, parchi, piste da bowling e piste di pattinaggio",
+      "of": "b9e005af",
+      "at": [
+        "charlotte-latin:coverage.facts[0].text"
+      ]
+    },
+    {
+      "t": "Attivo",
+      "of": "9a5f395b",
+      "at": [
+        "charlotte-latin:coverage.facts[1].label"
+      ]
+    },
+    {
+      "t": "dal primo all'ultimo giorno di scuola",
+      "of": "174fa879",
+      "at": [
+        "charlotte-latin:coverage.facts[1].text"
+      ]
+    },
+    {
+      "t": "Bus per le attività",
+      "of": "5c10d782",
+      "at": [
+        "charlotte-latin:coverage.facts[2].label"
+      ]
+    },
+    {
+      "t": "4:30 p.m. per la Lower School; 5:30 e 6:00 p.m. per la Middle e l'Upper School",
+      "of": "de7414bd",
+      "at": [
+        "charlotte-latin:coverage.facts[2].text"
+      ]
+    },
+    {
+      "t": "Fly Zone",
+      "of": "6b2bde68",
+      "at": [
+        "charlotte-latin:coverage.facts[3].label"
+      ]
+    },
+    {
+      "t": "non è un programma a pagamento — la sala d'attesa per i fratelli più piccoli i cui fratelli maggiori escono più tardi",
+      "of": "cbfe351a",
+      "at": [
+        "charlotte-latin:coverage.facts[3].text"
+      ]
+    },
+    {
+      "t": "Le stesse pagine di Latin non concordano su quando esce la Lower School. Le pagine After-School usano le **2:55** — il numero su cui è costruita la tabella dei prezzi — mentre Transportation indica le **3:05** per \"TK-K Hawks Club students and Grades 1-5\", e una terza fonte indica le 3:10. La Middle e l'Upper School sono indicate sia alle 3:20 sia alle 3:25.",
+      "of": "804bdfef",
+      "at": [
+        "charlotte-latin:coverage.flags[0].text"
+      ]
+    },
+    {
+      "t": "Il costo del programma a giornata intera nei giorni di chiusura della scuola non è mai indicato — non si dice se quei giorni siano inclusi nella tariffa semestrale o addebitati in aggiunta.",
+      "of": "b675bfc4",
+      "at": [
+        "charlotte-latin:coverage.flags[1].text"
+      ]
+    },
+    {
+      "t": "Non è pubblicata alcuna assistenza prima della scuola. Gli unici dati mattutini sono la finestra dei bus 7:00–7:25 a.m. e l'apertura della biblioteca alle 7:30 a.m.",
+      "of": "5180c265",
+      "at": [
+        "charlotte-latin:coverage.flags[2].text"
+      ]
+    },
+    {
+      "t": "L'Hawks' Club fattura PER SEMESTRE, non al mese — due addebiti l'anno, il 23 settembre e il 20 gennaio.",
+      "of": "f539f868",
+      "at": [
+        "charlotte-latin:cost.headline"
+      ]
+    },
+    {
+      "t": "La tariffazione è quasi perfettamente lineare: la tariffa per N giorni è esattamente N volte la tariffa per 1 giorno, senza sconti sul volume — tranne una riga che sembra rompere lo schema.",
+      "of": "a67ae8cf",
+      "at": [
+        "charlotte-latin:cost.subhead"
+      ]
+    },
+    {
+      "t": "2 semestri",
+      "of": "f30663da",
+      "at": [
+        "charlotte-latin:cost.periodsLabel"
+      ]
+    },
+    {
+      "t": "TK/K · 1:30–2:55",
+      "of": "01508e2c",
+      "at": [
+        "charlotte-latin:cost.rows[0].label"
+      ]
+    },
+    {
+      "t": "TK e Kindergarten · 1:30–2:55 pm",
+      "of": "5835a593",
+      "at": [
+        "charlotte-latin:cost.rows[0].panelLabel"
+      ]
+    },
+    {
+      "t": "TK/K · 1:30–4:30",
+      "of": "c5923383",
+      "at": [
+        "charlotte-latin:cost.rows[1].label"
+      ]
+    },
+    {
+      "t": "TK e Kindergarten · 1:30–4:30 pm",
+      "of": "dc56cb62",
+      "at": [
+        "charlotte-latin:cost.rows[1].panelLabel"
+      ]
+    },
+    {
+      "t": "TK/K · 1:30–6:00",
+      "of": "a29d8de2",
+      "at": [
+        "charlotte-latin:cost.rows[2].label"
+      ]
+    },
+    {
+      "t": "TK e Kindergarten · 1:30–6:00 pm",
+      "of": "1a1625ed",
+      "at": [
+        "charlotte-latin:cost.rows[2].panelLabel"
+      ]
+    },
+    {
+      "t": "Gr 1–5 · 2:55–4:30",
+      "of": "ad6469dc",
+      "at": [
+        "charlotte-latin:cost.rows[3].label"
+      ]
+    },
+    {
+      "t": "Classi 1–5 · 2:55–4:30 pm",
+      "of": "c9c2b384",
+      "at": [
+        "charlotte-latin:cost.rows[3].panelLabel"
+      ]
+    },
+    {
+      "t": "Gr 1–5 · 2:55–6:00",
+      "of": "46f00f95",
+      "at": [
+        "charlotte-latin:cost.rows[4].label"
+      ]
+    },
+    {
+      "t": "Classi 1–5 · 2:55–6:00 pm",
+      "of": "fe1a703f",
+      "at": [
+        "charlotte-latin:cost.rows[4].panelLabel"
+      ]
+    },
+    {
+      "t": "Lo scoglio di costo del TK/K.",
+      "of": "b96ebfa4",
+      "at": [
+        "charlotte-latin:cost.aside.title"
+      ]
+    },
+    {
+      "t": "TK e K escono alle 1:30, le grades 1–5 alle 2:55. Una famiglia con figli in TK/K paga **$1,725 a semestre — $3,450 all'anno — solo per coprire gli 85 minuti** che una famiglia con un figlio in grade 1 ottiene gratis.",
+      "of": "d75d0ce0",
+      "at": [
+        "charlotte-latin:cost.aside.text"
+      ]
+    },
+    {
+      "t": "Fatturato",
+      "of": "b4c012ed",
+      "at": [
+        "charlotte-latin:cost.fees[0].label"
+      ]
+    },
+    {
+      "t": "23 set e 20 gen",
+      "of": "7ce0351b",
+      "at": [
+        "charlotte-latin:cost.fees[0].value"
+      ]
+    },
+    {
+      "t": "Quota di iscrizione",
+      "of": "129cc648",
+      "at": [
+        "charlotte-latin:cost.fees[1].label",
+        "charlotte-christian:cost.fees[0].label",
+        "cannon:cost.fees[0].label"
+      ]
+    },
+    {
+      "t": "non pubblicato",
+      "of": "c0bab374",
+      "at": [
+        "charlotte-latin:cost.fees[1].value",
+        "charlotte-latin:cost.fees[2].value",
+        "charlotte-latin:cost.fees[3].value"
+      ]
+    },
+    {
+      "t": "Tariffa per ritiro in ritardo",
+      "of": "295637c8",
+      "at": [
+        "charlotte-latin:cost.fees[2].label"
+      ]
+    },
+    {
+      "t": "Tariffa per modifica dell'orario",
+      "of": "d0850493",
+      "at": [
+        "charlotte-latin:cost.fees[3].label"
+      ]
+    },
+    {
+      "t": "Tariffa a ingresso libero",
+      "of": "4fc48e02",
+      "at": [
+        "charlotte-latin:cost.fees[4].label"
+      ]
+    },
+    {
+      "t": "nessuno pubblicato",
+      "of": "010e3b1d",
+      "at": [
+        "charlotte-latin:cost.fees[4].value",
+        "charlotte-christian:cost.fees[0].value"
+      ]
+    },
+    {
+      "t": "Le iscrizioni per il 2026-27 hanno aperto il **14 maggio 2026 alle 8:00 p.m.** — un'apertura secca in serata è il segno distintivo di un programma in cui i corsi più richiesti si riempiono in pochi minuti.",
+      "of": "88916c7c",
+      "at": [
+        "charlotte-latin:cost.fees[5].label"
+      ]
+    },
+    {
+      "t": "La **riga TK/K 1:30–4:30 non torna.** Ogni altra riga è esattamente lineare, ma questa tariffa 4 giorni a $2,300 e 5 giorni a $2,540 mentre il valore lineare darebbe $2,540 e $3,175 — quindi cinque giorni costano quanto dovrebbero costarne quattro. O uno sconto sul volume non pubblicizzato sulla fascia più richiesta o un errore di pubblicazione, e una questione da $635 a semestre. Gli stessi due valori erano comparsi in una precedente ricerca, il che fa propendere per \"reale\".",
+      "of": "827224d6",
+      "at": [
+        "charlotte-latin:cost.flags[0].text"
+      ]
+    },
+    {
+      "t": "Quasi tutte le tariffe accessorie non sono pubblicate — iscrizione, ritiro in ritardo, modifiche di orario, disdetta e rimborsi, e qualsiasi tariffa a ingresso libero o per uso occasionale. Nessuna opzione a ingresso libero è descritta da nessuna parte; il modello sembra basarsi solo su giorni fissi pre-iscritti. Il summer camp di Latin pubblica tutti questi corrispettivi, quindi la scuola sa chiaramente essere trasparente — il programma dell'anno scolastico semplicemente non lo è.",
+      "of": "4abab921",
+      "at": [
+        "charlotte-latin:cost.flags[1].text"
+      ]
+    },
+    {
+      "t": "L'applicabilità dell'aiuto finanziario non è indicata, e la formulazione è scoraggiante: la pagina sulla retta cataloga il doposcuola sotto \"other optional costs… transportation and our Extended Day and enrichment programs\", senza alcuna dichiarazione che l'aiuto si applichi.",
+      "of": "b428c44f",
+      "at": [
+        "charlotte-latin:cost.flags[2].text"
+      ]
+    },
+    {
+      "t": "L'Hawks' Club opera da un edificio dedicato al doposcuola — non da una mensa o una palestra prese in prestito — con un insegnante titolare e un insegnante assistente in ogni aula.",
+      "of": "aaa5acc6",
+      "at": [
+        "charlotte-latin:dayInside.headline"
+      ]
+    },
+    {
+      "t": "La scuola pubblica cosa contiene il pomeriggio ma mai il quando: non esiste da nessuna parte un ritmo ora per ora. Ciò che pubblica è come ciascuna divisione ci arriva.",
+      "of": "3a410b29",
+      "at": [
+        "charlotte-latin:dayInside.subhead"
+      ]
+    },
+    {
+      "t": "Come inizia il pomeriggio, per divisione",
+      "of": "6e6ad5b9",
+      "at": [
+        "charlotte-latin:dayInside.rhythmTitle"
+      ]
+    },
+    {
+      "t": "Prelevati dalla classe",
+      "of": "8c304670",
+      "at": [
+        "charlotte-latin:dayInside.rhythm[0].name"
+      ]
+    },
+    {
+      "t": "Prelevati da un insegnante dell'Hawks' Club direttamente dalle aule e condotti all'edificio",
+      "of": "2835f249",
+      "at": [
+        "charlotte-latin:dayInside.rhythm[0].detail"
+      ]
+    },
+    {
+      "t": "Classi 1–5",
+      "of": "c2d451ca",
+      "at": [
+        "charlotte-latin:dayInside.rhythm[1].time"
+      ]
+    },
+    {
+      "t": "Ritrovo, registrazione, merenda",
+      "of": "f458b77b",
+      "at": [
+        "charlotte-latin:dayInside.rhythm[1].name"
+      ]
+    },
+    {
+      "t": "Incontrano un insegnante dell'Hawks' Club in un luogo assegnato per l'appello e una merenda",
+      "of": "81f4f383",
+      "at": [
+        "charlotte-latin:dayInside.rhythm[1].detail"
+      ]
+    },
+    {
+      "t": "Poi",
+      "of": "654f3596",
+      "at": [
+        "charlotte-latin:dayInside.rhythm[2].time"
+      ]
+    },
+    {
+      "t": "Avanti verso l'enrichment",
+      "of": "8075acc2",
+      "at": [
+        "charlotte-latin:dayInside.rhythm[2].name"
+      ]
+    },
+    {
+      "t": "L'insegnante li accompagna a piedi al corso di enrichment a cui sono iscritti",
+      "of": "95aa149e",
+      "at": [
+        "charlotte-latin:dayInside.rhythm[2].detail"
+      ]
+    },
+    {
+      "t": "Dopo la lezione",
+      "of": "43179c7d",
+      "at": [
+        "charlotte-latin:dayInside.rhythm[3].time"
+      ]
+    },
+    {
+      "t": "Tre modi per uscire",
+      "of": "056f6db5",
+      "at": [
+        "charlotte-latin:dayInside.rhythm[3].name"
+      ]
+    },
+    {
+      "t": "Carpool all'ingresso, ritorno all'Hawks' Club o il bus della Lower School alle 4:30",
+      "of": "977bfcc4",
+      "at": [
+        "charlotte-latin:dayInside.rhythm[3].detail"
+      ]
+    },
+    {
+      "t": "Il programma, nelle parole della scuola",
+      "of": "234ffbcd",
+      "at": [
+        "charlotte-latin:dayInside.wordsTitle",
+        "charlotte-christian:dayInside.wordsTitle",
+        "charlotte-country-day:dayInside.wordsTitle",
+        "cannon:dayInside.wordsTitle"
+      ]
+    },
+    {
+      "t": "stringere amicizie",
+      "of": "8a340fb8",
+      "at": [
+        "charlotte-latin:dayInside.words[0]"
+      ]
+    },
+    {
+      "t": "esplorare nuovi interessi",
+      "of": "ed064145",
+      "at": [
+        "charlotte-latin:dayInside.words[1]"
+      ]
+    },
+    {
+      "t": "una comunità connessa",
+      "of": "be501f12",
+      "at": [
+        "charlotte-latin:dayInside.words[2]"
+      ]
+    },
+    {
+      "t": "gioco strutturato e non strutturato",
+      "of": "63d6fcca",
+      "at": [
+        "charlotte-latin:dayInside.words[3]"
+      ]
+    },
+    {
+      "t": "servizio alla comunità",
+      "of": "b06d8cd1",
+      "at": [
+        "charlotte-latin:dayInside.words[4]"
+      ]
+    },
+    {
+      "t": "mentoring",
+      "of": "d8a90a86",
+      "at": [
+        "charlotte-latin:dayInside.words[5]"
+      ]
+    },
+    {
+      "t": "\"A GREAT DAY DOESN'T NEED TO END\" è lo slogan dell'Hawks' Club; il programma è \"a vibrant and engaging environment where students can build friendships, explore new interests, and be part of a connected after-school community\" e \"a welcoming space for children to transition from the school day to their home routines.\" Con la voce degli studenti, dalla pagina della Lower School: \"Hawks' Club gives us the space to transition from school to home each day. With plenty of activity and enrichment class options, we learn new skills, compete in sports, make friends, study, and play.\"",
+      "of": "0ca3a363",
+      "at": [
+        "charlotte-latin:dayInside.wordsText"
+      ]
+    },
+    {
+      "t": "Il catalogo dell'enrichment — 27 corsi",
+      "of": "4a8f56e9",
+      "at": [
+        "charlotte-latin:dayInside.catalogTitle"
+      ]
+    },
+    {
+      "t": "Latin pubblica corsi di enrichment di sei, otto e dieci settimane \"open to all Lower School students\", tenuti da istruttori professionisti. I **nomi dei corsi qui sotto sono esattamente come pubblicati** — ma la scuola non pubblica per nessuno di essi né il giorno, né la fascia di grado, né la tariffa, quindi quelle colonne sono indicate come non pubblicate anziché ipotizzate.",
+      "of": "576f81d1",
+      "at": [
+        "charlotte-latin:dayInside.catalogIntro"
+      ]
+    },
+    {
+      "t": "Fornitore esterno — scienza pratica",
+      "of": "0d31843d",
+      "at": [
+        "charlotte-latin:dayInside.classes[0].desc"
+      ]
+    },
+    {
+      "t": "LS",
+      "of": "75e26068",
+      "at": [
+        "charlotte-latin:dayInside.classes[0].gradeLabel",
+        "charlotte-latin:dayInside.classes[1].gradeLabel",
+        "charlotte-latin:dayInside.classes[2].gradeLabel",
+        "charlotte-latin:dayInside.classes[3].gradeLabel",
+        "charlotte-latin:dayInside.classes[4].gradeLabel",
+        "charlotte-latin:dayInside.classes[5].gradeLabel",
+        "charlotte-latin:dayInside.classes[6].gradeLabel",
+        "charlotte-latin:dayInside.classes[7].gradeLabel",
+        "charlotte-latin:dayInside.classes[8].gradeLabel",
+        "charlotte-latin:dayInside.classes[9].gradeLabel",
+        "charlotte-latin:dayInside.classes[10].gradeLabel",
+        "charlotte-latin:dayInside.classes[11].gradeLabel",
+        "charlotte-latin:dayInside.classes[12].gradeLabel",
+        "charlotte-latin:dayInside.classes[13].gradeLabel",
+        "charlotte-latin:dayInside.classes[14].gradeLabel",
+        "charlotte-latin:dayInside.classes[15].gradeLabel",
+        "charlotte-latin:dayInside.classes[16].gradeLabel",
+        "charlotte-latin:dayInside.classes[17].gradeLabel",
+        "charlotte-latin:dayInside.classes[18].gradeLabel",
+        "charlotte-latin:dayInside.classes[19].gradeLabel",
+        "charlotte-latin:dayInside.classes[20].gradeLabel",
+        "charlotte-latin:dayInside.classes[21].gradeLabel",
+        "charlotte-latin:dayInside.classes[22].gradeLabel",
+        "charlotte-latin:dayInside.classes[23].gradeLabel",
+        "charlotte-latin:dayInside.classes[24].gradeLabel",
+        "charlotte-latin:dayInside.classes[25].gradeLabel",
+        "charlotte-latin:dayInside.classes[26].gradeLabel"
+      ]
+    },
+    {
+      "t": "Enrichment basato su lettura e narrazione",
+      "of": "6c760dda",
+      "at": [
+        "charlotte-latin:dayInside.classes[1].desc"
+      ]
+    },
+    {
+      "t": "Fondamentali di cheerleading",
+      "of": "fc4e3dcc",
+      "at": [
+        "charlotte-latin:dayInside.classes[2].desc"
+      ]
+    },
+    {
+      "t": "Strategia e gioco da torneo",
+      "of": "85ca8c56",
+      "at": [
+        "charlotte-latin:dayInside.classes[3].desc"
+      ]
+    },
+    {
+      "t": "Fornitore esterno — hockey su prato",
+      "of": "167db7fa",
+      "at": [
+        "charlotte-latin:dayInside.classes[4].desc"
+      ]
+    },
+    {
+      "t": "Ceramica e modellazione a mano",
+      "of": "c775919b",
+      "at": [
+        "charlotte-latin:dayInside.classes[5].desc"
+      ]
+    },
+    {
+      "t": "Gestito da Flik, il fornitore dei servizi di ristorazione della scuola",
+      "of": "80c1377a",
+      "at": [
+        "charlotte-latin:dayInside.classes[6].desc"
+      ]
+    },
+    {
+      "t": "Movimento e coreografia",
+      "of": "c5039262",
+      "at": [
+        "charlotte-latin:dayInside.classes[7].desc"
+      ]
+    },
+    {
+      "t": "Sfide di progettazione e fabbricazione",
+      "of": "e89bbc96",
+      "at": [
+        "charlotte-latin:dayInside.classes[8].desc"
+      ]
+    },
+    {
+      "t": "Tecnica con la stecca e gioco a ranghi ridotti",
+      "of": "1f2ed841",
+      "at": [
+        "charlotte-latin:dayInside.classes[9].desc"
+      ]
+    },
+    {
+      "t": "Fondamentali di football senza contatto",
+      "of": "5ab29862",
+      "at": [
+        "charlotte-latin:dayInside.classes[10].desc"
+      ]
+    },
+    {
+      "t": "Fondamentali dello swing e gioco corto",
+      "of": "d0dba5d6",
+      "at": [
+        "charlotte-latin:dayInside.classes[11].desc"
+      ]
+    },
+    {
+      "t": "Arte visiva multimediale",
+      "of": "2a9b4802",
+      "at": [
+        "charlotte-latin:dayInside.classes[12].desc"
+      ]
+    },
+    {
+      "t": "Perline e creazione di gioielli",
+      "of": "ffc267bc",
+      "at": [
+        "charlotte-latin:dayInside.classes[13].desc"
+      ]
+    },
+    {
+      "t": "Forma e disciplina delle arti marziali",
+      "of": "ca5a6dea",
+      "at": [
+        "charlotte-latin:dayInside.classes[14].desc"
+      ]
+    },
+    {
+      "t": "Tecnica con la stecca e gioco di squadra",
+      "of": "1a0e4e07",
+      "at": [
+        "charlotte-latin:dayInside.classes[15].desc"
+      ]
+    },
+    {
+      "t": "Sfide di costruzione",
+      "of": "f770dda9",
+      "at": [
+        "charlotte-latin:dayInside.classes[16].desc"
+      ]
+    },
+    {
+      "t": "Fornitore esterno — recitazione e arte scenica",
+      "of": "5e90deba",
+      "at": [
+        "charlotte-latin:dayInside.classes[17].desc"
+      ]
+    },
+    {
+      "t": "Costruzione di robot da competizione",
+      "of": "bbbcdc94",
+      "at": [
+        "charlotte-latin:dayInside.classes[18].desc"
+      ]
+    },
+    {
+      "t": "Fornitore esterno — SwimMAC Carolina",
+      "of": "ea7e3f0b",
+      "at": [
+        "charlotte-latin:dayInside.classes[19].desc"
+      ]
+    },
+    {
+      "t": "Colpi e gioco in partita",
+      "of": "76e32f14",
+      "at": [
+        "charlotte-latin:dayInside.classes[20].desc"
+      ]
+    },
+    {
+      "t": "Corso di archi per principianti",
+      "of": "2ad341a8",
+      "at": [
+        "charlotte-latin:dayInside.classes[21].desc"
+      ]
+    },
+    {
+      "t": "Passaggio, alzata e gioco",
+      "of": "f4f7f559",
+      "at": [
+        "charlotte-latin:dayInside.classes[22].desc"
+      ]
+    },
+    {
+      "t": "Attrezzi manuali e costruzioni semplici",
+      "of": "831476dd",
+      "at": [
+        "charlotte-latin:dayInside.classes[23].desc"
+      ]
+    },
+    {
+      "t": "Fondamentali a terra e preparazione fisica",
+      "of": "388e457d",
+      "at": [
+        "charlotte-latin:dayInside.classes[24].desc"
+      ]
+    },
+    {
+      "t": "Fornitore esterno — tecnica di basket",
+      "of": "5101e23a",
+      "at": [
+        "charlotte-latin:dayInside.classes[25].desc"
+      ]
+    },
+    {
+      "t": "Posizioni, respirazione e mindfulness",
+      "of": "8fe22bec",
+      "at": [
+        "charlotte-latin:dayInside.classes[26].desc"
+      ]
+    },
+    {
+      "t": "L'enrichment è un catalogo di nomi senza alcun dettaglio operativo — **nessun giorno della settimana, nessuna fascia di grado e nessuna tariffa** per nessuno dei 27 corsi. La pagina che un tempo conteneva quella griglia ora restituisce un 404 e sembra essere stata spostata dietro il portale dei genitori.",
+      "of": "856ad461",
+      "at": [
+        "charlotte-latin:dayInside.flags[0].text"
+      ]
+    },
+    {
+      "t": "Non è pubblicato alcun orario giornaliero ora per ora, e non è indicato alcun rapporto personale-bambini né la dimensione dei gruppi — solo che ogni aula ha un insegnante titolare e un assistente.",
+      "of": "b391fb21",
+      "at": [
+        "charlotte-latin:dayInside.flags[1].text"
+      ]
+    },
+    {
+      "t": "**Talons**, lo sport giovanile, si affianca per le grades 3–6 — hockey su prato, basket, baseball, lacrosse, calcio misto e corsa campestre, 2–3 giorni a settimana tra le 3:00 e le 5:15 p.m., a $200–$350 a seconda dello sport. Sono pubblicate solo le sessioni autunnali; inverno e primavera no.",
+      "of": "43412fa1",
+      "at": [
+        "charlotte-latin:dayInside.flags[2].text"
+      ]
+    },
+    {
+      "t": "Un programma di Lower School dotato di ambienti e personale insolitamente buoni, con una tariffazione onesta e lineare — che però si ferma del tutto alla grade 5.",
+      "of": "a690ebe0",
+      "at": [
+        "charlotte-latin:verdict.headline"
+      ]
+    },
+    {
+      "t": "Lo scoglio di costo del TK/K e la quasi totale opacità delle tariffe sono i due punti su cui insistere, e le famiglie della Middle School dovrebbero chiedere cosa succede alle 3:20 p.m.",
+      "of": "e2e784f1",
+      "at": [
+        "charlotte-latin:verdict.subhead"
+      ]
+    },
+    {
+      "t": "**Un edificio dedicato al doposcuola**, non una mensa o una palestra riconvertite — concretamente migliore per un bambino che vi trascorre tre o più ore al giorno.",
+      "of": "c15ad296",
+      "at": [
+        "charlotte-latin:verdict.strengths[0]"
+      ]
+    },
+    {
+      "t": "**Due adulti qualificati per stanza** — \"a dedicated lead teacher and assistant teacher\" è un impegno dichiarato e strutturale.",
+      "of": "3afdaccd",
+      "at": [
+        "charlotte-latin:verdict.strengths[1]"
+      ]
+    },
+    {
+      "t": "**Tariffazione lineare e onesta con reale granularità** — tre orari di ritiro effettivi e la scelta tra 1 e 5 giorni, così una famiglia che ha bisogno esattamente di due giorni fino alle 4:30 paga esattamente quello.",
+      "of": "e2a83608",
+      "at": [
+        "charlotte-latin:verdict.strengths[2]"
+      ]
+    },
+    {
+      "t": "**La tariffazione delle grades 1–5 è davvero contenuta** per questa fascia di retta — $295 a semestre per un giorno a settimana fino alle 4:30, e $2,950 all'anno per la copertura a cinque giorni fino alle 4:30.",
+      "of": "5466d519",
+      "at": [
+        "charlotte-latin:verdict.strengths[3]"
+      ]
+    },
+    {
+      "t": "**Copertura a giornata intera nei giorni di lavoro dei docenti e nei giorni dei colloqui**, 7:30 a.m.–4:45 p.m., con vere gite — risolvendo i giorni che più spesso mandano in crisi l'assistenza ai figli.",
+      "of": "36904d9d",
+      "at": [
+        "charlotte-latin:verdict.strengths[4]"
+      ]
+    },
+    {
+      "t": "**Un ricco catalogo di enrichment da 27 corsi** con fornitori esterni credibili, che spazia tra STEM, arti e più di otto sport.",
+      "of": "baea077f",
+      "at": [
+        "charlotte-latin:verdict.strengths[5]"
+      ]
+    },
+    {
+      "t": "**Talons è una vera rampa d'accesso allo sport**, concepito espressamente come vivaio per le squadre varsity Hawks.",
+      "of": "78d4db43",
+      "at": [
+        "charlotte-latin:verdict.strengths[6]"
+      ]
+    },
+    {
+      "t": "**Integrazione con i bus per le attività** alle 4:30, 5:30 e 6:00, così la partecipazione al doposcuola non richiede necessariamente un'auto al ritiro.",
+      "of": "711e2917",
+      "at": [
+        "charlotte-latin:verdict.strengths[7]"
+      ]
+    },
+    {
+      "t": "**La copertura si interrompe di colpo alla grade 5.** Non esiste alcuna assistenza doposcuola di alcun tipo per la Middle o l'Upper School. La Middle School è la più abbandonata: la sua biblioteca chiude all'uscita, lasciando lo sport o nulla.",
+      "of": "9e8d2e28",
+      "at": [
+        "charlotte-latin:verdict.watchouts[0]"
+      ]
+    },
+    {
+      "t": "**Lo scoglio di costo del TK/K è grave** — $1,725 a semestre solo per colmare gli 85 minuti fino alla campanella della grade 1, e $9,300 all'anno per la copertura a cinque giorni fino alle 6:00 p.m.",
+      "of": "49350c41",
+      "at": [
+        "charlotte-latin:verdict.watchouts[1]"
+      ]
+    },
+    {
+      "t": "**Nessun orario giornaliero pubblicato** per un programma in cui un bambino può passare tre ore al giorno.",
+      "of": "7f7f7d23",
+      "at": [
+        "charlotte-latin:verdict.watchouts[2]"
+      ]
+    },
+    {
+      "t": "**L'enrichment pubblica solo i nomi** — nessun giorno, nessuna fascia di grado, nessuna tariffa, e la pagina che un tempo conteneva quella griglia ora dà 404.",
+      "of": "ad0db4e1",
+      "at": [
+        "charlotte-latin:verdict.watchouts[3]"
+      ]
+    },
+    {
+      "t": "**Nessuna opzione a ingresso libero è pubblicata.** Il modello sembra basarsi su giorni fissi pre-iscritti fatturati a semestre, senza alcun modo pubblicato di modificarli a metà semestre.",
+      "of": "9818cf70",
+      "at": [
+        "charlotte-latin:verdict.watchouts[4]"
+      ]
+    },
+    {
+      "t": "**Opacità delle tariffe su tutta la linea** — iscrizione, ritiro in ritardo, modifiche di orario, rimborsi e la tariffa dei giorni di chiusura della scuola non sono pubblicati, benché il summer camp pubblichi ognuno dei corrispettivi.",
+      "of": "5130f69b",
+      "at": [
+        "charlotte-latin:verdict.watchouts[5]"
+      ]
+    },
+    {
+      "t": "**Non è dichiarato che l'aiuto finanziario si applichi**, e il doposcuola è catalogato sotto \"other optional costs\" insieme al trasporto.",
+      "of": "0408d40b",
+      "at": [
+        "charlotte-latin:verdict.watchouts[6]"
+      ]
+    },
+    {
+      "t": "**Il sito si contraddice sugli orari di uscita**, e una riga della tariffazione rompe lo schema seguito da ogni altra riga.",
+      "of": "dbdbc275",
+      "at": [
+        "charlotte-latin:verdict.watchouts[7]"
+      ]
+    },
+    {
+      "t": "Quali opzioni abbiamo per la sorveglianza doposcuola quando nostro figlio arriva alla Middle School? C'è qualcosa tra l'uscita delle 3:20 e il bus delle attività delle 5:30?",
+      "of": "cc77766d",
+      "at": [
+        "charlotte-latin:verdict.checklist[0]"
+      ]
+    },
+    {
+      "t": "Confermate per favore l'effettivo orario di uscita delle Grades 1–5 — 2:55, 3:05 o 3:10? Le vostre pagine Transportation e After-School non concordano.",
+      "of": "4175da40",
+      "at": [
+        "charlotte-latin:verdict.checklist[1]"
+      ]
+    },
+    {
+      "t": "Confermate per favore le tariffe TK/K 1:30–4:30: cinque giorni costano davvero $2,540 e quattro giorni $2,300? Questi rompono lo schema di ogni altra riga.",
+      "of": "d409864e",
+      "at": [
+        "charlotte-latin:verdict.checklist[2]"
+      ]
+    },
+    {
+      "t": "Esiste una quota di iscrizione all'Hawks' Club, ed è per bambino o per famiglia?",
+      "of": "c3a30730",
+      "at": [
+        "charlotte-latin:verdict.checklist[3]"
+      ]
+    },
+    {
+      "t": "Qual è la tariffa per il ritiro in ritardo dopo le 6:00 p.m., e come viene calcolata?",
+      "of": "d7120ce0",
+      "at": [
+        "charlotte-latin:verdict.checklist[4]"
+      ]
+    },
+    {
+      "t": "Possiamo cambiare i nostri giorni a metà semestre, ed esiste una tariffa per la modifica? Qual è la politica di rimborso in caso di ritiro?",
+      "of": "b407fce1",
+      "at": [
+        "charlotte-latin:verdict.checklist[5]"
+      ]
+    },
+    {
+      "t": "Sono possibili in qualche modo giorni a ingresso libero od occasionali, e a quale tariffa?",
+      "of": "15ecd728",
+      "at": [
+        "charlotte-latin:verdict.checklist[6]"
+      ]
+    },
+    {
+      "t": "Il programma a giornata intera dei giorni di chiusura della scuola è incluso nella nostra tariffa semestrale, o fatturato a parte? Le gite hanno un costo aggiuntivo?",
+      "of": "1e946f6a",
+      "at": [
+        "charlotte-latin:verdict.checklist[7]"
+      ]
+    },
+    {
+      "t": "Esiste uno sconto per fratelli, e l'aiuto finanziario può essere applicato a Hawks' Club, enrichment o Talons?",
+      "of": "ca03aad9",
+      "at": [
+        "charlotte-latin:verdict.checklist[8]"
+      ]
+    },
+    {
+      "t": "Esiste una qualsiasi assistenza prima della scuola o un ingresso anticipato sorvegliato, e a partire da che ora?",
+      "of": "dd3e9750",
+      "at": [
+        "charlotte-latin:verdict.checklist[9]"
+      ]
+    },
+    {
+      "t": "Com'è un tipico pomeriggio ora per ora — quando c'è la merenda, i compiti, il tempo all'aperto?",
+      "of": "2244447e",
+      "at": [
+        "charlotte-latin:verdict.checklist[10]"
+      ]
+    },
+    {
+      "t": "Qual è il rapporto personale-bambini, e quanti bambini ci sono in ogni aula?",
+      "of": "ebfa1a7f",
+      "at": [
+        "charlotte-latin:verdict.checklist[11]"
+      ]
+    },
+    {
+      "t": "Posso vedere la griglia attuale dell'enrichment con giorni, fasce di grado e tariffe per corso?",
+      "of": "0e6f9de5",
+      "at": [
+        "charlotte-latin:verdict.checklist[12]"
+      ]
+    },
+    {
+      "t": "Le tariffe di enrichment si sommano alla tariffa semestrale dell'Hawks' Club, oppure l'Hawks' Club viene calcolato in proporzione?",
+      "of": "fc368a4f",
+      "at": [
+        "charlotte-latin:verdict.checklist[13]"
+      ]
+    },
+    {
+      "t": "Quanto in fretta si riempiono i corsi più richiesti all'apertura delle iscrizioni alle 8:00 p.m., ed esiste una lista d'attesa?",
+      "of": "b91f33e6",
+      "at": [
+        "charlotte-latin:verdict.checklist[14]"
+      ]
+    },
+    {
+      "t": "Esistono le stagioni invernale e primaverile di Talons, e qual è la tariffa esatta per lo sport che ci interessa?",
+      "of": "aaba6621",
+      "at": [
+        "charlotte-latin:verdict.checklist[15]"
+      ]
+    },
+    {
+      "t": "La Lower School è coperta fino alle 6:00 p.m. e la Middle School solo fino alle 5:00 p.m. — un'ora intera prima, e uno dei divari di orario più netti di questo gruppo.",
+      "of": "e248d85c",
+      "at": [
+        "charlotte-christian:coverage.headline"
+      ]
+    },
+    {
+      "t": "Esistono due economiche fasce \"Bridge Care\" al solo scopo di colmare lo scarto tra la campanella della JK-K e quella delle grades 1–4. L'Upper School non ha alcuna assistenza doposcuola.",
+      "of": "88d4fc22",
+      "at": [
+        "charlotte-christian:coverage.subhead"
+      ]
+    },
+    {
+      "t": "Il prezzo fino alle 6:00 è la **tariffa mensile a tempo pieno — 5 giorni a settimana**; 1–4 giorni a settimana vanno da $125 a $295. **Il Bridge Care è un forfait di $125 al mese qualunque sia il numero di giorni**, ed è ciò che ne fa un modo così economico per colmare lo scarto fino alla campanella delle grades 1–4. Apri **The Cost Planner** qui sotto per calcolare qualsiasi combinazione.",
+      "of": "fdb538f2",
+      "at": [
+        "charlotte-christian:coverage.basisNote"
+      ]
+    },
+    {
+      "t": "uscita 2:20",
+      "of": "35f195d4",
+      "at": [
+        "charlotte-christian:coverage.rows[0].dismissal"
+      ]
+    },
+    {
+      "t": "uscita 2:40",
+      "of": "29ed05c2",
+      "at": [
+        "charlotte-christian:coverage.rows[1].dismissal"
+      ]
+    },
+    {
+      "t": "uscita 3:00",
+      "of": "19b1c58b",
+      "at": [
+        "charlotte-christian:coverage.rows[2].dismissal",
+        "cannon:coverage.rows[0].dismissal",
+        "cannon:coverage.rows[1].dismissal"
+      ]
+    },
+    {
+      "t": "$8/hour · fino alle 5:00",
+      "of": "c31486c1",
+      "at": [
+        "charlotte-christian:coverage.rows[2].flatLabel"
+      ]
+    },
+    {
+      "t": "uscita 3:20",
+      "of": "8dac6bf9",
+      "at": [
+        "charlotte-christian:coverage.rows[3].dismissal",
+        "davidson-day:coverage.rows[3].dismissal"
+      ]
+    },
+    {
+      "t": "Nessuna assistenza doposcuola — solo sport e arti",
+      "of": "a5ab7074",
+      "at": [
+        "charlotte-christian:coverage.rows[3].flatLabel"
+      ]
+    },
+    {
+      "t": "**Charlotte Christian Summer Camps** — sei settimane, dal 1 giugno al 17 luglio 2026, dalla JK alla grade 12. Early Care 8–9 a.m. e After Care 4–5 p.m. a $50/week o $10/day ciascuno; l'assistenza-ponte del pranzo è gratuita per i partecipanti che fanno sia un camp mattutino sia uno pomeridiano.",
+      "of": "300ccaeb",
+      "at": [
+        "charlotte-christian:coverage.summer.text"
+      ]
+    },
+    {
+      "t": "Iscrizione automatica",
+      "of": "26b13e63",
+      "at": [
+        "charlotte-christian:coverage.facts[0].label"
+      ]
+    },
+    {
+      "t": "qualsiasi studente della Lower School **non ritirato entro le 3:05 p.m. viene portato all'Extended Day e gli viene addebitato un ingresso libero giornaliero di $50**",
+      "of": "566b10dd",
+      "at": [
+        "charlotte-christian:coverage.facts[0].text"
+      ]
+    },
+    {
+      "t": "Middle School",
+      "of": "15441234",
+      "at": [
+        "charlotte-christian:coverage.facts[1].label",
+        "cannon:coverage.facts[0].label"
+      ]
+    },
+    {
+      "t": "ogni studente della MS è **iscritto automaticamente** — nessun modulo, nessun minimo, ben accetto in qualsiasi pomeriggio",
+      "of": "c0f911ce",
+      "at": [
+        "charlotte-christian:coverage.facts[1].text"
+      ]
+    },
+    {
+      "t": "Mezze giornate",
+      "of": "1c8de0cf",
+      "at": [
+        "charlotte-christian:coverage.facts[2].label"
+      ]
+    },
+    {
+      "t": "$25 al giorno, addebitati in aggiunta alla quota mensile",
+      "of": "fe7d680c",
+      "at": [
+        "charlotte-christian:coverage.facts[2].text"
+      ]
+    },
+    {
+      "t": "nessun programma a pagamento — gli studenti sono semplicemente \"welcomed on campus at 7:15 a.m.\"",
+      "of": "bf9eeafa",
+      "at": [
+        "charlotte-christian:coverage.facts[3].text"
+      ]
+    },
+    {
+      "t": "Non è pubblicata da nessuna parte alcuna assistenza per i giorni di lavoro dei docenti o le vacanze. Durante le vacanze, le famiglie sono probabilmente lasciate a sé stesse.",
+      "of": "a297b417",
+      "at": [
+        "charlotte-christian:coverage.flags[0].text"
+      ]
+    },
+    {
+      "t": "La pagina dell'Extended Day cita un orario delle 3:15 p.m. per la middle school, che è il termine per lo sgombero del carpool più che la campanella. Il pacchetto della MS lo chiarisce: uscita alle 3:00, carpool entro le 3:15, addebito automatico all'Extended Day dalle 3:20.",
+      "of": "5686bfc9",
+      "at": [
+        "charlotte-christian:coverage.flags[1].text"
+      ]
+    },
+    {
+      "t": "L'Extended Day della Lower School è una singola scala mensile forfettaria in base ai giorni a settimana — un unico prezzo fino alle 6:00 p.m., senza fasce di orario di ritiro tra cui scegliere.",
+      "of": "e43d4a1a",
+      "at": [
+        "charlotte-christian:cost.headline"
+      ]
+    },
+    {
+      "t": "Queste sono le tariffe attuali 2026-27, e sono del 32–52% superiori al pacchetto 2024-25 — gli aumenti più marcati sono ricaduti sulle fasce di metà settimana.",
+      "of": "7ac8f022",
+      "at": [
+        "charlotte-christian:cost.subhead"
+      ]
+    },
+    {
+      "t": "JK–Gr 4 · fino alle 6:00",
+      "of": "5766b33c",
+      "at": [
+        "charlotte-christian:cost.rows[0].label"
+      ]
+    },
+    {
+      "t": "JK–Grade 4 · fino alle 6:00 pm",
+      "of": "7a33beaf",
+      "at": [
+        "charlotte-christian:cost.rows[0].panelLabel"
+      ]
+    },
+    {
+      "t": "JK–K · Bridge 2:20–3:15",
+      "of": "c39045d2",
+      "at": [
+        "charlotte-christian:cost.rows[1].label"
+      ]
+    },
+    {
+      "t": "JK e Kindergarten · Bridge Care, 2:20–3:15 pm",
+      "of": "d8de2e40",
+      "at": [
+        "charlotte-christian:cost.rows[1].panelLabel"
+      ]
+    },
+    {
+      "t": "Gr 1–4 · Bridge 2:40–3:35",
+      "of": "03bd2586",
+      "at": [
+        "charlotte-christian:cost.rows[2].label"
+      ]
+    },
+    {
+      "t": "Classi 1–4 · Bridge Care, 2:40–3:35 pm",
+      "of": "01b8eef1",
+      "at": [
+        "charlotte-christian:cost.rows[2].panelLabel"
+      ]
+    },
+    {
+      "t": "La Middle School è tariffata a ore.",
+      "of": "57ef0d7b",
+      "at": [
+        "charlotte-christian:cost.aside.title"
+      ]
+    },
+    {
+      "t": "Le grades 5–8 pagano **$8 all'ora**, fatturati mensilmente sulla presenza effettiva, per una finestra 3:00–5:00 p.m. — nessun contratto e nessun minimo. La finestra completa cinque giorni a settimana costa circa **$80/week**. Il ritiro in ritardo scatta alle 5:01 p.m.",
+      "of": "79c3aa1d",
+      "at": [
+        "charlotte-christian:cost.aside.text"
+      ]
+    },
+    {
+      "t": "Ingresso libero giornaliero (Lower School)",
+      "of": "5da4229d",
+      "at": [
+        "charlotte-christian:cost.fees[1].label"
+      ]
+    },
+    {
+      "t": "$50 / giorno",
+      "of": "64f17e3d",
+      "at": [
+        "charlotte-christian:cost.fees[1].value"
+      ]
+    },
+    {
+      "t": "Ritiro in ritardo dopo le 6:01 (LS)",
+      "of": "6ec187e4",
+      "at": [
+        "charlotte-christian:cost.fees[2].label"
+      ]
+    },
+    {
+      "t": "$25 / quarto d'ora",
+      "of": "d83cd3b3",
+      "at": [
+        "charlotte-christian:cost.fees[2].value",
+        "charlotte-christian:cost.fees[3].value"
+      ]
+    },
+    {
+      "t": "Ritiro in ritardo dopo le 5:01 (MS)",
+      "of": "fab86da2",
+      "at": [
+        "charlotte-christian:cost.fees[3].label"
+      ]
+    },
+    {
+      "t": "Uscita anticipata di mezza giornata",
+      "of": "d32dbe5d",
+      "at": [
+        "charlotte-christian:cost.fees[4].label"
+      ]
+    },
+    {
+      "t": "$25 / giorno",
+      "of": "6945eb59",
+      "at": [
+        "charlotte-christian:cost.fees[4].value"
+      ]
+    },
+    {
+      "t": "Sconto terzo figlio",
+      "of": "3f63b18c",
+      "at": [
+        "charlotte-christian:cost.fees[5].label"
+      ]
+    },
+    {
+      "t": "25% di sconto sulla tariffa più bassa",
+      "of": "04105dce",
+      "at": [
+        "charlotte-christian:cost.fees[5].value"
+      ]
+    },
+    {
+      "t": "Fatturazione mensile in base ai giorni frequentati a settimana (Lower School) o alle ore di presenza (Middle School). Tutte le modifiche devono avvenire per iscritto. Il Bridge Care è una **tariffa mensile forfettaria** — le colonne dei giorni a settimana non la fanno variare.",
+      "of": "96756c84",
+      "at": [
+        "charlotte-christian:cost.fees[6].label"
+      ]
+    },
+    {
+      "t": "Le tariffe sono salite bruscamente tra il 2024-25 e il 2026-27: **+32% a un giorno a settimana, +52% a due, +48% a tre, +37% a quattro e +35% a cinque**. Fai il preventivo in prospettiva anziché sulle cifre più vecchie.",
+      "of": "c46e1d09",
+      "at": [
+        "charlotte-christian:cost.flags[0].text"
+      ]
+    },
+    {
+      "t": "La **regola di addebito automatico delle 3:05 p.m. è costosa**: se manchi il carpool delle 2:40 di 25 minuti, viene addebitato un ingresso libero di $50. Non esiste una fascia di tolleranza tra \"in orario\" e una giornata intera a ingresso libero.",
+      "of": "5d242efc",
+      "at": [
+        "charlotte-christian:cost.flags[1].text"
+      ]
+    },
+    {
+      "t": "Lo sconto per fratelli è modesto — 25% solo per il **terzo** studente, applicato alla più bassa delle tre tariffe. Le famiglie con due figli non ottengono nulla.",
+      "of": "df5048fe",
+      "at": [
+        "charlotte-christian:cost.flags[2].text"
+      ]
+    },
+    {
+      "t": "Il Bridge Care è pubblicato come forfait di $125/month senza una suddivisione per giorni a settimana, quindi le colonne qui sopra ripetono quell'unica cifra pubblicata anziché sottintendere cinque prezzi distinti.",
+      "of": "08e53783",
+      "at": [
+        "charlotte-christian:cost.flags[3].text"
+      ]
+    },
+    {
+      "t": "Charlotte Christian è l'unica scuola qui a pubblicare un vero orario giornaliero scandito nel tempo — e protegge un blocco compiti di 45 minuti in entrambe le divisioni.",
+      "of": "d61626c3",
+      "at": [
+        "charlotte-christian:dayInside.headline"
+      ]
+    },
+    {
+      "t": "Il programma della Middle School è deliberatamente differenziato per coorte, \"tailored to the developmental needs of our two distinct cohorts — grades 5 and 6, and grades 7 and 8.\"",
+      "of": "cf380044",
+      "at": [
+        "charlotte-christian:dayInside.subhead"
+      ]
+    },
+    {
+      "t": "Il pomeriggio della Lower School, così come pubblicato",
+      "of": "0ebaa371",
+      "at": [
+        "charlotte-christian:dayInside.rhythmTitle"
+      ]
+    },
+    {
+      "t": "2:40–3:00",
+      "of": "9ad70a37",
+      "at": [
+        "charlotte-christian:dayInside.rhythm[0].time"
+      ]
+    },
+    {
+      "t": "Appello, merenda, gioco",
+      "of": "5a2e7b7a",
+      "at": [
+        "charlotte-christian:dayInside.rhythm[0].name"
+      ]
+    },
+    {
+      "t": "Registrazione e decompressione — le famiglie mandano la propria merenda",
+      "of": "25e2094b",
+      "at": [
+        "charlotte-christian:dayInside.rhythm[0].detail"
+      ]
+    },
+    {
+      "t": "3:00–3:45",
+      "of": "8d40057f",
+      "at": [
+        "charlotte-christian:dayInside.rhythm[1].time"
+      ]
+    },
+    {
+      "t": "All'aperto o attività",
+      "of": "840be962",
+      "at": [
+        "charlotte-christian:dayInside.rhythm[1].name"
+      ]
+    },
+    {
+      "t": "Gioco all'aperto o un'attività extracurricolare",
+      "of": "0e282ff8",
+      "at": [
+        "charlotte-christian:dayInside.rhythm[1].detail"
+      ]
+    },
+    {
+      "t": "3:45–4:30",
+      "of": "d220ee59",
+      "at": [
+        "charlotte-christian:dayInside.rhythm[2].time"
+      ]
+    },
+    {
+      "t": "Compiti e lettura",
+      "of": "1e031cad",
+      "at": [
+        "charlotte-christian:dayInside.rhythm[2].name"
+      ]
+    },
+    {
+      "t": "Un blocco di lavoro protetto di 45 minuti",
+      "of": "24cc6da4",
+      "at": [
+        "charlotte-christian:dayInside.rhythm[2].detail"
+      ]
+    },
+    {
+      "t": "4:30–6:00",
+      "of": "6f35a095",
+      "at": [
+        "charlotte-christian:dayInside.rhythm[3].time"
+      ]
+    },
+    {
+      "t": "Rilassamento",
+      "of": "1ea72266",
+      "at": [
+        "charlotte-christian:dayInside.rhythm[3].name"
+      ]
+    },
+    {
+      "t": "Lettura ricreativa, gioco libero, lavoretti e giornate speciali di cinema",
+      "of": "cd810803",
+      "at": [
+        "charlotte-christian:dayInside.rhythm[3].detail"
+      ]
+    },
+    {
+      "t": "intellettuale",
+      "of": "2d1c89b7",
+      "at": [
+        "charlotte-christian:dayInside.words[0]"
+      ]
+    },
+    {
+      "t": "spirituale",
+      "of": "9eee47fa",
+      "at": [
+        "charlotte-christian:dayInside.words[1]"
+      ]
+    },
+    {
+      "t": "sociale",
+      "of": "b2ecd6d2",
+      "at": [
+        "charlotte-christian:dayInside.words[2]"
+      ]
+    },
+    {
+      "t": "sviluppo fisico",
+      "of": "96966171",
+      "at": [
+        "charlotte-christian:dayInside.words[3]"
+      ]
+    },
+    {
+      "t": "attività organizzate",
+      "of": "6b1143c9",
+      "at": [
+        "charlotte-christian:dayInside.words[4]"
+      ]
+    },
+    {
+      "t": "tempo libero sorvegliato",
+      "of": "ee12de3c",
+      "at": [
+        "charlotte-christian:dayInside.words[5]"
+      ]
+    },
+    {
+      "t": "\"Through organized activities and supervised free time, the Extended Day program is designed to enrich the intellectual, spiritual, social, and physical development of students.\" La Middle School segue lo stesso schema su tempi compressi — appello e merenda 3:00–3:30, attività 3:30–4:00, compiti e lettura 4:00–4:30, poi gioco libero fino alle 5:00. **La merenda non è fornita in nessuno dei due programmi**: \"Please send your student with a snack and water bottle.\" L'autorizzazione al ritiro è esplicita e fatta rispettare — \"We will not release your child to anyone other than the parents or those authorized,\" con verifiche del documento all'inizio dell'anno.",
+      "of": "c290fbe8",
+      "at": [
+        "charlotte-christian:dayInside.wordsText"
+      ]
+    },
+    {
+      "t": "Il catalogo dei club doposcuola è **deliberatamente privato**: descrizioni e iscrizioni vengono diffuse solo tramite l'email settimanale *Focus* dei genitori. La scuola elenca i club — arte, coding, flag football, lacrosse, corsa, calcio e STEM nella Lower School; mountain bike, lotta, scacchi, baseball, cheer ed esports nella Middle School; più il basket Junior Knights e il cheerleading intramurale — ma non pubblica per nessuno di essi **né giorno, né fascia di grado, né tariffa**.",
+      "of": "0880e987",
+      "at": [
+        "charlotte-christian:dayInside.flags[0].text"
+      ]
+    },
+    {
+      "t": "I club si svolgono in un \"eight-week stretch of both semesters for an additional fee\" — due sessioni l'anno, tariffate separatamente dall'Extended Day. L'importo di quella tariffa non è mai indicato.",
+      "of": "2673dc51",
+      "at": [
+        "charlotte-christian:dayInside.flags[1].text"
+      ]
+    },
+    {
+      "t": "Non è pubblicato alcun rapporto personale-studenti né alcuna capienza del programma per nessuna delle due divisioni, ed entrambi gli orari pubblicati sono formulati con la riserva \"subject to change as needed\".",
+      "of": "cf5ce407",
+      "at": [
+        "charlotte-christian:dayInside.flags[2].text"
+      ]
+    },
+    {
+      "t": "Il programma più trasparente sul piano operativo qui presente — un orario pubblicato, un blocco compiti protetto e una fascia Bridge Care davvero ingegnosa — costruito attorno a tariffe che sono cresciute molto in fretta.",
+      "of": "b656e236",
+      "at": [
+        "charlotte-christian:verdict.headline"
+      ]
+    },
+    {
+      "t": "I due punti critici sono i divari di orario 5:00/6:00 tra le divisioni e un catalogo dei club che non puoi vedere finché non sei già un genitore.",
+      "of": "03575527",
+      "at": [
+        "charlotte-christian:verdict.subhead"
+      ]
+    },
+    {
+      "t": "**Un ritmo giornaliero pubblicato e strutturato** per entrambe le divisioni, con un blocco protetto di 45 minuti per compiti e lettura. Nessun'altra scuola di questo gruppo pubblica affatto il proprio orario.",
+      "of": "1a4b1063",
+      "at": [
+        "charlotte-christian:verdict.strengths[0]"
+      ]
+    },
+    {
+      "t": "**Il Bridge Care è una vera innovazione di costo** — $125/month per colmare il tratto dalla campanella delle JK-K delle 2:20 fino a quella delle grades 1–4, invece di costringere una famiglia a un piano completo da $325.",
+      "of": "567eca7a",
+      "at": [
+        "charlotte-christian:verdict.strengths[1]"
+      ]
+    },
+    {
+      "t": "**La Middle School è a consumo a $8/hour con iscrizione automatica** — nessun impegno, nessun modulo, nessun minimo. Per chi la usa occasionalmente è molto più conveniente di una fascia mensile.",
+      "of": "6c7045cd",
+      "at": [
+        "charlotte-christian:verdict.strengths[2]"
+      ]
+    },
+    {
+      "t": "**Il programma della MS è differenziato per coorte** tra grades 5–6 e 7–8 — una vera attenzione allo sviluppo, dato che mettere ottavi e quinti in una sola stanza è un comune punto debole.",
+      "of": "1fe23ae5",
+      "at": [
+        "charlotte-christian:verdict.strengths[3]"
+      ]
+    },
+    {
+      "t": "**La copertura fino alle 6:00 p.m. per le JK–4** è tra gli orari di chiusura più tardivi di questo mercato, ed è un limite netto e chiaramente dichiarato.",
+      "of": "ba70ec59",
+      "at": [
+        "charlotte-christian:verdict.strengths[4]"
+      ]
+    },
+    {
+      "t": "**Autorizzazione al ritiro esplicita e fatta rispettare**, con verifiche del documento all'inizio dell'anno.",
+      "of": "32d497f3",
+      "at": [
+        "charlotte-christian:verdict.strengths[5]"
+      ]
+    },
+    {
+      "t": "**Un'ampia offerta estiva** — circa 100 camp distinti in sei settimane, JK–12, incluso un intervento di alfabetizzazione Orton-Gillingham.",
+      "of": "0d3dc91a",
+      "at": [
+        "charlotte-christian:verdict.strengths[6]"
+      ]
+    },
+    {
+      "t": "**Le tariffe sono balzate del 32–52% in due anni**, con i rincari più marcati sulle fasce di metà settimana. Non fare il preventivo sulle cifre più vecchie.",
+      "of": "005102bb",
+      "at": [
+        "charlotte-christian:verdict.watchouts[0]"
+      ]
+    },
+    {
+      "t": "**La regola di addebito automatico delle 3:05 p.m. è punitiva** — 25 minuti di ritardo rispetto alla campanella delle 2:40 costano un ingresso libero di $50, senza alcuna fascia di tolleranza.",
+      "of": "57616f7f",
+      "at": [
+        "charlotte-christian:verdict.watchouts[1]"
+      ]
+    },
+    {
+      "t": "**La Middle School finisce alle 5:00 p.m., un'ora intera prima della Lower School.** Una famiglia con un figlio in terza e uno in sesta deve gestire due diversi orari perentori, e la tariffa di ritardo della MS scatta alle 5:01.",
+      "of": "dda08871",
+      "at": [
+        "charlotte-christian:verdict.watchouts[2]"
+      ]
+    },
+    {
+      "t": "**Nessuna assistenza doposcuola per l'Upper School** — le grades 9–12 escono alle 3:20 con sport, arti o nulla.",
+      "of": "0ed24b4a",
+      "at": [
+        "charlotte-christian:verdict.watchouts[3]"
+      ]
+    },
+    {
+      "t": "**La merenda non è fornita** in nessuno dei due programmi, a differenza della maggior parte dei concorrenti qui.",
+      "of": "301cbe79",
+      "at": [
+        "charlotte-christian:verdict.watchouts[4]"
+      ]
+    },
+    {
+      "t": "**Lo sconto per fratelli è modesto** — solo il terzo figlio, sulla tariffa più bassa. Le famiglie con due figli non ottengono nulla.",
+      "of": "3d7afda3",
+      "at": [
+        "charlotte-christian:verdict.watchouts[5]"
+      ]
+    },
+    {
+      "t": "**Le tariffe dei club sono invisibili prima dell'iscrizione.** Non puoi calcolare il costo delle sessioni di club di 8 settimane senza ricevere già l'email Focus dei genitori.",
+      "of": "8b264581",
+      "at": [
+        "charlotte-christian:verdict.watchouts[6]"
+      ]
+    },
+    {
+      "t": "**Le mezze giornate costano $25 in più**, quindi la cifra mensile è un minimo più che un massimo — e non è pubblicata affatto alcuna assistenza per i giorni di lavoro dei docenti o le vacanze.",
+      "of": "3b3b8aee",
+      "at": [
+        "charlotte-christian:verdict.watchouts[7]"
+      ]
+    },
+    {
+      "t": "Quanto costano effettivamente i club doposcuola di 8 settimane, e posso vedere il catalogo attuale con i giorni della settimana e le fasce di grado?",
+      "of": "d75064a6",
+      "at": [
+        "charlotte-christian:verdict.checklist[0]"
+      ]
+    },
+    {
+      "t": "Esiste una qualsiasi assistenza nei giorni di lavoro dei docenti e durante le vacanze, o devo prevedere vuoti totali di copertura?",
+      "of": "c2ad1b15",
+      "at": [
+        "charlotte-christian:verdict.checklist[1]"
+      ]
+    },
+    {
+      "t": "Qual è il rapporto personale-studenti nell'Extended Day, e il personale è composto da insegnanti di Charlotte Christian o da assunzioni esterne?",
+      "of": "e8490be2",
+      "at": [
+        "charlotte-christian:verdict.checklist[2]"
+      ]
+    },
+    {
+      "t": "Qual è la capienza effettiva dell'Extended Day — c'è mai una lista d'attesa?",
+      "of": "e9d0690f",
+      "at": [
+        "charlotte-christian:verdict.checklist[3]"
+      ]
+    },
+    {
+      "t": "La regola di ingresso libero automatico delle 3:05 è fatta rispettare in modo rigido, ed esiste un periodo di tolleranza?",
+      "of": "73659c8c",
+      "at": [
+        "charlotte-christian:verdict.checklist[4]"
+      ]
+    },
+    {
+      "t": "Posso cambiare fascia a metà anno, ed è previsto un calcolo in proporzione quando lo facciamo?",
+      "of": "2bd47a52",
+      "at": [
+        "charlotte-christian:verdict.checklist[5]"
+      ]
+    },
+    {
+      "t": "Esiste una qualsiasi assistenza prima della scuola oltre all'accesso gratuito al campus dalle 7:15 a.m.?",
+      "of": "fb4fdb60",
+      "at": [
+        "charlotte-christian:verdict.checklist[6]"
+      ]
+    },
+    {
+      "t": "Quanti compiti si finiscono effettivamente nel blocco di 45 minuti — c'è un aiuto attivo, o è solo sorveglianza?",
+      "of": "9ed96f62",
+      "at": [
+        "charlotte-christian:verdict.checklist[7]"
+      ]
+    },
+    {
+      "t": "Per la Middle School: come sono separate fisicamente le coorti 5–6 e 7–8, e cosa succede tra le 5:00 p.m. e un ritiro più tardivo?",
+      "of": "2da88f19",
+      "at": [
+        "charlotte-christian:verdict.checklist[8]"
+      ]
+    },
+    {
+      "t": "L'Extended Day funziona automaticamente nei giorni di uscita anticipata, o dobbiamo aderire pagando i $25?",
+      "of": "852e74c6",
+      "at": [
+        "charlotte-christian:verdict.checklist[9]"
+      ]
+    },
+    {
+      "t": "L'Extended Day copre dalla JK alla grade 8 fino alle 6:00 p.m., con cinque distinte fasce di ritiro — la scala di copertura più dettagliata di qualsiasi scuola qui presente.",
+      "of": "fe900985",
+      "at": [
+        "charlotte-country-day:coverage.headline"
+      ]
+    },
+    {
+      "t": "L'Upper School non ha alcun Extended Day, e non è pubblicata alcuna assistenza prima della scuola per l'anno scolastico. L'uscita insolitamente anticipata della JK alle 1:15 p.m. è sostenuta da una propria fascia delle 2:00 p.m.",
+      "of": "aa8cae77",
+      "at": [
+        "charlotte-country-day:coverage.subhead"
+      ]
+    },
+    {
+      "t": "I prezzi sulle barre sono la **tariffa mensile a tempo pieno — 5 giorni a settimana**, il caso più comune. Country Day stipula contratti da 1 a 5 giorni a settimana, e i conteggi con meno giorni costano sensibilmente meno; apri **The Cost Planner** qui sotto per calcolare una qualsiasi delle 13 combinazioni pubblicate.",
+      "of": "d974574f",
+      "at": [
+        "charlotte-country-day:coverage.basisNote"
+      ]
+    },
+    {
+      "t": "uscita 1:15",
+      "of": "2033897f",
+      "at": [
+        "charlotte-country-day:coverage.rows[0].dismissal"
+      ]
+    },
+    {
+      "t": "uscita 2:50–3:05",
+      "of": "359ecf62",
+      "at": [
+        "charlotte-country-day:coverage.rows[2].dismissal"
+      ]
+    },
+    {
+      "t": "uscita 3:15",
+      "of": "10af78c9",
+      "at": [
+        "charlotte-country-day:coverage.rows[4].dismissal"
+      ]
+    },
+    {
+      "t": "Nessun Extended Day — solo lo slot di enrichment 3:45–4:45",
+      "of": "43b685ce",
+      "at": [
+        "charlotte-country-day:coverage.rows[4].flatLabel"
+      ]
+    },
+    {
+      "t": "**Country Day Summer Programs** — dai 4 ai 18 anni, oltre 150 camp, dall'8 giugno al 24 luglio 2026. Assistenza pre-camp 7:30–9:00 a.m. a $105/wk; assistenza pomeridiana $85/wk. Esiste una **domanda separata di aiuto finanziario per l'estate**.",
+      "of": "b44e19ce",
+      "at": [
+        "charlotte-country-day:coverage.summer.text"
+      ]
+    },
+    {
+      "t": "Anno del programma",
+      "of": "692b3a80",
+      "at": [
+        "charlotte-country-day:coverage.facts[0].label"
+      ]
+    },
+    {
+      "t": "19 agosto 2026 – 25 maggio 2027",
+      "of": "1e6dc4e6",
+      "at": [
+        "charlotte-country-day:coverage.facts[0].text"
+      ]
+    },
+    {
+      "t": "Ingresso libero",
+      "of": "966da620",
+      "at": [
+        "charlotte-country-day:coverage.facts[1].label"
+      ]
+    },
+    {
+      "t": "$19/hour con un minimo di un'ora — un'opzione reale, ma richiede un **preavviso di 24 ore**",
+      "of": "d46bc0b5",
+      "at": [
+        "charlotte-country-day:coverage.facts[1].text"
+      ]
+    },
+    {
+      "t": "$10 per intervallo di 10 minuti dopo le 6:00 p.m.",
+      "of": "e5271769",
+      "at": [
+        "charlotte-country-day:coverage.facts[2].text"
+      ]
+    },
+    {
+      "t": "Giorni di colloqui e formazione dei docenti",
+      "of": "649bbc7b",
+      "at": [
+        "charlotte-country-day:coverage.facts[3].label"
+      ]
+    },
+    {
+      "t": "il programma funziona a giornata intera \"at a separate cost\" — l'importo non è mai indicato",
+      "of": "89d96428",
+      "at": [
+        "charlotte-country-day:coverage.facts[3].text"
+      ]
+    },
+    {
+      "t": "Non è pubblicata alcuna assistenza prima della scuola per l'anno scolastico, nonostante l'inizio alle 8:00 a.m. in tutte le divisioni. L'assistenza mattutina esiste solo per i summer camp.",
+      "of": "8f0772d4",
+      "at": [
+        "charlotte-country-day:coverage.flags[0].text"
+      ]
+    },
+    {
+      "t": "La copertura per le festività scolastiche e le vacanze non è pubblicata affatto, e la tariffa a giornata intera dei giorni di colloqui è descritta solo come \"a separate cost\".",
+      "of": "0c9f32b9",
+      "at": [
+        "charlotte-country-day:coverage.flags[1].text"
+      ]
+    },
+    {
+      "t": "Le iscrizioni per il 2026-27 si sono chiuse il **5 giugno 2026**. Una famiglia che si iscrive ora potrebbe essere indirizzata all'ingresso libero a $19/hour o a una lista d'attesa; la disponibilità dopo la scadenza non è pubblicata.",
+      "of": "5146c505",
+      "at": [
+        "charlotte-country-day:coverage.flags[2].text"
+      ]
+    },
+    {
+      "t": "Tredici righe pubblicate su cinque orari di ritiro e cinque conteggi di giorni — una famiglia paga quasi solo ciò che effettivamente usa.",
+      "of": "ff075625",
+      "at": [
+        "charlotte-country-day:cost.headline"
+      ]
+    },
+    {
+      "t": "Ogni cella qui sotto è pubblicata sul web aperto, senza alcun \"call for pricing\". Nota l'intervallo: lo stesso bambino costa $60/month nella fascia più economica e $900/month in quella più completa.",
+      "of": "e91f97ba",
+      "at": [
+        "charlotte-country-day:cost.subhead"
+      ]
+    },
+    {
+      "t": "JK · fino alle 2:00",
+      "of": "9be7e1ec",
+      "at": [
+        "charlotte-country-day:cost.rows[0].label"
+      ]
+    },
+    {
+      "t": "Junior Kindergarten · fino alle 2:00 pm",
+      "of": "69cb7a99",
+      "at": [
+        "charlotte-country-day:cost.rows[0].panelLabel"
+      ]
+    },
+    {
+      "t": "JK · fino alle 3:00",
+      "of": "9cbc3879",
+      "at": [
+        "charlotte-country-day:cost.rows[1].label"
+      ]
+    },
+    {
+      "t": "Junior Kindergarten · fino alle 3:00 pm",
+      "of": "1c2f5762",
+      "at": [
+        "charlotte-country-day:cost.rows[1].panelLabel"
+      ]
+    },
+    {
+      "t": "JK · fino alle 3:30",
+      "of": "22bf4a02",
+      "at": [
+        "charlotte-country-day:cost.rows[2].label"
+      ]
+    },
+    {
+      "t": "Junior Kindergarten · fino alle 3:30 pm",
+      "of": "899a843f",
+      "at": [
+        "charlotte-country-day:cost.rows[2].panelLabel"
+      ]
+    },
+    {
+      "t": "JK · fino alle 4:30",
+      "of": "bd69d061",
+      "at": [
+        "charlotte-country-day:cost.rows[3].label"
+      ]
+    },
+    {
+      "t": "Junior Kindergarten · fino alle 4:30 pm",
+      "of": "4c61f1b2",
+      "at": [
+        "charlotte-country-day:cost.rows[3].panelLabel"
+      ]
+    },
+    {
+      "t": "JK · fino alle 6:00",
+      "of": "5f735a10",
+      "at": [
+        "charlotte-country-day:cost.rows[4].label"
+      ]
+    },
+    {
+      "t": "Junior Kindergarten · fino alle 6:00 pm",
+      "of": "d27ef53d",
+      "at": [
+        "charlotte-country-day:cost.rows[4].panelLabel"
+      ]
+    },
+    {
+      "t": "K · fino alle 3:00",
+      "of": "562ec521",
+      "at": [
+        "charlotte-country-day:cost.rows[5].label"
+      ]
+    },
+    {
+      "t": "Kindergarten · fino alle 3:00 pm",
+      "of": "a1d4ccb5",
+      "at": [
+        "charlotte-country-day:cost.rows[5].panelLabel"
+      ]
+    },
+    {
+      "t": "K · fino alle 3:30",
+      "of": "5c310d2a",
+      "at": [
+        "charlotte-country-day:cost.rows[6].label"
+      ]
+    },
+    {
+      "t": "Kindergarten · fino alle 3:30 pm",
+      "of": "9f552c6c",
+      "at": [
+        "charlotte-country-day:cost.rows[6].panelLabel"
+      ]
+    },
+    {
+      "t": "K · fino alle 4:30",
+      "of": "e332d349",
+      "at": [
+        "charlotte-country-day:cost.rows[7].label"
+      ]
+    },
+    {
+      "t": "Kindergarten · fino alle 4:30 pm",
+      "of": "cdcc010d",
+      "at": [
+        "charlotte-country-day:cost.rows[7].panelLabel"
+      ]
+    },
+    {
+      "t": "K · fino alle 6:00",
+      "of": "98e51d38",
+      "at": [
+        "charlotte-country-day:cost.rows[8].label"
+      ]
+    },
+    {
+      "t": "Kindergarten · fino alle 6:00 pm",
+      "of": "c1fca87a",
+      "at": [
+        "charlotte-country-day:cost.rows[8].panelLabel"
+      ]
+    },
+    {
+      "t": "Gr 1–4 · fino alle 4:30",
+      "of": "a21ab8d7",
+      "at": [
+        "charlotte-country-day:cost.rows[9].label"
+      ]
+    },
+    {
+      "t": "Grades 1–4 · fino alle 4:30 pm",
+      "of": "fba889e1",
+      "at": [
+        "charlotte-country-day:cost.rows[9].panelLabel"
+      ]
+    },
+    {
+      "t": "Gr 1–4 · fino alle 6:00",
+      "of": "050206a6",
+      "at": [
+        "charlotte-country-day:cost.rows[10].label"
+      ]
+    },
+    {
+      "t": "Grades 1–4 · fino alle 6:00 pm",
+      "of": "8e7e852e",
+      "at": [
+        "charlotte-country-day:cost.rows[10].panelLabel"
+      ]
+    },
+    {
+      "t": "MS · fino alle 4:30",
+      "of": "713b7eda",
+      "at": [
+        "charlotte-country-day:cost.rows[11].label"
+      ]
+    },
+    {
+      "t": "Middle School · fino alle 4:30 pm",
+      "of": "cf1beeea",
+      "at": [
+        "charlotte-country-day:cost.rows[11].panelLabel"
+      ]
+    },
+    {
+      "t": "MS · fino alle 6:00",
+      "of": "c3b436d3",
+      "at": [
+        "charlotte-country-day:cost.rows[12].label"
+      ]
+    },
+    {
+      "t": "Middle School · fino alle 6:00 pm",
+      "of": "5c722c95",
+      "at": [
+        "charlotte-country-day:cost.rows[12].panelLabel"
+      ]
+    },
+    {
+      "t": "Ti serve solo occasionalmente?",
+      "of": "a8f7dd4e",
+      "at": [
+        "charlotte-country-day:cost.aside.title"
+      ]
+    },
+    {
+      "t": "L'ingresso libero è **$19/hour** con un minimo di un'ora e una quota di iscrizione una tantum di **$40**, separata dalla quota di contratto di $80. Richiede un preavviso di 24 ore.",
+      "of": "062d94d0",
+      "at": [
+        "charlotte-country-day:cost.aside.text"
+      ]
+    },
+    {
+      "t": "Iscrizione a contratto",
+      "of": "b6584fbc",
+      "at": [
+        "charlotte-country-day:cost.fees[0].label"
+      ]
+    },
+    {
+      "t": "$80",
+      "of": "4b898cb3",
+      "at": [
+        "charlotte-country-day:cost.fees[0].value"
+      ]
+    },
+    {
+      "t": "Iscrizione all'ingresso libero (una tantum)",
+      "of": "cfb108fe",
+      "at": [
+        "charlotte-country-day:cost.fees[1].label"
+      ]
+    },
+    {
+      "t": "$40",
+      "of": "d37fd56f",
+      "at": [
+        "charlotte-country-day:cost.fees[1].value"
+      ]
+    },
+    {
+      "t": "Assistenza a ingresso libero",
+      "of": "b76acf11",
+      "at": [
+        "charlotte-country-day:cost.fees[2].label",
+        "cannon:cost.fees[2].label"
+      ]
+    },
+    {
+      "t": "$19 / hr",
+      "of": "1877c106",
+      "at": [
+        "charlotte-country-day:cost.fees[2].value"
+      ]
+    },
+    {
+      "t": "$10 / 10 min",
+      "of": "9831a5ec",
+      "at": [
+        "charlotte-country-day:cost.fees[3].value"
+      ]
+    },
+    {
+      "t": "Modifica del contratto (oltre la prima)",
+      "of": "4f0a02e6",
+      "at": [
+        "charlotte-country-day:cost.fees[4].label"
+      ]
+    },
+    {
+      "t": "$50",
+      "of": "4d7cc3e6",
+      "at": [
+        "charlotte-country-day:cost.fees[4].value"
+      ]
+    },
+    {
+      "t": "Fatturato mensilmente dal Business Office come addebito accessorio. I contratti vanno da 1 a 5 giorni a settimana. **Una modifica del contratto a semestre**, e nessuna modifica ad agosto o dicembre.",
+      "of": "6ef4972f",
+      "at": [
+        "charlotte-country-day:cost.fees[5].label"
+      ]
+    },
+    {
+      "t": "La riga Kindergarten delle 6:00 p.m. è l'unica con valori non tondi — $208, $489, $615 — mentre ogni altra riga usa numeri tondi. Vale la pena confermare che non sia un refuso.",
+      "of": "92c97d86",
+      "at": [
+        "charlotte-country-day:cost.flags[0].text"
+      ]
+    },
+    {
+      "t": "Non è pubblicato alcuno sconto per fratelli sull'Extended Day, e non esiste alcuna politica di aiuto finanziario per l'Extended Day: è fatturato come **addebito accessorio**, il che lo colloca al di fuori del perimetro dell'assistenza alla retta anche se circa il 30% degli studenti riceve un aiuto sulla retta. I programmi estivi, al contrario, hanno una propria domanda di aiuto.",
+      "of": "aa40748a",
+      "at": [
+        "charlotte-country-day:cost.flags[1].text"
+      ]
+    },
+    {
+      "t": "La rigidità del contratto è reale: una modifica a semestre, $50 per ogni modifica aggiuntiva, e **nessuna modifica consentita ad agosto o dicembre** — i due mesi in cui una famiglia più facilmente scopre che il proprio orario era sbagliato.",
+      "of": "0e5b874e",
+      "at": [
+        "charlotte-country-day:cost.flags[2].text"
+      ]
+    },
+    {
+      "t": "L'Extended Day è impostato attorno alle famiglie che lavorano — \"more than 50 percent of our two-parent families are dual income,\" e il programma è costruito di conseguenza.",
+      "of": "85d2b10e",
+      "at": [
+        "charlotte-country-day:dayInside.headline"
+      ]
+    },
+    {
+      "t": "La scuola pubblica le componenti del pomeriggio ma non le mette mai in sequenza con orari precisi. Ciò che pubblica con precisione è la struttura dell'enrichment: il corso di ciascuna divisione inizia esattamente alla propria campanella di uscita.",
+      "of": "97aeddbc",
+      "at": [
+        "charlotte-country-day:dayInside.subhead"
+      ]
+    },
+    {
+      "t": "L'enrichment inizia alla campanella — slot e rapporti numerici pubblicati",
+      "of": "9175cad0",
+      "at": [
+        "charlotte-country-day:dayInside.rhythmTitle"
+      ]
+    },
+    {
+      "t": "1:15–1:45",
+      "of": "cd607655",
+      "at": [
+        "charlotte-country-day:dayInside.rhythm[0].time"
+      ]
+    },
+    {
+      "t": "Junior Kindergarten",
+      "of": "5ee6535c",
+      "at": [
+        "charlotte-country-day:dayInside.rhythm[0].name"
+      ]
+    },
+    {
+      "t": "30 minuti con un rapporto di 10:1, a partire dall'istante in cui la JK esce",
+      "of": "8d3fe13a",
+      "at": [
+        "charlotte-country-day:dayInside.rhythm[0].detail"
+      ]
+    },
+    {
+      "t": "2:00–2:40",
+      "of": "8b261bca",
+      "at": [
+        "charlotte-country-day:dayInside.rhythm[1].time"
+      ]
+    },
+    {
+      "t": "Kindergarten",
+      "of": "68541d89",
+      "at": [
+        "charlotte-country-day:dayInside.rhythm[1].name"
+      ]
+    },
+    {
+      "t": "40 minuti con un rapporto di 12:1",
+      "of": "e623640f",
+      "at": [
+        "charlotte-country-day:dayInside.rhythm[1].detail"
+      ]
+    },
+    {
+      "t": "3:05–4:05",
+      "of": "d3c785d5",
+      "at": [
+        "charlotte-country-day:dayInside.rhythm[2].time"
+      ]
+    },
+    {
+      "t": "Classi 1–4",
+      "of": "c3d4535d",
+      "at": [
+        "charlotte-country-day:dayInside.rhythm[2].name"
+      ]
+    },
+    {
+      "t": "Un'ora intera con un rapporto di 15:1",
+      "of": "1abc4437",
+      "at": [
+        "charlotte-country-day:dayInside.rhythm[2].detail"
+      ]
+    },
+    {
+      "t": "3:20–4:20",
+      "of": "ace63bef",
+      "at": [
+        "charlotte-country-day:dayInside.rhythm[3].time"
+      ]
+    },
+    {
+      "t": "Classi 5–8",
+      "of": "0bea3f5d",
+      "at": [
+        "charlotte-country-day:dayInside.rhythm[3].name"
+      ]
+    },
+    {
+      "t": "Un'ora intera con un rapporto di 17:1; le grades 9–12 vanno 3:45–4:45 a 20:1",
+      "of": "01d94aaa",
+      "at": [
+        "charlotte-country-day:dayInside.rhythm[3].detail"
+      ]
+    },
+    {
+      "t": "tempo per i compiti",
+      "of": "a3f22180",
+      "at": [
+        "charlotte-country-day:dayInside.words[0]"
+      ]
+    },
+    {
+      "t": "gioco all'aperto",
+      "of": "ce659f13",
+      "at": [
+        "charlotte-country-day:dayInside.words[1]"
+      ]
+    },
+    {
+      "t": "giochi",
+      "of": "ce3e2b9c",
+      "at": [
+        "charlotte-country-day:dayInside.words[2]"
+      ]
+    },
+    {
+      "t": "arricchimento",
+      "of": "ba3a873c",
+      "at": [
+        "charlotte-country-day:dayInside.words[3]"
+      ]
+    },
+    {
+      "t": "una merenda sana",
+      "of": "70259bd7",
+      "at": [
+        "charlotte-country-day:dayInside.words[4]"
+      ]
+    },
+    {
+      "t": "accogliente e strutturato",
+      "of": "eeae6879",
+      "at": [
+        "charlotte-country-day:dayInside.words[5]"
+      ]
+    },
+    {
+      "t": "\"Our Extended Day program provides a warm, structured environment for students from JK through grade 8. Whether attending daily or dropping in occasionally, students enjoy a mix of homework time, outdoor play, games, enrichment, and a healthy snack.\" La presentazione stessa della scuola lo descrive come \"a home away from home filled with connection, creativity, and exploration\", e cita attività concrete — arte collaborativa, giochi da tavolo, costruzioni Lego e tempo nel parco giochi con **Peaches, the school dog**. Gli studenti dell'Upper School, che non hanno un proprio Extended Day, compaiono nel programma come aiutanti tra i gradi.",
+      "of": "76226130",
+      "at": [
+        "charlotte-country-day:dayInside.wordsText"
+      ]
+    },
+    {
+      "t": "Il catalogo dell'enrichment è invisibile alle famiglie interessate. La scuola pubblicizza \"more than 25 after-school enrichment classes\" — musica, arte, scienza, scacchi, karate, cheerleading, hockey su prato, baseball, pallavolo, preparazione SAT/ACT, coding, teatro, robotica — ma l'elenco dei corsi risiede dietro il portale UltraCamp, che al momento della verifica ha restituito **zero risultati**. Nessuna pagina pubblica riporta i nomi con giorni, gradi e tariffe.",
+      "of": "a6a27f22",
+      "at": [
+        "charlotte-country-day:dayInside.flags[0].text"
+      ]
+    },
+    {
+      "t": "I prezzi pubblicati delle sessioni di enrichment sono **$260 per una sessione completa di 7 settimane** (circa $37/lezione) e **$225 per una mini di 3 settimane** (circa $75/lezione), su quattro cicli l'anno — Fall, Mini-Winter, Winter e Mini-Spring.",
+      "of": "c3b153c7",
+      "at": [
+        "charlotte-country-day:dayInside.flags[1].text"
+      ]
+    },
+    {
+      "t": "La scuola pubblica due rapporti numerici in contrasto tra loro: l'hub dell'enrichment indica un **massimo di 12:1**, mentre la tabella per grado qui sopra va da 10:1 fino a **20:1**. Entrambi provengono dalla scuola.",
+      "of": "071f0728",
+      "at": [
+        "charlotte-country-day:dayInside.flags[2].text"
+      ]
+    },
+    {
+      "t": "Non è pubblicato alcun orario giornaliero ora per ora, non è indicato alcun rapporto personale-bambini dell'Extended Day, e la Middle School non è descritta come un programma distinto — le grades 5–8 rientrano sotto lo stesso ombrello JK–8.",
+      "of": "2b6a63bc",
+      "at": [
+        "charlotte-country-day:dayInside.flags[3].text"
+      ]
+    },
+    {
+      "t": "Il programma doposcuola più flessibile e con la tariffazione più trasparente di questo gruppo — e quello la cui offerta di enrichment non puoi in realtà vedere prima di iscriverti.",
+      "of": "3a4269f7",
+      "at": [
+        "charlotte-country-day:verdict.headline"
+      ]
+    },
+    {
+      "t": "La copertura si interrompe nettamente alla grade 8, la curva dei costi è ripida in cima, e l'Extended Day sembra collocarsi al di fuori dell'aiuto finanziario.",
+      "of": "c4f929c9",
+      "at": [
+        "charlotte-country-day:verdict.subhead"
+      ]
+    },
+    {
+      "t": "**La scala di tariffazione più granulare qui presente** — 13 righe su cinque orari di ritiro e cinque conteggi di giorni. Una famiglia della JK che ha bisogno di copertura fino alle 2:00 p.m. due volte a settimana paga $115/month, non una tariffa forfettaria di assistenza.",
+      "of": "cb4ad6fa",
+      "at": [
+        "charlotte-country-day:verdict.strengths[0]"
+      ]
+    },
+    {
+      "t": "**Un listino completo sul web aperto.** Tariffe di contratto, ingresso libero, ritardo e modifica sono tutte pubblicate — nessun \"call for pricing\".",
+      "of": "8a061d75",
+      "at": [
+        "charlotte-country-day:verdict.strengths[1]"
+      ]
+    },
+    {
+      "t": "**Progettato apposta per i genitori che lavorano**, e la scuola lo dichiara: \"more than 50 percent of our two-parent families are dual income\".",
+      "of": "6a4234c0",
+      "at": [
+        "charlotte-country-day:verdict.strengths[2]"
+      ]
+    },
+    {
+      "t": "**L'enrichment inizia alla campanella di uscita** per ogni divisione, con rapporti numerici per grado pubblicati — nessun vuoto morto tra scuola e attività.",
+      "of": "e070f322",
+      "at": [
+        "charlotte-country-day:verdict.strengths[3]"
+      ]
+    },
+    {
+      "t": "**Quattro cicli di enrichment l'anno**, inclusa una mini di 3 settimane a basso impegno a $225, così un bambino può fare una prova senza un impegno lungo una stagione.",
+      "of": "b9216d3d",
+      "at": [
+        "charlotte-country-day:verdict.strengths[4]"
+      ]
+    },
+    {
+      "t": "**L'ingresso libero è un'opzione reale**, non simbolica — $19/hour con una modesta quota una tantum di $40.",
+      "of": "360c9d03",
+      "at": [
+        "charlotte-country-day:verdict.strengths[5]"
+      ]
+    },
+    {
+      "t": "**Un centro acquatico in sede** con lezioni private e semi-private, aperto al pubblico.",
+      "of": "bef208e9",
+      "at": [
+        "charlotte-country-day:verdict.strengths[6]"
+      ]
+    },
+    {
+      "t": "**La JK è davvero ben servita** — l'uscita anticipata delle 1:15 p.m. è sostenuta da cinque fasce di ritiro e da un corso di 30 minuti adeguato allo sviluppo a 10:1.",
+      "of": "55a705a3",
+      "at": [
+        "charlotte-country-day:verdict.strengths[7]"
+      ]
+    },
+    {
+      "t": "**Nessuna copertura per l'Upper School.** L'Extended Day si ferma alla grade 8; le grades 9–12 hanno uno slot di enrichment e nient'altro.",
+      "of": "18e81e8d",
+      "at": [
+        "charlotte-country-day:verdict.watchouts[0]"
+      ]
+    },
+    {
+      "t": "**Il costo si accumula ripidamente** — la JK fino alle 6:00 p.m. cinque giorni a settimana costa $900/month, circa $8,100 all'anno oltre alla retta di $24,515, ovvero circa un terzo in più rispetto al prezzo di listino.",
+      "of": "f66b9808",
+      "at": [
+        "charlotte-country-day:verdict.watchouts[1]"
+      ]
+    },
+    {
+      "t": "**L'Extended Day sembra collocarsi al di fuori dell'aiuto finanziario.** È fatturato come addebito accessorio senza alcuna politica di aiuto pubblicata, anche se circa il 30% degli studenti riceve assistenza alla retta — e i programmi estivi hanno una propria domanda di aiuto.",
+      "of": "f094f9e1",
+      "at": [
+        "charlotte-country-day:verdict.watchouts[2]"
+      ]
+    },
+    {
+      "t": "**Rigidità del contratto** — una modifica a semestre, $50 per ogni modifica aggiuntiva, e nessuna modifica ad agosto o dicembre.",
+      "of": "59b77a23",
+      "at": [
+        "charlotte-country-day:verdict.watchouts[3]"
+      ]
+    },
+    {
+      "t": "**La scadenza delle iscrizioni per il 2026-27 è già passata** (5 giugno 2026), quindi una famiglia che si iscrive ora potrebbe trovarsi di fronte a tariffe di ingresso libero o a una lista d'attesa.",
+      "of": "c4efd51f",
+      "at": [
+        "charlotte-country-day:verdict.watchouts[4]"
+      ]
+    },
+    {
+      "t": "**Nessun orario giornaliero pubblicato.** Le componenti sono elencate ma mai messe in sequenza, e non esiste un modello di personale per l'aiuto ai compiti.",
+      "of": "c362a48a",
+      "at": [
+        "charlotte-country-day:verdict.watchouts[5]"
+      ]
+    },
+    {
+      "t": "**Il catalogo dell'enrichment è invisibile** alle famiglie interessate — dietro un portale che al momento non mostra nulla.",
+      "of": "57a6075d",
+      "at": [
+        "charlotte-country-day:verdict.watchouts[6]"
+      ]
+    },
+    {
+      "t": "**Tre portali, tre login** — Extended Day su Veracross, enrichment ed estate su UltraCamp, nuoto su Jackrabbit.",
+      "of": "67ff3bdb",
+      "at": [
+        "charlotte-country-day:verdict.watchouts[7]"
+      ]
+    },
+    {
+      "t": "Cosa succede effettivamente tra le 3:15 e le 6:00 p.m., ora per ora? Quanto è supporto ai compiti rispetto al gioco libero?",
+      "of": "9b27bb4d",
+      "at": [
+        "charlotte-country-day:verdict.checklist[0]"
+      ]
+    },
+    {
+      "t": "L'aiuto ai compiti è affidato agli insegnanti, o è solo sorveglianza?",
+      "of": "f00a8c4b",
+      "at": [
+        "charlotte-country-day:verdict.checklist[1]"
+      ]
+    },
+    {
+      "t": "Gli studenti della Middle School hanno una programmazione separata da quella della Lower School? Cosa fa uno studente di ottava alle 5:00 p.m.?",
+      "of": "95ce601e",
+      "at": [
+        "charlotte-country-day:verdict.checklist[2]"
+      ]
+    },
+    {
+      "t": "L'aiuto finanziario si applica mai all'Extended Day? In caso contrario, cosa fanno per il doposcuola le famiglie che ricevono aiuto?",
+      "of": "2c7e48e5",
+      "at": [
+        "charlotte-country-day:verdict.checklist[3]"
+      ]
+    },
+    {
+      "t": "Esiste una qualsiasi opzione prima della scuola o di ingresso anticipato durante l'anno scolastico?",
+      "of": "520f843d",
+      "at": [
+        "charlotte-country-day:verdict.checklist[4]"
+      ]
+    },
+    {
+      "t": "Le iscrizioni si sono chiuse il 5 giugno — quali sono ora le opzioni per il 2026-27?",
+      "of": "f7433180",
+      "at": [
+        "charlotte-country-day:verdict.checklist[5]"
+      ]
+    },
+    {
+      "t": "Qual è il costo separato per l'assistenza a giornata intera nei giorni di colloqui e formazione dei docenti, e quanti sono tali giorni?",
+      "of": "45f1abff",
+      "at": [
+        "charlotte-country-day:verdict.checklist[6]"
+      ]
+    },
+    {
+      "t": "Cosa succede durante le festività scolastiche, i giorni di neve e le vacanze?",
+      "of": "046d71ac",
+      "at": [
+        "charlotte-country-day:verdict.checklist[7]"
+      ]
+    },
+    {
+      "t": "Quale rapporto numerico è quello reale — il 12:1 dell'hub dell'enrichment, o la tabella per grado che arriva a 20:1?",
+      "of": "be0667a3",
+      "at": [
+        "charlotte-country-day:verdict.checklist[8]"
+      ]
+    },
+    {
+      "t": "La riga Kindergarten delle 6:00 p.m. ($208 / $489 / $615) è corretta, o è un refuso? Ogni altra riga ha numeri tondi.",
+      "of": "885e9af2",
+      "at": [
+        "charlotte-country-day:verdict.checklist[9]"
+      ]
+    },
+    {
+      "t": "La merenda è inclusa nella quota mensile, e quali sono i protocolli per le allergie?",
+      "of": "4aefc10c",
+      "at": [
+        "charlotte-country-day:verdict.checklist[10]"
+      ]
+    },
+    {
+      "t": "Esiste un qualche sconto per fratelli?",
+      "of": "953c950b",
+      "at": [
+        "charlotte-country-day:verdict.checklist[11]"
+      ]
+    },
+    {
+      "t": "Posso vedere l'effettivo elenco dei corsi di enrichment autunnali — nomi, giorni e fasce di grado adatte — prima di impegnarmi?",
+      "of": "4def16de",
+      "at": [
+        "charlotte-country-day:verdict.checklist[12]"
+      ]
+    },
+    {
+      "t": "Se mio figlio segue un corso di enrichment fino alle 4:30 p.m., l'Extended Day lo prende in carico dopo, e questo cambia la mia fattura?",
+      "of": "fdf84b4c",
+      "at": [
+        "charlotte-country-day:verdict.checklist[13]"
+      ]
+    },
+    {
+      "t": "Come sono selezionati e sottoposti a controlli dei precedenti i fornitori esterni, e di chi è la responsabilità?",
+      "of": "99c76f23",
+      "at": [
+        "charlotte-country-day:verdict.checklist[14]"
+      ]
+    },
+    {
+      "t": "Qual è il rapporto personale-bambini nell'Extended Day vero e proprio, in contrapposizione ai corsi di enrichment?",
+      "of": "ee772bdf",
+      "at": [
+        "charlotte-country-day:verdict.checklist[15]"
+      ]
+    },
+    {
+      "t": "Un unico programma uniforme copre dalla JrK alla grade 8 dalle 3:00 alle 6:00 p.m. — nessun limite basato sull'età, nessuna separazione tra Lower e Middle School, e una vera opzione a ingresso libero.",
+      "of": "996a58db",
+      "at": [
+        "cannon:coverage.headline"
+      ]
+    },
+    {
+      "t": "L'Upper School non ha nulla. Ogni divisione esce alle 3:00, quindi la questione della copertura qui è semplicemente se un bambino sia in grade 8 o al di sotto.",
+      "of": "1911c3e1",
+      "at": [
+        "cannon:coverage.subhead"
+      ]
+    },
+    {
+      "t": "Il prezzo sulla barra è la **tariffa annuale a tempo pieno — 5 giorni a settimana**, e Cannon pubblica un'unica cifra annuale anziché mensile. 1–4 giorni a settimana vanno da $1,018 a $3,290, oppure si può saltare del tutto il contratto a $11.50 all'ora; apri **The Cost Planner** qui sotto per la scala completa. Queste sono le tariffe 2025-26 — non è pubblicato alcun listino 2026-27.",
+      "of": "6d326961",
+      "at": [
+        "cannon:coverage.basisNote"
+      ]
+    },
+    {
+      "t": "After School Program · 3:00–6:00 · $3,784/yr",
+      "of": "d099ce77",
+      "at": [
+        "cannon:coverage.rows[0].flatLabel"
+      ]
+    },
+    {
+      "t": "Nessun programma doposcuola — l'ASP è solo JrK–8",
+      "of": "cced91e7",
+      "at": [
+        "cannon:coverage.rows[1].flatLabel"
+      ]
+    },
+    {
+      "t": "uscita 11:45",
+      "of": "d1ebfd11",
+      "at": [
+        "cannon:coverage.rows[2].dismissal"
+      ]
+    },
+    {
+      "t": "L'ASP funziona 11:45–4:00 — portare il pranzo al sacco, la mensa è chiusa",
+      "of": "1baf7f48",
+      "at": [
+        "cannon:coverage.rows[2].flatLabel"
+      ]
+    },
+    {
+      "t": "**Camp Cannon** — dai 4 ai 18 anni, dall'8 giugno al 31 luglio 2026, aperto anche alle famiglie esterne a Cannon. Assistenza pre 7:30–9:00 a.m. $50/wk, assistenza post 4:00–5:30 p.m. $60/wk, oppure $90/wk combinati. Infermieri professionali (RN) e un preparatore atletico certificato in sede.",
+      "of": "4faa8191",
+      "at": [
+        "cannon:coverage.summer.text"
+      ]
+    },
+    {
+      "t": "gli studenti sono sorvegliati solo fino alle **3:15 p.m.** — dopo di che vengono mandati all'After School Care e addebitati, che la famiglia abbia aderito o meno",
+      "of": "d2a2d19a",
+      "at": [
+        "cannon:coverage.facts[0].text"
+      ]
+    },
+    {
+      "t": "nessun programma a pagamento — solo arrivo gratuito dalle 7:30 a.m.",
+      "of": "3e084a43",
+      "at": [
+        "cannon:coverage.facts[1].text"
+      ]
+    },
+    {
+      "t": "Modifiche dell'uscita",
+      "of": "f2479bf7",
+      "at": [
+        "cannon:coverage.facts[2].label"
+      ]
+    },
+    {
+      "t": "devono essere inviate tramite Veracross entro le **1:00 p.m.** dello stesso giorno",
+      "of": "feba42d6",
+      "at": [
+        "cannon:coverage.facts[2].text"
+      ]
+    },
+    {
+      "t": "Merenda",
+      "of": "5640d48d",
+      "at": [
+        "cannon:coverage.facts[3].label"
+      ]
+    },
+    {
+      "t": "merende senza frutta a guscio fornite ogni giorno; alcune possono contenere latticini o glutine",
+      "of": "59f179b5",
+      "at": [
+        "cannon:coverage.facts[3].text"
+      ]
+    },
+    {
+      "t": "La copertura nei giorni di lavoro dei docenti e nelle festività non è pubblicata affatto — sono trattati solo i giorni di uscita anticipata.",
+      "of": "ad7ef780",
+      "at": [
+        "cannon:coverage.flags[0].text"
+      ]
+    },
+    {
+      "t": "L'uscita di JrK e Kindergarten non è pubblicata separatamente; entrambe sono raggruppate sotto le 3:00 p.m. della Lower School.",
+      "of": "53ebf0be",
+      "at": [
+        "cannon:coverage.flags[1].text"
+      ]
+    },
+    {
+      "t": "La scuola usa due nomi per un solo programma — **ASP** sulla pagina del programma e **ASC** (After School Care) nel manuale della Middle School — il che suggerisce che la documentazione non sia curata con rigore.",
+      "of": "130341ec",
+      "at": [
+        "cannon:coverage.flags[2].text"
+      ]
+    },
+    {
+      "t": "Cannon tariffa l'After School come un unico contratto annuale in base ai giorni a settimana — con una vera alternativa a ingresso libero a $11.50 all'ora e senza alcun contratto.",
+      "of": "b452c1ad",
+      "at": [
+        "cannon:cost.headline"
+      ]
+    },
+    {
+      "t": "Queste tariffe sono del 2025-26, le più recenti pubblicate, e sopravvivono solo su una pagina di backup orfana — le pagine delle tariffe attive non riportano alcuna cifra in dollari.",
+      "of": "54c0fd77",
+      "at": [
+        "cannon:cost.subhead"
+      ]
+    },
+    {
+      "t": "contratto annuale",
+      "of": "51d8e49c",
+      "at": [
+        "cannon:cost.periodsLabel"
+      ]
+    },
+    {
+      "t": "JrK–Gr 8 · 3:00–6:00",
+      "of": "4b40faa9",
+      "at": [
+        "cannon:cost.rows[0].label"
+      ]
+    },
+    {
+      "t": "JrK–Classe 8 · 3:00–6:00 pm",
+      "of": "4f8f48b8",
+      "at": [
+        "cannon:cost.rows[0].panelLabel"
+      ]
+    },
+    {
+      "t": "Oppure salta del tutto il contratto.",
+      "of": "051c5c6e",
+      "at": [
+        "cannon:cost.aside.title"
+      ]
+    },
+    {
+      "t": "L'ingresso libero è **$11.50 all'ora** senza alcun impegno. Una famiglia che ha bisogno di due pomeriggi al mese paga circa **$100 all'anno** invece di $1,904 — l'opzione per uso occasionale più clemente di questo gruppo.",
+      "of": "a18cbb4d",
+      "at": [
+        "cannon:cost.aside.text"
+      ]
+    },
+    {
+      "t": "Quota di iscrizione se iscritti in anticipo",
+      "of": "d8803443",
+      "at": [
+        "cannon:cost.fees[1].label"
+      ]
+    },
+    {
+      "t": "azzerata",
+      "of": "5d38f547",
+      "at": [
+        "cannon:cost.fees[1].value"
+      ]
+    },
+    {
+      "t": "$11.50 / hr",
+      "of": "d3461ae1",
+      "at": [
+        "cannon:cost.fees[2].value"
+      ]
+    },
+    {
+      "t": "L'iscrizione avviene tramite Veracross. La **tariffa di ritardo di $1/minuto si applica anche alle famiglie a ingresso libero** — 20 minuti di ritardo fanno $20, quasi il doppio della tariffa oraria. L'azzeramento dell'iscrizione era legato all'iscriversi prima del 1 agosto nel 2025-26; se si ripeta non è pubblicato.",
+      "of": "1b681d0f",
+      "at": [
+        "cannon:cost.fees[4].label"
+      ]
+    },
+    {
+      "t": "Ogni cifra qui sopra è del **2025-26, non del 2026-27**. Nessun listino attuale è pubblicato da nessuna parte — il Back-to-School Center attivo è stato svuotato e ora rimanda semplicemente le famiglie al My Cannon Portal. Consideratele un minimo vecchio di un ciclo e aspettatevi un aumento.",
+      "of": "3450b8eb",
+      "at": [
+        "cannon:cost.flags[0].text"
+      ]
+    },
+    {
+      "t": "La tariffazione è di fatto nascosta alle famiglie interessate. Il listino esiste solo su un URL di backup orfano dentro un accordion ripiegato; la pagina del programma, la pagina della retta e il PDF ufficiale Non-Tuition Fees lo omettono tutti — quel PDF elenca persino \"After School Program\" e \"Beyond the Bell\" come voci a pagamento senza assegnare loro alcun importo, benché tariffi tutto il resto fino a un esame AP da $98.",
+      "of": "c65c9c24",
+      "at": [
+        "cannon:cost.flags[1].text"
+      ]
+    },
+    {
+      "t": "Gli sconti per fratelli, l'applicabilità dell'aiuto finanziario all'After School e la cadenza di fatturazione — annuale anticipata, a semestre o mensile — non sono pubblicati.",
+      "of": "428fe135",
+      "at": [
+        "cannon:cost.flags[2].text"
+      ]
+    },
+    {
+      "t": "La scala premia chi la usa molto: cinque giorni ($3,784) costano solo circa **3.7 volte la tariffa di un giorno**, quindi il giorno marginale diventa via via più economico. L'assistenza a cinque giorni è circa il 13% della retta della JrK.",
+      "of": "bc0314a0",
+      "at": [
+        "cannon:cost.flags[3].text"
+      ]
+    },
+    {
+      "t": "La scuola descrive aiuto ai compiti, sport, arte, cucina, natura e un orto — ma non dice mai quando avvenga nulla di tutto ciò.",
+      "of": "d66b80d3",
+      "at": [
+        "cannon:dayInside.headline"
+      ]
+    },
+    {
+      "t": "Ciò che Cannon pubblica con reale dettaglio è Beyond the Bell: tre sessioni di enrichment di 10 settimane l'anno, con un giorno, una fascia di grado, un fornitore e una tariffa effettivi per ogni corso.",
+      "of": "688c480b",
+      "at": [
+        "cannon:dayInside.subhead"
+      ]
+    },
+    {
+      "t": "ambiente sicuro e che nutre",
+      "of": "15e85855",
+      "at": [
+        "cannon:dayInside.words[0]"
+      ]
+    },
+    {
+      "t": "assistenza ai compiti",
+      "of": "9e43720d",
+      "at": [
+        "cannon:dayInside.words[1]"
+      ]
+    },
+    {
+      "t": "praticare sport",
+      "of": "de57d3be",
+      "at": [
+        "cannon:dayInside.words[2]"
+      ]
+    },
+    {
+      "t": "attività artistiche",
+      "of": "d3462da3",
+      "at": [
+        "cannon:dayInside.words[3]"
+      ]
+    },
+    {
+      "t": "cucinare",
+      "of": "ef3e2929",
+      "at": [
+        "cannon:dayInside.words[4]"
+      ]
+    },
+    {
+      "t": "esplorare la natura",
+      "of": "e57b6207",
+      "at": [
+        "cannon:dayInside.words[5]"
+      ]
+    },
+    {
+      "t": "l'orto",
+      "of": "9fd1b38d",
+      "at": [
+        "cannon:dayInside.words[6]"
+      ]
+    },
+    {
+      "t": "\"Cannon School's After School Program (ASP) provides students in grades JrK - 8 with a safe, nurturing environment. Students have the opportunity to receive assistance with their homework, play sports, participate in art activities, cook, discover and explore nature, and experience cultivating and observing our garden.\" La scuola aggiunge che le esperienze \"foster their individual, developmental, social, and emotional needs\" così che \"the students truly become adaptive experts\". Le FAQ delle ammissioni sottolineano la flessibilità: l'assistenza \"can be used on an as-needed, drop-in basis\".",
+      "of": "2bdca07e",
+      "at": [
+        "cannon:dayInside.wordsText"
+      ]
+    },
+    {
+      "t": "Beyond the Bell — Session 3, primavera 2026",
+      "of": "35adb5e8",
+      "at": [
+        "cannon:dayInside.catalogTitle"
+      ]
+    },
+    {
+      "t": "Ogni anno si svolgono tre sessioni di 10 settimane per JrK–grade 8, più lezioni private di musica. I 22 corsi qui sotto sono il catalogo pubblicato più recente, **dal 9 marzo al 22 maggio 2026** — recuperati dalla brochure della sessione della scuola stessa. Le tariffe sono indicate per corso e per sessione. Nota che Beyond the Bell è un **acquisto separato dall'ASP**: un corso 3:00–4:00 non ti copre fino alle 6:00.",
+      "of": "8c8a876e",
+      "at": [
+        "cannon:dayInside.catalogIntro"
+      ]
+    },
+    {
+      "t": "Partite a ranghi ridotti con Kelli Waller",
+      "of": "716c2549",
+      "at": [
+        "cannon:dayInside.classes[0].desc"
+      ]
+    },
+    {
+      "t": "2–6",
+      "of": "dc4d67cc",
+      "at": [
+        "cannon:dayInside.classes[0].gradeLabel"
+      ]
+    },
+    {
+      "t": "Fondamentali di cheer con Nash & Colacion",
+      "of": "85bf76c2",
+      "at": [
+        "cannon:dayInside.classes[1].desc"
+      ]
+    },
+    {
+      "t": "JrK–2",
+      "of": "f32a20a3",
+      "at": [
+        "cannon:dayInside.classes[1].gradeLabel",
+        "cannon:dayInside.classes[5].gradeLabel",
+        "cannon:dayInside.classes[12].gradeLabel",
+        "cannon:dayInside.classes[15].gradeLabel"
+      ]
+    },
+    {
+      "t": "Sfide di costruzione e collaudo gestite da BrickEd",
+      "of": "fc32f7b2",
+      "at": [
+        "cannon:dayInside.classes[2].desc"
+      ]
+    },
+    {
+      "t": "K–2",
+      "of": "5e92d4cb",
+      "at": [
+        "cannon:dayInside.classes[2].gradeLabel",
+        "cannon:dayInside.classes[8].gradeLabel"
+      ]
+    },
+    {
+      "t": "Creazione multimediale con McKinsey & Raphael",
+      "of": "12042fb8",
+      "at": [
+        "cannon:dayInside.classes[3].desc"
+      ]
+    },
+    {
+      "t": "2–4",
+      "of": "de4d6af2",
+      "at": [
+        "cannon:dayInside.classes[3].gradeLabel",
+        "cannon:dayInside.classes[17].gradeLabel"
+      ]
+    },
+    {
+      "t": "Costruzione e programmazione di squadra con Lisa Nussbaumer",
+      "of": "a4c630c5",
+      "at": [
+        "cannon:dayInside.classes[4].desc"
+      ]
+    },
+    {
+      "t": "3–5",
+      "of": "72b1a582",
+      "at": [
+        "cannon:dayInside.classes[4].gradeLabel"
+      ]
+    },
+    {
+      "t": "Creazione di burattini e spettacolo con Rhiannon Bresalier",
+      "of": "9234b989",
+      "at": [
+        "cannon:dayInside.classes[5].desc"
+      ]
+    },
+    {
+      "t": "Competenze in cucina e ricette con Craig Rosekrans",
+      "of": "66339c45",
+      "at": [
+        "cannon:dayInside.classes[6].desc"
+      ]
+    },
+    {
+      "t": "1–3",
+      "of": "aa9ea5ea",
+      "at": [
+        "cannon:dayInside.classes[6].gradeLabel"
+      ]
+    },
+    {
+      "t": "Gestito da AR Workshop Concord; 3:00–4:30",
+      "of": "ec18d9af",
+      "at": [
+        "cannon:dayInside.classes[7].desc"
+      ]
+    },
+    {
+      "t": "3–8",
+      "of": "77b1ad61",
+      "at": [
+        "cannon:dayInside.classes[7].gradeLabel"
+      ]
+    },
+    {
+      "t": "Danza con Art in Motion Dance",
+      "of": "6d0482e1",
+      "at": [
+        "cannon:dayInside.classes[8].desc"
+      ]
+    },
+    {
+      "t": "Esplorazione all'aperto e giochi con Kelli Waller",
+      "of": "d09d34c2",
+      "at": [
+        "cannon:dayInside.classes[9].desc"
+      ]
+    },
+    {
+      "t": "JrK–4",
+      "of": "f92a2a15",
+      "at": [
+        "cannon:dayInside.classes[9].gradeLabel"
+      ]
+    },
+    {
+      "t": "Guidato da Carolina Soccer Factory",
+      "of": "55c5f69b",
+      "at": [
+        "cannon:dayInside.classes[10].desc"
+      ]
+    },
+    {
+      "t": "K–6",
+      "of": "6292db17",
+      "at": [
+        "cannon:dayInside.classes[10].gradeLabel"
+      ]
+    },
+    {
+      "t": "Creazione interdisciplinare con Mayo & Cavicchi",
+      "of": "892a9a9a",
+      "at": [
+        "cannon:dayInside.classes[11].desc"
+      ]
+    },
+    {
+      "t": "JrK–1",
+      "of": "f42a2236",
+      "at": [
+        "cannon:dayInside.classes[11].gradeLabel"
+      ]
+    },
+    {
+      "t": "Tenuto da Le Petit Ballet Co.",
+      "of": "54903c06",
+      "at": [
+        "cannon:dayInside.classes[12].desc"
+      ]
+    },
+    {
+      "t": "Archi d'insieme con Anne Marie Samuel",
+      "of": "cee50463",
+      "at": [
+        "cannon:dayInside.classes[13].desc"
+      ]
+    },
+    {
+      "t": "1–8",
+      "of": "a19e97bf",
+      "at": [
+        "cannon:dayInside.classes[13].gradeLabel"
+      ]
+    },
+    {
+      "t": "Gestito da Better Golf for Kids",
+      "of": "f995456f",
+      "at": [
+        "cannon:dayInside.classes[14].desc"
+      ]
+    },
+    {
+      "t": "K–5",
+      "of": "6392dcaa",
+      "at": [
+        "cannon:dayInside.classes[14].gradeLabel"
+      ]
+    },
+    {
+      "t": "Arte tridimensionale con Alex Bresalier",
+      "of": "4dd98a79",
+      "at": [
+        "cannon:dayInside.classes[15].desc"
+      ]
+    },
+    {
+      "t": "Competenze di funzione esecutiva per la Middle School, con Sherrill & O'Brien",
+      "of": "1cef586d",
+      "at": [
+        "cannon:dayInside.classes[16].desc"
+      ]
+    },
+    {
+      "t": "5–8",
+      "of": "660365d3",
+      "at": [
+        "cannon:dayInside.classes[16].gradeLabel"
+      ]
+    },
+    {
+      "t": "Sviluppo atletico con Donnie Hayes",
+      "of": "aebfe251",
+      "at": [
+        "cannon:dayInside.classes[17].desc"
+      ]
+    },
+    {
+      "t": "Storia basata sugli oggetti con Stephanie Lee",
+      "of": "6c10a569",
+      "at": [
+        "cannon:dayInside.classes[18].desc"
+      ]
+    },
+    {
+      "t": "4–8",
+      "of": "d12b05b8",
+      "at": [
+        "cannon:dayInside.classes[18].gradeLabel"
+      ]
+    },
+    {
+      "t": "Basi della macchina fotografica e composizione con Danielle Sandlof",
+      "of": "753d981d",
+      "at": [
+        "cannon:dayInside.classes[19].desc"
+      ]
+    },
+    {
+      "t": "3–6",
+      "of": "71b1a3ef",
+      "at": [
+        "cannon:dayInside.classes[19].gradeLabel"
+      ]
+    },
+    {
+      "t": "Arte con le perline con Dobbins & Fox",
+      "of": "5832d170",
+      "at": [
+        "cannon:dayInside.classes[20].desc"
+      ]
+    },
+    {
+      "t": "K–4",
+      "of": "6492de3d",
+      "at": [
+        "cannon:dayInside.classes[20].gradeLabel"
+      ]
+    },
+    {
+      "t": "Pittura e disegno con Danielle Lucas",
+      "of": "e404b9fa",
+      "at": [
+        "cannon:dayInside.classes[21].desc"
+      ]
+    },
+    {
+      "t": "K–3",
+      "of": "5d92d338",
+      "at": [
+        "cannon:dayInside.classes[21].gradeLabel"
+      ]
+    },
+    {
+      "t": "Lezioni private di musica si affiancano per la K–8: violoncello $25/lezione (Mon/Wed), chitarra $25 (Wed/Fri), canto $30 (Tue/Thu), pianoforte $30 (Mon/Tue/Thu) e violino o viola $30 (Tue/Thu).",
+      "of": "1bb78a11",
+      "at": [
+        "cannon:dayInside.flags[0].text"
+      ]
+    },
+    {
+      "t": "Questo è il catalogo della **Session 3 del 2025-26** — il più recente pubblicato. Non è ancora stato pubblicato alcun catalogo Beyond the Bell 2026-27, quindi i corsi specifici cambieranno anche se la fascia di prezzo e la struttura probabilmente reggeranno.",
+      "of": "bd097f64",
+      "at": [
+        "cannon:dayInside.flags[1].text"
+      ]
+    },
+    {
+      "t": "Non è pubblicato alcun ritmo giornaliero ora per ora né alcun rapporto personale-bambini per l'After School Program vero e proprio, e la Middle School non ha una descrizione di programma separata — le grades 5–8 rientrano nello stesso programma JrK–8.",
+      "of": "e27fa72b",
+      "at": [
+        "cannon:dayInside.flags[2].text"
+      ]
+    },
+    {
+      "t": "Il programma più flessibile qui per chi lo usa occasionalmente, con il catalogo di enrichment pubblicato più ricco — avvolto in una tariffazione tecnicamente pubblica ma praticamente invisibile.",
+      "of": "37e2bd92",
+      "at": [
+        "cannon:verdict.headline"
+      ]
+    },
+    {
+      "t": "Il listino sopravvive solo su una pagina di backup orfana, le cifre sono vecchie di un anno, e le grades 9–12 non ottengono nulla.",
+      "of": "428a4129",
+      "at": [
+        "cannon:verdict.subhead"
+      ]
+    },
+    {
+      "t": "**Copertura lunga e uniforme** — dalle 3:00 alle 6:00 p.m. ogni giorno ordinario su tutto l'arco JrK–8, senza limite basato sull'età e senza un programma Lower/Middle separato.",
+      "of": "9b20abd8",
+      "at": [
+        "cannon:verdict.strengths[0]"
+      ]
+    },
+    {
+      "t": "**I giorni di uscita anticipata sono coperti**, 11:45 a.m.–4:00 p.m., cosa che diversi concorrenti qui non fanno affatto.",
+      "of": "50fe7829",
+      "at": [
+        "cannon:verdict.strengths[1]"
+      ]
+    },
+    {
+      "t": "**Vero ingresso libero a $11.50 all'ora senza contratto.** Una famiglia che ha bisogno di due pomeriggi al mese paga circa $100 all'anno invece di impegnarsi per $1,904 — il modello per uso occasionale più clemente di questo gruppo.",
+      "of": "d01647a2",
+      "at": [
+        "cannon:verdict.strengths[2]"
+      ]
+    },
+    {
+      "t": "**Una scala di prezzo marcata** — cinque giorni costano solo circa 3.7 volte la tariffa di un giorno, quindi chi la usa molto ottiene un vero sconto anziché una fattura lineare.",
+      "of": "457dd7f3",
+      "at": [
+        "cannon:verdict.strengths[3]"
+      ]
+    },
+    {
+      "t": "**Il catalogo di enrichment pubblicato più ricco delle sei** — 22 corsi distinti in una sola sessione che spaziano tra robotica, danza classica, scacchi, ceramica, golf e fotografia, ciascuno con un fornitore indicato per nome e una tariffa reale.",
+      "of": "359ca706",
+      "at": [
+        "cannon:verdict.strengths[4]"
+      ]
+    },
+    {
+      "t": "**L'enrichment ha prezzi contenuti ed è trasparente** — $18–$30 per corso, per lo più $144–$300 per una sessione di 10 settimane, con rimborsi integrali per i corsi annullati e una settimana di recupero.",
+      "of": "2d14f348",
+      "at": [
+        "cannon:verdict.strengths[5]"
+      ]
+    },
+    {
+      "t": "**Un corso di funzione esecutiva per la Middle School** (\"Let's Get Organized\") — un'offerta davvero insolita a questa età.",
+      "of": "4ab6a038",
+      "at": [
+        "cannon:verdict.strengths[6]"
+      ]
+    },
+    {
+      "t": "**Nessuna copertura doposcuola per le grades 9–12.** Una famiglia con un figlio all'Upper School e uno alla Lower School ottiene l'assistenza per uno solo.",
+      "of": "cbc2632d",
+      "at": [
+        "cannon:verdict.watchouts[0]"
+      ]
+    },
+    {
+      "t": "**La tariffazione è praticamente nascosta.** Il listino esiste solo su un URL di backup orfano dentro un accordion ripiegato, mentre la pagina attiva, la pagina della retta e il PDF ufficiale delle tariffe lo omettono tutti. Una famiglia che fa una ricerca normale non lo troverà.",
+      "of": "6f337713",
+      "at": [
+        "cannon:verdict.watchouts[1]"
+      ]
+    },
+    {
+      "t": "**Le tariffe pubblicate sono del 2025-26**, quindi aspettatevi per il 2026-27 un aumento non ancora conoscibile.",
+      "of": "d51cbac3",
+      "at": [
+        "cannon:verdict.watchouts[2]"
+      ]
+    },
+    {
+      "t": "**La tariffa di ritardo di $1/minuto è salata e si applica anche alle famiglie a ingresso libero** — 20 minuti di ritardo costano $20, quasi il doppio della tariffa oraria.",
+      "of": "d45fdd2d",
+      "at": [
+        "cannon:verdict.watchouts[3]"
+      ]
+    },
+    {
+      "t": "**Enrichment e assistenza sono acquisti separati.** Un corso Beyond the Bell 3:00–4:00 non ti copre fino alle 6:00, quindi i costi si sommano.",
+      "of": "8a86a085",
+      "at": [
+        "cannon:verdict.watchouts[4]"
+      ]
+    },
+    {
+      "t": "**La regola delle 3:15 della Middle School può iscriverti senza una tua adesione** — un genitore in ritardo di 20 minuti su un ritiro delle 3:00 può ritrovare il proprio figlio spostato nell'assistenza a pagamento.",
+      "of": "c1902df8",
+      "at": [
+        "cannon:verdict.watchouts[5]"
+      ]
+    },
+    {
+      "t": "**Nessun ritmo giornaliero pubblicato e nessun rapporto personale-bambini**, quindi non puoi sapere quanta parte delle tre ore siano compiti rispetto al gioco libero.",
+      "of": "5ea53b35",
+      "at": [
+        "cannon:verdict.watchouts[6]"
+      ]
+    },
+    {
+      "t": "**I giorni di lavoro dei docenti e le festività non sono trattati**, e non esiste assistenza a pagamento prima della scuola — solo l'arrivo gratuito dalle 7:30 a.m.",
+      "of": "c8c7bf41",
+      "at": [
+        "cannon:verdict.watchouts[7]"
+      ]
+    },
+    {
+      "t": "Quali sono le tariffe 2026-27, e dove sono pubblicate per le famiglie interessate? L'unico listino che ho trovato è del 2025-26 e risiede su una pagina di backup.",
+      "of": "f55e6760",
+      "at": [
+        "cannon:verdict.checklist[0]"
+      ]
+    },
+    {
+      "t": "Esiste copertura nei giorni di lavoro dei docenti, nei giorni di colloqui e nelle festività scolastiche, e a quale tariffa?",
+      "of": "d8d69de4",
+      "at": [
+        "cannon:verdict.checklist[1]"
+      ]
+    },
+    {
+      "t": "Qual è l'effettivo ritmo giornaliero — quanto tempo per i compiti, e qual è il rapporto personale-bambini? Differisce tra la JrK e la grade 8?",
+      "of": "42cc5cb8",
+      "at": [
+        "cannon:verdict.checklist[2]"
+      ]
+    },
+    {
+      "t": "L'azzeramento della quota di iscrizione di $25 si ripete per il 2026-27, e qual è la scadenza?",
+      "of": "eb1021c0",
+      "at": [
+        "cannon:verdict.checklist[3]"
+      ]
+    },
+    {
+      "t": "Come viene fatturato il programma — annualmente in anticipo, a semestre o mensilmente? Possiamo cambiare fascia a metà anno?",
+      "of": "d6a7465c",
+      "at": [
+        "cannon:verdict.checklist[4]"
+      ]
+    },
+    {
+      "t": "Esistono sconti per fratelli, o un qualche aiuto finanziario applicabile ad After School o Beyond the Bell?",
+      "of": "0fe4fce8",
+      "at": [
+        "cannon:verdict.checklist[5]"
+      ]
+    },
+    {
+      "t": "Se mio figlio segue un corso Beyond the Bell 3:00–4:00, mi vengono addebitate le 4:00–6:00 in aggiunta, e quel giorno viene conteggiato tra i giorni del mio contratto?",
+      "of": "d7ca1dee",
+      "at": [
+        "cannon:verdict.checklist[6]"
+      ]
+    },
+    {
+      "t": "Alla Middle School, l'iscrizione automatica delle 3:15 fa scattare un addebito di ingresso libero, e come veniamo avvisati?",
+      "of": "39ae7be2",
+      "at": [
+        "cannon:verdict.checklist[7]"
+      ]
+    },
+    {
+      "t": "Esiste un qualche spazio sorvegliato, studio assistito o bus per le attività per le grades 9–12 dopo le 3:00?",
+      "of": "76f8592b",
+      "at": [
+        "cannon:verdict.checklist[8]"
+      ]
+    },
+    {
+      "t": "Nei giorni di uscita anticipata, il programma termina tassativamente alle 4:00 p.m., e la tariffa di $1/minuto scatta da allora?",
+      "of": "20bfe9a7",
+      "at": [
+        "cannon:verdict.checklist[9]"
+      ]
+    },
+    {
+      "t": "Esiste assistenza doposcuola dal Traditional Toddler alla grade 8 — ma le pagine che la descrivono sono state rimosse dal sito della scuola, e non è mai stata pubblicata alcuna tariffa.",
+      "of": "27feab80",
+      "at": [
+        "davidson-day:coverage.headline"
+      ]
+    },
+    {
+      "t": "Gli orari di uscita qui sotto sono attuali e in vigore. Gli orari del programma sono recuperati da un archivio del 2020 di una pagina che non esiste più, e non coincidono più con l'attuale orario delle campanelle.",
+      "of": "5eaf23be",
+      "at": [
+        "davidson-day:coverage.subhead"
+      ]
+    },
+    {
+      "t": "uscita 2:45",
+      "of": "26ed0109",
+      "at": [
+        "davidson-day:coverage.rows[0].dismissal"
+      ]
+    },
+    {
+      "t": "After School Care · fino alle 6:00 · tariffa non pubblicata",
+      "of": "924ec488",
+      "at": [
+        "davidson-day:coverage.rows[0].flatLabel",
+        "davidson-day:coverage.rows[1].flatLabel",
+        "davidson-day:coverage.rows[2].flatLabel"
+      ]
+    },
+    {
+      "t": "uscita 3:05",
+      "of": "1cb1ca44",
+      "at": [
+        "davidson-day:coverage.rows[1].dismissal"
+      ]
+    },
+    {
+      "t": "uscita 3:25",
+      "of": "90ac70b2",
+      "at": [
+        "davidson-day:coverage.rows[2].dismissal"
+      ]
+    },
+    {
+      "t": "Nessuna copertura — l'Extended Care è solo TT–8",
+      "of": "45ff5c11",
+      "at": [
+        "davidson-day:coverage.rows[3].flatLabel"
+      ]
+    },
+    {
+      "t": "Iscrizioni",
+      "of": "68ab7f57",
+      "at": [
+        "davidson-day:coverage.facts[0].label"
+      ]
+    },
+    {
+      "t": "la FAQ attiva dice solo che \"after-school care sign-ups will be released in **mid-July**\" — tardi per le famiglie che pianificano l'assistenza ai figli",
+      "of": "c87855b4",
+      "at": [
+        "davidson-day:coverage.facts[0].text"
+      ]
+    },
+    {
+      "t": "Before School Care",
+      "of": "d0bc9323",
+      "at": [
+        "davidson-day:coverage.facts[1].label"
+      ]
+    },
+    {
+      "t": "7:15–7:40 a.m., con personale composto da insegnanti a tempo pieno di Davidson Day a un rapporto di **7:1** — dall'archivio del 2020, non confermato per il 2026-27",
+      "of": "b374959f",
+      "at": [
+        "davidson-day:coverage.facts[1].text"
+      ]
+    },
+    {
+      "t": "Uscita scaglionata",
+      "of": "02eb0c50",
+      "at": [
+        "davidson-day:coverage.facts[2].label"
+      ]
+    },
+    {
+      "t": "uno **scarto di 40 minuti** tra le 2:45, 3:05, 3:20 e 3:25 per le famiglie con più figli",
+      "of": "1fc553c5",
+      "at": [
+        "davidson-day:coverage.facts[2].text"
+      ]
+    },
+    {
+      "t": "La finestra archiviata dell'After School Care di **2:45–6:00 p.m. per il TT–8** proviene da una cattura datata **18 maggio 2020 — vecchia di sei anni**. Non coincide più con l'orario attuale: le 2:45 p.m. sono ora solo l'uscita dell'Early Preschool–JK, mentre la K–4 esce alle 3:05 e le grades 5–8 alle 3:25. Se gli studenti più grandi siano coperti a partire dalla propria uscita non è noto.",
+      "of": "f7f436fb",
+      "at": [
+        "davidson-day:coverage.flags[0].text"
+      ]
+    },
+    {
+      "t": "Le **pagine Extended Care e After School Programs sono state rimosse del tutto dal sito attivo** — entrambe riverificate come 404 a luglio 2026, e nessuna delle due compare nella mappa attuale del sito. Una famiglia del 2026-27 non ha alcuna descrizione pubblicata del programma.",
+      "of": "d649e200",
+      "at": [
+        "davidson-day:coverage.flags[1].text"
+      ]
+    },
+    {
+      "t": "Nessun programma estivo è pubblicato sul sito attivo, e nessuna pagina estiva esiste nella mappa del sito. Esistono una pagina camp archiviata del 2019 e un annuncio su un aggregatore di terze parti, ma nessuno dei due è confermato su una pagina di proprietà della scuola.",
+      "of": "53b71a2b",
+      "at": [
+        "davidson-day:coverage.flags[2].text"
+      ]
+    },
+    {
+      "t": "Se l'assistenza funzioni nelle mezze giornate o nei giorni di colloqui non è pubblicato. Il calendario 2026-27 conferma però le date che ne avrebbero bisogno — mezze giornate il 18 dic 2026, 15 apr e 26 mag 2027, e chiusure per colloqui dal 14 al 18 set 2026, 4 gen e 16 apr 2027.",
+      "of": "e06a4f42",
+      "at": [
+        "davidson-day:coverage.flags[3].text"
+      ]
+    },
+    {
+      "t": "Il programma si descrive come \"a safe, engaging, and nurturing environment for supervised play and homework completion\" — con parole catturate da una pagina che non esiste più.",
+      "of": "89e4f3aa",
+      "at": [
+        "davidson-day:dayInside.headline"
+      ]
+    },
+    {
+      "t": "Nessun orario giornaliero, nessuna descrizione attuale del programma e nessun catalogo di enrichment è pubblicato da alcuna parte sul sito attivo.",
+      "of": "2867543a",
+      "at": [
+        "davidson-day:dayInside.subhead"
+      ]
+    },
+    {
+      "t": "Il programma, nelle sue stesse parole (archiviate)",
+      "of": "230044b3",
+      "at": [
+        "davidson-day:dayInside.wordsTitle"
+      ]
+    },
+    {
+      "t": "sicuro",
+      "of": "ad27ee58",
+      "at": [
+        "davidson-day:dayInside.words[0]"
+      ]
+    },
+    {
+      "t": "coinvolgente",
+      "of": "92aaaeb9",
+      "at": [
+        "davidson-day:dayInside.words[1]"
+      ]
+    },
+    {
+      "t": "che nutre",
+      "of": "761a4973",
+      "at": [
+        "davidson-day:dayInside.words[2]"
+      ]
+    },
+    {
+      "t": "gioco sorvegliato",
+      "of": "21a0e957",
+      "at": [
+        "davidson-day:dayInside.words[3]"
+      ]
+    },
+    {
+      "t": "completamento dei compiti",
+      "of": "d9ebd333",
+      "at": [
+        "davidson-day:dayInside.words[4]"
+      ]
+    },
+    {
+      "t": "Gli studenti sono \"subdivided into age- and attendance-appropriate groups as determined by Extended Care staff\" e \"must be signed out… by a parent or other authorized persons as listed on the Extended Care Application.\" Notevolmente franco, e insolito da vedere messo per iscritto: la scuola stessa ha descritto il rapporto doposcuola di circa **15:1** come \"significantly higher than comparable Davidson Day classroom student-to-staff ratios,\" pur rilevando che \"complies with State of North Carolina standards.\" Tutto questo proviene dalla cattura del 2020.",
+      "of": "16885f5d",
+      "at": [
+        "davidson-day:dayInside.wordsText"
+      ]
+    },
+    {
+      "t": "Ogni citazione qui sopra proviene da una cattura archiviata datata **maggio 2020**. Il sito attivo non riporta alcuna descrizione del programma, quindi nulla di ciò è confermato per il 2026-27 — incluso il rapporto di 15:1.",
+      "of": "6f20f030",
+      "at": [
+        "davidson-day:dayInside.flags[0].text"
+      ]
+    },
+    {
+      "t": "Nessun catalogo di enrichment è recuperabile. La pagina archiviata diceva che la scuola \"contracts with both internal and external providers… Programs are offered daily between 2:45-6 p.m., and fees vary by program. Sample offerings include:\" — e le offerte di esempio si riducono a tre blocchi fotografici con **didascalie vuote**. Non sopravvive alcun nome di corso, giorno, fascia di grado o tariffa, quindi qui non ne è elencato nessuno.",
+      "of": "d502bd16",
+      "at": [
+        "davidson-day:dayInside.flags[1].text"
+      ]
+    },
+    {
+      "t": "Il **Learning Enrichment Center** è l'unico programma affine con una pagina attiva, ma si tratta di tutoraggio, terapia occupazionale e logopedia — programmati \"during the school day, often during a study hall period\" proprio perché gli studenti possano comunque svolgere attività doposcuola. Non è assistenza doposcuola.",
+      "of": "3551639a",
+      "at": [
+        "davidson-day:dayInside.flags[2].text"
+      ]
+    },
+    {
+      "t": "Un programma che quasi certamente funziona bene — e che una famiglia interessata non ha modo di valutare, di preventivare o persino di conoscere prima di iscriversi.",
+      "of": "451e44bd",
+      "at": [
+        "davidson-day:verdict.headline"
+      ]
+    },
+    {
+      "t": "L'assistenza estesa è esplicitamente esclusa dall'aiuto finanziario, il che rende il prezzo mancante un vero problema decisionale più che un cavillo di documentazione.",
+      "of": "705f8d2f",
+      "at": [
+        "davidson-day:verdict.subhead"
+      ]
+    },
+    {
+      "t": "**La copertura arriva fino alle 6:00 p.m.**, competitiva con i concorrenti, e spazia dal **Traditional Toddler alla grade 8** — inclusa una fascia per i più piccoli che la maggior parte delle scuole qui non copre affatto.",
+      "of": "9152ad77",
+      "at": [
+        "davidson-day:verdict.strengths[0]"
+      ]
+    },
+    {
+      "t": "**Il Before School Care era gestito da insegnanti a 7:1** — davvero solido per l'assistenza mattutina, e con personale composto da insegnanti a tempo pieno di Davidson Day anziché da assunzioni esterne, se ancora vale.",
+      "of": "f0a532ca",
+      "at": [
+        "davidson-day:verdict.strengths[1]"
+      ]
+    },
+    {
+      "t": "**La scuola è schiettamente onesta sul fatto che l'aiuto non arrivi all'assistenza estesa**, dichiarandolo chiaramente sulla pagina della retta anziché nasconderlo in un tariffario.",
+      "of": "1f3553f5",
+      "at": [
+        "davidson-day:verdict.strengths[2]"
+      ]
+    },
+    {
+      "t": "**Un programma di lunga data con una reale storia operativa** — il materiale archiviato descrive un'attività consolidata con procedure di firma all'uscita e raggruppamenti adeguati all'età.",
+      "of": "4fdfbcff",
+      "at": [
+        "davidson-day:verdict.strengths[3]"
+      ]
+    },
+    {
+      "t": "**Opacità totale sui prezzi.** Nessuna quota di iscrizione, nessuna tariffa giornaliera od oraria, nessuna tariffa per il ritiro in ritardo, nessun metodo di fatturazione — nulla, da nessuna parte, incluso l'archivio del 2020. È una politica di lunga data, non una pagina guasta.",
+      "of": "8a8de18b",
+      "at": [
+        "davidson-day:verdict.watchouts[0]"
+      ]
+    },
+    {
+      "t": "**Le pagine del programma sono state cancellate dal sito attivo.** Entrambi gli URL Extended Care e After School Programs restituiscono 404 e nessuno dei due compare nella mappa del sito, quindi non c'è alcuna descrizione attuale pubblicata da leggere.",
+      "of": "b58d634b",
+      "at": [
+        "davidson-day:verdict.watchouts[1]"
+      ]
+    },
+    {
+      "t": "**L'assistenza estesa è esclusa dall'aiuto finanziario** — \"Financial Aid does not cover extended care\" — il che ne fa un'aggiunta puramente a carico della famiglia oltre alla retta di $22,590–$26,910. Anche con l'aiuto massimo le famiglie devono comunque pagare $3,000 all'anno per studente.",
+      "of": "8b22d3f3",
+      "at": [
+        "davidson-day:verdict.watchouts[2]"
+      ]
+    },
+    {
+      "t": "**La scuola stessa ha segnalato il rapporto numerico.** Un rapporto doposcuola di circa 15:1 è stato descritto con le sue stesse parole come \"significantly higher than comparable Davidson Day classroom student-to-staff ratios.\"",
+      "of": "3da20a44",
+      "at": [
+        "davidson-day:verdict.watchouts[3]"
+      ]
+    },
+    {
+      "t": "**Le iscrizioni non vengono aperte fino a metà luglio**, il che è tardi per le famiglie che organizzano l'assistenza ai figli attorno a un orario di lavoro.",
+      "of": "c72cc14a",
+      "at": [
+        "davidson-day:verdict.watchouts[4]"
+      ]
+    },
+    {
+      "t": "**Nessuna copertura per l'Upper School**, e uno scarto di 40 minuti di uscite scaglionate per le famiglie con figli in più di una divisione.",
+      "of": "c33c4a4d",
+      "at": [
+        "davidson-day:verdict.watchouts[5]"
+      ]
+    },
+    {
+      "t": "**Non sopravvive alcun catalogo di enrichment** — non è recuperabile da alcuna fonte un solo nome di corso, giorno o tariffa.",
+      "of": "7ed1a2ee",
+      "at": [
+        "davidson-day:verdict.watchouts[6]"
+      ]
+    },
+    {
+      "t": "Quali sono le effettive tariffe e la struttura per il 2026-27 — un contratto annuale, o l'ingresso libero? Questa è la prima domanda, perché nulla è pubblicato.",
+      "of": "7ccdbbc2",
+      "at": [
+        "davidson-day:verdict.checklist[0]"
+      ]
+    },
+    {
+      "t": "La finestra 2:45–6:00 p.m. vale ancora ora che la K–4 esce alle 3:05 e le grades 5–8 alle 3:25 — e gli studenti più grandi sono coperti a partire dalla propria uscita?",
+      "of": "bdb80318",
+      "at": [
+        "davidson-day:verdict.checklist[1]"
+      ]
+    },
+    {
+      "t": "Esiste una tariffa per il ritiro in ritardo, e qual è?",
+      "of": "466a6b6c",
+      "at": [
+        "davidson-day:verdict.checklist[2]"
+      ]
+    },
+    {
+      "t": "L'assistenza funziona nelle mezze giornate (18 dic, 15 apr, 26 mag) e nei giorni di chiusura per colloqui?",
+      "of": "b3bf703e",
+      "at": [
+        "davidson-day:verdict.checklist[3]"
+      ]
+    },
+    {
+      "t": "Il Before School Care è ancora offerto alle 7:15 a.m., ed è ancora gestito da insegnanti a 7:1?",
+      "of": "6de6d048",
+      "at": [
+        "davidson-day:verdict.checklist[4]"
+      ]
+    },
+    {
+      "t": "Qual è l'attuale rapporto personale-bambini del doposcuola? È ancora intorno a 15:1?",
+      "of": "002e0697",
+      "at": [
+        "davidson-day:verdict.checklist[5]"
+      ]
+    },
+    {
+      "t": "Quali corsi di enrichment si svolgono effettivamente quest'anno, in quali giorni e a quale tariffa?",
+      "of": "9afaf1f4",
+      "at": [
+        "davidson-day:verdict.checklist[6]"
+      ]
+    },
+    {
+      "t": "Il summer camp esiste ancora come programma gestito dalla scuola?",
+      "of": "1dc3bfca",
+      "at": [
+        "davidson-day:verdict.checklist[7]"
+      ]
+    },
+    {
+      "t": "Perché sono state rimosse le pagine Extended Care, e dove posso leggere la descrizione attuale del programma?",
+      "of": "4af54c87",
+      "at": [
+        "davidson-day:verdict.checklist[8]"
+      ]
+    }
+  ]
+}

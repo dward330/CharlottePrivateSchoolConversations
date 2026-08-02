@@ -213,6 +213,7 @@ function currencySymbol(): string {
 const UNIT_SUFFIX: Record<string, Record<string, string>> = {
   es: { yr: 'año', mo: 'mes', sem: 'sem.', wk: 'sem.', class: 'clase', hr: 'hora' },
   fr: { yr: 'an', mo: 'mois', sem: 'sem.', wk: 'sem.', class: 'cours', hr: 'h' },
+  it: { yr: 'anno', mo: 'mese', sem: 'sett.', wk: 'sett.', class: 'lezione', hr: 'ora' },
 }
 
 function localizeUnits(text: string): string {
