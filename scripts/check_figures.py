@@ -66,6 +66,16 @@ def main():
     work = os.path.join(ROOT, 'src', 'data', 'overlays', 'work')
     if args.topic:
         paths = [os.path.join(work, f'{args.topic}.{args.lang}.json')]
+        # The content-overlay extractor names its file `<topic>.content.<lang>.json`,
+        # so the plain `--topic financial-aid-tuition` spelling that every rollout
+        # doc quotes resolves to a path that does not exist. That printed a loud
+        # "no such work file" and exited non-zero, so it never shipped a silent
+        # pass — but it did send several rollouts hunting a phantom problem.
+        # Fall back to the .content spelling rather than making each doc special-case it.
+        if not os.path.exists(paths[0]):
+            alt = os.path.join(work, f'{args.topic}.content.{args.lang}.json')
+            if os.path.exists(alt):
+                paths = [alt]
     else:
         paths = sorted(glob.glob(os.path.join(work, f'*.{args.lang}.json')))
 

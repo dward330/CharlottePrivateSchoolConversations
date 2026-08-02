@@ -1,0 +1,4239 @@
+{
+  "topic": "student-clubs",
+  "lang": "hi",
+  "generated": "i18n_extract.mjs",
+  "note": "Translate each `text` into `t`. Leave `of` and `at` untouched — they are how the overlay is rebuilt and drift-checked.",
+  "strings": [
+    {
+      "text": "Nine Upper School affinity groups with a documented founding year apiece, plus Middle and Lower School groups, faculty and alumni networks, and three parent groups — all under a staffed DEI office.",
+      "of": "e8abb3ef",
+      "at": [
+        "providence-day:affinity.headline"
+      ],
+      "t": "Upper School के नौ affinity समूह, हर एक का स्थापना-वर्ष दर्ज, साथ में Middle और Lower School के समूह, शिक्षक तथा पूर्व-छात्र नेटवर्क, और तीन अभिभावक समूह — ये सब एक स्टाफ़-युक्त DEI कार्यालय के अंतर्गत।"
+    },
+    {
+      "text": "The deepest published affinity structure in this comparison set, built out steadily from 1995 onward — though the school’s own live site no longer lists it.",
+      "of": "87c939ae",
+      "at": [
+        "providence-day:affinity.subhead"
+      ],
+      "t": "इस तुलना-समूह में सबसे गहरी प्रकाशित affinity संरचना, जो 1995 से लगातार बनती गई — हालाँकि स्कूल की अपनी मौजूदा साइट अब इसे सूचीबद्ध नहीं करती।"
+    },
+    {
+      "text": "led by Tyrone Jean, Assistant Head of School for EIB and Chief Diversity Officer · 1 assistant head + 2 associate directors + 6 faculty coordinators",
+      "of": "f0c161bb",
+      "at": [
+        "providence-day:affinity.umbrella.detail"
+      ],
+      "t": "नेतृत्व Tyrone Jean, Assistant Head of School for EIB और Chief Diversity Officer · 1 assistant head + 2 associate directors + 6 faculty coordinators"
+    },
+    {
+      "text": "est. 1995 — the oldest group",
+      "of": "ea5776e6",
+      "at": [
+        "providence-day:affinity.groups[0].detail"
+      ],
+      "t": "स्थापना 1995 — सबसे पुराना समूह"
+    },
+    {
+      "text": "est. 2015, formerly HRA · 40+ active members",
+      "of": "c735b7e7",
+      "at": [
+        "providence-day:affinity.groups[1].detail"
+      ],
+      "t": "स्थापना 2015, पहले HRA · 40+ सक्रिय सदस्य"
+    },
+    {
+      "text": "est. 2016",
+      "of": "a8c0bf28",
+      "at": [
+        "providence-day:affinity.groups[2].detail"
+      ],
+      "t": "स्थापना 2016"
+    },
+    {
+      "text": "est. 2017",
+      "of": "a9c0c0bb",
+      "at": [
+        "providence-day:affinity.groups[3].detail",
+        "providence-day:affinity.groups[4].detail",
+        "providence-day:affinity.groups[6].detail"
+      ],
+      "t": "स्थापना 2017"
+    },
+    {
+      "text": "Students Advocating for Gender Equality · est. 2017",
+      "of": "85f41560",
+      "at": [
+        "providence-day:affinity.groups[5].detail"
+      ],
+      "t": "Students Advocating for Gender Equality · स्थापना 2017"
+    },
+    {
+      "text": "est. 2018",
+      "of": "a6c0bc02",
+      "at": [
+        "providence-day:affinity.groups[7].detail"
+      ],
+      "t": "स्थापना 2018"
+    },
+    {
+      "text": "Arab, Middle Eastern, Muslim & South Asian affinity · est. 2020",
+      "of": "2f91d52b",
+      "at": [
+        "providence-day:affinity.groups[8].detail"
+      ],
+      "t": "अरब, मध्य-पूर्वी, मुस्लिम और दक्षिण एशियाई affinity · स्थापना 2020"
+    },
+    {
+      "text": "Middle School",
+      "of": "15441234",
+      "at": [
+        "providence-day:affinity.strips[0].title",
+        "providence-day:catalog.divisions[0].label",
+        "charlotte-christian:affinity.strips[1].title",
+        "charlotte-country-day:affinity.strips[0].title"
+      ],
+      "t": "Middle School"
+    },
+    {
+      "text": "· 3 groups",
+      "of": "c1a289d9",
+      "at": [
+        "providence-day:affinity.strips[0].hint"
+      ],
+      "t": "· 3 समूह"
+    },
+    {
+      "text": "Diversity Club, est. 2018 · CEED — Council for Education on Equity and Diversity, est. 2020 · Rainbow Alliance, added by 2022",
+      "of": "78753e1e",
+      "at": [
+        "providence-day:affinity.strips[0].text"
+      ],
+      "t": "Diversity Club, स्थापना 2018 · CEED — Council for Education on Equity and Diversity, स्थापना 2020 · Rainbow Alliance, 2022 तक जोड़ा गया"
+    },
+    {
+      "text": "Lower School",
+      "of": "0921a0ca",
+      "at": [
+        "providence-day:affinity.strips[1].title",
+        "charlotte-christian:affinity.strips[0].title",
+        "charlotte-country-day:affinity.strips[1].title"
+      ],
+      "t": "Lower School"
+    },
+    {
+      "text": "· grades 4–5",
+      "of": "7c2d3f6e",
+      "at": [
+        "providence-day:affinity.strips[1].hint"
+      ],
+      "t": "· कक्षा 4–5"
+    },
+    {
+      "text": "Kaleidoscope, a 5th-grade equity and social-justice learning space, est. 2019 · African-American and Asian Affinity Group for grades 4–5, est. 2020 · a Jewish Affinity Group added by 2022",
+      "of": "92ffa5e2",
+      "at": [
+        "providence-day:affinity.strips[1].text"
+      ],
+      "t": "Kaleidoscope, कक्षा 5 के लिए समानता और सामाजिक-न्याय का एक अध्ययन-स्थल, स्थापना 2019 · कक्षा 4–5 के लिए African-American and Asian Affinity Group, स्थापना 2020 · एक Jewish Affinity Group, 2022 तक जोड़ा गया"
+    },
+    {
+      "text": "Parents",
+      "of": "c9d9572a",
+      "at": [
+        "providence-day:affinity.strips[2].title",
+        "charlotte-christian:affinity.strips[2].title",
+        "charlotte-country-day:affinity.strips[2].title",
+        "cannon:affinity.strips[2].title"
+      ],
+      "t": "अभिभावक"
+    },
+    {
+      "text": "Anti-Racist Task Force, parent-led since 2020, grown out of the Multicultural Advisory Board · Black Families Network and Hispanic Families Network, both est. 2021 · the Parents’ Association Cultural Connections committee, which hosts Diwali, Hanukkah, Lunar New Year and Eid al-Fitr.",
+      "of": "8b6bd838",
+      "at": [
+        "providence-day:affinity.strips[2].text"
+      ],
+      "t": "Anti-Racist Task Force, 2020 से अभिभावक-संचालित, जो Multicultural Advisory Board से निकला · Black Families Network और Hispanic Families Network, दोनों की स्थापना 2021 · Parents’ Association की Cultural Connections समिति, जो दिवाली, हनुका, चंद्र नववर्ष और ईद-उल-फ़ितर आयोजित करती है।"
+    },
+    {
+      "text": "Faculty & alumni",
+      "of": "b91540c5",
+      "at": [
+        "providence-day:affinity.strips[3].title"
+      ],
+      "t": "शिक्षक और पूर्व-छात्र"
+    },
+    {
+      "text": "Faculty of Color Group, est. 2018 · AWARE — Alliance of White Anti-Racist Educators, est. 2019 · AFIRM for alumni, est. 2020.",
+      "of": "bb5626ad",
+      "at": [
+        "providence-day:affinity.strips[3].text"
+      ],
+      "t": "Faculty of Color Group, स्थापना 2018 · AWARE — Alliance of White Anti-Racist Educators, स्थापना 2019 · पूर्व-छात्रों के लिए AFIRM, स्थापना 2020।"
+    },
+    {
+      "text": "The Student Diversity Council, established 2017, is the formal liaison between students and Upper School administrators. Faculty attend the NAIS People of Color Conference for professional development; no student attendance at the national Student Diversity Leadership Conference is published.",
+      "of": "acec2aae",
+      "at": [
+        "providence-day:affinity.leadership"
+      ],
+      "t": "Student Diversity Council, स्थापना 2017, छात्रों और Upper School प्रशासकों के बीच औपचारिक कड़ी है। शिक्षक व्यावसायिक विकास के लिए NAIS People of Color Conference में जाते हैं; राष्ट्रीय Student Diversity Leadership Conference में किसी छात्र की उपस्थिति प्रकाशित नहीं है।"
+    },
+    {
+      "text": "The school’s live site no longer enumerates its own affinity groups. The EIB page presents them as four unlabeled image tiles — Lower School, Middle School, Upper School, and Families/Faculty/Staff — with no names and no count anywhere in the page. The full roster above survives only in dated web-archive captures of pages that now return 404, which is why the sources below point there.",
+      "of": "2712bf3c",
+      "at": [
+        "providence-day:affinity.flags[0].text"
+      ],
+      "t": "स्कूल की मौजूदा साइट अब अपने affinity समूहों की गिनती नहीं देती। EIB पृष्ठ उन्हें चार बिना-लेबल वाली चित्र-टाइलों के रूप में दिखाता है — Lower School, Middle School, Upper School, और Families/Faculty/Staff — पूरे पृष्ठ में कहीं न कोई नाम है, न कोई संख्या। ऊपर की पूरी सूची केवल उन पृष्ठों के दिनांकित वेब-आर्काइव कैप्चर में बची है जो अब 404 लौटाते हैं, इसीलिए नीचे दिए स्रोत वहीं की ओर इशारा करते हैं।"
+    },
+    {
+      "text": "The archived roster lists Black Student Union twice with two different founding years — 2016 and 2017 — on the school’s own page. We show 2016, the earlier of the two.",
+      "of": "19d04878",
+      "at": [
+        "providence-day:affinity.flags[1].text"
+      ],
+      "t": "आर्काइव की गई सूची में स्कूल के अपने ही पृष्ठ पर Black Student Union दो बार, दो अलग-अलग स्थापना-वर्षों के साथ दर्ज है — 2016 और 2017। हम 2016 दिखाते हैं, जो दोनों में पहले का है।"
+    },
+    {
+      "text": "The first independent school in the country to host a Children’s Defense Fund Freedom School — and still the only one running it every summer.",
+      "of": "08348c48",
+      "at": [
+        "providence-day:service.headline"
+      ],
+      "t": "देश का पहला स्वतंत्र स्कूल जिसने Children’s Defense Fund Freedom School की मेज़बानी की — और अब भी अकेला जो इसे हर गर्मी चलाता है।"
+    },
+    {
+      "text": "Service here is measured and externally recognized: thousands of logged hours, national volunteer awards, and a global network membership no other school in the state holds.",
+      "of": "929a7af9",
+      "at": [
+        "providence-day:service.subhead"
+      ],
+      "t": "यहाँ सेवा मापी भी जाती है और बाहर से मान्यता भी पाती है: हज़ारों दर्ज घंटे, राष्ट्रीय स्वयंसेवा पुरस्कार, और एक वैश्विक नेटवर्क की सदस्यता जो राज्य के किसी और स्कूल के पास नहीं है।"
+    },
+    {
+      "text": "scholars each summer · since 2012",
+      "of": "a36b5814",
+      "at": [
+        "providence-day:service.programs[0].valueLabel"
+      ],
+      "t": "हर गर्मी में इतने scholars · 2012 से"
+    },
+    {
+      "text": "A summer literacy program for K–8 Charlotte scholars run with Freedom School Partners. Providence Day was the first independent school in the country to host a CDF Freedom School, and remains the only one hosting a program every summer; the community collects supplies for all 18 Charlotte sites.",
+      "of": "20f185f0",
+      "at": [
+        "providence-day:service.programs[0].detail"
+      ],
+      "t": "Freedom School Partners के साथ चलाया जाने वाला, Charlotte के K–8 scholars के लिए एक ग्रीष्मकालीन साक्षरता कार्यक्रम। Providence Day देश का पहला स्वतंत्र स्कूल था जिसने CDF Freedom School की मेज़बानी की, और अब भी अकेला है जो हर गर्मी यह कार्यक्रम चलाता है; समुदाय Charlotte के सभी 18 केंद्रों के लिए सामग्री जुटाता है।"
+    },
+    {
+      "text": "service hours in one school year",
+      "of": "00ac745f",
+      "at": [
+        "providence-day:service.programs[1].valueLabel"
+      ],
+      "t": "एक शैक्षणिक वर्ष में सेवा-घंटे"
+    },
+    {
+      "text": "Logged service totalling 20,642 hours since 2017, with 48 students earning the national award in 2024 — 24 Gold, 5 Silver, 9 Bronze. Partners include Wayfinders, the Charlotte Mecklenburg Library, Mecklenburg County Teen Court and the Augustine Literacy Project.",
+      "of": "425d092c",
+      "at": [
+        "providence-day:service.programs[1].detail"
+      ],
+      "t": "2017 से कुल 20,642 घंटे की दर्ज सेवा, और 2024 में 48 छात्रों ने राष्ट्रीय पुरस्कार पाया — 24 Gold, 5 Silver, 9 Bronze। साझेदारों में Wayfinders, Charlotte Mecklenburg Library, Mecklenburg County Teen Court और Augustine Literacy Project शामिल हैं।"
+    },
+    {
+      "text": "schools · 50 countries · joined 2016",
+      "of": "a842d339",
+      "at": [
+        "providence-day:service.programs[2].valueLabel"
+      ],
+      "t": "स्कूल · 50 देश · 2016 में जुड़े"
+    },
+    {
+      "text": "The only member school in North Carolina. The global network is built on the IDEALS framework — International understanding, Democracy, Environmental stewardship, Adventure, Leadership and Service — and carries international service projects (\"Big Builds\") and exchanges.",
+      "of": "d010f083",
+      "at": [
+        "providence-day:service.programs[2].detail"
+      ],
+      "t": "North Carolina का अकेला सदस्य स्कूल। यह वैश्विक नेटवर्क IDEALS ढाँचे पर बना है — International understanding, Democracy, Environmental stewardship, Adventure, Leadership and Service — और इसमें अंतरराष्ट्रीय सेवा परियोजनाएँ (\"Big Builds\") तथा विनिमय कार्यक्रम शामिल हैं।"
+    },
+    {
+      "text": "Beyond the big three",
+      "of": "5669ef0f",
+      "at": [
+        "providence-day:service.footnoteTitle",
+        "charlotte-country-day:service.footnoteTitle"
+      ],
+      "t": "इन तीन बड़ों के अलावा"
+    },
+    {
+      "text": "The school also advertises over 30 student-run service clubs, and each division carries its own partnership: 6th grade with Movement School, 7th with Winterfield Elementary, 8th with Wilson STEM Academy, and a 9th-grade Charger Impact Challenge.",
+      "of": "8bd1a5ae",
+      "at": [
+        "providence-day:service.footnote"
+      ],
+      "t": "स्कूल 30 से अधिक छात्र-संचालित सेवा क्लबों का भी प्रचार करता है, और हर डिवीज़न की अपनी साझेदारी है: कक्षा 6 की Movement School के साथ, कक्षा 7 की Winterfield Elementary के साथ, कक्षा 8 की Wilson STEM Academy के साथ, और कक्षा 9 के लिए Charger Impact Challenge।"
+    },
+    {
+      "text": "The grade-level partnerships and the Charger Impact Challenge are curricular initiatives rather than clubs, and the President’s Volunteer Service Award is an individual recognition of logged hours, not a membership. The Community Engagement Portal is an opportunity-listing tool. The catalog card lists only confirmed organizations.",
+      "of": "9f44567c",
+      "at": [
+        "providence-day:service.flags[0].text"
+      ],
+      "t": "कक्षा-स्तरीय साझेदारियाँ और Charger Impact Challenge क्लब नहीं, पाठ्यक्रम-संबंधी पहल हैं, और President’s Volunteer Service Award दर्ज घंटों की व्यक्तिगत मान्यता है, सदस्यता नहीं। Community Engagement Portal अवसरों की सूची देने वाला एक साधन है। कैटलॉग कार्ड केवल पुष्ट संगठनों को सूचीबद्ध करता है।"
+    },
+    {
+      "text": "Five selective societies spanning scholarship, service, visual art, music and French.",
+      "of": "2a286f4b",
+      "at": [
+        "providence-day:honors.headline"
+      ],
+      "t": "पाँच चयनात्मक सोसाइटियाँ, जो विद्वत्ता, सेवा, दृश्य कला, संगीत और फ़्रेंच तक फैली हैं।"
+    },
+    {
+      "text": "These are outcomes of achievement elsewhere in the program — a student earns their way in; nobody signs up.",
+      "of": "acaa7b03",
+      "at": [
+        "providence-day:honors.subhead",
+        "charlotte-christian:honors.subhead",
+        "charlotte-country-day:honors.subhead",
+        "cannon:honors.subhead"
+      ],
+      "t": "ये कार्यक्रम में कहीं और अर्जित उपलब्धि के परिणाम हैं — छात्र इनमें अपनी योग्यता से पहुँचता है; कोई नाम लिखवाकर शामिल नहीं होता।"
+    },
+    {
+      "text": "Superior scholastic achievement — the national academic honor society",
+      "of": "f6423816",
+      "at": [
+        "providence-day:honors.societies[0].recognizes"
+      ],
+      "t": "उत्कृष्ट शैक्षणिक उपलब्धि — राष्ट्रीय शैक्षणिक honor society"
+    },
+    {
+      "text": "the classroom",
+      "of": "bc2b05c7",
+      "at": [
+        "providence-day:honors.societies[0].feedsFrom",
+        "charlotte-latin:honors.societies[0].feedsFrom",
+        "charlotte-country-day:honors.societies[0].feedsFrom",
+        "cannon:honors.societies[0].feedsFrom"
+      ],
+      "t": "कक्षा"
+    },
+    {
+      "text": "Scholarship, leadership, service and character — 3.6 cumulative GPA minimum",
+      "of": "608f7645",
+      "at": [
+        "providence-day:honors.societies[1].recognizes"
+      ],
+      "t": "विद्वत्ता, नेतृत्व, सेवा और चरित्र — न्यूनतम संचयी GPA 3.6"
+    },
+    {
+      "text": "classroom + service",
+      "of": "4639e07e",
+      "at": [
+        "providence-day:honors.societies[1].feedsFrom",
+        "charlotte-christian:honors.societies[0].feedsFrom",
+        "charlotte-country-day:honors.societies[1].feedsFrom",
+        "charlotte-country-day:honors.societies[2].feedsFrom"
+      ],
+      "t": "कक्षा + सेवा"
+    },
+    {
+      "text": "Visual-arts achievement and service",
+      "of": "bad2a437",
+      "at": [
+        "providence-day:honors.societies[2].recognizes"
+      ],
+      "t": "दृश्य-कला में उपलब्धि और सेवा"
+    },
+    {
+      "text": "The Arts",
+      "of": "d001140e",
+      "at": [
+        "providence-day:honors.societies[2].feedsFrom",
+        "providence-day:honors.societies[3].feedsFrom",
+        "charlotte-latin:honors.societies[2].feedsFrom",
+        "charlotte-christian:honors.societies[1].feedsFrom",
+        "charlotte-christian:honors.societies[2].feedsFrom",
+        "charlotte-christian:honors.societies[3].feedsFrom",
+        "charlotte-country-day:honors.societies[3].feedsFrom",
+        "charlotte-country-day:honors.societies[4].feedsFrom",
+        "charlotte-country-day:honors.societies[5].feedsFrom",
+        "cannon:honors.societies[5].feedsFrom",
+        "cannon:honors.societies[6].feedsFrom",
+        "cannon:honors.societies[7].feedsFrom"
+      ],
+      "t": "कलाएँ"
+    },
+    {
+      "text": "Music achievement and leadership · chapter established 2016",
+      "of": "20559490",
+      "at": [
+        "providence-day:honors.societies[3].recognizes"
+      ],
+      "t": "संगीत में उपलब्धि और नेतृत्व · chapter की स्थापना 2016"
+    },
+    {
+      "text": "French achievement — the high-school equivalent of Pi Delta Phi",
+      "of": "a104e387",
+      "at": [
+        "providence-day:honors.societies[4].recognizes"
+      ],
+      "t": "फ़्रेंच में उपलब्धि — Pi Delta Phi का हाई-स्कूल समकक्ष"
+    },
+    {
+      "text": "world languages",
+      "of": "a8acc144",
+      "at": [
+        "providence-day:honors.societies[4].feedsFrom",
+        "charlotte-christian:honors.societies[4].feedsFrom",
+        "cannon:honors.societies[8].feedsFrom",
+        "cannon:honors.societies[9].feedsFrom",
+        "cannon:honors.societies[10].feedsFrom"
+      ],
+      "t": "विश्व भाषाएँ"
+    },
+    {
+      "text": "There is no standing honor-societies page. Every fact here comes from one-off news posts, so the published counts are historical rather than current — 89 NHS inductees in 2017, 34 Cum Laude members in 2022, nearly 50 art inductees one May, 11 Tri-M inductees in 2019. Induction criteria are published only for the National Honor Society; the other four publish none.",
+      "of": "f755e554",
+      "at": [
+        "providence-day:honors.flags[0].text"
+      ],
+      "t": "honor societies का कोई स्थायी पृष्ठ नहीं है। यहाँ का हर तथ्य इक्का-दुक्का समाचार पोस्टों से आया है, इसलिए प्रकाशित संख्याएँ मौजूदा नहीं, ऐतिहासिक हैं — 2017 में 89 NHS दीक्षित, 2022 में 34 Cum Laude सदस्य, किसी एक मई में लगभग 50 कला-दीक्षित, 2019 में 11 Tri-M दीक्षित। दीक्षा के मानदंड केवल National Honor Society के लिए प्रकाशित हैं; बाक़ी चार कोई मानदंड प्रकाशित नहीं करतीं।"
+    },
+    {
+      "text": "No Middle School honor society could be confirmed, and despite five world languages on offer only the French society is evidenced. Archive searches across the site’s full URL history for Rho Kappa, Mu Alpha Theta, Quill & Scroll, a junior honor society and a Spanish society returned nothing.",
+      "of": "3d3b7571",
+      "at": [
+        "providence-day:honors.flags[1].text"
+      ],
+      "t": "किसी Middle School honor society की पुष्टि नहीं हो सकी, और पाँच विश्व भाषाएँ उपलब्ध होने के बावजूद केवल फ़्रेंच सोसाइटी का प्रमाण मिलता है। साइट के पूरे URL इतिहास में Rho Kappa, Mu Alpha Theta, Quill & Scroll, किसी junior honor society और किसी स्पेनिश सोसाइटी की आर्काइव खोज से कुछ नहीं मिला।"
+    },
+    {
+      "text": "Fifteen clubs compete, in five clusters; DECA is the co-flagship.",
+      "of": "c9b4754e",
+      "at": [
+        "providence-day:clusters.verdict"
+      ],
+      "t": "पंद्रह क्लब प्रतिस्पर्धा करते हैं, पाँच समूहों में; DECA सह-प्रमुख है।"
+    },
+    {
+      "text": "Open any row for the full research note and its source.",
+      "of": "7d39cb8d",
+      "at": [
+        "providence-day:clusters.verdictHint",
+        "charlotte-latin:clusters.verdictHint",
+        "charlotte-christian:clusters.verdictHint",
+        "charlotte-country-day:clusters.verdictHint",
+        "cannon:clusters.verdictHint",
+        "davidson-day:clusters.verdictHint"
+      ],
+      "t": "पूरी शोध-टिप्पणी और उसका स्रोत देखने के लिए कोई भी पंक्ति खोलें।"
+    },
+    {
+      "text": "DECA",
+      "of": "8e94a636",
+      "at": [
+        "providence-day:clusters.rows[0].name"
+      ],
+      "t": "DECA"
+    },
+    {
+      "text": "Advanced from the state conference to the national ICDC in '26",
+      "of": "9e22cd9a",
+      "at": [
+        "providence-day:clusters.rows[0].oneLiner"
+      ],
+      "t": "'26 में राज्य सम्मेलन से आगे बढ़कर राष्ट्रीय ICDC तक पहुँचे"
+    },
+    {
+      "text": "Verified — event",
+      "of": "47a874d1",
+      "at": [
+        "providence-day:clusters.rows[0].evidenceLabel",
+        "charlotte-christian:clusters.rows[0].evidenceLabel",
+        "charlotte-country-day:clusters.rows[0].evidenceLabel",
+        "cannon:clusters.rows[1].evidenceLabel",
+        "davidson-day:clusters.rows[0].evidenceLabel"
+      ],
+      "t": "सत्यापित — आयोजन"
+    },
+    {
+      "text": "The competitive co-flagship: DECA advanced from the state career development conference to the national ICDC in 2026. Individual placements are not public.",
+      "of": "46607be3",
+      "at": [
+        "providence-day:clusters.rows[0].note"
+      ],
+      "t": "प्रतिस्पर्धी सह-प्रमुख: DECA 2026 में राज्य के career development conference से आगे बढ़कर राष्ट्रीय ICDC तक पहुँचा। व्यक्तिगत स्थान सार्वजनिक नहीं हैं।"
+    },
+    {
+      "text": "Civic clubs →",
+      "of": "1fd473ea",
+      "at": [
+        "providence-day:clusters.rows[1].name"
+      ],
+      "t": "नागरिक क्लब →"
+    },
+    {
+      "text": "Speech & Debate, Mock Trial, Model U.N., World Quest, Quiz Bowl",
+      "of": "1657bd1d",
+      "at": [
+        "providence-day:clusters.rows[1].oneLiner"
+      ],
+      "t": "Speech & Debate, Mock Trial, Model U.N., World Quest, Quiz Bowl"
+    },
+    {
+      "text": "Official list",
+      "of": "3e70b5a8",
+      "at": [
+        "providence-day:clusters.rows[1].evidenceLabel",
+        "providence-day:clusters.rows[2].evidenceLabel",
+        "providence-day:clusters.rows[3].evidenceLabel",
+        "providence-day:clusters.rows[4].evidenceLabel",
+        "charlotte-christian:clusters.rows[1].evidenceLabel",
+        "charlotte-christian:clusters.rows[2].evidenceLabel"
+      ],
+      "t": "आधिकारिक सूची"
+    },
+    {
+      "text": "Five civic and rhetoric programs confirmed on the official Upper School list. Event placements are largely not public — existence, not results, is what's confirmed.",
+      "of": "cb952083",
+      "at": [
+        "providence-day:clusters.rows[1].note"
+      ],
+      "t": "आधिकारिक Upper School सूची में पाँच नागरिक और वक्तृत्व कार्यक्रम पुष्ट हैं। आयोजनों में स्थान अधिकतर सार्वजनिक नहीं हैं — जो पुष्ट है वह अस्तित्व है, परिणाम नहीं।"
+    },
+    {
+      "text": "STEM clubs →",
+      "of": "5b91930f",
+      "at": [
+        "providence-day:clusters.rows[2].name"
+      ],
+      "t": "STEM क्लब →"
+    },
+    {
+      "text": "Science Olympiad, Robotics, TSA, Drone Club, Build Your Own Boat",
+      "of": "e0b00854",
+      "at": [
+        "providence-day:clusters.rows[2].oneLiner"
+      ],
+      "t": "Science Olympiad, Robotics, TSA, Drone Club, Build Your Own Boat"
+    },
+    {
+      "text": "Five STEM programs including the Technology Student Association and a build-your-own-boat competition. Competition-circuit results are not published.",
+      "of": "bc9869ae",
+      "at": [
+        "providence-day:clusters.rows[2].note"
+      ],
+      "t": "पाँच STEM कार्यक्रम, जिनमें Technology Student Association और अपनी नाव खुद बनाने की एक प्रतियोगिता शामिल है। प्रतियोगिता-सर्किट के परिणाम प्रकाशित नहीं हैं।"
+    },
+    {
+      "text": "Business & econ clubs →",
+      "of": "74ad4871",
+      "at": [
+        "providence-day:clusters.rows[3].name"
+      ],
+      "t": "व्यवसाय और अर्थशास्त्र क्लब →"
+    },
+    {
+      "text": "FBLA, Euro Challenge, PD Economics Challenge — plus DECA",
+      "of": "9ad2ca7e",
+      "at": [
+        "providence-day:clusters.rows[3].oneLiner"
+      ],
+      "t": "FBLA, Euro Challenge, PD Economics Challenge — साथ में DECA"
+    },
+    {
+      "text": "A standout strand for a school this size — four business and economics competition chapters on the official list.",
+      "of": "6cdc0ffa",
+      "at": [
+        "providence-day:clusters.rows[3].note"
+      ],
+      "t": "इस आकार के स्कूल के लिए एक उल्लेखनीय धारा — आधिकारिक सूची में व्यवसाय और अर्थशास्त्र की चार प्रतियोगिता chapters।"
+    },
+    {
+      "text": "Health & esports clubs →",
+      "of": "3b1d6e42",
+      "at": [
+        "providence-day:clusters.rows[4].name"
+      ],
+      "t": "स्वास्थ्य और esports क्लब →"
+    },
+    {
+      "text": "HOSA and a competitive E-Sports Club",
+      "of": "6d83b6b2",
+      "at": [
+        "providence-day:clusters.rows[4].oneLiner"
+      ],
+      "t": "HOSA और एक प्रतिस्पर्धी E-Sports Club"
+    },
+    {
+      "text": "HOSA (health occupations) and a competitive esports program round out the slate.",
+      "of": "7e674d9c",
+      "at": [
+        "providence-day:clusters.rows[4].note"
+      ],
+      "t": "HOSA (स्वास्थ्य व्यवसाय) और एक प्रतिस्पर्धी esports कार्यक्रम इस सूची को पूरा करते हैं।"
+    },
+    {
+      "text": "77 Upper School clubs in scope from the official 25–26 list — the deepest slate in the set; the younger divisions run differently.",
+      "of": "8ff79009",
+      "at": [
+        "providence-day:catalog.verdict"
+      ],
+      "t": "आधिकारिक 25–26 सूची से दायरे में आने वाले 77 Upper School क्लब — इस समूह की सबसे गहरी सूची; छोटी कक्षाओं के डिवीज़न अलग तरह से चलते हैं।"
+    },
+    {
+      "text": "Filter by interest; only 5 arts clubs are excluded for a clean count.",
+      "of": "4dd0e2d3",
+      "at": [
+        "providence-day:catalog.verdictHint"
+      ],
+      "t": "रुचि के अनुसार छाँटें; साफ़ गिनती के लिए केवल 5 कला क्लब बाहर रखे गए हैं।"
+    },
+    {
+      "text": "Activity & interest",
+      "of": "917f5248",
+      "at": [
+        "providence-day:catalog.categories[0].short",
+        "providence-day:catalog.categories[0].full"
+      ],
+      "t": "गतिविधि और रुचि"
+    },
+    {
+      "text": "Competitive",
+      "of": "7557846c",
+      "at": [
+        "providence-day:catalog.categories[1].short",
+        "charlotte-latin:catalog.categories[1].short",
+        "cannon:catalog.categories[0].short"
+      ],
+      "t": "प्रतिस्पर्धी"
+    },
+    {
+      "text": "Team-oriented / competitive",
+      "of": "254cc591",
+      "at": [
+        "providence-day:catalog.categories[1].full"
+      ],
+      "t": "टीम-आधारित / प्रतिस्पर्धी"
+    },
+    {
+      "text": "Affinity",
+      "of": "09cb9079",
+      "at": [
+        "providence-day:catalog.categories[2].short",
+        "charlotte-latin:catalog.categories[4].short",
+        "charlotte-country-day:catalog.categories[3].short",
+        "cannon:catalog.categories[4].short"
+      ],
+      "t": "Affinity"
+    },
+    {
+      "text": "Affinity / alliance",
+      "of": "41a4ed15",
+      "at": [
+        "providence-day:catalog.categories[2].full"
+      ],
+      "t": "Affinity / गठबंधन"
+    },
+    {
+      "text": "Recreational sport",
+      "of": "b720fe96",
+      "at": [
+        "providence-day:catalog.categories[3].short"
+      ],
+      "t": "मनोरंजक खेल"
+    },
+    {
+      "text": "Recreational sport & outdoor",
+      "of": "126eb6d8",
+      "at": [
+        "providence-day:catalog.categories[3].full"
+      ],
+      "t": "मनोरंजक खेल और बाहरी गतिविधियाँ"
+    },
+    {
+      "text": "Governance",
+      "of": "7c20ce39",
+      "at": [
+        "providence-day:catalog.categories[4].short",
+        "charlotte-country-day:catalog.categories[0].short",
+        "cannon:catalog.categories[2].short"
+      ],
+      "t": "प्रशासन"
+    },
+    {
+      "text": "Application / election-based",
+      "of": "3c7fbb25",
+      "at": [
+        "providence-day:catalog.categories[4].full"
+      ],
+      "t": "आवेदन / चुनाव-आधारित"
+    },
+    {
+      "text": "Publications",
+      "of": "7136d3fa",
+      "at": [
+        "providence-day:catalog.categories[5].short",
+        "cannon:catalog.categories[5].short"
+      ],
+      "t": "प्रकाशन"
+    },
+    {
+      "text": "Publications / media",
+      "of": "4fcc6547",
+      "at": [
+        "providence-day:catalog.categories[5].full"
+      ],
+      "t": "प्रकाशन / मीडिया"
+    },
+    {
+      "text": "Artificial intelligence and machine-learning exploration",
+      "of": "8bc4b600",
+      "at": [
+        "providence-day:catalog.clubs[0].note"
+      ],
+      "t": "आर्टिफ़िशियल इंटेलिजेंस और मशीन लर्निंग की खोजबीन"
+    },
+    {
+      "text": "Aviation and flight",
+      "of": "2d7e3c1f",
+      "at": [
+        "providence-day:catalog.clubs[1].note"
+      ],
+      "t": "विमानन और उड़ान"
+    },
+    {
+      "text": "Shared reading and discussion",
+      "of": "398de617",
+      "at": [
+        "providence-day:catalog.clubs[2].note"
+      ],
+      "t": "साथ मिलकर पढ़ना और चर्चा"
+    },
+    {
+      "text": "Student ambassador / guide group",
+      "of": "daa250b7",
+      "at": [
+        "providence-day:catalog.clubs[3].note"
+      ],
+      "t": "छात्र ambassador / मार्गदर्शक समूह"
+    },
+    {
+      "text": "Casual and competitive chess",
+      "of": "f173a62a",
+      "at": [
+        "providence-day:catalog.clubs[4].note"
+      ],
+      "t": "अनौपचारिक और प्रतिस्पर्धी शतरंज"
+    },
+    {
+      "text": "Chinese language and culture",
+      "of": "ea9b6ec9",
+      "at": [
+        "providence-day:catalog.clubs[5].note"
+      ],
+      "t": "चीनी भाषा और संस्कृति"
+    },
+    {
+      "text": "Programming, focused on Swift",
+      "of": "511f9dfb",
+      "at": [
+        "providence-day:catalog.clubs[6].note"
+      ],
+      "t": "प्रोग्रामिंग, Swift पर केंद्रित"
+    },
+    {
+      "text": "Comfort, wellbeing, and peer support",
+      "of": "9f84946e",
+      "at": [
+        "providence-day:catalog.clubs[7].note"
+      ],
+      "t": "सुकून, कल्याण और साथी-सहयोग"
+    },
+    {
+      "text": "Recognition society for computer science",
+      "of": "1e675c08",
+      "at": [
+        "providence-day:catalog.clubs[8].note"
+      ],
+      "t": "कंप्यूटर विज्ञान के लिए मान्यता सोसाइटी"
+    },
+    {
+      "text": "Criminal-justice topics and discussion",
+      "of": "c64c5dbf",
+      "at": [
+        "providence-day:catalog.clubs[9].note"
+      ],
+      "t": "आपराधिक न्याय के विषय और चर्चा"
+    },
+    {
+      "text": "Speedcubing (Rubik’s-style puzzles)",
+      "of": "5d821ba9",
+      "at": [
+        "providence-day:catalog.clubs[10].note"
+      ],
+      "t": "Speedcubing (Rubik’s जैसी पहेलियाँ)"
+    },
+    {
+      "text": "Tabletop role-playing games",
+      "of": "26faa032",
+      "at": [
+        "providence-day:catalog.clubs[11].note"
+      ],
+      "t": "टेबलटॉप रोल-प्लेइंग गेम"
+    },
+    {
+      "text": "Recreational fishing",
+      "of": "9099388a",
+      "at": [
+        "providence-day:catalog.clubs[12].note"
+      ],
+      "t": "मनोरंजक मछली पकड़ना"
+    },
+    {
+      "text": "French language and culture",
+      "of": "79b8970e",
+      "at": [
+        "providence-day:catalog.clubs[13].note"
+      ],
+      "t": "फ़्रेंच भाषा और संस्कृति"
+    },
+    {
+      "text": "Business-skills organization (FBLA)",
+      "of": "45d84eef",
+      "at": [
+        "providence-day:catalog.clubs[14].note"
+      ],
+      "t": "व्यावसायिक कौशल का संगठन (FBLA)"
+    },
+    {
+      "text": "German language and culture",
+      "of": "3d124da0",
+      "at": [
+        "providence-day:catalog.clubs[15].note"
+      ],
+      "t": "जर्मन भाषा और संस्कृति"
+    },
+    {
+      "text": "Ancient and modern Greek culture",
+      "of": "fe97dc77",
+      "at": [
+        "providence-day:catalog.clubs[16].note"
+      ],
+      "t": "प्राचीन और आधुनिक यूनानी संस्कृति"
+    },
+    {
+      "text": "Global cuisines and food culture",
+      "of": "8ce8d5ae",
+      "at": [
+        "providence-day:catalog.clubs[17].note"
+      ],
+      "t": "दुनिया भर के व्यंजन और खान-पान की संस्कृति"
+    },
+    {
+      "text": "Investing and portfolio concepts",
+      "of": "4c58ba42",
+      "at": [
+        "providence-day:catalog.clubs[18].note"
+      ],
+      "t": "निवेश और पोर्टफ़ोलियो की अवधारणाएँ"
+    },
+    {
+      "text": "Italian language and culture",
+      "of": "cdc35068",
+      "at": [
+        "providence-day:catalog.clubs[19].note"
+      ],
+      "t": "इतालवी भाषा और संस्कृति"
+    },
+    {
+      "text": "Latin language and Roman culture",
+      "of": "4dd25b6f",
+      "at": [
+        "providence-day:catalog.clubs[20].note"
+      ],
+      "t": "लैटिन भाषा और रोमन संस्कृति"
+    },
+    {
+      "text": "Mentoring younger Lower School students",
+      "of": "b0b31356",
+      "at": [
+        "providence-day:catalog.clubs[21].note"
+      ],
+      "t": "Lower School के छोटे छात्रों का मार्गदर्शन"
+    },
+    {
+      "text": "The Magic: The Gathering card game",
+      "of": "d2951be1",
+      "at": [
+        "providence-day:catalog.clubs[22].note"
+      ],
+      "t": "Magic: The Gathering कार्ड गेम"
+    },
+    {
+      "text": "Mathematics enrichment and problem-solving",
+      "of": "510c865d",
+      "at": [
+        "providence-day:catalog.clubs[23].note"
+      ],
+      "t": "गणित का संवर्धन और समस्या-समाधान"
+    },
+    {
+      "text": "Mindfulness and meditation practice",
+      "of": "ec763383",
+      "at": [
+        "providence-day:catalog.clubs[24].note"
+      ],
+      "t": "सजगता और ध्यान का अभ्यास"
+    },
+    {
+      "text": "Social gatherings centered on food",
+      "of": "4c17e163",
+      "at": [
+        "providence-day:catalog.clubs[25].note"
+      ],
+      "t": "खान-पान पर केंद्रित सामाजिक जमावड़े"
+    },
+    {
+      "text": "Microfinance and small-scale lending concepts",
+      "of": "b866158a",
+      "at": [
+        "providence-day:catalog.clubs[26].note"
+      ],
+      "t": "माइक्रोफ़ाइनेंस और छोटे स्तर के ऋण की अवधारणाएँ"
+    },
+    {
+      "text": "Motorsport and automotive interest",
+      "of": "41b97fa8",
+      "at": [
+        "providence-day:catalog.clubs[27].note"
+      ],
+      "t": "मोटरस्पोर्ट और वाहनों में रुचि"
+    },
+    {
+      "text": "Inter-school academic program / exchange",
+      "of": "8973e0ab",
+      "at": [
+        "providence-day:catalog.clubs[28].note"
+      ],
+      "t": "अंतर-विद्यालयी शैक्षणिक कार्यक्रम / विनिमय"
+    },
+    {
+      "text": "Outdoor activities and the outdoors",
+      "of": "9a4abd8b",
+      "at": [
+        "providence-day:catalog.clubs[29].note"
+      ],
+      "t": "बाहरी गतिविधियाँ और खुली प्रकृति"
+    },
+    {
+      "text": "Game theory and strategy via poker",
+      "of": "57a8761b",
+      "at": [
+        "providence-day:catalog.clubs[30].note"
+      ],
+      "t": "पोकर के ज़रिए गेम थ्योरी और रणनीति"
+    },
+    {
+      "text": "Small acts of kindness across campus",
+      "of": "81be0acd",
+      "at": [
+        "providence-day:catalog.clubs[31].note"
+      ],
+      "t": "कैंपस भर में दयालुता के छोटे-छोटे काम"
+    },
+    {
+      "text": "Classic and retro video games",
+      "of": "3ab156be",
+      "at": [
+        "providence-day:catalog.clubs[32].note"
+      ],
+      "t": "क्लासिक और रेट्रो वीडियो गेम"
+    },
+    {
+      "text": "Service paired with soccer interest",
+      "of": "172d8a7c",
+      "at": [
+        "providence-day:catalog.clubs[33].note"
+      ],
+      "t": "सेवा के साथ जुड़ी फ़ुटबॉल में रुचि"
+    },
+    {
+      "text": "General science exploration",
+      "of": "a1db02ac",
+      "at": [
+        "providence-day:catalog.clubs[34].note"
+      ],
+      "t": "सामान्य विज्ञान की खोजबीन"
+    },
+    {
+      "text": "Purpose not specified on the School’s list",
+      "of": "85ad767c",
+      "at": [
+        "providence-day:catalog.clubs[35].note"
+      ],
+      "t": "स्कूल की सूची में उद्देश्य नहीं बताया गया"
+    },
+    {
+      "text": "Spanish language and culture",
+      "of": "f918ca18",
+      "at": [
+        "providence-day:catalog.clubs[36].note"
+      ],
+      "t": "स्पेनिश भाषा और संस्कृति"
+    },
+    {
+      "text": "Peer support and student advocacy",
+      "of": "7c2ab2fe",
+      "at": [
+        "providence-day:catalog.clubs[37].note"
+      ],
+      "t": "साथी-सहयोग और छात्र पैरवी"
+    },
+    {
+      "text": "Environmental / garden-stewardship service",
+      "of": "78c4ba97",
+      "at": [
+        "providence-day:catalog.clubs[38].note"
+      ],
+      "t": "पर्यावरण / बग़ीचे की देखभाल से जुड़ी सेवा"
+    },
+    {
+      "text": "Supporting women in science and engineering",
+      "of": "edb9c96d",
+      "at": [
+        "providence-day:catalog.clubs[39].note"
+      ],
+      "t": "विज्ञान और इंजीनियरिंग में महिलाओं को सहयोग"
+    },
+    {
+      "text": "Design-and-build engineering challenge",
+      "of": "dd7df65c",
+      "at": [
+        "providence-day:catalog.clubs[40].note"
+      ],
+      "t": "डिज़ाइन-और-निर्माण की इंजीनियरिंग चुनौती"
+    },
+    {
+      "text": "Marketing, finance, and entrepreneurship competition",
+      "of": "b3d9685a",
+      "at": [
+        "providence-day:catalog.clubs[41].note"
+      ],
+      "t": "मार्केटिंग, वित्त और उद्यमिता की प्रतियोगिता"
+    },
+    {
+      "text": "Drones and unmanned-flight projects",
+      "of": "b39548e8",
+      "at": [
+        "providence-day:catalog.clubs[42].note"
+      ],
+      "t": "ड्रोन और मानवरहित उड़ान की परियोजनाएँ"
+    },
+    {
+      "text": "Competitive video-gaming",
+      "of": "518e51cf",
+      "at": [
+        "providence-day:catalog.clubs[43].note"
+      ],
+      "t": "प्रतिस्पर्धी वीडियो गेमिंग"
+    },
+    {
+      "text": "European-economics competition",
+      "of": "210fef70",
+      "at": [
+        "providence-day:catalog.clubs[44].note"
+      ],
+      "t": "यूरोपीय अर्थशास्त्र की प्रतियोगिता"
+    },
+    {
+      "text": "Health Occupations Students of America",
+      "of": "fa4e25fe",
+      "at": [
+        "providence-day:catalog.clubs[45].note"
+      ],
+      "t": "Health Occupations Students of America"
+    },
+    {
+      "text": "Simulated courtroom trial competition",
+      "of": "d7b082e6",
+      "at": [
+        "providence-day:catalog.clubs[46].note"
+      ],
+      "t": "नक़ली अदालती सुनवाई की प्रतियोगिता"
+    },
+    {
+      "text": "Model United Nations diplomacy and debate",
+      "of": "b552676f",
+      "at": [
+        "providence-day:catalog.clubs[47].note",
+        "charlotte-christian:catalog.clubs[12].note"
+      ],
+      "t": "Model United Nations कूटनीति और वाद-विवाद"
+    },
+    {
+      "text": "Economics knowledge competition",
+      "of": "8b79b7ae",
+      "at": [
+        "providence-day:catalog.clubs[48].note"
+      ],
+      "t": "अर्थशास्त्र के ज्ञान की प्रतियोगिता"
+    },
+    {
+      "text": "Buzzer-based academic quiz competition",
+      "of": "b03e71fa",
+      "at": [
+        "providence-day:catalog.clubs[49].note"
+      ],
+      "t": "बज़र-आधारित शैक्षणिक क्विज़ प्रतियोगिता"
+    },
+    {
+      "text": "Team STEM events competition",
+      "of": "d8b16bb1",
+      "at": [
+        "providence-day:catalog.clubs[50].note"
+      ],
+      "t": "टीम STEM स्पर्धाओं की प्रतियोगिता"
+    },
+    {
+      "text": "Current-affairs and geography competition",
+      "of": "b25834c1",
+      "at": [
+        "providence-day:catalog.clubs[51].note"
+      ],
+      "t": "समसामयिक विषयों और भूगोल की प्रतियोगिता"
+    },
+    {
+      "text": "Competitive robotics design and build",
+      "of": "f7d421d0",
+      "at": [
+        "providence-day:catalog.clubs[52].note"
+      ],
+      "t": "प्रतिस्पर्धी रोबोटिक्स की डिज़ाइन और निर्माण"
+    },
+    {
+      "text": "Interscholastic speech and debate",
+      "of": "cfbdde0a",
+      "at": [
+        "providence-day:catalog.clubs[53].note"
+      ],
+      "t": "अंतर-विद्यालयी भाषण और वाद-विवाद"
+    },
+    {
+      "text": "Technology and engineering competition",
+      "of": "f9cc6092",
+      "at": [
+        "providence-day:catalog.clubs[54].note"
+      ],
+      "t": "प्रौद्योगिकी और इंजीनियरिंग की प्रतियोगिता"
+    },
+    {
+      "text": "Arab, Middle Eastern, Muslim & South Asian community",
+      "of": "fa911b9d",
+      "at": [
+        "providence-day:catalog.clubs[55].note"
+      ],
+      "t": "अरब, मध्य-पूर्वी, मुस्लिम और दक्षिण एशियाई समुदाय"
+    },
+    {
+      "text": "Asian American and Pacific Islander community",
+      "of": "6f4bb5c8",
+      "at": [
+        "providence-day:catalog.clubs[56].note"
+      ],
+      "t": "Asian American और Pacific Islander समुदाय"
+    },
+    {
+      "text": "Black student community and culture",
+      "of": "58b5237d",
+      "at": [
+        "providence-day:catalog.clubs[57].note"
+      ],
+      "t": "अश्वेत छात्र समुदाय और संस्कृति"
+    },
+    {
+      "text": "Support for students affected by diabetes",
+      "of": "24efdf05",
+      "at": [
+        "providence-day:catalog.clubs[58].note"
+      ],
+      "t": "मधुमेह से प्रभावित छात्रों के लिए सहयोग"
+    },
+    {
+      "text": "Faith-based fellowship community",
+      "of": "f3fc4823",
+      "at": [
+        "providence-day:catalog.clubs[59].note"
+      ],
+      "t": "आस्था-आधारित संगत समुदाय"
+    },
+    {
+      "text": "LGBTQ+ students and allies",
+      "of": "93efe06b",
+      "at": [
+        "providence-day:catalog.clubs[60].note"
+      ],
+      "t": "LGBTQ+ छात्र और उनके सहयोगी"
+    },
+    {
+      "text": "Hispanic and Latinx community and culture",
+      "of": "14aadc95",
+      "at": [
+        "providence-day:catalog.clubs[61].note"
+      ],
+      "t": "Hispanic और Latinx समुदाय और संस्कृति"
+    },
+    {
+      "text": "Jewish culture and community",
+      "of": "518ca491",
+      "at": [
+        "providence-day:catalog.clubs[62].note"
+      ],
+      "t": "यहूदी संस्कृति और समुदाय"
+    },
+    {
+      "text": "Students Advocating for Gender Equality",
+      "of": "8a9a401d",
+      "at": [
+        "providence-day:catalog.clubs[63].note"
+      ],
+      "t": "Students Advocating for Gender Equality"
+    },
+    {
+      "text": "Casual pickleball play",
+      "of": "46d7cc37",
+      "at": [
+        "providence-day:catalog.clubs[64].note"
+      ],
+      "t": "अनौपचारिक pickleball खेल"
+    },
+    {
+      "text": "Skiing outings and interest",
+      "of": "3d26f078",
+      "at": [
+        "providence-day:catalog.clubs[65].note"
+      ],
+      "t": "स्कीइंग की सैर और रुचि"
+    },
+    {
+      "text": "Casual ultimate frisbee",
+      "of": "2d6171b7",
+      "at": [
+        "providence-day:catalog.clubs[66].note"
+      ],
+      "t": "अनौपचारिक ultimate frisbee"
+    },
+    {
+      "text": "Mountain biking outings",
+      "of": "a1befcd9",
+      "at": [
+        "providence-day:catalog.clubs[67].note"
+      ],
+      "t": "माउंटेन बाइकिंग की सैर"
+    },
+    {
+      "text": "Weightlifting and strength training",
+      "of": "1a0748c0",
+      "at": [
+        "providence-day:catalog.clubs[68].note"
+      ],
+      "t": "वेटलिफ़्टिंग और शक्ति-प्रशिक्षण"
+    },
+    {
+      "text": "Supports and encourages girls’ involvement in athletics",
+      "of": "7d84051d",
+      "at": [
+        "providence-day:catalog.clubs[69].note"
+      ],
+      "t": "खेलों में लड़कियों की भागीदारी का समर्थन और प्रोत्साहन"
+    },
+    {
+      "text": "Student board (application / election-based)",
+      "of": "5f4e0e17",
+      "at": [
+        "providence-day:catalog.clubs[70].note"
+      ],
+      "t": "छात्र बोर्ड (आवेदन / चुनाव-आधारित)"
+    },
+    {
+      "text": "Administers the School’s honor system",
+      "of": "9be257aa",
+      "at": [
+        "providence-day:catalog.clubs[71].note"
+      ],
+      "t": "स्कूल की honor प्रणाली का संचालन करता है"
+    },
+    {
+      "text": "Student investment / finance board",
+      "of": "bcd03352",
+      "at": [
+        "providence-day:catalog.clubs[72].note"
+      ],
+      "t": "छात्र निवेश / वित्त बोर्ड"
+    },
+    {
+      "text": "Academic honor society",
+      "of": "121bdcd0",
+      "at": [
+        "providence-day:catalog.clubs[73].note",
+        "charlotte-christian:catalog.clubs[14].note"
+      ],
+      "t": "शैक्षणिक honor society"
+    },
+    {
+      "text": "Student news publication",
+      "of": "60a652bd",
+      "at": [
+        "providence-day:catalog.clubs[74].note"
+      ],
+      "t": "छात्र समाचार प्रकाशन"
+    },
+    {
+      "text": "Student STEM journal",
+      "of": "5a7b7642",
+      "at": [
+        "providence-day:catalog.clubs[75].note"
+      ],
+      "t": "छात्र STEM पत्रिका"
+    },
+    {
+      "text": "Student sports broadcast / media outlet",
+      "of": "a8f028d2",
+      "at": [
+        "providence-day:catalog.clubs[76].note"
+      ],
+      "t": "छात्र खेल प्रसारण / मीडिया माध्यम"
+    },
+    {
+      "text": "Continues Model U.N., Science Olympiad, robotics, STEM clubs, and Student Council alongside the IDEAS@PD program — no separate enumerated roster published (arts and Street Soccer out of scope)",
+      "of": "3e8ba645",
+      "at": [
+        "providence-day:catalog.divisions[0].text"
+      ],
+      "t": "IDEAS@PD कार्यक्रम के साथ-साथ Model U.N., Science Olympiad, रोबोटिक्स, STEM क्लब और Student Council जारी रहते हैं — कोई अलग गिनी हुई सूची प्रकाशित नहीं (कला और Street Soccer दायरे से बाहर)"
+    },
+    {
+      "text": "School-reported",
+      "of": "eeb62b9f",
+      "at": [
+        "providence-day:catalog.divisions[0].tag",
+        "charlotte-latin:clusters.rows[2].evidenceLabel",
+        "charlotte-latin:clusters.rows[3].evidenceLabel",
+        "charlotte-latin:clusters.rows[4].evidenceLabel",
+        "charlotte-latin:catalog.divisions[0].tag",
+        "charlotte-christian:catalog.divisions[2].tag",
+        "charlotte-country-day:catalog.divisions[0].tag",
+        "cannon:clusters.rows[2].evidenceLabel",
+        "cannon:clusters.rows[3].evidenceLabel",
+        "cannon:catalog.divisions[0].tag",
+        "cannon:catalog.divisions[2].tag",
+        "davidson-day:clusters.rows[1].evidenceLabel",
+        "davidson-day:clusters.rows[2].evidenceLabel",
+        "davidson-day:catalog.divisions[0].tag"
+      ],
+      "t": "स्कूल द्वारा बताया गया"
+    },
+    {
+      "text": "Lower School (TK–5)",
+      "of": "1fe494ea",
+      "at": [
+        "providence-day:catalog.divisions[1].label",
+        "charlotte-latin:catalog.divisions[1].label"
+      ],
+      "t": "Lower School (TK–5)"
+    },
+    {
+      "text": "Club life runs through Extended Day and enrichment (Auerbach Hall) rather than a named student-club roster — structural, not a gap",
+      "of": "7c7d92eb",
+      "at": [
+        "providence-day:catalog.divisions[1].text"
+      ],
+      "t": "क्लब जीवन नामित छात्र-क्लब सूची के बजाय Extended Day और संवर्धन (Auerbach Hall) के ज़रिए चलता है — यह संरचनात्मक है, कोई कमी नहीं"
+    },
+    {
+      "text": "Structural",
+      "of": "4d8a697a",
+      "at": [
+        "providence-day:catalog.divisions[1].tag",
+        "charlotte-latin:catalog.divisions[1].tag",
+        "cannon:catalog.divisions[1].tag"
+      ],
+      "t": "संरचनात्मक"
+    },
+    {
+      "text": "One student-led umbrella club, Mosaic, carrying two named sub-groups — the identity structure here runs through the club roster rather than a separate affinity program.",
+      "of": "5167bf4b",
+      "at": [
+        "charlotte-latin:affinity.headline"
+      ],
+      "t": "एक छात्र-संचालित छत्र-क्लब, Mosaic, जिसके अंतर्गत दो नामित उप-समूह हैं — यहाँ पहचान से जुड़ी संरचना किसी अलग affinity कार्यक्रम के बजाय क्लब सूची के ज़रिए चलती है।"
+    },
+    {
+      "text": "Charlotte Latin publishes markedly less on this than its peers: no roster page, no counts, and no divisional breakout.",
+      "of": "a25ef2cc",
+      "at": [
+        "charlotte-latin:affinity.subhead"
+      ],
+      "t": "Charlotte Latin इस विषय पर अपने समकक्षों से काफ़ी कम प्रकाशित करता है: न कोई सूची-पृष्ठ, न कोई संख्या, न डिवीज़न-वार ब्योरा।"
+    },
+    {
+      "text": "the student-led umbrella club · \"Under Mosaic we have Q&A and BSA\" · coordinated by the DEI Office under Vernette Rucker, Assistant Director of Diversity, Equity, and Inclusion",
+      "of": "9b9fe119",
+      "at": [
+        "charlotte-latin:affinity.umbrella.detail"
+      ],
+      "t": "छात्र-संचालित छत्र-क्लब · \"Under Mosaic we have Q&A and BSA\" · समन्वय DEI Office द्वारा, Vernette Rucker, Assistant Director of Diversity, Equity, and Inclusion के अधीन"
+    },
+    {
+      "text": "sub-group of Mosaic — the school does not expand the initialism",
+      "of": "c3636af9",
+      "at": [
+        "charlotte-latin:affinity.groups[0].detail",
+        "charlotte-latin:affinity.groups[1].detail"
+      ],
+      "t": "Mosaic का उप-समूह — स्कूल इस संक्षिप्ति का पूरा रूप नहीं बताता"
+    },
+    {
+      "text": "to empower all women at CLS through education, advocacy and service",
+      "of": "cd4d5c40",
+      "at": [
+        "charlotte-latin:affinity.groups[2].detail"
+      ],
+      "t": "शिक्षा, पैरवी और सेवा के ज़रिए CLS की सभी महिलाओं को सशक्त बनाने के लिए"
+    },
+    {
+      "text": "pairs freshman women with upperclass women for mentoring",
+      "of": "8c48d912",
+      "at": [
+        "charlotte-latin:affinity.groups[3].detail"
+      ],
+      "t": "मार्गदर्शन के लिए पहले वर्ष की छात्राओं को वरिष्ठ कक्षाओं की छात्राओं के साथ जोड़ता है"
+    },
+    {
+      "text": "Faculty & parents",
+      "of": "22ecbee8",
+      "at": [
+        "charlotte-latin:affinity.strips[0].title"
+      ],
+      "t": "शिक्षक और अभिभावक"
+    },
+    {
+      "text": "Divisional DEI Committees for faculty and staff · Parent DEI Education Learning Sessions · the Parent Cookbook Club, which \"transforms the typical book club model into an immersive cultural experience… exploring diverse cultures one delicious recipe at a time.\" None of these is an identity-based affinity group.",
+      "of": "fcfdea9e",
+      "at": [
+        "charlotte-latin:affinity.strips[0].text"
+      ],
+      "t": "शिक्षकों और स्टाफ़ के लिए डिवीज़न-वार DEI समितियाँ · Parent DEI Education Learning Sessions · Parent Cookbook Club, जो \"transforms the typical book club model into an immersive cultural experience… exploring diverse cultures one delicious recipe at a time.\" इनमें से कोई भी पहचान-आधारित affinity समूह नहीं है।"
+    },
+    {
+      "text": "The DEI page describes \"the student-led Diversity Club and Alliance Groups\" in a single sentence and links to a \"Diversity Club List\" — but that link leads to a page containing no list. No affinity group count is published anywhere, so unlike its peers there are no rival numbers to reconcile; there is simply no roster. No Lower or Middle School groups are published, and no student diversity leadership corps or national conference attendance appears anywhere on the site.",
+      "of": "3c1c7105",
+      "at": [
+        "charlotte-latin:affinity.flags[0].text"
+      ],
+      "t": "DEI पृष्ठ एक ही वाक्य में \"the student-led Diversity Club and Alliance Groups\" का ज़िक्र करता है और एक \"Diversity Club List\" से जोड़ता है — पर वह लिंक ऐसे पृष्ठ पर ले जाता है जिसमें कोई सूची नहीं है। affinity समूहों की कोई संख्या कहीं प्रकाशित नहीं है, इसलिए अपने समकक्षों के विपरीत यहाँ मिलाने के लिए परस्पर विरोधी आँकड़े ही नहीं हैं; सूची बस है ही नहीं। Lower या Middle School के कोई समूह प्रकाशित नहीं हैं, और साइट पर कहीं भी न कोई छात्र diversity नेतृत्व दल दिखता है, न राष्ट्रीय सम्मेलन में उपस्थिति।"
+    },
+    {
+      "text": "Service is deliberately not required — and students still logged 3,396 hours by the end of junior year, with a recognition society and a national first behind them.",
+      "of": "9bfdf4a1",
+      "at": [
+        "charlotte-latin:service.headline"
+      ],
+      "t": "सेवा जान-बूझकर अनिवार्य नहीं रखी गई — फिर भी छात्रों ने कक्षा 11 के अंत तक 3,396 घंटे दर्ज किए, और उनके पीछे एक मान्यता सोसाइटी तथा एक राष्ट्रीय-स्तर की पहल है।"
+    },
+    {
+      "text": "The school states plainly that it has no service-hours graduation requirement; what it has instead is a reflection-based recognition model running across all four Upper School years.",
+      "of": "f02d230b",
+      "at": [
+        "charlotte-latin:service.subhead"
+      ],
+      "t": "स्कूल साफ़ कहता है कि स्नातक होने के लिए सेवा-घंटों की कोई शर्त नहीं है; उसकी जगह Upper School के चारों वर्षों में चलने वाला एक चिंतन-आधारित मान्यता मॉडल है।"
+    },
+    {
+      "text": "hours to be inducted · since 1997-98",
+      "of": "01c48aeb",
+      "at": [
+        "charlotte-latin:service.programs[0].valueLabel"
+      ],
+      "t": "दीक्षा के लिए इतने घंटे · 1997-98 से"
+    },
+    {
+      "text": "A recognition society, not a requirement: it \"recognizes students who make significant contributions to the community through service\" using a reflection-based model across all four Upper School years. Four-year students need 150 hours, prorated for transfers, and are inducted at the end of senior year.",
+      "of": "707a4b97",
+      "at": [
+        "charlotte-latin:service.programs[0].detail"
+      ],
+      "t": "यह एक मान्यता सोसाइटी है, कोई अनिवार्यता नहीं: यह Upper School के चारों वर्षों में चिंतन-आधारित मॉडल का उपयोग करते हुए उन छात्रों को \"recognizes students who make significant contributions to the community through service\"। चार साल पढ़ने वाले छात्रों को 150 घंटे चाहिए, स्थानांतरित छात्रों के लिए अनुपात के हिसाब से, और दीक्षा कक्षा 12 के अंत में होती है।"
+    },
+    {
+      "text": "Habitat houses funded & built",
+      "of": "312bf933",
+      "at": [
+        "charlotte-latin:service.programs[1].valueLabel"
+      ],
+      "t": "Habitat घर, जिनके लिए धन जुटाया और जिन्हें बनाया गया"
+    },
+    {
+      "text": "Charlotte Latin is \"the first private or independent school in the country with a senior class that funded and built a Habitat for Humanity House.\" The community has since funded and built four, and regularly assists with builds locally and in El Salvador.",
+      "of": "b206bbd0",
+      "at": [
+        "charlotte-latin:service.programs[1].detail"
+      ],
+      "t": "Charlotte Latin \"the first private or independent school in the country with a senior class that funded and built a Habitat for Humanity House.\" तब से समुदाय ने चार घरों के लिए धन जुटाकर उन्हें बनाया है, और स्थानीय स्तर पर तथा El Salvador में निर्माण कार्यों में नियमित रूप से सहयोग करता है।"
+    },
+    {
+      "text": "hours · Class of 2023 by end of junior year",
+      "of": "500f8bd4",
+      "at": [
+        "charlotte-latin:service.programs[2].valueLabel"
+      ],
+      "t": "घंटे · Class of 2023, कक्षा 11 के अंत तक"
+    },
+    {
+      "text": "Three school-wide partners — Baby Bundles, Special Olympics and Habitat for Humanity of the Charlotte Region — anchor a program governed by six Principles of Good Practice. The Upper School Service Council organizes service activities available every week of the year.",
+      "of": "9b8c37b3",
+      "at": [
+        "charlotte-latin:service.programs[2].detail"
+      ],
+      "t": "तीन स्कूल-व्यापी साझेदार — Baby Bundles, Special Olympics और Habitat for Humanity of the Charlotte Region — उस कार्यक्रम की रीढ़ हैं जो छह Principles of Good Practice से संचालित होता है। Upper School Service Council साल के हर सप्ताह उपलब्ध सेवा गतिविधियाँ आयोजित करती है।"
+    },
+    {
+      "text": "On the numbers",
+      "of": "389de55d",
+      "at": [
+        "charlotte-latin:service.footnoteTitle"
+      ],
+      "t": "आँकड़ों के बारे में"
+    },
+    {
+      "text": "An earlier profile recorded 5,485 hours for the Class of 2018 by the end of junior year, with five class members qualifying for the Service Society and seven students earning a Presidential Volunteer Service Award in 2016-17. A fourth initiative, Good Neighbors, lends campus gym space to community organizations.",
+      "of": "6ad80b90",
+      "at": [
+        "charlotte-latin:service.footnote"
+      ],
+      "t": "एक पुराने प्रोफ़ाइल में Class of 2018 के लिए कक्षा 11 के अंत तक 5,485 घंटे दर्ज थे, जिसमें उस कक्षा के पाँच सदस्य Service Society के योग्य हुए और 2016-17 में सात छात्रों को Presidential Volunteer Service Award मिला। एक चौथी पहल, Good Neighbors, कैंपस का जिम स्थान सामुदायिक संगठनों को देती है।"
+    },
+    {
+      "text": "The school lists Blessings in a Backpack — which meets every Wednesday to pack weekend food for students on free lunch — and Student Council separately from its club roster, as standing activities rather than open-enrollment clubs. Service Council–organized weekly activities are likewise individual service activity, not club membership.",
+      "of": "b0d982cb",
+      "at": [
+        "charlotte-latin:service.flags[0].text"
+      ],
+      "t": "स्कूल Blessings in a Backpack — जो मुफ़्त भोजन पाने वाले छात्रों के लिए सप्ताहांत का खाना पैक करने हर बुधवार जुटता है — और Student Council को अपनी क्लब सूची से अलग, खुली भर्ती वाले क्लबों के बजाय स्थायी गतिविधियों के रूप में सूचीबद्ध करता है। Service Council द्वारा आयोजित साप्ताहिक गतिविधियाँ भी इसी तरह व्यक्तिगत सेवा गतिविधि हैं, क्लब सदस्यता नहीं।"
+    },
+    {
+      "text": "Two recognition societies plus a theatre society — and, uniquely in this comparison, published induction criteria and a published induction count.",
+      "of": "97d885c5",
+      "at": [
+        "charlotte-latin:honors.headline"
+      ],
+      "t": "दो मान्यता सोसाइटियाँ और एक थिएटर सोसाइटी — और, इस तुलना में अकेले यहीं, दीक्षा के प्रकाशित मानदंड तथा दीक्षितों की प्रकाशित संख्या।"
+    },
+    {
+      "text": "Charlotte Latin recognizes subject-area and world-language achievement through named prizes rather than honor societies, so the ledger is short by design.",
+      "of": "e599526a",
+      "at": [
+        "charlotte-latin:honors.subhead"
+      ],
+      "t": "Charlotte Latin विषय-क्षेत्र और विश्व-भाषा की उपलब्धि को honor societies के बजाय नामित पुरस्कारों से मान्यता देता है, इसलिए यह सूची जान-बूझकर छोटी है।"
+    },
+    {
+      "text": "The highest academic honor at the school — seniors in the top 20% and juniors in the top 10% of their class · 28 inducted in the most recent ceremony",
+      "of": "f59b792e",
+      "at": [
+        "charlotte-latin:honors.societies[0].recognizes"
+      ],
+      "t": "स्कूल का सर्वोच्च शैक्षणिक सम्मान — अपनी कक्षा के शीर्ष 20% में आने वाले seniors और शीर्ष 10% में आने वाले juniors · सबसे हालिया समारोह में 28 दीक्षित"
+    },
+    {
+      "text": "Significant contribution to the community through service — 150 hours across four years",
+      "of": "5ea1db63",
+      "at": [
+        "charlotte-latin:honors.societies[1].recognizes"
+      ],
+      "t": "सेवा के ज़रिए समुदाय में उल्लेखनीय योगदान — चार वर्षों में 150 घंटे"
+    },
+    {
+      "text": "service",
+      "of": "56dfde64",
+      "at": [
+        "charlotte-latin:honors.societies[1].feedsFrom"
+      ],
+      "t": "सेवा"
+    },
+    {
+      "text": "Excellence in high school theatre; part of the Educational Theatre Association",
+      "of": "3aa35724",
+      "at": [
+        "charlotte-latin:honors.societies[2].recognizes"
+      ],
+      "t": "हाई स्कूल थिएटर में उत्कृष्टता; Educational Theatre Association का हिस्सा"
+    },
+    {
+      "text": "Named subject prizes",
+      "of": "03f678f7",
+      "at": [
+        "charlotte-latin:honors.adjacent[0].label"
+      ],
+      "t": "नामित विषय पुरस्कार"
+    },
+    {
+      "text": "The Victor Hugo Award (French), Homer Award (Greek), Petrarch Award (Latin), Cervantes Award (Spanish), Bausch + Lomb Honorary Science Award and Rensselaer Medal. This is where world-language and subject achievement is recognized here — as prizes, not chapters.",
+      "of": "b8480a9b",
+      "at": [
+        "charlotte-latin:honors.adjacent[0].text"
+      ],
+      "t": "Victor Hugo Award (फ़्रेंच), Homer Award (यूनानी), Petrarch Award (लैटिन), Cervantes Award (स्पेनिश), Bausch + Lomb Honorary Science Award और Rensselaer Medal। यहाँ विश्व-भाषा और विषय की उपलब्धि इसी तरह मान्यता पाती है — पुरस्कारों के रूप में, chapters के रूप में नहीं।"
+    },
+    {
+      "text": "Headmaster’s List & Junior Marshals",
+      "of": "4f15f821",
+      "at": [
+        "charlotte-latin:honors.adjacent[1].label"
+      ],
+      "t": "Headmaster’s List और Junior Marshals"
+    },
+    {
+      "text": "The Headmaster’s List requires a 3.50 GPA with no grade below C−. Junior Marshals are juniors in the top 10% by cumulative average through the first semester of junior year, who assist at Commencement.",
+      "of": "aa5a2683",
+      "at": [
+        "charlotte-latin:honors.adjacent[1].text"
+      ],
+      "t": "Headmaster’s List के लिए 3.50 GPA चाहिए और कोई भी ग्रेड C− से नीचे नहीं होना चाहिए। Junior Marshals वे juniors हैं जो कक्षा 11 के पहले सेमेस्टर तक के संचयी औसत के आधार पर शीर्ष 10% में हों, और जो Commencement में सहयोग करते हैं।"
+    },
+    {
+      "text": "Charlotte Latin publishes no Middle School honor society; the Middle School club model is rotational rather than honorary, with students trying a different club every 8–10 weeks. Beyond the single Cum Laude induction article, no chapter activity is published for any society.",
+      "of": "21531a2e",
+      "at": [
+        "charlotte-latin:honors.flags[0].text"
+      ],
+      "t": "Charlotte Latin किसी Middle School honor society को प्रकाशित नहीं करता; Middle School का क्लब मॉडल सम्मान-आधारित नहीं, चक्रीय है, जिसमें छात्र हर 8–10 सप्ताह में कोई अलग क्लब आज़माते हैं। Cum Laude की दीक्षा पर छपे एकमात्र लेख के अलावा किसी भी सोसाइटी की कोई chapter गतिविधि प्रकाशित नहीं है।"
+    },
+    {
+      "text": "Six programs compete; Speech & Debate is national-tier.",
+      "of": "c89fac66",
+      "at": [
+        "charlotte-latin:clusters.verdict"
+      ],
+      "t": "छह कार्यक्रम प्रतिस्पर्धा करते हैं; Speech & Debate राष्ट्रीय स्तर का है।"
+    },
+    {
+      "text": "Speech & Debate",
+      "of": "cd1e171a",
+      "at": [
+        "charlotte-latin:clusters.rows[0].name"
+      ],
+      "t": "Speech & Debate"
+    },
+    {
+      "text": "Top-20 NSDA program nationally; 5th in Public Forum at the '26 Nationals",
+      "of": "57c6cbe1",
+      "at": [
+        "charlotte-latin:clusters.rows[0].oneLiner"
+      ],
+      "t": "राष्ट्रीय स्तर पर शीर्ष-20 NSDA कार्यक्रम; '26 Nationals में Public Forum में 5वाँ स्थान"
+    },
+    {
+      "text": "Verified — NSDA",
+      "of": "7022d49b",
+      "at": [
+        "charlotte-latin:clusters.rows[0].evidenceLabel"
+      ],
+      "t": "सत्यापित — NSDA"
+    },
+    {
+      "text": "A genuine national-tier operation with external evidence: the NSDA Debate Schools of Excellence Award (top 20 nationally), charter status, and 2025 membership in the 200 Club. Director Bilal Butt holds a second NSDA Diamond. Recent Nationals: Chandra & Rao 5th (Public Forum), Berman & Willett 25th, Yang 33rd (World Schools), Pan (’23) Academic All-American.",
+      "of": "50e32a6c",
+      "at": [
+        "charlotte-latin:clusters.rows[0].note"
+      ],
+      "t": "बाहरी प्रमाणों के साथ सचमुच राष्ट्रीय स्तर का संचालन: NSDA Debate Schools of Excellence Award (राष्ट्रीय स्तर पर शीर्ष 20), charter दर्जा, और 2025 में 200 Club की सदस्यता। निदेशक Bilal Butt के पास दूसरा NSDA Diamond है। हालिया Nationals: Chandra & Rao 5वाँ (Public Forum), Berman & Willett 25वाँ, Yang 33वाँ (World Schools), Pan (’23) Academic All-American।"
+    },
+    {
+      "text": "Science Olympiad",
+      "of": "8097656c",
+      "at": [
+        "charlotte-latin:clusters.rows[1].name"
+      ],
+      "t": "Science Olympiad"
+    },
+    {
+      "text": "Div B (MS) + Div C (US); reached the NC state tournament in '26",
+      "of": "7b616238",
+      "at": [
+        "charlotte-latin:clusters.rows[1].oneLiner"
+      ],
+      "t": "Div B (MS) + Div C (US); '26 में NC राज्य टूर्नामेंट तक पहुँचे"
+    },
+    {
+      "text": "Verified entry",
+      "of": "36a983c9",
+      "at": [
+        "charlotte-latin:clusters.rows[1].evidenceLabel"
+      ],
+      "t": "सत्यापित प्रविष्टि"
+    },
+    {
+      "text": "Appearing in the '26 NC State Tournament field confirms the Div C team advanced past regionals. The public result table doesn't list a confirmed finishing rank, so no placement is claimed.",
+      "of": "c3322a5c",
+      "at": [
+        "charlotte-latin:clusters.rows[1].note"
+      ],
+      "t": "'26 के NC State Tournament की सूची में शामिल होना पुष्ट करता है कि Div C टीम क्षेत्रीय चरण से आगे बढ़ी। सार्वजनिक परिणाम तालिका में कोई पुष्ट अंतिम रैंक दर्ज नहीं है, इसलिए किसी स्थान का दावा नहीं किया गया।"
+    },
+    {
+      "text": "Model UN",
+      "of": "9ba6f23d",
+      "at": [
+        "charlotte-latin:clusters.rows[2].name",
+        "charlotte-country-day:clusters.rows[0].name"
+      ],
+      "t": "Model UN"
+    },
+    {
+      "text": "Local + international conferences, incl. NAIMUN at Georgetown",
+      "of": "f3c65dea",
+      "at": [
+        "charlotte-latin:clusters.rows[2].oneLiner"
+      ],
+      "t": "स्थानीय + अंतरराष्ट्रीय सम्मेलन, जिनमें Georgetown का NAIMUN भी शामिल"
+    },
+    {
+      "text": "Delegate-award tallies aren’t published consistently year to year, so this is reported at the program level rather than with a medal count. The school notes international travel for both Model UN and Debate.",
+      "of": "ba11975a",
+      "at": [
+        "charlotte-latin:clusters.rows[2].note"
+      ],
+      "t": "प्रतिनिधि-पुरस्कारों की गिनती हर साल एक-सी प्रकाशित नहीं होती, इसलिए इसे पदकों की संख्या के बजाय कार्यक्रम-स्तर पर बताया गया है। स्कूल Model UN और Debate दोनों के लिए अंतरराष्ट्रीय यात्रा का उल्लेख करता है।"
+    },
+    {
+      "text": "World Quest",
+      "of": "6be6dbe1",
+      "at": [
+        "charlotte-latin:clusters.rows[3].name"
+      ],
+      "t": "World Quest"
+    },
+    {
+      "text": "Current-affairs quiz competition vs local high schools, annually",
+      "of": "7dd033e4",
+      "at": [
+        "charlotte-latin:clusters.rows[3].oneLiner"
+      ],
+      "t": "स्थानीय हाई स्कूलों के विरुद्ध समसामयिक विषयों की वार्षिक क्विज़ प्रतियोगिता"
+    },
+    {
+      "text": "An academic-quiz-style competition on current affairs, geography, and history — distinct from Model UN.",
+      "of": "27b79cb1",
+      "at": [
+        "charlotte-latin:clusters.rows[3].note"
+      ],
+      "t": "समसामयिक विषयों, भूगोल और इतिहास पर शैक्षणिक क्विज़ शैली की प्रतियोगिता — Model UN से अलग।"
+    },
+    {
+      "text": "Math Team",
+      "of": "10d12f94",
+      "at": [
+        "charlotte-latin:clusters.rows[4].name"
+      ],
+      "t": "Math Team"
+    },
+    {
+      "text": "CLS Math Team competes interscholastically; standings unpublished",
+      "of": "b2e17d88",
+      "at": [
+        "charlotte-latin:clusters.rows[4].oneLiner"
+      ],
+      "t": "CLS Math Team अंतर-विद्यालयी स्तर पर प्रतिस्पर्धा करती है; स्थान प्रकाशित नहीं"
+    },
+    {
+      "text": "The Math Club feeds the CLS Math Team; the separate CLS Math Tutors club extends math into service via tutoring partnerships with local schools. Competition results aren’t published in detail.",
+      "of": "c777d3a0",
+      "at": [
+        "charlotte-latin:clusters.rows[4].note"
+      ],
+      "t": "Math Club से CLS Math Team को छात्र मिलते हैं; अलग CLS Math Tutors क्लब स्थानीय स्कूलों के साथ ट्यूशन साझेदारियों के ज़रिए गणित को सेवा तक बढ़ाता है। प्रतियोगिता के परिणाम विस्तार से प्रकाशित नहीं हैं।"
+    },
+    {
+      "text": "Individual STEM",
+      "of": "4ee58c17",
+      "at": [
+        "charlotte-latin:clusters.rows[5].name"
+      ],
+      "t": "व्यक्तिगत STEM"
+    },
+    {
+      "text": "A junior placed at the NC State Science & Engineering Fair, spring '26",
+      "of": "5746c4d9",
+      "at": [
+        "charlotte-latin:clusters.rows[5].oneLiner"
+      ],
+      "t": "कक्षा 11 के एक छात्र ने वसंत '26 में NC State Science & Engineering Fair में स्थान पाया"
+    },
+    {
+      "text": "School news",
+      "of": "d3a11458",
+      "at": [
+        "charlotte-latin:clusters.rows[5].evidenceLabel"
+      ],
+      "t": "स्कूल समाचार"
+    },
+    {
+      "text": "Individual science-fair and research competition recurs in the school’s news beyond team clubs.",
+      "of": "3dd99e50",
+      "at": [
+        "charlotte-latin:clusters.rows[5].note"
+      ],
+      "t": "टीम क्लबों से परे, व्यक्तिगत विज्ञान-मेला और शोध प्रतियोगिता स्कूल के समाचारों में बार-बार आती है।"
+    },
+    {
+      "text": "25 Upper School clubs across six interest areas; the younger divisions run differently by design.",
+      "of": "7ba4b521",
+      "at": [
+        "charlotte-latin:catalog.verdict"
+      ],
+      "t": "छह रुचि-क्षेत्रों में फैले 25 Upper School क्लब; छोटी कक्षाओं के डिवीज़न जान-बूझकर अलग तरह से चलते हैं।"
+    },
+    {
+      "text": "Filter by interest; every club keeps its one-line purpose.",
+      "of": "8505e38f",
+      "at": [
+        "charlotte-latin:catalog.verdictHint"
+      ],
+      "t": "रुचि के अनुसार छाँटें; हर क्लब के साथ उसका एक-पंक्ति उद्देश्य दिया है।"
+    },
+    {
+      "text": "Service",
+      "of": "b643c704",
+      "at": [
+        "charlotte-latin:catalog.categories[0].short",
+        "charlotte-latin:catalog.categories[0].full",
+        "charlotte-country-day:catalog.categories[2].short",
+        "charlotte-country-day:catalog.categories[2].full",
+        "cannon:catalog.categories[3].short",
+        "cannon:catalog.categories[3].full",
+        "davidson-day:catalog.categories[2].short"
+      ],
+      "t": "सेवा"
+    },
+    {
+      "text": "Competitive & academic",
+      "of": "3449d225",
+      "at": [
+        "charlotte-latin:catalog.categories[1].full"
+      ],
+      "t": "प्रतिस्पर्धी और शैक्षणिक"
+    },
+    {
+      "text": "Leadership",
+      "of": "c26e03ae",
+      "at": [
+        "charlotte-latin:catalog.categories[2].short"
+      ],
+      "t": "नेतृत्व"
+    },
+    {
+      "text": "Leadership & governance",
+      "of": "010e90b0",
+      "at": [
+        "charlotte-latin:catalog.categories[2].full"
+      ],
+      "t": "नेतृत्व और प्रशासन"
+    },
+    {
+      "text": "Special interest",
+      "of": "74f77aca",
+      "at": [
+        "charlotte-latin:catalog.categories[3].short"
+      ],
+      "t": "विशेष रुचि"
+    },
+    {
+      "text": "Special interest & publications",
+      "of": "2b3517b3",
+      "at": [
+        "charlotte-latin:catalog.categories[3].full"
+      ],
+      "t": "विशेष रुचि और प्रकाशन"
+    },
+    {
+      "text": "Affinity & mentorship",
+      "of": "93155626",
+      "at": [
+        "charlotte-latin:catalog.categories[4].full"
+      ],
+      "t": "Affinity और मार्गदर्शन"
+    },
+    {
+      "text": "Language",
+      "of": "9a73db9b",
+      "at": [
+        "charlotte-latin:catalog.categories[5].short"
+      ],
+      "t": "भाषा"
+    },
+    {
+      "text": "Culture & language",
+      "of": "ebfd54c3",
+      "at": [
+        "charlotte-latin:catalog.categories[5].full"
+      ],
+      "t": "संस्कृति और भाषा"
+    },
+    {
+      "text": "Umbrella — coordinates weekly service across the Upper School; feeds the 150-hour Service Society",
+      "of": "ef03e6eb",
+      "at": [
+        "charlotte-latin:catalog.clubs[0].note"
+      ],
+      "t": "छत्र संगठन — पूरे Upper School में साप्ताहिक सेवा का समन्वय करता है; 150-घंटे वाली Service Society को छात्र देता है"
+    },
+    {
+      "text": "Sandwiches for people experiencing homelessness; service hours awarded",
+      "of": "b8b47cff",
+      "at": [
+        "charlotte-latin:catalog.clubs[1].note"
+      ],
+      "t": "बेघर लोगों के लिए सैंडविच; सेवा-घंटे दिए जाते हैं"
+    },
+    {
+      "text": "Weekly weekend-food packing for students who rely on free school meals",
+      "of": "b2426da3",
+      "at": [
+        "charlotte-latin:catalog.clubs[2].note"
+      ],
+      "t": "मुफ़्त स्कूल भोजन पर निर्भर छात्रों के लिए हर सप्ताह सप्ताहांत का खाना पैक करना"
+    },
+    {
+      "text": "Adopt-a-stream, campus recycling, and the Sierra Student Coalition",
+      "of": "cc784826",
+      "at": [
+        "charlotte-latin:catalog.clubs[3].note"
+      ],
+      "t": "Adopt-a-stream, कैंपस रीसाइक्लिंग, और Sierra Student Coalition"
+    },
+    {
+      "text": "Blankets and toys for Humane Society shelter animals",
+      "of": "921000a4",
+      "at": [
+        "charlotte-latin:catalog.clubs[4].note"
+      ],
+      "t": "Humane Society के आश्रय-गृह के जानवरों के लिए कंबल और खिलौने"
+    },
+    {
+      "text": "Raises awareness of the dangers of impaired driving",
+      "of": "a7e5e31e",
+      "at": [
+        "charlotte-latin:catalog.clubs[5].note"
+      ],
+      "t": "नशे में गाड़ी चलाने के ख़तरों के प्रति जागरूकता फैलाता है"
+    },
+    {
+      "text": "Math tutoring partnerships with local schools",
+      "of": "c498a958",
+      "at": [
+        "charlotte-latin:catalog.clubs[6].note"
+      ],
+      "t": "स्थानीय स्कूलों के साथ गणित ट्यूशन की साझेदारियाँ"
+    },
+    {
+      "text": "Interscholastic debate and public speaking; feeds the flagship Speech & Debate program",
+      "of": "634ef1e3",
+      "at": [
+        "charlotte-latin:catalog.clubs[7].note"
+      ],
+      "t": "अंतर-विद्यालयी वाद-विवाद और सार्वजनिक भाषण; प्रमुख Speech & Debate कार्यक्रम को छात्र देता है"
+    },
+    {
+      "text": "Global-issue debate at local and international MUN conferences",
+      "of": "bccfd2c3",
+      "at": [
+        "charlotte-latin:catalog.clubs[8].note"
+      ],
+      "t": "स्थानीय और अंतरराष्ट्रीय MUN सम्मेलनों में वैश्विक मुद्दों पर वाद-विवाद"
+    },
+    {
+      "text": "Current-affairs quiz team; competes annually against local high schools",
+      "of": "d0e21f93",
+      "at": [
+        "charlotte-latin:catalog.clubs[9].note"
+      ],
+      "t": "समसामयिक विषयों की क्विज़ टीम; हर साल स्थानीय हाई स्कूलों के विरुद्ध प्रतिस्पर्धा करती है"
+    },
+    {
+      "text": "Builds toward interscholastic competition via the CLS Math Team",
+      "of": "fa9b9961",
+      "at": [
+        "charlotte-latin:catalog.clubs[10].note"
+      ],
+      "t": "CLS Math Team के ज़रिए अंतर-विद्यालयी प्रतियोगिता की तैयारी कराता है"
+    },
+    {
+      "text": "Language, literature, and culture of ancient Greece and Rome",
+      "of": "3cd7f4db",
+      "at": [
+        "charlotte-latin:catalog.clubs[11].note"
+      ],
+      "t": "प्राचीन यूनान और रोम की भाषा, साहित्य और संस्कृति"
+    },
+    {
+      "text": "Elected officers and grade delegates; student concerns and campus events",
+      "of": "623b479e",
+      "at": [
+        "charlotte-latin:catalog.clubs[12].note"
+      ],
+      "t": "निर्वाचित पदाधिकारी और कक्षा-प्रतिनिधि; छात्रों की चिंताएँ और कैंपस के आयोजन"
+    },
+    {
+      "text": "Resource group to the elected Honor Council; cross-division liaison",
+      "of": "dd1e67e1",
+      "at": [
+        "charlotte-latin:catalog.clubs[13].note"
+      ],
+      "t": "निर्वाचित Honor Council के लिए सहायक समूह; डिवीज़नों के बीच कड़ी"
+    },
+    {
+      "text": "Host prospective students and families at admissions events",
+      "of": "6a600460",
+      "at": [
+        "charlotte-latin:catalog.clubs[14].note"
+      ],
+      "t": "प्रवेश आयोजनों में संभावित छात्रों और परिवारों की मेज़बानी"
+    },
+    {
+      "text": "Generates enthusiasm and support for all Charlotte Latin teams",
+      "of": "8029f1d2",
+      "at": [
+        "charlotte-latin:catalog.clubs[15].note"
+      ],
+      "t": "Charlotte Latin की सभी टीमों के लिए उत्साह और समर्थन जगाता है"
+    },
+    {
+      "text": "Reading for pleasure with peer discussion of literature",
+      "of": "a9abdbc9",
+      "at": [
+        "charlotte-latin:catalog.clubs[16].note"
+      ],
+      "t": "आनंद के लिए पढ़ना, साथ में साहित्य पर साथियों के साथ चर्चा"
+    },
+    {
+      "text": "Open play and instruction for any student",
+      "of": "651030c2",
+      "at": [
+        "charlotte-latin:catalog.clubs[17].note"
+      ],
+      "t": "किसी भी छात्र के लिए खुला खेल और प्रशिक्षण"
+    },
+    {
+      "text": "Camping and adventure skills: hiking, climbing, rafting",
+      "of": "9f6f531d",
+      "at": [
+        "charlotte-latin:catalog.clubs[18].note"
+      ],
+      "t": "कैंपिंग और साहसिक कौशल: पैदल यात्रा, चढ़ाई, राफ़्टिंग"
+    },
+    {
+      "text": "Photography and reporting for students not enrolled in the yearbook class",
+      "of": "26a58336",
+      "at": [
+        "charlotte-latin:catalog.clubs[19].note"
+      ],
+      "t": "उन छात्रों के लिए फ़ोटोग्राफ़ी और रिपोर्टिंग जो yearbook की कक्षा में नामांकित नहीं हैं"
+    },
+    {
+      "text": "Diversity-programming umbrella; houses Q&A and the Black Student Association",
+      "of": "e4ca1445",
+      "at": [
+        "charlotte-latin:catalog.clubs[20].note"
+      ],
+      "t": "विविधता-कार्यक्रमों का छत्र संगठन; इसके अंतर्गत Q&A और Black Student Association हैं"
+    },
+    {
+      "text": "Pairs upperclass women with freshmen to smooth the transition into high school",
+      "of": "14a5ad15",
+      "at": [
+        "charlotte-latin:catalog.clubs[21].note"
+      ],
+      "t": "हाई स्कूल में प्रवेश आसान बनाने के लिए वरिष्ठ कक्षाओं की छात्राओं को पहले वर्ष की छात्राओं के साथ जोड़ता है"
+    },
+    {
+      "text": "Empowering women at CLS through education, advocacy, and service",
+      "of": "8809a538",
+      "at": [
+        "charlotte-latin:catalog.clubs[22].note"
+      ],
+      "t": "शिक्षा, पैरवी और सेवा के ज़रिए CLS की महिलाओं को सशक्त बनाना"
+    },
+    {
+      "text": "Appreciation of Spanish language and culture",
+      "of": "ccd3b548",
+      "at": [
+        "charlotte-latin:catalog.clubs[23].note"
+      ],
+      "t": "स्पेनिश भाषा और संस्कृति की सराहना"
+    },
+    {
+      "text": "French language and culture in an informal setting",
+      "of": "af6bdd10",
+      "at": [
+        "charlotte-latin:catalog.clubs[24].note"
+      ],
+      "t": "अनौपचारिक माहौल में फ़्रेंच भाषा और संस्कृति"
+    },
+    {
+      "text": "Middle School (6–8)",
+      "of": "6ad60afc",
+      "at": [
+        "charlotte-latin:catalog.divisions[0].label"
+      ],
+      "t": "Middle School (6–8)"
+    },
+    {
+      "text": "Rotating sampler: 25+ offerings in 8–10-week cycles — by design, no fixed roster. Named: Cooking, Just Dance, Robotics, StuCo, Sports, Science Olympiad, Speech & Debate",
+      "of": "08f7056e",
+      "at": [
+        "charlotte-latin:catalog.divisions[0].text"
+      ],
+      "t": "बदलता हुआ नमूना: 8–10 सप्ताह के चक्रों में 25+ विकल्प — जान-बूझकर कोई निश्चित सूची नहीं। नामित: Cooking, Just Dance, Robotics, StuCo, Sports, Science Olympiad, Speech & Debate"
+    },
+    {
+      "text": "Enrichment-based (Hawks' Club + Enrichment blocks), not a club roster — structural, not a gap",
+      "of": "77e8e670",
+      "at": [
+        "charlotte-latin:catalog.divisions[1].text"
+      ],
+      "t": "संवर्धन-आधारित (Hawks' Club + Enrichment blocks), क्लब सूची नहीं — यह संरचनात्मक है, कोई कमी नहीं"
+    },
+    {
+      "text": "A Diversity & Belonging office coordinating two global-awareness student groups, a monthly parent group, and a dedicated student prefect — framed around global cultures rather than identity.",
+      "of": "9b429cf6",
+      "at": [
+        "charlotte-christian:affinity.headline"
+      ],
+      "t": "एक Diversity & Belonging कार्यालय, जो वैश्विक-जागरूकता वाले दो छात्र समूहों, एक मासिक अभिभावक समूह और एक समर्पित छात्र prefect का समन्वय करता है — इसका ढाँचा पहचान के बजाय वैश्विक संस्कृतियों के इर्द-गिर्द है।"
+    },
+    {
+      "text": "Charlotte Christian publishes no identity-based affinity groups; its diversity framing is denominational and global, with families drawn from more than 130 different churches.",
+      "of": "8f5e2c12",
+      "at": [
+        "charlotte-christian:affinity.subhead"
+      ],
+      "t": "Charlotte Christian कोई पहचान-आधारित affinity समूह प्रकाशित नहीं करता; उसकी विविधता की समझ पंथ-आधारित और वैश्विक है, और उसके परिवार 130 से अधिक अलग-अलग चर्चों से आते हैं।"
+    },
+    {
+      "text": "directed by Jozi Walker, Director of Diversity, Belonging and Global Awareness · addresses \"Biblical diversity and belonging from a developmental lens in each of our divisions\"",
+      "of": "15b3cdca",
+      "at": [
+        "charlotte-christian:affinity.umbrella.detail"
+      ],
+      "t": "निदेशन Jozi Walker, Director of Diversity, Belonging and Global Awareness द्वारा · यह \"Biblical diversity and belonging from a developmental lens in each of our divisions\" को संबोधित करता है"
+    },
+    {
+      "text": "Upper School global-awareness group — celebrates cultures from around the world and organizes the annual Multicultural Festival",
+      "of": "17f73ee0",
+      "at": [
+        "charlotte-christian:affinity.groups[0].detail"
+      ],
+      "t": "Upper School का वैश्विक-जागरूकता समूह — दुनिया भर की संस्कृतियों का उत्सव मनाता है और वार्षिक Multicultural Festival आयोजित करता है"
+    },
+    {
+      "text": "student-founded and student-led, drawing members from all four Upper School grades",
+      "of": "425e5ece",
+      "at": [
+        "charlotte-christian:affinity.groups[1].detail"
+      ],
+      "t": "छात्रों द्वारा स्थापित और छात्र-संचालित, जिसमें Upper School की चारों कक्षाओं से सदस्य आते हैं"
+    },
+    {
+      "text": "a parent and community group meeting monthly on diversity, belonging and unity",
+      "of": "0420d498",
+      "at": [
+        "charlotte-christian:affinity.groups[2].detail"
+      ],
+      "t": "विविधता, अपनेपन और एकता पर हर महीने मिलने वाला एक अभिभावक और सामुदायिक समूह"
+    },
+    {
+      "text": "Multicultural awareness through literature, guest speakers and project-based lessons; each classroom is assigned a country for the Multicultural Festival. Programming rather than standing groups.",
+      "of": "2bafbc9f",
+      "at": [
+        "charlotte-christian:affinity.strips[0].text"
+      ],
+      "t": "साहित्य, अतिथि वक्ताओं और परियोजना-आधारित पाठों के ज़रिए बहुसांस्कृतिक जागरूकता; Multicultural Festival के लिए हर कक्षा को एक देश सौंपा जाता है। ये स्थायी समूह नहीं, बल्कि कार्यक्रम हैं।"
+    },
+    {
+      "text": "Cross-cultural development through curriculum, heritage month celebrations and field trips — grade 6 to Sudan Interior Missions, grade 7 to the Holocaust Museum, grade 8 to Civil Rights activities.",
+      "of": "8c58c4c1",
+      "at": [
+        "charlotte-christian:affinity.strips[1].text"
+      ],
+      "t": "पाठ्यक्रम, विरासत-माह के आयोजनों और शैक्षिक भ्रमणों के ज़रिए अंतर-सांस्कृतिक विकास — कक्षा 6 Sudan Interior Missions, कक्षा 7 Holocaust Museum, कक्षा 8 Civil Rights से जुड़ी गतिविधियों में।"
+    },
+    {
+      "text": "Beyond Romans 12, the parent bodies are PTF (Parent Teacher Fellowship) and N.E.W. (Newcomers Embraced & Welcomed) — new-family assimilation rather than identity-based groups — plus the Haverim Ladies’ Bible Study.",
+      "of": "8d74f36c",
+      "at": [
+        "charlotte-christian:affinity.strips[2].text"
+      ],
+      "t": "Romans 12 के अलावा अभिभावक संस्थाएँ हैं PTF (Parent Teacher Fellowship) और N.E.W. (Newcomers Embraced & Welcomed) — जो पहचान-आधारित समूहों के बजाय नए परिवारों को घुलने-मिलने में मदद करती हैं — साथ ही Haverim Ladies’ Bible Study।"
+    },
+    {
+      "text": "A nine-member prefect system of faculty-mentored student leaders — Head, Academic, Admissions, Athletic, Global Awareness, Fine Arts, Service, Spiritual Life and Student Life. The Global Awareness Prefect is the identity and global leadership role; the Service Prefect is the civic one.",
+      "of": "d295ae08",
+      "at": [
+        "charlotte-christian:affinity.leadership"
+      ],
+      "t": "शिक्षकों द्वारा मार्गदर्शित छात्र नेताओं की नौ-सदस्यीय prefect प्रणाली — Head, Academic, Admissions, Athletic, Global Awareness, Fine Arts, Service, Spiritual Life और Student Life। Global Awareness Prefect पहचान और वैश्विक नेतृत्व की भूमिका है; Service Prefect नागरिक भूमिका है।"
+    },
+    {
+      "text": "The school runs two overlapping global/cultural student groups and never reconciles them. The Diversity & Belonging page names only Global Knights; the Knights Headlines feature names only Knights Nations Club; and the Upper School clubs list names neither, omitting both from its 13-club roster. The count of global/cultural groups therefore reads as none, one or two depending which page you open, and no page publishes a total.",
+      "of": "21a2fd6c",
+      "at": [
+        "charlotte-christian:affinity.flags[0].text"
+      ],
+      "t": "स्कूल दो परस्पर अतिव्यापी वैश्विक/सांस्कृतिक छात्र समूह चलाता है और उनके बीच का अंतर कभी नहीं सुलझाता। Diversity & Belonging पृष्ठ केवल Global Knights का नाम लेता है; Knights Headlines की रिपोर्ट केवल Knights Nations Club का; और Upper School की क्लब सूची किसी का नाम नहीं लेती, अपनी 13-क्लब सूची से दोनों को छोड़ देती है। इसलिए वैश्विक/सांस्कृतिक समूहों की संख्या इस पर निर्भर करती है कि आप कौन-सा पृष्ठ खोलते हैं — शून्य, एक या दो — और कोई भी पृष्ठ कुल संख्या प्रकाशित नहीं करता।"
+    },
+    {
+      "text": "No affinity groups by race, ethnicity, gender, religion or orientation exist anywhere on the site, and no Middle or Lower School cultural groups — those divisions get programming only. No membership counts, meeting schedules or faculty sponsors are published for any of the three groups, and Global Knights has no page of its own.",
+      "of": "fb820794",
+      "at": [
+        "charlotte-christian:affinity.flags[1].text"
+      ],
+      "t": "साइट पर कहीं भी नस्ल, जातीयता, लिंग, धर्म या यौन रुझान के आधार पर कोई affinity समूह नहीं है, और न ही Middle या Lower School के कोई सांस्कृतिक समूह — उन डिवीज़नों को केवल कार्यक्रम मिलते हैं। तीनों समूहों में से किसी के लिए भी सदस्य-संख्या, बैठक-समय या शिक्षक-प्रायोजक प्रकाशित नहीं हैं, और Global Knights का अपना कोई पृष्ठ नहीं है।"
+    },
+    {
+      "text": "Service is a graduation requirement here — every Upper Schooler earns 1.0 Winterim credit across four years, a quarter-credit at a time.",
+      "of": "52bd98f5",
+      "at": [
+        "charlotte-christian:service.headline"
+      ],
+      "t": "यहाँ सेवा स्नातक होने की शर्त है — हर Upper School छात्र चार वर्षों में 1.0 Winterim क्रेडिट अर्जित करता है, एक बार में एक-चौथाई क्रेडिट।"
+    },
+    {
+      "text": "Knights Serve, anchored in Micah 6:8, is the umbrella; Winterim is the structural commitment that makes service unavoidable rather than optional.",
+      "of": "672ffd27",
+      "at": [
+        "charlotte-christian:service.subhead"
+      ],
+      "t": "Micah 6:8 पर आधारित Knights Serve छत्र कार्यक्रम है; Winterim वह संरचनात्मक प्रतिबद्धता है जो सेवा को वैकल्पिक नहीं, अनिवार्य बना देती है।"
+    },
+    {
+      "text": "credit to graduate · 0.25 each year",
+      "of": "89bc6b60",
+      "at": [
+        "charlotte-christian:service.programs[0].valueLabel"
+      ],
+      "t": "स्नातक होने के लिए क्रेडिट · हर साल 0.25"
+    },
+    {
+      "text": "A week-long experiential program every March mixing mission trips, cultural travel, internships and on-campus options — 19+ offerings in 2026, each embedding service. Graded pass/fail outside the GPA, and it appears on the report card every year.",
+      "of": "58f75811",
+      "at": [
+        "charlotte-christian:service.programs[0].detail"
+      ],
+      "t": "हर मार्च में एक सप्ताह का अनुभव-आधारित कार्यक्रम, जिसमें mission यात्राएँ, सांस्कृतिक भ्रमण, internships और कैंपस के भीतर के विकल्प शामिल हैं — 2026 में 19+ विकल्प, हर एक में सेवा शामिल। इसका मूल्यांकन GPA से बाहर pass/fail के रूप में होता है, और यह हर साल रिपोर्ट कार्ड पर आता है।"
+    },
+    {
+      "text": "where service hours begin",
+      "of": "273d894d",
+      "at": [
+        "charlotte-christian:service.programs[1].valueLabel"
+      ],
+      "t": "जहाँ से सेवा-घंटे शुरू होते हैं"
+    },
+    {
+      "text": "\"Beginning in sixth grade, students are encouraged to earn service hours each year\" — framed as learning \"the joy of selflessly serving others in the name of Jesus Christ.\" Note the verb is encouraged, not required.",
+      "of": "57d723ae",
+      "at": [
+        "charlotte-christian:service.programs[1].detail"
+      ],
+      "t": "\"Beginning in sixth grade, students are encouraged to earn service hours each year\" — इसे \"the joy of selflessly serving others in the name of Jesus Christ.\" सीखने के रूप में प्रस्तुत किया गया है। ध्यान दें कि क्रिया है प्रोत्साहित, अनिवार्य नहीं।"
+    },
+    {
+      "text": "standing local partners",
+      "of": "1abe7b45",
+      "at": [
+        "charlotte-christian:service.programs[2].valueLabel"
+      ],
+      "t": "स्थायी स्थानीय साझेदार"
+    },
+    {
+      "text": "Samaritan’s Purse, The Odd Sock, Bright Blessings, Roof Above and Harvest Center, with Congregations for Kids named alongside them. Middle School Kingdom Impact Day is the division-wide service day, tied to the six-kingdom house system.",
+      "of": "25f21132",
+      "at": [
+        "charlotte-christian:service.programs[2].detail"
+      ],
+      "t": "Samaritan’s Purse, The Odd Sock, Bright Blessings, Roof Above और Harvest Center, और इनके साथ Congregations for Kids का भी नाम है। Middle School Kingdom Impact Day पूरे डिवीज़न का सेवा-दिवस है, जो छह-kingdom वाली house प्रणाली से जुड़ा है।"
+    },
+    {
+      "text": "Named partners inside Winterim",
+      "of": "cb9471d6",
+      "at": [
+        "charlotte-christian:service.footnoteTitle"
+      ],
+      "t": "Winterim के भीतर नामित साझेदार"
+    },
+    {
+      "text": "Individual 2026 trips carry their own partners — SCORE International in the Dominican Republic, Samaritan’s Feet at Camp Harrison, Give Kids the World and Make-A-Wish at Disney, Surfrider Foundation and Save Your Hood in Greece, Crossroads Christian Academy in Panama, and Nourish Up, Crisis Assistance and Congregations for Kids on Serve Charlotte.",
+      "of": "2f3a9df1",
+      "at": [
+        "charlotte-christian:service.footnote"
+      ],
+      "t": "2026 की अलग-अलग यात्राओं के अपने साझेदार हैं — Dominican Republic में SCORE International, Camp Harrison में Samaritan’s Feet, Disney में Give Kids the World और Make-A-Wish, Greece में Surfrider Foundation और Save Your Hood, Panama में Crossroads Christian Academy, और Serve Charlotte पर Nourish Up, Crisis Assistance तथा Congregations for Kids।"
+    },
+    {
+      "text": "Winterim trips are a graduation requirement and a travel program, Kingdom Impact Day is a division-wide service day, and the Multicultural Festival is an annual all-school event. Cross-Cultural Communications service is a class doing service; Vocational Shadowing and the Alternative Winterim Experience are individually arranged and family-brokered. None is a club.",
+      "of": "31ee9035",
+      "at": [
+        "charlotte-christian:service.flags[0].text"
+      ],
+      "t": "Winterim यात्राएँ स्नातक होने की शर्त और एक यात्रा कार्यक्रम हैं, Kingdom Impact Day पूरे डिवीज़न का सेवा-दिवस है, और Multicultural Festival पूरे स्कूल का वार्षिक आयोजन है। Cross-Cultural Communications की सेवा एक कक्षा द्वारा की जाने वाली सेवा है; Vocational Shadowing और Alternative Winterim Experience व्यक्तिगत रूप से तय होते हैं और परिवार के ज़रिए जुड़ते हैं। इनमें से कोई भी क्लब नहीं है।"
+    },
+    {
+      "text": "The Winterim packet states that the program \"does not count toward additional requirements for conservatory or service hours\" — proving a separate service-hours expectation exists. Yet no numeric hours target is published anywhere on the site, along with no participation percentage, no total hours, and no founding year for Knights Serve. The Knights Serve page advertises 2025-26 service projects with no detail behind the heading.",
+      "of": "8dc5a320",
+      "at": [
+        "charlotte-christian:service.flags[1].text"
+      ],
+      "t": "Winterim पैकेट कहता है कि यह कार्यक्रम \"does not count toward additional requirements for conservatory or service hours\" — जिससे साबित होता है कि सेवा-घंटों की एक अलग अपेक्षा मौजूद है। फिर भी साइट पर कहीं घंटों का कोई संख्यात्मक लक्ष्य प्रकाशित नहीं है, न भागीदारी का प्रतिशत, न कुल घंटे, और न Knights Serve का स्थापना-वर्ष। Knights Serve पृष्ठ 2025-26 की सेवा परियोजनाओं का प्रचार करता है, पर शीर्षक के पीछे कोई ब्योरा नहीं है।"
+    },
+    {
+      "text": "Five recognition societies — one academic, three arts, one world language.",
+      "of": "210931d3",
+      "at": [
+        "charlotte-christian:honors.headline"
+      ],
+      "t": "पाँच मान्यता सोसाइटियाँ — एक शैक्षणिक, तीन कला, एक विश्व भाषा।"
+    },
+    {
+      "text": "Scholarship, leadership, service and character",
+      "of": "692f914d",
+      "at": [
+        "charlotte-christian:honors.societies[0].recognizes"
+      ],
+      "t": "विद्वत्ता, नेतृत्व, सेवा और चरित्र"
+    },
+    {
+      "text": "Achievement in visual art",
+      "of": "57894040",
+      "at": [
+        "charlotte-christian:honors.societies[1].recognizes"
+      ],
+      "t": "दृश्य कला में उपलब्धि"
+    },
+    {
+      "text": "Achievement and service in music",
+      "of": "a60b4aaa",
+      "at": [
+        "charlotte-christian:honors.societies[2].recognizes"
+      ],
+      "t": "संगीत में उपलब्धि और सेवा"
+    },
+    {
+      "text": "Achievement in theatre",
+      "of": "7735b3cc",
+      "at": [
+        "charlotte-christian:honors.societies[3].recognizes"
+      ],
+      "t": "थिएटर में उपलब्धि"
+    },
+    {
+      "text": "Achievement in Spanish",
+      "of": "3a15dedb",
+      "at": [
+        "charlotte-christian:honors.societies[4].recognizes"
+      ],
+      "t": "स्पेनिश में उपलब्धि"
+    },
+    {
+      "text": "Academic Conservatory Program",
+      "of": "e1d7cb71",
+      "at": [
+        "charlotte-christian:honors.adjacent[0].label"
+      ],
+      "t": "Academic Conservatory Program"
+    },
+    {
+      "text": "A graduation distinction in six tracks — Math & Science, Fine Arts, Bible/Philosophy & Religion, English, Social Studies and World Languages — noted on the transcript in senior year. 14% of the Class of 2024 earned at least one.",
+      "of": "5d4c83ca",
+      "at": [
+        "charlotte-christian:honors.adjacent[0].text"
+      ],
+      "t": "छह धाराओं में स्नातक-स्तरीय विशिष्टता — Math & Science, Fine Arts, Bible/Philosophy & Religion, English, Social Studies और World Languages — जो कक्षा 12 में transcript पर दर्ज होती है। Class of 2024 के 14% छात्रों ने कम से कम एक अर्जित की।"
+    },
+    {
+      "text": "Seal of Biliteracy",
+      "of": "525c5b23",
+      "at": [
+        "charlotte-christian:honors.adjacent[1].label"
+      ],
+      "t": "Seal of Biliteracy"
+    },
+    {
+      "text": "Implemented in 2019, testing listening, speaking, reading and writing in two languages. 4% of the Class of 2024 earned it.",
+      "of": "3d44b184",
+      "at": [
+        "charlotte-christian:honors.adjacent[1].text"
+      ],
+      "t": "2019 में लागू, जिसमें दो भाषाओं में सुनने, बोलने, पढ़ने और लिखने की परीक्षा होती है। Class of 2024 के 4% छात्रों ने इसे अर्जित किया।"
+    },
+    {
+      "text": "The school publishes nothing beyond the five names — no induction criteria, no GPA threshold, no chapter activities, advisors, officers, meeting information or current membership counts, and no dedicated honor-societies page. The only induction counts that exist anywhere are from a single 2014 post, which recorded 60 NHS and 54 National Junior Honor Society inductees. Neither NJHS nor the French society it also named appears on the school’s pages today, so neither is reported as current.",
+      "of": "76316153",
+      "at": [
+        "charlotte-christian:honors.flags[0].text"
+      ],
+      "t": "स्कूल इन पाँच नामों के अलावा कुछ प्रकाशित नहीं करता — न दीक्षा के मानदंड, न GPA की सीमा, न chapter की गतिविधियाँ, सलाहकार, पदाधिकारी, बैठक की जानकारी या मौजूदा सदस्य-संख्या, और न honor societies का कोई अलग पृष्ठ। दीक्षितों की जो अकेली संख्याएँ कहीं मौजूद हैं वे 2014 की एक ही पोस्ट से हैं, जिसमें 60 NHS और 54 National Junior Honor Society दीक्षित दर्ज थे। आज स्कूल के पृष्ठों पर न NJHS दिखता है और न वह फ़्रेंच सोसाइटी जिसका नाम उसी पोस्ट में था, इसलिए दोनों में से किसी को मौजूदा नहीं बताया गया।"
+    },
+    {
+      "text": "No Middle School honor society is published at all today, and there is no math, science, journalism or social-studies society — the school has a Latin Club and a Model UN but no corresponding society for either.",
+      "of": "39d849a1",
+      "at": [
+        "charlotte-christian:honors.flags[1].text"
+      ],
+      "t": "आज कोई Middle School honor society बिल्कुल भी प्रकाशित नहीं है, और गणित, विज्ञान, पत्रकारिता या सामाजिक अध्ययन की कोई सोसाइटी नहीं है — स्कूल में Latin Club और Model UN हैं, पर दोनों में से किसी के लिए कोई संगत सोसाइटी नहीं।"
+    },
+    {
+      "text": "Clubs span six fields; the Middle School Chess Team placed 2nd.",
+      "of": "ea0b5a18",
+      "at": [
+        "charlotte-christian:clusters.verdict"
+      ],
+      "t": "क्लब छह क्षेत्रों में फैले हैं; Middle School Chess Team दूसरे स्थान पर रही।"
+    },
+    {
+      "text": "Chess Team",
+      "of": "e1a6ae94",
+      "at": [
+        "charlotte-christian:clusters.rows[0].name"
+      ],
+      "t": "Chess Team"
+    },
+    {
+      "text": "Competitive Middle School team — earned 2nd place at a tournament",
+      "of": "37fa2339",
+      "at": [
+        "charlotte-christian:clusters.rows[0].oneLiner"
+      ],
+      "t": "प्रतिस्पर्धी Middle School टीम — एक टूर्नामेंट में दूसरा स्थान पाया"
+    },
+    {
+      "text": "Chess is a Middle School after-school club with a competitive team; school news reported the team earning second place at a tournament (\"Making Their Move\"). It is the one documented competitive result in this slate.",
+      "of": "82d35193",
+      "at": [
+        "charlotte-christian:clusters.rows[0].note"
+      ],
+      "t": "शतरंज एक Middle School का after-school क्लब है, जिसकी एक प्रतिस्पर्धी टीम है; स्कूल के समाचार में बताया गया कि टीम ने एक टूर्नामेंट में दूसरा स्थान पाया (\"Making Their Move\")। इस सूची में यही एकमात्र दर्ज प्रतिस्पर्धी परिणाम है।"
+    },
+    {
+      "text": "US academic clubs →",
+      "of": "a8762b57",
+      "at": [
+        "charlotte-christian:clusters.rows[1].name"
+      ],
+      "t": "US के शैक्षणिक क्लब →"
+    },
+    {
+      "text": "DECA, Debate, Model UN, Latin Club",
+      "of": "c41ee9a9",
+      "at": [
+        "charlotte-christian:clusters.rows[1].oneLiner"
+      ],
+      "t": "DECA, Debate, Model UN, Latin Club"
+    },
+    {
+      "text": "The Upper School lists a business/marketing chapter (DECA), a student-led Debate club, Model UN, and a Latin Club tied to the classical world-languages program. Per-club competitive records are not published.",
+      "of": "fafc8c5a",
+      "at": [
+        "charlotte-christian:clusters.rows[1].note"
+      ],
+      "t": "Upper School एक व्यवसाय/मार्केटिंग chapter (DECA), एक छात्र-संचालित Debate क्लब, Model UN, और शास्त्रीय विश्व-भाषा कार्यक्रम से जुड़ा एक Latin Club सूचीबद्ध करता है। प्रति-क्लब प्रतिस्पर्धी रिकॉर्ड प्रकाशित नहीं हैं।"
+    },
+    {
+      "text": "Robotics →",
+      "of": "e2b6da96",
+      "at": [
+        "charlotte-christian:clusters.rows[2].name"
+      ],
+      "t": "Robotics →"
+    },
+    {
+      "text": "VEX teams across Upper, Middle, and Lower School",
+      "of": "73984832",
+      "at": [
+        "charlotte-christian:clusters.rows[2].oneLiner"
+      ],
+      "t": "Upper, Middle और Lower School में VEX टीमें"
+    },
+    {
+      "text": "A VEX VRC Robotics Competition Team for grades 9–12, VEX competition teams in Middle School innovation electives, and a recently-added competitive Lower School robotics team.",
+      "of": "e3a8078d",
+      "at": [
+        "charlotte-christian:clusters.rows[2].note"
+      ],
+      "t": "कक्षा 9–12 के लिए एक VEX VRC Robotics Competition Team, Middle School के innovation electives में VEX प्रतियोगिता टीमें, और हाल में जोड़ी गई एक प्रतिस्पर्धी Lower School रोबोटिक्स टीम।"
+    },
+    {
+      "text": "23 named Upper School organizations across four categories, part of 35 across JK–12; the younger divisions rotate, so their counts are named minimums.",
+      "of": "f1a4058e",
+      "at": [
+        "charlotte-christian:catalog.verdict"
+      ],
+      "t": "चार श्रेणियों में फैले 23 नामित Upper School संगठन, जो JK–12 के 35 संगठनों का हिस्सा हैं; छोटी कक्षाओं के डिवीज़नों में चक्रीय व्यवस्था है, इसलिए उनकी संख्याएँ नामित न्यूनतम हैं।"
+    },
+    {
+      "text": "Filter the Upper School roster by category; there is no single published directory.",
+      "of": "282b4c91",
+      "at": [
+        "charlotte-christian:catalog.verdictHint"
+      ],
+      "t": "Upper School की सूची को श्रेणी के अनुसार छाँटें; कोई एक प्रकाशित निर्देशिका नहीं है।"
+    },
+    {
+      "text": "US orgs",
+      "of": "418f00ec",
+      "at": [
+        "charlotte-christian:catalog.countNoun"
+      ],
+      "t": "US संगठन"
+    },
+    {
+      "text": "Student clubs",
+      "of": "60ef7ed5",
+      "at": [
+        "charlotte-christian:catalog.categories[0].short"
+      ],
+      "t": "छात्र क्लब"
+    },
+    {
+      "text": "Student club",
+      "of": "b17e5e84",
+      "at": [
+        "charlotte-christian:catalog.categories[0].full"
+      ],
+      "t": "छात्र क्लब"
+    },
+    {
+      "text": "Honor societies",
+      "of": "fa4511f1",
+      "at": [
+        "charlotte-christian:catalog.categories[1].short"
+      ],
+      "t": "Honor societies"
+    },
+    {
+      "text": "Honor society",
+      "of": "c53b433d",
+      "at": [
+        "charlotte-christian:catalog.categories[1].full"
+      ],
+      "t": "Honor society"
+    },
+    {
+      "text": "Leadership & media",
+      "of": "1d1fb080",
+      "at": [
+        "charlotte-christian:catalog.categories[2].short"
+      ],
+      "t": "नेतृत्व और मीडिया"
+    },
+    {
+      "text": "Leadership / media",
+      "of": "3320c1fb",
+      "at": [
+        "charlotte-christian:catalog.categories[2].full"
+      ],
+      "t": "नेतृत्व / मीडिया"
+    },
+    {
+      "text": "Global awareness",
+      "of": "6969aad7",
+      "at": [
+        "charlotte-christian:catalog.categories[3].short",
+        "charlotte-christian:catalog.categories[3].full"
+      ],
+      "t": "वैश्विक जागरूकता"
+    },
+    {
+      "text": "Upper School student club",
+      "of": "bf840d8a",
+      "at": [
+        "charlotte-christian:catalog.clubs[0].note"
+      ],
+      "t": "Upper School का छात्र क्लब"
+    },
+    {
+      "text": "Friendship and inclusion for people with intellectual and developmental disabilities",
+      "of": "4100edbd",
+      "at": [
+        "charlotte-christian:catalog.clubs[1].note"
+      ],
+      "t": "बौद्धिक और विकासात्मक अक्षमताओं वाले लोगों के लिए मित्रता और समावेश"
+    },
+    {
+      "text": "Student-led debate club",
+      "of": "7e46158b",
+      "at": [
+        "charlotte-christian:catalog.clubs[2].note"
+      ],
+      "t": "छात्र-संचालित वाद-विवाद क्लब"
+    },
+    {
+      "text": "Business, marketing, and entrepreneurship competition chapter",
+      "of": "8c177d81",
+      "at": [
+        "charlotte-christian:catalog.clubs[3].note"
+      ],
+      "t": "व्यवसाय, मार्केटिंग और उद्यमिता प्रतियोगिता का chapter"
+    },
+    {
+      "text": "Environmental awareness and stewardship",
+      "of": "0d77f5ad",
+      "at": [
+        "charlotte-christian:catalog.clubs[4].note"
+      ],
+      "t": "पर्यावरण जागरूकता और देखभाल"
+    },
+    {
+      "text": "Leadership development for young women",
+      "of": "60eff4c2",
+      "at": [
+        "charlotte-christian:catalog.clubs[5].note"
+      ],
+      "t": "युवा महिलाओं के लिए नेतृत्व विकास"
+    },
+    {
+      "text": "Wellness and healthy-living club",
+      "of": "a2986728",
+      "at": [
+        "charlotte-christian:catalog.clubs[6].note"
+      ],
+      "t": "स्वास्थ्य और स्वस्थ जीवनशैली का क्लब"
+    },
+    {
+      "text": "Encouragement / letter-writing service club",
+      "of": "a041f3cd",
+      "at": [
+        "charlotte-christian:catalog.clubs[7].note"
+      ],
+      "t": "प्रोत्साहन / पत्र-लेखन का सेवा क्लब"
+    },
+    {
+      "text": "Film-appreciation interest club",
+      "of": "8853d1e7",
+      "at": [
+        "charlotte-christian:catalog.clubs[8].note"
+      ],
+      "t": "फ़िल्म-सराहना का रुचि क्लब"
+    },
+    {
+      "text": "Recreational Spikeball club",
+      "of": "df2cc649",
+      "at": [
+        "charlotte-christian:catalog.clubs[9].note"
+      ],
+      "t": "मनोरंजक Spikeball क्लब"
+    },
+    {
+      "text": "Recreational ultimate frisbee club",
+      "of": "7210fc15",
+      "at": [
+        "charlotte-christian:catalog.clubs[10].note"
+      ],
+      "t": "मनोरंजक ultimate frisbee क्लब"
+    },
+    {
+      "text": "Latin language and classical culture",
+      "of": "470759b7",
+      "at": [
+        "charlotte-christian:catalog.clubs[11].note"
+      ],
+      "t": "लैटिन भाषा और शास्त्रीय संस्कृति"
+    },
+    {
+      "text": "Competitive video-gaming (also a Middle School after-school club)",
+      "of": "65ecd3da",
+      "at": [
+        "charlotte-christian:catalog.clubs[13].note"
+      ],
+      "t": "प्रतिस्पर्धी वीडियो गेमिंग (यह Middle School का after-school क्लब भी है)"
+    },
+    {
+      "text": "Spanish-language honor society",
+      "of": "579d3c0a",
+      "at": [
+        "charlotte-christian:catalog.clubs[15].note"
+      ],
+      "t": "स्पेनिश भाषा की honor society"
+    },
+    {
+      "text": "Music honor society",
+      "of": "430c286e",
+      "at": [
+        "charlotte-christian:catalog.clubs[16].note"
+      ],
+      "t": "संगीत की honor society"
+    },
+    {
+      "text": "Visual-arts honor society (retained per the series rule)",
+      "of": "b1c559cc",
+      "at": [
+        "charlotte-christian:catalog.clubs[17].note"
+      ],
+      "t": "दृश्य-कला की honor society (श्रृंखला-नियम के अनुसार रखी गई)"
+    },
+    {
+      "text": "Theater honor society (retained per the series rule)",
+      "of": "ff1dc1d8",
+      "at": [
+        "charlotte-christian:catalog.clubs[18].note"
+      ],
+      "t": "थिएटर की honor society (श्रृंखला-नियम के अनुसार रखी गई)"
+    },
+    {
+      "text": "Nine student leadership roles across the Upper School",
+      "of": "ca984c4e",
+      "at": [
+        "charlotte-christian:catalog.clubs[19].note"
+      ],
+      "t": "पूरे Upper School में छात्र नेतृत्व की नौ भूमिकाएँ"
+    },
+    {
+      "text": "Student broadcast / news media program",
+      "of": "b5a5ec21",
+      "at": [
+        "charlotte-christian:catalog.clubs[20].note"
+      ],
+      "t": "छात्र प्रसारण / समाचार मीडिया कार्यक्रम"
+    },
+    {
+      "text": "Competitive VEX robotics team (grades 9–12)",
+      "of": "6481dd6f",
+      "at": [
+        "charlotte-christian:catalog.clubs[21].note"
+      ],
+      "t": "प्रतिस्पर्धी VEX रोबोटिक्स टीम (कक्षा 9–12)"
+    },
+    {
+      "text": "Global-awareness student club (also a Middle School student group)",
+      "of": "556a478f",
+      "at": [
+        "charlotte-christian:catalog.clubs[22].note"
+      ],
+      "t": "वैश्विक-जागरूकता का छात्र क्लब (यह Middle School का छात्र समूह भी है)"
+    },
+    {
+      "text": "Middle School (5–8)",
+      "of": "6b3bf75b",
+      "at": [
+        "charlotte-christian:catalog.divisions[0].label"
+      ],
+      "t": "Middle School (5–8)"
+    },
+    {
+      "text": "Named minimum: Mountain Biking, Chess (incl. a competitive Chess Team), and Esports, plus a Global Knights student group — some offerings are schedule-embedded and not posted publicly, so this is a floor, not a total.",
+      "of": "91cb9407",
+      "at": [
+        "charlotte-christian:catalog.divisions[0].text"
+      ],
+      "t": "नामित न्यूनतम: Mountain Biking, Chess (जिसमें एक प्रतिस्पर्धी Chess Team शामिल है), और Esports, साथ में एक Global Knights छात्र समूह — कुछ विकल्प समय-सारणी में ही शामिल हैं और सार्वजनिक रूप से प्रकाशित नहीं होते, इसलिए यह न्यूनतम सीमा है, कुल नहीं।"
+    },
+    {
+      "text": "Named minimum",
+      "of": "d932c1b6",
+      "at": [
+        "charlotte-christian:catalog.divisions[0].tag",
+        "charlotte-christian:catalog.divisions[1].tag"
+      ],
+      "t": "नामित न्यूनतम"
+    },
+    {
+      "text": "Lower School (JK–4)",
+      "of": "18301ce5",
+      "at": [
+        "charlotte-christian:catalog.divisions[1].label"
+      ],
+      "t": "Lower School (JK–4)"
+    },
+    {
+      "text": "Named minimum: eight rotating after-school enrichment clubs — Art, Coding, Flag Football, Lacrosse, Running, Soccer, STEM, and a Robotics Team (representative). Enrichment rotates weekly and the public list is explicitly partial.",
+      "of": "0ed2a19c",
+      "at": [
+        "charlotte-christian:catalog.divisions[1].text"
+      ],
+      "t": "नामित न्यूनतम: आठ चक्रीय after-school संवर्धन क्लब — Art, Coding, Flag Football, Lacrosse, Running, Soccer, STEM, और एक Robotics Team (प्रतिनिधिक)। संवर्धन हर सप्ताह बदलता है और सार्वजनिक सूची स्पष्ट रूप से अधूरी है।"
+    },
+    {
+      "text": "Count & scope",
+      "of": "b12a9c3e",
+      "at": [
+        "charlotte-christian:catalog.divisions[2].label"
+      ],
+      "t": "संख्या और दायरा"
+    },
+    {
+      "text": "35 named in-scope organizations JK–12 (23 Upper + 4 Middle + 8 Lower); no single published directory. Excluded as non-clubs: the “kingdom” system, Reading Knights, Knights Serve, and parent/community bodies (PTF, boosters, etc.). Could not confirm: a Middle School student council or an NJHS chapter.",
+      "of": "96445c39",
+      "at": [
+        "charlotte-christian:catalog.divisions[2].text"
+      ],
+      "t": "JK–12 में दायरे के भीतर 35 नामित संगठन (23 Upper + 4 Middle + 8 Lower); कोई एक प्रकाशित निर्देशिका नहीं। क्लब न होने के कारण बाहर रखे गए: “kingdom” प्रणाली, Reading Knights, Knights Serve, और अभिभावक/सामुदायिक संस्थाएँ (PTF, boosters, आदि)। पुष्टि नहीं हो सकी: कोई Middle School student council या कोई NJHS chapter।"
+    },
+    {
+      "text": "Fifteen affinity groups enumerated across all three divisions — every one open to all students — under a single umbrella forum, with a student leadership corps behind it.",
+      "of": "c2dfd002",
+      "at": [
+        "charlotte-country-day:affinity.headline"
+      ],
+      "t": "तीनों डिवीज़नों में गिने गए पंद्रह affinity समूह — हर एक सभी छात्रों के लिए खुला — एक ही छत्र मंच के अंतर्गत, और उसके पीछे एक छात्र नेतृत्व दल।"
+    },
+    {
+      "text": "A more developed structure than most peer schools publish, running from first grade through twelfth and extending to parents.",
+      "of": "e883adc0",
+      "at": [
+        "charlotte-country-day:affinity.subhead"
+      ],
+      "t": "अधिकांश समकक्ष स्कूलों की तुलना में कहीं अधिक विकसित संरचना, जो कक्षा 1 से कक्षा 12 तक चलती है और अभिभावकों तक फैली है।"
+    },
+    {
+      "text": "the umbrella for all Upper School affinity groups since 2010 · founded 1996 · Lunch Forum est. 2014 · every student introduced via the required Freshman Seminar",
+      "of": "2003f12a",
+      "at": [
+        "charlotte-country-day:affinity.umbrella.detail"
+      ],
+      "t": "2010 से Upper School के सभी affinity समूहों का छत्र मंच · स्थापना 1996 · Lunch Forum की स्थापना 2014 · हर छात्र का परिचय अनिवार्य Freshman Seminar के ज़रिए"
+    },
+    {
+      "text": "Latine / Hispanic affinity",
+      "of": "3ceb24c4",
+      "at": [
+        "charlotte-country-day:affinity.groups[0].detail"
+      ],
+      "t": "Latine / Hispanic affinity समूह"
+    },
+    {
+      "text": "Asian & Asian-American affinity",
+      "of": "c9bbbafe",
+      "at": [
+        "charlotte-country-day:affinity.groups[1].detail"
+      ],
+      "t": "एशियाई और Asian-American affinity"
+    },
+    {
+      "text": "Black student affinity",
+      "of": "7e4b2139",
+      "at": [
+        "charlotte-country-day:affinity.groups[2].detail"
+      ],
+      "t": "अश्वेत छात्र affinity"
+    },
+    {
+      "text": "religious dialogue across faiths",
+      "of": "681a6e84",
+      "at": [
+        "charlotte-country-day:affinity.groups[3].detail"
+      ],
+      "t": "विभिन्न आस्थाओं के बीच धार्मिक संवाद"
+    },
+    {
+      "text": "international students & cultures",
+      "of": "635cc022",
+      "at": [
+        "charlotte-country-day:affinity.groups[4].detail"
+      ],
+      "t": "अंतरराष्ट्रीय छात्र और संस्कृतियाँ"
+    },
+    {
+      "text": "JCC — Jewish culture & community",
+      "of": "ec257186",
+      "at": [
+        "charlotte-country-day:affinity.groups[5].detail"
+      ],
+      "t": "JCC — यहूदी संस्कृति और समुदाय"
+    },
+    {
+      "text": "multiracial affinity group",
+      "of": "6e16e2a9",
+      "at": [
+        "charlotte-country-day:affinity.groups[6].detail"
+      ],
+      "t": "बहुनस्लीय affinity समूह"
+    },
+    {
+      "text": "Promoting Respect, Inclusion and Safety for Sexual Minorities",
+      "of": "226df59b",
+      "at": [
+        "charlotte-country-day:affinity.groups[7].detail"
+      ],
+      "t": "Promoting Respect, Inclusion and Safety for Sexual Minorities"
+    },
+    {
+      "text": "Super Women's Affinity Group",
+      "of": "1211da1b",
+      "at": [
+        "charlotte-country-day:affinity.groups[8].detail"
+      ],
+      "t": "Super Women's Affinity Group"
+    },
+    {
+      "text": "· 5 groups",
+      "of": "ec20171f",
+      "at": [
+        "charlotte-country-day:affinity.strips[0].hint"
+      ],
+      "t": "· 5 समूह"
+    },
+    {
+      "text": "African American Affinity Group · Jewish Culture Club · MOSAIC (Mutual Respect, Open-Mindedness, Self-Respect, Attitude, Individuality, Community) · Multiracial Affinity Group · South Asian Affinity Group, added 2021",
+      "of": "72d3d808",
+      "at": [
+        "charlotte-country-day:affinity.strips[0].text"
+      ],
+      "t": "African American Affinity Group · Jewish Culture Club · MOSAIC (Mutual Respect, Open-Mindedness, Self-Respect, Attitude, Individuality, Community) · Multiracial Affinity Group · South Asian Affinity Group, 2021 में जोड़ा गया"
+    },
+    {
+      "text": "· grades 1–4",
+      "of": "0bb3c2e2",
+      "at": [
+        "charlotte-country-day:affinity.strips[1].hint"
+      ],
+      "t": "· कक्षा 1–4"
+    },
+    {
+      "text": "Students of Color Affinity Group — begun 2019 with help from POCIS and Lower School teachers. The ecosystem starts before Middle School.",
+      "of": "7465e93d",
+      "at": [
+        "charlotte-country-day:affinity.strips[1].text"
+      ],
+      "t": "Students of Color Affinity Group — 2019 में POCIS और Lower School के शिक्षकों की मदद से शुरू हुआ। यह पूरा तंत्र Middle School से पहले ही शुरू हो जाता है।"
+    },
+    {
+      "text": "POCIS (People of Color in Independent Schools), established here in 1999, which runs an annual gathering, a community cookout, a Lower School dance and a senior showcase · International Parents Group — families get affinity spaces too.",
+      "of": "32fdc0a2",
+      "at": [
+        "charlotte-country-day:affinity.strips[2].text"
+      ],
+      "t": "POCIS (People of Color in Independent Schools), जिसकी यहाँ स्थापना 1999 में हुई, और जो एक वार्षिक सभा, एक सामुदायिक भोज, एक Lower School नृत्य और एक senior showcase आयोजित करता है · International Parents Group — परिवारों को भी affinity स्थान मिलते हैं।"
+    },
+    {
+      "text": "The Student Diversity Leadership Corps (SDLC) gives selected Middle and Upper Schoolers a formal role in the school's diversity work. Students also attend the national NAIS Student Diversity Leadership Conference, and Country Day created and hosts the Affirming Community Together (ACT) Conference for area middle schoolers — first held in 2012, it grew out of Upper Schoolers wanting to pass on what they learned at national conferences. Since 1998 the school has sent two faculty from each division and six Upper School students to the NAIS People of Color Conference every year.",
+      "of": "254c5fe7",
+      "at": [
+        "charlotte-country-day:affinity.leadership"
+      ],
+      "t": "Student Diversity Leadership Corps (SDLC) चुने हुए Middle और Upper School छात्रों को स्कूल के विविधता-कार्य में एक औपचारिक भूमिका देता है। छात्र राष्ट्रीय NAIS Student Diversity Leadership Conference में भी जाते हैं, और Country Day ने इलाक़े के middle school छात्रों के लिए Affirming Community Together (ACT) Conference शुरू किया और उसकी मेज़बानी करता है — पहली बार 2012 में आयोजित, यह Upper School के उन छात्रों की पहल से निकला जो राष्ट्रीय सम्मेलनों में सीखी बातें आगे पहुँचाना चाहते थे। 1998 से स्कूल हर साल हर डिवीज़न से दो शिक्षक और Upper School के छह छात्र NAIS People of Color Conference में भेजता है।"
+    },
+    {
+      "text": "Three official pages disagree. A DEIB stat tile advertises 22 affinity groups; the DEIB program page enumerates 15 by name (9 Upper, 5 Middle, 1 Lower). Both divisional counts are lower than their own rosters too — the Student Life page says 7 Upper School groups against 9 enumerated, and the Middle School page says four against five. We show the 15 that are named and flag the rest rather than silently picking one.",
+      "of": "2e98172f",
+      "at": [
+        "charlotte-country-day:affinity.flags[0].text"
+      ],
+      "t": "तीन आधिकारिक पृष्ठ आपस में मेल नहीं खाते। एक DEIB स्टैट टाइल 22 affinity समूहों का प्रचार करती है; DEIB कार्यक्रम पृष्ठ 15 को नाम से गिनाता है (9 Upper, 5 Middle, 1 Lower)। दोनों डिवीज़नों की संख्याएँ भी उनकी अपनी सूचियों से कम हैं — Student Life पृष्ठ Upper School के 7 समूह बताता है जबकि गिनाए 9 हैं, और Middle School पृष्ठ चार बताता है जबकि हैं पाँच। हम वे 15 दिखाते हैं जिनके नाम दिए गए हैं और बाक़ी को चिह्नित करते हैं, चुपचाप कोई एक आँकड़ा चुनने के बजाय।"
+    },
+    {
+      "text": "The Lower School group is listed as grades 1–4 on the program page but grades 3–4 in the DEIB timeline. The school does not reconcile the two.",
+      "of": "c6fa61c0",
+      "at": [
+        "charlotte-country-day:affinity.flags[1].text"
+      ],
+      "t": "Lower School के समूह को कार्यक्रम पृष्ठ पर कक्षा 1–4 के लिए बताया गया है, पर DEIB समयरेखा में कक्षा 3–4 के लिए। स्कूल इन दोनों के बीच का अंतर नहीं सुलझाता।"
+    },
+    {
+      "text": "Roughly half the junior and senior classes mentor weekly, and the entire Upper School runs the Special Olympics Spring Games — a tradition since 1984.",
+      "of": "4b3ed693",
+      "at": [
+        "charlotte-country-day:service.headline"
+      ],
+      "t": "कक्षा 11 और 12 के लगभग आधे छात्र हर सप्ताह मार्गदर्शन देते हैं, और पूरा Upper School Special Olympics Spring Games चलाता है — यह परंपरा 1984 से चली आ रही है।"
+    },
+    {
+      "text": "Scale and longevity are the story here: these are whole-community commitments, not sign-up-sheet clubs. Service is not tracked as a graduation hours requirement.",
+      "of": "7e9ae3e7",
+      "at": [
+        "charlotte-country-day:service.subhead"
+      ],
+      "t": "यहाँ असली बात पैमाने और निरंतरता की है: ये पूरे समुदाय की प्रतिबद्धताएँ हैं, नाम लिखवाकर बनने वाले क्लब नहीं। सेवा को स्नातक होने के लिए ज़रूरी घंटों के रूप में दर्ज नहीं किया जाता।"
+    },
+    {
+      "text": "of juniors & seniors · weekly",
+      "of": "842cec1f",
+      "at": [
+        "charlotte-country-day:service.programs[0].valueLabel"
+      ],
+      "t": "juniors और seniors का इतना हिस्सा · साप्ताहिक"
+    },
+    {
+      "text": "Sustained weekly mentoring of Rama Road Elementary students — one lunch hour a week, every week. The school's flagship service organization, and a real relationship rather than a one-off event.",
+      "of": "8c2e7ebe",
+      "at": [
+        "charlotte-country-day:service.programs[0].detail"
+      ],
+      "t": "Rama Road Elementary के छात्रों का लगातार साप्ताहिक मार्गदर्शन — सप्ताह में एक lunch घंटा, हर सप्ताह। यह स्कूल का प्रमुख सेवा संगठन है, और एक इक्का-दुक्का आयोजन नहीं बल्कि सचमुच का रिश्ता।"
+    },
+    {
+      "text": "of Upper School · 2 days each April",
+      "of": "6bf53aeb",
+      "at": [
+        "charlotte-country-day:service.programs[1].valueLabel"
+      ],
+      "t": "Upper School का इतना हिस्सा · हर अप्रैल 2 दिन"
+    },
+    {
+      "text": "Academics pause: students, faculty and staff host the Mecklenburg County Spring Games on the Cannon Campus as buddies, timekeepers and event crew — every year since 1984, across nearly four generations of Country Day families.",
+      "of": "941ed590",
+      "at": [
+        "charlotte-country-day:service.programs[1].detail"
+      ],
+      "t": "पढ़ाई रुक जाती है: छात्र, शिक्षक और स्टाफ़ Cannon Campus पर Mecklenburg County Spring Games की मेज़बानी buddies, timekeepers और आयोजन-दल के रूप में करते हैं — 1984 से हर साल, Country Day परिवारों की लगभग चार पीढ़ियों तक।"
+    },
+    {
+      "text": "partner employers · 20+ industries",
+      "of": "4fbf81e9",
+      "at": [
+        "charlotte-country-day:service.programs[2].valueLabel"
+      ],
+      "t": "साझेदार नियोक्ता · 20+ उद्योग"
+    },
+    {
+      "text": "Every senior completes a one-day immersion in professional life through job shadowing and mentorship — many hosts are Country Day parents and alumni — connecting interests to careers since 2017.",
+      "of": "2d57542a",
+      "at": [
+        "charlotte-country-day:service.programs[2].detail"
+      ],
+      "t": "कक्षा 12 का हर छात्र job shadowing और मार्गदर्शन के ज़रिए पेशेवर जीवन में एक दिन का गहन अनुभव पूरा करता है — कई मेज़बान Country Day के अभिभावक और पूर्व-छात्र होते हैं — जो 2017 से रुचियों को करियर से जोड़ रहा है।"
+    },
+    {
+      "text": "The school also names 20+ service-learning partnerships, including Goodwill Industries, ourBridge, The Learning Collaborative, Friendship Trays and Loaves and Fishes.",
+      "of": "43b0d58f",
+      "at": [
+        "charlotte-country-day:service.footnote"
+      ],
+      "t": "स्कूल 20+ सेवा-अधिगम साझेदारियों के नाम भी देता है, जिनमें Goodwill Industries, ourBridge, The Learning Collaborative, Friendship Trays और Loaves and Fishes शामिल हैं।"
+    },
+    {
+      "text": "Of the three signature programs, only Big Brothers Big Sisters is an organized student body. The Spring Games are a whole-division event, the Externship is an individual one-day placement, and Community Service Day, the Parents’ Association Run for Good and the IB Creativity, Activity, Service requirement are events or curricular requirements. The catalog card lists only confirmed organizations.",
+      "of": "a3fd66f5",
+      "at": [
+        "charlotte-country-day:service.flags[0].text"
+      ],
+      "t": "तीनों विशिष्ट कार्यक्रमों में से केवल Big Brothers Big Sisters ही एक संगठित छात्र निकाय है। Spring Games पूरे डिवीज़न का आयोजन है, Externship एक दिन की व्यक्तिगत नियुक्ति है, और Community Service Day, Parents’ Association Run for Good तथा IB Creativity, Activity, Service की शर्त — ये आयोजन या पाठ्यक्रम-संबंधी अनिवार्यताएँ हैं। कैटलॉग कार्ड केवल पुष्ट संगठनों को सूचीबद्ध करता है।"
+    },
+    {
+      "text": "The externship partner count is inconsistent on the school’s own pages — \"more than 175\" in the main section, \"100+\" in a tile summary on that same page, and \"nearly 175\" in the school profile. We show the current 175+.",
+      "of": "a1ab15b7",
+      "at": [
+        "charlotte-country-day:service.flags[1].text"
+      ],
+      "t": "externship साझेदारों की संख्या स्कूल के अपने ही पृष्ठों पर एक-सी नहीं है — मुख्य खंड में \"more than 175\", उसी पृष्ठ की एक टाइल में \"100+\", और स्कूल प्रोफ़ाइल में \"nearly 175\"। हम मौजूदा 175+ दिखाते हैं।"
+    },
+    {
+      "text": "Six selective recognition societies spanning scholarship, service, music, visual art and theatre.",
+      "of": "452972c7",
+      "at": [
+        "charlotte-country-day:honors.headline"
+      ],
+      "t": "छह चयनात्मक मान्यता सोसाइटियाँ, जो विद्वत्ता, सेवा, संगीत, दृश्य कला और थिएटर तक फैली हैं।"
+    },
+    {
+      "text": "Top-tier scholarship — founded 1906 and modeled after Phi Beta Kappa",
+      "of": "da2debf3",
+      "at": [
+        "charlotte-country-day:honors.societies[0].recognizes"
+      ],
+      "t": "शीर्ष स्तर की विद्वत्ता — स्थापना 1906, Phi Beta Kappa की तर्ज़ पर"
+    },
+    {
+      "text": "Academic achievement, service, leadership, character",
+      "of": "c2720482",
+      "at": [
+        "charlotte-country-day:honors.societies[1].recognizes"
+      ],
+      "t": "शैक्षणिक उपलब्धि, सेवा, नेतृत्व, चरित्र"
+    },
+    {
+      "text": "The Middle School counterpart to NHS",
+      "of": "76806c60",
+      "at": [
+        "charlotte-country-day:honors.societies[2].recognizes"
+      ],
+      "t": "NHS का Middle School समकक्ष"
+    },
+    {
+      "text": "Visual-arts achievement",
+      "of": "30aae499",
+      "at": [
+        "charlotte-country-day:honors.societies[3].recognizes",
+        "cannon:honors.societies[5].recognizes"
+      ],
+      "t": "दृश्य-कला में उपलब्धि"
+    },
+    {
+      "text": "Music achievement",
+      "of": "096c9c1b",
+      "at": [
+        "charlotte-country-day:honors.societies[4].recognizes"
+      ],
+      "t": "संगीत में उपलब्धि"
+    },
+    {
+      "text": "Theatre achievement",
+      "of": "57bf1c93",
+      "at": [
+        "charlotte-country-day:honors.societies[5].recognizes",
+        "cannon:honors.societies[7].recognizes"
+      ],
+      "t": "थिएटर में उपलब्धि"
+    },
+    {
+      "text": "Public sources confirm the societies exist but not induction criteria — no GPA cutoff, class-rank percentile or service minimum is published for any of the six, and there is no dedicated honor-societies page. The only hard induction count anywhere is from March 2016, when 45 students were inducted across the three arts societies; a March 2026 Cum Laude ceremony was covered with no count at all. Worth asking on a tour.",
+      "of": "c18b1b1c",
+      "at": [
+        "charlotte-country-day:honors.flags[0].text"
+      ],
+      "t": "सार्वजनिक स्रोत यह पुष्ट करते हैं कि ये सोसाइटियाँ मौजूद हैं, पर दीक्षा के मानदंड नहीं — छहों में से किसी के लिए न कोई GPA सीमा, न कक्षा-रैंक प्रतिशतक, न कोई न्यूनतम सेवा प्रकाशित है, और honor societies का कोई अलग पृष्ठ नहीं है। दीक्षितों की जो अकेली ठोस संख्या कहीं है वह मार्च 2016 की है, जब तीनों कला सोसाइटियों में मिलाकर 45 छात्र दीक्षित हुए; मार्च 2026 के Cum Laude समारोह की रिपोर्ट में कोई संख्या ही नहीं थी। दौरे पर पूछने लायक़ बात।"
+    },
+    {
+      "text": "No world-language honor society exists here — no French, Spanish or Latin society — despite those languages running through AP and IB. Nor is there a math, science or journalism society. That is an absence, not merely undocumented.",
+      "of": "cd6cdfa6",
+      "at": [
+        "charlotte-country-day:honors.flags[1].text"
+      ],
+      "t": "यहाँ विश्व-भाषा की कोई honor society नहीं है — न फ़्रेंच, न स्पेनिश, न लैटिन सोसाइटी — जबकि ये भाषाएँ AP और IB तक पढ़ाई जाती हैं। न ही गणित, विज्ञान या पत्रकारिता की कोई सोसाइटी है। यह अनुपस्थिति है, केवल दस्तावेज़ का न होना नहीं।"
+    },
+    {
+      "text": "Model UN is the flagship, with repeat conference awards.",
+      "of": "642b6163",
+      "at": [
+        "charlotte-country-day:clusters.verdict"
+      ],
+      "t": "Model UN प्रमुख कार्यक्रम है, जिसे सम्मेलनों में बार-बार पुरस्कार मिले हैं।"
+    },
+    {
+      "text": "Delegations of 15–17 to Duke, UNC (MUNCH) & a Virginia conference",
+      "of": "111637aa",
+      "at": [
+        "charlotte-country-day:clusters.rows[0].oneLiner"
+      ],
+      "t": "Duke, UNC (MUNCH) और Virginia के एक सम्मेलन में 15–17 सदस्यों के प्रतिनिधिमंडल"
+    },
+    {
+      "text": "Country Day’s best-documented competitive program. At MUNCH (March 2025) seventeen students competed and six earned awards, including four Outstanding Delegate honors; a Virginia conference produced a Best Delegate award. Both Middle and Upper School delegations are active.",
+      "of": "0a77d6e3",
+      "at": [
+        "charlotte-country-day:clusters.rows[0].note"
+      ],
+      "t": "Country Day का सबसे अच्छी तरह दर्ज प्रतिस्पर्धी कार्यक्रम। MUNCH (मार्च 2025) में सत्रह छात्रों ने भाग लिया और छह को पुरस्कार मिले, जिनमें चार Outstanding Delegate सम्मान शामिल थे; Virginia के एक सम्मेलन से Best Delegate पुरस्कार मिला। Middle और Upper School दोनों के प्रतिनिधिमंडल सक्रिय हैं।"
+    },
+    {
+      "text": "Robotics",
+      "of": "a37971e0",
+      "at": [
+        "charlotte-country-day:clusters.rows[1].name"
+      ],
+      "t": "Robotics"
+    },
+    {
+      "text": "Confirmed by name through student profiles; no results published",
+      "of": "6e7dd702",
+      "at": [
+        "charlotte-country-day:clusters.rows[1].oneLiner"
+      ],
+      "t": "छात्र प्रोफ़ाइलों के ज़रिए नाम से पुष्ट; कोई परिणाम प्रकाशित नहीं"
+    },
+    {
+      "text": "Named only",
+      "of": "a0706e54",
+      "at": [
+        "charlotte-country-day:clusters.rows[1].evidenceLabel"
+      ],
+      "t": "केवल नाम दर्ज"
+    },
+    {
+      "text": "Robotics is confirmed by name via student profiles in the news archive, but no public competition results (FIRST, VEX, or similar) surfaced for the Upper School program.",
+      "of": "d2040f26",
+      "at": [
+        "charlotte-country-day:clusters.rows[1].note"
+      ],
+      "t": "समाचार आर्काइव की छात्र प्रोफ़ाइलों के ज़रिए Robotics का नाम पुष्ट होता है, पर Upper School कार्यक्रम के लिए कोई सार्वजनिक प्रतियोगिता परिणाम (FIRST, VEX, या इसी तरह के) सामने नहीं आए।"
+    },
+    {
+      "text": "About 45–50 Upper School clubs and activities, spanning governance, academics, service, and affinity groups.",
+      "of": "afc613e2",
+      "at": [
+        "charlotte-country-day:catalog.verdict"
+      ],
+      "t": "लगभग 45–50 Upper School क्लब और गतिविधियाँ, जो प्रशासन, शिक्षा, सेवा और affinity समूहों तक फैली हैं।"
+    },
+    {
+      "text": "Filter by category to see the clubs in each area.",
+      "of": "c37374c1",
+      "at": [
+        "charlotte-country-day:catalog.verdictHint",
+        "davidson-day:catalog.verdictHint"
+      ],
+      "t": "हर क्षेत्र के क्लब देखने के लिए श्रेणी के अनुसार छाँटें।"
+    },
+    {
+      "text": "clubs",
+      "of": "a048adda",
+      "at": [
+        "charlotte-country-day:catalog.countNoun",
+        "davidson-day:catalog.countNoun"
+      ],
+      "t": "क्लब"
+    },
+    {
+      "text": "Governance / leadership",
+      "of": "da423f1f",
+      "at": [
+        "charlotte-country-day:catalog.categories[0].full"
+      ],
+      "t": "प्रशासन / नेतृत्व"
+    },
+    {
+      "text": "Academic",
+      "of": "7a88029a",
+      "at": [
+        "charlotte-country-day:catalog.categories[1].short",
+        "davidson-day:catalog.categories[0].short"
+      ],
+      "t": "शैक्षणिक"
+    },
+    {
+      "text": "Academic / competition",
+      "of": "488ff51c",
+      "at": [
+        "charlotte-country-day:catalog.categories[1].full",
+        "davidson-day:catalog.categories[0].full"
+      ],
+      "t": "शैक्षणिक / प्रतियोगिता"
+    },
+    {
+      "text": "Affinity / special interest",
+      "of": "1112f113",
+      "at": [
+        "charlotte-country-day:catalog.categories[3].full"
+      ],
+      "t": "Affinity / विशेष रुचि"
+    },
+    {
+      "text": "Competes across multiple conferences; the flagship competitive program",
+      "of": "c61597c6",
+      "at": [
+        "charlotte-country-day:catalog.clubs[0].note"
+      ],
+      "t": "कई सम्मेलनों में प्रतिस्पर्धा करता है; प्रमुख प्रतिस्पर्धी कार्यक्रम"
+    },
+    {
+      "text": "Upper School robotics program",
+      "of": "fdf529e2",
+      "at": [
+        "charlotte-country-day:catalog.clubs[1].note"
+      ],
+      "t": "Upper School का रोबोटिक्स कार्यक्रम"
+    },
+    {
+      "text": "Core governance body administering the school honor system",
+      "of": "120695fe",
+      "at": [
+        "charlotte-country-day:catalog.clubs[2].note"
+      ],
+      "t": "स्कूल की honor प्रणाली का संचालन करने वाला मुख्य प्रशासनिक निकाय"
+    },
+    {
+      "text": "Core student governance and leadership body",
+      "of": "f5eaf10b",
+      "at": [
+        "charlotte-country-day:catalog.clubs[3].note"
+      ],
+      "t": "मुख्य छात्र प्रशासन और नेतृत्व निकाय"
+    },
+    {
+      "text": "Mentorship / service organization named in the School Profile",
+      "of": "8669523f",
+      "at": [
+        "charlotte-country-day:catalog.clubs[4].note"
+      ],
+      "t": "School Profile में नामित मार्गदर्शन / सेवा संगठन"
+    },
+    {
+      "text": "Special-interest / service group",
+      "of": "9650c4fc",
+      "at": [
+        "charlotte-country-day:catalog.clubs[5].note"
+      ],
+      "t": "विशेष-रुचि / सेवा समूह"
+    },
+    {
+      "text": "Affinity / special-interest group named on the DEIB page",
+      "of": "8f29c08f",
+      "at": [
+        "charlotte-country-day:catalog.clubs[6].note"
+      ],
+      "t": "DEIB पृष्ठ पर नामित affinity / विशेष-रुचि समूह"
+    },
+    {
+      "text": "Also on offer",
+      "of": "d77024b5",
+      "at": [
+        "charlotte-country-day:catalog.divisions[0].label"
+      ],
+      "t": "ये भी उपलब्ध"
+    },
+    {
+      "text": "The Upper School page cites \"nearly 50 clubs\" and the 2025–26 School Profile lists \"45 different clubs and activities.\" Beyond the clubs above, the school also runs 9 Upper School affinity groups (DEIB page) and 5 honor societies.",
+      "of": "f83b603e",
+      "at": [
+        "charlotte-country-day:catalog.divisions[0].text"
+      ],
+      "t": "Upper School पृष्ठ \"nearly 50 clubs\" का हवाला देता है और 2025–26 का School Profile \"45 different clubs and activities.\" सूचीबद्ध करता है। ऊपर दिए क्लबों के अलावा स्कूल Upper School के 9 affinity समूह (DEIB पृष्ठ) और 5 honor societies भी चलाता है।"
+    },
+    {
+      "text": "Cannon confirms affinity groups run in the Upper School — but never names a single one.",
+      "of": "e97a8d60",
+      "at": [
+        "cannon:affinity.headline"
+      ],
+      "t": "Cannon पुष्टि करता है कि Upper School में affinity समूह चलते हैं — पर एक का भी नाम कभी नहीं बताता।"
+    },
+    {
+      "text": "Everything below is what the school does publish; the roster itself is the gap, and it is the most useful thing a parent can know before a tour.",
+      "of": "e7ed7a99",
+      "at": [
+        "cannon:affinity.subhead"
+      ],
+      "t": "नीचे जो कुछ है, वही स्कूल प्रकाशित करता है; कमी सूची की ही है, और दौरे से पहले किसी अभिभावक के लिए यही जानना सबसे उपयोगी है।"
+    },
+    {
+      "text": "What is published",
+      "of": "30a582ef",
+      "at": [
+        "cannon:affinity.strips[0].title"
+      ],
+      "t": "जो प्रकाशित है"
+    },
+    {
+      "text": "· Upper School",
+      "of": "318c494e",
+      "at": [
+        "cannon:affinity.strips[0].hint"
+      ],
+      "t": "· Upper School"
+    },
+    {
+      "text": "\"We have a rich club life, ranging from the significant such as our Affinity Groups, to fun and adventurous clubs like the Star Wars Club, and service-based clubs such as the Habitat Club.\" Clubs are student-led and faculty-supported, meeting during and after school. That sentence is the entire published record.",
+      "of": "e4d949d4",
+      "at": [
+        "cannon:affinity.strips[0].text"
+      ],
+      "t": "\"We have a rich club life, ranging from the significant such as our Affinity Groups, to fun and adventurous clubs like the Star Wars Club, and service-based clubs such as the Habitat Club.\" क्लब छात्र-संचालित और शिक्षक-समर्थित हैं, जो स्कूल के दौरान और उसके बाद मिलते हैं। यही एक वाक्य पूरा प्रकाशित रिकॉर्ड है।"
+    },
+    {
+      "text": "Middle & Lower School",
+      "of": "ecf8e9e5",
+      "at": [
+        "cannon:affinity.strips[1].title"
+      ],
+      "t": "Middle और Lower School"
+    },
+    {
+      "text": "No affinity groups appear in either division. Middle School Student Life lists academic competition teams only — Battle of the Books, Elementary Battle of the Books, Science Olympiad, Model UN, Envirothon — plus Student Council.",
+      "of": "5f73cbc6",
+      "at": [
+        "cannon:affinity.strips[1].text"
+      ],
+      "t": "किसी भी डिवीज़न में कोई affinity समूह नहीं दिखता। Middle School Student Life केवल शैक्षणिक प्रतियोगिता टीमें सूचीबद्ध करता है — Battle of the Books, Elementary Battle of the Books, Science Olympiad, Model UN, Envirothon — साथ में Student Council।"
+    },
+    {
+      "text": "No parent affinity groups. \"Parents at Cannon\" is a general volunteer network organized as Connect, Create, Cultivate and Champion, with no identity-based subgroups.",
+      "of": "6c0b48d7",
+      "at": [
+        "cannon:affinity.strips[2].text"
+      ],
+      "t": "कोई अभिभावक affinity समूह नहीं। \"Parents at Cannon\" एक सामान्य स्वयंसेवी नेटवर्क है, जो Connect, Create, Cultivate और Champion के रूप में संगठित है, और जिसमें कोई पहचान-आधारित उप-समूह नहीं हैं।"
+    },
+    {
+      "text": "No affinity group is named anywhere on cannonschool.org — no roster, no descriptors, no count, and so no count discrepancy either. There is no standalone DEI page: \"Diversity, Belongingness, and Engagement\" is an anchor section on the About page carrying commitment statements and twelve Individual and Community Agreements, but no groups, programs or names. No student diversity leadership arm and no national conference attendance are published.",
+      "of": "d05517e9",
+      "at": [
+        "cannon:affinity.flags[0].text"
+      ],
+      "t": "cannonschool.org पर कहीं किसी affinity समूह का नाम नहीं है — न सूची, न विवरण, न संख्या, और इसीलिए संख्याओं में कोई विरोधाभास भी नहीं। DEI का कोई अलग पृष्ठ नहीं है: \"Diversity, Belongingness, and Engagement\" About पृष्ठ का एक anchor खंड है, जिसमें प्रतिबद्धता के वक्तव्य और बारह Individual and Community Agreements हैं, पर कोई समूह, कार्यक्रम या नाम नहीं। न कोई छात्र diversity नेतृत्व शाखा प्रकाशित है, न किसी राष्ट्रीय सम्मेलन में उपस्थिति।"
+    },
+    {
+      "text": "Service is explicitly not a graduation requirement — and Upper Schoolers still log almost 10,000 hours a year.",
+      "of": "d0d3a1b7",
+      "at": [
+        "cannon:service.headline"
+      ],
+      "t": "सेवा स्पष्ट रूप से स्नातक होने की शर्त नहीं है — फिर भी Upper School के छात्र साल में लगभग 10,000 घंटे दर्ज करते हैं।"
+    },
+    {
+      "text": "The school frames this as evidence of commitment rather than compliance, and backs it with a universal senior capstone and a week-long experiential program.",
+      "of": "42accfcf",
+      "at": [
+        "cannon:service.subhead"
+      ],
+      "t": "स्कूल इसे नियम-पालन के बजाय प्रतिबद्धता के प्रमाण के रूप में प्रस्तुत करता है, और इसके साथ सभी के लिए अनिवार्य senior capstone तथा एक सप्ताह का अनुभव-आधारित कार्यक्रम जोड़ता है।"
+    },
+    {
+      "text": "service hours a year · Upper School",
+      "of": "de4d4d84",
+      "at": [
+        "cannon:service.programs[0].valueLabel"
+      ],
+      "t": "प्रति वर्ष सेवा-घंटे · Upper School"
+    },
+    {
+      "text": "\"Although service is not a graduation requirement at Cannon, students' deep sense of commitment and personal responsibility is evidenced by the collective completion of almost 10,000 service hours each year through school-wide projects and individual efforts.\"",
+      "of": "1d777a60",
+      "at": [
+        "cannon:service.programs[0].detail"
+      ],
+      "t": "\"Although service is not a graduation requirement at Cannon, students' deep sense of commitment and personal responsibility is evidenced by the collective completion of almost 10,000 service hours each year through school-wide projects and individual efforts.\""
+    },
+    {
+      "text": "seniors · every one completes it",
+      "of": "8eaf3a15",
+      "at": [
+        "cannon:service.programs[1].valueLabel"
+      ],
+      "t": "seniors · हर एक इसे पूरा करता है"
+    },
+    {
+      "text": "A service project letting every senior immerse in a philanthropic cause they care about, ending in a presentation to faculty, staff, peers and community members with time for reflection and questions. Listed among the school's Signature Learning Experiences.",
+      "of": "e3f7104a",
+      "at": [
+        "cannon:service.programs[1].detail"
+      ],
+      "t": "एक सेवा परियोजना, जिसमें कक्षा 12 का हर छात्र अपनी पसंद के किसी परोपकारी उद्देश्य में गहराई से जुड़ता है, और अंत में शिक्षकों, स्टाफ़, साथियों और समुदाय के सदस्यों के सामने प्रस्तुति देता है, जिसमें चिंतन और प्रश्नों के लिए समय होता है। यह स्कूल के Signature Learning Experiences में सूचीबद्ध है।"
+    },
+    {
+      "text": "experience tracks · one week each January",
+      "of": "016d2895",
+      "at": [
+        "cannon:service.programs[2].valueLabel"
+      ],
+      "t": "अनुभव-धाराएँ · हर जनवरी एक सप्ताह"
+    },
+    {
+      "text": "A week-long experiential program after winter break that \"challenges students to think critically and practically, to serve others,\" across local-community, professional-skills and trips-and-certifications tracks. Service offerings include a Sea Island Habitat for Humanity trip and a food-bank week studying food insecurity.",
+      "of": "d58ac012",
+      "at": [
+        "cannon:service.programs[2].detail"
+      ],
+      "t": "शीतकालीन अवकाश के बाद एक सप्ताह का अनुभव-आधारित कार्यक्रम, जो \"challenges students to think critically and practically, to serve others,\" और जो स्थानीय-समुदाय, पेशेवर-कौशल तथा यात्रा-और-प्रमाणन धाराओं में फैला है। सेवा विकल्पों में Sea Island Habitat for Humanity की एक यात्रा और खाद्य असुरक्षा का अध्ययन करने वाला एक food-bank सप्ताह शामिल है।"
+    },
+    {
+      "text": "In the Middle School",
+      "of": "a2adbe16",
+      "at": [
+        "cannon:service.footnoteTitle"
+      ],
+      "t": "Middle School में"
+    },
+    {
+      "text": "A grade-level service-learning model has students investigate topics, identify needs in teams and build action plans, with guest speakers from more than eight organizations including Special Olympics, the Society of St. Andrew Gleaning Network and the Cabarrus County Soil & Water Conservation District. Off-campus work runs to the Share the Harvest community garden, Salvation Army food drives and the Cabarrus County Bilingual Preschool.",
+      "of": "2fef8244",
+      "at": [
+        "cannon:service.footnote"
+      ],
+      "t": "कक्षा-स्तरीय सेवा-अधिगम मॉडल में छात्र विषयों की पड़ताल करते हैं, टीमों में ज़रूरतें पहचानते हैं और कार्य-योजनाएँ बनाते हैं, जिसमें आठ से अधिक संगठनों के अतिथि वक्ता आते हैं, जिनमें Special Olympics, Society of St. Andrew Gleaning Network और Cabarrus County Soil & Water Conservation District शामिल हैं। कैंपस के बाहर का काम Share the Harvest सामुदायिक बग़ीचे, Salvation Army के खाद्य-संग्रह अभियानों और Cabarrus County Bilingual Preschool तक फैला है।"
+    },
+    {
+      "text": "The Senior Capstone is an individual graduation-track project and Winterm is a curricular program — neither is a club. Because service is not required, the ~10,000 hours explicitly include individual efforts rather than club membership. The Habitat Club is the exception: it is the one named service club.",
+      "of": "ee160914",
+      "at": [
+        "cannon:service.flags[0].text"
+      ],
+      "t": "Senior Capstone स्नातक-धारा की एक व्यक्तिगत परियोजना है और Winterm एक पाठ्यक्रम-संबंधी कार्यक्रम — इनमें से कोई क्लब नहीं है। चूँकि सेवा अनिवार्य नहीं है, इसलिए ~10,000 घंटों में स्पष्ट रूप से क्लब सदस्यता के बजाय व्यक्तिगत प्रयास भी शामिल हैं। Habitat Club अपवाद है: यही एकमात्र नामित सेवा क्लब है।"
+    },
+    {
+      "text": "The hours figure is unstable across the school’s own publications. An earlier 2024-25 profile said around 15,000; the current Upper School page says almost 10,000; the 2025-26 profile drops the statistic altogether. We show the current published figure and scope it to the Upper School, since that is the page carrying it.",
+      "of": "ca5fd79c",
+      "at": [
+        "cannon:service.flags[1].text"
+      ],
+      "t": "घंटों का आँकड़ा स्कूल के अपने ही प्रकाशनों में स्थिर नहीं है। 2024-25 के एक पुराने प्रोफ़ाइल में लगभग 15,000 कहा गया था; मौजूदा Upper School पृष्ठ लगभग 10,000 कहता है; 2025-26 का प्रोफ़ाइल यह आँकड़ा पूरी तरह हटा देता है। हम मौजूदा प्रकाशित आँकड़ा दिखाते हैं और उसे Upper School तक सीमित रखते हैं, क्योंकि वही पृष्ठ उसे दे रहा है।"
+    },
+    {
+      "text": "Eleven honor societies — the widest span in this comparison, reaching social studies, mathematics, English, journalism, three arts and three world languages.",
+      "of": "525d2670",
+      "at": [
+        "cannon:honors.headline"
+      ],
+      "t": "ग्यारह honor societies — इस तुलना में सबसे विस्तृत दायरा, जो सामाजिक अध्ययन, गणित, अंग्रेज़ी, पत्रकारिता, तीन कलाओं और तीन विश्व भाषाओं तक पहुँचता है।"
+    },
+    {
+      "text": "Overall academic excellence · chapter awarded in 2005",
+      "of": "9ca98395",
+      "at": [
+        "cannon:honors.societies[0].recognizes"
+      ],
+      "t": "समग्र शैक्षणिक उत्कृष्टता · chapter 2005 में मिला"
+    },
+    {
+      "text": "Social studies achievement — the national social studies society",
+      "of": "90a522cd",
+      "at": [
+        "cannon:honors.societies[1].recognizes"
+      ],
+      "t": "सामाजिक अध्ययन में उपलब्धि — राष्ट्रीय सामाजिक-अध्ययन सोसाइटी"
+    },
+    {
+      "text": "social studies",
+      "of": "29a76cb3",
+      "at": [
+        "cannon:honors.societies[1].feedsFrom"
+      ],
+      "t": "सामाजिक अध्ययन"
+    },
+    {
+      "text": "Mathematics achievement — the national mathematics society",
+      "of": "c28b7a3d",
+      "at": [
+        "cannon:honors.societies[2].recognizes"
+      ],
+      "t": "गणित में उपलब्धि — राष्ट्रीय गणित सोसाइटी"
+    },
+    {
+      "text": "mathematics",
+      "of": "c8e88d9d",
+      "at": [
+        "cannon:honors.societies[2].feedsFrom"
+      ],
+      "t": "गणित"
+    },
+    {
+      "text": "English achievement",
+      "of": "3710f7c4",
+      "at": [
+        "cannon:honors.societies[3].recognizes"
+      ],
+      "t": "अंग्रेज़ी में उपलब्धि"
+    },
+    {
+      "text": "English",
+      "of": "1b9ae0bb",
+      "at": [
+        "cannon:honors.societies[3].feedsFrom"
+      ],
+      "t": "अंग्रेज़ी"
+    },
+    {
+      "text": "Journalism — the international honorary society for high school journalists",
+      "of": "f9879979",
+      "at": [
+        "cannon:honors.societies[4].recognizes"
+      ],
+      "t": "पत्रकारिता — हाई स्कूल पत्रकारों के लिए अंतरराष्ट्रीय सम्मान सोसाइटी"
+    },
+    {
+      "text": "journalism & yearbook",
+      "of": "0d54a323",
+      "at": [
+        "cannon:honors.societies[4].feedsFrom"
+      ],
+      "t": "पत्रकारिता और yearbook"
+    },
+    {
+      "text": "Music achievement and service",
+      "of": "1c02c475",
+      "at": [
+        "cannon:honors.societies[6].recognizes"
+      ],
+      "t": "संगीत में उपलब्धि और सेवा"
+    },
+    {
+      "text": "Chinese language achievement",
+      "of": "fda7008d",
+      "at": [
+        "cannon:honors.societies[8].recognizes"
+      ],
+      "t": "चीनी भाषा में उपलब्धि"
+    },
+    {
+      "text": "French language achievement",
+      "of": "9e8a31ee",
+      "at": [
+        "cannon:honors.societies[9].recognizes"
+      ],
+      "t": "फ़्रेंच भाषा में उपलब्धि"
+    },
+    {
+      "text": "Spanish language achievement",
+      "of": "1ddb0c28",
+      "at": [
+        "cannon:honors.societies[10].recognizes"
+      ],
+      "t": "स्पेनिश भाषा में उपलब्धि"
+    },
+    {
+      "text": "No induction criteria are readable. The page invites you to \"click on icon for details and eligibility criteria,\" but those descriptions load dynamically and are not retrievable — the underlying list carries titles and images with no body text. No annual induction counts, chapter activity, advisors or membership numbers are published anywhere, and there are no Middle School honor societies.",
+      "of": "4444eb19",
+      "at": [
+        "cannon:honors.flags[0].text"
+      ],
+      "t": "दीक्षा के मानदंड पढ़े ही नहीं जा सकते। पृष्ठ कहता है \"click on icon for details and eligibility criteria,\" पर वे विवरण गतिशील रूप से लोड होते हैं और मिल नहीं पाते — भीतर की सूची में शीर्षक और चित्र हैं, कोई मूल पाठ नहीं। कहीं भी न वार्षिक दीक्षा-संख्या प्रकाशित है, न chapter की गतिविधि, न सलाहकार या सदस्य-संख्या, और Middle School की कोई honor society नहीं है।"
+    },
+    {
+      "text": "Cannon has no National Honor Society chapter — unusual for this set, and worth noting because Cum Laude appears to serve that role. No National Junior Honor Society or Science National Honor Society either.",
+      "of": "8363d295",
+      "at": [
+        "cannon:honors.flags[1].text"
+      ],
+      "t": "Cannon में National Honor Society का कोई chapter नहीं है — इस समूह के लिए यह असामान्य है, और ध्यान देने लायक़ है क्योंकि लगता है कि वह भूमिका Cum Laude निभाता है। न National Junior Honor Society है, न Science National Honor Society।"
+    },
+    {
+      "text": "A robotics-led slate; the Brainy Yaks reached the FLL World top 100.",
+      "of": "add5afd2",
+      "at": [
+        "cannon:clusters.verdict"
+      ],
+      "t": "रोबोटिक्स के नेतृत्व वाली सूची; Brainy Yaks FLL World के शीर्ष 100 तक पहुँची।"
+    },
+    {
+      "text": "Brainy Yaks",
+      "of": "79af969e",
+      "at": [
+        "cannon:clusters.rows[0].name"
+      ],
+      "t": "Brainy Yaks"
+    },
+    {
+      "text": "FLL robotics (grades 6–10); top 100 of 32,000+ at Worlds, '24 & '25",
+      "of": "b00dc956",
+      "at": [
+        "cannon:clusters.rows[0].oneLiner"
+      ],
+      "t": "FLL रोबोटिक्स (कक्षा 6–10); Worlds में 32,000+ में से शीर्ष 100, '24 और '25 में"
+    },
+    {
+      "text": "Verified — FLL Worlds",
+      "of": "af09e3c8",
+      "at": [
+        "cannon:clusters.rows[0].evidenceLabel"
+      ],
+      "t": "सत्यापित — FLL Worlds"
+    },
+    {
+      "text": "Cannon’s standout: a FIRST LEGO League team that won the NC Champions Award and finished top 100 of 32,000+ teams at the FLL World Championship in Houston, in back-to-back years (2024 and 2025). Its coach earned one of only four FLL Coach/Mentor Awards.",
+      "of": "fecc152b",
+      "at": [
+        "cannon:clusters.rows[0].note"
+      ],
+      "t": "Cannon की सबसे उल्लेखनीय उपलब्धि: एक FIRST LEGO League टीम, जिसने NC Champions Award जीता और लगातार दो वर्षों (2024 और 2025) में Houston के FLL World Championship में 32,000+ टीमों में से शीर्ष 100 में जगह बनाई। उसके कोच को केवल चार FLL Coach/Mentor Awards में से एक मिला।"
+    },
+    {
+      "text": "Business & academic →",
+      "of": "bd3e8a42",
+      "at": [
+        "cannon:clusters.rows[1].name"
+      ],
+      "t": "व्यवसाय और शैक्षणिक →"
+    },
+    {
+      "text": "DECA (’26 CDC finalists), Model UN (Duke DUMUNC awards)",
+      "of": "3f3acf97",
+      "at": [
+        "cannon:clusters.rows[1].oneLiner"
+      ],
+      "t": "DECA (’26 CDC के फ़ाइनलिस्ट), Model UN (Duke DUMUNC पुरस्कार)"
+    },
+    {
+      "text": "DECA students reached finalist standing at the 2026 CDC (entrepreneurship, marketing, personal finance). The Model UN team attended Duke’s DUMUNC among 400+ delegates, earning Outstanding Delegate and Verbal Commendation.",
+      "of": "bde4ae35",
+      "at": [
+        "cannon:clusters.rows[1].note"
+      ],
+      "t": "DECA के छात्र 2026 के CDC (उद्यमिता, मार्केटिंग, व्यक्तिगत वित्त) में फ़ाइनलिस्ट तक पहुँचे। Model UN टीम ने Duke के DUMUNC में 400+ प्रतिनिधियों के बीच भाग लिया, और Outstanding Delegate तथा Verbal Commendation प्राप्त किया।"
+    },
+    {
+      "text": "Esports",
+      "of": "2e26f70b",
+      "at": [
+        "cannon:clusters.rows[2].name"
+      ],
+      "t": "Esports"
+    },
+    {
+      "text": "Cannon School Gaming — dedicated esports lab since 2021",
+      "of": "47f30588",
+      "at": [
+        "cannon:clusters.rows[2].oneLiner"
+      ],
+      "t": "Cannon School Gaming — 2021 से समर्पित esports लैब"
+    },
+    {
+      "text": "Cannon School Gaming launched in fall 2020 and runs from a dedicated lab (converted 2021); titles include Fortnite, League of Legends, Rocket League, and Overwatch, alongside a \"Business of Esports\" course.",
+      "of": "3f984e2a",
+      "at": [
+        "cannon:clusters.rows[2].note"
+      ],
+      "t": "Cannon School Gaming की शुरुआत पतझड़ 2020 में हुई और यह एक समर्पित लैब से चलता है (2021 में तैयार किया गया); इसके खेलों में Fortnite, League of Legends, Rocket League और Overwatch शामिल हैं, साथ ही एक \"Business of Esports\" कोर्स भी।"
+    },
+    {
+      "text": "Middle School teams →",
+      "of": "be1b0974",
+      "at": [
+        "cannon:clusters.rows[3].name"
+      ],
+      "t": "Middle School की टीमें →"
+    },
+    {
+      "text": "Science Olympiad, Envirothon, Battle of the Books, Model UN",
+      "of": "928a6a52",
+      "at": [
+        "cannon:clusters.rows[3].oneLiner"
+      ],
+      "t": "Science Olympiad, Envirothon, Battle of the Books, Model UN"
+    },
+    {
+      "text": "The Middle School fields several academic-competition teams; a full multi-year results history is not centrally published.",
+      "of": "8586cc0e",
+      "at": [
+        "cannon:clusters.rows[3].note"
+      ],
+      "t": "Middle School कई शैक्षणिक-प्रतियोगिता टीमें उतारता है; कई वर्षों का पूरा परिणाम-इतिहास एक जगह प्रकाशित नहीं है।"
+    },
+    {
+      "text": "One consolidated view of every student organization Cannon names directly, across Upper, Middle, and Lower School — the school publishes no chartered directory, so this is representative, not exhaustive.",
+      "of": "21184170",
+      "at": [
+        "cannon:catalog.verdict"
+      ],
+      "t": "Upper, Middle और Lower School में Cannon जिन-जिन छात्र संगठनों का सीधे नाम लेता है, उन सबका एक समेकित दृश्य — स्कूल कोई अधिकृत निर्देशिका प्रकाशित नहीं करता, इसलिए यह प्रतिनिधिक है, पूर्ण नहीं।"
+    },
+    {
+      "text": "Filter the named spine by interest; the full roster shifts year to year and is not fully disclosed.",
+      "of": "79af390b",
+      "at": [
+        "cannon:catalog.verdictHint"
+      ],
+      "t": "नामित मुख्य ढाँचे को रुचि के अनुसार छाँटें; पूरी सूची साल-दर-साल बदलती है और पूरी तरह सार्वजनिक नहीं की जाती।"
+    },
+    {
+      "text": "named orgs",
+      "of": "99a4be51",
+      "at": [
+        "cannon:catalog.countNoun"
+      ],
+      "t": "नामित संगठन"
+    },
+    {
+      "text": "Competitive program",
+      "of": "000a40f0",
+      "at": [
+        "cannon:catalog.categories[0].full"
+      ],
+      "t": "प्रतिस्पर्धी कार्यक्रम"
+    },
+    {
+      "text": "Academic teams",
+      "of": "65b22f3c",
+      "at": [
+        "cannon:catalog.categories[1].short"
+      ],
+      "t": "शैक्षणिक टीमें"
+    },
+    {
+      "text": "Academic competition team",
+      "of": "2fcf99c2",
+      "at": [
+        "cannon:catalog.categories[1].full"
+      ],
+      "t": "शैक्षणिक प्रतियोगिता टीम"
+    },
+    {
+      "text": "Student leadership",
+      "of": "63a56cbb",
+      "at": [
+        "cannon:catalog.categories[2].full"
+      ],
+      "t": "छात्र नेतृत्व"
+    },
+    {
+      "text": "Affinity / belonging",
+      "of": "20de35c5",
+      "at": [
+        "cannon:catalog.categories[4].full"
+      ],
+      "t": "Affinity / अपनापन"
+    },
+    {
+      "text": "Student publication",
+      "of": "5c5f1aba",
+      "at": [
+        "cannon:catalog.categories[5].full"
+      ],
+      "t": "छात्र प्रकाशन"
+    },
+    {
+      "text": "Interest",
+      "of": "d28f88f3",
+      "at": [
+        "cannon:catalog.categories[6].short",
+        "davidson-day:catalog.categories[1].short",
+        "davidson-day:catalog.categories[1].full"
+      ],
+      "t": "रुचि"
+    },
+    {
+      "text": "Interest / social",
+      "of": "ceb24bcd",
+      "at": [
+        "cannon:catalog.categories[6].full"
+      ],
+      "t": "रुचि / सामाजिक"
+    },
+    {
+      "text": "Flagship FLL robotics team (grades 6–10); FLL World top 100 in ’24 & ’25 (see Signature Competitive Programs)",
+      "of": "d8c1e05f",
+      "at": [
+        "cannon:catalog.clubs[0].note"
+      ],
+      "t": "प्रमुख FLL रोबोटिक्स टीम (कक्षा 6–10); ’24 और ’25 में FLL World के शीर्ष 100 में (देखें Signature Competitive Programs)"
+    },
+    {
+      "text": "Upper School business competition team; 2026 CDC finalist standing (see Signature Competitive Programs)",
+      "of": "34176ee0",
+      "at": [
+        "cannon:catalog.clubs[1].note"
+      ],
+      "t": "Upper School की व्यवसाय प्रतियोगिता टीम; 2026 CDC में फ़ाइनलिस्ट स्थान (देखें Signature Competitive Programs)"
+    },
+    {
+      "text": "Cross-division esports program with a dedicated lab since 2021",
+      "of": "023c9ebf",
+      "at": [
+        "cannon:catalog.clubs[2].note"
+      ],
+      "t": "डिवीज़नों में फैला esports कार्यक्रम, 2021 से एक समर्पित लैब के साथ"
+    },
+    {
+      "text": "Middle & Upper School; MS team named among the academic-competition teams, US team earned awards at Duke’s DUMUNC",
+      "of": "353e50cb",
+      "at": [
+        "cannon:catalog.clubs[3].note"
+      ],
+      "t": "Middle और Upper School; MS टीम शैक्षणिक-प्रतियोगिता टीमों में नामित, US टीम ने Duke के DUMUNC में पुरस्कार जीते"
+    },
+    {
+      "text": "Middle School faculty-facilitated academic-competition team",
+      "of": "27522079",
+      "at": [
+        "cannon:catalog.clubs[4].note"
+      ],
+      "t": "Middle School की शिक्षक-संचालित शैक्षणिक-प्रतियोगिता टीम"
+    },
+    {
+      "text": "Middle School reading-competition team (plus an Elementary Battle of the Books)",
+      "of": "80907005",
+      "at": [
+        "cannon:catalog.clubs[5].note"
+      ],
+      "t": "Middle School की पठन-प्रतियोगिता टीम (साथ में एक Elementary Battle of the Books)"
+    },
+    {
+      "text": "Middle School environmental academic-competition team",
+      "of": "4cbab6be",
+      "at": [
+        "cannon:catalog.clubs[6].note"
+      ],
+      "t": "Middle School की पर्यावरण संबंधी शैक्षणिक-प्रतियोगिता टीम"
+    },
+    {
+      "text": "Elected Upper School student governance body",
+      "of": "f5bfaa40",
+      "at": [
+        "cannon:catalog.clubs[7].note"
+      ],
+      "t": "Upper School का निर्वाचित छात्र प्रशासन निकाय"
+    },
+    {
+      "text": "Grades 5–8, ~4 elected students per grade; plans events and supports student life",
+      "of": "d47db3ff",
+      "at": [
+        "cannon:catalog.clubs[8].note"
+      ],
+      "t": "कक्षा 5–8, हर कक्षा से ~4 निर्वाचित छात्र; आयोजन तय करता है और छात्र जीवन को सहारा देता है"
+    },
+    {
+      "text": "Elected Lower School leadership; year-long core-values initiatives",
+      "of": "87f94fd1",
+      "at": [
+        "cannon:catalog.clubs[9].note"
+      ],
+      "t": "Lower School का निर्वाचित नेतृत्व; साल भर चलने वाली मूल-मूल्यों की पहल"
+    },
+    {
+      "text": "Upper School service club; Habitat for Humanity builds incl. Winterm trips",
+      "of": "c0ae6f19",
+      "at": [
+        "cannon:catalog.clubs[10].note"
+      ],
+      "t": "Upper School का सेवा क्लब; Habitat for Humanity के निर्माण कार्य, जिनमें Winterm यात्राएँ भी शामिल"
+    },
+    {
+      "text": "Middle School team coordinating volunteers for the Special Olympics of Cabarrus County",
+      "of": "64f9dc72",
+      "at": [
+        "cannon:catalog.clubs[11].note"
+      ],
+      "t": "Special Olympics of Cabarrus County के लिए स्वयंसेवकों का समन्वय करने वाली Middle School टीम"
+    },
+    {
+      "text": "Flagship category of Upper School club life under the DBE framework; no named roster published (Black affinity groups cited in reviews)",
+      "of": "e58d0737",
+      "at": [
+        "cannon:catalog.clubs[12].note"
+      ],
+      "t": "DBE ढाँचे के अंतर्गत Upper School के क्लब जीवन की प्रमुख श्रेणी; कोई नामित सूची प्रकाशित नहीं (समीक्षाओं में अश्वेत affinity समूहों का उल्लेख है)"
+    },
+    {
+      "text": "Active Upper School publication with student editors and a dedication ceremony",
+      "of": "15c58ed0",
+      "at": [
+        "cannon:catalog.clubs[13].note"
+      ],
+      "t": "छात्र संपादकों और एक समर्पण समारोह के साथ Upper School का सक्रिय प्रकाशन"
+    },
+    {
+      "text": "Cited as a representative “fun and adventurous” Upper School interest club",
+      "of": "2fb58d9b",
+      "at": [
+        "cannon:catalog.clubs[14].note"
+      ],
+      "t": "Upper School के एक प्रतिनिधिक “fun and adventurous” रुचि क्लब के रूप में उल्लिखित"
+    },
+    {
+      "text": "Student-initiated model",
+      "of": "01f81999",
+      "at": [
+        "cannon:catalog.divisions[0].label"
+      ],
+      "t": "छात्र-प्रेरित मॉडल"
+    },
+    {
+      "text": "Cannon frames club life as student-led and faculty-supported, meeting during and after school (Middle School clubs meet at lunch or a designated club time). Students may found new clubs when their interests aren’t represented, so the active roster changes annually.",
+      "of": "a4feef28",
+      "at": [
+        "cannon:catalog.divisions[0].text"
+      ],
+      "t": "Cannon क्लब जीवन को छात्र-संचालित और शिक्षक-समर्थित बताता है, जो स्कूल के दौरान और उसके बाद मिलता है (Middle School के क्लब lunch के समय या तय क्लब-समय पर मिलते हैं)। जब छात्रों की रुचियाँ किसी क्लब में नहीं दिखतीं तो वे नए क्लब बना सकते हैं, इसलिए सक्रिय सूची हर साल बदलती है।"
+    },
+    {
+      "text": "Lower School (JrK–4)",
+      "of": "dd72316b",
+      "at": [
+        "cannon:catalog.divisions[1].label"
+      ],
+      "t": "Lower School (JrK–4)"
+    },
+    {
+      "text": "Runs on elected student leadership, signature traditions, Adaptive Expertise (AE) “passion class” days, and after-school enrichment (After School Program + Beyond the Bell) rather than a roster of standing interest clubs — a structural difference, not a gap.",
+      "of": "ed91a596",
+      "at": [
+        "cannon:catalog.divisions[1].text"
+      ],
+      "t": "यह स्थायी रुचि-क्लबों की सूची के बजाय निर्वाचित छात्र नेतृत्व, विशिष्ट परंपराओं, Adaptive Expertise (AE) के “passion class” दिनों और after-school संवर्धन (After School Program + Beyond the Bell) पर चलता है — यह संरचनात्मक अंतर है, कोई कमी नहीं।"
+    },
+    {
+      "text": "Service & belonging",
+      "of": "911cb20f",
+      "at": [
+        "cannon:catalog.divisions[2].label"
+      ],
+      "t": "सेवा और अपनापन"
+    },
+    {
+      "text": "Service runs deep — ~15,000 school-wide hours a year (not a graduation requirement), Senior Capstone philanthropy projects, and a House Day of Service — but as frameworks/traditions rather than standing clubs. Affinity work sits under the Diversity, Belongingness & Engagement (DBE) commitment.",
+      "of": "40f8b576",
+      "at": [
+        "cannon:catalog.divisions[2].text"
+      ],
+      "t": "सेवा की जड़ें गहरी हैं — साल में पूरे स्कूल के ~15,000 घंटे (स्नातक होने की शर्त नहीं), Senior Capstone की परोपकार परियोजनाएँ, और एक House Day of Service — पर ये स्थायी क्लबों के बजाय ढाँचों/परंपराओं के रूप में हैं। affinity से जुड़ा काम Diversity, Belongingness & Engagement (DBE) प्रतिबद्धता के अंतर्गत आता है।"
+    },
+    {
+      "text": "A 100-hour immersive practicum behind every diploma distinction, and the first high school ever to partner with Davidson College’s Deliberative Citizenship Initiative.",
+      "of": "609e6f5e",
+      "at": [
+        "davidson-day:service.headline"
+      ],
+      "t": "हर diploma विशिष्टता के पीछे 100 घंटे का गहन practicum, और Davidson College की Deliberative Citizenship Initiative से जुड़ने वाला अब तक का पहला हाई स्कूल।"
+    },
+    {
+      "text": "The smallest school in this comparison publishes the least overall — but its civic programming is specific, externally validated and genuinely unusual.",
+      "of": "de9b987b",
+      "at": [
+        "davidson-day:service.subhead"
+      ],
+      "t": "इस तुलना का सबसे छोटा स्कूल कुल मिलाकर सबसे कम प्रकाशित करता है — पर उसके नागरिक कार्यक्रम विशिष्ट हैं, बाहर से मान्य हैं और सचमुच असामान्य हैं।"
+    },
+    {
+      "text": "minimum hours · per diploma distinction",
+      "of": "1e698c82",
+      "at": [
+        "davidson-day:service.programs[0].valueLabel"
+      ],
+      "t": "न्यूनतम घंटे · प्रति diploma विशिष्टता"
+    },
+    {
+      "text": "Every Diploma Distinction requires an immersive practicum of at least 100 hours — an internship, civic engagement, nonprofit leadership, medical shadowing or pre-collegiate program — plus quarterly Ethics Labs and a capstone at the Davidson Day Scholars Research Conference. Students apply at the end of sophomore year.",
+      "of": "2cd0be73",
+      "at": [
+        "davidson-day:service.programs[0].detail"
+      ],
+      "t": "हर Diploma Distinction के लिए कम से कम 100 घंटे का एक गहन practicum ज़रूरी है — कोई internship, नागरिक भागीदारी, ग़ैर-लाभकारी संस्था में नेतृत्व, चिकित्सा shadowing या कॉलेज-पूर्व कार्यक्रम — साथ ही तिमाही Ethics Labs और Davidson Day Scholars Research Conference में एक capstone। छात्र कक्षा 10 के अंत में आवेदन करते हैं।"
+    },
+    {
+      "text": "students · a national first",
+      "of": "bc0e7bb1",
+      "at": [
+        "davidson-day:service.programs[1].valueLabel"
+      ],
+      "t": "छात्र · राष्ट्रीय स्तर पर पहली बार"
+    },
+    {
+      "text": "Davidson Day is the first high school ever to collaborate with the program. Thirteen Upper Schoolers completed two deliberation modules on social safety nets and constitutional rights, attending expert panels and two-hour small-group deliberations built around civil discourse rather than debate-to-win.",
+      "of": "4fb95b1c",
+      "at": [
+        "davidson-day:service.programs[1].detail"
+      ],
+      "t": "Davidson Day इस कार्यक्रम के साथ मिलकर काम करने वाला अब तक का पहला हाई स्कूल है। Upper School के तेरह छात्रों ने सामाजिक सुरक्षा-तंत्रों और संवैधानिक अधिकारों पर दो deliberation मॉड्यूल पूरे किए, जिनमें विशेषज्ञ पैनल और दो घंटे की छोटे-समूह चर्चाएँ शामिल थीं, जो जीतने के लिए बहस करने के बजाय शिष्ट संवाद पर आधारित थीं।"
+    },
+    {
+      "text": "of Middle School students",
+      "of": "73241a8d",
+      "at": [
+        "davidson-day:service.programs[2].valueLabel"
+      ],
+      "t": "Middle School के छात्रों का इतना हिस्सा"
+    },
+    {
+      "text": "\"Every Middle School student takes part in our hands-on service-learning program, partnering with local organizations,\" and every student participates in dedicated Service Days across the year.",
+      "of": "90819560",
+      "at": [
+        "davidson-day:service.programs[2].detail"
+      ],
+      "t": "\"Every Middle School student takes part in our hands-on service-learning program, partnering with local organizations,\" और हर छात्र साल भर में तय किए गए Service Days में भाग लेता है।"
+    },
+    {
+      "text": "The partner network",
+      "of": "51a13798",
+      "at": [
+        "davidson-day:service.footnoteTitle"
+      ],
+      "t": "साझेदार नेटवर्क"
+    },
+    {
+      "text": "Eight community partners are named: Champions House of Care, The Kindness Closet, Food for Days, Beds for Kids, American Foreign Academic Research (AFAR), the Davidson Public Library and the Davidson College Deliberative Citizenship Initiative. An Upper School Community Engagement Council is also described, though no roster or founding year is published for it.",
+      "of": "bfaea2e3",
+      "at": [
+        "davidson-day:service.footnote"
+      ],
+      "t": "आठ सामुदायिक साझेदारों के नाम दिए गए हैं: Champions House of Care, The Kindness Closet, Food for Days, Beds for Kids, American Foreign Academic Research (AFAR), Davidson Public Library और Davidson College Deliberative Citizenship Initiative। एक Upper School Community Engagement Council का भी वर्णन है, हालाँकि उसके लिए न कोई सूची प्रकाशित है, न स्थापना-वर्ष।"
+    },
+    {
+      "text": "Two of the school’s most striking service stories are explicitly not clubs. Longevity LKN is a student-founded 501(c)(3) nonprofit — not a school club — that has screened over 100 community members for blood pressure across Lake Norman. The AFAR archaeology work, in which 13 students excavated the Adam Spach Rock House alongside professional archaeologists as the first high schoolers to work with the North Carolina State Historic Preservation Office, is never defined as a club on the school’s own page. The Deliberative Citizenship partnership is a structured program, and Patriot Pals is a peer-mentorship tradition.",
+      "of": "b530f97a",
+      "at": [
+        "davidson-day:service.flags[0].text"
+      ],
+      "t": "स्कूल की सेवा से जुड़ी दो सबसे उल्लेखनीय कहानियाँ स्पष्ट रूप से क्लब नहीं हैं। Longevity LKN छात्रों द्वारा स्थापित एक 501(c)(3) ग़ैर-लाभकारी संस्था है — स्कूल का क्लब नहीं — जिसने Lake Norman क्षेत्र में 100 से अधिक समुदाय-सदस्यों की रक्तचाप जाँच की है। AFAR का पुरातत्व कार्य, जिसमें 13 छात्रों ने पेशेवर पुरातत्वविदों के साथ मिलकर Adam Spach Rock House की खुदाई की और North Carolina State Historic Preservation Office के साथ काम करने वाले पहले हाई-स्कूल छात्र बने, स्कूल के अपने पृष्ठ पर कभी क्लब के रूप में परिभाषित नहीं किया गया। Deliberative Citizenship साझेदारी एक संरचित कार्यक्रम है, और Patriot Pals साथी-मार्गदर्शन की एक परंपरा।"
+    },
+    {
+      "text": "The 100-hour practicum belongs to an opt-in diploma track, not a school-wide graduation requirement — and no school-wide service-hours requirement is published anywhere. No hour totals, partner counts or founding years accompany the Middle School program. Five of the six Community and Culture cards, including the Community Engagement Council, have no detail page behind them.",
+      "of": "3418e035",
+      "at": [
+        "davidson-day:service.flags[1].text"
+      ],
+      "t": "100-घंटे का practicum एक स्वैच्छिक diploma धारा का हिस्सा है, पूरे स्कूल के लिए स्नातक होने की शर्त नहीं — और सेवा-घंटों की कोई स्कूल-व्यापी अनिवार्यता कहीं प्रकाशित नहीं है। Middle School कार्यक्रम के साथ न कुल घंटे दिए गए हैं, न साझेदारों की संख्या, न स्थापना-वर्ष। Community and Culture के छह कार्डों में से पाँच के पीछे, जिनमें Community Engagement Council भी है, कोई विस्तृत पृष्ठ नहीं है।"
+    },
+    {
+      "text": "A compact slate; Battle of the Books took regional first place.",
+      "of": "9de741bc",
+      "at": [
+        "davidson-day:clusters.verdict"
+      ],
+      "t": "एक छोटी-सी सूची; Battle of the Books ने क्षेत्रीय स्तर पर पहला स्थान पाया।"
+    },
+    {
+      "text": "Battle of the Books",
+      "of": "2aa09b5d",
+      "at": [
+        "davidson-day:clusters.rows[0].name"
+      ],
+      "t": "Battle of the Books"
+    },
+    {
+      "text": "Middle School reading-quiz team — regional first place (documented)",
+      "of": "a3fa6560",
+      "at": [
+        "davidson-day:clusters.rows[0].oneLiner"
+      ],
+      "t": "Middle School की पठन-क्विज़ टीम — क्षेत्रीय स्तर पर पहला स्थान (दर्ज)"
+    },
+    {
+      "text": "A reading-comprehension quiz competition; Davidson Day’s Middle School team is documented taking first place in a regional competition against several area schools — the school’s clearest competitive result in this area.",
+      "of": "f39c6136",
+      "at": [
+        "davidson-day:clusters.rows[0].note"
+      ],
+      "t": "पठन-बोध की एक क्विज़ प्रतियोगिता; Davidson Day की Middle School टीम का इलाक़े के कई स्कूलों के विरुद्ध एक क्षेत्रीय प्रतियोगिता में पहला स्थान पाना दर्ज है — इस क्षेत्र में स्कूल का सबसे स्पष्ट प्रतिस्पर्धी परिणाम।"
+    },
+    {
+      "text": "Honors & distinctions →",
+      "of": "d30c8683",
+      "at": [
+        "davidson-day:clusters.rows[1].name"
+      ],
+      "t": "सम्मान और विशिष्टताएँ →"
+    },
+    {
+      "text": "National Honor Society (28 in ’25), Global Studies Diploma, Acclaim Scholars",
+      "of": "e5ca88c4",
+      "at": [
+        "davidson-day:clusters.rows[1].oneLiner"
+      ],
+      "t": "National Honor Society (’25 में 28), Global Studies Diploma, Acclaim Scholars"
+    },
+    {
+      "text": "A confirmed National Honor Society chapter (28 members, Class of 2025), a Global Studies Diploma recognizing research and international study, and the Acclaim Scholars merit program. Chapter specifics are not published publicly.",
+      "of": "266c4d5a",
+      "at": [
+        "davidson-day:clusters.rows[1].note"
+      ],
+      "t": "एक पुष्ट National Honor Society chapter (28 सदस्य, Class of 2025), शोध और अंतरराष्ट्रीय अध्ययन को मान्यता देने वाला एक Global Studies Diploma, और Acclaim Scholars मेधा कार्यक्रम। chapter का ब्योरा सार्वजनिक रूप से प्रकाशित नहीं है।"
+    },
+    {
+      "text": "Research showcase",
+      "of": "a41889a9",
+      "at": [
+        "davidson-day:clusters.rows[2].name"
+      ],
+      "t": "शोध प्रदर्शन"
+    },
+    {
+      "text": "Davidson Day Scholars Research Conference (Upper School capstones)",
+      "of": "f9fe649e",
+      "at": [
+        "davidson-day:clusters.rows[2].oneLiner"
+      ],
+      "t": "Davidson Day Scholars Research Conference (Upper School के capstones)"
+    },
+    {
+      "text": "The venue where Global Studies Diploma seniors present capstone research; some students also present at a collegiate archaeology conference.",
+      "of": "7134ad44",
+      "at": [
+        "davidson-day:clusters.rows[2].note"
+      ],
+      "t": "वह मंच जहाँ Global Studies Diploma लेने वाले seniors अपना capstone शोध प्रस्तुत करते हैं; कुछ छात्र एक कॉलेज-स्तरीय पुरातत्व सम्मेलन में भी प्रस्तुति देते हैं।"
+    },
+    {
+      "text": "A compact slate of academic, interest, and service clubs, alongside student life run through programs, councils, and traditions.",
+      "of": "9cea4b1b",
+      "at": [
+        "davidson-day:catalog.verdict"
+      ],
+      "t": "शैक्षणिक, रुचि और सेवा क्लबों की एक छोटी-सी सूची, और साथ में कार्यक्रमों, परिषदों तथा परंपराओं के ज़रिए चलने वाला छात्र जीवन।"
+    },
+    {
+      "text": "Service / environmental",
+      "of": "c48db9a9",
+      "at": [
+        "davidson-day:catalog.categories[2].full"
+      ],
+      "t": "सेवा / पर्यावरण"
+    },
+    {
+      "text": "Academic / competition club",
+      "of": "bdfb9d58",
+      "at": [
+        "davidson-day:catalog.clubs[0].note",
+        "davidson-day:catalog.clubs[1].note"
+      ],
+      "t": "शैक्षणिक / प्रतियोगिता क्लब"
+    },
+    {
+      "text": "Academic-competition club",
+      "of": "b3c966ec",
+      "at": [
+        "davidson-day:catalog.clubs[2].note"
+      ],
+      "t": "शैक्षणिक-प्रतियोगिता क्लब"
+    },
+    {
+      "text": "Strategy / interest club",
+      "of": "fbd2b9bf",
+      "at": [
+        "davidson-day:catalog.clubs[3].note"
+      ],
+      "t": "रणनीति / रुचि क्लब"
+    },
+    {
+      "text": "Interest club",
+      "of": "c1cf72a1",
+      "at": [
+        "davidson-day:catalog.clubs[4].note"
+      ],
+      "t": "रुचि क्लब"
+    },
+    {
+      "text": "Literary interest club",
+      "of": "0e958bab",
+      "at": [
+        "davidson-day:catalog.clubs[5].note"
+      ],
+      "t": "साहित्यिक रुचि क्लब"
+    },
+    {
+      "text": "Outdoor / interest club",
+      "of": "cf55cd64",
+      "at": [
+        "davidson-day:catalog.clubs[6].note"
+      ],
+      "t": "बाहरी गतिविधि / रुचि क्लब"
+    },
+    {
+      "text": "Environmental / service club",
+      "of": "9abe1a93",
+      "at": [
+        "davidson-day:catalog.clubs[7].note"
+      ],
+      "t": "पर्यावरण / सेवा क्लब"
+    },
+    {
+      "text": "Service club",
+      "of": "b93b4380",
+      "at": [
+        "davidson-day:catalog.clubs[8].note"
+      ],
+      "t": "सेवा क्लब"
+    },
+    {
+      "text": "Beyond the club roster",
+      "of": "b8c68fde",
+      "at": [
+        "davidson-day:catalog.divisions[0].label"
+      ],
+      "t": "क्लब सूची से परे"
+    },
+    {
+      "text": "School-run structures alongside the clubs: AFAR archaeology field research, the Community Engagement Councils and Patriot Week service framework, the Student Diversity Council, National Honor Society, the Middle School Battle of the Books team, and traditions like the House System and Patriot Pals.",
+      "of": "69095674",
+      "at": [
+        "davidson-day:catalog.divisions[0].text"
+      ],
+      "t": "क्लबों के साथ-साथ स्कूल द्वारा चलाए जाने वाले ढाँचे: AFAR का पुरातत्व क्षेत्र-शोध, Community Engagement Councils और Patriot Week का सेवा ढाँचा, Student Diversity Council, National Honor Society, Middle School की Battle of the Books टीम, और House System तथा Patriot Pals जैसी परंपराएँ।"
+    }
+  ]
+}
