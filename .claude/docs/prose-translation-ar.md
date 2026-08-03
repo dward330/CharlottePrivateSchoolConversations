@@ -6,9 +6,11 @@ and `ar` is now in both `TRANSLATED` and `PROSE_TRANSLATED`. Every automated
 check is green (translations, figures, sep-drift, bidi, currency, money, runtime
 resolution, work-sources), `tsc -b && vite build` succeeds, lint is clean, and
 the cross-locale leak diff is clean (all 133 flagged items are identifier/
-proper-noun retentions consistent with the reviewed locales — §5). Written and
-executed 2026-08-03. **Only the native-speaker review (§4) and a final
-end-of-run browser print-out remain.**
+proper-noun retentions consistent with the reviewed locales — §5). The
+two-school browser print-out was done (Providence Day 63pp, Charlotte Latin
+61pp, panels force-expanded) and the **live render is clean** — it also exposed
+a PDF-text-layer shaping artifact that is NOT a shipping defect (§6). Written and
+executed 2026-08-03. **Only the native-speaker review (§4) remains.**
 
 Arabic is the **tenth** language, after English, Spanish, French, Haitian
 Creole, Farsi, Bangla, Hindi, Telugu and Italian. It is the **second RTL
@@ -319,3 +321,41 @@ field** — `grep` of the diff for `.summary`/`.note`/`.detail`/`.text`/`.intro`
 `.blurb`/`.body` returns nothing. So the identifier policy `ar` applied (§1b)
 holds across the whole corpus, and the 133 items are the expected shape, not a
 gap. This mirrors the it/fr result exactly.
+
+---
+
+## 6. Print-out — the live render is clean; a PDF-text-layer artifact is NOT a defect
+
+A two-school browser print-out was run (Providence Day 63pp, Charlotte Latin
+61pp, all `<details>` force-expanded). It surfaced something that **reads as a
+bug but is not one**, and is worth recording so it is not re-chased next time.
+
+**Symptom.** In the exported **PDF's text layer**, Arabic *body prose* appears
+garbled — letters that should join are split, dots/diacritics detach, syllables
+scatter mid-line (e.g. `تنشر` came out as `.ٮكسٮ`-like fragments). The heading
+layer and the on-page **image** render looked fine, so it read as a
+prose-only render failure — exactly the "cards printed collapsed / mangled RTL
+band" class the fa rollout warns about.
+
+**It is not a render bug.** Verified three independent ways against the *live*
+page (`?lang=ar`), not the PDF:
+
+1. **DOM text is correct, joined, logical-order Unicode.** Sampled paragraph:
+   `تنشر Charlotte Latin مجالات مواد Lower School، لا حصصًا مُسمّاة …`.
+   Codepoints of the first word are `62a 646 634 631` = ت ن ش ر, standard
+   letters in correct order — no presentation-form mangling in the data.
+2. **Computed style is right:** `font-family: "Noto Naskh Arabic"`,
+   `direction: rtl`, `unicode-bidi: isolate`.
+3. **Rendered pixels are perfect.** A 2× device-scale browser screenshot of the
+   same prose shows fully-joined Naskh, seated diacritics (مُسمّاة with
+   shadda+damma), and Latin identifiers sitting LTR inside the RTL line.
+
+**Conclusion.** The garble lives **only in the PDF's extracted/selectable text
+layer** — a Chromium print-pipeline complex-script quirk (glyphs are positioned
+correctly on the page; the text run behind them is emitted unshaped and
+reversed). A human reading either the screen or the printed page sees correct
+Arabic. It is a print-*export* artifact, not our data and not our render, and it
+did **not** block shipping. If a future reviewer prints `ar` (or any RTL locale)
+and sees scrambled selectable text, this is that — check the live DOM/pixels
+before treating it as a defect. Not fixed here (it is outside app code); flagged
+so it is not re-discovered as a bug.
