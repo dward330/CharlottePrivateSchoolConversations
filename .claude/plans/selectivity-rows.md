@@ -1,7 +1,7 @@
 ---
 name: selectivity-rows
 title: Put the six selectivity buckets on the College Support Compare table, and drop AP scope + National Merit
-status: english-done
+status: implemented
 phases: 2
 created: 2026-08-02
 branch: feat/selectivity-rows
@@ -449,3 +449,41 @@ pre-existing "not ingested" advisories in `branding/` and `_shared/`, unrelated 
 change and present on `main`); browser check on the real dev server confirmed all eight
 rows in order, 36/36 bucket cells populated, correct lead highlights, and clean note
 wrapping with no horizontal overflow at 390px.
+
+**Phase 2 (8 locales) shipped as planned, with one method refinement and one out-of-plan
+render fix.**
+
+*Method:* the +4 index shift was absorbed by re-extracting each locale's work file with
+`i18n_extract.mjs --force`, then merging the prior translations back by matching on the
+English `text` (never by path/index — the failure mode CLAUDE.md flags). Per locale: 114
+strings carried over, 34 figure values auto-filled char-for-char (`3 / 8` etc., safe in
+every locale including hi/te since fractions carry no grouping separators), and exactly 12
+prose strings (6 labels + 6 notes) translated fresh. The 6 tier **labels** were not
+hand-translated — they were lifted verbatim from each locale's already-reviewed
+`college-support` overlay, where the identical strings (`Ivy League`, `“Ivy Plus”` with its
+per-locale quote style, `Power Four`, `HBCUs`, etc.) already ship on the school-page bucket
+tables, guaranteeing the Compare row and the school page read identically. Only the 6
+notes per locale were new prose, written to the vocabulary of the existing reviewed
+"derived analysis … 2026 U.S. News tables … not a school-reported figure" note.
+
+*Out-of-plan render fix — `src/lib/format.ts`.* The Phase 2 browser check found a real RTL
+defect the plan's fa trap half-anticipated but misattributed. Fraction value cells
+(`58 / 75`) are bidi-neutral (`/` is a neutral char), so in Farsi they reordered
+**visually to `75 / 58`** — a different, wrong count. Confirmed by x-position measurement
+in Chromium; a symmetric fraction like `8 / 8` masked it. The plan assumed the fix was
+isolate characters in the *data*, but the repo's convention (and every existing fa figure)
+keeps the data bare and isolates at render time via `isolateNeutralFigures()`. That helper
+already wrapped year-ranges and percentages; it now also wraps `\d+\s*/\s*\d+` fractions.
+One-line regex extension, no-op in LTR, `check:bidi` still clean (0 leaks). Re-measured: all
+fractions read numerator-first LTR in fa. This is outside the plan's "no component/style
+changes" scope, but the feature is incorrect in fa without it, so it ships here rather than
+as a follow-up.
+
+Phase 2 verification: `check:runtime` clean for all 8 locales (5960 entries each);
+`check:translations` metric-values 100% (178/178) every locale; `check:hashes`,
+`check:currency`, `check:money`, `check:bidi`, `check:fa`, `check:hi`, `check:fr` all pass;
+`check:sepdrift` shows **0 drift in every `metric-values` overlay** (the pre-existing es=179
+/ ht=1 / fa=1 drift totals on `main` are in other topics and unchanged — es actually drops
+to 178 because a deleted AP row carried one). Browser-checked fa (RTL, fractions fixed), hi
+(Devanagari + Latin identifiers, Western digits, no lakh/crore mangling) and it (Latin) —
+all six labels and notes render translated, no silent English fallback.

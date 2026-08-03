@@ -153,7 +153,7 @@
       "of": "3d0cb547",
       "at": [
         "providence-day:[2].values.cannon",
-        "providence-day:[19].values.charlotte-christian"
+        "providence-day:[23].values.charlotte-christian"
       ],
       "t": "8"
     },
@@ -172,8 +172,8 @@
       "at": [
         "providence-day:[2].values.charlotte-country-day",
         "providence-day:[2].values.davidson-day",
-        "providence-day:[19].values.charlotte-country-day",
-        "providence-day:[20].values.davidson-day"
+        "providence-day:[23].values.charlotte-country-day",
+        "providence-day:[24].values.davidson-day"
       ],
       "t": "9"
     },
@@ -206,7 +206,7 @@
       "of": "62538c4c",
       "at": [
         "providence-day:[3].values.cannon",
-        "providence-day:[12].values.cannon"
+        "providence-day:[16].values.cannon"
       ],
       "t": "JrK–12"
     },
@@ -216,8 +216,8 @@
       "at": [
         "providence-day:[3].values.charlotte-christian",
         "providence-day:[3].values.charlotte-country-day",
-        "providence-day:[12].values.charlotte-christian",
-        "providence-day:[12].values.charlotte-country-day"
+        "providence-day:[16].values.charlotte-christian",
+        "providence-day:[16].values.charlotte-country-day"
       ],
       "t": "JK–12"
     },
@@ -227,8 +227,8 @@
       "at": [
         "providence-day:[3].values.charlotte-latin",
         "providence-day:[3].values.providence-day",
-        "providence-day:[12].values.charlotte-latin",
-        "providence-day:[12].values.providence-day"
+        "providence-day:[16].values.charlotte-latin",
+        "providence-day:[16].values.providence-day"
       ],
       "t": "TK–12"
     },
@@ -241,66 +241,10 @@
       "t": "आयु 2–12"
     },
     {
-      "text": "AP scope",
-      "of": "d2404258",
-      "at": [
-        "providence-day:[4].label"
-      ],
-      "t": "AP का दायरा"
-    },
-    {
-      "text": "AP exam volume for the most recent reported year, or AP course/subject count where exam volume is unpublished. IB flagged where offered.",
-      "of": "23eca0ec",
-      "at": [
-        "providence-day:[4].note"
-      ],
-      "t": "सबसे हालिया बताए गए वर्ष में दी गई AP परीक्षाओं की संख्या, या जहाँ परीक्षाओं की संख्या प्रकाशित नहीं है वहाँ AP कोर्स/विषयों की गिनती। जहाँ IB उपलब्ध है, वहाँ उसे अलग से दर्शाया गया है।"
-    },
-    {
-      "text": "425 AP exams",
-      "of": "83fb37fb",
-      "at": [
-        "providence-day:[4].values.cannon"
-      ],
-      "t": "425 AP परीक्षाएँ"
-    },
-    {
-      "text": "21 AP courses",
-      "of": "9bef3bd3",
-      "at": [
-        "providence-day:[4].values.charlotte-christian"
-      ],
-      "t": "21 AP कोर्स"
-    },
-    {
-      "text": "530 AP exams + IB",
-      "of": "733470d4",
-      "at": [
-        "providence-day:[4].values.charlotte-country-day"
-      ],
-      "t": "530 AP परीक्षाएँ + IB"
-    },
-    {
-      "text": "23 AP subjects",
-      "of": "5123698c",
-      "at": [
-        "providence-day:[4].values.charlotte-latin"
-      ],
-      "t": "23 AP विषय"
-    },
-    {
-      "text": "1,213 AP exams",
-      "of": "f60a550b",
-      "at": [
-        "providence-day:[4].values.providence-day"
-      ],
-      "t": "1,213 AP परीक्षाएँ"
-    },
-    {
       "text": "AP scoring 3+",
       "of": "bb9de4e1",
       "at": [
-        "providence-day:[5].label"
+        "providence-day:[4].label"
       ],
       "t": "AP में 3+ स्कोर"
     },
@@ -308,7 +252,7 @@
       "text": "Share of AP exams scoring 3 or higher, most recent reported year. Charlotte Latin & Davidson Day do not publish a pass rate.",
       "of": "abcf3feb",
       "at": [
-        "providence-day:[5].note"
+        "providence-day:[4].note"
       ],
       "t": "सबसे हालिया बताए गए वर्ष में 3 या उससे अधिक स्कोर वाली AP परीक्षाओं का हिस्सा। Charlotte Latin और Davidson Day उत्तीर्ण दर प्रकाशित नहीं करते।"
     },
@@ -316,7 +260,7 @@
       "text": "92%",
       "of": "decf5375",
       "at": [
-        "providence-day:[5].values.cannon"
+        "providence-day:[4].values.cannon"
       ],
       "t": "92%"
     },
@@ -324,7 +268,7 @@
       "text": "89%",
       "of": "5cb0b6ed",
       "at": [
-        "providence-day:[5].values.charlotte-christian"
+        "providence-day:[4].values.charlotte-christian"
       ],
       "t": "89%"
     },
@@ -332,7 +276,7 @@
       "text": "93%",
       "of": "3ad222e0",
       "at": [
-        "providence-day:[5].values.charlotte-country-day"
+        "providence-day:[4].values.charlotte-country-day"
       ],
       "t": "93%"
     },
@@ -340,55 +284,385 @@
       "text": "94%",
       "of": "3ac0d9bf",
       "at": [
-        "providence-day:[5].values.providence-day"
+        "providence-day:[4].values.providence-day"
       ],
       "t": "94%"
     },
     {
-      "text": "National Merit",
-      "of": "c119ff02",
+      "text": "Ivy League",
+      "of": "2200187e",
+      "at": [
+        "providence-day:[5].label"
+      ],
+      "t": "Ivy League"
+    },
+    {
+      "text": "Of the 8 Ivy League universities, how many appear on the school’s published acceptance list. Derived from that list against the 2026 U.S. News tables — not a school-reported figure.",
+      "of": "1d056dcb",
+      "at": [
+        "providence-day:[5].note"
+      ],
+      "t": "8 Ivy League विश्वविद्यालयों में से कितने स्कूल की प्रकाशित स्वीकृति-सूची में आते हैं। यह निकाला गया विश्लेषण है, 2026 की U.S. News तालिकाओं के मुक़ाबले आँका गया — स्कूल द्वारा बताया गया आँकड़ा नहीं।"
+    },
+    {
+      "text": "3 / 8",
+      "of": "cf76ffeb",
+      "at": [
+        "providence-day:[5].values.cannon",
+        "providence-day:[5].values.davidson-day"
+      ],
+      "t": "3 / 8"
+    },
+    {
+      "text": "2 / 8",
+      "of": "10390c08",
+      "at": [
+        "providence-day:[5].values.charlotte-christian"
+      ],
+      "t": "2 / 8"
+    },
+    {
+      "text": "7 / 8",
+      "of": "66b449f7",
+      "at": [
+        "providence-day:[5].values.charlotte-country-day"
+      ],
+      "t": "7 / 8"
+    },
+    {
+      "text": "5 / 8",
+      "of": "99bd1e9d",
+      "at": [
+        "providence-day:[5].values.charlotte-latin"
+      ],
+      "t": "5 / 8"
+    },
+    {
+      "text": "8 / 8",
+      "of": "f18bd6a6",
+      "at": [
+        "providence-day:[5].values.providence-day"
+      ],
+      "t": "8 / 8"
+    },
+    {
+      "text": "“Ivy Plus”",
+      "of": "c7790b24",
       "at": [
         "providence-day:[6].label"
       ],
-      "t": "National Merit"
+      "t": "“Ivy Plus”"
     },
     {
-      "text": "Most recent single-class Semifinalist/Finalist count the school announced. Cannon & Davidson Day unpublished; Charlotte Christian reports only rolling multi-year totals.",
-      "of": "08733780",
+      "text": "Of the 17 “Ivy Plus” institutions — the eight Ivies plus Stanford, MIT, Chicago, Duke, Caltech and peers — how many appear on the school’s acceptance list.",
+      "of": "b0f4165e",
       "at": [
         "providence-day:[6].note"
       ],
-      "t": "स्कूल द्वारा घोषित, किसी एक कक्षा के Semifinalist/Finalist की सबसे हालिया संख्या। Cannon और Davidson Day ने यह प्रकाशित नहीं किया; Charlotte Christian केवल कई वर्षों के चलते हुए कुल आँकड़े बताता है।"
+      "t": "17 “Ivy Plus” संस्थानों में से — आठ Ivies के साथ Stanford, MIT, Chicago, Duke, Caltech और समकक्ष — कितने स्कूल की स्वीकृति-सूची में आते हैं।"
     },
     {
-      "text": "2 Finalists ’25",
-      "of": "7f5dd40a",
+      "text": "10 / 17",
+      "of": "0d57c08b",
+      "at": [
+        "providence-day:[6].values.cannon"
+      ],
+      "t": "10 / 17"
+    },
+    {
+      "text": "4 / 17",
+      "of": "c94ca8e6",
+      "at": [
+        "providence-day:[6].values.charlotte-christian"
+      ],
+      "t": "4 / 17"
+    },
+    {
+      "text": "13 / 17",
+      "of": "c5a4b244",
       "at": [
         "providence-day:[6].values.charlotte-country-day"
       ],
-      "t": "2 Finalist ’25"
+      "t": "13 / 17"
     },
     {
-      "text": "12 Semifinalists ’26",
-      "of": "8205ef02",
+      "text": "12 / 17",
+      "of": "a12d445d",
       "at": [
         "providence-day:[6].values.charlotte-latin"
       ],
-      "t": "12 Semifinalist ’26"
+      "t": "12 / 17"
     },
     {
-      "text": "7 Semifinalists ’25",
-      "of": "8b099623",
+      "text": "8 / 17",
+      "of": "50395612",
+      "at": [
+        "providence-day:[6].values.davidson-day"
+      ],
+      "t": "8 / 17"
+    },
+    {
+      "text": "17 / 17",
+      "of": "38be5030",
       "at": [
         "providence-day:[6].values.providence-day"
       ],
-      "t": "7 Semifinalist ’25"
+      "t": "17 / 17"
+    },
+    {
+      "text": "Top-75 National Universities",
+      "of": "4fcd95b1",
+      "at": [
+        "providence-day:[7].label"
+      ],
+      "t": "शीर्ष-75 National Universities"
+    },
+    {
+      "text": "Of the top 75 National Universities in the 2026 U.S. News table, how many appear on the school’s acceptance list.",
+      "of": "ccc13f14",
+      "at": [
+        "providence-day:[7].note"
+      ],
+      "t": "2026 की U.S. News तालिका के शीर्ष 75 Top-75 National Universities में से कितने स्कूल की स्वीकृति-सूची में आते हैं।"
+    },
+    {
+      "text": "46 / 75",
+      "of": "2ff1f36e",
+      "at": [
+        "providence-day:[7].values.cannon"
+      ],
+      "t": "46 / 75"
+    },
+    {
+      "text": "30 / 75",
+      "of": "afc0b7e9",
+      "at": [
+        "providence-day:[7].values.charlotte-christian"
+      ],
+      "t": "30 / 75"
+    },
+    {
+      "text": "55 / 75",
+      "of": "fc4bd17e",
+      "at": [
+        "providence-day:[7].values.charlotte-country-day"
+      ],
+      "t": "55 / 75"
+    },
+    {
+      "text": "53 / 75",
+      "of": "d95cbf44",
+      "at": [
+        "providence-day:[7].values.charlotte-latin"
+      ],
+      "t": "53 / 75"
+    },
+    {
+      "text": "44 / 75",
+      "of": "478803e0",
+      "at": [
+        "providence-day:[7].values.davidson-day"
+      ],
+      "t": "44 / 75"
+    },
+    {
+      "text": "58 / 75",
+      "of": "e742a4f7",
+      "at": [
+        "providence-day:[7].values.providence-day"
+      ],
+      "t": "58 / 75"
+    },
+    {
+      "text": "Top-75 Liberal Arts",
+      "of": "38effdb0",
+      "at": [
+        "providence-day:[8].label"
+      ],
+      "t": "शीर्ष-75 Liberal Arts"
+    },
+    {
+      "text": "Of the top 75 Liberal Arts Colleges in the 2026 U.S. News table, how many appear on the school’s acceptance list.",
+      "of": "c28b602f",
+      "at": [
+        "providence-day:[8].note"
+      ],
+      "t": "2026 की U.S. News तालिका के शीर्ष 75 Top-75 Liberal Arts कॉलेजों में से कितने स्कूल की स्वीकृति-सूची में आते हैं।"
+    },
+    {
+      "text": "27 / 75",
+      "of": "b3333519",
+      "at": [
+        "providence-day:[8].values.cannon"
+      ],
+      "t": "27 / 75"
+    },
+    {
+      "text": "7 / 75",
+      "of": "efb50f69",
+      "at": [
+        "providence-day:[8].values.charlotte-christian"
+      ],
+      "t": "7 / 75"
+    },
+    {
+      "text": "41 / 75",
+      "of": "c76f7789",
+      "at": [
+        "providence-day:[8].values.charlotte-country-day"
+      ],
+      "t": "41 / 75"
+    },
+    {
+      "text": "40 / 75",
+      "of": "7e1b96b4",
+      "at": [
+        "providence-day:[8].values.charlotte-latin"
+      ],
+      "t": "40 / 75"
+    },
+    {
+      "text": "26 / 75",
+      "of": "5a047244",
+      "at": [
+        "providence-day:[8].values.davidson-day"
+      ],
+      "t": "26 / 75"
+    },
+    {
+      "text": "43 / 75",
+      "of": "8a888d0f",
+      "at": [
+        "providence-day:[8].values.providence-day"
+      ],
+      "t": "43 / 75"
+    },
+    {
+      "text": "Power Four",
+      "of": "b3297a32",
+      "at": [
+        "providence-day:[9].label"
+      ],
+      "t": "Power Four"
+    },
+    {
+      "text": "Of the 68 Power Four athletic-conference universities (ACC, Big Ten, Big 12, SEC — including Notre Dame), how many appear on the school’s acceptance list.",
+      "of": "bb20c4d5",
+      "at": [
+        "providence-day:[9].note"
+      ],
+      "t": "68 Power Four खेल-कॉन्फ़्रेंस विश्वविद्यालयों में से (ACC, Big Ten, Big 12, SEC — Notre Dame सहित) कितने स्कूल की स्वीकृति-सूची में आते हैं।"
+    },
+    {
+      "text": "43 / 68",
+      "of": "938ad9d1",
+      "at": [
+        "providence-day:[9].values.cannon"
+      ],
+      "t": "43 / 68"
+    },
+    {
+      "text": "34 / 68",
+      "of": "2f5beac7",
+      "at": [
+        "providence-day:[9].values.charlotte-christian"
+      ],
+      "t": "34 / 68"
+    },
+    {
+      "text": "53 / 68",
+      "of": "d85a7f1a",
+      "at": [
+        "providence-day:[9].values.charlotte-country-day",
+        "providence-day:[9].values.charlotte-latin"
+      ],
+      "t": "53 / 68"
+    },
+    {
+      "text": "42 / 68",
+      "of": "a1f5c978",
+      "at": [
+        "providence-day:[9].values.davidson-day"
+      ],
+      "t": "42 / 68"
+    },
+    {
+      "text": "57 / 68",
+      "of": "734ead9e",
+      "at": [
+        "providence-day:[9].values.providence-day"
+      ],
+      "t": "57 / 68"
+    },
+    {
+      "text": "HBCUs",
+      "of": "d6316d90",
+      "at": [
+        "providence-day:[10].label"
+      ],
+      "t": "HBCUs"
+    },
+    {
+      "text": "Of the 107 Historically Black Colleges & Universities, how many appear on the school’s acceptance list.",
+      "of": "3ac0172e",
+      "at": [
+        "providence-day:[10].note"
+      ],
+      "t": "107 Historically Black Colleges & Universities में से कितने स्कूल की स्वीकृति-सूची में आते हैं।"
+    },
+    {
+      "text": "5 / 107",
+      "of": "4ecefe03",
+      "at": [
+        "providence-day:[10].values.cannon"
+      ],
+      "t": "5 / 107"
+    },
+    {
+      "text": "10 / 107",
+      "of": "3d306a67",
+      "at": [
+        "providence-day:[10].values.charlotte-christian"
+      ],
+      "t": "10 / 107"
+    },
+    {
+      "text": "18 / 107",
+      "of": "3db58dbf",
+      "at": [
+        "providence-day:[10].values.charlotte-country-day"
+      ],
+      "t": "18 / 107"
+    },
+    {
+      "text": "6 / 107",
+      "of": "7700a4ae",
+      "at": [
+        "providence-day:[10].values.charlotte-latin"
+      ],
+      "t": "6 / 107"
+    },
+    {
+      "text": "3 / 107",
+      "of": "b0f5bfa5",
+      "at": [
+        "providence-day:[10].values.davidson-day"
+      ],
+      "t": "3 / 107"
+    },
+    {
+      "text": "14 / 107",
+      "of": "6d19cd5b",
+      "at": [
+        "providence-day:[10].values.providence-day"
+      ],
+      "t": "14 / 107"
     },
     {
       "text": "Seniors per counselor",
       "of": "bb1a037b",
       "at": [
-        "providence-day:[7].label"
+        "providence-day:[11].label"
       ],
       "t": "प्रति counselor वरिष्ठ छात्र"
     },
@@ -396,7 +670,7 @@
       "text": "Approximate seniors per dedicated college counselor at peak application season, from each school’s note.",
       "of": "d8b27599",
       "at": [
-        "providence-day:[7].note"
+        "providence-day:[11].note"
       ],
       "t": "आवेदन के व्यस्ततम मौसम में प्रति समर्पित college counselor वरिष्ठ छात्रों की अनुमानित संख्या, हर स्कूल के नोट के अनुसार।"
     },
@@ -404,7 +678,7 @@
       "text": "28:1",
       "of": "2d11b212",
       "at": [
-        "providence-day:[7].values.cannon"
+        "providence-day:[11].values.cannon"
       ],
       "t": "28:1"
     },
@@ -412,7 +686,7 @@
       "text": "~47:1",
       "of": "6d315a65",
       "at": [
-        "providence-day:[7].values.charlotte-christian"
+        "providence-day:[11].values.charlotte-christian"
       ],
       "t": "~47:1"
     },
@@ -420,7 +694,7 @@
       "text": "~34:1",
       "of": "6546401f",
       "at": [
-        "providence-day:[7].values.charlotte-country-day"
+        "providence-day:[11].values.charlotte-country-day"
       ],
       "t": "~34:1"
     },
@@ -428,7 +702,7 @@
       "text": "~36:1",
       "of": "1ee45b4d",
       "at": [
-        "providence-day:[7].values.charlotte-latin"
+        "providence-day:[11].values.charlotte-latin"
       ],
       "t": "~36:1"
     },
@@ -436,7 +710,7 @@
       "text": "~23:1",
       "of": "32575577",
       "at": [
-        "providence-day:[7].values.davidson-day"
+        "providence-day:[11].values.davidson-day"
       ],
       "t": "~23:1"
     },
@@ -444,7 +718,7 @@
       "text": "~44:1",
       "of": "a80d4a10",
       "at": [
-        "providence-day:[7].values.providence-day"
+        "providence-day:[11].values.providence-day"
       ],
       "t": "~44:1"
     },
@@ -452,7 +726,7 @@
       "text": "Top tuition",
       "of": "233f7a8c",
       "at": [
-        "providence-day:[8].label"
+        "providence-day:[12].label"
       ],
       "t": "सर्वोच्च ट्यूशन"
     },
@@ -460,7 +734,7 @@
       "text": "Highest published grade-band tuition, 2026–27 school year.",
       "of": "7c10f0b3",
       "at": [
-        "providence-day:[8].note"
+        "providence-day:[12].note"
       ],
       "t": "2026–27 शैक्षणिक वर्ष के लिए किसी कक्षा-वर्ग की सबसे अधिक प्रकाशित ट्यूशन।"
     },
@@ -468,7 +742,7 @@
       "text": "$32,070",
       "of": "f55a5a85",
       "at": [
-        "providence-day:[8].values.cannon"
+        "providence-day:[12].values.cannon"
       ],
       "t": "$32,070"
     },
@@ -476,7 +750,7 @@
       "text": "$27,055",
       "of": "54ac7b3e",
       "at": [
-        "providence-day:[8].values.charlotte-christian"
+        "providence-day:[12].values.charlotte-christian"
       ],
       "t": "$27,055"
     },
@@ -484,7 +758,7 @@
       "text": "$34,075",
       "of": "bb245580",
       "at": [
-        "providence-day:[8].values.charlotte-country-day"
+        "providence-day:[12].values.charlotte-country-day"
       ],
       "t": "$34,075"
     },
@@ -492,7 +766,7 @@
       "text": "$36,500",
       "of": "05d1c615",
       "at": [
-        "providence-day:[8].values.charlotte-latin"
+        "providence-day:[12].values.charlotte-latin"
       ],
       "t": "$36,500"
     },
@@ -500,7 +774,7 @@
       "text": "$26,910",
       "of": "d7e28b59",
       "at": [
-        "providence-day:[8].values.davidson-day"
+        "providence-day:[12].values.davidson-day"
       ],
       "t": "$26,910"
     },
@@ -508,7 +782,7 @@
       "text": "$36,325",
       "of": "8315551a",
       "at": [
-        "providence-day:[8].values.providence-day"
+        "providence-day:[12].values.providence-day"
       ],
       "t": "$36,325"
     },
@@ -516,7 +790,7 @@
       "text": "% receiving aid",
       "of": "dcbef77c",
       "at": [
-        "providence-day:[9].label"
+        "providence-day:[13].label"
       ],
       "t": "सहायता पाने वालों का %"
     },
@@ -524,7 +798,7 @@
       "text": "Share of students/families receiving aid as the school states it. “~” where the school says “approximately”; year/denominator vary — see the school’s report. Charlotte Christian & Davidson Day do not publish this.",
       "of": "aeb0b11c",
       "at": [
-        "providence-day:[9].note"
+        "providence-day:[13].note"
       ],
       "t": "सहायता पाने वाले छात्रों/परिवारों का हिस्सा, जैसा स्कूल बताता है। जहाँ स्कूल “approximately” कहता है वहाँ “~” लगाया गया है; वर्ष और आधार-संख्या अलग-अलग हैं — स्कूल की रिपोर्ट देखें। Charlotte Christian और Davidson Day यह प्रकाशित नहीं करते।"
     },
@@ -532,7 +806,7 @@
       "text": "24%",
       "of": "3edd8ba2",
       "at": [
-        "providence-day:[9].values.cannon"
+        "providence-day:[13].values.cannon"
       ],
       "t": "24%"
     },
@@ -540,7 +814,7 @@
       "text": "~20%",
       "of": "7c1640da",
       "at": [
-        "providence-day:[9].values.charlotte-country-day"
+        "providence-day:[13].values.charlotte-country-day"
       ],
       "t": "~20%"
     },
@@ -548,7 +822,7 @@
       "text": "14%",
       "of": "842974e7",
       "at": [
-        "providence-day:[9].values.charlotte-latin"
+        "providence-day:[13].values.charlotte-latin"
       ],
       "t": "14%"
     },
@@ -556,7 +830,7 @@
       "text": "~21%",
       "of": "5813c997",
       "at": [
-        "providence-day:[9].values.providence-day"
+        "providence-day:[13].values.providence-day"
       ],
       "t": "~21%"
     },
@@ -564,7 +838,7 @@
       "text": "Aid awarded / year",
       "of": "c5ec8b05",
       "at": [
-        "providence-day:[10].label"
+        "providence-day:[14].label"
       ],
       "t": "प्रति वर्ष दी गई सहायता"
     },
@@ -572,7 +846,7 @@
       "text": "Total tuition assistance awarded, most recent year the school states a figure. Charlotte Christian & Davidson Day do not publish a total; Country Day’s published totals conflict and are omitted.",
       "of": "2d93b266",
       "at": [
-        "providence-day:[10].note"
+        "providence-day:[14].note"
       ],
       "t": "दी गई कुल ट्यूशन सहायता, उस सबसे हालिया वर्ष की जिसके लिए स्कूल कोई आँकड़ा बताता है। Charlotte Christian और Davidson Day कोई कुल आँकड़ा प्रकाशित नहीं करते; Country Day के प्रकाशित कुल आँकड़े आपस में मेल नहीं खाते, इसलिए उन्हें छोड़ दिया गया है।"
     },
@@ -580,7 +854,7 @@
       "text": "$3.0M",
       "of": "f5d8fd59",
       "at": [
-        "providence-day:[10].values.cannon"
+        "providence-day:[14].values.cannon"
       ],
       "t": "$3.0M"
     },
@@ -588,7 +862,7 @@
       "text": "$3.25M",
       "of": "22c9d5fe",
       "at": [
-        "providence-day:[10].values.charlotte-latin"
+        "providence-day:[14].values.charlotte-latin"
       ],
       "t": "$3.25M"
     },
@@ -596,7 +870,7 @@
       "text": "$3.68M",
       "of": "d21cc86b",
       "at": [
-        "providence-day:[10].values.providence-day"
+        "providence-day:[14].values.providence-day"
       ],
       "t": "$3.68M"
     },
@@ -604,7 +878,7 @@
       "text": "Average award",
       "of": "d52ae269",
       "at": [
-        "providence-day:[11].label"
+        "providence-day:[15].label"
       ],
       "t": "औसत सहायता राशि"
     },
@@ -612,7 +886,7 @@
       "text": "Average aid grant where the school publishes one. Most schools publish neither an average nor a median.",
       "of": "f67cb39d",
       "at": [
-        "providence-day:[11].note"
+        "providence-day:[15].note"
       ],
       "t": "जहाँ स्कूल कोई आँकड़ा प्रकाशित करता है, वहाँ औसत सहायता अनुदान। अधिकांश स्कूल न औसत प्रकाशित करते हैं और न माध्यिका।"
     },
@@ -620,7 +894,7 @@
       "text": "$17,900",
       "of": "9e06e14c",
       "at": [
-        "providence-day:[11].values.charlotte-latin"
+        "providence-day:[15].values.charlotte-latin"
       ],
       "t": "$17,900"
     },
@@ -628,7 +902,7 @@
       "text": "$13,695",
       "of": "63abc83b",
       "at": [
-        "providence-day:[11].values.providence-day"
+        "providence-day:[15].values.providence-day"
       ],
       "t": "$13,695"
     },
@@ -636,7 +910,7 @@
       "text": "Program span",
       "of": "a03fe315",
       "at": [
-        "providence-day:[12].label"
+        "providence-day:[16].label"
       ],
       "t": "कार्यक्रम का विस्तार"
     },
@@ -644,7 +918,7 @@
       "text": "Grade span of the arts program as each school states it.",
       "of": "b49060de",
       "at": [
-        "providence-day:[12].note"
+        "providence-day:[16].note"
       ],
       "t": "कला कार्यक्रम का कक्षा-विस्तार, जैसा हर स्कूल बताता है।"
     },
@@ -652,7 +926,7 @@
       "text": "Age 2–Gr 12",
       "of": "928a1a5d",
       "at": [
-        "providence-day:[12].values.davidson-day"
+        "providence-day:[16].values.davidson-day"
       ],
       "t": "आयु 2–Gr 12"
     },
@@ -660,7 +934,7 @@
       "text": "Signature recognition",
       "of": "b770b2aa",
       "at": [
-        "providence-day:[13].label"
+        "providence-day:[17].label"
       ],
       "t": "विशिष्ट पहचान"
     },
@@ -668,7 +942,7 @@
       "text": "The most notable arts recognition or distinction named in each school’s note (measured differently per school).",
       "of": "45fef1e1",
       "at": [
-        "providence-day:[13].note"
+        "providence-day:[17].note"
       ],
       "t": "हर स्कूल के नोट में बताई गई कला से जुड़ी सबसे उल्लेखनीय पहचान या उपलब्धि (हर स्कूल में मापने का तरीका अलग है)।"
     },
@@ -676,7 +950,7 @@
       "text": "NCTC festival",
       "of": "d4051bdd",
       "at": [
-        "providence-day:[13].values.cannon"
+        "providence-day:[17].values.cannon"
       ],
       "t": "NCTC महोत्सव"
     },
@@ -684,7 +958,7 @@
       "text": "Blumey Best Show",
       "of": "cdb2efd0",
       "at": [
-        "providence-day:[13].values.charlotte-christian"
+        "providence-day:[17].values.charlotte-christian"
       ],
       "t": "Blumey Best Show"
     },
@@ -692,7 +966,7 @@
       "text": "31+ Blumey noms",
       "of": "1b07308b",
       "at": [
-        "providence-day:[13].values.charlotte-country-day"
+        "providence-day:[17].values.charlotte-country-day"
       ],
       "t": "31+ Blumey नामांकन"
     },
@@ -700,7 +974,7 @@
       "text": "80%+ participation",
       "of": "2f0d86b8",
       "at": [
-        "providence-day:[13].values.charlotte-latin"
+        "providence-day:[17].values.charlotte-latin"
       ],
       "t": "80%+ भागीदारी"
     },
@@ -708,7 +982,7 @@
       "text": "Blumey recognition",
       "of": "cc199a5c",
       "at": [
-        "providence-day:[13].values.providence-day"
+        "providence-day:[17].values.providence-day"
       ],
       "t": "Blumey पहचान"
     },
@@ -716,7 +990,7 @@
       "text": "Advanced coursework",
       "of": "a79c3149",
       "at": [
-        "providence-day:[14].label"
+        "providence-day:[18].label"
       ],
       "t": "उन्नत पाठ्यक्रम"
     },
@@ -724,7 +998,7 @@
       "text": "Advanced (AP/IB) arts coursework offered, where the note names it.",
       "of": "340c2db7",
       "at": [
-        "providence-day:[14].note"
+        "providence-day:[18].note"
       ],
       "t": "उपलब्ध उन्नत (AP/IB) कला पाठ्यक्रम, जहाँ नोट में उसका नाम दिया गया है।"
     },
@@ -732,7 +1006,7 @@
       "text": "AP Studio Art",
       "of": "c75dc683",
       "at": [
-        "providence-day:[14].values.cannon"
+        "providence-day:[18].values.cannon"
       ],
       "t": "AP Studio Art"
     },
@@ -740,7 +1014,7 @@
       "text": "AP + IB",
       "of": "3b521870",
       "at": [
-        "providence-day:[14].values.charlotte-country-day"
+        "providence-day:[18].values.charlotte-country-day"
       ],
       "t": "AP + IB"
     },
@@ -748,7 +1022,7 @@
       "text": "3 AP arts",
       "of": "513cfd73",
       "at": [
-        "providence-day:[14].values.providence-day"
+        "providence-day:[18].values.providence-day"
       ],
       "t": "3 AP कला कोर्स"
     },
@@ -756,7 +1030,7 @@
       "text": "Ensembles / offerings",
       "of": "65db4389",
       "at": [
-        "providence-day:[15].label"
+        "providence-day:[19].label"
       ],
       "t": "समूह / उपलब्ध विकल्प"
     },
@@ -764,7 +1038,7 @@
       "text": "Count or breadth of ensembles / arts offerings as each note describes them.",
       "of": "66e31b3f",
       "at": [
-        "providence-day:[15].note"
+        "providence-day:[19].note"
       ],
       "t": "समूहों / कला विकल्पों की संख्या या विस्तार, जैसा हर नोट में बताया गया है।"
     },
@@ -772,7 +1046,7 @@
       "text": "3 pillars",
       "of": "176bc52f",
       "at": [
-        "providence-day:[15].values.cannon"
+        "providence-day:[19].values.cannon"
       ],
       "t": "3 स्तंभ"
     },
@@ -780,7 +1054,7 @@
       "text": "40+ electives",
       "of": "4a7cca16",
       "at": [
-        "providence-day:[15].values.charlotte-christian"
+        "providence-day:[19].values.charlotte-christian"
       ],
       "t": "40+ वैकल्पिक कोर्स"
     },
@@ -788,7 +1062,7 @@
       "text": "8 ensembles",
       "of": "10a2036b",
       "at": [
-        "providence-day:[15].values.charlotte-country-day"
+        "providence-day:[19].values.charlotte-country-day"
       ],
       "t": "8 समूह"
     },
@@ -796,7 +1070,7 @@
       "text": "4 ensembles",
       "of": "ddc02b07",
       "at": [
-        "providence-day:[15].values.providence-day"
+        "providence-day:[19].values.providence-day"
       ],
       "t": "4 समूह"
     },
@@ -804,7 +1078,7 @@
       "text": "Flagship result",
       "of": "472b065e",
       "at": [
-        "providence-day:[16].label"
+        "providence-day:[20].label"
       ],
       "t": "प्रमुख उपलब्धि"
     },
@@ -812,7 +1086,7 @@
       "text": "The single most notable competitive club achievement documented in each school’s note.",
       "of": "d2360dbe",
       "at": [
-        "providence-day:[16].note"
+        "providence-day:[20].note"
       ],
       "t": "हर स्कूल के नोट में दर्ज प्रतिस्पर्धी क्लब की सबसे उल्लेखनीय एकल उपलब्धि।"
     },
@@ -820,7 +1094,7 @@
       "text": "FLL Worlds top 100",
       "of": "6601652a",
       "at": [
-        "providence-day:[16].values.cannon"
+        "providence-day:[20].values.cannon"
       ],
       "t": "FLL Worlds में शीर्ष 100"
     },
@@ -828,7 +1102,7 @@
       "text": "Chess 2nd place",
       "of": "b9f2156c",
       "at": [
-        "providence-day:[16].values.charlotte-christian"
+        "providence-day:[20].values.charlotte-christian"
       ],
       "t": "शतरंज में दूसरा स्थान"
     },
@@ -836,7 +1110,7 @@
       "text": "Model UN — 6 awards",
       "of": "b0aa007f",
       "at": [
-        "providence-day:[16].values.charlotte-country-day"
+        "providence-day:[20].values.charlotte-country-day"
       ],
       "t": "Model UN — 6 पुरस्कार"
     },
@@ -844,7 +1118,7 @@
       "text": "Debate top-20 US",
       "of": "75c75ed4",
       "at": [
-        "providence-day:[16].values.charlotte-latin"
+        "providence-day:[20].values.charlotte-latin"
       ],
       "t": "वाद-विवाद में US के शीर्ष-20 में"
     },
@@ -852,7 +1126,7 @@
       "text": "Battle of Books 1st",
       "of": "bcec0bda",
       "at": [
-        "providence-day:[16].values.davidson-day"
+        "providence-day:[20].values.davidson-day"
       ],
       "t": "Battle of Books में प्रथम"
     },
@@ -860,7 +1134,7 @@
       "text": "DECA → ICDC ’26",
       "of": "d41ceb82",
       "at": [
-        "providence-day:[16].values.providence-day"
+        "providence-day:[20].values.providence-day"
       ],
       "t": "DECA → ICDC ’26"
     },
@@ -868,7 +1142,7 @@
       "text": "Participation signal",
       "of": "c51dd962",
       "at": [
-        "providence-day:[17].label"
+        "providence-day:[21].label"
       ],
       "t": "भागीदारी का संकेत"
     },
@@ -876,7 +1150,7 @@
       "text": "A breadth-of-participation figure where the school publishes one (measured differently per school — see the school’s note). Charlotte Latin’s figure is sports participation.",
       "of": "11f5cf07",
       "at": [
-        "providence-day:[17].note"
+        "providence-day:[21].note"
       ],
       "t": "भागीदारी के विस्तार का कोई आँकड़ा, जहाँ स्कूल उसे प्रकाशित करता है (हर स्कूल में मापने का तरीका अलग है — स्कूल का नोट देखें)। Charlotte Latin का आँकड़ा खेलों में भागीदारी का है।"
     },
@@ -884,7 +1158,7 @@
       "text": "~10k service hrs",
       "of": "546c8d85",
       "at": [
-        "providence-day:[17].values.cannon"
+        "providence-day:[21].values.cannon"
       ],
       "t": "~10k सेवा घंटे"
     },
@@ -892,7 +1166,7 @@
       "text": "~50% mentor weekly",
       "of": "c1f3ec73",
       "at": [
-        "providence-day:[17].values.charlotte-country-day"
+        "providence-day:[21].values.charlotte-country-day"
       ],
       "t": "~50% हर सप्ताह mentor करते हैं"
     },
@@ -900,7 +1174,7 @@
       "text": "~90% play a sport",
       "of": "a1d11602",
       "at": [
-        "providence-day:[17].values.charlotte-latin"
+        "providence-day:[21].values.charlotte-latin"
       ],
       "t": "~90% कोई खेल खेलते हैं"
     },
@@ -908,7 +1182,7 @@
       "text": "~50% in service clubs",
       "of": "c3fd9e34",
       "at": [
-        "providence-day:[17].values.providence-day"
+        "providence-day:[21].values.providence-day"
       ],
       "t": "~50% सेवा क्लबों में"
     },
@@ -916,7 +1190,7 @@
       "text": "Latest pickup time",
       "of": "678b6663",
       "at": [
-        "providence-day:[18].label"
+        "providence-day:[22].label"
       ],
       "t": "बच्चों को लेने का अंतिम समय"
     },
@@ -924,7 +1198,7 @@
       "text": "End of the Lower-School extended-care/aftercare day. Verify current hours with the school.",
       "of": "33e992af",
       "at": [
-        "providence-day:[18].note"
+        "providence-day:[22].note"
       ],
       "t": "Lower School की extended-care/aftercare अवधि का अंत। मौजूदा समय स्कूल से पुष्टि कर लें।"
     },
@@ -932,9 +1206,9 @@
       "text": "6:00 PM",
       "of": "434a888c",
       "at": [
-        "providence-day:[18].values.charlotte-country-day",
-        "providence-day:[18].values.charlotte-latin",
-        "providence-day:[18].values.davidson-day"
+        "providence-day:[22].values.charlotte-country-day",
+        "providence-day:[22].values.charlotte-latin",
+        "providence-day:[22].values.davidson-day"
       ],
       "t": "6:00 PM"
     },
@@ -942,7 +1216,7 @@
       "text": "Power 4 commits",
       "of": "1f2f8490",
       "at": [
-        "providence-day:[19].label"
+        "providence-day:[23].label"
       ],
       "t": "Power 4 प्रतिबद्धताएँ"
     },
@@ -950,7 +1224,7 @@
       "text": "Distinct athletes committed to an SEC / Big Ten / ACC / Big 12 program, Classes of 2024–2026. Documented minimum.",
       "of": "4b7d536c",
       "at": [
-        "providence-day:[19].note"
+        "providence-day:[23].note"
       ],
       "t": "SEC / Big Ten / ACC / Big 12 के किसी कार्यक्रम के लिए प्रतिबद्ध अलग-अलग खिलाड़ी, 2024–2026 की कक्षाएँ। एक दर्ज न्यूनतम।"
     },
@@ -958,7 +1232,7 @@
       "text": "1",
       "of": "340ca71c",
       "at": [
-        "providence-day:[19].values.cannon"
+        "providence-day:[23].values.cannon"
       ],
       "t": "1"
     },
@@ -966,9 +1240,9 @@
       "text": "3",
       "of": "360caa42",
       "at": [
-        "providence-day:[19].values.charlotte-latin",
-        "providence-day:[19].values.davidson-day",
-        "providence-day:[20].values.cannon"
+        "providence-day:[23].values.charlotte-latin",
+        "providence-day:[23].values.davidson-day",
+        "providence-day:[24].values.cannon"
       ],
       "t": "3"
     },
@@ -976,7 +1250,7 @@
       "text": "17",
       "of": "1aeb28b1",
       "at": [
-        "providence-day:[19].values.providence-day"
+        "providence-day:[23].values.providence-day"
       ],
       "t": "17"
     },
@@ -984,7 +1258,7 @@
       "text": "Division I commits",
       "of": "ce720efb",
       "at": [
-        "providence-day:[20].label"
+        "providence-day:[24].label"
       ],
       "t": "Division I प्रतिबद्धताएँ"
     },
@@ -992,7 +1266,7 @@
       "text": "Distinct athletes committed to any NCAA Division I program, Classes of 2024–2026 (includes the Power 4 count above). Documented minimum.",
       "of": "53ecb641",
       "at": [
-        "providence-day:[20].note"
+        "providence-day:[24].note"
       ],
       "t": "किसी भी NCAA Division I कार्यक्रम के लिए प्रतिबद्ध अलग-अलग खिलाड़ी, 2024–2026 की कक्षाएँ (इसमें ऊपर दी गई Power 4 की संख्या भी शामिल है)। एक दर्ज न्यूनतम।"
     },
@@ -1000,7 +1274,7 @@
       "text": "26",
       "of": "8bf29659",
       "at": [
-        "providence-day:[20].values.charlotte-christian"
+        "providence-day:[24].values.charlotte-christian"
       ],
       "t": "26"
     },
@@ -1008,7 +1282,7 @@
       "text": "25",
       "of": "88f291a0",
       "at": [
-        "providence-day:[20].values.charlotte-country-day"
+        "providence-day:[24].values.charlotte-country-day"
       ],
       "t": "25"
     },
@@ -1016,7 +1290,7 @@
       "text": "14",
       "of": "17eb23f8",
       "at": [
-        "providence-day:[20].values.charlotte-latin"
+        "providence-day:[24].values.charlotte-latin"
       ],
       "t": "14"
     },
@@ -1024,7 +1298,7 @@
       "text": "39",
       "of": "90f05fa1",
       "at": [
-        "providence-day:[20].values.providence-day"
+        "providence-day:[24].values.providence-day"
       ],
       "t": "39"
     }
