@@ -1,7 +1,7 @@
 # Hindi (हिन्दी) research-prose translation — rollout
 
-**Status:** **COMPLETE pending the browser print-out and a native-speaker
-review.** All nine topics + the 333-key chrome catalog translated, every
+**Status:** **COMPLETE and PRINT-OUT SIGNED OFF.** Only the native-speaker
+review remains. All nine topics + the 333-key chrome catalog translated, every
 automated check green, `hi` live in `TRANSLATED` and `PROSE_TRANSLATED`.
 Written 2026-08-02.
 
@@ -33,13 +33,11 @@ Written 2026-08-02.
 >
 > ### What is left
 >
-> 1. **The browser print-out** — Providence Day and Charlotte Latin, panels
->    force-expanded. Headless render checks already pass on both (see §5), but
->    every post-100% defect in every prior rollout has been render-layer, and
->    a headless pass once cleared Charlotte Latin while a real browser print-out
->    found the Kreyòl currency bug.
-> 2. **A native-speaker review.** Until then `hi` sits in Kreyòl's unreviewed
->    position. See §6 — the axis to check is Sanskritization.
+> 1. ~~The browser print-out~~ — **DONE, 2026-08-02.** Providence Day (66pp) and
+>    Charlotte Latin (65pp), fully expanded, real browser. **Both clean — the
+>    first rollout in this repo to find ZERO print-out defects.** See §5a.
+> 2. **A native-speaker review** — the only thing outstanding. Until then `hi`
+>    sits in Kreyòl's unreviewed position. See §6 — the axis is Sanskritization.
 >
 > **Read [`prose-translation-te.md`](./prose-translation-te.md) for the method**
 > and [`prose-translation-architecture.md`](./prose-translation-architecture.md)
