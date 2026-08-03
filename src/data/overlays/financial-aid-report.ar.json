@@ -1,0 +1,4148 @@
+{
+  "topic": "financial-aid-report",
+  "lang": "ar",
+  "strings": [
+    {
+      "t": "الرسوم والمساعدة المالية — تقرير معمّق",
+      "of": "92839676",
+      "at": [
+        "providence-day:title",
+        "charlotte-latin:title",
+        "charlotte-christian:title",
+        "charlotte-country-day:title",
+        "cannon:title",
+        "davidson-day:title"
+      ]
+    },
+    {
+      "t": "العام الدراسي 2026–27 · الأرقام حتى 24 يوليو 2026",
+      "of": "08565aea",
+      "at": [
+        "providence-day:meta",
+        "charlotte-latin:meta"
+      ]
+    },
+    {
+      "t": "غير المنشور ≠ الناقص.",
+      "of": "7d8526af",
+      "at": [
+        "providence-day:framing[0].title",
+        "charlotte-latin:framing[0].title",
+        "charlotte-christian:framing[0].title",
+        "charlotte-country-day:framing[0].title",
+        "cannon:framing[0].title",
+        "davidson-day:framing[0].title"
+      ]
+    },
+    {
+      "t": "\"غير منشور\" يشير إلى فجوة شفافية — لا إلى حكم بأن برنامج المساعدة صغير أو غير مُرحِّب. وتُفصح المدرسة أكثر ممّا توحي به صفحة رسومها — إذ تعيش الأرقام المفصَّلة في Report on Philanthropy.",
+      "of": "d6b95b4d",
+      "at": [
+        "providence-day:framing[0].body"
+      ]
+    },
+    {
+      "t": "المنشور ≠ الحالي.",
+      "of": "d3a9c126",
+      "at": [
+        "providence-day:framing[1].title",
+        "charlotte-latin:framing[1].title",
+        "charlotte-christian:framing[1].title",
+        "charlotte-country-day:framing[1].title",
+        "cannon:framing[1].title",
+        "davidson-day:framing[1].title"
+      ]
+    },
+    {
+      "t": "كل رقم دولاري يحمل العام الدراسي الذي ينطبق عليه. ولا تزال صفحة النقل تشير إلى 2023–2024 بينما انتقل جدول الرسوم إلى 2026–27 — دورتان مختلفتان، لا تناقض.",
+      "of": "534b6ce2",
+      "at": [
+        "providence-day:framing[1].body"
+      ]
+    },
+    {
+      "t": "مساعدة K–12 فقط.",
+      "of": "8508ccc2",
+      "at": [
+        "providence-day:framing[2].title",
+        "charlotte-latin:framing[2].title",
+        "charlotte-christian:framing[2].title",
+        "charlotte-country-day:framing[2].title",
+        "cannon:framing[2].title",
+        "davidson-day:framing[2].title"
+      ]
+    },
+    {
+      "t": "مساعدة دراسية أثناء الالتحاق — لا FAFSA أو CSS Profile أو أموال جدارة جامعية تنشرها المدرسة لخرّيجيها. وليست نصيحة مالية.",
+      "of": "28d48a3c",
+      "at": [
+        "providence-day:framing[2].body"
+      ]
+    },
+    {
+      "t": "جدول الرسوم",
+      "of": "ddc182b8",
+      "at": [
+        "providence-day:sections[0].navTitle",
+        "charlotte-latin:sections[0].navTitle",
+        "charlotte-country-day:sections[0].navTitle",
+        "cannon:sections[0].navTitle"
+      ]
+    },
+    {
+      "t": "جدول الرسوم — السعر بحسب النطاق",
+      "of": "349407b9",
+      "at": [
+        "providence-day:sections[0].title",
+        "charlotte-latin:sections[0].title",
+        "charlotte-country-day:sections[0].title",
+        "cannon:sections[0].title"
+      ]
+    },
+    {
+      "t": "الرسوم المنشورة بحسب النطاق، 2026–27",
+      "of": "1761d23f",
+      "at": [
+        "providence-day:sections[0].figureCaption",
+        "charlotte-latin:sections[0].figureCaption"
+      ]
+    },
+    {
+      "t": "رياض الأطفال الانتقالية",
+      "of": "dbc96d41",
+      "at": [
+        "providence-day:sections[0].bands[0].label"
+      ]
+    },
+    {
+      "t": "رياض الأطفال",
+      "of": "68541d89",
+      "at": [
+        "providence-day:sections[0].bands[1].label",
+        "charlotte-country-day:sections[0].bands[1].label",
+        "cannon:sections[0].bands[1].label"
+      ]
+    },
+    {
+      "t": "الصفوف 1–5",
+      "of": "c2d451ca",
+      "at": [
+        "providence-day:sections[0].bands[2].label",
+        "charlotte-latin:sections[0].bands[1].label"
+      ]
+    },
+    {
+      "t": "الصفوف 6–12",
+      "of": "327ac2eb",
+      "at": [
+        "providence-day:sections[0].bands[3].label"
+      ]
+    },
+    {
+      "t": "أربعة نطاقات تغطّي المستويات الصفّية الأربعة عشر كلها من TK حتى الصف 12، دون فجوة ودون تداخل — TK ورياض الأطفال مُسعَّرتان فرديًّا، والصفوف 1–5 تتشارك سعرًا واحدًا، والصفوف 6–12 آخر. وتشمل الرسوم أجهزة iPad للطلاب وكل التقنية، وكل الكتب المدرسية (بما فيها كتب A.P.)، ورسوم اختبارات A.P.، ومعظم الرحلات الميدانية للحصص، وكل مستلزمات طلاب Lower School — قائمة شمول صريحة هي أقلّ البنود إفصاحًا باتّساق في هذه السلسلة.",
+      "of": "38493958",
+      "at": [
+        "providence-day:sections[0].figureNote"
+      ]
+    },
+    {
+      "t": "لا أشرطة للسنوات السابقة: تُظهر صفحة المدرسة الحيّة السنة الحالية فقط وتُكتَب فوقها كل دورة؛ ولم يتسنَّ استرجاع بطاقات الأسعار المؤرشَفة — قيد من أدوات العمل، لا فجوة مدرسة. وتشير الصفحة إلى أن الرسوم عرضة للتغيير لعام 2027–28.",
+      "of": "fe614b55",
+      "at": [
+        "providence-day:sections[0].figureNote2"
+      ]
+    },
+    {
+      "t": "NOT PUBLISHED",
+      "of": "2ca9b134",
+      "at": [
+        "providence-day:sections[0].boxes[0].tag",
+        "charlotte-latin:sections[2].boxes[4].tag",
+        "charlotte-latin:sections[3].boxes[2].tag",
+        "charlotte-latin:sections[5].boxes[3].tag",
+        "charlotte-christian:sections[3].boxes[2].tag",
+        "charlotte-country-day:sections[0].boxes[0].tag",
+        "charlotte-country-day:sections[2].boxes[2].tag",
+        "charlotte-country-day:sections[3].boxes[1].tag",
+        "cannon:sections[0].boxes[0].tag",
+        "cannon:sections[2].boxes[2].tag",
+        "cannon:sections[3].boxes[1].tag",
+        "davidson-day:sections[2].boxes[2].tag"
+      ]
+    },
+    {
+      "t": "تفاصيل جدول الرسوم",
+      "of": "f498c14b",
+      "at": [
+        "providence-day:sections[0].boxes[0].title",
+        "cannon:sections[0].boxes[0].title"
+      ]
+    },
+    {
+      "t": "تفصيل لكل صف ضمن نطاقَي الصفوف 1–5 والصفوف 6–12",
+      "of": "6f085f00",
+      "at": [
+        "providence-day:sections[0].bullets[0]"
+      ]
+    },
+    {
+      "t": "سعر منفصل للطلاب الجدد مقابل العائدين، إن وُجِد",
+      "of": "207c21f5",
+      "at": [
+        "providence-day:sections[0].bullets[1]"
+      ]
+    },
+    {
+      "t": "أنماط نصف يوم أو جزء أسبوع أو غيرها لرياض الأطفال الانتقالية",
+      "of": "e697cdec",
+      "at": [
+        "providence-day:sections[0].bullets[2]"
+      ]
+    },
+    {
+      "t": "تغيير قائم على الأشقّاء على السعر المنشور",
+      "of": "4acf07ff",
+      "at": [
+        "providence-day:sections[0].bullets[3]"
+      ]
+    },
+    {
+      "t": "ما وراء الرسوم",
+      "of": "2ecdac86",
+      "at": [
+        "providence-day:sections[1].navTitle",
+        "charlotte-latin:sections[1].navTitle",
+        "charlotte-country-day:sections[1].navTitle",
+        "cannon:sections[1].navTitle"
+      ]
+    },
+    {
+      "t": "ما وراء الرسوم — التكلفة الحقيقية للالتحاق",
+      "of": "c6c22e80",
+      "at": [
+        "providence-day:sections[1].title",
+        "charlotte-latin:sections[1].title",
+        "charlotte-country-day:sections[1].title",
+        "cannon:sections[1].title"
+      ]
+    },
+    {
+      "t": "خمسة عشر مكوّنًا مؤكَّدًا لأسرة 2026–27 — 11 غير مُسعَّر",
+      "of": "9cb43d11",
+      "at": [
+        "providence-day:sections[1].componentsTitle"
+      ]
+    },
+    {
+      "t": "لم يُبنَ تقدير شامل: 73% غير مُسعَّر > عتبة 33%",
+      "of": "0cb19cee",
+      "at": [
+        "providence-day:sections[1].componentsAside"
+      ]
+    },
+    {
+      "t": "الرسوم — أربعة نطاقات، مُسعَّرة",
+      "of": "c882636a",
+      "at": [
+        "providence-day:sections[1].components[0].label",
+        "charlotte-latin:sections[1].components[0].label",
+        "charlotte-christian:sections[1].components[0].label"
+      ]
+    },
+    {
+      "t": "وديعة التسجيل · $2,500، غير قابلة للاسترداد",
+      "of": "29c2e93b",
+      "at": [
+        "providence-day:sections[1].components[1].label"
+      ]
+    },
+    {
+      "t": "تسجيل Clubhouse · $100/طالب/سنة (MS)",
+      "of": "f493052d",
+      "at": [
+        "providence-day:sections[1].components[2].label"
+      ]
+    },
+    {
+      "t": "الاصطحاب المتأخّر في Extended Day · $1/دقيقة بعد 6 مساءً",
+      "of": "3b9de803",
+      "at": [
+        "providence-day:sections[1].components[3].label"
+      ]
+    },
+    {
+      "t": "رسم برنامج Extended Day · لم يُسترجَع الجدول",
+      "of": "9d975303",
+      "at": [
+        "providence-day:sections[1].components[4].label"
+      ]
+    },
+    {
+      "t": "النقل بالحافلات · صفحة 2023–24، لم تُسترجَع الأجور",
+      "of": "34fcf375",
+      "at": [
+        "providence-day:sections[1].components[5].label"
+      ]
+    },
+    {
+      "t": "المشاركة في FLIK Dining · لا سعر",
+      "of": "cdbe227f",
+      "at": [
+        "providence-day:sections[1].components[6].label"
+      ]
+    },
+    {
+      "t": "حصص الإثراء في Extended Day · لا سعر",
+      "of": "99cfd40d",
+      "at": [
+        "providence-day:sections[1].components[7].label"
+      ]
+    },
+    {
+      "t": "رحلة الصف الثامن الميدانية · لا سعر",
+      "of": "a814ee61",
+      "at": [
+        "providence-day:sections[1].components[8].label"
+      ]
+    },
+    {
+      "t": "رحلة الصف الثاني عشر الميدانية · لا سعر",
+      "of": "43953ba2",
+      "at": [
+        "providence-day:sections[1].components[9].label"
+      ]
+    },
+    {
+      "t": "سفر الأندية · لا سعر",
+      "of": "ce468795",
+      "at": [
+        "providence-day:sections[1].components[10].label"
+      ]
+    },
+    {
+      "t": "سفر مسابقات الفنون · لا سعر",
+      "of": "521467de",
+      "at": [
+        "providence-day:sections[1].components[11].label"
+      ]
+    },
+    {
+      "t": "سفر البطولات الرياضية · لا سعر",
+      "of": "5a671506",
+      "at": [
+        "providence-day:sections[1].components[12].label"
+      ]
+    },
+    {
+      "t": "أزياء التربية البدنية · لا سعر",
+      "of": "9bbccd57",
+      "at": [
+        "providence-day:sections[1].components[13].label"
+      ]
+    },
+    {
+      "t": "الحاسبات البيانية · لا سعر",
+      "of": "bb4e30c6",
+      "at": [
+        "providence-day:sections[1].components[14].label"
+      ]
+    },
+    {
+      "t": "خدمات التدريس الخصوصي · لا سعر",
+      "of": "31402b59",
+      "at": [
+        "providence-day:sections[1].components[15].label"
+      ]
+    },
+    {
+      "t": "من خمسة عشر مكوّنًا مؤكَّدًا، أربعة تحمل سعرًا منشورًا وأحد عشر لا — 73% غير مُسعَّر مقابل عتبة الثلث، فيُلغى التقدير الشامل بدلًا من تجميع نطاق من أجزاء غالبيتها مفقودة. ووجود صندوقَي وقف (القسم 5) مخصَّصين لتكاليف تتجاوز الرسوم يؤكّد بشكل مستقلّ أن هذه الرسوم حقيقية.",
+      "of": "eee976a6",
+      "at": [
+        "providence-day:sections[1].componentsNote"
+      ]
+    },
+    {
+      "t": "الوديعة، 2026–27",
+      "of": "44ffd316",
+      "at": [
+        "providence-day:sections[1].boxes[0].title"
+      ]
+    },
+    {
+      "t": "وديعة غير قابلة للاسترداد قدرها **$2,500**، مع اتّفاق موقَّع، تؤمّن مكانًا لطالب مقبول. وتُحتسَب لصالح إجمالي تكلفة الرسوم — فهي التزام توقيت لا إضافة إلى السعر المنشور، وهي القسط الأول لا تكلفة زائدة.",
+      "of": "2d4b5d4d",
+      "at": [
+        "providence-day:sections[1].boxes[0].body"
+      ]
+    },
+    {
+      "t": "TWO PUBLIC FIGURES NOT RETRIEVED",
+      "of": "86970e7e",
+      "at": [
+        "providence-day:sections[1].boxes[1].tag"
+      ]
+    },
+    {
+      "t": "تربط صفحة Lower School بمستند \"2025–26 Extended Day Schedules and Fees\"، وتذكر صفحة النقل أن معلومات الأجور متاحة — لكن نصّها الحيّ يشير إلى **2023–2024** ولم يظهر جدول الأجور. وكلاهما مستند يمكن لأسرة فتحه أو طلبه في خطوة واحدة؛ ولم تُسترجَع محتوياتهما هنا، ولم تحجبهما المدرسة.",
+      "of": "a22f0fed",
+      "at": [
+        "providence-day:sections[1].boxes[1].body"
+      ]
+    },
+    {
+      "t": "منظومة المساعدة",
+      "of": "ffd48cd4",
+      "at": [
+        "providence-day:sections[2].navTitle",
+        "charlotte-latin:sections[2].navTitle",
+        "charlotte-country-day:sections[2].navTitle",
+        "cannon:sections[2].navTitle",
+        "davidson-day:sections[2].navTitle"
+      ]
+    },
+    {
+      "t": "منظومة المساعدة — العملية والنماذج والجدول الزمني",
+      "of": "dd8aebe5",
+      "at": [
+        "providence-day:sections[2].title",
+        "charlotte-latin:sections[2].title",
+        "charlotte-country-day:sections[2].title",
+        "cannon:sections[2].title"
+      ]
+    },
+    {
+      "t": "1 نوفمبر 2025",
+      "of": "df7f4cae",
+      "at": [
+        "providence-day:sections[2].timeline[0].when"
+      ]
+    },
+    {
+      "t": "المعلومات مستحقّة لـ **الأُسر الحالية** المُعيدة للتقديم — الطلب عبر **Clarity**",
+      "of": "5ef3a091",
+      "at": [
+        "providence-day:sections[2].timeline[0].detail"
+      ]
+    },
+    {
+      "t": "23 يناير 2026",
+      "of": "c6ae272f",
+      "at": [
+        "providence-day:sections[2].timeline[1].when"
+      ]
+    },
+    {
+      "t": "المعلومات مستحقّة لـ **الأُسر المرتقبة** — طلب Clarity نفسه",
+      "of": "70688ace",
+      "at": [
+        "providence-day:sections[2].timeline[1].detail"
+      ]
+    },
+    {
+      "t": "مع الاتّفاق",
+      "of": "c9f906fe",
+      "at": [
+        "providence-day:sections[2].timeline[2].when"
+      ]
+    },
+    {
+      "t": "يصل قرار المساعدة **مع اتّفاق التسجيل أو إعادة التسجيل** — فتعرف الأسرة المنحة والتزام التسجيل في اللحظة نفسها",
+      "of": "ae0f14f3",
+      "at": [
+        "providence-day:sections[2].timeline[2].detail"
+      ]
+    },
+    {
+      "t": "كل سنة",
+      "of": "1a1b3f6d",
+      "at": [
+        "providence-day:sections[2].timeline[3].when",
+        "charlotte-country-day:sections[2].timeline[3].when",
+        "cannon:sections[2].timeline[3].when",
+        "davidson-day:sections[2].timeline[3].when"
+      ]
+    },
+    {
+      "t": "تُمنَح المساعدة سنويًّا؛ وعلى أولياء الأمور إعادة التقديم كل سنة للنظر في مساعدة مستمرّة",
+      "of": "c2d0df8c",
+      "at": [
+        "providence-day:sections[2].timeline[3].detail"
+      ]
+    },
+    {
+      "t": "المنصّة وتكلفة التقديم",
+      "of": "b8722f16",
+      "at": [
+        "providence-day:sections[2].boxes[0].title",
+        "charlotte-country-day:sections[2].boxes[0].title",
+        "cannon:sections[2].boxes[0].title",
+        "davidson-day:sections[2].boxes[0].title"
+      ]
+    },
+    {
+      "t": "تشترك Providence Day مع **Clarity** لتقييم الحاجة · رسم تقديم **$65**، تدفعه الأسرة (2026–27). وتصف المدرسة الطلب بأنه يستغرق أقلّ من ساعة وملائم للهاتف، وتُجري ندوات إلكترونية للأُسر يشرح فيها Clarity الطلب وعملية التحقّق الضريبي. وتُقيَّم الحاجة على أساس الدخل الإجمالي والأصول والالتزامات وحجم الأسرة وعدد الأطفال في مدارس ذات رسوم؛ ولا تتجاوز المساعدة الحاجة المُثبَتة وتعتمد على توفّر أموال المدرسة.",
+      "of": "309b9893",
+      "at": [
+        "providence-day:sections[2].boxes[0].body"
+      ]
+    },
+    {
+      "t": "الوثائق والوالدان المطلّقان أو المنفصلان",
+      "of": "48d40a32",
+      "at": [
+        "providence-day:sections[2].boxes[1].title"
+      ]
+    },
+    {
+      "t": "إقرار 1040 ونماذج W-2 وأحدث كعب راتب — تنتقل الوثائق الضريبية تلقائيًّا من I.R.S. بمجرّد اكتمال التحقّق — إضافةً إلى إقرارات الأعمال ونماذج 1099 للعاملين لحسابهم. والوثائق مطلوبة من **الوالد الحاضن وغير الحاضن معًا**، سواء مطلّقين أو منفصلين أو لم يتزوّجا قطّ؛ وتذكر المدرسة أن نقص المعلومات من أي من الوالدين قد يؤثّر في الأهلية.",
+      "of": "9c1de0b5",
+      "at": [
+        "providence-day:sections[2].boxes[1].body"
+      ]
+    },
+    {
+      "t": "المساعدة والقبول منفصلان",
+      "of": "9d51b860",
+      "at": [
+        "providence-day:sections[2].boxes[2].title"
+      ]
+    },
+    {
+      "t": "تذكر المدرسة بوضوح أن التقدّم للمساعدة **لا** يؤثّر في اختيار المرشّح للقبول، وأن لجانًا منفصلة تقرّر القبول والمساعدة. ولا تستخدم مصطلحَي \"need-blind\" أو \"need-aware\"، فلا يطبّق هذا التقرير أي تسمية منهما.",
+      "of": "ddd696d9",
+      "at": [
+        "providence-day:sections[2].boxes[2].body"
+      ]
+    },
+    {
+      "t": "NOT PUBLISHED — FIVE PROCESS QUESTIONS",
+      "of": "b9cff348",
+      "at": [
+        "providence-day:sections[2].boxes[3].tag"
+      ]
+    },
+    {
+      "t": "لا عملية استئناف أو إعادة نظر · لا سياسة لتغيّر الظروف في منتصف السنة · لا بيان بهل تتجدّد المنح عادةً بمستوى ثابت (السؤال العملي خلف إعادة التقديم السنوية) · لا سياسة سرّية تسمّي من يرى ملفّ الأسرة داخل المدرسة · لا تكوين للجنة المساعدة.",
+      "of": "fcf00a5c",
+      "at": [
+        "providence-day:sections[2].boxes[3].body"
+      ]
+    },
+    {
+      "t": "أرقام المساعدة",
+      "of": "e15b3ca0",
+      "at": [
+        "providence-day:sections[3].navTitle",
+        "charlotte-latin:sections[3].navTitle"
+      ]
+    },
+    {
+      "t": "أرقام المساعدة — كم، ولمن، وإلى أي مدى",
+      "of": "01785154",
+      "at": [
+        "providence-day:sections[3].title",
+        "charlotte-latin:sections[3].title"
+      ]
+    },
+    {
+      "t": "DETAIL LIVES IN THE PHILANTHROPY REPORT",
+      "of": "3649ab55",
+      "at": [
+        "providence-day:sections[3].tag"
+      ]
+    },
+    {
+      "t": "من الأُسر تتلقّى بعض المساعدة — الصفحة الحالية، دون سنة ودون مقام مذكور",
+      "of": "515670b2",
+      "at": [
+        "providence-day:sections[3].stats[0].label"
+      ]
+    },
+    {
+      "t": "إجمالي المساعدة الممنوحة، 2017–18 — أحدث سنة مفصَّلة منشورة",
+      "of": "971d0239",
+      "at": [
+        "providence-day:sections[3].stats[1].label"
+      ]
+    },
+    {
+      "t": "متوسّط المنحة، 2017–18 (مصطلح المدرسة نفسها؛ لا وسيط)",
+      "of": "b6fb18ff",
+      "at": [
+        "providence-day:sections[3].stats[2].label"
+      ]
+    },
+    {
+      "t": "من الطلاب المدعومين، 2017–18 — وأيضًا 2012–13",
+      "of": "5da1556a",
+      "at": [
+        "providence-day:sections[3].stats[3].label"
+      ]
+    },
+    {
+      "t": "أين تعيش الأرقام المفصَّلة",
+      "of": "1b71eb5a",
+      "at": [
+        "providence-day:sections[3].boxes[0].title"
+      ]
+    },
+    {
+      "t": "تُغفل صفحة الرسوم كل رقم مساعدة إلا واحدًا؛ وتعيش الأرقام في **Report on Philanthropy** السنوي، \"Enrollment at a Glance.\" الإصدارات المنشورة: **2012–13** مُنِح $3,105,191، بمتوسّط $12,273، و16% من الطلاب · **2013–14** $3,013,928، بمتوسّط $12,664 · **2017–18** $3,683,971، بمتوسّط $13,695، و16%. ولم يُعثَر على أرقام قابلة للمقارنة بعد 2017–18. ووليّ أمر يقرأ صفحة الرسوم فقط لن يصادف أيًّا من هذا — نتيجة موضع، لا فجوة إفصاح.",
+      "of": "f60759e1",
+      "at": [
+        "providence-day:sections[3].boxes[0].body"
+      ]
+    },
+    {
+      "t": "AVERAGE IS NOT MEDIAN",
+      "of": "837655f1",
+      "at": [
+        "providence-day:sections[3].boxes[1].tag"
+      ]
+    },
+    {
+      "t": "كل رقم منحة تنشره المدرسة هو **متوسّط منحة** — يُستنسَخ دون تغيير ولا يُعامَل هنا قطّ منحةً نموذجية. ولمنح المساعدة ذيل علوي طويل، فالمتوسّط يقع عادةً فوق ما يتلقّاه المستفيد النموذجي؛ ولا يُنشَر وسيط في أي إصدار عُثِر عليه، فلا تستطيع أسرة معرفة إلى أي مدى فوقه.",
+      "of": "682edc14",
+      "at": [
+        "providence-day:sections[3].boxes[1].body"
+      ]
+    },
+    {
+      "t": "A UNIT CHANGE THAT BLOCKS COMPARISON",
+      "of": "b9b12468",
+      "at": [
+        "providence-day:sections[3].boxes[2].tag"
+      ]
+    },
+    {
+      "t": "تعدّ الإصدارات التاريخية **الطلاب** المتلقّين للمساعدة (16%)؛ وتعدّ الصفحة الحالية **الأُسر** المتلقّية للمساعدة (≈21%). وحدتان مختلفتان، وأساسان مختلفان — فلا يمكن قراءة الحركة الظاهرة 16% → 21% نموًّا في الوصول. وقد تكون أثرًا لتغيّر الوحدة، أو حقيقية كليًّا، أو مزيجًا. ويرفض هذا التقرير التوفيق بينهما.",
+      "of": "d1d9ac05",
+      "at": [
+        "providence-day:sections[3].boxes[2].body"
+      ]
+    },
+    {
+      "t": "تعارض داخلي، مُبلَّغ لا مُحلَّل",
+      "of": "30e85012",
+      "at": [
+        "providence-day:sections[3].boxes[3].title"
+      ]
+    },
+    {
+      "t": "يذكر Report on Philanthropy لعام 2012–13 مبلغ **$3,105,191** بوصفه إجمالي المساعدة الممنوحة في صفحة التسجيل و**$3,092,165** بوصفه سطر المساعدة المالية في تفصيل نفقاته بعد صفحة — فارق **$13,026**، وكلاهما منشور من المدرسة في المستند نفسه. ويُستنسَخ الاثنان؛ والتفسير الأرجح أساسان محاسبيان مختلفان، لكن المدرسة لا تقول ذلك واستنتاجه سيكون تخمينًا.",
+      "of": "9e882875",
+      "at": [
+        "providence-day:sections[3].boxes[3].body"
+      ]
+    },
+    {
+      "t": "HOW AID IS FUNDED",
+      "of": "71152f51",
+      "at": [
+        "providence-day:sections[3].boxes[4].tag"
+      ]
+    },
+    {
+      "t": "تعتمد المساعدة على أموال التشغيل ودخل الوقف معًا. 2017–18: كانت المساعدة المالية والخصومات **9.7%** من النفقات مقابل ميزانية مذكورة قدرها $40.6M، وخُصِّص 5% من هبات Annual Fund لـ Student Financial Assistance. 2012–13: سطر مساعدة قدره $3,092,165 ضمن إجمالي نفقات قدره $33,320,795 — حصّة 9.3% (حسابنا على رقمَي المدرسة). ولم يتسنَّ استرجاع Schedule I وSchedule D من Form 990، اللذين سيحملان تفصيل مساعدة K–12 والوقف.",
+      "of": "7c80baed",
+      "at": [
+        "providence-day:sections[3].boxes[4].body"
+      ]
+    },
+    {
+      "t": "الجدارة والمنح",
+      "of": "1449fbfd",
+      "at": [
+        "providence-day:sections[4].navTitle",
+        "charlotte-latin:sections[4].navTitle",
+        "charlotte-country-day:sections[3].navTitle",
+        "cannon:sections[3].navTitle"
+      ]
+    },
+    {
+      "t": "الجدارة والخصومات والبرامج الخاصّة",
+      "of": "69669cea",
+      "at": [
+        "providence-day:sections[4].title",
+        "charlotte-latin:sections[4].title",
+        "charlotte-country-day:sections[3].title",
+        "cannon:sections[3].title"
+      ]
+    },
+    {
+      "t": "ALL AID IS NEED-BASED",
+      "of": "b07bc1c8",
+      "at": [
+        "providence-day:sections[4].tag",
+        "charlotte-country-day:sections[3].tag",
+        "cannon:sections[3].tag"
+      ]
+    },
+    {
+      "t": "صناديق وقف مُسمّاة تدعم المساعدة المالية أو المساعدة الدراسية",
+      "of": "a0356f5f",
+      "at": [
+        "providence-day:sections[4].stats[0].label"
+      ]
+    },
+    {
+      "t": "صناديق مخصَّصة للتكاليف التي تتجاوز الرسوم (Murdock وLatchwood)",
+      "of": "e38ed3ea",
+      "at": [
+        "providence-day:sections[4].stats[1].label"
+      ]
+    },
+    {
+      "t": "أدنى هبة لتأسيس صندوق وقف مُسمّى (رُفِعت من $50,000 في 2013)",
+      "of": "9cd000fc",
+      "at": [
+        "providence-day:sections[4].stats[2].label"
+      ]
+    },
+    {
+      "t": "قائم على الحاجة، لا مسار جدارة عامّ",
+      "of": "fdf0793e",
+      "at": [
+        "providence-day:sections[4].boxes[0].title"
+      ]
+    },
+    {
+      "t": "المساعدة قائمة على الحاجة؛ و**لا يُنشَر أي برنامج منح جدارة أكاديمي أو فنّي أو رياضي أو قيادي عامّ.** ويدعم المساعدة أحد عشر صندوقًا دائمًا مُسمّى على الأقلّ — مثل Paula C. Freeman Financial Aid Endowment ($511,383 في يونيو 2018)، وRob Eck Memorial Scholarship، وEdward E. Ford Minority Scholarship، وصناديق مركّزة على التنوّع (Brinkley وMcGee Family). وقيم الصناديق حتى 30 يونيو 2018، أحدث إصدار عُثِر عليه، وهي تاريخية.",
+      "of": "e5664446",
+      "at": [
+        "providence-day:sections[4].boxes[0].body"
+      ]
+    },
+    {
+      "t": "صندوقان للتكاليف خارج الرسوم",
+      "of": "df35499c",
+      "at": [
+        "providence-day:sections[4].boxes[1].title"
+      ]
+    },
+    {
+      "t": "**Gilmer L. Murdock, Jr. Endowment** و**The Latchwood Endowment** موجودان تحديدًا لمساعدة الطلاب ذوي الحاجة المُثبَتة على تلبية تكاليف تتجاوز الرسوم — وتسمّي الأوصاف المنشورة التدريس الخصوصي وحصص المراجعة والحاسبات ورحلات الحصص والمعدّات الرياضية ومخيّمات الفرق والبطولات ورسوم الطعام والأنشطة. وهذه هي الفئات نفسها التي تظهر غير مُسعَّرة في القسم 2؛ ووجودها يؤكّد أن تلك التكاليف حقيقية.",
+      "of": "4bb460fc",
+      "at": [
+        "providence-day:sections[4].boxes[1].body"
+      ]
+    },
+    {
+      "t": "أبناء هيئة التدريس والموظفين",
+      "of": "155bd5f0",
+      "at": [
+        "providence-day:sections[4].boxes[2].title"
+      ]
+    },
+    {
+      "t": "يقدّم **Kristina C. Brockmeier Endowment for Financial Aid** مساعدة سنويًّا لأبناء هيئة التدريس والموظفين الحاليين الذين يُثبِتون الحاجة. وهذه منحة وقف قائمة على الحاجة، لا ميزة إعفاء رسوم شاملة؛ وهل تقدّم المدرسة منفصلةً نسبة إعفاء للموظفين غير منشور.",
+      "of": "2c18a834",
+      "at": [
+        "providence-day:sections[4].boxes[2].body"
+      ]
+    },
+    {
+      "t": "NOT PUBLISHED — SIX ITEMS",
+      "of": "b806db54",
+      "at": [
+        "providence-day:sections[4].boxes[3].tag"
+      ]
+    },
+    {
+      "t": "لا رسوم مُفهرَسة أو متغيّرة · لا خصم للأشقّاء أو رجال الدين أو العسكريين أو المستجيبين الأوائل · لا برنامج جدارة عامّ · لا رقم لكم منحة يقدّمها أي صندوق مُسمّى في السنة أو كم تساوي المنحة النموذجية · لا بيان بهل تتراكم منحة صندوق مُسمّى مع منحة قائمة على الحاجة أو تحلّ محلّها. وغياب خصم منشور ليس دليلًا على عدم وجوده — فعدّة منها تُعالَج عادةً حالة بحالة.",
+      "of": "987e5544",
+      "at": [
+        "providence-day:sections[4].boxes[3].body"
+      ]
+    },
+    {
+      "t": "دفع الرصيد",
+      "of": "46e95218",
+      "at": [
+        "providence-day:sections[5].navTitle",
+        "charlotte-latin:sections[5].navTitle",
+        "charlotte-country-day:sections[4].navTitle",
+        "cannon:sections[4].navTitle",
+        "davidson-day:sections[4].navTitle"
+      ]
+    },
+    {
+      "t": "دفع الرصيد — الخطط وشروط العقد",
+      "of": "2dcbaa3b",
+      "at": [
+        "providence-day:sections[5].title",
+        "charlotte-latin:sections[5].title",
+        "charlotte-country-day:sections[4].title",
+        "cannon:sections[4].title"
+      ]
+    },
+    {
+      "t": "1×",
+      "of": "baec2491",
+      "at": [
+        "providence-day:sections[5].plans[0].figure",
+        "charlotte-christian:sections[4].plans[1].figure",
+        "charlotte-country-day:sections[4].plans[1].figure",
+        "cannon:sections[4].plans[0].figure"
+      ]
+    },
+    {
+      "t": "دفعة كاملة",
+      "of": "8d20daf3",
+      "at": [
+        "providence-day:sections[5].plans[0].label"
+      ]
+    },
+    {
+      "t": "الرسوم مدفوعة دفعة واحدة. وهل يكسب الدفع الكامل خصمًا غير منشور.",
+      "of": "2f880bde",
+      "at": [
+        "providence-day:sections[5].plans[0].detail"
+      ]
+    },
+    {
+      "t": "3×",
+      "of": "aaf0888f",
+      "at": [
+        "providence-day:sections[5].plans[1].figure"
+      ]
+    },
+    {
+      "t": "ثلاثة أقساط",
+      "of": "1cdfa249",
+      "at": [
+        "providence-day:sections[5].plans[1].label"
+      ]
+    },
+    {
+      "t": "البنية منشورة؛ والشروط أو الرسم أو الفائدة المرتبطة ليست كذلك.",
+      "of": "9ab9bc11",
+      "at": [
+        "providence-day:sections[5].plans[1].detail",
+        "providence-day:sections[5].plans[2].detail",
+        "providence-day:sections[5].plans[3].detail"
+      ]
+    },
+    {
+      "t": "10×",
+      "of": "86340569",
+      "at": [
+        "providence-day:sections[5].plans[2].figure",
+        "charlotte-christian:sections[4].plans[2].figure",
+        "charlotte-country-day:sections[4].plans[3].figure",
+        "cannon:sections[4].plans[2].figure",
+        "cannon:sections[4].plans[3].figure"
+      ]
+    },
+    {
+      "t": "عشرة أقساط",
+      "of": "78ac4688",
+      "at": [
+        "providence-day:sections[5].plans[2].label"
+      ]
+    },
+    {
+      "t": "12×",
+      "of": "d6390087",
+      "at": [
+        "providence-day:sections[5].plans[3].figure"
+      ]
+    },
+    {
+      "t": "اثنا عشر قسطًا",
+      "of": "959c46e8",
+      "at": [
+        "providence-day:sections[5].plans[3].label"
+      ]
+    },
+    {
+      "t": "الوديعة بوصفها شرط عقد",
+      "of": "0de370e9",
+      "at": [
+        "providence-day:sections[5].boxes[0].title"
+      ]
+    },
+    {
+      "t": "الوديعة البالغة **$2,500** غير قابلة للاسترداد وتؤمّن مكانًا لطالب مقبول، وتُحتسَب لصالح إجمالي تكلفة الرسوم. وتُرسّخ الصياغة المنشورة أنها لا تُعاد إن انسحبت أسرة بعد التوقيع — لكنها لا تصف أي التزام إضافي، إن وُجِد، تحمله الأسرة عند الانسحاب لاحقًا في السنة.",
+      "of": "07d75b5b",
+      "at": [
+        "providence-day:sections[5].boxes[0].body"
+      ]
+    },
+    {
+      "t": "ONE FIGURE AT A LOWER VERIFICATION TIER",
+      "of": "03074b5d",
+      "at": [
+        "providence-day:sections[5].boxes[1].tag"
+      ]
+    },
+    {
+      "t": "أشار مستند مدرسي أقدم مرتبط بمزوّد محاسبة سابق إلى رسم سنوي قدره **$45 لكل أسرة** لخطة الدفع الممتدّة. ولم يتسنَّ تأكيده مقابل أي صفحة للسنة الحالية وتغيّر ترتيب المحاسبة منذ ذلك الحين — مُسجَّل فقط لإظهار أن رسوم الخطط وُجِدت تاريخيًّا، **لا** رقمًا لعام 2026–27.",
+      "of": "1cb5641f",
+      "at": [
+        "providence-day:sections[5].boxes[1].body"
+      ]
+    },
+    {
+      "t": "غير منشور — سبعة أسئلة عن العقد والدفع",
+      "of": "bcf902c4",
+      "at": [
+        "providence-day:sections[5].boxes[2].tag"
+      ]
+    },
+    {
+      "t": "هل تحمل خطط 3/10/12 قسطًا رسم خدمة أو فائدة · هل يكسب الدفع الكامل خصمًا · أي مُقرِض طرف ثالث، إن وُجِد، تشترك معه المدرسة · هل تُقدَّم خطة استرداد أو تأمين رسوم، وهل هي إلزامية، وكم تكلّف · التزام الانسحاب والمغادرة في منتصف السنة فيما يتجاوز الوديعة · سياسة الدفع المتأخّر والمتأخّرات · هل يوجد أي خيار دفع مسبق متعدّد السنوات أو تثبيت رسوم. وهذه تقع في عقد التسجيل، الذي ليس علنيًّا — ترتيب معتاد.",
+      "of": "38bba7c5",
+      "at": [
+        "providence-day:sections[5].boxes[2].body"
+      ]
+    },
+    {
+      "t": "الاتّجاه والأسئلة",
+      "of": "fc4483df",
+      "at": [
+        "providence-day:sections[6].navTitle",
+        "charlotte-latin:sections[6].navTitle",
+        "charlotte-christian:sections[5].navTitle",
+        "charlotte-country-day:sections[5].navTitle",
+        "cannon:sections[5].navTitle",
+        "davidson-day:sections[5].navTitle"
+      ]
+    },
+    {
+      "t": "الاتّجاه والوصول والأسئلة الواجب طرحها",
+      "of": "806c98a9",
+      "at": [
+        "providence-day:sections[6].title",
+        "charlotte-latin:sections[6].title",
+        "charlotte-christian:sections[5].title",
+        "charlotte-country-day:sections[5].title",
+        "cannon:sections[5].title",
+        "davidson-day:sections[5].title"
+      ]
+    },
+    {
+      "t": "مسيرة كاملة TK–12 بأسعار 2026–27 — حسابنا، الرسوم فقط، لا إسقاط",
+      "of": "d9fec8f0",
+      "at": [
+        "providence-day:sections[6].stats[0].label"
+      ]
+    },
+    {
+      "t": "مسيرة الصفوف 6–12 بأسعار 2026–27 ($36,325 × 7)",
+      "of": "c88ad8b9",
+      "at": [
+        "providence-day:sections[6].stats[1].label"
+      ]
+    },
+    {
+      "t": "مسيرة الصفوف 9–12 بأسعار 2026–27 ($36,325 × 4)",
+      "of": "808660af",
+      "at": [
+        "providence-day:sections[6].stats[2].label"
+      ]
+    },
+    {
+      "t": "TUITION TREND — NOT BUILT",
+      "of": "7b852e71",
+      "at": [
+        "providence-day:sections[6].boxes[0].tag"
+      ]
+    },
+    {
+      "t": "يحمل هذا القسم عادةً ثلاث إلى خمس سنوات من الأسعار المنشورة. أما لـ Providence Day فلا: تُظهر صفحة الرسوم السنة الحالية فقط وتُكتَب فوقها كل دورة، ولم تُسترجَع بطاقات أسعار السنوات السابقة المؤرشَفة. وبدلًا من استبدال أرقام طرف ثالث ببطاقات أسعار المدرسة نفسها، لا يُبلّغ هذا التقرير عن أي اتّجاه للرسوم — قيد من أدوات العمل، لا فشل إفصاح.",
+      "of": "d3e6f997",
+      "at": [
+        "providence-day:sections[6].boxes[0].body"
+      ]
+    },
+    {
+      "t": "اتّجاه المساعدة الذي تنشره المدرسة فعلًا",
+      "of": "e97d8270",
+      "at": [
+        "providence-day:sections[6].boxes[1].title"
+      ]
+    },
+    {
+      "t": "ارتفع إجمالي المساعدة الممنوحة من **$3,105,191 (2012–13)** إلى **$3,683,971 (2017–18)**، مع انخفاض إلى $3,013,928 في 2013–14 بينهما. وارتفع متوسّط المنحة $12,273 → $13,695؛ وحصّة الطلاب 16% في الطرفين. ونما عدد الطلاب 1,552 → 1,627 على مدى النافذة. ولم يُعثَر على أرقام قابلة للمقارنة بعد 2017–18. ونمت القيمة السوقية للوقف $6,486,512 (يونيو 2013) → $14,029,707 (يونيو 2018)؛ ويستهدف الإطار الاستراتيجي للمدرسة $55M بحلول 2030.",
+      "of": "0fc2e599",
+      "at": [
+        "providence-day:sections[6].boxes[1].body"
+      ]
+    },
+    {
+      "t": "NAVIGATION HAZARD",
+      "of": "4d99b319",
+      "at": [
+        "providence-day:sections[6].boxes[2].tag"
+      ]
+    },
+    {
+      "t": "تحمل قوائم طرف ثالث واسعة الانتشار أرقام رسوم لا تتّفق لا فيما بينها ولا مع المدرسة — سعر واحد \"≈$20,500\"، وسعر أعلى لعام 2024 \"$34,430\"، ونطاق \"$20,800–$29,620\"، ونطاق 2024–25 \"$23,040–$32,810\". و**لا** أيٌّ منها يطابق نطاقات المدرسة المنشورة لعام 2026–27 $25,510–$36,325. وتخزّن المُجمِّعات أرقام السنوات السابقة وكثيرًا ما تكون قديمة — فعامِل صفحة رسوم المدرسة نفسها بوصفها المرجع الوحيد، حتى حين يُظهر محرّك بحث مُجمِّعًا فوقها.",
+      "of": "23236771",
+      "at": [
+        "providence-day:sections[6].boxes[2].body"
+      ]
+    },
+    {
+      "t": "يقابل كلٌّ منها فجوة في هذا التقرير ومُرتَّب بحسب مدى احتمال تحريكه لإجمالي الأسرة.",
+      "of": "520e904d",
+      "at": [
+        "providence-day:sections[6].questionsNote"
+      ]
+    },
+    {
+      "t": "كم يكلّف Extended Day لكل يوم في الأسبوع، وما أجور الحافلات لعنواننا، للسنة الحالية؟",
+      "of": "01224913",
+      "at": [
+        "providence-day:sections[6].questions[0]"
+      ]
+    },
+    {
+      "t": "كم تكلّف رحلتا الصفّين الثامن والثاني عشر الميدانيتان، ومتى تُحاسَب تلك الرسوم؟",
+      "of": "2e1a7943",
+      "at": [
+        "providence-day:sections[6].questions[1]"
+      ]
+    },
+    {
+      "t": "كم التكلفة الحالية للمشاركة في FLIK Dining، وهل تُحاسَب لكل وجبة أم لكل فصل؟",
+      "of": "0dec9976",
+      "at": [
+        "providence-day:sections[6].questions[2]"
+      ]
+    },
+    {
+      "t": "هل تحمل خطط 3 أو 10 أو 12 قسطًا رسمًا أو فائدة، وهل يوجد خصم للدفع الكامل؟",
+      "of": "5256dd9d",
+      "at": [
+        "providence-day:sections[6].questions[3]"
+      ]
+    },
+    {
+      "t": "ما أرقام السنة الحالية لإجمالي المساعدة الممنوحة ومتوسّط المنحة وعدد الطلاب أو الأُسر المدعومة؟",
+      "of": "f5beaa4d",
+      "at": [
+        "providence-day:sections[6].questions[4]"
+      ]
+    },
+    {
+      "t": "هل رقم ≈21% حصّة من كل الأُسر المسجَّلة، أم من الأُسر التي تقدّمت؟",
+      "of": "071869ad",
+      "at": [
+        "providence-day:sections[6].questions[5]"
+      ]
+    },
+    {
+      "t": "ما نطاق المنح، وهل تغطّي أي منحة الرسوم كاملةً؟",
+      "of": "c032686e",
+      "at": [
+        "providence-day:sections[6].questions[6]"
+      ]
+    },
+    {
+      "t": "إن تلقّينا منحة، ماذا حدث عادةً لمستويات المنح عند إعادة التقديم في السنوات التالية؟",
+      "of": "2c7fefb7",
+      "at": [
+        "providence-day:sections[6].questions[7]"
+      ]
+    },
+    {
+      "t": "هل توجد عملية استئناف، وماذا يحدث إن تغيّرت ظروفنا في منتصف السنة؟",
+      "of": "8b62b56f",
+      "at": [
+        "providence-day:sections[6].questions[8]"
+      ]
+    },
+    {
+      "t": "أي التزام نحمله إن انسحب طالب بعد بدء العام الدراسي؟",
+      "of": "b1dbcac8",
+      "at": [
+        "providence-day:sections[6].questions[9]"
+      ]
+    },
+    {
+      "t": "هل تقدّمون تسهيلًا للأشقّاء أو الموظفين أو رجال الدين أو العسكريين أو المستجيبين الأوائل؟",
+      "of": "3b9d36aa",
+      "at": [
+        "providence-day:sections[6].questions[10]"
+      ]
+    },
+    {
+      "t": "\"غير منشور\" يشير إلى فجوة شفافية — لا إلى حكم بأن برنامج المساعدة صغير أو غير مُرحِّب.",
+      "of": "a5d181d4",
+      "at": [
+        "charlotte-latin:framing[0].body",
+        "charlotte-christian:framing[0].body",
+        "charlotte-country-day:framing[0].body",
+        "cannon:framing[0].body",
+        "davidson-day:framing[0].body"
+      ]
+    },
+    {
+      "t": "كل رقم دولاري يحمل العام الدراسي الذي ينطبق عليه. وتقع صفحتا النقل ووثائق المساعدة سنة خلف جدول رسوم 2026–27 — دورتان مختلفتان، لا تناقض.",
+      "of": "bfa694fc",
+      "at": [
+        "charlotte-latin:framing[1].body"
+      ]
+    },
+    {
+      "t": "مساعدة دراسية للالتحاق بهذه المدرسة — لا FAFSA أو CSS Profile أو أموال جدارة جامعية. وليست نصيحة مالية. ونحو 75% من أسئلة هذه السلسلة يمكن الإجابة عنها من مصادر منشورة.",
+      "of": "11f6dc28",
+      "at": [
+        "charlotte-latin:framing[2].body"
+      ]
+    },
+    {
+      "t": "TK ورياض الأطفال",
+      "of": "8230484a",
+      "at": [
+        "charlotte-latin:sections[0].bands[0].label"
+      ]
+    },
+    {
+      "t": "الصفوف 6–8",
+      "of": "914e6250",
+      "at": [
+        "charlotte-latin:sections[0].bands[2].label"
+      ]
+    },
+    {
+      "t": "الصفوف 9–12",
+      "of": "3699581c",
+      "at": [
+        "charlotte-latin:sections[0].bands[3].label",
+        "charlotte-country-day:sections[0].bands[4].label",
+        "cannon:sections[0].bands[4].label",
+        "cannon:sections[3].ranges[2].label"
+      ]
+    },
+    {
+      "t": "أربعة نطاقات تغطّي المدى المذكور كاملًا من رياض الأطفال الانتقالية حتى الصف 12، فلا صف غير مُسعَّر. وتُعنوِن المدرسة الجدول \"هذه الرسوم من العام الدراسي 2026-27.\" وتشمل الرسوم معظم رسوم الحصص والمختبرات؛ والكتب المدرسية مشمولة في TK–5 لكنها نفقة إضافية في الصفوف 6–12، وذلك المبلغ غير منشور.",
+      "of": "af9d8cab",
+      "at": [
+        "charlotte-latin:sections[0].figureNote"
+      ]
+    },
+    {
+      "t": "لا أشرطة للسنوات السابقة: تُظهر صفحة المدرسة الحيّة السنة الحالية فقط ولم يتسنَّ استرجاع النسخ المؤرشَفة — قيد من أدوات عملنا، لا فجوة مدرسة. سياق التسجيل: 1,555 طالبًا إجمالًا، و586 في Upper School (2025–26 Upper School Profile).",
+      "of": "a24aaf97",
+      "at": [
+        "charlotte-latin:sections[0].figureNote2"
+      ]
+    },
+    {
+      "t": "أربعة عشر مكوّنًا مؤكَّدًا لأسرة 2026–27 — 8 غير مُسعَّرة أو متأخّرة سنة",
+      "of": "c07e9fd1",
+      "at": [
+        "charlotte-latin:sections[1].componentsTitle"
+      ]
+    },
+    {
+      "t": "لم يُبنَ تقدير شامل: 57% غير مُسعَّر > عتبة 33%",
+      "of": "6e420628",
+      "at": [
+        "charlotte-latin:sections[1].componentsAside"
+      ]
+    },
+    {
+      "t": "وديعة التسجيل · $2,500، غير قابلة للاسترداد",
+      "of": "776d475d",
+      "at": [
+        "charlotte-latin:sections[1].components[1].label"
+      ]
+    },
+    {
+      "t": "سلفة رحلة الصف · حتى $710 (الصفوف 5–8، و12)",
+      "of": "cec4aac4",
+      "at": [
+        "charlotte-latin:sections[1].components[2].label"
+      ]
+    },
+    {
+      "t": "تأمين حوادث الطالب · $75، اختياري",
+      "of": "5c63b2d4",
+      "at": [
+        "charlotte-latin:sections[1].components[3].label"
+      ]
+    },
+    {
+      "t": "خطة استرداد الرسوم · 0.53% من الرسوم، اختيارية",
+      "of": "48dbfd9f",
+      "at": [
+        "charlotte-latin:sections[1].components[4].label"
+      ]
+    },
+    {
+      "t": "اليوم الممتدّ لـ Hawks' Club · مُسعَّر، TK–5 فقط",
+      "of": "bd1df50c",
+      "at": [
+        "charlotte-latin:sections[1].components[5].label"
+      ]
+    },
+    {
+      "t": "خدمة الحافلات · أسعار 2025–26 فقط",
+      "of": "5a1f5dba",
+      "at": [
+        "charlotte-latin:sections[1].components[6].label"
+      ]
+    },
+    {
+      "t": "الكتب المدرسية، الصفوف 6–12 · لا سعر",
+      "of": "d3f91412",
+      "at": [
+        "charlotte-latin:sections[1].components[7].label"
+      ]
+    },
+    {
+      "t": "الوجبات · لا قائمة أسعار",
+      "of": "c5420fd0",
+      "at": [
+        "charlotte-latin:sections[1].components[8].label"
+      ]
+    },
+    {
+      "t": "المشاركة الرياضية · لا سعر",
+      "of": "bdb065c5",
+      "at": [
+        "charlotte-latin:sections[1].components[9].label"
+      ]
+    },
+    {
+      "t": "الرحلات المدرسية فيما يتجاوز سلفة رحلة الصف · لا سعر",
+      "of": "15216851",
+      "at": [
+        "charlotte-latin:sections[1].components[10].label"
+      ]
+    },
+    {
+      "t": "برامج الإثراء · لا سعر",
+      "of": "fc3c2261",
+      "at": [
+        "charlotte-latin:sections[1].components[11].label"
+      ]
+    },
+    {
+      "t": "رياضات الناشئة Talons · لا سعر",
+      "of": "d3f2d35c",
+      "at": [
+        "charlotte-latin:sections[1].components[12].label"
+      ]
+    },
+    {
+      "t": "أزياء Lower School · شراء من المورّد، لا مبلغ",
+      "of": "a83ac932",
+      "at": [
+        "charlotte-latin:sections[1].components[13].label"
+      ]
+    },
+    {
+      "t": "ستّة مكوّنات مُسعَّرة بأسعار 2026–27. والبقية غير مُسعَّرة أو منشورة بأسعار 2025–26 فقط. وتؤكّد الخطة الاستراتيجية للمدرسة نفسها أن هذه الرسوم حقيقية: فالأُسر \"كثيرًا ما تصل بمساعدة دراسية لكنها غير مستعدّة للتكاليف الإضافية … بما فيها تكاليف الرياضة والرحلات المدرسية والأنشطة الأخرى.\"",
+      "of": "a00d6681",
+      "at": [
+        "charlotte-latin:sections[1].componentsNote"
+      ]
+    },
+    {
+      "t": "خدمة الحافلات — سنة خلف جدول الرسوم",
+      "of": "91a888c5",
+      "at": [
+        "charlotte-latin:sections[1].boxes[0].title"
+      ]
+    },
+    {
+      "t": "ذهاب وإياب **$1,800** · اتّجاه واحد **$900** · حافلة الأنشطة **$450** لكل موسم. ولوحة الرسوم مُعنونة \"Bus Service Annual Fees 2025-26\" بينما انتقلت صفحة الرسوم إلى 2026–27، فلا تستطيع أسرة تُعدّ ميزانية للسنة المقبلة تسعير الحافلة من الموقع.",
+      "of": "aa5531a5",
+      "at": [
+        "charlotte-latin:sections[1].boxes[0].body"
+      ]
+    },
+    {
+      "t": "Hawks' Club — سعران يكسران نمطهما الخاصّ",
+      "of": "c34c0146",
+      "at": [
+        "charlotte-latin:sections[1].boxes[1].title"
+      ]
+    },
+    {
+      "t": "لكل فصل، TK–5، 2026–27. ثلاثة من خمسة صفوف تتناسب تمامًا مع سعر اليوم الواحد الخاصّ بها؛ واثنان لا. TK/K 1:30–4:30 مساءً: $635/يوم يعني $2,540 لأربعة أيام، لكن الجدول يطبع **$2300**. الصفوف 1–5 2:55–4:30 مساءً: $295/يوم يعني $1,180 لأربعة أيام، لكن الجدول يطبع **$1,880**. مُستنسَخان كما نُشِرا تمامًا لا مُصحَّحين — أكّد كليهما مع المكتب المالي.",
+      "of": "6ebbddce",
+      "at": [
+        "charlotte-latin:sections[1].boxes[1].body"
+      ]
+    },
+    {
+      "t": "NO PUBLISHED EVIDENCE — TREATED AS NOT CHARGED",
+      "of": "2df6482d",
+      "at": [
+        "charlotte-latin:sections[1].boxes[2].tag"
+      ]
+    },
+    {
+      "t": "رسوم الأنشطة العامّة والتقنية والمرافق والأسرة الجديدة والتخرّج · رسوم الفنون أو الآلات أو الإنتاج · رسوم الاختبار · شراء جهاز مطلوب · متطلّب دروس صيفية مُسعَّر. والصمت عن جدول رسوم يعني على الأرجح أن الرسم لا ينطبق، لكن أكّد بدلًا من الافتراض.",
+      "of": "c04019fb",
+      "at": [
+        "charlotte-latin:sections[1].boxes[2].body"
+      ]
+    },
+    {
+      "t": "THE SCHOOL INTENDS TO ANSWER THIS ITSELF",
+      "of": "d5a4805d",
+      "at": [
+        "charlotte-latin:sections[1].boxes[3].tag"
+      ]
+    },
+    {
+      "t": "يلزم الهدف 5.1 من الخطة الاستراتيجية المنشورة المدرسة بـ \"إجراء تدقيق شامل للتكاليف الكاملة لتعليم Latin، بما في ذلك الرسوم والرحلات والبرامج اللاصفّية والخبرات خارج المدرسة.\" وأسرة تسأل هذه الأسئلة تطلب شيئًا قالت المدرسة بالفعل إنها تريد إنتاجه.",
+      "of": "25b5ea80",
+      "at": [
+        "charlotte-latin:sections[1].boxes[3].body"
+      ]
+    },
+    {
+      "t": "المنصّة والتواريخ والطريقة وصاحب القرار كلها منشورة",
+      "of": "1d1b4e85",
+      "at": [
+        "charlotte-latin:sections[2].note"
+      ]
+    },
+    {
+      "t": "15 سبتمبر",
+      "of": "9718a84b",
+      "at": [
+        "charlotte-latin:sections[2].timeline[0].when"
+      ]
+    },
+    {
+      "t": "عملية طلب المساعدة المالية **تُفتَح**",
+      "of": "b9c62c98",
+      "at": [
+        "charlotte-latin:sections[2].timeline[0].detail"
+      ]
+    },
+    {
+      "t": "15 يناير",
+      "of": "26431f6a",
+      "at": [
+        "charlotte-latin:sections[2].timeline[1].when",
+        "charlotte-country-day:sections[2].timeline[1].when"
+      ]
+    },
+    {
+      "t": "الموعد النهائي لجولة الأولوية — مذكور بوصفه **15 يناير 2027** للدورة المقبلة. والطلبات المُقدَّمة بحلول هذا التاريخ يُنظَر فيها لقرارات الأولوية",
+      "of": "882d6061",
+      "at": [
+        "charlotte-latin:sections[2].timeline[1].detail"
+      ]
+    },
+    {
+      "t": "غير منشور",
+      "of": "d945d814",
+      "at": [
+        "charlotte-latin:sections[2].timeline[2].when",
+        "cannon:sections[2].timeline[2].when"
+      ]
+    },
+    {
+      "t": "متى تُصدَر المنح نسبةً إلى قرار القبول، أو هل ستعرف أسرة منحتها قبل استحقاق عقد التسجيل",
+      "of": "2b779fa2",
+      "at": [
+        "charlotte-latin:sections[2].timeline[2].detail"
+      ]
+    },
+    {
+      "t": "غير مُسترجَع",
+      "of": "c656ef0e",
+      "at": [
+        "charlotte-latin:sections[2].timeline[3].when"
+      ]
+    },
+    {
+      "t": "هل يجب إعادة التقديم للمساعدة سنويًّا — على الأرجح داخل مكتبة الوثائق أدناه، التي لم يتسنَّ فتحها",
+      "of": "810d666e",
+      "at": [
+        "charlotte-latin:sections[2].timeline[3].detail"
+      ]
+    },
+    {
+      "t": "المنصّة وكيف تتقدّم الأسرة",
+      "of": "ccec335f",
+      "at": [
+        "charlotte-latin:sections[2].boxes[0].title"
+      ]
+    },
+    {
+      "t": "**Clarity.** طلب واحد يغطّي كل الأطفال في أسرة. مصمَّم للهاتف ومذكور أنه يستغرق **30 دقيقة أو أقلّ**، مع حفظ التقدّم واستئنافه. وتنتقل وثائق 1040 وW2 الفيدرالية تلقائيًّا من IRS بعد خطوة تحقّق. ويُنشَر دليل طلب الأسرة والمرجع السريع للمنصّة بـ **الإنجليزية والإسبانية**.",
+      "of": "1563465b",
+      "at": [
+        "charlotte-latin:sections[2].boxes[0].body"
+      ]
+    },
+    {
+      "t": "كيف تُحدَّد الحاجة، ومن يقرّر",
+      "of": "a2efede0",
+      "at": [
+        "charlotte-latin:sections[2].boxes[1].title"
+      ]
+    },
+    {
+      "t": "تعرّف المدرسة الحاجة بوضوح: \"الفرق بين الرسوم وقدرة الأسرة على دفع الرسوم.\" وتذكر أنها \"تسعى إلى تغطية 100% من حاجة الأسرة المُحدَّدة\" — هدف، لا ضمان، ولا يُقرأ هنا وعدًا بأي منحة بعينها. وتُجري **Financial Aid Committee** المراجعة والقرار.",
+      "of": "a08fc97f",
+      "at": [
+        "charlotte-latin:sections[2].boxes[1].body"
+      ]
+    },
+    {
+      "t": "بلا اعتبار للحاجة (need-blind)",
+      "of": "4cb7783f",
+      "at": [
+        "charlotte-latin:sections[2].boxes[2].title"
+      ]
+    },
+    {
+      "t": "يذكر مستند أسئلة وأجوبة المساعدة المالية المنشور أن أسرة متقدّمة يمكنها توقّع \"**قرار بلا اعتبار للحاجة**\" — أوضح بيان متاح يصف أن التقدّم للمساعدة لا يؤثّر في قرار القبول.",
+      "of": "43143091",
+      "at": [
+        "charlotte-latin:sections[2].boxes[2].body"
+      ]
+    },
+    {
+      "t": "NOT RETRIEVED — THE AID DOCUMENT LIBRARY",
+      "of": "4d3abf67",
+      "at": [
+        "charlotte-latin:sections[2].boxes[3].tag"
+      ]
+    },
+    {
+      "t": "تسع وثائق مساعدة مالية منشورة — المبادئ الموجِّهة، والأسئلة الشائعة، والمنح، وأدلّة Clarity بالإنجليزية والإسبانية، ونموذج تنازل الوالد غير الحاضن. وكلها على خدمة وثائق طرف ثالث لم تستطع أدواتنا فتحها؛ ولم يكن مقروءًا إلا سطر الملخّص لكلٍّ. و**هذه علنية وتُفتَح جيّدًا في متصفّح عادي.** وسياسة التجديد وعملية الاستئناف وسياسة تغيّر الظروف في منتصف السنة على الأرجح داخلها، وتُسجَّل بوصفها غير مُسترجَعة لا غير منشورة.",
+      "of": "8f6f96b2",
+      "at": [
+        "charlotte-latin:sections[2].boxes[3].body"
+      ]
+    },
+    {
+      "t": "كم يكلّف الأسرة التقديم (منصّات المساعدة تتقاضى رسمًا عادةً؛ ولا تقول الصفحات هل ينطبق) · متى تصل قرارات المساعدة نسبةً إلى قرارات القبول · سياسة السرّية — من يرى المعلومات المالية للأسرة داخل المدرسة، ولكم يُحتفَظ بها.",
+      "of": "af194315",
+      "at": [
+        "charlotte-latin:sections[2].boxes[4].body"
+      ]
+    },
+    {
+      "t": "RESEARCH PASS, NOT RE-RETRIEVED",
+      "of": "65ebef7e",
+      "at": [
+        "charlotte-latin:sections[2].boxes[5].tag",
+        "charlotte-latin:sections[4].boxes[4].tag"
+      ]
+    },
+    {
+      "t": "يصف عرض عملية المساعدة المالية لعام 2024–25 الآلية بتفصيل أكبر: تنتج المنصّة Estimated Family Contribution، والحاجة المُثبَتة هي الرسوم المنشورة ناقص تلك المساهمة، وتقرّر Financial Aid Committee. ويسمّي **School and Student Services** بوصفها منصّة 2024–25 مقابل **Clarity** اليوم — تغيّر منصّة بين السنوات، لا تناقض. ظهر عبر جولة بحث ولم يُقرأ مجدّدًا من المصدر.",
+      "of": "056fdbae",
+      "at": [
+        "charlotte-latin:sections[2].boxes[5].body"
+      ]
+    },
+    {
+      "t": "إفصاح كامل بشكل غير معتاد لصفحة علنية",
+      "of": "f67fd99d",
+      "at": [
+        "charlotte-latin:sections[3].note"
+      ]
+    },
+    {
+      "t": "إجمالي المساعدة المالية الممنوحة (2024–25)",
+      "of": "81f1da03",
+      "at": [
+        "charlotte-latin:sections[3].stats[0].label"
+      ]
+    },
+    {
+      "t": "من إجمالي الميزانية التشغيلية (2024–25)",
+      "of": "a3856965",
+      "at": [
+        "charlotte-latin:sections[3].stats[1].label"
+      ]
+    },
+    {
+      "t": "متوسّط المنحة (2024–25) — متوسّط، لا وسيط",
+      "of": "0906fd3e",
+      "at": [
+        "charlotte-latin:sections[3].stats[2].label"
+      ]
+    },
+    {
+      "t": "من الطلاب يتلقّون بعض التمويل — دون سنة مذكورة",
+      "of": "f194f092",
+      "at": [
+        "charlotte-latin:sections[3].stats[3].label"
+      ]
+    },
+    {
+      "t": "طلاب يحملون منحًا من 17 منحة وقفية (2024–25)",
+      "of": "a494eeac",
+      "at": [
+        "charlotte-latin:sections[3].stats[4].label"
+      ]
+    },
+    {
+      "t": "ما هو منشور، وأين",
+      "of": "e74cee0f",
+      "at": [
+        "charlotte-latin:sections[3].boxes[0].title"
+      ]
+    },
+    {
+      "t": "إجمالي المُنِح **$3.25M**، والمساعدة **6%** من الميزانية التشغيلية، ومتوسّط المنحة **$17,900**، و**36 طالبًا عبر 17 منحة وقفية** — كلها 2024–25، كلها على صفحة الرسوم. ومنفصلًا: **$3.125M** عُرِض في 2021–22 (الخطة الاستراتيجية) و\"أكثر من ثلاثة ملايين دولار\" دون تاريخ (صفحة السياسات). وهذه لا تُجمَع ولا تشكّل اتّجاهًا — صفحات مختلفة، وسنوات مختلفة، وفي حالة واحدة لا سنة إطلاقًا.",
+      "of": "47f76af3",
+      "at": [
+        "charlotte-latin:sections[3].boxes[0].body"
+      ]
+    },
+    {
+      "t": "THE PARTICIPATION SHARE CARRIES A DENOMINATOR BUT NO YEAR",
+      "of": "d7869b89",
+      "at": [
+        "charlotte-latin:sections[3].boxes[1].tag"
+      ]
+    },
+    {
+      "t": "المقياس الذي تبحث عنه معظم الأُسر أولًا **منشور** فعلًا — لكن على موقع الخطة الاستراتيجية، وهو ملكية ويب منفصلة عن القبول، بوصفه \"14% من الطلاب يتلقّون بعض التمويل.\" والمقام واضح وهو الصحيح: حصّة من **الطلاب**، لا من المتقدّمين أو المُقدِّمين، وهما مختلفان وعادةً ما يبدوان أكبر. أما السنة فليست كذلك. وتقع الجملة إلى جانب رقم مُوسَم بـ 2021–22، لكن التجاور ليس وسم سنة ولا يُعامَل كذلك هنا.",
+      "of": "1cd4bc2c",
+      "at": [
+        "charlotte-latin:sections[3].boxes[1].body"
+      ]
+    },
+    {
+      "t": "**وسيط** المنحة — يجب ألّا يُقرأ متوسّط $17,900 المنشور منحةً نموذجية أو وسطى · نطاق المنح، من الأصغر إلى الأكبر · هل تغطّي أي منحة قائمة على الحاجة الرسوم كاملةً · كم طالبًا أو أسرة يتلقّى مساعدة قائمة على الحاجة إجمالًا (عدّ الـ 36 منح وقفية فقط).",
+      "of": "c324044e",
+      "at": [
+        "charlotte-latin:sections[3].boxes[2].body"
+      ]
+    },
+    {
+      "t": "WHY THE AVERAGE AWARD IS NOT SHOWN AS A SHARE OF TUITION",
+      "of": "540b6551",
+      "at": [
+        "charlotte-latin:sections[3].boxes[3].tag"
+      ]
+    },
+    {
+      "t": "نقسم عادةً متوسّط المنحة على رسوم السنة نفسها لإظهار إلى أي مدى تصل المنحة النموذجية. والمتوسّط منشور لـ **2024–25**؛ وانتقل جدول الرسوم إلى **2026–27**؛ ولم يتسنَّ استرجاع أسعار 2024–25 المنشورة. والقسمة عبر تلك السنوات ستنتج رقمًا لا يصف أي سنة فعلية، فيُترَك بدلًا من طباعته دقيقًا وبلا معنى.",
+      "of": "2782283f",
+      "at": [
+        "charlotte-latin:sections[3].boxes[3].body"
+      ]
+    },
+    {
+      "t": "دعم تكميلي",
+      "of": "8edb15c0",
+      "at": [
+        "charlotte-latin:sections[3].boxes[4].title"
+      ]
+    },
+    {
+      "t": "فيما يتجاوز المساعدة الدراسية، تذكر المدرسة أنها لـ **أُسرها الأشدّ حاجة** تغطّي أيضًا دعمًا تكميليًّا للأساسيات المدرسية، **بما فيها الغداء**. والنطاق فيما يتجاوز الغداء، والعتبة التي تتأهّل عندها الأسرة، غير منشورَين.",
+      "of": "073c91dc",
+      "at": [
+        "charlotte-latin:sections[3].boxes[4].body"
+      ]
+    },
+    {
+      "t": "HOW TO READ THE 990 FIGURE",
+      "of": "d9e65ba9",
+      "at": [
+        "charlotte-latin:sections[3].boxes[5].tag"
+      ]
+    },
+    {
+      "t": "Charlotte Latin Schools Inc، EIN 56-0944449، السنة المالية المنتهية يونيو 2024: منح لأفراد محلّيين **$3.0M**، وإجمالي الإيرادات $55.7M، وإجمالي النفقات $55.1M. وهذه محاسبة مؤسّسية إجمالية مُقدَّمة إلى IRS، لا بيان مدرسي عن برنامج مساعدتها — تتأخّر سنة إلى سنتين عن العام الدراسي الحالي وتعريفها للمنحة لا يلزم أن يطابق ما تعدّه المدرسة مساعدة دراسية. سياق فقط؛ ولا يسدّ الفجوات أعلاه.",
+      "of": "f62b1da1",
+      "at": [
+        "charlotte-latin:sections[3].boxes[5].body"
+      ]
+    },
+    {
+      "t": "مدرسة Malone Scholars الوحيدة في نورث كارولاينا",
+      "of": "fb7b2fba",
+      "at": [
+        "charlotte-latin:sections[4].tag"
+      ]
+    },
+    {
+      "t": "برنامج Malone Scholars",
+      "of": "dca5d14b",
+      "at": [
+        "charlotte-latin:sections[4].boxes[0].title"
+      ]
+    },
+    {
+      "t": "تذكر Charlotte Latin أنها **مدرسة Malone Scholars الوحيدة في نورث كارولاينا**، بوقف من Malone Family Foundation لتقديم منح للطلاب شديدي القدرة. والأساس المنشور للمؤسّسة في اختيار مدارسها الشريكة الخمسين وطنيًّا: العيار الأكاديمي، وجودة الطاقم، والتيسيرات للموهوبين والمتفوّقين، وبرامج Advanced Placement والإثراء القوية، والاهتمام باحتياجات الطلاب الفردية، وتنوّع سكّاني اقتصاديًّا وثقافيًّا وإثنيًّا واجتماعيًّا.",
+      "of": "c0679aea",
+      "at": [
+        "charlotte-latin:sections[4].boxes[0].body"
+      ]
+    },
+    {
+      "t": "صناديق مُسمّاة تتجاوز الرسوم",
+      "of": "e83b028f",
+      "at": [
+        "charlotte-latin:sections[4].boxes[1].title"
+      ]
+    },
+    {
+      "t": "يذكر مستند المنح أن منح **Malone وSunny وThrive وWall وKearney** تغطّي نفقات مدرسية إضافية **تتجاوز الرسوم**، وأنها منح لـ Middle School وUpper School، وأنها تُقدَّم **وقت القبول**. وهذا تمييز ذو مغزى: فمنحة تصل إلى تكاليف تتجاوز الرسوم تعالج بالضبط الفجوة التي يصفها القسم 02. (ملخّص مستند فقط — لم يتسنَّ فتح المتن.)",
+      "of": "a56f729f",
+      "at": [
+        "charlotte-latin:sections[4].boxes[1].body"
+      ]
+    },
+    {
+      "t": "NOT PUBLISHED — SIZES, CRITERIA AND STACKING",
+      "of": "48cbb93a",
+      "at": [
+        "charlotte-latin:sections[4].boxes[2].tag"
+      ]
+    },
+    {
+      "t": "لكل صندوق مُسمّى لا يذكر السجلّ العلني مبلغ المنحة، ولا كم تُمنَح في السنة، ولا معايير الأهلية، ولا هل يمكن حمل منحة إلى جانب مساعدة قائمة على الحاجة. والمرساة الكمّية الوحيدة أن **36 طالبًا حملوا منحًا من 17 منحة وقفية في 2024–25** — رقم وصول، لا حجم منحة. اسأل أي منح سيُنظَر فيها لمتقدّم، وهل النظر تلقائي، وهل تقلّل منحة المساعدة القائمة على الحاجة.",
+      "of": "d51f08c3",
+      "at": [
+        "charlotte-latin:sections[4].boxes[2].body"
+      ]
+    },
+    {
+      "t": "NOT PUBLISHED — DISCOUNTS",
+      "of": "e587ad00",
+      "at": [
+        "charlotte-latin:sections[4].boxes[3].tag",
+        "davidson-day:sections[3].boxes[1].tag"
+      ]
+    },
+    {
+      "t": "خصومات الأشقّاء · إعفاء رسوم الموظفين · خصومات رجال الدين أو العسكريين أو المستجيبين الأوائل · برنامج رسوم مُفهرَس أو متغيّر · هل يمكن حمل منح الجدارة مع مساعدة قائمة على الحاجة. ويُسجَّل كلٌّ منها بوصفه غير منشور لا بوصفه غير مُقدَّم.",
+      "of": "cb3702f4",
+      "at": [
+        "charlotte-latin:sections[4].boxes[3].body"
+      ]
+    },
+    {
+      "t": "تُدرج صفحة الهبات الوقفية مجموعة أوسع من صناديق المنح والجوائز المُسمّاة فيما يتجاوز الخمسة أعلاه، بما فيها صناديق تدعم طلاب Lower School، وصندوق للطالب الرياضي، وصندوق أسّسه الخرّيجون. ظهرت عبر جولة بحث ولم تُقرأ مجدّدًا من المصدر، فـ **لا يُذكَر عدد للصناديق هنا**. وأسماء الصناديق أسماء عَلَم مؤسّسية؛ ولا يُسمّى أي مستفيد في أي مكان من هذا التقرير.",
+      "of": "9c02e157",
+      "at": [
+        "charlotte-latin:sections[4].boxes[4].body"
+      ]
+    },
+    {
+      "t": "$2.5K",
+      "of": "1efcc1c7",
+      "at": [
+        "charlotte-latin:sections[5].plans[0].figure"
+      ]
+    },
+    {
+      "t": "وديعة التسجيل",
+      "of": "830acc5d",
+      "at": [
+        "charlotte-latin:sections[5].plans[0].label",
+        "charlotte-country-day:sections[4].plans[0].label"
+      ]
+    },
+    {
+      "t": "غير قابلة للاسترداد، **تُخصَم من دفعة الرسوم الثانية**. ولا يمكن تسجيل أي طالب أو إعادة تسجيله دونها (2026–27).",
+      "of": "75ac3576",
+      "at": [
+        "charlotte-latin:sections[5].plans[0].detail"
+      ]
+    },
+    {
+      "t": "2×",
+      "of": "aaf13426",
+      "at": [
+        "charlotte-latin:sections[5].plans[1].figure",
+        "charlotte-country-day:sections[4].plans[2].figure",
+        "cannon:sections[4].plans[1].figure"
+      ]
+    },
+    {
+      "t": "خطة الدفعتين",
+      "of": "4e3b4e1a",
+      "at": [
+        "charlotte-latin:sections[5].plans[1].label"
+      ]
+    },
+    {
+      "t": "نصف الرسوم مستحقّ **31 مايو**؛ والرصيد، ناقص وديعة $2,500، مستحقّ **30 نوفمبر**.",
+      "of": "608c303a",
+      "at": [
+        "charlotte-latin:sections[5].plans[1].detail"
+      ]
+    },
+    {
+      "t": "8×",
+      "of": "ab01d1b0",
+      "at": [
+        "charlotte-latin:sections[5].plans[2].figure"
+      ]
+    },
+    {
+      "t": "خطة الدفع الشهري",
+      "of": "6a44844b",
+      "at": [
+        "charlotte-latin:sections[5].plans[2].label"
+      ]
+    },
+    {
+      "t": "وديعة $2,500 عند التسجيل، ثم دفعات شهرية **من مايو حتى ديسمبر**. وتذكر المدرسة أنه **لا رسم أو رسم خدمة** إن دُفِعت الدفعات في وقتها.",
+      "of": "212fd287",
+      "at": [
+        "charlotte-latin:sections[5].plans[2].detail"
+      ]
+    },
+    {
+      "t": "الدفع المتأخّر والمتأخّرات — منشور مباشرةً",
+      "of": "23e98668",
+      "at": [
+        "charlotte-latin:sections[5].boxes[0].title"
+      ]
+    },
+    {
+      "t": "يُضاف رسم خدمة قدره **1.5% شهريًّا**، تذكره المدرسة بوصفه **18% سنويًّا**، إلى رسوم الرسوم غير المُستلَمة أو غير المختومة بالبريد بحلول تاريخ استحقاقها وإلى أي رصيد غير مدفوع. ويجب دفع كل الرسوم قبل أن يحضر الطلاب الحصص عقب تواريخ الاستحقاق. ويجب دفع الرسوم المتنوّعة قبل عرض إعادة التسجيل أو إصدار بطاقات الدرجات أو منح الشهادات أو إصدار كشوف الدرجات.",
+      "of": "76b7ddff",
+      "at": [
+        "charlotte-latin:sections[5].boxes[0].body"
+      ]
+    },
+    {
+      "t": "محاسبة اليوم الممتدّ",
+      "of": "82da1688",
+      "at": [
+        "charlotte-latin:sections[5].boxes[1].title"
+      ]
+    },
+    {
+      "t": "تُحاسَب رسوم Hawks' Club لكل فصل لا مع الرسوم: رسم الفصل الأول (أغسطس–ديسمبر) في **23 سبتمبر 2026**، والثاني (يناير–مايو) في **20 يناير 2027**.",
+      "of": "b7e750a0",
+      "at": [
+        "charlotte-latin:sections[5].boxes[1].body"
+      ]
+    },
+    {
+      "t": "NOT PUBLISHED — THE WITHDRAWAL OBLIGATION",
+      "of": "22d1c1ee",
+      "at": [
+        "charlotte-latin:sections[5].boxes[2].tag"
+      ]
+    },
+    {
+      "t": "لا تحدّد الصفحات العلنية التزام الانسحاب أو المغادرة في منتصف السنة، ولا أي جدول استرداد، ولا النقطة التي تصبح فيها رسوم السنة كاملةً مستحقّةً بصرف النظر عن الحضور. وتوحي خطة استرداد الرسوم الاختيارية بنسبة 0.53% من الرسوم بأن التزامًا ما يبقى بعد الانسحاب — فهذا ما توجد تلك الخطط لتغطيته — لكن الشروط الأساسية ليست في السجلّ العلني. و**هذا أشدّ بند غير منشور تبعةً في هذا التقرير؛** اقرأ العقد بعناية قبل التوقيع.",
+      "of": "7d8f1e42",
+      "at": [
+        "charlotte-latin:sections[5].boxes[2].body"
+      ]
+    },
+    {
+      "t": "مُقرِضو رسوم من طرف ثالث أو شركاء تمويل · أي خصم دفع مسبق أو دفعة واحدة · أي برنامج دفع مسبق متعدّد السنوات أو تثبيت رسوم.",
+      "of": "1fb77ca6",
+      "at": [
+        "charlotte-latin:sections[5].boxes[3].body"
+      ]
+    },
+    {
+      "t": "مسيرة كاملة TK–12 (14 سنة) بأسعار 2026–27 — حسابنا، الرسوم فقط، لا إسقاط",
+      "of": "daa75d93",
+      "at": [
+        "charlotte-latin:sections[6].stats[0].label"
+      ]
+    },
+    {
+      "t": "مسيرة الصفوف 9–12 بأسعار 2026–27",
+      "of": "82f03c08",
+      "at": [
+        "charlotte-latin:sections[6].stats[1].label",
+        "charlotte-christian:sections[5].stats[1].label",
+        "charlotte-country-day:sections[5].stats[1].label",
+        "cannon:sections[5].stats[1].label",
+        "davidson-day:sections[5].stats[1].label"
+      ]
+    },
+    {
+      "t": "غير مُسترجَع — قيدنا، لا قيد المدرسة",
+      "of": "02c0c8ec",
+      "at": [
+        "charlotte-latin:sections[6].boxes[0].tag"
+      ]
+    },
+    {
+      "t": "تُظهر صفحة الرسوم السنة الحالية وتكتب فوق السابقة، فالاتّجاه متعدّد السنوات يجب أن يأتي من لقطات أرشيف الويب. ولم تستطع أدوات استرجاعنا الوصول إلى خدمة الأرشيف عبر محاولات متكرّرة، في الجولة الأولى ومجدّدًا في جولة بحث أعمق، فـ **لا توجد أسعار منشورة من المدرسة لـ 2022–23 حتى 2025–26**. وهذا قيد أدوات عمل. وهو **ليس** نتيجة بأن المدرسة تخفي تاريخ تسعيرها وينبغي ألّا يُقرأ كذلك. وتوجد ملخّصات طرف ثالث لكنها تتعارض فيما بينها ولا يُستنسَخ أيٌّ منها.",
+      "of": "43421326",
+      "at": [
+        "charlotte-latin:sections[6].boxes[0].body"
+      ]
+    },
+    {
+      "t": "أرقام المساعدة عبر السنوات — نقطتان، لا اتّجاه",
+      "of": "4be14ad5",
+      "at": [
+        "charlotte-latin:sections[6].boxes[1].title"
+      ]
+    },
+    {
+      "t": "**$3.125M** عُرِض في 2021–22 و**$3.25M** مُنِح في 2024–25. وتقعان بفارق ثلاث سنوات دون أي شيء منشور بينهما، وتأتيان من صفحتين مختلفتين قد لا تعدّان بالطريقة نفسها. ونقطتان لا تصنعان اتّجاهًا، ولا يُرسَم خطّ بينهما.",
+      "of": "8e9d8956",
+      "at": [
+        "charlotte-latin:sections[6].boxes[1].body"
+      ]
+    },
+    {
+      "t": "READ THE TENURE FIGURES AS ARITHMETIC, NOT A FORECAST",
+      "of": "74ec6bd3",
+      "at": [
+        "charlotte-latin:sections[6].boxes[2].tag"
+      ]
+    },
+    {
+      "t": "تطبّق الإجماليات أعلاه نطاقات 2026–27 عبر مسيرة كاملة (سنتان بـ $27,600؛ و5 بـ $32,600؛ و3 بـ $35,200؛ و4 بـ $36,500) كأن أسعار اليوم تثبت كل سنة — وهي لن تفعل، إذ تُعاد رسوم المنشورة سنويًّا وارتفعت تاريخيًّا. وهي الرسوم فقط، صافية من لا شيء، وتستبعد الوديعة والرحلات والتأمين والنقل واليوم الممتدّ والوجبات والكتب وكل بند غير مُسعَّر في القسم 02. وتوجد فقط لإعطاء إحساس بالمقياس.",
+      "of": "e9fa2887",
+      "at": [
+        "charlotte-latin:sections[6].boxes[2].body"
+      ]
+    },
+    {
+      "t": "THE MIDDLE-INCOME QUESTION",
+      "of": "e0e81455",
+      "at": [
+        "charlotte-latin:sections[6].boxes[3].tag",
+        "charlotte-country-day:sections[5].boxes[1].tag"
+      ]
+    },
+    {
+      "t": "تنشر المدرسة هدفًا بتلبية ما يصل إلى 100% من الحاجة المُثبَتة وحصّة من الطلاب يتلقّون بعض التمويل. ولا تنشر شيئًا عن الأُسر فوق عتبة المساعدة لكن دون الدفع الكامل المريح — لا رسوم مُفهرَسة، ولا مبادرة للدخل المتوسّط، ولا إرشاد لأين تقع العتبة. فجوة نشر لا بيان عمّن تخدمه المدرسة.",
+      "of": "a623ff55",
+      "at": [
+        "charlotte-latin:sections[6].boxes[3].body"
+      ]
+    },
+    {
+      "t": "TWO NAVIGATION HAZARDS",
+      "of": "bc5269dc",
+      "at": [
+        "charlotte-latin:sections[6].boxes[4].tag"
+      ]
+    },
+    {
+      "t": "**لا تزال صفحة قديمة متداولة.** تعطي صفحة الرسوم الحيّة الموعد النهائي للمساعدة بوصفه 15 يناير 2027، لكن محرّكات البحث لا تزال تقدّم نصًّا مخزَّنًا من العنوان نفسه يعطي 15 يناير 2026. افتح الصفحة مباشرةً بدلًا من الوثوق بالمقتطف. و**عنوان التواصل مكتوب بخطأ في مكان واحد** — تدعو صفحة الرسوم إلى الاستفسارات على عنوان نطاقه فيه حرفان مُبدَّلان، بينما يظهر العنوان الصحيح في مكان آخر على الصفحة نفسها. والبريد إلى النسخة المكتوبة خطأً لن يصل؛ استخدم لوحة التواصل.",
+      "of": "c0849b30",
+      "at": [
+        "charlotte-latin:sections[6].boxes[4].body"
+      ]
+    },
+    {
+      "t": "كلٌّ منها لا يمكن الإجابة عنه من مصادر منشورة ويؤثّر ماديًّا فيما تدفعه الأسرة أو تتلقّاه.",
+      "of": "ce4e6875",
+      "at": [
+        "charlotte-latin:sections[6].questionsNote",
+        "charlotte-country-day:sections[5].questionsNote",
+        "cannon:sections[5].questionsNote",
+        "davidson-day:sections[5].questionsNote"
+      ]
+    },
+    {
+      "t": "ما التزام الانسحاب والمغادرة في منتصف السنة، وهل يوجد جدول استرداد؟",
+      "of": "caeb8d82",
+      "at": [
+        "charlotte-latin:sections[6].questions[0]"
+      ]
+    },
+    {
+      "t": "كم تكلّف سنة من الوجبات المدرسية، بحسب المرحلة، وكم تكلّف الكتب المدرسية في الصفوف 6 و9 و12؟",
+      "of": "67722d95",
+      "at": [
+        "charlotte-latin:sections[6].questions[1]"
+      ]
+    },
+    {
+      "t": "ما تكاليف المشاركة لرياضات وأنشطة محدَّدة؟",
+      "of": "e0556d22",
+      "at": [
+        "charlotte-latin:sections[6].questions[2]"
+      ]
+    },
+    {
+      "t": "ما أسعار الحافلات لعام 2026–27؟",
+      "of": "8d402598",
+      "at": [
+        "charlotte-latin:sections[6].questions[3]"
+      ]
+    },
+    {
+      "t": "ما الحصّة الحالية للطلاب المتلقّين للمساعدة الدراسية، ولأي سنة؟",
+      "of": "fc87bf28",
+      "at": [
+        "charlotte-latin:sections[6].questions[4]"
+      ]
+    },
+    {
+      "t": "ما وسيط المنحة، وما النطاق من الأصغر إلى الأكبر، وهل تصل أي منحة إلى الرسوم كاملةً؟",
+      "of": "8edf084f",
+      "at": [
+        "charlotte-latin:sections[6].questions[5]"
+      ]
+    },
+    {
+      "t": "لكل منحة مُسمّاة: المبلغ، وكم تُمنَح، والمعايير، وهل يمكن حملها إلى جانب مساعدة قائمة على الحاجة؟",
+      "of": "94bd0610",
+      "at": [
+        "charlotte-latin:sections[6].questions[6]"
+      ]
+    },
+    {
+      "t": "هل يجب إعادة التقديم للمساعدة سنويًّا، وهل تتجدّد المنح عادةً بمستوى ثابت، وهل توجد عملية استئناف أو تغيّر ظروف؟",
+      "of": "a7a179ee",
+      "at": [
+        "charlotte-latin:sections[6].questions[7]"
+      ]
+    },
+    {
+      "t": "يُرجى تأكيد أسعار Hawks' Club لأربعة أيام وخمسة أيام في الصفّين المُعلَّمين في القسم 02.",
+      "of": "bf31a8a6",
+      "at": [
+        "charlotte-latin:sections[6].questions[8]"
+      ]
+    },
+    {
+      "t": "العام الدراسي 2026–27 · الأرقام حتى 23 يوليو 2026",
+      "of": "a311c291",
+      "at": [
+        "charlotte-christian:meta",
+        "charlotte-country-day:meta",
+        "cannon:meta"
+      ]
+    },
+    {
+      "t": "كل رقم دولاري يحمل العام الدراسي الذي ينطبق عليه. وشروط العقد أدناه مُوسَمة بـ 2023–24 — ثلاث سنوات خلف جدول الرسوم.",
+      "of": "b14095d2",
+      "at": [
+        "charlotte-christian:framing[1].body"
+      ]
+    },
+    {
+      "t": "المنح التي يفوز بها طلاب السنة الأخيرة المتخرّجون أموال جامعية — مستبعَدة كليًّا. وليست نصيحة مالية.",
+      "of": "1a96873f",
+      "at": [
+        "charlotte-christian:framing[2].body"
+      ]
+    },
+    {
+      "t": "الرسوم بحسب النطاق",
+      "of": "098bc98f",
+      "at": [
+        "charlotte-christian:sections[0].navTitle"
+      ]
+    },
+    {
+      "t": "الرسوم بحسب نطاق السعر",
+      "of": "2e8278d8",
+      "at": [
+        "charlotte-christian:sections[0].title"
+      ]
+    },
+    {
+      "t": "الرسوم المنشورة بحسب المرحلة",
+      "of": "131e32c1",
+      "at": [
+        "charlotte-christian:sections[0].figureCaption",
+        "davidson-day:sections[0].figureCaption"
+      ]
+    },
+    {
+      "t": "التعليم المبكّر (JK–K)",
+      "of": "36f892d3",
+      "at": [
+        "charlotte-christian:sections[0].bands[0].label"
+      ]
+    },
+    {
+      "t": "الابتدائية (1–4)",
+      "of": "d0aacef5",
+      "at": [
+        "charlotte-christian:sections[0].bands[1].label"
+      ]
+    },
+    {
+      "t": "المتوسّطة (5–8)",
+      "of": "de202b17",
+      "at": [
+        "charlotte-christian:sections[0].bands[2].label",
+        "davidson-day:sections[0].bands[2].label"
+      ]
+    },
+    {
+      "t": "العليا (9–12)",
+      "of": "ca8f9877",
+      "at": [
+        "charlotte-christian:sections[0].bands[3].label",
+        "davidson-day:sections[0].bands[3].label"
+      ]
+    },
+    {
+      "t": "ارتفع كل نطاق بالمبلغ الثابت نفسه $950 إلى 2026–27 — زيادة بالدولار لا بالنسبة، فالزيادة نفسها تقع أثقل على النطاق الأدنى. وعلى مدى ثلاثة انتقالات ($850 و$1,500 و$950) ارتفع كل نطاق بالضبط $3,300: 18.33% في التعليم المبكّر مقابل 13.89% في Upper School.",
+      "of": "24ef6726",
+      "at": [
+        "charlotte-christian:sections[0].figureNote"
+      ]
+    },
+    {
+      "t": "تنبيه: في 2023–24 جمعت المدرسة الصفوف 1–5 و6–8؛ ومن 2024–25 تجمع 1–4 و5–8. وانتقل الصف الخامس بين النطاقين، فذلك الصفّان ليسا متطابقَين تمامًا عبر ذلك الحدّ.",
+      "of": "a75c3a13",
+      "at": [
+        "charlotte-christian:sections[0].figureNote2"
+      ]
+    },
+    {
+      "t": "ما تشمله الرسوم — مذكور إيجابًا",
+      "of": "f0c7108c",
+      "at": [
+        "charlotte-christian:sections[0].boxes[0].title"
+      ]
+    },
+    {
+      "t": "على نحو غير معتاد، تقول المدرسة: غداء يومي من خدمة طعام متعاقَد عليها · الكتب المدرسية وروايات فنون اللغة · دعم تقنية التعليم وجهاز مُسنَد (iPad للصفوف 5–8، وMacBook Air لـ Upper School) · خلوة الحياة الروحية لمدّة يومين للمرحلتين المتوسطة والعليا والرحلات الميدانية · قبّعات وأثواب لطلاب السنة الأخيرة.",
+      "of": "160dafca",
+      "at": [
+        "charlotte-christian:sections[0].boxes[0].body"
+      ]
+    },
+    {
+      "t": "الرسوم والتكاليف المضافة",
+      "of": "09c013ce",
+      "at": [
+        "charlotte-christian:sections[1].navTitle",
+        "davidson-day:sections[1].navTitle"
+      ]
+    },
+    {
+      "t": "الرسوم والتكاليف الإضافية",
+      "of": "e742ffd4",
+      "at": [
+        "charlotte-christian:sections[1].title",
+        "davidson-day:sections[1].title"
+      ]
+    },
+    {
+      "t": "خمسة عشر مكوّنًا مؤكَّدًا — 14 مُسعَّر",
+      "of": "82a0b931",
+      "at": [
+        "charlotte-christian:sections[1].componentsTitle"
+      ]
+    },
+    {
+      "t": "بُني تقدير شامل: ضمن عتبة 33% بمريح",
+      "of": "e9f9a019",
+      "at": [
+        "charlotte-christian:sections[1].componentsAside"
+      ]
+    },
+    {
+      "t": "رسم التسجيل · $1,500 لكل طالب",
+      "of": "baaf0ddc",
+      "at": [
+        "charlotte-christian:sections[1].components[1].label"
+      ]
+    },
+    {
+      "t": "رسم الأسرة الجديدة · $1,250 لكل أسرة",
+      "of": "8ca90b77",
+      "at": [
+        "charlotte-christian:sections[1].components[2].label"
+      ]
+    },
+    {
+      "t": "رسم الطالب الدولي · $2,000/سنة",
+      "of": "2e622509",
+      "at": [
+        "charlotte-christian:sections[1].components[3].label"
+      ]
+    },
+    {
+      "t": "برنامج حماية الرسوم · $250/سنة",
+      "of": "414b77d0",
+      "at": [
+        "charlotte-christian:sections[1].components[4].label"
+      ]
+    },
+    {
+      "t": "رسم التقسيط · $300/سنة",
+      "of": "c77ee780",
+      "at": [
+        "charlotte-christian:sections[1].components[5].label"
+      ]
+    },
+    {
+      "t": "رسم التقديم · $100 لكل طفل",
+      "of": "49a409a2",
+      "at": [
+        "charlotte-christian:sections[1].components[6].label"
+      ]
+    },
+    {
+      "t": "اليوم الممتدّ، 5 أيام · $325/شهر",
+      "of": "fdd23790",
+      "at": [
+        "charlotte-christian:sections[1].components[7].label"
+      ]
+    },
+    {
+      "t": "اليوم الممتدّ، 3 أيام · $245/شهر",
+      "of": "09d128f9",
+      "at": [
+        "charlotte-christian:sections[1].components[8].label"
+      ]
+    },
+    {
+      "t": "اليوم الممتدّ، يوم واحد · $125/شهر",
+      "of": "354c0d1d",
+      "at": [
+        "charlotte-christian:sections[1].components[9].label"
+      ]
+    },
+    {
+      "t": "رعاية الجسر JK–K · $125/شهر",
+      "of": "b08fd8ec",
+      "at": [
+        "charlotte-christian:sections[1].components[10].label"
+      ]
+    },
+    {
+      "t": "الحضور المباشر اليومي · $50 لكل يوم",
+      "of": "2776f398",
+      "at": [
+        "charlotte-christian:sections[1].components[11].label"
+      ]
+    },
+    {
+      "t": "انتهاء الدوام المبكّر في اليوم النصفي · $25 لكل يوم",
+      "of": "1bcb8130",
+      "at": [
+        "charlotte-christian:sections[1].components[12].label"
+      ]
+    },
+    {
+      "t": "الاصطحاب المتأخّر · $25 لكل ربع ساعة",
+      "of": "ac2057c2",
+      "at": [
+        "charlotte-christian:sections[1].components[13].label"
+      ]
+    },
+    {
+      "t": "اليوم الممتدّ للمرحلة المتوسطة · لا سعر",
+      "of": "cfd66285",
+      "at": [
+        "charlotte-christian:sections[1].components[14].label"
+      ]
+    },
+    {
+      "t": "رسم التسجيل البالغ $1,500 لكل طالب غير قابل للاسترداد لكنه يُطبَّق على رصيد الرسوم. ورسم التقسيط $300 يشمل برنامج حماية الرسوم المطلوب البالغ $250 — فارق $50. ولا تنشر المدرسة رسم مشاركة رياضية أو جدول فنون جميلة، وهو ليس كتأكيد عدم وجود مثل تلك التكاليف.",
+      "of": "4bd5f466",
+      "at": [
+        "charlotte-christian:sections[1].componentsNote"
+      ]
+    },
+    {
+      "t": "التعليم المبكّر شامل، الحالة الشائعة (JK–K)",
+      "of": "82544242",
+      "at": [
+        "charlotte-christian:sections[1].stats[0].label"
+      ]
+    },
+    {
+      "t": "Upper School شامل، الحالة الشائعة (الصفوف 9–12)",
+      "of": "dbee0838",
+      "at": [
+        "charlotte-christian:sections[1].stats[1].label"
+      ]
+    },
+    {
+      "t": "التقدّم للمساعدة",
+      "of": "c76ef850",
+      "at": [
+        "charlotte-christian:sections[2].navTitle"
+      ]
+    },
+    {
+      "t": "التقدّم للمساعدة — العملية والجدول الزمني",
+      "of": "33b18c08",
+      "at": [
+        "charlotte-christian:sections[2].title"
+      ]
+    },
+    {
+      "t": "2 فبراير 2026",
+      "of": "82f89c2a",
+      "at": [
+        "charlotte-christian:sections[2].timeline[0].when"
+      ]
+    },
+    {
+      "t": "الموعد النهائي للأولوية لـ **الأُسر الحالية** ولمتقدّمي **JK/K** الجدد — عبر SSS by NAIS، رمز المدرسة 2318",
+      "of": "5acd774f",
+      "at": [
+        "charlotte-christian:sections[2].timeline[0].detail"
+      ]
+    },
+    {
+      "t": "27 فبراير 2026",
+      "of": "2777eb27",
+      "at": [
+        "charlotte-christian:sections[2].timeline[1].when"
+      ]
+    },
+    {
+      "t": "يُبلَّغ متقدّمو JK ورياض الأطفال الجدد بالمنح بحلول هذا التاريخ",
+      "of": "7aad52a0",
+      "at": [
+        "charlotte-christian:sections[2].timeline[1].detail"
+      ]
+    },
+    {
+      "t": "2 مارس 2026",
+      "of": "0e3d96a9",
+      "at": [
+        "charlotte-christian:sections[2].timeline[2].when"
+      ]
+    },
+    {
+      "t": "الموعد النهائي للأولوية للمتقدّمين الجدد، **الصفوف 1–12**",
+      "of": "03085a24",
+      "at": [
+        "charlotte-christian:sections[2].timeline[2].detail"
+      ]
+    },
+    {
+      "t": "2 أبريل 2026",
+      "of": "c1bf0e06",
+      "at": [
+        "charlotte-christian:sections[2].timeline[3].when"
+      ]
+    },
+    {
+      "t": "يُبلَّغ متقدّمو الصفوف 1–12 الجدد بحلول هذا التاريخ. والطلبات المتأخّرة لا تزال مقبولة، لكن المنح مقصورة على الأموال المتاحة في كل مستوى صفّي",
+      "of": "0e2284d6",
+      "at": [
+        "charlotte-christian:sections[2].timeline[3].detail"
+      ]
+    },
+    {
+      "t": "شرط فريد في هذه السلسلة",
+      "of": "4ef124f8",
+      "at": [
+        "charlotte-christian:sections[2].boxes[0].title"
+      ]
+    },
+    {
+      "t": "على كل أسرة متقدّمة أن **تتقدّم أيضًا إلى North Carolina Opportunity Scholarship Program**، وهو برنامج حكومي تُفتَح طلباته في 2 فبراير. وعبر المدارس المفحوصة هنا، هذه الحالة الوحيدة التي تشترط فيها مدرسة على طلب مساعدتها الخاصّ طلبًا حكوميًّا موازيًا.",
+      "of": "c2a1b69d",
+      "at": [
+        "charlotte-christian:sections[2].boxes[0].body"
+      ]
+    },
+    {
+      "t": "DOCUMENTATION HAZARD",
+      "of": "8cdb01bb",
+      "at": [
+        "charlotte-christian:sections[2].boxes[1].tag"
+      ]
+    },
+    {
+      "t": "تذكر ورقة تعليمات 2026–27 متطلّب التوثيق **مرّتين، والبيانان لا يتطابقان** — أحدهما يطلب إقرار 2024 إضافةً إلى إقرار 2025 عند توفّره وW-2 لعام 2025؛ والآخر يطلب إقرار 2025، أو إقرار 2024 مع نماذج W-2 لعام 2025. ونرفض اختيار قراءة؛ أكّد مع المدرسة.",
+      "of": "26e30dc4",
+      "at": [
+        "charlotte-christian:sections[2].boxes[1].body"
+      ]
+    },
+    {
+      "t": "التجديد والشروط",
+      "of": "8ad48c19",
+      "at": [
+        "charlotte-christian:sections[2].boxes[2].title"
+      ]
+    },
+    {
+      "t": "تُعيد الأُسر التقديم كل سنة، وقد تكون المنح أكبر أو أصغر من السنة السابقة مع تغيّر الظروف والوعاء. ولا تُمنَح المنح إلا بعد قبول الطالب. وبوصفها عضوًا في رابطة رياضة المدارس المستقلّة بالولاية، لا يجوز لأي طالب تلقّي مساعدة من أي شكل مقابل المشاركة الرياضية.",
+      "of": "7caf9aee",
+      "at": [
+        "charlotte-christian:sections[2].boxes[2].body"
+      ]
+    },
+    {
+      "t": "الخصومات والسقف",
+      "of": "69e72fce",
+      "at": [
+        "charlotte-christian:sections[3].navTitle"
+      ]
+    },
+    {
+      "t": "الخصومات والإعفاءات وسقف المنحة",
+      "of": "424a0d76",
+      "at": [
+        "charlotte-christian:sections[3].title"
+      ]
+    },
+    {
+      "t": "AID CAPPED AT 50% OF TUITION",
+      "of": "20308a5c",
+      "at": [
+        "charlotte-christian:sections[3].tag"
+      ]
+    },
+    {
+      "t": "سقف 50% المنشور، بحسب النطاق",
+      "of": "a3f1fa53",
+      "at": [
+        "charlotte-christian:sections[3].figureCaption"
+      ]
+    },
+    {
+      "t": "تذكر المدرسة أن المنح لن تتجاوز 50% من الرسوم، لتوسيع المساعدة لأكبر عدد ممكن من الأُسر. والأرقام أدناه حسابنا مقابل ذلك الحدّ — وليست بالتأكيد منحة نموذجية.",
+      "of": "5c72a6cc",
+      "at": [
+        "charlotte-christian:sections[3].figureNote2"
+      ]
+    },
+    {
+      "t": "التعليم المبكّر",
+      "of": "591bf7a5",
+      "at": [
+        "charlotte-christian:sections[3].ladder[0].gift"
+      ]
+    },
+    {
+      "t": "السقف · $10,650/سنة",
+      "of": "c81810b7",
+      "at": [
+        "charlotte-christian:sections[3].ladder[0].detail"
+      ]
+    },
+    {
+      "t": "الابتدائية",
+      "of": "418d545a",
+      "at": [
+        "charlotte-christian:sections[3].ladder[1].gift"
+      ]
+    },
+    {
+      "t": "السقف · $11,647.50/سنة",
+      "of": "c253743b",
+      "at": [
+        "charlotte-christian:sections[3].ladder[1].detail"
+      ]
+    },
+    {
+      "t": "المتوسّطة",
+      "of": "9d92c238",
+      "at": [
+        "charlotte-christian:sections[3].ladder[2].gift"
+      ]
+    },
+    {
+      "t": "السقف · $12,287.50/سنة",
+      "of": "576b32da",
+      "at": [
+        "charlotte-christian:sections[3].ladder[2].detail"
+      ]
+    },
+    {
+      "t": "العليا",
+      "of": "b2c244e7",
+      "at": [
+        "charlotte-christian:sections[3].ladder[3].gift"
+      ]
+    },
+    {
+      "t": "السقف · $13,527.50/سنة",
+      "of": "207697fa",
+      "at": [
+        "charlotte-christian:sections[3].ladder[3].detail"
+      ]
+    },
+    {
+      "t": "يبقى أولياء الأمور مسؤولين عن رصيد الرسوم وعن كل الرسوم. ولا يُنشَر متوسّط أو وسيط منحة، ولا بيانات وصول — فالسقف هو رقم المنحة الوحيد في السجلّ العلني.",
+      "of": "c4c54730",
+      "at": [
+        "charlotte-christian:sections[3].figureNote"
+      ]
+    },
+    {
+      "t": "Family Fellowship — خصم منشور",
+      "of": "07d8ff36",
+      "at": [
+        "charlotte-christian:sections[3].boxes[0].title"
+      ]
+    },
+    {
+      "t": "**رصيد رسوم قدره $1,500** للطالب الثالث أو الرابع أو الخامس المسجَّل من الأسرة نفسها. ويحمل اليوم الممتدّ سعر أشقّاء منفصلًا بنسبة 25%، يُطبَّق على الطالب الثالث مقابل أدنى سعر لتلك الأسرة.",
+      "of": "bfa7ded5",
+      "at": [
+        "charlotte-christian:sections[3].boxes[0].body"
+      ]
+    },
+    {
+      "t": "WITHDRAWN",
+      "of": "1c81401b",
+      "at": [
+        "charlotte-christian:sections[3].boxes[1].tag"
+      ]
+    },
+    {
+      "t": "حمل مخطّط 2024–25 **رصيد دفع كامل قدره $200** للطلاب الجدد الدافعين خلال أسبوعين من القبول. ولا يظهر على مخطّط 2026–27، ولا يفسّر أي بيان مدرسي التغيّر.",
+      "of": "fe86f557",
+      "at": [
+        "charlotte-christian:sections[3].boxes[1].body"
+      ]
+    },
+    {
+      "t": "دعم رجال الدين وهيئة التدريس والمدارس الشريكة مُسمّى في موادّ جمع التبرّعات لكنه غير موثَّق برامج يمكن لأسرة التقدّم إليها — هل هي إعفاءات متمايزة أم تمويل مخصَّص داخل البرنامج العامّ القائم على الحاجة غير منشور. ولا توجد منحة جدارة أكاديمية أو عامّة؛ والمنح الرياضية مستبعَدة صراحةً.",
+      "of": "c71e3290",
+      "at": [
+        "charlotte-christian:sections[3].boxes[2].body"
+      ]
+    },
+    {
+      "t": "الدفع والعقد",
+      "of": "4b4dfa15",
+      "at": [
+        "charlotte-christian:sections[4].navTitle"
+      ]
+    },
+    {
+      "t": "الدفع، والعقد",
+      "of": "9564522b",
+      "at": [
+        "charlotte-christian:sections[4].title"
+      ]
+    },
+    {
+      "t": "$1,500",
+      "of": "7634a7b9",
+      "at": [
+        "charlotte-christian:sections[4].plans[0].figure"
+      ]
+    },
+    {
+      "t": "وديعة التسجيل",
+      "of": "e1e9eb43",
+      "at": [
+        "charlotte-christian:sections[4].plans[0].label"
+      ]
+    },
+    {
+      "t": "لكل طالب، مستحقّة عند التسجيل الأول أو إعادة التسجيل. **غير قابلة للاسترداد**، وتُطبَّق على رصيد الرسوم.",
+      "of": "7e3b87ad",
+      "at": [
+        "charlotte-christian:sections[4].plans[0].detail"
+      ]
+    },
+    {
+      "t": "مدفوعة كاملةً",
+      "of": "3a3ca213",
+      "at": [
+        "charlotte-christian:sections[4].plans[1].label",
+        "charlotte-country-day:sections[4].plans[1].label"
+      ]
+    },
+    {
+      "t": "تشجّعها المدرسة. لا خصم دفع مسبق لعام 2026–27 — سُحِب رصيد $200 السابق.",
+      "of": "a70a6aa3",
+      "at": [
+        "charlotte-christian:sections[4].plans[1].detail"
+      ]
+    },
+    {
+      "t": "خطة العشرة أشهر",
+      "of": "3b74dc2a",
+      "at": [
+        "charlotte-christian:sections[4].plans[2].label",
+        "charlotte-country-day:sections[4].plans[3].label"
+      ]
+    },
+    {
+      "t": "تبدأ الدفعات في يونيو. رسم تقسيط قدره **$300** لكل طالب في السنة، يشمل برنامج حماية الرسوم المطلوب. ولا يُذكَر معدّل فائدة.",
+      "of": "dce8b2b7",
+      "at": [
+        "charlotte-christian:sections[4].plans[2].detail"
+      ]
+    },
+    {
+      "t": "$250",
+      "of": "a98d0546",
+      "at": [
+        "charlotte-christian:sections[4].plans[3].figure"
+      ]
+    },
+    {
+      "t": "حماية الرسوم",
+      "of": "d5804d16",
+      "at": [
+        "charlotte-christian:sections[4].plans[3].label"
+      ]
+    },
+    {
+      "t": "لكل طالب في السنة، مُوصى به للأُسر الدافعة كاملةً. ويحكم أهلية الاسترداد — وبحسب شروط 2023–24 هو الطريق الوحيد إلى أي استرداد إطلاقًا.",
+      "of": "579d8245",
+      "at": [
+        "charlotte-christian:sections[4].plans[3].detail"
+      ]
+    },
+    {
+      "t": "CURRENCY WARNING — CONTRACT TERMS TAGGED 2023–24",
+      "of": "eeb1495d",
+      "at": [
+        "charlotte-christian:sections[4].boxes[0].tag"
+      ]
+    },
+    {
+      "t": "تأتي هذه الشروط من حزمة تسجيل 2023–24، ثلاث سنوات خلف جدول الرسوم أعلاه، ولم نتمكّن من تأكيد أنها لا تزال حالية. وكما نُشِرت حينها: **لا استرداد رسوم لأي سبب** دون برنامج حماية الرسوم؛ ومعه، 90% من الرسوم غير المستخدَمة تُسترَدّ عند الانسحاب قبل 1 مايو، و**لا استرداد بعد 30 أبريل**. ويبدأ الانسحاب بإشعار كتابي لمدير المرحلة.",
+      "of": "8783e500",
+      "at": [
+        "charlotte-christian:sections[4].boxes[0].body"
+      ]
+    },
+    {
+      "t": "ARREARS, PER THE SAME 2023–24 PACKET",
+      "of": "6e134411",
+      "at": [
+        "charlotte-christian:sections[4].boxes[1].tag"
+      ]
+    },
+    {
+      "t": "الدفعة الفائتة تشكّل تخلّفًا، وبخيار المدرسة تصبح كل الرسوم مستحقّة فورًا. والحساب المتأخّر أكثر من ستّين يومًا قد يؤدّي إلى إلغاء التسجيل والإحالة إلى وكالة تحصيل، مع تحمّل الطرف المسؤول تكاليف المحكمة والقانون.",
+      "of": "e7325819",
+      "at": [
+        "charlotte-christian:sections[4].boxes[1].body"
+      ]
+    },
+    {
+      "t": "مسيرة كاملة JK–12 بأسعار 2026–27 — حسابنا، الرسوم فقط، لا إسقاط",
+      "of": "9ab76a43",
+      "at": [
+        "charlotte-christian:sections[5].stats[0].label"
+      ]
+    },
+    {
+      "t": "أربع سنوات متتالية مُستعادة",
+      "of": "00f7cdac",
+      "at": [
+        "charlotte-christian:sections[5].boxes[0].title"
+      ]
+    },
+    {
+      "t": "أقوى تاريخ رسوم بين المدارس الأربع في هذه السلسلة. ارتفع كل نطاق **$850** إلى 2024–25، و**$1,500** إلى 2025–26، و**$950** إلى 2026–27 — زيادة ثابتة بالدولار في كل مرة، مجموعها **+$3,300** لكل نطاق، أو 18.33% في النطاق الأدنى مقابل 13.89% في الأعلى.",
+      "of": "efcab71a",
+      "at": [
+        "charlotte-christian:sections[5].boxes[0].body"
+      ]
+    },
+    {
+      "t": "THE REACH GAP",
+      "of": "b7976307",
+      "at": [
+        "charlotte-christian:sections[5].boxes[1].tag"
+      ]
+    },
+    {
+      "t": "القسم 4 هو نقطة الضعف عند 62%: سقف 50% منشور، لكن لا إجمالي مُنِح، ولا حصّة طلاب، ولا متوسّط، ولا وسيط. والهبات *الواردة إلى* صندوق المساعدة منشورة ($48,422 في 2020–21 هابطًا إلى $23,798 في 2024–25) — لكن المال الوارد ليس المال الممنوح، وينبغي ألّا يُقرأ الاثنان أحدهما محلّ الآخر.",
+      "of": "756ec17f",
+      "at": [
+        "charlotte-christian:sections[5].boxes[1].body"
+      ]
+    },
+    {
+      "t": "مُرتَّبة بحسب مدى تغيير الإجابة لصورة الأسرة.",
+      "of": "7a2d4dd5",
+      "at": [
+        "charlotte-christian:sections[5].questionsNote"
+      ]
+    },
+    {
+      "t": "كم كان إجمالي المساعدة الدراسية الممنوحة العام الماضي، ولكم أسرة؟",
+      "of": "f1ac5d9a",
+      "at": [
+        "charlotte-christian:sections[5].questions[0]"
+      ]
+    },
+    {
+      "t": "ما حصّة الطلاب المتلقّين للمساعدة — ومقيسة مقابل أي رقم تسجيل؟",
+      "of": "c6678deb",
+      "at": [
+        "charlotte-christian:sections[5].questions[1]"
+      ]
+    },
+    {
+      "t": "ما متوسّط المنحة، وما الوسيط؟ وأيهما تذكره المدرسة؟",
+      "of": "039e5a5d",
+      "at": [
+        "charlotte-christian:sections[5].questions[2]"
+      ]
+    },
+    {
+      "t": "أين يبدأ نطاق المساعدة وينتهي واقعيًّا لأسرة في الوسط؟",
+      "of": "7f12ab86",
+      "at": [
+        "charlotte-christian:sections[5].questions[3]"
+      ]
+    },
+    {
+      "t": "هل لا تزال شروط عقد 2023–24 حالية، خصوصًا القاعدة بأن برنامج حماية الرسوم هو الطريق الوحيد إلى الاسترداد؟",
+      "of": "8b95d4e1",
+      "at": [
+        "charlotte-christian:sections[5].questions[4]"
+      ]
+    },
+    {
+      "t": "هل توجد تكاليف مشاركة رياضية أو في الفنون الجميلة، وما المبالغ؟",
+      "of": "621bf8f4",
+      "at": [
+        "charlotte-christian:sections[5].questions[5]"
+      ]
+    },
+    {
+      "t": "هل سعر اليوم الممتدّ للمرحلة المتوسطة هو نفسه سعر Lower School المنشور؟",
+      "of": "e315244a",
+      "at": [
+        "charlotte-christian:sections[5].questions[6]"
+      ]
+    },
+    {
+      "t": "كل رقم دولاري يحمل العام الدراسي الذي ينطبق عليه. وأرقام المدرسة غير المؤرَّخة مُعلَّمة، لا مُخمَّنة.",
+      "of": "8acff684",
+      "at": [
+        "charlotte-country-day:framing[1].body",
+        "cannon:framing[1].body"
+      ]
+    },
+    {
+      "t": "الـ $13M في المنح الجامعية من School Profile أموال جامعية — مستبعَدة في كل مكان. وليست نصيحة مالية.",
+      "of": "f57e8e91",
+      "at": [
+        "charlotte-country-day:framing[2].body"
+      ]
+    },
+    {
+      "t": "الرسوم المنشورة بحسب النطاق",
+      "of": "75ac0cad",
+      "at": [
+        "charlotte-country-day:sections[0].figureCaption",
+        "cannon:sections[0].figureCaption"
+      ]
+    },
+    {
+      "t": "Junior K",
+      "of": "ff4582b9",
+      "at": [
+        "charlotte-country-day:sections[0].bands[0].label",
+        "cannon:sections[0].bands[0].label"
+      ]
+    },
+    {
+      "t": "الصفوف 1–4",
+      "of": "c3d4535d",
+      "at": [
+        "charlotte-country-day:sections[0].bands[2].label",
+        "cannon:sections[0].bands[2].label"
+      ]
+    },
+    {
+      "t": "الصفوف 5–8",
+      "of": "0bea3f5d",
+      "at": [
+        "charlotte-country-day:sections[0].bands[3].label",
+        "cannon:sections[0].bands[3].label",
+        "cannon:sections[3].ranges[1].label"
+      ]
+    },
+    {
+      "t": "خمسة نطاقات تغطّي الصفوف الأربعة عشر كلها — ولم تُسعِّر المدرسة قطّ صفوفًا فردية. وتغطّي الرسوم \"الخبرة التعليمية الأساسية بما فيها التقنية،\" بصياغة المدرسة. وأسعار 2025–26 أرقام المدرسة المنشورة نفسها، مُستعادة من نسخ مؤرشَفة لصفحة الرسوم.",
+      "of": "be6cee79",
+      "at": [
+        "charlotte-country-day:sections[0].figureNote"
+      ]
+    },
+    {
+      "t": "أربعة تفاصيل لجدول الرسوم",
+      "of": "3a912529",
+      "at": [
+        "charlotte-country-day:sections[0].boxes[0].title"
+      ]
+    },
+    {
+      "t": "أسعار الطالب الجديد مقابل العائد",
+      "of": "d15c8975",
+      "at": [
+        "charlotte-country-day:sections[0].bullets[0]",
+        "cannon:sections[0].bullets[0]"
+      ]
+    },
+    {
+      "t": "أنماط نصف يوم أو جزء أسبوع لـ Junior K",
+      "of": "2de0363e",
+      "at": [
+        "charlotte-country-day:sections[0].bullets[1]"
+      ]
+    },
+    {
+      "t": "هل الغداء مشمول (قائمة المحاسبة توحي بأنه يُحاسَب منفصلًا)",
+      "of": "ad642c1a",
+      "at": [
+        "charlotte-country-day:sections[0].bullets[2]"
+      ]
+    },
+    {
+      "t": "سعر الطالب الدولي — 14% من الطلاب دوليون",
+      "of": "ead5608f",
+      "at": [
+        "charlotte-country-day:sections[0].bullets[3]"
+      ]
+    },
+    {
+      "t": "النفقات الإضافية المُقدَّرة، 2026–27",
+      "of": "74aae2a5",
+      "at": [
+        "charlotte-country-day:sections[1].figureCaption"
+      ]
+    },
+    {
+      "t": "Lower School",
+      "of": "0921a0ca",
+      "at": [
+        "charlotte-country-day:sections[1].ranges[0].label"
+      ]
+    },
+    {
+      "t": "Middle School",
+      "of": "15441234",
+      "at": [
+        "charlotte-country-day:sections[1].ranges[1].label"
+      ]
+    },
+    {
+      "t": "Upper School",
+      "of": "bfabeb69",
+      "at": [
+        "charlotte-country-day:sections[1].ranges[2].label"
+      ]
+    },
+    {
+      "t": "المقياس $0–700. تقدير محدود لكل مرحلة، لا جدول رسوم مفصَّل — يغطّي الكتب والمستلزمات (الصفوف 5–12) ورسوم الأنشطة والرسوم الرياضية. وديعة التسجيل: 10% من الرسوم، تُحتسَب لصالح الرسوم المستحقّة.",
+      "of": "ba64b375",
+      "at": [
+        "charlotte-country-day:sections[1].figureNote"
+      ]
+    },
+    {
+      "t": "عشرة مكوّنات تكلفة مؤكَّدة — 6 غير مُسعَّرة",
+      "of": "6ed1da98",
+      "at": [
+        "charlotte-country-day:sections[1].componentsTitle"
+      ]
+    },
+    {
+      "t": "لم يُبنَ تقدير شامل: 60% غير مُسعَّر > عتبة 33%",
+      "of": "6389b9ca",
+      "at": [
+        "charlotte-country-day:sections[1].componentsAside"
+      ]
+    },
+    {
+      "t": "الرسوم — خمسة نطاقات، مُسعَّرة",
+      "of": "5b3efc9a",
+      "at": [
+        "charlotte-country-day:sections[1].components[0].label",
+        "cannon:sections[1].components[0].label"
+      ]
+    },
+    {
+      "t": "الكتب والمستلزمات · ضمن نطاق فقط",
+      "of": "1428f3ac",
+      "at": [
+        "charlotte-country-day:sections[1].components[1].label"
+      ]
+    },
+    {
+      "t": "رسم النشاط · ضمن نطاق فقط",
+      "of": "539b8d81",
+      "at": [
+        "charlotte-country-day:sections[1].components[2].label"
+      ]
+    },
+    {
+      "t": "الرسم الرياضي · ضمن نطاق فقط",
+      "of": "a88518a6",
+      "at": [
+        "charlotte-country-day:sections[1].components[3].label"
+      ]
+    },
+    {
+      "t": "اليوم الممتدّ · لا سعر",
+      "of": "6ae2ed40",
+      "at": [
+        "charlotte-country-day:sections[1].components[4].label"
+      ]
+    },
+    {
+      "t": "حصص الإثراء · لا سعر",
+      "of": "d37ccf46",
+      "at": [
+        "charlotte-country-day:sections[1].components[5].label"
+      ]
+    },
+    {
+      "t": "النقل بالحافلات · لا سعر",
+      "of": "739409af",
+      "at": [
+        "charlotte-country-day:sections[1].components[6].label"
+      ]
+    },
+    {
+      "t": "التدريس الخصوصي · لا سعر",
+      "of": "3b96a9e3",
+      "at": [
+        "charlotte-country-day:sections[1].components[7].label"
+      ]
+    },
+    {
+      "t": "قاعة الطعام · لا سعر",
+      "of": "18e399dd",
+      "at": [
+        "charlotte-country-day:sections[1].components[8].label"
+      ]
+    },
+    {
+      "t": "أزياء التربية البدنية لـ MS · لا سعر",
+      "of": "43c278b7",
+      "at": [
+        "charlotte-country-day:sections[1].components[9].label"
+      ]
+    },
+    {
+      "t": "كل البنود الستّة غير المُسعَّرة تظهر على قائمة المحاسبة الخاصّة بالمدرسة — تكاليف حقيقية، تُحاسَب شهريًّا، أسعارها مرئية فقط على كشف الأسرة. وهذه أعلى الأسئلة قيمةً للمكتب المالي.",
+      "of": "50e74ebe",
+      "at": [
+        "charlotte-country-day:sections[1].componentsNote"
+      ]
+    },
+    {
+      "t": "أفضل أجزاء الصورة توثيقًا",
+      "of": "8b851cde",
+      "at": [
+        "charlotte-country-day:sections[2].note"
+      ]
+    },
+    {
+      "t": "1 نوفمبر",
+      "of": "b39a0e5f",
+      "at": [
+        "charlotte-country-day:sections[2].timeline[0].when"
+      ]
+    },
+    {
+      "t": "الموعد النهائي لـ **الأُسر الحالية** — الطلب + الوثائق عبر Clarity",
+      "of": "31c4f59c",
+      "at": [
+        "charlotte-country-day:sections[2].timeline[0].detail"
+      ]
+    },
+    {
+      "t": "الموعد النهائي لـ **الأُسر المرتقبة**",
+      "of": "72bae068",
+      "at": [
+        "charlotte-country-day:sections[2].timeline[1].detail"
+      ]
+    },
+    {
+      "t": "مع العقود",
+      "of": "393f2a12",
+      "at": [
+        "charlotte-country-day:sections[2].timeline[2].when",
+        "davidson-day:sections[2].timeline[2].when"
+      ]
+    },
+    {
+      "t": "تُصدَر قرارات المنح مع عقود التسجيل — ويُقرَّر القبول منفصلًا",
+      "of": "28df42e8",
+      "at": [
+        "charlotte-country-day:sections[2].timeline[2].detail"
+      ]
+    },
+    {
+      "t": "تمتدّ المنح سنة واحدة؛ وتُعيد الأُسر التقديم سنويًّا. ويستمرّ مستوى مشابه عادةً في غياب تغيّر الدخل",
+      "of": "d33f9ceb",
+      "at": [
+        "charlotte-country-day:sections[2].timeline[3].detail"
+      ]
+    },
+    {
+      "t": "**Clarity** · رسم $65 عند التقديم · أقلّ من ساعة، ملائم للهاتف، مُترجَم بالكامل إلى الإسبانية. الوثائق: 1040 ونماذج W2 وكعب راتب حديث — تُسحَب السجلّات الضريبية تلقائيًّا.",
+      "of": "1469efc1",
+      "at": [
+        "charlotte-country-day:sections[2].boxes[0].body"
+      ]
+    },
+    {
+      "t": "الوالدان المطلّقان أو المنفصلان",
+      "of": "fa3d78a6",
+      "at": [
+        "charlotte-country-day:sections[2].boxes[1].title",
+        "cannon:sections[2].boxes[1].title",
+        "davidson-day:sections[2].boxes[1].title"
+      ]
+    },
+    {
+      "t": "على الوالد الحاضن وغير الحاضن معًا التقديم عبر Clarity بصرف النظر عن التسويات القانونية؛ ونقص المعلومات من أي من الوالدين قد يمنع منحة.",
+      "of": "217d112f",
+      "at": [
+        "charlotte-country-day:sections[2].boxes[1].body"
+      ]
+    },
+    {
+      "t": "لا عملية استئناف · لا سياسة تغيّر ظروف في منتصف السنة. **خطر:** صفحة بوابة قديمة لا تزال تسمّي منصّة SSS القديمة — وصفحة القبول الحيّة (Clarity) هي التي يُوثَق بها.",
+      "of": "3605a881",
+      "at": [
+        "charlotte-country-day:sections[2].boxes[2].body"
+      ]
+    },
+    {
+      "t": "ما صُمِّمت منحة وقفية لتغطيته",
+      "of": "3f5c831f",
+      "at": [
+        "charlotte-country-day:sections[3].figureCaption"
+      ]
+    },
+    {
+      "t": "مستويات هبات المتبرّعين المنشورة وتوزيعاتها السنوية المتوقّعة — أهداف تصميم، لا منح مُنِحت فعلًا.",
+      "of": "1e57391c",
+      "at": [
+        "charlotte-country-day:sections[3].figureNote2"
+      ]
+    },
+    {
+      "t": "$220K",
+      "of": "2cdec2b6",
+      "at": [
+        "charlotte-country-day:sections[3].ladder[0].gift"
+      ]
+    },
+    {
+      "t": "من الرسوم · $9,900/سنة",
+      "of": "f670b4a3",
+      "at": [
+        "charlotte-country-day:sections[3].ladder[0].detail"
+      ]
+    },
+    {
+      "t": "$440K",
+      "of": "2d408d06",
+      "at": [
+        "charlotte-country-day:sections[3].ladder[1].gift"
+      ]
+    },
+    {
+      "t": "من الرسوم · $19,800/سنة",
+      "of": "5cc9a0eb",
+      "at": [
+        "charlotte-country-day:sections[3].ladder[1].detail"
+      ]
+    },
+    {
+      "t": "$660K",
+      "of": "42e3bbde",
+      "at": [
+        "charlotte-country-day:sections[3].ladder[2].gift"
+      ]
+    },
+    {
+      "t": "من الرسوم · $29,700/سنة",
+      "of": "f4fd6f31",
+      "at": [
+        "charlotte-country-day:sections[3].ladder[2].detail"
+      ]
+    },
+    {
+      "t": "$880K",
+      "of": "948b045e",
+      "at": [
+        "charlotte-country-day:sections[3].ladder[3].gift"
+      ]
+    },
+    {
+      "t": "من الرسوم · $39,600/سنة",
+      "of": "1729ec83",
+      "at": [
+        "charlotte-country-day:sections[3].ladder[3].detail"
+      ]
+    },
+    {
+      "t": "مستوى هبة المتبرّع ← الحصّة المقصودة من رسوم طالب. ويمكن إرفاق نحو $6,000/سنة أكثر للملحقات — الفئات نفسها التي يُعلِّمها القسم 02 بوصفها غير مُسعَّرة. تُمنَح على الحاجة المُثبَتة عبر Clarity.",
+      "of": "00de0834",
+      "at": [
+        "charlotte-country-day:sections[3].figureNote"
+      ]
+    },
+    {
+      "t": "لا مسار جدارة",
+      "of": "d185f814",
+      "at": [
+        "charlotte-country-day:sections[3].boxes[0].title",
+        "cannon:sections[3].boxes[0].title"
+      ]
+    },
+    {
+      "t": "لا يمكن لأسرة التقدّم لمنحة أكاديمية أو فنّية أو رياضية — إذ لا تقدّم المدرسة واحدة. وتحمل الصناديق الوقفية الفردية معايير منشورة (مثل الرسوم كاملةً + الملحقات لمسيرة كاملة؛ وأربع سنوات لطالب رياضي؛ وK–4 الرسوم كاملةً).",
+      "of": "7d8d0073",
+      "at": [
+        "charlotte-country-day:sections[3].boxes[0].body"
+      ]
+    },
+    {
+      "t": "خصومات الأشقّاء · إعفاء رسوم الموظفين · خصومات رجال الدين/العسكريين/المستجيبين الأوائل · رسوم مُفهرَسة أو بمقياس متدرّج · كم منحة مُسمّاة تُمنَح كل سنة، وبأي حجم.",
+      "of": "f4cf1d24",
+      "at": [
+        "charlotte-country-day:sections[3].boxes[1].body"
+      ]
+    },
+    {
+      "t": "10%",
+      "of": "5433b6b3",
+      "at": [
+        "charlotte-country-day:sections[4].plans[0].figure"
+      ]
+    },
+    {
+      "t": "تُحتسَب لصالح الرسوم — التزام توقيت، لا رسم زائد. ويدفع متقدّمو المساعدة وديعة **مخفَّضة قابلة للاسترداد** إن لم تكن المنحة كافية للالتحاق (المبلغ غير منشور).",
+      "of": "ccb198e2",
+      "at": [
+        "charlotte-country-day:sections[4].plans[0].detail"
+      ]
+    },
+    {
+      "t": "مستحقّة بحلول 15 يوليو. لا خصم دفع مسبق منشور.",
+      "of": "5185eb11",
+      "at": [
+        "charlotte-country-day:sections[4].plans[1].detail"
+      ]
+    },
+    {
+      "t": "قسطان",
+      "of": "3a10e293",
+      "at": [
+        "charlotte-country-day:sections[4].plans[2].label"
+      ]
+    },
+    {
+      "t": "دفعتان متساويتان في يوليو ويناير. لا رسم منشور.",
+      "of": "a01ab135",
+      "at": [
+        "charlotte-country-day:sections[4].plans[2].detail"
+      ]
+    },
+    {
+      "t": "سحب بنكي تلقائي. وهل يحمل رسمًا أو فائدة غير مذكور — وغياب رسم منشور ليس بيانًا بعدم تحصيل أيٍّ منه.",
+      "of": "59a9dbbf",
+      "at": [
+        "charlotte-country-day:sections[4].plans[3].detail"
+      ]
+    },
+    {
+      "t": "NOT PUBLISHED — CONTRACT TERMS",
+      "of": "a2975e7d",
+      "at": [
+        "charlotte-country-day:sections[4].boxes[0].tag",
+        "cannon:sections[4].boxes[1].tag",
+        "davidson-day:sections[4].boxes[0].tag"
+      ]
+    },
+    {
+      "t": "سياسة الدفع المتأخّر · التزام الانسحاب في منتصف السنة · رسوم الخطة أو الفائدة · مُقرِضو طرف ثالث · تأمين استرداد الرسوم — هذه تعيش في عقد التسجيل، الذي ليس علنيًّا.",
+      "of": "74d19b9d",
+      "at": [
+        "charlotte-country-day:sections[4].boxes[0].body"
+      ]
+    },
+    {
+      "t": "مسيرة كاملة JK–12 بأسعار اليوم المنشورة — حسابنا، وليست إسقاطًا صراحةً",
+      "of": "5577b7d9",
+      "at": [
+        "charlotte-country-day:sections[5].stats[0].label"
+      ]
+    },
+    {
+      "t": "سنتان من الأسعار الموثَّقة",
+      "of": "d8cc40fb",
+      "at": [
+        "charlotte-country-day:sections[5].boxes[0].title"
+      ]
+    },
+    {
+      "t": "تحرّك كل نطاق **+5.0%** من 2025–26 إلى 2026–27 — زيادة موحَّدة عبر الجدول (انظر مخطّط القسم 01). ونقطتا بيانات لا تصنعان نمطًا. **لا يمكن تقييم نموّ المساعدة مقابل الرسوم:** فالرسوم مُوسَمة بالسنة، وأرقام المساعدة ليست كذلك.",
+      "of": "dc082460",
+      "at": [
+        "charlotte-country-day:sections[5].boxes[0].body"
+      ]
+    },
+    {
+      "t": "لا شيء منشور للأُسر فوق عتبة المساعدة النموذجية لكن دون الدفع الكامل المريح — لا مقياس متدرّج، ولا رسوم مُفهرَسة. فجوة تتشاركها معظم المدارس المستقلّة، لا نتيجة عن هذه.",
+      "of": "c6b9f383",
+      "at": [
+        "charlotte-country-day:sections[5].boxes[1].body"
+      ]
+    },
+    {
+      "t": "أي عام دراسي يصف كل رقم مساعدة منشور — وهل الحصّة 20% أم 21%، مقابل أي تسجيل؟",
+      "of": "4698fa9c",
+      "at": [
+        "charlotte-country-day:sections[5].questions[0]"
+      ]
+    },
+    {
+      "t": "ما متوسّط منح هذه السنة ووسيطها، والنطاق — وهل تغطّي أي منحة الرسوم كاملةً؟",
+      "of": "d9819c6a",
+      "at": [
+        "charlotte-country-day:sections[5].questions[1]"
+      ]
+    },
+    {
+      "t": "ما الأسعار بالدولار لـ Extended Day والإثراء والحافلة والتدريس الخصوصي وقاعة الطعام وأزياء التربية البدنية لـ MS؟",
+      "of": "cf063634",
+      "at": [
+        "charlotte-country-day:sections[5].questions[2]"
+      ]
+    },
+    {
+      "t": "هل تحمل خطة العشرة أشهر رسمًا أو فائدة، وهل يوجد خصم للدفع الكامل؟",
+      "of": "0cba5a08",
+      "at": [
+        "charlotte-country-day:sections[5].questions[3]"
+      ]
+    },
+    {
+      "t": "ما التزام الانسحاب في منتصف السنة، وسياسة الدفع المتأخّر، وهل يُقدَّم تأمين استرداد؟",
+      "of": "a879487e",
+      "at": [
+        "charlotte-country-day:sections[5].questions[4]"
+      ]
+    },
+    {
+      "t": "هل يوجد خصم أشقّاء أو إعفاء موظفين — وما الوديعة المخفَّضة لمتقدّمي المساعدة؟",
+      "of": "8f778596",
+      "at": [
+        "charlotte-country-day:sections[5].questions[5]"
+      ]
+    },
+    {
+      "t": "مساعدة دراسية أثناء الالتحاق — لا مساعدة جامعية. وليست نصيحة مالية. ونحو 81% من أسئلة هذه السلسلة يمكن الإجابة عنها من مصادر منشورة.",
+      "of": "82baa058",
+      "at": [
+        "cannon:framing[2].body"
+      ]
+    },
+    {
+      "t": "خمسة نطاقات، مُسعَّرة بحسب النطاق لا بحسب الصف الفردي. وما تشمله الرسوم غير مذكور إيجابًا. وينشر الموقع الحيّ الأسعار الحالية فقط، لكن النسخ المؤرشَفة لصفحة الرسوم تحمل 2021–22 حتى 2025–26 — ارتفع كل نطاق نحو 4.5% إلى 2026–27.",
+      "of": "3fab0e46",
+      "at": [
+        "cannon:sections[0].figureNote"
+      ]
+    },
+    {
+      "t": "أنماط نصف يوم أو جزء أسبوع أو التحاق جزئي لـ JrK أو K",
+      "of": "a150749e",
+      "at": [
+        "cannon:sections[0].bullets[1]"
+      ]
+    },
+    {
+      "t": "ما تشمله الرسوم، مذكورًا إيجابًا",
+      "of": "90a0ccf4",
+      "at": [
+        "cannon:sections[0].bullets[2]"
+      ]
+    },
+    {
+      "t": "تاريخ الأسعار على الموقع الحيّ — مُستعاد من النسخ المؤرشَفة فقط",
+      "of": "204aa082",
+      "at": [
+        "cannon:sections[0].bullets[3]"
+      ]
+    },
+    {
+      "t": "أحد عشر مكوّنًا مؤكَّدًا لطالب في الصف 9 — 4 غير مُسعَّرة",
+      "of": "695dc58c",
+      "at": [
+        "cannon:sections[1].componentsTitle"
+      ]
+    },
+    {
+      "t": "لم يُبنَ تقدير شامل: ~36% غير مُسعَّر > عتبة 33%",
+      "of": "5d829c51",
+      "at": [
+        "cannon:sections[1].componentsAside"
+      ]
+    },
+    {
+      "t": "رحلة صفّية مطلوبة · $400 (الصف 9)",
+      "of": "7850f3f7",
+      "at": [
+        "cannon:sections[1].components[1].label"
+      ]
+    },
+    {
+      "t": "كتب الطالب · $300–500",
+      "of": "2ad73278",
+      "at": [
+        "cannon:sections[1].components[2].label"
+      ]
+    },
+    {
+      "t": "جهاز شخصي · $600–1,200",
+      "of": "38e87228",
+      "at": [
+        "cannon:sections[1].components[3].label"
+      ]
+    },
+    {
+      "t": "حصّة Winterm · $0–500",
+      "of": "7d6a212b",
+      "at": [
+        "cannon:sections[1].components[4].label"
+      ]
+    },
+    {
+      "t": "اختبارات AP · $98 لكل اختبار",
+      "of": "f18009e6",
+      "at": [
+        "cannon:sections[1].components[5].label"
+      ]
+    },
+    {
+      "t": "خدمة الحافلات · $1,990 ذهابًا وإيابًا",
+      "of": "4fdba1b4",
+      "at": [
+        "cannon:sections[1].components[6].label"
+      ]
+    },
+    {
+      "t": "رقم الطعام السنوي · لا سعر",
+      "of": "c92fdf9b",
+      "at": [
+        "cannon:sections[1].components[7].label"
+      ]
+    },
+    {
+      "t": "حزم الفرق الرياضية والمعدّات · لا سعر",
+      "of": "35689cec",
+      "at": [
+        "cannon:sections[1].components[8].label"
+      ]
+    },
+    {
+      "t": "مستلزمات الفنون وتأجير الآلات · لا سعر",
+      "of": "b09384e7",
+      "at": [
+        "cannon:sections[1].components[9].label"
+      ]
+    },
+    {
+      "t": "خطة استرداد الرسوم · لا سعر",
+      "of": "4c9253b4",
+      "at": [
+        "cannon:sections[1].components[10].label"
+      ]
+    },
+    {
+      "t": "فوات ضيّق: يُبنى التقدير فقط حيث يمكن تسعير ثلثَي المكوّنات على الأقلّ. ولـ Lower School لا يطرح السؤال — إذ تُدرج وثيقة رسوم 2026–27 فئات التكلفة دون أي أرقام بالدولار إطلاقًا، وإن سعّرها إصدار 2024–25.",
+      "of": "bdcc3e99",
+      "at": [
+        "cannon:sections[1].componentsNote"
+      ]
+    },
+    {
+      "t": "الوديعة، 2026–27",
+      "of": "c9911f27",
+      "at": [
+        "cannon:sections[1].boxes[0].title"
+      ]
+    },
+    {
+      "t": "**$2,000**، أو **$650** للأُسر المتقدّمة للمساعدة — كلاهما غير قابل للاسترداد، وكلاهما يُطبَّق على الرسوم. ولأن كليهما يُحتسَب مقابل الفاتورة، فالوديعة ليست تكلفة إضافية؛ بل القسط الأول.",
+      "of": "185be8da",
+      "at": [
+        "cannon:sections[1].boxes[0].body"
+      ]
+    },
+    {
+      "t": "تعرفة الحافلات، 2026–27",
+      "of": "f1a294db",
+      "at": [
+        "cannon:sections[1].boxes[1].title"
+      ]
+    },
+    {
+      "t": "ذهاب وإياب $1,990 للطفل الأول · $1,890 لكل شقيق. اتّجاه واحد $1,270 · $1,200. حافلة الأنشطة $290 لكل موسم رياضي. حضور مباشر $12.00 يوميًّا اتّجاه واحد، إضافةً إلى رسم تسجيل سنوي جديد لمرّة واحدة قدره $200.",
+      "of": "57ec43a8",
+      "at": [
+        "cannon:sections[1].boxes[1].body"
+      ]
+    },
+    {
+      "t": "15 فبراير 2026",
+      "of": "2af40f40",
+      "at": [
+        "cannon:sections[2].timeline[0].when"
+      ]
+    },
+    {
+      "t": "موعد نهائي واحد لعام 2026–27 — الطلب عبر **Clarity**",
+      "of": "cbd72486",
+      "at": [
+        "cannon:sections[2].timeline[0].detail"
+      ]
+    },
+    {
+      "t": "1 مارس",
+      "of": "5970a7d4",
+      "at": [
+        "cannon:sections[2].timeline[1].when"
+      ]
+    },
+    {
+      "t": "قرارات **القبول** للجولة الأولى للطلبات المُستلَمة بحلول 15 يناير — وتُقرَّر قرارات المساعدة منفصلةً",
+      "of": "e883dd9e",
+      "at": [
+        "cannon:sections[2].timeline[1].detail"
+      ]
+    },
+    {
+      "t": "متى يصل قرار المساعدة إلى أسرة، أو هل يصل قبل قرار القبول أو معه أو بعده",
+      "of": "a9bba2f5",
+      "at": [
+        "cannon:sections[2].timeline[2].detail"
+      ]
+    },
+    {
+      "t": "تُحدَّد المنح سنويًّا؛ وتُعيد الأُسر التقديم كل سنة عبر Clarity لتعكس المنح الظروف المتغيّرة",
+      "of": "88263b63",
+      "at": [
+        "cannon:sections[2].timeline[3].detail"
+      ]
+    },
+    {
+      "t": "**Clarity Tuition** · $65 لكل أسرة، غير قابل للاسترداد، تتقاضاه المنصّة · وتُطبَّق الإعفاءات تلقائيًّا للدخول المؤهَّلة. ثابت بصرف النظر عن عدد الأطفال أو المدارس. تقرّره لجنة من مدير المساعدة المالية ومدير الأعمال والمالية ومدير مشارك للقبول.",
+      "of": "b9812ef2",
+      "at": [
+        "cannon:sections[2].boxes[0].body"
+      ]
+    },
+    {
+      "t": "على الوالد الحاضن وغير الحاضن معًا أن يُكمِل كلٌّ منهما طلب Clarity. والزواج مجدّدًا يُنشئ وحدة أسرة جديدة — فيُعامَل دخل الزوج/الزوجة البديل وأصوله بوصفها ذات صلة، وإن تُؤخَذ في الحسبان الالتزامات تجاه أسرة جديدة. ولن تخصّص Cannon منحة تناسبيًّا بين أسرتين.",
+      "of": "6a114f6b",
+      "at": [
+        "cannon:sections[2].boxes[1].body"
+      ]
+    },
+    {
+      "t": "لا عملية استئناف أو إعادة نظر · لا سياسة تغيّر ظروف في منتصف السنة · لا تاريخ إصدار لقرارات المساعدة. **خطر:** يظهر الإجمالي الممنوح فقط في Student Profile، وهو مستند مكتوب لمكاتب القبول الجامعي — فأسرة تقرأ صفحة المساعدة المالية من أعلى إلى أسفل لن تصادفه أبدًا.",
+      "of": "079beec5",
+      "at": [
+        "cannon:sections[2].boxes[2].body"
+      ]
+    },
+    {
+      "t": "نطاقات المنح المنشورة بحسب النطاق، 2026–27",
+      "of": "ebf7a731",
+      "at": [
+        "cannon:sections[3].figureCaption"
+      ]
+    },
+    {
+      "t": "JrK–الصف 4",
+      "of": "f3034cba",
+      "at": [
+        "cannon:sections[3].ranges[0].label"
+      ]
+    },
+    {
+      "t": "المقياس $0–26,000. ولا منحة تغطّي الرسوم كاملةً. وتذكر المدرسة أيضًا أن أُسر المنحة القصوى تدفع $3,000 لكل طالب في السنة — وهو لا يتوافق مع سقف $26,000 مقابل رسوم الصفوف 9–12 البالغة $32,070، فارق $6,070 لا $3,000.",
+      "of": "95d9a9b8",
+      "at": [
+        "cannon:sections[3].figureNote"
+      ]
+    },
+    {
+      "t": "على صفحتين منفصلتين تذكر Cannon بوضوح أنها لا تقدّم منح جدارة، وتحديدًا لا منح أكاديمية أو فنّية أو رياضية. وكل المنح قائمة على الحاجة بحصر، والمنحة ليست قرضًا — لا تُستحَقّ إعادتها للمدرسة.",
+      "of": "89ba630b",
+      "at": [
+        "cannon:sections[3].boxes[0].body"
+      ]
+    },
+    {
+      "t": "لا خصم رسوم للأشقّاء · لا إعفاء موظفين · لا خصم لرجال الدين أو العسكريين أو المستجيبين الأوائل · لا رسوم مُفهرَسة أو متغيّرة. والصفحات صامتة لا نافية — والصمت ليس \"لا\" مذكورة. وسعر أشقّاء *منشور* فعلًا لخدمة الحافلات ($1,890 مقابل $1,990 ذهابًا وإيابًا).",
+      "of": "68fd6e29",
+      "at": [
+        "cannon:sections[3].boxes[1].body"
+      ]
+    },
+    {
+      "t": "برنامج حكومي ينتهي",
+      "of": "a94fd243",
+      "at": [
+        "cannon:sections[3].boxes[2].title"
+      ]
+    },
+    {
+      "t": "تنتهي المشاركة في North Carolina Opportunity Scholarship بعد 2025–26. وتراوح المستفيدون من 11 ($45,000) في 2020–21 إلى 149 ($654,168) في 2024–25؛ ورقم 2025–26 غير منشور في مصدر مُسترجَع.",
+      "of": "200eb910",
+      "at": [
+        "cannon:sections[3].boxes[2].body"
+      ]
+    },
+    {
+      "t": "سنوي",
+      "of": "f65af38a",
+      "at": [
+        "cannon:sections[4].plans[0].label"
+      ]
+    },
+    {
+      "t": "الرسوم ناقص الوديعة، مستحقّة 1 يونيو. لا رسم منشور.",
+      "of": "3fd080e1",
+      "at": [
+        "cannon:sections[4].plans[0].detail"
+      ]
+    },
+    {
+      "t": "نصف سنوي",
+      "of": "acf5d568",
+      "at": [
+        "cannon:sections[4].plans[1].label"
+      ]
+    },
+    {
+      "t": "دفعتان متساويتان مستحقّتان 1 يونيو و1 نوفمبر. لا رسم منشور.",
+      "of": "580d05c4",
+      "at": [
+        "cannon:sections[4].plans[1].detail"
+      ]
+    },
+    {
+      "t": "سحب بنكي لعشرة أشهر",
+      "of": "6701f0d4",
+      "at": [
+        "cannon:sections[4].plans[2].label"
+      ]
+    },
+    {
+      "t": "عشر دفعات شهرية متساوية تُسحَب في الخامس أو الخامس عشر، من يونيو حتى مارس. **لا رسم إداري.**",
+      "of": "c1ae61c0",
+      "at": [
+        "cannon:sections[4].plans[2].detail"
+      ]
+    },
+    {
+      "t": "عشرة أشهر بالشيك",
+      "of": "fe87073c",
+      "at": [
+        "cannon:sections[4].plans[3].label"
+      ]
+    },
+    {
+      "t": "عشر دفعات شهرية متساوية مستحقّة في الأول، من يونيو حتى مارس. رسم إداري قدره **$200** لعام 2026–27، مستحقّ 1 يونيو.",
+      "of": "11442152",
+      "at": [
+        "cannon:sections[4].plans[3].detail"
+      ]
+    },
+    {
+      "t": "الدفع بالبطاقة",
+      "of": "2a66843e",
+      "at": [
+        "cannon:sections[4].boxes[0].title"
+      ]
+    },
+    {
+      "t": "مقبول لأي خطة عدا السحب البنكي لعشرة أشهر. American Express وDiscover وMasterCard وVISA — بطاقات VISA الائتمانية فقط، لا VISA للخصم. **رسم تيسير 3.5%** على كل معاملات البطاقة.",
+      "of": "41281024",
+      "at": [
+        "cannon:sections[4].boxes[0].body"
+      ]
+    },
+    {
+      "t": "ما تدين به أسرة عند الانسحاب قبل بدء السنة · ما يُدان به عند المغادرة في منتصف السنة · هل أي رسوم قابلة للاسترداد وبأي جدول · عواقب الدفع المتأخّر · المتأخّرات والتسجيل. ولا يُسمّى خصم دفع مسبق ولا مُقرِض طرف ثالث. وتكلفة خطة استرداد الرسوم، وهل هي مطلوبة، تقعان في مستند غير قابل للقراءة علنًا.",
+      "of": "eba30951",
+      "at": [
+        "cannon:sections[4].boxes[1].body"
+      ]
+    },
+    {
+      "t": "مسيرة كاملة JrK–12 بأسعار 2026–27 — حسابنا، الرسوم فقط، لا إسقاط",
+      "of": "b70c558d",
+      "at": [
+        "cannon:sections[5].stats[0].label"
+      ]
+    },
+    {
+      "t": "اتّجاه المساعدة — سنتان",
+      "of": "d1fad686",
+      "at": [
+        "cannon:sections[5].boxes[0].title"
+      ]
+    },
+    {
+      "t": "تحرّكت المساعدة الممنوحة **$2,700,000 لـ 23% من الطلاب (2024–25)** إلى **$3,000,000 لـ 24% (2025–26)**. وارتفعت الرسوم على المدى نفسه نحو 4.5%، فنمت المساعدة تقريبًا بموازاة السعر.",
+      "of": "7ca2caef",
+      "at": [
+        "cannon:sections[5].boxes[0].body"
+      ]
+    },
+    {
+      "t": "SIX YEARS OF RATES, FROM THE ARCHIVE",
+      "of": "fc609b2c",
+      "at": [
+        "cannon:sections[5].boxes[1].tag"
+      ]
+    },
+    {
+      "t": "ينشر الموقع الحيّ السنة الحالية فقط، لكن النسخ المؤرشَفة تحمل 2021–22 فصاعدًا. وتتبع معظم النطاقات 2–4.5% في السنة، باستثناء واحد: **قفزت الصفوف 5–8 8.5% في 2023–24 و7.5% في 2024–25**، خارج النمط في مكان آخر من الجدول بوضوح — جدير بالسؤال إن كان طفلك داخلًا المرحلة المتوسطة.",
+      "of": "c4b3d0f3",
+      "at": [
+        "cannon:sections[5].boxes[1].body"
+      ]
+    },
+    {
+      "t": "اتّجاه الرسوم، 2024–25 ← 2026–27",
+      "of": "fca846fa",
+      "at": [
+        "cannon:sections[5].boxes[2].tag"
+      ]
+    },
+    {
+      "t": "رحلة السنة الأخيرة $2,000 → $2,300 · رحلة السنة الثانية $1,000 → $1,300 · رحلة Washington D.C. $1,100 → $1,200 · رحلة الصف 9 $500 → **$400 (انخفاض)** · اختبار AP ورحلة علوم البحار ورسم Chromebook ورحلة الصف 5 كلها دون تغيير.",
+      "of": "80480d2f",
+      "at": [
+        "cannon:sections[5].boxes[2].body"
+      ]
+    },
+    {
+      "t": "أي رقم يحكم أكبر المنح — سقف الصفوف 9–12 المنشور البالغ $26,000، أم البيان بأن أُسر المنحة القصوى تدفع $3,000 لكل طالب في السنة؟",
+      "of": "9ba6a4c8",
+      "at": [
+        "cannon:sections[5].questions[0]"
+      ]
+    },
+    {
+      "t": "ما متوسّط المنحة، والوسيط؟ وكم طالبًا أو أسرة يتلقّى مساعدة؟",
+      "of": "115e4550",
+      "at": [
+        "cannon:sections[5].questions[1]"
+      ]
+    },
+    {
+      "t": "متى يُصدَر قرار المساعدة المالية نسبةً إلى قرار القبول؟",
+      "of": "fb77eacc",
+      "at": [
+        "cannon:sections[5].questions[2]"
+      ]
+    },
+    {
+      "t": "هل توجد عملية للطعن في منحة، وماذا يحدث إن تغيّرت ظروفنا في منتصف السنة؟",
+      "of": "410839e7",
+      "at": [
+        "cannon:sections[5].questions[3]"
+      ]
+    },
+    {
+      "t": "كم تكلّف خطة استرداد الرسوم، وهل هي مطلوبة؟",
+      "of": "03e217f3",
+      "at": [
+        "cannon:sections[5].questions[4]"
+      ]
+    },
+    {
+      "t": "كم ينبغي أن نُدرِج في الميزانية للطعام وحزم الفرق الرياضية ومستلزمات الفنون أو تأجير الآلات؟",
+      "of": "1c1a22bd",
+      "at": [
+        "cannon:sections[5].questions[5]"
+      ]
+    },
+    {
+      "t": "كم تكلّف أنشطة Lower School؟ فوثيقة الرسوم الحالية تسمّيها دون تسعيرها.",
+      "of": "3e898d27",
+      "at": [
+        "cannon:sections[5].questions[6]"
+      ]
+    },
+    {
+      "t": "ما كانت أسعار الرسوم المنشورة لكل نطاق في السنوات الثلاث الأخيرة؟",
+      "of": "03ce9004",
+      "at": [
+        "cannon:sections[5].questions[7]"
+      ]
+    },
+    {
+      "t": "العام الدراسي 2026–27 · الأرقام حتى 22 يوليو 2026",
+      "of": "6f9ac510",
+      "at": [
+        "davidson-day:meta"
+      ]
+    },
+    {
+      "t": "يكتب جدول السنة الحالية فوق السابق، فلا يمكن استعادة تاريخ الأسعار. والأرقام غير المؤرَّخة مُعلَّمة، لا مُخمَّنة.",
+      "of": "b669af4d",
+      "at": [
+        "davidson-day:framing[1].body"
+      ]
+    },
+    {
+      "t": "مساعدة دراسية أثناء الالتحاق — لا مساعدة جامعية. وليست نصيحة مالية.",
+      "of": "e6f51e0f",
+      "at": [
+        "davidson-day:framing[2].body"
+      ]
+    },
+    {
+      "t": "الرسوم بحسب المرحلة",
+      "of": "60483d8b",
+      "at": [
+        "davidson-day:sections[0].navTitle"
+      ]
+    },
+    {
+      "t": "الرسوم بحسب المستوى الصفّي",
+      "of": "3e0b286d",
+      "at": [
+        "davidson-day:sections[0].title"
+      ]
+    },
+    {
+      "t": "الطفولة المبكرة",
+      "of": "d5d717c0",
+      "at": [
+        "davidson-day:sections[0].bands[0].label"
+      ]
+    },
+    {
+      "t": "الابتدائية (K–4)",
+      "of": "a8f8b257",
+      "at": [
+        "davidson-day:sections[0].bands[1].label"
+      ]
+    },
+    {
+      "t": "أربعة نطاقات مراحل تغطّي الأعمار من سنتين حتى الصف الثاني عشر، بتباعد $4,320 من الأدنى إلى الأعلى. ولا تنشر المدرسة تاريخ الأسعار، لكن النسخ المؤرشَفة لصفحة الرسوم تحمل 2022–23 فصاعدًا — ارتفعت كل مرحلة نحو 4.5% في السنة منذ 2023–24. وخيارات نصف اليوم وأسعار الجديد مقابل العائد وما تشمله الرسوم كلها غير منشورة.",
+      "of": "7344d8ad",
+      "at": [
+        "davidson-day:sections[0].figureNote"
+      ]
+    },
+    {
+      "t": "يقارن شريط الطفولة المبكرة أسعار الدوام الكامل فقط. وحتى 2025–26 كان ذلك النطاق ستّة خيارات مُسعَّرة منفصلة (نصف يوم من $12,290)؛ ولعام 2026–27 انطوى إلى صفّ واحد، فأي شيء عدا رقم الدوام الكامل سيكون مقارنة زائفة.",
+      "of": "8eb95dd5",
+      "at": [
+        "davidson-day:sections[0].figureNote2"
+      ]
+    },
+    {
+      "t": "نحو اثني عشر مكوّنًا — 5 مُسعَّرة فقط",
+      "of": "96ad0f44",
+      "at": [
+        "davidson-day:sections[1].componentsTitle"
+      ]
+    },
+    {
+      "t": "لم يُبنَ تقدير شامل: عدد الأجزاء المُسعَّرة قليل جدًّا",
+      "of": "0299698c",
+      "at": [
+        "davidson-day:sections[1].componentsAside"
+      ]
+    },
+    {
+      "t": "رسم خطة الاسترداد · 2.8% من الرسوم",
+      "of": "9460c44b",
+      "at": [
+        "davidson-day:sections[1].components[0].label"
+      ]
+    },
+    {
+      "t": "الكتاب السنوي · $75",
+      "of": "138413b0",
+      "at": [
+        "davidson-day:sections[1].components[1].label"
+      ]
+    },
+    {
+      "t": "التقنية، الصفوف 7–12 · $500",
+      "of": "2f33bc3b",
+      "at": [
+        "davidson-day:sections[1].components[2].label"
+      ]
+    },
+    {
+      "t": "الخبرة الميدانية، الصفوف 4–12 · $500–1,000",
+      "of": "0dee9074",
+      "at": [
+        "davidson-day:sections[1].components[3].label"
+      ]
+    },
+    {
+      "t": "الكتب المدرسية، الصفوف 7–12 · $300–1,000",
+      "of": "d0d88a0c",
+      "at": [
+        "davidson-day:sections[1].components[4].label"
+      ]
+    },
+    {
+      "t": "الرعاية الممتدّة · لا سعر",
+      "of": "876349bb",
+      "at": [
+        "davidson-day:sections[1].components[5].label"
+      ]
+    },
+    {
+      "t": "الغداء · لا سعر على الموقع العلني",
+      "of": "2399b1e1",
+      "at": [
+        "davidson-day:sections[1].components[6].label"
+      ]
+    },
+    {
+      "t": "حزم الفرق الرياضية والمعدّات · لا سعر",
+      "of": "7a50e271",
+      "at": [
+        "davidson-day:sections[1].components[7].label"
+      ]
+    },
+    {
+      "t": "مستلزمات الفنون والآلات · لا سعر",
+      "of": "b3484dfc",
+      "at": [
+        "davidson-day:sections[1].components[8].label"
+      ]
+    },
+    {
+      "t": "البرامج الصيفية · لا سعر",
+      "of": "cd8b27d9",
+      "at": [
+        "davidson-day:sections[1].components[9].label"
+      ]
+    },
+    {
+      "t": "رسم طلب القبول · لا مبلغ",
+      "of": "037a6260",
+      "at": [
+        "davidson-day:sections[1].components[10].label"
+      ]
+    },
+    {
+      "t": "وديعة التسجيل الحالية · لا مبلغ",
+      "of": "7f5641ec",
+      "at": [
+        "davidson-day:sections[1].components[11].label"
+      ]
+    },
+    {
+      "t": "نطاق مبنيّ غالبًا من أجزاء مفقودة سيبدو موثوقًا ويضلّل، فلم نبنِ واحدًا. والرعاية الممتدّة والرياضة والفنون هي الفجوات اللافتة — وكلها الثلاث مُسمّاة أيضًا في استثناءات المساعدة، فهي تكاليف حقيقية مؤكَّدة تدفعها الأسرة فوق المنحة.",
+      "of": "d39a3226",
+      "at": [
+        "davidson-day:sections[1].componentsNote"
+      ]
+    },
+    {
+      "t": "NOT PUBLISHED — THE DEPOSIT",
+      "of": "f4759391",
+      "at": [
+        "davidson-day:sections[1].boxes[0].tag"
+      ]
+    },
+    {
+      "t": "كانت الوديعة **$2,400 لكل طالب لعام 2022–23**؛ والمبلغ الحالي غير منشور. وتذكر المدرسة فقط أنه يظهر داخل Enrollment Tuition Contract لكل أسرة، خلف بوابة الأسرة، ويُسحَب فورًا بتحويل بنكي بمجرّد توقيع العقد. وقابلية الاسترداد غير منشورة أيضًا.",
+      "of": "bf061e80",
+      "at": [
+        "davidson-day:sections[1].boxes[0].body"
+      ]
+    },
+    {
+      "t": "الأزياء والنقل",
+      "of": "6c4144c8",
+      "at": [
+        "davidson-day:sections[1].boxes[1].title"
+      ]
+    },
+    {
+      "t": "الأزياء مطلوبة (Early Preschool مُعفاة)؛ وتشتري الأُسر من متاجر عامّة بوضع الشعار من مورّد محلّي، فأسعار الملابس يحدّدها المورّدون ولا تنشرها المدرسة رسمًا. ولم يُعثَر على نقل بحافلات توفّره المدرسة أو رسم نقل — على الأرجح لعدم تقديمه لا لحجب سعر.",
+      "of": "b6995b34",
+      "at": [
+        "davidson-day:sections[1].boxes[1].body"
+      ]
+    },
+    {
+      "t": "عملية المساعدة والجدول الزمني",
+      "of": "690355d8",
+      "at": [
+        "davidson-day:sections[2].title"
+      ]
+    },
+    {
+      "t": "15 فبراير",
+      "of": "860084f6",
+      "at": [
+        "davidson-day:sections[2].timeline[0].when"
+      ]
+    },
+    {
+      "t": "موعد نهائي واحد، متكرّر كل سنة — الطلب عبر **Clarity**، بنموذج 4506c لسحب الإقرارات الضريبية مباشرةً",
+      "of": "77fd0cb1",
+      "at": [
+        "davidson-day:sections[2].timeline[0].detail"
+      ]
+    },
+    {
+      "t": "أوائل مارس",
+      "of": "9330bc34",
+      "at": [
+        "davidson-day:sections[2].timeline[1].when"
+      ]
+    },
+    {
+      "t": "تجتمع Financial Aid Committee، ثم على أساس متجدّد، عاملةً من إرشادات التأهّل التي يوفّرها Clarity",
+      "of": "f87b12f1",
+      "at": [
+        "davidson-day:sections[2].timeline[1].detail"
+      ]
+    },
+    {
+      "t": "تظهر المنحة داخل Enrollment Tuition Contract — وتراجع الأُسر وتوقّع خلال أسبوعين من الاستلام",
+      "of": "82d26287",
+      "at": [
+        "davidson-day:sections[2].timeline[2].detail"
+      ]
+    },
+    {
+      "t": "لا توجد منحة متعدّدة السنوات؛ وتُعيد الأُسر التقديم سنويًّا ويتكرّر الموعد النهائي 15 فبراير",
+      "of": "76e4615a",
+      "at": [
+        "davidson-day:sections[2].timeline[3].detail"
+      ]
+    },
+    {
+      "t": "**Clarity Financial Aid** · **$60** يُحصَّل عند التقديم (دليل دورة 2025–26). وتُنشئ الأُسر حساب Clarity جديدًا أول مرّة تستخدم النظام. والمساعدة منحة، لا قرض — لا تُسدَّد. وتُعالَج الطلبات المتأخّرة إن بقيت أموال.",
+      "of": "c8588f79",
+      "at": [
+        "davidson-day:sections[2].boxes[0].body"
+      ]
+    },
+    {
+      "t": "يُتوقَّع من كل والد إكمال طلب Clarity وتقديم إقرارات ضريبية. والاستثناء الوحيد المذكور اتّفاق طلاق يُسنِد المسؤولية الكاملة عن النفقات التعليمية لأحد الوالدين.",
+      "of": "0c177491",
+      "at": [
+        "davidson-day:sections[2].boxes[1].body"
+      ]
+    },
+    {
+      "t": "لا عملية استئناف أو إعادة نظر · لا سياسة تغيّر ظروف في منتصف السنة · لا موقف علني بهل القبول بلا اعتبار للحاجة أم باعتبارها · تكوين اللجنة. **خطر:** صفحات مساعدة مُتقاعَدة لا تزال في نتائج البحث تصف Acclaim بأنها لطلاب الصف الثامن الصاعدين وWolter لطلاب الصف التاسع الصاعدين في 2025–26 — والصفحة الحيّة الحالية تقول متقدّمي دفعة 2030 وUpper School.",
+      "of": "4b233a72",
+      "at": [
+        "davidson-day:sections[2].boxes[2].body"
+      ]
+    },
+    {
+      "t": "المنح",
+      "of": "d4e0f258",
+      "at": [
+        "davidson-day:sections[3].navTitle"
+      ]
+    },
+    {
+      "t": "الجدارة والمنح والخصومات",
+      "of": "78a72539",
+      "at": [
+        "davidson-day:sections[3].title"
+      ]
+    },
+    {
+      "t": "BOTH SCHOLARSHIPS REQUIRE NEED",
+      "of": "f3c105e4",
+      "at": [
+        "davidson-day:sections[3].tag"
+      ]
+    },
+    {
+      "t": "ما تغطّيه كل منحة مُسمّاة",
+      "of": "27afc87f",
+      "at": [
+        "davidson-day:sections[3].figureCaption"
+      ]
+    },
+    {
+      "t": "لا أيٌّ منهما منحة جدارة خالصة تقع فوق حزمة قائمة على الحاجة — فالتأهّل لمساعدة قائمة على الحاجة شرط مسبق لكلٍّ.",
+      "of": "50ae4548",
+      "at": [
+        "davidson-day:sections[3].figureNote2"
+      ]
+    },
+    {
+      "t": "Acclaim",
+      "of": "b32001a7",
+      "at": [
+        "davidson-day:sections[3].ladder[0].gift"
+      ]
+    },
+    {
+      "t": "من الرسوم حتى التخرّج · دفعة 2030",
+      "of": "10d6295c",
+      "at": [
+        "davidson-day:sections[3].ladder[0].detail"
+      ]
+    },
+    {
+      "t": "Wolter",
+      "of": "1ea6e210",
+      "at": [
+        "davidson-day:sections[3].ladder[1].gift"
+      ]
+    },
+    {
+      "t": "كل الرسوم السنوية عدا $500 · Upper School",
+      "of": "1c2f55a1",
+      "at": [
+        "davidson-day:sections[3].ladder[1].detail"
+      ]
+    },
+    {
+      "t": "تحيي Acclaim Scholars الذكرى الخامسة والعشرين للمدرسة وتتوقّع ملفًّا أكاديميًّا قويًّا وأخلاقًا مثالية. وWolter Family Foundation Scholarship مموَّلة خارجيًّا من مؤسّسة أسرة مقرّها Cornelius وتطلب توصيات قوية وحاجة مُثبَتة كبيرة. وكلتاهما مشروطة ببقاء الطالب في وضع جيّد.",
+      "of": "3c34c314",
+      "at": [
+        "davidson-day:sections[3].figureNote"
+      ]
+    },
+    {
+      "t": "غير منشور — حساب سقف المنحة",
+      "of": "41530101",
+      "at": [
+        "davidson-day:sections[3].boxes[0].tag"
+      ]
+    },
+    {
+      "t": "تذكر المدرسة أن لا منحة تغطّي الرسوم كاملةً وأن أُسر المنحة القصوى تدفع **$3,000 في السنة، لكل طالب** (2026–27). ومقابل الرسوم المنشورة يعني ذلك سقوفًا من $19,590 (الطفولة المبكرة) إلى $23,910 (Upper School) — حسابنا، لا رقم مدرسة. ولا يُنشَر إطلاقًا حصّة طلاب على المساعدة أو إجمالي ميزانية المساعدة أو متوسّط أو وسيط منحة.",
+      "of": "52948594",
+      "at": [
+        "davidson-day:sections[3].boxes[0].body"
+      ]
+    },
+    {
+      "t": "لا يُنشَر خصم أشقّاء أو عسكريين أو رجال دين، ولا رسوم مُفهرَسة أو بمقياس متدرّج. وتُشغّل المدرسة عملية تسجيل منفصلة وخطة أحد عشر شهرًا لأولياء الأمور الموظفين، لكن هل يصاحب أي إعفاء رسوم التوظيف غير موجود في السجلّ العلني. وكم منحة تُمنَح كل سنة، ومعايير تجديدها فيما يتجاوز \"الوضع الجيّد،\" غير منشورَين أيضًا.",
+      "of": "e1c9fd17",
+      "at": [
+        "davidson-day:sections[3].boxes[1].body"
+      ]
+    },
+    {
+      "t": "خطط الدفع وشروط العقد",
+      "of": "7e5b3eac",
+      "at": [
+        "davidson-day:sections[4].title"
+      ]
+    },
+    {
+      "t": "11×",
+      "of": "8634b100",
+      "at": [
+        "davidson-day:sections[4].plans[0].figure"
+      ]
+    },
+    {
+      "t": "خطة أحد عشر شهرًا",
+      "of": "5d89dd36",
+      "at": [
+        "davidson-day:sections[4].plans[0].label"
+      ]
+    },
+    {
+      "t": "توجد خطة أحد عشر شهرًا؛ وتواريخ استحقاق الأقساط غير منشورة. وتحمل الموادّ الموجَّهة للموظفين إفصاح Truth in Lending يضع تكلفة الدفع الشهري الإضافية عند **$0** — لكن لا بيان معادل منشور للأُسر العامّة.",
+      "of": "a70febe1",
+      "at": [
+        "davidson-day:sections[4].plans[0].detail"
+      ]
+    },
+    {
+      "t": "2.8%",
+      "of": "3d65475a",
+      "at": [
+        "davidson-day:sections[4].plans[1].figure"
+      ]
+    },
+    {
+      "t": "رسم خطة الاسترداد",
+      "of": "7a59e8a6",
+      "at": [
+        "davidson-day:sections[4].plans[1].label"
+      ]
+    },
+    {
+      "t": "من الرسوم، 2026–27 — دون بيان هل هو مطلوب أم اختياري. وعلى رسوم Upper School البالغة $26,910 يكون ذلك مبلغًا ذا مغزى لا يحلّه السجلّ العلني.",
+      "of": "d584b9c9",
+      "at": [
+        "davidson-day:sections[4].plans[1].detail"
+      ]
+    },
+    {
+      "t": "أسبوعان",
+      "of": "4276d9d9",
+      "at": [
+        "davidson-day:sections[4].plans[2].figure"
+      ]
+    },
+    {
+      "t": "نافذة توقيع العقد",
+      "of": "c1be19dc",
+      "at": [
+        "davidson-day:sections[4].plans[2].label"
+      ]
+    },
+    {
+      "t": "يسجّل الوالدان دخولهما إلى بوابة الأسرة بعنوانَي بريدهما، ويختاران خيار دفع، ويوقّعان بالأحرف الأولى للإذن بالسحب، ويوقّعان. وتُسحَب الوديعة فورًا بمجرّد التقديم.",
+      "of": "d5ab6d31",
+      "at": [
+        "davidson-day:sections[4].plans[2].detail"
+      ]
+    },
+    {
+      "t": "—",
+      "of": "113ed003",
+      "at": [
+        "davidson-day:sections[4].plans[3].figure"
+      ]
+    },
+    {
+      "t": "القائمة الكاملة غير منشورة",
+      "of": "f038ab10",
+      "at": [
+        "davidson-day:sections[4].plans[3].label"
+      ]
+    },
+    {
+      "t": "هل تُقدَّم السنوية ونصف السنوية والشهرية كلها، وبأي شروط، يُعرَض داخل عقد كل أسرة لا يُنشَر. ولا خصم دفع مسبق؛ ولا يُسمّى مُقرِض رسوم خارجي — تُعالَج المحاسبة داخليًّا.",
+      "of": "2c45095c",
+      "at": [
+        "davidson-day:sections[4].plans[3].detail"
+      ]
+    },
+    {
+      "t": "قابلية استرداد الوديعة · التزام الأسرة المالي عند الانسحاب أو المغادرة في منتصف السنة. وتعيش هذه الشروط في Enrollment Tuition Contract، الذي يُصدَر للأُسر المسجِّلة عبر البوابة وليس متاحًا علنًا.",
+      "of": "5025670d",
+      "at": [
+        "davidson-day:sections[4].boxes[0].body"
+      ]
+    },
+    {
+      "t": "مسيرة كاملة K–12 بأسعار 2026–27 — حسابنا، الرسوم فقط، لا إسقاط",
+      "of": "acf3d189",
+      "at": [
+        "davidson-day:sections[5].stats[0].label"
+      ]
+    },
+    {
+      "t": "FOUR YEARS, FROM THE ARCHIVE",
+      "of": "309398c6",
+      "at": [
+        "davidson-day:sections[5].boxes[0].tag"
+      ]
+    },
+    {
+      "t": "لا تنشر المدرسة تاريخ الأسعار — إذ يكتب جدول السنة الحالية فوق السابق — لكن النسخ المؤرشَفة تحمل 2022–23 فصاعدًا. وارتفعت كل مرحلة بشبه ثبات **~4.5% في السنة** منذ 2023–24، أحد أثبت الأنماط في هذه السلسلة. وتُستبعَد سنوات الطفولة المبكرة من المسيرة أعلاه لأن عدد السنوات التي يقضيها طفل في ذلك النطاق يتفاوت.",
+      "of": "e19c0289",
+      "at": [
+        "davidson-day:sections[5].boxes[0].body"
+      ]
+    },
+    {
+      "t": "A COMPARISON TRAP IN THE EARLY YEARS",
+      "of": "f19e0639",
+      "at": [
+        "davidson-day:sections[5].boxes[1].tag"
+      ]
+    },
+    {
+      "t": "أُعيد **هيكلة** نطاق الطفولة المبكرة، لا مجرّد إعادة تسعيره: ستّة خيارات مُسعَّرة منفصلة حتى 2025–26 (نصف يوم من $12,290) صارت صفًّا واحدًا لعام 2026–27. ومقارنة الصفّ الحالي مقابل سعر نصف اليوم القديم ستوحي بزيادة ~84% لم تحدث قطّ. ويقارن مخطّط القسم 01 أسعار الدوام الكامل فقط.",
+      "of": "c7cd2946",
+      "at": [
+        "davidson-day:sections[5].boxes[1].body"
+      ]
+    },
+    {
+      "t": "A THIRD-PARTY FIGURE, NOT A SCHOOL ONE",
+      "of": "f17ac422",
+      "at": [
+        "davidson-day:sections[5].boxes[2].tag"
+      ]
+    },
+    {
+      "t": "تُبلّغ خدمة تجارية تُرقمِن إقرارات Form 990 عن **$742,270** في منح ومساعدة لأفراد للسنة المالية المنتهية يونيو 2024. ولم نتمكّن من فتح الإقرار المُقدَّم للتحقّق منه، وهو يتأخّر سنتين عن سنة 2026–27، وليس ميزانية مساعدة منشورة من المدرسة. وينبغي ألّا يُقرأ كذلك.",
+      "of": "483dba5e",
+      "at": [
+        "davidson-day:sections[5].boxes[2].body"
+      ]
+    },
+    {
+      "t": "ما حصّة الطلاب المتلقّين للمساعدة الدراسية، وهل تلك الحصّة من إجمالي التسجيل أم من الأُسر التي تقدّمت؟",
+      "of": "35a96998",
+      "at": [
+        "davidson-day:sections[5].questions[0]"
+      ]
+    },
+    {
+      "t": "ما إجمالي ميزانية المساعدة هذه السنة، وما متوسّط المنحة؟",
+      "of": "1069b871",
+      "at": [
+        "davidson-day:sections[5].questions[1]"
+      ]
+    },
+    {
+      "t": "هل رسم خطة الاسترداد البالغ 2.8% مطلوب، أم يمكننا رفضه؟",
+      "of": "4b7a5426",
+      "at": [
+        "davidson-day:sections[5].questions[2]"
+      ]
+    },
+    {
+      "t": "ما وديعة التسجيل الحالية، وبأي شروط تكون قابلة للاسترداد؟",
+      "of": "f06fceb8",
+      "at": [
+        "davidson-day:sections[5].questions[3]"
+      ]
+    },
+    {
+      "t": "بماذا ندين إن انسحبنا في منتصف السنة؟",
+      "of": "107ed157",
+      "at": [
+        "davidson-day:sections[5].questions[4]"
+      ]
+    },
+    {
+      "t": "كم تكلّف الرعاية الممتدّة والغداء وحزم الفرق الرياضية وموادّ الفنون في السنة؟",
+      "of": "3ac857a7",
+      "at": [
+        "davidson-day:sections[5].questions[5]"
+      ]
+    },
+    {
+      "t": "هل تُتَّخذ قرارات القبول بالإشارة إلى طلب مساعدتنا أم دونها؟",
+      "of": "a0b5f334",
+      "at": [
+        "davidson-day:sections[5].questions[6]"
+      ]
+    },
+    {
+      "t": "ما كانت أسعار الرسوم لكل سنة من السنوات الخمس الأخيرة؟",
+      "of": "49eac663",
+      "at": [
+        "davidson-day:sections[5].questions[7]"
+      ]
+    }
+  ]
+}
