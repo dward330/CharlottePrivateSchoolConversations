@@ -51,16 +51,11 @@ Get the layer right in Phase 2: UI chrome means the `src/locales/*.json` catalog
 `TRANSLATED`; research prose means the overlay layer in `PROSE_TRANSLATED`. They are
 different lists and different mechanisms — see the i18n standard below.
 
-**New research data in a plan goes through the ingest pipeline.** If `/plan` or
-`/implement` fetches school data or documents new findings, that material is persisted to
-`source-material/<topic>/<school>/*.md` with its sources and then run through the
-`ingest-source-material` **skill** — not hand-written into `.claude/docs/` notes,
-`src/data/schools.json`, or a component. `/plan` stages the material and writes the ingest
-in as a step; `/implement` commits it and runs the pipeline before any app-layer work.
-Invoke the skill rather than `build_docs.py` alone: the script rebuilds the notes and
-manifest, but only the skill also walks the hand-maintained layers (`src/lib/metrics.ts`,
-`src/data/metricValues.ts`, `src/data/financialAidReports.ts`). Generated files are
-rebuilt wholesale on the next run, so anything hand-edited there is lost silently.
+**Data these commands download is captured like any other research.** If `/plan` or
+`/implement` fetches school data while working, it goes into
+`source-material/<topic>/<school>/*.md` with its sources and through the
+`ingest-source-material` skill — the existing pipeline, unchanged. `/plan` saves what it
+fetched and leaves it uningested for `/implement` to run on a branch.
 
 Two more rules that outlive any single plan:
 
