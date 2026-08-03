@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-08-02
 branch: feat/selectivity-rows
-prs: []
+prs: [93]
 ---
 
 # Put the six selectivity buckets on the College Support Compare table
