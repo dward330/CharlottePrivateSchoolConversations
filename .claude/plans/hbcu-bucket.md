@@ -1,7 +1,7 @@
 ---
 name: hbcu-bucket
 title: Add an HBCUs selectivity bucket and acceptance-list filter
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-08-02
 branch: feat/hbcu-bucket
