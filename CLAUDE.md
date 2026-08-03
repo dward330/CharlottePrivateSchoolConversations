@@ -10,9 +10,40 @@ _Placeholder description — more detail to be added as the project develops._
 - `.claude/docs/` — reference material and notes (e.g. markdown converted from source files)
 - `.claude/skills/` — reusable skills
 - `.claude/commands/` — slash commands
+- `.claude/plans/` — implementation plans (one `.md` per feature) plus `INDEX.md`
 - `source-material/` — raw reference files. Bulky/original files (PDFs, spreadsheets) are
   read locally and stay **gitignored**; text-based data files (`.md`) ARE committed (see
   the data-provenance standard below).
+
+## Planning workflow — `/plan` and `/implement`
+
+Non-trivial features and changes are planned before they are built, in two separate
+context windows.
+
+**`/plan`** researches the change and writes `.claude/plans/<name>.md`, then registers it
+in `.claude/plans/INDEX.md` as *Not implemented*. It asks what to plan and whether you
+want a single-word name — absent one it uses the branch name. **`/plan` never edits app
+code**; its only outputs are the plan document and the index row.
+
+**`/implement`** executes a plan. Given a name it reads that plan; given none it lists the
+unimplemented ones from the index and asks. It branches, builds the steps, runs the plan's
+verification, opens a PR, and flips the index row to *Implemented* with the PR link.
+
+The split is the point: the implementing window has **no memory of the planning
+conversation**, so anything decided while planning and not written into the document is
+lost. That is the bar a plan is written to.
+
+Two rules that outlive any single plan:
+
+- **Plans are kept after implementation**, updated with the PR and an
+  `## Implementation notes` section when the build deviated from the plan. They are the
+  record of what shipped and why. Dropped plans are marked `abandoned`, not deleted.
+- **The standing gates still apply inside a plan.** A plan that adds a card or section
+  needs the UX approval below *before* `/implement` runs, not as a step within it — and
+  `/plan` is required to surface that at planning time rather than leave a fresh window to
+  discover it at step 1.
+
+See [`.claude/plans/README.md`](.claude/plans/README.md).
 
 ## UX-design standard (required)
 
