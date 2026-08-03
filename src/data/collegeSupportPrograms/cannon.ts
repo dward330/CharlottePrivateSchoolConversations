@@ -111,7 +111,7 @@ const colleges = [
   { name: 'High Point University', cats: [], enrolling: true },
   { name: 'Hofstra University', cats: [] },
   { name: 'Hollins University', cats: [] },
-  { name: 'Howard University', cats: ['hbcu'] },
+  { name: 'Howard University', rankLabel: 'National Rank #88', cats: ['hbcu'] },
   { name: 'Indiana University (Bloomington)', cats: [] },
   { name: 'James Madison University', cats: [] },
   { name: 'Johns Hopkins University', rankLabel: 'National Rank #6', cats: ['ivyplus', 'nu75'] },
