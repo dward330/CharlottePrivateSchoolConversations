@@ -557,9 +557,9 @@ export const charlotteCountryDay: CollegeSupportProgram = {
     buckets: [
       { tier: 'Ivy League', count: '7 / 8', note: '— absent Harvard, across seven published classes' },
       { tier: '“Ivy Plus”', count: '13 / 17', note: '— Stanford and Duke enrolling' },
-      { tier: 'Top-75 National Universities', count: '55' },
-      { tier: 'Top-75 Liberal Arts', count: '41', note: '— includes all three federal service academies' },
-      { tier: 'Power Four', count: '53' },
+      { tier: 'Top-75 National Universities', count: '55 / 75' },
+      { tier: 'Top-75 Liberal Arts', count: '41 / 75', note: '— includes all three federal service academies' },
+      { tier: 'Power Four', count: '53 / 68' },
     ],
     bucketsNote:
       'Counts are computed from the same 320-institution list you can filter at right, scored against the 2026 U.S. News tables — derived analysis, not school-reported. Note that none of the seven Ivies is bolded for the Class of 2026: no member of that class enrolled at an Ivy, though the Class of 2025 enrolled at Brown, Cornell, Dartmouth, Princeton and Yale. That is a real year-over-year swing rather than a data artefact.',

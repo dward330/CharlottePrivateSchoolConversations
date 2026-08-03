@@ -399,9 +399,9 @@ export const charlotteChristian: CollegeSupportProgram = {
     buckets: [
       { tier: 'Ivy League', count: '2 / 8', note: '— Cornell and Dartmouth; Yale appears only on the older list' },
       { tier: '“Ivy Plus”', count: '4 / 17' },
-      { tier: 'Top-75 National Universities', count: '30' },
-      { tier: 'Top-75 Liberal Arts', count: '7' },
-      { tier: 'Power Four', count: '34' },
+      { tier: 'Top-75 National Universities', count: '30 / 75' },
+      { tier: 'Top-75 Liberal Arts', count: '7 / 75' },
+      { tier: 'Power Four', count: '34 / 68' },
     ],
     bucketsNote:
       'Counts are computed from the same 186-institution list you can filter at right, scored against the 2026 U.S. News tables — derived analysis, not school-reported. Six of the eight Ivies are absent from the 2023–25 list; Harvard, Princeton, Brown and Penn appear on neither published list. Top-75 boundary placements in the 40–75 band are indicative, as the ranking source could not be machine-verified in full.',

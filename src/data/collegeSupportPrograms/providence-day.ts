@@ -616,9 +616,9 @@ export const providenceDay: CollegeSupportProgram = {
     buckets: [
       { tier: 'Ivy League', count: '8 / 8', note: '— no absences, all bolded' },
       { tier: '“Ivy Plus”', count: '17 / 17', note: '— adds Stanford, MIT, Chicago, Duke, Caltech and peers' },
-      { tier: 'Top-75 National Universities', count: '58' },
-      { tier: 'Top-75 Liberal Arts', count: '43', note: '— absent Harvey Mudd and Grinnell at the very top' },
-      { tier: 'Power Four', count: '57', note: '— all four conferences saturated' },
+      { tier: 'Top-75 National Universities', count: '58 / 75' },
+      { tier: 'Top-75 Liberal Arts', count: '43 / 75', note: '— absent Harvey Mudd and Grinnell at the very top' },
+      { tier: 'Power Four', count: '57 / 68', note: '— all four conferences saturated' },
     ],
     bucketsNote:
       'Counts are computed from the same 382-institution list you can filter at right, scored against the 2026 U.S. News tables — derived analysis, not school-reported figures. Coverage of the Top-75 nationals is close to saturated: it is harder to name one missing than present.',
