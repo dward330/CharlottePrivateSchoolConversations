@@ -4014,10 +4014,14 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
 /* ─────────────────────────────────────────────────────────────────────────
    Non-Latin script adjustments — Bangla (bn) 2026-07-28, Telugu (te)
    2026-07-29, Farsi (fa, Arabic script) 2026-07-30, Hindi (hi, Devanagari)
-   2026-08-02.
+   2026-08-02, Arabic (ar, Arabic script) 2026-08-03.
 
-   Scoped to [lang='bn'] / [lang='te'] / [lang='fa'] / [lang='hi'] so nothing
-   here can touch Latin locales.
+   Scoped to [lang='bn'] / [lang='te'] / [lang='fa'] / [lang='hi'] / [lang='ar']
+   so nothing here can touch Latin locales. ar shares fa's Naskh face and script
+   exactly, so it joins every fa selector list unchanged — the caps-tracking and
+   line-height fixes are properties of the script, not the language, and fa's
+   spike already measured them for Arabic script. Verified in-browser across all
+   eleven locales rather than by reading the built CSS (see the ar rollout doc).
    The font stack itself is swapped at runtime by syncFont() in src/lib/i18n.ts;
    this block fixes what the Latin-tuned METRICS get wrong once that font lands.
 
@@ -4092,6 +4096,17 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   line-height: 1.6;
 }
 
+:root[lang='ar'] {
+  /* Arabic (MSA) renders in the SAME Noto Naskh Arabic face as fa and is the
+     same script, so it inherits fa's leading exactly — the crowding is the same
+     deep-descender / sub-baseline-dot problem, script not language. Kept as its
+     own rule rather than folded into fa's so each locale's value is explicit and
+     one can be retuned without touching the other. Verified in-browser across
+     all eleven locales during the ar rollout (2026-08-03): byte-identical to fa
+     on every probed heading/label property. */
+  line-height: 1.6;
+}
+
 :root[lang='hi'] {
   /* Devanagari hangs its vowel signs off the शिरोरेखा like Bangla, so it needs
      less than Telugu — but it carries a second rank of marks below the
@@ -4106,49 +4121,49 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
       nothing visually while risking the Latin runs (AP, NCISAA) that share
       these labels. Shared between bn and te — the damage differs by script
       (see the block comment above) but the fix is identical. */
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .eyebrow,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .back,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .dossier-kicker,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .dossier-nav-label,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .section-sub,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .cite-label,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .prose-table thead th,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .catalog-chip,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .catalog-club-cat,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .catalog-src-toggle,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .control legend,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .group-row td.group-label,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .course-kicker,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .courses-deptname,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .sports-h,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .sports-th,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .sports-season-head,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .sports-pro-kicker,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .arts-h,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .arts-division-head,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .arts-season-kicker,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .arts-th,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .arts-board-label,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .arts-exhibit-when,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .clubs-h,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .clubs-umbrella-name,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .clubs-strip-head,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .clubs-program-vallabel,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .clubs-th,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .cs-h,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .cs-th,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .cs-counselor-role,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .cs-year-intensity,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .cs-quintile-label,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .as-h,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .as-tl-tier,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .as-daysel-label,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .as-th,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .as-estimate-kicker,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .as-fees-kicker,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .as-filters-label,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .lang-row-label,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .lang-soon {
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .eyebrow,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .back,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .dossier-kicker,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .dossier-nav-label,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .section-sub,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .cite-label,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .prose-table thead th,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .catalog-chip,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .catalog-club-cat,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .catalog-src-toggle,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .control legend,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .group-row td.group-label,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .course-kicker,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .courses-deptname,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .sports-h,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .sports-th,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .sports-season-head,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .sports-pro-kicker,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .arts-h,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .arts-division-head,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .arts-season-kicker,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .arts-th,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .arts-board-label,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .arts-exhibit-when,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .clubs-h,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .clubs-umbrella-name,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .clubs-strip-head,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .clubs-program-vallabel,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .clubs-th,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .cs-h,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .cs-th,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .cs-counselor-role,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .cs-year-intensity,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .cs-quintile-label,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .as-h,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .as-tl-tier,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .as-daysel-label,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .as-th,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .as-estimate-kicker,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .as-fees-kicker,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .as-filters-label,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .lang-row-label,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .lang-soon {
   letter-spacing: 0;
 }
 
@@ -4156,13 +4171,13 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
       scripts, different values: Bangla hangs its vowel signs off the মাত্রা
       headstroke, while Telugu stacks above AND below with nothing anchoring
       them — a two-line Telugu heading collided at 1.45, so it gets 1.6. */
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .topic-title,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .school-card-name,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .stat-tile-val,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .fa-contents-title,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .corner-label,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .row-metric-label,
-:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi']) .section-sub {
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .topic-title,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .school-card-name,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .stat-tile-val,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .fa-contents-title,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .corner-label,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .row-metric-label,
+:root:is([lang='bn'], [lang='te'], [lang='fa'], [lang='hi'], [lang='ar']) .section-sub {
   line-height: 1.45;
 }
 

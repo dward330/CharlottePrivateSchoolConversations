@@ -27,8 +27,10 @@
 //
 //   node scripts/check_currency_shape.mjs
 
-// fa is RTL and is the reason `leads` below cannot look at slot 0.
-const LOCALES = ['en-US', 'es', 'bn', 'ht', 'te', 'fr', 'fa', 'it', 'hi']
+// fa/ar are RTL and are the reason `leads` below cannot look at slot 0 — both
+// open the currency run with an invisible bidi mark (fa an LRM, ar an RLM). ar
+// also TRAILS its symbol (US$), so it exercises the trailing branch under RTL.
+const LOCALES = ['en-US', 'es', 'bn', 'ht', 'te', 'fr', 'fa', 'it', 'hi', 'ar']
 
 const number = (n, l) =>
   new Intl.NumberFormat(l, { useGrouping: 'always' }).format(n)

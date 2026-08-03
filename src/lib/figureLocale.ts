@@ -52,6 +52,28 @@
  * Note fa-u-nu-latn would give Western digits while keeping the locale, but it
  * also inserts a space between symbol and amount ("$ 36,325"). Borrowing en-US
  * wholesale, as every other entry does, avoids that and keeps one mechanism.
+ *
+ * `ar` is deliberately NOT on this list, and it is the point where the fa
+ * precedent must NOT be inherited by reflex — the two RTL locales diverge here.
+ * Measured 2026-08-03:
+ *
+ *   Intl.NumberFormat('ar')  3,683,971   ← WESTERN digits, 3-3-3 grouping
+ *   Intl.NumberFormat('fa')  ۳٬۶۸۳٬۹۷۱   ← Eastern-Arabic digits (why fa is ON)
+ *
+ * Modern Standard Arabic as Intl renders it uses Western digits and 3-3-3
+ * grouping — byte-identical to English on BOTH axes. The reason fa is on the
+ * list (Eastern-Arabic numerals a parent cannot match against the school's
+ * published figure) simply does not arise for ar, and neither does the bn/hi
+ * lakh-crore reason (boundaries never move). Arabic's currency symbol trails
+ * and carries an RLM prefix, but a separator/symbol-placement difference at
+ * identical digit boundaries is the es/fr/it case — all three deliberately
+ * EXCLUDED. So ar follows es/fr/it, not fa: it stays off the list.
+ *
+ * Consequence worth stating: ar is the FIRST RTL locale that is NOT on this
+ * list, so it is the first to render its own digits through numberLocale()
+ * unchanged (every prior RTL locale — only fa — borrowed en-US wholesale). Here
+ * "unchanged" happens to equal en-US anyway, because ar's digits already ARE
+ * Western 3-3-3. See .claude/docs/prose-translation-ar.md §0a.
  */
 export const FIGURE_SAFE_NUMBERS: readonly string[] = ['bn', 'fa']
 
