@@ -93,16 +93,48 @@ into the plan as an explicit step. Read `CLAUDE.md` for the authoritative text; 
 recurring ones are:
 
 - **UX-design gate** — a new card, section, stat tile, Compare row, metric key, or topic
-  needs the user's approval *first*. If the plan needs one, surface it in step 5 rather
-  than burying it as a step for `/implement` to run into.
+  needs the user's approval *first*. If the plan needs one, surface it in the closing
+  report rather than burying it as a step for `/implement` to run into.
 - **i18n** — any new user-facing string is a key in `src/locales/*.json`, never hardcoded
-  JSX. If the change adds UI text, list every locale file that needs the key. A shipped
-  locale left without the key is a regression, not a follow-up.
+  JSX. This drives the phase split in step 4 below.
 - **Data provenance** — new external school data gets persisted to
   `source-material/<topic>/<school>/*.md` with source URLs, in the same pass.
 - **Git flow** — branch + PR, never a direct push to `main`.
 
-### 4. Write the plan
+### 4. Decide whether the plan is one phase or two
+
+**Any plan that adds or changes user-facing text ships in two phases: English first,
+then every other locale — with the user's review in between.** This is a standing rule of
+this repo, not something the user should have to ask for on each plan. Write it into the
+plan; never leave it implied.
+
+The reason is economic. Wording changes after you see it rendered, and a change propagated
+to eight locales before that review multiplies every revision by eight — including into
+languages nobody here reads. English first means the wording settles while it is still
+cheap to change.
+
+**Does this plan touch user-facing text?**
+
+- **Yes** — UI chrome (a new key in `src/locales/*.json`), research prose in `src/data/**`
+  reached by the overlay layer, or any string a parent would read. → **Two phases.**
+- **No** — a refactor, build config, a script, a data-only correction that re-uses existing
+  strings. → **One phase.** Say so explicitly in the plan (*"Single-phase — adds no
+  user-facing text"*) so the implementer knows it was decided, not forgotten.
+
+When it is two phases, structure the plan's *Steps* section under two headings and split
+*Verification* the same way. Get the locale scope right — they are different layers:
+
+- **UI chrome** → the catalog files. Read `TRANSLATED` in `src/lib/i18n.ts` and list the
+  actual `src/locales/*.json` files; do not hardcode a count, it grows.
+- **Research prose** → the overlay layer, per `PROSE_TRANSLATED` — a different list and a
+  different mechanism. Point Phase 2 at the rollout docs in `.claude/docs/`
+  (`prose-translation-architecture.md` for the mechanism) rather than restating it.
+
+Phase 2 also owns the locale-specific traps the rollout docs record — figures copied
+char-for-char and never re-typed, lakh/crore grouping for `hi`/`te`, RTL isolates for `fa`.
+Reference them; don't re-derive them in the plan.
+
+### 5. Write the plan
 
 Write `.claude/plans/<name>.md` using [`plan-template.md`](plan-template.md) — read that
 file and follow its structure and section semantics.
@@ -120,7 +152,7 @@ Two things carry the most weight:
 Keep it as long as it needs to be and no longer. A three-file change does not need a
 risks table.
 
-### 5. Register it and report
+### 6. Register it and report
 
 Append a row to `.claude/plans/INDEX.md` (create it from the header in the template if it
 doesn't exist) with status **Not implemented** and an em-dash in the PR column.
@@ -129,6 +161,8 @@ Then tell the user, in a few lines:
 
 - Where the plan lives and its one-line summary.
 - The step count and the rough shape of the work.
+- **Whether it is one phase or two**, and for two, that `/implement` will build English and
+  stop for their review before touching any other locale.
 - **Anything needing their approval before `/implement` can run** — especially a UX-design
   gate. Ask for that approval now; a plan that stalls at step 1 in a fresh window wasted
   the round trip.
