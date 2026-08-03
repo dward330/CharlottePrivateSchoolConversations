@@ -473,9 +473,9 @@ export const cannon: CollegeSupportProgram = {
     buckets: [
       { tier: 'Ivy League', count: '3 / 8', note: '— Brown, Cornell, Penn; absent Harvard, Yale, Princeton, Dartmouth, Columbia' },
       { tier: '“Ivy Plus”', count: '10 / 17' },
-      { tier: 'Top-75 National Universities', count: '46' },
-      { tier: 'Top-75 Liberal Arts', count: '27' },
-      { tier: 'Power Four', count: '43' },
+      { tier: 'Top-75 National Universities', count: '46 / 75' },
+      { tier: 'Top-75 Liberal Arts', count: '27 / 75' },
+      { tier: 'Power Four', count: '43 / 68' },
     ],
     bucketsNote:
       'Counts are computed from the same list you can filter at right, scored against the 2026 U.S. News tables — derived analysis, not school-reported. The Ivy count is reported strictly: the list contains “Columbia College”, which almost certainly means Columbia College in South Carolina, Chicago or Missouri rather than Columbia University, since the latter would be printed as “Columbia University”. Read loosely it would be 4 of 8; both readings are stated rather than one being picked.',

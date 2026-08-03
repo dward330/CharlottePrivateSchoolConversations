@@ -525,19 +525,19 @@ export const charlotteLatin: CollegeSupportProgram = {
     headline:
       'Three graduating classes produced acceptances at 300 institutions, 131 of them marked as places where at least one Latin student actually enrolled.',
     subhead:
-      'The striking number is breadth: 63 of the 64 Power Four universities appear on the list, the single absence being Minnesota.',
+      'The striking number is breadth: 62 of the 68 Power Four universities appear on the list, the absences being Minnesota, Nebraska, BYU, UCF, Houston and Kansas State.',
     stats: [
       { value: '300', label: 'institutions on the 2023–25 acceptance list' },
       { value: '131', label: 'carry a matriculation asterisk — 169 do not' },
       { value: '5 of 8', label: 'Ivy League — absent Columbia, Princeton and Penn' },
-      { value: '63 of 64', label: 'Power Four universities represented' },
+      { value: '62 of 68', label: 'Power Four universities represented' },
     ],
     buckets: [
       { tier: 'Ivy League', count: '5 / 8', note: '— all five matriculated; absent Columbia, Princeton, Penn' },
       { tier: '“Ivy Plus”', count: '12 / 17', note: '— absent Johns Hopkins and Caltech' },
-      { tier: 'Top-75 National Universities', count: '53' },
-      { tier: 'Top-75 Liberal Arts', count: '40' },
-      { tier: 'Power Four', count: '53', note: '— 63 of 64 by the researcher’s exact count' },
+      { tier: 'Top-75 National Universities', count: '53 / 75' },
+      { tier: 'Top-75 Liberal Arts', count: '40 / 75' },
+      { tier: 'Power Four', count: '53 / 68', note: '— 62 of 68 by the researcher’s exact count' },
     ],
     bucketsNote:
       'Counts here are computed from the same 300-institution list you can filter at right, scored against the 2026 U.S. News tables. The Ivy and Power Four figures are exact — those memberships are fixed. The Top-75 counts are approximate to within a few places, because U.S. News publishes heavy ties around the 70–75 boundary. The three Ivy absences were confirmed by direct string search of the profile PDF; a summary of the school’s own web Acceptances page asserted Princeton was present, and the PDF governs.',
@@ -694,7 +694,7 @@ export const charlotteLatin: CollegeSupportProgram = {
       },
       {
         label: 'Placement breadth across the whole class',
-        text: '300 institutions across three classes with 63 of the 64 Power Four universities represented, and matriculation asterisks spread from the Ivies down through the regional band.',
+        text: '300 institutions across three classes with 62 of the 68 Power Four universities represented, and matriculation asterisks spread from the Ivies down through the regional band.',
       },
       {
         label: 'The exam requirement is real',

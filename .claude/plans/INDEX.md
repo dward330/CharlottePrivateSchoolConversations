@@ -7,5 +7,4 @@ Newest last.
 
 | Plan | Title | Created | Status | PR(s) |
 |---|---|---|---|---|
-
-<!-- No plans yet. /plan appends the first row here. -->
+| [bucket-denominators](bucket-denominators.md) | Show a denominator on every selectivity-bucket row, not just the Ivy rows | 2026-08-02 | Implemented | [#89](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/89) |
