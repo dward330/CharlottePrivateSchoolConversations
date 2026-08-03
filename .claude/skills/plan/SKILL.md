@@ -18,15 +18,30 @@ done.
 
 ## Hard constraint — planning writes no app code
 
-This skill may only create or edit:
+This skill may create or edit:
 
 - `.claude/plans/<name>.md` — the plan
 - `.claude/plans/INDEX.md` — the register
+- `source-material/**/*.md` — raw research data fetched while planning (see below)
 
-Nothing under `src/`, `source-material/`, or anywhere else. Reading and searching the
-codebase is not just allowed, it's the bulk of the work — but the output is a document.
-If research turns up a one-line fix you're tempted to just make, write it into the plan
-instead and say so in your reply.
+**Nothing under `src/`, and no generated file** — not `.claude/docs/` notes, not
+`src/data/schools.json`. Reading and searching the codebase is not just allowed, it's the
+bulk of the work, but the app-layer output is a document. If research turns up a one-line
+fix you're tempted to just make, write it into the plan instead and say so in your reply.
+
+**Data you fetch while planning IS persisted — always.** If research pulls real school
+data from an external source, save it to `source-material/<topic>/<school>/<School> -
+<Topic> - <Subtopic>.md` with a provenance header, the source URLs, and the record-level
+detail behind every number. This is the data-provenance standard and it applies here in
+full. Never leave fetched data sitting in the conversation for `/implement` to re-fetch —
+the source may be paywalled or may have changed, and the planning window is where it was
+actually in hand.
+
+What planning does **not** do is run the pipeline over it. Regenerating `.claude/docs/`
+and `schools.json` is app-layer work that belongs on a branch under review, so make the
+`ingest-source-material` step explicit in the plan and note in your closing report that
+the material is **staged but uningested**. Those files are uncommitted on the current
+branch — mention that so a dirty tree isn't a surprise.
 
 ## Steps
 
@@ -97,9 +112,36 @@ recurring ones are:
   report rather than burying it as a step for `/implement` to run into.
 - **i18n** — any new user-facing string is a key in `src/locales/*.json`, never hardcoded
   JSX. This drives the phase split in step 4 below.
-- **Data provenance** — new external school data gets persisted to
-  `source-material/<topic>/<school>/*.md` with source URLs, in the same pass.
+- **Data provenance and ingestion** — if the plan pulls in any new school data from an
+  external source (web search, a school page, a recruiting site, a PDF the user drops in),
+  it gets persisted to `source-material/<topic>/<school>/*.md` with its source URLs **and
+  run through the `ingest-source-material` skill** in the same pass. Never plan to hand-
+  edit `.claude/docs/` notes or `src/data/schools.json` — those are generated. See the
+  ingestion rule below.
 - **Git flow** — branch + PR, never a direct push to `main`.
+
+**If the plan involves new or changed research data, its steps must route through the
+ingest pipeline.** A plan that writes a figure straight into the app leaves the notes and
+manifest out of sync with `source-material/`, and the next ingest run silently overwrites
+it. So write the steps in this order:
+
+1. Save the raw material to `source-material/<topic>/<school>/<School> - <Topic> -
+   <Subtopic>.md`, with a provenance header, source URLs, and the record-level detail
+   behind every number.
+2. Invoke the **`ingest-source-material` skill** to regenerate `.claude/docs/` and
+   `src/data/schools.json`. Name the skill in the step — not the bare `build_docs.py`
+   command, which skips the hand-maintained app layers the skill also covers
+   (`src/lib/metrics.ts` rules, `src/data/metricValues.ts`, `financialAidReports.ts`).
+3. Only then, whatever app-layer work the plan is actually about.
+
+Two traps to check while planning, both of which turn a data plan into an approval
+conversation:
+
+- **A new subtopic phrasing that falls through `normalizeMetric()` creates a new card** —
+  which needs the UX approval. If the plan's material introduces one, the fix is usually a
+  `RULES` entry mapping it onto an existing metric key; call that out as a step.
+- **A financial-aid deep-dive also needs its structured `REPORTS` entry** in the same pass,
+  not left as prose.
 
 ### 4. Decide whether the plan is one phase or two
 
@@ -167,6 +209,8 @@ Then tell the user, in a few lines:
   gate. Ask for that approval now; a plan that stalls at step 1 in a fresh window wasted
   the round trip.
 - Any open question you resolved by assumption, so they can correct it while it's cheap.
+- **Any research data you staged** — which `source-material/` files you wrote, that they're
+  uncommitted, and that `/implement` will ingest them.
 
 **End with the handoff — the exact command, on its own line, with the real name filled
 in:**

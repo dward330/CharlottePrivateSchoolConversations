@@ -41,6 +41,25 @@ propagated to eight locales before that review multiplies every revision by eigh
 Plans that add no user-facing text — refactors, build config, data corrections re-using
 existing strings — are single-phase, and say so.
 
+## New data goes through the ingest pipeline
+
+If a plan pulls in school data from an external source, or documents new research
+findings, that material is **persisted and ingested** — never written straight into the
+app.
+
+- **`/plan`** saves what it fetched to `source-material/<topic>/<school>/*.md` with
+  provenance and source URLs, then writes the ingest in as an explicit step. It does not
+  run the pipeline; it reports the material as *staged but uningested*.
+- **`/implement`** commits that material and invokes the **`ingest-source-material`
+  skill** before any app-layer step — the skill, not a bare `build_docs.py` run, because
+  the script regenerates `.claude/docs/` and `schools.json` but not the hand-maintained
+  layers (`metrics.ts`, `metricValues.ts`, `financialAidReports.ts`).
+
+The reason: generated files are rebuilt wholesale on the next ingest, so a figure
+hand-written into the app is lost silently. And ingestion enriches data only — if new
+material seems to warrant a new card or metric key, that's the UX gate, so it stops and
+asks.
+
 ## Conventions
 
 - **Filename** = the plan's `name` slug = the `/implement` argument. `lowercase-with-hyphens`.
