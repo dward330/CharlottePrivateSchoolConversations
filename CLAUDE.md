@@ -35,7 +35,23 @@ The split is the point: the implementing window has **no memory of the planning
 conversation**, so anything decided while planning and not written into the document is
 lost. That is the bar a plan is written to.
 
-Two rules that outlive any single plan:
+**Every plan that touches user-facing text is built English-first, in two phases.**
+`/implement` builds the feature in English, commits it to the branch, and **stops** — then
+translates to every other locale only once the user has reviewed the English and confirmed
+the wording. Both phases land in one PR; between them the plan sits at `English shipped`.
+
+This is standing behaviour, not something the user asks for per plan, and `/plan` is
+required to write the phase split into the document rather than leave it implied. The
+reason is that wording settles only once it is seen rendered, and propagating it to eight
+locales beforehand multiplies every revision by eight — into languages nobody here reads.
+Plans adding no user-facing text (refactors, build config, data corrections re-using
+existing strings) are single-phase and say so.
+
+Get the layer right in Phase 2: UI chrome means the `src/locales/*.json` catalogs in
+`TRANSLATED`; research prose means the overlay layer in `PROSE_TRANSLATED`. They are
+different lists and different mechanisms — see the i18n standard below.
+
+Two more rules that outlive any single plan:
 
 - **Plans are kept after implementation**, updated with the PR and an
   `## Implementation notes` section when the build deviated from the plan. They are the

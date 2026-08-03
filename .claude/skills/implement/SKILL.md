@@ -22,12 +22,18 @@ If the user named one (`/implement <name>`), resolve `.claude/plans/<name>.md`. 
 try a case-insensitive and partial match before giving up.
 
 If they didn't, read `.claude/plans/INDEX.md` and show the plans whose status is **Not
-implemented** or **In progress** — name, title, created date — and ask which. If the index
-is missing or stale, fall back to listing `.claude/plans/*.md` and reading each front
-matter `status`. If nothing is unimplemented, say so and stop; don't invent work.
+implemented**, **In progress**, or **English shipped** — name, title, created date, status
+— and ask which. Call out the *English shipped* ones as awaiting their review before
+translation; those are the closest to done and the easiest to forget. If the index is
+missing or stale, fall back to listing `.claude/plans/*.md` and reading each front matter
+`status`. If nothing is outstanding, say so and stop; don't invent work.
 
 Read the plan in full before touching anything, including any file it references. A plan
 skimmed is a plan re-derived.
+
+**If the plan is already `english-done`,** the English phase is built and reviewed-pending.
+Confirm the user is happy with the English before doing anything else, then resume at
+step 7 — don't rebuild Phase 1.
 
 ### 2. Gate before building
 
@@ -54,37 +60,90 @@ Set the plan's status to `in-progress` in its front matter and in the index. Thi
 one thing worth doing before the work, not after — it's what makes an interrupted run
 recoverable.
 
-### 4. Build it
+### 4. Build Phase 1 — English only
 
 Work the steps in order, keeping a todo list so progress is visible. Match the
 surrounding code's conventions rather than importing new ones.
 
-**Finish the whole plan.** If a step turns out to be blocked or wrong, complete every
+**Build the English version only.** Any plan that touches user-facing text ships in two
+phases with the user's review in between — this holds whether or not the plan document
+says so. If you're handed a text-touching plan written as a single phase, treat its
+locale work as Phase 2 and say you're doing that.
+
+**Finish the whole phase.** If a step turns out to be blocked or wrong, complete every
 other step in full, then say plainly which step you left out and why. Scaling the work
 down is the user's call.
 
 **The plan is the scope.** A better idea that arrives mid-build goes in the report as a
 suggestion, not into the diff. If a step is genuinely wrong — it contradicts the codebase
 or would break something — say so in a sentence, implement the correct thing, and record
-the deviation for step 7. Don't silently follow a plan you know to be broken, and don't
+the deviation for step 8. Don't silently follow a plan you know to be broken, and don't
 silently rewrite it either.
 
 Standing rules apply to everything you write here, whether or not the plan restates them:
-new user-facing strings become keys in **every** `src/locales/*.json`; new external school
-data gets persisted to `source-material/` with its sources; figures are copied
-char-for-char, never re-typed.
+new user-facing strings are **keys in `src/locales/en.json`, never hardcoded JSX** — the
+key goes in now, the other catalogs come in Phase 2; new external school data gets
+persisted to `source-material/` with its sources; figures are copied char-for-char, never
+re-typed.
 
-### 5. Verify
+### 5. Verify Phase 1
 
-Run every check in the plan's *Verification* section, plus the repo baseline
-(`npx tsc --noEmit`, `npm run build`, and any `check:*` script covering the touched area).
+Run every check in the plan's *Verification* section for this phase, plus the repo
+baseline (`npx tsc --noEmit`, `npm run build`, and any `check:*` script covering the
+touched area).
 
 Report results faithfully. If a check fails, show the output and fix it — a failing check
 reported as a pass is worse than no check. If the change touches rendering, the plan
 should have asked for a browser check; this repo's record is that render-layer defects
 survive every automated check, so do it rather than reasoning that it's fine.
 
-### 6. Commit and PR
+### 6. STOP — hand the English version back for review
+
+**Single-phase plan?** Skip to step 8 (commit and PR) — there is no Phase 2 and no gate.
+
+**Two-phase plan: commit Phase 1 to the branch, then end the turn.** Do not open the PR
+and do not start translating. Both phases land in one PR, so the branch stays open across
+the review.
+
+Set the plan's front matter to `status: english-done` and the index row to
+`English shipped`, so an interrupted run is recoverable and the index never claims a
+half-translated feature is done.
+
+Then report, and make the ask concrete:
+
+> **Phase 1 complete — English only.**
+>
+> <what changed, and where to look at it — the page, the route, the command to run>
+>
+> Verification: <results>
+>
+> Nothing is translated yet. Once you're happy with the English wording, say the word and
+> I'll roll it out to the other <N> locales — in this window or a new one.
+
+Tell them **what to look at**, not just what you did. The point of the gate is that they
+see it rendered; a report they can only nod at wastes the round trip.
+
+**Then end the turn.** Do not proceed on an assumption that they'd approve, and do not
+ask a yes/no question and answer it yourself. The wording is what's being reviewed, and
+propagating it to every locale before that review multiplies each revision by <N>.
+
+### 7. Phase 2 — every other locale, after they confirm
+
+Only on the user's explicit go-ahead. If they asked for wording changes, make those in
+English first and re-confirm before translating.
+
+Work the plan's Phase 2 steps. Get the layer right — UI chrome means the
+`src/locales/*.json` catalogs listed in `TRANSLATED`; research prose means the overlay
+layer per `PROSE_TRANSLATED`. Follow the rollout docs in `.claude/docs/` for the
+mechanism, and respect the locale-specific traps they record: figures copied
+char-for-char, lakh/crore grouping for `hi`/`te`, RTL isolates for `fa`.
+
+Then run the Phase 2 checks — `npm run check:runtime` at minimum, plus whichever of
+`check:figures` / `check:sepdrift` / `check:money` / `check:currency` apply. A locale
+overlay that fails its stamp falls back to English **silently**, so a passing coverage
+number proves nothing on its own.
+
+### 8. Commit and PR
 
 Commit with a message describing the change (not "implement plan X"), referencing the plan
 document. Push and open a PR with `gh pr create`, whose body summarizes what shipped,
@@ -94,7 +153,7 @@ Standing permission covers squash-merging and deleting the branch on your own PR
 checking out `main` and pulling. **Never deploy** — `npm run deploy` is the user's call,
 in the moment, every time.
 
-### 7. Close the loop
+### 9. Close the loop
 
 Update both records:
 
@@ -105,7 +164,8 @@ Update both records:
 - **`.claude/plans/INDEX.md`** — status `Implemented`, PR cell holding the link.
 
 If the work was partial, use `In progress` in both places and list the remaining steps in
-the implementation notes so a later window can resume.
+the implementation notes so a later window can resume. `Implemented` on a two-phase plan
+means **both** phases shipped; a feature sitting in English is `English shipped`.
 
 Then report to the user: what shipped, verification results, the PR link, anything left
 out and why, and any suggestion you deliberately kept out of the diff.
