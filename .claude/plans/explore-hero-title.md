@@ -1,11 +1,11 @@
 ---
 name: explore-hero-title
 title: Reword the home hero title to "Explore Charlotte's private schools"
-status: english-done
+status: implemented
 phases: 2
 created: 2026-08-02
 branch: feat/explore-hero-title
-prs: []
+prs: [94]
 ---
 
 # Reword the home hero title to "Explore Charlotte's private schools"
