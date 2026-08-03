@@ -1,7 +1,7 @@
 ---
 name: hbcu-bucket
 title: Add an HBCUs selectivity bucket and acceptance-list filter
-status: english-done
+status: implemented
 phases: 2
 created: 2026-08-02
 branch: feat/hbcu-bucket
@@ -324,3 +324,35 @@ re-derive it. The concrete work:
   (it currently won't, via `available`)? — **default:** no; all six schools have ≥3, so the
   question is moot for the current data, and hiding an always-empty chip is the existing
   correct behaviour.
+
+## Implementation notes
+
+Shipped in PR #92 as planned, with two deviations worth recording:
+
+1. **Added a mid-build enhancement the plan did not scope: U.S. News rank labels for two
+   HBCUs.** During review the user asked to "get the US News liberal or national rank for
+   these schools." Only two tagged HBCUs fall inside the app's existing `rankLabel` window
+   (which historically stops around #147): **Howard University → `National Rank #88`** and
+   **Morehouse College → `Liberal Rank #96`** (Spelman already had `Liberal Rank #39`,
+   kept). The deeper-ranked HBCUs (FAMU ~#169, NC A&T ~#232, Hampton ~#273, Morgan State,
+   Clark Atlanta, Tennessee State) were deliberately **left blank** — the exact numbers
+   there came only from search snippets that disagreed (two schools returned the same
+   #329), and labelling them would both break the app's rank-ceiling convention and risk a
+   wrong figure a parent matches against U.S. News. `rankLabel` is display-only, so bucket
+   membership was unaffected. Provenance + the scope decision are in
+   `source-material/college-support/_shared/HBCU - US News National Ranks 2026.md`. This
+   was a UX-adjacent change (a rank chip on two rows) that the user explicitly requested.
+
+2. **The step-1 ingest produced only unrelated churn, which was reverted.** Running the
+   full `build_docs.py` pipeline regenerated ~3,800 lines of rebuild-date timestamp churn
+   across 43 unrelated docs and pulled in a separate, un-wired `branding/` topic. As prior
+   art predicted, a `_shared/` provenance file yields no derived artifacts of its own, so
+   all pipeline output was reverted and only the committed source `.md` files remain. (An
+   observation surfaced in passing: `source-material/branding/` exists on `main` but has
+   never been ingested into the app — unrelated to this plan, flagged for later.)
+
+Everything else matched the plan: six `n / 107` rows, exact-name tag counts
+(18/14/10/6/5/3) each equal to its numerator, the `hbcu` chip, and the two translated
+prose paths (`buckets[5].tier` kept as `HBCUs`, `.note` translated) across all eight
+locales. Native-speaker review of the new note wording is open for the unreviewed locale
+(Kreyòl), same posture as the rest of that locale's prose.
