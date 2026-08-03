@@ -1188,9 +1188,23 @@ defect legible.
 `.claude/docs/prose-translation-hi.md`. This section is the reviewer's agenda —
 what to look at first, and why — rather than a summary of 84k words.
 
-**No native-speaker review yet.** Until a Hindi speaker reads the rendered
-pages, `hi` sits in **Kreyòl's unreviewed position**, not the reviewed position
-of Spanish, Bangla, Telugu, French and Farsi.
+**No native-speaker review yet — and it is being run ON THE LIVE SITE.** The
+owner is having a Hindi speaker read the deployed pages at
+charlotteschoolinsights.com (`?lang=hi`), not a local build (2026-08-02). Until
+that returns, `hi` sits in **Kreyòl's unreviewed position**, not the reviewed
+position of Spanish, Bangla, Telugu, French and Farsi.
+
+Reviewing production is a stronger test than a local render — it is what a
+family actually sees — but note the trade: the unreviewed prose is publicly
+visible while the review is open. Normal for this site, which has shipped every
+locale's prose ahead of its review, and it was the owner's call.
+
+**If you are that reviewer, start here:** the register axis in the next section
+is the thing to judge. Everything mechanical — figures, digits, grouping,
+glyphs, stranded English — has already been verified twice over, once by
+automated checks and once by a 131-page browser print-out of two schools that
+came back clean. What no check can reach is whether the Hindi *reads naturally
+to a parent*.
 
 ## The register decision, and why it is the thing to review first
 

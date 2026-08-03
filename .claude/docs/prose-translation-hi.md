@@ -516,9 +516,23 @@ were not specific to the language being added. For Hindi specifically, look for:
 
 ## 6. Review
 
-**OPEN — no native-speaker review yet.** Until a Hindi speaker reads the
-rendered pages, `hi` ships in **Kreyòl's unreviewed position**, not the reviewed
-position of Spanish, Bangla, Telugu, French and Farsi.
+**OPEN — review is being conducted ON THE LIVE SITE.** The owner is having a
+Hindi speaker read the deployed pages at charlotteschoolinsights.com rather than
+a local build or an exported document (2026-08-02). Until that review returns,
+`hi` ships in **Kreyòl's unreviewed position**, not the reviewed position of
+Spanish, Bangla, Telugu, French and Farsi.
+
+**This is a deliberate change of method from every prior locale, and it has one
+consequence worth stating.** Earlier reviews read a local render or a print-out;
+this one reads production. That is a *better* test — it is exactly what a family
+sees, including the real font fetch, the deployed bundle and the live analytics
+path — but it means **the unreviewed prose is publicly visible while the review
+is in progress**. That was the owner's call and is the normal state for this
+site, which has shipped every locale's prose before its review returned.
+
+To point the reviewer at a page directly: `?lang=hi` on any URL, e.g.
+`https://charlotteschoolinsights.com/?lang=hi#/school/providence-day`. The
+language also persists once chosen from the picker.
 
 The one failure mode no automated check in this repo can reach is §1a: whether
 the register drifts toward over-Sanskritized शुद्ध हिन्दी a parent would not
