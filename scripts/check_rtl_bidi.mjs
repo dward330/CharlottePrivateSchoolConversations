@@ -46,6 +46,13 @@ const PDI = '⁩'
 // Mirrors src/lib/format.ts. Kept in sync deliberately: figureLocale.ts is
 // importable under plain Node but format.ts is not (it pulls in i18n.ts, which
 // carries Vite-only import.meta.glob).
+//
+// `ar` is deliberately ABSENT here — it is the second RTL locale, but unlike fa
+// its Intl digits are already Western 3-3-3, so it is NOT in FIGURE_SAFE_NUMBERS
+// (see figureLocale.ts and the ar rollout doc §0a). It still needs the bidi
+// ISOLATES, exactly like fa, because "$"/"–"/"%" are bidi-neutral regardless of
+// which digits sit around them — so ar is tested for isolation below, but it
+// must NOT be added to this list.
 const FIGURE_SAFE = ['bn', 'fa']
 const numberLocale = (l) => (FIGURE_SAFE.includes(l.slice(0, 2)) ? 'en-US' : l)
 
@@ -145,6 +152,36 @@ for (const [input, what] of SAFE_CASES) {
   const ok = !out.includes(LRI)
   if (!ok) bad++
   console.log(`  ${ok ? 'ok ' : 'BAD'}  ${what.padEnd(24)} ${JSON.stringify(out)}`)
+}
+
+// ── 2b. RTL (ar): same isolation rules as fa, but Western digits ─────────────
+// ar is the second RTL locale. It TRAILS its currency symbol (US$) where fa
+// leads, and it is NOT in FIGURE_SAFE — so this exercises a combination fa never
+// did. The isolate requirement is identical: every neutral figure isolated,
+// every strong-L identifier left alone.
+const ar = makeFormatter('ar', true)
+console.log('\nRTL (ar) — neutral figures must be isolated (Western digits, trailing US$)')
+for (const [input, what] of NEUTRAL_CASES) {
+  const out = ar.localizeMoneyText(`نص ${input} نص`)
+  const ok = out.includes(LRI) && out.includes(PDI)
+  if (!ok) bad++
+  console.log(`  ${ok ? 'ok ' : 'BAD'}  ${what.padEnd(24)} ${JSON.stringify(out)}`)
+}
+console.log('\nRTL (ar) — strong-L identifiers must be left alone')
+for (const [input, what] of SAFE_CASES) {
+  const out = ar.localizeMoneyText(`نص ${input} نص`)
+  const ok = !out.includes(LRI)
+  if (!ok) bad++
+  console.log(`  ${ok ? 'ok ' : 'BAD'}  ${what.padEnd(24)} ${JSON.stringify(out)}`)
+}
+// ar keeps WESTERN digits — assert no Eastern-Arabic numeral leaked into a
+// figure (that would mean ar got mistakenly added to FIGURE_SAFE, or numberLocale
+// diverged from format.ts).
+const arDigitCheck = ar.localizeMoneyText('نص $3,683,971 نص')
+if (/[٠-٩۰-۹]/.test(arDigitCheck)) {
+  console.error(`\n✗ ar figure carries Eastern-Arabic digits: ${JSON.stringify(arDigitCheck)}`)
+  console.error('  ar must render Western 3-3-3 digits — it is NOT in FIGURE_SAFE_NUMBERS.')
+  bad++
 }
 
 // ── 3. LTR locales must be BYTE-IDENTICAL to no-isolate output ───────────────
