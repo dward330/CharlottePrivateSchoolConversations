@@ -22,7 +22,9 @@ context windows.
 
 **`/plan`** researches the change and writes `.claude/plans/<name>.md`, then registers it
 in `.claude/plans/INDEX.md` as *Not implemented*. It asks what to plan and whether you
-want a single-word name — absent one it uses the branch name. **`/plan` never edits app
+want a single-word name — that name is the filename and the `/implement` argument, and
+declining is a normal choice that defaults to the branch name. It closes by giving you the
+exact `/implement <name>` command to run in a new window. **`/plan` never edits app
 code**; its only outputs are the plan document and the index row.
 
 **`/implement`** executes a plan. Given a name it reads that plan; given none it lists the

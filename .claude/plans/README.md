@@ -6,9 +6,11 @@ Implementation plans, one markdown file per feature or change, plus
 ## The two commands
 
 **`/plan`** researches a feature and writes `<name>.md` here. It plans only — it never
-edits app code. It asks what to plan and whether you want a single-word name (falling back
-to the branch name), reads the codebase, then writes a document a fresh Claude window can
-execute cold.
+edits app code. It asks what to plan and whether you want to give it a single-word name —
+that name becomes the filename and the `/implement` argument, and declining is a normal
+choice, in which case the current branch name is used. It then reads the codebase and
+writes a document a fresh Claude window can execute cold, closing with the exact
+`/implement <name>` command to run.
 
 **`/implement`** takes it from there. Given `/implement <name>` it reads that plan; given
 nothing it lists the unimplemented ones and asks. It branches, builds the steps, runs the

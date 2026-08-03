@@ -35,10 +35,22 @@ instead and say so in your reply.
 If the user typed `/plan` with no argument, ask what feature or change they want planned.
 If they typed `/plan <description>`, take that as the answer and don't re-ask.
 
-Ask for the plan name in the **same message** — one round trip, not two:
+Ask for the plan name in the **same message** — one round trip, not two. Explain what the
+name is *for* and that opting out is a real default, not a fallback you'd rather they
+didn't take:
 
-> What feature or change should I plan? And do you want to give it a single-word name?
-> (If not, I'll use the branch name.)
+> What feature or change should I plan?
+>
+> Do you want to give it a **single-word name**? It becomes the plan's filename and the
+> argument you'll type later — `/implement <name>` — so a short memorable one is easiest
+> to type in a fresh window.
+>
+> If you'd rather not pick one, that's fine — I'll default to the current branch name
+> (`<branch>` → `<derived-name>`).
+
+Show the actual derived default in that last line rather than the phrase "the branch
+name". Seeing the concrete name is what lets someone accept it without thinking, and the
+point of offering a default is that taking it costs nothing.
 
 **Resolving the name**, in order:
 
@@ -121,6 +133,20 @@ Then tell the user, in a few lines:
   gate. Ask for that approval now; a plan that stalls at step 1 in a fresh window wasted
   the round trip.
 - Any open question you resolved by assumption, so they can correct it while it's cheap.
-- That `/implement <name>` will execute it.
 
-Do not start implementing. Ending the turn here is the correct outcome.
+**End with the handoff — the exact command, on its own line, with the real name filled
+in:**
+
+> Ready to build. In a **new window**, run:
+>
+> ```
+> /implement <name>
+> ```
+
+Two details matter here. Write the resolved name into the command — never leave a
+`<name>` placeholder for the user to substitute, since the whole point is that they can
+copy the line. And say **new window**: the plan exists so implementation starts with a
+clean context, and a plan built in this same window forfeits that.
+
+Do not start implementing, even if the plan is short and the next step is obvious. Ending
+the turn here is the correct outcome — if the user wants it built now, they'll say so.
