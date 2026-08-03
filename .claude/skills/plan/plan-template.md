@@ -46,6 +46,14 @@ Anything requiring the user's explicit OK before implementation starts — a new
 section under the UX-design gate, a new metric key, a dependency, a deploy. Write
 **"None"** if there are none; an empty section reads as an oversight.
 
+## Source material
+
+Only if the plan involves new research data. List the `source-material/**/*.md` files —
+whether already written during planning (**staged, uningested**) or still to be fetched —
+with their sources, and state that `/implement` runs the `ingest-source-material` skill
+over them before any app-layer step. Omit this section entirely when no new data is
+involved.
+
 ## Out of scope
 
 What this plan deliberately does not do. Prevents scope creep in the implementing window.

@@ -49,6 +49,11 @@ Three checks, in order:
   *Files touched* still look the way *Context* describes. If the code has moved under the
   plan, say what drifted and how you're adapting, then continue — a stale detail is a
   correction to make, not a reason to stop.
+- **Staged research** — `/plan` may have left fetched data in `source-material/**/*.md`,
+  uncommitted and not yet ingested. Check for it (`git status`), and if it's there, commit
+  it on the branch and run it through the ingest pipeline as your first build step. Data
+  that reaches the app without passing through the pipeline is the exact drift this
+  workflow exists to prevent.
 
 ### 3. Branch
 
@@ -82,9 +87,30 @@ silently rewrite it either.
 
 Standing rules apply to everything you write here, whether or not the plan restates them:
 new user-facing strings are **keys in `src/locales/en.json`, never hardcoded JSX** — the
-key goes in now, the other catalogs come in Phase 2; new external school data gets
-persisted to `source-material/` with its sources; figures are copied char-for-char, never
-re-typed.
+key goes in now, the other catalogs come in Phase 2; figures are copied char-for-char,
+never re-typed.
+
+**If the build downloads, fetches, or otherwise brings in new school data — or documents
+research findings — it goes through the ingest pipeline, not straight into the app.**
+This holds even when the plan doesn't mention it; a plan that forgot the pipeline is a
+plan to be corrected, not followed.
+
+1. Persist the raw material to `source-material/<topic>/<school>/<School> - <Topic> -
+   <Subtopic>.md` — provenance header, source URLs, and the record-level detail behind
+   every number. These `.md` files are committed.
+2. Invoke the **`ingest-source-material` skill** (via the Skill tool) to regenerate the
+   derived layers and walk its app-layer checklist. Don't just run `build_docs.py` — the
+   script rebuilds `.claude/docs/` and `schools.json`, but the skill also covers the
+   hand-maintained layers (`src/lib/metrics.ts`, `src/data/metricValues.ts`,
+   `src/data/financialAidReports.ts`) that the script does not touch.
+3. Then continue with the plan's own steps.
+
+Never hand-edit a generated file. `.claude/docs/*` notes and `src/data/schools.json` are
+regenerated wholesale on the next run, so an edit there is lost silently — which is the
+failure this rule exists to prevent. And ingestion carries its own hard constraint: it
+**enriches data only**. If the new material seems to warrant a new card, section, or
+metric key, that is the UX gate — stop and ask, land the data meanwhile, and report the
+deferred suggestion.
 
 ### 5. Verify Phase 1
 
