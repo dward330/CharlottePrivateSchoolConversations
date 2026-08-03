@@ -190,7 +190,7 @@ export type College = {
   rankLabel?: string
   /**
    * Bucket keys this college belongs to — any of 'ivy' | 'ivyplus' | 'nu75' |
-   * 'lac75' | 'p4'. Drives the filter chips above the list.
+   * 'lac75' | 'p4' | 'hbcu'. Drives the filter chips above the list.
    */
   cats: string[]
   /** True where the school's list marks it as enrolling (bolded). */
@@ -205,6 +205,7 @@ export const COLLEGE_FILTERS = [
   { key: 'nu75', label: 'Top-75 National' },
   { key: 'lac75', label: 'Top-75 Liberal' },
   { key: 'p4', label: 'Power Four' },
+  { key: 'hbcu', label: 'HBCUs' },
 ] as const
 
 export type Outcomes = {
