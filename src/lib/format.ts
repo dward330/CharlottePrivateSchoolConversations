@@ -74,26 +74,32 @@ function bidiIsolate(s: string): string {
  *
  *     logical "2025–26"  ->  visual "26–2025"     <-- a WRONG year range
  *     logical "82%"      ->  visual "%82"
+ *     logical "58 / 75"  ->  visual "75 / 58"     <-- a WRONG fraction
  *
  * The year range is the serious one: it is not a cosmetic glitch but a
  * different claim, and it is unreadable as the thing it is. 133 corpus strings
- * carry a year range and 59 carry a percentage.
+ * carry a year range and 59 carry a percentage. The fraction shape joined the
+ * list with the selectivity-bucket Compare rows ("58 / 75" acceptance-list
+ * counts): the numerator and denominator swap, so "58 / 75" reads "75 / 58" —
+ * a different count. Confirmed in Chromium 2026-08-02 by the same x-position
+ * measurement; a symmetric fraction like "8 / 8" masks it.
  *
- * Both fail for the same reason as money: "–" and "%" are bidi-NEUTRAL, so a
+ * All fail for the same reason as money: "–", "%" and "/" are bidi-NEUTRAL, so a
  * digit-neutral-digit sandwich gets laid out by paragraph direction rather than
  * as one left-to-right run. Tokens made only of strong-L characters are fine,
  * which is why "AP Calculus BC" and plain "20,642" measured clean (27/27 Latin
  * identifiers intact in the spike) and need no treatment.
  *
- * Deliberately narrow. It matches only the two shapes proven to break, so it
+ * Deliberately narrow. It matches only the shapes proven to break, so it
  * cannot disturb prose it was not aimed at, and it is a no-op outside RTL.
  */
 function isolateNeutralFigures(text: string): string {
   if (!isRtl()) return text
   return text.replace(
-    // A year range joined by en-dash/hyphen ("2025–26", "2024–2025"), or a
-    // percentage. Both anchored on digits so bare punctuation never matches.
-    /\d{4}[–-]\d{2,4}|\d+(?:\.\d+)?%/g,
+    // A year range joined by en-dash/hyphen ("2025–26", "2024–2025"), a
+    // percentage, or a slash-joined fraction ("58 / 75", "8 / 8"). All anchored
+    // on digits so bare punctuation never matches.
+    /\d{4}[–-]\d{2,4}|\d+(?:\.\d+)?%|\d+\s*\/\s*\d+/g,
     (m) => `${LRI}${m}${PDI}`,
   )
 }

@@ -93,20 +93,6 @@ export const VALUE_METRICS: ValueMetric[] = [
   // the note text July 2026). null = the school does not publish that figure.
   {
     topic: 'college-support',
-    key: 'ap-scope',
-    label: 'AP scope',
-    note: 'AP exam volume for the most recent reported year, or AP course/subject count where exam volume is unpublished. IB flagged where offered.',
-    values: {
-      cannon: '425 AP exams', // 197 students sat 425 AP exams (most recent reported)
-      'charlotte-christian': '21 AP courses', // 21 AP/college-level courses in a 45+ AP/honors catalog
-      'charlotte-country-day': '530 AP exams + IB', // 238 students sat 530 AP exams; also full IB Diploma
-      'charlotte-latin': '23 AP subjects', // AP in 23 subjects; every AP student must sit the exam
-      'davidson-day': null, // AP volume not published
-      'providence-day': '1,213 AP exams', // May 2025: 461 students, 1,213 exams
-    },
-  },
-  {
-    topic: 'college-support',
     key: 'ap-performance',
     label: 'AP scoring 3+',
     note: 'Share of AP exams scoring 3 or higher, most recent reported year. Charlotte Latin & Davidson Day do not publish a pass rate.',
@@ -121,16 +107,86 @@ export const VALUE_METRICS: ValueMetric[] = [
   },
   {
     topic: 'college-support',
-    key: 'national-merit',
-    label: 'National Merit',
-    note: 'Most recent single-class Semifinalist/Finalist count the school announced. Cannon & Davidson Day unpublished; Charlotte Christian reports only rolling multi-year totals.',
+    key: 'bucket-ivy',
+    label: 'Ivy League',
+    note: 'Of the 8 Ivy League universities, how many appear on the school’s published acceptance list. Derived from that list against the 2026 U.S. News tables — not a school-reported figure.',
     values: {
-      cannon: null, // no recent-year NM count located
-      'charlotte-christian': null, // only 15-year rolling totals published
-      'charlotte-country-day': '2 Finalists ’25', // Class of 2025: 2 Finalists, 2 Semifinalists, 5 Commended
-      'charlotte-latin': '12 Semifinalists ’26', // Class of 2026: 12 Semifinalists, 18 Commended
-      'davidson-day': null, // NM standing unpublished/unconfirmed
-      'providence-day': '7 Semifinalists ’25', // Class of 2025: 7 Semifinalists, 16 Commended
+      cannon: '3 / 8', // buckets, collegeSupportPrograms/cannon.ts
+      'charlotte-christian': '2 / 8', // buckets, collegeSupportPrograms/charlotte-christian.ts
+      'charlotte-country-day': '7 / 8', // buckets, collegeSupportPrograms/charlotte-country-day.ts
+      'charlotte-latin': '5 / 8', // buckets, collegeSupportPrograms/charlotte-latin.ts
+      'davidson-day': '3 / 8', // buckets, collegeSupportPrograms/davidson-day.ts
+      'providence-day': '8 / 8', // buckets, collegeSupportPrograms/providence-day.ts
+    },
+  },
+  {
+    topic: 'college-support',
+    key: 'bucket-ivyplus',
+    label: '“Ivy Plus”',
+    note: 'Of the 17 “Ivy Plus” institutions — the eight Ivies plus Stanford, MIT, Chicago, Duke, Caltech and peers — how many appear on the school’s acceptance list.',
+    values: {
+      cannon: '10 / 17', // buckets, collegeSupportPrograms/cannon.ts
+      'charlotte-christian': '4 / 17', // buckets, collegeSupportPrograms/charlotte-christian.ts
+      'charlotte-country-day': '13 / 17', // buckets, collegeSupportPrograms/charlotte-country-day.ts
+      'charlotte-latin': '12 / 17', // buckets, collegeSupportPrograms/charlotte-latin.ts
+      'davidson-day': '8 / 17', // buckets, collegeSupportPrograms/davidson-day.ts
+      'providence-day': '17 / 17', // buckets, collegeSupportPrograms/providence-day.ts
+    },
+  },
+  {
+    topic: 'college-support',
+    key: 'bucket-nu75',
+    label: 'Top-75 National Universities',
+    note: 'Of the top 75 National Universities in the 2026 U.S. News table, how many appear on the school’s acceptance list.',
+    values: {
+      cannon: '46 / 75', // buckets, collegeSupportPrograms/cannon.ts
+      'charlotte-christian': '30 / 75', // buckets, collegeSupportPrograms/charlotte-christian.ts
+      'charlotte-country-day': '55 / 75', // buckets, collegeSupportPrograms/charlotte-country-day.ts
+      'charlotte-latin': '53 / 75', // buckets, collegeSupportPrograms/charlotte-latin.ts
+      'davidson-day': '44 / 75', // buckets, collegeSupportPrograms/davidson-day.ts
+      'providence-day': '58 / 75', // buckets, collegeSupportPrograms/providence-day.ts
+    },
+  },
+  {
+    topic: 'college-support',
+    key: 'bucket-lac75',
+    label: 'Top-75 Liberal Arts',
+    note: 'Of the top 75 Liberal Arts Colleges in the 2026 U.S. News table, how many appear on the school’s acceptance list.',
+    values: {
+      cannon: '27 / 75', // buckets, collegeSupportPrograms/cannon.ts
+      'charlotte-christian': '7 / 75', // buckets, collegeSupportPrograms/charlotte-christian.ts
+      'charlotte-country-day': '41 / 75', // buckets, collegeSupportPrograms/charlotte-country-day.ts
+      'charlotte-latin': '40 / 75', // buckets, collegeSupportPrograms/charlotte-latin.ts
+      'davidson-day': '26 / 75', // buckets, collegeSupportPrograms/davidson-day.ts
+      'providence-day': '43 / 75', // buckets, collegeSupportPrograms/providence-day.ts
+    },
+  },
+  {
+    topic: 'college-support',
+    key: 'bucket-p4',
+    label: 'Power Four',
+    note: 'Of the 68 Power Four athletic-conference universities (ACC, Big Ten, Big 12, SEC — including Notre Dame), how many appear on the school’s acceptance list.',
+    values: {
+      cannon: '43 / 68', // buckets, collegeSupportPrograms/cannon.ts
+      'charlotte-christian': '34 / 68', // buckets, collegeSupportPrograms/charlotte-christian.ts
+      'charlotte-country-day': '53 / 68', // buckets, collegeSupportPrograms/charlotte-country-day.ts
+      'charlotte-latin': '53 / 68', // buckets, collegeSupportPrograms/charlotte-latin.ts (researcher’s exact count was 62; table shows 53 / 68)
+      'davidson-day': '42 / 68', // buckets, collegeSupportPrograms/davidson-day.ts
+      'providence-day': '57 / 68', // buckets, collegeSupportPrograms/providence-day.ts
+    },
+  },
+  {
+    topic: 'college-support',
+    key: 'bucket-hbcu',
+    label: 'HBCUs',
+    note: 'Of the 107 Historically Black Colleges & Universities, how many appear on the school’s acceptance list.',
+    values: {
+      cannon: '5 / 107', // buckets, collegeSupportPrograms/cannon.ts
+      'charlotte-christian': '10 / 107', // buckets, collegeSupportPrograms/charlotte-christian.ts
+      'charlotte-country-day': '18 / 107', // buckets, collegeSupportPrograms/charlotte-country-day.ts
+      'charlotte-latin': '6 / 107', // buckets, collegeSupportPrograms/charlotte-latin.ts
+      'davidson-day': '3 / 107', // buckets, collegeSupportPrograms/davidson-day.ts
+      'providence-day': '14 / 107', // buckets, collegeSupportPrograms/providence-day.ts
     },
   },
   {
