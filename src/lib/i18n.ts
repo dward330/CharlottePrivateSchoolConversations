@@ -105,7 +105,7 @@ export function langCodeOf(code: string | undefined): string {
  * tracked separately in PROSE_TRANSLATED below — the two layers ship on
  * different schedules by design (see the i18n note in CLAUDE.md).
  */
-export const TRANSLATED: readonly string[] = ['en', 'es', 'bn', 'ht', 'te', 'fr', 'fa', 'it', 'hi']
+export const TRANSLATED: readonly string[] = ['en', 'es', 'bn', 'ht', 'te', 'fr', 'fa', 'it', 'hi', 'ar']
 
 export function isTranslated(code: string): boolean {
   return TRANSLATED.includes(code)
@@ -179,7 +179,7 @@ export function isTranslated(code: string): boolean {
  * or the bidi algorithm mangles it (see `[data-prose='en'] main` in index.css).
  * Adding a locale here retires that rule for it automatically.
  */
-export const PROSE_TRANSLATED: readonly string[] = ['es', 'bn', 'ht', 'te', 'fr', 'fa', 'it', 'hi']
+export const PROSE_TRANSLATED: readonly string[] = ['es', 'bn', 'ht', 'te', 'fr', 'fa', 'it', 'hi', 'ar']
 
 export function isProseTranslated(code: string): boolean {
   return PROSE_TRANSLATED.includes(code)

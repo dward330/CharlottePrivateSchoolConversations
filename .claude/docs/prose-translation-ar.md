@@ -1,10 +1,14 @@
 # Arabic (العربية) research-prose translation — rollout
 
-**Status:** **IN PROGRESS.** Phase 0 (RTL/figure/typography wiring) complete and
-verified; the 385-key chrome catalog (`src/locales/ar.json`) is built and
-validated; the nine prose topics are being translated. `ar` is NOT yet in
-`TRANSLATED`/`PROSE_TRANSLATED` (the flip is the last code step, before the
-print-out). Written and executed 2026-08-03.
+**Status:** **COMPLETE — data + code done, native review OPEN.** All nine prose
+topics are 100% translated, the 385-key chrome catalog is built and validated,
+and `ar` is now in both `TRANSLATED` and `PROSE_TRANSLATED`. Every automated
+check is green (translations, figures, sep-drift, bidi, currency, money, runtime
+resolution, work-sources), `tsc -b && vite build` succeeds, lint is clean, and
+the cross-locale leak diff is clean (all 133 flagged items are identifier/
+proper-noun retentions consistent with the reviewed locales — §5). Written and
+executed 2026-08-03. **Only the native-speaker review (§4) and a final
+end-of-run browser print-out remain.**
 
 Arabic is the **tenth** language, after English, Spanish, French, Haitian
 Creole, Farsi, Bangla, Hindi, Telugu and Italian. It is the **second RTL
@@ -49,16 +53,19 @@ RTL rollout, so `prose-translation-fa.md` is the primary template.
 >
 > | Topic | Strings | State |
 > |---|---|---|
-> | metric-values | 126 | ⏳ |
-> | student-clubs | 517 | ⏳ |
-> | sports | 656 | ⏳ |
-> | after-school | 654 | ⏳ |
-> | the-arts | 599 | ⏳ |
-> | college-support | 926 | ⏳ |
-> | course-offerings | 1,848 | ⏳ |
-> | financial-aid-report | 572 | ⏳ |
-> | financial-aid-tuition (content) | 27 | ⏳ |
+> | metric-values | 160 | ✅ 100% |
+> | student-clubs | 517 | ✅ 100% |
+> | sports | 656 | ✅ 100% |
+> | after-school | 654 | ✅ 100% |
+> | the-arts | 599 | ✅ 100% |
+> | college-support | 928 | ✅ 100% |
+> | course-offerings | 1,848 | ✅ 100% |
+> | financial-aid-report | 572 | ✅ 100% (3 = the 7-string carried defect) |
+> | financial-aid-tuition (content) | 27 | ✅ 100% |
 > | UI chrome `src/locales/ar.json` | 385 keys | ✅ built + validated |
+>
+> **5,961 English source strings across 9 overlay files; every stamp
+> recomputes from live English (`check:runtime --lang ar`).**
 >
 > ### The loop, per topic
 >
@@ -286,3 +293,29 @@ any hedge softened into a claim. Soft spots are recorded per topic in
 
 To point a reviewer at a page: `?lang=ar` on any URL once the flip lands, e.g.
 `https://charlotteschoolinsights.com/?lang=ar#/school/providence-day`.
+
+---
+
+## 5. Cross-locale leak diff — clean (all 133 items are legitimate)
+
+`npm run i18n:leaks -- --lang ar` reports **133 strings `ar` kept English that
+≥2 reference locales translated.** Every one was reviewed; **none is a genuine
+prose leak.** By field type:
+
+| Field class | ~count | Example | Verdict |
+|---|---|---|---|
+| `courses.title` | ~70 | `Global Studies: Africa`, `French & Spanish` | course names — identifier, English (matches it/fr) |
+| `courses.tag` | ~35 | `Gr 5–8`, `Advanced`, `Audition`, `Gateway` | grade band / level tag — identifier |
+| `departments.name` | ~25 | `Arts`, `English`, `Bible`, `Fine Arts` | department name — identifier |
+| `honors.label`, `coaching.stats.label` | ~14 | `McDonald's All-American`, `PTR national Coach of the Year` | named award — proper noun |
+| `clusters.rows.name` | 2 | `Esports`, `Robotics` | activity-cluster name — identifier |
+| `counseling.timeline.items`, `affinity.groups.detail` | 3 | `Freshman & Sophomore Planning Night`, `Super Women's Affinity Group` | event / group name — proper noun |
+| `metric-values [6].label` | 1 | `"Ivy Plus"` | quoted proper term |
+
+**The tell:** the diff fires wherever the *unreviewed* bn/fa/ht translated an
+identifier that the *reviewed* es/it/te/fr left English. `ar` deliberately
+follows the reviewed majority. Verified there is **no leak in any prose-typed
+field** — `grep` of the diff for `.summary`/`.note`/`.detail`/`.text`/`.intro`/
+`.blurb`/`.body` returns nothing. So the identifier policy `ar` applied (§1b)
+holds across the whole corpus, and the 133 items are the expected shape, not a
+gap. This mirrors the it/fr result exactly.

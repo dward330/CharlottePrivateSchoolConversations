@@ -1339,3 +1339,83 @@ reviewer disagrees.
 **The 7-string known open defect is carried forward**, as in every prior locale
 — see CLAUDE.md. Hindi inherits the same English strings in `program`/`value`/
 `year` fields.
+
+---
+
+# Arabic (`ar`) — soft-spots for a native-speaker review
+
+Arabic ships **unreviewed by a native speaker** (like Kreyòl and Hindi at their
+launch). The prose passed every automated check and a two-school browser
+print-out, but register and naturalness are exactly what no check in this repo
+reaches. This block is written for whoever reviews it.
+
+## The one thing most likely to be reported as a bug — and is not
+
+`ar` is deliberately **absent** from `FIGURE_SAFE_NUMBERS`, unlike the other
+RTL locale (`fa`). This is measured, not inherited:
+
+```
+Intl.NumberFormat('ar').format(3683971)  →  "3,683,971"   (Western digits, 3-3-3)
+Intl.NumberFormat('fa').format(3683971)  →  "۳٬۶۸۳٬۹۷۱"   (Eastern-Arabic digits)
+```
+
+Modern Standard Arabic as CLDR renders it uses **Western (ASCII) digits with
+3-3-3 grouping** — byte-identical to the school's own English figure. `fa` is on
+the safe-list because its Eastern-Arabic digits are unmatchable against the
+English source; that reason does **not** apply to `ar`. Arabic is therefore the
+`es`/`fr`/`it` case (symbol placement and direction differ, but the digits and
+group boundaries never move), and it is the **first RTL locale NOT on the
+safe-list**. A reviewer who assumes "RTL ⇒ follows Farsi" will call this a bug.
+It is not — see `src/lib/figureLocale.ts`.
+
+## Currency trails, and the symbol is `US$` with an RLM
+
+`currencyLeads()` returns **false** for `ar`: `Intl` places the symbol after the
+amount (`3,250,000 US$`) with a leading U+200F RLM. This is the first locale to
+**both** trail the symbol **and** be RTL. Placement is derived from
+`Intl.formatToParts` positions, never a language check. Verified on the
+print-out: money reads left-to-right inside the RTL paragraph (LRI…PDI isolate),
+the `US$` sits correctly, and the amount is never re-typed. Currency stays USD —
+formatting only, no conversion, no dual display.
+
+## Register — Modern Standard Arabic, school-circular level
+
+Target is **فُصْحى المدارس / newspaper-education register** — the Arabic of a
+school circular or an education page, *not* Classical/Qur'anic فصحى and *not* any
+spoken dialect (Egyptian, Levantine, Gulf, Maghrebi). Concretely:
+
+- Domain loanwords are written in Arabic script where a parent would expect them
+  (المدرسة, الرسوم, المنحة), while searchable Latin identifiers stay Latin
+  (`Upper School`, `GPA`, `AP`, course titles, department names, award names).
+- Hedges must stay hedges. `~`, "approximately", "documented minimum",
+  "for reference only" survive as وهي مُعلَّمة كذلك / تقريبًا / حدّ أدنى موثَّق —
+  never hardened into a bare claim. This is the highest-value thing to check.
+- No over-classicised diction (avoid archaic connectives / rhymed سجع). A
+  reviewer should flag anything that reads as literary rather than
+  administrative.
+
+## Identifiers kept English — consistent with the reviewed locales
+
+The cross-locale leak diff (`npm run i18n:leaks -- --lang ar`) reports 133
+strings `ar` kept English that ≥2 other locales translated. **Every one is an
+identifier or proper noun** — course titles, department names, grade-band tags
+(`Gr 5–8`), named awards (`McDonald's All-American`), group names
+(`Super Women's Affinity Group`), quoted terms (`"Ivy Plus"`). `ar` follows the
+**reviewed** locales (es/it/te/fr), which keep these English; the diff only fires
+where the *unreviewed* bn/fa/ht chose to translate an identifier. Zero genuine
+prose leaked — verified by confirming no `.summary`/`.note`/`.detail`/`.text`
+field is among the flagged items. If a reviewer wants any specific award or
+program name in Arabic, that is a per-string editorial call, not a systematic gap.
+
+## Archive-source tuition blocks stay English inside their quotes
+
+In `financial-aid-tuition.content`, the verbatim snapshot tables
+(`"Tuition: JrK $18,330 …"`, Wayback codes like `` `20220127142845` ``) are
+citations a parent matches against the archived page — kept **byte-identical
+English**. Only the framing prose around them is translated (`Wayback`, `under`,
+`Verbatim:`, the validation sentences). Same rule Italian and Hindi applied.
+
+## The 7-string known open defect is carried forward
+
+As in every prior locale — see CLAUDE.md. Arabic inherits the same English
+strings in `program`/`value`/`year` fields. Not ar-specific; not fixed here.
