@@ -459,18 +459,25 @@ export function SchoolDetail({ slug }: { slug: string }) {
         </aside>
 
         <main className="dossier-main" ref={mainRef}>
-          {/* Print affordance: open (or close) every research card in one click
-              so the page is ready to print. Hidden from print output itself. */}
-          <div className="expand-all-bar no-print">
-            <button
-              type="button"
-              className="btn ghost small expand-all-btn"
-              onClick={() => setAllDetails(!allOpen)}
-            >
-              <ExpandAllIcon up={allOpen} />
-              {allOpen ? tr('school.collapseAll') : tr('school.expandAll')}
-            </button>
-          </div>
+          {/* Local-testing-only print affordance: open (or close) every research
+              card in one click so the page is ready to print during a print-out
+              pass on the dev server. `import.meta.env.DEV` is true only under the
+              `vite` dev server and false in every `vite build`, so this button
+              NEVER ships to the production site — it is a testing tool, not a
+              reader feature. (It is also `no-print`, so it never appears in the
+              printed output.) Do not remove the DEV guard. */}
+          {import.meta.env.DEV && (
+            <div className="expand-all-bar no-print">
+              <button
+                type="button"
+                className="btn ghost small expand-all-btn"
+                onClick={() => setAllDetails(!allOpen)}
+              >
+                <ExpandAllIcon up={allOpen} />
+                {allOpen ? tr('school.collapseAll') : tr('school.expandAll')}
+              </button>
+            </div>
+          )}
           {brand.welcomeVideoUrl && (
             <WelcomeVideo name={school.name} url={brand.welcomeVideoUrl} />
           )}
