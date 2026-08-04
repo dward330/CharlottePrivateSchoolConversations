@@ -1785,6 +1785,86 @@ table.compare thead th { position: sticky; top: 0; z-index: 3; background: var(-
 }
 .cell.val.lead { background: color-mix(in srgb, var(--brand) 10%, transparent); }
 
+/* --- Per-cell provenance popover (components/CellQual.tsx) --------------- */
+/* The trigger wraps the figure. It resets button chrome so the number reads
+   exactly as an unqualified .mark-val, with a small dotted underline and dot as
+   the only marker that a caveat is available. */
+.qual {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 3px;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  background: none;
+  font: inherit;
+  cursor: help;
+  color: inherit;
+}
+.qual .mark-val {
+  border-bottom: 1px dotted color-mix(in srgb, var(--brand) 55%, transparent);
+  transition: border-color 0.12s ease;
+}
+.qual:hover .mark-val,
+.qual:focus-visible .mark-val { border-bottom-color: var(--brand); }
+.qual:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 3px; }
+.qual-dot {
+  width: 4px;
+  height: 4px;
+  margin-top: 3px;
+  border-radius: 50%;
+  background: var(--brand);
+  flex: none;
+}
+
+/* The tooltip renders in the top layer, so .table-wrap's overflow cannot clip
+   it on the scrolled-right columns. */
+.tip {
+  position: relative;
+  max-width: 248px;
+  margin: 0;
+  padding: 12px 14px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  box-shadow: 0 8px 28px color-mix(in srgb, #000 22%, transparent);
+  text-align: start;
+  overflow: visible;
+}
+/* Anchor below the trigger where supported; a centered-above default otherwise.
+   The popover sits in the top layer either way, so neither can be clipped. */
+@supports (anchor-name: --a) {
+  .tip {
+    margin: 0;
+    inset: auto;
+    position-area: bottom center;
+    position-try-fallbacks: top center, bottom span-left, bottom span-right;
+  }
+}
+.tip-kind {
+  display: block;
+  font-family: var(--heading);
+  font-size: 9.5px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 5px;
+}
+.tip-body {
+  display: block;
+  font-size: 12.5px;
+  line-height: 1.45;
+  color: var(--body, var(--text));
+}
+.tip:popover-open { display: block; }
+
+@media (prefers-color-scheme: dark) {
+  .tip { box-shadow: 0 8px 30px color-mix(in srgb, #000 55%, transparent); }
+}
+:root[data-theme='dark'] .tip { box-shadow: 0 8px 30px color-mix(in srgb, #000 55%, transparent); }
+:root[data-theme='light'] .tip { box-shadow: 0 8px 28px color-mix(in srgb, #000 22%, transparent); }
+
 .mark-check { display: inline-flex; vertical-align: middle; color: var(--accent); }
 .mark-na {
   color: var(--na);
@@ -1875,8 +1955,13 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   .lang-picker,
   .back-to-top,
   .bp-corner,
+  .qual-dot,
   .no-print,
   .navlink { display: none; }
+  /* A qualified figure must print identically to an unqualified one: no dot,
+     no dotted underline, no button chrome. Closed popovers don't print. */
+  .qual { cursor: auto; }
+  .qual .mark-val { border-bottom: 0; }
   /* The dossier side-nav is a sticky jump-menu. In print a sticky element
      re-lays itself at the top of every page, which is what put the block of
      overlapping RTL nav text across the top of each Farsi print-out page. The

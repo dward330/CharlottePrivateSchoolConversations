@@ -15,12 +15,26 @@ import {
   type OverlayFile,
 } from '../lib/localizeData.ts'
 
+/**
+ * Per-cell provenance shown in a top-layer popover (see components/CellQual.tsx).
+ * Only cells needing a caveat carry one — a plain exact count has no entry, and
+ * the absence of the marker is itself the signal.
+ */
+export type CellQual = {
+  /** Short uppercase kicker key — one of the `compare.qual.*` locale keys. */
+  kind: 'minimum' | 'range' | 'official' | 'scope'
+  /** At most two sentences. Reader-facing prose, not maintainer shorthand. */
+  text: string
+}
+
 export type ValueMetric = {
   topic: string // topic slug
   key: string
   label: string
   note?: string
   values: Record<string, string | null> // school slug -> display value | null (N/A)
+  /** Optional per-school provenance. Only cells needing a caveat appear here. */
+  quals?: Record<string, CellQual>
 }
 
 export const VALUE_METRICS: ValueMetric[] = [
@@ -44,6 +58,20 @@ export const VALUE_METRICS: ValueMetric[] = [
       'davidson-day': '~75', // 74 described + AP Spanish Literature listed without a description; 66 on the 2026-27 offerings grid
       'providence-day': '149', // distinct entries; multi-year language sequences counted once per track
     },
+    quals: {
+      'charlotte-christian': {
+        kind: 'scope',
+        text: 'About 135 unique course titles; 6 of them are cross-listed in two departments, so a department-by-department tally would count those twice.',
+      },
+      'davidson-day': {
+        kind: 'scope',
+        text: '74 courses are described in the 2026–27 catalog, with one more (AP Spanish Literature) listed without a description. The school’s own offerings grid shows 66.',
+      },
+      'providence-day': {
+        kind: 'scope',
+        text: 'Distinct course entries, with multi-year language sequences counted once per track rather than once per level.',
+      },
+    },
   },
   {
     topic: 'course-offerings',
@@ -57,6 +85,24 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-latin': '22 AP subjects', // the school's stated figure; 23 AP-titled entries appear on the course page
       'davidson-day': '26 AP', // the catalog's explicit AP list (p.11)
       'providence-day': '28 AP', // 28 AP courses described; catalog prose names 27 subject areas
+    },
+    quals: {
+      cannon: {
+        kind: 'scope',
+        text: 'From the 2026–27 catalog. The 2025–26 profile stated 13 AP / 8 AT before the Advanced Topics program expanded; the AT courses carry the same weight as an AP.',
+      },
+      'charlotte-country-day': {
+        kind: 'scope',
+        text: 'The only school here offering both AP and the full IB Diploma. Beyond the 18 IB courses sit the IB core — Theory of Knowledge, the Extended Essay, and CAS.',
+      },
+      'charlotte-latin': {
+        kind: 'scope',
+        text: '22 is the school’s own stated figure; 23 AP-titled entries actually appear on the course-offerings page.',
+      },
+      'providence-day': {
+        kind: 'scope',
+        text: '28 AP courses are described in the catalog, whose prose names 27 subject areas.',
+      },
     },
   },
   {
@@ -159,6 +205,12 @@ export const VALUE_METRICS: ValueMetric[] = [
       'davidson-day': '42 / 68', // buckets, collegeSupportPrograms/davidson-day.ts
       'providence-day': '57 / 68', // buckets, collegeSupportPrograms/providence-day.ts
     },
+    quals: {
+      'charlotte-latin': {
+        kind: 'scope',
+        text: 'Counted from the school’s published acceptance list against the Power Four conferences. The researcher’s own tally reached 62; the figure shown, 53, is the conservative count reflected in this table.',
+      },
+    },
   },
   {
     topic: 'college-support',
@@ -205,6 +257,12 @@ export const VALUE_METRICS: ValueMetric[] = [
       'davidson-day': '$26,910', // Upper School 9–12, 2026–27
       'providence-day': '$36,325', // Grades 6–12, 2026–27
     },
+    quals: {
+      'providence-day': {
+        kind: 'scope',
+        text: 'This is the Grades 6–12 tuition for 2026–27. Providence Day’s top band spans Grades 6–12, so it covers a wider grade range than the 9–12 figures beside it.',
+      },
+    },
   },
   {
     topic: 'financial-aid-tuition',
@@ -218,6 +276,24 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-latin': '14%', // 14% of students (strategic plan)
       'davidson-day': null, // share on aid not published
       'providence-day': '~21%', // ~21% of families (undated)
+    },
+    quals: {
+      cannon: {
+        kind: 'scope',
+        text: 'Share of students receiving aid in 2025–26.',
+      },
+      'charlotte-country-day': {
+        kind: 'scope',
+        text: 'Approximately 20% of the student body; the school does not date this figure.',
+      },
+      'charlotte-latin': {
+        kind: 'scope',
+        text: '14% of students, from the school’s strategic plan.',
+      },
+      'providence-day': {
+        kind: 'scope',
+        text: 'Approximately 21% of families — a family-level share rather than a share of students, and the school does not date it.',
+      },
     },
   },
   {
@@ -233,6 +309,20 @@ export const VALUE_METRICS: ValueMetric[] = [
       'davidson-day': null, // aid budget not published
       'providence-day': '$3.68M', // $3,683,971 (2017–18, most recent published)
     },
+    quals: {
+      cannon: {
+        kind: 'scope',
+        text: '$3,000,000 in tuition assistance awarded in 2025–26.',
+      },
+      'charlotte-latin': {
+        kind: 'scope',
+        text: '$3.25M awarded in 2024–25.',
+      },
+      'providence-day': {
+        kind: 'scope',
+        text: '$3,683,971 — the most recent figure the school publishes, from 2017–18, so it is older than the others shown here.',
+      },
+    },
   },
   {
     topic: 'financial-aid-tuition',
@@ -246,6 +336,16 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-latin': '$17,900', // average award, 2024–25
       'davidson-day': null, // average/median not published
       'providence-day': '$13,695', // average grant (2017–18, most recent published)
+    },
+    quals: {
+      'charlotte-latin': {
+        kind: 'scope',
+        text: 'Average aid award in 2024–25.',
+      },
+      'providence-day': {
+        kind: 'scope',
+        text: '$13,695 average grant, from 2017–18 — the most recent year the school publishes an average, so it is older than the Charlotte Latin figure beside it.',
+      },
     },
   },
 
@@ -292,6 +392,12 @@ export const VALUE_METRICS: ValueMetric[] = [
       'davidson-day': null, // not detailed
       'providence-day': '3 AP arts', // AP Studio Art, AP Art History, AP Music Theory
     },
+    quals: {
+      'providence-day': {
+        kind: 'scope',
+        text: 'Three AP arts courses: AP Studio Art, AP Art History, and AP Music Theory.',
+      },
+    },
   },
   {
     topic: 'the-arts',
@@ -306,13 +412,64 @@ export const VALUE_METRICS: ValueMetric[] = [
       'davidson-day': null, // no count stated
       'providence-day': '4 ensembles', // Band, Orchestra, Chorus, Jazz
     },
+    quals: {
+      'charlotte-christian': {
+        kind: 'minimum',
+        text: '40+ arts electives across four areas — a stated floor rather than an exact catalog count.',
+      },
+      'providence-day': {
+        kind: 'scope',
+        text: 'Four performing ensembles: Band, Orchestra, Chorus, and Jazz.',
+      },
+    },
   },
 
   // ============================ Student Clubs ============================
-  // From each school's Student Clubs note (verified July 2026). Two proposed tiles
-  // (total-club count, competitive-club count) were dropped: club counts are defined
-  // inconsistently across schools (exact vs range vs minimum) and a competitive count
-  // was published by only one school — neither compares cleanly.
+  // From each school's Student Clubs note (verified July 2026). The total-club
+  // count now SHIPS as the first row below: the per-cell provenance tooltip
+  // (quals) resolves the objection that once dropped it — the counts are defined
+  // inconsistently (exact vs range vs documented minimum), but each cell now
+  // discloses exactly what it counts on hover/focus, and the ≥ prefix + verbatim
+  // ~45–50 range make a floor or range visible without the tooltip. The
+  // competitive-club count tile stays dropped: only one school publishes one, so
+  // it still does not compare cleanly.
+  {
+    topic: 'student-clubs',
+    key: 'us-organizations',
+    label: 'Upper School student organizations',
+    note: 'Clubs, honor societies, and student-led organizations in the Upper School. Each school counts differently — hover a figure for what it includes.',
+    values: {
+      cannon: '≥19', // 8 named US orgs + 11 US honor societies; no chartered directory published
+      'charlotte-christian': '23', // 23 named US orgs (part of 35 across JK–12)
+      'charlotte-country-day': '~45–50', // school publishes a range; only 7 confirmed by name
+      'charlotte-latin': '25', // exact, in-scope US clubs across six interest areas
+      'davidson-day': '≥9', // confirmed clubs only; no US roster published
+      'providence-day': '77', // official 25–26 US list, 5 arts clubs excluded
+    },
+    quals: {
+      cannon: {
+        kind: 'minimum',
+        text: 'Cannon publishes no chartered club directory, so this is a documented floor: 8 named Upper School organizations plus its 11 Upper School honor societies. The live roster shifts year to year and is not fully disclosed.',
+      },
+      'charlotte-christian': {
+        kind: 'scope',
+        text: 'Counts the 23 named organizations in the Upper School across four categories. The school also reports 35 across JK–12; only the Upper School band is used here for a like-for-like comparison.',
+      },
+      'charlotte-country-day': {
+        kind: 'range',
+        text: 'The school publishes a range rather than a list — its Upper School page cites “nearly 50 clubs” and the 2025–26 profile lists “45 different clubs and activities.” Only 7 are confirmed by name in public sources.',
+      },
+      'davidson-day': {
+        kind: 'minimum',
+        text: 'Davidson Day publishes no Upper School club roster, so this counts only the clubs confirmed in public sources — a documented floor, not a total.',
+      },
+      'providence-day': {
+        kind: 'official',
+        text: 'Taken from the school’s official 2025–26 Upper School club list, with 5 arts clubs excluded for a clean count — the deepest slate in the set.',
+      },
+      // charlotte-latin deliberately absent — exact in-scope count, no caveat
+    },
+  },
   {
     topic: 'student-clubs',
     key: 'flagship-result',
@@ -344,6 +501,24 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-latin': '~90% play a sport', // ~90% in grades 7–12 play a sanctioned sport
       'davidson-day': null, // no participation figure published
       'providence-day': '~50% in service clubs', // service clubs engage ~half of Upper School
+    },
+    quals: {
+      cannon: {
+        kind: 'scope',
+        text: 'About 10,000 service hours a year, scoped to the Upper School page that carries it. This replaces an older ~15,000 school-wide figure the school no longer publishes.',
+      },
+      'charlotte-country-day': {
+        kind: 'scope',
+        text: 'About half of juniors and seniors mentor younger students weekly — a mentoring-participation figure rather than a club-membership one.',
+      },
+      'charlotte-latin': {
+        kind: 'scope',
+        text: 'About 90% of students in grades 7–12 play a sanctioned sport. This is a sports-participation figure, the breadth measure the school publishes.',
+      },
+      'providence-day': {
+        kind: 'scope',
+        text: 'Service clubs engage roughly half of the Upper School.',
+      },
     },
   },
 
@@ -391,6 +566,24 @@ export const VALUE_METRICS: ValueMetric[] = [
       'davidson-day': '3', // ’25 Denis (UNC), Gordon (Georgia) · ’26 Stevens (Clemson)
       'providence-day': '17', // school "Alumni at the Next Level" roster, 2024–26 (17 P4 tally)
     },
+    quals: {
+      cannon: {
+        kind: 'minimum',
+        text: 'A documented minimum. Several of Cannon’s best-known athletes committed outside the 2024–26 window and so are not counted here.',
+      },
+      'charlotte-christian': {
+        kind: 'minimum',
+        text: 'A documented minimum: the school’s public commitment list runs through 2025, and its Class of 2026 is not yet compiled.',
+      },
+      'charlotte-latin': {
+        kind: 'minimum',
+        text: 'A documented minimum. Charlotte Latin’s academically heavy classes send many athletes to Division III, and its November signing lists are partial.',
+      },
+      'davidson-day': {
+        kind: 'minimum',
+        text: 'A documented minimum; the Classes of 2024 and 2026 are under-documented for Davidson Day.',
+      },
+    },
   },
   {
     topic: 'sports',
@@ -404,6 +597,24 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-latin': '14', // ’24: Coppage, Floyd, Salvage (3) · ’25: Booker, Clontz, Connor, Milligan, Morgan (5) · ’26: Short, K.Smith, Lee, Holland, Gorelick, Cheatwood (6)
       'davidson-day': '9', // ’24: M.Smith · ’25: Denis, Doty, Glass, Gordon, Seifert, K.Smith · ’26: Stevens, Peck (2024 & 2026 under-documented — floor)
       'providence-day': '39', // school roster D1 tally, 2024–26
+    },
+    quals: {
+      cannon: {
+        kind: 'minimum',
+        text: 'A documented minimum. Several of Cannon’s best-known athletes committed outside the 2024–26 window and so are not counted here.',
+      },
+      'charlotte-christian': {
+        kind: 'minimum',
+        text: 'A documented minimum: the school’s public commitment list runs through 2025, and its Class of 2026 is not yet compiled.',
+      },
+      'charlotte-latin': {
+        kind: 'minimum',
+        text: 'A documented minimum. Charlotte Latin’s academically heavy classes send many athletes to Division III, and its November signing lists are partial.',
+      },
+      'davidson-day': {
+        kind: 'minimum',
+        text: 'A documented minimum; the Classes of 2024 and 2026 are under-documented for Davidson Day.',
+      },
     },
   },
 ]

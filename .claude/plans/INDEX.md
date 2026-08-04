@@ -12,3 +12,4 @@ Newest last.
 | [selectivity-rows](selectivity-rows.md) | Put the six selectivity buckets on the College Support Compare table, and drop AP scope + National Merit | 2026-08-02 | Implemented | [#93](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/93) |
 | [explore-hero-title](explore-hero-title.md) | Reword the home hero title to "Explore Charlotte's private schools" | 2026-08-02 | Implemented | [#94](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/94) |
 | [acceptance-years](acceptance-years.md) | Harmonize the "Where Graduates Go" acceptance window to 2023 onward for all six schools | 2026-08-04 | Implemented | [#100](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/100) |
+| [cell-provenance](cell-provenance.md) | Add a "Student organizations" Compare row, and surface per-cell provenance tooltips across every Compare topic | 2026-08-04 | In progress | — |
