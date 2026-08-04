@@ -487,7 +487,7 @@ export const davidsonDay: CollegeSupportProgram = {
     scholarshipsNote:
       'The $7.4M is the school’s own wording — “offered”, not accepted, so it includes awards from colleges no student attended. The number of students receiving merit, the median award, and the accepted total are all unpublished, as are Morehead-Cain, Robertson, QuestBridge and ROTC outcomes.',
     caveat:
-      'this is a five-year cumulative acceptance list, not a matriculation list. A college earns a place by admitting one student at any point across five classes, so the list measures breadth, not placement. Nothing on it is bolded or otherwise marked to show enrollment — the school reports that the Class of 2025 “selected 35 different colleges” but never names them.',
+      'this is a five-year cumulative acceptance list, not a matriculation list. A college earns a place by admitting one student at any point across five classes, so the list measures breadth, not placement. Nothing on it is bolded or otherwise marked to show enrollment — the school reports that the Class of 2025 “selected 35 different colleges” but never names them. This window begins in 2021, two years before the 2023 floor the other schools here share: the 2025–26 profile still prints this single 2021–2025 block with no per-class breakdown, so the pre-2023 classes cannot be split off without discarding the list, and no narrower or newer named list is published.',
     flags: [
       {
         kind: 'gap',

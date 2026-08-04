@@ -555,7 +555,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
       { value: '$14.7M', label: 'scholarship offers, Class of 2026 ($13M for 2025)' },
     ],
     buckets: [
-      { tier: 'Ivy League', count: '7 / 8', note: '— absent Harvard, across seven published classes' },
+      { tier: 'Ivy League', count: '7 / 8', note: '— absent Harvard, across the 2023–2026 list' },
       { tier: '“Ivy Plus”', count: '13 / 17', note: '— Stanford and Duke enrolling' },
       { tier: 'Top-75 National Universities', count: '55 / 75' },
       { tier: 'Top-75 Liberal Arts', count: '41 / 75', note: '— includes all three federal service academies' },
