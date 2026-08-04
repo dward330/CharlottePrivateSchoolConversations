@@ -552,6 +552,20 @@ main { flex: 1; }
   background: var(--bg);
   transition: background 0.12s ease;
 }
+/* A hairline-grid cell draws only its own left and top rules, so an internal
+   horizontal rule is really the next row's top edge. With 7 topics over 3
+   columns the last row holds one cell, leaving the two cells above it with
+   nothing below them. Draw that rule on the grid instead, full width, so the
+   last row reads as a row. */
+.topic-grid::before {
+  content: '';
+  grid-column: 1 / -1;
+  grid-row: -2;
+  align-self: start;
+  height: 1px;
+  margin-top: -1px;
+  background: var(--border);
+}
 .topic-cell:hover { background: color-mix(in srgb, var(--accent) 7%, var(--bg)); }
 .topic-cell:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
 .topic-cell-icon { display: inline-flex; color: var(--accent); }
