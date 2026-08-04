@@ -1,4 +1,4 @@
-var e=`charlotte-christian`,t=`college-support`,n=13,r=[{subtopic:`Academic Case`,source_file:`Charlotte Christian - College Support - Academic Case.pdf`,preview:`CHARLOTTE CHRISTIAN 2 · Academic Case College Support Analysis SEGMENT 2 OF 7 The Academic Case Rigor and credentials — testing outcomes, AP results, National Merit, and how grading is presented to colleges. Charlotte Christian is an Advanced Placement school (not IB), offering 21 AP / college-level (500-level)…`,text:`CHARLOTTE CHRISTIAN
+var e=`charlotte-christian`,t=`college-support`,n=18,r=[{subtopic:`Academic Case`,source_file:`Charlotte Christian - College Support - Academic Case.pdf`,preview:`CHARLOTTE CHRISTIAN 2 · Academic Case College Support Analysis SEGMENT 2 OF 7 The Academic Case Rigor and credentials — testing outcomes, AP results, National Merit, and how grading is presented to colleges. Charlotte Christian is an Advanced Placement school (not IB), offering 21 AP / college-level (500-level)…`,text:`CHARLOTTE CHRISTIAN
 2 · Academic Case
 College Support Analysis
 SEGMENT 2 OF 7
@@ -63,7 +63,24 @@ grading scale, and the no-rank/quintile method are all in hand. The only real ga
 count and a written test-optional playbook.
 Parent-facing research dossier — reports only what the school publishes and what public research surfaced. Page 2
 
----`},{subtopic:`Application Support`,source_file:`Charlotte Christian - College Support - Application Support.pdf`,preview:`CHARLOTTE CHRISTIAN 4 · Application Support College Support Analysis SEGMENT 4 OF 7 Hands-On Support: The Application Itself Essays, letters, review, scholarships, financial-aid navigation, and internship experience. Essays and the Writing Center During senior year, college counselors “walk alongside” students as they…`,text:`CHARLOTTE CHRISTIAN
+---`},{subtopic:`Acceptances Window 2023-2026`,source_file:`Charlotte Christian - College Support - Acceptances Window 2023-2026.md`,preview:'# Charlotte Christian School — College Support — Acceptance-Window Research (2023–2026 harmonization) **Provenance:** Researched by Claude via web research, 2026-08-04, for the `acceptance-years` plan (harmonize the "Where Graduates Go" window to a 2023 floor). **School:** Charlotte Christian School, 7301 Sardis Road,…',text:`# Charlotte Christian School — College Support — Acceptance-Window Research (2023–2026 harmonization)
+
+**Provenance:** Researched by Claude via web research, 2026-08-04, for the \`acceptance-years\`
+plan (harmonize the "Where Graduates Go" window to a 2023 floor).
+**School:** Charlotte Christian School, 7301 Sardis Road, Charlotte, NC 28270.
+**Question asked:** Can the 2023–2025 acceptance list be extended to include a Class of 2026?`},{subtopic:`Sources read`,source_file:null,preview:`| Source | URL | What it gave | |---|---|---| | College Counseling page (live, fetched 2026-08-04) | https://www.charlottechristian.com/academics/college-counseling | Links to the current School Profile + College & Career Planning brochure | | Class of 2025 page (live) |…`,text:`| Source | URL | What it gave |
+|---|---|---|
+| College Counseling page (live, fetched 2026-08-04) | https://www.charlottechristian.com/academics/college-counseling | Links to the current School Profile + College & Career Planning brochure |
+| Class of 2025 page (live) | https://www.charlottechristian.com/academics/seniorclass | The **Class of 2025** is the current graduating-class document ("Celebrating the Class of 2025") — $6.4M scholarships, 99% four-year |
+| College & Career Planning brochure (basis on file) | (see charlotte-christian.ts \`CCS\`) | The **2023–2025** three-year acceptance list, 186 institutions |`},{subtopic:`Findings — already at the 2023 floor; 2026 not published`,source_file:null,preview:'1. **The window already starts at 2023.** Christian\'s list is a three-year aggregate covering the **Classes of 2023, 2024 and 2025** — it satisfies the 2023 floor as-is. There is no pre-2023 data to remove. (The `buckets[].note` correctly observes that Yale "appears only on the older list" — i.e. a pre-2023 edition —…',text:`1. **The window already starts at 2023.** Christian's list is a three-year aggregate covering
+ the **Classes of 2023, 2024 and 2025** — it satisfies the 2023 floor as-is. There is no
+ pre-2023 data to remove. (The \`buckets[].note\` correctly observes that Yale "appears only on
+ the older list" — i.e. a pre-2023 edition — confirming the current list is already
+ 2023-floored and the older data is already excluded.)
+
+2. **No Class of 2026 acceptance list exists.** The school's current graduating-class document
+ is "Celebrating the Class of 2025"; the Class of 2026 has not been published as a graduating
+ class. No Class of 2026 acceptance list is available — the window cannot be extended forward.`},{subtopic:`Decision`,source_file:null,preview:"**No window change.** Christian stays `2023–2025`. The `colleges` array, `buckets`, `stats`, `collegesTotal` and `metricValues.ts` rows are unchanged. The existing `caveat` already explains this is a three-year acceptance list (asterisk = Class of 2025 enrollment only) and reads correctly under the harmonized framing.…",text:"**No window change.** Christian stays `2023–2025`. The `colleges` array, `buckets`, `stats`,\n`collegesTotal` and `metricValues.ts` rows are unchanged. The existing `caveat` already\nexplains this is a three-year acceptance list (asterisk = Class of 2025 enrollment only) and\nreads correctly under the harmonized framing. This school required verification only, per the\nplan."},{subtopic:`Note carried to PR body (out of scope here)`,source_file:null,preview:"Charlotte Christian's `collegeSupportPrograms/charlotte-christian.ts` `year` field is one of the seven known English strings that ship untranslated in all non-English locales (documented in CLAUDE.md). This plan does **not** widen `i18n_fields.mjs`, and adds no new prose to that skipped field path. Recorded so it is…",text:"Charlotte Christian's `collegeSupportPrograms/charlotte-christian.ts` `year` field is one of\nthe seven known English strings that ship untranslated in all non-English locales (documented\nin CLAUDE.md). This plan does **not** widen `i18n_fields.mjs`, and adds no new prose to that\nskipped field path. Recorded so it is not re-discovered as a new bug.\n\n---"},{subtopic:`Application Support`,source_file:`Charlotte Christian - College Support - Application Support.pdf`,preview:`CHARLOTTE CHRISTIAN 4 · Application Support College Support Analysis SEGMENT 4 OF 7 Hands-On Support: The Application Itself Essays, letters, review, scholarships, financial-aid navigation, and internship experience. Essays and the Writing Center During senior year, college counselors “walk alongside” students as they…`,text:`CHARLOTTE CHRISTIAN
 4 · Application Support
 College Support Analysis
 SEGMENT 4 OF 7
@@ -1431,4 +1448,4 @@ Figures are attributed to specific class years as published; where the school
 aggregates across classes (e.g., $13.9M over 2023–25), that framing is preserved.
 https://claude.ai/chat/4fa33988-070f-46aa-9e7b-27dcd2655b91 Page 12 of 12
 
----`}],i={school_slug:e,topic_slug:t,section_count:13,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
+---`}],i={school_slug:e,topic_slug:t,section_count:18,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};

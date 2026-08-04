@@ -1,4 +1,4 @@
-var e=`cannon`,t=`college-support`,n=12,r=[{subtopic:`Academic Case`,source_file:`Cannon School - College Support - Academic Case.pdf`,preview:`CANNON SCHOOL Segment 2 — Academic Case The Academic Case Segment 2 of 7 — Rigor and Credentials The headline. Cannon publishes figures many peer schools withhold. The 2025–26 School Profile reports, for the Class of 2025, an actual AP exam pass rate: 197 students sat 425 AP exams, and 92.39% of exams scored 3 or…`,text:`CANNON SCHOOL Segment 2 — Academic Case
+var e=`cannon`,t=`college-support`,n=16,r=[{subtopic:`Academic Case`,source_file:`Cannon School - College Support - Academic Case.pdf`,preview:`CANNON SCHOOL Segment 2 — Academic Case The Academic Case Segment 2 of 7 — Rigor and Credentials The headline. Cannon publishes figures many peer schools withhold. The 2025–26 School Profile reports, for the Class of 2025, an actual AP exam pass rate: 197 students sat 425 AP exams, and 92.39% of exams scored 3 or…`,text:`CANNON SCHOOL Segment 2 — Academic Case
 The Academic Case
 Segment 2 of 7 — Rigor and Credentials
 The headline. Cannon publishes figures many peer schools withhold. The 2025–26 School Profile reports, for the
@@ -53,7 +53,32 @@ Digital portfolios. The AT Portfolio Defense requires students to design and pre
 admissions-specific portfolio program.
 Cannon School — College Support Series Page 2
 
----`},{subtopic:`Application Support`,source_file:`Cannon School - College Support - Application Support.pdf`,preview:`CANNON SCHOOL Segment 4 — Application Support Hands-On Support Segment 4 of 7 — The Application Itself What is documented. The published record covers the family-facing scaffolding in detail: individual family appointments with the assigned counselor (open to all parents, actively scheduled by Cannon for junior and…`,text:`CANNON SCHOOL Segment 4 — Application Support
+---`},{subtopic:`Acceptances Window 2023-2026`,source_file:`Cannon School - College Support - Acceptances Window 2023-2026.md`,preview:'# Cannon School — College Support — Acceptance-Window Research (2023–2026 harmonization) **Provenance:** Researched by Claude via web research, 2026-08-04, for the `acceptance-years` plan (harmonize the "Where Graduates Go" window to a 2023 floor). **School:** Cannon School, 5801 Poplar Tent Road, Concord, NC 28027 |…',text:`# Cannon School — College Support — Acceptance-Window Research (2023–2026 harmonization)
+
+**Provenance:** Researched by Claude via web research, 2026-08-04, for the \`acceptance-years\`
+plan (harmonize the "Where Graduates Go" window to a 2023 floor).
+**School:** Cannon School, 5801 Poplar Tent Road, Concord, NC 28027 | CEEB 340879.
+**Question asked:** Can the published acceptance list be (a) extended to a 2025/2026 class,
+and (b) split so pre-2023 (Class of 2022) acceptances can be dropped, leaving a ≥2023 window?`},{subtopic:`Sources read`,source_file:null,preview:`| Source | URL | What it gave | |---|---|---| | College Counseling page (live, fetched 2026-08-04) | https://www.cannonschool.org/academics/college-counseling | Program/parent-programming/team only — **no acceptance list of any year** | | 2025–26 School Profile (basis on file) |…`,text:`| Source | URL | What it gave |
+|---|---|---|
+| College Counseling page (live, fetched 2026-08-04) | https://www.cannonschool.org/academics/college-counseling | Program/parent-programming/team only — **no acceptance list of any year** |
+| 2025–26 School Profile (basis on file) | https://resources.finalsite.net/images/v1757349467/cannonschoolorg/i5lqf0krxcb4uejss6ul/Cannon_2526_Profile.pdf | Class of 2025 outcome stats (98% four-year) but the **acceptance list was dropped from this edition** |
+| 2024–25 School Profile (the last edition carrying a list) | https://resources.finalsite.net/images/v1727105974/cannonschoolorg/q6vdhpxfxelejegmx4n8/2024-2025_StudentProfile_87212e_webemail.pdf | The **2022–2024 three-year acceptance rollup** (283 institutions) — the newest list Cannon publishes |`},{subtopic:`Findings — the window CANNOT move to a 2023 floor`,source_file:null,preview:`1. **Nothing newer than 2022–2024 is published.** The 2025–26 profile — the current edition — **dropped the acceptance list entirely**; it publishes only aggregate Class of 2025 outcome percentages. Repeated site-scoped and open-web searches for a Class of 2025 or 2026 named destination/acceptance list returned…`,text:`1. **Nothing newer than 2022–2024 is published.** The 2025–26 profile — the current edition —
+ **dropped the acceptance list entirely**; it publishes only aggregate Class of 2025 outcome
+ percentages. Repeated site-scoped and open-web searches for a Class of 2025 or 2026 named
+ destination/acceptance list returned nothing. So the window cannot be extended forward; the
+ newest available list is already one full cycle stale (this is the state the existing card
+ already documents).
+
+2. **The list is a single 2022–2024 aggregate block.** The list is explicitly "College
+ Acceptances" across three graduating classes (2022, 2023, 2024). Cannon publishes **no
+ per-class breakdown** of which class an acceptance came from. (The separately published
+ Class of 2023 *matriculation* list drives the \`enrolling\` markers, but that is enrollment,
+ not the acceptance list, and it is a single class — it cannot re-window the acceptance list.)
+
+3. **Therefore the pre-2023 year (Class of 2022) cannot be subtracted.** Splitting 2023–2024
+ out of the 2022–2024 block would require inferring each institution's class — forbidden by
+ the plan.`},{subtopic:`Decision (user, 2026-08-04)`,source_file:null,preview:"**Keep the full published list (2022–2024) and disclose the constraint in the `caveat`.** The `collegesTitle` stays at the real published window `2022–2024`; it is NOT re-dated. The caveat (which already flags the aggregate/stale nature) is extended to state that because the school publishes only a pre-aggregated…",text:"**Keep the full published list (2022–2024) and disclose the constraint in the `caveat`.**\nThe `collegesTitle` stays at the real published window `2022–2024`; it is NOT re-dated. The\ncaveat (which already flags the aggregate/stale nature) is extended to state that because the\nschool publishes only a pre-aggregated three-year block with no per-class split, the pre-2023\nyear cannot be removed and the window predates the 2023 floor the other schools share.\n\nNo change to the `colleges` array, `buckets`, `stats`, `collegesTotal`, or `metricValues.ts`\nrows — all continue to describe the same 283-institution 2022–2024 list.\n\n---"},{subtopic:`Application Support`,source_file:`Cannon School - College Support - Application Support.pdf`,preview:`CANNON SCHOOL Segment 4 — Application Support Hands-On Support Segment 4 of 7 — The Application Itself What is documented. The published record covers the family-facing scaffolding in detail: individual family appointments with the assigned counselor (open to all parents, actively scheduled by Cannon for junior and…`,text:`CANNON SCHOOL Segment 4 — Application Support
 Hands-On Support
 Segment 4 of 7 — The Application Itself
 What is documented. The published record covers the family-facing scaffolding in detail: individual family
@@ -956,4 +981,4 @@ making — but it is framed as education, not as admissions packaging. The appli
 experiences is undocumented.
 Cannon School — College Support Series Page 1
 
----`}],i={school_slug:e,topic_slug:t,section_count:12,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
+---`}],i={school_slug:e,topic_slug:t,section_count:16,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};

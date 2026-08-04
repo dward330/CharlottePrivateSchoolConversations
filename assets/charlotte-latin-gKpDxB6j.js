@@ -1,4 +1,4 @@
-var e=`charlotte-latin`,t=`college-support`,n=14,r=[{subtopic:`Academic Case`,source_file:`Charlotte Latin - College Support - Academic Case.pdf`,preview:`CHARLOTTE LATIN SCHOOL Inside Charlotte Latin College Support SEGMENT 2 — THE ACADEMIC CASE Rigor & Credentials AP recognition and National Merit across three editions, a weighted transcript colleges are taught to read, and the credential data the school doesn't publish. Charlotte Latin makes its academic case through…`,text:`CHARLOTTE LATIN SCHOOL Inside Charlotte Latin College Support
+var e=`charlotte-latin`,t=`college-support`,n=18,r=[{subtopic:`Academic Case`,source_file:`Charlotte Latin - College Support - Academic Case.pdf`,preview:`CHARLOTTE LATIN SCHOOL Inside Charlotte Latin College Support SEGMENT 2 — THE ACADEMIC CASE Rigor & Credentials AP recognition and National Merit across three editions, a weighted transcript colleges are taught to read, and the credential data the school doesn't publish. Charlotte Latin makes its academic case through…`,text:`CHARLOTTE LATIN SCHOOL Inside Charlotte Latin College Support
 SEGMENT 2 — THE ACADEMIC CASE
 Rigor & Credentials
 AP recognition and National Merit across three editions, a weighted transcript colleges are taught
@@ -67,7 +67,21 @@ National Merit announcement; 2017–18 profile for the historical ACT band. Scor
 self-reported and secondary. Student names omitted throughout.
 Segment 2: The Academic CasRe e—se Rarigcohr- b&a sCerde;d reenptoiarltss only what the school publishes and what research surfaced. Page 2
 
----`},{subtopic:`Application Support`,source_file:`Charlotte Latin - College Support - Application Support.pdf`,preview:`CHARLOTTE LATIN SCHOOL Inside Charlotte Latin College Support SEGMENT 4 — APPLICATION SUPPORT The Application Itself A three-person essay team, review before submission, and the two money conversations kept carefully separate. This segment covers the machinery of the application itself — essays, letters, review, and…`,text:`CHARLOTTE LATIN SCHOOL Inside Charlotte Latin College Support
+---`},{subtopic:`Acceptances Window 2023-2026`,source_file:`Charlotte Latin - College Support - Acceptances Window 2023-2026.md`,preview:'# Charlotte Latin School — College Support — Acceptance-Window Research (2023–2026 harmonization) **Provenance:** Researched by Claude via web research, 2026-08-04, for the `acceptance-years` plan (harmonize the "Where Graduates Go" window to a 2023 floor). **School:** Charlotte Latin School, 9502 Providence Road,…',text:`# Charlotte Latin School — College Support — Acceptance-Window Research (2023–2026 harmonization)
+
+**Provenance:** Researched by Claude via web research, 2026-08-04, for the \`acceptance-years\`
+plan (harmonize the "Where Graduates Go" window to a 2023 floor).
+**School:** Charlotte Latin School, 9502 Providence Road, Charlotte, NC 28277.
+**Question asked:** Can the 2023–2025 acceptance list be extended to include a Class of 2026?`},{subtopic:`Sources read`,source_file:null,preview:`| Source | URL | What it gave | |---|---|---| | College Acceptances page (live, fetched 2026-08-04) | https://www.charlottelatin.org/academics/college-counseling/acceptances | Heading verbatim **"Acceptances by the Classes of 2023-25"** — still the three-year aggregate | | 2025–26 Upper School Profile (basis on file)…`,text:`| Source | URL | What it gave |
+|---|---|---|
+| College Acceptances page (live, fetched 2026-08-04) | https://www.charlottelatin.org/academics/college-counseling/acceptances | Heading verbatim **"Acceptances by the Classes of 2023-25"** — still the three-year aggregate |
+| 2025–26 Upper School Profile (basis on file) | (Finalsite resource manager — see charlotte-latin.ts \`PROFILE\`) | Same 2023–25 "College Admission Summary", 300 institutions |`},{subtopic:`Findings — already at the 2023 floor; 2026 not published`,source_file:null,preview:`1. **The window already starts at 2023.** Latin's list is a three-year aggregate covering the **Classes of 2023, 2024 and 2025** — it satisfies the 2023 floor as-is. There is no pre-2023 data to remove. 2. **No Class of 2026 acceptance list exists.** The live Acceptances page (fetched 2026-08-04) still reads…`,text:`1. **The window already starts at 2023.** Latin's list is a three-year aggregate covering the
+ **Classes of 2023, 2024 and 2025** — it satisfies the 2023 floor as-is. There is no
+ pre-2023 data to remove.
+
+2. **No Class of 2026 acceptance list exists.** The live Acceptances page (fetched
+ 2026-08-04) still reads "Acceptances by the Classes of 2023-25". No Class of 2026
+ acceptance list is published — the school has not extended the window forward.`},{subtopic:`Decision`,source_file:null,preview:"**No window change.** Latin stays `2023–2025`. The `colleges` array, `buckets`, `stats`, `collegesTotal` and `metricValues.ts` rows are unchanged — they already describe the correct in-window list. The existing `caveat` already explains this is a three-year aggregate, not a matriculation list; it was re-read and reads…",text:"**No window change.** Latin stays `2023–2025`. The `colleges` array, `buckets`, `stats`,\n`collegesTotal` and `metricValues.ts` rows are unchanged — they already describe the correct\nin-window list. The existing `caveat` already explains this is a three-year aggregate, not a\nmatriculation list; it was re-read and reads correctly under the harmonized framing (no edit\nrequired beyond confirming it still holds once the other schools are 2023-floored). This\nschool required verification only, per the plan.\n\n---"},{subtopic:`Application Support`,source_file:`Charlotte Latin - College Support - Application Support.pdf`,preview:`CHARLOTTE LATIN SCHOOL Inside Charlotte Latin College Support SEGMENT 4 — APPLICATION SUPPORT The Application Itself A three-person essay team, review before submission, and the two money conversations kept carefully separate. This segment covers the machinery of the application itself — essays, letters, review, and…`,text:`CHARLOTTE LATIN SCHOOL Inside Charlotte Latin College Support
 SEGMENT 4 — APPLICATION SUPPORT
 The Application Itself
 A three-person essay team, review before submission, and the two money conversations kept
@@ -1338,4 +1352,4 @@ earlier profiles (2017–18, 2019–20, 2020–21) for historical sta!ng and pol
 comparisons.
 https://claude.ai/chat/e60b1bb4-7210-47fd-89cc-bf3524ba7055 Page 9 of 9
 
----`}],i={school_slug:e,topic_slug:t,section_count:14,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
+---`}],i={school_slug:e,topic_slug:t,section_count:18,sections:r};export{i as default,e as school_slug,n as section_count,r as sections,t as topic_slug};
