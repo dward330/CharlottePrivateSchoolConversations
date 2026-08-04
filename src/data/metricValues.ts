@@ -606,6 +606,32 @@ export const VALUE_METRICS: ValueMetric[] = [
       'davidson-day': 'Battle of Books 1st', // MS team 1st in regional competition
       'providence-day': 'DECA → ICDC ’26', // DECA advanced to national ICDC 2026
     },
+    quals: {
+      cannon: {
+        kind: 'scope',
+        text: 'The Brainy Yaks robotics team finished in the top 100 of more than 32,000 teams at the FIRST LEGO League World Championship, in back-to-back years (2024 and 2025).',
+      },
+      'charlotte-christian': {
+        kind: 'scope',
+        text: 'The Middle School Chess team placed 2nd at a tournament — the most notable competitive club result the school’s note documents.',
+      },
+      'charlotte-country-day': {
+        kind: 'scope',
+        text: 'The Model UN team earned 6 awards at the MUNCH 2025 conference, including 4 Outstanding Delegate honors.',
+      },
+      'charlotte-latin': {
+        kind: 'scope',
+        text: 'The debate program was named to the NSDA Schools of Excellence — a top-20 ranking nationally.',
+      },
+      'davidson-day': {
+        kind: 'scope',
+        text: 'The Middle School Battle of the Books team placed 1st in its regional competition.',
+      },
+      'providence-day': {
+        kind: 'scope',
+        text: 'The DECA business team advanced to the national International Career Development Conference (ICDC) in 2026.',
+      },
+    },
   },
   {
     topic: 'student-clubs',
