@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-08-04
 branch: feat/acceptance-years
-prs: []
+prs: [100]
 ---
 
 # Harmonize the "Where Graduates Go" acceptance window
@@ -404,7 +404,7 @@ register rule to inherit unexamined.
 
 ## Implementation notes
 
-Implemented in PR #99 (both phases, one PR). The build deviated from the plan's
+Implemented in PR #100 (both phases, one PR). The build deviated from the plan's
 expectations in several ways, all driven by what the research actually found:
 
 - **No acceptance list changed for any school; the work became prose-only.** The plan
