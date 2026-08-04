@@ -1,7 +1,7 @@
 ---
 name: cell-provenance
 title: Add a "Student organizations" Compare row, and surface per-cell provenance tooltips across every Compare topic
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-08-04
 branch: feat/cell-provenance
@@ -511,3 +511,50 @@ Only after that confirmation. **Two different layers, and they are not interchan
 - **Should `program-span` get researched tooltips later?** It is the only metric with zero
   existing provenance comments.
   **Default:** leave it alone; out of scope.
+
+## Implementation notes
+
+**Phase 1 (English) shipped.** Deviations / decisions taken from the plan's defaults:
+
+- **Cannon's figure resolved to `≥19`, not the mock's unsourced `≥23`.** Per the plan's
+  default I derived a defensible Upper-School floor from
+  `src/content/student-clubs/cannon.json`: **8 named Upper School organizations** (Affinity
+  Groups, Habitat Club, Star Wars Club, Yearbook/The Flashback, DECA, Model UN, Cannon
+  School Gaming, Upper School Student Council) **+ 11 confirmed Upper School honor
+  societies** (the "1c" redesign note is authoritative — "11 CONFIRMED, all Upper School,"
+  read from the page's list element, superseding the older 9-in-scope PDF). Rendered with
+  the `≥` prefix and a `minimum` tooltip stating plainly that Cannon publishes no chartered
+  directory. No number was invented.
+
+- **Backfill was done in one pass (the plan's first default), not split.** Applied the
+  "tells a reader something the figure alone doesn't" test strictly, so the real count of
+  qualified cells is well under the ~134 ceiling: **~31 tooltips** across the new row +
+  course-offerings, college-support, financial-aid-tuition, the-arts, student-clubs, and
+  sports. Metrics whose caveat is already carried by the row `note` (e.g. `us-departments`
+  CS placement, `program-span`, `latest-pickup`, `ap-performance` rounding, the uniform
+  selectivity buckets) got no per-cell tooltip by design — the marker's presence is the
+  signal, so putting one everywhere would destroy it.
+
+- **`CellQual.tsx` uses one `@ts-expect-error`, not two.** React 19 already types
+  `popover="auto"` on the DOM but not `popovertarget`, so only the button attribute needs
+  the suppression; the plan's sketch implied both.
+
+- Verification: `tsc`, `build`, `check:money`, `check:currency`, `check:runtime` all clean;
+  full Playwright browser sweep (light + dark, keyboard, print media, right-scroll clipping
+  regression, all 7 topics) all PASS. `check:metrics` failures are pre-existing/advisory and
+  unrelated to this change.
+
+- **Tooltip interaction reworked after review (still Phase 1, no new strings):** it now
+  opens on **hover / keyboard focus** rather than click, is **wider (340px, escaping the
+  cell width)**, and **scrolls vertically** (`.tip-scroll`, `max-height` ~200px) for any
+  body taller than the cap. `popover="manual"` + JS `showPopover()`/`hidePopover()` on
+  pointer-enter/leave and focus/blur drive it, with a 160ms close grace so the pointer can
+  travel onto the tip to scroll. Widening reintroduced a right-edge viewport overflow on the
+  last column, so positioning moved from CSS anchor-positioning (unreliable across the
+  fallback chain here) to `position: fixed` coordinates computed in `place()` from the
+  trigger rect and **clamped into the viewport** — the top layer still defeats
+  `.table-wrap`'s clipping. Note: Playwright's `.hover()` fires a synthetic `pointerleave`
+  immediately after enter, so headless hover-persistence isn't testable with it; verified
+  via the event trace (`enter → toggle:open → leave → toggle:closed`) that a real stationary
+  cursor keeps it open, plus screenshots of the open state on both an edge column (dark) and
+  an interior column (light).

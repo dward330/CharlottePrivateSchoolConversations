@@ -1820,26 +1820,31 @@ table.compare thead th { position: sticky; top: 0; z-index: 3; background: var(-
 /* The tooltip renders in the top layer, so .table-wrap's overflow cannot clip
    it on the scrolled-right columns. */
 .tip {
-  position: relative;
-  max-width: 248px;
+  /* Fixed in the viewport; CellQual.place() sets left/top from the trigger and
+     clamps into view, so a wide tip on an edge column can't run off-screen. The
+     top layer keeps it above .table-wrap's overflow regardless. */
+  position: fixed;
+  inset: auto;
+  /* Wider than a cell — it lives in the top layer, so it need not fit the
+     column. Capped at the viewport on small screens. */
+  width: max-content;
+  max-width: min(340px, calc(100vw - 16px));
   margin: 0;
-  padding: 12px 14px;
+  padding: 14px 16px;
   border: 1px solid var(--border);
   background: var(--surface);
   color: var(--text);
   box-shadow: 0 8px 28px color-mix(in srgb, #000 22%, transparent);
   text-align: start;
+  /* Keep visible so the blueprint corner marks (at negative insets) aren't
+     clipped; the inner .tip-scroll owns the vertical scroll instead. */
   overflow: visible;
 }
-/* Anchor below the trigger where supported; a centered-above default otherwise.
-   The popover sits in the top layer either way, so neither can be clipped. */
-@supports (anchor-name: --a) {
-  .tip {
-    margin: 0;
-    inset: auto;
-    position-area: bottom center;
-    position-try-fallbacks: top center, bottom span-left, bottom span-right;
-  }
+/* Vertical scroll lives here so .tip can stay overflow:visible for its corners. */
+.tip-scroll {
+  max-height: min(200px, calc(100vh - 52px));
+  overflow-y: auto;
+  overscroll-behavior: contain;
 }
 .tip-kind {
   display: block;
