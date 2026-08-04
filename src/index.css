@@ -553,18 +553,23 @@ main { flex: 1; }
   transition: background 0.12s ease;
 }
 /* A hairline-grid cell draws only its own left and top rules, so an internal
-   horizontal rule is really the next row's top edge. With 7 topics over 3
-   columns the last row holds one cell, leaving the two cells above it with
-   nothing below them. Draw that rule on the grid instead, full width, so the
-   last row reads as a row. */
-.topic-grid::before {
-  content: '';
-  grid-column: 1 / -1;
-  grid-row: -2;
-  align-self: start;
-  height: 1px;
-  margin-top: -1px;
-  background: var(--border);
+   horizontal rule is really the next row's top edge, and a cell's right edge
+   is really the next cell's left rule. With 7 topics over 3 columns the last
+   row holds one cell, so the two cells above it have nothing below them and
+   the lone cell has nothing to its right.
+   Add both missing edges to that final row: a bottom rule on the row above it
+   (the last full row), and a right rule on the last cell. */
+.topic-grid > .topic-cell:nth-last-child(-n + 4):not(:last-child) {
+  box-shadow:
+    -1px 0 0 var(--border),
+    0 -1px 0 var(--border),
+    0 1px 0 var(--border);
+}
+.topic-grid > .topic-cell:last-child {
+  box-shadow:
+    -1px 0 0 var(--border),
+    0 -1px 0 var(--border),
+    1px 0 0 var(--border);
 }
 .topic-cell:hover { background: color-mix(in srgb, var(--accent) 7%, var(--bg)); }
 .topic-cell:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
