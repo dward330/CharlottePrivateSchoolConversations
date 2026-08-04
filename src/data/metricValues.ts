@@ -73,21 +73,6 @@ export const VALUE_METRICS: ValueMetric[] = [
       'providence-day': '11', // catalog sections, incl. both IDEAS@PDS strands
     },
   },
-  {
-    topic: 'course-offerings',
-    key: 'grade-span',
-    label: 'one continuous course of study',
-    note: 'The school’s own lowest published entry point through Grade 12. Division bands differ: Charlotte Christian puts Grade 5 in Middle School, and Davidson Day enrolls from age 2.',
-    values: {
-      cannon: 'JrK–12', // Junior Kindergarten through Grade 12
-      'charlotte-christian': 'JK–12', // Junior Kindergarten through Grade 12; Lower School is JK–4
-      'charlotte-country-day': 'JK–12', // 13 grades served, Junior Kindergarten through 12
-      'charlotte-latin': 'TK–12', // Transitional Kindergarten through Grade 12
-      'davidson-day': 'Age 2–12', // Early Preschool (2s/3s) through Grade 12
-      'providence-day': 'TK–12', // Transitional Kindergarten through Grade 12
-    },
-  },
-
   // ============================ College Support ============================
   // Extracted from each school's College Support research note (verified against
   // the note text July 2026). null = the school does not publish that figure.
