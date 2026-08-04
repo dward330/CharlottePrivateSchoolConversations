@@ -101,8 +101,13 @@ def find_urls(text):
     return out
 
 def list_dirs(p):
+    # Skip dotfiles and underscore-prefixed folders. `_`-prefixed dirs (e.g.
+    # `_shared`) are deliberate non-school holders — shared denominators and
+    # reference tables that must never surface as a school in the manifest, or
+    # they would render as an extra school card/page on the site.
     return sorted(d for d in os.listdir(p)
-                  if os.path.isdir(os.path.join(p, d)) and not d.startswith("."))
+                  if os.path.isdir(os.path.join(p, d))
+                  and not d.startswith(".") and not d.startswith("_"))
 
 def main():
     only = sys.argv[1] if len(sys.argv) > 1 else None
