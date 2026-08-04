@@ -1,7 +1,7 @@
 ---
 name: acceptance-years
 title: Harmonize the "Where Graduates Go" acceptance window to 2023 onward for all six schools
-status: english-done
+status: implemented
 phases: 2
 created: 2026-08-04
 branch: feat/acceptance-years
@@ -401,3 +401,43 @@ register rule to inherit unexamined.
   (documented in `CLAUDE.md`) include `collegeSupportPrograms/charlotte-christian.ts`
   `year` values. **Default:** out of scope — do not widen `i18n_fields.mjs` in this plan, but
   do not make it worse by adding new prose to a skipped field path.
+
+## Implementation notes
+
+Implemented in PR #99 (both phases, one PR). The build deviated from the plan's
+expectations in several ways, all driven by what the research actually found:
+
+- **No acceptance list changed for any school; the work became prose-only.** The plan
+  anticipated re-windowing four schools (dropping pre-2023 colleges, re-deriving buckets,
+  syncing `metricValues.ts`). Research showed every school publishes only a single
+  pre-aggregated multi-year block with no per-class breakdown, so no list could be split
+  or extended without inferring which year an acceptance belonged to — which the plan
+  forbids. **User decision (recorded mid-build): keep every published list and disclose the
+  window in the caveat.** Consequently: zero colleges added/removed, zero bucket counts
+  changed, and `metricValues.ts` was correctly left untouched (step 9 was a no-op, verified).
+- **Final windows:** Cannon `2022–2024`, Davidson Day `2021–2025` (both below the 2023
+  floor, now disclosed in-caveat); Charlotte Latin & Charlotte Christian `2023–2025`
+  (already at floor, no 2026 published); Providence Day & Country Day `2023–2026`
+  (verified, unchanged).
+- **The five prose edits:** the four caveats above plus Country Day's Ivy bucket note
+  (`'across seven published classes'` → `'across the 2023–2026 list'`). Providence Day's
+  caveat clause was re-read and left unchanged — it accurately discloses the live-page /
+  profile-PDF window discrepancy and needed no edit.
+- **Step 5b (reference-school per-college provenance):** the live 2023–2026 pages don't
+  expose which class each acceptance came from, so per the stated default both lists were
+  left as-is. No pre-2023 straggler was removable, none was removed.
+- **Phase 2 extractor:** the plan named `i18n_extract_content.mjs`, but that is the
+  `src/content` extractor and does not cover `college-support` (the topic's prose renders
+  from `src/data/collegeSupportPrograms/*.ts`, which `SchoolDetail.tsx` fully substitutes).
+  The correct tool is `i18n_extract.mjs` + `i18n_build_overlay.mjs`, which is how the
+  existing `college-support.<lang>.json` overlays were built. Only the 5 changed entries'
+  stamps/translations were updated per locale; all others untouched.
+- **Ingest side-effect fixed:** a full `build_docs.py` re-ingest added `_shared` (the
+  denominator folder) as a 7th school in the manifest, because main's `schools.json`
+  predated the `_shared` denominator files (PRs #89/#92) and had never been regenerated.
+  Fixed by excluding `_`-prefixed folders in `build_docs.py`; the manifest school list is
+  now byte-identical to main.
+- **Left as-is (noted, not changed):** Country Day's *checklist* tour-question still reads
+  "Harvard is absent across seven published classes" — a legitimate historical framing,
+  outside the plan's named touch (the Ivy bucket note). The pre-existing `es` sepdrift
+  defect (`$7.4M`→`$7,4M` in an untouched Davidson Day entry) is unrelated and out of scope.
