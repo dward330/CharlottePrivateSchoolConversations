@@ -526,14 +526,20 @@ Only after that confirmation. **Two different layers, and they are not interchan
   the `≥` prefix and a `minimum` tooltip stating plainly that Cannon publishes no chartered
   directory. No number was invented.
 
-- **Backfill was done in one pass (the plan's first default), not split.** Applied the
-  "tells a reader something the figure alone doesn't" test strictly, so the real count of
-  qualified cells is well under the ~134 ceiling: **~31 tooltips** across the new row +
-  course-offerings, college-support, financial-aid-tuition, the-arts, student-clubs, and
-  sports. Metrics whose caveat is already carried by the row `note` (e.g. `us-departments`
-  CS placement, `program-span`, `latest-pickup`, `ap-performance` rounding, the uniform
-  selectivity buckets) got no per-cell tooltip by design — the marker's presence is the
-  signal, so putting one everywhere would destroy it.
+- **Backfill was done in one pass (the plan's first default), not split.** The first pass
+  applied the "tells a reader something the figure alone doesn't" test strictly (~31
+  tooltips). **After review the user asked to explain *every* terse cell** in The Arts,
+  College Support, and After School — the topics whose values are the most coded
+  (`NCTC festival`, `31+ Blumey noms`, `3 pillars`, `8 / 17`, `~44:1`, `6:00 PM`). So those
+  three topics are now **fully covered**: every non-N/A value cell carries a tooltip
+  (~90 total across the file). This reverses the earlier decision to leave `program-span`,
+  `latest-pickup`, `ap-performance`, and the uniform selectivity buckets uncovered — the
+  request was explicit that the marker's presence mattered less than every cell being
+  explained. Course-offerings, financial-aid, student-clubs, and sports keep the selective
+  treatment. College-support bucket tooltips restate each fraction in words per school and
+  copy the numerator char-for-char; verified 46 college-support + 3 after-school figures
+  appear verbatim in their tooltip text (Arts count-words like "three pillars" are prose,
+  not citations).
 
 - **`CellQual.tsx` uses one `@ts-expect-error`, not two.** React 19 already types
   `popover="auto"` on the DOM but not `popovertarget`, so only the button attribute needs

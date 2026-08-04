@@ -135,6 +135,12 @@ export const VALUE_METRICS: ValueMetric[] = [
       'davidson-day': null, // pass rate not published
       'providence-day': '94%', // May 2025: 94% scored 3+
     },
+    quals: {
+      cannon: { kind: 'scope', text: 'About 92% of AP exams scored 3 or higher (the school reports 92.39%). A score of 3+ is the level most colleges treat as a passing result.' },
+      'charlotte-christian': { kind: 'scope', text: '89% of AP exams scored 3 or higher in 2024 (265 of 298). A score of 3+ is the level most colleges treat as a passing result.' },
+      'charlotte-country-day': { kind: 'scope', text: '93% of AP exams scored 3 or higher overall in 2025. A score of 3+ is the level most colleges treat as a passing result.' },
+      'providence-day': { kind: 'scope', text: '94% of AP exams scored 3 or higher in May 2025. A score of 3+ is the level most colleges treat as a passing result.' },
+    },
   },
   {
     topic: 'college-support',
@@ -148,6 +154,14 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-latin': '5 / 8', // buckets, collegeSupportPrograms/charlotte-latin.ts
       'davidson-day': '3 / 8', // buckets, collegeSupportPrograms/davidson-day.ts
       'providence-day': '8 / 8', // buckets, collegeSupportPrograms/providence-day.ts
+    },
+    quals: {
+      cannon: { kind: 'scope', text: '3 of the 8 Ivy League universities appear on Cannon’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-christian': { kind: 'scope', text: '2 of the 8 Ivy League universities appear on Charlotte Christian’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-country-day': { kind: 'scope', text: '7 of the 8 Ivy League universities appear on Charlotte Country Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-latin': { kind: 'scope', text: '5 of the 8 Ivy League universities appear on Charlotte Latin’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+      'davidson-day': { kind: 'scope', text: '3 of the 8 Ivy League universities appear on Davidson Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+      'providence-day': { kind: 'scope', text: '8 of the 8 Ivy League universities appear on Providence Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
     },
   },
   {
@@ -163,6 +177,14 @@ export const VALUE_METRICS: ValueMetric[] = [
       'davidson-day': '8 / 17', // buckets, collegeSupportPrograms/davidson-day.ts
       'providence-day': '17 / 17', // buckets, collegeSupportPrograms/providence-day.ts
     },
+    quals: {
+      cannon: { kind: 'scope', text: '10 of the 17 “Ivy Plus” institutions appear on Cannon’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-christian': { kind: 'scope', text: '4 of the 17 “Ivy Plus” institutions appear on Charlotte Christian’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-country-day': { kind: 'scope', text: '13 of the 17 “Ivy Plus” institutions appear on Charlotte Country Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-latin': { kind: 'scope', text: '12 of the 17 “Ivy Plus” institutions appear on Charlotte Latin’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+      'davidson-day': { kind: 'scope', text: '8 of the 17 “Ivy Plus” institutions appear on Davidson Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+      'providence-day': { kind: 'scope', text: '17 of the 17 “Ivy Plus” institutions appear on Providence Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+    },
   },
   {
     topic: 'college-support',
@@ -177,6 +199,14 @@ export const VALUE_METRICS: ValueMetric[] = [
       'davidson-day': '44 / 75', // buckets, collegeSupportPrograms/davidson-day.ts
       'providence-day': '58 / 75', // buckets, collegeSupportPrograms/providence-day.ts
     },
+    quals: {
+      cannon: { kind: 'scope', text: '46 of the top 75 National Universities appear on Cannon’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-christian': { kind: 'scope', text: '30 of the top 75 National Universities appear on Charlotte Christian’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-country-day': { kind: 'scope', text: '55 of the top 75 National Universities appear on Charlotte Country Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-latin': { kind: 'scope', text: '53 of the top 75 National Universities appear on Charlotte Latin’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+      'davidson-day': { kind: 'scope', text: '44 of the top 75 National Universities appear on Davidson Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+      'providence-day': { kind: 'scope', text: '58 of the top 75 National Universities appear on Providence Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+    },
   },
   {
     topic: 'college-support',
@@ -190,6 +220,14 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-latin': '40 / 75', // buckets, collegeSupportPrograms/charlotte-latin.ts
       'davidson-day': '26 / 75', // buckets, collegeSupportPrograms/davidson-day.ts
       'providence-day': '43 / 75', // buckets, collegeSupportPrograms/providence-day.ts
+    },
+    quals: {
+      cannon: { kind: 'scope', text: '27 of the top 75 Liberal Arts Colleges appear on Cannon’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-christian': { kind: 'scope', text: '7 of the top 75 Liberal Arts Colleges appear on Charlotte Christian’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-country-day': { kind: 'scope', text: '41 of the top 75 Liberal Arts Colleges appear on Charlotte Country Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-latin': { kind: 'scope', text: '40 of the top 75 Liberal Arts Colleges appear on Charlotte Latin’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+      'davidson-day': { kind: 'scope', text: '26 of the top 75 Liberal Arts Colleges appear on Davidson Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+      'providence-day': { kind: 'scope', text: '43 of the top 75 Liberal Arts Colleges appear on Providence Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
     },
   },
   {
@@ -206,10 +244,15 @@ export const VALUE_METRICS: ValueMetric[] = [
       'providence-day': '57 / 68', // buckets, collegeSupportPrograms/providence-day.ts
     },
     quals: {
+      cannon: { kind: 'scope', text: '43 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Cannon’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-christian': { kind: 'scope', text: '34 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Charlotte Christian’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-country-day': { kind: 'scope', text: '53 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Charlotte Country Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
       'charlotte-latin': {
         kind: 'scope',
         text: 'Counted from the school’s published acceptance list against the Power Four conferences. The researcher’s own tally reached 62; the figure shown, 53, is the conservative count reflected in this table.',
       },
+      'davidson-day': { kind: 'scope', text: '42 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Davidson Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+      'providence-day': { kind: 'scope', text: '57 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Providence Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
     },
   },
   {
@@ -225,6 +268,14 @@ export const VALUE_METRICS: ValueMetric[] = [
       'davidson-day': '3 / 107', // buckets, collegeSupportPrograms/davidson-day.ts
       'providence-day': '14 / 107', // buckets, collegeSupportPrograms/providence-day.ts
     },
+    quals: {
+      cannon: { kind: 'scope', text: '5 of the 107 Historically Black Colleges & Universities appear on Cannon’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-christian': { kind: 'scope', text: '10 of the 107 Historically Black Colleges & Universities appear on Charlotte Christian’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-country-day': { kind: 'scope', text: '18 of the 107 Historically Black Colleges & Universities appear on Charlotte Country Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+      'charlotte-latin': { kind: 'scope', text: '6 of the 107 Historically Black Colleges & Universities appear on Charlotte Latin’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+      'davidson-day': { kind: 'scope', text: '3 of the 107 Historically Black Colleges & Universities appear on Davidson Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+      'providence-day': { kind: 'scope', text: '14 of the 107 Historically Black Colleges & Universities appear on Providence Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+    },
   },
   {
     topic: 'college-support',
@@ -238,6 +289,14 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-latin': '~36:1', // ~36–37 seniors/counselor
       'davidson-day': '~23:1', // ~23–24 seniors in a ~47-student class
       'providence-day': '~44:1', // ~44–45 seniors/counselor (quarter-class model)
+    },
+    quals: {
+      cannon: { kind: 'scope', text: 'About 28 seniors per dedicated college counselor at peak application season — 111 seniors across 4 counselors. A lower ratio means more counselor time per student.' },
+      'charlotte-christian': { kind: 'scope', text: 'An effective caseload of about 47 seniors per college counselor at peak application season. A lower ratio means more counselor time per student.' },
+      'charlotte-country-day': { kind: 'scope', text: 'About 34–35 seniors per college counselor at peak application season. A lower ratio means more counselor time per student.' },
+      'charlotte-latin': { kind: 'scope', text: 'About 36–37 seniors per college counselor at peak application season. A lower ratio means more counselor time per student.' },
+      'davidson-day': { kind: 'scope', text: 'About 23–24 seniors per college counselor at peak application season, in a senior class of roughly 47 — the lightest caseload here. A lower ratio means more counselor time per student.' },
+      'providence-day': { kind: 'scope', text: 'About 44–45 seniors per college counselor at peak application season, under a quarter-class model. A lower ratio means more counselor time per student.' },
     },
   },
 
@@ -364,6 +423,32 @@ export const VALUE_METRICS: ValueMetric[] = [
       'davidson-day': 'Age 2–Gr 12',
       'providence-day': 'TK–12',
     },
+    quals: {
+      cannon: {
+        kind: 'scope',
+        text: 'Arts are offered from Junior Kindergarten (JrK) through grade 12, across all three divisions.',
+      },
+      'charlotte-christian': {
+        kind: 'scope',
+        text: 'Arts are offered from Junior Kindergarten (JK) through grade 12.',
+      },
+      'charlotte-country-day': {
+        kind: 'scope',
+        text: 'Arts are offered from Junior Kindergarten (JK) through grade 12.',
+      },
+      'charlotte-latin': {
+        kind: 'scope',
+        text: 'Arts are offered from Transitional Kindergarten (TK) through grade 12.',
+      },
+      'davidson-day': {
+        kind: 'scope',
+        text: 'Arts run from age 2 through grade 12 — the widest span among these schools, reaching down to the earliest early-childhood years.',
+      },
+      'providence-day': {
+        kind: 'scope',
+        text: 'Arts are offered from Transitional Kindergarten (TK) through grade 12.',
+      },
+    },
   },
   {
     topic: 'the-arts',
@@ -377,6 +462,28 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-latin': '80%+ participation', // 80%+ of students participate in the arts
       'davidson-day': null, // no signature recognition named
       'providence-day': 'Blumey recognition', // repeated Blumey Awards recognition
+    },
+    quals: {
+      cannon: {
+        kind: 'scope',
+        text: 'The school’s theatre program competes in the NC Theatre Conference High School Play Festival — the recognition its note leads with.',
+      },
+      'charlotte-christian': {
+        kind: 'scope',
+        text: 'Won Best Show at the Wells Fargo Blumey Awards for its production of Oklahoma! (2013). The Blumeys are the Charlotte region’s high-school musical-theatre awards.',
+      },
+      'charlotte-country-day': {
+        kind: 'scope',
+        text: '31+ nominations at the Blumey Awards, the Charlotte region’s high-school musical-theatre awards — a breadth-of-recognition figure rather than a single win.',
+      },
+      'charlotte-latin': {
+        kind: 'scope',
+        text: 'Over 80% of students take part in the arts — a participation measure the school leads with, alongside individual Blumey wins (Best Actress, 2022).',
+      },
+      'providence-day': {
+        kind: 'scope',
+        text: 'Repeated recognition at the Blumey Awards, the Charlotte region’s high-school musical-theatre awards.',
+      },
     },
   },
   {
@@ -393,6 +500,14 @@ export const VALUE_METRICS: ValueMetric[] = [
       'providence-day': '3 AP arts', // AP Studio Art, AP Art History, AP Music Theory
     },
     quals: {
+      cannon: {
+        kind: 'scope',
+        text: 'The advanced arts course the note names is AP Studio Art.',
+      },
+      'charlotte-country-day': {
+        kind: 'scope',
+        text: 'Offers both AP and IB arts pathways — a dual AP/IB arts offering that is rare among these schools.',
+      },
       'providence-day': {
         kind: 'scope',
         text: 'Three AP arts courses: AP Studio Art, AP Art History, and AP Music Theory.',
@@ -413,9 +528,17 @@ export const VALUE_METRICS: ValueMetric[] = [
       'providence-day': '4 ensembles', // Band, Orchestra, Chorus, Jazz
     },
     quals: {
+      cannon: {
+        kind: 'scope',
+        text: 'The program is organized around three pillars — Visual Arts, Music, and Theater — rather than counted as a number of ensembles.',
+      },
       'charlotte-christian': {
         kind: 'minimum',
         text: '40+ arts electives across four areas — a stated floor rather than an exact catalog count.',
+      },
+      'charlotte-country-day': {
+        kind: 'scope',
+        text: 'Eight vocal and instrumental groups across Middle and Upper School, spanning auditioned honors ensembles and open-enrollment groups.',
       },
       'providence-day': {
         kind: 'scope',
@@ -537,6 +660,20 @@ export const VALUE_METRICS: ValueMetric[] = [
       cannon: null,
       'charlotte-christian': null,
       'providence-day': null,
+    },
+    quals: {
+      'charlotte-country-day': {
+        kind: 'scope',
+        text: 'The Lower School’s Structured Care program runs until 6:00 p.m. Confirm current hours with the school.',
+      },
+      'charlotte-latin': {
+        kind: 'scope',
+        text: 'The Lower School’s Hawks’ Club aftercare runs 1:30–6:00 p.m. Confirm current hours with the school.',
+      },
+      'davidson-day': {
+        kind: 'scope',
+        text: 'The Lower School’s Extended Care runs 2:45–6:00 p.m. Confirm current hours with the school.',
+      },
     },
   },
 
