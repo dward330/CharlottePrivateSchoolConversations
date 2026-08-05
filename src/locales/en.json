@@ -97,7 +97,14 @@
     "coverage_one": "{{count}}/{{total}} school",
     "coverage_other": "{{count}}/{{total}} schools",
     "footnote": "researched for this school ·",
-    "footnoteRest": "not in our research yet. Tap a school to read the full write-up."
+    "footnoteRest": "not in our research yet. Tap a school to read the full write-up.",
+    "qual": {
+      "minimum": "Documented minimum",
+      "range": "Published range",
+      "official": "Official list",
+      "scope": "Scope note"
+    },
+    "qualAria": "{{value}} — what this figure counts for {{school}}"
   },
   "school": {
     "allSchools": "← All schools",

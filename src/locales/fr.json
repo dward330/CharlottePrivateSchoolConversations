@@ -97,7 +97,14 @@
     "coverage_one": "{{count}}/{{total}} école",
     "coverage_other": "{{count}}/{{total}} écoles",
     "footnote": "étudié pour cette école ·",
-    "footnoteRest": "pas encore dans notre recherche. Touchez une école pour lire l’analyse complète."
+    "footnoteRest": "pas encore dans notre recherche. Touchez une école pour lire l’analyse complète.",
+    "qual": {
+      "minimum": "Minimum documenté",
+      "range": "Fourchette publiée",
+      "official": "Liste officielle",
+      "scope": "Note de portée"
+    },
+    "qualAria": "{{value}} — ce que ce chiffre représente pour {{school}}"
   },
   "school": {
     "allSchools": "← Toutes les écoles",

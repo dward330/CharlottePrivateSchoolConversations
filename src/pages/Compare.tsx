@@ -12,6 +12,7 @@ import {
 } from '../lib/manifest.ts'
 import { SchoolBadge } from '../components/SchoolBadge.tsx'
 import { BlueprintCorners } from '../components/BlueprintCorners.tsx'
+import { CellQual } from '../components/CellQual.tsx'
 import { toCompare, toSchool, toHome, useNavigate } from '../lib/router.ts'
 import { valueMetricsForTopic, loadMetricValuesOverlay } from '../data/metricValues.ts'
 
@@ -186,7 +187,16 @@ export function Compare({ topic, schools }: Props) {
                               style={{ ['--brand' as string]: brandOf(s.slug).color }}
                             >
                               {v != null ? (
-                                <span className="mark-val">{localizeMoneyText(v)}</span>
+                                vm.quals?.[s.slug] ? (
+                                  <CellQual
+                                    value={localizeMoneyText(v)}
+                                    qual={vm.quals[s.slug]}
+                                    school={s.name}
+                                    metricKey={vm.key}
+                                  />
+                                ) : (
+                                  <span className="mark-val">{localizeMoneyText(v)}</span>
+                                )
                               ) : (
                                 <span className="mark-na" title={t('compare.notAvailable')}>{t('compare.na')}</span>
                               )}
