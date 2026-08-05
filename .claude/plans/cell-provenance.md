@@ -1,7 +1,7 @@
 ---
 name: cell-provenance
 title: Add a "Student organizations" Compare row, and surface per-cell provenance tooltips across every Compare topic
-status: english-done
+status: implemented
 phases: 2
 created: 2026-08-04
 branch: feat/cell-provenance
@@ -564,3 +564,34 @@ Only after that confirmation. **Two different layers, and they are not interchan
   via the event trace (`enter → toggle:open → leave → toggle:closed`) that a real stationary
   cursor keeps it open, plus screenshots of the open state on both an edge column (dark) and
   an interior column (light).
+
+### Phase 2 — locales (shipped)
+
+All 9 non-English locales translated and live. Layers handled per the standard:
+
+- **Chrome** (`compare.qual.minimum/range/official/scope` + `compare.qualAria`) added to all
+  9 `src/locales/*.json` catalogs.
+- **Tooltip prose** — 108 new strings per locale extracted into
+  `src/data/overlays/work/metric-values.<lang>.json` (157 existing translations preserved by
+  a text-keyed merge, so only genuinely-new strings were translated), built + stamped into
+  `src/data/overlays/metric-values.<lang>.json` (265 entries each).
+
+**The extractor trap the plan warned about was real and fixed.** `quals[].kind` is an enum
+resolved via the locale catalogs, but the global `PROSE_KEYS` set marks the leaf `kind` as
+prose (for artsPrograms season slots), so the walker extracted the four kind enums. Added
+six `['quals.<slug>.kind', false]` PATH_OVERRIDES in `scripts/i18n_fields.mjs` (the matcher
+does suffix, not mid-path wildcard, so one per school). `quals.<slug>.text` needed no rule —
+leaf `text` is already prose.
+
+**Clock-time convention.** The French agent localized `6:00 p.m.` → `18h00`; corrected to
+12-hour per the fr rollout doc (`18 h 00` was a documented past defect). Every other locale
+kept the 12-hour form. Grade ordinals (`grades 7–12` → `7e à 12e`) were left localized —
+descriptive, not citations.
+
+Verification (all clean): `tsc`, `build`, `check:runtime` (all 9 locales resolve),
+`check:sepdrift` (metric-values 0 drift in every locale — the 178 es tokens are the
+pre-existing main-branch defect, not in this layer), `check:fr`, `check:hi`, `check:fa`,
+`check:bidi`, `check:money`, `check:currency`, `check:translations` (metric-values 100% ·
+285/285 · no drift), `check:hashes`. Browser-verified tooltips in fa + ar (RTL, figures
+read LTR inside RTL prose via the isolates), and te + hi (7-digit figure stays 3-3-3 in the
+tooltip prose while the tile beside it regroups to lakh/crore — the documented interaction).

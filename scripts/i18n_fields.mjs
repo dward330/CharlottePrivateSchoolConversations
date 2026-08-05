@@ -287,6 +287,18 @@ export const PATH_OVERRIDES = new Map([
   ['values.charlotte-country-day', true],
   ['values.cannon', true],
   ['values.davidson-day', true],
+  // Per-cell provenance tooltips (metricValues.ts `quals`). The `.text` leaf is
+  // prose (translated); the `.kind` leaf is an ENUM KEY resolved through the
+  // locale catalogs (compare.qual.*), NOT display text — it must NOT be extracted.
+  // The global PROSE_KEYS set marks `kind` prose for artsPrograms' season slots,
+  // so each quals `kind` needs an explicit skip. Keyed per school slug because the
+  // path matcher only does suffix matching, not a mid-path wildcard.
+  ['quals.providence-day.kind', false],
+  ['quals.charlotte-latin.kind', false],
+  ['quals.charlotte-christian.kind', false],
+  ['quals.charlotte-country-day.kind', false],
+  ['quals.cannon.kind', false],
+  ['quals.davidson-day.kind', false],
   // Course Offerings. Classified from an ENUMERATION of every distinct value in
   // the module, not from the leaf names — the lesson of the three College
   // Support splits.
