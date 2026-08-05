@@ -220,6 +220,20 @@ comment — those comments carry the per-athlete/per-figure sourcing. Prefer `nu
 guess: `null` honestly means "not located", whereas a filled-in estimate silently becomes
 a claim. Keep the `note` field current when the definition or time window shifts.
 
+**Per-cell provenance tooltips (`quals`).** A cell whose display value is *coded* — a
+fraction (`3 / 8`), a floor/approx (`≥19`, `~45–50`), a ratio (`28:1`), a range
+(`JrK–12`), a magnitude (`~10k`), or an achievement phrase (`FLL Worlds top 100`) — means
+nothing to a parent without the caveat behind it. Those get a `quals[slug]` entry
+(`{ kind, text }`) that renders as a hover/focus tooltip; a plain value (`104`, `$32,070`,
+`21 AP`) does not. Nothing decides this automatically — the tooltip appears only because
+it was authored. **After adding or backfilling a value, run `npm run check:quals`.** It
+flags any coded cell with no tooltip (zero false positives on plain values by design). A
+clean run means no coded cell is missing its tooltip; it *cannot* see a tooltip warranted
+for a reason invisible in the value (a differently-scoped year, a documented minimum) — so
+still add those by hand. New `quals` prose is English-only until the locale rollout; it
+extracts into the `metric-values` overlay like `label`/`note` (the enum `kind` is skipped
+by a PATH_OVERRIDE in `i18n_fields.mjs`).
+
 ### 3. Structured deep-dive reports → `src/data/financialAidReports.ts`
 
 The Financial Aid topic replaces the prose renderer with a hand-transcribed structured
