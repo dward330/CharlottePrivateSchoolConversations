@@ -5,6 +5,9 @@
 //
 // Keep values as short display strings. `null` renders as N/A. `note` shows as small
 // print under the row label (definition, time window, source caveat).
+//
+// Coded cells (fraction, floor, ratio, range, magnitude, phrase) get a `quals`
+// tooltip; run `npm run check:quals` after editing (also fires as a local hook).
 
 import {
   localized,
