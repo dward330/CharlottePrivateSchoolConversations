@@ -1,6 +1,7 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { useRoute, toHome, toCompare, useNavigate } from './lib/router.ts'
+import { setPageMeta } from './lib/head.ts'
 import { assetUrl } from './lib/asset.ts'
 import { topics, schools, brandOf } from './lib/manifest.ts'
 import { Home } from './pages/Home.tsx'
@@ -17,6 +18,15 @@ function App() {
   const allSlugs = schools.map((s) => s.slug)
   // Falls back to the text mark if public/logo.png isn't present yet.
   const [logoOk, setLogoOk] = useState(true)
+
+  // Keep <head> in step with the route: title, description, canonical, OG/
+  // Twitter tags and JSON-LD (src/lib/head.ts). The dependency is the route
+  // SERIALIZED, not the object — useRoute() derives a fresh object every
+  // render, so an object dep would re-run this on every render.
+  const routeKey = JSON.stringify(route)
+  useEffect(() => {
+    setPageMeta(JSON.parse(routeKey))
+  }, [routeKey])
 
   return (
     <div className="app">
