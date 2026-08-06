@@ -10,6 +10,32 @@
       content="Compare Charlotte-area private schools across sports, the arts, student clubs, and college support."
     />
     <title>Charlotte School Insights</title>
+
+    <!-- Site-wide SEO / social defaults. src/lib/head.ts OVERRIDES every one of
+         these per route at runtime, and scripts/prerender.mjs bakes the
+         per-page values into each file in dist/ — so what a crawler or a
+         link-preview scraper downloads is already page-specific. These are the
+         fallback for any route that somehow renders without that effect.
+         og:image and canonical must be ABSOLUTE: social scrapers ignore
+         relative URLs. -->
+    <link rel="canonical" href="https://charlotteschoolinsights.com/" />
+    <meta property="og:site_name" content="Charlotte School Insights" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Charlotte School Insights" />
+    <meta
+      property="og:description"
+      content="Compare Charlotte-area private schools across sports, the arts, student clubs, and college support."
+    />
+    <meta property="og:url" content="https://charlotteschoolinsights.com/" />
+    <meta property="og:image" content="https://charlotteschoolinsights.com/logo.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Charlotte School Insights" />
+    <meta
+      name="twitter:description"
+      content="Compare Charlotte-area private schools across sports, the arts, student clubs, and college support."
+    />
+    <meta name="twitter:image" content="https://charlotteschoolinsights.com/logo.png" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
