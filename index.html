@@ -51,6 +51,68 @@
         if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t
       } catch (e) {}
     </script>
+
+    <!-- Suppress the pre-rendered ENGLISH markup for a non-English reader,
+         before the browser paints it.
+
+         Every page in dist/ is pre-rendered in English (scripts/prerender.mjs)
+         so crawlers get real content. That markup is on disk, so the browser
+         paints it immediately — while React can only replace it after the
+         locale catalog loads. `await ready` in src/main.tsx gates React's
+         render, NOT the browser's paint of static HTML, so a Spanish reader
+         loading a bare /school/cannon/ saw English for ~20-60ms first (measured
+         under 6x CPU throttle: English headline on screen at +120ms, Spanish at
+         +180ms). Before pre-rendering there was no such flash — the shell was
+         empty — so this is a regression the pre-render introduced, not a
+         pre-existing i18n issue.
+
+         Same shape as the theme pin above: read the preference before first
+         paint. We hide rather than translate — this must stay tiny and
+         dependency-free — and src/lib/i18n.ts reveals it again once the catalog
+         is live. English readers (the overwhelming majority, and every crawler)
+         are untouched and still get an instant paint of real content.
+
+         Mirrors the resolution order in i18n.ts: ?lang= wins, then the saved
+         choice, then the browser's languages. Kept deliberately loose — any
+         non-'en' match hides, because a false positive costs one paint while a
+         false negative shows the wrong language. If JS is off, nothing runs and
+         the English content stays visible, which is the right fallback. -->
+    <script>
+      ;(function () {
+        try {
+          var pick = null
+          var q = /[?&]lang=([^&#]+)/.exec(location.search)
+          if (q) pick = decodeURIComponent(q[1])
+          if (!pick) pick = localStorage.getItem('csc.lang')
+          if (!pick && navigator.languages) pick = navigator.languages[0]
+          if (!pick) pick = navigator.language
+          if (pick && pick.toLowerCase().split('-')[0] !== 'en') {
+            document.documentElement.setAttribute('data-i18n-pending', '')
+          }
+        } catch (e) {}
+      })()
+    </script>
+    <style>
+      /* Paired with the script above. Only the pre-rendered body is hidden;
+         the page keeps its background so this reads as a normal load, not a
+         blank flash. Cleared by src/lib/i18n.ts when the catalog is live, and
+         by an animation-driven failsafe below if that never happens. */
+      html[data-i18n-pending] body {
+        visibility: hidden;
+      }
+      /* Failsafe: if the catalog never loads (bundle 404, offline), reveal the
+         English content anyway rather than stranding the reader on a blank
+         page. A CSS animation needs no JS to fire, so this holds even if the
+         module that clears the attribute never runs at all. */
+      @keyframes i18n-reveal {
+        to {
+          visibility: visible;
+        }
+      }
+      html[data-i18n-pending] body {
+        animation: i18n-reveal 0s linear 2s forwards;
+      }
+    </style>
   </head>
   <body>
     <div id="root"></div>
