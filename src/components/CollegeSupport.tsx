@@ -226,8 +226,8 @@ export function TranscriptBody({ data }: { data: Transcript }) {
               <table className="cs-ledger">
                 <thead>
                   <tr>
-                    <th className="cs-th cs-th-year">{tr('tables.classLabel')}</th>
-                    <th className="cs-th">{tr('cardLabels.nationalMerit')}</th>
+                    <th scope="col" className="cs-th cs-th-year">{tr('tables.classLabel')}</th>
+                    <th scope="col" className="cs-th">{tr('cardLabels.nationalMerit')}</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -494,8 +494,8 @@ export function OutcomesBody({ data }: { data: Outcomes }) {
               <table className="cs-ledger">
                 <thead>
                   <tr>
-                    <th className="cs-th">{tr('cardLabels.tier')}</th>
-                    <th className="cs-th cs-th-count">{tr('tables.onList')}</th>
+                    <th scope="col" className="cs-th">{tr('cardLabels.tier')}</th>
+                    <th scope="col" className="cs-th cs-th-count">{tr('tables.onList')}</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -616,9 +616,9 @@ export function WholeClassBody({ data }: { data: WholeClass }) {
             <table className="cs-scores">
               <thead>
                 <tr>
-                  <th className="cs-th cs-th-metric">{tr('tables.percentile')}</th>
+                  <th scope="col" className="cs-th cs-th-metric">{tr('tables.percentile')}</th>
                   {PERCENTILE_COLS.map((c) => (
-                    <th key={c} className="cs-th cs-th-pct">
+                    <th key={c} scope="col" className="cs-th cs-th-pct">
                       {tr(c)}
                     </th>
                   ))}

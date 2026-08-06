@@ -246,10 +246,10 @@ export function HonorsBody({ data }: { data: Honors }) {
         <table className="clubs-ledger">
           <thead>
             <tr>
-              <th className="clubs-th clubs-th-society">{t('tables.society')}</th>
-              <th className="clubs-th clubs-th-div">{t('tables.division')}</th>
-              <th className="clubs-th">{t('tables.whatItRecognizes')}</th>
-              <th className="clubs-th clubs-th-feeds">{t('tables.feedsFrom')}</th>
+              <th scope="col" className="clubs-th clubs-th-society">{t('tables.society')}</th>
+              <th scope="col" className="clubs-th clubs-th-div">{t('tables.division')}</th>
+              <th scope="col" className="clubs-th">{t('tables.whatItRecognizes')}</th>
+              <th scope="col" className="clubs-th clubs-th-feeds">{t('tables.feedsFrom')}</th>
             </tr>
           </thead>
           <tbody>

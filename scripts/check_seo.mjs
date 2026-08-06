@@ -89,6 +89,21 @@ for (const route of ROUTES) {
 
   const desc = attr(html, /<meta[^>]+name=["']description["'][^>]+content=["']([^"']*)["']/i)
   if (!desc) fail(`${route.path} — no <meta name="description">`)
+  // Search engines truncate around these lengths, so anything longer is written
+  // but never read. Caught here rather than by eye: descriptions are composed
+  // from school and topic names, so adding a topic silently lengthens all of
+  // them at once (that is exactly how they reached 210+ chars).
+  else if (desc.length > 160) {
+    fail(`${route.path} — description is ${desc.length} chars (truncated at ~160)`)
+  } else if (desc.length < 70) {
+    fail(`${route.path} — description is only ${desc.length} chars (too thin to be useful)`)
+  }
+  // NOTE: deliberately NOT asserting <title> length. Home (66) and Compare (61)
+  // sit just over the ~60 chars Google shows, and the titles were kept as-is by
+  // choice: <title> is the browser TAB text, so trimming it is a user-visible
+  // change, while overflow only affects how the title appears in a search
+  // result — not ranking. Uniqueness and non-defaultness are checked above,
+  // which are the parts that actually matter.
 
   for (const prop of ['og:title', 'og:description', 'og:image']) {
     const re = new RegExp(`<meta[^>]+property=["']${prop}["'][^>]+content=["']([^"']*)["']`, 'i')

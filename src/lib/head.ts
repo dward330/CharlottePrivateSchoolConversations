@@ -31,11 +31,42 @@ const DEFAULT_DESCRIPTION =
   'Compare Charlotte-area private schools across sports, the arts, student clubs, and college support.'
 const OG_IMAGE = `${SITE_ORIGIN}/logo.png`
 
-/** Human list of the research areas, for descriptions: "a, b, c and d". */
-function topicList(): string {
-  const names = topics.map((t) => t.name.toLowerCase())
+/**
+ * Search engines truncate a meta description at roughly 160 characters, so the
+ * useful part has to come FIRST and the whole thing has to fit. Listing all
+ * seven topic names costs ~110 characters on its own and pushed every school
+ * page to 210+ — the tail, including "cited to its source", was being cut off
+ * in results. So descriptions name a few concrete topics rather than the full
+ * set, and the count carries the rest.
+ *
+ * `max` is a budget, not a hard truncation: we compose to fit instead of
+ * chopping mid-word. `describe()` asserts the budget in development.
+ */
+const DESC_MAX = 160
+
+/**
+ * Research areas, lowercased. With `n` omitted this is the full list, joined
+ * with "and" ("sports, the arts and student clubs"). With `n` given it is a
+ * comma-only sample meant to be followed by "and more", so the conjunction is
+ * left off — "a, b, c and more" rather than "a, b and c and more".
+ */
+function topicList(n?: number): string {
+  const names = topics.slice(0, n ?? topics.length).map((t) => t.name.toLowerCase())
   if (names.length < 2) return names[0] ?? 'school research'
+  if (n !== undefined) return names.join(', ')
   return `${names.slice(0, -1).join(', ')} and ${names[names.length - 1]}`
+}
+
+/**
+ * Guard against a description silently growing past what search engines show.
+ * Dev-only: a warning in the console during development is enough, since
+ * check:seo enforces the same budget against the built output.
+ */
+function describe(text: string): string {
+  if (import.meta.env.DEV && text.length > DESC_MAX) {
+    console.warn(`[head] meta description is ${text.length} chars (max ${DESC_MAX}): ${text}`)
+  }
+  return text
 }
 
 type PageMeta = {
@@ -61,9 +92,12 @@ export function metaForRoute(route: Route): PageMeta {
       return { title: DEFAULT_TITLE, description: DEFAULT_DESCRIPTION, path: '/', jsonLd: null }
     }
     const path = `/school/${encodeURIComponent(school.slug)}/`
-    const description =
-      `Independent research on ${school.name} in the Charlotte area: ` +
-      `${topicList()} — with every figure cited to its source.`
+    // Leads with the school name and what the page IS, because that is what
+    // survives truncation. Three topics plus a count beats naming all seven.
+    const description = describe(
+      `${school.name}: independent research across ${topics.length} areas — ` +
+        `${topicList(3)} and more. Every figure cited to its source.`,
+    )
     const logo = BRANDS[school.slug]?.logo
     return {
       title: `${school.name} — ${SITE_NAME}`,
@@ -96,9 +130,10 @@ export function metaForRoute(route: Route): PageMeta {
     const q = params.toString()
     return {
       title: `Compare Charlotte private schools — ${SITE_NAME}`,
-      description:
-        `Side-by-side comparison of Charlotte-area private schools across ` +
-        `${topicList()}, with each figure traceable to its source.`,
+      description: describe(
+        `Compare Charlotte-area private schools side by side: ` +
+          `${topicList(3)} and more. Each figure traceable to its source.`,
+      ),
       path: `/compare/${q ? `?${q}` : ''}`,
       jsonLd: null,
     }

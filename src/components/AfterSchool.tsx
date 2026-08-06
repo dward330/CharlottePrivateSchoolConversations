@@ -387,7 +387,7 @@ export function CostBody({ data }: { data: Cost }) {
             <table className="as-table">
               <thead>
                 <tr>
-                  <th className="as-th as-th-row">
+                  <th scope="col" className="as-th as-th-row">
                     {t('afterSchool.gradePickupSlot', {
                       basis: t(
                         data.basis === 'monthly'
@@ -401,6 +401,7 @@ export function CostBody({ data }: { data: Cost }) {
                   {[1, 2, 3, 4, 5].map((d) => (
                     <th
                       key={d}
+                      scope="col"
                       className={`as-th as-th-day${days === d ? ' is-active' : ''}`}
                     >
                       {t('afterSchool.colDays', { count: d })}
@@ -629,10 +630,10 @@ function EnrichmentCatalog({ data }: { data: DayInside }) {
         <table className="as-table as-catalog">
           <thead>
             <tr>
-              <th className="as-th">{t('tables.classLabel')}</th>
-              <th className="as-th">{t('cardLabels.day')}</th>
-              <th className="as-th">{t('tables.grades')}</th>
-              <th className="as-th as-th-fee">{t('cardLabels.fee')}</th>
+              <th scope="col" className="as-th">{t('tables.classLabel')}</th>
+              <th scope="col" className="as-th">{t('cardLabels.day')}</th>
+              <th scope="col" className="as-th">{t('tables.grades')}</th>
+              <th scope="col" className="as-th as-th-fee">{t('cardLabels.fee')}</th>
             </tr>
           </thead>
           <tbody>
