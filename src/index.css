@@ -489,6 +489,35 @@ main { flex: 1; }
   padding: 16px 0;
 }
 
+/* Hold a school page's shape while its research loads.
+ *
+ * Each topic section renders "Loading research…" on the first pass and swaps in
+ * its cards on the second. Unreserved, that swap moved every section below it:
+ * page height went 4986 -> 3310 -> 4966px, one shift scoring 0.3175 of a total
+ * CLS of 0.32 — over 3x the 0.1 threshold, and the single worst Core Web Vital
+ * on the site. It is not a slow-network artifact; it reproduced identically on
+ * desktop with everything cached.
+ *
+ * The reserve is deliberately a FLOOR, not the true height. Settled sections run
+ * 271-684px on desktop and 450-1582px on mobile — too variable for one number to
+ * match, and overshooting would leave a visible gap under the shortest sections
+ * (a worse trade: a real blank region in exchange for an invisible reflow). This
+ * value sits near the shorter end of the real range, so it absorbs most of the
+ * movement while never exceeding the smallest section.
+ *
+ * Measured, not guessed: placeholder sections were 144-326px, settled ones
+ * 271-684px, so ~200px of the gap per section is what actually moves the page.
+ * Re-measure with scripts/check_vitals.mjs if the card layouts change. */
+.topic-section .loading {
+  display: block;
+  min-height: 220px;
+}
+@media (max-width: 720px) {
+  /* Mobile stacks the cards, so sections are 2-3x taller there and the shortest
+     settled section is ~450px. A larger floor is safe and absorbs more. */
+  .topic-section .loading { min-height: 400px; }
+}
+
 /* -------------------------------------------------------------- home hero */
 
 .page.home { max-width: 1160px; }
