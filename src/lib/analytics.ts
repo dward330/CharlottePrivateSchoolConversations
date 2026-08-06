@@ -10,12 +10,18 @@
 // a SYNTHETIC path purely so the beacon had something to read, then replaceState
 // back to the hash URL.
 //
-// With path routing that trick is gone: the URL we push IS the page. What
-// remains here is (a) one pushState per navigation, so the beacon fires and the
-// Back button takes exactly one press per step, (b) a dispatched `popstate` so
-// the router re-reads (pushState does not fire one), and (c) a delegated click
-// handler so plain <a href="/school/…"> links navigate in-app instead of making
-// the browser refetch the page.
+// Path routing removes most of that: the URL we push is now a real page. But
+// the push/replace pair SURVIVES, for a narrower reason — the beacon should log
+// the route without its query string, while the address bar must keep the query
+// (?lang=, and Compare's ?topic=&schools=) to stay shareable. So we still push
+// one URL and replaceState to another within the same history entry; see
+// analyticsPath() and pushRoute() below.
+//
+// What this module does now: (a) one pushState per navigation, so the beacon
+// fires and the Back button takes exactly one press per step, (b) a replaceState
+// restoring the full shareable URL, (c) a dispatched `popstate` so the router
+// re-reads (pushState does not fire one), and (d) a delegated click handler so
+// plain <a href="/school/…"> links navigate in-app instead of refetching.
 //
 // NOTE: this module is deliberately kept rather than deleted along with the
 // hash router. PR #104 fixed a live beacon bug here days ago, and retiring the
@@ -115,6 +121,30 @@ export function carryOverParams(path: string): string {
 }
 
 /**
+ * The path the BEACON should log for a destination — the route, with the query
+ * string stripped.
+ *
+ * Query params are dropped so a page aggregates into one dashboard row instead
+ * of exploding into a row per variation. Compare is the case that forces this:
+ * its URL carries `?topic=…&schools=…` (six slugs, in selection order) and now
+ * `?lang=` as well, so left alone, one Compare page would scatter across dozens
+ * of near-identical low-count rows — and a Spanish reader's visit would land in
+ * a different row from an English reader's. The old hash-router code dropped
+ * params for exactly this reason; path routing has to keep doing it deliberately.
+ *
+ * The address bar still shows the full URL — see pushRoute. This only changes
+ * what Cloudflare records.
+ *
+ * NOTE this is a deliberate, one-time discontinuity from the pre-#105 data: the
+ * beacon used to log `/school/cannon` (no trailing slash) and now logs
+ * `/school/cannon/`, the real canonical URL, so each school's history splits at
+ * the deploy. The new form is the correct one; the seam is expected.
+ */
+export function analyticsPath(path: string): string {
+  return path.split('?')[0].split('#')[0]
+}
+
+/**
  * Navigate to an in-app route, adding exactly one history entry and logging a
  * Cloudflare page-view for the destination. `href` may be a path ('/school/…')
  * or a legacy hash ('#/school/…'). Falls back to a plain location assignment if
@@ -128,10 +158,19 @@ export function pushRoute(href: string): void {
     return
   }
   try {
-    // Relative, for the beacon-normaliser reason documented above. The beacon
-    // reads it synchronously and logs the page-view; the URL is also the real,
-    // canonical, pre-rendered address of the page, so nothing needs restoring.
-    window.history.pushState(null, '', path)
+    // Two URLs, one history entry, because the address bar and the beacon want
+    // DIFFERENT things and only pushState triggers a page-view.
+    //
+    //   pushState -> analyticsPath(path): bare path, no query. This is what the
+    //     beacon reads (synchronously) and what you see in the Cloudflare
+    //     dashboard, so every visit to Compare aggregates into ONE row.
+    //   replaceState -> path: the real URL with its query, editing that same
+    //     entry — so the address bar stays shareable (?lang=, ?schools=) and
+    //     exactly ONE history entry is added, keeping Back at one press per step.
+    //
+    // Both are RELATIVE, for the beacon-normaliser reason documented above.
+    window.history.pushState(null, '', analyticsPath(path))
+    window.history.replaceState(null, '', path)
   } catch {
     // Exotic sandbox: fall back to a plain assignment.
     window.location.assign(path)
