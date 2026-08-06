@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en" dir="ltr" data-prose="en" data-theme="light"><head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="/icon.png">
+    <link rel="apple-touch-icon" href="/icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Compare Charlotte-area private schools side by side: course offerings, student clubs, the arts and more. Each figure traceable to its source.">
+    <title>Compare Charlotte private schools — Charlotte School Insights</title>
+
+    <!-- Site-wide SEO / social defaults. src/lib/head.ts OVERRIDES every one of
+         these per route at runtime, and scripts/prerender.mjs bakes the
+         per-page values into each file in dist/ — so what a crawler or a
+         link-preview scraper downloads is already page-specific. These are the
+         fallback for any route that somehow renders without that effect.
+         og:image and canonical must be ABSOLUTE: social scrapers ignore
+         relative URLs. -->
+    <link rel="canonical" href="https://charlotteschoolinsights.com/compare/?topic=course-offerings&amp;schools=cannon%2Ccharlotte-christian%2Ccharlotte-country-day%2Ccharlotte-latin%2Cdavidson-day%2Cprovidence-day">
+    <meta property="og:site_name" content="Charlotte School Insights">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Compare Charlotte private schools — Charlotte School Insights">
+    <meta property="og:description" content="Compare Charlotte-area private schools side by side: course offerings, student clubs, the arts and more. Each figure traceable to its source.">
+    <meta property="og:url" content="https://charlotteschoolinsights.com/compare/?topic=course-offerings&amp;schools=cannon%2Ccharlotte-christian%2Ccharlotte-country-day%2Ccharlotte-latin%2Cdavidson-day%2Cprovidence-day">
+    <meta property="og:image" content="https://charlotteschoolinsights.com/logo.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Compare Charlotte private schools — Charlotte School Insights">
+    <meta name="twitter:description" content="Compare Charlotte-area private schools side by side: course offerings, student clubs, the arts and more. Each figure traceable to its source.">
+    <meta name="twitter:image" content="https://charlotteschoolinsights.com/logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&amp;family=Barlow:wght@400;500;600;700&amp;display=swap">
+    <!-- Pin the saved theme before first paint so there's no light/dark flash.
+         Mirrors src/lib/theme.ts; with nothing saved we fall through to the
+         prefers-color-scheme rules in index.css until React mounts. -->
+    <script>
+      try {
+        var t = localStorage.getItem('cs-theme')
+        if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t
+      } catch (e) {}
+    </script>
+
+    <!-- Suppress the pre-rendered ENGLISH markup for a non-English reader,
+         before the browser paints it.
+
+         Every page in dist/ is pre-rendered in English (scripts/prerender.mjs)
+         so crawlers get real content. That markup is on disk, so the browser
+         paints it immediately — while React can only replace it after the
+         locale catalog loads. `await ready` in src/main.tsx gates React's
+         render, NOT the browser's paint of static HTML, so a Spanish reader
+         loading a bare /school/cannon/ saw English for ~20-60ms first (measured
+         under 6x CPU throttle: English headline on screen at +120ms, Spanish at
+         +180ms). Before pre-rendering there was no such flash — the shell was
+         empty — so this is a regression the pre-render introduced, not a
+         pre-existing i18n issue.
+
+         Same shape as the theme pin above: read the preference before first
+         paint. We hide rather than translate — this must stay tiny and
+         dependency-free — and src/lib/i18n.ts reveals it again once the catalog
+         is live. English readers (the overwhelming majority, and every crawler)
+         are untouched and still get an instant paint of real content.
+
+         Mirrors the resolution order in i18n.ts: ?lang= wins, then the saved
+         choice, then the browser's languages. Kept deliberately loose — any
+         non-'en' match hides, because a false positive costs one paint while a
+         false negative shows the wrong language. If JS is off, nothing runs and
+         the English content stays visible, which is the right fallback. -->
+    <script>
+      ;(function () {
+        try {
+          var pick = null
+          var q = /[?&]lang=([^&#]+)/.exec(location.search)
+          if (q) pick = decodeURIComponent(q[1])
+          if (!pick) pick = localStorage.getItem('csc.lang')
+          if (!pick && navigator.languages) pick = navigator.languages[0]
+          if (!pick) pick = navigator.language
+          if (pick && pick.toLowerCase().split('-')[0] !== 'en') {
+            document.documentElement.setAttribute('data-i18n-pending', '')
+          }
+        } catch (e) {}
+      })()
+    </script>
+    <style>
+      /* Paired with the script above. Only the pre-rendered body is hidden;
+         the page keeps its background so this reads as a normal load, not a
+         blank flash. Cleared by src/lib/i18n.ts when the catalog is live, and
+         by an animation-driven failsafe below if that never happens. */
+      html[data-i18n-pending] body {
+        visibility: hidden;
+      }
+      /* Failsafe: if the catalog never loads (bundle 404, offline), reveal the
+         English content anyway rather than stranding the reader on a blank
+         page. A CSS animation needs no JS to fire, so this holds even if the
+         module that clears the attribute never runs at all. */
+      @keyframes i18n-reveal {
+        to {
+          visibility: visible;
+        }
+      }
+      html[data-i18n-pending] body {
+        animation: i18n-reveal 0s linear 2s forwards;
+      }
+    </style>
+    <script type="module" crossorigin="" src="/assets/index-G5sy7GGi.js"></script>
+    <link rel="stylesheet" crossorigin="" href="/assets/index-DQ0zTROr.css">
+  </head>
+  <body>
+    <div id="root"><div class="app"><nav class="topnav"><a class="brand" href="/" aria-label="Charlotte Private School Conversations — home"><img class="brand-logo" alt="" src="/logo.png"><span class="brand-name">Charlotte School Insights</span></a><div class="nav-actions"><a class="navlink on" href="/compare/?topic=course-offerings&amp;schools=cannon%2Ccharlotte-christian%2Ccharlotte-country-day%2Ccharlotte-latin%2Cdavidson-day%2Cprovidence-day">Compare</a><div class="lang-picker"><button type="button" class="lang-trigger" aria-expanded="false" aria-label="Language"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18M12 3c2.5 2.6 2.5 15.4 0 18M12 3c-2.5 2.6-2.5 15.4 0 18"></path></svg><span class="lang-trigger-name">English</span><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6"></path></svg></button></div><button type="button" class="theme-toggle" title="Switch to dark theme" aria-label="Switch to dark theme"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M20.5 14.3A8.6 8.6 0 0 1 9.7 3.5a8.6 8.6 0 1 0 10.8 10.8Z" fill="currentColor"></path></svg></button></div></nav><main><div class="page"><a class="back" href="/">← Home</a><h1 class="compare-title">Compare schools</h1><p class="compare-sub">6 schools, side by side — one research topic at a time.</p><div class="controls"><fieldset class="control"><legend>Topic</legend><div class="pill-row"><button type="button" class="pill on" aria-pressed="true">Course Offerings</button><button type="button" class="pill " aria-pressed="false">Student Clubs</button><button type="button" class="pill " aria-pressed="false">The Arts</button><button type="button" class="pill " aria-pressed="false">Sports</button><button type="button" class="pill " aria-pressed="false">College Support</button><button type="button" class="pill " aria-pressed="false">After School</button><button type="button" class="pill " aria-pressed="false">Financial Aid &amp; Tuition</button></div></fieldset><fieldset class="control"><legend>Schools (6 of 6)</legend><div class="pill-row"><button type="button" class="pill school on" aria-pressed="true" style="--brand: #8a2433;"><span class="dot"></span> Cannon School</button><button type="button" class="pill school on" aria-pressed="true" style="--brand: #1e40af;"><span class="dot"></span> Charlotte Christian School</button><button type="button" class="pill school on" aria-pressed="true" style="--brand: #107a43;"><span class="dot"></span> Charlotte Country Day School</button><button type="button" class="pill school on" aria-pressed="true" style="--brand: #12294f;"><span class="dot"></span> Charlotte Latin School</button><button type="button" class="pill school on" aria-pressed="true" style="--brand: #1e5fd1;"><span class="dot"></span> Davidson Day School</button><button type="button" class="pill school on" aria-pressed="true" style="--brand: #be123c;"><span class="dot"></span> Providence Day School</button></div><p class="control-hint">Click a school to add or remove its column.</p></fieldset></div><div class="table-frame"><i class="bp-corner tl"></i><i class="bp-corner tr"></i><i class="bp-corner bl"></i><i class="bp-corner br"></i><div class="table-wrap" role="region" aria-label="Comparison table" tabindex="0"><table class="compare"><thead><tr><th class="corner" scope="col"><span class="corner-label">Course Offerings</span><span class="corner-sub">Research metric</span></th><th scope="col" class="col-school" style="--brand: #8a2433;"><a href="/school/cannon/" class="col-school-link"><span class="badge" title="Cannon School" role="img" aria-label="Cannon School" style="--brand: #8a2433; width: 40px; height: 40px; font-size: 16px;">CA</span><span class="col-school-name">Cannon School</span></a></th><th scope="col" class="col-school" style="--brand: #1e40af;"><a href="/school/charlotte-christian/" class="col-school-link"><span class="badge" title="Charlotte Christian School" role="img" aria-label="Charlotte Christian School" style="--brand: #1e40af; width: 40px; height: 40px; font-size: 16px;">CC</span><span class="col-school-name">Charlotte Christian School</span></a></th><th scope="col" class="col-school" style="--brand: #107a43;"><a href="/school/charlotte-country-day/" class="col-school-link"><span class="badge" title="Charlotte Country Day School" role="img" aria-label="Charlotte Country Day School" style="--brand: #107a43; width: 40px; height: 40px; font-size: 16px;">CD</span><span class="col-school-name">Charlotte Country Day School</span></a></th><th scope="col" class="col-school" style="--brand: #12294f;"><a href="/school/charlotte-latin/" class="col-school-link"><span class="badge" title="Charlotte Latin School" role="img" aria-label="Charlotte Latin School" style="--brand: #12294f; width: 40px; height: 40px; font-size: 16px;">CL</span><span class="col-school-name">Charlotte Latin School</span></a></th><th scope="col" class="col-school" style="--brand: #1e5fd1;"><a href="/school/davidson-day/" class="col-school-link"><span class="badge" title="Davidson Day School" role="img" aria-label="Davidson Day School" style="--brand: #1e5fd1; width: 40px; height: 40px; font-size: 16px;">DD</span><span class="col-school-name">Davidson Day School</span></a></th><th scope="col" class="col-school" style="--brand: #be123c;"><a href="/school/providence-day/" class="col-school-link"><span class="badge" title="Providence Day School" role="img" aria-label="Providence Day School" style="--brand: #be123c; width: 40px; height: 40px; font-size: 16px;">PD</span><span class="col-school-name">Providence Day School</span></a></th></tr></thead><tbody><tr class="group-row"><td class="group-label" colspan="7">Key stats</td></tr><tr class="value-row"><th scope="row" class="row-metric"><span class="row-metric-label">Upper School courses catalogued</span><span class="row-metric-note">Distinct Upper School course entries in the school’s own current curriculum guide. Counting conventions differ — Country Day’s index bundles language levels onto one line, so its true course count is higher than the line count shown.</span></th><td class="cell val" style="--brand: #8a2433;"><span class="mark-val">104</span></td><td class="cell val" style="--brand: #1e40af;"><button type="button" class="qual" aria-label="~135 — what this figure counts for Charlotte Christian School" aria-details="qual-us-courses-_r_1_"><span class="mark-val">~135</span><span class="qual-dot" aria-hidden="true"></span></button><div id="qual-us-courses-_r_1_" popover="manual" class="tip"><i class="bp-corner tl"></i><i class="bp-corner tr"></i><i class="bp-corner bl"></i><i class="bp-corner br"></i><div class="tip-scroll"><span class="tip-kind">Scope note</span><span class="tip-body">About 135 unique course titles; 6 of them are cross-listed in two departments, so a department-by-department tally would count those twice.</span></div></div></td><td class="cell val" style="--brand: #107a43;"><span class="mark-val">119</span></td><td class="cell val" style="--brand: #12294f;"><span class="mark-val">129</span></td><td class="cell val" style="--brand: #1e5fd1;"><button type="button" class="qual" aria-label="~75 — what this figure counts for Davidson Day School" aria-details="qual-us-courses-_r_2_"><span class="mark-val">~75</span><span class="qual-dot" aria-hidden="true"></span></button><div id="qual-us-courses-_r_2_" popover="manual" class="tip"><i class="bp-corner tl"></i><i class="bp-corner tr"></i><i class="bp-corner bl"></i><i class="bp-corner br"></i><div class="tip-scroll"><span class="tip-kind">Scope note</span><span class="tip-body">74 courses are described in the 2026–27 catalog, with one more (AP Spanish Literature) listed without a description. The school’s own offerings grid shows 66.</span></div></div></td><td class="cell val lead" style="--brand: #be123c;"><button type="button" class="qual" aria-label="149 — what this figure counts for Providence Day School" aria-details="qual-us-courses-_r_3_"><span class="mark-val">149</span><span class="qual-dot" aria-hidden="true"></span></button><div id="qual-us-courses-_r_3_" popover="manual" class="tip"><i class="bp-corner tl"></i><i class="bp-corner tr"></i><i class="bp-corner bl"></i><i class="bp-corner br"></i><div class="tip-scroll"><span class="tip-kind">Scope note</span><span class="tip-body">Distinct course entries, with multi-year language sequences counted once per track rather than once per level.</span></div></div></td></tr><tr class="value-row"><th scope="row" class="row-metric"><span class="row-metric-label">AP / advanced courses</span><span class="row-metric-note">The school’s own count of college-level courses. Country Day is the only school here offering both AP and the IB Diploma; Cannon adds 13 faculty-designed Advanced Topics courses carrying the same weight as an AP.</span></th><td class="cell val" style="--brand: #8a2433;"><button type="button" class="qual" aria-label="14 AP + 13 AT — what this figure counts for Cannon School" aria-details="qual-advanced-courses-_r_4_"><span class="mark-val">14 AP + 13 AT</span><span class="qual-dot" aria-hidden="true"></span></button><div id="qual-advanced-courses-_r_4_" popover="manual" class="tip"><i class="bp-corner tl"></i><i class="bp-corner tr"></i><i class="bp-corner bl"></i><i class="bp-corner br"></i><div class="tip-scroll"><span class="tip-kind">Scope note</span><span class="tip-body">From the 2026–27 catalog. The 2025–26 profile stated 13 AP / 8 AT before the Advanced Topics program expanded; the AT courses carry the same weight as an AP.</span></div></div></td><td class="cell val" style="--brand: #1e40af;"><span class="mark-val">21 AP</span></td><td class="cell val lead" style="--brand: #107a43;"><button type="button" class="qual" aria-label="23 AP + 18 IB — what this figure counts for Charlotte Country Day School" aria-details="qual-advanced-courses-_r_5_"><span class="mark-val">23 AP + 18 IB</span><span class="qual-dot" aria-hidden="true"></span></button><div id="qual-advanced-courses-_r_5_" popover="manual" class="tip"><i class="bp-corner tl"></i><i class="bp-corner tr"></i><i class="bp-corner bl"></i><i class="bp-corner br"></i><div class="tip-scroll"><span class="tip-kind">Scope note</span><span class="tip-body">The only school here offering both AP and the full IB Diploma. Beyond the 18 IB courses sit the IB core — Theory of Knowledge, the Extended Essay, and CAS.</span></div></div></td><td class="cell val" style="--brand: #12294f;"><button type="button" class="qual" aria-label="22 AP subjects — what this figure counts for Charlotte Latin School" aria-details="qual-advanced-courses-_r_6_"><span class="mark-val">22 AP subjects</span><span class="qual-dot" aria-hidden="true"></span></button><div id="qual-advanced-courses-_r_6_" popover="manual" class="tip"><i class="bp-corner tl"></i><i class="bp-corner tr"></i><i class="bp-corner bl"></i><i class="bp-corner br"></i><div class="tip-scroll"><span class="tip-kind">Scope note</span><span class="tip-body">22 is the school’s own stated figure; 23 AP-titled entries actually appear on the course-offerings page.</span></div></div></td><td class="cell val" style="--brand: #1e5fd1;"><span class="mark-val">26 AP</span></td><td class="cell val" style="--brand: #be123c;"><button type="button" class="qual" aria-label="28 AP — what this figure counts for Providence Day School" aria-details="qual-advanced-courses-_r_7_"><span class="mark-val">28 AP</span><span class="qual-dot" aria-hidden="true"></span></button><div id="qual-advanced-courses-_r_7_" popover="manual" class="tip"><i class="bp-corner tl"></i><i class="bp-corner tr"></i><i class="bp-corner bl"></i><i class="bp-corner br"></i><div class="tip-scroll"><span class="tip-kind">Scope note</span><span class="tip-body">28 AP courses are described in the catalog, whose prose names 27 subject areas.</span></div></div></td></tr><tr class="value-row"><th scope="row" class="row-metric"><span class="row-metric-label">Upper School departments</span><span class="row-metric-note">Academic departments in the Upper School catalog. Cannon has no standalone computer-science department — CS sits inside Innovation &amp; Enterprise.</span></th><td class="cell val" style="--brand: #8a2433;"><span class="mark-val">8</span></td><td class="cell val" style="--brand: #1e40af;"><span class="mark-val">11</span></td><td class="cell val" style="--brand: #107a43;"><span class="mark-val">9</span></td><td class="cell val lead" style="--brand: #12294f;"><span class="mark-val">13</span></td><td class="cell val" style="--brand: #1e5fd1;"><span class="mark-val">9</span></td><td class="cell val" style="--brand: #be123c;"><span class="mark-val">11</span></td></tr></tbody><tbody><tr class="group-row"><td class="group-label" colspan="7">Research coverage</td></tr><tr><th scope="row" class="row-metric"><span class="row-metric-label">Course Offerings</span><span class="row-metric-cov">6/6 schools</span></th><td class="cell yes"><span class="mark-check" title="Researched"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 6L9 17l-5-5"></path></svg></span></td><td class="cell yes"><span class="mark-check" title="Researched"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 6L9 17l-5-5"></path></svg></span></td><td class="cell yes"><span class="mark-check" title="Researched"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 6L9 17l-5-5"></path></svg></span></td><td class="cell yes"><span class="mark-check" title="Researched"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 6L9 17l-5-5"></path></svg></span></td><td class="cell yes"><span class="mark-check" title="Researched"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 6L9 17l-5-5"></path></svg></span></td><td class="cell yes"><span class="mark-check" title="Researched"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 6L9 17l-5-5"></path></svg></span></td></tr></tbody></table></div></div><p class="table-note"><span class="mark-check"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 6L9 17l-5-5"></path></svg></span> researched for this school · <span class="mark-na">N/A</span> not in our research yet. Tap a school to read the full write-up.</p></div></main><footer class="footer"><p>Parent-facing research on Charlotte-area private schools. Notes are distilled, lightly-cleaned extracts of source documents — verify specifics with each school.</p></footer><button type="button" class="back-to-top " aria-label="Back to top" aria-hidden="true" tabindex="-1"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V6M6 12l6-6 6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path></svg></button></div></div>
+
+    <!-- Cloudflare Web Analytics — privacy-first, cookieless traffic stats
+         (visits, unique-visitor counts, per-page views, visitor country). Free.
+         Dashboard: Cloudflare → Analytics → Web analytics, site
+         charlotteschoolinsights.com. See src/lib/analytics.ts for the SPA
+         page-view hook this app needs on top of the beacon.
+         (Token was 1fd5db08… while the site lived at dward330.github.io; Cloudflare
+         issues one token per site, so moving to the custom domain changed it.) -->
+    <script type="module" defer="" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="{&quot;token&quot;: &quot;9f82699093284a7084d5fbd2aeda1457&quot;, &quot;spa&quot;: true}"></script>
+  
+
+</body></html>
