@@ -103,6 +103,45 @@ export type MetricGroup = {
 }
 
 /**
+ * Results already computed this session, keyed by topic×school×lang.
+ *
+ * This exists for LAYOUT STABILITY, not speed. `loadMetricGroups` is async, so
+ * a component must render *something* on its first pass — a "Loading research…"
+ * placeholder — and swap in the real cards on a second pass. On a pre-rendered
+ * page that is actively harmful: the served HTML already contains the full
+ * research, so React tore down ~1700px of real content, showed seven one-line
+ * placeholders for ~55ms, then put it back. Measured CLS 0.32, over 3x the
+ * 0.1 threshold, and visible as the whole page jumping.
+ *
+ * With a synchronous cache, a caller can ask whether the answer is already
+ * known (`peekMetricGroups`) and render the real thing on the FIRST pass, so
+ * there is no swap and no shift. The async path is unchanged for a cold load,
+ * where a placeholder is honest — nothing has been fetched yet.
+ */
+const GROUPS_CACHE = new Map<string, MetricGroup[]>()
+
+function groupsKey(topicSlug: string, schoolSlug: string, lang: string): string {
+  return `${topicSlug}:${schoolSlug}:${lang}`
+}
+
+/**
+ * The cached result for a school×topic, or undefined if it has not been loaded
+ * yet. Synchronous by design — this is what lets a component skip the
+ * placeholder render entirely when the data is already in hand.
+ *
+ * Returns undefined (not []) for a note that does not exist, so "not loaded"
+ * and "loaded, genuinely empty" stay distinguishable; the empty case is a real
+ * result and IS cached.
+ */
+export function peekMetricGroups(
+  topicSlug: string,
+  schoolSlug: string,
+  lang = 'en',
+): MetricGroup[] | undefined {
+  return GROUPS_CACHE.get(groupsKey(topicSlug, schoolSlug, lang))
+}
+
+/**
  * Load a school×topic note and group its sections under canonical metrics
  * (hidden/internal sections are dropped). Returns [] if the note doesn't exist.
  */
@@ -111,8 +150,13 @@ export async function loadMetricGroups(
   schoolSlug: string,
   lang = 'en',
 ): Promise<MetricGroup[]> {
+  const cached = GROUPS_CACHE.get(groupsKey(topicSlug, schoolSlug, lang))
+  if (cached) return cached
   const loader = loaders[keyFor(topicSlug, schoolSlug)]
-  if (!loader) return []
+  if (!loader) {
+    GROUPS_CACHE.set(groupsKey(topicSlug, schoolSlug, lang), [])
+    return []
+  }
   const mod = await loader()
   const data = (mod as { default?: SchoolTopicContent }).default ?? (mod as SchoolTopicContent)
 
@@ -144,5 +188,10 @@ export async function loadMetricGroups(
         : section,
     )
   }
-  return orderMetricKeys(topicSlug, order).map((k) => byKey.get(k)!)
+  const result = orderMetricKeys(topicSlug, order).map((k) => byKey.get(k)!)
+  /* Cached per LANGUAGE as well as per school×topic: the overlay above rewrites
+     the section bodies, so an `es` result must never be served to an `en`
+     reader. Keyed by groupsKey(), which includes lang. */
+  GROUPS_CACHE.set(groupsKey(topicSlug, schoolSlug, lang), result)
+  return result
 }

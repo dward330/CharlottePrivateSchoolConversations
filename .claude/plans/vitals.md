@@ -1,7 +1,8 @@
 ---
 name: vitals
 title: Fix the school-page layout shift (CLS 0.32) and mobile LCP (4.3s)
-status: not-implemented
+status: in-progress
+partial: mobile CLS fixed; desktop CLS and LCP still open
 phases: 1
 created: 2026-08-06
 branch: perf/vitals
@@ -185,3 +186,74 @@ in a component rather than the page, that component is edited instead.
 - **Is mobile LCP worth fixing at all if it needs bundle splitting?**
   **Default:** measure and report in step 5, decide separately. A 4.3s LCP on emulated
   Fast-3G may correspond to a much better real-world number for this audience.
+
+## Implementation notes (partial — PR pending)
+
+**Outcome: mobile CLS fixed, desktop CLS not.** Committed as a partial rather than
+reverted, because mobile-first indexing makes the mobile half the more valuable one and
+the negative findings below are worth keeping.
+
+| Route | Desktop before | Desktop after | Mobile before | Mobile after |
+|---|---|---|---|---|
+| 6 school pages | 0.32 POOR | **0.32 POOR** | 0.32 POOR | **0.003 GOOD** |
+| home | 0.001 | 0.001 | — | 0.165 needs work |
+| compare | 0.06 | 0.16 | — | 0.134 needs work |
+
+### Step 1's gate passed — the hypothesis was right, and incomplete
+
+The two-pass mount is real and was proven, not assumed. At the shift the DOM goes from 35
+`<details>` to **0**, with seven `p.loading` placeholders, and page height drops
+4986 → 3310 → 4966px. The `ready` flag in `SchoolDetail` (`useState(false)`, flipped only
+after eight overlay promises resolve) is the cause.
+
+**But the diagnosis explained the height change, not the score.** After reserving space,
+the remaining desktop shift is only **20–40px per element** — the reserve worked — yet CLS
+stays 0.3175, because CLS weights the *fraction of viewport affected*, not the distance
+moved. On a ~5000px page, nudging nearly every element 40px scores as badly as moving it
+400px. Optimising displacement was optimising the wrong quantity.
+
+### What was tried and rejected
+
+- **Synchronous content loading** (seed first render from cache). Implemented, then found
+  useless for the case that matters: a cold page load has an empty cache, and the pre-render
+  and every real first visit are cold. Making it truly synchronous would mean bundling
+  **396–478 KB per school** into the main chunk — trading a layout shift for a worse LCP,
+  the other metric this plan is trying to fix. The cache was **kept** (it removes the
+  placeholder on re-visits: back button, language switch) but it is not the CLS fix.
+- **Raising the desktop `min-height`.** Makes it **worse**: 220px → 0.3184, 300px+ → 0.3365.
+  Overshoot causes sections to shrink back after load, shifting content the other way.
+  Settled desktop sections span 271–684px, so no single floor fits — and the plan's own risk
+  row (a wrong reserve leaves a visible gap) is the reason not to force it.
+
+### A measurement trap worth recording
+
+A probe reported *identical* CLS across six candidate `min-height` values, which first read
+as "the injected rule isn't applying." It **was** applying (`getComputedStyle` confirmed
+`min-height: 220px`); the values genuinely did not matter, for the viewport-fraction reason
+above. Nearly drew the opposite conclusion. Verify that a rule applied before concluding it
+had no effect — and vice versa.
+
+### Two findings outside the plan's scope
+
+Both were previously measured desktop-only, which is why the plan called them passing:
+
+- **`/compare/` needs work** — 0.16 desktop, 0.13 mobile. The plan scoped it out as good.
+- **The home page is 0.165 on mobile** despite 0.001 on desktop.
+
+### What shipped
+
+- `src/lib/content.ts` — `GROUPS_CACHE` + `peekMetricGroups()`, a synchronous read of
+  already-loaded research, keyed by topic×school×**lang** so an `es` result can never be
+  served to an `en` reader.
+- `src/pages/SchoolDetail.tsx` — seeds initial state from that cache, and no longer blanks
+  the page on a re-render when the data is already warm.
+- `src/index.css` — `.topic-section .loading` reserve: 220px desktop, 400px mobile. The
+  mobile value is what fixes mobile CLS.
+
+### Remaining work
+
+Desktop needs the topic sections to render their real content on the **first** pass, which
+means reworking the `ready` gate rather than reserving space around it — a more invasive
+change to the school-page mount than this plan scoped. **Re-plan rather than improvise**,
+now that the viewport-fraction insight changes the approach. Steps 5 (LCP) and 6
+(`check_vitals.mjs` regression guard) are untouched and still open.

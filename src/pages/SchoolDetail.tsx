@@ -5,7 +5,12 @@ import {
   topicsForSchool,
   docCount,
 } from '../lib/manifest.ts'
-import { loadMetricGroups, loadContentOverlay, type MetricGroup } from '../lib/content.ts'
+import {
+  loadMetricGroups,
+  peekMetricGroups,
+  loadContentOverlay,
+  type MetricGroup,
+} from '../lib/content.ts'
 import { SchoolBadge } from '../components/SchoolBadge.tsx'
 import { TopicGlyph } from '../components/TopicGlyph.tsx'
 import { BlueprintCorners } from '../components/BlueprintCorners.tsx'
@@ -296,8 +301,33 @@ export function SchoolDetail({ slug }: { slug: string }) {
   const lang = i18n.resolvedLanguage ?? 'en'
   const navigate = useNavigate()
   const school = schoolBySlug(slug)
-  const [loaded, setLoaded] = useState<Loaded>({})
-  const [ready, setReady] = useState(false)
+
+  /* Seed from the synchronous cache so RE-VISITING a school (back button,
+     language switch, navigating away and back) renders complete on the first
+     pass instead of flashing "Loading research…" again.
+
+     NOTE this does not help the very first load — the cache is empty then, so
+     the placeholder still renders once. That first paint is handled separately,
+     by reserving the placeholder's height in CSS (see `.topic-section-pending`
+     in index.css), because loading the research synchronously would mean
+     bundling ~400-480 KB per school into the main chunk and trading a layout
+     shift for a slower LCP.
+
+     Computed lazily (useState with an initializer) so the cache is read once
+     per mount rather than on every render. */
+  const seed = (): { loaded: Loaded; ready: boolean } => {
+    if (!school) return { loaded: {}, ready: false }
+    const entries: Loaded = {}
+    for (const t of topicsForSchool(slug)) {
+      const hit = peekMetricGroups(t.slug, slug, lang)
+      if (!hit) return { loaded: {}, ready: false } // any miss -> load normally
+      entries[t.slug] = hit
+    }
+    return { loaded: entries, ready: true }
+  }
+  const [initial] = useState(seed)
+  const [loaded, setLoaded] = useState<Loaded>(initial.loaded)
+  const [ready, setReady] = useState(initial.ready)
   /* The last-clicked research area in the nav keeps the active (foreground)
      treatment so the reader can see which section they jumped to. */
   const [activeSlug, setActiveSlug] = useState<string | null>(null)
@@ -323,8 +353,17 @@ export function SchoolDetail({ slug }: { slug: string }) {
 
   useEffect(() => {
     let alive = true
-    setReady(false)
-    setLoaded({})
+    /* Only blank the page when the new school/language is NOT already cached.
+       Unconditionally resetting would re-introduce the placeholder frame this
+       fix removes — including on a plain re-render, since the effect re-runs
+       whenever `slug` or `lang` changes. */
+    const warm = school
+      ? topicsForSchool(slug).every((t) => peekMetricGroups(t.slug, slug, lang))
+      : false
+    if (!warm) {
+      setReady(false)
+      setLoaded({})
+    }
     Promise.all([
       /* Prose overlays load alongside the notes and behind the same `ready`
          gate: resolving them after first paint would render the English
