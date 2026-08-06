@@ -18,7 +18,7 @@ function linkify(text: string): ReactNode {
     const href = trailer ? part.slice(0, -trailer.length) : part
     return (
       <span key={i}>
-        <a className="prose-link" href={href} target="_blank" rel="noreferrer">
+        <a className="prose-link" href={href} target="_blank" rel="noreferrer noopener">
           {href}
         </a>
         {trailer}
@@ -103,7 +103,11 @@ function Blocks({ blocks }: { blocks: ProseBlock[] }) {
               <div key={i} className="prose-table-wrap">
                 <table className="prose-table">
                   <thead>
-                    <tr>{b.header.map((h, j) => <th key={j}>{h}</th>)}</tr>
+                    {/* scope= is what lets a screen reader announce "Tuition,
+                        $28,500" instead of reading a bare number: col headers
+                        label their column, and the first cell of each row (below)
+                        labels its row. */}
+                    <tr>{b.header.map((h, j) => <th key={j} scope="col">{h}</th>)}</tr>
                   </thead>
                   <tbody>
                     {b.rows.map((row, j) => (
