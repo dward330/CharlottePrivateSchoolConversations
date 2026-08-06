@@ -293,6 +293,30 @@ New user-facing UI text added to a component must be a locale key, never a hardc
 literal. Add it to `en.json` **and** `es.json` in the same pass — a key missing from
 `es.json` silently falls back to English.
 
+### 5. Search indexability — mostly automatic, but VERIFY
+
+Every indexable page is pre-rendered to a real file at build time (see the
+search-indexability standard in `CLAUDE.md`). The whole surface — pre-rendered pages,
+`sitemap.xml`, `robots.txt`, `hreflang` alternates — is generated from
+`src/data/schools.json` via `scripts/seo_routes.mjs`, so **a newly ingested school flows
+through with no manual step.** This was verified by experiment, not assumed.
+
+What you still owe:
+
+- **Run `npm run check:seo`** after an ingest that adds or renames a school. It fails if a
+  route has no pre-rendered page — a silent failure otherwise, because the SPA keeps
+  working for anyone who clicks in while deep links 404.
+- **A renamed slug changes a live URL.** The old `/school/<old-slug>/` will 404 for anyone
+  who bookmarked or shared it, and the sitemap will stop listing it. Flag this to the user
+  rather than renaming silently.
+- **Adding a TOPIC lengthens every meta description at once** — they are composed from
+  school and topic names in `src/lib/head.ts` and must stay ≤160 chars. `check:seo`
+  enforces it, so a failure there after a topic addition is expected, not mysterious.
+
+Ingestion never adds a route, so the "new route must be registered in `ROUTES`" rule in
+`CLAUDE.md` does not normally apply here — but it does if the ingest is paired with a UX
+change that adds one, which needs the user's approval first anyway.
+
 ## Notes & limitations
 
 - Output is a faithful, lightly-cleaned **extraction** of the source text, not a re-summary.

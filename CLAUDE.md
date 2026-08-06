@@ -365,6 +365,52 @@ Rules of thumb: never concatenate sentence fragments — use interpolation
 (`{{count}} schools`) so word order can change per language. Use i18next's `count`
 option for anything pluralized rather than hand-rolling `s` suffixes.
 
+## Search-indexability standard (required)
+
+The site is a client-rendered SPA, but every indexable page is **pre-rendered to a real
+file** at build time so crawlers and link-preview scrapers get real HTML. Live since
+2026-08-06 (PRs #105–#108).
+
+**The whole surface is generated from `src/data/schools.json` — do not hand-write any of
+it.** `scripts/seo_routes.mjs` is the single route list; `prerender.mjs` writes the pages,
+`gen_seo_files.mjs` writes `robots.txt` + `sitemap.xml`, and `check_seo.mjs` asserts they
+agree. All three are chained into `npm run build`, so **adding a school automatically adds
+its pre-rendered page, its sitemap entry and its `hreflang` alternates.** Verified by
+experiment, not assumed.
+
+**Run `npm run check:seo` after anything that touches routes, `<head>`, or the school
+list.** It fails the build when a route has no pre-rendered page (the failure mode is
+silent otherwise: the SPA keeps working for anyone who clicks in, while deep links 404),
+and it also catches a page under the byte floor, a duplicate or still-default `<title>`,
+a missing/oversized meta description, a canonical that disagrees with the sitemap, and a
+`LOCALES` list that has drifted from `TRANSLATED`.
+
+Four things that are **not** automatic:
+
+- **A new ROUTE** (not a new school) must be added to `ROUTES` in `seo_routes.mjs`, or it
+  is unreachable by deep link. `check:seo` cannot catch a route it was never told about.
+- **`LOCALES` in `seo_routes.mjs` is a hand-kept mirror of `TRANSLATED`** in
+  `src/lib/i18n.ts`. Shipping a locale without updating it under-advertises the language.
+  `check:seo` DOES catch this — it re-parses `TRANSLATED` and fails on drift.
+- **Meta descriptions are composed** in `src/lib/head.ts` from school and topic names, so
+  adding a topic lengthens every one of them at once. They must stay ≤160 chars or search
+  engines truncate them; `check:seo` enforces both ends of that budget.
+- **`npm run deploy` is the user's call, every time.** Merging is not publishing, and
+  `Published` in the deploy output is not the same as the GitHub Pages *build* finishing —
+  check `gh api repos/OWNER/REPO/pages/builds --jq '.[0].status'` before believing a live
+  URL 404 means something is wrong.
+
+**Path URLs are canonical; the hash router is a permanent compatibility layer.** Shared
+`#/school/…` links are already in the wild (Facebook is the #2 referrer), so `parse()`
+keeps its hash branch and `src/main.tsx` rewrites legacy URLs to the path form on load.
+Never remove the hash fallback.
+
+**A crawler check is a browser check.** Two defects here shipped past every source-level
+check because they were pure render-layer: pre-rendered English markup flashing to
+non-English readers (fixed by hiding `<body>` pre-paint — measure `visibility`, NOT the
+DOM, which transitions identically either way), and page-view URLs fragmenting Cloudflare's
+dashboard. See `.claude/plans/seo.md` and the memory notes for both.
+
 ## Data-provenance standard (required)
 
 **Whenever you fetch or pull in new school data from an external source (web search,
