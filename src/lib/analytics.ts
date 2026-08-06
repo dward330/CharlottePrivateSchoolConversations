@@ -17,9 +17,10 @@
 //
 // THE FIX. Route ALL in-app navigation through `pushRoute()` here instead of
 // letting the browser create the hash entry:
-//   1. pushState to a SYNTHETIC path that encodes the page (`…/school/cannon`)
-//      but also carries the real hash — the beacon reads the path synchronously
-//      and logs the page-view; the router reads the hash.
+//   1. pushState to a SYNTHETIC path that encodes the page (`…/school/cannon`),
+//      passed as a RELATIVE path — the beacon reads it synchronously and logs
+//      the page-view. (Absolute URLs hit a normaliser bug in beacon.min.js that
+//      buckets every hit under `/`; see the long note in pushRoute below.)
 //   2. replaceState back to the clean canonical hash URL (`…/#/school/cannon`),
 //      editing that same entry — so exactly ONE history entry is added and the
 //      address bar stays tidy.
@@ -72,9 +73,22 @@ export function pushRoute(hash: string): void {
   try {
     if (beaconReady()) {
       // (1) Beacon reads this path synchronously and logs the page-view.
-      const synthetic = new URL(canonicalUrl)
-      synthetic.pathname = pathForHash(canonicalHash)
-      window.history.pushState(null, '', synthetic.href)
+      //
+      // PASS A RELATIVE PATH, NOT AN ABSOLUTE URL — this is load-bearing, and
+      // getting it wrong silently sends every page-view to the wrong bucket.
+      // The beacon normalises the pushState URL with, effectively:
+      //
+      //   if (u.indexOf('/') === 0) out = origin + u            // relative: fine
+      //   else { const x = new URL(u)
+      //          return `${x.protocol}://${x.host}${x.pathname}` }   // absolute
+      //
+      // `URL.protocol` already ends in ':', so the absolute branch emits
+      // `https:://host/path` — a malformed URL Cloudflare's ingestion cannot
+      // parse a path out of, so it files the hit under `/`. That is a bug in
+      // beacon.min.js, not here, but the relative branch sidesteps it entirely.
+      // Verified against the live beacon: absolute -> "https:://…", relative ->
+      // "https://…". Re-check if Cloudflare ever fixes their normaliser.
+      window.history.pushState(null, '', pathForHash(canonicalHash))
       // (2) Restore the clean canonical hash URL in the same entry.
       window.history.replaceState(null, '', canonicalUrl)
     } else {
