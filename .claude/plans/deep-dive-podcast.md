@@ -1,11 +1,11 @@
 ---
 name: deep-dive-podcast
 title: Podcast deep-dive links under every research-area header, on all six school pages
-status: english-done
+status: implemented
 phases: 2
 created: 2026-08-07
 branch: feat/deep-dive-podcast
-prs: []
+prs: [116]
 ---
 
 # Podcast deep-dive links under every research-area header
@@ -507,11 +507,47 @@ assumed); scroller caps at 190px; blueprint corners unclipped with no `overflow:
 ancestor; focus ring is the themed accent `rgb(89, 128, 166)` at 2px; dark mode reads from
 tokens with no override; print hides both the strip and the page-level line.
 
-### Open for the user's review before Phase 2
+### English review (2026-08-07)
 
-- **The multi-episode subline is wordier than the mock's.** It renders `3 episodes cover
-  Providence Day School's Course Offerings`; the mock read `3 episodes cover Providence Day's
-  career pathways`. The difference is that the app interpolates the full school name and the
-  *nav label* for the topic, where the mock hand-wrote a short name and a natural-language
-  phrase. Grammatical and accurate as-is, and the interpolation means Phase 2 can restructure
-  it per locale either way — but the wording is the thing the English gate exists to settle.
+Both points went to the user and both were resolved in favour of what shipped: the wordier
+multi-episode subline (`3 episodes cover Providence Day School's Course Offerings`) was
+preferred over the mock's shorter phrasing, and the two-form title split (condensed in the
+popover list, published in the single-episode subline) was confirmed correct. **No English
+wording changed**, so Phase 2 followed immediately.
+
+### Phase 2 (locales) — what deviated
+
+- **`countLine` was restructured for every locale, and it is NOT a translation of the
+  English.** The English reads `{{count}} episodes cover {{school}}'s {{topic}}`. Rendered
+  in the Romance locales that shape produced `3 épisodes traitent Offre de cours de
+  Providence Day School` — because `{{topic}}` resolves to a **title-case nav label**, not a
+  sentence noun, so it lands mid-clause without its article and reads as a grammar error.
+  The nine locales therefore put the label **last**, after an em dash: `3 épisodes sur
+  Providence Day School — Offre de cours`. This is the convention `school.compareOn`
+  (`Comparer sur {{topic}}`) already uses for exactly this problem — a bare label after a
+  preposition, at the end, where title case is unremarkable. Caught by reading the rendered
+  output, not by any checker.
+
+- **Arabic carries the full CLDR plural set** (`_zero`/`_one`/`_two`/`_few`/`_many`/`_other`)
+  for both `countLine` and `pageLine`, matching how `courses.countCourses` already ships.
+  Confirmed rendering `حلقتين` for two episodes — the dual form a two-form assumption would
+  have silently replaced with `2 حلقة`.
+
+### Phase 2 verification results
+
+Catalog parity: all ten in step, no missing or stray keys · `npx tsc --noEmit` clean ·
+`npm run build` + `npm run check:seo` clean · `npm run check:translations` — no drift ·
+`npm run check:runtime` — 6065 shipped entries, every stamp still recomputes, confirming
+this phase disturbed no overlay (as the plan predicted, since no overlay entry was added) ·
+`npm run check:podcast` unchanged.
+
+Browser pass across **all ten locales** on two school pages (Providence Day and Charlotte
+Latin): chrome translated everywhere; episode titles, `Spotify`, `Apple Podcasts` and the
+show name still Latin in all four non-Latin scripts; Arabic's dual form correct; and the
+concrete RTL risk — **the popover anchors to the inline-start edge in `fa` and `ar`** and
+stays on screen, verified by asserting edge alignment within 2px rather than by eye.
+
+**One trap worth recording for the next locale pass:** the language `localStorage` key is
+`csc.lang`, not `lang`. A verification script that sets the wrong key renders **English**
+while reporting success — the exact silent-fallback shape `verify-i18n-in-a-browser`
+warns about. It cost one screenshot here because the query-param path masked it.
