@@ -5,19 +5,23 @@ import { setPageMeta } from './lib/head.ts'
 import { assetUrl } from './lib/asset.ts'
 import { contactMailto, CONTACT_EMAIL } from './lib/contact.ts'
 import { trackEvent } from './lib/analytics.ts'
-import { topics, schools, brandOf } from './lib/manifest.ts'
+import { topics, schools, brandOf, schoolBySlug } from './lib/manifest.ts'
 import { Home } from './pages/Home.tsx'
 import { SchoolDetail } from './pages/SchoolDetail.tsx'
 import { Compare } from './pages/Compare.tsx'
 import { BackToTop } from './components/BackToTop.tsx'
 import { ThemeToggle } from './components/ThemeToggle.tsx'
 import { LanguagePicker } from './components/LanguagePicker.tsx'
+import { StickySchoolTitle } from './components/StickySchoolTitle.tsx'
 
 function App() {
   const { t } = useTranslation()
   const route = useRoute()
   const navigate = useNavigate()
   const allSlugs = schools.map((s) => s.slug)
+  // Null on Home and Compare; StickySchoolTitle renders nothing for those.
+  const schoolName =
+    route.name === 'school' ? (schoolBySlug(route.slug)?.name ?? null) : null
   // Falls back to the text mark if public/logo.png isn't present yet.
   const [logoOk, setLogoOk] = useState(true)
 
@@ -51,6 +55,9 @@ function App() {
           )}
           <span className="brand-name">{t('nav.brandName')}</span>
         </a>
+        {/* Outside .brand on purpose: .brand is the Home link, and this label
+            is not clickable. */}
+        <StickySchoolTitle name={schoolName} />
         <div className="nav-actions">
           <a
             className={`navlink ${route.name === 'compare' ? 'on' : ''}`}

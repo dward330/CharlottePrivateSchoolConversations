@@ -169,6 +169,40 @@ button { font: inherit; }
   letter-spacing: 0.04em;
 }
 .brand-name { font-size: 18px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+/* The school name, frozen into the nav once the page <h1> scrolls under it
+   (StickySchoolTitle.tsx). Same min-width/ellipsis discipline as .brand-name so
+   it can never force the nav wider than the viewport. The divider is a border,
+   not a "|" character: a neutral glyph between an RTL string and a Latin school
+   name reorders under bidi. Logical properties keep it on the correct edge in
+   fa/ar. margin-inline-end: auto keeps it beside the brand — the nav is
+   space-between, so a bare third child would float to the middle. */
+.nav-school {
+  min-width: 0;
+  margin-inline-end: auto;
+  padding-inline-start: 12px;
+  margin-inline-start: 4px;
+  border-inline-start: 1px solid var(--border);
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  /* Hidden until the title scrolls away, mirroring .back-to-top. Transition
+     opacity/transform ONLY — animating width would reflow the whole nav row. */
+  opacity: 0;
+  transform: translateY(-4px);
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+.nav-school.show { opacity: 1; transform: translateY(0); }
+@media (max-width: 700px) {
+  /* The wordmark, Compare, Contact, the language picker and the theme toggle
+     already compete for this row; a second string would ellipsise the brand to
+     nothing, and the brand is the one thing that must never disappear. */
+  .nav-school { display: none; }
+}
 /* Logo art (public/logo.png) has a cream field baked in; a hairline keeps it
    reading as an intentional plate on both light and dark navs. */
 .brand-logo {
@@ -2211,6 +2245,9 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
      dead control, and the strip's tinted band reads as a page artifact. */
   .podcast-strip,
   .podcast-pageline,
+  /* The dossier header prints in full, so the frozen name would just duplicate
+     the <h1> already on the page. */
+  .nav-school,
   .navlink { display: none; }
   /* A qualified figure must print identically to an unqualified one: no dot,
      no dotted underline, no button chrome. Closed popovers don't print. */

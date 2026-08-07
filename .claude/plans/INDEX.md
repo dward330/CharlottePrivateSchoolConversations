@@ -17,3 +17,4 @@ Newest last.
 | [vitals](vitals.md) | Fix the school-page layout shift (CLS 0.32) and mobile LCP (4.3s) | 2026-08-06 | In progress — mobile CLS fixed; desktop CLS + LCP open | [#110](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/110) |
 | [contactus](contactus.md) | "Contact us" mailto button in the shared header | 2026-08-06 | Implemented | [#114](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/114) |
 | [deep-dive-podcast](deep-dive-podcast.md) | Podcast deep-dive links under every research-area header, on all six school pages | 2026-08-07 | Implemented | [#116](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/116) |
+| [schoolPageTitle](schoolPageTitle.md) | Show the school name in the sticky header once the school title scrolls out of view | 2026-08-07 | Implemented | [#117](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/117) |
