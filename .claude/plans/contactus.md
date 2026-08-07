@@ -1,7 +1,7 @@
 ---
 name: contactus
 title: "Contact us" mailto button in the shared header
-status: english-done
+status: implemented
 phases: 2
 created: 2026-08-06
 branch: feat/contact-us-button
@@ -449,3 +449,46 @@ UI chrome, so this is the **catalog layer only** — `src/locales/*.json`. The
 - **Is `k12schoolResearcher@gmail.com` correct, including the capital `S`?** It is
   case-preserved from the handoff README. — **default:** use it exactly as written; it is
   a single constant in `src/lib/contact.ts` and trivial to change.
+
+## Implementation notes
+
+Built as planned; both open questions shipped on their stated defaults (guarded no-op
+`trackEvent()`, address verbatim including the capital `S`). No step was dropped and no
+deviation from the design was needed — the mapping table in *Context* was correct, and
+`.btn.ghost.small` carried the handoff's intent without a new variant.
+
+Three things worth recording for whoever touches this next.
+
+**The RTL glyph flip needed no CSS.** Phase 2 step 2 anticipated possibly adding a rule;
+flex under `dir="rtl"` handled it on its own. Verified by measuring the glyph's centre
+against the label's in a browser, in both `fa` and `ar` — the check is geometric, not a
+screenshot eyeball, so it will catch a regression.
+
+**A dark-mode check silently tested the wrong thing, and is the reason this repo's
+browser-check rule exists.** The first verification pass set `data-theme` on `<body>` from
+JS and asserted the button's colours. It reported PASS while measuring a *light* page
+twice: `data-theme` lives on `<html>` (`:root`), and it is React state, so a hand-set
+attribute is reverted on the next render. Both dark assertions were vacuous. Re-run by
+clicking the real `.theme-toggle`, the label flips `rgb(29,31,32)` → `rgb(230,231,232)`
+over a background of luminance 24. **When verifying theme-dependent styling, drive the
+toggle — never set the attribute.**
+
+**`mailto:` handoff to the mail client is outside what the page controls.** During review
+the button opened Outlook Web in Edge rather than macOS Mail. That is browser-level
+protocol-handler config (`edge://settings/content/handlers`), which overrides the macOS
+default reader; the href carries no target or vendor hint. Confirmed as intended
+behaviour and deliberately left alone — forcing a specific webmail target would break the
+link for everyone whose setup differs. Worth knowing before anyone files it as a bug.
+
+### Verification actually run
+
+Beyond the plan's list: `check:translations` (no drift), `check:bidi` (0 isolates leaked
+into LTR locales), `check:fa`, `check:hi`, and `check_chrome_keys.mjs`. The browser passes
+were scripted with Playwright — 31 assertions in Phase 1, 99 across all ten locales in
+Phase 2 (label not falling back to English, `{{email}}` interpolated with no raw token,
+href identical in every locale, direction, glyph side, picker overlap, and the 390/768/1280
+widths). Telugu is the widest label at 174px and fits.
+
+`i18n:leaks` was **not** run — it requires `--lang` and targets the prose overlay layer,
+which this change does not touch. The overlay checks (`check:runtime`, `check:sepdrift`,
+`check:figures`) are likewise not applicable: this is catalog-layer chrome with no figures.
