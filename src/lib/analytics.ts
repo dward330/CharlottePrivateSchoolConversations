@@ -215,3 +215,22 @@ export function initAnalytics(): void {
     window.scrollTo({ top: 0 })
   })
 }
+
+/**
+ * Fire a custom analytics event.
+ *
+ * NO-OP TODAY, DELIBERATELY. The only analytics vendor here is Cloudflare Web
+ * Analytics (index.html), whose free tier records PAGE-VIEWS ONLY and has no
+ * custom-event API — so there is nothing to send this to yet. This exists so
+ * call sites are instrumented and a future vendor is a one-function change,
+ * not a hunt through components. Guarded so it can never break an interaction.
+ */
+export function trackEvent(name: string, props?: Record<string, string>): void {
+  if (typeof window === 'undefined') return
+  try {
+    const dl = (window as unknown as { dataLayer?: unknown[] }).dataLayer
+    if (Array.isArray(dl)) dl.push({ event: name, ...props })
+  } catch {
+    // Analytics must never break interaction.
+  }
+}

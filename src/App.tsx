@@ -3,6 +3,8 @@ import { useTranslation } from 'react-i18next'
 import { useRoute, toHome, toCompare, useNavigate } from './lib/router.ts'
 import { setPageMeta } from './lib/head.ts'
 import { assetUrl } from './lib/asset.ts'
+import { contactMailto, CONTACT_EMAIL } from './lib/contact.ts'
+import { trackEvent } from './lib/analytics.ts'
 import { topics, schools, brandOf } from './lib/manifest.ts'
 import { Home } from './pages/Home.tsx'
 import { SchoolDetail } from './pages/SchoolDetail.tsx'
@@ -56,6 +58,34 @@ function App() {
             onClick={(e) => { e.preventDefault(); navigate(toCompare(topics[0]?.slug ?? null, allSlugs)) }}
           >
             {t('nav.compare')}
+          </a>
+          {/* A real anchor, never a <button> + window.location: the browser must
+              handle the mailto itself (and the address is copyable). No
+              target="_blank" — it leaves an empty tab behind. trackEvent is
+              synchronous and fire-and-forget, so the navigation is unaffected;
+              the delegated handler in analytics.ts ignores non-'/' hrefs. */}
+          <a
+            className="btn ghost small contact"
+            href={contactMailto()}
+            title={t('nav.contactTitle', { email: CONTACT_EMAIL })}
+            aria-label={t('nav.contact')}
+            onClick={() => trackEvent('contact_click')}
+          >
+            <svg
+              width="15"
+              height="15"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              aria-hidden="true"
+            >
+              <rect x="3" y="5" width="18" height="14" />
+              <path d="m3 7 9 6 9-6" />
+            </svg>
+            <span className="contact-label">{t('nav.contact')}</span>
           </a>
           <LanguagePicker />
           <ThemeToggle />
