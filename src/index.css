@@ -792,6 +792,208 @@ main { flex: 1; }
 .topic-section-head .btn { margin-left: auto; }
 
 
+/* ------------------------------------------------- podcast deep-dive links */
+
+/* The strip under a research-area header offering that school's episode(s) for
+   that topic, plus the page-level line under the header chips. Ported from
+   "Providence Day School.dc.html" in the design project; the mock's Industry
+   token names were renamed on the way in (--color-accent → --accent,
+   --color-divider → --border, .elev-md → var(--shadow-md), .blueprint's four
+   .corner marks → <BlueprintCorners />, whose class is .bp-corner here —
+   .corner already means a Compare-table sticky cell and is NOT reused).
+
+   A section with no episode renders no strip at all, so every rule below is
+   scoped to an element that only exists when there is something to listen to. */
+
+.podcast-strip {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  padding: 12px 14px;
+  margin-bottom: 16px;
+  /* No border-top: the header row's own border-bottom IS that line, and the
+     strip continues it down the two sides. */
+  border-left: 1px solid var(--border);
+  border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  background: color-mix(in oklab, var(--accent) 5%, transparent);
+}
+/* The strip carries the 16px itself, so the header rule sits flush on top of
+   it. Scoped with :has() rather than a class passed down from the TSX, so a
+   section WITHOUT a strip is untouched. Degrades to 16px of extra space above
+   the strip in a browser without :has() — cosmetic, not broken. */
+.topic-section-head:has(+ .podcast-strip) { margin-bottom: 0; }
+
+.podcast-strip-glyph { color: var(--accent-700); display: flex; }
+/* min-width lets the block wrap below the glyph on a narrow viewport rather
+   than squeezing the title to one word per line. */
+.podcast-strip-text { flex: 1; min-width: 220px; }
+.podcast-strip-title {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 0.02em;
+}
+.podcast-strip-sub { color: var(--muted); font-size: 13px; }
+
+/* Page-level entry point: the episodes that cover this school but map to no
+   research area. Sits under the header chips, quieter than the strip. */
+.podcast-pageline {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.podcast-pageline-glyph { color: var(--accent-700); display: flex; }
+.podcast-pageline-text { color: var(--muted); font-size: 13px; }
+.podcast-pageline .podbtn { padding: 4px 9px; font-size: 12.5px; }
+
+.podcast-pop { position: relative; }
+
+.podbtn {
+  appearance: none;
+  cursor: pointer;
+  background: transparent;
+  color: var(--text);
+  border: 1px solid var(--border);
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 7px 12px;
+}
+.podbtn:hover { border-color: var(--accent); color: var(--accent-700); }
+.podbtn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.podbtn[data-on='true'] {
+  border-color: var(--accent);
+  color: var(--accent-700);
+  background: color-mix(in oklab, var(--accent) 8%, transparent);
+}
+
+/* inset-inline-end, not right: in Farsi and Arabic the panel must hang off the
+   other edge. Same reason .lang-panel uses it. */
+.podcast-panel {
+  position: absolute;
+  top: calc(100% + 8px);
+  inset-inline-end: 0;
+  z-index: 5;
+  width: 300px;
+  max-width: min(92vw, 380px);
+  padding: 14px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  box-shadow: var(--shadow-md);
+  text-align: start;
+}
+/* The multi-episode variant needs the extra room for a title per row. */
+.podcast-panel.wide { width: 380px; padding: 16px; }
+
+/* Below roughly the panel's own width there is no anchor position that keeps a
+   380px popover on screen — the trigger sits near the inline-end edge, so
+   anchoring either side pushes the panel past the opposite one. Drop out of
+   absolute positioning entirely and let it flow inside the strip at full width.
+   Caught by the 380px browser pass; capping `width` alone fixed the size and
+   left the panel at x=-242. */
+@media (max-width: 460px) {
+  .podcast-strip .podcast-pop,
+  .podcast-pageline .podcast-pop { position: static; }
+  .podcast-strip,
+  .podcast-pageline { position: relative; }
+  .podcast-panel,
+  .podcast-panel.wide,
+  .podcast-pageline .podcast-panel {
+    width: auto;
+    max-width: none;
+    inset-inline: 0;
+  }
+}
+/* The page-level popover opens from a line that starts at the page's inline
+   edge, so anchoring it to the far edge would push it off screen. */
+.podcast-pageline .podcast-panel { inset-inline-end: auto; inset-inline-start: 0; }
+
+.podcast-panel-head {
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent-700);
+  margin-bottom: 10px;
+}
+.podcast-panel.wide .podcast-panel-head { margin-bottom: 12px; }
+
+.podcast-rows { display: flex; flex-direction: column; gap: 6px; }
+
+.podrow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid var(--border);
+  background: transparent;
+  cursor: pointer;
+  text-align: start;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: var(--sans);
+  font-size: 14px;
+}
+.podrow:hover {
+  border-color: var(--accent);
+  background: color-mix(in oklab, var(--accent) 8%, transparent);
+  color: var(--accent-700);
+}
+/* Inset, like .lang-row: an outward ring on a row inside the scroller would be
+   clipped by the scroll container. */
+.podrow:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.podrow-label { flex: 1; }
+/* The paired Spotify/Apple buttons under an episode title size to content. */
+.podrow.small { padding: 7px 10px; font-size: 13px; width: auto; }
+
+/* Caps at roughly two episodes and scrolls; the third is the affordance that
+   there are more. */
+.podcast-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  max-height: 190px;
+  overflow-y: auto;
+  padding-inline-end: 6px;
+}
+/* The mock's --color-accent-300 has no equivalent here; mix it instead. */
+.scrolllist {
+  scrollbar-width: thin;
+  scrollbar-color: color-mix(in srgb, var(--accent) 45%, transparent) transparent;
+}
+
+.podcast-episode-title {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.25;
+  margin-bottom: 7px;
+}
+.podcast-episode-links { display: flex; gap: 6px; flex-wrap: wrap; }
+
+.podcast-follow {
+  border-top: 1px solid var(--border);
+  margin-top: 12px;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  font-size: 12.5px;
+}
+.podcast-follow-label { color: var(--muted); }
+.podcast-follow a { font-family: var(--heading); font-weight: 600; }
+
+
 /* Hairline grid without a painted backing field.
    Setting `gap: 1px` over `background: var(--border)` shows the field through
    any partial last row (4 tiles across 3 columns) as a grey block. Drawing the
@@ -2005,6 +2207,10 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   .qual-dot,
   .no-print,
   .btn.contact,
+  /* Interactive chrome — a printed "Listen" button with a closed popover is a
+     dead control, and the strip's tinted band reads as a page artifact. */
+  .podcast-strip,
+  .podcast-pageline,
   .navlink { display: none; }
   /* A qualified figure must print identically to an unqualified one: no dot,
      no dotted underline, no button chrome. Closed popovers don't print. */

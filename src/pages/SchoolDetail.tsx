@@ -15,6 +15,7 @@ import { SchoolBadge } from '../components/SchoolBadge.tsx'
 import { TopicGlyph } from '../components/TopicGlyph.tsx'
 import { BlueprintCorners } from '../components/BlueprintCorners.tsx'
 import { ProseContent } from '../components/ProseContent.tsx'
+import { PodcastDeepDive } from '../components/PodcastDeepDive.tsx'
 import { proseSummary, previewHasGapLanguage } from '../lib/prose.ts'
 import { toCompare, toHome, useNavigate } from '../lib/router.ts'
 import { schools as allSchools } from '../lib/manifest.ts'
@@ -454,6 +455,10 @@ export function SchoolDetail({ slug }: { slug: string }) {
               </a>
             ))}
           </div>
+          {/* Episodes that feature this school but map to no research area
+              (Summer Camp, the Season 1 finale). Returns null for a school with
+              none, so the line omits itself. */}
+          <PodcastDeepDive variant="page" school={slug} schoolName={school.name} />
         </div>
         {brand.logo && (
           <img
@@ -667,6 +672,18 @@ export function SchoolDetail({ slug }: { slug: string }) {
                     {tr('school.compareOn', { topic: topicLabel(tr, t.slug, t.name) })} <ArrowIcon />
                   </a>
                 </div>
+
+                {/* Renders nothing when this school × topic has no episode, so a
+                    section without one keeps exactly the layout it had before
+                    (the header's own margin-bottom is only zeroed when a strip
+                    actually follows it — see .topic-section-head:has() in the CSS). */}
+                <PodcastDeepDive
+                  variant="section"
+                  school={slug}
+                  schoolName={school.name}
+                  area={t.slug}
+                  topicLabel={topicLabel(tr, t.slug, t.name)}
+                />
 
                 {stats.length > 0 && (
                   <div className="stat-strip">
