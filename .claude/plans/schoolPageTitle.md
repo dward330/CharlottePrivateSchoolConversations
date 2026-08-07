@@ -1,7 +1,7 @@
 ---
 name: schoolPageTitle
 title: Show the school name in the sticky header once the school title scrolls out of view
-status: english-done
+status: implemented
 phases: 2
 created: 2026-08-07
 branch: feat/school-page-title
@@ -346,3 +346,42 @@ lesson is that render-layer defects survive every automated check):**
 - **Exact font size of the frozen name relative to the 18px brand name.** **Default:**
   ~16px, `color: var(--muted)`, so it reads as secondary. Tune during the English review if
   it looks off.
+
+## Implementation notes
+
+Shipped in PR #117, both phases. Three deviations from the plan, all small:
+
+1. **`margin-inline-end: auto` on `.nav-school`.** The plan didn't account for `.topnav`
+   being `justify-content: space-between`. With only `.brand` and `.nav-actions` that
+   produces the right layout, but a third flex child floats to the middle of the row.
+   The auto margin keeps the label hugging the brand (measured 16px gap).
+
+2. **Logical properties from the start, not `border-left`.** The plan specified
+   `border-left` / `padding-left` / `margin-left` and listed "renders on the wrong edge in
+   `fa`/`ar`" as a risk, with `border-inline-start` as the named Phase 2 fix. Writing the
+   logical form up front costs nothing and closes the risk before it can ship, so the
+   Phase 2 RTL check confirmed correct behaviour rather than discovering a defect. Verified
+   in a browser: `fa` and `ar` render the divider on the right edge with the label to the
+   left of the brand.
+
+3. **The a11y string's word order is per-language, not the English order.** `bn`, `te` and
+   `hi` are head-final and lead with `{{school}}` before the verb
+   (`বর্তমানে {{school}} দেখছেন`); the Romance locales and `ht` stay head-initial. Plan step
+   Phase-2.3 asked for exactly this.
+
+**Verification beyond what the plan listed.** Both browser passes were scripted with
+Playwright against a real Chromium and assert *computed* styles and geometry rather than
+DOM presence — 30 checks in Phase 1 (6 schools, 3 viewports, print media, both themes) and
+89 in Phase 2 (all ten locales × 8 assertions). Two results worth keeping:
+
+- **No nav reflow.** `.nav-actions`'s left edge and the nav's height are byte-identical
+  before and after the label appears, so this adds nothing to the open desktop CLS issue
+  tracked in [vitals](vitals.md).
+- **The pre-rendered markup is already correct.** Each school page ships the label
+  `aria-hidden="true"` and CSS-hidden, and Home/Compare omit it entirely, so there's no
+  pre-hydration flash.
+
+**Pre-existing failures left alone.** `npm run check:sepdrift` fails for `es`, `ht` and
+`fa` on this branch — and identically on `main` at the same commit. This plan touches no
+`src/data/**` file, so the failures are not implicated by it; the `es` one is the already
+recorded open defect. Not fixed here.
