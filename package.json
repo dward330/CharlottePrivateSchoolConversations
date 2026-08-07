@@ -27,6 +27,7 @@
     "check:hi": "node scripts/check_hi_numerals.mjs",
     "check:sepdrift": "node scripts/check_sep_drift.mjs",
     "check:sources": "node scripts/check_work_sources.mjs",
+    "check:podcast": "node scripts/check_podcast_episodes.mjs",
     "i18n:leaks": "node scripts/find_english_leaks.mjs"
   },
   "dependencies": {
