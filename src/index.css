@@ -421,6 +421,19 @@ main { flex: 1; }
 .btn.ghost:hover { background: var(--surface-2); }
 .btn.small { padding: 7px 13px; font-size: 13px; }
 
+/* Contact button: label + mail glyph normally; below 480px the nav runs out of
+   room, so the label is dropped and the button becomes a small square. Hiding
+   the button entirely is NOT an option — it stays reachable at every width.
+
+   The text-decoration/color resets exist because this is the first <a> to wear
+   .btn (which was authored for <button>): without them the anchor inherits the
+   link underline and link colour. */
+.btn.contact { text-decoration: none; color: var(--text); }
+@media (max-width: 480px) {
+  .btn.contact { padding: 7px; }
+  .btn.contact .contact-label { display: none; }
+}
+
 .badge {
   display: inline-grid;
   place-items: center;
@@ -1991,6 +2004,7 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   .bp-corner,
   .qual-dot,
   .no-print,
+  .btn.contact,
   .navlink { display: none; }
   /* A qualified figure must print identically to an unqualified one: no dot,
      no dotted underline, no button chrome. Closed popovers don't print. */
