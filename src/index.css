@@ -4383,6 +4383,61 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
    applies by default. */
 .note-card-as[open] .note-card-body { column-count: 1; }
 
+/* ═════════════════════════════════════════════════════════════════════════
+   Summer Programs — components/SummerPrograms.tsx
+
+   The area deliberately reuses the .as-* vocabulary above: the same blueprint
+   frames, filter chips, estimate panel, catalog table and source row, because
+   they ARE the same elements. Only what Summer genuinely adds gets a class
+   here — the photo band, the add-on toggle row, the catalog's category tag and
+   its combined when-column.
+   ═════════════════════════════════════════════════════════════════════════ */
+
+.note-card-su[open] .note-card-body { column-count: 1; }
+
+/* The section photo band. Renders only where real, sourced photographs exist —
+   see the SummerPhotoBand docstring for why a placeholder is never acceptable. */
+.su-photos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 24px;
+}
+.su-photo { margin: 0; }
+.su-photo img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+  border: 1px solid var(--border);
+  /* The duotone treatment from the design: the photograph is pulled toward the
+     steel accent so a band of six schools' snapshots reads as one system rather
+     than six stock photos. Kept subtle enough that faces stay legible. */
+  filter: grayscale(1) contrast(1.08);
+  background: var(--accent-300);
+  mix-blend-mode: multiply;
+}
+.su-photo figcaption {
+  font-size: 11.5px;
+  line-height: 1.45;
+  margin-top: 6px;
+}
+
+/* The category chip beside a camp name in the catalog. */
+.su-cat-tag {
+  font-size: 9px;
+  margin-left: 6px;
+  vertical-align: 1px;
+  white-space: nowrap;
+}
+
+/* Days, hours and weeks share one column — they read as one phrase, and three
+   columns crushed the camp name at phone width. */
+.su-td-when { font-size: 12px; line-height: 1.45; white-space: nowrap; }
+
+.su-addons { margin-top: 14px; }
+.su-addons .as-filters-label { display: block; margin-bottom: 6px; }
+
 @media (max-width: 900px) {
   .as-cost,
   .as-split { grid-template-columns: 1fr !important; }
@@ -4391,6 +4446,8 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   .as-tl-row { grid-template-columns: 120px 1fr; }
   /* The matrix scrolls sideways rather than crushing its columns. */
   .as-cost-matrix .as-table { min-width: 520px; }
+  .su-photos { grid-template-columns: repeat(3, 1fr); gap: 10px; }
+  .su-catalog { min-width: 560px; }
 }
 
 @media (max-width: 600px) {
@@ -4404,6 +4461,9 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
      30-minute 3:00-3:30 tier otherwise renders as wide as the 60-minute tier
      beside it, so a half-hour and a full hour look identical. */
   .as-tl-until { display: none; }
+  /* One photo per row at phone width: three 4:3 frames across a 320px screen
+     are too small to read as photographs at all. */
+  .su-photos { grid-template-columns: 1fr; }
 }
 
 /* ─────────────────────────────────────────────────────────────────────────

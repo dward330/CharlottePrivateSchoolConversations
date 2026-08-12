@@ -182,7 +182,8 @@
       "of": "3d0cb547",
       "at": [
         "providence-day:[2].values.cannon",
-        "providence-day:[23].values.charlotte-christian"
+        "providence-day:[23].values.charlotte-country-day",
+        "providence-day:[27].values.charlotte-christian"
       ]
     },
     {
@@ -199,8 +200,9 @@
       "at": [
         "providence-day:[2].values.charlotte-country-day",
         "providence-day:[2].values.davidson-day",
-        "providence-day:[23].values.charlotte-country-day",
-        "providence-day:[24].values.davidson-day"
+        "providence-day:[23].values.providence-day",
+        "providence-day:[27].values.charlotte-country-day",
+        "providence-day:[28].values.davidson-day"
       ]
     },
     {
@@ -1509,7 +1511,7 @@
       "of": "88f291a0",
       "at": [
         "providence-day:[19].values.charlotte-latin",
-        "providence-day:[24].values.charlotte-country-day"
+        "providence-day:[28].values.charlotte-country-day"
       ]
     },
     {
@@ -1774,107 +1776,390 @@
       ]
     },
     {
+      "t": "Semèn kan ete",
+      "of": "4e40c309",
+      "at": [
+        "providence-day:[23].label"
+      ]
+    },
+    {
+      "t": "Kantite semèn kan lekòl la fè nan ete 2026 la, ansanm ak semèn ki pi kout akòz jou fèt. Yon sezon ki pi long se plis semèn yon fanmi ka kouvri.",
+      "of": "473a9df1",
+      "at": [
+        "providence-day:[23].note"
+      ]
+    },
+    {
+      "t": "7",
+      "of": "320ca3f6",
+      "at": [
+        "providence-day:[23].values.cannon",
+        "providence-day:[23].values.charlotte-latin"
+      ]
+    },
+    {
+      "t": "6",
+      "of": "330ca589",
+      "at": [
+        "providence-day:[23].values.charlotte-christian"
+      ]
+    },
+    {
+      "t": "Uit semèn, ansanm ak semèn “Pre-Camp” 1-5 jen an, ki gen 9 kan ki gen pri. Paj ete lekòl la li menm prezante sezon an kòm sèt semèn ki kòmanse 8 jen.",
+      "of": "e9f9e019",
+      "at": [
+        "providence-day:[23].quals.charlotte-country-day.text"
+      ]
+    },
+    {
+      "t": "Sis semèn, men yo pa youn dèyè lòt: lekòl la pran yon poz de semèn otou 4 jiyè (pa gen kan soti 29 jen rive 3 jiyè).",
+      "of": "a93f21d0",
+      "at": [
+        "providence-day:[23].quals.charlotte-christian.text"
+      ]
+    },
+    {
+      "t": "Kan ki pibliye",
+      "of": "d6903fa7",
+      "at": [
+        "providence-day:[24].label"
+      ]
+    },
+    {
+      "t": "Kan lekòl la ofri nan katalòg 2026 pa l la. Konvansyon konte yo diferan — pifò lekòl konte chak semèn yon kan ap fèt kòm yon liy apa — kidonk li nòt chak selil anvan ou konpare.",
+      "of": "bc366956",
+      "at": [
+        "providence-day:[24].note"
+      ]
+    },
+    {
+      "t": "251",
+      "of": "26db2743",
+      "at": [
+        "providence-day:[24].values.cannon"
+      ]
+    },
+    {
+      "t": "133",
+      "of": "7a3aae4a",
+      "at": [
+        "providence-day:[24].values.charlotte-christian"
+      ]
+    },
+    {
+      "t": "132",
+      "of": "7b3aafdd",
+      "at": [
+        "providence-day:[24].values.charlotte-country-day"
+      ]
+    },
+    {
+      "t": "232",
+      "of": "27ea3360",
+      "at": [
+        "providence-day:[24].values.charlotte-latin"
+      ]
+    },
+    {
+      "t": "170",
+      "of": "e130c313",
+      "at": [
+        "providence-day:[24].values.providence-day"
+      ]
+    },
+    {
+      "t": "251 òf kan-semèn sou sèt semèn, ki reprezante anviwon 180 tit kan diferan. Konte apati bwochi 2026 lekòl la li menm ki gen 80 paj.",
+      "of": "94ffcc7f",
+      "at": [
+        "providence-day:[24].quals.cannon.text"
+      ]
+    },
+    {
+      "t": "232 òf sou sèt sesyon, ki soti nan 169 tit kan inik — yon kan k ap fèt nan twa sesyon konte twa fwa.",
+      "of": "7f216eb0",
+      "at": [
+        "providence-day:[24].quals.charlotte-latin.text"
+      ]
+    },
+    {
+      "t": "170 liy ki gen pri nan bwochi 2026 la, ki kouvri 151 non kan diferan ak 231 òf kan-sesyon antou.",
+      "of": "a5300730",
+      "at": [
+        "providence-day:[24].quals.providence-day.text"
+      ]
+    },
+    {
+      "t": "132 liy ki gen pri, anviwon 85 tit kan diferan. Anplis, lekòl la prezante pwogram nan kòm “plis pase 150 opsyon kan pasyonan”, yon chif lis piblik li a pa detaye.",
+      "of": "7491b610",
+      "at": [
+        "providence-day:[24].quals.charlotte-country-day.text"
+      ]
+    },
+    {
+      "t": "133 sesyon demi-jounen sou sis semèn, anviwon 96 kan diferan. Tout se demi-jounen twa èdtan — lekòl la pa pibliye okenn kan jounen antye.",
+      "of": "3910e6df",
+      "at": [
+        "providence-day:[24].quals.charlotte-christian.text"
+      ]
+    },
+    {
+      "t": "Laj yo aksepte",
+      "of": "20a1e226",
+      "at": [
+        "providence-day:[25].label"
+      ]
+    },
+    {
+      "t": "Etandi katalòg ete lekòl la li menm kouvri. Latin ak Cannon klase kan yo pa laj; lòt yo pibliye bann klas, ki parèt isit la jan lekòl la di yo.",
+      "of": "4d564628",
+      "at": [
+        "providence-day:[25].note"
+      ]
+    },
+    {
+      "t": "4–18",
+      "of": "cca868d1",
+      "at": [
+        "providence-day:[25].values.cannon",
+        "providence-day:[25].values.providence-day"
+      ]
+    },
+    {
+      "t": "JK–Klas 12",
+      "of": "a9b0c7e9",
+      "at": [
+        "providence-day:[25].values.charlotte-christian"
+      ]
+    },
+    {
+      "t": "Laj 4–Klas 12",
+      "of": "ba434c7b",
+      "at": [
+        "providence-day:[25].values.charlotte-country-day"
+      ]
+    },
+    {
+      "t": "3.5–18",
+      "of": "349c7711",
+      "at": [
+        "providence-day:[25].values.charlotte-latin"
+      ]
+    },
+    {
+      "t": "Lekòl la di kan yo “ouvè pou tout patisipan ki gen 3.5 - 18 an”. Laj la kalkile jan li ye 1 out 2026, epi tout patisipan Pre-K yo dwe konn al nan twalèt pou kont yo.",
+      "of": "e3070636",
+      "at": [
+        "providence-day:[25].quals.charlotte-latin.text"
+      ]
+    },
+    {
+      "t": "Bwochi a di patisipan yo dwe gen “otan mwens kat an anvan 1 janvye 2026”; paj About la di laj 4.5 rive 18. Toude se pwòp mo lekòl la.",
+      "of": "2a21488f",
+      "at": [
+        "providence-day:[25].quals.providence-day.text"
+      ]
+    },
+    {
+      "t": "Bann ki pi ba lis la pibliye se Laj 4. Pwòp paj lekòl la pa dakò sou limit ki pi ba a — paj ete a di laj 4–18, paj apre lekòl la di 3–18.",
+      "of": "ef5848a4",
+      "at": [
+        "providence-day:[25].quals.charlotte-country-day.text"
+      ]
+    },
+    {
+      "t": "Klas yo se sa yo pral fè an 2026-27. Patisipan JK yo dwe gentan gen 4 an anvan 1 fevriye 2026.",
+      "of": "3f5e77ee",
+      "at": [
+        "providence-day:[25].quals.charlotte-christian.text"
+      ]
+    },
+    {
+      "t": "Lekòl la di Camp Cannon “ouvè pou tout timoun ki gen 4 rive 18 an”. Patisipan yo dwe konn al nan twalèt nèt pou kont yo, epi se sèlman kan ki koresponn ak laj timoun nan ki parèt pandan enskripsyon an liy.",
+      "of": "4b131395",
+      "at": [
+        "providence-day:[25].quals.cannon.text"
+      ]
+    },
+    {
+      "t": "Swen anvan ak apre kan",
+      "of": "2459c4c2",
+      "at": [
+        "providence-day:[26].label"
+      ]
+    },
+    {
+      "t": "Depi lè ki pi bonè pou depoze pitit la jiska lè ki pi ta pou vin chèche l ak opsyon swen anvan ak apre kan lekòl la fè peye — vrè limit yon jounen kan pou yon fanmi k ap travay.",
+      "of": "5701e6ec",
+      "at": [
+        "providence-day:[26].note"
+      ]
+    },
+    {
+      "t": "7:30 AM–5:30 PM",
+      "of": "ed8a2e9b",
+      "at": [
+        "providence-day:[26].values.cannon",
+        "providence-day:[26].values.charlotte-latin"
+      ]
+    },
+    {
+      "t": "8:00 AM–5:00 PM",
+      "of": "42437dde",
+      "at": [
+        "providence-day:[26].values.charlotte-christian"
+      ]
+    },
+    {
+      "t": "7:30 AM–5:00 PM",
+      "of": "792cd57e",
+      "at": [
+        "providence-day:[26].values.charlotte-country-day"
+      ]
+    },
+    {
+      "t": "7:00 AM–6:00 PM",
+      "of": "9b4038c2",
+      "at": [
+        "providence-day:[26].values.providence-day"
+      ]
+    },
+    {
+      "t": "Yon etandi onz èdtan, ki pi laj nan senk yo — Before Care depi 7am ak After Care jiska 6pm, toude $120/semèn, oswa $220/semèn ansanm kòm Complete Care.",
+      "of": "5f49f081",
+      "at": [
+        "providence-day:[26].quals.providence-day.text"
+      ]
+    },
+    {
+      "t": "Yon etandi nèf èdtan. Paske chak kan se demi-jounen, pou kouvri yon jounen travay konplè fòk ou enskri pitit la nan yon kan maten AK yon kan apremidi; swen pon ki nan mitan an, midi–1 p.m., gratis.",
+      "of": "107eb4f8",
+      "at": [
+        "providence-day:[26].quals.charlotte-christian.text"
+      ]
+    },
+    {
+      "t": "Yon etandi dis èdtan: Before Care depi 7:30 am pou $50/semèn ak After Care jiska 5:30 pm pou $60/semèn, oswa $90/semèn pou toude. Kan an li menm fèt 9:00–4:00.",
+      "of": "c70f383c",
+      "at": [
+        "providence-day:[26].quals.cannon.text"
+      ]
+    },
+    {
+      "t": "Yon etandi dis èdtan. Before Care fèt 7:30–8:15 am ($70.00/semèn) epi After Care jiska 5:30 pm ($150.00/semèn); pakè Super Care la se $195.00/semèn. Vin chèche an reta koute $25.00 chak 15 minit.",
+      "of": "5a5e0dc4",
+      "at": [
+        "providence-day:[26].quals.charlotte-latin.text"
+      ]
+    },
+    {
+      "t": "Yon etandi nèf èdtan edmi: Morning Care depi 7:30 am ($105/semèn) ak Afternoon Care jiska 5 pm ($85/semèn), oswa $160/semèn ansanm kòm Super Care. Vin chèche an reta koute $1/minit apre 5 pm.",
+      "of": "e8bfeef8",
+      "at": [
+        "providence-day:[26].quals.charlotte-country-day.text"
+      ]
+    },
+    {
       "t": "Angajman Power 4",
       "of": "1f2f8490",
       "at": [
-        "providence-day:[23].label"
+        "providence-day:[27].label"
       ]
     },
     {
       "t": "Atlèt diferan ki angaje nan yon pwogram SEC / Big Ten / ACC / Big 12, Klas 2024–2026. Minimòm dokimante.",
       "of": "4b7d536c",
       "at": [
-        "providence-day:[23].note"
+        "providence-day:[27].note"
       ]
     },
     {
       "t": "1",
       "of": "340ca71c",
       "at": [
-        "providence-day:[23].values.cannon"
+        "providence-day:[27].values.cannon"
       ]
     },
     {
       "t": "3",
       "of": "360caa42",
       "at": [
-        "providence-day:[23].values.charlotte-latin",
-        "providence-day:[23].values.davidson-day",
-        "providence-day:[24].values.cannon"
+        "providence-day:[27].values.charlotte-latin",
+        "providence-day:[27].values.davidson-day",
+        "providence-day:[28].values.cannon"
       ]
     },
     {
       "t": "17",
       "of": "1aeb28b1",
       "at": [
-        "providence-day:[23].values.providence-day"
+        "providence-day:[27].values.providence-day"
       ]
     },
     {
       "t": "Yon minimòm dokimante. Plizyè nan atlèt Cannon ki pi popilè yo te angaje deyò fenèt 2024–26 la epi konsa yo pa konte isit la.",
       "of": "0d7ecf77",
       "at": [
-        "providence-day:[23].quals.cannon.text",
-        "providence-day:[24].quals.cannon.text"
+        "providence-day:[27].quals.cannon.text",
+        "providence-day:[28].quals.cannon.text"
       ]
     },
     {
       "t": "Yon minimòm dokimante: lis angajman piblik lekòl la ale jiska 2025, epi Class of 2026 li a poko konpile.",
       "of": "58bba487",
       "at": [
-        "providence-day:[23].quals.charlotte-christian.text",
-        "providence-day:[24].quals.charlotte-christian.text"
+        "providence-day:[27].quals.charlotte-christian.text",
+        "providence-day:[28].quals.charlotte-christian.text"
       ]
     },
     {
       "t": "Yon minimòm dokimante. Klas akademik lou Charlotte Latin yo voye anpil atlèt nan Division III, epi lis siyati Novanm li yo pasyèl.",
       "of": "cb967194",
       "at": [
-        "providence-day:[23].quals.charlotte-latin.text",
-        "providence-day:[24].quals.charlotte-latin.text"
+        "providence-day:[27].quals.charlotte-latin.text",
+        "providence-day:[28].quals.charlotte-latin.text"
       ]
     },
     {
       "t": "Yon minimòm dokimante; Class 2024 ak 2026 yo sou-dokimante pou Davidson Day.",
       "of": "22ec0adc",
       "at": [
-        "providence-day:[23].quals.davidson-day.text",
-        "providence-day:[24].quals.davidson-day.text"
+        "providence-day:[27].quals.davidson-day.text",
+        "providence-day:[28].quals.davidson-day.text"
       ]
     },
     {
       "t": "Angajman Division I",
       "of": "ce720efb",
       "at": [
-        "providence-day:[24].label"
+        "providence-day:[28].label"
       ]
     },
     {
       "t": "Atlèt diferan ki angaje nan nenpòt pwogram NCAA Division I, Klas 2024–2026 (enkli kantite Power 4 anwo a). Minimòm dokimante.",
       "of": "53ecb641",
       "at": [
-        "providence-day:[24].note"
+        "providence-day:[28].note"
       ]
     },
     {
       "t": "26",
       "of": "8bf29659",
       "at": [
-        "providence-day:[24].values.charlotte-christian"
+        "providence-day:[28].values.charlotte-christian"
       ]
     },
     {
       "t": "14",
       "of": "17eb23f8",
       "at": [
-        "providence-day:[24].values.charlotte-latin"
+        "providence-day:[28].values.charlotte-latin"
       ]
     },
     {
       "t": "39",
       "of": "90f05fa1",
       "at": [
-        "providence-day:[24].values.providence-day"
+        "providence-day:[28].values.providence-day"
       ]
     }
   ]

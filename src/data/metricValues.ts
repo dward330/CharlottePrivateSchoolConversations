@@ -706,6 +706,156 @@ export const VALUE_METRICS: ValueMetric[] = [
     },
   },
 
+  // =========================== Summer Programs =============================
+  // Transcribed from each school's own 2026 summer publication — see
+  // source-material/summer-programs/<school>/ for the per-camp detail and source
+  // URLs behind every figure.
+  //
+  // DAVIDSON DAY IS null ON ALL FOUR ROWS, and that is a finding rather than a
+  // hole in the research: it publishes no summer program at all (its summer page
+  // renders a heading over an empty content block). See
+  // .claude/docs/summer-programs-davidson-day-negative-finding.md. Its school
+  // page shows no Summer Programs section for the same reason.
+  //
+  // The camp counts are NOT directly comparable school to school, because the
+  // schools count differently — Latin and Cannon publish session-level rows (a
+  // camp offered in three weeks counts three times), Country Day the same, while
+  // Charlotte Christian's 133 is also session-level. Each cell therefore carries
+  // a `quals` note saying which unit it is in; the Compare row is honest only
+  // with those notes attached.
+  {
+    topic: 'summer-programs',
+    key: 'summer-weeks',
+    label: 'Weeks of summer camp',
+    note: 'Number of camp weeks the school runs in summer 2026, counting shortened holiday weeks. A longer season is more weeks a family can cover.',
+    values: {
+      cannon: '7', // June 8 – July 31, closed Juneteenth + the week of June 29
+      'charlotte-christian': '6', // June 1 – July 17, two-week break around July 4
+      'charlotte-country-day': '8', // June 1 – July 24, incl. the June 1-5 "Pre-Camp" week
+      'charlotte-latin': '7', // June 8 – July 31, no camps June 29 – July 4
+      'davidson-day': null, // publishes no summer program — see the negative-finding note
+      'providence-day': '9', // June 1 – July 31, the longest season of the five
+    },
+    quals: {
+      'charlotte-country-day': {
+        kind: 'scope',
+        text: 'Eight weeks including the June 1-5 "Pre-Camp" week, which carries 9 priced camps. The school’s own summer landing page markets the season as the seven weeks from June 8.',
+      },
+      'charlotte-christian': {
+        kind: 'scope',
+        text: 'Six weeks, but not consecutive: the school takes a two-week break around July 4 (June 29 – July 3 has no camps).',
+      },
+    },
+  },
+  {
+    topic: 'summer-programs',
+    key: 'summer-camps',
+    label: 'Camps published',
+    note: 'Camp offerings in the school’s own 2026 catalog. Counting conventions differ — most schools count each week a camp runs as a separate row — so read the per-cell notes before comparing.',
+    values: {
+      cannon: '251', // camp-week offerings; ~180 distinct titles
+      'charlotte-christian': '133', // session-level rows; ~96 distinct camps
+      'charlotte-country-day': '132', // session-level rows; ~85 distinct titles
+      'charlotte-latin': '232', // camp offerings; 169 unique titles
+      'davidson-day': null,
+      'providence-day': '170', // priced brochure rows; 151 distinct names
+    },
+    quals: {
+      cannon: {
+        kind: 'scope',
+        text: '251 camp-week offerings across seven weeks, representing roughly 180 distinct camp titles. Counted from the school’s own 80-page 2026 brochure.',
+      },
+      'charlotte-latin': {
+        kind: 'scope',
+        text: '232 offerings across seven sessions, from 169 unique camp titles — a camp running in three sessions is counted three times.',
+      },
+      'providence-day': {
+        kind: 'scope',
+        text: '170 priced rows in the 2026 brochure, covering 151 distinct camp names and 231 total camp-session offerings.',
+      },
+      'charlotte-country-day': {
+        kind: 'scope',
+        text: '132 priced rows, roughly 85 distinct camp titles. The school separately markets the program as "over 150 exciting camp options", a figure its public listing does not itemize.',
+      },
+      'charlotte-christian': {
+        kind: 'scope',
+        text: '133 half-day sessions across six weeks, roughly 96 distinct camps. Every one is a three-hour half-day — the school publishes no full-day camp.',
+      },
+    },
+  },
+  {
+    topic: 'summer-programs',
+    key: 'summer-ages',
+    label: 'Ages served',
+    note: 'The span the school’s own summer catalog covers. Latin and Cannon index camps by age; the others publish grade bands, shown here as the school states them.',
+    values: {
+      cannon: '4–18', // "Open to all children ages 4 to 18"
+      'charlotte-christian': 'JK–Grade 12', // rising 2026-27 grades; JK must turn 4 by Feb 1
+      'charlotte-country-day': 'Age 4–Grade 12', // listing bands run Age 4 to Grade 12
+      'charlotte-latin': '3.5–18', // "open to all campers ages 3.5 - 18 years old"
+      'davidson-day': null,
+      'providence-day': '4–18', // four by January 1, 2026; About page says 4.5 to 18
+    },
+    quals: {
+      'charlotte-latin': {
+        kind: 'official',
+        text: 'The school states camps are "open to all campers ages 3.5 - 18 years old". Age is calculated as of August 1, 2026, and all Pre-K campers must be toilet trained.',
+      },
+      'providence-day': {
+        kind: 'official',
+        text: 'The brochure says campers must be "at least four years old by January 1, 2026"; the About page states ages 4.5 to 18. Both are the school’s own wording.',
+      },
+      'charlotte-country-day': {
+        kind: 'scope',
+        text: 'The listing’s lowest published band is Age 4. The school’s own pages disagree on the floor — the summer page says ages 4–18, the after-school page says 3–18.',
+      },
+      'charlotte-christian': {
+        kind: 'scope',
+        text: 'Grades are rising 2026-27. JK campers must have turned 4 by February 1, 2026.',
+      },
+      cannon: {
+        kind: 'official',
+        text: 'The school states Camp Cannon is "open to all children ages 4 to 18". Campers must be fully potty trained, and only camps matching a child’s age appear during online registration.',
+      },
+    },
+  },
+  {
+    topic: 'summer-programs',
+    key: 'summer-care-span',
+    label: 'Wrap-around care',
+    note: 'Earliest drop-off to latest pickup with the school’s paid before- and after-care options — the real outer limit of a camp day for a working family.',
+    values: {
+      cannon: '7:30 AM–5:30 PM', // before care from 7:30, after care to 5:30
+      'charlotte-christian': '8:00 AM–5:00 PM', // "arrive as early as 8 a.m. and stay as late as 5 p.m."
+      'charlotte-country-day': '7:30 AM–5:00 PM', // Morning Care 7:30, Afternoon Care ends 5
+      'charlotte-latin': '7:30 AM–5:30 PM', // Before Care 7:30–8:15, After Care to 5:30
+      'davidson-day': null,
+      'providence-day': '7:00 AM–6:00 PM', // Before Care from 7, After Care to 6 — the widest span
+    },
+    quals: {
+      'providence-day': {
+        kind: 'scope',
+        text: 'An eleven-hour span, the widest of the five — Before Care from 7am and After Care to 6pm, both $120/week, or $220/week bundled as Complete Care.',
+      },
+      'charlotte-christian': {
+        kind: 'scope',
+        text: 'A nine-hour span. Because every camp is a half-day, covering a full working day means registering a morning AND an afternoon camp; the noon–1 p.m. bridge care between them is free.',
+      },
+      cannon: {
+        kind: 'scope',
+        text: 'A ten-hour span: Before Care from 7:30 am at $50/week and After Care to 5:30 pm at $60/week, or $90/week for both. Camp itself runs 9:00–4:00.',
+      },
+      'charlotte-latin': {
+        kind: 'scope',
+        text: 'A ten-hour span. Before Care runs 7:30–8:15 am ($70.00/week) and After Care to 5:30 pm ($150.00/week); the Super Care bundle is $195.00/week. Late pick-up is $25.00 every 15 minutes.',
+      },
+      'charlotte-country-day': {
+        kind: 'scope',
+        text: 'A nine-and-a-half-hour span: Morning Care from 7:30 am ($105/week) and Afternoon Care to 5 pm ($85/week), or $160/week bundled as Super Care. Late pick-up is $1/minute after 5 pm.',
+      },
+    },
+  },
+
   // --- Sports college commitments, cumulative over the Classes of 2024, 2025 & 2026.
   // Counts of DISTINCT athletes who committed to play college sports at each level;
   // NESTED (Power 4 ⊆ Division I). Power 4 = SEC / Big Ten / ACC / Big 12 only

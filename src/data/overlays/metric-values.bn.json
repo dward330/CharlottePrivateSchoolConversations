@@ -182,7 +182,8 @@
       "of": "3d0cb547",
       "at": [
         "providence-day:[2].values.cannon",
-        "providence-day:[23].values.charlotte-christian"
+        "providence-day:[23].values.charlotte-country-day",
+        "providence-day:[27].values.charlotte-christian"
       ]
     },
     {
@@ -199,8 +200,9 @@
       "at": [
         "providence-day:[2].values.charlotte-country-day",
         "providence-day:[2].values.davidson-day",
-        "providence-day:[23].values.charlotte-country-day",
-        "providence-day:[24].values.davidson-day"
+        "providence-day:[23].values.providence-day",
+        "providence-day:[27].values.charlotte-country-day",
+        "providence-day:[28].values.davidson-day"
       ]
     },
     {
@@ -1509,7 +1511,7 @@
       "of": "88f291a0",
       "at": [
         "providence-day:[19].values.charlotte-latin",
-        "providence-day:[24].values.charlotte-country-day"
+        "providence-day:[28].values.charlotte-country-day"
       ]
     },
     {
@@ -1774,107 +1776,390 @@
       ]
     },
     {
+      "t": "সামার ক্যাম্পের সপ্তাহ",
+      "of": "4e40c309",
+      "at": [
+        "providence-day:[23].label"
+      ]
+    },
+    {
+      "t": "2026 সালের গ্রীষ্মে স্কুলটি যত সপ্তাহ ক্যাম্প চালায় তার সংখ্যা, ছুটির কারণে সংক্ষিপ্ত সপ্তাহগুলোসহ। মৌসুম যত লম্বা, পরিবারের পক্ষে তত বেশি সপ্তাহ সামলানো সম্ভব।",
+      "of": "473a9df1",
+      "at": [
+        "providence-day:[23].note"
+      ]
+    },
+    {
+      "t": "7",
+      "of": "320ca3f6",
+      "at": [
+        "providence-day:[23].values.cannon",
+        "providence-day:[23].values.charlotte-latin"
+      ]
+    },
+    {
+      "t": "6",
+      "of": "330ca589",
+      "at": [
+        "providence-day:[23].values.charlotte-christian"
+      ]
+    },
+    {
+      "t": "আট সপ্তাহ, এর মধ্যে জুন 1-5-এর “Pre-Camp” সপ্তাহটিও আছে, যেখানে 9টি মূল্যনির্ধারিত ক্যাম্প রয়েছে। স্কুলের নিজস্ব সামার ল্যান্ডিং পেজে অবশ্য মৌসুমটিকে 8 জুন থেকে শুরু হওয়া সাত সপ্তাহ হিসেবে প্রচার করা হয়।",
+      "of": "e9f9e019",
+      "at": [
+        "providence-day:[23].quals.charlotte-country-day.text"
+      ]
+    },
+    {
+      "t": "ছয় সপ্তাহ, তবে টানা নয়: স্কুলটি 4 জুলাইয়ের আশপাশে দুই সপ্তাহের বিরতি নেয় (29 জুন – 3 জুলাই কোনো ক্যাম্প নেই)।",
+      "of": "a93f21d0",
+      "at": [
+        "providence-day:[23].quals.charlotte-christian.text"
+      ]
+    },
+    {
+      "t": "প্রকাশিত ক্যাম্প",
+      "of": "d6903fa7",
+      "at": [
+        "providence-day:[24].label"
+      ]
+    },
+    {
+      "t": "স্কুলের নিজস্ব 2026 ক্যাটালগে দেওয়া ক্যাম্পের সংখ্যা। গণনার রীতি এক নয় — বেশির ভাগ স্কুল একটি ক্যাম্প যত সপ্তাহ চলে তার প্রতিটিকে আলাদা সারি হিসেবে গোনে — তাই তুলনা করার আগে প্রতিটি ঘরের নোট পড়ে নিন।",
+      "of": "bc366956",
+      "at": [
+        "providence-day:[24].note"
+      ]
+    },
+    {
+      "t": "251",
+      "of": "26db2743",
+      "at": [
+        "providence-day:[24].values.cannon"
+      ]
+    },
+    {
+      "t": "133",
+      "of": "7a3aae4a",
+      "at": [
+        "providence-day:[24].values.charlotte-christian"
+      ]
+    },
+    {
+      "t": "132",
+      "of": "7b3aafdd",
+      "at": [
+        "providence-day:[24].values.charlotte-country-day"
+      ]
+    },
+    {
+      "t": "232",
+      "of": "27ea3360",
+      "at": [
+        "providence-day:[24].values.charlotte-latin"
+      ]
+    },
+    {
+      "t": "170",
+      "of": "e130c313",
+      "at": [
+        "providence-day:[24].values.providence-day"
+      ]
+    },
+    {
+      "t": "সাত সপ্তাহ জুড়ে 251টি ক্যাম্প-সপ্তাহ অফার, যা প্রায় 180টি স্বতন্ত্র ক্যাম্প শিরোনামের সমান। স্কুলের নিজস্ব 80 পৃষ্ঠার 2026 ব্রোশিওর থেকে গোনা।",
+      "of": "94ffcc7f",
+      "at": [
+        "providence-day:[24].quals.cannon.text"
+      ]
+    },
+    {
+      "t": "সাতটি সেশন জুড়ে 232টি অফার, 169টি অনন্য ক্যাম্প শিরোনাম থেকে — তিনটি সেশনে চলা একটি ক্যাম্প তিনবার গোনা হয়েছে।",
+      "of": "7f216eb0",
+      "at": [
+        "providence-day:[24].quals.charlotte-latin.text"
+      ]
+    },
+    {
+      "t": "2026 ব্রোশিওরে 170টি মূল্যনির্ধারিত সারি, যেগুলোতে 151টি স্বতন্ত্র ক্যাম্পের নাম এবং সব মিলিয়ে 231টি ক্যাম্প-সেশন অফার রয়েছে।",
+      "of": "a5300730",
+      "at": [
+        "providence-day:[24].quals.providence-day.text"
+      ]
+    },
+    {
+      "t": "132টি মূল্যনির্ধারিত সারি, প্রায় 85টি স্বতন্ত্র ক্যাম্প শিরোনাম। স্কুলটি আলাদাভাবে প্রোগ্রামটিকে “150-এর বেশি চমৎকার ক্যাম্প অপশন” বলে প্রচার করে, তবে তাদের প্রকাশ্য তালিকায় সেই সংখ্যাটি ভেঙে দেখানো নেই।",
+      "of": "7491b610",
+      "at": [
+        "providence-day:[24].quals.charlotte-country-day.text"
+      ]
+    },
+    {
+      "t": "ছয় সপ্তাহ জুড়ে 133টি অর্ধদিবস সেশন, প্রায় 96টি স্বতন্ত্র ক্যাম্প। প্রতিটিই তিন ঘণ্টার অর্ধদিবস — স্কুলটি পূর্ণদিবসের কোনো ক্যাম্প প্রকাশ করে না।",
+      "of": "3910e6df",
+      "at": [
+        "providence-day:[24].quals.charlotte-christian.text"
+      ]
+    },
+    {
+      "t": "যাদের জন্য",
+      "of": "20a1e226",
+      "at": [
+        "providence-day:[25].label"
+      ]
+    },
+    {
+      "t": "স্কুলের নিজস্ব সামার ক্যাটালগ যে বয়সসীমা জুড়ে আছে। Latin ও Cannon বয়স অনুযায়ী ক্যাম্প সাজায়; বাকিরা শ্রেণির স্তর প্রকাশ করে, এখানে সেগুলো স্কুলের নিজের ভাষাতেই দেখানো হলো।",
+      "of": "4d564628",
+      "at": [
+        "providence-day:[25].note"
+      ]
+    },
+    {
+      "t": "4–18",
+      "of": "cca868d1",
+      "at": [
+        "providence-day:[25].values.cannon",
+        "providence-day:[25].values.providence-day"
+      ]
+    },
+    {
+      "t": "JK–Grade 12",
+      "of": "a9b0c7e9",
+      "at": [
+        "providence-day:[25].values.charlotte-christian"
+      ]
+    },
+    {
+      "t": "Age 4–Grade 12",
+      "of": "ba434c7b",
+      "at": [
+        "providence-day:[25].values.charlotte-country-day"
+      ]
+    },
+    {
+      "t": "3.5–18",
+      "of": "349c7711",
+      "at": [
+        "providence-day:[25].values.charlotte-latin"
+      ]
+    },
+    {
+      "t": "স্কুলটি জানায়, ক্যাম্পগুলো “3.5 - 18 বছর বয়সী সব ক্যাম্পারের জন্য উন্মুক্ত”। বয়স গণনা করা হয় 1 আগস্ট 2026 অনুযায়ী, এবং Pre-K-এর সব ক্যাম্পারকে টয়লেট ট্রেইনড হতে হবে।",
+      "of": "e3070636",
+      "at": [
+        "providence-day:[25].quals.charlotte-latin.text"
+      ]
+    },
+    {
+      "t": "ব্রোশিওরে বলা আছে ক্যাম্পারদের “1 জানুয়ারি 2026-এর মধ্যে অন্তত চার বছর বয়সী” হতে হবে; About পাতায় বলা আছে 4.5 থেকে 18 বছর। দুটোই স্কুলের নিজস্ব ভাষ্য।",
+      "of": "2a21488f",
+      "at": [
+        "providence-day:[25].quals.providence-day.text"
+      ]
+    },
+    {
+      "t": "তালিকায় প্রকাশিত সর্বনিম্ন স্তরটি হলো Age 4। স্কুলের নিজের পাতাগুলোতেই সর্বনিম্ন বয়স নিয়ে অমিল আছে — সামার পাতায় বলা 4–18 বছর, আর আফটার-স্কুল পাতায় বলা 3–18।",
+      "of": "ef5848a4",
+      "at": [
+        "providence-day:[25].quals.charlotte-country-day.text"
+      ]
+    },
+    {
+      "t": "শ্রেণি বলতে 2026-27-এ যে শ্রেণিতে উঠছে তা বোঝানো হয়েছে। JK ক্যাম্পারদের 1 ফেব্রুয়ারি 2026-এর মধ্যে 4 বছর পূর্ণ হতে হবে।",
+      "of": "3f5e77ee",
+      "at": [
+        "providence-day:[25].quals.charlotte-christian.text"
+      ]
+    },
+    {
+      "t": "স্কুলটি জানায়, Camp Cannon “4 থেকে 18 বছর বয়সী সব শিশুর জন্য উন্মুক্ত”। ক্যাম্পারদের পুরোপুরি পটি ট্রেইনড হতে হবে, এবং অনলাইন রেজিস্ট্রেশনের সময় কেবল শিশুর বয়সের সঙ্গে মেলে এমন ক্যাম্পগুলোই দেখা যায়।",
+      "of": "4b131395",
+      "at": [
+        "providence-day:[25].quals.cannon.text"
+      ]
+    },
+    {
+      "t": "ক্যাম্পের আগে ও পরে দেখাশোনা",
+      "of": "2459c4c2",
+      "at": [
+        "providence-day:[26].label"
+      ]
+    },
+    {
+      "t": "স্কুলের অর্থের বিনিময়ে দেওয়া বিফোর- ও আফটার-কেয়ার সুবিধা ধরে সবচেয়ে আগে পৌঁছে দেওয়া থেকে সবচেয়ে দেরিতে নিয়ে যাওয়া পর্যন্ত — কর্মজীবী পরিবারের জন্য ক্যাম্পের দিনের প্রকৃত সীমা।",
+      "of": "5701e6ec",
+      "at": [
+        "providence-day:[26].note"
+      ]
+    },
+    {
+      "t": "7:30 AM–5:30 PM",
+      "of": "ed8a2e9b",
+      "at": [
+        "providence-day:[26].values.cannon",
+        "providence-day:[26].values.charlotte-latin"
+      ]
+    },
+    {
+      "t": "8:00 AM–5:00 PM",
+      "of": "42437dde",
+      "at": [
+        "providence-day:[26].values.charlotte-christian"
+      ]
+    },
+    {
+      "t": "7:30 AM–5:00 PM",
+      "of": "792cd57e",
+      "at": [
+        "providence-day:[26].values.charlotte-country-day"
+      ]
+    },
+    {
+      "t": "7:00 AM–6:00 PM",
+      "of": "9b4038c2",
+      "at": [
+        "providence-day:[26].values.providence-day"
+      ]
+    },
+    {
+      "t": "এগারো ঘণ্টার পরিসর, পাঁচটির মধ্যে সবচেয়ে বড় — Before Care 7am থেকে এবং After Care 6pm পর্যন্ত, দুটোই $120/সপ্তাহ, অথবা Complete Care প্যাকেজে একসঙ্গে $220/সপ্তাহ।",
+      "of": "5f49f081",
+      "at": [
+        "providence-day:[26].quals.providence-day.text"
+      ]
+    },
+    {
+      "t": "নয় ঘণ্টার পরিসর। যেহেতু প্রতিটি ক্যাম্পই অর্ধদিবসের, পুরো কর্মদিবস সামলাতে হলে সকালের একটি এবং বিকেলের একটি ক্যাম্পে ভর্তি করাতে হয়; মাঝখানে দুপুর–1 p.m.-এর সংযোগ-সময়ের দেখাশোনা বিনামূল্যে।",
+      "of": "107eb4f8",
+      "at": [
+        "providence-day:[26].quals.charlotte-christian.text"
+      ]
+    },
+    {
+      "t": "দশ ঘণ্টার পরিসর: Before Care 7:30 am থেকে $50/সপ্তাহে এবং After Care 5:30 pm পর্যন্ত $60/সপ্তাহে, অথবা দুটো একসঙ্গে $90/সপ্তাহ। ক্যাম্প নিজে চলে 9:00–4:00।",
+      "of": "c70f383c",
+      "at": [
+        "providence-day:[26].quals.cannon.text"
+      ]
+    },
+    {
+      "t": "দশ ঘণ্টার পরিসর। Before Care চলে 7:30–8:15 am ($70.00/সপ্তাহ) এবং After Care 5:30 pm পর্যন্ত ($150.00/সপ্তাহ); Super Care বান্ডলের দাম $195.00/সপ্তাহ। দেরিতে নিতে এলে প্রতি 15 মিনিটে $25.00।",
+      "of": "5a5e0dc4",
+      "at": [
+        "providence-day:[26].quals.charlotte-latin.text"
+      ]
+    },
+    {
+      "t": "সাড়ে নয় ঘণ্টার পরিসর: Morning Care 7:30 am থেকে ($105/সপ্তাহ) এবং Afternoon Care 5 pm পর্যন্ত ($85/সপ্তাহ), অথবা Super Care বান্ডলে $160/সপ্তাহ। 5 pm-এর পর দেরিতে নিতে এলে প্রতি মিনিটে $1।",
+      "of": "e8bfeef8",
+      "at": [
+        "providence-day:[26].quals.charlotte-country-day.text"
+      ]
+    },
+    {
       "t": "Power 4-এ কমিট",
       "of": "1f2f8490",
       "at": [
-        "providence-day:[23].label"
+        "providence-day:[27].label"
       ]
     },
     {
       "t": "SEC / Big Ten / ACC / Big 12 প্রোগ্রামে কমিট করা আলাদা আলাদা ক্রীড়াবিদ, 2024–2026 ব্যাচ। নথিভুক্ত সর্বনিম্ন সংখ্যা।",
       "of": "4b7d536c",
       "at": [
-        "providence-day:[23].note"
+        "providence-day:[27].note"
       ]
     },
     {
       "t": "1",
       "of": "340ca71c",
       "at": [
-        "providence-day:[23].values.cannon"
+        "providence-day:[27].values.cannon"
       ]
     },
     {
       "t": "3",
       "of": "360caa42",
       "at": [
-        "providence-day:[23].values.charlotte-latin",
-        "providence-day:[23].values.davidson-day",
-        "providence-day:[24].values.cannon"
+        "providence-day:[27].values.charlotte-latin",
+        "providence-day:[27].values.davidson-day",
+        "providence-day:[28].values.cannon"
       ]
     },
     {
       "t": "17",
       "of": "1aeb28b1",
       "at": [
-        "providence-day:[23].values.providence-day"
+        "providence-day:[27].values.providence-day"
       ]
     },
     {
       "t": "একটি নথিভুক্ত ন্যূনতম। Cannon-এর বেশ কয়েকজন সুপরিচিত অ্যাথলেট 2024–26 উইন্ডোর বাইরে কমিট করেছে এবং তাই এখানে গোনা হয়নি।",
       "of": "0d7ecf77",
       "at": [
-        "providence-day:[23].quals.cannon.text",
-        "providence-day:[24].quals.cannon.text"
+        "providence-day:[27].quals.cannon.text",
+        "providence-day:[28].quals.cannon.text"
       ]
     },
     {
       "t": "একটি নথিভুক্ত ন্যূনতম: স্কুলের পাবলিক কমিটমেন্ট তালিকা 2025 পর্যন্ত চলে, এবং এর Class of 2026 এখনও সংকলিত হয়নি।",
       "of": "58bba487",
       "at": [
-        "providence-day:[23].quals.charlotte-christian.text",
-        "providence-day:[24].quals.charlotte-christian.text"
+        "providence-day:[27].quals.charlotte-christian.text",
+        "providence-day:[28].quals.charlotte-christian.text"
       ]
     },
     {
       "t": "একটি নথিভুক্ত ন্যূনতম। Charlotte Latin-এর একাডেমিকভাবে ভারী শ্রেণিগুলো অনেক অ্যাথলেটকে Division III-তে পাঠায়, এবং এর November সাইনিং তালিকা আংশিক।",
       "of": "cb967194",
       "at": [
-        "providence-day:[23].quals.charlotte-latin.text",
-        "providence-day:[24].quals.charlotte-latin.text"
+        "providence-day:[27].quals.charlotte-latin.text",
+        "providence-day:[28].quals.charlotte-latin.text"
       ]
     },
     {
       "t": "একটি নথিভুক্ত ন্যূনতম; Davidson Day-এর জন্য Classes of 2024 and 2026 কম-নথিভুক্ত।",
       "of": "22ec0adc",
       "at": [
-        "providence-day:[23].quals.davidson-day.text",
-        "providence-day:[24].quals.davidson-day.text"
+        "providence-day:[27].quals.davidson-day.text",
+        "providence-day:[28].quals.davidson-day.text"
       ]
     },
     {
       "t": "Division I-এ কমিট",
       "of": "ce720efb",
       "at": [
-        "providence-day:[24].label"
+        "providence-day:[28].label"
       ]
     },
     {
       "t": "যেকোনো NCAA Division I প্রোগ্রামে কমিট করা আলাদা আলাদা ক্রীড়াবিদ, 2024–2026 ব্যাচ (উপরের Power 4 সংখ্যাটিও এর মধ্যে ধরা)। নথিভুক্ত সর্বনিম্ন সংখ্যা।",
       "of": "53ecb641",
       "at": [
-        "providence-day:[24].note"
+        "providence-day:[28].note"
       ]
     },
     {
       "t": "26",
       "of": "8bf29659",
       "at": [
-        "providence-day:[24].values.charlotte-christian"
+        "providence-day:[28].values.charlotte-christian"
       ]
     },
     {
       "t": "14",
       "of": "17eb23f8",
       "at": [
-        "providence-day:[24].values.charlotte-latin"
+        "providence-day:[28].values.charlotte-latin"
       ]
     },
     {
       "t": "39",
       "of": "90f05fa1",
       "at": [
-        "providence-day:[24].values.providence-day"
+        "providence-day:[28].values.providence-day"
       ]
     }
   ]

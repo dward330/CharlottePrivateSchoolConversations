@@ -182,7 +182,8 @@
       "of": "3d0cb547",
       "at": [
         "providence-day:[2].values.cannon",
-        "providence-day:[23].values.charlotte-christian"
+        "providence-day:[23].values.charlotte-country-day",
+        "providence-day:[27].values.charlotte-christian"
       ]
     },
     {
@@ -199,8 +200,9 @@
       "at": [
         "providence-day:[2].values.charlotte-country-day",
         "providence-day:[2].values.davidson-day",
-        "providence-day:[23].values.charlotte-country-day",
-        "providence-day:[24].values.davidson-day"
+        "providence-day:[23].values.providence-day",
+        "providence-day:[27].values.charlotte-country-day",
+        "providence-day:[28].values.davidson-day"
       ]
     },
     {
@@ -1509,7 +1511,7 @@
       "of": "88f291a0",
       "at": [
         "providence-day:[19].values.charlotte-latin",
-        "providence-day:[24].values.charlotte-country-day"
+        "providence-day:[28].values.charlotte-country-day"
       ]
     },
     {
@@ -1774,107 +1776,390 @@
       ]
     },
     {
+      "t": "أسابيع المخيّم الصيفي",
+      "of": "4e40c309",
+      "at": [
+        "providence-day:[23].label"
+      ]
+    },
+    {
+      "t": "عدد أسابيع المخيّم التي تنظّمها المدرسة في صيف 2026، بما فيها الأسابيع المختصرة بسبب العطلات. الموسم الأطول يعني أسابيع أكثر يمكن للأسرة تغطيتها.",
+      "of": "473a9df1",
+      "at": [
+        "providence-day:[23].note"
+      ]
+    },
+    {
+      "t": "7",
+      "of": "320ca3f6",
+      "at": [
+        "providence-day:[23].values.cannon",
+        "providence-day:[23].values.charlotte-latin"
+      ]
+    },
+    {
+      "t": "6",
+      "of": "330ca589",
+      "at": [
+        "providence-day:[23].values.charlotte-christian"
+      ]
+    },
+    {
+      "t": "ثمانية أسابيع، بما فيها أسبوع “Pre-Camp” من 1-5 يونيو الذي يضمّ 9 مخيّمات مُسعّرة. غير أنّ صفحة الصيف الخاصة بالمدرسة تسوّق الموسم بوصفه الأسابيع السبعة التي تبدأ في 8 يونيو.",
+      "of": "e9f9e019",
+      "at": [
+        "providence-day:[23].quals.charlotte-country-day.text"
+      ]
+    },
+    {
+      "t": "ستة أسابيع، لكنها ليست متتالية: تأخذ المدرسة استراحة أسبوعين حول 4 يوليو (لا مخيّمات من 29 يونيو إلى 3 يوليو).",
+      "of": "a93f21d0",
+      "at": [
+        "providence-day:[23].quals.charlotte-christian.text"
+      ]
+    },
+    {
+      "t": "المخيّمات المنشورة",
+      "of": "d6903fa7",
+      "at": [
+        "providence-day:[24].label"
+      ]
+    },
+    {
+      "t": "المخيّمات المتاحة في دليل 2026 الخاص بالمدرسة. تختلف أعراف العدّ — إذ تَعُدّ معظم المدارس كلّ أسبوع يُقام فيه المخيّم سطرًا مستقلًا — فاقرأ ملاحظات كل خانة قبل المقارنة.",
+      "of": "bc366956",
+      "at": [
+        "providence-day:[24].note"
+      ]
+    },
+    {
+      "t": "251",
+      "of": "26db2743",
+      "at": [
+        "providence-day:[24].values.cannon"
+      ]
+    },
+    {
+      "t": "133",
+      "of": "7a3aae4a",
+      "at": [
+        "providence-day:[24].values.charlotte-christian"
+      ]
+    },
+    {
+      "t": "132",
+      "of": "7b3aafdd",
+      "at": [
+        "providence-day:[24].values.charlotte-country-day"
+      ]
+    },
+    {
+      "t": "232",
+      "of": "27ea3360",
+      "at": [
+        "providence-day:[24].values.charlotte-latin"
+      ]
+    },
+    {
+      "t": "170",
+      "of": "e130c313",
+      "at": [
+        "providence-day:[24].values.providence-day"
+      ]
+    },
+    {
+      "t": "251 عرض مخيّم-أسبوع على مدى سبعة أسابيع، وهو ما يقابل نحو 180 عنوان مخيّم متمايزًا. أُحصيت من كرّاس المدرسة نفسه لعام 2026 والمكوَّن من 80 صفحة.",
+      "of": "94ffcc7f",
+      "at": [
+        "providence-day:[24].quals.cannon.text"
+      ]
+    },
+    {
+      "t": "232 عرضًا على مدى سبع دورات، مصدرها 169 عنوان مخيّم فريدًا — فالمخيّم الذي يُقام في ثلاث دورات يُحسب ثلاث مرات.",
+      "of": "7f216eb0",
+      "at": [
+        "providence-day:[24].quals.charlotte-latin.text"
+      ]
+    },
+    {
+      "t": "170 سطرًا مُسعّرًا في كرّاس 2026، تغطي 151 اسم مخيّم متمايزًا و231 عرض مخيّم-دورة في المجموع.",
+      "of": "a5300730",
+      "at": [
+        "providence-day:[24].quals.providence-day.text"
+      ]
+    },
+    {
+      "t": "132 سطرًا مُسعّرًا، أي نحو 85 عنوان مخيّم متمايزًا. وتسوّق المدرسة البرنامج على حدة بوصفه “أكثر من 150 خيار مخيّم مشوّقًا”، وهو رقم لا تفصّله قائمتها العلنية.",
+      "of": "7491b610",
+      "at": [
+        "providence-day:[24].quals.charlotte-country-day.text"
+      ]
+    },
+    {
+      "t": "133 دورة نصف يومية على مدى ستة أسابيع، أي نحو 96 مخيّمًا متمايزًا. جميعها نصف يومية من ثلاث ساعات — ولا تنشر المدرسة أيّ مخيّم ليوم كامل.",
+      "of": "3910e6df",
+      "at": [
+        "providence-day:[24].quals.charlotte-christian.text"
+      ]
+    },
+    {
+      "t": "الأعمار المشمولة",
+      "of": "20a1e226",
+      "at": [
+        "providence-day:[25].label"
+      ]
+    },
+    {
+      "t": "النطاق الذي يغطّيه دليل الصيف الخاص بالمدرسة. تُرتِّب Latin وCannon مخيّماتهما حسب العمر؛ أما البقية فتنشر نطاقات صفوف دراسية، وهي معروضة هنا كما تذكرها كلّ مدرسة.",
+      "of": "4d564628",
+      "at": [
+        "providence-day:[25].note"
+      ]
+    },
+    {
+      "t": "4–18",
+      "of": "cca868d1",
+      "at": [
+        "providence-day:[25].values.cannon",
+        "providence-day:[25].values.providence-day"
+      ]
+    },
+    {
+      "t": "JK–الصف 12",
+      "of": "a9b0c7e9",
+      "at": [
+        "providence-day:[25].values.charlotte-christian"
+      ]
+    },
+    {
+      "t": "عمر 4–الصف 12",
+      "of": "ba434c7b",
+      "at": [
+        "providence-day:[25].values.charlotte-country-day"
+      ]
+    },
+    {
+      "t": "3.5–18",
+      "of": "349c7711",
+      "at": [
+        "providence-day:[25].values.charlotte-latin"
+      ]
+    },
+    {
+      "t": "تذكر المدرسة أنّ المخيّمات “مفتوحة لجميع المشاركين من عمر 3.5 - 18 سنة”. ويُحتسب العمر اعتبارًا من 1 أغسطس 2026، وعلى جميع المشاركين في Pre-K أن يكونوا قد تدرّبوا على استخدام الحمّام.",
+      "of": "e3070636",
+      "at": [
+        "providence-day:[25].quals.charlotte-latin.text"
+      ]
+    },
+    {
+      "t": "يقول الكرّاس إنّ على المشاركين أن يكونوا “قد أتمّوا الرابعة على الأقل بحلول 1 يناير 2026”؛ في حين تذكر صفحة About عمر 4.5 إلى 18. وكلا الصيغتين من كلام المدرسة نفسها.",
+      "of": "2a21488f",
+      "at": [
+        "providence-day:[25].quals.providence-day.text"
+      ]
+    },
+    {
+      "t": "أدنى نطاق منشور في القائمة هو Age 4. وصفحات المدرسة نفسها تتعارض بشأن الحدّ الأدنى — فصفحة الصيف تذكر عمر 4–18، بينما تذكر صفحة ما بعد الدوام 3–18.",
+      "of": "ef5848a4",
+      "at": [
+        "providence-day:[25].quals.charlotte-country-day.text"
+      ]
+    },
+    {
+      "t": "الصفوف المذكورة هي صفوف العام 2026-27. وعلى المشاركين في JK أن يكونوا قد أتمّوا 4 سنوات بحلول 1 فبراير 2026.",
+      "of": "3f5e77ee",
+      "at": [
+        "providence-day:[25].quals.charlotte-christian.text"
+      ]
+    },
+    {
+      "t": "تذكر المدرسة أنّ Camp Cannon “مفتوح لجميع الأطفال من عمر 4 إلى 18 سنة”. وعلى المشاركين أن يكونوا قد تدرّبوا تمامًا على استخدام الحمّام، ولا تظهر أثناء التسجيل الإلكتروني سوى المخيّمات المطابقة لعمر الطفل.",
+      "of": "4b131395",
+      "at": [
+        "providence-day:[25].quals.cannon.text"
+      ]
+    },
+    {
+      "t": "الرعاية قبل المخيّم وبعده",
+      "of": "2459c4c2",
+      "at": [
+        "providence-day:[26].label"
+      ]
+    },
+    {
+      "t": "من أبكر وقت لتوصيل الطفل إلى أحدث وقت لاصطحابه، مع خياري الرعاية الصباحية والمسائية المدفوعتين لدى المدرسة — الحدّ الفعلي ليوم المخيّم بالنسبة إلى أسرة عاملة.",
+      "of": "5701e6ec",
+      "at": [
+        "providence-day:[26].note"
+      ]
+    },
+    {
+      "t": "7:30 صباحًا–5:30 مساءً",
+      "of": "ed8a2e9b",
+      "at": [
+        "providence-day:[26].values.cannon",
+        "providence-day:[26].values.charlotte-latin"
+      ]
+    },
+    {
+      "t": "8:00 صباحًا–5:00 مساءً",
+      "of": "42437dde",
+      "at": [
+        "providence-day:[26].values.charlotte-christian"
+      ]
+    },
+    {
+      "t": "7:30 صباحًا–5:00 مساءً",
+      "of": "792cd57e",
+      "at": [
+        "providence-day:[26].values.charlotte-country-day"
+      ]
+    },
+    {
+      "t": "7:00 صباحًا–6:00 مساءً",
+      "of": "9b4038c2",
+      "at": [
+        "providence-day:[26].values.providence-day"
+      ]
+    },
+    {
+      "t": "نطاق من إحدى عشرة ساعة، وهو الأوسع بين المدارس الخمس — Before Care من 7am وAfter Care حتى 6pm، وكلتاهما بـ$120/أسبوع، أو $220/أسبوع ضمن باقة Complete Care.",
+      "of": "5f49f081",
+      "at": [
+        "providence-day:[26].quals.providence-day.text"
+      ]
+    },
+    {
+      "t": "نطاق من تسع ساعات. ولأنّ كلّ مخيّم نصف يومي، فإنّ تغطية يوم عمل كامل تستلزم التسجيل في مخيّم صباحي وآخر بعد الظهر معًا؛ أما الرعاية الجسرية بينهما من الظهر حتى 1 p.m. فمجانية.",
+      "of": "107eb4f8",
+      "at": [
+        "providence-day:[26].quals.charlotte-christian.text"
+      ]
+    },
+    {
+      "t": "نطاق من عشر ساعات: Before Care من 7:30 am بـ$50/أسبوع، وAfter Care حتى 5:30 pm بـ$60/أسبوع، أو $90/أسبوع للاثنتين معًا. أما المخيّم نفسه فيمتدّ من 9:00 إلى 4:00.",
+      "of": "c70f383c",
+      "at": [
+        "providence-day:[26].quals.cannon.text"
+      ]
+    },
+    {
+      "t": "نطاق من عشر ساعات. تمتدّ Before Care من 7:30 إلى 8:15 am ($70.00/أسبوع) وAfter Care حتى 5:30 pm ($150.00/أسبوع)؛ وباقة Super Care بـ$195.00/أسبوع. والاصطحاب المتأخر بـ$25.00 عن كل 15 دقيقة.",
+      "of": "5a5e0dc4",
+      "at": [
+        "providence-day:[26].quals.charlotte-latin.text"
+      ]
+    },
+    {
+      "t": "نطاق من تسع ساعات ونصف: Morning Care من 7:30 am ($105/أسبوع) وAfternoon Care حتى 5 pm ($85/أسبوع)، أو $160/أسبوع ضمن باقة Super Care. والاصطحاب المتأخر بـ$1/دقيقة بعد 5 pm.",
+      "of": "e8bfeef8",
+      "at": [
+        "providence-day:[26].quals.charlotte-country-day.text"
+      ]
+    },
+    {
       "t": "التزامات Power 4",
       "of": "1f2f8490",
       "at": [
-        "providence-day:[23].label"
+        "providence-day:[27].label"
       ]
     },
     {
       "t": "رياضيون متمايزون التزموا ببرنامج SEC / Big Ten / ACC / Big 12، دفعات 2024–2026. حدّ أدنى موثَّق.",
       "of": "4b7d536c",
       "at": [
-        "providence-day:[23].note"
+        "providence-day:[27].note"
       ]
     },
     {
       "t": "1",
       "of": "340ca71c",
       "at": [
-        "providence-day:[23].values.cannon"
+        "providence-day:[27].values.cannon"
       ]
     },
     {
       "t": "3",
       "of": "360caa42",
       "at": [
-        "providence-day:[23].values.charlotte-latin",
-        "providence-day:[23].values.davidson-day",
-        "providence-day:[24].values.cannon"
+        "providence-day:[27].values.charlotte-latin",
+        "providence-day:[27].values.davidson-day",
+        "providence-day:[28].values.cannon"
       ]
     },
     {
       "t": "17",
       "of": "1aeb28b1",
       "at": [
-        "providence-day:[23].values.providence-day"
+        "providence-day:[27].values.providence-day"
       ]
     },
     {
       "t": "حدّ أدنى موثَّق. التحق عدد من أشهر رياضيي Cannon خارج نافذة 2024–26 ولذلك لا يُحتسَبون هنا.",
       "of": "0d7ecf77",
       "at": [
-        "providence-day:[23].quals.cannon.text",
-        "providence-day:[24].quals.cannon.text"
+        "providence-day:[27].quals.cannon.text",
+        "providence-day:[28].quals.cannon.text"
       ]
     },
     {
       "t": "حدّ أدنى موثَّق: تمتد قائمة الالتحاقات العامة للمدرسة حتى 2025، ولم تُجمَّع دفعة Class of 2026 بعد.",
       "of": "58bba487",
       "at": [
-        "providence-day:[23].quals.charlotte-christian.text",
-        "providence-day:[24].quals.charlotte-christian.text"
+        "providence-day:[27].quals.charlotte-christian.text",
+        "providence-day:[28].quals.charlotte-christian.text"
       ]
     },
     {
       "t": "حدّ أدنى موثَّق. تُرسِل صفوف Charlotte Latin المثقلة أكاديميًا كثيرًا من الرياضيين إلى Division III، وقوائم توقيعها في November جزئية.",
       "of": "cb967194",
       "at": [
-        "providence-day:[23].quals.charlotte-latin.text",
-        "providence-day:[24].quals.charlotte-latin.text"
+        "providence-day:[27].quals.charlotte-latin.text",
+        "providence-day:[28].quals.charlotte-latin.text"
       ]
     },
     {
       "t": "حدّ أدنى موثَّق؛ ودفعتا 2024 and 2026 غير موثَّقتين بما يكفي لدى Davidson Day.",
       "of": "22ec0adc",
       "at": [
-        "providence-day:[23].quals.davidson-day.text",
-        "providence-day:[24].quals.davidson-day.text"
+        "providence-day:[27].quals.davidson-day.text",
+        "providence-day:[28].quals.davidson-day.text"
       ]
     },
     {
       "t": "التزامات Division I",
       "of": "ce720efb",
       "at": [
-        "providence-day:[24].label"
+        "providence-day:[28].label"
       ]
     },
     {
       "t": "رياضيون متمايزون التزموا بأي برنامج NCAA Division I، دفعات 2024–2026 (يشمل عدد Power 4 أعلاه). حدّ أدنى موثَّق.",
       "of": "53ecb641",
       "at": [
-        "providence-day:[24].note"
+        "providence-day:[28].note"
       ]
     },
     {
       "t": "26",
       "of": "8bf29659",
       "at": [
-        "providence-day:[24].values.charlotte-christian"
+        "providence-day:[28].values.charlotte-christian"
       ]
     },
     {
       "t": "14",
       "of": "17eb23f8",
       "at": [
-        "providence-day:[24].values.charlotte-latin"
+        "providence-day:[28].values.charlotte-latin"
       ]
     },
     {
       "t": "39",
       "of": "90f05fa1",
       "at": [
-        "providence-day:[24].values.providence-day"
+        "providence-day:[28].values.providence-day"
       ]
     }
   ]

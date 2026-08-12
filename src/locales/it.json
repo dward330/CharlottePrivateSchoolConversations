@@ -1,4 +1,35 @@
 {
+  "summerPrograms": {
+    "addOns": "Servizi aggiuntivi",
+    "addOnsPerSession": "Servizi aggiuntivi, per turno",
+    "addOnsPerWeek": "Servizi aggiuntivi, a settimana",
+    "campCount": "{{shown}} di {{total}} campi",
+    "campPerSession": "Campo, per turno",
+    "campPerWeek": "Campo, a settimana",
+    "categoryFilterAll": "Tutti",
+    "colCamp": "Campo",
+    "colPerSession": "Per turno",
+    "colPerWeek": "A settimana",
+    "colPrice": "Prezzo",
+    "colTier": "Tipo di campo",
+    "colWhen": "Quando",
+    "dayFilterAll": "Tutti",
+    "gradeFilterAll": "Tutti",
+    "noCamps": "Nessun campo corrisponde — prova a cancellare la ricerca o i filtri.",
+    "oneTimeFees": "Costi una tantum",
+    "perCampDay": "≈ per giornata di campo",
+    "searchAria": "Cerca i campi estivi",
+    "searchPlaceholder": "Cerca il nome o la descrizione del campo…",
+    "sessionsLabel": "Turni",
+    "sessionsSelected_one": "{{count}} turno di campo",
+    "sessionsSelected_other": "{{count}} turni di campo",
+    "totalPerSession": "Totale per turno",
+    "totalPerWeek": "Totale a settimana",
+    "unitSummer": "per tutta l’estate",
+    "weeksLabel": "Settimane d’estate",
+    "weeksSelected_one": "{{count}} settimana di campo",
+    "weeksSelected_other": "{{count}} settimane di campo"
+  },
   "topics": {
     "after-school": "Doposcuola",
     "college-support": "Orientamento universitario",
@@ -6,6 +37,7 @@
     "financial-aid-tuition": "Aiuti finanziari e retta",
     "sports": "Sport",
     "student-clubs": "Club studenteschi",
+    "summer-programs": "Programmi estivi",
     "the-arts": "Le arti"
   },
   "metrics": {
@@ -330,7 +362,9 @@
     "the-arts.theatre@charlotte-christian": "Teatro, i Blumeys e la CITA",
     "the-arts.ladder@davidson-day": "La scala delle arti dalla prima infanzia alla 12ª",
     "the-arts.theatre@davidson-day": "Teatro e riconoscimenti esterni",
-    "student-clubs.affinity@charlotte-christian": "Gruppi globali e culturali"
+    "student-clubs.affinity@charlotte-christian": "Gruppi globali e culturali",
+    "summer-programs.catalog": "Il catalogo dei campi",
+    "summer-programs.costPlanner": "Il pianificatore dei costi estivi"
   },
   "cardLabels": {
     "afternoonRhythm": "Il ritmo del pomeriggio",

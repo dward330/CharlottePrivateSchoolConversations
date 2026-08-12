@@ -54,8 +54,10 @@ export const SHOW_APPLE_URL =
  * episode guide — every one names the schools it covers explicitly, so nothing
  * here is inferred. Episode 5 (Affordability) covers all six schools; the
  * athletics episodes (14–19) and the college-support episodes (26–31) are one
- * school each. Episodes 10, 11 and 32 map to no research area and surface
- * through the page-level entry point instead.
+ * school each. The two Summer Camp episodes (10 and 11) map to the
+ * `summer-programs` area added in 2026 and now render in that section's strip;
+ * before it existed they surfaced through the page-level entry point. Only
+ * episode 32 (the season finale) still maps to no research area.
  */
 export const EPISODES: PodcastEpisode[] = [
   {
@@ -176,8 +178,6 @@ export const EPISODES: PodcastEpisode[] = [
   },
   {
     id: 10,
-    // Summer Camp is not a research area on these pages, so this surfaces through
-    // the page-level "More episodes" entry point instead.
     title: 'Summer Camp at Cannon, Providence Day and Charlotte Country Day',
     // Published: "Summer Camp at Cannon School, Providence Day School, and Charlotte Country Day School"
     fullTitle:
@@ -186,7 +186,7 @@ export const EPISODES: PodcastEpisode[] = [
     appleUrl:
       'https://podcasts.apple.com/us/podcast/charlotte-private-school-conversations/id1894103555?i=1000768206516',
     schools: ['cannon', 'providence-day', 'charlotte-country-day'],
-    researchArea: null,
+    researchArea: 'summer-programs',
   },
   {
     id: 11,
@@ -198,7 +198,7 @@ export const EPISODES: PodcastEpisode[] = [
     appleUrl:
       'https://podcasts.apple.com/us/podcast/charlotte-private-school-conversations/id1894103555?i=1000768494057',
     schools: ['charlotte-latin', 'charlotte-christian', 'davidson-day'],
-    researchArea: null,
+    researchArea: 'summer-programs',
   },
   {
     id: 12,

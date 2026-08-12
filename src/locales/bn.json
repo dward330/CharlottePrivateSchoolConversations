@@ -1,4 +1,35 @@
 {
+  "summerPrograms": {
+    "addOns": "অতিরিক্ত সুবিধা",
+    "addOnsPerSession": "অতিরিক্ত সুবিধা, প্রতি সেশনে",
+    "addOnsPerWeek": "অতিরিক্ত সুবিধা, প্রতি সপ্তাহে",
+    "campCount": "{{total}}টির মধ্যে {{shown}}টি ক্যাম্প",
+    "campPerSession": "ক্যাম্প, প্রতি সেশনে",
+    "campPerWeek": "ক্যাম্প, প্রতি সপ্তাহে",
+    "categoryFilterAll": "সব",
+    "colCamp": "ক্যাম্প",
+    "colPerSession": "প্রতি সেশনে",
+    "colPerWeek": "প্রতি সপ্তাহে",
+    "colPrice": "মূল্য",
+    "colTier": "ক্যাম্পের ধরন",
+    "colWhen": "কখন",
+    "dayFilterAll": "সব",
+    "gradeFilterAll": "সব",
+    "noCamps": "কোনো ক্যাম্প মেলেনি — অনুসন্ধান বা ফিল্টার মুছে দেখুন।",
+    "oneTimeFees": "এককালীন ফি",
+    "perCampDay": "≈ প্রতি ক্যাম্প দিবসে",
+    "searchAria": "গ্রীষ্মকালীন ক্যাম্প খুঁজুন",
+    "searchPlaceholder": "ক্যাম্পের নাম বা বিবরণ খুঁজুন…",
+    "sessionsLabel": "সেশন",
+    "sessionsSelected_one": "{{count}}টি ক্যাম্প সেশন",
+    "sessionsSelected_other": "{{count}}টি ক্যাম্প সেশন",
+    "totalPerSession": "প্রতি সেশনে মোট",
+    "totalPerWeek": "প্রতি সপ্তাহে মোট",
+    "unitSummer": "পুরো গ্রীষ্মের জন্য",
+    "weeksLabel": "গ্রীষ্মের সপ্তাহ",
+    "weeksSelected_one": "{{count}} সপ্তাহের ক্যাম্প",
+    "weeksSelected_other": "{{count}} সপ্তাহের ক্যাম্প"
+  },
   "topics": {
     "after-school": "স্কুলের পরে",
     "college-support": "কলেজ সহায়তা",
@@ -6,6 +37,7 @@
     "financial-aid-tuition": "আর্থিক সহায়তা ও টিউশন",
     "sports": "খেলাধুলা",
     "student-clubs": "শিক্ষার্থী ক্লাব",
+    "summer-programs": "গ্রীষ্মকালীন কার্যক্রম",
     "the-arts": "আর্টস"
   },
   "metrics": {
@@ -330,7 +362,9 @@
     "the-arts.theatre@charlotte-christian": "থিয়েটার, Blumey ও CITA",
     "the-arts.ladder@davidson-day": "Early Childhood–12 আর্টস ধাপ",
     "the-arts.theatre@davidson-day": "থিয়েটার ও বাইরের স্বীকৃতি",
-    "student-clubs.affinity@charlotte-christian": "বৈশ্বিক ও সাংস্কৃতিক দল"
+    "student-clubs.affinity@charlotte-christian": "বৈশ্বিক ও সাংস্কৃতিক দল",
+    "summer-programs.catalog": "ক্যাম্প ক্যাটালগ",
+    "summer-programs.costPlanner": "গ্রীষ্মকালীন খরচ পরিকল্পক"
   },
   "cardLabels": {
     "afternoonRhythm": "বিকেলের ছন্দ",

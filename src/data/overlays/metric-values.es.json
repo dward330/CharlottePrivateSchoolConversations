@@ -182,7 +182,8 @@
       "of": "3d0cb547",
       "at": [
         "providence-day:[2].values.cannon",
-        "providence-day:[23].values.charlotte-christian"
+        "providence-day:[23].values.charlotte-country-day",
+        "providence-day:[27].values.charlotte-christian"
       ]
     },
     {
@@ -199,8 +200,9 @@
       "at": [
         "providence-day:[2].values.charlotte-country-day",
         "providence-day:[2].values.davidson-day",
-        "providence-day:[23].values.charlotte-country-day",
-        "providence-day:[24].values.davidson-day"
+        "providence-day:[23].values.providence-day",
+        "providence-day:[27].values.charlotte-country-day",
+        "providence-day:[28].values.davidson-day"
       ]
     },
     {
@@ -1509,7 +1511,7 @@
       "of": "88f291a0",
       "at": [
         "providence-day:[19].values.charlotte-latin",
-        "providence-day:[24].values.charlotte-country-day"
+        "providence-day:[28].values.charlotte-country-day"
       ]
     },
     {
@@ -1774,107 +1776,390 @@
       ]
     },
     {
+      "t": "Semanas de campamento de verano",
+      "of": "4e40c309",
+      "at": [
+        "providence-day:[23].label"
+      ]
+    },
+    {
+      "t": "Número de semanas de campamento que el colegio ofrece en el verano de 2026, incluidas las semanas acortadas por festivos. Una temporada más larga son más semanas que una familia puede cubrir.",
+      "of": "473a9df1",
+      "at": [
+        "providence-day:[23].note"
+      ]
+    },
+    {
+      "t": "7",
+      "of": "320ca3f6",
+      "at": [
+        "providence-day:[23].values.cannon",
+        "providence-day:[23].values.charlotte-latin"
+      ]
+    },
+    {
+      "t": "6",
+      "of": "330ca589",
+      "at": [
+        "providence-day:[23].values.charlotte-christian"
+      ]
+    },
+    {
+      "t": "Ocho semanas, incluida la semana “Pre-Camp” del 1-5 de junio, que incluye 9 campamentos con precio. La propia página de verano del colegio promociona la temporada como las siete semanas a partir del 8 de junio.",
+      "of": "e9f9e019",
+      "at": [
+        "providence-day:[23].quals.charlotte-country-day.text"
+      ]
+    },
+    {
+      "t": "Seis semanas, pero no consecutivas: el colegio hace una pausa de dos semanas en torno al 4 de julio (del 29 de junio al 3 de julio no hay campamentos).",
+      "of": "a93f21d0",
+      "at": [
+        "providence-day:[23].quals.charlotte-christian.text"
+      ]
+    },
+    {
+      "t": "Campamentos publicados",
+      "of": "d6903fa7",
+      "at": [
+        "providence-day:[24].label"
+      ]
+    },
+    {
+      "t": "Campamentos ofrecidos en el catálogo 2026 del propio colegio. Los criterios de recuento difieren — la mayoría de los colegios cuenta cada semana en que se imparte un campamento como una fila aparte — así que conviene leer las notas de cada celda antes de comparar.",
+      "of": "bc366956",
+      "at": [
+        "providence-day:[24].note"
+      ]
+    },
+    {
+      "t": "251",
+      "of": "26db2743",
+      "at": [
+        "providence-day:[24].values.cannon"
+      ]
+    },
+    {
+      "t": "133",
+      "of": "7a3aae4a",
+      "at": [
+        "providence-day:[24].values.charlotte-christian"
+      ]
+    },
+    {
+      "t": "132",
+      "of": "7b3aafdd",
+      "at": [
+        "providence-day:[24].values.charlotte-country-day"
+      ]
+    },
+    {
+      "t": "232",
+      "of": "27ea3360",
+      "at": [
+        "providence-day:[24].values.charlotte-latin"
+      ]
+    },
+    {
+      "t": "170",
+      "of": "e130c313",
+      "at": [
+        "providence-day:[24].values.providence-day"
+      ]
+    },
+    {
+      "t": "251 ofertas de campamento-semana repartidas en siete semanas, que corresponden a unos 180 títulos de campamento distintos. Contadas a partir del folleto 2026 de 80 páginas del propio colegio.",
+      "of": "94ffcc7f",
+      "at": [
+        "providence-day:[24].quals.cannon.text"
+      ]
+    },
+    {
+      "t": "232 ofertas repartidas en siete sesiones, a partir de 169 títulos de campamento únicos — un campamento que se imparte en tres sesiones se cuenta tres veces.",
+      "of": "7f216eb0",
+      "at": [
+        "providence-day:[24].quals.charlotte-latin.text"
+      ]
+    },
+    {
+      "t": "170 filas con precio en el folleto 2026, que cubren 151 nombres de campamento distintos y 231 ofertas de campamento-sesión en total.",
+      "of": "a5300730",
+      "at": [
+        "providence-day:[24].quals.providence-day.text"
+      ]
+    },
+    {
+      "t": "132 filas con precio, unos 85 títulos de campamento distintos. El colegio promociona además el programa como “más de 150 opciones de campamento apasionantes”, una cifra que su listado público no detalla.",
+      "of": "7491b610",
+      "at": [
+        "providence-day:[24].quals.charlotte-country-day.text"
+      ]
+    },
+    {
+      "t": "133 sesiones de media jornada repartidas en seis semanas, unos 96 campamentos distintos. Todas son de media jornada de tres horas — el colegio no publica ningún campamento de jornada completa.",
+      "of": "3910e6df",
+      "at": [
+        "providence-day:[24].quals.charlotte-christian.text"
+      ]
+    },
+    {
+      "t": "Edades atendidas",
+      "of": "20a1e226",
+      "at": [
+        "providence-day:[25].label"
+      ]
+    },
+    {
+      "t": "El rango que cubre el catálogo de verano del propio colegio. Latin y Cannon organizan sus campamentos por edad; los demás publican bandas de curso, aquí reproducidas tal como las expresa cada colegio.",
+      "of": "4d564628",
+      "at": [
+        "providence-day:[25].note"
+      ]
+    },
+    {
+      "t": "4–18",
+      "of": "cca868d1",
+      "at": [
+        "providence-day:[25].values.cannon",
+        "providence-day:[25].values.providence-day"
+      ]
+    },
+    {
+      "t": "JK–Grado 12",
+      "of": "a9b0c7e9",
+      "at": [
+        "providence-day:[25].values.charlotte-christian"
+      ]
+    },
+    {
+      "t": "Edad 4–Grado 12",
+      "of": "ba434c7b",
+      "at": [
+        "providence-day:[25].values.charlotte-country-day"
+      ]
+    },
+    {
+      "t": "3.5–18",
+      "of": "349c7711",
+      "at": [
+        "providence-day:[25].values.charlotte-latin"
+      ]
+    },
+    {
+      "t": "El colegio indica que los campamentos están “abiertos a todos los campistas de 3.5 - 18 años”. La edad se calcula a 1 de agosto de 2026, y todos los campistas de Pre-K deben haber dejado el pañal.",
+      "of": "e3070636",
+      "at": [
+        "providence-day:[25].quals.charlotte-latin.text"
+      ]
+    },
+    {
+      "t": "El folleto dice que los campistas deben tener “al menos cuatro años cumplidos antes del 1 de enero de 2026”; la página About indica edades de 4.5 a 18. Ambas son formulaciones del propio colegio.",
+      "of": "2a21488f",
+      "at": [
+        "providence-day:[25].quals.providence-day.text"
+      ]
+    },
+    {
+      "t": "La banda más baja publicada en el listado es Edad 4. Las propias páginas del colegio no coinciden en el mínimo — la página de verano dice de 4–18 años y la de actividades extraescolares dice de 3–18.",
+      "of": "ef5848a4",
+      "at": [
+        "providence-day:[25].quals.charlotte-country-day.text"
+      ]
+    },
+    {
+      "t": "Los cursos son los de 2026-27, ya promocionados. Los campistas de JK deben haber cumplido 4 años antes del 1 de febrero de 2026.",
+      "of": "3f5e77ee",
+      "at": [
+        "providence-day:[25].quals.charlotte-christian.text"
+      ]
+    },
+    {
+      "t": "El colegio indica que Camp Cannon está “abierto a todos los niños de 4 a 18 años”. Los campistas deben haber dejado el pañal por completo, y durante la inscripción en línea solo aparecen los campamentos que corresponden a la edad del niño.",
+      "of": "4b131395",
+      "at": [
+        "providence-day:[25].quals.cannon.text"
+      ]
+    },
+    {
+      "t": "Horario ampliado",
+      "of": "2459c4c2",
+      "at": [
+        "providence-day:[26].label"
+      ]
+    },
+    {
+      "t": "Desde la entrada más temprana hasta la recogida más tardía con las opciones de pago de acogida matinal y vespertina del colegio: el límite real de una jornada de campamento para una familia trabajadora.",
+      "of": "5701e6ec",
+      "at": [
+        "providence-day:[26].note"
+      ]
+    },
+    {
+      "t": "7:30 AM–5:30 PM",
+      "of": "ed8a2e9b",
+      "at": [
+        "providence-day:[26].values.cannon",
+        "providence-day:[26].values.charlotte-latin"
+      ]
+    },
+    {
+      "t": "8:00 AM–5:00 PM",
+      "of": "42437dde",
+      "at": [
+        "providence-day:[26].values.charlotte-christian"
+      ]
+    },
+    {
+      "t": "7:30 AM–5:00 PM",
+      "of": "792cd57e",
+      "at": [
+        "providence-day:[26].values.charlotte-country-day"
+      ]
+    },
+    {
+      "t": "7:00 AM–6:00 PM",
+      "of": "9b4038c2",
+      "at": [
+        "providence-day:[26].values.providence-day"
+      ]
+    },
+    {
+      "t": "Una franja de once horas, la más amplia de las cinco — Before Care desde las 7am y After Care hasta las 6pm, ambas a $120/semana, o $220/semana en el paquete Complete Care.",
+      "of": "5f49f081",
+      "at": [
+        "providence-day:[26].quals.providence-day.text"
+      ]
+    },
+    {
+      "t": "Una franja de nueve horas. Como todos los campamentos son de media jornada, cubrir una jornada laboral completa exige inscribirse en un campamento de mañana Y en uno de tarde; la atención puente entre ambos, de 12 a 1 p.m., es gratuita.",
+      "of": "107eb4f8",
+      "at": [
+        "providence-day:[26].quals.charlotte-christian.text"
+      ]
+    },
+    {
+      "t": "Una franja de diez horas: Before Care desde las 7:30 am a $50/semana y After Care hasta las 5:30 pm a $60/semana, o $90/semana por ambas. El campamento en sí va de 9:00 a 4:00.",
+      "of": "c70f383c",
+      "at": [
+        "providence-day:[26].quals.cannon.text"
+      ]
+    },
+    {
+      "t": "Una franja de diez horas. Before Care va de 7:30 a 8:15 am ($70.00/semana) y After Care hasta las 5:30 pm ($150.00/semana); el paquete Super Care cuesta $195.00/semana. La recogida tardía cuesta $25.00 por cada 15 minutos.",
+      "of": "5a5e0dc4",
+      "at": [
+        "providence-day:[26].quals.charlotte-latin.text"
+      ]
+    },
+    {
+      "t": "Una franja de nueve horas y media: Morning Care desde las 7:30 am ($105/semana) y Afternoon Care hasta las 5 pm ($85/semana), o $160/semana en el paquete Super Care. La recogida tardía cuesta $1/minuto a partir de las 5 pm.",
+      "of": "e8bfeef8",
+      "at": [
+        "providence-day:[26].quals.charlotte-country-day.text"
+      ]
+    },
+    {
       "t": "Compromisos Power 4",
       "of": "1f2f8490",
       "at": [
-        "providence-day:[23].label"
+        "providence-day:[27].label"
       ]
     },
     {
       "t": "Deportistas distintos comprometidos con un programa de la SEC, la Big Ten, la ACC o la Big 12, promociones de 2024–2026. Mínimo documentado.",
       "of": "4b7d536c",
       "at": [
-        "providence-day:[23].note"
+        "providence-day:[27].note"
       ]
     },
     {
       "t": "1",
       "of": "340ca71c",
       "at": [
-        "providence-day:[23].values.cannon"
+        "providence-day:[27].values.cannon"
       ]
     },
     {
       "t": "3",
       "of": "360caa42",
       "at": [
-        "providence-day:[23].values.charlotte-latin",
-        "providence-day:[23].values.davidson-day",
-        "providence-day:[24].values.cannon"
+        "providence-day:[27].values.charlotte-latin",
+        "providence-day:[27].values.davidson-day",
+        "providence-day:[28].values.cannon"
       ]
     },
     {
       "t": "17",
       "of": "1aeb28b1",
       "at": [
-        "providence-day:[23].values.providence-day"
+        "providence-day:[27].values.providence-day"
       ]
     },
     {
       "t": "Un mínimo documentado. Varios de los atletas más conocidos de Cannon se comprometieron fuera del periodo 2024–26 y, por lo tanto, no se cuentan aquí.",
       "of": "0d7ecf77",
       "at": [
-        "providence-day:[23].quals.cannon.text",
-        "providence-day:[24].quals.cannon.text"
+        "providence-day:[27].quals.cannon.text",
+        "providence-day:[28].quals.cannon.text"
       ]
     },
     {
       "t": "Un mínimo documentado: la lista pública de compromisos de la escuela llega hasta 2025, y su Class of 2026 aún no se ha compilado.",
       "of": "58bba487",
       "at": [
-        "providence-day:[23].quals.charlotte-christian.text",
-        "providence-day:[24].quals.charlotte-christian.text"
+        "providence-day:[27].quals.charlotte-christian.text",
+        "providence-day:[28].quals.charlotte-christian.text"
       ]
     },
     {
       "t": "Un mínimo documentado. Las clases académicamente exigentes de Charlotte Latin envían a muchos atletas a la Division III, y sus listas de firmas de noviembre son parciales.",
       "of": "cb967194",
       "at": [
-        "providence-day:[23].quals.charlotte-latin.text",
-        "providence-day:[24].quals.charlotte-latin.text"
+        "providence-day:[27].quals.charlotte-latin.text",
+        "providence-day:[28].quals.charlotte-latin.text"
       ]
     },
     {
       "t": "Un mínimo documentado; las Classes of 2024 y 2026 están poco documentadas en el caso de Davidson Day.",
       "of": "22ec0adc",
       "at": [
-        "providence-day:[23].quals.davidson-day.text",
-        "providence-day:[24].quals.davidson-day.text"
+        "providence-day:[27].quals.davidson-day.text",
+        "providence-day:[28].quals.davidson-day.text"
       ]
     },
     {
       "t": "Compromisos de División I",
       "of": "ce720efb",
       "at": [
-        "providence-day:[24].label"
+        "providence-day:[28].label"
       ]
     },
     {
       "t": "Deportistas distintos comprometidos con cualquier programa de la División I de la NCAA, promociones de 2024–2026 (incluye el recuento de la Power 4 anterior). Mínimo documentado.",
       "of": "53ecb641",
       "at": [
-        "providence-day:[24].note"
+        "providence-day:[28].note"
       ]
     },
     {
       "t": "26",
       "of": "8bf29659",
       "at": [
-        "providence-day:[24].values.charlotte-christian"
+        "providence-day:[28].values.charlotte-christian"
       ]
     },
     {
       "t": "14",
       "of": "17eb23f8",
       "at": [
-        "providence-day:[24].values.charlotte-latin"
+        "providence-day:[28].values.charlotte-latin"
       ]
     },
     {
       "t": "39",
       "of": "90f05fa1",
       "at": [
-        "providence-day:[24].values.providence-day"
+        "providence-day:[28].values.providence-day"
       ]
     }
   ]

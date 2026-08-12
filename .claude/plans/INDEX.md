@@ -18,3 +18,4 @@ Newest last.
 | [contactus](contactus.md) | "Contact us" mailto button in the shared header | 2026-08-06 | Implemented | [#114](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/114) |
 | [deep-dive-podcast](deep-dive-podcast.md) | Podcast deep-dive links under every research-area header, on all six school pages | 2026-08-07 | Implemented | [#116](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/116) |
 | [schoolPageTitle](schoolPageTitle.md) | Show the school name in the sticky header once the school title scrolls out of view | 2026-08-07 | Implemented | [#117](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/117) |
+| [summer-programs](summer-programs.md) | Add a Summer Programs research area to every school page, with a filterable Camp Catalog and an interactive Summer Cost Planner | 2026-08-11 | Implemented | [#118](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/118) |

@@ -1,4 +1,43 @@
 {
+  "summerPrograms": {
+    "addOns": "خدمات إضافية",
+    "addOnsPerSession": "خدمات إضافية، لكل دورة",
+    "addOnsPerWeek": "خدمات إضافية، أسبوعياً",
+    "campCount": "{{shown}} من {{total}} مخيم",
+    "campPerSession": "المخيم، لكل دورة",
+    "campPerWeek": "المخيم، أسبوعياً",
+    "categoryFilterAll": "الكل",
+    "colCamp": "المخيم",
+    "colPerSession": "لكل دورة",
+    "colPerWeek": "أسبوعياً",
+    "colPrice": "السعر",
+    "colTier": "نوع المخيم",
+    "colWhen": "الموعد",
+    "dayFilterAll": "الكل",
+    "gradeFilterAll": "الكل",
+    "noCamps": "لا يوجد مخيم مطابق — جرّب مسح البحث أو عوامل التصفية.",
+    "oneTimeFees": "رسوم لمرة واحدة",
+    "perCampDay": "≈ لكل يوم مخيم",
+    "searchAria": "البحث في المخيمات الصيفية",
+    "searchPlaceholder": "ابحث باسم المخيم أو وصفه…",
+    "sessionsLabel": "الدورات",
+    "sessionsSelected_few": "{{count}} دورات مخيم",
+    "sessionsSelected_many": "{{count}} دورةً من المخيم",
+    "sessionsSelected_one": "دورة مخيم واحدة",
+    "sessionsSelected_other": "{{count}} دورة مخيم",
+    "sessionsSelected_two": "دورتا مخيم",
+    "sessionsSelected_zero": "{{count}} دورة مخيم",
+    "totalPerSession": "الإجمالي لكل دورة",
+    "totalPerWeek": "الإجمالي أسبوعياً",
+    "unitSummer": "لكامل الصيف",
+    "weeksLabel": "أسابيع الصيف",
+    "weeksSelected_few": "{{count}} أسابيع مخيم",
+    "weeksSelected_many": "{{count}} أسبوعًا من المخيم",
+    "weeksSelected_one": "أسبوع مخيم واحد",
+    "weeksSelected_other": "{{count}} أسبوع مخيم",
+    "weeksSelected_two": "أسبوعا مخيم",
+    "weeksSelected_zero": "{{count}} أسبوع مخيم"
+  },
   "topics": {
     "after-school": "أنشطة ما بعد المدرسة",
     "college-support": "الدعم الجامعي",
@@ -6,6 +45,7 @@
     "financial-aid-tuition": "المساعدات المالية والرسوم",
     "sports": "الرياضة",
     "student-clubs": "أندية الطلاب",
+    "summer-programs": "البرامج الصيفية",
     "the-arts": "الفنون"
   },
   "metrics": {
@@ -390,7 +430,9 @@
     "the-arts.theatre@charlotte-christian": "المسرح وجوائز Blumey وCITA",
     "the-arts.ladder@davidson-day": "سُلّم الفنون من الطفولة المبكرة حتى الصف 12",
     "the-arts.theatre@davidson-day": "المسرح والتقدير الخارجي",
-    "student-clubs.affinity@charlotte-christian": "المجموعات العالمية والثقافية"
+    "student-clubs.affinity@charlotte-christian": "المجموعات العالمية والثقافية",
+    "summer-programs.catalog": "دليل المخيمات",
+    "summer-programs.costPlanner": "مخطط تكاليف الصيف"
   },
   "cardLabels": {
     "afternoonRhythm": "إيقاع فترة بعد الظهر",

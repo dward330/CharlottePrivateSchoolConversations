@@ -209,7 +209,8 @@
       "of": "3d0cb547",
       "at": [
         "providence-day:[2].values.cannon",
-        "providence-day:[23].values.charlotte-christian"
+        "providence-day:[23].values.charlotte-country-day",
+        "providence-day:[27].values.charlotte-christian"
       ],
       "t": "8"
     },
@@ -228,8 +229,9 @@
       "at": [
         "providence-day:[2].values.charlotte-country-day",
         "providence-day:[2].values.davidson-day",
-        "providence-day:[23].values.charlotte-country-day",
-        "providence-day:[24].values.davidson-day"
+        "providence-day:[23].values.providence-day",
+        "providence-day:[27].values.charlotte-country-day",
+        "providence-day:[28].values.davidson-day"
       ],
       "t": "9"
     },
@@ -1724,7 +1726,7 @@
       "of": "88f291a0",
       "at": [
         "providence-day:[19].values.charlotte-latin",
-        "providence-day:[24].values.charlotte-country-day"
+        "providence-day:[28].values.charlotte-country-day"
       ],
       "t": "25"
     },
@@ -2027,10 +2029,333 @@
       "t": "Lower School का Extended Care दोपहर 2:45–6:00 बजे तक चलता है। मौजूदा समय की पुष्टि स्कूल से करें।"
     },
     {
+      "text": "Weeks of summer camp",
+      "of": "4e40c309",
+      "at": [
+        "providence-day:[23].label"
+      ],
+      "t": "समर कैंप के सप्ताह"
+    },
+    {
+      "text": "Number of camp weeks the school runs in summer 2026, counting shortened holiday weeks. A longer season is more weeks a family can cover.",
+      "of": "473a9df1",
+      "at": [
+        "providence-day:[23].note"
+      ],
+      "t": "2026 की गर्मियों में स्कूल कितने सप्ताह कैंप चलाता है, इसमें छुट्टियों के कारण छोटे रह गए सप्ताह भी शामिल हैं। सीज़न जितना लंबा, परिवार उतने ही ज़्यादा सप्ताह संभाल सकता है।"
+    },
+    {
+      "text": "7",
+      "of": "320ca3f6",
+      "at": [
+        "providence-day:[23].values.cannon",
+        "providence-day:[23].values.charlotte-latin"
+      ],
+      "t": "7"
+    },
+    {
+      "text": "6",
+      "of": "330ca589",
+      "at": [
+        "providence-day:[23].values.charlotte-christian"
+      ],
+      "t": "6"
+    },
+    {
+      "text": "Eight weeks including the June 1-5 \"Pre-Camp\" week, which carries 9 priced camps. The school’s own summer landing page markets the season as the seven weeks from June 8.",
+      "of": "e9f9e019",
+      "at": [
+        "providence-day:[23].quals.charlotte-country-day.text"
+      ],
+      "t": "आठ सप्ताह, जिनमें 1-5 जून वाला “Pre-Camp” सप्ताह भी शामिल है, जिसमें 9 शुल्क वाले कैंप हैं। स्कूल का अपना समर पेज हालाँकि सीज़न को 8 जून से शुरू होने वाले सात सप्ताह के रूप में प्रचारित करता है।"
+    },
+    {
+      "text": "Six weeks, but not consecutive: the school takes a two-week break around July 4 (June 29 – July 3 has no camps).",
+      "of": "a93f21d0",
+      "at": [
+        "providence-day:[23].quals.charlotte-christian.text"
+      ],
+      "t": "छह सप्ताह, पर लगातार नहीं: स्कूल 4 जुलाई के आसपास दो सप्ताह का विराम लेता है (29 जून – 3 जुलाई कोई कैंप नहीं)।"
+    },
+    {
+      "text": "Camps published",
+      "of": "d6903fa7",
+      "at": [
+        "providence-day:[24].label"
+      ],
+      "t": "प्रकाशित कैंप"
+    },
+    {
+      "text": "Camp offerings in the school’s own 2026 catalog. Counting conventions differ — most schools count each week a camp runs as a separate row — so read the per-cell notes before comparing.",
+      "of": "bc366956",
+      "at": [
+        "providence-day:[24].note"
+      ],
+      "t": "स्कूल के अपने 2026 कैटलॉग में दिए गए कैंप। गिनने के तरीके अलग-अलग हैं — ज़्यादातर स्कूल एक कैंप जितने सप्ताह चलता है, हर सप्ताह को अलग पंक्ति गिनते हैं — इसलिए तुलना करने से पहले हर सेल के नोट पढ़ें।"
+    },
+    {
+      "text": "251",
+      "of": "26db2743",
+      "at": [
+        "providence-day:[24].values.cannon"
+      ],
+      "t": "251"
+    },
+    {
+      "text": "133",
+      "of": "7a3aae4a",
+      "at": [
+        "providence-day:[24].values.charlotte-christian"
+      ],
+      "t": "133"
+    },
+    {
+      "text": "132",
+      "of": "7b3aafdd",
+      "at": [
+        "providence-day:[24].values.charlotte-country-day"
+      ],
+      "t": "132"
+    },
+    {
+      "text": "232",
+      "of": "27ea3360",
+      "at": [
+        "providence-day:[24].values.charlotte-latin"
+      ],
+      "t": "232"
+    },
+    {
+      "text": "170",
+      "of": "e130c313",
+      "at": [
+        "providence-day:[24].values.providence-day"
+      ],
+      "t": "170"
+    },
+    {
+      "text": "251 camp-week offerings across seven weeks, representing roughly 180 distinct camp titles. Counted from the school’s own 80-page 2026 brochure.",
+      "of": "94ffcc7f",
+      "at": [
+        "providence-day:[24].quals.cannon.text"
+      ],
+      "t": "सात सप्ताह में कुल 251 कैंप-सप्ताह विकल्प, जो लगभग 180 अलग-अलग कैंप शीर्षकों के बराबर हैं। स्कूल के अपने 80 पन्नों के 2026 ब्रोशर से गिने गए।"
+    },
+    {
+      "text": "232 offerings across seven sessions, from 169 unique camp titles — a camp running in three sessions is counted three times.",
+      "of": "7f216eb0",
+      "at": [
+        "providence-day:[24].quals.charlotte-latin.text"
+      ],
+      "t": "सात सत्रों में 232 विकल्प, 169 अलग कैंप शीर्षकों से — तीन सत्रों में चलने वाला एक कैंप तीन बार गिना गया है।"
+    },
+    {
+      "text": "170 priced rows in the 2026 brochure, covering 151 distinct camp names and 231 total camp-session offerings.",
+      "of": "a5300730",
+      "at": [
+        "providence-day:[24].quals.providence-day.text"
+      ],
+      "t": "2026 ब्रोशर में शुल्क वाली 170 पंक्तियाँ, जिनमें 151 अलग कैंप नाम और कुल 231 कैंप-सत्र विकल्प शामिल हैं।"
+    },
+    {
+      "text": "132 priced rows, roughly 85 distinct camp titles. The school separately markets the program as \"over 150 exciting camp options\", a figure its public listing does not itemize.",
+      "of": "7491b610",
+      "at": [
+        "providence-day:[24].quals.charlotte-country-day.text"
+      ],
+      "t": "शुल्क वाली 132 पंक्तियाँ, लगभग 85 अलग कैंप शीर्षक। स्कूल अलग से इस कार्यक्रम को “150 से ज़्यादा रोमांचक कैंप विकल्प” बताकर प्रचारित करता है, पर उसकी सार्वजनिक सूची में यह आंकड़ा खोलकर नहीं दिखाया गया।"
+    },
+    {
+      "text": "133 half-day sessions across six weeks, roughly 96 distinct camps. Every one is a three-hour half-day — the school publishes no full-day camp.",
+      "of": "3910e6df",
+      "at": [
+        "providence-day:[24].quals.charlotte-christian.text"
+      ],
+      "t": "छह सप्ताह में 133 आधे-दिन के सत्र, लगभग 96 अलग कैंप। हर एक तीन घंटे का आधा दिन है — स्कूल पूरे दिन का कोई कैंप प्रकाशित नहीं करता।"
+    },
+    {
+      "text": "Ages served",
+      "of": "20a1e226",
+      "at": [
+        "providence-day:[25].label"
+      ],
+      "t": "किस उम्र के लिए"
+    },
+    {
+      "text": "The span the school’s own summer catalog covers. Latin and Cannon index camps by age; the others publish grade bands, shown here as the school states them.",
+      "of": "4d564628",
+      "at": [
+        "providence-day:[25].note"
+      ],
+      "t": "स्कूल का अपना समर कैटलॉग जितनी उम्र-सीमा को कवर करता है। Latin और Cannon कैंप उम्र के हिसाब से रखते हैं; बाकी कक्षा-श्रेणियाँ प्रकाशित करते हैं, जो यहाँ स्कूल के अपने शब्दों में दी गई हैं।"
+    },
+    {
+      "text": "4–18",
+      "of": "cca868d1",
+      "at": [
+        "providence-day:[25].values.cannon",
+        "providence-day:[25].values.providence-day"
+      ],
+      "t": "4–18"
+    },
+    {
+      "text": "JK–Grade 12",
+      "of": "a9b0c7e9",
+      "at": [
+        "providence-day:[25].values.charlotte-christian"
+      ],
+      "t": "JK–कक्षा 12"
+    },
+    {
+      "text": "Age 4–Grade 12",
+      "of": "ba434c7b",
+      "at": [
+        "providence-day:[25].values.charlotte-country-day"
+      ],
+      "t": "आयु 4–कक्षा 12"
+    },
+    {
+      "text": "3.5–18",
+      "of": "349c7711",
+      "at": [
+        "providence-day:[25].values.charlotte-latin"
+      ],
+      "t": "3.5–18"
+    },
+    {
+      "text": "The school states camps are \"open to all campers ages 3.5 - 18 years old\". Age is calculated as of August 1, 2026, and all Pre-K campers must be toilet trained.",
+      "of": "e3070636",
+      "at": [
+        "providence-day:[25].quals.charlotte-latin.text"
+      ],
+      "t": "स्कूल कहता है कि कैंप “3.5 - 18 वर्ष के सभी कैंपर्स के लिए खुले हैं”। उम्र 1 अगस्त 2026 के आधार पर गिनी जाती है, और Pre-K के सभी कैंपर्स का टॉयलेट ट्रेनिंग पूरा होना ज़रूरी है।"
+    },
+    {
+      "text": "The brochure says campers must be \"at least four years old by January 1, 2026\"; the About page states ages 4.5 to 18. Both are the school’s own wording.",
+      "of": "2a21488f",
+      "at": [
+        "providence-day:[25].quals.providence-day.text"
+      ],
+      "t": "ब्रोशर कहता है कि कैंपर्स की उम्र “1 जनवरी 2026 तक कम से कम चार वर्ष” होनी चाहिए; About पेज पर 4.5 से 18 वर्ष लिखा है। दोनों स्कूल के अपने शब्द हैं।"
+    },
+    {
+      "text": "The listing’s lowest published band is Age 4. The school’s own pages disagree on the floor — the summer page says ages 4–18, the after-school page says 3–18.",
+      "of": "ef5848a4",
+      "at": [
+        "providence-day:[25].quals.charlotte-country-day.text"
+      ],
+      "t": "सूची में प्रकाशित सबसे निचली श्रेणी Age 4 है। न्यूनतम उम्र पर स्कूल के अपने पेज ही आपस में मेल नहीं खाते — समर पेज पर 4–18 वर्ष लिखा है, आफ़्टर-स्कूल पेज पर 3–18।"
+    },
+    {
+      "text": "Grades are rising 2026-27. JK campers must have turned 4 by February 1, 2026.",
+      "of": "3f5e77ee",
+      "at": [
+        "providence-day:[25].quals.charlotte-christian.text"
+      ],
+      "t": "कक्षाएँ 2026-27 में जिस कक्षा में जाना है, वे हैं। JK कैंपर्स की उम्र 1 फ़रवरी 2026 तक 4 वर्ष पूरी हो चुकी होनी चाहिए।"
+    },
+    {
+      "text": "The school states Camp Cannon is \"open to all children ages 4 to 18\". Campers must be fully potty trained, and only camps matching a child’s age appear during online registration.",
+      "of": "4b131395",
+      "at": [
+        "providence-day:[25].quals.cannon.text"
+      ],
+      "t": "स्कूल कहता है कि Camp Cannon “4 से 18 वर्ष के सभी बच्चों के लिए खुला है”। कैंपर्स का पॉटी ट्रेनिंग पूरी तरह हो चुका होना चाहिए, और ऑनलाइन रजिस्ट्रेशन के समय केवल वही कैंप दिखते हैं जो बच्चे की उम्र से मेल खाते हैं।"
+    },
+    {
+      "text": "Wrap-around care",
+      "of": "2459c4c2",
+      "at": [
+        "providence-day:[26].label"
+      ],
+      "t": "कैंप से पहले और बाद की देखभाल"
+    },
+    {
+      "text": "Earliest drop-off to latest pickup with the school’s paid before- and after-care options — the real outer limit of a camp day for a working family.",
+      "of": "5701e6ec",
+      "at": [
+        "providence-day:[26].note"
+      ],
+      "t": "स्कूल के शुल्क वाले बिफ़ोर- और आफ़्टर-केयर विकल्पों के साथ सबसे पहले छोड़ने से लेकर सबसे देर तक लेने के समय तक — कामकाजी परिवार के लिए कैंप के दिन की असली बाहरी सीमा।"
+    },
+    {
+      "text": "7:30 AM–5:30 PM",
+      "of": "ed8a2e9b",
+      "at": [
+        "providence-day:[26].values.cannon",
+        "providence-day:[26].values.charlotte-latin"
+      ],
+      "t": "7:30 AM–5:30 PM"
+    },
+    {
+      "text": "8:00 AM–5:00 PM",
+      "of": "42437dde",
+      "at": [
+        "providence-day:[26].values.charlotte-christian"
+      ],
+      "t": "8:00 AM–5:00 PM"
+    },
+    {
+      "text": "7:30 AM–5:00 PM",
+      "of": "792cd57e",
+      "at": [
+        "providence-day:[26].values.charlotte-country-day"
+      ],
+      "t": "7:30 AM–5:00 PM"
+    },
+    {
+      "text": "7:00 AM–6:00 PM",
+      "of": "9b4038c2",
+      "at": [
+        "providence-day:[26].values.providence-day"
+      ],
+      "t": "7:00 AM–6:00 PM"
+    },
+    {
+      "text": "An eleven-hour span, the widest of the five — Before Care from 7am and After Care to 6pm, both $120/week, or $220/week bundled as Complete Care.",
+      "of": "5f49f081",
+      "at": [
+        "providence-day:[26].quals.providence-day.text"
+      ],
+      "t": "ग्यारह घंटे की अवधि, पाँचों में सबसे लंबी — Before Care 7am से और After Care 6pm तक, दोनों $120/सप्ताह, या Complete Care बंडल में $220/सप्ताह।"
+    },
+    {
+      "text": "A nine-hour span. Because every camp is a half-day, covering a full working day means registering a morning AND an afternoon camp; the noon–1 p.m. bridge care between them is free.",
+      "of": "107eb4f8",
+      "at": [
+        "providence-day:[26].quals.charlotte-christian.text"
+      ],
+      "t": "नौ घंटे की अवधि। चूँकि हर कैंप आधे दिन का है, पूरे कार्यदिवस को कवर करने के लिए सुबह का एक और दोपहर का एक, दोनों कैंप में रजिस्टर कराना पड़ता है; बीच में दोपहर–1 p.m. की ब्रिज केयर मुफ़्त है।"
+    },
+    {
+      "text": "A ten-hour span: Before Care from 7:30 am at $50/week and After Care to 5:30 pm at $60/week, or $90/week for both. Camp itself runs 9:00–4:00.",
+      "of": "c70f383c",
+      "at": [
+        "providence-day:[26].quals.cannon.text"
+      ],
+      "t": "दस घंटे की अवधि: Before Care 7:30 am से $50/सप्ताह में और After Care 5:30 pm तक $60/सप्ताह में, या दोनों के लिए $90/सप्ताह। कैंप खुद 9:00–4:00 चलता है।"
+    },
+    {
+      "text": "A ten-hour span. Before Care runs 7:30–8:15 am ($70.00/week) and After Care to 5:30 pm ($150.00/week); the Super Care bundle is $195.00/week. Late pick-up is $25.00 every 15 minutes.",
+      "of": "5a5e0dc4",
+      "at": [
+        "providence-day:[26].quals.charlotte-latin.text"
+      ],
+      "t": "दस घंटे की अवधि। Before Care 7:30–8:15 am चलती है ($70.00/सप्ताह) और After Care 5:30 pm तक ($150.00/सप्ताह); Super Care बंडल $195.00/सप्ताह का है। देर से लेने पर हर 15 मिनट के $25.00 लगते हैं।"
+    },
+    {
+      "text": "A nine-and-a-half-hour span: Morning Care from 7:30 am ($105/week) and Afternoon Care to 5 pm ($85/week), or $160/week bundled as Super Care. Late pick-up is $1/minute after 5 pm.",
+      "of": "e8bfeef8",
+      "at": [
+        "providence-day:[26].quals.charlotte-country-day.text"
+      ],
+      "t": "साढ़े नौ घंटे की अवधि: Morning Care 7:30 am से ($105/सप्ताह) और Afternoon Care 5 pm तक ($85/सप्ताह), या Super Care बंडल में $160/सप्ताह। 5 pm के बाद देर से लेने पर $1/मिनट लगता है।"
+    },
+    {
       "text": "Power 4 commits",
       "of": "1f2f8490",
       "at": [
-        "providence-day:[23].label"
+        "providence-day:[27].label"
       ],
       "t": "Power 4 प्रतिबद्धताएँ"
     },
@@ -2038,7 +2363,7 @@
       "text": "Distinct athletes committed to an SEC / Big Ten / ACC / Big 12 program, Classes of 2024–2026. Documented minimum.",
       "of": "4b7d536c",
       "at": [
-        "providence-day:[23].note"
+        "providence-day:[27].note"
       ],
       "t": "SEC / Big Ten / ACC / Big 12 के किसी कार्यक्रम के लिए प्रतिबद्ध अलग-अलग खिलाड़ी, 2024–2026 की कक्षाएँ। एक दर्ज न्यूनतम।"
     },
@@ -2046,7 +2371,7 @@
       "text": "1",
       "of": "340ca71c",
       "at": [
-        "providence-day:[23].values.cannon"
+        "providence-day:[27].values.cannon"
       ],
       "t": "1"
     },
@@ -2054,9 +2379,9 @@
       "text": "3",
       "of": "360caa42",
       "at": [
-        "providence-day:[23].values.charlotte-latin",
-        "providence-day:[23].values.davidson-day",
-        "providence-day:[24].values.cannon"
+        "providence-day:[27].values.charlotte-latin",
+        "providence-day:[27].values.davidson-day",
+        "providence-day:[28].values.cannon"
       ],
       "t": "3"
     },
@@ -2064,7 +2389,7 @@
       "text": "17",
       "of": "1aeb28b1",
       "at": [
-        "providence-day:[23].values.providence-day"
+        "providence-day:[27].values.providence-day"
       ],
       "t": "17"
     },
@@ -2072,8 +2397,8 @@
       "text": "A documented minimum. Several of Cannon’s best-known athletes committed outside the 2024–26 window and so are not counted here.",
       "of": "0d7ecf77",
       "at": [
-        "providence-day:[23].quals.cannon.text",
-        "providence-day:[24].quals.cannon.text"
+        "providence-day:[27].quals.cannon.text",
+        "providence-day:[28].quals.cannon.text"
       ],
       "t": "एक प्रलेखित न्यूनतम। Cannon के कई सबसे प्रसिद्ध खिलाड़ियों ने 2024–26 अवधि के बाहर प्रतिबद्धता जताई और इसलिए उन्हें यहाँ नहीं गिना गया है।"
     },
@@ -2081,8 +2406,8 @@
       "text": "A documented minimum: the school’s public commitment list runs through 2025, and its Class of 2026 is not yet compiled.",
       "of": "58bba487",
       "at": [
-        "providence-day:[23].quals.charlotte-christian.text",
-        "providence-day:[24].quals.charlotte-christian.text"
+        "providence-day:[27].quals.charlotte-christian.text",
+        "providence-day:[28].quals.charlotte-christian.text"
       ],
       "t": "एक प्रलेखित न्यूनतम: स्कूल की सार्वजनिक प्रतिबद्धता सूची 2025 तक चलती है, और इसकी Class of 2026 अभी तक संकलित नहीं हुई है।"
     },
@@ -2090,8 +2415,8 @@
       "text": "A documented minimum. Charlotte Latin’s academically heavy classes send many athletes to Division III, and its November signing lists are partial.",
       "of": "cb967194",
       "at": [
-        "providence-day:[23].quals.charlotte-latin.text",
-        "providence-day:[24].quals.charlotte-latin.text"
+        "providence-day:[27].quals.charlotte-latin.text",
+        "providence-day:[28].quals.charlotte-latin.text"
       ],
       "t": "एक प्रलेखित न्यूनतम। Charlotte Latin की शैक्षणिक रूप से भारी कक्षाएँ कई खिलाड़ियों को Division III में भेजती हैं, और इसकी नवंबर साइनिंग सूचियाँ अधूरी हैं।"
     },
@@ -2099,8 +2424,8 @@
       "text": "A documented minimum; the Classes of 2024 and 2026 are under-documented for Davidson Day.",
       "of": "22ec0adc",
       "at": [
-        "providence-day:[23].quals.davidson-day.text",
-        "providence-day:[24].quals.davidson-day.text"
+        "providence-day:[27].quals.davidson-day.text",
+        "providence-day:[28].quals.davidson-day.text"
       ],
       "t": "एक प्रलेखित न्यूनतम; Davidson Day के लिए Classes of 2024 और 2026 कम-प्रलेखित हैं।"
     },
@@ -2108,7 +2433,7 @@
       "text": "Division I commits",
       "of": "ce720efb",
       "at": [
-        "providence-day:[24].label"
+        "providence-day:[28].label"
       ],
       "t": "Division I प्रतिबद्धताएँ"
     },
@@ -2116,7 +2441,7 @@
       "text": "Distinct athletes committed to any NCAA Division I program, Classes of 2024–2026 (includes the Power 4 count above). Documented minimum.",
       "of": "53ecb641",
       "at": [
-        "providence-day:[24].note"
+        "providence-day:[28].note"
       ],
       "t": "किसी भी NCAA Division I कार्यक्रम के लिए प्रतिबद्ध अलग-अलग खिलाड़ी, 2024–2026 की कक्षाएँ (इसमें ऊपर दी गई Power 4 की संख्या भी शामिल है)। एक दर्ज न्यूनतम।"
     },
@@ -2124,7 +2449,7 @@
       "text": "26",
       "of": "8bf29659",
       "at": [
-        "providence-day:[24].values.charlotte-christian"
+        "providence-day:[28].values.charlotte-christian"
       ],
       "t": "26"
     },
@@ -2132,7 +2457,7 @@
       "text": "14",
       "of": "17eb23f8",
       "at": [
-        "providence-day:[24].values.charlotte-latin"
+        "providence-day:[28].values.charlotte-latin"
       ],
       "t": "14"
     },
@@ -2140,7 +2465,7 @@
       "text": "39",
       "of": "90f05fa1",
       "at": [
-        "providence-day:[24].values.providence-day"
+        "providence-day:[28].values.providence-day"
       ],
       "t": "39"
     }

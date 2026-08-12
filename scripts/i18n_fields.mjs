@@ -86,7 +86,48 @@ export const PROSE_KEYS = new Set([
   // clubClusters.ts / clubCatalog.ts — the two Student Clubs cards that render
   // from their own hand-maintained modules rather than clubsPrograms/.
   'oneLiner', 'evidenceLabel', 'verdictHint', 'countNoun', 'short', 'full',
+  // Summer Programs. `categoryLabel` is the visible chip beside a camp name
+  // ("Traditional Day Camp", "STEM premium") — the DISPLAY half of the
+  // token/label pair whose `category` token is skipped below. `intro` is the
+  // sentence that says a catalog is a sample rather than the whole slate, which
+  // is the one line a reader most needs in their own language.
+  'categoryLabel', 'intro',
+  // `dayLabel` and `weeks` are the "sentence wearing an identifier's clothes"
+  // shape the rollout docs keep finding — a field that looks like a code because
+  // MOST of its values are codes, holding a minority that are English phrases.
+  //
+  //   dayLabel  "Mon–Fri" and "M–F" are codes … but so are "4 days",
+  //             "Two weeks" and "3-week run", which are not.
+  //   weeks     "S1, S2, S6" is a code … but "Session 1", "Sessions 2, 5",
+  //             "Weeks 1-6" and "June 8–26" carry English nouns and month names.
+  //
+  // Classifying either as a skip would ship those phrases as English into all
+  // nine locales, inside a table cell — precisely where every previous leak of
+  // this class hid. They are therefore prose, and the translator is instructed
+  // to carry the session numerals and date figures through char-for-char.
+  'dayLabel', 'weeks',
 ])
+
+/**
+ * `hours` is SKIPPED as a time literal, and that is right for 20 of the 24
+ * values Summer Programs holds — `9am–4pm`, `8:30am - 3:30pm`. Four are not:
+ *
+ *   "9 a.m. - Noon"                      Charlotte Christian, ×many
+ *   "9 a.m. - Noon & 1-4 p.m."
+ *   "drop-off 8:45 am, pick-up 5:00 pm"  Country Day swim camp
+ *   "drop-off 8:45 am, pick-up 12:45 pm"
+ *
+ * Those carry English WORDS — Noon, drop-off, pick-up — inside a field whose
+ * name promises a bare clock reading, so they shipped English into every locale
+ * from inside a table cell. Same shape as `ensembles`, `program` and `dismissal`
+ * before them: a field correctly classified for the values it held when it was
+ * classified, which later gained one that is prose.
+ *
+ * Rather than reclassify the whole field (which would send 20 pure clock
+ * literals through translation and invite exactly the re-typing the figure rule
+ * forbids), PATH_OVERRIDES below promotes only Summer's `hours` to prose, and
+ * the translator is told to move the words while leaving every digit alone.
+ */
 
 /* ----------------------------------------------------------- not prose -- */
 
@@ -160,6 +201,15 @@ export const SKIP_KEYS = new Map([
   ['cat', 'internal category code (interest, comp, aff)'],
   ['key', 'internal object key'],
   ['evidence', 'internal evidence-tier code (verified, reported)'],
+  // Summer Programs filter plumbing. `category` and `token` are MATCHED BY
+  // VALUE in CampCatalogBody — a camp's `category` is compared against the
+  // chip's `token`, and 'All' is the filter's sentinel. Translating either
+  // breaks the comparison and the filter silently matches nothing, the same
+  // failure `flags[].kind` had in Spanish. The visible half of each pair
+  // (`categoryLabel`, and the chip's own `label`) IS translated.
+  ['category', 'filter token — matched by value against categoryFilters[].token'],
+  ['token', 'filter token — matched by value; "All" is the sentinel'],
+  ['defaultTier', 'internal tier id — matched against tiers[].id'],
 ])
 
 /**
@@ -352,4 +402,11 @@ export const PATH_OVERRIDES = new Map([
   // field, which is what makes the inconsistency visible to a reader. Real
   // sport names round-trip unchanged, exactly as course titles already do.
   ['pipeline.roster[].sport', true],
+  // Summer Programs' `hours` — see the note above PATH_OVERRIDES' PROSE_KEYS
+  // neighbour. Twenty of its 24 values are bare clock literals, four carry
+  // English words ("9 a.m. - Noon", "drop-off 8:45 am, pick-up 5:00 pm") and
+  // shipped untranslated inside a table cell. Promoted to prose HERE rather than
+  // by leaf, so `hours` stays a skip everywhere else. Every digit still round-
+  // trips char-for-char; only the words move.
+  ['catalog.camps[].hours', true],
 ])
