@@ -36,7 +36,14 @@ const SUSPECT =
 
 // Already-safe: the line localizes, or formats numerically, or the expression is
 // plainly not a scalar figure.
-const SAFE_LINE = /localizeMoneyText|money\(|number\(|winPct/
+// A React `key=` is React bookkeeping, never DOM text, so a figure inside one
+// cannot reach a reader unlocalized. SummerPrograms keys its catalog rows by
+// `${c.name}|${c.price}|${c.hours}` — a school can list the same camp twice at
+// different terms, so the price is what disambiguates them — and the visible
+// cell a few lines below is `localizeMoneyText(c.price)`, which this check does
+// still see. Matched structurally rather than by expression text so the next
+// composite key is not a fresh false positive.
+const SAFE_LINE = /localizeMoneyText|money\(|number\(|winPct|\skey=\{/
 const NOT_A_FIGURE = /\.length|\.map|\.filter|Boolean|=>|COMPONENT_GLYPH/
 
 /**

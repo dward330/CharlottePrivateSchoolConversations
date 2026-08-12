@@ -60,6 +60,9 @@ const TOPICS = {
   'student-clubs': 'clubsPrograms',
   'college-support': 'collegeSupportPrograms',
   'after-school': 'afterSchoolPrograms',
+  // Summer Programs uses `summer/` rather than `summerPrograms/`: the doubled
+  // "Programs" in the folder name read badly beside the module's own name.
+  'summer-programs': 'summer',
   'course-offerings': null,   // single module + accessor, see ACCESSORS
   'financial-aid-report': null,
   'metric-values': null,

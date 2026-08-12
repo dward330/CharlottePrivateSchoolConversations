@@ -1,4 +1,35 @@
 {
+  "summerPrograms": {
+    "addOns": "అదనపు సేవలు",
+    "addOnsPerSession": "అదనపు సేవలు, ఒక్కో సెషన్‌కు",
+    "addOnsPerWeek": "అదనపు సేవలు, వారానికి",
+    "campCount": "{{total}} శిబిరాల్లో {{shown}}",
+    "campPerSession": "శిబిరం, ఒక్కో సెషన్‌కు",
+    "campPerWeek": "శిబిరం, వారానికి",
+    "categoryFilterAll": "అన్నీ",
+    "colCamp": "శిబిరం",
+    "colPerSession": "ఒక్కో సెషన్‌కు",
+    "colPerWeek": "వారానికి",
+    "colPrice": "ధర",
+    "colTier": "శిబిరం రకం",
+    "colWhen": "ఎప్పుడు",
+    "dayFilterAll": "అన్నీ",
+    "gradeFilterAll": "అన్నీ",
+    "noCamps": "ఏ శిబిరమూ సరిపోలలేదు — వెతుకుదల లేదా ఫిల్టర్లను తొలగించి చూడండి.",
+    "oneTimeFees": "ఒకసారి చెల్లించే రుసుములు",
+    "perCampDay": "≈ ఒక్కో శిబిర దినానికి",
+    "searchAria": "వేసవి శిబిరాల కోసం వెతకండి",
+    "searchPlaceholder": "శిబిరం పేరు లేదా వివరణ కోసం వెతకండి…",
+    "sessionsLabel": "సెషన్లు",
+    "sessionsSelected_one": "{{count}} శిబిర సెషన్",
+    "sessionsSelected_other": "{{count}} శిబిర సెషన్లు",
+    "totalPerSession": "ఒక్కో సెషన్‌కు మొత్తం",
+    "totalPerWeek": "వారానికి మొత్తం",
+    "unitSummer": "వేసవి మొత్తానికి",
+    "weeksLabel": "వేసవి వారాలు",
+    "weeksSelected_one": "{{count}} వారం శిబిరం",
+    "weeksSelected_other": "{{count}} వారాల శిబిరం"
+  },
   "topics": {
     "after-school": "పాఠశాల అనంతర కార్యక్రమాలు",
     "college-support": "కళాశాల మద్దతు",
@@ -6,6 +37,7 @@
     "financial-aid-tuition": "ఆర్థిక సహాయం మరియు ట్యూషన్",
     "sports": "క్రీడలు",
     "student-clubs": "విద్యార్థి క్లబ్‌లు",
+    "summer-programs": "వేసవి కార్యక్రమాలు",
     "the-arts": "కళలు"
   },
   "metrics": {
@@ -330,7 +362,9 @@
     "the-arts.theatre@charlotte-christian": "రంగస్థలం, Blumeys మరియు CITA",
     "the-arts.ladder@davidson-day": "Early Childhood–12 కళల నిచ్చెన",
     "the-arts.theatre@davidson-day": "రంగస్థలం మరియు బాహ్య గుర్తింపు",
-    "student-clubs.affinity@charlotte-christian": "ప్రపంచ మరియు సాంస్కృతిక బృందాలు"
+    "student-clubs.affinity@charlotte-christian": "ప్రపంచ మరియు సాంస్కృతిక బృందాలు",
+    "summer-programs.catalog": "శిబిరాల జాబితా",
+    "summer-programs.costPlanner": "వేసవి ఖర్చుల ప్రణాళిక"
   },
   "cardLabels": {
     "afternoonRhythm": "మధ్యాహ్నపు సాగు",

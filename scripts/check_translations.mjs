@@ -50,6 +50,12 @@ const TOPICS = {
   'student-clubs': 'clubsPrograms',
   'college-support': 'collegeSupportPrograms',
   'after-school': 'afterSchoolPrograms',
+  // Summer Programs lives in `summer/`, not `summerPrograms/`. NOTE this list is
+  // a hand-kept mirror of the one in i18n_extract.mjs: a topic missing here is
+  // not reported as untranslated, it is not reported AT ALL — the locale simply
+  // shows one fewer row and reads as complete. Summer Programs was invisible
+  // here until it was added, at 0% coverage.
+  'summer-programs': 'summer',
   'course-offerings': null,   // single module + accessor, see ACCESSORS
   'financial-aid-report': null,
   'metric-values': null,

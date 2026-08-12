@@ -1,4 +1,35 @@
 {
+  "summerPrograms": {
+    "addOns": "Extras",
+    "addOnsPerSession": "Extras, por sesión",
+    "addOnsPerWeek": "Extras, por semana",
+    "campCount": "{{shown}} de {{total}} campamentos",
+    "campPerSession": "Campamento, por sesión",
+    "campPerWeek": "Campamento, por semana",
+    "categoryFilterAll": "Todos",
+    "colCamp": "Campamento",
+    "colPerSession": "Por sesión",
+    "colPerWeek": "Por semana",
+    "colPrice": "Precio",
+    "colTier": "Tipo de campamento",
+    "colWhen": "Cuándo",
+    "dayFilterAll": "Todos",
+    "gradeFilterAll": "Todos",
+    "noCamps": "Ningún campamento coincide: prueba a borrar la búsqueda o los filtros.",
+    "oneTimeFees": "Cuotas únicas",
+    "perCampDay": "≈ por día de campamento",
+    "searchAria": "Buscar campamentos de verano",
+    "searchPlaceholder": "Busca el nombre o la descripción del campamento…",
+    "sessionsLabel": "Sesiones",
+    "sessionsSelected_one": "{{count}} sesión de campamento",
+    "sessionsSelected_other": "{{count}} sesiones de campamento",
+    "totalPerSession": "Total por sesión",
+    "totalPerWeek": "Total por semana",
+    "unitSummer": "por todo el verano",
+    "weeksLabel": "Semanas de verano",
+    "weeksSelected_one": "{{count}} semana de campamento",
+    "weeksSelected_other": "{{count}} semanas de campamento"
+  },
   "topics": {
     "after-school": "Actividades extraescolares",
     "college-support": "Orientación universitaria",
@@ -6,6 +37,7 @@
     "financial-aid-tuition": "Ayuda financiera y matrícula",
     "sports": "Deportes",
     "student-clubs": "Clubes estudiantiles",
+    "summer-programs": "Programas de verano",
     "the-arts": "Artes"
   },
   "metrics": {
@@ -330,7 +362,9 @@
     "the-arts.theatre@charlotte-christian": "Teatro, los premios Blumey y CITA",
     "the-arts.ladder@davidson-day": "El itinerario de artes desde infantil hasta 12.º",
     "the-arts.theatre@davidson-day": "Teatro y reconocimiento externo",
-    "student-clubs.affinity@charlotte-christian": "Grupos globales y culturales"
+    "student-clubs.affinity@charlotte-christian": "Grupos globales y culturales",
+    "summer-programs.catalog": "El catálogo de campamentos",
+    "summer-programs.costPlanner": "El planificador de gastos del verano"
   },
   "cardLabels": {
     "afternoonRhythm": "El ritmo de la tarde",
