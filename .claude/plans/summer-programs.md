@@ -1,11 +1,11 @@
 ---
 name: summer-programs
 title: Add a Summer Programs research area to every school page, with a filterable Camp Catalog and an interactive Summer Cost Planner
-status: english-done
+status: implemented
 phases: 2
 created: 2026-08-11
 branch: feat/summer-programs
-prs: []
+prs: [118]
 ---
 
 # Summer Programs research area (all schools)
@@ -375,3 +375,77 @@ for method, not for a register rule to inherit):
 - **Whether chrome keys go to `es.json` in Phase 1** (ingest checklist §4 pairs en+es).
   **Default:** add the keys to `en.json` only in Phase 1 and translate all 9 in Phase 2, to
   keep the English gate clean — matching how the prose/overlay split already defers non-English.
+
+
+## Implementation notes
+
+Both phases shipped. What deviated from the plan, and why:
+
+**Davidson Day has no Summer Programs section, and that is the finding.** The plan
+allowed for a school with no published program to drop out; Davidson Day turned out
+to be that school. Five independent checks agreed it publishes nothing for 2026 — its
+`/summer-program` page renders a heading over an empty content block, its site-map has
+no camp entry, the camp URL still in search results 404s, the Wayback crawl of the
+current site generation has no camp page, and its news/blog never mention one. Two
+false positives were disproved: `davidsonday.campbrainregistration.com` answers 200 for
+*any* subdomain (CampBrain wildcards them), and the `$400/week` figure in search results
+is Davidson **College**'s day camp, a different institution. The evidence is written up
+in `.claude/docs/summer-programs-davidson-day-negative-finding.md` — deliberately in the
+docs layer, because any file under `source-material/summer-programs/davidson-day/` would
+give the school a doc_count and therefore create the very section the research disproves.
+
+**No photo band ships.** The plan made the band conditional on real, sourced photographs
+and forbade placeholders. No verifiable photographs of these schools' summer facilities
+were found, so `photos` is absent from all five entries and the band renders nothing.
+The render path (`SummerPhotoBand`) and its CSS are built and dormant.
+
+**The catalogs are documented samples, not full slates.** Providence Day shows 60 of 170
+rows, Charlotte Latin 56 of 232, Cannon 60 of 251, Country Day 60 of 132; Charlotte
+Christian is complete at 96 of 96. Each card's `intro` states its own numbers, per the
+plan's "N of M+ sampled" requirement — no list reads as complete when it is not.
+
+**`src/lib/labels.ts` needed no edit.** The plan called for a slug→key entry, but
+`topicLabel()` already reads `topics.<slug>` generically, so a locale key alone was
+enough.
+
+**`SECTION_ORDER` was not added.** With one rule folding every subtopic onto a single
+key there is nothing to order.
+
+**Per-school files live in `src/data/summer/`**, as the plan's own Decisions section
+preferred over the doubled `summerProgramsPrograms/`.
+
+### Defects found during the build, all render- or tooling-layer
+
+Every one of these passed the source-level checks and was caught only by running the
+thing — the pattern this repo keeps rediscovering.
+
+- **Duplicate React keys** (Phase 1). Providence Day lists "Camp Spirit" twice at
+  different terms; the catalog keyed rows by `name` alone, so filtered lists rendered
+  the wrong camps. Now keyed by name+price+hours.
+- **A shifted `Promise.all` destructure** (Phase 1). Adding the overlay loader made nine
+  where the destructure had eight holes, feeding a `void` into `Object.fromEntries`.
+  `tsc -b` caught what `tsc --noEmit` had missed.
+- **Arabic written into the Persian overlay** (Phase 2). Same script, so every existing
+  check passed. Recovered; `npm run check:script` now guards it.
+- **English leaking from the `hours` field** (Phase 2) — four of its 24 values carry
+  words, not clock readings.
+- **Arabic plural forms** (Phase 2) — six CLDR categories needed, two supplied, so
+  `count: 3` rendered English inside Arabic.
+- **`summer-programs` invisible to `check_translations.mjs`** (Phase 2) — its private
+  topic list omitted the new area, so every locale read complete at 0%.
+
+### Checks added or repaired
+
+- `npm run check:script` — each overlay is written in its own language.
+- `npm run check:live` — overlays resolve against live `src/data`, not just the work
+  file (which `check:runtime` compares against, so both can agree and still be wrong).
+- `check:money` no longer flags React `key=` attributes as render sites.
+- `check_translations.mjs` and `i18n_extract.mjs` both know the new topic.
+
+### Left open
+
+- **No native-speaker review** for any of the nine locales on this topic, as with every
+  prior rollout.
+- **Pre-existing and untouched:** the `es` sepdrift figures on `main` (178 across other
+  topics), a `the-arts.fa.json` figure re-typing (`.50` → `0.50`), and a crash in
+  `check_translations.mjs`'s stale-example printer. None are summer-related.
