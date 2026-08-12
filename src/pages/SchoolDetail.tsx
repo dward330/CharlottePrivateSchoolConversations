@@ -93,6 +93,15 @@ import {
   AFTER_SCHOOL_CARDS,
 } from '../data/afterSchool.ts'
 import { AfterSchoolCardBody } from '../components/AfterSchool.tsx'
+import {
+  summerProgram,
+  loadSummerOverlay,
+  SUMMER_CARDS,
+} from '../data/summerPrograms.ts'
+import {
+  SummerProgramsCardBody,
+  SummerPhotoBand,
+} from '../components/SummerPrograms.tsx'
 import { WelcomeVideo, PlayIcon } from '../components/WelcomeVideo.tsx'
 import { useTranslation } from 'react-i18next'
 import { topicLabel, metricLabel, cardTitle } from '../lib/labels.ts'
@@ -373,6 +382,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
       loadArtsOverlay(lang),
       loadSportsOverlay(lang),
       loadAfterSchoolOverlay(lang),
+      loadSummerOverlay(lang),
       loadCollegeSupportOverlay(lang),
       loadCourseOfferingsOverlay(lang),
       loadMetricValuesOverlay(lang),
@@ -389,7 +399,11 @@ export function SchoolDetail({ slug }: { slug: string }) {
             ),
           ] as const,
       ),
-    ]).then(([, , , , , , , , ...entries]) => {
+      /* The leading holes below MUST match the number of overlay loaders above.
+         Adding a loader without adding a hole silently feeds its `void` result
+         into Object.fromEntries as if it were a [slug, groups] pair — which is
+         what `tsc -b` caught when Summer Programs made it nine. */
+    ]).then(([, , , , , , , , , ...entries]) => {
       if (!alive) return
       setLoaded(Object.fromEntries(entries))
       setReady(true)
@@ -642,6 +656,27 @@ export function SchoolDetail({ slug }: { slug: string }) {
               : []
             const afterSchool = asCardList.length > 0 ? asEntry : undefined
             const asCards = asCardList
+            /* Summer Programs: a full substitution like the areas above — the
+               two cards replace the whole ingested prose for the topic, which
+               is one long research document per school folded onto a single
+               metric key by RULES['summer-programs'].
+
+               A school that runs no summer program has no source files, so
+               `topicsForSchool()` never yields the topic and this branch is
+               never reached — the section is absent from the page entirely
+               rather than rendering empty. A school that publishes camps but no
+               rates keeps its catalog and drops the Cost Planner.
+
+               Same guard as the areas above — an entry that is present but
+               empty is still truthy, and would otherwise suppress the prose and
+               leave the whole section blank. */
+            const suEntry =
+              t.slug === 'summer-programs' ? summerProgram(slug, lang) : undefined
+            const suCardList = suEntry
+              ? SUMMER_CARDS.filter((c) => suEntry[c.key] != null)
+              : []
+            const summer = suCardList.length > 0 ? suEntry : undefined
+            const suCards = suCardList
             const cardCount = offerings
               ? offerings.divisions.length
               : sports
@@ -652,9 +687,11 @@ export function SchoolDetail({ slug }: { slug: string }) {
                     ? csCards.length
                     : afterSchool
                       ? asCards.length
-                      : clubs
-                        ? clubsCards.length + groups.length
-                        : groups.length
+                      : summer
+                        ? suCards.length
+                        : clubs
+                          ? clubsCards.length + groups.length
+                          : groups.length
             return (
               <section key={t.slug} id={`topic-${t.slug}`} className="topic-section">
                 <div className="topic-section-head">
@@ -872,6 +909,49 @@ export function SchoolDetail({ slug }: { slug: string }) {
                   </div>
                 )}
 
+                {/* Summer Programs: the photo band, then the two cards built
+                    from the structured program layer in the fixed order set by
+                    SUMMER_CARDS.
+
+                    The band renders only where real, sourced photographs of the
+                    school's summer exist, and nothing at all otherwise — see
+                    the SummerPhotoBand docstring. It sits above the cards
+                    because it is section-level context, not a card's content.
+
+                    A school with camps but no published rates omits the Cost
+                    Planner rather than rendering a planner that cannot total
+                    anything. */}
+                {ready && t.slug === 'summer-programs' && summer && (
+                  <>
+                    {summer.photos && <SummerPhotoBand photos={summer.photos} />}
+                    <div className="note-cards">
+                      {suCards.map((card) => (
+                        <details
+                          key={card.key}
+                          className="note-card note-card-report note-card-su"
+                        >
+                          <BlueprintCorners />
+                          <summary>
+                            <span className="note-card-head">
+                              <span className="topic-title">{cardTitle(tr, 'summer-programs', card.key, card.title)}</span>
+                              <span className="topic-teaser">
+                                {summer[card.key]!.headline}
+                              </span>
+                            </span>
+                            <span className="plusmark"><PlusIcon /></span>
+                          </summary>
+                          <div className="note-card-body">
+                            <SummerProgramsCardBody
+                              program={summer}
+                              cardKey={card.key}
+                            />
+                          </div>
+                        </details>
+                      ))}
+                    </div>
+                  </>
+                )}
+
                 <div className="note-cards">
                   {/* Student Clubs: the three redesigned cards, in the fixed
                       1a–1c order, ahead of the two prose cards that remain.
@@ -913,7 +993,8 @@ export function SchoolDetail({ slug }: { slug: string }) {
                     (t.slug === 'sports' && sports) ||
                     (t.slug === 'the-arts' && arts) ||
                     (t.slug === 'college-support' && collegeSupport) ||
-                    (t.slug === 'after-school' && afterSchool)
+                    (t.slug === 'after-school' && afterSchool) ||
+                    (t.slug === 'summer-programs' && summer)
                       ? []
                       : groups
                   ).map((g) => {

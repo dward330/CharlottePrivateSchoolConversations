@@ -63,6 +63,22 @@ const RULES: Record<string, Rule[]> = {
     { match: /pricing|cost/i, key: 'in-depth-report', label: 'In-Depth Report' },
     { match: /deep research/i, key: 'in-depth-report', label: 'In-Depth Report' },
   ],
+  'summer-programs': [
+    // Summer Programs renders as two consolidated cards driven by
+    // data/summerPrograms.ts, not by the ingested prose (the same full
+    // substitution as Sports, The Arts, College Support and After School). The
+    // research file is one long document per school whose headings the content
+    // builder slices into many subtopics ("Camp Catalog", "Rates & Add-ons",
+    // "Season & Facilities", …). This single rule folds every one of those
+    // slices onto one key so they cannot slugify into orphan prose cards — the
+    // whole topic is rendered by the structured cards, so there is nothing a
+    // second key could usefully separate.
+    {
+      match: /.*/,
+      key: 'redesign-research',
+      label: 'Summer Programs Research Dossier (2026)',
+    },
+  ],
   // The deep-dive report is rendered by a dedicated component keyed to
   // 'in-depth-report' (see pages/SchoolDetail.tsx), so it must land on that key.
   // The tuition-history provenance file arrives as one section per markdown
@@ -194,7 +210,8 @@ const TOPIC_ORDER: string[] = [
   'the-arts',
   'sports',
   'college-support',
-  'after-school'
+  'after-school',
+  'summer-programs'
 ]
 
 /** Stable-sort topic slugs into the explicit TOPIC_ORDER; unlisted slugs keep order. */

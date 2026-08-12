@@ -59,6 +59,14 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Davidson Day School](student-clubs/davidson-day.md) — 9 docs
 - [Providence Day School](student-clubs/providence-day.md) — 8 docs
 
+### Summer Programs (`summer-programs/`)
+
+- [Cannon School](summer-programs/cannon.md) — 1 docs
+- [Charlotte Christian School](summer-programs/charlotte-christian.md) — 1 docs
+- [Charlotte Country Day School](summer-programs/charlotte-country-day.md) — 1 docs
+- [Charlotte Latin School](summer-programs/charlotte-latin.md) — 1 docs
+- [Providence Day School](summer-programs/providence-day.md) — 1 docs
+
 ### The Arts (`the-arts/`)
 
 - [Cannon School](the-arts/cannon.md) — 8 docs
@@ -70,4 +78,4 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 
 ## Data layer
-- `src/data/schools.json` — 298 documents across 7 topics and 6 schools.
+- `src/data/schools.json` — 303 documents across 8 topics and 6 schools.
