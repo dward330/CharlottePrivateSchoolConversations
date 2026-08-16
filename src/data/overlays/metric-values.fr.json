@@ -182,8 +182,8 @@
       "of": "3d0cb547",
       "at": [
         "providence-day:[2].values.cannon",
-        "providence-day:[23].values.charlotte-country-day",
-        "providence-day:[27].values.charlotte-christian"
+        "providence-day:[24].values.charlotte-country-day",
+        "providence-day:[28].values.charlotte-christian"
       ]
     },
     {
@@ -200,9 +200,9 @@
       "at": [
         "providence-day:[2].values.charlotte-country-day",
         "providence-day:[2].values.davidson-day",
-        "providence-day:[23].values.providence-day",
-        "providence-day:[27].values.charlotte-country-day",
-        "providence-day:[28].values.davidson-day"
+        "providence-day:[24].values.providence-day",
+        "providence-day:[28].values.charlotte-country-day",
+        "providence-day:[29].values.davidson-day"
       ]
     },
     {
@@ -1511,7 +1511,7 @@
       "of": "88f291a0",
       "at": [
         "providence-day:[19].values.charlotte-latin",
-        "providence-day:[28].values.charlotte-country-day"
+        "providence-day:[29].values.charlotte-country-day"
       ]
     },
     {
@@ -1751,7 +1751,22 @@
       "at": [
         "providence-day:[22].values.charlotte-country-day",
         "providence-day:[22].values.charlotte-latin",
-        "providence-day:[22].values.davidson-day"
+        "providence-day:[22].values.davidson-day",
+        "providence-day:[22].values.cannon"
+      ]
+    },
+    {
+      "t": "L’After School Program JrK–8 fonctionne de 3:00 à 6:00 p.m. les jours normaux. Les jours de sortie anticipée, il fonctionne de 11:45 a.m. à 4:00 p.m. et se termine deux heures plus tôt que les 6:00 indiquées ici.",
+      "of": "b1268c11",
+      "at": [
+        "providence-day:[22].quals.cannon.text"
+      ]
+    },
+    {
+      "t": "Les deux divisions diffèrent, donc aucun horaire unique ne convient : l’Extended Day de la Lower School (JK–4) va jusqu’à 6:00 p.m., tandis que celui de la Middle School se termine à 5:00 p.m., une heure entière plus tôt.",
+      "of": "f1050e01",
+      "at": [
+        "providence-day:[22].quals.charlotte-christian.text"
       ]
     },
     {
@@ -1776,390 +1791,509 @@
       ]
     },
     {
+      "t": "Coût de la garde périscolaire",
+      "of": "bafb4f23",
+      "at": [
+        "providence-day:[23].label"
+      ]
+    },
+    {
+      "t": "La formule publiée la plus chère : la tranche de niveaux la plus coûteuse, à l’horaire de sortie le plus tardif, cinq jours par semaine. Chaque cellule affiche un coût mensuel avec le total annuel en dessous. Les écoles facturent sur des périodes différentes — mensuelle, semestrielle, annuelle — le signe ≈ marque donc le chiffre que nous avons converti et non celui que publie l’école, en supposant une année scolaire de 10 mois. Lisez les notes de chaque cellule avant de comparer. Tarifs 2026–27, sauf ceux de Cannon, qui datent de 2025–26.",
+      "of": "459a5728",
+      "at": [
+        "providence-day:[23].note"
+      ]
+    },
+    {
+      "t": "≈$378/mois",
+      "of": "12060e16",
+      "at": [
+        "providence-day:[23].values.cannon"
+      ]
+    },
+    {
+      "t": "$325/mois",
+      "of": "78207236",
+      "at": [
+        "providence-day:[23].values.charlotte-christian"
+      ]
+    },
+    {
+      "t": "$900/mois",
+      "of": "07338e8f",
+      "at": [
+        "providence-day:[23].values.charlotte-country-day"
+      ]
+    },
+    {
+      "t": "≈$930/mois",
+      "of": "5a8ce014",
+      "at": [
+        "providence-day:[23].values.charlotte-latin"
+      ]
+    },
+    {
+      "t": "$750/mois",
+      "of": "d147bcce",
+      "at": [
+        "providence-day:[23].values.providence-day"
+      ]
+    },
+    {
+      "t": "$3,784/an",
+      "of": "f1cd0645",
+      "at": [
+        "providence-day:[23].subs.cannon"
+      ]
+    },
+    {
+      "t": "≈$3,250/an",
+      "of": "c5df3b81",
+      "at": [
+        "providence-day:[23].subs.charlotte-christian"
+      ]
+    },
+    {
+      "t": "≈$9,000/an",
+      "of": "4d4cf8b6",
+      "at": [
+        "providence-day:[23].subs.charlotte-country-day"
+      ]
+    },
+    {
+      "t": "$9,300/an",
+      "of": "a629cde3",
+      "at": [
+        "providence-day:[23].subs.charlotte-latin"
+      ]
+    },
+    {
+      "t": "≈$7,500/an",
+      "of": "ff10409d",
+      "at": [
+        "providence-day:[23].subs.providence-day"
+      ]
+    },
+    {
+      "t": "Cannon publie un seul prix annuel, $3,784 — le chiffre mensuel ci-dessus est ce montant réparti sur 10 mois, et non un tarif annoncé par l’école. Il couvre l’After School Program JrK–8, de 3:00 à 6:00 p.m. (3 heures), cinq jours par semaine, aux tarifs 2025–26 : la seule école ici qui ne soit pas en 2026–27, car la page portant la grille tarifaire n’est plus liée publiquement.",
+      "of": "a2b60be7",
+      "at": [
+        "providence-day:[23].quals.cannon.text"
+      ]
+    },
+    {
+      "t": "Extended Day de JK à la classe 4 jusqu’à 6:00 p.m., cinq jours par semaine, facturé mensuellement à $325 pour 2026–27 ; le total annuel suppose 10 mois de facturation. Les tarifs ont augmenté de 32–52% par rapport à 2024–25, et la Middle School n’entre pas dans ce chiffre car elle facture à l’heure ($8/h, jusqu’à 5:00 p.m.).",
+      "of": "34914993",
+      "at": [
+        "providence-day:[23].quals.charlotte-christian.text"
+      ]
+    },
+    {
+      "t": "Junior Kindergarten à l’horaire de 6:00 p.m., cinq jours par semaine, facturé mensuellement à $900 — le total annuel suppose 10 mois, ce que l’école ne publie pas. JK sort à 1:15 p.m., ce qui couvre donc environ 4.75 heures par jour ; les classes 1–4 au même horaire de 6:00 p.m. coûtent $610/mois.",
+      "of": "bfd505a4",
+      "at": [
+        "providence-day:[23].quals.charlotte-country-day.text"
+      ]
+    },
+    {
+      "t": "Latin facture au semestre, $4,650 deux fois par an — le chiffre mensuel ci-dessus correspond à ces $9,300 répartis sur 10 mois, et non à un tarif annoncé par l’école. Il couvre TK/K à l’horaire de 1:30 à 6:00 p.m. cinq jours par semaine ; TK et Kindergarten sortent à 1:30 p.m., ce qui couvre donc 4.5 heures par jour, plus que tout autre chiffre à côté. Les classes 1–5 à leur horaire de 2:55 à 6:00 p.m. coûtent $3,000 par semestre.",
+      "of": "761a11d0",
+      "at": [
+        "providence-day:[23].quals.charlotte-latin.text"
+      ]
+    },
+    {
+      "t": "Transitional Kindergarten à l’horaire de 1 à 6 p.m., cinq jours par semaine, facturé mensuellement à $750 ; le total annuel suppose 10 mois, et l’école indique explicitement qu’elle ne publie pas son nombre de mois de facturation. TK sort à 1:00 p.m., ce qui couvre donc 5 heures par jour ; les classes 1–5 de 3 à 6 p.m. coûtent $470/mois, et il n’existe aucune option à la carte.",
+      "of": "16104bd6",
+      "at": [
+        "providence-day:[23].quals.providence-day.text"
+      ]
+    },
+    {
       "t": "Semaines de camp d’été",
       "of": "4e40c309",
       "at": [
-        "providence-day:[23].label"
+        "providence-day:[24].label"
       ]
     },
     {
       "t": "Nombre de semaines de camp que l’école organise à l’été 2026, semaines écourtées par les jours fériés comprises. Une saison plus longue, ce sont plus de semaines qu’une famille peut couvrir.",
       "of": "473a9df1",
       "at": [
-        "providence-day:[23].note"
+        "providence-day:[24].note"
       ]
     },
     {
       "t": "7",
       "of": "320ca3f6",
       "at": [
-        "providence-day:[23].values.cannon",
-        "providence-day:[23].values.charlotte-latin"
+        "providence-day:[24].values.cannon",
+        "providence-day:[24].values.charlotte-latin"
       ]
     },
     {
       "t": "6",
       "of": "330ca589",
       "at": [
-        "providence-day:[23].values.charlotte-christian"
+        "providence-day:[24].values.charlotte-christian"
       ]
     },
     {
       "t": "Huit semaines, y compris la semaine « Pre-Camp » du 1-5 juin, qui compte 9 camps tarifés. La page d’été de l’école elle-même présente la saison comme les sept semaines à partir du 8 juin.",
       "of": "e9f9e019",
       "at": [
-        "providence-day:[23].quals.charlotte-country-day.text"
+        "providence-day:[24].quals.charlotte-country-day.text"
       ]
     },
     {
       "t": "Six semaines, mais pas consécutives : l’école observe une pause de deux semaines autour du 4 juillet (aucun camp du 29 juin au 3 juillet).",
       "of": "a93f21d0",
       "at": [
-        "providence-day:[23].quals.charlotte-christian.text"
+        "providence-day:[24].quals.charlotte-christian.text"
       ]
     },
     {
       "t": "Camps publiés",
       "of": "d6903fa7",
       "at": [
-        "providence-day:[24].label"
+        "providence-day:[25].label"
       ]
     },
     {
       "t": "Camps proposés dans le catalogue 2026 de l’école elle-même. Les conventions de décompte diffèrent — la plupart des écoles comptent chaque semaine de camp comme une ligne distincte — il faut donc lire les notes de chaque cellule avant de comparer.",
       "of": "bc366956",
       "at": [
-        "providence-day:[24].note"
+        "providence-day:[25].note"
       ]
     },
     {
       "t": "251",
       "of": "26db2743",
       "at": [
-        "providence-day:[24].values.cannon"
+        "providence-day:[25].values.cannon"
       ]
     },
     {
       "t": "133",
       "of": "7a3aae4a",
       "at": [
-        "providence-day:[24].values.charlotte-christian"
+        "providence-day:[25].values.charlotte-christian"
       ]
     },
     {
       "t": "132",
       "of": "7b3aafdd",
       "at": [
-        "providence-day:[24].values.charlotte-country-day"
+        "providence-day:[25].values.charlotte-country-day"
       ]
     },
     {
       "t": "232",
       "of": "27ea3360",
       "at": [
-        "providence-day:[24].values.charlotte-latin"
+        "providence-day:[25].values.charlotte-latin"
       ]
     },
     {
       "t": "170",
       "of": "e130c313",
       "at": [
-        "providence-day:[24].values.providence-day"
+        "providence-day:[25].values.providence-day"
       ]
     },
     {
       "t": "251 offres camp-semaine réparties sur sept semaines, correspondant à environ 180 intitulés de camp distincts. Comptées à partir de la brochure 2026 de 80 pages de l’école elle-même.",
       "of": "94ffcc7f",
       "at": [
-        "providence-day:[24].quals.cannon.text"
+        "providence-day:[25].quals.cannon.text"
       ]
     },
     {
       "t": "232 offres réparties sur sept sessions, issues de 169 intitulés de camp uniques — un camp proposé sur trois sessions est compté trois fois.",
       "of": "7f216eb0",
       "at": [
-        "providence-day:[24].quals.charlotte-latin.text"
+        "providence-day:[25].quals.charlotte-latin.text"
       ]
     },
     {
       "t": "170 lignes tarifées dans la brochure 2026, couvrant 151 noms de camp distincts et 231 offres camp-session au total.",
       "of": "a5300730",
       "at": [
-        "providence-day:[24].quals.providence-day.text"
+        "providence-day:[25].quals.providence-day.text"
       ]
     },
     {
       "t": "132 lignes tarifées, soit environ 85 intitulés de camp distincts. L’école présente par ailleurs le programme comme « plus de 150 options de camp passionnantes », un chiffre que sa liste publique ne détaille pas.",
       "of": "7491b610",
       "at": [
-        "providence-day:[24].quals.charlotte-country-day.text"
+        "providence-day:[25].quals.charlotte-country-day.text"
       ]
     },
     {
       "t": "133 sessions de demi-journée réparties sur six semaines, soit environ 96 camps distincts. Toutes sont des demi-journées de trois heures — l’école ne publie aucun camp à la journée complète.",
       "of": "3910e6df",
       "at": [
-        "providence-day:[24].quals.charlotte-christian.text"
+        "providence-day:[25].quals.charlotte-christian.text"
       ]
     },
     {
       "t": "Âges accueillis",
       "of": "20a1e226",
       "at": [
-        "providence-day:[25].label"
+        "providence-day:[26].label"
       ]
     },
     {
       "t": "L’amplitude que couvre le catalogue d’été de l’école elle-même. Latin et Cannon classent leurs camps par âge ; les autres publient des tranches de niveau scolaire, reprises ici telles que l’école les formule.",
       "of": "4d564628",
       "at": [
-        "providence-day:[25].note"
+        "providence-day:[26].note"
       ]
     },
     {
       "t": "4–18",
       "of": "cca868d1",
       "at": [
-        "providence-day:[25].values.cannon",
-        "providence-day:[25].values.providence-day"
+        "providence-day:[26].values.cannon",
+        "providence-day:[26].values.providence-day"
       ]
     },
     {
       "t": "JK–Grade 12",
       "of": "a9b0c7e9",
       "at": [
-        "providence-day:[25].values.charlotte-christian"
+        "providence-day:[26].values.charlotte-christian"
       ]
     },
     {
       "t": "Âge 4–Grade 12",
       "of": "ba434c7b",
       "at": [
-        "providence-day:[25].values.charlotte-country-day"
+        "providence-day:[26].values.charlotte-country-day"
       ]
     },
     {
       "t": "3.5–18",
       "of": "349c7711",
       "at": [
-        "providence-day:[25].values.charlotte-latin"
+        "providence-day:[26].values.charlotte-latin"
       ]
     },
     {
       "t": "L’école indique que les camps sont « ouverts à tous les campeurs de 3.5 - 18 ans ». L’âge est calculé au 1er août 2026, et tous les campeurs de Pre-K doivent être propres.",
       "of": "e3070636",
       "at": [
-        "providence-day:[25].quals.charlotte-latin.text"
+        "providence-day:[26].quals.charlotte-latin.text"
       ]
     },
     {
       "t": "La brochure précise que les campeurs doivent avoir « au moins quatre ans révolus au 1er janvier 2026 » ; la page About indique des âges de 4.5 à 18 ans. Les deux formulations sont celles de l’école.",
       "of": "2a21488f",
       "at": [
-        "providence-day:[25].quals.providence-day.text"
+        "providence-day:[26].quals.providence-day.text"
       ]
     },
     {
       "t": "La tranche la plus basse publiée dans la liste est Âge 4. Les pages de l’école elle-même divergent sur ce seuil — la page d’été indique 4–18 ans, la page périscolaire 3–18 ans.",
       "of": "ef5848a4",
       "at": [
-        "providence-day:[25].quals.charlotte-country-day.text"
+        "providence-day:[26].quals.charlotte-country-day.text"
       ]
     },
     {
       "t": "Les niveaux indiqués sont ceux de la rentrée 2026-27. Les campeurs de JK doivent avoir eu 4 ans au 1er février 2026.",
       "of": "3f5e77ee",
       "at": [
-        "providence-day:[25].quals.charlotte-christian.text"
+        "providence-day:[26].quals.charlotte-christian.text"
       ]
     },
     {
       "t": "L’école indique que Camp Cannon est « ouvert à tous les enfants de 4 à 18 ans ». Les campeurs doivent être entièrement propres, et seuls les camps correspondant à l’âge de l’enfant apparaissent lors de l’inscription en ligne.",
       "of": "4b131395",
       "at": [
-        "providence-day:[25].quals.cannon.text"
+        "providence-day:[26].quals.cannon.text"
       ]
     },
     {
       "t": "Accueil élargi",
       "of": "2459c4c2",
       "at": [
-        "providence-day:[26].label"
+        "providence-day:[27].label"
       ]
     },
     {
       "t": "De la dépose la plus matinale à la récupération la plus tardive avec les options payantes d’accueil du matin et du soir de l’école — la véritable amplitude d’une journée de camp pour une famille qui travaille.",
       "of": "5701e6ec",
       "at": [
-        "providence-day:[26].note"
+        "providence-day:[27].note"
       ]
     },
     {
       "t": "7:30 a.m.–5:30 p.m.",
       "of": "ed8a2e9b",
       "at": [
-        "providence-day:[26].values.cannon",
-        "providence-day:[26].values.charlotte-latin"
+        "providence-day:[27].values.cannon",
+        "providence-day:[27].values.charlotte-latin"
       ]
     },
     {
       "t": "8:00 a.m.–5:00 p.m.",
       "of": "42437dde",
       "at": [
-        "providence-day:[26].values.charlotte-christian"
+        "providence-day:[27].values.charlotte-christian"
       ]
     },
     {
       "t": "7:30 a.m.–5:00 p.m.",
       "of": "792cd57e",
       "at": [
-        "providence-day:[26].values.charlotte-country-day"
+        "providence-day:[27].values.charlotte-country-day"
       ]
     },
     {
       "t": "7:00 a.m.–6:00 p.m.",
       "of": "9b4038c2",
       "at": [
-        "providence-day:[26].values.providence-day"
+        "providence-day:[27].values.providence-day"
       ]
     },
     {
       "t": "Une amplitude de onze heures, la plus large des cinq — Before Care dès 7am et After Care jusqu’à 6pm, à $120/semaine chacun, ou $220/semaine en formule groupée Complete Care.",
       "of": "5f49f081",
       "at": [
-        "providence-day:[26].quals.providence-day.text"
+        "providence-day:[27].quals.providence-day.text"
       ]
     },
     {
       "t": "Une amplitude de neuf heures. Comme chaque camp est à la demi-journée, couvrir une journée de travail complète suppose d’inscrire l’enfant à un camp du matin ET à un camp de l’après-midi ; l’accueil relais entre les deux, de midi à 1 p.m., est gratuit.",
       "of": "107eb4f8",
       "at": [
-        "providence-day:[26].quals.charlotte-christian.text"
+        "providence-day:[27].quals.charlotte-christian.text"
       ]
     },
     {
       "t": "Une amplitude de dix heures : Before Care dès 7:30 am à $50/semaine et After Care jusqu’à 5:30 pm à $60/semaine, ou $90/semaine pour les deux. Le camp lui-même se déroule de 9:00 à 4:00.",
       "of": "c70f383c",
       "at": [
-        "providence-day:[26].quals.cannon.text"
+        "providence-day:[27].quals.cannon.text"
       ]
     },
     {
       "t": "Une amplitude de dix heures. Le Before Care va de 7:30 à 8:15 am ($70.00/semaine) et l’After Care jusqu’à 5:30 pm ($150.00/semaine) ; la formule Super Care coûte $195.00/semaine. La récupération tardive est facturée $25.00 par tranche de 15 minutes.",
       "of": "5a5e0dc4",
       "at": [
-        "providence-day:[26].quals.charlotte-latin.text"
+        "providence-day:[27].quals.charlotte-latin.text"
       ]
     },
     {
       "t": "Une amplitude de neuf heures et demie : Morning Care dès 7:30 am ($105/semaine) et Afternoon Care jusqu’à 5 pm ($85/semaine), ou $160/semaine en formule groupée Super Care. La récupération tardive est facturée $1/minute après 5 pm.",
       "of": "e8bfeef8",
       "at": [
-        "providence-day:[26].quals.charlotte-country-day.text"
+        "providence-day:[27].quals.charlotte-country-day.text"
       ]
     },
     {
       "t": "Engagements Power 4",
       "of": "1f2f8490",
       "at": [
-        "providence-day:[27].label"
+        "providence-day:[28].label"
       ]
     },
     {
       "t": "Athlètes distincts engagés auprès d’un programme SEC / Big Ten / ACC / Big 12, promotions 2024–2026. Minimum documenté.",
       "of": "4b7d536c",
       "at": [
-        "providence-day:[27].note"
+        "providence-day:[28].note"
       ]
     },
     {
       "t": "1",
       "of": "340ca71c",
       "at": [
-        "providence-day:[27].values.cannon"
+        "providence-day:[28].values.cannon"
       ]
     },
     {
       "t": "3",
       "of": "360caa42",
       "at": [
-        "providence-day:[27].values.charlotte-latin",
-        "providence-day:[27].values.davidson-day",
-        "providence-day:[28].values.cannon"
+        "providence-day:[28].values.charlotte-latin",
+        "providence-day:[28].values.davidson-day",
+        "providence-day:[29].values.cannon"
       ]
     },
     {
       "t": "17",
       "of": "1aeb28b1",
       "at": [
-        "providence-day:[27].values.providence-day"
+        "providence-day:[28].values.providence-day"
       ]
     },
     {
       "t": "Un minimum documenté. Plusieurs des athlètes les plus connus de Cannon se sont engagés en dehors de la fenêtre 2024–26 et ne sont donc pas comptés ici.",
       "of": "0d7ecf77",
       "at": [
-        "providence-day:[27].quals.cannon.text",
-        "providence-day:[28].quals.cannon.text"
+        "providence-day:[28].quals.cannon.text",
+        "providence-day:[29].quals.cannon.text"
       ]
     },
     {
       "t": "Un minimum documenté : la liste publique des engagements de l’école va jusqu’en 2025, et sa Class of 2026 n’est pas encore établie.",
       "of": "58bba487",
       "at": [
-        "providence-day:[27].quals.charlotte-christian.text",
-        "providence-day:[28].quals.charlotte-christian.text"
+        "providence-day:[28].quals.charlotte-christian.text",
+        "providence-day:[29].quals.charlotte-christian.text"
       ]
     },
     {
       "t": "Un minimum documenté. Les classes académiquement exigeantes de Charlotte Latin orientent de nombreux athlètes vers la Division III, et ses listes de signatures de novembre sont partielles.",
       "of": "cb967194",
       "at": [
-        "providence-day:[27].quals.charlotte-latin.text",
-        "providence-day:[28].quals.charlotte-latin.text"
+        "providence-day:[28].quals.charlotte-latin.text",
+        "providence-day:[29].quals.charlotte-latin.text"
       ]
     },
     {
       "t": "Un minimum documenté ; les Classes of 2024 et 2026 sont sous-documentées pour Davidson Day.",
       "of": "22ec0adc",
       "at": [
-        "providence-day:[27].quals.davidson-day.text",
-        "providence-day:[28].quals.davidson-day.text"
+        "providence-day:[28].quals.davidson-day.text",
+        "providence-day:[29].quals.davidson-day.text"
       ]
     },
     {
       "t": "Engagements Division I",
       "of": "ce720efb",
       "at": [
-        "providence-day:[28].label"
+        "providence-day:[29].label"
       ]
     },
     {
       "t": "Athlètes distincts engagés auprès d’un programme NCAA Division I quel qu’il soit, promotions 2024–2026 (inclut le décompte Power 4 ci-dessus). Minimum documenté.",
       "of": "53ecb641",
       "at": [
-        "providence-day:[28].note"
+        "providence-day:[29].note"
       ]
     },
     {
       "t": "26",
       "of": "8bf29659",
       "at": [
-        "providence-day:[28].values.charlotte-christian"
+        "providence-day:[29].values.charlotte-christian"
       ]
     },
     {
       "t": "14",
       "of": "17eb23f8",
       "at": [
-        "providence-day:[28].values.charlotte-latin"
+        "providence-day:[29].values.charlotte-latin"
       ]
     },
     {
       "t": "39",
       "of": "90f05fa1",
       "at": [
-        "providence-day:[28].values.providence-day"
+        "providence-day:[29].values.providence-day"
       ]
     }
   ]

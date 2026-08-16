@@ -337,6 +337,17 @@ export const PATH_OVERRIDES = new Map([
   ['values.charlotte-country-day', true],
   ['values.cannon', true],
   ['values.davidson-day', true],
+  // The second display line under a value (metricValues.ts `subs`) — same money
+  // in the other billing period, e.g. "≈$3,250/yr" under "$325/mo". Same shape and
+  // same reason as `values` above: the digits round-trip untouched, but the `/yr`
+  // and `/mo` suffixes are English abbreviations a reader reads, so they must move.
+  // Keyed per slug because the path matcher only does suffix matching.
+  ['subs.providence-day', true],
+  ['subs.charlotte-latin', true],
+  ['subs.charlotte-christian', true],
+  ['subs.charlotte-country-day', true],
+  ['subs.cannon', true],
+  ['subs.davidson-day', true],
   // Per-cell provenance tooltips (metricValues.ts `quals`). The `.text` leaf is
   // prose (translated); the `.kind` leaf is an ENUM KEY resolved through the
   // locale catalogs (compare.qual.*), NOT display text — it must NOT be extracted.

@@ -65,6 +65,16 @@ function bidiIsolate(s: string): string {
 }
 
 /**
+ * Drop an isolate `money()` already applied, so a caller that needs to prepend
+ * something INSIDE the isolate (the leading ≈ on an estimated figure) can
+ * re-wrap the whole run once instead of nesting one isolate inside another.
+ * No-op in LTR, where bidiIsolate() added nothing in the first place.
+ */
+function stripIsolate(s: string): string {
+  return s.startsWith(LRI) && s.endsWith(PDI) ? s.slice(LRI.length, -PDI.length) : s
+}
+
+/**
  * Figures that money handling never touches, and which REORDER in RTL prose.
  *
  * `localizeMoneyText()` only rewrites "$"-prefixed runs. Everything else in the
@@ -251,20 +261,25 @@ function localizeUnits(text: string): string {
  */
 export function localizeMoneyText(text: string): string {
   if (!text.includes('$')) return isolateNeutralFigures(localizeUnits(text))
-  const withMoney = text.replace(/\$(\d[\d,]*(?:\.\d+)?)([KM])?/g, (whole, digits: string, suffix?: string) => {
+  // The optional leading ≈ is captured so it travels INSIDE the bidi isolate.
+  // Left outside, it is a neutral character that RTL reorders to the far edge —
+  // "≈$378/mo" rendered "$378/ماه≈" in Farsi, reading as a trailing symbol
+  // rather than "about". Same class as the $ and en-dash cases above it.
+  const withMoney = text.replace(/(≈)?\$(\d[\d,]*(?:\.\d+)?)([KM])?/g, (whole, approx: string | undefined, digits: string, suffix?: string) => {
     const n = Number(digits.replace(/,/g, ''))
     if (!Number.isFinite(n)) return whole
+    const near = approx ?? ''
     if (suffix) {
       // Keep the magnitude letter; localize only the number in front of it.
       // Both the placement AND the symbol come from Intl — see currencySymbol().
       const sym = currencySymbol()
       return bidiIsolate(
         currencyLeads()
-          ? `${sym}${number(n)}${suffix}`
-          : `${number(n)} ${suffix} ${sym}`,
+          ? `${near}${sym}${number(n)}${suffix}`
+          : `${near}${number(n)} ${suffix} ${sym}`,
       )
     }
-    return money(n)
+    return near ? bidiIsolate(`${near}${stripIsolate(money(n))}`) : money(n)
   })
   return isolateNeutralFigures(localizeUnits(withMoney))
 }

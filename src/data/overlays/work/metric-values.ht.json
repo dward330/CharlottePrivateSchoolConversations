@@ -209,8 +209,8 @@
       "of": "3d0cb547",
       "at": [
         "providence-day:[2].values.cannon",
-        "providence-day:[23].values.charlotte-country-day",
-        "providence-day:[27].values.charlotte-christian"
+        "providence-day:[24].values.charlotte-country-day",
+        "providence-day:[28].values.charlotte-christian"
       ],
       "t": "8"
     },
@@ -229,9 +229,9 @@
       "at": [
         "providence-day:[2].values.charlotte-country-day",
         "providence-day:[2].values.davidson-day",
-        "providence-day:[23].values.providence-day",
-        "providence-day:[27].values.charlotte-country-day",
-        "providence-day:[28].values.davidson-day"
+        "providence-day:[24].values.providence-day",
+        "providence-day:[28].values.charlotte-country-day",
+        "providence-day:[29].values.davidson-day"
       ],
       "t": "9"
     },
@@ -1726,7 +1726,7 @@
       "of": "88f291a0",
       "at": [
         "providence-day:[19].values.charlotte-latin",
-        "providence-day:[28].values.charlotte-country-day"
+        "providence-day:[29].values.charlotte-country-day"
       ],
       "t": "25"
     },
@@ -2000,9 +2000,26 @@
       "at": [
         "providence-day:[22].values.charlotte-country-day",
         "providence-day:[22].values.charlotte-latin",
-        "providence-day:[22].values.davidson-day"
+        "providence-day:[22].values.davidson-day",
+        "providence-day:[22].values.cannon"
       ],
       "t": "6:00 PM"
+    },
+    {
+      "text": "The JrK–8 After School Program runs 3:00–6:00 p.m. on regular days. On early-dismissal days it runs 11:45 a.m.–4:00 p.m., ending two hours earlier than the 6:00 shown here.",
+      "of": "b1268c11",
+      "at": [
+        "providence-day:[22].quals.cannon.text"
+      ],
+      "t": "After School Program JrK–8 la fonksyone 3:00–6:00 p.m. nan jou nòmal yo. Nan jou lekòl lage bonè, li fonksyone 11:45 a.m.–4:00 p.m., li fini de èdtan pi bonè pase 6:00 ki make isit la."
+    },
+    {
+      "text": "The two divisions differ, so no single time fits: Lower School Extended Day (JK–4) runs to 6:00 p.m., while Middle School Extended Day ends at 5:00 p.m., a full hour earlier.",
+      "of": "f1050e01",
+      "at": [
+        "providence-day:[22].quals.charlotte-christian.text"
+      ],
+      "t": "De divizyon yo pa menm, kidonk pa gen yon sèl lè ki kòrèk: Extended Day Lower School la (JK–4) rive jiska 6:00 p.m., tandiske Extended Day Middle School la fini 5:00 p.m., yon bon inèdtan pi bonè."
     },
     {
       "text": "The Lower School’s Structured Care program runs until 6:00 p.m. Confirm current hours with the school.",
@@ -2029,10 +2046,146 @@
       "t": "Extended Care Lower School la ale 2:45–6:00 p.m. Konfime lè aktyèl yo ak lekòl la."
     },
     {
+      "text": "Cost of after-school care",
+      "of": "bafb4f23",
+      "at": [
+        "providence-day:[23].label"
+      ],
+      "t": "Konbyen gadri apre lekòl koute"
+    },
+    {
+      "text": "The most expensive published arrangement: the highest-priced grade band, at the latest pickup tier, five days a week. Each cell shows a monthly cost with the year’s total beneath it. The schools bill in different periods — monthly, per semester, annually — so a ≈ marks the figure we converted rather than the one that school publishes, assuming a 10-month school year. Read the per-cell notes before comparing. 2026–27 rates, except Cannon’s 2025–26.",
+      "of": "459a5728",
+      "at": [
+        "providence-day:[23].note"
+      ],
+      "t": "Fòmil ki pi chè yo pibliye a: gwoup klas ki pi chè a, nan lè ranmasaj ki pi ta a, senk jou pa semèn. Chak kaz montre yon pri chak mwa ak total ane a anba li. Lekòl yo fakture sou peryòd diferan — chak mwa, chak semès, chak ane — kidonk siy ≈ la make chif nou menm nou konvèti a, pa sa lekòl la pibliye, sou baz yon ane lekòl 10 mwa. Li nòt chak kaz anvan ou konpare. Tarif 2026–27, eksepte sa Cannon yo, ki se 2025–26."
+    },
+    {
+      "text": "≈$378/mo",
+      "of": "12060e16",
+      "at": [
+        "providence-day:[23].values.cannon"
+      ],
+      "t": "≈$378/mwa"
+    },
+    {
+      "text": "$325/mo",
+      "of": "78207236",
+      "at": [
+        "providence-day:[23].values.charlotte-christian"
+      ],
+      "t": "$325/mwa"
+    },
+    {
+      "text": "$900/mo",
+      "of": "07338e8f",
+      "at": [
+        "providence-day:[23].values.charlotte-country-day"
+      ],
+      "t": "$900/mwa"
+    },
+    {
+      "text": "≈$930/mo",
+      "of": "5a8ce014",
+      "at": [
+        "providence-day:[23].values.charlotte-latin"
+      ],
+      "t": "≈$930/mwa"
+    },
+    {
+      "text": "$750/mo",
+      "of": "d147bcce",
+      "at": [
+        "providence-day:[23].values.providence-day"
+      ],
+      "t": "$750/mwa"
+    },
+    {
+      "text": "$3,784/yr",
+      "of": "f1cd0645",
+      "at": [
+        "providence-day:[23].subs.cannon"
+      ],
+      "t": "$3,784/ane"
+    },
+    {
+      "text": "≈$3,250/yr",
+      "of": "c5df3b81",
+      "at": [
+        "providence-day:[23].subs.charlotte-christian"
+      ],
+      "t": "≈$3,250/ane"
+    },
+    {
+      "text": "≈$9,000/yr",
+      "of": "4d4cf8b6",
+      "at": [
+        "providence-day:[23].subs.charlotte-country-day"
+      ],
+      "t": "≈$9,000/ane"
+    },
+    {
+      "text": "$9,300/yr",
+      "of": "a629cde3",
+      "at": [
+        "providence-day:[23].subs.charlotte-latin"
+      ],
+      "t": "$9,300/ane"
+    },
+    {
+      "text": "≈$7,500/yr",
+      "of": "ff10409d",
+      "at": [
+        "providence-day:[23].subs.providence-day"
+      ],
+      "t": "≈$7,500/ane"
+    },
+    {
+      "text": "Cannon publishes one annual price, $3,784 — the monthly figure above is that spread over 10 months, not a rate the school quotes. It buys the JrK–8 After School Program, 3:00–6:00 p.m. (3 hours) five days a week, at 2025–26 rates: the only school here not on 2026–27, because the page carrying the rate card is no longer publicly linked.",
+      "of": "a2b60be7",
+      "at": [
+        "providence-day:[23].quals.cannon.text"
+      ],
+      "t": "Cannon pibliye yon sèl pri anyèl, $3,784 — chif chak mwa anwo a se montan sa a separe sou 10 mwa, se pa yon tarif lekòl la bay. Li kouvri After School Program JrK–8 la, 3:00–6:00 p.m. (3 èdtan), senk jou pa semèn, ak tarif 2025–26: se sèl lekòl isit la ki pa sou 2026–27, paske paj ki gen lis pri a pa gen lyen piblik ankò."
+    },
+    {
+      "text": "JK–Grade 4 Extended Day to 6:00 p.m., five days a week, billed monthly at $325 for 2026–27; the yearly total assumes 10 billing months. Rates rose 32–52% over 2024–25, and Middle School is not in this figure because it bills by the hour ($8/hr, ending at 5:00 p.m.).",
+      "of": "34914993",
+      "at": [
+        "providence-day:[23].quals.charlotte-christian.text"
+      ],
+      "t": "Extended Day depi JK rive klas 4 jiska 6:00 p.m., senk jou pa semèn, fakture chak mwa a $325 pou 2026–27; total ane a sipoze 10 mwa faktirasyon. Tarif yo monte 32–52% depi 2024–25, epi Middle School pa ladan chif sa a paske li fakture pa èdtan ($8/èdtan, jiska 5:00 p.m.)."
+    },
+    {
+      "text": "Junior Kindergarten at the 6:00 p.m. tier, five days a week, billed monthly at $900 — the yearly total assumes 10 months, which the school does not publish. JK dismisses at 1:15 p.m., so this buys roughly 4.75 hours a day; Grades 1–4 at the same 6:00 p.m. tier is $610/mo.",
+      "of": "bfd505a4",
+      "at": [
+        "providence-day:[23].quals.charlotte-country-day.text"
+      ],
+      "t": "Junior Kindergarten nan lè 6:00 p.m. la, senk jou pa semèn, fakture chak mwa a $900 — total ane a sipoze 10 mwa, yon bagay lekòl la pa pibliye. JK lage 1:15 p.m., kidonk sa kouvri anviwon 4.75 èdtan pa jou; klas 1–4 nan menm lè 6:00 p.m. la se $610/mwa."
+    },
+    {
+      "text": "Latin bills per semester, $4,650 twice a year — the monthly figure above is that $9,300 spread over 10 months, not a rate the school quotes. It covers TK/K at the 1:30–6:00 p.m. tier five days a week; TK and Kindergarten dismiss at 1:30 p.m., so this buys 4.5 hours a day, more than any figure beside it. Grades 1–5 at their 2:55–6:00 p.m. tier is $3,000 a semester.",
+      "of": "761a11d0",
+      "at": [
+        "providence-day:[23].quals.charlotte-latin.text"
+      ],
+      "t": "Latin fakture pa semès, $4,650 de fwa pa ane — chif chak mwa anwo a se $9,300 sa a separe sou 10 mwa, se pa yon tarif lekòl la bay. Li kouvri TK/K nan lè 1:30–6:00 p.m. la senk jou pa semèn; TK ak Kindergarten lage 1:30 p.m., kidonk sa kouvri 4.5 èdtan pa jou, plis pase nenpòt chif akote l. Klas 1–5 nan lè 2:55–6:00 p.m. pa yo se $3,000 pa semès."
+    },
+    {
+      "text": "Transitional Kindergarten at the 1–6 p.m. tier, five days a week, billed monthly at $750; the yearly total assumes 10 months, and the school states outright that its number of billing months is not published. TK dismisses at 1:00 p.m., so this covers 5 hours a day; Grades 1–5 at 3–6 p.m. is $470/mo, and there is no drop-in option.",
+      "of": "16104bd6",
+      "at": [
+        "providence-day:[23].quals.providence-day.text"
+      ],
+      "t": "Transitional Kindergarten nan lè 1–6 p.m. la, senk jou pa semèn, fakture chak mwa a $750; total ane a sipoze 10 mwa, epi lekòl la di klè li pa pibliye konbyen mwa li fakture. TK lage 1:00 p.m., kidonk sa kouvri 5 èdtan pa jou; klas 1–5 depi 3 rive 6 p.m. se $470/mwa, epi pa gen opsyon vini yon jou konsa."
+    },
+    {
       "text": "Weeks of summer camp",
       "of": "4e40c309",
       "at": [
-        "providence-day:[23].label"
+        "providence-day:[24].label"
       ],
       "t": "Semèn kan ete"
     },
@@ -2040,7 +2193,7 @@
       "text": "Number of camp weeks the school runs in summer 2026, counting shortened holiday weeks. A longer season is more weeks a family can cover.",
       "of": "473a9df1",
       "at": [
-        "providence-day:[23].note"
+        "providence-day:[24].note"
       ],
       "t": "Kantite semèn kan lekòl la fè nan ete 2026 la, ansanm ak semèn ki pi kout akòz jou fèt. Yon sezon ki pi long se plis semèn yon fanmi ka kouvri."
     },
@@ -2048,8 +2201,8 @@
       "text": "7",
       "of": "320ca3f6",
       "at": [
-        "providence-day:[23].values.cannon",
-        "providence-day:[23].values.charlotte-latin"
+        "providence-day:[24].values.cannon",
+        "providence-day:[24].values.charlotte-latin"
       ],
       "t": "7"
     },
@@ -2057,7 +2210,7 @@
       "text": "6",
       "of": "330ca589",
       "at": [
-        "providence-day:[23].values.charlotte-christian"
+        "providence-day:[24].values.charlotte-christian"
       ],
       "t": "6"
     },
@@ -2065,7 +2218,7 @@
       "text": "Eight weeks including the June 1-5 \"Pre-Camp\" week, which carries 9 priced camps. The school’s own summer landing page markets the season as the seven weeks from June 8.",
       "of": "e9f9e019",
       "at": [
-        "providence-day:[23].quals.charlotte-country-day.text"
+        "providence-day:[24].quals.charlotte-country-day.text"
       ],
       "t": "Uit semèn, ansanm ak semèn “Pre-Camp” 1-5 jen an, ki gen 9 kan ki gen pri. Paj ete lekòl la li menm prezante sezon an kòm sèt semèn ki kòmanse 8 jen."
     },
@@ -2073,7 +2226,7 @@
       "text": "Six weeks, but not consecutive: the school takes a two-week break around July 4 (June 29 – July 3 has no camps).",
       "of": "a93f21d0",
       "at": [
-        "providence-day:[23].quals.charlotte-christian.text"
+        "providence-day:[24].quals.charlotte-christian.text"
       ],
       "t": "Sis semèn, men yo pa youn dèyè lòt: lekòl la pran yon poz de semèn otou 4 jiyè (pa gen kan soti 29 jen rive 3 jiyè)."
     },
@@ -2081,7 +2234,7 @@
       "text": "Camps published",
       "of": "d6903fa7",
       "at": [
-        "providence-day:[24].label"
+        "providence-day:[25].label"
       ],
       "t": "Kan ki pibliye"
     },
@@ -2089,7 +2242,7 @@
       "text": "Camp offerings in the school’s own 2026 catalog. Counting conventions differ — most schools count each week a camp runs as a separate row — so read the per-cell notes before comparing.",
       "of": "bc366956",
       "at": [
-        "providence-day:[24].note"
+        "providence-day:[25].note"
       ],
       "t": "Kan lekòl la ofri nan katalòg 2026 pa l la. Konvansyon konte yo diferan — pifò lekòl konte chak semèn yon kan ap fèt kòm yon liy apa — kidonk li nòt chak selil anvan ou konpare."
     },
@@ -2097,7 +2250,7 @@
       "text": "251",
       "of": "26db2743",
       "at": [
-        "providence-day:[24].values.cannon"
+        "providence-day:[25].values.cannon"
       ],
       "t": "251"
     },
@@ -2105,7 +2258,7 @@
       "text": "133",
       "of": "7a3aae4a",
       "at": [
-        "providence-day:[24].values.charlotte-christian"
+        "providence-day:[25].values.charlotte-christian"
       ],
       "t": "133"
     },
@@ -2113,7 +2266,7 @@
       "text": "132",
       "of": "7b3aafdd",
       "at": [
-        "providence-day:[24].values.charlotte-country-day"
+        "providence-day:[25].values.charlotte-country-day"
       ],
       "t": "132"
     },
@@ -2121,7 +2274,7 @@
       "text": "232",
       "of": "27ea3360",
       "at": [
-        "providence-day:[24].values.charlotte-latin"
+        "providence-day:[25].values.charlotte-latin"
       ],
       "t": "232"
     },
@@ -2129,7 +2282,7 @@
       "text": "170",
       "of": "e130c313",
       "at": [
-        "providence-day:[24].values.providence-day"
+        "providence-day:[25].values.providence-day"
       ],
       "t": "170"
     },
@@ -2137,7 +2290,7 @@
       "text": "251 camp-week offerings across seven weeks, representing roughly 180 distinct camp titles. Counted from the school’s own 80-page 2026 brochure.",
       "of": "94ffcc7f",
       "at": [
-        "providence-day:[24].quals.cannon.text"
+        "providence-day:[25].quals.cannon.text"
       ],
       "t": "251 òf kan-semèn sou sèt semèn, ki reprezante anviwon 180 tit kan diferan. Konte apati bwochi 2026 lekòl la li menm ki gen 80 paj."
     },
@@ -2145,7 +2298,7 @@
       "text": "232 offerings across seven sessions, from 169 unique camp titles — a camp running in three sessions is counted three times.",
       "of": "7f216eb0",
       "at": [
-        "providence-day:[24].quals.charlotte-latin.text"
+        "providence-day:[25].quals.charlotte-latin.text"
       ],
       "t": "232 òf sou sèt sesyon, ki soti nan 169 tit kan inik — yon kan k ap fèt nan twa sesyon konte twa fwa."
     },
@@ -2153,7 +2306,7 @@
       "text": "170 priced rows in the 2026 brochure, covering 151 distinct camp names and 231 total camp-session offerings.",
       "of": "a5300730",
       "at": [
-        "providence-day:[24].quals.providence-day.text"
+        "providence-day:[25].quals.providence-day.text"
       ],
       "t": "170 liy ki gen pri nan bwochi 2026 la, ki kouvri 151 non kan diferan ak 231 òf kan-sesyon antou."
     },
@@ -2161,7 +2314,7 @@
       "text": "132 priced rows, roughly 85 distinct camp titles. The school separately markets the program as \"over 150 exciting camp options\", a figure its public listing does not itemize.",
       "of": "7491b610",
       "at": [
-        "providence-day:[24].quals.charlotte-country-day.text"
+        "providence-day:[25].quals.charlotte-country-day.text"
       ],
       "t": "132 liy ki gen pri, anviwon 85 tit kan diferan. Anplis, lekòl la prezante pwogram nan kòm “plis pase 150 opsyon kan pasyonan”, yon chif lis piblik li a pa detaye."
     },
@@ -2169,7 +2322,7 @@
       "text": "133 half-day sessions across six weeks, roughly 96 distinct camps. Every one is a three-hour half-day — the school publishes no full-day camp.",
       "of": "3910e6df",
       "at": [
-        "providence-day:[24].quals.charlotte-christian.text"
+        "providence-day:[25].quals.charlotte-christian.text"
       ],
       "t": "133 sesyon demi-jounen sou sis semèn, anviwon 96 kan diferan. Tout se demi-jounen twa èdtan — lekòl la pa pibliye okenn kan jounen antye."
     },
@@ -2177,7 +2330,7 @@
       "text": "Ages served",
       "of": "20a1e226",
       "at": [
-        "providence-day:[25].label"
+        "providence-day:[26].label"
       ],
       "t": "Laj yo aksepte"
     },
@@ -2185,7 +2338,7 @@
       "text": "The span the school’s own summer catalog covers. Latin and Cannon index camps by age; the others publish grade bands, shown here as the school states them.",
       "of": "4d564628",
       "at": [
-        "providence-day:[25].note"
+        "providence-day:[26].note"
       ],
       "t": "Etandi katalòg ete lekòl la li menm kouvri. Latin ak Cannon klase kan yo pa laj; lòt yo pibliye bann klas, ki parèt isit la jan lekòl la di yo."
     },
@@ -2193,8 +2346,8 @@
       "text": "4–18",
       "of": "cca868d1",
       "at": [
-        "providence-day:[25].values.cannon",
-        "providence-day:[25].values.providence-day"
+        "providence-day:[26].values.cannon",
+        "providence-day:[26].values.providence-day"
       ],
       "t": "4–18"
     },
@@ -2202,7 +2355,7 @@
       "text": "JK–Grade 12",
       "of": "a9b0c7e9",
       "at": [
-        "providence-day:[25].values.charlotte-christian"
+        "providence-day:[26].values.charlotte-christian"
       ],
       "t": "JK–Klas 12"
     },
@@ -2210,7 +2363,7 @@
       "text": "Age 4–Grade 12",
       "of": "ba434c7b",
       "at": [
-        "providence-day:[25].values.charlotte-country-day"
+        "providence-day:[26].values.charlotte-country-day"
       ],
       "t": "Laj 4–Klas 12"
     },
@@ -2218,7 +2371,7 @@
       "text": "3.5–18",
       "of": "349c7711",
       "at": [
-        "providence-day:[25].values.charlotte-latin"
+        "providence-day:[26].values.charlotte-latin"
       ],
       "t": "3.5–18"
     },
@@ -2226,7 +2379,7 @@
       "text": "The school states camps are \"open to all campers ages 3.5 - 18 years old\". Age is calculated as of August 1, 2026, and all Pre-K campers must be toilet trained.",
       "of": "e3070636",
       "at": [
-        "providence-day:[25].quals.charlotte-latin.text"
+        "providence-day:[26].quals.charlotte-latin.text"
       ],
       "t": "Lekòl la di kan yo “ouvè pou tout patisipan ki gen 3.5 - 18 an”. Laj la kalkile jan li ye 1 out 2026, epi tout patisipan Pre-K yo dwe konn al nan twalèt pou kont yo."
     },
@@ -2234,7 +2387,7 @@
       "text": "The brochure says campers must be \"at least four years old by January 1, 2026\"; the About page states ages 4.5 to 18. Both are the school’s own wording.",
       "of": "2a21488f",
       "at": [
-        "providence-day:[25].quals.providence-day.text"
+        "providence-day:[26].quals.providence-day.text"
       ],
       "t": "Bwochi a di patisipan yo dwe gen “otan mwens kat an anvan 1 janvye 2026”; paj About la di laj 4.5 rive 18. Toude se pwòp mo lekòl la."
     },
@@ -2242,7 +2395,7 @@
       "text": "The listing’s lowest published band is Age 4. The school’s own pages disagree on the floor — the summer page says ages 4–18, the after-school page says 3–18.",
       "of": "ef5848a4",
       "at": [
-        "providence-day:[25].quals.charlotte-country-day.text"
+        "providence-day:[26].quals.charlotte-country-day.text"
       ],
       "t": "Bann ki pi ba lis la pibliye se Laj 4. Pwòp paj lekòl la pa dakò sou limit ki pi ba a — paj ete a di laj 4–18, paj apre lekòl la di 3–18."
     },
@@ -2250,7 +2403,7 @@
       "text": "Grades are rising 2026-27. JK campers must have turned 4 by February 1, 2026.",
       "of": "3f5e77ee",
       "at": [
-        "providence-day:[25].quals.charlotte-christian.text"
+        "providence-day:[26].quals.charlotte-christian.text"
       ],
       "t": "Klas yo se sa yo pral fè an 2026-27. Patisipan JK yo dwe gentan gen 4 an anvan 1 fevriye 2026."
     },
@@ -2258,7 +2411,7 @@
       "text": "The school states Camp Cannon is \"open to all children ages 4 to 18\". Campers must be fully potty trained, and only camps matching a child’s age appear during online registration.",
       "of": "4b131395",
       "at": [
-        "providence-day:[25].quals.cannon.text"
+        "providence-day:[26].quals.cannon.text"
       ],
       "t": "Lekòl la di Camp Cannon “ouvè pou tout timoun ki gen 4 rive 18 an”. Patisipan yo dwe konn al nan twalèt nèt pou kont yo, epi se sèlman kan ki koresponn ak laj timoun nan ki parèt pandan enskripsyon an liy."
     },
@@ -2266,7 +2419,7 @@
       "text": "Wrap-around care",
       "of": "2459c4c2",
       "at": [
-        "providence-day:[26].label"
+        "providence-day:[27].label"
       ],
       "t": "Swen anvan ak apre kan"
     },
@@ -2274,7 +2427,7 @@
       "text": "Earliest drop-off to latest pickup with the school’s paid before- and after-care options — the real outer limit of a camp day for a working family.",
       "of": "5701e6ec",
       "at": [
-        "providence-day:[26].note"
+        "providence-day:[27].note"
       ],
       "t": "Depi lè ki pi bonè pou depoze pitit la jiska lè ki pi ta pou vin chèche l ak opsyon swen anvan ak apre kan lekòl la fè peye — vrè limit yon jounen kan pou yon fanmi k ap travay."
     },
@@ -2282,8 +2435,8 @@
       "text": "7:30 AM–5:30 PM",
       "of": "ed8a2e9b",
       "at": [
-        "providence-day:[26].values.cannon",
-        "providence-day:[26].values.charlotte-latin"
+        "providence-day:[27].values.cannon",
+        "providence-day:[27].values.charlotte-latin"
       ],
       "t": "7:30 AM–5:30 PM"
     },
@@ -2291,7 +2444,7 @@
       "text": "8:00 AM–5:00 PM",
       "of": "42437dde",
       "at": [
-        "providence-day:[26].values.charlotte-christian"
+        "providence-day:[27].values.charlotte-christian"
       ],
       "t": "8:00 AM–5:00 PM"
     },
@@ -2299,7 +2452,7 @@
       "text": "7:30 AM–5:00 PM",
       "of": "792cd57e",
       "at": [
-        "providence-day:[26].values.charlotte-country-day"
+        "providence-day:[27].values.charlotte-country-day"
       ],
       "t": "7:30 AM–5:00 PM"
     },
@@ -2307,7 +2460,7 @@
       "text": "7:00 AM–6:00 PM",
       "of": "9b4038c2",
       "at": [
-        "providence-day:[26].values.providence-day"
+        "providence-day:[27].values.providence-day"
       ],
       "t": "7:00 AM–6:00 PM"
     },
@@ -2315,7 +2468,7 @@
       "text": "An eleven-hour span, the widest of the five — Before Care from 7am and After Care to 6pm, both $120/week, or $220/week bundled as Complete Care.",
       "of": "5f49f081",
       "at": [
-        "providence-day:[26].quals.providence-day.text"
+        "providence-day:[27].quals.providence-day.text"
       ],
       "t": "Yon etandi onz èdtan, ki pi laj nan senk yo — Before Care depi 7am ak After Care jiska 6pm, toude $120/semèn, oswa $220/semèn ansanm kòm Complete Care."
     },
@@ -2323,7 +2476,7 @@
       "text": "A nine-hour span. Because every camp is a half-day, covering a full working day means registering a morning AND an afternoon camp; the noon–1 p.m. bridge care between them is free.",
       "of": "107eb4f8",
       "at": [
-        "providence-day:[26].quals.charlotte-christian.text"
+        "providence-day:[27].quals.charlotte-christian.text"
       ],
       "t": "Yon etandi nèf èdtan. Paske chak kan se demi-jounen, pou kouvri yon jounen travay konplè fòk ou enskri pitit la nan yon kan maten AK yon kan apremidi; swen pon ki nan mitan an, midi–1 p.m., gratis."
     },
@@ -2331,7 +2484,7 @@
       "text": "A ten-hour span: Before Care from 7:30 am at $50/week and After Care to 5:30 pm at $60/week, or $90/week for both. Camp itself runs 9:00–4:00.",
       "of": "c70f383c",
       "at": [
-        "providence-day:[26].quals.cannon.text"
+        "providence-day:[27].quals.cannon.text"
       ],
       "t": "Yon etandi dis èdtan: Before Care depi 7:30 am pou $50/semèn ak After Care jiska 5:30 pm pou $60/semèn, oswa $90/semèn pou toude. Kan an li menm fèt 9:00–4:00."
     },
@@ -2339,7 +2492,7 @@
       "text": "A ten-hour span. Before Care runs 7:30–8:15 am ($70.00/week) and After Care to 5:30 pm ($150.00/week); the Super Care bundle is $195.00/week. Late pick-up is $25.00 every 15 minutes.",
       "of": "5a5e0dc4",
       "at": [
-        "providence-day:[26].quals.charlotte-latin.text"
+        "providence-day:[27].quals.charlotte-latin.text"
       ],
       "t": "Yon etandi dis èdtan. Before Care fèt 7:30–8:15 am ($70.00/semèn) epi After Care jiska 5:30 pm ($150.00/semèn); pakè Super Care la se $195.00/semèn. Vin chèche an reta koute $25.00 chak 15 minit."
     },
@@ -2347,7 +2500,7 @@
       "text": "A nine-and-a-half-hour span: Morning Care from 7:30 am ($105/week) and Afternoon Care to 5 pm ($85/week), or $160/week bundled as Super Care. Late pick-up is $1/minute after 5 pm.",
       "of": "e8bfeef8",
       "at": [
-        "providence-day:[26].quals.charlotte-country-day.text"
+        "providence-day:[27].quals.charlotte-country-day.text"
       ],
       "t": "Yon etandi nèf èdtan edmi: Morning Care depi 7:30 am ($105/semèn) ak Afternoon Care jiska 5 pm ($85/semèn), oswa $160/semèn ansanm kòm Super Care. Vin chèche an reta koute $1/minit apre 5 pm."
     },
@@ -2355,7 +2508,7 @@
       "text": "Power 4 commits",
       "of": "1f2f8490",
       "at": [
-        "providence-day:[27].label"
+        "providence-day:[28].label"
       ],
       "t": "Angajman Power 4"
     },
@@ -2363,7 +2516,7 @@
       "text": "Distinct athletes committed to an SEC / Big Ten / ACC / Big 12 program, Classes of 2024–2026. Documented minimum.",
       "of": "4b7d536c",
       "at": [
-        "providence-day:[27].note"
+        "providence-day:[28].note"
       ],
       "t": "Atlèt diferan ki angaje nan yon pwogram SEC / Big Ten / ACC / Big 12, Klas 2024–2026. Minimòm dokimante."
     },
@@ -2371,7 +2524,7 @@
       "text": "1",
       "of": "340ca71c",
       "at": [
-        "providence-day:[27].values.cannon"
+        "providence-day:[28].values.cannon"
       ],
       "t": "1"
     },
@@ -2379,9 +2532,9 @@
       "text": "3",
       "of": "360caa42",
       "at": [
-        "providence-day:[27].values.charlotte-latin",
-        "providence-day:[27].values.davidson-day",
-        "providence-day:[28].values.cannon"
+        "providence-day:[28].values.charlotte-latin",
+        "providence-day:[28].values.davidson-day",
+        "providence-day:[29].values.cannon"
       ],
       "t": "3"
     },
@@ -2389,7 +2542,7 @@
       "text": "17",
       "of": "1aeb28b1",
       "at": [
-        "providence-day:[27].values.providence-day"
+        "providence-day:[28].values.providence-day"
       ],
       "t": "17"
     },
@@ -2397,8 +2550,8 @@
       "text": "A documented minimum. Several of Cannon’s best-known athletes committed outside the 2024–26 window and so are not counted here.",
       "of": "0d7ecf77",
       "at": [
-        "providence-day:[27].quals.cannon.text",
-        "providence-day:[28].quals.cannon.text"
+        "providence-day:[28].quals.cannon.text",
+        "providence-day:[29].quals.cannon.text"
       ],
       "t": "Yon minimòm dokimante. Plizyè nan atlèt Cannon ki pi popilè yo te angaje deyò fenèt 2024–26 la epi konsa yo pa konte isit la."
     },
@@ -2406,8 +2559,8 @@
       "text": "A documented minimum: the school’s public commitment list runs through 2025, and its Class of 2026 is not yet compiled.",
       "of": "58bba487",
       "at": [
-        "providence-day:[27].quals.charlotte-christian.text",
-        "providence-day:[28].quals.charlotte-christian.text"
+        "providence-day:[28].quals.charlotte-christian.text",
+        "providence-day:[29].quals.charlotte-christian.text"
       ],
       "t": "Yon minimòm dokimante: lis angajman piblik lekòl la ale jiska 2025, epi Class of 2026 li a poko konpile."
     },
@@ -2415,8 +2568,8 @@
       "text": "A documented minimum. Charlotte Latin’s academically heavy classes send many athletes to Division III, and its November signing lists are partial.",
       "of": "cb967194",
       "at": [
-        "providence-day:[27].quals.charlotte-latin.text",
-        "providence-day:[28].quals.charlotte-latin.text"
+        "providence-day:[28].quals.charlotte-latin.text",
+        "providence-day:[29].quals.charlotte-latin.text"
       ],
       "t": "Yon minimòm dokimante. Klas akademik lou Charlotte Latin yo voye anpil atlèt nan Division III, epi lis siyati Novanm li yo pasyèl."
     },
@@ -2424,8 +2577,8 @@
       "text": "A documented minimum; the Classes of 2024 and 2026 are under-documented for Davidson Day.",
       "of": "22ec0adc",
       "at": [
-        "providence-day:[27].quals.davidson-day.text",
-        "providence-day:[28].quals.davidson-day.text"
+        "providence-day:[28].quals.davidson-day.text",
+        "providence-day:[29].quals.davidson-day.text"
       ],
       "t": "Yon minimòm dokimante; Class 2024 ak 2026 yo sou-dokimante pou Davidson Day."
     },
@@ -2433,7 +2586,7 @@
       "text": "Division I commits",
       "of": "ce720efb",
       "at": [
-        "providence-day:[28].label"
+        "providence-day:[29].label"
       ],
       "t": "Angajman Division I"
     },
@@ -2441,7 +2594,7 @@
       "text": "Distinct athletes committed to any NCAA Division I program, Classes of 2024–2026 (includes the Power 4 count above). Documented minimum.",
       "of": "53ecb641",
       "at": [
-        "providence-day:[28].note"
+        "providence-day:[29].note"
       ],
       "t": "Atlèt diferan ki angaje nan nenpòt pwogram NCAA Division I, Klas 2024–2026 (enkli kantite Power 4 anwo a). Minimòm dokimante."
     },
@@ -2449,7 +2602,7 @@
       "text": "26",
       "of": "8bf29659",
       "at": [
-        "providence-day:[28].values.charlotte-christian"
+        "providence-day:[29].values.charlotte-christian"
       ],
       "t": "26"
     },
@@ -2457,7 +2610,7 @@
       "text": "14",
       "of": "17eb23f8",
       "at": [
-        "providence-day:[28].values.charlotte-latin"
+        "providence-day:[29].values.charlotte-latin"
       ],
       "t": "14"
     },
@@ -2465,7 +2618,7 @@
       "text": "39",
       "of": "90f05fa1",
       "at": [
-        "providence-day:[28].values.providence-day"
+        "providence-day:[29].values.providence-day"
       ],
       "t": "39"
     }

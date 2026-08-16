@@ -36,6 +36,16 @@ export type ValueMetric = {
   label: string
   note?: string
   values: Record<string, string | null> // school slug -> display value | null (N/A)
+  /**
+   * Optional second display line, shown under the value in a smaller, quieter
+   * face. For a cost row this is the same money in the other billing period —
+   * the row leads with a monthly figure and restates it annualized beneath, so
+   * the column scans in one unit without hiding the school's own published one.
+   *
+   * Like `values`, these are display strings and go through `localizeMoneyText()`
+   * at render. A cell with no entry simply renders one line.
+   */
+  subs?: Record<string, string>
   /** Optional per-school provenance. Only cells needing a caveat appear here. */
   quals?: Record<string, CellQual>
 }
@@ -684,13 +694,22 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': '6:00 PM', // "Structured Care to 6 pm"
       'charlotte-latin': '6:00 PM', // Hawks’ Club, 1:30–6:00 p.m.
       'davidson-day': '6:00 PM', // Extended Care, 2:45–6:00 p.m.
-      // These schools publish hours only in an enrollment packet / flag pickup as
-      // "confirm with school" — no public latest-pickup time located:
-      cannon: null,
+      cannon: '6:00 PM', // After School Program, 3:00–6:00 p.m. on regular days
+      // These two remain null because no single hour is honest for the whole school:
+      // Charlotte Christian's Lower School runs to 6:00 but Middle School stops at
+      // 5:00, and Providence Day's 1–6 p.m. Extended Day is Lower School only.
       'charlotte-christian': null,
       'providence-day': null,
     },
     quals: {
+      cannon: {
+        kind: 'scope',
+        text: 'The JrK–8 After School Program runs 3:00–6:00 p.m. on regular days. On early-dismissal days it runs 11:45 a.m.–4:00 p.m., ending two hours earlier than the 6:00 shown here.',
+      },
+      'charlotte-christian': {
+        kind: 'scope',
+        text: 'The two divisions differ, so no single time fits: Lower School Extended Day (JK–4) runs to 6:00 p.m., while Middle School Extended Day ends at 5:00 p.m., a full hour earlier.',
+      },
       'charlotte-country-day': {
         kind: 'scope',
         text: 'The Lower School’s Structured Care program runs until 6:00 p.m. Confirm current hours with the school.',
@@ -702,6 +721,67 @@ export const VALUE_METRICS: ValueMetric[] = [
       'davidson-day': {
         kind: 'scope',
         text: 'The Lower School’s Extended Care runs 2:45–6:00 p.m. Confirm current hours with the school.',
+      },
+    },
+  },
+
+  // Cost of the most expensive published after-school arrangement at each school:
+  // highest-priced grade band × latest pickup tier × five days a week. Rates come
+  // from the July 2026 research pass in source-material/after-school/<school>/
+  // ("Redesign Research 2026.md" — these SUPERSEDE the older Pricing.md files),
+  // and every figure was re-verified against the school's live page on 2026-08-15.
+  //
+  // The schools bill in different units — annual, monthly, per semester — so each
+  // headline is the school's OWN published figure in its OWN unit, never annualized
+  // into a number no school publishes. Where a school bills monthly, the tooltip
+  // carries a ×10-month estimate, worded as an estimate.
+  //
+  // "Most expensive" partly measures who dismisses earliest — a school whose TK
+  // day ends at 1:00 p.m. sells five hours of care where a 3:00 p.m. dismissal
+  // sells three — so every tooltip states the hours covered.
+  {
+    topic: 'after-school',
+    key: 'aftercare-cost',
+    label: 'Cost of after-school care',
+    note: 'The most expensive published arrangement: the highest-priced grade band, at the latest pickup tier, five days a week. Each cell shows a monthly cost with the year’s total beneath it. The schools bill in different periods — monthly, per semester, annually — so a ≈ marks the figure we converted rather than the one that school publishes, assuming a 10-month school year. Read the per-cell notes before comparing. 2026–27 rates, except Cannon’s 2025–26.',
+    values: {
+      cannon: '≈$378/mo', // $3,784/yr ÷ 10 — Cannon publishes the ANNUAL figure only
+      'charlotte-christian': '$325/mo', // JK–Grade 4 Extended Day to 6:00 p.m., 5 days/wk, 2026-27
+      'charlotte-country-day': '$900/mo', // JK · 6:00 p.m. tier · 5 days/wk, 2026-27
+      'charlotte-latin': '≈$930/mo', // $4,650/sem × 2 ÷ 10 — Latin publishes the SEMESTER figure only
+      'davidson-day': null, // publishes no extended-care pricing — its Extended Care page 404s
+      'providence-day': '$750/mo', // TK · 1–6 p.m. tier · 5 days/wk, 2026-27
+    },
+    // The year's total under each monthly figure. Cannon's and Latin's are the
+    // schools' OWN published figures ($3,784/yr, $4,650/sem × 2) and carry no ≈;
+    // the other three are 10-month estimates of a monthly rate, so they do.
+    subs: {
+      cannon: '$3,784/yr', // published as an annual figure
+      'charlotte-christian': '≈$3,250/yr', // $325 × 10
+      'charlotte-country-day': '≈$9,000/yr', // $900 × 10
+      'charlotte-latin': '$9,300/yr', // $4,650 × 2 semesters, as published
+      'providence-day': '≈$7,500/yr', // $750 × 10
+    },
+    quals: {
+      cannon: {
+        kind: 'scope',
+        text: 'Cannon publishes one annual price, $3,784 — the monthly figure above is that spread over 10 months, not a rate the school quotes. It buys the JrK–8 After School Program, 3:00–6:00 p.m. (3 hours) five days a week, at 2025–26 rates: the only school here not on 2026–27, because the page carrying the rate card is no longer publicly linked.',
+      },
+      'charlotte-christian': {
+        kind: 'scope',
+        text: 'JK–Grade 4 Extended Day to 6:00 p.m., five days a week, billed monthly at $325 for 2026–27; the yearly total assumes 10 billing months. Rates rose 32–52% over 2024–25, and Middle School is not in this figure because it bills by the hour ($8/hr, ending at 5:00 p.m.).',
+      },
+      'charlotte-country-day': {
+        kind: 'scope',
+        text: 'Junior Kindergarten at the 6:00 p.m. tier, five days a week, billed monthly at $900 — the yearly total assumes 10 months, which the school does not publish. JK dismisses at 1:15 p.m., so this buys roughly 4.75 hours a day; Grades 1–4 at the same 6:00 p.m. tier is $610/mo.',
+      },
+      'charlotte-latin': {
+        kind: 'scope',
+        text: 'Latin bills per semester, $4,650 twice a year — the monthly figure above is that $9,300 spread over 10 months, not a rate the school quotes. It covers TK/K at the 1:30–6:00 p.m. tier five days a week; TK and Kindergarten dismiss at 1:30 p.m., so this buys 4.5 hours a day, more than any figure beside it. Grades 1–5 at their 2:55–6:00 p.m. tier is $3,000 a semester.',
+      },
+      'providence-day': {
+        kind: 'scope',
+        text: 'Transitional Kindergarten at the 1–6 p.m. tier, five days a week, billed monthly at $750; the yearly total assumes 10 months, and the school states outright that its number of billing months is not published. TK dismisses at 1:00 p.m., so this covers 5 hours a day; Grades 1–5 at 3–6 p.m. is $470/mo, and there is no drop-in option.',
       },
     },
   },
