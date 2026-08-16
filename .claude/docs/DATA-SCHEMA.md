@@ -358,15 +358,19 @@ Root type `CollegeSupportProgram` · registry `COLLEGE_SUPPORT_CARDS` · `src/da
 | `wholeClass` | Whole Class Analytics | What if my kid isn't at the top — or learns differently? |
 | `verdict` | Verdict & Visit Checklist | What should I probe on the tour? |
 
-**The `outcomes.colleges` list is the school's FULL published acceptance list, with
-rankings.** Every college tagged `ivy` / `ivyplus` / `nu75` / `lac75` MUST carry its
-`rankLabel` ("National Rank #59" / "Liberal Rank #46") — labels are copied, never
-re-typed, from the canonical table in
-`source-material/college-support/_shared/US News 2026 - Rank Labels.md`; a college
-missing from that table is deep-researched against the same 2026 U.S. News edition and
-added there first. Bold (matriculated) names carry `enrolling: true`, and the list's
-bucket tallies must equal the school's six Compare bucket cells. Enforced by
-`npm run check:ranks` (`scripts/check_rank_labels.mjs`), chained into `npm run build`.
+**The `outcomes.colleges` list is the school's FULL published acceptance list.** Each
+entry carries only `{ name, cats }` (plus `enrolling: true` for bold/matriculated
+names) — it does NOT store a rank label. The US News rank shown on the card resolves
+at render time from the single-source master `COLLEGE_RANKINGS` table
+(`src/data/collegeRankings.ts`) via `rankLabelFor(name)`, so a rank lives in exactly
+one place and every school reflects a change at once. **Any** college holding a US News
+National or National-Liberal-Arts rank shows its label, at any rank or band, not just
+the top-75 buckets. A newly-fetched college is added as ONE row to the master (and its
+source to the human-readable companion `source-material/college-support/US News 2026 -
+Rank Labels.md`), then reused everywhere. The list's bucket tallies must equal the
+school's six Compare bucket cells. `npm run check:ranks`
+(`scripts/check_rank_labels.mjs`, chained into `npm run build`) verifies every
+ranked-bucket college resolves in the master and that the master agrees with the doc.
 
 **`wholeClass` score tables carry a percentile header only when the rows genuinely
 hold percentiles.** A school that publishes averages or tier counts instead of
@@ -401,7 +405,7 @@ header, everything else suppresses it.
 
 `Bucket` — `tier`, `count`, `note?`
 
-`College` — `name`, `rankLabel?`, `cats`, `enrolling?`
+`College` — `name`, `cats`, `enrolling?`
 
 `Outcomes` — `headline`, `subhead?`, `stats`, `bucketsTitle?`, `buckets`, `bucketsNote?`, `collegesTitle?`, `colleges`, `collegesTotal?`, `scholarshipsTitle?`, `scholarships`, `scholarshipsNote?`, `caveat?`, `flags`, `sources`
 
@@ -726,7 +730,7 @@ everything in the second column that adds a card, section, row, or research area
 | A **Compare row** | `VALUE_METRICS` in `src/data/metricValues.ts` | **yes** — new row |
 | A **structured card** | the topic's root type + `*_CARDS` registry | **yes** — new card |
 | A **school's structured data** | `src/data/<dir>/<slug>.ts` | no — backfilling an existing card |
-| A school's **acceptance list** (College Support) | `outcomes.colleges` + the `_shared` rank table | no — but ranked-bucket colleges MUST carry `rankLabel` (see §3, `npm run check:ranks`) |
+| A school's **acceptance list** (College Support) | `outcomes.colleges` (name + cats only); ranks resolve from the master `src/data/collegeRankings.ts` | no — but every ranked college needs a row in the master (see §3, `npm run check:ranks`) |
 
 After any of these, run `npm run schema` to refresh this doc (and `npm run check:metrics`,
 which catches unmatched subtopics and Compare gaps; `npm run check:ranks` guards the

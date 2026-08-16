@@ -1,10 +1,15 @@
 # US News 2026 — Rank Labels (shared table)
 
-> **Provenance:** Compiled by Claude Code on 2026-08-16. This is the project's
-> canonical `rankLabel` table for the "Where Graduates Go" acceptance lists in
-> `src/data/collegeSupportPrograms/*.ts`. Its first edition was harvested from
-> the labels the six original schools already carried (researched against the
-> 2026 U.S. News tables in PR #93), plus Covenant Day additions.
+> **Provenance:** Compiled by Claude Code on 2026-08-16. This is the
+> **human-readable companion** to the code source of truth,
+> `src/data/collegeRankings.ts` (`COLLEGE_RANKINGS`) — the app resolves every
+> acceptance-list rank label from that TS master via `rankLabelFor(name)`, and
+> the per-school lists store no labels. The two are kept in lockstep by
+> `npm run check:ranks`, which fails on any master/doc disagreement. Keep this
+> file for the **source per figure** and human scanning; edit both together when
+> a rank changes or a college is added. Its first edition was harvested from the
+> labels the six original schools carried (researched against the 2026 U.S. News
+> tables in PR #93), plus Covenant Day additions.
 >
 > **Expanded 2026-08-16 (this pass):** every college across all eight schools'
 > acceptance lists that holds a real U.S. News 2026 rank — **National
