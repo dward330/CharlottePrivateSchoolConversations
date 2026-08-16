@@ -1,5 +1,5 @@
 # Cannon School — Summer Programs
-> Distilled from 1 source document(s) in `source-material/summer-programs/cannon/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-11.
+> Distilled from 1 source document(s) in `source-material/summer-programs/cannon/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-16.
 **Documents:** Camp Catalog
 
 

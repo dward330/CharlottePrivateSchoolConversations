@@ -876,6 +876,230 @@ const CHARLOTTE_CHRISTIAN: FinancialAidReport = {
     'charlottechristian.com — 2026–27 and 2024–25 Tuition & Fees charts (PDF), Tuition & Financial Assistance, 2026–27 Financial Assistance How to Apply / Due Dates (PDF), Apply page, Endowment & Planned Giving, Admissions FAQ (all 23 Jul 2026) · 2023–24 enrollment packet, 2025–26 fees chart, annual reports 2022–23 & 2024–25, lower school extended day packet, IRS Forms 990 via ProPublica, MinistryWatch entry [all research tier]. Aggregators (figures ~$17,200 to $26,105) checked and excluded. The school did not commission, review or approve this report.',
 }
 
+/* ── Covenant Day ── transcribed from the school's tuition page (2026-27) and
+   the 2025-2026 Tuition Payment Terms and Conditions PDF — see
+   source-material/financial-aid-tuition/covenant-day/. The structural fact
+   shaping the whole aid-numbers section: as a ministry of Christ Covenant
+   Church (PCA), the school is IRS-exempt from filing Form 990, so no aid
+   totals exist anywhere to find — a first for this roster. */
+const COVENANT_DAY: FinancialAidReport = {
+  title: 'Tuition & Financial Aid — Deep Dive Report',
+  meta: '2026–27 school year · figures as of 15 Aug 2026',
+  framing: [
+    {
+      icon: 'info',
+      title: 'Unpublished ≠ deficient.',
+      body: '"Not published" flags a transparency gap — never a judgement that the aid programme is small or unwelcoming.',
+    },
+    {
+      icon: 'clock',
+      title: 'Two years are live at once.',
+      body: 'The website table shows 2026–27 while the linked payment-terms PDF shows 2025–26. Every figure here names its year; the report leads with 2026–27.',
+    },
+    {
+      icon: 'book',
+      title: 'K–12 aid only.',
+      body: 'Tuition assistance while enrolled — not college aid. Not financial advice.',
+    },
+  ],
+  sections: [
+    {
+      id: 'fa-tuition',
+      navTitle: 'Tuition by Band',
+      title: 'Tuition by Grade Level',
+      confidence: 95,
+      figureCaption: 'Published tuition by grade band — the lowest top rate in this comparison',
+      bands: [
+        { label: 'JK & K', amount: 15490, prior: 14290, delta: '+8.4%' },
+        { label: 'Grades 1–5', amount: 17790, prior: 16590, delta: '+7.2%' },
+        { label: 'Grades 6–8', amount: 20490, prior: 19290, delta: '+6.2%' },
+        { label: 'Grades 9–12', amount: 22790, prior: 21590, delta: '+5.6%' },
+      ],
+      figureNote:
+        'Four bands from junior kindergarten through grade 12, a $7,300 spread. The rise from 2025–26 was a flat $1,200 at every band — a dollar increase, not a percentage one, which is why the youngest band shows the steepest percent change.',
+      figureNote2:
+        'The school states what tuition includes — on-campus computers/iPads, technology expenses, school retreats and required field trips, science lab and elective fees, and most athletic expenses — an inclusions list several peers do not publish.',
+      source:
+        'covenantday.org — Tuition & Financial Aid (2026-27 table); 2025-2026 Tuition Payment Terms and Conditions PDF, retrieved 15 Aug 2026',
+    },
+    {
+      id: 'fa-beyond',
+      navTitle: 'Fees & Added Costs',
+      title: 'Fees and Additional Costs',
+      confidence: 85,
+      componentsTitle: 'A short, mostly-priced list',
+      components: [
+        { label: 'Enrollment deposit · $1,000, credited to tuition', status: 'priced' },
+        { label: 'FACTS monthly-plan fee · $50/yr', status: 'priced' },
+        { label: 'Card-processing fee · 3.05% of payment', status: 'priced' },
+        { label: 'Extended Day (JK–8) · $58–$248/mo per session', status: 'priced' },
+        { label: 'Laptop, grades 9–12 · bring your own', status: 'unpriced' },
+        { label: 'Tutoring / special testing beyond classroom help', status: 'unpriced' },
+        { label: 'Uniform (JK–8) / HS dress code', status: 'unpriced' },
+      ],
+      componentsNote:
+        'The inclusions list does real work here: retreats, required field trips, lab and elective fees, and most athletic expenses sit inside tuition, so the priced add-ons are genuinely few. Grades 9–12 must supply a laptop meeting the school’s specs.',
+      boxes: [
+        {
+          title: 'The deposit is aid-aware',
+          body: 'The $1,000 per-student deposit is non-refundable and credited to tuition — and families who submit a completed aid application before enrolling may ask the Business Office to **halve it** while the application is considered. Waiting for an aid decision without paying the deposit, though, means no seat is held.',
+        },
+      ],
+      source:
+        '2025-2026 Tuition Payment Terms and Conditions PDF; covenantday.org — Tuition & Financial Aid, retrieved 15 Aug 2026',
+    },
+    {
+      id: 'fa-engine',
+      navTitle: 'The Aid Engine',
+      title: 'Aid Process and Timeline',
+      confidence: 80,
+      timeline: [
+        {
+          when: 'With admission',
+          detail: 'Families submit the aid application **concurrently with the admissions application**, through FACTS — the same platform that runs tuition billing',
+        },
+        {
+          when: 'Prerequisite',
+          detail: 'Proof of application for the **NC Opportunity Scholarship** is mandatory before any CDS aid is considered — a hard gate no peer school here imposes',
+          emphasis: true,
+        },
+        {
+          when: 'On completion',
+          detail: 'Decisions are communicated only once an application is complete, including all supporting documentation',
+        },
+        {
+          when: 'Every year',
+          detail: 'No multi-year award — families submit a new application each year',
+        },
+      ],
+      boxes: [
+        {
+          title: 'Platform & scope',
+          body: '**FACTS** runs the confidential need assessment. Aid is need-based only, and only the party responsible for paying tuition may apply. Contact: Christen Marshall, Student Accounts Coordinator, 704-708-6102.',
+        },
+        {
+          tag: 'NOT PUBLISHED',
+          body: 'No aid deadline date, no decision timeline, no appeals process, and no award-ceiling policy appears on the public record. The application fee for FACTS, if any, is also unstated.',
+        },
+      ],
+      source:
+        'covenantday.org — Tuition & Financial Aid; 2025-2026 Tuition Payment Terms §6, retrieved 15 Aug 2026',
+    },
+    {
+      id: 'fa-numbers',
+      navTitle: 'Aid in Numbers',
+      title: 'What the Numbers Disclose',
+      confidence: 25,
+      stats: [
+        { value: '~20%', label: 'of students on aid — third-party figure only' },
+        { value: 'No 990', label: 'church ministry — IRS-exempt from filing' },
+        { value: '$0', label: 'published aid totals, averages, or budgets' },
+      ],
+      figureNote:
+        'The ~20% share comes from aggregators (PrivateSchoolReview, schooltuitions.org); the school itself publishes no percentage, no total awarded, and no average award.',
+      boxes: [
+        {
+          tag: 'NOT PUBLISHED — AND NOT RECOVERABLE',
+          body: 'Covenant Day is a ministry of Christ Covenant Church (PCA), and the IRS designates it a **religious organization not required to file Form 990** (EIN 56-1656570, exempt since 1989). ProPublica’s Nonprofit Explorer confirms no filing exists. Every other school in this project is a 990 filer whose aid totals can be checked against its return — here there is **no filing to check**, so the gap is structural rather than a page waiting to be found.',
+        },
+      ],
+      source:
+        'projects.propublica.org — Nonprofit Explorer, EIN 56-1656570; privateschoolreview.com; schooltuitions.org, retrieved 15 Aug 2026',
+    },
+    {
+      id: 'fa-merit',
+      navTitle: 'Discounts & State Aid',
+      title: 'Merit, Discounts & State Scholarships',
+      confidence: 88,
+      tag: 'ALL SCHOOL AID IS NEED-BASED',
+      plans: [
+        {
+          figure: '$1,500',
+          label: 'Multi-child discount',
+          detail: 'Off tuition for the **third and each additional student** from the same household, applied to the children in the lowest grades. Two-child families get nothing.',
+        },
+        {
+          figure: '$400',
+          label: 'Christ Covenant Church member discount',
+          detail: 'Per enrolled student, for members of the sponsoring church — membership affirmed during online enrollment, with a February 1 cutoff for full-year eligibility.',
+        },
+        {
+          figure: 'NC',
+          label: 'Opportunity Scholarship + ESA+',
+          detail: 'The school accepts both NCSEAA-administered programs — and applying for the Opportunity Scholarship is a **prerequisite** for CDS aid, so state aid is the designed first layer of every package.',
+          emphasis: true,
+        },
+      ],
+      boxes: [
+        {
+          tag: 'NOT PUBLISHED',
+          body: 'No merit scholarships exist on the public record — aid is need-based only. No sibling discount before the third child, no military or clergy discount, and no employee-remission policy is published.',
+        },
+      ],
+      source:
+        '2025-2026 Tuition Payment Terms §3; covenantday.org — Tuition & Financial Aid, retrieved 15 Aug 2026',
+    },
+    {
+      id: 'fa-paying',
+      navTitle: 'Paying the Balance',
+      title: 'Payment Plans & Contract Terms',
+      confidence: 92,
+      plans: [
+        {
+          figure: '1×',
+          label: 'Annual plan',
+          detail: 'The full balance due by **May 1** preceding the school year. No prepayment discount is published.',
+        },
+        {
+          figure: '9×',
+          label: 'Monthly plan (FACTS)',
+          detail: 'Nine equal installments, **May through January**, autopaying on the 5th or 20th — plus a $50/year FACTS fee. Note the season: payments start four months before school does.',
+          emphasis: true,
+        },
+        {
+          figure: '3.05%',
+          label: 'Card surcharge',
+          detail: 'Debit/credit payments incur a 3.05% processor fee; bank drafts avoid it. On a $22,790 tuition that is roughly $695.',
+        },
+        {
+          figure: '10th',
+          label: 'Withdrawal cutoff',
+          detail: 'Withdrawals must be official by the 10th of the month to skip that month’s installment; refunds equal installments whose due date has not passed. Monthly-plan families current on payments get no refund and owe no more.',
+        },
+      ],
+      boxes: [
+        {
+          title: 'Non-current accounts',
+          body: 'Accounts more than 30 days past due can suspend re-enrollment, report cards, transcript release — and class access. A standard force-majeure clause keeps tuition obligations alive through closures.',
+        },
+      ],
+      source: '2025-2026 Tuition Payment Terms §§1–2, 7–8, retrieved 15 Aug 2026',
+    },
+    {
+      id: 'fa-trend',
+      navTitle: 'Trend & Questions',
+      title: 'The Trend, and What to Ask',
+      confidence: 60,
+      stats: [
+        { value: '+$1,200', label: 'flat increase at every band, 2025–26 → 2026–27' },
+        { value: '$22,790', label: 'top band — the lowest top tuition in this comparison' },
+        { value: '2 yrs', label: 'of published rates (website + terms PDF)' },
+      ],
+      questionsTitle: 'Questions the public record cannot answer',
+      questions: [
+        'What share of families receive aid, and what is the average award? (The ~20% figure is third-party.)',
+        'What is the aid application deadline, and when are decisions released relative to enrollment contracts?',
+        'How does the mandatory NC Opportunity Scholarship application interact with CDS aid for families above the state income cap?',
+        'Is there an appeals or mid-year change-of-circumstance process?',
+        'Was the flat-$1,200 increase a one-year choice or the standing pattern?',
+      ],
+      source: 'Synthesis of the sources cited on the sections above',
+    },
+  ],
+  sources:
+    'covenantday.org — Tuition & Financial Aid · 2025-2026 Tuition Payment Terms and Conditions (PDF) · ProPublica Nonprofit Explorer (EIN 56-1656570) · privateschoolreview.com · schooltuitions.org — retrieved 15 Aug 2026',
+}
+
 const DAVIDSON_DAY: FinancialAidReport = {
   title: 'Tuition & Financial Aid — Deep Dive Report',
   meta: '2026–27 school year · figures as of 22 Jul 2026',
@@ -1762,6 +1986,7 @@ const REPORTS: Record<string, FinancialAidReport> = {
   'charlotte-country-day': COUNTRY_DAY,
   cannon: CANNON,
   'charlotte-christian': CHARLOTTE_CHRISTIAN,
+  'covenant-day': COVENANT_DAY,
   'davidson-day': DAVIDSON_DAY,
   'charlotte-latin': CHARLOTTE_LATIN,
   'providence-day': PROVIDENCE_DAY,

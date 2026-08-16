@@ -1,5 +1,5 @@
 # Charlotte Country Day School — College Support
-> Distilled from 9 source document(s) in `source-material/college-support/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-04.
+> Distilled from 9 source document(s) in `source-material/college-support/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-16.
 **Documents:** Academic Case, Application Support, Counseling Engine, Fit and Rank, Institutional Leverage, NotebookLM Prompt, Outcomes, Redesign Research 2026, Standing Out
 
 

@@ -37,6 +37,7 @@ SCHOOL_NAMES = {
     "charlotte-christian": "Charlotte Christian School",
     "charlotte-country-day": "Charlotte Country Day School",
     "charlotte-latin": "Charlotte Latin School",
+    "covenant-day": "Covenant Day School",
     "davidson-day": "Davidson Day School",
     "providence-day": "Providence Day School",
 }

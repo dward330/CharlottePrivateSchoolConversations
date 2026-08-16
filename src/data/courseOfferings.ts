@@ -5118,6 +5118,169 @@ const CHARLOTTE_CHRISTIAN: CourseOfferings = {
   ],
 }
 
+/* ── Covenant Day School ────────────────────────────────────────────────────
+   Transcribed from the 2026-2027 High School Profile course matrix (the
+   school's primary published course document — it prints no prose catalog).
+   80 level-qualified entries across 8 matrix disciplines plus Bible, 15 AP.
+   HIGH SCHOOL ONLY by design: the Lower and Middle School academics pages
+   describe competencies, not named course lists, so no JK-5 / 6-8 division
+   card exists to transcribe — stated in the division teaser rather than left
+   implicit. Descriptions are level/sequence facts from the matrix, not
+   invented catalog prose. See source-material/course-offerings/covenant-day/. */
+const COVENANT_DAY: CourseOfferings = {
+  guideYear: '2026-27',
+  divisions: [
+    {
+      title: 'High School Courses',
+      grades: 'GRADES 9 – 12',
+      teaser:
+        '80 course entries across 9 departments, from the 2026-27 High School Profile matrix — the school publishes named courses for the high school only.',
+      source: 'Covenant Day High School Profile 2026-2027 (course matrix)',
+      sourceUrl:
+        'https://resources.finalsite.net/images/v1758547252/covenant/x8i0qddxvctsp5jqbpmt/2025-26HSGuidanceProfile.pdf',
+      departments: [
+        {
+          name: 'English',
+          courses: [
+            { title: 'Language & Literature', tag: 'CP', description: 'The entry course of the four-year English sequence.' },
+            { title: 'Language & Literature Honors', tag: 'Honors', description: 'The honors track of the entry course.' },
+            { title: 'American Literature', tag: 'CP', description: 'The American-literature year of the sequence.' },
+            { title: 'American Literature Honors', tag: 'Honors', description: 'Honors American literature.' },
+            { title: 'Composition & Literature', tag: 'CP', description: 'Composition-focused year of the sequence.' },
+            { title: 'Composition & Literature Honors', tag: 'Honors', description: 'Honors composition and literature.' },
+            { title: 'British Literature', tag: 'CP', description: 'The British-literature capstone of the CP track.' },
+            { title: 'Literature & Philosophy Honors', tag: 'Honors', description: 'The honors capstone — available for dual enrollment with Covenant College.' },
+            { title: 'AP English Language & Composition', tag: 'AP', description: 'College-level rhetoric and argument; the exam is required.' },
+            { title: 'AP English Literature & Composition', tag: 'AP', description: 'College-level literary analysis; the exam is required.' },
+          ],
+        },
+        {
+          name: 'Mathematics',
+          courses: [
+            { title: 'Algebra 1', tag: 'CP', description: 'The entry course of the math sequence.' },
+            { title: 'Geometry', tag: 'CP', description: 'Euclidean geometry in the CP track.' },
+            { title: 'Geometry Honors', tag: 'Honors', description: 'The honors geometry year.' },
+            { title: 'Algebra 2', tag: 'CP', description: 'Second-year algebra.' },
+            { title: 'Algebra 2 Honors', tag: 'Honors', description: 'Honors second-year algebra.' },
+            { title: 'Pre-Calculus', tag: 'CP', description: 'Functions and trigonometry before calculus.' },
+            { title: 'Pre-Calculus Honors', tag: 'Honors', description: 'The honors pre-calculus year.' },
+            { title: 'Calculus Honors', tag: 'Honors', description: 'Honors calculus — available for dual enrollment with Covenant College.' },
+            { title: 'Statistics', tag: 'CP', description: 'Introductory statistics.' },
+            { title: 'Statistics Honors', tag: 'Honors', description: 'Honors statistics — available for dual enrollment with Covenant College.' },
+            { title: 'AP Calculus AB', tag: 'AP', description: 'College-level differential and integral calculus.' },
+            { title: 'AP Statistics', tag: 'AP', description: 'College-level statistics.' },
+          ],
+        },
+        {
+          name: 'Science',
+          courses: [
+            { title: 'Biology', tag: 'CP', description: 'The entry lab science.' },
+            { title: 'Biology Honors', tag: 'Honors', description: 'Honors biology.' },
+            { title: 'Chemistry', tag: 'CP', description: 'Second lab science of the sequence.' },
+            { title: 'Chemistry Honors', tag: 'Honors', description: 'Honors chemistry.' },
+            { title: 'Anatomy Honors', tag: 'Honors', description: 'Honors anatomy and physiology.' },
+            { title: 'Health', tag: 'CP', description: 'The half-unit health requirement.' },
+            { title: 'Sports & Exercise Science', tag: 'CP', description: 'Applied exercise science.' },
+            { title: 'Sports & Exercise Science Honors', tag: 'Honors', description: 'The honors track of exercise science.' },
+            { title: 'AP Biology', tag: 'AP', description: 'College-level biology.' },
+            { title: 'AP Chemistry', tag: 'AP', description: 'College-level chemistry.' },
+            { title: 'AP Environmental Science', tag: 'AP', description: 'College-level environmental science.' },
+            { title: 'AP Physics', tag: 'AP', description: 'College-level physics.' },
+          ],
+        },
+        {
+          name: 'Social Studies',
+          courses: [
+            { title: 'World History', tag: 'CP', description: 'The entry history course.' },
+            { title: 'World History Honors', tag: 'Honors', description: 'Honors world history.' },
+            { title: 'US History', tag: 'CP', description: 'The American-history year.' },
+            { title: 'US History Honors', tag: 'Honors', description: 'Honors US history.' },
+            { title: 'Government & Economics', tag: 'CP', description: 'The civics-and-economics capstone.' },
+            { title: 'Government & Economics Honors', tag: 'Honors', description: 'The honors capstone.' },
+            { title: 'Psychology Honors', tag: 'Honors', description: 'Honors psychology.' },
+            { title: 'AP US History', tag: 'AP', description: 'College-level American history.' },
+            { title: 'AP Government & Politics: US', tag: 'AP', description: 'College-level US government.' },
+            { title: 'AP European History', tag: 'AP', description: 'College-level European history.' },
+            { title: 'AP Psychology', tag: 'AP', description: 'College-level psychology.' },
+          ],
+        },
+        {
+          name: 'Bible',
+          courses: [
+            { title: 'Bible (each year)', tag: 'Gr 9–12', description: 'Three graduation units; students must be enrolled in a Bible course every year. The profile matrix prints no per-year titles.' },
+          ],
+        },
+        {
+          name: 'World Language',
+          courses: [
+            { title: 'Spanish 1', tag: 'CP', description: 'First-year Spanish.' },
+            { title: 'Spanish 2', tag: 'CP', description: 'Second-year Spanish.' },
+            { title: 'Spanish 3 Honors', tag: 'Honors', description: 'Third-year Spanish at honors level.' },
+            { title: 'Spanish 4 Honors', tag: 'Honors', description: 'Fourth-year Spanish at honors level.' },
+            { title: 'AP Spanish', tag: 'AP', description: 'College-level Spanish language.' },
+            { title: 'French 1', tag: 'CP', description: 'First-year French.' },
+            { title: 'French 2', tag: 'CP', description: 'Second-year French.' },
+            { title: 'French 3 Honors', tag: 'Honors', description: 'Third-year French at honors level.' },
+            { title: 'French 4 Honors', tag: 'Honors', description: 'Fourth-year French at honors level.' },
+            { title: 'Latin 2', tag: 'CP', description: 'Second-year Latin (the sequence starts in middle school).' },
+            { title: 'Latin 3 Honors', tag: 'Honors', description: 'Third-year Latin at honors level.' },
+            { title: 'Latin 4 Honors', tag: 'Honors', description: 'Fourth-year Latin at honors level.' },
+            { title: 'AP Latin', tag: 'AP', description: 'College-level Latin.' },
+          ],
+        },
+        {
+          name: 'Fine Arts',
+          courses: [
+            { title: 'Choir', tag: 'CP', description: 'The high school choral ensemble as a credit course.' },
+            { title: 'Choir Honors', tag: 'Honors', description: 'The honors choral track.' },
+            { title: 'Symphonic Band', tag: 'CP', description: 'The concert band as a credit course.' },
+            { title: 'Symphonic Band Honors', tag: 'Honors', description: 'The honors band track.' },
+            { title: 'Theatre', tag: 'CP', description: 'The theatre performance course.' },
+            { title: 'Theatre Tech', tag: 'CP', description: 'Technical theatre — sets, lighting, production.' },
+            { title: 'Auditioned Theatre Honors', tag: 'Honors', description: 'The audition-entry honors company, with Performance or Technical tracks.' },
+            { title: 'Worship Leadership', tag: 'CP', description: 'Credit-bearing worship-arts leadership.' },
+            { title: 'Intro to Art', tag: 'CP', description: 'The entry visual-arts course.' },
+            { title: 'Art 2D/3D', tag: 'CP', description: 'Second-level studio art in 2D and 3D tracks.' },
+            { title: 'Ceramics', tag: 'CP', description: 'Studio ceramics.' },
+            { title: 'Digital Photography', tag: 'CP', description: 'Digital photography.' },
+            { title: 'Graphic Design', tag: 'CP', description: 'Design coursework.' },
+            { title: 'Yearbook', tag: 'CP', description: 'Producing the school yearbook.' },
+            { title: 'Yearbook Honors', tag: 'Honors', description: 'Leadership roles on the yearbook staff.' },
+            { title: 'Studio Art Honors', tag: 'Honors', description: 'The pre-AP studio year.' },
+            { title: 'AP Studio Art', tag: 'AP', description: 'The AP portfolio year, shown at the Art Talk exhibit.' },
+          ],
+        },
+        {
+          name: 'Restoration & Sustainability',
+          courses: [
+            { title: 'Augustine Literacy Project', tag: 'CP', description: 'Training students as literacy tutors for the community.' },
+            { title: 'Intercultural Practicum', tag: 'CP', description: 'Applied cross-cultural engagement.' },
+            { title: 'Introduction to Engineering', tag: 'CP', description: 'The department’s engineering entry.' },
+            { title: 'Restore525', tag: 'CP', description: 'The department’s service-build program as a credit course.' },
+          ],
+        },
+        {
+          name: 'PE',
+          courses: [
+            { title: 'Strength & Fitness', tag: 'CP', description: 'The Webb Fitness Center course; a PE credit is also earnable via two school sport seasons.' },
+          ],
+        },
+      ],
+    },
+    {
+      title: 'Lower & Middle School',
+      grades: 'GRADES JK – 8',
+      teaser:
+        'Covenant Day publishes no named course lists below grade 9 — the Lower and Middle School academics pages describe competencies and programs instead.',
+      source: 'covenantday.org — Academics (lower-school / middle-school pages)',
+      sourceUrl: 'https://www.covenantday.org/academics',
+      notPublished:
+        'The school describes its JK-8 program by competencies (with general music JK-4, intro to choir and band in grade 5, and MS ensembles and drama from grade 6) rather than publishing a named course catalog — so there is no list to transcribe, and that is the school’s own granularity choice.',
+      departments: [],
+    },
+  ],
+}
+
 /* ── Davidson Day School ────────────────────────────────────────────────────
    2026-2027 Upper School Course Catalog (~75 courses, 9 departments, 26 AP
    courses; 66 on the 2026-27 offerings grid). Davidson Day is NOT an IB World
@@ -5816,6 +5979,7 @@ const OFFERINGS: Record<string, CourseOfferings> = {
   'charlotte-country-day': CHARLOTTE_COUNTRY_DAY,
   cannon: CANNON,
   'charlotte-christian': CHARLOTTE_CHRISTIAN,
+  'covenant-day': COVENANT_DAY,
   'davidson-day': DAVIDSON_DAY,
 }
 

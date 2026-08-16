@@ -291,6 +291,7 @@ import { charlotteLatin } from './summer/charlotte-latin.ts'
 import { charlotteChristian } from './summer/charlotte-christian.ts'
 import { charlotteCountryDay } from './summer/charlotte-country-day.ts'
 import { cannon } from './summer/cannon.ts'
+import { covenantDay } from './summer/covenant-day.ts'
 
 /**
  * FIVE schools, not six. **Davidson Day is deliberately absent.**
@@ -316,6 +317,7 @@ const PROGRAMS: Record<string, SummerProgram> = {
   'charlotte-christian': charlotteChristian,
   'charlotte-country-day': charlotteCountryDay,
   cannon: cannon,
+  'covenant-day': covenantDay,
 }
 
 /* ---------------------------------------------------------- translations -- */

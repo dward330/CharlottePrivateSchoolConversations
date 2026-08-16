@@ -297,12 +297,56 @@ const DAVIDSON_DAY: ClubClusters = {
   ],
 }
 
+// ── Covenant Day ── the flagship is Mock Trial, whose courtroom artist won a
+// regional and finished 2025 state runner-up — the program's best-documented
+// statewide result. The school publishes no club directory, so the slate is a
+// documented floor. From src/content/student-clubs/covenant-day.json.
+const COVENANT_DAY: ClubClusters = {
+  verdict: 'A documented floor of a slate; Mock Trial carries the statewide result.',
+  verdictHint: 'Open any row for the full research note and its source.',
+  rows: [
+    {
+      name: 'Mock Trial',
+      oneLiner: 'Courtroom artist: regional champion, 2025 NC state runner-up',
+      evidence: 'verified',
+      evidenceLabel: 'Verified — NC Mock Trial',
+      note: 'The school’s flagship competitive club, named on its own high-school page. NC Mock Trial Program records show a "Covenant Day School Blue" team — the suffix implies more than one — and Cornelia Knight of that team won the courtroom-artist regional in Hickory and finished 2025 State Champion Courtroom Artist runner-up.',
+      source: 'ncmocktrial.org — regional & state courtroom-artist results',
+    },
+    {
+      name: 'STEM clubs →',
+      oneLiner: 'Robotics (First Lego League), Junior FLL, Sustainability Engineering',
+      evidence: 'reported',
+      evidenceLabel: 'Third-party roster',
+      note: 'First Lego League robotics at two levels plus a Sustainability Engineering club — the club expression of the school’s Restoration & Sustainability department. Competition results are not published.',
+      source: 'privateschoolreview.com roster; covenantday.org academics',
+    },
+    {
+      name: 'Language & letters clubs →',
+      oneLiner: 'Latin (JCL) Club, French Club, Book Club, Beta Club',
+      evidence: 'reported',
+      evidenceLabel: 'Third-party roster',
+      note: 'Language clubs feed the Latin and French course sequences (both run to level 4 plus AP Latin). Chapter activity and event results are not published.',
+      source: 'privateschoolreview.com roster',
+    },
+    {
+      name: 'Academic signatures',
+      oneLiner: 'Senior Capstone Project, McKnight Oratory',
+      evidence: 'reported',
+      evidenceLabel: 'School-reported',
+      note: 'The required Senior Capstone Project and the McKnight Oratory speaking event are the school’s named academic signatures — curricular milestones rather than clubs, carried here because they are where academic competition lives at this school.',
+      source: 'covenantday.org — High School academics; Student Life',
+    },
+  ],
+}
+
 const CLUSTERS: Record<string, ClubClusters> = {
   'providence-day': PROVIDENCE_DAY,
   'charlotte-latin': CHARLOTTE_LATIN,
   cannon: CANNON,
   'charlotte-christian': CHARLOTTE_CHRISTIAN,
   'charlotte-country-day': CHARLOTTE_COUNTRY_DAY,
+  'covenant-day': COVENANT_DAY,
   'davidson-day': DAVIDSON_DAY,
 }
 

@@ -1,5 +1,5 @@
 # Charlotte Christian School — After School
-> Distilled from 6 source document(s) in `source-material/after-school/charlotte-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-07-27.
+> Distilled from 6 source document(s) in `source-material/after-school/charlotte-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-16.
 **Documents:** Clubs and Youth Athletics, Deep Research, Extended Day, Pricing, Program Overview, Redesign Research 2026
 
 

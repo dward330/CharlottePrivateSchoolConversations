@@ -1,5 +1,5 @@
 # Charlotte Christian School — Student Clubs
-> Distilled from 10 source document(s) in `source-material/student-clubs/charlotte-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-07-26.
+> Distilled from 10 source document(s) in `source-material/student-clubs/charlotte-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-16.
 **Documents:** Academic and Competition Clubs, Affinity Identity and Global Awareness Groups, Clubs and Activities Landscape, Honor Societies, Leadership Governance and Student Media, Lower and Middle School Activities, NotebookLM Prompt, Service and Outreach Organizations, Special Interest and Recreational Clubs, Clubs Redesign Deep Research
 
 

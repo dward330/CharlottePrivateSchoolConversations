@@ -51,6 +51,13 @@ export const BRANDS: Record<string, Brand> = {
     logo: '/logos/charlotte-latin.png',
     welcomeVideoUrl: 'https://www.youtube.com/embed/QvM-MuKndus',
   },
+  'covenant-day': {
+    // Lions — blue & gold (MaxPreps). #002855 is the site's own CSS
+    // `primary-color` custom property (covenantday.org, checked 2026-08-15) —
+    // the darkest navy in the set, distinct from Latin's #12294f.
+    color: '#002855',
+    initials: 'CV', // 'CD' is taken by Charlotte Country Day's badge
+  },
   'davidson-day': {
     color: '#1e5fd1', // Patriots — red, white & navy
     initials: 'DD',

@@ -1,5 +1,5 @@
 # Charlotte Latin School — After School
-> Distilled from 6 source document(s) in `source-material/after-school/charlotte-latin/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-07-27.
+> Distilled from 6 source document(s) in `source-material/after-school/charlotte-latin/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-16.
 **Documents:** Deep Research, Enrichment and Talons, Hawks Club, Pricing, Program Overview, Redesign Research 2026
 
 
