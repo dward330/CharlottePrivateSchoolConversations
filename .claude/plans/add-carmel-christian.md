@@ -686,6 +686,18 @@ deployed.**
    (usnews.com blocked automated fetch; a few numbers flagged worth a manual verbatim
    confirm — Texas Tech #198, Winston-Salem National-vs-Regional).
 
+**Rank-label side-task shipped mid-review (2026-08-16):** the user asked for
+acceptance-list colleges to show a US News rank even outside the top-75 buckets
+(triggered by Drexel #80 rendering unlabeled). This broadened the rank rule to
+label ANY college with a real 2026 National/LAC rank. Researched + verified all
+240 rank-worthy colleges across the 8 lists (Yahoo-search channel; two agreeing
+2026 profile confirmations each), corrected 15 stale pre-2026 labels, updated
+the `_shared` table and the `add-school` SKILL. **Shipped for the 7 EXISTING
+schools as its own PR #137 → merged → DEPLOYED live** (kept separate from this
+unreviewed Carmel English build). Carmel's own identical labels are committed on
+this branch (8edfd05). See memory `rank-labels-inclusive-shipped` — note the
+merge-time reconciliation (take main's version of the 7 existing-school files).
+
 **What remains:**
 - Finish the user's English review (they may have more card-by-card feedback).
 - On their explicit go-ahead: **Phase 2** — nine locales (`es, bn, ht, te, fr, fa, it,
