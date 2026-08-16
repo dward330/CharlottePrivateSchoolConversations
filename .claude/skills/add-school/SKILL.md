@@ -442,37 +442,41 @@ implementing window would otherwise get wrong:
   apart), `src/data/financialAidReports.ts`, `src/data/clubClusters.ts`,
   `src/data/courseOfferings.ts` (`OFFERINGS`), `src/data/clubCatalog.ts` (`CATALOG`), and
   `SCHOOL_NAMES` in the ingest script's `build_docs.py`.
-- **Every college on the acceptance list that holds a real U.S. News rank gets its
-  `rankLabel` — National *or* National Liberal Arts, at ANY rank, not just the top-75
-  buckets.** The "Where Graduates Go" list in `src/data/collegeSupportPrograms/<slug>.ts`
-  shows each college's rank on the right (`National Rank #80`, `Liberal Rank #21`). The rule
-  is **inclusive**: a college ranked #80, #250, or in a published band like `#395-434` still
-  shows that label — the label is informational and is independent of the `cats` buckets
-  (`nu75`/`lac75` stay genuinely top-75 and drive only the filter chips, so a #80 school gets
-  the label with `cats: []`). Only these carry **no** label: U.S. News **Regional**
-  Universities/Colleges, community/technical colleges, specialty art/music/design schools,
-  seminaries, and **foreign** universities (Best Global does not count) — all genuinely
-  unranked in the two national lists. (User-set, 2026-08-16, after Drexel #80 and DePaul #169
-  shipped unlabeled because the old rule only labelled bucketed colleges.)
+- **College rank labels come from ONE master file — the acceptance list carries no ranks.**
+  Each college in `outcomes.colleges` (`src/data/collegeSupportPrograms/<slug>.ts`) is just
+  `{ name, cats }`. Its US News rank renders from the single-source master
+  **`src/data/collegeRankings.ts`** (`COLLEGE_RANKINGS` + `rankLabelFor(name)`) at render
+  time, so a rank lives in exactly one place and every school reflects it. The rule is
+  **inclusive**: any college holding a U.S. News National *or* National-Liberal-Arts rank —
+  at ANY rank or published band (`#80`, `#250`, `#395-434`), not just the top-75 buckets —
+  shows its label, and it is independent of the `cats` buckets (`nu75`/`lac75` stay genuinely
+  top-75 and drive only the filter chips). Only these get **no** label, being genuinely
+  unranked in the two national lists: U.S. News **Regional** Universities/Colleges,
+  community/technical colleges, specialty art/music/design schools, seminaries, and
+  **foreign** universities (Best Global does not count). (User-set, 2026-08-16: inclusive
+  rule after Drexel #80 / DePaul #169 shipped unlabeled; single-source master after ranks
+  had drifted across spellings — GW #59, Sewanee #45, four "The University of…" schools.)
 
-  **Reuse the shared table first, then research only the gaps — this is the efficiency, and
-  it is mandatory, not optional.** `source-material/college-support/_shared/US News 2026 -
-  Rank Labels.md` is the canonical `rankLabel` table (one row per institution, zero
-  conflicts by construction). For each college on the new school's list: (1) if it is in the
-  table, **copy the label verbatim** — never re-type or re-derive a rank that already exists;
-  (2) only if it is absent, deep-research its 2026 U.S. News rank and **add it to the table
-  with its source** so the next school reuses it. Research each *unseen* institution once,
-  ever; the table is what makes the cost fall with every school added rather than repeating.
-  Match institutions by school, not by exact string — the lists carry many spellings of one
-  school (`University of California–Irvine` = `UC (Irvine)`), and the table key is canonical.
-  The sourcing channel that works when usnews.com times out is **Yahoo search** (`https://
-  search.yahoo.com/search?p=<school>+us+news+2026+ranked`), which surfaces the verbatim
-  "In the 2026 edition of Best Colleges, <school> is ranked No. #N in <category>" line;
-  never write a label without that verbatim 2026 figure, and never guess or use a prior-year
-  number. `npm run check:ranks` (chained into `npm run build`) enforces that every
-  ranked-**bucket** college has a label and that no institution's label conflicts across
-  schools — but it does **not** catch a label missing on a `cats: []` college, so the
-  inclusive rule above is a research obligation, not something the check will flag for you.
+  **A new school gets its labels for FREE if its colleges are already in the master — this
+  is the efficiency, and it's automatic.** Because the label resolves by name at render, a
+  new school's acceptance list needs **no rank work at all** for any college already in
+  `collegeRankings.ts` (the ~416 institutions the roster already cites — most of any new
+  list). You only touch ranks for colleges the master lacks: research each *unseen*
+  institution's 2026 rank once and **add ONE row to `collegeRankings.ts`** (and its source
+  to the human-readable companion `source-material/college-support/US News 2026 - Rank
+  Labels.md`), after which it is reused everywhere forever. Never re-type a rank that exists,
+  and never edit rank labels into the per-school list file — that field no longer exists.
+  Matching is by institution across spellings (the normalizer folds `The`, punctuation,
+  `University`/`College`; `University of California–Irvine` == `UC (Irvine)`), so add a new
+  college under one clean canonical name. The sourcing channel that works when usnews.com
+  times out is **Yahoo search** (`https://search.yahoo.com/search?p=<school>+us+news+2026+ranked`),
+  which surfaces the verbatim "In the 2026 edition of Best Colleges, <school> is ranked
+  No. #N in <category>" line; never add a row without that verbatim 2026 figure, and never
+  guess or use a prior-year number. `npm run check:ranks` (chained into `npm run build`)
+  verifies every ranked-bucket college resolves in the master and that the master agrees
+  with the companion doc — but it does **not** catch a label missing on a `cats: []` college,
+  so labeling a ranked non-bucketed college is a research obligation, not something the check
+  flags for you.
 - **`src/data/brands.ts` degrades gracefully** — `brandFor()` falls back to slate
   `#5b6472` plus initials derived from the name (`brands.ts:70`). So a missing entry is not
   a breakage, but the school ships with a generic badge and no crest. Add color + initials

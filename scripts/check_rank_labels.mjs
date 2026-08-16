@@ -3,28 +3,27 @@
  * check:ranks — the "Where Graduates Go" acceptance lists must show their
  * U.S. News rankings.
  *
- * HARD RULE (user-set, 2026-08-16): on every school's `outcomes.colleges`
- * list, any college tagged into a ranked bucket — `ivy`, `ivyplus`, `nu75`,
- * or `lac75` — MUST carry a `rankLabel` ("National Rank #59" /
- * "Liberal Rank #46"), the rank shown on the right-hand side of the card.
- * Covenant Day shipped without them once; this check exists so no future
- * school can.
+ * HARD RULE (user-set, 2026-08-16): any college tagged into a ranked bucket —
+ * `ivy`, `ivyplus`, `nu75`, or `lac75` — MUST resolve to a rank label ("National
+ * Rank #59" / "Liberal Rank #46"), the rank shown on the right of the card.
+ * Covenant Day shipped without them once; this check exists so no future school
+ * can.
  *
- * Also enforced: the SAME institution must carry the SAME label everywhere it
- * appears — the labels all come from one table
- * (source-material/college-support/_shared/US News 2026 - Rank Labels.md),
- * so a conflict means someone re-typed a rank instead of copying it. When a
- * college is missing from that table, deep-research its rank against the same
- * 2026 U.S. News edition and add it to the table with a source — do not guess.
+ * SINGLE SOURCE (2026-08-16): labels are no longer stored inline on each college.
+ * They resolve from the master `COLLEGE_RANKINGS` table in
+ * `src/data/collegeRankings.ts` via `rankLabelFor(name)`, so one institution has
+ * exactly one label everywhere and cross-school conflicts are impossible by
+ * construction. This check therefore verifies one thing: every ranked-bucket
+ * college's name resolves in the master. The human-readable companion (with a
+ * source per figure) is source-material/college-support/US News 2026 - Rank
+ * Labels.md; add a new college to BOTH (one row each), never re-type a rank.
  *
- * Deliberately EXEMPT: `p4`-only entries (no other ranked cat). Sixteen
- * Power-4 tail universities (LSU, SMU, WVU, …) ship unlabeled across all
- * seven schools because their ranks were never part of the project's table;
- * they are consistently absent rather than half-fixed. Tightening that is a
- * future enhancement — see the shared table's header.
+ * Note: `p4`-only entries are not required to resolve — a Power-Four tag alone
+ * does not assert a National/LAC rank. Any p4 college that also holds a rank is
+ * in the master and renders its label anyway.
  *
- * Runs under plain Node (24+ type stripping): the per-school files are data
- * modules with type-only imports, so they import cleanly here.
+ * Runs under plain Node (24+ type stripping): the data modules and the master
+ * use type-only imports, so they import cleanly here.
  *
  * Exit codes: 0 = clean, 1 = violations found, 2 = setup error.
  */
@@ -41,9 +40,19 @@ const SCHOOLS = [
   ['providence-day', () => import('../src/data/collegeSupportPrograms/providence-day.ts')],
 ]
 
+// Labels resolve from the single-source master (src/data/collegeRankings.ts).
+// Because one institution has exactly one row there, cross-school label
+// conflicts are impossible by construction — the only failure this check can
+// surface is a ranked-BUCKET college whose name does not resolve to a label in
+// the master (a bucket tag with no backing rank).
 let missing = 0
-let conflicts = 0
-const labelsByName = new Map() // name -> Map(label -> [slugs])
+let rankLabelFor
+try {
+  ;({ rankLabelFor } = await import('../src/data/collegeRankings.ts'))
+} catch (e) {
+  console.error(`check:ranks — cannot import the master collegeRankings.ts: ${e.message}`)
+  process.exit(2)
+}
 
 for (const [slug, load] of SCHOOLS) {
   let mod
@@ -57,36 +66,73 @@ for (const [slug, load] of SCHOOLS) {
   const colleges = program?.outcomes?.colleges ?? []
   for (const c of colleges) {
     const cats = c.cats ?? []
-    if (!c.rankLabel && cats.some((t) => RANKED.has(t))) {
-      console.log(`  ✗ ${slug}: "${c.name}" is tagged [${cats.join(', ')}] but has no rankLabel`)
+    if (cats.some((t) => RANKED.has(t)) && !rankLabelFor(c.name)) {
+      console.log(
+        `  ✗ ${slug}: "${c.name}" is tagged [${cats.join(', ')}] but the master ` +
+          `collegeRankings.ts has no rank for it`,
+      )
       missing++
     }
-    if (c.rankLabel) {
-      const seen = labelsByName.get(c.name) ?? new Map()
-      const arr = seen.get(c.rankLabel) ?? []
-      arr.push(slug)
-      seen.set(c.rankLabel, arr)
-      labelsByName.set(c.name, seen)
+  }
+}
+
+// Sync guard: the master TS table and the human-readable .md companion must
+// agree, so the sourced doc can never silently drift from what actually renders.
+let drift = 0
+try {
+  const { readFileSync } = await import('node:fs')
+  const { COLLEGE_RANKINGS } = await import('../src/data/collegeRankings.ts')
+  const mdPath = new URL(
+    '../source-material/college-support/_shared/US News 2026 - Rank Labels.md',
+    import.meta.url,
+  )
+  const md = readFileSync(mdPath, 'utf8')
+  const mdRows = new Map(
+    [...md.matchAll(/^\| (.+?) \| ((?:National|Liberal) Rank #[^|]+?) \|/gm)].map((m) => [
+      m[1].trim(),
+      m[2].trim(),
+    ]),
+  )
+  const norm = (s) =>
+    s
+      .toLowerCase()
+      .replace(/['’]/g, '')
+      .replace(/\band\b/g, '&')
+      .replace(/[–—-]/g, ' ')
+      .replace(/[().,]/g, ' ')
+      .replace(/\buniversity\b/g, 'univ')
+      .replace(/\bcollege\b/g, 'coll')
+      .replace(/\bsaint\b/g, 'st')
+      .replace(/\bthe\b/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim()
+  const mdByNorm = new Map([...mdRows].map(([n, l]) => [norm(n), l]))
+  // Every master entry must appear in the .md with the same label.
+  for (const [name, label] of Object.entries(COLLEGE_RANKINGS)) {
+    const mdLabel = mdByNorm.get(norm(name))
+    if (mdLabel && mdLabel !== label) {
+      console.log(`  ✗ master/doc drift for "${name}": master="${label}" vs doc="${mdLabel}"`)
+      drift++
     }
   }
+} catch (e) {
+  console.error(`check:ranks — could not run the master/doc sync check: ${e.message}`)
+  process.exit(2)
 }
 
-for (const [name, seen] of labelsByName) {
-  if (seen.size > 1) {
+if (missing || drift) {
+  if (missing)
     console.log(
-      `  ✗ conflicting rank labels for "${name}": ` +
-        [...seen.entries()].map(([l, s]) => `"${l}" (${s.join(', ')})`).join(' vs '),
+      `\ncheck:ranks — ${missing} ranked-bucket college(s) unresolved in the master.` +
+        '\nAdd the college to src/data/collegeRankings.ts (and its source to the _shared .md), or fix its name spelling.',
     )
-    conflicts++
-  }
-}
-
-if (missing || conflicts) {
-  console.log(
-    `\ncheck:ranks — ${missing} ranked-bucket college(s) missing a rankLabel, ${conflicts} label conflict(s).` +
-      '\nTake labels from source-material/college-support/_shared/US News 2026 - Rank Labels.md;' +
-      '\nif a college is not in that table, research its 2026 U.S. News rank and add it there first.',
-  )
+  if (drift)
+    console.log(
+      `\ncheck:ranks — ${drift} label(s) disagree between the master and the _shared .md.` +
+        '\nThey are one source of truth in two forms; reconcile so they match.',
+    )
   process.exit(1)
 }
-console.log('check:ranks — every ranked-bucket college on all 7 acceptance lists carries its rank label, with no conflicts')
+console.log(
+  'check:ranks — every ranked-bucket college resolves in the master, and the master agrees with the _shared doc (single source)',
+)
