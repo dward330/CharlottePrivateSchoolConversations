@@ -63,6 +63,21 @@ export type ValueMetric = {
    * when `noLead` is set, since that suppresses the tint entirely.
    */
   lowerIsBetter?: boolean
+  /**
+   * How this row's display strings become the numbers the leader tint ranks.
+   * Omitted means the default: read the leading number off the string.
+   *
+   * `'span'` is for a clock RANGE ("7:00 AM–6:00 PM"), where the thing worth
+   * ranking is the DURATION and neither end of the printed value is it. The
+   * default reading is not merely imprecise here, it inverts the order — it
+   * strips the punctuation and parses the digit soup "800500", so the narrowest
+   * span (Charlotte Christian's nine hours) outranks the widest (Providence
+   * Day's eleven) purely because its drop-off hour starts with an 8.
+   *
+   * Spans are ranked on their English source, never the rendered cell — see
+   * `englishValueOf` for why.
+   */
+  compareAs?: 'span'
   /** Optional per-school provenance. Only cells needing a caveat appear here. */
   quals?: Record<string, CellQual>
 }
@@ -928,6 +943,9 @@ export const VALUE_METRICS: ValueMetric[] = [
     key: 'summer-care-span',
     label: 'Wrap-around care',
     note: 'Earliest drop-off to latest pickup with the school’s paid before- and after-care options — the real outer limit of a camp day for a working family.',
+    // Ranked on DURATION, not on either endpoint — the widest span wins, which
+    // is the question a working parent is actually asking of this row.
+    compareAs: 'span',
     values: {
       cannon: '7:30 AM–5:30 PM', // before care from 7:30, after care to 5:30
       'charlotte-christian': '8:00 AM–5:00 PM', // "arrive as early as 8 a.m. and stay as late as 5 p.m."
@@ -1092,4 +1110,23 @@ export function valueMetricsForTopic(topicSlug: string, lang = 'en'): ValueMetri
   // renumber the indices and resolve nothing.
   const all = localized(VALUE_METRICS, index, 'providence-day')
   return all.filter((m) => m.topic === topicSlug)
+}
+
+/**
+ * The ENGLISH display value for a cell, whatever language the page is in.
+ *
+ * Ranking reads this rather than the rendered string, because a display value
+ * is translated prose and its shape is not stable across locales. The
+ * wrap-around-care row already ships three different spellings of the same
+ * clock — `7:00 AM–6:00 PM` in seven locales, `7:00 a.m.–6:00 p.m.` in French,
+ * and `7:00 صباحًا–6:00 مساءً` in Arabic, which is also RTL. A parser that read
+ * the localized cell would need to know every one of those, and would silently
+ * mis-rank the row the first time locale eleven spelled a meridiem a new way.
+ *
+ * The English is always available — VALUE_METRICS is the untranslated source
+ * and `localized()` copies rather than mutates — so ranking on it costs nothing
+ * and cannot drift. Returns null for an unknown key or an N/A cell.
+ */
+export function englishValueOf(metricKey: string, slug: string): string | null {
+  return VALUE_METRICS.find((m) => m.key === metricKey)?.values[slug] ?? null
 }
