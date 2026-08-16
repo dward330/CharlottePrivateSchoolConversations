@@ -85,16 +85,22 @@ The point is that a school with a thin public footprint yields a page of empty s
 which is worse than no page — and that is cheap to discover up front and expensive to
 discover at ingest time.
 
-**The bar is calibrated to Davidson Day, the thinnest school judged worth shipping** —
-17/30 Compare rows (**56%**) and no Summer Programs material at all. So the gate is
-**≥6 of 8 research areas viable and ≥56% of Compare rows populatable**, compared
-inclusively: exactly 17/30 passes, 16/30 does not. Per area, a candidate is judged against
-the card keys **5–6 of 6** existing schools hold, never against every key that exists —
-`the-arts :: courses` sits at 1/6, so its absence is not a gap. Two properties of this
-calibration are deliberate: it is a real school rather than a round number, and the roster
-fill rates it derives from reflect **research effort already spent**, so the test is
-"could plausibly reach that level with a full research pass," not "scores it on first
-sweep."
+**The bar is calibrated to the thinnest school already shipped, and it is computed, not
+transcribed.** `npm run coverage:floor` (`scripts/coverage_floor.mjs`) prints every
+school's Compare fill rate and research-area count and derives the floor from the weakest.
+As of 2026-08-15 that is Davidson Day — 17/30 Compare rows (**56%**), 7 of 8 areas, and no
+Summer Programs material at all. The gate is **≥17 of 30 Compare rows and ≥6 of 8 areas**,
+compared inclusively: exactly 17/30 passes, 16/30 does not. Counted in **rows, not rounded
+percentages** — each row moves the figure ~3.3 points. Per area, a candidate is judged
+against the card keys **5–6 of 6** existing schools hold, never against every key that
+exists — `the-arts :: courses` sits at 1/6, so its absence is not a gap.
+
+Three properties are deliberate: the floor is a **real school rather than a round number**;
+the roster fill rates it derives from reflect **research effort already spent**, so the
+test is "could plausibly reach that level with a full research pass," not "scores it on
+first sweep"; and the area gate is set one notch looser than the script derives (6/8 vs
+7/8), because Davidson Day lacks its one area for a substantive reason while a candidate
+may simply be unresearched. The script reports both so the gap stays visible.
 
 Two boundaries make it safe to run speculatively: it **writes no `source-material/`**
 (unlike `/plan`) because a sweep sized for percentages produces indicative figures, not the

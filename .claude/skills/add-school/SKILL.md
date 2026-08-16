@@ -3,12 +3,12 @@ name: add-school
 description: >
   Assess whether a new school can be added to the app, then hand off to /plan. Asks which
   school and what city/state, runs a scoped web sweep against the live data schema, and
-  reports a coverage table — what percentage of each research area, structured card, and
-  Compare row we could actually populate. If the user proceeds, it walks the thin research
-  areas one at a time, then invokes /plan to write the implementation plan. Use when the
-  user types /add-school, or asks to "add a school", "can we add <school>", "what would it
-  take to cover <school>". This skill RESEARCHES AND PLANS ONLY — it never edits app code
-  or writes source-material.
+  reports a coverage table — how much of each research area, structured card, and Compare
+  row we could actually populate, measured against the thinnest school already shipped. If
+  the user proceeds, it walks the thin research areas one at a time, then invokes /plan to
+  write the implementation plan. Use when the user types /add-school, or asks to "add a
+  school", "can we add <school>", "what would it take to cover <school>". This skill
+  RESEARCHES AND PLANS ONLY — it never edits app code or writes source-material.
 ---
 
 # /add-school — assess a candidate school, then plan it
@@ -74,9 +74,10 @@ would be wrong the first time someone adds one. Take from it:
   published number, not prose.
 - **§5** the standalone catalogs (course offerings, club catalog, financial-aid report).
 
-If `npm run check:schema` would fail, the doc is stale — run `npm run schema` first so the
-sweep is measured against reality. (That regenerates a doc, not app code; it is the one
-generated file this skill may refresh.)
+Run `npm run check:schema` first. If it fails the doc has drifted from the live modules —
+run `npm run schema` so the sweep is measured against reality rather than a stale catalog.
+(That regenerates a doc, not app code; it is the one generated file this skill may
+refresh.)
 
 ### 3. Sweep — scoped, parallel, time-boxed
 
@@ -153,62 +154,54 @@ Rules for the table:
 - Note any **notable asymmetry** — e.g. rich prose but no published numbers, which means a
   good school page and an N/A-filled Compare column.
 
-**Then a comparison against the current roster.** Show the candidate's Compare fill rate
-beside the six shipped schools, so the user is comparing it to the real roster rather than
-to an abstract percentage:
+**Then a comparison against the current roster**, so the user is comparing the candidate to
+the real roster rather than to an abstract percentage. **Compute it — do not transcribe a
+table from this document:**
 
-| School | Compare rows filled | Fill rate |
-|---|--:|--:|
-| Providence Day / Cannon | 29/30 | 96% |
-| Charlotte Country Day | 28/30 | 93% |
-| Charlotte Latin | 27/30 | 90% |
-| Charlotte Christian | 24/30 | 80% |
-| **Davidson Day** (the floor) | **17/30** | **56%** |
-| *<candidate>* | *n*/30 | *~n%* |
+```bash
+npm run coverage:floor
+```
+
+That prints every shipped school's Compare fill rate and research-area count, then derives
+the bar from the thinnest one. Run it every time; the roster and the Compare-row count both
+grow, and a number pasted into this skill would quietly go stale. Add the candidate as one
+more row of that table.
 
 **Then the sources you found**, grouped by area with their URLs, so the user can spot-check
 a figure they doubt.
 
 #### The bar
 
-Two gates, calibrated to **Davidson Day** — the thinnest school the project has judged
-worth shipping. It carries 17/30 Compare rows and has **no Summer Programs material at
-all**, and that was an acceptable outcome; so the floor is "at least as good as Davidson
-Day," not an invented round number.
+Two gates, both calibrated to **the thinnest school the project has judged worth
+shipping** — as of 2026-08-15 that is Davidson Day, at 17/30 Compare rows (56%) and 7 of 8
+research areas, with **no Summer Programs material at all**. That was an acceptable
+outcome, so the floor is "at least as good as our thinnest shipped school," not an invented
+round number. `npm run coverage:floor` recomputes it.
 
 - **Per area (include / omit):** include the area if the candidate can populate the card
   keys that 5–6 of 6 existing schools hold. Missing a near-universal card is the signal;
   missing a rare one is not.
-- **School-wide (go / no-go):** **≥6 of 8 research areas viable, and ≥56% of Compare rows
-  populatable.** 56% is Davidson Day's exact rate (17/30), and the comparison is
-  **inclusive** — a candidate landing exactly on 17/30 passes, 16/30 (53%) does not. Count
-  in **rows, not rounded percentages**: 30 rows means each one moves the figure ~3.3
-  points, so "56%" is really "at least 17 of 30." Do not round to a neater number in either
-  direction; the precision is the point of tying the bar to a real school.
+- **School-wide (go / no-go):** **≥17 of 30 Compare rows, and ≥6 of 8 research areas.**
+  The comparison is **inclusive** — exactly 17/30 passes, 16/30 (53%) does not. Count in
+  **rows, not rounded percentages**: each row moves the figure ~3.3 points, so "56%" means
+  "at least 17 of 30." Do not round to a neater number in either direction.
+
+  On the area count, the script derives 7/8 from Davidson Day, but the stated bar is
+  **6 of 8** — one area more permissive, deliberately. Davidson Day is missing its one area
+  for a substantive reason (it genuinely runs no summer program), and a candidate that is
+  simply *unresearched* in two areas can still be worth adding. Tighten to 7/8 if the
+  roster grows and the extra latitude stops being useful; the script reports both so the
+  gap stays visible rather than silently forgotten.
 
 State the bar and the candidate's numbers against it. It is a default, not a rule — the
 user overrides it in step 5, and a school that misses on one axis while being exceptional
 on the other is exactly the case worth putting to them rather than auto-failing.
 
-**Re-derive the floor rather than trusting the numbers above.** They were measured on
-2026-08-15 against 30 Compare rows and 8 research areas; both grow. §4 of the schema doc
-gives the live row count and §1 the live area list, and the command below recomputes every
-school's fill rate from `src/data/metricValues.ts` — note that `cannon` is written as a
-bare key while hyphenated slugs are quoted, which a naive regex misses:
-
-```bash
-npm run schema   # refresh the doc first if it has drifted
-```
-
-If the roster or the row count has changed, recompute the weakest school's rate and use
-**that** as the floor. The rule is "at least as good as our thinnest shipped school," and
-56% is today's expression of it — not the rule itself.
-
 **One caveat to state whenever you report these numbers:** the roster's fill rates are the
 result of research effort already spent, not a pure measure of what is publicly available.
 Providence Day at 96% partly reflects how much work went into it. The bar is therefore
-"could plausibly *reach* Davidson Day's level with a full research pass," not "scores this
-on a first sweep" — a candidate near the line is a judgment call, not a failure.
+"could plausibly *reach* that level with a full research pass," not "scores this on a first
+sweep" — a candidate near the line is a judgment call, not a failure.
 
 ### 5. Ask whether to proceed — then walk the thin areas
 
@@ -267,34 +260,81 @@ implementing window would otherwise get wrong:
   ingested via the **`ingest-source-material` skill**, which regenerates the notes,
   `src/data/schools.json` and `src/content/`. Nothing goes into the app that is not
   traceable to one of those files.
-- **Omitted areas are omitted by having no data, not by code.** A topic with no
-  `source-material/` folder simply does not render — that is existing behaviour, and no
-  conditional belongs in a component. Same for a structured card: leave the optional field
-  off the school's `src/data/<dir>/<slug>.ts` and the card does not render.
+- **Omitted areas are omitted by having no data, not by code.** Verified: `topicsForSchool()`
+  (`src/lib/manifest.ts:47`) filters to topics with `docCount > 0`, and `SchoolDetail.tsx:362`
+  renders only those. A topic with no `source-material/` folder is absent from the page
+  entirely — Davidson Day's missing Summer Programs is the live precedent, commented at
+  `SchoolDetail.tsx:664`. **No conditional belongs in a component.** Same for a structured
+  card: leave the optional field off `src/data/<dir>/<slug>.ts` and it does not render.
 - **Sparse is worse than absent.** Better to omit a card than ship one padded with
   "not published". Where a real gap must be shown, the topic's existing flag types
   (`gap`, `verify`, `estimate`) are how — they exist for this.
+- **The six structured-card modules need a hand-added import.** Nothing auto-discovers
+  `src/data/sportsPrograms/<slug>.ts` — the `PROGRAMS` map in each topic root
+  (`sportsProgram.ts:429`, `artsProgram.ts:362`, `clubsProgram.ts:280`,
+  `collegeSupport.ts:423`, `afterSchool.ts:391`, `summerPrograms.ts:313`) is a static
+  `Record` of explicit imports. **Adding the per-school file without wiring the import is a
+  silent no-op** — the school renders prose instead of cards, and no check catches it.
+  Only needed for topics where structured cards are in scope.
 - **The hand-maintained layers the ingest never writes**, each an explicit step:
   `src/lib/metrics.ts` (map every new subtopic phrasing onto an **existing** key — an
   unmatched subtopic silently becomes a new card, which is an unapproved UX change),
   `src/data/metricValues.ts` (a value or a deliberate `null` for the new school on **every**
   Compare row — a missing key is an oversight, and `npm run check:metrics` tells them
-  apart), `src/data/financialAidReports.ts`, `src/data/brands.ts` (color + initials),
-  `src/data/clubClusters.ts`, and `SCHOOL_NAMES` in the ingest script's `build_docs.py`.
+  apart), `src/data/financialAidReports.ts`, `src/data/clubClusters.ts`,
+  `src/data/courseOfferings.ts` (`OFFERINGS`), `src/data/clubCatalog.ts` (`CATALOG`), and
+  `SCHOOL_NAMES` in the ingest script's `build_docs.py`.
+- **`src/data/brands.ts` degrades gracefully** — `brandFor()` falls back to slate
+  `#5b6472` plus initials derived from the name (`brands.ts:70`). So a missing entry is not
+  a breakage, but the school ships with a generic badge and no crest. Add color + initials
+  deliberately; do not let the fallback ship by omission.
+- **`SCHOOL_SECTION_ORDER`** (`src/pages/SchoolDetail.tsx:116`) is an optional per-school
+  card-order override, `?.`-guarded. Unlisted schools use the shared order — fine to skip.
 - **The podcast-episode table** in `src/data/podcastEpisodes.ts` is per school × topic; a
   new school has no episodes, and that is fine — do not invent entries.
-- **SEO is automatic but verified.** Routes, pre-rendered pages, sitemap and `hreflang` all
-  generate from `schools.json`; the step is to run `npm run check:seo`, not to hand-write
-  anything.
-- **Regenerate the schema doc** — `npm run schema`, with `npm run check:schema` clean.
+  `check:podcast` validates one-directionally and passes silently on a school with none.
+- **SEO generates from `schools.json`, but `check:seo` is NOT in the build** — `npm run
+  build` runs `seo:files`, not `check:seo`. Run it explicitly. Watch its `MIN_BYTES =
+  20_000` floor (`check_seo.mjs:34`): **a thin new school can plausibly pre-render under
+  20 KB and fail**, which is a real possible outcome here, not a hypothetical. It also
+  requires a meta description ≥70 chars and the school name present in the markup.
+- **Regenerate the schema doc** — `npm run schema`. `check:schema` **is** chained into
+  `npm run build` and **will** fail until you do, since a new school changes the schools
+  table and the coverage matrix.
 - **Phasing.** A new school adds research prose, so it is **two-phase**: English first,
   then the overlay layer for every locale in `PROSE_TRANSLATED`, with the user's review in
   between. `/plan` decides and writes this; make sure its brief says the school brings new
   prose so it does not mistake this for a data-only change.
+- **⚠️ The i18n scripts hold hardcoded school lists, and will SILENTLY SKIP a new
+  school.** This is the highest-risk step in the whole plan, because the failure mode is
+  not a red check — it is a clean run that never looked. Each of these has a literal
+  `SLUGS` array and/or a slug→export map that must gain the new school **before Phase 2
+  runs**, or its prose is simply never extracted and every locale reads as complete:
+
+  | Script | What to add |
+  |---|---|
+  | `scripts/i18n_extract.mjs:45,87` | `SLUGS` + `EXPORTS` map |
+  | `scripts/check_translations.mjs:35,76` | `SLUGS` + `EXPORTS` map |
+  | `scripts/check_chrome_keys.mjs:36,49` | `SLUGS` + `EXPORTS` map |
+  | `scripts/i18n_audit_skips.mjs:36,49` | `SLUGS` + `EXPORTS` map |
+  | `scripts/check_live_resolution.mjs:51` | `EXPORTS` map |
+  | `scripts/i18n_fields.mjs:334` | per-slug `values.<slug>` / `subs.<slug>` paths |
+
+  The repo has been bitten by exactly this shape before — `check_translations.mjs:53`
+  records that Summer Programs "was invisible here until it was added, at 0% coverage."
+  Treat a 100% coverage report on the new school as **suspect until you confirm its slug
+  is in every list above**. Verify by checking that the new school's strings actually
+  appear in the extracted work files, not by trusting a green run.
 - **The UX gate.** Adding a school needs **no** UX approval — per §6 of the schema doc it
   is automatic everywhere. But if the sweep found material that fits **no existing card**,
   that is a new card and needs the user's approval *before* `/implement` runs. Surface it
   now, not as a step for a fresh window to discover.
+- **A browser check on the new school's page**, in Phase 1 — this repo's standing lesson is
+  that every defect surviving the automated checks was render-layer. Confirm the included
+  areas render, **the omitted ones are absent rather than empty**, the Compare column shows
+  values and N/A where expected, and the school's badge is not a fallback slate square
+  unless that was intended. `npm run check:seo` for the pre-render, watching the 20 KB
+  floor.
 
 Let `/plan` close with its own `/implement <name>` handoff. Do not add a second one.
 
