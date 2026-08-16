@@ -46,6 +46,15 @@ export type ValueMetric = {
    * at render. A cell with no entry simply renders one line.
    */
   subs?: Record<string, string>
+  /**
+   * Suppress the leader highlight on this row.
+   *
+   * Compare tints `Math.max` as the standout, which is right for a row where
+   * more is better (courses catalogued, acceptances) and WRONG for a cost row,
+   * where it would mark the most expensive school as the winner. Set this on any
+   * metric whose highest value is not its best value.
+   */
+  noLead?: boolean
   /** Optional per-school provenance. Only cells needing a caveat appear here. */
   quals?: Record<string, CellQual>
 }
@@ -743,6 +752,8 @@ export const VALUE_METRICS: ValueMetric[] = [
     topic: 'after-school',
     key: 'aftercare-cost',
     label: 'Cost of after-school care',
+    // No leader tint: this is a price, so the highest value is the worst one.
+    noLead: true,
     note: 'The most expensive published arrangement: the highest-priced grade band, at the latest pickup tier, five days a week. Each cell shows a monthly cost with the year’s total beneath it. The schools bill in different periods — monthly, per semester, annually — so a ≈ marks the figure we converted rather than the one that school publishes, assuming a 10-month school year. Read the per-cell notes before comparing. 2026–27 rates, except Cannon’s 2025–26.',
     values: {
       cannon: '≈$378/mo', // $3,784/yr ÷ 10 — Cannon publishes the ANNUAL figure only

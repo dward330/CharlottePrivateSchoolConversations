@@ -167,8 +167,10 @@ export function Compare({ topic, schools }: Props) {
                     // Highlight the best value only when there's a real spread.
                     const nums = cols.map((s) => numericOf(vm.values[s.slug]))
                     const present = nums.filter((n): n is number => n != null)
+                    // `noLead` rows opt out entirely — on a cost row the highest
+                    // value is the worst one, so tinting it would read as a win.
                     const max =
-                      cols.length > 1 && present.length > 1 && Math.min(...present) !== Math.max(...present)
+                      !vm.noLead && cols.length > 1 && present.length > 1 && Math.min(...present) !== Math.max(...present)
                         ? Math.max(...present)
                         : null
                     return (
