@@ -331,8 +331,9 @@ programs (e.g. flagship research pipelines) beyond Covenant College are publishe
 
 ### Headline outcomes
 
-- **85 seniors** in the Class of 2027; ~350 institutions on the published 2023-2026
- acceptance list.
+- **85 seniors** in the Class of 2027; **225 institutions** on the published
+ 2023-2026 acceptance list (exact count from a full line-level extraction of the
+ profile PDF; 94 of them bold/matriculated).
 - Acceptances in the current window include **Dartmouth, Penn, Duke, Notre Dame,
  Emory, Georgia Tech, Michigan, UVA, UNC-Chapel Hill, Wake Forest, Case Western,
  William & Mary, NYU, Villanova, Vanderbilt-tier absent** (no Vanderbilt in
@@ -498,6 +499,29 @@ acceptances. No contradiction found between editions.
  policy.
 - **Counseling platform** (Naviance/SCOIR) — not named publicly.
 
+### The full acceptance list, with rank labels (added 2026-08-16)
+
+The app's "Every acceptance, 2023–2026" list carries **all 225 institutions**
+(exact count from a line-level pdfplumber extraction; 94 bold/matriculated),
+each ranked college showing its **2026 U.S. News rank label** on the card —
+the same labels the six original schools use, taken from the shared table at
+`source-material/college-support/_shared/US News 2026 - Rank Labels.md`.
+Three institutions on Covenant Day's list were absent from that table and were
+deep-researched against the same 2026 edition (first-party sources, added to
+the table):
+
+- **George Washington University — National Rank #59**
+ (https://gwtoday.gwu.edu/gw-climbs-highest-us-news-world-report-best-colleges-ranking-eight-years)
+- **Rensselaer Polytechnic Institute — National Rank #64**
+ (https://www.usnews.com/best-colleges/rpi-2803/overall-rankings)
+- **UC Santa Barbara — National Rank #40**
+ (https://www.usnews.com/best-colleges/university-of-california-santa-barbara-1320)
+
+The generated list's bucket tallies were validated to equal the Compare cells
+exactly — ivy 2, ivyplus 3, nu75 40, lac75 9, p4 46, hbcu 3 — and
+`npm run check:ranks` (chained into the build) now enforces that every
+ranked-bucket college on any school's list carries its rank label.
+
 ### App metric values this dossier supports
 
 `ap-performance` = 96% (2026) · `bucket-ivy` = 2/8 · `bucket-ivyplus` = 3/17 ·
@@ -559,6 +583,7 @@ school publishes no research-program, Intel/Regeneron, or Olympiad results.
 
 ## Sources referenced across these documents
 
+- https://gwtoday.gwu.edu/gw-climbs-highest-us-news-world-report-best-colleges-ranking-eight-years
 - https://resources.finalsite.net/images/v1695399666/covenant/zogqb5jfwbqp0henpd36/HighSchoolProfileFINAL9-12.pdf
 - https://resources.finalsite.net/images/v1726168257/covenant/jg1wjr67fw5ewgwy5bkz/2024-2025HSGuidanceProfilefinal_1.pdf
 - https://resources.finalsite.net/images/v1758547252/covenant/x8i0qddxvctsp5jqbpmt/2025-26HSGuidanceProfile.pdf
@@ -566,3 +591,5 @@ school publishes no research-program, Intel/Regeneron, or Olympiad results.
 - https://www.covenantday.org/academics/high-school
 - https://www.covenantday.org/campus-life/service
 - https://www.covenantday.org/fs/resource-manager/view/062375ff-cd17-49d9-9334-b194210f5f5f
+- https://www.usnews.com/best-colleges/rpi-2803/overall-rankings
+- https://www.usnews.com/best-colleges/university-of-california-santa-barbara-1320

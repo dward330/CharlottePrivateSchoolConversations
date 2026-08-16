@@ -22,8 +22,9 @@
 
 ### Headline outcomes
 
-- **85 seniors** in the Class of 2027; ~350 institutions on the published 2023-2026
-  acceptance list.
+- **85 seniors** in the Class of 2027; **225 institutions** on the published
+  2023-2026 acceptance list (exact count from a full line-level extraction of the
+  profile PDF; 94 of them bold/matriculated).
 - Acceptances in the current window include **Dartmouth, Penn, Duke, Notre Dame,
   Emory, Georgia Tech, Michigan, UVA, UNC-Chapel Hill, Wake Forest, Case Western,
   William & Mary, NYU, Villanova, Vanderbilt-tier absent** (no Vanderbilt in

@@ -97,6 +97,29 @@ acceptances. No contradiction found between editions.
   policy.
 - **Counseling platform** (Naviance/SCOIR) — not named publicly.
 
+### The full acceptance list, with rank labels (added 2026-08-16)
+
+The app's "Every acceptance, 2023–2026" list carries **all 225 institutions**
+(exact count from a line-level pdfplumber extraction; 94 bold/matriculated),
+each ranked college showing its **2026 U.S. News rank label** on the card —
+the same labels the six original schools use, taken from the shared table at
+`source-material/college-support/_shared/US News 2026 - Rank Labels.md`.
+Three institutions on Covenant Day's list were absent from that table and were
+deep-researched against the same 2026 edition (first-party sources, added to
+the table):
+
+- **George Washington University — National Rank #59**
+  (https://gwtoday.gwu.edu/gw-climbs-highest-us-news-world-report-best-colleges-ranking-eight-years)
+- **Rensselaer Polytechnic Institute — National Rank #64**
+  (https://www.usnews.com/best-colleges/rpi-2803/overall-rankings)
+- **UC Santa Barbara — National Rank #40**
+  (https://www.usnews.com/best-colleges/university-of-california-santa-barbara-1320)
+
+The generated list's bucket tallies were validated to equal the Compare cells
+exactly — ivy 2, ivyplus 3, nu75 40, lac75 9, p4 46, hbcu 3 — and
+`npm run check:ranks` (chained into the build) now enforces that every
+ranked-bucket college on any school's list carries its rank label.
+
 ### App metric values this dossier supports
 
 `ap-performance` = 96% (2026) · `bucket-ivy` = 2/8 · `bucket-ivyplus` = 3/17 ·
