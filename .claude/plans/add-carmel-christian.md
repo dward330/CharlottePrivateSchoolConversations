@@ -1,7 +1,7 @@
 ---
 name: add-carmel-christian
 title: Add Carmel Christian School as the 8th school
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-08-16
 branch: feat/add-carmel-christian
