@@ -178,3 +178,59 @@
 | George Washington University | National Rank #59 | *added 2026-08-16* |
 | Rensselaer Polytechnic Institute | National Rank #64 | *added 2026-08-16* |
 | University of California (Santa Barbara) | National Rank #40 | *added 2026-08-16* |
+
+## Power-4 tail + HBCU national/LAC ranks (added 2026-08-16)
+
+Added during the Carmel Christian review, when the user asked that **every college
+with a genuine US News National Universities or National Liberal Arts rank carry
+its label** — closing the "sixteen P4-tail universities unlabeled" limitation noted
+above, and labeling HBCUs that hold a National/LAC rank.
+
+**Rule for HBCUs (user-set, 2026-08-16):** an HBCU is labeled **only if it holds a
+National Universities OR National Liberal Arts rank**. HBCUs ranked only in the
+US News HBCU specialty list or in Regional Universities/Colleges are left
+UNLABELED (Norfolk State, NC Central, South Carolina State, Tennessee State,
+Winston-Salem State, Xavier LA, Alabama A&M, Albany State, Delaware State,
+Elizabeth City State, Fayetteville State, Lincoln PA, Livingstone, Virginia State).
+
+Power-4 tail national universities:
+
+| University | Rank label |
+|---|---|
+| Southern Methodist University | National Rank #88 |
+| University of Missouri | National Rank #102 |
+| Brigham Young University | National Rank #110 |
+| University of Oregon | National Rank #110 |
+| Arizona State University | National Rank #117 |
+| Iowa State University | National Rank #117 |
+| University of Central Florida | National Rank #117 |
+| University of Houston | National Rank #132 |
+| University of Utah | National Rank #151 |
+| Kansas State University | National Rank #158 |
+| University of Cincinnati | National Rank #158 |
+| Louisiana State University | National Rank #169 |
+| Oklahoma State University | National Rank #198 |
+| Texas Tech University | National Rank #198 |
+| Mississippi State University | National Rank #208 |
+| West Virginia University | National Rank #222 |
+
+HBCUs holding a National/LAC rank (these get labeled):
+
+| HBCU | Rank label | Note |
+|---|---|---|
+| Howard University | National Rank #88 | already labeled before this pass |
+| Florida A&M University | National Rank #92 | also "Florida Agricultural and Mechanical" |
+| North Carolina A&T State University | National Rank #232 | all name variants |
+| Hampton University | National Rank #273 | |
+| Clark Atlanta University | National Rank #329 | |
+| Morgan State University | National Rank #329 | |
+| Fisk University | Liberal Rank #156 | National Liberal Arts |
+| Johnson C. Smith University | Liberal Rank #173 | National Liberal Arts; also "Johnson C Smith" |
+
+**Sourcing caveat:** usnews.com blocked automated profile fetches, so these 2026
+numbers were corroborated from US News search snapshots + school/press releases +
+two HBCU-list aggregators (agreed across sources). A few remain worth a manual
+usnews.com confirm if published verbatim — Texas Tech #198 (vs the #123 *Global*
+figure), and the Winston-Salem State National-vs-Regional question (treated here as
+Regional → unlabeled). Tennessee State sits in the unranked National band (no
+discrete number) → unlabeled.
