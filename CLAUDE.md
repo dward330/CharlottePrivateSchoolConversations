@@ -92,13 +92,21 @@ As of 2026-08-15 that is Davidson Day — 17/30 Compare rows (**56%**), 7 of 8 a
 Summer Programs material at all. The gate is **≥17 of 30 Compare rows and ≥6 of 8 areas**,
 compared inclusively: exactly 17/30 passes, 16/30 does not. Counted in **rows, not rounded
 percentages** — each row moves the figure ~3.3 points. **Each research area also gets its
-own coverage percentage** against the same 56%, pooled across its core prose cards,
-structured-card field sets and Compare rows, so an area reads against the roster floor
-directly. Per area, a candidate is judged against the card keys **5–6 of 6** existing
-schools hold, never against every key that exists — `the-arts :: courses` sits at 1/6, so
-its absence is not a gap.
+own coverage percentage**, pooled across its core prose cards, structured-card field sets
+and Compare rows, and judged against the card keys **5–6 of 6** existing schools hold,
+never against every key that exists — `the-arts :: courses` sits at 1/6, so its absence is
+not a gap.
 
-**An area under 56% is not dropped — it is offered a deeper look.** The step-3 sweep is
+**The per-area line is ~50%, deliberately NOT the school-wide 56%**, and it is a trigger
+for a conversation rather than a pass/fail gate. Three reasons, each of which bit a draft:
+the 56% is a rate over 30 Compare rows while an area's denominator is 4–23, so they are
+not the same kind of measurement; **Davidson Day — the school the bar is calibrated to —
+has no Summer Programs material at all (0%)**, so a 56% per-area gate would reject an area
+the project already ships without; and Course Offerings quantizes to 0/25/50/75/100, where
+"56%" is unreachable and would silently behave as 75%. **Always print counts beside an
+area percentage** — one item swings Sports 4 points and Course Offerings 25.
+
+**An area under the line is not dropped — it is offered a deeper look.** The step-3 sweep is
 deliberately shallow, so a low score conflates *the data is not published* with *one quick
 pass did not find it*, and deciding include-or-omit on that ambiguity decides on bad
 information. The per-area walk therefore offers **dig deeper / include as-is / omit**, and

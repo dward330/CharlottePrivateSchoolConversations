@@ -134,25 +134,46 @@ Sports and Tuition are populatable." Lead with the answer, not the methodology.
 
 | Research area | Core prose cards | Structured card | Compare rows | Coverage | Verdict |
 |---|--:|--:|--:|--:|---|
-| Course Offerings | 1/1 | — | 2/3 | **~83%** | include |
-| Sports | 12/14 | fields for 5/7 cards | 2/2 | **~78%** | include |
-| After School | 2/6 | fields for 1/4 cards | 0/2 | **~25%** | **thin** |
+| Course Offerings | 1/1 | — | 2/3 | **~75%** (3/4) | include |
+| Sports | 12/14 | fields for 5/7 cards | 2/2 | **~83%** (19/23) | include |
+| After School | 2/4 | fields for 1/4 cards | 0/2 | **~30%** (3/10) | **thin** |
 
 Rules for the table:
 
-- **Give every area a single coverage percentage**, so areas are comparable to each other
-  and to the 56% floor. Compute it as **items found ÷ items applicable**, pooling the three
-  columns — for After School above, (2 + 1 + 0) ÷ (6 + 4 + 2) = 25%. Pool rather than
-  averaging the three columns, so an area with 6 prose cards and 1 Compare row is not
-  distorted by a single missing number. An `—` column (no structured card, no Compare rows
-  for that area) drops out of both sides rather than counting as zero.
+- **Give every area a single coverage percentage.** Compute it as **items found ÷ items
+  applicable**, pooling the three columns — for After School above, (2 + 1 + 0) ÷
+  (6 + 4 + 2) = 25%. Pool rather than averaging the three columns, so an area with 6 prose
+  cards and 1 Compare row is not distorted by a single missing number. An `—` column (no
+  structured card, no Compare rows for that area) drops out of both sides rather than
+  counting as zero.
+- **Always print the counts beside the percentage, because the denominators are small and
+  wildly uneven.** Measured against the live schema on 2026-08-15:
+
+  | Area | Denominator | One item swings |
+  |---|--:|--:|
+  | Sports | 23 | 4 pts |
+  | College Support | 22 | 5 pts |
+  | The Arts | 12 | 8 pts |
+  | After School | 10 | 10 pts |
+  | Student Clubs | 9 | 11 pts |
+  | Summer Programs | 7 | 14 pts |
+  | Financial Aid & Tuition | 5 | 20 pts |
+  | Course Offerings | 4 | **25 pts** |
+
+  A 5.8× spread. **Course Offerings can only ever read 0 / 25 / 50 / 75 / 100%** — there is
+  no such thing as a 56% there, and a single curriculum-guide PDF is the difference between
+  25% and 75%. Treat a Sports percentage as a measurement and a Course Offerings percentage
+  as a rough signal; never compare the two as if they carried equal weight. Recompute these
+  denominators from the schema doc rather than trusting the table — they move whenever a
+  card or Compare row is added.
 - **Score against the cards the existing schools actually have, not every card that
   exists.** §2 of the schema doc gives a `Schools` count per card key. Judge a candidate on
   the keys **5 or 6 of 6** schools hold; a key only 1 of 6 holds (`the-arts :: courses`,
   `digital-arts`) is not a gap when a new school lacks it. Comparing like with like is what
   makes the number mean something — measuring against all possible cards understates every
   school, including the ones already shipped. **The denominator is the core-card count, not
-  the full one**, so state it (`2/6 core cards`) rather than leaving it ambiguous.
+  the full one**, so state it (`2/4 core cards`, not `2/6`) rather than leaving it
+  ambiguous — the two denominators differ in every area but Sports and Course Offerings.
 - **Any figure is an estimate and must be labelled** (`~`). They come from a scoped sweep;
   presenting them as precise is a number the user would reasonably act on. The area
   percentages especially: they rest on small denominators, where one found PDF can move an
@@ -192,17 +213,39 @@ research areas, with **no Summer Programs material at all**. That was an accepta
 outcome, so the floor is "at least as good as our thinnest shipped school," not an invented
 round number. `npm run coverage:floor` recomputes it.
 
-- **Per area (include / omit / dig deeper):** **≥56% coverage of the area**, on the pooled
-  figure from the table above — the same 56% as the school-wide bar, applied per area, so
-  the two numbers mean the same thing and an area can be read against the roster floor
-  directly. Under that, the area goes to the step-5 walk rather than being dropped: a low
-  score is often the shallow sweep rather than the school. Judge the numerator on the card
-  keys 5–6 of 6 existing schools hold — missing a near-universal card is the signal,
-  missing a rare one is not.
+- **Per area (include / omit / dig deeper):** **under ~50%, take the area to the step-5
+  walk.** Judge the numerator on the card keys 5–6 of 6 existing schools hold — missing a
+  near-universal card is the signal, missing a rare one is not.
+
+  **This is a trigger for a conversation, not a pass/fail gate — and it is deliberately
+  NOT the school-wide 56%.** Three reasons, each of which bit an earlier draft of this
+  skill:
+
+  1. **56% is a rate over 30 Compare rows.** An area's denominator is 4–23, so the two
+     numbers are not the same kind of measurement and a shared threshold implies a
+     precision that is not there.
+  2. **The calibration school fails it.** Davidson Day — the shipped floor this whole bar
+     is derived from — has **no Summer Programs material at all**, or 0%. A per-area gate
+     at 56% rejects an area the project already ships without. Any per-area threshold must
+     survive that test; run it against the roster before changing this number.
+  3. **Coarse areas cannot express it.** Course Offerings quantizes to 0/25/50/75/100 —
+     "56%" is unreachable, so the bar would silently behave as 75% there.
+
+  So: ~50% is a rough line for *which areas are worth discussing*, and the discussion —
+  with its dig-deeper option — is what actually decides. An area a hair under it that the
+  user obviously wants is included without ceremony.
 - **School-wide (go / no-go):** **≥17 of 30 Compare rows, and ≥6 of 8 research areas.**
   The comparison is **inclusive** — exactly 17/30 passes, 16/30 (53%) does not. Count in
   **rows, not rounded percentages**: each row moves the figure ~3.3 points, so "56%" means
   "at least 17 of 30." Do not round to a neater number in either direction.
+
+  **Do not confuse this 56% with an area percentage.** They measure different things and
+  are not comparable: this one is Compare rows only, across the whole school, against a
+  denominator of 30; an area percentage pools prose cards and structured-card fields too,
+  against a denominator of 4–23. A school can sit at 90% on most areas and still miss this
+  bar, because published *numbers* are scarcer than published *prose* — that asymmetry is
+  a finding worth reporting, not an inconsistency to reconcile. When both figures appear in
+  one report, label them (`Compare rows: 17/30` vs `Sports area: ~83%`).
 
   On the area count, the script derives 7/8 from Davidson Day, but the stated bar is
   **6 of 8** — one area more permissive, deliberately. Davidson Day is missing its one area
@@ -229,16 +272,16 @@ means yes, and do not editorialize a low one into a no.
 If they decline: stop. Report the URLs you found so the sweep is not wasted if they return
 to it later. Write nothing.
 
-If they proceed: **walk the research areas that came back under 56%, one at a time**, in
+If they proceed: **walk the research areas that came back under ~50%, one at a time**, in
 schema order. For each, give the percentage and the counts behind it, what is missing, and
 what including it would actually look like on the page — then offer **three** options, not
 two. One question per area, not a single bundled list, because the decisions are
 independent and the reasoning differs per area.
 
-> **After School — ~25%** (2 of 6 core cards, 1 of 4 structured-card field sets, 0 of 2
-> Compare rows). The extended-day page names the program and its hours but publishes no
-> prices, so the Cost Planner card can't be built and both aftercare Compare rows would be
-> N/A. Including it gives a Coverage-map card and little else.
+> **After School — ~30%** (3 of 10: 2 of 4 core cards, 1 of 4 structured-card field sets,
+> 0 of 2 Compare rows). The extended-day page names the program and its hours but publishes
+> no prices, so the Cost Planner card can't be built and both aftercare Compare rows would
+> be N/A. Including it gives a Coverage-map card and little else.
 >
 > **Dig deeper**, include as-is, or omit the area for this school?
 
@@ -256,9 +299,11 @@ When the user picks it, run a **focused deep research pass on that one area only
   (a tuition table pulled before an inquiry-form redesign still counts as published), local
   press, the diocese or association the school belongs to, and PDFs the site never links.
 - Score it again on the same basis as step 4 and **report the delta plainly** — "After
-  School: ~25% → ~58% (core cards 2/6 → 4/6, Compare rows 0/2 → 2/2); found the 2025–26
-  rate sheet as a PDF the site never links."
-- Then ask the same question again with the new number, and say whether it now clears 56%.
+  School: ~30% → ~60%, i.e. 3 of 10 items to 6 of 10 (core cards 2/4 → 3/4, Compare rows
+  0/2 → 2/2); found the 2025–26 rate sheet as a PDF the site never links."
+- Then ask the same question again with the new number. Say what moved in **counts**, not
+  just the percentage — on a 10-item denominator "25% → 58%" is three found items, and the
+  user should be told that rather than left to infer a bigger change than occurred.
 
 Two honesty rules on this, because the failure mode is talking yourself into a school:
 
