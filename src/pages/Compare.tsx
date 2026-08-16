@@ -14,7 +14,12 @@ import { SchoolBadge } from '../components/SchoolBadge.tsx'
 import { BlueprintCorners } from '../components/BlueprintCorners.tsx'
 import { CellQual } from '../components/CellQual.tsx'
 import { toCompare, toSchool, toHome, useNavigate } from '../lib/router.ts'
-import { valueMetricsForTopic, loadMetricValuesOverlay, englishValueOf } from '../data/metricValues.ts'
+import {
+  valueMetricsForTopic,
+  loadMetricValuesOverlay,
+  englishValueOf,
+  type ValueMetric,
+} from '../data/metricValues.ts'
 
 type Props = { topic: string | null; schools: string[] }
 
@@ -80,6 +85,95 @@ function spanMinutesOf(v: string | null | undefined): number | null {
   if (start == null || end == null) return null
   const len = end - start
   return len > 0 ? len : null
+}
+
+/* Total of a COMPOUND count ("23 AP + 18 IB" -> 41, "28 AP" -> 28). Sums every
+   number in the string, so a single-component value still ranks. */
+function sumOf(v: string | null | undefined): number | null {
+  if (v == null) return null
+  const nums = v.match(/\d+(?:\.\d+)?/g)
+  if (!nums) return null
+  return nums.reduce((a, n) => a + Number(n), 0)
+}
+
+/* Quotient of "43 / 68" -> 0.632. Returns null on a zero or missing
+   denominator rather than Infinity/NaN, which would sort as a bogus winner. */
+function fractionOf(v: string | null | undefined): number | null {
+  if (v == null) return null
+  const m = /(\d+(?:\.\d+)?)\s*\/\s*(\d+(?:\.\d+)?)/.exec(v)
+  if (!m) return null
+  const den = Number(m[2])
+  return den > 0 ? Number(m[1]) / den : null
+}
+
+/* The two ends of a numeric range, in comparable units.
+
+   Grade bands and ages are mixed in the same column — "4–18" is in years while
+   "JK–Grade 12" is in grades — so grade tokens are mapped onto the age a child
+   in that grade turns. Without this the two kinds cannot be ranked against each
+   other at all, which is why the old reading scored "JK–Grade 12" as 12 and
+   "4–18" as 418. */
+function agePointOf(part: string): number | null {
+  const t = part.trim()
+  // Named early-years bands, in the spellings the data actually uses.
+  if (/^(age\s*)?2$/i.test(t)) return 2
+  if (/\b(tk|jrk|jk|pre-?k)\b/i.test(t)) return 4
+  if (/\bk(indergarten)?\b/i.test(t) && !/grade/i.test(t)) return 5
+  const g = /\b(?:gr(?:ade)?\.?\s*)(\d{1,2})\b/i.exec(t)
+  if (g) return Number(g[1]) + 5 // a Grade 12 student is ~17–18
+  const plain = /(\d{1,2}(?:\.\d)?)/.exec(t)
+  return plain ? Number(plain[1]) : null
+}
+
+function rangeEndsOf(v: string | null | undefined): [number, number] | null {
+  if (v == null) return null
+  const parts = v.split(/[–—]|(?<=\d)\s*-\s*(?=\d)/)
+  if (parts.length !== 2) return null
+  const a = agePointOf(parts[0])
+  const b = agePointOf(parts[1])
+  if (a == null || b == null) return null
+  return [a, b]
+}
+
+/**
+ * The number the leader tint ranks this cell on.
+ *
+ * A `compareAs` row reads the ENGLISH source rather than the rendered cell: the
+ * display string is translated prose whose shape is not stable across locales
+ * (the wrap-around row alone ships `7:00 AM`, `7:00 a.m.` and `7:00 صباحًا`), so
+ * parsing what the reader sees would rank correctly in English and arbitrarily
+ * everywhere else. Plain rows keep reading `vm.values`, which is already the
+ * localized-or-English string and holds a bare number either way.
+ *
+ * `range-start` is negated so that EARLIER wins under the same `Math.max` the
+ * caller applies to every other row — the row's own flag, not a caller branch.
+ */
+function rankValueOf(vm: ValueMetric, slug: string): number | null {
+  if (!vm.compareAs) return numericOf(vm.values[slug], vm.lowerIsBetter)
+  const en = englishValueOf(vm.key, slug)
+  switch (vm.compareAs) {
+    case 'span':
+      return spanMinutesOf(en)
+    case 'sum':
+      return sumOf(en)
+    case 'fraction':
+      return fractionOf(en)
+    case 'range-width': {
+      const ends = rangeEndsOf(en)
+      return ends ? ends[1] - ends[0] : null
+    }
+    case 'range-start': {
+      const ends = rangeEndsOf(en)
+      return ends ? -ends[0] : null
+    }
+    case 'range-mid': {
+      const ends = rangeEndsOf(en)
+      if (ends) return (ends[0] + ends[1]) / 2
+      // A plain count in a range-mid row ("77") is not a range — rank it as-is
+      // so it still competes against the school that published a band.
+      return numericOf(en)
+    }
+  }
 }
 
 export function Compare({ topic, schools }: Props) {
@@ -212,11 +306,7 @@ export function Compare({ topic, schools }: Props) {
                     // differently per language (`a.m.` in French, `صباحًا` in
                     // Arabic), so parsing what the reader sees would rank the row
                     // correctly in English and arbitrarily elsewhere.
-                    const nums = cols.map((s) =>
-                      vm.compareAs === 'span'
-                        ? spanMinutesOf(englishValueOf(vm.key, s.slug))
-                        : numericOf(vm.values[s.slug], vm.lowerIsBetter),
-                    )
+                    const nums = cols.map((s) => rankValueOf(vm, s.slug))
                     const present = nums.filter((n): n is number => n != null)
                     const best =
                       !vm.noLead && cols.length > 1 && present.length > 1 && Math.min(...present) !== Math.max(...present)
