@@ -2,11 +2,12 @@
 name: add-school
 description: >
   Assess whether a new school can be added to the app, then hand off to /plan. Asks which
-  school and what city/state (and which Welcome Video the page should feature), runs a
+  school and what city/state, runs a
   scoped web sweep against the live data schema, and
   reports a coverage table — how much of each research area, structured card, and Compare
   row we could actually populate, measured against the thinnest school already shipped. If
-  the user proceeds, it walks the thin research areas one at a time, then invokes /plan to
+  the user proceeds, it walks the thin research areas one at a time, asks which Welcome
+  Video the page should feature, then invokes /plan to
   write the implementation plan. Use when the user types /add-school, or asks to "add a
   school", "can we add <school>", "what would it take to cover <school>". This skill
   RESEARCHES AND PLANS ONLY — it never edits app code or writes source-material.
@@ -61,27 +62,10 @@ school** in that city. If the search turns up two plausible schools with the sam
 ask which one rather than guessing — an entire sweep against the wrong school is the most
 expensive mistake available here.
 
-### 1b. Ask which Welcome Video the school's page should use
-
-Once the school is identified (and before anything else runs), ask the user:
-
-> Which **Welcome Video** do you want on this school's page? Paste a YouTube link — or say
-> "none" and the page simply won't show a Welcome Video section.
-
-Rules for this question (user-set, 2026-08-16):
-
-- **It is asked here, every run** — after the school details, before the `/plan` doc is
-  built — not left for `/implement` to discover. The six original schools all carry one,
-  and Covenant Day initially shipped without because nobody asked.
-- **"None" is a fine answer.** `welcomeVideoUrl` is optional on the `Brand` type; a school
-  without one hides the Welcome Video section and its TOC entries entirely (the standing
-  absence-not-emptiness rule). Record the explicit "none" so `/implement` doesn't treat
-  the gap as an oversight.
-- **Normalize to the embed form.** `brands.ts` requires a YouTube **embed** URL
-  (`https://www.youtube.com/embed/<id>`), not a watch/share link — convert whatever the
-  user pastes and confirm the video ID back to them.
-- **Carry it into the `/plan` brief** (step 6), where it lands in the plan's `brands.ts`
-  step so `/implement` wires `welcomeVideoUrl` alongside the color and initials.
+**Do NOT ask about the Welcome Video here.** That question waits until the school has been
+assessed and the user has decided to proceed — it is asked in step 5b, not now. Asking a
+parent-facing question about a school we may not add wastes the user's time; the viability
+call comes first. (User-set, 2026-08-16.)
 
 ### 2. Read the schema — do not work from memory
 
@@ -355,6 +339,33 @@ of, and note the precedent when it helps the user decide.
 **Record every answer.** These decisions are the main thing this skill contributes to the
 plan, and a fresh `/implement` window cannot re-derive them.
 
+### 5b. Ask which Welcome Video the school's page should use
+
+**Only once the user has decided to proceed** (step 5) — never before. Assessing a school
+we may not add, then asking a parent-facing question about it, wastes the user's time; the
+viability call comes first. So this question comes after "yes, add it," in the same flow as
+the thin-area walk. (User-set, 2026-08-16 — moved here from step 1.)
+
+Ask the user:
+
+> Which **Welcome Video** do you want on this school's page? Paste a YouTube link — or say
+> "none" and the page simply won't show a Welcome Video section.
+
+Rules for this question:
+
+- **It is asked every run**, once the school is a go — not left for `/implement` to
+  discover. The six original schools all carry one, and Covenant Day initially shipped
+  without because nobody asked.
+- **"None" is a fine answer.** `welcomeVideoUrl` is optional on the `Brand` type; a school
+  without one hides the Welcome Video section and its TOC entries entirely (the standing
+  absence-not-emptiness rule). Record the explicit "none" so `/implement` doesn't treat
+  the gap as an oversight.
+- **Normalize to the embed form.** `brands.ts` requires a YouTube **embed** URL
+  (`https://www.youtube.com/embed/<id>`), not a watch/share link — convert whatever the
+  user pastes and confirm the video ID back to them.
+- **Carry it into the `/plan` brief** (step 6), where it lands in the plan's `brands.ts`
+  step so `/implement` wires `welcomeVideoUrl` alongside the color and initials.
+
 ### 6. Hand off to /plan
 
 Invoke the **`plan` skill** and let it run its normal flow. Do not write the plan document
@@ -368,7 +379,7 @@ The name defaults to `add-<school-slug>` unless the user wants another; offer th
 The brief must carry, explicitly:
 
 - **The school** — full name, city/state, slug, official site.
-- **The Welcome Video decision from step 1b** — the normalized embed URL, or the user's
+- **The Welcome Video decision from step 5b** — the normalized embed URL, or the user's
   explicit "none". Either way it is a decision already made; the plan's `brands.ts` step
   records it so `/implement` wires (or deliberately omits) `welcomeVideoUrl`.
 - **The coverage table**, verbatim, and the sweep's overall figure.
@@ -402,6 +413,20 @@ implementing window would otherwise get wrong:
 - **Sparse is worse than absent.** Better to omit a card than ship one padded with
   "not published". Where a real gap must be shown, the topic's existing flag types
   (`gap`, `verify`, `estimate`) are how — they exist for this.
+- **Build each card to the FULLEST existing school's structure, not the most-recent add's.**
+  A new school's per-school data files should mirror the richest, most complete example for
+  each area — Providence Day, Charlotte Latin and Cannon are the deep ones (~96% Compare
+  fill) — populating every optional field, stat tile, season/ledger/funnel/roster row and
+  sub-card the candidate has real data for. The instinct is to copy the school added *last*
+  because it is the freshest example, but the last add may be a **thin** school, and copying
+  its depth silently caps the new school below what its data supports. Use the recent add as
+  a **mechanical** reference only (where a file lives, how the `PROGRAMS` import is wired) —
+  never as the content model. A field is dropped **only** where the data is genuinely
+  unpublished (then the absence-not-emptiness rule above applies), never because a thinner
+  school happened to leave it off. The plan's brief must say this explicitly, and its Phase-1
+  browser check should compare the new page side-by-side with a data-rich school to confirm
+  the rich areas reached full depth. (User-set, 2026-08-16, after a plan defaulted to
+  mirroring Covenant Day — a 56%-fill school — throughout.)
 - **The six structured-card modules need a hand-added import.** Nothing auto-discovers
   `src/data/sportsPrograms/<slug>.ts` — the `PROGRAMS` map in each topic root
   (`sportsProgram.ts:429`, `artsProgram.ts:362`, `clubsProgram.ts:280`,
@@ -417,6 +442,37 @@ implementing window would otherwise get wrong:
   apart), `src/data/financialAidReports.ts`, `src/data/clubClusters.ts`,
   `src/data/courseOfferings.ts` (`OFFERINGS`), `src/data/clubCatalog.ts` (`CATALOG`), and
   `SCHOOL_NAMES` in the ingest script's `build_docs.py`.
+- **Every college on the acceptance list that holds a real U.S. News rank gets its
+  `rankLabel` — National *or* National Liberal Arts, at ANY rank, not just the top-75
+  buckets.** The "Where Graduates Go" list in `src/data/collegeSupportPrograms/<slug>.ts`
+  shows each college's rank on the right (`National Rank #80`, `Liberal Rank #21`). The rule
+  is **inclusive**: a college ranked #80, #250, or in a published band like `#395-434` still
+  shows that label — the label is informational and is independent of the `cats` buckets
+  (`nu75`/`lac75` stay genuinely top-75 and drive only the filter chips, so a #80 school gets
+  the label with `cats: []`). Only these carry **no** label: U.S. News **Regional**
+  Universities/Colleges, community/technical colleges, specialty art/music/design schools,
+  seminaries, and **foreign** universities (Best Global does not count) — all genuinely
+  unranked in the two national lists. (User-set, 2026-08-16, after Drexel #80 and DePaul #169
+  shipped unlabeled because the old rule only labelled bucketed colleges.)
+
+  **Reuse the shared table first, then research only the gaps — this is the efficiency, and
+  it is mandatory, not optional.** `source-material/college-support/_shared/US News 2026 -
+  Rank Labels.md` is the canonical `rankLabel` table (one row per institution, zero
+  conflicts by construction). For each college on the new school's list: (1) if it is in the
+  table, **copy the label verbatim** — never re-type or re-derive a rank that already exists;
+  (2) only if it is absent, deep-research its 2026 U.S. News rank and **add it to the table
+  with its source** so the next school reuses it. Research each *unseen* institution once,
+  ever; the table is what makes the cost fall with every school added rather than repeating.
+  Match institutions by school, not by exact string — the lists carry many spellings of one
+  school (`University of California–Irvine` = `UC (Irvine)`), and the table key is canonical.
+  The sourcing channel that works when usnews.com times out is **Yahoo search** (`https://
+  search.yahoo.com/search?p=<school>+us+news+2026+ranked`), which surfaces the verbatim
+  "In the 2026 edition of Best Colleges, <school> is ranked No. #N in <category>" line;
+  never write a label without that verbatim 2026 figure, and never guess or use a prior-year
+  number. `npm run check:ranks` (chained into `npm run build`) enforces that every
+  ranked-**bucket** college has a label and that no institution's label conflicts across
+  schools — but it does **not** catch a label missing on a `cats: []` college, so the
+  inclusive rule above is a research obligation, not something the check will flag for you.
 - **`src/data/brands.ts` degrades gracefully** — `brandFor()` falls back to slate
   `#5b6472` plus initials derived from the name (`brands.ts:70`). So a missing entry is not
   a breakage, but the school ships with a generic badge and no crest. Add color + initials
