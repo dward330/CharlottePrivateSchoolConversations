@@ -74,10 +74,28 @@ export type ValueMetric = {
    * span (Charlotte Christian's nine hours) outranks the widest (Providence
    * Day's eleven) purely because its drop-off hour starts with an 8.
    *
-   * Spans are ranked on their English source, never the rendered cell — see
+   * `'sum'` is for a COMPOUND count ("23 AP + 18 IB"), where the row asks for a
+   * total and the default reading concatenates instead — "23 AP + 18 IB" parses
+   * as 2318, beating every school that publishes one plain number.
+   *
+   * `'fraction'` is for "43 / 68", ranked as the real quotient. The default
+   * reading (4368) happens to order these rows correctly ONLY while every
+   * denominator in the row is identical, which is luck rather than logic.
+   *
+   * `'range-width'` is for a numeric range ("4–18", "~45–50"), ranked on how
+   * WIDE it is. The default concatenates the ends into 418 / 4550.
+   *
+   * `'range-start'` is for a range ranked on where it BEGINS — an arts program
+   * running from age 2 starts earlier than one starting at TK, and lower wins.
+   *
+   * `'range-mid'` is for a single imprecise COUNT written as a range ("~45–50"),
+   * ranked on its midpoint so it competes against the plain numbers beside it
+   * instead of concatenating into 4550.
+   *
+   * All of these rank on the English source, never the rendered cell — see
    * `englishValueOf` for why.
    */
-  compareAs?: 'span'
+  compareAs?: 'span' | 'sum' | 'fraction' | 'range-width' | 'range-start' | 'range-mid'
   /** Optional per-school provenance. Only cells needing a caveat appear here. */
   quals?: Record<string, CellQual>
 }
@@ -123,6 +141,11 @@ export const VALUE_METRICS: ValueMetric[] = [
     key: 'advanced-courses',
     label: 'AP / advanced courses',
     note: 'The school’s own count of college-level courses. Country Day is the only school here offering both AP and the IB Diploma; Cannon adds 13 faculty-designed Advanced Topics courses carrying the same weight as an AP.',
+    // Compound values ("23 AP + 18 IB") are TOTALLED, since the row asks how
+    // many college-level courses a school offers and the note already explains
+    // that AT and IB sit alongside AP. The default reading concatenated them,
+    // so 2318 and 1413 outranked every school publishing one plain number.
+    compareAs: 'sum',
     values: {
       cannon: '14 AP + 13 AT', // 2026-27 catalog count; the 2025-26 profile stated 13 AP / 8 AT before the AT program expanded
       'charlotte-christian': '21 AP', // the guide's own AP roster, corroborated by the admissions FAQ
@@ -192,6 +215,10 @@ export const VALUE_METRICS: ValueMetric[] = [
     key: 'bucket-ivy',
     label: 'Ivy League',
     note: 'Of the 8 Ivy League universities, how many appear on the school’s published acceptance list. Derived from that list against the 2026 U.S. News tables — not a school-reported figure.',
+    // "43 / 68" is a real fraction and ranks as the quotient. The default
+    // reading (4368) orders these rows correctly ONLY while every denominator
+    // in the row is identical — true today, but luck rather than logic.
+    compareAs: 'fraction',
     values: {
       cannon: '3 / 8', // buckets, collegeSupportPrograms/cannon.ts
       'charlotte-christian': '2 / 8', // buckets, collegeSupportPrograms/charlotte-christian.ts
@@ -214,6 +241,10 @@ export const VALUE_METRICS: ValueMetric[] = [
     key: 'bucket-ivyplus',
     label: '“Ivy Plus”',
     note: 'Of the 17 “Ivy Plus” institutions — the eight Ivies plus Stanford, MIT, Chicago, Duke, Caltech and peers — how many appear on the school’s acceptance list.',
+    // "43 / 68" is a real fraction and ranks as the quotient. The default
+    // reading (4368) orders these rows correctly ONLY while every denominator
+    // in the row is identical — true today, but luck rather than logic.
+    compareAs: 'fraction',
     values: {
       cannon: '10 / 17', // buckets, collegeSupportPrograms/cannon.ts
       'charlotte-christian': '4 / 17', // buckets, collegeSupportPrograms/charlotte-christian.ts
@@ -236,6 +267,10 @@ export const VALUE_METRICS: ValueMetric[] = [
     key: 'bucket-nu75',
     label: 'Top-75 National Universities',
     note: 'Of the top 75 National Universities in the 2026 U.S. News table, how many appear on the school’s acceptance list.',
+    // "43 / 68" is a real fraction and ranks as the quotient. The default
+    // reading (4368) orders these rows correctly ONLY while every denominator
+    // in the row is identical — true today, but luck rather than logic.
+    compareAs: 'fraction',
     values: {
       cannon: '46 / 75', // buckets, collegeSupportPrograms/cannon.ts
       'charlotte-christian': '30 / 75', // buckets, collegeSupportPrograms/charlotte-christian.ts
@@ -258,6 +293,10 @@ export const VALUE_METRICS: ValueMetric[] = [
     key: 'bucket-lac75',
     label: 'Top-75 Liberal Arts',
     note: 'Of the top 75 Liberal Arts Colleges in the 2026 U.S. News table, how many appear on the school’s acceptance list.',
+    // "43 / 68" is a real fraction and ranks as the quotient. The default
+    // reading (4368) orders these rows correctly ONLY while every denominator
+    // in the row is identical — true today, but luck rather than logic.
+    compareAs: 'fraction',
     values: {
       cannon: '27 / 75', // buckets, collegeSupportPrograms/cannon.ts
       'charlotte-christian': '7 / 75', // buckets, collegeSupportPrograms/charlotte-christian.ts
@@ -280,6 +319,10 @@ export const VALUE_METRICS: ValueMetric[] = [
     key: 'bucket-p4',
     label: 'Power Four',
     note: 'Of the 68 Power Four athletic-conference universities (ACC, Big Ten, Big 12, SEC — including Notre Dame), how many appear on the school’s acceptance list.',
+    // "43 / 68" is a real fraction and ranks as the quotient. The default
+    // reading (4368) orders these rows correctly ONLY while every denominator
+    // in the row is identical — true today, but luck rather than logic.
+    compareAs: 'fraction',
     values: {
       cannon: '43 / 68', // buckets, collegeSupportPrograms/cannon.ts
       'charlotte-christian': '34 / 68', // buckets, collegeSupportPrograms/charlotte-christian.ts
@@ -305,6 +348,10 @@ export const VALUE_METRICS: ValueMetric[] = [
     key: 'bucket-hbcu',
     label: 'HBCUs',
     note: 'Of the 107 Historically Black Colleges & Universities, how many appear on the school’s acceptance list.',
+    // "43 / 68" is a real fraction and ranks as the quotient. The default
+    // reading (4368) orders these rows correctly ONLY while every denominator
+    // in the row is identical — true today, but luck rather than logic.
+    compareAs: 'fraction',
     values: {
       cannon: '5 / 107', // buckets, collegeSupportPrograms/cannon.ts
       'charlotte-christian': '10 / 107', // buckets, collegeSupportPrograms/charlotte-christian.ts
@@ -465,6 +512,11 @@ export const VALUE_METRICS: ValueMetric[] = [
     key: 'program-span',
     label: 'Program span',
     note: 'Grade span of the arts program as each school states it.',
+    // Every school ends at 12, so the only real distinction is where the
+    // program STARTS — earliest wins. The default reading found no distinction
+    // at all (five schools tie at 12) except to tint Davidson Day for the
+    // literal 2 in "Age 2–Gr 12", which was the right answer by accident.
+    compareAs: 'range-start',
     values: {
       cannon: 'JrK–12',
       'charlotte-christian': 'JK–12',
@@ -505,6 +557,11 @@ export const VALUE_METRICS: ValueMetric[] = [
     key: 'signature-recognition',
     label: 'Signature recognition',
     note: 'The most notable arts recognition or distinction named in each school’s note (measured differently per school).',
+    // Prose naming a different KIND of distinction per school — a festival, a
+    // Blumey award, a participation rate. Three of the six parse to nothing at
+    // all and so could never be tinted; the default reading handed the row to
+    // Latin's "80%+ participation" purely for carrying a number.
+    noLead: true,
     values: {
       cannon: 'NCTC festival', // competes in NC Theatre Conference HS Play Festival
       'charlotte-christian': 'Blumey Best Show', // Blumey Best Show for Oklahoma! (2013)
@@ -611,6 +668,10 @@ export const VALUE_METRICS: ValueMetric[] = [
     key: 'us-organizations',
     label: 'Upper School student organizations',
     note: 'Clubs, honor societies, and student-led organizations in the Upper School. Each school counts differently — hover a figure for what it includes.',
+    // Country Day publishes a RANGE ("~45–50"), which the default reading
+    // concatenated into 4550 and tinted over Providence Day's 77. Rank the
+    // range on its midpoint so it competes as the count it represents.
+    compareAs: 'range-mid',
     values: {
       cannon: '≥19', // 8 named US orgs + 11 US honor societies; no chartered directory published
       'charlotte-christian': '23', // 23 named US orgs (part of 35 across JK–12)
@@ -648,6 +709,12 @@ export const VALUE_METRICS: ValueMetric[] = [
     key: 'flagship-result',
     label: 'Flagship result',
     note: 'The single most notable competitive club achievement documented in each school’s note.',
+    // Prose, with no orderable quantity in it: "Battle of Books 1st" and
+    // "DECA → ICDC ’26" are different competitions, not two scores on one
+    // scale. The default reading ranked whichever achievement happened to
+    // contain the largest number — "FLL Worlds top 100" won on the 100, and
+    // "Debate top-20 US" scored NEGATIVE twenty off the hyphen.
+    noLead: true,
     values: {
       cannon: 'FLL Worlds top 100', // FIRST Lego League World Championship, top 100 of 32,000+ (2024 & 2025)
       'charlotte-christian': 'Chess 2nd place', // MS Chess team 2nd at tournament
@@ -907,6 +974,13 @@ export const VALUE_METRICS: ValueMetric[] = [
     key: 'summer-ages',
     label: 'Ages served',
     note: 'The span the school’s own summer catalog covers. Latin and Cannon index camps by age; the others publish grade bands, shown here as the school states them.',
+    // Ranked on how WIDE the age band is — the row's question is which camp
+    // takes the broadest range of children. The default reading concatenated
+    // the ends ("4–18" -> 418) and, worse, could not compare the age-indexed
+    // schools against the grade-indexed ones at all ("JK–Grade 12" -> 12).
+    // Grade bands are mapped to ages by `agePointOf` so both kinds rank on one
+    // scale; see Compare.tsx.
+    compareAs: 'range-width',
     values: {
       cannon: '4–18', // "Open to all children ages 4 to 18"
       'charlotte-christian': 'JK–Grade 12', // rising 2026-27 grades; JK must turn 4 by Feb 1

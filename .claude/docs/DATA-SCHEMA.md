@@ -510,7 +510,7 @@ highest number is not the best) · **Q** carries per-cell provenance tooltips.
 | Row key | Label | Coverage | Flags |
 |---|---|--:|---|
 | `us-organizations` | Upper School student organizations | 6/6 | Q |
-| `flagship-result` | Flagship result | 6/6 | Q |
+| `flagship-result` | Flagship result | 6/6 | – Q |
 | `participation` | Participation signal | 4/6 | Q |
 
 ### The Arts `the-arts`
@@ -518,7 +518,7 @@ highest number is not the best) · **Q** carries per-cell provenance tooltips.
 | Row key | Label | Coverage | Flags |
 |---|---|--:|---|
 | `program-span` | Program span | 6/6 | Q |
-| `signature-recognition` | Signature recognition | 5/6 | Q |
+| `signature-recognition` | Signature recognition | 5/6 | – Q |
 | `advanced-arts-coursework` | Advanced coursework | 3/6 | Q |
 | `ensembles` | Ensembles / offerings | 4/6 | Q |
 
@@ -583,7 +583,7 @@ highest number is not the best) · **Q** carries per-cell provenance tooltips.
 | `subs` | `Record<string, string>` |  |
 | `noLead` | `boolean` |  |
 | `lowerIsBetter` | `boolean` |  |
-| `compareAs` | `'span'` |  |
+| `compareAs` | `'span' \| 'sum' \| 'fraction' \| 'range-width' \| 'range-start' \| 'ra…` |  |
 | `quals` | `Record<string, CellQual>` |  |
 
 **`CellQual`**
