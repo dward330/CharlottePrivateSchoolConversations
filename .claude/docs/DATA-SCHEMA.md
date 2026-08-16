@@ -368,6 +368,13 @@ added there first. Bold (matriculated) names carry `enrolling: true`, and the li
 bucket tallies must equal the school's six Compare bucket cells. Enforced by
 `npm run check:ranks` (`scripts/check_rank_labels.mjs`), chained into `npm run build`.
 
+**`wholeClass` score tables carry a percentile header only when the rows genuinely
+hold percentiles.** A school that publishes averages or tier counts instead of
+distributions sets `noPercentiles: true` on that `ScoreTable` — otherwise the
+10th–90th/mean header files a class average under a percentile it is not, reading as
+a wrong low score. Card rule set 2026-08-16; the six-value percentile shape keeps the
+header, everything else suppresses it.
+
 **Schools with data:** 7/7
 
 <details><summary>Types defined in <code>collegeSupport.ts</code> (21)</summary>
@@ -404,7 +411,7 @@ bucket tallies must equal the school's six Compare bucket cells. Enforced by
 
 `ScoreRow` — `label`, `values`
 
-`ScoreTable` — `title`, `hint?`, `rows`, `note?`
+`ScoreTable` — `title`, `hint?`, `rows`, `note?`, `noPercentiles?`
 
 `Quintile` — `label`, `gpa`, `detail?`
 

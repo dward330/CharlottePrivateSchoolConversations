@@ -486,6 +486,9 @@ export const covenantDay: CollegeSupportProgram = {
       {
         title: 'SAT & ACT class averages',
         hint: '— as published, per profile edition',
+        // Averages, not percentiles — the school publishes no distribution,
+        // so the percentile header is suppressed (see ScoreTable.noPercentiles).
+        noPercentiles: true,
         rows: [
           { label: 'Class of 2026', values: ['SAT 1263', 'ACT 26'] },
           { label: 'Class of 2024', values: ['SAT 1243', 'ACT 27'] },
@@ -496,6 +499,8 @@ export const covenantDay: CollegeSupportProgram = {
       },
       {
         title: 'AP Scholar tiers, Class of 2026',
+        // Tier counts, not percentiles — same suppression rule.
+        noPercentiles: true,
         rows: [
           { label: 'Scholars with Distinction', values: ['38'] },
           { label: 'Scholars with Honor', values: ['27'] },

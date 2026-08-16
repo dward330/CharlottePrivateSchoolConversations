@@ -614,16 +614,21 @@ export function WholeClassBody({ data }: { data: WholeClass }) {
           <Heading hint={t.hint}>{t.title}</Heading>
           <div className="cs-ledger-wrap">
             <table className="cs-scores">
-              <thead>
-                <tr>
-                  <th scope="col" className="cs-th cs-th-metric">{tr('tables.percentile')}</th>
-                  {PERCENTILE_COLS.map((c) => (
-                    <th key={c} scope="col" className="cs-th cs-th-pct">
-                      {tr(c)}
-                    </th>
-                  ))}
-                </tr>
-              </thead>
+              {/* Schools that publish no percentiles (averages / tier counts
+                  only) set `noPercentiles`: the percentile header would file
+                  an average under "10th", reading as a wrong low score. */}
+              {!t.noPercentiles && (
+                <thead>
+                  <tr>
+                    <th scope="col" className="cs-th cs-th-metric">{tr('tables.percentile')}</th>
+                    {PERCENTILE_COLS.map((c) => (
+                      <th key={c} scope="col" className="cs-th cs-th-pct">
+                        {tr(c)}
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+              )}
               <tbody>
                 {t.rows.map((r) => (
                   <tr key={r.label}>
@@ -632,7 +637,7 @@ export function WholeClassBody({ data }: { data: WholeClass }) {
                       <td
                         key={i}
                         className={`cs-td cs-td-pct${
-                          i === 2 ? ' is-median' : i === 5 ? ' is-mean' : ''
+                          !t.noPercentiles && i === 2 ? ' is-median' : !t.noPercentiles && i === 5 ? ' is-mean' : ''
                         }`}
                       >
                         {v}

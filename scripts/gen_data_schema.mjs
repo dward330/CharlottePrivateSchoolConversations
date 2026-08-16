@@ -405,6 +405,13 @@ for (const s of STRUCTURED) {
     w('bucket tallies must equal the school\'s six Compare bucket cells. Enforced by')
     w('`npm run check:ranks` (`scripts/check_rank_labels.mjs`), chained into `npm run build`.')
     w()
+    w('**`wholeClass` score tables carry a percentile header only when the rows genuinely')
+    w('hold percentiles.** A school that publishes averages or tier counts instead of')
+    w('distributions sets `noPercentiles: true` on that `ScoreTable` — otherwise the')
+    w('10th–90th/mean header files a class average under a percentile it is not, reading as')
+    w('a wrong low score. Card rule set 2026-08-16; the six-value percentile shape keeps the')
+    w('header, everything else suppresses it.')
+    w()
   }
   const missing = schools.map((x) => x.slug).filter((x) => !s.schools.includes(x))
   w(`**Schools with data:** ${s.schools.length}/${schools.length}` +
