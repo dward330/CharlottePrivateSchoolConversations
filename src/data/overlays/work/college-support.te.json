@@ -406,6 +406,7 @@
         "charlotte-latin:counseling.roster[0].role",
         "charlotte-christian:counseling.roster[0].role",
         "charlotte-country-day:counseling.roster[0].role",
+        "covenant-day:counseling.roster[0].role",
         "davidson-day:counseling.roster[0].role"
       ],
       "t": "డైరెక్టర్"
@@ -870,6 +871,7 @@
         "charlotte-christian:outcomes.buckets[0].tier",
         "charlotte-country-day:outcomes.buckets[0].tier",
         "cannon:outcomes.buckets[0].tier",
+        "covenant-day:outcomes.buckets[0].tier",
         "davidson-day:outcomes.buckets[0].tier"
       ],
       "t": "Ivy League"
@@ -891,6 +893,7 @@
         "charlotte-christian:outcomes.buckets[1].tier",
         "charlotte-country-day:outcomes.buckets[1].tier",
         "cannon:outcomes.buckets[1].tier",
+        "covenant-day:outcomes.buckets[1].tier",
         "davidson-day:outcomes.buckets[1].tier"
       ],
       "t": "\"Ivy Plus\""
@@ -912,6 +915,7 @@
         "charlotte-christian:outcomes.buckets[2].tier",
         "charlotte-country-day:outcomes.buckets[2].tier",
         "cannon:outcomes.buckets[2].tier",
+        "covenant-day:outcomes.buckets[2].tier",
         "davidson-day:outcomes.buckets[2].tier"
       ],
       "t": "అగ్రస్థాయి 75 జాతీయ విశ్వవిద్యాలయాలు"
@@ -925,6 +929,7 @@
         "charlotte-christian:outcomes.buckets[3].tier",
         "charlotte-country-day:outcomes.buckets[3].tier",
         "cannon:outcomes.buckets[3].tier",
+        "covenant-day:outcomes.buckets[3].tier",
         "davidson-day:outcomes.buckets[3].tier"
       ],
       "t": "అగ్రస్థాయి 75 Liberal Arts"
@@ -946,6 +951,7 @@
         "charlotte-christian:outcomes.buckets[4].tier",
         "charlotte-country-day:outcomes.buckets[4].tier",
         "cannon:outcomes.buckets[4].tier",
+        "covenant-day:outcomes.buckets[4].tier",
         "davidson-day:outcomes.buckets[4].tier"
       ],
       "t": "Power Four"
@@ -957,6 +963,33 @@
         "providence-day:outcomes.buckets[4].note"
       ],
       "t": "— నాలుగు conferences పూర్తిగా ఉన్నాయి"
+    },
+    {
+      "text": "HBCUs",
+      "of": "d6316d90",
+      "at": [
+        "providence-day:outcomes.buckets[5].tier",
+        "charlotte-latin:outcomes.buckets[5].tier",
+        "charlotte-christian:outcomes.buckets[5].tier",
+        "charlotte-country-day:outcomes.buckets[5].tier",
+        "cannon:outcomes.buckets[5].tier",
+        "covenant-day:outcomes.buckets[5].tier",
+        "davidson-day:outcomes.buckets[5].tier"
+      ],
+      "t": "HBCUs"
+    },
+    {
+      "text": "— Historically Black Colleges & Universities",
+      "of": "92578ef1",
+      "at": [
+        "providence-day:outcomes.buckets[5].note",
+        "charlotte-latin:outcomes.buckets[5].note",
+        "charlotte-christian:outcomes.buckets[5].note",
+        "charlotte-country-day:outcomes.buckets[5].note",
+        "cannon:outcomes.buckets[5].note",
+        "davidson-day:outcomes.buckets[5].note"
+      ],
+      "t": "— చారిత్రకంగా నల్లజాతి కళాశాలలు & విశ్వవిద్యాలయాలు"
     },
     {
       "text": "Counts are computed from the same 382-institution list you can filter at right, scored against the 2026 U.S. News tables — derived analysis, not school-reported figures. Coverage of the Top-75 nationals is close to saturated: it is harder to name one missing than present.",
@@ -971,7 +1004,8 @@
       "of": "3e53dcd1",
       "at": [
         "providence-day:outcomes.collegesTitle",
-        "charlotte-country-day:outcomes.collegesTitle"
+        "charlotte-country-day:outcomes.collegesTitle",
+        "covenant-day:outcomes.collegesTitle"
       ],
       "t": "ప్రతి ప్రవేశం, 2023–2026"
     },
@@ -6491,6 +6525,1224 @@
       "t": "విద్యార్థులకు అందించే counseling పాఠ్యప్రణాళిక తరగతుల వారీగా ఎలా ఉంటుంది — ఎన్ని వ్యక్తిగత సమావేశాలు, మరియు వ్యాసాలు ఎప్పుడు మొదలవుతాయి?"
     },
     {
+      "text": "96% of AP exam scores were a 3 or higher in 2026 — the top of a five-year climb from 84% — and every AP student must sit the exam.",
+      "of": "84b2a316",
+      "at": [
+        "covenant-day:transcript.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A gated AP program: none for freshmen, one for sophomores, with dual enrollment through Covenant College layered on top.",
+      "of": "904c11c3",
+      "at": [
+        "covenant-day:transcript.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "96%",
+      "of": "3ec55d39",
+      "at": [
+        "covenant-day:transcript.stats[0].value",
+        "covenant-day:transcript.merit[3].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "of AP exams scored 3+ in 2026 (401 exams, 179 students)",
+      "of": "862a26d7",
+      "at": [
+        "covenant-day:transcript.stats[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "78%",
+      "of": "8ddb95bd",
+      "at": [
+        "covenant-day:transcript.stats[1].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "of AP scores were a 4 or 5",
+      "of": "c75a93a8",
+      "at": [
+        "covenant-day:transcript.stats[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "1263 / 26",
+      "of": "84da6f50",
+      "at": [
+        "covenant-day:transcript.stats[2].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Class of 2026 SAT / ACT averages",
+      "of": "edb21e19",
+      "at": [
+        "covenant-day:transcript.stats[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "80%",
+      "of": "489f4e50",
+      "at": [
+        "covenant-day:transcript.stats[3].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "of HS faculty hold advanced degrees",
+      "of": "06766e5d",
+      "at": [
+        "covenant-day:transcript.stats[3].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The five-year AP line, as the profile charts it",
+      "of": "59fe91a7",
+      "at": [
+        "covenant-day:transcript.meritTitle"
+      ],
+      "t": ""
+    },
+    {
+      "text": "84% of AP exam scores 3+",
+      "of": "303fe98e",
+      "at": [
+        "covenant-day:transcript.merit[0].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "93% — Class of 2023: 161 students, 324 exams; SAT 1268 / ACT 26",
+      "of": "07ee0fba",
+      "at": [
+        "covenant-day:transcript.merit[1].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "92% — Class of 2024: 168 students, 344 exams; SAT 1243 / ACT 27",
+      "of": "33052257",
+      "at": [
+        "covenant-day:transcript.merit[2].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "96% — 38 AP Scholars with Distinction, 27 with Honor, 33 Scholars",
+      "of": "ac2871bc",
+      "at": [
+        "covenant-day:transcript.merit[4].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Since 2006 — the first graduating class — the school counts 28 National Merit Finalists and 70 Commended students, a ledger that grew by two Finalists and nine Commended between the last two profile editions.",
+      "of": "3e057851",
+      "at": [
+        "covenant-day:transcript.meritNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The rigor architecture",
+      "of": "a09f8c3a",
+      "at": [
+        "covenant-day:transcript.depthTitle"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Weighting",
+      "of": "edbd8b07",
+      "at": [
+        "covenant-day:transcript.depth[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A+ = 4.33 unweighted; Honors +0.5; Dual Enrollment and AP +1.0. GPA computed on all subjects, grades 9–12.",
+      "of": "11fd1ffc",
+      "at": [
+        "covenant-day:transcript.depth[0].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "AP gating",
+      "of": "d0cc78dc",
+      "at": [
+        "covenant-day:transcript.depth[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "No AP for freshmen; sophomores capped at one. The profile itself calls two junior-year and four senior-year APs \"a very demanding course load.\"",
+      "of": "2bedee47",
+      "at": [
+        "covenant-day:transcript.depth[1].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Dual enrollment",
+      "of": "38db84b5",
+      "at": [
+        "covenant-day:transcript.depth[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Honors Calculus, Statistics, and Literature & Philosophy carry Covenant College credit; SevenStar Academy extends the catalog online, noted on the transcript.",
+      "of": "327c7075",
+      "at": [
+        "covenant-day:transcript.depth[2].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Graduation",
+      "of": "2c9a19d1",
+      "at": [
+        "covenant-day:transcript.depth[3].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "25 Carnegie Units, including 3 units of Bible (a Bible course every year) and a Fine Arts unit.",
+      "of": "66232648",
+      "at": [
+        "covenant-day:transcript.depth[3].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Why colleges can read the grades",
+      "of": "592a74ee",
+      "at": [
+        "covenant-day:transcript.trustTitle"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Every AP student tests",
+      "of": "032ac683",
+      "at": [
+        "covenant-day:transcript.trust[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "All students enrolled in AP courses are required to take the exams — so the 96% pass rate covers the whole AP population, not a self-selected slice.",
+      "of": "f8ae4f11",
+      "at": [
+        "covenant-day:transcript.trust[0].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "No rank, stated in full",
+      "of": "333f99d3",
+      "at": [
+        "covenant-day:transcript.trust[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "\"Due to the small class size and the college-bound nature of Covenant Day’s population, we believe that class rank is not a strong discriminator… Therefore, we do not rank.\"",
+      "of": "ac0cddf4",
+      "at": [
+        "covenant-day:transcript.trust[1].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The AP course count moves with enrollment: 15 APs in the 2026–27 profile matrix, but up to 18 in the 2024–25 edition (which carried AP Calculus BC, Human Geography and French). Ask which APs actually run in your student’s year.",
+      "of": "0d9419f3",
+      "at": [
+        "covenant-day:transcript.flags[0].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "One dedicated college counseling director — in her 23rd year at the school — for 85 seniors, the heaviest caseload in this comparison.",
+      "of": "bd58af0d",
+      "at": [
+        "covenant-day:counseling.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The office is relational rather than productized: a NACCAP Professional of the Year with thirty years in guidance, meeting juniors and seniors throughout.",
+      "of": "e562b9cf",
+      "at": [
+        "covenant-day:counseling.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "85:1",
+      "of": "1a9bb18f",
+      "at": [
+        "covenant-day:counseling.stats[0].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "seniors per dedicated college counselor",
+      "of": "5adf229b",
+      "at": [
+        "covenant-day:counseling.stats[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2003",
+      "of": "d32ea22a",
+      "at": [
+        "covenant-day:counseling.stats[1].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "the director’s tenure start at Covenant Day",
+      "of": "0b1237e2",
+      "at": [
+        "covenant-day:counseling.stats[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "4",
+      "of": "310ca263",
+      "at": [
+        "covenant-day:counseling.stats[2].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "people in the guidance office",
+      "of": "6193d170",
+      "at": [
+        "covenant-day:counseling.stats[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Director of Guidance and College Counseling since 2003; thirty years in guidance and college counseling; BA Oklahoma Wesleyan, MA Winthrop; named a NACCAP K-12 Professional of the Year.",
+      "of": "f68e9044",
+      "at": [
+        "covenant-day:counseling.roster[0].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Counselor",
+      "of": "be7455dd",
+      "at": [
+        "covenant-day:counseling.roster[1].role"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Guidance Counselor since 2016. BA UNC Chapel Hill; MA Georgia State; former Reformed Theological Seminary registrar.",
+      "of": "f22262c9",
+      "at": [
+        "covenant-day:counseling.roster[1].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Personal",
+      "of": "6e5a8cad",
+      "at": [
+        "covenant-day:counseling.roster[2].role"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Licensed Marriage and Family Therapist, since 2021 — the clinical role, distinct from the college office.",
+      "of": "b949d7c4",
+      "at": [
+        "covenant-day:counseling.roster[2].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Assistant",
+      "of": "da502cc7",
+      "at": [
+        "covenant-day:counseling.roster[3].role"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Guidance Assistant since 2012.",
+      "of": "4b9cb104",
+      "at": [
+        "covenant-day:counseling.roster[3].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The published cadence",
+      "of": "27929f35",
+      "at": [
+        "covenant-day:counseling.timelineTitle"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Course-planning",
+      "of": "59d95ace",
+      "at": [
+        "covenant-day:counseling.timeline[0].intensity"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Academic advising on course selection",
+      "of": "6b726c19",
+      "at": [
+        "covenant-day:counseling.timeline[0].items[0]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Honors/AP placement via coursework, grades and teacher feedback",
+      "of": "b87c4229",
+      "at": [
+        "covenant-day:counseling.timeline[0].items[1]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "No formal underclass counseling curriculum is published.",
+      "of": "9a135e1d",
+      "at": [
+        "covenant-day:counseling.timeline[0].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "College-facing",
+      "of": "82074407",
+      "at": [
+        "covenant-day:counseling.timeline[1].intensity"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The office \"meets with juniors and seniors throughout their high school careers\"",
+      "of": "0fbb4a4e",
+      "at": [
+        "covenant-day:counseling.timeline[1].items[0]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "One-on-one support from course planning to application to scholarship search",
+      "of": "50dea1b3",
+      "at": [
+        "covenant-day:counseling.timeline[1].items[1]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "College rep visits via the College Representatives page",
+      "of": "e23b580e",
+      "at": [
+        "covenant-day:counseling.timeline[1].items[2]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What the office says it covers",
+      "of": "c669b4fb",
+      "at": [
+        "covenant-day:counseling.mechanicsTitle",
+        "davidson-day:counseling.mechanicsTitle"
+      ],
+      "t": "కార్యాలయం తాను కవర్ చేస్తానని చెప్పేవి"
+    },
+    {
+      "text": "Course planning toward college goals",
+      "of": "fbdca05d",
+      "at": [
+        "covenant-day:counseling.mechanics[0]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Building a strong application",
+      "of": "50a6d813",
+      "at": [
+        "covenant-day:counseling.mechanics[1]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Identifying scholarship opportunities",
+      "of": "474f3f9a",
+      "at": [
+        "covenant-day:counseling.mechanics[2]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Academic advising and student counseling",
+      "of": "1b8e9314",
+      "at": [
+        "covenant-day:counseling.mechanics[3]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The annual High School Profile (CEEB 342532)",
+      "of": "68f6453b",
+      "at": [
+        "covenant-day:counseling.mechanics[4]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The profile is the office’s application artifact: weighting key, rank policy, AP gating and the acceptance list in a two-page PDF, refreshed annually — three editions verified.",
+      "of": "ad999ad4",
+      "at": [
+        "covenant-day:counseling.mechanicsNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NACCAP membership plus a Professional of the Year director — name recognition inside the Christian-college admissions circuit",
+      "of": "d0e6345d",
+      "at": [
+        "covenant-day:counseling.reach[0]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NACAC membership on the mainstream side",
+      "of": "804352a3",
+      "at": [
+        "covenant-day:counseling.reach[1]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A standing dual-enrollment pipe to Covenant College, the PCA’s denominational college",
+      "of": "e59be429",
+      "at": [
+        "covenant-day:counseling.reach[2]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "No grade-by-grade counseling timeline is published — only the junior/senior meeting cadence — and no college-counseling platform (Naviance, Scoir) is named anywhere on the public site.",
+      "of": "ed6115ca",
+      "at": [
+        "covenant-day:counseling.flags[0].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The 85:1 ratio is derived (85 seniors ÷ 1 dedicated director). The second guidance counselor carries non-college load, so the effective college caseload may be lighter than the headline — but the school never states one.",
+      "of": "5aa20a9b",
+      "at": [
+        "covenant-day:counseling.flags[1].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "225 institutions on the published 2023–2026 acceptance list — with matriculations bolded, so you can see where students actually went.",
+      "of": "c18f5e7d",
+      "at": [
+        "covenant-day:outcomes.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The current window reaches Dartmouth, Penn and Duke — all three bolded as enrolled — with the deepest concentrations at NC publics and Christian colleges.",
+      "of": "38c3d828",
+      "at": [
+        "covenant-day:outcomes.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "225",
+      "of": "2aec76b0",
+      "at": [
+        "covenant-day:outcomes.stats[0].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "institutions on the 2023–2026 acceptance list",
+      "of": "22722825",
+      "at": [
+        "covenant-day:outcomes.stats[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "85",
+      "of": "8d01a276",
+      "at": [
+        "covenant-day:outcomes.stats[1].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "seniors in the Class of 2027",
+      "of": "959c71e8",
+      "at": [
+        "covenant-day:outcomes.stats[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "2 / 8",
+      "of": "10390c08",
+      "at": [
+        "covenant-day:outcomes.stats[2].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Ivies on the list — Dartmouth and Penn, both with matriculants",
+      "of": "e054b495",
+      "at": [
+        "covenant-day:outcomes.stats[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "46 / 68",
+      "of": "26efa6ac",
+      "at": [
+        "covenant-day:outcomes.stats[3].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Power Four universities on the list",
+      "of": "b8886520",
+      "at": [
+        "covenant-day:outcomes.stats[3].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "— Dartmouth, Penn; both bolded (matriculated)",
+      "of": "7e4a8d1a",
+      "at": [
+        "covenant-day:outcomes.buckets[0].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "— adds Duke, also bolded",
+      "of": "1f0fcb47",
+      "at": [
+        "covenant-day:outcomes.buckets[1].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "— Davidson through Gettysburg",
+      "of": "6c33fc44",
+      "at": [
+        "covenant-day:outcomes.buckets[3].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "— 14 ACC · 12 SEC · 11 Big Ten · 9 Big 12",
+      "of": "b6fea221",
+      "at": [
+        "covenant-day:outcomes.buckets[4].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "— Fayetteville State, Johnson C. Smith, NC A&T",
+      "of": "105763b7",
+      "at": [
+        "covenant-day:outcomes.buckets[5].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Derived by this research from the school’s published list against the 2026 U.S. News tables — the same rosters used for the other schools here, not figures the school reports. Earlier windows ran higher: the 2018–2023 highlights include Stanford, MIT, Princeton, Brown, Cornell and Vanderbilt, and the 2021–2024 list adds five UC campuses.",
+      "of": "a8ba4c89",
+      "at": [
+        "covenant-day:outcomes.bucketsNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "225 institutions on the 2023–2026 list",
+      "of": "bcab2e95",
+      "at": [
+        "covenant-day:outcomes.collegesTotal"
+      ],
+      "t": ""
+    },
+    {
+      "text": "No scholarship dollar totals — checked across all three profile editions",
+      "of": "515f2614",
+      "at": [
+        "covenant-day:outcomes.scholarships[0]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "No per-class acceptance breakdowns — the lists are multi-year windows",
+      "of": "6ea1f8df",
+      "at": [
+        "covenant-day:outcomes.scholarships[1]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "No matriculation-rate percentages",
+      "of": "6c917bc8",
+      "at": [
+        "covenant-day:outcomes.scholarships[2]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The bold-marks-matriculation convention is itself unusual disclosure: because both published lists carry it and overlap on the classes of 2023–24, acceptances and enrollments can be cross-validated across editions.",
+      "of": "a83cb3d4",
+      "at": [
+        "covenant-day:outcomes.scholarshipsNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A multi-year cumulative list shows breadth, not rates: each name means at least one acceptance across four graduating classes of ~85, and bold means at least one enrollment.",
+      "of": "9cf88b3c",
+      "at": [
+        "covenant-day:outcomes.caveat"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The bolded matriculation names were recovered from the PDF’s font data (plain text extraction drops bold) — spot-checked but machine-extracted. The acceptance list itself extracted cleanly.",
+      "of": "28c1398a",
+      "at": [
+        "covenant-day:outcomes.flags[0].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The differentiators are depth stories: a department no other school has, a housing build on Pine Ridge, and college credit from the PCA’s own college.",
+      "of": "d330b2c8",
+      "at": [
+        "covenant-day:edge.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "No research-program or Olympiad credentials — the edge here is distinctiveness and legibility, not national competition results.",
+      "of": "35b93e0a",
+      "at": [
+        "covenant-day:edge.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Restoration & Sustainability",
+      "of": "e088ebd6",
+      "at": [
+        "covenant-day:edge.levers[0].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "a department of one’s own",
+      "of": "3cd6e523",
+      "at": [
+        "covenant-day:edge.levers[0].hint"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A named high-school department with its own director (Dr. Rebeca Burnett) — unique among these schools",
+      "of": "2e078542",
+      "at": [
+        "covenant-day:edge.levers[0].items[0]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Course ladder: Augustine Literacy Project, Intercultural Practicum, Introduction to Engineering, Restore525",
+      "of": "bf0e7ec7",
+      "at": [
+        "covenant-day:edge.levers[0].items[1]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The profile gives it a stand-alone descriptive block — a transcript line no other Charlotte-area applicant carries",
+      "of": "21fab3bd",
+      "at": [
+        "covenant-day:edge.levers[0].items[2]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Signature projects",
+      "of": "d1dec935",
+      "at": [
+        "covenant-day:edge.levers[1].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "what an essay gets written about",
+      "of": "1df6a140",
+      "at": [
+        "covenant-day:edge.levers[1].hint"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Senior Capstone Project — a named milestone for every student",
+      "of": "0aed2dfc",
+      "at": [
+        "covenant-day:edge.levers[1].items[0]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "ContainIt: high schoolers converting shipping containers into housing for 30+ teens on the Pine Ridge Reservation",
+      "of": "ad7f33af",
+      "at": [
+        "covenant-day:edge.levers[1].items[1]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "McKnight Oratory and Mock Trial (2025 state runner-up courtroom artist) on the speaking side",
+      "of": "b9ee6eb8",
+      "at": [
+        "covenant-day:edge.levers[1].items[2]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Legible rigor",
+      "of": "0dc25c94",
+      "at": [
+        "covenant-day:edge.levers[2].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "what an admissions reader sees",
+      "of": "9de81089",
+      "at": [
+        "covenant-day:edge.levers[2].hint"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Covenant College dual-enrollment credit atop the AP matrix",
+      "of": "98b17a99",
+      "at": [
+        "covenant-day:edge.levers[2].items[0]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Every-AP-student-tests policy makes the 96% pass rate cover the whole program",
+      "of": "761cf44a",
+      "at": [
+        "covenant-day:edge.levers[2].items[1]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The no-rank policy plus a full weighting key lets readers reconstruct rigor in context",
+      "of": "427aa388",
+      "at": [
+        "covenant-day:edge.levers[2].items[2]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The support model is relational — a 30-year director in the NACCAP circuit — rather than a productized essay-bootcamp curriculum, and the school publishes none of the latter.",
+      "of": "69acb25e",
+      "at": [
+        "covenant-day:edge.levers[2].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Strong aggregates, no distributions: per-class SAT/ACT averages and a five-year AP line, but no quantiles of any kind — by policy.",
+      "of": "edfd902e",
+      "at": [
+        "covenant-day:wholeClass.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "\"We do not rank\" extends to the data: a school that declines to rank does not publish distribution tables either.",
+      "of": "0fa0d6a7",
+      "at": [
+        "covenant-day:wholeClass.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "SAT & ACT class averages",
+      "of": "3a9fd1db",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[0].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "— as published, per profile edition",
+      "of": "6b6fdb19",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[0].hint"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Class of 2026",
+      "of": "39fd4622",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[0].rows[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Class of 2024",
+      "of": "37fd42fc",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[0].rows[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Class of 2023",
+      "of": "36fd4169",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[0].rows[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "5-year averages",
+      "of": "70411f3a",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[0].rows[3].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Averages only — no percentiles, no middle-50%, no tester counts.",
+      "of": "c8c9d4c7",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[0].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "AP Scholar tiers, Class of 2026",
+      "of": "6f9ebe94",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[1].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Scholars with Distinction",
+      "of": "06bc0058",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[1].rows[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Scholars with Honor",
+      "of": "19d3db86",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[1].rows[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "AP Scholars",
+      "of": "29009ddb",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[1].rows[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "98 scholar designations against 179 AP students — the closest thing to a shape-of-the-class disclosure the school makes.",
+      "of": "f9036062",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[1].note"
+      ],
+      "t": ""
+    },
+    {
+      "text": "No GPA distribution exists in any of the three profile editions — no highest/median/lowest, no quintiles. The weighting key (4.33 / +0.5 / +1.0) is the entire GPA disclosure.",
+      "of": "7089b697",
+      "at": [
+        "covenant-day:wholeClass.gpaNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Learning specialists",
+      "of": "1b064661",
+      "at": [
+        "covenant-day:wholeClass.support[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Five Learning Specialists and an Academic Resources Director on the high school staff table — a real support bench for a 350-student high school.",
+      "of": "7a6547dd",
+      "at": [
+        "covenant-day:wholeClass.support[0].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Clinical counseling",
+      "of": "04aaa979",
+      "at": [
+        "covenant-day:wholeClass.support[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A Licensed Marriage and Family Therapist (Emily Lee) on staff, distinct from the college office.",
+      "of": "f46714d6",
+      "at": [
+        "covenant-day:wholeClass.support[1].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Priced help",
+      "of": "51afb9a1",
+      "at": [
+        "covenant-day:wholeClass.support[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The tuition terms disclose that tutoring and special testing beyond classroom help are available at extra cost — a stated, priced channel rather than an unspoken one.",
+      "of": "bbf90589",
+      "at": [
+        "covenant-day:wholeClass.support[2].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "AP gating (none for freshmen, one for sophomores) is itself a whole-class guardrail: rigor is sequenced by readiness rather than open-enrollment.",
+      "of": "409c6128",
+      "at": [
+        "covenant-day:wholeClass.supportNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The list shows the range",
+      "of": "5ed235e4",
+      "at": [
+        "covenant-day:wholeClass.middle[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The bolded matriculations run from Dartmouth and Duke through Covenant College, Cedarville, Montreat, community colleges and trade-adjacent programs — a school placing only its top quartile would not produce that spread.",
+      "of": "00394520",
+      "at": [
+        "covenant-day:wholeClass.middle[0].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The NC-public backbone",
+      "of": "6dee07d4",
+      "at": [
+        "covenant-day:wholeClass.middle[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The deepest enrolled concentrations are Chapel Hill, NC State, UNC Charlotte, App State and East Carolina — the destinations that serve the broad middle of a North Carolina class.",
+      "of": "89123c5a",
+      "at": [
+        "covenant-day:wholeClass.middle[1].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "No distributions are published anywhere: no GPA quantiles, no score percentiles, no per-class matriculation rates. This card ships with the aggregates above because they are genuinely informative — but the shape of the class is not recoverable from public sources, and that follows from the school’s own no-rank policy.",
+      "of": "59ca5e57",
+      "at": [
+        "covenant-day:wholeClass.flags[0].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A rigorous, legible academic product with an unusually heavy counselor caseload — and disclosure that is excellent about outcomes, silent about process.",
+      "of": "69b1bef2",
+      "at": [
+        "covenant-day:verdict.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The profile tells colleges nearly everything; the website tells parents much less about how the counseling actually works.",
+      "of": "ca00efcd",
+      "at": [
+        "covenant-day:verdict.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The AP story is genuinely strong",
+      "of": "f6a80b4d",
+      "at": [
+        "covenant-day:verdict.points[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "96% of exams at 3+, 78% at 4–5, with a required-exam policy that makes the number honest, and a five-year rising line to back it.",
+      "of": "9ef0b2cc",
+      "at": [
+        "covenant-day:verdict.points[0].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The heaviest caseload in this comparison",
+      "of": "34a1dadb",
+      "at": [
+        "covenant-day:verdict.points[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "One dedicated college counselor for 85 seniors — cushioned by a 23-year director with NACCAP standing, but a ratio a parent should ask about directly.",
+      "of": "27e38dc0",
+      "at": [
+        "covenant-day:verdict.points[1].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Matriculation is actually visible",
+      "of": "08e83102",
+      "at": [
+        "covenant-day:verdict.points[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Bold marks on two overlapping multi-year lists let you verify where students enrolled, not just where they were accepted — disclosure peers rarely offer.",
+      "of": "25cc137a",
+      "at": [
+        "covenant-day:verdict.points[2].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The ceiling is real but episodic",
+      "of": "f7cee28e",
+      "at": [
+        "covenant-day:verdict.points[3].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Dartmouth, Penn and Duke enrollments in the current window; Stanford/MIT/Princeton belong to earlier windows. The dependable strength is NC publics and the Christian-college network.",
+      "of": "c520f92f",
+      "at": [
+        "covenant-day:verdict.points[3].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Process disclosure is thin",
+      "of": "c79e63c4",
+      "at": [
+        "covenant-day:verdict.points[4].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "No counseling timeline, no platform named, no essay or application programming published — the model rides on the director’s relationships.",
+      "of": "c0ffc133",
+      "at": [
+        "covenant-day:verdict.points[4].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "How does one director manage 85 seniors at peak season — what does the junior spring / senior fall calendar actually look like?",
+      "of": "023f3612",
+      "at": [
+        "covenant-day:verdict.checklist[0]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Which platform do families use — Naviance, Scoir, something else — and when do students get access?",
+      "of": "8e676aa4",
+      "at": [
+        "covenant-day:verdict.checklist[1]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Which AP courses will actually run next year? The matrix moved from 18 to 15 between editions.",
+      "of": "08041c00",
+      "at": [
+        "covenant-day:verdict.checklist[2]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What did last year’s class look like beyond the averages — how many tested, and where did the middle of the class land?",
+      "of": "9b784a6a",
+      "at": [
+        "covenant-day:verdict.checklist[3]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "How does the NC Opportunity Scholarship prerequisite interact with the aid timeline for a family also applying elsewhere?",
+      "of": "236a647b",
+      "at": [
+        "covenant-day:verdict.checklist[4]"
+      ],
+      "t": ""
+    },
+    {
       "text": "Davidson Day publishes its grading machinery in full — the scale, the weighting, and an unusually explicit list of what is excluded from the GPA — but no AP exam results and no National Merit record at all.",
       "of": "410e02c8",
       "at": [
@@ -6849,14 +8101,6 @@
         "davidson-day:counseling.timeline[1].note"
       ],
       "t": "ఈ fairకు దాదాపు 70 కళాశాలలు వచ్చాయి; కుటుంబాలు అనుకరణ ప్రవేశ కమిటీగా కూర్చుంటాయి."
-    },
-    {
-      "text": "What the office says it covers",
-      "of": "c669b4fb",
-      "at": [
-        "davidson-day:counseling.mechanicsTitle"
-      ],
-      "t": "కార్యాలయం తాను కవర్ చేస్తానని చెప్పేవి"
     },
     {
       "text": "Balanced college list",
@@ -7569,32 +8813,6 @@
         "davidson-day:verdict.checklist[7]"
       ],
       "t": "మా పిల్లవాడికి Learning Enrichment Center ద్వారా సదుపాయాలు ఉంటే, College Board మరియు ACT పరీక్షలకు వాటిని ఎవరు ఆమోదింపజేస్తారు, మరియు కళాశాల వైకల్య సేవల కోసం ఎవరు నమోదు చేస్తారు?"
-    },
-    {
-      "text": "HBCUs",
-      "of": "d6316d90",
-      "at": [
-        "providence-day:outcomes.buckets[5].tier",
-        "charlotte-latin:outcomes.buckets[5].tier",
-        "charlotte-christian:outcomes.buckets[5].tier",
-        "charlotte-country-day:outcomes.buckets[5].tier",
-        "cannon:outcomes.buckets[5].tier",
-        "davidson-day:outcomes.buckets[5].tier"
-      ],
-      "t": "HBCUs"
-    },
-    {
-      "text": "— Historically Black Colleges & Universities",
-      "of": "92578ef1",
-      "at": [
-        "providence-day:outcomes.buckets[5].note",
-        "charlotte-latin:outcomes.buckets[5].note",
-        "charlotte-christian:outcomes.buckets[5].note",
-        "charlotte-country-day:outcomes.buckets[5].note",
-        "cannon:outcomes.buckets[5].note",
-        "davidson-day:outcomes.buckets[5].note"
-      ],
-      "t": "— చారిత్రకంగా నల్లజాతి కళాశాలలు & విశ్వవిద్యాలయాలు"
     }
   ]
 }

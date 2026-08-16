@@ -66,6 +66,7 @@
         "charlotte-christian:offered.seasons[0].name",
         "charlotte-country-day:offered.seasons[0].name",
         "cannon:offered.seasons[0].name",
+        "covenant-day:offered.seasons[0].name",
         "davidson-day:offered.seasons[0].name"
       ],
       "t": "Otòn"
@@ -91,6 +92,7 @@
         "charlotte-christian:offered.seasons[1].name",
         "charlotte-country-day:offered.seasons[1].name",
         "cannon:offered.seasons[1].name",
+        "covenant-day:offered.seasons[1].name",
         "davidson-day:offered.seasons[1].name"
       ],
       "t": "Ivè"
@@ -104,6 +106,7 @@
         "charlotte-christian:offered.seasons[2].name",
         "charlotte-country-day:offered.seasons[2].name",
         "cannon:offered.seasons[2].name",
+        "covenant-day:offered.seasons[2].name",
         "davidson-day:offered.seasons[2].name"
       ],
       "t": "Prentan"
@@ -170,6 +173,7 @@
         "cannon:record.rows[0].cells[2].result",
         "cannon:record.rows[1].cells[0].result",
         "cannon:record.rows[2].cells[0].result",
+        "covenant-day:record.rows[0].cells[2].result",
         "davidson-day:record.rows[0].cells[0].result",
         "davidson-day:record.rows[0].cells[1].result",
         "davidson-day:record.rows[0].cells[2].result",
@@ -201,6 +205,8 @@
         "charlotte-country-day:record.rows[2].cells[2].result",
         "charlotte-country-day:record.rows[5].cells[2].result",
         "cannon:record.rows[3].cells[2].result",
+        "covenant-day:record.rows[1].cells[1].result",
+        "covenant-day:record.rows[1].cells[2].result",
         "davidson-day:record.rows[1].cells[2].result"
       ],
       "t": "DEZYÈM PLAS"
@@ -269,6 +275,11 @@
         "cannon:record.rows[5].cells[0].result",
         "cannon:record.rows[5].cells[1].result",
         "cannon:record.rows[5].cells[2].result",
+        "covenant-day:record.rows[0].cells[0].result",
+        "covenant-day:record.rows[0].cells[1].result",
+        "covenant-day:record.rows[1].cells[0].result",
+        "covenant-day:record.rows[2].cells[0].result",
+        "covenant-day:record.rows[2].cells[1].result",
         "davidson-day:record.rows[2].cells[2].result",
         "davidson-day:record.rows[3].cells[2].result",
         "davidson-day:record.rows[5].cells[1].result",
@@ -300,6 +311,7 @@
       "of": "6afcd109",
       "at": [
         "providence-day:record.rows[4].cells[1].result",
+        "covenant-day:record.rows[2].cells[2].result",
         "davidson-day:record.rows[4].cells[1].result",
         "davidson-day:record.rows[4].cells[2].result"
       ],
@@ -394,6 +406,7 @@
         "charlotte-christian:pipeline.funnel[0].label",
         "charlotte-country-day:pipeline.funnel[0].label",
         "cannon:pipeline.funnel[0].label",
+        "covenant-day:pipeline.funnel[0].label",
         "davidson-day:pipeline.funnel[0].label"
       ],
       "t": "Angaje nan atletism inivèsitè"
@@ -417,6 +430,7 @@
         "charlotte-christian:pipeline.funnel[1].label",
         "charlotte-country-day:pipeline.funnel[1].label",
         "cannon:pipeline.funnel[1].label",
+        "covenant-day:pipeline.funnel[1].label",
         "davidson-day:pipeline.funnel[1].label"
       ],
       "t": "NCAA Division I"
@@ -430,6 +444,7 @@
         "charlotte-christian:pipeline.funnel[1].hint",
         "charlotte-country-day:pipeline.funnel[1].hint",
         "cannon:pipeline.funnel[1].hint",
+        "covenant-day:pipeline.funnel[1].hint",
         "davidson-day:pipeline.funnel[1].hint"
       ],
       "t": "(nenpòt konferans)"
@@ -443,6 +458,7 @@
         "charlotte-christian:pipeline.funnel[2].label",
         "charlotte-country-day:pipeline.funnel[2].label",
         "cannon:pipeline.funnel[2].label",
+        "covenant-day:pipeline.funnel[2].label",
         "davidson-day:pipeline.funnel[2].label"
       ],
       "t": "Power 4"
@@ -456,6 +472,7 @@
         "charlotte-christian:pipeline.funnel[2].hint",
         "charlotte-country-day:pipeline.funnel[2].hint",
         "cannon:pipeline.funnel[2].hint",
+        "covenant-day:pipeline.funnel[2].hint",
         "davidson-day:pipeline.funnel[2].hint"
       ],
       "t": "(SEC · Big Ten · ACC · Big 12)"
@@ -525,7 +542,8 @@
         "charlotte-christian:pipeline.roster[29].sport",
         "charlotte-christian:pipeline.roster[30].sport",
         "charlotte-christian:pipeline.roster[32].sport",
-        "charlotte-country-day:pipeline.roster[20].sport"
+        "charlotte-country-day:pipeline.roster[20].sport",
+        "covenant-day:pipeline.roster[11].sport"
       ],
       "t": "Foutbòl"
     },
@@ -613,7 +631,8 @@
         "providence-day:pipeline.roster[79].sport",
         "providence-day:pipeline.roster[80].sport",
         "charlotte-country-day:pipeline.roster[36].sport",
-        "charlotte-country-day:pipeline.roster[41].sport"
+        "charlotte-country-day:pipeline.roster[41].sport",
+        "covenant-day:pipeline.roster[0].sport"
       ],
       "t": "Field Hockey"
     },
@@ -685,6 +704,8 @@
         "charlotte-country-day:pipeline.roster[24].sport",
         "cannon:pipeline.roster[2].sport",
         "cannon:coaching.tenure[4].role",
+        "covenant-day:pipeline.roster[13].sport",
+        "covenant-day:pipeline.roster[28].sport",
         "davidson-day:pipeline.roster[5].sport",
         "davidson-day:pipeline.roster[6].sport"
       ],
@@ -708,7 +729,14 @@
         "charlotte-country-day:pipeline.roster[9].sport",
         "charlotte-country-day:pipeline.roster[10].sport",
         "charlotte-country-day:pipeline.roster[44].sport",
-        "charlotte-country-day:coaching.tenure[6].role"
+        "charlotte-country-day:coaching.tenure[6].role",
+        "covenant-day:pipeline.roster[8].sport",
+        "covenant-day:pipeline.roster[16].sport",
+        "covenant-day:pipeline.roster[17].sport",
+        "covenant-day:pipeline.roster[20].sport",
+        "covenant-day:pipeline.roster[26].sport",
+        "covenant-day:pipeline.roster[31].sport",
+        "covenant-day:pipeline.roster[32].sport"
       ],
       "t": "Bezbòl"
     },
@@ -744,7 +772,9 @@
       "of": "3d1c7bf4",
       "at": [
         "providence-day:pipeline.roster[28].sport",
-        "charlotte-christian:pipeline.roster[1].sport"
+        "charlotte-christian:pipeline.roster[1].sport",
+        "covenant-day:pipeline.roster[23].sport",
+        "covenant-day:pipeline.roster[25].sport"
       ],
       "t": "Softball"
     },
@@ -765,7 +795,8 @@
         "charlotte-christian:pipeline.roster[6].sport",
         "charlotte-christian:pipeline.roster[12].sport",
         "charlotte-christian:pipeline.roster[15].sport",
-        "charlotte-christian:pipeline.roster[31].sport"
+        "charlotte-christian:pipeline.roster[31].sport",
+        "covenant-day:pipeline.roster[2].sport"
       ],
       "t": "Track & Field"
     },
@@ -1267,6 +1298,8 @@
         "providence-day:coaching.tenure[6].since",
         "providence-day:coaching.tenure[7].since",
         "charlotte-christian:coaching.tenure[6].since",
+        "covenant-day:coaching.tenure[2].since",
+        "covenant-day:coaching.tenure[3].since",
         "davidson-day:coaching.tenure[2].since"
       ],
       "t": "ansyènte"
@@ -1757,7 +1790,8 @@
       "text": "of students play a sport",
       "of": "5ea7fd07",
       "at": [
-        "charlotte-latin:offered.stats[2].label"
+        "charlotte-latin:offered.stats[2].label",
+        "covenant-day:offered.stats[1].label"
       ],
       "t": "nan elèv yo fè yon espò"
     },
@@ -1972,7 +2006,8 @@
         "charlotte-latin:pipeline.roster[23].sport",
         "charlotte-christian:pipeline.roster[3].sport",
         "charlotte-christian:pipeline.roster[20].sport",
-        "charlotte-christian:pipeline.roster[33].sport"
+        "charlotte-christian:pipeline.roster[33].sport",
+        "covenant-day:pipeline.roster[10].sport"
       ],
       "t": "Lacrosse"
     },
@@ -2005,7 +2040,8 @@
         "charlotte-latin:pipeline.roster[35].sport",
         "charlotte-christian:pipeline.roster[9].sport",
         "charlotte-country-day:pipeline.roster[22].sport",
-        "charlotte-country-day:pipeline.roster[34].sport"
+        "charlotte-country-day:pipeline.roster[34].sport",
+        "covenant-day:pipeline.roster[6].sport"
       ],
       "t": "Tennis"
     },
@@ -2121,6 +2157,9 @@
         "charlotte-christian:honors.honors[3].tag",
         "charlotte-country-day:honors.honors[0].tag",
         "cannon:honors.honors[2].tag",
+        "covenant-day:honors.honors[0].tag",
+        "covenant-day:honors.honors[1].tag",
+        "covenant-day:honors.honors[3].tag",
         "davidson-day:honors.honors[1].tag",
         "davidson-day:honors.honors[3].tag"
       ],
@@ -2819,7 +2858,8 @@
         "charlotte-country-day:record.bars[2].tag",
         "charlotte-country-day:record.bars[3].tag",
         "charlotte-country-day:record.bars[4].tag",
-        "charlotte-country-day:record.bars[5].tag"
+        "charlotte-country-day:record.bars[5].tag",
+        "covenant-day:record.bars[1].tag"
       ],
       "t": "’25–26"
     },
@@ -4514,6 +4554,7 @@
       "of": "a0fb88bd",
       "at": [
         "cannon:pipeline.funnel[0].hint",
+        "covenant-day:pipeline.funnel[0].hint",
         "davidson-day:pipeline.funnel[0].hint"
       ],
       "t": "(tout divizyon, dokimante)"
@@ -4802,7 +4843,8 @@
       "text": "3",
       "of": "360caa42",
       "at": [
-        "cannon:coaching.featured[1].stats[1].value"
+        "cannon:coaching.featured[1].stats[1].value",
+        "covenant-day:coaching.featured[0].stats[1].value"
       ],
       "t": "3"
     },
@@ -5119,6 +5161,742 @@
         "cannon:facilities.careNote"
       ],
       "t": "Cannon se yon sit edikasyon klinik pou Metriz nan Antrènman Atletik UNC Charlotte a. Note kontras la ki vo lapèn eksplore sou yon vizit: Cannon ak Charlotte Christian bay travay la deyò bay Novant ak Atrium respektivman, Charlotte Country Day sèvi ak OrthoCarolina, epi Providence Day kenbe swen an konplètman anndan. Kapasite plas chita pa pibliye pou okenn sal Cannon."
+    },
+    {
+      "text": "18 teams across three seasons, with 82% of students playing at least one sport.",
+      "of": "b4f32bd9",
+      "at": [
+        "covenant-day:offered.headline"
+      ],
+      "t": "18 ekip atravè twa sezon, ak 82% elèv yo k ap jwe omwen yon espò."
+    },
+    {
+      "text": "A CISAA / NCISAA 4A program that has sent more than 175 athletes to college sports since the school’s first graduating class in 2006.",
+      "of": "e48cdf2f",
+      "at": [
+        "covenant-day:offered.subhead"
+      ],
+      "t": "Yon pwogram CISAA / NCISAA 4A ki voye plis pase 175 atlèt nan espò inivèsitè depi premye klas gradyasyon lekòl la an 2006."
+    },
+    {
+      "text": "teams, V · JV · MS",
+      "of": "a6672127",
+      "at": [
+        "covenant-day:offered.stats[0].label"
+      ],
+      "t": "ekip, V · JV · MS"
+    },
+    {
+      "text": "collegiate athletes since 2006",
+      "of": "091b1144",
+      "at": [
+        "covenant-day:offered.stats[2].label"
+      ],
+      "t": "atlèt inivèsitè depi 2006"
+    },
+    {
+      "text": "4A conference in the NCISAA",
+      "of": "9a8b19a9",
+      "at": [
+        "covenant-day:offered.stats[3].label"
+      ],
+      "t": "konferans 4A nan NCISAA a"
+    },
+    {
+      "text": "8 teams",
+      "of": "74bd84cd",
+      "at": [
+        "covenant-day:offered.seasons[0].note"
+      ],
+      "t": "8 ekip"
+    },
+    {
+      "text": "4 teams",
+      "of": "12157781",
+      "at": [
+        "covenant-day:offered.seasons[1].note"
+      ],
+      "t": "4 ekip"
+    },
+    {
+      "text": "6 teams",
+      "of": "a007c103",
+      "at": [
+        "covenant-day:offered.seasons[2].note"
+      ],
+      "t": "6 ekip"
+    },
+    {
+      "text": "The 18-team figure and season groupings are the school’s own; it states teams run \"at the varsity, JV, and middle school levels\" without publishing a per-sport breakdown, so JV/MS rows are not asserted here. Boys volleyball runs as a club sport, and a combined lacrosse program appears in the school’s signing coverage. MaxPreps counts 21 varsity sports and 50 total teams by splitting genders and levels the school aggregates.",
+      "of": "73350d73",
+      "at": [
+        "covenant-day:offered.footnote"
+      ],
+      "t": "Chif 18 ekip la ak gwoupman pa sezon yo se pa lekòl la yo ye; li deklare ekip yo fonksyone \"at the varsity, JV, and middle school levels\" san li pa pibliye yon detay pa espò, kidonk ranje JV/MS yo pa afime isit la. Volebòl gason fonksyone kòm yon espò klib, epi yon pwogram kwòs konbine parèt nan repòtaj siyati lekòl la. MaxPreps konte 21 espò varsity ak 50 ekip antou paske li separe sèks ak nivo lekòl la konbine yo."
+    },
+    {
+      "text": "The 2025–26 softball team beat Cannon for the NCISAA 4A title — the school’s first team state championship since 2017, inside 26 all-time championship appearances.",
+      "of": "6944ea48",
+      "at": [
+        "covenant-day:record.headline"
+      ],
+      "t": "Ekip softball 2025–26 la te bat Cannon pou tit NCISAA 4A a — premye chanpyona eta ann ekip lekòl la depi 2017, anndan 26 patisipasyon nan chanpyona pandan tout istwa a."
+    },
+    {
+      "text": "Boys soccer reached back-to-back state finals and spent part of fall 2025 ranked first in the nation during an 8-game unbeaten streak.",
+      "of": "1b1425b2",
+      "at": [
+        "covenant-day:record.subhead"
+      ],
+      "t": "Foutbòl gason te rive nan final eta de fwa youn dèyè lòt epi li te pase yon pati nan otòn 2025 klase premye nan tout peyi a pandan yon seri 8 match san defèt."
+    },
+    {
+      "text": "First-ever softball CISAA conference and NCISAA state titles; beat Cannon in the final",
+      "of": "09c65dc6",
+      "at": [
+        "covenant-day:record.rows[0].note"
+      ],
+      "t": "Premye tit konferans CISAA ak tit eta NCISAA softball nan istwa a; te bat Cannon nan final la"
+    },
+    {
+      "text": "First-ever final in 2024–25, then hosted the 2025–26 final as the top seed and lost 2–1 to Christ School",
+      "of": "12240d4e",
+      "at": [
+        "covenant-day:record.rows[1].note"
+      ],
+      "t": "Premye final nan istwa a an 2024–25, apre sa li te resevwa final 2025–26 la kòm premye tèt de seri epi li te pèdi 2–1 devan Christ School"
+    },
+    {
+      "text": "Took Providence Day to overtime in the state semifinal; state runner-up in 2022",
+      "of": "e6015c37",
+      "at": [
+        "covenant-day:record.rows[2].note"
+      ],
+      "t": "Te mennen Providence Day nan pwolongasyon nan demifinal eta a; dezyèm plas eta an 2022"
+    },
+    {
+      "text": "boys soccer (Christ School won the 2025–26 final 2–1 at Covenant Day) · field hockey (eliminated in overtime by Providence Day) · volleyball, whose three consecutive state runner-up finishes are the program’s standing high-water mark.",
+      "of": "049bef87",
+      "at": [
+        "covenant-day:record.didNotWin"
+      ],
+      "t": "foutbòl gason (Christ School te genyen final 2025–26 la 2–1 lakay Covenant Day) · hockey sou gazon (elimine nan pwolongasyon pa Providence Day) · volebòl, kote twa dezyèm plas eta youn dèyè lòt yo se pi gwo nivo pwogram nan janm rive."
+    },
+    {
+      "text": "'25–26 CONF",
+      "of": "6117fbfe",
+      "at": [
+        "covenant-day:record.bars[0].tag"
+      ],
+      "t": "’25–26 KONF"
+    },
+    {
+      "text": "The 2025–26 team captured the first-ever softball CISAA Conference and NCISAA State Championship — and the first CDS team state title of any kind since 2017 — going 10–1 in conference and defeating Cannon in the final. Senior Avery Houseton was Conference Player of the Year and All-State before signing with UNC Charlotte.",
+      "of": "d74004aa",
+      "at": [
+        "covenant-day:record.seasonDetail[0].text"
+      ],
+      "t": "Ekip 2025–26 la te pran premye Chanpyona Konferans CISAA ak Chanpyona Eta NCISAA softball nan istwa a — ak premye tit eta ann ekip CDS nenpòt kalite depi 2017 — ak yon fich 10–1 nan konferans epi li te bat Cannon nan final la. Avery Houseton, yon elèv dènye ane, te Conference Player of the Year ak All-State anvan li te siyen ak UNC Charlotte."
+    },
+    {
+      "text": "Made the program’s first NCISAA 4A final in 2024–25, then earned the #1 overall seed in 2025–26, hosted the championship game for a second consecutive year, and was \"ranked first in the nation\" during an 8-game unbeaten streak before falling 2–1 to Christ School.",
+      "of": "022d5bbd",
+      "at": [
+        "covenant-day:record.seasonDetail[1].text"
+      ],
+      "t": "Li te rive nan premye final NCISAA 4A pwogram nan an 2024–25, apre sa li te dekwoche tèt de seri #1 an jeneral an 2025–26, li te resevwa match chanpyona a pou yon dezyèm ane youn dèyè lòt, epi li te \"ranked first in the nation\" pandan yon seri 8 match san defèt anvan li te pèdi 2–1 devan Christ School."
+    },
+    {
+      "text": "Boys basketball earned the #4 overall seed in the 2024–25 NCISAA playoffs behind an All-State senior pair; baseball took the #8 seed in 2025–26 at 12–14 (5–5 in conference). Neither reached the semifinal, so they sit outside the title matrix above.",
+      "of": "1b719320",
+      "at": [
+        "covenant-day:record.seasonDetail[2].text"
+      ],
+      "t": "Baskètbòl gason te dekwoche tèt de seri #4 an jeneral nan playoff NCISAA 2024–25 yo dèyè yon pè elèv dènye ane All-State; bezbòl te pran tèt de seri #8 la an 2025–26 ak yon fich 12–14 (5–5 nan konferans). Ni youn ni lòt pa t rive nan demifinal la, kidonk yo rete deyò matris tit ki anwo a."
+    },
+    {
+      "text": "Girls basketball won 15 more games in 2024–25 than the season before, including a 10-game winning streak. Girls cross country’s Caitlin Kasten won both the CISAA and NCISAA championship meets as a sophomore. Girls tennis took the Ashe Cup — the annual trophy against Charlotte Christian — for the first time in school history in 2025.",
+      "of": "f2ff877b",
+      "at": [
+        "covenant-day:record.seasonDetail[3].text"
+      ],
+      "t": "Baskètbòl fi te genyen 15 match anplis an 2024–25 pase sezon anvan an, ansanm ak yon seri 10 viktwa youn dèyè lòt. Caitlin Kasten, nan kous kwaze fi, te genyen ni rankont chanpyona CISAA a ni pa NCISAA a antanke elèv dezyèm ane. Tenis fi te pran Ashe Cup la — twofe anyèl kont Charlotte Christian an — pou premye fwa nan istwa lekòl la an 2025."
+    },
+    {
+      "text": "33 documented college commitments across the classes of 2024–26 — nine Division I, one to a Power 4 program.",
+      "of": "a2935663",
+      "at": [
+        "covenant-day:pipeline.headline"
+      ],
+      "t": "33 angajman inivèsitè dokimante atravè klas 2024–26 yo — nèf Division I, youn nan yon pwogram Power 4."
+    },
+    {
+      "text": "The signature signing is Emily Eaton ’24, who started every game as a freshman for a top-10 Louisville field hockey team.",
+      "of": "6ff324b1",
+      "at": [
+        "covenant-day:pipeline.subhead"
+      ],
+      "t": "Siyati ki pi remakab la se Emily Eaton ’24, ki te kòmanse chak match antanke elèv premye ane pou yon ekip hockey sou gazon Louisville ki nan top-10."
+    },
+    {
+      "text": "Documented minimums compiled from the school’s six signing/commitment articles. The Class of 2024’s spring signing article names six athletes but only four are recoverable, so early-2024 commits may be missing. The school’s cumulative claim is 175+ collegiate athletes since 2006.",
+      "of": "087b0fd4",
+      "at": [
+        "covenant-day:pipeline.funnelNote"
+      ],
+      "t": "Minimòm dokimante ki konpile apati sis atik siyati/angajman lekòl la. Atik siyati prentan Klas 2024 la nonmen sis atlèt men se kat sèlman ki ka rekipere, kidonk angajman kòmansman 2024 yo ka manke. Reklamasyon kimilatif lekòl la se 175+ atlèt inivèsitè depi 2006."
+    },
+    {
+      "text": "The pipeline is broad rather than tall: commitments span eleven sports, but the ceiling outside field hockey is D1 mid-major — Louisiana Tech, East Carolina, UNC Charlotte, Queens, Gardner-Webb, Davidson, Wofford, Appalachian State. That also explains the absence of NIL activity and top-100 recruiting rankings, which track Power 4 football and basketball pipelines.",
+      "of": "d8445aa5",
+      "at": [
+        "covenant-day:pipeline.realityCheck"
+      ],
+      "t": "Rezo a laj olye li wo: angajman yo kouvri onz espò, men plafon an andeyò hockey sou gazon se D1 mid-major — Louisiana Tech, East Carolina, UNC Charlotte, Queens, Gardner-Webb, Davidson, Wofford, Appalachian State. Sa eksplike tou absans aktivite NIL ak klasman rekritman top-100, ki suiv rezo foutbòl ameriken ak baskètbòl Power 4 yo."
+    },
+    {
+      "text": "No nationally top-100-ranked recruit is documented. The two best-covered recruits are Emily Eaton ’24 — 2023 NCISAA Player of the Year and NC Player of the Year per Max Field Hockey, signed by a top-10-ranked Louisville program — and 6′9″ forward Michael Marcus Jr ’24, who chose Appalachian State after NC state-level coverage.",
+      "of": "825cb957",
+      "at": [
+        "covenant-day:pipeline.rankedRecruits"
+      ],
+      "t": "Pa gen okenn rekri ki klase top-100 nasyonalman ki dokimante. De rekri ki gen plis repòtaj yo se Emily Eaton ’24 — NCISAA Player of the Year 2023 ak NC Player of the Year dapre Max Field Hockey, siyen pa yon pwogram Louisville ki klase top-10 — ak Michael Marcus Jr ’24, yon avan 6′9″, ki te chwazi Appalachian State apre repòtaj nan nivo eta NC."
+    },
+    {
+      "text": "Basketball",
+      "of": "5f3f8676",
+      "at": [
+        "covenant-day:pipeline.roster[1].sport",
+        "covenant-day:pipeline.roster[14].sport",
+        "covenant-day:pipeline.roster[15].sport",
+        "covenant-day:pipeline.roster[29].sport",
+        "covenant-day:pipeline.roster[30].sport"
+      ],
+      "t": "Baskètbòl"
+    },
+    {
+      "text": "XC / Track",
+      "of": "0ef9f162",
+      "at": [
+        "covenant-day:pipeline.roster[3].sport",
+        "covenant-day:pipeline.roster[7].sport",
+        "covenant-day:pipeline.roster[22].sport"
+      ],
+      "t": "XC / Atletism"
+    },
+    {
+      "text": "Soccer",
+      "of": "4d37567e",
+      "at": [
+        "covenant-day:pipeline.roster[4].sport",
+        "covenant-day:pipeline.roster[5].sport",
+        "covenant-day:pipeline.roster[9].sport",
+        "covenant-day:pipeline.roster[12].sport",
+        "covenant-day:pipeline.roster[18].sport",
+        "covenant-day:pipeline.roster[19].sport",
+        "covenant-day:pipeline.roster[21].sport",
+        "covenant-day:pipeline.roster[24].sport",
+        "covenant-day:pipeline.roster[27].sport"
+      ],
+      "t": "Foutbòl"
+    },
+    {
+      "text": "Compiled from the school’s own Lions News signing articles (September 2024 through April 2026). Levels and conferences were verified per college by the researcher; the two junior-college signees are listed at the D3 tier for want of an NJCAA level in this table’s scale. Eaton transferred from Louisville to Virginia — also ACC — for fall 2026.",
+      "of": "8224ce43",
+      "at": [
+        "covenant-day:pipeline.rosterNote"
+      ],
+      "t": "Konpile apati atik siyati Lions News lekòl la (septanm 2024 rive avril 2026). Chèchè a te verifye nivo ak konferans yo pou chak inivèsite; de siyatè junior-college yo parèt nan nivo D3 a paske echèl tablo sa a pa gen yon nivo NJCAA. Eaton te transfere soti Louisville ale Virginia — ACC tou — pou otòn 2026."
+    },
+    {
+      "text": "The program’s benchmark alumna started every game as an ACC freshman; its benchmark season put boys soccer first in the nation.",
+      "of": "6bf5f22c",
+      "at": [
+        "covenant-day:honors.headline"
+      ],
+      "t": "Ansyen elèv referans pwogram nan te kòmanse chak match antanke elèv premye ane nan ACC; sezon referans li a te mete foutbòl gason premye nan tout peyi a."
+    },
+    {
+      "text": "No professional alumni yet — the first graduating class was 2006 — but a deep all-conference and all-state ledger every season.",
+      "of": "5a1d7e2e",
+      "at": [
+        "covenant-day:honors.subhead"
+      ],
+      "t": "Poko gen ansyen elèv pwofesyonèl — premye klas gradyasyon an te an 2006 — men yon rejis all-conference ak all-state ki fon chak sezon."
+    },
+    {
+      "text": "ACC · Class of '24",
+      "of": "682f9447",
+      "at": [
+        "covenant-day:honors.pros[0].kicker"
+      ],
+      "t": "ACC · Klas ’24"
+    },
+    {
+      "text": "2023 NCISAA Player of the Year, Charlotte Observer Offensive Player of the Year, and Max Field Hockey’s NC Player of the Year after leading the state with 18 goals. CDS’s all-time leading scorer, she started all 17 games as a Louisville freshman and transferred to Virginia for fall 2026.",
+      "of": "b6a42bec",
+      "at": [
+        "covenant-day:honors.pros[0].detail"
+      ],
+      "t": "NCISAA Player of the Year 2023, Charlotte Observer Offensive Player of the Year, ak NC Player of the Year Max Field Hockey a apre li te mennen eta a ak 18 gòl. Pi gwo makè tout tan CDS, li te kòmanse tout 17 match yo antanke elèv premye ane nan Louisville epi li te transfere ale Virginia pou otòn 2026."
+    },
+    {
+      "text": "Sun Belt · Class of '24",
+      "of": "ca8ddb97",
+      "at": [
+        "covenant-day:honors.pros[1].kicker"
+      ],
+      "t": "Sun Belt · Klas ’24"
+    },
+    {
+      "text": "A 6′9″ forward who averaged 14.9 points as a senior and led the Lions to a 4A semifinal, then posted an 18-point, 10-rebound double-double in his second college game.",
+      "of": "86d81faa",
+      "at": [
+        "covenant-day:honors.pros[1].detail"
+      ],
+      "t": "Yon avan 6′9″ ki te fè yon mwayèn 14.9 pwen lè l te nan dènye ane l epi ki te mennen Lions yo nan yon demifinal 4A, apre sa li te fè yon double-double 18 pwen, 10 rebon nan dezyèm match inivèsitè li."
+    },
+    {
+      "text": "Two-sport All-State senior",
+      "of": "80012f9b",
+      "at": [
+        "covenant-day:honors.honors[0].label"
+      ],
+      "t": "Elèv dènye ane All-State nan de espò"
+    },
+    {
+      "text": "Avery Houseton ’26 was softball Conference Player of the Year and All-State while also earning volleyball All-Conference and All-State honors, recording her 1,000th career dig, and signing with UNC Charlotte.",
+      "of": "aade0998",
+      "at": [
+        "covenant-day:honors.honors[0].text"
+      ],
+      "t": "Avery Houseton ’26 te Conference Player of the Year ak All-State nan softball pandan li te dekwoche tou onè All-Conference ak All-State nan volebòl, li te anrejistre 1,000yèm dig karyè li, epi li te siyen ak UNC Charlotte."
+    },
+    {
+      "text": "Conference champions of the year",
+      "of": "e8b7f42c",
+      "at": [
+        "covenant-day:honors.honors[1].label"
+      ],
+      "t": "Chanpyon konferans ane a"
+    },
+    {
+      "text": "Caitlin Kasten won both the CISAA and NCISAA cross-country championship meets as a sophomore and was named CISAA Runner of the Year (2024).",
+      "of": "fb3d6501",
+      "at": [
+        "covenant-day:honors.honors[1].text"
+      ],
+      "t": "Caitlin Kasten te genyen ni rankont chanpyona kous kwaze CISAA a ni pa NCISAA a antanke elèv dezyèm ane, epi yo te nonmen li CISAA Runner of the Year (2024)."
+    },
+    {
+      "text": "All-American Bowl selections",
+      "of": "0ca2d59a",
+      "at": [
+        "covenant-day:honors.honors[2].label"
+      ],
+      "t": "Seleksyon All-American Bowl"
+    },
+    {
+      "text": "Five football players were selected for the Gatlinburg All-American Bowl after the 2024 season, out of six All-Conference and four All-State honorees.",
+      "of": "bd3ae4ad",
+      "at": [
+        "covenant-day:honors.honors[2].text"
+      ],
+      "t": "Senk jwè foutbòl ameriken te seleksyone pou Gatlinburg All-American Bowl la apre sezon 2024 la, pami sis moun ki te resevwa onè All-Conference ak kat All-State."
+    },
+    {
+      "text": "Multi-state",
+      "of": "2db81b0e",
+      "at": [
+        "covenant-day:honors.honors[2].tag"
+      ],
+      "t": "Plizyè All-State"
+    },
+    {
+      "text": "Middle-school phenom",
+      "of": "c324b302",
+      "at": [
+        "covenant-day:honors.honors[3].label"
+      ],
+      "t": "Fenomèn middle school"
+    },
+    {
+      "text": "Carlton Huitt earned First Team All-Conference and All-State in boys tennis in 2026 — as an 8th grader.",
+      "of": "3472a3b4",
+      "at": [
+        "covenant-day:honors.honors[3].text"
+      ],
+      "t": "Carlton Huitt te dekwoche First Team All-Conference ak All-State nan tenis gason an 2026 — antanke yon elèv grad 8."
+    },
+    {
+      "text": "Career milestones",
+      "of": "d87f510e",
+      "at": [
+        "covenant-day:honors.honors[4].label"
+      ],
+      "t": "Etap enpòtan nan karyè"
+    },
+    {
+      "text": "Chris Rivens ’25 passed 1,000 career basketball points; Maggie Shannon ’26 passed 1,000 volleyball assists in three seasons; Ethan Welsh ’26 ran the second-fastest cross-country time in school history (15:58.7).",
+      "of": "fea949b1",
+      "at": [
+        "covenant-day:honors.honors[4].text"
+      ],
+      "t": "Chris Rivens ’25 te depase 1,000 pwen baskètbòl nan karyè li; Maggie Shannon ’26 te depase 1,000 asist volebòl an twa sezon; Ethan Welsh ’26 te kouri dezyèm pi bon tan kous kwaze nan istwa lekòl la (15:58.7)."
+    },
+    {
+      "text": "Program record book",
+      "of": "ffef9495",
+      "at": [
+        "covenant-day:honors.honors[4].tag"
+      ],
+      "t": "Liv rekò pwogram nan"
+    },
+    {
+      "text": "The college counseling director has coached varsity volleyball for 22 seasons — and the new athletic director was promoted from high school principal.",
+      "of": "b7e1bda7",
+      "at": [
+        "covenant-day:coaching.headline"
+      ],
+      "t": "Direktè konsèy inivèsitè a ap antrene volebòl varsity depi 22 sezon — epi nouvo direktè atletik la te monte apati pòs direktè high school la."
+    },
+    {
+      "text": "Athletic Director: Mike Freace. Continuity here is generational: two current signees are children of the AD and the guidance counselor.",
+      "of": "275f2b85",
+      "at": [
+        "covenant-day:coaching.subhead"
+      ],
+      "t": "Direktè Atletik: Mike Freace. Kontinwite isit la se yon zafè jenerasyon: de siyatè aktyèl yo se pitit AD a ak konseye oryantasyon an."
+    },
+    {
+      "text": "The continuity anchor · Volleyball, 22 seasons",
+      "of": "913dbc58",
+      "at": [
+        "covenant-day:coaching.featured[0].kicker"
+      ],
+      "t": "Ankraj kontinwite a · Volebòl, 22 sezon"
+    },
+    {
+      "text": "22",
+      "of": "8ff29ca5",
+      "at": [
+        "covenant-day:coaching.featured[0].stats[0].value"
+      ],
+      "t": "22"
+    },
+    {
+      "text": "seasons as head coach in 2024",
+      "of": "62339a98",
+      "at": [
+        "covenant-day:coaching.featured[0].stats[0].label"
+      ],
+      "t": "sezon antanke antrenè prensipal an 2024"
+    },
+    {
+      "text": "straight state runner-up finishes",
+      "of": "627bd381",
+      "at": [
+        "covenant-day:coaching.featured[0].stats[1].label"
+      ],
+      "t": "dezyèm plas eta youn dèyè lòt"
+    },
+    {
+      "text": "2003",
+      "of": "d32ea22a",
+      "at": [
+        "covenant-day:coaching.featured[0].stats[2].value"
+      ],
+      "t": "2003"
+    },
+    {
+      "text": "at Covenant Day since",
+      "of": "2f380028",
+      "at": [
+        "covenant-day:coaching.featured[0].stats[2].label"
+      ],
+      "t": "nan Covenant Day depi"
+    },
+    {
+      "text": "The Director of Guidance and College Counseling doubles as the varsity volleyball head coach — a two-decade tenure that produced three consecutive NCISAA state runner-up finishes and, in 2025, a 1,000-dig and a 1,000-assist senior in the same rotation.",
+      "of": "d5039819",
+      "at": [
+        "covenant-day:coaching.featured[0].detail"
+      ],
+      "t": "Direktè Oryantasyon ak Konsèy Inivèsitè a se antrenè prensipal volebòl varsity a tou — yon manda de deseni ki pwodui twa dezyèm plas eta NCISAA youn dèyè lòt epi, an 2025, yon elèv dènye ane ak 1,000 dig ak yon lòt ak 1,000 asist nan menm wotasyon an."
+    },
+    {
+      "text": "The internal promotion · Athletic Director",
+      "of": "844d31c9",
+      "at": [
+        "covenant-day:coaching.featured[1].kicker"
+      ],
+      "t": "Pwomosyon entèn nan · Direktè Atletik"
+    },
+    {
+      "text": "HS",
+      "of": "6deb4e2c",
+      "at": [
+        "covenant-day:coaching.featured[1].stats[0].value"
+      ],
+      "t": "HS"
+    },
+    {
+      "text": "Principal before taking the AD role",
+      "of": "84c9be54",
+      "at": [
+        "covenant-day:coaching.featured[1].stats[0].label"
+      ],
+      "t": "Direktè anvan li te pran wòl AD a"
+    },
+    {
+      "text": "2",
+      "of": "370cabd5",
+      "at": [
+        "covenant-day:coaching.featured[1].stats[1].value",
+        "davidson-day:coaching.featured[0].stats[1].value"
+      ],
+      "t": "2"
+    },
+    {
+      "text": "assistant ADs beside him",
+      "of": "a22822ff",
+      "at": [
+        "covenant-day:coaching.featured[1].stats[1].label"
+      ],
+      "t": "asistan AD bò kote li"
+    },
+    {
+      "text": "'25",
+      "of": "4c455a8b",
+      "at": [
+        "covenant-day:coaching.featured[1].stats[2].value"
+      ],
+      "t": "’25"
+    },
+    {
+      "text": "son Sean signed to play college soccer",
+      "of": "35e438d9",
+      "at": [
+        "covenant-day:coaching.featured[1].stats[2].label"
+      ],
+      "t": "pitit gason li Sean te siyen pou jwe foutbòl inivèsitè"
+    },
+    {
+      "text": "Freace moved from High School Principal to Athletic Director — an internal promotion announced on the school’s own news feed rather than an outside hire. The department around him: Aja Teich (Assistant AD / Sports Information Director), Michael Laney (Assistant AD for Middle School Athletics and head basketball coach), Chad Smith (strength & conditioning), plus an operations manager and transportation coordinator.",
+      "of": "91c4cb32",
+      "at": [
+        "covenant-day:coaching.featured[1].detail"
+      ],
+      "t": "Freace te pase soti Direktè High School rive Direktè Atletik — yon pwomosyon entèn ki te anonse sou pwòp fil nouvèl lekòl la olye yon anbochaj deyò. Depatman an bò kote li: Aja Teich (Asistan AD / Sports Information Director), Michael Laney (Asistan AD pou Atletism Middle School ak antrenè prensipal baskètbòl), Chad Smith (fòs ak kondisyònman), plis yon manadjè operasyon ak yon kowòdonatè transpò."
+    },
+    {
+      "text": "Volleyball · Guidance Director",
+      "of": "ab6ef47e",
+      "at": [
+        "covenant-day:coaching.tenure[0].role"
+      ],
+      "t": "Volebòl · Direktè Oryantasyon"
+    },
+    {
+      "text": "since 2003",
+      "of": "610110dc",
+      "at": [
+        "covenant-day:coaching.tenure[0].since"
+      ],
+      "t": "depi 2003"
+    },
+    {
+      "text": "Athletic Director",
+      "of": "e3e4c54b",
+      "at": [
+        "covenant-day:coaching.tenure[1].role"
+      ],
+      "t": "Direktè Atletik"
+    },
+    {
+      "text": "promoted from HS Principal",
+      "of": "ac5fbf5a",
+      "at": [
+        "covenant-day:coaching.tenure[1].since"
+      ],
+      "t": "monte apati Direktè HS"
+    },
+    {
+      "text": "Asst AD · Boys Basketball",
+      "of": "c5075244",
+      "at": [
+        "covenant-day:coaching.tenure[2].role"
+      ],
+      "t": "Asistan AD · Baskètbòl Gason"
+    },
+    {
+      "text": "Strength & Conditioning",
+      "of": "92452875",
+      "at": [
+        "covenant-day:coaching.tenure[3].role"
+      ],
+      "t": "Fòs ak Kondisyònman"
+    },
+    {
+      "text": "Football — dated hire",
+      "of": "bbe5b6c6",
+      "at": [
+        "covenant-day:coaching.tenure[4].role"
+      ],
+      "t": "Foutbòl — anbochaj ki gen dat"
+    },
+    {
+      "text": "announced on Lions News",
+      "of": "2e739b2b",
+      "at": [
+        "covenant-day:coaching.tenure[4].since",
+        "covenant-day:coaching.tenure[5].since"
+      ],
+      "t": "anonse sou Lions News"
+    },
+    {
+      "text": "Girls Soccer — dated hire",
+      "of": "b633c633",
+      "at": [
+        "covenant-day:coaching.tenure[5].role"
+      ],
+      "t": "Foutbòl Fi — anbochaj ki gen dat"
+    },
+    {
+      "text": "the school publishes no coaching directory with tenure dates — the two dated head-coach announcements (Langs for football, Johnson for girls soccer) and Mills’ 22-season milestone are the documented anchors. Program coaches named in school coverage include David Houseton (baseball, father of softball signee Avery), Vanessa Laney, Rachael Klohr, Julius Klohr, Mike Hawks and Bobby Wehane.",
+      "of": "b1de6a44",
+      "at": [
+        "covenant-day:coaching.worthKnowing"
+      ],
+      "t": "lekòl la pa pibliye okenn anyè antrenè ak dat manda — de anons antrenè prensipal ki gen dat yo (Langs pou foutbòl ameriken, Johnson pou foutbòl fi) ak etap 22 sezon Mills la se ankraj dokimante yo. Antrenè pwogram ki nonmen nan repòtaj lekòl la gen ladan David Houseton (bezbòl, papa Avery, siyatè softball), Vanessa Laney, Rachael Klohr, Julius Klohr, Mike Hawks ak Bobby Wehane."
+    },
+    {
+      "text": "An 800-seat gym, a turf field ringed by a 200-meter track, six new tennis courts, and a 27-acre athletic park down the road.",
+      "of": "661f7b8a",
+      "at": [
+        "covenant-day:facilities.headline"
+      ],
+      "t": "Yon jimnazyòm 800 plas, yon teren gazon atifisyèl ak yon pis 200 mèt ki fè wonn li, sis teren tenis tou nèf, ak yon pak atletik 27 kawo tè yon ti distans sou wout la."
+    },
+    {
+      "text": "The Forever Covenant campaign plans an eight-lane track and field house at Warner Park.",
+      "of": "78471844",
+      "at": [
+        "covenant-day:facilities.subhead"
+      ],
+      "t": "Kanpay Forever Covenant an planifye yon pis uit kouloua ak yon field house nan Warner Park."
+    },
+    {
+      "text": "Holds more than 800 fans; home court for basketball and volleyball.",
+      "of": "5dd38713",
+      "at": [
+        "covenant-day:facilities.venues[0].detail"
+      ],
+      "t": "Li kenbe plis pase 800 fanatik; teren lakay pou baskètbòl ak volebòl."
+    },
+    {
+      "text": "A fully turf field beside the middle school, ringed by the four-lane, 200-meter Davis Track.",
+      "of": "e768a313",
+      "at": [
+        "covenant-day:facilities.venues[1].detail"
+      ],
+      "t": "Yon teren totalman an gazon atifisyèl bò kote middle school la, ak Davis Track la — yon pis kat kouloua, 200 mèt — ki fè wonn li."
+    },
+    {
+      "text": "27 acres at 515 Matthews Township Parkway — baseball, softball, football/soccer fields, and middle-school field hockey. Homecoming is played here.",
+      "of": "70b0933c",
+      "at": [
+        "covenant-day:facilities.venues[2].detail"
+      ],
+      "t": "27 kawo tè nan 515 Matthews Township Parkway — teren bezbòl, softball, foutbòl ameriken/foutbòl, ak hockey sou gazon middle school. Se la Homecoming jwe."
+    },
+    {
+      "text": "Six brand-new hard courts with a pavilion.",
+      "of": "cc7db98b",
+      "at": [
+        "covenant-day:facilities.venues[3].detail"
+      ],
+      "t": "Sis teren di tou nèf ak yon pavyon."
+    },
+    {
+      "text": "Primary field hockey venue and spring track field events.",
+      "of": "c0e5db57",
+      "at": [
+        "covenant-day:facilities.venues[4].detail"
+      ],
+      "t": "Sit prensipal hockey sou gazon ak epwèv teren atletism prentan yo."
+    },
+    {
+      "text": "Middle-school volleyball and basketball, lower-school PE.",
+      "of": "02acd3a8",
+      "at": [
+        "covenant-day:facilities.venues[5].detail"
+      ],
+      "t": "Volebòl ak baskètbòl middle school, edikasyon fizik lower school."
+    },
+    {
+      "text": "Built 2015 — power racks, kettlebells, free weights; serves grades 6–12.",
+      "of": "745c60ab",
+      "at": [
+        "covenant-day:facilities.venues[6].detail"
+      ],
+      "t": "Bati an 2015 — power racks, kettlebells, pwa lib; li sèvi grad 6–12."
+    },
+    {
+      "text": "Strength & conditioning",
+      "of": "980f5f55",
+      "at": [
+        "covenant-day:facilities.care[0].label"
+      ],
+      "t": "Fòs ak kondisyònman"
+    },
+    {
+      "text": "A dedicated faculty position — Chad Smith, HS Strength and Conditioning Teacher and Coach. Programming is age-appropriate with integrated speed and agility work; progress is tracked daily, and athletes lift after school and through summers.",
+      "of": "fe078d5c",
+      "at": [
+        "covenant-day:facilities.care[0].text"
+      ],
+      "t": "Yon pòs pwofesè dedye — Chad Smith, HS Strength and Conditioning Teacher and Coach. Pwogram nan adapte ak laj, ak travay vitès ak ajilite entegre; yo suiv pwogrè chak jou, epi atlèt yo leve pwa apre lekòl ak pandan tout ete yo."
+    },
+    {
+      "text": "Strength as curriculum",
+      "of": "2a3bff03",
+      "at": [
+        "covenant-day:facilities.care[1].label"
+      ],
+      "t": "Fòs kòm kourikoulòm"
+    },
+    {
+      "text": "Strength & Fitness is a credit-bearing PE course in the High School Profile, and grades 6–12 take strength electives in the Webb Fitness Center.",
+      "of": "66f3f1ca",
+      "at": [
+        "covenant-day:facilities.care[1].text"
+      ],
+      "t": "Strength & Fitness se yon kou edikasyon fizik ki bay kredi nan High School Profile la, epi grad 6–12 pran elektif fòs nan Webb Fitness Center a."
+    },
+    {
+      "text": "Athletic training",
+      "of": "b80e5011",
+      "at": [
+        "covenant-day:facilities.care[2].label"
+      ],
+      "t": "Antrenè atletik"
+    },
+    {
+      "text": "No athletic trainers or sports-medicine partnership (OrthoCarolina / Novant / Atrium) are named anywhere on the athletics site — the S&C program above is the published extent of athlete care.",
+      "of": "acbfbf51",
+      "at": [
+        "covenant-day:facilities.care[2].text"
+      ],
+      "t": "Okenn antrenè atletik ni patenarya medsin espòtif (OrthoCarolina / Novant / Atrium) pa nonmen okenn kote sou sit atletism nan — pwogram S&C ki anwo a se limit swen atlèt ki pibliye a."
+    },
+    {
+      "text": "The planned Warner Park upgrades — an eight-lane track, field-event spaces, a field house, concessions and restrooms — would replace the current four-lane track as the program’s home for meets.",
+      "of": "96715f01",
+      "at": [
+        "covenant-day:facilities.careNote"
+      ],
+      "t": "Amelyorasyon Warner Park ki planifye yo — yon pis uit kouloua, espas pou epwèv teren, yon field house, kote pou vann manje ak twalèt — ta ranplase pis kat kouloua aktyèl la kòm kay pwogram nan pou konpetisyon yo."
     },
     {
       "text": "35 teams across 13 sports on a 15-acre campus, with about 90% of students in grades 5–12 playing.",
@@ -5543,14 +6321,6 @@
         "davidson-day:coaching.featured[0].stats[0].label"
       ],
       "t": "pandan 17 ane nan Weddington HS"
-    },
-    {
-      "text": "2",
-      "of": "370cabd5",
-      "at": [
-        "davidson-day:coaching.featured[0].stats[1].value"
-      ],
-      "t": "2"
     },
     {
       "text": "NCHSAA state championships",

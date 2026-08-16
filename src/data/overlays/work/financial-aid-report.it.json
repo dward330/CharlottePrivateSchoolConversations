@@ -13,6 +13,7 @@
         "charlotte-christian:title",
         "charlotte-country-day:title",
         "cannon:title",
+        "covenant-day:title",
         "davidson-day:title"
       ],
       "t": "Rette e aiuti economici — Rapporto di approfondimento"
@@ -35,6 +36,7 @@
         "charlotte-christian:framing[0].title",
         "charlotte-country-day:framing[0].title",
         "cannon:framing[0].title",
+        "covenant-day:framing[0].title",
         "davidson-day:framing[0].title"
       ],
       "t": "Non pubblicato ≠ carente."
@@ -77,6 +79,7 @@
         "charlotte-christian:framing[2].title",
         "charlotte-country-day:framing[2].title",
         "cannon:framing[2].title",
+        "covenant-day:framing[2].title",
         "davidson-day:framing[2].title"
       ],
       "t": "Solo aiuti K–12."
@@ -143,7 +146,8 @@
       "of": "c2d451ca",
       "at": [
         "providence-day:sections[0].bands[2].label",
-        "charlotte-latin:sections[0].bands[1].label"
+        "charlotte-latin:sections[0].bands[1].label",
+        "covenant-day:sections[0].bands[1].label"
       ],
       "t": "Classi 1–5"
     },
@@ -186,6 +190,8 @@
         "cannon:sections[0].boxes[0].tag",
         "cannon:sections[2].boxes[2].tag",
         "cannon:sections[3].boxes[1].tag",
+        "covenant-day:sections[2].boxes[1].tag",
+        "covenant-day:sections[4].boxes[0].tag",
         "davidson-day:sections[2].boxes[2].tag"
       ],
       "t": "NOT PUBLISHED"
@@ -457,6 +463,7 @@
         "charlotte-latin:sections[2].navTitle",
         "charlotte-country-day:sections[2].navTitle",
         "cannon:sections[2].navTitle",
+        "covenant-day:sections[2].navTitle",
         "davidson-day:sections[2].navTitle"
       ],
       "t": "Il meccanismo degli aiuti"
@@ -527,6 +534,7 @@
         "providence-day:sections[2].timeline[3].when",
         "charlotte-country-day:sections[2].timeline[3].when",
         "cannon:sections[2].timeline[3].when",
+        "covenant-day:sections[2].timeline[3].when",
         "davidson-day:sections[2].timeline[3].when"
       ],
       "t": "Ogni anno"
@@ -872,6 +880,7 @@
         "charlotte-latin:sections[5].navTitle",
         "charlotte-country-day:sections[4].navTitle",
         "cannon:sections[4].navTitle",
+        "covenant-day:sections[5].navTitle",
         "davidson-day:sections[4].navTitle"
       ],
       "t": "Pagare il saldo"
@@ -894,7 +903,8 @@
         "providence-day:sections[5].plans[0].figure",
         "charlotte-christian:sections[4].plans[1].figure",
         "charlotte-country-day:sections[4].plans[1].figure",
-        "cannon:sections[4].plans[0].figure"
+        "cannon:sections[4].plans[0].figure",
+        "covenant-day:sections[5].plans[0].figure"
       ],
       "t": "1×"
     },
@@ -1033,6 +1043,7 @@
         "charlotte-christian:sections[5].navTitle",
         "charlotte-country-day:sections[5].navTitle",
         "cannon:sections[5].navTitle",
+        "covenant-day:sections[6].navTitle",
         "davidson-day:sections[5].navTitle"
       ],
       "t": "Andamento e domande"
@@ -1226,6 +1237,7 @@
         "charlotte-christian:framing[0].body",
         "charlotte-country-day:framing[0].body",
         "cannon:framing[0].body",
+        "covenant-day:framing[0].body",
         "davidson-day:framing[0].body"
       ],
       "t": "«Not published» segnala una lacuna di trasparenza, mai un giudizio secondo cui il programma di aiuti sia limitato o poco accogliente."
@@ -1258,7 +1270,8 @@
       "text": "Grades 6–8",
       "of": "914e6250",
       "at": [
-        "charlotte-latin:sections[0].bands[2].label"
+        "charlotte-latin:sections[0].bands[2].label",
+        "covenant-day:sections[0].bands[2].label"
       ],
       "t": "Classi 6–8"
     },
@@ -1269,7 +1282,8 @@
         "charlotte-latin:sections[0].bands[3].label",
         "charlotte-country-day:sections[0].bands[4].label",
         "cannon:sections[0].bands[4].label",
-        "cannon:sections[3].ranges[2].label"
+        "cannon:sections[3].ranges[2].label",
+        "covenant-day:sections[0].bands[3].label"
       ],
       "t": "Classi 9–12"
     },
@@ -2206,7 +2220,8 @@
       "text": "Tuition by Band",
       "of": "098bc98f",
       "at": [
-        "charlotte-christian:sections[0].navTitle"
+        "charlotte-christian:sections[0].navTitle",
+        "covenant-day:sections[0].navTitle"
       ],
       "t": "Retta per fascia"
     },
@@ -2298,6 +2313,7 @@
       "of": "09c013ce",
       "at": [
         "charlotte-christian:sections[1].navTitle",
+        "covenant-day:sections[1].navTitle",
         "davidson-day:sections[1].navTitle"
       ],
       "t": "Quote e costi aggiuntivi"
@@ -2307,6 +2323,7 @@
       "of": "e742ffd4",
       "at": [
         "charlotte-christian:sections[1].title",
+        "covenant-day:sections[1].title",
         "davidson-day:sections[1].title"
       ],
       "t": "Quote e costi aggiuntivi"
@@ -2763,7 +2780,8 @@
       "text": "$1,500",
       "of": "7634a7b9",
       "at": [
-        "charlotte-christian:sections[4].plans[0].figure"
+        "charlotte-christian:sections[4].plans[0].figure",
+        "covenant-day:sections[4].plans[0].figure"
       ],
       "t": "$1,500"
     },
@@ -4088,6 +4106,610 @@
       "t": "Quali sono state le tariffe delle rette pubblicate per ciascuna fascia negli ultimi tre anni?"
     },
     {
+      "text": "2026–27 school year · figures as of 15 Aug 2026",
+      "of": "47d9e49a",
+      "at": [
+        "covenant-day:meta"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Two years are live at once.",
+      "of": "ab877c57",
+      "at": [
+        "covenant-day:framing[1].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The website table shows 2026–27 while the linked payment-terms PDF shows 2025–26. Every figure here names its year; the report leads with 2026–27.",
+      "of": "6e7cbdf9",
+      "at": [
+        "covenant-day:framing[1].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Tuition assistance while enrolled — not college aid. Not financial advice.",
+      "of": "e6f51e0f",
+      "at": [
+        "covenant-day:framing[2].body",
+        "davidson-day:framing[2].body"
+      ],
+      "t": "Aiuti alla retta durante la frequenza, non aiuti universitari. Non è consulenza finanziaria."
+    },
+    {
+      "text": "Tuition by Grade Level",
+      "of": "3e0b286d",
+      "at": [
+        "covenant-day:sections[0].title",
+        "davidson-day:sections[0].title"
+      ],
+      "t": "Retta per livello di classe"
+    },
+    {
+      "text": "Published tuition by grade band — the lowest top rate in this comparison",
+      "of": "a44f57bc",
+      "at": [
+        "covenant-day:sections[0].figureCaption"
+      ],
+      "t": ""
+    },
+    {
+      "text": "JK & K",
+      "of": "b01d7771",
+      "at": [
+        "covenant-day:sections[0].bands[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Four bands from junior kindergarten through grade 12, a $7,300 spread. The rise from 2025–26 was a flat $1,200 at every band — a dollar increase, not a percentage one, which is why the youngest band shows the steepest percent change.",
+      "of": "d75b28fb",
+      "at": [
+        "covenant-day:sections[0].figureNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The school states what tuition includes — on-campus computers/iPads, technology expenses, school retreats and required field trips, science lab and elective fees, and most athletic expenses — an inclusions list several peers do not publish.",
+      "of": "b8e82882",
+      "at": [
+        "covenant-day:sections[0].figureNote2"
+      ],
+      "t": ""
+    },
+    {
+      "text": "A short, mostly-priced list",
+      "of": "0e601a1a",
+      "at": [
+        "covenant-day:sections[1].componentsTitle"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Enrollment deposit · $1,000, credited to tuition",
+      "of": "eb5e15b2",
+      "at": [
+        "covenant-day:sections[1].components[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "FACTS monthly-plan fee · $50/yr",
+      "of": "e672f5c7",
+      "at": [
+        "covenant-day:sections[1].components[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Card-processing fee · 3.05% of payment",
+      "of": "69e6ca60",
+      "at": [
+        "covenant-day:sections[1].components[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Extended Day (JK–8) · $58–$248/mo per session",
+      "of": "78e3b262",
+      "at": [
+        "covenant-day:sections[1].components[3].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Laptop, grades 9–12 · bring your own",
+      "of": "b2aae508",
+      "at": [
+        "covenant-day:sections[1].components[4].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Tutoring / special testing beyond classroom help",
+      "of": "4f7152a4",
+      "at": [
+        "covenant-day:sections[1].components[5].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Uniform (JK–8) / HS dress code",
+      "of": "e05b842c",
+      "at": [
+        "covenant-day:sections[1].components[6].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The inclusions list does real work here: retreats, required field trips, lab and elective fees, and most athletic expenses sit inside tuition, so the priced add-ons are genuinely few. Grades 9–12 must supply a laptop meeting the school’s specs.",
+      "of": "68dc28f7",
+      "at": [
+        "covenant-day:sections[1].componentsNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The deposit is aid-aware",
+      "of": "4cae32af",
+      "at": [
+        "covenant-day:sections[1].boxes[0].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The $1,000 per-student deposit is non-refundable and credited to tuition — and families who submit a completed aid application before enrolling may ask the Business Office to **halve it** while the application is considered. Waiting for an aid decision without paying the deposit, though, means no seat is held.",
+      "of": "8445b947",
+      "at": [
+        "covenant-day:sections[1].boxes[0].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Aid Process and Timeline",
+      "of": "690355d8",
+      "at": [
+        "covenant-day:sections[2].title",
+        "davidson-day:sections[2].title"
+      ],
+      "t": "Procedura e tempistiche degli aiuti"
+    },
+    {
+      "text": "With admission",
+      "of": "baedc1a0",
+      "at": [
+        "covenant-day:sections[2].timeline[0].when"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Families submit the aid application **concurrently with the admissions application**, through FACTS — the same platform that runs tuition billing",
+      "of": "b8762ba7",
+      "at": [
+        "covenant-day:sections[2].timeline[0].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Prerequisite",
+      "of": "30a573d3",
+      "at": [
+        "covenant-day:sections[2].timeline[1].when"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Proof of application for the **NC Opportunity Scholarship** is mandatory before any CDS aid is considered — a hard gate no peer school here imposes",
+      "of": "f72e805a",
+      "at": [
+        "covenant-day:sections[2].timeline[1].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "On completion",
+      "of": "c9d5c23e",
+      "at": [
+        "covenant-day:sections[2].timeline[2].when"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Decisions are communicated only once an application is complete, including all supporting documentation",
+      "of": "cea405d7",
+      "at": [
+        "covenant-day:sections[2].timeline[2].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "No multi-year award — families submit a new application each year",
+      "of": "7f386677",
+      "at": [
+        "covenant-day:sections[2].timeline[3].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Platform & scope",
+      "of": "736758b4",
+      "at": [
+        "covenant-day:sections[2].boxes[0].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "**FACTS** runs the confidential need assessment. Aid is need-based only, and only the party responsible for paying tuition may apply. Contact: Christen Marshall, Student Accounts Coordinator, 704-708-6102.",
+      "of": "23d6f76d",
+      "at": [
+        "covenant-day:sections[2].boxes[0].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "No aid deadline date, no decision timeline, no appeals process, and no award-ceiling policy appears on the public record. The application fee for FACTS, if any, is also unstated.",
+      "of": "5f12ecc0",
+      "at": [
+        "covenant-day:sections[2].boxes[1].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Aid in Numbers",
+      "of": "bd1cf4c6",
+      "at": [
+        "covenant-day:sections[3].navTitle"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What the Numbers Disclose",
+      "of": "d9be712e",
+      "at": [
+        "covenant-day:sections[3].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "of students on aid — third-party figure only",
+      "of": "e248fc59",
+      "at": [
+        "covenant-day:sections[3].stats[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "church ministry — IRS-exempt from filing",
+      "of": "fd45ab9c",
+      "at": [
+        "covenant-day:sections[3].stats[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "published aid totals, averages, or budgets",
+      "of": "e75ea3c1",
+      "at": [
+        "covenant-day:sections[3].stats[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The ~20% share comes from aggregators (PrivateSchoolReview, schooltuitions.org); the school itself publishes no percentage, no total awarded, and no average award.",
+      "of": "99fcdce6",
+      "at": [
+        "covenant-day:sections[3].figureNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NOT PUBLISHED — AND NOT RECOVERABLE",
+      "of": "98106920",
+      "at": [
+        "covenant-day:sections[3].boxes[0].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Covenant Day is a ministry of Christ Covenant Church (PCA), and the IRS designates it a **religious organization not required to file Form 990** (EIN 56-1656570, exempt since 1989). ProPublica’s Nonprofit Explorer confirms no filing exists. Every other school in this project is a 990 filer whose aid totals can be checked against its return — here there is **no filing to check**, so the gap is structural rather than a page waiting to be found.",
+      "of": "07e003e5",
+      "at": [
+        "covenant-day:sections[3].boxes[0].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Discounts & State Aid",
+      "of": "e6a0f3f2",
+      "at": [
+        "covenant-day:sections[4].navTitle"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Merit, Discounts & State Scholarships",
+      "of": "622789d6",
+      "at": [
+        "covenant-day:sections[4].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "ALL SCHOOL AID IS NEED-BASED",
+      "of": "6b98e954",
+      "at": [
+        "covenant-day:sections[4].tag"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Multi-child discount",
+      "of": "7c2c9ac8",
+      "at": [
+        "covenant-day:sections[4].plans[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Off tuition for the **third and each additional student** from the same household, applied to the children in the lowest grades. Two-child families get nothing.",
+      "of": "cf11a53f",
+      "at": [
+        "covenant-day:sections[4].plans[0].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "$400",
+      "of": "513ce48d",
+      "at": [
+        "covenant-day:sections[4].plans[1].figure"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Christ Covenant Church member discount",
+      "of": "7601051e",
+      "at": [
+        "covenant-day:sections[4].plans[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Per enrolled student, for members of the sponsoring church — membership affirmed during online enrollment, with a February 1 cutoff for full-year eligibility.",
+      "of": "8daf0b5b",
+      "at": [
+        "covenant-day:sections[4].plans[1].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "NC",
+      "of": "35e678d6",
+      "at": [
+        "covenant-day:sections[4].plans[2].figure"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Opportunity Scholarship + ESA+",
+      "of": "755390d9",
+      "at": [
+        "covenant-day:sections[4].plans[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The school accepts both NCSEAA-administered programs — and applying for the Opportunity Scholarship is a **prerequisite** for CDS aid, so state aid is the designed first layer of every package.",
+      "of": "3ebfb56c",
+      "at": [
+        "covenant-day:sections[4].plans[2].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "No merit scholarships exist on the public record — aid is need-based only. No sibling discount before the third child, no military or clergy discount, and no employee-remission policy is published.",
+      "of": "c8751142",
+      "at": [
+        "covenant-day:sections[4].boxes[0].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Payment Plans & Contract Terms",
+      "of": "7e5b3eac",
+      "at": [
+        "covenant-day:sections[5].title",
+        "davidson-day:sections[4].title"
+      ],
+      "t": "Piani di pagamento e condizioni contrattuali"
+    },
+    {
+      "text": "Annual plan",
+      "of": "442308c5",
+      "at": [
+        "covenant-day:sections[5].plans[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The full balance due by **May 1** preceding the school year. No prepayment discount is published.",
+      "of": "d81f21dc",
+      "at": [
+        "covenant-day:sections[5].plans[0].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "9×",
+      "of": "eafe64d9",
+      "at": [
+        "covenant-day:sections[5].plans[1].figure"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Monthly plan (FACTS)",
+      "of": "28896c7b",
+      "at": [
+        "covenant-day:sections[5].plans[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Nine equal installments, **May through January**, autopaying on the 5th or 20th — plus a $50/year FACTS fee. Note the season: payments start four months before school does.",
+      "of": "e99f8921",
+      "at": [
+        "covenant-day:sections[5].plans[1].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "3.05%",
+      "of": "9bb9f1aa",
+      "at": [
+        "covenant-day:sections[5].plans[2].figure"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Card surcharge",
+      "of": "29880099",
+      "at": [
+        "covenant-day:sections[5].plans[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Debit/credit payments incur a 3.05% processor fee; bank drafts avoid it. On a $22,790 tuition that is roughly $695.",
+      "of": "3ecab72f",
+      "at": [
+        "covenant-day:sections[5].plans[2].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "10th",
+      "of": "61efd168",
+      "at": [
+        "covenant-day:sections[5].plans[3].figure"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Withdrawal cutoff",
+      "of": "09449783",
+      "at": [
+        "covenant-day:sections[5].plans[3].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Withdrawals must be official by the 10th of the month to skip that month’s installment; refunds equal installments whose due date has not passed. Monthly-plan families current on payments get no refund and owe no more.",
+      "of": "f87d5f23",
+      "at": [
+        "covenant-day:sections[5].plans[3].detail"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Non-current accounts",
+      "of": "e9664408",
+      "at": [
+        "covenant-day:sections[5].boxes[0].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Accounts more than 30 days past due can suspend re-enrollment, report cards, transcript release — and class access. A standard force-majeure clause keeps tuition obligations alive through closures.",
+      "of": "7d101a4f",
+      "at": [
+        "covenant-day:sections[5].boxes[0].body"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The Trend, and What to Ask",
+      "of": "ddf5a036",
+      "at": [
+        "covenant-day:sections[6].title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "flat increase at every band, 2025–26 → 2026–27",
+      "of": "d2ecb683",
+      "at": [
+        "covenant-day:sections[6].stats[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "top band — the lowest top tuition in this comparison",
+      "of": "70a1af95",
+      "at": [
+        "covenant-day:sections[6].stats[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "of published rates (website + terms PDF)",
+      "of": "236fb2d1",
+      "at": [
+        "covenant-day:sections[6].stats[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Questions the public record cannot answer",
+      "of": "b608282c",
+      "at": [
+        "covenant-day:sections[6].questionsTitle"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What share of families receive aid, and what is the average award? (The ~20% figure is third-party.)",
+      "of": "c63baba4",
+      "at": [
+        "covenant-day:sections[6].questions[0]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What is the aid application deadline, and when are decisions released relative to enrollment contracts?",
+      "of": "51da8062",
+      "at": [
+        "covenant-day:sections[6].questions[1]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "How does the mandatory NC Opportunity Scholarship application interact with CDS aid for families above the state income cap?",
+      "of": "adf1ebc4",
+      "at": [
+        "covenant-day:sections[6].questions[2]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Is there an appeals or mid-year change-of-circumstance process?",
+      "of": "d1ee59df",
+      "at": [
+        "covenant-day:sections[6].questions[3]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Was the flat-$1,200 increase a one-year choice or the standing pattern?",
+      "of": "22306959",
+      "at": [
+        "covenant-day:sections[6].questions[4]"
+      ],
+      "t": ""
+    },
+    {
       "text": "2026–27 school year · figures as of 22 Jul 2026",
       "of": "6f9ac510",
       "at": [
@@ -4104,28 +4726,12 @@
       "t": "La tabella dell'anno in corso sovrascrive la precedente, per cui non è recuperabile alcuno storico delle tariffe. Le cifre prive di data sono segnalate, non indovinate."
     },
     {
-      "text": "Tuition assistance while enrolled — not college aid. Not financial advice.",
-      "of": "e6f51e0f",
-      "at": [
-        "davidson-day:framing[2].body"
-      ],
-      "t": "Aiuti alla retta durante la frequenza, non aiuti universitari. Non è consulenza finanziaria."
-    },
-    {
       "text": "Tuition by Division",
       "of": "60483d8b",
       "at": [
         "davidson-day:sections[0].navTitle"
       ],
       "t": "Retta per divisione"
-    },
-    {
-      "text": "Tuition by Grade Level",
-      "of": "3e0b286d",
-      "at": [
-        "davidson-day:sections[0].title"
-      ],
-      "t": "Retta per livello di classe"
     },
     {
       "text": "Early Childhood",
@@ -4312,14 +4918,6 @@
       "t": "Le divise sono obbligatorie (Early Preschool esente); le famiglie acquistano presso rivenditori generici con il logo applicato da un fornitore locale, per cui i prezzi dei capi sono fissati dai fornitori e non pubblicati dalla scuola come quota. Non è stato trovato alcun servizio di autobus o addebito per il trasporto fornito dalla scuola — molto probabilmente perché nessuno è offerto, anziché perché un prezzo sia stato trattenuto."
     },
     {
-      "text": "Aid Process and Timeline",
-      "of": "690355d8",
-      "at": [
-        "davidson-day:sections[2].title"
-      ],
-      "t": "Procedura e tempistiche degli aiuti"
-    },
-    {
       "text": "15 Feb",
       "of": "860084f6",
       "at": [
@@ -4494,14 +5092,6 @@
         "davidson-day:sections[3].boxes[1].body"
       ],
       "t": "Non è pubblicato alcuno sconto per fratelli, militari o clero, né alcuna retta indicizzata o a scala mobile. La scuola gestisce una procedura di iscrizione separata e un piano a undici mensilità per i genitori dipendenti, ma se una qualsiasi riduzione della retta accompagni il rapporto di lavoro non è nel registro pubblico. Quante borse vengano conferite ogni anno, e i loro criteri di rinnovo oltre alla «good standing», sono anch'essi non pubblicati."
-    },
-    {
-      "text": "Payment Plans & Contract Terms",
-      "of": "7e5b3eac",
-      "at": [
-        "davidson-day:sections[4].title"
-      ],
-      "t": "Piani di pagamento e condizioni contrattuali"
     },
     {
       "text": "11×",

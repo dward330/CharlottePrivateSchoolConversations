@@ -59,7 +59,8 @@
       "at": [
         "providence-day:coverage.rows[3].dismissal",
         "providence-day:coverage.rows[4].dismissal",
-        "charlotte-country-day:coverage.rows[3].dismissal"
+        "charlotte-country-day:coverage.rows[3].dismissal",
+        "covenant-day:coverage.rows[2].dismissal"
       ],
       "t": "salida 3:10"
     },
@@ -1149,7 +1150,8 @@
       "text": "dismissal 1:30",
       "of": "273811b2",
       "at": [
-        "charlotte-latin:coverage.rows[0].dismissal"
+        "charlotte-latin:coverage.rows[0].dismissal",
+        "covenant-day:coverage.rows[0].dismissal"
       ],
       "t": "salida 1:30"
     },
@@ -1435,7 +1437,8 @@
       "at": [
         "charlotte-latin:cost.fees[1].label",
         "charlotte-christian:cost.fees[0].label",
-        "cannon:cost.fees[0].label"
+        "cannon:cost.fees[0].label",
+        "covenant-day:cost.fees[2].label"
       ],
       "t": "Cuota de inscripción"
     },
@@ -1453,7 +1456,8 @@
       "text": "Late-pickup fee",
       "of": "295637c8",
       "at": [
-        "charlotte-latin:cost.fees[2].label"
+        "charlotte-latin:cost.fees[2].label",
+        "covenant-day:cost.fees[3].label"
       ],
       "t": "Cuota por recogida tardía"
     },
@@ -1478,7 +1482,9 @@
       "of": "010e3b1d",
       "at": [
         "charlotte-latin:cost.fees[4].value",
-        "charlotte-christian:cost.fees[0].value"
+        "charlotte-christian:cost.fees[0].value",
+        "covenant-day:cost.fees[2].value",
+        "covenant-day:cost.fees[3].value"
       ],
       "t": "ninguna publicada"
     },
@@ -2301,7 +2307,8 @@
       "at": [
         "charlotte-christian:coverage.rows[2].dismissal",
         "cannon:coverage.rows[0].dismissal",
-        "cannon:coverage.rows[1].dismissal"
+        "cannon:coverage.rows[1].dismissal",
+        "covenant-day:coverage.rows[1].dismissal"
       ],
       "t": "salida 3:00"
     },
@@ -3064,7 +3071,8 @@
       "text": "dismissal 3:15",
       "of": "10af78c9",
       "at": [
-        "charlotte-country-day:coverage.rows[4].dismissal"
+        "charlotte-country-day:coverage.rows[4].dismissal",
+        "covenant-day:coverage.rows[3].dismissal"
       ],
       "t": "salida 3:15"
     },
@@ -3104,7 +3112,8 @@
       "text": "Drop-in",
       "of": "966da620",
       "at": [
-        "charlotte-country-day:coverage.facts[1].label"
+        "charlotte-country-day:coverage.facts[1].label",
+        "covenant-day:cost.fees[0].label"
       ],
       "t": "Acceso libre"
     },
@@ -4897,6 +4906,350 @@
         "cannon:verdict.checklist[9]"
       ],
       "t": "En los días de salida temprana, ¿el programa termina en firme a las 4:00 p.m., y la penalización de $1/minuto empieza entonces?"
+    },
+    {
+      "text": "Free before-care from 7:30 a.m. for everyone, then Extended Day to 6:00 p.m. for JK–8 in stacked 90-minute sessions.",
+      "of": "86343d28",
+      "at": [
+        "covenant-day:coverage.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The 1.5-hour session is the unit of everything: JK/K needs three of them to reach 6:00, grades 1–8 need two. High school has no aftercare.",
+      "of": "7014b76d",
+      "at": [
+        "covenant-day:coverage.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Prices shown are the five-day monthly rate per arrangement — sessions cost **$248/month each at five days a week**, and fewer days cost less ($58–$206). Open **The Cost Planner** below to price any combination.",
+      "of": "8a753a75",
+      "at": [
+        "covenant-day:coverage.basisNote"
+      ],
+      "t": ""
+    },
+    {
+      "text": "No aftercare — athletics (82% play) and activities instead",
+      "of": "113736c8",
+      "at": [
+        "covenant-day:coverage.rows[3].flatLabel"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Free before-care",
+      "of": "70f8ac2c",
+      "at": [
+        "covenant-day:coverage.facts[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "from **7:30 a.m.** until the start of school, at no charge, school-wide — the only free morning care in this comparison",
+      "of": "126cd133",
+      "at": [
+        "covenant-day:coverage.facts[0].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Wednesday late start",
+      "of": "09092e31",
+      "at": [
+        "covenant-day:coverage.facts[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "all grades begin at **8:50 a.m.** instead of 8:15 — before-care absorbs the difference at no charge",
+      "of": "7e8edab5",
+      "at": [
+        "covenant-day:coverage.facts[1].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Enrichment",
+      "of": "42d5db5c",
+      "at": [
+        "covenant-day:coverage.facts[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "separate after-school classes in **music, art, sports, robotics, and outdoor experiences** register on LionsWeb; the catalog itself sits behind the login",
+      "of": "6ad38f7e",
+      "at": [
+        "covenant-day:coverage.facts[2].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "No enrichment-class catalog is public — LionsWeb registration is login-gated, so class names, days, grades and fees are not published. Third-party listings name piano/guitar/voice lessons, painting, and an After School Children’s Choir (grades 3–5).",
+      "of": "217da97d",
+      "at": [
+        "covenant-day:coverage.flags[0].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "One ladder, multiplied: $58–$248 a month per 90-minute session by days per week — so the real cost is how many sessions your dismissal time forces.",
+      "of": "baad0c26",
+      "at": [
+        "covenant-day:cost.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "August and December bill at exactly half, which is why the school’s own annual table ($522–$6,696 \"for 10 Months\") is cheaper than ten times the monthly rate.",
+      "of": "5afd7613",
+      "at": [
+        "covenant-day:cost.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "10 billing months (Aug & Dec at half rate)",
+      "of": "eb9c94cc",
+      "at": [
+        "covenant-day:cost.periodsLabel"
+      ],
+      "t": ""
+    },
+    {
+      "text": "JK–K · to 6:00 (3 sessions)",
+      "of": "a419b8e7",
+      "at": [
+        "covenant-day:cost.rows[0].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "JK & Kindergarten · 1:30–6:00 pm, all three sessions",
+      "of": "dda4d3e7",
+      "at": [
+        "covenant-day:cost.rows[0].panelLabel"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Gr 1–8 · to 6:00 (2 sessions)",
+      "of": "09e514ec",
+      "at": [
+        "covenant-day:cost.rows[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Grades 1–8 · dismissal–6:00 pm, two sessions",
+      "of": "8adae596",
+      "at": [
+        "covenant-day:cost.rows[1].panelLabel"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Any grade · 1 session",
+      "of": "e4dbc194",
+      "at": [
+        "covenant-day:cost.rows[2].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "One 1.5-hour session (e.g. dismissal–4:30 pm)",
+      "of": "ff131fa9",
+      "at": [
+        "covenant-day:cost.rows[2].panelLabel"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The school’s own annual table is the cheaper way to buy it.",
+      "of": "2ae7c293",
+      "at": [
+        "covenant-day:cost.aside.title"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Priced \"for 10 Months,\" one session five days a week is **$2,232** (vs. $2,480 at 10× monthly) and the full three-session, five-day JK/K stack is **$6,696** — the half-rate August and December are baked in. Before-school care from 7:30 a.m. is free either way.",
+      "of": "1329b6d8",
+      "at": [
+        "covenant-day:cost.aside.text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "$20 / session",
+      "of": "9af88ab0",
+      "at": [
+        "covenant-day:cost.fees[0].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Before-school care (7:30 a.m.–start)",
+      "of": "b7a364a6",
+      "at": [
+        "covenant-day:cost.fees[1].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "free",
+      "of": "99b3eedb",
+      "at": [
+        "covenant-day:cost.fees[1].value"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The multi-session rows above are the per-session ladder **summed by the researcher** — the school prices sessions individually ($20 drop-in to $248/month) and publishes the stacked totals only on its annual table.",
+      "of": "29b8785b",
+      "at": [
+        "covenant-day:cost.fees[4].label"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Multi-session monthly totals (e.g. **$744/mo** for JK/K to 6:00) are derived by stacking the school’s published per-session rates; the school’s own published figure for that arrangement is the annual **$6,696**. The single-session column is verbatim.",
+      "of": "69628d4c",
+      "at": [
+        "covenant-day:cost.flags[0].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Rates are undated on the Extended Day page — confirm they are current for 2026–27 before budgeting.",
+      "of": "b99bfa3b",
+      "at": [
+        "covenant-day:cost.flags[1].text"
+      ],
+      "t": ""
+    },
+    {
+      "text": "The most parent-friendly entry price in this set — free morning care, $20 drop-ins — with a session system that quietly triples for the youngest families.",
+      "of": "68287d25",
+      "at": [
+        "covenant-day:verdict.headline"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Coverage matches the 6:00 p.m. peer standard; the catalog opacity is the one real gap.",
+      "of": "d7a336d0",
+      "at": [
+        "covenant-day:verdict.subhead"
+      ],
+      "t": ""
+    },
+    {
+      "text": "**Free before-school care from 7:30 a.m., school-wide** — every peer here charges for morning care. The Wednesday 8:50 late start is absorbed free too.",
+      "of": "883c4fee",
+      "at": [
+        "covenant-day:verdict.strengths[0]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "**Genuine flexibility**: $20 drop-ins, day-count tiers from one to five days, and an annual table with the half-rate months already priced in.",
+      "of": "c1a117a1",
+      "at": [
+        "covenant-day:verdict.strengths[1]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "**Coverage to 6:00 p.m. for JK–8** matches the best pickup time in this comparison.",
+      "of": "4eca5b2f",
+      "at": [
+        "covenant-day:verdict.strengths[2]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "**The published pricing is complete and current-looking** — monthly and annual tables both, on a live page, with the August/December rule stated in plain words.",
+      "of": "fd71c89a",
+      "at": [
+        "covenant-day:verdict.strengths[3]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "**The session system compounds for JK/K**: a 1:30 dismissal means three stacked sessions to reach 6:00 — $744 a month at the monthly rate, against a single-session headline of $248 that is easy to misread as the full cost.",
+      "of": "4354b5de",
+      "at": [
+        "covenant-day:verdict.watchouts[0]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "**No aftercare for grades 9–12** — high schoolers dismiss at 3:15 into athletics or activities, not a supervised program.",
+      "of": "24019d56",
+      "at": [
+        "covenant-day:verdict.watchouts[1]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "**The enrichment catalog is invisible** — five category names and a login wall. No class, day, grade band or fee is public.",
+      "of": "fcb2d2d7",
+      "at": [
+        "covenant-day:verdict.watchouts[2]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "**No late-pickup fee is published**, which usually means one exists in the parent handbook — ask.",
+      "of": "fbffe09a",
+      "at": [
+        "covenant-day:verdict.watchouts[3]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Are the posted Extended Day rates current for 2026–27, and when do they reset?",
+      "of": "a51b6d19",
+      "at": [
+        "covenant-day:verdict.checklist[0]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What enrichment classes actually run this year on LionsWeb, on what days, and at what fees?",
+      "of": "702d9e5d",
+      "at": [
+        "covenant-day:verdict.checklist[1]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "What happens after 6:00 p.m. — is there a late-pickup charge, and how is it billed?",
+      "of": "596c6ee6",
+      "at": [
+        "covenant-day:verdict.checklist[2]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "Does Extended Day run on early-dismissal and conference days?",
+      "of": "d84511c9",
+      "at": [
+        "covenant-day:verdict.checklist[3]"
+      ],
+      "t": ""
+    },
+    {
+      "text": "For JK/K families: can a child attend only the 1:30–3:00 session on some days and stay to 6:00 on others, mixing day-counts across sessions?",
+      "of": "0e37c080",
+      "at": [
+        "covenant-day:verdict.checklist[4]"
+      ],
+      "t": ""
     },
     {
       "text": "After-school care exists for Traditional Toddler through grade 8 — but the pages describing it have been removed from the school’s site, and no rate has ever been published.",
