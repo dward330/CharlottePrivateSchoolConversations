@@ -2062,6 +2062,18 @@ table.compare thead th { position: sticky; top: 0; z-index: 3; background: var(-
   white-space: nowrap;
 }
 .cell.val.lead { background: color-mix(in srgb, var(--brand) 10%, transparent); }
+/* Secondary line under a figure — the same money in the other billing period.
+   Quieter than .mark-val so the cell still reads as one number with a gloss. */
+.mark-sub {
+  display: block;
+  margin-top: 5px;
+  font-family: var(--heading);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+  color: var(--muted);
+  white-space: nowrap;
+}
 
 /* --- Per-cell provenance popover (components/CellQual.tsx) --------------- */
 /* The trigger wraps the figure. It resets button chrome so the number reads

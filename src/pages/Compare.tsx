@@ -179,6 +179,7 @@ export function Compare({ topic, schools }: Props) {
                         </th>
                         {cols.map((s, i) => {
                           const v = vm.values[s.slug] ?? null
+                          const sub = vm.subs?.[s.slug] ?? null
                           const lead = max != null && nums[i] === max
                           return (
                             <td
@@ -187,16 +188,19 @@ export function Compare({ topic, schools }: Props) {
                               style={{ ['--brand' as string]: brandOf(s.slug).color }}
                             >
                               {v != null ? (
-                                vm.quals?.[s.slug] ? (
-                                  <CellQual
-                                    value={localizeMoneyText(v)}
-                                    qual={vm.quals[s.slug]}
-                                    school={s.name}
-                                    metricKey={vm.key}
-                                  />
-                                ) : (
-                                  <span className="mark-val">{localizeMoneyText(v)}</span>
-                                )
+                                <>
+                                  {vm.quals?.[s.slug] ? (
+                                    <CellQual
+                                      value={localizeMoneyText(v)}
+                                      qual={vm.quals[s.slug]}
+                                      school={s.name}
+                                      metricKey={vm.key}
+                                    />
+                                  ) : (
+                                    <span className="mark-val">{localizeMoneyText(v)}</span>
+                                  )}
+                                  {sub && <span className="mark-sub">{localizeMoneyText(sub)}</span>}
+                                </>
                               ) : (
                                 <span className="mark-na" title={t('compare.notAvailable')}>{t('compare.na')}</span>
                               )}
