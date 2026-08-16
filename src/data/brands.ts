@@ -33,6 +33,14 @@ export const BRANDS: Record<string, Brand> = {
     logo: '/logos/cannon.png',
     welcomeVideoUrl: 'https://www.youtube.com/embed/dI5x4KEkBSY',
   },
+  'carmel-christian': {
+    // Cougars — navy & red. #13294b is a deep navy distinct from Latin's
+    // #12294f and Covenant Day's #002855. (Both 'CC' — Charlotte Christian —
+    // and 'CA' — Cannon — are taken, so the badge uses 'CM' for CarMel.)
+    color: '#13294b',
+    initials: 'CM',
+    welcomeVideoUrl: 'https://www.youtube.com/embed/0ILLfsxWGYg', // user-chosen, 2026-08-16
+  },
   'charlotte-christian': {
     color: '#1e40af', // Knights — royal blue & white
     initials: 'CC',
