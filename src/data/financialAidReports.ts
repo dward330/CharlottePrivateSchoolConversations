@@ -1982,6 +1982,223 @@ const PROVIDENCE_DAY: FinancialAidReport = {
     'providenceday.org — Tuition and Financial Assistance, Extended Day (Lower School), Clubhouse (Middle School), Transportation, Endowment and Donor Recognition, Strategic Framework (all 24 Jul 2026) · Report on Philanthropy 2012–13, 2013–14 and 2017–18, "Enrollment at a Glance" and Endowments · I.R.S. Form 990 filings for Providence Day School, Inc., EIN 56-0952382, via ProPublica Nonprofit Explorer (Schedule I and Schedule D not retrieved). Commercial tuition aggregators were reviewed only to identify discrepancies against the school\'s own page (Section 7) and are the source of no figure here. Every figure was anchored to EIN 56-0952382, the 5800 Sardis Road address, or CEEB 340687 before use. The school did not commission, review or approve this report.',
 }
 
+/* ── Carmel Christian ── transcribed from the school's own 2026-2027 Tuition
+   and Enrollment Fees PDF (dated 5 Dec 2025) and its aid landing page — see
+   source-material/financial-aid-tuition/carmel-christian/. Two structural
+   facts shape the report: the school is a church-exempt ministry of Carmel
+   Baptist Church and files NO Form 990 (like Covenant Day), so no aid totals
+   exist to find; and the only participation figure (~20% on aid) is
+   third-party (PrivateSchoolReview), never school-confirmed. No prior-year
+   tuition was recovered, so no band carries a `prior`. */
+const CARMEL_CHRISTIAN: FinancialAidReport = {
+  title: 'Tuition & Financial Aid — Deep Dive Report',
+  meta: '2026–27 school year · figures as of 16 Aug 2026',
+  framing: [
+    {
+      icon: 'info',
+      title: 'Unpublished ≠ deficient.',
+      body: '"Not published" flags a transparency gap — never a judgement that the aid programme is small or unwelcoming.',
+    },
+    {
+      icon: 'clock',
+      title: 'Published ≠ current.',
+      body: 'Every dollar figure carries the school year it applies to. The tuition table is the school\'s own 2026–27 PDF, dated 5 December 2025; undated figures are flagged, not guessed.',
+    },
+    {
+      icon: 'book',
+      title: 'K–12 aid only.',
+      body: 'Tuition assistance while enrolled — not college aid. Not financial advice.',
+    },
+  ],
+  sections: [
+    {
+      id: 'fa-tuition',
+      navTitle: 'Tuition by Band',
+      title: 'Tuition by Grade Level',
+      confidence: 95,
+      figureCaption: 'Published tuition by grade band, 2026–27',
+      // No `prior` on any band: no prior-year rate card was recovered, so there
+      // is no school-published earlier figure to ghost against.
+      bands: [
+        { label: 'Kindergarten', amount: 12500 },
+        { label: 'Grades 1–5', amount: 14400 },
+        { label: 'Grades 6–8', amount: 17100 },
+        { label: 'Grades 9–12', amount: 18750 },
+      ],
+      figureNote:
+        'Four bands from kindergarten through grade 12, a $6,250 spread from lowest to highest. Figures are the school\'s own 2026–27 Tuition and Enrollment Fees PDF, dated 5 December 2025. No rate history is published, and none was recovered from the archive, so no prior-year comparison is drawn.',
+      figureNote2:
+        'A separate "2026-2027 International Student Tuition" PDF is referenced on the aid page but was not retrieved; international rates are not captured here.',
+      source:
+        'carmelchristian.org — 2026-2027 Tuition and Enrollment Fees (PDF, dated 5 Dec 2025), retrieved 16 Aug 2026',
+    },
+    {
+      id: 'fa-beyond',
+      navTitle: 'Fees & Added Costs',
+      title: 'Fees and Additional Costs',
+      confidence: 80,
+      componentsTitle: 'A short priced list, with grade-specific add-ons',
+      components: [
+        { label: 'Enrollment / re-enrollment fee · $500, non-refundable', status: 'priced' },
+        { label: 'Technology (Chromebook + insurance), grade 9 only · $550', status: 'priced' },
+        { label: 'Senior fee, grade 12 · $200', status: 'priced' },
+        { label: 'Athletics · no rate', status: 'unpriced' },
+        { label: 'Fine arts · no rate', status: 'unpriced' },
+        { label: 'AP classes (grades 9–12) · no rate', status: 'unpriced' },
+        { label: 'Impact Week (grades 9–12) · no rate', status: 'unpriced' },
+        { label: 'Senior Trip (grade 12) · no rate', status: 'unpriced' },
+      ],
+      componentsNote:
+        'The $500 enrollment (or re-enrollment) fee is non-refundable and, per the school, must be paid in full at the time of enrollment. The grade-9 technology fee and the $200 senior fee are the only other priced add-ons; the PDF names athletics, fine arts, AP classes, Impact Week and the Senior Trip as additional costs without stating amounts.',
+      source:
+        'carmelchristian.org — 2026-2027 Tuition and Enrollment Fees (PDF), retrieved 16 Aug 2026',
+    },
+    {
+      id: 'fa-engine',
+      navTitle: 'The Aid Engine',
+      title: 'Aid Process and Timeline',
+      confidence: 65,
+      timeline: [
+        {
+          when: '5 Feb 2027',
+          detail:
+            'Financial Aid Application Deadline for the **2027–28** year, via **FACTS**',
+          emphasis: true,
+        },
+        {
+          when: 'Prerequisite',
+          detail:
+            'Families are also directed to the **NC Opportunity Scholarship** — income caps have been removed and the programme now includes currently-enrolled private-school students; new applicants apply in February',
+        },
+        {
+          when: 'Every year',
+          detail:
+            'Aid is need-based and assessed through FACTS, the same platform that runs tuition billing',
+        },
+      ],
+      boxes: [
+        {
+          title: 'Platform',
+          body: '**FACTS** runs the need assessment and the monthly tuition draft. The NC Opportunity Scholarship (a state voucher) is actively referenced as a funding layer.',
+        },
+        {
+          tag: 'NOT PUBLISHED',
+          body: 'No decision timeline, no appeals process, and no award-ceiling policy appears on the public record. Any FACTS application fee, and whether aid must be reapplied for annually, are also unstated. No ESA+ or other named partnership appears in the retrieved sources.',
+        },
+      ],
+      source:
+        'carmelchristian.org — Financial Aid landing page; ncseaa.edu — NC Opportunity Scholarship, retrieved 16 Aug 2026',
+    },
+    {
+      id: 'fa-numbers',
+      navTitle: 'Aid in Numbers',
+      title: 'What the Numbers Disclose',
+      confidence: 20,
+      stats: [
+        { value: '~20%', label: 'of students on aid — third-party figure only, verify' },
+        { value: 'No 990', label: 'church ministry — IRS-exempt from filing' },
+        { value: '$0', label: 'published aid totals, averages, or budgets' },
+      ],
+      figureNote:
+        'The ~20% share comes from a third-party aggregator (PrivateSchoolReview); the school itself publishes no percentage, no total awarded, and no average award. Treat the 20% as unverified.',
+      boxes: [
+        {
+          tag: 'NOT PUBLISHED — AND NOT RECOVERABLE',
+          body: 'Carmel Christian is a ministry of Carmel Baptist Church and, as a church-affiliated organisation, is **not required to file Form 990** — ProPublica returns no filing for the school itself. Every other school in this project (bar Covenant Day) is a 990 filer whose aid totals can be checked against its return; here there is **no filing to check**, so the gap is structural rather than a page waiting to be found.',
+        },
+        {
+          tag: 'A RELATED ENTITY — NOT SCHOOL AID',
+          body: 'A related nonprofit, the **Carmel Educational Foundation** (EIN 56-2107877), does file: FY2025 (year ending 31 July) total revenue **$1,068,745**, total expenses **$618,023**, net assets **$1,894,088**, with contributions ~93.6% of revenue. But the return carries **no separate scholarship or grant line**, and the Foundation-to-school link, while probable, is not explicitly stated — so it yields no school-level aid figure and is not presented as one.',
+        },
+      ],
+      source:
+        'privateschoolreview.com; projects.propublica.org — Nonprofit Explorer (school files none; Carmel Educational Foundation EIN 56-2107877), retrieved 16 Aug 2026',
+    },
+    {
+      id: 'fa-merit',
+      navTitle: 'Discounts & State Aid',
+      title: 'Merit, Discounts & State Scholarships',
+      confidence: 85,
+      tag: 'ALL SCHOOL AID IS NEED-BASED',
+      plans: [
+        {
+          figure: '$600',
+          label: 'Carmel Baptist Church member discount',
+          detail: 'Per child, for members of the sponsoring church.',
+        },
+        {
+          figure: '$600',
+          label: 'Multi-child discount',
+          detail: 'Per child, applied **beginning with the 3rd child enrolled** from the same household. Two-child families get nothing.',
+        },
+        {
+          figure: 'NC',
+          label: 'Opportunity Scholarship',
+          detail: 'The school references the state voucher, with income caps removed and eligibility expanded to currently-enrolled private-school students.',
+          emphasis: true,
+        },
+      ],
+      boxes: [
+        {
+          tag: 'NOT PUBLISHED',
+          body: 'No merit scholarships appear on the public record — school aid is need-based only. No sibling discount before the third child, no military or clergy discount, and no employee-remission policy is published. No ESA+ or other named state partnership appears in the retrieved sources.',
+        },
+      ],
+      source:
+        'carmelchristian.org — 2026-2027 Tuition and Enrollment Fees (PDF); Financial Aid landing page, retrieved 16 Aug 2026',
+    },
+    {
+      id: 'fa-paying',
+      navTitle: 'Paying the Balance',
+      title: 'Payment Plans & Contract Terms',
+      confidence: 45,
+      plans: [
+        {
+          figure: '$500',
+          label: 'Enrollment fee',
+          detail: 'Per child, **non-refundable**, and — per the school — must be paid in full at the time of enrollment.',
+          emphasis: true,
+        },
+        {
+          figure: 'FACTS',
+          label: 'Monthly auto-draft',
+          detail: 'Tuition is paid through **FACTS** by automatic monthly draft. The number of installments and any plan fee are set inside the FACTS portal.',
+        },
+      ],
+      boxes: [
+        {
+          tag: 'NOT PUBLISHED',
+          body: 'The **number of monthly installments** and any FACTS plan fee are not stated on the public pages — they live inside the family\'s FACTS portal. No annual or paid-in-full alternative, no prepayment discount, and no late-payment or withdrawal terms appear on the retrieved sources.',
+        },
+      ],
+      source:
+        'carmelchristian.org — Financial Aid landing page (FACTS), retrieved 16 Aug 2026',
+    },
+    {
+      id: 'fa-trend',
+      navTitle: 'Trend & Questions',
+      title: 'The Trend, and What to Ask',
+      confidence: 40,
+      stats: [
+        { value: '$18,750', label: 'top band (grades 9–12), 2026–27' },
+        { value: '1 yr', label: 'of published rates — no history recovered' },
+      ],
+      questionsTitle: 'Questions the public record cannot answer',
+      questions: [
+        'What share of families receive aid, and what is the average award? (The ~20% figure is third-party and unverified.)',
+        'How many monthly installments does the FACTS plan run, and does it carry a fee?',
+        'Is there an appeals or mid-year change-of-circumstance process, and when are decisions released relative to enrollment?',
+        'What do athletics, fine arts, AP classes, Impact Week and the Senior Trip actually cost?',
+        'What are the 2026–27 international-student tuition rates?',
+        'How does the NC Opportunity Scholarship interact with any school aid for families above the former income cap?',
+      ],
+      source: 'Synthesis of the sources cited on the sections above',
+    },
+  ],
+  sources:
+    'carmelchristian.org — 2026-2027 Tuition and Enrollment Fees (PDF, dated 5 Dec 2025), Financial Aid landing page · ncseaa.edu — NC Opportunity Scholarship · privateschoolreview.com (third-party ~20% on aid) · projects.propublica.org — Nonprofit Explorer (school files no Form 990; Carmel Educational Foundation, EIN 56-2107877). Retrieved 16 Aug 2026. The school did not commission, review or approve this report.',
+}
+
 const REPORTS: Record<string, FinancialAidReport> = {
   'charlotte-country-day': COUNTRY_DAY,
   cannon: CANNON,
@@ -1990,6 +2207,7 @@ const REPORTS: Record<string, FinancialAidReport> = {
   'davidson-day': DAVIDSON_DAY,
   'charlotte-latin': CHARLOTTE_LATIN,
   'providence-day': PROVIDENCE_DAY,
+  'carmel-christian': CARMEL_CHRISTIAN,
 }
 
 /* ---------------------------------------------------------- translations -- */

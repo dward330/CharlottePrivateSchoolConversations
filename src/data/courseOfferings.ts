@@ -5971,8 +5971,181 @@ const DAVIDSON_DAY: CourseOfferings = {
   ],
 }
 
+/* ── Carmel Christian School ────────────────────────────────────────────────
+   2026-27 High School Curriculum Guide / Course Descriptions (~78 course
+   titles across 9 departments, 16 AP courses incl. AP Capstone). Carmel
+   Christian publishes named courses for the High School only (grades 9–12);
+   Lower and Middle School are not published as named course lists, so no
+   division card is shipped for them. A subject offered at Standard, Honors and
+   AP is transcribed as three distinct titles, matching how the school lists
+   them. Course descriptions in the Calaméo flipbook are token-gated and not
+   machine-readable; catalog titles were recovered char-for-char from the
+   school's HS Course Descriptions page, the 2026-27 Graduation Requirements
+   PDF, and the 2025 HS Profile. */
+const CARMEL_CHRISTIAN: CourseOfferings = {
+  guideYear: '2026-27',
+  divisions: [
+    {
+      title: 'High School Courses',
+      grades: 'GRADES 9 – 12',
+      teaser:
+        '78 course titles across 9 departments — including 16 Advanced Placement courses — from the 2026-27 High School Curriculum Guide. Carmel Christian publishes named courses for the high school only.',
+      source: 'Carmel Christian HS Course Descriptions & 2026-27 Graduation Requirements',
+      sourceUrl:
+        'https://carmelchristian.org/apps/pages/index.jsp?uREC_ID=487133&type=d&pREC_ID=935891',
+      departments: [
+        {
+          name: 'Bible',
+          courses: [
+            { title: 'Old Testament', tag: 'Gr 9–12', description: 'A Biblical Studies course in the four-credit Bible sequence.' },
+            { title: 'New Testament', tag: 'Gr 9–12', description: 'A Biblical Studies course in the four-credit Bible sequence.' },
+            { title: 'Understanding the Faith & Culture', tag: 'Gr 9–12', description: 'A Biblical Studies course examining faith in cultural context.' },
+            { title: 'Understanding the Times', tag: 'Gr 9–12', description: 'A worldview capstone in the Biblical Studies sequence.' },
+          ],
+        },
+        {
+          name: 'English',
+          courses: [
+            { title: 'Genres and Themes', tag: 'Pathways', description: 'The Pathways track of the entry English course.' },
+            { title: 'Genres and Themes', tag: 'Standard', description: 'The standard track of the entry English course.' },
+            { title: 'Genres and Themes', tag: 'Honors', description: 'The honors track of the entry English course.' },
+            { title: 'American Literature', tag: 'Pathways', description: 'The Pathways track of the American-literature year.' },
+            { title: 'American Literature', tag: 'Standard', description: 'The standard track of the American-literature year.' },
+            { title: 'American Literature', tag: 'Honors', description: 'The honors track of the American-literature year.' },
+            { title: 'British Literature', tag: 'Pathways', description: 'The Pathways track of the British-literature year.' },
+            { title: 'British Literature', tag: 'Standard', description: 'The standard track of the British-literature year.' },
+            { title: 'British Literature', tag: 'Honors', description: 'The honors track of the British-literature year.' },
+            { title: 'World Literature', tag: 'Pathways', description: 'The Pathways track of the world-literature year.' },
+            { title: 'World Literature', tag: 'Standard', description: 'The standard track of the world-literature year.' },
+            { title: 'World Literature', tag: 'Honors', description: 'The honors track of the world-literature year.' },
+            { title: 'AP English Language & Composition', tag: 'AP', description: 'College-level rhetoric, argument, and composition.' },
+            { title: 'AP English Literature & Composition', tag: 'AP', description: 'College-level literary analysis and composition.' },
+          ],
+        },
+        {
+          name: 'Mathematics',
+          courses: [
+            { title: 'Math 1', tag: 'Pathways', description: 'The Pathways entry course of the math sequence.' },
+            { title: 'Math 2', tag: 'Pathways', description: 'The Pathways second course of the math sequence.' },
+            { title: 'Geometry', tag: 'Honors', description: 'Honors Euclidean geometry.' },
+            { title: 'Algebra II', tag: 'Pathways', description: 'The Pathways track of second-year algebra.' },
+            { title: 'Algebra II', tag: 'Standard', description: 'The standard track of second-year algebra.' },
+            { title: 'Algebra II', tag: 'Honors', description: 'The honors track of second-year algebra.' },
+            { title: 'Math 4 (Algebra III & Trigonometry)', tag: 'Pathways', description: 'The Pathways fourth-year course covering Algebra III and trigonometry.' },
+            { title: 'Honors Precalculus', tag: 'Honors', description: 'Honors precalculus — functions and trigonometry before calculus.' },
+            { title: 'AP Precalculus', tag: 'AP', description: 'College-level precalculus.' },
+            { title: 'Probability & Statistics', tag: 'Standard', description: 'The standard track of probability and statistics.' },
+            { title: 'Probability & Statistics', tag: 'Honors', description: 'The honors track of probability and statistics.' },
+            { title: 'AP Calculus AB', tag: 'AP', description: 'College-level differential and integral calculus.' },
+            { title: 'AP Statistics', tag: 'AP', description: 'College-level statistics.' },
+          ],
+        },
+        {
+          name: 'Science',
+          courses: [
+            { title: 'Biology', tag: 'Standard', description: 'The standard track of the entry lab science.' },
+            { title: 'Biology', tag: 'Honors', description: 'The honors track of the entry lab science.' },
+            { title: 'Honors Biology', tag: 'Honors', description: 'Honors biology.' },
+            { title: 'Chemistry', tag: 'Standard', description: 'The standard track of chemistry.' },
+            { title: 'Chemistry', tag: 'Honors', description: 'The honors track of chemistry.' },
+            { title: 'Honors Chemistry', tag: 'Honors', description: 'Honors chemistry.' },
+            { title: 'Human Anatomy & Physiology', tag: 'Standard', description: 'The standard track of anatomy and physiology.' },
+            { title: 'Human Anatomy & Physiology', tag: 'Honors', description: 'The honors track of anatomy and physiology.' },
+            { title: 'Conceptual Physics', tag: 'Standard', description: 'Conceptual physics.' },
+            { title: 'Honors Physics', tag: 'Honors', description: 'Honors physics.' },
+            { title: 'Forensics', tag: 'Standard', description: 'Forensic science.' },
+            { title: 'Intro to Engineering & Robotics', tag: 'Standard', description: 'Introductory engineering and robotics.' },
+            { title: 'Honors Engineering II', tag: 'Honors', description: 'The second-level honors engineering course.' },
+            { title: 'AP Biology', tag: 'AP', description: 'College-level biology.' },
+            { title: 'AP Environmental Science', tag: 'AP', description: 'College-level environmental science.' },
+          ],
+        },
+        {
+          name: 'Social Studies',
+          courses: [
+            { title: 'World History', tag: 'Standard', description: 'The standard track of world history.' },
+            { title: 'World History', tag: 'Honors', description: 'The honors track of world history.' },
+            { title: 'US Government & Economics', tag: 'Standard', description: 'The standard track of US government and economics.' },
+            { title: 'US Government & Economics', tag: 'Honors', description: 'The honors track of US government and economics.' },
+            { title: 'US History', tag: 'Standard', description: 'The standard track of US history.' },
+            { title: 'US History', tag: 'Honors', description: 'The honors track of US history.' },
+            { title: 'Cultural Geography', tag: 'Standard', description: 'A cultural geography elective.' },
+            { title: 'Psychology/Sociology', tag: 'Standard', description: 'A combined psychology and sociology elective.' },
+            { title: 'Personal Finance', tag: 'Standard', description: 'A personal-finance course.' },
+            { title: 'AP US Government & Politics', tag: 'AP', description: 'College-level US government and politics.' },
+            { title: 'AP US History', tag: 'AP', description: 'College-level American history.' },
+            { title: 'AP Human Geography', tag: 'AP', description: 'College-level human geography.' },
+            { title: 'AP Psychology', tag: 'AP', description: 'College-level psychology.' },
+            { title: 'AP World History', tag: 'AP', description: 'College-level world history.' },
+          ],
+        },
+        {
+          name: 'World Languages',
+          courses: [
+            { title: 'Spanish I', tag: 'Gr 9–12', description: 'First-year Spanish.' },
+            { title: 'Spanish II', tag: 'Standard', description: 'The standard track of second-year Spanish.' },
+            { title: 'Spanish II', tag: 'Honors', description: 'The honors track of second-year Spanish.' },
+            { title: 'Spanish III', tag: 'Standard', description: 'The standard track of third-year Spanish.' },
+            { title: 'Spanish III', tag: 'Honors', description: 'The honors track of third-year Spanish.' },
+            { title: 'Honors Spanish IV', tag: 'Honors', description: 'Fourth-year Spanish at honors level.' },
+            { title: 'AP Spanish (Language & Culture)', tag: 'AP', description: 'College-level Spanish language and culture.' },
+            { title: 'World Language (Online)', tag: 'Gr 9–12', description: 'An online world-language option for languages beyond Spanish.' },
+          ],
+        },
+        {
+          name: 'Health & Fitness',
+          courses: [
+            { title: 'Health', tag: 'Gr 9–12', description: 'The health requirement.' },
+            { title: 'Physical Education', tag: 'Gr 9–12', description: 'Physical education.' },
+            { title: 'Ladies Athletic Conditioning', tag: 'Gr 9–12', description: 'Athletic conditioning for female students.' },
+            { title: 'Team Sports', tag: 'Gr 9–12', description: 'A team-sports fitness course.' },
+            { title: 'Weight Training', tag: 'Gr 9–12', description: 'A weight-training fitness course.' },
+          ],
+        },
+        {
+          name: 'Arts',
+          courses: [
+            { title: 'Art I / Studio Art I', tag: 'Gr 9–12', description: 'The entry studio-art course.' },
+            { title: 'Art II / Studio Art II', tag: 'Gr 9–12', description: 'The second-level studio-art course.' },
+            { title: 'Honors Art III / Studio Art III', tag: 'Honors', description: 'Third-level honors studio art.' },
+            { title: 'Honors Art IV / Studio Art IV', tag: 'Honors', description: 'Fourth-level honors studio art.' },
+            { title: 'AP 2-D Art & Design', tag: 'AP', description: 'The AP 2-D art and design portfolio.' },
+            { title: 'Symphonic Band', tag: 'Gr 9–12', description: 'The concert band as a credit course.' },
+            { title: 'IGNITE Praise Band', tag: 'Gr 9–12', description: 'The school praise band as a credit course.' },
+            { title: 'Choir', tag: 'Gr 9–12', description: 'The choral ensemble as a credit course.' },
+            { title: 'Theatrical Studies', tag: 'Gr 9–12', description: 'An introductory theatre course.' },
+            { title: 'Honors Acting Studio', tag: 'Honors', description: 'The honors acting course.' },
+            { title: 'Digital Photography I', tag: 'Gr 9–12', description: 'First-level digital photography.' },
+            { title: 'Digital Photography II', tag: 'Gr 9–12', description: 'Second-level digital photography.' },
+            { title: 'Media & Journalism I', tag: 'Gr 9–12', description: 'First-level media and journalism.' },
+            { title: 'Media & Journalism II', tag: 'Gr 9–12', description: 'Second-level media and journalism.' },
+            { title: 'Yearbook', tag: 'Gr 9–12', description: 'Producing the school yearbook.' },
+          ],
+        },
+        {
+          name: 'Electives',
+          courses: [
+            { title: 'Entrepreneurship and Marketing', tag: 'Business', description: 'A business elective in entrepreneurship and marketing.' },
+            { title: 'Finance and Business Ethics', tag: 'Business', description: 'A business elective in finance and ethics.' },
+            { title: 'Christian Leadership Practicum', tag: 'Gr 9–12', description: 'A practicum in Christian leadership.' },
+            { title: 'Educational Internship', tag: 'Gr 9–12', description: 'A supervised educational internship.' },
+            { title: 'Public Speaking and Debate', tag: 'Gr 9–12', description: 'A public-speaking and debate elective.' },
+            { title: 'Science and Faith', tag: 'Gr 9–12', description: 'An elective examining science and faith.' },
+            { title: 'AP Seminar', tag: 'AP', description: 'The first AP Capstone course, developing research and argument skills.' },
+            { title: 'AP Research', tag: 'AP', description: 'The second AP Capstone course, culminating in an academic paper.' },
+          ],
+        },
+      ],
+    },
+    /* NO Lower/Middle School division card: Carmel Christian publishes no named
+       course lists below grade 9, and a division with zero named courses is
+       omitted entirely rather than shipped as an empty card. */
+  ],
+}
+
 const OFFERINGS: Record<string, CourseOfferings> = {
   'providence-day': PROVIDENCE_DAY,
+  'carmel-christian': CARMEL_CHRISTIAN,
   'charlotte-latin': CHARLOTTE_LATIN,
   'charlotte-country-day': CHARLOTTE_COUNTRY_DAY,
   cannon: CANNON,

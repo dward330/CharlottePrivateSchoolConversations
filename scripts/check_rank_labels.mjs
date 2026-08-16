@@ -33,6 +33,7 @@ const RANKED = new Set(['ivy', 'ivyplus', 'nu75', 'lac75'])
 
 const SCHOOLS = [
   ['cannon', () => import('../src/data/collegeSupportPrograms/cannon.ts')],
+  ['carmel-christian', () => import('../src/data/collegeSupportPrograms/carmel-christian.ts')],
   ['charlotte-christian', () => import('../src/data/collegeSupportPrograms/charlotte-christian.ts')],
   ['charlotte-country-day', () => import('../src/data/collegeSupportPrograms/charlotte-country-day.ts')],
   ['charlotte-latin', () => import('../src/data/collegeSupportPrograms/charlotte-latin.ts')],
@@ -89,4 +90,4 @@ if (missing || conflicts) {
   )
   process.exit(1)
 }
-console.log('check:ranks — every ranked-bucket college on all 7 acceptance lists carries its rank label, with no conflicts')
+console.log(`check:ranks — every ranked-bucket college on all ${SCHOOLS.length} acceptance lists carries its rank label, with no conflicts`)

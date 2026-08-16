@@ -340,6 +340,40 @@ const COVENANT_DAY: ClubClusters = {
   ],
 }
 
+// ── Carmel Christian ── the thinnest competitive footprint in the set, and
+// honestly so: a deep pass through the Family Handbook, the live site nav, and
+// the aggregators confirmed NO standing Upper School academic-competition clubs
+// — no robotics/FIRST, debate, Model UN, mock trial, quiz bowl, DECA/FBLA, or
+// chess-as-club (chess exists only as an Extended-Day enrichment class; the
+// Geography/Spelling bees are school-run gr 1–8 events, not HS clubs). Because
+// clubs are student-initiated by application, there is no standing competitive
+// slate to name. What genuinely lives in this area is academic recognition —
+// the honor societies — so the two rows below are real (not fabricated
+// competition clubs), and the verdict states the absence plainly. From
+// source-material/student-clubs/carmel-christian/.
+const CARMEL_CHRISTIAN: ClubClusters = {
+  verdict: 'No standing academic-competition clubs; academic distinction runs through honor societies.',
+  verdictHint: 'Open any row for the full research note and its source.',
+  rows: [
+    {
+      name: 'Honor societies →',
+      oneLiner: 'National Honor Society, National Beta Club, Spanish Honor Society (+ NJHS in the MS)',
+      evidence: 'reported',
+      evidenceLabel: 'Handbook',
+      note: 'Academic recognition rather than competition: the High School runs the National Honor Society (application; weighted GPA 3.85), the National Beta Club (grades 10–12; GPA 3.50 with service hours), and a Spanish Honor Society, with the National Junior Honor Society for 8th grade in the Middle School. These are the school’s academic distinctions in this area.',
+      source: 'carmelchristian.org — Family Handbook (2021–22 ed.)',
+    },
+    {
+      name: 'Student-initiated clubs',
+      oneLiner: 'No standing robotics, debate, Model UN, mock trial, quiz bowl, or DECA club',
+      evidence: 'reported',
+      evidenceLabel: 'Confirmed absent',
+      note: 'A deep pass through the handbook, the live site, and third-party aggregators confirmed none of the usual academic-competition clubs run as standing Upper School organizations. Clubs are student-initiated by application, so any such club would depend on students applying to found it in a given year; chess appears only as an Extended-Day enrichment class.',
+      source: 'carmelchristian.org — Family Handbook (2021–22 ed.); privateschoolreview.com',
+    },
+  ],
+}
+
 const CLUSTERS: Record<string, ClubClusters> = {
   'providence-day': PROVIDENCE_DAY,
   'charlotte-latin': CHARLOTTE_LATIN,
@@ -348,6 +382,7 @@ const CLUSTERS: Record<string, ClubClusters> = {
   'charlotte-country-day': CHARLOTTE_COUNTRY_DAY,
   'covenant-day': COVENANT_DAY,
   'davidson-day': DAVIDSON_DAY,
+  'carmel-christian': CARMEL_CHRISTIAN,
 }
 
 /**
