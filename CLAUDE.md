@@ -131,9 +131,21 @@ forward; and it edits no app code. Coverage percentages are always reported as e
 
 Omission is expressed as **absence of data, never as a conditional in a component**: a
 topic with no `source-material/` folder does not render, and a structured card whose
-optional field is left off its `src/data/<dir>/<slug>.ts` does not render. Adding a school
+optional field is left off its `src/data/<dir>/<slug>.ts` does not render. A card or
+division that would list **zero items is omitted entirely** — never shipped as an empty
+shell with only a not-published note; the scope note moves to a sibling card. Adding a school
 needs no UX approval (§6 of the schema doc — it is automatic everywhere); material that
 fits **no existing card** is a new card and still does.
+
+**Every bug found and fixed at the review step triggers a schema-doc check.** When the
+user's review of a newly added school surfaces a bug, and it is verified and the fix
+applied, always check whether [`DATA-SCHEMA.md`](.claude/docs/DATA-SCHEMA.md) needs
+updating for it — a rule discovered through a review bug protects future schools only if
+it lands in the doc `/add-school` reads first. The doc is generated: the update goes in
+`scripts/gen_data_schema.mjs`, then `npm run schema` + `npm run check:schema`. If no
+update is needed, say so explicitly rather than silently skipping the check. (Both
+Covenant Day review bugs — the zero-items card and the acceptance-list rank labels —
+produced exactly such doc rules.)
 
 See [`.claude/skills/add-school/SKILL.md`](.claude/skills/add-school/SKILL.md).
 
