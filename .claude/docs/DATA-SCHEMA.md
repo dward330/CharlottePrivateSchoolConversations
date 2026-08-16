@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**8 schools × 9 research areas**, 360 ingested research documents.
+**8 schools × 9 research areas**, 361 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -51,7 +51,7 @@ exists yet and **the section does not render at all** for that school.
 
 | Research area | Slug | Cannon | Carmel Christian | Charlotte Christian | Charlotte Country Day | Charlotte Latin | Covenant Day | Davidson Day | Providence Day |
 |---|---|--:|--:|--:|--:|--:|--:|--:|--:|
-| Course Offerings | `course-offerings` | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| Course Offerings | `course-offerings` | 1 | 2 | 1 | 1 | 1 | 1 | 1 | 1 |
 | Student Clubs | `student-clubs` | 10 | 1 | 10 | 10 | 8 | 6 | 9 | 8 |
 | The Arts | `the-arts` | 8 | 1 | 8 | 8 | 7 | 7 | 5 | 7 |
 | Sports | `sports` | 15 | 1 | 15 | 15 | 15 | 14 | 15 | 15 |
@@ -76,7 +76,7 @@ research dossier folds in behind a structured card.
 
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
-| `curriculum` | Course Offerings | 8/8 | 1 |
+| `curriculum` | Course Offerings | 8/8 | 2 |
 
 ### Student Clubs `student-clubs`
 

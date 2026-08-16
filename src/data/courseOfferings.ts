@@ -6239,11 +6239,40 @@ const CARMEL_CHRISTIAN: CourseOfferings = {
         },
       ],
     },
-    /* NO Lower School (K–5) division card: the elementary pages describe subject
-       areas only, not named courses, so there is nothing to transcribe — and a
-       division with zero named courses is omitted entirely rather than shipped
-       as an empty card. The High School and Middle School both publish named
-       course lists (added 2026-08-16 after a re-check found the MS catalog). */
+    {
+      title: 'Lower School Courses',
+      grades: 'KINDERGARTEN – GRADE 5',
+      teaser:
+        'Five core subjects plus six Special Areas, each described per grade in the 2026-27 Elementary Course Description Guide — structured literacy (Orton-Gillingham) and a hands-on STEM lab from Kindergarten.',
+      source: 'Carmel Christian 2026-27 Elementary School Course Description Guide',
+      sourceUrl:
+        'https://www.carmelchristian.org/academics-elementary',
+      notPublished:
+        'The elementary guide describes each subject by grade (e.g. "Math" per grade) rather than as distinctly-titled courses, which is normal for K–5; the rows below carry the guide’s own per-grade descriptions.',
+      departments: [
+        {
+          name: 'Core Curriculum',
+          courses: [
+            { title: 'Bible', tag: 'K–Gr 5', description: 'Who God is through Creation and the Old and New Testaments, Bible-study skills and Christian living, with weekly scripture memorization and chapel reinforcing a biblical worldview across every subject.' },
+            { title: 'Math', tag: 'K–Gr 5', description: 'Foundational number sense in Kindergarten building through Grade 5 fraction operations, volume, measurement, decimals, geometry and coordinate planes — visual models, hands-on activities and word-problem reasoning throughout.' },
+            { title: 'Language Arts', tag: 'K–Gr 5', description: 'A multisensory literacy block rooted in the Science of Reading with Orton-Gillingham phonics; strands span phonemic awareness, phonics and morphology, reading (Accelerated Reader from Grade 1), grammar (Analytical Grammar by Grade 5), composition and handwriting.' },
+            { title: 'Science', tag: 'K–Gr 5', description: 'Inquiry-based, hands-on study of God’s creation across life, physical and earth/space science, advancing by grade from plants and matter to water and climate, energy and environments, and living systems.' },
+            { title: 'Social Studies', tag: 'K–Gr 5', description: 'Civics, culture, economics, geography and history from a biblical worldview, progressing from community themes through US history, North Carolina history (Grade 4) and early American history to the 1880s (Grade 5).' },
+          ],
+        },
+        {
+          name: 'Special Areas (All Grades)',
+          courses: [
+            { title: 'Art', tag: 'K–Gr 5', description: 'Foundational construction skills — painting, drawing, cutting, collage — with the elements of art, art vocabulary and self-assessment, framing creativity as an expression of God’s design.' },
+            { title: 'Spanish', tag: 'K–Gr 5', description: 'Language development through songs, games, literature, art and technology across the three modes of communication — interpretive, interpersonal and presentational.' },
+            { title: 'Media / Technology', tag: 'K–Gr 5', description: 'Digital resources, Google Classroom and Chrome, and basic keyboarding and coding, taught with the Media Specialist and Technology Specialist.' },
+            { title: 'Music', tag: 'K–Gr 5', description: 'Music literacy, response and relevance as a form of worship — the elements of music and foundational skills on hand drums, kazoos and boomwhackers, with interdisciplinary connections.' },
+            { title: 'Physical Education', tag: 'K–Gr 5', description: 'Spatial awareness, games, fitness challenges, fine- and large-motor development, teamwork and the foundations of personal and social responsibility.' },
+            { title: 'STEM', tag: 'K–Gr 5', description: 'The STEM Lab — engineering builds, Dash-robot coding, codable Lego kits and 3D-printer designs, often tied directly to the classroom science curriculum.' },
+          ],
+        },
+      ],
+    },
   ],
 }
 
