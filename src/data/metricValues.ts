@@ -330,6 +330,8 @@ export const VALUE_METRICS: ValueMetric[] = [
     key: 'top-tuition',
     label: 'Top tuition',
     note: 'Highest published grade-band tuition, 2026–27 school year.',
+    // No leader tint: this is a price, so the highest value is the worst one.
+    noLead: true,
     values: {
       cannon: '$32,070', // Grades 9–12, 2026–27
       'charlotte-christian': '$27,055', // Grades 9–12, 2026–27
