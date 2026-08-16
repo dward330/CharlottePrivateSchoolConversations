@@ -209,8 +209,8 @@
       "of": "3d0cb547",
       "at": [
         "providence-day:[2].values.cannon",
-        "providence-day:[23].values.charlotte-country-day",
-        "providence-day:[27].values.charlotte-christian"
+        "providence-day:[24].values.charlotte-country-day",
+        "providence-day:[28].values.charlotte-christian"
       ],
       "t": "8"
     },
@@ -229,9 +229,9 @@
       "at": [
         "providence-day:[2].values.charlotte-country-day",
         "providence-day:[2].values.davidson-day",
-        "providence-day:[23].values.providence-day",
-        "providence-day:[27].values.charlotte-country-day",
-        "providence-day:[28].values.davidson-day"
+        "providence-day:[24].values.providence-day",
+        "providence-day:[28].values.charlotte-country-day",
+        "providence-day:[29].values.davidson-day"
       ],
       "t": "9"
     },
@@ -1726,7 +1726,7 @@
       "of": "88f291a0",
       "at": [
         "providence-day:[19].values.charlotte-latin",
-        "providence-day:[28].values.charlotte-country-day"
+        "providence-day:[29].values.charlotte-country-day"
       ],
       "t": "25"
     },
@@ -2000,9 +2000,26 @@
       "at": [
         "providence-day:[22].values.charlotte-country-day",
         "providence-day:[22].values.charlotte-latin",
-        "providence-day:[22].values.davidson-day"
+        "providence-day:[22].values.davidson-day",
+        "providence-day:[22].values.cannon"
       ],
       "t": "6:00 PM"
+    },
+    {
+      "text": "The JrK–8 After School Program runs 3:00–6:00 p.m. on regular days. On early-dismissal days it runs 11:45 a.m.–4:00 p.m., ending two hours earlier than the 6:00 shown here.",
+      "of": "b1268c11",
+      "at": [
+        "providence-day:[22].quals.cannon.text"
+      ],
+      "t": "JrK–8 After School Program సాధారణ రోజుల్లో 3:00–6:00 p.m. వరకు నడుస్తుంది. ముందుగా సెలవిచ్చే రోజుల్లో ఇది 11:45 a.m.–4:00 p.m. వరకు నడిచి, ఇక్కడ చూపిన 6:00 కంటే రెండు గంటలు ముందే ముగుస్తుంది."
+    },
+    {
+      "text": "The two divisions differ, so no single time fits: Lower School Extended Day (JK–4) runs to 6:00 p.m., while Middle School Extended Day ends at 5:00 p.m., a full hour earlier.",
+      "of": "f1050e01",
+      "at": [
+        "providence-day:[22].quals.charlotte-christian.text"
+      ],
+      "t": "రెండు విభాగాలు వేర్వేరుగా ఉన్నాయి, కాబట్టి ఒకే సమయం సరిపోదు: Lower School Extended Day (JK–4) 6:00 p.m. వరకు నడుస్తుంది, Middle School Extended Day మాత్రం 5:00 p.m.కే — పూర్తిగా ఒక గంట ముందే — ముగుస్తుంది."
     },
     {
       "text": "The Lower School’s Structured Care program runs until 6:00 p.m. Confirm current hours with the school.",
@@ -2029,10 +2046,146 @@
       "t": "Lower School యొక్క Extended Care 2:45–6:00 p.m. నడుస్తుంది. ప్రస్తుత సమయాలను పాఠశాలతో ధృవీకరించండి."
     },
     {
+      "text": "Cost of after-school care",
+      "of": "bafb4f23",
+      "at": [
+        "providence-day:[23].label"
+      ],
+      "t": "స్కూలు తర్వాతి సంరక్షణ ఖర్చు"
+    },
+    {
+      "text": "The most expensive published arrangement: the highest-priced grade band, at the latest pickup tier, five days a week. Each cell shows a monthly cost with the year’s total beneath it. The schools bill in different periods — monthly, per semester, annually — so a ≈ marks the figure we converted rather than the one that school publishes, assuming a 10-month school year. Read the per-cell notes before comparing. 2026–27 rates, except Cannon’s 2025–26.",
+      "of": "459a5728",
+      "at": [
+        "providence-day:[23].note"
+      ],
+      "t": "ప్రచురించిన అత్యంత ఖరీదైన ఏర్పాటు: అత్యధిక ధర ఉన్న తరగతుల విభాగం, ఆలస్యంగా పికప్ చేసే స్థాయిలో, వారానికి ఐదు రోజులు. ప్రతి గడిలో నెలవారీ ఖర్చు, దాని కింద సంవత్సరపు మొత్తం. స్కూళ్లు వేర్వేరు కాలవ్యవధుల్లో బిల్లు వేస్తాయి — నెలవారీ, సెమిస్టర్‌వారీ, సంవత్సరవారీ — కాబట్టి ≈ గుర్తు ఆ స్కూలు ప్రచురించిన అంకె కాకుండా మేము మార్చిన అంకెను సూచిస్తుంది; ఇది 10 నెలల విద్యా సంవత్సరం ఆధారంగా. పోల్చే ముందు ప్రతి గడి నోట్‌ను చదవండి. 2026–27 ధరలు, Cannon వి మాత్రం 2025–26."
+    },
+    {
+      "text": "≈$378/mo",
+      "of": "12060e16",
+      "at": [
+        "providence-day:[23].values.cannon"
+      ],
+      "t": "≈$378/నెల"
+    },
+    {
+      "text": "$325/mo",
+      "of": "78207236",
+      "at": [
+        "providence-day:[23].values.charlotte-christian"
+      ],
+      "t": "$325/నెల"
+    },
+    {
+      "text": "$900/mo",
+      "of": "07338e8f",
+      "at": [
+        "providence-day:[23].values.charlotte-country-day"
+      ],
+      "t": "$900/నెల"
+    },
+    {
+      "text": "≈$930/mo",
+      "of": "5a8ce014",
+      "at": [
+        "providence-day:[23].values.charlotte-latin"
+      ],
+      "t": "≈$930/నెల"
+    },
+    {
+      "text": "$750/mo",
+      "of": "d147bcce",
+      "at": [
+        "providence-day:[23].values.providence-day"
+      ],
+      "t": "$750/నెల"
+    },
+    {
+      "text": "$3,784/yr",
+      "of": "f1cd0645",
+      "at": [
+        "providence-day:[23].subs.cannon"
+      ],
+      "t": "$3,784/సం"
+    },
+    {
+      "text": "≈$3,250/yr",
+      "of": "c5df3b81",
+      "at": [
+        "providence-day:[23].subs.charlotte-christian"
+      ],
+      "t": "≈$3,250/సం"
+    },
+    {
+      "text": "≈$9,000/yr",
+      "of": "4d4cf8b6",
+      "at": [
+        "providence-day:[23].subs.charlotte-country-day"
+      ],
+      "t": "≈$9,000/సం"
+    },
+    {
+      "text": "$9,300/yr",
+      "of": "a629cde3",
+      "at": [
+        "providence-day:[23].subs.charlotte-latin"
+      ],
+      "t": "$9,300/సం"
+    },
+    {
+      "text": "≈$7,500/yr",
+      "of": "ff10409d",
+      "at": [
+        "providence-day:[23].subs.providence-day"
+      ],
+      "t": "≈$7,500/సం"
+    },
+    {
+      "text": "Cannon publishes one annual price, $3,784 — the monthly figure above is that spread over 10 months, not a rate the school quotes. It buys the JrK–8 After School Program, 3:00–6:00 p.m. (3 hours) five days a week, at 2025–26 rates: the only school here not on 2026–27, because the page carrying the rate card is no longer publicly linked.",
+      "of": "a2b60be7",
+      "at": [
+        "providence-day:[23].quals.cannon.text"
+      ],
+      "t": "Cannon ఒకే ఒక వార్షిక ధరను ప్రచురిస్తుంది, $3,784 — పైన ఉన్న నెలవారీ అంకె ఆ మొత్తాన్ని 10 నెలలకు పంచినది, స్కూలు చెప్పే ధర కాదు. దీనితో JrK–8 After School Program, 3:00–6:00 p.m. (3 గంటలు), వారానికి ఐదు రోజులు, 2025–26 ధరలకు లభిస్తుంది: 2026–27లో లేని ఏకైక స్కూలు ఇదే, ఎందుకంటే ధరల పట్టిక ఉన్న పేజీకి ఇప్పుడు బహిరంగ లింక్ లేదు."
+    },
+    {
+      "text": "JK–Grade 4 Extended Day to 6:00 p.m., five days a week, billed monthly at $325 for 2026–27; the yearly total assumes 10 billing months. Rates rose 32–52% over 2024–25, and Middle School is not in this figure because it bills by the hour ($8/hr, ending at 5:00 p.m.).",
+      "of": "34914993",
+      "at": [
+        "providence-day:[23].quals.charlotte-christian.text"
+      ],
+      "t": "JK నుంచి 4వ తరగతి వరకు Extended Day 6:00 p.m. వరకు, వారానికి ఐదు రోజులు, 2026–27కి నెలకు $325 చొప్పున బిల్లు; సంవత్సరపు మొత్తం 10 నెలల బిల్లింగ్ ఆధారంగా. 2024–25తో పోలిస్తే ధరలు 32–52% పెరిగాయి, Middle School ఈ అంకెలో లేదు ఎందుకంటే అది గంటల లెక్కన బిల్లు వేస్తుంది ($8/గంట, 5:00 p.m. వరకు)."
+    },
+    {
+      "text": "Junior Kindergarten at the 6:00 p.m. tier, five days a week, billed monthly at $900 — the yearly total assumes 10 months, which the school does not publish. JK dismisses at 1:15 p.m., so this buys roughly 4.75 hours a day; Grades 1–4 at the same 6:00 p.m. tier is $610/mo.",
+      "of": "bfd505a4",
+      "at": [
+        "providence-day:[23].quals.charlotte-country-day.text"
+      ],
+      "t": "Junior Kindergarten 6:00 p.m. స్థాయిలో, వారానికి ఐదు రోజులు, నెలకు $900 చొప్పున బిల్లు — సంవత్సరపు మొత్తం 10 నెలల ఆధారంగా, ఆ వివరాన్ని స్కూలు ప్రచురించదు. JK 1:15 p.m.కి వదిలేస్తారు, కాబట్టి ఇది రోజుకు సుమారు 4.75 గంటలు; అదే 6:00 p.m. స్థాయిలో 1–4 తరగతులకు $610/నెల."
+    },
+    {
+      "text": "Latin bills per semester, $4,650 twice a year — the monthly figure above is that $9,300 spread over 10 months, not a rate the school quotes. It covers TK/K at the 1:30–6:00 p.m. tier five days a week; TK and Kindergarten dismiss at 1:30 p.m., so this buys 4.5 hours a day, more than any figure beside it. Grades 1–5 at their 2:55–6:00 p.m. tier is $3,000 a semester.",
+      "of": "761a11d0",
+      "at": [
+        "providence-day:[23].quals.charlotte-latin.text"
+      ],
+      "t": "Latin సెమిస్టర్‌వారీగా బిల్లు వేస్తుంది, సంవత్సరానికి రెండుసార్లు $4,650 — పైన ఉన్న నెలవారీ అంకె ఆ $9,300ని 10 నెలలకు పంచినది, స్కూలు చెప్పే ధర కాదు. ఇది TK/K కోసం 1:30–6:00 p.m. స్థాయిని వారానికి ఐదు రోజులు కవర్ చేస్తుంది; TK, Kindergarten 1:30 p.m.కి వదిలేస్తారు, కాబట్టి ఇది రోజుకు 4.5 గంటలు — పక్కనున్న ఏ అంకె కంటే ఎక్కువ. 1–5 తరగతులకు వాటి 2:55–6:00 p.m. స్థాయి సెమిస్టర్‌కు $3,000."
+    },
+    {
+      "text": "Transitional Kindergarten at the 1–6 p.m. tier, five days a week, billed monthly at $750; the yearly total assumes 10 months, and the school states outright that its number of billing months is not published. TK dismisses at 1:00 p.m., so this covers 5 hours a day; Grades 1–5 at 3–6 p.m. is $470/mo, and there is no drop-in option.",
+      "of": "16104bd6",
+      "at": [
+        "providence-day:[23].quals.providence-day.text"
+      ],
+      "t": "Transitional Kindergarten 1–6 p.m. స్థాయిలో, వారానికి ఐదు రోజులు, నెలకు $750 చొప్పున బిల్లు; సంవత్సరపు మొత్తం 10 నెలల ఆధారంగా, తాము ఎన్ని నెలలు బిల్లు వేస్తామో ప్రచురించలేదని స్కూలు స్పష్టంగా చెబుతుంది. TK 1:00 p.m.కి వదిలేస్తారు, కాబట్టి ఇది రోజుకు 5 గంటలు; 1–5 తరగతులకు 3–6 p.m. ధర $470/నెల, డ్రాప్-ఇన్ సదుపాయం లేదు."
+    },
+    {
       "text": "Weeks of summer camp",
       "of": "4e40c309",
       "at": [
-        "providence-day:[23].label"
+        "providence-day:[24].label"
       ],
       "t": "సమ్మర్ క్యాంప్ వారాలు"
     },
@@ -2040,7 +2193,7 @@
       "text": "Number of camp weeks the school runs in summer 2026, counting shortened holiday weeks. A longer season is more weeks a family can cover.",
       "of": "473a9df1",
       "at": [
-        "providence-day:[23].note"
+        "providence-day:[24].note"
       ],
       "t": "2026 వేసవిలో పాఠశాల నిర్వహించే క్యాంప్ వారాల సంఖ్య, సెలవుల వల్ల తక్కువ రోజులున్న వారాలతో కలిపి. సీజన్ ఎంత పొడవుంటే, కుటుంబం అంత ఎక్కువ వారాలు సర్దుబాటు చేసుకోగలదు."
     },
@@ -2048,8 +2201,8 @@
       "text": "7",
       "of": "320ca3f6",
       "at": [
-        "providence-day:[23].values.cannon",
-        "providence-day:[23].values.charlotte-latin"
+        "providence-day:[24].values.cannon",
+        "providence-day:[24].values.charlotte-latin"
       ],
       "t": "7"
     },
@@ -2057,7 +2210,7 @@
       "text": "6",
       "of": "330ca589",
       "at": [
-        "providence-day:[23].values.charlotte-christian"
+        "providence-day:[24].values.charlotte-christian"
       ],
       "t": "6"
     },
@@ -2065,7 +2218,7 @@
       "text": "Eight weeks including the June 1-5 \"Pre-Camp\" week, which carries 9 priced camps. The school’s own summer landing page markets the season as the seven weeks from June 8.",
       "of": "e9f9e019",
       "at": [
-        "providence-day:[23].quals.charlotte-country-day.text"
+        "providence-day:[24].quals.charlotte-country-day.text"
       ],
       "t": "ఎనిమిది వారాలు, జూన్ 1-5 నాటి “Pre-Camp” వారంతో కలిపి — ఆ వారంలో ధర నిర్ణయించిన 9 క్యాంపులు ఉన్నాయి. అయితే పాఠశాల స్వంత సమ్మర్ పేజీ మాత్రం జూన్ 8 నుంచి మొదలయ్యే ఏడు వారాలుగా సీజన్‌ను ప్రచారం చేస్తుంది."
     },
@@ -2073,7 +2226,7 @@
       "text": "Six weeks, but not consecutive: the school takes a two-week break around July 4 (June 29 – July 3 has no camps).",
       "of": "a93f21d0",
       "at": [
-        "providence-day:[23].quals.charlotte-christian.text"
+        "providence-day:[24].quals.charlotte-christian.text"
       ],
       "t": "ఆరు వారాలు, కానీ వరుసగా కాదు: జూలై 4 చుట్టూ పాఠశాల రెండు వారాల విరామం తీసుకుంటుంది (జూన్ 29 – జూలై 3 మధ్య క్యాంపులు లేవు)."
     },
@@ -2081,7 +2234,7 @@
       "text": "Camps published",
       "of": "d6903fa7",
       "at": [
-        "providence-day:[24].label"
+        "providence-day:[25].label"
       ],
       "t": "ప్రకటించిన క్యాంపులు"
     },
@@ -2089,7 +2242,7 @@
       "text": "Camp offerings in the school’s own 2026 catalog. Counting conventions differ — most schools count each week a camp runs as a separate row — so read the per-cell notes before comparing.",
       "of": "bc366956",
       "at": [
-        "providence-day:[24].note"
+        "providence-day:[25].note"
       ],
       "t": "పాఠశాల స్వంత 2026 క్యాటలాగ్‌లో ఇచ్చిన క్యాంపుల సంఖ్య. లెక్కింపు పద్ధతులు వేర్వేరుగా ఉంటాయి — చాలా పాఠశాలలు ఒక క్యాంప్ నడిచే ప్రతి వారాన్నీ విడిగా ఒక వరుసగా లెక్కిస్తాయి — కాబట్టి పోల్చే ముందు ఒక్కో గడిలోని నోట్లు చదవండి."
     },
@@ -2097,7 +2250,7 @@
       "text": "251",
       "of": "26db2743",
       "at": [
-        "providence-day:[24].values.cannon"
+        "providence-day:[25].values.cannon"
       ],
       "t": "251"
     },
@@ -2105,7 +2258,7 @@
       "text": "133",
       "of": "7a3aae4a",
       "at": [
-        "providence-day:[24].values.charlotte-christian"
+        "providence-day:[25].values.charlotte-christian"
       ],
       "t": "133"
     },
@@ -2113,7 +2266,7 @@
       "text": "132",
       "of": "7b3aafdd",
       "at": [
-        "providence-day:[24].values.charlotte-country-day"
+        "providence-day:[25].values.charlotte-country-day"
       ],
       "t": "132"
     },
@@ -2121,7 +2274,7 @@
       "text": "232",
       "of": "27ea3360",
       "at": [
-        "providence-day:[24].values.charlotte-latin"
+        "providence-day:[25].values.charlotte-latin"
       ],
       "t": "232"
     },
@@ -2129,7 +2282,7 @@
       "text": "170",
       "of": "e130c313",
       "at": [
-        "providence-day:[24].values.providence-day"
+        "providence-day:[25].values.providence-day"
       ],
       "t": "170"
     },
@@ -2137,7 +2290,7 @@
       "text": "251 camp-week offerings across seven weeks, representing roughly 180 distinct camp titles. Counted from the school’s own 80-page 2026 brochure.",
       "of": "94ffcc7f",
       "at": [
-        "providence-day:[24].quals.cannon.text"
+        "providence-day:[25].quals.cannon.text"
       ],
       "t": "ఏడు వారాల్లో 251 క్యాంప్-వారం ఆఫర్లు, అంటే సుమారు 180 వేర్వేరు క్యాంప్ పేర్లు. పాఠశాల స్వంత 80 పేజీల 2026 బ్రోషర్ నుంచి లెక్కించినవి."
     },
@@ -2145,7 +2298,7 @@
       "text": "232 offerings across seven sessions, from 169 unique camp titles — a camp running in three sessions is counted three times.",
       "of": "7f216eb0",
       "at": [
-        "providence-day:[24].quals.charlotte-latin.text"
+        "providence-day:[25].quals.charlotte-latin.text"
       ],
       "t": "ఏడు సెషన్లలో 232 ఆఫర్లు, 169 ప్రత్యేక క్యాంప్ పేర్ల నుంచి — మూడు సెషన్లలో నడిచే ఒక క్యాంప్‌ను మూడుసార్లు లెక్కించారు."
     },
@@ -2153,7 +2306,7 @@
       "text": "170 priced rows in the 2026 brochure, covering 151 distinct camp names and 231 total camp-session offerings.",
       "of": "a5300730",
       "at": [
-        "providence-day:[24].quals.providence-day.text"
+        "providence-day:[25].quals.providence-day.text"
       ],
       "t": "2026 బ్రోషర్‌లో ధర ఉన్న 170 వరుసలు, వాటిలో 151 వేర్వేరు క్యాంప్ పేర్లు, మొత్తం 231 క్యాంప్-సెషన్ ఆఫర్లు ఉన్నాయి."
     },
@@ -2161,7 +2314,7 @@
       "text": "132 priced rows, roughly 85 distinct camp titles. The school separately markets the program as \"over 150 exciting camp options\", a figure its public listing does not itemize.",
       "of": "7491b610",
       "at": [
-        "providence-day:[24].quals.charlotte-country-day.text"
+        "providence-day:[25].quals.charlotte-country-day.text"
       ],
       "t": "ధర ఉన్న 132 వరుసలు, సుమారు 85 వేర్వేరు క్యాంప్ పేర్లు. పాఠశాల విడిగా ఈ కార్యక్రమాన్ని “150కి పైగా ఆసక్తికరమైన క్యాంప్ ఎంపికలు” అని ప్రచారం చేస్తుంది, కానీ దాని బహిరంగ జాబితాలో ఆ సంఖ్యను విడగొట్టి చూపలేదు."
     },
@@ -2169,7 +2322,7 @@
       "text": "133 half-day sessions across six weeks, roughly 96 distinct camps. Every one is a three-hour half-day — the school publishes no full-day camp.",
       "of": "3910e6df",
       "at": [
-        "providence-day:[24].quals.charlotte-christian.text"
+        "providence-day:[25].quals.charlotte-christian.text"
       ],
       "t": "ఆరు వారాల్లో 133 అర్ధ-రోజు సెషన్లు, సుమారు 96 వేర్వేరు క్యాంపులు. అన్నీ మూడు గంటల అర్ధ-రోజు క్యాంపులే — పాఠశాల పూర్తి-రోజు క్యాంప్‌ను ఏదీ ప్రకటించలేదు."
     },
@@ -2177,7 +2330,7 @@
       "text": "Ages served",
       "of": "20a1e226",
       "at": [
-        "providence-day:[25].label"
+        "providence-day:[26].label"
       ],
       "t": "ఏ వయసు వారికి"
     },
@@ -2185,7 +2338,7 @@
       "text": "The span the school’s own summer catalog covers. Latin and Cannon index camps by age; the others publish grade bands, shown here as the school states them.",
       "of": "4d564628",
       "at": [
-        "providence-day:[25].note"
+        "providence-day:[26].note"
       ],
       "t": "పాఠశాల స్వంత సమ్మర్ క్యాటలాగ్ కవర్ చేసే వయసు పరిధి. Latin, Cannon క్యాంపులను వయసు ఆధారంగా సర్దుతాయి; మిగిలినవి తరగతుల శ్రేణులను ప్రకటిస్తాయి, ఇక్కడ పాఠశాల చెప్పిన రీతిలోనే చూపించాం."
     },
@@ -2193,8 +2346,8 @@
       "text": "4–18",
       "of": "cca868d1",
       "at": [
-        "providence-day:[25].values.cannon",
-        "providence-day:[25].values.providence-day"
+        "providence-day:[26].values.cannon",
+        "providence-day:[26].values.providence-day"
       ],
       "t": "4–18"
     },
@@ -2202,7 +2355,7 @@
       "text": "JK–Grade 12",
       "of": "a9b0c7e9",
       "at": [
-        "providence-day:[25].values.charlotte-christian"
+        "providence-day:[26].values.charlotte-christian"
       ],
       "t": "JK–12వ తరగతి"
     },
@@ -2210,7 +2363,7 @@
       "text": "Age 4–Grade 12",
       "of": "ba434c7b",
       "at": [
-        "providence-day:[25].values.charlotte-country-day"
+        "providence-day:[26].values.charlotte-country-day"
       ],
       "t": "వయసు 4–12వ తరగతి"
     },
@@ -2218,7 +2371,7 @@
       "text": "3.5–18",
       "of": "349c7711",
       "at": [
-        "providence-day:[25].values.charlotte-latin"
+        "providence-day:[26].values.charlotte-latin"
       ],
       "t": "3.5–18"
     },
@@ -2226,7 +2379,7 @@
       "text": "The school states camps are \"open to all campers ages 3.5 - 18 years old\". Age is calculated as of August 1, 2026, and all Pre-K campers must be toilet trained.",
       "of": "e3070636",
       "at": [
-        "providence-day:[25].quals.charlotte-latin.text"
+        "providence-day:[26].quals.charlotte-latin.text"
       ],
       "t": "క్యాంపులు “3.5 - 18 ఏళ్ల వయసున్న క్యాంపర్లందరికీ తెరిచి ఉన్నాయి” అని పాఠశాల చెబుతోంది. వయసును 1 ఆగస్టు 2026 నాటికి లెక్కిస్తారు, Pre-K క్యాంపర్లందరూ టాయిలెట్ ట్రెయినింగ్ పూర్తి చేసి ఉండాలి."
     },
@@ -2234,7 +2387,7 @@
       "text": "The brochure says campers must be \"at least four years old by January 1, 2026\"; the About page states ages 4.5 to 18. Both are the school’s own wording.",
       "of": "2a21488f",
       "at": [
-        "providence-day:[25].quals.providence-day.text"
+        "providence-day:[26].quals.providence-day.text"
       ],
       "t": "క్యాంపర్లకు “1 జనవరి 2026 నాటికి కనీసం నాలుగేళ్లు” ఉండాలని బ్రోషర్ చెబుతోంది; About పేజీ మాత్రం 4.5 నుంచి 18 ఏళ్లు అని పేర్కొంటుంది. రెండూ పాఠశాల స్వంత మాటలే."
     },
@@ -2242,7 +2395,7 @@
       "text": "The listing’s lowest published band is Age 4. The school’s own pages disagree on the floor — the summer page says ages 4–18, the after-school page says 3–18.",
       "of": "ef5848a4",
       "at": [
-        "providence-day:[25].quals.charlotte-country-day.text"
+        "providence-day:[26].quals.charlotte-country-day.text"
       ],
       "t": "జాబితాలో ప్రకటించిన అత్యల్ప శ్రేణి Age 4. కనిష్ఠ వయసు విషయంలో పాఠశాల స్వంత పేజీలే విభేదిస్తున్నాయి — సమ్మర్ పేజీ 4–18 ఏళ్లు అంటోంది, ఆఫ్టర్-స్కూల్ పేజీ 3–18 అంటోంది."
     },
@@ -2250,7 +2403,7 @@
       "text": "Grades are rising 2026-27. JK campers must have turned 4 by February 1, 2026.",
       "of": "3f5e77ee",
       "at": [
-        "providence-day:[25].quals.charlotte-christian.text"
+        "providence-day:[26].quals.charlotte-christian.text"
       ],
       "t": "తరగతులు 2026-27లో వెళ్లే తరగతులు. JK క్యాంపర్లకు 1 ఫిబ్రవరి 2026 నాటికి 4 ఏళ్లు నిండి ఉండాలి."
     },
@@ -2258,7 +2411,7 @@
       "text": "The school states Camp Cannon is \"open to all children ages 4 to 18\". Campers must be fully potty trained, and only camps matching a child’s age appear during online registration.",
       "of": "4b131395",
       "at": [
-        "providence-day:[25].quals.cannon.text"
+        "providence-day:[26].quals.cannon.text"
       ],
       "t": "Camp Cannon “4 నుంచి 18 ఏళ్ల పిల్లలందరికీ తెరిచి ఉంది” అని పాఠశాల చెబుతోంది. క్యాంపర్లు పూర్తిగా పాటీ ట్రెయినింగ్ పూర్తి చేసి ఉండాలి, ఆన్‌లైన్ రిజిస్ట్రేషన్ సమయంలో పిల్లల వయసుకు సరిపోయే క్యాంపులు మాత్రమే కనిపిస్తాయి."
     },
@@ -2266,7 +2419,7 @@
       "text": "Wrap-around care",
       "of": "2459c4c2",
       "at": [
-        "providence-day:[26].label"
+        "providence-day:[27].label"
       ],
       "t": "క్యాంప్‌కు ముందు, తర్వాత సంరక్షణ"
     },
@@ -2274,7 +2427,7 @@
       "text": "Earliest drop-off to latest pickup with the school’s paid before- and after-care options — the real outer limit of a camp day for a working family.",
       "of": "5701e6ec",
       "at": [
-        "providence-day:[26].note"
+        "providence-day:[27].note"
       ],
       "t": "పాఠశాల డబ్బు తీసుకుని అందించే బిఫోర్- మరియు ఆఫ్టర్-కేర్ ఎంపికలతో కలిపి, పిల్లల్ని దింపగలిగే తొలి సమయం నుంచి తీసుకెళ్లగలిగే చివరి సమయం వరకు — ఉద్యోగం చేసే కుటుంబానికి క్యాంప్ రోజు నిజమైన హద్దు."
     },
@@ -2282,8 +2435,8 @@
       "text": "7:30 AM–5:30 PM",
       "of": "ed8a2e9b",
       "at": [
-        "providence-day:[26].values.cannon",
-        "providence-day:[26].values.charlotte-latin"
+        "providence-day:[27].values.cannon",
+        "providence-day:[27].values.charlotte-latin"
       ],
       "t": "7:30 AM–5:30 PM"
     },
@@ -2291,7 +2444,7 @@
       "text": "8:00 AM–5:00 PM",
       "of": "42437dde",
       "at": [
-        "providence-day:[26].values.charlotte-christian"
+        "providence-day:[27].values.charlotte-christian"
       ],
       "t": "8:00 AM–5:00 PM"
     },
@@ -2299,7 +2452,7 @@
       "text": "7:30 AM–5:00 PM",
       "of": "792cd57e",
       "at": [
-        "providence-day:[26].values.charlotte-country-day"
+        "providence-day:[27].values.charlotte-country-day"
       ],
       "t": "7:30 AM–5:00 PM"
     },
@@ -2307,7 +2460,7 @@
       "text": "7:00 AM–6:00 PM",
       "of": "9b4038c2",
       "at": [
-        "providence-day:[26].values.providence-day"
+        "providence-day:[27].values.providence-day"
       ],
       "t": "7:00 AM–6:00 PM"
     },
@@ -2315,7 +2468,7 @@
       "text": "An eleven-hour span, the widest of the five — Before Care from 7am and After Care to 6pm, both $120/week, or $220/week bundled as Complete Care.",
       "of": "5f49f081",
       "at": [
-        "providence-day:[26].quals.providence-day.text"
+        "providence-day:[27].quals.providence-day.text"
       ],
       "t": "పదకొండు గంటల విస్తృతి, ఐదింటిలోకెల్లా ఎక్కువ — Before Care 7am నుంచి, After Care 6pm వరకు, రెండూ $120/వారం, లేదా Complete Care బండిల్‌గా కలిపి $220/వారం."
     },
@@ -2323,7 +2476,7 @@
       "text": "A nine-hour span. Because every camp is a half-day, covering a full working day means registering a morning AND an afternoon camp; the noon–1 p.m. bridge care between them is free.",
       "of": "107eb4f8",
       "at": [
-        "providence-day:[26].quals.charlotte-christian.text"
+        "providence-day:[27].quals.charlotte-christian.text"
       ],
       "t": "తొమ్మిది గంటల విస్తృతి. ప్రతి క్యాంపూ అర్ధ-రోజు కావడంతో, పూర్తి పని దినాన్ని కవర్ చేయాలంటే ఉదయం ఒక క్యాంపు, మధ్యాహ్నం ఒక క్యాంపు రెండూ నమోదు చేయాలి; వాటి మధ్య మధ్యాహ్నం–1 p.m. వంతెన సంరక్షణ ఉచితం."
     },
@@ -2331,7 +2484,7 @@
       "text": "A ten-hour span: Before Care from 7:30 am at $50/week and After Care to 5:30 pm at $60/week, or $90/week for both. Camp itself runs 9:00–4:00.",
       "of": "c70f383c",
       "at": [
-        "providence-day:[26].quals.cannon.text"
+        "providence-day:[27].quals.cannon.text"
       ],
       "t": "పది గంటల విస్తృతి: Before Care 7:30 am నుంచి $50/వారం, After Care 5:30 pm వరకు $60/వారం, లేదా రెండూ కలిపి $90/వారం. క్యాంప్ మాత్రం 9:00–4:00 మధ్య నడుస్తుంది."
     },
@@ -2339,7 +2492,7 @@
       "text": "A ten-hour span. Before Care runs 7:30–8:15 am ($70.00/week) and After Care to 5:30 pm ($150.00/week); the Super Care bundle is $195.00/week. Late pick-up is $25.00 every 15 minutes.",
       "of": "5a5e0dc4",
       "at": [
-        "providence-day:[26].quals.charlotte-latin.text"
+        "providence-day:[27].quals.charlotte-latin.text"
       ],
       "t": "పది గంటల విస్తృతి. Before Care 7:30–8:15 am వరకు ($70.00/వారం), After Care 5:30 pm వరకు ($150.00/వారం); Super Care బండిల్ $195.00/వారం. ఆలస్యంగా తీసుకెళ్తే ప్రతి 15 నిమిషాలకు $25.00."
     },
@@ -2347,7 +2500,7 @@
       "text": "A nine-and-a-half-hour span: Morning Care from 7:30 am ($105/week) and Afternoon Care to 5 pm ($85/week), or $160/week bundled as Super Care. Late pick-up is $1/minute after 5 pm.",
       "of": "e8bfeef8",
       "at": [
-        "providence-day:[26].quals.charlotte-country-day.text"
+        "providence-day:[27].quals.charlotte-country-day.text"
       ],
       "t": "తొమ్మిదిన్నర గంటల విస్తృతి: Morning Care 7:30 am నుంచి ($105/వారం), Afternoon Care 5 pm వరకు ($85/వారం), లేదా Super Care బండిల్‌గా $160/వారం. 5 pm తర్వాత ఆలస్యంగా తీసుకెళ్తే నిమిషానికి $1."
     },
@@ -2355,7 +2508,7 @@
       "text": "Power 4 commits",
       "of": "1f2f8490",
       "at": [
-        "providence-day:[27].label"
+        "providence-day:[28].label"
       ],
       "t": "Power 4 commitments"
     },
@@ -2363,7 +2516,7 @@
       "text": "Distinct athletes committed to an SEC / Big Ten / ACC / Big 12 program, Classes of 2024–2026. Documented minimum.",
       "of": "4b7d536c",
       "at": [
-        "providence-day:[27].note"
+        "providence-day:[28].note"
       ],
       "t": "SEC / Big Ten / ACC / Big 12 కార్యక్రమానికి commit అయిన విభిన్న క్రీడాకారులు, 2024–2026 బ్యాచ్‌లు. నమోదైన కనిష్ఠ సంఖ్య."
     },
@@ -2371,7 +2524,7 @@
       "text": "1",
       "of": "340ca71c",
       "at": [
-        "providence-day:[27].values.cannon"
+        "providence-day:[28].values.cannon"
       ],
       "t": "1"
     },
@@ -2379,9 +2532,9 @@
       "text": "3",
       "of": "360caa42",
       "at": [
-        "providence-day:[27].values.charlotte-latin",
-        "providence-day:[27].values.davidson-day",
-        "providence-day:[28].values.cannon"
+        "providence-day:[28].values.charlotte-latin",
+        "providence-day:[28].values.davidson-day",
+        "providence-day:[29].values.cannon"
       ],
       "t": "3"
     },
@@ -2389,7 +2542,7 @@
       "text": "17",
       "of": "1aeb28b1",
       "at": [
-        "providence-day:[27].values.providence-day"
+        "providence-day:[28].values.providence-day"
       ],
       "t": "17"
     },
@@ -2397,8 +2550,8 @@
       "text": "A documented minimum. Several of Cannon’s best-known athletes committed outside the 2024–26 window and so are not counted here.",
       "of": "0d7ecf77",
       "at": [
-        "providence-day:[27].quals.cannon.text",
-        "providence-day:[28].quals.cannon.text"
+        "providence-day:[28].quals.cannon.text",
+        "providence-day:[29].quals.cannon.text"
       ],
       "t": "నమోదైన కనీసం. Cannon యొక్క అత్యంత ప్రసిద్ధ క్రీడాకారుల్లో చాలామంది 2024–26 విండో వెలుపల కమిట్ అయ్యారు కాబట్టి ఇక్కడ లెక్కించబడలేదు."
     },
@@ -2406,8 +2559,8 @@
       "text": "A documented minimum: the school’s public commitment list runs through 2025, and its Class of 2026 is not yet compiled.",
       "of": "58bba487",
       "at": [
-        "providence-day:[27].quals.charlotte-christian.text",
-        "providence-day:[28].quals.charlotte-christian.text"
+        "providence-day:[28].quals.charlotte-christian.text",
+        "providence-day:[29].quals.charlotte-christian.text"
       ],
       "t": "నమోదైన కనీసం: పాఠశాల ప్రజా కమిట్‌మెంట్ జాబితా 2025 వరకు నడుస్తుంది, మరియు దాని Class of 2026 ఇంకా సంకలనం చేయబడలేదు."
     },
@@ -2415,8 +2568,8 @@
       "text": "A documented minimum. Charlotte Latin’s academically heavy classes send many athletes to Division III, and its November signing lists are partial.",
       "of": "cb967194",
       "at": [
-        "providence-day:[27].quals.charlotte-latin.text",
-        "providence-day:[28].quals.charlotte-latin.text"
+        "providence-day:[28].quals.charlotte-latin.text",
+        "providence-day:[29].quals.charlotte-latin.text"
       ],
       "t": "నమోదైన కనీసం. Charlotte Latin యొక్క విద్యాపరంగా భారీ తరగతులు చాలామంది క్రీడాకారులను Division III కి పంపుతాయి, మరియు దాని November సైనింగ్ జాబితాలు పాక్షికమైనవి."
     },
@@ -2424,8 +2577,8 @@
       "text": "A documented minimum; the Classes of 2024 and 2026 are under-documented for Davidson Day.",
       "of": "22ec0adc",
       "at": [
-        "providence-day:[27].quals.davidson-day.text",
-        "providence-day:[28].quals.davidson-day.text"
+        "providence-day:[28].quals.davidson-day.text",
+        "providence-day:[29].quals.davidson-day.text"
       ],
       "t": "నమోదైన కనీసం; Davidson Day కోసం Classes of 2024 మరియు 2026 తక్కువగా నమోదు చేయబడ్డాయి."
     },
@@ -2433,7 +2586,7 @@
       "text": "Division I commits",
       "of": "ce720efb",
       "at": [
-        "providence-day:[28].label"
+        "providence-day:[29].label"
       ],
       "t": "Division I commitments"
     },
@@ -2441,7 +2594,7 @@
       "text": "Distinct athletes committed to any NCAA Division I program, Classes of 2024–2026 (includes the Power 4 count above). Documented minimum.",
       "of": "53ecb641",
       "at": [
-        "providence-day:[28].note"
+        "providence-day:[29].note"
       ],
       "t": "ఏదైనా NCAA Division I కార్యక్రమానికి commit అయిన విభిన్న క్రీడాకారులు, 2024–2026 బ్యాచ్‌లు (పైన పేర్కొన్న Power 4 సంఖ్యతో సహా). నమోదైన కనిష్ఠ సంఖ్య."
     },
@@ -2449,7 +2602,7 @@
       "text": "26",
       "of": "8bf29659",
       "at": [
-        "providence-day:[28].values.charlotte-christian"
+        "providence-day:[29].values.charlotte-christian"
       ],
       "t": "26"
     },
@@ -2457,7 +2610,7 @@
       "text": "14",
       "of": "17eb23f8",
       "at": [
-        "providence-day:[28].values.charlotte-latin"
+        "providence-day:[29].values.charlotte-latin"
       ],
       "t": "14"
     },
@@ -2465,7 +2618,7 @@
       "text": "39",
       "of": "90f05fa1",
       "at": [
-        "providence-day:[28].values.providence-day"
+        "providence-day:[29].values.providence-day"
       ],
       "t": "39"
     }
