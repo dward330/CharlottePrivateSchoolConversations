@@ -127,12 +127,11 @@ research dossier folds in behind a structured card.
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
 | `academic-case` | Academic Case | 6/6 | 1 |
-| `acceptances-window-2023-2026` ⚠️ | Acceptances Window 2023-2026 | 4/6 | 1 |
+| `outcomes` | Placement Outcomes | 6/6 | 2 |
 | `application-support` | Application Support | 6/6 | 1 |
 | `counseling-engine` | Counseling Engine | 6/6 | 1 |
 | `fit-rank` | Fit & Rank | 6/6 | 2 |
 | `institutional-leverage` | Institutional Leverage | 6/6 | 1 |
-| `outcomes` | Placement Outcomes | 6/6 | 1 |
 | `redesign-research` | College Support Research Dossier (2026) | 6/6 | 1 |
 | `standing-out` | Standing Out | 6/6 | 1 |
 | `in-depth-report` | In-Depth Report | 3/6 | 1 |
@@ -160,14 +159,6 @@ research dossier folds in behind a structured card.
 |---|---|--:|--:|
 | `in-depth-report` | In-Depth Report | 6/6 | 2 |
 | `tuition-history` | Tuition History & Sources | 3/6 | 1 |
-
-> ⚠️ **Unmatched subtopics.** These keys were not produced by a `RULES` entry — they
-> were slugified from a raw subtopic that matched no rule, so each is effectively an
-> **unapproved card**. Either fold the phrasing onto an existing key in
-> `src/lib/metrics.ts`, or get the new card approved. `npm run check:metrics` reports
-> the same finding.
->
-> - `college-support` :: `acceptances-window-2023-2026` — "Acceptances Window 2023-2026" (4/6 schools)
 
 ## 3. Structured cards (typed layer)
 

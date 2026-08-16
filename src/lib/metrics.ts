@@ -111,6 +111,13 @@ const RULES: Record<string, Rule[]> = {
     { match: /counseling engine/i, key: 'counseling-engine', label: 'Counseling Engine' },
     { match: /fit and/i, key: 'fit-rank', label: 'Fit & Rank' },
     { match: /institutional leverage/i, key: 'institutional-leverage', label: 'Institutional Leverage' },
+    // The acceptance-window research (four schools, 2026-08-04) asked whether the
+    // published acceptance list could be re-windowed to a 2023 floor. The answer
+    // was NO for each — the schools do not publish a per-class breakdown — so the
+    // files are a negative finding kept for provenance, not new card material.
+    // They belong to the same question "Where Graduates Go" answers, hence
+    // `outcomes`. Without this they slugify into an orphan metric per school.
+    { match: /acceptances? window|acceptance-window/i, key: 'outcomes', label: 'Placement Outcomes' },
     { match: /outcomes/i, key: 'outcomes', label: 'Placement Outcomes' },
     { match: /standing out/i, key: 'standing-out', label: 'Standing Out' },
     { match: /deep research/i, key: 'in-depth-report', label: 'In-Depth Report' },
