@@ -10,8 +10,17 @@
   PDF. The 2026-27 HS Curriculum Guide is a 24-page Calaméo flipbook whose full course
   *descriptions* are JS/token-gated and NOT machine-readable; the course *catalog* (titles
   by department) was recovered char-for-char from the three corroborating sources below.
-- **Division:** High School (grades 9–12). LS/MS are **not** published as named course
-  lists (TO VERIFY none exist behind a portal).
+- **Divisions:** High School (grades 9–12) AND Middle School (grades 6–8), both published
+  as named course lists. **Lower School (K–5) is NOT** a named course list — the elementary
+  academics pages describe subject *areas* only (Bible, Math, Language Arts, Science, Social
+  Studies, Art, Spanish, Computer/STEM, Music, PE; the one grade-specific named item is
+  "Chorus (Fifth Grade)"). An ES Calaméo guide exists but its interior did not render;
+  public-facing content is subject-level, so there is nothing to transcribe as named LS
+  courses.
+- **MS correction (2026-08-16):** the first pass reported "HS only, LS/MS not published."
+  A focused re-check found the **Middle School DOES publish named courses** (a linked
+  2024-2025 MS Curriculum Guide + the on-page list below), fetched verbatim from the MS
+  curriculum page. The MS division was added to `courseOfferings.ts` after this correction.
 
 ## Source URLs
 
@@ -104,6 +113,40 @@ Mission Trip and Impact Week each year, 20 service hours/year, NC state competen
 
 GPA on a 4.0 scale. Standard = 4/3/2/1/0; Honors (weighted) = 4.5/3.5/2.5/1/0; AP
 (weighted) = 5/4/3/1/0. Grading scale A 90–100 / B 80–89 / C 70–79 / D 60–69 / F ≤59.
+
+## Middle School catalog (grades 6–8, verbatim)
+
+Source: **MS Curriculum page** `https://carmelchristian.org/apps/pages/index.jsp?uREC_ID=487132&type=d&pREC_ID=935888`
+(linked "2024-2025 MS Curriculum Guide" Calaméo at `https://www.calameo.com/read/00320361962a97fb5020d`).
+Spelling preserved exactly as published — note "Spanish 1-A" (Arabic 1) but "Spanish I-B"
+(Roman I).
+
+**Bible:** Sixth Grade · Seventh Grade · Eighth Grade (grade-level Bible; no distinct titles).
+
+**Language Arts:** Sixth / Seventh / Eighth Grade · Honors Level Courses (6-8) · Advanced
+Seminar Courses through CCS Pathways (6-8).
+
+**Math:** Math 6 · Math 6 Honors · Math 7 · Pre-Algebra · Pre-Algebra Honors · Algebra I
+Honors · Advanced Seminar Courses through CCS Pathways (6-8).
+
+**Spanish:** Foundational Spanish (6th) · Spanish 1-A (7th) · Spanish I-B (8th).
+
+**Science:** Earth Science (6th) · Life Science (7th) · Physical Science (8th).
+
+**Social Studies:** World Studies I: Development of Civilizations (6th) · World Studies II:
+Modern Era (7th) · North Carolina and American History (8th).
+
+**Physical Activity Electives:** Physical Education (6-8) · Pilates (7-8).
+
+**Arts Electives — Visual:** Art Foundations (6th) · Middle School Art (7-8) · Digital
+Photography (6-8). **Music:** Carmel Christian Choir (6-8) · Middle School Band (6-8) ·
+Ignite Praise Band (7-8). **Theatre:** Beginning Theatre (6th) · Theatre Arts (7-8) · Dance
+Foundations (6-8) · Studio Theatre (7-8).
+
+**Core Content Semester-Long Electives:** Life Skills (6th) · News and Media Production
+(6th) · Sports Science (6th) · Problem Solvers (6-8) · Study Hall (6-8) · STEM (7-8) · Food
+Traveler (7-8) · Creative Writing (7-8) · Christian Leadership (7-8) · Exploring Design
+Technology (7-8).
 
 ## De-duplication rule
 

@@ -5989,7 +5989,7 @@ const CARMEL_CHRISTIAN: CourseOfferings = {
       title: 'High School Courses',
       grades: 'GRADES 9 – 12',
       teaser:
-        '78 course titles across 9 departments — including 16 Advanced Placement courses — from the 2026-27 High School Curriculum Guide. Carmel Christian publishes named courses for the high school only.',
+        '78 course titles across 9 departments — including 16 Advanced Placement courses — from the 2026-27 High School Curriculum Guide.',
       source: 'Carmel Christian HS Course Descriptions & 2026-27 Graduation Requirements',
       sourceUrl:
         'https://carmelchristian.org/apps/pages/index.jsp?uREC_ID=487133&type=d&pREC_ID=935891',
@@ -6137,9 +6137,113 @@ const CARMEL_CHRISTIAN: CourseOfferings = {
         },
       ],
     },
-    /* NO Lower/Middle School division card: Carmel Christian publishes no named
-       course lists below grade 9, and a division with zero named courses is
-       omitted entirely rather than shipped as an empty card. */
+    {
+      title: 'Middle School Courses',
+      grades: 'GRADES 6 – 8',
+      teaser:
+        'The Middle School publishes its own named-course list — a full academic core plus an unusually broad elective slate — from the 2024-25 Middle School Curriculum Guide.',
+      source: 'Carmel Christian Middle School Curriculum',
+      sourceUrl:
+        'https://carmelchristian.org/apps/pages/index.jsp?uREC_ID=487132&type=d&pREC_ID=935888',
+      departments: [
+        {
+          name: 'Bible',
+          courses: [
+            { title: 'Sixth Grade Bible', tag: 'Gr 6', description: 'The grade-6 Bible course.' },
+            { title: 'Seventh Grade Bible', tag: 'Gr 7', description: 'The grade-7 Bible course.' },
+            { title: 'Eighth Grade Bible', tag: 'Gr 8', description: 'The grade-8 Bible course.' },
+          ],
+        },
+        {
+          name: 'Language Arts',
+          courses: [
+            { title: 'Language Arts 6', tag: 'Gr 6', description: 'The grade-6 language-arts course.' },
+            { title: 'Language Arts 7', tag: 'Gr 7', description: 'The grade-7 language-arts course.' },
+            { title: 'Language Arts 8', tag: 'Gr 8', description: 'The grade-8 language-arts course.' },
+            { title: 'Honors Level Courses', tag: 'Honors', description: 'Honors-track language arts, offered in grades 6–8.' },
+            { title: 'Advanced Seminar Courses', tag: 'CCS Pathways', description: 'Advanced-seminar language arts through CCS Pathways, grades 6–8.' },
+          ],
+        },
+        {
+          name: 'Math',
+          courses: [
+            { title: 'Math 6', tag: 'Gr 6', description: 'The grade-6 mathematics course.' },
+            { title: 'Math 6 Honors', tag: 'Honors', description: 'The honors grade-6 mathematics course.' },
+            { title: 'Math 7', tag: 'Gr 7', description: 'The grade-7 mathematics course.' },
+            { title: 'Pre-Algebra', tag: 'Gr 7–8', description: 'The pre-algebra course.' },
+            { title: 'Pre-Algebra Honors', tag: 'Honors', description: 'The honors pre-algebra course.' },
+            { title: 'Algebra I Honors', tag: 'Honors', description: 'High-school Algebra I taken for honors credit in middle school.' },
+            { title: 'Advanced Seminar Courses', tag: 'CCS Pathways', description: 'Advanced-seminar math through CCS Pathways, grades 6–8.' },
+          ],
+        },
+        {
+          name: 'Spanish',
+          courses: [
+            { title: 'Foundational Spanish', tag: 'Gr 6', description: 'The introductory middle-school Spanish course.' },
+            { title: 'Spanish 1-A', tag: 'Gr 7', description: 'The first half of the Spanish I sequence.' },
+            { title: 'Spanish I-B', tag: 'Gr 8', description: 'The second half of the Spanish I sequence.' },
+          ],
+        },
+        {
+          name: 'Science',
+          courses: [
+            { title: 'Earth Science', tag: 'Gr 6', description: 'The grade-6 science course.' },
+            { title: 'Life Science', tag: 'Gr 7', description: 'The grade-7 science course.' },
+            { title: 'Physical Science', tag: 'Gr 8', description: 'The grade-8 science course.' },
+          ],
+        },
+        {
+          name: 'Social Studies',
+          courses: [
+            { title: 'World Studies I: Development of Civilizations', tag: 'Gr 6', description: 'The grade-6 social-studies course.' },
+            { title: 'World Studies II: Modern Era', tag: 'Gr 7', description: 'The grade-7 social-studies course.' },
+            { title: 'North Carolina and American History', tag: 'Gr 8', description: 'The grade-8 social-studies course.' },
+          ],
+        },
+        {
+          name: 'Physical Activity Electives',
+          courses: [
+            { title: 'Physical Education', tag: 'Gr 6–8', description: 'Middle-school physical education.' },
+            { title: 'Pilates', tag: 'Gr 7–8', description: 'A physical-activity elective in Pilates.' },
+          ],
+        },
+        {
+          name: 'Arts Electives',
+          courses: [
+            { title: 'Art Foundations', tag: 'Gr 6', description: 'The entry visual-art elective.' },
+            { title: 'Middle School Art', tag: 'Gr 7–8', description: 'The continuing visual-art elective.' },
+            { title: 'Digital Photography', tag: 'Gr 6–8', description: 'A visual-art elective in digital photography.' },
+            { title: 'Carmel Christian Choir', tag: 'Gr 6–8', description: 'The middle-school choir.' },
+            { title: 'Middle School Band', tag: 'Gr 6–8', description: 'The middle-school band.' },
+            { title: 'Ignite Praise Band', tag: 'Gr 7–8', description: 'The audition-based chapel worship band.' },
+            { title: 'Beginning Theatre', tag: 'Gr 6', description: 'The entry theatre elective.' },
+            { title: 'Theatre Arts', tag: 'Gr 7–8', description: 'The continuing theatre elective.' },
+            { title: 'Dance Foundations', tag: 'Gr 6–8', description: 'A movement/dance elective.' },
+            { title: 'Studio Theatre', tag: 'Gr 7–8', description: 'An advanced theatre elective.' },
+          ],
+        },
+        {
+          name: 'Core Content Electives',
+          courses: [
+            { title: 'Life Skills', tag: 'Gr 6', description: 'A semester-long core-content elective.' },
+            { title: 'News and Media Production', tag: 'Gr 6', description: 'A semester-long core-content elective.' },
+            { title: 'Sports Science', tag: 'Gr 6', description: 'A semester-long core-content elective.' },
+            { title: 'Problem Solvers', tag: 'Gr 6–8', description: 'A semester-long core-content elective.' },
+            { title: 'Study Hall', tag: 'Gr 6–8', description: 'A supervised study period.' },
+            { title: 'STEM', tag: 'Gr 7–8', description: 'A semester-long STEM elective.' },
+            { title: 'Food Traveler', tag: 'Gr 7–8', description: 'A semester-long core-content elective.' },
+            { title: 'Creative Writing', tag: 'Gr 7–8', description: 'A semester-long writing elective.' },
+            { title: 'Christian Leadership', tag: 'Gr 7–8', description: 'A semester-long leadership elective.' },
+            { title: 'Exploring Design Technology', tag: 'Gr 7–8', description: 'A semester-long design-technology elective.' },
+          ],
+        },
+      ],
+    },
+    /* NO Lower School (K–5) division card: the elementary pages describe subject
+       areas only, not named courses, so there is nothing to transcribe — and a
+       division with zero named courses is omitted entirely rather than shipped
+       as an empty card. The High School and Middle School both publish named
+       course lists (added 2026-08-16 after a re-check found the MS catalog). */
   ],
 }
 
