@@ -71,6 +71,33 @@ Two more rules that outlive any single plan:
 
 See [`.claude/plans/README.md`](.claude/plans/README.md).
 
+### Adding a school — `/add-school`
+
+`/add-school` is the front door to the planning workflow when the change is **a new
+school**, rather than a new feature. It asks which school and what city/state, reads the
+generated [`DATA-SCHEMA.md`](.claude/docs/DATA-SCHEMA.md), runs a scoped web sweep, and
+reports **what percentage of each research area, structured card and Compare row we could
+actually populate** — before anyone commits to the work. If the user proceeds, it walks
+the thin research areas one at a time to decide include-or-omit, then invokes `/plan` with
+that brief, which carries on into its normal `/implement` handoff.
+
+The point is that a school with a thin public footprint yields a page of empty sections,
+which is worse than no page — and that is cheap to discover up front and expensive to
+discover at ingest time.
+
+Two boundaries make it safe to run speculatively: it **writes no `source-material/`**
+(unlike `/plan`) because a sweep sized for percentages produces indicative figures, not the
+vetted record — the real deep research happens in `/implement`, and only the **URLs** carry
+forward; and it edits no app code. Coverage percentages are always reported as estimates.
+
+Omission is expressed as **absence of data, never as a conditional in a component**: a
+topic with no `source-material/` folder does not render, and a structured card whose
+optional field is left off its `src/data/<dir>/<slug>.ts` does not render. Adding a school
+needs no UX approval (§6 of the schema doc — it is automatic everywhere); material that
+fits **no existing card** is a new card and still does.
+
+See [`.claude/skills/add-school/SKILL.md`](.claude/skills/add-school/SKILL.md).
+
 ## UX-design standard (required)
 
 **Ingestion and research work enrich data only — they must never change the web app's UX
