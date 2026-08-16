@@ -7,7 +7,9 @@ _Placeholder description — more detail to be added as the project develops._
 
 ## Working folders
 
-- `.claude/docs/` — reference material and notes (e.g. markdown converted from source files)
+- `.claude/docs/` — reference material and notes (e.g. markdown converted from source files),
+  including the generated [`DATA-SCHEMA.md`](.claude/docs/DATA-SCHEMA.md) catalog of every
+  level of school data the app presents (see the data-schema standard below)
 - `.claude/skills/` — reusable skills
 - `.claude/commands/` — slash commands
 - `.claude/plans/` — implementation plans (one `.md` per feature) plus `INDEX.md`
@@ -410,6 +412,41 @@ check because they were pure render-layer: pre-rendered English markup flashing 
 non-English readers (fixed by hiding `<body>` pre-paint — measure `visibility`, NOT the
 DOM, which transitions identically either way), and page-view URLs fragmenting Cloudflare's
 dashboard. See `.claude/plans/seo.md` and the memory notes for both.
+
+## Data-schema standard (required)
+
+[`.claude/docs/DATA-SCHEMA.md`](.claude/docs/DATA-SCHEMA.md) is the standing catalog of
+**every level and category of school data the app presents** — the schools × research-area
+grid, the prose card keys within each area, the typed structured cards, the Compare rows,
+and the standalone catalogs. Read it to answer "what do we hold on a school, and where does
+it live?" without spelunking `src/data/`.
+
+**It is GENERATED — never hand-edit it.** `scripts/gen_data_schema.mjs` derives every
+number, key and label by reading the live modules (`schools.json`, `metrics.ts`, the six
+`*Program.ts` card registries, `metricValues.ts`). A hand-written schema doc is stale the
+first time someone adds a metric, and nothing tells you it went stale; generating it is
+what makes "always up to date" true rather than aspirational.
+
+- `npm run schema` — regenerate after touching any data layer.
+- `npm run check:schema` — fails if the doc has drifted. **Chained into `npm run build`**,
+  so a new research area, card, or Compare row cannot ship with the doc left behind.
+
+Two things worth knowing before editing the generator:
+
+- **The six `*Program.ts` modules cannot be imported under Node.** Each calls
+  `import.meta.glob` at module scope for its locale overlays — a Vite compile-time
+  transform that throws in plain Node, and one the modules deliberately do not guard
+  (a runtime guard survives into the bundle and silently kills every overlay). The
+  generator therefore *parses* those card registries out of source rather than importing
+  them. `metricValues.ts` and `metrics.ts` import fine and are imported.
+- **The doc flags ⚠️ on unmatched subtopics** — keys that no `RULES` entry produced, which
+  slugified into a card by accident. That is the same finding `npm run check:metrics`
+  reports, surfaced where the card list is read. As of 2026-08-15 one is outstanding:
+  `college-support :: acceptances-window-2023-2026`.
+
+The doc records what the app *presents*. It is not a substitute for the UX-approval gate —
+if a new row appears in it that nobody approved, that is the gate being bypassed, not the
+schema growing.
 
 ## Data-provenance standard (required)
 

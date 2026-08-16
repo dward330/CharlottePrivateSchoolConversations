@@ -143,6 +143,22 @@ python scripts/build_site_content.py   # regenerates src/content/ from .claude/d
    ingest, since `src/data/**` is hand-authored — see
    `.claude/docs/prose-translation-architecture.md`.
 
+5c. **Regenerate the data-schema catalog:**
+
+   ```bash
+   npm run schema
+   ```
+
+   `.claude/docs/DATA-SCHEMA.md` is the standing catalog of every level of school data the
+   app presents — the school × research-area grid, prose card keys, structured cards and
+   Compare rows. It is **generated from the live modules**, so an ingest that adds a school,
+   a topic, or new subtopic phrasings changes it. Commit the regenerated file alongside the
+   rest; `npm run check:schema` fails the build if it is left behind.
+
+   Its ⚠️ markers are the same unmatched-subtopic finding step 5 reports, shown against the
+   card list. A **new** ⚠️ row means the ingest just created a card nobody approved — treat
+   it as step 6's UX gate firing, not as a doc to regenerate past.
+
 6. **Check the diff for UX changes before committing.** The result should be data only —
    notes, content JSON, manifest, values, report fields. If the work would add or reorder a
    card/section/tile/Compare row, or touch a component or style, stop: that needs the
