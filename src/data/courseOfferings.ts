@@ -67,6 +67,11 @@ export type Division = {
    * Set when the school publishes subject areas rather than named courses for
    * this division. Rendered as an honest note above the list so a parent knows
    * the granularity is the school's choice, not missing research.
+   *
+   * This note rides ABOVE a real course list — a division with ZERO named
+   * courses gets no card at all (omit the division from `divisions`), never an
+   * empty card carrying only this note. The scope note belongs on a sibling
+   * division's teaser instead. (Standing rule, 2026-08-16.)
    */
   notPublished?: string
   departments: Department[]
@@ -5267,17 +5272,10 @@ const COVENANT_DAY: CourseOfferings = {
         },
       ],
     },
-    {
-      title: 'Lower & Middle School',
-      grades: 'GRADES JK – 8',
-      teaser:
-        'Covenant Day publishes no named course lists below grade 9 — the Lower and Middle School academics pages describe competencies and programs instead.',
-      source: 'covenantday.org — Academics (lower-school / middle-school pages)',
-      sourceUrl: 'https://www.covenantday.org/academics',
-      notPublished:
-        'The school describes its JK-8 program by competencies (with general music JK-4, intro to choir and band in grade 5, and MS ensembles and drama from grade 6) rather than publishing a named course catalog — so there is no list to transcribe, and that is the school’s own granularity choice.',
-      departments: [],
-    },
+    /* NO Lower/Middle School division card: the school publishes zero named
+       courses below grade 9 (the JK-8 pages describe competencies), and a
+       division with no courses is omitted entirely rather than shipped as an
+       empty card — the HS card's teaser carries the scope note instead. */
   ],
 }
 
