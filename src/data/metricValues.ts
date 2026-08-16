@@ -119,6 +119,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': '119', // line-by-line count of the Total Index of Courses by Department (p.8)
       'charlotte-latin': '129', // counted from the live Upper School course-offerings page
       'covenant-day': '80', // level-qualified entries in the 2026-27 HS Profile matrix (~65 distinct titles)
+      'carmel-christian': '~78', // HS catalog across 9 depts (S2/S3/S4); levels counted separately
       'davidson-day': '~75', // 74 described + AP Spanish Literature listed without a description; 66 on the 2026-27 offerings grid
       'providence-day': '149', // distinct entries; multi-year language sequences counted once per track
     },
@@ -139,6 +140,10 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'scope',
         text: 'Distinct course entries, with multi-year language sequences counted once per track rather than once per level.',
       },
+      'carmel-christian': {
+        kind: 'scope',
+        text: 'High-school catalog only; the school publishes no named lower- or middle-school course lists. A subject taught at Standard, Honors and AP is counted as separate titles, matching how the school lists them.',
+      },
     },
   },
   {
@@ -157,6 +162,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': '23 AP + 18 IB', // plus the IB core (Theory of Knowledge, Extended Essay, CAS)
       'charlotte-latin': '22 AP subjects', // the school's stated figure; 23 AP-titled entries appear on the course page
       'covenant-day': '15 AP', // the 2026-27 HS Profile matrix's AP column; earlier editions ran up to 18
+      'carmel-christian': '16', // 16 AP courses (landing page; profile says 15, +AP World History → 16)
       'davidson-day': '26 AP', // the catalog's explicit AP list (p.11)
       'providence-day': '28 AP', // 28 AP courses described; catalog prose names 27 subject areas
     },
@@ -194,6 +200,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': '9', // 7 core academic plus Non-Departmental and Physical Education
       'charlotte-latin': '13', // department headings on the course-offerings page
       'covenant-day': '9', // 8 matrix disciplines + Bible (3-unit grad requirement, no matrix row)
+      'carmel-christian': '9', // Bible, English, Math, Science, Social Studies, World Lang, Health & Fitness, Arts, Electives
       'davidson-day': '9', // per the catalog contents (pp. 4-6)
       'providence-day': '11', // catalog sections, incl. both IDEAS@PDS strands
     },
@@ -212,6 +219,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': '93%', // 2025 overall 93%
       'charlotte-latin': null, // pass rate not published
       'covenant-day': '96%', // 2026: 96% of 401 exams scored 3+; 5-yr series 84/93/92/96/96
+      'carmel-christian': '73%', // seniors scoring 3+ on ≥1 AP exam; Platinum AP Honor Roll (2023, to verify)
       'davidson-day': null, // pass rate not published
       'providence-day': '94%', // May 2025: 94% scored 3+
     },
@@ -221,6 +229,10 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-christian': { kind: 'scope', text: '89% of AP exams scored 3 or higher in 2024 (265 of 298). A score of 3+ is the level most colleges treat as a passing result.' },
       'charlotte-country-day': { kind: 'scope', text: '93% of AP exams scored 3 or higher overall in 2025. A score of 3+ is the level most colleges treat as a passing result.' },
       'providence-day': { kind: 'scope', text: '94% of AP exams scored 3 or higher in May 2025. A score of 3+ is the level most colleges treat as a passing result.' },
+      'carmel-christian': {
+        kind: 'scope',
+        text: 'Share of seniors scoring 3 or higher on at least one AP exam, from the AP School Honor Roll (Platinum). The year is not stated on the school’s article; its metadata places it at the 2023 exams.',
+      },
     },
   },
   {
@@ -238,6 +250,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': '7 / 8', // buckets, collegeSupportPrograms/charlotte-country-day.ts
       'charlotte-latin': '5 / 8', // buckets, collegeSupportPrograms/charlotte-latin.ts
       'covenant-day': '2 / 8', // Dartmouth, Penn — both bold (matriculated) on the 2023-2026 list
+      'carmel-christian': '1 / 8', // Princeton only
       'davidson-day': '3 / 8', // buckets, collegeSupportPrograms/davidson-day.ts
       'providence-day': '8 / 8', // buckets, collegeSupportPrograms/providence-day.ts
     },
@@ -249,6 +262,10 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': { kind: 'scope', text: '2 of the 8 Ivy League universities appear on Covenant Day’s published 2023–2026 acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
       'davidson-day': { kind: 'scope', text: '3 of the 8 Ivy League universities appear on Davidson Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
       'providence-day': { kind: 'scope', text: '8 of the 8 Ivy League universities appear on Providence Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+      'carmel-christian': {
+        kind: 'fraction',
+        text: 'One of the eight Ivy League universities (Princeton) appears on the school’s cumulative acceptance list.',
+      },
     },
   },
   {
@@ -266,6 +283,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': '13 / 17', // buckets, collegeSupportPrograms/charlotte-country-day.ts
       'charlotte-latin': '12 / 17', // buckets, collegeSupportPrograms/charlotte-latin.ts
       'covenant-day': '3 / 17', // Dartmouth, Penn + Duke, all bold (matriculated)
+      'carmel-christian': '2 / 12', // Princeton, Duke
       'davidson-day': '8 / 17', // buckets, collegeSupportPrograms/davidson-day.ts
       'providence-day': '17 / 17', // buckets, collegeSupportPrograms/providence-day.ts
     },
@@ -277,6 +295,10 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': { kind: 'scope', text: '3 of the 17 “Ivy Plus” institutions appear on Covenant Day’s published 2023–2026 acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
       'davidson-day': { kind: 'scope', text: '8 of the 17 “Ivy Plus” institutions appear on Davidson Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
       'providence-day': { kind: 'scope', text: '17 of the 17 “Ivy Plus” institutions appear on Providence Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+      'carmel-christian': {
+        kind: 'fraction',
+        text: 'Two of the twelve “Ivy Plus” schools (Princeton, Duke) appear on the acceptance list.',
+      },
     },
   },
   {
@@ -294,6 +316,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': '55 / 75', // buckets, collegeSupportPrograms/charlotte-country-day.ts
       'charlotte-latin': '53 / 75', // buckets, collegeSupportPrograms/charlotte-latin.ts
       'covenant-day': '40 / 75', // worked classification in the Redesign Research 2026 dossier
+      'carmel-christian': '~27', // US News Top-75 National Universities on the acceptance list; several near the line
       'davidson-day': '44 / 75', // buckets, collegeSupportPrograms/davidson-day.ts
       'providence-day': '58 / 75', // buckets, collegeSupportPrograms/providence-day.ts
     },
@@ -305,6 +328,10 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': { kind: 'scope', text: '40 of the top 75 National Universities appear on Covenant Day’s published 2023–2026 acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
       'davidson-day': { kind: 'scope', text: '44 of the top 75 National Universities appear on Davidson Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
       'providence-day': { kind: 'scope', text: '58 of the top 75 National Universities appear on Providence Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+      'carmel-christian': {
+        kind: 'minimum',
+        text: 'A count of US News Top-75 National Universities named on the school’s cumulative acceptance list, which states no year window. Several schools sit near the current-year ranking cut.',
+      },
     },
   },
   {
@@ -322,6 +349,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': '41 / 75', // buckets, collegeSupportPrograms/charlotte-country-day.ts
       'charlotte-latin': '40 / 75', // buckets, collegeSupportPrograms/charlotte-latin.ts
       'covenant-day': '9 / 75', // Davidson, Furman, Macalester, Rhodes, Sewanee, Richmond, USAFA, Wofford, Gettysburg
+      'carmel-christian': '~10', // US News Top-75 Liberal Arts Colleges on the acceptance list
       'davidson-day': '26 / 75', // buckets, collegeSupportPrograms/davidson-day.ts
       'providence-day': '43 / 75', // buckets, collegeSupportPrograms/providence-day.ts
     },
@@ -333,6 +361,10 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': { kind: 'scope', text: '9 of the top 75 Liberal Arts Colleges appear on Covenant Day’s published 2023–2026 acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
       'davidson-day': { kind: 'scope', text: '26 of the top 75 Liberal Arts Colleges appear on Davidson Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
       'providence-day': { kind: 'scope', text: '43 of the top 75 Liberal Arts Colleges appear on Providence Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+      'carmel-christian': {
+        kind: 'minimum',
+        text: 'US News Top-75 Liberal Arts Colleges named on the cumulative acceptance list; a couple sit near the ranking cut.',
+      },
     },
   },
   {
@@ -350,6 +382,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': '53 / 68', // buckets, collegeSupportPrograms/charlotte-country-day.ts
       'charlotte-latin': '53 / 68', // buckets, collegeSupportPrograms/charlotte-latin.ts (researcher’s exact count was 62; table shows 53 / 68)
       'covenant-day': '46 / 68', // ACC 14 · SEC 12 · Big Ten 11 · Big 12 9 (worked in the dossier)
+      'carmel-christian': '~38 / 68', // Power Four members on the acceptance list (denominator 68 incl. Notre Dame)
       'davidson-day': '42 / 68', // buckets, collegeSupportPrograms/davidson-day.ts
       'providence-day': '57 / 68', // buckets, collegeSupportPrograms/providence-day.ts
     },
@@ -364,6 +397,10 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': { kind: 'scope', text: '46 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Covenant Day’s published 2023–2026 acceptance list — 14 ACC, 12 SEC, 11 Big Ten, 9 Big 12. Not a figure the school reports itself.' },
       'davidson-day': { kind: 'scope', text: '42 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Davidson Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
       'providence-day': { kind: 'scope', text: '57 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Providence Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+      'carmel-christian': {
+        kind: 'fraction',
+        text: 'Power Four members (of 68, including Notre Dame) named on the cumulative acceptance list. The list states no year window and marks no matriculations.',
+      },
     },
   },
   {
@@ -381,6 +418,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': '18 / 107', // buckets, collegeSupportPrograms/charlotte-country-day.ts
       'charlotte-latin': '6 / 107', // buckets, collegeSupportPrograms/charlotte-latin.ts
       'covenant-day': '3 / 107', // Fayetteville State, Johnson C. Smith, NC A&T (NC A&T bold/matriculated)
+      'carmel-christian': '8', // Hampton, Howard, NC A&T, NC Central, Norfolk State, SC State, WSSU, FAMU
       'davidson-day': '3 / 107', // buckets, collegeSupportPrograms/davidson-day.ts
       'providence-day': '14 / 107', // buckets, collegeSupportPrograms/providence-day.ts
     },
@@ -392,6 +430,10 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': { kind: 'scope', text: '3 of the 107 Historically Black Colleges & Universities appear on Covenant Day’s published 2023–2026 acceptance list — Fayetteville State, Johnson C. Smith, and NC A&T. Not a figure the school reports itself.' },
       'davidson-day': { kind: 'scope', text: '3 of the 107 Historically Black Colleges & Universities appear on Davidson Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
       'providence-day': { kind: 'scope', text: '14 of the 107 Historically Black Colleges & Universities appear on Providence Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
+      'carmel-christian': {
+        kind: 'scope',
+        text: 'Historically Black colleges and universities named on the acceptance list.',
+      },
     },
   },
   {
@@ -408,6 +450,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': '~34:1', // ~34–35 seniors/counselor
       'charlotte-latin': '~36:1', // ~36–37 seniors/counselor
       'covenant-day': '85:1', // 85 seniors ÷ 1 dedicated Guidance & College Counseling Director
+      'carmel-christian': null, // seniors-per-counselor not published
       'davidson-day': '~23:1', // ~23–24 seniors in a ~47-student class
       'providence-day': '~44:1', // ~44–45 seniors/counselor (quarter-class model)
     },
@@ -438,6 +481,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': '$34,075', // Grades 9–12, 2026–27
       'charlotte-latin': '$36,500', // Grades 9–12, 2026–27
       'covenant-day': '$22,790', // Grades 9–12, 2026–27 (website table; the 2025-26 terms PDF shows $21,590)
+      'carmel-christian': '$18,750', // Grades 9–12, 2026-27 (+$550 tech 9th, +$200 senior fee)
       'davidson-day': '$26,910', // Upper School 9–12, 2026–27
       'providence-day': '$36,325', // Grades 6–12, 2026–27
     },
@@ -459,6 +503,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': '~20%', // ~20% of student body (undated)
       'charlotte-latin': '14%', // 14% of students (strategic plan)
       'covenant-day': '~20%', // third-party only (PrivateSchoolReview, schooltuitions.org); school publishes no share
+      'carmel-christian': '20%', // third-party (PrivateSchoolReview), not school-confirmed
       'davidson-day': null, // share on aid not published
       'providence-day': '~21%', // ~21% of families (undated)
     },
@@ -496,6 +541,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': null, // four conflicting undated totals — omitted to avoid a guess
       'charlotte-latin': '$3.25M', // $3.25M, 2024–25
       'covenant-day': null, // structural dead end: a church ministry exempt from Form 990 — no filing exists to find
+      'carmel-christian': null, // not published (school is church-exempt, files no 990)
       'davidson-day': null, // aid budget not published
       'providence-day': '$3.68M', // $3,683,971 (2017–18, most recent published)
     },
@@ -525,6 +571,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': null, // average/median not published
       'charlotte-latin': '$17,900', // average award, 2024–25
       'covenant-day': null, // not published, and no Form 990 exists to derive one from
+      'carmel-christian': null, // not published
       'davidson-day': null, // average/median not published
       'providence-day': '$13,695', // average grant (2017–18, most recent published)
     },
@@ -558,6 +605,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': 'JK–12',
       'charlotte-latin': 'TK–12',
       'covenant-day': 'JK–12',
+      'carmel-christian': 'K–12', // arts integrated K-4, sequential from grade 5
       'davidson-day': 'Age 2–Gr 12',
       'providence-day': 'TK–12',
     },
@@ -590,6 +638,10 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'scope',
         text: 'Arts are offered from Transitional Kindergarten (TK) through grade 12.',
       },
+      'carmel-christian': {
+        kind: 'range',
+        text: 'Arts run K–12: integrated music and art in grades K–4, becoming sequential and elective from grade 5 up.',
+      },
     },
   },
   {
@@ -608,6 +660,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': '31+ Blumey noms', // 31+ Blumey Award nominations
       'charlotte-latin': '80%+ participation', // 80%+ of students participate in the arts
       'covenant-day': '2 Blumey wins', // Best Featured Performer 2013 + Student Critic Award 2016; 8 recognitions 2013-2019
+      'carmel-christian': '2026 Blumey — Best Actress', // Anna Jernigan, Footloose; advances to the Jimmy Awards
       'davidson-day': null, // no signature recognition named
       'providence-day': 'Blumey recognition', // repeated Blumey Awards recognition
     },
@@ -636,6 +689,10 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'scope',
         text: 'Repeated recognition at the Blumey Awards, the Charlotte region’s high-school musical-theatre awards.',
       },
+      'carmel-christian': {
+        kind: 'scope',
+        text: 'The 2026 Blumey Award for Best Actress — Anna Jernigan, for Footloose. The winner advances to the national Jimmy Awards.',
+      },
     },
   },
   {
@@ -649,6 +706,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': 'AP + IB', // AP and IB arts pathways (rare dual offering)
       'charlotte-latin': null, // not detailed
       'covenant-day': 'AP Studio Art', // + Honors Studio Art and Honors Auditioned Theatre
+      'carmel-christian': '3', // AP 2-D Art & Design, Honors Art III, Honors Art IV (curriculum guide)
       'davidson-day': null, // not detailed
       'providence-day': '3 AP arts', // AP Studio Art, AP Art History, AP Music Theory
     },
@@ -682,6 +740,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': '8 ensembles', // 8 vocal/instrumental groups
       'charlotte-latin': null, // no count stated
       'covenant-day': '9 ensembles', // Children's Choir, MS Band/Choir/Worship, Symphonic Band, HS Choir/Worship/A Cappella + gr.5 intro
+      'carmel-christian': '3', // Symphonic Band, Choir, Ignite Band
       'davidson-day': null, // no count stated
       'providence-day': '4 ensembles', // Band, Orchestra, Chorus, Jazz
     },
@@ -733,6 +792,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': '~45–50', // school publishes a range; only 7 confirmed by name
       'charlotte-latin': '25', // exact, in-scope US clubs across six interest areas
       'covenant-day': '≥14', // documented floor; school publishes no roster, third-party 27-item list filtered for division/type
+      'carmel-christian': '~5', // standing HS bodies: NHS, Beta, Spanish Honor Society, Student Council, Timothy Project
       'davidson-day': '≥9', // confirmed clubs only; no US roster published
       'providence-day': '77', // official 25–26 US list, 5 arts clubs excluded
     },
@@ -762,6 +822,10 @@ export const VALUE_METRICS: ValueMetric[] = [
         text: 'Taken from the school’s official 2025–26 Upper School club list, with 5 arts clubs excluded for a clean count — the deepest slate in the set.',
       },
       // charlotte-latin deliberately absent — exact in-scope count, no caveat
+      'carmel-christian': {
+        kind: 'minimum',
+        text: 'Standing high-school student organizations: National Honor Society, National Beta Club, Spanish Honor Society, Student Council, and the Timothy Project. Clubs are otherwise student-initiated by application, so no fixed roster is published.',
+      },
     },
   },
   {
@@ -781,6 +845,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': 'Model UN — 6 awards', // MUNCH 2025: 6 awards incl. 4 Outstanding Delegate
       'charlotte-latin': 'Debate top-20 US', // NSDA Schools of Excellence — top 20 nationally
       'covenant-day': 'Mock Trial art 2nd NC', // courtroom artist: regional champion, 2025 state runner-up
+      'carmel-christian': '2022 NCISAA 4A basketball title', // def. Greensboro Day 71-66 (Cade Tyson 31 pts)
       'davidson-day': 'Battle of Books 1st', // MS team 1st in regional competition
       'providence-day': 'DECA → ICDC ’26', // DECA advanced to national ICDC 2026
     },
@@ -813,6 +878,10 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'scope',
         text: 'The DECA business team advanced to the national International Career Development Conference (ICDC) in 2026.',
       },
+      'carmel-christian': {
+        kind: 'scope',
+        text: 'The 2022 NCISAA 4A boys basketball state title (def. Greensboro Day 71–66; Cade Tyson scored 31). The girls soccer team reached the 2026 4A final as runner-up.',
+      },
     },
   },
   {
@@ -829,6 +898,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       cannon: '~10k service hrs', // ~10,000 service hours/year (Upper School)
       'charlotte-christian': null, // no participation figure published
       'covenant-day': null, // no club-participation figure published (the school's 82% figure is athletics)
+      'carmel-christian': null, // no club-participation rate published
       'charlotte-country-day': '~50% mentor weekly', // ~half of juniors/seniors mentor weekly
       'charlotte-latin': '~90% play a sport', // ~90% in grades 7–12 play a sanctioned sport
       'davidson-day': null, // no participation figure published
@@ -864,6 +934,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': '6:00 PM', // "Structured Care to 6 pm"
       'charlotte-latin': '6:00 PM', // Hawks’ Club, 1:30–6:00 p.m.
       'covenant-day': '6:00 PM', // Extended Day, JK-8, last session 4:30–6:00 p.m.
+      'carmel-christian': '6:00 PM', // After School / After YCC 3:00–6:00 PM
       'davidson-day': '6:00 PM', // Extended Care, 2:45–6:00 p.m.
       cannon: '6:00 PM', // After School Program, 3:00–6:00 p.m. on regular days
       // These two remain null because no single hour is honest for the whole school:
@@ -897,6 +968,10 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'scope',
         text: 'The Lower School’s Extended Care runs 2:45–6:00 p.m. Confirm current hours with the school.',
       },
+      'carmel-christian': {
+        kind: 'official',
+        text: 'After School / After YCC care runs 3:00–6:00 PM; 6:00 PM is the latest published pickup.',
+      },
     },
   },
 
@@ -927,6 +1002,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': '$900/mo', // JK · 6:00 p.m. tier · 5 days/wk, 2026-27
       'charlotte-latin': '≈$930/mo', // $4,650/sem × 2 ÷ 10 — Latin publishes the SEMESTER figure only
       'covenant-day': '$744/mo', // JK/K to 6:00 p.m. = 3 stacked sessions × $248/mo, 5 days/wk
+      'carmel-christian': '$245/mo', // After School / After YCC 5-day to 6:00 p.m., 2026-27
       'davidson-day': null, // publishes no extended-care pricing — its Extended Care page 404s
       'providence-day': '$750/mo', // TK · 1–6 p.m. tier · 5 days/wk, 2026-27
     },
@@ -939,6 +1015,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': '≈$9,000/yr', // $900 × 10
       'charlotte-latin': '$9,300/yr', // $4,650 × 2 semesters, as published
       'covenant-day': '$6,696/yr', // the school's own "for 10 Months" annual table, 3 sessions × 5 days
+      'carmel-christian': '≈$2,205/yr', // $245 × 9 published billing months
       'providence-day': '≈$7,500/yr', // $750 × 10
     },
     quals: {
@@ -961,6 +1038,10 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': {
         kind: 'scope',
         text: 'Covenant Day prices per 1.5-hour session ($248/month for five days a week): a JK/K child dismissed at 1:30 p.m. needs all three sessions to reach 6:00, i.e. $744/month. The yearly figure is the school’s own "for 10 Months" table ($6,696), cheaper than 10× the monthly rate because August and December bill at half. Grades 1–8 dismiss around 3:00 and need only two sessions ($496/month); before-care from 7:30 a.m. is free.',
+      },
+      'carmel-christian': {
+        kind: 'scope',
+        text: 'Carmel Christian publishes one flat After School / After YCC rate — $245/month for five days a week, 3:00–6:00 p.m. — the same for every grade, unlike the tiered-by-grade schools beside it. The yearly total spreads it over the nine billing months the handbook states; before-care from 7:30 a.m. is $110/month, and there is a $30/day drop-in.',
       },
       'providence-day': {
         kind: 'scope',
@@ -997,6 +1078,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': '8', // June 1 – July 24, incl. the June 1-5 "Pre-Camp" week
       'charlotte-latin': '7', // June 8 – July 31, no camps June 29 – July 4
       'covenant-day': '8', // June 1 – July 31, the week of June 29 off
+      'carmel-christian': '6', // Jun 8–Jul 23 2026; weeks 2 & 3 are 3-day
       'davidson-day': null, // publishes no summer program — see the negative-finding note
       'providence-day': '9', // June 1 – July 31, the longest season of the five
     },
@@ -1026,6 +1108,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': '132', // session-level rows; ~85 distinct titles
       'charlotte-latin': '232', // camp offerings; 169 unique titles
       'covenant-day': '20', // distinct camps named on the public 2026 page; school markets "29 camps"
+      'carmel-christian': '36', // named camps across the 6 weeks
       'davidson-day': null,
       'providence-day': '170', // priced brochure rows; 151 distinct names
     },
@@ -1074,6 +1157,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': 'Age 4–Grade 12', // listing bands run Age 4 to Grade 12
       'charlotte-latin': '3.5–18', // "open to all campers ages 3.5 - 18 years old"
       'covenant-day': 'JK–Grade 12', // rising grades, Little Lion/Cub Camp at the bottom to HS strength & college camps
+      'carmel-christian': 'rising K–8', // Summer Adventures
       'davidson-day': null,
       'providence-day': '4–18', // four by January 1, 2026; About page says 4.5 to 18
     },
@@ -1102,6 +1186,10 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'scope',
         text: 'Grades are rising grades for the coming school year, from Little Lion/Cub Camp at the bottom through high-school strength-and-conditioning and college-admissions camps. Camps are open to the community.',
       },
+      'carmel-christian': {
+        kind: 'range',
+        text: 'Summer Adventures serves rising kindergarten through rising 8th grade; individual camps carry narrower bands.',
+      },
     },
   },
   {
@@ -1118,6 +1206,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': '7:30 AM–5:00 PM', // Morning Care 7:30, Afternoon Care ends 5
       'charlotte-latin': '7:30 AM–5:30 PM', // Before Care 7:30–8:15, After Care to 5:30
       'covenant-day': '7:30 AM–5:30 PM', // Before Care 7:30–8:45, After Care 4:00–5:30
+      'carmel-christian': '12–1 PM', // After Camp Lunch Hour add-on only; no before/after camp care
       'davidson-day': null,
       'providence-day': '7:00 AM–6:00 PM', // Before Care from 7, After Care to 6 — the widest span
     },
@@ -1146,6 +1235,10 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'scope',
         text: 'A ten-hour span for TK–8: Before Care 7:30–8:45 am at $50/week and After Care 4:00–5:30 pm at $50/week, with $30/week Lunch Care bridging noon–1 pm. Camp Lion (Full Day) and Cub Camp include all three at no extra cost.',
       },
+      'carmel-christian': {
+        kind: 'scope',
+        text: 'Wrap-around care is limited to the 12–1 PM After Camp Lunch Hour add-on; no before-camp or full-day care is published.',
+      },
     },
   },
 
@@ -1173,6 +1266,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': '9', // ’24: Klein, Lewis, Stajos, McDonald · ’25: Scott, Pifer · ’26: T.Klein, Alzate-Celin, Mallard
       'charlotte-latin': '3', // ’24 Salvage (South Carolina) · ’25 Clontz (Cal) · ’26 Lee (NC State)
       'covenant-day': '1', // ’24 Eaton (Louisville, ACC — field hockey)
+      'carmel-christian': '0', // no Power 4 commit 2024–26; top prospects took mid-majors
       'davidson-day': '3', // ’25 Denis (UNC), Gordon (Georgia) · ’26 Stevens (Clemson)
       'providence-day': '17', // school "Alumni at the Next Level" roster, 2024–26 (17 P4 tally)
     },
@@ -1210,6 +1304,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': '25', // ’24: 10 · ’25: 12 · ’26: 3
       'charlotte-latin': '14', // ’24: Coppage, Floyd, Salvage (3) · ’25: Booker, Clontz, Connor, Milligan, Morgan (5) · ’26: Short, K.Smith, Lee, Holland, Gorelick, Cheatwood (6)
       'covenant-day': '9', // ’24: Eaton, Marcus (2) · ’25: Huitt, Dirks, Gardner, Stanley (4) · ’26: Neil, Welsh, Houseton (3)
+      'carmel-christian': '5', // K.Taylor (UNCA ’24), Slay (Marshall ’25), Bowman (UNCG ’25), Buzzard (Coastal Carolina ’26), Johnson (UNCA ’26) — all basketball
       'davidson-day': '9', // ’24: M.Smith · ’25: Denis, Doty, Glass, Gordon, Seifert, K.Smith · ’26: Stevens, Peck (2024 & 2026 under-documented — floor)
       'providence-day': '39', // school roster D1 tally, 2024–26
     },
