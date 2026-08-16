@@ -453,13 +453,40 @@ implementing window would otherwise get wrong:
   | `scripts/check_chrome_keys.mjs:36,49` | `SLUGS` + `EXPORTS` map |
   | `scripts/i18n_audit_skips.mjs:36,49` | `SLUGS` + `EXPORTS` map |
   | `scripts/check_live_resolution.mjs:51` | `EXPORTS` map |
-  | `scripts/i18n_fields.mjs:334` | per-slug `values.<slug>` / `subs.<slug>` paths |
+  | `scripts/i18n_fields.mjs:334` | per-slug `values.<slug>` / `subs.<slug>` / `quals.<slug>.kind` paths |
 
   The repo has been bitten by exactly this shape before — `check_translations.mjs:53`
   records that Summer Programs "was invisible here until it was added, at 0% coverage."
   Treat a 100% coverage report on the new school as **suspect until you confirm its slug
   is in every list above**. Verify by checking that the new school's strings actually
   appear in the extracted work files, not by trusting a green run.
+
+  **A data-rich school surfaces NEW field paths the extractor cannot classify — expect
+  a round of `i18n_fields.mjs` edits, and one specific trap.** `i18n_extract.mjs` reports
+  any field path that is neither in `PROSE_KEYS` nor `SKIP_KEYS` as *unclassified* and
+  excludes it — so a school that populates a card field no prior school used (Covenant Day
+  hit `compareAs`, `questionsTitle`, and the transcript-card `meritTitle`/`depthTitle`/
+  `trustTitle`) needs each decided: enum/code → skip, per-school heading → prose. **The
+  trap is the opposite direction:** a per-school entry that sets a *lifted chrome heading*
+  (`rosterTitle`, `checklistTitle`, `adjacentTitle`, … — the `xTitle`-style fields whose
+  translated fallback lives in `sections.*` of the locale catalogs) **pins that heading to
+  English in all ten locales**. Covenant Day shipped seven of these; they had to be deleted
+  from the data so the translated fallback wins. Rule of thumb: if a heading is the same
+  for every school, it is chrome — leave it *off* the data file. Keep an `xTitle` only when
+  the heading genuinely varies per school. See the "App-layer checklist" in the
+  `ingest-source-material` skill for the same rule stated for ingest.
+
+  **`check:live` is a KNOWN-INCOMPLETE check — do not treat its failures as a Phase-2
+  regression, and do not expect adding the slug to make it authoritative.** It fails on
+  `main` itself (≈2,900 entries) because it can only walk the **six per-school-directory
+  topics** in its own `TOPICS` map; it structurally cannot see `course-offerings`,
+  `metric-values`, `financial-aid-report`, or the standalone club **catalog/cluster**
+  modules, so overlay entries for those always read "unresolvable" for *every* school.
+  Adding the slug to its `EXPORTS` only helps the six topics it does cover. **`npm run
+  check:runtime` is the authoritative resolution guard** — it uses the real runtime
+  accessors and must pass for every locale; run it per locale and trust it over
+  `check:live`. (Confirming `check:live`'s delta is entirely pre-existing cost a full
+  investigation cycle on the Covenant Day rollout — this note is that cycle, banked.)
 - **The UX gate.** Adding a school needs **no** UX approval — per §6 of the schema doc it
   is automatic everywhere. But if the sweep found material that fits **no existing card**,
   that is a new card and needs the user's approval *before* `/implement` runs. Surface it
