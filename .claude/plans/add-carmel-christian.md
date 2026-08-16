@@ -698,6 +698,18 @@ unreviewed Carmel English build). Carmel's own identical labels are committed on
 this branch (8edfd05). See memory `rank-labels-inclusive-shipped` — note the
 merge-time reconciliation (take main's version of the 7 existing-school files).
 
+**Rankings architecture changed after this plan was written (PR #138, merged +
+DEPLOYED): rank labels are now a SINGLE-SOURCE master `src/data/collegeRankings.ts`,
+resolved by `rankLabelFor(name)` at render.** The per-school acceptance lists on
+`main` no longer store `rankLabel` at all. **This supersedes the inline-rankLabel
+and `_shared`-copy instructions in Step 7 / Files-touched / Risks above** — do NOT
+add `rankLabel` fields to `carmel-christian.ts`. Instead: for any college on
+Carmel's list already in `collegeRankings.ts` (nearly all of them), the label
+renders for free; for any Carmel-only college the master lacks, add ONE row to
+`collegeRankings.ts` (+ source to the `_shared` .md). At merge, Carmel's file will
+still carry its old inline labels — strip them (data = `{ name, cats }`) so it
+matches the master-driven architecture. `check:ranks` enforces master-resolution.
+
 **What remains:**
 - Finish the user's English review (they may have more card-by-card feedback).
 - On their explicit go-ahead: **Phase 2** — nine locales (`es, bn, ht, te, fr, fa, it,
