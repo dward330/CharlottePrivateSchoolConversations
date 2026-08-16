@@ -1,7 +1,8 @@
 ---
 name: covenantday
 title: Add Covenant Day School as the 7th school
-status: english-done
+status: implemented
+prs: [133]
 phases: 2
 created: 2026-08-15
 branch: feat/add-covenant-day
@@ -560,3 +561,34 @@ a research pass rediscovering them is the specific waste this section exists to 
   **Default:** use the school's own figure, walk the team pages for levels.
 - **Covenant Day's exact brand colors.** **Default:** verify from the site; if genuinely
   unavailable, pick from the Lions' navy/gold and say so in the PR.
+
+## Implementation notes
+
+Shipped in PR #133 (both phases). Deviations and decisions that differed from the plan:
+
+- **Power 4 commits = 1, not the plan's "confirmed 0."** The previously-unread Sept 2024
+  D1-commitments article documents Emily Eaton ('24) → Louisville field hockey (ACC),
+  verified against Louisville's roster. D1 commits total 9 across 2024–26.
+- **Aftercare cost = $744/mo, not the plan's $248.** The row's definition is
+  highest-band × latest-pickup × 5 days; a JK/K child (1:30 dismissal) needs three stacked
+  $248 sessions to reach 6:00 p.m. The school's own published annual figure ($6,696) rides
+  beneath it. The plan's $248 was the single-session rate.
+- **Three profile PDF editions, not four** — the two "2024-25"-ish URLs serve
+  byte-identical files. Matriculation (bold) recovered via `pdfplumber` font data.
+- **Two review-driven fixes became standing rules** (both in DATA-SCHEMA.md via its
+  generator, per the review-bug schema-check rule): (1) a card/division with zero items is
+  omitted entirely — the empty "Lower & Middle School" course card was cut; (2) every
+  ranked-bucket college on an acceptance list must carry its `rankLabel`, now enforced by
+  `npm run check:ranks` in the build. The full 225-institution acceptance list ships with
+  60 ranked colleges' US News labels.
+- **A third review fix: the `noPercentiles` ScoreTable flag** — Whole Class Analytics
+  hardcoded a percentile header over averages/tier-count tables, filing Covenant Day's
+  class-average SAT under "10th percentile." Both its score tables set the new flag.
+- **Welcome Video** wired (`youtu.be/sqXDmXq2zXY`); `/add-school` now asks for it up front.
+- **Phase 2 (nine locales):** `check:live` reports pre-existing failures (2,927 on main) —
+  it structurally cannot walk course-offerings, metric-values, financial-aid-report, or the
+  standalone club catalog/cluster modules, so those entries always read unresolvable for
+  every school. `check:runtime` is the authoritative guard and passes clean for all nine.
+  46 genuine prose leaks (mostly Telugu course descriptions) were caught by `i18n:leaks`
+  and fixed. The pre-existing 178-token es sepdrift and 1 ht / 1 fa non-covenant drifts are
+  out of scope.
