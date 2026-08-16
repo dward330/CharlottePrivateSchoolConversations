@@ -85,6 +85,17 @@ The point is that a school with a thin public footprint yields a page of empty s
 which is worse than no page — and that is cheap to discover up front and expensive to
 discover at ingest time.
 
+**The bar is calibrated to Davidson Day, the thinnest school judged worth shipping** —
+17/30 Compare rows (**56%**) and no Summer Programs material at all. So the gate is
+**≥6 of 8 research areas viable and ≥56% of Compare rows populatable**, compared
+inclusively: exactly 17/30 passes, 16/30 does not. Per area, a candidate is judged against
+the card keys **5–6 of 6** existing schools hold, never against every key that exists —
+`the-arts :: courses` sits at 1/6, so its absence is not a gap. Two properties of this
+calibration are deliberate: it is a real school rather than a round number, and the roster
+fill rates it derives from reflect **research effort already spent**, so the test is
+"could plausibly reach that level with a full research pass," not "scores it on first
+sweep."
+
 Two boundaries make it safe to run speculatively: it **writes no `source-material/`**
 (unlike `/plan`) because a sweep sized for percentages produces indicative figures, not the
 vetted record — the real deep research happens in `/implement`, and only the **URLs** carry

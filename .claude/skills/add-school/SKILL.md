@@ -98,7 +98,7 @@ For each research area, probe the sources that area actually lives on:
 | Summer Programs | a summer camp catalog with sessions and prices |
 | Financial Aid & Tuition | published tuition table, aid percentages, and (if it exists) a Form 990 |
 
-Two things distinguish a real hit from a false one, and both matter more than volume:
+Three things distinguish a real hit from a false one, and all matter more than volume:
 
 - **A page existing is not coverage.** "We offer a robust arts program" populates nothing.
   Coverage means the *specific* shapes the schema wants — a season list, a named ensemble,
@@ -106,6 +106,12 @@ Two things distinguish a real hit from a false one, and both matter more than vo
 - **Compare rows need published numbers.** Score these separately and honestly. It is
   normal for prose coverage to be high and Compare coverage low; that asymmetry is exactly
   what the user needs to see, and averaging it away hides the finding.
+- **Distinguish "not published" from "not found."** These are different results and the
+  repo already treats them as such: a Compare row gets a deliberate `null` when the number
+  is confirmed absent, and a **missing key is an oversight** that `npm run check:metrics`
+  reports. Carry that distinction into the report and the plan — blending them into one
+  percentage destroys information `/implement` needs, since it must write `null` for the
+  first and go find the second.
 
 Record the URL of everything you find. Those URLs are the most valuable thing this skill
 produces — they go into the plan so `/implement` starts from found sources rather than
@@ -120,32 +126,89 @@ Sports and Tuition are populatable." Lead with the answer, not the methodology.
 
 **The per-area table**, with the schema's own areas as rows:
 
-| Research area | Prose cards | Structured card | Compare rows | Coverage | Verdict |
-|---|--:|--:|--:|--:|---|
-| Course Offerings | 1/1 | — | 2/3 | ~85% | include |
-| Sports | 10/14 | fields for 5/7 cards | 1/2 | ~65% | include |
-| After School | 2/6 | fields for 1/4 cards | 0/2 | ~20% | **thin** |
+| Research area | Core prose cards | Structured card | Compare rows | Verdict |
+|---|--:|--:|--:|---|
+| Course Offerings | 1/1 | — | 2/3 | include |
+| Sports | 12/14 | fields for 5/7 cards | 2/2 | include |
+| After School | 2/6 | fields for 1/4 cards | 0/2 | **thin** |
 
 Rules for the table:
 
-- **Percentages are estimates and must be labelled as such** (`~`). They come from a
-  scoped sweep; presenting them as precise is a lie the user would reasonably act on.
+- **Score against the cards the existing schools actually have, not every card that
+  exists.** §2 of the schema doc gives a `Schools` count per card key. Judge a candidate on
+  the keys **5 or 6 of 6** schools hold; a key only 1 of 6 holds (`the-arts :: courses`,
+  `digital-arts`) is not a gap when a new school lacks it. Comparing like with like is what
+  makes the number mean something — measuring against all possible cards understates every
+  school, including the ones already shipped.
+- **Any figure is an estimate and must be labelled** (`~`). They come from a scoped sweep;
+  presenting them as precise is a number the user would reasonably act on.
 - Say what each column counts, in one line under the table.
 - Score **structured cards by whether their required fields are findable**, not
   whether the topic exists — a `Cost` card needs `prices`, `periods` and `rows`, and a
   school that publishes no aftercare prices cannot have one however good its program is.
-- Include an **overall figure** and the **strongest and weakest** areas by name.
-- List **what is missing and why** for anything below the threshold — "no published
-  curriculum guide", "roster pages but no commit list", "tuition is behind an inquiry
-  form". This is what makes the number actionable rather than just discouraging.
+- Split Compare rows into **found / confirmed-not-published / not-found**, per step 3.
+- List **what is missing and why** for anything below the bar — "no published curriculum
+  guide", "roster pages but no commit list", "tuition is behind an inquiry form". This is
+  what makes the number actionable rather than just discouraging.
 - Note any **notable asymmetry** — e.g. rich prose but no published numbers, which means a
   good school page and an N/A-filled Compare column.
 
-**Then the sources you found**, grouped by area with their URLs, so the user can spot-check
-a percentage they doubt.
+**Then a comparison against the current roster.** Show the candidate's Compare fill rate
+beside the six shipped schools, so the user is comparing it to the real roster rather than
+to an abstract percentage:
 
-Use **~40% coverage of a research area** as the default include/omit threshold, and state
-that you are using it. It is a default, not a rule — the user overrides it in step 5.
+| School | Compare rows filled | Fill rate |
+|---|--:|--:|
+| Providence Day / Cannon | 29/30 | 96% |
+| Charlotte Country Day | 28/30 | 93% |
+| Charlotte Latin | 27/30 | 90% |
+| Charlotte Christian | 24/30 | 80% |
+| **Davidson Day** (the floor) | **17/30** | **56%** |
+| *<candidate>* | *n*/30 | *~n%* |
+
+**Then the sources you found**, grouped by area with their URLs, so the user can spot-check
+a figure they doubt.
+
+#### The bar
+
+Two gates, calibrated to **Davidson Day** — the thinnest school the project has judged
+worth shipping. It carries 17/30 Compare rows and has **no Summer Programs material at
+all**, and that was an acceptable outcome; so the floor is "at least as good as Davidson
+Day," not an invented round number.
+
+- **Per area (include / omit):** include the area if the candidate can populate the card
+  keys that 5–6 of 6 existing schools hold. Missing a near-universal card is the signal;
+  missing a rare one is not.
+- **School-wide (go / no-go):** **≥6 of 8 research areas viable, and ≥56% of Compare rows
+  populatable.** 56% is Davidson Day's exact rate (17/30), and the comparison is
+  **inclusive** — a candidate landing exactly on 17/30 passes, 16/30 (53%) does not. Count
+  in **rows, not rounded percentages**: 30 rows means each one moves the figure ~3.3
+  points, so "56%" is really "at least 17 of 30." Do not round to a neater number in either
+  direction; the precision is the point of tying the bar to a real school.
+
+State the bar and the candidate's numbers against it. It is a default, not a rule — the
+user overrides it in step 5, and a school that misses on one axis while being exceptional
+on the other is exactly the case worth putting to them rather than auto-failing.
+
+**Re-derive the floor rather than trusting the numbers above.** They were measured on
+2026-08-15 against 30 Compare rows and 8 research areas; both grow. §4 of the schema doc
+gives the live row count and §1 the live area list, and the command below recomputes every
+school's fill rate from `src/data/metricValues.ts` — note that `cannon` is written as a
+bare key while hyphenated slugs are quoted, which a naive regex misses:
+
+```bash
+npm run schema   # refresh the doc first if it has drifted
+```
+
+If the roster or the row count has changed, recompute the weakest school's rate and use
+**that** as the floor. The rule is "at least as good as our thinnest shipped school," and
+56% is today's expression of it — not the rule itself.
+
+**One caveat to state whenever you report these numbers:** the roster's fill rates are the
+result of research effort already spent, not a pure measure of what is publicly available.
+Providence Day at 96% partly reflects how much work went into it. The bar is therefore
+"could plausibly *reach* Davidson Day's level with a full research pass," not "scores this
+on a first sweep" — a candidate near the line is a judgment call, not a failure.
 
 ### 5. Ask whether to proceed — then walk the thin areas
 
@@ -155,17 +218,22 @@ means yes, and do not editorialize a low one into a no.
 If they decline: stop. Report the URLs you found so the sweep is not wasted if they return
 to it later. Write nothing.
 
-If they proceed: **walk the below-threshold research areas one at a time**, in schema
-order. For each, give the coverage, what is missing, and what including it would actually
-look like on the page — then ask include or omit. One question per area, not a single
-bundled list, because the decisions are independent and the reasoning differs per area.
+If they proceed: **walk the research areas that fell below the per-area bar, one at a
+time**, in schema order. For each, give the coverage, what is missing, and what including
+it would actually look like on the page — then ask include or omit. One question per area,
+not a single bundled list, because the decisions are independent and the reasoning differs
+per area.
 
-> **After School — ~20%.** The extended-day page names the program and its hours but
-> publishes no prices, so the Cost Planner card can't be built and the aftercare Compare
-> row would be N/A. Including it gives a Coverage-map card and little else. Include it
-> anyway, or omit the area for this school?
+> **After School — 2 of the 6 core cards.** The extended-day page names the program and its
+> hours but publishes no prices, so the Cost Planner card can't be built and both aftercare
+> Compare rows would be N/A. Including it gives a Coverage-map card and little else.
+> Include it anyway, or omit the area for this school?
 
-Areas at or above the threshold are included without asking.
+Areas meeting the bar are included without asking.
+
+**Omitting an area is a normal outcome, not a defeat** — Davidson Day ships with no Summer
+Programs section at all. Present it that way rather than as a shortfall to be argued out
+of, and note the precedent when it helps the user decide.
 
 **Record every answer.** These decisions are the main thing this skill contributes to the
 plan, and a fresh `/implement` window cannot re-derive them.
