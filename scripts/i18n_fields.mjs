@@ -47,6 +47,14 @@ export const PROSE_KEYS = new Set([
   // caveat in the document.
   'questions', 'navTitle', 'bullets', 'figureCaption', 'figureNote', 'figureNote2',
   'componentsTitle', 'componentsAside', 'componentsNote', 'questionsNote',
+  'questionsTitle',
+  // Per-school transcript-card headings (collegeSupport) — set only where the
+  // school's content diverges from the sections.* fallback (Covenant Day's
+  // merit block is a five-year AP line, not a National Merit ledger), so they
+  // are research findings that vary per school: prose.
+  'meritTitle',
+  'depthTitle',
+  'trustTitle',
   'kicker', 'verdict', 'result',
   // Tenure and record annotations read as phrases, not bare figures: "since 2002",
   // "long-tenured", "15+ years", "2 OF 3 YRS", "meet-scored", "stroke play",
@@ -336,6 +344,7 @@ export const PATH_OVERRIDES = new Map([
   ['values.charlotte-christian', true],
   ['values.charlotte-country-day', true],
   ['values.cannon', true],
+  ['values.covenant-day', true],
   ['values.davidson-day', true],
   // The second display line under a value (metricValues.ts `subs`) — same money
   // in the other billing period, e.g. "≈$3,250/yr" under "$325/mo". Same shape and
@@ -347,6 +356,7 @@ export const PATH_OVERRIDES = new Map([
   ['subs.charlotte-christian', true],
   ['subs.charlotte-country-day', true],
   ['subs.cannon', true],
+  ['subs.covenant-day', true],
   ['subs.davidson-day', true],
   // Per-cell provenance tooltips (metricValues.ts `quals`). The `.text` leaf is
   // prose (translated); the `.kind` leaf is an ENUM KEY resolved through the
@@ -359,6 +369,10 @@ export const PATH_OVERRIDES = new Map([
   ['quals.charlotte-christian.kind', false],
   ['quals.charlotte-country-day.kind', false],
   ['quals.cannon.kind', false],
+  ['quals.covenant-day.kind', false],
+  // `compareAs` (metricValues.ts) — a ranking-strategy ENUM ('span' | 'sum' |
+  // 'fraction' | …) consumed by Compare's leader logic, never display text.
+  ['compareAs', false],
   ['quals.davidson-day.kind', false],
   // Course Offerings. Classified from an ENUMERATION of every distinct value in
   // the module, not from the leaf names — the lesson of the three College

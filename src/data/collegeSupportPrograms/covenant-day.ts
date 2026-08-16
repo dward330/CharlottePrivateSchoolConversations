@@ -84,7 +84,6 @@ export const covenantDay: CollegeSupportProgram = {
       { value: '2003', label: 'the director’s tenure start at Covenant Day' },
       { value: '4', label: 'people in the guidance office' },
     ],
-    rosterTitle: 'The office',
     roster: [
       {
         role: 'Director',
@@ -132,7 +131,6 @@ export const covenantDay: CollegeSupportProgram = {
     ],
     mechanicsNote:
       'The profile is the office’s application artifact: weighting key, rank policy, AP gating and the acceptance list in a two-page PDF, refreshed annually — three editions verified.',
-    reachTitle: 'Reach',
     reach: [
       'NACCAP membership plus a Professional of the Year director — name recognition inside the Christian-college admissions circuit',
       'NACAC membership on the mainstream side',
@@ -406,7 +404,6 @@ export const covenantDay: CollegeSupportProgram = {
       { name: 'Xavier University', cats: [], enrolling: true },
     ],
     collegesTotal: '225 institutions on the 2023–2026 list',
-    scholarshipsTitle: 'What the school does not publish',
     scholarships: [
       'No scholarship dollar totals — checked across all three profile editions',
       'No per-class acceptance breakdowns — the lists are multi-year windows',
@@ -512,7 +509,6 @@ export const covenantDay: CollegeSupportProgram = {
     quintiles: [],
     gpaNote:
       'No GPA distribution exists in any of the three profile editions — no highest/median/lowest, no quintiles. The weighting key (4.33 / +0.5 / +1.0) is the entire GPA disclosure.',
-    supportTitle: 'Support for the middle and below',
     support: [
       {
         label: 'Learning specialists',
@@ -529,7 +525,6 @@ export const covenantDay: CollegeSupportProgram = {
     ],
     supportNote:
       'AP gating (none for freshmen, one for sophomores) is itself a whole-class guardrail: rigor is sequenced by readiness rather than open-enrollment.',
-    middleTitle: 'Evidence the middle is served',
     middle: [
       {
         label: 'The list shows the range',
@@ -581,7 +576,6 @@ export const covenantDay: CollegeSupportProgram = {
         text: 'No counseling timeline, no platform named, no essay or application programming published — the model rides on the director’s relationships.',
       },
     ],
-    checklistTitle: 'Ask on the tour',
     checklist: [
       'How does one director manage 85 seniors at peak season — what does the junior spring / senior fall calendar actually look like?',
       'Which platform do families use — Naviance, Scoir, something else — and when do students get access?',

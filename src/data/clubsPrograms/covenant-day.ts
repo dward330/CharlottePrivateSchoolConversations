@@ -111,7 +111,6 @@ export const covenantDay: ClubsProgram = {
         feedsFrom: 'Third-party roster only',
       },
     ],
-    adjacentTitle: 'Adjacent recognition',
     adjacent: [
       {
         label: 'Academic signatures',

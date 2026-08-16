@@ -33,7 +33,7 @@ import { PROSE_KEYS, SKIP_KEYS, PATH_OVERRIDES } from './i18n_fields.mjs'
 
 const SLUGS = [
   'providence-day', 'charlotte-latin', 'charlotte-christian',
-  'charlotte-country-day', 'cannon', 'davidson-day',
+  'charlotte-country-day', 'cannon', 'covenant-day', 'davidson-day',
 ]
 
 /**
@@ -78,6 +78,7 @@ const EXPORTS = {
   'charlotte-christian': 'charlotteChristian',
   'charlotte-country-day': 'charlotteCountryDay',
   cannon: 'cannon',
+  'covenant-day': 'covenantDay',
   'davidson-day': 'davidsonDay',
 }
 

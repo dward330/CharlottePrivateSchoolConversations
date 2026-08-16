@@ -139,11 +139,14 @@ export const covenantDay: SportsProgram = {
         text: 'Made the program’s first NCISAA 4A final in 2024–25, then earned the #1 overall seed in 2025–26, hosted the championship game for a second consecutive year, and was "ranked first in the nation" during an 8-game unbeaten streak before falling 2–1 to Christ School.',
       },
       {
-        program: 'Deep playoff seeds beyond the finals',
+        // `program` values are skipped as sport-name identifiers by the i18n
+        // extractor — keep them sport-name-shaped, never editorial phrases
+        // (the recorded seven-string defect is exactly that shape).
+        program: 'Boys Basketball · Baseball',
         text: 'Boys basketball earned the #4 overall seed in the 2024–25 NCISAA playoffs behind an All-State senior pair; baseball took the #8 seed in 2025–26 at 12–14 (5–5 in conference). Neither reached the semifinal, so they sit outside the title matrix above.',
       },
       {
-        program: 'Girls programs on the rise',
+        program: 'Girls Basketball · XC · Tennis',
         text: 'Girls basketball won 15 more games in 2024–25 than the season before, including a 10-game winning streak. Girls cross country’s Caitlin Kasten won both the CISAA and NCISAA championship meets as a sophomore. Girls tennis took the Ashe Cup — the annual trophy against Charlotte Christian — for the first time in school history in 2025.',
       },
     ],
