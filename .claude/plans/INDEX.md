@@ -19,3 +19,4 @@ Newest last.
 | [deep-dive-podcast](deep-dive-podcast.md) | Podcast deep-dive links under every research-area header, on all six school pages | 2026-08-07 | Implemented | [#116](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/116) |
 | [schoolPageTitle](schoolPageTitle.md) | Show the school name in the sticky header once the school title scrolls out of view | 2026-08-07 | Implemented | [#117](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/117) |
 | [summer-programs](summer-programs.md) | Add a Summer Programs research area to every school page, with a filterable Camp Catalog and an interactive Summer Cost Planner | 2026-08-11 | Implemented | [#118](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/118) |
+| [aftercare-cost](aftercare-cost.md) | Compare row — cost of after-school care at each school's priciest published tier | 2026-08-15 | English shipped | — |

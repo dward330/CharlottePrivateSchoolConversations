@@ -684,13 +684,22 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': '6:00 PM', // "Structured Care to 6 pm"
       'charlotte-latin': '6:00 PM', // Hawks’ Club, 1:30–6:00 p.m.
       'davidson-day': '6:00 PM', // Extended Care, 2:45–6:00 p.m.
-      // These schools publish hours only in an enrollment packet / flag pickup as
-      // "confirm with school" — no public latest-pickup time located:
-      cannon: null,
+      cannon: '6:00 PM', // After School Program, 3:00–6:00 p.m. on regular days
+      // These two remain null because no single hour is honest for the whole school:
+      // Charlotte Christian's Lower School runs to 6:00 but Middle School stops at
+      // 5:00, and Providence Day's 1–6 p.m. Extended Day is Lower School only.
       'charlotte-christian': null,
       'providence-day': null,
     },
     quals: {
+      cannon: {
+        kind: 'scope',
+        text: 'The JrK–8 After School Program runs 3:00–6:00 p.m. on regular days. On early-dismissal days it runs 11:45 a.m.–4:00 p.m., ending two hours earlier than the 6:00 shown here.',
+      },
+      'charlotte-christian': {
+        kind: 'scope',
+        text: 'The two divisions differ, so no single time fits: Lower School Extended Day (JK–4) runs to 6:00 p.m., while Middle School Extended Day ends at 5:00 p.m., a full hour earlier.',
+      },
       'charlotte-country-day': {
         kind: 'scope',
         text: 'The Lower School’s Structured Care program runs until 6:00 p.m. Confirm current hours with the school.',
@@ -702,6 +711,57 @@ export const VALUE_METRICS: ValueMetric[] = [
       'davidson-day': {
         kind: 'scope',
         text: 'The Lower School’s Extended Care runs 2:45–6:00 p.m. Confirm current hours with the school.',
+      },
+    },
+  },
+
+  // Cost of the most expensive published after-school arrangement at each school:
+  // highest-priced grade band × latest pickup tier × five days a week. Rates come
+  // from the July 2026 research pass in source-material/after-school/<school>/
+  // ("Redesign Research 2026.md" — these SUPERSEDE the older Pricing.md files),
+  // and every figure was re-verified against the school's live page on 2026-08-15.
+  //
+  // The schools bill in different units — annual, monthly, per semester — so each
+  // headline is the school's OWN published figure in its OWN unit, never annualized
+  // into a number no school publishes. Where a school bills monthly, the tooltip
+  // carries a ×10-month estimate, worded as an estimate.
+  //
+  // "Most expensive" partly measures who dismisses earliest — a school whose TK
+  // day ends at 1:00 p.m. sells five hours of care where a 3:00 p.m. dismissal
+  // sells three — so every tooltip states the hours covered.
+  {
+    topic: 'after-school',
+    key: 'aftercare-cost',
+    label: 'Cost of after-school care',
+    note: 'The most expensive published arrangement: the highest-priced grade band, at the latest pickup tier, five days a week. Each figure is in the school’s own billing unit — annual, monthly or per semester — so the units differ; read the per-cell notes before comparing. 2026–27 rates, except Cannon’s 2025–26.',
+    values: {
+      cannon: '$3,784/yr', // JrK–8 ASP, 3:00–6:00 p.m., 5 days/wk, 2025-26
+      'charlotte-christian': '$325/mo', // JK–Grade 4 Extended Day to 6:00 p.m., 5 days/wk, 2026-27
+      'charlotte-country-day': '$900/mo', // JK · 6:00 p.m. tier · 5 days/wk, 2026-27
+      'charlotte-latin': '$4,650/sem', // TK/K · 1:30–6:00 p.m. · 5 days/wk, 2026-27
+      'davidson-day': null, // publishes no extended-care pricing — its Extended Care page 404s
+      'providence-day': '$750/mo', // TK · 1–6 p.m. tier · 5 days/wk, 2026-27
+    },
+    quals: {
+      cannon: {
+        kind: 'scope',
+        text: 'The JrK–8 After School Program, 3:00–6:00 p.m. (3 hours) five days a week, published as a true annual figure rather than a monthly one. These are 2025–26 rates — the only school here not on 2026–27 — because the page carrying the rate card is no longer publicly linked.',
+      },
+      'charlotte-christian': {
+        kind: 'scope',
+        text: 'JK–Grade 4 Extended Day to 6:00 p.m., five days a week, billed monthly for 2026–27 — about $3,250 a year if billed over 10 months. Rates rose 32–52% over 2024–25, and Middle School is not in this figure because it bills by the hour ($8/hr, ending at 5:00 p.m.).',
+      },
+      'charlotte-country-day': {
+        kind: 'scope',
+        text: 'Junior Kindergarten at the 6:00 p.m. tier, five days a week, billed monthly — about $9,000 a year if billed over 10 months, though the school does not publish how many months it bills. JK dismisses at 1:15 p.m., so this buys roughly 4.75 hours a day; Grades 1–4 at the same 6:00 p.m. tier is $610/mo.',
+      },
+      'charlotte-latin': {
+        kind: 'scope',
+        text: 'TK/K at the 1:30–6:00 p.m. tier, five days a week, billed per semester — about $9,300 a year across the two semester charges. TK and Kindergarten dismiss at 1:30 p.m., so this tier buys 4.5 hours a day, more than any figure beside it; Grades 1–5 at their 2:55–6:00 p.m. tier is $3,000 a semester.',
+      },
+      'providence-day': {
+        kind: 'scope',
+        text: 'Transitional Kindergarten at the 1–6 p.m. tier, five days a week, billed monthly — about $7,500 a year if billed over 10 months, though the school states outright that its number of billing months is not published. TK dismisses at 1:00 p.m., so this covers 5 hours a day; Grades 1–5 at 3–6 p.m. is $470/mo, and there is no drop-in option.',
       },
     },
   },
