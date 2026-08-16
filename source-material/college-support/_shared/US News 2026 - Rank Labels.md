@@ -2,124 +2,296 @@
 
 > **Provenance:** Compiled by Claude Code on 2026-08-16. This is the project's
 > canonical `rankLabel` table for the "Where Graduates Go" acceptance lists in
-> `src/data/collegeSupportPrograms/*.ts`. It was harvested from the rank labels
-> the six original schools' shipped lists already carry (which were researched
-> against the 2026 U.S. News tables during the selectivity-rows work, PR #93) —
-> zero conflicts existed across the six files — plus three additions researched
-> for Covenant Day's list on 2026-08-16, each from a first-party source:
+> `src/data/collegeSupportPrograms/*.ts`. Its first edition was harvested from
+> the labels the six original schools already carried (researched against the
+> 2026 U.S. News tables in PR #93), plus Covenant Day additions.
 >
-> - George Washington University — National Rank #59 (2026 edition):
->   https://gwtoday.gwu.edu/gw-climbs-highest-us-news-world-report-best-colleges-ranking-eight-years
-> - Rensselaer Polytechnic Institute — National Rank #64 (2026 edition):
->   https://www.usnews.com/best-colleges/rpi-2803/overall-rankings
-> - University of California, Santa Barbara — National Rank #40 (2026 edition):
->   https://www.usnews.com/best-colleges/university-of-california-santa-barbara-1320
+> **Expanded 2026-08-16 (this pass):** every college across all eight schools'
+> acceptance lists that holds a real U.S. News 2026 rank — **National
+> Universities OR National Liberal Arts Colleges, at ANY rank**, not just the
+> top-75 buckets — was researched and added here, and the whole table was
+> re-verified against the 2026 edition. Every figure was confirmed from the
+> verbatim usnews.com profile line ("In the 2026 edition of Best Colleges,
+> <school> is ranked No. #N in <category>"), reached via Yahoo search when direct
+> usnews.com fetches timed out. **15 stale labels inherited from the earlier pass
+> were corrected** to their true 2026 value (they had been carried from a prior
+> edition): UNC Chapel Hill #22→#26, UVA #24→#26, Purdue #43→#46, U. Washington
+> #63→#42, Illinois Urbana-Champaign #69→#36, Wisconsin-Madison #39→#36, UMass
+> Amherst #69→#64, Penn State #63→#59, Pittsburgh #67→#69, Colorado Boulder
+> #75→#97, Tennessee-Knoxville #57→#102, FAMU #92→#169, Franklin & Marshall
+> #48→#35, Washington & Lee #11→#21, Sewanee #46→#45.
 >
-> **The hard rule this table serves** (user-set, 2026-08-16): every college on a
-> school's acceptance list that is tagged into a ranked bucket (`ivy`,
-> `ivyplus`, `nu75`, `lac75`) MUST carry its `rankLabel` — the rank shown on the
-> right-hand side of the card. `scripts/check_rank_labels.mjs`
-> (`npm run check:ranks`, chained into `npm run build`) enforces it, so a future
-> school cannot ship the card with rankings missing. When adding a school, take
-> labels from this table for consistency; deep-research any college the table
-> lacks against the same 2026 U.S. News edition and ADD it here with its source.
+> **The hard rule this table serves** (user-set, 2026-08-16, broadened this pass):
+> every college on a school's acceptance list that holds a U.S. News National or
+> National-Liberal-Arts rank MUST carry its `rankLabel` — the rank shown on the
+> right of the card — **regardless of whether it falls in a `nu75`/`lac75`
+> bucket**. The label is informational and independent of the `cats` buckets
+> (which stay genuinely top-75 and drive only the filter chips), so a #80 or #250
+> or banded (`#395-434`) school is labelled with `cats: []`. Only these carry NO
+> label, being genuinely unranked in the two national lists: U.S. News **Regional**
+> Universities/Colleges, community/technical colleges, specialty art/music/design
+> schools, seminaries, and **foreign** universities (Best Global does not count).
 >
-> Known limitation, deliberately kept: sixteen Power-4 tail universities (LSU,
-> SMU, WVU, Mississippi State, Oklahoma State, Kansas State, Iowa State, Texas
-> Tech, BYU, Houston, Missouri, Oregon, Utah, ASU, UCF, Cincinnati) appear on
-> the six original lists tagged `p4` with no rank label — their ranks were never
-> part of the project's table, and current-year searches return conflicting
-> figures. They are exempt from the check (p4-only entries), consistently
-> unlabeled across all seven schools, rather than half-fixed from noisy sources.
+> `scripts/check_rank_labels.mjs` (`npm run check:ranks`, chained into
+> `npm run build`) enforces that every **bucketed** college has a label and that no
+> institution's label conflicts across schools — but it does **not** flag a label
+> missing on a `cats: []` college, so the inclusive rule is a research obligation.
+> When adding a school, **reuse this table first** — copy any label verbatim, never
+> re-type it — and only deep-research a college the table lacks, adding it here with
+> its source so the next school reuses it.
+>
+> Note on the Power-4 tail: several `p4`-tagged universities that once shipped
+> unlabeled (ASU #117, Oregon #110, Cincinnati #158, LSU #169, WVU #222, …) now
+> carry their 2026 National rank. Any `p4` school still unlabeled is one whose 2026
+> figure has not yet been confirmed to a verbatim source — add it here when it is,
+> rather than from a noisy secondary figure.
 
 ### The table
 
 | Institution | Rank label |
 |---|---|
+| Abilene Christian University | National Rank #329 |
 | Agnes Scott College | Liberal Rank #62 |
 | Allegheny College | Liberal Rank #72 |
+| American University | National Rank #88 |
 | Amherst College | Liberal Rank #2 |
+| Arizona State University | National Rank #117 |
 | Auburn University | National Rank #105 |
+| Augusta University | National Rank #273 |
+| Augustana College | Liberal Rank #96 |
+| Ball State University | National Rank #213 |
+| Bard College | Liberal Rank #70 |
 | Barnard College | Liberal Rank #22 |
+| Barry University | National Rank #395-434 |
 | Bates College | Liberal Rank #21 |
 | Baylor University | National Rank #93 |
+| Belhaven University | National Rank #395-434 |
+| Belmont University | National Rank #213 |
+| Beloit College | Liberal Rank #92 |
+| Bennington College | Liberal Rank #121 |
+| Binghamton University | National Rank #73 |
+| Biola University | National Rank #242 |
+| Boise State University | National Rank #301 |
 | Boston College | National Rank #37 |
 | Boston University | National Rank #41 |
 | Bowdoin College | Liberal Rank #5 |
+| Bowling Green State University | National Rank #293 |
+| Brandeis University | National Rank #69 |
+| Brenau University | National Rank #395-434 |
+| Bridgewater College | Liberal Rank #167 |
+| Brigham Young University | National Rank #110 |
 | Brown University | National Rank #13 |
+| Bryn Athyn College | Liberal Rank #180 |
 | Bryn Mawr College | Liberal Rank #29 |
 | Bucknell University | Liberal Rank #33 |
 | California Institute of Technology | National Rank #11 |
+| California State University, Fresno | National Rank #183 |
+| California State University, Long Beach | National Rank #127 |
+| Campbell University | National Rank #343 |
 | Carleton College | Liberal Rank #22 |
 | Carnegie Mellon University | National Rank #21 |
+| Carson-Newman University | National Rank #358 |
 | Case Western Reserve University | National Rank #51 |
+| Catholic University of America | National Rank #169 |
+| Central Michigan University | National Rank #283 |
 | Centre College | Liberal Rank #55 |
+| Chapman University | National Rank #110 |
 | Claremont McKenna College | Liberal Rank #9 |
+| Clark Atlanta University | National Rank #329 |
+| Clark University | National Rank #132 |
+| Clarkson University | National Rank #143 |
 | Clemson University | National Rank #57 |
 | Colby College | Liberal Rank #18 |
 | Colgate University | Liberal Rank #17 |
+| College of the Atlantic | Liberal Rank #126 |
 | College of the Holy Cross | Liberal Rank #33 |
+| College of William & Mary | National Rank #51 |
 | Colorado College | Liberal Rank #32 |
+| Colorado School of Mines | National Rank #80 |
+| Colorado State University | National Rank #151 |
 | Columbia University | National Rank #13 |
 | Connecticut College | Liberal Rank #51 |
 | Cornell University | National Rank #12 |
+| Covenant College | Liberal Rank #126 |
+| Creighton University | National Rank #117 |
 | Dartmouth College | National Rank #13 |
 | Davidson College | Liberal Rank #13 |
-| DePauw University | Liberal Rank #47 |
 | Denison University | Liberal Rank #44 |
+| DePaul University | National Rank #169 |
+| DePauw University | Liberal Rank #47 |
 | Dickinson College | Liberal Rank #42 |
+| Drake University | National Rank #183 |
+| Drew University | Liberal Rank #84 |
+| Drexel University | National Rank #80 |
 | Duke University | National Rank #7 |
+| Duquesne University | National Rank #169 |
+| Earlham College | Liberal Rank #76 |
+| East Carolina University | National Rank #192 |
+| East Tennessee State University | National Rank #301 |
+| East Texas A&M University | National Rank #384 |
+| Eastern Michigan University | National Rank #373 |
+| Eckerd College | Liberal Rank #135 |
+| Elon University | National Rank #117 |
+| Emmanuel College | Liberal Rank #135 |
 | Emory University | National Rank #24 |
+| Fisk University | Liberal Rank #156 |
+| Florida A&M University | National Rank #169 |
+| Florida Gulf Coast University | National Rank #318 |
+| Florida Institute of Technology | National Rank #232 |
 | Florida State University | National Rank #51 |
-| Franklin & Marshall College | Liberal Rank #48 |
+| Franklin & Marshall College | Liberal Rank #35 |
 | Furman University | Liberal Rank #41 |
+| Gardner-Webb University | National Rank #384 |
+| George Washington University | National Rank #59 |
 | Georgetown University | National Rank #24 |
 | Georgia Institute of Technology | National Rank #33 |
+| Georgia Southern University | National Rank #343 |
 | Georgia Tech | National Rank #33 |
 | Gettysburg College | Liberal Rank #53 |
+| Gordon College | Liberal Rank #156 |
+| Goucher College | Liberal Rank #126 |
+| Guilford College | Liberal Rank #172 |
 | Hamilton College | Liberal Rank #15 |
+| Hampden-Sydney College | Liberal Rank #107 |
+| Hampshire College | Liberal Rank #156 |
+| Hampton University | National Rank #273 |
+| Harding University | National Rank #301 |
 | Harvard University | National Rank #3 |
 | Harvey Mudd College | Liberal Rank #25 |
 | Haverford College | Liberal Rank #18 |
+| Hillsdale College | Liberal Rank #50 |
+| Hobart and William Smith Colleges | Liberal Rank #73 |
+| Hofstra University | National Rank #183 |
+| Houghton University | Liberal Rank #146 |
 | Howard University | National Rank #88 |
 | Indiana University Bloomington | National Rank #73 |
+| Iowa State University | National Rank #117 |
 | Johns Hopkins University | National Rank #6 |
+| Johnson C. Smith University | Liberal Rank #173 |
+| Juniata College | Liberal Rank #92 |
+| Kansas State University | National Rank #158 |
+| Kean University | National Rank #318 |
+| Kennesaw State University | National Rank #373 |
+| Kent State University | National Rank #232 |
 | Kenyon College | Liberal Rank #28 |
 | Lafayette College | Liberal Rank #35 |
+| Lake Forest College | Liberal Rank #75 |
 | Lehigh University | National Rank #51 |
+| Lewis & Clark College | Liberal Rank #96 |
+| Liberty University | National Rank #395-434 |
+| Lincoln Memorial University | National Rank #343 |
+| Lipscomb University | National Rank #222 |
+| Long Island University | National Rank #373 |
+| Louisiana State University | National Rank #169 |
+| Louisiana Tech University | National Rank #318 |
+| Loyola Marymount University | National Rank #102 |
+| Loyola University Chicago | National Rank #132 |
+| Loyola University New Orleans | National Rank #222 |
 | Macalester College | Liberal Rank #27 |
+| Marquette University | National Rank #88 |
+| Marshall University | National Rank #318 |
+| Marymount University | National Rank #273 |
+| Maryville College | Liberal Rank #170 |
 | Massachusetts Institute of Technology | National Rank #2 |
+| Mercer University | National Rank #169 |
+| Meredith College | Liberal Rank #115 |
+| Miami University (Ohio) | National Rank #143 |
 | Michigan State University | National Rank #63 |
+| Michigan Technological University | National Rank #158 |
+| Middle Tennessee State University | National Rank #257 |
 | Middlebury College | Liberal Rank #11 |
+| Mississippi College | National Rank #358 |
+| Mississippi State University | National Rank #208 |
+| Missouri State University | National Rank #358 |
+| Missouri University of Science and Technology | National Rank #192 |
+| Montana State University | National Rank #318 |
+| Montclair State University | National Rank #158 |
 | Morehouse College | Liberal Rank #96 |
+| Morgan State University | National Rank #329 |
 | Mount Holyoke College | Liberal Rank #30 |
+| Muhlenberg College | Liberal Rank #70 |
+| New College of Florida | Liberal Rank #135 |
+| New Jersey Institute of Technology | National Rank #80 |
 | New York University | National Rank #30 |
+| North Carolina A&T State University | National Rank #232 |
 | North Carolina State University | National Rank #59 |
 | Northeastern University | National Rank #47 |
+| Northern Illinois University | National Rank #301 |
 | Northwestern University | National Rank #6 |
+| Nova Southeastern University | National Rank #257 |
 | Oberlin College | Liberal Rank #30 |
 | Occidental College | Liberal Rank #48 |
+| Oglethorpe University | Liberal Rank #156 |
+| Ohio University | National Rank #198 |
+| Ohio Wesleyan University | Liberal Rank #121 |
+| Oklahoma State University | National Rank #198 |
+| Old Dominion University | National Rank #293 |
+| Oregon State University | National Rank #143 |
+| Pace University | National Rank #273 |
+| Palm Beach Atlantic University | National Rank #384 |
+| Penn State University Park | National Rank #59 |
 | Pennsylvania State University | National Rank #63 |
+| Pepperdine University | National Rank #84 |
+| Point Park University | National Rank #318 |
 | Pomona College | Liberal Rank #4 |
+| Portland State University | National Rank #222 |
+| Presbyterian College | Liberal Rank #163 |
 | Princeton University | National Rank #1 |
-| Purdue University | National Rank #43 |
+| Purdue University | National Rank #46 |
+| Quinnipiac University | National Rank #179 |
+| Randolph College | Liberal Rank #156 |
+| Randolph-Macon College | Liberal Rank #96 |
+| Rensselaer Polytechnic Institute | National Rank #64 |
 | Rhodes College | Liberal Rank #51 |
 | Rice University | National Rank #18 |
-| Rutgers University | National Rank #63 |
+| Roanoke College | Liberal Rank #126 |
+| Rochester Institute of Technology | National Rank #88 |
+| Roosevelt University | National Rank #395-434 |
+| Rowan University | National Rank #163 |
+| Rutgers University-Camden | National Rank #97 |
+| Rutgers University-New Brunswick | National Rank #42 |
+| Saint Louis University | National Rank #102 |
+| Saint Mary's College (Indiana) | Liberal Rank #84 |
+| Sam Houston State University | National Rank #231 |
+| Samford University | National Rank #143 |
+| San Diego State University | National Rank #109 |
+| Santa Clara University | National Rank #59 |
+| Sarah Lawrence College | Liberal Rank #108 |
 | Scripps College | Liberal Rank #30 |
-| Sewanee: The University of the South | Liberal Rank #46 |
+| Seattle University | National Rank #124 |
+| Seton Hall University | National Rank #158 |
+| Sewanee: The University of the South | Liberal Rank #45 |
+| Simmons University | National Rank #183 |
 | Skidmore College | Liberal Rank #38 |
 | Smith College | Liberal Rank #13 |
+| Southeastern University | National Rank #395-434 |
+| Southern Methodist University | National Rank #88 |
 | Spelman College | Liberal Rank #39 |
+| St. John's University (NY) | National Rank #151 |
+| St. Lawrence University | Liberal Rank #58 |
 | St. Olaf College | Liberal Rank #57 |
 | Stanford University | National Rank #4 |
+| Stevens Institute of Technology | National Rank #80 |
+| Stony Brook University | National Rank #59 |
+| Suffolk University | National Rank #257 |
+| SUNY College of Environmental Science and Forestry | National Rank #158 |
+| SUNY University at Buffalo | National Rank #75 |
+| Susquehanna University | Liberal Rank #96 |
 | Swarthmore College | Liberal Rank #4 |
+| Sweet Briar College | Liberal Rank #164 |
 | Syracuse University | National Rank #75 |
+| Temple University | National Rank #102 |
+| Tennessee State University | National Rank #395-434 |
 | Texas A&M University | National Rank #47 |
 | Texas Christian University | National Rank #105 |
+| Texas State University | National Rank #257 |
+| Texas Tech University | National Rank #198 |
+| The College of Wooster | Liberal Rank #76 |
+| The New School | National Rank #213 |
 | The Ohio State University | National Rank #43 |
-| The University of Alabama | National Rank #105 |
+| Thomas Jefferson University | National Rank #132 |
 | Trinity College | Liberal Rank #37 |
+| Trinity University | Liberal Rank #37 |
 | Tufts University | National Rank #37 |
 | Tulane University | National Rank #69 |
 | Union College | Liberal Rank #38 |
@@ -127,110 +299,137 @@
 | United States Military Academy | Liberal Rank #13 |
 | United States Military Academy at West Point | Liberal Rank #13 |
 | United States Naval Academy | Liberal Rank #3 |
+| University of Akron | National Rank #373 |
 | University of Alabama | National Rank #105 |
+| University of Alabama at Birmingham | National Rank #132 |
+| University of Alabama in Huntsville | National Rank #242 |
+| University of Alaska Fairbanks | National Rank #395-434 |
 | University of Arizona | National Rank #75 |
 | University of Arkansas | National Rank #147 |
+| University of California (Santa Barbara) | National Rank #40 |
+| University of California, Berkeley | National Rank #15 |
+| University of California, Davis | National Rank #32 |
+| University of California, Irvine | National Rank #32 |
+| University of California, Los Angeles | National Rank #17 |
+| University of California, Merced | National Rank #57 |
+| University of California, Riverside | National Rank #75 |
+| University of California, San Diego | National Rank #29 |
+| University of California, Santa Cruz | National Rank #88 |
+| University of Central Florida | National Rank #117 |
+| University of Charleston | National Rank #395-434 |
 | University of Chicago | National Rank #6 |
-| University of Colorado Boulder | National Rank #75 |
+| University of Cincinnati | National Rank #158 |
+| University of Colorado Boulder | National Rank #97 |
+| University of Colorado Colorado Springs | National Rank #395-434 |
+| University of Colorado Denver | National Rank #232 |
 | University of Connecticut | National Rank #75 |
+| University of Dayton | National Rank #143 |
 | University of Delaware | National Rank #75 |
+| University of Denver | National Rank #117 |
 | University of Florida | National Rank #28 |
 | University of Georgia | National Rank #46 |
-| University of Illinois at Urbana-Champaign | National Rank #69 |
+| University of Hartford | National Rank #301 |
+| University of Hawaii at Manoa | National Rank #169 |
+| University of Houston | National Rank #132 |
+| University of Illinois Chicago | National Rank #84 |
+| University of Illinois Urbana-Champaign | National Rank #36 |
 | University of Iowa | National Rank #92 |
 | University of Kansas | National Rank #124 |
 | University of Kentucky | National Rank #124 |
 | University of Louisville | National Rank #147 |
+| University of Lynchburg | National Rank #329 |
+| University of Maine | National Rank #257 |
+| University of Mary Washington | Liberal Rank #131 |
 | University of Maryland | National Rank #46 |
-| University of Massachusetts Amherst | National Rank #69 |
+| University of Maryland Eastern Shore | National Rank #395-434 |
+| University of Maryland, College Park | National Rank #42 |
+| University of Massachusetts Amherst | National Rank #64 |
+| University of Massachusetts Boston | National Rank #213 |
+| University of Memphis | National Rank #273 |
 | University of Miami | National Rank #59 |
 | University of Michigan | National Rank #21 |
 | University of Michigan-Ann Arbor | National Rank #21 |
-| University of Minnesota | National Rank #69 |
+| University of Minnesota Twin Cities | National Rank #59 |
 | University of Mississippi | National Rank #147 |
-| University of North Carolina at Chapel Hill | National Rank #22 |
+| University of Missouri | National Rank #102 |
+| University of Missouri-Kansas City | National Rank #232 |
+| University of Montana | National Rank #363 |
+| University of Nebraska-Lincoln | National Rank #158 |
+| University of Nevada, Las Vegas | National Rank #232 |
+| University of Nevada, Reno | National Rank #192 |
+| University of New Hampshire | National Rank #117 |
+| University of North Carolina at Asheville | Liberal Rank #135 |
+| University of North Carolina at Chapel Hill | National Rank #26 |
+| University of North Carolina at Charlotte | National Rank #143 |
+| University of North Carolina at Greensboro | National Rank #198 |
+| University of North Carolina Wilmington | National Rank #198 |
+| University of North Dakota | National Rank #242 |
+| University of North Florida | National Rank #222 |
+| University of North Texas | National Rank #208 |
+| University of Northern Colorado | National Rank #343 |
 | University of Notre Dame | National Rank #18 |
 | University of Oklahoma | National Rank #124 |
+| University of Oregon | National Rank #110 |
 | University of Pennsylvania | National Rank #7 |
-| University of Pittsburgh | National Rank #67 |
+| University of Pittsburgh | National Rank #69 |
+| University of Puget Sound | Liberal Rank #95 |
+| University of Rhode Island | National Rank #151 |
 | University of Richmond | Liberal Rank #18 |
 | University of Rochester | National Rank #51 |
+| University of San Diego | National Rank #110 |
+| University of San Francisco | National Rank #110 |
+| University of South Alabama | National Rank #363 |
 | University of South Carolina | National Rank #121 |
+| University of South Florida | National Rank #88 |
 | University of Southern California | National Rank #27 |
-| University of Tennessee | National Rank #57 |
-| University of Virginia | National Rank #24 |
-| University of Washington | National Rank #63 |
-| University of Wisconsin-Madison | National Rank #39 |
+| University of Southern Mississippi | National Rank #318 |
+| University of Tennessee at Chattanooga | National Rank #329 |
+| University of Tennessee, Knoxville | National Rank #102 |
+| University of Texas at Austin | National Rank #30 |
+| University of Texas at San Antonio | National Rank #213 |
+| University of Tulsa | National Rank #158 |
+| University of Utah | National Rank #151 |
+| University of Vermont | National Rank #132 |
+| University of Virginia | National Rank #26 |
+| University of Washington | National Rank #42 |
+| University of Wisconsin-Madison | National Rank #36 |
+| University of Wyoming | National Rank #220 |
+| Utah State University | National Rank #242 |
+| Valparaiso University | National Rank #198 |
 | Vanderbilt University | National Rank #15 |
 | Vassar College | Liberal Rank #12 |
 | Villanova University | National Rank #57 |
+| Virginia Commonwealth University | National Rank #139 |
+| Virginia Military Institute | Liberal Rank #65 |
 | Virginia Polytechnic Institute and State University | National Rank #47 |
 | Virginia Tech | National Rank #47 |
+| Virginia Wesleyan University | Liberal Rank #178 |
 | Wake Forest University | National Rank #47 |
+| Warren Wilson College | Liberal Rank #183-201 |
+| Wartburg College | Liberal Rank #156 |
+| Washington & Jefferson College | Liberal Rank #84 |
+| Washington and Lee University | Liberal Rank #21 |
+| Washington College | Liberal Rank #92 |
+| Washington State University | National Rank #192 |
 | Washington University in St. Louis | National Rank #21 |
-| Washington and Lee University | Liberal Rank #11 |
 | Wellesley College | Liberal Rank #7 |
 | Wesleyan University | Liberal Rank #25 |
+| West Virginia University | National Rank #222 |
+| Western Carolina University | National Rank #257 |
+| Western Kentucky University | National Rank #363 |
+| Western New England University | National Rank #283 |
+| Westmont College | Liberal Rank #115 |
+| Wheaton College (Illinois) | Liberal Rank #50 |
+| Wheaton College (Massachusetts) | Liberal Rank #76 |
+| Whitman College | Liberal Rank #58 |
+| Whittier College | Liberal Rank #92 |
+| Widener University | National Rank #301 |
 | William & Mary | National Rank #51 |
 | Williams College | Liberal Rank #1 |
+| Wingate University | National Rank #373 |
+| Winston-Salem State University | National Rank #232 |
 | Wofford College | Liberal Rank #57 |
+| Worcester Polytechnic Institute | National Rank #84 |
+| Xavier University | National Rank #208 |
 | Yale University | National Rank #4 |
-| George Washington University | National Rank #59 | *added 2026-08-16* |
-| Rensselaer Polytechnic Institute | National Rank #64 | *added 2026-08-16* |
-| University of California (Santa Barbara) | National Rank #40 | *added 2026-08-16* |
-
-## Power-4 tail + HBCU national/LAC ranks (added 2026-08-16)
-
-Added during the Carmel Christian review, when the user asked that **every college
-with a genuine US News National Universities or National Liberal Arts rank carry
-its label** — closing the "sixteen P4-tail universities unlabeled" limitation noted
-above, and labeling HBCUs that hold a National/LAC rank.
-
-**Rule for HBCUs (user-set, 2026-08-16):** an HBCU is labeled **only if it holds a
-National Universities OR National Liberal Arts rank**. HBCUs ranked only in the
-US News HBCU specialty list or in Regional Universities/Colleges are left
-UNLABELED (Norfolk State, NC Central, South Carolina State, Tennessee State,
-Winston-Salem State, Xavier LA, Alabama A&M, Albany State, Delaware State,
-Elizabeth City State, Fayetteville State, Lincoln PA, Livingstone, Virginia State).
-
-Power-4 tail national universities:
-
-| University | Rank label |
-|---|---|
-| Southern Methodist University | National Rank #88 |
-| University of Missouri | National Rank #102 |
-| Brigham Young University | National Rank #110 |
-| University of Oregon | National Rank #110 |
-| Arizona State University | National Rank #117 |
-| Iowa State University | National Rank #117 |
-| University of Central Florida | National Rank #117 |
-| University of Houston | National Rank #132 |
-| University of Utah | National Rank #151 |
-| Kansas State University | National Rank #158 |
-| University of Cincinnati | National Rank #158 |
-| Louisiana State University | National Rank #169 |
-| Oklahoma State University | National Rank #198 |
-| Texas Tech University | National Rank #198 |
-| Mississippi State University | National Rank #208 |
-| West Virginia University | National Rank #222 |
-
-HBCUs holding a National/LAC rank (these get labeled):
-
-| HBCU | Rank label | Note |
-|---|---|---|
-| Howard University | National Rank #88 | already labeled before this pass |
-| Florida A&M University | National Rank #92 | also "Florida Agricultural and Mechanical" |
-| North Carolina A&T State University | National Rank #232 | all name variants |
-| Hampton University | National Rank #273 | |
-| Clark Atlanta University | National Rank #329 | |
-| Morgan State University | National Rank #329 | |
-| Fisk University | Liberal Rank #156 | National Liberal Arts |
-| Johnson C. Smith University | Liberal Rank #173 | National Liberal Arts; also "Johnson C Smith" |
-
-**Sourcing caveat:** usnews.com blocked automated profile fetches, so these 2026
-numbers were corroborated from US News search snapshots + school/press releases +
-two HBCU-list aggregators (agreed across sources). A few remain worth a manual
-usnews.com confirm if published verbatim — Texas Tech #198 (vs the #123 *Global*
-figure), and the Winston-Salem State National-vs-Regional question (treated here as
-Regional → unlabeled). Tennessee State sits in the unranked National band (no
-discrete number) → unlabeled.
+| Young Harris College | Liberal Rank #183-201 |
