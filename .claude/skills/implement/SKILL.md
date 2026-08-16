@@ -145,10 +145,29 @@ layer per `PROSE_TRANSLATED`. Follow the rollout docs in `.claude/docs/` for the
 mechanism, and respect the locale-specific traps they record: figures copied
 char-for-char, lakh/crore grouping for `hi`/`te`, RTL isolates for `fa`.
 
-Then run the Phase 2 checks — `npm run check:runtime` at minimum, plus whichever of
-`check:figures` / `check:sepdrift` / `check:money` / `check:currency` apply. A locale
-overlay that fails its stamp falls back to English **silently**, so a passing coverage
-number proves nothing on its own.
+Then run the Phase 2 checks — **`npm run check:runtime` per locale is the authoritative
+resolution guard** (a locale overlay that fails its stamp falls back to English
+**silently**, so a passing coverage number proves nothing on its own), plus whichever of
+`check:sepdrift` / `check:money` / `check:currency` / `check:bidi` / `check:fa` /
+`check:hi` / `check:fr` apply.
+
+Two things a fresh window gets wrong here:
+
+- **`npm run i18n:leaks -- --lang <code>` is where genuine untranslated prose hides — run
+  it for every locale.** It is a cross-locale consistency review: it flags any string one
+  locale kept in English that ≥2 others translated. Most flags are *legitimate keeps*
+  (win/loss status codes like `STATE`/`RUNNER-UP`, figure and grade-band labels, verbatim
+  quotes, proper-noun identifiers) — but the real misses hide among them. Adding a
+  data-rich school surfaced **46 genuine leaks** on the Covenant Day rollout, mostly short
+  course descriptions and card labels a single locale skipped (`Honors biology.`,
+  `Digital photography.`, `Learning specialists`). Triage: a string translated by ≥6
+  locales but left English by 1–3 is almost always a real leak; fix it to the consensus
+  rendering the others used.
+- **`check:live` is KNOWN-INCOMPLETE and fails on `main` — do not chase its failures.** It
+  can only walk the six per-school-directory topics, so overlay entries for
+  course-offerings, metric-values, financial-aid-report and the standalone club
+  catalog/cluster modules always read "unresolvable" for every school. `check:runtime` is
+  the guard that actually covers them; trust it over `check:live`.
 
 ### 8. Commit and PR
 
