@@ -11,6 +11,7 @@
         "charlotte-christian:title",
         "charlotte-country-day:title",
         "cannon:title",
+        "covenant-day:title",
         "davidson-day:title"
       ]
     },
@@ -31,6 +32,7 @@
         "charlotte-christian:framing[0].title",
         "charlotte-country-day:framing[0].title",
         "cannon:framing[0].title",
+        "covenant-day:framing[0].title",
         "davidson-day:framing[0].title"
       ]
     },
@@ -69,6 +71,7 @@
         "charlotte-christian:framing[2].title",
         "charlotte-country-day:framing[2].title",
         "cannon:framing[2].title",
+        "covenant-day:framing[2].title",
         "davidson-day:framing[2].title"
       ]
     },
@@ -128,7 +131,8 @@
       "of": "c2d451ca",
       "at": [
         "providence-day:sections[0].bands[2].label",
-        "charlotte-latin:sections[0].bands[1].label"
+        "charlotte-latin:sections[0].bands[1].label",
+        "covenant-day:sections[0].bands[1].label"
       ]
     },
     {
@@ -167,6 +171,8 @@
         "cannon:sections[0].boxes[0].tag",
         "cannon:sections[2].boxes[2].tag",
         "cannon:sections[3].boxes[1].tag",
+        "covenant-day:sections[2].boxes[1].tag",
+        "covenant-day:sections[4].boxes[0].tag",
         "davidson-day:sections[2].boxes[2].tag"
       ]
     },
@@ -397,6 +403,7 @@
         "charlotte-latin:sections[2].navTitle",
         "charlotte-country-day:sections[2].navTitle",
         "cannon:sections[2].navTitle",
+        "covenant-day:sections[2].navTitle",
         "davidson-day:sections[2].navTitle"
       ]
     },
@@ -459,6 +466,7 @@
         "providence-day:sections[2].timeline[3].when",
         "charlotte-country-day:sections[2].timeline[3].when",
         "cannon:sections[2].timeline[3].when",
+        "covenant-day:sections[2].timeline[3].when",
         "davidson-day:sections[2].timeline[3].when"
       ]
     },
@@ -763,6 +771,7 @@
         "charlotte-latin:sections[5].navTitle",
         "charlotte-country-day:sections[4].navTitle",
         "cannon:sections[4].navTitle",
+        "covenant-day:sections[5].navTitle",
         "davidson-day:sections[4].navTitle"
       ]
     },
@@ -783,7 +792,8 @@
         "providence-day:sections[5].plans[0].figure",
         "charlotte-christian:sections[4].plans[1].figure",
         "charlotte-country-day:sections[4].plans[1].figure",
-        "cannon:sections[4].plans[0].figure"
+        "cannon:sections[4].plans[0].figure",
+        "covenant-day:sections[5].plans[0].figure"
       ]
     },
     {
@@ -906,6 +916,7 @@
         "charlotte-christian:sections[5].navTitle",
         "charlotte-country-day:sections[5].navTitle",
         "cannon:sections[5].navTitle",
+        "covenant-day:sections[6].navTitle",
         "davidson-day:sections[5].navTitle"
       ]
     },
@@ -1076,6 +1087,7 @@
         "charlotte-christian:framing[0].body",
         "charlotte-country-day:framing[0].body",
         "cannon:framing[0].body",
+        "covenant-day:framing[0].body",
         "davidson-day:framing[0].body"
       ]
     },
@@ -1104,7 +1116,8 @@
       "t": "Grad 6–8",
       "of": "914e6250",
       "at": [
-        "charlotte-latin:sections[0].bands[2].label"
+        "charlotte-latin:sections[0].bands[2].label",
+        "covenant-day:sections[0].bands[2].label"
       ]
     },
     {
@@ -1114,7 +1127,8 @@
         "charlotte-latin:sections[0].bands[3].label",
         "charlotte-country-day:sections[0].bands[4].label",
         "cannon:sections[0].bands[4].label",
-        "cannon:sections[3].ranges[2].label"
+        "cannon:sections[3].ranges[2].label",
+        "covenant-day:sections[0].bands[3].label"
       ]
     },
     {
@@ -1936,7 +1950,8 @@
       "t": "Frè Eskolè pa Bann",
       "of": "098bc98f",
       "at": [
-        "charlotte-christian:sections[0].navTitle"
+        "charlotte-christian:sections[0].navTitle",
+        "covenant-day:sections[0].navTitle"
       ]
     },
     {
@@ -2017,6 +2032,7 @@
       "of": "09c013ce",
       "at": [
         "charlotte-christian:sections[1].navTitle",
+        "covenant-day:sections[1].navTitle",
         "davidson-day:sections[1].navTitle"
       ]
     },
@@ -2025,6 +2041,7 @@
       "of": "e742ffd4",
       "at": [
         "charlotte-christian:sections[1].title",
+        "covenant-day:sections[1].title",
         "davidson-day:sections[1].title"
       ]
     },
@@ -2424,7 +2441,8 @@
       "t": "$1,500",
       "of": "7634a7b9",
       "at": [
-        "charlotte-christian:sections[4].plans[0].figure"
+        "charlotte-christian:sections[4].plans[0].figure",
+        "covenant-day:sections[4].plans[0].figure"
       ]
     },
     {
@@ -3585,6 +3603,535 @@
       ]
     },
     {
+      "t": "Ane eskolè 2026–27 · chif yo dapre 15 out 2026",
+      "of": "47d9e49a",
+      "at": [
+        "covenant-day:meta"
+      ]
+    },
+    {
+      "t": "De ane an dirèk anmenmtan.",
+      "of": "ab877c57",
+      "at": [
+        "covenant-day:framing[1].title"
+      ]
+    },
+    {
+      "t": "Tab sit entènèt la montre 2026–27 pandan PDF kondisyon pèman ki lye a montre 2025–26. Chak chif isit la nonmen ane li; rapò a kòmanse ak 2026–27.",
+      "of": "6e7cbdf9",
+      "at": [
+        "covenant-day:framing[1].body"
+      ]
+    },
+    {
+      "t": "Asistans frè eskolè pandan w enskri — se pa èd inivèsitè. Se pa konsèy finansye.",
+      "of": "e6f51e0f",
+      "at": [
+        "covenant-day:framing[2].body",
+        "davidson-day:framing[2].body"
+      ]
+    },
+    {
+      "t": "Frè Eskolè pa Nivo",
+      "of": "3e0b286d",
+      "at": [
+        "covenant-day:sections[0].title",
+        "davidson-day:sections[0].title"
+      ]
+    },
+    {
+      "t": "Frè eskolè ki pibliye pa bann grad — to anlè ki pi ba nan konparezon sa a",
+      "of": "a44f57bc",
+      "at": [
+        "covenant-day:sections[0].figureCaption"
+      ]
+    },
+    {
+      "t": "JK & K",
+      "of": "b01d7771",
+      "at": [
+        "covenant-day:sections[0].bands[0].label"
+      ]
+    },
+    {
+      "t": "Kat bann depi junior kindergarten jiska grad 12, yon ekar $7,300. Ogmantasyon depi 2025–26 la te yon $1,200 fiks nan chak bann — yon ogmantasyon an dola, se pa an pousantaj, se poutèt sa bann ki pi jèn nan montre pi gwo chanjman pousantaj la.",
+      "of": "d75b28fb",
+      "at": [
+        "covenant-day:sections[0].figureNote"
+      ]
+    },
+    {
+      "t": "Lekòl la deklare sa frè eskolè a gen ladan — konpitè/iPad sou kanpis, depans teknoloji, retrèt lekòl ak vwayaj sou teren obligatwa, frè laboratwa syans ak elektif, ak pifò depans atletik — yon lis enklizyon plizyè kanmarad pa pibliye.",
+      "of": "b8e82882",
+      "at": [
+        "covenant-day:sections[0].figureNote2"
+      ]
+    },
+    {
+      "t": "Yon lis kout, mòn sitou ki gen pri",
+      "of": "0e601a1a",
+      "at": [
+        "covenant-day:sections[1].componentsTitle"
+      ]
+    },
+    {
+      "t": "Depo enskripsyon · $1,000, kredite nan frè eskolè",
+      "of": "eb5e15b2",
+      "at": [
+        "covenant-day:sections[1].components[0].label"
+      ]
+    },
+    {
+      "t": "Frè plan mansyèl FACTS · $50/an",
+      "of": "e672f5c7",
+      "at": [
+        "covenant-day:sections[1].components[1].label"
+      ]
+    },
+    {
+      "t": "Frè tretman kat · 3.05% nan pèman",
+      "of": "69e6ca60",
+      "at": [
+        "covenant-day:sections[1].components[2].label"
+      ]
+    },
+    {
+      "t": "Extended Day (JK–8) · $58–$248/mwa pa sesyon",
+      "of": "78e3b262",
+      "at": [
+        "covenant-day:sections[1].components[3].label"
+      ]
+    },
+    {
+      "t": "Laptop, grad 9–12 · pote pa w",
+      "of": "b2aae508",
+      "at": [
+        "covenant-day:sections[1].components[4].label"
+      ]
+    },
+    {
+      "t": "Titora / egzamen espesyal andeyò èd nan klas",
+      "of": "4f7152a4",
+      "at": [
+        "covenant-day:sections[1].components[5].label"
+      ]
+    },
+    {
+      "t": "Inifòm (JK–8) / kòd abiman HS",
+      "of": "e05b842c",
+      "at": [
+        "covenant-day:sections[1].components[6].label"
+      ]
+    },
+    {
+      "t": "Lis enklizyon an fè vre travay isit la: retrèt, vwayaj sou teren obligatwa, frè laboratwa ak elektif, ak pifò depans atletik chita anndan frè eskolè a, kidonk bagay anplis ki gen pri yo vrèman piti. Grad 9–12 dwe bay yon laptop ki satisfè espesifikasyon lekòl la.",
+      "of": "68dc28f7",
+      "at": [
+        "covenant-day:sections[1].componentsNote"
+      ]
+    },
+    {
+      "t": "Depo a konnen èd la",
+      "of": "4cae32af",
+      "at": [
+        "covenant-day:sections[1].boxes[0].title"
+      ]
+    },
+    {
+      "t": "Depo $1,000 pa elèv la pa ranbousab epi li kredite nan frè eskolè a — epi fanmi ki soumèt yon aplikasyon èd ki konplè anvan yo enskri ka mande Business Office la **koupe l an mwatye** pandan y ap konsidere aplikasyon an. Men, tann yon desizyon èd san peye depo a vle di pa gen okenn plas ki rezève.",
+      "of": "8445b947",
+      "at": [
+        "covenant-day:sections[1].boxes[0].body"
+      ]
+    },
+    {
+      "t": "Pwosesis ak Kalandriye Èd",
+      "of": "690355d8",
+      "at": [
+        "covenant-day:sections[2].title",
+        "davidson-day:sections[2].title"
+      ]
+    },
+    {
+      "t": "Ak admisyon",
+      "of": "baedc1a0",
+      "at": [
+        "covenant-day:sections[2].timeline[0].when"
+      ]
+    },
+    {
+      "t": "Fanmi soumèt aplikasyon èd la **anmenmtan ak aplikasyon admisyon an**, atravè FACTS — menm platfòm ki jere faktirasyon frè eskolè a",
+      "of": "b8762ba7",
+      "at": [
+        "covenant-day:sections[2].timeline[0].detail"
+      ]
+    },
+    {
+      "t": "Prekondisyon",
+      "of": "30a573d3",
+      "at": [
+        "covenant-day:sections[2].timeline[1].when"
+      ]
+    },
+    {
+      "t": "Prèv aplikasyon pou **NC Opportunity Scholarship** obligatwa anvan yo konsidere okenn èd CDS — yon baryè di okenn lekòl kanmarad isit la pa enpoze",
+      "of": "f72e805a",
+      "at": [
+        "covenant-day:sections[2].timeline[1].detail"
+      ]
+    },
+    {
+      "t": "Lè li fin konplè",
+      "of": "c9d5c23e",
+      "at": [
+        "covenant-day:sections[2].timeline[2].when"
+      ]
+    },
+    {
+      "t": "Yo kominike desizyon yo sèlman lè yon aplikasyon konplè, ki gen ladan tout dokiman sipò",
+      "of": "cea405d7",
+      "at": [
+        "covenant-day:sections[2].timeline[2].detail"
+      ]
+    },
+    {
+      "t": "Pa gen okenn prim plizyè ane — fanmi soumèt yon nouvo aplikasyon chak ane",
+      "of": "7f386677",
+      "at": [
+        "covenant-day:sections[2].timeline[3].detail"
+      ]
+    },
+    {
+      "t": "Platfòm & pòte",
+      "of": "736758b4",
+      "at": [
+        "covenant-day:sections[2].boxes[0].title"
+      ]
+    },
+    {
+      "t": "**FACTS** jere evalyasyon bezwen konfidansyèl la. Èd la baze sou bezwen sèlman, epi se sèlman moun ki responsab pou peye frè eskolè a ki ka aplike. Kontak: Christen Marshall, Student Accounts Coordinator, 704-708-6102.",
+      "of": "23d6f76d",
+      "at": [
+        "covenant-day:sections[2].boxes[0].body"
+      ]
+    },
+    {
+      "t": "Pa gen okenn dat limit èd, okenn kalandriye desizyon, okenn pwosesis apèl, ni okenn règleman plafon prim ki parèt nan dosye piblik la. Frè aplikasyon pou FACTS, si genyen, pa deklare tou.",
+      "of": "5f12ecc0",
+      "at": [
+        "covenant-day:sections[2].boxes[1].body"
+      ]
+    },
+    {
+      "t": "Èd nan Chif",
+      "of": "bd1cf4c6",
+      "at": [
+        "covenant-day:sections[3].navTitle"
+      ]
+    },
+    {
+      "t": "Sa Chif yo Divilge",
+      "of": "d9be712e",
+      "at": [
+        "covenant-day:sections[3].title"
+      ]
+    },
+    {
+      "t": "nan elèv sou èd — chif twazyèm pati sèlman",
+      "of": "e248fc59",
+      "at": [
+        "covenant-day:sections[3].stats[0].label"
+      ]
+    },
+    {
+      "t": "ministè legliz — egzante IRS pou depoze",
+      "of": "fd45ab9c",
+      "at": [
+        "covenant-day:sections[3].stats[1].label"
+      ]
+    },
+    {
+      "t": "total èd, mwayèn, oswa bidjè ki pibliye",
+      "of": "e75ea3c1",
+      "at": [
+        "covenant-day:sections[3].stats[2].label"
+      ]
+    },
+    {
+      "t": "Pati ~20% la soti nan agregatè (PrivateSchoolReview, schooltuitions.org); lekòl la li menm pa pibliye okenn pousantaj, okenn total bay, ni okenn prim mwayèn.",
+      "of": "99fcdce6",
+      "at": [
+        "covenant-day:sections[3].figureNote"
+      ]
+    },
+    {
+      "t": "PA PIBLIYE — EPI PA KA REKIPERE",
+      "of": "98106920",
+      "at": [
+        "covenant-day:sections[3].boxes[0].tag"
+      ]
+    },
+    {
+      "t": "Covenant Day se yon ministè Christ Covenant Church (PCA), epi IRS la deziyen li kòm yon **òganizasyon relijye ki pa oblije depoze Form 990** (EIN 56-1656570, egzante depi 1989). Nonprofit Explorer ProPublica a konfime pa gen okenn depo ki egziste. Chak lòt lekòl nan pwojè sa a se yon moun ki depoze 990 ki ka verifye total èd li kont deklarasyon li — isit la pa gen **okenn depo pou verifye**, kidonk twou a estriktirèl olye ke yon paj k ap tann yo jwenn li.",
+      "of": "07e003e5",
+      "at": [
+        "covenant-day:sections[3].boxes[0].body"
+      ]
+    },
+    {
+      "t": "Rabè & Èd Eta",
+      "of": "e6a0f3f2",
+      "at": [
+        "covenant-day:sections[4].navTitle"
+      ]
+    },
+    {
+      "t": "Merit, Rabè & Bous Eta",
+      "of": "622789d6",
+      "at": [
+        "covenant-day:sections[4].title"
+      ]
+    },
+    {
+      "t": "TOUT ÈD LEKÒL LA BAZE SOU BEZWEN",
+      "of": "6b98e954",
+      "at": [
+        "covenant-day:sections[4].tag"
+      ]
+    },
+    {
+      "t": "Rabè plizyè timoun",
+      "of": "7c2c9ac8",
+      "at": [
+        "covenant-day:sections[4].plans[0].label"
+      ]
+    },
+    {
+      "t": "Sou frè eskolè pou **twazyèm elèv la ak chak elèv anplis** nan menm kay la, aplike sou timoun ki nan grad ki pi ba yo. Fanmi ki gen de timoun pa jwenn anyen.",
+      "of": "cf11a53f",
+      "at": [
+        "covenant-day:sections[4].plans[0].detail"
+      ]
+    },
+    {
+      "t": "$400",
+      "of": "513ce48d",
+      "at": [
+        "covenant-day:sections[4].plans[1].figure"
+      ]
+    },
+    {
+      "t": "Rabè manm Christ Covenant Church",
+      "of": "7601051e",
+      "at": [
+        "covenant-day:sections[4].plans[1].label"
+      ]
+    },
+    {
+      "t": "Pa elèv ki enskri, pou manm legliz espon lan — manm konfime pandan enskripsyon anliy, ak yon dat limit 1ye fevriye pou kalifikasyon ane konplè.",
+      "of": "8daf0b5b",
+      "at": [
+        "covenant-day:sections[4].plans[1].detail"
+      ]
+    },
+    {
+      "t": "NC",
+      "of": "35e678d6",
+      "at": [
+        "covenant-day:sections[4].plans[2].figure"
+      ]
+    },
+    {
+      "t": "Opportunity Scholarship + ESA+",
+      "of": "755390d9",
+      "at": [
+        "covenant-day:sections[4].plans[2].label"
+      ]
+    },
+    {
+      "t": "Lekòl la aksepte toude pwogram NCSEAA administre yo — epi aplike pou Opportunity Scholarship la se yon **prekondisyon** pou èd CDS, kidonk èd eta a se premye kouch chak pake a ki fèt.",
+      "of": "3ebfb56c",
+      "at": [
+        "covenant-day:sections[4].plans[2].detail"
+      ]
+    },
+    {
+      "t": "Pa gen okenn bous merit ki egziste nan dosye piblik la — èd la baze sou bezwen sèlman. Pa gen okenn rabè frè ak sè anvan twazyèm timoun nan, okenn rabè militè oswa klèje, ni okenn règleman remisyon anplwaye ki pibliye.",
+      "of": "c8751142",
+      "at": [
+        "covenant-day:sections[4].boxes[0].body"
+      ]
+    },
+    {
+      "t": "Plan Pèman ak Kondisyon Kontra",
+      "of": "7e5b3eac",
+      "at": [
+        "covenant-day:sections[5].title",
+        "davidson-day:sections[4].title"
+      ]
+    },
+    {
+      "t": "Plan anyèl",
+      "of": "442308c5",
+      "at": [
+        "covenant-day:sections[5].plans[0].label"
+      ]
+    },
+    {
+      "t": "Balans konplè a dwe peye anvan **1ye me** ki vin anvan ane eskolè a. Pa gen okenn rabè prepèman ki pibliye.",
+      "of": "d81f21dc",
+      "at": [
+        "covenant-day:sections[5].plans[0].detail"
+      ]
+    },
+    {
+      "t": "9×",
+      "of": "eafe64d9",
+      "at": [
+        "covenant-day:sections[5].plans[1].figure"
+      ]
+    },
+    {
+      "t": "Plan mansyèl (FACTS)",
+      "of": "28896c7b",
+      "at": [
+        "covenant-day:sections[5].plans[1].label"
+      ]
+    },
+    {
+      "t": "Nèf vèsman egal, **Me jiska Janvye**, otopeye sou 5 oswa 20 — plis yon frè FACTS $50/an. Note sezon an: pèman kòmanse kat mwa anvan lekòl la kòmanse.",
+      "of": "e99f8921",
+      "at": [
+        "covenant-day:sections[5].plans[1].detail"
+      ]
+    },
+    {
+      "t": "3.05%",
+      "of": "9bb9f1aa",
+      "at": [
+        "covenant-day:sections[5].plans[2].figure"
+      ]
+    },
+    {
+      "t": "Sichaj kat",
+      "of": "29880099",
+      "at": [
+        "covenant-day:sections[5].plans[2].label"
+      ]
+    },
+    {
+      "t": "Pèman debi/kredi genyen yon frè processè 3.05%; prelèvman labank evite li. Sou yon frè eskolè $22,790 sa se anviwon $695.",
+      "of": "3ecab72f",
+      "at": [
+        "covenant-day:sections[5].plans[2].detail"
+      ]
+    },
+    {
+      "t": "10",
+      "of": "61efd168",
+      "at": [
+        "covenant-day:sections[5].plans[3].figure"
+      ]
+    },
+    {
+      "t": "Dat limit retrè",
+      "of": "09449783",
+      "at": [
+        "covenant-day:sections[5].plans[3].label"
+      ]
+    },
+    {
+      "t": "Retrè yo dwe ofisyèl anvan 10 mwa a pou sote vèsman mwa sa a; ranbousman egal vèsman ki gen dat pou peye ki poko pase. Fanmi plan mansyèl ki ajou nan pèman yo pa jwenn ranbousman epi yo pa dwe plis.",
+      "of": "f87d5f23",
+      "at": [
+        "covenant-day:sections[5].plans[3].detail"
+      ]
+    },
+    {
+      "t": "Kont ki pa ajou",
+      "of": "e9664408",
+      "at": [
+        "covenant-day:sections[5].boxes[0].title"
+      ]
+    },
+    {
+      "t": "Kont ki gen plis pase 30 jou an reta ka sispann re-enskripsyon, bilten nòt, delivrans relve nòt — ak aksè nan klas. Yon kloz fòs majè estanda kenbe obligasyon frè eskolè yo vivan pandan fèmti yo.",
+      "of": "7d101a4f",
+      "at": [
+        "covenant-day:sections[5].boxes[0].body"
+      ]
+    },
+    {
+      "t": "Tandans lan, ak Sa pou Mande",
+      "of": "ddf5a036",
+      "at": [
+        "covenant-day:sections[6].title"
+      ]
+    },
+    {
+      "t": "ogmantasyon fiks nan chak bann, 2025–26 → 2026–27",
+      "of": "d2ecb683",
+      "at": [
+        "covenant-day:sections[6].stats[0].label"
+      ]
+    },
+    {
+      "t": "bann anlè — frè eskolè anlè ki pi ba nan konparezon sa a",
+      "of": "70a1af95",
+      "at": [
+        "covenant-day:sections[6].stats[1].label"
+      ]
+    },
+    {
+      "t": "nan to ki pibliye (sit entènèt + PDF kondisyon)",
+      "of": "236fb2d1",
+      "at": [
+        "covenant-day:sections[6].stats[2].label"
+      ]
+    },
+    {
+      "t": "Kesyon dosye piblik la pa ka reponn",
+      "of": "b608282c",
+      "at": [
+        "covenant-day:sections[6].questionsTitle"
+      ]
+    },
+    {
+      "t": "Ki pati fanmi ki resevwa èd, epi ki prim mwayèn nan? (Chif ~20% la se twazyèm pati.)",
+      "of": "c63baba4",
+      "at": [
+        "covenant-day:sections[6].questions[0]"
+      ]
+    },
+    {
+      "t": "Ki dat limit aplikasyon èd la, epi ki lè yo pibliye desizyon yo parapò ak kontra enskripsyon yo?",
+      "of": "51da8062",
+      "at": [
+        "covenant-day:sections[6].questions[1]"
+      ]
+    },
+    {
+      "t": "Kijan aplikasyon obligatwa NC Opportunity Scholarship la entèraji ak èd CDS pou fanmi ki depase plafon revni eta a?",
+      "of": "adf1ebc4",
+      "at": [
+        "covenant-day:sections[6].questions[2]"
+      ]
+    },
+    {
+      "t": "Èske gen yon pwosesis apèl oswa chanjman-sikonstans mitan-ane?",
+      "of": "d1ee59df",
+      "at": [
+        "covenant-day:sections[6].questions[3]"
+      ]
+    },
+    {
+      "t": "Èske ogmantasyon fiks-$1,200 la te yon chwa yon ane oswa modèl ki kanpe a?",
+      "of": "22306959",
+      "at": [
+        "covenant-day:sections[6].questions[4]"
+      ]
+    },
+    {
       "t": "Ane eskolè 2026–27 · chif yo dapre 22 jiyè 2026",
       "of": "6f9ac510",
       "at": [
@@ -3599,24 +4146,10 @@
       ]
     },
     {
-      "t": "Asistans frè eskolè pandan w enskri — se pa èd inivèsitè. Se pa konsèy finansye.",
-      "of": "e6f51e0f",
-      "at": [
-        "davidson-day:framing[2].body"
-      ]
-    },
-    {
       "t": "Frè Eskolè pa Divizyon",
       "of": "60483d8b",
       "at": [
         "davidson-day:sections[0].navTitle"
-      ]
-    },
-    {
-      "t": "Frè Eskolè pa Nivo",
-      "of": "3e0b286d",
-      "at": [
-        "davidson-day:sections[0].title"
       ]
     },
     {
@@ -3781,13 +4314,6 @@
       ]
     },
     {
-      "t": "Pwosesis ak Kalandriye Èd",
-      "of": "690355d8",
-      "at": [
-        "davidson-day:sections[2].title"
-      ]
-    },
-    {
       "t": "15 fev.",
       "of": "860084f6",
       "at": [
@@ -3939,13 +4465,6 @@
       "of": "e1c9fd17",
       "at": [
         "davidson-day:sections[3].boxes[1].body"
-      ]
-    },
-    {
-      "t": "Plan Pèman ak Kondisyon Kontra",
-      "of": "7e5b3eac",
-      "at": [
-        "davidson-day:sections[4].title"
       ]
     },
     {

@@ -358,6 +358,7 @@
         "charlotte-latin:counseling.roster[0].role",
         "charlotte-christian:counseling.roster[0].role",
         "charlotte-country-day:counseling.roster[0].role",
+        "covenant-day:counseling.roster[0].role",
         "davidson-day:counseling.roster[0].role"
       ]
     },
@@ -770,6 +771,7 @@
         "charlotte-christian:outcomes.buckets[0].tier",
         "charlotte-country-day:outcomes.buckets[0].tier",
         "cannon:outcomes.buckets[0].tier",
+        "covenant-day:outcomes.buckets[0].tier",
         "davidson-day:outcomes.buckets[0].tier"
       ]
     },
@@ -789,6 +791,7 @@
         "charlotte-christian:outcomes.buckets[1].tier",
         "charlotte-country-day:outcomes.buckets[1].tier",
         "cannon:outcomes.buckets[1].tier",
+        "covenant-day:outcomes.buckets[1].tier",
         "davidson-day:outcomes.buckets[1].tier"
       ]
     },
@@ -808,6 +811,7 @@
         "charlotte-christian:outcomes.buckets[2].tier",
         "charlotte-country-day:outcomes.buckets[2].tier",
         "cannon:outcomes.buckets[2].tier",
+        "covenant-day:outcomes.buckets[2].tier",
         "davidson-day:outcomes.buckets[2].tier"
       ]
     },
@@ -820,6 +824,7 @@
         "charlotte-christian:outcomes.buckets[3].tier",
         "charlotte-country-day:outcomes.buckets[3].tier",
         "cannon:outcomes.buckets[3].tier",
+        "covenant-day:outcomes.buckets[3].tier",
         "davidson-day:outcomes.buckets[3].tier"
       ]
     },
@@ -839,6 +844,7 @@
         "charlotte-christian:outcomes.buckets[4].tier",
         "charlotte-country-day:outcomes.buckets[4].tier",
         "cannon:outcomes.buckets[4].tier",
+        "covenant-day:outcomes.buckets[4].tier",
         "davidson-day:outcomes.buckets[4].tier"
       ]
     },
@@ -847,6 +853,31 @@
       "of": "5e31be7c",
       "at": [
         "providence-day:outcomes.buckets[4].note"
+      ]
+    },
+    {
+      "t": "HBCUs",
+      "of": "d6316d90",
+      "at": [
+        "providence-day:outcomes.buckets[5].tier",
+        "charlotte-latin:outcomes.buckets[5].tier",
+        "charlotte-christian:outcomes.buckets[5].tier",
+        "charlotte-country-day:outcomes.buckets[5].tier",
+        "cannon:outcomes.buckets[5].tier",
+        "covenant-day:outcomes.buckets[5].tier",
+        "davidson-day:outcomes.buckets[5].tier"
+      ]
+    },
+    {
+      "t": "— ঐতিহ্যগতভাবে কৃষ্ণাঙ্গ কলেজ ও বিশ্ববিদ্যালয়",
+      "of": "92578ef1",
+      "at": [
+        "providence-day:outcomes.buckets[5].note",
+        "charlotte-latin:outcomes.buckets[5].note",
+        "charlotte-christian:outcomes.buckets[5].note",
+        "charlotte-country-day:outcomes.buckets[5].note",
+        "cannon:outcomes.buckets[5].note",
+        "davidson-day:outcomes.buckets[5].note"
       ]
     },
     {
@@ -861,7 +892,8 @@
       "of": "3e53dcd1",
       "at": [
         "providence-day:outcomes.collegesTitle",
-        "charlotte-country-day:outcomes.collegesTitle"
+        "charlotte-country-day:outcomes.collegesTitle",
+        "covenant-day:outcomes.collegesTitle"
       ]
     },
     {
@@ -5698,6 +5730,1072 @@
       ]
     },
     {
+      "t": "2026 সালে 96% AP পরীক্ষার স্কোর ছিল 3 বা তার বেশি — 84% থেকে পাঁচ বছরের উত্থানের চূড়া — এবং প্রত্যেক AP শিক্ষার্থীকে পরীক্ষায় বসতেই হয়।",
+      "of": "84b2a316",
+      "at": [
+        "covenant-day:transcript.headline"
+      ]
+    },
+    {
+      "t": "একটি গেট-করা AP প্রোগ্রাম: freshman-দের জন্য কিছুই নয়, sophomore-দের জন্য একটি, তার ওপর Covenant College-এর মাধ্যমে dual enrollment যুক্ত।",
+      "of": "904c11c3",
+      "at": [
+        "covenant-day:transcript.subhead"
+      ]
+    },
+    {
+      "t": "96%",
+      "of": "3ec55d39",
+      "at": [
+        "covenant-day:transcript.stats[0].value",
+        "covenant-day:transcript.merit[3].detail"
+      ]
+    },
+    {
+      "t": "AP পরীক্ষা 2026-এ 3+ স্কোর পেয়েছে (401টি পরীক্ষা, 179 জন শিক্ষার্থী)",
+      "of": "862a26d7",
+      "at": [
+        "covenant-day:transcript.stats[0].label"
+      ]
+    },
+    {
+      "t": "78%",
+      "of": "8ddb95bd",
+      "at": [
+        "covenant-day:transcript.stats[1].value"
+      ]
+    },
+    {
+      "t": "AP স্কোর ছিল 4 বা 5",
+      "of": "c75a93a8",
+      "at": [
+        "covenant-day:transcript.stats[1].label"
+      ]
+    },
+    {
+      "t": "1263 / 26",
+      "of": "84da6f50",
+      "at": [
+        "covenant-day:transcript.stats[2].value"
+      ]
+    },
+    {
+      "t": "Class of 2026-এর SAT / ACT গড়",
+      "of": "edb21e19",
+      "at": [
+        "covenant-day:transcript.stats[2].label"
+      ]
+    },
+    {
+      "t": "80%",
+      "of": "489f4e50",
+      "at": [
+        "covenant-day:transcript.stats[3].value"
+      ]
+    },
+    {
+      "t": "HS শিক্ষকের উচ্চতর ডিগ্রি আছে",
+      "of": "06766e5d",
+      "at": [
+        "covenant-day:transcript.stats[3].label"
+      ]
+    },
+    {
+      "t": "প্রোফাইল যেভাবে দেখায়, সেই পাঁচ-বছরের AP রেখা",
+      "of": "59fe91a7",
+      "at": [
+        "covenant-day:transcript.meritTitle"
+      ]
+    },
+    {
+      "t": "84% AP পরীক্ষার স্কোর 3+",
+      "of": "303fe98e",
+      "at": [
+        "covenant-day:transcript.merit[0].detail"
+      ]
+    },
+    {
+      "t": "93% — Class of 2023: 161 জন শিক্ষার্থী, 324টি পরীক্ষা; SAT 1268 / ACT 26",
+      "of": "07ee0fba",
+      "at": [
+        "covenant-day:transcript.merit[1].detail"
+      ]
+    },
+    {
+      "t": "92% — Class of 2024: 168 জন শিক্ষার্থী, 344টি পরীক্ষা; SAT 1243 / ACT 27",
+      "of": "33052257",
+      "at": [
+        "covenant-day:transcript.merit[2].detail"
+      ]
+    },
+    {
+      "t": "96% — 38 জন AP Scholar with Distinction, 27 জন with Honor, 33 জন Scholar",
+      "of": "ac2871bc",
+      "at": [
+        "covenant-day:transcript.merit[4].detail"
+      ]
+    },
+    {
+      "t": "2006 সাল থেকে — প্রথম স্নাতক শ্রেণি — স্কুল 28 জন National Merit Finalist ও 70 জন Commended শিক্ষার্থী গোনে, যে হিসাব সর্বশেষ দুটি প্রোফাইল সংস্করণের মধ্যে দুজন Finalist ও নয়জন Commended বেড়েছে।",
+      "of": "3e057851",
+      "at": [
+        "covenant-day:transcript.meritNote"
+      ]
+    },
+    {
+      "t": "কঠোরতার কাঠামো",
+      "of": "a09f8c3a",
+      "at": [
+        "covenant-day:transcript.depthTitle"
+      ]
+    },
+    {
+      "t": "ওয়েটিং",
+      "of": "edbd8b07",
+      "at": [
+        "covenant-day:transcript.depth[0].label"
+      ]
+    },
+    {
+      "t": "A+ = 4.33 unweighted; Honors +0.5; Dual Enrollment ও AP +1.0। GPA গণনা করা হয় সব বিষয়ে, গ্রেড 9–12।",
+      "of": "11fd1ffc",
+      "at": [
+        "covenant-day:transcript.depth[0].text"
+      ]
+    },
+    {
+      "t": "AP গেটিং",
+      "of": "d0cc78dc",
+      "at": [
+        "covenant-day:transcript.depth[1].label"
+      ]
+    },
+    {
+      "t": "freshman-দের জন্য কোনো AP নয়; sophomore-রা একটিতেই সীমাবদ্ধ। প্রোফাইল নিজেই junior-বর্ষে দুটি ও senior-বর্ষে চারটি AP-কে \"a very demanding course load\" বলে।",
+      "of": "2bedee47",
+      "at": [
+        "covenant-day:transcript.depth[1].text"
+      ]
+    },
+    {
+      "t": "Dual enrollment",
+      "of": "38db84b5",
+      "at": [
+        "covenant-day:transcript.depth[2].label"
+      ]
+    },
+    {
+      "t": "Honors Calculus, Statistics, ও Literature & Philosophy Covenant College ক্রেডিট বহন করে; SevenStar Academy অনলাইনে ক্যাটালগটি বাড়িয়ে দেয়, যা ট্রান্সক্রিপ্টে উল্লেখ থাকে।",
+      "of": "327c7075",
+      "at": [
+        "covenant-day:transcript.depth[2].text"
+      ]
+    },
+    {
+      "t": "স্নাতক",
+      "of": "2c9a19d1",
+      "at": [
+        "covenant-day:transcript.depth[3].label"
+      ]
+    },
+    {
+      "t": "25টি Carnegie Unit, যার মধ্যে 3 ইউনিট Bible (প্রতি বছর একটি Bible কোর্স) ও একটি Fine Arts ইউনিট।",
+      "of": "66232648",
+      "at": [
+        "covenant-day:transcript.depth[3].text"
+      ]
+    },
+    {
+      "t": "কেন কলেজগুলো গ্রেড পড়তে পারে",
+      "of": "592a74ee",
+      "at": [
+        "covenant-day:transcript.trustTitle"
+      ]
+    },
+    {
+      "t": "প্রত্যেক AP শিক্ষার্থী পরীক্ষা দেয়",
+      "of": "032ac683",
+      "at": [
+        "covenant-day:transcript.trust[0].label"
+      ]
+    },
+    {
+      "t": "AP কোর্সে ভর্তি সব শিক্ষার্থীকে পরীক্ষা দিতে হয় — তাই 96% পাসের হার পুরো AP জনগোষ্ঠীকে ধরে, নিজে-বেছে-নেওয়া কোনো অংশকে নয়।",
+      "of": "f8ae4f11",
+      "at": [
+        "covenant-day:transcript.trust[0].text"
+      ]
+    },
+    {
+      "t": "র‍্যাঙ্ক নেই, পুরোটা স্পষ্ট করে বলা",
+      "of": "333f99d3",
+      "at": [
+        "covenant-day:transcript.trust[1].label"
+      ]
+    },
+    {
+      "t": "\"Due to the small class size and the college-bound nature of Covenant Day’s population, we believe that class rank is not a strong discriminator… Therefore, we do not rank.\"",
+      "of": "ac0cddf4",
+      "at": [
+        "covenant-day:transcript.trust[1].text"
+      ]
+    },
+    {
+      "t": "AP কোর্স-সংখ্যা ভর্তি অনুযায়ী বদলায়: 2026–27 প্রোফাইল ম্যাট্রিক্সে 15টি AP, কিন্তু 2024–25 সংস্করণে 18 পর্যন্ত (যেখানে AP Calculus BC, Human Geography ও French ছিল)। আপনার শিক্ষার্থীর বছরে আসলে কোন AP গুলো চলে জিজ্ঞেস করুন।",
+      "of": "0d9419f3",
+      "at": [
+        "covenant-day:transcript.flags[0].text"
+      ]
+    },
+    {
+      "t": "85 জন senior-এর জন্য একজন নিবেদিত কলেজ কাউন্সেলিং পরিচালক — স্কুলে তাঁর 23তম বছর — এই তুলনায় সবচেয়ে ভারী কেসলোড।",
+      "of": "bd58af0d",
+      "at": [
+        "covenant-day:counseling.headline"
+      ]
+    },
+    {
+      "t": "দপ্তরটি পণ্য-ধাঁচের নয়, সম্পর্ক-নির্ভর: গাইডেন্সে ত্রিশ বছরের অভিজ্ঞতাসম্পন্ন একজন NACCAP Professional of the Year, যিনি junior ও senior-দের সঙ্গে নিয়মিত দেখা করেন।",
+      "of": "e562b9cf",
+      "at": [
+        "covenant-day:counseling.subhead"
+      ]
+    },
+    {
+      "t": "85:1",
+      "of": "1a9bb18f",
+      "at": [
+        "covenant-day:counseling.stats[0].value"
+      ]
+    },
+    {
+      "t": "প্রতি নিবেদিত কলেজ কাউন্সেলরে senior",
+      "of": "5adf229b",
+      "at": [
+        "covenant-day:counseling.stats[0].label"
+      ]
+    },
+    {
+      "t": "2003",
+      "of": "d32ea22a",
+      "at": [
+        "covenant-day:counseling.stats[1].value"
+      ]
+    },
+    {
+      "t": "Covenant Day-তে পরিচালকের কার্যকালের শুরু",
+      "of": "0b1237e2",
+      "at": [
+        "covenant-day:counseling.stats[1].label"
+      ]
+    },
+    {
+      "t": "4",
+      "of": "310ca263",
+      "at": [
+        "covenant-day:counseling.stats[2].value"
+      ]
+    },
+    {
+      "t": "গাইডেন্স দপ্তরের লোক",
+      "of": "6193d170",
+      "at": [
+        "covenant-day:counseling.stats[2].label"
+      ]
+    },
+    {
+      "t": "2003 থেকে Director of Guidance and College Counseling; গাইডেন্স ও কলেজ কাউন্সেলিংয়ে ত্রিশ বছর; BA Oklahoma Wesleyan, MA Winthrop; NACCAP K-12 Professional of the Year হিসেবে নির্বাচিত।",
+      "of": "f68e9044",
+      "at": [
+        "covenant-day:counseling.roster[0].detail"
+      ]
+    },
+    {
+      "t": "কাউন্সেলর",
+      "of": "be7455dd",
+      "at": [
+        "covenant-day:counseling.roster[1].role"
+      ]
+    },
+    {
+      "t": "2016 থেকে Guidance Counselor। BA UNC Chapel Hill; MA Georgia State; সাবেক Reformed Theological Seminary registrar।",
+      "of": "f22262c9",
+      "at": [
+        "covenant-day:counseling.roster[1].detail"
+      ]
+    },
+    {
+      "t": "ব্যক্তিগত",
+      "of": "6e5a8cad",
+      "at": [
+        "covenant-day:counseling.roster[2].role"
+      ]
+    },
+    {
+      "t": "2021 থেকে Licensed Marriage and Family Therapist — ক্লিনিক্যাল ভূমিকা, কলেজ দপ্তর থেকে আলাদা।",
+      "of": "b949d7c4",
+      "at": [
+        "covenant-day:counseling.roster[2].detail"
+      ]
+    },
+    {
+      "t": "সহকারী",
+      "of": "da502cc7",
+      "at": [
+        "covenant-day:counseling.roster[3].role"
+      ]
+    },
+    {
+      "t": "2012 থেকে Guidance Assistant।",
+      "of": "4b9cb104",
+      "at": [
+        "covenant-day:counseling.roster[3].detail"
+      ]
+    },
+    {
+      "t": "প্রকাশিত ছন্দ",
+      "of": "27929f35",
+      "at": [
+        "covenant-day:counseling.timelineTitle"
+      ]
+    },
+    {
+      "t": "কোর্স-পরিকল্পনা",
+      "of": "59d95ace",
+      "at": [
+        "covenant-day:counseling.timeline[0].intensity"
+      ]
+    },
+    {
+      "t": "কোর্স নির্বাচনে একাডেমিক পরামর্শ",
+      "of": "6b726c19",
+      "at": [
+        "covenant-day:counseling.timeline[0].items[0]"
+      ]
+    },
+    {
+      "t": "কোর্সওয়ার্ক, গ্রেড ও শিক্ষকের মতামতের মাধ্যমে Honors/AP স্থাপন",
+      "of": "b87c4229",
+      "at": [
+        "covenant-day:counseling.timeline[0].items[1]"
+      ]
+    },
+    {
+      "t": "নিম্নশ্রেণির কোনো আনুষ্ঠানিক কাউন্সেলিং পাঠক্রম প্রকাশিত নয়।",
+      "of": "9a135e1d",
+      "at": [
+        "covenant-day:counseling.timeline[0].note"
+      ]
+    },
+    {
+      "t": "কলেজমুখী",
+      "of": "82074407",
+      "at": [
+        "covenant-day:counseling.timeline[1].intensity"
+      ]
+    },
+    {
+      "t": "দপ্তরটি \"meets with juniors and seniors throughout their high school careers\"",
+      "of": "0fbb4a4e",
+      "at": [
+        "covenant-day:counseling.timeline[1].items[0]"
+      ]
+    },
+    {
+      "t": "কোর্স-পরিকল্পনা থেকে আবেদন ও বৃত্তি-অনুসন্ধান পর্যন্ত এক-এক করে সহায়তা",
+      "of": "50dea1b3",
+      "at": [
+        "covenant-day:counseling.timeline[1].items[1]"
+      ]
+    },
+    {
+      "t": "College Representatives পাতার মাধ্যমে কলেজ প্রতিনিধিদের সফর",
+      "of": "e23b580e",
+      "at": [
+        "covenant-day:counseling.timeline[1].items[2]"
+      ]
+    },
+    {
+      "t": "দপ্তর যা যা করে বলে জানায়",
+      "of": "c669b4fb",
+      "at": [
+        "covenant-day:counseling.mechanicsTitle",
+        "davidson-day:counseling.mechanicsTitle"
+      ]
+    },
+    {
+      "t": "কলেজ লক্ষ্যের দিকে কোর্স-পরিকল্পনা",
+      "of": "fbdca05d",
+      "at": [
+        "covenant-day:counseling.mechanics[0]"
+      ]
+    },
+    {
+      "t": "একটি শক্তিশালী আবেদন গড়ে তোলা",
+      "of": "50a6d813",
+      "at": [
+        "covenant-day:counseling.mechanics[1]"
+      ]
+    },
+    {
+      "t": "বৃত্তির সুযোগ চিহ্নিত করা",
+      "of": "474f3f9a",
+      "at": [
+        "covenant-day:counseling.mechanics[2]"
+      ]
+    },
+    {
+      "t": "একাডেমিক পরামর্শ ও শিক্ষার্থী কাউন্সেলিং",
+      "of": "1b8e9314",
+      "at": [
+        "covenant-day:counseling.mechanics[3]"
+      ]
+    },
+    {
+      "t": "বার্ষিক High School Profile (CEEB 342532)",
+      "of": "68f6453b",
+      "at": [
+        "covenant-day:counseling.mechanics[4]"
+      ]
+    },
+    {
+      "t": "প্রোফাইলটিই দপ্তরের আবেদন-নথি: একটি দুই-পৃষ্ঠার PDF-এ ওয়েটিং কি, র‍্যাঙ্ক নীতি, AP গেটিং ও ভর্তি তালিকা, বছরে হালনাগাদ হয় — তিনটি সংস্করণ যাচাই করা।",
+      "of": "ad999ad4",
+      "at": [
+        "covenant-day:counseling.mechanicsNote"
+      ]
+    },
+    {
+      "t": "NACCAP সদস্যপদ সাথে একজন Professional of the Year পরিচালক — Christian-college ভর্তি-মহলে নাম-পরিচিতি",
+      "of": "d0e6345d",
+      "at": [
+        "covenant-day:counseling.reach[0]"
+      ]
+    },
+    {
+      "t": "মূলধারার দিকে NACAC সদস্যপদ",
+      "of": "804352a3",
+      "at": [
+        "covenant-day:counseling.reach[1]"
+      ]
+    },
+    {
+      "t": "PCA-র সম্প্রদায়গত কলেজ Covenant College-এর সঙ্গে একটি স্থায়ী dual-enrollment সংযোগ",
+      "of": "e59be429",
+      "at": [
+        "covenant-day:counseling.reach[2]"
+      ]
+    },
+    {
+      "t": "গ্রেড-ভিত্তিক কোনো কাউন্সেলিং সময়রেখা প্রকাশিত নয় — কেবল junior/senior বৈঠকের ছন্দ — এবং প্রকাশ্য সাইটের কোথাও কোনো কলেজ-কাউন্সেলিং প্ল্যাটফর্ম (Naviance, Scoir)-এর নাম নেই।",
+      "of": "ed6115ca",
+      "at": [
+        "covenant-day:counseling.flags[0].text"
+      ]
+    },
+    {
+      "t": "85:1 অনুপাতটি নির্ণীত (85 জন senior ÷ 1 জন নিবেদিত পরিচালক)। দ্বিতীয় guidance counselor কলেজ-বহির্ভূত কাজ সামলান, তাই প্রকৃত কলেজ কেসলোড শিরোনামের চেয়ে হালকা হতে পারে — কিন্তু স্কুল কখনো তা জানায় না।",
+      "of": "5aa20a9b",
+      "at": [
+        "covenant-day:counseling.flags[1].text"
+      ]
+    },
+    {
+      "t": "প্রকাশিত 2023–2026 ভর্তি তালিকায় 225টি প্রতিষ্ঠান — ভর্তিগুলো মোটা হরফে, তাই শিক্ষার্থীরা আসলে কোথায় গেছে তা দেখা যায়।",
+      "of": "c18f5e7d",
+      "at": [
+        "covenant-day:outcomes.headline"
+      ]
+    },
+    {
+      "t": "বর্তমান জানালাটি Dartmouth, Penn ও Duke পর্যন্ত পৌঁছায় — তিনটিই ভর্তি হিসেবে মোটা হরফে — সবচেয়ে গভীর কেন্দ্রীভবন NC পাবলিক ও Christian college-গুলোতে।",
+      "of": "38c3d828",
+      "at": [
+        "covenant-day:outcomes.subhead"
+      ]
+    },
+    {
+      "t": "225",
+      "of": "2aec76b0",
+      "at": [
+        "covenant-day:outcomes.stats[0].value"
+      ]
+    },
+    {
+      "t": "2023–2026 ভর্তি তালিকায় প্রতিষ্ঠান",
+      "of": "22722825",
+      "at": [
+        "covenant-day:outcomes.stats[0].label"
+      ]
+    },
+    {
+      "t": "85",
+      "of": "8d01a276",
+      "at": [
+        "covenant-day:outcomes.stats[1].value"
+      ]
+    },
+    {
+      "t": "Class of 2027-এ senior",
+      "of": "959c71e8",
+      "at": [
+        "covenant-day:outcomes.stats[1].label"
+      ]
+    },
+    {
+      "t": "2 / 8",
+      "of": "10390c08",
+      "at": [
+        "covenant-day:outcomes.stats[2].value"
+      ]
+    },
+    {
+      "t": "তালিকায় Ivy — Dartmouth ও Penn, দুটোতেই ভর্তি হওয়া শিক্ষার্থী আছে",
+      "of": "e054b495",
+      "at": [
+        "covenant-day:outcomes.stats[2].label"
+      ]
+    },
+    {
+      "t": "46 / 68",
+      "of": "26efa6ac",
+      "at": [
+        "covenant-day:outcomes.stats[3].value"
+      ]
+    },
+    {
+      "t": "তালিকায় Power Four বিশ্ববিদ্যালয়",
+      "of": "b8886520",
+      "at": [
+        "covenant-day:outcomes.stats[3].label"
+      ]
+    },
+    {
+      "t": "— Dartmouth, Penn; দুটোই মোটা হরফে (ভর্তি হয়েছে)",
+      "of": "7e4a8d1a",
+      "at": [
+        "covenant-day:outcomes.buckets[0].note"
+      ]
+    },
+    {
+      "t": "— Duke যোগ করে, সেটিও মোটা হরফে",
+      "of": "1f0fcb47",
+      "at": [
+        "covenant-day:outcomes.buckets[1].note"
+      ]
+    },
+    {
+      "t": "— Davidson থেকে Gettysburg পর্যন্ত",
+      "of": "6c33fc44",
+      "at": [
+        "covenant-day:outcomes.buckets[3].note"
+      ]
+    },
+    {
+      "t": "— 14 ACC · 12 SEC · 11 Big Ten · 9 Big 12",
+      "of": "b6fea221",
+      "at": [
+        "covenant-day:outcomes.buckets[4].note"
+      ]
+    },
+    {
+      "t": "— Fayetteville State, Johnson C. Smith, NC A&T",
+      "of": "105763b7",
+      "at": [
+        "covenant-day:outcomes.buckets[5].note"
+      ]
+    },
+    {
+      "t": "এই গবেষণায় স্কুলের প্রকাশিত তালিকা 2026 U.S. News টেবিলের বিপরীতে মিলিয়ে নির্ণীত — এখানকার অন্য স্কুলগুলোর জন্য ব্যবহৃত একই তালিকা, স্কুলের জানানো সংখ্যা নয়। আগেকার জানালাগুলো বেশি ছিল: 2018–2023-এর উল্লেখযোগ্যদের মধ্যে Stanford, MIT, Princeton, Brown, Cornell ও Vanderbilt আছে, এবং 2021–2024 তালিকা পাঁচটি UC ক্যাম্পাস যোগ করে।",
+      "of": "a8ba4c89",
+      "at": [
+        "covenant-day:outcomes.bucketsNote"
+      ]
+    },
+    {
+      "t": "2023–2026 তালিকায় 225টি প্রতিষ্ঠান",
+      "of": "bcab2e95",
+      "at": [
+        "covenant-day:outcomes.collegesTotal"
+      ]
+    },
+    {
+      "t": "বৃত্তির ডলার-মোট নেই — তিনটি প্রোফাইল সংস্করণেই যাচাই করা",
+      "of": "515f2614",
+      "at": [
+        "covenant-day:outcomes.scholarships[0]"
+      ]
+    },
+    {
+      "t": "শ্রেণি-ভিত্তিক কোনো ভর্তি বিভাজন নেই — তালিকাগুলো বহু-বছরের জানালা",
+      "of": "6ea1f8df",
+      "at": [
+        "covenant-day:outcomes.scholarships[1]"
+      ]
+    },
+    {
+      "t": "ভর্তির-হারের কোনো শতাংশ নেই",
+      "of": "6c917bc8",
+      "at": [
+        "covenant-day:outcomes.scholarships[2]"
+      ]
+    },
+    {
+      "t": "মোটা-হরফ-মানে-ভর্তি রীতিটি নিজেই একটি অস্বাভাবিক প্রকাশ: যেহেতু দুটি প্রকাশিত তালিকাই এটি বহন করে এবং 2023–24 শ্রেণিতে পরস্পর মিলে যায়, তাই ভর্তির সুযোগ ও প্রকৃত ভর্তি সংস্করণ জুড়ে ক্রস-যাচাই করা যায়।",
+      "of": "a83cb3d4",
+      "at": [
+        "covenant-day:outcomes.scholarshipsNote"
+      ]
+    },
+    {
+      "t": "একটি বহু-বছরের ক্রমযোজিত তালিকা প্রশস্ততা দেখায়, হার নয়: প্রতিটি নাম মানে ~85 জনের চারটি স্নাতক শ্রেণিজুড়ে অন্তত একটি ভর্তির সুযোগ, আর মোটা হরফ মানে অন্তত একটি ভর্তি।",
+      "of": "9cf88b3c",
+      "at": [
+        "covenant-day:outcomes.caveat"
+      ]
+    },
+    {
+      "t": "মোটা-হরফের ভর্তি-নামগুলো PDF-এর ফন্ট-ডেটা থেকে উদ্ধার করা (সাধারণ টেক্সট নিষ্কাশন মোটা হরফ বাদ দেয়) — কিছু জায়গায় মিলিয়ে দেখা, তবে যন্ত্রে নিষ্কাশিত। ভর্তি তালিকাটি নিজে পরিষ্কারভাবেই নিষ্কাশিত হয়েছে।",
+      "of": "28c1398a",
+      "at": [
+        "covenant-day:outcomes.flags[0].text"
+      ]
+    },
+    {
+      "t": "পার্থক্য গড়ে দেয় গভীরতার গল্পগুলো: এমন একটি বিভাগ যা অন্য কোনো স্কুলের নেই, Pine Ridge-এ একটি আবাসন নির্মাণ, এবং PCA-র নিজস্ব কলেজ থেকে কলেজ ক্রেডিট।",
+      "of": "d330b2c8",
+      "at": [
+        "covenant-day:edge.headline"
+      ]
+    },
+    {
+      "t": "কোনো গবেষণা-কর্মসূচি বা Olympiad সনদ নেই — এখানকার সুবিধাটি স্বাতন্ত্র্য ও পাঠযোগ্যতা, জাতীয় প্রতিযোগিতার ফলাফল নয়।",
+      "of": "35b93e0a",
+      "at": [
+        "covenant-day:edge.subhead"
+      ]
+    },
+    {
+      "t": "Restoration & Sustainability",
+      "of": "e088ebd6",
+      "at": [
+        "covenant-day:edge.levers[0].title"
+      ]
+    },
+    {
+      "t": "নিজস্ব একটি বিভাগ",
+      "of": "3cd6e523",
+      "at": [
+        "covenant-day:edge.levers[0].hint"
+      ]
+    },
+    {
+      "t": "নিজস্ব পরিচালকসহ (Dr. Rebeca Burnett) একটি নামযুক্ত হাই-স্কুল বিভাগ — এই স্কুলগুলোর মধ্যে অনন্য",
+      "of": "2e078542",
+      "at": [
+        "covenant-day:edge.levers[0].items[0]"
+      ]
+    },
+    {
+      "t": "কোর্স-ধাপ: Augustine Literacy Project, Intercultural Practicum, Introduction to Engineering, Restore525",
+      "of": "bf0e7ec7",
+      "at": [
+        "covenant-day:edge.levers[0].items[1]"
+      ]
+    },
+    {
+      "t": "প্রোফাইল এটিকে একটি স্বতন্ত্র বর্ণনামূলক অংশ দেয় — এমন একটি ট্রান্সক্রিপ্ট লাইন যা Charlotte-অঞ্চলের অন্য কোনো আবেদনকারী বহন করে না",
+      "of": "21fab3bd",
+      "at": [
+        "covenant-day:edge.levers[0].items[2]"
+      ]
+    },
+    {
+      "t": "স্বাক্ষর-প্রকল্প",
+      "of": "d1dec935",
+      "at": [
+        "covenant-day:edge.levers[1].title"
+      ]
+    },
+    {
+      "t": "যা নিয়ে একটি প্রবন্ধ লেখা হয়",
+      "of": "1df6a140",
+      "at": [
+        "covenant-day:edge.levers[1].hint"
+      ]
+    },
+    {
+      "t": "Senior Capstone Project — প্রতিটি শিক্ষার্থীর জন্য একটি নামযুক্ত মাইলফলক",
+      "of": "0aed2dfc",
+      "at": [
+        "covenant-day:edge.levers[1].items[0]"
+      ]
+    },
+    {
+      "t": "ContainIt: হাই স্কুলের শিক্ষার্থীরা Pine Ridge Reservation-এ 30+ কিশোরের আবাসনের জন্য শিপিং কন্টেইনার রূপান্তর করছে",
+      "of": "ad7f33af",
+      "at": [
+        "covenant-day:edge.levers[1].items[1]"
+      ]
+    },
+    {
+      "t": "বক্তৃতার দিকে McKnight Oratory ও Mock Trial (2025 রাজ্য রানার-আপ courtroom artist)",
+      "of": "b9ee6eb8",
+      "at": [
+        "covenant-day:edge.levers[1].items[2]"
+      ]
+    },
+    {
+      "t": "পাঠযোগ্য কঠোরতা",
+      "of": "0dc25c94",
+      "at": [
+        "covenant-day:edge.levers[2].title"
+      ]
+    },
+    {
+      "t": "ভর্তি-পর্যালোচক যা দেখেন",
+      "of": "9de81089",
+      "at": [
+        "covenant-day:edge.levers[2].hint"
+      ]
+    },
+    {
+      "t": "AP ম্যাট্রিক্সের ওপরে Covenant College dual-enrollment ক্রেডিট",
+      "of": "98b17a99",
+      "at": [
+        "covenant-day:edge.levers[2].items[0]"
+      ]
+    },
+    {
+      "t": "প্রত্যেক-AP-শিক্ষার্থী-পরীক্ষা-দেয় নীতি 96% পাসের হারকে পুরো প্রোগ্রামের ওপর প্রযোজ্য করে",
+      "of": "761cf44a",
+      "at": [
+        "covenant-day:edge.levers[2].items[1]"
+      ]
+    },
+    {
+      "t": "র‍্যাঙ্ক-না-করার নীতি সাথে একটি পূর্ণ ওয়েটিং কি পাঠকদের প্রেক্ষাপটে কঠোরতা পুনর্গঠন করতে দেয়",
+      "of": "427aa388",
+      "at": [
+        "covenant-day:edge.levers[2].items[2]"
+      ]
+    },
+    {
+      "t": "সহায়তা-মডেলটি সম্পর্ক-নির্ভর — NACCAP মহলে 30 বছরের একজন পরিচালক — কোনো পণ্য-ধাঁচের প্রবন্ধ-বুটক্যাম্প পাঠক্রম নয়, এবং স্কুল পরেরটির কিছুই প্রকাশ করে না।",
+      "of": "69acb25e",
+      "at": [
+        "covenant-day:edge.levers[2].note"
+      ]
+    },
+    {
+      "t": "শক্ত সমষ্টি, কোনো বণ্টন নেই: শ্রেণি-ভিত্তিক SAT/ACT গড় ও একটি পাঁচ-বছরের AP রেখা, তবে কোনো ধরনের quantile নেই — নীতিগতভাবেই।",
+      "of": "edfd902e",
+      "at": [
+        "covenant-day:wholeClass.headline"
+      ]
+    },
+    {
+      "t": "\"We do not rank\" ডেটা পর্যন্ত বিস্তৃত: যে স্কুল র‍্যাঙ্ক করতে অস্বীকার করে সে বণ্টন-তালিকাও প্রকাশ করে না।",
+      "of": "0fa0d6a7",
+      "at": [
+        "covenant-day:wholeClass.subhead"
+      ]
+    },
+    {
+      "t": "SAT ও ACT শ্রেণি-গড়",
+      "of": "3a9fd1db",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[0].title"
+      ]
+    },
+    {
+      "t": "— প্রকাশিত অনুযায়ী, প্রতি প্রোফাইল সংস্করণে",
+      "of": "6b6fdb19",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[0].hint"
+      ]
+    },
+    {
+      "t": "Class of 2026",
+      "of": "39fd4622",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[0].rows[0].label"
+      ]
+    },
+    {
+      "t": "Class of 2024",
+      "of": "37fd42fc",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[0].rows[1].label"
+      ]
+    },
+    {
+      "t": "Class of 2023",
+      "of": "36fd4169",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[0].rows[2].label"
+      ]
+    },
+    {
+      "t": "5-বছরের গড়",
+      "of": "70411f3a",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[0].rows[3].label"
+      ]
+    },
+    {
+      "t": "কেবল গড় — কোনো পার্সেন্টাইল নেই, মধ্য-50% নেই, পরীক্ষার্থী-সংখ্যা নেই।",
+      "of": "c8c9d4c7",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[0].note"
+      ]
+    },
+    {
+      "t": "AP Scholar স্তর, Class of 2026",
+      "of": "6f9ebe94",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[1].title"
+      ]
+    },
+    {
+      "t": "Scholars with Distinction",
+      "of": "06bc0058",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[1].rows[0].label"
+      ]
+    },
+    {
+      "t": "Scholars with Honor",
+      "of": "19d3db86",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[1].rows[1].label"
+      ]
+    },
+    {
+      "t": "AP Scholars",
+      "of": "29009ddb",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[1].rows[2].label"
+      ]
+    },
+    {
+      "t": "179 জন AP শিক্ষার্থীর বিপরীতে 98টি scholar পদবি — স্কুল যা প্রকাশ করে তার মধ্যে শ্রেণির-আকৃতির সবচেয়ে কাছাকাছি প্রকাশ।",
+      "of": "f9036062",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[1].note"
+      ]
+    },
+    {
+      "t": "তিনটি প্রোফাইল সংস্করণের কোনোটিতেই GPA বণ্টন নেই — কোনো সর্বোচ্চ/মধ্যক/সর্বনিম্ন নেই, কোনো quintile নেই। ওয়েটিং কি (4.33 / +0.5 / +1.0)-ই পুরো GPA প্রকাশ।",
+      "of": "7089b697",
+      "at": [
+        "covenant-day:wholeClass.gpaNote"
+      ]
+    },
+    {
+      "t": "Learning specialist",
+      "of": "1b064661",
+      "at": [
+        "covenant-day:wholeClass.support[0].label"
+      ]
+    },
+    {
+      "t": "হাই স্কুল কর্মী-তালিকায় পাঁচজন Learning Specialist ও একজন Academic Resources Director — 350-শিক্ষার্থীর একটি হাই স্কুলের জন্য একটি সত্যিকারের সহায়তা-দল।",
+      "of": "7a6547dd",
+      "at": [
+        "covenant-day:wholeClass.support[0].text"
+      ]
+    },
+    {
+      "t": "ক্লিনিক্যাল কাউন্সেলিং",
+      "of": "04aaa979",
+      "at": [
+        "covenant-day:wholeClass.support[1].label"
+      ]
+    },
+    {
+      "t": "কর্মীদলে একজন Licensed Marriage and Family Therapist (Emily Lee), কলেজ দপ্তর থেকে আলাদা।",
+      "of": "f46714d6",
+      "at": [
+        "covenant-day:wholeClass.support[1].text"
+      ]
+    },
+    {
+      "t": "দাম-দেওয়া সহায়তা",
+      "of": "51afb9a1",
+      "at": [
+        "covenant-day:wholeClass.support[2].label"
+      ]
+    },
+    {
+      "t": "টিউশনের শর্তে প্রকাশ পায় যে শ্রেণিকক্ষের সহায়তার বাইরে টিউটরিং ও বিশেষ পরীক্ষা অতিরিক্ত খরচে পাওয়া যায় — একটি অব্যক্ত নয়, বরং একটি ঘোষিত, দাম-দেওয়া পথ।",
+      "of": "bbf90589",
+      "at": [
+        "covenant-day:wholeClass.support[2].text"
+      ]
+    },
+    {
+      "t": "AP গেটিং (freshman-দের জন্য কিছুই নয়, sophomore-দের জন্য একটি) নিজেই একটি পুরো-শ্রেণির সুরক্ষা-বেড়া: কঠোরতা উন্মুক্ত-ভর্তির বদলে প্রস্তুতি অনুযায়ী সাজানো।",
+      "of": "409c6128",
+      "at": [
+        "covenant-day:wholeClass.supportNote"
+      ]
+    },
+    {
+      "t": "তালিকাটি পরিসর দেখায়",
+      "of": "5ed235e4",
+      "at": [
+        "covenant-day:wholeClass.middle[0].label"
+      ]
+    },
+    {
+      "t": "মোটা-হরফের ভর্তিগুলো Dartmouth ও Duke থেকে শুরু করে Covenant College, Cedarville, Montreat, কমিউনিটি কলেজ ও কারিগরি-ঘেঁষা কর্মসূচি পর্যন্ত বিস্তৃত — কেবল শীর্ষ চতুর্থাংশকে স্থাপনকারী একটি স্কুল এমন বিস্তার তৈরি করত না।",
+      "of": "00394520",
+      "at": [
+        "covenant-day:wholeClass.middle[0].text"
+      ]
+    },
+    {
+      "t": "NC-পাবলিক মেরুদণ্ড",
+      "of": "6dee07d4",
+      "at": [
+        "covenant-day:wholeClass.middle[1].label"
+      ]
+    },
+    {
+      "t": "ভর্তির সবচেয়ে গভীর কেন্দ্রীভবন Chapel Hill, NC State, UNC Charlotte, App State ও East Carolina-তে — যে গন্তব্যগুলো একটি North Carolina শ্রেণির প্রশস্ত মাঝের অংশকে সেবা দেয়।",
+      "of": "89123c5a",
+      "at": [
+        "covenant-day:wholeClass.middle[1].text"
+      ]
+    },
+    {
+      "t": "কোথাও কোনো বণ্টন প্রকাশিত নয়: কোনো GPA quantile নেই, কোনো স্কোর পার্সেন্টাইল নেই, শ্রেণি-ভিত্তিক কোনো ভর্তির হার নেই। এই কার্ডটি ওপরের সমষ্টিগুলোসহ আসে কারণ সেগুলো সত্যিই তথ্যপূর্ণ — কিন্তু শ্রেণির আকৃতি প্রকাশ্য উৎস থেকে পুনরুদ্ধারযোগ্য নয়, আর তা স্কুলের নিজস্ব র‍্যাঙ্ক-না-করার নীতিরই ফল।",
+      "of": "59ca5e57",
+      "at": [
+        "covenant-day:wholeClass.flags[0].text"
+      ]
+    },
+    {
+      "t": "অস্বাভাবিকভাবে ভারী কাউন্সেলর কেসলোডসহ একটি কঠোর, পাঠযোগ্য একাডেমিক পণ্য — এবং এমন প্রকাশ যা ফলাফল নিয়ে চমৎকার, প্রক্রিয়া নিয়ে নীরব।",
+      "of": "69b1bef2",
+      "at": [
+        "covenant-day:verdict.headline"
+      ]
+    },
+    {
+      "t": "প্রোফাইল কলেজগুলোকে প্রায় সবকিছু বলে; কাউন্সেলিং আসলে কীভাবে কাজ করে সে বিষয়ে ওয়েবসাইট অভিভাবকদের অনেক কম বলে।",
+      "of": "ca00efcd",
+      "at": [
+        "covenant-day:verdict.subhead"
+      ]
+    },
+    {
+      "t": "AP-এর গল্পটি সত্যিই শক্তিশালী",
+      "of": "f6a80b4d",
+      "at": [
+        "covenant-day:verdict.points[0].label"
+      ]
+    },
+    {
+      "t": "96% পরীক্ষা 3+-এ, 78% 4–5-এ, একটি বাধ্যতামূলক-পরীক্ষা নীতিসহ যা সংখ্যাটিকে সৎ করে তোলে, আর তার সমর্থনে একটি পাঁচ-বছরের ঊর্ধ্বমুখী রেখা।",
+      "of": "9ef0b2cc",
+      "at": [
+        "covenant-day:verdict.points[0].text"
+      ]
+    },
+    {
+      "t": "এই তুলনায় সবচেয়ে ভারী কেসলোড",
+      "of": "34a1dadb",
+      "at": [
+        "covenant-day:verdict.points[1].label"
+      ]
+    },
+    {
+      "t": "85 জন senior-এর জন্য একজন নিবেদিত কলেজ কাউন্সেলর — NACCAP-এ স্বীকৃত একজন 23-বছরের পরিচালক দ্বারা লাঘব হওয়া, তবে এমন একটি অনুপাত যা নিয়ে অভিভাবকের সরাসরি জিজ্ঞেস করা উচিত।",
+      "of": "27e38dc0",
+      "at": [
+        "covenant-day:verdict.points[1].text"
+      ]
+    },
+    {
+      "t": "ভর্তি আসলেই দৃশ্যমান",
+      "of": "08e83102",
+      "at": [
+        "covenant-day:verdict.points[2].label"
+      ]
+    },
+    {
+      "t": "দুটি পরস্পর-মিলে-যাওয়া বহু-বছরের তালিকায় মোটা-হরফের চিহ্ন আপনাকে শিক্ষার্থীরা কোথায় ভর্তি হয়েছে তা যাচাই করতে দেয়, কেবল কোথায় ভর্তির সুযোগ পেয়েছে তা নয় — এমন প্রকাশ সমপর্যায়ের স্কুলগুলো কদাচিৎ দেয়।",
+      "of": "25cc137a",
+      "at": [
+        "covenant-day:verdict.points[2].text"
+      ]
+    },
+    {
+      "t": "সিলিং সত্যি, তবে বিক্ষিপ্ত",
+      "of": "f7cee28e",
+      "at": [
+        "covenant-day:verdict.points[3].label"
+      ]
+    },
+    {
+      "t": "বর্তমান জানালায় Dartmouth, Penn ও Duke-এ ভর্তি; Stanford/MIT/Princeton আগেকার জানালার। নির্ভরযোগ্য শক্তি হলো NC পাবলিক ও Christian-college নেটওয়ার্ক।",
+      "of": "c520f92f",
+      "at": [
+        "covenant-day:verdict.points[3].text"
+      ]
+    },
+    {
+      "t": "প্রক্রিয়ার প্রকাশ পাতলা",
+      "of": "c79e63c4",
+      "at": [
+        "covenant-day:verdict.points[4].label"
+      ]
+    },
+    {
+      "t": "কোনো কাউন্সেলিং সময়রেখা নেই, কোনো প্ল্যাটফর্মের নাম নেই, কোনো প্রবন্ধ বা আবেদন কর্মসূচি প্রকাশিত নয় — মডেলটি পরিচালকের সম্পর্কের ওপর চলে।",
+      "of": "c0ffc133",
+      "at": [
+        "covenant-day:verdict.points[4].text"
+      ]
+    },
+    {
+      "t": "সর্বোচ্চ মৌসুমে একজন পরিচালক কীভাবে 85 জন senior সামলান — junior-বসন্ত / senior-শরতের ক্যালেন্ডার আসলে কেমন দেখতে?",
+      "of": "023f3612",
+      "at": [
+        "covenant-day:verdict.checklist[0]"
+      ]
+    },
+    {
+      "t": "পরিবারগুলো কোন প্ল্যাটফর্ম ব্যবহার করে — Naviance, Scoir, নাকি অন্য কিছু — এবং শিক্ষার্থীরা কখন প্রবেশাধিকার পায়?",
+      "of": "8e676aa4",
+      "at": [
+        "covenant-day:verdict.checklist[1]"
+      ]
+    },
+    {
+      "t": "আগামী বছর আসলে কোন AP কোর্সগুলো চলবে? ম্যাট্রিক্স সংস্করণের মধ্যে 18 থেকে 15-তে নেমেছে।",
+      "of": "08041c00",
+      "at": [
+        "covenant-day:verdict.checklist[2]"
+      ]
+    },
+    {
+      "t": "গত বছরের শ্রেণিটি গড়ের বাইরে কেমন ছিল — কতজন পরীক্ষা দিয়েছে, এবং শ্রেণির মাঝের অংশ কোথায় পৌঁছেছে?",
+      "of": "9b784a6a",
+      "at": [
+        "covenant-day:verdict.checklist[3]"
+      ]
+    },
+    {
+      "t": "অন্য কোথাও আবেদন করছে এমন একটি পরিবারের জন্য NC Opportunity Scholarship পূর্বশর্ত সহায়তার সময়রেখার সঙ্গে কীভাবে কাজ করে?",
+      "of": "236a647b",
+      "at": [
+        "covenant-day:verdict.checklist[4]"
+      ]
+    },
+    {
       "t": "Davidson Day তাদের গ্রেডিংয়ের পুরো ব্যবস্থাই প্রকাশ করে — স্কেল, ওয়েটিং, এবং GPA থেকে কী কী বাদ যায় তার অস্বাভাবিক রকমের স্পষ্ট একটি তালিকা — কিন্তু AP পরীক্ষার কোনো ফল বা National Merit-এর কোনো হিসাবই নেই।",
       "of": "410e02c8",
       "at": [
@@ -6010,13 +7108,6 @@
       "of": "8e8558b1",
       "at": [
         "davidson-day:counseling.timeline[1].note"
-      ]
-    },
-    {
-      "t": "দপ্তর যা যা করে বলে জানায়",
-      "of": "c669b4fb",
-      "at": [
-        "davidson-day:counseling.mechanicsTitle"
       ]
     },
     {
@@ -6640,30 +7731,6 @@
       "of": "660d65b7",
       "at": [
         "davidson-day:verdict.checklist[7]"
-      ]
-    },
-    {
-      "t": "HBCUs",
-      "of": "d6316d90",
-      "at": [
-        "providence-day:outcomes.buckets[5].tier",
-        "charlotte-latin:outcomes.buckets[5].tier",
-        "charlotte-christian:outcomes.buckets[5].tier",
-        "charlotte-country-day:outcomes.buckets[5].tier",
-        "cannon:outcomes.buckets[5].tier",
-        "davidson-day:outcomes.buckets[5].tier"
-      ]
-    },
-    {
-      "t": "— ঐতিহ্যগতভাবে কৃষ্ণাঙ্গ কলেজ ও বিশ্ববিদ্যালয়",
-      "of": "92578ef1",
-      "at": [
-        "providence-day:outcomes.buckets[5].note",
-        "charlotte-latin:outcomes.buckets[5].note",
-        "charlotte-christian:outcomes.buckets[5].note",
-        "charlotte-country-day:outcomes.buckets[5].note",
-        "cannon:outcomes.buckets[5].note",
-        "davidson-day:outcomes.buckets[5].note"
       ]
     }
   ]

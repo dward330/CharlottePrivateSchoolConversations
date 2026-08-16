@@ -51,7 +51,8 @@
       "at": [
         "providence-day:coverage.rows[3].dismissal",
         "providence-day:coverage.rows[4].dismissal",
-        "charlotte-country-day:coverage.rows[3].dismissal"
+        "charlotte-country-day:coverage.rows[3].dismissal",
+        "covenant-day:coverage.rows[2].dismissal"
       ]
     },
     {
@@ -1007,7 +1008,8 @@
       "t": "sortie 1:30",
       "of": "273811b2",
       "at": [
-        "charlotte-latin:coverage.rows[0].dismissal"
+        "charlotte-latin:coverage.rows[0].dismissal",
+        "covenant-day:coverage.rows[0].dismissal"
       ]
     },
     {
@@ -1258,7 +1260,8 @@
       "at": [
         "charlotte-latin:cost.fees[1].label",
         "charlotte-christian:cost.fees[0].label",
-        "cannon:cost.fees[0].label"
+        "cannon:cost.fees[0].label",
+        "covenant-day:cost.fees[2].label"
       ]
     },
     {
@@ -1274,7 +1277,8 @@
       "t": "Frais de récupération tardive",
       "of": "295637c8",
       "at": [
-        "charlotte-latin:cost.fees[2].label"
+        "charlotte-latin:cost.fees[2].label",
+        "covenant-day:cost.fees[3].label"
       ]
     },
     {
@@ -1296,7 +1300,9 @@
       "of": "010e3b1d",
       "at": [
         "charlotte-latin:cost.fees[4].value",
-        "charlotte-christian:cost.fees[0].value"
+        "charlotte-christian:cost.fees[0].value",
+        "covenant-day:cost.fees[2].value",
+        "covenant-day:cost.fees[3].value"
       ]
     },
     {
@@ -2020,7 +2026,8 @@
       "at": [
         "charlotte-christian:coverage.rows[2].dismissal",
         "cannon:coverage.rows[0].dismissal",
-        "cannon:coverage.rows[1].dismissal"
+        "cannon:coverage.rows[1].dismissal",
+        "covenant-day:coverage.rows[1].dismissal"
       ]
     },
     {
@@ -2688,7 +2695,8 @@
       "t": "sortie 3:15",
       "of": "10af78c9",
       "at": [
-        "charlotte-country-day:coverage.rows[4].dismissal"
+        "charlotte-country-day:coverage.rows[4].dismissal",
+        "covenant-day:coverage.rows[3].dismissal"
       ]
     },
     {
@@ -2723,7 +2731,8 @@
       "t": "Accès libre",
       "of": "966da620",
       "at": [
-        "charlotte-country-day:coverage.facts[1].label"
+        "charlotte-country-day:coverage.facts[1].label",
+        "covenant-day:cost.fees[0].label"
       ]
     },
     {
@@ -4291,6 +4300,307 @@
       "of": "20bfe9a7",
       "at": [
         "cannon:verdict.checklist[9]"
+      ]
+    },
+    {
+      "t": "Accueil du matin gratuit dès 7:30 a.m. pour tous, puis Extended Day jusqu’à 6:00 p.m. pour la JK–8 en sessions superposées de 90 minutes.",
+      "of": "86343d28",
+      "at": [
+        "covenant-day:coverage.headline"
+      ]
+    },
+    {
+      "t": "La session d’1.5 heure est l’unité de tout : la JK/K en a besoin de trois pour atteindre 6:00, les niveaux 1–8 en ont besoin de deux. Le lycée n’a pas d’accueil après les cours.",
+      "of": "7014b76d",
+      "at": [
+        "covenant-day:coverage.subhead"
+      ]
+    },
+    {
+      "t": "Les prix indiqués correspondent au tarif mensuel sur cinq jours par formule — chaque session coûte **$248/mois à raison de cinq jours par semaine**, et un nombre de jours inférieur coûte moins cher ($58–$206). Ouvrez **The Cost Planner** ci-dessous pour chiffrer n’importe quelle combinaison.",
+      "of": "8a753a75",
+      "at": [
+        "covenant-day:coverage.basisNote"
+      ]
+    },
+    {
+      "t": "Pas d’accueil après les cours — sport (82% de pratiquants) et activités à la place",
+      "of": "113736c8",
+      "at": [
+        "covenant-day:coverage.rows[3].flatLabel"
+      ]
+    },
+    {
+      "t": "Accueil du matin gratuit",
+      "of": "70f8ac2c",
+      "at": [
+        "covenant-day:coverage.facts[0].label"
+      ]
+    },
+    {
+      "t": "de **7:30 a.m.** jusqu’au début des cours, sans frais, dans toute l’école — le seul accueil du matin gratuit de cette comparaison",
+      "of": "126cd133",
+      "at": [
+        "covenant-day:coverage.facts[0].text"
+      ]
+    },
+    {
+      "t": "Début tardif le mercredi",
+      "of": "09092e31",
+      "at": [
+        "covenant-day:coverage.facts[1].label"
+      ]
+    },
+    {
+      "t": "tous les niveaux commencent à **8:50 a.m.** au lieu de 8:15 — l’accueil du matin absorbe la différence sans frais",
+      "of": "7e8edab5",
+      "at": [
+        "covenant-day:coverage.facts[1].text"
+      ]
+    },
+    {
+      "t": "Enrichissement",
+      "of": "42d5db5c",
+      "at": [
+        "covenant-day:coverage.facts[2].label"
+      ]
+    },
+    {
+      "t": "des cours après les cours distincts en **musique, art, sport, robotique et expériences en plein air** s’inscrivent sur LionsWeb ; le catalogue lui-même se trouve derrière le login",
+      "of": "6ad38f7e",
+      "at": [
+        "covenant-day:coverage.facts[2].text"
+      ]
+    },
+    {
+      "t": "Aucun catalogue de cours d’enrichissement n’est public — l’inscription LionsWeb est protégée par un login, de sorte que les noms des cours, les jours, les niveaux et les tarifs ne sont pas publiés. Des listes tierces citent des cours de piano/guitare/chant, de la peinture et une After School Children’s Choir (niveaux 3–5).",
+      "of": "217da97d",
+      "at": [
+        "covenant-day:coverage.flags[0].text"
+      ]
+    },
+    {
+      "t": "Une seule échelle, multipliée : $58–$248 par mois et par session de 90 minutes, selon le nombre de jours par semaine — le vrai coût tient donc au nombre de sessions qu’impose votre heure de sortie.",
+      "of": "baad0c26",
+      "at": [
+        "covenant-day:cost.headline"
+      ]
+    },
+    {
+      "t": "Août et décembre sont facturés à exactement la moitié, c’est pourquoi le tableau annuel de l’école elle-même ($522–$6,696 « for 10 Months ») est moins cher que dix fois le tarif mensuel.",
+      "of": "5afd7613",
+      "at": [
+        "covenant-day:cost.subhead"
+      ]
+    },
+    {
+      "t": "10 mois de facturation (août et décembre à demi-tarif)",
+      "of": "eb9c94cc",
+      "at": [
+        "covenant-day:cost.periodsLabel"
+      ]
+    },
+    {
+      "t": "JK–K · jusqu’à 6:00 (3 sessions)",
+      "of": "a419b8e7",
+      "at": [
+        "covenant-day:cost.rows[0].label"
+      ]
+    },
+    {
+      "t": "JK et Kindergarten · 1:30–6:00 pm, les trois sessions",
+      "of": "dda4d3e7",
+      "at": [
+        "covenant-day:cost.rows[0].panelLabel"
+      ]
+    },
+    {
+      "t": "Niv. 1–8 · jusqu’à 6:00 (2 sessions)",
+      "of": "09e514ec",
+      "at": [
+        "covenant-day:cost.rows[1].label"
+      ]
+    },
+    {
+      "t": "Niveaux 1–8 · sortie–6:00 pm, deux sessions",
+      "of": "8adae596",
+      "at": [
+        "covenant-day:cost.rows[1].panelLabel"
+      ]
+    },
+    {
+      "t": "Tout niveau · 1 session",
+      "of": "e4dbc194",
+      "at": [
+        "covenant-day:cost.rows[2].label"
+      ]
+    },
+    {
+      "t": "Une session d’1.5 heure (p. ex. sortie–4:30 pm)",
+      "of": "ff131fa9",
+      "at": [
+        "covenant-day:cost.rows[2].panelLabel"
+      ]
+    },
+    {
+      "t": "Le tableau annuel de l’école elle-même est la façon la moins chère de l’acheter.",
+      "of": "2ae7c293",
+      "at": [
+        "covenant-day:cost.aside.title"
+      ]
+    },
+    {
+      "t": "Facturée « for 10 Months », une session cinq jours par semaine revient à **$2,232** (contre $2,480 à 10× le tarif mensuel) et la pile complète de trois sessions sur cinq jours pour la JK/K revient à **$6,696** — le demi-tarif d’août et de décembre est déjà intégré. L’accueil du matin dès 7:30 a.m. est gratuit dans les deux cas.",
+      "of": "1329b6d8",
+      "at": [
+        "covenant-day:cost.aside.text"
+      ]
+    },
+    {
+      "t": "$20 / session",
+      "of": "9af88ab0",
+      "at": [
+        "covenant-day:cost.fees[0].value"
+      ]
+    },
+    {
+      "t": "Accueil du matin (7:30 a.m.–début)",
+      "of": "b7a364a6",
+      "at": [
+        "covenant-day:cost.fees[1].label"
+      ]
+    },
+    {
+      "t": "gratuit",
+      "of": "99b3eedb",
+      "at": [
+        "covenant-day:cost.fees[1].value"
+      ]
+    },
+    {
+      "t": "Les lignes à plusieurs sessions ci-dessus correspondent à l’échelle par session **additionnée par le chercheur** — l’école facture les sessions individuellement ($20 en accès libre à $248/mois) et ne publie les totaux cumulés que sur son tableau annuel.",
+      "of": "29b8785b",
+      "at": [
+        "covenant-day:cost.fees[4].label"
+      ]
+    },
+    {
+      "t": "Les totaux mensuels à plusieurs sessions (p. ex. **$744/mo** pour la JK/K jusqu’à 6:00) sont calculés en cumulant les tarifs par session publiés par l’école ; le chiffre publié par l’école elle-même pour cette formule est le montant annuel de **$6,696**. La colonne à session unique est reprise mot pour mot.",
+      "of": "69628d4c",
+      "at": [
+        "covenant-day:cost.flags[0].text"
+      ]
+    },
+    {
+      "t": "Les tarifs ne sont pas datés sur la page Extended Day — vérifiez qu’ils sont à jour pour 2026–27 avant d’établir votre budget.",
+      "of": "b99bfa3b",
+      "at": [
+        "covenant-day:cost.flags[1].text"
+      ]
+    },
+    {
+      "t": "Le prix d’entrée le plus favorable aux parents de cet ensemble — accueil du matin gratuit, accès libre à $20 — avec un système de sessions qui triple discrètement pour les familles les plus jeunes.",
+      "of": "68287d25",
+      "at": [
+        "covenant-day:verdict.headline"
+      ]
+    },
+    {
+      "t": "La couverture correspond au standard des pairs à 6:00 p.m. ; l’opacité du catalogue est la seule véritable lacune.",
+      "of": "d7a336d0",
+      "at": [
+        "covenant-day:verdict.subhead"
+      ]
+    },
+    {
+      "t": "**Accueil du matin gratuit dès 7:30 a.m., dans toute l’école** — tous les pairs présentés ici font payer l’accueil du matin. Le début tardif du mercredi à 8:50 est lui aussi absorbé gratuitement.",
+      "of": "883c4fee",
+      "at": [
+        "covenant-day:verdict.strengths[0]"
+      ]
+    },
+    {
+      "t": "**Une souplesse réelle** : accès libre à $20, paliers selon le nombre de jours, de un à cinq jours, et un tableau annuel dans lequel les mois à demi-tarif sont déjà intégrés.",
+      "of": "c1a117a1",
+      "at": [
+        "covenant-day:verdict.strengths[1]"
+      ]
+    },
+    {
+      "t": "**Une couverture jusqu’à 6:00 p.m. pour la JK–8** correspond à la meilleure heure de récupération de cette comparaison.",
+      "of": "4eca5b2f",
+      "at": [
+        "covenant-day:verdict.strengths[2]"
+      ]
+    },
+    {
+      "t": "**La tarification publiée est complète et paraît à jour** — tableaux mensuel et annuel tous les deux, sur une page active, avec la règle d’août/décembre énoncée en clair.",
+      "of": "fd71c89a",
+      "at": [
+        "covenant-day:verdict.strengths[3]"
+      ]
+    },
+    {
+      "t": "**Le système de sessions se cumule pour la JK/K** : une sortie à 1:30 signifie trois sessions superposées pour atteindre 6:00 — $744 par mois au tarif mensuel, contre un tarif affiché à session unique de $248 qu’il est facile de prendre à tort pour le coût total.",
+      "of": "4354b5de",
+      "at": [
+        "covenant-day:verdict.watchouts[0]"
+      ]
+    },
+    {
+      "t": "**Pas d’accueil après les cours pour les niveaux 9–12** — les lycéens sortent à 3:15 pour rejoindre le sport ou des activités, non un programme encadré.",
+      "of": "24019d56",
+      "at": [
+        "covenant-day:verdict.watchouts[1]"
+      ]
+    },
+    {
+      "t": "**Le catalogue d’enrichissement est invisible** — cinq noms de catégories et un mur de connexion. Aucun cours, jour, tranche de niveaux ou tarif n’est public.",
+      "of": "fcb2d2d7",
+      "at": [
+        "covenant-day:verdict.watchouts[2]"
+      ]
+    },
+    {
+      "t": "**Aucun frais de récupération tardive n’est publié**, ce qui signifie généralement qu’il en existe un dans le livret des parents — à demander.",
+      "of": "fbffe09a",
+      "at": [
+        "covenant-day:verdict.watchouts[3]"
+      ]
+    },
+    {
+      "t": "Les tarifs Extended Day affichés sont-ils à jour pour 2026–27, et quand sont-ils réactualisés ?",
+      "of": "a51b6d19",
+      "at": [
+        "covenant-day:verdict.checklist[0]"
+      ]
+    },
+    {
+      "t": "Quels cours d’enrichissement fonctionnent réellement cette année sur LionsWeb, quels jours et à quels tarifs ?",
+      "of": "702d9e5d",
+      "at": [
+        "covenant-day:verdict.checklist[1]"
+      ]
+    },
+    {
+      "t": "Que se passe-t-il après 6:00 p.m. — y a-t-il des frais de récupération tardive, et comment sont-ils facturés ?",
+      "of": "596c6ee6",
+      "at": [
+        "covenant-day:verdict.checklist[2]"
+      ]
+    },
+    {
+      "t": "L’Extended Day fonctionne-t-il les jours de sortie anticipée et les jours de réunions parents-professeurs ?",
+      "of": "d84511c9",
+      "at": [
+        "covenant-day:verdict.checklist[3]"
+      ]
+    },
+    {
+      "t": "Pour les familles de JK/K : un enfant peut-il assister uniquement à la session de 1:30–3:00 certains jours et rester jusqu’à 6:00 d’autres jours, en mélangeant les nombres de jours d’une session à l’autre ?",
+      "of": "0e37c080",
+      "at": [
+        "covenant-day:verdict.checklist[4]"
       ]
     },
     {

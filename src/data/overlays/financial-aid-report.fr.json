@@ -11,6 +11,7 @@
         "charlotte-christian:title",
         "charlotte-country-day:title",
         "cannon:title",
+        "covenant-day:title",
         "davidson-day:title"
       ]
     },
@@ -31,6 +32,7 @@
         "charlotte-christian:framing[0].title",
         "charlotte-country-day:framing[0].title",
         "cannon:framing[0].title",
+        "covenant-day:framing[0].title",
         "davidson-day:framing[0].title"
       ]
     },
@@ -69,6 +71,7 @@
         "charlotte-christian:framing[2].title",
         "charlotte-country-day:framing[2].title",
         "cannon:framing[2].title",
+        "covenant-day:framing[2].title",
         "davidson-day:framing[2].title"
       ]
     },
@@ -128,7 +131,8 @@
       "of": "c2d451ca",
       "at": [
         "providence-day:sections[0].bands[2].label",
-        "charlotte-latin:sections[0].bands[1].label"
+        "charlotte-latin:sections[0].bands[1].label",
+        "covenant-day:sections[0].bands[1].label"
       ]
     },
     {
@@ -167,6 +171,8 @@
         "cannon:sections[0].boxes[0].tag",
         "cannon:sections[2].boxes[2].tag",
         "cannon:sections[3].boxes[1].tag",
+        "covenant-day:sections[2].boxes[1].tag",
+        "covenant-day:sections[4].boxes[0].tag",
         "davidson-day:sections[2].boxes[2].tag"
       ]
     },
@@ -397,6 +403,7 @@
         "charlotte-latin:sections[2].navTitle",
         "charlotte-country-day:sections[2].navTitle",
         "cannon:sections[2].navTitle",
+        "covenant-day:sections[2].navTitle",
         "davidson-day:sections[2].navTitle"
       ]
     },
@@ -459,6 +466,7 @@
         "providence-day:sections[2].timeline[3].when",
         "charlotte-country-day:sections[2].timeline[3].when",
         "cannon:sections[2].timeline[3].when",
+        "covenant-day:sections[2].timeline[3].when",
         "davidson-day:sections[2].timeline[3].when"
       ]
     },
@@ -763,6 +771,7 @@
         "charlotte-latin:sections[5].navTitle",
         "charlotte-country-day:sections[4].navTitle",
         "cannon:sections[4].navTitle",
+        "covenant-day:sections[5].navTitle",
         "davidson-day:sections[4].navTitle"
       ]
     },
@@ -783,7 +792,8 @@
         "providence-day:sections[5].plans[0].figure",
         "charlotte-christian:sections[4].plans[1].figure",
         "charlotte-country-day:sections[4].plans[1].figure",
-        "cannon:sections[4].plans[0].figure"
+        "cannon:sections[4].plans[0].figure",
+        "covenant-day:sections[5].plans[0].figure"
       ]
     },
     {
@@ -906,6 +916,7 @@
         "charlotte-christian:sections[5].navTitle",
         "charlotte-country-day:sections[5].navTitle",
         "cannon:sections[5].navTitle",
+        "covenant-day:sections[6].navTitle",
         "davidson-day:sections[5].navTitle"
       ]
     },
@@ -1076,6 +1087,7 @@
         "charlotte-christian:framing[0].body",
         "charlotte-country-day:framing[0].body",
         "cannon:framing[0].body",
+        "covenant-day:framing[0].body",
         "davidson-day:framing[0].body"
       ]
     },
@@ -1104,7 +1116,8 @@
       "t": "Niveaux 6–8",
       "of": "914e6250",
       "at": [
-        "charlotte-latin:sections[0].bands[2].label"
+        "charlotte-latin:sections[0].bands[2].label",
+        "covenant-day:sections[0].bands[2].label"
       ]
     },
     {
@@ -1114,7 +1127,8 @@
         "charlotte-latin:sections[0].bands[3].label",
         "charlotte-country-day:sections[0].bands[4].label",
         "cannon:sections[0].bands[4].label",
-        "cannon:sections[3].ranges[2].label"
+        "cannon:sections[3].ranges[2].label",
+        "covenant-day:sections[0].bands[3].label"
       ]
     },
     {
@@ -1936,7 +1950,8 @@
       "t": "Frais de scolarité par tranche",
       "of": "098bc98f",
       "at": [
-        "charlotte-christian:sections[0].navTitle"
+        "charlotte-christian:sections[0].navTitle",
+        "covenant-day:sections[0].navTitle"
       ]
     },
     {
@@ -2017,6 +2032,7 @@
       "of": "09c013ce",
       "at": [
         "charlotte-christian:sections[1].navTitle",
+        "covenant-day:sections[1].navTitle",
         "davidson-day:sections[1].navTitle"
       ]
     },
@@ -2025,6 +2041,7 @@
       "of": "e742ffd4",
       "at": [
         "charlotte-christian:sections[1].title",
+        "covenant-day:sections[1].title",
         "davidson-day:sections[1].title"
       ]
     },
@@ -2424,7 +2441,8 @@
       "t": "$1,500",
       "of": "7634a7b9",
       "at": [
-        "charlotte-christian:sections[4].plans[0].figure"
+        "charlotte-christian:sections[4].plans[0].figure",
+        "covenant-day:sections[4].plans[0].figure"
       ]
     },
     {
@@ -3585,6 +3603,535 @@
       ]
     },
     {
+      "t": "Année scolaire 2026–27 · chiffres au 15 août 2026",
+      "of": "47d9e49a",
+      "at": [
+        "covenant-day:meta"
+      ]
+    },
+    {
+      "t": "Deux années coexistent à la fois.",
+      "of": "ab877c57",
+      "at": [
+        "covenant-day:framing[1].title"
+      ]
+    },
+    {
+      "t": "Le tableau du site indique 2026–27 tandis que le PDF des conditions de paiement lié indique 2025–26. Chaque chiffre ici nomme son année ; le rapport privilégie 2026–27.",
+      "of": "6e7cbdf9",
+      "at": [
+        "covenant-day:framing[1].body"
+      ]
+    },
+    {
+      "t": "Aide aux frais de scolarité pendant la scolarité — et non aide aux études supérieures. Ne constitue pas un conseil financier.",
+      "of": "e6f51e0f",
+      "at": [
+        "covenant-day:framing[2].body",
+        "davidson-day:framing[2].body"
+      ]
+    },
+    {
+      "t": "Frais de scolarité par niveau",
+      "of": "3e0b286d",
+      "at": [
+        "covenant-day:sections[0].title",
+        "davidson-day:sections[0].title"
+      ]
+    },
+    {
+      "t": "Frais de scolarité publiés par tranche de niveaux — le tarif supérieur le plus bas de cette comparaison",
+      "of": "a44f57bc",
+      "at": [
+        "covenant-day:sections[0].figureCaption"
+      ]
+    },
+    {
+      "t": "JK et K",
+      "of": "b01d7771",
+      "at": [
+        "covenant-day:sections[0].bands[0].label"
+      ]
+    },
+    {
+      "t": "Quatre tranches, de la junior kindergarten à la 12e année, avec un écart de $7,300. La hausse par rapport à 2025–26 était d’un montant fixe de $1,200 à chaque tranche — une augmentation en dollars, non en pourcentage, ce qui explique pourquoi la tranche la plus jeune affiche la plus forte variation en pourcentage.",
+      "of": "d75b28fb",
+      "at": [
+        "covenant-day:sections[0].figureNote"
+      ]
+    },
+    {
+      "t": "L’école précise ce que les frais de scolarité incluent — ordinateurs/iPads sur le campus, dépenses technologiques, retraites scolaires et sorties scolaires obligatoires, frais de laboratoire de sciences et d’options, et la plupart des dépenses sportives — une liste d’éléments inclus que plusieurs pairs ne publient pas.",
+      "of": "b8e82882",
+      "at": [
+        "covenant-day:sections[0].figureNote2"
+      ]
+    },
+    {
+      "t": "Une liste courte, presque entièrement tarifée",
+      "of": "0e601a1a",
+      "at": [
+        "covenant-day:sections[1].componentsTitle"
+      ]
+    },
+    {
+      "t": "Acompte d’inscription · $1,000, imputé aux frais de scolarité",
+      "of": "eb5e15b2",
+      "at": [
+        "covenant-day:sections[1].components[0].label"
+      ]
+    },
+    {
+      "t": "Frais du plan mensuel FACTS · $50/an",
+      "of": "e672f5c7",
+      "at": [
+        "covenant-day:sections[1].components[1].label"
+      ]
+    },
+    {
+      "t": "Frais de traitement par carte · 3.05% du paiement",
+      "of": "69e6ca60",
+      "at": [
+        "covenant-day:sections[1].components[2].label"
+      ]
+    },
+    {
+      "t": "Extended Day (JK–8) · $58–$248/mois par session",
+      "of": "78e3b262",
+      "at": [
+        "covenant-day:sections[1].components[3].label"
+      ]
+    },
+    {
+      "t": "Ordinateur portable, niveaux 9–12 · apporter le sien",
+      "of": "b2aae508",
+      "at": [
+        "covenant-day:sections[1].components[4].label"
+      ]
+    },
+    {
+      "t": "Tutorat / tests spécialisés au-delà de l’aide en classe",
+      "of": "4f7152a4",
+      "at": [
+        "covenant-day:sections[1].components[5].label"
+      ]
+    },
+    {
+      "t": "Uniforme (JK–8) / code vestimentaire du lycée",
+      "of": "e05b842c",
+      "at": [
+        "covenant-day:sections[1].components[6].label"
+      ]
+    },
+    {
+      "t": "La liste des éléments inclus fait ici un vrai travail : retraites, sorties scolaires obligatoires, frais de laboratoire et d’options, et la plupart des dépenses sportives font partie des frais de scolarité, de sorte que les suppléments tarifés sont réellement peu nombreux. Les niveaux 9–12 doivent fournir un ordinateur portable conforme aux spécifications de l’école.",
+      "of": "68dc28f7",
+      "at": [
+        "covenant-day:sections[1].componentsNote"
+      ]
+    },
+    {
+      "t": "L’acompte tient compte de l’aide",
+      "of": "4cae32af",
+      "at": [
+        "covenant-day:sections[1].boxes[0].title"
+      ]
+    },
+    {
+      "t": "L’acompte de $1,000 par élève est non remboursable et imputé aux frais de scolarité — et les familles qui soumettent un dossier d’aide complet avant l’inscription peuvent demander au Business Office de **le réduire de moitié** pendant l’examen du dossier. Attendre une décision d’aide sans payer l’acompte ne réserve toutefois aucune place.",
+      "of": "8445b947",
+      "at": [
+        "covenant-day:sections[1].boxes[0].body"
+      ]
+    },
+    {
+      "t": "Procédure et calendrier de l’aide",
+      "of": "690355d8",
+      "at": [
+        "covenant-day:sections[2].title",
+        "davidson-day:sections[2].title"
+      ]
+    },
+    {
+      "t": "Avec l’admission",
+      "of": "baedc1a0",
+      "at": [
+        "covenant-day:sections[2].timeline[0].when"
+      ]
+    },
+    {
+      "t": "Les familles soumettent le dossier d’aide **en même temps que le dossier d’admission**, via FACTS — la même plateforme qui gère la facturation des frais de scolarité",
+      "of": "b8762ba7",
+      "at": [
+        "covenant-day:sections[2].timeline[0].detail"
+      ]
+    },
+    {
+      "t": "Prérequis",
+      "of": "30a573d3",
+      "at": [
+        "covenant-day:sections[2].timeline[1].when"
+      ]
+    },
+    {
+      "t": "Une preuve de candidature à la **NC Opportunity Scholarship** est obligatoire avant l’examen de toute aide de CDS — une condition ferme qu’aucune école pair ici n’impose",
+      "of": "f72e805a",
+      "at": [
+        "covenant-day:sections[2].timeline[1].detail"
+      ]
+    },
+    {
+      "t": "À la finalisation",
+      "of": "c9d5c23e",
+      "at": [
+        "covenant-day:sections[2].timeline[2].when"
+      ]
+    },
+    {
+      "t": "Les décisions ne sont communiquées qu’une fois le dossier complet, y compris l’ensemble des pièces justificatives",
+      "of": "cea405d7",
+      "at": [
+        "covenant-day:sections[2].timeline[2].detail"
+      ]
+    },
+    {
+      "t": "Aucune aide pluriannuelle — les familles soumettent un nouveau dossier chaque année",
+      "of": "7f386677",
+      "at": [
+        "covenant-day:sections[2].timeline[3].detail"
+      ]
+    },
+    {
+      "t": "Plateforme et portée",
+      "of": "736758b4",
+      "at": [
+        "covenant-day:sections[2].boxes[0].title"
+      ]
+    },
+    {
+      "t": "**FACTS** gère l’évaluation confidentielle du besoin. L’aide est uniquement fondée sur le besoin, et seule la partie responsable du paiement des frais de scolarité peut faire la demande. Contact : Christen Marshall, Student Accounts Coordinator, 704-708-6102.",
+      "of": "23d6f76d",
+      "at": [
+        "covenant-day:sections[2].boxes[0].body"
+      ]
+    },
+    {
+      "t": "Aucune date limite d’aide, aucun calendrier de décision, aucune procédure d’appel et aucune politique de plafond d’aide n’apparaît dans le domaine public. Les frais éventuels de dossier FACTS ne sont pas non plus précisés.",
+      "of": "5f12ecc0",
+      "at": [
+        "covenant-day:sections[2].boxes[1].body"
+      ]
+    },
+    {
+      "t": "L’aide en chiffres",
+      "of": "bd1cf4c6",
+      "at": [
+        "covenant-day:sections[3].navTitle"
+      ]
+    },
+    {
+      "t": "Ce que révèlent les chiffres",
+      "of": "d9be712e",
+      "at": [
+        "covenant-day:sections[3].title"
+      ]
+    },
+    {
+      "t": "des élèves bénéficient d’une aide — chiffre tiers uniquement",
+      "of": "e248fc59",
+      "at": [
+        "covenant-day:sections[3].stats[0].label"
+      ]
+    },
+    {
+      "t": "ministère d’église — exempté de dépôt par l’IRS",
+      "of": "fd45ab9c",
+      "at": [
+        "covenant-day:sections[3].stats[1].label"
+      ]
+    },
+    {
+      "t": "totaux d’aide, moyennes ou budgets publiés",
+      "of": "e75ea3c1",
+      "at": [
+        "covenant-day:sections[3].stats[2].label"
+      ]
+    },
+    {
+      "t": "La part d’environ 20% provient d’agrégateurs (PrivateSchoolReview, schooltuitions.org) ; l’école elle-même ne publie aucun pourcentage, aucun total attribué et aucune aide moyenne.",
+      "of": "99fcdce6",
+      "at": [
+        "covenant-day:sections[3].figureNote"
+      ]
+    },
+    {
+      "t": "NON PUBLIÉ — ET NON RÉCUPÉRABLE",
+      "of": "98106920",
+      "at": [
+        "covenant-day:sections[3].boxes[0].tag"
+      ]
+    },
+    {
+      "t": "Covenant Day est un ministère de la Christ Covenant Church (PCA), et l’IRS la désigne comme **organisation religieuse non tenue de déposer un Form 990** (EIN 56-1656570, exemptée depuis 1989). Le Nonprofit Explorer de ProPublica confirme qu’aucun dépôt n’existe. Toutes les autres écoles de ce projet déposent un 990 dont les totaux d’aide peuvent être vérifiés à partir de leur déclaration — ici, il n’y a **aucun dépôt à vérifier**, de sorte que la lacune est structurelle plutôt qu’une page en attente d’être trouvée.",
+      "of": "07e003e5",
+      "at": [
+        "covenant-day:sections[3].boxes[0].body"
+      ]
+    },
+    {
+      "t": "Réductions et aide de l’État",
+      "of": "e6a0f3f2",
+      "at": [
+        "covenant-day:sections[4].navTitle"
+      ]
+    },
+    {
+      "t": "Mérite, réductions et bourses d’État",
+      "of": "622789d6",
+      "at": [
+        "covenant-day:sections[4].title"
+      ]
+    },
+    {
+      "t": "TOUTE L’AIDE DE L’ÉCOLE EST FONDÉE SUR LE BESOIN",
+      "of": "6b98e954",
+      "at": [
+        "covenant-day:sections[4].tag"
+      ]
+    },
+    {
+      "t": "Réduction familles nombreuses",
+      "of": "7c2c9ac8",
+      "at": [
+        "covenant-day:sections[4].plans[0].label"
+      ]
+    },
+    {
+      "t": "Sur les frais de scolarité pour le **troisième élève et chaque élève supplémentaire** du même foyer, appliquée aux enfants des niveaux les plus bas. Les familles de deux enfants n’obtiennent rien.",
+      "of": "cf11a53f",
+      "at": [
+        "covenant-day:sections[4].plans[0].detail"
+      ]
+    },
+    {
+      "t": "$400",
+      "of": "513ce48d",
+      "at": [
+        "covenant-day:sections[4].plans[1].figure"
+      ]
+    },
+    {
+      "t": "Réduction pour les membres de la Christ Covenant Church",
+      "of": "7601051e",
+      "at": [
+        "covenant-day:sections[4].plans[1].label"
+      ]
+    },
+    {
+      "t": "Par élève inscrit, pour les membres de l’église fondatrice — adhésion confirmée lors de l’inscription en ligne, avec une date butoir du 1er février pour l’éligibilité sur l’année complète.",
+      "of": "8daf0b5b",
+      "at": [
+        "covenant-day:sections[4].plans[1].detail"
+      ]
+    },
+    {
+      "t": "NC",
+      "of": "35e678d6",
+      "at": [
+        "covenant-day:sections[4].plans[2].figure"
+      ]
+    },
+    {
+      "t": "Opportunity Scholarship + ESA+",
+      "of": "755390d9",
+      "at": [
+        "covenant-day:sections[4].plans[2].label"
+      ]
+    },
+    {
+      "t": "L’école accepte les deux programmes administrés par la NCSEAA — et la demande d’Opportunity Scholarship est un **prérequis** pour l’aide de CDS, de sorte que l’aide de l’État est la première couche prévue de chaque montage.",
+      "of": "3ebfb56c",
+      "at": [
+        "covenant-day:sections[4].plans[2].detail"
+      ]
+    },
+    {
+      "t": "Aucune bourse au mérite n’apparaît dans le domaine public — l’aide est uniquement fondée sur le besoin. Aucune réduction pour fratrie avant le troisième enfant, aucune réduction pour militaires ou membres du clergé, et aucune politique d’exonération pour le personnel n’est publiée.",
+      "of": "c8751142",
+      "at": [
+        "covenant-day:sections[4].boxes[0].body"
+      ]
+    },
+    {
+      "t": "Plans de paiement et conditions contractuelles",
+      "of": "7e5b3eac",
+      "at": [
+        "covenant-day:sections[5].title",
+        "davidson-day:sections[4].title"
+      ]
+    },
+    {
+      "t": "Plan annuel",
+      "of": "442308c5",
+      "at": [
+        "covenant-day:sections[5].plans[0].label"
+      ]
+    },
+    {
+      "t": "La totalité du solde est due au plus tard le **1er mai** précédant l’année scolaire. Aucune réduction pour paiement anticipé n’est publiée.",
+      "of": "d81f21dc",
+      "at": [
+        "covenant-day:sections[5].plans[0].detail"
+      ]
+    },
+    {
+      "t": "9×",
+      "of": "eafe64d9",
+      "at": [
+        "covenant-day:sections[5].plans[1].figure"
+      ]
+    },
+    {
+      "t": "Plan mensuel (FACTS)",
+      "of": "28896c7b",
+      "at": [
+        "covenant-day:sections[5].plans[1].label"
+      ]
+    },
+    {
+      "t": "Neuf versements égaux, **de mai à janvier**, prélevés automatiquement le 5 ou le 20 — plus des frais FACTS de $50/an. À noter, la saison : les paiements commencent quatre mois avant l’école.",
+      "of": "e99f8921",
+      "at": [
+        "covenant-day:sections[5].plans[1].detail"
+      ]
+    },
+    {
+      "t": "3.05%",
+      "of": "9bb9f1aa",
+      "at": [
+        "covenant-day:sections[5].plans[2].figure"
+      ]
+    },
+    {
+      "t": "Surcoût par carte",
+      "of": "29880099",
+      "at": [
+        "covenant-day:sections[5].plans[2].label"
+      ]
+    },
+    {
+      "t": "Les paiements par carte de débit/crédit entraînent des frais de traitement de 3.05% ; les prélèvements bancaires les évitent. Sur des frais de scolarité de $22,790, cela représente environ $695.",
+      "of": "3ecab72f",
+      "at": [
+        "covenant-day:sections[5].plans[2].detail"
+      ]
+    },
+    {
+      "t": "10",
+      "of": "61efd168",
+      "at": [
+        "covenant-day:sections[5].plans[3].figure"
+      ]
+    },
+    {
+      "t": "Date limite de retrait",
+      "of": "09449783",
+      "at": [
+        "covenant-day:sections[5].plans[3].label"
+      ]
+    },
+    {
+      "t": "Les retraits doivent être officiels au plus tard le 10 du mois pour ne pas payer le versement de ce mois-là ; les remboursements correspondent aux versements dont la date d’échéance n’est pas passée. Les familles au plan mensuel à jour de leurs paiements n’obtiennent aucun remboursement et ne doivent rien de plus.",
+      "of": "f87d5f23",
+      "at": [
+        "covenant-day:sections[5].plans[3].detail"
+      ]
+    },
+    {
+      "t": "Comptes non à jour",
+      "of": "e9664408",
+      "at": [
+        "covenant-day:sections[5].boxes[0].title"
+      ]
+    },
+    {
+      "t": "Les comptes en retard de plus de 30 jours peuvent entraîner la suspension de la réinscription, des bulletins, de la délivrance du relevé de notes — et de l’accès aux cours. Une clause de force majeure standard maintient les obligations de frais de scolarité en cas de fermeture.",
+      "of": "7d101a4f",
+      "at": [
+        "covenant-day:sections[5].boxes[0].body"
+      ]
+    },
+    {
+      "t": "La tendance, et ce qu’il faut demander",
+      "of": "ddf5a036",
+      "at": [
+        "covenant-day:sections[6].title"
+      ]
+    },
+    {
+      "t": "hausse fixe à chaque tranche, 2025–26 → 2026–27",
+      "of": "d2ecb683",
+      "at": [
+        "covenant-day:sections[6].stats[0].label"
+      ]
+    },
+    {
+      "t": "tranche supérieure — les frais de scolarité supérieurs les plus bas de cette comparaison",
+      "of": "70a1af95",
+      "at": [
+        "covenant-day:sections[6].stats[1].label"
+      ]
+    },
+    {
+      "t": "des tarifs publiés (site web + PDF des conditions)",
+      "of": "236fb2d1",
+      "at": [
+        "covenant-day:sections[6].stats[2].label"
+      ]
+    },
+    {
+      "t": "Questions auxquelles le domaine public ne peut répondre",
+      "of": "b608282c",
+      "at": [
+        "covenant-day:sections[6].questionsTitle"
+      ]
+    },
+    {
+      "t": "Quelle part des familles bénéficie d’une aide, et quelle est l’aide moyenne ? (Le chiffre d’environ 20% est tiers.)",
+      "of": "c63baba4",
+      "at": [
+        "covenant-day:sections[6].questions[0]"
+      ]
+    },
+    {
+      "t": "Quelle est la date limite du dossier d’aide, et quand les décisions sont-elles rendues par rapport aux contrats d’inscription ?",
+      "of": "51da8062",
+      "at": [
+        "covenant-day:sections[6].questions[1]"
+      ]
+    },
+    {
+      "t": "Comment la demande obligatoire de NC Opportunity Scholarship interagit-elle avec l’aide de CDS pour les familles au-dessus du plafond de revenus de l’État ?",
+      "of": "adf1ebc4",
+      "at": [
+        "covenant-day:sections[6].questions[2]"
+      ]
+    },
+    {
+      "t": "Existe-t-il une procédure d’appel ou de changement de situation en cours d’année ?",
+      "of": "d1ee59df",
+      "at": [
+        "covenant-day:sections[6].questions[3]"
+      ]
+    },
+    {
+      "t": "La hausse fixe de $1,200 était-elle un choix ponctuel ou le schéma habituel ?",
+      "of": "22306959",
+      "at": [
+        "covenant-day:sections[6].questions[4]"
+      ]
+    },
+    {
       "t": "Année scolaire 2026–27 · chiffres au 22 juil. 2026",
       "of": "6f9ac510",
       "at": [
@@ -3599,24 +4146,10 @@
       ]
     },
     {
-      "t": "Aide aux frais de scolarité pendant la scolarité — et non aide aux études supérieures. Ne constitue pas un conseil financier.",
-      "of": "e6f51e0f",
-      "at": [
-        "davidson-day:framing[2].body"
-      ]
-    },
-    {
       "t": "Frais de scolarité par division",
       "of": "60483d8b",
       "at": [
         "davidson-day:sections[0].navTitle"
-      ]
-    },
-    {
-      "t": "Frais de scolarité par niveau",
-      "of": "3e0b286d",
-      "at": [
-        "davidson-day:sections[0].title"
       ]
     },
     {
@@ -3781,13 +4314,6 @@
       ]
     },
     {
-      "t": "Procédure et calendrier de l’aide",
-      "of": "690355d8",
-      "at": [
-        "davidson-day:sections[2].title"
-      ]
-    },
-    {
       "t": "15 fév.",
       "of": "860084f6",
       "at": [
@@ -3939,13 +4465,6 @@
       "of": "e1c9fd17",
       "at": [
         "davidson-day:sections[3].boxes[1].body"
-      ]
-    },
-    {
-      "t": "Plans de paiement et conditions contractuelles",
-      "of": "7e5b3eac",
-      "at": [
-        "davidson-day:sections[4].title"
       ]
     },
     {

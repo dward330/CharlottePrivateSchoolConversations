@@ -358,6 +358,7 @@
         "charlotte-latin:counseling.roster[0].role",
         "charlotte-christian:counseling.roster[0].role",
         "charlotte-country-day:counseling.roster[0].role",
+        "covenant-day:counseling.roster[0].role",
         "davidson-day:counseling.roster[0].role"
       ]
     },
@@ -770,6 +771,7 @@
         "charlotte-christian:outcomes.buckets[0].tier",
         "charlotte-country-day:outcomes.buckets[0].tier",
         "cannon:outcomes.buckets[0].tier",
+        "covenant-day:outcomes.buckets[0].tier",
         "davidson-day:outcomes.buckets[0].tier"
       ]
     },
@@ -789,6 +791,7 @@
         "charlotte-christian:outcomes.buckets[1].tier",
         "charlotte-country-day:outcomes.buckets[1].tier",
         "cannon:outcomes.buckets[1].tier",
+        "covenant-day:outcomes.buckets[1].tier",
         "davidson-day:outcomes.buckets[1].tier"
       ]
     },
@@ -808,6 +811,7 @@
         "charlotte-christian:outcomes.buckets[2].tier",
         "charlotte-country-day:outcomes.buckets[2].tier",
         "cannon:outcomes.buckets[2].tier",
+        "covenant-day:outcomes.buckets[2].tier",
         "davidson-day:outcomes.buckets[2].tier"
       ]
     },
@@ -820,6 +824,7 @@
         "charlotte-christian:outcomes.buckets[3].tier",
         "charlotte-country-day:outcomes.buckets[3].tier",
         "cannon:outcomes.buckets[3].tier",
+        "covenant-day:outcomes.buckets[3].tier",
         "davidson-day:outcomes.buckets[3].tier"
       ]
     },
@@ -839,6 +844,7 @@
         "charlotte-christian:outcomes.buckets[4].tier",
         "charlotte-country-day:outcomes.buckets[4].tier",
         "cannon:outcomes.buckets[4].tier",
+        "covenant-day:outcomes.buckets[4].tier",
         "davidson-day:outcomes.buckets[4].tier"
       ]
     },
@@ -847,6 +853,31 @@
       "of": "5e31be7c",
       "at": [
         "providence-day:outcomes.buckets[4].note"
+      ]
+    },
+    {
+      "t": "HBCUs",
+      "of": "d6316d90",
+      "at": [
+        "providence-day:outcomes.buckets[5].tier",
+        "charlotte-latin:outcomes.buckets[5].tier",
+        "charlotte-christian:outcomes.buckets[5].tier",
+        "charlotte-country-day:outcomes.buckets[5].tier",
+        "cannon:outcomes.buckets[5].tier",
+        "covenant-day:outcomes.buckets[5].tier",
+        "davidson-day:outcomes.buckets[5].tier"
+      ]
+    },
+    {
+      "t": "— کالج‌ها و دانشگاه‌های تاریخاً سیاه‌پوست",
+      "of": "92578ef1",
+      "at": [
+        "providence-day:outcomes.buckets[5].note",
+        "charlotte-latin:outcomes.buckets[5].note",
+        "charlotte-christian:outcomes.buckets[5].note",
+        "charlotte-country-day:outcomes.buckets[5].note",
+        "cannon:outcomes.buckets[5].note",
+        "davidson-day:outcomes.buckets[5].note"
       ]
     },
     {
@@ -861,7 +892,8 @@
       "of": "3e53dcd1",
       "at": [
         "providence-day:outcomes.collegesTitle",
-        "charlotte-country-day:outcomes.collegesTitle"
+        "charlotte-country-day:outcomes.collegesTitle",
+        "covenant-day:outcomes.collegesTitle"
       ]
     },
     {
@@ -5698,6 +5730,1072 @@
       ]
     },
     {
+      "t": "96% از نمرات آزمون AP در 2026 نمرهٔ 3 یا بالاتر بودند — اوج یک صعود پنج‌ساله از 84% — و هر دانش‌آموز AP باید در آزمون شرکت کند.",
+      "of": "84b2a316",
+      "at": [
+        "covenant-day:transcript.headline"
+      ]
+    },
+    {
+      "t": "یک برنامهٔ AP دروازه‌دار: هیچ‌کدام برای سال‌اولی‌ها، یکی برای سال‌دومی‌ها، با ثبت‌نام هم‌زمان (dual enrollment) از راه Covenant College روی آن.",
+      "of": "904c11c3",
+      "at": [
+        "covenant-day:transcript.subhead"
+      ]
+    },
+    {
+      "t": "96%",
+      "of": "3ec55d39",
+      "at": [
+        "covenant-day:transcript.stats[0].value",
+        "covenant-day:transcript.merit[3].detail"
+      ]
+    },
+    {
+      "t": "از آزمون‌های AP در 2026 نمرهٔ 3+ گرفتند (401 آزمون، 179 دانش‌آموز)",
+      "of": "862a26d7",
+      "at": [
+        "covenant-day:transcript.stats[0].label"
+      ]
+    },
+    {
+      "t": "78%",
+      "of": "8ddb95bd",
+      "at": [
+        "covenant-day:transcript.stats[1].value"
+      ]
+    },
+    {
+      "t": "از نمرات AP نمرهٔ 4 یا 5 بودند",
+      "of": "c75a93a8",
+      "at": [
+        "covenant-day:transcript.stats[1].label"
+      ]
+    },
+    {
+      "t": "1263 / 26",
+      "of": "84da6f50",
+      "at": [
+        "covenant-day:transcript.stats[2].value"
+      ]
+    },
+    {
+      "t": "میانگین SAT / ACT دورهٔ 2026",
+      "of": "edb21e19",
+      "at": [
+        "covenant-day:transcript.stats[2].label"
+      ]
+    },
+    {
+      "t": "80%",
+      "of": "489f4e50",
+      "at": [
+        "covenant-day:transcript.stats[3].value"
+      ]
+    },
+    {
+      "t": "از هیئت‌علمی HS مدرک تحصیلات تکمیلی دارند",
+      "of": "06766e5d",
+      "at": [
+        "covenant-day:transcript.stats[3].label"
+      ]
+    },
+    {
+      "t": "خط پنج‌سالهٔ AP، آن‌گونه که نمایه ترسیم می‌کند",
+      "of": "59fe91a7",
+      "at": [
+        "covenant-day:transcript.meritTitle"
+      ]
+    },
+    {
+      "t": "84% از نمرات آزمون AP نمرهٔ 3+",
+      "of": "303fe98e",
+      "at": [
+        "covenant-day:transcript.merit[0].detail"
+      ]
+    },
+    {
+      "t": "93% — دورهٔ 2023: 161 دانش‌آموز، 324 آزمون؛ SAT 1268 / ACT 26",
+      "of": "07ee0fba",
+      "at": [
+        "covenant-day:transcript.merit[1].detail"
+      ]
+    },
+    {
+      "t": "92% — دورهٔ 2024: 168 دانش‌آموز، 344 آزمون؛ SAT 1243 / ACT 27",
+      "of": "33052257",
+      "at": [
+        "covenant-day:transcript.merit[2].detail"
+      ]
+    },
+    {
+      "t": "96% — 38 AP Scholar with Distinction، 27 with Honor، 33 Scholar",
+      "of": "ac2871bc",
+      "at": [
+        "covenant-day:transcript.merit[4].detail"
+      ]
+    },
+    {
+      "t": "از 2006 — نخستین دورهٔ فارغ‌التحصیلی — مدرسه 28 National Merit Finalist و 70 دانش‌آموز Commended را می‌شمارد، کارنامه‌ای که میان دو ویرایش آخر نمایه دو Finalist و نه Commended به آن افزوده شد.",
+      "of": "3e057851",
+      "at": [
+        "covenant-day:transcript.meritNote"
+      ]
+    },
+    {
+      "t": "معماری سخت‌گیری علمی",
+      "of": "a09f8c3a",
+      "at": [
+        "covenant-day:transcript.depthTitle"
+      ]
+    },
+    {
+      "t": "وزن‌دهی",
+      "of": "edbd8b07",
+      "at": [
+        "covenant-day:transcript.depth[0].label"
+      ]
+    },
+    {
+      "t": "A+ = 4.33 بدون وزن؛ Honors +0.5؛ Dual Enrollment و AP +1.0. GPA بر همهٔ درس‌ها، پایه‌های 9–12، محاسبه می‌شود.",
+      "of": "11fd1ffc",
+      "at": [
+        "covenant-day:transcript.depth[0].text"
+      ]
+    },
+    {
+      "t": "دروازه‌بندی AP",
+      "of": "d0cc78dc",
+      "at": [
+        "covenant-day:transcript.depth[1].label"
+      ]
+    },
+    {
+      "t": "بدون AP برای سال‌اولی‌ها؛ سال‌دومی‌ها به یک محدود می‌شوند. خود نمایه دو AP سال سوم و چهار AP سال چهارم را «باری درسی بسیار سنگین» می‌نامد.",
+      "of": "2bedee47",
+      "at": [
+        "covenant-day:transcript.depth[1].text"
+      ]
+    },
+    {
+      "t": "ثبت‌نام هم‌زمان (Dual enrollment)",
+      "of": "38db84b5",
+      "at": [
+        "covenant-day:transcript.depth[2].label"
+      ]
+    },
+    {
+      "t": "Honors Calculus، Statistics و Literature & Philosophy واحد Covenant College دارند؛ SevenStar Academy فهرست دروس را به‌صورت آنلاین گسترش می‌دهد و روی ریزنمرات درج می‌شود.",
+      "of": "327c7075",
+      "at": [
+        "covenant-day:transcript.depth[2].text"
+      ]
+    },
+    {
+      "t": "فارغ‌التحصیلی",
+      "of": "2c9a19d1",
+      "at": [
+        "covenant-day:transcript.depth[3].label"
+      ]
+    },
+    {
+      "t": "25 Carnegie Unit، شامل 3 واحد Bible (یک درس Bible در هر سال) و یک واحد Fine Arts.",
+      "of": "66232648",
+      "at": [
+        "covenant-day:transcript.depth[3].text"
+      ]
+    },
+    {
+      "t": "چرا دانشگاه‌ها می‌توانند نمرات را بخوانند",
+      "of": "592a74ee",
+      "at": [
+        "covenant-day:transcript.trustTitle"
+      ]
+    },
+    {
+      "t": "هر دانش‌آموز AP در آزمون شرکت می‌کند",
+      "of": "032ac683",
+      "at": [
+        "covenant-day:transcript.trust[0].label"
+      ]
+    },
+    {
+      "t": "همهٔ دانش‌آموزان ثبت‌نام‌شده در درس‌های AP ملزم به شرکت در آزمون‌ها هستند — پس نرخ قبولی 96% کل جمعیت AP را پوشش می‌دهد، نه یک بخش خودگزیده.",
+      "of": "f8ae4f11",
+      "at": [
+        "covenant-day:transcript.trust[0].text"
+      ]
+    },
+    {
+      "t": "بدون رتبه‌بندی، به‌طور کامل بیان‌شده",
+      "of": "333f99d3",
+      "at": [
+        "covenant-day:transcript.trust[1].label"
+      ]
+    },
+    {
+      "t": "«به دلیل کوچکی اندازهٔ دوره و ماهیت دانشگاه‌محور جمعیت Covenant Day، بر این باوریم که رتبهٔ دوره تمایزدهندهٔ نیرومندی نیست… بنابراین، رتبه‌بندی نمی‌کنیم.»",
+      "of": "ac0cddf4",
+      "at": [
+        "covenant-day:transcript.trust[1].text"
+      ]
+    },
+    {
+      "t": "شمار درس‌های AP با ثبت‌نام تغییر می‌کند: 15 AP در ماتریس نمایهٔ 2026–27، اما تا 18 در ویرایش 2024–25 (که AP Calculus BC، Human Geography و French را در بر داشت). بپرسید کدام AP ها واقعاً در سال دانش‌آموز شما اجرا می‌شوند.",
+      "of": "0d9419f3",
+      "at": [
+        "covenant-day:transcript.flags[0].text"
+      ]
+    },
+    {
+      "t": "یک مدیر مشاورهٔ دانشگاه اختصاصی — در بیست‌وسومین سال خود در مدرسه — برای 85 دانش‌آموز سال آخر، سنگین‌ترین بار پرونده در این مقایسه.",
+      "of": "bd58af0d",
+      "at": [
+        "covenant-day:counseling.headline"
+      ]
+    },
+    {
+      "t": "دفتر رابطه‌محور است نه محصول‌محور: یک NACCAP Professional of the Year با سی سال سابقه در مشاوره، که در سراسر دوره با سال‌سومی‌ها و سال‌آخری‌ها دیدار می‌کند.",
+      "of": "e562b9cf",
+      "at": [
+        "covenant-day:counseling.subhead"
+      ]
+    },
+    {
+      "t": "85:1",
+      "of": "1a9bb18f",
+      "at": [
+        "covenant-day:counseling.stats[0].value"
+      ]
+    },
+    {
+      "t": "دانش‌آموز سال آخر به ازای هر مشاور دانشگاه اختصاصی",
+      "of": "5adf229b",
+      "at": [
+        "covenant-day:counseling.stats[0].label"
+      ]
+    },
+    {
+      "t": "2003",
+      "of": "d32ea22a",
+      "at": [
+        "covenant-day:counseling.stats[1].value"
+      ]
+    },
+    {
+      "t": "آغاز دوران خدمت مدیر در Covenant Day",
+      "of": "0b1237e2",
+      "at": [
+        "covenant-day:counseling.stats[1].label"
+      ]
+    },
+    {
+      "t": "4",
+      "of": "310ca263",
+      "at": [
+        "covenant-day:counseling.stats[2].value"
+      ]
+    },
+    {
+      "t": "نفر در دفتر مشاوره",
+      "of": "6193d170",
+      "at": [
+        "covenant-day:counseling.stats[2].label"
+      ]
+    },
+    {
+      "t": "Director of Guidance and College Counseling از 2003؛ سی سال در مشاوره و راهنمایی دانشگاه؛ BA از Oklahoma Wesleyan، MA از Winthrop؛ برگزیدهٔ NACCAP K-12 Professional of the Year.",
+      "of": "f68e9044",
+      "at": [
+        "covenant-day:counseling.roster[0].detail"
+      ]
+    },
+    {
+      "t": "مشاور",
+      "of": "be7455dd",
+      "at": [
+        "covenant-day:counseling.roster[1].role"
+      ]
+    },
+    {
+      "t": "Guidance Counselor از 2016. BA از UNC Chapel Hill؛ MA از Georgia State؛ ثبت‌کنندهٔ پیشین Reformed Theological Seminary.",
+      "of": "f22262c9",
+      "at": [
+        "covenant-day:counseling.roster[1].detail"
+      ]
+    },
+    {
+      "t": "شخصی",
+      "of": "6e5a8cad",
+      "at": [
+        "covenant-day:counseling.roster[2].role"
+      ]
+    },
+    {
+      "t": "Licensed Marriage and Family Therapist، از 2021 — نقش بالینی، متمایز از دفتر دانشگاه.",
+      "of": "b949d7c4",
+      "at": [
+        "covenant-day:counseling.roster[2].detail"
+      ]
+    },
+    {
+      "t": "دستیار",
+      "of": "da502cc7",
+      "at": [
+        "covenant-day:counseling.roster[3].role"
+      ]
+    },
+    {
+      "t": "Guidance Assistant از 2012.",
+      "of": "4b9cb104",
+      "at": [
+        "covenant-day:counseling.roster[3].detail"
+      ]
+    },
+    {
+      "t": "آهنگ منتشرشده",
+      "of": "27929f35",
+      "at": [
+        "covenant-day:counseling.timelineTitle"
+      ]
+    },
+    {
+      "t": "برنامه‌ریزی درسی",
+      "of": "59d95ace",
+      "at": [
+        "covenant-day:counseling.timeline[0].intensity"
+      ]
+    },
+    {
+      "t": "راهنمایی تحصیلی در انتخاب درس",
+      "of": "6b726c19",
+      "at": [
+        "covenant-day:counseling.timeline[0].items[0]"
+      ]
+    },
+    {
+      "t": "راه‌یابی به Honors/AP از راه درس‌های پیشین، نمرات و بازخورد معلم",
+      "of": "b87c4229",
+      "at": [
+        "covenant-day:counseling.timeline[0].items[1]"
+      ]
+    },
+    {
+      "t": "هیچ برنامهٔ رسمی مشاورهٔ پایه‌های پایین‌تر منتشر نشده است.",
+      "of": "9a135e1d",
+      "at": [
+        "covenant-day:counseling.timeline[0].note"
+      ]
+    },
+    {
+      "t": "رو به دانشگاه",
+      "of": "82074407",
+      "at": [
+        "covenant-day:counseling.timeline[1].intensity"
+      ]
+    },
+    {
+      "t": "دفتر «در سراسر دوران دبیرستان با سال‌سومی‌ها و سال‌آخری‌ها دیدار می‌کند»",
+      "of": "0fbb4a4e",
+      "at": [
+        "covenant-day:counseling.timeline[1].items[0]"
+      ]
+    },
+    {
+      "t": "پشتیبانی یک‌به‌یک از برنامه‌ریزی درسی تا درخواست و جست‌وجوی بورس",
+      "of": "50dea1b3",
+      "at": [
+        "covenant-day:counseling.timeline[1].items[1]"
+      ]
+    },
+    {
+      "t": "بازدید نمایندگان دانشگاه از راه صفحهٔ College Representatives",
+      "of": "e23b580e",
+      "at": [
+        "covenant-day:counseling.timeline[1].items[2]"
+      ]
+    },
+    {
+      "t": "آنچه دفتر می‌گوید پوشش می‌دهد",
+      "of": "c669b4fb",
+      "at": [
+        "covenant-day:counseling.mechanicsTitle",
+        "davidson-day:counseling.mechanicsTitle"
+      ]
+    },
+    {
+      "t": "برنامه‌ریزی درسی در راستای هدف‌های دانشگاهی",
+      "of": "fbdca05d",
+      "at": [
+        "covenant-day:counseling.mechanics[0]"
+      ]
+    },
+    {
+      "t": "ساختن یک درخواست نیرومند",
+      "of": "50a6d813",
+      "at": [
+        "covenant-day:counseling.mechanics[1]"
+      ]
+    },
+    {
+      "t": "شناسایی فرصت‌های بورس",
+      "of": "474f3f9a",
+      "at": [
+        "covenant-day:counseling.mechanics[2]"
+      ]
+    },
+    {
+      "t": "راهنمایی تحصیلی و مشاورهٔ دانش‌آموزی",
+      "of": "1b8e9314",
+      "at": [
+        "covenant-day:counseling.mechanics[3]"
+      ]
+    },
+    {
+      "t": "High School Profile سالانه (CEEB 342532)",
+      "of": "68f6453b",
+      "at": [
+        "covenant-day:counseling.mechanics[4]"
+      ]
+    },
+    {
+      "t": "نمایه اثر کاربردی دفتر است: کلید وزن‌دهی، سیاست رتبه‌بندی، دروازه‌بندی AP و فهرست پذیرش در یک PDF دوصفحه‌ای، که سالانه به‌روز می‌شود — سه ویرایش راستی‌آزمایی شده است.",
+      "of": "ad999ad4",
+      "at": [
+        "covenant-day:counseling.mechanicsNote"
+      ]
+    },
+    {
+      "t": "عضویت NACCAP به‌علاوهٔ یک مدیر Professional of the Year — شناخته‌شدگی نام درون مدار پذیرش کالج‌های مسیحی",
+      "of": "d0e6345d",
+      "at": [
+        "covenant-day:counseling.reach[0]"
+      ]
+    },
+    {
+      "t": "عضویت NACAC در سمت جریان اصلی",
+      "of": "804352a3",
+      "at": [
+        "covenant-day:counseling.reach[1]"
+      ]
+    },
+    {
+      "t": "یک مسیر پابرجای ثبت‌نام هم‌زمان به Covenant College، کالج مذهبی PCA",
+      "of": "e59be429",
+      "at": [
+        "covenant-day:counseling.reach[2]"
+      ]
+    },
+    {
+      "t": "هیچ گاه‌شمار مشاورهٔ پایه‌به‌پایه‌ای منتشر نشده — تنها آهنگ دیدار سال‌سوم/سال‌آخر — و هیچ بستر مشاورهٔ دانشگاهی (Naviance، Scoir) در هیچ‌جای سایت عمومی نام‌برده نشده است.",
+      "of": "ed6115ca",
+      "at": [
+        "covenant-day:counseling.flags[0].text"
+      ]
+    },
+    {
+      "t": "نسبت 85:1 استنتاجی است (85 دانش‌آموز سال آخر ÷ 1 مدیر اختصاصی). مشاور راهنمای دوم بار غیردانشگاهی را بر دوش می‌کشد، بنابراین بار مؤثر پروندهٔ دانشگاهی ممکن است سبک‌تر از عنوان باشد — اما مدرسه هرگز رقمی بیان نمی‌کند.",
+      "of": "5aa20a9b",
+      "at": [
+        "covenant-day:counseling.flags[1].text"
+      ]
+    },
+    {
+      "t": "225 مؤسسه در فهرست پذیرش منتشرشدهٔ 2023–2026 — با ثبت‌نام‌ها به‌صورت پررنگ، تا بتوانید ببینید دانش‌آموزان واقعاً کجا رفته‌اند.",
+      "of": "c18f5e7d",
+      "at": [
+        "covenant-day:outcomes.headline"
+      ]
+    },
+    {
+      "t": "بازهٔ کنونی به Dartmouth، Penn و Duke می‌رسد — هر سه به‌صورت پررنگ به‌عنوان ثبت‌نام‌شده — با بیشترین تمرکز در دانشگاه‌های دولتی NC و کالج‌های مسیحی.",
+      "of": "38c3d828",
+      "at": [
+        "covenant-day:outcomes.subhead"
+      ]
+    },
+    {
+      "t": "225",
+      "of": "2aec76b0",
+      "at": [
+        "covenant-day:outcomes.stats[0].value"
+      ]
+    },
+    {
+      "t": "مؤسسه در فهرست پذیرش 2023–2026",
+      "of": "22722825",
+      "at": [
+        "covenant-day:outcomes.stats[0].label"
+      ]
+    },
+    {
+      "t": "85",
+      "of": "8d01a276",
+      "at": [
+        "covenant-day:outcomes.stats[1].value"
+      ]
+    },
+    {
+      "t": "دانش‌آموز سال آخر در دورهٔ 2027",
+      "of": "959c71e8",
+      "at": [
+        "covenant-day:outcomes.stats[1].label"
+      ]
+    },
+    {
+      "t": "2 / 8",
+      "of": "10390c08",
+      "at": [
+        "covenant-day:outcomes.stats[2].value"
+      ]
+    },
+    {
+      "t": "Ivy در فهرست — Dartmouth و Penn، هر دو با ثبت‌نام‌کننده",
+      "of": "e054b495",
+      "at": [
+        "covenant-day:outcomes.stats[2].label"
+      ]
+    },
+    {
+      "t": "46 / 68",
+      "of": "26efa6ac",
+      "at": [
+        "covenant-day:outcomes.stats[3].value"
+      ]
+    },
+    {
+      "t": "دانشگاه Power Four در فهرست",
+      "of": "b8886520",
+      "at": [
+        "covenant-day:outcomes.stats[3].label"
+      ]
+    },
+    {
+      "t": "— Dartmouth، Penn؛ هر دو پررنگ (ثبت‌نام‌شده)",
+      "of": "7e4a8d1a",
+      "at": [
+        "covenant-day:outcomes.buckets[0].note"
+      ]
+    },
+    {
+      "t": "— Duke را نیز می‌افزاید، آن هم پررنگ",
+      "of": "1f0fcb47",
+      "at": [
+        "covenant-day:outcomes.buckets[1].note"
+      ]
+    },
+    {
+      "t": "— Davidson تا Gettysburg",
+      "of": "6c33fc44",
+      "at": [
+        "covenant-day:outcomes.buckets[3].note"
+      ]
+    },
+    {
+      "t": "— 14 ACC · 12 SEC · 11 Big Ten · 9 Big 12",
+      "of": "b6fea221",
+      "at": [
+        "covenant-day:outcomes.buckets[4].note"
+      ]
+    },
+    {
+      "t": "— Fayetteville State، Johnson C. Smith، NC A&T",
+      "of": "105763b7",
+      "at": [
+        "covenant-day:outcomes.buckets[5].note"
+      ]
+    },
+    {
+      "t": "استنتاج‌شده در این پژوهش از فهرست منتشرشدهٔ مدرسه در برابر جدول‌های 2026 U.S. News — همان فهرست‌هایی که برای مدارس دیگر اینجا به کار رفته، نه ارقامی که مدرسه گزارش کند. بازه‌های پیشین بالاتر بودند: نکات برجستهٔ 2018–2023 شامل Stanford، MIT، Princeton، Brown، Cornell و Vanderbilt است، و فهرست 2021–2024 پنج پردیس UC را می‌افزاید.",
+      "of": "a8ba4c89",
+      "at": [
+        "covenant-day:outcomes.bucketsNote"
+      ]
+    },
+    {
+      "t": "225 مؤسسه در فهرست 2023–2026",
+      "of": "bcab2e95",
+      "at": [
+        "covenant-day:outcomes.collegesTotal"
+      ]
+    },
+    {
+      "t": "بدون مجموع دلاری بورس — در هر سه ویرایش نمایه بررسی شد",
+      "of": "515f2614",
+      "at": [
+        "covenant-day:outcomes.scholarships[0]"
+      ]
+    },
+    {
+      "t": "بدون تفکیک پذیرش به تفکیک دوره — فهرست‌ها بازه‌های چندساله‌اند",
+      "of": "6ea1f8df",
+      "at": [
+        "covenant-day:outcomes.scholarships[1]"
+      ]
+    },
+    {
+      "t": "بدون درصد نرخ ثبت‌نام",
+      "of": "6c917bc8",
+      "at": [
+        "covenant-day:outcomes.scholarships[2]"
+      ]
+    },
+    {
+      "t": "قرارداد پررنگ-یعنی-ثبت‌نام خود افشایی غیرمعمول است: چون هر دو فهرست منتشرشده آن را دارند و روی دوره‌های 2023–24 هم‌پوشانی می‌کنند، پذیرش‌ها و ثبت‌نام‌ها را می‌توان میان ویرایش‌ها متقابلاً راستی‌آزمایی کرد.",
+      "of": "a83cb3d4",
+      "at": [
+        "covenant-day:outcomes.scholarshipsNote"
+      ]
+    },
+    {
+      "t": "یک فهرست تجمعی چندساله گستره را نشان می‌دهد، نه نرخ‌ها را: هر نام یعنی دست‌کم یک پذیرش در طول چهار دورهٔ فارغ‌التحصیلی ~85 نفری، و پررنگ یعنی دست‌کم یک ثبت‌نام.",
+      "of": "9cf88b3c",
+      "at": [
+        "covenant-day:outcomes.caveat"
+      ]
+    },
+    {
+      "t": "نام‌های ثبت‌نام پررنگ از داده‌های فونت PDF بازیابی شدند (استخراج متن ساده پررنگی را از دست می‌دهد) — نمونه‌وار بررسی شد اما ماشینی استخراج شده است. خود فهرست پذیرش تمیز استخراج شد.",
+      "of": "28c1398a",
+      "at": [
+        "covenant-day:outcomes.flags[0].text"
+      ]
+    },
+    {
+      "t": "وجوه تمایز، روایت‌های عمق‌اند: دپارتمانی که هیچ مدرسهٔ دیگری ندارد، یک ساخت مسکن در Pine Ridge، و واحد دانشگاهی از کالج خود PCA.",
+      "of": "d330b2c8",
+      "at": [
+        "covenant-day:edge.headline"
+      ]
+    },
+    {
+      "t": "بدون اعتبار برنامهٔ پژوهشی یا المپیاد — برتری اینجا تمایز و خوانایی است، نه نتایج رقابت ملی.",
+      "of": "35b93e0a",
+      "at": [
+        "covenant-day:edge.subhead"
+      ]
+    },
+    {
+      "t": "Restoration & Sustainability",
+      "of": "e088ebd6",
+      "at": [
+        "covenant-day:edge.levers[0].title"
+      ]
+    },
+    {
+      "t": "دپارتمانی از آنِ خود",
+      "of": "3cd6e523",
+      "at": [
+        "covenant-day:edge.levers[0].hint"
+      ]
+    },
+    {
+      "t": "یک دپارتمان نام‌بردهٔ دبیرستانی با مدیر مخصوص خود (Dr. Rebeca Burnett) — بی‌همتا در میان این مدارس",
+      "of": "2e078542",
+      "at": [
+        "covenant-day:edge.levers[0].items[0]"
+      ]
+    },
+    {
+      "t": "نردبان درس: Augustine Literacy Project، Intercultural Practicum، Introduction to Engineering، Restore525",
+      "of": "bf0e7ec7",
+      "at": [
+        "covenant-day:edge.levers[0].items[1]"
+      ]
+    },
+    {
+      "t": "نمایه یک بلوک توصیفی مستقل به آن می‌دهد — سطری در ریزنمرات که هیچ متقاضی دیگری در منطقهٔ Charlotte آن را ندارد",
+      "of": "21fab3bd",
+      "at": [
+        "covenant-day:edge.levers[0].items[2]"
+      ]
+    },
+    {
+      "t": "پروژه‌های شاخص",
+      "of": "d1dec935",
+      "at": [
+        "covenant-day:edge.levers[1].title"
+      ]
+    },
+    {
+      "t": "چیزی که مقاله دربارهٔ آن نوشته می‌شود",
+      "of": "1df6a140",
+      "at": [
+        "covenant-day:edge.levers[1].hint"
+      ]
+    },
+    {
+      "t": "Senior Capstone Project — یک نقطهٔ عطف نام‌برده برای هر دانش‌آموز",
+      "of": "0aed2dfc",
+      "at": [
+        "covenant-day:edge.levers[1].items[0]"
+      ]
+    },
+    {
+      "t": "ContainIt: دانش‌آموزان دبیرستان که کانتینرهای حمل‌ونقل را به مسکن برای بیش از 30 نوجوان در Pine Ridge Reservation تبدیل می‌کنند",
+      "of": "ad7f33af",
+      "at": [
+        "covenant-day:edge.levers[1].items[1]"
+      ]
+    },
+    {
+      "t": "McKnight Oratory و Mock Trial (نایب‌قهرمان هنرمند دادگاه ایالت در 2025) در سمت سخنوری",
+      "of": "b9ee6eb8",
+      "at": [
+        "covenant-day:edge.levers[1].items[2]"
+      ]
+    },
+    {
+      "t": "سخت‌گیری خوانا",
+      "of": "0dc25c94",
+      "at": [
+        "covenant-day:edge.levers[2].title"
+      ]
+    },
+    {
+      "t": "چیزی که خوانندهٔ پذیرش می‌بیند",
+      "of": "9de81089",
+      "at": [
+        "covenant-day:edge.levers[2].hint"
+      ]
+    },
+    {
+      "t": "واحد ثبت‌نام هم‌زمان Covenant College روی ماتریس AP",
+      "of": "98b17a99",
+      "at": [
+        "covenant-day:edge.levers[2].items[0]"
+      ]
+    },
+    {
+      "t": "سیاست شرکت-هر-دانش‌آموز-AP-در-آزمون باعث می‌شود نرخ قبولی 96% کل برنامه را پوشش دهد",
+      "of": "761cf44a",
+      "at": [
+        "covenant-day:edge.levers[2].items[1]"
+      ]
+    },
+    {
+      "t": "سیاست بدون رتبه‌بندی به‌علاوهٔ یک کلید وزن‌دهی کامل به خوانندگان اجازه می‌دهد سخت‌گیری را در بافت خود بازسازی کنند",
+      "of": "427aa388",
+      "at": [
+        "covenant-day:edge.levers[2].items[2]"
+      ]
+    },
+    {
+      "t": "مدل پشتیبانی رابطه‌محور است — یک مدیر با سی سال سابقه در مدار NACCAP — نه یک برنامهٔ محصول‌محور اردوی-فشردهٔ-مقاله، و مدرسه هیچ‌یک از دستهٔ دوم را منتشر نمی‌کند.",
+      "of": "69acb25e",
+      "at": [
+        "covenant-day:edge.levers[2].note"
+      ]
+    },
+    {
+      "t": "مجموع‌های نیرومند، بدون توزیع: میانگین SAT/ACT به تفکیک دوره و یک خط پنج‌سالهٔ AP، اما هیچ چندکی از هیچ نوع — طبق سیاست.",
+      "of": "edfd902e",
+      "at": [
+        "covenant-day:wholeClass.headline"
+      ]
+    },
+    {
+      "t": "«ما رتبه‌بندی نمی‌کنیم» به داده‌ها نیز گسترش می‌یابد: مدرسه‌ای که از رتبه‌بندی سر باز می‌زند، جدول‌های توزیع را هم منتشر نمی‌کند.",
+      "of": "0fa0d6a7",
+      "at": [
+        "covenant-day:wholeClass.subhead"
+      ]
+    },
+    {
+      "t": "میانگین‌های دوره‌ای SAT و ACT",
+      "of": "3a9fd1db",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[0].title"
+      ]
+    },
+    {
+      "t": "— آن‌گونه که منتشر شده، به تفکیک ویرایش نمایه",
+      "of": "6b6fdb19",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[0].hint"
+      ]
+    },
+    {
+      "t": "دورهٔ 2026",
+      "of": "39fd4622",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[0].rows[0].label"
+      ]
+    },
+    {
+      "t": "دورهٔ 2024",
+      "of": "37fd42fc",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[0].rows[1].label"
+      ]
+    },
+    {
+      "t": "دورهٔ 2023",
+      "of": "36fd4169",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[0].rows[2].label"
+      ]
+    },
+    {
+      "t": "میانگین‌های 5-ساله",
+      "of": "70411f3a",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[0].rows[3].label"
+      ]
+    },
+    {
+      "t": "تنها میانگین‌ها — بدون صدک، بدون میانهٔ 50%، بدون شمار آزمون‌دهندگان.",
+      "of": "c8c9d4c7",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[0].note"
+      ]
+    },
+    {
+      "t": "رده‌های AP Scholar، دورهٔ 2026",
+      "of": "6f9ebe94",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[1].title"
+      ]
+    },
+    {
+      "t": "Scholar with Distinction",
+      "of": "06bc0058",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[1].rows[0].label"
+      ]
+    },
+    {
+      "t": "Scholar with Honor",
+      "of": "19d3db86",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[1].rows[1].label"
+      ]
+    },
+    {
+      "t": "AP Scholar",
+      "of": "29009ddb",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[1].rows[2].label"
+      ]
+    },
+    {
+      "t": "98 عنوان Scholar در برابر 179 دانش‌آموز AP — نزدیک‌ترین چیز به افشای شکل-دوره که مدرسه انجام می‌دهد.",
+      "of": "f9036062",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[1].note"
+      ]
+    },
+    {
+      "t": "هیچ توزیع GPA در هیچ‌یک از سه ویرایش نمایه وجود ندارد — بدون بالاترین/میانه/پایین‌ترین، بدون پنجک. کلید وزن‌دهی (4.33 / +0.5 / +1.0) کل افشای GPA است.",
+      "of": "7089b697",
+      "at": [
+        "covenant-day:wholeClass.gpaNote"
+      ]
+    },
+    {
+      "t": "متخصصان یادگیری",
+      "of": "1b064661",
+      "at": [
+        "covenant-day:wholeClass.support[0].label"
+      ]
+    },
+    {
+      "t": "پنج Learning Specialist و یک Academic Resources Director در جدول کادر دبیرستان — یک نیمکت پشتیبانی واقعی برای دبیرستانی با 350 دانش‌آموز.",
+      "of": "7a6547dd",
+      "at": [
+        "covenant-day:wholeClass.support[0].text"
+      ]
+    },
+    {
+      "t": "مشاورهٔ بالینی",
+      "of": "04aaa979",
+      "at": [
+        "covenant-day:wholeClass.support[1].label"
+      ]
+    },
+    {
+      "t": "یک Licensed Marriage and Family Therapist (Emily Lee) در کادر، متمایز از دفتر دانشگاه.",
+      "of": "f46714d6",
+      "at": [
+        "covenant-day:wholeClass.support[1].text"
+      ]
+    },
+    {
+      "t": "کمک قیمت‌دار",
+      "of": "51afb9a1",
+      "at": [
+        "covenant-day:wholeClass.support[2].label"
+      ]
+    },
+    {
+      "t": "شرایط شهریه افشا می‌کند که تدریس خصوصی و آزمون ویژه فراتر از کمک کلاسی با هزینهٔ اضافی در دسترس‌اند — یک مجرای بیان‌شده و قیمت‌دار، نه ناگفته.",
+      "of": "bbf90589",
+      "at": [
+        "covenant-day:wholeClass.support[2].text"
+      ]
+    },
+    {
+      "t": "دروازه‌بندی AP (هیچ‌کدام برای سال‌اولی‌ها، یکی برای سال‌دومی‌ها) خود یک نرده‌بان کل-دوره است: سخت‌گیری به‌جای ثبت‌نام آزاد، بر پایهٔ آمادگی مرتب می‌شود.",
+      "of": "409c6128",
+      "at": [
+        "covenant-day:wholeClass.supportNote"
+      ]
+    },
+    {
+      "t": "فهرست، گستره را نشان می‌دهد",
+      "of": "5ed235e4",
+      "at": [
+        "covenant-day:wholeClass.middle[0].label"
+      ]
+    },
+    {
+      "t": "ثبت‌نام‌های پررنگ از Dartmouth و Duke تا Covenant College، Cedarville، Montreat، کالج‌های محلی و برنامه‌های نزدیک به حرفه امتداد دارند — مدرسه‌ای که تنها چارک برتر خود را جای می‌دهد چنین گستره‌ای تولید نمی‌کند.",
+      "of": "00394520",
+      "at": [
+        "covenant-day:wholeClass.middle[0].text"
+      ]
+    },
+    {
+      "t": "ستون فقرات دانشگاه‌های دولتی NC",
+      "of": "6dee07d4",
+      "at": [
+        "covenant-day:wholeClass.middle[1].label"
+      ]
+    },
+    {
+      "t": "بیشترین تمرکز ثبت‌نام‌شده در Chapel Hill، NC State، UNC Charlotte، App State و East Carolina است — مقصدهایی که به بخش میانی گستردهٔ یک دورهٔ North Carolina خدمت می‌کنند.",
+      "of": "89123c5a",
+      "at": [
+        "covenant-day:wholeClass.middle[1].text"
+      ]
+    },
+    {
+      "t": "هیچ توزیعی در هیچ‌جا منتشر نشده: بدون چندک GPA، بدون صدک نمره، بدون نرخ ثبت‌نام به تفکیک دوره. این کارت با مجموع‌های بالا عرضه می‌شود چون آن‌ها به‌راستی آگاهی‌بخش‌اند — اما شکل دوره از منابع عمومی قابل بازیابی نیست، و این از سیاست بدون رتبه‌بندی خود مدرسه پیروی می‌کند.",
+      "of": "59ca5e57",
+      "at": [
+        "covenant-day:wholeClass.flags[0].text"
+      ]
+    },
+    {
+      "t": "یک محصول علمی سخت‌گیرانه و خوانا با بار پروندهٔ مشاور به‌طور غیرمعمول سنگین — و افشایی که دربارهٔ نتایج عالی و دربارهٔ فرایند خاموش است.",
+      "of": "69b1bef2",
+      "at": [
+        "covenant-day:verdict.headline"
+      ]
+    },
+    {
+      "t": "نمایه تقریباً همه چیز را به دانشگاه‌ها می‌گوید؛ وب‌سایت دربارهٔ چگونگی واقعی کار مشاوره بسیار کمتر به والدین می‌گوید.",
+      "of": "ca00efcd",
+      "at": [
+        "covenant-day:verdict.subhead"
+      ]
+    },
+    {
+      "t": "روایت AP به‌راستی نیرومند است",
+      "of": "f6a80b4d",
+      "at": [
+        "covenant-day:verdict.points[0].label"
+      ]
+    },
+    {
+      "t": "96% از آزمون‌ها در 3+، 78% در 4–5، با یک سیاست آزمون-الزامی که عدد را صادق می‌کند، و یک خط پنج‌سالهٔ صعودی برای پشتیبانی از آن.",
+      "of": "9ef0b2cc",
+      "at": [
+        "covenant-day:verdict.points[0].text"
+      ]
+    },
+    {
+      "t": "سنگین‌ترین بار پرونده در این مقایسه",
+      "of": "34a1dadb",
+      "at": [
+        "covenant-day:verdict.points[1].label"
+      ]
+    },
+    {
+      "t": "یک مشاور دانشگاه اختصاصی برای 85 دانش‌آموز سال آخر — که با یک مدیر با 23 سال سابقه و جایگاه NACCAP تعدیل می‌شود، اما نسبتی که والدین باید مستقیماً دربارهٔ آن بپرسند.",
+      "of": "27e38dc0",
+      "at": [
+        "covenant-day:verdict.points[1].text"
+      ]
+    },
+    {
+      "t": "ثبت‌نام واقعاً دیدنی است",
+      "of": "08e83102",
+      "at": [
+        "covenant-day:verdict.points[2].label"
+      ]
+    },
+    {
+      "t": "نشانه‌های پررنگ روی دو فهرست چندسالهٔ هم‌پوشان به شما اجازه می‌دهند راستی‌آزمایی کنید دانش‌آموزان کجا ثبت‌نام کردند، نه فقط کجا پذیرفته شدند — افشایی که همتایان به‌ندرت ارائه می‌دهند.",
+      "of": "25cc137a",
+      "at": [
+        "covenant-day:verdict.points[2].text"
+      ]
+    },
+    {
+      "t": "سقف واقعی اما رویدادی است",
+      "of": "f7cee28e",
+      "at": [
+        "covenant-day:verdict.points[3].label"
+      ]
+    },
+    {
+      "t": "ثبت‌نام‌های Dartmouth، Penn و Duke در بازهٔ کنونی؛ Stanford/MIT/Princeton به بازه‌های پیشین تعلق دارند. نیروی قابل‌اتکا، دانشگاه‌های دولتی NC و شبکهٔ کالج‌های مسیحی است.",
+      "of": "c520f92f",
+      "at": [
+        "covenant-day:verdict.points[3].text"
+      ]
+    },
+    {
+      "t": "افشای فرایند نازک است",
+      "of": "c79e63c4",
+      "at": [
+        "covenant-day:verdict.points[4].label"
+      ]
+    },
+    {
+      "t": "بدون گاه‌شمار مشاوره، بدون نام بستر، بدون برنامهٔ مقاله یا درخواستِ منتشرشده — مدل بر روابط مدیر سوار است.",
+      "of": "c0ffc133",
+      "at": [
+        "covenant-day:verdict.points[4].text"
+      ]
+    },
+    {
+      "t": "یک مدیر چگونه 85 دانش‌آموز سال آخر را در فصل اوج مدیریت می‌کند — تقویم بهار سال سوم / پاییز سال آخر واقعاً چه شکلی است؟",
+      "of": "023f3612",
+      "at": [
+        "covenant-day:verdict.checklist[0]"
+      ]
+    },
+    {
+      "t": "خانواده‌ها از کدام بستر استفاده می‌کنند — Naviance، Scoir، چیز دیگری — و دانش‌آموزان کِی دسترسی می‌یابند؟",
+      "of": "8e676aa4",
+      "at": [
+        "covenant-day:verdict.checklist[1]"
+      ]
+    },
+    {
+      "t": "کدام درس‌های AP سال آینده واقعاً اجرا خواهند شد؟ ماتریس میان ویرایش‌ها از 18 به 15 تغییر کرد.",
+      "of": "08041c00",
+      "at": [
+        "covenant-day:verdict.checklist[2]"
+      ]
+    },
+    {
+      "t": "دورهٔ سال گذشته فراتر از میانگین‌ها چه شکلی بود — چند نفر آزمون دادند، و میانهٔ دوره کجا فرود آمد؟",
+      "of": "9b784a6a",
+      "at": [
+        "covenant-day:verdict.checklist[3]"
+      ]
+    },
+    {
+      "t": "پیش‌نیاز NC Opportunity Scholarship چگونه با گاه‌شمار کمک‌هزینه برای خانواده‌ای که هم‌زمان جای دیگری نیز درخواست می‌دهد تعامل می‌کند؟",
+      "of": "236a647b",
+      "at": [
+        "covenant-day:verdict.checklist[4]"
+      ]
+    },
+    {
       "t": "مدرسهٔ Davidson Day سازوکار نمره‌دهی خود را به‌تمامی منتشر می‌کند — مقیاس، وزن‌دهی، و فهرستی به‌طور غیرمعمولی صریح از آنچه از معدل کنار گذاشته می‌شود — اما هیچ نتیجهٔ آزمون AP و اصلاً هیچ کارنامه‌ای از National Merit منتشر نمی‌کند.",
       "of": "410e02c8",
       "at": [
@@ -6010,13 +7108,6 @@
       "of": "8e8558b1",
       "at": [
         "davidson-day:counseling.timeline[1].note"
-      ]
-    },
-    {
-      "t": "آنچه دفتر می‌گوید پوشش می‌دهد",
-      "of": "c669b4fb",
-      "at": [
-        "davidson-day:counseling.mechanicsTitle"
       ]
     },
     {
@@ -6640,30 +7731,6 @@
       "of": "660d65b7",
       "at": [
         "davidson-day:verdict.checklist[7]"
-      ]
-    },
-    {
-      "t": "HBCUs",
-      "of": "d6316d90",
-      "at": [
-        "providence-day:outcomes.buckets[5].tier",
-        "charlotte-latin:outcomes.buckets[5].tier",
-        "charlotte-christian:outcomes.buckets[5].tier",
-        "charlotte-country-day:outcomes.buckets[5].tier",
-        "cannon:outcomes.buckets[5].tier",
-        "davidson-day:outcomes.buckets[5].tier"
-      ]
-    },
-    {
-      "t": "— کالج‌ها و دانشگاه‌های تاریخاً سیاه‌پوست",
-      "of": "92578ef1",
-      "at": [
-        "providence-day:outcomes.buckets[5].note",
-        "charlotte-latin:outcomes.buckets[5].note",
-        "charlotte-christian:outcomes.buckets[5].note",
-        "charlotte-country-day:outcomes.buckets[5].note",
-        "cannon:outcomes.buckets[5].note",
-        "davidson-day:outcomes.buckets[5].note"
       ]
     }
   ]

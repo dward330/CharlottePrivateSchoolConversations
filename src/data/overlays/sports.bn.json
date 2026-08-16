@@ -58,6 +58,7 @@
         "charlotte-christian:offered.seasons[0].name",
         "charlotte-country-day:offered.seasons[0].name",
         "cannon:offered.seasons[0].name",
+        "covenant-day:offered.seasons[0].name",
         "davidson-day:offered.seasons[0].name"
       ]
     },
@@ -81,6 +82,7 @@
         "charlotte-christian:offered.seasons[1].name",
         "charlotte-country-day:offered.seasons[1].name",
         "cannon:offered.seasons[1].name",
+        "covenant-day:offered.seasons[1].name",
         "davidson-day:offered.seasons[1].name"
       ]
     },
@@ -93,6 +95,7 @@
         "charlotte-christian:offered.seasons[2].name",
         "charlotte-country-day:offered.seasons[2].name",
         "cannon:offered.seasons[2].name",
+        "covenant-day:offered.seasons[2].name",
         "davidson-day:offered.seasons[2].name"
       ]
     },
@@ -155,6 +158,7 @@
         "cannon:record.rows[0].cells[2].result",
         "cannon:record.rows[1].cells[0].result",
         "cannon:record.rows[2].cells[0].result",
+        "covenant-day:record.rows[0].cells[2].result",
         "davidson-day:record.rows[0].cells[0].result",
         "davidson-day:record.rows[0].cells[1].result",
         "davidson-day:record.rows[0].cells[2].result",
@@ -185,6 +189,8 @@
         "charlotte-country-day:record.rows[2].cells[2].result",
         "charlotte-country-day:record.rows[5].cells[2].result",
         "cannon:record.rows[3].cells[2].result",
+        "covenant-day:record.rows[1].cells[1].result",
+        "covenant-day:record.rows[1].cells[2].result",
         "davidson-day:record.rows[1].cells[2].result"
       ]
     },
@@ -250,6 +256,11 @@
         "cannon:record.rows[5].cells[0].result",
         "cannon:record.rows[5].cells[1].result",
         "cannon:record.rows[5].cells[2].result",
+        "covenant-day:record.rows[0].cells[0].result",
+        "covenant-day:record.rows[0].cells[1].result",
+        "covenant-day:record.rows[1].cells[0].result",
+        "covenant-day:record.rows[2].cells[0].result",
+        "covenant-day:record.rows[2].cells[1].result",
         "davidson-day:record.rows[2].cells[2].result",
         "davidson-day:record.rows[3].cells[2].result",
         "davidson-day:record.rows[5].cells[1].result",
@@ -278,6 +289,7 @@
       "of": "6afcd109",
       "at": [
         "providence-day:record.rows[4].cells[1].result",
+        "covenant-day:record.rows[2].cells[2].result",
         "davidson-day:record.rows[4].cells[1].result",
         "davidson-day:record.rows[4].cells[2].result"
       ]
@@ -361,6 +373,7 @@
         "charlotte-christian:pipeline.funnel[0].label",
         "charlotte-country-day:pipeline.funnel[0].label",
         "cannon:pipeline.funnel[0].label",
+        "covenant-day:pipeline.funnel[0].label",
         "davidson-day:pipeline.funnel[0].label"
       ]
     },
@@ -382,6 +395,7 @@
         "charlotte-christian:pipeline.funnel[1].label",
         "charlotte-country-day:pipeline.funnel[1].label",
         "cannon:pipeline.funnel[1].label",
+        "covenant-day:pipeline.funnel[1].label",
         "davidson-day:pipeline.funnel[1].label"
       ]
     },
@@ -394,6 +408,7 @@
         "charlotte-christian:pipeline.funnel[1].hint",
         "charlotte-country-day:pipeline.funnel[1].hint",
         "cannon:pipeline.funnel[1].hint",
+        "covenant-day:pipeline.funnel[1].hint",
         "davidson-day:pipeline.funnel[1].hint"
       ]
     },
@@ -406,6 +421,7 @@
         "charlotte-christian:pipeline.funnel[2].label",
         "charlotte-country-day:pipeline.funnel[2].label",
         "cannon:pipeline.funnel[2].label",
+        "covenant-day:pipeline.funnel[2].label",
         "davidson-day:pipeline.funnel[2].label"
       ]
     },
@@ -418,6 +434,7 @@
         "charlotte-christian:pipeline.funnel[2].hint",
         "charlotte-country-day:pipeline.funnel[2].hint",
         "cannon:pipeline.funnel[2].hint",
+        "covenant-day:pipeline.funnel[2].hint",
         "davidson-day:pipeline.funnel[2].hint"
       ]
     },
@@ -483,7 +500,8 @@
         "charlotte-christian:pipeline.roster[29].sport",
         "charlotte-christian:pipeline.roster[30].sport",
         "charlotte-christian:pipeline.roster[32].sport",
-        "charlotte-country-day:pipeline.roster[20].sport"
+        "charlotte-country-day:pipeline.roster[20].sport",
+        "covenant-day:pipeline.roster[11].sport"
       ]
     },
     {
@@ -567,7 +585,8 @@
         "providence-day:pipeline.roster[79].sport",
         "providence-day:pipeline.roster[80].sport",
         "charlotte-country-day:pipeline.roster[36].sport",
-        "charlotte-country-day:pipeline.roster[41].sport"
+        "charlotte-country-day:pipeline.roster[41].sport",
+        "covenant-day:pipeline.roster[0].sport"
       ]
     },
     {
@@ -635,6 +654,8 @@
         "charlotte-country-day:pipeline.roster[24].sport",
         "cannon:pipeline.roster[2].sport",
         "cannon:coaching.tenure[4].role",
+        "covenant-day:pipeline.roster[13].sport",
+        "covenant-day:pipeline.roster[28].sport",
         "davidson-day:pipeline.roster[5].sport",
         "davidson-day:pipeline.roster[6].sport"
       ]
@@ -657,7 +678,14 @@
         "charlotte-country-day:pipeline.roster[9].sport",
         "charlotte-country-day:pipeline.roster[10].sport",
         "charlotte-country-day:pipeline.roster[44].sport",
-        "charlotte-country-day:coaching.tenure[6].role"
+        "charlotte-country-day:coaching.tenure[6].role",
+        "covenant-day:pipeline.roster[8].sport",
+        "covenant-day:pipeline.roster[16].sport",
+        "covenant-day:pipeline.roster[17].sport",
+        "covenant-day:pipeline.roster[20].sport",
+        "covenant-day:pipeline.roster[26].sport",
+        "covenant-day:pipeline.roster[31].sport",
+        "covenant-day:pipeline.roster[32].sport"
       ]
     },
     {
@@ -690,7 +718,9 @@
       "of": "3d1c7bf4",
       "at": [
         "providence-day:pipeline.roster[28].sport",
-        "charlotte-christian:pipeline.roster[1].sport"
+        "charlotte-christian:pipeline.roster[1].sport",
+        "covenant-day:pipeline.roster[23].sport",
+        "covenant-day:pipeline.roster[25].sport"
       ]
     },
     {
@@ -710,7 +740,8 @@
         "charlotte-christian:pipeline.roster[6].sport",
         "charlotte-christian:pipeline.roster[12].sport",
         "charlotte-christian:pipeline.roster[15].sport",
-        "charlotte-christian:pipeline.roster[31].sport"
+        "charlotte-christian:pipeline.roster[31].sport",
+        "covenant-day:pipeline.roster[2].sport"
       ]
     },
     {
@@ -1152,6 +1183,8 @@
         "providence-day:coaching.tenure[6].since",
         "providence-day:coaching.tenure[7].since",
         "charlotte-christian:coaching.tenure[6].since",
+        "covenant-day:coaching.tenure[2].since",
+        "covenant-day:coaching.tenure[3].since",
         "davidson-day:coaching.tenure[2].since"
       ]
     },
@@ -1583,7 +1616,8 @@
       "t": "শিক্ষার্থী কোনো না কোনো খেলা খেলে",
       "of": "5ea7fd07",
       "at": [
-        "charlotte-latin:offered.stats[2].label"
+        "charlotte-latin:offered.stats[2].label",
+        "covenant-day:offered.stats[1].label"
       ]
     },
     {
@@ -1773,7 +1807,8 @@
         "charlotte-latin:pipeline.roster[23].sport",
         "charlotte-christian:pipeline.roster[3].sport",
         "charlotte-christian:pipeline.roster[20].sport",
-        "charlotte-christian:pipeline.roster[33].sport"
+        "charlotte-christian:pipeline.roster[33].sport",
+        "covenant-day:pipeline.roster[10].sport"
       ]
     },
     {
@@ -1804,7 +1839,8 @@
         "charlotte-latin:pipeline.roster[35].sport",
         "charlotte-christian:pipeline.roster[9].sport",
         "charlotte-country-day:pipeline.roster[22].sport",
-        "charlotte-country-day:pipeline.roster[34].sport"
+        "charlotte-country-day:pipeline.roster[34].sport",
+        "covenant-day:pipeline.roster[6].sport"
       ]
     },
     {
@@ -1906,6 +1942,9 @@
         "charlotte-christian:honors.honors[3].tag",
         "charlotte-country-day:honors.honors[0].tag",
         "cannon:honors.honors[2].tag",
+        "covenant-day:honors.honors[0].tag",
+        "covenant-day:honors.honors[1].tag",
+        "covenant-day:honors.honors[3].tag",
         "davidson-day:honors.honors[1].tag",
         "davidson-day:honors.honors[3].tag"
       ]
@@ -2519,7 +2558,8 @@
         "charlotte-country-day:record.bars[2].tag",
         "charlotte-country-day:record.bars[3].tag",
         "charlotte-country-day:record.bars[4].tag",
-        "charlotte-country-day:record.bars[5].tag"
+        "charlotte-country-day:record.bars[5].tag",
+        "covenant-day:record.bars[1].tag"
       ]
     },
     {
@@ -4006,6 +4046,7 @@
       "of": "a0fb88bd",
       "at": [
         "cannon:pipeline.funnel[0].hint",
+        "covenant-day:pipeline.funnel[0].hint",
         "davidson-day:pipeline.funnel[0].hint"
       ]
     },
@@ -4258,7 +4299,8 @@
       "t": "3",
       "of": "360caa42",
       "at": [
-        "cannon:coaching.featured[1].stats[1].value"
+        "cannon:coaching.featured[1].stats[1].value",
+        "covenant-day:coaching.featured[0].stats[1].value"
       ]
     },
     {
@@ -4534,6 +4576,652 @@
       "of": "6111f0cb",
       "at": [
         "cannon:facilities.careNote"
+      ]
+    },
+    {
+      "t": "তিন মৌসুম মিলিয়ে 18টি দল, এবং 82% শিক্ষার্থী অন্তত একটি খেলায় অংশ নেয়।",
+      "of": "b4f32bd9",
+      "at": [
+        "covenant-day:offered.headline"
+      ]
+    },
+    {
+      "t": "একটি CISAA / NCISAA 4A প্রোগ্রাম, যা 2006 সালে স্কুলের প্রথম গ্র্যাজুয়েটিং ব্যাচের পর থেকে 175 জনের বেশি ক্রীড়াবিদকে কলেজ খেলাধুলায় পাঠিয়েছে।",
+      "of": "e48cdf2f",
+      "at": [
+        "covenant-day:offered.subhead"
+      ]
+    },
+    {
+      "t": "দল, V · JV · MS",
+      "of": "a6672127",
+      "at": [
+        "covenant-day:offered.stats[0].label"
+      ]
+    },
+    {
+      "t": "2006 সাল থেকে কলেজ-স্তরের ক্রীড়াবিদ",
+      "of": "091b1144",
+      "at": [
+        "covenant-day:offered.stats[2].label"
+      ]
+    },
+    {
+      "t": "NCISAA-র 4A কনফারেন্স",
+      "of": "9a8b19a9",
+      "at": [
+        "covenant-day:offered.stats[3].label"
+      ]
+    },
+    {
+      "t": "8টি দল",
+      "of": "74bd84cd",
+      "at": [
+        "covenant-day:offered.seasons[0].note"
+      ]
+    },
+    {
+      "t": "4টি দল",
+      "of": "12157781",
+      "at": [
+        "covenant-day:offered.seasons[1].note"
+      ]
+    },
+    {
+      "t": "6টি দল",
+      "of": "a007c103",
+      "at": [
+        "covenant-day:offered.seasons[2].note"
+      ]
+    },
+    {
+      "t": "18টি দলের সংখ্যা ও মৌসুমভিত্তিক ভাগ স্কুলের নিজের; স্কুল বলে দলগুলো চলে \"at the varsity, JV, and middle school levels\", কিন্তু খেলাপ্রতি কোনো বিভাজন প্রকাশ করে না, তাই এখানে JV/MS সারি দাবি করা হয়নি। ছেলেদের ভলিবল ক্লাব খেলা হিসেবে চলে, এবং স্কুলের সাইনিং কাভারেজে একটি সম্মিলিত ল্যাক্রোস প্রোগ্রামের উল্লেখ আছে। স্কুল যেসব লিঙ্গ ও স্তর একসঙ্গে গোনে সেগুলো আলাদা করে গুনে MaxPreps 21টি varsity খেলা ও মোট 50টি দল হিসাব করে।",
+      "of": "73350d73",
+      "at": [
+        "covenant-day:offered.footnote"
+      ]
+    },
+    {
+      "t": "2025–26-এর সফটবল দল NCISAA 4A শিরোপা জিততে Cannon-কে হারায় — সর্বকালের 26টি চ্যাম্পিয়নশিপ-উপস্থিতির মধ্যে 2017-র পর এটিই স্কুলের প্রথম দলগত রাজ্য চ্যাম্পিয়নশিপ।",
+      "of": "6944ea48",
+      "at": [
+        "covenant-day:record.headline"
+      ]
+    },
+    {
+      "t": "ছেলেদের সকার পরপর দুই রাজ্য ফাইনালে পৌঁছায় এবং 8 ম্যাচের অপরাজিত ধারার সময় 2025-এর শরতের একাংশে জাতীয়ভাবে এক নম্বরে ছিল।",
+      "of": "1b1425b2",
+      "at": [
+        "covenant-day:record.subhead"
+      ]
+    },
+    {
+      "t": "সফটবলে প্রথমবারের CISAA কনফারেন্স ও NCISAA রাজ্য শিরোপা; ফাইনালে Cannon-কে হারায়",
+      "of": "09c65dc6",
+      "at": [
+        "covenant-day:record.rows[0].note"
+      ]
+    },
+    {
+      "t": "2024–25-এ প্রথমবারের ফাইনাল, এরপর শীর্ষ সিড হিসেবে 2025–26-এর ফাইনাল আয়োজন করে Christ School-এর কাছে 2–1-এ হারে",
+      "of": "12240d4e",
+      "at": [
+        "covenant-day:record.rows[1].note"
+      ]
+    },
+    {
+      "t": "রাজ্য সেমিফাইনালে Providence Day-কে ওভারটাইমে নিয়ে যায়; 2022-এ রাজ্য রানার-আপ",
+      "of": "e6015c37",
+      "at": [
+        "covenant-day:record.rows[2].note"
+      ]
+    },
+    {
+      "t": "ছেলেদের সকার (Covenant Day-তে অনুষ্ঠিত 2025–26 ফাইনালে Christ School 2–1-এ জেতে) · ফিল্ড হকি (Providence Day-র কাছে ওভারটাইমে বাদ) · ভলিবল, যার টানা তিনটি রাজ্য রানার-আপ সমাপ্তিই প্রোগ্রামটির এ-পর্যন্ত সর্বোচ্চ অর্জন।",
+      "of": "049bef87",
+      "at": [
+        "covenant-day:record.didNotWin"
+      ]
+    },
+    {
+      "t": "'25–26 কনফারেন্স",
+      "of": "6117fbfe",
+      "at": [
+        "covenant-day:record.bars[0].tag"
+      ]
+    },
+    {
+      "t": "2025–26-এর দলটি সফটবলে প্রথমবারের CISAA কনফারেন্স ও NCISAA রাজ্য চ্যাম্পিয়নশিপ জেতে — এবং 2017-র পর যেকোনো ধরনের প্রথম CDS দলগত রাজ্য শিরোপা — কনফারেন্সে 10–1 রেকর্ড গড়ে এবং ফাইনালে Cannon-কে হারিয়ে। সিনিয়র Avery Houseton ছিলেন Conference Player of the Year ও All-State, পরে UNC Charlotte-এর সঙ্গে সাইন করেন।",
+      "of": "d74004aa",
+      "at": [
+        "covenant-day:record.seasonDetail[0].text"
+      ]
+    },
+    {
+      "t": "2024–25-এ প্রোগ্রামের প্রথম NCISAA 4A ফাইনালে ওঠে, এরপর 2025–26-এ সামগ্রিক #1 সিড অর্জন করে, টানা দ্বিতীয় বছর চ্যাম্পিয়নশিপ ম্যাচ আয়োজন করে, এবং 8 ম্যাচের অপরাজিত ধারার সময় \"ranked first in the nation\" ছিল — শেষে Christ School-এর কাছে 2–1-এ হারে।",
+      "of": "022d5bbd",
+      "at": [
+        "covenant-day:record.seasonDetail[1].text"
+      ]
+    },
+    {
+      "t": "ছেলেদের বাস্কেটবল দুই All-State সিনিয়রের সুবাদে 2024–25 NCISAA প্লে-অফে সামগ্রিক #4 সিড পায়; বেসবল 2025–26-এ 12–14 (কনফারেন্সে 5–5) রেকর্ডে #8 সিড নেয়। কেউই সেমিফাইনালে পৌঁছায়নি, তাই তারা উপরের শিরোপা-তালিকার বাইরে।",
+      "of": "1b719320",
+      "at": [
+        "covenant-day:record.seasonDetail[2].text"
+      ]
+    },
+    {
+      "t": "মেয়েদের বাস্কেটবল 2024–25-এ আগের মৌসুমের চেয়ে 15টি বেশি ম্যাচ জেতে, যার মধ্যে ছিল 10 ম্যাচের জয়ের ধারা। মেয়েদের ক্রস কান্ট্রির Caitlin Kasten সফোমোর হিসেবেই CISAA ও NCISAA — দুটি চ্যাম্পিয়নশিপ মিটই জেতেন। মেয়েদের টেনিস 2025-এ স্কুলের ইতিহাসে প্রথমবার Ashe Cup — Charlotte Christian-এর বিপক্ষে বার্ষিক ট্রফি — জেতে।",
+      "of": "f2ff877b",
+      "at": [
+        "covenant-day:record.seasonDetail[3].text"
+      ]
+    },
+    {
+      "t": "2024–26 ব্যাচ জুড়ে 33টি নথিভুক্ত কলেজ কমিট — নয়টি Division I, একটি Power 4 প্রোগ্রামে।",
+      "of": "a2935663",
+      "at": [
+        "covenant-day:pipeline.headline"
+      ]
+    },
+    {
+      "t": "সবচেয়ে উল্লেখযোগ্য সাইনিং Emily Eaton ’24, যিনি ফ্রেশম্যান হিসেবে শীর্ষ-10 Louisville ফিল্ড হকি দলের হয়ে প্রতিটি ম্যাচে শুরু থেকে খেলেন।",
+      "of": "6ff324b1",
+      "at": [
+        "covenant-day:pipeline.subhead"
+      ]
+    },
+    {
+      "t": "স্কুলের ছয়টি সাইনিং/কমিটমেন্ট নিবন্ধ থেকে সংকলিত নথিভুক্ত সর্বনিম্ন সংখ্যা। Class of 2024-এর বসন্তের সাইনিং নিবন্ধে ছয়জন ক্রীড়াবিদের নাম থাকলেও মাত্র চারজন উদ্ধারযোগ্য, তাই 2024-এর শুরুর দিকের কমিট বাদ পড়ে থাকতে পারে। স্কুলের সামগ্রিক দাবি 2006 সাল থেকে 175+ কলেজ-স্তরের ক্রীড়াবিদ।",
+      "of": "087b0fd4",
+      "at": [
+        "covenant-day:pipeline.funnelNote"
+      ]
+    },
+    {
+      "t": "পাইপলাইনটি উঁচুর চেয়ে চওড়া: কমিটগুলো এগারোটি খেলা জুড়ে বিস্তৃত, কিন্তু ফিল্ড হকির বাইরে সর্বোচ্চ স্তর D1 মিড-মেজর — Louisiana Tech, East Carolina, UNC Charlotte, Queens, Gardner-Webb, Davidson, Wofford, Appalachian State। এতে NIL কার্যক্রম ও শীর্ষ-100 রিক্রুটিং র‍্যাঙ্কিং না থাকারও ব্যাখ্যা মেলে, কারণ সেগুলো Power 4 ফুটবল ও বাস্কেটবল পাইপলাইনকেই অনুসরণ করে।",
+      "of": "d8445aa5",
+      "at": [
+        "covenant-day:pipeline.realityCheck"
+      ]
+    },
+    {
+      "t": "জাতীয়ভাবে শীর্ষ-100 র‍্যাঙ্কধারী কোনো রিক্রুট নথিভুক্ত নেই। সবচেয়ে বেশি কাভারেজ পাওয়া দুই রিক্রুট হলেন Emily Eaton ’24 — 2023 NCISAA Player of the Year এবং Max Field Hockey-র হিসাবে NC Player of the Year, সাইন করেছিলেন শীর্ষ-10 র‍্যাঙ্কের Louisville প্রোগ্রামে — এবং 6′9″ ফরোয়ার্ড Michael Marcus Jr ’24, যিনি NC রাজ্য-স্তরের কাভারেজের পর Appalachian State বেছে নেন।",
+      "of": "825cb957",
+      "at": [
+        "covenant-day:pipeline.rankedRecruits"
+      ]
+    },
+    {
+      "t": "বাস্কেটবল",
+      "of": "5f3f8676",
+      "at": [
+        "covenant-day:pipeline.roster[1].sport",
+        "covenant-day:pipeline.roster[14].sport",
+        "covenant-day:pipeline.roster[15].sport",
+        "covenant-day:pipeline.roster[29].sport",
+        "covenant-day:pipeline.roster[30].sport"
+      ]
+    },
+    {
+      "t": "XC / ট্র্যাক",
+      "of": "0ef9f162",
+      "at": [
+        "covenant-day:pipeline.roster[3].sport",
+        "covenant-day:pipeline.roster[7].sport",
+        "covenant-day:pipeline.roster[22].sport"
+      ]
+    },
+    {
+      "t": "সকার",
+      "of": "4d37567e",
+      "at": [
+        "covenant-day:pipeline.roster[4].sport",
+        "covenant-day:pipeline.roster[5].sport",
+        "covenant-day:pipeline.roster[9].sport",
+        "covenant-day:pipeline.roster[12].sport",
+        "covenant-day:pipeline.roster[18].sport",
+        "covenant-day:pipeline.roster[19].sport",
+        "covenant-day:pipeline.roster[21].sport",
+        "covenant-day:pipeline.roster[24].sport",
+        "covenant-day:pipeline.roster[27].sport"
+      ]
+    },
+    {
+      "t": "স্কুলের নিজস্ব Lions News সাইনিং নিবন্ধগুলো থেকে সংকলিত (সেপ্টেম্বর 2024 থেকে এপ্রিল 2026)। স্তর ও কনফারেন্স গবেষক কলেজ-প্রতি যাচাই করেছেন; এই তালিকার মাপকাঠিতে NJCAA স্তর না থাকায় দুই জুনিয়র-কলেজ সাইনিকে D3 স্তরে দেখানো হয়েছে। Eaton 2026-এর শরতের জন্য Louisville থেকে Virginia-য় — সেটিও ACC — স্থানান্তরিত হন।",
+      "of": "8224ce43",
+      "at": [
+        "covenant-day:pipeline.rosterNote"
+      ]
+    },
+    {
+      "t": "প্রোগ্রামটির মানদণ্ড-অ্যালামনা ACC ফ্রেশম্যান হিসেবে প্রতিটি ম্যাচে শুরু থেকে খেলেছেন; আর মানদণ্ড-মৌসুমটি ছেলেদের সকারকে দেশে এক নম্বরে তুলেছিল।",
+      "of": "6bf5f22c",
+      "at": [
+        "covenant-day:honors.headline"
+      ]
+    },
+    {
+      "t": "এখনো কোনো পেশাদার অ্যালামনাই নেই — প্রথম গ্র্যাজুয়েটিং ব্যাচ ছিল 2006 — তবে প্রতি মৌসুমেই All-Conference ও All-State সম্মাননার এক গভীর খাতা।",
+      "of": "5a1d7e2e",
+      "at": [
+        "covenant-day:honors.subhead"
+      ]
+    },
+    {
+      "t": "ACC · '24 ব্যাচ",
+      "of": "682f9447",
+      "at": [
+        "covenant-day:honors.pros[0].kicker"
+      ]
+    },
+    {
+      "t": "18 গোল করে রাজ্যের শীর্ষে থেকে 2023 NCISAA Player of the Year, Charlotte Observer Offensive Player of the Year, এবং Max Field Hockey-র হিসাবে NC Player of the Year। CDS-এর সর্বকালের শীর্ষ স্কোরার, তিনি Louisville ফ্রেশম্যান হিসেবে 17টি ম্যাচের সবকটিতেই শুরু থেকে খেলেন এবং 2026-এর শরতের জন্য Virginia-য় স্থানান্তরিত হন।",
+      "of": "b6a42bec",
+      "at": [
+        "covenant-day:honors.pros[0].detail"
+      ]
+    },
+    {
+      "t": "Sun Belt · '24 ব্যাচ",
+      "of": "ca8ddb97",
+      "at": [
+        "covenant-day:honors.pros[1].kicker"
+      ]
+    },
+    {
+      "t": "6′9″ ফরোয়ার্ড, সিনিয়র বছরে গড়ে 14.9 পয়েন্ট করে Lions-কে 4A সেমিফাইনালে তোলেন, এরপর কলেজে নিজের দ্বিতীয় ম্যাচেই 18 পয়েন্ট, 10 রিবাউন্ডের ডাবল-ডাবল করেন।",
+      "of": "86d81faa",
+      "at": [
+        "covenant-day:honors.pros[1].detail"
+      ]
+    },
+    {
+      "t": "দুই খেলায় All-State সিনিয়র",
+      "of": "80012f9b",
+      "at": [
+        "covenant-day:honors.honors[0].label"
+      ]
+    },
+    {
+      "t": "Avery Houseton ’26 সফটবলে Conference Player of the Year ও All-State হন, পাশাপাশি ভলিবলে All-Conference ও All-State সম্মাননা পান, ক্যারিয়ারের 1,000তম dig সম্পন্ন করেন, এবং UNC Charlotte-এর সঙ্গে সাইন করেন।",
+      "of": "aade0998",
+      "at": [
+        "covenant-day:honors.honors[0].text"
+      ]
+    },
+    {
+      "t": "বছরের কনফারেন্স চ্যাম্পিয়নরা",
+      "of": "e8b7f42c",
+      "at": [
+        "covenant-day:honors.honors[1].label"
+      ]
+    },
+    {
+      "t": "Caitlin Kasten সফোমোর হিসেবেই CISAA ও NCISAA — দুটি ক্রস-কান্ট্রি চ্যাম্পিয়নশিপ মিটই জেতেন এবং CISAA Runner of the Year (2024) নির্বাচিত হন।",
+      "of": "fb3d6501",
+      "at": [
+        "covenant-day:honors.honors[1].text"
+      ]
+    },
+    {
+      "t": "All-American Bowl-এ নির্বাচিতরা",
+      "of": "0ca2d59a",
+      "at": [
+        "covenant-day:honors.honors[2].label"
+      ]
+    },
+    {
+      "t": "2024 মৌসুমের পর ছয়জন All-Conference ও চারজন All-State সম্মাননাপ্রাপ্তের মধ্য থেকে পাঁচজন ফুটবল খেলোয়াড় Gatlinburg All-American Bowl-এর জন্য নির্বাচিত হন।",
+      "of": "bd3ae4ad",
+      "at": [
+        "covenant-day:honors.honors[2].text"
+      ]
+    },
+    {
+      "t": "বহু-রাজ্য",
+      "of": "2db81b0e",
+      "at": [
+        "covenant-day:honors.honors[2].tag"
+      ]
+    },
+    {
+      "t": "Middle School-এর বিস্ময়",
+      "of": "c324b302",
+      "at": [
+        "covenant-day:honors.honors[3].label"
+      ]
+    },
+    {
+      "t": "Carlton Huitt 2026-এ ছেলেদের টেনিসে First Team All-Conference ও All-State অর্জন করেন — 8ম গ্রেডে পড়া অবস্থাতেই।",
+      "of": "3472a3b4",
+      "at": [
+        "covenant-day:honors.honors[3].text"
+      ]
+    },
+    {
+      "t": "ক্যারিয়ার মাইলফলক",
+      "of": "d87f510e",
+      "at": [
+        "covenant-day:honors.honors[4].label"
+      ]
+    },
+    {
+      "t": "Chris Rivens ’25 ক্যারিয়ারে বাস্কেটবলে 1,000 পয়েন্ট ছাড়িয়ে যান; Maggie Shannon ’26 তিন মৌসুমে ভলিবলে 1,000 অ্যাসিস্ট ছাড়ান; Ethan Welsh ’26 স্কুলের ইতিহাসে দ্বিতীয় দ্রুততম ক্রস-কান্ট্রি টাইমিং গড়েন (15:58.7)।",
+      "of": "fea949b1",
+      "at": [
+        "covenant-day:honors.honors[4].text"
+      ]
+    },
+    {
+      "t": "প্রোগ্রামের রেকর্ড বই",
+      "of": "ffef9495",
+      "at": [
+        "covenant-day:honors.honors[4].tag"
+      ]
+    },
+    {
+      "t": "কলেজ কাউন্সেলিং পরিচালক 22 মৌসুম ধরে varsity ভলিবলের কোচ — আর নতুন অ্যাথলেটিক ডিরেক্টর পদোন্নতি পেয়েছেন হাই স্কুল প্রিন্সিপাল থেকে।",
+      "of": "b7e1bda7",
+      "at": [
+        "covenant-day:coaching.headline"
+      ]
+    },
+    {
+      "t": "Athletic Director: Mike Freace। এখানকার ধারাবাহিকতা প্রজন্মগত: বর্তমান দুই সাইনি AD ও গাইডেন্স কাউন্সেলরের সন্তান।",
+      "of": "275f2b85",
+      "at": [
+        "covenant-day:coaching.subhead"
+      ]
+    },
+    {
+      "t": "ধারাবাহিকতার ভিত্তি · ভলিবল, 22 মৌসুম",
+      "of": "913dbc58",
+      "at": [
+        "covenant-day:coaching.featured[0].kicker"
+      ]
+    },
+    {
+      "t": "22",
+      "of": "8ff29ca5",
+      "at": [
+        "covenant-day:coaching.featured[0].stats[0].value"
+      ]
+    },
+    {
+      "t": "2024-এ প্রধান কোচ হিসেবে মৌসুম",
+      "of": "62339a98",
+      "at": [
+        "covenant-day:coaching.featured[0].stats[0].label"
+      ]
+    },
+    {
+      "t": "টানা রাজ্য রানার-আপ সমাপ্তি",
+      "of": "627bd381",
+      "at": [
+        "covenant-day:coaching.featured[0].stats[1].label"
+      ]
+    },
+    {
+      "t": "2003",
+      "of": "d32ea22a",
+      "at": [
+        "covenant-day:coaching.featured[0].stats[2].value"
+      ]
+    },
+    {
+      "t": "সাল থেকে Covenant Day-তে",
+      "of": "2f380028",
+      "at": [
+        "covenant-day:coaching.featured[0].stats[2].label"
+      ]
+    },
+    {
+      "t": "Director of Guidance and College Counseling একই সঙ্গে varsity ভলিবলের প্রধান কোচ — দুই দশকের এই মেয়াদে এসেছে টানা তিনটি NCISAA রাজ্য রানার-আপ সমাপ্তি এবং, 2025-এ, একই রোটেশনে একজন 1,000-dig ও একজন 1,000-অ্যাসিস্ট সিনিয়র।",
+      "of": "d5039819",
+      "at": [
+        "covenant-day:coaching.featured[0].detail"
+      ]
+    },
+    {
+      "t": "অভ্যন্তরীণ পদোন্নতি · Athletic Director",
+      "of": "844d31c9",
+      "at": [
+        "covenant-day:coaching.featured[1].kicker"
+      ]
+    },
+    {
+      "t": "HS",
+      "of": "6deb4e2c",
+      "at": [
+        "covenant-day:coaching.featured[1].stats[0].value"
+      ]
+    },
+    {
+      "t": "AD দায়িত্ব নেওয়ার আগে Principal",
+      "of": "84c9be54",
+      "at": [
+        "covenant-day:coaching.featured[1].stats[0].label"
+      ]
+    },
+    {
+      "t": "2",
+      "of": "370cabd5",
+      "at": [
+        "covenant-day:coaching.featured[1].stats[1].value",
+        "davidson-day:coaching.featured[0].stats[1].value"
+      ]
+    },
+    {
+      "t": "তাঁর পাশে সহকারী AD",
+      "of": "a22822ff",
+      "at": [
+        "covenant-day:coaching.featured[1].stats[1].label"
+      ]
+    },
+    {
+      "t": "'25",
+      "of": "4c455a8b",
+      "at": [
+        "covenant-day:coaching.featured[1].stats[2].value"
+      ]
+    },
+    {
+      "t": "ছেলে Sean কলেজ সকার খেলতে সাইন করেন",
+      "of": "35e438d9",
+      "at": [
+        "covenant-day:coaching.featured[1].stats[2].label"
+      ]
+    },
+    {
+      "t": "Freace হাই স্কুল প্রিন্সিপাল থেকে Athletic Director হন — বাইরের নিয়োগ নয়, স্কুলের নিজস্ব নিউজ ফিডে ঘোষিত এক অভ্যন্তরীণ পদোন্নতি। তাঁকে ঘিরে বিভাগটি: Aja Teich (Assistant AD / Sports Information Director), Michael Laney (Middle School অ্যাথলেটিক্সের Assistant AD ও প্রধান বাস্কেটবল কোচ), Chad Smith (strength & conditioning), সঙ্গে একজন অপারেশনস ম্যানেজার ও একজন পরিবহন সমন্বয়ক।",
+      "of": "91c4cb32",
+      "at": [
+        "covenant-day:coaching.featured[1].detail"
+      ]
+    },
+    {
+      "t": "ভলিবল · Guidance Director",
+      "of": "ab6ef47e",
+      "at": [
+        "covenant-day:coaching.tenure[0].role"
+      ]
+    },
+    {
+      "t": "2003 সাল থেকে",
+      "of": "610110dc",
+      "at": [
+        "covenant-day:coaching.tenure[0].since"
+      ]
+    },
+    {
+      "t": "Athletic Director",
+      "of": "e3e4c54b",
+      "at": [
+        "covenant-day:coaching.tenure[1].role"
+      ]
+    },
+    {
+      "t": "HS Principal থেকে পদোন্নতি",
+      "of": "ac5fbf5a",
+      "at": [
+        "covenant-day:coaching.tenure[1].since"
+      ]
+    },
+    {
+      "t": "Asst AD · ছেলেদের বাস্কেটবল",
+      "of": "c5075244",
+      "at": [
+        "covenant-day:coaching.tenure[2].role"
+      ]
+    },
+    {
+      "t": "Strength & Conditioning",
+      "of": "92452875",
+      "at": [
+        "covenant-day:coaching.tenure[3].role"
+      ]
+    },
+    {
+      "t": "ফুটবল — তারিখসহ নিয়োগ",
+      "of": "bbe5b6c6",
+      "at": [
+        "covenant-day:coaching.tenure[4].role"
+      ]
+    },
+    {
+      "t": "Lions News-এ ঘোষিত",
+      "of": "2e739b2b",
+      "at": [
+        "covenant-day:coaching.tenure[4].since",
+        "covenant-day:coaching.tenure[5].since"
+      ]
+    },
+    {
+      "t": "মেয়েদের সকার — তারিখসহ নিয়োগ",
+      "of": "b633c633",
+      "at": [
+        "covenant-day:coaching.tenure[5].role"
+      ]
+    },
+    {
+      "t": "স্কুল মেয়াদের তারিখসহ কোনো কোচিং ডিরেক্টরি প্রকাশ করে না — তারিখসহ দুটি প্রধান-কোচ ঘোষণা (ফুটবলে Langs, মেয়েদের সকারে Johnson) এবং Mills-এর 22-মৌসুমের মাইলফলকই নথিভুক্ত ভিত্তি। স্কুলের কাভারেজে নাম আসা প্রোগ্রাম কোচদের মধ্যে আছেন David Houseton (বেসবল, সফটবল সাইনি Avery-র বাবা), Vanessa Laney, Rachael Klohr, Julius Klohr, Mike Hawks ও Bobby Wehane।",
+      "of": "b1de6a44",
+      "at": [
+        "covenant-day:coaching.worthKnowing"
+      ]
+    },
+    {
+      "t": "800 আসনের একটি জিম, 200-মিটার ট্র্যাকে ঘেরা একটি টার্ফ মাঠ, ছয়টি নতুন টেনিস কোর্ট, আর একটু দূরেই 27 একরের একটি অ্যাথলেটিক পার্ক।",
+      "of": "661f7b8a",
+      "at": [
+        "covenant-day:facilities.headline"
+      ]
+    },
+    {
+      "t": "Forever Covenant ক্যাম্পেইনে Warner Park-এ আট-লেনের ট্র্যাক ও একটি ফিল্ড হাউসের পরিকল্পনা আছে।",
+      "of": "78471844",
+      "at": [
+        "covenant-day:facilities.subhead"
+      ]
+    },
+    {
+      "t": "800-এর বেশি দর্শক ধরে; বাস্কেটবল ও ভলিবলের হোম কোর্ট।",
+      "of": "5dd38713",
+      "at": [
+        "covenant-day:facilities.venues[0].detail"
+      ]
+    },
+    {
+      "t": "Middle School-এর পাশে সম্পূর্ণ টার্ফের একটি মাঠ, চার-লেনের 200-মিটার Davis Track-এ ঘেরা।",
+      "of": "e768a313",
+      "at": [
+        "covenant-day:facilities.venues[1].detail"
+      ]
+    },
+    {
+      "t": "515 Matthews Township Parkway-তে 27 একর — বেসবল, সফটবল, ফুটবল/সকার মাঠ, এবং Middle School ফিল্ড হকি। Homecoming এখানেই খেলা হয়।",
+      "of": "70b0933c",
+      "at": [
+        "covenant-day:facilities.venues[2].detail"
+      ]
+    },
+    {
+      "t": "একটি প্যাভিলিয়নসহ ছয়টি একেবারে নতুন হার্ড কোর্ট।",
+      "of": "cc7db98b",
+      "at": [
+        "covenant-day:facilities.venues[3].detail"
+      ]
+    },
+    {
+      "t": "ফিল্ড হকির প্রধান ভেন্যু এবং বসন্তের ট্র্যাক ফিল্ড-ইভেন্ট।",
+      "of": "c0e5db57",
+      "at": [
+        "covenant-day:facilities.venues[4].detail"
+      ]
+    },
+    {
+      "t": "Middle School ভলিবল ও বাস্কেটবল, Lower School-এর PE।",
+      "of": "02acd3a8",
+      "at": [
+        "covenant-day:facilities.venues[5].detail"
+      ]
+    },
+    {
+      "t": "2015-এ নির্মিত — পাওয়ার র‍্যাক, কেটলবেল, ফ্রি ওয়েট; গ্রেড 6–12-এর জন্য।",
+      "of": "745c60ab",
+      "at": [
+        "covenant-day:facilities.venues[6].detail"
+      ]
+    },
+    {
+      "t": "Strength & conditioning",
+      "of": "980f5f55",
+      "at": [
+        "covenant-day:facilities.care[0].label"
+      ]
+    },
+    {
+      "t": "একটি নিবেদিত ফ্যাকাল্টি পদ — Chad Smith, HS Strength and Conditioning Teacher and Coach। প্রোগ্রামিং বয়স-উপযোগী, সঙ্গে সমন্বিত গতি ও ক্ষিপ্রতার কাজ; অগ্রগতি প্রতিদিন ট্র্যাক করা হয়, এবং ক্রীড়াবিদেরা স্কুলের পরে ও গ্রীষ্মজুড়ে ভার উত্তোলন করে।",
+      "of": "fe078d5c",
+      "at": [
+        "covenant-day:facilities.care[0].text"
+      ]
+    },
+    {
+      "t": "পাঠ্যক্রম হিসেবে স্ট্রেংথ প্রশিক্ষণ",
+      "of": "2a3bff03",
+      "at": [
+        "covenant-day:facilities.care[1].label"
+      ]
+    },
+    {
+      "t": "High School Profile-এ Strength & Fitness একটি ক্রেডিটযুক্ত PE কোর্স, এবং গ্রেড 6–12 Webb Fitness Center-এ স্ট্রেংথ ইলেকটিভ নেয়।",
+      "of": "66f3f1ca",
+      "at": [
+        "covenant-day:facilities.care[1].text"
+      ]
+    },
+    {
+      "t": "অ্যাথলেটিক ট্রেনিং",
+      "of": "b80e5011",
+      "at": [
+        "covenant-day:facilities.care[2].label"
+      ]
+    },
+    {
+      "t": "অ্যাথলেটিকস সাইটের কোথাও কোনো অ্যাথলেটিক ট্রেনার বা স্পোর্টস-মেডিসিন অংশীদারত্বের (OrthoCarolina / Novant / Atrium) নাম নেই — উপরের S&C প্রোগ্রামই ক্রীড়াবিদ-পরিচর্যার প্রকাশিত সীমা।",
+      "of": "acbfbf51",
+      "at": [
+        "covenant-day:facilities.care[2].text"
+      ]
+    },
+    {
+      "t": "পরিকল্পিত Warner Park উন্নয়ন — আট-লেনের ট্র্যাক, ফিল্ড-ইভেন্টের জায়গা, একটি ফিল্ড হাউস, কনসেশন ও রেস্টরুম — মিট আয়োজনের জন্য প্রোগ্রামের বর্তমান চার-লেন ট্র্যাকের জায়গা নেবে।",
+      "of": "96715f01",
+      "at": [
+        "covenant-day:facilities.careNote"
       ]
     },
     {
@@ -4905,13 +5593,6 @@
       "of": "5e63dfba",
       "at": [
         "davidson-day:coaching.featured[0].stats[0].label"
-      ]
-    },
-    {
-      "t": "2",
-      "of": "370cabd5",
-      "at": [
-        "davidson-day:coaching.featured[0].stats[1].value"
       ]
     },
     {

@@ -382,6 +382,7 @@
         "charlotte-christian:clusters.verdictHint",
         "charlotte-country-day:clusters.verdictHint",
         "cannon:clusters.verdictHint",
+        "covenant-day:clusters.verdictHint",
         "davidson-day:clusters.verdictHint"
       ]
     },
@@ -454,7 +455,8 @@
       "t": "باشگاه‌های STEM →",
       "of": "5b91930f",
       "at": [
-        "providence-day:clusters.rows[2].name"
+        "providence-day:clusters.rows[2].name",
+        "covenant-day:clusters.rows[1].name"
       ]
     },
     {
@@ -1176,6 +1178,7 @@
         "cannon:clusters.rows[3].evidenceLabel",
         "cannon:catalog.divisions[0].tag",
         "cannon:catalog.divisions[2].tag",
+        "covenant-day:clusters.rows[3].evidenceLabel",
         "davidson-day:clusters.rows[1].evidenceLabel",
         "davidson-day:clusters.rows[2].evidenceLabel",
         "davidson-day:catalog.divisions[0].tag"
@@ -2218,7 +2221,8 @@
       "t": "انجمن‌های افتخار",
       "of": "fa4511f1",
       "at": [
-        "charlotte-christian:catalog.categories[1].short"
+        "charlotte-christian:catalog.categories[1].short",
+        "covenant-day:catalog.categories[1].full"
       ]
     },
     {
@@ -2697,7 +2701,9 @@
       "of": "30aae499",
       "at": [
         "charlotte-country-day:honors.societies[3].recognizes",
-        "cannon:honors.societies[5].recognizes"
+        "cannon:honors.societies[5].recognizes",
+        "covenant-day:honors.societies[1].recognizes",
+        "covenant-day:catalog.clubs[8].note"
       ]
     },
     {
@@ -2790,6 +2796,7 @@
       "of": "c37374c1",
       "at": [
         "charlotte-country-day:catalog.verdictHint",
+        "covenant-day:catalog.verdictHint",
         "davidson-day:catalog.verdictHint"
       ]
     },
@@ -2813,6 +2820,7 @@
       "of": "7a88029a",
       "at": [
         "charlotte-country-day:catalog.categories[1].short",
+        "covenant-day:catalog.categories[0].short",
         "davidson-day:catalog.categories[0].short"
       ]
     },
@@ -2821,6 +2829,7 @@
       "of": "488ff51c",
       "at": [
         "charlotte-country-day:catalog.categories[1].full",
+        "covenant-day:catalog.categories[0].full",
         "davidson-day:catalog.categories[0].full"
       ]
     },
@@ -2933,7 +2942,8 @@
       "t": "Middle و Lower School",
       "of": "ecf8e9e5",
       "at": [
-        "cannon:affinity.strips[1].title"
+        "cannon:affinity.strips[1].title",
+        "covenant-day:catalog.divisions[0].label"
       ]
     },
     {
@@ -3297,7 +3307,8 @@
       "t": "رهبری دانش‌آموزی",
       "of": "63a56cbb",
       "at": [
-        "cannon:catalog.categories[2].full"
+        "cannon:catalog.categories[2].full",
+        "covenant-day:catalog.clubs[13].note"
       ]
     },
     {
@@ -3478,6 +3489,440 @@
       ]
     },
     {
+      "t": "نردبان خدمتی که با سن مقیاس می‌گیرد — دانش‌آموزان پایهٔ چهارم در بیست محل اجتماعی، دانش‌آموزان Middle School دو بار در سال، و دانش‌آموزان High School که برای Pine Ridge مسکن می‌سازند.",
+      "of": "21aa8032",
+      "at": [
+        "covenant-day:service.headline"
+      ]
+    },
+    {
+      "t": "برنامه‌محور به‌جای ثبت‌ساعت: هیچ الزام ساعت خدمتی وجود ندارد، و مدرسه هیچ مجموع سالانه‌ای منتشر نمی‌کند.",
+      "of": "03e70840",
+      "at": [
+        "covenant-day:service.subhead"
+      ]
+    },
+    {
+      "t": "محل اجتماعی · پایهٔ چهارم",
+      "of": "41ed9f44",
+      "at": [
+        "covenant-day:service.programs[0].valueLabel"
+      ]
+    },
+    {
+      "t": "ویژگی شاخص Lower School: «دانش‌آموزان پایهٔ چهارم به دل جامعه می‌روند تا در نزدیک به بیست محل مختلف خدمت کنند» — استقرار یک پایهٔ کامل به‌جای یک باشگاه اختیاری.",
+      "of": "c5e51628",
+      "at": [
+        "covenant-day:service.programs[0].detail"
+      ]
+    },
+    {
+      "t": "در سال · کل Middle School",
+      "of": "e663c70f",
+      "at": [
+        "covenant-day:service.programs[1].valueLabel"
+      ]
+    },
+    {
+      "t": "دو بار در سال کل Middle School «در سازمان‌های غیرانتفاعی محلی گوناگون» خدمت می‌کند، سپس با هم بازاندیشی می‌کنند — doulos در یونانی به معنای خادم است.",
+      "of": "afd1ddaf",
+      "at": [
+        "covenant-day:service.programs[1].detail"
+      ]
+    },
+    {
+      "t": "نوجوان برای اسکان · Pine Ridge",
+      "of": "642fd492",
+      "at": [
+        "covenant-day:service.programs[2].valueLabel"
+      ]
+    },
+    {
+      "t": "دانش‌آموزان High School «از استعدادهای گوناگون خود برای دگرگون‌سازی کانتینرهای حمل‌ونقل کارکرده» به مسکن برای Pine Ridge Reservation در South Dakota استفاده می‌کنند، با هدف تأمین مسکن برای بیش از 30 نوجوان — یک ساخت طراحی-و-فنی چندساله، با Restore525 به‌عنوان برنامهٔ همراه دپارتمان Restoration & Sustainability (و یک درس واحددار).",
+      "of": "aafcf5e9",
+      "at": [
+        "covenant-day:service.programs[2].detail"
+      ]
+    },
+    {
+      "t": "شبکهٔ شرکا",
+      "of": "51a13798",
+      "at": [
+        "covenant-day:service.footnoteTitle",
+        "davidson-day:service.footnoteTitle"
+      ]
+    },
+    {
+      "t": "شرکای نام‌برده: Matthews HELP Center، Matthews Habitat for Humanity، Operation Christmas Child، Brookstone Schools، Jackson Park، Alexander Children’s Home و Love INC. سفرهای مأموریتی به Spain، Haiti، Belize و Pine Ridge برگزار می‌شود، با یک Lower School Missions Week شامل سخنرانان مبلغ و آموزش فرهنگی.",
+      "of": "3f4b01df",
+      "at": [
+        "covenant-day:service.footnote"
+      ]
+    },
+    {
+      "t": "هیچ الزام ساعت خدمتی و هیچ مجموع ساعت سالانه‌ای در هیچ‌کجا منتشر نشده — مدل عامدانه برنامه‌محور است («دانش‌آموزان با هم خدمت می‌کنند، سپس بازاندیشی می‌کنند») نه ثبت‌ساعت، بنابراین عددی برای مقایسه با مدارسی که آن را منتشر می‌کنند وجود ندارد.",
+      "of": "5609e14d",
+      "at": [
+        "covenant-day:service.flags[0].text"
+      ]
+    },
+    {
+      "t": "شش انجمن مستند — اما فقط دو شعبهٔ هنری روی صفحه‌های خود مدرسه تأیید شده‌اند.",
+      "of": "a03749b4",
+      "at": [
+        "covenant-day:honors.headline"
+      ]
+    },
+    {
+      "t": "مدرسه هیچ صفحهٔ انجمن افتخاری منتشر نمی‌کند: بخش‌ها، معیارهای پذیرش و حامیان برای هر شعبه اعلام‌نشده است.",
+      "of": "9fcbbc25",
+      "at": [
+        "covenant-day:honors.subhead"
+      ]
+    },
+    {
+      "t": "دانش‌پژوهی، خدمت، رهبری، منش",
+      "of": "7c2e4298",
+      "at": [
+        "covenant-day:honors.societies[0].recognizes",
+        "covenant-day:catalog.clubs[7].note"
+      ]
+    },
+    {
+      "t": "فقط فهرست شخص ثالث — روی صفحهٔ مدرسه تأیید نشده",
+      "of": "845fac45",
+      "at": [
+        "covenant-day:honors.societies[0].feedsFrom"
+      ]
+    },
+    {
+      "t": "فهرست شخص ثالث؛ برنامهٔ هنرهای تجسمی که این شعبه بر فراز آن می‌نشیند، مستند مدرسه است",
+      "of": "272dc326",
+      "at": [
+        "covenant-day:honors.societies[1].feedsFrom"
+      ]
+    },
+    {
+      "t": "دستاورد در زبان اسپانیایی",
+      "of": "049a7e2f",
+      "at": [
+        "covenant-day:honors.societies[2].recognizes",
+        "covenant-day:catalog.clubs[9].note"
+      ]
+    },
+    {
+      "t": "فهرست شخص ثالث؛ اسپانیایی در ماتریس درسی از 1 تا 4 به‌علاوهٔ AP اجرا می‌شود",
+      "of": "e9f34b1c",
+      "at": [
+        "covenant-day:honors.societies[2].feedsFrom"
+      ]
+    },
+    {
+      "t": "مشارکت و دستاورد در تئاتر",
+      "of": "8cda73a7",
+      "at": [
+        "covenant-day:honors.societies[3].recognizes"
+      ]
+    },
+    {
+      "t": "تأییدشده توسط مدرسه — روی صفحهٔ تئاتر نام‌برده شده، بر فراز برنامهٔ برندهٔ Blumey",
+      "of": "960553f2",
+      "at": [
+        "covenant-day:honors.societies[3].feedsFrom"
+      ]
+    },
+    {
+      "t": "دستاورد در موسیقی به‌علاوهٔ خدمت",
+      "of": "4265e746",
+      "at": [
+        "covenant-day:honors.societies[4].recognizes"
+      ]
+    },
+    {
+      "t": "تأییدشده توسط مدرسه — روی صفحهٔ موسیقی نام‌برده شده، بر فراز برنامهٔ نه‌گروهی",
+      "of": "7a84b2c5",
+      "at": [
+        "covenant-day:honors.societies[4].feedsFrom"
+      ]
+    },
+    {
+      "t": "دستاورد تحصیلی و خدمت (سازمان ملی)",
+      "of": "d72ec94f",
+      "at": [
+        "covenant-day:honors.societies[5].recognizes"
+      ]
+    },
+    {
+      "t": "فقط فهرست شخص ثالث",
+      "of": "1ee60b44",
+      "at": [
+        "covenant-day:honors.societies[5].feedsFrom"
+      ]
+    },
+    {
+      "t": "ویژگی‌های شاخص تحصیلی",
+      "of": "5de978f5",
+      "at": [
+        "covenant-day:honors.adjacent[0].label",
+        "covenant-day:clusters.rows[3].name"
+      ]
+    },
+    {
+      "t": "یک Senior Capstone Project الزامی و رویداد سخنرانی McKnight Oratory بیرون از انجمن‌ها به‌عنوان تمایزهای تحصیلی نام‌بردهٔ مدرسه قرار می‌گیرند.",
+      "of": "0b6faf00",
+      "at": [
+        "covenant-day:honors.adjacent[0].text"
+      ]
+    },
+    {
+      "t": "Mock Trial",
+      "of": "1b3c6d97",
+      "at": [
+        "covenant-day:honors.adjacent[1].label",
+        "covenant-day:clusters.rows[0].name"
+      ]
+    },
+    {
+      "t": "هنرمند دادگاه Cornelia Knight (Covenant Day Blue) در منطقهٔ خود برد و در 2025 نایب‌قهرمان ایالت شد — بهترین نتیجهٔ سراسری مستند در این حوزه.",
+      "of": "22b64cbf",
+      "at": [
+        "covenant-day:honors.adjacent[1].text"
+      ]
+    },
+    {
+      "t": "مدخل‌های علامت‌گذاری‌شده با * بر یک فهرست شخص ثالث (privateschoolreview.com) تکیه دارند — مدرسه هیچ فهرست انجمن افتخاری منتشر نمی‌کند، بنابراین بخش‌ها، معیارهای پذیرش، شمار اعضا و حامیان هیئت‌علمی برای هر انجمن منتشرنشده است، و چهار شعبهٔ غیرهنری روی هیچ صفحهٔ متعلق به مدرسه تأیید نشده‌اند.",
+      "of": "e1f75853",
+      "at": [
+        "covenant-day:honors.flags[0].text"
+      ]
+    },
+    {
+      "t": "یک کف مستند از یک مجموعه؛ Mock Trial نتیجهٔ سراسری را به دوش می‌کشد.",
+      "of": "e3bf9817",
+      "at": [
+        "covenant-day:clusters.verdict"
+      ]
+    },
+    {
+      "t": "هنرمند دادگاه: قهرمان منطقه‌ای، نایب‌قهرمان ایالت NC در 2025",
+      "of": "f81f86d3",
+      "at": [
+        "covenant-day:clusters.rows[0].oneLiner"
+      ]
+    },
+    {
+      "t": "تأییدشده — NC Mock Trial",
+      "of": "1dc393f2",
+      "at": [
+        "covenant-day:clusters.rows[0].evidenceLabel"
+      ]
+    },
+    {
+      "t": "برجسته‌ترین باشگاه رقابتی مدرسه، نام‌برده روی صفحهٔ High School خود. سوابق NC Mock Trial Program یک تیم «Covenant Day School Blue» را نشان می‌دهد — پسوند بر بیش از یک تیم دلالت می‌کند — و Cornelia Knight از آن تیم در بخش هنرمند دادگاه منطقه‌ای در Hickory برد و در 2025 نایب‌قهرمان State Champion Courtroom Artist شد.",
+      "of": "156669b5",
+      "at": [
+        "covenant-day:clusters.rows[0].note"
+      ]
+    },
+    {
+      "t": "رباتیک (First Lego League)، Junior FLL، Sustainability Engineering",
+      "of": "2f97025e",
+      "at": [
+        "covenant-day:clusters.rows[1].oneLiner"
+      ]
+    },
+    {
+      "t": "فهرست شخص ثالث",
+      "of": "dc411eb6",
+      "at": [
+        "covenant-day:clusters.rows[1].evidenceLabel",
+        "covenant-day:clusters.rows[2].evidenceLabel"
+      ]
+    },
+    {
+      "t": "رباتیک First Lego League در دو سطح به‌علاوهٔ یک باشگاه Sustainability Engineering — نمود باشگاهی دپارتمان Restoration & Sustainability مدرسه. نتایج رقابت‌ها منتشر نشده است.",
+      "of": "ab1fddeb",
+      "at": [
+        "covenant-day:clusters.rows[1].note"
+      ]
+    },
+    {
+      "t": "باشگاه‌های زبان و ادبیات ←",
+      "of": "18faca0f",
+      "at": [
+        "covenant-day:clusters.rows[2].name"
+      ]
+    },
+    {
+      "t": "Latin (JCL) Club، French Club، Book Club، Beta Club",
+      "of": "02ba05b2",
+      "at": [
+        "covenant-day:clusters.rows[2].oneLiner"
+      ]
+    },
+    {
+      "t": "باشگاه‌های زبان خوراک توالی درس‌های Latin و French را فراهم می‌کنند (هر دو تا سطح 4 به‌علاوهٔ AP Latin اجرا می‌شوند). فعالیت شعبه و نتایج رویدادها منتشر نشده است.",
+      "of": "e31f8d14",
+      "at": [
+        "covenant-day:clusters.rows[2].note"
+      ]
+    },
+    {
+      "t": "Senior Capstone Project، McKnight Oratory",
+      "of": "1e6fc94a",
+      "at": [
+        "covenant-day:clusters.rows[3].oneLiner"
+      ]
+    },
+    {
+      "t": "Senior Capstone Project الزامی و رویداد سخنرانی McKnight Oratory ویژگی‌های شاخص تحصیلی نام‌بردهٔ مدرسه‌اند — نقاط عطف درسی به‌جای باشگاه، که اینجا آورده شده‌اند چون رقابت تحصیلی در این مدرسه در همین‌جا جریان دارد.",
+      "of": "dde42844",
+      "at": [
+        "covenant-day:clusters.rows[3].note"
+      ]
+    },
+    {
+      "t": "یک کف مستند از باشگاه‌های Upper School و انجمن‌های افتخاری — مدرسه هیچ فهرستی منتشر نمی‌کند، بنابراین این چیزی است که منابع عمومی تأیید می‌کنند.",
+      "of": "4c7dff30",
+      "at": [
+        "covenant-day:catalog.verdict"
+      ]
+    },
+    {
+      "t": "سازمان مستند",
+      "of": "41a31aa0",
+      "at": [
+        "covenant-day:catalog.countNoun"
+      ]
+    },
+    {
+      "t": "افتخاری",
+      "of": "d23688af",
+      "at": [
+        "covenant-day:catalog.categories[1].short"
+      ]
+    },
+    {
+      "t": "روحیه",
+      "of": "38825d08",
+      "at": [
+        "covenant-day:catalog.categories[2].short"
+      ]
+    },
+    {
+      "t": "روحیه / رهبری",
+      "of": "2aa31f10",
+      "at": [
+        "covenant-day:catalog.categories[2].full"
+      ]
+    },
+    {
+      "t": "برجسته — نایب‌قهرمان هنرمند دادگاه ایالت در 2025",
+      "of": "5611b358",
+      "at": [
+        "covenant-day:catalog.clubs[0].note"
+      ]
+    },
+    {
+      "t": "رباتیک رقابتی FLL",
+      "of": "0819f24f",
+      "at": [
+        "covenant-day:catalog.clubs[1].note"
+      ]
+    },
+    {
+      "t": "بازوی باشگاهی دپارتمان R&S",
+      "of": "3ea44391",
+      "at": [
+        "covenant-day:catalog.clubs[2].note"
+      ]
+    },
+    {
+      "t": "شعبهٔ Junior Classical League",
+      "of": "35171cbb",
+      "at": [
+        "covenant-day:catalog.clubs[3].note"
+      ]
+    },
+    {
+      "t": "باشگاه زبان",
+      "of": "2816df49",
+      "at": [
+        "covenant-day:catalog.clubs[4].note"
+      ]
+    },
+    {
+      "t": "باشگاه مطالعه / ادبی",
+      "of": "19c329fe",
+      "at": [
+        "covenant-day:catalog.clubs[5].note"
+      ]
+    },
+    {
+      "t": "سازمان ملی افتخار تحصیلی و خدمت",
+      "of": "24e171f3",
+      "at": [
+        "covenant-day:catalog.clubs[6].note"
+      ]
+    },
+    {
+      "t": "انجمن افتخاری تئاتر (تأییدشده توسط مدرسه)",
+      "of": "d53a2f55",
+      "at": [
+        "covenant-day:catalog.clubs[10].note"
+      ]
+    },
+    {
+      "t": "انجمن افتخاری موسیقی (تأییدشده توسط مدرسه)",
+      "of": "0d8ba44d",
+      "at": [
+        "covenant-day:catalog.clubs[11].note"
+      ]
+    },
+    {
+      "t": "بخش روحیهٔ دانش‌آموزی",
+      "of": "e1c23af7",
+      "at": [
+        "covenant-day:catalog.clubs[12].note"
+      ]
+    },
+    {
+      "t": "Junior First Lego League، MS Board Game Club، CDS Children’s Choir (پایه‌های 3–5)، Goodness Gorillas (برنامهٔ خدمت پایهٔ چهارم)، و اردوی Kanuga پایهٔ پنجم.",
+      "of": "1add157d",
+      "at": [
+        "covenant-day:catalog.divisions[0].text"
+      ]
+    },
+    {
+      "t": "مستند",
+      "of": "986cb365",
+      "at": [
+        "covenant-day:catalog.divisions[0].tag"
+      ]
+    },
+    {
+      "t": "فراتر از فهرست باشگاه‌ها",
+      "of": "b8c68fde",
+      "at": [
+        "covenant-day:catalog.divisions[1].label",
+        "davidson-day:catalog.divisions[0].label"
+      ]
+    },
+    {
+      "t": "فهرست شخص ثالث همچنین غنی‌سازی پولی (کلاس‌های پیانو/گیتار/آواز، نقاشی)، گروه‌های درسی (گروه سازی، کر، تئاتر، تیم پرستش) و والیبال پسران — یک ورزش باشگاهی — را فهرست می‌کند. اینها از شمار بالا کنار گذاشته شده‌اند. Restore525 هم به‌عنوان یک برنامهٔ خدمت و هم یک درس واحددار اجرا می‌شود.",
+      "of": "b8e1c64f",
+      "at": [
+        "covenant-day:catalog.divisions[1].text"
+      ]
+    },
+    {
+      "t": "کنارگذاشته‌شده",
+      "of": "db60a076",
+      "at": [
+        "covenant-day:catalog.divisions[1].tag"
+      ]
+    },
+    {
       "t": "یک کارورزی فراگیر 100 ساعته پشت هر تمایز دیپلم، و نخستین دبیرستانی که تاکنون با Deliberative Citizenship Initiative دانشگاه Davidson همکاری کرده است.",
       "of": "609e6f5e",
       "at": [
@@ -3531,13 +3976,6 @@
       "of": "90819560",
       "at": [
         "davidson-day:service.programs[2].detail"
-      ]
-    },
-    {
-      "t": "شبکهٔ شرکا",
-      "of": "51a13798",
-      "at": [
-        "davidson-day:service.footnoteTitle"
       ]
     },
     {
@@ -3700,13 +4138,6 @@
       "of": "b93b4380",
       "at": [
         "davidson-day:catalog.clubs[8].note"
-      ]
-    },
-    {
-      "t": "فراتر از فهرست باشگاه‌ها",
-      "of": "b8c68fde",
-      "at": [
-        "davidson-day:catalog.divisions[0].label"
       ]
     },
     {

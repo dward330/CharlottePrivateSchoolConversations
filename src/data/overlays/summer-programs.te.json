@@ -36,7 +36,9 @@
         "charlotte-country-day:catalog.categoryFilters[0].label",
         "charlotte-country-day:catalog.gradeFilters[0].label",
         "cannon:catalog.categoryFilters[0].label",
-        "cannon:catalog.gradeFilters[0].label"
+        "cannon:catalog.gradeFilters[0].label",
+        "covenant-day:catalog.categoryFilters[0].label",
+        "covenant-day:catalog.gradeFilters[0].label"
       ]
     },
     {
@@ -157,7 +159,18 @@
         "charlotte-christian:catalog.camps[21].categoryLabel",
         "charlotte-christian:catalog.camps[23].categoryLabel",
         "charlotte-christian:catalog.camps[24].categoryLabel",
-        "charlotte-christian:catalog.camps[25].categoryLabel"
+        "charlotte-christian:catalog.camps[25].categoryLabel",
+        "covenant-day:catalog.categoryFilters[2].label",
+        "covenant-day:catalog.camps[3].categoryLabel",
+        "covenant-day:catalog.camps[4].categoryLabel",
+        "covenant-day:catalog.camps[5].categoryLabel",
+        "covenant-day:catalog.camps[6].categoryLabel",
+        "covenant-day:catalog.camps[7].categoryLabel",
+        "covenant-day:catalog.camps[8].categoryLabel",
+        "covenant-day:catalog.camps[9].categoryLabel",
+        "covenant-day:catalog.camps[10].categoryLabel",
+        "covenant-day:catalog.camps[11].categoryLabel",
+        "covenant-day:catalog.camps[12].categoryLabel"
       ]
     },
     {
@@ -187,7 +200,8 @@
       "t": "TK–K",
       "of": "ad9a656e",
       "at": [
-        "providence-day:catalog.gradeFilters[1].label"
+        "providence-day:catalog.gradeFilters[1].label",
+        "covenant-day:catalog.camps[1].gradeLabel"
       ]
     },
     {
@@ -457,7 +471,27 @@
         "cannon:catalog.camps[72].dayLabel",
         "cannon:catalog.camps[73].dayLabel",
         "cannon:catalog.camps[74].dayLabel",
-        "cannon:catalog.camps[75].dayLabel"
+        "cannon:catalog.camps[75].dayLabel",
+        "covenant-day:catalog.camps[0].dayLabel",
+        "covenant-day:catalog.camps[1].dayLabel",
+        "covenant-day:catalog.camps[2].dayLabel",
+        "covenant-day:catalog.camps[3].dayLabel",
+        "covenant-day:catalog.camps[4].dayLabel",
+        "covenant-day:catalog.camps[5].dayLabel",
+        "covenant-day:catalog.camps[6].dayLabel",
+        "covenant-day:catalog.camps[7].dayLabel",
+        "covenant-day:catalog.camps[8].dayLabel",
+        "covenant-day:catalog.camps[9].dayLabel",
+        "covenant-day:catalog.camps[10].dayLabel",
+        "covenant-day:catalog.camps[11].dayLabel",
+        "covenant-day:catalog.camps[12].dayLabel",
+        "covenant-day:catalog.camps[13].dayLabel",
+        "covenant-day:catalog.camps[14].dayLabel",
+        "covenant-day:catalog.camps[15].dayLabel",
+        "covenant-day:catalog.camps[16].dayLabel",
+        "covenant-day:catalog.camps[17].dayLabel",
+        "covenant-day:catalog.camps[18].dayLabel",
+        "covenant-day:catalog.camps[19].dayLabel"
       ]
     },
     {
@@ -5375,7 +5409,7 @@
       ]
     },
     {
-      "t": "పాఠశాల **సొంత PDF మరియు దాని వెబ్-పేజీ సారాంశం** రెండు అంకెలపై **విభేదిస్తున్నాయి**: నమోదు-రుసుము గడువు (May 17 vs May 18) మరియు రద్దు రుసుము ($25 vs $50). ఇక్కడ PDF అంకెలను వాడాం, ఎందుకంటే అది పాఠశాల సొంత పత్రం, కానీ రెండింటినీ నిర్ధారించుకోవడం మంచిది.",
+      "t": "రెండు అంకెలపై పాఠశాల **సొంత PDF మరియు దాని వెబ్-పేజీ సారాంశం విభేదిస్తున్నాయి**: నమోదు-రుసుము గడువు (May 17 vs May 18) మరియు రద్దు రుసుము ($25 vs $50). ఇక్కడ PDF అంకెలను వాడాం, ఎందుకంటే అది పాఠశాల సొంత పత్రం, కానీ రెండింటినీ నిర్ధారించుకోవడం మంచిది.",
       "of": "3c152cd7",
       "at": [
         "charlotte-christian:costPlanner.flags[0].text"
@@ -7054,7 +7088,10 @@
         "cannon:catalog.camps[52].categoryLabel",
         "cannon:catalog.camps[53].categoryLabel",
         "cannon:catalog.camps[54].categoryLabel",
-        "cannon:catalog.camps[55].categoryLabel"
+        "cannon:catalog.camps[55].categoryLabel",
+        "covenant-day:catalog.categoryFilters[4].label",
+        "covenant-day:catalog.camps[18].categoryLabel",
+        "covenant-day:catalog.camps[19].categoryLabel"
       ]
     },
     {
@@ -8438,6 +8475,520 @@
       "of": "d8366833",
       "at": [
         "cannon:costPlanner.flags[1].text"
+      ]
+    },
+    {
+      "t": "ఎనిమిది వారాలలో summer 2026 కోసం పేర్కొన్న 20 శిబిరాలు, June 1 – July 31 — care ఉచితంగా కలిపే సంప్రదాయ day camps అయిన Camp Lion మరియు Cub Camp వీటికి ఆధారం.",
+      "of": "9dd79355",
+      "at": [
+        "covenant-day:catalog.headline"
+      ]
+    },
+    {
+      "t": "February 27 వరకు early-bird రాయితీలతో నమోదు CampBrain portalలో జరుగుతుంది. పాఠశాల \"29 camps\" అని ప్రచారం చేస్తుంది; బహిరంగ పేజీలో 20 లెక్కించగలం.",
+      "of": "8cc84630",
+      "at": [
+        "covenant-day:catalog.subhead"
+      ]
+    },
+    {
+      "t": "బహిరంగంగా పేర్కొన్న 20 శిబిరాలూ ఇక్కడ ఇవ్వబడ్డాయి. **ప్రస్తుత ఒక్కో-శిబిర ధరలు మరియు సమయాలు portal-నియంత్రితం**, కాబట్టి కింది ధరలు third-party ప్రస్తుత శ్రేణి ($170–$325/week) మరియు పాఠశాల సొంత 2018 catalog నుంచి అంచనాలు — Cost Plannerలోని care add-on రేట్లు పాఠశాల సొంత ప్రస్తుత సంఖ్యలు.",
+      "of": "f61120ce",
+      "at": [
+        "covenant-day:catalog.intro"
+      ]
+    },
+    {
+      "t": "Day Camps",
+      "of": "0f07ba8b",
+      "at": [
+        "covenant-day:catalog.categoryFilters[1].label",
+        "covenant-day:catalog.camps[0].categoryLabel",
+        "covenant-day:catalog.camps[1].categoryLabel",
+        "covenant-day:catalog.camps[2].categoryLabel",
+        "covenant-day:catalog.camps[13].categoryLabel"
+      ]
+    },
+    {
+      "t": "Arts & Theater",
+      "of": "e043e144",
+      "at": [
+        "covenant-day:catalog.categoryFilters[3].label",
+        "covenant-day:catalog.camps[14].categoryLabel",
+        "covenant-day:catalog.camps[15].categoryLabel",
+        "covenant-day:catalog.camps[16].categoryLabel",
+        "covenant-day:catalog.camps[17].categoryLabel"
+      ]
+    },
+    {
+      "t": "Lower School",
+      "of": "0921a0ca",
+      "at": [
+        "covenant-day:catalog.gradeFilters[1].label"
+      ]
+    },
+    {
+      "t": "Middle School",
+      "of": "15441234",
+      "at": [
+        "covenant-day:catalog.gradeFilters[2].label"
+      ]
+    },
+    {
+      "t": "High School",
+      "of": "8ab05d33",
+      "at": [
+        "covenant-day:catalog.gradeFilters[3].label"
+      ]
+    },
+    {
+      "t": "సంప్రదాయ పూర్తి-దినం శిబిరం — అదనపు ఖర్చు లేకుండా Before Care, After Care మరియు Lunch Care, అదనంగా తోబుట్టువుల రాయితీ (పూర్తి-దినంపై $75 తగ్గింపు).",
+      "of": "cbd8029d",
+      "at": [
+        "covenant-day:catalog.camps[0].desc"
+      ]
+    },
+    {
+      "t": "TK–5",
+      "of": "f79ad9ec",
+      "at": [
+        "covenant-day:catalog.camps[0].gradeLabel"
+      ]
+    },
+    {
+      "t": "పూర్తి దినం + ఉచిత care",
+      "of": "27301e3c",
+      "at": [
+        "covenant-day:catalog.camps[0].hours"
+      ]
+    },
+    {
+      "t": "అతి చిన్న శిబిరార్థుల day camp; care ఉచితంగా కలిపి, అర్ధ-దినం తోబుట్టువులకు $50 తగ్గింపు.",
+      "of": "c60c8027",
+      "at": [
+        "covenant-day:catalog.camps[1].desc"
+      ]
+    },
+    {
+      "t": "అర్ధ లేదా పూర్తి దినం",
+      "of": "d35bd998",
+      "at": [
+        "covenant-day:catalog.camps[1].hours"
+      ]
+    },
+    {
+      "t": "అతి చిన్న వయసు శ్రేణికి Cub Camp కింద ప్రవేశ దశ.",
+      "of": "afbc159e",
+      "at": [
+        "covenant-day:catalog.camps[2].desc"
+      ]
+    },
+    {
+      "t": "JK–TK",
+      "of": "4b2301fa",
+      "at": [
+        "covenant-day:catalog.camps[2].gradeLabel"
+      ]
+    },
+    {
+      "t": "అర్ధ దినం",
+      "of": "c056cf86",
+      "at": [
+        "covenant-day:catalog.camps[2].hours",
+        "covenant-day:catalog.camps[4].hours",
+        "covenant-day:catalog.camps[5].hours",
+        "covenant-day:catalog.camps[6].hours",
+        "covenant-day:catalog.camps[7].hours",
+        "covenant-day:catalog.camps[8].hours",
+        "covenant-day:catalog.camps[9].hours",
+        "covenant-day:catalog.camps[10].hours",
+        "covenant-day:catalog.camps[11].hours",
+        "covenant-day:catalog.camps[13].hours",
+        "covenant-day:catalog.camps[15].hours",
+        "covenant-day:catalog.camps[16].hours",
+        "covenant-day:catalog.camps[17].hours",
+        "covenant-day:catalog.camps[18].hours"
+      ]
+    },
+    {
+      "t": "2018 catalogలో ఇది అర్ధ- లేదా పూర్తి-దినంగా (9–12, 1–4, లేదా 9–4) నడిచింది — ప్రస్తుత శిబిరం బహుశా అనుసరించే నమూనా.",
+      "of": "fb03c29a",
+      "at": [
+        "covenant-day:catalog.camps[3].desc"
+      ]
+    },
+    {
+      "t": "Gr 2–8",
+      "of": "d0402471",
+      "at": [
+        "covenant-day:catalog.camps[3].gradeLabel"
+      ]
+    },
+    {
+      "t": "9–12 / 1–4 / 9–4",
+      "of": "2b28cdf6",
+      "at": [
+        "covenant-day:catalog.camps[3].hours"
+      ]
+    },
+    {
+      "t": "కార్యక్రమ కోచ్‌లతో నైపుణ్య అభివృద్ధి — 2018 catalogలో అర్ధ-దినం $185/week.",
+      "of": "a7b81ba5",
+      "at": [
+        "covenant-day:catalog.camps[4].desc"
+      ]
+    },
+    {
+      "t": "Gr 1–8",
+      "of": "6554aeb4",
+      "at": [
+        "covenant-day:catalog.camps[4].gradeLabel"
+      ]
+    },
+    {
+      "t": "27-ఎకరాల athletic క్యాంపస్ అయిన Warner Parkలో నడుస్తుంది.",
+      "of": "3d4e5a74",
+      "at": [
+        "covenant-day:catalog.camps[5].desc"
+      ]
+    },
+    {
+      "t": "LS–MS",
+      "of": "ea9b4475",
+      "at": [
+        "covenant-day:catalog.camps[5].gradeLabel",
+        "covenant-day:catalog.camps[6].gradeLabel",
+        "covenant-day:catalog.camps[10].gradeLabel",
+        "covenant-day:catalog.camps[13].gradeLabel",
+        "covenant-day:catalog.camps[17].gradeLabel",
+        "covenant-day:catalog.camps[18].gradeLabel"
+      ]
+    },
+    {
+      "t": "Warner Park మైదానాలు.",
+      "of": "b85a8cf3",
+      "at": [
+        "covenant-day:catalog.camps[6].desc"
+      ]
+    },
+    {
+      "t": "వరుసగా మూడు రాష్ట్ర ద్వితీయ స్థానాలున్న కార్యక్రమం లోపల నడుస్తుంది.",
+      "of": "59a763a5",
+      "at": [
+        "covenant-day:catalog.camps[7].desc"
+      ]
+    },
+    {
+      "t": "MS–HS",
+      "of": "aeca4f7b",
+      "at": [
+        "covenant-day:catalog.camps[7].gradeLabel",
+        "covenant-day:catalog.camps[8].gradeLabel",
+        "covenant-day:catalog.camps[11].gradeLabel"
+      ]
+    },
+    {
+      "t": "varsity కార్యక్రమ శిబిరం; వేరే Lower School Field Hockey శిబిరం దీనికి విద్యార్థులను అందిస్తుంది.",
+      "of": "9530da25",
+      "at": [
+        "covenant-day:catalog.camps[8].desc"
+      ]
+    },
+    {
+      "t": "ప్రవేశ-స్థాయి stick-skills వారం.",
+      "of": "79e58eca",
+      "at": [
+        "covenant-day:catalog.camps[9].desc"
+      ]
+    },
+    {
+      "t": "LS",
+      "of": "75e26068",
+      "at": [
+        "covenant-day:catalog.camps[9].gradeLabel",
+        "covenant-day:catalog.camps[15].gradeLabel",
+        "covenant-day:catalog.camps[16].gradeLabel"
+      ]
+    },
+    {
+      "t": "Sideline మరియు spirit మూలాంశాలు.",
+      "of": "8321d01c",
+      "at": [
+        "covenant-day:catalog.camps[10].desc"
+      ]
+    },
+    {
+      "t": "ఆరు కొత్త hard courts మీద.",
+      "of": "f817fb9c",
+      "at": [
+        "covenant-day:catalog.camps[11].desc"
+      ]
+    },
+    {
+      "t": "పాఠశాల S&C coach నడిపే Webb Fitness Center కార్యక్రమం — varsity క్రీడాకారులు చేసే అదే వేసవి బరువుల శిక్షణ.",
+      "of": "2e9659bb",
+      "at": [
+        "covenant-day:catalog.camps[12].desc"
+      ]
+    },
+    {
+      "t": "Gr 6–12",
+      "of": "5a57e078",
+      "at": [
+        "covenant-day:catalog.camps[12].gradeLabel"
+      ]
+    },
+    {
+      "t": "sessions",
+      "of": "130573cc",
+      "at": [
+        "covenant-day:catalog.camps[12].hours",
+        "covenant-day:catalog.camps[19].hours"
+      ]
+    },
+    {
+      "t": "పూర్తిగా వినోదపు వారం.",
+      "of": "9ee1d298",
+      "at": [
+        "covenant-day:catalog.camps[13].desc"
+      ]
+    },
+    {
+      "t": "Lunch Care ఉచితంగా — care కలిపిన ఏకైక non-day-camp.",
+      "of": "9710a44d",
+      "at": [
+        "covenant-day:catalog.camps[14].desc"
+      ]
+    },
+    {
+      "t": "MS",
+      "of": "35dfbd11",
+      "at": [
+        "covenant-day:catalog.camps[14].gradeLabel"
+      ]
+    },
+    {
+      "t": "పూర్తి దినం, భోజనంతో కలిపి",
+      "of": "6cdcfa40",
+      "at": [
+        "covenant-day:catalog.camps[14].hours"
+      ]
+    },
+    {
+      "t": "చిన్న విద్యార్థులకు stage-first వారం.",
+      "of": "e3899851",
+      "at": [
+        "covenant-day:catalog.camps[15].desc"
+      ]
+    },
+    {
+      "t": "visual-arts గదులలో studio sampler.",
+      "of": "a6d6d5ee",
+      "at": [
+        "covenant-day:catalog.camps[16].desc"
+      ]
+    },
+    {
+      "t": "వంటల వారం.",
+      "of": "15b6f079",
+      "at": [
+        "covenant-day:catalog.camps[17].desc"
+      ]
+    },
+    {
+      "t": "STEM వారం.",
+      "of": "45e94be3",
+      "at": [
+        "covenant-day:catalog.camps[18].desc"
+      ]
+    },
+    {
+      "t": "guidance కార్యాలయ క్యాలెండర్ ప్రకారం నడిచే ఒక high-school వారం — ఈ సమూహంలో అరుదైన HS విద్యా శిబిరం.",
+      "of": "84c5fdd7",
+      "at": [
+        "covenant-day:catalog.camps[19].desc"
+      ]
+    },
+    {
+      "t": "HS",
+      "of": "6deb4e2c",
+      "at": [
+        "covenant-day:catalog.camps[19].gradeLabel"
+      ]
+    },
+    {
+      "t": "ఒక్కో-శిబిర ధరలు మరియు సమయాలు **అంచనాలు**: ప్రస్తుత సంఖ్యలు CampBrain నమోదు portal వెనుక నియంత్రితం, కాబట్టి చూపిన శ్రేణి third-party ప్రస్తుత సంఖ్య ($170–$325/week), అదే శిబిరం ఉన్న చోట సమయాలు పాఠశాల సొంత 2018 catalog ప్రకారం.",
+      "of": "bed818fc",
+      "at": [
+        "covenant-day:catalog.flags[0].text"
+      ]
+    },
+    {
+      "t": "పాఠశాల \"**29 camps**\" అని ప్రచారం చేస్తుంది; బహిరంగ పేజీ 20 లెక్కిస్తుంది (21వ నమోదు \"Splash Squad\" ఒక సిబ్బంది పదవి). వారానికి మారే రూపాంతరాలు మరియు portal-మాత్రమే శిబిరాలు ఈ తేడాకు కారణం కావచ్చు.",
+      "of": "19b8adfa",
+      "at": [
+        "covenant-day:catalog.flags[1].text"
+      ]
+    },
+    {
+      "t": "ఒక్కో-శిబిర ధర + సమయాలు + తరగతులను కలిపి ప్రచురించిన చివరి పత్రం **2018 catalog** (ఉదా. Baseball $185/wk అర్ధ-దినం, Basketball $150 అర్ధ / $250 పూర్తి) — ఎనిమిది సంవత్సరాల నాటిది, నమోదైన నమూనాగా మాత్రమే ఉంచాం.",
+      "of": "7164dbc0",
+      "at": [
+        "covenant-day:catalog.flags[2].text"
+      ]
+    },
+    {
+      "t": "శిబిరానికే వారానికి $170–$325 బడ్జెట్ వేయండి — ఆపై $50 before-care, $50 after-care మరియు $30 lunch care, Camp Lion లేదా Cub Camp మూడింటినీ ఉచితంగా కలిపితే తప్ప.",
+      "of": "02b6638d",
+      "at": [
+        "covenant-day:costPlanner.headline"
+      ]
+    },
+    {
+      "t": "ఎనిమిది వారాలు అందుబాటులో ఉన్నాయి (June 1 – July 31, June 29 వారాన్ని వదిలేసి). $50 తిరిగిరాని నమోదు రుసుము ప్రతి శిబిర ధరలో ఇప్పటికే ఉంది.",
+      "of": "132286f9",
+      "at": [
+        "covenant-day:costPlanner.subhead"
+      ]
+    },
+    {
+      "t": "తక్కువ-శ్రేణి వారం",
+      "of": "e61d1052",
+      "at": [
+        "covenant-day:costPlanner.tiers[0].label"
+      ]
+    },
+    {
+      "t": "అర్ధ-దినం ప్రత్యేక శిబిరం · శ్రేణి తక్కువ చివర",
+      "of": "cf01ca64",
+      "at": [
+        "covenant-day:costPlanner.tiers[0].panelLabel"
+      ]
+    },
+    {
+      "t": "third-party ప్రస్తుత శ్రేణి అట్టడుగు.",
+      "of": "35583467",
+      "at": [
+        "covenant-day:costPlanner.tiers[0].detail"
+      ]
+    },
+    {
+      "t": "మధ్య-శ్రేణి వారం",
+      "of": "66df0c1f",
+      "at": [
+        "covenant-day:costPlanner.tiers[1].label"
+      ]
+    },
+    {
+      "t": "సాధారణ శిబిర వారం · శ్రేణి మధ్య భాగం",
+      "of": "fe1e10cd",
+      "at": [
+        "covenant-day:costPlanner.tiers[1].panelLabel"
+      ]
+    },
+    {
+      "t": "మధ్యస్థ అంచనా; 2018 catalog పూర్తి-దినం శిబిరాలు దీని దగ్గరే ఉన్నాయి.",
+      "of": "da808e99",
+      "at": [
+        "covenant-day:costPlanner.tiers[1].detail"
+      ]
+    },
+    {
+      "t": "ఎక్కువ-శ్రేణి వారం",
+      "of": "5a2a4651",
+      "at": [
+        "covenant-day:costPlanner.tiers[2].label"
+      ]
+    },
+    {
+      "t": "పూర్తి-దినం శిబిరం · శ్రేణి పైభాగం",
+      "of": "3d00c339",
+      "at": [
+        "covenant-day:costPlanner.tiers[2].panelLabel"
+      ]
+    },
+    {
+      "t": "third-party ప్రస్తుత శ్రేణి పైభాగం. Camp Lion పూర్తి దినంలో మూడు care add-ons ఉచితంగా కలుపుతుంది.",
+      "of": "93984051",
+      "at": [
+        "covenant-day:costPlanner.tiers[2].detail"
+      ]
+    },
+    {
+      "t": "Before Care 7:30–8:45 am (TK–8)",
+      "of": "88076342",
+      "at": [
+        "covenant-day:costPlanner.addons[0].label"
+      ]
+    },
+    {
+      "t": "After Care 4:00–5:30 pm (TK–8)",
+      "of": "287828c5",
+      "at": [
+        "covenant-day:costPlanner.addons[1].label"
+      ]
+    },
+    {
+      "t": "Lunch Care 12–1 pm (భోజనం తెచ్చుకోవాలి)",
+      "of": "041229f1",
+      "at": [
+        "covenant-day:costPlanner.addons[2].label"
+      ]
+    },
+    {
+      "t": "నమోదు (తిరిగిరానిది, శిబిర ఖర్చులో కలిసి ఉంది)",
+      "of": "2c6d3da4",
+      "at": [
+        "covenant-day:costPlanner.fees[0].label"
+      ]
+    },
+    {
+      "t": "శిబిర మార్పిడి",
+      "of": "2304c979",
+      "at": [
+        "covenant-day:costPlanner.fees[1].label"
+      ]
+    },
+    {
+      "t": "May 1కి ముందు రద్దు",
+      "of": "3a3bd087",
+      "at": [
+        "covenant-day:costPlanner.fees[2].label"
+      ]
+    },
+    {
+      "t": "**Camp Lion (Full Day), Cub Camp మరియు MS Musical Theaterలో care ఉచితం** — day campsకు Before మరియు After Care, మూడింటికీ Lunch Care. ఆ వారాలకు toggles ఆఫ్‌లోనే ఉంచండి.",
+      "of": "55ffd32d",
+      "at": [
+        "covenant-day:costPlanner.fees[3].label"
+      ]
+    },
+    {
+      "t": "day campsపై తోబుట్టువుల రాయితీలు: ప్రతి అదనపు నమోదుకు **అర్ధ-దినంపై $50 తగ్గింపు / పూర్తి-దినంపై $75 తగ్గింపు**. May 1 తర్వాత రద్దులు 50% (≥14 రోజుల ముందు) తిరిగిస్తాయి, 14 రోజుల లోపల ఏదీ తిరిగిరాదు.",
+      "of": "83b45435",
+      "at": [
+        "covenant-day:costPlanner.fees[4].label"
+      ]
+    },
+    {
+      "t": "Early-bird ధరలు February 27న ముగుస్తాయి.",
+      "of": "d519c42d",
+      "at": [
+        "covenant-day:costPlanner.aside.title"
+      ]
+    },
+    {
+      "t": "CampBrain portalలో నమోదు తెరిచి ఉంది, **ప్రతి శిబిర వారానికి ముందు శుక్రవారం మధ్యాహ్నం** ముగుస్తుంది. శిబిరాలు community అందరికీ తెరిచి ఉంటాయి, మరియు తరగతి అంటే రాబోయే విద్యా సంవత్సరపు **rising** తరగతి.",
+      "of": "6340cffb",
+      "at": [
+        "covenant-day:costPlanner.aside.text"
+      ]
+    },
+    {
+      "t": "మూడు వారపు శ్రేణులూ **అంచనాలు** — పాఠశాల ప్రస్తుత ఒక్కో-శిబిర ధర జాబితా ఏదీ ప్రచురించదు; పైన ఉన్న care add-ons మరియు రుసుము విధానాలు మాత్రమే దాని సొంత ప్రస్తుత సంఖ్యలు.",
+      "of": "09c29363",
+      "at": [
+        "covenant-day:costPlanner.flags[0].text"
       ]
     }
   ]

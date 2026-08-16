@@ -382,6 +382,7 @@
         "charlotte-christian:clusters.verdictHint",
         "charlotte-country-day:clusters.verdictHint",
         "cannon:clusters.verdictHint",
+        "covenant-day:clusters.verdictHint",
         "davidson-day:clusters.verdictHint"
       ]
     },
@@ -454,7 +455,8 @@
       "t": "Club STEM →",
       "of": "5b91930f",
       "at": [
-        "providence-day:clusters.rows[2].name"
+        "providence-day:clusters.rows[2].name",
+        "covenant-day:clusters.rows[1].name"
       ]
     },
     {
@@ -1176,6 +1178,7 @@
         "cannon:clusters.rows[3].evidenceLabel",
         "cannon:catalog.divisions[0].tag",
         "cannon:catalog.divisions[2].tag",
+        "covenant-day:clusters.rows[3].evidenceLabel",
         "davidson-day:clusters.rows[1].evidenceLabel",
         "davidson-day:clusters.rows[2].evidenceLabel",
         "davidson-day:catalog.divisions[0].tag"
@@ -2218,7 +2221,8 @@
       "t": "Società onorarie",
       "of": "fa4511f1",
       "at": [
-        "charlotte-christian:catalog.categories[1].short"
+        "charlotte-christian:catalog.categories[1].short",
+        "covenant-day:catalog.categories[1].full"
       ]
     },
     {
@@ -2697,7 +2701,9 @@
       "of": "30aae499",
       "at": [
         "charlotte-country-day:honors.societies[3].recognizes",
-        "cannon:honors.societies[5].recognizes"
+        "cannon:honors.societies[5].recognizes",
+        "covenant-day:honors.societies[1].recognizes",
+        "covenant-day:catalog.clubs[8].note"
       ]
     },
     {
@@ -2790,6 +2796,7 @@
       "of": "c37374c1",
       "at": [
         "charlotte-country-day:catalog.verdictHint",
+        "covenant-day:catalog.verdictHint",
         "davidson-day:catalog.verdictHint"
       ]
     },
@@ -2813,6 +2820,7 @@
       "of": "7a88029a",
       "at": [
         "charlotte-country-day:catalog.categories[1].short",
+        "covenant-day:catalog.categories[0].short",
         "davidson-day:catalog.categories[0].short"
       ]
     },
@@ -2821,6 +2829,7 @@
       "of": "488ff51c",
       "at": [
         "charlotte-country-day:catalog.categories[1].full",
+        "covenant-day:catalog.categories[0].full",
         "davidson-day:catalog.categories[0].full"
       ]
     },
@@ -2933,7 +2942,8 @@
       "t": "Middle e Lower School",
       "of": "ecf8e9e5",
       "at": [
-        "cannon:affinity.strips[1].title"
+        "cannon:affinity.strips[1].title",
+        "covenant-day:catalog.divisions[0].label"
       ]
     },
     {
@@ -3297,7 +3307,8 @@
       "t": "Leadership studentesca",
       "of": "63a56cbb",
       "at": [
-        "cannon:catalog.categories[2].full"
+        "cannon:catalog.categories[2].full",
+        "covenant-day:catalog.clubs[13].note"
       ]
     },
     {
@@ -3478,6 +3489,440 @@
       ]
     },
     {
+      "t": "Una scala di servizio che cresce con l'età — i ragazzi di 4th grade in venti sedi della comunità, la middle school due volte all'anno e la high school che costruisce alloggi per Pine Ridge.",
+      "of": "21aa8032",
+      "at": [
+        "covenant-day:service.headline"
+      ]
+    },
+    {
+      "t": "Basato su programmi più che su ore registrate: non esiste alcun requisito di ore di servizio e la scuola non pubblica totali annuali.",
+      "of": "03e70840",
+      "at": [
+        "covenant-day:service.subhead"
+      ]
+    },
+    {
+      "t": "sedi nella comunità · 4th grade",
+      "of": "41ed9f44",
+      "at": [
+        "covenant-day:service.programs[0].valueLabel"
+      ]
+    },
+    {
+      "t": "La firma della Lower School: \"gli studenti di quarta escono nella comunità per servire in quasi venti sedi diverse\" — un dispiegamento dell'intera classe più che un club facoltativo.",
+      "of": "c5e51628",
+      "at": [
+        "covenant-day:service.programs[0].detail"
+      ]
+    },
+    {
+      "t": "all'anno · tutta la Middle School",
+      "of": "e663c70f",
+      "at": [
+        "covenant-day:service.programs[1].valueLabel"
+      ]
+    },
+    {
+      "t": "Due volte all'anno l'intera middle school serve \"presso varie nonprofit locali\", poi riflette insieme — doulos è il greco per servo.",
+      "of": "afd1ddaf",
+      "at": [
+        "covenant-day:service.programs[1].detail"
+      ]
+    },
+    {
+      "t": "adolescenti da alloggiare · Pine Ridge",
+      "of": "642fd492",
+      "at": [
+        "covenant-day:service.programs[2].valueLabel"
+      ]
+    },
+    {
+      "t": "Gli studenti della high school \"usano i loro diversi talenti per trasformare container navali usati\" in alloggi per la Pine Ridge Reservation nel South Dakota, con l'obiettivo di dare una casa a più di 30 adolescenti — un progetto pluriennale di design e mestieri, con Restore525 come programma gemello del dipartimento Restoration & Sustainability (e corso con credito).",
+      "of": "aafcf5e9",
+      "at": [
+        "covenant-day:service.programs[2].detail"
+      ]
+    },
+    {
+      "t": "La rete di partner",
+      "of": "51a13798",
+      "at": [
+        "covenant-day:service.footnoteTitle",
+        "davidson-day:service.footnoteTitle"
+      ]
+    },
+    {
+      "t": "Partner nominati: Matthews HELP Center, Matthews Habitat for Humanity, Operation Christmas Child, Brookstone Schools, Jackson Park, Alexander Children’s Home e Love INC. I viaggi missionari vanno in Spagna, Haiti, Belize e Pine Ridge, con una Missions Week della Lower School fatta di relatori missionari ed educazione culturale.",
+      "of": "3f4b01df",
+      "at": [
+        "covenant-day:service.footnote"
+      ]
+    },
+    {
+      "t": "Non è pubblicato da nessuna parte alcun requisito di ore di servizio né un totale annuale di ore — il modello è deliberatamente basato su programmi (\"gli studenti servono insieme, poi riflettono\") anziché sulla registrazione delle ore, quindi non c'è un numero da confrontare con le scuole che ne pubblicano uno.",
+      "of": "5609e14d",
+      "at": [
+        "covenant-day:service.flags[0].text"
+      ]
+    },
+    {
+      "t": "Sei società documentate — ma solo le due sezioni artistiche sono confermate sulle pagine della scuola stessa.",
+      "of": "a03749b4",
+      "at": [
+        "covenant-day:honors.headline"
+      ]
+    },
+    {
+      "t": "La scuola non pubblica alcuna pagina delle società d'onore: divisioni, criteri di ammissione e referenti non sono indicati per nessuna sezione.",
+      "of": "9fcbbc25",
+      "at": [
+        "covenant-day:honors.subhead"
+      ]
+    },
+    {
+      "t": "Studio, servizio, leadership, carattere",
+      "of": "7c2e4298",
+      "at": [
+        "covenant-day:honors.societies[0].recognizes",
+        "covenant-day:catalog.clubs[7].note"
+      ]
+    },
+    {
+      "t": "Solo elenco di terze parti — non confermata su una pagina della scuola",
+      "of": "845fac45",
+      "at": [
+        "covenant-day:honors.societies[0].feedsFrom"
+      ]
+    },
+    {
+      "t": "Elenco di terze parti; il programma di arti visive su cui poggerebbe è documentato dalla scuola",
+      "of": "272dc326",
+      "at": [
+        "covenant-day:honors.societies[1].feedsFrom"
+      ]
+    },
+    {
+      "t": "Risultati nella lingua spagnola",
+      "of": "049a7e2f",
+      "at": [
+        "covenant-day:honors.societies[2].recognizes",
+        "covenant-day:catalog.clubs[9].note"
+      ]
+    },
+    {
+      "t": "Elenco di terze parti; lo spagnolo va da 1 a 4 più AP nella matrice dei corsi",
+      "of": "e9f34b1c",
+      "at": [
+        "covenant-day:honors.societies[2].feedsFrom"
+      ]
+    },
+    {
+      "t": "Partecipazione e risultati nel teatro",
+      "of": "8cda73a7",
+      "at": [
+        "covenant-day:honors.societies[3].recognizes"
+      ]
+    },
+    {
+      "t": "Confermata dalla scuola — nominata sulla pagina del teatro, sopra il programma vincitore di Blumey",
+      "of": "960553f2",
+      "at": [
+        "covenant-day:honors.societies[3].feedsFrom"
+      ]
+    },
+    {
+      "t": "Risultati nella musica più servizio",
+      "of": "4265e746",
+      "at": [
+        "covenant-day:honors.societies[4].recognizes"
+      ]
+    },
+    {
+      "t": "Confermata dalla scuola — nominata sulla pagina della musica, sopra il programma dei nove ensemble",
+      "of": "7a84b2c5",
+      "at": [
+        "covenant-day:honors.societies[4].feedsFrom"
+      ]
+    },
+    {
+      "t": "Risultati accademici e servizio (organizzazione nazionale)",
+      "of": "d72ec94f",
+      "at": [
+        "covenant-day:honors.societies[5].recognizes"
+      ]
+    },
+    {
+      "t": "Solo elenco di terze parti",
+      "of": "1ee60b44",
+      "at": [
+        "covenant-day:honors.societies[5].feedsFrom"
+      ]
+    },
+    {
+      "t": "Firme accademiche",
+      "of": "5de978f5",
+      "at": [
+        "covenant-day:honors.adjacent[0].label",
+        "covenant-day:clusters.rows[3].name"
+      ]
+    },
+    {
+      "t": "Un Senior Capstone Project obbligatorio e l'evento di oratoria McKnight Oratory stanno fuori dalle società come distinzioni accademiche denominate della scuola.",
+      "of": "0b6faf00",
+      "at": [
+        "covenant-day:honors.adjacent[0].text"
+      ]
+    },
+    {
+      "t": "Mock Trial",
+      "of": "1b3c6d97",
+      "at": [
+        "covenant-day:honors.adjacent[1].label",
+        "covenant-day:clusters.rows[0].name"
+      ]
+    },
+    {
+      "t": "L'artista d'aula Cornelia Knight (Covenant Day Blue) ha vinto la sua regionale e ha chiuso il 2025 da seconda classificata statale — il risultato su scala statale meglio documentato in quest'area.",
+      "of": "22b64cbf",
+      "at": [
+        "covenant-day:honors.adjacent[1].text"
+      ]
+    },
+    {
+      "t": "Le voci contrassegnate da * poggiano su un elenco di terze parti (privateschoolreview.com) — la scuola non pubblica alcuna directory delle società d'onore, quindi divisioni, criteri di ammissione, numeri di membri e docenti referenti non sono pubblicati per nessuna società, e le quattro sezioni non artistiche non sono confermate su alcuna pagina di proprietà della scuola.",
+      "of": "e1f75853",
+      "at": [
+        "covenant-day:honors.flags[0].text"
+      ]
+    },
+    {
+      "t": "La base documentata di una rosa; il Mock Trial porta il risultato su scala statale.",
+      "of": "e3bf9817",
+      "at": [
+        "covenant-day:clusters.verdict"
+      ]
+    },
+    {
+      "t": "Artista d'aula: campionessa regionale, seconda classificata statale NC 2025",
+      "of": "f81f86d3",
+      "at": [
+        "covenant-day:clusters.rows[0].oneLiner"
+      ]
+    },
+    {
+      "t": "Verificato — NC Mock Trial",
+      "of": "1dc393f2",
+      "at": [
+        "covenant-day:clusters.rows[0].evidenceLabel"
+      ]
+    },
+    {
+      "t": "Il club competitivo di punta della scuola, nominato sulla sua pagina della high school. I registri dell'NC Mock Trial Program mostrano una squadra \"Covenant Day School Blue\" — il suffisso implica che ce ne sia più d'una — e Cornelia Knight di quella squadra ha vinto la regionale per artisti d'aula a Hickory e ha chiuso il 2025 da seconda classificata per il titolo State Champion Courtroom Artist.",
+      "of": "156669b5",
+      "at": [
+        "covenant-day:clusters.rows[0].note"
+      ]
+    },
+    {
+      "t": "Robotics (First Lego League), Junior FLL, Sustainability Engineering",
+      "of": "2f97025e",
+      "at": [
+        "covenant-day:clusters.rows[1].oneLiner"
+      ]
+    },
+    {
+      "t": "Elenco di terze parti",
+      "of": "dc411eb6",
+      "at": [
+        "covenant-day:clusters.rows[1].evidenceLabel",
+        "covenant-day:clusters.rows[2].evidenceLabel"
+      ]
+    },
+    {
+      "t": "Robotica First Lego League a due livelli più un club di Sustainability Engineering — l'espressione in forma di club del dipartimento Restoration & Sustainability della scuola. I risultati delle competizioni non sono pubblicati.",
+      "of": "ab1fddeb",
+      "at": [
+        "covenant-day:clusters.rows[1].note"
+      ]
+    },
+    {
+      "t": "Club di lingue e lettere →",
+      "of": "18faca0f",
+      "at": [
+        "covenant-day:clusters.rows[2].name"
+      ]
+    },
+    {
+      "t": "Latin (JCL) Club, French Club, Book Club, Beta Club",
+      "of": "02ba05b2",
+      "at": [
+        "covenant-day:clusters.rows[2].oneLiner"
+      ]
+    },
+    {
+      "t": "I club di lingue alimentano le sequenze di corsi di latino e francese (entrambe arrivano al livello 4 più AP Latin). L'attività delle sezioni e i risultati degli eventi non sono pubblicati.",
+      "of": "e31f8d14",
+      "at": [
+        "covenant-day:clusters.rows[2].note"
+      ]
+    },
+    {
+      "t": "Senior Capstone Project, McKnight Oratory",
+      "of": "1e6fc94a",
+      "at": [
+        "covenant-day:clusters.rows[3].oneLiner"
+      ]
+    },
+    {
+      "t": "Il Senior Capstone Project obbligatorio e l'evento di oratoria McKnight Oratory sono le firme accademiche denominate della scuola — traguardi curricolari più che club, riportati qui perché è lì che vive la competizione accademica in questa scuola.",
+      "of": "dde42844",
+      "at": [
+        "covenant-day:clusters.rows[3].note"
+      ]
+    },
+    {
+      "t": "Una base documentata di club e società d'onore dell'Upper School — la scuola non pubblica alcuna directory, quindi questo è ciò che le fonti pubbliche confermano.",
+      "of": "4c7dff30",
+      "at": [
+        "covenant-day:catalog.verdict"
+      ]
+    },
+    {
+      "t": "organizzazioni documentate",
+      "of": "41a31aa0",
+      "at": [
+        "covenant-day:catalog.countNoun"
+      ]
+    },
+    {
+      "t": "Onore",
+      "of": "d23688af",
+      "at": [
+        "covenant-day:catalog.categories[1].short"
+      ]
+    },
+    {
+      "t": "Spirito",
+      "of": "38825d08",
+      "at": [
+        "covenant-day:catalog.categories[2].short"
+      ]
+    },
+    {
+      "t": "Spirito / leadership",
+      "of": "2aa31f10",
+      "at": [
+        "covenant-day:catalog.categories[2].full"
+      ]
+    },
+    {
+      "t": "Punta di diamante — artista d'aula seconda classificata statale 2025",
+      "of": "5611b358",
+      "at": [
+        "covenant-day:catalog.clubs[0].note"
+      ]
+    },
+    {
+      "t": "Robotica da competizione FLL",
+      "of": "0819f24f",
+      "at": [
+        "covenant-day:catalog.clubs[1].note"
+      ]
+    },
+    {
+      "t": "Il braccio in forma di club del dipartimento R&S",
+      "of": "3ea44391",
+      "at": [
+        "covenant-day:catalog.clubs[2].note"
+      ]
+    },
+    {
+      "t": "Sezione della Junior Classical League",
+      "of": "35171cbb",
+      "at": [
+        "covenant-day:catalog.clubs[3].note"
+      ]
+    },
+    {
+      "t": "Club di lingua",
+      "of": "2816df49",
+      "at": [
+        "covenant-day:catalog.clubs[4].note"
+      ]
+    },
+    {
+      "t": "Club di lettura / letterario",
+      "of": "19c329fe",
+      "at": [
+        "covenant-day:catalog.clubs[5].note"
+      ]
+    },
+    {
+      "t": "Organizzazione nazionale di onore accademico + servizio",
+      "of": "24e171f3",
+      "at": [
+        "covenant-day:catalog.clubs[6].note"
+      ]
+    },
+    {
+      "t": "Società d'onore teatrale (confermata dalla scuola)",
+      "of": "d53a2f55",
+      "at": [
+        "covenant-day:catalog.clubs[10].note"
+      ]
+    },
+    {
+      "t": "Società d'onore musicale (confermata dalla scuola)",
+      "of": "0d8ba44d",
+      "at": [
+        "covenant-day:catalog.clubs[11].note"
+      ]
+    },
+    {
+      "t": "La sezione del tifo studentesco",
+      "of": "e1c23af7",
+      "at": [
+        "covenant-day:catalog.clubs[12].note"
+      ]
+    },
+    {
+      "t": "Junior First Lego League, l'MS Board Game Club, il CDS Children’s Choir (grades 3–5), i Goodness Gorillas (il programma di servizio del 4th grade) e il ritiro di quinta a Kanuga.",
+      "of": "1add157d",
+      "at": [
+        "covenant-day:catalog.divisions[0].text"
+      ]
+    },
+    {
+      "t": "Documentato",
+      "of": "986cb365",
+      "at": [
+        "covenant-day:catalog.divisions[0].tag"
+      ]
+    },
+    {
+      "t": "Oltre l’elenco dei club",
+      "of": "b8c68fde",
+      "at": [
+        "covenant-day:catalog.divisions[1].label",
+        "davidson-day:catalog.divisions[0].label"
+      ]
+    },
+    {
+      "t": "L'elenco di terze parti riporta anche enrichment a pagamento (lezioni di piano/chitarra/canto, pittura), ensemble curricolari (band, coro, teatro, worship team) e il boys volleyball — uno sport di club. Questi sono esclusi dal conteggio qui sopra. Restore525 è attivo sia come programma di servizio sia come corso con credito.",
+      "of": "b8e1c64f",
+      "at": [
+        "covenant-day:catalog.divisions[1].text"
+      ]
+    },
+    {
+      "t": "Filtrati",
+      "of": "db60a076",
+      "at": [
+        "covenant-day:catalog.divisions[1].tag"
+      ]
+    },
+    {
       "t": "Un praticantato immersivo di 100 ore dietro ogni distinzione di diploma, e la prima scuola superiore in assoluto a collaborare con la Deliberative Citizenship Initiative del Davidson College.",
       "of": "609e6f5e",
       "at": [
@@ -3531,13 +3976,6 @@
       "of": "90819560",
       "at": [
         "davidson-day:service.programs[2].detail"
-      ]
-    },
-    {
-      "t": "La rete di partner",
-      "of": "51a13798",
-      "at": [
-        "davidson-day:service.footnoteTitle"
       ]
     },
     {
@@ -3700,13 +4138,6 @@
       "of": "b93b4380",
       "at": [
         "davidson-day:catalog.clubs[8].note"
-      ]
-    },
-    {
-      "t": "Oltre l’elenco dei club",
-      "of": "b8c68fde",
-      "at": [
-        "davidson-day:catalog.divisions[0].label"
       ]
     },
     {

@@ -382,6 +382,7 @@
         "charlotte-christian:clusters.verdictHint",
         "charlotte-country-day:clusters.verdictHint",
         "cannon:clusters.verdictHint",
+        "covenant-day:clusters.verdictHint",
         "davidson-day:clusters.verdictHint"
       ]
     },
@@ -454,7 +455,8 @@
       "t": "Klib STEM →",
       "of": "5b91930f",
       "at": [
-        "providence-day:clusters.rows[2].name"
+        "providence-day:clusters.rows[2].name",
+        "covenant-day:clusters.rows[1].name"
       ]
     },
     {
@@ -1176,6 +1178,7 @@
         "cannon:clusters.rows[3].evidenceLabel",
         "cannon:catalog.divisions[0].tag",
         "cannon:catalog.divisions[2].tag",
+        "covenant-day:clusters.rows[3].evidenceLabel",
         "davidson-day:clusters.rows[1].evidenceLabel",
         "davidson-day:clusters.rows[2].evidenceLabel",
         "davidson-day:catalog.divisions[0].tag"
@@ -2218,7 +2221,8 @@
       "t": "Sosyete onè",
       "of": "fa4511f1",
       "at": [
-        "charlotte-christian:catalog.categories[1].short"
+        "charlotte-christian:catalog.categories[1].short",
+        "covenant-day:catalog.categories[1].full"
       ]
     },
     {
@@ -2697,7 +2701,9 @@
       "of": "30aae499",
       "at": [
         "charlotte-country-day:honors.societies[3].recognizes",
-        "cannon:honors.societies[5].recognizes"
+        "cannon:honors.societies[5].recognizes",
+        "covenant-day:honors.societies[1].recognizes",
+        "covenant-day:catalog.clubs[8].note"
       ]
     },
     {
@@ -2790,6 +2796,7 @@
       "of": "c37374c1",
       "at": [
         "charlotte-country-day:catalog.verdictHint",
+        "covenant-day:catalog.verdictHint",
         "davidson-day:catalog.verdictHint"
       ]
     },
@@ -2813,6 +2820,7 @@
       "of": "7a88029a",
       "at": [
         "charlotte-country-day:catalog.categories[1].short",
+        "covenant-day:catalog.categories[0].short",
         "davidson-day:catalog.categories[0].short"
       ]
     },
@@ -2821,6 +2829,7 @@
       "of": "488ff51c",
       "at": [
         "charlotte-country-day:catalog.categories[1].full",
+        "covenant-day:catalog.categories[0].full",
         "davidson-day:catalog.categories[0].full"
       ]
     },
@@ -2933,7 +2942,8 @@
       "t": "Middle ak Lower School",
       "of": "ecf8e9e5",
       "at": [
-        "cannon:affinity.strips[1].title"
+        "cannon:affinity.strips[1].title",
+        "covenant-day:catalog.divisions[0].label"
       ]
     },
     {
@@ -3297,7 +3307,8 @@
       "t": "Lidèchip elèv",
       "of": "63a56cbb",
       "at": [
-        "cannon:catalog.categories[2].full"
+        "cannon:catalog.categories[2].full",
+        "covenant-day:catalog.clubs[13].note"
       ]
     },
     {
@@ -3478,6 +3489,440 @@
       ]
     },
     {
+      "t": "Yon echèl sèvis ki grandi ak laj — elèv katriyèm ane nan ven sit kominotè, elèv Middle School de fwa pa ane, epi elèv lekòl segondè k ap bati kay pou Pine Ridge.",
+      "of": "21aa8032",
+      "at": [
+        "covenant-day:service.headline"
+      ]
+    },
+    {
+      "t": "Baze sou pwogram olye ke sou èdtan ki anrejistre: pa gen okenn egzijans èdtan sèvis, epi lekòl la pa pibliye okenn total anyèl.",
+      "of": "03e70840",
+      "at": [
+        "covenant-day:service.subhead"
+      ]
+    },
+    {
+      "t": "sit kominotè · 4yèm grad",
+      "of": "41ed9f44",
+      "at": [
+        "covenant-day:service.programs[0].valueLabel"
+      ]
+    },
+    {
+      "t": "Siyati Lower School la: \"elèv katriyèm ane soti nan kominote a pou sèvi nan prèske ven sit diferan\" — yon deplwaman tout yon grad olye ke yon klèb ou chwazi.",
+      "of": "c5e51628",
+      "at": [
+        "covenant-day:service.programs[0].detail"
+      ]
+    },
+    {
+      "t": "pa ane · tout Middle School",
+      "of": "e663c70f",
+      "at": [
+        "covenant-day:service.programs[1].valueLabel"
+      ]
+    },
+    {
+      "t": "De fwa pa ane tout Middle School la sèvi \"nan divès òganizasyon lokal san bi likratif,\" epi apre yo reflechi ansanm — doulos se mo Grèk pou sèvitè.",
+      "of": "afd1ddaf",
+      "at": [
+        "covenant-day:service.programs[1].detail"
+      ]
+    },
+    {
+      "t": "jèn pou lojman · Pine Ridge",
+      "of": "642fd492",
+      "at": [
+        "covenant-day:service.programs[2].valueLabel"
+      ]
+    },
+    {
+      "t": "Elèv lekòl segondè yo \"sèvi ak diferan talan yo pou transfòme veso maritim itilize\" an lojman pou Pine Ridge Reservation nan South Dakota, ak objektif pou bay lojman pou plis pase 30 jèn — yon konstriksyon plizyè ane nan konsepsyon ak metye, ak Restore525 kòm pwogram konpayon depatman Restoration & Sustainability a (epi yon kou ki bay kredi).",
+      "of": "aafcf5e9",
+      "at": [
+        "covenant-day:service.programs[2].detail"
+      ]
+    },
+    {
+      "t": "Rezo patnè a",
+      "of": "51a13798",
+      "at": [
+        "covenant-day:service.footnoteTitle",
+        "davidson-day:service.footnoteTitle"
+      ]
+    },
+    {
+      "t": "Patnè yo nonmen: Matthews HELP Center, Matthews Habitat for Humanity, Operation Christmas Child, Brookstone Schools, Jackson Park, Alexander Children’s Home, ak Love INC. Vwayaj misyon yo ale nan Spain, Ayiti, Belize, ak Pine Ridge, ak yon Lower School Missions Week ak oratè misyonè ak edikasyon kiltirèl.",
+      "of": "3f4b01df",
+      "at": [
+        "covenant-day:service.footnote"
+      ]
+    },
+    {
+      "t": "Pa gen okenn egzijans èdtan sèvis ni okenn total èdtan anyèl ki pibliye okenn kote — modèl la baze espre sou pwogram (\"elèv sèvi ansanm, epi reflechi\") olye ke sou anrejistreman èdtan, kidonk pa gen okenn chif pou konpare ak lekòl ki pibliye youn.",
+      "of": "5609e14d",
+      "at": [
+        "covenant-day:service.flags[0].text"
+      ]
+    },
+    {
+      "t": "Sis sosyete dokimante — men se sèlman de chapit atizay yo ki konfime sou pwòp paj lekòl la.",
+      "of": "a03749b4",
+      "at": [
+        "covenant-day:honors.headline"
+      ]
+    },
+    {
+      "t": "Lekòl la pa pibliye okenn paj sosyete onè: divizyon, kritè entwonizasyon ak sponsò yo pa deklare pou chak chapit.",
+      "of": "9fcbbc25",
+      "at": [
+        "covenant-day:honors.subhead"
+      ]
+    },
+    {
+      "t": "Bous detid, sèvis, lidèchip, karaktè",
+      "of": "7c2e4298",
+      "at": [
+        "covenant-day:honors.societies[0].recognizes",
+        "covenant-day:catalog.clubs[7].note"
+      ]
+    },
+    {
+      "t": "Lis twazyèm pati sèlman — pa konfime sou yon paj lekòl",
+      "of": "845fac45",
+      "at": [
+        "covenant-day:honors.societies[0].feedsFrom"
+      ]
+    },
+    {
+      "t": "Lis twazyèm pati; pwogram atizay vizyèl li ta chita anlè a dokimante nan lekòl la",
+      "of": "272dc326",
+      "at": [
+        "covenant-day:honors.societies[1].feedsFrom"
+      ]
+    },
+    {
+      "t": "Reyisit nan lang Panyòl",
+      "of": "049a7e2f",
+      "at": [
+        "covenant-day:honors.societies[2].recognizes",
+        "covenant-day:catalog.clubs[9].note"
+      ]
+    },
+    {
+      "t": "Lis twazyèm pati; Panyòl woule 1–4 plis AP nan matris kou a",
+      "of": "e9f34b1c",
+      "at": [
+        "covenant-day:honors.societies[2].feedsFrom"
+      ]
+    },
+    {
+      "t": "Patisipasyon ak reyisit nan teyat",
+      "of": "8cda73a7",
+      "at": [
+        "covenant-day:honors.societies[3].recognizes"
+      ]
+    },
+    {
+      "t": "Konfime nan lekòl la — nonmen sou paj teyat la, anlè pwogram ki genyen Blumey a",
+      "of": "960553f2",
+      "at": [
+        "covenant-day:honors.societies[3].feedsFrom"
+      ]
+    },
+    {
+      "t": "Reyisit nan mizik plis sèvis",
+      "of": "4265e746",
+      "at": [
+        "covenant-day:honors.societies[4].recognizes"
+      ]
+    },
+    {
+      "t": "Konfime nan lekòl la — nonmen sou paj mizik la, anlè pwogram nèf ansanm nan",
+      "of": "7a84b2c5",
+      "at": [
+        "covenant-day:honors.societies[4].feedsFrom"
+      ]
+    },
+    {
+      "t": "Reyisit akademik ak sèvis (òganizasyon nasyonal)",
+      "of": "d72ec94f",
+      "at": [
+        "covenant-day:honors.societies[5].recognizes"
+      ]
+    },
+    {
+      "t": "Lis twazyèm pati sèlman",
+      "of": "1ee60b44",
+      "at": [
+        "covenant-day:honors.societies[5].feedsFrom"
+      ]
+    },
+    {
+      "t": "Siyati akademik",
+      "of": "5de978f5",
+      "at": [
+        "covenant-day:honors.adjacent[0].label",
+        "covenant-day:clusters.rows[3].name"
+      ]
+    },
+    {
+      "t": "Yon Senior Capstone Project obligatwa ak evènman diskou McKnight Oratory a chita andeyò sosyete yo kòm distenksyon akademik lekòl la nonmen.",
+      "of": "0b6faf00",
+      "at": [
+        "covenant-day:honors.adjacent[0].text"
+      ]
+    },
+    {
+      "t": "Mock Trial",
+      "of": "1b3c6d97",
+      "at": [
+        "covenant-day:honors.adjacent[1].label",
+        "covenant-day:clusters.rows[0].name"
+      ]
+    },
+    {
+      "t": "Atis tribinal Cornelia Knight (Covenant Day Blue) te genyen rejyonal li a epi li fini dezyèm nan eta a an 2025 — rezilta nan tout eta a ki pi byen dokimante nan domèn sa a.",
+      "of": "22b64cbf",
+      "at": [
+        "covenant-day:honors.adjacent[1].text"
+      ]
+    },
+    {
+      "t": "Antre ki make ak * chita sou yon lis twazyèm pati (privateschoolreview.com) — lekòl la pa pibliye okenn anyè sosyete onè, kidonk divizyon, kritè entwonizasyon, kantite manm ak sponsò pwofesè yo pa pibliye pou chak sosyete, epi kat chapit ki pa nan atizay yo pa konfime sou okenn paj ki pou lekòl la.",
+      "of": "e1f75853",
+      "at": [
+        "covenant-day:honors.flags[0].text"
+      ]
+    },
+    {
+      "t": "Yon planche dokimante nan yon lis; Mock Trial pote rezilta nan tout eta a.",
+      "of": "e3bf9817",
+      "at": [
+        "covenant-day:clusters.verdict"
+      ]
+    },
+    {
+      "t": "Atis tribinal: chanpyon rejyonal, dezyèm nan eta NC an 2025",
+      "of": "f81f86d3",
+      "at": [
+        "covenant-day:clusters.rows[0].oneLiner"
+      ]
+    },
+    {
+      "t": "Verifye — NC Mock Trial",
+      "of": "1dc393f2",
+      "at": [
+        "covenant-day:clusters.rows[0].evidenceLabel"
+      ]
+    },
+    {
+      "t": "Pi gwo klèb konpetitif lekòl la, nonmen sou pwòp paj lekòl segondè li. Dosye NC Mock Trial Program yo montre yon ekip \"Covenant Day School Blue\" — sifiks la vle di gen plis pase youn — epi Cornelia Knight nan ekip sa a te genyen rejyonal atis tribinal la nan Hickory epi li fini dezyèm pou State Champion Courtroom Artist an 2025.",
+      "of": "156669b5",
+      "at": [
+        "covenant-day:clusters.rows[0].note"
+      ]
+    },
+    {
+      "t": "Robotics (First Lego League), Junior FLL, Sustainability Engineering",
+      "of": "2f97025e",
+      "at": [
+        "covenant-day:clusters.rows[1].oneLiner"
+      ]
+    },
+    {
+      "t": "Lis twazyèm pati",
+      "of": "dc411eb6",
+      "at": [
+        "covenant-day:clusters.rows[1].evidenceLabel",
+        "covenant-day:clusters.rows[2].evidenceLabel"
+      ]
+    },
+    {
+      "t": "Robotics First Lego League nan de nivo plis yon klèb Sustainability Engineering — ekspresyon klèb depatman Restoration & Sustainability lekòl la. Rezilta konpetisyon yo pa pibliye.",
+      "of": "ab1fddeb",
+      "at": [
+        "covenant-day:clusters.rows[1].note"
+      ]
+    },
+    {
+      "t": "Klèb lang ak lèt →",
+      "of": "18faca0f",
+      "at": [
+        "covenant-day:clusters.rows[2].name"
+      ]
+    },
+    {
+      "t": "Latin (JCL) Club, French Club, Book Club, Beta Club",
+      "of": "02ba05b2",
+      "at": [
+        "covenant-day:clusters.rows[2].oneLiner"
+      ]
+    },
+    {
+      "t": "Klèb lang yo nouri sekans kou Latin ak Fransè a (tou de woule jiska nivo 4 plis AP Latin). Aktivite chapit ak rezilta evènman yo pa pibliye.",
+      "of": "e31f8d14",
+      "at": [
+        "covenant-day:clusters.rows[2].note"
+      ]
+    },
+    {
+      "t": "Senior Capstone Project, McKnight Oratory",
+      "of": "1e6fc94a",
+      "at": [
+        "covenant-day:clusters.rows[3].oneLiner"
+      ]
+    },
+    {
+      "t": "Senior Capstone Project obligatwa a ak evènman diskou McKnight Oratory a se siyati akademik lekòl la nonmen — etap kle kourikoulòm olye ke klèb, pote isit la paske se la konpetisyon akademik ap viv nan lekòl sa a.",
+      "of": "dde42844",
+      "at": [
+        "covenant-day:clusters.rows[3].note"
+      ]
+    },
+    {
+      "t": "Yon planche dokimante nan klèb Upper School ak sosyete onè — lekòl la pa pibliye okenn anyè, kidonk se sa sous piblik yo konfime.",
+      "of": "4c7dff30",
+      "at": [
+        "covenant-day:catalog.verdict"
+      ]
+    },
+    {
+      "t": "òganizasyon dokimante",
+      "of": "41a31aa0",
+      "at": [
+        "covenant-day:catalog.countNoun"
+      ]
+    },
+    {
+      "t": "Onè",
+      "of": "d23688af",
+      "at": [
+        "covenant-day:catalog.categories[1].short"
+      ]
+    },
+    {
+      "t": "Espri",
+      "of": "38825d08",
+      "at": [
+        "covenant-day:catalog.categories[2].short"
+      ]
+    },
+    {
+      "t": "Espri / lidèchip",
+      "of": "2aa31f10",
+      "at": [
+        "covenant-day:catalog.categories[2].full"
+      ]
+    },
+    {
+      "t": "Pi gwo — atis tribinal dezyèm nan eta a an 2025",
+      "of": "5611b358",
+      "at": [
+        "covenant-day:catalog.clubs[0].note"
+      ]
+    },
+    {
+      "t": "Robotics konpetisyon FLL",
+      "of": "0819f24f",
+      "at": [
+        "covenant-day:catalog.clubs[1].note"
+      ]
+    },
+    {
+      "t": "Branch klèb depatman R&S la",
+      "of": "3ea44391",
+      "at": [
+        "covenant-day:catalog.clubs[2].note"
+      ]
+    },
+    {
+      "t": "Chapit Junior Classical League",
+      "of": "35171cbb",
+      "at": [
+        "covenant-day:catalog.clubs[3].note"
+      ]
+    },
+    {
+      "t": "Klèb lang",
+      "of": "2816df49",
+      "at": [
+        "covenant-day:catalog.clubs[4].note"
+      ]
+    },
+    {
+      "t": "Klèb lekti / literè",
+      "of": "19c329fe",
+      "at": [
+        "covenant-day:catalog.clubs[5].note"
+      ]
+    },
+    {
+      "t": "Òganizasyon onè akademik nasyonal + sèvis",
+      "of": "24e171f3",
+      "at": [
+        "covenant-day:catalog.clubs[6].note"
+      ]
+    },
+    {
+      "t": "Sosyete onè teyat (konfime nan lekòl la)",
+      "of": "d53a2f55",
+      "at": [
+        "covenant-day:catalog.clubs[10].note"
+      ]
+    },
+    {
+      "t": "Sosyete onè mizik (konfime nan lekòl la)",
+      "of": "0d8ba44d",
+      "at": [
+        "covenant-day:catalog.clubs[11].note"
+      ]
+    },
+    {
+      "t": "Seksyon espri elèv la",
+      "of": "e1c23af7",
+      "at": [
+        "covenant-day:catalog.clubs[12].note"
+      ]
+    },
+    {
+      "t": "Junior First Lego League, MS Board Game Club, CDS Children’s Choir (grad 3–5), Goodness Gorillas (pwogram sèvis 4yèm grad la), ak retrèt senkyèm grad Kanuga a.",
+      "of": "1add157d",
+      "at": [
+        "covenant-day:catalog.divisions[0].text"
+      ]
+    },
+    {
+      "t": "Dokimante",
+      "of": "986cb365",
+      "at": [
+        "covenant-day:catalog.divisions[0].tag"
+      ]
+    },
+    {
+      "t": "Pi lwen pase lis klib la",
+      "of": "b8c68fde",
+      "at": [
+        "covenant-day:catalog.divisions[1].label",
+        "davidson-day:catalog.divisions[0].label"
+      ]
+    },
+    {
+      "t": "Lis twazyèm pati a liste tou anrichisman ki peye (leson pyano/gita/vwa, penti), ansanm kourikoulòm (bann, koral, teyat, worship team), ak volebòl gason — yon espò klèb. Sa yo eskli nan konte ki anwo a. Restore525 woule alafwa kòm yon pwogram sèvis ak yon kou ki bay kredi.",
+      "of": "b8e1c64f",
+      "at": [
+        "covenant-day:catalog.divisions[1].text"
+      ]
+    },
+    {
+      "t": "Filtre deyò",
+      "of": "db60a076",
+      "at": [
+        "covenant-day:catalog.divisions[1].tag"
+      ]
+    },
+    {
       "t": "Yon praktikòm imèsif 100 èdtan dèyè chak distenksyon diplòm, epi premye lekòl segondè ki janm fè patenarya ak Deliberative Citizenship Initiative Davidson College la.",
       "of": "609e6f5e",
       "at": [
@@ -3531,13 +3976,6 @@
       "of": "90819560",
       "at": [
         "davidson-day:service.programs[2].detail"
-      ]
-    },
-    {
-      "t": "Rezo patnè a",
-      "of": "51a13798",
-      "at": [
-        "davidson-day:service.footnoteTitle"
       ]
     },
     {
@@ -3700,13 +4138,6 @@
       "of": "b93b4380",
       "at": [
         "davidson-day:catalog.clubs[8].note"
-      ]
-    },
-    {
-      "t": "Pi lwen pase lis klib la",
-      "of": "b8c68fde",
-      "at": [
-        "davidson-day:catalog.divisions[0].label"
       ]
     },
     {

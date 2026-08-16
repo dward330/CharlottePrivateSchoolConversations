@@ -382,6 +382,7 @@
         "charlotte-christian:clusters.verdictHint",
         "charlotte-country-day:clusters.verdictHint",
         "cannon:clusters.verdictHint",
+        "covenant-day:clusters.verdictHint",
         "davidson-day:clusters.verdictHint"
       ]
     },
@@ -454,7 +455,8 @@
       "t": "STEM ক্লাব →",
       "of": "5b91930f",
       "at": [
-        "providence-day:clusters.rows[2].name"
+        "providence-day:clusters.rows[2].name",
+        "covenant-day:clusters.rows[1].name"
       ]
     },
     {
@@ -1176,6 +1178,7 @@
         "cannon:clusters.rows[3].evidenceLabel",
         "cannon:catalog.divisions[0].tag",
         "cannon:catalog.divisions[2].tag",
+        "covenant-day:clusters.rows[3].evidenceLabel",
         "davidson-day:clusters.rows[1].evidenceLabel",
         "davidson-day:clusters.rows[2].evidenceLabel",
         "davidson-day:catalog.divisions[0].tag"
@@ -2218,7 +2221,8 @@
       "t": "Honor society",
       "of": "fa4511f1",
       "at": [
-        "charlotte-christian:catalog.categories[1].short"
+        "charlotte-christian:catalog.categories[1].short",
+        "covenant-day:catalog.categories[1].full"
       ]
     },
     {
@@ -2697,7 +2701,9 @@
       "of": "30aae499",
       "at": [
         "charlotte-country-day:honors.societies[3].recognizes",
-        "cannon:honors.societies[5].recognizes"
+        "cannon:honors.societies[5].recognizes",
+        "covenant-day:honors.societies[1].recognizes",
+        "covenant-day:catalog.clubs[8].note"
       ]
     },
     {
@@ -2790,6 +2796,7 @@
       "of": "c37374c1",
       "at": [
         "charlotte-country-day:catalog.verdictHint",
+        "covenant-day:catalog.verdictHint",
         "davidson-day:catalog.verdictHint"
       ]
     },
@@ -2813,6 +2820,7 @@
       "of": "7a88029a",
       "at": [
         "charlotte-country-day:catalog.categories[1].short",
+        "covenant-day:catalog.categories[0].short",
         "davidson-day:catalog.categories[0].short"
       ]
     },
@@ -2821,6 +2829,7 @@
       "of": "488ff51c",
       "at": [
         "charlotte-country-day:catalog.categories[1].full",
+        "covenant-day:catalog.categories[0].full",
         "davidson-day:catalog.categories[0].full"
       ]
     },
@@ -2933,7 +2942,8 @@
       "t": "Middle ও Lower School",
       "of": "ecf8e9e5",
       "at": [
-        "cannon:affinity.strips[1].title"
+        "cannon:affinity.strips[1].title",
+        "covenant-day:catalog.divisions[0].label"
       ]
     },
     {
@@ -3297,7 +3307,8 @@
       "t": "শিক্ষার্থী নেতৃত্ব",
       "of": "63a56cbb",
       "at": [
-        "cannon:catalog.categories[2].full"
+        "cannon:catalog.categories[2].full",
+        "covenant-day:catalog.clubs[13].note"
       ]
     },
     {
@@ -3478,6 +3489,440 @@
       ]
     },
     {
+      "t": "বয়স অনুযায়ী বাড়তে থাকা একটি সেবার ধাপ — চতুর্থ শ্রেণির শিক্ষার্থীরা বিশটি কমিউনিটি সাইটে, মিডল স্কুলের শিক্ষার্থীরা বছরে দুবার, এবং হাই স্কুলের শিক্ষার্থীরা Pine Ridge-এর জন্য আবাসন গড়ছে।",
+      "of": "21aa8032",
+      "at": [
+        "covenant-day:service.headline"
+      ]
+    },
+    {
+      "t": "ঘণ্টা-নথিভুক্তির বদলে কর্মসূচি-ভিত্তিক: সেবার ঘণ্টার কোনো শর্ত নেই, এবং স্কুল কোনো বার্ষিক মোট প্রকাশ করে না।",
+      "of": "03e70840",
+      "at": [
+        "covenant-day:service.subhead"
+      ]
+    },
+    {
+      "t": "কমিউনিটি সাইট · 4র্থ গ্রেড",
+      "of": "41ed9f44",
+      "at": [
+        "covenant-day:service.programs[0].valueLabel"
+      ]
+    },
+    {
+      "t": "Lower School-এর স্বাক্ষর: \"fourth grade students head out into the community to serve at nearly twenty different sites\" — একটি ঐচ্ছিক ক্লাব নয়, বরং পুরো গ্রেডের অংশগ্রহণ।",
+      "of": "c5e51628",
+      "at": [
+        "covenant-day:service.programs[0].detail"
+      ]
+    },
+    {
+      "t": "বছরে · পুরো Middle School",
+      "of": "e663c70f",
+      "at": [
+        "covenant-day:service.programs[1].valueLabel"
+      ]
+    },
+    {
+      "t": "বছরে দুবার পুরো মিডল স্কুল \"at various local nonprofits\" সেবা দেয়, তারপর একসঙ্গে তা নিয়ে ভাবে — doulos হলো সেবক-এর গ্রিক প্রতিশব্দ।",
+      "of": "afd1ddaf",
+      "at": [
+        "covenant-day:service.programs[1].detail"
+      ]
+    },
+    {
+      "t": "আবাসন পাওয়ার মতো কিশোর · Pine Ridge",
+      "of": "642fd492",
+      "at": [
+        "covenant-day:service.programs[2].valueLabel"
+      ]
+    },
+    {
+      "t": "হাই স্কুলের শিক্ষার্থীরা \"use their different talents to transform used shipping containers\" South Dakota-র Pine Ridge Reservation-এর জন্য আবাসনে রূপান্তর করে, 30-এর বেশি কিশোরকে আবাসন দেওয়ার লক্ষ্যে — একটি বহু-বছরের নকশা-ও-কারিগরি নির্মাণকাজ, Restore525 হলো Restoration & Sustainability বিভাগের সহযোগী কর্মসূচি (এবং একটি ক্রেডিট-বহনকারী কোর্স)।",
+      "of": "aafcf5e9",
+      "at": [
+        "covenant-day:service.programs[2].detail"
+      ]
+    },
+    {
+      "t": "অংশীদার নেটওয়ার্ক",
+      "of": "51a13798",
+      "at": [
+        "covenant-day:service.footnoteTitle",
+        "davidson-day:service.footnoteTitle"
+      ]
+    },
+    {
+      "t": "নামযুক্ত অংশীদার: Matthews HELP Center, Matthews Habitat for Humanity, Operation Christmas Child, Brookstone Schools, Jackson Park, Alexander Children’s Home, এবং Love INC। মিশন ট্রিপ চলে Spain, Haiti, Belize ও Pine Ridge-এ, সঙ্গে একটি Lower School Missions Week যেখানে মিশনারি বক্তা ও সাংস্কৃতিক শিক্ষা থাকে।",
+      "of": "3f4b01df",
+      "at": [
+        "covenant-day:service.footnote"
+      ]
+    },
+    {
+      "t": "সেবার ঘণ্টার কোনো শর্ত নেই এবং বার্ষিক ঘণ্টার কোনো মোট কোথাও প্রকাশিত নয় — মডেলটি ইচ্ছাকৃতভাবেই কর্মসূচি-ভিত্তিক (\"students serve together, then reflect\"), ঘণ্টা-নথিভুক্তি নয়, তাই যেসব স্কুল সংখ্যা প্রকাশ করে তাদের সঙ্গে তুলনা করার মতো কোনো সংখ্যা নেই।",
+      "of": "5609e14d",
+      "at": [
+        "covenant-day:service.flags[0].text"
+      ]
+    },
+    {
+      "t": "ছয়টি নথিভুক্ত সোসাইটি — তবে কেবল দুটি আর্টস চ্যাপ্টারই স্কুলের নিজস্ব পাতায় নিশ্চিত।",
+      "of": "a03749b4",
+      "at": [
+        "covenant-day:honors.headline"
+      ]
+    },
+    {
+      "t": "স্কুল কোনো honor-society পাতা প্রকাশ করে না: প্রতিটি চ্যাপ্টারের ডিভিশন, অন্তর্ভুক্তির শর্ত ও পৃষ্ঠপোষক অনুল্লিখিত।",
+      "of": "9fcbbc25",
+      "at": [
+        "covenant-day:honors.subhead"
+      ]
+    },
+    {
+      "t": "বিদ্যাচর্চা, সেবা, নেতৃত্ব, চরিত্র",
+      "of": "7c2e4298",
+      "at": [
+        "covenant-day:honors.societies[0].recognizes",
+        "covenant-day:catalog.clubs[7].note"
+      ]
+    },
+    {
+      "t": "কেবল তৃতীয়-পক্ষের তালিকা — স্কুল পাতায় নিশ্চিত নয়",
+      "of": "845fac45",
+      "at": [
+        "covenant-day:honors.societies[0].feedsFrom"
+      ]
+    },
+    {
+      "t": "তৃতীয়-পক্ষের তালিকা; যে চারুকলা কর্মসূচির শীর্ষে এটি বসত, তা স্কুল-নথিভুক্ত",
+      "of": "272dc326",
+      "at": [
+        "covenant-day:honors.societies[1].feedsFrom"
+      ]
+    },
+    {
+      "t": "স্প্যানিশ ভাষায় অর্জন",
+      "of": "049a7e2f",
+      "at": [
+        "covenant-day:honors.societies[2].recognizes",
+        "covenant-day:catalog.clubs[9].note"
+      ]
+    },
+    {
+      "t": "তৃতীয়-পক্ষের তালিকা; কোর্স ম্যাট্রিক্সে স্প্যানিশ 1–4 সাথে AP চলে",
+      "of": "e9f34b1c",
+      "at": [
+        "covenant-day:honors.societies[2].feedsFrom"
+      ]
+    },
+    {
+      "t": "থিয়েটারে অংশগ্রহণ ও অর্জন",
+      "of": "8cda73a7",
+      "at": [
+        "covenant-day:honors.societies[3].recognizes"
+      ]
+    },
+    {
+      "t": "স্কুল-নিশ্চিত — থিয়েটার পাতায় নামযুক্ত, Blumey-জয়ী কর্মসূচির শীর্ষে",
+      "of": "960553f2",
+      "at": [
+        "covenant-day:honors.societies[3].feedsFrom"
+      ]
+    },
+    {
+      "t": "সংগীতে অর্জন সাথে সেবা",
+      "of": "4265e746",
+      "at": [
+        "covenant-day:honors.societies[4].recognizes"
+      ]
+    },
+    {
+      "t": "স্কুল-নিশ্চিত — সংগীত পাতায় নামযুক্ত, নয়-ensemble কর্মসূচির শীর্ষে",
+      "of": "7a84b2c5",
+      "at": [
+        "covenant-day:honors.societies[4].feedsFrom"
+      ]
+    },
+    {
+      "t": "একাডেমিক অর্জন ও সেবা (জাতীয় সংগঠন)",
+      "of": "d72ec94f",
+      "at": [
+        "covenant-day:honors.societies[5].recognizes"
+      ]
+    },
+    {
+      "t": "কেবল তৃতীয়-পক্ষের তালিকা",
+      "of": "1ee60b44",
+      "at": [
+        "covenant-day:honors.societies[5].feedsFrom"
+      ]
+    },
+    {
+      "t": "একাডেমিক স্বাক্ষর",
+      "of": "5de978f5",
+      "at": [
+        "covenant-day:honors.adjacent[0].label",
+        "covenant-day:clusters.rows[3].name"
+      ]
+    },
+    {
+      "t": "একটি বাধ্যতামূলক Senior Capstone Project এবং McKnight Oratory বক্তৃতা-অনুষ্ঠান সোসাইটিগুলোর বাইরে স্কুলের নামযুক্ত একাডেমিক বৈশিষ্ট্য হিসেবে থাকে।",
+      "of": "0b6faf00",
+      "at": [
+        "covenant-day:honors.adjacent[0].text"
+      ]
+    },
+    {
+      "t": "Mock Trial",
+      "of": "1b3c6d97",
+      "at": [
+        "covenant-day:honors.adjacent[1].label",
+        "covenant-day:clusters.rows[0].name"
+      ]
+    },
+    {
+      "t": "Courtroom artist Cornelia Knight (Covenant Day Blue) তার আঞ্চলিক জিতেছেন এবং 2025 রাজ্য রানার-আপ হয়েছেন — এই ক্ষেত্রে সবচেয়ে ভালো-নথিভুক্ত রাজ্যব্যাপী ফলাফল।",
+      "of": "22b64cbf",
+      "at": [
+        "covenant-day:honors.adjacent[1].text"
+      ]
+    },
+    {
+      "t": "* চিহ্নিত এন্ট্রিগুলো একটি তৃতীয়-পক্ষের তালিকার (privateschoolreview.com) উপর নির্ভরশীল — স্কুল কোনো honor-society ডিরেক্টরি প্রকাশ করে না, তাই প্রতিটি সোসাইটির ডিভিশন, অন্তর্ভুক্তির শর্ত, সদস্যসংখ্যা ও ফ্যাকাল্টি পৃষ্ঠপোষক অপ্রকাশিত, এবং চারটি অ-আর্টস চ্যাপ্টার কোনো স্কুল-মালিকানাধীন পাতায় নিশ্চিত নয়।",
+      "of": "e1f75853",
+      "at": [
+        "covenant-day:honors.flags[0].text"
+      ]
+    },
+    {
+      "t": "একটি তালিকার নথিভুক্ত ন্যূনতম; Mock Trial-ই রাজ্যব্যাপী ফলাফল বহন করে।",
+      "of": "e3bf9817",
+      "at": [
+        "covenant-day:clusters.verdict"
+      ]
+    },
+    {
+      "t": "Courtroom artist: আঞ্চলিক চ্যাম্পিয়ন, 2025 NC রাজ্য রানার-আপ",
+      "of": "f81f86d3",
+      "at": [
+        "covenant-day:clusters.rows[0].oneLiner"
+      ]
+    },
+    {
+      "t": "যাচাইকৃত — NC Mock Trial",
+      "of": "1dc393f2",
+      "at": [
+        "covenant-day:clusters.rows[0].evidenceLabel"
+      ]
+    },
+    {
+      "t": "স্কুলের প্রধান প্রতিযোগিতামূলক ক্লাব, তার নিজস্ব হাই-স্কুল পাতায় নামযুক্ত। NC Mock Trial Program-এর রেকর্ডে একটি \"Covenant Day School Blue\" দল দেখা যায় — এই সাফিক্স একাধিক দলের ইঙ্গিত দেয় — এবং সেই দলের Cornelia Knight Hickory-তে courtroom-artist আঞ্চলিক জিতেছেন এবং 2025 State Champion Courtroom Artist রানার-আপ হয়েছেন।",
+      "of": "156669b5",
+      "at": [
+        "covenant-day:clusters.rows[0].note"
+      ]
+    },
+    {
+      "t": "Robotics (First Lego League), Junior FLL, Sustainability Engineering",
+      "of": "2f97025e",
+      "at": [
+        "covenant-day:clusters.rows[1].oneLiner"
+      ]
+    },
+    {
+      "t": "তৃতীয়-পক্ষের তালিকা",
+      "of": "dc411eb6",
+      "at": [
+        "covenant-day:clusters.rows[1].evidenceLabel",
+        "covenant-day:clusters.rows[2].evidenceLabel"
+      ]
+    },
+    {
+      "t": "দুটি স্তরে First Lego League রোবোটিক্স সাথে একটি Sustainability Engineering ক্লাব — স্কুলের Restoration & Sustainability বিভাগের ক্লাব-রূপ। প্রতিযোগিতার ফলাফল প্রকাশিত নয়।",
+      "of": "ab1fddeb",
+      "at": [
+        "covenant-day:clusters.rows[1].note"
+      ]
+    },
+    {
+      "t": "ভাষা ও সাহিত্য ক্লাব →",
+      "of": "18faca0f",
+      "at": [
+        "covenant-day:clusters.rows[2].name"
+      ]
+    },
+    {
+      "t": "Latin (JCL) Club, French Club, Book Club, Beta Club",
+      "of": "02ba05b2",
+      "at": [
+        "covenant-day:clusters.rows[2].oneLiner"
+      ]
+    },
+    {
+      "t": "ভাষা ক্লাবগুলো Latin ও French কোর্স ক্রমে যোগান দেয় (দুটোই level 4 সাথে AP Latin পর্যন্ত চলে)। চ্যাপ্টারের কার্যক্রম ও ইভেন্টের ফলাফল প্রকাশিত নয়।",
+      "of": "e31f8d14",
+      "at": [
+        "covenant-day:clusters.rows[2].note"
+      ]
+    },
+    {
+      "t": "Senior Capstone Project, McKnight Oratory",
+      "of": "1e6fc94a",
+      "at": [
+        "covenant-day:clusters.rows[3].oneLiner"
+      ]
+    },
+    {
+      "t": "বাধ্যতামূলক Senior Capstone Project ও McKnight Oratory বক্তৃতা-অনুষ্ঠান হলো স্কুলের নামযুক্ত একাডেমিক স্বাক্ষর — ক্লাব নয় বরং পাঠক্রমভিত্তিক মাইলফলক, এখানে রাখা হয়েছে কারণ এই স্কুলে একাডেমিক প্রতিযোগিতা এখানেই থাকে।",
+      "of": "dde42844",
+      "at": [
+        "covenant-day:clusters.rows[3].note"
+      ]
+    },
+    {
+      "t": "Upper School ক্লাব ও honor society-র একটি নথিভুক্ত ন্যূনতম — স্কুল কোনো ডিরেক্টরি প্রকাশ করে না, তাই পাবলিক উৎস যা নিশ্চিত করে তা-ই এটি।",
+      "of": "4c7dff30",
+      "at": [
+        "covenant-day:catalog.verdict"
+      ]
+    },
+    {
+      "t": "নথিভুক্ত সংগঠন",
+      "of": "41a31aa0",
+      "at": [
+        "covenant-day:catalog.countNoun"
+      ]
+    },
+    {
+      "t": "Honor",
+      "of": "d23688af",
+      "at": [
+        "covenant-day:catalog.categories[1].short"
+      ]
+    },
+    {
+      "t": "Spirit",
+      "of": "38825d08",
+      "at": [
+        "covenant-day:catalog.categories[2].short"
+      ]
+    },
+    {
+      "t": "Spirit / নেতৃত্ব",
+      "of": "2aa31f10",
+      "at": [
+        "covenant-day:catalog.categories[2].full"
+      ]
+    },
+    {
+      "t": "প্রধান — 2025 রাজ্য রানার-আপ courtroom artist",
+      "of": "5611b358",
+      "at": [
+        "covenant-day:catalog.clubs[0].note"
+      ]
+    },
+    {
+      "t": "FLL প্রতিযোগিতামূলক রোবোটিক্স",
+      "of": "0819f24f",
+      "at": [
+        "covenant-day:catalog.clubs[1].note"
+      ]
+    },
+    {
+      "t": "R&S বিভাগের ক্লাব-শাখা",
+      "of": "3ea44391",
+      "at": [
+        "covenant-day:catalog.clubs[2].note"
+      ]
+    },
+    {
+      "t": "Junior Classical League চ্যাপ্টার",
+      "of": "35171cbb",
+      "at": [
+        "covenant-day:catalog.clubs[3].note"
+      ]
+    },
+    {
+      "t": "ভাষা ক্লাব",
+      "of": "2816df49",
+      "at": [
+        "covenant-day:catalog.clubs[4].note"
+      ]
+    },
+    {
+      "t": "পঠন / সাহিত্য ক্লাব",
+      "of": "19c329fe",
+      "at": [
+        "covenant-day:catalog.clubs[5].note"
+      ]
+    },
+    {
+      "t": "জাতীয় একাডেমিক honor + সেবা সংগঠন",
+      "of": "24e171f3",
+      "at": [
+        "covenant-day:catalog.clubs[6].note"
+      ]
+    },
+    {
+      "t": "থিয়েটার honor society (স্কুল-নিশ্চিত)",
+      "of": "d53a2f55",
+      "at": [
+        "covenant-day:catalog.clubs[10].note"
+      ]
+    },
+    {
+      "t": "সংগীত honor society (স্কুল-নিশ্চিত)",
+      "of": "0d8ba44d",
+      "at": [
+        "covenant-day:catalog.clubs[11].note"
+      ]
+    },
+    {
+      "t": "শিক্ষার্থী spirit বিভাগ",
+      "of": "e1c23af7",
+      "at": [
+        "covenant-day:catalog.clubs[12].note"
+      ]
+    },
+    {
+      "t": "Junior First Lego League, MS Board Game Club, CDS Children’s Choir (গ্রেড 3–5), Goodness Gorillas (4র্থ-গ্রেডের সেবা কর্মসূচি), এবং Kanuga পঞ্চম-গ্রেড রিট্রিট।",
+      "of": "1add157d",
+      "at": [
+        "covenant-day:catalog.divisions[0].text"
+      ]
+    },
+    {
+      "t": "নথিভুক্ত",
+      "of": "986cb365",
+      "at": [
+        "covenant-day:catalog.divisions[0].tag"
+      ]
+    },
+    {
+      "t": "ক্লাব তালিকার বাইরে",
+      "of": "b8c68fde",
+      "at": [
+        "covenant-day:catalog.divisions[1].label",
+        "davidson-day:catalog.divisions[0].label"
+      ]
+    },
+    {
+      "t": "তৃতীয়-পক্ষের তালিকায় সশুল্ক enrichment (piano/guitar/voice lesson, painting), পাঠক্রমভিত্তিক ensemble (band, choir, theater, worship team), এবং boys volleyball — একটি ক্লাব খেলাও রয়েছে। সেগুলো উপরের গণনা থেকে বাদ। Restore525 একটি সেবা কর্মসূচি ও একটি ক্রেডিট-বহনকারী কোর্স, দুই হিসেবেই চলে।",
+      "of": "b8e1c64f",
+      "at": [
+        "covenant-day:catalog.divisions[1].text"
+      ]
+    },
+    {
+      "t": "ছেঁকে বাদ",
+      "of": "db60a076",
+      "at": [
+        "covenant-day:catalog.divisions[1].tag"
+      ]
+    },
+    {
       "t": "প্রতিটি ডিপ্লোমা স্বীকৃতির পেছনে 100 ঘণ্টার নিবিড় ব্যবহারিক অভিজ্ঞতা, এবং Davidson College-এর Deliberative Citizenship Initiative-এর সঙ্গে অংশীদার হওয়া ইতিহাসের প্রথম হাই স্কুল।",
       "of": "609e6f5e",
       "at": [
@@ -3531,13 +3976,6 @@
       "of": "90819560",
       "at": [
         "davidson-day:service.programs[2].detail"
-      ]
-    },
-    {
-      "t": "অংশীদার নেটওয়ার্ক",
-      "of": "51a13798",
-      "at": [
-        "davidson-day:service.footnoteTitle"
       ]
     },
     {
@@ -3700,13 +4138,6 @@
       "of": "b93b4380",
       "at": [
         "davidson-day:catalog.clubs[8].note"
-      ]
-    },
-    {
-      "t": "ক্লাব তালিকার বাইরে",
-      "of": "b8c68fde",
-      "at": [
-        "davidson-day:catalog.divisions[0].label"
       ]
     },
     {

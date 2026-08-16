@@ -11,6 +11,7 @@
         "charlotte-christian:title",
         "charlotte-country-day:title",
         "cannon:title",
+        "covenant-day:title",
         "davidson-day:title"
       ]
     },
@@ -31,6 +32,7 @@
         "charlotte-christian:framing[0].title",
         "charlotte-country-day:framing[0].title",
         "cannon:framing[0].title",
+        "covenant-day:framing[0].title",
         "davidson-day:framing[0].title"
       ]
     },
@@ -69,6 +71,7 @@
         "charlotte-christian:framing[2].title",
         "charlotte-country-day:framing[2].title",
         "cannon:framing[2].title",
+        "covenant-day:framing[2].title",
         "davidson-day:framing[2].title"
       ]
     },
@@ -128,7 +131,8 @@
       "of": "c2d451ca",
       "at": [
         "providence-day:sections[0].bands[2].label",
-        "charlotte-latin:sections[0].bands[1].label"
+        "charlotte-latin:sections[0].bands[1].label",
+        "covenant-day:sections[0].bands[1].label"
       ]
     },
     {
@@ -153,7 +157,7 @@
       ]
     },
     {
-      "t": "NOT PUBLISHED",
+      "t": "غير منشور",
       "of": "2ca9b134",
       "at": [
         "providence-day:sections[0].boxes[0].tag",
@@ -167,6 +171,8 @@
         "cannon:sections[0].boxes[0].tag",
         "cannon:sections[2].boxes[2].tag",
         "cannon:sections[3].boxes[1].tag",
+        "covenant-day:sections[2].boxes[1].tag",
+        "covenant-day:sections[4].boxes[0].tag",
         "davidson-day:sections[2].boxes[2].tag"
       ]
     },
@@ -397,6 +403,7 @@
         "charlotte-latin:sections[2].navTitle",
         "charlotte-country-day:sections[2].navTitle",
         "cannon:sections[2].navTitle",
+        "covenant-day:sections[2].navTitle",
         "davidson-day:sections[2].navTitle"
       ]
     },
@@ -459,6 +466,7 @@
         "providence-day:sections[2].timeline[3].when",
         "charlotte-country-day:sections[2].timeline[3].when",
         "cannon:sections[2].timeline[3].when",
+        "covenant-day:sections[2].timeline[3].when",
         "davidson-day:sections[2].timeline[3].when"
       ]
     },
@@ -763,6 +771,7 @@
         "charlotte-latin:sections[5].navTitle",
         "charlotte-country-day:sections[4].navTitle",
         "cannon:sections[4].navTitle",
+        "covenant-day:sections[5].navTitle",
         "davidson-day:sections[4].navTitle"
       ]
     },
@@ -783,7 +792,8 @@
         "providence-day:sections[5].plans[0].figure",
         "charlotte-christian:sections[4].plans[1].figure",
         "charlotte-country-day:sections[4].plans[1].figure",
-        "cannon:sections[4].plans[0].figure"
+        "cannon:sections[4].plans[0].figure",
+        "covenant-day:sections[5].plans[0].figure"
       ]
     },
     {
@@ -906,6 +916,7 @@
         "charlotte-christian:sections[5].navTitle",
         "charlotte-country-day:sections[5].navTitle",
         "cannon:sections[5].navTitle",
+        "covenant-day:sections[6].navTitle",
         "davidson-day:sections[5].navTitle"
       ]
     },
@@ -1076,6 +1087,7 @@
         "charlotte-christian:framing[0].body",
         "charlotte-country-day:framing[0].body",
         "cannon:framing[0].body",
+        "covenant-day:framing[0].body",
         "davidson-day:framing[0].body"
       ]
     },
@@ -1104,7 +1116,8 @@
       "t": "الصفوف 6–8",
       "of": "914e6250",
       "at": [
-        "charlotte-latin:sections[0].bands[2].label"
+        "charlotte-latin:sections[0].bands[2].label",
+        "covenant-day:sections[0].bands[2].label"
       ]
     },
     {
@@ -1114,7 +1127,8 @@
         "charlotte-latin:sections[0].bands[3].label",
         "charlotte-country-day:sections[0].bands[4].label",
         "cannon:sections[0].bands[4].label",
-        "cannon:sections[3].ranges[2].label"
+        "cannon:sections[3].ranges[2].label",
+        "covenant-day:sections[0].bands[3].label"
       ]
     },
     {
@@ -1936,7 +1950,8 @@
       "t": "الرسوم بحسب النطاق",
       "of": "098bc98f",
       "at": [
-        "charlotte-christian:sections[0].navTitle"
+        "charlotte-christian:sections[0].navTitle",
+        "covenant-day:sections[0].navTitle"
       ]
     },
     {
@@ -2017,6 +2032,7 @@
       "of": "09c013ce",
       "at": [
         "charlotte-christian:sections[1].navTitle",
+        "covenant-day:sections[1].navTitle",
         "davidson-day:sections[1].navTitle"
       ]
     },
@@ -2025,6 +2041,7 @@
       "of": "e742ffd4",
       "at": [
         "charlotte-christian:sections[1].title",
+        "covenant-day:sections[1].title",
         "davidson-day:sections[1].title"
       ]
     },
@@ -2424,7 +2441,8 @@
       "t": "$1,500",
       "of": "7634a7b9",
       "at": [
-        "charlotte-christian:sections[4].plans[0].figure"
+        "charlotte-christian:sections[4].plans[0].figure",
+        "covenant-day:sections[4].plans[0].figure"
       ]
     },
     {
@@ -3585,6 +3603,535 @@
       ]
     },
     {
+      "t": "العام الدراسي 2026–27 · الأرقام حتى 15 Aug 2026",
+      "of": "47d9e49a",
+      "at": [
+        "covenant-day:meta"
+      ]
+    },
+    {
+      "t": "سنتان حيّتان في آنٍ واحد.",
+      "of": "ab877c57",
+      "at": [
+        "covenant-day:framing[1].title"
+      ]
+    },
+    {
+      "t": "يُظهر جدول الموقع 2026–27 بينما يُظهر ملفّ شروط الدفع المرتبط 2025–26. وكل رقم هنا يسمّي عامه؛ ويتصدّر التقرير 2026–27.",
+      "of": "6e7cbdf9",
+      "at": [
+        "covenant-day:framing[1].body"
+      ]
+    },
+    {
+      "t": "مساعدة دراسية أثناء الالتحاق — لا مساعدة جامعية. وليست نصيحة مالية.",
+      "of": "e6f51e0f",
+      "at": [
+        "covenant-day:framing[2].body",
+        "davidson-day:framing[2].body"
+      ]
+    },
+    {
+      "t": "الرسوم بحسب المستوى الصفّي",
+      "of": "3e0b286d",
+      "at": [
+        "covenant-day:sections[0].title",
+        "davidson-day:sections[0].title"
+      ]
+    },
+    {
+      "t": "الرسوم المنشورة بحسب نطاق الصفوف — أدنى سعر أعلى في هذه المقارنة",
+      "of": "a44f57bc",
+      "at": [
+        "covenant-day:sections[0].figureCaption"
+      ]
+    },
+    {
+      "t": "JK & K",
+      "of": "b01d7771",
+      "at": [
+        "covenant-day:sections[0].bands[0].label"
+      ]
+    },
+    {
+      "t": "أربعة نطاقات من رياض الأطفال الصغرى حتى الصف 12، بفارق $7,300. وكانت الزيادة عن 2025–26 ثابتة عند $1,200 في كل نطاق — زيادة بالدولار لا بالنسبة المئوية، ولهذا يُظهر أصغر نطاق أشدّ تغيّر نسبي.",
+      "of": "d75b28fb",
+      "at": [
+        "covenant-day:sections[0].figureNote"
+      ]
+    },
+    {
+      "t": "تذكر المدرسة ما تشمله الرسوم — حواسيب/أجهزة iPad في الحرم، ونفقات التقنية، وخلوات المدرسة والرحلات الميدانية المطلوبة، ورسوم مختبر العلوم والمواد الاختيارية، ومعظم النفقات الرياضية — قائمة شمول لا ينشرها عدّة أقران.",
+      "of": "b8e82882",
+      "at": [
+        "covenant-day:sections[0].figureNote2"
+      ]
+    },
+    {
+      "t": "قائمة قصيرة، أغلبها مسعّر",
+      "of": "0e601a1a",
+      "at": [
+        "covenant-day:sections[1].componentsTitle"
+      ]
+    },
+    {
+      "t": "وديعة التسجيل · $1,000، تُحتسب من الرسوم",
+      "of": "eb5e15b2",
+      "at": [
+        "covenant-day:sections[1].components[0].label"
+      ]
+    },
+    {
+      "t": "رسم خطة FACTS الشهرية · $50/yr",
+      "of": "e672f5c7",
+      "at": [
+        "covenant-day:sections[1].components[1].label"
+      ]
+    },
+    {
+      "t": "رسم معالجة البطاقة · 3.05% من الدفعة",
+      "of": "69e6ca60",
+      "at": [
+        "covenant-day:sections[1].components[2].label"
+      ]
+    },
+    {
+      "t": "اليوم الممتدّ (JK–8) · $58–$248/mo لكل دورة",
+      "of": "78e3b262",
+      "at": [
+        "covenant-day:sections[1].components[3].label"
+      ]
+    },
+    {
+      "t": "حاسوب محمول، الصفوف 9–12 · أحضِر جهازك",
+      "of": "b2aae508",
+      "at": [
+        "covenant-day:sections[1].components[4].label"
+      ]
+    },
+    {
+      "t": "دروس خصوصية / اختبارات خاصة خارج المساعدة الصفّية",
+      "of": "4f7152a4",
+      "at": [
+        "covenant-day:sections[1].components[5].label"
+      ]
+    },
+    {
+      "t": "الزيّ الموحّد (JK–8) / قواعد لباس المرحلة الثانوية",
+      "of": "e05b842c",
+      "at": [
+        "covenant-day:sections[1].components[6].label"
+      ]
+    },
+    {
+      "t": "قائمة الشمول تؤدّي عملًا حقيقيًّا هنا: الخلوات، والرحلات الميدانية المطلوبة، ورسوم المختبر والمواد الاختيارية، ومعظم النفقات الرياضية تقع داخل الرسوم، فالإضافات المسعّرة قليلة فعلًا. والصفوف 9–12 عليها توفير حاسوب محمول يطابق مواصفات المدرسة.",
+      "of": "68dc28f7",
+      "at": [
+        "covenant-day:sections[1].componentsNote"
+      ]
+    },
+    {
+      "t": "الوديعة مراعية للمساعدة",
+      "of": "4cae32af",
+      "at": [
+        "covenant-day:sections[1].boxes[0].title"
+      ]
+    },
+    {
+      "t": "وديعة الطالب البالغة $1,000 غير قابلة للاسترداد وتُحتسب من الرسوم — والأسر التي تقدّم طلب مساعدة مكتملًا قبل التسجيل يجوز لها أن تطلب من مكتب الأعمال **خفضها إلى النصف** ريثما يُنظَر في الطلب. أما انتظار قرار المساعدة دون دفع الوديعة فيعني عدم حجز مقعد.",
+      "of": "8445b947",
+      "at": [
+        "covenant-day:sections[1].boxes[0].body"
+      ]
+    },
+    {
+      "t": "عملية المساعدة والجدول الزمني",
+      "of": "690355d8",
+      "at": [
+        "covenant-day:sections[2].title",
+        "davidson-day:sections[2].title"
+      ]
+    },
+    {
+      "t": "مع القبول",
+      "of": "baedc1a0",
+      "at": [
+        "covenant-day:sections[2].timeline[0].when"
+      ]
+    },
+    {
+      "t": "تقدّم الأسر طلب المساعدة **بالتزامن مع طلب القبول**، عبر FACTS — المنصّة نفسها التي تدير فوترة الرسوم",
+      "of": "b8762ba7",
+      "at": [
+        "covenant-day:sections[2].timeline[0].detail"
+      ]
+    },
+    {
+      "t": "شرط مسبق",
+      "of": "30a573d3",
+      "at": [
+        "covenant-day:sections[2].timeline[1].when"
+      ]
+    },
+    {
+      "t": "إثبات التقدّم لـ **NC Opportunity Scholarship** إلزامي قبل النظر في أي مساعدة من CDS — بوابة صارمة لا تفرضها أي مدرسة قرينة هنا",
+      "of": "f72e805a",
+      "at": [
+        "covenant-day:sections[2].timeline[1].detail"
+      ]
+    },
+    {
+      "t": "عند الاكتمال",
+      "of": "c9d5c23e",
+      "at": [
+        "covenant-day:sections[2].timeline[2].when"
+      ]
+    },
+    {
+      "t": "تُبلَّغ القرارات فقط متى اكتمل الطلب، بما في ذلك جميع المستندات الداعمة",
+      "of": "cea405d7",
+      "at": [
+        "covenant-day:sections[2].timeline[2].detail"
+      ]
+    },
+    {
+      "t": "لا منحة متعدّدة السنوات — تقدّم الأسر طلبًا جديدًا كل سنة",
+      "of": "7f386677",
+      "at": [
+        "covenant-day:sections[2].timeline[3].detail"
+      ]
+    },
+    {
+      "t": "المنصّة والنطاق",
+      "of": "736758b4",
+      "at": [
+        "covenant-day:sections[2].boxes[0].title"
+      ]
+    },
+    {
+      "t": "تدير **FACTS** تقييم الحاجة السرّي. والمساعدة قائمة على الحاجة فقط، ولا يجوز التقدّم إلا للطرف المسؤول عن دفع الرسوم. للتواصل: Christen Marshall، منسّقة حسابات الطلاب، 704-708-6102.",
+      "of": "23d6f76d",
+      "at": [
+        "covenant-day:sections[2].boxes[0].body"
+      ]
+    },
+    {
+      "t": "لا تاريخ نهائي للمساعدة، ولا جدول زمني للقرارات، ولا آلية استئناف، ولا سياسة لسقف المنحة في السجلّ العام. ورسم طلب FACTS، إن وُجد، غير مذكور أيضًا.",
+      "of": "5f12ecc0",
+      "at": [
+        "covenant-day:sections[2].boxes[1].body"
+      ]
+    },
+    {
+      "t": "المساعدة بالأرقام",
+      "of": "bd1cf4c6",
+      "at": [
+        "covenant-day:sections[3].navTitle"
+      ]
+    },
+    {
+      "t": "ما تُفصح عنه الأرقام",
+      "of": "d9be712e",
+      "at": [
+        "covenant-day:sections[3].title"
+      ]
+    },
+    {
+      "t": "من الطلاب على مساعدة — رقم طرف ثالث فقط",
+      "of": "e248fc59",
+      "at": [
+        "covenant-day:sections[3].stats[0].label"
+      ]
+    },
+    {
+      "t": "خدمة كنسية — معفاة من الإيداع لدى IRS",
+      "of": "fd45ab9c",
+      "at": [
+        "covenant-day:sections[3].stats[1].label"
+      ]
+    },
+    {
+      "t": "إجماليات مساعدة أو متوسّطات أو ميزانيات منشورة",
+      "of": "e75ea3c1",
+      "at": [
+        "covenant-day:sections[3].stats[2].label"
+      ]
+    },
+    {
+      "t": "حصّة الـ ~20% تأتي من مجمّعات (PrivateSchoolReview وschooltuitions.org)؛ والمدرسة نفسها لا تنشر نسبة مئوية، ولا إجمالي ممنوح، ولا متوسّط منحة.",
+      "of": "99fcdce6",
+      "at": [
+        "covenant-day:sections[3].figureNote"
+      ]
+    },
+    {
+      "t": "غير منشور — وغير قابل للاسترجاع",
+      "of": "98106920",
+      "at": [
+        "covenant-day:sections[3].boxes[0].tag"
+      ]
+    },
+    {
+      "t": "Covenant Day خدمة تابعة لـ Christ Covenant Church (PCA)، وتصنّفها IRS **منظّمة دينية غير مطالَبة بإيداع Form 990** (EIN 56-1656570، معفاة منذ 1989). ويؤكّد Nonprofit Explorer لدى ProPublica عدم وجود أي إيداع. وكل مدرسة أخرى في هذا المشروع مودِعة للنموذج 990 يمكن مطابقة إجماليات مساعدتها بإقرارها — أما هنا فلا **إيداع لمطابقته**، فالفجوة بنيوية لا صفحة تنتظر أن تُكتَشف.",
+      "of": "07e003e5",
+      "at": [
+        "covenant-day:sections[3].boxes[0].body"
+      ]
+    },
+    {
+      "t": "الخصومات والمساعدة الحكومية",
+      "of": "e6a0f3f2",
+      "at": [
+        "covenant-day:sections[4].navTitle"
+      ]
+    },
+    {
+      "t": "الاستحقاق والخصومات والمنح الحكومية",
+      "of": "622789d6",
+      "at": [
+        "covenant-day:sections[4].title"
+      ]
+    },
+    {
+      "t": "كل مساعدة مدرسية قائمة على الحاجة",
+      "of": "6b98e954",
+      "at": [
+        "covenant-day:sections[4].tag"
+      ]
+    },
+    {
+      "t": "خصم تعدّد الأبناء",
+      "of": "7c2c9ac8",
+      "at": [
+        "covenant-day:sections[4].plans[0].label"
+      ]
+    },
+    {
+      "t": "خصم من الرسوم عن **الطالب الثالث وكل طالب إضافي** من الأسرة نفسها، يُطبَّق على الأبناء في الصفوف الأدنى. والأسر ذات الطفلين لا تحصل على شيء.",
+      "of": "cf11a53f",
+      "at": [
+        "covenant-day:sections[4].plans[0].detail"
+      ]
+    },
+    {
+      "t": "$400",
+      "of": "513ce48d",
+      "at": [
+        "covenant-day:sections[4].plans[1].figure"
+      ]
+    },
+    {
+      "t": "خصم عضوية Christ Covenant Church",
+      "of": "7601051e",
+      "at": [
+        "covenant-day:sections[4].plans[1].label"
+      ]
+    },
+    {
+      "t": "لكل طالب مسجّل، لأعضاء الكنيسة الراعية — تُؤكَّد العضوية أثناء التسجيل الإلكتروني، بموعد نهائي في February 1 للأهلية طوال السنة.",
+      "of": "8daf0b5b",
+      "at": [
+        "covenant-day:sections[4].plans[1].detail"
+      ]
+    },
+    {
+      "t": "NC",
+      "of": "35e678d6",
+      "at": [
+        "covenant-day:sections[4].plans[2].figure"
+      ]
+    },
+    {
+      "t": "Opportunity Scholarship + ESA+",
+      "of": "755390d9",
+      "at": [
+        "covenant-day:sections[4].plans[2].label"
+      ]
+    },
+    {
+      "t": "تقبل المدرسة كلا البرنامجين اللذين تديرهما NCSEAA — والتقدّم لـ Opportunity Scholarship **شرط مسبق** لمساعدة CDS، فالمساعدة الحكومية هي الطبقة الأولى المصمَّمة في كل حزمة.",
+      "of": "3ebfb56c",
+      "at": [
+        "covenant-day:sections[4].plans[2].detail"
+      ]
+    },
+    {
+      "t": "لا منح استحقاق في السجلّ العام — فالمساعدة قائمة على الحاجة فقط. ولا خصم أشقاء قبل الطفل الثالث، ولا خصم عسكري أو ديني، ولا سياسة إعفاء للموظّفين منشورة.",
+      "of": "c8751142",
+      "at": [
+        "covenant-day:sections[4].boxes[0].body"
+      ]
+    },
+    {
+      "t": "خطط الدفع وشروط العقد",
+      "of": "7e5b3eac",
+      "at": [
+        "covenant-day:sections[5].title",
+        "davidson-day:sections[4].title"
+      ]
+    },
+    {
+      "t": "الخطة السنوية",
+      "of": "442308c5",
+      "at": [
+        "covenant-day:sections[5].plans[0].label"
+      ]
+    },
+    {
+      "t": "كامل الرصيد مستحقّ بحلول **May 1** السابق للعام الدراسي. ولا خصم دفع مسبق منشور.",
+      "of": "d81f21dc",
+      "at": [
+        "covenant-day:sections[5].plans[0].detail"
+      ]
+    },
+    {
+      "t": "9×",
+      "of": "eafe64d9",
+      "at": [
+        "covenant-day:sections[5].plans[1].figure"
+      ]
+    },
+    {
+      "t": "الخطة الشهرية (FACTS)",
+      "of": "28896c7b",
+      "at": [
+        "covenant-day:sections[5].plans[1].label"
+      ]
+    },
+    {
+      "t": "تسعة أقساط متساوية، **من May حتى January**، بخصم تلقائي في الخامس أو العشرين — إضافةً إلى رسم FACTS قدره $50/year. لاحظ الموسم: تبدأ الدفعات قبل أربعة أشهر من بدء الدراسة.",
+      "of": "e99f8921",
+      "at": [
+        "covenant-day:sections[5].plans[1].detail"
+      ]
+    },
+    {
+      "t": "3.05%",
+      "of": "9bb9f1aa",
+      "at": [
+        "covenant-day:sections[5].plans[2].figure"
+      ]
+    },
+    {
+      "t": "رسم البطاقة الإضافي",
+      "of": "29880099",
+      "at": [
+        "covenant-day:sections[5].plans[2].label"
+      ]
+    },
+    {
+      "t": "مدفوعات الخصم/الائتمان تتحمّل رسم معالج قدره 3.05%؛ والحوالات البنكية تتفاداه. وعلى رسوم قدرها $22,790 يبلغ ذلك نحو $695.",
+      "of": "3ecab72f",
+      "at": [
+        "covenant-day:sections[5].plans[2].detail"
+      ]
+    },
+    {
+      "t": "العاشر",
+      "of": "61efd168",
+      "at": [
+        "covenant-day:sections[5].plans[3].figure"
+      ]
+    },
+    {
+      "t": "موعد الانسحاب النهائي",
+      "of": "09449783",
+      "at": [
+        "covenant-day:sections[5].plans[3].label"
+      ]
+    },
+    {
+      "t": "يجب أن يكون الانسحاب رسميًّا بحلول العاشر من الشهر لتخطّي قسط ذلك الشهر؛ والاستردادات تساوي الأقساط التي لم يمرّ تاريخ استحقاقها. والأسر على الخطة الشهرية المنتظمة في دفعاتها لا تحصل على استرداد ولا تدين بالمزيد.",
+      "of": "f87d5f23",
+      "at": [
+        "covenant-day:sections[5].plans[3].detail"
+      ]
+    },
+    {
+      "t": "الحسابات غير المنتظمة",
+      "of": "e9664408",
+      "at": [
+        "covenant-day:sections[5].boxes[0].title"
+      ]
+    },
+    {
+      "t": "الحسابات المتأخّرة أكثر من 30 يومًا يمكن أن توقف إعادة التسجيل، وبطاقات الدرجات، وإصدار كشف الدرجات — والوصول إلى الحصص. وبند قوة قاهرة معتاد يُبقي التزامات الرسوم قائمة خلال الإغلاقات.",
+      "of": "7d101a4f",
+      "at": [
+        "covenant-day:sections[5].boxes[0].body"
+      ]
+    },
+    {
+      "t": "الاتجاه، وما ينبغي السؤال عنه",
+      "of": "ddf5a036",
+      "at": [
+        "covenant-day:sections[6].title"
+      ]
+    },
+    {
+      "t": "زيادة ثابتة في كل نطاق، 2025–26 → 2026–27",
+      "of": "d2ecb683",
+      "at": [
+        "covenant-day:sections[6].stats[0].label"
+      ]
+    },
+    {
+      "t": "النطاق الأعلى — أدنى رسوم عليا في هذه المقارنة",
+      "of": "70a1af95",
+      "at": [
+        "covenant-day:sections[6].stats[1].label"
+      ]
+    },
+    {
+      "t": "من الأسعار المنشورة (الموقع + ملفّ الشروط)",
+      "of": "236fb2d1",
+      "at": [
+        "covenant-day:sections[6].stats[2].label"
+      ]
+    },
+    {
+      "t": "أسئلة لا يستطيع السجلّ العام الإجابة عنها",
+      "of": "b608282c",
+      "at": [
+        "covenant-day:sections[6].questionsTitle"
+      ]
+    },
+    {
+      "t": "ما حصّة الأسر التي تتلقّى مساعدة، وما متوسّط المنحة؟ (رقم الـ ~20% من طرف ثالث.)",
+      "of": "c63baba4",
+      "at": [
+        "covenant-day:sections[6].questions[0]"
+      ]
+    },
+    {
+      "t": "ما الموعد النهائي لطلب المساعدة، ومتى تُصدَر القرارات نسبةً إلى عقود التسجيل؟",
+      "of": "51da8062",
+      "at": [
+        "covenant-day:sections[6].questions[1]"
+      ]
+    },
+    {
+      "t": "كيف يتفاعل طلب NC Opportunity Scholarship الإلزامي مع مساعدة CDS للأسر فوق سقف دخل الولاية؟",
+      "of": "adf1ebc4",
+      "at": [
+        "covenant-day:sections[6].questions[2]"
+      ]
+    },
+    {
+      "t": "هل توجد آلية استئناف أو تغيير ظروف في منتصف السنة؟",
+      "of": "d1ee59df",
+      "at": [
+        "covenant-day:sections[6].questions[3]"
+      ]
+    },
+    {
+      "t": "هل كانت زيادة الـ $1,200 الثابتة خيار سنة واحدة أم النمط القائم؟",
+      "of": "22306959",
+      "at": [
+        "covenant-day:sections[6].questions[4]"
+      ]
+    },
+    {
       "t": "العام الدراسي 2026–27 · الأرقام حتى 22 يوليو 2026",
       "of": "6f9ac510",
       "at": [
@@ -3599,24 +4146,10 @@
       ]
     },
     {
-      "t": "مساعدة دراسية أثناء الالتحاق — لا مساعدة جامعية. وليست نصيحة مالية.",
-      "of": "e6f51e0f",
-      "at": [
-        "davidson-day:framing[2].body"
-      ]
-    },
-    {
       "t": "الرسوم بحسب المرحلة",
       "of": "60483d8b",
       "at": [
         "davidson-day:sections[0].navTitle"
-      ]
-    },
-    {
-      "t": "الرسوم بحسب المستوى الصفّي",
-      "of": "3e0b286d",
-      "at": [
-        "davidson-day:sections[0].title"
       ]
     },
     {
@@ -3781,13 +4314,6 @@
       ]
     },
     {
-      "t": "عملية المساعدة والجدول الزمني",
-      "of": "690355d8",
-      "at": [
-        "davidson-day:sections[2].title"
-      ]
-    },
-    {
       "t": "15 فبراير",
       "of": "860084f6",
       "at": [
@@ -3939,13 +4465,6 @@
       "of": "e1c9fd17",
       "at": [
         "davidson-day:sections[3].boxes[1].body"
-      ]
-    },
-    {
-      "t": "خطط الدفع وشروط العقد",
-      "of": "7e5b3eac",
-      "at": [
-        "davidson-day:sections[4].title"
       ]
     },
     {
