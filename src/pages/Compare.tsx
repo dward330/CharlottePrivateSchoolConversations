@@ -39,9 +39,14 @@ function CheckIcon() {
 
 /* Numeric reading of a display value ("17" -> 17, "6:00 PM" -> 6, null -> null)
    used only to pick the row's standout cell. */
-function numericOf(v: string | null | undefined): number | null {
+function numericOf(v: string | null | undefined, ratio = false): number | null {
   if (v == null) return null
-  const n = parseFloat(v.replace(/[^0-9.-]/g, ''))
+  // A ratio ("28:1", "~47:1") compares on its LEFT side. Stripping the colon
+  // instead would concatenate the digits — "28:1" reads 281, which happens to
+  // order correctly only while every value is two digits over 1, and would rank
+  // "~100:1" (1001) as lighter than "~23:1" (231).
+  const text = ratio ? (v.split(':')[0] ?? v) : v
+  const n = parseFloat(text.replace(/[^0-9.-]/g, ''))
   return Number.isFinite(n) ? n : null
 }
 
@@ -165,13 +170,14 @@ export function Compare({ topic, schools }: Props) {
                   </tr>
                   {valueMetrics.map((vm) => {
                     // Highlight the best value only when there's a real spread.
-                    const nums = cols.map((s) => numericOf(vm.values[s.slug]))
-                    const present = nums.filter((n): n is number => n != null)
                     // `noLead` rows opt out entirely — on a cost row the highest
-                    // value is the worst one, so tinting it would read as a win.
-                    const max =
+                    // value is the worst one, so tinting it would read as a win —
+                    // and `lowerIsBetter` rows invert which end wins.
+                    const nums = cols.map((s) => numericOf(vm.values[s.slug], vm.lowerIsBetter))
+                    const present = nums.filter((n): n is number => n != null)
+                    const best =
                       !vm.noLead && cols.length > 1 && present.length > 1 && Math.min(...present) !== Math.max(...present)
-                        ? Math.max(...present)
+                        ? (vm.lowerIsBetter ? Math.min(...present) : Math.max(...present))
                         : null
                     return (
                       <tr key={vm.key} className="value-row">
@@ -182,7 +188,7 @@ export function Compare({ topic, schools }: Props) {
                         {cols.map((s, i) => {
                           const v = vm.values[s.slug] ?? null
                           const sub = vm.subs?.[s.slug] ?? null
-                          const lead = max != null && nums[i] === max
+                          const lead = best != null && nums[i] === best
                           return (
                             <td
                               key={s.slug}

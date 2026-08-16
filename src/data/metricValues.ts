@@ -55,6 +55,14 @@ export type ValueMetric = {
    * metric whose highest value is not its best value.
    */
   noLead?: boolean
+  /**
+   * Tint the LOWEST value as the leader instead of the highest.
+   *
+   * For a row where less is better — seniors per counselor, where the note
+   * itself says "a lower ratio means more counselor time per student". Ignored
+   * when `noLead` is set, since that suppresses the tint entirely.
+   */
+  lowerIsBetter?: boolean
   /** Optional per-school provenance. Only cells needing a caveat appear here. */
   quals?: Record<string, CellQual>
 }
@@ -304,6 +312,9 @@ export const VALUE_METRICS: ValueMetric[] = [
     key: 'counselor-caseload',
     label: 'Seniors per counselor',
     note: 'Approximate seniors per dedicated college counselor at peak application season, from each school’s note.',
+    // The lightest caseload wins: a lower ratio means more counselor time per
+    // student, as every one of this row's tooltips says.
+    lowerIsBetter: true,
     values: {
       cannon: '28:1', // 111 seniors ÷ 4 counselors
       'charlotte-christian': '~47:1', // effective caseload ~47 seniors/counselor
