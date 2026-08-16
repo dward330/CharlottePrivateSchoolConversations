@@ -1,11 +1,11 @@
 ---
 name: aftercare-cost
 title: Compare row — cost of after-school care at each school's priciest published tier
-status: english-done
+status: implemented
 phases: 2
 created: 2026-08-15
 branch: feat/aftercare-cost
-prs: []
+prs: [119]
 ---
 
 # Compare row — cost of after-school care
@@ -387,3 +387,71 @@ conditional ingest path and are expected to be untouched in the normal case.
 - **Is 10 months the right annualizing assumption?** No school publishes its billing-month count;
   10 (Aug–May) matches a typical academic year. **Default:** use 10, state it as an assumption in
   every tooltip that relies on it.
+
+## Implementation notes
+
+Shipped in [#119](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/119),
+both phases. Three deviations from the plan, all worth recording.
+
+### 1. The headline decision was REVERSED mid-build, at the user's request
+
+The plan's central decision — *"Headline = the school's own published figure; annualized
+estimate goes in the tooltip"* — did not survive the Phase 1 review. Seeing it rendered, the
+user asked for **the monthly amount with the annualized figure directly below it**, per school.
+
+That request collides with the char-for-char figure rule for exactly two cells: Cannon
+publishes only an annual `$3,784` and Latin only a per-semester `$4,650`, so a monthly
+headline for those two must be *derived*. The user was offered both honest readings — lead
+with each school's own unit (headline unit varies), or lead with monthly everywhere (two
+derived figures) — and **chose monthly-on-top for all five**, so the row scans in one unit.
+
+Resolution: a `≈` marks whichever figure was converted, and it falls on **different lines per
+school** — Cannon's and Latin's *monthly* numbers are derived, the other three schools'
+*yearly* totals are. Every cell therefore carries one published figure and one conversion, and
+the tooltips name the published price outright ("Latin bills per semester, $4,650 twice a
+year — the monthly figure above is that $9,300 spread over 10 months, not a rate the school
+quotes"). The plan's underlying principle survives; only its presentation changed.
+
+### 2. It needed a component change the plan said it would not
+
+*Files touched* claimed "no component, style, locale-catalog, or script changes", which was
+true of the plan's design but not of the two-line format. Cells rendered a single value, so
+this added an optional `subs` map to `ValueMetric`, rendered in `Compare.tsx` through
+`localizeMoneyText()` on **both** the qualified and unqualified paths, plus a `.mark-sub`
+style. `check:money` passes on the new render site — worth confirming given that script exists
+because three paths were once found bypassing that call.
+
+Phase 2 then needed a **script** change too: `subs` required the same per-slug prose overrides
+in `i18n_fields.mjs` that `values` already carries. Same shape, same reason — a field whose
+values look like bare figures but carry a unit word (`/mo`) a reader actually reads.
+
+### 3. Two defects found in Phase 2, neither caught by an existing check
+
+- **Bangla numerals.** Three strings shipped years and percentages in Bengali digits
+  (`২০২৬–২৭`, `৩২–৫২%`). `bn` is in `FIGURE_SAFE_NUMBERS` for *digits*, so the data stores
+  Western digits and the render layer converts — every other shipped `bn` string already did.
+  Caught by `check_figures.py`, which is why the plan was right to require both figure checks.
+- **The leading `≈` fell outside the bidi isolate**, so RTL reordered it to the trailing edge:
+  `≈$378/mo` rendered `$378/ماه≈` in Farsi, reading as a trailing symbol rather than "about".
+  Fixed in `localizeMoneyText()` by capturing an optional `≈` into the isolated run. This is a
+  **new instance of the repo's oldest pattern** — a bidi-neutral character that no source-level
+  check can see, found only by looking at the rendered page. The plan's Risks table anticipated
+  the `/mo` suffix breaking `localizeMoneyText()`; the actual break was the `≈` beside it.
+
+### Confirmed as planned
+
+Step 8 resolved to the **"nothing moved"** branch: all five headline figures and Davidson Day's
+`null` were unchanged on re-verification, so no source-material or ingest work was done and the
+generated layers are untouched. Christian's packet was read as PDF pages, not extracted text,
+and its misleading `2025-26…` filename did not mislead.
+
+### Left undone, deliberately
+
+- **The `lead` tint still highlights the most expensive school** as "winner" — pre-existing,
+  identical on `top-tuition`, out of scope per the plan. It now at least compares like with
+  like, since every value in the row is monthly.
+- **`check:live` does not cover this layer at all.** `metric-values` is absent from its
+  `TOPICS` map, so all 324 of its entries count as unresolvable in the unscoped run
+  (2,909 → 2,927 across this change; pre-existing on `main`). `check:runtime` is what actually
+  validates these overlays and it passes clean. Flagged rather than fixed — widening that map
+  is its own change.
