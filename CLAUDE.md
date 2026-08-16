@@ -91,9 +91,23 @@ school's Compare fill rate and research-area count and derives the floor from th
 As of 2026-08-15 that is Davidson Day — 17/30 Compare rows (**56%**), 7 of 8 areas, and no
 Summer Programs material at all. The gate is **≥17 of 30 Compare rows and ≥6 of 8 areas**,
 compared inclusively: exactly 17/30 passes, 16/30 does not. Counted in **rows, not rounded
-percentages** — each row moves the figure ~3.3 points. Per area, a candidate is judged
-against the card keys **5–6 of 6** existing schools hold, never against every key that
-exists — `the-arts :: courses` sits at 1/6, so its absence is not a gap.
+percentages** — each row moves the figure ~3.3 points. **Each research area also gets its
+own coverage percentage** against the same 56%, pooled across its core prose cards,
+structured-card field sets and Compare rows, so an area reads against the roster floor
+directly. Per area, a candidate is judged against the card keys **5–6 of 6** existing
+schools hold, never against every key that exists — `the-arts :: courses` sits at 1/6, so
+its absence is not a gap.
+
+**An area under 56% is not dropped — it is offered a deeper look.** The step-3 sweep is
+deliberately shallow, so a low score conflates *the data is not published* with *one quick
+pass did not find it*, and deciding include-or-omit on that ambiguity decides on bad
+information. The per-area walk therefore offers **dig deeper / include as-is / omit**, and
+a deep pass goes past the school's own site (state athletic association, NCES, Form 990,
+archived pages, local press). A deep pass that finds nothing is a **useful** result: it
+converts a *not-found* into a confirmed `null`, which is what `/implement` and
+`check:metrics` need — and it is reported, never softened. The same option is offered
+school-wide before a no-go, since a school rejected on a shallow sweep that would have
+cleared the bar is the one mistake this skill can make that never gets discovered.
 
 Three properties are deliberate: the floor is a **real school rather than a round number**;
 the roster fill rates it derives from reflect **research effort already spent**, so the
