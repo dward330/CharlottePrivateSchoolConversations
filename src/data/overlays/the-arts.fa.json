@@ -140,6 +140,7 @@
         "charlotte-christian:ladder.divisions[2].grades",
         "charlotte-country-day:ladder.divisions[2].grades",
         "cannon:ladder.divisions[2].grades",
+        "covenant-day:ladder.divisions[2].grades",
         "davidson-day:ladder.divisions[2].grades"
       ]
     },
@@ -294,7 +295,8 @@
         "providence-day:visual.exhibits[2].when",
         "charlotte-latin:theatre.season[1].season",
         "charlotte-christian:visual.exhibits[0].when",
-        "charlotte-country-day:theatre.season[2].season"
+        "charlotte-country-day:theatre.season[2].season",
+        "covenant-day:visual.exhibits[1].when"
       ]
     },
     {
@@ -1306,7 +1308,8 @@
       "t": "مارس",
       "of": "c0846390",
       "at": [
-        "charlotte-latin:visual.exhibits[1].when"
+        "charlotte-latin:visual.exhibits[1].when",
+        "covenant-day:theatre.season[1].season"
       ]
     },
     {
@@ -1320,7 +1323,8 @@
       "t": "آوریل",
       "of": "98dbac97",
       "at": [
-        "charlotte-latin:visual.exhibits[2].when"
+        "charlotte-latin:visual.exhibits[2].when",
+        "covenant-day:theatre.season[2].season"
       ]
     },
     {
@@ -1959,7 +1963,8 @@
       "t": "در تمام سال",
       "of": "d3e50e09",
       "at": [
-        "charlotte-christian:visual.exhibits[1].when"
+        "charlotte-christian:visual.exhibits[1].when",
+        "covenant-day:theatre.season[3].season"
       ]
     },
     {
@@ -1973,7 +1978,8 @@
       "t": "منطقه‌ای",
       "of": "a7aff008",
       "at": [
-        "charlotte-christian:visual.exhibits[2].when"
+        "charlotte-christian:visual.exhibits[2].when",
+        "covenant-day:visual.exhibits[2].when"
       ]
     },
     {
@@ -1987,7 +1993,8 @@
       "t": "کشوری",
       "of": "746c84f7",
       "at": [
-        "charlotte-christian:visual.exhibits[3].when"
+        "charlotte-christian:visual.exhibits[3].when",
+        "covenant-day:visual.exhibits[3].when"
       ]
     },
     {
@@ -3622,6 +3629,601 @@
       "of": "26ddf6e6",
       "at": [
         "cannon:verdict.ask[7]"
+      ]
+    },
+    {
+      "t": "نردبانی از JK تا 12 با ستون فقرات موسیقی پرستشی: هنر از پیش‌دبستانی کوچک ادغام‌شده، از پایهٔ 1 مرحله‌ای، و گروه‌ها از پایهٔ 6.",
+      "of": "14f38ef8",
+      "at": [
+        "covenant-day:ladder.headline"
+      ]
+    },
+    {
+      "t": "برای فارغ‌التحصیلی یک واحد Fine Arts لازم است، و گروه‌های پرستشی هم در Middle School و هم در High School فعال‌اند — پله‌ای که هیچ مدرسهٔ دیگری اینجا ندارد.",
+      "of": "579a82e1",
+      "at": [
+        "covenant-day:ladder.subhead"
+      ]
+    },
+    {
+      "t": "گسترهٔ برنامه",
+      "of": "04d999f5",
+      "at": [
+        "covenant-day:ladder.stats[0].label"
+      ]
+    },
+    {
+      "t": "گروه‌های نام‌برده",
+      "of": "56e0a872",
+      "at": [
+        "covenant-day:ladder.stats[1].label"
+      ]
+    },
+    {
+      "t": "اجرای بلیت‌دار در سال",
+      "of": "e8a29c3c",
+      "at": [
+        "covenant-day:ladder.stats[2].label"
+      ]
+    },
+    {
+      "t": "الزام فارغ‌التحصیلی Fine Arts",
+      "of": "fbe8dc9c",
+      "at": [
+        "covenant-day:ladder.stats[3].label"
+      ]
+    },
+    {
+      "t": "JK–5",
+      "of": "e010cae2",
+      "at": [
+        "covenant-day:ladder.divisions[0].grades"
+      ]
+    },
+    {
+      "t": "General Music از JK تا 4، با هنر ادغام‌شده در JK–K و مرحله‌ای از پایهٔ 1",
+      "of": "e919e67a",
+      "at": [
+        "covenant-day:ladder.divisions[0].items[0]"
+      ]
+    },
+    {
+      "t": "آشنایی با کر و گروه سازی در پایهٔ 5",
+      "of": "f653857a",
+      "at": [
+        "covenant-day:ladder.divisions[0].items[1]"
+      ]
+    },
+    {
+      "t": "CDS Children’s Choir، پایه‌های 3–5",
+      "of": "b0c96bc4",
+      "at": [
+        "covenant-day:ladder.divisions[0].items[2]"
+      ]
+    },
+    {
+      "t": "6–8",
+      "of": "b7020a62",
+      "at": [
+        "covenant-day:ladder.divisions[1].grades"
+      ]
+    },
+    {
+      "t": "MS Band، MS Choir و MS Worship Band",
+      "of": "69e5fc0d",
+      "at": [
+        "covenant-day:ladder.divisions[1].items[0]"
+      ]
+    },
+    {
+      "t": "درام برای پایه‌های 6–8، خوراک‌دهنده به موزیکال MS در اکتبر",
+      "of": "63362367",
+      "at": [
+        "covenant-day:ladder.divisions[1].items[1]"
+      ]
+    },
+    {
+      "t": "داوری‌های Music in the Parks — درجه‌های Superior سه سال پیاپی (2021–23)",
+      "of": "fd3e6412",
+      "at": [
+        "covenant-day:ladder.divisions[1].items[2]"
+      ]
+    },
+    {
+      "t": "Symphonic Band، HS Choir، HS Worship Band و HS A Cappella",
+      "of": "830c8cb1",
+      "at": [
+        "covenant-day:ladder.divisions[2].items[0]"
+      ]
+    },
+    {
+      "t": "Theater I–II، Theatre Tech و Honors Auditioned Theatre (مسیر اجرا یا فنی)",
+      "of": "7593f8ee",
+      "at": [
+        "covenant-day:ladder.divisions[2].items[1]"
+      ]
+    },
+    {
+      "t": "مسیر تجسمی از Intro to Art تا AP Studio Art؛ Worship Leadership به‌عنوان درس واحددار",
+      "of": "77061b3a",
+      "at": [
+        "covenant-day:ladder.divisions[2].items[2]"
+      ]
+    },
+    {
+      "t": "پشتیبانی",
+      "of": "6be6f488",
+      "at": [
+        "covenant-day:ladder.enrichment[0].label"
+      ]
+    },
+    {
+      "t": "Covenant Arts Association همهٔ حوزه‌های هنری را از طریق چهار ردهٔ حامیان ($100–$1,000) تأمین مالی و کادرگذاری می‌کند، با دسترسی زودهنگام به پیش‌فروش سه اجرای سالانه.",
+      "of": "fa18aac3",
+      "at": [
+        "covenant-day:ladder.enrichment[0].text"
+      ]
+    },
+    {
+      "t": "انجمن‌های افتخاری",
+      "of": "fa4511f1",
+      "at": [
+        "covenant-day:ladder.enrichment[1].label"
+      ]
+    },
+    {
+      "t": "شعبهٔ Tri-M Music Honor Society و یک شعبهٔ International Thespian Society.",
+      "of": "cbb60c78",
+      "at": [
+        "covenant-day:ladder.enrichment[1].text"
+      ]
+    },
+    {
+      "t": "مأموریت اعلام‌شده",
+      "of": "f5b1c744",
+      "at": [
+        "covenant-day:ladder.enrichment[2].label"
+      ]
+    },
+    {
+      "t": "هنرها «بخشی حیاتی از برنامهٔ درسی» هستند که بر چهار مؤلفه بنا شده: مبانی، بیان خلاقانه، ارتباط تاریخی و فرهنگی، و ارزیابی و پاسخ انتقادی.",
+      "of": "d92dcd93",
+      "at": [
+        "covenant-day:ladder.enrichment[2].text"
+      ]
+    },
+    {
+      "t": "دو برد Blumey و هشت تقدیر میان 2013 و 2019، به‌علاوهٔ یک راه‌یافته به مرحلهٔ نهایی National Shakespeare Competition در 2025.",
+      "of": "1689a8e0",
+      "at": [
+        "covenant-day:theatre.headline"
+      ]
+    },
+    {
+      "t": "سه اجرای بلیت‌دار در سال در Lions Theater 200 صندلی، با مسابقهٔ شکسپیر مخصوص خود که خوراک مسابقهٔ ملی را فراهم می‌کند.",
+      "of": "e34530f0",
+      "at": [
+        "covenant-day:theatre.subhead"
+      ]
+    },
+    {
+      "t": "اکتبر",
+      "of": "ecf21807",
+      "at": [
+        "covenant-day:theatre.season[0].season"
+      ]
+    },
+    {
+      "t": "MS Musical",
+      "of": "5e853993",
+      "at": [
+        "covenant-day:theatre.season[0].kind"
+      ]
+    },
+    {
+      "t": "یک اجرای سه‌شبه (مثلاً 15–17 اکتبر)",
+      "of": "5ca9633a",
+      "at": [
+        "covenant-day:theatre.season[0].detail"
+      ]
+    },
+    {
+      "t": "HS Musical",
+      "of": "8a5d45a2",
+      "at": [
+        "covenant-day:theatre.season[1].kind"
+      ]
+    },
+    {
+      "t": "اجرای واجد شرایط Blumey",
+      "of": "42551d33",
+      "at": [
+        "covenant-day:theatre.season[1].detail"
+      ]
+    },
+    {
+      "t": "نمایش بهاری",
+      "of": "8ef83b4b",
+      "at": [
+        "covenant-day:theatre.season[2].kind"
+      ]
+    },
+    {
+      "t": "یک نمایش نمایشی ساده (25–27 آوریل در تقویم کنونی)",
+      "of": "737d5d1d",
+      "at": [
+        "covenant-day:theatre.season[2].detail"
+      ]
+    },
+    {
+      "t": "نمایش‌ها",
+      "of": "82c2e079",
+      "at": [
+        "covenant-day:theatre.season[3].kind"
+      ]
+    },
+    {
+      "t": "شب‌های تئاتر MS و HS، مسابقهٔ شکسپیر HS، و مشارکت در NC Theatre Conference",
+      "of": "2cc06b7c",
+      "at": [
+        "covenant-day:theatre.season[3].detail"
+      ]
+    },
+    {
+      "t": "مدیر Fine Arts، Sherie-Beth Wilson، همراه با Covenant Arts Association که سه اجرا را کادرگذاری و پیش‌فروش می‌کند. درس‌ها: MS Drama (6–8)، Theater I–II، Theatre Tech و Honors Auditioned Theatre با مسیرهای اجرا یا فنی.",
+      "of": "741cf927",
+      "at": [
+        "covenant-day:theatre.whoRunsIt"
+      ]
+    },
+    {
+      "t": "Lions Theater گنجایش 200 صندلی دارد، با نورپردازی LED، اتاق لباس و انبار دکور — سالنی در مقیاس black-box، که به همین دلیل پیش‌فروش رده‌بندی‌شدهٔ Arts Association وجود دارد.",
+      "of": "b422fc87",
+      "at": [
+        "covenant-day:theatre.venueNote"
+      ]
+    },
+    {
+      "t": "برد Best Featured Performer",
+      "of": "4688f8b9",
+      "at": [
+        "covenant-day:theatre.ledger[0].result"
+      ]
+    },
+    {
+      "t": "نامزدی‌های Best Ensemble و Best Actress",
+      "of": "03927033",
+      "at": [
+        "covenant-day:theatre.ledger[1].result"
+      ]
+    },
+    {
+      "t": "برد Student Critic Award",
+      "of": "623af024",
+      "at": [
+        "covenant-day:theatre.ledger[2].result"
+      ]
+    },
+    {
+      "t": "نامزدی Best Ensemble",
+      "of": "42971634",
+      "at": [
+        "covenant-day:theatre.ledger[3].result"
+      ]
+    },
+    {
+      "t": "نامزدی‌های Featured Performer و Supporting Actress",
+      "of": "8cce4505",
+      "at": [
+        "covenant-day:theatre.ledger[4].result"
+      ]
+    },
+    {
+      "t": "نامزدی Best Actress (Evan Bertram در نقش Georgia Hendricks)",
+      "of": "5be5c031",
+      "at": [
+        "covenant-day:theatre.ledger[5].result"
+      ]
+    },
+    {
+      "t": "Caroline Garbarino به‌عنوان راه‌یافته به مرحلهٔ نهایی معرفی شد",
+      "of": "e190acfc",
+      "at": [
+        "covenant-day:theatre.ledger[6].result"
+      ]
+    },
+    {
+      "t": "کارنامه پس از 2019 در Blumey ها خاموش می‌شود — صفحهٔ تئاتر خود مدرسه هیچ مدخل Blumey پس از 2019 ندارد — و عنوان اجراها منتشر نشده، بنابراین *Curtains* تنها نمایشی است که با نام قابل بازیابی است. راه‌یافتهٔ شکسپیر نشان می‌دهد که این خط تولید هنوز فعال است.",
+      "of": "8ba1e416",
+      "at": [
+        "covenant-day:theatre.honestContext"
+      ]
+    },
+    {
+      "t": "نه گروه از پایهٔ 3 به بالا — و پلهٔ متمایز، پرستش است: Worship Leadership واحددار به‌علاوهٔ گروه‌های پرستشی در هر دو بخش.",
+      "of": "a5fe4ead",
+      "at": [
+        "covenant-day:music.headline"
+      ]
+    },
+    {
+      "t": "کارنامهٔ داوری در Music in the Parks: درجه‌های Superior برای MS Choir سه سال پیاپی، و یک راه‌یابی به مقام دوم HS Band در 2025.",
+      "of": "a9f14410",
+      "at": [
+        "covenant-day:music.subhead"
+      ]
+    },
+    {
+      "t": "کر",
+      "of": "22900d0e",
+      "at": [
+        "covenant-day:music.tracks[0].label"
+      ]
+    },
+    {
+      "t": "سازی",
+      "of": "19bad85d",
+      "at": [
+        "covenant-day:music.tracks[1].label"
+      ]
+    },
+    {
+      "t": "پرستشی",
+      "of": "93560741",
+      "at": [
+        "covenant-day:music.tracks[2].label"
+      ]
+    },
+    {
+      "t": "مدیر: Zach Thompson، معلم Worship و Choir. بدون ارکستر یا marching band — برنامهٔ سازی، کنسرت/سمفونیک است.",
+      "of": "1f1408f8",
+      "at": [
+        "covenant-day:music.boardNote"
+      ]
+    },
+    {
+      "t": "2021–23",
+      "of": "68adb260",
+      "at": [
+        "covenant-day:music.ladder[0].label"
+      ]
+    },
+    {
+      "t": "MS Choir سه سال پیاپی درجهٔ Superior در Music in the Parks کسب کرد؛ MS Band درجه‌های Excellent و یک مقام سوم گرفت.",
+      "of": "833334f0",
+      "at": [
+        "covenant-day:music.ladder[0].text"
+      ]
+    },
+    {
+      "t": "2023",
+      "of": "4329424c",
+      "at": [
+        "covenant-day:music.ladder[1].label"
+      ]
+    },
+    {
+      "t": "HS Band درجهٔ Excellent کسب کرد.",
+      "of": "7302d76e",
+      "at": [
+        "covenant-day:music.ladder[1].text"
+      ]
+    },
+    {
+      "t": "2025",
+      "of": "41293f26",
+      "at": [
+        "covenant-day:music.ladder[2].label"
+      ]
+    },
+    {
+      "t": "HS Band درجهٔ Excellent و مقام دوم کسب کرد.",
+      "of": "82e870f0",
+      "at": [
+        "covenant-day:music.ladder[2].text"
+      ]
+    },
+    {
+      "t": "انجمن افتخاری",
+      "of": "c53b433d",
+      "at": [
+        "covenant-day:music.ladder[3].label"
+      ]
+    },
+    {
+      "t": "شعبهٔ Tri-M Music Honor Society برای دستاورد به‌علاوهٔ خدمت.",
+      "of": "1406e69f",
+      "at": [
+        "covenant-day:music.ladder[3].text"
+      ]
+    },
+    {
+      "t": "هیچ افتخار NCMEA All-State یا All-District در صفحهٔ موسیقی دیده نمی‌شود — یک نبودِ تأییدشده. محل‌های اجرا از Biltmore Estates تا برنامه‌های کریسمس، رویدادهای ورزشی و کنسرت‌های بهاری گسترده است.",
+      "of": "7bda7c5f",
+      "at": [
+        "covenant-day:music.ladderNote"
+      ]
+    },
+    {
+      "t": "یک مسیر تمیز از Intro تا AP با یک نمایشگاه عمومی AP در پایان آن — و هفت تقدیرشده در Youth Art Month در یک سال.",
+      "of": "e2660878",
+      "at": [
+        "covenant-day:visual.headline"
+      ]
+    },
+    {
+      "t": "هنر از JK–K ادغام‌شده آغاز می‌شود، در پایهٔ 1 مرحله‌ای می‌شود، و در AP Studio Art با نمایشگاه مخصوص خود به اوج می‌رسد.",
+      "of": "a0a9cd5d",
+      "at": [
+        "covenant-day:visual.subhead"
+      ]
+    },
+    {
+      "t": "Intro to Art تا Studio Art",
+      "of": "5c35aff9",
+      "at": [
+        "covenant-day:visual.media[0].detail"
+      ]
+    },
+    {
+      "t": "Art 2/3 به مسیرهای 2D و 3D تقسیم می‌شود",
+      "of": "3ec1a79b",
+      "at": [
+        "covenant-day:visual.media[1].detail"
+      ]
+    },
+    {
+      "t": "CP و Honors — طراحی نشریه به‌عنوان درس",
+      "of": "6a6599d4",
+      "at": [
+        "covenant-day:visual.media[5].detail"
+      ]
+    },
+    {
+      "t": "معلم هنر High School: Katie Spata. راه‌یابی به Honors و AP از دروازهٔ سراسری مدرسه یعنی درس‌های پیشین، نمرات و بازخورد معلم پیروی می‌کند.",
+      "of": "3bce8e8c",
+      "at": [
+        "covenant-day:visual.pathNote"
+      ]
+    },
+    {
+      "t": "سراسر مدرسه",
+      "of": "bf82e7ff",
+      "at": [
+        "covenant-day:visual.exhibits[0].when"
+      ]
+    },
+    {
+      "t": "نمایشگاه سراسر مدرسه",
+      "of": "c567403b",
+      "at": [
+        "covenant-day:visual.exhibits[0].detail"
+      ]
+    },
+    {
+      "t": "نمایشگاه AP Art — ارائهٔ نمونه‌کارها",
+      "of": "579e15b4",
+      "at": [
+        "covenant-day:visual.exhibits[1].detail"
+      ]
+    },
+    {
+      "t": "7 تقدیرشدهٔ YAM در 2023",
+      "of": "00737d1a",
+      "at": [
+        "covenant-day:visual.exhibits[2].detail"
+      ]
+    },
+    {
+      "t": "«چند برندهٔ Scholastic Art Award»",
+      "of": "a47c7d6a",
+      "at": [
+        "covenant-day:visual.exhibits[3].detail"
+      ]
+    },
+    {
+      "t": "یک برنامهٔ تئاتر واقعی با جوایز منطقه‌ای و یک نردبان منسجم JK–12، با هنرهای پرستشی به‌عنوان هویت — و چند چیز که ارائه نمی‌دهد.",
+      "of": "fcfe6ce8",
+      "at": [
+        "covenant-day:verdict.headline"
+      ]
+    },
+    {
+      "t": "قوی برای خانواده‌ای که هنرهای درآمیخته با ایمان می‌خواهد؛ نازک‌تر برای خانواده‌ای که در پی ارکستر، رقص یا برنامهٔ موسیقی سالن‌بزرگ است.",
+      "of": "e36988ef",
+      "at": [
+        "covenant-day:verdict.subhead"
+      ]
+    },
+    {
+      "t": "کارنامهٔ Blumey اصیل است",
+      "of": "fbc9ceb4",
+      "at": [
+        "covenant-day:verdict.holdsUp[0].label"
+      ]
+    },
+    {
+      "t": "دو برد و هشت تقدیر در هفت فصل، قابل راستی‌آزمایی در بایگانی‌های خود Blumenthal، به‌علاوهٔ یک راه‌یافته به مرحلهٔ نهایی National Shakespeare Competition در 2025.",
+      "of": "90829a82",
+      "at": [
+        "covenant-day:verdict.holdsUp[0].text"
+      ]
+    },
+    {
+      "t": "مسیر تجسمی کامل و عمومی است",
+      "of": "5e307d22",
+      "at": [
+        "covenant-day:verdict.holdsUp[1].label"
+      ]
+    },
+    {
+      "t": "Intro ← Art 2/3 ← Honors Studio ← AP Studio Art، با نمایشگاه AP (Art Talk) و یک نمایش سراسر مدرسه (ArtWalk) که در آن کارها واقعاً دیده می‌شوند.",
+      "of": "71c39247",
+      "at": [
+        "covenant-day:verdict.holdsUp[1].text"
+      ]
+    },
+    {
+      "t": "ستون فقرات موسیقی پرستشی اینجا بی‌همتاست",
+      "of": "e16507de",
+      "at": [
+        "covenant-day:verdict.holdsUp[2].label"
+      ]
+    },
+    {
+      "t": "Worship Leadership واحددار به‌علاوهٔ گروه‌های پرستشی در هر دو بخش — هویت خدمت کلیسایی مدرسه که در خود برنامهٔ درسی بیان شده است.",
+      "of": "e5c00779",
+      "at": [
+        "covenant-day:verdict.holdsUp[2].text"
+      ]
+    },
+    {
+      "t": "یک سازمان حامی با پول واقعی در آن",
+      "of": "4ebaeb0b",
+      "at": [
+        "covenant-day:verdict.holdsUp[3].label"
+      ]
+    },
+    {
+      "t": "رده‌های $100–$1,000 در Covenant Arts Association هر سه حوزهٔ هنری را تأمین مالی و کادرگذاری می‌کند.",
+      "of": "3c1a02a0",
+      "at": [
+        "covenant-day:verdict.holdsUp[3].text"
+      ]
+    },
+    {
+      "t": "آخرین موزیکال دبیرستان چه بود، و برنامه آخرین بار کِی به Blumey ها راه یافت؟ کارنامهٔ عمومی در 2019 متوقف می‌شود.",
+      "of": "42245184",
+      "at": [
+        "covenant-day:verdict.ask[0]"
+      ]
+    },
+    {
+      "t": "اندازهٔ گروه‌ها: امسال چند دانش‌آموز در Symphonic Band و HS Choir هستند؟ هیچ رقم مشارکتی منتشر نشده است.",
+      "of": "22e18b78",
+      "at": [
+        "covenant-day:verdict.ask[1]"
+      ]
+    },
+    {
+      "t": "آیا هیچ مسیر strings/orchestra یا رقصی وجود دارد؟ هیچ‌کدام در برنامه دیده نمی‌شود.",
+      "of": "669bd1f3",
+      "at": [
+        "covenant-day:verdict.ask[2]"
+      ]
+    },
+    {
+      "t": "Lions Theater 200 صندلی چگونه از پس تقاضای موزیکال HS برمی‌آید — پس از پیش‌فروش Arts Association، بلیت‌های عمومی چقدر سریع تمام می‌شوند؟",
+      "of": "02f659be",
+      "at": [
+        "covenant-day:verdict.ask[3]"
+      ]
+    },
+    {
+      "t": "گروه‌ها در کدام بخش Music in the Parks رقابت می‌کنند، و آیا مشارکت در NCMEA All-State در برنامه هست؟",
+      "of": "8902c701",
+      "at": [
+        "covenant-day:verdict.ask[4]"
       ]
     },
     {

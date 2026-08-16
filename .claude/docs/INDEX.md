@@ -11,6 +11,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Charlotte Christian School](after-school/charlotte-christian.md) — 6 docs
 - [Charlotte Country Day School](after-school/charlotte-country-day.md) — 6 docs
 - [Charlotte Latin School](after-school/charlotte-latin.md) — 6 docs
+- [Covenant Day School](after-school/covenant-day.md) — 4 docs
 - [Davidson Day School](after-school/davidson-day.md) — 5 docs
 - [Providence Day School](after-school/providence-day.md) — 6 docs
 
@@ -20,6 +21,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Charlotte Christian School](college-support/charlotte-christian.md) — 11 docs
 - [Charlotte Country Day School](college-support/charlotte-country-day.md) — 9 docs
 - [Charlotte Latin School](college-support/charlotte-latin.md) — 11 docs
+- [Covenant Day School](college-support/covenant-day.md) — 8 docs
 - [Davidson Day School](college-support/davidson-day.md) — 10 docs
 - [Providence Day School](college-support/providence-day.md) — 10 docs
 
@@ -29,6 +31,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Charlotte Christian School](course-offerings/charlotte-christian.md) — 1 docs
 - [Charlotte Country Day School](course-offerings/charlotte-country-day.md) — 1 docs
 - [Charlotte Latin School](course-offerings/charlotte-latin.md) — 1 docs
+- [Covenant Day School](course-offerings/covenant-day.md) — 1 docs
 - [Davidson Day School](course-offerings/davidson-day.md) — 1 docs
 - [Providence Day School](course-offerings/providence-day.md) — 1 docs
 
@@ -38,6 +41,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Charlotte Christian School](financial-aid-tuition/charlotte-christian.md) — 1 docs
 - [Charlotte Country Day School](financial-aid-tuition/charlotte-country-day.md) — 2 docs
 - [Charlotte Latin School](financial-aid-tuition/charlotte-latin.md) — 1 docs
+- [Covenant Day School](financial-aid-tuition/covenant-day.md) — 2 docs
 - [Davidson Day School](financial-aid-tuition/davidson-day.md) — 2 docs
 - [Providence Day School](financial-aid-tuition/providence-day.md) — 1 docs
 
@@ -47,6 +51,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Charlotte Christian School](sports/charlotte-christian.md) — 15 docs
 - [Charlotte Country Day School](sports/charlotte-country-day.md) — 15 docs
 - [Charlotte Latin School](sports/charlotte-latin.md) — 15 docs
+- [Covenant Day School](sports/covenant-day.md) — 14 docs
 - [Davidson Day School](sports/davidson-day.md) — 15 docs
 - [Providence Day School](sports/providence-day.md) — 15 docs
 
@@ -56,6 +61,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Charlotte Christian School](student-clubs/charlotte-christian.md) — 10 docs
 - [Charlotte Country Day School](student-clubs/charlotte-country-day.md) — 10 docs
 - [Charlotte Latin School](student-clubs/charlotte-latin.md) — 8 docs
+- [Covenant Day School](student-clubs/covenant-day.md) — 6 docs
 - [Davidson Day School](student-clubs/davidson-day.md) — 9 docs
 - [Providence Day School](student-clubs/providence-day.md) — 8 docs
 
@@ -65,6 +71,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Charlotte Christian School](summer-programs/charlotte-christian.md) — 1 docs
 - [Charlotte Country Day School](summer-programs/charlotte-country-day.md) — 1 docs
 - [Charlotte Latin School](summer-programs/charlotte-latin.md) — 1 docs
+- [Covenant Day School](summer-programs/covenant-day.md) — 1 docs
 - [Providence Day School](summer-programs/providence-day.md) — 1 docs
 
 ### The Arts (`the-arts/`)
@@ -73,9 +80,10 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Charlotte Christian School](the-arts/charlotte-christian.md) — 8 docs
 - [Charlotte Country Day School](the-arts/charlotte-country-day.md) — 8 docs
 - [Charlotte Latin School](the-arts/charlotte-latin.md) — 7 docs
+- [Covenant Day School](the-arts/covenant-day.md) — 7 docs
 - [Davidson Day School](the-arts/davidson-day.md) — 5 docs
 - [Providence Day School](the-arts/providence-day.md) — 7 docs
 
 
 ## Data layer
-- `src/data/schools.json` — 303 documents across 8 topics and 6 schools.
+- `src/data/schools.json` — 346 documents across 8 topics and 7 schools.

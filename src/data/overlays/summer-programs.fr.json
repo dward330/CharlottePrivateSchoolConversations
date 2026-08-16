@@ -36,7 +36,9 @@
         "charlotte-country-day:catalog.categoryFilters[0].label",
         "charlotte-country-day:catalog.gradeFilters[0].label",
         "cannon:catalog.categoryFilters[0].label",
-        "cannon:catalog.gradeFilters[0].label"
+        "cannon:catalog.gradeFilters[0].label",
+        "covenant-day:catalog.categoryFilters[0].label",
+        "covenant-day:catalog.gradeFilters[0].label"
       ]
     },
     {
@@ -157,7 +159,18 @@
         "charlotte-christian:catalog.camps[21].categoryLabel",
         "charlotte-christian:catalog.camps[23].categoryLabel",
         "charlotte-christian:catalog.camps[24].categoryLabel",
-        "charlotte-christian:catalog.camps[25].categoryLabel"
+        "charlotte-christian:catalog.camps[25].categoryLabel",
+        "covenant-day:catalog.categoryFilters[2].label",
+        "covenant-day:catalog.camps[3].categoryLabel",
+        "covenant-day:catalog.camps[4].categoryLabel",
+        "covenant-day:catalog.camps[5].categoryLabel",
+        "covenant-day:catalog.camps[6].categoryLabel",
+        "covenant-day:catalog.camps[7].categoryLabel",
+        "covenant-day:catalog.camps[8].categoryLabel",
+        "covenant-day:catalog.camps[9].categoryLabel",
+        "covenant-day:catalog.camps[10].categoryLabel",
+        "covenant-day:catalog.camps[11].categoryLabel",
+        "covenant-day:catalog.camps[12].categoryLabel"
       ]
     },
     {
@@ -187,7 +200,8 @@
       "t": "TK–K",
       "of": "ad9a656e",
       "at": [
-        "providence-day:catalog.gradeFilters[1].label"
+        "providence-day:catalog.gradeFilters[1].label",
+        "covenant-day:catalog.camps[1].gradeLabel"
       ]
     },
     {
@@ -457,7 +471,27 @@
         "cannon:catalog.camps[72].dayLabel",
         "cannon:catalog.camps[73].dayLabel",
         "cannon:catalog.camps[74].dayLabel",
-        "cannon:catalog.camps[75].dayLabel"
+        "cannon:catalog.camps[75].dayLabel",
+        "covenant-day:catalog.camps[0].dayLabel",
+        "covenant-day:catalog.camps[1].dayLabel",
+        "covenant-day:catalog.camps[2].dayLabel",
+        "covenant-day:catalog.camps[3].dayLabel",
+        "covenant-day:catalog.camps[4].dayLabel",
+        "covenant-day:catalog.camps[5].dayLabel",
+        "covenant-day:catalog.camps[6].dayLabel",
+        "covenant-day:catalog.camps[7].dayLabel",
+        "covenant-day:catalog.camps[8].dayLabel",
+        "covenant-day:catalog.camps[9].dayLabel",
+        "covenant-day:catalog.camps[10].dayLabel",
+        "covenant-day:catalog.camps[11].dayLabel",
+        "covenant-day:catalog.camps[12].dayLabel",
+        "covenant-day:catalog.camps[13].dayLabel",
+        "covenant-day:catalog.camps[14].dayLabel",
+        "covenant-day:catalog.camps[15].dayLabel",
+        "covenant-day:catalog.camps[16].dayLabel",
+        "covenant-day:catalog.camps[17].dayLabel",
+        "covenant-day:catalog.camps[18].dayLabel",
+        "covenant-day:catalog.camps[19].dayLabel"
       ]
     },
     {
@@ -7054,7 +7088,10 @@
         "cannon:catalog.camps[52].categoryLabel",
         "cannon:catalog.camps[53].categoryLabel",
         "cannon:catalog.camps[54].categoryLabel",
-        "cannon:catalog.camps[55].categoryLabel"
+        "cannon:catalog.camps[55].categoryLabel",
+        "covenant-day:catalog.categoryFilters[4].label",
+        "covenant-day:catalog.camps[18].categoryLabel",
+        "covenant-day:catalog.camps[19].categoryLabel"
       ]
     },
     {
@@ -8438,6 +8475,520 @@
       "of": "d8366833",
       "at": [
         "cannon:costPlanner.flags[1].text"
+      ]
+    },
+    {
+      "t": "20 stages nommés pour l’été 2026 sur huit semaines, June 1 – July 31 — portés par Camp Lion et Cub Camp, les stages de jour traditionnels qui incluent la garde gratuitement.",
+      "of": "9dd79355",
+      "at": [
+        "covenant-day:catalog.headline"
+      ]
+    },
+    {
+      "t": "L’inscription se fait sur le portail CampBrain avec des réductions pour inscription anticipée jusqu’au February 27. L’école annonce « 29 camps » ; 20 sont dénombrables sur la page publique.",
+      "of": "8cc84630",
+      "at": [
+        "covenant-day:catalog.subhead"
+      ]
+    },
+    {
+      "t": "Les 20 stages nommés publiquement sont tous listés. **Les tarifs et horaires actuels par stage sont réservés au portail**, de sorte que les prix ci-dessous sont des estimations issues de la fourchette actuelle d’un tiers ($170–$325/semaine) et du propre catalogue 2018 de l’école — les tarifs de la garde en option indiqués sur le Cost Planner sont les chiffres actuels de l’école elle-même.",
+      "of": "f61120ce",
+      "at": [
+        "covenant-day:catalog.intro"
+      ]
+    },
+    {
+      "t": "Stages de jour",
+      "of": "0f07ba8b",
+      "at": [
+        "covenant-day:catalog.categoryFilters[1].label",
+        "covenant-day:catalog.camps[0].categoryLabel",
+        "covenant-day:catalog.camps[1].categoryLabel",
+        "covenant-day:catalog.camps[2].categoryLabel",
+        "covenant-day:catalog.camps[13].categoryLabel"
+      ]
+    },
+    {
+      "t": "Arts et théâtre",
+      "of": "e043e144",
+      "at": [
+        "covenant-day:catalog.categoryFilters[3].label",
+        "covenant-day:catalog.camps[14].categoryLabel",
+        "covenant-day:catalog.camps[15].categoryLabel",
+        "covenant-day:catalog.camps[16].categoryLabel",
+        "covenant-day:catalog.camps[17].categoryLabel"
+      ]
+    },
+    {
+      "t": "Lower School",
+      "of": "0921a0ca",
+      "at": [
+        "covenant-day:catalog.gradeFilters[1].label"
+      ]
+    },
+    {
+      "t": "Middle School",
+      "of": "15441234",
+      "at": [
+        "covenant-day:catalog.gradeFilters[2].label"
+      ]
+    },
+    {
+      "t": "High School",
+      "of": "8ab05d33",
+      "at": [
+        "covenant-day:catalog.gradeFilters[3].label"
+      ]
+    },
+    {
+      "t": "Le stage à la journée complète traditionnel — inclut la garde du matin, la garde du soir et la garde du déjeuner sans frais supplémentaires, plus la réduction fratrie ($75 de remise à la journée complète).",
+      "of": "cbd8029d",
+      "at": [
+        "covenant-day:catalog.camps[0].desc"
+      ]
+    },
+    {
+      "t": "TK–5",
+      "of": "f79ad9ec",
+      "at": [
+        "covenant-day:catalog.camps[0].gradeLabel"
+      ]
+    },
+    {
+      "t": "journée complète + garde gratuite",
+      "of": "27301e3c",
+      "at": [
+        "covenant-day:catalog.camps[0].hours"
+      ]
+    },
+    {
+      "t": "Le stage de jour des plus jeunes participants ; garde incluse gratuitement et $50 de remise pour les frères et sœurs en demi-journée.",
+      "of": "c60c8027",
+      "at": [
+        "covenant-day:catalog.camps[1].desc"
+      ]
+    },
+    {
+      "t": "demi-journée ou journée complète",
+      "of": "d35bd998",
+      "at": [
+        "covenant-day:catalog.camps[1].hours"
+      ]
+    },
+    {
+      "t": "Le palier d’entrée sous Cub Camp pour la tranche d’âge la plus jeune.",
+      "of": "afbc159e",
+      "at": [
+        "covenant-day:catalog.camps[2].desc"
+      ]
+    },
+    {
+      "t": "JK–TK",
+      "of": "4b2301fa",
+      "at": [
+        "covenant-day:catalog.camps[2].gradeLabel"
+      ]
+    },
+    {
+      "t": "demi-journée",
+      "of": "c056cf86",
+      "at": [
+        "covenant-day:catalog.camps[2].hours",
+        "covenant-day:catalog.camps[4].hours",
+        "covenant-day:catalog.camps[5].hours",
+        "covenant-day:catalog.camps[6].hours",
+        "covenant-day:catalog.camps[7].hours",
+        "covenant-day:catalog.camps[8].hours",
+        "covenant-day:catalog.camps[9].hours",
+        "covenant-day:catalog.camps[10].hours",
+        "covenant-day:catalog.camps[11].hours",
+        "covenant-day:catalog.camps[13].hours",
+        "covenant-day:catalog.camps[15].hours",
+        "covenant-day:catalog.camps[16].hours",
+        "covenant-day:catalog.camps[17].hours",
+        "covenant-day:catalog.camps[18].hours"
+      ]
+    },
+    {
+      "t": "Dans le catalogue 2018, ce stage fonctionnait en demi-journée ou journée complète (9–12, 1–4 ou 9–4) — le schéma que suit probablement le stage actuel.",
+      "of": "fb03c29a",
+      "at": [
+        "covenant-day:catalog.camps[3].desc"
+      ]
+    },
+    {
+      "t": "Niv. 2–8",
+      "of": "d0402471",
+      "at": [
+        "covenant-day:catalog.camps[3].gradeLabel"
+      ]
+    },
+    {
+      "t": "9–12 / 1–4 / 9–4",
+      "of": "2b28cdf6",
+      "at": [
+        "covenant-day:catalog.camps[3].hours"
+      ]
+    },
+    {
+      "t": "Développement des compétences avec les entraîneurs du programme — $185/semaine en demi-journée dans le catalogue 2018.",
+      "of": "a7b81ba5",
+      "at": [
+        "covenant-day:catalog.camps[4].desc"
+      ]
+    },
+    {
+      "t": "Niv. 1–8",
+      "of": "6554aeb4",
+      "at": [
+        "covenant-day:catalog.camps[4].gradeLabel"
+      ]
+    },
+    {
+      "t": "Se déroule à Warner Park, le campus sportif de 27 acres.",
+      "of": "3d4e5a74",
+      "at": [
+        "covenant-day:catalog.camps[5].desc"
+      ]
+    },
+    {
+      "t": "LS–MS",
+      "of": "ea9b4475",
+      "at": [
+        "covenant-day:catalog.camps[5].gradeLabel",
+        "covenant-day:catalog.camps[6].gradeLabel",
+        "covenant-day:catalog.camps[10].gradeLabel",
+        "covenant-day:catalog.camps[13].gradeLabel",
+        "covenant-day:catalog.camps[17].gradeLabel",
+        "covenant-day:catalog.camps[18].gradeLabel"
+      ]
+    },
+    {
+      "t": "Terrains de Warner Park.",
+      "of": "b85a8cf3",
+      "at": [
+        "covenant-day:catalog.camps[6].desc"
+      ]
+    },
+    {
+      "t": "Assuré au sein du programme, avec trois deuxièmes places d’État consécutives.",
+      "of": "59a763a5",
+      "at": [
+        "covenant-day:catalog.camps[7].desc"
+      ]
+    },
+    {
+      "t": "MS–HS",
+      "of": "aeca4f7b",
+      "at": [
+        "covenant-day:catalog.camps[7].gradeLabel",
+        "covenant-day:catalog.camps[8].gradeLabel",
+        "covenant-day:catalog.camps[11].gradeLabel"
+      ]
+    },
+    {
+      "t": "Le stage du programme varsity ; un stage de Lower School Field Hockey distinct l’alimente.",
+      "of": "9530da25",
+      "at": [
+        "covenant-day:catalog.camps[8].desc"
+      ]
+    },
+    {
+      "t": "La semaine d’initiation aux techniques de crosse.",
+      "of": "79e58eca",
+      "at": [
+        "covenant-day:catalog.camps[9].desc"
+      ]
+    },
+    {
+      "t": "LS",
+      "of": "75e26068",
+      "at": [
+        "covenant-day:catalog.camps[9].gradeLabel",
+        "covenant-day:catalog.camps[15].gradeLabel",
+        "covenant-day:catalog.camps[16].gradeLabel"
+      ]
+    },
+    {
+      "t": "Fondamentaux de sideline et d’esprit d’équipe.",
+      "of": "8321d01c",
+      "at": [
+        "covenant-day:catalog.camps[10].desc"
+      ]
+    },
+    {
+      "t": "Sur les six nouveaux courts en dur.",
+      "of": "f817fb9c",
+      "at": [
+        "covenant-day:catalog.camps[11].desc"
+      ]
+    },
+    {
+      "t": "Le programme du Webb Fitness Center, encadré par l’entraîneur de préparation physique de l’école — la même préparation estivale que suivent les athlètes varsity.",
+      "of": "2e9659bb",
+      "at": [
+        "covenant-day:catalog.camps[12].desc"
+      ]
+    },
+    {
+      "t": "Niv. 6–12",
+      "of": "5a57e078",
+      "at": [
+        "covenant-day:catalog.camps[12].gradeLabel"
+      ]
+    },
+    {
+      "t": "sessions",
+      "of": "130573cc",
+      "at": [
+        "covenant-day:catalog.camps[12].hours",
+        "covenant-day:catalog.camps[19].hours"
+      ]
+    },
+    {
+      "t": "La semaine purement ludique.",
+      "of": "9ee1d298",
+      "at": [
+        "covenant-day:catalog.camps[13].desc"
+      ]
+    },
+    {
+      "t": "Inclut la garde du déjeuner gratuitement — le seul stage hors stage de jour à inclure la garde.",
+      "of": "9710a44d",
+      "at": [
+        "covenant-day:catalog.camps[14].desc"
+      ]
+    },
+    {
+      "t": "MS",
+      "of": "35dfbd11",
+      "at": [
+        "covenant-day:catalog.camps[14].gradeLabel"
+      ]
+    },
+    {
+      "t": "journée complète, déjeuner inclus",
+      "of": "6cdcfa40",
+      "at": [
+        "covenant-day:catalog.camps[14].hours"
+      ]
+    },
+    {
+      "t": "La semaine axée sur la scène pour les plus jeunes élèves.",
+      "of": "e3899851",
+      "at": [
+        "covenant-day:catalog.camps[15].desc"
+      ]
+    },
+    {
+      "t": "Aperçu du studio dans les salles d’arts visuels.",
+      "of": "a6d6d5ee",
+      "at": [
+        "covenant-day:catalog.camps[16].desc"
+      ]
+    },
+    {
+      "t": "La semaine culinaire.",
+      "of": "15b6f079",
+      "at": [
+        "covenant-day:catalog.camps[17].desc"
+      ]
+    },
+    {
+      "t": "La semaine STEM.",
+      "of": "45e94be3",
+      "at": [
+        "covenant-day:catalog.camps[18].desc"
+      ]
+    },
+    {
+      "t": "Une semaine de lycée organisée en fonction du calendrier du bureau d’orientation — le rare stage académique de lycée de cet ensemble.",
+      "of": "84c5fdd7",
+      "at": [
+        "covenant-day:catalog.camps[19].desc"
+      ]
+    },
+    {
+      "t": "HS",
+      "of": "6deb4e2c",
+      "at": [
+        "covenant-day:catalog.camps[19].gradeLabel"
+      ]
+    },
+    {
+      "t": "Les tarifs et horaires par stage sont des **estimations** : les chiffres actuels sont réservés au portail d’inscription CampBrain, de sorte que la fourchette indiquée correspond au chiffre actuel d’un tiers ($170–$325/semaine), avec des horaires calqués sur le propre catalogue 2018 de l’école là où le même stage existait.",
+      "of": "bed818fc",
+      "at": [
+        "covenant-day:catalog.flags[0].text"
+      ]
+    },
+    {
+      "t": "L’école annonce « **29 camps** » ; la page publique en dénombre 20 (une 21e entrée, « Splash Squad », est un poste du personnel). Les variantes par semaine et les stages réservés au portail expliquent probablement la différence.",
+      "of": "19b8adfa",
+      "at": [
+        "covenant-day:catalog.flags[1].text"
+      ]
+    },
+    {
+      "t": "Le dernier document publiant conjointement tarif + horaires + niveaux par stage est le **catalogue 2018** (p. ex. Baseball $185/wk en demi-journée, Basketball $150 en demi-journée / $250 à la journée complète) — vieux de huit ans, conservé uniquement comme échantillon documenté.",
+      "of": "7164dbc0",
+      "at": [
+        "covenant-day:catalog.flags[2].text"
+      ]
+    },
+    {
+      "t": "Comptez $170–$325 par semaine pour le stage lui-même — puis $50 de garde du matin, $50 de garde du soir et $30 de garde du déjeuner, sauf si Camp Lion ou Cub Camp inclut les trois gratuitement.",
+      "of": "02b6638d",
+      "at": [
+        "covenant-day:costPlanner.headline"
+      ]
+    },
+    {
+      "t": "Huit semaines sont disponibles (June 1 – July 31, en sautant la semaine du June 29). Des frais d’inscription non remboursables de $50 sont déjà compris dans chaque tarif de stage.",
+      "of": "132286f9",
+      "at": [
+        "covenant-day:costPlanner.subhead"
+      ]
+    },
+    {
+      "t": "Semaine bas de gamme",
+      "of": "e61d1052",
+      "at": [
+        "covenant-day:costPlanner.tiers[0].label"
+      ]
+    },
+    {
+      "t": "Stage de spécialité en demi-journée · bas de la fourchette",
+      "of": "cf01ca64",
+      "at": [
+        "covenant-day:costPlanner.tiers[0].panelLabel"
+      ]
+    },
+    {
+      "t": "Le bas de la fourchette actuelle d’un tiers.",
+      "of": "35583467",
+      "at": [
+        "covenant-day:costPlanner.tiers[0].detail"
+      ]
+    },
+    {
+      "t": "Semaine milieu de gamme",
+      "of": "66df0c1f",
+      "at": [
+        "covenant-day:costPlanner.tiers[1].label"
+      ]
+    },
+    {
+      "t": "Semaine de stage type · milieu de la fourchette",
+      "of": "fe1e10cd",
+      "at": [
+        "covenant-day:costPlanner.tiers[1].panelLabel"
+      ]
+    },
+    {
+      "t": "Estimation médiane ; les stages à la journée complète du catalogue 2018 se situaient près d’ici.",
+      "of": "da808e99",
+      "at": [
+        "covenant-day:costPlanner.tiers[1].detail"
+      ]
+    },
+    {
+      "t": "Semaine haut de gamme",
+      "of": "5a2a4651",
+      "at": [
+        "covenant-day:costPlanner.tiers[2].label"
+      ]
+    },
+    {
+      "t": "Stage à la journée complète · haut de la fourchette",
+      "of": "3d00c339",
+      "at": [
+        "covenant-day:costPlanner.tiers[2].panelLabel"
+      ]
+    },
+    {
+      "t": "Le haut de la fourchette actuelle d’un tiers. Camp Lion inclut les trois options de garde gratuitement à la journée complète.",
+      "of": "93984051",
+      "at": [
+        "covenant-day:costPlanner.tiers[2].detail"
+      ]
+    },
+    {
+      "t": "Garde du matin 7:30–8:45 am (TK–8)",
+      "of": "88076342",
+      "at": [
+        "covenant-day:costPlanner.addons[0].label"
+      ]
+    },
+    {
+      "t": "Garde du soir 4:00–5:30 pm (TK–8)",
+      "of": "287828c5",
+      "at": [
+        "covenant-day:costPlanner.addons[1].label"
+      ]
+    },
+    {
+      "t": "Garde du déjeuner 12–1 pm (apporter son repas)",
+      "of": "041229f1",
+      "at": [
+        "covenant-day:costPlanner.addons[2].label"
+      ]
+    },
+    {
+      "t": "Inscription (non remboursable, comprise dans le coût du stage)",
+      "of": "2c6d3da4",
+      "at": [
+        "covenant-day:costPlanner.fees[0].label"
+      ]
+    },
+    {
+      "t": "Échange de stage",
+      "of": "2304c979",
+      "at": [
+        "covenant-day:costPlanner.fees[1].label"
+      ]
+    },
+    {
+      "t": "Annulation avant le May 1",
+      "of": "3a3bd087",
+      "at": [
+        "covenant-day:costPlanner.fees[2].label"
+      ]
+    },
+    {
+      "t": "**Camp Lion (Full Day), Cub Camp et MS Musical Theater incluent la garde gratuitement** — garde du matin et du soir pour les stages de jour, garde du déjeuner pour les trois. Laissez les options désactivées pour ces semaines.",
+      "of": "55ffd32d",
+      "at": [
+        "covenant-day:costPlanner.fees[3].label"
+      ]
+    },
+    {
+      "t": "Réductions fratrie sur les stages de jour : **$50 de remise en demi-journée / $75 de remise à la journée complète** pour chaque inscription supplémentaire. Les annulations après le May 1 remboursent 50% (≥14 jours à l’avance) et rien à moins de 14 jours.",
+      "of": "83b45435",
+      "at": [
+        "covenant-day:costPlanner.fees[4].label"
+      ]
+    },
+    {
+      "t": "La tarification pour inscription anticipée prend fin le February 27.",
+      "of": "d519c42d",
+      "at": [
+        "covenant-day:costPlanner.aside.title"
+      ]
+    },
+    {
+      "t": "Les inscriptions sont ouvertes sur le portail CampBrain et ferment à **midi le vendredi précédant chaque semaine de stage**. Les stages sont ouverts à la communauté, et le niveau désigne le niveau **futur** pour l’année scolaire à venir.",
+      "of": "6340cffb",
+      "at": [
+        "covenant-day:costPlanner.aside.text"
+      ]
+    },
+    {
+      "t": "Les trois paliers hebdomadaires sont des **estimations** — l’école ne publie aucune liste de tarifs par stage actuelle ; seules les options de garde et les politiques de frais ci-dessus sont ses propres chiffres actuels.",
+      "of": "09c29363",
+      "at": [
+        "covenant-day:costPlanner.flags[0].text"
       ]
     }
   ]

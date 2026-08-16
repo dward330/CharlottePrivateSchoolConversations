@@ -443,6 +443,52 @@ const CHARLOTTE_CHRISTIAN: ClubCatalog = {
 // Ambassadors as governance. No clubs, counts, or divisions are invented. From
 // source-material/student-clubs/davidson-day/Davidson Day - Clubs - Club Catalog
 // and Overview.md (web research, 2026-07-26).
+// ── Covenant Day ── the school publishes no club directory of its own; this
+// is the documented floor after filtering the third-party roster for division
+// and type (paid lessons, curricular ensembles and club sports excluded from
+// the count, carried in the divisions note instead).
+const COVENANT_DAY: ClubCatalog = {
+  verdict:
+    'A documented floor of Upper School clubs and honor societies — the school publishes no directory, so this is what public sources confirm.',
+  verdictHint: 'Filter by category to see the clubs in each area.',
+  countNoun: 'documented orgs',
+  categories: [
+    { key: 'acad', short: 'Academic', full: 'Academic / competition' },
+    { key: 'honor', short: 'Honor', full: 'Honor societies' },
+    { key: 'spirit', short: 'Spirit', full: 'Spirit / leadership' },
+  ],
+  clubs: [
+    { name: 'Mock Trial', cat: 'acad', note: 'Flagship — 2025 state runner-up courtroom artist' },
+    { name: 'Robotics (First Lego League)', cat: 'acad', note: 'FLL competition robotics' },
+    { name: 'Sustainability Engineering', cat: 'acad', note: 'The R&S department’s club arm' },
+    { name: 'Latin (JCL) Club', cat: 'acad', note: 'Junior Classical League chapter' },
+    { name: 'French Club', cat: 'acad', note: 'Language club' },
+    { name: 'Book Club', cat: 'acad', note: 'Reading / literary club' },
+    { name: 'Beta Club', cat: 'honor', note: 'National academic honor + service organization' },
+    { name: 'National Honor Society', cat: 'honor', note: 'Scholarship, service, leadership, character' },
+    { name: 'National Art Honor Society', cat: 'honor', note: 'Visual-arts achievement' },
+    { name: 'Spanish Honor Society', cat: 'honor', note: 'Spanish-language achievement' },
+    { name: 'International Thespian Society', cat: 'honor', note: 'Theatre honor society (school-confirmed)' },
+    { name: 'Tri-M Music Honor Society', cat: 'honor', note: 'Music honor society (school-confirmed)' },
+    { name: 'Covenant Crazies', cat: 'spirit', note: 'The student spirit section' },
+    { name: 'Student Council', cat: 'spirit', note: 'Student leadership' },
+  ],
+  divisions: [
+    {
+      label: 'Middle & Lower School',
+      text: 'Junior First Lego League, the MS Board Game Club, the CDS Children’s Choir (grades 3–5), Goodness Gorillas (the 4th-grade service program), and the Kanuga fifth-grade retreat.',
+      tag: 'Documented',
+    },
+    {
+      label: 'Beyond the club roster',
+      text: 'The third-party roster also lists paid enrichment (piano/guitar/voice lessons, painting), curricular ensembles (band, choir, theater, worship team), and boys volleyball — a club sport. Those are excluded from the count above. Restore525 runs as both a service program and a credit-bearing course.',
+      tag: 'Filtered out',
+    },
+  ],
+  source:
+    'privateschoolreview.com — Covenant Day profile (third-party roster) · covenantday.org — academics/high-school, arts/theater, arts/music · ncmocktrial.org',
+}
+
 const DAVIDSON_DAY: ClubCatalog = {
   verdict:
     'A compact slate of academic, interest, and service clubs, alongside student life run through programs, councils, and traditions.',
@@ -481,6 +527,7 @@ const CATALOG: Record<string, ClubCatalog> = {
   'charlotte-country-day': CHARLOTTE_COUNTRY_DAY,
   cannon: CANNON,
   'charlotte-christian': CHARLOTTE_CHRISTIAN,
+  'covenant-day': COVENANT_DAY,
   'davidson-day': DAVIDSON_DAY,
 }
 

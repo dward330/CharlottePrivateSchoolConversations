@@ -2,7 +2,8 @@
 name: add-school
 description: >
   Assess whether a new school can be added to the app, then hand off to /plan. Asks which
-  school and what city/state, runs a scoped web sweep against the live data schema, and
+  school and what city/state (and which Welcome Video the page should feature), runs a
+  scoped web sweep against the live data schema, and
   reports a coverage table — how much of each research area, structured card, and Compare
   row we could actually populate, measured against the thinnest school already shipped. If
   the user proceeds, it walks the thin research areas one at a time, then invokes /plan to
@@ -59,6 +60,28 @@ Resolve the school's official website and confirm it is a **K–12 (or subset) p
 school** in that city. If the search turns up two plausible schools with the same name,
 ask which one rather than guessing — an entire sweep against the wrong school is the most
 expensive mistake available here.
+
+### 1b. Ask which Welcome Video the school's page should use
+
+Once the school is identified (and before anything else runs), ask the user:
+
+> Which **Welcome Video** do you want on this school's page? Paste a YouTube link — or say
+> "none" and the page simply won't show a Welcome Video section.
+
+Rules for this question (user-set, 2026-08-16):
+
+- **It is asked here, every run** — after the school details, before the `/plan` doc is
+  built — not left for `/implement` to discover. The six original schools all carry one,
+  and Covenant Day initially shipped without because nobody asked.
+- **"None" is a fine answer.** `welcomeVideoUrl` is optional on the `Brand` type; a school
+  without one hides the Welcome Video section and its TOC entries entirely (the standing
+  absence-not-emptiness rule). Record the explicit "none" so `/implement` doesn't treat
+  the gap as an oversight.
+- **Normalize to the embed form.** `brands.ts` requires a YouTube **embed** URL
+  (`https://www.youtube.com/embed/<id>`), not a watch/share link — convert whatever the
+  user pastes and confirm the video ID back to them.
+- **Carry it into the `/plan` brief** (step 6), where it lands in the plan's `brands.ts`
+  step so `/implement` wires `welcomeVideoUrl` alongside the color and initials.
 
 ### 2. Read the schema — do not work from memory
 
@@ -345,6 +368,9 @@ The name defaults to `add-<school-slug>` unless the user wants another; offer th
 The brief must carry, explicitly:
 
 - **The school** — full name, city/state, slug, official site.
+- **The Welcome Video decision from step 1b** — the normalized embed URL, or the user's
+  explicit "none". Either way it is a decision already made; the plan's `brands.ts` step
+  records it so `/implement` wires (or deliberately omits) `welcomeVideoUrl`.
 - **The coverage table**, verbatim, and the sweep's overall figure.
 - **Which research areas are in and which are out**, per step 5, with the user's reasoning
   and each area's coverage percentage. Flag these as *decisions already made* so `/plan`
@@ -394,7 +420,9 @@ implementing window would otherwise get wrong:
 - **`src/data/brands.ts` degrades gracefully** — `brandFor()` falls back to slate
   `#5b6472` plus initials derived from the name (`brands.ts:70`). So a missing entry is not
   a breakage, but the school ships with a generic badge and no crest. Add color + initials
-  deliberately; do not let the fallback ship by omission.
+  deliberately; do not let the fallback ship by omission. The same entry carries the
+  **`welcomeVideoUrl` from step 1b** (embed form) — or omits it per the user's explicit
+  "none".
 - **`SCHOOL_SECTION_ORDER`** (`src/pages/SchoolDetail.tsx:116`) is an optional per-school
   card-order override, `?.`-guarded. Unlisted schools use the shared order — fine to skip.
 - **The podcast-episode table** in `src/data/podcastEpisodes.ts` is per school × topic; a

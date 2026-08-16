@@ -11,6 +11,7 @@
         "charlotte-christian:title",
         "charlotte-country-day:title",
         "cannon:title",
+        "covenant-day:title",
         "davidson-day:title"
       ]
     },
@@ -31,6 +32,7 @@
         "charlotte-christian:framing[0].title",
         "charlotte-country-day:framing[0].title",
         "cannon:framing[0].title",
+        "covenant-day:framing[0].title",
         "davidson-day:framing[0].title"
       ]
     },
@@ -69,6 +71,7 @@
         "charlotte-christian:framing[2].title",
         "charlotte-country-day:framing[2].title",
         "cannon:framing[2].title",
+        "covenant-day:framing[2].title",
         "davidson-day:framing[2].title"
       ]
     },
@@ -128,7 +131,8 @@
       "of": "c2d451ca",
       "at": [
         "providence-day:sections[0].bands[2].label",
-        "charlotte-latin:sections[0].bands[1].label"
+        "charlotte-latin:sections[0].bands[1].label",
+        "covenant-day:sections[0].bands[1].label"
       ]
     },
     {
@@ -167,6 +171,8 @@
         "cannon:sections[0].boxes[0].tag",
         "cannon:sections[2].boxes[2].tag",
         "cannon:sections[3].boxes[1].tag",
+        "covenant-day:sections[2].boxes[1].tag",
+        "covenant-day:sections[4].boxes[0].tag",
         "davidson-day:sections[2].boxes[2].tag"
       ]
     },
@@ -397,6 +403,7 @@
         "charlotte-latin:sections[2].navTitle",
         "charlotte-country-day:sections[2].navTitle",
         "cannon:sections[2].navTitle",
+        "covenant-day:sections[2].navTitle",
         "davidson-day:sections[2].navTitle"
       ]
     },
@@ -459,6 +466,7 @@
         "providence-day:sections[2].timeline[3].when",
         "charlotte-country-day:sections[2].timeline[3].when",
         "cannon:sections[2].timeline[3].when",
+        "covenant-day:sections[2].timeline[3].when",
         "davidson-day:sections[2].timeline[3].when"
       ]
     },
@@ -763,6 +771,7 @@
         "charlotte-latin:sections[5].navTitle",
         "charlotte-country-day:sections[4].navTitle",
         "cannon:sections[4].navTitle",
+        "covenant-day:sections[5].navTitle",
         "davidson-day:sections[4].navTitle"
       ]
     },
@@ -783,7 +792,8 @@
         "providence-day:sections[5].plans[0].figure",
         "charlotte-christian:sections[4].plans[1].figure",
         "charlotte-country-day:sections[4].plans[1].figure",
-        "cannon:sections[4].plans[0].figure"
+        "cannon:sections[4].plans[0].figure",
+        "covenant-day:sections[5].plans[0].figure"
       ]
     },
     {
@@ -906,6 +916,7 @@
         "charlotte-christian:sections[5].navTitle",
         "charlotte-country-day:sections[5].navTitle",
         "cannon:sections[5].navTitle",
+        "covenant-day:sections[6].navTitle",
         "davidson-day:sections[5].navTitle"
       ]
     },
@@ -1076,6 +1087,7 @@
         "charlotte-christian:framing[0].body",
         "charlotte-country-day:framing[0].body",
         "cannon:framing[0].body",
+        "covenant-day:framing[0].body",
         "davidson-day:framing[0].body"
       ]
     },
@@ -1104,7 +1116,8 @@
       "t": "پایه‌های 6–8",
       "of": "914e6250",
       "at": [
-        "charlotte-latin:sections[0].bands[2].label"
+        "charlotte-latin:sections[0].bands[2].label",
+        "covenant-day:sections[0].bands[2].label"
       ]
     },
     {
@@ -1114,7 +1127,8 @@
         "charlotte-latin:sections[0].bands[3].label",
         "charlotte-country-day:sections[0].bands[4].label",
         "cannon:sections[0].bands[4].label",
-        "cannon:sections[3].ranges[2].label"
+        "cannon:sections[3].ranges[2].label",
+        "covenant-day:sections[0].bands[3].label"
       ]
     },
     {
@@ -1936,7 +1950,8 @@
       "t": "شهریه بر حسب طیف",
       "of": "098bc98f",
       "at": [
-        "charlotte-christian:sections[0].navTitle"
+        "charlotte-christian:sections[0].navTitle",
+        "covenant-day:sections[0].navTitle"
       ]
     },
     {
@@ -2017,6 +2032,7 @@
       "of": "09c013ce",
       "at": [
         "charlotte-christian:sections[1].navTitle",
+        "covenant-day:sections[1].navTitle",
         "davidson-day:sections[1].navTitle"
       ]
     },
@@ -2025,6 +2041,7 @@
       "of": "e742ffd4",
       "at": [
         "charlotte-christian:sections[1].title",
+        "covenant-day:sections[1].title",
         "davidson-day:sections[1].title"
       ]
     },
@@ -2424,7 +2441,8 @@
       "t": "$1,500",
       "of": "7634a7b9",
       "at": [
-        "charlotte-christian:sections[4].plans[0].figure"
+        "charlotte-christian:sections[4].plans[0].figure",
+        "covenant-day:sections[4].plans[0].figure"
       ]
     },
     {
@@ -3585,6 +3603,535 @@
       ]
     },
     {
+      "t": "سال تحصیلی 2026–27 · ارقام تا 15 اوت 2026",
+      "of": "47d9e49a",
+      "at": [
+        "covenant-day:meta"
+      ]
+    },
+    {
+      "t": "دو سال هم‌زمان فعال‌اند.",
+      "of": "ab877c57",
+      "at": [
+        "covenant-day:framing[1].title"
+      ]
+    },
+    {
+      "t": "جدول وب‌سایت 2026–27 را نشان می‌دهد در حالی که PDF شرایط پرداختِ پیوندشده 2025–26 را نشان می‌دهد. هر رقم اینجا سال خود را نام می‌برد؛ گزارش با 2026–27 آغاز می‌شود.",
+      "of": "6e7cbdf9",
+      "at": [
+        "covenant-day:framing[1].body"
+      ]
+    },
+    {
+      "t": "کمک‌هزینهٔ شهریه در طول تحصیل — نه کمک‌هزینهٔ دانشگاه. این مشاورهٔ مالی نیست.",
+      "of": "e6f51e0f",
+      "at": [
+        "covenant-day:framing[2].body",
+        "davidson-day:framing[2].body"
+      ]
+    },
+    {
+      "t": "شهریه بر حسب پایه",
+      "of": "3e0b286d",
+      "at": [
+        "covenant-day:sections[0].title",
+        "davidson-day:sections[0].title"
+      ]
+    },
+    {
+      "t": "شهریهٔ منتشرشده به تفکیک بازهٔ پایه — پایین‌ترین نرخ سقف در این مقایسه",
+      "of": "a44f57bc",
+      "at": [
+        "covenant-day:sections[0].figureCaption"
+      ]
+    },
+    {
+      "t": "JK و K",
+      "of": "b01d7771",
+      "at": [
+        "covenant-day:sections[0].bands[0].label"
+      ]
+    },
+    {
+      "t": "چهار بازه از junior kindergarten تا پایهٔ 12، با گسترهٔ $7,300. افزایش نسبت به 2025–26 یک مبلغ ثابت $1,200 در هر بازه بود — افزایش دلاری، نه درصدی، به همین دلیل کوچک‌ترین بازه بیشترین تغییر درصدی را نشان می‌دهد.",
+      "of": "d75b28fb",
+      "at": [
+        "covenant-day:sections[0].figureNote"
+      ]
+    },
+    {
+      "t": "مدرسه بیان می‌کند که شهریه شامل چه چیزهایی است — رایانه/آی‌پد در محوطه، هزینه‌های فناوری، اردوهای مدرسه و سفرهای علمی الزامی، هزینه‌های آزمایشگاه علوم و درس‌های اختیاری، و بیشتر هزینه‌های ورزشی — فهرست شمولی که چند همتا منتشر نمی‌کنند.",
+      "of": "b8e82882",
+      "at": [
+        "covenant-day:sections[0].figureNote2"
+      ]
+    },
+    {
+      "t": "یک فهرست کوتاه و بیشتر قیمت‌گذاری‌شده",
+      "of": "0e601a1a",
+      "at": [
+        "covenant-day:sections[1].componentsTitle"
+      ]
+    },
+    {
+      "t": "ودیعهٔ ثبت‌نام · $1,000، به حساب شهریه منظور می‌شود",
+      "of": "eb5e15b2",
+      "at": [
+        "covenant-day:sections[1].components[0].label"
+      ]
+    },
+    {
+      "t": "هزینهٔ طرح ماهانهٔ FACTS · $50/yr",
+      "of": "e672f5c7",
+      "at": [
+        "covenant-day:sections[1].components[1].label"
+      ]
+    },
+    {
+      "t": "هزینهٔ پردازش کارت · 3.05% از پرداخت",
+      "of": "69e6ca60",
+      "at": [
+        "covenant-day:sections[1].components[2].label"
+      ]
+    },
+    {
+      "t": "Extended Day (JK–8) · $58–$248/mo به‌ازای هر جلسه",
+      "of": "78e3b262",
+      "at": [
+        "covenant-day:sections[1].components[3].label"
+      ]
+    },
+    {
+      "t": "لپ‌تاپ، پایه‌های 9–12 · وسیلهٔ خود را بیاورید",
+      "of": "b2aae508",
+      "at": [
+        "covenant-day:sections[1].components[4].label"
+      ]
+    },
+    {
+      "t": "تدریس خصوصی / آزمون ویژه فراتر از کمک کلاسی",
+      "of": "4f7152a4",
+      "at": [
+        "covenant-day:sections[1].components[5].label"
+      ]
+    },
+    {
+      "t": "یونیفرم (JK–8) / قانون پوشش HS",
+      "of": "e05b842c",
+      "at": [
+        "covenant-day:sections[1].components[6].label"
+      ]
+    },
+    {
+      "t": "فهرست شمول اینجا کار واقعی انجام می‌دهد: اردوها، سفرهای علمی الزامی، هزینه‌های آزمایشگاه و درس اختیاری، و بیشتر هزینه‌های ورزشی درون شهریه قرار دارند، بنابراین افزوده‌های قیمت‌دار واقعاً اندک‌اند. پایه‌های 9–12 باید لپ‌تاپی متناسب با مشخصات مدرسه فراهم کنند.",
+      "of": "68dc28f7",
+      "at": [
+        "covenant-day:sections[1].componentsNote"
+      ]
+    },
+    {
+      "t": "ودیعه از کمک‌هزینه آگاه است",
+      "of": "4cae32af",
+      "at": [
+        "covenant-day:sections[1].boxes[0].title"
+      ]
+    },
+    {
+      "t": "ودیعهٔ $1,000 به‌ازای هر دانش‌آموز غیرقابل‌بازگشت است و به حساب شهریه منظور می‌شود — و خانواده‌هایی که پیش از ثبت‌نام یک درخواست کمک‌هزینهٔ کامل ارائه می‌دهند می‌توانند از Business Office بخواهند تا هنگام بررسی درخواست، آن را **نصف** کند. اما انتظار برای تصمیم کمک‌هزینه بدون پرداخت ودیعه به معنای نگه‌داشته‌نشدن هیچ جایگاهی است.",
+      "of": "8445b947",
+      "at": [
+        "covenant-day:sections[1].boxes[0].body"
+      ]
+    },
+    {
+      "t": "فرایند و جدول زمانی کمک‌هزینه",
+      "of": "690355d8",
+      "at": [
+        "covenant-day:sections[2].title",
+        "davidson-day:sections[2].title"
+      ]
+    },
+    {
+      "t": "همراه با پذیرش",
+      "of": "baedc1a0",
+      "at": [
+        "covenant-day:sections[2].timeline[0].when"
+      ]
+    },
+    {
+      "t": "خانواده‌ها درخواست کمک‌هزینه را **هم‌زمان با درخواست پذیرش** ارائه می‌دهند، از طریق FACTS — همان بستری که صورت‌حساب شهریه را اجرا می‌کند",
+      "of": "b8762ba7",
+      "at": [
+        "covenant-day:sections[2].timeline[0].detail"
+      ]
+    },
+    {
+      "t": "پیش‌نیاز",
+      "of": "30a573d3",
+      "at": [
+        "covenant-day:sections[2].timeline[1].when"
+      ]
+    },
+    {
+      "t": "ارائهٔ گواهی درخواست برای **NC Opportunity Scholarship** پیش از بررسی هر کمک‌هزینهٔ CDS الزامی است — دروازه‌ای سخت که هیچ مدرسهٔ همتای اینجا تحمیل نمی‌کند",
+      "of": "f72e805a",
+      "at": [
+        "covenant-day:sections[2].timeline[1].detail"
+      ]
+    },
+    {
+      "t": "در صورت تکمیل",
+      "of": "c9d5c23e",
+      "at": [
+        "covenant-day:sections[2].timeline[2].when"
+      ]
+    },
+    {
+      "t": "تصمیم‌ها تنها پس از کامل‌شدن یک درخواست، شامل همهٔ مدارک پشتیبان، اعلام می‌شوند",
+      "of": "cea405d7",
+      "at": [
+        "covenant-day:sections[2].timeline[2].detail"
+      ]
+    },
+    {
+      "t": "بدون بورس چندساله — خانواده‌ها هر سال درخواست تازه‌ای ارائه می‌دهند",
+      "of": "7f386677",
+      "at": [
+        "covenant-day:sections[2].timeline[3].detail"
+      ]
+    },
+    {
+      "t": "بستر و دامنه",
+      "of": "736758b4",
+      "at": [
+        "covenant-day:sections[2].boxes[0].title"
+      ]
+    },
+    {
+      "t": "**FACTS** ارزیابی محرمانهٔ نیاز را اجرا می‌کند. کمک‌هزینه فقط بر پایهٔ نیاز است، و تنها طرفی که مسئول پرداخت شهریه است می‌تواند درخواست دهد. تماس: Christen Marshall، Student Accounts Coordinator، 704-708-6102.",
+      "of": "23d6f76d",
+      "at": [
+        "covenant-day:sections[2].boxes[0].body"
+      ]
+    },
+    {
+      "t": "هیچ تاریخ مهلت کمک‌هزینه، هیچ زمان‌بندی تصمیم، هیچ فرایند تجدیدنظر و هیچ سیاست سقف بورس در سابقهٔ عمومی دیده نمی‌شود. هزینهٔ درخواست FACTS، اگر وجود داشته باشد، نیز اعلام‌نشده است.",
+      "of": "5f12ecc0",
+      "at": [
+        "covenant-day:sections[2].boxes[1].body"
+      ]
+    },
+    {
+      "t": "کمک‌هزینه در اعداد",
+      "of": "bd1cf4c6",
+      "at": [
+        "covenant-day:sections[3].navTitle"
+      ]
+    },
+    {
+      "t": "آنچه اعداد آشکار می‌کنند",
+      "of": "d9be712e",
+      "at": [
+        "covenant-day:sections[3].title"
+      ]
+    },
+    {
+      "t": "از دانش‌آموزان با کمک‌هزینه — فقط رقم شخص ثالث",
+      "of": "e248fc59",
+      "at": [
+        "covenant-day:sections[3].stats[0].label"
+      ]
+    },
+    {
+      "t": "خدمت کلیسایی — معاف از ثبت توسط IRS",
+      "of": "fd45ab9c",
+      "at": [
+        "covenant-day:sections[3].stats[1].label"
+      ]
+    },
+    {
+      "t": "مجموع، میانگین یا بودجهٔ کمک‌هزینهٔ منتشرشده",
+      "of": "e75ea3c1",
+      "at": [
+        "covenant-day:sections[3].stats[2].label"
+      ]
+    },
+    {
+      "t": "سهم ~20% از گردآورندگان می‌آید (PrivateSchoolReview، schooltuitions.org)؛ خود مدرسه هیچ درصدی، هیچ مجموع اعطاشده و هیچ میانگین بورسی منتشر نمی‌کند.",
+      "of": "99fcdce6",
+      "at": [
+        "covenant-day:sections[3].figureNote"
+      ]
+    },
+    {
+      "t": "منتشر نشده — و قابل بازیابی نیست",
+      "of": "98106920",
+      "at": [
+        "covenant-day:sections[3].boxes[0].tag"
+      ]
+    },
+    {
+      "t": "Covenant Day یک خدمت Christ Covenant Church (PCA) است، و IRS آن را یک **سازمان مذهبیِ ملزم‌نشده به ثبت Form 990** تعیین کرده است (EIN 56-1656570، معاف از 1989). Nonprofit Explorer در ProPublica تأیید می‌کند که هیچ ثبتی وجود ندارد. هر مدرسهٔ دیگری در این پروژه یک ثبت‌کنندهٔ 990 است که مجموع کمک‌هزینه‌اش را می‌توان در برابر اظهارنامه‌اش راستی‌آزمایی کرد — اینجا **هیچ ثبتی برای بررسی نیست**، بنابراین این شکاف ساختاری است نه صفحه‌ای که در انتظار یافته‌شدن باشد.",
+      "of": "07e003e5",
+      "at": [
+        "covenant-day:sections[3].boxes[0].body"
+      ]
+    },
+    {
+      "t": "تخفیف‌ها و کمک‌هزینهٔ ایالتی",
+      "of": "e6a0f3f2",
+      "at": [
+        "covenant-day:sections[4].navTitle"
+      ]
+    },
+    {
+      "t": "شایستگی، تخفیف‌ها و بورس‌های ایالتی",
+      "of": "622789d6",
+      "at": [
+        "covenant-day:sections[4].title"
+      ]
+    },
+    {
+      "t": "همهٔ کمک‌هزینه‌های مدرسه بر پایهٔ نیاز است",
+      "of": "6b98e954",
+      "at": [
+        "covenant-day:sections[4].tag"
+      ]
+    },
+    {
+      "t": "تخفیف چندفرزندی",
+      "of": "7c2c9ac8",
+      "at": [
+        "covenant-day:sections[4].plans[0].label"
+      ]
+    },
+    {
+      "t": "کاهش از شهریه برای **سومین دانش‌آموز و هر دانش‌آموز افزوده** از یک خانوار، که به فرزندان در پایین‌ترین پایه‌ها اعمال می‌شود. خانواده‌های دوفرزندی چیزی دریافت نمی‌کنند.",
+      "of": "cf11a53f",
+      "at": [
+        "covenant-day:sections[4].plans[0].detail"
+      ]
+    },
+    {
+      "t": "$400",
+      "of": "513ce48d",
+      "at": [
+        "covenant-day:sections[4].plans[1].figure"
+      ]
+    },
+    {
+      "t": "تخفیف عضو Christ Covenant Church",
+      "of": "7601051e",
+      "at": [
+        "covenant-day:sections[4].plans[1].label"
+      ]
+    },
+    {
+      "t": "به‌ازای هر دانش‌آموز ثبت‌نام‌شده، برای اعضای کلیسای حامی — عضویت در طول ثبت‌نام آنلاین تأیید می‌شود، با مهلت 1 فوریه برای واجد شرایط بودن تمام‌سال.",
+      "of": "8daf0b5b",
+      "at": [
+        "covenant-day:sections[4].plans[1].detail"
+      ]
+    },
+    {
+      "t": "NC",
+      "of": "35e678d6",
+      "at": [
+        "covenant-day:sections[4].plans[2].figure"
+      ]
+    },
+    {
+      "t": "Opportunity Scholarship + ESA+",
+      "of": "755390d9",
+      "at": [
+        "covenant-day:sections[4].plans[2].label"
+      ]
+    },
+    {
+      "t": "مدرسه هر دو برنامهٔ زیر نظر NCSEAA را می‌پذیرد — و درخواست برای Opportunity Scholarship یک **پیش‌نیاز** کمک‌هزینهٔ CDS است، بنابراین کمک‌هزینهٔ ایالتی نخستین لایهٔ طراحی‌شدهٔ هر بسته است.",
+      "of": "3ebfb56c",
+      "at": [
+        "covenant-day:sections[4].plans[2].detail"
+      ]
+    },
+    {
+      "t": "هیچ بورس شایستگی در سابقهٔ عمومی وجود ندارد — کمک‌هزینه فقط بر پایهٔ نیاز است. هیچ تخفیف خواهر و برادری پیش از فرزند سوم، هیچ تخفیف نظامی یا روحانی، و هیچ سیاست معافیت کارکنان منتشر نشده است.",
+      "of": "c8751142",
+      "at": [
+        "covenant-day:sections[4].boxes[0].body"
+      ]
+    },
+    {
+      "t": "طرح‌های پرداخت و شرایط قرارداد",
+      "of": "7e5b3eac",
+      "at": [
+        "covenant-day:sections[5].title",
+        "davidson-day:sections[4].title"
+      ]
+    },
+    {
+      "t": "طرح سالانه",
+      "of": "442308c5",
+      "at": [
+        "covenant-day:sections[5].plans[0].label"
+      ]
+    },
+    {
+      "t": "کل مانده سررسید **1 مه** پیش از سال تحصیلی. هیچ تخفیف پیش‌پرداختی منتشر نشده است.",
+      "of": "d81f21dc",
+      "at": [
+        "covenant-day:sections[5].plans[0].detail"
+      ]
+    },
+    {
+      "t": "9×",
+      "of": "eafe64d9",
+      "at": [
+        "covenant-day:sections[5].plans[1].figure"
+      ]
+    },
+    {
+      "t": "طرح ماهانه (FACTS)",
+      "of": "28896c7b",
+      "at": [
+        "covenant-day:sections[5].plans[1].label"
+      ]
+    },
+    {
+      "t": "نه قسط برابر، **مه تا ژانویه**، با پرداخت خودکار در روز 5 یا 20 — به‌علاوهٔ هزینهٔ $50/year بابت FACTS. به فصل توجه کنید: پرداخت‌ها چهار ماه پیش از آغاز مدرسه شروع می‌شوند.",
+      "of": "e99f8921",
+      "at": [
+        "covenant-day:sections[5].plans[1].detail"
+      ]
+    },
+    {
+      "t": "3.05%",
+      "of": "9bb9f1aa",
+      "at": [
+        "covenant-day:sections[5].plans[2].figure"
+      ]
+    },
+    {
+      "t": "کارمزد کارت",
+      "of": "29880099",
+      "at": [
+        "covenant-day:sections[5].plans[2].label"
+      ]
+    },
+    {
+      "t": "پرداخت‌های دبیت/کردیت یک هزینهٔ پردازش 3.05% دارند؛ برداشت بانکی از آن پرهیز می‌کند. روی شهریهٔ $22,790 این تقریباً $695 است.",
+      "of": "3ecab72f",
+      "at": [
+        "covenant-day:sections[5].plans[2].detail"
+      ]
+    },
+    {
+      "t": "دهم",
+      "of": "61efd168",
+      "at": [
+        "covenant-day:sections[5].plans[3].figure"
+      ]
+    },
+    {
+      "t": "مهلت انصراف",
+      "of": "09449783",
+      "at": [
+        "covenant-day:sections[5].plans[3].label"
+      ]
+    },
+    {
+      "t": "انصراف‌ها باید تا دهم ماه رسمی شوند تا قسط آن ماه حذف شود؛ بازپرداخت‌ها برابر با اقساطی است که تاریخ سررسیدشان نگذشته است. خانواده‌های طرح ماهانه که پرداخت‌هایشان به‌روز است هیچ بازپرداختی نمی‌گیرند و بدهی بیشتری ندارند.",
+      "of": "f87d5f23",
+      "at": [
+        "covenant-day:sections[5].plans[3].detail"
+      ]
+    },
+    {
+      "t": "حساب‌های غیرجاری",
+      "of": "e9664408",
+      "at": [
+        "covenant-day:sections[5].boxes[0].title"
+      ]
+    },
+    {
+      "t": "حساب‌هایی که بیش از 30 روز از سررسیدشان گذشته می‌توانند ثبت‌نام مجدد، کارنامه، صدور ریزنمرات — و دسترسی به کلاس را تعلیق کنند. یک بند استاندارد فورس‌ماژور تعهدهای شهریه را در طول تعطیلی‌ها زنده نگه می‌دارد.",
+      "of": "7d101a4f",
+      "at": [
+        "covenant-day:sections[5].boxes[0].body"
+      ]
+    },
+    {
+      "t": "روند، و آنچه باید پرسید",
+      "of": "ddf5a036",
+      "at": [
+        "covenant-day:sections[6].title"
+      ]
+    },
+    {
+      "t": "افزایش ثابت در هر بازه، 2025–26 ← 2026–27",
+      "of": "d2ecb683",
+      "at": [
+        "covenant-day:sections[6].stats[0].label"
+      ]
+    },
+    {
+      "t": "بازهٔ سقف — پایین‌ترین شهریهٔ سقف در این مقایسه",
+      "of": "70a1af95",
+      "at": [
+        "covenant-day:sections[6].stats[1].label"
+      ]
+    },
+    {
+      "t": "از نرخ‌های منتشرشده (وب‌سایت + PDF شرایط)",
+      "of": "236fb2d1",
+      "at": [
+        "covenant-day:sections[6].stats[2].label"
+      ]
+    },
+    {
+      "t": "پرسش‌هایی که سابقهٔ عمومی نمی‌تواند پاسخ دهد",
+      "of": "b608282c",
+      "at": [
+        "covenant-day:sections[6].questionsTitle"
+      ]
+    },
+    {
+      "t": "چه سهمی از خانواده‌ها کمک‌هزینه دریافت می‌کنند، و میانگین بورس چقدر است؟ (رقم ~20% شخص ثالث است.)",
+      "of": "c63baba4",
+      "at": [
+        "covenant-day:sections[6].questions[0]"
+      ]
+    },
+    {
+      "t": "مهلت درخواست کمک‌هزینه چیست، و تصمیم‌ها نسبت به قراردادهای ثبت‌نام کِی اعلام می‌شوند؟",
+      "of": "51da8062",
+      "at": [
+        "covenant-day:sections[6].questions[1]"
+      ]
+    },
+    {
+      "t": "درخواست الزامی NC Opportunity Scholarship برای خانواده‌های بالای سقف درآمد ایالتی چگونه با کمک‌هزینهٔ CDS تعامل می‌کند؟",
+      "of": "adf1ebc4",
+      "at": [
+        "covenant-day:sections[6].questions[2]"
+      ]
+    },
+    {
+      "t": "آیا فرایند تجدیدنظر یا تغییر شرایط در میانهٔ سال وجود دارد؟",
+      "of": "d1ee59df",
+      "at": [
+        "covenant-day:sections[6].questions[3]"
+      ]
+    },
+    {
+      "t": "آیا افزایش ثابت $1,200 یک انتخاب یک‌ساله بود یا الگوی پابرجا؟",
+      "of": "22306959",
+      "at": [
+        "covenant-day:sections[6].questions[4]"
+      ]
+    },
+    {
       "t": "سال تحصیلی 2026–27 · ارقام تا 22 ژوئیهٔ 2026",
       "of": "6f9ac510",
       "at": [
@@ -3599,24 +4146,10 @@
       ]
     },
     {
-      "t": "کمک‌هزینهٔ شهریه در طول تحصیل — نه کمک‌هزینهٔ دانشگاه. این مشاورهٔ مالی نیست.",
-      "of": "e6f51e0f",
-      "at": [
-        "davidson-day:framing[2].body"
-      ]
-    },
-    {
       "t": "شهریه بر حسب دوره",
       "of": "60483d8b",
       "at": [
         "davidson-day:sections[0].navTitle"
-      ]
-    },
-    {
-      "t": "شهریه بر حسب پایه",
-      "of": "3e0b286d",
-      "at": [
-        "davidson-day:sections[0].title"
       ]
     },
     {
@@ -3781,13 +4314,6 @@
       ]
     },
     {
-      "t": "فرایند و جدول زمانی کمک‌هزینه",
-      "of": "690355d8",
-      "at": [
-        "davidson-day:sections[2].title"
-      ]
-    },
-    {
       "t": "15 فوریه",
       "of": "860084f6",
       "at": [
@@ -3939,13 +4465,6 @@
       "of": "e1c9fd17",
       "at": [
         "davidson-day:sections[3].boxes[1].body"
-      ]
-    },
-    {
-      "t": "طرح‌های پرداخت و شرایط قرارداد",
-      "of": "7e5b3eac",
-      "at": [
-        "davidson-day:sections[4].title"
       ]
     },
     {

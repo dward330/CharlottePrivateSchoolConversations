@@ -58,6 +58,7 @@
         "charlotte-christian:offered.seasons[0].name",
         "charlotte-country-day:offered.seasons[0].name",
         "cannon:offered.seasons[0].name",
+        "covenant-day:offered.seasons[0].name",
         "davidson-day:offered.seasons[0].name"
       ]
     },
@@ -81,6 +82,7 @@
         "charlotte-christian:offered.seasons[1].name",
         "charlotte-country-day:offered.seasons[1].name",
         "cannon:offered.seasons[1].name",
+        "covenant-day:offered.seasons[1].name",
         "davidson-day:offered.seasons[1].name"
       ]
     },
@@ -93,6 +95,7 @@
         "charlotte-christian:offered.seasons[2].name",
         "charlotte-country-day:offered.seasons[2].name",
         "cannon:offered.seasons[2].name",
+        "covenant-day:offered.seasons[2].name",
         "davidson-day:offered.seasons[2].name"
       ]
     },
@@ -155,6 +158,7 @@
         "cannon:record.rows[0].cells[2].result",
         "cannon:record.rows[1].cells[0].result",
         "cannon:record.rows[2].cells[0].result",
+        "covenant-day:record.rows[0].cells[2].result",
         "davidson-day:record.rows[0].cells[0].result",
         "davidson-day:record.rows[0].cells[1].result",
         "davidson-day:record.rows[0].cells[2].result",
@@ -185,6 +189,8 @@
         "charlotte-country-day:record.rows[2].cells[2].result",
         "charlotte-country-day:record.rows[5].cells[2].result",
         "cannon:record.rows[3].cells[2].result",
+        "covenant-day:record.rows[1].cells[1].result",
+        "covenant-day:record.rows[1].cells[2].result",
         "davidson-day:record.rows[1].cells[2].result"
       ]
     },
@@ -250,6 +256,11 @@
         "cannon:record.rows[5].cells[0].result",
         "cannon:record.rows[5].cells[1].result",
         "cannon:record.rows[5].cells[2].result",
+        "covenant-day:record.rows[0].cells[0].result",
+        "covenant-day:record.rows[0].cells[1].result",
+        "covenant-day:record.rows[1].cells[0].result",
+        "covenant-day:record.rows[2].cells[0].result",
+        "covenant-day:record.rows[2].cells[1].result",
         "davidson-day:record.rows[2].cells[2].result",
         "davidson-day:record.rows[3].cells[2].result",
         "davidson-day:record.rows[5].cells[1].result",
@@ -278,6 +289,7 @@
       "of": "6afcd109",
       "at": [
         "providence-day:record.rows[4].cells[1].result",
+        "covenant-day:record.rows[2].cells[2].result",
         "davidson-day:record.rows[4].cells[1].result",
         "davidson-day:record.rows[4].cells[2].result"
       ]
@@ -361,6 +373,7 @@
         "charlotte-christian:pipeline.funnel[0].label",
         "charlotte-country-day:pipeline.funnel[0].label",
         "cannon:pipeline.funnel[0].label",
+        "covenant-day:pipeline.funnel[0].label",
         "davidson-day:pipeline.funnel[0].label"
       ]
     },
@@ -382,6 +395,7 @@
         "charlotte-christian:pipeline.funnel[1].label",
         "charlotte-country-day:pipeline.funnel[1].label",
         "cannon:pipeline.funnel[1].label",
+        "covenant-day:pipeline.funnel[1].label",
         "davidson-day:pipeline.funnel[1].label"
       ]
     },
@@ -394,6 +408,7 @@
         "charlotte-christian:pipeline.funnel[1].hint",
         "charlotte-country-day:pipeline.funnel[1].hint",
         "cannon:pipeline.funnel[1].hint",
+        "covenant-day:pipeline.funnel[1].hint",
         "davidson-day:pipeline.funnel[1].hint"
       ]
     },
@@ -406,6 +421,7 @@
         "charlotte-christian:pipeline.funnel[2].label",
         "charlotte-country-day:pipeline.funnel[2].label",
         "cannon:pipeline.funnel[2].label",
+        "covenant-day:pipeline.funnel[2].label",
         "davidson-day:pipeline.funnel[2].label"
       ]
     },
@@ -418,6 +434,7 @@
         "charlotte-christian:pipeline.funnel[2].hint",
         "charlotte-country-day:pipeline.funnel[2].hint",
         "cannon:pipeline.funnel[2].hint",
+        "covenant-day:pipeline.funnel[2].hint",
         "davidson-day:pipeline.funnel[2].hint"
       ]
     },
@@ -483,7 +500,8 @@
         "charlotte-christian:pipeline.roster[29].sport",
         "charlotte-christian:pipeline.roster[30].sport",
         "charlotte-christian:pipeline.roster[32].sport",
-        "charlotte-country-day:pipeline.roster[20].sport"
+        "charlotte-country-day:pipeline.roster[20].sport",
+        "covenant-day:pipeline.roster[11].sport"
       ]
     },
     {
@@ -567,7 +585,8 @@
         "providence-day:pipeline.roster[79].sport",
         "providence-day:pipeline.roster[80].sport",
         "charlotte-country-day:pipeline.roster[36].sport",
-        "charlotte-country-day:pipeline.roster[41].sport"
+        "charlotte-country-day:pipeline.roster[41].sport",
+        "covenant-day:pipeline.roster[0].sport"
       ]
     },
     {
@@ -635,6 +654,8 @@
         "charlotte-country-day:pipeline.roster[24].sport",
         "cannon:pipeline.roster[2].sport",
         "cannon:coaching.tenure[4].role",
+        "covenant-day:pipeline.roster[13].sport",
+        "covenant-day:pipeline.roster[28].sport",
         "davidson-day:pipeline.roster[5].sport",
         "davidson-day:pipeline.roster[6].sport"
       ]
@@ -657,7 +678,14 @@
         "charlotte-country-day:pipeline.roster[9].sport",
         "charlotte-country-day:pipeline.roster[10].sport",
         "charlotte-country-day:pipeline.roster[44].sport",
-        "charlotte-country-day:coaching.tenure[6].role"
+        "charlotte-country-day:coaching.tenure[6].role",
+        "covenant-day:pipeline.roster[8].sport",
+        "covenant-day:pipeline.roster[16].sport",
+        "covenant-day:pipeline.roster[17].sport",
+        "covenant-day:pipeline.roster[20].sport",
+        "covenant-day:pipeline.roster[26].sport",
+        "covenant-day:pipeline.roster[31].sport",
+        "covenant-day:pipeline.roster[32].sport"
       ]
     },
     {
@@ -690,7 +718,9 @@
       "of": "3d1c7bf4",
       "at": [
         "providence-day:pipeline.roster[28].sport",
-        "charlotte-christian:pipeline.roster[1].sport"
+        "charlotte-christian:pipeline.roster[1].sport",
+        "covenant-day:pipeline.roster[23].sport",
+        "covenant-day:pipeline.roster[25].sport"
       ]
     },
     {
@@ -710,7 +740,8 @@
         "charlotte-christian:pipeline.roster[6].sport",
         "charlotte-christian:pipeline.roster[12].sport",
         "charlotte-christian:pipeline.roster[15].sport",
-        "charlotte-christian:pipeline.roster[31].sport"
+        "charlotte-christian:pipeline.roster[31].sport",
+        "covenant-day:pipeline.roster[2].sport"
       ]
     },
     {
@@ -1152,6 +1183,8 @@
         "providence-day:coaching.tenure[6].since",
         "providence-day:coaching.tenure[7].since",
         "charlotte-christian:coaching.tenure[6].since",
+        "covenant-day:coaching.tenure[2].since",
+        "covenant-day:coaching.tenure[3].since",
         "davidson-day:coaching.tenure[2].since"
       ]
     },
@@ -1583,7 +1616,8 @@
       "t": "من الطلاب يمارسون رياضة",
       "of": "5ea7fd07",
       "at": [
-        "charlotte-latin:offered.stats[2].label"
+        "charlotte-latin:offered.stats[2].label",
+        "covenant-day:offered.stats[1].label"
       ]
     },
     {
@@ -1773,7 +1807,8 @@
         "charlotte-latin:pipeline.roster[23].sport",
         "charlotte-christian:pipeline.roster[3].sport",
         "charlotte-christian:pipeline.roster[20].sport",
-        "charlotte-christian:pipeline.roster[33].sport"
+        "charlotte-christian:pipeline.roster[33].sport",
+        "covenant-day:pipeline.roster[10].sport"
       ]
     },
     {
@@ -1804,7 +1839,8 @@
         "charlotte-latin:pipeline.roster[35].sport",
         "charlotte-christian:pipeline.roster[9].sport",
         "charlotte-country-day:pipeline.roster[22].sport",
-        "charlotte-country-day:pipeline.roster[34].sport"
+        "charlotte-country-day:pipeline.roster[34].sport",
+        "covenant-day:pipeline.roster[6].sport"
       ]
     },
     {
@@ -1906,6 +1942,9 @@
         "charlotte-christian:honors.honors[3].tag",
         "charlotte-country-day:honors.honors[0].tag",
         "cannon:honors.honors[2].tag",
+        "covenant-day:honors.honors[0].tag",
+        "covenant-day:honors.honors[1].tag",
+        "covenant-day:honors.honors[3].tag",
         "davidson-day:honors.honors[1].tag",
         "davidson-day:honors.honors[3].tag"
       ]
@@ -2519,7 +2558,8 @@
         "charlotte-country-day:record.bars[2].tag",
         "charlotte-country-day:record.bars[3].tag",
         "charlotte-country-day:record.bars[4].tag",
-        "charlotte-country-day:record.bars[5].tag"
+        "charlotte-country-day:record.bars[5].tag",
+        "covenant-day:record.bars[1].tag"
       ]
     },
     {
@@ -4006,6 +4046,7 @@
       "of": "a0fb88bd",
       "at": [
         "cannon:pipeline.funnel[0].hint",
+        "covenant-day:pipeline.funnel[0].hint",
         "davidson-day:pipeline.funnel[0].hint"
       ]
     },
@@ -4258,7 +4299,8 @@
       "t": "3",
       "of": "360caa42",
       "at": [
-        "cannon:coaching.featured[1].stats[1].value"
+        "cannon:coaching.featured[1].stats[1].value",
+        "covenant-day:coaching.featured[0].stats[1].value"
       ]
     },
     {
@@ -4534,6 +4576,652 @@
       "of": "6111f0cb",
       "at": [
         "cannon:facilities.careNote"
+      ]
+    },
+    {
+      "t": "18 فريقًا عبر ثلاثة مواسم، مع ممارسة 82% من الطلاب رياضةً واحدة على الأقل.",
+      "of": "b4f32bd9",
+      "at": [
+        "covenant-day:offered.headline"
+      ]
+    },
+    {
+      "t": "برنامج CISAA / NCISAA 4A أرسل أكثر من 175 رياضيًّا إلى الرياضات الجامعية منذ أول دفعة متخرّجة في المدرسة عام 2006.",
+      "of": "e48cdf2f",
+      "at": [
+        "covenant-day:offered.subhead"
+      ]
+    },
+    {
+      "t": "فرق، V · JV · MS",
+      "of": "a6672127",
+      "at": [
+        "covenant-day:offered.stats[0].label"
+      ]
+    },
+    {
+      "t": "رياضيًّا جامعيًّا منذ 2006",
+      "of": "091b1144",
+      "at": [
+        "covenant-day:offered.stats[2].label"
+      ]
+    },
+    {
+      "t": "رابطة 4A في NCISAA",
+      "of": "9a8b19a9",
+      "at": [
+        "covenant-day:offered.stats[3].label"
+      ]
+    },
+    {
+      "t": "8 فرق",
+      "of": "74bd84cd",
+      "at": [
+        "covenant-day:offered.seasons[0].note"
+      ]
+    },
+    {
+      "t": "4 فرق",
+      "of": "12157781",
+      "at": [
+        "covenant-day:offered.seasons[1].note"
+      ]
+    },
+    {
+      "t": "6 فرق",
+      "of": "a007c103",
+      "at": [
+        "covenant-day:offered.seasons[2].note"
+      ]
+    },
+    {
+      "t": "رقم الـ 18 فريقًا وتجميعات المواسم من المدرسة نفسها؛ إذ تذكر أن الفرق تعمل \"على مستويات الفريق الأول وJV والمرحلة المتوسطة\" دون نشر تفصيل لكل رياضة، فلا تُؤكَّد صفوف JV/MS هنا. وتُدار كرة الطائرة للفتيان بوصفها رياضة نادٍ، ويظهر برنامج لاكروس مشترك في تغطية توقيعات المدرسة. ويحصي MaxPreps 21 رياضة للفريق الأول و50 فريقًا إجماليًّا بتقسيم الأجناس والمستويات التي تجمعها المدرسة.",
+      "of": "73350d73",
+      "at": [
+        "covenant-day:offered.footnote"
+      ]
+    },
+    {
+      "t": "تغلّب فريق السوفتبول لموسم 2025–26 على Cannon في لقب NCISAA 4A — أول بطولة ولاية فريقية للمدرسة منذ 2017، ضمن 26 ظهورًا في البطولات عبر تاريخها.",
+      "of": "6944ea48",
+      "at": [
+        "covenant-day:record.headline"
+      ]
+    },
+    {
+      "t": "بلغ فريق كرة القدم للفتيان نهائيَّي الولاية على التوالي، وأمضى جزءًا من خريف 2025 مصنَّفًا الأول على مستوى البلاد خلال سلسلة من 8 مباريات دون هزيمة.",
+      "of": "1b1425b2",
+      "at": [
+        "covenant-day:record.subhead"
+      ]
+    },
+    {
+      "t": "أول ألقاب على الإطلاق في السوفتبول: رابطة CISAA وولاية NCISAA؛ تغلّب على Cannon في النهائي",
+      "of": "09c65dc6",
+      "at": [
+        "covenant-day:record.rows[0].note"
+      ]
+    },
+    {
+      "t": "أول نهائي على الإطلاق في 2024–25، ثم استضاف نهائي 2025–26 بصفته المصنَّف الأول وخسر 2–1 أمام Christ School",
+      "of": "12240d4e",
+      "at": [
+        "covenant-day:record.rows[1].note"
+      ]
+    },
+    {
+      "t": "أخذ Providence Day إلى الوقت الإضافي في نصف نهائي الولاية؛ وصيف الولاية في 2022",
+      "of": "e6015c37",
+      "at": [
+        "covenant-day:record.rows[2].note"
+      ]
+    },
+    {
+      "t": "كرة القدم للفتيان (فاز Christ School بنهائي 2025–26 بنتيجة 2–1 في Covenant Day) · الهوكي الميداني (أُقصي في الوقت الإضافي أمام Providence Day) · الكرة الطائرة، التي تمثّل نتائجها الثلاث المتتالية كوصيف للولاية أعلى إنجاز قائم للبرنامج.",
+      "of": "049bef87",
+      "at": [
+        "covenant-day:record.didNotWin"
+      ]
+    },
+    {
+      "t": "'25–26 CONF",
+      "of": "6117fbfe",
+      "at": [
+        "covenant-day:record.bars[0].tag"
+      ]
+    },
+    {
+      "t": "أحرز فريق 2025–26 أول لقب على الإطلاق في السوفتبول لرابطة CISAA وبطولة ولاية NCISAA — وأول لقب ولاية فريقي من أي نوع لـ CDS منذ 2017 — بسجلّ 10–1 في الرابطة وتغلّبًا على Cannon في النهائي. وكانت الطالبة الخرّيجة Avery Houseton لاعبة العام في الرابطة واختيار All-State قبل توقيعها مع UNC Charlotte.",
+      "of": "d74004aa",
+      "at": [
+        "covenant-day:record.seasonDetail[0].text"
+      ]
+    },
+    {
+      "t": "بلغ أول نهائي NCISAA 4A للبرنامج في 2024–25، ثم نال التصنيف الأول عمومًا في 2025–26، واستضاف مباراة البطولة للعام الثاني على التوالي، وكان \"مصنَّفًا الأول على مستوى البلاد\" خلال سلسلة من 8 مباريات دون هزيمة قبل أن يخسر 2–1 أمام Christ School.",
+      "of": "022d5bbd",
+      "at": [
+        "covenant-day:record.seasonDetail[1].text"
+      ]
+    },
+    {
+      "t": "نالت كرة السلة للفتيان التصنيف الرابع عمومًا في تصفيات NCISAA لموسم 2024–25 بفضل ثنائي خرّيج من All-State؛ وأخذ البيسبول التصنيف الثامن في 2025–26 بسجلّ 12–14 (5–5 في الرابطة). ولم يبلغ أيٌّ منهما نصف النهائي، فيقعان خارج مصفوفة الألقاب أعلاه.",
+      "of": "1b719320",
+      "at": [
+        "covenant-day:record.seasonDetail[2].text"
+      ]
+    },
+    {
+      "t": "فازت كرة السلة للفتيات بـ 15 مباراة في 2024–25 أكثر من الموسم السابق، بينها سلسلة انتصارات من 10 مباريات. وفازت Caitlin Kasten في اختراق الضاحية للفتيات ببطولتَي CISAA وNCISAA وهي في سنتها الثانية. وأحرزت كرة المضرب للفتيات كأس Ashe — الجائزة السنوية أمام Charlotte Christian — لأول مرة في تاريخ المدرسة عام 2025.",
+      "of": "f2ff877b",
+      "at": [
+        "covenant-day:record.seasonDetail[3].text"
+      ]
+    },
+    {
+      "t": "33 التزامًا جامعيًّا موثّقًا عبر دفعات 2024–26 — تسعة منها Division I، وواحد إلى برنامج Power 4.",
+      "of": "a2935663",
+      "at": [
+        "covenant-day:pipeline.headline"
+      ]
+    },
+    {
+      "t": "التوقيع الأبرز هو Emily Eaton ’24، التي بدأت كل مباراة في سنتها الأولى ضمن فريق Louisville للهوكي الميداني المصنَّف ضمن العشرة الأوائل.",
+      "of": "6ff324b1",
+      "at": [
+        "covenant-day:pipeline.subhead"
+      ]
+    },
+    {
+      "t": "حدود دنيا موثّقة جُمِعت من مقالات المدرسة الست عن التوقيعات والالتزامات. ويسمّي مقال توقيعات ربيع دفعة 2024 ستة رياضيّين لكن أربعة فقط قابلون للاسترجاع، فقد تكون التزامات مطلع 2024 ناقصة. والزعم التراكمي للمدرسة هو 175+ رياضيًّا جامعيًّا منذ 2006.",
+      "of": "087b0fd4",
+      "at": [
+        "covenant-day:pipeline.funnelNote"
+      ]
+    },
+    {
+      "t": "خطّ التغذية عريض لا عالٍ: تمتد الالتزامات عبر إحدى عشرة رياضة، لكن السقف خارج الهوكي الميداني هو D1 من الدرجة المتوسطة — Louisiana Tech وEast Carolina وUNC Charlotte وQueens وGardner-Webb وDavidson وWofford وAppalachian State. وهذا يفسّر أيضًا غياب نشاط NIL وتصنيفات الاستقطاب ضمن أفضل 100، إذ تتبع تلك خطوط كرة القدم وكرة السلة في Power 4.",
+      "of": "d8445aa5",
+      "at": [
+        "covenant-day:pipeline.realityCheck"
+      ]
+    },
+    {
+      "t": "لا يُوثَّق أي مستقطَب مصنَّف ضمن أفضل 100 وطنيًّا. وأكثر مستقطَبَين تغطيةً هما Emily Eaton ’24 — لاعبة العام في NCISAA لعام 2023 ولاعبة العام في نورث كارولاينا بحسب Max Field Hockey، وقّعها برنامج Louisville المصنَّف ضمن العشرة الأوائل — والمهاجم Michael Marcus Jr ’24 بطول 6′9″، الذي اختار Appalachian State بعد تغطية على مستوى ولاية نورث كارولاينا.",
+      "of": "825cb957",
+      "at": [
+        "covenant-day:pipeline.rankedRecruits"
+      ]
+    },
+    {
+      "t": "كرة السلة",
+      "of": "5f3f8676",
+      "at": [
+        "covenant-day:pipeline.roster[1].sport",
+        "covenant-day:pipeline.roster[14].sport",
+        "covenant-day:pipeline.roster[15].sport",
+        "covenant-day:pipeline.roster[29].sport",
+        "covenant-day:pipeline.roster[30].sport"
+      ]
+    },
+    {
+      "t": "XC / Track",
+      "of": "0ef9f162",
+      "at": [
+        "covenant-day:pipeline.roster[3].sport",
+        "covenant-day:pipeline.roster[7].sport",
+        "covenant-day:pipeline.roster[22].sport"
+      ]
+    },
+    {
+      "t": "كرة القدم",
+      "of": "4d37567e",
+      "at": [
+        "covenant-day:pipeline.roster[4].sport",
+        "covenant-day:pipeline.roster[5].sport",
+        "covenant-day:pipeline.roster[9].sport",
+        "covenant-day:pipeline.roster[12].sport",
+        "covenant-day:pipeline.roster[18].sport",
+        "covenant-day:pipeline.roster[19].sport",
+        "covenant-day:pipeline.roster[21].sport",
+        "covenant-day:pipeline.roster[24].sport",
+        "covenant-day:pipeline.roster[27].sport"
+      ]
+    },
+    {
+      "t": "جُمِع من مقالات توقيعات Lions News الخاصة بالمدرسة (سبتمبر 2024 حتى أبريل 2026). وتحقّق الباحث من المستويات والروابط لكل جامعة؛ ويُدرَج الموقِّعان القادمان من كليات المجتمع في فئة D3 لعدم وجود مستوى NJCAA في مقياس هذا الجدول. وانتقلت Eaton من Louisville إلى Virginia — وهي أيضًا في ACC — لخريف 2026.",
+      "of": "8224ce43",
+      "at": [
+        "covenant-day:pipeline.rosterNote"
+      ]
+    },
+    {
+      "t": "خرّيجة البرنامج المرجعية بدأت كل مباراة في سنتها الأولى بـ ACC؛ وموسمه المرجعي وضع كرة القدم للفتيان في المرتبة الأولى على مستوى البلاد.",
+      "of": "6bf5f22c",
+      "at": [
+        "covenant-day:honors.headline"
+      ]
+    },
+    {
+      "t": "لا خرّيجون محترفون بعد — فأول دفعة متخرّجة كانت 2006 — لكن سجلًّا حافلًا من اختيارات all-conference وall-state كل موسم.",
+      "of": "5a1d7e2e",
+      "at": [
+        "covenant-day:honors.subhead"
+      ]
+    },
+    {
+      "t": "ACC · دفعة '24",
+      "of": "682f9447",
+      "at": [
+        "covenant-day:honors.pros[0].kicker"
+      ]
+    },
+    {
+      "t": "لاعبة العام في NCISAA لعام 2023، ولاعبة الهجوم للعام لدى Charlotte Observer، ولاعبة العام في نورث كارولاينا بحسب Max Field Hockey بعد تصدّرها الولاية بـ 18 هدفًا. وهي أعلى مسجّلة نقاط في تاريخ CDS، بدأت المباريات الـ 17 كلها في سنتها الأولى بـ Louisville وانتقلت إلى Virginia لخريف 2026.",
+      "of": "b6a42bec",
+      "at": [
+        "covenant-day:honors.pros[0].detail"
+      ]
+    },
+    {
+      "t": "Sun Belt · دفعة '24",
+      "of": "ca8ddb97",
+      "at": [
+        "covenant-day:honors.pros[1].kicker"
+      ]
+    },
+    {
+      "t": "مهاجم بطول 6′9″ سجّل معدّل 14.9 نقطة في سنته الأخيرة وقاد الـ Lions إلى نصف نهائي 4A، ثم حقّق دبل-دبل من 18 نقطة و10 متابعات في مباراته الجامعية الثانية.",
+      "of": "86d81faa",
+      "at": [
+        "covenant-day:honors.pros[1].detail"
+      ]
+    },
+    {
+      "t": "خرّيجة All-State في رياضتين",
+      "of": "80012f9b",
+      "at": [
+        "covenant-day:honors.honors[0].label"
+      ]
+    },
+    {
+      "t": "كانت Avery Houseton ’26 لاعبة العام في الرابطة للسوفتبول واختيار All-State، ونالت أيضًا شرفَي All-Conference وAll-State في الكرة الطائرة، وسجّلت التصدّي الألف في مسيرتها، ووقّعت مع UNC Charlotte.",
+      "of": "aade0998",
+      "at": [
+        "covenant-day:honors.honors[0].text"
+      ]
+    },
+    {
+      "t": "بطلة الرابطة للعام",
+      "of": "e8b7f42c",
+      "at": [
+        "covenant-day:honors.honors[1].label"
+      ]
+    },
+    {
+      "t": "فازت Caitlin Kasten ببطولتَي اختراق الضاحية لـ CISAA وNCISAA وهي في سنتها الثانية واختيرت عدّاءة العام في CISAA (2024).",
+      "of": "fb3d6501",
+      "at": [
+        "covenant-day:honors.honors[1].text"
+      ]
+    },
+    {
+      "t": "اختيارات All-American Bowl",
+      "of": "0ca2d59a",
+      "at": [
+        "covenant-day:honors.honors[2].label"
+      ]
+    },
+    {
+      "t": "اختير خمسة لاعبي كرة قدم لـ Gatlinburg All-American Bowl بعد موسم 2024، من بين ستة اختيارات All-Conference وأربعة اختيارات All-State.",
+      "of": "bd3ae4ad",
+      "at": [
+        "covenant-day:honors.honors[2].text"
+      ]
+    },
+    {
+      "t": "متعدّد الولايات",
+      "of": "2db81b0e",
+      "at": [
+        "covenant-day:honors.honors[2].tag"
+      ]
+    },
+    {
+      "t": "نجم المرحلة المتوسطة",
+      "of": "c324b302",
+      "at": [
+        "covenant-day:honors.honors[3].label"
+      ]
+    },
+    {
+      "t": "نال Carlton Huitt الفريق الأول All-Conference وAll-State في كرة المضرب للفتيان عام 2026 — وهو في الصف الثامن.",
+      "of": "3472a3b4",
+      "at": [
+        "covenant-day:honors.honors[3].text"
+      ]
+    },
+    {
+      "t": "محطات المسيرة",
+      "of": "d87f510e",
+      "at": [
+        "covenant-day:honors.honors[4].label"
+      ]
+    },
+    {
+      "t": "تجاوز Chris Rivens ’25 حاجز 1,000 نقطة في كرة السلة عبر مسيرته؛ وتجاوزت Maggie Shannon ’26 حاجز 1,000 تمريرة حاسمة في الكرة الطائرة خلال ثلاثة مواسم؛ وسجّل Ethan Welsh ’26 ثاني أسرع زمن في اختراق الضاحية في تاريخ المدرسة (15:58.7).",
+      "of": "fea949b1",
+      "at": [
+        "covenant-day:honors.honors[4].text"
+      ]
+    },
+    {
+      "t": "سجلّ أرقام البرنامج",
+      "of": "ffef9495",
+      "at": [
+        "covenant-day:honors.honors[4].tag"
+      ]
+    },
+    {
+      "t": "مدير الإرشاد الجامعي دَرَّب الكرة الطائرة للفريق الأول 22 موسمًا — والمدير الرياضي الجديد رُقِّي من منصب مدير المدرسة الثانوية.",
+      "of": "b7e1bda7",
+      "at": [
+        "covenant-day:coaching.headline"
+      ]
+    },
+    {
+      "t": "المدير الرياضي: Mike Freace. والاستمرارية هنا عبر الأجيال: موقِّعان حاليّان هما ابنا المدير الرياضي والمرشد التوجيهي.",
+      "of": "275f2b85",
+      "at": [
+        "covenant-day:coaching.subhead"
+      ]
+    },
+    {
+      "t": "مرتكز الاستمرارية · الكرة الطائرة، 22 موسمًا",
+      "of": "913dbc58",
+      "at": [
+        "covenant-day:coaching.featured[0].kicker"
+      ]
+    },
+    {
+      "t": "22",
+      "of": "8ff29ca5",
+      "at": [
+        "covenant-day:coaching.featured[0].stats[0].value"
+      ]
+    },
+    {
+      "t": "موسمًا مدرّبًا رئيسيًّا في 2024",
+      "of": "62339a98",
+      "at": [
+        "covenant-day:coaching.featured[0].stats[0].label"
+      ]
+    },
+    {
+      "t": "نتائج متتالية كوصيف للولاية",
+      "of": "627bd381",
+      "at": [
+        "covenant-day:coaching.featured[0].stats[1].label"
+      ]
+    },
+    {
+      "t": "2003",
+      "of": "d32ea22a",
+      "at": [
+        "covenant-day:coaching.featured[0].stats[2].value"
+      ]
+    },
+    {
+      "t": "في Covenant Day منذ",
+      "of": "2f380028",
+      "at": [
+        "covenant-day:coaching.featured[0].stats[2].label"
+      ]
+    },
+    {
+      "t": "يجمع مدير التوجيه والإرشاد الجامعي بين منصبه ودور المدرّب الرئيس للكرة الطائرة للفريق الأول — ولاية امتدّت عقدين أنتجت ثلاث نتائج متتالية كوصيف لولاية NCISAA، وفي 2025، خرّيجة بـ 1,000 تصدٍّ وأخرى بـ 1,000 تمريرة حاسمة في التشكيلة نفسها.",
+      "of": "d5039819",
+      "at": [
+        "covenant-day:coaching.featured[0].detail"
+      ]
+    },
+    {
+      "t": "الترقية الداخلية · المدير الرياضي",
+      "of": "844d31c9",
+      "at": [
+        "covenant-day:coaching.featured[1].kicker"
+      ]
+    },
+    {
+      "t": "HS",
+      "of": "6deb4e2c",
+      "at": [
+        "covenant-day:coaching.featured[1].stats[0].value"
+      ]
+    },
+    {
+      "t": "مدير المدرسة الثانوية قبل تولّي دور المدير الرياضي",
+      "of": "84c9be54",
+      "at": [
+        "covenant-day:coaching.featured[1].stats[0].label"
+      ]
+    },
+    {
+      "t": "2",
+      "of": "370cabd5",
+      "at": [
+        "covenant-day:coaching.featured[1].stats[1].value",
+        "davidson-day:coaching.featured[0].stats[1].value"
+      ]
+    },
+    {
+      "t": "مديرَين رياضيَّين مساعدَين بجانبه",
+      "of": "a22822ff",
+      "at": [
+        "covenant-day:coaching.featured[1].stats[1].label"
+      ]
+    },
+    {
+      "t": "'25",
+      "of": "4c455a8b",
+      "at": [
+        "covenant-day:coaching.featured[1].stats[2].value"
+      ]
+    },
+    {
+      "t": "وقّع ابنه Sean للعب كرة القدم الجامعية",
+      "of": "35e438d9",
+      "at": [
+        "covenant-day:coaching.featured[1].stats[2].label"
+      ]
+    },
+    {
+      "t": "انتقل Freace من مدير المدرسة الثانوية إلى المدير الرياضي — ترقية داخلية أُعلن عنها في موجز أخبار المدرسة لا تعيينًا من الخارج. والقسم من حوله: Aja Teich (مديرة رياضية مساعدة / مديرة المعلومات الرياضية)، وMichael Laney (مدير رياضي مساعد لرياضات المرحلة المتوسطة والمدرّب الرئيس لكرة السلة)، وChad Smith (القوة واللياقة)، إضافةً إلى مدير عمليات ومنسّق نقل.",
+      "of": "91c4cb32",
+      "at": [
+        "covenant-day:coaching.featured[1].detail"
+      ]
+    },
+    {
+      "t": "الكرة الطائرة · مدير التوجيه",
+      "of": "ab6ef47e",
+      "at": [
+        "covenant-day:coaching.tenure[0].role"
+      ]
+    },
+    {
+      "t": "منذ 2003",
+      "of": "610110dc",
+      "at": [
+        "covenant-day:coaching.tenure[0].since"
+      ]
+    },
+    {
+      "t": "المدير الرياضي",
+      "of": "e3e4c54b",
+      "at": [
+        "covenant-day:coaching.tenure[1].role"
+      ]
+    },
+    {
+      "t": "رُقِّي من مدير المدرسة الثانوية",
+      "of": "ac5fbf5a",
+      "at": [
+        "covenant-day:coaching.tenure[1].since"
+      ]
+    },
+    {
+      "t": "مدير رياضي مساعد · كرة السلة للفتيان",
+      "of": "c5075244",
+      "at": [
+        "covenant-day:coaching.tenure[2].role"
+      ]
+    },
+    {
+      "t": "القوة واللياقة",
+      "of": "92452875",
+      "at": [
+        "covenant-day:coaching.tenure[3].role"
+      ]
+    },
+    {
+      "t": "كرة القدم — تعيين مؤرَّخ",
+      "of": "bbe5b6c6",
+      "at": [
+        "covenant-day:coaching.tenure[4].role"
+      ]
+    },
+    {
+      "t": "أُعلن عنه في Lions News",
+      "of": "2e739b2b",
+      "at": [
+        "covenant-day:coaching.tenure[4].since",
+        "covenant-day:coaching.tenure[5].since"
+      ]
+    },
+    {
+      "t": "كرة القدم للفتيات — تعيين مؤرَّخ",
+      "of": "b633c633",
+      "at": [
+        "covenant-day:coaching.tenure[5].role"
+      ]
+    },
+    {
+      "t": "لا تنشر المدرسة دليل مدرّبين بتواريخ الولايات — والإعلانان المؤرَّخان لمدرّبَين رئيسيَّين (Langs لكرة القدم، وJohnson لكرة القدم للفتيات) ومحطة Mills عند 22 موسمًا هي المراسي الموثّقة. ومن مدرّبي البرامج المذكورين في تغطية المدرسة: David Houseton (البيسبول، والد الموقِّعة في السوفتبول Avery)، وVanessa Laney، وRachael Klohr، وJulius Klohr، وMike Hawks، وBobby Wehane.",
+      "of": "b1de6a44",
+      "at": [
+        "covenant-day:coaching.worthKnowing"
+      ]
+    },
+    {
+      "t": "صالة رياضية بسعة 800 مقعد، وملعب عشب صناعي يحيط به مضمار 200 متر، وست ملاعب تنس جديدة، ومتنزّه رياضي على مساحة 27 فدّانًا في الطريق نفسه.",
+      "of": "661f7b8a",
+      "at": [
+        "covenant-day:facilities.headline"
+      ]
+    },
+    {
+      "t": "تخطّط حملة Forever Covenant لمضمار من ثمانية مسارب ومبنى رياضي في Warner Park.",
+      "of": "78471844",
+      "at": [
+        "covenant-day:facilities.subhead"
+      ]
+    },
+    {
+      "t": "يتّسع لأكثر من 800 مشجّع؛ الملعب الرئيس لكرة السلة والكرة الطائرة.",
+      "of": "5dd38713",
+      "at": [
+        "covenant-day:facilities.venues[0].detail"
+      ]
+    },
+    {
+      "t": "ملعب عشب صناعي بالكامل بجانب المرحلة المتوسطة، يحيط به مضمار Davis من أربعة مسارب بطول 200 متر.",
+      "of": "e768a313",
+      "at": [
+        "covenant-day:facilities.venues[1].detail"
+      ]
+    },
+    {
+      "t": "27 فدّانًا في 515 Matthews Township Parkway — ملاعب بيسبول وسوفتبول وكرة قدم/كرة قدم، والهوكي الميداني للمرحلة المتوسطة. وتُقام هنا احتفالية العودة (Homecoming).",
+      "of": "70b0933c",
+      "at": [
+        "covenant-day:facilities.venues[2].detail"
+      ]
+    },
+    {
+      "t": "ست ملاعب صلبة جديدة تمامًا مع سرادق.",
+      "of": "cc7db98b",
+      "at": [
+        "covenant-day:facilities.venues[3].detail"
+      ]
+    },
+    {
+      "t": "الملعب الرئيس للهوكي الميداني وفعاليات ميدان اختراق الضاحية الربيعية.",
+      "of": "c0e5db57",
+      "at": [
+        "covenant-day:facilities.venues[4].detail"
+      ]
+    },
+    {
+      "t": "الكرة الطائرة وكرة السلة للمرحلة المتوسطة، والتربية البدنية للمرحلة الابتدائية.",
+      "of": "02acd3a8",
+      "at": [
+        "covenant-day:facilities.venues[5].detail"
+      ]
+    },
+    {
+      "t": "بُنيت في 2015 — حوامل رفع، وكرات حديدية مقبَّضة، وأثقال حرة؛ وتخدم الصفوف 6–12.",
+      "of": "745c60ab",
+      "at": [
+        "covenant-day:facilities.venues[6].detail"
+      ]
+    },
+    {
+      "t": "القوة واللياقة",
+      "of": "980f5f55",
+      "at": [
+        "covenant-day:facilities.care[0].label"
+      ]
+    },
+    {
+      "t": "منصب هيئة تدريس مخصّص — Chad Smith، معلّم ومدرّب القوة واللياقة للمرحلة الثانوية. والبرمجة مناسبة للعمر مع عمل مدمج على السرعة والرشاقة؛ ويُتابَع التقدّم يوميًّا، ويرفع الرياضيّون الأثقال بعد المدرسة وطوال الصيف.",
+      "of": "fe078d5c",
+      "at": [
+        "covenant-day:facilities.care[0].text"
+      ]
+    },
+    {
+      "t": "القوة بوصفها منهجًا",
+      "of": "2a3bff03",
+      "at": [
+        "covenant-day:facilities.care[1].label"
+      ]
+    },
+    {
+      "t": "القوة واللياقة مادة تربية بدنية تُحتسب لها ساعات معتمدة في High School Profile، والصفوف 6–12 تدرس مواد القوة الاختيارية في Webb Fitness Center.",
+      "of": "66f3f1ca",
+      "at": [
+        "covenant-day:facilities.care[1].text"
+      ]
+    },
+    {
+      "t": "التدريب الرياضي",
+      "of": "b80e5011",
+      "at": [
+        "covenant-day:facilities.care[2].label"
+      ]
+    },
+    {
+      "t": "لا يُذكَر أي مدرّبي تأهيل رياضي أو شراكة طب رياضي (OrthoCarolina / Novant / Atrium) في أي موضع بموقع الرياضة — فبرنامج القوة واللياقة أعلاه هو المدى المنشور لرعاية الرياضيّين.",
+      "of": "acbfbf51",
+      "at": [
+        "covenant-day:facilities.care[2].text"
+      ]
+    },
+    {
+      "t": "التطويرات المخطّطة في Warner Park — مضمار من ثمانية مسارب، وأماكن للفعاليات الميدانية، ومبنى رياضي، ومحلات بيع مأكولات، ودورات مياه — ستحلّ محلّ المضمار الحالي من أربعة مسارب بوصفها مقرّ البرنامج للمنافسات.",
+      "of": "96715f01",
+      "at": [
+        "covenant-day:facilities.careNote"
       ]
     },
     {
@@ -4905,13 +5593,6 @@
       "of": "5e63dfba",
       "at": [
         "davidson-day:coaching.featured[0].stats[0].label"
-      ]
-    },
-    {
-      "t": "2",
-      "of": "370cabd5",
-      "at": [
-        "davidson-day:coaching.featured[0].stats[1].value"
       ]
     },
     {

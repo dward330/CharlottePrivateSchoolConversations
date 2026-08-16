@@ -41,7 +41,9 @@
         "charlotte-country-day:catalog.categoryFilters[0].label",
         "charlotte-country-day:catalog.gradeFilters[0].label",
         "cannon:catalog.categoryFilters[0].label",
-        "cannon:catalog.gradeFilters[0].label"
+        "cannon:catalog.gradeFilters[0].label",
+        "covenant-day:catalog.categoryFilters[0].label",
+        "covenant-day:catalog.gradeFilters[0].label"
       ],
       "t": "সব"
     },
@@ -167,7 +169,18 @@
         "charlotte-christian:catalog.camps[21].categoryLabel",
         "charlotte-christian:catalog.camps[23].categoryLabel",
         "charlotte-christian:catalog.camps[24].categoryLabel",
-        "charlotte-christian:catalog.camps[25].categoryLabel"
+        "charlotte-christian:catalog.camps[25].categoryLabel",
+        "covenant-day:catalog.categoryFilters[2].label",
+        "covenant-day:catalog.camps[3].categoryLabel",
+        "covenant-day:catalog.camps[4].categoryLabel",
+        "covenant-day:catalog.camps[5].categoryLabel",
+        "covenant-day:catalog.camps[6].categoryLabel",
+        "covenant-day:catalog.camps[7].categoryLabel",
+        "covenant-day:catalog.camps[8].categoryLabel",
+        "covenant-day:catalog.camps[9].categoryLabel",
+        "covenant-day:catalog.camps[10].categoryLabel",
+        "covenant-day:catalog.camps[11].categoryLabel",
+        "covenant-day:catalog.camps[12].categoryLabel"
       ],
       "t": "ক্রীড়া"
     },
@@ -201,7 +214,8 @@
       "text": "TK–K",
       "of": "ad9a656e",
       "at": [
-        "providence-day:catalog.gradeFilters[1].label"
+        "providence-day:catalog.gradeFilters[1].label",
+        "covenant-day:catalog.camps[1].gradeLabel"
       ],
       "t": "TK–K"
     },
@@ -479,7 +493,27 @@
         "cannon:catalog.camps[72].dayLabel",
         "cannon:catalog.camps[73].dayLabel",
         "cannon:catalog.camps[74].dayLabel",
-        "cannon:catalog.camps[75].dayLabel"
+        "cannon:catalog.camps[75].dayLabel",
+        "covenant-day:catalog.camps[0].dayLabel",
+        "covenant-day:catalog.camps[1].dayLabel",
+        "covenant-day:catalog.camps[2].dayLabel",
+        "covenant-day:catalog.camps[3].dayLabel",
+        "covenant-day:catalog.camps[4].dayLabel",
+        "covenant-day:catalog.camps[5].dayLabel",
+        "covenant-day:catalog.camps[6].dayLabel",
+        "covenant-day:catalog.camps[7].dayLabel",
+        "covenant-day:catalog.camps[8].dayLabel",
+        "covenant-day:catalog.camps[9].dayLabel",
+        "covenant-day:catalog.camps[10].dayLabel",
+        "covenant-day:catalog.camps[11].dayLabel",
+        "covenant-day:catalog.camps[12].dayLabel",
+        "covenant-day:catalog.camps[13].dayLabel",
+        "covenant-day:catalog.camps[14].dayLabel",
+        "covenant-day:catalog.camps[15].dayLabel",
+        "covenant-day:catalog.camps[16].dayLabel",
+        "covenant-day:catalog.camps[17].dayLabel",
+        "covenant-day:catalog.camps[18].dayLabel",
+        "covenant-day:catalog.camps[19].dayLabel"
       ],
       "t": "সোম–শুক্র"
     },
@@ -7862,7 +7896,10 @@
         "cannon:catalog.camps[52].categoryLabel",
         "cannon:catalog.camps[53].categoryLabel",
         "cannon:catalog.camps[54].categoryLabel",
-        "cannon:catalog.camps[55].categoryLabel"
+        "cannon:catalog.camps[55].categoryLabel",
+        "covenant-day:catalog.categoryFilters[4].label",
+        "covenant-day:catalog.camps[18].categoryLabel",
+        "covenant-day:catalog.camps[19].categoryLabel"
       ],
       "t": "STEM ও শিক্ষা"
     },
@@ -9423,6 +9460,589 @@
         "cannon:costPlanner.flags[1].text"
       ],
       "t": "Cannon **ভাইবোনের কোনো ছাড়, একাধিক সপ্তাহের কোনো ছাড় বা ক্যাম্পের জন্য কোনো আর্থিক সহায়তা প্রকাশ করে না**। 2026 সালের বিবরণপত্রে দামের একমাত্র ছাড়টি কাঠামোগত — 4 দিনের সপ্তাহ 2-এর জন্য।"
+    },
+    {
+      "text": "20 camps named for summer 2026 across eight weeks, June 1 – July 31 — anchored by Camp Lion and Cub Camp, the traditional day camps that bundle care free.",
+      "of": "9dd79355",
+      "at": [
+        "covenant-day:catalog.headline"
+      ],
+      "t": "2026 সালের গ্রীষ্মের জন্য আট সপ্তাহজুড়ে নাম দেওয়া 20টি ক্যাম্প, June 1 – July 31 — মূল ভিত্তি Camp Lion ও Cub Camp, প্রথাগত দিবা ক্যাম্প যারা সেবা বিনামূল্যে সঙ্গে দেয়।"
+    },
+    {
+      "text": "Registration runs on the CampBrain portal with early-bird discounts through February 27. The school markets \"29 camps\"; 20 are enumerable on the public page.",
+      "of": "8cc84630",
+      "at": [
+        "covenant-day:catalog.subhead"
+      ],
+      "t": "নিবন্ধন চলে CampBrain পোর্টালে, February 27 পর্যন্ত আগাম-নিবন্ধন ছাড় সহ। স্কুল \"29 camps\" বিপণন করে; পাবলিক পাতায় 20টি গোনা যায়।"
+    },
+    {
+      "text": "All 20 publicly named camps are listed. **Current per-camp prices and hours are portal-gated**, so prices below are estimates from the third-party current range ($170–$325/week) and the school’s own 2018 catalog — the care add-on rates on the Cost Planner are the school’s own current figures.",
+      "of": "f61120ce",
+      "at": [
+        "covenant-day:catalog.intro"
+      ],
+      "t": "পাবলিকভাবে নাম দেওয়া 20টি ক্যাম্পের সবগুলোই তালিকাভুক্ত। **বর্তমান প্রতি-ক্যাম্প দাম ও সময় পোর্টাল-নির্ভর**, তাই নিচের দামগুলো তৃতীয়-পক্ষের বর্তমান পরিসর ($170–$325/week) ও স্কুলের নিজস্ব 2018 ক্যাটালগ থেকে অনুমান — Cost Planner-এ সেবা add-on হারগুলো স্কুলের নিজস্ব বর্তমান সংখ্যা।"
+    },
+    {
+      "text": "Day Camps",
+      "of": "0f07ba8b",
+      "at": [
+        "covenant-day:catalog.categoryFilters[1].label",
+        "covenant-day:catalog.camps[0].categoryLabel",
+        "covenant-day:catalog.camps[1].categoryLabel",
+        "covenant-day:catalog.camps[2].categoryLabel",
+        "covenant-day:catalog.camps[13].categoryLabel"
+      ],
+      "t": "দিবা ক্যাম্প"
+    },
+    {
+      "text": "Arts & Theater",
+      "of": "e043e144",
+      "at": [
+        "covenant-day:catalog.categoryFilters[3].label",
+        "covenant-day:catalog.camps[14].categoryLabel",
+        "covenant-day:catalog.camps[15].categoryLabel",
+        "covenant-day:catalog.camps[16].categoryLabel",
+        "covenant-day:catalog.camps[17].categoryLabel"
+      ],
+      "t": "আর্টস ও থিয়েটার"
+    },
+    {
+      "text": "Lower School",
+      "of": "0921a0ca",
+      "at": [
+        "covenant-day:catalog.gradeFilters[1].label"
+      ],
+      "t": "Lower School"
+    },
+    {
+      "text": "Middle School",
+      "of": "15441234",
+      "at": [
+        "covenant-day:catalog.gradeFilters[2].label"
+      ],
+      "t": "Middle School"
+    },
+    {
+      "text": "High School",
+      "of": "8ab05d33",
+      "at": [
+        "covenant-day:catalog.gradeFilters[3].label"
+      ],
+      "t": "High School"
+    },
+    {
+      "text": "The traditional full-day camp — includes Before Care, After Care and Lunch Care at no extra cost, plus the sibling discount ($75 off full-day).",
+      "of": "cbd8029d",
+      "at": [
+        "covenant-day:catalog.camps[0].desc"
+      ],
+      "t": "প্রথাগত সারাদিনের ক্যাম্প — কোনো অতিরিক্ত খরচ ছাড়াই Before Care, After Care ও Lunch Care অন্তর্ভুক্ত, সাথে ভাইবোনের ছাড় (সারাদিনে $75 ছাড়)।"
+    },
+    {
+      "text": "TK–5",
+      "of": "f79ad9ec",
+      "at": [
+        "covenant-day:catalog.camps[0].gradeLabel"
+      ],
+      "t": "TK–5"
+    },
+    {
+      "text": "full day + free care",
+      "of": "27301e3c",
+      "at": [
+        "covenant-day:catalog.camps[0].hours"
+      ],
+      "t": "সারাদিন + বিনামূল্যে সেবা"
+    },
+    {
+      "text": "The youngest campers’ day camp; care bundled free and $50 off half-day siblings.",
+      "of": "c60c8027",
+      "at": [
+        "covenant-day:catalog.camps[1].desc"
+      ],
+      "t": "সবচেয়ে ছোট ক্যাম্পারদের দিবা ক্যাম্প; সেবা বিনামূল্যে সঙ্গে দেওয়া এবং অর্ধদিবসে ভাইবোনদের জন্য $50 ছাড়।"
+    },
+    {
+      "text": "half or full day",
+      "of": "d35bd998",
+      "at": [
+        "covenant-day:catalog.camps[1].hours"
+      ],
+      "t": "অর্ধদিবস বা সারাদিন"
+    },
+    {
+      "text": "The entry step below Cub Camp for the youngest age band.",
+      "of": "afbc159e",
+      "at": [
+        "covenant-day:catalog.camps[2].desc"
+      ],
+      "t": "সবচেয়ে ছোট বয়স-ভাগের জন্য Cub Camp-এর নিচের প্রবেশ ধাপ।"
+    },
+    {
+      "text": "JK–TK",
+      "of": "4b2301fa",
+      "at": [
+        "covenant-day:catalog.camps[2].gradeLabel"
+      ],
+      "t": "JK–TK"
+    },
+    {
+      "text": "half day",
+      "of": "c056cf86",
+      "at": [
+        "covenant-day:catalog.camps[2].hours",
+        "covenant-day:catalog.camps[4].hours",
+        "covenant-day:catalog.camps[5].hours",
+        "covenant-day:catalog.camps[6].hours",
+        "covenant-day:catalog.camps[7].hours",
+        "covenant-day:catalog.camps[8].hours",
+        "covenant-day:catalog.camps[9].hours",
+        "covenant-day:catalog.camps[10].hours",
+        "covenant-day:catalog.camps[11].hours",
+        "covenant-day:catalog.camps[13].hours",
+        "covenant-day:catalog.camps[15].hours",
+        "covenant-day:catalog.camps[16].hours",
+        "covenant-day:catalog.camps[17].hours",
+        "covenant-day:catalog.camps[18].hours"
+      ],
+      "t": "অর্ধদিবস"
+    },
+    {
+      "text": "In the 2018 catalog this ran as half- or full-day (9–12, 1–4, or 9–4) — the pattern the current camp likely follows.",
+      "of": "fb03c29a",
+      "at": [
+        "covenant-day:catalog.camps[3].desc"
+      ],
+      "t": "2018 ক্যাটালগে এটি অর্ধ- বা সারাদিন (9–12, 1–4, বা 9–4) হিসেবে চলত — বর্তমান ক্যাম্প সম্ভবত সেই ধরনই অনুসরণ করে।"
+    },
+    {
+      "text": "Gr 2–8",
+      "of": "d0402471",
+      "at": [
+        "covenant-day:catalog.camps[3].gradeLabel"
+      ],
+      "t": "গ্রেড 2–8"
+    },
+    {
+      "text": "9–12 / 1–4 / 9–4",
+      "of": "2b28cdf6",
+      "at": [
+        "covenant-day:catalog.camps[3].hours"
+      ],
+      "t": "9–12 / 1–4 / 9–4"
+    },
+    {
+      "text": "Skill development with the program’s coaches — $185/week half-day in the 2018 catalog.",
+      "of": "a7b81ba5",
+      "at": [
+        "covenant-day:catalog.camps[4].desc"
+      ],
+      "t": "প্রোগ্রামের কোচদের সঙ্গে দক্ষতা বিকাশ — 2018 ক্যাটালগে অর্ধদিবসে $185/week।"
+    },
+    {
+      "text": "Gr 1–8",
+      "of": "6554aeb4",
+      "at": [
+        "covenant-day:catalog.camps[4].gradeLabel"
+      ],
+      "t": "গ্রেড 1–8"
+    },
+    {
+      "text": "Runs at Warner Park, the 27-acre athletic campus.",
+      "of": "3d4e5a74",
+      "at": [
+        "covenant-day:catalog.camps[5].desc"
+      ],
+      "t": "27-একরের অ্যাথলেটিক ক্যাম্পাস Warner Park-এ চলে।"
+    },
+    {
+      "text": "LS–MS",
+      "of": "ea9b4475",
+      "at": [
+        "covenant-day:catalog.camps[5].gradeLabel",
+        "covenant-day:catalog.camps[6].gradeLabel",
+        "covenant-day:catalog.camps[10].gradeLabel",
+        "covenant-day:catalog.camps[13].gradeLabel",
+        "covenant-day:catalog.camps[17].gradeLabel",
+        "covenant-day:catalog.camps[18].gradeLabel"
+      ],
+      "t": "LS–MS"
+    },
+    {
+      "text": "Warner Park fields.",
+      "of": "b85a8cf3",
+      "at": [
+        "covenant-day:catalog.camps[6].desc"
+      ],
+      "t": "Warner Park-এর মাঠে।"
+    },
+    {
+      "text": "Run inside the program with three straight state runner-up finishes.",
+      "of": "59a763a5",
+      "at": [
+        "covenant-day:catalog.camps[7].desc"
+      ],
+      "t": "পরপর তিনবার রাজ্য রানার-আপ হওয়া প্রোগ্রামের ভেতরে চলে।"
+    },
+    {
+      "text": "MS–HS",
+      "of": "aeca4f7b",
+      "at": [
+        "covenant-day:catalog.camps[7].gradeLabel",
+        "covenant-day:catalog.camps[8].gradeLabel",
+        "covenant-day:catalog.camps[11].gradeLabel"
+      ],
+      "t": "MS–HS"
+    },
+    {
+      "text": "The varsity program’s camp; a separate Lower School Field Hockey camp feeds it.",
+      "of": "9530da25",
+      "at": [
+        "covenant-day:catalog.camps[8].desc"
+      ],
+      "t": "varsity প্রোগ্রামের ক্যাম্প; একটি আলাদা Lower School Field Hockey ক্যাম্প এতে যোগান দেয়।"
+    },
+    {
+      "text": "The entry-level stick-skills week.",
+      "of": "79e58eca",
+      "at": [
+        "covenant-day:catalog.camps[9].desc"
+      ],
+      "t": "প্রাথমিক-পর্যায়ের স্টিক-দক্ষতার সপ্তাহ।"
+    },
+    {
+      "text": "LS",
+      "of": "75e26068",
+      "at": [
+        "covenant-day:catalog.camps[9].gradeLabel",
+        "covenant-day:catalog.camps[15].gradeLabel",
+        "covenant-day:catalog.camps[16].gradeLabel"
+      ],
+      "t": "LS"
+    },
+    {
+      "text": "Sideline and spirit fundamentals.",
+      "of": "8321d01c",
+      "at": [
+        "covenant-day:catalog.camps[10].desc"
+      ],
+      "t": "সাইডলাইন ও spirit-এর মৌলিক বিষয়।"
+    },
+    {
+      "text": "On the six new hard courts.",
+      "of": "f817fb9c",
+      "at": [
+        "covenant-day:catalog.camps[11].desc"
+      ],
+      "t": "ছয়টি নতুন হার্ড কোর্টে।"
+    },
+    {
+      "text": "The Webb Fitness Center program, run by the school’s S&C coach — the same summer lifting the varsity athletes do.",
+      "of": "2e9659bb",
+      "at": [
+        "covenant-day:catalog.camps[12].desc"
+      ],
+      "t": "Webb Fitness Center প্রোগ্রাম, স্কুলের S&C কোচ পরিচালিত — varsity অ্যাথলেটরা যে একই গ্রীষ্মকালীন ভারোত্তোলন করে।"
+    },
+    {
+      "text": "Gr 6–12",
+      "of": "5a57e078",
+      "at": [
+        "covenant-day:catalog.camps[12].gradeLabel"
+      ],
+      "t": "গ্রেড 6–12"
+    },
+    {
+      "text": "sessions",
+      "of": "130573cc",
+      "at": [
+        "covenant-day:catalog.camps[12].hours",
+        "covenant-day:catalog.camps[19].hours"
+      ],
+      "t": "সেশন"
+    },
+    {
+      "text": "The pure-fun week.",
+      "of": "9ee1d298",
+      "at": [
+        "covenant-day:catalog.camps[13].desc"
+      ],
+      "t": "নিছক-আনন্দের সপ্তাহ।"
+    },
+    {
+      "text": "Includes Lunch Care free — the one non-day-camp with bundled care.",
+      "of": "9710a44d",
+      "at": [
+        "covenant-day:catalog.camps[14].desc"
+      ],
+      "t": "Lunch Care বিনামূল্যে অন্তর্ভুক্ত — সেবা সঙ্গে দেওয়া একমাত্র অ-দিবা ক্যাম্প।"
+    },
+    {
+      "text": "MS",
+      "of": "35dfbd11",
+      "at": [
+        "covenant-day:catalog.camps[14].gradeLabel"
+      ],
+      "t": "MS"
+    },
+    {
+      "text": "full day incl. lunch",
+      "of": "6cdcfa40",
+      "at": [
+        "covenant-day:catalog.camps[14].hours"
+      ],
+      "t": "সারাদিন, দুপুরের খাবার সহ"
+    },
+    {
+      "text": "The stage-first week for younger students.",
+      "of": "e3899851",
+      "at": [
+        "covenant-day:catalog.camps[15].desc"
+      ],
+      "t": "ছোট শিক্ষার্থীদের জন্য মঞ্চ-প্রধান সপ্তাহ।"
+    },
+    {
+      "text": "Studio sampler in the visual-arts rooms.",
+      "of": "a6d6d5ee",
+      "at": [
+        "covenant-day:catalog.camps[16].desc"
+      ],
+      "t": "চারুকলার ঘরে স্টুডিও নমুনা।"
+    },
+    {
+      "text": "The culinary week.",
+      "of": "15b6f079",
+      "at": [
+        "covenant-day:catalog.camps[17].desc"
+      ],
+      "t": "রন্ধনশিল্পের সপ্তাহ।"
+    },
+    {
+      "text": "The STEM week.",
+      "of": "45e94be3",
+      "at": [
+        "covenant-day:catalog.camps[18].desc"
+      ],
+      "t": "STEM সপ্তাহ।"
+    },
+    {
+      "text": "A high-school week run against the guidance office’s calendar — the rare HS academic camp in this set.",
+      "of": "84c5fdd7",
+      "at": [
+        "covenant-day:catalog.camps[19].desc"
+      ],
+      "t": "guidance অফিসের ক্যালেন্ডার ধরে চলা একটি হাই-স্কুল সপ্তাহ — এই তালিকায় বিরল HS একাডেমিক ক্যাম্প।"
+    },
+    {
+      "text": "HS",
+      "of": "6deb4e2c",
+      "at": [
+        "covenant-day:catalog.camps[19].gradeLabel"
+      ],
+      "t": "HS"
+    },
+    {
+      "text": "Per-camp prices and hours are **estimates**: current figures are gated behind the CampBrain registration portal, so the range shown is the third-party current figure ($170–$325/week), with hours patterned on the school’s own 2018 catalog where the same camp existed.",
+      "of": "bed818fc",
+      "at": [
+        "covenant-day:catalog.flags[0].text"
+      ],
+      "t": "প্রতি-ক্যাম্প দাম ও সময় **অনুমান**: বর্তমান সংখ্যাগুলো CampBrain নিবন্ধন পোর্টালের আড়ালে, তাই দেখানো পরিসরটি তৃতীয়-পক্ষের বর্তমান সংখ্যা ($170–$325/week), আর যেখানে একই ক্যাম্প ছিল সেখানে সময় স্কুলের নিজস্ব 2018 ক্যাটালগ ধরে সাজানো।"
+    },
+    {
+      "text": "The school markets \"**29 camps**\"; the public page enumerates 20 (a 21st listing, \"Splash Squad,\" is a staff position). Per-week variants and portal-only camps likely account for the difference.",
+      "of": "19b8adfa",
+      "at": [
+        "covenant-day:catalog.flags[1].text"
+      ],
+      "t": "স্কুল \"**29 camps**\" বিপণন করে; পাবলিক পাতা 20টি গোনে (21তম তালিকা, \"Splash Squad,\" একটি কর্মীর পদ)। প্রতি-সপ্তাহ ভ্যারিয়েন্ট ও কেবল পোর্টালে থাকা ক্যাম্পই সম্ভবত এই পার্থক্যের কারণ।"
+    },
+    {
+      "text": "The last document publishing per-camp price + hours + grades together is the **2018 catalog** (e.g. Baseball $185/wk half-day, Basketball $150 half / $250 full) — eight years old, kept as a documented sample only.",
+      "of": "7164dbc0",
+      "at": [
+        "covenant-day:catalog.flags[2].text"
+      ],
+      "t": "প্রতি-ক্যাম্প দাম + সময় + গ্রেড একসঙ্গে প্রকাশকারী সর্বশেষ নথি হলো **2018 ক্যাটালগ** (যেমন Baseball $185/wk অর্ধদিবস, Basketball $150 অর্ধ / $250 পূর্ণ) — আট বছরের পুরনো, কেবল একটি নথিভুক্ত নমুনা হিসেবে রাখা।"
+    },
+    {
+      "text": "Budget $170–$325 a week for camp itself — then $50 before-care, $50 after-care and $30 lunch care, unless Camp Lion or Cub Camp bundles all three free.",
+      "of": "02b6638d",
+      "at": [
+        "covenant-day:costPlanner.headline"
+      ],
+      "t": "ক্যাম্পের জন্যই সপ্তাহে $170–$325 বাজেট করুন — তারপর $50 before-care, $50 after-care ও $30 lunch care, যদি না Camp Lion বা Cub Camp এই তিনটিই বিনামূল্যে সঙ্গে দেয়।"
+    },
+    {
+      "text": "Eight weeks are available (June 1 – July 31, skipping the week of June 29). A $50 non-refundable registration fee is already inside every camp price.",
+      "of": "132286f9",
+      "at": [
+        "covenant-day:costPlanner.subhead"
+      ],
+      "t": "আট সপ্তাহ পাওয়া যায় (June 1 – July 31, June 29-এর সপ্তাহ বাদ দিয়ে)। প্রতিটি ক্যাম্পের দামের মধ্যে $50 অফেরতযোগ্য নিবন্ধন ফি ইতিমধ্যেই ধরা।"
+    },
+    {
+      "text": "Lower-end week",
+      "of": "e61d1052",
+      "at": [
+        "covenant-day:costPlanner.tiers[0].label"
+      ],
+      "t": "নিম্ন-পর্যায়ের সপ্তাহ"
+    },
+    {
+      "text": "Half-day specialty camp · lower end of the range",
+      "of": "cf01ca64",
+      "at": [
+        "covenant-day:costPlanner.tiers[0].panelLabel"
+      ],
+      "t": "অর্ধদিবস বিশেষায়িত ক্যাম্প · পরিসরের নিম্ন প্রান্ত"
+    },
+    {
+      "text": "The bottom of the third-party current range.",
+      "of": "35583467",
+      "at": [
+        "covenant-day:costPlanner.tiers[0].detail"
+      ],
+      "t": "তৃতীয়-পক্ষের বর্তমান পরিসরের তলা।"
+    },
+    {
+      "text": "Mid-range week",
+      "of": "66df0c1f",
+      "at": [
+        "covenant-day:costPlanner.tiers[1].label"
+      ],
+      "t": "মধ্য-পর্যায়ের সপ্তাহ"
+    },
+    {
+      "text": "Typical camp week · middle of the range",
+      "of": "fe1e10cd",
+      "at": [
+        "covenant-day:costPlanner.tiers[1].panelLabel"
+      ],
+      "t": "সাধারণ ক্যাম্প সপ্তাহ · পরিসরের মাঝামাঝি"
+    },
+    {
+      "text": "Midpoint estimate; the 2018 catalog’s full-day camps sat near here.",
+      "of": "da808e99",
+      "at": [
+        "covenant-day:costPlanner.tiers[1].detail"
+      ],
+      "t": "মধ্যবিন্দুর অনুমান; 2018 ক্যাটালগের সারাদিনের ক্যাম্পগুলো এর কাছাকাছি ছিল।"
+    },
+    {
+      "text": "Upper-end week",
+      "of": "5a2a4651",
+      "at": [
+        "covenant-day:costPlanner.tiers[2].label"
+      ],
+      "t": "উচ্চ-পর্যায়ের সপ্তাহ"
+    },
+    {
+      "text": "Full-day camp · top of the range",
+      "of": "3d00c339",
+      "at": [
+        "covenant-day:costPlanner.tiers[2].panelLabel"
+      ],
+      "t": "সারাদিনের ক্যাম্প · পরিসরের শীর্ষ"
+    },
+    {
+      "text": "The top of the third-party current range. Camp Lion bundles all three care add-ons free at full day.",
+      "of": "93984051",
+      "at": [
+        "covenant-day:costPlanner.tiers[2].detail"
+      ],
+      "t": "তৃতীয়-পক্ষের বর্তমান পরিসরের শীর্ষ। Camp Lion সারাদিনে এই তিনটি সেবা add-on-ই বিনামূল্যে সঙ্গে দেয়।"
+    },
+    {
+      "text": "Before Care 7:30–8:45 am (TK–8)",
+      "of": "88076342",
+      "at": [
+        "covenant-day:costPlanner.addons[0].label"
+      ],
+      "t": "Before Care সকাল 7:30–8:45 (TK–8)"
+    },
+    {
+      "text": "After Care 4:00–5:30 pm (TK–8)",
+      "of": "287828c5",
+      "at": [
+        "covenant-day:costPlanner.addons[1].label"
+      ],
+      "t": "After Care বিকেল 4:00–5:30 (TK–8)"
+    },
+    {
+      "text": "Lunch Care 12–1 pm (bring lunch)",
+      "of": "041229f1",
+      "at": [
+        "covenant-day:costPlanner.addons[2].label"
+      ],
+      "t": "Lunch Care দুপুর 12–1 (খাবার সঙ্গে আনুন)"
+    },
+    {
+      "text": "Registration (non-refundable, included in camp cost)",
+      "of": "2c6d3da4",
+      "at": [
+        "covenant-day:costPlanner.fees[0].label"
+      ],
+      "t": "নিবন্ধন (অফেরতযোগ্য, ক্যাম্পের খরচে অন্তর্ভুক্ত)"
+    },
+    {
+      "text": "Camp exchange",
+      "of": "2304c979",
+      "at": [
+        "covenant-day:costPlanner.fees[1].label"
+      ],
+      "t": "ক্যাম্প বদল"
+    },
+    {
+      "text": "Cancellation before May 1",
+      "of": "3a3bd087",
+      "at": [
+        "covenant-day:costPlanner.fees[2].label"
+      ],
+      "t": "May 1-এর আগে বাতিল"
+    },
+    {
+      "text": "**Camp Lion (Full Day), Cub Camp and MS Musical Theater include care free** — Before and After Care for the day camps, Lunch Care for all three. Leave the toggles off for those weeks.",
+      "of": "55ffd32d",
+      "at": [
+        "covenant-day:costPlanner.fees[3].label"
+      ],
+      "t": "**Camp Lion (Full Day), Cub Camp ও MS Musical Theater সেবা বিনামূল্যে অন্তর্ভুক্ত করে** — দিবা ক্যাম্পগুলোর জন্য Before ও After Care, তিনটির জন্যই Lunch Care। ওই সপ্তাহগুলোর জন্য টগলগুলো বন্ধ রাখুন।"
+    },
+    {
+      "text": "Sibling discounts on the day camps: **$50 off half-day / $75 off full-day** for each additional registration. Cancellations after May 1 refund 50% (≥14 days out) and nothing inside 14 days.",
+      "of": "83b45435",
+      "at": [
+        "covenant-day:costPlanner.fees[4].label"
+      ],
+      "t": "দিবা ক্যাম্পে ভাইবোনের ছাড়: প্রতিটি অতিরিক্ত নিবন্ধনে **অর্ধদিবসে $50 ছাড় / সারাদিনে $75 ছাড়**। May 1-এর পর বাতিল করলে 50% ফেরত (≥14 দিন আগে) এবং 14 দিনের ভেতরে কিছুই নয়।"
+    },
+    {
+      "text": "Early-bird pricing ends February 27.",
+      "of": "d519c42d",
+      "at": [
+        "covenant-day:costPlanner.aside.title"
+      ],
+      "t": "আগাম-নিবন্ধন মূল্য শেষ হয় February 27-এ।"
+    },
+    {
+      "text": "Registration is open on the CampBrain portal, closing at **noon the Friday before each camp week**. Camps are open to the community, and grade means the **rising** grade for the coming school year.",
+      "of": "6340cffb",
+      "at": [
+        "covenant-day:costPlanner.aside.text"
+      ],
+      "t": "নিবন্ধন CampBrain পোর্টালে খোলা, বন্ধ হয় **প্রতিটি ক্যাম্প সপ্তাহের আগের শুক্রবার দুপুরে**। ক্যাম্পগুলো কমিউনিটির জন্য উন্মুক্ত, এবং গ্রেড মানে আসন্ন শিক্ষাবর্ষের **rising** গ্রেড।"
+    },
+    {
+      "text": "All three week tiers are **estimates** — the school publishes no current per-camp price list; only the care add-ons and fee policies above are its own current figures.",
+      "of": "09c29363",
+      "at": [
+        "covenant-day:costPlanner.flags[0].text"
+      ],
+      "t": "তিনটি সপ্তাহ-ধরনই **অনুমান** — স্কুল কোনো বর্তমান প্রতি-ক্যাম্প দামের তালিকা প্রকাশ করে না; কেবল ওপরের সেবা add-on ও ফি নীতিগুলোই তার নিজস্ব বর্তমান সংখ্যা।"
     }
   ]
 }

@@ -1,5 +1,5 @@
 # Charlotte Country Day School — Student Clubs
-> Distilled from 10 source document(s) in `source-material/student-clubs/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-07-26.
+> Distilled from 10 source document(s) in `source-material/student-clubs/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-16.
 **Documents:** Academic and Competition Clubs, Affinity and Identity Groups, Club Catalog and Overview, Governance and Leadership, Honor Societies, NotebookLM Prompt, Publications and Media, Service and Civic Engagement, Signature Achievements and Honors, Clubs Redesign Deep Research
 
 

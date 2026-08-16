@@ -1,5 +1,5 @@
 # Providence Day School — Sports
-> Distilled from 15 source document(s) in `source-material/sports/providence-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-07-26.
+> Distilled from 15 source document(s) in `source-material/sports/providence-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-16.
 **Documents:** Awards and Honors, Championships, Coaches, Pedigree and Continuity, D1 Matriculation, Facilities and Infrastructure, NIL Landscape, National Football Profile, Power 4 Offers, Professional Athletes, Sports Medicine and Performance, Sports Offered, Top 100 Recruiting Rankings, Win-Loss Records, College Commitments 2024-2026, Redesign Research 2026
 
 

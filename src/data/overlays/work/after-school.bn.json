@@ -59,7 +59,8 @@
       "at": [
         "providence-day:coverage.rows[3].dismissal",
         "providence-day:coverage.rows[4].dismissal",
-        "charlotte-country-day:coverage.rows[3].dismissal"
+        "charlotte-country-day:coverage.rows[3].dismissal",
+        "covenant-day:coverage.rows[2].dismissal"
       ],
       "t": "ছুটি 3:10"
     },
@@ -1149,7 +1150,8 @@
       "text": "dismissal 1:30",
       "of": "273811b2",
       "at": [
-        "charlotte-latin:coverage.rows[0].dismissal"
+        "charlotte-latin:coverage.rows[0].dismissal",
+        "covenant-day:coverage.rows[0].dismissal"
       ],
       "t": "ছুটি 1:30"
     },
@@ -1435,7 +1437,8 @@
       "at": [
         "charlotte-latin:cost.fees[1].label",
         "charlotte-christian:cost.fees[0].label",
-        "cannon:cost.fees[0].label"
+        "cannon:cost.fees[0].label",
+        "covenant-day:cost.fees[2].label"
       ],
       "t": "নিবন্ধন ফি"
     },
@@ -1453,7 +1456,8 @@
       "text": "Late-pickup fee",
       "of": "295637c8",
       "at": [
-        "charlotte-latin:cost.fees[2].label"
+        "charlotte-latin:cost.fees[2].label",
+        "covenant-day:cost.fees[3].label"
       ],
       "t": "দেরিতে নিতে আসার ফি"
     },
@@ -1478,7 +1482,9 @@
       "of": "010e3b1d",
       "at": [
         "charlotte-latin:cost.fees[4].value",
-        "charlotte-christian:cost.fees[0].value"
+        "charlotte-christian:cost.fees[0].value",
+        "covenant-day:cost.fees[2].value",
+        "covenant-day:cost.fees[3].value"
       ],
       "t": "কিছুই প্রকাশিত নয়"
     },
@@ -2301,7 +2307,8 @@
       "at": [
         "charlotte-christian:coverage.rows[2].dismissal",
         "cannon:coverage.rows[0].dismissal",
-        "cannon:coverage.rows[1].dismissal"
+        "cannon:coverage.rows[1].dismissal",
+        "covenant-day:coverage.rows[1].dismissal"
       ],
       "t": "ছুটি 3:00"
     },
@@ -3064,7 +3071,8 @@
       "text": "dismissal 3:15",
       "of": "10af78c9",
       "at": [
-        "charlotte-country-day:coverage.rows[4].dismissal"
+        "charlotte-country-day:coverage.rows[4].dismissal",
+        "covenant-day:coverage.rows[3].dismissal"
       ],
       "t": "ছুটি 3:15"
     },
@@ -3104,7 +3112,8 @@
       "text": "Drop-in",
       "of": "966da620",
       "at": [
-        "charlotte-country-day:coverage.facts[1].label"
+        "charlotte-country-day:coverage.facts[1].label",
+        "covenant-day:cost.fees[0].label"
       ],
       "t": "drop-in"
     },
@@ -4897,6 +4906,350 @@
         "cannon:verdict.checklist[9]"
       ],
       "t": "আগে ছুটির দিনে কর্মসূচিটি কি ঠিক বিকেল 4:00 টায় শেষ হয়, এবং মিনিটে $1 ফি কি তখন থেকেই শুরু হয়?"
+    },
+    {
+      "text": "Free before-care from 7:30 a.m. for everyone, then Extended Day to 6:00 p.m. for JK–8 in stacked 90-minute sessions.",
+      "of": "86343d28",
+      "at": [
+        "covenant-day:coverage.headline"
+      ],
+      "t": "সবার জন্য সকাল 7:30 থেকে বিনামূল্যে before-care, তারপর JK–8-এর জন্য সন্ধ্যা 6:00 পর্যন্ত Extended Day, পরপর সাজানো 90-মিনিটের সেশনে।"
+    },
+    {
+      "text": "The 1.5-hour session is the unit of everything: JK/K needs three of them to reach 6:00, grades 1–8 need two. High school has no aftercare.",
+      "of": "7014b76d",
+      "at": [
+        "covenant-day:coverage.subhead"
+      ],
+      "t": "1.5-ঘণ্টার সেশনই সবকিছুর একক: 6:00 পর্যন্ত পৌঁছাতে JK/K-র তিনটি লাগে, গ্রেড 1–8-এর দুটি। হাই স্কুলে কোনো aftercare নেই।"
+    },
+    {
+      "text": "Prices shown are the five-day monthly rate per arrangement — sessions cost **$248/month each at five days a week**, and fewer days cost less ($58–$206). Open **The Cost Planner** below to price any combination.",
+      "of": "8a753a75",
+      "at": [
+        "covenant-day:coverage.basisNote"
+      ],
+      "t": "দেখানো দামগুলো প্রতিটি ব্যবস্থার জন্য পাঁচ-দিনের মাসিক হার — প্রতিটি সেশনের দাম **সপ্তাহে পাঁচ দিনে $248/মাস**, আর কম দিনে দাম কম ($58–$206)। যেকোনো সমন্বয়ের দাম দেখতে নিচের **The Cost Planner** খুলুন।"
+    },
+    {
+      "text": "No aftercare — athletics (82% play) and activities instead",
+      "of": "113736c8",
+      "at": [
+        "covenant-day:coverage.rows[3].flatLabel"
+      ],
+      "t": "কোনো aftercare নেই — এর বদলে অ্যাথলেটিক্স (82% খেলে) ও কার্যক্রম"
+    },
+    {
+      "text": "Free before-care",
+      "of": "70f8ac2c",
+      "at": [
+        "covenant-day:coverage.facts[0].label"
+      ],
+      "t": "বিনামূল্যে before-care"
+    },
+    {
+      "text": "from **7:30 a.m.** until the start of school, at no charge, school-wide — the only free morning care in this comparison",
+      "of": "126cd133",
+      "at": [
+        "covenant-day:coverage.facts[0].text"
+      ],
+      "t": "**সকাল 7:30** থেকে স্কুল শুরু হওয়া পর্যন্ত, বিনা খরচে, পুরো স্কুলজুড়ে — এই তুলনায় একমাত্র বিনামূল্যের সকালের দেখাশোনা"
+    },
+    {
+      "text": "Wednesday late start",
+      "of": "09092e31",
+      "at": [
+        "covenant-day:coverage.facts[1].label"
+      ],
+      "t": "বুধবারে দেরিতে শুরু"
+    },
+    {
+      "text": "all grades begin at **8:50 a.m.** instead of 8:15 — before-care absorbs the difference at no charge",
+      "of": "7e8edab5",
+      "at": [
+        "covenant-day:coverage.facts[1].text"
+      ],
+      "t": "সব গ্রেড 8:15-এর বদলে **সকাল 8:50 টায়** শুরু হয় — before-care এই পার্থক্যটুকু বিনা খরচে সামলে নেয়"
+    },
+    {
+      "text": "Enrichment",
+      "of": "42d5db5c",
+      "at": [
+        "covenant-day:coverage.facts[2].label"
+      ],
+      "t": "Enrichment"
+    },
+    {
+      "text": "separate after-school classes in **music, art, sports, robotics, and outdoor experiences** register on LionsWeb; the catalog itself sits behind the login",
+      "of": "6ad38f7e",
+      "at": [
+        "covenant-day:coverage.facts[2].text"
+      ],
+      "t": "**music, art, sports, robotics, ও outdoor experiences**-এ আলাদা after-school ক্লাসের নিবন্ধন হয় LionsWeb-এ; ক্যাটালগটি নিজেই লগইনের আড়ালে থাকে"
+    },
+    {
+      "text": "No enrichment-class catalog is public — LionsWeb registration is login-gated, so class names, days, grades and fees are not published. Third-party listings name piano/guitar/voice lessons, painting, and an After School Children’s Choir (grades 3–5).",
+      "of": "217da97d",
+      "at": [
+        "covenant-day:coverage.flags[0].text"
+      ],
+      "t": "কোনো enrichment-ক্লাস ক্যাটালগ পাবলিক নয় — LionsWeb নিবন্ধন লগইন-নির্ভর, তাই ক্লাসের নাম, দিন, গ্রেড ও ফি প্রকাশিত নয়। তৃতীয়-পক্ষের তালিকায় piano/guitar/voice lesson, painting, এবং একটি After School Children’s Choir (গ্রেড 3–5)-এর নাম রয়েছে।"
+    },
+    {
+      "text": "One ladder, multiplied: $58–$248 a month per 90-minute session by days per week — so the real cost is how many sessions your dismissal time forces.",
+      "of": "baad0c26",
+      "at": [
+        "covenant-day:cost.headline"
+      ],
+      "t": "একটিই ধাপ, গুণিত: প্রতি 90-মিনিটের সেশনে মাসে $58–$248, সপ্তাহে দিন-সংখ্যা দিয়ে গুণ — তাই আসল খরচ হলো আপনার ছুটির সময় কতগুলো সেশন বাধ্য করে তার উপর।"
+    },
+    {
+      "text": "August and December bill at exactly half, which is why the school’s own annual table ($522–$6,696 \"for 10 Months\") is cheaper than ten times the monthly rate.",
+      "of": "5afd7613",
+      "at": [
+        "covenant-day:cost.subhead"
+      ],
+      "t": "August ও December ঠিক অর্ধেক বিল করে, এই কারণেই স্কুলের নিজস্ব বার্ষিক টেবিল ($522–$6,696 \"for 10 Months\") মাসিক হারের দশ গুণের চেয়ে সস্তা।"
+    },
+    {
+      "text": "10 billing months (Aug & Dec at half rate)",
+      "of": "eb9c94cc",
+      "at": [
+        "covenant-day:cost.periodsLabel"
+      ],
+      "t": "বিলযোগ্য 10 মাস (Aug ও Dec অর্ধেক হারে)"
+    },
+    {
+      "text": "JK–K · to 6:00 (3 sessions)",
+      "of": "a419b8e7",
+      "at": [
+        "covenant-day:cost.rows[0].label"
+      ],
+      "t": "JK–K · 6:00 পর্যন্ত (3টি সেশন)"
+    },
+    {
+      "text": "JK & Kindergarten · 1:30–6:00 pm, all three sessions",
+      "of": "dda4d3e7",
+      "at": [
+        "covenant-day:cost.rows[0].panelLabel"
+      ],
+      "t": "JK ও Kindergarten · দুপুর 1:30–সন্ধ্যা 6:00, তিনটি সেশনই"
+    },
+    {
+      "text": "Gr 1–8 · to 6:00 (2 sessions)",
+      "of": "09e514ec",
+      "at": [
+        "covenant-day:cost.rows[1].label"
+      ],
+      "t": "গ্রেড 1–8 · 6:00 পর্যন্ত (2টি সেশন)"
+    },
+    {
+      "text": "Grades 1–8 · dismissal–6:00 pm, two sessions",
+      "of": "8adae596",
+      "at": [
+        "covenant-day:cost.rows[1].panelLabel"
+      ],
+      "t": "গ্রেড 1–8 · ছুটি–সন্ধ্যা 6:00, দুটি সেশন"
+    },
+    {
+      "text": "Any grade · 1 session",
+      "of": "e4dbc194",
+      "at": [
+        "covenant-day:cost.rows[2].label"
+      ],
+      "t": "যেকোনো গ্রেড · 1টি সেশন"
+    },
+    {
+      "text": "One 1.5-hour session (e.g. dismissal–4:30 pm)",
+      "of": "ff131fa9",
+      "at": [
+        "covenant-day:cost.rows[2].panelLabel"
+      ],
+      "t": "একটি 1.5-ঘণ্টার সেশন (যেমন ছুটি–বিকেল 4:30)"
+    },
+    {
+      "text": "The school’s own annual table is the cheaper way to buy it.",
+      "of": "2ae7c293",
+      "at": [
+        "covenant-day:cost.aside.title"
+      ],
+      "t": "স্কুলের নিজস্ব বার্ষিক টেবিলই এটি কেনার সস্তা উপায়।"
+    },
+    {
+      "text": "Priced \"for 10 Months,\" one session five days a week is **$2,232** (vs. $2,480 at 10× monthly) and the full three-session, five-day JK/K stack is **$6,696** — the half-rate August and December are baked in. Before-school care from 7:30 a.m. is free either way.",
+      "of": "1329b6d8",
+      "at": [
+        "covenant-day:cost.aside.text"
+      ],
+      "t": "\"for 10 Months\" হিসেবে দাম ধরা হলে, সপ্তাহে পাঁচ দিন একটি সেশন **$2,232** (মাসিকের 10× হিসেবে $2,480-এর বিপরীতে) এবং পূর্ণ তিন-সেশন, পাঁচ-দিনের JK/K স্তুপ **$6,696** — অর্ধেক-হারের August ও December এর মধ্যেই ধরা। যেভাবেই হোক, সকাল 7:30 থেকে before-school care বিনামূল্যে।"
+    },
+    {
+      "text": "$20 / session",
+      "of": "9af88ab0",
+      "at": [
+        "covenant-day:cost.fees[0].value"
+      ],
+      "t": "$20 / সেশন"
+    },
+    {
+      "text": "Before-school care (7:30 a.m.–start)",
+      "of": "b7a364a6",
+      "at": [
+        "covenant-day:cost.fees[1].label"
+      ],
+      "t": "Before-school care (সকাল 7:30–শুরু)"
+    },
+    {
+      "text": "free",
+      "of": "99b3eedb",
+      "at": [
+        "covenant-day:cost.fees[1].value"
+      ],
+      "t": "বিনামূল্যে"
+    },
+    {
+      "text": "The multi-session rows above are the per-session ladder **summed by the researcher** — the school prices sessions individually ($20 drop-in to $248/month) and publishes the stacked totals only on its annual table.",
+      "of": "29b8785b",
+      "at": [
+        "covenant-day:cost.fees[4].label"
+      ],
+      "t": "উপরের বহু-সেশন সারিগুলো হলো প্রতি-সেশন ধাপ যা **গবেষক যোগ করেছেন** — স্কুল সেশনগুলোর দাম আলাদাভাবে ধরে ($20 drop-in থেকে $248/মাস) এবং স্তূপীকৃত মোট কেবল তার বার্ষিক টেবিলে প্রকাশ করে।"
+    },
+    {
+      "text": "Multi-session monthly totals (e.g. **$744/mo** for JK/K to 6:00) are derived by stacking the school’s published per-session rates; the school’s own published figure for that arrangement is the annual **$6,696**. The single-session column is verbatim.",
+      "of": "69628d4c",
+      "at": [
+        "covenant-day:cost.flags[0].text"
+      ],
+      "t": "বহু-সেশন মাসিক মোট (যেমন JK/K-র 6:00 পর্যন্ত **$744/mo**) স্কুলের প্রকাশিত প্রতি-সেশন হার স্তূপ করে বের করা; সেই ব্যবস্থার জন্য স্কুলের নিজস্ব প্রকাশিত সংখ্যা হলো বার্ষিক **$6,696**। একক-সেশন কলামটি হুবহু।"
+    },
+    {
+      "text": "Rates are undated on the Extended Day page — confirm they are current for 2026–27 before budgeting.",
+      "of": "b99bfa3b",
+      "at": [
+        "covenant-day:cost.flags[1].text"
+      ],
+      "t": "Extended Day পাতায় হারগুলোর কোনো তারিখ নেই — বাজেট করার আগে 2026–27-এর জন্য এগুলো বর্তমান কিনা নিশ্চিত করুন।"
+    },
+    {
+      "text": "The most parent-friendly entry price in this set — free morning care, $20 drop-ins — with a session system that quietly triples for the youngest families.",
+      "of": "68287d25",
+      "at": [
+        "covenant-day:verdict.headline"
+      ],
+      "t": "এই তালিকায় সবচেয়ে অভিভাবক-বান্ধব প্রবেশমূল্য — বিনামূল্যে সকালের দেখাশোনা, $20 drop-in — সঙ্গে একটি সেশন-ব্যবস্থা যা সবচেয়ে ছোট পরিবারগুলোর জন্য নীরবে তিন গুণ হয়ে যায়।"
+    },
+    {
+      "text": "Coverage matches the 6:00 p.m. peer standard; the catalog opacity is the one real gap.",
+      "of": "d7a336d0",
+      "at": [
+        "covenant-day:verdict.subhead"
+      ],
+      "t": "সেবা সন্ধ্যা 6:00 টার সমপর্যায়ের মান মেলায়; ক্যাটালগের অস্বচ্ছতাই একমাত্র সত্যিকারের ঘাটতি।"
+    },
+    {
+      "text": "**Free before-school care from 7:30 a.m., school-wide** — every peer here charges for morning care. The Wednesday 8:50 late start is absorbed free too.",
+      "of": "883c4fee",
+      "at": [
+        "covenant-day:verdict.strengths[0]"
+      ],
+      "t": "**সকাল 7:30 থেকে বিনামূল্যে before-school care, পুরো স্কুলজুড়ে** — এখানে প্রতিটি সমপর্যায়ের স্কুল সকালের দেখাশোনার জন্য অর্থ নেয়। বুধবারের 8:50 দেরিতে শুরুও বিনামূল্যে সামলে নেওয়া হয়।"
+    },
+    {
+      "text": "**Genuine flexibility**: $20 drop-ins, day-count tiers from one to five days, and an annual table with the half-rate months already priced in.",
+      "of": "c1a117a1",
+      "at": [
+        "covenant-day:verdict.strengths[1]"
+      ],
+      "t": "**সত্যিকারের নমনীয়তা**: $20 drop-in, এক থেকে পাঁচ দিন পর্যন্ত দিন-সংখ্যার স্তর, এবং অর্ধেক-হারের মাসগুলো ইতিমধ্যেই দামে ধরা একটি বার্ষিক টেবিল।"
+    },
+    {
+      "text": "**Coverage to 6:00 p.m. for JK–8** matches the best pickup time in this comparison.",
+      "of": "4eca5b2f",
+      "at": [
+        "covenant-day:verdict.strengths[2]"
+      ],
+      "t": "**JK–8-এর জন্য সন্ধ্যা 6:00 টা পর্যন্ত সেবা** এই তুলনায় সেরা নেওয়ার সময়টি মেলায়।"
+    },
+    {
+      "text": "**The published pricing is complete and current-looking** — monthly and annual tables both, on a live page, with the August/December rule stated in plain words.",
+      "of": "fd71c89a",
+      "at": [
+        "covenant-day:verdict.strengths[3]"
+      ],
+      "t": "**প্রকাশিত মূল্য পূর্ণাঙ্গ ও বর্তমান-দেখতে** — একটি সক্রিয় পাতায় মাসিক ও বার্ষিক দুটি টেবিলই, August/December নিয়মটি সরল ভাষায় বলা।"
+    },
+    {
+      "text": "**The session system compounds for JK/K**: a 1:30 dismissal means three stacked sessions to reach 6:00 — $744 a month at the monthly rate, against a single-session headline of $248 that is easy to misread as the full cost.",
+      "of": "4354b5de",
+      "at": [
+        "covenant-day:verdict.watchouts[0]"
+      ],
+      "t": "**JK/K-র জন্য সেশন-ব্যবস্থা যোগ হতে থাকে**: 1:30-এ ছুটি মানে 6:00 পর্যন্ত পৌঁছাতে তিনটি সেশন স্তূপ — মাসিক হারে মাসে $744, যেখানে একক-সেশনের শিরোনাম $248 যা পুরো খরচ ভেবে ভুল পড়া সহজ।"
+    },
+    {
+      "text": "**No aftercare for grades 9–12** — high schoolers dismiss at 3:15 into athletics or activities, not a supervised program.",
+      "of": "24019d56",
+      "at": [
+        "covenant-day:verdict.watchouts[1]"
+      ],
+      "t": "**গ্রেড 9–12-এর জন্য কোনো aftercare নেই** — হাই স্কুলের শিক্ষার্থীরা 3:15-এ ছুটি পেয়ে অ্যাথলেটিক্স বা কার্যক্রমে যায়, কোনো তত্ত্বাবধানে থাকা কর্মসূচিতে নয়।"
+    },
+    {
+      "text": "**The enrichment catalog is invisible** — five category names and a login wall. No class, day, grade band or fee is public.",
+      "of": "fcb2d2d7",
+      "at": [
+        "covenant-day:verdict.watchouts[2]"
+      ],
+      "t": "**enrichment ক্যাটালগ অদৃশ্য** — পাঁচটি বিভাগের নাম আর একটি লগইন দেয়াল। কোনো ক্লাস, দিন, গ্রেড-পরিসর বা ফি পাবলিক নয়।"
+    },
+    {
+      "text": "**No late-pickup fee is published**, which usually means one exists in the parent handbook — ask.",
+      "of": "fbffe09a",
+      "at": [
+        "covenant-day:verdict.watchouts[3]"
+      ],
+      "t": "**দেরিতে নেওয়ার কোনো ফি প্রকাশিত নয়**, যার অর্থ সাধারণত অভিভাবক-নির্দেশিকায় একটি ফি আছে — জিজ্ঞেস করুন।"
+    },
+    {
+      "text": "Are the posted Extended Day rates current for 2026–27, and when do they reset?",
+      "of": "a51b6d19",
+      "at": [
+        "covenant-day:verdict.checklist[0]"
+      ],
+      "t": "পোস্ট করা Extended Day হারগুলো কি 2026–27-এর জন্য বর্তমান, এবং কখন এগুলো নতুন করে নির্ধারিত হয়?"
+    },
+    {
+      "text": "What enrichment classes actually run this year on LionsWeb, on what days, and at what fees?",
+      "of": "702d9e5d",
+      "at": [
+        "covenant-day:verdict.checklist[1]"
+      ],
+      "t": "এই বছর LionsWeb-এ আসলে কোন enrichment ক্লাসগুলো চলে, কোন কোন দিনে, এবং কত ফিতে?"
+    },
+    {
+      "text": "What happens after 6:00 p.m. — is there a late-pickup charge, and how is it billed?",
+      "of": "596c6ee6",
+      "at": [
+        "covenant-day:verdict.checklist[2]"
+      ],
+      "t": "সন্ধ্যা 6:00 টার পর কী হয় — দেরিতে নেওয়ার কোনো চার্জ আছে কি, এবং তা কীভাবে বিল করা হয়?"
+    },
+    {
+      "text": "Does Extended Day run on early-dismissal and conference days?",
+      "of": "d84511c9",
+      "at": [
+        "covenant-day:verdict.checklist[3]"
+      ],
+      "t": "Extended Day কি আগাম-ছুটি ও বৈঠকের দিনে চলে?"
+    },
+    {
+      "text": "For JK/K families: can a child attend only the 1:30–3:00 session on some days and stay to 6:00 on others, mixing day-counts across sessions?",
+      "of": "0e37c080",
+      "at": [
+        "covenant-day:verdict.checklist[4]"
+      ],
+      "t": "JK/K পরিবারদের জন্য: একটি শিশু কি কিছু দিন কেবল 1:30–3:00 সেশনে থাকতে পারে আর অন্য দিন 6:00 পর্যন্ত থাকতে পারে, সেশনগুলোর মধ্যে দিন-সংখ্যা মিশিয়ে?"
     },
     {
       "text": "After-school care exists for Traditional Toddler through grade 8 — but the pages describing it have been removed from the school’s site, and no rate has ever been published.",

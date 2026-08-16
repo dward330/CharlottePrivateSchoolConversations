@@ -391,6 +391,28 @@ for (const s of STRUCTURED) {
   w('|---|---|---|')
   for (const c of s.cards) w(`| \`${c.key}\` | ${esc(c.title)} | ${esc(c.kicker ?? '—')} |`)
   w()
+  if (s.topic === 'college-support') {
+    // Standing rule set 2026-08-16, after Covenant Day first shipped its
+    // acceptance list without rank labels: the rule lives here because this
+    // doc is what /add-school and a new-school build read first.
+    w('**The `outcomes.colleges` list is the school\'s FULL published acceptance list, with')
+    w('rankings.** Every college tagged `ivy` / `ivyplus` / `nu75` / `lac75` MUST carry its')
+    w('`rankLabel` ("National Rank #59" / "Liberal Rank #46") — labels are copied, never')
+    w('re-typed, from the canonical table in')
+    w('`source-material/college-support/_shared/US News 2026 - Rank Labels.md`; a college')
+    w('missing from that table is deep-researched against the same 2026 U.S. News edition and')
+    w('added there first. Bold (matriculated) names carry `enrolling: true`, and the list\'s')
+    w('bucket tallies must equal the school\'s six Compare bucket cells. Enforced by')
+    w('`npm run check:ranks` (`scripts/check_rank_labels.mjs`), chained into `npm run build`.')
+    w()
+    w('**`wholeClass` score tables carry a percentile header only when the rows genuinely')
+    w('hold percentiles.** A school that publishes averages or tier counts instead of')
+    w('distributions sets `noPercentiles: true` on that `ScoreTable` — otherwise the')
+    w('10th–90th/mean header files a class average under a percentile it is not, reading as')
+    w('a wrong low score. Card rule set 2026-08-16; the six-value percentile shape keeps the')
+    w('header, everything else suppresses it.')
+    w()
+  }
   const missing = schools.map((x) => x.slug).filter((x) => !s.schools.includes(x))
   w(`**Schools with data:** ${s.schools.length}/${schools.length}` +
     (missing.length ? ` — absent: ${missing.map((m) => `\`${m}\``).join(', ')}` : ''))
@@ -509,9 +531,11 @@ w('| A **new research area** | `RULES[topic]`, `TOPIC_ORDER`, `LOCALES`/routes |
 w('| A **Compare row** | `VALUE_METRICS` in `src/data/metricValues.ts` | **yes** — new row |')
 w('| A **structured card** | the topic\'s root type + `*_CARDS` registry | **yes** — new card |')
 w('| A **school\'s structured data** | `src/data/<dir>/<slug>.ts` | no — backfilling an existing card |')
+w('| A school\'s **acceptance list** (College Support) | `outcomes.colleges` + the `_shared` rank table | no — but ranked-bucket colleges MUST carry `rankLabel` (see §3, `npm run check:ranks`) |')
 w()
 w('After any of these, run `npm run schema` to refresh this doc (and `npm run check:metrics`,')
-w('which catches unmatched subtopics and Compare gaps).')
+w('which catches unmatched subtopics and Compare gaps; `npm run check:ranks` guards the')
+w('acceptance-list rank labels and is chained into the build).')
 w()
 w('### Keeping this doc honest')
 w()

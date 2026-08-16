@@ -13,6 +13,7 @@
         "charlotte-christian:title",
         "charlotte-country-day:title",
         "cannon:title",
+        "covenant-day:title",
         "davidson-day:title"
       ],
       "t": "Frè Eskolè ak Èd Finansye — Rapò Apwofondi"
@@ -35,6 +36,7 @@
         "charlotte-christian:framing[0].title",
         "charlotte-country-day:framing[0].title",
         "cannon:framing[0].title",
+        "covenant-day:framing[0].title",
         "davidson-day:framing[0].title"
       ],
       "t": "Pa pibliye ≠ pa ase bon."
@@ -77,6 +79,7 @@
         "charlotte-christian:framing[2].title",
         "charlotte-country-day:framing[2].title",
         "cannon:framing[2].title",
+        "covenant-day:framing[2].title",
         "davidson-day:framing[2].title"
       ],
       "t": "Èd K–12 sèlman."
@@ -143,7 +146,8 @@
       "of": "c2d451ca",
       "at": [
         "providence-day:sections[0].bands[2].label",
-        "charlotte-latin:sections[0].bands[1].label"
+        "charlotte-latin:sections[0].bands[1].label",
+        "covenant-day:sections[0].bands[1].label"
       ],
       "t": "Grad 1–5"
     },
@@ -186,6 +190,8 @@
         "cannon:sections[0].boxes[0].tag",
         "cannon:sections[2].boxes[2].tag",
         "cannon:sections[3].boxes[1].tag",
+        "covenant-day:sections[2].boxes[1].tag",
+        "covenant-day:sections[4].boxes[0].tag",
         "davidson-day:sections[2].boxes[2].tag"
       ],
       "t": "PA PIBLIYE"
@@ -457,6 +463,7 @@
         "charlotte-latin:sections[2].navTitle",
         "charlotte-country-day:sections[2].navTitle",
         "cannon:sections[2].navTitle",
+        "covenant-day:sections[2].navTitle",
         "davidson-day:sections[2].navTitle"
       ],
       "t": "Motè Èd la"
@@ -527,6 +534,7 @@
         "providence-day:sections[2].timeline[3].when",
         "charlotte-country-day:sections[2].timeline[3].when",
         "cannon:sections[2].timeline[3].when",
+        "covenant-day:sections[2].timeline[3].when",
         "davidson-day:sections[2].timeline[3].when"
       ],
       "t": "Chak ane"
@@ -872,6 +880,7 @@
         "charlotte-latin:sections[5].navTitle",
         "charlotte-country-day:sections[4].navTitle",
         "cannon:sections[4].navTitle",
+        "covenant-day:sections[5].navTitle",
         "davidson-day:sections[4].navTitle"
       ],
       "t": "Peye Balans la"
@@ -894,7 +903,8 @@
         "providence-day:sections[5].plans[0].figure",
         "charlotte-christian:sections[4].plans[1].figure",
         "charlotte-country-day:sections[4].plans[1].figure",
-        "cannon:sections[4].plans[0].figure"
+        "cannon:sections[4].plans[0].figure",
+        "covenant-day:sections[5].plans[0].figure"
       ],
       "t": "1×"
     },
@@ -1033,6 +1043,7 @@
         "charlotte-christian:sections[5].navTitle",
         "charlotte-country-day:sections[5].navTitle",
         "cannon:sections[5].navTitle",
+        "covenant-day:sections[6].navTitle",
         "davidson-day:sections[5].navTitle"
       ],
       "t": "Tandans ak Kesyon"
@@ -1226,6 +1237,7 @@
         "charlotte-christian:framing[0].body",
         "charlotte-country-day:framing[0].body",
         "cannon:framing[0].body",
+        "covenant-day:framing[0].body",
         "davidson-day:framing[0].body"
       ],
       "t": "“Pa pibliye” make yon mank nan transparans — se pa janm yon jijman ke pwogram èd la piti oswa pa akeyan."
@@ -1258,7 +1270,8 @@
       "text": "Grades 6–8",
       "of": "914e6250",
       "at": [
-        "charlotte-latin:sections[0].bands[2].label"
+        "charlotte-latin:sections[0].bands[2].label",
+        "covenant-day:sections[0].bands[2].label"
       ],
       "t": "Grad 6–8"
     },
@@ -1269,7 +1282,8 @@
         "charlotte-latin:sections[0].bands[3].label",
         "charlotte-country-day:sections[0].bands[4].label",
         "cannon:sections[0].bands[4].label",
-        "cannon:sections[3].ranges[2].label"
+        "cannon:sections[3].ranges[2].label",
+        "covenant-day:sections[0].bands[3].label"
       ],
       "t": "Grad 9–12"
     },
@@ -2206,7 +2220,8 @@
       "text": "Tuition by Band",
       "of": "098bc98f",
       "at": [
-        "charlotte-christian:sections[0].navTitle"
+        "charlotte-christian:sections[0].navTitle",
+        "covenant-day:sections[0].navTitle"
       ],
       "t": "Frè Eskolè pa Bann"
     },
@@ -2298,6 +2313,7 @@
       "of": "09c013ce",
       "at": [
         "charlotte-christian:sections[1].navTitle",
+        "covenant-day:sections[1].navTitle",
         "davidson-day:sections[1].navTitle"
       ],
       "t": "Frè ak Depans Anplis"
@@ -2307,6 +2323,7 @@
       "of": "e742ffd4",
       "at": [
         "charlotte-christian:sections[1].title",
+        "covenant-day:sections[1].title",
         "davidson-day:sections[1].title"
       ],
       "t": "Frè ak Depans Adisyonèl"
@@ -2763,7 +2780,8 @@
       "text": "$1,500",
       "of": "7634a7b9",
       "at": [
-        "charlotte-christian:sections[4].plans[0].figure"
+        "charlotte-christian:sections[4].plans[0].figure",
+        "covenant-day:sections[4].plans[0].figure"
       ],
       "t": "$1,500"
     },
@@ -4088,6 +4106,610 @@
       "t": "Ki to frè eskolè ki te pibliye pou chak bann nan twa dènye ane yo?"
     },
     {
+      "text": "2026–27 school year · figures as of 15 Aug 2026",
+      "of": "47d9e49a",
+      "at": [
+        "covenant-day:meta"
+      ],
+      "t": "Ane eskolè 2026–27 · chif yo dapre 15 out 2026"
+    },
+    {
+      "text": "Two years are live at once.",
+      "of": "ab877c57",
+      "at": [
+        "covenant-day:framing[1].title"
+      ],
+      "t": "De ane an dirèk anmenmtan."
+    },
+    {
+      "text": "The website table shows 2026–27 while the linked payment-terms PDF shows 2025–26. Every figure here names its year; the report leads with 2026–27.",
+      "of": "6e7cbdf9",
+      "at": [
+        "covenant-day:framing[1].body"
+      ],
+      "t": "Tab sit entènèt la montre 2026–27 pandan PDF kondisyon pèman ki lye a montre 2025–26. Chak chif isit la nonmen ane li; rapò a kòmanse ak 2026–27."
+    },
+    {
+      "text": "Tuition assistance while enrolled — not college aid. Not financial advice.",
+      "of": "e6f51e0f",
+      "at": [
+        "covenant-day:framing[2].body",
+        "davidson-day:framing[2].body"
+      ],
+      "t": "Asistans frè eskolè pandan w enskri — se pa èd inivèsitè. Se pa konsèy finansye."
+    },
+    {
+      "text": "Tuition by Grade Level",
+      "of": "3e0b286d",
+      "at": [
+        "covenant-day:sections[0].title",
+        "davidson-day:sections[0].title"
+      ],
+      "t": "Frè Eskolè pa Nivo"
+    },
+    {
+      "text": "Published tuition by grade band — the lowest top rate in this comparison",
+      "of": "a44f57bc",
+      "at": [
+        "covenant-day:sections[0].figureCaption"
+      ],
+      "t": "Frè eskolè ki pibliye pa bann grad — to anlè ki pi ba nan konparezon sa a"
+    },
+    {
+      "text": "JK & K",
+      "of": "b01d7771",
+      "at": [
+        "covenant-day:sections[0].bands[0].label"
+      ],
+      "t": "JK & K"
+    },
+    {
+      "text": "Four bands from junior kindergarten through grade 12, a $7,300 spread. The rise from 2025–26 was a flat $1,200 at every band — a dollar increase, not a percentage one, which is why the youngest band shows the steepest percent change.",
+      "of": "d75b28fb",
+      "at": [
+        "covenant-day:sections[0].figureNote"
+      ],
+      "t": "Kat bann depi junior kindergarten jiska grad 12, yon ekar $7,300. Ogmantasyon depi 2025–26 la te yon $1,200 fiks nan chak bann — yon ogmantasyon an dola, se pa an pousantaj, se poutèt sa bann ki pi jèn nan montre pi gwo chanjman pousantaj la."
+    },
+    {
+      "text": "The school states what tuition includes — on-campus computers/iPads, technology expenses, school retreats and required field trips, science lab and elective fees, and most athletic expenses — an inclusions list several peers do not publish.",
+      "of": "b8e82882",
+      "at": [
+        "covenant-day:sections[0].figureNote2"
+      ],
+      "t": "Lekòl la deklare sa frè eskolè a gen ladan — konpitè/iPad sou kanpis, depans teknoloji, retrèt lekòl ak vwayaj sou teren obligatwa, frè laboratwa syans ak elektif, ak pifò depans atletik — yon lis enklizyon plizyè kanmarad pa pibliye."
+    },
+    {
+      "text": "A short, mostly-priced list",
+      "of": "0e601a1a",
+      "at": [
+        "covenant-day:sections[1].componentsTitle"
+      ],
+      "t": "Yon lis kout, mòn sitou ki gen pri"
+    },
+    {
+      "text": "Enrollment deposit · $1,000, credited to tuition",
+      "of": "eb5e15b2",
+      "at": [
+        "covenant-day:sections[1].components[0].label"
+      ],
+      "t": "Depo enskripsyon · $1,000, kredite nan frè eskolè"
+    },
+    {
+      "text": "FACTS monthly-plan fee · $50/yr",
+      "of": "e672f5c7",
+      "at": [
+        "covenant-day:sections[1].components[1].label"
+      ],
+      "t": "Frè plan mansyèl FACTS · $50/an"
+    },
+    {
+      "text": "Card-processing fee · 3.05% of payment",
+      "of": "69e6ca60",
+      "at": [
+        "covenant-day:sections[1].components[2].label"
+      ],
+      "t": "Frè tretman kat · 3.05% nan pèman"
+    },
+    {
+      "text": "Extended Day (JK–8) · $58–$248/mo per session",
+      "of": "78e3b262",
+      "at": [
+        "covenant-day:sections[1].components[3].label"
+      ],
+      "t": "Extended Day (JK–8) · $58–$248/mwa pa sesyon"
+    },
+    {
+      "text": "Laptop, grades 9–12 · bring your own",
+      "of": "b2aae508",
+      "at": [
+        "covenant-day:sections[1].components[4].label"
+      ],
+      "t": "Laptop, grad 9–12 · pote pa w"
+    },
+    {
+      "text": "Tutoring / special testing beyond classroom help",
+      "of": "4f7152a4",
+      "at": [
+        "covenant-day:sections[1].components[5].label"
+      ],
+      "t": "Titora / egzamen espesyal andeyò èd nan klas"
+    },
+    {
+      "text": "Uniform (JK–8) / HS dress code",
+      "of": "e05b842c",
+      "at": [
+        "covenant-day:sections[1].components[6].label"
+      ],
+      "t": "Inifòm (JK–8) / kòd abiman HS"
+    },
+    {
+      "text": "The inclusions list does real work here: retreats, required field trips, lab and elective fees, and most athletic expenses sit inside tuition, so the priced add-ons are genuinely few. Grades 9–12 must supply a laptop meeting the school’s specs.",
+      "of": "68dc28f7",
+      "at": [
+        "covenant-day:sections[1].componentsNote"
+      ],
+      "t": "Lis enklizyon an fè vre travay isit la: retrèt, vwayaj sou teren obligatwa, frè laboratwa ak elektif, ak pifò depans atletik chita anndan frè eskolè a, kidonk bagay anplis ki gen pri yo vrèman piti. Grad 9–12 dwe bay yon laptop ki satisfè espesifikasyon lekòl la."
+    },
+    {
+      "text": "The deposit is aid-aware",
+      "of": "4cae32af",
+      "at": [
+        "covenant-day:sections[1].boxes[0].title"
+      ],
+      "t": "Depo a konnen èd la"
+    },
+    {
+      "text": "The $1,000 per-student deposit is non-refundable and credited to tuition — and families who submit a completed aid application before enrolling may ask the Business Office to **halve it** while the application is considered. Waiting for an aid decision without paying the deposit, though, means no seat is held.",
+      "of": "8445b947",
+      "at": [
+        "covenant-day:sections[1].boxes[0].body"
+      ],
+      "t": "Depo $1,000 pa elèv la pa ranbousab epi li kredite nan frè eskolè a — epi fanmi ki soumèt yon aplikasyon èd ki konplè anvan yo enskri ka mande Business Office la **koupe l an mwatye** pandan y ap konsidere aplikasyon an. Men, tann yon desizyon èd san peye depo a vle di pa gen okenn plas ki rezève."
+    },
+    {
+      "text": "Aid Process and Timeline",
+      "of": "690355d8",
+      "at": [
+        "covenant-day:sections[2].title",
+        "davidson-day:sections[2].title"
+      ],
+      "t": "Pwosesis ak Kalandriye Èd"
+    },
+    {
+      "text": "With admission",
+      "of": "baedc1a0",
+      "at": [
+        "covenant-day:sections[2].timeline[0].when"
+      ],
+      "t": "Ak admisyon"
+    },
+    {
+      "text": "Families submit the aid application **concurrently with the admissions application**, through FACTS — the same platform that runs tuition billing",
+      "of": "b8762ba7",
+      "at": [
+        "covenant-day:sections[2].timeline[0].detail"
+      ],
+      "t": "Fanmi soumèt aplikasyon èd la **anmenmtan ak aplikasyon admisyon an**, atravè FACTS — menm platfòm ki jere faktirasyon frè eskolè a"
+    },
+    {
+      "text": "Prerequisite",
+      "of": "30a573d3",
+      "at": [
+        "covenant-day:sections[2].timeline[1].when"
+      ],
+      "t": "Prekondisyon"
+    },
+    {
+      "text": "Proof of application for the **NC Opportunity Scholarship** is mandatory before any CDS aid is considered — a hard gate no peer school here imposes",
+      "of": "f72e805a",
+      "at": [
+        "covenant-day:sections[2].timeline[1].detail"
+      ],
+      "t": "Prèv aplikasyon pou **NC Opportunity Scholarship** obligatwa anvan yo konsidere okenn èd CDS — yon baryè di okenn lekòl kanmarad isit la pa enpoze"
+    },
+    {
+      "text": "On completion",
+      "of": "c9d5c23e",
+      "at": [
+        "covenant-day:sections[2].timeline[2].when"
+      ],
+      "t": "Lè li fin konplè"
+    },
+    {
+      "text": "Decisions are communicated only once an application is complete, including all supporting documentation",
+      "of": "cea405d7",
+      "at": [
+        "covenant-day:sections[2].timeline[2].detail"
+      ],
+      "t": "Yo kominike desizyon yo sèlman lè yon aplikasyon konplè, ki gen ladan tout dokiman sipò"
+    },
+    {
+      "text": "No multi-year award — families submit a new application each year",
+      "of": "7f386677",
+      "at": [
+        "covenant-day:sections[2].timeline[3].detail"
+      ],
+      "t": "Pa gen okenn prim plizyè ane — fanmi soumèt yon nouvo aplikasyon chak ane"
+    },
+    {
+      "text": "Platform & scope",
+      "of": "736758b4",
+      "at": [
+        "covenant-day:sections[2].boxes[0].title"
+      ],
+      "t": "Platfòm & pòte"
+    },
+    {
+      "text": "**FACTS** runs the confidential need assessment. Aid is need-based only, and only the party responsible for paying tuition may apply. Contact: Christen Marshall, Student Accounts Coordinator, 704-708-6102.",
+      "of": "23d6f76d",
+      "at": [
+        "covenant-day:sections[2].boxes[0].body"
+      ],
+      "t": "**FACTS** jere evalyasyon bezwen konfidansyèl la. Èd la baze sou bezwen sèlman, epi se sèlman moun ki responsab pou peye frè eskolè a ki ka aplike. Kontak: Christen Marshall, Student Accounts Coordinator, 704-708-6102."
+    },
+    {
+      "text": "No aid deadline date, no decision timeline, no appeals process, and no award-ceiling policy appears on the public record. The application fee for FACTS, if any, is also unstated.",
+      "of": "5f12ecc0",
+      "at": [
+        "covenant-day:sections[2].boxes[1].body"
+      ],
+      "t": "Pa gen okenn dat limit èd, okenn kalandriye desizyon, okenn pwosesis apèl, ni okenn règleman plafon prim ki parèt nan dosye piblik la. Frè aplikasyon pou FACTS, si genyen, pa deklare tou."
+    },
+    {
+      "text": "Aid in Numbers",
+      "of": "bd1cf4c6",
+      "at": [
+        "covenant-day:sections[3].navTitle"
+      ],
+      "t": "Èd nan Chif"
+    },
+    {
+      "text": "What the Numbers Disclose",
+      "of": "d9be712e",
+      "at": [
+        "covenant-day:sections[3].title"
+      ],
+      "t": "Sa Chif yo Divilge"
+    },
+    {
+      "text": "of students on aid — third-party figure only",
+      "of": "e248fc59",
+      "at": [
+        "covenant-day:sections[3].stats[0].label"
+      ],
+      "t": "nan elèv sou èd — chif twazyèm pati sèlman"
+    },
+    {
+      "text": "church ministry — IRS-exempt from filing",
+      "of": "fd45ab9c",
+      "at": [
+        "covenant-day:sections[3].stats[1].label"
+      ],
+      "t": "ministè legliz — egzante IRS pou depoze"
+    },
+    {
+      "text": "published aid totals, averages, or budgets",
+      "of": "e75ea3c1",
+      "at": [
+        "covenant-day:sections[3].stats[2].label"
+      ],
+      "t": "total èd, mwayèn, oswa bidjè ki pibliye"
+    },
+    {
+      "text": "The ~20% share comes from aggregators (PrivateSchoolReview, schooltuitions.org); the school itself publishes no percentage, no total awarded, and no average award.",
+      "of": "99fcdce6",
+      "at": [
+        "covenant-day:sections[3].figureNote"
+      ],
+      "t": "Pati ~20% la soti nan agregatè (PrivateSchoolReview, schooltuitions.org); lekòl la li menm pa pibliye okenn pousantaj, okenn total bay, ni okenn prim mwayèn."
+    },
+    {
+      "text": "NOT PUBLISHED — AND NOT RECOVERABLE",
+      "of": "98106920",
+      "at": [
+        "covenant-day:sections[3].boxes[0].tag"
+      ],
+      "t": "PA PIBLIYE — EPI PA KA REKIPERE"
+    },
+    {
+      "text": "Covenant Day is a ministry of Christ Covenant Church (PCA), and the IRS designates it a **religious organization not required to file Form 990** (EIN 56-1656570, exempt since 1989). ProPublica’s Nonprofit Explorer confirms no filing exists. Every other school in this project is a 990 filer whose aid totals can be checked against its return — here there is **no filing to check**, so the gap is structural rather than a page waiting to be found.",
+      "of": "07e003e5",
+      "at": [
+        "covenant-day:sections[3].boxes[0].body"
+      ],
+      "t": "Covenant Day se yon ministè Christ Covenant Church (PCA), epi IRS la deziyen li kòm yon **òganizasyon relijye ki pa oblije depoze Form 990** (EIN 56-1656570, egzante depi 1989). Nonprofit Explorer ProPublica a konfime pa gen okenn depo ki egziste. Chak lòt lekòl nan pwojè sa a se yon moun ki depoze 990 ki ka verifye total èd li kont deklarasyon li — isit la pa gen **okenn depo pou verifye**, kidonk twou a estriktirèl olye ke yon paj k ap tann yo jwenn li."
+    },
+    {
+      "text": "Discounts & State Aid",
+      "of": "e6a0f3f2",
+      "at": [
+        "covenant-day:sections[4].navTitle"
+      ],
+      "t": "Rabè & Èd Eta"
+    },
+    {
+      "text": "Merit, Discounts & State Scholarships",
+      "of": "622789d6",
+      "at": [
+        "covenant-day:sections[4].title"
+      ],
+      "t": "Merit, Rabè & Bous Eta"
+    },
+    {
+      "text": "ALL SCHOOL AID IS NEED-BASED",
+      "of": "6b98e954",
+      "at": [
+        "covenant-day:sections[4].tag"
+      ],
+      "t": "TOUT ÈD LEKÒL LA BAZE SOU BEZWEN"
+    },
+    {
+      "text": "Multi-child discount",
+      "of": "7c2c9ac8",
+      "at": [
+        "covenant-day:sections[4].plans[0].label"
+      ],
+      "t": "Rabè plizyè timoun"
+    },
+    {
+      "text": "Off tuition for the **third and each additional student** from the same household, applied to the children in the lowest grades. Two-child families get nothing.",
+      "of": "cf11a53f",
+      "at": [
+        "covenant-day:sections[4].plans[0].detail"
+      ],
+      "t": "Sou frè eskolè pou **twazyèm elèv la ak chak elèv anplis** nan menm kay la, aplike sou timoun ki nan grad ki pi ba yo. Fanmi ki gen de timoun pa jwenn anyen."
+    },
+    {
+      "text": "$400",
+      "of": "513ce48d",
+      "at": [
+        "covenant-day:sections[4].plans[1].figure"
+      ],
+      "t": "$400"
+    },
+    {
+      "text": "Christ Covenant Church member discount",
+      "of": "7601051e",
+      "at": [
+        "covenant-day:sections[4].plans[1].label"
+      ],
+      "t": "Rabè manm Christ Covenant Church"
+    },
+    {
+      "text": "Per enrolled student, for members of the sponsoring church — membership affirmed during online enrollment, with a February 1 cutoff for full-year eligibility.",
+      "of": "8daf0b5b",
+      "at": [
+        "covenant-day:sections[4].plans[1].detail"
+      ],
+      "t": "Pa elèv ki enskri, pou manm legliz espon lan — manm konfime pandan enskripsyon anliy, ak yon dat limit 1ye fevriye pou kalifikasyon ane konplè."
+    },
+    {
+      "text": "NC",
+      "of": "35e678d6",
+      "at": [
+        "covenant-day:sections[4].plans[2].figure"
+      ],
+      "t": "NC"
+    },
+    {
+      "text": "Opportunity Scholarship + ESA+",
+      "of": "755390d9",
+      "at": [
+        "covenant-day:sections[4].plans[2].label"
+      ],
+      "t": "Opportunity Scholarship + ESA+"
+    },
+    {
+      "text": "The school accepts both NCSEAA-administered programs — and applying for the Opportunity Scholarship is a **prerequisite** for CDS aid, so state aid is the designed first layer of every package.",
+      "of": "3ebfb56c",
+      "at": [
+        "covenant-day:sections[4].plans[2].detail"
+      ],
+      "t": "Lekòl la aksepte toude pwogram NCSEAA administre yo — epi aplike pou Opportunity Scholarship la se yon **prekondisyon** pou èd CDS, kidonk èd eta a se premye kouch chak pake a ki fèt."
+    },
+    {
+      "text": "No merit scholarships exist on the public record — aid is need-based only. No sibling discount before the third child, no military or clergy discount, and no employee-remission policy is published.",
+      "of": "c8751142",
+      "at": [
+        "covenant-day:sections[4].boxes[0].body"
+      ],
+      "t": "Pa gen okenn bous merit ki egziste nan dosye piblik la — èd la baze sou bezwen sèlman. Pa gen okenn rabè frè ak sè anvan twazyèm timoun nan, okenn rabè militè oswa klèje, ni okenn règleman remisyon anplwaye ki pibliye."
+    },
+    {
+      "text": "Payment Plans & Contract Terms",
+      "of": "7e5b3eac",
+      "at": [
+        "covenant-day:sections[5].title",
+        "davidson-day:sections[4].title"
+      ],
+      "t": "Plan Pèman ak Kondisyon Kontra"
+    },
+    {
+      "text": "Annual plan",
+      "of": "442308c5",
+      "at": [
+        "covenant-day:sections[5].plans[0].label"
+      ],
+      "t": "Plan anyèl"
+    },
+    {
+      "text": "The full balance due by **May 1** preceding the school year. No prepayment discount is published.",
+      "of": "d81f21dc",
+      "at": [
+        "covenant-day:sections[5].plans[0].detail"
+      ],
+      "t": "Balans konplè a dwe peye anvan **1ye me** ki vin anvan ane eskolè a. Pa gen okenn rabè prepèman ki pibliye."
+    },
+    {
+      "text": "9×",
+      "of": "eafe64d9",
+      "at": [
+        "covenant-day:sections[5].plans[1].figure"
+      ],
+      "t": "9×"
+    },
+    {
+      "text": "Monthly plan (FACTS)",
+      "of": "28896c7b",
+      "at": [
+        "covenant-day:sections[5].plans[1].label"
+      ],
+      "t": "Plan mansyèl (FACTS)"
+    },
+    {
+      "text": "Nine equal installments, **May through January**, autopaying on the 5th or 20th — plus a $50/year FACTS fee. Note the season: payments start four months before school does.",
+      "of": "e99f8921",
+      "at": [
+        "covenant-day:sections[5].plans[1].detail"
+      ],
+      "t": "Nèf vèsman egal, **Me jiska Janvye**, otopeye sou 5 oswa 20 — plis yon frè FACTS $50/an. Note sezon an: pèman kòmanse kat mwa anvan lekòl la kòmanse."
+    },
+    {
+      "text": "3.05%",
+      "of": "9bb9f1aa",
+      "at": [
+        "covenant-day:sections[5].plans[2].figure"
+      ],
+      "t": "3.05%"
+    },
+    {
+      "text": "Card surcharge",
+      "of": "29880099",
+      "at": [
+        "covenant-day:sections[5].plans[2].label"
+      ],
+      "t": "Sichaj kat"
+    },
+    {
+      "text": "Debit/credit payments incur a 3.05% processor fee; bank drafts avoid it. On a $22,790 tuition that is roughly $695.",
+      "of": "3ecab72f",
+      "at": [
+        "covenant-day:sections[5].plans[2].detail"
+      ],
+      "t": "Pèman debi/kredi genyen yon frè processè 3.05%; prelèvman labank evite li. Sou yon frè eskolè $22,790 sa se anviwon $695."
+    },
+    {
+      "text": "10th",
+      "of": "61efd168",
+      "at": [
+        "covenant-day:sections[5].plans[3].figure"
+      ],
+      "t": "10"
+    },
+    {
+      "text": "Withdrawal cutoff",
+      "of": "09449783",
+      "at": [
+        "covenant-day:sections[5].plans[3].label"
+      ],
+      "t": "Dat limit retrè"
+    },
+    {
+      "text": "Withdrawals must be official by the 10th of the month to skip that month’s installment; refunds equal installments whose due date has not passed. Monthly-plan families current on payments get no refund and owe no more.",
+      "of": "f87d5f23",
+      "at": [
+        "covenant-day:sections[5].plans[3].detail"
+      ],
+      "t": "Retrè yo dwe ofisyèl anvan 10 mwa a pou sote vèsman mwa sa a; ranbousman egal vèsman ki gen dat pou peye ki poko pase. Fanmi plan mansyèl ki ajou nan pèman yo pa jwenn ranbousman epi yo pa dwe plis."
+    },
+    {
+      "text": "Non-current accounts",
+      "of": "e9664408",
+      "at": [
+        "covenant-day:sections[5].boxes[0].title"
+      ],
+      "t": "Kont ki pa ajou"
+    },
+    {
+      "text": "Accounts more than 30 days past due can suspend re-enrollment, report cards, transcript release — and class access. A standard force-majeure clause keeps tuition obligations alive through closures.",
+      "of": "7d101a4f",
+      "at": [
+        "covenant-day:sections[5].boxes[0].body"
+      ],
+      "t": "Kont ki gen plis pase 30 jou an reta ka sispann re-enskripsyon, bilten nòt, delivrans relve nòt — ak aksè nan klas. Yon kloz fòs majè estanda kenbe obligasyon frè eskolè yo vivan pandan fèmti yo."
+    },
+    {
+      "text": "The Trend, and What to Ask",
+      "of": "ddf5a036",
+      "at": [
+        "covenant-day:sections[6].title"
+      ],
+      "t": "Tandans lan, ak Sa pou Mande"
+    },
+    {
+      "text": "flat increase at every band, 2025–26 → 2026–27",
+      "of": "d2ecb683",
+      "at": [
+        "covenant-day:sections[6].stats[0].label"
+      ],
+      "t": "ogmantasyon fiks nan chak bann, 2025–26 → 2026–27"
+    },
+    {
+      "text": "top band — the lowest top tuition in this comparison",
+      "of": "70a1af95",
+      "at": [
+        "covenant-day:sections[6].stats[1].label"
+      ],
+      "t": "bann anlè — frè eskolè anlè ki pi ba nan konparezon sa a"
+    },
+    {
+      "text": "of published rates (website + terms PDF)",
+      "of": "236fb2d1",
+      "at": [
+        "covenant-day:sections[6].stats[2].label"
+      ],
+      "t": "nan to ki pibliye (sit entènèt + PDF kondisyon)"
+    },
+    {
+      "text": "Questions the public record cannot answer",
+      "of": "b608282c",
+      "at": [
+        "covenant-day:sections[6].questionsTitle"
+      ],
+      "t": "Kesyon dosye piblik la pa ka reponn"
+    },
+    {
+      "text": "What share of families receive aid, and what is the average award? (The ~20% figure is third-party.)",
+      "of": "c63baba4",
+      "at": [
+        "covenant-day:sections[6].questions[0]"
+      ],
+      "t": "Ki pati fanmi ki resevwa èd, epi ki prim mwayèn nan? (Chif ~20% la se twazyèm pati.)"
+    },
+    {
+      "text": "What is the aid application deadline, and when are decisions released relative to enrollment contracts?",
+      "of": "51da8062",
+      "at": [
+        "covenant-day:sections[6].questions[1]"
+      ],
+      "t": "Ki dat limit aplikasyon èd la, epi ki lè yo pibliye desizyon yo parapò ak kontra enskripsyon yo?"
+    },
+    {
+      "text": "How does the mandatory NC Opportunity Scholarship application interact with CDS aid for families above the state income cap?",
+      "of": "adf1ebc4",
+      "at": [
+        "covenant-day:sections[6].questions[2]"
+      ],
+      "t": "Kijan aplikasyon obligatwa NC Opportunity Scholarship la entèraji ak èd CDS pou fanmi ki depase plafon revni eta a?"
+    },
+    {
+      "text": "Is there an appeals or mid-year change-of-circumstance process?",
+      "of": "d1ee59df",
+      "at": [
+        "covenant-day:sections[6].questions[3]"
+      ],
+      "t": "Èske gen yon pwosesis apèl oswa chanjman-sikonstans mitan-ane?"
+    },
+    {
+      "text": "Was the flat-$1,200 increase a one-year choice or the standing pattern?",
+      "of": "22306959",
+      "at": [
+        "covenant-day:sections[6].questions[4]"
+      ],
+      "t": "Èske ogmantasyon fiks-$1,200 la te yon chwa yon ane oswa modèl ki kanpe a?"
+    },
+    {
       "text": "2026–27 school year · figures as of 22 Jul 2026",
       "of": "6f9ac510",
       "at": [
@@ -4104,28 +4726,12 @@
       "t": "Tab ane aktyèl la ekraze sa anvan an, kidonk pa gen okenn istwa to ki ka rekipere. Nou make chif ki pa gen dat, nou pa devine yo."
     },
     {
-      "text": "Tuition assistance while enrolled — not college aid. Not financial advice.",
-      "of": "e6f51e0f",
-      "at": [
-        "davidson-day:framing[2].body"
-      ],
-      "t": "Asistans frè eskolè pandan w enskri — se pa èd inivèsitè. Se pa konsèy finansye."
-    },
-    {
       "text": "Tuition by Division",
       "of": "60483d8b",
       "at": [
         "davidson-day:sections[0].navTitle"
       ],
       "t": "Frè Eskolè pa Divizyon"
-    },
-    {
-      "text": "Tuition by Grade Level",
-      "of": "3e0b286d",
-      "at": [
-        "davidson-day:sections[0].title"
-      ],
-      "t": "Frè Eskolè pa Nivo"
     },
     {
       "text": "Early Childhood",
@@ -4312,14 +4918,6 @@
       "t": "Inifòm obligatwa (Early Preschool egzante); fanmi yo achte nan magazen jeneral ak logo a yon vandè lokal aplike, kidonk se vandè yo ki fikse pri rad yo epi lekòl la pa pibliye yo kòm yon frè. Nou pa t jwenn okenn bis oswa frè transpò lekòl la bay — gen plis chans paske li pa ofri youn olye ke yon pri yo kache."
     },
     {
-      "text": "Aid Process and Timeline",
-      "of": "690355d8",
-      "at": [
-        "davidson-day:sections[2].title"
-      ],
-      "t": "Pwosesis ak Kalandriye Èd"
-    },
-    {
       "text": "15 Feb",
       "of": "860084f6",
       "at": [
@@ -4494,14 +5092,6 @@
         "davidson-day:sections[3].boxes[1].body"
       ],
       "t": "Pa gen okenn rabè pou frè ak sè, militè oswa klèje ki pibliye, epi pa gen frè eskolè endekse oswa ak echèl varyab. Lekòl la fè yon pwosesis enskripsyon apa ak yon plan onz mwa pou paran ki anplwaye, men si okenn remisyon frè eskolè akonpaye anplwa a pa nan dosye piblik la. Konbyen bous yo bay chak ane, ak kritè renouvèlman yo pi lwen pase “an règ,” pa pibliye tou."
-    },
-    {
-      "text": "Payment Plans & Contract Terms",
-      "of": "7e5b3eac",
-      "at": [
-        "davidson-day:sections[4].title"
-      ],
-      "t": "Plan Pèman ak Kondisyon Kontra"
     },
     {
       "text": "11×",

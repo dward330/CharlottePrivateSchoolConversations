@@ -13,6 +13,7 @@
         "charlotte-christian:title",
         "charlotte-country-day:title",
         "cannon:title",
+        "covenant-day:title",
         "davidson-day:title"
       ],
       "t": "ट्यूशन और वित्तीय सहायता — गहन पड़ताल रिपोर्ट"
@@ -35,6 +36,7 @@
         "charlotte-christian:framing[0].title",
         "charlotte-country-day:framing[0].title",
         "cannon:framing[0].title",
+        "covenant-day:framing[0].title",
         "davidson-day:framing[0].title"
       ],
       "t": "अप्रकाशित ≠ कमज़ोर।"
@@ -77,6 +79,7 @@
         "charlotte-christian:framing[2].title",
         "charlotte-country-day:framing[2].title",
         "cannon:framing[2].title",
+        "covenant-day:framing[2].title",
         "davidson-day:framing[2].title"
       ],
       "t": "केवल K–12 सहायता।"
@@ -143,7 +146,8 @@
       "of": "c2d451ca",
       "at": [
         "providence-day:sections[0].bands[2].label",
-        "charlotte-latin:sections[0].bands[1].label"
+        "charlotte-latin:sections[0].bands[1].label",
+        "covenant-day:sections[0].bands[1].label"
       ],
       "t": "कक्षा 1–5"
     },
@@ -186,6 +190,8 @@
         "cannon:sections[0].boxes[0].tag",
         "cannon:sections[2].boxes[2].tag",
         "cannon:sections[3].boxes[1].tag",
+        "covenant-day:sections[2].boxes[1].tag",
+        "covenant-day:sections[4].boxes[0].tag",
         "davidson-day:sections[2].boxes[2].tag"
       ],
       "t": "प्रकाशित नहीं"
@@ -457,6 +463,7 @@
         "charlotte-latin:sections[2].navTitle",
         "charlotte-country-day:sections[2].navTitle",
         "cannon:sections[2].navTitle",
+        "covenant-day:sections[2].navTitle",
         "davidson-day:sections[2].navTitle"
       ],
       "t": "सहायता की प्रक्रिया"
@@ -527,6 +534,7 @@
         "providence-day:sections[2].timeline[3].when",
         "charlotte-country-day:sections[2].timeline[3].when",
         "cannon:sections[2].timeline[3].when",
+        "covenant-day:sections[2].timeline[3].when",
         "davidson-day:sections[2].timeline[3].when"
       ],
       "t": "हर वर्ष"
@@ -872,6 +880,7 @@
         "charlotte-latin:sections[5].navTitle",
         "charlotte-country-day:sections[4].navTitle",
         "cannon:sections[4].navTitle",
+        "covenant-day:sections[5].navTitle",
         "davidson-day:sections[4].navTitle"
       ],
       "t": "बाक़ी रक़म का भुगतान"
@@ -894,7 +903,8 @@
         "providence-day:sections[5].plans[0].figure",
         "charlotte-christian:sections[4].plans[1].figure",
         "charlotte-country-day:sections[4].plans[1].figure",
-        "cannon:sections[4].plans[0].figure"
+        "cannon:sections[4].plans[0].figure",
+        "covenant-day:sections[5].plans[0].figure"
       ],
       "t": "1×"
     },
@@ -1033,6 +1043,7 @@
         "charlotte-christian:sections[5].navTitle",
         "charlotte-country-day:sections[5].navTitle",
         "cannon:sections[5].navTitle",
+        "covenant-day:sections[6].navTitle",
         "davidson-day:sections[5].navTitle"
       ],
       "t": "रुझान और प्रश्न"
@@ -1226,6 +1237,7 @@
         "charlotte-christian:framing[0].body",
         "charlotte-country-day:framing[0].body",
         "cannon:framing[0].body",
+        "covenant-day:framing[0].body",
         "davidson-day:framing[0].body"
       ],
       "t": "\"प्रकाशित नहीं\" पारदर्शिता की एक कमी बताता है — यह कभी यह निर्णय नहीं कि सहायता कार्यक्रम छोटा है या परिवारों का स्वागत नहीं करता।"
@@ -1258,7 +1270,8 @@
       "text": "Grades 6–8",
       "of": "914e6250",
       "at": [
-        "charlotte-latin:sections[0].bands[2].label"
+        "charlotte-latin:sections[0].bands[2].label",
+        "covenant-day:sections[0].bands[2].label"
       ],
       "t": "कक्षा 6–8"
     },
@@ -1269,7 +1282,8 @@
         "charlotte-latin:sections[0].bands[3].label",
         "charlotte-country-day:sections[0].bands[4].label",
         "cannon:sections[0].bands[4].label",
-        "cannon:sections[3].ranges[2].label"
+        "cannon:sections[3].ranges[2].label",
+        "covenant-day:sections[0].bands[3].label"
       ],
       "t": "कक्षा 9–12"
     },
@@ -2206,7 +2220,8 @@
       "text": "Tuition by Band",
       "of": "098bc98f",
       "at": [
-        "charlotte-christian:sections[0].navTitle"
+        "charlotte-christian:sections[0].navTitle",
+        "covenant-day:sections[0].navTitle"
       ],
       "t": "बैंड के अनुसार ट्यूशन"
     },
@@ -2298,6 +2313,7 @@
       "of": "09c013ce",
       "at": [
         "charlotte-christian:sections[1].navTitle",
+        "covenant-day:sections[1].navTitle",
         "davidson-day:sections[1].navTitle"
       ],
       "t": "शुल्क और अतिरिक्त लागतें"
@@ -2307,6 +2323,7 @@
       "of": "e742ffd4",
       "at": [
         "charlotte-christian:sections[1].title",
+        "covenant-day:sections[1].title",
         "davidson-day:sections[1].title"
       ],
       "t": "शुल्क और अतिरिक्त लागतें"
@@ -2763,7 +2780,8 @@
       "text": "$1,500",
       "of": "7634a7b9",
       "at": [
-        "charlotte-christian:sections[4].plans[0].figure"
+        "charlotte-christian:sections[4].plans[0].figure",
+        "covenant-day:sections[4].plans[0].figure"
       ],
       "t": "$1,500"
     },
@@ -4088,6 +4106,610 @@
       "t": "पिछले तीन वर्षों में हर बैंड के लिए प्रकाशित ट्यूशन दरें क्या थीं?"
     },
     {
+      "text": "2026–27 school year · figures as of 15 Aug 2026",
+      "of": "47d9e49a",
+      "at": [
+        "covenant-day:meta"
+      ],
+      "t": "2026–27 शैक्षणिक वर्ष · 15 Aug 2026 तक के आँकड़े"
+    },
+    {
+      "text": "Two years are live at once.",
+      "of": "ab877c57",
+      "at": [
+        "covenant-day:framing[1].title"
+      ],
+      "t": "एक साथ दो वर्ष सक्रिय हैं।"
+    },
+    {
+      "text": "The website table shows 2026–27 while the linked payment-terms PDF shows 2025–26. Every figure here names its year; the report leads with 2026–27.",
+      "of": "6e7cbdf9",
+      "at": [
+        "covenant-day:framing[1].body"
+      ],
+      "t": "वेबसाइट तालिका 2026–27 दिखाती है जबकि लिंक किया गया payment-terms PDF 2025–26 दिखाता है। यहाँ हर आँकड़ा अपना वर्ष बताता है; रिपोर्ट 2026–27 से शुरू होती है।"
+    },
+    {
+      "text": "Tuition assistance while enrolled — not college aid. Not financial advice.",
+      "of": "e6f51e0f",
+      "at": [
+        "covenant-day:framing[2].body",
+        "davidson-day:framing[2].body"
+      ],
+      "t": "यह पढ़ाई के दौरान मिलने वाली ट्यूशन सहायता है — कॉलेज सहायता नहीं। यह वित्तीय सलाह नहीं है।"
+    },
+    {
+      "text": "Tuition by Grade Level",
+      "of": "3e0b286d",
+      "at": [
+        "covenant-day:sections[0].title",
+        "davidson-day:sections[0].title"
+      ],
+      "t": "ग्रेड स्तर के अनुसार ट्यूशन"
+    },
+    {
+      "text": "Published tuition by grade band — the lowest top rate in this comparison",
+      "of": "a44f57bc",
+      "at": [
+        "covenant-day:sections[0].figureCaption"
+      ],
+      "t": "ग्रेड बैंड के अनुसार प्रकाशित ट्यूशन — इस तुलना में सबसे कम शीर्ष दर"
+    },
+    {
+      "text": "JK & K",
+      "of": "b01d7771",
+      "at": [
+        "covenant-day:sections[0].bands[0].label"
+      ],
+      "t": "JK और K"
+    },
+    {
+      "text": "Four bands from junior kindergarten through grade 12, a $7,300 spread. The rise from 2025–26 was a flat $1,200 at every band — a dollar increase, not a percentage one, which is why the youngest band shows the steepest percent change.",
+      "of": "d75b28fb",
+      "at": [
+        "covenant-day:sections[0].figureNote"
+      ],
+      "t": "junior kindergarten से कक्षा 12 तक चार बैंड, $7,300 का फैलाव। 2025–26 से बढ़ोतरी हर बैंड पर एकसमान $1,200 थी — एक डॉलर बढ़ोतरी, प्रतिशत नहीं, यही वजह है कि सबसे छोटा बैंड सबसे तीखा प्रतिशत बदलाव दिखाता है।"
+    },
+    {
+      "text": "The school states what tuition includes — on-campus computers/iPads, technology expenses, school retreats and required field trips, science lab and elective fees, and most athletic expenses — an inclusions list several peers do not publish.",
+      "of": "b8e82882",
+      "at": [
+        "covenant-day:sections[0].figureNote2"
+      ],
+      "t": "स्कूल बताता है कि ट्यूशन में क्या शामिल है — campus पर computers/iPads, तकनीक खर्च, school retreats और अनिवार्य field trips, science lab और elective शुल्क, और अधिकांश खेल खर्च — एक inclusions सूची जो कई सहकर्मी प्रकाशित नहीं करते।"
+    },
+    {
+      "text": "A short, mostly-priced list",
+      "of": "0e601a1a",
+      "at": [
+        "covenant-day:sections[1].componentsTitle"
+      ],
+      "t": "एक छोटी, ज़्यादातर क़ीमत वाली सूची"
+    },
+    {
+      "text": "Enrollment deposit · $1,000, credited to tuition",
+      "of": "eb5e15b2",
+      "at": [
+        "covenant-day:sections[1].components[0].label"
+      ],
+      "t": "नामांकन जमा राशि · $1,000, ट्यूशन में समायोजित"
+    },
+    {
+      "text": "FACTS monthly-plan fee · $50/yr",
+      "of": "e672f5c7",
+      "at": [
+        "covenant-day:sections[1].components[1].label"
+      ],
+      "t": "FACTS मासिक-योजना शुल्क · $50/yr"
+    },
+    {
+      "text": "Card-processing fee · 3.05% of payment",
+      "of": "69e6ca60",
+      "at": [
+        "covenant-day:sections[1].components[2].label"
+      ],
+      "t": "Card-processing शुल्क · भुगतान का 3.05%"
+    },
+    {
+      "text": "Extended Day (JK–8) · $58–$248/mo per session",
+      "of": "78e3b262",
+      "at": [
+        "covenant-day:sections[1].components[3].label"
+      ],
+      "t": "Extended Day (JK–8) · $58–$248/mo प्रति सत्र"
+    },
+    {
+      "text": "Laptop, grades 9–12 · bring your own",
+      "of": "b2aae508",
+      "at": [
+        "covenant-day:sections[1].components[4].label"
+      ],
+      "t": "Laptop, कक्षा 9–12 · अपना खुद लाएँ"
+    },
+    {
+      "text": "Tutoring / special testing beyond classroom help",
+      "of": "4f7152a4",
+      "at": [
+        "covenant-day:sections[1].components[5].label"
+      ],
+      "t": "कक्षा की मदद से आगे ट्यूशन / विशेष testing"
+    },
+    {
+      "text": "Uniform (JK–8) / HS dress code",
+      "of": "e05b842c",
+      "at": [
+        "covenant-day:sections[1].components[6].label"
+      ],
+      "t": "यूनिफ़ॉर्म (JK–8) / HS dress code"
+    },
+    {
+      "text": "The inclusions list does real work here: retreats, required field trips, lab and elective fees, and most athletic expenses sit inside tuition, so the priced add-ons are genuinely few. Grades 9–12 must supply a laptop meeting the school’s specs.",
+      "of": "68dc28f7",
+      "at": [
+        "covenant-day:sections[1].componentsNote"
+      ],
+      "t": "inclusions सूची यहाँ असली काम करती है: retreats, अनिवार्य field trips, lab और elective शुल्क, और अधिकांश खेल खर्च ट्यूशन के भीतर बैठते हैं, इसलिए क़ीमत वाले add-on वाकई कम हैं। कक्षा 9–12 को स्कूल के specs पूरा करता एक laptop देना होगा।"
+    },
+    {
+      "text": "The deposit is aid-aware",
+      "of": "4cae32af",
+      "at": [
+        "covenant-day:sections[1].boxes[0].title"
+      ],
+      "t": "जमा राशि सहायता-संवेदी है"
+    },
+    {
+      "text": "The $1,000 per-student deposit is non-refundable and credited to tuition — and families who submit a completed aid application before enrolling may ask the Business Office to **halve it** while the application is considered. Waiting for an aid decision without paying the deposit, though, means no seat is held.",
+      "of": "8445b947",
+      "at": [
+        "covenant-day:sections[1].boxes[0].body"
+      ],
+      "t": "$1,000 प्रति-छात्र जमा राशि गैर-वापसी-योग्य है और ट्यूशन में समायोजित होती है — और जो परिवार नामांकन से पहले एक पूर्ण सहायता आवेदन जमा करते हैं, वे Business Office से आवेदन विचाराधीन रहते हुए इसे **आधा करने** के लिए कह सकते हैं। पर जमा राशि दिए बिना सहायता निर्णय की प्रतीक्षा का मतलब है कि कोई सीट नहीं रोकी जाती।"
+    },
+    {
+      "text": "Aid Process and Timeline",
+      "of": "690355d8",
+      "at": [
+        "covenant-day:sections[2].title",
+        "davidson-day:sections[2].title"
+      ],
+      "t": "सहायता की प्रक्रिया और समय-सारणी"
+    },
+    {
+      "text": "With admission",
+      "of": "baedc1a0",
+      "at": [
+        "covenant-day:sections[2].timeline[0].when"
+      ],
+      "t": "प्रवेश के साथ"
+    },
+    {
+      "text": "Families submit the aid application **concurrently with the admissions application**, through FACTS — the same platform that runs tuition billing",
+      "of": "b8762ba7",
+      "at": [
+        "covenant-day:sections[2].timeline[0].detail"
+      ],
+      "t": "परिवार सहायता आवेदन **प्रवेश आवेदन के साथ-साथ**, FACTS के माध्यम से जमा करते हैं — वही platform जो ट्यूशन billing चलाता है"
+    },
+    {
+      "text": "Prerequisite",
+      "of": "30a573d3",
+      "at": [
+        "covenant-day:sections[2].timeline[1].when"
+      ],
+      "t": "पूर्व-आवश्यकता"
+    },
+    {
+      "text": "Proof of application for the **NC Opportunity Scholarship** is mandatory before any CDS aid is considered — a hard gate no peer school here imposes",
+      "of": "f72e805a",
+      "at": [
+        "covenant-day:sections[2].timeline[1].detail"
+      ],
+      "t": "किसी भी CDS सहायता पर विचार से पहले **NC Opportunity Scholarship** के लिए आवेदन का प्रमाण अनिवार्य है — एक कठोर गेट जो यहाँ कोई सहकर्मी स्कूल नहीं थोपता"
+    },
+    {
+      "text": "On completion",
+      "of": "c9d5c23e",
+      "at": [
+        "covenant-day:sections[2].timeline[2].when"
+      ],
+      "t": "पूरा होने पर"
+    },
+    {
+      "text": "Decisions are communicated only once an application is complete, including all supporting documentation",
+      "of": "cea405d7",
+      "at": [
+        "covenant-day:sections[2].timeline[2].detail"
+      ],
+      "t": "निर्णय केवल तभी बताए जाते हैं जब एक आवेदन पूर्ण हो, सभी सहायक दस्तावेज़ों सहित"
+    },
+    {
+      "text": "No multi-year award — families submit a new application each year",
+      "of": "7f386677",
+      "at": [
+        "covenant-day:sections[2].timeline[3].detail"
+      ],
+      "t": "कोई बहु-वर्षीय अनुदान नहीं — परिवार हर साल एक नया आवेदन जमा करते हैं"
+    },
+    {
+      "text": "Platform & scope",
+      "of": "736758b4",
+      "at": [
+        "covenant-day:sections[2].boxes[0].title"
+      ],
+      "t": "Platform और दायरा"
+    },
+    {
+      "text": "**FACTS** runs the confidential need assessment. Aid is need-based only, and only the party responsible for paying tuition may apply. Contact: Christen Marshall, Student Accounts Coordinator, 704-708-6102.",
+      "of": "23d6f76d",
+      "at": [
+        "covenant-day:sections[2].boxes[0].body"
+      ],
+      "t": "**FACTS** गोपनीय आवश्यकता आकलन चलाता है। सहायता केवल need-based है, और केवल ट्यूशन भुगतान के लिए ज़िम्मेदार पक्ष ही आवेदन कर सकता है। संपर्क: Christen Marshall, Student Accounts Coordinator, 704-708-6102।"
+    },
+    {
+      "text": "No aid deadline date, no decision timeline, no appeals process, and no award-ceiling policy appears on the public record. The application fee for FACTS, if any, is also unstated.",
+      "of": "5f12ecc0",
+      "at": [
+        "covenant-day:sections[2].boxes[1].body"
+      ],
+      "t": "सार्वजनिक रिकॉर्ड पर कोई सहायता समय-सीमा तारीख, कोई निर्णय समयरेखा, कोई अपील प्रक्रिया, और कोई अनुदान-सीमा नीति नहीं दिखती। FACTS के लिए आवेदन शुल्क, यदि कोई हो, भी अनकहा है।"
+    },
+    {
+      "text": "Aid in Numbers",
+      "of": "bd1cf4c6",
+      "at": [
+        "covenant-day:sections[3].navTitle"
+      ],
+      "t": "संख्याओं में सहायता"
+    },
+    {
+      "text": "What the Numbers Disclose",
+      "of": "d9be712e",
+      "at": [
+        "covenant-day:sections[3].title"
+      ],
+      "t": "संख्याएँ क्या बताती हैं"
+    },
+    {
+      "text": "of students on aid — third-party figure only",
+      "of": "e248fc59",
+      "at": [
+        "covenant-day:sections[3].stats[0].label"
+      ],
+      "t": "सहायता पर विद्यार्थियों का — केवल तृतीय-पक्ष आँकड़ा"
+    },
+    {
+      "text": "church ministry — IRS-exempt from filing",
+      "of": "fd45ab9c",
+      "at": [
+        "covenant-day:sections[3].stats[1].label"
+      ],
+      "t": "church ministry — IRS-दाखिल करने से छूट"
+    },
+    {
+      "text": "published aid totals, averages, or budgets",
+      "of": "e75ea3c1",
+      "at": [
+        "covenant-day:sections[3].stats[2].label"
+      ],
+      "t": "प्रकाशित सहायता कुल, औसत, या बजट"
+    },
+    {
+      "text": "The ~20% share comes from aggregators (PrivateSchoolReview, schooltuitions.org); the school itself publishes no percentage, no total awarded, and no average award.",
+      "of": "99fcdce6",
+      "at": [
+        "covenant-day:sections[3].figureNote"
+      ],
+      "t": "~20% हिस्सा aggregators (PrivateSchoolReview, schooltuitions.org) से आता है; स्कूल स्वयं कोई प्रतिशत, कोई कुल दिया गया, और कोई औसत अनुदान प्रकाशित नहीं करता।"
+    },
+    {
+      "text": "NOT PUBLISHED — AND NOT RECOVERABLE",
+      "of": "98106920",
+      "at": [
+        "covenant-day:sections[3].boxes[0].tag"
+      ],
+      "t": "प्रकाशित नहीं — और पुनर्प्राप्त नहीं की जा सकती"
+    },
+    {
+      "text": "Covenant Day is a ministry of Christ Covenant Church (PCA), and the IRS designates it a **religious organization not required to file Form 990** (EIN 56-1656570, exempt since 1989). ProPublica’s Nonprofit Explorer confirms no filing exists. Every other school in this project is a 990 filer whose aid totals can be checked against its return — here there is **no filing to check**, so the gap is structural rather than a page waiting to be found.",
+      "of": "07e003e5",
+      "at": [
+        "covenant-day:sections[3].boxes[0].body"
+      ],
+      "t": "Covenant Day, Christ Covenant Church (PCA) की एक ministry है, और IRS इसे **Form 990 दाखिल करने के लिए आवश्यक नहीं एक धार्मिक संगठन** नामित करता है (EIN 56-1656570, 1989 से छूट-प्राप्त)। ProPublica का Nonprofit Explorer पुष्टि करता है कि कोई filing मौजूद नहीं है। इस project का हर दूसरा स्कूल एक 990 filer है जिसके सहायता कुल उसके return से जाँचे जा सकते हैं — यहाँ जाँचने के लिए **कोई filing नहीं** है, इसलिए यह कमी खोजे जाने की प्रतीक्षा में एक पेज के बजाय संरचनात्मक है।"
+    },
+    {
+      "text": "Discounts & State Aid",
+      "of": "e6a0f3f2",
+      "at": [
+        "covenant-day:sections[4].navTitle"
+      ],
+      "t": "छूट और राज्य सहायता"
+    },
+    {
+      "text": "Merit, Discounts & State Scholarships",
+      "of": "622789d6",
+      "at": [
+        "covenant-day:sections[4].title"
+      ],
+      "t": "Merit, छूट और राज्य Scholarships"
+    },
+    {
+      "text": "ALL SCHOOL AID IS NEED-BASED",
+      "of": "6b98e954",
+      "at": [
+        "covenant-day:sections[4].tag"
+      ],
+      "t": "स्कूल की सारी सहायता NEED-BASED है"
+    },
+    {
+      "text": "Multi-child discount",
+      "of": "7c2c9ac8",
+      "at": [
+        "covenant-day:sections[4].plans[0].label"
+      ],
+      "t": "बहु-बच्चा छूट"
+    },
+    {
+      "text": "Off tuition for the **third and each additional student** from the same household, applied to the children in the lowest grades. Two-child families get nothing.",
+      "of": "cf11a53f",
+      "at": [
+        "covenant-day:sections[4].plans[0].detail"
+      ],
+      "t": "एक ही घर से **तीसरे और हर अतिरिक्त विद्यार्थी** के लिए ट्यूशन में कमी, सबसे निचली कक्षाओं के बच्चों पर लागू। दो-बच्चों वाले परिवारों को कुछ नहीं मिलता।"
+    },
+    {
+      "text": "$400",
+      "of": "513ce48d",
+      "at": [
+        "covenant-day:sections[4].plans[1].figure"
+      ],
+      "t": "$400"
+    },
+    {
+      "text": "Christ Covenant Church member discount",
+      "of": "7601051e",
+      "at": [
+        "covenant-day:sections[4].plans[1].label"
+      ],
+      "t": "Christ Covenant Church सदस्य छूट"
+    },
+    {
+      "text": "Per enrolled student, for members of the sponsoring church — membership affirmed during online enrollment, with a February 1 cutoff for full-year eligibility.",
+      "of": "8daf0b5b",
+      "at": [
+        "covenant-day:sections[4].plans[1].detail"
+      ],
+      "t": "प्रायोजक church के सदस्यों के लिए, प्रति नामांकित विद्यार्थी — सदस्यता online नामांकन के दौरान पुष्ट, पूरे-वर्ष पात्रता के लिए February 1 की अंतिम तिथि के साथ।"
+    },
+    {
+      "text": "NC",
+      "of": "35e678d6",
+      "at": [
+        "covenant-day:sections[4].plans[2].figure"
+      ],
+      "t": "NC"
+    },
+    {
+      "text": "Opportunity Scholarship + ESA+",
+      "of": "755390d9",
+      "at": [
+        "covenant-day:sections[4].plans[2].label"
+      ],
+      "t": "Opportunity Scholarship + ESA+"
+    },
+    {
+      "text": "The school accepts both NCSEAA-administered programs — and applying for the Opportunity Scholarship is a **prerequisite** for CDS aid, so state aid is the designed first layer of every package.",
+      "of": "3ebfb56c",
+      "at": [
+        "covenant-day:sections[4].plans[2].detail"
+      ],
+      "t": "स्कूल दोनों NCSEAA-प्रशासित कार्यक्रम स्वीकार करता है — और Opportunity Scholarship के लिए आवेदन CDS सहायता के लिए एक **पूर्व-आवश्यकता** है, इसलिए राज्य सहायता हर package की नियोजित पहली परत है।"
+    },
+    {
+      "text": "No merit scholarships exist on the public record — aid is need-based only. No sibling discount before the third child, no military or clergy discount, and no employee-remission policy is published.",
+      "of": "c8751142",
+      "at": [
+        "covenant-day:sections[4].boxes[0].body"
+      ],
+      "t": "सार्वजनिक रिकॉर्ड पर कोई merit scholarship नहीं है — सहायता केवल need-based है। तीसरे बच्चे से पहले कोई भाई-बहन छूट नहीं, कोई military या clergy छूट नहीं, और कोई employee-remission नीति प्रकाशित नहीं है।"
+    },
+    {
+      "text": "Payment Plans & Contract Terms",
+      "of": "7e5b3eac",
+      "at": [
+        "covenant-day:sections[5].title",
+        "davidson-day:sections[4].title"
+      ],
+      "t": "भुगतान योजनाएँ और अनुबंध की शर्तें"
+    },
+    {
+      "text": "Annual plan",
+      "of": "442308c5",
+      "at": [
+        "covenant-day:sections[5].plans[0].label"
+      ],
+      "t": "वार्षिक योजना"
+    },
+    {
+      "text": "The full balance due by **May 1** preceding the school year. No prepayment discount is published.",
+      "of": "d81f21dc",
+      "at": [
+        "covenant-day:sections[5].plans[0].detail"
+      ],
+      "t": "पूरा शेष शैक्षणिक वर्ष से पहले **May 1** तक देय। कोई अग्रिम-भुगतान छूट प्रकाशित नहीं है।"
+    },
+    {
+      "text": "9×",
+      "of": "eafe64d9",
+      "at": [
+        "covenant-day:sections[5].plans[1].figure"
+      ],
+      "t": "9×"
+    },
+    {
+      "text": "Monthly plan (FACTS)",
+      "of": "28896c7b",
+      "at": [
+        "covenant-day:sections[5].plans[1].label"
+      ],
+      "t": "मासिक योजना (FACTS)"
+    },
+    {
+      "text": "Nine equal installments, **May through January**, autopaying on the 5th or 20th — plus a $50/year FACTS fee. Note the season: payments start four months before school does.",
+      "of": "e99f8921",
+      "at": [
+        "covenant-day:sections[5].plans[1].detail"
+      ],
+      "t": "नौ बराबर किस्तें, **May से January**, 5 या 20 तारीख को autopay — साथ ही एक $50/year FACTS शुल्क। मौसम पर ध्यान दें: भुगतान स्कूल शुरू होने से चार महीने पहले शुरू होते हैं।"
+    },
+    {
+      "text": "3.05%",
+      "of": "9bb9f1aa",
+      "at": [
+        "covenant-day:sections[5].plans[2].figure"
+      ],
+      "t": "3.05%"
+    },
+    {
+      "text": "Card surcharge",
+      "of": "29880099",
+      "at": [
+        "covenant-day:sections[5].plans[2].label"
+      ],
+      "t": "Card अधिभार"
+    },
+    {
+      "text": "Debit/credit payments incur a 3.05% processor fee; bank drafts avoid it. On a $22,790 tuition that is roughly $695.",
+      "of": "3ecab72f",
+      "at": [
+        "covenant-day:sections[5].plans[2].detail"
+      ],
+      "t": "Debit/credit भुगतान पर 3.05% processor शुल्क लगता है; bank drafts इससे बचते हैं। $22,790 ट्यूशन पर यह लगभग $695 है।"
+    },
+    {
+      "text": "10th",
+      "of": "61efd168",
+      "at": [
+        "covenant-day:sections[5].plans[3].figure"
+      ],
+      "t": "10वीं"
+    },
+    {
+      "text": "Withdrawal cutoff",
+      "of": "09449783",
+      "at": [
+        "covenant-day:sections[5].plans[3].label"
+      ],
+      "t": "निकासी की अंतिम तिथि"
+    },
+    {
+      "text": "Withdrawals must be official by the 10th of the month to skip that month’s installment; refunds equal installments whose due date has not passed. Monthly-plan families current on payments get no refund and owe no more.",
+      "of": "f87d5f23",
+      "at": [
+        "covenant-day:sections[5].plans[3].detail"
+      ],
+      "t": "उस महीने की किस्त छोड़ने के लिए निकासी महीने की 10 तारीख तक आधिकारिक होनी चाहिए; वापसी उन किस्तों के बराबर है जिनकी देय तिथि नहीं बीती। भुगतान पर मौजूदा मासिक-योजना परिवारों को कोई वापसी नहीं मिलती और कुछ और देय नहीं।"
+    },
+    {
+      "text": "Non-current accounts",
+      "of": "e9664408",
+      "at": [
+        "covenant-day:sections[5].boxes[0].title"
+      ],
+      "t": "गैर-मौजूदा खाते"
+    },
+    {
+      "text": "Accounts more than 30 days past due can suspend re-enrollment, report cards, transcript release — and class access. A standard force-majeure clause keeps tuition obligations alive through closures.",
+      "of": "7d101a4f",
+      "at": [
+        "covenant-day:sections[5].boxes[0].body"
+      ],
+      "t": "30 दिन से अधिक बकाया खाते पुनः-नामांकन, report cards, transcript release — और class पहुँच को निलंबित कर सकते हैं। एक मानक force-majeure खंड बंदी के दौरान भी ट्यूशन दायित्व जीवित रखता है।"
+    },
+    {
+      "text": "The Trend, and What to Ask",
+      "of": "ddf5a036",
+      "at": [
+        "covenant-day:sections[6].title"
+      ],
+      "t": "रुझान, और क्या पूछें"
+    },
+    {
+      "text": "flat increase at every band, 2025–26 → 2026–27",
+      "of": "d2ecb683",
+      "at": [
+        "covenant-day:sections[6].stats[0].label"
+      ],
+      "t": "हर बैंड पर एकसमान बढ़ोतरी, 2025–26 → 2026–27"
+    },
+    {
+      "text": "top band — the lowest top tuition in this comparison",
+      "of": "70a1af95",
+      "at": [
+        "covenant-day:sections[6].stats[1].label"
+      ],
+      "t": "शीर्ष बैंड — इस तुलना में सबसे कम शीर्ष ट्यूशन"
+    },
+    {
+      "text": "of published rates (website + terms PDF)",
+      "of": "236fb2d1",
+      "at": [
+        "covenant-day:sections[6].stats[2].label"
+      ],
+      "t": "प्रकाशित दरों का (website + terms PDF)"
+    },
+    {
+      "text": "Questions the public record cannot answer",
+      "of": "b608282c",
+      "at": [
+        "covenant-day:sections[6].questionsTitle"
+      ],
+      "t": "ऐसे सवाल जिनका सार्वजनिक रिकॉर्ड जवाब नहीं दे सकता"
+    },
+    {
+      "text": "What share of families receive aid, and what is the average award? (The ~20% figure is third-party.)",
+      "of": "c63baba4",
+      "at": [
+        "covenant-day:sections[6].questions[0]"
+      ],
+      "t": "कितने प्रतिशत परिवारों को सहायता मिलती है, और औसत अनुदान क्या है? (~20% का आँकड़ा तृतीय-पक्ष है।)"
+    },
+    {
+      "text": "What is the aid application deadline, and when are decisions released relative to enrollment contracts?",
+      "of": "51da8062",
+      "at": [
+        "covenant-day:sections[6].questions[1]"
+      ],
+      "t": "सहायता आवेदन की अंतिम तिथि क्या है, और नामांकन अनुबंधों के सापेक्ष निर्णय कब जारी होते हैं?"
+    },
+    {
+      "text": "How does the mandatory NC Opportunity Scholarship application interact with CDS aid for families above the state income cap?",
+      "of": "adf1ebc4",
+      "at": [
+        "covenant-day:sections[6].questions[2]"
+      ],
+      "t": "अनिवार्य NC Opportunity Scholarship आवेदन राज्य आय सीमा से ऊपर के परिवारों के लिए CDS सहायता के साथ कैसे जुड़ता है?"
+    },
+    {
+      "text": "Is there an appeals or mid-year change-of-circumstance process?",
+      "of": "d1ee59df",
+      "at": [
+        "covenant-day:sections[6].questions[3]"
+      ],
+      "t": "क्या कोई अपील या मध्य-वर्ष परिस्थिति-परिवर्तन प्रक्रिया है?"
+    },
+    {
+      "text": "Was the flat-$1,200 increase a one-year choice or the standing pattern?",
+      "of": "22306959",
+      "at": [
+        "covenant-day:sections[6].questions[4]"
+      ],
+      "t": "क्या एकसमान-$1,200 बढ़ोतरी एक-वर्षीय चुनाव थी या स्थायी पैटर्न?"
+    },
+    {
       "text": "2026–27 school year · figures as of 22 Jul 2026",
       "of": "6f9ac510",
       "at": [
@@ -4104,28 +4726,12 @@
       "t": "मौजूदा वर्ष की तालिका पिछली तालिका पर लिख देती है, इसलिए दरों का कोई इतिहास नहीं निकाला जा सकता। बिना तारीख़ वाले आँकड़ों को चिह्नित किया गया है, उनका अनुमान नहीं लगाया गया।"
     },
     {
-      "text": "Tuition assistance while enrolled — not college aid. Not financial advice.",
-      "of": "e6f51e0f",
-      "at": [
-        "davidson-day:framing[2].body"
-      ],
-      "t": "यह पढ़ाई के दौरान मिलने वाली ट्यूशन सहायता है — कॉलेज सहायता नहीं। यह वित्तीय सलाह नहीं है।"
-    },
-    {
       "text": "Tuition by Division",
       "of": "60483d8b",
       "at": [
         "davidson-day:sections[0].navTitle"
       ],
       "t": "Division के अनुसार ट्यूशन"
-    },
-    {
-      "text": "Tuition by Grade Level",
-      "of": "3e0b286d",
-      "at": [
-        "davidson-day:sections[0].title"
-      ],
-      "t": "ग्रेड स्तर के अनुसार ट्यूशन"
     },
     {
       "text": "Early Childhood",
@@ -4312,14 +4918,6 @@
       "t": "यूनिफ़ॉर्म अनिवार्य है (Early Preschool को छूट); परिवार सामान्य दुकानों से ख़रीदते हैं और logo किसी स्थानीय विक्रेता से लगवाते हैं, इसलिए कपड़ों की क़ीमत विक्रेता तय करते हैं और स्कूल इसे शुल्क के रूप में प्रकाशित नहीं करता। स्कूल की ओर से बस या परिवहन का कोई शुल्क नहीं मिला — सबसे संभावित कारण यह है कि ऐसी सेवा दी ही नहीं जाती, न कि क़ीमत छिपाई गई है।"
     },
     {
-      "text": "Aid Process and Timeline",
-      "of": "690355d8",
-      "at": [
-        "davidson-day:sections[2].title"
-      ],
-      "t": "सहायता की प्रक्रिया और समय-सारणी"
-    },
-    {
       "text": "15 Feb",
       "of": "860084f6",
       "at": [
@@ -4494,14 +5092,6 @@
         "davidson-day:sections[3].boxes[1].body"
       ],
       "t": "भाई-बहन, सैन्य या धर्मगुरु छूट प्रकाशित नहीं है, और न कोई indexed या sliding-scale ट्यूशन। स्कूल कर्मचारी-अभिभावकों के लिए अलग नामांकन प्रक्रिया और ग्यारह महीने की योजना चलाता है, पर नौकरी के साथ ट्यूशन में कोई माफ़ी मिलती है या नहीं, यह सार्वजनिक रिकॉर्ड में नहीं है। हर साल कितनी छात्रवृत्तियाँ दी जाती हैं, और \"good standing\" से आगे उनके नवीनीकरण के मानदंड क्या हैं, ये भी अप्रकाशित हैं।"
-    },
-    {
-      "text": "Payment Plans & Contract Terms",
-      "of": "7e5b3eac",
-      "at": [
-        "davidson-day:sections[4].title"
-      ],
-      "t": "भुगतान योजनाएँ और अनुबंध की शर्तें"
     },
     {
       "text": "11×",

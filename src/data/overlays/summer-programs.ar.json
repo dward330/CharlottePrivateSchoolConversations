@@ -36,7 +36,9 @@
         "charlotte-country-day:catalog.categoryFilters[0].label",
         "charlotte-country-day:catalog.gradeFilters[0].label",
         "cannon:catalog.categoryFilters[0].label",
-        "cannon:catalog.gradeFilters[0].label"
+        "cannon:catalog.gradeFilters[0].label",
+        "covenant-day:catalog.categoryFilters[0].label",
+        "covenant-day:catalog.gradeFilters[0].label"
       ]
     },
     {
@@ -157,7 +159,18 @@
         "charlotte-christian:catalog.camps[21].categoryLabel",
         "charlotte-christian:catalog.camps[23].categoryLabel",
         "charlotte-christian:catalog.camps[24].categoryLabel",
-        "charlotte-christian:catalog.camps[25].categoryLabel"
+        "charlotte-christian:catalog.camps[25].categoryLabel",
+        "covenant-day:catalog.categoryFilters[2].label",
+        "covenant-day:catalog.camps[3].categoryLabel",
+        "covenant-day:catalog.camps[4].categoryLabel",
+        "covenant-day:catalog.camps[5].categoryLabel",
+        "covenant-day:catalog.camps[6].categoryLabel",
+        "covenant-day:catalog.camps[7].categoryLabel",
+        "covenant-day:catalog.camps[8].categoryLabel",
+        "covenant-day:catalog.camps[9].categoryLabel",
+        "covenant-day:catalog.camps[10].categoryLabel",
+        "covenant-day:catalog.camps[11].categoryLabel",
+        "covenant-day:catalog.camps[12].categoryLabel"
       ]
     },
     {
@@ -187,7 +200,8 @@
       "t": "TK–K",
       "of": "ad9a656e",
       "at": [
-        "providence-day:catalog.gradeFilters[1].label"
+        "providence-day:catalog.gradeFilters[1].label",
+        "covenant-day:catalog.camps[1].gradeLabel"
       ]
     },
     {
@@ -457,7 +471,27 @@
         "cannon:catalog.camps[72].dayLabel",
         "cannon:catalog.camps[73].dayLabel",
         "cannon:catalog.camps[74].dayLabel",
-        "cannon:catalog.camps[75].dayLabel"
+        "cannon:catalog.camps[75].dayLabel",
+        "covenant-day:catalog.camps[0].dayLabel",
+        "covenant-day:catalog.camps[1].dayLabel",
+        "covenant-day:catalog.camps[2].dayLabel",
+        "covenant-day:catalog.camps[3].dayLabel",
+        "covenant-day:catalog.camps[4].dayLabel",
+        "covenant-day:catalog.camps[5].dayLabel",
+        "covenant-day:catalog.camps[6].dayLabel",
+        "covenant-day:catalog.camps[7].dayLabel",
+        "covenant-day:catalog.camps[8].dayLabel",
+        "covenant-day:catalog.camps[9].dayLabel",
+        "covenant-day:catalog.camps[10].dayLabel",
+        "covenant-day:catalog.camps[11].dayLabel",
+        "covenant-day:catalog.camps[12].dayLabel",
+        "covenant-day:catalog.camps[13].dayLabel",
+        "covenant-day:catalog.camps[14].dayLabel",
+        "covenant-day:catalog.camps[15].dayLabel",
+        "covenant-day:catalog.camps[16].dayLabel",
+        "covenant-day:catalog.camps[17].dayLabel",
+        "covenant-day:catalog.camps[18].dayLabel",
+        "covenant-day:catalog.camps[19].dayLabel"
       ]
     },
     {
@@ -7054,7 +7088,10 @@
         "cannon:catalog.camps[52].categoryLabel",
         "cannon:catalog.camps[53].categoryLabel",
         "cannon:catalog.camps[54].categoryLabel",
-        "cannon:catalog.camps[55].categoryLabel"
+        "cannon:catalog.camps[55].categoryLabel",
+        "covenant-day:catalog.categoryFilters[4].label",
+        "covenant-day:catalog.camps[18].categoryLabel",
+        "covenant-day:catalog.camps[19].categoryLabel"
       ]
     },
     {
@@ -8438,6 +8475,520 @@
       "of": "d8366833",
       "at": [
         "cannon:costPlanner.flags[1].text"
+      ]
+    },
+    {
+      "t": "20 مخيمًا مُسمّى لصيف 2026 على مدى ثمانية أسابيع، June 1 – July 31 — مرتكزة على Camp Lion وCub Camp، المخيمين النهاريين التقليديين اللذين يضمّان الرعاية مجانًا.",
+      "of": "9dd79355",
+      "at": [
+        "covenant-day:catalog.headline"
+      ]
+    },
+    {
+      "t": "يجري التسجيل عبر بوابة CampBrain مع خصومات الحجز المبكّر حتى February 27. وتسوّق المدرسة لـ \"29 مخيمًا\"؛ ويمكن عدّ 20 منها في الصفحة العامة.",
+      "of": "8cc84630",
+      "at": [
+        "covenant-day:catalog.subhead"
+      ]
+    },
+    {
+      "t": "مدرَجة كل المخيمات العشرين المُسمّاة علنًا. **الأسعار والساعات الحالية لكل مخيم محجوبة خلف البوابة**، فالأسعار أدناه تقديرات من النطاق الحالي لطرف ثالث ($170–$325/week) ومن كتالوج المدرسة نفسه لعام 2018 — أما أسعار إضافات الرعاية في Cost Planner فهي أرقام المدرسة الحالية نفسها.",
+      "of": "f61120ce",
+      "at": [
+        "covenant-day:catalog.intro"
+      ]
+    },
+    {
+      "t": "Day Camps",
+      "of": "0f07ba8b",
+      "at": [
+        "covenant-day:catalog.categoryFilters[1].label",
+        "covenant-day:catalog.camps[0].categoryLabel",
+        "covenant-day:catalog.camps[1].categoryLabel",
+        "covenant-day:catalog.camps[2].categoryLabel",
+        "covenant-day:catalog.camps[13].categoryLabel"
+      ]
+    },
+    {
+      "t": "Arts & Theater",
+      "of": "e043e144",
+      "at": [
+        "covenant-day:catalog.categoryFilters[3].label",
+        "covenant-day:catalog.camps[14].categoryLabel",
+        "covenant-day:catalog.camps[15].categoryLabel",
+        "covenant-day:catalog.camps[16].categoryLabel",
+        "covenant-day:catalog.camps[17].categoryLabel"
+      ]
+    },
+    {
+      "t": "Lower School",
+      "of": "0921a0ca",
+      "at": [
+        "covenant-day:catalog.gradeFilters[1].label"
+      ]
+    },
+    {
+      "t": "Middle School",
+      "of": "15441234",
+      "at": [
+        "covenant-day:catalog.gradeFilters[2].label"
+      ]
+    },
+    {
+      "t": "High School",
+      "of": "8ab05d33",
+      "at": [
+        "covenant-day:catalog.gradeFilters[3].label"
+      ]
+    },
+    {
+      "t": "المخيم التقليدي ليوم كامل — يشمل Before Care وAfter Care وLunch Care دون تكلفة إضافية، إضافةً إلى خصم الأشقاء ($75 خصمًا على اليوم الكامل).",
+      "of": "cbd8029d",
+      "at": [
+        "covenant-day:catalog.camps[0].desc"
+      ]
+    },
+    {
+      "t": "TK–5",
+      "of": "f79ad9ec",
+      "at": [
+        "covenant-day:catalog.camps[0].gradeLabel"
+      ]
+    },
+    {
+      "t": "يوم كامل + رعاية مجانية",
+      "of": "27301e3c",
+      "at": [
+        "covenant-day:catalog.camps[0].hours"
+      ]
+    },
+    {
+      "t": "المخيم النهاري لأصغر المشاركين؛ الرعاية مضمومة مجانًا و$50 خصمًا على الأشقاء لنصف اليوم.",
+      "of": "c60c8027",
+      "at": [
+        "covenant-day:catalog.camps[1].desc"
+      ]
+    },
+    {
+      "t": "نصف يوم أو يوم كامل",
+      "of": "d35bd998",
+      "at": [
+        "covenant-day:catalog.camps[1].hours"
+      ]
+    },
+    {
+      "t": "خطوة الدخول دون Cub Camp لأصغر فئة عمرية.",
+      "of": "afbc159e",
+      "at": [
+        "covenant-day:catalog.camps[2].desc"
+      ]
+    },
+    {
+      "t": "JK–TK",
+      "of": "4b2301fa",
+      "at": [
+        "covenant-day:catalog.camps[2].gradeLabel"
+      ]
+    },
+    {
+      "t": "نصف يوم",
+      "of": "c056cf86",
+      "at": [
+        "covenant-day:catalog.camps[2].hours",
+        "covenant-day:catalog.camps[4].hours",
+        "covenant-day:catalog.camps[5].hours",
+        "covenant-day:catalog.camps[6].hours",
+        "covenant-day:catalog.camps[7].hours",
+        "covenant-day:catalog.camps[8].hours",
+        "covenant-day:catalog.camps[9].hours",
+        "covenant-day:catalog.camps[10].hours",
+        "covenant-day:catalog.camps[11].hours",
+        "covenant-day:catalog.camps[13].hours",
+        "covenant-day:catalog.camps[15].hours",
+        "covenant-day:catalog.camps[16].hours",
+        "covenant-day:catalog.camps[17].hours",
+        "covenant-day:catalog.camps[18].hours"
+      ]
+    },
+    {
+      "t": "في كتالوج 2018 كان هذا يُقدَّم نصف يوم أو يومًا كاملًا (9–12، أو 1–4، أو 9–4) — النمط الذي يتّبعه المخيم الحالي على الأرجح.",
+      "of": "fb03c29a",
+      "at": [
+        "covenant-day:catalog.camps[3].desc"
+      ]
+    },
+    {
+      "t": "الصفوف 2–8",
+      "of": "d0402471",
+      "at": [
+        "covenant-day:catalog.camps[3].gradeLabel"
+      ]
+    },
+    {
+      "t": "9–12 / 1–4 / 9–4",
+      "of": "2b28cdf6",
+      "at": [
+        "covenant-day:catalog.camps[3].hours"
+      ]
+    },
+    {
+      "t": "تطوير المهارات مع مدرّبي البرنامج — $185/week نصف يوم في كتالوج 2018.",
+      "of": "a7b81ba5",
+      "at": [
+        "covenant-day:catalog.camps[4].desc"
+      ]
+    },
+    {
+      "t": "الصفوف 1–8",
+      "of": "6554aeb4",
+      "at": [
+        "covenant-day:catalog.camps[4].gradeLabel"
+      ]
+    },
+    {
+      "t": "يُقام في Warner Park، الحرم الرياضي على مساحة 27 فدّانًا.",
+      "of": "3d4e5a74",
+      "at": [
+        "covenant-day:catalog.camps[5].desc"
+      ]
+    },
+    {
+      "t": "LS–MS",
+      "of": "ea9b4475",
+      "at": [
+        "covenant-day:catalog.camps[5].gradeLabel",
+        "covenant-day:catalog.camps[6].gradeLabel",
+        "covenant-day:catalog.camps[10].gradeLabel",
+        "covenant-day:catalog.camps[13].gradeLabel",
+        "covenant-day:catalog.camps[17].gradeLabel",
+        "covenant-day:catalog.camps[18].gradeLabel"
+      ]
+    },
+    {
+      "t": "ملاعب Warner Park.",
+      "of": "b85a8cf3",
+      "at": [
+        "covenant-day:catalog.camps[6].desc"
+      ]
+    },
+    {
+      "t": "يُدار داخل البرنامج ذي النتائج الثلاث المتتالية كوصيف للولاية.",
+      "of": "59a763a5",
+      "at": [
+        "covenant-day:catalog.camps[7].desc"
+      ]
+    },
+    {
+      "t": "MS–HS",
+      "of": "aeca4f7b",
+      "at": [
+        "covenant-day:catalog.camps[7].gradeLabel",
+        "covenant-day:catalog.camps[8].gradeLabel",
+        "covenant-day:catalog.camps[11].gradeLabel"
+      ]
+    },
+    {
+      "t": "مخيم برنامج الفريق الأول؛ ويغذّيه مخيم Lower School Field Hockey منفصل.",
+      "of": "9530da25",
+      "at": [
+        "covenant-day:catalog.camps[8].desc"
+      ]
+    },
+    {
+      "t": "أسبوع مهارات العصا للمبتدئين.",
+      "of": "79e58eca",
+      "at": [
+        "covenant-day:catalog.camps[9].desc"
+      ]
+    },
+    {
+      "t": "LS",
+      "of": "75e26068",
+      "at": [
+        "covenant-day:catalog.camps[9].gradeLabel",
+        "covenant-day:catalog.camps[15].gradeLabel",
+        "covenant-day:catalog.camps[16].gradeLabel"
+      ]
+    },
+    {
+      "t": "أساسيات التشجيع من خطّ التماس.",
+      "of": "8321d01c",
+      "at": [
+        "covenant-day:catalog.camps[10].desc"
+      ]
+    },
+    {
+      "t": "على الملاعب الصلبة الستة الجديدة.",
+      "of": "f817fb9c",
+      "at": [
+        "covenant-day:catalog.camps[11].desc"
+      ]
+    },
+    {
+      "t": "برنامج Webb Fitness Center، يديره مدرّب القوة واللياقة في المدرسة — نفس رفع الأثقال الصيفي الذي يؤدّيه رياضيّو الفريق الأول.",
+      "of": "2e9659bb",
+      "at": [
+        "covenant-day:catalog.camps[12].desc"
+      ]
+    },
+    {
+      "t": "الصفوف 6–12",
+      "of": "5a57e078",
+      "at": [
+        "covenant-day:catalog.camps[12].gradeLabel"
+      ]
+    },
+    {
+      "t": "دورات",
+      "of": "130573cc",
+      "at": [
+        "covenant-day:catalog.camps[12].hours",
+        "covenant-day:catalog.camps[19].hours"
+      ]
+    },
+    {
+      "t": "أسبوع المتعة الخالصة.",
+      "of": "9ee1d298",
+      "at": [
+        "covenant-day:catalog.camps[13].desc"
+      ]
+    },
+    {
+      "t": "يشمل Lunch Care مجانًا — المخيم الوحيد غير النهاري بضمّ الرعاية.",
+      "of": "9710a44d",
+      "at": [
+        "covenant-day:catalog.camps[14].desc"
+      ]
+    },
+    {
+      "t": "MS",
+      "of": "35dfbd11",
+      "at": [
+        "covenant-day:catalog.camps[14].gradeLabel"
+      ]
+    },
+    {
+      "t": "يوم كامل يشمل الغداء",
+      "of": "6cdcfa40",
+      "at": [
+        "covenant-day:catalog.camps[14].hours"
+      ]
+    },
+    {
+      "t": "أسبوع المسرح أوّلًا للطلاب الأصغر.",
+      "of": "e3899851",
+      "at": [
+        "covenant-day:catalog.camps[15].desc"
+      ]
+    },
+    {
+      "t": "عيّنة من الاستوديو في غرف الفنون البصرية.",
+      "of": "a6d6d5ee",
+      "at": [
+        "covenant-day:catalog.camps[16].desc"
+      ]
+    },
+    {
+      "t": "أسبوع الطهي.",
+      "of": "15b6f079",
+      "at": [
+        "covenant-day:catalog.camps[17].desc"
+      ]
+    },
+    {
+      "t": "أسبوع STEM.",
+      "of": "45e94be3",
+      "at": [
+        "covenant-day:catalog.camps[18].desc"
+      ]
+    },
+    {
+      "t": "أسبوع للمرحلة الثانوية يُدار وفق تقويم مكتب التوجيه — المخيم الأكاديمي الثانوي النادر في هذه المجموعة.",
+      "of": "84c5fdd7",
+      "at": [
+        "covenant-day:catalog.camps[19].desc"
+      ]
+    },
+    {
+      "t": "HS",
+      "of": "6deb4e2c",
+      "at": [
+        "covenant-day:catalog.camps[19].gradeLabel"
+      ]
+    },
+    {
+      "t": "أسعار وساعات كل مخيم **تقديرات**: فالأرقام الحالية محجوبة خلف بوابة التسجيل CampBrain، والنطاق المعروض هو الرقم الحالي لطرف ثالث ($170–$325/week)، مع ساعات مصوغة على نمط كتالوج المدرسة نفسه لعام 2018 حيث وُجد المخيم نفسه.",
+      "of": "bed818fc",
+      "at": [
+        "covenant-day:catalog.flags[0].text"
+      ]
+    },
+    {
+      "t": "تسوّق المدرسة لـ \"**29 مخيمًا**\"؛ وتَعُدّ الصفحة العامة 20 (مُدرَج حادٍ وعشرون، \"Splash Squad\"، هو منصب وظيفي). ويُرجَّح أن تفسّر متغيّرات لكل أسبوع ومخيمات حصرية للبوابة الفارق.",
+      "of": "19b8adfa",
+      "at": [
+        "covenant-day:catalog.flags[1].text"
+      ]
+    },
+    {
+      "t": "آخر مستند ينشر سعر كل مخيم + الساعات + الصفوف معًا هو **كتالوج 2018** (مثلًا Baseball بـ $185/wk نصف يوم، Basketball بـ $150 نصف / $250 كامل) — عمره ثماني سنوات، مُبقًى عيّنة موثّقة فقط.",
+      "of": "7164dbc0",
+      "at": [
+        "covenant-day:catalog.flags[2].text"
+      ]
+    },
+    {
+      "t": "خصّص ميزانية $170–$325 أسبوعيًّا للمخيم نفسه — ثم $50 للرعاية القبلية، و$50 للرعاية البعدية، و$30 لرعاية الغداء، إلا إذا ضمّ Camp Lion أو Cub Camp الثلاثة مجانًا.",
+      "of": "02b6638d",
+      "at": [
+        "covenant-day:costPlanner.headline"
+      ]
+    },
+    {
+      "t": "ثمانية أسابيع متاحة (June 1 – July 31، مع تخطّي أسبوع June 29). ورسم تسجيل غير قابل للاسترداد قدره $50 مضمّن أصلًا في كل سعر مخيم.",
+      "of": "132286f9",
+      "at": [
+        "covenant-day:costPlanner.subhead"
+      ]
+    },
+    {
+      "t": "أسبوع من الطرف الأدنى",
+      "of": "e61d1052",
+      "at": [
+        "covenant-day:costPlanner.tiers[0].label"
+      ]
+    },
+    {
+      "t": "مخيم تخصّصي نصف يوم · الطرف الأدنى من النطاق",
+      "of": "cf01ca64",
+      "at": [
+        "covenant-day:costPlanner.tiers[0].panelLabel"
+      ]
+    },
+    {
+      "t": "قاع النطاق الحالي لطرف ثالث.",
+      "of": "35583467",
+      "at": [
+        "covenant-day:costPlanner.tiers[0].detail"
+      ]
+    },
+    {
+      "t": "أسبوع من الفئة الوسطى",
+      "of": "66df0c1f",
+      "at": [
+        "covenant-day:costPlanner.tiers[1].label"
+      ]
+    },
+    {
+      "t": "أسبوع مخيم اعتيادي · وسط النطاق",
+      "of": "fe1e10cd",
+      "at": [
+        "covenant-day:costPlanner.tiers[1].panelLabel"
+      ]
+    },
+    {
+      "t": "تقدير النقطة الوسطى؛ وقد استقرّت مخيمات اليوم الكامل في كتالوج 2018 قرب هنا.",
+      "of": "da808e99",
+      "at": [
+        "covenant-day:costPlanner.tiers[1].detail"
+      ]
+    },
+    {
+      "t": "أسبوع من الطرف الأعلى",
+      "of": "5a2a4651",
+      "at": [
+        "covenant-day:costPlanner.tiers[2].label"
+      ]
+    },
+    {
+      "t": "مخيم يوم كامل · قمة النطاق",
+      "of": "3d00c339",
+      "at": [
+        "covenant-day:costPlanner.tiers[2].panelLabel"
+      ]
+    },
+    {
+      "t": "قمة النطاق الحالي لطرف ثالث. ويضمّ Camp Lion إضافات الرعاية الثلاث مجانًا في اليوم الكامل.",
+      "of": "93984051",
+      "at": [
+        "covenant-day:costPlanner.tiers[2].detail"
+      ]
+    },
+    {
+      "t": "Before Care 7:30–8:45 am (TK–8)",
+      "of": "88076342",
+      "at": [
+        "covenant-day:costPlanner.addons[0].label"
+      ]
+    },
+    {
+      "t": "After Care 4:00–5:30 pm (TK–8)",
+      "of": "287828c5",
+      "at": [
+        "covenant-day:costPlanner.addons[1].label"
+      ]
+    },
+    {
+      "t": "Lunch Care 12–1 pm (أحضِر الغداء)",
+      "of": "041229f1",
+      "at": [
+        "covenant-day:costPlanner.addons[2].label"
+      ]
+    },
+    {
+      "t": "التسجيل (غير قابل للاسترداد، مضمّن في تكلفة المخيم)",
+      "of": "2c6d3da4",
+      "at": [
+        "covenant-day:costPlanner.fees[0].label"
+      ]
+    },
+    {
+      "t": "تبديل المخيم",
+      "of": "2304c979",
+      "at": [
+        "covenant-day:costPlanner.fees[1].label"
+      ]
+    },
+    {
+      "t": "الإلغاء قبل May 1",
+      "of": "3a3bd087",
+      "at": [
+        "covenant-day:costPlanner.fees[2].label"
+      ]
+    },
+    {
+      "t": "**Camp Lion (يوم كامل) وCub Camp وMS Musical Theater تشمل الرعاية مجانًا** — الرعاية القبلية والبعدية للمخيمات النهارية، ورعاية الغداء للثلاثة. اترك المفاتيح مطفأة لتلك الأسابيع.",
+      "of": "55ffd32d",
+      "at": [
+        "covenant-day:costPlanner.fees[3].label"
+      ]
+    },
+    {
+      "t": "خصومات الأشقاء على المخيمات النهارية: **$50 خصمًا على نصف اليوم / $75 خصمًا على اليوم الكامل** لكل تسجيل إضافي. والإلغاءات بعد May 1 تُسترَدّ 50% (قبل 14 يومًا أو أكثر) ولا شيء داخل 14 يومًا.",
+      "of": "83b45435",
+      "at": [
+        "covenant-day:costPlanner.fees[4].label"
+      ]
+    },
+    {
+      "t": "ينتهي سعر الحجز المبكّر في February 27.",
+      "of": "d519c42d",
+      "at": [
+        "covenant-day:costPlanner.aside.title"
+      ]
+    },
+    {
+      "t": "التسجيل مفتوح على بوابة CampBrain، ويُغلَق عند **ظهر الجمعة السابقة لكل أسبوع مخيم**. والمخيمات مفتوحة للمجتمع، ويعني الصف الصف **الصاعد** للعام الدراسي القادم.",
+      "of": "6340cffb",
+      "at": [
+        "covenant-day:costPlanner.aside.text"
+      ]
+    },
+    {
+      "t": "فئات الأسابيع الثلاث كلها **تقديرات** — فالمدرسة لا تنشر قائمة أسعار حالية لكل مخيم؛ وإضافات الرعاية وسياسات الرسوم أعلاه فقط هي أرقامها الحالية.",
+      "of": "09c29363",
+      "at": [
+        "covenant-day:costPlanner.flags[0].text"
       ]
     }
   ]

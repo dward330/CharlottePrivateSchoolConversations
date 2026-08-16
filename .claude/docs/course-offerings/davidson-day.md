@@ -1,5 +1,5 @@
 # Davidson Day School — Course Offerings
-> Distilled from 1 source document(s) in `source-material/course-offerings/davidson-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-07-26.
+> Distilled from 1 source document(s) in `source-material/course-offerings/davidson-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-16.
 **Documents:** Curriculum Guide
 
 

@@ -36,7 +36,9 @@
         "charlotte-country-day:catalog.categoryFilters[0].label",
         "charlotte-country-day:catalog.gradeFilters[0].label",
         "cannon:catalog.categoryFilters[0].label",
-        "cannon:catalog.gradeFilters[0].label"
+        "cannon:catalog.gradeFilters[0].label",
+        "covenant-day:catalog.categoryFilters[0].label",
+        "covenant-day:catalog.gradeFilters[0].label"
       ]
     },
     {
@@ -157,7 +159,18 @@
         "charlotte-christian:catalog.camps[21].categoryLabel",
         "charlotte-christian:catalog.camps[23].categoryLabel",
         "charlotte-christian:catalog.camps[24].categoryLabel",
-        "charlotte-christian:catalog.camps[25].categoryLabel"
+        "charlotte-christian:catalog.camps[25].categoryLabel",
+        "covenant-day:catalog.categoryFilters[2].label",
+        "covenant-day:catalog.camps[3].categoryLabel",
+        "covenant-day:catalog.camps[4].categoryLabel",
+        "covenant-day:catalog.camps[5].categoryLabel",
+        "covenant-day:catalog.camps[6].categoryLabel",
+        "covenant-day:catalog.camps[7].categoryLabel",
+        "covenant-day:catalog.camps[8].categoryLabel",
+        "covenant-day:catalog.camps[9].categoryLabel",
+        "covenant-day:catalog.camps[10].categoryLabel",
+        "covenant-day:catalog.camps[11].categoryLabel",
+        "covenant-day:catalog.camps[12].categoryLabel"
       ]
     },
     {
@@ -187,7 +200,8 @@
       "t": "TK–K",
       "of": "ad9a656e",
       "at": [
-        "providence-day:catalog.gradeFilters[1].label"
+        "providence-day:catalog.gradeFilters[1].label",
+        "covenant-day:catalog.camps[1].gradeLabel"
       ]
     },
     {
@@ -457,7 +471,27 @@
         "cannon:catalog.camps[72].dayLabel",
         "cannon:catalog.camps[73].dayLabel",
         "cannon:catalog.camps[74].dayLabel",
-        "cannon:catalog.camps[75].dayLabel"
+        "cannon:catalog.camps[75].dayLabel",
+        "covenant-day:catalog.camps[0].dayLabel",
+        "covenant-day:catalog.camps[1].dayLabel",
+        "covenant-day:catalog.camps[2].dayLabel",
+        "covenant-day:catalog.camps[3].dayLabel",
+        "covenant-day:catalog.camps[4].dayLabel",
+        "covenant-day:catalog.camps[5].dayLabel",
+        "covenant-day:catalog.camps[6].dayLabel",
+        "covenant-day:catalog.camps[7].dayLabel",
+        "covenant-day:catalog.camps[8].dayLabel",
+        "covenant-day:catalog.camps[9].dayLabel",
+        "covenant-day:catalog.camps[10].dayLabel",
+        "covenant-day:catalog.camps[11].dayLabel",
+        "covenant-day:catalog.camps[12].dayLabel",
+        "covenant-day:catalog.camps[13].dayLabel",
+        "covenant-day:catalog.camps[14].dayLabel",
+        "covenant-day:catalog.camps[15].dayLabel",
+        "covenant-day:catalog.camps[16].dayLabel",
+        "covenant-day:catalog.camps[17].dayLabel",
+        "covenant-day:catalog.camps[18].dayLabel",
+        "covenant-day:catalog.camps[19].dayLabel"
       ]
     },
     {
@@ -7054,7 +7088,10 @@
         "cannon:catalog.camps[52].categoryLabel",
         "cannon:catalog.camps[53].categoryLabel",
         "cannon:catalog.camps[54].categoryLabel",
-        "cannon:catalog.camps[55].categoryLabel"
+        "cannon:catalog.camps[55].categoryLabel",
+        "covenant-day:catalog.categoryFilters[4].label",
+        "covenant-day:catalog.camps[18].categoryLabel",
+        "covenant-day:catalog.camps[19].categoryLabel"
       ]
     },
     {
@@ -8438,6 +8475,520 @@
       "of": "d8366833",
       "at": [
         "cannon:costPlanner.flags[1].text"
+      ]
+    },
+    {
+      "t": "20 kan yo nonmen pou ete 2026 atravè uit semèn, 1ye jen – 31 jiyè — ankre pa Camp Lion ak Cub Camp, kan lajounen tradisyonèl yo ki mete swen ansanm gratis.",
+      "of": "9dd79355",
+      "at": [
+        "covenant-day:catalog.headline"
+      ]
+    },
+    {
+      "t": "Enskripsyon woule sou pòtal CampBrain la ak rabè bonè jiska 27 fevriye. Lekòl la mache \"29 kan\"; 20 ka konte sou paj piblik la.",
+      "of": "8cc84630",
+      "at": [
+        "covenant-day:catalog.subhead"
+      ]
+    },
+    {
+      "t": "Tou le 20 kan yo nonmen piblikman yo parèt. **Pri aktyèl pa kan ak lè yo bloke dèyè pòtal la**, kidonk pri anba yo se estimasyon ki soti nan plaj aktyèl twazyèm pati a ($170–$325/semèn) ak katalòg 2018 lekòl la li menm — to swen anplis yo sou Cost Planner a se chif aktyèl lekòl la li menm.",
+      "of": "f61120ce",
+      "at": [
+        "covenant-day:catalog.intro"
+      ]
+    },
+    {
+      "t": "Kan Lajounen",
+      "of": "0f07ba8b",
+      "at": [
+        "covenant-day:catalog.categoryFilters[1].label",
+        "covenant-day:catalog.camps[0].categoryLabel",
+        "covenant-day:catalog.camps[1].categoryLabel",
+        "covenant-day:catalog.camps[2].categoryLabel",
+        "covenant-day:catalog.camps[13].categoryLabel"
+      ]
+    },
+    {
+      "t": "Atizay & Teyat",
+      "of": "e043e144",
+      "at": [
+        "covenant-day:catalog.categoryFilters[3].label",
+        "covenant-day:catalog.camps[14].categoryLabel",
+        "covenant-day:catalog.camps[15].categoryLabel",
+        "covenant-day:catalog.camps[16].categoryLabel",
+        "covenant-day:catalog.camps[17].categoryLabel"
+      ]
+    },
+    {
+      "t": "Lower School",
+      "of": "0921a0ca",
+      "at": [
+        "covenant-day:catalog.gradeFilters[1].label"
+      ]
+    },
+    {
+      "t": "Middle School",
+      "of": "15441234",
+      "at": [
+        "covenant-day:catalog.gradeFilters[2].label"
+      ]
+    },
+    {
+      "t": "High School",
+      "of": "8ab05d33",
+      "at": [
+        "covenant-day:catalog.gradeFilters[3].label"
+      ]
+    },
+    {
+      "t": "Kan tout lajounen tradisyonèl la — gen ladan Before Care, After Care ak Lunch Care san okenn frè anplis, plis rabè frè ak sè a ($75 off tout lajounen).",
+      "of": "cbd8029d",
+      "at": [
+        "covenant-day:catalog.camps[0].desc"
+      ]
+    },
+    {
+      "t": "TK–5",
+      "of": "f79ad9ec",
+      "at": [
+        "covenant-day:catalog.camps[0].gradeLabel"
+      ]
+    },
+    {
+      "t": "tout lajounen + swen gratis",
+      "of": "27301e3c",
+      "at": [
+        "covenant-day:catalog.camps[0].hours"
+      ]
+    },
+    {
+      "t": "Kan lajounen kanpè ki pi jèn yo; swen mete ansanm gratis epi $50 off pou frè ak sè demi-jounen.",
+      "of": "c60c8027",
+      "at": [
+        "covenant-day:catalog.camps[1].desc"
+      ]
+    },
+    {
+      "t": "demi oswa tout lajounen",
+      "of": "d35bd998",
+      "at": [
+        "covenant-day:catalog.camps[1].hours"
+      ]
+    },
+    {
+      "t": "Etap antre anba Cub Camp pou bann laj ki pi jèn nan.",
+      "of": "afbc159e",
+      "at": [
+        "covenant-day:catalog.camps[2].desc"
+      ]
+    },
+    {
+      "t": "JK–TK",
+      "of": "4b2301fa",
+      "at": [
+        "covenant-day:catalog.camps[2].gradeLabel"
+      ]
+    },
+    {
+      "t": "demi-jounen",
+      "of": "c056cf86",
+      "at": [
+        "covenant-day:catalog.camps[2].hours",
+        "covenant-day:catalog.camps[4].hours",
+        "covenant-day:catalog.camps[5].hours",
+        "covenant-day:catalog.camps[6].hours",
+        "covenant-day:catalog.camps[7].hours",
+        "covenant-day:catalog.camps[8].hours",
+        "covenant-day:catalog.camps[9].hours",
+        "covenant-day:catalog.camps[10].hours",
+        "covenant-day:catalog.camps[11].hours",
+        "covenant-day:catalog.camps[13].hours",
+        "covenant-day:catalog.camps[15].hours",
+        "covenant-day:catalog.camps[16].hours",
+        "covenant-day:catalog.camps[17].hours",
+        "covenant-day:catalog.camps[18].hours"
+      ]
+    },
+    {
+      "t": "Nan katalòg 2018 la sa a te woule kòm demi oswa tout lajounen (9–12, 1–4, oswa 9–4) — modèl kan aktyèl la gen dwa swiv.",
+      "of": "fb03c29a",
+      "at": [
+        "covenant-day:catalog.camps[3].desc"
+      ]
+    },
+    {
+      "t": "Grad 2–8",
+      "of": "d0402471",
+      "at": [
+        "covenant-day:catalog.camps[3].gradeLabel"
+      ]
+    },
+    {
+      "t": "9–12 / 1–4 / 9–4",
+      "of": "2b28cdf6",
+      "at": [
+        "covenant-day:catalog.camps[3].hours"
+      ]
+    },
+    {
+      "t": "Devlopman konpetans ak antrenè pwogram nan — $185/semèn demi-jounen nan katalòg 2018 la.",
+      "of": "a7b81ba5",
+      "at": [
+        "covenant-day:catalog.camps[4].desc"
+      ]
+    },
+    {
+      "t": "Grad 1–8",
+      "of": "6554aeb4",
+      "at": [
+        "covenant-day:catalog.camps[4].gradeLabel"
+      ]
+    },
+    {
+      "t": "Woule nan Warner Park, kanpis atletik 27-akadan.",
+      "of": "3d4e5a74",
+      "at": [
+        "covenant-day:catalog.camps[5].desc"
+      ]
+    },
+    {
+      "t": "LS–MS",
+      "of": "ea9b4475",
+      "at": [
+        "covenant-day:catalog.camps[5].gradeLabel",
+        "covenant-day:catalog.camps[6].gradeLabel",
+        "covenant-day:catalog.camps[10].gradeLabel",
+        "covenant-day:catalog.camps[13].gradeLabel",
+        "covenant-day:catalog.camps[17].gradeLabel",
+        "covenant-day:catalog.camps[18].gradeLabel"
+      ]
+    },
+    {
+      "t": "Teren Warner Park.",
+      "of": "b85a8cf3",
+      "at": [
+        "covenant-day:catalog.camps[6].desc"
+      ]
+    },
+    {
+      "t": "Woule anndan pwogram nan ak twa fini dezyèm nan eta a youn dèyè lòt.",
+      "of": "59a763a5",
+      "at": [
+        "covenant-day:catalog.camps[7].desc"
+      ]
+    },
+    {
+      "t": "MS–HS",
+      "of": "aeca4f7b",
+      "at": [
+        "covenant-day:catalog.camps[7].gradeLabel",
+        "covenant-day:catalog.camps[8].gradeLabel",
+        "covenant-day:catalog.camps[11].gradeLabel"
+      ]
+    },
+    {
+      "t": "Kan pwogram varsity a; yon kan Lower School Field Hockey apa nouri li.",
+      "of": "9530da25",
+      "at": [
+        "covenant-day:catalog.camps[8].desc"
+      ]
+    },
+    {
+      "t": "Semèn konpetans baton nivo debaz la.",
+      "of": "79e58eca",
+      "at": [
+        "covenant-day:catalog.camps[9].desc"
+      ]
+    },
+    {
+      "t": "LS",
+      "of": "75e26068",
+      "at": [
+        "covenant-day:catalog.camps[9].gradeLabel",
+        "covenant-day:catalog.camps[15].gradeLabel",
+        "covenant-day:catalog.camps[16].gradeLabel"
+      ]
+    },
+    {
+      "t": "Fondamantal sideline ak espri.",
+      "of": "8321d01c",
+      "at": [
+        "covenant-day:catalog.camps[10].desc"
+      ]
+    },
+    {
+      "t": "Sou sis nouvo teren di yo.",
+      "of": "f817fb9c",
+      "at": [
+        "covenant-day:catalog.camps[11].desc"
+      ]
+    },
+    {
+      "t": "Pwogram Webb Fitness Center la, antrenè S&C lekòl la dirije — menm leve pwa ete atlèt varsity yo fè.",
+      "of": "2e9659bb",
+      "at": [
+        "covenant-day:catalog.camps[12].desc"
+      ]
+    },
+    {
+      "t": "Grad 6–12",
+      "of": "5a57e078",
+      "at": [
+        "covenant-day:catalog.camps[12].gradeLabel"
+      ]
+    },
+    {
+      "t": "sesyon",
+      "of": "130573cc",
+      "at": [
+        "covenant-day:catalog.camps[12].hours",
+        "covenant-day:catalog.camps[19].hours"
+      ]
+    },
+    {
+      "t": "Semèn plezi pi a.",
+      "of": "9ee1d298",
+      "at": [
+        "covenant-day:catalog.camps[13].desc"
+      ]
+    },
+    {
+      "t": "Gen ladan Lunch Care gratis — sèl kan ki pa kan lajounen ki gen swen ki mete ansanm.",
+      "of": "9710a44d",
+      "at": [
+        "covenant-day:catalog.camps[14].desc"
+      ]
+    },
+    {
+      "t": "MS",
+      "of": "35dfbd11",
+      "at": [
+        "covenant-day:catalog.camps[14].gradeLabel"
+      ]
+    },
+    {
+      "t": "tout lajounen ak manje midi",
+      "of": "6cdcfa40",
+      "at": [
+        "covenant-day:catalog.camps[14].hours"
+      ]
+    },
+    {
+      "t": "Semèn sèn-anvan an pou elèv ki pi jèn yo.",
+      "of": "e3899851",
+      "at": [
+        "covenant-day:catalog.camps[15].desc"
+      ]
+    },
+    {
+      "t": "Echantiyon estidyo nan sal atizay vizyèl yo.",
+      "of": "a6d6d5ee",
+      "at": [
+        "covenant-day:catalog.camps[16].desc"
+      ]
+    },
+    {
+      "t": "Semèn kwizin nan.",
+      "of": "15b6f079",
+      "at": [
+        "covenant-day:catalog.camps[17].desc"
+      ]
+    },
+    {
+      "t": "Semèn STEM nan.",
+      "of": "45e94be3",
+      "at": [
+        "covenant-day:catalog.camps[18].desc"
+      ]
+    },
+    {
+      "t": "Yon semèn lekòl segondè ki woule sou kalandriye biwo oryantasyon an — kan akademik HS ki ra nan seri sa a.",
+      "of": "84c5fdd7",
+      "at": [
+        "covenant-day:catalog.camps[19].desc"
+      ]
+    },
+    {
+      "t": "HS",
+      "of": "6deb4e2c",
+      "at": [
+        "covenant-day:catalog.camps[19].gradeLabel"
+      ]
+    },
+    {
+      "t": "Pri pa kan ak lè yo se **estimasyon**: chif aktyèl yo bloke dèyè pòtal enskripsyon CampBrain la, kidonk plaj ki montre a se chif aktyèl twazyèm pati a ($170–$325/semèn), ak lè ki fèt sou modèl katalòg 2018 lekòl la li menm kote menm kan an te egziste.",
+      "of": "bed818fc",
+      "at": [
+        "covenant-day:catalog.flags[0].text"
+      ]
+    },
+    {
+      "t": "Lekòl la mache \"**29 kan**\"; paj piblik la konte 20 (yon 21yèm antre, \"Splash Squad,\" se yon pòs anplwaye). Varyant pa semèn ak kan ki nan pòtal sèlman gen dwa esplike diferans lan.",
+      "of": "19b8adfa",
+      "at": [
+        "covenant-day:catalog.flags[1].text"
+      ]
+    },
+    {
+      "t": "Dènye dokiman ki pibliye pri pa kan + lè + grad ansanm se **katalòg 2018** la (egzanp Baseball $185/wk demi-jounen, Basketball $150 demi / $250 konplè) — uit ane, kenbe kòm yon echantiyon dokimante sèlman.",
+      "of": "7164dbc0",
+      "at": [
+        "covenant-day:catalog.flags[2].text"
+      ]
+    },
+    {
+      "t": "Bidjè $170–$325 pa semèn pou kan an li menm — apre sa $50 swen anvan, $50 swen apre ak $30 swen manje midi, sof si Camp Lion oswa Cub Camp mete tou le twa ansanm gratis.",
+      "of": "02b6638d",
+      "at": [
+        "covenant-day:costPlanner.headline"
+      ]
+    },
+    {
+      "t": "Uit semèn disponib (1ye jen – 31 jiyè, sote semèn 29 jen an). Yon frè enskripsyon $50 ki pa ranbousab deja anndan chak pri kan.",
+      "of": "132286f9",
+      "at": [
+        "covenant-day:costPlanner.subhead"
+      ]
+    },
+    {
+      "t": "Semèn ba plaj la",
+      "of": "e61d1052",
+      "at": [
+        "covenant-day:costPlanner.tiers[0].label"
+      ]
+    },
+    {
+      "t": "Kan espesyalite demi-jounen · ba plaj la",
+      "of": "cf01ca64",
+      "at": [
+        "covenant-day:costPlanner.tiers[0].panelLabel"
+      ]
+    },
+    {
+      "t": "Anba plaj aktyèl twazyèm pati a.",
+      "of": "35583467",
+      "at": [
+        "covenant-day:costPlanner.tiers[0].detail"
+      ]
+    },
+    {
+      "t": "Semèn mitan plaj",
+      "of": "66df0c1f",
+      "at": [
+        "covenant-day:costPlanner.tiers[1].label"
+      ]
+    },
+    {
+      "t": "Semèn kan tipik · mitan plaj la",
+      "of": "fe1e10cd",
+      "at": [
+        "covenant-day:costPlanner.tiers[1].panelLabel"
+      ]
+    },
+    {
+      "t": "Estimasyon mitan; kan tout lajounen katalòg 2018 la te chita toupre isit la.",
+      "of": "da808e99",
+      "at": [
+        "covenant-day:costPlanner.tiers[1].detail"
+      ]
+    },
+    {
+      "t": "Semèn wo plaj",
+      "of": "5a2a4651",
+      "at": [
+        "covenant-day:costPlanner.tiers[2].label"
+      ]
+    },
+    {
+      "t": "Kan tout lajounen · anlè plaj la",
+      "of": "3d00c339",
+      "at": [
+        "covenant-day:costPlanner.tiers[2].panelLabel"
+      ]
+    },
+    {
+      "t": "Anlè plaj aktyèl twazyèm pati a. Camp Lion mete tou le twa swen anplis ansanm gratis nan tout lajounen.",
+      "of": "93984051",
+      "at": [
+        "covenant-day:costPlanner.tiers[2].detail"
+      ]
+    },
+    {
+      "t": "Before Care 7:30–8:45 am (TK–8)",
+      "of": "88076342",
+      "at": [
+        "covenant-day:costPlanner.addons[0].label"
+      ]
+    },
+    {
+      "t": "After Care 4:00–5:30 pm (TK–8)",
+      "of": "287828c5",
+      "at": [
+        "covenant-day:costPlanner.addons[1].label"
+      ]
+    },
+    {
+      "t": "Lunch Care 12–1 pm (pote manje)",
+      "of": "041229f1",
+      "at": [
+        "covenant-day:costPlanner.addons[2].label"
+      ]
+    },
+    {
+      "t": "Enskripsyon (pa ranbousab, enkli nan pri kan)",
+      "of": "2c6d3da4",
+      "at": [
+        "covenant-day:costPlanner.fees[0].label"
+      ]
+    },
+    {
+      "t": "Echanj kan",
+      "of": "2304c979",
+      "at": [
+        "covenant-day:costPlanner.fees[1].label"
+      ]
+    },
+    {
+      "t": "Anilasyon anvan 1ye me",
+      "of": "3a3bd087",
+      "at": [
+        "covenant-day:costPlanner.fees[2].label"
+      ]
+    },
+    {
+      "t": "**Camp Lion (Full Day), Cub Camp ak MS Musical Theater gen ladan swen gratis** — Before ak After Care pou kan lajounen yo, Lunch Care pou tou le twa. Kite bouton yo etenn pou semèn sa yo.",
+      "of": "55ffd32d",
+      "at": [
+        "covenant-day:costPlanner.fees[3].label"
+      ]
+    },
+    {
+      "t": "Rabè frè ak sè sou kan lajounen yo: **$50 off demi-jounen / $75 off tout lajounen** pou chak enskripsyon anplis. Anilasyon apre 1ye me ranbouse 50% (≥14 jou davans) epi anyen anndan 14 jou.",
+      "of": "83b45435",
+      "at": [
+        "covenant-day:costPlanner.fees[4].label"
+      ]
+    },
+    {
+      "t": "Pri bonè fini 27 fevriye.",
+      "of": "d519c42d",
+      "at": [
+        "covenant-day:costPlanner.aside.title"
+      ]
+    },
+    {
+      "t": "Enskripsyon louvri sou pòtal CampBrain la, li fèmen a **midi Vandredi anvan chak semèn kan**. Kan yo louvri pou kominote a, epi grad vle di grad **k ap monte** pou ane eskolè k ap vini an.",
+      "of": "6340cffb",
+      "at": [
+        "covenant-day:costPlanner.aside.text"
+      ]
+    },
+    {
+      "t": "Tou le twa nivo semèn yo se **estimasyon** — lekòl la pa pibliye okenn lis pri pa kan aktyèl; se sèlman swen anplis yo ak règleman frè ki anwo yo ki se chif aktyèl li menm.",
+      "of": "09c29363",
+      "at": [
+        "covenant-day:costPlanner.flags[0].text"
       ]
     }
   ]

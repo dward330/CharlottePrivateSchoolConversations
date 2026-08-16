@@ -11,6 +11,7 @@
         "charlotte-christian:title",
         "charlotte-country-day:title",
         "cannon:title",
+        "covenant-day:title",
         "davidson-day:title"
       ]
     },
@@ -31,6 +32,7 @@
         "charlotte-christian:framing[0].title",
         "charlotte-country-day:framing[0].title",
         "cannon:framing[0].title",
+        "covenant-day:framing[0].title",
         "davidson-day:framing[0].title"
       ]
     },
@@ -69,6 +71,7 @@
         "charlotte-christian:framing[2].title",
         "charlotte-country-day:framing[2].title",
         "cannon:framing[2].title",
+        "covenant-day:framing[2].title",
         "davidson-day:framing[2].title"
       ]
     },
@@ -128,7 +131,8 @@
       "of": "c2d451ca",
       "at": [
         "providence-day:sections[0].bands[2].label",
-        "charlotte-latin:sections[0].bands[1].label"
+        "charlotte-latin:sections[0].bands[1].label",
+        "covenant-day:sections[0].bands[1].label"
       ]
     },
     {
@@ -167,6 +171,8 @@
         "cannon:sections[0].boxes[0].tag",
         "cannon:sections[2].boxes[2].tag",
         "cannon:sections[3].boxes[1].tag",
+        "covenant-day:sections[2].boxes[1].tag",
+        "covenant-day:sections[4].boxes[0].tag",
         "davidson-day:sections[2].boxes[2].tag"
       ]
     },
@@ -397,6 +403,7 @@
         "charlotte-latin:sections[2].navTitle",
         "charlotte-country-day:sections[2].navTitle",
         "cannon:sections[2].navTitle",
+        "covenant-day:sections[2].navTitle",
         "davidson-day:sections[2].navTitle"
       ]
     },
@@ -459,6 +466,7 @@
         "providence-day:sections[2].timeline[3].when",
         "charlotte-country-day:sections[2].timeline[3].when",
         "cannon:sections[2].timeline[3].when",
+        "covenant-day:sections[2].timeline[3].when",
         "davidson-day:sections[2].timeline[3].when"
       ]
     },
@@ -763,6 +771,7 @@
         "charlotte-latin:sections[5].navTitle",
         "charlotte-country-day:sections[4].navTitle",
         "cannon:sections[4].navTitle",
+        "covenant-day:sections[5].navTitle",
         "davidson-day:sections[4].navTitle"
       ]
     },
@@ -783,7 +792,8 @@
         "providence-day:sections[5].plans[0].figure",
         "charlotte-christian:sections[4].plans[1].figure",
         "charlotte-country-day:sections[4].plans[1].figure",
-        "cannon:sections[4].plans[0].figure"
+        "cannon:sections[4].plans[0].figure",
+        "covenant-day:sections[5].plans[0].figure"
       ]
     },
     {
@@ -906,6 +916,7 @@
         "charlotte-christian:sections[5].navTitle",
         "charlotte-country-day:sections[5].navTitle",
         "cannon:sections[5].navTitle",
+        "covenant-day:sections[6].navTitle",
         "davidson-day:sections[5].navTitle"
       ]
     },
@@ -1076,6 +1087,7 @@
         "charlotte-christian:framing[0].body",
         "charlotte-country-day:framing[0].body",
         "cannon:framing[0].body",
+        "covenant-day:framing[0].body",
         "davidson-day:framing[0].body"
       ]
     },
@@ -1104,7 +1116,8 @@
       "t": "Grados 6–8",
       "of": "914e6250",
       "at": [
-        "charlotte-latin:sections[0].bands[2].label"
+        "charlotte-latin:sections[0].bands[2].label",
+        "covenant-day:sections[0].bands[2].label"
       ]
     },
     {
@@ -1114,7 +1127,8 @@
         "charlotte-latin:sections[0].bands[3].label",
         "charlotte-country-day:sections[0].bands[4].label",
         "cannon:sections[0].bands[4].label",
-        "cannon:sections[3].ranges[2].label"
+        "cannon:sections[3].ranges[2].label",
+        "covenant-day:sections[0].bands[3].label"
       ]
     },
     {
@@ -1936,7 +1950,8 @@
       "t": "Matrícula por franja",
       "of": "098bc98f",
       "at": [
-        "charlotte-christian:sections[0].navTitle"
+        "charlotte-christian:sections[0].navTitle",
+        "covenant-day:sections[0].navTitle"
       ]
     },
     {
@@ -2017,6 +2032,7 @@
       "of": "09c013ce",
       "at": [
         "charlotte-christian:sections[1].navTitle",
+        "covenant-day:sections[1].navTitle",
         "davidson-day:sections[1].navTitle"
       ]
     },
@@ -2025,6 +2041,7 @@
       "of": "e742ffd4",
       "at": [
         "charlotte-christian:sections[1].title",
+        "covenant-day:sections[1].title",
         "davidson-day:sections[1].title"
       ]
     },
@@ -2424,7 +2441,8 @@
       "t": "$1,500",
       "of": "7634a7b9",
       "at": [
-        "charlotte-christian:sections[4].plans[0].figure"
+        "charlotte-christian:sections[4].plans[0].figure",
+        "covenant-day:sections[4].plans[0].figure"
       ]
     },
     {
@@ -3585,6 +3603,535 @@
       ]
     },
     {
+      "t": "Año escolar 2026–27 · cifras a 15 de agosto de 2026",
+      "of": "47d9e49a",
+      "at": [
+        "covenant-day:meta"
+      ]
+    },
+    {
+      "t": "Dos años están vigentes a la vez.",
+      "of": "ab877c57",
+      "at": [
+        "covenant-day:framing[1].title"
+      ]
+    },
+    {
+      "t": "La tabla del sitio web muestra 2026–27 mientras que el PDF de condiciones de pago enlazado muestra 2025–26. Cada cifra aquí nombra su año; el informe encabeza con 2026–27.",
+      "of": "6e7cbdf9",
+      "at": [
+        "covenant-day:framing[1].body"
+      ]
+    },
+    {
+      "t": "Ayuda a la matrícula mientras se está escolarizado — no ayuda universitaria. No es asesoramiento financiero.",
+      "of": "e6f51e0f",
+      "at": [
+        "covenant-day:framing[2].body",
+        "davidson-day:framing[2].body"
+      ]
+    },
+    {
+      "t": "Matrícula por curso",
+      "of": "3e0b286d",
+      "at": [
+        "covenant-day:sections[0].title",
+        "davidson-day:sections[0].title"
+      ]
+    },
+    {
+      "t": "Matrícula publicada por franja de grados — la tarifa máxima más baja de esta comparación",
+      "of": "a44f57bc",
+      "at": [
+        "covenant-day:sections[0].figureCaption"
+      ]
+    },
+    {
+      "t": "JK y K",
+      "of": "b01d7771",
+      "at": [
+        "covenant-day:sections[0].bands[0].label"
+      ]
+    },
+    {
+      "t": "Cuatro franjas desde junior kindergarten hasta el grado 12, una diferencia de $7,300. La subida respecto a 2025–26 fue de $1,200 fijos en cada franja — un aumento en dólares, no en porcentaje, razón por la cual la franja más joven muestra el mayor cambio porcentual.",
+      "of": "d75b28fb",
+      "at": [
+        "covenant-day:sections[0].figureNote"
+      ]
+    },
+    {
+      "t": "El colegio indica qué incluye la matrícula — computadoras/iPads en el campus, gastos de tecnología, retiros escolares y excursiones obligatorias, cuotas de laboratorio de ciencias y de asignaturas optativas, y la mayoría de los gastos deportivos — una lista de inclusiones que varios pares no publican.",
+      "of": "b8e82882",
+      "at": [
+        "covenant-day:sections[0].figureNote2"
+      ]
+    },
+    {
+      "t": "Una lista breve, en su mayoría con precio",
+      "of": "0e601a1a",
+      "at": [
+        "covenant-day:sections[1].componentsTitle"
+      ]
+    },
+    {
+      "t": "Depósito de matriculación · $1,000, abonado a la matrícula",
+      "of": "eb5e15b2",
+      "at": [
+        "covenant-day:sections[1].components[0].label"
+      ]
+    },
+    {
+      "t": "Cuota del plan mensual FACTS · $50/año",
+      "of": "e672f5c7",
+      "at": [
+        "covenant-day:sections[1].components[1].label"
+      ]
+    },
+    {
+      "t": "Cuota de procesamiento con tarjeta · 3.05% del pago",
+      "of": "69e6ca60",
+      "at": [
+        "covenant-day:sections[1].components[2].label"
+      ]
+    },
+    {
+      "t": "Extended Day (JK–8) · $58–$248/mes por sesión",
+      "of": "78e3b262",
+      "at": [
+        "covenant-day:sections[1].components[3].label"
+      ]
+    },
+    {
+      "t": "Portátil, grados 9–12 · trae el tuyo",
+      "of": "b2aae508",
+      "at": [
+        "covenant-day:sections[1].components[4].label"
+      ]
+    },
+    {
+      "t": "Tutoría / pruebas especiales más allá de la ayuda en el aula",
+      "of": "4f7152a4",
+      "at": [
+        "covenant-day:sections[1].components[5].label"
+      ]
+    },
+    {
+      "t": "Uniforme (JK–8) / código de vestimenta de HS",
+      "of": "e05b842c",
+      "at": [
+        "covenant-day:sections[1].components[6].label"
+      ]
+    },
+    {
+      "t": "La lista de inclusiones hace un trabajo real aquí: retiros, excursiones obligatorias, cuotas de laboratorio y de optativas, y la mayoría de los gastos deportivos están dentro de la matrícula, así que los complementos con precio son genuinamente pocos. Los grados 9–12 deben aportar un portátil que cumpla las especificaciones del colegio.",
+      "of": "68dc28f7",
+      "at": [
+        "covenant-day:sections[1].componentsNote"
+      ]
+    },
+    {
+      "t": "El depósito tiene en cuenta la ayuda",
+      "of": "4cae32af",
+      "at": [
+        "covenant-day:sections[1].boxes[0].title"
+      ]
+    },
+    {
+      "t": "El depósito de $1,000 por estudiante es no reembolsable y se abona a la matrícula — y las familias que presenten una solicitud de ayuda completa antes de matricularse pueden pedir a la Business Office que lo **reduzca a la mitad** mientras se estudia la solicitud. Esperar a una decisión de ayuda sin pagar el depósito, sin embargo, significa que no se reserva ninguna plaza.",
+      "of": "8445b947",
+      "at": [
+        "covenant-day:sections[1].boxes[0].body"
+      ]
+    },
+    {
+      "t": "Proceso y calendario de la ayuda",
+      "of": "690355d8",
+      "at": [
+        "covenant-day:sections[2].title",
+        "davidson-day:sections[2].title"
+      ]
+    },
+    {
+      "t": "Con la admisión",
+      "of": "baedc1a0",
+      "at": [
+        "covenant-day:sections[2].timeline[0].when"
+      ]
+    },
+    {
+      "t": "Las familias presentan la solicitud de ayuda **al mismo tiempo que la solicitud de admisión**, a través de FACTS — la misma plataforma que gestiona la facturación de la matrícula",
+      "of": "b8762ba7",
+      "at": [
+        "covenant-day:sections[2].timeline[0].detail"
+      ]
+    },
+    {
+      "t": "Requisito previo",
+      "of": "30a573d3",
+      "at": [
+        "covenant-day:sections[2].timeline[1].when"
+      ]
+    },
+    {
+      "t": "La prueba de haber solicitado la **NC Opportunity Scholarship** es obligatoria antes de que se considere cualquier ayuda de CDS — una barrera rígida que ningún colegio par de aquí impone",
+      "of": "f72e805a",
+      "at": [
+        "covenant-day:sections[2].timeline[1].detail"
+      ]
+    },
+    {
+      "t": "Al completarse",
+      "of": "c9d5c23e",
+      "at": [
+        "covenant-day:sections[2].timeline[2].when"
+      ]
+    },
+    {
+      "t": "Las decisiones se comunican solo una vez que la solicitud está completa, incluida toda la documentación de apoyo",
+      "of": "cea405d7",
+      "at": [
+        "covenant-day:sections[2].timeline[2].detail"
+      ]
+    },
+    {
+      "t": "Sin ayuda plurianual — las familias presentan una nueva solicitud cada año",
+      "of": "7f386677",
+      "at": [
+        "covenant-day:sections[2].timeline[3].detail"
+      ]
+    },
+    {
+      "t": "Plataforma y alcance",
+      "of": "736758b4",
+      "at": [
+        "covenant-day:sections[2].boxes[0].title"
+      ]
+    },
+    {
+      "t": "**FACTS** gestiona la evaluación confidencial de necesidad. La ayuda es solo por necesidad, y solo la parte responsable de pagar la matrícula puede solicitarla. Contacto: Christen Marshall, Student Accounts Coordinator, 704-708-6102.",
+      "of": "23d6f76d",
+      "at": [
+        "covenant-day:sections[2].boxes[0].body"
+      ]
+    },
+    {
+      "t": "No aparecen en el registro público ni fecha límite de ayuda, ni calendario de decisiones, ni proceso de apelaciones, ni política de tope de ayuda. La cuota de solicitud de FACTS, si la hay, tampoco se indica.",
+      "of": "5f12ecc0",
+      "at": [
+        "covenant-day:sections[2].boxes[1].body"
+      ]
+    },
+    {
+      "t": "La ayuda en cifras",
+      "of": "bd1cf4c6",
+      "at": [
+        "covenant-day:sections[3].navTitle"
+      ]
+    },
+    {
+      "t": "Lo que revelan las cifras",
+      "of": "d9be712e",
+      "at": [
+        "covenant-day:sections[3].title"
+      ]
+    },
+    {
+      "t": "de los estudiantes con ayuda — solo cifra de terceros",
+      "of": "e248fc59",
+      "at": [
+        "covenant-day:sections[3].stats[0].label"
+      ]
+    },
+    {
+      "t": "ministerio de una iglesia — exento del IRS de presentar",
+      "of": "fd45ab9c",
+      "at": [
+        "covenant-day:sections[3].stats[1].label"
+      ]
+    },
+    {
+      "t": "totales, promedios o presupuestos de ayuda publicados",
+      "of": "e75ea3c1",
+      "at": [
+        "covenant-day:sections[3].stats[2].label"
+      ]
+    },
+    {
+      "t": "La proporción de ~20% procede de agregadores (PrivateSchoolReview, schooltuitions.org); el propio colegio no publica ningún porcentaje, ningún total otorgado ni ninguna ayuda promedio.",
+      "of": "99fcdce6",
+      "at": [
+        "covenant-day:sections[3].figureNote"
+      ]
+    },
+    {
+      "t": "NO PUBLICADO — Y NO RECUPERABLE",
+      "of": "98106920",
+      "at": [
+        "covenant-day:sections[3].boxes[0].tag"
+      ]
+    },
+    {
+      "t": "Covenant Day es un ministerio de Christ Covenant Church (PCA), y el IRS lo designa como una **organización religiosa no obligada a presentar el Form 990** (EIN 56-1656570, exenta desde 1989). El Nonprofit Explorer de ProPublica confirma que no existe ninguna presentación. Todos los demás colegios de este proyecto presentan el 990 y sus totales de ayuda pueden contrastarse con su declaración — aquí no hay **ninguna presentación que comprobar**, así que la falta es estructural en lugar de una página pendiente de encontrar.",
+      "of": "07e003e5",
+      "at": [
+        "covenant-day:sections[3].boxes[0].body"
+      ]
+    },
+    {
+      "t": "Descuentos y ayuda estatal",
+      "of": "e6a0f3f2",
+      "at": [
+        "covenant-day:sections[4].navTitle"
+      ]
+    },
+    {
+      "t": "Méritos, descuentos y becas estatales",
+      "of": "622789d6",
+      "at": [
+        "covenant-day:sections[4].title"
+      ]
+    },
+    {
+      "t": "TODA LA AYUDA DEL COLEGIO ES POR NECESIDAD",
+      "of": "6b98e954",
+      "at": [
+        "covenant-day:sections[4].tag"
+      ]
+    },
+    {
+      "t": "Descuento por varios hijos",
+      "of": "7c2c9ac8",
+      "at": [
+        "covenant-day:sections[4].plans[0].label"
+      ]
+    },
+    {
+      "t": "Sobre la matrícula del **tercer estudiante y de cada estudiante adicional** del mismo hogar, aplicado a los hijos en los grados más bajos. Las familias con dos hijos no reciben nada.",
+      "of": "cf11a53f",
+      "at": [
+        "covenant-day:sections[4].plans[0].detail"
+      ]
+    },
+    {
+      "t": "$400",
+      "of": "513ce48d",
+      "at": [
+        "covenant-day:sections[4].plans[1].figure"
+      ]
+    },
+    {
+      "t": "Descuento para miembros de Christ Covenant Church",
+      "of": "7601051e",
+      "at": [
+        "covenant-day:sections[4].plans[1].label"
+      ]
+    },
+    {
+      "t": "Por estudiante matriculado, para los miembros de la iglesia patrocinadora — la membresía se confirma durante la matriculación en línea, con una fecha límite del 1 de febrero para tener derecho al año completo.",
+      "of": "8daf0b5b",
+      "at": [
+        "covenant-day:sections[4].plans[1].detail"
+      ]
+    },
+    {
+      "t": "NC",
+      "of": "35e678d6",
+      "at": [
+        "covenant-day:sections[4].plans[2].figure"
+      ]
+    },
+    {
+      "t": "Opportunity Scholarship + ESA+",
+      "of": "755390d9",
+      "at": [
+        "covenant-day:sections[4].plans[2].label"
+      ]
+    },
+    {
+      "t": "El colegio acepta ambos programas administrados por la NCSEAA — y solicitar la Opportunity Scholarship es un **requisito previo** para la ayuda de CDS, así que la ayuda estatal es la primera capa diseñada de cada paquete.",
+      "of": "3ebfb56c",
+      "at": [
+        "covenant-day:sections[4].plans[2].detail"
+      ]
+    },
+    {
+      "t": "No existen becas por méritos en el registro público — la ayuda es solo por necesidad. Ni descuento por hermanos antes del tercer hijo, ni descuento militar o para el clero, ni ninguna política de exención para empleados publicada.",
+      "of": "c8751142",
+      "at": [
+        "covenant-day:sections[4].boxes[0].body"
+      ]
+    },
+    {
+      "t": "Planes de pago y condiciones del contrato",
+      "of": "7e5b3eac",
+      "at": [
+        "covenant-day:sections[5].title",
+        "davidson-day:sections[4].title"
+      ]
+    },
+    {
+      "t": "Plan anual",
+      "of": "442308c5",
+      "at": [
+        "covenant-day:sections[5].plans[0].label"
+      ]
+    },
+    {
+      "t": "El saldo completo vence el **1 de mayo** anterior al año escolar. No se publica ningún descuento por pago anticipado.",
+      "of": "d81f21dc",
+      "at": [
+        "covenant-day:sections[5].plans[0].detail"
+      ]
+    },
+    {
+      "t": "9×",
+      "of": "eafe64d9",
+      "at": [
+        "covenant-day:sections[5].plans[1].figure"
+      ]
+    },
+    {
+      "t": "Plan mensual (FACTS)",
+      "of": "28896c7b",
+      "at": [
+        "covenant-day:sections[5].plans[1].label"
+      ]
+    },
+    {
+      "t": "Nueve cuotas iguales, **de mayo a enero**, con cargo automático el día 5 o el 20 — más una cuota de $50/año de FACTS. Nótese la temporada: los pagos empiezan cuatro meses antes que las clases.",
+      "of": "e99f8921",
+      "at": [
+        "covenant-day:sections[5].plans[1].detail"
+      ]
+    },
+    {
+      "t": "3.05%",
+      "of": "9bb9f1aa",
+      "at": [
+        "covenant-day:sections[5].plans[2].figure"
+      ]
+    },
+    {
+      "t": "Recargo por tarjeta",
+      "of": "29880099",
+      "at": [
+        "covenant-day:sections[5].plans[2].label"
+      ]
+    },
+    {
+      "t": "Los pagos con tarjeta de débito/crédito incurren en una cuota de procesador del 3.05%; los cargos bancarios lo evitan. Sobre una matrícula de $22,790 eso es aproximadamente $695.",
+      "of": "3ecab72f",
+      "at": [
+        "covenant-day:sections[5].plans[2].detail"
+      ]
+    },
+    {
+      "t": "10.º",
+      "of": "61efd168",
+      "at": [
+        "covenant-day:sections[5].plans[3].figure"
+      ]
+    },
+    {
+      "t": "Fecha límite de baja",
+      "of": "09449783",
+      "at": [
+        "covenant-day:sections[5].plans[3].label"
+      ]
+    },
+    {
+      "t": "Las bajas deben ser oficiales antes del día 10 del mes para saltarse la cuota de ese mes; los reembolsos igualan las cuotas cuya fecha de vencimiento no haya pasado. Las familias del plan mensual al corriente de pago no reciben reembolso ni deben más.",
+      "of": "f87d5f23",
+      "at": [
+        "covenant-day:sections[5].plans[3].detail"
+      ]
+    },
+    {
+      "t": "Cuentas no al corriente",
+      "of": "e9664408",
+      "at": [
+        "covenant-day:sections[5].boxes[0].title"
+      ]
+    },
+    {
+      "t": "Las cuentas con más de 30 días de mora pueden suspender la rematriculación, los boletines de notas, la entrega del expediente — y el acceso a clase. Una cláusula estándar de fuerza mayor mantiene vivas las obligaciones de matrícula durante los cierres.",
+      "of": "7d101a4f",
+      "at": [
+        "covenant-day:sections[5].boxes[0].body"
+      ]
+    },
+    {
+      "t": "La tendencia, y qué preguntar",
+      "of": "ddf5a036",
+      "at": [
+        "covenant-day:sections[6].title"
+      ]
+    },
+    {
+      "t": "aumento fijo en cada franja, 2025–26 → 2026–27",
+      "of": "d2ecb683",
+      "at": [
+        "covenant-day:sections[6].stats[0].label"
+      ]
+    },
+    {
+      "t": "franja superior — la matrícula máxima más baja de esta comparación",
+      "of": "70a1af95",
+      "at": [
+        "covenant-day:sections[6].stats[1].label"
+      ]
+    },
+    {
+      "t": "de las tarifas publicadas (sitio web + PDF de condiciones)",
+      "of": "236fb2d1",
+      "at": [
+        "covenant-day:sections[6].stats[2].label"
+      ]
+    },
+    {
+      "t": "Preguntas que el registro público no puede responder",
+      "of": "b608282c",
+      "at": [
+        "covenant-day:sections[6].questionsTitle"
+      ]
+    },
+    {
+      "t": "¿Qué proporción de familias recibe ayuda, y cuál es la ayuda promedio? (La cifra de ~20% es de terceros.)",
+      "of": "c63baba4",
+      "at": [
+        "covenant-day:sections[6].questions[0]"
+      ]
+    },
+    {
+      "t": "¿Cuál es la fecha límite de la solicitud de ayuda, y cuándo se comunican las decisiones respecto a los contratos de matriculación?",
+      "of": "51da8062",
+      "at": [
+        "covenant-day:sections[6].questions[1]"
+      ]
+    },
+    {
+      "t": "¿Cómo interactúa la solicitud obligatoria de la NC Opportunity Scholarship con la ayuda de CDS para las familias por encima del tope de ingresos estatal?",
+      "of": "adf1ebc4",
+      "at": [
+        "covenant-day:sections[6].questions[2]"
+      ]
+    },
+    {
+      "t": "¿Hay un proceso de apelaciones o de cambio de circunstancias a mitad de año?",
+      "of": "d1ee59df",
+      "at": [
+        "covenant-day:sections[6].questions[3]"
+      ]
+    },
+    {
+      "t": "¿Fue el aumento fijo de $1,200 una decisión de un año o el patrón permanente?",
+      "of": "22306959",
+      "at": [
+        "covenant-day:sections[6].questions[4]"
+      ]
+    },
+    {
       "t": "Año escolar 2026–27 · cifras a 22 de julio de 2026",
       "of": "6f9ac510",
       "at": [
@@ -3599,24 +4146,10 @@
       ]
     },
     {
-      "t": "Ayuda a la matrícula mientras se está escolarizado — no ayuda universitaria. No es asesoramiento financiero.",
-      "of": "e6f51e0f",
-      "at": [
-        "davidson-day:framing[2].body"
-      ]
-    },
-    {
       "t": "Matrícula por división",
       "of": "60483d8b",
       "at": [
         "davidson-day:sections[0].navTitle"
-      ]
-    },
-    {
-      "t": "Matrícula por curso",
-      "of": "3e0b286d",
-      "at": [
-        "davidson-day:sections[0].title"
       ]
     },
     {
@@ -3781,13 +4314,6 @@
       ]
     },
     {
-      "t": "Proceso y calendario de la ayuda",
-      "of": "690355d8",
-      "at": [
-        "davidson-day:sections[2].title"
-      ]
-    },
-    {
       "t": "15 feb",
       "of": "860084f6",
       "at": [
@@ -3939,13 +4465,6 @@
       "of": "e1c9fd17",
       "at": [
         "davidson-day:sections[3].boxes[1].body"
-      ]
-    },
-    {
-      "t": "Planes de pago y condiciones del contrato",
-      "of": "7e5b3eac",
-      "at": [
-        "davidson-day:sections[4].title"
       ]
     },
     {

@@ -51,7 +51,8 @@
       "at": [
         "providence-day:coverage.rows[3].dismissal",
         "providence-day:coverage.rows[4].dismissal",
-        "charlotte-country-day:coverage.rows[3].dismissal"
+        "charlotte-country-day:coverage.rows[3].dismissal",
+        "covenant-day:coverage.rows[2].dismissal"
       ]
     },
     {
@@ -1007,7 +1008,8 @@
       "t": "تعطیلی 1:30",
       "of": "273811b2",
       "at": [
-        "charlotte-latin:coverage.rows[0].dismissal"
+        "charlotte-latin:coverage.rows[0].dismissal",
+        "covenant-day:coverage.rows[0].dismissal"
       ]
     },
     {
@@ -1258,7 +1260,8 @@
       "at": [
         "charlotte-latin:cost.fees[1].label",
         "charlotte-christian:cost.fees[0].label",
-        "cannon:cost.fees[0].label"
+        "cannon:cost.fees[0].label",
+        "covenant-day:cost.fees[2].label"
       ]
     },
     {
@@ -1274,7 +1277,8 @@
       "t": "هزینهٔ تحویل با تأخیر",
       "of": "295637c8",
       "at": [
-        "charlotte-latin:cost.fees[2].label"
+        "charlotte-latin:cost.fees[2].label",
+        "covenant-day:cost.fees[3].label"
       ]
     },
     {
@@ -1296,7 +1300,9 @@
       "of": "010e3b1d",
       "at": [
         "charlotte-latin:cost.fees[4].value",
-        "charlotte-christian:cost.fees[0].value"
+        "charlotte-christian:cost.fees[0].value",
+        "covenant-day:cost.fees[2].value",
+        "covenant-day:cost.fees[3].value"
       ]
     },
     {
@@ -2020,7 +2026,8 @@
       "at": [
         "charlotte-christian:coverage.rows[2].dismissal",
         "cannon:coverage.rows[0].dismissal",
-        "cannon:coverage.rows[1].dismissal"
+        "cannon:coverage.rows[1].dismissal",
+        "covenant-day:coverage.rows[1].dismissal"
       ]
     },
     {
@@ -2688,7 +2695,8 @@
       "t": "تعطیلی 3:15",
       "of": "10af78c9",
       "at": [
-        "charlotte-country-day:coverage.rows[4].dismissal"
+        "charlotte-country-day:coverage.rows[4].dismissal",
+        "covenant-day:coverage.rows[3].dismissal"
       ]
     },
     {
@@ -2723,7 +2731,8 @@
       "t": "مراجعهٔ آزاد",
       "of": "966da620",
       "at": [
-        "charlotte-country-day:coverage.facts[1].label"
+        "charlotte-country-day:coverage.facts[1].label",
+        "covenant-day:cost.fees[0].label"
       ]
     },
     {
@@ -4291,6 +4300,307 @@
       "of": "20bfe9a7",
       "at": [
         "cannon:verdict.checklist[9]"
+      ]
+    },
+    {
+      "t": "مراقبت پیش از مدرسهٔ رایگان از 7:30 a.m. برای همه، سپس Extended Day تا 6:00 p.m. برای JK–8 در جلسات 90 دقیقه‌ای روی‌هم‌چیده.",
+      "of": "86343d28",
+      "at": [
+        "covenant-day:coverage.headline"
+      ]
+    },
+    {
+      "t": "جلسهٔ 1.5 ساعته واحد همه چیز است: JK/K برای رسیدن به 6:00 به سه جلسه نیاز دارد، پایه‌های 1–8 به دو جلسه. High School مراقبت پس از مدرسه ندارد.",
+      "of": "7014b76d",
+      "at": [
+        "covenant-day:coverage.subhead"
+      ]
+    },
+    {
+      "t": "قیمت‌های نشان‌داده‌شده نرخ ماهانهٔ پنج‌روزه به‌ازای هر ترتیب است — هر جلسه **$248/month در پنج روز هفته** هزینه دارد، و روزهای کمتر ارزان‌تر است ($58–$206). برای قیمت‌گذاری هر ترکیبی، **The Cost Planner** را در پایین باز کنید.",
+      "of": "8a753a75",
+      "at": [
+        "covenant-day:coverage.basisNote"
+      ]
+    },
+    {
+      "t": "بدون مراقبت پس از مدرسه — به‌جای آن ورزش (82% مشارکت) و فعالیت‌ها",
+      "of": "113736c8",
+      "at": [
+        "covenant-day:coverage.rows[3].flatLabel"
+      ]
+    },
+    {
+      "t": "مراقبت پیش از مدرسهٔ رایگان",
+      "of": "70f8ac2c",
+      "at": [
+        "covenant-day:coverage.facts[0].label"
+      ]
+    },
+    {
+      "t": "از **7:30 a.m.** تا شروع مدرسه، بدون هزینه، در سراسر مدرسه — تنها مراقبت صبحگاهی رایگان در این مقایسه",
+      "of": "126cd133",
+      "at": [
+        "covenant-day:coverage.facts[0].text"
+      ]
+    },
+    {
+      "t": "شروع دیرهنگام چهارشنبه",
+      "of": "09092e31",
+      "at": [
+        "covenant-day:coverage.facts[1].label"
+      ]
+    },
+    {
+      "t": "همهٔ پایه‌ها به‌جای 8:15 در **8:50 a.m.** آغاز می‌کنند — مراقبت پیش از مدرسه این تفاوت را بدون هزینه جذب می‌کند",
+      "of": "7e8edab5",
+      "at": [
+        "covenant-day:coverage.facts[1].text"
+      ]
+    },
+    {
+      "t": "غنی‌سازی",
+      "of": "42d5db5c",
+      "at": [
+        "covenant-day:coverage.facts[2].label"
+      ]
+    },
+    {
+      "t": "کلاس‌های جداگانهٔ پس از مدرسه در **موسیقی، هنر، ورزش، رباتیک و تجربه‌های فضای باز** روی LionsWeb ثبت‌نام می‌شوند؛ خود فهرست پشت صفحهٔ ورود قرار دارد",
+      "of": "6ad38f7e",
+      "at": [
+        "covenant-day:coverage.facts[2].text"
+      ]
+    },
+    {
+      "t": "هیچ فهرست کلاس غنی‌سازی عمومی نیست — ثبت‌نام LionsWeb پشت صفحهٔ ورود است، بنابراین نام کلاس‌ها، روزها، پایه‌ها و هزینه‌ها منتشر نشده است. فهرست‌های شخص ثالث کلاس‌های پیانو/گیتار/آواز، نقاشی و یک After School Children’s Choir (پایه‌های 3–5) را نام می‌برند.",
+      "of": "217da97d",
+      "at": [
+        "covenant-day:coverage.flags[0].text"
+      ]
+    },
+    {
+      "t": "یک نردبان، چندبرابرشده: $58–$248 در ماه برای هر جلسهٔ 90 دقیقه‌ای ضرب در روزهای هفته — پس هزینهٔ واقعی این است که زمان تعطیلی شما چند جلسه را تحمیل می‌کند.",
+      "of": "baad0c26",
+      "at": [
+        "covenant-day:cost.headline"
+      ]
+    },
+    {
+      "t": "اوت و دسامبر دقیقاً نصف صورت‌حساب می‌شوند، به همین دلیل جدول سالانهٔ خود مدرسه ($522–$6,696 «برای 10 ماه») ارزان‌تر از ده برابر نرخ ماهانه است.",
+      "of": "5afd7613",
+      "at": [
+        "covenant-day:cost.subhead"
+      ]
+    },
+    {
+      "t": "10 ماه صورت‌حساب (اوت و دسامبر با نرخ نصف)",
+      "of": "eb9c94cc",
+      "at": [
+        "covenant-day:cost.periodsLabel"
+      ]
+    },
+    {
+      "t": "JK–K · تا 6:00 (3 جلسه)",
+      "of": "a419b8e7",
+      "at": [
+        "covenant-day:cost.rows[0].label"
+      ]
+    },
+    {
+      "t": "JK و Kindergarten · 1:30–6:00 pm، هر سه جلسه",
+      "of": "dda4d3e7",
+      "at": [
+        "covenant-day:cost.rows[0].panelLabel"
+      ]
+    },
+    {
+      "t": "پایه‌های 1–8 · تا 6:00 (2 جلسه)",
+      "of": "09e514ec",
+      "at": [
+        "covenant-day:cost.rows[1].label"
+      ]
+    },
+    {
+      "t": "پایه‌های 1–8 · تعطیلی–6:00 pm، دو جلسه",
+      "of": "8adae596",
+      "at": [
+        "covenant-day:cost.rows[1].panelLabel"
+      ]
+    },
+    {
+      "t": "هر پایه · 1 جلسه",
+      "of": "e4dbc194",
+      "at": [
+        "covenant-day:cost.rows[2].label"
+      ]
+    },
+    {
+      "t": "یک جلسهٔ 1.5 ساعته (مثلاً تعطیلی–4:30 pm)",
+      "of": "ff131fa9",
+      "at": [
+        "covenant-day:cost.rows[2].panelLabel"
+      ]
+    },
+    {
+      "t": "جدول سالانهٔ خود مدرسه راه ارزان‌تر خرید آن است.",
+      "of": "2ae7c293",
+      "at": [
+        "covenant-day:cost.aside.title"
+      ]
+    },
+    {
+      "t": "با قیمت «برای 10 ماه»، یک جلسه پنج روز در هفته **$2,232** است (در برابر $2,480 با 10 برابر ماهانه) و مجموعهٔ کامل سه‌جلسه‌ای پنج‌روزهٔ JK/K **$6,696** است — نرخ نصف اوت و دسامبر در آن گنجانده شده است. مراقبت پیش از مدرسه از 7:30 a.m. در هر صورت رایگان است.",
+      "of": "1329b6d8",
+      "at": [
+        "covenant-day:cost.aside.text"
+      ]
+    },
+    {
+      "t": "$20 / جلسه",
+      "of": "9af88ab0",
+      "at": [
+        "covenant-day:cost.fees[0].value"
+      ]
+    },
+    {
+      "t": "مراقبت پیش از مدرسه (7:30 a.m.–شروع)",
+      "of": "b7a364a6",
+      "at": [
+        "covenant-day:cost.fees[1].label"
+      ]
+    },
+    {
+      "t": "رایگان",
+      "of": "99b3eedb",
+      "at": [
+        "covenant-day:cost.fees[1].value"
+      ]
+    },
+    {
+      "t": "ردیف‌های چندجلسه‌ای بالا نردبان هر جلسه است که **پژوهشگر جمع بسته** — مدرسه جلسات را جداگانه قیمت‌گذاری می‌کند (مراجعهٔ آزاد $20 تا $248/month) و مجموع‌های روی‌هم‌چیده را فقط روی جدول سالانه‌اش منتشر می‌کند.",
+      "of": "29b8785b",
+      "at": [
+        "covenant-day:cost.fees[4].label"
+      ]
+    },
+    {
+      "t": "مجموع‌های ماهانهٔ چندجلسه‌ای (مثلاً **$744/mo** برای JK/K تا 6:00) با روی‌هم‌چیدن نرخ‌های هر جلسهٔ منتشرشدهٔ مدرسه به دست آمده‌اند؛ رقم منتشرشدهٔ خود مدرسه برای آن ترتیب، **$6,696** سالانه است. ستون تک‌جلسه‌ای عیناً نقل شده است.",
+      "of": "69628d4c",
+      "at": [
+        "covenant-day:cost.flags[0].text"
+      ]
+    },
+    {
+      "t": "نرخ‌ها روی صفحهٔ Extended Day بدون تاریخ‌اند — پیش از بودجه‌بندی تأیید کنید که برای 2026–27 معتبرند.",
+      "of": "b99bfa3b",
+      "at": [
+        "covenant-day:cost.flags[1].text"
+      ]
+    },
+    {
+      "t": "مقرون‌به‌صرفه‌ترین قیمت ورودی برای والدین در این مجموعه — مراقبت صبحگاهی رایگان، مراجعهٔ آزاد $20 — با سیستم جلسه‌ای که برای کوچک‌ترین خانواده‌ها بی‌سروصدا سه‌برابر می‌شود.",
+      "of": "68287d25",
+      "at": [
+        "covenant-day:verdict.headline"
+      ]
+    },
+    {
+      "t": "پوشش با استاندارد همتای 6:00 p.m. برابری می‌کند؛ کدر بودن فهرست تنها شکاف واقعی است.",
+      "of": "d7a336d0",
+      "at": [
+        "covenant-day:verdict.subhead"
+      ]
+    },
+    {
+      "t": "**مراقبت پیش از مدرسهٔ رایگان از 7:30 a.m.، در سراسر مدرسه** — هر همتای اینجا برای مراقبت صبحگاهی هزینه می‌گیرد. شروع دیرهنگام 8:50 چهارشنبه هم رایگان جذب می‌شود.",
+      "of": "883c4fee",
+      "at": [
+        "covenant-day:verdict.strengths[0]"
+      ]
+    },
+    {
+      "t": "**انعطاف واقعی**: مراجعهٔ آزاد $20، رده‌های شمار روز از یک تا پنج روز، و یک جدول سالانه که ماه‌های نرخ‌نصف پیشاپیش در آن قیمت‌گذاری شده‌اند.",
+      "of": "c1a117a1",
+      "at": [
+        "covenant-day:verdict.strengths[1]"
+      ]
+    },
+    {
+      "t": "**پوشش تا 6:00 p.m. برای JK–8** با بهترین زمان تحویل در این مقایسه برابری می‌کند.",
+      "of": "4eca5b2f",
+      "at": [
+        "covenant-day:verdict.strengths[2]"
+      ]
+    },
+    {
+      "t": "**قیمت‌گذاری منتشرشده کامل و به‌روز به نظر می‌رسد** — هم جدول ماهانه و هم سالانه، روی یک صفحهٔ فعال، با قاعدهٔ اوت/دسامبر بیان‌شده به زبان ساده.",
+      "of": "fd71c89a",
+      "at": [
+        "covenant-day:verdict.strengths[3]"
+      ]
+    },
+    {
+      "t": "**سیستم جلسه‌ای برای JK/K روی‌هم انباشته می‌شود**: تعطیلی 1:30 یعنی سه جلسهٔ روی‌هم‌چیده برای رسیدن به 6:00 — $744 در ماه با نرخ ماهانه، در برابر عنوان تک‌جلسه‌ای $248 که به‌آسانی می‌توان آن را به‌اشتباه هزینهٔ کامل خواند.",
+      "of": "4354b5de",
+      "at": [
+        "covenant-day:verdict.watchouts[0]"
+      ]
+    },
+    {
+      "t": "**بدون مراقبت پس از مدرسه برای پایه‌های 9–12** — دانش‌آموزان دبیرستان در 3:15 تعطیل می‌شوند و به ورزش یا فعالیت‌ها می‌روند، نه یک برنامهٔ تحت نظارت.",
+      "of": "24019d56",
+      "at": [
+        "covenant-day:verdict.watchouts[1]"
+      ]
+    },
+    {
+      "t": "**فهرست غنی‌سازی نامرئی است** — پنج نام دسته و یک دیوار ورود. هیچ کلاس، روز، بازهٔ پایه یا هزینه‌ای عمومی نیست.",
+      "of": "fcb2d2d7",
+      "at": [
+        "covenant-day:verdict.watchouts[2]"
+      ]
+    },
+    {
+      "t": "**هیچ هزینهٔ تحویل دیرهنگامی منتشر نشده**، که معمولاً یعنی یکی در دفترچهٔ راهنمای والدین وجود دارد — بپرسید.",
+      "of": "fbffe09a",
+      "at": [
+        "covenant-day:verdict.watchouts[3]"
+      ]
+    },
+    {
+      "t": "آیا نرخ‌های اعلام‌شدهٔ Extended Day برای 2026–27 معتبرند، و کِی بازنشانی می‌شوند؟",
+      "of": "a51b6d19",
+      "at": [
+        "covenant-day:verdict.checklist[0]"
+      ]
+    },
+    {
+      "t": "امسال چه کلاس‌های غنی‌سازی‌ای واقعاً روی LionsWeb اجرا می‌شوند، در چه روزهایی، و با چه هزینه‌هایی؟",
+      "of": "702d9e5d",
+      "at": [
+        "covenant-day:verdict.checklist[1]"
+      ]
+    },
+    {
+      "t": "پس از 6:00 p.m. چه اتفاقی می‌افتد — آیا هزینهٔ تحویل دیرهنگام هست، و چگونه صورت‌حساب می‌شود؟",
+      "of": "596c6ee6",
+      "at": [
+        "covenant-day:verdict.checklist[2]"
+      ]
+    },
+    {
+      "t": "آیا Extended Day در روزهای تعطیلی زودهنگام و روزهای جلسه اجرا می‌شود؟",
+      "of": "d84511c9",
+      "at": [
+        "covenant-day:verdict.checklist[3]"
+      ]
+    },
+    {
+      "t": "برای خانواده‌های JK/K: آیا یک کودک می‌تواند در برخی روزها فقط جلسهٔ 1:30–3:00 را حاضر شود و در روزهای دیگر تا 6:00 بماند، و شمار روزها را میان جلسات ترکیب کند؟",
+      "of": "0e37c080",
+      "at": [
+        "covenant-day:verdict.checklist[4]"
       ]
     },
     {

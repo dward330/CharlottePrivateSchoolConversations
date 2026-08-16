@@ -1,5 +1,5 @@
 # Charlotte Country Day School — Financial Aid & Tuition
-> Distilled from 2 source document(s) in `source-material/financial-aid-tuition/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-07-24.
+> Distilled from 2 source document(s) in `source-material/financial-aid-tuition/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-16.
 **Documents:** Tuition History, Financial Aid and Tuition- Deep Dive Report
 
 

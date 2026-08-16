@@ -143,6 +143,7 @@
         "cannon:divisions[0].departments[0].courses[2].title",
         "cannon:divisions[1].departments[0].courses[1].title",
         "cannon:divisions[2].departments[2].name",
+        "covenant-day:divisions[0].departments[2].name",
         "davidson-day:divisions[2].departments[3].name"
       ],
       "t": "Syans"
@@ -168,7 +169,8 @@
         "charlotte-country-day:divisions[1].departments[1].courses[5].title",
         "cannon:divisions[0].departments[0].courses[3].title",
         "cannon:divisions[1].departments[0].courses[2].title",
-        "cannon:divisions[2].departments[3].name"
+        "cannon:divisions[2].departments[3].name",
+        "covenant-day:divisions[0].departments[3].name"
       ],
       "t": "Syans Sosyal"
     },
@@ -188,7 +190,8 @@
         "providence-day:divisions[1].departments[5].name",
         "providence-day:divisions[2].departments[6].name",
         "charlotte-latin:divisions[0].departments[1].name",
-        "cannon:divisions[0].departments[1].name"
+        "cannon:divisions[0].departments[1].name",
+        "covenant-day:divisions[0].departments[5].name"
       ],
       "t": "Lang Etranje"
     },
@@ -306,7 +309,8 @@
       "text": "Theatre",
       "of": "25e3c5ec",
       "at": [
-        "providence-day:divisions[0].departments[2].courses[3].title"
+        "providence-day:divisions[0].departments[2].courses[3].title",
+        "covenant-day:divisions[0].departments[6].courses[4].title"
       ],
       "t": "Teyat"
     },
@@ -470,6 +474,7 @@
         "charlotte-country-day:divisions[2].departments[0].name",
         "cannon:divisions[1].departments[0].courses[0].title",
         "cannon:divisions[2].departments[0].name",
+        "covenant-day:divisions[0].departments[0].name",
         "davidson-day:divisions[2].departments[0].name"
       ],
       "t": "Angle"
@@ -855,6 +860,7 @@
         "cannon:divisions[1].departments[1].name",
         "cannon:divisions[1].departments[1].courses[0].title",
         "cannon:divisions[2].departments[1].name",
+        "covenant-day:divisions[0].departments[1].name",
         "davidson-day:divisions[1].departments[0].name",
         "davidson-day:divisions[2].departments[1].name"
       ],
@@ -1415,7 +1421,8 @@
       "of": "d24b52d3",
       "at": [
         "providence-day:divisions[1].departments[5].courses[2].title",
-        "providence-day:divisions[2].departments[6].courses[8].title"
+        "providence-day:divisions[2].departments[6].courses[8].title",
+        "covenant-day:divisions[0].departments[5].courses[9].title"
       ],
       "t": "Latin 2"
     },
@@ -2250,6 +2257,21 @@
         "cannon:divisions[2].departments[4].courses[17].tag",
         "cannon:divisions[2].departments[5].courses[5].tag",
         "cannon:divisions[2].departments[6].courses[1].tag",
+        "covenant-day:divisions[0].departments[0].courses[8].tag",
+        "covenant-day:divisions[0].departments[0].courses[9].tag",
+        "covenant-day:divisions[0].departments[1].courses[10].tag",
+        "covenant-day:divisions[0].departments[1].courses[11].tag",
+        "covenant-day:divisions[0].departments[2].courses[8].tag",
+        "covenant-day:divisions[0].departments[2].courses[9].tag",
+        "covenant-day:divisions[0].departments[2].courses[10].tag",
+        "covenant-day:divisions[0].departments[2].courses[11].tag",
+        "covenant-day:divisions[0].departments[3].courses[7].tag",
+        "covenant-day:divisions[0].departments[3].courses[8].tag",
+        "covenant-day:divisions[0].departments[3].courses[9].tag",
+        "covenant-day:divisions[0].departments[3].courses[10].tag",
+        "covenant-day:divisions[0].departments[5].courses[4].tag",
+        "covenant-day:divisions[0].departments[5].courses[12].tag",
+        "covenant-day:divisions[0].departments[6].courses[16].tag",
         "davidson-day:divisions[2].departments[0].courses[6].tag",
         "davidson-day:divisions[2].departments[0].courses[7].tag",
         "davidson-day:divisions[2].departments[1].courses[7].tag",
@@ -2341,7 +2363,8 @@
       "text": "World History",
       "of": "64b858bb",
       "at": [
-        "providence-day:divisions[2].departments[1].courses[1].title"
+        "providence-day:divisions[2].departments[1].courses[1].title",
+        "covenant-day:divisions[0].departments[3].courses[0].title"
       ],
       "t": "World History"
     },
@@ -2411,6 +2434,7 @@
       "at": [
         "providence-day:divisions[2].departments[1].courses[5].title",
         "charlotte-country-day:divisions[2].departments[3].courses[10].title",
+        "covenant-day:divisions[0].departments[3].courses[9].title",
         "davidson-day:divisions[2].departments[2].courses[6].title"
       ],
       "t": "AP European History"
@@ -2497,6 +2521,7 @@
       "at": [
         "providence-day:divisions[2].departments[1].courses[10].title",
         "charlotte-country-day:divisions[2].departments[3].courses[7].title",
+        "covenant-day:divisions[0].departments[3].courses[10].title",
         "davidson-day:divisions[2].departments[2].courses[9].title"
       ],
       "t": "AP Psychology"
@@ -2732,6 +2757,7 @@
         "charlotte-christian:divisions[2].departments[2].courses[1].title",
         "charlotte-country-day:divisions[1].departments[0].courses[8].title",
         "charlotte-country-day:divisions[2].departments[1].courses[1].title",
+        "covenant-day:divisions[0].departments[1].courses[1].title",
         "davidson-day:divisions[2].departments[1].courses[2].title"
       ],
       "t": "Geometry"
@@ -2880,7 +2906,8 @@
       "text": "Statistics",
       "of": "9e6fb02a",
       "at": [
-        "providence-day:divisions[2].departments[2].courses[10].title"
+        "providence-day:divisions[2].departments[2].courses[10].title",
+        "covenant-day:divisions[0].departments[1].courses[8].title"
       ],
       "t": "Statistics"
     },
@@ -2914,6 +2941,7 @@
       "at": [
         "providence-day:divisions[2].departments[2].courses[12].title",
         "charlotte-country-day:divisions[2].departments[1].courses[13].title",
+        "covenant-day:divisions[0].departments[1].courses[10].title",
         "davidson-day:divisions[2].departments[1].courses[9].title"
       ],
       "t": "AP Calculus AB"
@@ -2950,6 +2978,7 @@
       "at": [
         "providence-day:divisions[2].departments[2].courses[14].title",
         "charlotte-country-day:divisions[2].departments[1].courses[11].title",
+        "covenant-day:divisions[0].departments[1].courses[11].title",
         "davidson-day:divisions[2].departments[1].courses[12].title"
       ],
       "t": "AP Statistics"
@@ -3300,6 +3329,7 @@
       "at": [
         "providence-day:divisions[2].departments[3].courses[15].title",
         "charlotte-country-day:divisions[2].departments[2].courses[2].title",
+        "covenant-day:divisions[0].departments[2].courses[8].title",
         "davidson-day:divisions[2].departments[3].courses[9].title"
       ],
       "t": "AP Biology"
@@ -3318,6 +3348,7 @@
       "at": [
         "providence-day:divisions[2].departments[3].courses[16].title",
         "charlotte-country-day:divisions[2].departments[2].courses[12].title",
+        "covenant-day:divisions[0].departments[2].courses[9].title",
         "davidson-day:divisions[2].departments[3].courses[6].title"
       ],
       "t": "AP Chemistry"
@@ -3336,6 +3367,7 @@
       "at": [
         "providence-day:divisions[2].departments[3].courses[17].title",
         "charlotte-country-day:divisions[2].departments[2].courses[5].title",
+        "covenant-day:divisions[0].departments[2].courses[10].title",
         "davidson-day:divisions[2].departments[3].courses[10].title"
       ],
       "t": "AP Environmental Science"
@@ -3806,7 +3838,8 @@
       "of": "6d3b696e",
       "at": [
         "providence-day:divisions[2].departments[6].courses[12].title",
-        "charlotte-country-day:divisions[2].departments[4].courses[13].title"
+        "charlotte-country-day:divisions[2].departments[4].courses[13].title",
+        "covenant-day:divisions[0].departments[5].courses[12].title"
       ],
       "t": "AP Latin"
     },
@@ -4035,7 +4068,8 @@
       "at": [
         "providence-day:divisions[2].departments[7].courses[8].title",
         "charlotte-latin:divisions[2].departments[7].courses[6].title",
-        "charlotte-country-day:divisions[2].departments[5].courses[26].title"
+        "charlotte-country-day:divisions[2].departments[5].courses[26].title",
+        "covenant-day:divisions[0].departments[6].courses[13].title"
       ],
       "t": "Yearbook"
     },
@@ -4391,6 +4425,34 @@
         "cannon:divisions[2].departments[5].courses[18].tag",
         "cannon:divisions[2].departments[5].courses[19].tag",
         "cannon:divisions[2].departments[6].courses[4].tag",
+        "covenant-day:divisions[0].departments[0].courses[1].tag",
+        "covenant-day:divisions[0].departments[0].courses[3].tag",
+        "covenant-day:divisions[0].departments[0].courses[5].tag",
+        "covenant-day:divisions[0].departments[0].courses[7].tag",
+        "covenant-day:divisions[0].departments[1].courses[2].tag",
+        "covenant-day:divisions[0].departments[1].courses[4].tag",
+        "covenant-day:divisions[0].departments[1].courses[6].tag",
+        "covenant-day:divisions[0].departments[1].courses[7].tag",
+        "covenant-day:divisions[0].departments[1].courses[9].tag",
+        "covenant-day:divisions[0].departments[2].courses[1].tag",
+        "covenant-day:divisions[0].departments[2].courses[3].tag",
+        "covenant-day:divisions[0].departments[2].courses[4].tag",
+        "covenant-day:divisions[0].departments[2].courses[7].tag",
+        "covenant-day:divisions[0].departments[3].courses[1].tag",
+        "covenant-day:divisions[0].departments[3].courses[3].tag",
+        "covenant-day:divisions[0].departments[3].courses[5].tag",
+        "covenant-day:divisions[0].departments[3].courses[6].tag",
+        "covenant-day:divisions[0].departments[5].courses[2].tag",
+        "covenant-day:divisions[0].departments[5].courses[3].tag",
+        "covenant-day:divisions[0].departments[5].courses[7].tag",
+        "covenant-day:divisions[0].departments[5].courses[8].tag",
+        "covenant-day:divisions[0].departments[5].courses[10].tag",
+        "covenant-day:divisions[0].departments[5].courses[11].tag",
+        "covenant-day:divisions[0].departments[6].courses[1].tag",
+        "covenant-day:divisions[0].departments[6].courses[3].tag",
+        "covenant-day:divisions[0].departments[6].courses[6].tag",
+        "covenant-day:divisions[0].departments[6].courses[14].tag",
+        "covenant-day:divisions[0].departments[6].courses[15].tag",
         "davidson-day:divisions[1].departments[0].courses[8].tag",
         "davidson-day:divisions[1].departments[0].courses[9].tag",
         "davidson-day:divisions[2].departments[0].courses[1].tag",
@@ -5338,7 +5400,8 @@
       "text": "American Literature",
       "of": "c3da6e02",
       "at": [
-        "charlotte-latin:divisions[2].departments[0].courses[2].title"
+        "charlotte-latin:divisions[2].departments[0].courses[2].title",
+        "covenant-day:divisions[0].departments[0].courses[2].title"
       ],
       "t": "American Literature"
     },
@@ -5579,7 +5642,8 @@
       "text": "College-level European history.",
       "of": "df704890",
       "at": [
-        "charlotte-latin:divisions[2].departments[1].courses[4].description"
+        "charlotte-latin:divisions[2].departments[1].courses[4].description",
+        "covenant-day:divisions[0].departments[3].courses[9].description"
       ],
       "t": "Istwa Ewopeyen nan nivo inivèsite."
     },
@@ -5699,7 +5763,8 @@
       "text": "College-level psychology.",
       "of": "d34cd34c",
       "at": [
-        "charlotte-latin:divisions[2].departments[2].courses[1].description"
+        "charlotte-latin:divisions[2].departments[2].courses[1].description",
+        "covenant-day:divisions[0].departments[3].courses[10].description"
       ],
       "t": "Sikoloji nan nivo inivèsite."
     },
@@ -5836,7 +5901,8 @@
       "of": "2e0414cd",
       "at": [
         "charlotte-latin:divisions[2].departments[3].courses[7].title",
-        "charlotte-christian:divisions[2].departments[2].courses[6].title"
+        "charlotte-christian:divisions[2].departments[2].courses[6].title",
+        "covenant-day:divisions[0].departments[1].courses[5].title"
       ],
       "t": "Pre-Calculus"
     },
@@ -5940,7 +6006,8 @@
       "text": "College-level statistics.",
       "of": "58226eb6",
       "at": [
-        "charlotte-latin:divisions[2].departments[3].courses[13].description"
+        "charlotte-latin:divisions[2].departments[3].courses[13].description",
+        "covenant-day:divisions[0].departments[1].courses[11].description"
       ],
       "t": "Estatistik nan nivo inivèsite."
     },
@@ -6015,6 +6082,7 @@
       "at": [
         "charlotte-latin:divisions[2].departments[4].courses[2].title",
         "charlotte-christian:divisions[2].departments[3].courses[2].title",
+        "covenant-day:divisions[0].departments[2].courses[2].title",
         "davidson-day:divisions[2].departments[3].courses[4].title"
       ],
       "t": "Chemistry"
@@ -6065,6 +6133,7 @@
       "at": [
         "charlotte-latin:divisions[2].departments[4].courses[5].title",
         "charlotte-christian:divisions[2].departments[3].courses[0].title",
+        "covenant-day:divisions[0].departments[2].courses[0].title",
         "davidson-day:divisions[2].departments[3].courses[7].title"
       ],
       "t": "Biology"
@@ -6105,7 +6174,8 @@
       "text": "College-level biology.",
       "of": "c092d8e4",
       "at": [
-        "charlotte-latin:divisions[2].departments[4].courses[7].description"
+        "charlotte-latin:divisions[2].departments[4].courses[7].description",
+        "covenant-day:divisions[0].departments[2].courses[8].description"
       ],
       "t": "Byoloji nan nivo inivèsite."
     },
@@ -6121,7 +6191,8 @@
       "text": "College-level environmental science.",
       "of": "380c4f3f",
       "at": [
-        "charlotte-latin:divisions[2].departments[4].courses[8].description"
+        "charlotte-latin:divisions[2].departments[4].courses[8].description",
+        "covenant-day:divisions[0].departments[2].courses[10].description"
       ],
       "t": "Syans anviwònmantal nan nivo inivèsite."
     },
@@ -6428,7 +6499,8 @@
       "of": "f7790c8f",
       "at": [
         "charlotte-latin:divisions[2].departments[5].courses[9].description",
-        "charlotte-country-day:divisions[2].departments[4].courses[13].description"
+        "charlotte-country-day:divisions[2].departments[4].courses[13].description",
+        "covenant-day:divisions[0].departments[5].courses[12].description"
       ],
       "t": "Laten nan nivo inivèsite."
     },
@@ -7016,6 +7088,7 @@
       "at": [
         "charlotte-christian:guideYear",
         "cannon:guideYear",
+        "covenant-day:guideYear",
         "davidson-day:guideYear"
       ],
       "t": "2026-27"
@@ -7051,7 +7124,8 @@
       "at": [
         "charlotte-christian:divisions[0].departments[0].name",
         "charlotte-christian:divisions[0].departments[0].courses[0].title",
-        "charlotte-christian:divisions[1].departments[0].name"
+        "charlotte-christian:divisions[1].departments[0].name",
+        "covenant-day:divisions[0].departments[4].name"
       ],
       "t": "Bib"
     },
@@ -8070,6 +8144,7 @@
       "of": "633fb196",
       "at": [
         "charlotte-christian:divisions[2].departments[2].courses[2].title",
+        "covenant-day:divisions[0].departments[1].courses[2].title",
         "davidson-day:divisions[2].departments[1].courses[3].title"
       ],
       "t": "Geometry Honors"
@@ -8134,7 +8209,8 @@
       "text": "Pre-Calculus Honors",
       "of": "7c827282",
       "at": [
-        "charlotte-christian:divisions[2].departments[2].courses[7].title"
+        "charlotte-christian:divisions[2].departments[2].courses[7].title",
+        "covenant-day:divisions[0].departments[1].courses[6].title"
       ],
       "t": "Pre-Calculus Honors"
     },
@@ -8274,6 +8350,7 @@
       "of": "82be14ad",
       "at": [
         "charlotte-christian:divisions[2].departments[3].courses[1].title",
+        "covenant-day:divisions[0].departments[2].courses[1].title",
         "davidson-day:divisions[2].departments[3].courses[8].title"
       ],
       "t": "Biology Honors"
@@ -8299,6 +8376,7 @@
       "of": "210f792a",
       "at": [
         "charlotte-christian:divisions[2].departments[3].courses[3].title",
+        "covenant-day:divisions[0].departments[2].courses[3].title",
         "davidson-day:divisions[2].departments[3].courses[5].title"
       ],
       "t": "Chemistry Honors"
@@ -9049,7 +9127,8 @@
       "at": [
         "charlotte-christian:divisions[2].departments[7].name",
         "charlotte-country-day:divisions[1].departments[4].name",
-        "charlotte-country-day:divisions[2].departments[5].name"
+        "charlotte-country-day:divisions[2].departments[5].name",
+        "covenant-day:divisions[0].departments[6].name"
       ],
       "t": "Bozar"
     },
@@ -9257,7 +9336,8 @@
       "text": "Choir Honors",
       "of": "c9c71ff5",
       "at": [
-        "charlotte-christian:divisions[2].departments[7].courses[12].title"
+        "charlotte-christian:divisions[2].departments[7].courses[12].title",
+        "covenant-day:divisions[0].departments[6].courses[1].title"
       ],
       "t": "Choir Honors"
     },
@@ -9274,7 +9354,8 @@
       "of": "10760fb4",
       "at": [
         "charlotte-christian:divisions[2].departments[7].courses[13].title",
-        "charlotte-country-day:divisions[1].departments[4].courses[2].title"
+        "charlotte-country-day:divisions[1].departments[4].courses[2].title",
+        "covenant-day:divisions[0].departments[6].courses[0].title"
       ],
       "t": "Choir"
     },
@@ -9434,7 +9515,8 @@
       "text": "Digital Photography",
       "of": "3ef991bc",
       "at": [
-        "charlotte-christian:divisions[2].departments[7].courses[23].title"
+        "charlotte-christian:divisions[2].departments[7].courses[23].title",
+        "covenant-day:divisions[0].departments[6].courses[11].title"
       ],
       "t": "Digital Photography"
     },
@@ -10075,7 +10157,8 @@
       "text": "Algebra 1",
       "of": "94b1c55c",
       "at": [
-        "charlotte-country-day:divisions[1].departments[0].courses[7].title"
+        "charlotte-country-day:divisions[1].departments[0].courses[7].title",
+        "covenant-day:divisions[0].departments[1].courses[0].title"
       ],
       "t": "Algebra 1"
     },
@@ -10360,7 +10443,8 @@
         "charlotte-country-day:divisions[1].departments[5].courses[1].title",
         "charlotte-country-day:divisions[1].departments[5].courses[2].title",
         "charlotte-country-day:divisions[1].departments[5].courses[3].title",
-        "charlotte-country-day:divisions[1].departments[5].courses[4].title"
+        "charlotte-country-day:divisions[1].departments[5].courses[4].title",
+        "covenant-day:divisions[0].departments[2].courses[5].title"
       ],
       "t": "Sante"
     },
@@ -11729,7 +11813,8 @@
       "text": "Symphonic Band",
       "of": "04056db0",
       "at": [
-        "charlotte-country-day:divisions[2].departments[5].courses[3].title"
+        "charlotte-country-day:divisions[2].departments[5].courses[3].title",
+        "covenant-day:divisions[0].departments[6].courses[2].title"
       ],
       "t": "Symphonic Band"
     },
@@ -14381,6 +14466,1129 @@
       "t": "Yon kou byennèt ak devlopman atletik global ki enfòme pa kinezyoloji, fizyoloji egzèsis, ak byomekanik."
     },
     {
+      "text": "High School Courses",
+      "of": "d2156e65",
+      "at": [
+        "covenant-day:divisions[0].title"
+      ],
+      "t": "Kou High School"
+    },
+    {
+      "text": "GRADES 9 – 12",
+      "of": "b750d992",
+      "at": [
+        "covenant-day:divisions[0].grades"
+      ],
+      "t": "GRAD 9 – 12"
+    },
+    {
+      "text": "80 course entries across 9 departments, from the 2026-27 High School Profile matrix — the school publishes named courses for the high school only.",
+      "of": "930c6d65",
+      "at": [
+        "covenant-day:divisions[0].teaser"
+      ],
+      "t": "80 antre kou atravè 9 depatman, ki soti nan matris High School Profile 2026-27 la — lekòl la pibliye kou ki gen non pou lekòl segondè a sèlman."
+    },
+    {
+      "text": "Language & Literature",
+      "of": "a9d0ce54",
+      "at": [
+        "covenant-day:divisions[0].departments[0].courses[0].title"
+      ],
+      "t": "Lang & Literati"
+    },
+    {
+      "text": "CP",
+      "of": "66d9fa06",
+      "at": [
+        "covenant-day:divisions[0].departments[0].courses[0].tag",
+        "covenant-day:divisions[0].departments[0].courses[2].tag",
+        "covenant-day:divisions[0].departments[0].courses[4].tag",
+        "covenant-day:divisions[0].departments[0].courses[6].tag",
+        "covenant-day:divisions[0].departments[1].courses[0].tag",
+        "covenant-day:divisions[0].departments[1].courses[1].tag",
+        "covenant-day:divisions[0].departments[1].courses[3].tag",
+        "covenant-day:divisions[0].departments[1].courses[5].tag",
+        "covenant-day:divisions[0].departments[1].courses[8].tag",
+        "covenant-day:divisions[0].departments[2].courses[0].tag",
+        "covenant-day:divisions[0].departments[2].courses[2].tag",
+        "covenant-day:divisions[0].departments[2].courses[5].tag",
+        "covenant-day:divisions[0].departments[2].courses[6].tag",
+        "covenant-day:divisions[0].departments[3].courses[0].tag",
+        "covenant-day:divisions[0].departments[3].courses[2].tag",
+        "covenant-day:divisions[0].departments[3].courses[4].tag",
+        "covenant-day:divisions[0].departments[5].courses[0].tag",
+        "covenant-day:divisions[0].departments[5].courses[1].tag",
+        "covenant-day:divisions[0].departments[5].courses[5].tag",
+        "covenant-day:divisions[0].departments[5].courses[6].tag",
+        "covenant-day:divisions[0].departments[5].courses[9].tag",
+        "covenant-day:divisions[0].departments[6].courses[0].tag",
+        "covenant-day:divisions[0].departments[6].courses[2].tag",
+        "covenant-day:divisions[0].departments[6].courses[4].tag",
+        "covenant-day:divisions[0].departments[6].courses[5].tag",
+        "covenant-day:divisions[0].departments[6].courses[7].tag",
+        "covenant-day:divisions[0].departments[6].courses[8].tag",
+        "covenant-day:divisions[0].departments[6].courses[9].tag",
+        "covenant-day:divisions[0].departments[6].courses[10].tag",
+        "covenant-day:divisions[0].departments[6].courses[11].tag",
+        "covenant-day:divisions[0].departments[6].courses[12].tag",
+        "covenant-day:divisions[0].departments[6].courses[13].tag",
+        "covenant-day:divisions[0].departments[7].courses[0].tag",
+        "covenant-day:divisions[0].departments[7].courses[1].tag",
+        "covenant-day:divisions[0].departments[7].courses[2].tag",
+        "covenant-day:divisions[0].departments[7].courses[3].tag",
+        "covenant-day:divisions[0].departments[8].courses[0].tag"
+      ],
+      "t": "CP"
+    },
+    {
+      "text": "The entry course of the four-year English sequence.",
+      "of": "e594dfce",
+      "at": [
+        "covenant-day:divisions[0].departments[0].courses[0].description"
+      ],
+      "t": "Kou antre nan sekans Angle kat ane a."
+    },
+    {
+      "text": "Language & Literature Honors",
+      "of": "fce248d5",
+      "at": [
+        "covenant-day:divisions[0].departments[0].courses[1].title"
+      ],
+      "t": "Language & Literature Honors"
+    },
+    {
+      "text": "The honors track of the entry course.",
+      "of": "f17d756d",
+      "at": [
+        "covenant-day:divisions[0].departments[0].courses[1].description"
+      ],
+      "t": "Filyè honors kou antre a."
+    },
+    {
+      "text": "The American-literature year of the sequence.",
+      "of": "0ad71ed2",
+      "at": [
+        "covenant-day:divisions[0].departments[0].courses[2].description"
+      ],
+      "t": "Ane literati ameriken nan sekans lan."
+    },
+    {
+      "text": "American Literature Honors",
+      "of": "0ddef323",
+      "at": [
+        "covenant-day:divisions[0].departments[0].courses[3].title"
+      ],
+      "t": "American Literature Honors"
+    },
+    {
+      "text": "Honors American literature.",
+      "of": "49602555",
+      "at": [
+        "covenant-day:divisions[0].departments[0].courses[3].description"
+      ],
+      "t": "Honors literati ameriken."
+    },
+    {
+      "text": "Composition & Literature",
+      "of": "bc23eb3a",
+      "at": [
+        "covenant-day:divisions[0].departments[0].courses[4].title"
+      ],
+      "t": "Composition & Literature"
+    },
+    {
+      "text": "Composition-focused year of the sequence.",
+      "of": "aeee427d",
+      "at": [
+        "covenant-day:divisions[0].departments[0].courses[4].description"
+      ],
+      "t": "Ane sekans lan ki konsantre sou konpozisyon."
+    },
+    {
+      "text": "Composition & Literature Honors",
+      "of": "0ab6442b",
+      "at": [
+        "covenant-day:divisions[0].departments[0].courses[5].title"
+      ],
+      "t": "Composition & Literature Honors"
+    },
+    {
+      "text": "Honors composition and literature.",
+      "of": "d8fc0bb0",
+      "at": [
+        "covenant-day:divisions[0].departments[0].courses[5].description"
+      ],
+      "t": "Honors konpozisyon ak literati."
+    },
+    {
+      "text": "British Literature",
+      "of": "d5de682b",
+      "at": [
+        "covenant-day:divisions[0].departments[0].courses[6].title"
+      ],
+      "t": "British Literature"
+    },
+    {
+      "text": "The British-literature capstone of the CP track.",
+      "of": "dacb0462",
+      "at": [
+        "covenant-day:divisions[0].departments[0].courses[6].description"
+      ],
+      "t": "Kapston literati britanik filyè CP a."
+    },
+    {
+      "text": "Literature & Philosophy Honors",
+      "of": "90fef418",
+      "at": [
+        "covenant-day:divisions[0].departments[0].courses[7].title"
+      ],
+      "t": "Literature & Philosophy Honors"
+    },
+    {
+      "text": "The honors capstone — available for dual enrollment with Covenant College.",
+      "of": "c0351ecd",
+      "at": [
+        "covenant-day:divisions[0].departments[0].courses[7].description"
+      ],
+      "t": "Kapston honors la — disponib pou doub enskripsyon ak Covenant College."
+    },
+    {
+      "text": "AP English Language & Composition",
+      "of": "9306a94e",
+      "at": [
+        "covenant-day:divisions[0].departments[0].courses[8].title"
+      ],
+      "t": "AP English Language & Composition"
+    },
+    {
+      "text": "College-level rhetoric and argument; the exam is required.",
+      "of": "340a1c9f",
+      "at": [
+        "covenant-day:divisions[0].departments[0].courses[8].description"
+      ],
+      "t": "Retorik ak agiman nivo inivèsite; egzamen an obligatwa."
+    },
+    {
+      "text": "AP English Literature & Composition",
+      "of": "6c1a804b",
+      "at": [
+        "covenant-day:divisions[0].departments[0].courses[9].title"
+      ],
+      "t": "AP English Literature & Composition"
+    },
+    {
+      "text": "College-level literary analysis; the exam is required.",
+      "of": "90ef706f",
+      "at": [
+        "covenant-day:divisions[0].departments[0].courses[9].description"
+      ],
+      "t": "Analiz literè nivo inivèsite; egzamen an obligatwa."
+    },
+    {
+      "text": "The entry course of the math sequence.",
+      "of": "e76a6dd4",
+      "at": [
+        "covenant-day:divisions[0].departments[1].courses[0].description"
+      ],
+      "t": "Kou antre nan sekans matematik la."
+    },
+    {
+      "text": "Euclidean geometry in the CP track.",
+      "of": "2bb65091",
+      "at": [
+        "covenant-day:divisions[0].departments[1].courses[1].description"
+      ],
+      "t": "Jeyometri eklidyen nan filyè CP a."
+    },
+    {
+      "text": "The honors geometry year.",
+      "of": "22baf1ae",
+      "at": [
+        "covenant-day:divisions[0].departments[1].courses[2].description"
+      ],
+      "t": "Ane jeyometri honors la."
+    },
+    {
+      "text": "Algebra 2",
+      "of": "97b1ca15",
+      "at": [
+        "covenant-day:divisions[0].departments[1].courses[3].title"
+      ],
+      "t": "Algebra 2"
+    },
+    {
+      "text": "Second-year algebra.",
+      "of": "bfda8fc1",
+      "at": [
+        "covenant-day:divisions[0].departments[1].courses[3].description"
+      ],
+      "t": "Aljèb dezyèm ane."
+    },
+    {
+      "text": "Algebra 2 Honors",
+      "of": "4aec5d7a",
+      "at": [
+        "covenant-day:divisions[0].departments[1].courses[4].title"
+      ],
+      "t": "Algebra 2 Honors"
+    },
+    {
+      "text": "Honors second-year algebra.",
+      "of": "18a75f50",
+      "at": [
+        "covenant-day:divisions[0].departments[1].courses[4].description"
+      ],
+      "t": "Honors aljèb dezyèm ane."
+    },
+    {
+      "text": "Functions and trigonometry before calculus.",
+      "of": "bd5bfb9f",
+      "at": [
+        "covenant-day:divisions[0].departments[1].courses[5].description"
+      ],
+      "t": "Fonksyon ak trigonometri anvan kalkil."
+    },
+    {
+      "text": "The honors pre-calculus year.",
+      "of": "c25b1426",
+      "at": [
+        "covenant-day:divisions[0].departments[1].courses[6].description"
+      ],
+      "t": "Ane pre-kalkil honors la."
+    },
+    {
+      "text": "Calculus Honors",
+      "of": "7778afe6",
+      "at": [
+        "covenant-day:divisions[0].departments[1].courses[7].title"
+      ],
+      "t": "Calculus Honors"
+    },
+    {
+      "text": "Honors calculus — available for dual enrollment with Covenant College.",
+      "of": "773b4637",
+      "at": [
+        "covenant-day:divisions[0].departments[1].courses[7].description"
+      ],
+      "t": "Honors kalkil — disponib pou doub enskripsyon ak Covenant College."
+    },
+    {
+      "text": "Introductory statistics.",
+      "of": "b729daf0",
+      "at": [
+        "covenant-day:divisions[0].departments[1].courses[8].description"
+      ],
+      "t": "Estatistik entwodiksyon."
+    },
+    {
+      "text": "Statistics Honors",
+      "of": "b7b12c3b",
+      "at": [
+        "covenant-day:divisions[0].departments[1].courses[9].title"
+      ],
+      "t": "Statistics Honors"
+    },
+    {
+      "text": "Honors statistics — available for dual enrollment with Covenant College.",
+      "of": "534c8b8a",
+      "at": [
+        "covenant-day:divisions[0].departments[1].courses[9].description"
+      ],
+      "t": "Honors estatistik — disponib pou doub enskripsyon ak Covenant College."
+    },
+    {
+      "text": "College-level differential and integral calculus.",
+      "of": "cf28429f",
+      "at": [
+        "covenant-day:divisions[0].departments[1].courses[10].description"
+      ],
+      "t": "Kalkil diferansyèl ak entegral nivo inivèsite."
+    },
+    {
+      "text": "The entry lab science.",
+      "of": "95a63c51",
+      "at": [
+        "covenant-day:divisions[0].departments[2].courses[0].description"
+      ],
+      "t": "Syans laboratwa antre a."
+    },
+    {
+      "text": "Honors biology.",
+      "of": "130ae067",
+      "at": [
+        "covenant-day:divisions[0].departments[2].courses[1].description"
+      ],
+      "t": "Honors byoloji."
+    },
+    {
+      "text": "Second lab science of the sequence.",
+      "of": "f7fae2b7",
+      "at": [
+        "covenant-day:divisions[0].departments[2].courses[2].description"
+      ],
+      "t": "Dezyèm syans laboratwa sekans lan."
+    },
+    {
+      "text": "Honors chemistry.",
+      "of": "49b89254",
+      "at": [
+        "covenant-day:divisions[0].departments[2].courses[3].description"
+      ],
+      "t": "Honors chimi."
+    },
+    {
+      "text": "Anatomy Honors",
+      "of": "f9404247",
+      "at": [
+        "covenant-day:divisions[0].departments[2].courses[4].title"
+      ],
+      "t": "Anatomy Honors"
+    },
+    {
+      "text": "Honors anatomy and physiology.",
+      "of": "2b0d94c5",
+      "at": [
+        "covenant-day:divisions[0].departments[2].courses[4].description"
+      ],
+      "t": "Honors anatomi ak fizyoloji."
+    },
+    {
+      "text": "The half-unit health requirement.",
+      "of": "1c28bb0f",
+      "at": [
+        "covenant-day:divisions[0].departments[2].courses[5].description"
+      ],
+      "t": "Egzijans sante mwatye-inite a."
+    },
+    {
+      "text": "Sports & Exercise Science",
+      "of": "21b95084",
+      "at": [
+        "covenant-day:divisions[0].departments[2].courses[6].title"
+      ],
+      "t": "Sports & Exercise Science"
+    },
+    {
+      "text": "Applied exercise science.",
+      "of": "a9cc6460",
+      "at": [
+        "covenant-day:divisions[0].departments[2].courses[6].description"
+      ],
+      "t": "Syans egzèsis aplike."
+    },
+    {
+      "text": "Sports & Exercise Science Honors",
+      "of": "27b5c5a5",
+      "at": [
+        "covenant-day:divisions[0].departments[2].courses[7].title"
+      ],
+      "t": "Sports & Exercise Science Honors"
+    },
+    {
+      "text": "The honors track of exercise science.",
+      "of": "2efb66f9",
+      "at": [
+        "covenant-day:divisions[0].departments[2].courses[7].description"
+      ],
+      "t": "Filyè honors syans egzèsis la."
+    },
+    {
+      "text": "College-level chemistry.",
+      "of": "24a62a4b",
+      "at": [
+        "covenant-day:divisions[0].departments[2].courses[9].description"
+      ],
+      "t": "Chimi nivo inivèsite."
+    },
+    {
+      "text": "AP Physics",
+      "of": "80b48e95",
+      "at": [
+        "covenant-day:divisions[0].departments[2].courses[11].title"
+      ],
+      "t": "AP Physics"
+    },
+    {
+      "text": "College-level physics.",
+      "of": "ff2ff916",
+      "at": [
+        "covenant-day:divisions[0].departments[2].courses[11].description"
+      ],
+      "t": "Fizik nivo inivèsite."
+    },
+    {
+      "text": "The entry history course.",
+      "of": "bb6ad781",
+      "at": [
+        "covenant-day:divisions[0].departments[3].courses[0].description"
+      ],
+      "t": "Kou istwa antre a."
+    },
+    {
+      "text": "World History Honors",
+      "of": "ffb5e8d8",
+      "at": [
+        "covenant-day:divisions[0].departments[3].courses[1].title",
+        "davidson-day:divisions[2].departments[2].courses[2].title"
+      ],
+      "t": "World History Honors"
+    },
+    {
+      "text": "Honors world history.",
+      "of": "8fde71ea",
+      "at": [
+        "covenant-day:divisions[0].departments[3].courses[1].description"
+      ],
+      "t": "Honors istwa mondyal."
+    },
+    {
+      "text": "US History",
+      "of": "9aeceb25",
+      "at": [
+        "covenant-day:divisions[0].departments[3].courses[2].title"
+      ],
+      "t": "US History"
+    },
+    {
+      "text": "The American-history year.",
+      "of": "4fbe337e",
+      "at": [
+        "covenant-day:divisions[0].departments[3].courses[2].description"
+      ],
+      "t": "Ane istwa ameriken an."
+    },
+    {
+      "text": "US History Honors",
+      "of": "c72348aa",
+      "at": [
+        "covenant-day:divisions[0].departments[3].courses[3].title"
+      ],
+      "t": "US History Honors"
+    },
+    {
+      "text": "Honors US history.",
+      "of": "373e89ea",
+      "at": [
+        "covenant-day:divisions[0].departments[3].courses[3].description"
+      ],
+      "t": "Honors istwa ameriken."
+    },
+    {
+      "text": "Government & Economics",
+      "of": "eddf407a",
+      "at": [
+        "covenant-day:divisions[0].departments[3].courses[4].title"
+      ],
+      "t": "Government & Economics"
+    },
+    {
+      "text": "The civics-and-economics capstone.",
+      "of": "7b0b0125",
+      "at": [
+        "covenant-day:divisions[0].departments[3].courses[4].description"
+      ],
+      "t": "Kapston sivik-ak-ekonomi a."
+    },
+    {
+      "text": "Government & Economics Honors",
+      "of": "c8e369eb",
+      "at": [
+        "covenant-day:divisions[0].departments[3].courses[5].title"
+      ],
+      "t": "Government & Economics Honors"
+    },
+    {
+      "text": "The honors capstone.",
+      "of": "0155360c",
+      "at": [
+        "covenant-day:divisions[0].departments[3].courses[5].description"
+      ],
+      "t": "Kapston honors la."
+    },
+    {
+      "text": "Psychology Honors",
+      "of": "2047dc25",
+      "at": [
+        "covenant-day:divisions[0].departments[3].courses[6].title"
+      ],
+      "t": "Psychology Honors"
+    },
+    {
+      "text": "Honors psychology.",
+      "of": "05020b75",
+      "at": [
+        "covenant-day:divisions[0].departments[3].courses[6].description"
+      ],
+      "t": "Honors sikoloji."
+    },
+    {
+      "text": "AP US History",
+      "of": "6ac84760",
+      "at": [
+        "covenant-day:divisions[0].departments[3].courses[7].title"
+      ],
+      "t": "AP US History"
+    },
+    {
+      "text": "College-level American history.",
+      "of": "4eab3535",
+      "at": [
+        "covenant-day:divisions[0].departments[3].courses[7].description"
+      ],
+      "t": "Istwa ameriken nivo inivèsite."
+    },
+    {
+      "text": "AP Government & Politics: US",
+      "of": "1cae4d1e",
+      "at": [
+        "covenant-day:divisions[0].departments[3].courses[8].title"
+      ],
+      "t": "AP Government & Politics: US"
+    },
+    {
+      "text": "College-level US government.",
+      "of": "7fbbaa78",
+      "at": [
+        "covenant-day:divisions[0].departments[3].courses[8].description"
+      ],
+      "t": "Gouvènman ameriken nivo inivèsite."
+    },
+    {
+      "text": "Bible (each year)",
+      "of": "16edf300",
+      "at": [
+        "covenant-day:divisions[0].departments[4].courses[0].title"
+      ],
+      "t": "Bib (chak ane)"
+    },
+    {
+      "text": "Gr 9–12",
+      "of": "8a72ad6f",
+      "at": [
+        "covenant-day:divisions[0].departments[4].courses[0].tag",
+        "davidson-day:divisions[2].departments[1].courses[0].tag",
+        "davidson-day:divisions[2].departments[1].courses[2].tag",
+        "davidson-day:divisions[2].departments[4].courses[0].tag",
+        "davidson-day:divisions[2].departments[4].courses[6].tag"
+      ],
+      "t": "Gr 9–12"
+    },
+    {
+      "text": "Three graduation units; students must be enrolled in a Bible course every year. The profile matrix prints no per-year titles.",
+      "of": "1689b225",
+      "at": [
+        "covenant-day:divisions[0].departments[4].courses[0].description"
+      ],
+      "t": "Twa inite gradyasyon; elèv yo dwe enskri nan yon kou Bib chak ane. Matris pwofil la pa enprime okenn tit pa ane."
+    },
+    {
+      "text": "Spanish 1",
+      "of": "e09b07b0",
+      "at": [
+        "covenant-day:divisions[0].departments[5].courses[0].title"
+      ],
+      "t": "Spanish 1"
+    },
+    {
+      "text": "First-year Spanish.",
+      "of": "a3c9ba01",
+      "at": [
+        "covenant-day:divisions[0].departments[5].courses[0].description"
+      ],
+      "t": "Panyòl premye ane."
+    },
+    {
+      "text": "Spanish 2",
+      "of": "e39b0c69",
+      "at": [
+        "covenant-day:divisions[0].departments[5].courses[1].title"
+      ],
+      "t": "Spanish 2"
+    },
+    {
+      "text": "Second-year Spanish.",
+      "of": "816bae1d",
+      "at": [
+        "covenant-day:divisions[0].departments[5].courses[1].description"
+      ],
+      "t": "Panyòl dezyèm ane."
+    },
+    {
+      "text": "Spanish 3 Honors",
+      "of": "af387d27",
+      "at": [
+        "covenant-day:divisions[0].departments[5].courses[2].title"
+      ],
+      "t": "Spanish 3 Honors"
+    },
+    {
+      "text": "Third-year Spanish at honors level.",
+      "of": "bc53fdae",
+      "at": [
+        "covenant-day:divisions[0].departments[5].courses[2].description"
+      ],
+      "t": "Panyòl twazyèm ane nan nivo honors."
+    },
+    {
+      "text": "Spanish 4 Honors",
+      "of": "f62a306c",
+      "at": [
+        "covenant-day:divisions[0].departments[5].courses[3].title"
+      ],
+      "t": "Spanish 4 Honors"
+    },
+    {
+      "text": "Fourth-year Spanish at honors level.",
+      "of": "1a545c25",
+      "at": [
+        "covenant-day:divisions[0].departments[5].courses[3].description"
+      ],
+      "t": "Panyòl katriyèm ane nan nivo honors."
+    },
+    {
+      "text": "AP Spanish",
+      "of": "849a5d8c",
+      "at": [
+        "covenant-day:divisions[0].departments[5].courses[4].title"
+      ],
+      "t": "AP Spanish"
+    },
+    {
+      "text": "College-level Spanish language.",
+      "of": "0b54b9fd",
+      "at": [
+        "covenant-day:divisions[0].departments[5].courses[4].description"
+      ],
+      "t": "Lang Panyòl nivo inivèsite."
+    },
+    {
+      "text": "French 1",
+      "of": "1572fc2a",
+      "at": [
+        "covenant-day:divisions[0].departments[5].courses[5].title"
+      ],
+      "t": "French 1"
+    },
+    {
+      "text": "First-year French.",
+      "of": "2e708103",
+      "at": [
+        "covenant-day:divisions[0].departments[5].courses[5].description"
+      ],
+      "t": "Franse premye ane."
+    },
+    {
+      "text": "French 2",
+      "of": "1472fa97",
+      "at": [
+        "covenant-day:divisions[0].departments[5].courses[6].title"
+      ],
+      "t": "French 2"
+    },
+    {
+      "text": "Second-year French.",
+      "of": "26a43227",
+      "at": [
+        "covenant-day:divisions[0].departments[5].courses[6].description"
+      ],
+      "t": "Franse dezyèm ane."
+    },
+    {
+      "text": "French 3 Honors",
+      "of": "d3cbfb25",
+      "at": [
+        "covenant-day:divisions[0].departments[5].courses[7].title"
+      ],
+      "t": "French 3 Honors"
+    },
+    {
+      "text": "Third-year French at honors level.",
+      "of": "40e9b1e6",
+      "at": [
+        "covenant-day:divisions[0].departments[5].courses[7].description"
+      ],
+      "t": "Franse twazyèm ane nan nivo honors."
+    },
+    {
+      "text": "French 4 Honors",
+      "of": "aa3ea2d6",
+      "at": [
+        "covenant-day:divisions[0].departments[5].courses[8].title"
+      ],
+      "t": "French 4 Honors"
+    },
+    {
+      "text": "Fourth-year French at honors level.",
+      "of": "0048f437",
+      "at": [
+        "covenant-day:divisions[0].departments[5].courses[8].description"
+      ],
+      "t": "Franse katriyèm ane nan nivo honors."
+    },
+    {
+      "text": "Second-year Latin (the sequence starts in middle school).",
+      "of": "ffc01eaf",
+      "at": [
+        "covenant-day:divisions[0].departments[5].courses[9].description"
+      ],
+      "t": "Laten dezyèm ane (sekans lan kòmanse nan middle school)."
+    },
+    {
+      "text": "Latin 3 Honors",
+      "of": "318596a1",
+      "at": [
+        "covenant-day:divisions[0].departments[5].courses[10].title"
+      ],
+      "t": "Latin 3 Honors"
+    },
+    {
+      "text": "Third-year Latin at honors level.",
+      "of": "1211abb0",
+      "at": [
+        "covenant-day:divisions[0].departments[5].courses[10].description"
+      ],
+      "t": "Laten twazyèm ane nan nivo honors."
+    },
+    {
+      "text": "Latin 4 Honors",
+      "of": "3786e58a",
+      "at": [
+        "covenant-day:divisions[0].departments[5].courses[11].title"
+      ],
+      "t": "Latin 4 Honors"
+    },
+    {
+      "text": "Fourth-year Latin at honors level.",
+      "of": "38baadab",
+      "at": [
+        "covenant-day:divisions[0].departments[5].courses[11].description"
+      ],
+      "t": "Laten katriyèm ane nan nivo honors."
+    },
+    {
+      "text": "The high school choral ensemble as a credit course.",
+      "of": "cdc34f37",
+      "at": [
+        "covenant-day:divisions[0].departments[6].courses[0].description"
+      ],
+      "t": "Ansanm koral lekòl segondè a kòm yon kou kredi."
+    },
+    {
+      "text": "The honors choral track.",
+      "of": "d6271f17",
+      "at": [
+        "covenant-day:divisions[0].departments[6].courses[1].description"
+      ],
+      "t": "Filyè koral honors la."
+    },
+    {
+      "text": "The concert band as a credit course.",
+      "of": "24e64e54",
+      "at": [
+        "covenant-day:divisions[0].departments[6].courses[2].description"
+      ],
+      "t": "Bann konsè a kòm yon kou kredi."
+    },
+    {
+      "text": "Symphonic Band Honors",
+      "of": "2c4523b1",
+      "at": [
+        "covenant-day:divisions[0].departments[6].courses[3].title"
+      ],
+      "t": "Symphonic Band Honors"
+    },
+    {
+      "text": "The honors band track.",
+      "of": "d2a61b93",
+      "at": [
+        "covenant-day:divisions[0].departments[6].courses[3].description"
+      ],
+      "t": "Filyè bann honors la."
+    },
+    {
+      "text": "The theatre performance course.",
+      "of": "8ac10604",
+      "at": [
+        "covenant-day:divisions[0].departments[6].courses[4].description"
+      ],
+      "t": "Kou pèfòmans teyat la."
+    },
+    {
+      "text": "Theatre Tech",
+      "of": "f8472d64",
+      "at": [
+        "covenant-day:divisions[0].departments[6].courses[5].title"
+      ],
+      "t": "Theatre Tech"
+    },
+    {
+      "text": "Technical theatre — sets, lighting, production.",
+      "of": "4e2c17db",
+      "at": [
+        "covenant-day:divisions[0].departments[6].courses[5].description"
+      ],
+      "t": "Teyat teknik — dekò, ekleraj, pwodiksyon."
+    },
+    {
+      "text": "Auditioned Theatre Honors",
+      "of": "9774b985",
+      "at": [
+        "covenant-day:divisions[0].departments[6].courses[6].title"
+      ],
+      "t": "Auditioned Theatre Honors"
+    },
+    {
+      "text": "The audition-entry honors company, with Performance or Technical tracks.",
+      "of": "cb50f90e",
+      "at": [
+        "covenant-day:divisions[0].departments[6].courses[6].description"
+      ],
+      "t": "Konpayi honors ki antre pa odisyon an, ak filyè Performance oswa Technical."
+    },
+    {
+      "text": "Worship Leadership",
+      "of": "a7167594",
+      "at": [
+        "covenant-day:divisions[0].departments[6].courses[7].title"
+      ],
+      "t": "Worship Leadership"
+    },
+    {
+      "text": "Credit-bearing worship-arts leadership.",
+      "of": "4b8a2121",
+      "at": [
+        "covenant-day:divisions[0].departments[6].courses[7].description"
+      ],
+      "t": "Lidèchip atizay adorasyon ki bay kredi."
+    },
+    {
+      "text": "Intro to Art",
+      "of": "56095657",
+      "at": [
+        "covenant-day:divisions[0].departments[6].courses[8].title"
+      ],
+      "t": "Intro to Art"
+    },
+    {
+      "text": "The entry visual-arts course.",
+      "of": "c0d63890",
+      "at": [
+        "covenant-day:divisions[0].departments[6].courses[8].description"
+      ],
+      "t": "Kou atizay vizyèl antre a."
+    },
+    {
+      "text": "Art 2D/3D",
+      "of": "5fc8b32a",
+      "at": [
+        "covenant-day:divisions[0].departments[6].courses[9].title"
+      ],
+      "t": "Art 2D/3D"
+    },
+    {
+      "text": "Second-level studio art in 2D and 3D tracks.",
+      "of": "d2857cc4",
+      "at": [
+        "covenant-day:divisions[0].departments[6].courses[9].description"
+      ],
+      "t": "Atizay estidyo dezyèm nivo nan filyè 2D ak 3D."
+    },
+    {
+      "text": "Ceramics",
+      "of": "fed5bcac",
+      "at": [
+        "covenant-day:divisions[0].departments[6].courses[10].title"
+      ],
+      "t": "Ceramics"
+    },
+    {
+      "text": "Studio ceramics.",
+      "of": "da38a16a",
+      "at": [
+        "covenant-day:divisions[0].departments[6].courses[10].description"
+      ],
+      "t": "Seramik estidyo."
+    },
+    {
+      "text": "Digital photography.",
+      "of": "51fb3776",
+      "at": [
+        "covenant-day:divisions[0].departments[6].courses[11].description"
+      ],
+      "t": "Fotografi dijital."
+    },
+    {
+      "text": "Graphic Design",
+      "of": "adf439eb",
+      "at": [
+        "covenant-day:divisions[0].departments[6].courses[12].title"
+      ],
+      "t": "Graphic Design"
+    },
+    {
+      "text": "Design coursework.",
+      "of": "ef177b59",
+      "at": [
+        "covenant-day:divisions[0].departments[6].courses[12].description"
+      ],
+      "t": "Travay kou konsepsyon."
+    },
+    {
+      "text": "Producing the school yearbook.",
+      "of": "2c363213",
+      "at": [
+        "covenant-day:divisions[0].departments[6].courses[13].description"
+      ],
+      "t": "Pwodwi anyè lekòl la."
+    },
+    {
+      "text": "Yearbook Honors",
+      "of": "1d2251b6",
+      "at": [
+        "covenant-day:divisions[0].departments[6].courses[14].title",
+        "davidson-day:divisions[2].departments[0].courses[10].title"
+      ],
+      "t": "Yearbook Honors"
+    },
+    {
+      "text": "Leadership roles on the yearbook staff.",
+      "of": "4baf69b3",
+      "at": [
+        "covenant-day:divisions[0].departments[6].courses[14].description"
+      ],
+      "t": "Wòl lidèchip nan ekip anyè a."
+    },
+    {
+      "text": "Studio Art Honors",
+      "of": "87a5c96f",
+      "at": [
+        "covenant-day:divisions[0].departments[6].courses[15].title"
+      ],
+      "t": "Studio Art Honors"
+    },
+    {
+      "text": "The pre-AP studio year.",
+      "of": "c7805e18",
+      "at": [
+        "covenant-day:divisions[0].departments[6].courses[15].description"
+      ],
+      "t": "Ane estidyo pre-AP la."
+    },
+    {
+      "text": "AP Studio Art",
+      "of": "c75dc683",
+      "at": [
+        "covenant-day:divisions[0].departments[6].courses[16].title",
+        "davidson-day:divisions[2].departments[5].courses[6].title"
+      ],
+      "t": "AP Studio Art"
+    },
+    {
+      "text": "The AP portfolio year, shown at the Art Talk exhibit.",
+      "of": "94a95dbd",
+      "at": [
+        "covenant-day:divisions[0].departments[6].courses[16].description"
+      ],
+      "t": "Ane pòtfolyo AP la, montre nan ekspozisyon Art Talk la."
+    },
+    {
+      "text": "Restoration & Sustainability",
+      "of": "e088ebd6",
+      "at": [
+        "covenant-day:divisions[0].departments[7].name"
+      ],
+      "t": "Restoration & Sustainability"
+    },
+    {
+      "text": "Augustine Literacy Project",
+      "of": "1ea8810a",
+      "at": [
+        "covenant-day:divisions[0].departments[7].courses[0].title"
+      ],
+      "t": "Augustine Literacy Project"
+    },
+    {
+      "text": "Training students as literacy tutors for the community.",
+      "of": "a133cf4a",
+      "at": [
+        "covenant-day:divisions[0].departments[7].courses[0].description"
+      ],
+      "t": "Fòme elèv kòm titè alfabetizasyon pou kominote a."
+    },
+    {
+      "text": "Intercultural Practicum",
+      "of": "7fc5330f",
+      "at": [
+        "covenant-day:divisions[0].departments[7].courses[1].title"
+      ],
+      "t": "Intercultural Practicum"
+    },
+    {
+      "text": "Applied cross-cultural engagement.",
+      "of": "7de1b888",
+      "at": [
+        "covenant-day:divisions[0].departments[7].courses[1].description"
+      ],
+      "t": "Angajman entèkiltirèl aplike."
+    },
+    {
+      "text": "Introduction to Engineering",
+      "of": "1c2acea9",
+      "at": [
+        "covenant-day:divisions[0].departments[7].courses[2].title"
+      ],
+      "t": "Introduction to Engineering"
+    },
+    {
+      "text": "The department’s engineering entry.",
+      "of": "64f53171",
+      "at": [
+        "covenant-day:divisions[0].departments[7].courses[2].description"
+      ],
+      "t": "Antre enjenyeri depatman an."
+    },
+    {
+      "text": "Restore525",
+      "of": "bf5dde7d",
+      "at": [
+        "covenant-day:divisions[0].departments[7].courses[3].title"
+      ],
+      "t": "Restore525"
+    },
+    {
+      "text": "The department’s service-build program as a credit course.",
+      "of": "1a98bd31",
+      "at": [
+        "covenant-day:divisions[0].departments[7].courses[3].description"
+      ],
+      "t": "Pwogram sèvis-konstriksyon depatman an kòm yon kou kredi."
+    },
+    {
+      "text": "PE",
+      "of": "2c0000fe",
+      "at": [
+        "covenant-day:divisions[0].departments[8].name"
+      ],
+      "t": "PE"
+    },
+    {
+      "text": "Strength & Fitness",
+      "of": "9a8bf562",
+      "at": [
+        "covenant-day:divisions[0].departments[8].courses[0].title"
+      ],
+      "t": "Strength & Fitness"
+    },
+    {
+      "text": "The Webb Fitness Center course; a PE credit is also earnable via two school sport seasons.",
+      "of": "5fdc624f",
+      "at": [
+        "covenant-day:divisions[0].departments[8].courses[0].description"
+      ],
+      "t": "Kou Webb Fitness Center la; yon kredi PE ka genyen tou atravè de sezon espò lekòl."
+    },
+    {
       "text": "Age 2 – Grade 4",
       "of": "e49b7c90",
       "at": [
@@ -14830,31 +16038,12 @@
       "t": "Elèv yo pwodui ane-liv Revolution lan pandan y ap aprann ekri jounalistik, fotografi, entèvyou, ak vann piblisite."
     },
     {
-      "text": "Yearbook Honors",
-      "of": "1d2251b6",
-      "at": [
-        "davidson-day:divisions[2].departments[0].courses[10].title"
-      ],
-      "t": "Yearbook Honors"
-    },
-    {
       "text": "Advanced yearbook students take leadership roles in theme, layout, staff training, and business campaigns.",
       "of": "d0bc78c0",
       "at": [
         "davidson-day:divisions[2].departments[0].courses[10].description"
       ],
       "t": "Elèv ane-liv avanse pran wòl lidèchip nan tèm, mizanpaj, fòmasyon estaf, ak kanpay biznis."
-    },
-    {
-      "text": "Gr 9–12",
-      "of": "8a72ad6f",
-      "at": [
-        "davidson-day:divisions[2].departments[1].courses[0].tag",
-        "davidson-day:divisions[2].departments[1].courses[2].tag",
-        "davidson-day:divisions[2].departments[4].courses[0].tag",
-        "davidson-day:divisions[2].departments[4].courses[6].tag"
-      ],
-      "t": "Gr 9–12"
     },
     {
       "text": "Introduces the fundamental concepts of algebra and their multiple representations, including linear and quadratic equations and polynomials.",
@@ -15031,14 +16220,6 @@
         "davidson-day:divisions[2].departments[2].courses[1].description"
       ],
       "t": "Kou Civics la ak plis rigè analitik, entèpretasyon sous prensipal, ak kesyon ekri nan style AP."
-    },
-    {
-      "text": "World History Honors",
-      "of": "ffb5e8d8",
-      "at": [
-        "davidson-day:divisions[2].departments[2].courses[2].title"
-      ],
-      "t": "World History Honors"
     },
     {
       "text": "The required sophomore world-history survey.",
@@ -15575,14 +16756,6 @@
         "davidson-day:divisions[2].departments[5].courses[5].description"
       ],
       "t": "Elèv klas siperyè devlope yon plan pwojè endividyalize pou tout ane a ak enstriktè a nan yon medya oswa sijè yo chwazi."
-    },
-    {
-      "text": "AP Studio Art",
-      "of": "c75dc683",
-      "at": [
-        "davidson-day:divisions[2].departments[5].courses[6].title"
-      ],
-      "t": "AP Studio Art"
     },
     {
       "text": "Students develop a portfolio of works representing a sustained investigation into a common visual theme for College Board judges.",

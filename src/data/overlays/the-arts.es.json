@@ -140,6 +140,7 @@
         "charlotte-christian:ladder.divisions[2].grades",
         "charlotte-country-day:ladder.divisions[2].grades",
         "cannon:ladder.divisions[2].grades",
+        "covenant-day:ladder.divisions[2].grades",
         "davidson-day:ladder.divisions[2].grades"
       ]
     },
@@ -294,7 +295,8 @@
         "providence-day:visual.exhibits[2].when",
         "charlotte-latin:theatre.season[1].season",
         "charlotte-christian:visual.exhibits[0].when",
-        "charlotte-country-day:theatre.season[2].season"
+        "charlotte-country-day:theatre.season[2].season",
+        "covenant-day:visual.exhibits[1].when"
       ]
     },
     {
@@ -1306,7 +1308,8 @@
       "t": "marzo",
       "of": "c0846390",
       "at": [
-        "charlotte-latin:visual.exhibits[1].when"
+        "charlotte-latin:visual.exhibits[1].when",
+        "covenant-day:theatre.season[1].season"
       ]
     },
     {
@@ -1320,7 +1323,8 @@
       "t": "abril",
       "of": "98dbac97",
       "at": [
-        "charlotte-latin:visual.exhibits[2].when"
+        "charlotte-latin:visual.exhibits[2].when",
+        "covenant-day:theatre.season[2].season"
       ]
     },
     {
@@ -1959,7 +1963,8 @@
       "t": "Todo el año",
       "of": "d3e50e09",
       "at": [
-        "charlotte-christian:visual.exhibits[1].when"
+        "charlotte-christian:visual.exhibits[1].when",
+        "covenant-day:theatre.season[3].season"
       ]
     },
     {
@@ -1973,7 +1978,8 @@
       "t": "Regional",
       "of": "a7aff008",
       "at": [
-        "charlotte-christian:visual.exhibits[2].when"
+        "charlotte-christian:visual.exhibits[2].when",
+        "covenant-day:visual.exhibits[2].when"
       ]
     },
     {
@@ -1987,7 +1993,8 @@
       "t": "Nacional",
       "of": "746c84f7",
       "at": [
-        "charlotte-christian:visual.exhibits[3].when"
+        "charlotte-christian:visual.exhibits[3].when",
+        "covenant-day:visual.exhibits[3].when"
       ]
     },
     {
@@ -3622,6 +3629,601 @@
       "of": "26ddf6e6",
       "at": [
         "cannon:verdict.ask[7]"
+      ]
+    },
+    {
+      "t": "Una escalera JK–12 con una columna vertebral de música de culto: arte integrado desde junior kindergarten, secuencial desde el grado 1 y conjuntos desde el grado 6.",
+      "of": "14f38ef8",
+      "at": [
+        "covenant-day:ladder.headline"
+      ]
+    },
+    {
+      "t": "Se exige un crédito de Fine Arts para graduarse, y hay bandas de culto tanto en middle como en high school — un peldaño que ningún otro colegio de aquí tiene.",
+      "of": "579a82e1",
+      "at": [
+        "covenant-day:ladder.subhead"
+      ]
+    },
+    {
+      "t": "amplitud del programa",
+      "of": "04d999f5",
+      "at": [
+        "covenant-day:ladder.stats[0].label"
+      ]
+    },
+    {
+      "t": "conjuntos con nombre propio",
+      "of": "56e0a872",
+      "at": [
+        "covenant-day:ladder.stats[1].label"
+      ]
+    },
+    {
+      "t": "producciones con entradas al año",
+      "of": "e8a29c3c",
+      "at": [
+        "covenant-day:ladder.stats[2].label"
+      ]
+    },
+    {
+      "t": "requisito de Fine Arts para graduarse",
+      "of": "fbe8dc9c",
+      "at": [
+        "covenant-day:ladder.stats[3].label"
+      ]
+    },
+    {
+      "t": "JK–5",
+      "of": "e010cae2",
+      "at": [
+        "covenant-day:ladder.divisions[0].grades"
+      ]
+    },
+    {
+      "t": "General Music de JK a 4.º, con arte integrado en JK–K y secuencial desde el grado 1",
+      "of": "e919e67a",
+      "at": [
+        "covenant-day:ladder.divisions[0].items[0]"
+      ]
+    },
+    {
+      "t": "Introduction to Choir and Band en el grado 5",
+      "of": "f653857a",
+      "at": [
+        "covenant-day:ladder.divisions[0].items[1]"
+      ]
+    },
+    {
+      "t": "CDS Children’s Choir, grados 3–5",
+      "of": "b0c96bc4",
+      "at": [
+        "covenant-day:ladder.divisions[0].items[2]"
+      ]
+    },
+    {
+      "t": "6–8",
+      "of": "b7020a62",
+      "at": [
+        "covenant-day:ladder.divisions[1].grades"
+      ]
+    },
+    {
+      "t": "MS Band, MS Choir y MS Worship Band",
+      "of": "69e5fc0d",
+      "at": [
+        "covenant-day:ladder.divisions[1].items[0]"
+      ]
+    },
+    {
+      "t": "Drama para los grados 6–8, que alimenta el MS Musical de octubre",
+      "of": "63362367",
+      "at": [
+        "covenant-day:ladder.divisions[1].items[1]"
+      ]
+    },
+    {
+      "t": "Adjudicaciones de Music in the Parks — calificaciones Superior tres años seguidos (2021–23)",
+      "of": "fd3e6412",
+      "at": [
+        "covenant-day:ladder.divisions[1].items[2]"
+      ]
+    },
+    {
+      "t": "Symphonic Band, HS Choir, HS Worship Band y HS A Cappella",
+      "of": "830c8cb1",
+      "at": [
+        "covenant-day:ladder.divisions[2].items[0]"
+      ]
+    },
+    {
+      "t": "Theater I–II, Theatre Tech y Honors Auditioned Theatre (itinerario de Performance o Technical)",
+      "of": "7593f8ee",
+      "at": [
+        "covenant-day:ladder.divisions[2].items[1]"
+      ]
+    },
+    {
+      "t": "Itinerario visual desde Intro to Art hasta AP Studio Art; Worship Leadership como curso con créditos",
+      "of": "77061b3a",
+      "at": [
+        "covenant-day:ladder.divisions[2].items[2]"
+      ]
+    },
+    {
+      "t": "Apoyo",
+      "of": "6be6f488",
+      "at": [
+        "covenant-day:ladder.enrichment[0].label"
+      ]
+    },
+    {
+      "t": "La Covenant Arts Association financia y dota de personal todas las áreas artísticas mediante cuatro niveles de mecenazgo ($100–$1,000), con acceso anticipado de preventa a las tres producciones anuales.",
+      "of": "fa18aac3",
+      "at": [
+        "covenant-day:ladder.enrichment[0].text"
+      ]
+    },
+    {
+      "t": "Sociedades de honor",
+      "of": "fa4511f1",
+      "at": [
+        "covenant-day:ladder.enrichment[1].label"
+      ]
+    },
+    {
+      "t": "Tri-M Music Honor Society y un capítulo de la International Thespian Society.",
+      "of": "cbb60c78",
+      "at": [
+        "covenant-day:ladder.enrichment[1].text"
+      ]
+    },
+    {
+      "t": "Misión declarada",
+      "of": "f5b1c744",
+      "at": [
+        "covenant-day:ladder.enrichment[2].label"
+      ]
+    },
+    {
+      "t": "Las artes son \"a crucial part of the curriculum\", construidas sobre cuatro componentes: fundamentos, expresión creativa, relevancia histórica y cultural, y evaluación crítica y respuesta.",
+      "of": "d92dcd93",
+      "at": [
+        "covenant-day:ladder.enrichment[2].text"
+      ]
+    },
+    {
+      "t": "Dos premios Blumey y ocho reconocimientos entre 2013 y 2019, más una finalista del National Shakespeare Competition en 2025.",
+      "of": "1689a8e0",
+      "at": [
+        "covenant-day:theatre.headline"
+      ]
+    },
+    {
+      "t": "Tres producciones con venta de entradas al año en el Lions Theater de 200 butacas, con un concurso de Shakespeare propio que alimenta el nacional.",
+      "of": "e34530f0",
+      "at": [
+        "covenant-day:theatre.subhead"
+      ]
+    },
+    {
+      "t": "Octubre",
+      "of": "ecf21807",
+      "at": [
+        "covenant-day:theatre.season[0].season"
+      ]
+    },
+    {
+      "t": "MS Musical",
+      "of": "5e853993",
+      "at": [
+        "covenant-day:theatre.season[0].kind"
+      ]
+    },
+    {
+      "t": "Tres noches de funciones (p. ej. 15–17 de octubre)",
+      "of": "5ca9633a",
+      "at": [
+        "covenant-day:theatre.season[0].detail"
+      ]
+    },
+    {
+      "t": "HS Musical",
+      "of": "8a5d45a2",
+      "at": [
+        "covenant-day:theatre.season[1].kind"
+      ]
+    },
+    {
+      "t": "La producción elegible para los Blumey",
+      "of": "42551d33",
+      "at": [
+        "covenant-day:theatre.season[1].detail"
+      ]
+    },
+    {
+      "t": "Drama de primavera",
+      "of": "8ef83b4b",
+      "at": [
+        "covenant-day:theatre.season[2].kind"
+      ]
+    },
+    {
+      "t": "Una obra no musical (25–27 de abril en el calendario actual)",
+      "of": "737d5d1d",
+      "at": [
+        "covenant-day:theatre.season[2].detail"
+      ]
+    },
+    {
+      "t": "Muestras",
+      "of": "82c2e079",
+      "at": [
+        "covenant-day:theatre.season[3].kind"
+      ]
+    },
+    {
+      "t": "Los MS y HS Theater Nights, la HS Shakespeare Competition y la participación en la NC Theatre Conference",
+      "of": "2cc06b7c",
+      "at": [
+        "covenant-day:theatre.season[3].detail"
+      ]
+    },
+    {
+      "t": "La directora de Fine Arts, Sherie-Beth Wilson, con la Covenant Arts Association dotando de personal y prevendiendo las tres producciones. Cursos: MS Drama (6–8), Theater I–II, Theatre Tech y Honors Auditioned Theatre con itinerarios de Performance o Technical.",
+      "of": "741cf927",
+      "at": [
+        "covenant-day:theatre.whoRunsIt"
+      ]
+    },
+    {
+      "t": "El Lions Theater tiene 200 butacas, con iluminación LED, una sala de vestuario y almacén de escenografía — una sala a escala de black box, y por eso existe la preventa por niveles de la Arts Association.",
+      "of": "b422fc87",
+      "at": [
+        "covenant-day:theatre.venueNote"
+      ]
+    },
+    {
+      "t": "GANÓ Best Featured Performer",
+      "of": "4688f8b9",
+      "at": [
+        "covenant-day:theatre.ledger[0].result"
+      ]
+    },
+    {
+      "t": "Nominaciones a Best Ensemble + Best Actress",
+      "of": "03927033",
+      "at": [
+        "covenant-day:theatre.ledger[1].result"
+      ]
+    },
+    {
+      "t": "GANÓ el Student Critic Award",
+      "of": "623af024",
+      "at": [
+        "covenant-day:theatre.ledger[2].result"
+      ]
+    },
+    {
+      "t": "Nominación a Best Ensemble",
+      "of": "42971634",
+      "at": [
+        "covenant-day:theatre.ledger[3].result"
+      ]
+    },
+    {
+      "t": "Nominaciones a Featured Performer + Supporting Actress",
+      "of": "8cce4505",
+      "at": [
+        "covenant-day:theatre.ledger[4].result"
+      ]
+    },
+    {
+      "t": "Nominación a Best Actress (Evan Bertram como Georgia Hendricks)",
+      "of": "5be5c031",
+      "at": [
+        "covenant-day:theatre.ledger[5].result"
+      ]
+    },
+    {
+      "t": "Caroline Garbarino nombrada finalista",
+      "of": "e190acfc",
+      "at": [
+        "covenant-day:theatre.ledger[6].result"
+      ]
+    },
+    {
+      "t": "El historial enmudece después de 2019 en los Blumey — la propia página de teatro del colegio no recoge ninguna entrada Blumey posterior a 2019 — y los títulos de las producciones no se publican, así que *Curtains* es la única obra recuperable por nombre. La finalista de Shakespeare demuestra que la cantera sigue produciendo.",
+      "of": "8ba1e416",
+      "at": [
+        "covenant-day:theatre.honestContext"
+      ]
+    },
+    {
+      "t": "Nueve conjuntos desde el grado 3 en adelante — y el peldaño distintivo es el culto: Worship Leadership con créditos más bandas de culto en ambas divisiones.",
+      "of": "a5fe4ead",
+      "at": [
+        "covenant-day:music.headline"
+      ]
+    },
+    {
+      "t": "Historial de adjudicaciones en Music in the Parks: calificaciones Superior para el MS Choir tres años seguidos, y un 2.º puesto de la HS Band en 2025.",
+      "of": "a9f14410",
+      "at": [
+        "covenant-day:music.subhead"
+      ]
+    },
+    {
+      "t": "Coral",
+      "of": "22900d0e",
+      "at": [
+        "covenant-day:music.tracks[0].label"
+      ]
+    },
+    {
+      "t": "Instrumental",
+      "of": "19bad85d",
+      "at": [
+        "covenant-day:music.tracks[1].label"
+      ]
+    },
+    {
+      "t": "Culto",
+      "of": "93560741",
+      "at": [
+        "covenant-day:music.tracks[2].label"
+      ]
+    },
+    {
+      "t": "Director: Zach Thompson, profesor de culto y coro. No hay orquesta ni banda de desfile (marching band) — el programa instrumental es de concierto/sinfónico.",
+      "of": "1f1408f8",
+      "at": [
+        "covenant-day:music.boardNote"
+      ]
+    },
+    {
+      "t": "2021–23",
+      "of": "68adb260",
+      "at": [
+        "covenant-day:music.ladder[0].label"
+      ]
+    },
+    {
+      "t": "El MS Choir obtuvo una calificación Superior en Music in the Parks tres años consecutivos; la MS Band logró calificaciones Excellent y un 3.er puesto.",
+      "of": "833334f0",
+      "at": [
+        "covenant-day:music.ladder[0].text"
+      ]
+    },
+    {
+      "t": "2023",
+      "of": "4329424c",
+      "at": [
+        "covenant-day:music.ladder[1].label"
+      ]
+    },
+    {
+      "t": "La HS Band obtuvo una calificación Excellent.",
+      "of": "7302d76e",
+      "at": [
+        "covenant-day:music.ladder[1].text"
+      ]
+    },
+    {
+      "t": "2025",
+      "of": "41293f26",
+      "at": [
+        "covenant-day:music.ladder[2].label"
+      ]
+    },
+    {
+      "t": "La HS Band obtuvo una calificación Excellent y el 2.º puesto.",
+      "of": "82e870f0",
+      "at": [
+        "covenant-day:music.ladder[2].text"
+      ]
+    },
+    {
+      "t": "Sociedad de honor",
+      "of": "c53b433d",
+      "at": [
+        "covenant-day:music.ladder[3].label"
+      ]
+    },
+    {
+      "t": "Capítulo de la Tri-M Music Honor Society por logros más servicio.",
+      "of": "1406e69f",
+      "at": [
+        "covenant-day:music.ladder[3].text"
+      ]
+    },
+    {
+      "t": "En la página de música no aparece ningún honor NCMEA All-State ni All-District — una ausencia confirmada. Los escenarios van desde Biltmore Estates hasta programas de Navidad, eventos deportivos y conciertos de primavera.",
+      "of": "7bda7c5f",
+      "at": [
+        "covenant-day:music.ladderNote"
+      ]
+    },
+    {
+      "t": "Un itinerario limpio de Intro a AP con una exposición pública de AP al final — y siete galardonados del Youth Art Month en un solo año.",
+      "of": "e2660878",
+      "at": [
+        "covenant-day:visual.headline"
+      ]
+    },
+    {
+      "t": "El arte empieza integrado en JK–K, pasa a ser secuencial en el grado 1 y culmina en AP Studio Art con su propia exposición.",
+      "of": "a0a9cd5d",
+      "at": [
+        "covenant-day:visual.subhead"
+      ]
+    },
+    {
+      "t": "De Intro to Art a Studio Art",
+      "of": "5c35aff9",
+      "at": [
+        "covenant-day:visual.media[0].detail"
+      ]
+    },
+    {
+      "t": "Art 2/3 se divide en itinerarios 2D y 3D",
+      "of": "3ec1a79b",
+      "at": [
+        "covenant-day:visual.media[1].detail"
+      ]
+    },
+    {
+      "t": "CP y Honors — diseño de publicaciones como trabajo de curso",
+      "of": "6a6599d4",
+      "at": [
+        "covenant-day:visual.media[5].detail"
+      ]
+    },
+    {
+      "t": "Profesora de arte del High School: Katie Spata. El acceso a Honors y AP sigue el filtro general del colegio: cursos previos, calificaciones y valoración del profesorado.",
+      "of": "3bce8e8c",
+      "at": [
+        "covenant-day:visual.pathNote"
+      ]
+    },
+    {
+      "t": "Todo el colegio",
+      "of": "bf82e7ff",
+      "at": [
+        "covenant-day:visual.exhibits[0].when"
+      ]
+    },
+    {
+      "t": "la exposición de todo el colegio",
+      "of": "c567403b",
+      "at": [
+        "covenant-day:visual.exhibits[0].detail"
+      ]
+    },
+    {
+      "t": "la exposición de AP Art — presentaciones de portafolios",
+      "of": "579e15b4",
+      "at": [
+        "covenant-day:visual.exhibits[1].detail"
+      ]
+    },
+    {
+      "t": "7 galardonados YAM en 2023",
+      "of": "00737d1a",
+      "at": [
+        "covenant-day:visual.exhibits[2].detail"
+      ]
+    },
+    {
+      "t": "\"multiple Scholastic Art Award winners\"",
+      "of": "a47c7d6a",
+      "at": [
+        "covenant-day:visual.exhibits[3].detail"
+      ]
+    },
+    {
+      "t": "Un programa de teatro con premios regionales reales y una escalera JK–12 coherente, con las artes de culto como identidad — y algunas cosas que no ofrece.",
+      "of": "fcfe6ce8",
+      "at": [
+        "covenant-day:verdict.headline"
+      ]
+    },
+    {
+      "t": "Fuerte para una familia que quiere artes integradas con la fe; más flojo para la que busca orquesta, danza o un programa de música de gran sala.",
+      "of": "e36988ef",
+      "at": [
+        "covenant-day:verdict.subhead"
+      ]
+    },
+    {
+      "t": "El historial Blumey es genuino",
+      "of": "fbc9ceb4",
+      "at": [
+        "covenant-day:verdict.holdsUp[0].label"
+      ]
+    },
+    {
+      "t": "Dos premios y ocho reconocimientos en siete temporadas, verificables en los propios archivos de Blumenthal, más una finalista del National Shakespeare Competition en 2025.",
+      "of": "90829a82",
+      "at": [
+        "covenant-day:verdict.holdsUp[0].text"
+      ]
+    },
+    {
+      "t": "El itinerario visual es completo y público",
+      "of": "5e307d22",
+      "at": [
+        "covenant-day:verdict.holdsUp[1].label"
+      ]
+    },
+    {
+      "t": "Intro → Art 2/3 → Honors Studio → AP Studio Art, con la exposición de AP (Art Talk) y una muestra de todo el colegio (ArtWalk) donde el trabajo realmente se ve.",
+      "of": "71c39247",
+      "at": [
+        "covenant-day:verdict.holdsUp[1].text"
+      ]
+    },
+    {
+      "t": "La columna de música de culto es única aquí",
+      "of": "e16507de",
+      "at": [
+        "covenant-day:verdict.holdsUp[2].label"
+      ]
+    },
+    {
+      "t": "Worship Leadership con créditos más bandas de culto en ambas divisiones — la identidad de ministerio eclesial del colegio expresada en el propio currículo.",
+      "of": "e5c00779",
+      "at": [
+        "covenant-day:verdict.holdsUp[2].text"
+      ]
+    },
+    {
+      "t": "Una organización de mecenas con dinero de verdad",
+      "of": "4ebaeb0b",
+      "at": [
+        "covenant-day:verdict.holdsUp[3].label"
+      ]
+    },
+    {
+      "t": "Los niveles de $100–$1,000 de la Covenant Arts Association financian y dotan de personal las tres áreas artísticas.",
+      "of": "3c1a02a0",
+      "at": [
+        "covenant-day:verdict.holdsUp[3].text"
+      ]
+    },
+    {
+      "t": "¿Cuál fue el último musical de high school, y cuándo se presentó el programa por última vez a los Blumey? El historial público se detiene en 2019.",
+      "of": "42245184",
+      "at": [
+        "covenant-day:verdict.ask[0]"
+      ]
+    },
+    {
+      "t": "Tamaños de los conjuntos: ¿cuántos estudiantes hay este año en la Symphonic Band y el HS Choir? No se publica ninguna cifra de participación.",
+      "of": "22e18b78",
+      "at": [
+        "covenant-day:verdict.ask[1]"
+      ]
+    },
+    {
+      "t": "¿Existe algún itinerario de cuerdas/orquesta, o danza? Ninguno aparece en el programa.",
+      "of": "669bd1f3",
+      "at": [
+        "covenant-day:verdict.ask[2]"
+      ]
+    },
+    {
+      "t": "¿Cómo gestiona el Lions Theater de 200 butacas la demanda del musical de HS — qué tan rápido se agotan las entradas públicas tras la preventa de la Arts Association?",
+      "of": "02f659be",
+      "at": [
+        "covenant-day:verdict.ask[3]"
+      ]
+    },
+    {
+      "t": "¿En qué división de Music in the Parks compiten los conjuntos, y está la participación NCMEA All-State en la hoja de ruta?",
+      "of": "8902c701",
+      "at": [
+        "covenant-day:verdict.ask[4]"
       ]
     },
     {

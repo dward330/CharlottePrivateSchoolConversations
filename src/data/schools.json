@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-11",
+  "generated": "2026-08-16",
   "description": "Charlotte private-school research manifest. Topics x schools x documents.",
   "schools": [
     {
@@ -17,6 +17,10 @@
     {
       "slug": "charlotte-latin",
       "name": "Charlotte Latin School"
+    },
+    {
+      "slug": "covenant-day",
+      "name": "Covenant Day School"
     },
     {
       "slug": "davidson-day",
@@ -84,6 +88,11 @@
     },
     {
       "topic_slug": "after-school",
+      "school_slug": "covenant-day",
+      "doc_count": 4
+    },
+    {
+      "topic_slug": "after-school",
       "school_slug": "davidson-day",
       "doc_count": 5
     },
@@ -114,6 +123,11 @@
     },
     {
       "topic_slug": "college-support",
+      "school_slug": "covenant-day",
+      "doc_count": 8
+    },
+    {
+      "topic_slug": "college-support",
       "school_slug": "davidson-day",
       "doc_count": 10
     },
@@ -144,6 +158,11 @@
     },
     {
       "topic_slug": "course-offerings",
+      "school_slug": "covenant-day",
+      "doc_count": 1
+    },
+    {
+      "topic_slug": "course-offerings",
       "school_slug": "davidson-day",
       "doc_count": 1
     },
@@ -174,6 +193,11 @@
     },
     {
       "topic_slug": "financial-aid-tuition",
+      "school_slug": "covenant-day",
+      "doc_count": 2
+    },
+    {
+      "topic_slug": "financial-aid-tuition",
       "school_slug": "davidson-day",
       "doc_count": 2
     },
@@ -204,6 +228,11 @@
     },
     {
       "topic_slug": "sports",
+      "school_slug": "covenant-day",
+      "doc_count": 14
+    },
+    {
+      "topic_slug": "sports",
       "school_slug": "davidson-day",
       "doc_count": 15
     },
@@ -231,6 +260,11 @@
       "topic_slug": "student-clubs",
       "school_slug": "charlotte-latin",
       "doc_count": 8
+    },
+    {
+      "topic_slug": "student-clubs",
+      "school_slug": "covenant-day",
+      "doc_count": 6
     },
     {
       "topic_slug": "student-clubs",
@@ -264,6 +298,11 @@
     },
     {
       "topic_slug": "summer-programs",
+      "school_slug": "covenant-day",
+      "doc_count": 1
+    },
+    {
+      "topic_slug": "summer-programs",
       "school_slug": "providence-day",
       "doc_count": 1
     },
@@ -289,6 +328,11 @@
     },
     {
       "topic_slug": "the-arts",
+      "school_slug": "covenant-day",
+      "doc_count": 7
+    },
+    {
+      "topic_slug": "the-arts",
       "school_slug": "davidson-day",
       "doc_count": 5
     },
@@ -299,6 +343,456 @@
     }
   ],
   "documents": [
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "after-school",
+      "topic": "After School",
+      "subtopic": "Deep Research",
+      "source_file": "source-material/after-school/cannon/Cannon - After School - Deep Research.pdf",
+      "note_file": ".claude/docs/after-school/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "after-school",
+      "topic": "After School",
+      "subtopic": "Pricing",
+      "source_file": "source-material/after-school/cannon/Cannon - After School - Pricing.md",
+      "note_file": ".claude/docs/after-school/cannon.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "after-school",
+      "topic": "After School",
+      "subtopic": "Program Details",
+      "source_file": "source-material/after-school/cannon/Cannon - After School - Program Details.pdf",
+      "note_file": ".claude/docs/after-school/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "after-school",
+      "topic": "After School",
+      "subtopic": "Program Overview",
+      "source_file": "source-material/after-school/cannon/Cannon - After School - Program Overview.pdf",
+      "note_file": ".claude/docs/after-school/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "after-school",
+      "topic": "After School",
+      "subtopic": "Redesign Research 2026",
+      "source_file": "source-material/after-school/cannon/Cannon - After School - Redesign Research 2026.md",
+      "note_file": ".claude/docs/after-school/cannon.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "after-school",
+      "topic": "After School",
+      "subtopic": "Clubs and Youth Athletics",
+      "source_file": "source-material/after-school/charlotte-christian/Charlotte Christian - After School - Clubs and Youth Athletics.pdf",
+      "note_file": ".claude/docs/after-school/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "after-school",
+      "topic": "After School",
+      "subtopic": "Deep Research",
+      "source_file": "source-material/after-school/charlotte-christian/Charlotte Christian - After School - Deep Research.pdf",
+      "note_file": ".claude/docs/after-school/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "after-school",
+      "topic": "After School",
+      "subtopic": "Extended Day",
+      "source_file": "source-material/after-school/charlotte-christian/Charlotte Christian - After School - Extended Day.pdf",
+      "note_file": ".claude/docs/after-school/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "after-school",
+      "topic": "After School",
+      "subtopic": "Pricing",
+      "source_file": "source-material/after-school/charlotte-christian/Charlotte Christian - After School - Pricing.md",
+      "note_file": ".claude/docs/after-school/charlotte-christian.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "after-school",
+      "topic": "After School",
+      "subtopic": "Program Overview",
+      "source_file": "source-material/after-school/charlotte-christian/Charlotte Christian - After School - Program Overview.pdf",
+      "note_file": ".claude/docs/after-school/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "after-school",
+      "topic": "After School",
+      "subtopic": "Redesign Research 2026",
+      "source_file": "source-material/after-school/charlotte-christian/Charlotte Christian - After School - Redesign Research 2026.md",
+      "note_file": ".claude/docs/after-school/charlotte-christian.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "after-school",
+      "topic": "After School",
+      "subtopic": "Deep Research",
+      "source_file": "source-material/after-school/charlotte-country-day/CCD - After School - Deep Research.pdf",
+      "note_file": ".claude/docs/after-school/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "after-school",
+      "topic": "After School",
+      "subtopic": "Enrichment and Swim",
+      "source_file": "source-material/after-school/charlotte-country-day/CCD - After School - Enrichment and Swim.pdf",
+      "note_file": ".claude/docs/after-school/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "after-school",
+      "topic": "After School",
+      "subtopic": "Extended Day",
+      "source_file": "source-material/after-school/charlotte-country-day/CCD - After School - Extended Day.pdf",
+      "note_file": ".claude/docs/after-school/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "after-school",
+      "topic": "After School",
+      "subtopic": "Pricing",
+      "source_file": "source-material/after-school/charlotte-country-day/CCD - After School - Pricing.md",
+      "note_file": ".claude/docs/after-school/charlotte-country-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "after-school",
+      "topic": "After School",
+      "subtopic": "Program Overview",
+      "source_file": "source-material/after-school/charlotte-country-day/CCD - After School - Program Overview.pdf",
+      "note_file": ".claude/docs/after-school/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "after-school",
+      "topic": "After School",
+      "subtopic": "Redesign Research 2026",
+      "source_file": "source-material/after-school/charlotte-country-day/CCD - After School - Redesign Research 2026.md",
+      "note_file": ".claude/docs/after-school/charlotte-country-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "after-school",
+      "topic": "After School",
+      "subtopic": "Deep Research",
+      "source_file": "source-material/after-school/charlotte-latin/Charlotte Latin - After School - Deep Research.pdf",
+      "note_file": ".claude/docs/after-school/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "after-school",
+      "topic": "After School",
+      "subtopic": "Enrichment and Talons",
+      "source_file": "source-material/after-school/charlotte-latin/Charlotte Latin - After School - Enrichment and Talons.pdf",
+      "note_file": ".claude/docs/after-school/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "after-school",
+      "topic": "After School",
+      "subtopic": "Hawks Club",
+      "source_file": "source-material/after-school/charlotte-latin/Charlotte Latin - After School - Hawks Club.pdf",
+      "note_file": ".claude/docs/after-school/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "after-school",
+      "topic": "After School",
+      "subtopic": "Pricing",
+      "source_file": "source-material/after-school/charlotte-latin/Charlotte Latin - After School - Pricing.md",
+      "note_file": ".claude/docs/after-school/charlotte-latin.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "after-school",
+      "topic": "After School",
+      "subtopic": "Program Overview",
+      "source_file": "source-material/after-school/charlotte-latin/Charlotte Latin - After School - Program Overview.pdf",
+      "note_file": ".claude/docs/after-school/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "after-school",
+      "topic": "After School",
+      "subtopic": "Redesign Research 2026",
+      "source_file": "source-material/after-school/charlotte-latin/Charlotte Latin - After School - Redesign Research 2026.md",
+      "note_file": ".claude/docs/after-school/charlotte-latin.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "after-school",
+      "topic": "After School",
+      "subtopic": "Deep Research 2026",
+      "source_file": "source-material/after-school/covenant-day/Covenant Day School - After School - Deep Research 2026.md",
+      "note_file": ".claude/docs/after-school/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "after-school",
+      "topic": "After School",
+      "subtopic": "Enrichment Activities",
+      "source_file": "source-material/after-school/covenant-day/Covenant Day School - After School - Enrichment Activities.md",
+      "note_file": ".claude/docs/after-school/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "after-school",
+      "topic": "After School",
+      "subtopic": "Extended Day",
+      "source_file": "source-material/after-school/covenant-day/Covenant Day School - After School - Extended Day.md",
+      "note_file": ".claude/docs/after-school/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "after-school",
+      "topic": "After School",
+      "subtopic": "Program Overview",
+      "source_file": "source-material/after-school/covenant-day/Covenant Day School - After School - Program Overview.md",
+      "note_file": ".claude/docs/after-school/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "after-school",
+      "topic": "After School",
+      "subtopic": "Deep Research",
+      "source_file": "source-material/after-school/davidson-day/Davidson Day - After School - Deep Research.pdf",
+      "note_file": ".claude/docs/after-school/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "after-school",
+      "topic": "After School",
+      "subtopic": "Extended Care",
+      "source_file": "source-material/after-school/davidson-day/Davidson Day - After School - Extended Care.pdf",
+      "note_file": ".claude/docs/after-school/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "after-school",
+      "topic": "After School",
+      "subtopic": "Pricing",
+      "source_file": "source-material/after-school/davidson-day/Davidson Day - After School - Pricing.md",
+      "note_file": ".claude/docs/after-school/davidson-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "after-school",
+      "topic": "After School",
+      "subtopic": "Program Overview",
+      "source_file": "source-material/after-school/davidson-day/Davidson Day - After School - Program Overview.pdf",
+      "note_file": ".claude/docs/after-school/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "after-school",
+      "topic": "After School",
+      "subtopic": "Redesign Research 2026",
+      "source_file": "source-material/after-school/davidson-day/Davidson Day - After School - Redesign Research 2026.md",
+      "note_file": ".claude/docs/after-school/davidson-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "after-school",
+      "topic": "After School",
+      "subtopic": "Deep Research",
+      "source_file": "source-material/after-school/providence-day/Providence Day - After School - Deep Research.pdf",
+      "note_file": ".claude/docs/after-school/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "after-school",
+      "topic": "After School",
+      "subtopic": "Enrichment Classes Fall 2026",
+      "source_file": "source-material/after-school/providence-day/Providence Day - After School - Enrichment Classes Fall 2026.pdf",
+      "note_file": ".claude/docs/after-school/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "after-school",
+      "topic": "After School",
+      "subtopic": "Extended Day and Clubhouse",
+      "source_file": "source-material/after-school/providence-day/Providence Day - After School - Extended Day and Clubhouse.pdf",
+      "note_file": ".claude/docs/after-school/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "after-school",
+      "topic": "After School",
+      "subtopic": "Pricing",
+      "source_file": "source-material/after-school/providence-day/Providence Day - After School - Pricing.md",
+      "note_file": ".claude/docs/after-school/providence-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "after-school",
+      "topic": "After School",
+      "subtopic": "Program Overview",
+      "source_file": "source-material/after-school/providence-day/Providence Day - After School - Program Overview.pdf",
+      "note_file": ".claude/docs/after-school/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "after-school",
+      "topic": "After School",
+      "subtopic": "Redesign Research 2026",
+      "source_file": "source-material/after-school/providence-day/Providence Day - After School - Redesign Research 2026.md",
+      "note_file": ".claude/docs/after-school/providence-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "course-offerings",
+      "topic": "Course Offerings",
+      "subtopic": "Curriculum Guide",
+      "source_file": "source-material/course-offerings/cannon/Cannon - Course Offerings - Curriculum Guide.md",
+      "note_file": ".claude/docs/course-offerings/cannon.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "course-offerings",
+      "topic": "Course Offerings",
+      "subtopic": "Curriculum Guide",
+      "source_file": "source-material/course-offerings/charlotte-christian/Charlotte Christian - Course Offerings - Curriculum Guide.md",
+      "note_file": ".claude/docs/course-offerings/charlotte-christian.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "course-offerings",
+      "topic": "Course Offerings",
+      "subtopic": "Curriculum Guide",
+      "source_file": "source-material/course-offerings/charlotte-country-day/Charlotte Country Day - Course Offerings - Curriculum Guide.md",
+      "note_file": ".claude/docs/course-offerings/charlotte-country-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "course-offerings",
+      "topic": "Course Offerings",
+      "subtopic": "Curriculum Guide",
+      "source_file": "source-material/course-offerings/charlotte-latin/Charlotte Latin - Course Offerings - Curriculum Guide.md",
+      "note_file": ".claude/docs/course-offerings/charlotte-latin.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "course-offerings",
+      "topic": "Course Offerings",
+      "subtopic": "Curriculum Guide",
+      "source_file": "source-material/course-offerings/covenant-day/Covenant Day School - Course Offerings - Curriculum Guide.md",
+      "note_file": ".claude/docs/course-offerings/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "course-offerings",
+      "topic": "Course Offerings",
+      "subtopic": "Curriculum Guide",
+      "source_file": "source-material/course-offerings/davidson-day/Davidson Day - Course Offerings - Curriculum Guide.md",
+      "note_file": ".claude/docs/course-offerings/davidson-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "course-offerings",
+      "topic": "Course Offerings",
+      "subtopic": "Curriculum Guide",
+      "source_file": "source-material/course-offerings/providence-day/Providence Day - Course Offerings - Curriculum Guide.md",
+      "note_file": ".claude/docs/course-offerings/providence-day.md",
+      "type": "md"
+    },
     {
       "school_slug": "cannon",
       "school": "Cannon School",
@@ -360,6 +854,26 @@
       "type": "pdf"
     },
     {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "financial-aid-tuition",
+      "topic": "Financial Aid & Tuition",
+      "subtopic": "Deep Dive Report",
+      "source_file": "source-material/financial-aid-tuition/covenant-day/Covenant Day School - Financial Aid and Tuition - Deep Dive Report.md",
+      "note_file": ".claude/docs/financial-aid-tuition/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "financial-aid-tuition",
+      "topic": "Financial Aid & Tuition",
+      "subtopic": "Tuition History",
+      "source_file": "source-material/financial-aid-tuition/covenant-day/Covenant Day School - Financial Aid and Tuition - Tuition History.md",
+      "note_file": ".claude/docs/financial-aid-tuition/covenant-day.md",
+      "type": "md"
+    },
+    {
       "school_slug": "davidson-day",
       "school": "Davidson Day School",
       "topic_slug": "financial-aid-tuition",
@@ -388,66 +902,6 @@
       "source_file": "source-material/financial-aid-tuition/providence-day/Providence Day - Financial Aid - Deep Dive Report.pdf",
       "note_file": ".claude/docs/financial-aid-tuition/providence-day.md",
       "type": "pdf"
-    },
-    {
-      "school_slug": "cannon",
-      "school": "Cannon School",
-      "topic_slug": "course-offerings",
-      "topic": "Course Offerings",
-      "subtopic": "Curriculum Guide",
-      "source_file": "source-material/course-offerings/cannon/Cannon - Course Offerings - Curriculum Guide.md",
-      "note_file": ".claude/docs/course-offerings/cannon.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "charlotte-christian",
-      "school": "Charlotte Christian School",
-      "topic_slug": "course-offerings",
-      "topic": "Course Offerings",
-      "subtopic": "Curriculum Guide",
-      "source_file": "source-material/course-offerings/charlotte-christian/Charlotte Christian - Course Offerings - Curriculum Guide.md",
-      "note_file": ".claude/docs/course-offerings/charlotte-christian.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "charlotte-country-day",
-      "school": "Charlotte Country Day School",
-      "topic_slug": "course-offerings",
-      "topic": "Course Offerings",
-      "subtopic": "Curriculum Guide",
-      "source_file": "source-material/course-offerings/charlotte-country-day/Charlotte Country Day - Course Offerings - Curriculum Guide.md",
-      "note_file": ".claude/docs/course-offerings/charlotte-country-day.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "charlotte-latin",
-      "school": "Charlotte Latin School",
-      "topic_slug": "course-offerings",
-      "topic": "Course Offerings",
-      "subtopic": "Curriculum Guide",
-      "source_file": "source-material/course-offerings/charlotte-latin/Charlotte Latin - Course Offerings - Curriculum Guide.md",
-      "note_file": ".claude/docs/course-offerings/charlotte-latin.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "davidson-day",
-      "school": "Davidson Day School",
-      "topic_slug": "course-offerings",
-      "topic": "Course Offerings",
-      "subtopic": "Curriculum Guide",
-      "source_file": "source-material/course-offerings/davidson-day/Davidson Day - Course Offerings - Curriculum Guide.md",
-      "note_file": ".claude/docs/course-offerings/davidson-day.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "providence-day",
-      "school": "Providence Day School",
-      "topic_slug": "course-offerings",
-      "topic": "Course Offerings",
-      "subtopic": "Curriculum Guide",
-      "source_file": "source-material/course-offerings/providence-day/Providence Day - Course Offerings - Curriculum Guide.md",
-      "note_file": ".claude/docs/course-offerings/providence-day.md",
-      "type": "md"
     },
     {
       "school_slug": "cannon",
@@ -1050,6 +1504,146 @@
       "type": "pdf"
     },
     {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Awards and Honors",
+      "source_file": "source-material/sports/covenant-day/Covenant Day School - Sports - Awards and Honors.md",
+      "note_file": ".claude/docs/sports/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Championships",
+      "source_file": "source-material/sports/covenant-day/Covenant Day School - Sports - Championships.md",
+      "note_file": ".claude/docs/sports/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Coaches Pedigree and Continuity",
+      "source_file": "source-material/sports/covenant-day/Covenant Day School - Sports - Coaches Pedigree and Continuity.md",
+      "note_file": ".claude/docs/sports/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "College Commitments 2024-2026",
+      "source_file": "source-material/sports/covenant-day/Covenant Day School - Sports - College Commitments 2024-2026.md",
+      "note_file": ".claude/docs/sports/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Facilities and Infrastructure",
+      "source_file": "source-material/sports/covenant-day/Covenant Day School - Sports - Facilities and Infrastructure.md",
+      "note_file": ".claude/docs/sports/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "NIL Landscape",
+      "source_file": "source-material/sports/covenant-day/Covenant Day School - Sports - NIL Landscape.md",
+      "note_file": ".claude/docs/sports/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "National Profile",
+      "source_file": "source-material/sports/covenant-day/Covenant Day School - Sports - National Profile.md",
+      "note_file": ".claude/docs/sports/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Power 4 Offers",
+      "source_file": "source-material/sports/covenant-day/Covenant Day School - Sports - Power 4 Offers.md",
+      "note_file": ".claude/docs/sports/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Professional Athletes",
+      "source_file": "source-material/sports/covenant-day/Covenant Day School - Sports - Professional Athletes.md",
+      "note_file": ".claude/docs/sports/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Redesign Research 2026",
+      "source_file": "source-material/sports/covenant-day/Covenant Day School - Sports - Redesign Research 2026.md",
+      "note_file": ".claude/docs/sports/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Sports Medicine and Performance",
+      "source_file": "source-material/sports/covenant-day/Covenant Day School - Sports - Sports Medicine and Performance.md",
+      "note_file": ".claude/docs/sports/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Sports Offered",
+      "source_file": "source-material/sports/covenant-day/Covenant Day School - Sports - Sports Offered.md",
+      "note_file": ".claude/docs/sports/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Top 100 Recruiting Rankings",
+      "source_file": "source-material/sports/covenant-day/Covenant Day School - Sports - Top 100 Recruiting Rankings.md",
+      "note_file": ".claude/docs/sports/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Win-Loss Records",
+      "source_file": "source-material/sports/covenant-day/Covenant Day School - Sports - Win-Loss Records.md",
+      "note_file": ".claude/docs/sports/covenant-day.md",
+      "type": "md"
+    },
+    {
       "school_slug": "davidson-day",
       "school": "Davidson Day School",
       "topic_slug": "sports",
@@ -1348,436 +1942,6 @@
       "source_file": "source-material/sports/providence-day/Providence Day - Sports - Redesign Research 2026.md",
       "note_file": ".claude/docs/sports/providence-day.md",
       "type": "md"
-    },
-    {
-      "school_slug": "cannon",
-      "school": "Cannon School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Arts Redesign Deep Research",
-      "source_file": "source-material/the-arts/cannon/Cannon - The Arts - Arts Redesign Deep Research.md",
-      "note_file": ".claude/docs/the-arts/cannon.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "cannon",
-      "school": "Cannon School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Course Offerings",
-      "source_file": "source-material/the-arts/cannon/Cannon - The Arts - Course Offerings.pdf",
-      "note_file": ".claude/docs/the-arts/cannon.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "cannon",
-      "school": "Cannon School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Deep Research",
-      "source_file": "source-material/the-arts/cannon/Cannon - The Arts - Deep Research.pdf",
-      "note_file": ".claude/docs/the-arts/cannon.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "cannon",
-      "school": "Cannon School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Facilities",
-      "source_file": "source-material/the-arts/cannon/Cannon - The Arts - Facilities.pdf",
-      "note_file": ".claude/docs/the-arts/cannon.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "cannon",
-      "school": "Cannon School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Music",
-      "source_file": "source-material/the-arts/cannon/Cannon - The Arts - Music.pdf",
-      "note_file": ".claude/docs/the-arts/cannon.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "cannon",
-      "school": "Cannon School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Program Overview",
-      "source_file": "source-material/the-arts/cannon/Cannon - The Arts - Program Overview.pdf",
-      "note_file": ".claude/docs/the-arts/cannon.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "cannon",
-      "school": "Cannon School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Theater",
-      "source_file": "source-material/the-arts/cannon/Cannon - The Arts - Theater.pdf",
-      "note_file": ".claude/docs/the-arts/cannon.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "cannon",
-      "school": "Cannon School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Visual Arts",
-      "source_file": "source-material/the-arts/cannon/Cannon - The Arts - Visual Arts.pdf",
-      "note_file": ".claude/docs/the-arts/cannon.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-christian",
-      "school": "Charlotte Christian School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Arts Redesign Deep Research",
-      "source_file": "source-material/the-arts/charlotte-christian/Charlotte Christian - The Arts - Arts Redesign Deep Research.md",
-      "note_file": ".claude/docs/the-arts/charlotte-christian.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "charlotte-christian",
-      "school": "Charlotte Christian School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Awards and Recognition",
-      "source_file": "source-material/the-arts/charlotte-christian/Charlotte Christian - The Arts - Awards and Recognition.pdf",
-      "note_file": ".claude/docs/the-arts/charlotte-christian.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-christian",
-      "school": "Charlotte Christian School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Deep Research",
-      "source_file": "source-material/the-arts/charlotte-christian/Charlotte Christian - The Arts - Deep Research.pdf",
-      "note_file": ".claude/docs/the-arts/charlotte-christian.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-christian",
-      "school": "Charlotte Christian School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Digital Arts",
-      "source_file": "source-material/the-arts/charlotte-christian/Charlotte Christian - The Arts - Digital Arts.pdf",
-      "note_file": ".claude/docs/the-arts/charlotte-christian.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-christian",
-      "school": "Charlotte Christian School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Music",
-      "source_file": "source-material/the-arts/charlotte-christian/Charlotte Christian - The Arts - Music.pdf",
-      "note_file": ".claude/docs/the-arts/charlotte-christian.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-christian",
-      "school": "Charlotte Christian School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Program Overview",
-      "source_file": "source-material/the-arts/charlotte-christian/Charlotte Christian - The Arts - Program Overview.pdf",
-      "note_file": ".claude/docs/the-arts/charlotte-christian.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-christian",
-      "school": "Charlotte Christian School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Theatre",
-      "source_file": "source-material/the-arts/charlotte-christian/Charlotte Christian - The Arts - Theatre.pdf",
-      "note_file": ".claude/docs/the-arts/charlotte-christian.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-christian",
-      "school": "Charlotte Christian School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Visual Arts",
-      "source_file": "source-material/the-arts/charlotte-christian/Charlotte Christian - The Arts - Visual Arts.pdf",
-      "note_file": ".claude/docs/the-arts/charlotte-christian.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-country-day",
-      "school": "Charlotte Country Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Arts Redesign Deep Research",
-      "source_file": "source-material/the-arts/charlotte-country-day/CCD - The Arts - Arts Redesign Deep Research.md",
-      "note_file": ".claude/docs/the-arts/charlotte-country-day.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "charlotte-country-day",
-      "school": "Charlotte Country Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Awards and Recognition",
-      "source_file": "source-material/the-arts/charlotte-country-day/CCD - The Arts - Awards and Recognition.pdf",
-      "note_file": ".claude/docs/the-arts/charlotte-country-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-country-day",
-      "school": "Charlotte Country Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Deep Research",
-      "source_file": "source-material/the-arts/charlotte-country-day/CCD - The Arts - Deep Research.pdf",
-      "note_file": ".claude/docs/the-arts/charlotte-country-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-country-day",
-      "school": "Charlotte Country Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Drama",
-      "source_file": "source-material/the-arts/charlotte-country-day/CCD - The Arts - Drama.pdf",
-      "note_file": ".claude/docs/the-arts/charlotte-country-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-country-day",
-      "school": "Charlotte Country Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Facilities",
-      "source_file": "source-material/the-arts/charlotte-country-day/CCD - The Arts - Facilities.pdf",
-      "note_file": ".claude/docs/the-arts/charlotte-country-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-country-day",
-      "school": "Charlotte Country Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Music",
-      "source_file": "source-material/the-arts/charlotte-country-day/CCD - The Arts - Music.pdf",
-      "note_file": ".claude/docs/the-arts/charlotte-country-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-country-day",
-      "school": "Charlotte Country Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Program Overview",
-      "source_file": "source-material/the-arts/charlotte-country-day/CCD - The Arts - Program Overview.pdf",
-      "note_file": ".claude/docs/the-arts/charlotte-country-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-country-day",
-      "school": "Charlotte Country Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Visual Arts",
-      "source_file": "source-material/the-arts/charlotte-country-day/CCD - The Arts - Visual Arts.pdf",
-      "note_file": ".claude/docs/the-arts/charlotte-country-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-latin",
-      "school": "Charlotte Latin School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Arts Redesign Deep Research",
-      "source_file": "source-material/the-arts/charlotte-latin/Charlotte Latin - The Arts - Arts Redesign Deep Research.md",
-      "note_file": ".claude/docs/the-arts/charlotte-latin.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "charlotte-latin",
-      "school": "Charlotte Latin School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Awards and Recognition",
-      "source_file": "source-material/the-arts/charlotte-latin/Charlotte Latin - The Arts - Awards and Recognition.pdf",
-      "note_file": ".claude/docs/the-arts/charlotte-latin.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-latin",
-      "school": "Charlotte Latin School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Deep Research",
-      "source_file": "source-material/the-arts/charlotte-latin/Charlotte Latin - The Arts - Deep Research.pdf",
-      "note_file": ".claude/docs/the-arts/charlotte-latin.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-latin",
-      "school": "Charlotte Latin School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Facilities",
-      "source_file": "source-material/the-arts/charlotte-latin/Charlotte Latin - The Arts - Facilities.pdf",
-      "note_file": ".claude/docs/the-arts/charlotte-latin.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-latin",
-      "school": "Charlotte Latin School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Performing Arts",
-      "source_file": "source-material/the-arts/charlotte-latin/Charlotte Latin - The Arts - Performing Arts.pdf",
-      "note_file": ".claude/docs/the-arts/charlotte-latin.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-latin",
-      "school": "Charlotte Latin School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Program Overview",
-      "source_file": "source-material/the-arts/charlotte-latin/Charlotte Latin - The Arts - Program Overview.pdf",
-      "note_file": ".claude/docs/the-arts/charlotte-latin.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-latin",
-      "school": "Charlotte Latin School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Visual Arts",
-      "source_file": "source-material/the-arts/charlotte-latin/Charlotte Latin - The Arts - Visual Arts.pdf",
-      "note_file": ".claude/docs/the-arts/charlotte-latin.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "davidson-day",
-      "school": "Davidson Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Arts Redesign Deep Research",
-      "source_file": "source-material/the-arts/davidson-day/Davidson Day - The Arts - Arts Redesign Deep Research.md",
-      "note_file": ".claude/docs/the-arts/davidson-day.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "davidson-day",
-      "school": "Davidson Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Deep Research",
-      "source_file": "source-material/the-arts/davidson-day/Davidson Day - The Arts - Deep Research.pdf",
-      "note_file": ".claude/docs/the-arts/davidson-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "davidson-day",
-      "school": "Davidson Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Performing Arts",
-      "source_file": "source-material/the-arts/davidson-day/Davidson Day - The Arts - Performing Arts.pdf",
-      "note_file": ".claude/docs/the-arts/davidson-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "davidson-day",
-      "school": "Davidson Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Program Overview",
-      "source_file": "source-material/the-arts/davidson-day/Davidson Day - The Arts - Program Overview.pdf",
-      "note_file": ".claude/docs/the-arts/davidson-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "davidson-day",
-      "school": "Davidson Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Visual Arts",
-      "source_file": "source-material/the-arts/davidson-day/Davidson Day - The Arts - Visual Arts.pdf",
-      "note_file": ".claude/docs/the-arts/davidson-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "providence-day",
-      "school": "Providence Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Arts Redesign Deep Research",
-      "source_file": "source-material/the-arts/providence-day/Providence Day - The Arts - Arts Redesign Deep Research.md",
-      "note_file": ".claude/docs/the-arts/providence-day.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "providence-day",
-      "school": "Providence Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Awards and Recognition",
-      "source_file": "source-material/the-arts/providence-day/Providence Day - The Arts - Awards and Recognition.pdf",
-      "note_file": ".claude/docs/the-arts/providence-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "providence-day",
-      "school": "Providence Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Deep Research",
-      "source_file": "source-material/the-arts/providence-day/Providence Day - The Arts - Deep Research.pdf",
-      "note_file": ".claude/docs/the-arts/providence-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "providence-day",
-      "school": "Providence Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Music",
-      "source_file": "source-material/the-arts/providence-day/Providence Day - The Arts - Music.pdf",
-      "note_file": ".claude/docs/the-arts/providence-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "providence-day",
-      "school": "Providence Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Program Overview",
-      "source_file": "source-material/the-arts/providence-day/Providence Day - The Arts - Program Overview.pdf",
-      "note_file": ".claude/docs/the-arts/providence-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "providence-day",
-      "school": "Providence Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Theater",
-      "source_file": "source-material/the-arts/providence-day/Providence Day - The Arts - Theater.pdf",
-      "note_file": ".claude/docs/the-arts/providence-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "providence-day",
-      "school": "Providence Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Visual Arts",
-      "source_file": "source-material/the-arts/providence-day/Providence Day - The Arts - Visual Arts.pdf",
-      "note_file": ".claude/docs/the-arts/providence-day.md",
-      "type": "pdf"
     },
     {
       "school_slug": "cannon",
@@ -2160,6 +2324,66 @@
       "type": "md"
     },
     {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Academic and Competitive Clubs",
+      "source_file": "source-material/student-clubs/covenant-day/Covenant Day School - Student Clubs - Academic and Competitive Clubs.md",
+      "note_file": ".claude/docs/student-clubs/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Club Catalog and Overview",
+      "source_file": "source-material/student-clubs/covenant-day/Covenant Day School - Student Clubs - Club Catalog and Overview.md",
+      "note_file": ".claude/docs/student-clubs/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Honor Societies",
+      "source_file": "source-material/student-clubs/covenant-day/Covenant Day School - Student Clubs - Honor Societies.md",
+      "note_file": ".claude/docs/student-clubs/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Lower and Middle School Activities",
+      "source_file": "source-material/student-clubs/covenant-day/Covenant Day School - Student Clubs - Lower and Middle School Activities.md",
+      "note_file": ".claude/docs/student-clubs/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Service and Community Engagement",
+      "source_file": "source-material/student-clubs/covenant-day/Covenant Day School - Student Clubs - Service and Community Engagement.md",
+      "note_file": ".claude/docs/student-clubs/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Signature Traditions and Student Life",
+      "source_file": "source-material/student-clubs/covenant-day/Covenant Day School - Student Clubs - Signature Traditions and Student Life.md",
+      "note_file": ".claude/docs/student-clubs/covenant-day.md",
+      "type": "md"
+    },
+    {
       "school_slug": "davidson-day",
       "school": "Davidson Day School",
       "topic_slug": "student-clubs",
@@ -2332,342 +2556,562 @@
     {
       "school_slug": "cannon",
       "school": "Cannon School",
-      "topic_slug": "after-school",
-      "topic": "After School",
-      "subtopic": "Deep Research",
-      "source_file": "source-material/after-school/cannon/Cannon - After School - Deep Research.pdf",
-      "note_file": ".claude/docs/after-school/cannon.md",
+      "topic_slug": "summer-programs",
+      "topic": "Summer Programs",
+      "subtopic": "Camp Catalog",
+      "source_file": "source-material/summer-programs/cannon/Cannon - Summer Programs - Camp Catalog.md",
+      "note_file": ".claude/docs/summer-programs/cannon.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "summer-programs",
+      "topic": "Summer Programs",
+      "subtopic": "Camp Catalog",
+      "source_file": "source-material/summer-programs/charlotte-christian/Charlotte Christian - Summer Programs - Camp Catalog.md",
+      "note_file": ".claude/docs/summer-programs/charlotte-christian.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "summer-programs",
+      "topic": "Summer Programs",
+      "subtopic": "Camp Catalog",
+      "source_file": "source-material/summer-programs/charlotte-country-day/CCD - Summer Programs - Camp Catalog.md",
+      "note_file": ".claude/docs/summer-programs/charlotte-country-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "summer-programs",
+      "topic": "Summer Programs",
+      "subtopic": "Camp Catalog",
+      "source_file": "source-material/summer-programs/charlotte-latin/Charlotte Latin - Summer Programs - Camp Catalog.md",
+      "note_file": ".claude/docs/summer-programs/charlotte-latin.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "summer-programs",
+      "topic": "Summer Programs",
+      "subtopic": "Redesign Research 2026",
+      "source_file": "source-material/summer-programs/covenant-day/Covenant Day School - Summer Programs - Redesign Research 2026.md",
+      "note_file": ".claude/docs/summer-programs/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "summer-programs",
+      "topic": "Summer Programs",
+      "subtopic": "Camp Catalog",
+      "source_file": "source-material/summer-programs/providence-day/Providence Day - Summer Programs - Camp Catalog.md",
+      "note_file": ".claude/docs/summer-programs/providence-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Arts Redesign Deep Research",
+      "source_file": "source-material/the-arts/cannon/Cannon - The Arts - Arts Redesign Deep Research.md",
+      "note_file": ".claude/docs/the-arts/cannon.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Course Offerings",
+      "source_file": "source-material/the-arts/cannon/Cannon - The Arts - Course Offerings.pdf",
+      "note_file": ".claude/docs/the-arts/cannon.md",
       "type": "pdf"
     },
     {
       "school_slug": "cannon",
       "school": "Cannon School",
-      "topic_slug": "after-school",
-      "topic": "After School",
-      "subtopic": "Pricing",
-      "source_file": "source-material/after-school/cannon/Cannon - After School - Pricing.md",
-      "note_file": ".claude/docs/after-school/cannon.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "cannon",
-      "school": "Cannon School",
-      "topic_slug": "after-school",
-      "topic": "After School",
-      "subtopic": "Program Details",
-      "source_file": "source-material/after-school/cannon/Cannon - After School - Program Details.pdf",
-      "note_file": ".claude/docs/after-school/cannon.md",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Deep Research",
+      "source_file": "source-material/the-arts/cannon/Cannon - The Arts - Deep Research.pdf",
+      "note_file": ".claude/docs/the-arts/cannon.md",
       "type": "pdf"
     },
     {
       "school_slug": "cannon",
       "school": "Cannon School",
-      "topic_slug": "after-school",
-      "topic": "After School",
-      "subtopic": "Program Overview",
-      "source_file": "source-material/after-school/cannon/Cannon - After School - Program Overview.pdf",
-      "note_file": ".claude/docs/after-school/cannon.md",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Facilities",
+      "source_file": "source-material/the-arts/cannon/Cannon - The Arts - Facilities.pdf",
+      "note_file": ".claude/docs/the-arts/cannon.md",
       "type": "pdf"
     },
     {
       "school_slug": "cannon",
       "school": "Cannon School",
-      "topic_slug": "after-school",
-      "topic": "After School",
-      "subtopic": "Redesign Research 2026",
-      "source_file": "source-material/after-school/cannon/Cannon - After School - Redesign Research 2026.md",
-      "note_file": ".claude/docs/after-school/cannon.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "charlotte-christian",
-      "school": "Charlotte Christian School",
-      "topic_slug": "after-school",
-      "topic": "After School",
-      "subtopic": "Clubs and Youth Athletics",
-      "source_file": "source-material/after-school/charlotte-christian/Charlotte Christian - After School - Clubs and Youth Athletics.pdf",
-      "note_file": ".claude/docs/after-school/charlotte-christian.md",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Music",
+      "source_file": "source-material/the-arts/cannon/Cannon - The Arts - Music.pdf",
+      "note_file": ".claude/docs/the-arts/cannon.md",
       "type": "pdf"
     },
     {
-      "school_slug": "charlotte-christian",
-      "school": "Charlotte Christian School",
-      "topic_slug": "after-school",
-      "topic": "After School",
-      "subtopic": "Deep Research",
-      "source_file": "source-material/after-school/charlotte-christian/Charlotte Christian - After School - Deep Research.pdf",
-      "note_file": ".claude/docs/after-school/charlotte-christian.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-christian",
-      "school": "Charlotte Christian School",
-      "topic_slug": "after-school",
-      "topic": "After School",
-      "subtopic": "Extended Day",
-      "source_file": "source-material/after-school/charlotte-christian/Charlotte Christian - After School - Extended Day.pdf",
-      "note_file": ".claude/docs/after-school/charlotte-christian.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-christian",
-      "school": "Charlotte Christian School",
-      "topic_slug": "after-school",
-      "topic": "After School",
-      "subtopic": "Pricing",
-      "source_file": "source-material/after-school/charlotte-christian/Charlotte Christian - After School - Pricing.md",
-      "note_file": ".claude/docs/after-school/charlotte-christian.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "charlotte-christian",
-      "school": "Charlotte Christian School",
-      "topic_slug": "after-school",
-      "topic": "After School",
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
       "subtopic": "Program Overview",
-      "source_file": "source-material/after-school/charlotte-christian/Charlotte Christian - After School - Program Overview.pdf",
-      "note_file": ".claude/docs/after-school/charlotte-christian.md",
+      "source_file": "source-material/the-arts/cannon/Cannon - The Arts - Program Overview.pdf",
+      "note_file": ".claude/docs/the-arts/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Theater",
+      "source_file": "source-material/the-arts/cannon/Cannon - The Arts - Theater.pdf",
+      "note_file": ".claude/docs/the-arts/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Visual Arts",
+      "source_file": "source-material/the-arts/cannon/Cannon - The Arts - Visual Arts.pdf",
+      "note_file": ".claude/docs/the-arts/cannon.md",
       "type": "pdf"
     },
     {
       "school_slug": "charlotte-christian",
       "school": "Charlotte Christian School",
-      "topic_slug": "after-school",
-      "topic": "After School",
-      "subtopic": "Redesign Research 2026",
-      "source_file": "source-material/after-school/charlotte-christian/Charlotte Christian - After School - Redesign Research 2026.md",
-      "note_file": ".claude/docs/after-school/charlotte-christian.md",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Arts Redesign Deep Research",
+      "source_file": "source-material/the-arts/charlotte-christian/Charlotte Christian - The Arts - Arts Redesign Deep Research.md",
+      "note_file": ".claude/docs/the-arts/charlotte-christian.md",
       "type": "md"
     },
     {
-      "school_slug": "charlotte-country-day",
-      "school": "Charlotte Country Day School",
-      "topic_slug": "after-school",
-      "topic": "After School",
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Awards and Recognition",
+      "source_file": "source-material/the-arts/charlotte-christian/Charlotte Christian - The Arts - Awards and Recognition.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
       "subtopic": "Deep Research",
-      "source_file": "source-material/after-school/charlotte-country-day/CCD - After School - Deep Research.pdf",
-      "note_file": ".claude/docs/after-school/charlotte-country-day.md",
+      "source_file": "source-material/the-arts/charlotte-christian/Charlotte Christian - The Arts - Deep Research.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-christian.md",
       "type": "pdf"
     },
     {
-      "school_slug": "charlotte-country-day",
-      "school": "Charlotte Country Day School",
-      "topic_slug": "after-school",
-      "topic": "After School",
-      "subtopic": "Enrichment and Swim",
-      "source_file": "source-material/after-school/charlotte-country-day/CCD - After School - Enrichment and Swim.pdf",
-      "note_file": ".claude/docs/after-school/charlotte-country-day.md",
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Digital Arts",
+      "source_file": "source-material/the-arts/charlotte-christian/Charlotte Christian - The Arts - Digital Arts.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-christian.md",
       "type": "pdf"
     },
     {
-      "school_slug": "charlotte-country-day",
-      "school": "Charlotte Country Day School",
-      "topic_slug": "after-school",
-      "topic": "After School",
-      "subtopic": "Extended Day",
-      "source_file": "source-material/after-school/charlotte-country-day/CCD - After School - Extended Day.pdf",
-      "note_file": ".claude/docs/after-school/charlotte-country-day.md",
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Music",
+      "source_file": "source-material/the-arts/charlotte-christian/Charlotte Christian - The Arts - Music.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-christian.md",
       "type": "pdf"
     },
     {
-      "school_slug": "charlotte-country-day",
-      "school": "Charlotte Country Day School",
-      "topic_slug": "after-school",
-      "topic": "After School",
-      "subtopic": "Pricing",
-      "source_file": "source-material/after-school/charlotte-country-day/CCD - After School - Pricing.md",
-      "note_file": ".claude/docs/after-school/charlotte-country-day.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "charlotte-country-day",
-      "school": "Charlotte Country Day School",
-      "topic_slug": "after-school",
-      "topic": "After School",
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
       "subtopic": "Program Overview",
-      "source_file": "source-material/after-school/charlotte-country-day/CCD - After School - Program Overview.pdf",
-      "note_file": ".claude/docs/after-school/charlotte-country-day.md",
+      "source_file": "source-material/the-arts/charlotte-christian/Charlotte Christian - The Arts - Program Overview.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Theatre",
+      "source_file": "source-material/the-arts/charlotte-christian/Charlotte Christian - The Arts - Theatre.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Visual Arts",
+      "source_file": "source-material/the-arts/charlotte-christian/Charlotte Christian - The Arts - Visual Arts.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-christian.md",
       "type": "pdf"
     },
     {
       "school_slug": "charlotte-country-day",
       "school": "Charlotte Country Day School",
-      "topic_slug": "after-school",
-      "topic": "After School",
-      "subtopic": "Redesign Research 2026",
-      "source_file": "source-material/after-school/charlotte-country-day/CCD - After School - Redesign Research 2026.md",
-      "note_file": ".claude/docs/after-school/charlotte-country-day.md",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Arts Redesign Deep Research",
+      "source_file": "source-material/the-arts/charlotte-country-day/CCD - The Arts - Arts Redesign Deep Research.md",
+      "note_file": ".claude/docs/the-arts/charlotte-country-day.md",
       "type": "md"
     },
     {
-      "school_slug": "charlotte-latin",
-      "school": "Charlotte Latin School",
-      "topic_slug": "after-school",
-      "topic": "After School",
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Awards and Recognition",
+      "source_file": "source-material/the-arts/charlotte-country-day/CCD - The Arts - Awards and Recognition.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
       "subtopic": "Deep Research",
-      "source_file": "source-material/after-school/charlotte-latin/Charlotte Latin - After School - Deep Research.pdf",
-      "note_file": ".claude/docs/after-school/charlotte-latin.md",
+      "source_file": "source-material/the-arts/charlotte-country-day/CCD - The Arts - Deep Research.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Drama",
+      "source_file": "source-material/the-arts/charlotte-country-day/CCD - The Arts - Drama.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Facilities",
+      "source_file": "source-material/the-arts/charlotte-country-day/CCD - The Arts - Facilities.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Music",
+      "source_file": "source-material/the-arts/charlotte-country-day/CCD - The Arts - Music.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Program Overview",
+      "source_file": "source-material/the-arts/charlotte-country-day/CCD - The Arts - Program Overview.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Visual Arts",
+      "source_file": "source-material/the-arts/charlotte-country-day/CCD - The Arts - Visual Arts.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-country-day.md",
       "type": "pdf"
     },
     {
       "school_slug": "charlotte-latin",
       "school": "Charlotte Latin School",
-      "topic_slug": "after-school",
-      "topic": "After School",
-      "subtopic": "Enrichment and Talons",
-      "source_file": "source-material/after-school/charlotte-latin/Charlotte Latin - After School - Enrichment and Talons.pdf",
-      "note_file": ".claude/docs/after-school/charlotte-latin.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-latin",
-      "school": "Charlotte Latin School",
-      "topic_slug": "after-school",
-      "topic": "After School",
-      "subtopic": "Hawks Club",
-      "source_file": "source-material/after-school/charlotte-latin/Charlotte Latin - After School - Hawks Club.pdf",
-      "note_file": ".claude/docs/after-school/charlotte-latin.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-latin",
-      "school": "Charlotte Latin School",
-      "topic_slug": "after-school",
-      "topic": "After School",
-      "subtopic": "Pricing",
-      "source_file": "source-material/after-school/charlotte-latin/Charlotte Latin - After School - Pricing.md",
-      "note_file": ".claude/docs/after-school/charlotte-latin.md",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Arts Redesign Deep Research",
+      "source_file": "source-material/the-arts/charlotte-latin/Charlotte Latin - The Arts - Arts Redesign Deep Research.md",
+      "note_file": ".claude/docs/the-arts/charlotte-latin.md",
       "type": "md"
     },
     {
       "school_slug": "charlotte-latin",
       "school": "Charlotte Latin School",
-      "topic_slug": "after-school",
-      "topic": "After School",
-      "subtopic": "Program Overview",
-      "source_file": "source-material/after-school/charlotte-latin/Charlotte Latin - After School - Program Overview.pdf",
-      "note_file": ".claude/docs/after-school/charlotte-latin.md",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Awards and Recognition",
+      "source_file": "source-material/the-arts/charlotte-latin/Charlotte Latin - The Arts - Awards and Recognition.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-latin.md",
       "type": "pdf"
     },
     {
       "school_slug": "charlotte-latin",
       "school": "Charlotte Latin School",
-      "topic_slug": "after-school",
-      "topic": "After School",
-      "subtopic": "Redesign Research 2026",
-      "source_file": "source-material/after-school/charlotte-latin/Charlotte Latin - After School - Redesign Research 2026.md",
-      "note_file": ".claude/docs/after-school/charlotte-latin.md",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Deep Research",
+      "source_file": "source-material/the-arts/charlotte-latin/Charlotte Latin - The Arts - Deep Research.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Facilities",
+      "source_file": "source-material/the-arts/charlotte-latin/Charlotte Latin - The Arts - Facilities.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Performing Arts",
+      "source_file": "source-material/the-arts/charlotte-latin/Charlotte Latin - The Arts - Performing Arts.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Program Overview",
+      "source_file": "source-material/the-arts/charlotte-latin/Charlotte Latin - The Arts - Program Overview.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Visual Arts",
+      "source_file": "source-material/the-arts/charlotte-latin/Charlotte Latin - The Arts - Visual Arts.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Awards and Recognition",
+      "source_file": "source-material/the-arts/covenant-day/Covenant Day School - The Arts - Awards and Recognition.md",
+      "note_file": ".claude/docs/the-arts/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Deep Research",
+      "source_file": "source-material/the-arts/covenant-day/Covenant Day School - The Arts - Deep Research.md",
+      "note_file": ".claude/docs/the-arts/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Facilities",
+      "source_file": "source-material/the-arts/covenant-day/Covenant Day School - The Arts - Facilities.md",
+      "note_file": ".claude/docs/the-arts/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Music",
+      "source_file": "source-material/the-arts/covenant-day/Covenant Day School - The Arts - Music.md",
+      "note_file": ".claude/docs/the-arts/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Program Overview",
+      "source_file": "source-material/the-arts/covenant-day/Covenant Day School - The Arts - Program Overview.md",
+      "note_file": ".claude/docs/the-arts/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Theater and Drama",
+      "source_file": "source-material/the-arts/covenant-day/Covenant Day School - The Arts - Theater and Drama.md",
+      "note_file": ".claude/docs/the-arts/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Visual Arts",
+      "source_file": "source-material/the-arts/covenant-day/Covenant Day School - The Arts - Visual Arts.md",
+      "note_file": ".claude/docs/the-arts/covenant-day.md",
       "type": "md"
     },
     {
       "school_slug": "davidson-day",
       "school": "Davidson Day School",
-      "topic_slug": "after-school",
-      "topic": "After School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Arts Redesign Deep Research",
+      "source_file": "source-material/the-arts/davidson-day/Davidson Day - The Arts - Arts Redesign Deep Research.md",
+      "note_file": ".claude/docs/the-arts/davidson-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
       "subtopic": "Deep Research",
-      "source_file": "source-material/after-school/davidson-day/Davidson Day - After School - Deep Research.pdf",
-      "note_file": ".claude/docs/after-school/davidson-day.md",
+      "source_file": "source-material/the-arts/davidson-day/Davidson Day - The Arts - Deep Research.pdf",
+      "note_file": ".claude/docs/the-arts/davidson-day.md",
       "type": "pdf"
     },
     {
       "school_slug": "davidson-day",
       "school": "Davidson Day School",
-      "topic_slug": "after-school",
-      "topic": "After School",
-      "subtopic": "Extended Care",
-      "source_file": "source-material/after-school/davidson-day/Davidson Day - After School - Extended Care.pdf",
-      "note_file": ".claude/docs/after-school/davidson-day.md",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Performing Arts",
+      "source_file": "source-material/the-arts/davidson-day/Davidson Day - The Arts - Performing Arts.pdf",
+      "note_file": ".claude/docs/the-arts/davidson-day.md",
       "type": "pdf"
     },
     {
       "school_slug": "davidson-day",
       "school": "Davidson Day School",
-      "topic_slug": "after-school",
-      "topic": "After School",
-      "subtopic": "Pricing",
-      "source_file": "source-material/after-school/davidson-day/Davidson Day - After School - Pricing.md",
-      "note_file": ".claude/docs/after-school/davidson-day.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "davidson-day",
-      "school": "Davidson Day School",
-      "topic_slug": "after-school",
-      "topic": "After School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
       "subtopic": "Program Overview",
-      "source_file": "source-material/after-school/davidson-day/Davidson Day - After School - Program Overview.pdf",
-      "note_file": ".claude/docs/after-school/davidson-day.md",
+      "source_file": "source-material/the-arts/davidson-day/Davidson Day - The Arts - Program Overview.pdf",
+      "note_file": ".claude/docs/the-arts/davidson-day.md",
       "type": "pdf"
     },
     {
       "school_slug": "davidson-day",
       "school": "Davidson Day School",
-      "topic_slug": "after-school",
-      "topic": "After School",
-      "subtopic": "Redesign Research 2026",
-      "source_file": "source-material/after-school/davidson-day/Davidson Day - After School - Redesign Research 2026.md",
-      "note_file": ".claude/docs/after-school/davidson-day.md",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Visual Arts",
+      "source_file": "source-material/the-arts/davidson-day/Davidson Day - The Arts - Visual Arts.pdf",
+      "note_file": ".claude/docs/the-arts/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Arts Redesign Deep Research",
+      "source_file": "source-material/the-arts/providence-day/Providence Day - The Arts - Arts Redesign Deep Research.md",
+      "note_file": ".claude/docs/the-arts/providence-day.md",
       "type": "md"
     },
     {
       "school_slug": "providence-day",
       "school": "Providence Day School",
-      "topic_slug": "after-school",
-      "topic": "After School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Awards and Recognition",
+      "source_file": "source-material/the-arts/providence-day/Providence Day - The Arts - Awards and Recognition.pdf",
+      "note_file": ".claude/docs/the-arts/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
       "subtopic": "Deep Research",
-      "source_file": "source-material/after-school/providence-day/Providence Day - After School - Deep Research.pdf",
-      "note_file": ".claude/docs/after-school/providence-day.md",
+      "source_file": "source-material/the-arts/providence-day/Providence Day - The Arts - Deep Research.pdf",
+      "note_file": ".claude/docs/the-arts/providence-day.md",
       "type": "pdf"
     },
     {
       "school_slug": "providence-day",
       "school": "Providence Day School",
-      "topic_slug": "after-school",
-      "topic": "After School",
-      "subtopic": "Enrichment Classes Fall 2026",
-      "source_file": "source-material/after-school/providence-day/Providence Day - After School - Enrichment Classes Fall 2026.pdf",
-      "note_file": ".claude/docs/after-school/providence-day.md",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Music",
+      "source_file": "source-material/the-arts/providence-day/Providence Day - The Arts - Music.pdf",
+      "note_file": ".claude/docs/the-arts/providence-day.md",
       "type": "pdf"
     },
     {
       "school_slug": "providence-day",
       "school": "Providence Day School",
-      "topic_slug": "after-school",
-      "topic": "After School",
-      "subtopic": "Extended Day and Clubhouse",
-      "source_file": "source-material/after-school/providence-day/Providence Day - After School - Extended Day and Clubhouse.pdf",
-      "note_file": ".claude/docs/after-school/providence-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "providence-day",
-      "school": "Providence Day School",
-      "topic_slug": "after-school",
-      "topic": "After School",
-      "subtopic": "Pricing",
-      "source_file": "source-material/after-school/providence-day/Providence Day - After School - Pricing.md",
-      "note_file": ".claude/docs/after-school/providence-day.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "providence-day",
-      "school": "Providence Day School",
-      "topic_slug": "after-school",
-      "topic": "After School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
       "subtopic": "Program Overview",
-      "source_file": "source-material/after-school/providence-day/Providence Day - After School - Program Overview.pdf",
-      "note_file": ".claude/docs/after-school/providence-day.md",
+      "source_file": "source-material/the-arts/providence-day/Providence Day - The Arts - Program Overview.pdf",
+      "note_file": ".claude/docs/the-arts/providence-day.md",
       "type": "pdf"
     },
     {
       "school_slug": "providence-day",
       "school": "Providence Day School",
-      "topic_slug": "after-school",
-      "topic": "After School",
-      "subtopic": "Redesign Research 2026",
-      "source_file": "source-material/after-school/providence-day/Providence Day - After School - Redesign Research 2026.md",
-      "note_file": ".claude/docs/after-school/providence-day.md",
-      "type": "md"
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Theater",
+      "source_file": "source-material/the-arts/providence-day/Providence Day - The Arts - Theater.pdf",
+      "note_file": ".claude/docs/the-arts/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Visual Arts",
+      "source_file": "source-material/the-arts/providence-day/Providence Day - The Arts - Visual Arts.pdf",
+      "note_file": ".claude/docs/the-arts/providence-day.md",
+      "type": "pdf"
     },
     {
       "school_slug": "cannon",
@@ -3080,6 +3524,86 @@
       "type": "pdf"
     },
     {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Academic Case",
+      "source_file": "source-material/college-support/covenant-day/Covenant Day School - College Support - Academic Case.md",
+      "note_file": ".claude/docs/college-support/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Application Support",
+      "source_file": "source-material/college-support/covenant-day/Covenant Day School - College Support - Application Support.md",
+      "note_file": ".claude/docs/college-support/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Counseling Engine",
+      "source_file": "source-material/college-support/covenant-day/Covenant Day School - College Support - Counseling Engine.md",
+      "note_file": ".claude/docs/college-support/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Fit and the Whole Class",
+      "source_file": "source-material/college-support/covenant-day/Covenant Day School - College Support - Fit and the Whole Class.md",
+      "note_file": ".claude/docs/college-support/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Institutional Leverage",
+      "source_file": "source-material/college-support/covenant-day/Covenant Day School - College Support - Institutional Leverage.md",
+      "note_file": ".claude/docs/college-support/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Outcomes",
+      "source_file": "source-material/college-support/covenant-day/Covenant Day School - College Support - Outcomes.md",
+      "note_file": ".claude/docs/college-support/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Redesign Research 2026",
+      "source_file": "source-material/college-support/covenant-day/Covenant Day School - College Support - Redesign Research 2026.md",
+      "note_file": ".claude/docs/college-support/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Standing Out",
+      "source_file": "source-material/college-support/covenant-day/Covenant Day School - College Support - Standing Out.md",
+      "note_file": ".claude/docs/college-support/covenant-day.md",
+      "type": "md"
+    },
+    {
       "school_slug": "davidson-day",
       "school": "Davidson Day School",
       "topic_slug": "college-support",
@@ -3278,56 +3802,6 @@
       "source_file": "source-material/college-support/providence-day/Providence Day School College Counseling and Placement Program - Program Review and Outcomes Analysis - Deep Research.pdf",
       "note_file": ".claude/docs/college-support/providence-day.md",
       "type": "pdf"
-    },
-    {
-      "school_slug": "cannon",
-      "school": "Cannon School",
-      "topic_slug": "summer-programs",
-      "topic": "Summer Programs",
-      "subtopic": "Camp Catalog",
-      "source_file": "source-material/summer-programs/cannon/Cannon - Summer Programs - Camp Catalog.md",
-      "note_file": ".claude/docs/summer-programs/cannon.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "charlotte-christian",
-      "school": "Charlotte Christian School",
-      "topic_slug": "summer-programs",
-      "topic": "Summer Programs",
-      "subtopic": "Camp Catalog",
-      "source_file": "source-material/summer-programs/charlotte-christian/Charlotte Christian - Summer Programs - Camp Catalog.md",
-      "note_file": ".claude/docs/summer-programs/charlotte-christian.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "charlotte-country-day",
-      "school": "Charlotte Country Day School",
-      "topic_slug": "summer-programs",
-      "topic": "Summer Programs",
-      "subtopic": "Camp Catalog",
-      "source_file": "source-material/summer-programs/charlotte-country-day/CCD - Summer Programs - Camp Catalog.md",
-      "note_file": ".claude/docs/summer-programs/charlotte-country-day.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "charlotte-latin",
-      "school": "Charlotte Latin School",
-      "topic_slug": "summer-programs",
-      "topic": "Summer Programs",
-      "subtopic": "Camp Catalog",
-      "source_file": "source-material/summer-programs/charlotte-latin/Charlotte Latin - Summer Programs - Camp Catalog.md",
-      "note_file": ".claude/docs/summer-programs/charlotte-latin.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "providence-day",
-      "school": "Providence Day School",
-      "topic_slug": "summer-programs",
-      "topic": "Summer Programs",
-      "subtopic": "Camp Catalog",
-      "source_file": "source-material/summer-programs/providence-day/Providence Day - Summer Programs - Camp Catalog.md",
-      "note_file": ".claude/docs/summer-programs/providence-day.md",
-      "type": "md"
     }
   ]
 }

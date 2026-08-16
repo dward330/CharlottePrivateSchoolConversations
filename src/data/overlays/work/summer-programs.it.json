@@ -41,7 +41,9 @@
         "charlotte-country-day:catalog.categoryFilters[0].label",
         "charlotte-country-day:catalog.gradeFilters[0].label",
         "cannon:catalog.categoryFilters[0].label",
-        "cannon:catalog.gradeFilters[0].label"
+        "cannon:catalog.gradeFilters[0].label",
+        "covenant-day:catalog.categoryFilters[0].label",
+        "covenant-day:catalog.gradeFilters[0].label"
       ],
       "t": "Tutti"
     },
@@ -167,7 +169,18 @@
         "charlotte-christian:catalog.camps[21].categoryLabel",
         "charlotte-christian:catalog.camps[23].categoryLabel",
         "charlotte-christian:catalog.camps[24].categoryLabel",
-        "charlotte-christian:catalog.camps[25].categoryLabel"
+        "charlotte-christian:catalog.camps[25].categoryLabel",
+        "covenant-day:catalog.categoryFilters[2].label",
+        "covenant-day:catalog.camps[3].categoryLabel",
+        "covenant-day:catalog.camps[4].categoryLabel",
+        "covenant-day:catalog.camps[5].categoryLabel",
+        "covenant-day:catalog.camps[6].categoryLabel",
+        "covenant-day:catalog.camps[7].categoryLabel",
+        "covenant-day:catalog.camps[8].categoryLabel",
+        "covenant-day:catalog.camps[9].categoryLabel",
+        "covenant-day:catalog.camps[10].categoryLabel",
+        "covenant-day:catalog.camps[11].categoryLabel",
+        "covenant-day:catalog.camps[12].categoryLabel"
       ],
       "t": "Sport"
     },
@@ -201,7 +214,8 @@
       "text": "TK–K",
       "of": "ad9a656e",
       "at": [
-        "providence-day:catalog.gradeFilters[1].label"
+        "providence-day:catalog.gradeFilters[1].label",
+        "covenant-day:catalog.camps[1].gradeLabel"
       ],
       "t": "TK–K"
     },
@@ -479,7 +493,27 @@
         "cannon:catalog.camps[72].dayLabel",
         "cannon:catalog.camps[73].dayLabel",
         "cannon:catalog.camps[74].dayLabel",
-        "cannon:catalog.camps[75].dayLabel"
+        "cannon:catalog.camps[75].dayLabel",
+        "covenant-day:catalog.camps[0].dayLabel",
+        "covenant-day:catalog.camps[1].dayLabel",
+        "covenant-day:catalog.camps[2].dayLabel",
+        "covenant-day:catalog.camps[3].dayLabel",
+        "covenant-day:catalog.camps[4].dayLabel",
+        "covenant-day:catalog.camps[5].dayLabel",
+        "covenant-day:catalog.camps[6].dayLabel",
+        "covenant-day:catalog.camps[7].dayLabel",
+        "covenant-day:catalog.camps[8].dayLabel",
+        "covenant-day:catalog.camps[9].dayLabel",
+        "covenant-day:catalog.camps[10].dayLabel",
+        "covenant-day:catalog.camps[11].dayLabel",
+        "covenant-day:catalog.camps[12].dayLabel",
+        "covenant-day:catalog.camps[13].dayLabel",
+        "covenant-day:catalog.camps[14].dayLabel",
+        "covenant-day:catalog.camps[15].dayLabel",
+        "covenant-day:catalog.camps[16].dayLabel",
+        "covenant-day:catalog.camps[17].dayLabel",
+        "covenant-day:catalog.camps[18].dayLabel",
+        "covenant-day:catalog.camps[19].dayLabel"
       ],
       "t": "Lun–Ven"
     },
@@ -7862,7 +7896,10 @@
         "cannon:catalog.camps[52].categoryLabel",
         "cannon:catalog.camps[53].categoryLabel",
         "cannon:catalog.camps[54].categoryLabel",
-        "cannon:catalog.camps[55].categoryLabel"
+        "cannon:catalog.camps[55].categoryLabel",
+        "covenant-day:catalog.categoryFilters[4].label",
+        "covenant-day:catalog.camps[18].categoryLabel",
+        "covenant-day:catalog.camps[19].categoryLabel"
       ],
       "t": "STEM e materie accademiche"
     },
@@ -9423,6 +9460,589 @@
         "cannon:costPlanner.flags[1].text"
       ],
       "t": "Cannon non pubblica **alcuno sconto per fratelli, alcuno sconto per più settimane né aiuti finanziari per i campi**. L’unica riduzione di prezzo nella brochure 2026 è quella strutturale per la settimana 2 di quattro giorni."
+    },
+    {
+      "text": "20 camps named for summer 2026 across eight weeks, June 1 – July 31 — anchored by Camp Lion and Cub Camp, the traditional day camps that bundle care free.",
+      "of": "9dd79355",
+      "at": [
+        "covenant-day:catalog.headline"
+      ],
+      "t": "20 campi indicati per l’estate 2026 su otto settimane, dal 1 giugno al 31 luglio — imperniati su Camp Lion e Cub Camp, i campi diurni tradizionali che includono l’assistenza gratuitamente."
+    },
+    {
+      "text": "Registration runs on the CampBrain portal with early-bird discounts through February 27. The school markets \"29 camps\"; 20 are enumerable on the public page.",
+      "of": "8cc84630",
+      "at": [
+        "covenant-day:catalog.subhead"
+      ],
+      "t": "L’iscrizione si svolge sul portale CampBrain con sconti early-bird fino al 27 febbraio. La scuola pubblicizza \"29 camps\"; 20 sono enumerabili sulla pagina pubblica."
+    },
+    {
+      "text": "All 20 publicly named camps are listed. **Current per-camp prices and hours are portal-gated**, so prices below are estimates from the third-party current range ($170–$325/week) and the school’s own 2018 catalog — the care add-on rates on the Cost Planner are the school’s own current figures.",
+      "of": "f61120ce",
+      "at": [
+        "covenant-day:catalog.intro"
+      ],
+      "t": "Sono elencati tutti i 20 campi indicati pubblicamente. **I prezzi e gli orari attuali per campo sono protetti dal portale**, quindi i prezzi qui sotto sono stime basate sulla fascia attuale di terze parti ($170–$325/week) e sul catalogo 2018 della scuola stessa — le tariffe dei servizi di assistenza aggiuntivi sul Cost Planner sono le cifre attuali della scuola stessa."
+    },
+    {
+      "text": "Day Camps",
+      "of": "0f07ba8b",
+      "at": [
+        "covenant-day:catalog.categoryFilters[1].label",
+        "covenant-day:catalog.camps[0].categoryLabel",
+        "covenant-day:catalog.camps[1].categoryLabel",
+        "covenant-day:catalog.camps[2].categoryLabel",
+        "covenant-day:catalog.camps[13].categoryLabel"
+      ],
+      "t": "Day Camps"
+    },
+    {
+      "text": "Arts & Theater",
+      "of": "e043e144",
+      "at": [
+        "covenant-day:catalog.categoryFilters[3].label",
+        "covenant-day:catalog.camps[14].categoryLabel",
+        "covenant-day:catalog.camps[15].categoryLabel",
+        "covenant-day:catalog.camps[16].categoryLabel",
+        "covenant-day:catalog.camps[17].categoryLabel"
+      ],
+      "t": "Arts & Theater"
+    },
+    {
+      "text": "Lower School",
+      "of": "0921a0ca",
+      "at": [
+        "covenant-day:catalog.gradeFilters[1].label"
+      ],
+      "t": "Lower School"
+    },
+    {
+      "text": "Middle School",
+      "of": "15441234",
+      "at": [
+        "covenant-day:catalog.gradeFilters[2].label"
+      ],
+      "t": "Middle School"
+    },
+    {
+      "text": "High School",
+      "of": "8ab05d33",
+      "at": [
+        "covenant-day:catalog.gradeFilters[3].label"
+      ],
+      "t": "High School"
+    },
+    {
+      "text": "The traditional full-day camp — includes Before Care, After Care and Lunch Care at no extra cost, plus the sibling discount ($75 off full-day).",
+      "of": "cbd8029d",
+      "at": [
+        "covenant-day:catalog.camps[0].desc"
+      ],
+      "t": "Il campo tradizionale a giornata intera — include Before Care, After Care e Lunch Care senza costi aggiuntivi, più lo sconto fratelli ($75 off giornata intera)."
+    },
+    {
+      "text": "TK–5",
+      "of": "f79ad9ec",
+      "at": [
+        "covenant-day:catalog.camps[0].gradeLabel"
+      ],
+      "t": "TK–5"
+    },
+    {
+      "text": "full day + free care",
+      "of": "27301e3c",
+      "at": [
+        "covenant-day:catalog.camps[0].hours"
+      ],
+      "t": "giornata intera + assistenza gratuita"
+    },
+    {
+      "text": "The youngest campers’ day camp; care bundled free and $50 off half-day siblings.",
+      "of": "c60c8027",
+      "at": [
+        "covenant-day:catalog.camps[1].desc"
+      ],
+      "t": "Il campo diurno dei partecipanti più piccoli; assistenza inclusa gratuitamente e $50 off per i fratelli a mezza giornata."
+    },
+    {
+      "text": "half or full day",
+      "of": "d35bd998",
+      "at": [
+        "covenant-day:catalog.camps[1].hours"
+      ],
+      "t": "mezza o giornata intera"
+    },
+    {
+      "text": "The entry step below Cub Camp for the youngest age band.",
+      "of": "afbc159e",
+      "at": [
+        "covenant-day:catalog.camps[2].desc"
+      ],
+      "t": "Il gradino d’ingresso sotto Cub Camp per la fascia d’età più giovane."
+    },
+    {
+      "text": "JK–TK",
+      "of": "4b2301fa",
+      "at": [
+        "covenant-day:catalog.camps[2].gradeLabel"
+      ],
+      "t": "JK–TK"
+    },
+    {
+      "text": "half day",
+      "of": "c056cf86",
+      "at": [
+        "covenant-day:catalog.camps[2].hours",
+        "covenant-day:catalog.camps[4].hours",
+        "covenant-day:catalog.camps[5].hours",
+        "covenant-day:catalog.camps[6].hours",
+        "covenant-day:catalog.camps[7].hours",
+        "covenant-day:catalog.camps[8].hours",
+        "covenant-day:catalog.camps[9].hours",
+        "covenant-day:catalog.camps[10].hours",
+        "covenant-day:catalog.camps[11].hours",
+        "covenant-day:catalog.camps[13].hours",
+        "covenant-day:catalog.camps[15].hours",
+        "covenant-day:catalog.camps[16].hours",
+        "covenant-day:catalog.camps[17].hours",
+        "covenant-day:catalog.camps[18].hours"
+      ],
+      "t": "mezza giornata"
+    },
+    {
+      "text": "In the 2018 catalog this ran as half- or full-day (9–12, 1–4, or 9–4) — the pattern the current camp likely follows.",
+      "of": "fb03c29a",
+      "at": [
+        "covenant-day:catalog.camps[3].desc"
+      ],
+      "t": "Nel catalogo 2018 si svolgeva a mezza giornata o a giornata intera (9–12, 1–4, o 9–4) — lo schema che il campo attuale probabilmente segue."
+    },
+    {
+      "text": "Gr 2–8",
+      "of": "d0402471",
+      "at": [
+        "covenant-day:catalog.camps[3].gradeLabel"
+      ],
+      "t": "Gr 2–8"
+    },
+    {
+      "text": "9–12 / 1–4 / 9–4",
+      "of": "2b28cdf6",
+      "at": [
+        "covenant-day:catalog.camps[3].hours"
+      ],
+      "t": "9–12 / 1–4 / 9–4"
+    },
+    {
+      "text": "Skill development with the program’s coaches — $185/week half-day in the 2018 catalog.",
+      "of": "a7b81ba5",
+      "at": [
+        "covenant-day:catalog.camps[4].desc"
+      ],
+      "t": "Sviluppo delle abilità con gli allenatori del programma — $185/week a mezza giornata nel catalogo 2018."
+    },
+    {
+      "text": "Gr 1–8",
+      "of": "6554aeb4",
+      "at": [
+        "covenant-day:catalog.camps[4].gradeLabel"
+      ],
+      "t": "Gr 1–8"
+    },
+    {
+      "text": "Runs at Warner Park, the 27-acre athletic campus.",
+      "of": "3d4e5a74",
+      "at": [
+        "covenant-day:catalog.camps[5].desc"
+      ],
+      "t": "Si svolge a Warner Park, il campus atletico di 27 acri."
+    },
+    {
+      "text": "LS–MS",
+      "of": "ea9b4475",
+      "at": [
+        "covenant-day:catalog.camps[5].gradeLabel",
+        "covenant-day:catalog.camps[6].gradeLabel",
+        "covenant-day:catalog.camps[10].gradeLabel",
+        "covenant-day:catalog.camps[13].gradeLabel",
+        "covenant-day:catalog.camps[17].gradeLabel",
+        "covenant-day:catalog.camps[18].gradeLabel"
+      ],
+      "t": "LS–MS"
+    },
+    {
+      "text": "Warner Park fields.",
+      "of": "b85a8cf3",
+      "at": [
+        "covenant-day:catalog.camps[6].desc"
+      ],
+      "t": "Campi di Warner Park."
+    },
+    {
+      "text": "Run inside the program with three straight state runner-up finishes.",
+      "of": "59a763a5",
+      "at": [
+        "covenant-day:catalog.camps[7].desc"
+      ],
+      "t": "Si svolge all’interno del programma con tre secondi posti statali consecutivi."
+    },
+    {
+      "text": "MS–HS",
+      "of": "aeca4f7b",
+      "at": [
+        "covenant-day:catalog.camps[7].gradeLabel",
+        "covenant-day:catalog.camps[8].gradeLabel",
+        "covenant-day:catalog.camps[11].gradeLabel"
+      ],
+      "t": "MS–HS"
+    },
+    {
+      "text": "The varsity program’s camp; a separate Lower School Field Hockey camp feeds it.",
+      "of": "9530da25",
+      "at": [
+        "covenant-day:catalog.camps[8].desc"
+      ],
+      "t": "Il campo del programma varsity; un campo separato di Lower School Field Hockey vi porta i partecipanti."
+    },
+    {
+      "text": "The entry-level stick-skills week.",
+      "of": "79e58eca",
+      "at": [
+        "covenant-day:catalog.camps[9].desc"
+      ],
+      "t": "La settimana d’ingresso di abilità con il bastone."
+    },
+    {
+      "text": "LS",
+      "of": "75e26068",
+      "at": [
+        "covenant-day:catalog.camps[9].gradeLabel",
+        "covenant-day:catalog.camps[15].gradeLabel",
+        "covenant-day:catalog.camps[16].gradeLabel"
+      ],
+      "t": "LS"
+    },
+    {
+      "text": "Sideline and spirit fundamentals.",
+      "of": "8321d01c",
+      "at": [
+        "covenant-day:catalog.camps[10].desc"
+      ],
+      "t": "Fondamentali di sideline e spirit."
+    },
+    {
+      "text": "On the six new hard courts.",
+      "of": "f817fb9c",
+      "at": [
+        "covenant-day:catalog.camps[11].desc"
+      ],
+      "t": "Sui sei nuovi campi in cemento."
+    },
+    {
+      "text": "The Webb Fitness Center program, run by the school’s S&C coach — the same summer lifting the varsity athletes do.",
+      "of": "2e9659bb",
+      "at": [
+        "covenant-day:catalog.camps[12].desc"
+      ],
+      "t": "Il programma del Webb Fitness Center, condotto dal coach S&C della scuola — lo stesso sollevamento estivo che fanno gli atleti varsity."
+    },
+    {
+      "text": "Gr 6–12",
+      "of": "5a57e078",
+      "at": [
+        "covenant-day:catalog.camps[12].gradeLabel"
+      ],
+      "t": "Gr 6–12"
+    },
+    {
+      "text": "sessions",
+      "of": "130573cc",
+      "at": [
+        "covenant-day:catalog.camps[12].hours",
+        "covenant-day:catalog.camps[19].hours"
+      ],
+      "t": "sessioni"
+    },
+    {
+      "text": "The pure-fun week.",
+      "of": "9ee1d298",
+      "at": [
+        "covenant-day:catalog.camps[13].desc"
+      ],
+      "t": "La settimana del puro divertimento."
+    },
+    {
+      "text": "Includes Lunch Care free — the one non-day-camp with bundled care.",
+      "of": "9710a44d",
+      "at": [
+        "covenant-day:catalog.camps[14].desc"
+      ],
+      "t": "Include Lunch Care gratuita — l’unico non-campo-diurno con assistenza inclusa."
+    },
+    {
+      "text": "MS",
+      "of": "35dfbd11",
+      "at": [
+        "covenant-day:catalog.camps[14].gradeLabel"
+      ],
+      "t": "MS"
+    },
+    {
+      "text": "full day incl. lunch",
+      "of": "6cdcfa40",
+      "at": [
+        "covenant-day:catalog.camps[14].hours"
+      ],
+      "t": "giornata intera incl. pranzo"
+    },
+    {
+      "text": "The stage-first week for younger students.",
+      "of": "e3899851",
+      "at": [
+        "covenant-day:catalog.camps[15].desc"
+      ],
+      "t": "La settimana incentrata sul palco per gli studenti più giovani."
+    },
+    {
+      "text": "Studio sampler in the visual-arts rooms.",
+      "of": "a6d6d5ee",
+      "at": [
+        "covenant-day:catalog.camps[16].desc"
+      ],
+      "t": "Assaggio di studio nelle sale di arti visive."
+    },
+    {
+      "text": "The culinary week.",
+      "of": "15b6f079",
+      "at": [
+        "covenant-day:catalog.camps[17].desc"
+      ],
+      "t": "La settimana culinaria."
+    },
+    {
+      "text": "The STEM week.",
+      "of": "45e94be3",
+      "at": [
+        "covenant-day:catalog.camps[18].desc"
+      ],
+      "t": "La settimana STEM."
+    },
+    {
+      "text": "A high-school week run against the guidance office’s calendar — the rare HS academic camp in this set.",
+      "of": "84c5fdd7",
+      "at": [
+        "covenant-day:catalog.camps[19].desc"
+      ],
+      "t": "Una settimana per la scuola superiore programmata in base al calendario dell’ufficio di orientamento — il raro campo accademico HS in questo gruppo."
+    },
+    {
+      "text": "HS",
+      "of": "6deb4e2c",
+      "at": [
+        "covenant-day:catalog.camps[19].gradeLabel"
+      ],
+      "t": "HS"
+    },
+    {
+      "text": "Per-camp prices and hours are **estimates**: current figures are gated behind the CampBrain registration portal, so the range shown is the third-party current figure ($170–$325/week), with hours patterned on the school’s own 2018 catalog where the same camp existed.",
+      "of": "bed818fc",
+      "at": [
+        "covenant-day:catalog.flags[0].text"
+      ],
+      "t": "I prezzi e gli orari per campo sono **stime**: le cifre attuali sono protette dietro il portale d’iscrizione CampBrain, quindi la fascia mostrata è la cifra attuale di terze parti ($170–$325/week), con orari modellati sul catalogo 2018 della scuola stessa dove lo stesso campo esisteva."
+    },
+    {
+      "text": "The school markets \"**29 camps**\"; the public page enumerates 20 (a 21st listing, \"Splash Squad,\" is a staff position). Per-week variants and portal-only camps likely account for the difference.",
+      "of": "19b8adfa",
+      "at": [
+        "covenant-day:catalog.flags[1].text"
+      ],
+      "t": "La scuola pubblicizza \"**29 camps**\"; la pagina pubblica ne enumera 20 (una 21ª voce, \"Splash Squad\", è una posizione di staff). Varianti settimanali e campi solo su portale probabilmente spiegano la differenza."
+    },
+    {
+      "text": "The last document publishing per-camp price + hours + grades together is the **2018 catalog** (e.g. Baseball $185/wk half-day, Basketball $150 half / $250 full) — eight years old, kept as a documented sample only.",
+      "of": "7164dbc0",
+      "at": [
+        "covenant-day:catalog.flags[2].text"
+      ],
+      "t": "L’ultimo documento che pubblica insieme prezzo + orari + classi per campo è il **catalogo 2018** (es. Baseball $185/wk mezza giornata, Basketball $150 mezza / $250 intera) — vecchio di otto anni, conservato solo come campione documentato."
+    },
+    {
+      "text": "Budget $170–$325 a week for camp itself — then $50 before-care, $50 after-care and $30 lunch care, unless Camp Lion or Cub Camp bundles all three free.",
+      "of": "02b6638d",
+      "at": [
+        "covenant-day:costPlanner.headline"
+      ],
+      "t": "Prevedi $170–$325 alla settimana per il campo in sé — poi $50 di before-care, $50 di after-care e $30 di lunch care, a meno che Camp Lion o Cub Camp non li includa tutti e tre gratuitamente."
+    },
+    {
+      "text": "Eight weeks are available (June 1 – July 31, skipping the week of June 29). A $50 non-refundable registration fee is already inside every camp price.",
+      "of": "132286f9",
+      "at": [
+        "covenant-day:costPlanner.subhead"
+      ],
+      "t": "Sono disponibili otto settimane (1 giugno – 31 luglio, saltando la settimana del 29 giugno). Una quota d’iscrizione non rimborsabile di $50 è già inclusa in ogni prezzo del campo."
+    },
+    {
+      "text": "Lower-end week",
+      "of": "e61d1052",
+      "at": [
+        "covenant-day:costPlanner.tiers[0].label"
+      ],
+      "t": "Settimana di fascia bassa"
+    },
+    {
+      "text": "Half-day specialty camp · lower end of the range",
+      "of": "cf01ca64",
+      "at": [
+        "covenant-day:costPlanner.tiers[0].panelLabel"
+      ],
+      "t": "Campo specialistico a mezza giornata · fascia bassa"
+    },
+    {
+      "text": "The bottom of the third-party current range.",
+      "of": "35583467",
+      "at": [
+        "covenant-day:costPlanner.tiers[0].detail"
+      ],
+      "t": "Il fondo della fascia attuale di terze parti."
+    },
+    {
+      "text": "Mid-range week",
+      "of": "66df0c1f",
+      "at": [
+        "covenant-day:costPlanner.tiers[1].label"
+      ],
+      "t": "Settimana di fascia media"
+    },
+    {
+      "text": "Typical camp week · middle of the range",
+      "of": "fe1e10cd",
+      "at": [
+        "covenant-day:costPlanner.tiers[1].panelLabel"
+      ],
+      "t": "Settimana di campo tipica · fascia media"
+    },
+    {
+      "text": "Midpoint estimate; the 2018 catalog’s full-day camps sat near here.",
+      "of": "da808e99",
+      "at": [
+        "covenant-day:costPlanner.tiers[1].detail"
+      ],
+      "t": "Stima del punto medio; i campi a giornata intera del catalogo 2018 si collocavano intorno a qui."
+    },
+    {
+      "text": "Upper-end week",
+      "of": "5a2a4651",
+      "at": [
+        "covenant-day:costPlanner.tiers[2].label"
+      ],
+      "t": "Settimana di fascia alta"
+    },
+    {
+      "text": "Full-day camp · top of the range",
+      "of": "3d00c339",
+      "at": [
+        "covenant-day:costPlanner.tiers[2].panelLabel"
+      ],
+      "t": "Campo a giornata intera · fascia alta"
+    },
+    {
+      "text": "The top of the third-party current range. Camp Lion bundles all three care add-ons free at full day.",
+      "of": "93984051",
+      "at": [
+        "covenant-day:costPlanner.tiers[2].detail"
+      ],
+      "t": "Il vertice della fascia attuale di terze parti. Camp Lion include tutti e tre i servizi di assistenza aggiuntivi gratuitamente a giornata intera."
+    },
+    {
+      "text": "Before Care 7:30–8:45 am (TK–8)",
+      "of": "88076342",
+      "at": [
+        "covenant-day:costPlanner.addons[0].label"
+      ],
+      "t": "Before Care 7:30–8:45 am (TK–8)"
+    },
+    {
+      "text": "After Care 4:00–5:30 pm (TK–8)",
+      "of": "287828c5",
+      "at": [
+        "covenant-day:costPlanner.addons[1].label"
+      ],
+      "t": "After Care 4:00–5:30 pm (TK–8)"
+    },
+    {
+      "text": "Lunch Care 12–1 pm (bring lunch)",
+      "of": "041229f1",
+      "at": [
+        "covenant-day:costPlanner.addons[2].label"
+      ],
+      "t": "Lunch Care 12–1 pm (porta il pranzo)"
+    },
+    {
+      "text": "Registration (non-refundable, included in camp cost)",
+      "of": "2c6d3da4",
+      "at": [
+        "covenant-day:costPlanner.fees[0].label"
+      ],
+      "t": "Iscrizione (non rimborsabile, inclusa nel costo del campo)"
+    },
+    {
+      "text": "Camp exchange",
+      "of": "2304c979",
+      "at": [
+        "covenant-day:costPlanner.fees[1].label"
+      ],
+      "t": "Cambio campo"
+    },
+    {
+      "text": "Cancellation before May 1",
+      "of": "3a3bd087",
+      "at": [
+        "covenant-day:costPlanner.fees[2].label"
+      ],
+      "t": "Disdetta prima del 1 maggio"
+    },
+    {
+      "text": "**Camp Lion (Full Day), Cub Camp and MS Musical Theater include care free** — Before and After Care for the day camps, Lunch Care for all three. Leave the toggles off for those weeks.",
+      "of": "55ffd32d",
+      "at": [
+        "covenant-day:costPlanner.fees[3].label"
+      ],
+      "t": "**Camp Lion (Full Day), Cub Camp e MS Musical Theater includono l’assistenza gratuitamente** — Before e After Care per i campi diurni, Lunch Care per tutti e tre. Lascia gli interruttori disattivati per quelle settimane."
+    },
+    {
+      "text": "Sibling discounts on the day camps: **$50 off half-day / $75 off full-day** for each additional registration. Cancellations after May 1 refund 50% (≥14 days out) and nothing inside 14 days.",
+      "of": "83b45435",
+      "at": [
+        "covenant-day:costPlanner.fees[4].label"
+      ],
+      "t": "Sconti fratelli sui campi diurni: **$50 off mezza giornata / $75 off giornata intera** per ogni iscrizione aggiuntiva. Le disdette dopo il 1 maggio rimborsano il 50% (≥14 giorni prima) e nulla entro i 14 giorni."
+    },
+    {
+      "text": "Early-bird pricing ends February 27.",
+      "of": "d519c42d",
+      "at": [
+        "covenant-day:costPlanner.aside.title"
+      ],
+      "t": "Il prezzo early-bird termina il 27 febbraio."
+    },
+    {
+      "text": "Registration is open on the CampBrain portal, closing at **noon the Friday before each camp week**. Camps are open to the community, and grade means the **rising** grade for the coming school year.",
+      "of": "6340cffb",
+      "at": [
+        "covenant-day:costPlanner.aside.text"
+      ],
+      "t": "L’iscrizione è aperta sul portale CampBrain e chiude a **mezzogiorno del venerdì prima di ogni settimana di campo**. I campi sono aperti alla comunità, e la classe indica la classe **in ingresso** per il prossimo anno scolastico."
+    },
+    {
+      "text": "All three week tiers are **estimates** — the school publishes no current per-camp price list; only the care add-ons and fee policies above are its own current figures.",
+      "of": "09c29363",
+      "at": [
+        "covenant-day:costPlanner.flags[0].text"
+      ],
+      "t": "Tutte e tre le fasce settimanali sono **stime** — la scuola non pubblica alcun listino attuale dei prezzi per campo; solo i servizi di assistenza aggiuntivi e le politiche sulle quote qui sopra sono le sue cifre attuali."
     }
   ]
 }

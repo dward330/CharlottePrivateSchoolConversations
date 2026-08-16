@@ -1,5 +1,5 @@
 # Charlotte Country Day School — After School
-> Distilled from 6 source document(s) in `source-material/after-school/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-07-27.
+> Distilled from 6 source document(s) in `source-material/after-school/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-16.
 **Documents:** Deep Research, Enrichment and Swim, Extended Day, Pricing, Program Overview, Redesign Research 2026
 
 

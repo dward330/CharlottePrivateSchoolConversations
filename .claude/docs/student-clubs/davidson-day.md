@@ -1,5 +1,5 @@
 # Davidson Day School — Student Clubs
-> Distilled from 9 source document(s) in `source-material/student-clubs/davidson-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-07-26.
+> Distilled from 9 source document(s) in `source-material/student-clubs/davidson-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-16.
 **Documents:** AFAR Archaeology and Global Studies, Academic Recognition and Competition, Club Catalog and Overview, Diversity Belonging and Student Leadership, NotebookLM Prompt, Publications and Student Media, Service and Community Engagement, Signature Traditions and Student Life, Clubs Redesign Deep Research
 
 

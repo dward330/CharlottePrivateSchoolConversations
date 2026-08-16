@@ -53,6 +53,14 @@
       "t": "129"
     },
     {
+      "text": "80",
+      "of": "9201aa55",
+      "at": [
+        "providence-day:[0].values.covenant-day"
+      ],
+      "t": "80"
+    },
+    {
       "text": "~75",
       "of": "2892a2f5",
       "at": [
@@ -75,6 +83,14 @@
         "providence-day:[0].quals.charlotte-christian.text"
       ],
       "t": "نحو 135 عنوانًا فريدًا للمقررات؛ 6 منها مُدرَجة في قسمين معًا، لذا فإن الإحصاء قسمًا بقسم سيعدّها مرتين."
+    },
+    {
+      "text": "Counted as level-qualified entries in the school’s 2026–27 High School Profile course matrix — a title offered at CP, Honors and AP counts once per level, matching how the other schools’ catalogs list courses. About 65 distinct titles.",
+      "of": "ae72641d",
+      "at": [
+        "providence-day:[0].quals.covenant-day.text"
+      ],
+      "t": "مُحتسبة كمُدخلات مؤهَّلة بحسب المستوى في مصفوفة مقررات High School Profile الخاصة بالمدرسة لعام 2026–27 — فالعنوان المُقدَّم بمستويات CP وHonors وAP يُحتسب مرة واحدة لكل مستوى، بما يطابق طريقة إدراج المقررات في أدلة المدارس الأخرى. نحو 65 عنوانًا متمايزًا."
     },
     {
       "text": "74 courses are described in the 2026–27 catalog, with one more (AP Spanish Literature) listed without a description. The school’s own offerings grid shows 66.",
@@ -141,6 +157,14 @@
       "t": "22 مادة AP"
     },
     {
+      "text": "15 AP",
+      "of": "04783c00",
+      "at": [
+        "providence-day:[1].values.covenant-day"
+      ],
+      "t": "15 AP"
+    },
+    {
       "text": "26 AP",
       "of": "475d503a",
       "at": [
@@ -181,6 +205,14 @@
       "t": "الرقم 22 هو الرقم الذي تذكره المدرسة نفسها؛ لكن 23 مُدخلًا يحمل عنوان AP يظهر فعليًا في صفحة المقررات المُقدَّمة."
     },
     {
+      "text": "15 AP courses in the 2026–27 High School Profile course matrix. The school’s own earlier editions ran higher (up to 18 in 2024–25, when AP Calculus BC, Human Geography and French were offered) — the catalog flexes with enrollment, and the current profile overrides third-party counts of 15–21.",
+      "of": "0fc35999",
+      "at": [
+        "providence-day:[1].quals.covenant-day.text"
+      ],
+      "t": "15 مقررًا من مقررات AP في مصفوفة مقررات High School Profile لعام 2026–27. وكانت الإصدارات السابقة للمدرسة نفسها أعلى (حتى 18 في 2024–25، حين كانت تُقدَّم AP Calculus BC وHuman Geography وFrench) — فالدليل يتغيّر مع أعداد الملتحقين، والملف الحالي له الأولوية على تعدادات الأطراف الثالثة البالغة 15–21."
+    },
+    {
       "text": "28 AP courses are described in the catalog, whose prose names 27 subject areas.",
       "of": "558bb6a0",
       "at": [
@@ -210,6 +242,7 @@
       "at": [
         "providence-day:[2].values.cannon",
         "providence-day:[24].values.charlotte-country-day",
+        "providence-day:[24].values.covenant-day",
         "providence-day:[28].values.charlotte-christian"
       ],
       "t": "8"
@@ -228,9 +261,11 @@
       "of": "3c0cb3b4",
       "at": [
         "providence-day:[2].values.charlotte-country-day",
+        "providence-day:[2].values.covenant-day",
         "providence-day:[2].values.davidson-day",
         "providence-day:[24].values.providence-day",
         "providence-day:[28].values.charlotte-country-day",
+        "providence-day:[29].values.covenant-day",
         "providence-day:[29].values.davidson-day"
       ],
       "t": "9"
@@ -284,6 +319,14 @@
       "t": "93%"
     },
     {
+      "text": "96%",
+      "of": "3ec55d39",
+      "at": [
+        "providence-day:[3].values.covenant-day"
+      ],
+      "t": "96%"
+    },
+    {
       "text": "94%",
       "of": "3ac0d9bf",
       "at": [
@@ -298,6 +341,14 @@
         "providence-day:[3].quals.cannon.text"
       ],
       "t": "حصل نحو 92% من اختبارات AP على درجة 3 أو أعلى (تُبلِّغ المدرسة عن 92.39%). ودرجة 3+ هي المستوى الذي تعدّه معظم الجامعات نتيجة ناجحة."
+    },
+    {
+      "text": "96% of AP exams scored 3 or higher in 2026 (179 students took 401 exams; every AP student must sit the exam). A score of 3+ is the level most colleges treat as a passing result.",
+      "of": "147dc5b9",
+      "at": [
+        "providence-day:[3].quals.covenant-day.text"
+      ],
+      "t": "حصل 96% من اختبارات AP على درجة 3 أو أعلى في 2026 (خاض 179 طالبًا 401 اختبارًا؛ وعلى كل طالب AP أن يتقدّم للاختبار). ودرجة 3+ هي المستوى الذي تعدّه معظم الجامعات نتيجة ناجحة."
     },
     {
       "text": "89% of AP exams scored 3 or higher in 2024 (265 of 298). A score of 3+ is the level most colleges treat as a passing result.",
@@ -352,7 +403,8 @@
       "text": "2 / 8",
       "of": "10390c08",
       "at": [
-        "providence-day:[4].values.charlotte-christian"
+        "providence-day:[4].values.charlotte-christian",
+        "providence-day:[4].values.covenant-day"
       ],
       "t": "2 / 8"
     },
@@ -411,6 +463,14 @@
         "providence-day:[4].quals.charlotte-latin.text"
       ],
       "t": "تظهر 5 من جامعات Ivy League الـ8 في قائمة القبول المنشورة لمدرسة Charlotte Latin، مُطابَقةً مع جداول U.S. News لعام 2026 — وليس رقمًا تُبلِّغ عنه المدرسة نفسها."
+    },
+    {
+      "text": "2 of the 8 Ivy League universities appear on Covenant Day’s published 2023–2026 acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.",
+      "of": "df93ecf2",
+      "at": [
+        "providence-day:[4].quals.covenant-day.text"
+      ],
+      "t": "تظهر 2 من جامعات Ivy League الـ8 في قائمة القبول المنشورة لمدرسة Covenant Day للفترة 2023–2026، مُطابَقةً مع جداول U.S. News لعام 2026 — وليس رقمًا تُبلِّغ عنه المدرسة نفسها."
     },
     {
       "text": "3 of the 8 Ivy League universities appear on Davidson Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.",
@@ -477,6 +537,14 @@
       "t": "12 / 17"
     },
     {
+      "text": "3 / 17",
+      "of": "643ee7d5",
+      "at": [
+        "providence-day:[5].values.covenant-day"
+      ],
+      "t": "3 / 17"
+    },
+    {
       "text": "8 / 17",
       "of": "50395612",
       "at": [
@@ -523,6 +591,14 @@
         "providence-day:[5].quals.charlotte-latin.text"
       ],
       "t": "تظهر 12 من مؤسسات Ivy Plus الـ17 في قائمة القبول المنشورة لمدرسة Charlotte Latin، مُطابَقةً مع جداول U.S. News لعام 2026 — وليس رقمًا تُبلِّغ عنه المدرسة نفسها."
+    },
+    {
+      "text": "3 of the 17 “Ivy Plus” institutions appear on Covenant Day’s published 2023–2026 acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.",
+      "of": "b37767c2",
+      "at": [
+        "providence-day:[5].quals.covenant-day.text"
+      ],
+      "t": "تظهر 3 من مؤسسات Ivy Plus الـ17 في قائمة القبول المنشورة لمدرسة Covenant Day للفترة 2023–2026، مُطابَقةً مع جداول U.S. News لعام 2026 — وليس رقمًا تُبلِّغ عنه المدرسة نفسها."
     },
     {
       "text": "8 of the 17 “Ivy Plus” institutions appear on Davidson Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.",
@@ -589,6 +665,15 @@
       "t": "53 / 75"
     },
     {
+      "text": "40 / 75",
+      "of": "7e1b96b4",
+      "at": [
+        "providence-day:[6].values.covenant-day",
+        "providence-day:[7].values.charlotte-latin"
+      ],
+      "t": "40 / 75"
+    },
+    {
       "text": "44 / 75",
       "of": "478803e0",
       "at": [
@@ -635,6 +720,14 @@
         "providence-day:[6].quals.charlotte-latin.text"
       ],
       "t": "تظهر 53 من أفضل 75 من الجامعات الوطنية في قائمة القبول المنشورة لمدرسة Charlotte Latin، مُطابَقةً مع جداول U.S. News لعام 2026 — وليس رقمًا تُبلِّغ عنه المدرسة نفسها."
+    },
+    {
+      "text": "40 of the top 75 National Universities appear on Covenant Day’s published 2023–2026 acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.",
+      "of": "00b089d2",
+      "at": [
+        "providence-day:[6].quals.covenant-day.text"
+      ],
+      "t": "تظهر 40 من أفضل 75 من الجامعات الوطنية في قائمة القبول المنشورة لمدرسة Covenant Day للفترة 2023–2026، مُطابَقةً مع جداول U.S. News لعام 2026 — وليس رقمًا تُبلِّغ عنه المدرسة نفسها."
     },
     {
       "text": "44 of the top 75 National Universities appear on Davidson Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.",
@@ -693,12 +786,12 @@
       "t": "41 / 75"
     },
     {
-      "text": "40 / 75",
-      "of": "7e1b96b4",
+      "text": "9 / 75",
+      "of": "fff53af3",
       "at": [
-        "providence-day:[7].values.charlotte-latin"
+        "providence-day:[7].values.covenant-day"
       ],
-      "t": "40 / 75"
+      "t": "9 / 75"
     },
     {
       "text": "26 / 75",
@@ -747,6 +840,14 @@
         "providence-day:[7].quals.charlotte-latin.text"
       ],
       "t": "تظهر 40 من أفضل 75 من كليات الآداب الحرة في قائمة القبول المنشورة لمدرسة Charlotte Latin، مُطابَقةً مع جداول U.S. News لعام 2026 — وليس رقمًا تُبلِّغ عنه المدرسة نفسها."
+    },
+    {
+      "text": "9 of the top 75 Liberal Arts Colleges appear on Covenant Day’s published 2023–2026 acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.",
+      "of": "1a7554c4",
+      "at": [
+        "providence-day:[7].quals.covenant-day.text"
+      ],
+      "t": "تظهر 9 من أفضل 75 من كليات الآداب الحرة في قائمة القبول المنشورة لمدرسة Covenant Day للفترة 2023–2026، مُطابَقةً مع جداول U.S. News لعام 2026 — وليس رقمًا تُبلِّغ عنه المدرسة نفسها."
     },
     {
       "text": "26 of the top 75 Liberal Arts Colleges appear on Davidson Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.",
@@ -806,6 +907,14 @@
       "t": "53 / 68"
     },
     {
+      "text": "46 / 68",
+      "of": "26efa6ac",
+      "at": [
+        "providence-day:[8].values.covenant-day"
+      ],
+      "t": "46 / 68"
+    },
+    {
       "text": "42 / 68",
       "of": "a1f5c978",
       "at": [
@@ -852,6 +961,14 @@
         "providence-day:[8].quals.charlotte-latin.text"
       ],
       "t": "مُحتسَبة من قائمة القبول المنشورة للمدرسة مقابل اتحادات Power Four. بلغ إحصاء الباحث الخاص 62؛ أما الرقم المعروض، 53، فهو العدّ المتحفّظ المُبيَّن في هذا الجدول."
+    },
+    {
+      "text": "46 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Covenant Day’s published 2023–2026 acceptance list — 14 ACC, 12 SEC, 11 Big Ten, 9 Big 12. Not a figure the school reports itself.",
+      "of": "fae6fddf",
+      "at": [
+        "providence-day:[8].quals.covenant-day.text"
+      ],
+      "t": "تظهر 46 من جامعات Power Four الـ68 (ACC وBig Ten وBig 12 وSEC، إضافةً إلى Notre Dame) في قائمة القبول المنشورة لمدرسة Covenant Day للفترة 2023–2026 — منها 14 ACC، و12 SEC، و11 Big Ten، و9 Big 12. وليس رقمًا تُبلِّغ عنه المدرسة نفسها."
     },
     {
       "text": "42 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Davidson Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.",
@@ -921,6 +1038,7 @@
       "text": "3 / 107",
       "of": "b0f5bfa5",
       "at": [
+        "providence-day:[9].values.covenant-day",
         "providence-day:[9].values.davidson-day"
       ],
       "t": "3 / 107"
@@ -964,6 +1082,14 @@
         "providence-day:[9].quals.charlotte-latin.text"
       ],
       "t": "تظهر 6 من الـ107 Historically Black Colleges & Universities في قائمة القبول المنشورة لمدرسة Charlotte Latin، مُطابَقةً مع جداول U.S. News لعام 2026 — وليس رقمًا تُبلِّغ عنه المدرسة نفسها."
+    },
+    {
+      "text": "3 of the 107 Historically Black Colleges & Universities appear on Covenant Day’s published 2023–2026 acceptance list — Fayetteville State, Johnson C. Smith, and NC A&T. Not a figure the school reports itself.",
+      "of": "583a906f",
+      "at": [
+        "providence-day:[9].quals.covenant-day.text"
+      ],
+      "t": "تظهر 3 من الـ107 Historically Black Colleges & Universities في قائمة القبول المنشورة لمدرسة Covenant Day للفترة 2023–2026 — وهي Fayetteville State وJohnson C. Smith وNC A&T. وليس رقمًا تُبلِّغ عنه المدرسة نفسها."
     },
     {
       "text": "3 of the 107 Historically Black Colleges & Universities appear on Davidson Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.",
@@ -1030,6 +1156,14 @@
       "t": "~36:1"
     },
     {
+      "text": "85:1",
+      "of": "1a9bb18f",
+      "at": [
+        "providence-day:[10].values.covenant-day"
+      ],
+      "t": "85:1"
+    },
+    {
       "text": "~23:1",
       "of": "32575577",
       "at": [
@@ -1076,6 +1210,14 @@
         "providence-day:[10].quals.charlotte-latin.text"
       ],
       "t": "نحو 36–37 طالبًا في السنة الأخيرة لكل مرشد جامعي في ذروة موسم التقديم. وكلما انخفضت النسبة زاد وقت المرشد المتاح لكل طالب."
+    },
+    {
+      "text": "85 seniors against one dedicated Guidance & College Counseling Director — the heaviest caseload here, cushioned by a second guidance counselor and a guidance assistant who carry the non-college load. A lower ratio means more counselor time per student.",
+      "of": "28cd3465",
+      "at": [
+        "providence-day:[10].quals.covenant-day.text"
+      ],
+      "t": "85 طالبًا في السنة الأخيرة مقابل مدير واحد متفرّغ بمسمى Guidance & College Counseling Director — أثقل عبء حالات هنا، يخفّفه مرشد توجيه ثانٍ ومساعد توجيه يتوليان الأعباء غير الجامعية. وكلما انخفضت النسبة زاد وقت المرشد المتاح لكل طالب."
     },
     {
       "text": "About 23–24 seniors per college counselor at peak application season, in a senior class of roughly 47 — the lightest caseload here. A lower ratio means more counselor time per student.",
@@ -1142,6 +1284,14 @@
       "t": "$36,500"
     },
     {
+      "text": "$22,790",
+      "of": "855a707f",
+      "at": [
+        "providence-day:[11].values.covenant-day"
+      ],
+      "t": "$22,790"
+    },
+    {
       "text": "$26,910",
       "of": "d7e28b59",
       "at": [
@@ -1193,7 +1343,8 @@
       "text": "~20%",
       "of": "7c1640da",
       "at": [
-        "providence-day:[12].values.charlotte-country-day"
+        "providence-day:[12].values.charlotte-country-day",
+        "providence-day:[12].values.covenant-day"
       ],
       "t": "~20%"
     },
@@ -1236,6 +1387,14 @@
         "providence-day:[12].quals.charlotte-latin.text"
       ],
       "t": "14% من الطلاب، وفقًا للخطة الاستراتيجية للمدرسة."
+    },
+    {
+      "text": "Approximately 20% of students, reported only by third-party aggregators — the school itself publishes no share, and as a church ministry it files no Form 990 to check it against. Verify with the school.",
+      "of": "b1b657e1",
+      "at": [
+        "providence-day:[12].quals.covenant-day.text"
+      ],
+      "t": "نحو 20% من الطلاب، رقم تُبلِّغ عنه جهات التجميع الخارجية فقط — فالمدرسة نفسها لا تنشر نسبة، وبوصفها خدمة كنسية لا تقدّم إقرار Form 990 يمكن التحقق مقابله. تحقَّق من المدرسة مباشرة."
     },
     {
       "text": "Approximately 21% of families — a family-level share rather than a share of students, and the school does not date it.",
@@ -1386,7 +1545,8 @@
       "of": "12658e2c",
       "at": [
         "providence-day:[15].values.charlotte-christian",
-        "providence-day:[15].values.charlotte-country-day"
+        "providence-day:[15].values.charlotte-country-day",
+        "providence-day:[15].values.covenant-day"
       ],
       "t": "JK–12"
     },
@@ -1432,6 +1592,14 @@
         "providence-day:[15].quals.providence-day.text"
       ],
       "t": "تُقدَّم الفنون من Transitional Kindergarten (TK) حتى الصف 12."
+    },
+    {
+      "text": "Arts are offered from Junior Kindergarten (JK) through grade 12 — art is integrated in JK–K and becomes sequential from grade 1.",
+      "of": "735ad1de",
+      "at": [
+        "providence-day:[15].quals.covenant-day.text"
+      ],
+      "t": "تُقدَّم الفنون من Junior Kindergarten (JK) حتى الصف 12 — فالفن مُدمَج في الصفوف JK–K ويصبح تسلسليًا اعتبارًا من الصف 1."
     },
     {
       "text": "Arts run from age 2 through grade 12 — the widest span among these schools, reaching down to the earliest early-childhood years.",
@@ -1490,6 +1658,14 @@
       "t": "مشاركة تتجاوز 80%"
     },
     {
+      "text": "2 Blumey wins",
+      "of": "a8e5f5e0",
+      "at": [
+        "providence-day:[16].values.covenant-day"
+      ],
+      "t": "فوزان بجائزة Blumey"
+    },
+    {
       "text": "Blumey recognition",
       "of": "cc199a5c",
       "at": [
@@ -1530,6 +1706,14 @@
       "t": "أكثر من 80% من الطلاب يشاركون في الفنون — وهو مقياس مشاركة تستهل به المدرسة، إلى جانب انتصارات Blumey الفردية (Best Actress، 2022)."
     },
     {
+      "text": "Two wins at the Blumey Awards — Best Featured Performer (2013) and the Student Critic Award (2016) — within eight recognitions from 2013–2019, plus a 2025 National Shakespeare Competition finalist. The Blumeys are the Charlotte region’s high-school musical-theatre awards.",
+      "of": "12e87673",
+      "at": [
+        "providence-day:[16].quals.covenant-day.text"
+      ],
+      "t": "فوزان في جوائز Blumey — Best Featured Performer (2013) وStudent Critic Award (2016) — ضمن ثمانية تقديرات في الفترة 2013–2019، إضافةً إلى بلوغ نهائيات National Shakespeare Competition لعام 2025. وجوائز Blumey هي جوائز المسرح الغنائي للمدارس الثانوية في منطقة شارلوت."
+    },
+    {
       "text": "Repeated recognition at the Blumey Awards, the Charlotte region’s high-school musical-theatre awards.",
       "of": "33f3f508",
       "at": [
@@ -1557,7 +1741,8 @@
       "text": "AP Studio Art",
       "of": "c75dc683",
       "at": [
-        "providence-day:[17].values.cannon"
+        "providence-day:[17].values.cannon",
+        "providence-day:[17].values.covenant-day"
       ],
       "t": "AP Studio Art"
     },
@@ -1592,6 +1777,14 @@
         "providence-day:[17].quals.charlotte-country-day.text"
       ],
       "t": "تُقدِّم مسارَي الفنون AP وIB معًا — وهو عرض فنون مزدوج AP/IB نادر بين هذه المدارس."
+    },
+    {
+      "text": "AP Studio Art tops the visual path (Intro to Art → Art 2/3 → Honors Studio Art → AP Studio Art); Honors Auditioned Theatre is the performing-side advanced course.",
+      "of": "0c3c1617",
+      "at": [
+        "providence-day:[17].quals.covenant-day.text"
+      ],
+      "t": "يتصدّر AP Studio Art المسار البصري (Intro to Art ← Art 2/3 ← Honors Studio Art ← AP Studio Art)؛ وHonors Auditioned Theatre هو المقرر المتقدم في الجانب الأدائي."
     },
     {
       "text": "Three AP arts courses: AP Studio Art, AP Art History, and AP Music Theory.",
@@ -1642,6 +1835,14 @@
       "t": "8 فرق"
     },
     {
+      "text": "9 ensembles",
+      "of": "924f6d38",
+      "at": [
+        "providence-day:[18].values.covenant-day"
+      ],
+      "t": "9 فرق"
+    },
+    {
       "text": "4 ensembles",
       "of": "ddc02b07",
       "at": [
@@ -1672,6 +1873,14 @@
         "providence-day:[18].quals.charlotte-country-day.text"
       ],
       "t": "ثماني مجموعات غنائية وآلية عبر Middle School وUpper School، تتراوح بين فرق الشرف التي تتطلب اختبار أداء والمجموعات المفتوحة للتسجيل."
+    },
+    {
+      "text": "Nine named ensembles across the divisions — CDS Children’s Choir (3–5), MS Band, MS Choir, MS Worship Band, Symphonic Band, HS Choir, HS Worship Band, HS A Cappella, and the grade-5 intro ensembles — plus a Tri-M Music Honor Society chapter. Worship bands at both MS and HS are the distinctive rung.",
+      "of": "ca3c56d6",
+      "at": [
+        "providence-day:[18].quals.covenant-day.text"
+      ],
+      "t": "تسع فرق مُسمّاة عبر الأقسام — CDS Children’s Choir (3–5)، وMS Band، وMS Choir، وMS Worship Band، وSymphonic Band، وHS Choir، وHS Worship Band، وHS A Cappella، وفرق التمهيد في الصف 5 — إضافةً إلى فرع لجمعية Tri-M Music Honor Society. وفرق العبادة في كلٍّ من MS وHS هي الدرجة المميِّزة."
     },
     {
       "text": "Four performing ensembles: Band, Orchestra, Chorus, and Jazz.",
@@ -1731,6 +1940,14 @@
       "t": "25"
     },
     {
+      "text": "≥14",
+      "of": "d1042995",
+      "at": [
+        "providence-day:[19].values.covenant-day"
+      ],
+      "t": "≥14"
+    },
+    {
       "text": "≥9",
       "of": "e05ccd9b",
       "at": [
@@ -1769,6 +1986,14 @@
         "providence-day:[19].quals.charlotte-country-day.text"
       ],
       "t": "تنشر المدرسة نطاقًا بدلًا من قائمة — إذ تذكر صفحة Upper School الخاصة بها «nearly 50 clubs» ويُدرِج ملف 2025–26 «45 different clubs and activities.» ولم يُؤكَّد بالاسم في المصادر العامة سوى 7 منها."
+    },
+    {
+      "text": "Covenant Day publishes no club directory of its own, so this is a documented floor: 14 Upper School organizations and honor societies confirmed across school pages and a third-party roster, after filtering out Middle/Lower School entries, paid lesson programs, and curricular ensembles.",
+      "of": "4d31acec",
+      "at": [
+        "providence-day:[19].quals.covenant-day.text"
+      ],
+      "t": "لا تنشر Covenant Day دليلًا للنوادي خاصًا بها، لذا فهذا حدّ أدنى موثَّق: 14 منظمة وجمعية شرف في Upper School جرى التثبّت منها عبر صفحات المدرسة وقائمة طرف ثالث، بعد استبعاد مُدخلات Middle/Lower School وبرامج الدروس المدفوعة والفرق المنهجية."
     },
     {
       "text": "Davidson Day publishes no Upper School club roster, so this counts only the clubs confirmed in public sources — a documented floor, not a total.",
@@ -1835,6 +2060,14 @@
       "t": "المناظرة ضمن أفضل 20 في الولايات المتحدة"
     },
     {
+      "text": "Mock Trial art 2nd NC",
+      "of": "50ea292d",
+      "at": [
+        "providence-day:[20].values.covenant-day"
+      ],
+      "t": "المركز الثاني في فن Mock Trial بنورث كارولاينا"
+    },
+    {
       "text": "Battle of Books 1st",
       "of": "bcec0bda",
       "at": [
@@ -1881,6 +2114,14 @@
         "providence-day:[20].quals.charlotte-latin.text"
       ],
       "t": "أُدرِج برنامج المناظرة ضمن NSDA Schools of Excellence — وهو تصنيف top-20 على المستوى الوطني."
+    },
+    {
+      "text": "Cornelia Knight of the Covenant Day Blue Mock Trial team won the NC Mock Trial courtroom-artist regional (Hickory) and was the 2025 State Champion Courtroom Artist runner-up — the program’s best-documented statewide result.",
+      "of": "283bfd15",
+      "at": [
+        "providence-day:[20].quals.covenant-day.text"
+      ],
+      "t": "فازت Cornelia Knight من فريق Covenant Day Blue Mock Trial بالمسابقة الإقليمية لرسّامي قاعة المحكمة ضمن NC Mock Trial (في Hickory)، وحلّت وصيفةً للقب State Champion Courtroom Artist لعام 2025 — وهي أفضل نتيجة موثَّقة للبرنامج على مستوى الولاية."
     },
     {
       "text": "The Middle School Battle of the Books team placed 1st in its regional competition.",
@@ -2000,6 +2241,7 @@
       "at": [
         "providence-day:[22].values.charlotte-country-day",
         "providence-day:[22].values.charlotte-latin",
+        "providence-day:[22].values.covenant-day",
         "providence-day:[22].values.davidson-day",
         "providence-day:[22].values.cannon"
       ],
@@ -2036,6 +2278,14 @@
         "providence-day:[22].quals.charlotte-latin.text"
       ],
       "t": "تمتد رعاية Hawks’ Club بعد الدوام في Lower School من 1:30–6:00 p.m. تأكّد من ساعات العمل الحالية مع المدرسة."
+    },
+    {
+      "text": "The JK–8 Extended Day program’s last session runs 4:30–6:00 p.m., and free before-care starts at 7:30 a.m. Confirm current hours with the school.",
+      "of": "201a40fd",
+      "at": [
+        "providence-day:[22].quals.covenant-day.text"
+      ],
+      "t": "تمتد آخر جلسة في برنامج Extended Day للصفوف JK–8 من 4:30 إلى 6:00 p.m.، وتبدأ الرعاية المجانية قبل الدوام عند 7:30 a.m. تحقَّق من المواعيد الحالية لدى المدرسة."
     },
     {
       "text": "The Lower School’s Extended Care runs 2:45–6:00 p.m. Confirm current hours with the school.",
@@ -2094,6 +2344,14 @@
       "t": "≈$930/شهر"
     },
     {
+      "text": "$744/mo",
+      "of": "2cf59f11",
+      "at": [
+        "providence-day:[23].values.covenant-day"
+      ],
+      "t": "$744/شهر"
+    },
+    {
       "text": "$750/mo",
       "of": "d147bcce",
       "at": [
@@ -2134,6 +2392,14 @@
       "t": "$9,300/سنة"
     },
     {
+      "text": "$6,696/yr",
+      "of": "71c8d334",
+      "at": [
+        "providence-day:[23].subs.covenant-day"
+      ],
+      "t": "$6,696/سنة"
+    },
+    {
       "text": "≈$7,500/yr",
       "of": "ff10409d",
       "at": [
@@ -2172,6 +2438,14 @@
         "providence-day:[23].quals.charlotte-latin.text"
       ],
       "t": "تُصدر Latin فواتيرها فصليًا، $4,650 مرتين في السنة — والرقم الشهري أعلاه هو هذا المبلغ $9,300 موزَّعًا على 10 أشهر، وليس سعرًا تعلنه المدرسة. ويغطي مستوى 1:30 إلى 6:00 p.m. لصفوف TK/K خمسة أيام في الأسبوع؛ وينصرف TK وKindergarten عند 1:30 p.m.، فيغطي ذلك 4.5 ساعة يوميًا، أكثر من أي رقم بجانبه. أما الصفوف 1–5 عند مستواها من 2:55 إلى 6:00 p.m. فتبلغ $3,000 لكل فصل."
+    },
+    {
+      "text": "Covenant Day prices per 1.5-hour session ($248/month for five days a week): a JK/K child dismissed at 1:30 p.m. needs all three sessions to reach 6:00, i.e. $744/month. The yearly figure is the school’s own \"for 10 Months\" table ($6,696), cheaper than 10× the monthly rate because August and December bill at half. Grades 1–8 dismiss around 3:00 and need only two sessions ($496/month); before-care from 7:30 a.m. is free.",
+      "of": "10cbfb01",
+      "at": [
+        "providence-day:[23].quals.covenant-day.text"
+      ],
+      "t": "تُسعِّر Covenant Day لكل جلسة مدتها 1.5 ساعة ($248/شهر لخمسة أيام في الأسبوع): فطفل JK/K الذي ينصرف عند 1:30 p.m. يحتاج الجلسات الثلاث كلها للوصول إلى 6:00، أي $744/شهر. أما الرقم السنوي فهو من جدول المدرسة نفسه “for 10 Months” ($6,696)، وهو أرخص من 10× السعر الشهري لأن أغسطس وديسمبر يُحتسبان بالنصف. وتنصرف الصفوف 1–8 نحو 3:00 وتحتاج جلستين فقط ($496/شهر)؛ والرعاية قبل الدوام من 7:30 a.m. مجانية."
     },
     {
       "text": "Transitional Kindergarten at the 1–6 p.m. tier, five days a week, billed monthly at $750; the yearly total assumes 10 months, and the school states outright that its number of billing months is not published. TK dismisses at 1:00 p.m., so this covers 5 hours a day; Grades 1–5 at 3–6 p.m. is $470/mo, and there is no drop-in option.",
@@ -2231,6 +2505,14 @@
       "t": "ستة أسابيع، لكنها ليست متتالية: تأخذ المدرسة استراحة أسبوعين حول 4 يوليو (لا مخيّمات من 29 يونيو إلى 3 يوليو)."
     },
     {
+      "text": "Eight camp weeks between June 1 and July 31, not consecutive — the week of June 29 has no camps.",
+      "of": "9b3d546d",
+      "at": [
+        "providence-day:[24].quals.covenant-day.text"
+      ],
+      "t": "ثمانية أسابيع مخيّمات بين 1 يونيو و31 يوليو، غير متتالية — فأسبوع 29 يونيو لا مخيّمات فيه."
+    },
+    {
       "text": "Camps published",
       "of": "d6903fa7",
       "at": [
@@ -2277,6 +2559,14 @@
         "providence-day:[25].values.charlotte-latin"
       ],
       "t": "232"
+    },
+    {
+      "text": "20",
+      "of": "8df2997f",
+      "at": [
+        "providence-day:[25].values.covenant-day"
+      ],
+      "t": "20"
     },
     {
       "text": "170",
@@ -2327,6 +2617,14 @@
       "t": "133 دورة نصف يومية على مدى ستة أسابيع، أي نحو 96 مخيّمًا متمايزًا. جميعها نصف يومية من ثلاث ساعات — ولا تنشر المدرسة أيّ مخيّم ليوم كامل."
     },
     {
+      "text": "20 distinct camps named on the public 2026 page — a per-camp count, not the per-week session count most schools beside it publish. The school separately markets \"29 camps\"; per-week variants and portal-only offerings likely account for the difference.",
+      "of": "f3deb34b",
+      "at": [
+        "providence-day:[25].quals.covenant-day.text"
+      ],
+      "t": "20 مخيّمًا متمايزًا مُسمّى في الصفحة العامة لعام 2026 — وهو عدّ لكل مخيّم، لا عدّ الجلسات لكل أسبوع الذي تنشره معظم المدارس المجاورة له. وتسوّق المدرسة على نحو منفصل “29 مخيّمًا”؛ والفارق تفسّره على الأرجح النسخ الأسبوعية والعروض المتاحة عبر البوابة فقط."
+    },
+    {
       "text": "Ages served",
       "of": "20a1e226",
       "at": [
@@ -2355,7 +2653,8 @@
       "text": "JK–Grade 12",
       "of": "a9b0c7e9",
       "at": [
-        "providence-day:[26].values.charlotte-christian"
+        "providence-day:[26].values.charlotte-christian",
+        "providence-day:[26].values.covenant-day"
       ],
       "t": "JK–الصف 12"
     },
@@ -2416,6 +2715,14 @@
       "t": "تذكر المدرسة أنّ Camp Cannon “مفتوح لجميع الأطفال من عمر 4 إلى 18 سنة”. وعلى المشاركين أن يكونوا قد تدرّبوا تمامًا على استخدام الحمّام، ولا تظهر أثناء التسجيل الإلكتروني سوى المخيّمات المطابقة لعمر الطفل."
     },
     {
+      "text": "Grades are rising grades for the coming school year, from Little Lion/Cub Camp at the bottom through high-school strength-and-conditioning and college-admissions camps. Camps are open to the community.",
+      "of": "69e9d0af",
+      "at": [
+        "providence-day:[26].quals.covenant-day.text"
+      ],
+      "t": "الصفوف هي الصفوف المقبلة للسنة الدراسية القادمة، من Little Lion/Cub Camp في الأسفل حتى مخيّمات القوة واللياقة للمرحلة الثانوية ومخيّمات القبول الجامعي. والمخيّمات مفتوحة للمجتمع."
+    },
+    {
       "text": "Wrap-around care",
       "of": "2459c4c2",
       "at": [
@@ -2436,7 +2743,8 @@
       "of": "ed8a2e9b",
       "at": [
         "providence-day:[27].values.cannon",
-        "providence-day:[27].values.charlotte-latin"
+        "providence-day:[27].values.charlotte-latin",
+        "providence-day:[27].values.covenant-day"
       ],
       "t": "7:30 صباحًا–5:30 مساءً"
     },
@@ -2505,6 +2813,14 @@
       "t": "نطاق من تسع ساعات ونصف: Morning Care من 7:30 am ($105/أسبوع) وAfternoon Care حتى 5 pm ($85/أسبوع)، أو $160/أسبوع ضمن باقة Super Care. والاصطحاب المتأخر بـ$1/دقيقة بعد 5 pm."
     },
     {
+      "text": "A ten-hour span for TK–8: Before Care 7:30–8:45 am at $50/week and After Care 4:00–5:30 pm at $50/week, with $30/week Lunch Care bridging noon–1 pm. Camp Lion (Full Day) and Cub Camp include all three at no extra cost.",
+      "of": "a9b752de",
+      "at": [
+        "providence-day:[27].quals.covenant-day.text"
+      ],
+      "t": "نطاق من عشر ساعات للصفوف TK–8: Before Care من 7:30 إلى 8:45 am بـ$50/أسبوع، وAfter Care من 4:00 إلى 5:30 pm بـ$50/أسبوع، مع Lunch Care بـ$30/أسبوع يجسر ما بين الظهر و1 pm. ويشمل Camp Lion (Full Day) وCub Camp الثلاثة جميعًا دون كلفة إضافية."
+    },
+    {
       "text": "Power 4 commits",
       "of": "1f2f8490",
       "at": [
@@ -2524,7 +2840,8 @@
       "text": "1",
       "of": "340ca71c",
       "at": [
-        "providence-day:[28].values.cannon"
+        "providence-day:[28].values.cannon",
+        "providence-day:[28].values.covenant-day"
       ],
       "t": "1"
     },
@@ -2574,6 +2891,14 @@
       "t": "حدّ أدنى موثَّق. تُرسِل صفوف Charlotte Latin المثقلة أكاديميًا كثيرًا من الرياضيين إلى Division III، وقوائم توقيعها في November جزئية."
     },
     {
+      "text": "A documented minimum: Emily Eaton (’24) signed with Louisville field hockey, an ACC program, and started every game as a freshman. The Class of 2024’s spring signing article is only partially recoverable, so earlier 2024 commits may be missing.",
+      "of": "3aa17bd4",
+      "at": [
+        "providence-day:[28].quals.covenant-day.text"
+      ],
+      "t": "حدّ أدنى موثَّق: وقّعت Emily Eaton (دفعة ’24) مع فريق هوكي الحقل في Louisville، وهو برنامج في ACC، وشاركت أساسيةً في كل مباراة في سنتها الأولى. ومقال توقيعات ربيع دفعة 2024 غير قابل للاسترجاع إلا جزئيًا، لذا قد تكون بعض التزامات 2024 الأسبق مفقودة."
+    },
+    {
       "text": "A documented minimum; the Classes of 2024 and 2026 are under-documented for Davidson Day.",
       "of": "22ec0adc",
       "at": [
@@ -2621,6 +2946,14 @@
         "providence-day:[29].values.providence-day"
       ],
       "t": "39"
+    },
+    {
+      "text": "A documented minimum from the school’s own signing articles: Eaton and Marcus (’24), Huitt, Dirks, Gardner and Stanley (’25), Neil, Welsh and Houseton (’26). The Class of 2024 article is only partially recoverable, so the floor may be low.",
+      "of": "3a938b8a",
+      "at": [
+        "providence-day:[29].quals.covenant-day.text"
+      ],
+      "t": "حدّ أدنى موثَّق من مقالات التوقيع الخاصة بالمدرسة نفسها: Eaton وMarcus (دفعة ’24)، وHuitt وDirks وGardner وStanley (دفعة ’25)، وNeil وWelsh وHouseton (دفعة ’26). ومقال دفعة 2024 غير قابل للاسترجاع إلا جزئيًا، لذا قد يكون الحدّ الأدنى منخفضًا."
     }
   ]
 }

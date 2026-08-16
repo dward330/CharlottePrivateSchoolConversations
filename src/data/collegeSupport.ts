@@ -283,6 +283,17 @@ export type ScoreTable = {
   rows: ScoreRow[]
   /** A note beneath the table — modeling caveats, superscoring, test-optional. */
   note?: string
+  /**
+   * Set when the school does NOT publish percentiles and the rows carry
+   * self-labeled figures instead (class averages, AP Scholar tier counts).
+   * Suppresses the 10th–90th/mean percentile header row, which would
+   * otherwise file an average under a percentile it is not — a class-average
+   * SAT rendered beneath a "10th percentile" heading reads as a (wrong) low
+   * score. Standing card rule, 2026-08-16: averages-only or tier-count
+   * tables always set this; the percentile header renders only over rows
+   * that genuinely hold six percentile values.
+   */
+  noPercentiles?: boolean
 }
 
 /** One fifth of the GPA quintile table. */
@@ -419,6 +430,7 @@ import { charlotteChristian } from './collegeSupportPrograms/charlotte-christian
 import { charlotteCountryDay } from './collegeSupportPrograms/charlotte-country-day.ts'
 import { cannon } from './collegeSupportPrograms/cannon.ts'
 import { davidsonDay } from './collegeSupportPrograms/davidson-day.ts'
+import { covenantDay } from './collegeSupportPrograms/covenant-day.ts'
 
 const PROGRAMS: Record<string, CollegeSupportProgram> = {
   'providence-day': providenceDay,
@@ -426,6 +438,7 @@ const PROGRAMS: Record<string, CollegeSupportProgram> = {
   'charlotte-christian': charlotteChristian,
   'charlotte-country-day': charlotteCountryDay,
   cannon: cannon,
+  'covenant-day': covenantDay,
   'davidson-day': davidsonDay,
 }
 

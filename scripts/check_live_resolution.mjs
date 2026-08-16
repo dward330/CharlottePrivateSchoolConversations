@@ -53,6 +53,7 @@ const EXPORTS = {
   'charlotte-christian': 'charlotteChristian',
   'charlotte-country-day': 'charlotteCountryDay',
   cannon: 'cannon',
+  'covenant-day': 'covenantDay',
   'davidson-day': 'davidsonDay',
 }
 

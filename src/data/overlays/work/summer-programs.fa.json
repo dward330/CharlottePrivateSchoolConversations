@@ -41,7 +41,9 @@
         "charlotte-country-day:catalog.categoryFilters[0].label",
         "charlotte-country-day:catalog.gradeFilters[0].label",
         "cannon:catalog.categoryFilters[0].label",
-        "cannon:catalog.gradeFilters[0].label"
+        "cannon:catalog.gradeFilters[0].label",
+        "covenant-day:catalog.categoryFilters[0].label",
+        "covenant-day:catalog.gradeFilters[0].label"
       ],
       "t": "همه"
     },
@@ -167,7 +169,18 @@
         "charlotte-christian:catalog.camps[21].categoryLabel",
         "charlotte-christian:catalog.camps[23].categoryLabel",
         "charlotte-christian:catalog.camps[24].categoryLabel",
-        "charlotte-christian:catalog.camps[25].categoryLabel"
+        "charlotte-christian:catalog.camps[25].categoryLabel",
+        "covenant-day:catalog.categoryFilters[2].label",
+        "covenant-day:catalog.camps[3].categoryLabel",
+        "covenant-day:catalog.camps[4].categoryLabel",
+        "covenant-day:catalog.camps[5].categoryLabel",
+        "covenant-day:catalog.camps[6].categoryLabel",
+        "covenant-day:catalog.camps[7].categoryLabel",
+        "covenant-day:catalog.camps[8].categoryLabel",
+        "covenant-day:catalog.camps[9].categoryLabel",
+        "covenant-day:catalog.camps[10].categoryLabel",
+        "covenant-day:catalog.camps[11].categoryLabel",
+        "covenant-day:catalog.camps[12].categoryLabel"
       ],
       "t": "ورزش"
     },
@@ -201,7 +214,8 @@
       "text": "TK–K",
       "of": "ad9a656e",
       "at": [
-        "providence-day:catalog.gradeFilters[1].label"
+        "providence-day:catalog.gradeFilters[1].label",
+        "covenant-day:catalog.camps[1].gradeLabel"
       ],
       "t": "TK–K"
     },
@@ -479,7 +493,27 @@
         "cannon:catalog.camps[72].dayLabel",
         "cannon:catalog.camps[73].dayLabel",
         "cannon:catalog.camps[74].dayLabel",
-        "cannon:catalog.camps[75].dayLabel"
+        "cannon:catalog.camps[75].dayLabel",
+        "covenant-day:catalog.camps[0].dayLabel",
+        "covenant-day:catalog.camps[1].dayLabel",
+        "covenant-day:catalog.camps[2].dayLabel",
+        "covenant-day:catalog.camps[3].dayLabel",
+        "covenant-day:catalog.camps[4].dayLabel",
+        "covenant-day:catalog.camps[5].dayLabel",
+        "covenant-day:catalog.camps[6].dayLabel",
+        "covenant-day:catalog.camps[7].dayLabel",
+        "covenant-day:catalog.camps[8].dayLabel",
+        "covenant-day:catalog.camps[9].dayLabel",
+        "covenant-day:catalog.camps[10].dayLabel",
+        "covenant-day:catalog.camps[11].dayLabel",
+        "covenant-day:catalog.camps[12].dayLabel",
+        "covenant-day:catalog.camps[13].dayLabel",
+        "covenant-day:catalog.camps[14].dayLabel",
+        "covenant-day:catalog.camps[15].dayLabel",
+        "covenant-day:catalog.camps[16].dayLabel",
+        "covenant-day:catalog.camps[17].dayLabel",
+        "covenant-day:catalog.camps[18].dayLabel",
+        "covenant-day:catalog.camps[19].dayLabel"
       ],
       "t": "دوشنبه–جمعه"
     },
@@ -7862,7 +7896,10 @@
         "cannon:catalog.camps[52].categoryLabel",
         "cannon:catalog.camps[53].categoryLabel",
         "cannon:catalog.camps[54].categoryLabel",
-        "cannon:catalog.camps[55].categoryLabel"
+        "cannon:catalog.camps[55].categoryLabel",
+        "covenant-day:catalog.categoryFilters[4].label",
+        "covenant-day:catalog.camps[18].categoryLabel",
+        "covenant-day:catalog.camps[19].categoryLabel"
       ],
       "t": "STEM و درس‌ها"
     },
@@ -9423,6 +9460,589 @@
         "cannon:costPlanner.flags[1].text"
       ],
       "t": "Cannon **هیچ تخفیف خواهر و برادر، هیچ تخفیف چندهفته‌ای و هیچ کمک‌هزینهٔ اردویی** منتشر نمی‌کند. تنها تخفیف قیمتی در بروشور 2026، تخفیف ساختاری برای هفتهٔ 2 چهارروزه است."
+    },
+    {
+      "text": "20 camps named for summer 2026 across eight weeks, June 1 – July 31 — anchored by Camp Lion and Cub Camp, the traditional day camps that bundle care free.",
+      "of": "9dd79355",
+      "at": [
+        "covenant-day:catalog.headline"
+      ],
+      "t": "20 اردوی نام‌برده برای تابستان 2026 در طول هشت هفته، June 1 – July 31 — با محوریت Camp Lion و Cub Camp، اردوهای روزانهٔ سنتی که مراقبت را رایگان به همراه دارند."
+    },
+    {
+      "text": "Registration runs on the CampBrain portal with early-bird discounts through February 27. The school markets \"29 camps\"; 20 are enumerable on the public page.",
+      "of": "8cc84630",
+      "at": [
+        "covenant-day:catalog.subhead"
+      ],
+      "t": "ثبت‌نام روی درگاه CampBrain اجرا می‌شود با تخفیف‌های زودهنگام تا February 27. مدرسه «29 اردو» را بازاریابی می‌کند؛ 20 اردو روی صفحهٔ عمومی قابل شمارش‌اند."
+    },
+    {
+      "text": "All 20 publicly named camps are listed. **Current per-camp prices and hours are portal-gated**, so prices below are estimates from the third-party current range ($170–$325/week) and the school’s own 2018 catalog — the care add-on rates on the Cost Planner are the school’s own current figures.",
+      "of": "f61120ce",
+      "at": [
+        "covenant-day:catalog.intro"
+      ],
+      "t": "همهٔ 20 اردوی نام‌بردهٔ عمومی فهرست شده‌اند. **قیمت و ساعت کنونی هر اردو پشت درگاه است**، بنابراین قیمت‌های زیر برآوردهایی از بازهٔ کنونی شخص ثالث ($170–$325/week) و فهرست 2018 خود مدرسه‌اند — نرخ‌های افزودهٔ مراقبت روی Cost Planner ارقام کنونی خود مدرسه‌اند."
+    },
+    {
+      "text": "Day Camps",
+      "of": "0f07ba8b",
+      "at": [
+        "covenant-day:catalog.categoryFilters[1].label",
+        "covenant-day:catalog.camps[0].categoryLabel",
+        "covenant-day:catalog.camps[1].categoryLabel",
+        "covenant-day:catalog.camps[2].categoryLabel",
+        "covenant-day:catalog.camps[13].categoryLabel"
+      ],
+      "t": "اردوهای روزانه"
+    },
+    {
+      "text": "Arts & Theater",
+      "of": "e043e144",
+      "at": [
+        "covenant-day:catalog.categoryFilters[3].label",
+        "covenant-day:catalog.camps[14].categoryLabel",
+        "covenant-day:catalog.camps[15].categoryLabel",
+        "covenant-day:catalog.camps[16].categoryLabel",
+        "covenant-day:catalog.camps[17].categoryLabel"
+      ],
+      "t": "هنر و تئاتر"
+    },
+    {
+      "text": "Lower School",
+      "of": "0921a0ca",
+      "at": [
+        "covenant-day:catalog.gradeFilters[1].label"
+      ],
+      "t": "Lower School"
+    },
+    {
+      "text": "Middle School",
+      "of": "15441234",
+      "at": [
+        "covenant-day:catalog.gradeFilters[2].label"
+      ],
+      "t": "Middle School"
+    },
+    {
+      "text": "High School",
+      "of": "8ab05d33",
+      "at": [
+        "covenant-day:catalog.gradeFilters[3].label"
+      ],
+      "t": "High School"
+    },
+    {
+      "text": "The traditional full-day camp — includes Before Care, After Care and Lunch Care at no extra cost, plus the sibling discount ($75 off full-day).",
+      "of": "cbd8029d",
+      "at": [
+        "covenant-day:catalog.camps[0].desc"
+      ],
+      "t": "اردوی تمام‌روز سنتی — شامل Before Care، After Care و Lunch Care بدون هزینهٔ اضافی، به‌علاوهٔ تخفیف خواهر و برادری ($75 تخفیف تمام‌روز)."
+    },
+    {
+      "text": "TK–5",
+      "of": "f79ad9ec",
+      "at": [
+        "covenant-day:catalog.camps[0].gradeLabel"
+      ],
+      "t": "TK–5"
+    },
+    {
+      "text": "full day + free care",
+      "of": "27301e3c",
+      "at": [
+        "covenant-day:catalog.camps[0].hours"
+      ],
+      "t": "تمام‌روز + مراقبت رایگان"
+    },
+    {
+      "text": "The youngest campers’ day camp; care bundled free and $50 off half-day siblings.",
+      "of": "c60c8027",
+      "at": [
+        "covenant-day:catalog.camps[1].desc"
+      ],
+      "t": "اردوی روزانهٔ کوچک‌ترین اردونشین‌ها؛ مراقبت رایگان به همراه دارد و $50 تخفیف برای خواهر و برادرهای نیم‌روز."
+    },
+    {
+      "text": "half or full day",
+      "of": "d35bd998",
+      "at": [
+        "covenant-day:catalog.camps[1].hours"
+      ],
+      "t": "نیم‌روز یا تمام‌روز"
+    },
+    {
+      "text": "The entry step below Cub Camp for the youngest age band.",
+      "of": "afbc159e",
+      "at": [
+        "covenant-day:catalog.camps[2].desc"
+      ],
+      "t": "پلهٔ ورودی زیر Cub Camp برای کوچک‌ترین بازهٔ سنی."
+    },
+    {
+      "text": "JK–TK",
+      "of": "4b2301fa",
+      "at": [
+        "covenant-day:catalog.camps[2].gradeLabel"
+      ],
+      "t": "JK–TK"
+    },
+    {
+      "text": "half day",
+      "of": "c056cf86",
+      "at": [
+        "covenant-day:catalog.camps[2].hours",
+        "covenant-day:catalog.camps[4].hours",
+        "covenant-day:catalog.camps[5].hours",
+        "covenant-day:catalog.camps[6].hours",
+        "covenant-day:catalog.camps[7].hours",
+        "covenant-day:catalog.camps[8].hours",
+        "covenant-day:catalog.camps[9].hours",
+        "covenant-day:catalog.camps[10].hours",
+        "covenant-day:catalog.camps[11].hours",
+        "covenant-day:catalog.camps[13].hours",
+        "covenant-day:catalog.camps[15].hours",
+        "covenant-day:catalog.camps[16].hours",
+        "covenant-day:catalog.camps[17].hours",
+        "covenant-day:catalog.camps[18].hours"
+      ],
+      "t": "نیم‌روز"
+    },
+    {
+      "text": "In the 2018 catalog this ran as half- or full-day (9–12, 1–4, or 9–4) — the pattern the current camp likely follows.",
+      "of": "fb03c29a",
+      "at": [
+        "covenant-day:catalog.camps[3].desc"
+      ],
+      "t": "در فهرست 2018 این به‌صورت نیم‌روز یا تمام‌روز اجرا می‌شد (9–12، 1–4، یا 9–4) — الگویی که اردوی کنونی احتمالاً از آن پیروی می‌کند."
+    },
+    {
+      "text": "Gr 2–8",
+      "of": "d0402471",
+      "at": [
+        "covenant-day:catalog.camps[3].gradeLabel"
+      ],
+      "t": "پایه‌های 2–8"
+    },
+    {
+      "text": "9–12 / 1–4 / 9–4",
+      "of": "2b28cdf6",
+      "at": [
+        "covenant-day:catalog.camps[3].hours"
+      ],
+      "t": "9–12 / 1–4 / 9–4"
+    },
+    {
+      "text": "Skill development with the program’s coaches — $185/week half-day in the 2018 catalog.",
+      "of": "a7b81ba5",
+      "at": [
+        "covenant-day:catalog.camps[4].desc"
+      ],
+      "t": "رشد مهارت با مربیان برنامه — $185/week نیم‌روز در فهرست 2018."
+    },
+    {
+      "text": "Gr 1–8",
+      "of": "6554aeb4",
+      "at": [
+        "covenant-day:catalog.camps[4].gradeLabel"
+      ],
+      "t": "پایه‌های 1–8"
+    },
+    {
+      "text": "Runs at Warner Park, the 27-acre athletic campus.",
+      "of": "3d4e5a74",
+      "at": [
+        "covenant-day:catalog.camps[5].desc"
+      ],
+      "t": "در Warner Park، پردیس ورزشی 27 جریبی اجرا می‌شود."
+    },
+    {
+      "text": "LS–MS",
+      "of": "ea9b4475",
+      "at": [
+        "covenant-day:catalog.camps[5].gradeLabel",
+        "covenant-day:catalog.camps[6].gradeLabel",
+        "covenant-day:catalog.camps[10].gradeLabel",
+        "covenant-day:catalog.camps[13].gradeLabel",
+        "covenant-day:catalog.camps[17].gradeLabel",
+        "covenant-day:catalog.camps[18].gradeLabel"
+      ],
+      "t": "LS–MS"
+    },
+    {
+      "text": "Warner Park fields.",
+      "of": "b85a8cf3",
+      "at": [
+        "covenant-day:catalog.camps[6].desc"
+      ],
+      "t": "زمین‌های Warner Park."
+    },
+    {
+      "text": "Run inside the program with three straight state runner-up finishes.",
+      "of": "59a763a5",
+      "at": [
+        "covenant-day:catalog.camps[7].desc"
+      ],
+      "t": "درون برنامه‌ای با سه نایب‌قهرمانی پیاپی ایالتی اجرا می‌شود."
+    },
+    {
+      "text": "MS–HS",
+      "of": "aeca4f7b",
+      "at": [
+        "covenant-day:catalog.camps[7].gradeLabel",
+        "covenant-day:catalog.camps[8].gradeLabel",
+        "covenant-day:catalog.camps[11].gradeLabel"
+      ],
+      "t": "MS–HS"
+    },
+    {
+      "text": "The varsity program’s camp; a separate Lower School Field Hockey camp feeds it.",
+      "of": "9530da25",
+      "at": [
+        "covenant-day:catalog.camps[8].desc"
+      ],
+      "t": "اردوی برنامهٔ varsity؛ یک اردوی جداگانهٔ Lower School Field Hockey خوراک آن را فراهم می‌کند."
+    },
+    {
+      "text": "The entry-level stick-skills week.",
+      "of": "79e58eca",
+      "at": [
+        "covenant-day:catalog.camps[9].desc"
+      ],
+      "t": "هفتهٔ مقدماتی مهارت با چوب."
+    },
+    {
+      "text": "LS",
+      "of": "75e26068",
+      "at": [
+        "covenant-day:catalog.camps[9].gradeLabel",
+        "covenant-day:catalog.camps[15].gradeLabel",
+        "covenant-day:catalog.camps[16].gradeLabel"
+      ],
+      "t": "LS"
+    },
+    {
+      "text": "Sideline and spirit fundamentals.",
+      "of": "8321d01c",
+      "at": [
+        "covenant-day:catalog.camps[10].desc"
+      ],
+      "t": "مبانی کنار زمین و روحیه."
+    },
+    {
+      "text": "On the six new hard courts.",
+      "of": "f817fb9c",
+      "at": [
+        "covenant-day:catalog.camps[11].desc"
+      ],
+      "t": "روی شش زمین سخت جدید."
+    },
+    {
+      "text": "The Webb Fitness Center program, run by the school’s S&C coach — the same summer lifting the varsity athletes do.",
+      "of": "2e9659bb",
+      "at": [
+        "covenant-day:catalog.camps[12].desc"
+      ],
+      "t": "برنامهٔ Webb Fitness Center، که با مربی S&C مدرسه اجرا می‌شود — همان تمرین وزنهٔ تابستانی که ورزشکاران varsity انجام می‌دهند."
+    },
+    {
+      "text": "Gr 6–12",
+      "of": "5a57e078",
+      "at": [
+        "covenant-day:catalog.camps[12].gradeLabel"
+      ],
+      "t": "پایه‌های 6–12"
+    },
+    {
+      "text": "sessions",
+      "of": "130573cc",
+      "at": [
+        "covenant-day:catalog.camps[12].hours",
+        "covenant-day:catalog.camps[19].hours"
+      ],
+      "t": "دوره"
+    },
+    {
+      "text": "The pure-fun week.",
+      "of": "9ee1d298",
+      "at": [
+        "covenant-day:catalog.camps[13].desc"
+      ],
+      "t": "هفتهٔ محض سرگرمی."
+    },
+    {
+      "text": "Includes Lunch Care free — the one non-day-camp with bundled care.",
+      "of": "9710a44d",
+      "at": [
+        "covenant-day:catalog.camps[14].desc"
+      ],
+      "t": "شامل Lunch Care رایگان — تنها غیر-اردوی-روزانه با مراقبت همراه."
+    },
+    {
+      "text": "MS",
+      "of": "35dfbd11",
+      "at": [
+        "covenant-day:catalog.camps[14].gradeLabel"
+      ],
+      "t": "MS"
+    },
+    {
+      "text": "full day incl. lunch",
+      "of": "6cdcfa40",
+      "at": [
+        "covenant-day:catalog.camps[14].hours"
+      ],
+      "t": "تمام‌روز شامل ناهار"
+    },
+    {
+      "text": "The stage-first week for younger students.",
+      "of": "e3899851",
+      "at": [
+        "covenant-day:catalog.camps[15].desc"
+      ],
+      "t": "هفتهٔ صحنه-محور برای دانش‌آموزان کوچک‌تر."
+    },
+    {
+      "text": "Studio sampler in the visual-arts rooms.",
+      "of": "a6d6d5ee",
+      "at": [
+        "covenant-day:catalog.camps[16].desc"
+      ],
+      "t": "نمونه‌کار استودیویی در اتاق‌های هنرهای تجسمی."
+    },
+    {
+      "text": "The culinary week.",
+      "of": "15b6f079",
+      "at": [
+        "covenant-day:catalog.camps[17].desc"
+      ],
+      "t": "هفتهٔ آشپزی."
+    },
+    {
+      "text": "The STEM week.",
+      "of": "45e94be3",
+      "at": [
+        "covenant-day:catalog.camps[18].desc"
+      ],
+      "t": "هفتهٔ STEM."
+    },
+    {
+      "text": "A high-school week run against the guidance office’s calendar — the rare HS academic camp in this set.",
+      "of": "84c5fdd7",
+      "at": [
+        "covenant-day:catalog.camps[19].desc"
+      ],
+      "t": "یک هفتهٔ دبیرستانی که مطابق تقویم دفتر مشاوره اجرا می‌شود — اردوی نادر تحصیلی HS در این مجموعه."
+    },
+    {
+      "text": "HS",
+      "of": "6deb4e2c",
+      "at": [
+        "covenant-day:catalog.camps[19].gradeLabel"
+      ],
+      "t": "HS"
+    },
+    {
+      "text": "Per-camp prices and hours are **estimates**: current figures are gated behind the CampBrain registration portal, so the range shown is the third-party current figure ($170–$325/week), with hours patterned on the school’s own 2018 catalog where the same camp existed.",
+      "of": "bed818fc",
+      "at": [
+        "covenant-day:catalog.flags[0].text"
+      ],
+      "t": "قیمت و ساعت هر اردو **برآورد** است: ارقام کنونی پشت درگاه ثبت‌نام CampBrain قرار دارند، بنابراین بازهٔ نشان‌داده‌شده رقم کنونی شخص ثالث است ($170–$325/week)، با ساعت‌هایی الگوبرداری‌شده از فهرست 2018 خود مدرسه در جایی که همان اردو وجود داشته است."
+    },
+    {
+      "text": "The school markets \"**29 camps**\"; the public page enumerates 20 (a 21st listing, \"Splash Squad,\" is a staff position). Per-week variants and portal-only camps likely account for the difference.",
+      "of": "19b8adfa",
+      "at": [
+        "covenant-day:catalog.flags[1].text"
+      ],
+      "t": "مدرسه «**29 اردو**» را بازاریابی می‌کند؛ صفحهٔ عمومی 20 اردو را برمی‌شمارد (یک مدخل بیست‌ویکم، «Splash Squad»، یک موقعیت کارکنان است). گونه‌های هر هفته و اردوهای فقط-درگاه احتمالاً این تفاوت را توضیح می‌دهند."
+    },
+    {
+      "text": "The last document publishing per-camp price + hours + grades together is the **2018 catalog** (e.g. Baseball $185/wk half-day, Basketball $150 half / $250 full) — eight years old, kept as a documented sample only.",
+      "of": "7164dbc0",
+      "at": [
+        "covenant-day:catalog.flags[2].text"
+      ],
+      "t": "آخرین سندی که قیمت + ساعت + پایهٔ هر اردو را با هم منتشر می‌کند **فهرست 2018** است (مثلاً Baseball $185/wk نیم‌روز، Basketball $150 نیم / $250 تمام) — هشت‌ساله، که تنها به‌عنوان یک نمونهٔ مستند نگه داشته شده است."
+    },
+    {
+      "text": "Budget $170–$325 a week for camp itself — then $50 before-care, $50 after-care and $30 lunch care, unless Camp Lion or Cub Camp bundles all three free.",
+      "of": "02b6638d",
+      "at": [
+        "covenant-day:costPlanner.headline"
+      ],
+      "t": "برای خود اردو هفته‌ای $170–$325 بودجه در نظر بگیرید — سپس $50 مراقبت پیش از اردو، $50 مراقبت پس از اردو و $30 مراقبت ناهار، مگر اینکه Camp Lion یا Cub Camp هر سه را رایگان به همراه داشته باشد."
+    },
+    {
+      "text": "Eight weeks are available (June 1 – July 31, skipping the week of June 29). A $50 non-refundable registration fee is already inside every camp price.",
+      "of": "132286f9",
+      "at": [
+        "covenant-day:costPlanner.subhead"
+      ],
+      "t": "هشت هفته در دسترس است (June 1 – July 31، با گذشتن از هفتهٔ June 29). یک هزینهٔ ثبت‌نام غیرقابل‌بازگشت $50 پیشاپیش درون قیمت هر اردو گنجانده شده است."
+    },
+    {
+      "text": "Lower-end week",
+      "of": "e61d1052",
+      "at": [
+        "covenant-day:costPlanner.tiers[0].label"
+      ],
+      "t": "هفتهٔ رده‌پایین"
+    },
+    {
+      "text": "Half-day specialty camp · lower end of the range",
+      "of": "cf01ca64",
+      "at": [
+        "covenant-day:costPlanner.tiers[0].panelLabel"
+      ],
+      "t": "اردوی تخصصی نیم‌روز · رده‌پایین بازه"
+    },
+    {
+      "text": "The bottom of the third-party current range.",
+      "of": "35583467",
+      "at": [
+        "covenant-day:costPlanner.tiers[0].detail"
+      ],
+      "t": "کف بازهٔ کنونی شخص ثالث."
+    },
+    {
+      "text": "Mid-range week",
+      "of": "66df0c1f",
+      "at": [
+        "covenant-day:costPlanner.tiers[1].label"
+      ],
+      "t": "هفتهٔ میان‌رده"
+    },
+    {
+      "text": "Typical camp week · middle of the range",
+      "of": "fe1e10cd",
+      "at": [
+        "covenant-day:costPlanner.tiers[1].panelLabel"
+      ],
+      "t": "هفتهٔ اردوی معمول · میانهٔ بازه"
+    },
+    {
+      "text": "Midpoint estimate; the 2018 catalog’s full-day camps sat near here.",
+      "of": "da808e99",
+      "at": [
+        "covenant-day:costPlanner.tiers[1].detail"
+      ],
+      "t": "برآورد نقطهٔ میانی؛ اردوهای تمام‌روز فهرست 2018 نزدیک همین‌جا قرار داشتند."
+    },
+    {
+      "text": "Upper-end week",
+      "of": "5a2a4651",
+      "at": [
+        "covenant-day:costPlanner.tiers[2].label"
+      ],
+      "t": "هفتهٔ رده‌بالا"
+    },
+    {
+      "text": "Full-day camp · top of the range",
+      "of": "3d00c339",
+      "at": [
+        "covenant-day:costPlanner.tiers[2].panelLabel"
+      ],
+      "t": "اردوی تمام‌روز · سقف بازه"
+    },
+    {
+      "text": "The top of the third-party current range. Camp Lion bundles all three care add-ons free at full day.",
+      "of": "93984051",
+      "at": [
+        "covenant-day:costPlanner.tiers[2].detail"
+      ],
+      "t": "سقف بازهٔ کنونی شخص ثالث. Camp Lion هر سه افزودهٔ مراقبت را در تمام‌روز رایگان به همراه دارد."
+    },
+    {
+      "text": "Before Care 7:30–8:45 am (TK–8)",
+      "of": "88076342",
+      "at": [
+        "covenant-day:costPlanner.addons[0].label"
+      ],
+      "t": "Before Care از 7:30–8:45 am (TK–8)"
+    },
+    {
+      "text": "After Care 4:00–5:30 pm (TK–8)",
+      "of": "287828c5",
+      "at": [
+        "covenant-day:costPlanner.addons[1].label"
+      ],
+      "t": "After Care از 4:00–5:30 pm (TK–8)"
+    },
+    {
+      "text": "Lunch Care 12–1 pm (bring lunch)",
+      "of": "041229f1",
+      "at": [
+        "covenant-day:costPlanner.addons[2].label"
+      ],
+      "t": "Lunch Care از 12–1 pm (ناهار خود را بیاورید)"
+    },
+    {
+      "text": "Registration (non-refundable, included in camp cost)",
+      "of": "2c6d3da4",
+      "at": [
+        "covenant-day:costPlanner.fees[0].label"
+      ],
+      "t": "ثبت‌نام (غیرقابل‌بازگشت، گنجانده‌شده در هزینهٔ اردو)"
+    },
+    {
+      "text": "Camp exchange",
+      "of": "2304c979",
+      "at": [
+        "covenant-day:costPlanner.fees[1].label"
+      ],
+      "t": "تعویض اردو"
+    },
+    {
+      "text": "Cancellation before May 1",
+      "of": "3a3bd087",
+      "at": [
+        "covenant-day:costPlanner.fees[2].label"
+      ],
+      "t": "لغو پیش از May 1"
+    },
+    {
+      "text": "**Camp Lion (Full Day), Cub Camp and MS Musical Theater include care free** — Before and After Care for the day camps, Lunch Care for all three. Leave the toggles off for those weeks.",
+      "of": "55ffd32d",
+      "at": [
+        "covenant-day:costPlanner.fees[3].label"
+      ],
+      "t": "**Camp Lion (Full Day)، Cub Camp و MS Musical Theater مراقبت را رایگان شامل می‌شوند** — Before و After Care برای اردوهای روزانه، Lunch Care برای هر سه. برای آن هفته‌ها کلیدها را خاموش بگذارید."
+    },
+    {
+      "text": "Sibling discounts on the day camps: **$50 off half-day / $75 off full-day** for each additional registration. Cancellations after May 1 refund 50% (≥14 days out) and nothing inside 14 days.",
+      "of": "83b45435",
+      "at": [
+        "covenant-day:costPlanner.fees[4].label"
+      ],
+      "t": "تخفیف‌های خواهر و برادری در اردوهای روزانه: **$50 تخفیف نیم‌روز / $75 تخفیف تمام‌روز** برای هر ثبت‌نام افزوده. لغوهای پس از May 1 معادل 50% بازپرداخت می‌شوند (14 روز یا بیشتر پیش از موعد) و درون 14 روز هیچ."
+    },
+    {
+      "text": "Early-bird pricing ends February 27.",
+      "of": "d519c42d",
+      "at": [
+        "covenant-day:costPlanner.aside.title"
+      ],
+      "t": "قیمت‌گذاری زودهنگام در February 27 پایان می‌یابد."
+    },
+    {
+      "text": "Registration is open on the CampBrain portal, closing at **noon the Friday before each camp week**. Camps are open to the community, and grade means the **rising** grade for the coming school year.",
+      "of": "6340cffb",
+      "at": [
+        "covenant-day:costPlanner.aside.text"
+      ],
+      "t": "ثبت‌نام روی درگاه CampBrain باز است و **ظهر جمعهٔ پیش از هر هفتهٔ اردو** بسته می‌شود. اردوها به روی جامعه باز هستند، و پایه به معنای پایهٔ **در حال ارتقا** برای سال تحصیلی پیشِ‌رو است."
+    },
+    {
+      "text": "All three week tiers are **estimates** — the school publishes no current per-camp price list; only the care add-ons and fee policies above are its own current figures.",
+      "of": "09c29363",
+      "at": [
+        "covenant-day:costPlanner.flags[0].text"
+      ],
+      "t": "هر سه ردهٔ هفتگی **برآورد**اند — مدرسه هیچ فهرست قیمت کنونی هر اردو منتشر نمی‌کند؛ تنها افزوده‌های مراقبت و سیاست‌های هزینهٔ بالا ارقام کنونی خود مدرسه‌اند."
     }
   ]
 }

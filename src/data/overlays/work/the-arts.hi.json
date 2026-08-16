@@ -160,6 +160,7 @@
         "charlotte-christian:ladder.divisions[2].grades",
         "charlotte-country-day:ladder.divisions[2].grades",
         "cannon:ladder.divisions[2].grades",
+        "covenant-day:ladder.divisions[2].grades",
         "davidson-day:ladder.divisions[2].grades"
       ],
       "t": "9–12"
@@ -334,7 +335,8 @@
         "providence-day:visual.exhibits[2].when",
         "charlotte-latin:theatre.season[1].season",
         "charlotte-christian:visual.exhibits[0].when",
-        "charlotte-country-day:theatre.season[2].season"
+        "charlotte-country-day:theatre.season[2].season",
+        "covenant-day:visual.exhibits[1].when"
       ],
       "t": "वसंत"
     },
@@ -1486,7 +1488,8 @@
       "text": "March",
       "of": "c0846390",
       "at": [
-        "charlotte-latin:visual.exhibits[1].when"
+        "charlotte-latin:visual.exhibits[1].when",
+        "covenant-day:theatre.season[1].season"
       ],
       "t": "मार्च"
     },
@@ -1502,7 +1505,8 @@
       "text": "April",
       "of": "98dbac97",
       "at": [
-        "charlotte-latin:visual.exhibits[2].when"
+        "charlotte-latin:visual.exhibits[2].when",
+        "covenant-day:theatre.season[2].season"
       ],
       "t": "अप्रैल"
     },
@@ -2232,7 +2236,8 @@
       "text": "Year-round",
       "of": "d3e50e09",
       "at": [
-        "charlotte-christian:visual.exhibits[1].when"
+        "charlotte-christian:visual.exhibits[1].when",
+        "covenant-day:theatre.season[3].season"
       ],
       "t": "साल भर"
     },
@@ -2248,7 +2253,8 @@
       "text": "Regional",
       "of": "a7aff008",
       "at": [
-        "charlotte-christian:visual.exhibits[2].when"
+        "charlotte-christian:visual.exhibits[2].when",
+        "covenant-day:visual.exhibits[2].when"
       ],
       "t": "क्षेत्रीय"
     },
@@ -2264,7 +2270,8 @@
       "text": "National",
       "of": "746c84f7",
       "at": [
-        "charlotte-christian:visual.exhibits[3].when"
+        "charlotte-christian:visual.exhibits[3].when",
+        "covenant-day:visual.exhibits[3].when"
       ],
       "t": "राष्ट्रीय"
     },
@@ -4134,6 +4141,686 @@
         "cannon:verdict.ask[7]"
       ],
       "t": "सुबह 7:30 a.m. वाली Varsity प्रतिबद्धता पूरे सप्ताह में वास्तव में कैसी होती है, और क्या वह खेलों से टकराती है?"
+    },
+    {
+      "text": "A JK–12 ladder with a worship-music spine: art integrated from junior kindergarten, sequential from grade 1, ensembles from grade 6.",
+      "of": "14f38ef8",
+      "at": [
+        "covenant-day:ladder.headline"
+      ],
+      "t": "worship-music की रीढ़ वाली एक JK–12 सीढ़ी: junior kindergarten से एकीकृत कला, कक्षा 1 से क्रमबद्ध, कक्षा 6 से ensembles।"
+    },
+    {
+      "text": "One Fine Arts credit is required to graduate, and worship bands run at both middle and high school — a rung no other school here has.",
+      "of": "579a82e1",
+      "at": [
+        "covenant-day:ladder.subhead"
+      ],
+      "t": "स्नातक होने के लिए एक Fine Arts क्रेडिट आवश्यक है, और worship bands middle तथा high school दोनों में चलती हैं — एक ऐसी पायदान जो यहाँ किसी और स्कूल के पास नहीं है।"
+    },
+    {
+      "text": "program span",
+      "of": "04d999f5",
+      "at": [
+        "covenant-day:ladder.stats[0].label"
+      ],
+      "t": "कार्यक्रम का विस्तार"
+    },
+    {
+      "text": "named ensembles",
+      "of": "56e0a872",
+      "at": [
+        "covenant-day:ladder.stats[1].label"
+      ],
+      "t": "नामित ensembles"
+    },
+    {
+      "text": "ticketed productions a year",
+      "of": "e8a29c3c",
+      "at": [
+        "covenant-day:ladder.stats[2].label"
+      ],
+      "t": "साल में टिकट वाली प्रस्तुतियाँ"
+    },
+    {
+      "text": "Fine Arts graduation requirement",
+      "of": "fbe8dc9c",
+      "at": [
+        "covenant-day:ladder.stats[3].label"
+      ],
+      "t": "Fine Arts स्नातक आवश्यकता"
+    },
+    {
+      "text": "JK–5",
+      "of": "e010cae2",
+      "at": [
+        "covenant-day:ladder.divisions[0].grades"
+      ],
+      "t": "JK–5"
+    },
+    {
+      "text": "General Music JK–4, with art integrated in JK–K and sequential from grade 1",
+      "of": "e919e67a",
+      "at": [
+        "covenant-day:ladder.divisions[0].items[0]"
+      ],
+      "t": "General Music JK–4, JK–K में एकीकृत कला और कक्षा 1 से क्रमबद्ध के साथ"
+    },
+    {
+      "text": "Introduction to Choir and Band in grade 5",
+      "of": "f653857a",
+      "at": [
+        "covenant-day:ladder.divisions[0].items[1]"
+      ],
+      "t": "कक्षा 5 में Introduction to Choir and Band"
+    },
+    {
+      "text": "CDS Children’s Choir, grades 3–5",
+      "of": "b0c96bc4",
+      "at": [
+        "covenant-day:ladder.divisions[0].items[2]"
+      ],
+      "t": "CDS Children’s Choir, कक्षा 3–5"
+    },
+    {
+      "text": "6–8",
+      "of": "b7020a62",
+      "at": [
+        "covenant-day:ladder.divisions[1].grades"
+      ],
+      "t": "6–8"
+    },
+    {
+      "text": "MS Band, MS Choir, and MS Worship Band",
+      "of": "69e5fc0d",
+      "at": [
+        "covenant-day:ladder.divisions[1].items[0]"
+      ],
+      "t": "MS Band, MS Choir, और MS Worship Band"
+    },
+    {
+      "text": "Drama for grades 6–8, feeding the October MS Musical",
+      "of": "63362367",
+      "at": [
+        "covenant-day:ladder.divisions[1].items[1]"
+      ],
+      "t": "कक्षा 6–8 के लिए Drama, जो अक्टूबर के MS Musical में जाता है"
+    },
+    {
+      "text": "Music in the Parks adjudications — Superior ratings three straight years (2021–23)",
+      "of": "fd3e6412",
+      "at": [
+        "covenant-day:ladder.divisions[1].items[2]"
+      ],
+      "t": "Music in the Parks की जाँच — लगातार तीन साल Superior रेटिंग (2021–23)"
+    },
+    {
+      "text": "Symphonic Band, HS Choir, HS Worship Band, and HS A Cappella",
+      "of": "830c8cb1",
+      "at": [
+        "covenant-day:ladder.divisions[2].items[0]"
+      ],
+      "t": "Symphonic Band, HS Choir, HS Worship Band, और HS A Cappella"
+    },
+    {
+      "text": "Theater I–II, Theatre Tech, and Honors Auditioned Theatre (Performance or Technical track)",
+      "of": "7593f8ee",
+      "at": [
+        "covenant-day:ladder.divisions[2].items[1]"
+      ],
+      "t": "Theater I–II, Theatre Tech, और Honors Auditioned Theatre (Performance या Technical ट्रैक)"
+    },
+    {
+      "text": "Visual path from Intro to Art through AP Studio Art; Worship Leadership as a credit course",
+      "of": "77061b3a",
+      "at": [
+        "covenant-day:ladder.divisions[2].items[2]"
+      ],
+      "t": "Intro to Art से AP Studio Art तक दृश्य रास्ता; क्रेडिट कोर्स के रूप में Worship Leadership"
+    },
+    {
+      "text": "Support",
+      "of": "6be6f488",
+      "at": [
+        "covenant-day:ladder.enrichment[0].label"
+      ],
+      "t": "सहयोग"
+    },
+    {
+      "text": "The Covenant Arts Association funds and staffs all arts areas through four patron tiers ($100–$1,000), with early pre-sale access to the three annual productions.",
+      "of": "fa18aac3",
+      "at": [
+        "covenant-day:ladder.enrichment[0].text"
+      ],
+      "t": "Covenant Arts Association चार patron स्तरों ($100–$1,000) के माध्यम से सभी कला क्षेत्रों को धन और स्टाफ देता है, तीन वार्षिक प्रस्तुतियों की जल्दी pre-sale पहुँच के साथ।"
+    },
+    {
+      "text": "Honor societies",
+      "of": "fa4511f1",
+      "at": [
+        "covenant-day:ladder.enrichment[1].label"
+      ],
+      "t": "सम्मान समितियाँ"
+    },
+    {
+      "text": "Tri-M Music Honor Society and an International Thespian Society chapter.",
+      "of": "cbb60c78",
+      "at": [
+        "covenant-day:ladder.enrichment[1].text"
+      ],
+      "t": "Tri-M Music Honor Society और एक International Thespian Society चैप्टर।"
+    },
+    {
+      "text": "Stated mission",
+      "of": "f5b1c744",
+      "at": [
+        "covenant-day:ladder.enrichment[2].label"
+      ],
+      "t": "घोषित उद्देश्य"
+    },
+    {
+      "text": "Arts are \"a crucial part of the curriculum\" built on four components: foundations, creative expression, historical and cultural relevance, and critical evaluation and response.",
+      "of": "d92dcd93",
+      "at": [
+        "covenant-day:ladder.enrichment[2].text"
+      ],
+      "t": "कला \"पाठ्यक्रम का एक अहम हिस्सा\" है, जो चार घटकों पर बनी है: नींव, रचनात्मक अभिव्यक्ति, ऐतिहासिक और सांस्कृतिक प्रासंगिकता, तथा आलोचनात्मक मूल्यांकन और प्रतिक्रिया।"
+    },
+    {
+      "text": "Two Blumey wins and eight recognitions between 2013 and 2019, plus a 2025 National Shakespeare Competition finalist.",
+      "of": "1689a8e0",
+      "at": [
+        "covenant-day:theatre.headline"
+      ],
+      "t": "2013 और 2019 के बीच दो Blumey जीत और आठ पहचान, साथ ही 2025 का National Shakespeare Competition फाइनलिस्ट।"
+    },
+    {
+      "text": "Three ticketed productions a year in the 200-seat Lions Theater, with a Shakespeare competition of its own feeding the national one.",
+      "of": "e34530f0",
+      "at": [
+        "covenant-day:theatre.subhead"
+      ],
+      "t": "200 सीटों वाले Lions Theater में साल में तीन टिकट वाली प्रस्तुतियाँ, अपनी एक Shakespeare प्रतियोगिता के साथ जो राष्ट्रीय प्रतियोगिता में जाती है।"
+    },
+    {
+      "text": "October",
+      "of": "ecf21807",
+      "at": [
+        "covenant-day:theatre.season[0].season"
+      ],
+      "t": "अक्टूबर"
+    },
+    {
+      "text": "MS Musical",
+      "of": "5e853993",
+      "at": [
+        "covenant-day:theatre.season[0].kind"
+      ],
+      "t": "MS Musical"
+    },
+    {
+      "text": "A three-night run (e.g. October 15–17)",
+      "of": "5ca9633a",
+      "at": [
+        "covenant-day:theatre.season[0].detail"
+      ],
+      "t": "तीन-रात का प्रदर्शन (जैसे अक्टूबर 15–17)"
+    },
+    {
+      "text": "HS Musical",
+      "of": "8a5d45a2",
+      "at": [
+        "covenant-day:theatre.season[1].kind"
+      ],
+      "t": "HS Musical"
+    },
+    {
+      "text": "The Blumey-eligible production",
+      "of": "42551d33",
+      "at": [
+        "covenant-day:theatre.season[1].detail"
+      ],
+      "t": "Blumey-योग्य प्रस्तुति"
+    },
+    {
+      "text": "Spring Drama",
+      "of": "8ef83b4b",
+      "at": [
+        "covenant-day:theatre.season[2].kind"
+      ],
+      "t": "स्प्रिंग ड्रामा"
+    },
+    {
+      "text": "A straight play (April 25–27 on the current calendar)",
+      "of": "737d5d1d",
+      "at": [
+        "covenant-day:theatre.season[2].detail"
+      ],
+      "t": "एक सीधा नाटक (मौजूदा कैलेंडर पर अप्रैल 25–27)"
+    },
+    {
+      "text": "Showcases",
+      "of": "82c2e079",
+      "at": [
+        "covenant-day:theatre.season[3].kind"
+      ],
+      "t": "प्रदर्शन-आयोजन"
+    },
+    {
+      "text": "MS and HS Theater Nights, the HS Shakespeare Competition, and NC Theatre Conference participation",
+      "of": "2cc06b7c",
+      "at": [
+        "covenant-day:theatre.season[3].detail"
+      ],
+      "t": "MS और HS Theater Nights, HS Shakespeare Competition, और NC Theatre Conference में भागीदारी"
+    },
+    {
+      "text": "Fine Arts Director Sherie-Beth Wilson, with the Covenant Arts Association staffing and pre-selling the three productions. Courses: MS Drama (6–8), Theater I–II, Theatre Tech, and Honors Auditioned Theatre with Performance or Technical tracks.",
+      "of": "741cf927",
+      "at": [
+        "covenant-day:theatre.whoRunsIt"
+      ],
+      "t": "Fine Arts Director Sherie-Beth Wilson, तथा Covenant Arts Association तीन प्रस्तुतियों को स्टाफ और pre-sell करता है। कोर्स: MS Drama (6–8), Theater I–II, Theatre Tech, और Performance या Technical ट्रैक के साथ Honors Auditioned Theatre।"
+    },
+    {
+      "text": "The Lions Theater seats 200, with LED lighting, a costume room and set storage — a black-box-scale house, which is why the Arts Association’s tiered pre-sale exists.",
+      "of": "b422fc87",
+      "at": [
+        "covenant-day:theatre.venueNote"
+      ],
+      "t": "Lions Theater में 200 सीटें हैं, LED लाइटिंग, एक costume room और सेट भंडारण के साथ — एक black-box-स्तर का सभागार, यही वजह है कि Arts Association की स्तरबद्ध pre-sale मौजूद है।"
+    },
+    {
+      "text": "WON Best Featured Performer",
+      "of": "4688f8b9",
+      "at": [
+        "covenant-day:theatre.ledger[0].result"
+      ],
+      "t": "Best Featured Performer जीता"
+    },
+    {
+      "text": "Best Ensemble + Best Actress nominations",
+      "of": "03927033",
+      "at": [
+        "covenant-day:theatre.ledger[1].result"
+      ],
+      "t": "Best Ensemble + Best Actress नामांकन"
+    },
+    {
+      "text": "WON the Student Critic Award",
+      "of": "623af024",
+      "at": [
+        "covenant-day:theatre.ledger[2].result"
+      ],
+      "t": "Student Critic Award जीता"
+    },
+    {
+      "text": "Best Ensemble nomination",
+      "of": "42971634",
+      "at": [
+        "covenant-day:theatre.ledger[3].result"
+      ],
+      "t": "Best Ensemble नामांकन"
+    },
+    {
+      "text": "Featured Performer + Supporting Actress nominations",
+      "of": "8cce4505",
+      "at": [
+        "covenant-day:theatre.ledger[4].result"
+      ],
+      "t": "Featured Performer + Supporting Actress नामांकन"
+    },
+    {
+      "text": "Best Actress nomination (Evan Bertram as Georgia Hendricks)",
+      "of": "5be5c031",
+      "at": [
+        "covenant-day:theatre.ledger[5].result"
+      ],
+      "t": "Best Actress नामांकन (Evan Bertram, Georgia Hendricks के रूप में)"
+    },
+    {
+      "text": "Caroline Garbarino named Finalist",
+      "of": "e190acfc",
+      "at": [
+        "covenant-day:theatre.ledger[6].result"
+      ],
+      "t": "Caroline Garbarino को Finalist नामित किया गया"
+    },
+    {
+      "text": "The ledger goes quiet after 2019 at the Blumeys — the school’s own theater page carries no post-2019 Blumey entry — and production titles are not published, so *Curtains* is the one show recoverable by name. The Shakespeare finalist shows the pipeline is still producing.",
+      "of": "8ba1e416",
+      "at": [
+        "covenant-day:theatre.honestContext"
+      ],
+      "t": "Blumeys में 2019 के बाद ब्योरा शांत हो जाता है — स्कूल के अपने थिएटर पेज पर 2019 के बाद कोई Blumey प्रविष्टि नहीं है — और प्रस्तुतियों के शीर्षक प्रकाशित नहीं हैं, इसलिए *Curtains* नाम से पहचाना जाने वाला एकमात्र शो है। Shakespeare फाइनलिस्ट दिखाता है कि पाइपलाइन अब भी सक्रिय है।"
+    },
+    {
+      "text": "Nine ensembles from grade 3 up — and the distinctive rung is worship: credit-bearing Worship Leadership plus worship bands in both divisions.",
+      "of": "a5fe4ead",
+      "at": [
+        "covenant-day:music.headline"
+      ],
+      "t": "कक्षा 3 से ऊपर नौ ensembles — और विशिष्ट पायदान है worship: क्रेडिट वाली Worship Leadership तथा दोनों डिवीज़नों में worship bands।"
+    },
+    {
+      "text": "Adjudication record at Music in the Parks: Superior ratings for MS Choir three straight years, and a 2nd-place HS Band finish in 2025.",
+      "of": "a9f14410",
+      "at": [
+        "covenant-day:music.subhead"
+      ],
+      "t": "Music in the Parks में जाँच का रिकॉर्ड: MS Choir को लगातार तीन साल Superior रेटिंग, और 2025 में HS Band की दूसरे स्थान की सफलता।"
+    },
+    {
+      "text": "Choral",
+      "of": "22900d0e",
+      "at": [
+        "covenant-day:music.tracks[0].label"
+      ],
+      "t": "कोरल"
+    },
+    {
+      "text": "Instrumental",
+      "of": "19bad85d",
+      "at": [
+        "covenant-day:music.tracks[1].label"
+      ],
+      "t": "वाद्य"
+    },
+    {
+      "text": "Worship",
+      "of": "93560741",
+      "at": [
+        "covenant-day:music.tracks[2].label"
+      ],
+      "t": "Worship"
+    },
+    {
+      "text": "Director: Zach Thompson, Worship and Choir Teacher. No orchestra or marching band — the instrumental program is concert/symphonic.",
+      "of": "1f1408f8",
+      "at": [
+        "covenant-day:music.boardNote"
+      ],
+      "t": "निर्देशक: Zach Thompson, Worship and Choir Teacher। कोई orchestra या marching band नहीं — वाद्य कार्यक्रम concert/symphonic है।"
+    },
+    {
+      "text": "2021–23",
+      "of": "68adb260",
+      "at": [
+        "covenant-day:music.ladder[0].label"
+      ],
+      "t": "2021–23"
+    },
+    {
+      "text": "MS Choir earned a Superior rating at Music in the Parks three consecutive years; MS Band took Excellent ratings and a 3rd placement.",
+      "of": "833334f0",
+      "at": [
+        "covenant-day:music.ladder[0].text"
+      ],
+      "t": "MS Choir ने Music in the Parks में लगातार तीन साल Superior रेटिंग पाई; MS Band ने Excellent रेटिंग और तीसरा स्थान लिया।"
+    },
+    {
+      "text": "2023",
+      "of": "4329424c",
+      "at": [
+        "covenant-day:music.ladder[1].label"
+      ],
+      "t": "2023"
+    },
+    {
+      "text": "HS Band earned an Excellent rating.",
+      "of": "7302d76e",
+      "at": [
+        "covenant-day:music.ladder[1].text"
+      ],
+      "t": "HS Band ने Excellent रेटिंग पाई।"
+    },
+    {
+      "text": "2025",
+      "of": "41293f26",
+      "at": [
+        "covenant-day:music.ladder[2].label"
+      ],
+      "t": "2025"
+    },
+    {
+      "text": "HS Band earned an Excellent rating and 2nd placement.",
+      "of": "82e870f0",
+      "at": [
+        "covenant-day:music.ladder[2].text"
+      ],
+      "t": "HS Band ने Excellent रेटिंग और दूसरा स्थान पाया।"
+    },
+    {
+      "text": "Honor society",
+      "of": "c53b433d",
+      "at": [
+        "covenant-day:music.ladder[3].label"
+      ],
+      "t": "सम्मान समिति"
+    },
+    {
+      "text": "Tri-M Music Honor Society chapter for achievement plus service.",
+      "of": "1406e69f",
+      "at": [
+        "covenant-day:music.ladder[3].text"
+      ],
+      "t": "उपलब्धि के साथ सेवा के लिए Tri-M Music Honor Society चैप्टर।"
+    },
+    {
+      "text": "No NCMEA All-State or All-District honors appear on the music page — a confirmed absence. Performance venues run from Biltmore Estates to Christmas programs, sporting events and spring concerts.",
+      "of": "7bda7c5f",
+      "at": [
+        "covenant-day:music.ladderNote"
+      ],
+      "t": "संगीत पेज पर कोई NCMEA All-State या All-District सम्मान नहीं दिखता — एक पुष्ट अनुपस्थिति। प्रस्तुति-स्थल Biltmore Estates से लेकर Christmas कार्यक्रमों, खेल आयोजनों और spring concerts तक फैले हैं।"
+    },
+    {
+      "text": "A clean Intro-to-AP path with a public AP exhibit at the end of it — and seven Youth Art Month honorees in one year.",
+      "of": "e2660878",
+      "at": [
+        "covenant-day:visual.headline"
+      ],
+      "t": "एक साफ़ Intro-to-AP रास्ता, जिसके अंत में एक सार्वजनिक AP प्रदर्शनी है — और एक ही साल में सात Youth Art Month सम्मानित।"
+    },
+    {
+      "text": "Art starts integrated in JK–K, turns sequential in grade 1, and tops out at AP Studio Art with its own show.",
+      "of": "a0a9cd5d",
+      "at": [
+        "covenant-day:visual.subhead"
+      ],
+      "t": "कला JK–K में एकीकृत रूप से शुरू होती है, कक्षा 1 में क्रमबद्ध होती है, और अपने शो के साथ AP Studio Art पर पहुँचती है।"
+    },
+    {
+      "text": "Intro to Art through Studio Art",
+      "of": "5c35aff9",
+      "at": [
+        "covenant-day:visual.media[0].detail"
+      ],
+      "t": "Intro to Art से Studio Art तक"
+    },
+    {
+      "text": "Art 2/3 splits into 2D and 3D tracks",
+      "of": "3ec1a79b",
+      "at": [
+        "covenant-day:visual.media[1].detail"
+      ],
+      "t": "Art 2/3, 2D और 3D ट्रैक में बँटता है"
+    },
+    {
+      "text": "CP and Honors — publication design as coursework",
+      "of": "6a6599d4",
+      "at": [
+        "covenant-day:visual.media[5].detail"
+      ],
+      "t": "CP और Honors — coursework के रूप में publication design"
+    },
+    {
+      "text": "High School Art Teacher: Katie Spata. Placement into Honors and AP follows the school-wide gate of prior coursework, grades, and teacher feedback.",
+      "of": "3bce8e8c",
+      "at": [
+        "covenant-day:visual.pathNote"
+      ],
+      "t": "High School Art Teacher: Katie Spata। Honors और AP में प्लेसमेंट पूर्व coursework, ग्रेड और शिक्षक प्रतिक्रिया के स्कूल-व्यापी मानक का पालन करती है।"
+    },
+    {
+      "text": "All-school",
+      "of": "bf82e7ff",
+      "at": [
+        "covenant-day:visual.exhibits[0].when"
+      ],
+      "t": "पूरे-स्कूल"
+    },
+    {
+      "text": "the whole-school exhibit",
+      "of": "c567403b",
+      "at": [
+        "covenant-day:visual.exhibits[0].detail"
+      ],
+      "t": "पूरे-स्कूल की प्रदर्शनी"
+    },
+    {
+      "text": "the AP Art exhibit — portfolio presentations",
+      "of": "579e15b4",
+      "at": [
+        "covenant-day:visual.exhibits[1].detail"
+      ],
+      "t": "AP Art प्रदर्शनी — portfolio प्रस्तुतियाँ"
+    },
+    {
+      "text": "7 YAM honorees in 2023",
+      "of": "00737d1a",
+      "at": [
+        "covenant-day:visual.exhibits[2].detail"
+      ],
+      "t": "2023 में 7 YAM सम्मानित"
+    },
+    {
+      "text": "\"multiple Scholastic Art Award winners\"",
+      "of": "a47c7d6a",
+      "at": [
+        "covenant-day:visual.exhibits[3].detail"
+      ],
+      "t": "\"कई Scholastic Art Award विजेता\""
+    },
+    {
+      "text": "A real regional-award theatre program and a coherent JK–12 ladder, with worship arts as the identity — and a few things it does not offer.",
+      "of": "fcfe6ce8",
+      "at": [
+        "covenant-day:verdict.headline"
+      ],
+      "t": "एक असली क्षेत्रीय-पुरस्कार थिएटर कार्यक्रम और एक सुसंगत JK–12 सीढ़ी, जिसमें worship arts पहचान है — और कुछ चीज़ें जो यह नहीं देता।"
+    },
+    {
+      "text": "Strong for a family that wants faith-integrated arts; thinner for one hunting orchestra, dance, or a large-hall music program.",
+      "of": "e36988ef",
+      "at": [
+        "covenant-day:verdict.subhead"
+      ],
+      "t": "faith-एकीकृत कला चाहने वाले परिवार के लिए मज़बूत; orchestra, dance, या बड़े-सभागार वाले संगीत कार्यक्रम की तलाश करने वाले के लिए कमज़ोर।"
+    },
+    {
+      "text": "The Blumey record is genuine",
+      "of": "fbc9ceb4",
+      "at": [
+        "covenant-day:verdict.holdsUp[0].label"
+      ],
+      "t": "Blumey रिकॉर्ड असली है"
+    },
+    {
+      "text": "Two wins and eight recognitions across seven seasons, verifiable in Blumenthal’s own archives, plus a 2025 National Shakespeare Competition finalist.",
+      "of": "90829a82",
+      "at": [
+        "covenant-day:verdict.holdsUp[0].text"
+      ],
+      "t": "सात सत्रों में दो जीत और आठ पहचान, जो Blumenthal के अपने संग्रह में सत्यापन-योग्य हैं, साथ ही 2025 का National Shakespeare Competition फाइनलिस्ट।"
+    },
+    {
+      "text": "The visual path is complete and public",
+      "of": "5e307d22",
+      "at": [
+        "covenant-day:verdict.holdsUp[1].label"
+      ],
+      "t": "दृश्य रास्ता पूर्ण और सार्वजनिक है"
+    },
+    {
+      "text": "Intro → Art 2/3 → Honors Studio → AP Studio Art, with the AP exhibit (Art Talk) and an all-school show (ArtWalk) where the work is actually seen.",
+      "of": "71c39247",
+      "at": [
+        "covenant-day:verdict.holdsUp[1].text"
+      ],
+      "t": "Intro → Art 2/3 → Honors Studio → AP Studio Art, AP प्रदर्शनी (Art Talk) और एक पूरे-स्कूल के शो (ArtWalk) के साथ, जहाँ काम वाकई देखा जाता है।"
+    },
+    {
+      "text": "The worship-music spine is unique here",
+      "of": "e16507de",
+      "at": [
+        "covenant-day:verdict.holdsUp[2].label"
+      ],
+      "t": "worship-music की रीढ़ यहाँ अनूठी है"
+    },
+    {
+      "text": "Credit-bearing Worship Leadership plus worship bands in both divisions — the school’s church-ministry identity expressed in the curriculum itself.",
+      "of": "e5c00779",
+      "at": [
+        "covenant-day:verdict.holdsUp[2].text"
+      ],
+      "t": "क्रेडिट वाली Worship Leadership तथा दोनों डिवीज़नों में worship bands — स्कूल की church-ministry पहचान, पाठ्यक्रम में ही व्यक्त।"
+    },
+    {
+      "text": "A patron organization with real money in it",
+      "of": "4ebaeb0b",
+      "at": [
+        "covenant-day:verdict.holdsUp[3].label"
+      ],
+      "t": "असली पैसे वाला एक patron संगठन"
+    },
+    {
+      "text": "The Covenant Arts Association’s $100–$1,000 tiers fund and staff all three arts areas.",
+      "of": "3c1a02a0",
+      "at": [
+        "covenant-day:verdict.holdsUp[3].text"
+      ],
+      "t": "Covenant Arts Association के $100–$1,000 स्तर तीनों कला क्षेत्रों को धन और स्टाफ देते हैं।"
+    },
+    {
+      "text": "What was the last high school musical, and when did the program last enter the Blumeys? The public ledger stops in 2019.",
+      "of": "42245184",
+      "at": [
+        "covenant-day:verdict.ask[0]"
+      ],
+      "t": "आख़िरी high school musical कौन-सा था, और कार्यक्रम आख़िरी बार Blumeys में कब गया? सार्वजनिक ब्योरा 2019 में रुक जाता है।"
+    },
+    {
+      "text": "Ensemble sizes: how many students are in Symphonic Band and HS Choir this year? No participation figure is published.",
+      "of": "22e18b78",
+      "at": [
+        "covenant-day:verdict.ask[1]"
+      ],
+      "t": "Ensemble का आकार: इस साल Symphonic Band और HS Choir में कितने विद्यार्थी हैं? कोई भागीदारी आँकड़ा प्रकाशित नहीं है।"
+    },
+    {
+      "text": "Is there any strings/orchestra pathway, or dance? Neither appears in the program.",
+      "of": "669bd1f3",
+      "at": [
+        "covenant-day:verdict.ask[2]"
+      ],
+      "t": "क्या कोई strings/orchestra रास्ता है, या dance? कार्यक्रम में इनमें से कोई नहीं दिखता।"
+    },
+    {
+      "text": "How does the 200-seat Lions Theater handle demand for the HS musical — how fast do public tickets go after the Arts Association pre-sale?",
+      "of": "02f659be",
+      "at": [
+        "covenant-day:verdict.ask[3]"
+      ],
+      "t": "200 सीटों वाला Lions Theater HS musical की माँग को कैसे संभालता है — Arts Association की pre-sale के बाद सार्वजनिक टिकट कितनी जल्दी बिकते हैं?"
+    },
+    {
+      "text": "Which Music in the Parks division do the ensembles compete in, and is NCMEA All-State participation on the roadmap?",
+      "of": "8902c701",
+      "at": [
+        "covenant-day:verdict.ask[4]"
+      ],
+      "t": "ensembles किस Music in the Parks डिवीज़न में प्रतिस्पर्धा करते हैं, और क्या NCMEA All-State भागीदारी रोडमैप पर है?"
     },
     {
       "text": "A small, accessible arts program — a complete visual ladder to AP Studio Art, but one performing music ensemble and no named arts facility.",

@@ -358,6 +358,7 @@
         "charlotte-latin:counseling.roster[0].role",
         "charlotte-christian:counseling.roster[0].role",
         "charlotte-country-day:counseling.roster[0].role",
+        "covenant-day:counseling.roster[0].role",
         "davidson-day:counseling.roster[0].role"
       ]
     },
@@ -770,6 +771,7 @@
         "charlotte-christian:outcomes.buckets[0].tier",
         "charlotte-country-day:outcomes.buckets[0].tier",
         "cannon:outcomes.buckets[0].tier",
+        "covenant-day:outcomes.buckets[0].tier",
         "davidson-day:outcomes.buckets[0].tier"
       ]
     },
@@ -789,6 +791,7 @@
         "charlotte-christian:outcomes.buckets[1].tier",
         "charlotte-country-day:outcomes.buckets[1].tier",
         "cannon:outcomes.buckets[1].tier",
+        "covenant-day:outcomes.buckets[1].tier",
         "davidson-day:outcomes.buckets[1].tier"
       ]
     },
@@ -808,6 +811,7 @@
         "charlotte-christian:outcomes.buckets[2].tier",
         "charlotte-country-day:outcomes.buckets[2].tier",
         "cannon:outcomes.buckets[2].tier",
+        "covenant-day:outcomes.buckets[2].tier",
         "davidson-day:outcomes.buckets[2].tier"
       ]
     },
@@ -820,6 +824,7 @@
         "charlotte-christian:outcomes.buckets[3].tier",
         "charlotte-country-day:outcomes.buckets[3].tier",
         "cannon:outcomes.buckets[3].tier",
+        "covenant-day:outcomes.buckets[3].tier",
         "davidson-day:outcomes.buckets[3].tier"
       ]
     },
@@ -839,6 +844,7 @@
         "charlotte-christian:outcomes.buckets[4].tier",
         "charlotte-country-day:outcomes.buckets[4].tier",
         "cannon:outcomes.buckets[4].tier",
+        "covenant-day:outcomes.buckets[4].tier",
         "davidson-day:outcomes.buckets[4].tier"
       ]
     },
@@ -847,6 +853,31 @@
       "of": "5e31be7c",
       "at": [
         "providence-day:outcomes.buckets[4].note"
+      ]
+    },
+    {
+      "t": "HBCUs",
+      "of": "d6316d90",
+      "at": [
+        "providence-day:outcomes.buckets[5].tier",
+        "charlotte-latin:outcomes.buckets[5].tier",
+        "charlotte-christian:outcomes.buckets[5].tier",
+        "charlotte-country-day:outcomes.buckets[5].tier",
+        "cannon:outcomes.buckets[5].tier",
+        "covenant-day:outcomes.buckets[5].tier",
+        "davidson-day:outcomes.buckets[5].tier"
+      ]
+    },
+    {
+      "t": "— చారిత్రకంగా నల్లజాతి కళాశాలలు & విశ్వవిద్యాలయాలు",
+      "of": "92578ef1",
+      "at": [
+        "providence-day:outcomes.buckets[5].note",
+        "charlotte-latin:outcomes.buckets[5].note",
+        "charlotte-christian:outcomes.buckets[5].note",
+        "charlotte-country-day:outcomes.buckets[5].note",
+        "cannon:outcomes.buckets[5].note",
+        "davidson-day:outcomes.buckets[5].note"
       ]
     },
     {
@@ -861,7 +892,8 @@
       "of": "3e53dcd1",
       "at": [
         "providence-day:outcomes.collegesTitle",
-        "charlotte-country-day:outcomes.collegesTitle"
+        "charlotte-country-day:outcomes.collegesTitle",
+        "covenant-day:outcomes.collegesTitle"
       ]
     },
     {
@@ -5698,6 +5730,1072 @@
       ]
     },
     {
+      "t": "2026లో AP పరీక్ష స్కోర్లలో 96% 3 లేదా అంతకంటే ఎక్కువ — 84% నుంచి ఐదేళ్ల పెరుగుదల శిఖరం — మరియు ప్రతి AP విద్యార్థీ తప్పనిసరిగా పరీక్ష రాయాలి.",
+      "of": "84b2a316",
+      "at": [
+        "covenant-day:transcript.headline"
+      ]
+    },
+    {
+      "t": "ఒక నియంత్రిత AP కార్యక్రమం: freshmenకు ఏదీ లేదు, sophomoresకు ఒకటి, దాని మీద Covenant College ద్వారా dual enrollment.",
+      "of": "904c11c3",
+      "at": [
+        "covenant-day:transcript.subhead"
+      ]
+    },
+    {
+      "t": "96%",
+      "of": "3ec55d39",
+      "at": [
+        "covenant-day:transcript.stats[0].value",
+        "covenant-day:transcript.merit[3].detail"
+      ]
+    },
+    {
+      "t": "2026లో 3+ స్కోరు సాధించిన AP పరీక్షలు (401 పరీక్షలు, 179 విద్యార్థులు)",
+      "of": "862a26d7",
+      "at": [
+        "covenant-day:transcript.stats[0].label"
+      ]
+    },
+    {
+      "t": "78%",
+      "of": "8ddb95bd",
+      "at": [
+        "covenant-day:transcript.stats[1].value"
+      ]
+    },
+    {
+      "t": "AP స్కోర్లలో 4 లేదా 5 సాధించినవి",
+      "of": "c75a93a8",
+      "at": [
+        "covenant-day:transcript.stats[1].label"
+      ]
+    },
+    {
+      "t": "1263 / 26",
+      "of": "84da6f50",
+      "at": [
+        "covenant-day:transcript.stats[2].value"
+      ]
+    },
+    {
+      "t": "Class of 2026 SAT / ACT సగటులు",
+      "of": "edb21e19",
+      "at": [
+        "covenant-day:transcript.stats[2].label"
+      ]
+    },
+    {
+      "t": "80%",
+      "of": "489f4e50",
+      "at": [
+        "covenant-day:transcript.stats[3].value"
+      ]
+    },
+    {
+      "t": "అధునాతన డిగ్రీలున్న HS అధ్యాపకులు",
+      "of": "06766e5d",
+      "at": [
+        "covenant-day:transcript.stats[3].label"
+      ]
+    },
+    {
+      "t": "profile చూపిన విధంగా ఐదేళ్ల AP క్రమం",
+      "of": "59fe91a7",
+      "at": [
+        "covenant-day:transcript.meritTitle"
+      ]
+    },
+    {
+      "t": "AP పరీక్ష స్కోర్లలో 84% 3+",
+      "of": "303fe98e",
+      "at": [
+        "covenant-day:transcript.merit[0].detail"
+      ]
+    },
+    {
+      "t": "93% — Class of 2023: 161 విద్యార్థులు, 324 పరీక్షలు; SAT 1268 / ACT 26",
+      "of": "07ee0fba",
+      "at": [
+        "covenant-day:transcript.merit[1].detail"
+      ]
+    },
+    {
+      "t": "92% — Class of 2024: 168 విద్యార్థులు, 344 పరీక్షలు; SAT 1243 / ACT 27",
+      "of": "33052257",
+      "at": [
+        "covenant-day:transcript.merit[2].detail"
+      ]
+    },
+    {
+      "t": "96% — 38 AP Scholars with Distinction, 27 with Honor, 33 Scholars",
+      "of": "ac2871bc",
+      "at": [
+        "covenant-day:transcript.merit[4].detail"
+      ]
+    },
+    {
+      "t": "2006 నుంచి — తొలి బ్యాచ్ — పాఠశాల 28 National Merit Finalists మరియు 70 Commended విద్యార్థులను లెక్కిస్తుంది, ఇది చివరి రెండు profile editions మధ్య రెండు Finalists మరియు తొమ్మిది Commended పెరిగిన జాబితా.",
+      "of": "3e057851",
+      "at": [
+        "covenant-day:transcript.meritNote"
+      ]
+    },
+    {
+      "t": "కఠినత్వ నిర్మాణం",
+      "of": "a09f8c3a",
+      "at": [
+        "covenant-day:transcript.depthTitle"
+      ]
+    },
+    {
+      "t": "అదనపు విలువ (Weighting)",
+      "of": "edbd8b07",
+      "at": [
+        "covenant-day:transcript.depth[0].label"
+      ]
+    },
+    {
+      "t": "A+ = 4.33 అదనపు విలువ లేకుండా; Honors +0.5; Dual Enrollment మరియు AP +1.0. GPA అన్ని సబ్జెక్టుల మీద, 9–12 తరగతులకు లెక్కిస్తారు.",
+      "of": "11fd1ffc",
+      "at": [
+        "covenant-day:transcript.depth[0].text"
+      ]
+    },
+    {
+      "t": "AP నియంత్రణ",
+      "of": "d0cc78dc",
+      "at": [
+        "covenant-day:transcript.depth[1].label"
+      ]
+    },
+    {
+      "t": "freshmenకు AP లేదు; sophomoresకు ఒకటికి పరిమితం. junior సంవత్సరంలో రెండు మరియు senior సంవత్సరంలో నాలుగు APలను profile స్వయంగా \"a very demanding course load\" అని పేర్కొంటుంది.",
+      "of": "2bedee47",
+      "at": [
+        "covenant-day:transcript.depth[1].text"
+      ]
+    },
+    {
+      "t": "Dual enrollment",
+      "of": "38db84b5",
+      "at": [
+        "covenant-day:transcript.depth[2].label"
+      ]
+    },
+    {
+      "t": "Honors Calculus, Statistics, మరియు Literature & Philosophyకు Covenant College credit ఉంటుంది; SevenStar Academy జాబితాను ఆన్‌లైన్‌లో విస్తరిస్తుంది, ఇది transcriptలో పేర్కొనబడుతుంది.",
+      "of": "327c7075",
+      "at": [
+        "covenant-day:transcript.depth[2].text"
+      ]
+    },
+    {
+      "t": "గ్రాడ్యుయేషన్",
+      "of": "2c9a19d1",
+      "at": [
+        "covenant-day:transcript.depth[3].label"
+      ]
+    },
+    {
+      "t": "25 Carnegie Units, అందులో 3 units Bible (ఏటా ఒక Bible course) మరియు ఒక Fine Arts unit.",
+      "of": "66232648",
+      "at": [
+        "covenant-day:transcript.depth[3].text"
+      ]
+    },
+    {
+      "t": "కళాశాలలు గ్రేడ్లను ఎందుకు చదవగలవు",
+      "of": "592a74ee",
+      "at": [
+        "covenant-day:transcript.trustTitle"
+      ]
+    },
+    {
+      "t": "ప్రతి AP విద్యార్థీ పరీక్ష రాస్తారు",
+      "of": "032ac683",
+      "at": [
+        "covenant-day:transcript.trust[0].label"
+      ]
+    },
+    {
+      "t": "AP courses తీసుకున్న విద్యార్థులందరూ తప్పనిసరిగా పరీక్షలు రాయాలి — కాబట్టి 96% ఉత్తీర్ణతా రేటు తామే ఎంచుకున్న ఒక భాగాన్ని కాకుండా మొత్తం AP సమూహాన్ని కవర్ చేస్తుంది.",
+      "of": "f8ae4f11",
+      "at": [
+        "covenant-day:transcript.trust[0].text"
+      ]
+    },
+    {
+      "t": "ర్యాంకు లేదు, పూర్తిగా పేర్కొన్నది",
+      "of": "333f99d3",
+      "at": [
+        "covenant-day:transcript.trust[1].label"
+      ]
+    },
+    {
+      "t": "\"Due to the small class size and the college-bound nature of Covenant Day’s population, we believe that class rank is not a strong discriminator… Therefore, we do not rank.\"",
+      "of": "ac0cddf4",
+      "at": [
+        "covenant-day:transcript.trust[1].text"
+      ]
+    },
+    {
+      "t": "AP course సంఖ్య enrollmentతో మారుతుంది: 2026–27 profile matrixలో 15 APలు, కానీ 2024–25 editionలో 18 వరకు (అందులో AP Calculus BC, Human Geography మరియు French ఉన్నాయి). మీ విద్యార్థి సంవత్సరంలో నిజంగా ఏ APలు నడుస్తాయో అడగండి.",
+      "of": "0d9419f3",
+      "at": [
+        "covenant-day:transcript.flags[0].text"
+      ]
+    },
+    {
+      "t": "85 మంది చివరి సంవత్సరం విద్యార్థులకు ఒక ప్రత్యేక college counseling director — పాఠశాలలో ఆమె 23వ సంవత్సరం — ఈ పోలికలో అత్యధిక భారం.",
+      "of": "bd58af0d",
+      "at": [
+        "covenant-day:counseling.headline"
+      ]
+    },
+    {
+      "t": "కార్యాలయం ఉత్పత్తి రూపంలో కాకుండా సంబంధాల ఆధారితం: guidanceలో ముప్ఫై సంవత్సరాల అనుభవంతో ఒక NACCAP Professional of the Year, juniors మరియు seniorsను అంతటా కలుస్తారు.",
+      "of": "e562b9cf",
+      "at": [
+        "covenant-day:counseling.subhead"
+      ]
+    },
+    {
+      "t": "85:1",
+      "of": "1a9bb18f",
+      "at": [
+        "covenant-day:counseling.stats[0].value"
+      ]
+    },
+    {
+      "t": "ఒక ప్రత్యేక college counselorకు చివరి సంవత్సరం విద్యార్థులు",
+      "of": "5adf229b",
+      "at": [
+        "covenant-day:counseling.stats[0].label"
+      ]
+    },
+    {
+      "t": "2003",
+      "of": "d32ea22a",
+      "at": [
+        "covenant-day:counseling.stats[1].value"
+      ]
+    },
+    {
+      "t": "Covenant Dayలో director పదవీకాల ఆరంభం",
+      "of": "0b1237e2",
+      "at": [
+        "covenant-day:counseling.stats[1].label"
+      ]
+    },
+    {
+      "t": "4",
+      "of": "310ca263",
+      "at": [
+        "covenant-day:counseling.stats[2].value"
+      ]
+    },
+    {
+      "t": "guidance కార్యాలయంలో వ్యక్తులు",
+      "of": "6193d170",
+      "at": [
+        "covenant-day:counseling.stats[2].label"
+      ]
+    },
+    {
+      "t": "2003 నుంచి Director of Guidance and College Counseling; guidance మరియు college counselingలో ముప్ఫై సంవత్సరాలు; BA Oklahoma Wesleyan, MA Winthrop; NACCAP K-12 Professional of the Yearగా ఎంపిక.",
+      "of": "f68e9044",
+      "at": [
+        "covenant-day:counseling.roster[0].detail"
+      ]
+    },
+    {
+      "t": "కౌన్సెలర్",
+      "of": "be7455dd",
+      "at": [
+        "covenant-day:counseling.roster[1].role"
+      ]
+    },
+    {
+      "t": "2016 నుంచి Guidance Counselor. BA UNC Chapel Hill; MA Georgia State; మాజీ Reformed Theological Seminary registrar.",
+      "of": "f22262c9",
+      "at": [
+        "covenant-day:counseling.roster[1].detail"
+      ]
+    },
+    {
+      "t": "వ్యక్తిగతం",
+      "of": "6e5a8cad",
+      "at": [
+        "covenant-day:counseling.roster[2].role"
+      ]
+    },
+    {
+      "t": "2021 నుంచి Licensed Marriage and Family Therapist — వైద్య పాత్ర, college కార్యాలయం నుంచి వేరైనది.",
+      "of": "b949d7c4",
+      "at": [
+        "covenant-day:counseling.roster[2].detail"
+      ]
+    },
+    {
+      "t": "సహాయకుడు",
+      "of": "da502cc7",
+      "at": [
+        "covenant-day:counseling.roster[3].role"
+      ]
+    },
+    {
+      "t": "2012 నుంచి Guidance Assistant.",
+      "of": "4b9cb104",
+      "at": [
+        "covenant-day:counseling.roster[3].detail"
+      ]
+    },
+    {
+      "t": "ప్రచురించిన క్రమం",
+      "of": "27929f35",
+      "at": [
+        "covenant-day:counseling.timelineTitle"
+      ]
+    },
+    {
+      "t": "కోర్సు-ప్రణాళిక",
+      "of": "59d95ace",
+      "at": [
+        "covenant-day:counseling.timeline[0].intensity"
+      ]
+    },
+    {
+      "t": "course ఎంపిక మీద విద్యా సలహా",
+      "of": "6b726c19",
+      "at": [
+        "covenant-day:counseling.timeline[0].items[0]"
+      ]
+    },
+    {
+      "t": "coursework, గ్రేడ్లు మరియు ఉపాధ్యాయుల అభిప్రాయం ద్వారా Honors/AP ప్రవేశం",
+      "of": "b87c4229",
+      "at": [
+        "covenant-day:counseling.timeline[0].items[1]"
+      ]
+    },
+    {
+      "t": "ఏ అధికారిక underclass counseling పాఠ్యప్రణాళికా ప్రచురించలేదు.",
+      "of": "9a135e1d",
+      "at": [
+        "covenant-day:counseling.timeline[0].note"
+      ]
+    },
+    {
+      "t": "College-వైపు",
+      "of": "82074407",
+      "at": [
+        "covenant-day:counseling.timeline[1].intensity"
+      ]
+    },
+    {
+      "t": "కార్యాలయం \"meets with juniors and seniors throughout their high school careers\"",
+      "of": "0fbb4a4e",
+      "at": [
+        "covenant-day:counseling.timeline[1].items[0]"
+      ]
+    },
+    {
+      "t": "course planning నుంచి దరఖాస్తు వరకు, scholarship search వరకు వ్యక్తిగత సహకారం",
+      "of": "50dea1b3",
+      "at": [
+        "covenant-day:counseling.timeline[1].items[1]"
+      ]
+    },
+    {
+      "t": "College Representatives పేజీ ద్వారా college rep సందర్శనలు",
+      "of": "e23b580e",
+      "at": [
+        "covenant-day:counseling.timeline[1].items[2]"
+      ]
+    },
+    {
+      "t": "కార్యాలయం తాను కవర్ చేస్తానని చెప్పేవి",
+      "of": "c669b4fb",
+      "at": [
+        "covenant-day:counseling.mechanicsTitle",
+        "davidson-day:counseling.mechanicsTitle"
+      ]
+    },
+    {
+      "t": "కళాశాల లక్ష్యాల దిశగా course planning",
+      "of": "fbdca05d",
+      "at": [
+        "covenant-day:counseling.mechanics[0]"
+      ]
+    },
+    {
+      "t": "ఒక బలమైన దరఖాస్తు రూపొందించడం",
+      "of": "50a6d813",
+      "at": [
+        "covenant-day:counseling.mechanics[1]"
+      ]
+    },
+    {
+      "t": "scholarship అవకాశాలను గుర్తించడం",
+      "of": "474f3f9a",
+      "at": [
+        "covenant-day:counseling.mechanics[2]"
+      ]
+    },
+    {
+      "t": "విద్యా సలహా మరియు విద్యార్థి counseling",
+      "of": "1b8e9314",
+      "at": [
+        "covenant-day:counseling.mechanics[3]"
+      ]
+    },
+    {
+      "t": "వార్షిక High School Profile (CEEB 342532)",
+      "of": "68f6453b",
+      "at": [
+        "covenant-day:counseling.mechanics[4]"
+      ]
+    },
+    {
+      "t": "profile అనేది కార్యాలయ దరఖాస్తు పత్రం: weighting key, rank policy, AP gating మరియు ప్రవేశ జాబితా, రెండు-పేజీల PDFలో, ఏటా నవీకరించబడుతుంది — మూడు editions ధ్రువీకరించబడ్డాయి.",
+      "of": "ad999ad4",
+      "at": [
+        "covenant-day:counseling.mechanicsNote"
+      ]
+    },
+    {
+      "t": "NACCAP సభ్యత్వం, అదనంగా ఒక Professional of the Year director — Christian-college ప్రవేశాల వర్గంలో పేరు గుర్తింపు",
+      "of": "d0e6345d",
+      "at": [
+        "covenant-day:counseling.reach[0]"
+      ]
+    },
+    {
+      "t": "మెయిన్‌స్ట్రీమ్ వైపు NACAC సభ్యత్వం",
+      "of": "804352a3",
+      "at": [
+        "covenant-day:counseling.reach[1]"
+      ]
+    },
+    {
+      "t": "PCA తెగ కళాశాల అయిన Covenant Collegeకు ఒక స్థిర dual-enrollment మార్గం",
+      "of": "e59be429",
+      "at": [
+        "covenant-day:counseling.reach[2]"
+      ]
+    },
+    {
+      "t": "ఏ తరగతి-వారీ counseling కాలక్రమమూ ప్రచురించలేదు — కేవలం junior/senior సమావేశ క్రమం మాత్రమే — మరియు ఏ college-counseling వేదిక (Naviance, Scoir) బహిరంగ సైట్‌లో ఎక్కడా పేర్కొనలేదు.",
+      "of": "ed6115ca",
+      "at": [
+        "covenant-day:counseling.flags[0].text"
+      ]
+    },
+    {
+      "t": "85:1 నిష్పత్తి ఉత్పన్నం చేసినది (85 seniors ÷ 1 ప్రత్యేక director). రెండో guidance counselor college-యేతర భారాన్ని మోస్తారు, కాబట్టి వాస్తవ college భారం శీర్షికలో ఉన్నదాని కంటే తక్కువగా ఉండవచ్చు — కానీ పాఠశాల ఎప్పుడూ ఒకదాన్ని పేర్కొనదు.",
+      "of": "5aa20a9b",
+      "at": [
+        "covenant-day:counseling.flags[1].text"
+      ]
+    },
+    {
+      "t": "ప్రచురించిన 2023–2026 ప్రవేశ జాబితాలో 225 సంస్థలు — చేరిన వాటిని bold చేశారు, కాబట్టి విద్యార్థులు నిజంగా ఎక్కడికి వెళ్లారో మీరు చూడవచ్చు.",
+      "of": "c18f5e7d",
+      "at": [
+        "covenant-day:outcomes.headline"
+      ]
+    },
+    {
+      "t": "ప్రస్తుత కాలవ్యవధి Dartmouth, Penn మరియు Duke వరకు చేరుతుంది — మూడూ చేరినట్టుగా bold చేశారు — అత్యధిక సాంద్రత NC ప్రభుత్వ మరియు Christian కళాశాలలలో ఉంది.",
+      "of": "38c3d828",
+      "at": [
+        "covenant-day:outcomes.subhead"
+      ]
+    },
+    {
+      "t": "225",
+      "of": "2aec76b0",
+      "at": [
+        "covenant-day:outcomes.stats[0].value"
+      ]
+    },
+    {
+      "t": "2023–2026 ప్రవేశ జాబితాలో సంస్థలు",
+      "of": "22722825",
+      "at": [
+        "covenant-day:outcomes.stats[0].label"
+      ]
+    },
+    {
+      "t": "85",
+      "of": "8d01a276",
+      "at": [
+        "covenant-day:outcomes.stats[1].value"
+      ]
+    },
+    {
+      "t": "Class of 2027లో చివరి సంవత్సరం విద్యార్థులు",
+      "of": "959c71e8",
+      "at": [
+        "covenant-day:outcomes.stats[1].label"
+      ]
+    },
+    {
+      "t": "2 / 8",
+      "of": "10390c08",
+      "at": [
+        "covenant-day:outcomes.stats[2].value"
+      ]
+    },
+    {
+      "t": "జాబితాలో Ivy కళాశాలలు — Dartmouth మరియు Penn, రెండింటిలోనూ చేరినవారు ఉన్నారు",
+      "of": "e054b495",
+      "at": [
+        "covenant-day:outcomes.stats[2].label"
+      ]
+    },
+    {
+      "t": "46 / 68",
+      "of": "26efa6ac",
+      "at": [
+        "covenant-day:outcomes.stats[3].value"
+      ]
+    },
+    {
+      "t": "జాబితాలో Power Four విశ్వవిద్యాలయాలు",
+      "of": "b8886520",
+      "at": [
+        "covenant-day:outcomes.stats[3].label"
+      ]
+    },
+    {
+      "t": "— Dartmouth, Penn; రెండూ bold (చేరారు)",
+      "of": "7e4a8d1a",
+      "at": [
+        "covenant-day:outcomes.buckets[0].note"
+      ]
+    },
+    {
+      "t": "— Duke చేర్చుతుంది, అది కూడా bold",
+      "of": "1f0fcb47",
+      "at": [
+        "covenant-day:outcomes.buckets[1].note"
+      ]
+    },
+    {
+      "t": "— Davidson నుంచి Gettysburg వరకు",
+      "of": "6c33fc44",
+      "at": [
+        "covenant-day:outcomes.buckets[3].note"
+      ]
+    },
+    {
+      "t": "— 14 ACC · 12 SEC · 11 Big Ten · 9 Big 12",
+      "of": "b6fea221",
+      "at": [
+        "covenant-day:outcomes.buckets[4].note"
+      ]
+    },
+    {
+      "t": "— Fayetteville State, Johnson C. Smith, NC A&T",
+      "of": "105763b7",
+      "at": [
+        "covenant-day:outcomes.buckets[5].note"
+      ]
+    },
+    {
+      "t": "పాఠశాల ప్రచురించిన జాబితాను 2026 U.S. News పట్టికలతో పోల్చి ఈ పరిశోధన ద్వారా ఉత్పన్నం చేసినది — ఇక్కడి ఇతర పాఠశాలలకు వాడిన అవే జాబితాలు, పాఠశాల నివేదించిన సంఖ్యలు కాదు. మునుపటి కాలవ్యవధులు ఎక్కువగా ఉన్నాయి: 2018–2023 ముఖ్యాంశాలలో Stanford, MIT, Princeton, Brown, Cornell మరియు Vanderbilt ఉన్నాయి, మరియు 2021–2024 జాబితా ఐదు UC campusesను చేర్చుతుంది.",
+      "of": "a8ba4c89",
+      "at": [
+        "covenant-day:outcomes.bucketsNote"
+      ]
+    },
+    {
+      "t": "2023–2026 జాబితాలో 225 సంస్థలు",
+      "of": "bcab2e95",
+      "at": [
+        "covenant-day:outcomes.collegesTotal"
+      ]
+    },
+    {
+      "t": "scholarship డాలర్ మొత్తాలు లేవు — మూడు profile editions అంతటా తనిఖీ చేశాం",
+      "of": "515f2614",
+      "at": [
+        "covenant-day:outcomes.scholarships[0]"
+      ]
+    },
+    {
+      "t": "ఒక్కో బ్యాచ్ వారీ ప్రవేశ విభజనలు లేవు — జాబితాలు అనేక సంవత్సరాల కాలవ్యవధులు",
+      "of": "6ea1f8df",
+      "at": [
+        "covenant-day:outcomes.scholarships[1]"
+      ]
+    },
+    {
+      "t": "చేరిన రేటు శాతాలు లేవు",
+      "of": "6c917bc8",
+      "at": [
+        "covenant-day:outcomes.scholarships[2]"
+      ]
+    },
+    {
+      "t": "bold అంటే చేరడం అనే పద్ధతి స్వయంగా అసాధారణ వెల్లడి: ప్రచురించిన రెండు జాబితాలూ దీన్ని కలిగి ఉండి 2023–24 బ్యాచ్‌ల మీద అతివ్యాప్తి చెందుతాయి కాబట్టి, ప్రవేశాలు మరియు చేరికలను editions అంతటా పరస్పరం ధ్రువీకరించవచ్చు.",
+      "of": "a83cb3d4",
+      "at": [
+        "covenant-day:outcomes.scholarshipsNote"
+      ]
+    },
+    {
+      "t": "అనేక సంవత్సరాల సంచిత జాబితా విస్తృతిని చూపుతుంది, రేట్లను కాదు: ఒక్కో పేరు అంటే ~85 మంది గల నాలుగు బ్యాచ్‌లలో కనీసం ఒక ప్రవేశం, మరియు bold అంటే కనీసం ఒక చేరిక.",
+      "of": "9cf88b3c",
+      "at": [
+        "covenant-day:outcomes.caveat"
+      ]
+    },
+    {
+      "t": "bold చేసిన చేరిక పేర్లను PDF font డేటా నుంచి తిరిగి పొందాం (plain text వెలికితీత bold తీసేస్తుంది) — కొన్ని చోట్ల తనిఖీ చేశాం కానీ యంత్రం ద్వారా వెలికితీసినవి. ప్రవేశ జాబితా మాత్రం స్పష్టంగా వెలికితీయబడింది.",
+      "of": "28c1398a",
+      "at": [
+        "covenant-day:outcomes.flags[0].text"
+      ]
+    },
+    {
+      "t": "వ్యత్యాసాలు లోతైన కథలు: మరే పాఠశాలకూ లేని ఒక విభాగం, Pine Ridge మీద ఒక ఇళ్ల నిర్మాణం, మరియు PCA సొంత కళాశాల నుంచి college credit.",
+      "of": "d330b2c8",
+      "at": [
+        "covenant-day:edge.headline"
+      ]
+    },
+    {
+      "t": "research-program గానీ, Olympiad ఆధారాలు గానీ లేవు — ఇక్కడి బలం ప్రత్యేకత మరియు స్పష్టత, జాతీయ పోటీ ఫలితాలు కాదు.",
+      "of": "35b93e0a",
+      "at": [
+        "covenant-day:edge.subhead"
+      ]
+    },
+    {
+      "t": "Restoration & Sustainability",
+      "of": "e088ebd6",
+      "at": [
+        "covenant-day:edge.levers[0].title"
+      ]
+    },
+    {
+      "t": "సొంత విభాగం",
+      "of": "3cd6e523",
+      "at": [
+        "covenant-day:edge.levers[0].hint"
+      ]
+    },
+    {
+      "t": "సొంత director (Dr. Rebeca Burnett)తో పేరున్న ఒక high-school విభాగం — ఈ పాఠశాలలలో ప్రత్యేకమైనది",
+      "of": "2e078542",
+      "at": [
+        "covenant-day:edge.levers[0].items[0]"
+      ]
+    },
+    {
+      "t": "Course క్రమం: Augustine Literacy Project, Intercultural Practicum, Introduction to Engineering, Restore525",
+      "of": "bf0e7ec7",
+      "at": [
+        "covenant-day:edge.levers[0].items[1]"
+      ]
+    },
+    {
+      "t": "profile దీనికి ఒక ప్రత్యేక వివరణాత్మక భాగాన్ని ఇస్తుంది — Charlotte-ప్రాంత మరే దరఖాస్తుదారుడూ కలిగి ఉండని ఒక transcript పంక్తి",
+      "of": "21fab3bd",
+      "at": [
+        "covenant-day:edge.levers[0].items[2]"
+      ]
+    },
+    {
+      "t": "ప్రత్యేక ప్రాజెక్టులు",
+      "of": "d1dec935",
+      "at": [
+        "covenant-day:edge.levers[1].title"
+      ]
+    },
+    {
+      "t": "essay దేని గురించి రాయబడుతుందో అది",
+      "of": "1df6a140",
+      "at": [
+        "covenant-day:edge.levers[1].hint"
+      ]
+    },
+    {
+      "t": "Senior Capstone Project — ప్రతి విద్యార్థికీ పేరున్న ఒక మైలురాయి",
+      "of": "0aed2dfc",
+      "at": [
+        "covenant-day:edge.levers[1].items[0]"
+      ]
+    },
+    {
+      "t": "ContainIt: high schoolers shipping containersను Pine Ridge Reservationలో 30+ కౌమారులకు ఇళ్లుగా మారుస్తారు",
+      "of": "ad7f33af",
+      "at": [
+        "covenant-day:edge.levers[1].items[1]"
+      ]
+    },
+    {
+      "t": "ప్రసంగ వైపు McKnight Oratory మరియు Mock Trial (2025 రాష్ట్ర ద్వితీయ స్థానం courtroom artist)",
+      "of": "b9ee6eb8",
+      "at": [
+        "covenant-day:edge.levers[1].items[2]"
+      ]
+    },
+    {
+      "t": "స్పష్టమైన కఠినత్వం",
+      "of": "0dc25c94",
+      "at": [
+        "covenant-day:edge.levers[2].title"
+      ]
+    },
+    {
+      "t": "ప్రవేశ అధికారి చూసేది",
+      "of": "9de81089",
+      "at": [
+        "covenant-day:edge.levers[2].hint"
+      ]
+    },
+    {
+      "t": "AP matrix మీద Covenant College dual-enrollment credit",
+      "of": "98b17a99",
+      "at": [
+        "covenant-day:edge.levers[2].items[0]"
+      ]
+    },
+    {
+      "t": "ప్రతి-AP-విద్యార్థీ-పరీక్ష-రాసే విధానం వల్ల 96% ఉత్తీర్ణతా రేటు మొత్తం కార్యక్రమాన్ని కవర్ చేస్తుంది",
+      "of": "761cf44a",
+      "at": [
+        "covenant-day:edge.levers[2].items[1]"
+      ]
+    },
+    {
+      "t": "ర్యాంకు లేని విధానం, అదనంగా పూర్తి weighting key, కఠినత్వాన్ని సందర్భంలో పునర్నిర్మించడానికి పాఠకులకు వీలు కల్పిస్తాయి",
+      "of": "427aa388",
+      "at": [
+        "covenant-day:edge.levers[2].items[2]"
+      ]
+    },
+    {
+      "t": "సహకార నమూనా సంబంధాల ఆధారితం — NACCAP వర్గంలో ఒక 30-సంవత్సరాల director — కాకుండా ఉత్పత్తి రూప essay-bootcamp పాఠ్యప్రణాళిక కాదు, మరియు పాఠశాల రెండోదాన్ని ఏదీ ప్రచురించదు.",
+      "of": "69acb25e",
+      "at": [
+        "covenant-day:edge.levers[2].note"
+      ]
+    },
+    {
+      "t": "బలమైన మొత్తాలు, పంపిణీలు లేవు: ఒక్కో బ్యాచ్ SAT/ACT సగటులు మరియు ఐదేళ్ల AP క్రమం, కానీ ఏ రకమైన quantiles లేవు — విధానం ప్రకారం.",
+      "of": "edfd902e",
+      "at": [
+        "covenant-day:wholeClass.headline"
+      ]
+    },
+    {
+      "t": "\"We do not rank\" అనేది డేటాకు కూడా వర్తిస్తుంది: ర్యాంకు ఇవ్వడానికి నిరాకరించే పాఠశాల పంపిణీ పట్టికలను కూడా ప్రచురించదు.",
+      "of": "0fa0d6a7",
+      "at": [
+        "covenant-day:wholeClass.subhead"
+      ]
+    },
+    {
+      "t": "SAT & ACT బ్యాచ్ సగటులు",
+      "of": "3a9fd1db",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[0].title"
+      ]
+    },
+    {
+      "t": "— ప్రచురించిన విధంగా, ఒక్కో profile edition వారీ",
+      "of": "6b6fdb19",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[0].hint"
+      ]
+    },
+    {
+      "t": "Class of 2026",
+      "of": "39fd4622",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[0].rows[0].label"
+      ]
+    },
+    {
+      "t": "Class of 2024",
+      "of": "37fd42fc",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[0].rows[1].label"
+      ]
+    },
+    {
+      "t": "Class of 2023",
+      "of": "36fd4169",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[0].rows[2].label"
+      ]
+    },
+    {
+      "t": "5-సంవత్సరాల సగటులు",
+      "of": "70411f3a",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[0].rows[3].label"
+      ]
+    },
+    {
+      "t": "కేవలం సగటులు — శాతసూచికలు లేవు, middle-50% లేదు, పరీక్షార్థుల సంఖ్యలు లేవు.",
+      "of": "c8c9d4c7",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[0].note"
+      ]
+    },
+    {
+      "t": "AP Scholar స్థాయిలు, Class of 2026",
+      "of": "6f9ebe94",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[1].title"
+      ]
+    },
+    {
+      "t": "Scholars with Distinction",
+      "of": "06bc0058",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[1].rows[0].label"
+      ]
+    },
+    {
+      "t": "Scholars with Honor",
+      "of": "19d3db86",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[1].rows[1].label"
+      ]
+    },
+    {
+      "t": "AP Scholars",
+      "of": "29009ddb",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[1].rows[2].label"
+      ]
+    },
+    {
+      "t": "179 AP విద్యార్థులకు వ్యతిరేకంగా 98 scholar హోదాలు — పాఠశాల చేసే బ్యాచ్-స్వరూప వెల్లడికి అత్యంత దగ్గరైనది.",
+      "of": "f9036062",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[1].note"
+      ]
+    },
+    {
+      "t": "మూడు profile editions ఏదీలోనూ GPA పంపిణీ లేదు — highest/median/lowest లేదు, quintiles లేవు. weighting key (4.33 / +0.5 / +1.0) మొత్తం GPA వెల్లడి.",
+      "of": "7089b697",
+      "at": [
+        "covenant-day:wholeClass.gpaNote"
+      ]
+    },
+    {
+      "t": "లెర్నింగ్ స్పెషలిస్ట్‌లు",
+      "of": "1b064661",
+      "at": [
+        "covenant-day:wholeClass.support[0].label"
+      ]
+    },
+    {
+      "t": "high school సిబ్బంది పట్టికలో ఐదుగురు Learning Specialists మరియు ఒక Academic Resources Director — 350-విద్యార్థుల high schoolకు ఒక నిజమైన సహకార బృందం.",
+      "of": "7a6547dd",
+      "at": [
+        "covenant-day:wholeClass.support[0].text"
+      ]
+    },
+    {
+      "t": "వైద్య counseling",
+      "of": "04aaa979",
+      "at": [
+        "covenant-day:wholeClass.support[1].label"
+      ]
+    },
+    {
+      "t": "సిబ్బందిలో ఒక Licensed Marriage and Family Therapist (Emily Lee), college కార్యాలయం నుంచి వేరైనది.",
+      "of": "f46714d6",
+      "at": [
+        "covenant-day:wholeClass.support[1].text"
+      ]
+    },
+    {
+      "t": "ధరతో కూడిన సహాయం",
+      "of": "51afb9a1",
+      "at": [
+        "covenant-day:wholeClass.support[2].label"
+      ]
+    },
+    {
+      "t": "తరగతి గది సహాయానికి మించి tutoring మరియు ప్రత్యేక పరీక్షలు అదనపు ఖర్చుతో అందుబాటులో ఉంటాయని tuition నిబంధనలు వెల్లడిస్తాయి — చెప్పని కాకుండా పేర్కొన్న, ధరతో కూడిన మార్గం.",
+      "of": "bbf90589",
+      "at": [
+        "covenant-day:wholeClass.support[2].text"
+      ]
+    },
+    {
+      "t": "AP నియంత్రణ (freshmenకు ఏదీ లేదు, sophomoresకు ఒకటి) స్వయంగా ఒక మొత్తం-బ్యాచ్ కంచె: కఠినత్వం open-enrollment కాకుండా సంసిద్ధత ప్రకారం క్రమబద్ధమవుతుంది.",
+      "of": "409c6128",
+      "at": [
+        "covenant-day:wholeClass.supportNote"
+      ]
+    },
+    {
+      "t": "జాబితా వ్యాప్తిని చూపుతుంది",
+      "of": "5ed235e4",
+      "at": [
+        "covenant-day:wholeClass.middle[0].label"
+      ]
+    },
+    {
+      "t": "bold చేసిన చేరికలు Dartmouth మరియు Duke నుంచి Covenant College, Cedarville, Montreat, community colleges మరియు trade-సంబంధిత కార్యక్రమాల వరకు విస్తరిస్తాయి — కేవలం తన అగ్ర quartile మాత్రమే చేర్చే పాఠశాల అలాంటి వ్యాప్తిని ఇవ్వదు.",
+      "of": "00394520",
+      "at": [
+        "covenant-day:wholeClass.middle[0].text"
+      ]
+    },
+    {
+      "t": "NC-ప్రభుత్వ వెన్నెముక",
+      "of": "6dee07d4",
+      "at": [
+        "covenant-day:wholeClass.middle[1].label"
+      ]
+    },
+    {
+      "t": "అత్యధిక చేరిక సాంద్రతలు Chapel Hill, NC State, UNC Charlotte, App State మరియు East Carolina — ఉత్తర Carolina బ్యాచ్ విస్తృత మధ్య భాగానికి సేవలందించే గమ్యస్థానాలు.",
+      "of": "89123c5a",
+      "at": [
+        "covenant-day:wholeClass.middle[1].text"
+      ]
+    },
+    {
+      "t": "ఎక్కడా పంపిణీలు ప్రచురించలేదు: GPA quantiles లేవు, స్కోరు శాతసూచికలు లేవు, ఒక్కో బ్యాచ్ చేరిక రేట్లు లేవు. పైన ఉన్న మొత్తాలు నిజంగా సమాచారయుక్తం కాబట్టి ఈ card వాటితో వస్తుంది — కానీ బ్యాచ్ స్వరూపాన్ని బహిరంగ మూలాల నుంచి తిరిగి పొందలేం, మరియు అది పాఠశాల సొంత ర్యాంకు లేని విధానం వల్లే.",
+      "of": "59ca5e57",
+      "at": [
+        "covenant-day:wholeClass.flags[0].text"
+      ]
+    },
+    {
+      "t": "అసాధారణంగా భారీ counselor భారంతో ఒక కఠినమైన, స్పష్టమైన విద్యా ఉత్పత్తి — మరియు ఫలితాల గురించి అత్యుత్తమంగా, ప్రక్రియ గురించి మౌనంగా ఉండే వెల్లడి.",
+      "of": "69b1bef2",
+      "at": [
+        "covenant-day:verdict.headline"
+      ]
+    },
+    {
+      "t": "profile కళాశాలలకు దాదాపు అన్నీ చెబుతుంది; counseling నిజంగా ఎలా పనిచేస్తుందో వెబ్‌సైట్ తల్లిదండ్రులకు చాలా తక్కువ చెబుతుంది.",
+      "of": "ca00efcd",
+      "at": [
+        "covenant-day:verdict.subhead"
+      ]
+    },
+    {
+      "t": "AP కథ నిజంగా బలమైనది",
+      "of": "f6a80b4d",
+      "at": [
+        "covenant-day:verdict.points[0].label"
+      ]
+    },
+    {
+      "t": "పరీక్షలలో 96% 3+ వద్ద, 78% 4–5 వద్ద, సంఖ్యను నిజాయితీగా చేసే తప్పనిసరి-పరీక్ష విధానంతో, మరియు దానికి మద్దతుగా ఐదేళ్ల పెరిగే క్రమం.",
+      "of": "9ef0b2cc",
+      "at": [
+        "covenant-day:verdict.points[0].text"
+      ]
+    },
+    {
+      "t": "ఈ పోలికలో అత్యధిక భారం",
+      "of": "34a1dadb",
+      "at": [
+        "covenant-day:verdict.points[1].label"
+      ]
+    },
+    {
+      "t": "85 మంది చివరి సంవత్సరం విద్యార్థులకు ఒక ప్రత్యేక college counselor — NACCAP గుర్తింపు గల 23-సంవత్సరాల directorతో కాస్త ఊరట, కానీ తల్లిదండ్రులు నేరుగా అడగదగిన నిష్పత్తి.",
+      "of": "27e38dc0",
+      "at": [
+        "covenant-day:verdict.points[1].text"
+      ]
+    },
+    {
+      "t": "చేరిక నిజంగా కనిపిస్తుంది",
+      "of": "08e83102",
+      "at": [
+        "covenant-day:verdict.points[2].label"
+      ]
+    },
+    {
+      "t": "అతివ్యాప్తి చెందే అనేక సంవత్సరాల రెండు జాబితాలపై bold గుర్తులు, విద్యార్థులు కేవలం ఎక్కడ ప్రవేశం పొందారో కాక ఎక్కడ చేరారో ధ్రువీకరించడానికి వీలు కల్పిస్తాయి — తోటి పాఠశాలలు అరుదుగా ఇచ్చే వెల్లడి.",
+      "of": "25cc137a",
+      "at": [
+        "covenant-day:verdict.points[2].text"
+      ]
+    },
+    {
+      "t": "గరిష్ఠ స్థాయి నిజమైనది కానీ అరుదైనది",
+      "of": "f7cee28e",
+      "at": [
+        "covenant-day:verdict.points[3].label"
+      ]
+    },
+    {
+      "t": "ప్రస్తుత కాలవ్యవధిలో Dartmouth, Penn మరియు Duke చేరికలు; Stanford/MIT/Princeton మునుపటి కాలవ్యవధులకు చెందుతాయి. నమ్మదగిన బలం NC ప్రభుత్వ మరియు Christian-college నెట్‌వర్క్.",
+      "of": "c520f92f",
+      "at": [
+        "covenant-day:verdict.points[3].text"
+      ]
+    },
+    {
+      "t": "ప్రక్రియ వెల్లడి బలహీనం",
+      "of": "c79e63c4",
+      "at": [
+        "covenant-day:verdict.points[4].label"
+      ]
+    },
+    {
+      "t": "counseling కాలక్రమం లేదు, ఏ వేదికా పేర్కొనలేదు, ఏ essay లేదా application కార్యక్రమమూ ప్రచురించలేదు — నమూనా director సంబంధాల మీద ఆధారపడుతుంది.",
+      "of": "c0ffc133",
+      "at": [
+        "covenant-day:verdict.points[4].text"
+      ]
+    },
+    {
+      "t": "ఒక director రద్దీ సీజన్‌లో 85 మంది చివరి సంవత్సరం విద్యార్థులను ఎలా నిర్వహిస్తారు — junior spring / senior fall క్యాలెండర్ నిజంగా ఎలా ఉంటుంది?",
+      "of": "023f3612",
+      "at": [
+        "covenant-day:verdict.checklist[0]"
+      ]
+    },
+    {
+      "t": "కుటుంబాలు ఏ వేదికను వాడతాయి — Naviance, Scoir, మరేదైనా — మరియు విద్యార్థులకు ఎప్పుడు యాక్సెస్ లభిస్తుంది?",
+      "of": "8e676aa4",
+      "at": [
+        "covenant-day:verdict.checklist[1]"
+      ]
+    },
+    {
+      "t": "వచ్చే సంవత్సరం నిజంగా ఏ AP courses నడుస్తాయి? matrix editions మధ్య 18 నుంచి 15కి మారింది.",
+      "of": "08041c00",
+      "at": [
+        "covenant-day:verdict.checklist[2]"
+      ]
+    },
+    {
+      "t": "గత సంవత్సరపు బ్యాచ్ సగటులకు మించి ఎలా ఉంది — ఎంతమంది పరీక్ష రాశారు, మరియు బ్యాచ్ మధ్య భాగం ఎక్కడ చేరింది?",
+      "of": "9b784a6a",
+      "at": [
+        "covenant-day:verdict.checklist[3]"
+      ]
+    },
+    {
+      "t": "వేరే చోట కూడా దరఖాస్తు చేసే కుటుంబానికి NC Opportunity Scholarship ముందస్తు అర్హత, aid కాలక్రమంతో ఎలా ముడిపడుతుంది?",
+      "of": "236a647b",
+      "at": [
+        "covenant-day:verdict.checklist[4]"
+      ]
+    },
+    {
       "t": "Davidson Day తన గ్రేడింగ్ వ్యవస్థను పూర్తిగా ప్రచురిస్తుంది — స్కేలు, అదనపు విలువ, మరియు GPA నుంచి దేన్ని మినహాయిస్తారో అసాధారణంగా స్పష్టమైన జాబితా — కానీ AP పరీక్షా ఫలితాలు మరియు National Merit నమోదు అసలు లేవు.",
       "of": "410e02c8",
       "at": [
@@ -6010,13 +7108,6 @@
       "of": "8e8558b1",
       "at": [
         "davidson-day:counseling.timeline[1].note"
-      ]
-    },
-    {
-      "t": "కార్యాలయం తాను కవర్ చేస్తానని చెప్పేవి",
-      "of": "c669b4fb",
-      "at": [
-        "davidson-day:counseling.mechanicsTitle"
       ]
     },
     {
@@ -6640,30 +7731,6 @@
       "of": "660d65b7",
       "at": [
         "davidson-day:verdict.checklist[7]"
-      ]
-    },
-    {
-      "t": "HBCUs",
-      "of": "d6316d90",
-      "at": [
-        "providence-day:outcomes.buckets[5].tier",
-        "charlotte-latin:outcomes.buckets[5].tier",
-        "charlotte-christian:outcomes.buckets[5].tier",
-        "charlotte-country-day:outcomes.buckets[5].tier",
-        "cannon:outcomes.buckets[5].tier",
-        "davidson-day:outcomes.buckets[5].tier"
-      ]
-    },
-    {
-      "t": "— చారిత్రకంగా నల్లజాతి కళాశాలలు & విశ్వవిద్యాలయాలు",
-      "of": "92578ef1",
-      "at": [
-        "providence-day:outcomes.buckets[5].note",
-        "charlotte-latin:outcomes.buckets[5].note",
-        "charlotte-christian:outcomes.buckets[5].note",
-        "charlotte-country-day:outcomes.buckets[5].note",
-        "cannon:outcomes.buckets[5].note",
-        "davidson-day:outcomes.buckets[5].note"
       ]
     }
   ]

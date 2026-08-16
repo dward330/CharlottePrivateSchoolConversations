@@ -358,6 +358,7 @@
         "charlotte-latin:counseling.roster[0].role",
         "charlotte-christian:counseling.roster[0].role",
         "charlotte-country-day:counseling.roster[0].role",
+        "covenant-day:counseling.roster[0].role",
         "davidson-day:counseling.roster[0].role"
       ]
     },
@@ -770,6 +771,7 @@
         "charlotte-christian:outcomes.buckets[0].tier",
         "charlotte-country-day:outcomes.buckets[0].tier",
         "cannon:outcomes.buckets[0].tier",
+        "covenant-day:outcomes.buckets[0].tier",
         "davidson-day:outcomes.buckets[0].tier"
       ]
     },
@@ -789,6 +791,7 @@
         "charlotte-christian:outcomes.buckets[1].tier",
         "charlotte-country-day:outcomes.buckets[1].tier",
         "cannon:outcomes.buckets[1].tier",
+        "covenant-day:outcomes.buckets[1].tier",
         "davidson-day:outcomes.buckets[1].tier"
       ]
     },
@@ -808,6 +811,7 @@
         "charlotte-christian:outcomes.buckets[2].tier",
         "charlotte-country-day:outcomes.buckets[2].tier",
         "cannon:outcomes.buckets[2].tier",
+        "covenant-day:outcomes.buckets[2].tier",
         "davidson-day:outcomes.buckets[2].tier"
       ]
     },
@@ -820,6 +824,7 @@
         "charlotte-christian:outcomes.buckets[3].tier",
         "charlotte-country-day:outcomes.buckets[3].tier",
         "cannon:outcomes.buckets[3].tier",
+        "covenant-day:outcomes.buckets[3].tier",
         "davidson-day:outcomes.buckets[3].tier"
       ]
     },
@@ -839,6 +844,7 @@
         "charlotte-christian:outcomes.buckets[4].tier",
         "charlotte-country-day:outcomes.buckets[4].tier",
         "cannon:outcomes.buckets[4].tier",
+        "covenant-day:outcomes.buckets[4].tier",
         "davidson-day:outcomes.buckets[4].tier"
       ]
     },
@@ -847,6 +853,31 @@
       "of": "5e31be7c",
       "at": [
         "providence-day:outcomes.buckets[4].note"
+      ]
+    },
+    {
+      "t": "HBCUs",
+      "of": "d6316d90",
+      "at": [
+        "providence-day:outcomes.buckets[5].tier",
+        "charlotte-latin:outcomes.buckets[5].tier",
+        "charlotte-christian:outcomes.buckets[5].tier",
+        "charlotte-country-day:outcomes.buckets[5].tier",
+        "cannon:outcomes.buckets[5].tier",
+        "covenant-day:outcomes.buckets[5].tier",
+        "davidson-day:outcomes.buckets[5].tier"
+      ]
+    },
+    {
+      "t": "— Università e college storicamente afroamericani",
+      "of": "92578ef1",
+      "at": [
+        "providence-day:outcomes.buckets[5].note",
+        "charlotte-latin:outcomes.buckets[5].note",
+        "charlotte-christian:outcomes.buckets[5].note",
+        "charlotte-country-day:outcomes.buckets[5].note",
+        "cannon:outcomes.buckets[5].note",
+        "davidson-day:outcomes.buckets[5].note"
       ]
     },
     {
@@ -861,7 +892,8 @@
       "of": "3e53dcd1",
       "at": [
         "providence-day:outcomes.collegesTitle",
-        "charlotte-country-day:outcomes.collegesTitle"
+        "charlotte-country-day:outcomes.collegesTitle",
+        "covenant-day:outcomes.collegesTitle"
       ]
     },
     {
@@ -5698,6 +5730,1072 @@
       ]
     },
     {
+      "t": "Il 96% dei punteggi degli esami AP è stato 3 o più nel 2026 — il vertice di una scalata quinquennale dall'84% — e ogni studente AP deve sostenere l'esame.",
+      "of": "84b2a316",
+      "at": [
+        "covenant-day:transcript.headline"
+      ]
+    },
+    {
+      "t": "Un programma AP a ingresso controllato: nessun AP per gli studenti del primo anno, uno per quelli del secondo, con il dual enrollment tramite Covenant College stratificato sopra.",
+      "of": "904c11c3",
+      "at": [
+        "covenant-day:transcript.subhead"
+      ]
+    },
+    {
+      "t": "96%",
+      "of": "3ec55d39",
+      "at": [
+        "covenant-day:transcript.stats[0].value",
+        "covenant-day:transcript.merit[3].detail"
+      ]
+    },
+    {
+      "t": "degli esami AP con punteggio 3+ nel 2026 (401 esami, 179 studenti)",
+      "of": "862a26d7",
+      "at": [
+        "covenant-day:transcript.stats[0].label"
+      ]
+    },
+    {
+      "t": "78%",
+      "of": "8ddb95bd",
+      "at": [
+        "covenant-day:transcript.stats[1].value"
+      ]
+    },
+    {
+      "t": "dei punteggi AP è stato un 4 o un 5",
+      "of": "c75a93a8",
+      "at": [
+        "covenant-day:transcript.stats[1].label"
+      ]
+    },
+    {
+      "t": "1263 / 26",
+      "of": "84da6f50",
+      "at": [
+        "covenant-day:transcript.stats[2].value"
+      ]
+    },
+    {
+      "t": "medie SAT / ACT della Class of 2026",
+      "of": "edb21e19",
+      "at": [
+        "covenant-day:transcript.stats[2].label"
+      ]
+    },
+    {
+      "t": "80%",
+      "of": "489f4e50",
+      "at": [
+        "covenant-day:transcript.stats[3].value"
+      ]
+    },
+    {
+      "t": "dei docenti della HS ha titoli di studio avanzati",
+      "of": "06766e5d",
+      "at": [
+        "covenant-day:transcript.stats[3].label"
+      ]
+    },
+    {
+      "t": "La linea AP quinquennale, come la traccia il profilo",
+      "of": "59fe91a7",
+      "at": [
+        "covenant-day:transcript.meritTitle"
+      ]
+    },
+    {
+      "t": "84% dei punteggi degli esami AP a 3+",
+      "of": "303fe98e",
+      "at": [
+        "covenant-day:transcript.merit[0].detail"
+      ]
+    },
+    {
+      "t": "93% — Class of 2023: 161 studenti, 324 esami; SAT 1268 / ACT 26",
+      "of": "07ee0fba",
+      "at": [
+        "covenant-day:transcript.merit[1].detail"
+      ]
+    },
+    {
+      "t": "92% — Class of 2024: 168 studenti, 344 esami; SAT 1243 / ACT 27",
+      "of": "33052257",
+      "at": [
+        "covenant-day:transcript.merit[2].detail"
+      ]
+    },
+    {
+      "t": "96% — 38 AP Scholars with Distinction, 27 with Honor, 33 Scholars",
+      "of": "ac2871bc",
+      "at": [
+        "covenant-day:transcript.merit[4].detail"
+      ]
+    },
+    {
+      "t": "Dal 2006 — la prima classe diplomata — la scuola conta 28 Finalisti National Merit e 70 studenti Menzionati, un registro cresciuto di due Finalisti e nove Menzionati tra le ultime due edizioni del profilo.",
+      "of": "3e057851",
+      "at": [
+        "covenant-day:transcript.meritNote"
+      ]
+    },
+    {
+      "t": "L'architettura del rigore",
+      "of": "a09f8c3a",
+      "at": [
+        "covenant-day:transcript.depthTitle"
+      ]
+    },
+    {
+      "t": "Ponderazione",
+      "of": "edbd8b07",
+      "at": [
+        "covenant-day:transcript.depth[0].label"
+      ]
+    },
+    {
+      "t": "A+ = 4.33 non ponderato; Honors +0.5; Dual Enrollment e AP +1.0. GPA calcolato su tutte le materie, classi 9–12.",
+      "of": "11fd1ffc",
+      "at": [
+        "covenant-day:transcript.depth[0].text"
+      ]
+    },
+    {
+      "t": "Ingresso controllato agli AP",
+      "of": "d0cc78dc",
+      "at": [
+        "covenant-day:transcript.depth[1].label"
+      ]
+    },
+    {
+      "t": "Nessun AP per il primo anno; il secondo anno è limitato a uno. Il profilo stesso definisce due AP al terzo anno e quattro al quarto \"un carico di corsi molto impegnativo.\"",
+      "of": "2bedee47",
+      "at": [
+        "covenant-day:transcript.depth[1].text"
+      ]
+    },
+    {
+      "t": "Dual enrollment",
+      "of": "38db84b5",
+      "at": [
+        "covenant-day:transcript.depth[2].label"
+      ]
+    },
+    {
+      "t": "Honors Calculus, Statistics e Literature & Philosophy assegnano crediti del Covenant College; SevenStar Academy estende il catalogo online, con annotazione sul transcript.",
+      "of": "327c7075",
+      "at": [
+        "covenant-day:transcript.depth[2].text"
+      ]
+    },
+    {
+      "t": "Diploma",
+      "of": "2c9a19d1",
+      "at": [
+        "covenant-day:transcript.depth[3].label"
+      ]
+    },
+    {
+      "t": "25 Carnegie Unit, incluse 3 unità di Bibbia (un corso di Bibbia ogni anno) e un'unità di Fine Arts.",
+      "of": "66232648",
+      "at": [
+        "covenant-day:transcript.depth[3].text"
+      ]
+    },
+    {
+      "t": "Perché le università possono leggere i voti",
+      "of": "592a74ee",
+      "at": [
+        "covenant-day:transcript.trustTitle"
+      ]
+    },
+    {
+      "t": "Ogni studente AP sostiene l'esame",
+      "of": "032ac683",
+      "at": [
+        "covenant-day:transcript.trust[0].label"
+      ]
+    },
+    {
+      "t": "Tutti gli studenti iscritti ai corsi AP sono tenuti a sostenere gli esami — quindi il tasso di superamento del 96% copre l'intera popolazione AP, non una fetta auto-selezionata.",
+      "of": "f8ae4f11",
+      "at": [
+        "covenant-day:transcript.trust[0].text"
+      ]
+    },
+    {
+      "t": "Nessuna graduatoria, dichiarato per esteso",
+      "of": "333f99d3",
+      "at": [
+        "covenant-day:transcript.trust[1].label"
+      ]
+    },
+    {
+      "t": "\"Vista la dimensione ridotta delle classi e la vocazione universitaria della popolazione di Covenant Day, riteniamo che la graduatoria di classe non sia un discriminatore forte… Perciò non stiliamo graduatorie.\"",
+      "of": "ac0cddf4",
+      "at": [
+        "covenant-day:transcript.trust[1].text"
+      ]
+    },
+    {
+      "t": "Il numero di corsi AP si muove con le iscrizioni: 15 AP nella matrice del profilo 2026–27, ma fino a 18 nell'edizione 2024–25 (che includeva AP Calculus BC, Human Geography e French). Chiedete quali AP saranno effettivamente attivi nell'anno del vostro studente.",
+      "of": "0d9419f3",
+      "at": [
+        "covenant-day:transcript.flags[0].text"
+      ]
+    },
+    {
+      "t": "Una sola direttrice dedicata al college counseling — al suo 23º anno nella scuola — per 85 studenti dell'ultimo anno, il carico più pesante in questo confronto.",
+      "of": "bd58af0d",
+      "at": [
+        "covenant-day:counseling.headline"
+      ]
+    },
+    {
+      "t": "L'ufficio è relazionale più che confezionato: una NACCAP Professional of the Year con trent'anni nell'orientamento, che incontra gli studenti del terzo e del quarto anno per tutto il percorso.",
+      "of": "e562b9cf",
+      "at": [
+        "covenant-day:counseling.subhead"
+      ]
+    },
+    {
+      "t": "85:1",
+      "of": "1a9bb18f",
+      "at": [
+        "covenant-day:counseling.stats[0].value"
+      ]
+    },
+    {
+      "t": "studenti dell'ultimo anno per consulente universitario dedicato",
+      "of": "5adf229b",
+      "at": [
+        "covenant-day:counseling.stats[0].label"
+      ]
+    },
+    {
+      "t": "2003",
+      "of": "d32ea22a",
+      "at": [
+        "covenant-day:counseling.stats[1].value"
+      ]
+    },
+    {
+      "t": "inizio dell'incarico della direttrice a Covenant Day",
+      "of": "0b1237e2",
+      "at": [
+        "covenant-day:counseling.stats[1].label"
+      ]
+    },
+    {
+      "t": "4",
+      "of": "310ca263",
+      "at": [
+        "covenant-day:counseling.stats[2].value"
+      ]
+    },
+    {
+      "t": "persone nell'ufficio di orientamento",
+      "of": "6193d170",
+      "at": [
+        "covenant-day:counseling.stats[2].label"
+      ]
+    },
+    {
+      "t": "Direttrice del Guidance and College Counseling dal 2003; trent'anni di orientamento e college counseling; BA Oklahoma Wesleyan, MA Winthrop; nominata NACCAP K-12 Professional of the Year.",
+      "of": "f68e9044",
+      "at": [
+        "covenant-day:counseling.roster[0].detail"
+      ]
+    },
+    {
+      "t": "Consulente",
+      "of": "be7455dd",
+      "at": [
+        "covenant-day:counseling.roster[1].role"
+      ]
+    },
+    {
+      "t": "Guidance Counselor dal 2016. BA UNC Chapel Hill; MA Georgia State; già registrar del Reformed Theological Seminary.",
+      "of": "f22262c9",
+      "at": [
+        "covenant-day:counseling.roster[1].detail"
+      ]
+    },
+    {
+      "t": "Personale",
+      "of": "6e5a8cad",
+      "at": [
+        "covenant-day:counseling.roster[2].role"
+      ]
+    },
+    {
+      "t": "Licensed Marriage and Family Therapist, dal 2021 — il ruolo clinico, distinto dall'ufficio universitario.",
+      "of": "b949d7c4",
+      "at": [
+        "covenant-day:counseling.roster[2].detail"
+      ]
+    },
+    {
+      "t": "Assistente",
+      "of": "da502cc7",
+      "at": [
+        "covenant-day:counseling.roster[3].role"
+      ]
+    },
+    {
+      "t": "Guidance Assistant dal 2012.",
+      "of": "4b9cb104",
+      "at": [
+        "covenant-day:counseling.roster[3].detail"
+      ]
+    },
+    {
+      "t": "La cadenza pubblicata",
+      "of": "27929f35",
+      "at": [
+        "covenant-day:counseling.timelineTitle"
+      ]
+    },
+    {
+      "t": "Pianificazione dei corsi",
+      "of": "59d95ace",
+      "at": [
+        "covenant-day:counseling.timeline[0].intensity"
+      ]
+    },
+    {
+      "t": "Consulenza accademica sulla scelta dei corsi",
+      "of": "6b726c19",
+      "at": [
+        "covenant-day:counseling.timeline[0].items[0]"
+      ]
+    },
+    {
+      "t": "Accesso a Honors/AP tramite corsi svolti, voti e riscontro dei docenti",
+      "of": "b87c4229",
+      "at": [
+        "covenant-day:counseling.timeline[0].items[1]"
+      ]
+    },
+    {
+      "t": "Non è pubblicato alcun curriculum formale di counseling per i primi anni.",
+      "of": "9a135e1d",
+      "at": [
+        "covenant-day:counseling.timeline[0].note"
+      ]
+    },
+    {
+      "t": "Rivolto al college",
+      "of": "82074407",
+      "at": [
+        "covenant-day:counseling.timeline[1].intensity"
+      ]
+    },
+    {
+      "t": "L'ufficio \"incontra gli studenti del terzo e quarto anno lungo tutta la loro carriera alla high school\"",
+      "of": "0fbb4a4e",
+      "at": [
+        "covenant-day:counseling.timeline[1].items[0]"
+      ]
+    },
+    {
+      "t": "Supporto individuale dalla pianificazione dei corsi alla candidatura fino alla ricerca di borse di studio",
+      "of": "50dea1b3",
+      "at": [
+        "covenant-day:counseling.timeline[1].items[1]"
+      ]
+    },
+    {
+      "t": "Visite dei rappresentanti universitari tramite la pagina College Representatives",
+      "of": "e23b580e",
+      "at": [
+        "covenant-day:counseling.timeline[1].items[2]"
+      ]
+    },
+    {
+      "t": "Ciò che l'ufficio dichiara di coprire",
+      "of": "c669b4fb",
+      "at": [
+        "covenant-day:counseling.mechanicsTitle",
+        "davidson-day:counseling.mechanicsTitle"
+      ]
+    },
+    {
+      "t": "Pianificazione dei corsi verso gli obiettivi universitari",
+      "of": "fbdca05d",
+      "at": [
+        "covenant-day:counseling.mechanics[0]"
+      ]
+    },
+    {
+      "t": "Costruire una candidatura solida",
+      "of": "50a6d813",
+      "at": [
+        "covenant-day:counseling.mechanics[1]"
+      ]
+    },
+    {
+      "t": "Individuare opportunità di borse di studio",
+      "of": "474f3f9a",
+      "at": [
+        "covenant-day:counseling.mechanics[2]"
+      ]
+    },
+    {
+      "t": "Consulenza accademica e counseling per gli studenti",
+      "of": "1b8e9314",
+      "at": [
+        "covenant-day:counseling.mechanics[3]"
+      ]
+    },
+    {
+      "t": "L'High School Profile annuale (CEEB 342532)",
+      "of": "68f6453b",
+      "at": [
+        "covenant-day:counseling.mechanics[4]"
+      ]
+    },
+    {
+      "t": "Il profilo è l'artefatto dell'ufficio per le candidature: chiave di ponderazione, politica sulla graduatoria, ingresso controllato agli AP ed elenco delle ammissioni in un PDF di due pagine, aggiornato ogni anno — tre edizioni verificate.",
+      "of": "ad999ad4",
+      "at": [
+        "covenant-day:counseling.mechanicsNote"
+      ]
+    },
+    {
+      "t": "Appartenenza alla NACCAP più una direttrice Professional of the Year — riconoscibilità del nome dentro il circuito delle ammissioni dei college cristiani",
+      "of": "d0e6345d",
+      "at": [
+        "covenant-day:counseling.reach[0]"
+      ]
+    },
+    {
+      "t": "Appartenenza alla NACAC sul versante mainstream",
+      "of": "804352a3",
+      "at": [
+        "covenant-day:counseling.reach[1]"
+      ]
+    },
+    {
+      "t": "Un canale stabile di dual enrollment verso Covenant College, il college confessionale della PCA",
+      "of": "e59be429",
+      "at": [
+        "covenant-day:counseling.reach[2]"
+      ]
+    },
+    {
+      "t": "Non è pubblicata alcuna scansione del counseling classe per classe — solo la cadenza degli incontri di terzo/quarto anno — e nessuna piattaforma di college counseling (Naviance, Scoir) è nominata da nessuna parte sul sito pubblico.",
+      "of": "ed6115ca",
+      "at": [
+        "covenant-day:counseling.flags[0].text"
+      ]
+    },
+    {
+      "t": "Il rapporto 85:1 è ricavato (85 studenti dell'ultimo anno ÷ 1 direttrice dedicata). Il secondo consulente di orientamento porta un carico non universitario, quindi il carico effettivo per il college potrebbe essere più leggero del titolo — ma la scuola non ne dichiara mai uno.",
+      "of": "5aa20a9b",
+      "at": [
+        "covenant-day:counseling.flags[1].text"
+      ]
+    },
+    {
+      "t": "225 istituzioni nell'elenco pubblicato delle ammissioni 2023–2026 — con le immatricolazioni in grassetto, così si vede dove gli studenti sono andati davvero.",
+      "of": "c18f5e7d",
+      "at": [
+        "covenant-day:outcomes.headline"
+      ]
+    },
+    {
+      "t": "La finestra attuale arriva a Dartmouth, Penn e Duke — tutte e tre in grassetto come iscrizioni — con le concentrazioni più profonde nelle università pubbliche del NC e nei college cristiani.",
+      "of": "38c3d828",
+      "at": [
+        "covenant-day:outcomes.subhead"
+      ]
+    },
+    {
+      "t": "225",
+      "of": "2aec76b0",
+      "at": [
+        "covenant-day:outcomes.stats[0].value"
+      ]
+    },
+    {
+      "t": "istituzioni nell'elenco delle ammissioni 2023–2026",
+      "of": "22722825",
+      "at": [
+        "covenant-day:outcomes.stats[0].label"
+      ]
+    },
+    {
+      "t": "85",
+      "of": "8d01a276",
+      "at": [
+        "covenant-day:outcomes.stats[1].value"
+      ]
+    },
+    {
+      "t": "studenti dell'ultimo anno nella Class of 2027",
+      "of": "959c71e8",
+      "at": [
+        "covenant-day:outcomes.stats[1].label"
+      ]
+    },
+    {
+      "t": "2 / 8",
+      "of": "10390c08",
+      "at": [
+        "covenant-day:outcomes.stats[2].value"
+      ]
+    },
+    {
+      "t": "Ivies nell'elenco — Dartmouth e Penn, entrambe con immatricolati",
+      "of": "e054b495",
+      "at": [
+        "covenant-day:outcomes.stats[2].label"
+      ]
+    },
+    {
+      "t": "46 / 68",
+      "of": "26efa6ac",
+      "at": [
+        "covenant-day:outcomes.stats[3].value"
+      ]
+    },
+    {
+      "t": "università Power Four nell'elenco",
+      "of": "b8886520",
+      "at": [
+        "covenant-day:outcomes.stats[3].label"
+      ]
+    },
+    {
+      "t": "— Dartmouth, Penn; entrambe in grassetto (immatricolazioni)",
+      "of": "7e4a8d1a",
+      "at": [
+        "covenant-day:outcomes.buckets[0].note"
+      ]
+    },
+    {
+      "t": "— si aggiunge Duke, anch'essa in grassetto",
+      "of": "1f0fcb47",
+      "at": [
+        "covenant-day:outcomes.buckets[1].note"
+      ]
+    },
+    {
+      "t": "— da Davidson a Gettysburg",
+      "of": "6c33fc44",
+      "at": [
+        "covenant-day:outcomes.buckets[3].note"
+      ]
+    },
+    {
+      "t": "— 14 ACC · 12 SEC · 11 Big Ten · 9 Big 12",
+      "of": "b6fea221",
+      "at": [
+        "covenant-day:outcomes.buckets[4].note"
+      ]
+    },
+    {
+      "t": "— Fayetteville State, Johnson C. Smith, NC A&T",
+      "of": "105763b7",
+      "at": [
+        "covenant-day:outcomes.buckets[5].note"
+      ]
+    },
+    {
+      "t": "Ricavato da questa ricerca dall'elenco pubblicato dalla scuola confrontato con le tabelle U.S. News 2026 — gli stessi elenchi usati per le altre scuole qui, non cifre riportate dalla scuola. Le finestre precedenti erano più alte: i punti salienti 2018–2023 includono Stanford, MIT, Princeton, Brown, Cornell e Vanderbilt, e l'elenco 2021–2024 aggiunge cinque campus UC.",
+      "of": "a8ba4c89",
+      "at": [
+        "covenant-day:outcomes.bucketsNote"
+      ]
+    },
+    {
+      "t": "225 istituzioni nell'elenco 2023–2026",
+      "of": "bcab2e95",
+      "at": [
+        "covenant-day:outcomes.collegesTotal"
+      ]
+    },
+    {
+      "t": "Nessun totale in dollari delle borse di studio — verificato in tutte e tre le edizioni del profilo",
+      "of": "515f2614",
+      "at": [
+        "covenant-day:outcomes.scholarships[0]"
+      ]
+    },
+    {
+      "t": "Nessuna ripartizione delle ammissioni per classe — gli elenchi sono finestre pluriennali",
+      "of": "6ea1f8df",
+      "at": [
+        "covenant-day:outcomes.scholarships[1]"
+      ]
+    },
+    {
+      "t": "Nessuna percentuale di tasso di immatricolazione",
+      "of": "6c917bc8",
+      "at": [
+        "covenant-day:outcomes.scholarships[2]"
+      ]
+    },
+    {
+      "t": "La convenzione grassetto-uguale-immatricolazione è di per sé una divulgazione insolita: poiché entrambi gli elenchi pubblicati la usano e si sovrappongono sulle classi 2023–24, ammissioni e iscrizioni possono essere incrociate tra le edizioni.",
+      "of": "a83cb3d4",
+      "at": [
+        "covenant-day:outcomes.scholarshipsNote"
+      ]
+    },
+    {
+      "t": "Un elenco cumulativo pluriennale mostra l'ampiezza, non i tassi: ogni nome significa almeno un'ammissione in quattro classi diplomate di ~85, e il grassetto significa almeno un'iscrizione.",
+      "of": "9cf88b3c",
+      "at": [
+        "covenant-day:outcomes.caveat"
+      ]
+    },
+    {
+      "t": "I nomi delle immatricolazioni in grassetto sono stati recuperati dai dati dei font del PDF (l'estrazione in testo semplice perde il grassetto) — controllati a campione ma estratti automaticamente. L'elenco delle ammissioni in sé si è estratto senza problemi.",
+      "of": "28c1398a",
+      "at": [
+        "covenant-day:outcomes.flags[0].text"
+      ]
+    },
+    {
+      "t": "I differenziatori sono storie di profondità: un dipartimento che nessun'altra scuola ha, una costruzione di alloggi a Pine Ridge e crediti universitari dal college della PCA stessa.",
+      "of": "d330b2c8",
+      "at": [
+        "covenant-day:edge.headline"
+      ]
+    },
+    {
+      "t": "Nessuna credenziale da programmi di ricerca o Olimpiadi — qui il vantaggio è la distintività e la leggibilità, non i risultati nelle competizioni nazionali.",
+      "of": "35b93e0a",
+      "at": [
+        "covenant-day:edge.subhead"
+      ]
+    },
+    {
+      "t": "Restoration & Sustainability",
+      "of": "e088ebd6",
+      "at": [
+        "covenant-day:edge.levers[0].title"
+      ]
+    },
+    {
+      "t": "un dipartimento tutto proprio",
+      "of": "3cd6e523",
+      "at": [
+        "covenant-day:edge.levers[0].hint"
+      ]
+    },
+    {
+      "t": "Un dipartimento denominato della high school con una propria direttrice (Dr. Rebeca Burnett) — unico tra queste scuole",
+      "of": "2e078542",
+      "at": [
+        "covenant-day:edge.levers[0].items[0]"
+      ]
+    },
+    {
+      "t": "Scala di corsi: Augustine Literacy Project, Intercultural Practicum, Introduction to Engineering, Restore525",
+      "of": "bf0e7ec7",
+      "at": [
+        "covenant-day:edge.levers[0].items[1]"
+      ]
+    },
+    {
+      "t": "Il profilo gli dedica un blocco descrittivo autonomo — una riga di transcript che nessun altro candidato dell'area di Charlotte porta",
+      "of": "21fab3bd",
+      "at": [
+        "covenant-day:edge.levers[0].items[2]"
+      ]
+    },
+    {
+      "t": "Progetti distintivi",
+      "of": "d1dec935",
+      "at": [
+        "covenant-day:edge.levers[1].title"
+      ]
+    },
+    {
+      "t": "ciò su cui si scrive un saggio",
+      "of": "1df6a140",
+      "at": [
+        "covenant-day:edge.levers[1].hint"
+      ]
+    },
+    {
+      "t": "Senior Capstone Project — un traguardo denominato per ogni studente",
+      "of": "0aed2dfc",
+      "at": [
+        "covenant-day:edge.levers[1].items[0]"
+      ]
+    },
+    {
+      "t": "ContainIt: studenti della high school che convertono container navali in alloggi per 30+ adolescenti nella Pine Ridge Reservation",
+      "of": "ad7f33af",
+      "at": [
+        "covenant-day:edge.levers[1].items[1]"
+      ]
+    },
+    {
+      "t": "McKnight Oratory e Mock Trial (artista d'aula seconda classificata statale 2025) sul versante dell'oratoria",
+      "of": "b9ee6eb8",
+      "at": [
+        "covenant-day:edge.levers[1].items[2]"
+      ]
+    },
+    {
+      "t": "Rigore leggibile",
+      "of": "0dc25c94",
+      "at": [
+        "covenant-day:edge.levers[2].title"
+      ]
+    },
+    {
+      "t": "ciò che vede chi legge le candidature",
+      "of": "9de81089",
+      "at": [
+        "covenant-day:edge.levers[2].hint"
+      ]
+    },
+    {
+      "t": "Crediti di dual enrollment del Covenant College sopra la matrice AP",
+      "of": "98b17a99",
+      "at": [
+        "covenant-day:edge.levers[2].items[0]"
+      ]
+    },
+    {
+      "t": "La politica per cui ogni studente AP sostiene l'esame fa sì che il tasso di superamento del 96% copra l'intero programma",
+      "of": "761cf44a",
+      "at": [
+        "covenant-day:edge.levers[2].items[1]"
+      ]
+    },
+    {
+      "t": "La politica di nessuna graduatoria più una chiave di ponderazione completa consente a chi legge di ricostruire il rigore nel contesto",
+      "of": "427aa388",
+      "at": [
+        "covenant-day:edge.levers[2].items[2]"
+      ]
+    },
+    {
+      "t": "Il modello di supporto è relazionale — una direttrice con 30 anni di esperienza nel circuito NACCAP — più che un curriculum confezionato di bootcamp per i saggi, e la scuola non pubblica nulla di quest'ultimo.",
+      "of": "69acb25e",
+      "at": [
+        "covenant-day:edge.levers[2].note"
+      ]
+    },
+    {
+      "t": "Aggregati forti, nessuna distribuzione: medie SAT/ACT per classe e una linea AP quinquennale, ma nessun quantile di alcun tipo — per scelta.",
+      "of": "edfd902e",
+      "at": [
+        "covenant-day:wholeClass.headline"
+      ]
+    },
+    {
+      "t": "\"Non stiliamo graduatorie\" si estende ai dati: una scuola che rifiuta la graduatoria non pubblica nemmeno tabelle di distribuzione.",
+      "of": "0fa0d6a7",
+      "at": [
+        "covenant-day:wholeClass.subhead"
+      ]
+    },
+    {
+      "t": "Medie di classe SAT & ACT",
+      "of": "3a9fd1db",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[0].title"
+      ]
+    },
+    {
+      "t": "— come pubblicate, per edizione del profilo",
+      "of": "6b6fdb19",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[0].hint"
+      ]
+    },
+    {
+      "t": "Class of 2026",
+      "of": "39fd4622",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[0].rows[0].label"
+      ]
+    },
+    {
+      "t": "Class of 2024",
+      "of": "37fd42fc",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[0].rows[1].label"
+      ]
+    },
+    {
+      "t": "Class of 2023",
+      "of": "36fd4169",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[0].rows[2].label"
+      ]
+    },
+    {
+      "t": "medie a 5 anni",
+      "of": "70411f3a",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[0].rows[3].label"
+      ]
+    },
+    {
+      "t": "Solo medie — niente percentili, niente 50% centrale, niente conteggi dei partecipanti ai test.",
+      "of": "c8c9d4c7",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[0].note"
+      ]
+    },
+    {
+      "t": "Fasce AP Scholar, Class of 2026",
+      "of": "6f9ebe94",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[1].title"
+      ]
+    },
+    {
+      "t": "Scholars with Distinction",
+      "of": "06bc0058",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[1].rows[0].label"
+      ]
+    },
+    {
+      "t": "Scholars with Honor",
+      "of": "19d3db86",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[1].rows[1].label"
+      ]
+    },
+    {
+      "t": "AP Scholars",
+      "of": "29009ddb",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[1].rows[2].label"
+      ]
+    },
+    {
+      "t": "98 designazioni Scholar su 179 studenti AP — la cosa più vicina a una divulgazione della forma della classe che la scuola faccia.",
+      "of": "f9036062",
+      "at": [
+        "covenant-day:wholeClass.scoreTables[1].note"
+      ]
+    },
+    {
+      "t": "In nessuna delle tre edizioni del profilo esiste una distribuzione dei GPA — niente massimo/mediana/minimo, niente quintili. La chiave di ponderazione (4.33 / +0.5 / +1.0) è l'intera divulgazione sul GPA.",
+      "of": "7089b697",
+      "at": [
+        "covenant-day:wholeClass.gpaNote"
+      ]
+    },
+    {
+      "t": "Specialisti dell'apprendimento",
+      "of": "1b064661",
+      "at": [
+        "covenant-day:wholeClass.support[0].label"
+      ]
+    },
+    {
+      "t": "Cinque Learning Specialist e una Academic Resources Director nella tabella del personale della high school — una vera panchina di supporto per una high school da 350 studenti.",
+      "of": "7a6547dd",
+      "at": [
+        "covenant-day:wholeClass.support[0].text"
+      ]
+    },
+    {
+      "t": "Counseling clinico",
+      "of": "04aaa979",
+      "at": [
+        "covenant-day:wholeClass.support[1].label"
+      ]
+    },
+    {
+      "t": "Una Licensed Marriage and Family Therapist (Emily Lee) nello staff, distinta dall'ufficio universitario.",
+      "of": "f46714d6",
+      "at": [
+        "covenant-day:wholeClass.support[1].text"
+      ]
+    },
+    {
+      "t": "Aiuto a pagamento",
+      "of": "51afb9a1",
+      "at": [
+        "covenant-day:wholeClass.support[2].label"
+      ]
+    },
+    {
+      "t": "Le condizioni della retta dichiarano che tutoraggio e test speciali oltre l'aiuto in classe sono disponibili a costo aggiuntivo — un canale dichiarato e prezzato, non taciuto.",
+      "of": "bbf90589",
+      "at": [
+        "covenant-day:wholeClass.support[2].text"
+      ]
+    },
+    {
+      "t": "L'ingresso controllato agli AP (nessuno al primo anno, uno al secondo) è di per sé un guardrail per l'intera classe: il rigore è sequenziato in base alla preparazione, non a iscrizione libera.",
+      "of": "409c6128",
+      "at": [
+        "covenant-day:wholeClass.supportNote"
+      ]
+    },
+    {
+      "t": "L'elenco mostra l'intervallo",
+      "of": "5ed235e4",
+      "at": [
+        "covenant-day:wholeClass.middle[0].label"
+      ]
+    },
+    {
+      "t": "Le immatricolazioni in grassetto vanno da Dartmouth e Duke fino a Covenant College, Cedarville, Montreat, community college e programmi vicini ai mestieri — una scuola che piazzasse solo il suo quartile migliore non produrrebbe quella dispersione.",
+      "of": "00394520",
+      "at": [
+        "covenant-day:wholeClass.middle[0].text"
+      ]
+    },
+    {
+      "t": "La spina dorsale delle pubbliche del NC",
+      "of": "6dee07d4",
+      "at": [
+        "covenant-day:wholeClass.middle[1].label"
+      ]
+    },
+    {
+      "t": "Le concentrazioni di iscritti più profonde sono Chapel Hill, NC State, UNC Charlotte, App State ed East Carolina — le destinazioni che servono l'ampio centro di una classe del North Carolina.",
+      "of": "89123c5a",
+      "at": [
+        "covenant-day:wholeClass.middle[1].text"
+      ]
+    },
+    {
+      "t": "Non è pubblicata alcuna distribuzione da nessuna parte: niente quantili di GPA, niente percentili dei punteggi, niente tassi di immatricolazione per classe. Questa scheda esce con gli aggregati qui sopra perché sono genuinamente informativi — ma la forma della classe non è ricostruibile da fonti pubbliche, e ciò discende dalla stessa politica di nessuna graduatoria della scuola.",
+      "of": "59ca5e57",
+      "at": [
+        "covenant-day:wholeClass.flags[0].text"
+      ]
+    },
+    {
+      "t": "Un prodotto accademico rigoroso e leggibile con un carico per consulente insolitamente pesante — e una divulgazione eccellente sugli esiti, silenziosa sul processo.",
+      "of": "69b1bef2",
+      "at": [
+        "covenant-day:verdict.headline"
+      ]
+    },
+    {
+      "t": "Il profilo dice alle università quasi tutto; il sito dice ai genitori molto meno su come funzioni davvero il counseling.",
+      "of": "ca00efcd",
+      "at": [
+        "covenant-day:verdict.subhead"
+      ]
+    },
+    {
+      "t": "La storia AP è genuinamente forte",
+      "of": "f6a80b4d",
+      "at": [
+        "covenant-day:verdict.points[0].label"
+      ]
+    },
+    {
+      "t": "96% degli esami a 3+, 78% a 4–5, con una politica di esame obbligatorio che rende il numero onesto e una linea quinquennale in crescita a sostenerlo.",
+      "of": "9ef0b2cc",
+      "at": [
+        "covenant-day:verdict.points[0].text"
+      ]
+    },
+    {
+      "t": "Il carico più pesante in questo confronto",
+      "of": "34a1dadb",
+      "at": [
+        "covenant-day:verdict.points[1].label"
+      ]
+    },
+    {
+      "t": "Un solo consulente universitario dedicato per 85 studenti dell'ultimo anno — attutito da una direttrice con 23 anni di anzianità e credito NACCAP, ma un rapporto su cui un genitore dovrebbe chiedere direttamente.",
+      "of": "27e38dc0",
+      "at": [
+        "covenant-day:verdict.points[1].text"
+      ]
+    },
+    {
+      "t": "L'immatricolazione è davvero visibile",
+      "of": "08e83102",
+      "at": [
+        "covenant-day:verdict.points[2].label"
+      ]
+    },
+    {
+      "t": "I grassetti su due elenchi pluriennali sovrapposti permettono di verificare dove gli studenti si sono iscritti, non solo dove sono stati ammessi — una divulgazione che i pari raramente offrono.",
+      "of": "25cc137a",
+      "at": [
+        "covenant-day:verdict.points[2].text"
+      ]
+    },
+    {
+      "t": "Il tetto è reale ma episodico",
+      "of": "f7cee28e",
+      "at": [
+        "covenant-day:verdict.points[3].label"
+      ]
+    },
+    {
+      "t": "Iscrizioni a Dartmouth, Penn e Duke nella finestra attuale; Stanford/MIT/Princeton appartengono a finestre precedenti. La forza affidabile sono le pubbliche del NC e la rete dei college cristiani.",
+      "of": "c520f92f",
+      "at": [
+        "covenant-day:verdict.points[3].text"
+      ]
+    },
+    {
+      "t": "La divulgazione del processo è scarna",
+      "of": "c79e63c4",
+      "at": [
+        "covenant-day:verdict.points[4].label"
+      ]
+    },
+    {
+      "t": "Nessuna scansione temporale del counseling, nessuna piattaforma nominata, nessuna programmazione pubblicata su saggi o candidature — il modello poggia sulle relazioni della direttrice.",
+      "of": "c0ffc133",
+      "at": [
+        "covenant-day:verdict.points[4].text"
+      ]
+    },
+    {
+      "t": "Come gestisce una sola direttrice 85 studenti dell'ultimo anno in alta stagione — che aspetto ha davvero il calendario primavera del terzo anno / autunno del quarto?",
+      "of": "023f3612",
+      "at": [
+        "covenant-day:verdict.checklist[0]"
+      ]
+    },
+    {
+      "t": "Quale piattaforma usano le famiglie — Naviance, Scoir, altro — e quando gli studenti vi hanno accesso?",
+      "of": "8e676aa4",
+      "at": [
+        "covenant-day:verdict.checklist[1]"
+      ]
+    },
+    {
+      "t": "Quali corsi AP saranno effettivamente attivi l'anno prossimo? La matrice è passata da 18 a 15 tra un'edizione e l'altra.",
+      "of": "08041c00",
+      "at": [
+        "covenant-day:verdict.checklist[2]"
+      ]
+    },
+    {
+      "t": "Che aspetto aveva la classe dell'anno scorso oltre le medie — quanti hanno sostenuto i test e dove è atterrato il centro della classe?",
+      "of": "9b784a6a",
+      "at": [
+        "covenant-day:verdict.checklist[3]"
+      ]
+    },
+    {
+      "t": "Come interagisce il prerequisito della NC Opportunity Scholarship con la tempistica degli aiuti per una famiglia che fa domanda anche altrove?",
+      "of": "236a647b",
+      "at": [
+        "covenant-day:verdict.checklist[4]"
+      ]
+    },
+    {
       "t": "Davidson Day pubblica per intero il proprio meccanismo di valutazione — la scala, la ponderazione e un elenco insolitamente esplicito di ciò che è escluso dalla GPA — ma nessun risultato degli esami AP e nessun record National Merit.",
       "of": "410e02c8",
       "at": [
@@ -6010,13 +7108,6 @@
       "of": "8e8558b1",
       "at": [
         "davidson-day:counseling.timeline[1].note"
-      ]
-    },
-    {
-      "t": "Ciò che l'ufficio dichiara di coprire",
-      "of": "c669b4fb",
-      "at": [
-        "davidson-day:counseling.mechanicsTitle"
       ]
     },
     {
@@ -6640,30 +7731,6 @@
       "of": "660d65b7",
       "at": [
         "davidson-day:verdict.checklist[7]"
-      ]
-    },
-    {
-      "t": "HBCUs",
-      "of": "d6316d90",
-      "at": [
-        "providence-day:outcomes.buckets[5].tier",
-        "charlotte-latin:outcomes.buckets[5].tier",
-        "charlotte-christian:outcomes.buckets[5].tier",
-        "charlotte-country-day:outcomes.buckets[5].tier",
-        "cannon:outcomes.buckets[5].tier",
-        "davidson-day:outcomes.buckets[5].tier"
-      ]
-    },
-    {
-      "t": "— Università e college storicamente afroamericani",
-      "of": "92578ef1",
-      "at": [
-        "providence-day:outcomes.buckets[5].note",
-        "charlotte-latin:outcomes.buckets[5].note",
-        "charlotte-christian:outcomes.buckets[5].note",
-        "charlotte-country-day:outcomes.buckets[5].note",
-        "cannon:outcomes.buckets[5].note",
-        "davidson-day:outcomes.buckets[5].note"
       ]
     }
   ]
