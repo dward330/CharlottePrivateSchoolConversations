@@ -9,7 +9,7 @@
   school-confirmed. School files no 990 (church-exempt); the Foundation 990 is a related
   entity.
 
-## Source URLs
+### Source URLs
 
 | Ref | URL | What it covers |
 | --- | --- | --- |
@@ -20,7 +20,7 @@
 | S6 | https://projects.propublica.org/nonprofits/organizations/562107877 | Carmel Educational Foundation 990 (EIN 56-2107877) — RELATED, not the school |
 | S7 | https://projects.propublica.org/nonprofits/search?q=Carmel+Christian+School+Matthews | Confirms school files NO 990 |
 
-## Metrics
+### Metrics
 
 | Metric | Value | Flag |
 | --- | --- | --- |
@@ -29,7 +29,7 @@
 | Total aid awarded | NOT PUBLISHED | school publishes none |
 | Average award | NOT PUBLISHED | school publishes none |
 
-## Full tuition & fee table — 2026-2027 (verbatim, S1)
+### Full tuition & fee table — 2026-2027 (verbatim, S1)
 
 | Division | Tuition | Enroll/Re-enroll fee | Other fees |
 |---|---|---|---|
@@ -45,23 +45,23 @@ enrollment."
 **International student tuition:** a separate "2026-2027 International Student Tuition" PDF
 is referenced on S2 but was not fetched — TO VERIFY, figures not captured.
 
-## Payment plans (S2)
+### Payment plans (S2)
 
 Managed through **FACTS** with automatic monthly draft. Number of installments and any plan
 fee NOT PUBLISHED on the landing page (set inside the FACTS portal).
 
-## Aid timeline (S2)
+### Aid timeline (S2)
 
 Financial Aid Application Deadline: February 5, 2027 (for 2027-2028). NC Opportunity
 Scholarship: income caps removed, expanded to currently-enrolled private-school students;
 new applicants apply in February.
 
-## Vouchers (S2)
+### Vouchers (S2)
 
 NC Opportunity Scholarship (state voucher) — actively referenced. No ESA+ or other named
 partnership in fetched sources — NOT PUBLISHED.
 
-## Form 990 (resolved)
+### Form 990 (resolved)
 
 - **Carmel Christian School itself files NO 990** — church-exempt ministry of Carmel Baptist
   Church. ProPublica returns "Nonprofits (0)" for the school (S7).
@@ -78,7 +78,7 @@ FY2025 contributions ≈ $1,000,001 (~93.6% of revenue). **No separate scholarsh
 line** itemized. The Foundation-to-school link is probable but not explicitly stated, so it
 does NOT yield a school-level aid figure.
 
-## Flags
+### Flags
 
 - **NOT PUBLISHED (confirmed null):** total aid awarded; average award; payment-plan
   installment count/fee.
