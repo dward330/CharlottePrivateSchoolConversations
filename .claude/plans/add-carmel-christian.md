@@ -657,3 +657,40 @@ exists to prevent.
   unavailable, pick from the Cougars' navy/red and say so in the PR. Initials are `CM`.
 - **Summer directory name** — confirm `src/data/summer/` vs another path against the existing
   `covenant-day` summer file before creating Carmel's.
+
+## Review-session progress (2026-08-16) — PAUSED, resuming in a new window
+
+Phase 1 (English) is built and committed on `feat/add-carmel-christian`. The user is
+mid-review; several review fixes have already landed. **Still in the English-review
+phase — Phase 2 (nine-locale translation) has NOT started, no PR is open, nothing is
+deployed.**
+
+**Branch state:** clean tree, full `npm run build` green, `check:ranks` / `check:quals` /
+`check:seo` / `check:schema` all pass. Last commit `e6cdf2b`.
+
+**Review fixes applied this session (all committed):**
+1. **Middle School course division added** — a re-check found Carmel DOES publish an MS
+   named-course list (the first pass missed it). `courseOfferings.ts` now has HS + MS.
+2. **Lower School course division added** — the user supplied the 2026-27 Elementary
+   Course Description Guide PDF (saved to `source-material/course-offerings/carmel-christian/`).
+   Built a K–5 division (5 core subjects + 6 Special Areas), modeled on Providence Day's
+   Lower School shape. Carmel now shows all three divisions: Lower, Middle, High.
+3. **Financial Aid collapsed to the single In-Depth Report card** — the provenance file's
+   `##` sub-headings were slugifying into 8 orphan prose cards; demoted to `###` so only
+   the structured report renders. (Latent ingest trap — worth remembering.)
+4. **Roster-wide rank labels** — every acceptance-list college with a real US News
+   National Universities or National Liberal Arts rank now shows it (was: 16 P4-tail unis
+   like ASU #117 and several HBCUs went unlabeled). Applied to all 8 schools (96 labels).
+   **User rule:** HBCUs get a label ONLY if they hold a National/LAC rank — HBCU-specialty
+   and Regional ranks stay unlabeled. `_shared` rank table updated with sourcing caveats
+   (usnews.com blocked automated fetch; a few numbers flagged worth a manual verbatim
+   confirm — Texas Tech #198, Winston-Salem National-vs-Regional).
+
+**What remains:**
+- Finish the user's English review (they may have more card-by-card feedback).
+- On their explicit go-ahead: **Phase 2** — nine locales (`es, bn, ht, te, fr, fa, it,
+  hi, ar`), per the Phase-2 steps above. ⚠️ Add `carmel-christian` to the six i18n script
+  lists FIRST (they silently skip a new school). Note the acceptance-list prose grew
+  (rank labels are chrome-ish but the college names are data) — re-extract cleanly.
+- Then open ONE PR with both phases, flip status to `implemented`.
+- Do NOT deploy without the user's in-the-moment say-so.
