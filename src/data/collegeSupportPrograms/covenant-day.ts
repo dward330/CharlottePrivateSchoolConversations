@@ -403,7 +403,7 @@ export const covenantDay: CollegeSupportProgram = {
       { name: 'Wofford College', rankLabel: 'Liberal Rank #57', cats: ['lac75'], enrolling: true },
       { name: 'Xavier University', cats: [], enrolling: true },
     ],
-    collegesTotal: '225 institutions on the 2023–2026 list',
+    collegesTotal: '225 institutions · bold = at least one graduate enrolled',
     scholarships: [
       'No scholarship dollar totals — checked across all three profile editions',
       'No per-class acceptance breakdowns — the lists are multi-year windows',
