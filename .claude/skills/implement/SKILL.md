@@ -68,6 +68,18 @@ recoverable.
 Work the steps in order, keeping a todo list so progress is visible. Match the
 surrounding code's conventions rather than importing new ones.
 
+**When the plan adds a school (or backfills one into per-school card data), mirror the
+FULLEST existing school for each area, not whichever school was added most recently.**
+Open a data-rich reference — Providence Day, Charlotte Latin or Cannon (~96% Compare
+fill) — and populate every optional field, stat tile, season/ledger/funnel/roster row and
+sub-card the new school has real data for. The recent-add school is a **mechanical**
+reference only (file layout, how a `PROGRAMS` import is wired); it is not the depth target,
+because it may be a thin school and copying it silently caps the new school below what its
+data supports. Drop a field **only** where the data is genuinely unpublished (then it is
+omitted, not shipped empty). If the plan names one fixed school as its "shape reference,"
+read that as *mechanical* shape — still build the content out to the richest school's
+structure. (User-set, 2026-08-16.)
+
 **Build the English version only.** Any plan that touches user-facing text ships in two
 phases with the user's review in between — this holds whether or not the plan document
 says so. If you're handed a text-touching plan written as a single phase, treat its
