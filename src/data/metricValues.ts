@@ -263,7 +263,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'davidson-day': { kind: 'scope', text: '3 of the 8 Ivy League universities appear on Davidson Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
       'providence-day': { kind: 'scope', text: '8 of the 8 Ivy League universities appear on Providence Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
       'carmel-christian': {
-        kind: 'fraction',
+        kind: 'scope',
         text: 'One of the eight Ivy League universities (Princeton) appears on the school’s cumulative acceptance list.',
       },
     },
@@ -296,7 +296,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'davidson-day': { kind: 'scope', text: '8 of the 17 “Ivy Plus” institutions appear on Davidson Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
       'providence-day': { kind: 'scope', text: '17 of the 17 “Ivy Plus” institutions appear on Providence Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
       'carmel-christian': {
-        kind: 'fraction',
+        kind: 'scope',
         text: 'Two of the twelve “Ivy Plus” schools (Princeton, Duke) appear on the acceptance list.',
       },
     },
@@ -398,7 +398,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'davidson-day': { kind: 'scope', text: '42 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Davidson Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
       'providence-day': { kind: 'scope', text: '57 of the 68 Power Four universities (ACC, Big Ten, Big 12, SEC, plus Notre Dame) appear on Providence Day’s published acceptance list, matched against the 2026 U.S. News tables — not a figure the school reports itself.' },
       'carmel-christian': {
-        kind: 'fraction',
+        kind: 'scope',
         text: 'Power Four members (of 68, including Notre Dame) named on the cumulative acceptance list. The list states no year window and marks no matriculations.',
       },
     },

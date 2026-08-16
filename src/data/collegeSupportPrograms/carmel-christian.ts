@@ -286,6 +286,10 @@ export const carmelChristian: CollegeSupportProgram = {
         text: '**21 sections across 14 AP courses, taught by 12 teachers** — the program is spread across a real faculty rather than concentrated in one or two rooms.',
       },
     ],
+    // No multi-year AP ledger: the school publishes a single-year AP snapshot,
+    // not the five-year series a merit ledger charts. Left empty per the type's
+    // own "omit the ledger by leaving `merit` empty" contract.
+    merit: [],
     trustTitle: 'How the grade is framed',
     trust: [
       {
