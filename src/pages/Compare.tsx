@@ -14,7 +14,7 @@ import { SchoolBadge } from '../components/SchoolBadge.tsx'
 import { BlueprintCorners } from '../components/BlueprintCorners.tsx'
 import { CellQual } from '../components/CellQual.tsx'
 import { toCompare, toSchool, toHome, useNavigate } from '../lib/router.ts'
-import { valueMetricsForTopic, loadMetricValuesOverlay } from '../data/metricValues.ts'
+import { valueMetricsForTopic, loadMetricValuesOverlay, englishValueOf } from '../data/metricValues.ts'
 
 type Props = { topic: string | null; schools: string[] }
 
@@ -48,6 +48,38 @@ function numericOf(v: string | null | undefined, ratio = false): number | null {
   const text = ratio ? (v.split(':')[0] ?? v) : v
   const n = parseFloat(text.replace(/[^0-9.-]/g, ''))
   return Number.isFinite(n) ? n : null
+}
+
+/* "7:00 AM" -> 420 (minutes past midnight). Returns null on anything that is
+   not a 12-hour clock reading, so a malformed value drops out of the ranking
+   rather than scoring zero and winning a lowerIsBetter row. */
+function minutesOf(clock: string): number | null {
+  const m = /^\s*(\d{1,2})(?::(\d{2}))?\s*(AM|PM)\s*$/i.exec(clock)
+  if (!m) return null
+  const h = Number(m[1])
+  const min = m[2] ? Number(m[2]) : 0
+  if (h < 1 || h > 12 || min > 59) return null
+  const pm = m[3].toUpperCase() === 'PM'
+  // 12 AM is midnight (0) and 12 PM is noon (720) — the one hour where the
+  // printed number is not the number of hours elapsed.
+  const h24 = h === 12 ? (pm ? 12 : 0) : pm ? h + 12 : h
+  return h24 * 60 + min
+}
+
+/* Length in minutes of a clock RANGE ("7:00 AM–6:00 PM" -> 660), used to rank a
+   `compareAs: 'span'` row on duration rather than on either endpoint.
+
+   Split on the en-dash the data uses; a hyphen is accepted too so a future
+   value typed with one still ranks instead of silently dropping out. */
+function spanMinutesOf(v: string | null | undefined): number | null {
+  if (v == null) return null
+  const parts = v.split(/[–—-]/)
+  if (parts.length !== 2) return null
+  const start = minutesOf(parts[0])
+  const end = minutesOf(parts[1])
+  if (start == null || end == null) return null
+  const len = end - start
+  return len > 0 ? len : null
 }
 
 export function Compare({ topic, schools }: Props) {
@@ -173,7 +205,18 @@ export function Compare({ topic, schools }: Props) {
                     // `noLead` rows opt out entirely — on a cost row the highest
                     // value is the worst one, so tinting it would read as a win —
                     // and `lowerIsBetter` rows invert which end wins.
-                    const nums = cols.map((s) => numericOf(vm.values[s.slug], vm.lowerIsBetter))
+                    //
+                    // A `compareAs: 'span'` row ranks on the DURATION of a clock
+                    // range, read from the English source rather than the cell
+                    // being rendered: the localized string spells its meridiem
+                    // differently per language (`a.m.` in French, `صباحًا` in
+                    // Arabic), so parsing what the reader sees would rank the row
+                    // correctly in English and arbitrarily elsewhere.
+                    const nums = cols.map((s) =>
+                      vm.compareAs === 'span'
+                        ? spanMinutesOf(englishValueOf(vm.key, s.slug))
+                        : numericOf(vm.values[s.slug], vm.lowerIsBetter),
+                    )
                     const present = nums.filter((n): n is number => n != null)
                     const best =
                       !vm.noLead && cols.length > 1 && present.length > 1 && Math.min(...present) !== Math.max(...present)

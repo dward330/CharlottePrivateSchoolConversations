@@ -30,7 +30,8 @@
     "check:podcast": "node scripts/check_podcast_episodes.mjs",
     "i18n:leaks": "node scripts/find_english_leaks.mjs",
     "check:live": "node scripts/check_live_resolution.mjs",
-    "check:script": "node scripts/check_script_purity.mjs"
+    "check:script": "node scripts/check_script_purity.mjs",
+    "check:spans": "node scripts/check_span_metrics.mjs"
   },
   "dependencies": {
     "i18next": "^26.3.6",
