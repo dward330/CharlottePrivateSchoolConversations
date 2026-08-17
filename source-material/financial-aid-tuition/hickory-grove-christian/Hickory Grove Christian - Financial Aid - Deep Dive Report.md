@@ -18,7 +18,7 @@
   figures transcribed from the state's 2023-24 Opportunity Scholarship annual report (S5)
   and captured for provenance ONLY (out of scope — see note).
 
-## Source URLs
+### Source URLs
 
 | Ref | URL | What it covers |
 | --- | --- | --- |
@@ -30,7 +30,7 @@
 | S6 | https://projects.propublica.org/nonprofits/search?q=Hickory+Grove+Baptist+Church+Charlotte | Confirms the Charlotte church files NO Form 990 (church-exempt) |
 | S7 | https://en.wikipedia.org/wiki/Hickory_Grove_Christian_School | Background — school is a ministry of Hickory Grove Baptist Church |
 
-## Metrics
+### Metrics
 
 | Metric | Value | Flag |
 | --- | --- | --- |
@@ -54,7 +54,7 @@
   "2025-2026 student services fees" and "2026-2027 student services fees" documents, S1);
   those fee amounts were not exposed to fetch and are NOT captured here.
 
-## Scholarships & aid mechanisms (S2)
+### Scholarships & aid mechanisms (S2)
 
 **1. NCSEAA Opportunity Scholarship (state voucher program).** Award tiers by household
 income (as published on the school's scholarships page):
@@ -89,7 +89,7 @@ the public pages.
 **Note on legacy discounts:** the school states that automatic discounts (multi-child,
 clergy, etc.) were **discontinued as of 2026-2027** (S2).
 
-## Why aid outcomes are unpublished (990-exempt church)
+### Why aid outcomes are unpublished (990-exempt church)
 
 Hickory Grove Christian School is a ministry of **Hickory Grove Baptist Church** (Charlotte,
 NC). As a church, that organization is **exempt from filing IRS Form 990** and does not
@@ -101,7 +101,7 @@ award could be derived. These three metrics are therefore **confirmed null (not 
 not merely not-yet-found. The only need-based channel the school runs (FACTS Grant & Aid)
 publishes no aggregate outcome figures.
 
-## Prior-year tuition history is thin
+### Prior-year tuition history is thin
 
 The school does not publish a tuition history, and archived versions of the tuition page do
 not expose prior-year band figures (the current page renders its fee tables through an
@@ -109,7 +109,7 @@ embedded portal widget rather than static HTML, so archive snapshots capture no 
 Third-party profiles report only the current bands. **A `tuition-history` prose narrative
 cannot be sourced** — treat prior-year tuition as unpublished.
 
-## NCSEAA per-school voucher figures — OUT OF SCOPE (captured for provenance only)
+### NCSEAA per-school voucher figures — OUT OF SCOPE (captured for provenance only)
 
 The NC Opportunity Scholarship 2023-24 Annual Report (S5) lists, for **Hickory Grove
 Christian School, Charlotte**:
@@ -123,7 +123,7 @@ They are recorded here only so the figure is traceable in the repo. They must **
 surfaced as a Compare row or as the school's aid rate/total/average — voucher $ is a
 different thing from institutional aid and gets **no Compare row**.
 
-## Flags
+### Flags
 
 - **NOT PUBLISHED (confirmed null):** % receiving aid; total aid awarded; average award —
   all three because the sponsoring church is IRS 990-exempt (S6).
