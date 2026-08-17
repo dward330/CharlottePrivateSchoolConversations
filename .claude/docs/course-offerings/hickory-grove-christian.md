@@ -345,19 +345,23 @@ Every course below is transcribed verbatim from S3. Format:
  archived (Wayback 2025-10-28) "2025-2026 Course Selection Guide" page. **Numbers below
  (AP names, grading scale, graduation requirements, dual-enrollment partners, CEEB code)
  are verbatim from the Profile PDFs, which convert cleanly.**
-- **KEY LIMITATION — a full per-department course enumeration is NOT publicly
- extractable.** The Course Selection Guide page
- (`/academics/guidance/courses`) is a **Finalsite JavaScript SPA**: the live page and its
- Wayback snapshot both return only site chrome (nav/footer) with an **empty body** — the
- course list is rendered client-side (Finalsite form/widget) and appears in no static
- HTML, no embedded JSON, and no downloadable PDF. A CDX sweep of the whole
- `hgchristian.org` domain found **no archived course-guide / curriculum / catalog PDF**.
- HGCS publishes no Calaméo/Issuu/Google-Drive curriculum guide (unlike Carmel Christian).
- What the school DOES confirm in machine-readable form — the AP catalog, the honors
- departments, dual enrollment, and graduation-requirement credit counts — is transcribed
- in full below; the individual regular-course titles (e.g. "Algebra II", "Biology") are
- **not published anywhere machine-readable** and are therefore left as a documented gap,
- not invented.
+- **⚠️ SUPERSEDED (2026-08-17) — the course-enumeration gap claimed below is WRONG.**
+ This file concluded that a full per-department course enumeration was not publicly
+ extractable because `/academics/guidance/courses` is a Finalsite JavaScript SPA that
+ returns an empty body. That page is real, but it is **not the course catalog page**. The
+ catalog lives at `/academics/high-school/college-and-career-planning/courses`, which
+ embeds a Heyzine page-flip viewer backed by a plain **92-page PDF** whose text layer
+ extracts cleanly. It yields **112 courses across 12 departments**, fully transcribed in
+ the sibling file `… - 2026-2027 Course Selection Catalog.md`, which is now the
+ authoritative source for this school's course data.
+
+ **Everything else in this file remains valid** and is still the live source for the
+ CEEB code, GPA/quality-point scale, class-rank policy, dual-enrollment partners,
+ graduation-requirement credit counts and AP-exam results — all of which come from the
+ HS Profile PDFs, not from the course-selection page. Only the *course-enumeration gap*
+ claims are retracted: read the per-department section, the "Total US course count"
+ derivation and the SPA-blocked flags below as a **historical record of a research
+ dead-end**, not as current findings.
 
 ## Source URLs
 
@@ -375,14 +379,14 @@ Every course below is transcribed verbatim from S3. Format:
 | Metric | Value | Source |
 | --- | --- | --- |
 | Grade range (this area) | High School, grades 9–12 | S1 |
-| Divisions with named course lists | 0 machine-readable (HS course *catalog* is JS-SPA-only; see limitation) | S4 |
-| Upper-School departments | **8** (Bible, English, Math, Social Studies, Science, Foreign Language, Health/PE, Fine Arts) — derived from the 8 graduation-requirement credit areas; "Electives" is the 9th requirement line but is a catch-all, not a subject department | S1 |
+| Divisions with named course lists | ~~0 machine-readable~~ → **1 (Upper School)** — SUPERSEDED, see the banner above; the catalog is published | 2026-2027 Catalog |
+| Upper-School departments | ~~**8**, derived from the 8 graduation-requirement credit areas~~ → **12**, per the catalog's own department sections (Bible, English, Math, Science, Social Studies, Foreign Language, Visual Arts, Performing Arts, Student Media, Technology, PE, Electives). The old 8 was a proxy built from graduation requirements because no department list was available. | 2026-2027 Catalog |
 | Departments with an honors track | **6**: English, Math, Science, Social Studies, Bible, Foreign Language | S1, S2, S3 |
-| **AP course count** | **17** AP courses **+ AP Capstone** (AP Seminar + AP Research), per S4 title-page/S6 count. **Profiles name fewer** — 14 in S1 (2025-26), 17 in S2 (2023-24). See AP section for the reconciliation. Recommended headline figure: **17 (+ AP Capstone)**. | S4, S6; S1/S2 |
+| **AP course count** | **17** AP courses, including the AP Capstone track (AP Seminar + AP Research) — now confirmed directly by the 2026-2027 catalog's own Advanced Placement section, which names exactly 17. The profile-vintage reconciliation below (14 in the 2025-26 profile, 17 in 2023-24) is retained as history but is no longer the basis for the figure. | 2026-2027 Catalog |
 | AP Capstone | Yes — AP Seminar + AP Research; AP Capstone Diploma awarded (4 diplomas in 2024-25) | S1, S6 |
 | Honors course count | **NOT PUBLISHED as a number.** Honors offered across the 6 departments above; individual honors titles are not enumerated in any machine-readable source. | S1 |
 | Dual-enrollment programs | **2 partners:** (1) **Judson College** — on-campus courses awarded college credit (per S1, 2025-26); prior years credited via **the College at Southeastern** / Southeastern Baptist Theological Seminary (S2, S3). PrivateSchoolReview cites "nine different dual-enrollment classes transcripted through the College at Southeastern." (2) **NC Career and College Promise (CCP)** at local community colleges. Only HGCS-taught courses count as dual credit. | S1, S2, S3, S6 |
-| **Total US (High-School) course count** | **NOT EXACTLY ENUMERABLE from public sources — SPA-blocked (see below).** | S4 |
+| **Total US (High-School) course count** | ~~NOT EXACTLY ENUMERABLE — SPA-blocked~~ → **112 courses** across 12 departments, counted from the 2026-2027 catalog. SUPERSEDED, see the banner above. | 2026-2027 Catalog |
 | CEEB code | **340661** | S1, S2, S3 |
 | GPA scale | 4.0 base (post-Spring-2024 scale). Honors = **+0.5** quality point; **AP = +1.0** quality point (S1). *(Earlier scale in S2/S3 weighted Honors +1.0 and AP +2.0 on a differently-anchored table.)* | S1 |
 | Class rank | School does **not** rank students | S1 |
@@ -390,6 +394,12 @@ Every course below is transcribed verbatim from S3. Format:
 | AP-exam results (May 2025) | 82 students / 176 exams; 29 earned a 5, 59 a 4, 53 a 3 (on ≥1 exam) | S1 |
 
 ### Total US course count — how the figure was derived / why it is not exact
+
+> **⚠️ RETRACTED 2026-08-17.** The reasoning in this section is preserved as the record of
+> a research dead-end. Its conclusion is wrong: an exact public enumeration DOES exist, in
+> the 2026-2027 Course Selection Catalog (112 courses, 12 departments). The "defensible
+> floor of ~30+" and the "mark it NOT PUBLISHED" recommendation below are both obsolete —
+> the Compare row now carries a real, sourced 112. Do not act on this section.
 
 **There is no exact public enumeration of every High-School course.** Confidence: the
 *count of AP courses* is high (17 + Capstone, corroborated by two independent sources);
@@ -471,6 +481,12 @@ Foreign Language 2 units · Health/PE 1 unit · Fine Arts 1 unit · Electives 4 
 
 ## Per-department course enumeration (High School / Upper School, 2025-2026)
 
+> **⚠️ SUPERSEDED 2026-08-17 — see the sibling file `… - 2026-2027 Course Selection
+> Catalog.md`,** which enumerates all 112 courses across 12 departments from the school's
+> own published catalog. The "BLOCKED" status below was a wrong-URL error, not a real
+> publication gap. The AP/honors/department detail here still reflects what the HS Profile
+> PDFs say, and is kept for that provenance; the *enumeration is impossible* claim is not.
+
 **STATUS: BLOCKED — the school does not publish a machine-readable course catalog.** The
 "2025-2026 Course Selection Guide" (S4) renders its course list only through a client-side
 Finalsite widget; the live page, its Wayback 2025-10-28 snapshot, and an
@@ -499,18 +515,20 @@ department is confirmed to contain, from machine-readable sources:
 
 ## Flags
 
-- **NOT EXTRACTABLE (SPA-blocked):** the full per-department course catalog and any exact
- total HS-course count — the Course Selection Guide is a JS/Finalsite SPA with an empty
- static body and no PDF/archive equivalent.
-- **NOT PUBLISHED (number):** honors course count; individual honors/regular course titles.
-- **TO VERIFY (against the live SPA guide):** which AP courses are active in 2025-26 (the
- 2025-26 profile names 14; the school advertises 17 + Capstone; union of all sources is
- 18); the current dual-enrollment partner name (2025-26 profile says **Judson College**;
- prior years + PrivateSchoolReview say **College at Southeastern**).
-- **CONFIRMED, reliable for Compare:** AP count **17 (+ AP Capstone)**; honors across **6
- departments**; dual enrollment via **2 programs** (Judson College / College at
- Southeastern + NC Career & College Promise); **8** subject departments; **27** grad
- units; CEEB **340661**; school does not rank.
+- ~~**NOT EXTRACTABLE (SPA-blocked):** the full per-department course catalog and any exact
+ total HS-course count.~~ **RESOLVED 2026-08-17** — the catalog is published as a PDF
+ behind a Heyzine flipbook; **112 courses across 12 departments** are enumerated in the
+ sibling 2026-2027 Course Selection Catalog file. The SPA page examined here was simply
+ the wrong URL.
+- ~~**NOT PUBLISHED (number):** honors course count; individual honors/regular course
+ titles.~~ **RESOLVED** — the catalog names every regular, CP, Honors and AP title.
+- **TO VERIFY:** the current dual-enrollment partner name (2025-26 profile says **Judson
+ College**; prior years + PrivateSchoolReview say **College at Southeastern**). The AP
+ question is now settled: the 2026-2027 catalog names exactly **17**.
+- **CONFIRMED, reliable for Compare:** total course count **112**; **12** departments; AP
+ count **17** (incl. AP Capstone); honors across **6** departments; dual enrollment via
+ **2 programs** (Judson College / College at Southeastern + NC Career & College Promise);
+ **27** grad units; CEEB **340661**; school does not rank.
 
 
 ---
