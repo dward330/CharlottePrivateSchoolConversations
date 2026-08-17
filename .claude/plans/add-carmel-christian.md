@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-08-16
 branch: feat/add-carmel-christian
-prs: []
+prs: [140]
 ---
 
 # Add Carmel Christian School as the 8th school
