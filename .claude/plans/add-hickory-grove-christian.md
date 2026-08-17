@@ -1,7 +1,7 @@
 ---
 name: add-hickory-grove-christian
 title: Add Hickory Grove Christian School as the 9th school
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-08-17
 branch: feat/add-hickory-grove-christian
