@@ -402,3 +402,32 @@ worked rollout doc for the per-locale traps — don't re-derive them here.
 - **Club roster provenance** — the 27-org list rides on one aggregator. **Default:** confirm
   against the school site/yearbook during research; if unconfirmable, flag the catalog card
   accordingly but still ship it.
+
+## Implementation notes
+
+**Phase 1 (English) shipped** on branch `feat/add-hickory-grove-christian` (unmerged; no PR
+yet — held for the two-phase gate). Deviations and outcomes worth carrying into Phase 2:
+
+- **Acceptance list is 132 colleges** (the school's Class of 2023 + Class of 2025 published
+  lists, deduped), not the "~120+" the plan estimated — the real printed lists are 86 (2025)
+  and 81 (2023). Buckets: 0/8 Ivy · 0/17 Ivy+ · 22/75 NU · 9/75 LAC · 24/68 P4 · 20/107 HBCU.
+- **Course Offerings is SPA-blocked** — no machine-readable course list exists, so `us-courses`
+  ships as N/A and the Upper School card names the AP catalog by department under a
+  `notPublished` note. Reliable figures: 17 AP + Capstone, 8 departments.
+- **Cards omitted for no-data** (absent, not empty): sports Facilities + National/NIL, arts
+  Facilities, After School cost card, Summer Cost Planner.
+- **collegeRankings.ts gained 5 rows** (Fordham, Grinnell, Grand Canyon + RPI/Tennessee-Knoxville/
+  Penn State/W&L aliases); `_shared` doc kept in sync; `check:ranks` passes.
+- **Brand:** navy `#14396e`, `HG` monogram, welcome video `hhtjvy5tCVE`. No logo asset — the
+  monogram badge is the intended fallback.
+- **Post-review change (user, 2026-08-17):** the Financial Aid area now renders **only** the
+  In-Depth Report card. Fixed at the source-material layer like Carmel Christian — the FA
+  `.md`'s `##` sub-headings were demoted to `###` so the ingest folds the whole document into
+  one "Deep Dive Report" section instead of slicing off a `tuition-history` prose card. All
+  content is retained in the structured report. **Phase-2 relevance:** when extracting FA
+  overlays, expect a single FA prose section for HG, not the tuition-history split other
+  schools have.
+- **coverage:floor:** HG 20/30 Compare rows (66%), 8/8 areas — above the Davidson Day floor.
+
+**For Phase 2 (fresh window):** `git checkout feat/add-hickory-grove-christian`, confirm the
+user approved the English, then work the Phase 2 steps above. Do not rebuild Phase 1.
