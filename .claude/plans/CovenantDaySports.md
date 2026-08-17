@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-08-17
 branch: feat/covenant-day-sports-levels
-prs: []
+prs: [142]
 ---
 
 # Label each Covenant Day sport with its real Varsity / JV / Middle School levels

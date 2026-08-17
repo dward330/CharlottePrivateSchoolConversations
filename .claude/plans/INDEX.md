@@ -22,4 +22,4 @@ Newest last.
 | [aftercare-cost](aftercare-cost.md) | Compare row — cost of after-school care at each school's priciest published tier | 2026-08-15 | Implemented | [#119](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/119) |
 | [covenantday](covenantday.md) | Add Covenant Day School (Matthews, NC) as the 7th school, across all eight research areas | 2026-08-15 | Implemented | [#133](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/133) |
 | [add-carmel-christian](add-carmel-christian.md) | Add Carmel Christian School (Matthews, NC) as the 8th school, across all eight research areas | 2026-08-16 | Implemented | #140 |
-| [CovenantDaySports](CovenantDaySports.md) | Label each Covenant Day sport with its real Varsity / JV / Middle School levels | 2026-08-17 | English shipped | — |
+| [CovenantDaySports](CovenantDaySports.md) | Label each Covenant Day sport with its real Varsity / JV / Middle School levels | 2026-08-17 | Implemented | [#142](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/142) |
