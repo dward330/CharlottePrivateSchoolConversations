@@ -1,11 +1,11 @@
 ---
 name: covenantDayCourseOfferings
 title: Add Covenant Day's Lower and Middle School course offerings, and reconcile the High School list to the school's own academics pages
-status: english-done
+status: implemented
 phases: 2
 created: 2026-08-17
 branch: feat/covenant-day-course-offerings
-prs: []
+prs: [144]
 ---
 
 # Add Covenant Day's Lower and Middle School course offerings, and reconcile the High School list
@@ -423,3 +423,55 @@ traps, read the rollout doc for each language rather than re-deriving
 - **Does `DATA-SCHEMA.md` need the JS-loaded-tiles rule (step 8)?** — **default:** add it.
   The failure it prevents cost this project a whole missing division on a shipped school,
   and `/add-school` reads that doc first.
+
+## Implementation notes
+
+Both phases shipped in PR #144. Two things the plan did not anticipate, recorded
+because a later window will hit them again.
+
+### Phase 2 also had to re-translate `metric-values`, not just `course-offerings`
+
+The plan scoped Phase 2 to the `course-offerings` topic. But step 6 of Phase 1
+recounted the three Upper-School Compare metrics (`us-courses` 80 → 90,
+`advanced-courses` 15 AP → 17 AP) and rewrote their `quals` provenance text — and
+those strings live in the **`metric-values`** overlay, not `course-offerings`.
+Changing that English staled 4 entries per locale × 9, which
+`npm run check:translations` reported as 36 findings. Re-extracting and
+translating 3 new strings per locale (the fourth, `17 AP`, already existed as a
+shared string) took it to `✓ no drift`.
+
+**The general rule:** whenever a phase edits `metricValues.ts`, its locale phase
+covers `metric-values` too. A metric recount is a prose change, because the
+`quals` text explaining the count is prose.
+
+### Re-extraction needs a hash-preserving merge — `--force` blanks the locale
+
+`i18n_extract.mjs --force` clears every `t`, and without `--force` it refuses to
+touch a work file that already holds translations (`guardExisting`). Neither is
+what a backfill wants. The working method — the same one the Hickory Grove
+rollout used — is to extract into a temp dir, then copy each prior `t` back onto
+the entry with the **same `of` content hash**, never by index. That made the diff
+purely additive: 2,218 of 2,347 strings restored untouched, 129 genuinely new.
+Verified by asserting zero existing translations changed, rather than trusting
+the count.
+
+### Grade tags legitimately disagree across locales
+
+`i18n:leaks` flags the new `Gr 1`/`Gr 2`/`Gr 3` tags in six locales. This is not a
+miss: `fr`/`bn`/`hi` localize grade tags (`Niv. 1`, `গ্রেড 1`, `कक्षा 1`) while
+`es`/`it`/`te`/`ht`/`fa`/`ar` keep them English — and each new tag matches how that
+same locale already renders the pre-existing `Gr 4`–`Gr 6`. The checker is
+reporting that locales disagree with *each other*, which was already true before
+this change.
+
+One genuine pre-existing inconsistency was found and deliberately left alone:
+`Specials` is translated in `es`/`fr`/`it`/`hi`/`ar` but kept English in
+`bn`/`ht`/`te`/`fa`. It is a shared string across schools, so the new Lower School
+department reuses whatever each locale already ships. Out of scope here.
+
+### Division `source` values stay English by design
+
+The browser check surfaced `Covenant Day Lower School Curriculum (academics page)`
+rendering in English on every locale's page. That is correct:
+`scripts/i18n_fields.mjs` classifies `source` as a citation label, not prose, so a
+reader following the link can match the label against the page it points at.
