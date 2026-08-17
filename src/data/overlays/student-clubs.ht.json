@@ -282,7 +282,9 @@
         "providence-day:honors.societies[0].feedsFrom",
         "charlotte-latin:honors.societies[0].feedsFrom",
         "charlotte-country-day:honors.societies[0].feedsFrom",
-        "cannon:honors.societies[0].feedsFrom"
+        "cannon:honors.societies[0].feedsFrom",
+        "carmel-christian:honors.societies[0].feedsFrom",
+        "carmel-christian:honors.societies[3].feedsFrom"
       ]
     },
     {
@@ -299,7 +301,8 @@
         "providence-day:honors.societies[1].feedsFrom",
         "charlotte-christian:honors.societies[0].feedsFrom",
         "charlotte-country-day:honors.societies[1].feedsFrom",
-        "charlotte-country-day:honors.societies[2].feedsFrom"
+        "charlotte-country-day:honors.societies[2].feedsFrom",
+        "carmel-christian:honors.societies[1].feedsFrom"
       ]
     },
     {
@@ -349,7 +352,8 @@
         "charlotte-christian:honors.societies[4].feedsFrom",
         "cannon:honors.societies[8].feedsFrom",
         "cannon:honors.societies[9].feedsFrom",
-        "cannon:honors.societies[10].feedsFrom"
+        "cannon:honors.societies[10].feedsFrom",
+        "carmel-christian:honors.societies[2].feedsFrom"
       ]
     },
     {
@@ -383,7 +387,8 @@
         "charlotte-country-day:clusters.verdictHint",
         "cannon:clusters.verdictHint",
         "covenant-day:clusters.verdictHint",
-        "davidson-day:clusters.verdictHint"
+        "davidson-day:clusters.verdictHint",
+        "carmel-christian:clusters.verdictHint"
       ]
     },
     {
@@ -1181,7 +1186,10 @@
         "covenant-day:clusters.rows[3].evidenceLabel",
         "davidson-day:clusters.rows[1].evidenceLabel",
         "davidson-day:clusters.rows[2].evidenceLabel",
-        "davidson-day:catalog.divisions[0].tag"
+        "davidson-day:catalog.divisions[0].tag",
+        "carmel-christian:catalog.divisions[0].tag",
+        "carmel-christian:catalog.divisions[1].tag",
+        "carmel-christian:catalog.divisions[2].tag"
       ]
     },
     {
@@ -1605,7 +1613,8 @@
         "charlotte-country-day:catalog.categories[2].full",
         "cannon:catalog.categories[3].short",
         "cannon:catalog.categories[3].full",
-        "davidson-day:catalog.categories[2].short"
+        "davidson-day:catalog.categories[2].short",
+        "carmel-christian:catalog.categories[2].short"
       ]
     },
     {
@@ -1843,7 +1852,8 @@
       "t": "Middle School (6–8)",
       "of": "6ad60afc",
       "at": [
-        "charlotte-latin:catalog.divisions[0].label"
+        "charlotte-latin:catalog.divisions[0].label",
+        "carmel-christian:catalog.divisions[1].label"
       ]
     },
     {
@@ -2222,14 +2232,16 @@
       "of": "fa4511f1",
       "at": [
         "charlotte-christian:catalog.categories[1].short",
-        "covenant-day:catalog.categories[1].full"
+        "covenant-day:catalog.categories[1].full",
+        "carmel-christian:catalog.categories[0].short"
       ]
     },
     {
       "t": "Sosyete onè",
       "of": "c53b433d",
       "at": [
-        "charlotte-christian:catalog.categories[1].full"
+        "charlotte-christian:catalog.categories[1].full",
+        "carmel-christian:catalog.categories[0].full"
       ]
     },
     {
@@ -3279,7 +3291,8 @@
       "t": "òganizasyon ki nonmen",
       "of": "99a4be51",
       "at": [
-        "cannon:catalog.countNoun"
+        "cannon:catalog.countNoun",
+        "carmel-christian:catalog.countNoun"
       ]
     },
     {
@@ -3450,7 +3463,8 @@
       "t": "Modèl elèv yo kòmanse",
       "of": "01f81999",
       "at": [
-        "cannon:catalog.divisions[0].label"
+        "cannon:catalog.divisions[0].label",
+        "carmel-christian:catalog.divisions[0].label"
       ]
     },
     {
@@ -4145,6 +4159,294 @@
       "of": "69095674",
       "at": [
         "davidson-day:catalog.divisions[0].text"
+      ]
+    },
+    {
+      "t": "Yon òganizasyon disip-e-sèvis lekòl segondè kote elèv yo ankadre timoun Extended-Day chak semèn — sèl òganizasyon sèvis pèmanan lekòl la, antre pa aplikasyon ak entèvyou.",
+      "of": "069b977f",
+      "at": [
+        "carmel-christian:service.headline"
+      ]
+    },
+    {
+      "t": "Sèvis se yon atant pibliye ki toupre gradyasyon isit la: yon minimòm de 20 èdtan sèvis pa nivo klas nan lekòl segondè, ranpli an pati atravè J-Term ak Beta Club olye yon sèl total anrejistre.",
+      "of": "dc675754",
+      "at": [
+        "carmel-christian:service.subhead"
+      ]
+    },
+    {
+      "t": "Lun–Ven · 3:30–4:30 · ankadrè HS",
+      "of": "1361006a",
+      "at": [
+        "carmel-christian:service.programs[0].valueLabel"
+      ]
+    },
+    {
+      "t": "Elèv lekòl segondè yo ankadre timoun nan pwogram Extended-Day lekòl la, antre pa aplikasyon, rekòmandasyon pwofesè, yon entèvyou nan mwa Septanm ak fòmasyon nan mwa Oktòb. Se sèl òganizasyon sèvis ak disip pèmanan lekòl segondè a, ki mache sou yon orè chak semèn fiks olye kòm yon enskripsyon volontè.",
+      "of": "d1e93b00",
+      "at": [
+        "carmel-christian:service.programs[0].detail"
+      ]
+    },
+    {
+      "t": "obligatwa pa nivo klas · lekòl segondè",
+      "of": "cada6b1f",
+      "at": [
+        "carmel-christian:service.programs[1].valueLabel"
+      ]
+    },
+    {
+      "t": "\"A minimum of 20 hours are the required service hours per grade level.\" Èdtan sèvis J-Term ka konte nan egzijans lan (jiska 20 pa kou J-Term), epi Beta Club ajoute pwòp 10 èdtan pa semès li. Pa gen okenn total kimilatif nan tout lekòl ki pibliye.",
+      "of": "70419ba5",
+      "at": [
+        "carmel-christian:service.programs[1].detail"
+      ]
+    },
+    {
+      "t": "yon semèn · egzijans gradyasyon",
+      "of": "a948014e",
+      "at": [
+        "carmel-christian:service.programs[2].valueLabel"
+      ]
+    },
+    {
+      "t": "Yon kou J-Term ki dire yon semèn obligatwa se yon egzijans gradyasyon epi li ka gen ladan vwayaj misyon; lekòl segondè a mache tou vwayaj misyon entènasyonal. See You at the Pole, rasanbleman priyè elèv anyèl la, dirije pa MS SGA ak HS Student Council.",
+      "of": "e6c24b44",
+      "at": [
+        "carmel-christian:service.programs[2].detail"
+      ]
+    },
+    {
+      "t": "Depase òganizasyon pèmanan an",
+      "of": "5f655015",
+      "at": [
+        "carmel-christian:service.footnoteTitle"
+      ]
+    },
+    {
+      "t": "Tradisyon lavi espirityèl pote rès pwogram nan: retrèt espirityèl otòn Windy Gap la nan mòn NC yo pou Middle ak High School, See You at the Pole, ak pwogram atizay Nwèl ak Prentan. Cornerstone Prayer Ministry se yon rasanbleman paran, se pa yon òganizasyon elèv, epi li pa konte isit la.",
+      "of": "813d9b0b",
+      "at": [
+        "carmel-christian:service.footnote"
+      ]
+    },
+    {
+      "t": "Egzijans sèvis 20-èdtan an se yon atant endividyèl, se pa yon manm, epi J-Term se yon kou obligatwa olye yon klèb. Cornerstone Prayer Ministry se yon rasanbleman priyè paran/fanmi, se pa yon òganizasyon elèv. Se sèlman Timothy Project la ki yon òganizasyon sèvis elèv pèmanan.",
+      "of": "d026d235",
+      "at": [
+        "carmel-christian:service.flags[0].text"
+      ]
+    },
+    {
+      "t": "Pa gen okenn total èdtan-sèvis kimilatif nan tout lekòl ki pibliye, epi chif yo chita sou Family Handbook 2021–22 la (edisyon ki pi nouvo ki pibliye), kidonk yo aktyèl men sansib a dat.",
+      "of": "0d947277",
+      "at": [
+        "carmel-christian:service.flags[1].text"
+      ]
+    },
+    {
+      "t": "Kat sosyete ki dokimante — twa chapit lekòl segondè plis yon sosyete jinyò lekòl mwayen — chak ak GPA pibliye ak detay endiksyon.",
+      "of": "4de66502",
+      "at": [
+        "carmel-christian:honors.headline"
+      ]
+    },
+    {
+      "t": "Antre pa siksè ak aplikasyon: lekòl la pibliye sèy GPA ak fenèt endiksyon pou sosyete akademik li yo olye yon paj anyè pèmanan.",
+      "of": "960c9c8a",
+      "at": [
+        "carmel-christian:honors.subhead"
+      ]
+    },
+    {
+      "t": "Bous, lidèchip, sèvis ak karaktè — 3.85 GPA ponn (3.75 san pwa depi class of 2024); pa aplikasyon, ak endiksyon nan mwa Oktòb",
+      "of": "0fbde75e",
+      "at": [
+        "carmel-christian:honors.societies[0].recognizes"
+      ]
+    },
+    {
+      "t": "Siksè akademik ak sèvis — klas 10–12, 3.50 GPA, 10 èdtan sèvis pa semès ak 2 pwojè sèvis pa ane; endiksyon otòn",
+      "of": "29c908a6",
+      "at": [
+        "carmel-christian:honors.societies[1].recognizes"
+      ]
+    },
+    {
+      "t": "Siksè lang Panyòl — \"CCS Chapter of SHS\" la",
+      "of": "5b9a38b1",
+      "at": [
+        "carmel-christian:honors.societies[2].recognizes"
+      ]
+    },
+    {
+      "t": "Bous ak karaktè pou elèv 8yèm klas — 3.8+ GPA; endiksyon nan mwa Oktòb",
+      "of": "90202933",
+      "at": [
+        "carmel-christian:honors.societies[3].recognizes"
+      ]
+    },
+    {
+      "t": "Lekòl la pa pibliye okenn paj honor-society pèmanan — divizyon, sèy GPA ak fenèt endiksyon transkri soti nan Family Handbook 2021–22 la, kidonk non fakilte-esponsò ak kont manm aktyèl pa deklare. Prèv ki pi resan Spanish Honor Society la se tab kòd fen etid 2021–22 la, kidonk èske chapit la toujou aktif pa konfime.",
+      "of": "c628fc0c",
+      "at": [
+        "carmel-christian:honors.flags[0].text"
+      ]
+    },
+    {
+      "t": "Pa gen okenn klèb konpetisyon akademik pèmanan; distenksyon akademik mache atravè sosyete onè yo.",
+      "of": "198f83e5",
+      "at": [
+        "carmel-christian:clusters.verdict"
+      ]
+    },
+    {
+      "t": "Sosyete onè →",
+      "of": "48a8bb43",
+      "at": [
+        "carmel-christian:clusters.rows[0].name"
+      ]
+    },
+    {
+      "t": "National Honor Society, National Beta Club, Spanish Honor Society (+ NJHS nan MS la)",
+      "of": "c1dcb6e6",
+      "at": [
+        "carmel-christian:clusters.rows[0].oneLiner"
+      ]
+    },
+    {
+      "t": "Handbook",
+      "of": "b94a65c5",
+      "at": [
+        "carmel-christian:clusters.rows[0].evidenceLabel"
+      ]
+    },
+    {
+      "t": "Rekonesans akademik olye konpetisyon: High School la mache National Honor Society (aplikasyon; GPA ponn 3.85), National Beta Club (klas 10–12; GPA 3.50 ak èdtan sèvis), ak yon Spanish Honor Society, ak National Junior Honor Society pou 8yèm klas nan Middle School la. Sa yo se distenksyon akademik lekòl la nan zòn sa a.",
+      "of": "4d75a0bb",
+      "at": [
+        "carmel-christian:clusters.rows[0].note"
+      ]
+    },
+    {
+      "t": "Klèb elèv inisye",
+      "of": "f9430809",
+      "at": [
+        "carmel-christian:clusters.rows[1].name"
+      ]
+    },
+    {
+      "t": "Pa gen okenn klèb robotik, deba, Model UN, mock trial, quiz bowl, oswa DECA pèmanan",
+      "of": "ddf2907f",
+      "at": [
+        "carmel-christian:clusters.rows[1].oneLiner"
+      ]
+    },
+    {
+      "t": "Konfime absan",
+      "of": "66260f9b",
+      "at": [
+        "carmel-christian:clusters.rows[1].evidenceLabel"
+      ]
+    },
+    {
+      "t": "Yon pas byen fon nan handbook la, sit an dirèk la, ak agregatè twazyèm pati yo konfime okenn nan klèb konpetisyon akademik abityèl yo pa mache kòm òganizasyon Upper School pèmanan. Klèb yo se elèv ki inisye pa aplikasyon, kidonk nenpòt klèb konsa ta depann de elèv k ap aplike pou fonde l nan yon ane bay; echèk parèt sèlman kòm yon klas anrichisman Extended-Day.",
+      "of": "7571dacf",
+      "at": [
+        "carmel-christian:clusters.rows[1].note"
+      ]
+    },
+    {
+      "t": "Klèb yo se elèv ki inisye pa aplikasyon, kidonk wòs pèmanan an piti — senk òganizasyon Upper School ki gen non, sitou sosyete onè, gouvènman elèv, ak yon òganizasyon sèvis.",
+      "of": "6aec162a",
+      "at": [
+        "carmel-christian:catalog.verdict"
+      ]
+    },
+    {
+      "t": "Pa gen okenn anyè klèb ki pibliye; sa a se sa handbook la ak paj lekòl yo konfime.",
+      "of": "c0083880",
+      "at": [
+        "carmel-christian:catalog.verdictHint"
+      ]
+    },
+    {
+      "t": "Gouvènman elèv",
+      "of": "134f2c97",
+      "at": [
+        "carmel-christian:catalog.categories[1].short",
+        "carmel-christian:catalog.categories[1].full"
+      ]
+    },
+    {
+      "t": "Sèvis / disip",
+      "of": "9088343a",
+      "at": [
+        "carmel-christian:catalog.categories[2].full"
+      ]
+    },
+    {
+      "t": "High School; baze sou aplikasyon (GPA ponn 3.85 → 3.75 san pwa depi Class of 2024), endiksyon nan mwa Oktòb",
+      "of": "1b4703ef",
+      "at": [
+        "carmel-christian:catalog.clubs[0].note"
+      ]
+    },
+    {
+      "t": "High School (klas 10–12); GPA 3.50 ak 10 èdtan sèvis pa semès ak 2 pwojè sèvis pa ane; endiksyon otòn",
+      "of": "31477fc4",
+      "at": [
+        "carmel-christian:catalog.clubs[1].note"
+      ]
+    },
+    {
+      "t": "High School — \"CCS Chapter of SHS\" la; dènye fwa konfime nan tab kòd gradyasyon 2021–22 la",
+      "of": "4344c427",
+      "at": [
+        "carmel-christian:catalog.clubs[2].note"
+      ]
+    },
+    {
+      "t": "High School; kat ofisye eli chak prentan ak de reprezantan pa klas nan otòn",
+      "of": "f5fabb7f",
+      "at": [
+        "carmel-christian:catalog.clubs[3].note"
+      ]
+    },
+    {
+      "t": "Òganizasyon sèvis / disip High School — elèv ankadre timoun Extended-Day; aplikasyon, rekòmandasyon pwofesè, entèvyou Septanm, fòmasyon Oktòb, yon èdtan pa semèn",
+      "of": "619371ea",
+      "at": [
+        "carmel-christian:catalog.clubs[4].note"
+      ]
+    },
+    {
+      "t": "Carmel prezante klèb kòm elèv ki mennen: yon elèv ki enterese kreye yon klèb mande yon fòm nan biwo High School oswa Middle School epi li aplike, epi administrasyon an revize l epi li ka aksepte oswa refize l. Sa eksplike wòs pèmanan piti a — lis aktif la depann de kiyès k ap aplike chak ane epi li pa pibliye.",
+      "of": "bdaed44f",
+      "at": [
+        "carmel-christian:catalog.divisions[0].text"
+      ]
+    },
+    {
+      "t": "De òganizasyon ki gen non: Student Government Association (President/VP/Secretary plis de reprezantan pa klas, nèf elèv — pwojè Charlotte Rescue Mission, bankè, Spirit Week) ak, pou 8yèm klas, National Junior Honor Society (GPA 3.8+, endiksyon nan mwa Oktòb).",
+      "of": "f70a4998",
+      "at": [
+        "carmel-christian:catalog.divisions[1].text"
+      ]
+    },
+    {
+      "t": "Lavi espirityèl & tradisyon",
+      "of": "96d40bef",
+      "at": [
+        "carmel-christian:catalog.divisions[2].label"
+      ]
+    },
+    {
+      "t": "Chapèl ak tradisyon olye klèb: Ignite Praise Band la mennen adorasyon chapèl Jedi, epi ane lekòl la mache sou retrèt Windy Gap la, See You at the Pole (dirije pa MS SGA ak HS Student Council), Spirit Week / Homecoming, J-Term (yon semèn egzijans-gradyasyon ki ka gen ladan vwayaj misyon), ak vwayaj misyon entènasyonal.",
+      "of": "e3695031",
+      "at": [
+        "carmel-christian:catalog.divisions[2].text"
       ]
     }
   ]

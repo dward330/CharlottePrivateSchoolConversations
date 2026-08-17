@@ -31,7 +31,8 @@
         "charlotte-christian:offered.stats[1].label",
         "charlotte-country-day:offered.stats[1].label",
         "cannon:offered.stats[1].label",
-        "davidson-day:offered.stats[1].label"
+        "davidson-day:offered.stats[1].label",
+        "carmel-christian:offered.stats[1].label"
       ]
     },
     {
@@ -59,7 +60,8 @@
         "charlotte-country-day:offered.seasons[0].name",
         "cannon:offered.seasons[0].name",
         "covenant-day:offered.seasons[0].name",
-        "davidson-day:offered.seasons[0].name"
+        "davidson-day:offered.seasons[0].name",
+        "carmel-christian:offered.seasons[0].name"
       ]
     },
     {
@@ -83,7 +85,8 @@
         "charlotte-country-day:offered.seasons[1].name",
         "cannon:offered.seasons[1].name",
         "covenant-day:offered.seasons[1].name",
-        "davidson-day:offered.seasons[1].name"
+        "davidson-day:offered.seasons[1].name",
+        "carmel-christian:offered.seasons[1].name"
       ]
     },
     {
@@ -96,7 +99,8 @@
         "charlotte-country-day:offered.seasons[2].name",
         "cannon:offered.seasons[2].name",
         "covenant-day:offered.seasons[2].name",
-        "davidson-day:offered.seasons[2].name"
+        "davidson-day:offered.seasons[2].name",
+        "carmel-christian:offered.seasons[2].name"
       ]
     },
     {
@@ -168,7 +172,10 @@
         "davidson-day:record.rows[2].cells[1].result",
         "davidson-day:record.rows[3].cells[0].result",
         "davidson-day:record.rows[3].cells[1].result",
-        "davidson-day:record.rows[4].cells[0].result"
+        "davidson-day:record.rows[4].cells[0].result",
+        "carmel-christian:record.rows[0].cells[0].result",
+        "carmel-christian:record.rows[0].cells[1].result",
+        "carmel-christian:record.rows[1].cells[0].result"
       ]
     },
     {
@@ -191,7 +198,10 @@
         "cannon:record.rows[3].cells[2].result",
         "covenant-day:record.rows[1].cells[1].result",
         "covenant-day:record.rows[1].cells[2].result",
-        "davidson-day:record.rows[1].cells[2].result"
+        "davidson-day:record.rows[1].cells[2].result",
+        "carmel-christian:record.rows[0].cells[2].result",
+        "carmel-christian:record.rows[1].cells[1].result",
+        "carmel-christian:record.rows[2].cells[2].result"
       ]
     },
     {
@@ -267,7 +277,10 @@
         "davidson-day:record.rows[5].cells[2].result",
         "davidson-day:record.rows[6].cells[0].result",
         "davidson-day:record.rows[6].cells[1].result",
-        "davidson-day:record.rows[6].cells[2].result"
+        "davidson-day:record.rows[6].cells[2].result",
+        "carmel-christian:record.rows[1].cells[2].result",
+        "carmel-christian:record.rows[2].cells[0].result",
+        "carmel-christian:record.rows[2].cells[1].result"
       ]
     },
     {
@@ -374,7 +387,8 @@
         "charlotte-country-day:pipeline.funnel[0].label",
         "cannon:pipeline.funnel[0].label",
         "covenant-day:pipeline.funnel[0].label",
-        "davidson-day:pipeline.funnel[0].label"
+        "davidson-day:pipeline.funnel[0].label",
+        "carmel-christian:pipeline.funnel[0].label"
       ]
     },
     {
@@ -396,7 +410,8 @@
         "charlotte-country-day:pipeline.funnel[1].label",
         "cannon:pipeline.funnel[1].label",
         "covenant-day:pipeline.funnel[1].label",
-        "davidson-day:pipeline.funnel[1].label"
+        "davidson-day:pipeline.funnel[1].label",
+        "carmel-christian:pipeline.funnel[1].label"
       ]
     },
     {
@@ -422,7 +437,8 @@
         "charlotte-country-day:pipeline.funnel[2].label",
         "cannon:pipeline.funnel[2].label",
         "covenant-day:pipeline.funnel[2].label",
-        "davidson-day:pipeline.funnel[2].label"
+        "davidson-day:pipeline.funnel[2].label",
+        "carmel-christian:pipeline.funnel[2].label"
       ]
     },
     {
@@ -435,7 +451,8 @@
         "charlotte-country-day:pipeline.funnel[2].hint",
         "cannon:pipeline.funnel[2].hint",
         "covenant-day:pipeline.funnel[2].hint",
-        "davidson-day:pipeline.funnel[2].hint"
+        "davidson-day:pipeline.funnel[2].hint",
+        "carmel-christian:pipeline.funnel[2].hint"
       ]
     },
     {
@@ -657,7 +674,8 @@
         "covenant-day:pipeline.roster[13].sport",
         "covenant-day:pipeline.roster[28].sport",
         "davidson-day:pipeline.roster[5].sport",
-        "davidson-day:pipeline.roster[6].sport"
+        "davidson-day:pipeline.roster[6].sport",
+        "carmel-christian:pipeline.roster[8].sport"
       ]
     },
     {
@@ -685,7 +703,10 @@
         "covenant-day:pipeline.roster[20].sport",
         "covenant-day:pipeline.roster[26].sport",
         "covenant-day:pipeline.roster[31].sport",
-        "covenant-day:pipeline.roster[32].sport"
+        "covenant-day:pipeline.roster[32].sport",
+        "carmel-christian:pipeline.roster[5].sport",
+        "carmel-christian:pipeline.roster[6].sport",
+        "carmel-christian:pipeline.roster[9].sport"
       ]
     },
     {
@@ -937,7 +958,8 @@
       "at": [
         "providence-day:honors.honors[3].tag",
         "charlotte-christian:honors.honors[4].tag",
-        "cannon:honors.honors[3].tag"
+        "cannon:honors.honors[3].tag",
+        "carmel-christian:honors.honors[2].tag"
       ]
     },
     {
@@ -1924,7 +1946,8 @@
       "t": "NC Mr. Basketball",
       "of": "61e58ab4",
       "at": [
-        "charlotte-latin:honors.honors[0].label"
+        "charlotte-latin:honors.honors[0].label",
+        "carmel-christian:honors.honors[0].label"
       ]
     },
     {
@@ -4761,7 +4784,14 @@
         "covenant-day:pipeline.roster[14].sport",
         "covenant-day:pipeline.roster[15].sport",
         "covenant-day:pipeline.roster[29].sport",
-        "covenant-day:pipeline.roster[30].sport"
+        "covenant-day:pipeline.roster[30].sport",
+        "carmel-christian:pipeline.roster[0].sport",
+        "carmel-christian:pipeline.roster[1].sport",
+        "carmel-christian:pipeline.roster[2].sport",
+        "carmel-christian:pipeline.roster[3].sport",
+        "carmel-christian:pipeline.roster[4].sport",
+        "carmel-christian:pipeline.roster[7].sport",
+        "carmel-christian:pipeline.roster[10].sport"
       ]
     },
     {
@@ -5648,7 +5678,8 @@
       "t": "5",
       "of": "300ca0d0",
       "at": [
-        "davidson-day:coaching.featured[1].stats[1].value"
+        "davidson-day:coaching.featured[1].stats[1].value",
+        "carmel-christian:national.stats[2].value"
       ]
     },
     {
@@ -5733,6 +5764,342 @@
       "of": "45ea4cdb",
       "at": [
         "davidson-day:coaching.worthKnowing"
+      ]
+    },
+    {
+      "t": "9 رياضات على مستوى varsity عبر نحو 28 فريقاً — برنامج Cougars مركّز في NCISAA 4A، أعلى تصنيف للمدارس الخاصّة.",
+      "of": "5c3363af",
+      "at": [
+        "carmel-christian:offered.headline"
+      ]
+    },
+    {
+      "t": "تحمل كرة السلّة وكرة القدم والكرة الطائرة سُلَّم JV وMiddle School؛ ولا وجود لكرة القدم الأمريكية أو اللاكروس أو ألعاب المضمار على القائمة المُقدَّمة الحالية.",
+      "of": "68af5b13",
+      "at": [
+        "carmel-christian:offered.subhead"
+      ]
+    },
+    {
+      "t": "رياضات varsity مميّزة",
+      "of": "6c0c64fe",
+      "at": [
+        "carmel-christian:offered.stats[0].label"
+      ]
+    },
+    {
+      "t": "NCISAA (كانت 3A حتى ~2019)",
+      "of": "e1008ec3",
+      "at": [
+        "carmel-christian:offered.stats[2].label"
+      ]
+    },
+    {
+      "t": "Matthews, NC",
+      "of": "0b290165",
+      "at": [
+        "carmel-christian:offered.stats[3].label"
+      ]
+    },
+    {
+      "t": "تنقسم كرة سلّة الفتيان في Middle School إلى فريقي \"Blue & Gold\" لتوسيع المشاركة، وتُدير الغولف فريقاً مختلطاً في Middle School في الربيع. انتقلت Carmel من NCISAA 3A إلى 4A نحو 2019.",
+      "of": "31e754ab",
+      "at": [
+        "carmel-christian:offered.footnote"
+      ]
+    },
+    {
+      "t": "ثلاثة ألقاب NCISAA حديثة — اثنان في كرة سلّة الفتيان (2019 3A، 2022 4A) وواحد في كرة قدم الفتيان (2020 4A) — خلف سلسلة من الأدوار النهائية العميقة.",
+      "of": "e9539ba9",
+      "at": [
+        "carmel-christian:record.headline"
+      ]
+    },
+    {
+      "t": "\"State\" = NCISAA (رابطة المدارس الخاصّة)؛ ولا تنافس Carmel في NCHSAA للمدارس الحكومية.",
+      "of": "1dd1117d",
+      "at": [
+        "carmel-christian:record.subhead"
+      ]
+    },
+    {
+      "t": "متتالياً 3A في 2018 و2019؛ بطل 4A 2022؛ وصيف 2023 و2025",
+      "of": "f3ef690e",
+      "at": [
+        "carmel-christian:record.rows[0].note"
+      ]
+    },
+    {
+      "t": "أربعة أدوار نهائية متتالية 2019–2022، بالفوز بـ 4A في 2020",
+      "of": "0c490bcb",
+      "at": [
+        "carmel-christian:record.rows[1].note"
+      ]
+    },
+    {
+      "t": "خسرت نهائي 4A لعام '26 بنتيجة 1–2 أمام Providence Day",
+      "of": "3cd90daa",
+      "at": [
+        "carmel-christian:record.rows[2].note"
+      ]
+    },
+    {
+      "t": "أخذت Christ School ألقاب كرة سلّة الفتيان 4A التي خسرتها Carmel في 2023 (48–53) و2025 (حقّقت Christ School الثلاثية)؛ وهزمت Rabun Gap-Nacoochee فريق Carmel في نهائيَّي كرة قدم الفتيان 4A لعامَي 2021 (1–0) و2022 (1–0)، وهزمته Coastal Christian في نهائي 3A لعام 2019؛ وأقصت Providence Day فريق Carmel عن لقب كرة قدم الفتيات 4A لعام 2026 (1–2).",
+      "of": "581ebb84",
+      "at": [
+        "carmel-christian:record.didNotWin"
+      ]
+    },
+    {
+      "t": "موسم '21–22",
+      "of": "b635ef35",
+      "at": [
+        "carmel-christian:record.bars[0].tag"
+      ]
+    },
+    {
+      "t": "مسيرة اللقب 2020",
+      "of": "0f7c2a1a",
+      "at": [
+        "carmel-christian:record.bars[1].tag"
+      ]
+    },
+    {
+      "t": "موسم '25–26",
+      "of": "0d504105",
+      "at": [
+        "carmel-christian:record.bars[2].tag"
+      ]
+    },
+    {
+      "t": "2022: بطل NCISAA 4A — هزمت Greensboro Day 71–66 في 26 فبراير 2022 في Wingate، بتسجيل Cade Tyson 31 نقطة. 2023: 28–4، خسرت نهائي 4A بنتيجة 48–53 أمام Christ School (25 فبراير 2023) خلف فريق يقوده Jaeden Mustaf. 2025: بلغت نهائي 4A مجدّداً وخسرت أمام Christ School التي حقّقت الثلاثية (النتيجة للتحقّق). سجلّات الموسم النظامي: 2021–22 26–3، 2022–23 28–4، 2016–17 21–6، 2015–16 22–8.",
+      "of": "72393982",
+      "at": [
+        "carmel-christian:record.seasonDetail[0].text"
+      ]
+    },
+    {
+      "t": "2020: بطل NCISAA 4A — هزمت Rabun Gap-Nacoochee 2–0، بإنهاء الموسم 14–1. كان هذا في منتصف أربعة أدوار نهائية متتالية: خسرت نهائي 3A لعام 2019 أمام Coastal Christian، فازت 2020، ثم خسرت نهائيَّي 4A لعامَي 2021 (1–0) و2022 (1–0) أمام Rabun Gap.",
+      "of": "96a1da83",
+      "at": [
+        "carmel-christian:record.seasonDetail[1].text"
+      ]
+    },
+    {
+      "t": "2026: بلغت نهائي NCISAA 4A وخسرت 1–2 أمام Providence Day (16 مايو 2026)، بإنهاء الموسم 14–5. وسم موقع الرياضة الموسمَ بأنه مسيرة \"2025-26 state champions\"، وهو ما يتعارض مع الخسارة في النهائي — ويُعامَل هنا على أنه وصيف بانتظار التأكيد.",
+      "of": "13aa35a5",
+      "at": [
+        "carmel-christian:record.seasonDetail[2].text"
+      ]
+    },
+    {
+      "t": "خمسة التحاقات Division I عبر دفعات 2024–26 — كلٌّ منها في كرة السلّة، وكلٌّ منها في جامعة متوسّطة المستوى (mid-major). صفر Power 4.",
+      "of": "308ba25e",
+      "at": [
+        "carmel-christian:pipeline.headline"
+      ]
+    },
+    {
+      "t": "مبنيّ من كشف التحاقات الجامعات الرسمي للمدرسة \"Next Steps\"؛ وأُضيفت تسميات القسم والمؤتمر من قِبل الباحث بحسب وضع NCAA لكل جامعة.",
+      "of": "c081cbd3",
+      "at": [
+        "carmel-christian:pipeline.subhead"
+      ]
+    },
+    {
+      "t": "(كل الأقسام، 2024–26)",
+      "of": "a4d94bc6",
+      "at": [
+        "carmel-christian:pipeline.funnel[0].hint"
+      ]
+    },
+    {
+      "t": "(كل كرة السلّة)",
+      "of": "dc8552e8",
+      "at": [
+        "carmel-christian:pipeline.funnel[1].hint"
+      ]
+    },
+    {
+      "t": "جميع الملتحقين الخمسة بـ D1 لاعبو كرة سلّة وقّعوا مع برامج متوسّطة المستوى — Big South وSun Belt. ولم يذهب أي موقِّع من Carmel في هذه النافذة إلى جامعة Power 4. أما Kam Taylor فبلغ ACC (Florida State) لاحقاً فقط عبر بوابة الانتقال، لا بوصفه التحاقاً من Carmel.",
+      "of": "1c6929dd",
+      "at": [
+        "carmel-christian:pipeline.funnelNote"
+      ]
+    },
+    {
+      "t": "خارج كرة السلّة، يذهب موقِّعو Carmel الأخيرون في الغالب إلى NCAA Division II وIII: البيسبول إلى Lander (D2) وFerrum (D3) وUSC Aiken (D2)؛ وكرة السلّة أيضاً إلى Fayetteville State (D2) وJohnson & Wales (D3)؛ والكرة الطائرة إلى Winston-Salem State (D2)؛ إضافةً إلى موقّعين في الغولف والتنس والرقص. وعرض D2/D3 هو النتيجة الشائعة، مع كون كرة السلّة الرياضة الوحيدة التي تنتج D1 بشكل موثوق.",
+      "of": "47f8e807",
+      "at": [
+        "carmel-christian:pipeline.realityCheck"
+      ]
+    },
+    {
+      "t": "كان Cade Tyson (’22) هو NC Mr. Basketball لعام 2022 وغادر بوصفه أبرز اسم في استقطاب البرنامج (Belmont ← UNC ← Minnesota؛ مدعوّ إلى 2026 NBA G League Draft Combine / Portsmouth). قاد Jaeden Mustaf، لاعب المنتخب في Carmel وابن لاعب NBA السابق Jerrod Mustaf، فريق 2022–23 إلى سجلّ 28–4 والنهائي قبل Georgia Tech ← Indiana. أما Cody Peck (6'10\"، أربع نجوم، ضمن أفضل 100 ← Dayton) فيُربَط غالباً بـ Carmel لكنه لعب موسمين فقط هناك وتخرّج من مكان آخر — وهو ليس التحاقاً من Carmel.",
+      "of": "e4053346",
+      "at": [
+        "carmel-christian:pipeline.rankedRecruits"
+      ]
+    },
+    {
+      "t": "أُضيفت تسميات المستوى (P4 / D1 / D2 / D3) والمؤتمرات من قِبل الباحث بحسب وضع NCAA لكل جامعة — وهي ليست على قائمة المدرسة. P4 = SEC · Big Ten · ACC · Big 12. وصفوف D2/D3 عيّنة تمثيلية من الموقّعين غير D1 على كشف \"Next Steps\"، لا القائمة الكاملة.",
+      "of": "bfc7f408",
+      "at": [
+        "carmel-christian:pipeline.rosterNote"
+      ]
+    },
+    {
+      "t": "لا رياضي محترف مؤكَّد — لكن NC Mr. Basketball وخطّ استقطاب عالي المستوى خارج برنامج كرة السلّة.",
+      "of": "c22b2305",
+      "at": [
+        "carmel-christian:honors.headline"
+      ]
+    },
+    {
+      "t": "لا تحتفظ Carmel بمتتبِّع للخرّيجين المحترفين، ولا يوجد خرّيج محترف مؤكَّد؛ والأسماء أدناه تكريمات استقطاب ولاعب العام.",
+      "of": "5a04a4c3",
+      "at": [
+        "carmel-christian:honors.subhead"
+      ]
+    },
+    {
+      "t": "Cade Tyson (’22) — NC Mr. Basketball لعام 2022، بمعدّل 24.0 نقطة في المباراة كطالب سنة نهائية وتسجيله 31 نقطة في فوز لقب الولاية على Greensboro Day. Belmont ← UNC ← Minnesota؛ مدعوّ إلى 2026 NBA G League Draft Combine وPortsmouth (مرشّح للـ draft، وليس محترفاً بعد).",
+      "of": "0c9f9c83",
+      "at": [
+        "carmel-christian:honors.honors[0].text"
+      ]
+    },
+    {
+      "t": "على مستوى الولاية، 1 سنوياً",
+      "of": "5d12f0e0",
+      "at": [
+        "carmel-christian:honors.honors[0].tag"
+      ]
+    },
+    {
+      "t": "استقطاب عالي المستوى",
+      "of": "a34eb12d",
+      "at": [
+        "carmel-christian:honors.honors[1].label"
+      ]
+    },
+    {
+      "t": "Jaeden Mustaf — لاعب منتخب في Carmel، قاد فريق 2022–23 إلى سجلّ 28–4 والنهائي، وابن لاعب NBA السابق Jerrod Mustaf. Georgia Tech ← Indiana (أبريل 2026). انتقل من DeMatha؛ وما إذا كان قد تخرّج من Carmel غير مؤكَّد.",
+      "of": "70cace08",
+      "at": [
+        "carmel-christian:honors.honors[1].text"
+      ]
+    },
+    {
+      "t": "مستقطَب وطنياً",
+      "of": "172db871",
+      "at": [
+        "carmel-christian:honors.honors[1].tag"
+      ]
+    },
+    {
+      "t": "ضمن المؤتمر بأكمله (All-conference)",
+      "of": "08950675",
+      "at": [
+        "carmel-christian:honors.honors[2].label"
+      ]
+    },
+    {
+      "t": "Kam Taylor (’24) — الفريق الأول All-Big South (18.9 نقطة في المباراة كطالب سنة ثانية) في UNC Asheville قبل الانتقال إلى Florida State.",
+      "of": "e89d8142",
+      "at": [
+        "carmel-christian:honors.honors[2].text"
+      ]
+    },
+    {
+      "t": "يقود المدير الرياضي Grant Coffey برنامج Cougars؛ وأسماء المدرّبين الرئيسيين ومدد خدمتهم وسجلّاتهم غير منشورة.",
+      "of": "dffb827e",
+      "at": [
+        "carmel-christian:coaching.headline"
+      ]
+    },
+    {
+      "t": "المدير الرياضي: Grant Coffey، BEd، CAA.",
+      "of": "b5c01669",
+      "at": [
+        "carmel-christian:coaching.subhead"
+      ]
+    },
+    {
+      "t": "تشير صفحات الرياضة في Carmel إلى دليل مدرّبين لكنها لا تسرد أي أسماء مدرّبين رئيسيين أو مدد خدمة أو سجلّات مهنية. وهذه التفاصيل غير منشورة على الصفحات التي جُلِبت — إذ يلزم بحث أعمق (دليل المدرسة، الصحافة) لملء سجلّ المدرّبين.",
+      "of": "b89852f4",
+      "at": [
+        "carmel-christian:coaching.worthKnowing"
+      ]
+    },
+    {
+      "t": "أول صفقة NIL من الموجة الأولى لخرّيج كرة سلّة من Carmel — وقّع Bryce Slay مع علامة تجارية وطنية في أغسطس 2025.",
+      "of": "f7263566",
+      "at": [
+        "carmel-christian:national.headline"
+      ]
+    },
+    {
+      "t": "تنافس Carmel في NCISAA 4A، أعلى تصنيف للمدارس الخاصّة؛ ولا يُنشَر أي ترتيب وطني في الاستطلاعات للفِرَق.",
+      "of": "9672ce9d",
+      "at": [
+        "carmel-christian:national.subhead"
+      ]
+    },
+    {
+      "t": "4A",
+      "of": "58e33b86",
+      "at": [
+        "carmel-christian:national.stats[0].value"
+      ]
+    },
+    {
+      "t": "أعلى تصنيف في NCISAA",
+      "of": "fa438285",
+      "at": [
+        "carmel-christian:national.stats[0].label"
+      ]
+    },
+    {
+      "t": "12 أغسطس 2025",
+      "of": "2022a34e",
+      "at": [
+        "carmel-christian:national.stats[1].value"
+      ]
+    },
+    {
+      "t": "الإعلان عن صفقة NIL لـ Bryce Slay",
+      "of": "94a5b751",
+      "at": [
+        "carmel-christian:national.stats[1].label"
+      ]
+    },
+    {
+      "t": "موقِّعو كرة السلّة في D1، 2024–26",
+      "of": "a969a39e",
+      "at": [
+        "carmel-christian:national.stats[2].label"
+      ]
+    },
+    {
+      "t": "12 أغسطس 2025",
+      "of": "455a4bac",
+      "at": [
+        "carmel-christian:national.nil[0].date"
+      ]
+    },
+    {
+      "t": "وقّع Bryce Slay، خرّيج كرة السلّة من دفعة 2025، أول صفقة NIL له — مع College HUNKS (College Hunks Hauling Junk & Moving) — ووُصِف بأنه من أوائل خرّيجي المدارس الثانوية في Charlotte الذين يبرمون مثل هذا الاتّفاق. ولم يُفصَح عن أي مبلغ بالدولار؛ وبادر بالصفقة والداه، Tamar (لاعب Charlotte Bobcats سابقاً) وCeleste Slay. وكان Slay قد التحق بـ Marshall.",
+      "of": "40ac5c1e",
+      "at": [
+        "carmel-christian:national.nil[0].text"
+      ]
+    },
+    {
+      "t": "الأولى في تاريخ CARMEL",
+      "of": "6bfc1131",
+      "at": [
+        "carmel-christian:national.nil[0].tag"
       ]
     }
   ]

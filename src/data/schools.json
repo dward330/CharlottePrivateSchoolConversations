@@ -7,6 +7,10 @@
       "name": "Cannon School"
     },
     {
+      "slug": "carmel-christian",
+      "name": "Carmel Christian School"
+    },
+    {
       "slug": "charlotte-christian",
       "name": "Charlotte Christian School"
     },
@@ -35,6 +39,10 @@
     {
       "slug": "after-school",
       "name": "After School"
+    },
+    {
+      "slug": "branding",
+      "name": "Branding"
     },
     {
       "slug": "college-support",
@@ -73,6 +81,11 @@
     },
     {
       "topic_slug": "after-school",
+      "school_slug": "carmel-christian",
+      "doc_count": 1
+    },
+    {
+      "topic_slug": "after-school",
       "school_slug": "charlotte-christian",
       "doc_count": 6
     },
@@ -102,9 +115,44 @@
       "doc_count": 6
     },
     {
+      "topic_slug": "branding",
+      "school_slug": "cannon",
+      "doc_count": 1
+    },
+    {
+      "topic_slug": "branding",
+      "school_slug": "charlotte-christian",
+      "doc_count": 1
+    },
+    {
+      "topic_slug": "branding",
+      "school_slug": "charlotte-country-day",
+      "doc_count": 1
+    },
+    {
+      "topic_slug": "branding",
+      "school_slug": "charlotte-latin",
+      "doc_count": 1
+    },
+    {
+      "topic_slug": "branding",
+      "school_slug": "davidson-day",
+      "doc_count": 1
+    },
+    {
+      "topic_slug": "branding",
+      "school_slug": "providence-day",
+      "doc_count": 1
+    },
+    {
       "topic_slug": "college-support",
       "school_slug": "cannon",
       "doc_count": 10
+    },
+    {
+      "topic_slug": "college-support",
+      "school_slug": "carmel-christian",
+      "doc_count": 1
     },
     {
       "topic_slug": "college-support",
@@ -143,6 +191,11 @@
     },
     {
       "topic_slug": "course-offerings",
+      "school_slug": "carmel-christian",
+      "doc_count": 2
+    },
+    {
+      "topic_slug": "course-offerings",
       "school_slug": "charlotte-christian",
       "doc_count": 1
     },
@@ -175,6 +228,11 @@
       "topic_slug": "financial-aid-tuition",
       "school_slug": "cannon",
       "doc_count": 2
+    },
+    {
+      "topic_slug": "financial-aid-tuition",
+      "school_slug": "carmel-christian",
+      "doc_count": 1
     },
     {
       "topic_slug": "financial-aid-tuition",
@@ -210,6 +268,11 @@
       "topic_slug": "sports",
       "school_slug": "cannon",
       "doc_count": 15
+    },
+    {
+      "topic_slug": "sports",
+      "school_slug": "carmel-christian",
+      "doc_count": 1
     },
     {
       "topic_slug": "sports",
@@ -248,6 +311,11 @@
     },
     {
       "topic_slug": "student-clubs",
+      "school_slug": "carmel-christian",
+      "doc_count": 1
+    },
+    {
+      "topic_slug": "student-clubs",
       "school_slug": "charlotte-christian",
       "doc_count": 10
     },
@@ -283,6 +351,11 @@
     },
     {
       "topic_slug": "summer-programs",
+      "school_slug": "carmel-christian",
+      "doc_count": 1
+    },
+    {
+      "topic_slug": "summer-programs",
       "school_slug": "charlotte-christian",
       "doc_count": 1
     },
@@ -310,6 +383,11 @@
       "topic_slug": "the-arts",
       "school_slug": "cannon",
       "doc_count": 8
+    },
+    {
+      "topic_slug": "the-arts",
+      "school_slug": "carmel-christian",
+      "doc_count": 1
     },
     {
       "topic_slug": "the-arts",
@@ -391,6 +469,16 @@
       "subtopic": "Redesign Research 2026",
       "source_file": "source-material/after-school/cannon/Cannon - After School - Redesign Research 2026.md",
       "note_file": ".claude/docs/after-school/cannon.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "carmel-christian",
+      "school": "Carmel Christian School",
+      "topic_slug": "after-school",
+      "topic": "After School",
+      "subtopic": "Extended Day",
+      "source_file": "source-material/after-school/carmel-christian/Carmel Christian - After School - Extended Day.md",
+      "note_file": ".claude/docs/after-school/carmel-christian.md",
       "type": "md"
     },
     {
@@ -726,181 +814,761 @@
     {
       "school_slug": "cannon",
       "school": "Cannon School",
-      "topic_slug": "course-offerings",
-      "topic": "Course Offerings",
-      "subtopic": "Curriculum Guide",
-      "source_file": "source-material/course-offerings/cannon/Cannon - Course Offerings - Curriculum Guide.md",
-      "note_file": ".claude/docs/course-offerings/cannon.md",
+      "topic_slug": "branding",
+      "topic": "Branding",
+      "subtopic": "Athletics Logo",
+      "source_file": "source-material/branding/cannon/Cannon School - Branding - Athletics Logo.md",
+      "note_file": ".claude/docs/branding/cannon.md",
       "type": "md"
     },
     {
       "school_slug": "charlotte-christian",
       "school": "Charlotte Christian School",
-      "topic_slug": "course-offerings",
-      "topic": "Course Offerings",
-      "subtopic": "Curriculum Guide",
-      "source_file": "source-material/course-offerings/charlotte-christian/Charlotte Christian - Course Offerings - Curriculum Guide.md",
-      "note_file": ".claude/docs/course-offerings/charlotte-christian.md",
+      "topic_slug": "branding",
+      "topic": "Branding",
+      "subtopic": "Athletics Logo",
+      "source_file": "source-material/branding/charlotte-christian/Charlotte Christian School - Branding - Athletics Logo.md",
+      "note_file": ".claude/docs/branding/charlotte-christian.md",
       "type": "md"
     },
     {
       "school_slug": "charlotte-country-day",
       "school": "Charlotte Country Day School",
-      "topic_slug": "course-offerings",
-      "topic": "Course Offerings",
-      "subtopic": "Curriculum Guide",
-      "source_file": "source-material/course-offerings/charlotte-country-day/Charlotte Country Day - Course Offerings - Curriculum Guide.md",
-      "note_file": ".claude/docs/course-offerings/charlotte-country-day.md",
+      "topic_slug": "branding",
+      "topic": "Branding",
+      "subtopic": "Athletics Logo",
+      "source_file": "source-material/branding/charlotte-country-day/Charlotte Country Day School - Branding - Athletics Logo.md",
+      "note_file": ".claude/docs/branding/charlotte-country-day.md",
       "type": "md"
     },
     {
       "school_slug": "charlotte-latin",
       "school": "Charlotte Latin School",
-      "topic_slug": "course-offerings",
-      "topic": "Course Offerings",
-      "subtopic": "Curriculum Guide",
-      "source_file": "source-material/course-offerings/charlotte-latin/Charlotte Latin - Course Offerings - Curriculum Guide.md",
-      "note_file": ".claude/docs/course-offerings/charlotte-latin.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "covenant-day",
-      "school": "Covenant Day School",
-      "topic_slug": "course-offerings",
-      "topic": "Course Offerings",
-      "subtopic": "Curriculum Guide",
-      "source_file": "source-material/course-offerings/covenant-day/Covenant Day School - Course Offerings - Curriculum Guide.md",
-      "note_file": ".claude/docs/course-offerings/covenant-day.md",
+      "topic_slug": "branding",
+      "topic": "Branding",
+      "subtopic": "Athletics Logo",
+      "source_file": "source-material/branding/charlotte-latin/Charlotte Latin School - Branding - Athletics Logo.md",
+      "note_file": ".claude/docs/branding/charlotte-latin.md",
       "type": "md"
     },
     {
       "school_slug": "davidson-day",
       "school": "Davidson Day School",
-      "topic_slug": "course-offerings",
-      "topic": "Course Offerings",
-      "subtopic": "Curriculum Guide",
-      "source_file": "source-material/course-offerings/davidson-day/Davidson Day - Course Offerings - Curriculum Guide.md",
-      "note_file": ".claude/docs/course-offerings/davidson-day.md",
+      "topic_slug": "branding",
+      "topic": "Branding",
+      "subtopic": "Athletics Logo",
+      "source_file": "source-material/branding/davidson-day/Davidson Day School - Branding - Athletics Logo.md",
+      "note_file": ".claude/docs/branding/davidson-day.md",
       "type": "md"
     },
     {
       "school_slug": "providence-day",
       "school": "Providence Day School",
-      "topic_slug": "course-offerings",
-      "topic": "Course Offerings",
-      "subtopic": "Curriculum Guide",
-      "source_file": "source-material/course-offerings/providence-day/Providence Day - Course Offerings - Curriculum Guide.md",
-      "note_file": ".claude/docs/course-offerings/providence-day.md",
+      "topic_slug": "branding",
+      "topic": "Branding",
+      "subtopic": "Athletics Logo",
+      "source_file": "source-material/branding/providence-day/Providence Day School - Branding - Athletics Logo.md",
+      "note_file": ".claude/docs/branding/providence-day.md",
       "type": "md"
     },
     {
       "school_slug": "cannon",
       "school": "Cannon School",
-      "topic_slug": "financial-aid-tuition",
-      "topic": "Financial Aid & Tuition",
-      "subtopic": "Deep Dive Report",
-      "source_file": "source-material/financial-aid-tuition/cannon/Cannon - Financial Aid - Deep Dive Report.pdf",
-      "note_file": ".claude/docs/financial-aid-tuition/cannon.md",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Academic Case",
+      "source_file": "source-material/college-support/cannon/Cannon School - College Support - Academic Case.pdf",
+      "note_file": ".claude/docs/college-support/cannon.md",
       "type": "pdf"
     },
     {
       "school_slug": "cannon",
       "school": "Cannon School",
-      "topic_slug": "financial-aid-tuition",
-      "topic": "Financial Aid & Tuition",
-      "subtopic": "Tuition History",
-      "source_file": "source-material/financial-aid-tuition/cannon/Cannon - Financial Aid and Tuition - Tuition History.md",
-      "note_file": ".claude/docs/financial-aid-tuition/cannon.md",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Acceptances Window 2023-2026",
+      "source_file": "source-material/college-support/cannon/Cannon School - College Support - Acceptances Window 2023-2026.md",
+      "note_file": ".claude/docs/college-support/cannon.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Application Support",
+      "source_file": "source-material/college-support/cannon/Cannon School - College Support - Application Support.pdf",
+      "note_file": ".claude/docs/college-support/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Counseling Engine",
+      "source_file": "source-material/college-support/cannon/Cannon School - College Support - Counseling Engine.pdf",
+      "note_file": ".claude/docs/college-support/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Fit and Rank",
+      "source_file": "source-material/college-support/cannon/Cannon School - College Support - Fit and Rank.pdf",
+      "note_file": ".claude/docs/college-support/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Institutional Leverage",
+      "source_file": "source-material/college-support/cannon/Cannon School - College Support - Institutional Leverage.pdf",
+      "note_file": ".claude/docs/college-support/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "NotebookLM Prompt",
+      "source_file": "source-material/college-support/cannon/Cannon School - College Support - NotebookLM Prompt.md",
+      "note_file": ".claude/docs/college-support/cannon.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Outcomes",
+      "source_file": "source-material/college-support/cannon/Cannon School - College Support - Outcomes.pdf",
+      "note_file": ".claude/docs/college-support/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Redesign Research 2026",
+      "source_file": "source-material/college-support/cannon/Cannon School - College Support - Redesign Research 2026.md",
+      "note_file": ".claude/docs/college-support/cannon.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Standing Out",
+      "source_file": "source-material/college-support/cannon/Cannon School - College Support - Standing Out.pdf",
+      "note_file": ".claude/docs/college-support/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "carmel-christian",
+      "school": "Carmel Christian School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Redesign Research 2026",
+      "source_file": "source-material/college-support/carmel-christian/Carmel Christian - College Support - Redesign Research 2026.md",
+      "note_file": ".claude/docs/college-support/carmel-christian.md",
       "type": "md"
     },
     {
       "school_slug": "charlotte-christian",
       "school": "Charlotte Christian School",
-      "topic_slug": "financial-aid-tuition",
-      "topic": "Financial Aid & Tuition",
-      "subtopic": "Deep Dive Report",
-      "source_file": "source-material/financial-aid-tuition/charlotte-christian/Charlotte Christian - Financial Aid - Deep Dive Report.pdf",
-      "note_file": ".claude/docs/financial-aid-tuition/charlotte-christian.md",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Academic Case",
+      "source_file": "source-material/college-support/charlotte-christian/Charlotte Christian - College Support - Academic Case.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Acceptances Window 2023-2026",
+      "source_file": "source-material/college-support/charlotte-christian/Charlotte Christian - College Support - Acceptances Window 2023-2026.md",
+      "note_file": ".claude/docs/college-support/charlotte-christian.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Application Support",
+      "source_file": "source-material/college-support/charlotte-christian/Charlotte Christian - College Support - Application Support.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Counseling Engine",
+      "source_file": "source-material/college-support/charlotte-christian/Charlotte Christian - College Support - Counseling Engine.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Fit and Rank",
+      "source_file": "source-material/college-support/charlotte-christian/Charlotte Christian - College Support - Fit and Rank.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Institutional Leverage",
+      "source_file": "source-material/college-support/charlotte-christian/Charlotte Christian - College Support - Institutional Leverage.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "NotebookLM Prompt",
+      "source_file": "source-material/college-support/charlotte-christian/Charlotte Christian - College Support - NotebookLM Prompt.txt",
+      "note_file": ".claude/docs/college-support/charlotte-christian.md",
+      "type": "txt"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Outcomes",
+      "source_file": "source-material/college-support/charlotte-christian/Charlotte Christian - College Support - Outcomes.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Redesign Research 2026",
+      "source_file": "source-material/college-support/charlotte-christian/Charlotte Christian - College Support - Redesign Research 2026.md",
+      "note_file": ".claude/docs/college-support/charlotte-christian.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Standing Out",
+      "source_file": "source-material/college-support/charlotte-christian/Charlotte Christian - College Support - Standing Out.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Deep Research",
+      "source_file": "source-material/college-support/charlotte-christian/Charlotte Christian School - College Counseling, Preparation, and Placement Outcomes — A Parent-Facing Report - Deep Research.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-christian.md",
       "type": "pdf"
     },
     {
       "school_slug": "charlotte-country-day",
       "school": "Charlotte Country Day School",
-      "topic_slug": "financial-aid-tuition",
-      "topic": "Financial Aid & Tuition",
-      "subtopic": "Tuition History",
-      "source_file": "source-material/financial-aid-tuition/charlotte-country-day/Charlotte Country Day - Financial Aid and Tuition - Tuition History.md",
-      "note_file": ".claude/docs/financial-aid-tuition/charlotte-country-day.md",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Academic Case",
+      "source_file": "source-material/college-support/charlotte-country-day/CCD - College Support - Academic Case.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Application Support",
+      "source_file": "source-material/college-support/charlotte-country-day/CCD - College Support - Application Support.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Counseling Engine",
+      "source_file": "source-material/college-support/charlotte-country-day/CCD - College Support - Counseling Engine.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Fit and Rank",
+      "source_file": "source-material/college-support/charlotte-country-day/CCD - College Support - Fit and Rank.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Institutional Leverage",
+      "source_file": "source-material/college-support/charlotte-country-day/CCD - College Support - Institutional Leverage.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "NotebookLM Prompt",
+      "source_file": "source-material/college-support/charlotte-country-day/CCD - College Support - NotebookLM Prompt.txt",
+      "note_file": ".claude/docs/college-support/charlotte-country-day.md",
+      "type": "txt"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Outcomes",
+      "source_file": "source-material/college-support/charlotte-country-day/CCD - College Support - Outcomes.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Redesign Research 2026",
+      "source_file": "source-material/college-support/charlotte-country-day/CCD - College Support - Redesign Research 2026.md",
+      "note_file": ".claude/docs/college-support/charlotte-country-day.md",
       "type": "md"
     },
     {
       "school_slug": "charlotte-country-day",
       "school": "Charlotte Country Day School",
-      "topic_slug": "financial-aid-tuition",
-      "topic": "Financial Aid & Tuition",
-      "subtopic": "Financial Aid and Tuition- Deep Dive Report",
-      "source_file": "source-material/financial-aid-tuition/charlotte-country-day/Charlotte Country Day - Financial Aid and Tuition- Deep Dive Report.pdf",
-      "note_file": ".claude/docs/financial-aid-tuition/charlotte-country-day.md",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Standing Out",
+      "source_file": "source-material/college-support/charlotte-country-day/CCD - College Support - Standing Out.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-country-day.md",
       "type": "pdf"
     },
     {
       "school_slug": "charlotte-latin",
       "school": "Charlotte Latin School",
-      "topic_slug": "financial-aid-tuition",
-      "topic": "Financial Aid & Tuition",
-      "subtopic": "Deep Dive Report",
-      "source_file": "source-material/financial-aid-tuition/charlotte-latin/Charlotte Latin - Financial Aid and Tuition - Deep Dive Report.pdf",
-      "note_file": ".claude/docs/financial-aid-tuition/charlotte-latin.md",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Academic Case",
+      "source_file": "source-material/college-support/charlotte-latin/Charlotte Latin - College Support - Academic Case.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Acceptances Window 2023-2026",
+      "source_file": "source-material/college-support/charlotte-latin/Charlotte Latin - College Support - Acceptances Window 2023-2026.md",
+      "note_file": ".claude/docs/college-support/charlotte-latin.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Application Support",
+      "source_file": "source-material/college-support/charlotte-latin/Charlotte Latin - College Support - Application Support.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Counseling Engine",
+      "source_file": "source-material/college-support/charlotte-latin/Charlotte Latin - College Support - Counseling Engine.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Fit and Rank",
+      "source_file": "source-material/college-support/charlotte-latin/Charlotte Latin - College Support - Fit and Rank.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Institutional Leverage",
+      "source_file": "source-material/college-support/charlotte-latin/Charlotte Latin - College Support - Institutional Leverage.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "NotebookLM Prompt v2",
+      "source_file": "source-material/college-support/charlotte-latin/Charlotte Latin - College Support - NotebookLM Prompt v2.md",
+      "note_file": ".claude/docs/college-support/charlotte-latin.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Outcomes",
+      "source_file": "source-material/college-support/charlotte-latin/Charlotte Latin - College Support - Outcomes.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Redesign Research 2026",
+      "source_file": "source-material/college-support/charlotte-latin/Charlotte Latin - College Support - Redesign Research 2026.md",
+      "note_file": ".claude/docs/college-support/charlotte-latin.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Standing Out",
+      "source_file": "source-material/college-support/charlotte-latin/Charlotte Latin - College Support - Standing Out.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Deep Research",
+      "source_file": "source-material/college-support/charlotte-latin/Charlotte Latin School College Counseling - 2025-26 Program Review - Deep Research.pdf",
+      "note_file": ".claude/docs/college-support/charlotte-latin.md",
       "type": "pdf"
     },
     {
       "school_slug": "covenant-day",
       "school": "Covenant Day School",
-      "topic_slug": "financial-aid-tuition",
-      "topic": "Financial Aid & Tuition",
-      "subtopic": "Deep Dive Report",
-      "source_file": "source-material/financial-aid-tuition/covenant-day/Covenant Day School - Financial Aid and Tuition - Deep Dive Report.md",
-      "note_file": ".claude/docs/financial-aid-tuition/covenant-day.md",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Academic Case",
+      "source_file": "source-material/college-support/covenant-day/Covenant Day School - College Support - Academic Case.md",
+      "note_file": ".claude/docs/college-support/covenant-day.md",
       "type": "md"
     },
     {
       "school_slug": "covenant-day",
       "school": "Covenant Day School",
-      "topic_slug": "financial-aid-tuition",
-      "topic": "Financial Aid & Tuition",
-      "subtopic": "Tuition History",
-      "source_file": "source-material/financial-aid-tuition/covenant-day/Covenant Day School - Financial Aid and Tuition - Tuition History.md",
-      "note_file": ".claude/docs/financial-aid-tuition/covenant-day.md",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Application Support",
+      "source_file": "source-material/college-support/covenant-day/Covenant Day School - College Support - Application Support.md",
+      "note_file": ".claude/docs/college-support/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Counseling Engine",
+      "source_file": "source-material/college-support/covenant-day/Covenant Day School - College Support - Counseling Engine.md",
+      "note_file": ".claude/docs/college-support/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Fit and the Whole Class",
+      "source_file": "source-material/college-support/covenant-day/Covenant Day School - College Support - Fit and the Whole Class.md",
+      "note_file": ".claude/docs/college-support/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Institutional Leverage",
+      "source_file": "source-material/college-support/covenant-day/Covenant Day School - College Support - Institutional Leverage.md",
+      "note_file": ".claude/docs/college-support/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Outcomes",
+      "source_file": "source-material/college-support/covenant-day/Covenant Day School - College Support - Outcomes.md",
+      "note_file": ".claude/docs/college-support/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Redesign Research 2026",
+      "source_file": "source-material/college-support/covenant-day/Covenant Day School - College Support - Redesign Research 2026.md",
+      "note_file": ".claude/docs/college-support/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Standing Out",
+      "source_file": "source-material/college-support/covenant-day/Covenant Day School - College Support - Standing Out.md",
+      "note_file": ".claude/docs/college-support/covenant-day.md",
       "type": "md"
     },
     {
       "school_slug": "davidson-day",
       "school": "Davidson Day School",
-      "topic_slug": "financial-aid-tuition",
-      "topic": "Financial Aid & Tuition",
-      "subtopic": "Deep Dive Report",
-      "source_file": "source-material/financial-aid-tuition/davidson-day/Davidson Day - Financial Aid and Tuition - Deep Dive Report.pdf",
-      "note_file": ".claude/docs/financial-aid-tuition/davidson-day.md",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Academic Case",
+      "source_file": "source-material/college-support/davidson-day/Davidson Day - College Support - Academic Case.pdf",
+      "note_file": ".claude/docs/college-support/davidson-day.md",
       "type": "pdf"
     },
     {
       "school_slug": "davidson-day",
       "school": "Davidson Day School",
-      "topic_slug": "financial-aid-tuition",
-      "topic": "Financial Aid & Tuition",
-      "subtopic": "Tuition History",
-      "source_file": "source-material/financial-aid-tuition/davidson-day/Davidson Day - Financial Aid and Tuition - Tuition History.md",
-      "note_file": ".claude/docs/financial-aid-tuition/davidson-day.md",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Acceptances Window 2023-2026",
+      "source_file": "source-material/college-support/davidson-day/Davidson Day - College Support - Acceptances Window 2023-2026.md",
+      "note_file": ".claude/docs/college-support/davidson-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Application Support",
+      "source_file": "source-material/college-support/davidson-day/Davidson Day - College Support - Application Support.pdf",
+      "note_file": ".claude/docs/college-support/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Counseling Engine",
+      "source_file": "source-material/college-support/davidson-day/Davidson Day - College Support - Counseling Engine.pdf",
+      "note_file": ".claude/docs/college-support/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Fit and the Whole Class",
+      "source_file": "source-material/college-support/davidson-day/Davidson Day - College Support - Fit and the Whole Class.pdf",
+      "note_file": ".claude/docs/college-support/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Institutional Leverage",
+      "source_file": "source-material/college-support/davidson-day/Davidson Day - College Support - Institutional Leverage.pdf",
+      "note_file": ".claude/docs/college-support/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "NotebookLM Prompt",
+      "source_file": "source-material/college-support/davidson-day/Davidson Day - College Support - NotebookLM Prompt.md",
+      "note_file": ".claude/docs/college-support/davidson-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Outcomes",
+      "source_file": "source-material/college-support/davidson-day/Davidson Day - College Support - Outcomes.pdf",
+      "note_file": ".claude/docs/college-support/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Redesign Research 2026",
+      "source_file": "source-material/college-support/davidson-day/Davidson Day - College Support - Redesign Research 2026.md",
+      "note_file": ".claude/docs/college-support/davidson-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Standing Out",
+      "source_file": "source-material/college-support/davidson-day/Davidson Day - College Support - Standing Out.pdf",
+      "note_file": ".claude/docs/college-support/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Academic Case",
+      "source_file": "source-material/college-support/providence-day/Providence Day - College Support - Academic Case.pdf",
+      "note_file": ".claude/docs/college-support/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Application Support",
+      "source_file": "source-material/college-support/providence-day/Providence Day - College Support - Application Support.pdf",
+      "note_file": ".claude/docs/college-support/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Counseling Engine",
+      "source_file": "source-material/college-support/providence-day/Providence Day - College Support - Counseling Engine.pdf",
+      "note_file": ".claude/docs/college-support/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Fit and Rank",
+      "source_file": "source-material/college-support/providence-day/Providence Day - College Support - Fit and Rank.pdf",
+      "note_file": ".claude/docs/college-support/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Institutional Leverage",
+      "source_file": "source-material/college-support/providence-day/Providence Day - College Support - Institutional Leverage.pdf",
+      "note_file": ".claude/docs/college-support/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "NotebookLM Prompt",
+      "source_file": "source-material/college-support/providence-day/Providence Day - College Support - NotebookLM Prompt.txt",
+      "note_file": ".claude/docs/college-support/providence-day.md",
+      "type": "txt"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Outcomes",
+      "source_file": "source-material/college-support/providence-day/Providence Day - College Support - Outcomes.pdf",
+      "note_file": ".claude/docs/college-support/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Redesign Research 2026",
+      "source_file": "source-material/college-support/providence-day/Providence Day - College Support - Redesign Research 2026.md",
+      "note_file": ".claude/docs/college-support/providence-day.md",
       "type": "md"
     },
     {
       "school_slug": "providence-day",
       "school": "Providence Day School",
-      "topic_slug": "financial-aid-tuition",
-      "topic": "Financial Aid & Tuition",
-      "subtopic": "Deep Dive Report",
-      "source_file": "source-material/financial-aid-tuition/providence-day/Providence Day - Financial Aid - Deep Dive Report.pdf",
-      "note_file": ".claude/docs/financial-aid-tuition/providence-day.md",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Standing Out",
+      "source_file": "source-material/college-support/providence-day/Providence Day - College Support - Standing Out.pdf",
+      "note_file": ".claude/docs/college-support/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "college-support",
+      "topic": "College Support",
+      "subtopic": "Deep Research",
+      "source_file": "source-material/college-support/providence-day/Providence Day School College Counseling and Placement Program - Program Review and Outcomes Analysis - Deep Research.pdf",
+      "note_file": ".claude/docs/college-support/providence-day.md",
       "type": "pdf"
     },
     {
@@ -1052,6 +1720,16 @@
       "source_file": "source-material/sports/cannon/Cannon - Sports - Win-Loss Records.pdf",
       "note_file": ".claude/docs/sports/cannon.md",
       "type": "pdf"
+    },
+    {
+      "school_slug": "carmel-christian",
+      "school": "Carmel Christian School",
+      "topic_slug": "sports",
+      "topic": "Sports",
+      "subtopic": "Redesign Research 2026",
+      "source_file": "source-material/sports/carmel-christian/Carmel Christian - Sports - Redesign Research 2026.md",
+      "note_file": ".claude/docs/sports/carmel-christian.md",
+      "type": "md"
     },
     {
       "school_slug": "charlotte-christian",
@@ -1946,6 +2624,586 @@
     {
       "school_slug": "cannon",
       "school": "Cannon School",
+      "topic_slug": "summer-programs",
+      "topic": "Summer Programs",
+      "subtopic": "Camp Catalog",
+      "source_file": "source-material/summer-programs/cannon/Cannon - Summer Programs - Camp Catalog.md",
+      "note_file": ".claude/docs/summer-programs/cannon.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "carmel-christian",
+      "school": "Carmel Christian School",
+      "topic_slug": "summer-programs",
+      "topic": "Summer Programs",
+      "subtopic": "Camp Catalog",
+      "source_file": "source-material/summer-programs/carmel-christian/Carmel Christian - Summer Programs - Camp Catalog.md",
+      "note_file": ".claude/docs/summer-programs/carmel-christian.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "summer-programs",
+      "topic": "Summer Programs",
+      "subtopic": "Camp Catalog",
+      "source_file": "source-material/summer-programs/charlotte-christian/Charlotte Christian - Summer Programs - Camp Catalog.md",
+      "note_file": ".claude/docs/summer-programs/charlotte-christian.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "summer-programs",
+      "topic": "Summer Programs",
+      "subtopic": "Camp Catalog",
+      "source_file": "source-material/summer-programs/charlotte-country-day/CCD - Summer Programs - Camp Catalog.md",
+      "note_file": ".claude/docs/summer-programs/charlotte-country-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "summer-programs",
+      "topic": "Summer Programs",
+      "subtopic": "Camp Catalog",
+      "source_file": "source-material/summer-programs/charlotte-latin/Charlotte Latin - Summer Programs - Camp Catalog.md",
+      "note_file": ".claude/docs/summer-programs/charlotte-latin.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "summer-programs",
+      "topic": "Summer Programs",
+      "subtopic": "Redesign Research 2026",
+      "source_file": "source-material/summer-programs/covenant-day/Covenant Day School - Summer Programs - Redesign Research 2026.md",
+      "note_file": ".claude/docs/summer-programs/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "summer-programs",
+      "topic": "Summer Programs",
+      "subtopic": "Camp Catalog",
+      "source_file": "source-material/summer-programs/providence-day/Providence Day - Summer Programs - Camp Catalog.md",
+      "note_file": ".claude/docs/summer-programs/providence-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Arts Redesign Deep Research",
+      "source_file": "source-material/the-arts/cannon/Cannon - The Arts - Arts Redesign Deep Research.md",
+      "note_file": ".claude/docs/the-arts/cannon.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Course Offerings",
+      "source_file": "source-material/the-arts/cannon/Cannon - The Arts - Course Offerings.pdf",
+      "note_file": ".claude/docs/the-arts/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Deep Research",
+      "source_file": "source-material/the-arts/cannon/Cannon - The Arts - Deep Research.pdf",
+      "note_file": ".claude/docs/the-arts/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Facilities",
+      "source_file": "source-material/the-arts/cannon/Cannon - The Arts - Facilities.pdf",
+      "note_file": ".claude/docs/the-arts/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Music",
+      "source_file": "source-material/the-arts/cannon/Cannon - The Arts - Music.pdf",
+      "note_file": ".claude/docs/the-arts/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Program Overview",
+      "source_file": "source-material/the-arts/cannon/Cannon - The Arts - Program Overview.pdf",
+      "note_file": ".claude/docs/the-arts/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Theater",
+      "source_file": "source-material/the-arts/cannon/Cannon - The Arts - Theater.pdf",
+      "note_file": ".claude/docs/the-arts/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Visual Arts",
+      "source_file": "source-material/the-arts/cannon/Cannon - The Arts - Visual Arts.pdf",
+      "note_file": ".claude/docs/the-arts/cannon.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "carmel-christian",
+      "school": "Carmel Christian School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Deep Research",
+      "source_file": "source-material/the-arts/carmel-christian/Carmel Christian - The Arts - Deep Research.md",
+      "note_file": ".claude/docs/the-arts/carmel-christian.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Arts Redesign Deep Research",
+      "source_file": "source-material/the-arts/charlotte-christian/Charlotte Christian - The Arts - Arts Redesign Deep Research.md",
+      "note_file": ".claude/docs/the-arts/charlotte-christian.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Awards and Recognition",
+      "source_file": "source-material/the-arts/charlotte-christian/Charlotte Christian - The Arts - Awards and Recognition.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Deep Research",
+      "source_file": "source-material/the-arts/charlotte-christian/Charlotte Christian - The Arts - Deep Research.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Digital Arts",
+      "source_file": "source-material/the-arts/charlotte-christian/Charlotte Christian - The Arts - Digital Arts.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Music",
+      "source_file": "source-material/the-arts/charlotte-christian/Charlotte Christian - The Arts - Music.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Program Overview",
+      "source_file": "source-material/the-arts/charlotte-christian/Charlotte Christian - The Arts - Program Overview.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Theatre",
+      "source_file": "source-material/the-arts/charlotte-christian/Charlotte Christian - The Arts - Theatre.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-christian",
+      "school": "Charlotte Christian School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Visual Arts",
+      "source_file": "source-material/the-arts/charlotte-christian/Charlotte Christian - The Arts - Visual Arts.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-christian.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Arts Redesign Deep Research",
+      "source_file": "source-material/the-arts/charlotte-country-day/CCD - The Arts - Arts Redesign Deep Research.md",
+      "note_file": ".claude/docs/the-arts/charlotte-country-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Awards and Recognition",
+      "source_file": "source-material/the-arts/charlotte-country-day/CCD - The Arts - Awards and Recognition.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Deep Research",
+      "source_file": "source-material/the-arts/charlotte-country-day/CCD - The Arts - Deep Research.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Drama",
+      "source_file": "source-material/the-arts/charlotte-country-day/CCD - The Arts - Drama.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Facilities",
+      "source_file": "source-material/the-arts/charlotte-country-day/CCD - The Arts - Facilities.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Music",
+      "source_file": "source-material/the-arts/charlotte-country-day/CCD - The Arts - Music.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Program Overview",
+      "source_file": "source-material/the-arts/charlotte-country-day/CCD - The Arts - Program Overview.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-country-day",
+      "school": "Charlotte Country Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Visual Arts",
+      "source_file": "source-material/the-arts/charlotte-country-day/CCD - The Arts - Visual Arts.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-country-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Arts Redesign Deep Research",
+      "source_file": "source-material/the-arts/charlotte-latin/Charlotte Latin - The Arts - Arts Redesign Deep Research.md",
+      "note_file": ".claude/docs/the-arts/charlotte-latin.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Awards and Recognition",
+      "source_file": "source-material/the-arts/charlotte-latin/Charlotte Latin - The Arts - Awards and Recognition.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Deep Research",
+      "source_file": "source-material/the-arts/charlotte-latin/Charlotte Latin - The Arts - Deep Research.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Facilities",
+      "source_file": "source-material/the-arts/charlotte-latin/Charlotte Latin - The Arts - Facilities.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Performing Arts",
+      "source_file": "source-material/the-arts/charlotte-latin/Charlotte Latin - The Arts - Performing Arts.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Program Overview",
+      "source_file": "source-material/the-arts/charlotte-latin/Charlotte Latin - The Arts - Program Overview.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "charlotte-latin",
+      "school": "Charlotte Latin School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Visual Arts",
+      "source_file": "source-material/the-arts/charlotte-latin/Charlotte Latin - The Arts - Visual Arts.pdf",
+      "note_file": ".claude/docs/the-arts/charlotte-latin.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Awards and Recognition",
+      "source_file": "source-material/the-arts/covenant-day/Covenant Day School - The Arts - Awards and Recognition.md",
+      "note_file": ".claude/docs/the-arts/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Deep Research",
+      "source_file": "source-material/the-arts/covenant-day/Covenant Day School - The Arts - Deep Research.md",
+      "note_file": ".claude/docs/the-arts/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Facilities",
+      "source_file": "source-material/the-arts/covenant-day/Covenant Day School - The Arts - Facilities.md",
+      "note_file": ".claude/docs/the-arts/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Music",
+      "source_file": "source-material/the-arts/covenant-day/Covenant Day School - The Arts - Music.md",
+      "note_file": ".claude/docs/the-arts/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Program Overview",
+      "source_file": "source-material/the-arts/covenant-day/Covenant Day School - The Arts - Program Overview.md",
+      "note_file": ".claude/docs/the-arts/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Theater and Drama",
+      "source_file": "source-material/the-arts/covenant-day/Covenant Day School - The Arts - Theater and Drama.md",
+      "note_file": ".claude/docs/the-arts/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Visual Arts",
+      "source_file": "source-material/the-arts/covenant-day/Covenant Day School - The Arts - Visual Arts.md",
+      "note_file": ".claude/docs/the-arts/covenant-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Arts Redesign Deep Research",
+      "source_file": "source-material/the-arts/davidson-day/Davidson Day - The Arts - Arts Redesign Deep Research.md",
+      "note_file": ".claude/docs/the-arts/davidson-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Deep Research",
+      "source_file": "source-material/the-arts/davidson-day/Davidson Day - The Arts - Deep Research.pdf",
+      "note_file": ".claude/docs/the-arts/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Performing Arts",
+      "source_file": "source-material/the-arts/davidson-day/Davidson Day - The Arts - Performing Arts.pdf",
+      "note_file": ".claude/docs/the-arts/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Program Overview",
+      "source_file": "source-material/the-arts/davidson-day/Davidson Day - The Arts - Program Overview.pdf",
+      "note_file": ".claude/docs/the-arts/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "davidson-day",
+      "school": "Davidson Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Visual Arts",
+      "source_file": "source-material/the-arts/davidson-day/Davidson Day - The Arts - Visual Arts.pdf",
+      "note_file": ".claude/docs/the-arts/davidson-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Arts Redesign Deep Research",
+      "source_file": "source-material/the-arts/providence-day/Providence Day - The Arts - Arts Redesign Deep Research.md",
+      "note_file": ".claude/docs/the-arts/providence-day.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Awards and Recognition",
+      "source_file": "source-material/the-arts/providence-day/Providence Day - The Arts - Awards and Recognition.pdf",
+      "note_file": ".claude/docs/the-arts/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Deep Research",
+      "source_file": "source-material/the-arts/providence-day/Providence Day - The Arts - Deep Research.pdf",
+      "note_file": ".claude/docs/the-arts/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Music",
+      "source_file": "source-material/the-arts/providence-day/Providence Day - The Arts - Music.pdf",
+      "note_file": ".claude/docs/the-arts/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Program Overview",
+      "source_file": "source-material/the-arts/providence-day/Providence Day - The Arts - Program Overview.pdf",
+      "note_file": ".claude/docs/the-arts/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Theater",
+      "source_file": "source-material/the-arts/providence-day/Providence Day - The Arts - Theater.pdf",
+      "note_file": ".claude/docs/the-arts/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "the-arts",
+      "topic": "The Arts",
+      "subtopic": "Visual Arts",
+      "source_file": "source-material/the-arts/providence-day/Providence Day - The Arts - Visual Arts.pdf",
+      "note_file": ".claude/docs/the-arts/providence-day.md",
+      "type": "pdf"
+    },
+    {
+      "school_slug": "cannon",
+      "school": "Cannon School",
       "topic_slug": "student-clubs",
       "topic": "Student Clubs",
       "subtopic": "Affinity and Identity Groups",
@@ -2041,6 +3299,16 @@
       "subtopic": "Clubs Redesign Deep Research",
       "source_file": "source-material/student-clubs/cannon/Cannon - Student Clubs - Clubs Redesign Deep Research.md",
       "note_file": ".claude/docs/student-clubs/cannon.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "carmel-christian",
+      "school": "Carmel Christian School",
+      "topic_slug": "student-clubs",
+      "topic": "Student Clubs",
+      "subtopic": "Clubs Redesign Deep Research",
+      "source_file": "source-material/student-clubs/carmel-christian/Carmel Christian - Student Clubs - Clubs Redesign Deep Research.md",
+      "note_file": ".claude/docs/student-clubs/carmel-christian.md",
       "type": "md"
     },
     {
@@ -2556,1252 +3824,212 @@
     {
       "school_slug": "cannon",
       "school": "Cannon School",
-      "topic_slug": "summer-programs",
-      "topic": "Summer Programs",
-      "subtopic": "Camp Catalog",
-      "source_file": "source-material/summer-programs/cannon/Cannon - Summer Programs - Camp Catalog.md",
-      "note_file": ".claude/docs/summer-programs/cannon.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "charlotte-christian",
-      "school": "Charlotte Christian School",
-      "topic_slug": "summer-programs",
-      "topic": "Summer Programs",
-      "subtopic": "Camp Catalog",
-      "source_file": "source-material/summer-programs/charlotte-christian/Charlotte Christian - Summer Programs - Camp Catalog.md",
-      "note_file": ".claude/docs/summer-programs/charlotte-christian.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "charlotte-country-day",
-      "school": "Charlotte Country Day School",
-      "topic_slug": "summer-programs",
-      "topic": "Summer Programs",
-      "subtopic": "Camp Catalog",
-      "source_file": "source-material/summer-programs/charlotte-country-day/CCD - Summer Programs - Camp Catalog.md",
-      "note_file": ".claude/docs/summer-programs/charlotte-country-day.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "charlotte-latin",
-      "school": "Charlotte Latin School",
-      "topic_slug": "summer-programs",
-      "topic": "Summer Programs",
-      "subtopic": "Camp Catalog",
-      "source_file": "source-material/summer-programs/charlotte-latin/Charlotte Latin - Summer Programs - Camp Catalog.md",
-      "note_file": ".claude/docs/summer-programs/charlotte-latin.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "covenant-day",
-      "school": "Covenant Day School",
-      "topic_slug": "summer-programs",
-      "topic": "Summer Programs",
-      "subtopic": "Redesign Research 2026",
-      "source_file": "source-material/summer-programs/covenant-day/Covenant Day School - Summer Programs - Redesign Research 2026.md",
-      "note_file": ".claude/docs/summer-programs/covenant-day.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "providence-day",
-      "school": "Providence Day School",
-      "topic_slug": "summer-programs",
-      "topic": "Summer Programs",
-      "subtopic": "Camp Catalog",
-      "source_file": "source-material/summer-programs/providence-day/Providence Day - Summer Programs - Camp Catalog.md",
-      "note_file": ".claude/docs/summer-programs/providence-day.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "cannon",
-      "school": "Cannon School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Arts Redesign Deep Research",
-      "source_file": "source-material/the-arts/cannon/Cannon - The Arts - Arts Redesign Deep Research.md",
-      "note_file": ".claude/docs/the-arts/cannon.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "cannon",
-      "school": "Cannon School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Course Offerings",
-      "source_file": "source-material/the-arts/cannon/Cannon - The Arts - Course Offerings.pdf",
-      "note_file": ".claude/docs/the-arts/cannon.md",
+      "topic_slug": "financial-aid-tuition",
+      "topic": "Financial Aid & Tuition",
+      "subtopic": "Deep Dive Report",
+      "source_file": "source-material/financial-aid-tuition/cannon/Cannon - Financial Aid - Deep Dive Report.pdf",
+      "note_file": ".claude/docs/financial-aid-tuition/cannon.md",
       "type": "pdf"
     },
     {
       "school_slug": "cannon",
       "school": "Cannon School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Deep Research",
-      "source_file": "source-material/the-arts/cannon/Cannon - The Arts - Deep Research.pdf",
-      "note_file": ".claude/docs/the-arts/cannon.md",
-      "type": "pdf"
+      "topic_slug": "financial-aid-tuition",
+      "topic": "Financial Aid & Tuition",
+      "subtopic": "Tuition History",
+      "source_file": "source-material/financial-aid-tuition/cannon/Cannon - Financial Aid and Tuition - Tuition History.md",
+      "note_file": ".claude/docs/financial-aid-tuition/cannon.md",
+      "type": "md"
     },
     {
-      "school_slug": "cannon",
-      "school": "Cannon School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Facilities",
-      "source_file": "source-material/the-arts/cannon/Cannon - The Arts - Facilities.pdf",
-      "note_file": ".claude/docs/the-arts/cannon.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "cannon",
-      "school": "Cannon School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Music",
-      "source_file": "source-material/the-arts/cannon/Cannon - The Arts - Music.pdf",
-      "note_file": ".claude/docs/the-arts/cannon.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "cannon",
-      "school": "Cannon School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Program Overview",
-      "source_file": "source-material/the-arts/cannon/Cannon - The Arts - Program Overview.pdf",
-      "note_file": ".claude/docs/the-arts/cannon.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "cannon",
-      "school": "Cannon School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Theater",
-      "source_file": "source-material/the-arts/cannon/Cannon - The Arts - Theater.pdf",
-      "note_file": ".claude/docs/the-arts/cannon.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "cannon",
-      "school": "Cannon School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Visual Arts",
-      "source_file": "source-material/the-arts/cannon/Cannon - The Arts - Visual Arts.pdf",
-      "note_file": ".claude/docs/the-arts/cannon.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-christian",
-      "school": "Charlotte Christian School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Arts Redesign Deep Research",
-      "source_file": "source-material/the-arts/charlotte-christian/Charlotte Christian - The Arts - Arts Redesign Deep Research.md",
-      "note_file": ".claude/docs/the-arts/charlotte-christian.md",
+      "school_slug": "carmel-christian",
+      "school": "Carmel Christian School",
+      "topic_slug": "financial-aid-tuition",
+      "topic": "Financial Aid & Tuition",
+      "subtopic": "Deep Dive Report",
+      "source_file": "source-material/financial-aid-tuition/carmel-christian/Carmel Christian - Financial Aid - Deep Dive Report.md",
+      "note_file": ".claude/docs/financial-aid-tuition/carmel-christian.md",
       "type": "md"
     },
     {
       "school_slug": "charlotte-christian",
       "school": "Charlotte Christian School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Awards and Recognition",
-      "source_file": "source-material/the-arts/charlotte-christian/Charlotte Christian - The Arts - Awards and Recognition.pdf",
-      "note_file": ".claude/docs/the-arts/charlotte-christian.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-christian",
-      "school": "Charlotte Christian School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Deep Research",
-      "source_file": "source-material/the-arts/charlotte-christian/Charlotte Christian - The Arts - Deep Research.pdf",
-      "note_file": ".claude/docs/the-arts/charlotte-christian.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-christian",
-      "school": "Charlotte Christian School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Digital Arts",
-      "source_file": "source-material/the-arts/charlotte-christian/Charlotte Christian - The Arts - Digital Arts.pdf",
-      "note_file": ".claude/docs/the-arts/charlotte-christian.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-christian",
-      "school": "Charlotte Christian School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Music",
-      "source_file": "source-material/the-arts/charlotte-christian/Charlotte Christian - The Arts - Music.pdf",
-      "note_file": ".claude/docs/the-arts/charlotte-christian.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-christian",
-      "school": "Charlotte Christian School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Program Overview",
-      "source_file": "source-material/the-arts/charlotte-christian/Charlotte Christian - The Arts - Program Overview.pdf",
-      "note_file": ".claude/docs/the-arts/charlotte-christian.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-christian",
-      "school": "Charlotte Christian School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Theatre",
-      "source_file": "source-material/the-arts/charlotte-christian/Charlotte Christian - The Arts - Theatre.pdf",
-      "note_file": ".claude/docs/the-arts/charlotte-christian.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-christian",
-      "school": "Charlotte Christian School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Visual Arts",
-      "source_file": "source-material/the-arts/charlotte-christian/Charlotte Christian - The Arts - Visual Arts.pdf",
-      "note_file": ".claude/docs/the-arts/charlotte-christian.md",
+      "topic_slug": "financial-aid-tuition",
+      "topic": "Financial Aid & Tuition",
+      "subtopic": "Deep Dive Report",
+      "source_file": "source-material/financial-aid-tuition/charlotte-christian/Charlotte Christian - Financial Aid - Deep Dive Report.pdf",
+      "note_file": ".claude/docs/financial-aid-tuition/charlotte-christian.md",
       "type": "pdf"
     },
     {
       "school_slug": "charlotte-country-day",
       "school": "Charlotte Country Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Arts Redesign Deep Research",
-      "source_file": "source-material/the-arts/charlotte-country-day/CCD - The Arts - Arts Redesign Deep Research.md",
-      "note_file": ".claude/docs/the-arts/charlotte-country-day.md",
+      "topic_slug": "financial-aid-tuition",
+      "topic": "Financial Aid & Tuition",
+      "subtopic": "Tuition History",
+      "source_file": "source-material/financial-aid-tuition/charlotte-country-day/Charlotte Country Day - Financial Aid and Tuition - Tuition History.md",
+      "note_file": ".claude/docs/financial-aid-tuition/charlotte-country-day.md",
       "type": "md"
     },
     {
       "school_slug": "charlotte-country-day",
       "school": "Charlotte Country Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Awards and Recognition",
-      "source_file": "source-material/the-arts/charlotte-country-day/CCD - The Arts - Awards and Recognition.pdf",
-      "note_file": ".claude/docs/the-arts/charlotte-country-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-country-day",
-      "school": "Charlotte Country Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Deep Research",
-      "source_file": "source-material/the-arts/charlotte-country-day/CCD - The Arts - Deep Research.pdf",
-      "note_file": ".claude/docs/the-arts/charlotte-country-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-country-day",
-      "school": "Charlotte Country Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Drama",
-      "source_file": "source-material/the-arts/charlotte-country-day/CCD - The Arts - Drama.pdf",
-      "note_file": ".claude/docs/the-arts/charlotte-country-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-country-day",
-      "school": "Charlotte Country Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Facilities",
-      "source_file": "source-material/the-arts/charlotte-country-day/CCD - The Arts - Facilities.pdf",
-      "note_file": ".claude/docs/the-arts/charlotte-country-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-country-day",
-      "school": "Charlotte Country Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Music",
-      "source_file": "source-material/the-arts/charlotte-country-day/CCD - The Arts - Music.pdf",
-      "note_file": ".claude/docs/the-arts/charlotte-country-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-country-day",
-      "school": "Charlotte Country Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Program Overview",
-      "source_file": "source-material/the-arts/charlotte-country-day/CCD - The Arts - Program Overview.pdf",
-      "note_file": ".claude/docs/the-arts/charlotte-country-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-country-day",
-      "school": "Charlotte Country Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Visual Arts",
-      "source_file": "source-material/the-arts/charlotte-country-day/CCD - The Arts - Visual Arts.pdf",
-      "note_file": ".claude/docs/the-arts/charlotte-country-day.md",
+      "topic_slug": "financial-aid-tuition",
+      "topic": "Financial Aid & Tuition",
+      "subtopic": "Financial Aid and Tuition- Deep Dive Report",
+      "source_file": "source-material/financial-aid-tuition/charlotte-country-day/Charlotte Country Day - Financial Aid and Tuition- Deep Dive Report.pdf",
+      "note_file": ".claude/docs/financial-aid-tuition/charlotte-country-day.md",
       "type": "pdf"
     },
     {
       "school_slug": "charlotte-latin",
       "school": "Charlotte Latin School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Arts Redesign Deep Research",
-      "source_file": "source-material/the-arts/charlotte-latin/Charlotte Latin - The Arts - Arts Redesign Deep Research.md",
-      "note_file": ".claude/docs/the-arts/charlotte-latin.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "charlotte-latin",
-      "school": "Charlotte Latin School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Awards and Recognition",
-      "source_file": "source-material/the-arts/charlotte-latin/Charlotte Latin - The Arts - Awards and Recognition.pdf",
-      "note_file": ".claude/docs/the-arts/charlotte-latin.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-latin",
-      "school": "Charlotte Latin School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Deep Research",
-      "source_file": "source-material/the-arts/charlotte-latin/Charlotte Latin - The Arts - Deep Research.pdf",
-      "note_file": ".claude/docs/the-arts/charlotte-latin.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-latin",
-      "school": "Charlotte Latin School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Facilities",
-      "source_file": "source-material/the-arts/charlotte-latin/Charlotte Latin - The Arts - Facilities.pdf",
-      "note_file": ".claude/docs/the-arts/charlotte-latin.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-latin",
-      "school": "Charlotte Latin School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Performing Arts",
-      "source_file": "source-material/the-arts/charlotte-latin/Charlotte Latin - The Arts - Performing Arts.pdf",
-      "note_file": ".claude/docs/the-arts/charlotte-latin.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-latin",
-      "school": "Charlotte Latin School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Program Overview",
-      "source_file": "source-material/the-arts/charlotte-latin/Charlotte Latin - The Arts - Program Overview.pdf",
-      "note_file": ".claude/docs/the-arts/charlotte-latin.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-latin",
-      "school": "Charlotte Latin School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Visual Arts",
-      "source_file": "source-material/the-arts/charlotte-latin/Charlotte Latin - The Arts - Visual Arts.pdf",
-      "note_file": ".claude/docs/the-arts/charlotte-latin.md",
+      "topic_slug": "financial-aid-tuition",
+      "topic": "Financial Aid & Tuition",
+      "subtopic": "Deep Dive Report",
+      "source_file": "source-material/financial-aid-tuition/charlotte-latin/Charlotte Latin - Financial Aid and Tuition - Deep Dive Report.pdf",
+      "note_file": ".claude/docs/financial-aid-tuition/charlotte-latin.md",
       "type": "pdf"
     },
     {
       "school_slug": "covenant-day",
       "school": "Covenant Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Awards and Recognition",
-      "source_file": "source-material/the-arts/covenant-day/Covenant Day School - The Arts - Awards and Recognition.md",
-      "note_file": ".claude/docs/the-arts/covenant-day.md",
+      "topic_slug": "financial-aid-tuition",
+      "topic": "Financial Aid & Tuition",
+      "subtopic": "Deep Dive Report",
+      "source_file": "source-material/financial-aid-tuition/covenant-day/Covenant Day School - Financial Aid and Tuition - Deep Dive Report.md",
+      "note_file": ".claude/docs/financial-aid-tuition/covenant-day.md",
       "type": "md"
     },
     {
       "school_slug": "covenant-day",
       "school": "Covenant Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Deep Research",
-      "source_file": "source-material/the-arts/covenant-day/Covenant Day School - The Arts - Deep Research.md",
-      "note_file": ".claude/docs/the-arts/covenant-day.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "covenant-day",
-      "school": "Covenant Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Facilities",
-      "source_file": "source-material/the-arts/covenant-day/Covenant Day School - The Arts - Facilities.md",
-      "note_file": ".claude/docs/the-arts/covenant-day.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "covenant-day",
-      "school": "Covenant Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Music",
-      "source_file": "source-material/the-arts/covenant-day/Covenant Day School - The Arts - Music.md",
-      "note_file": ".claude/docs/the-arts/covenant-day.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "covenant-day",
-      "school": "Covenant Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Program Overview",
-      "source_file": "source-material/the-arts/covenant-day/Covenant Day School - The Arts - Program Overview.md",
-      "note_file": ".claude/docs/the-arts/covenant-day.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "covenant-day",
-      "school": "Covenant Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Theater and Drama",
-      "source_file": "source-material/the-arts/covenant-day/Covenant Day School - The Arts - Theater and Drama.md",
-      "note_file": ".claude/docs/the-arts/covenant-day.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "covenant-day",
-      "school": "Covenant Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Visual Arts",
-      "source_file": "source-material/the-arts/covenant-day/Covenant Day School - The Arts - Visual Arts.md",
-      "note_file": ".claude/docs/the-arts/covenant-day.md",
+      "topic_slug": "financial-aid-tuition",
+      "topic": "Financial Aid & Tuition",
+      "subtopic": "Tuition History",
+      "source_file": "source-material/financial-aid-tuition/covenant-day/Covenant Day School - Financial Aid and Tuition - Tuition History.md",
+      "note_file": ".claude/docs/financial-aid-tuition/covenant-day.md",
       "type": "md"
     },
     {
       "school_slug": "davidson-day",
       "school": "Davidson Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Arts Redesign Deep Research",
-      "source_file": "source-material/the-arts/davidson-day/Davidson Day - The Arts - Arts Redesign Deep Research.md",
-      "note_file": ".claude/docs/the-arts/davidson-day.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "davidson-day",
-      "school": "Davidson Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Deep Research",
-      "source_file": "source-material/the-arts/davidson-day/Davidson Day - The Arts - Deep Research.pdf",
-      "note_file": ".claude/docs/the-arts/davidson-day.md",
+      "topic_slug": "financial-aid-tuition",
+      "topic": "Financial Aid & Tuition",
+      "subtopic": "Deep Dive Report",
+      "source_file": "source-material/financial-aid-tuition/davidson-day/Davidson Day - Financial Aid and Tuition - Deep Dive Report.pdf",
+      "note_file": ".claude/docs/financial-aid-tuition/davidson-day.md",
       "type": "pdf"
     },
     {
       "school_slug": "davidson-day",
       "school": "Davidson Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Performing Arts",
-      "source_file": "source-material/the-arts/davidson-day/Davidson Day - The Arts - Performing Arts.pdf",
-      "note_file": ".claude/docs/the-arts/davidson-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "davidson-day",
-      "school": "Davidson Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Program Overview",
-      "source_file": "source-material/the-arts/davidson-day/Davidson Day - The Arts - Program Overview.pdf",
-      "note_file": ".claude/docs/the-arts/davidson-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "davidson-day",
-      "school": "Davidson Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Visual Arts",
-      "source_file": "source-material/the-arts/davidson-day/Davidson Day - The Arts - Visual Arts.pdf",
-      "note_file": ".claude/docs/the-arts/davidson-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "providence-day",
-      "school": "Providence Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Arts Redesign Deep Research",
-      "source_file": "source-material/the-arts/providence-day/Providence Day - The Arts - Arts Redesign Deep Research.md",
-      "note_file": ".claude/docs/the-arts/providence-day.md",
+      "topic_slug": "financial-aid-tuition",
+      "topic": "Financial Aid & Tuition",
+      "subtopic": "Tuition History",
+      "source_file": "source-material/financial-aid-tuition/davidson-day/Davidson Day - Financial Aid and Tuition - Tuition History.md",
+      "note_file": ".claude/docs/financial-aid-tuition/davidson-day.md",
       "type": "md"
     },
     {
       "school_slug": "providence-day",
       "school": "Providence Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Awards and Recognition",
-      "source_file": "source-material/the-arts/providence-day/Providence Day - The Arts - Awards and Recognition.pdf",
-      "note_file": ".claude/docs/the-arts/providence-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "providence-day",
-      "school": "Providence Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Deep Research",
-      "source_file": "source-material/the-arts/providence-day/Providence Day - The Arts - Deep Research.pdf",
-      "note_file": ".claude/docs/the-arts/providence-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "providence-day",
-      "school": "Providence Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Music",
-      "source_file": "source-material/the-arts/providence-day/Providence Day - The Arts - Music.pdf",
-      "note_file": ".claude/docs/the-arts/providence-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "providence-day",
-      "school": "Providence Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Program Overview",
-      "source_file": "source-material/the-arts/providence-day/Providence Day - The Arts - Program Overview.pdf",
-      "note_file": ".claude/docs/the-arts/providence-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "providence-day",
-      "school": "Providence Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Theater",
-      "source_file": "source-material/the-arts/providence-day/Providence Day - The Arts - Theater.pdf",
-      "note_file": ".claude/docs/the-arts/providence-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "providence-day",
-      "school": "Providence Day School",
-      "topic_slug": "the-arts",
-      "topic": "The Arts",
-      "subtopic": "Visual Arts",
-      "source_file": "source-material/the-arts/providence-day/Providence Day - The Arts - Visual Arts.pdf",
-      "note_file": ".claude/docs/the-arts/providence-day.md",
+      "topic_slug": "financial-aid-tuition",
+      "topic": "Financial Aid & Tuition",
+      "subtopic": "Deep Dive Report",
+      "source_file": "source-material/financial-aid-tuition/providence-day/Providence Day - Financial Aid - Deep Dive Report.pdf",
+      "note_file": ".claude/docs/financial-aid-tuition/providence-day.md",
       "type": "pdf"
     },
     {
       "school_slug": "cannon",
       "school": "Cannon School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Academic Case",
-      "source_file": "source-material/college-support/cannon/Cannon School - College Support - Academic Case.pdf",
-      "note_file": ".claude/docs/college-support/cannon.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "cannon",
-      "school": "Cannon School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Acceptances Window 2023-2026",
-      "source_file": "source-material/college-support/cannon/Cannon School - College Support - Acceptances Window 2023-2026.md",
-      "note_file": ".claude/docs/college-support/cannon.md",
+      "topic_slug": "course-offerings",
+      "topic": "Course Offerings",
+      "subtopic": "Curriculum Guide",
+      "source_file": "source-material/course-offerings/cannon/Cannon - Course Offerings - Curriculum Guide.md",
+      "note_file": ".claude/docs/course-offerings/cannon.md",
       "type": "md"
     },
     {
-      "school_slug": "cannon",
-      "school": "Cannon School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Application Support",
-      "source_file": "source-material/college-support/cannon/Cannon School - College Support - Application Support.pdf",
-      "note_file": ".claude/docs/college-support/cannon.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "cannon",
-      "school": "Cannon School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Counseling Engine",
-      "source_file": "source-material/college-support/cannon/Cannon School - College Support - Counseling Engine.pdf",
-      "note_file": ".claude/docs/college-support/cannon.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "cannon",
-      "school": "Cannon School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Fit and Rank",
-      "source_file": "source-material/college-support/cannon/Cannon School - College Support - Fit and Rank.pdf",
-      "note_file": ".claude/docs/college-support/cannon.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "cannon",
-      "school": "Cannon School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Institutional Leverage",
-      "source_file": "source-material/college-support/cannon/Cannon School - College Support - Institutional Leverage.pdf",
-      "note_file": ".claude/docs/college-support/cannon.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "cannon",
-      "school": "Cannon School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "NotebookLM Prompt",
-      "source_file": "source-material/college-support/cannon/Cannon School - College Support - NotebookLM Prompt.md",
-      "note_file": ".claude/docs/college-support/cannon.md",
+      "school_slug": "carmel-christian",
+      "school": "Carmel Christian School",
+      "topic_slug": "course-offerings",
+      "topic": "Course Offerings",
+      "subtopic": "Curriculum Guide",
+      "source_file": "source-material/course-offerings/carmel-christian/Carmel Christian - Course Offerings - Curriculum Guide.md",
+      "note_file": ".claude/docs/course-offerings/carmel-christian.md",
       "type": "md"
     },
     {
-      "school_slug": "cannon",
-      "school": "Cannon School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Outcomes",
-      "source_file": "source-material/college-support/cannon/Cannon School - College Support - Outcomes.pdf",
-      "note_file": ".claude/docs/college-support/cannon.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "cannon",
-      "school": "Cannon School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Redesign Research 2026",
-      "source_file": "source-material/college-support/cannon/Cannon School - College Support - Redesign Research 2026.md",
-      "note_file": ".claude/docs/college-support/cannon.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "cannon",
-      "school": "Cannon School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Standing Out",
-      "source_file": "source-material/college-support/cannon/Cannon School - College Support - Standing Out.pdf",
-      "note_file": ".claude/docs/college-support/cannon.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-christian",
-      "school": "Charlotte Christian School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Academic Case",
-      "source_file": "source-material/college-support/charlotte-christian/Charlotte Christian - College Support - Academic Case.pdf",
-      "note_file": ".claude/docs/college-support/charlotte-christian.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-christian",
-      "school": "Charlotte Christian School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Acceptances Window 2023-2026",
-      "source_file": "source-material/college-support/charlotte-christian/Charlotte Christian - College Support - Acceptances Window 2023-2026.md",
-      "note_file": ".claude/docs/college-support/charlotte-christian.md",
+      "school_slug": "carmel-christian",
+      "school": "Carmel Christian School",
+      "topic_slug": "course-offerings",
+      "topic": "Course Offerings",
+      "subtopic": "Elementary Curriculum Guide",
+      "source_file": "source-material/course-offerings/carmel-christian/Carmel Christian - Course Offerings - Elementary Curriculum Guide.md",
+      "note_file": ".claude/docs/course-offerings/carmel-christian.md",
       "type": "md"
     },
     {
       "school_slug": "charlotte-christian",
       "school": "Charlotte Christian School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Application Support",
-      "source_file": "source-material/college-support/charlotte-christian/Charlotte Christian - College Support - Application Support.pdf",
-      "note_file": ".claude/docs/college-support/charlotte-christian.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-christian",
-      "school": "Charlotte Christian School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Counseling Engine",
-      "source_file": "source-material/college-support/charlotte-christian/Charlotte Christian - College Support - Counseling Engine.pdf",
-      "note_file": ".claude/docs/college-support/charlotte-christian.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-christian",
-      "school": "Charlotte Christian School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Fit and Rank",
-      "source_file": "source-material/college-support/charlotte-christian/Charlotte Christian - College Support - Fit and Rank.pdf",
-      "note_file": ".claude/docs/college-support/charlotte-christian.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-christian",
-      "school": "Charlotte Christian School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Institutional Leverage",
-      "source_file": "source-material/college-support/charlotte-christian/Charlotte Christian - College Support - Institutional Leverage.pdf",
-      "note_file": ".claude/docs/college-support/charlotte-christian.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-christian",
-      "school": "Charlotte Christian School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "NotebookLM Prompt",
-      "source_file": "source-material/college-support/charlotte-christian/Charlotte Christian - College Support - NotebookLM Prompt.txt",
-      "note_file": ".claude/docs/college-support/charlotte-christian.md",
-      "type": "txt"
-    },
-    {
-      "school_slug": "charlotte-christian",
-      "school": "Charlotte Christian School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Outcomes",
-      "source_file": "source-material/college-support/charlotte-christian/Charlotte Christian - College Support - Outcomes.pdf",
-      "note_file": ".claude/docs/college-support/charlotte-christian.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-christian",
-      "school": "Charlotte Christian School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Redesign Research 2026",
-      "source_file": "source-material/college-support/charlotte-christian/Charlotte Christian - College Support - Redesign Research 2026.md",
-      "note_file": ".claude/docs/college-support/charlotte-christian.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "charlotte-christian",
-      "school": "Charlotte Christian School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Standing Out",
-      "source_file": "source-material/college-support/charlotte-christian/Charlotte Christian - College Support - Standing Out.pdf",
-      "note_file": ".claude/docs/college-support/charlotte-christian.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-christian",
-      "school": "Charlotte Christian School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Deep Research",
-      "source_file": "source-material/college-support/charlotte-christian/Charlotte Christian School - College Counseling, Preparation, and Placement Outcomes — A Parent-Facing Report - Deep Research.pdf",
-      "note_file": ".claude/docs/college-support/charlotte-christian.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-country-day",
-      "school": "Charlotte Country Day School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Academic Case",
-      "source_file": "source-material/college-support/charlotte-country-day/CCD - College Support - Academic Case.pdf",
-      "note_file": ".claude/docs/college-support/charlotte-country-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-country-day",
-      "school": "Charlotte Country Day School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Application Support",
-      "source_file": "source-material/college-support/charlotte-country-day/CCD - College Support - Application Support.pdf",
-      "note_file": ".claude/docs/college-support/charlotte-country-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-country-day",
-      "school": "Charlotte Country Day School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Counseling Engine",
-      "source_file": "source-material/college-support/charlotte-country-day/CCD - College Support - Counseling Engine.pdf",
-      "note_file": ".claude/docs/college-support/charlotte-country-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-country-day",
-      "school": "Charlotte Country Day School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Fit and Rank",
-      "source_file": "source-material/college-support/charlotte-country-day/CCD - College Support - Fit and Rank.pdf",
-      "note_file": ".claude/docs/college-support/charlotte-country-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-country-day",
-      "school": "Charlotte Country Day School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Institutional Leverage",
-      "source_file": "source-material/college-support/charlotte-country-day/CCD - College Support - Institutional Leverage.pdf",
-      "note_file": ".claude/docs/college-support/charlotte-country-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-country-day",
-      "school": "Charlotte Country Day School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "NotebookLM Prompt",
-      "source_file": "source-material/college-support/charlotte-country-day/CCD - College Support - NotebookLM Prompt.txt",
-      "note_file": ".claude/docs/college-support/charlotte-country-day.md",
-      "type": "txt"
-    },
-    {
-      "school_slug": "charlotte-country-day",
-      "school": "Charlotte Country Day School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Outcomes",
-      "source_file": "source-material/college-support/charlotte-country-day/CCD - College Support - Outcomes.pdf",
-      "note_file": ".claude/docs/college-support/charlotte-country-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-country-day",
-      "school": "Charlotte Country Day School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Redesign Research 2026",
-      "source_file": "source-material/college-support/charlotte-country-day/CCD - College Support - Redesign Research 2026.md",
-      "note_file": ".claude/docs/college-support/charlotte-country-day.md",
+      "topic_slug": "course-offerings",
+      "topic": "Course Offerings",
+      "subtopic": "Curriculum Guide",
+      "source_file": "source-material/course-offerings/charlotte-christian/Charlotte Christian - Course Offerings - Curriculum Guide.md",
+      "note_file": ".claude/docs/course-offerings/charlotte-christian.md",
       "type": "md"
     },
     {
       "school_slug": "charlotte-country-day",
       "school": "Charlotte Country Day School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Standing Out",
-      "source_file": "source-material/college-support/charlotte-country-day/CCD - College Support - Standing Out.pdf",
-      "note_file": ".claude/docs/college-support/charlotte-country-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-latin",
-      "school": "Charlotte Latin School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Academic Case",
-      "source_file": "source-material/college-support/charlotte-latin/Charlotte Latin - College Support - Academic Case.pdf",
-      "note_file": ".claude/docs/college-support/charlotte-latin.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-latin",
-      "school": "Charlotte Latin School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Acceptances Window 2023-2026",
-      "source_file": "source-material/college-support/charlotte-latin/Charlotte Latin - College Support - Acceptances Window 2023-2026.md",
-      "note_file": ".claude/docs/college-support/charlotte-latin.md",
+      "topic_slug": "course-offerings",
+      "topic": "Course Offerings",
+      "subtopic": "Curriculum Guide",
+      "source_file": "source-material/course-offerings/charlotte-country-day/Charlotte Country Day - Course Offerings - Curriculum Guide.md",
+      "note_file": ".claude/docs/course-offerings/charlotte-country-day.md",
       "type": "md"
     },
     {
       "school_slug": "charlotte-latin",
       "school": "Charlotte Latin School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Application Support",
-      "source_file": "source-material/college-support/charlotte-latin/Charlotte Latin - College Support - Application Support.pdf",
-      "note_file": ".claude/docs/college-support/charlotte-latin.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-latin",
-      "school": "Charlotte Latin School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Counseling Engine",
-      "source_file": "source-material/college-support/charlotte-latin/Charlotte Latin - College Support - Counseling Engine.pdf",
-      "note_file": ".claude/docs/college-support/charlotte-latin.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-latin",
-      "school": "Charlotte Latin School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Fit and Rank",
-      "source_file": "source-material/college-support/charlotte-latin/Charlotte Latin - College Support - Fit and Rank.pdf",
-      "note_file": ".claude/docs/college-support/charlotte-latin.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-latin",
-      "school": "Charlotte Latin School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Institutional Leverage",
-      "source_file": "source-material/college-support/charlotte-latin/Charlotte Latin - College Support - Institutional Leverage.pdf",
-      "note_file": ".claude/docs/college-support/charlotte-latin.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-latin",
-      "school": "Charlotte Latin School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "NotebookLM Prompt v2",
-      "source_file": "source-material/college-support/charlotte-latin/Charlotte Latin - College Support - NotebookLM Prompt v2.md",
-      "note_file": ".claude/docs/college-support/charlotte-latin.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "charlotte-latin",
-      "school": "Charlotte Latin School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Outcomes",
-      "source_file": "source-material/college-support/charlotte-latin/Charlotte Latin - College Support - Outcomes.pdf",
-      "note_file": ".claude/docs/college-support/charlotte-latin.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-latin",
-      "school": "Charlotte Latin School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Redesign Research 2026",
-      "source_file": "source-material/college-support/charlotte-latin/Charlotte Latin - College Support - Redesign Research 2026.md",
-      "note_file": ".claude/docs/college-support/charlotte-latin.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "charlotte-latin",
-      "school": "Charlotte Latin School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Standing Out",
-      "source_file": "source-material/college-support/charlotte-latin/Charlotte Latin - College Support - Standing Out.pdf",
-      "note_file": ".claude/docs/college-support/charlotte-latin.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "charlotte-latin",
-      "school": "Charlotte Latin School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Deep Research",
-      "source_file": "source-material/college-support/charlotte-latin/Charlotte Latin School College Counseling - 2025-26 Program Review - Deep Research.pdf",
-      "note_file": ".claude/docs/college-support/charlotte-latin.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "covenant-day",
-      "school": "Covenant Day School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Academic Case",
-      "source_file": "source-material/college-support/covenant-day/Covenant Day School - College Support - Academic Case.md",
-      "note_file": ".claude/docs/college-support/covenant-day.md",
+      "topic_slug": "course-offerings",
+      "topic": "Course Offerings",
+      "subtopic": "Curriculum Guide",
+      "source_file": "source-material/course-offerings/charlotte-latin/Charlotte Latin - Course Offerings - Curriculum Guide.md",
+      "note_file": ".claude/docs/course-offerings/charlotte-latin.md",
       "type": "md"
     },
     {
       "school_slug": "covenant-day",
       "school": "Covenant Day School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Application Support",
-      "source_file": "source-material/college-support/covenant-day/Covenant Day School - College Support - Application Support.md",
-      "note_file": ".claude/docs/college-support/covenant-day.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "covenant-day",
-      "school": "Covenant Day School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Counseling Engine",
-      "source_file": "source-material/college-support/covenant-day/Covenant Day School - College Support - Counseling Engine.md",
-      "note_file": ".claude/docs/college-support/covenant-day.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "covenant-day",
-      "school": "Covenant Day School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Fit and the Whole Class",
-      "source_file": "source-material/college-support/covenant-day/Covenant Day School - College Support - Fit and the Whole Class.md",
-      "note_file": ".claude/docs/college-support/covenant-day.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "covenant-day",
-      "school": "Covenant Day School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Institutional Leverage",
-      "source_file": "source-material/college-support/covenant-day/Covenant Day School - College Support - Institutional Leverage.md",
-      "note_file": ".claude/docs/college-support/covenant-day.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "covenant-day",
-      "school": "Covenant Day School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Outcomes",
-      "source_file": "source-material/college-support/covenant-day/Covenant Day School - College Support - Outcomes.md",
-      "note_file": ".claude/docs/college-support/covenant-day.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "covenant-day",
-      "school": "Covenant Day School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Redesign Research 2026",
-      "source_file": "source-material/college-support/covenant-day/Covenant Day School - College Support - Redesign Research 2026.md",
-      "note_file": ".claude/docs/college-support/covenant-day.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "covenant-day",
-      "school": "Covenant Day School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Standing Out",
-      "source_file": "source-material/college-support/covenant-day/Covenant Day School - College Support - Standing Out.md",
-      "note_file": ".claude/docs/college-support/covenant-day.md",
+      "topic_slug": "course-offerings",
+      "topic": "Course Offerings",
+      "subtopic": "Curriculum Guide",
+      "source_file": "source-material/course-offerings/covenant-day/Covenant Day School - Course Offerings - Curriculum Guide.md",
+      "note_file": ".claude/docs/course-offerings/covenant-day.md",
       "type": "md"
     },
     {
       "school_slug": "davidson-day",
       "school": "Davidson Day School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Academic Case",
-      "source_file": "source-material/college-support/davidson-day/Davidson Day - College Support - Academic Case.pdf",
-      "note_file": ".claude/docs/college-support/davidson-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "davidson-day",
-      "school": "Davidson Day School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Acceptances Window 2023-2026",
-      "source_file": "source-material/college-support/davidson-day/Davidson Day - College Support - Acceptances Window 2023-2026.md",
-      "note_file": ".claude/docs/college-support/davidson-day.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "davidson-day",
-      "school": "Davidson Day School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Application Support",
-      "source_file": "source-material/college-support/davidson-day/Davidson Day - College Support - Application Support.pdf",
-      "note_file": ".claude/docs/college-support/davidson-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "davidson-day",
-      "school": "Davidson Day School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Counseling Engine",
-      "source_file": "source-material/college-support/davidson-day/Davidson Day - College Support - Counseling Engine.pdf",
-      "note_file": ".claude/docs/college-support/davidson-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "davidson-day",
-      "school": "Davidson Day School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Fit and the Whole Class",
-      "source_file": "source-material/college-support/davidson-day/Davidson Day - College Support - Fit and the Whole Class.pdf",
-      "note_file": ".claude/docs/college-support/davidson-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "davidson-day",
-      "school": "Davidson Day School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Institutional Leverage",
-      "source_file": "source-material/college-support/davidson-day/Davidson Day - College Support - Institutional Leverage.pdf",
-      "note_file": ".claude/docs/college-support/davidson-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "davidson-day",
-      "school": "Davidson Day School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "NotebookLM Prompt",
-      "source_file": "source-material/college-support/davidson-day/Davidson Day - College Support - NotebookLM Prompt.md",
-      "note_file": ".claude/docs/college-support/davidson-day.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "davidson-day",
-      "school": "Davidson Day School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Outcomes",
-      "source_file": "source-material/college-support/davidson-day/Davidson Day - College Support - Outcomes.pdf",
-      "note_file": ".claude/docs/college-support/davidson-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "davidson-day",
-      "school": "Davidson Day School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Redesign Research 2026",
-      "source_file": "source-material/college-support/davidson-day/Davidson Day - College Support - Redesign Research 2026.md",
-      "note_file": ".claude/docs/college-support/davidson-day.md",
-      "type": "md"
-    },
-    {
-      "school_slug": "davidson-day",
-      "school": "Davidson Day School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Standing Out",
-      "source_file": "source-material/college-support/davidson-day/Davidson Day - College Support - Standing Out.pdf",
-      "note_file": ".claude/docs/college-support/davidson-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "providence-day",
-      "school": "Providence Day School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Academic Case",
-      "source_file": "source-material/college-support/providence-day/Providence Day - College Support - Academic Case.pdf",
-      "note_file": ".claude/docs/college-support/providence-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "providence-day",
-      "school": "Providence Day School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Application Support",
-      "source_file": "source-material/college-support/providence-day/Providence Day - College Support - Application Support.pdf",
-      "note_file": ".claude/docs/college-support/providence-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "providence-day",
-      "school": "Providence Day School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Counseling Engine",
-      "source_file": "source-material/college-support/providence-day/Providence Day - College Support - Counseling Engine.pdf",
-      "note_file": ".claude/docs/college-support/providence-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "providence-day",
-      "school": "Providence Day School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Fit and Rank",
-      "source_file": "source-material/college-support/providence-day/Providence Day - College Support - Fit and Rank.pdf",
-      "note_file": ".claude/docs/college-support/providence-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "providence-day",
-      "school": "Providence Day School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Institutional Leverage",
-      "source_file": "source-material/college-support/providence-day/Providence Day - College Support - Institutional Leverage.pdf",
-      "note_file": ".claude/docs/college-support/providence-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "providence-day",
-      "school": "Providence Day School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "NotebookLM Prompt",
-      "source_file": "source-material/college-support/providence-day/Providence Day - College Support - NotebookLM Prompt.txt",
-      "note_file": ".claude/docs/college-support/providence-day.md",
-      "type": "txt"
-    },
-    {
-      "school_slug": "providence-day",
-      "school": "Providence Day School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Outcomes",
-      "source_file": "source-material/college-support/providence-day/Providence Day - College Support - Outcomes.pdf",
-      "note_file": ".claude/docs/college-support/providence-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "providence-day",
-      "school": "Providence Day School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Redesign Research 2026",
-      "source_file": "source-material/college-support/providence-day/Providence Day - College Support - Redesign Research 2026.md",
-      "note_file": ".claude/docs/college-support/providence-day.md",
+      "topic_slug": "course-offerings",
+      "topic": "Course Offerings",
+      "subtopic": "Curriculum Guide",
+      "source_file": "source-material/course-offerings/davidson-day/Davidson Day - Course Offerings - Curriculum Guide.md",
+      "note_file": ".claude/docs/course-offerings/davidson-day.md",
       "type": "md"
     },
     {
       "school_slug": "providence-day",
       "school": "Providence Day School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Standing Out",
-      "source_file": "source-material/college-support/providence-day/Providence Day - College Support - Standing Out.pdf",
-      "note_file": ".claude/docs/college-support/providence-day.md",
-      "type": "pdf"
-    },
-    {
-      "school_slug": "providence-day",
-      "school": "Providence Day School",
-      "topic_slug": "college-support",
-      "topic": "College Support",
-      "subtopic": "Deep Research",
-      "source_file": "source-material/college-support/providence-day/Providence Day School College Counseling and Placement Program - Program Review and Outcomes Analysis - Deep Research.pdf",
-      "note_file": ".claude/docs/college-support/providence-day.md",
-      "type": "pdf"
+      "topic_slug": "course-offerings",
+      "topic": "Course Offerings",
+      "subtopic": "Curriculum Guide",
+      "source_file": "source-material/course-offerings/providence-day/Providence Day - Course Offerings - Curriculum Guide.md",
+      "note_file": ".claude/docs/course-offerings/providence-day.md",
+      "type": "md"
     }
   ]
 }

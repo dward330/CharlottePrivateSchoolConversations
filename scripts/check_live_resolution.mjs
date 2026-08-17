@@ -55,6 +55,7 @@ const EXPORTS = {
   cannon: 'cannon',
   'covenant-day': 'covenantDay',
   'davidson-day': 'davidsonDay',
+  'carmel-christian': 'carmelChristian',
 }
 
 /**

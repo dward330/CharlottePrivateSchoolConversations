@@ -176,6 +176,7 @@ export const COLLEGE_RANKINGS: Record<string, string> = {
   "Michigan Technological University": "National Rank #158",
   "Middle Tennessee State University": "National Rank #257",
   "Middlebury College": "Liberal Rank #13",
+  "Mississippi College": "National Rank #358",
   "Mississippi State University": "National Rank #208",
   "Missouri State University": "National Rank #358",
   "Missouri University of Science and Technology": "National Rank #192",
@@ -231,6 +232,7 @@ export const COLLEGE_RANKINGS: Record<string, string> = {
   "Rutgers University (Camden)": "National Rank #97",
   "Rutgers University (New Brunswick)": "National Rank #42",
   "Saint Louis University": "National Rank #102",
+  "Saint Mary's College (Indiana)": "Liberal Rank #84",
   "Sam Houston State University": "National Rank #257",
   "Samford University": "National Rank #179",
   "San Diego State University": "National Rank #117",
@@ -350,6 +352,7 @@ export const COLLEGE_RANKINGS: Record<string, string> = {
   "University of NC at Wilmington": "National Rank #198",
   "University of Nebraska (Lincoln)": "National Rank #158",
   "University of Nevada (Las Vegas)": "National Rank #232",
+  "University of Nevada, Reno": "National Rank #192",
   "University of New Hampshire": "National Rank #117",
   "University of New Hampshire (Main Campus)": "National Rank #117",
   "University of North Carolina (Asheville)": "Liberal Rank #135",
@@ -412,6 +415,7 @@ export const COLLEGE_RANKINGS: Record<string, string> = {
   "Wartburg College": "Liberal Rank #156",
   "Washington & Jefferson College": "Liberal Rank #84",
   "Washington and Lee University": "Liberal Rank #21",
+  "Washington College": "Liberal Rank #92",
   "Washington State University": "National Rank #192",
   "Washington University in St. Louis": "National Rank #20",
   "Wellesley College": "Liberal Rank #7",
@@ -424,6 +428,7 @@ export const COLLEGE_RANKINGS: Record<string, string> = {
   "Wheaton College": "Liberal Rank #50",
   "Wheaton College - IL": "Liberal Rank #50",
   "Wheaton College - MA": "Liberal Rank #76",
+  "Whitman College": "Liberal Rank #58",
   "Whittier College": "Liberal Rank #92",
   "Widener University": "National Rank #301",
   "William & Mary": "National Rank #51",
@@ -477,6 +482,12 @@ const ALIAS: Record<string, string> = {
   // Sewanee appears with the "Sewanee" tag before, after, or absent — all one school.
   'univ of south': 'Sewanee: The University of the South',
   'univ of south sewanee': 'Sewanee: The University of the South',
+  // Spelling variants a list may use for a school already in the table.
+  'florida agricultural & mechanical': 'Florida A&M University',
+  'indiana univ at bloomington': 'Indiana University (Bloomington)',
+  'lynchburg coll': 'University of Lynchburg',
+  'st johns univ queens campus': "St. John's University",
+  'univ of alabama tuscaloosa': 'The University of Alabama',
 }
 for (const [variant, canon] of Object.entries(ALIAS)) {
   const label = BY_NORM.get(normName(canon))

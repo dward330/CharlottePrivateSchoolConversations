@@ -521,6 +521,56 @@ const DAVIDSON_DAY: ClubCatalog = {
     'privateschoolreview.com — Davidson Day profile · davidsonday.org — Upper/Middle School, Community & Culture',
 }
 
+// ── Carmel Christian ── the thinnest, and honestly so: clubs are
+// student-initiated by application (Family Handbook p.74 — "Executing the
+// application process does not guarantee the recognition of your club"), so
+// there is no large standing roster. Only the five confirmed standing Upper
+// School organizations plus the two Middle School ones are named; nothing is
+// invented to fill space. Honor societies, student government, and the one
+// service/discipleship org (The Timothy Project) are the whole named spine.
+// Spiritual-life programs (Ignite Praise Band, the retreats and prayer
+// traditions) sit in a division note because they are chapel/tradition rather
+// than clubs. From source-material/student-clubs/carmel-christian/. Handbook is
+// the 2021-22 edition (newest published) — structural facts are current but
+// date-sensitive; the current-year roster is not published.
+const CARMEL_CHRISTIAN: ClubCatalog = {
+  verdict:
+    'Clubs are student-initiated by application, so the standing roster is small — five named Upper School organizations, mostly honor societies, student government, and one service org.',
+  verdictHint: 'There is no published club directory; this is what the handbook and school pages confirm.',
+  countNoun: 'named orgs',
+  categories: [
+    { key: 'honor', short: 'Honor societies', full: 'Honor society' },
+    { key: 'gov', short: 'Student government', full: 'Student government' },
+    { key: 'svc', short: 'Service', full: 'Service / discipleship' },
+  ],
+  clubs: [
+    { name: 'National Honor Society', cat: 'honor', note: 'High School; application-based (weighted GPA 3.85 → 3.75 unweighted from the Class of 2024), October inductions' },
+    { name: 'National Beta Club', cat: 'honor', note: 'High School (grades 10–12); GPA 3.50 with 10 service hours per semester and 2 service projects a year; fall inductions' },
+    { name: 'Spanish Honor Society', cat: 'honor', note: 'High School — the "CCS Chapter of SHS"; last confirmed in the 2021–22 graduation-cords table' },
+    { name: 'Student Council', cat: 'gov', note: 'High School; four officers elected each spring and two representatives per grade in the fall' },
+    { name: 'The Timothy Project', cat: 'svc', note: 'High School service / discipleship org — students mentor Extended-Day children; application, teacher rec, September interview, October training, one hour weekly' },
+  ],
+  divisions: [
+    {
+      label: 'Student-initiated model',
+      text: 'Carmel frames clubs as student-led: a student interested in creating a club requests a form from the High School or Middle School office and applies, and the administration reviews and may accept or deny it. This explains the small standing roster — the active list depends on who applies each year and is not published.',
+      tag: 'School-reported',
+    },
+    {
+      label: 'Middle School (6–8)',
+      text: 'Two named organizations: the Student Government Association (President/VP/Secretary plus two representatives per grade, nine students — Charlotte Rescue Mission project, banquet, Spirit Week) and, for 8th grade, the National Junior Honor Society (GPA 3.8+, October inductions).',
+      tag: 'School-reported',
+    },
+    {
+      label: 'Spiritual life & traditions',
+      text: 'Chapel and tradition rather than clubs: the Ignite Praise Band leads Thursday chapel worship, and the school year runs on the Windy Gap retreat, See You at the Pole (led by the MS SGA and HS Student Council), Spirit Week / Homecoming, J-Term (a graduation-requirement week that can include mission trips), and international missions trips.',
+      tag: 'School-reported',
+    },
+  ],
+  source:
+    'carmelchristian.org — Family Handbook (2021–22 ed., pp. 74–75) · The Timothy Project page · privateschoolreview.com profile (no single published club directory)',
+}
+
 const CATALOG: Record<string, ClubCatalog> = {
   'charlotte-latin': CHARLOTTE_LATIN,
   'providence-day': PROVIDENCE_DAY,
@@ -529,6 +579,7 @@ const CATALOG: Record<string, ClubCatalog> = {
   'charlotte-christian': CHARLOTTE_CHRISTIAN,
   'covenant-day': COVENANT_DAY,
   'davidson-day': DAVIDSON_DAY,
+  'carmel-christian': CARMEL_CHRISTIAN,
 }
 
 /**

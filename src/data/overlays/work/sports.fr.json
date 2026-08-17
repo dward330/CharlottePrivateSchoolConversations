@@ -36,7 +36,8 @@
         "charlotte-christian:offered.stats[1].label",
         "charlotte-country-day:offered.stats[1].label",
         "cannon:offered.stats[1].label",
-        "davidson-day:offered.stats[1].label"
+        "davidson-day:offered.stats[1].label",
+        "carmel-christian:offered.stats[1].label"
       ],
       "t": "équipes réparties entre V · JV · MS"
     },
@@ -67,7 +68,8 @@
         "charlotte-country-day:offered.seasons[0].name",
         "cannon:offered.seasons[0].name",
         "covenant-day:offered.seasons[0].name",
-        "davidson-day:offered.seasons[0].name"
+        "davidson-day:offered.seasons[0].name",
+        "carmel-christian:offered.seasons[0].name"
       ],
       "t": "Automne"
     },
@@ -93,7 +95,8 @@
         "charlotte-country-day:offered.seasons[1].name",
         "cannon:offered.seasons[1].name",
         "covenant-day:offered.seasons[1].name",
-        "davidson-day:offered.seasons[1].name"
+        "davidson-day:offered.seasons[1].name",
+        "carmel-christian:offered.seasons[1].name"
       ],
       "t": "Hiver"
     },
@@ -107,7 +110,8 @@
         "charlotte-country-day:offered.seasons[2].name",
         "cannon:offered.seasons[2].name",
         "covenant-day:offered.seasons[2].name",
-        "davidson-day:offered.seasons[2].name"
+        "davidson-day:offered.seasons[2].name",
+        "carmel-christian:offered.seasons[2].name"
       ],
       "t": "Printemps"
     },
@@ -183,7 +187,10 @@
         "davidson-day:record.rows[2].cells[1].result",
         "davidson-day:record.rows[3].cells[0].result",
         "davidson-day:record.rows[3].cells[1].result",
-        "davidson-day:record.rows[4].cells[0].result"
+        "davidson-day:record.rows[4].cells[0].result",
+        "carmel-christian:record.rows[0].cells[0].result",
+        "carmel-christian:record.rows[0].cells[1].result",
+        "carmel-christian:record.rows[1].cells[0].result"
       ],
       "t": "ÉTAT"
     },
@@ -207,7 +214,10 @@
         "cannon:record.rows[3].cells[2].result",
         "covenant-day:record.rows[1].cells[1].result",
         "covenant-day:record.rows[1].cells[2].result",
-        "davidson-day:record.rows[1].cells[2].result"
+        "davidson-day:record.rows[1].cells[2].result",
+        "carmel-christian:record.rows[0].cells[2].result",
+        "carmel-christian:record.rows[1].cells[1].result",
+        "carmel-christian:record.rows[2].cells[2].result"
       ],
       "t": "FINALISTE"
     },
@@ -286,7 +296,10 @@
         "davidson-day:record.rows[5].cells[2].result",
         "davidson-day:record.rows[6].cells[0].result",
         "davidson-day:record.rows[6].cells[1].result",
-        "davidson-day:record.rows[6].cells[2].result"
+        "davidson-day:record.rows[6].cells[2].result",
+        "carmel-christian:record.rows[1].cells[2].result",
+        "carmel-christian:record.rows[2].cells[0].result",
+        "carmel-christian:record.rows[2].cells[1].result"
       ],
       "t": "AUCUN"
     },
@@ -407,7 +420,8 @@
         "charlotte-country-day:pipeline.funnel[0].label",
         "cannon:pipeline.funnel[0].label",
         "covenant-day:pipeline.funnel[0].label",
-        "davidson-day:pipeline.funnel[0].label"
+        "davidson-day:pipeline.funnel[0].label",
+        "carmel-christian:pipeline.funnel[0].label"
       ],
       "t": "Engagés dans le sport universitaire"
     },
@@ -431,7 +445,8 @@
         "charlotte-country-day:pipeline.funnel[1].label",
         "cannon:pipeline.funnel[1].label",
         "covenant-day:pipeline.funnel[1].label",
-        "davidson-day:pipeline.funnel[1].label"
+        "davidson-day:pipeline.funnel[1].label",
+        "carmel-christian:pipeline.funnel[1].label"
       ],
       "t": "NCAA Division I"
     },
@@ -459,7 +474,8 @@
         "charlotte-country-day:pipeline.funnel[2].label",
         "cannon:pipeline.funnel[2].label",
         "covenant-day:pipeline.funnel[2].label",
-        "davidson-day:pipeline.funnel[2].label"
+        "davidson-day:pipeline.funnel[2].label",
+        "carmel-christian:pipeline.funnel[2].label"
       ],
       "t": "Power 4"
     },
@@ -473,7 +489,8 @@
         "charlotte-country-day:pipeline.funnel[2].hint",
         "cannon:pipeline.funnel[2].hint",
         "covenant-day:pipeline.funnel[2].hint",
-        "davidson-day:pipeline.funnel[2].hint"
+        "davidson-day:pipeline.funnel[2].hint",
+        "carmel-christian:pipeline.funnel[2].hint"
       ],
       "t": "(SEC · Big Ten · ACC · Big 12)"
     },
@@ -707,7 +724,8 @@
         "covenant-day:pipeline.roster[13].sport",
         "covenant-day:pipeline.roster[28].sport",
         "davidson-day:pipeline.roster[5].sport",
-        "davidson-day:pipeline.roster[6].sport"
+        "davidson-day:pipeline.roster[6].sport",
+        "carmel-christian:pipeline.roster[8].sport"
       ],
       "t": "Volleyball"
     },
@@ -736,7 +754,10 @@
         "covenant-day:pipeline.roster[20].sport",
         "covenant-day:pipeline.roster[26].sport",
         "covenant-day:pipeline.roster[31].sport",
-        "covenant-day:pipeline.roster[32].sport"
+        "covenant-day:pipeline.roster[32].sport",
+        "carmel-christian:pipeline.roster[5].sport",
+        "carmel-christian:pipeline.roster[6].sport",
+        "carmel-christian:pipeline.roster[9].sport"
       ],
       "t": "Baseball"
     },
@@ -1018,7 +1039,8 @@
       "at": [
         "providence-day:honors.honors[3].tag",
         "charlotte-christian:honors.honors[4].tag",
-        "cannon:honors.honors[3].tag"
+        "cannon:honors.honors[3].tag",
+        "carmel-christian:honors.honors[2].tag"
       ],
       "t": "Niveau de la ligue"
     },
@@ -2137,7 +2159,8 @@
       "text": "NC Mr. Basketball",
       "of": "61e58ab4",
       "at": [
-        "charlotte-latin:honors.honors[0].label"
+        "charlotte-latin:honors.honors[0].label",
+        "carmel-christian:honors.honors[0].label"
       ],
       "t": "NC Mr. Basketball"
     },
@@ -5370,7 +5393,14 @@
         "covenant-day:pipeline.roster[14].sport",
         "covenant-day:pipeline.roster[15].sport",
         "covenant-day:pipeline.roster[29].sport",
-        "covenant-day:pipeline.roster[30].sport"
+        "covenant-day:pipeline.roster[30].sport",
+        "carmel-christian:pipeline.roster[0].sport",
+        "carmel-christian:pipeline.roster[1].sport",
+        "carmel-christian:pipeline.roster[2].sport",
+        "carmel-christian:pipeline.roster[3].sport",
+        "carmel-christian:pipeline.roster[4].sport",
+        "carmel-christian:pipeline.roster[7].sport",
+        "carmel-christian:pipeline.roster[10].sport"
       ],
       "t": "Basketball"
     },
@@ -6382,7 +6412,8 @@
       "text": "5",
       "of": "300ca0d0",
       "at": [
-        "davidson-day:coaching.featured[1].stats[1].value"
+        "davidson-day:coaching.featured[1].stats[1].value",
+        "carmel-christian:national.stats[2].value"
       ],
       "t": "5"
     },
@@ -6481,6 +6512,390 @@
         "davidson-day:coaching.worthKnowing"
       ],
       "t": "l’école ne publie pas d’annuaire des entraîneurs : les entraîneurs principaux de huit de ses treize sports ne sont donc pas documentés — conséquence de la mise hors ligne de son site sportif officiel. Catherine Glass en volley-ball et Brad Laatsch en soccer incarnent de longs mandats producteurs de titres ; le basketball est à l’opposé, avec au moins sept entraîneurs principaux garçons depuis 2008 et sept entraîneuses principales filles en huit saisons documentées. L’entraîneur titré en 2024, James Long, est parti vers le niveau universitaire une saison plus tard."
+    },
+    {
+      "text": "9 varsity sports across roughly 28 teams — a focused Cougars program in NCISAA 4A, the top private-school classification.",
+      "of": "5c3363af",
+      "at": [
+        "carmel-christian:offered.headline"
+      ],
+      "t": "9 sports en varsity répartis sur environ 28 équipes — un programme Cougars ciblé en NCISAA 4A, la plus haute classification des écoles privées."
+    },
+    {
+      "text": "Basketball, soccer and volleyball carry a JV and Middle School ladder; there is no football, lacrosse or track on the current offered list.",
+      "of": "68af5b13",
+      "at": [
+        "carmel-christian:offered.subhead"
+      ],
+      "t": "Basketball, soccer et volley-ball disposent d'une échelle JV et Middle School ; il n'y a ni football, ni lacrosse, ni athlétisme sur la liste actuelle des sports proposés."
+    },
+    {
+      "text": "distinct varsity sports",
+      "of": "6c0c64fe",
+      "at": [
+        "carmel-christian:offered.stats[0].label"
+      ],
+      "t": "sports en varsity distincts"
+    },
+    {
+      "text": "NCISAA (was 3A through ~2019)",
+      "of": "e1008ec3",
+      "at": [
+        "carmel-christian:offered.stats[2].label"
+      ],
+      "t": "NCISAA (était 3A jusqu'en ~2019)"
+    },
+    {
+      "text": "Matthews, NC",
+      "of": "0b290165",
+      "at": [
+        "carmel-christian:offered.stats[3].label"
+      ],
+      "t": "Matthews, NC"
+    },
+    {
+      "text": "Middle School boys basketball splits into \"Blue & Gold\" squads to widen participation, and golf runs a co-ed Middle School team in spring. Carmel moved up from NCISAA 3A to 4A around 2019.",
+      "of": "31e754ab",
+      "at": [
+        "carmel-christian:offered.footnote"
+      ],
+      "t": "Le basketball masculin de Middle School se divise en équipes « Blue & Gold » pour élargir la participation, et le golf aligne une équipe mixte de Middle School au printemps. Carmel est passé de la NCISAA 3A à la 4A vers 2019."
+    },
+    {
+      "text": "Three recent NCISAA titles — two in boys basketball (2019 3A, 2022 4A) and one in boys soccer (2020 4A) — behind a string of deep finals runs.",
+      "of": "e9539ba9",
+      "at": [
+        "carmel-christian:record.headline"
+      ],
+      "t": "Trois titres NCISAA récents — deux en basketball masculin (2019 3A, 2022 4A) et un en soccer masculin (2020 4A) — au terme d'une série de parcours poussés en finale."
+    },
+    {
+      "text": "\"State\" = NCISAA (the private-school association); Carmel does not compete in the public-school NCHSAA.",
+      "of": "1dd1117d",
+      "at": [
+        "carmel-christian:record.subhead"
+      ],
+      "t": "« State » = NCISAA (l'association des écoles privées) ; Carmel ne concourt pas dans la NCHSAA publique."
+    },
+    {
+      "text": "Back-to-back 3A in 2018 & 2019; 4A champion 2022; runner-up 2023 & 2025",
+      "of": "f3ef690e",
+      "at": [
+        "carmel-christian:record.rows[0].note"
+      ],
+      "t": "3A consécutifs en 2018 & 2019 ; champion 4A 2022 ; finaliste 2023 & 2025"
+    },
+    {
+      "text": "Four straight finals 2019–2022, winning 4A in 2020",
+      "of": "0c490bcb",
+      "at": [
+        "carmel-christian:record.rows[1].note"
+      ],
+      "t": "Quatre finales de suite 2019–2022, victoire en 4A en 2020"
+    },
+    {
+      "text": "Lost the '26 4A final 1–2 to Providence Day",
+      "of": "3cd90daa",
+      "at": [
+        "carmel-christian:record.rows[2].note"
+      ],
+      "t": "A perdu la finale 4A '26 1–2 face à Providence Day"
+    },
+    {
+      "text": "Christ School took the boys basketball 4A titles Carmel lost in 2023 (48–53) and 2025 (Christ School three-peated); Rabun Gap-Nacoochee beat Carmel in the 2021 (1–0) and 2022 (1–0) boys soccer 4A finals, and Coastal Christian in the 2019 3A final; Providence Day shut Carmel out for the 2026 girls soccer 4A title (1–2).",
+      "of": "581ebb84",
+      "at": [
+        "carmel-christian:record.didNotWin"
+      ],
+      "t": "Christ School a remporté les titres de basketball masculin 4A que Carmel a perdus en 2023 (48–53) et 2025 (Christ School a réalisé le triplé) ; Rabun Gap-Nacoochee a battu Carmel lors des finales de soccer masculin 4A 2021 (1–0) et 2022 (1–0), et Coastal Christian lors de la finale 3A 2019 ; Providence Day a blanchi Carmel pour le titre de soccer féminin 4A 2026 (1–2)."
+    },
+    {
+      "text": "'21–22 SEASON",
+      "of": "b635ef35",
+      "at": [
+        "carmel-christian:record.bars[0].tag"
+      ],
+      "t": "SAISON '21–22"
+    },
+    {
+      "text": "2020 TITLE RUN",
+      "of": "0f7c2a1a",
+      "at": [
+        "carmel-christian:record.bars[1].tag"
+      ],
+      "t": "PARCOURS AU TITRE 2020"
+    },
+    {
+      "text": "'25–26 SEASON",
+      "of": "0d504105",
+      "at": [
+        "carmel-christian:record.bars[2].tag"
+      ],
+      "t": "SAISON '25–26"
+    },
+    {
+      "text": "2022: NCISAA 4A champion — beat Greensboro Day 71–66 on Feb 26, 2022 at Wingate, Cade Tyson scoring 31. 2023: 28–4, lost the 4A final 48–53 to Christ School (Feb 25, 2023) behind a Jaeden Mustaf-led team. 2025: reached the 4A final again and lost to Christ School, which three-peated (score to verify). Regular-season records: 2021–22 26–3, 2022–23 28–4, 2016–17 21–6, 2015–16 22–8.",
+      "of": "72393982",
+      "at": [
+        "carmel-christian:record.seasonDetail[0].text"
+      ],
+      "t": "2022 : champion NCISAA 4A — victoire 71–66 sur Greensboro Day le 26 février 2022 à Wingate, Cade Tyson marquant 31 points. 2023 : 28–4, défaite en finale 4A 48–53 face à Christ School (25 février 2023) avec une équipe menée par Jaeden Mustaf. 2025 : de nouveau en finale 4A, défaite face à Christ School, qui a réalisé le triplé (score à vérifier). Bilans en saison régulière : 2021–22 26–3, 2022–23 28–4, 2016–17 21–6, 2015–16 22–8."
+    },
+    {
+      "text": "2020: NCISAA 4A champion — beat Rabun Gap-Nacoochee 2–0, finishing 14–1. This was the middle of four straight finals: lost the 2019 3A final to Coastal Christian, won 2020, then lost the 2021 (1–0) and 2022 (1–0) 4A finals to Rabun Gap.",
+      "of": "96a1da83",
+      "at": [
+        "carmel-christian:record.seasonDetail[1].text"
+      ],
+      "t": "2020 : champion NCISAA 4A — victoire 2–0 sur Rabun Gap-Nacoochee, avec un bilan de 14–1. C'était au milieu de quatre finales consécutives : défaite en finale 3A 2019 face à Coastal Christian, victoire en 2020, puis défaites en finales 4A 2021 (1–0) et 2022 (1–0) face à Rabun Gap."
+    },
+    {
+      "text": "2026: reached the NCISAA 4A final and lost 1–2 to Providence Day (May 16, 2026), finishing 14–5. The athletics site tagged the season a \"2025-26 state champions\" run, which conflicts with the final loss — treated here as runner-up pending confirmation.",
+      "of": "13aa35a5",
+      "at": [
+        "carmel-christian:record.seasonDetail[2].text"
+      ],
+      "t": "2026 : arrivée en finale NCISAA 4A et défaite 1–2 face à Providence Day (16 mai 2026), avec un bilan de 14–5. Le site de l'athlétisme a qualifié la saison de parcours « 2025-26 state champions », ce qui contredit la défaite en finale — traité ici comme finaliste dans l'attente d'une confirmation."
+    },
+    {
+      "text": "Five Division I commits across the classes of 2024–26 — every one in basketball, and every one a mid-major. Zero Power 4.",
+      "of": "308ba25e",
+      "at": [
+        "carmel-christian:pipeline.headline"
+      ],
+      "t": "Cinq engagements en Division I sur les promotions 2024–26 — tous en basketball, et tous en mid-major. Zéro Power 4."
+    },
+    {
+      "text": "Built from the school’s official \"Next Steps\" college-commit roster; division and conference labels were added by the researcher from each college’s NCAA status.",
+      "of": "c081cbd3",
+      "at": [
+        "carmel-christian:pipeline.subhead"
+      ],
+      "t": "Établi à partir du roster officiel « Next Steps » des engagements universitaires de l'école ; les étiquettes de division et de conférence ont été ajoutées par le chercheur d'après le statut NCAA de chaque université."
+    },
+    {
+      "text": "(all divisions, 2024–26)",
+      "of": "a4d94bc6",
+      "at": [
+        "carmel-christian:pipeline.funnel[0].hint"
+      ],
+      "t": "(toutes divisions, 2024–26)"
+    },
+    {
+      "text": "(all basketball)",
+      "of": "dc8552e8",
+      "at": [
+        "carmel-christian:pipeline.funnel[1].hint"
+      ],
+      "t": "(tout en basketball)"
+    },
+    {
+      "text": "All five D1 commits are basketball players who signed with mid-major programs — Big South and Sun Belt. No Carmel signee in this window went to a Power 4 school. Kam Taylor reached the ACC (Florida State) only later through the transfer portal, not as a Carmel commit.",
+      "of": "1c6929dd",
+      "at": [
+        "carmel-christian:pipeline.funnelNote"
+      ],
+      "t": "Les cinq engagements D1 sont des joueurs de basketball ayant signé avec des programmes mid-major — Big South et Sun Belt. Aucun signataire de Carmel sur cette période n'est allé dans une école Power 4. Kam Taylor n'a atteint l'ACC (Florida State) que plus tard via le transfer portal, non en tant qu'engagement de Carmel."
+    },
+    {
+      "text": "Outside basketball, Carmel’s recent signees land overwhelmingly in NCAA Division II and III: baseball to Lander (D2), Ferrum (D3) and USC Aiken (D2); basketball also to Fayetteville State (D2) and Johnson & Wales (D3); volleyball to Winston-Salem State (D2); plus golf, tennis and dance signees. A D2/D3 offer is the common outcome, with basketball the one sport that reliably produces D1.",
+      "of": "47f8e807",
+      "at": [
+        "carmel-christian:pipeline.realityCheck"
+      ],
+      "t": "En dehors du basketball, les signataires récents de Carmel se retrouvent en très large majorité en NCAA Division II et III : baseball vers Lander (D2), Ferrum (D3) et USC Aiken (D2) ; basketball aussi vers Fayetteville State (D2) et Johnson & Wales (D3) ; volley-ball vers Winston-Salem State (D2) ; plus des signataires en golf, tennis et danse. Une offre D2/D3 est l'issue la plus courante, le basketball étant le seul sport qui produit régulièrement de la D1."
+    },
+    {
+      "text": "Cade Tyson (’22) was 2022 NC Mr. Basketball and left as the program’s recruiting headliner (Belmont → UNC → Minnesota; a 2026 NBA G League Draft Combine / Portsmouth invitee). Jaeden Mustaf, all-state at Carmel and son of ex-NBA Jerrod Mustaf, led the 2022–23 team to 28–4 and the state final before Georgia Tech → Indiana. Cody Peck (6'10\", four-star, top-100 → Dayton) is often linked to Carmel but played only two seasons there and graduated elsewhere — he is not a Carmel commit.",
+      "of": "e4053346",
+      "at": [
+        "carmel-christian:pipeline.rankedRecruits"
+      ],
+      "t": "Cade Tyson ('22) a été le 2022 NC Mr. Basketball et a quitté le programme comme sa tête d'affiche du recrutement (Belmont → UNC → Minnesota ; invité au 2026 NBA G League Draft Combine / Portsmouth). Jaeden Mustaf, all-state à Carmel et fils de l'ex-NBA Jerrod Mustaf, a mené l'équipe 2022–23 à 28–4 et à la finale de l'État avant Georgia Tech → Indiana. Cody Peck (6'10\", quatre étoiles, top-100 → Dayton) est souvent associé à Carmel mais n'y a joué que deux saisons et a obtenu son diplôme ailleurs — il n'est pas un engagement de Carmel."
+    },
+    {
+      "text": "Level labels (P4 / D1 / D2 / D3) and conferences were added by the researcher from each college’s NCAA status — they are not on the school’s list. P4 = SEC · Big Ten · ACC · Big 12. The D2/D3 rows are a representative sample of the non-D1 signees on the \"Next Steps\" roster, not the full list.",
+      "of": "bfc7f408",
+      "at": [
+        "carmel-christian:pipeline.rosterNote"
+      ],
+      "t": "Les étiquettes de niveau (P4 / D1 / D2 / D3) et les conférences ont été ajoutées par le chercheur d'après le statut NCAA de chaque université — elles ne figurent pas sur la liste de l'école. P4 = SEC · Big Ten · ACC · Big 12. Les lignes D2/D3 constituent un échantillon représentatif des signataires non-D1 du roster « Next Steps », non la liste complète."
+    },
+    {
+      "text": "No confirmed professional athlete — but an NC Mr. Basketball and a high-major recruiting pipeline out of the basketball program.",
+      "of": "c22b2305",
+      "at": [
+        "carmel-christian:honors.headline"
+      ],
+      "t": "Aucun athlète professionnel confirmé — mais un NC Mr. Basketball et un pipeline de recrutement de haut niveau issu du programme de basketball."
+    },
+    {
+      "text": "Carmel does not maintain a pro-alumni tracker, and no alumnus is a confirmed pro; the names below are recruiting and player-of-the-year honors.",
+      "of": "5a04a4c3",
+      "at": [
+        "carmel-christian:honors.subhead"
+      ],
+      "t": "Carmel ne tient pas de suivi des anciens élèves professionnels, et aucun ancien n'est un professionnel confirmé ; les noms ci-dessous relèvent du recrutement et des distinctions de joueur de l'année."
+    },
+    {
+      "text": "Cade Tyson (’22) — 2022 North Carolina Mr. Basketball, averaging 24.0 ppg as a senior and scoring 31 in the state-title win over Greensboro Day. Belmont → UNC → Minnesota; a 2026 NBA G League Draft Combine and Portsmouth invitee (a draft prospect, not yet a pro).",
+      "of": "0c9f9c83",
+      "at": [
+        "carmel-christian:honors.honors[0].text"
+      ],
+      "t": "Cade Tyson ('22) — 2022 North Carolina Mr. Basketball, avec une moyenne de 24.0 ppg en terminale et 31 points dans la victoire au titre de l'État sur Greensboro Day. Belmont → UNC → Minnesota ; invité au 2026 NBA G League Draft Combine et à Portsmouth (un prospect de draft, pas encore professionnel)."
+    },
+    {
+      "text": "Statewide, 1 per year",
+      "of": "5d12f0e0",
+      "at": [
+        "carmel-christian:honors.honors[0].tag"
+      ],
+      "t": "À l'échelle de l'État, 1 par an"
+    },
+    {
+      "text": "High-major recruiting",
+      "of": "a34eb12d",
+      "at": [
+        "carmel-christian:honors.honors[1].label"
+      ],
+      "t": "Recrutement de haut niveau"
+    },
+    {
+      "text": "Jaeden Mustaf — all-state at Carmel, led the 2022–23 team to 28–4 and the state final, and the son of ex-NBA player Jerrod Mustaf. Georgia Tech → Indiana (April 2026). He transferred in from DeMatha; whether he graduated from Carmel is unconfirmed.",
+      "of": "70cace08",
+      "at": [
+        "carmel-christian:honors.honors[1].text"
+      ],
+      "t": "Jaeden Mustaf — all-state à Carmel, a mené l'équipe 2022–23 à 28–4 et à la finale de l'État, et fils de l'ex-joueur NBA Jerrod Mustaf. Georgia Tech → Indiana (avril 2026). Il est arrivé par transfert de DeMatha ; le fait qu'il ait obtenu son diplôme à Carmel n'est pas confirmé."
+    },
+    {
+      "text": "National recruit",
+      "of": "172db871",
+      "at": [
+        "carmel-christian:honors.honors[1].tag"
+      ],
+      "t": "Recrue nationale"
+    },
+    {
+      "text": "All-conference",
+      "of": "08950675",
+      "at": [
+        "carmel-christian:honors.honors[2].label"
+      ],
+      "t": "All-conference"
+    },
+    {
+      "text": "Kam Taylor (’24) — first-team All-Big South (18.9 ppg as a sophomore) at UNC Asheville before transferring to Florida State.",
+      "of": "e89d8142",
+      "at": [
+        "carmel-christian:honors.honors[2].text"
+      ],
+      "t": "Kam Taylor ('24) — first-team All-Big South (18.9 ppg en deuxième année) à UNC Asheville avant de rejoindre Florida State par transfert."
+    },
+    {
+      "text": "Athletic Director Grant Coffey leads the Cougars program; individual head-coach names, tenures and records are not published.",
+      "of": "dffb827e",
+      "at": [
+        "carmel-christian:coaching.headline"
+      ],
+      "t": "L'Athletic Director Grant Coffey dirige le programme Cougars ; les noms, durées de mandat et bilans des entraîneurs principaux ne sont pas publiés."
+    },
+    {
+      "text": "Athletic Director: Grant Coffey, BEd, CAA.",
+      "of": "b5c01669",
+      "at": [
+        "carmel-christian:coaching.subhead"
+      ],
+      "t": "Athletic Director : Grant Coffey, BEd, CAA."
+    },
+    {
+      "text": "Carmel’s athletics pages reference a coaches directory but list no head-coach names, tenures or career records. Those details are unpublished on the pages fetched — a deeper pass (school directory, press) would be needed to populate a coaching ledger.",
+      "of": "b89852f4",
+      "at": [
+        "carmel-christian:coaching.worthKnowing"
+      ],
+      "t": "Les pages athlétiques de Carmel font référence à un annuaire des entraîneurs mais ne mentionnent ni noms, ni durées de mandat, ni bilans de carrière des entraîneurs principaux. Ces détails ne sont pas publiés sur les pages récupérées — un passage plus approfondi (annuaire de l'école, presse) serait nécessaire pour renseigner un registre des entraîneurs."
+    },
+    {
+      "text": "A first-wave NIL deal for a Carmel basketball alumnus — Bryce Slay signed with a national brand in August 2025.",
+      "of": "f7263566",
+      "at": [
+        "carmel-christian:national.headline"
+      ],
+      "t": "Un premier accord NIL pour un ancien élève basketteur de Carmel — Bryce Slay a signé avec une marque nationale en août 2025."
+    },
+    {
+      "text": "Carmel competes in NCISAA 4A, the top private-school classification; no team national-poll ranking is published.",
+      "of": "9672ce9d",
+      "at": [
+        "carmel-christian:national.subhead"
+      ],
+      "t": "Carmel concourt en NCISAA 4A, la plus haute classification des écoles privées ; aucun classement national d'équipe n'est publié."
+    },
+    {
+      "text": "4A",
+      "of": "58e33b86",
+      "at": [
+        "carmel-christian:national.stats[0].value"
+      ],
+      "t": "4A"
+    },
+    {
+      "text": "NCISAA top classification",
+      "of": "fa438285",
+      "at": [
+        "carmel-christian:national.stats[0].label"
+      ],
+      "t": "Classification supérieure NCISAA"
+    },
+    {
+      "text": "Aug 12 2025",
+      "of": "2022a34e",
+      "at": [
+        "carmel-christian:national.stats[1].value"
+      ],
+      "t": "12 août 2025"
+    },
+    {
+      "text": "Bryce Slay NIL deal announced",
+      "of": "94a5b751",
+      "at": [
+        "carmel-christian:national.stats[1].label"
+      ],
+      "t": "Accord NIL de Bryce Slay annoncé"
+    },
+    {
+      "text": "D1 basketball signees, 2024–26",
+      "of": "a969a39e",
+      "at": [
+        "carmel-christian:national.stats[2].label"
+      ],
+      "t": "Signataires D1 en basketball, 2024–26"
+    },
+    {
+      "text": "August 12, 2025",
+      "of": "455a4bac",
+      "at": [
+        "carmel-christian:national.nil[0].date"
+      ],
+      "t": "12 août 2025"
+    },
+    {
+      "text": "Class of 2025 basketball alumnus Bryce Slay signed his first NIL deal — with College HUNKS (College Hunks Hauling Junk & Moving) — described as among the first Charlotte high-school graduates to secure such an agreement. No dollar figure was disclosed; the deal was initiated by his parents, Tamar (ex-Charlotte Bobcats) and Celeste Slay. Slay had committed to Marshall.",
+      "of": "40ac5c1e",
+      "at": [
+        "carmel-christian:national.nil[0].text"
+      ],
+      "t": "L'ancien élève basketteur de la Class of 2025 Bryce Slay a signé son premier accord NIL — avec College HUNKS (College Hunks Hauling Junk & Moving) — décrit comme l'un des premiers diplômés du secondaire de Charlotte à décrocher un tel accord. Aucun montant en dollars n'a été divulgué ; l'accord a été initié par ses parents, Tamar (ex-Charlotte Bobcats) et Celeste Slay. Slay s'était engagé à Marshall."
+    },
+    {
+      "text": "CARMEL'S FIRST",
+      "of": "6bfc1131",
+      "at": [
+        "carmel-christian:national.nil[0].tag"
+      ],
+      "t": "LA PREMIÈRE DE CARMEL"
     }
   ]
 }

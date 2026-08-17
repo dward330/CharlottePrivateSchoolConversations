@@ -34,6 +34,7 @@ TOPIC_NAMES = {
 }
 SCHOOL_NAMES = {
     "cannon": "Cannon School",
+    "carmel-christian": "Carmel Christian School",
     "charlotte-christian": "Charlotte Christian School",
     "charlotte-country-day": "Charlotte Country Day School",
     "charlotte-latin": "Charlotte Latin School",

@@ -134,7 +134,9 @@
       "at": [
         "providence-day:coverage.facts[2].label",
         "charlotte-country-day:coverage.facts[2].label",
-        "cannon:cost.fees[3].label"
+        "cannon:cost.fees[3].label",
+        "carmel-christian:coverage.facts[4].label",
+        "carmel-christian:cost.fees[4].label"
       ],
       "t": "Vin chèche an reta"
     },
@@ -152,7 +154,8 @@
       "at": [
         "providence-day:coverage.facts[3].label",
         "charlotte-christian:coverage.facts[3].label",
-        "cannon:coverage.facts[1].label"
+        "cannon:coverage.facts[1].label",
+        "carmel-christian:coverage.facts[0].label"
       ],
       "t": "Anvan lekòl"
     },
@@ -202,7 +205,8 @@
       "at": [
         "providence-day:cost.periodsLabel",
         "charlotte-christian:cost.periodsLabel",
-        "charlotte-country-day:cost.periodsLabel"
+        "charlotte-country-day:cost.periodsLabel",
+        "carmel-christian:cost.periodsLabel"
       ],
       "t": "9 mwa faktirasyon"
     },
@@ -1419,7 +1423,8 @@
       "text": "Billed",
       "of": "b4c012ed",
       "at": [
-        "charlotte-latin:cost.fees[0].label"
+        "charlotte-latin:cost.fees[0].label",
+        "carmel-christian:cost.fees[0].label"
       ],
       "t": "Faktire"
     },
@@ -1438,7 +1443,8 @@
         "charlotte-latin:cost.fees[1].label",
         "charlotte-christian:cost.fees[0].label",
         "cannon:cost.fees[0].label",
-        "covenant-day:cost.fees[2].label"
+        "covenant-day:cost.fees[2].label",
+        "carmel-christian:cost.fees[5].label"
       ],
       "t": "Frè enskripsyon"
     },
@@ -1448,7 +1454,9 @@
       "at": [
         "charlotte-latin:cost.fees[1].value",
         "charlotte-latin:cost.fees[2].value",
-        "charlotte-latin:cost.fees[3].value"
+        "charlotte-latin:cost.fees[3].value",
+        "carmel-christian:cost.fees[5].value",
+        "carmel-christian:cost.fees[6].value"
       ],
       "t": "pa pibliye"
     },
@@ -1639,7 +1647,8 @@
         "charlotte-latin:dayInside.wordsTitle",
         "charlotte-christian:dayInside.wordsTitle",
         "charlotte-country-day:dayInside.wordsTitle",
-        "cannon:dayInside.wordsTitle"
+        "cannon:dayInside.wordsTitle",
+        "carmel-christian:dayInside.wordsTitle"
       ],
       "t": "Pwogram nan, nan pwòp mo lekòl la"
     },
@@ -3113,7 +3122,8 @@
       "of": "966da620",
       "at": [
         "charlotte-country-day:coverage.facts[1].label",
-        "covenant-day:cost.fees[0].label"
+        "covenant-day:cost.fees[0].label",
+        "carmel-christian:coverage.facts[3].label"
       ],
       "t": "San randevou"
     },
@@ -5660,6 +5670,734 @@
         "davidson-day:verdict.checklist[8]"
       ],
       "t": "Poukisa yo te retire paj Extended Care yo, epi kote m ka li deskripsyon pwogram aktyèl la?"
+    },
+    {
+      "text": "The Extended Day Program covers K through grade 8 until 6:00 p.m., split between the kindergarten Young Cougars Club and After School care for grades 1–8.",
+      "of": "62e5ca2f",
+      "at": [
+        "carmel-christian:coverage.headline"
+      ],
+      "t": "Pwogram Extended Day la kouvri depi K jiska klas 8 jiska 6:00 p.m., separe ant Young Cougars Club matènèl la ak After School care pou klas 1–8."
+    },
+    {
+      "text": "Before-school care opens at 7:30 a.m. for CCS students, and a longer WEE-School sibling window runs to 9:00 a.m. The whole program is built on the school’s “Grow and Go” mission — “GROW to become followers of Christ and GO make Him known to the world.”",
+      "of": "9322bbc1",
+      "at": [
+        "carmel-christian:coverage.subhead"
+      ],
+      "t": "Swen anvan lekòl la louvri a 7:30 a.m. pou elèv CCS yo, epi gen yon fenèt WEE-School pi long pou frè ak sè ki mache jiska 9:00 a.m. Tout pwogram nan bati sou misyon “Grow and Go” lekòl la — “GROW to become followers of Christ and GO make Him known to the world.”"
+    },
+    {
+      "text": "Prices on the bars are the **full-time monthly rate — 5 days a week**, billed over 9 months. Each session is also sold at 3 days a week for less, and drop-in at a flat per-day rate; open **The Cost Planner** below to price any combination.",
+      "of": "c3ac9dbd",
+      "at": [
+        "carmel-christian:coverage.basisNote"
+      ],
+      "t": "Pri ki sou ba yo se **tarif chak mwa pou tan konplè — 5 jou pa semèn**, faktire sou 9 mwa. Chak sesyon vann tou a 3 jou pa semèn pou mwens chè, epi drop-in a yon tarif fiks pa jou; louvri **The Cost Planner** anba a pou kalkile nenpòt konbinezon."
+    },
+    {
+      "text": "starts 1:15",
+      "of": "e1999275",
+      "at": [
+        "carmel-christian:coverage.rows[0].dismissal"
+      ],
+      "t": "kòmanse 1:15"
+    },
+    {
+      "text": "grades 1–8 · K after YCC",
+      "of": "5941acd2",
+      "at": [
+        "carmel-christian:coverage.rows[1].dismissal"
+      ],
+      "t": "klas 1–8 · K apre YCC"
+    },
+    {
+      "text": "CCS students **7:30–8:00 a.m.** ($110/mo 5-day); CCS siblings in the WEE School run **7:30–9:00 a.m.** ($220/mo 5-day)",
+      "of": "2b3f3124",
+      "at": [
+        "carmel-christian:coverage.facts[0].text"
+      ],
+      "t": "Elèv CCS **7:30–8:00 a.m.** ($110/mo 5-day); frè ak sè CCS nan WEE School la **7:30–9:00 a.m.** ($220/mo 5-day)"
+    },
+    {
+      "text": "After YCC",
+      "of": "01d36a04",
+      "at": [
+        "carmel-christian:coverage.facts[1].label"
+      ],
+      "t": "Apre YCC"
+    },
+    {
+      "text": "kindergarten YCC children join the elementary After School group for the last hour at **5:00 p.m.**; Middle School students arrive by 3:30",
+      "of": "804cd4b8",
+      "at": [
+        "carmel-christian:coverage.facts[1].text"
+      ],
+      "t": "timoun matènèl YCC yo antre nan gwoup After School elemantè a pou dènye èdtan an a **5:00 p.m.**; elèv Middle School yo rive anvan 3:30"
+    },
+    {
+      "text": "Latest pickup",
+      "of": "43e5f056",
+      "at": [
+        "carmel-christian:coverage.facts[2].label"
+      ],
+      "t": "Dènye lè pou pran timoun"
+    },
+    {
+      "text": "6:00 p.m.",
+      "of": "a95ad622",
+      "at": [
+        "carmel-christian:coverage.facts[2].text"
+      ],
+      "t": "6:00 p.m."
+    },
+    {
+      "text": "$30/day per student for YCC and After School",
+      "of": "118f5914",
+      "at": [
+        "carmel-christian:coverage.facts[3].text"
+      ],
+      "t": "$30/day pou chak elèv pou YCC ak After School"
+    },
+    {
+      "text": "$10 for the first 10 minutes, then $10 for each additional 10 minutes",
+      "of": "e17a0ee5",
+      "at": [
+        "carmel-christian:coverage.facts[4].text"
+      ],
+      "t": "$10 pou premye 10 minit yo, apre sa $10 pou chak 10 minit anplis"
+    },
+    {
+      "text": "Closed",
+      "of": "3201cae5",
+      "at": [
+        "carmel-christian:coverage.facts[5].label"
+      ],
+      "t": "Fèmen"
+    },
+    {
+      "text": "the Friday before Christmas break and the last day of school; YCC and After School run a shortened schedule on early-dismissal days",
+      "of": "b373c095",
+      "at": [
+        "carmel-christian:coverage.facts[5].text"
+      ],
+      "t": "Vandredi anvan vakans Nwèl la ak dènye jou lekòl la; YCC ak After School mache sou yon orè ki pi kout nan jou yo lage bonè"
+    },
+    {
+      "text": "A free **Morning Sibling Care** exists at 7:35 a.m. in the Worship Center, but it is NOT part of the paid Extended Day program — it is separate supervised early drop-off.",
+      "of": "9e33f7d9",
+      "at": [
+        "carmel-christian:coverage.flags[0].text"
+      ],
+      "t": "Gen yon **Morning Sibling Care** gratis a 7:35 a.m. nan Worship Center la, men li PA fè pati pwogram Extended Day peye a — se yon drop-off bonè apa ak siveyans."
+    },
+    {
+      "text": "The 2026-2027 web overview shows Extended Day as **“Registration for 2026-2027 is now full.”** That is an operational capacity status, not a change to the published hours or prices, but it means a mid-year applicant may face a waitlist.",
+      "of": "b5ece373",
+      "at": [
+        "carmel-christian:coverage.flags[1].text"
+      ],
+      "t": "Apèsi sou entènèt 2026-2027 la montre Extended Day kòm **“Registration for 2026-2027 is now full.”** Sa se yon estati kapasite operasyonèl, se pa yon chanjman nan lè oswa pri ki pibliye yo, men sa vle di yon moun ki aplike nan mitan ane a ka jwenn yon lis datant."
+    },
+    {
+      "text": "Every session is priced as a flat monthly rate by days per week — 5-day, 3-day, or drop-in — billed monthly over 9 months through FACTS.",
+      "of": "56d6eb4a",
+      "at": [
+        "carmel-christian:cost.headline"
+      ],
+      "t": "Chak sesyon gen pri kòm yon tarif fiks chak mwa dapre jou pa semèn — 5-day, 3-day, oswa drop-in — faktire chak mwa sou 9 mwa atravè FACTS."
+    },
+    {
+      "text": "All rates below are published in the school’s 2026-2027 Extended Day Handbook, so nothing here is projected. The rate does not scale linearly with days, so a 3-day schedule is its own published figure rather than a fraction of the 5-day price.",
+      "of": "30b2553f",
+      "at": [
+        "carmel-christian:cost.subhead"
+      ],
+      "t": "Tout tarif anba yo pibliye nan Extended Day Handbook 2026-2027 lekòl la, kidonk anyen isit la pa yon estimasyon. Tarif la pa monte an liy dwat ak jou, kidonk yon orè 3-day se pwòp chif pibliye pa li menm olye yon fraksyon pri 5-day la."
+    },
+    {
+      "text": "Before School · 7:30–8:00",
+      "of": "9b46e1ea",
+      "at": [
+        "carmel-christian:cost.rows[0].label"
+      ],
+      "t": "Before School · 7:30–8:00"
+    },
+    {
+      "text": "Before School (CCS students) · 7:30–8:00 am",
+      "of": "37ff2124",
+      "at": [
+        "carmel-christian:cost.rows[0].panelLabel"
+      ],
+      "t": "Before School (elèv CCS) · 7:30–8:00 am"
+    },
+    {
+      "text": "Before School · WEE sibling · 7:30–9:00",
+      "of": "54bb53ef",
+      "at": [
+        "carmel-christian:cost.rows[1].label"
+      ],
+      "t": "Before School · frè/sè WEE · 7:30–9:00"
+    },
+    {
+      "text": "Before School (CCS sibling in WEE School) · 7:30–9:00 am",
+      "of": "bbf34e3f",
+      "at": [
+        "carmel-christian:cost.rows[1].panelLabel"
+      ],
+      "t": "Before School (frè/sè CCS nan WEE School) · 7:30–9:00 am"
+    },
+    {
+      "text": "Young Cougars Club · 1:15–3:00",
+      "of": "a8e82589",
+      "at": [
+        "carmel-christian:cost.rows[2].label"
+      ],
+      "t": "Young Cougars Club · 1:15–3:00"
+    },
+    {
+      "text": "Young Cougars Club (K) · 1:15–3:00 pm",
+      "of": "50d049e4",
+      "at": [
+        "carmel-christian:cost.rows[2].panelLabel"
+      ],
+      "t": "Young Cougars Club (K) · 1:15–3:00 pm"
+    },
+    {
+      "text": "After School / After YCC · 3:00–6:00",
+      "of": "29866daa",
+      "at": [
+        "carmel-christian:cost.rows[3].label"
+      ],
+      "t": "After School / After YCC · 3:00–6:00"
+    },
+    {
+      "text": "After School / After YCC · 3:00–6:00 pm",
+      "of": "3c1d04e5",
+      "at": [
+        "carmel-christian:cost.rows[3].panelLabel"
+      ],
+      "t": "After School / After YCC · 3:00–6:00 pm"
+    },
+    {
+      "text": "monthly over 9 months (FACTS / Family Portal)",
+      "of": "a131f345",
+      "at": [
+        "carmel-christian:cost.fees[0].value"
+      ],
+      "t": "chak mwa sou 9 mwa (FACTS / Family Portal)"
+    },
+    {
+      "text": "Drop-in (YCC & After School)",
+      "of": "7c4a4eb2",
+      "at": [
+        "carmel-christian:cost.fees[1].label"
+      ],
+      "t": "Drop-in (YCC & After School)"
+    },
+    {
+      "text": "$30 / day per student",
+      "of": "68e160cb",
+      "at": [
+        "carmel-christian:cost.fees[1].value"
+      ],
+      "t": "$30 / day pou chak elèv"
+    },
+    {
+      "text": "Drop-in (Before School, CCS)",
+      "of": "a8b91af7",
+      "at": [
+        "carmel-christian:cost.fees[2].label"
+      ],
+      "t": "Drop-in (Before School, CCS)"
+    },
+    {
+      "text": "$10 / day",
+      "of": "d77c3c89",
+      "at": [
+        "carmel-christian:cost.fees[2].value"
+      ],
+      "t": "$10 / day"
+    },
+    {
+      "text": "Drop-in (Before School, WEE sibling)",
+      "of": "40248fc1",
+      "at": [
+        "carmel-christian:cost.fees[3].label"
+      ],
+      "t": "Drop-in (Before School, frè/sè WEE)"
+    },
+    {
+      "text": "$20 / day",
+      "of": "7c65be6e",
+      "at": [
+        "carmel-christian:cost.fees[3].value"
+      ],
+      "t": "$20 / day"
+    },
+    {
+      "text": "$10 first 10 min, then $10 / additional 10 min",
+      "of": "39f7d23c",
+      "at": [
+        "carmel-christian:cost.fees[4].value"
+      ],
+      "t": "$10 premye 10 min, apre $10 / chak 10 min anplis"
+    },
+    {
+      "text": "Sibling discount",
+      "of": "a1cb668c",
+      "at": [
+        "carmel-christian:cost.fees[6].label"
+      ],
+      "t": "Rabè pou frè ak sè"
+    },
+    {
+      "text": "Enrollment is 5-day, 3-day, or drop-in, first-come first-serve and space-limited. The WEE-School Before School tier is a separate rate for CCS siblings in the WEE School, not a discount on the standard rate.",
+      "of": "8e7efb62",
+      "at": [
+        "carmel-christian:cost.fees[7].label"
+      ],
+      "t": "Enskripsyon an se 5-day, 3-day, oswa drop-in, premye moun rive premye moun sèvi epi plas la limite. Nivo Before School WEE-School la se yon tarif apa pou frè ak sè CCS nan WEE School la, se pa yon rabè sou tarif estanda a."
+    },
+    {
+      "text": "No annual dollar total is published. The handbook gives monthly rates billed over **9 months** but never states a school-year figure, so the totals here are the monthly rate × 9.",
+      "of": "cbf80efc",
+      "at": [
+        "carmel-christian:cost.flags[0].text"
+      ],
+      "t": "Pa gen okenn total anyèl an dola ki pibliye. Handbook la bay tarif chak mwa faktire sou **9 mwa** men li pa janm bay yon chif pou ane lekòl la, kidonk total isit yo se tarif chak mwa a × 9."
+    },
+    {
+      "text": "No registration fee and no sibling discount are published for Extended Day. Neither is stated to exist or not exist — they are simply absent from the handbook.",
+      "of": "da328bcf",
+      "at": [
+        "carmel-christian:cost.flags[1].text"
+      ],
+      "t": "Pa gen okenn frè enskripsyon ni rabè pou frè ak sè ki pibliye pou Extended Day. Ni youn ni lòt pa deklare eksziste oswa pa eksziste — yo tou senpleman absan nan handbook la."
+    },
+    {
+      "text": "Only 5-day and 3-day rates are published for each session — there is no separate 1-, 2- or 4-day rate, so the intermediate columns show “—.” Occasional days go through the flat drop-in rate instead.",
+      "of": "618b6d68",
+      "at": [
+        "carmel-christian:cost.flags[2].text"
+      ],
+      "t": "Se sèlman tarif 5-day ak 3-day ki pibliye pou chak sesyon — pa gen okenn tarif apa pou 1-, 2- oswa 4-day, kidonk kolòn entèmedyè yo montre “—.” Jou okazyonèl yo pase nan tarif fiks drop-in an pito."
+    },
+    {
+      "text": "The kindergarten afternoon is the Young Cougars Club — a structured, literature-based program, not a holding room — while grades 1–8 move into After School care with homework space.",
+      "of": "9c7606ff",
+      "at": [
+        "carmel-christian:dayInside.headline"
+      ],
+      "t": "Apremidi matènèl la se Young Cougars Club — yon pwogram estriktire, ki baze sou literati, se pa yon sal pou tann — pandan klas 1–8 antre nan After School care ak espas pou devwa."
+    },
+    {
+      "text": "Young Cougars Club runs three rotations — story, art and activities — around a weekly educational theme, then joins the elementary After School group for the last hour of the day.",
+      "of": "ee2cbaf5",
+      "at": [
+        "carmel-christian:dayInside.subhead"
+      ],
+      "t": "Young Cougars Club mache twa wotasyon — istwa, atizay ak aktivite — otou yon tèm edikatif chak semèn, apre li antre nan gwoup After School elemantè a pou dènye èdtan jounen an."
+    },
+    {
+      "text": "The kindergarten afternoon (Young Cougars Club)",
+      "of": "78cac045",
+      "at": [
+        "carmel-christian:dayInside.rhythmTitle"
+      ],
+      "t": "Apremidi matènèl la (Young Cougars Club)"
+    },
+    {
+      "text": "1:15",
+      "of": "11e2c904",
+      "at": [
+        "carmel-christian:dayInside.rhythm[0].time"
+      ],
+      "t": "1:15"
+    },
+    {
+      "text": "YCC begins",
+      "of": "6f29b6b8",
+      "at": [
+        "carmel-christian:dayInside.rhythm[0].name"
+      ],
+      "t": "YCC kòmanse"
+    },
+    {
+      "text": "Kindergarten children gather for the structured, literature-based afternoon around the week’s theme",
+      "of": "5211bb3c",
+      "at": [
+        "carmel-christian:dayInside.rhythm[0].detail"
+      ],
+      "t": "Timoun matènèl yo reyini pou apremidi estriktire a, ki baze sou literati, otou tèm semèn nan"
+    },
+    {
+      "text": "Rotations",
+      "of": "817167e4",
+      "at": [
+        "carmel-christian:dayInside.rhythm[1].time"
+      ],
+      "t": "Wotasyon"
+    },
+    {
+      "text": "Story · art · activities",
+      "of": "5367ce48",
+      "at": [
+        "carmel-christian:dayInside.rhythm[1].name"
+      ],
+      "t": "Istwa · atizay · aktivite"
+    },
+    {
+      "text": "Three rotations — a story block, an art block and an activities block — built on “exciting and educational weekly themes”",
+      "of": "d0f0ca6c",
+      "at": [
+        "carmel-christian:dayInside.rhythm[1].detail"
+      ],
+      "t": "Twa wotasyon — yon blòk istwa, yon blòk atizay ak yon blòk aktivite — bati sou “exciting and educational weekly themes”"
+    },
+    {
+      "text": "3:00",
+      "of": "b8907e28",
+      "at": [
+        "carmel-christian:dayInside.rhythm[2].time"
+      ],
+      "t": "3:00"
+    },
+    {
+      "text": "Into After Care",
+      "of": "dfcc2fbe",
+      "at": [
+        "carmel-christian:dayInside.rhythm[2].name"
+      ],
+      "t": "Nan After Care"
+    },
+    {
+      "text": "YCC children move into After School care alongside grades 1–8; Middle School students arrive by 3:30",
+      "of": "afde5739",
+      "at": [
+        "carmel-christian:dayInside.rhythm[2].detail"
+      ],
+      "t": "Timoun YCC yo antre nan After School care ansanm ak klas 1–8; elèv Middle School yo rive anvan 3:30"
+    },
+    {
+      "text": "5:00",
+      "of": "769a4fee",
+      "at": [
+        "carmel-christian:dayInside.rhythm[3].time"
+      ],
+      "t": "5:00"
+    },
+    {
+      "text": "One group",
+      "of": "8ed457a4",
+      "at": [
+        "carmel-christian:dayInside.rhythm[3].name"
+      ],
+      "t": "Yon sèl gwoup"
+    },
+    {
+      "text": "After-YCC children join the elementary After School group for the final hour, through 6:00 p.m. pickup",
+      "of": "e655351e",
+      "at": [
+        "carmel-christian:dayInside.rhythm[3].detail"
+      ],
+      "t": "Timoun apre YCC yo antre nan gwoup After School elemantè a pou dènye èdtan an, jiska lè pou pran timoun a 6:00 p.m."
+    },
+    {
+      "text": "Grow and Go",
+      "of": "ec2bba3b",
+      "at": [
+        "carmel-christian:dayInside.words[0]"
+      ],
+      "t": "Grow and Go"
+    },
+    {
+      "text": "structured",
+      "of": "e50a3e06",
+      "at": [
+        "carmel-christian:dayInside.words[1]"
+      ],
+      "t": "estriktire"
+    },
+    {
+      "text": "literature based",
+      "of": "9c9d2ed5",
+      "at": [
+        "carmel-christian:dayInside.words[2]"
+      ],
+      "t": "baze sou literati"
+    },
+    {
+      "text": "weekly themes",
+      "of": "b03cafa8",
+      "at": [
+        "carmel-christian:dayInside.words[3]"
+      ],
+      "t": "tèm chak semèn"
+    },
+    {
+      "text": "story · art · activities",
+      "of": "1ee5b428",
+      "at": [
+        "carmel-christian:dayInside.words[4]"
+      ],
+      "t": "istwa · atizay · aktivite"
+    },
+    {
+      "text": "homework space",
+      "of": "f4993f59",
+      "at": [
+        "carmel-christian:dayInside.words[5]"
+      ],
+      "t": "espas pou devwa"
+    },
+    {
+      "text": "The Extended Day mission is “GROW to become followers of Christ and GO make Him known to the world” (Matthew 28:19–20) — the “Grow and Go” framing. Young Cougars Club is described as “a structured, literature based program with 3 rotations (story, art and activities) with exciting and educational weekly themes.” After School care for grades 1–8 provides space for homework, with a separate area for Middle School students.",
+      "of": "92ef2a7d",
+      "at": [
+        "carmel-christian:dayInside.wordsText"
+      ],
+      "t": "Misyon Extended Day la se “GROW to become followers of Christ and GO make Him known to the world” (Matthew 28:19–20) — fòm “Grow and Go” la. Yo dekri Young Cougars Club kòm “a structured, literature based program with 3 rotations (story, art and activities) with exciting and educational weekly themes.” After School care pou klas 1–8 bay espas pou devwa, ak yon zòn apa pou elèv Middle School yo."
+    },
+    {
+      "text": "Enrichment & music lessons",
+      "of": "d1d141f4",
+      "at": [
+        "carmel-christian:dayInside.catalogTitle"
+      ],
+      "t": "Leson anrichisman ak mizik"
+    },
+    {
+      "text": "Extended Day offers Enrichment Classes and Music Enrichment Lessons within the program, but the **2026-2027 offerings are not yet published** — the school lists them as “coming August 2026,” so no class names, days, grades or fees exist to show yet.",
+      "of": "5aed3be2",
+      "at": [
+        "carmel-christian:dayInside.catalogIntro"
+      ],
+      "t": "Extended Day ofri Enrichment Classes ak Music Enrichment Lessons anndan pwogram nan, men **òf 2026-2027 yo poko pibliye** — lekòl la make yo kòm “coming August 2026,” kidonk pa gen okenn non klas, jou, klas nivo oswa frè ki disponib pou montre pou kounye a."
+    },
+    {
+      "text": "The **2026-2027 enrichment and music-lesson list is not yet published** (“coming August 2026”). No class names, instructors, days, grade bands or per-class fees are available for the coming year.",
+      "of": "96cf3a2b",
+      "at": [
+        "carmel-christian:dayInside.flags[0].text"
+      ],
+      "t": "**Lis anrichisman ak leson mizik 2026-2027 la poko pibliye** (“coming August 2026”). Pa gen okenn non klas, pwofesè, jou, ban nivo klas oswa frè pa klas ki disponib pou ane k ap vini an."
+    },
+    {
+      "text": "No staff-to-child ratio or group size is published for YCC or After School care, and no hour-by-hour schedule is given for the grades 1–8 afternoon beyond “homework space.”",
+      "of": "4e0b96ac",
+      "at": [
+        "carmel-christian:dayInside.flags[1].text"
+      ],
+      "t": "Pa gen okenn rapò anplwaye-ak-timoun ni gwosè gwoup ki pibliye pou YCC oswa After School care, epi pa gen okenn orè èdtan pa èdtan ki bay pou apremidi klas 1–8 la depase “espas pou devwa.”"
+    },
+    {
+      "text": "A single K–8 program that covers the whole work day — 7:30 a.m. to 6:00 p.m. — with fully published, plainly priced rates and a genuinely structured kindergarten afternoon.",
+      "of": "bc92a0c2",
+      "at": [
+        "carmel-christian:verdict.headline"
+      ],
+      "t": "Yon sèl pwogram K–8 ki kouvri tout jounen travay la — 7:30 a.m. rive 6:00 p.m. — ak tarif ki byen pibliye, ki gen pri klè, ansanm ak yon apremidi matènèl ki vrèman estriktire."
+    },
+    {
+      "text": "The open questions are capacity (the year is already “full”), the missing enrichment list, and the unpublished registration fee and sibling discount — exactly what a visit answers.",
+      "of": "018f2ce1",
+      "at": [
+        "carmel-christian:verdict.subhead"
+      ],
+      "t": "Kesyon ki rete louvri yo se kapasite (ane a deja “full”), lis anrichisman ki manke a, ak frè enskripsyon ak rabè frè/sè ki pa pibliye yo — egzakteman sa yon vizit reponn."
+    },
+    {
+      "text": "**Whole-work-day coverage in one program** — before care from 7:30 a.m. and After School to 6:00 p.m., spanning kindergarten through grade 8 without a division gap.",
+      "of": "519eb5f3",
+      "at": [
+        "carmel-christian:verdict.strengths[0]"
+      ],
+      "t": "**Kouvèti tout jounen travay la nan yon sèl pwogram** — swen anvan lekòl depi 7:30 a.m. ak After School jiska 6:00 p.m., ki kouvri depi matènèl jiska klas 8 san yon twou ant divizyon yo."
+    },
+    {
+      "text": "**Fully published, readable pricing** — every session has a 5-day, 3-day and drop-in rate in the handbook, so a family can compute its exact monthly cost before applying.",
+      "of": "8028e9f9",
+      "at": [
+        "carmel-christian:verdict.strengths[1]"
+      ],
+      "t": "**Pri ki byen pibliye, ki fasil pou li** — chak sesyon gen yon tarif 5-day, 3-day ak drop-in nan handbook la, kidonk yon fanmi ka kalkile kòb egzak li chak mwa anvan li aplike."
+    },
+    {
+      "text": "**A structured, literature-based kindergarten afternoon** — Young Cougars Club runs story, art and activities rotations on weekly themes, not undifferentiated supervision.",
+      "of": "540328a0",
+      "at": [
+        "carmel-christian:verdict.strengths[2]"
+      ],
+      "t": "**Yon apremidi matènèl estriktire, ki baze sou literati** — Young Cougars Club mache wotasyon istwa, atizay ak aktivite sou tèm chak semèn, se pa yon senp siveyans san diferans."
+    },
+    {
+      "text": "**A flat drop-in rate exists** — $30/day for YCC and After School — so occasional-need families are not forced into a full contract.",
+      "of": "9499d31c",
+      "at": [
+        "carmel-christian:verdict.strengths[3]"
+      ],
+      "t": "**Gen yon tarif fiks drop-in** — $30/day pou YCC ak After School — kidonk fanmi ki gen bezwen okazyonèl pa fòse antre nan yon kontra konplè."
+    },
+    {
+      "text": "**Homework space for grades 1–8**, with a separate area for Middle School students who arrive by 3:30.",
+      "of": "b8521d95",
+      "at": [
+        "carmel-christian:verdict.strengths[4]"
+      ],
+      "t": "**Espas pou devwa pou klas 1–8**, ak yon zòn apa pou elèv Middle School ki rive anvan 3:30."
+    },
+    {
+      "text": "**A mission-driven, explicitly Christian framing** — the “Grow and Go” mission runs through the whole program.",
+      "of": "e2e1243c",
+      "at": [
+        "carmel-christian:verdict.strengths[5]"
+      ],
+      "t": "**Yon fòm eksplisitman kretyen, ki mennen pa misyon an** — misyon “Grow and Go” la travèse tout pwogram nan."
+    },
+    {
+      "text": "**The 2026-2027 year is already listed as full.** A family applying now may face a waitlist rather than open enrollment.",
+      "of": "bb61be3d",
+      "at": [
+        "carmel-christian:verdict.watchouts[0]"
+      ],
+      "t": "**Ane 2026-2027 la deja make kòm full.** Yon fanmi ki aplike kounye a ka jwenn yon lis datant olye yon enskripsyon louvri."
+    },
+    {
+      "text": "**The enrichment and music-lesson list is not published** for 2026-27 — promised “August 2026,” so families cannot yet see what classes or instruments are offered, on what days, or at what cost.",
+      "of": "21f743d0",
+      "at": [
+        "carmel-christian:verdict.watchouts[1]"
+      ],
+      "t": "**Lis anrichisman ak leson mizik la pa pibliye** pou 2026-27 — pwomèt “August 2026,” kidonk fanmi yo poko ka wè ki klas oswa enstriman yo ofri, ki jou, oswa a ki pri."
+    },
+    {
+      "text": "**No registration fee or sibling discount is published**, so the true cost for a multi-child family cannot be computed from the handbook alone.",
+      "of": "047b9cdc",
+      "at": [
+        "carmel-christian:verdict.watchouts[2]"
+      ],
+      "t": "**Pa gen okenn frè enskripsyon ni rabè frè/sè ki pibliye**, kidonk vrè kòb la pou yon fanmi ki gen plizyè timoun pa ka kalkile ak handbook la sèlman."
+    },
+    {
+      "text": "**No annual dollar total is stated** — only monthly rates billed over 9 months, so the year figure must be derived.",
+      "of": "65d23605",
+      "at": [
+        "carmel-christian:verdict.watchouts[3]"
+      ],
+      "t": "**Pa gen okenn total anyèl an dola ki deklare** — sèlman tarif chak mwa faktire sou 9 mwa, kidonk chif ane a dwe kalkile."
+    },
+    {
+      "text": "**Only 5-day and 3-day contracts are offered**, with no 2- or 4-day rate; anything in between goes through the flat drop-in rate.",
+      "of": "ec181676",
+      "at": [
+        "carmel-christian:verdict.watchouts[4]"
+      ],
+      "t": "**Se sèlman kontra 5-day ak 3-day ki ofri**, san okenn tarif 2- oswa 4-day; tout sa ki nan mitan pase nan tarif fiks drop-in an."
+    },
+    {
+      "text": "**No staff-to-child ratio is published** for either YCC or After School care.",
+      "of": "77d39c2d",
+      "at": [
+        "carmel-christian:verdict.watchouts[5]"
+      ],
+      "t": "**Pa gen okenn rapò anplwaye-ak-timoun ki pibliye** pou ni YCC ni After School care."
+    },
+    {
+      "text": "**Late pickup compounds** at $10 per 10 minutes, with no stated cap.",
+      "of": "106363b0",
+      "at": [
+        "carmel-christian:verdict.watchouts[6]"
+      ],
+      "t": "**Lè pou pran timoun anreta ogmante** a $10 pou chak 10 minit, san okenn limit deklare."
+    },
+    {
+      "text": "Is the 2026-2027 program truly full, and is there a waitlist? How far down are we, and when do spots typically open?",
+      "of": "631347d3",
+      "at": [
+        "carmel-christian:verdict.checklist[0]"
+      ],
+      "t": "Èske pwogram 2026-2027 la vrèman plen, epi èske gen yon lis datant? Ki kote nou ye sou li, epi kilè plas yo abitye louvri?"
+    },
+    {
+      "text": "When will the 2026-27 enrichment and music-lesson list be posted, and what classes and instruments are planned?",
+      "of": "64d73bbf",
+      "at": [
+        "carmel-christian:verdict.checklist[1]"
+      ],
+      "t": "Kilè lis anrichisman ak leson mizik 2026-27 la ap afiche, epi ki klas ak enstriman yo planifye?"
+    },
+    {
+      "text": "Is there a registration fee for Extended Day, and is it per child or per family?",
+      "of": "35bb7a85",
+      "at": [
+        "carmel-christian:verdict.checklist[2]"
+      ],
+      "t": "Èske gen yon frè enskripsyon pou Extended Day, epi èske li se pa timoun oswa pa fanmi?"
+    },
+    {
+      "text": "Is there any sibling discount across the Before School, YCC and After School rates?",
+      "of": "1a9619e1",
+      "at": [
+        "carmel-christian:verdict.checklist[3]"
+      ],
+      "t": "Èske gen okenn rabè pou frè ak sè atravè tarif Before School, YCC ak After School yo?"
+    },
+    {
+      "text": "How many months is Extended Day billed — is it exactly 9, and are there any months (December, June) that are prorated?",
+      "of": "c6cfaf7d",
+      "at": [
+        "carmel-christian:verdict.checklist[4]"
+      ],
+      "t": "Konbyen mwa Extended Day faktire — èske li se egzakteman 9, epi èske gen kèk mwa (Desanm, Jen) ki faktire pwopòsyonèl?"
+    },
+    {
+      "text": "What is the staff-to-child ratio in Young Cougars Club and in After School care?",
+      "of": "c9e315c9",
+      "at": [
+        "carmel-christian:verdict.checklist[5]"
+      ],
+      "t": "Ki rapò anplwaye-ak-timoun nan Young Cougars Club ak nan After School care?"
+    },
+    {
+      "text": "What does the grades 1–8 afternoon actually look like hour by hour — when is snack, homework, outdoor time?",
+      "of": "5ed4273f",
+      "at": [
+        "carmel-christian:verdict.checklist[6]"
+      ],
+      "t": "Kijan apremidi klas 1–8 la ye vrèman èdtan pa èdtan — kilè kolasyon, devwa, tan deyò?"
+    },
+    {
+      "text": "Can we change between 5-day, 3-day and drop-in mid-year, and is there a fee to do so?",
+      "of": "6102ec42",
+      "at": [
+        "carmel-christian:verdict.checklist[7]"
+      ],
+      "t": "Èske nou ka chanje ant 5-day, 3-day ak drop-in nan mitan ane a, epi èske gen yon frè pou fè sa?"
+    },
+    {
+      "text": "How is the late-pickup fee assessed, and is there any cap?",
+      "of": "7a5904fe",
+      "at": [
+        "carmel-christian:verdict.checklist[8]"
+      ],
+      "t": "Kijan frè lè pou pran timoun anreta a kalkile, epi èske gen okenn limit?"
+    },
+    {
+      "text": "Does financial aid apply to Extended Day at all, and to enrichment or music lessons?",
+      "of": "a5f73b88",
+      "at": [
+        "carmel-christian:verdict.checklist[9]"
+      ],
+      "t": "Èske èd finansye aplike a Extended Day ditou, epi a leson anrichisman oswa mizik?"
+    },
+    {
+      "text": "What is Morning Sibling Care at 7:35 a.m., and does it cost anything relative to paid before care?",
+      "of": "7092d9b2",
+      "at": [
+        "carmel-christian:verdict.checklist[10]"
+      ],
+      "t": "Kisa Morning Sibling Care a 7:35 a.m. ye, epi èske li koute anyen konpare ak swen anvan lekòl peye a?"
     }
   ]
 }

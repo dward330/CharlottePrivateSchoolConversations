@@ -388,6 +388,7 @@ import { charlotteCountryDay } from './afterSchoolPrograms/charlotte-country-day
 import { cannon } from './afterSchoolPrograms/cannon.ts'
 import { davidsonDay } from './afterSchoolPrograms/davidson-day.ts'
 import { covenantDay } from './afterSchoolPrograms/covenant-day.ts'
+import { carmelChristian } from './afterSchoolPrograms/carmel-christian.ts'
 
 const PROGRAMS: Record<string, AfterSchoolProgram> = {
   'providence-day': providenceDay,
@@ -396,6 +397,7 @@ const PROGRAMS: Record<string, AfterSchoolProgram> = {
   'charlotte-country-day': charlotteCountryDay,
   cannon: cannon,
   'covenant-day': covenantDay,
+  'carmel-christian': carmelChristian,
   'davidson-day': davidsonDay,
 }
 

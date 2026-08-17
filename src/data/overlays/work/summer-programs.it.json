@@ -43,7 +43,9 @@
         "cannon:catalog.categoryFilters[0].label",
         "cannon:catalog.gradeFilters[0].label",
         "covenant-day:catalog.categoryFilters[0].label",
-        "covenant-day:catalog.gradeFilters[0].label"
+        "covenant-day:catalog.gradeFilters[0].label",
+        "carmel-christian:catalog.categoryFilters[0].label",
+        "carmel-christian:catalog.gradeFilters[0].label"
       ],
       "t": "Tutti"
     },
@@ -10043,6 +10045,882 @@
         "covenant-day:costPlanner.flags[0].text"
       ],
       "t": "Tutte e tre le fasce settimanali sono **stime** — la scuola non pubblica alcun listino attuale dei prezzi per campo; solo i servizi di assistenza aggiuntivi e le politiche sulle quote qui sopra sono le sue cifre attuali."
+    },
+    {
+      "text": "All 36 “Summer Adventures” camps for 2026 — a half-day slate (9 a.m.–12 p.m., Mon–Thu) for rising K through rising 8th grade, priced flat at $180 a four-day week and $150 a three-day week.",
+      "of": "f09ecc79",
+      "at": [
+        "carmel-christian:catalog.headline"
+      ],
+      "t": "Tutti i 36 camp “Summer Adventures” del 2026 — una programmazione a mezza giornata (9 a.m.–12 p.m., Lun–Gio) per i bambini dalla K in salita fino all’8ª classe in salita, con prezzo fisso di $180 a settimana di quattro giorni e $150 a settimana di tre giorni."
+    },
+    {
+      "text": "Six non-contiguous weeks run June 8 – July 23, 2026 (no camps the week of June 22–25). Weeks 2 and 3 are three-day weeks — Juneteenth and July 4 — and are priced down to $150.",
+      "of": "e7c5fb74",
+      "at": [
+        "carmel-christian:catalog.subhead"
+      ],
+      "t": "Sei settimane non contigue vanno dall’8 giugno al 23 luglio 2026 (nessun camp la settimana del 22–25 giugno). Le settimane 2 e 3 sono settimane di tre giorni — Juneteenth e 4 luglio — e hanno un prezzo ridotto a $150."
+    },
+    {
+      "text": "The **full 36-camp slate** is listed — this is the school’s whole published catalog, not a sample. Grades shown are **rising** grades. Per-camp price does not vary; it follows the week type ($180 four-day / $150 three-day). **Categories are inferred** from the camp names — the school prints no category labels — and are flagged below.",
+      "of": "854b3c8c",
+      "at": [
+        "carmel-christian:catalog.intro"
+      ],
+      "t": "È elencata **l’intera programmazione dei 36 camp** — questo è l’intero catalogo pubblicato della scuola, non un campione. Le classi indicate sono classi **in salita**. Il prezzo per camp non varia; segue il tipo di settimana ($180 quattro giorni / $150 tre giorni). Le **categorie sono dedotte** dai nomi dei camp — la scuola non stampa etichette di categoria — e sono segnalate qui sotto."
+    },
+    {
+      "text": "Athletics",
+      "of": "f258c9e2",
+      "at": [
+        "carmel-christian:catalog.categoryFilters[1].label",
+        "carmel-christian:catalog.camps[1].categoryLabel",
+        "carmel-christian:catalog.camps[3].categoryLabel",
+        "carmel-christian:catalog.camps[7].categoryLabel",
+        "carmel-christian:catalog.camps[9].categoryLabel",
+        "carmel-christian:catalog.camps[11].categoryLabel",
+        "carmel-christian:catalog.camps[12].categoryLabel",
+        "carmel-christian:catalog.camps[19].categoryLabel",
+        "carmel-christian:catalog.camps[22].categoryLabel",
+        "carmel-christian:catalog.camps[27].categoryLabel",
+        "carmel-christian:catalog.camps[28].categoryLabel",
+        "carmel-christian:catalog.camps[30].categoryLabel"
+      ],
+      "t": "Atletica"
+    },
+    {
+      "text": "Arts & Crafts",
+      "of": "68d5c3a8",
+      "at": [
+        "carmel-christian:catalog.categoryFilters[2].label",
+        "carmel-christian:catalog.camps[8].categoryLabel",
+        "carmel-christian:catalog.camps[13].categoryLabel",
+        "carmel-christian:catalog.camps[21].categoryLabel",
+        "carmel-christian:catalog.camps[23].categoryLabel",
+        "carmel-christian:catalog.camps[26].categoryLabel",
+        "carmel-christian:catalog.camps[31].categoryLabel",
+        "carmel-christian:catalog.camps[32].categoryLabel"
+      ],
+      "t": "Arti e artigianato"
+    },
+    {
+      "text": "STEM & Engineering",
+      "of": "937b560d",
+      "at": [
+        "carmel-christian:catalog.categoryFilters[3].label",
+        "carmel-christian:catalog.camps[5].categoryLabel",
+        "carmel-christian:catalog.camps[15].categoryLabel",
+        "carmel-christian:catalog.camps[17].categoryLabel",
+        "carmel-christian:catalog.camps[20].categoryLabel",
+        "carmel-christian:catalog.camps[33].categoryLabel"
+      ],
+      "t": "STEM e ingegneria"
+    },
+    {
+      "text": "Cooking",
+      "of": "450b1697",
+      "at": [
+        "carmel-christian:catalog.categoryFilters[4].label",
+        "carmel-christian:catalog.camps[4].categoryLabel",
+        "carmel-christian:catalog.camps[18].categoryLabel"
+      ],
+      "t": "Cucina"
+    },
+    {
+      "text": "Faith",
+      "of": "4eb1b257",
+      "at": [
+        "carmel-christian:catalog.categoryFilters[5].label",
+        "carmel-christian:catalog.camps[2].categoryLabel"
+      ],
+      "t": "Fede"
+    },
+    {
+      "text": "General enrichment",
+      "of": "3a207a58",
+      "at": [
+        "carmel-christian:catalog.categoryFilters[6].label",
+        "carmel-christian:catalog.camps[0].categoryLabel",
+        "carmel-christian:catalog.camps[6].categoryLabel",
+        "carmel-christian:catalog.camps[10].categoryLabel",
+        "carmel-christian:catalog.camps[14].categoryLabel",
+        "carmel-christian:catalog.camps[16].categoryLabel",
+        "carmel-christian:catalog.camps[24].categoryLabel",
+        "carmel-christian:catalog.camps[25].categoryLabel",
+        "carmel-christian:catalog.camps[29].categoryLabel",
+        "carmel-christian:catalog.camps[34].categoryLabel",
+        "carmel-christian:catalog.camps[35].categoryLabel"
+      ],
+      "t": "Arricchimento generale"
+    },
+    {
+      "text": "Rising K",
+      "of": "de34ad9e",
+      "at": [
+        "carmel-christian:catalog.gradeFilters[1].label"
+      ],
+      "t": "K in salita"
+    },
+    {
+      "text": "Rising 1–2",
+      "of": "3865e3f1",
+      "at": [
+        "carmel-christian:catalog.gradeFilters[2].label",
+        "carmel-christian:catalog.camps[11].gradeLabel"
+      ],
+      "t": "1–2 in salita"
+    },
+    {
+      "text": "Rising 3–5",
+      "of": "172955de",
+      "at": [
+        "carmel-christian:catalog.gradeFilters[3].label",
+        "carmel-christian:catalog.camps[1].gradeLabel",
+        "carmel-christian:catalog.camps[22].gradeLabel"
+      ],
+      "t": "3–5 in salita"
+    },
+    {
+      "text": "Rising 6–8",
+      "of": "aaafdf9e",
+      "at": [
+        "carmel-christian:catalog.gradeFilters[4].label",
+        "carmel-christian:catalog.camps[28].gradeLabel",
+        "carmel-christian:catalog.camps[30].gradeLabel"
+      ],
+      "t": "6–8 in salita"
+    },
+    {
+      "text": "General enrichment week themed on the American Girl world.",
+      "of": "eb3b4007",
+      "at": [
+        "carmel-christian:catalog.camps[0].desc"
+      ],
+      "t": "Settimana di arricchimento generale a tema sul mondo di American Girl."
+    },
+    {
+      "text": "Rising K–5",
+      "of": "031ced66",
+      "at": [
+        "carmel-christian:catalog.camps[0].gradeLabel",
+        "carmel-christian:catalog.camps[24].gradeLabel"
+      ],
+      "t": "K–5 in salita"
+    },
+    {
+      "text": "Mon–Thu (4-day)",
+      "of": "913bce7b",
+      "at": [
+        "carmel-christian:catalog.camps[0].dayLabel",
+        "carmel-christian:catalog.camps[1].dayLabel",
+        "carmel-christian:catalog.camps[2].dayLabel",
+        "carmel-christian:catalog.camps[3].dayLabel",
+        "carmel-christian:catalog.camps[4].dayLabel",
+        "carmel-christian:catalog.camps[5].dayLabel",
+        "carmel-christian:catalog.camps[16].dayLabel",
+        "carmel-christian:catalog.camps[17].dayLabel",
+        "carmel-christian:catalog.camps[18].dayLabel",
+        "carmel-christian:catalog.camps[19].dayLabel",
+        "carmel-christian:catalog.camps[20].dayLabel",
+        "carmel-christian:catalog.camps[21].dayLabel",
+        "carmel-christian:catalog.camps[22].dayLabel",
+        "carmel-christian:catalog.camps[23].dayLabel",
+        "carmel-christian:catalog.camps[24].dayLabel",
+        "carmel-christian:catalog.camps[25].dayLabel",
+        "carmel-christian:catalog.camps[26].dayLabel",
+        "carmel-christian:catalog.camps[27].dayLabel",
+        "carmel-christian:catalog.camps[28].dayLabel",
+        "carmel-christian:catalog.camps[29].dayLabel",
+        "carmel-christian:catalog.camps[30].dayLabel",
+        "carmel-christian:catalog.camps[31].dayLabel",
+        "carmel-christian:catalog.camps[32].dayLabel",
+        "carmel-christian:catalog.camps[33].dayLabel",
+        "carmel-christian:catalog.camps[34].dayLabel",
+        "carmel-christian:catalog.camps[35].dayLabel"
+      ],
+      "t": "Lun–Gio (4 giorni)"
+    },
+    {
+      "text": "9 a.m.–12 p.m.",
+      "of": "0bc6b407",
+      "at": [
+        "carmel-christian:catalog.camps[0].hours",
+        "carmel-christian:catalog.camps[1].hours",
+        "carmel-christian:catalog.camps[2].hours",
+        "carmel-christian:catalog.camps[3].hours",
+        "carmel-christian:catalog.camps[4].hours",
+        "carmel-christian:catalog.camps[5].hours",
+        "carmel-christian:catalog.camps[6].hours",
+        "carmel-christian:catalog.camps[7].hours",
+        "carmel-christian:catalog.camps[8].hours",
+        "carmel-christian:catalog.camps[9].hours",
+        "carmel-christian:catalog.camps[10].hours",
+        "carmel-christian:catalog.camps[11].hours",
+        "carmel-christian:catalog.camps[12].hours",
+        "carmel-christian:catalog.camps[13].hours",
+        "carmel-christian:catalog.camps[14].hours",
+        "carmel-christian:catalog.camps[15].hours",
+        "carmel-christian:catalog.camps[16].hours",
+        "carmel-christian:catalog.camps[17].hours",
+        "carmel-christian:catalog.camps[18].hours",
+        "carmel-christian:catalog.camps[19].hours",
+        "carmel-christian:catalog.camps[20].hours",
+        "carmel-christian:catalog.camps[21].hours",
+        "carmel-christian:catalog.camps[22].hours",
+        "carmel-christian:catalog.camps[23].hours",
+        "carmel-christian:catalog.camps[24].hours",
+        "carmel-christian:catalog.camps[25].hours",
+        "carmel-christian:catalog.camps[26].hours",
+        "carmel-christian:catalog.camps[27].hours",
+        "carmel-christian:catalog.camps[28].hours",
+        "carmel-christian:catalog.camps[29].hours",
+        "carmel-christian:catalog.camps[30].hours",
+        "carmel-christian:catalog.camps[31].hours",
+        "carmel-christian:catalog.camps[32].hours",
+        "carmel-christian:catalog.camps[33].hours",
+        "carmel-christian:catalog.camps[34].hours",
+        "carmel-christian:catalog.camps[35].hours"
+      ],
+      "t": "9 a.m.–12 p.m."
+    },
+    {
+      "text": "Week 1 (Jun 8–11)",
+      "of": "dbb152dd",
+      "at": [
+        "carmel-christian:catalog.camps[0].weeks",
+        "carmel-christian:catalog.camps[1].weeks",
+        "carmel-christian:catalog.camps[2].weeks",
+        "carmel-christian:catalog.camps[3].weeks",
+        "carmel-christian:catalog.camps[4].weeks",
+        "carmel-christian:catalog.camps[5].weeks"
+      ],
+      "t": "Settimana 1 (8–11 giu)"
+    },
+    {
+      "text": "Basketball skills camp for rising 3rd–5th grade boys.",
+      "of": "048c6c3b",
+      "at": [
+        "carmel-christian:catalog.camps[1].desc"
+      ],
+      "t": "Camp di avviamento al basket per i ragazzi della 3ª–5ª classe in salita."
+    },
+    {
+      "text": "Faith-themed week exploring the created world.",
+      "of": "d87ea2be",
+      "at": [
+        "carmel-christian:catalog.camps[2].desc"
+      ],
+      "t": "Settimana a tema di fede alla scoperta del mondo creato."
+    },
+    {
+      "text": "Rising 1–8",
+      "of": "2e65d433",
+      "at": [
+        "carmel-christian:catalog.camps[2].gradeLabel",
+        "carmel-christian:catalog.camps[21].gradeLabel",
+        "carmel-christian:catalog.camps[26].gradeLabel",
+        "carmel-christian:catalog.camps[34].gradeLabel"
+      ],
+      "t": "1–8 in salita"
+    },
+    {
+      "text": "Introductory volleyball for rising 3rd–6th graders.",
+      "of": "9cf6c464",
+      "at": [
+        "carmel-christian:catalog.camps[3].desc"
+      ],
+      "t": "Pallavolo introduttiva per i bambini della 3ª–6ª classe in salita."
+    },
+    {
+      "text": "Rising 3–6",
+      "of": "1629544b",
+      "at": [
+        "carmel-christian:catalog.camps[3].gradeLabel",
+        "carmel-christian:catalog.camps[12].gradeLabel",
+        "carmel-christian:catalog.camps[31].gradeLabel",
+        "carmel-christian:catalog.camps[33].gradeLabel"
+      ],
+      "t": "3–6 in salita"
+    },
+    {
+      "text": "Hands-on cooking week for rising 3rd–8th graders.",
+      "of": "eafeb718",
+      "at": [
+        "carmel-christian:catalog.camps[4].desc"
+      ],
+      "t": "Settimana di cucina pratica per i bambini della 3ª–8ª classe in salita."
+    },
+    {
+      "text": "Rising 3–8",
+      "of": "14295125",
+      "at": [
+        "carmel-christian:catalog.camps[4].gradeLabel",
+        "carmel-christian:catalog.camps[8].gradeLabel"
+      ],
+      "t": "3–8 in salita"
+    },
+    {
+      "text": "LEGO® building and engineering for rising 1st–3rd graders.",
+      "of": "2c8fc803",
+      "at": [
+        "carmel-christian:catalog.camps[5].desc"
+      ],
+      "t": "Costruzioni LEGO® e ingegneria per i bambini della 1ª–3ª classe in salita."
+    },
+    {
+      "text": "Rising 1–3",
+      "of": "3765e25e",
+      "at": [
+        "carmel-christian:catalog.camps[5].gradeLabel",
+        "carmel-christian:catalog.camps[35].gradeLabel"
+      ],
+      "t": "1–3 in salita"
+    },
+    {
+      "text": "Craft-and-play enrichment week for rising 2nd–4th grade girls.",
+      "of": "3f3a7c1b",
+      "at": [
+        "carmel-christian:catalog.camps[6].desc"
+      ],
+      "t": "Settimana di arricchimento tra artigianato e gioco per le bambine della 2ª–4ª classe in salita."
+    },
+    {
+      "text": "Rising 2–4",
+      "of": "83647f0e",
+      "at": [
+        "carmel-christian:catalog.camps[6].gradeLabel"
+      ],
+      "t": "2–4 in salita"
+    },
+    {
+      "text": "Mon–Wed (3-day)",
+      "of": "080034ab",
+      "at": [
+        "carmel-christian:catalog.camps[6].dayLabel",
+        "carmel-christian:catalog.camps[7].dayLabel",
+        "carmel-christian:catalog.camps[8].dayLabel",
+        "carmel-christian:catalog.camps[9].dayLabel",
+        "carmel-christian:catalog.camps[10].dayLabel",
+        "carmel-christian:catalog.camps[11].dayLabel",
+        "carmel-christian:catalog.camps[12].dayLabel",
+        "carmel-christian:catalog.camps[13].dayLabel",
+        "carmel-christian:catalog.camps[14].dayLabel",
+        "carmel-christian:catalog.camps[15].dayLabel"
+      ],
+      "t": "Lun–Mer (3 giorni)"
+    },
+    {
+      "text": "Week 2 (Jun 15–17)",
+      "of": "ec51231e",
+      "at": [
+        "carmel-christian:catalog.camps[6].weeks",
+        "carmel-christian:catalog.camps[7].weeks",
+        "carmel-christian:catalog.camps[8].weeks",
+        "carmel-christian:catalog.camps[9].weeks",
+        "carmel-christian:catalog.camps[10].weeks"
+      ],
+      "t": "Settimana 2 (15–17 giu)"
+    },
+    {
+      "text": "Girls basketball skills camp for rising 5th–8th graders.",
+      "of": "e27201b7",
+      "at": [
+        "carmel-christian:catalog.camps[7].desc"
+      ],
+      "t": "Camp di avviamento al basket femminile per le bambine della 5ª–8ª classe in salita."
+    },
+    {
+      "text": "Rising 5–8",
+      "of": "ea003c9f",
+      "at": [
+        "carmel-christian:catalog.camps[7].gradeLabel",
+        "carmel-christian:catalog.camps[19].gradeLabel"
+      ],
+      "t": "5–8 in salita"
+    },
+    {
+      "text": "Film-making week for rising 3rd–8th graders.",
+      "of": "0a4925fe",
+      "at": [
+        "carmel-christian:catalog.camps[8].desc"
+      ],
+      "t": "Settimana di cinema per i bambini della 3ª–8ª classe in salita."
+    },
+    {
+      "text": "Active Nerf® games week for rising 2nd–6th graders.",
+      "of": "e9e622df",
+      "at": [
+        "carmel-christian:catalog.camps[9].desc",
+        "carmel-christian:catalog.camps[27].desc"
+      ],
+      "t": "Settimana di giochi attivi con Nerf® per i bambini della 2ª–6ª classe in salita."
+    },
+    {
+      "text": "Rising 2–6",
+      "of": "81647be8",
+      "at": [
+        "carmel-christian:catalog.camps[9].gradeLabel",
+        "carmel-christian:catalog.camps[27].gradeLabel"
+      ],
+      "t": "2–6 in salita"
+    },
+    {
+      "text": "Ocean-themed enrichment week for the youngest campers.",
+      "of": "2d87144f",
+      "at": [
+        "carmel-christian:catalog.camps[10].desc"
+      ],
+      "t": "Settimana di arricchimento a tema oceano per i più piccoli."
+    },
+    {
+      "text": "Rising K–2",
+      "of": "061cf21f",
+      "at": [
+        "carmel-christian:catalog.camps[10].gradeLabel",
+        "carmel-christian:catalog.camps[25].gradeLabel"
+      ],
+      "t": "K–2 in salita"
+    },
+    {
+      "text": "Entry-level basketball for rising 1st–2nd grade boys.",
+      "of": "5d21ea31",
+      "at": [
+        "carmel-christian:catalog.camps[11].desc"
+      ],
+      "t": "Basket di primo livello per i ragazzi della 1ª–2ª classe in salita."
+    },
+    {
+      "text": "Week 3 (Jun 29–Jul 1)",
+      "of": "10891a00",
+      "at": [
+        "carmel-christian:catalog.camps[11].weeks",
+        "carmel-christian:catalog.camps[12].weeks",
+        "carmel-christian:catalog.camps[13].weeks",
+        "carmel-christian:catalog.camps[14].weeks",
+        "carmel-christian:catalog.camps[15].weeks"
+      ],
+      "t": "Settimana 3 (29 giu–1 lug)"
+    },
+    {
+      "text": "Trick-shot and games week for rising 3rd–6th graders.",
+      "of": "db8bf48e",
+      "at": [
+        "carmel-christian:catalog.camps[12].desc"
+      ],
+      "t": "Settimana di trick-shot e giochi per i bambini della 3ª–6ª classe in salita."
+    },
+    {
+      "text": "Floral-craft week for rising 1st–4th graders.",
+      "of": "75daba5a",
+      "at": [
+        "carmel-christian:catalog.camps[13].desc"
+      ],
+      "t": "Settimana di composizioni floreali per i bambini della 1ª–4ª classe in salita."
+    },
+    {
+      "text": "Rising 1–4",
+      "of": "3a65e717",
+      "at": [
+        "carmel-christian:catalog.camps[13].gradeLabel",
+        "carmel-christian:catalog.camps[15].gradeLabel"
+      ],
+      "t": "1–4 in salita"
+    },
+    {
+      "text": "Slumber-party-themed enrichment week for rising 2nd–5th graders.",
+      "of": "c618dab8",
+      "at": [
+        "carmel-christian:catalog.camps[14].desc"
+      ],
+      "t": "Settimana di arricchimento a tema pigiama party per i bambini della 2ª–5ª classe in salita."
+    },
+    {
+      "text": "Rising 2–5",
+      "of": "846480a1",
+      "at": [
+        "carmel-christian:catalog.camps[14].gradeLabel",
+        "carmel-christian:catalog.camps[16].gradeLabel",
+        "carmel-christian:catalog.camps[23].gradeLabel"
+      ],
+      "t": "2–5 in salita"
+    },
+    {
+      "text": "Science and engineering activities for rising 1st–4th graders.",
+      "of": "9e8f0b5e",
+      "at": [
+        "carmel-christian:catalog.camps[15].desc"
+      ],
+      "t": "Attività di scienza e ingegneria per i bambini della 1ª–4ª classe in salita."
+    },
+    {
+      "text": "Team-challenge enrichment week for rising 2nd–5th graders.",
+      "of": "2eb21788",
+      "at": [
+        "carmel-christian:catalog.camps[16].desc"
+      ],
+      "t": "Settimana di arricchimento a sfide di squadra per i bambini della 2ª–5ª classe in salita."
+    },
+    {
+      "text": "Week 4 (Jul 6–9)",
+      "of": "be8bb6fd",
+      "at": [
+        "carmel-christian:catalog.camps[16].weeks",
+        "carmel-christian:catalog.camps[17].weeks",
+        "carmel-christian:catalog.camps[18].weeks",
+        "carmel-christian:catalog.camps[19].weeks",
+        "carmel-christian:catalog.camps[20].weeks",
+        "carmel-christian:catalog.camps[21].weeks",
+        "carmel-christian:catalog.camps[22].weeks"
+      ],
+      "t": "Settimana 4 (6–9 lug)"
+    },
+    {
+      "text": "Animation-making week for rising K–3rd graders.",
+      "of": "f2c5ff9f",
+      "at": [
+        "carmel-christian:catalog.camps[17].desc"
+      ],
+      "t": "Settimana di animazione per i bambini dalla K alla 3ª classe in salita."
+    },
+    {
+      "text": "Rising K–3",
+      "of": "051cf08c",
+      "at": [
+        "carmel-christian:catalog.camps[17].gradeLabel"
+      ],
+      "t": "K–3 in salita"
+    },
+    {
+      "text": "Baking-focused cooking week for rising 1st–5th graders.",
+      "of": "cdcc682e",
+      "at": [
+        "carmel-christian:catalog.camps[18].desc"
+      ],
+      "t": "Settimana di cucina incentrata sulla pasticceria per i bambini della 1ª–5ª classe in salita."
+    },
+    {
+      "text": "Rising 1–5",
+      "of": "3965e584",
+      "at": [
+        "carmel-christian:catalog.camps[18].gradeLabel"
+      ],
+      "t": "1–5 in salita"
+    },
+    {
+      "text": "Volleyball skills camp for rising 5th–8th grade girls.",
+      "of": "cd7acc09",
+      "at": [
+        "carmel-christian:catalog.camps[19].desc"
+      ],
+      "t": "Camp di avviamento alla pallavolo per le bambine della 5ª–8ª classe in salita."
+    },
+    {
+      "text": "Advanced LEGO® building for rising 4th–6th graders.",
+      "of": "e8614cca",
+      "at": [
+        "carmel-christian:catalog.camps[20].desc"
+      ],
+      "t": "Costruzioni LEGO® avanzate per i bambini della 4ª–6ª classe in salita."
+    },
+    {
+      "text": "Rising 4–6",
+      "of": "4b27ccc6",
+      "at": [
+        "carmel-christian:catalog.camps[20].gradeLabel"
+      ],
+      "t": "4–6 in salita"
+    },
+    {
+      "text": "Visual-arts week for rising 1st–8th graders.",
+      "of": "7f00415c",
+      "at": [
+        "carmel-christian:catalog.camps[21].desc"
+      ],
+      "t": "Settimana di arti visive per i bambini della 1ª–8ª classe in salita."
+    },
+    {
+      "text": "Pickleball skills camp for rising 3rd–5th graders.",
+      "of": "92f6fde3",
+      "at": [
+        "carmel-christian:catalog.camps[22].desc"
+      ],
+      "t": "Camp di avviamento al pickleball per i bambini della 3ª–5ª classe in salita."
+    },
+    {
+      "text": "Recycled-materials art studio for rising 2nd–5th graders.",
+      "of": "afebd9a9",
+      "at": [
+        "carmel-christian:catalog.camps[23].desc"
+      ],
+      "t": "Laboratorio d’arte con materiali riciclati per i bambini della 2ª–5ª classe in salita."
+    },
+    {
+      "text": "Week 5 (Jul 13–16)",
+      "of": "a973fdca",
+      "at": [
+        "carmel-christian:catalog.camps[23].weeks",
+        "carmel-christian:catalog.camps[24].weeks",
+        "carmel-christian:catalog.camps[25].weeks",
+        "carmel-christian:catalog.camps[26].weeks",
+        "carmel-christian:catalog.camps[27].weeks",
+        "carmel-christian:catalog.camps[28].weeks"
+      ],
+      "t": "Settimana 5 (13–16 lug)"
+    },
+    {
+      "text": "Barbie-themed enrichment week for rising K–5th graders.",
+      "of": "6cee202d",
+      "at": [
+        "carmel-christian:catalog.camps[24].desc"
+      ],
+      "t": "Settimana di arricchimento a tema Barbie per i bambini dalla K alla 5ª classe in salita."
+    },
+    {
+      "text": "Imaginative-play enrichment week for the youngest campers.",
+      "of": "36d4b902",
+      "at": [
+        "carmel-christian:catalog.camps[25].desc"
+      ],
+      "t": "Settimana di arricchimento a gioco immaginativo per i più piccoli."
+    },
+    {
+      "text": "Mixed-media art week for rising 1st–8th graders.",
+      "of": "875ed8aa",
+      "at": [
+        "carmel-christian:catalog.camps[26].desc"
+      ],
+      "t": "Settimana d’arte con tecniche miste per i bambini della 1ª–8ª classe in salita."
+    },
+    {
+      "text": "Pickleball skills camp for rising 6th–8th graders.",
+      "of": "29922bb5",
+      "at": [
+        "carmel-christian:catalog.camps[28].desc"
+      ],
+      "t": "Camp di avviamento al pickleball per i bambini della 6ª–8ª classe in salita."
+    },
+    {
+      "text": "Enrichment bootcamp for rising 2nd–3rd graders.",
+      "of": "76a3d3aa",
+      "at": [
+        "carmel-christian:catalog.camps[29].desc"
+      ],
+      "t": "Bootcamp di arricchimento per i bambini della 2ª–3ª classe in salita."
+    },
+    {
+      "text": "Rising 2–3",
+      "of": "866483c7",
+      "at": [
+        "carmel-christian:catalog.camps[29].gradeLabel"
+      ],
+      "t": "2–3 in salita"
+    },
+    {
+      "text": "Week 6 (Jul 20–23)",
+      "of": "0f29daf1",
+      "at": [
+        "carmel-christian:catalog.camps[29].weeks",
+        "carmel-christian:catalog.camps[30].weeks",
+        "carmel-christian:catalog.camps[31].weeks",
+        "carmel-christian:catalog.camps[32].weeks",
+        "carmel-christian:catalog.camps[33].weeks",
+        "carmel-christian:catalog.camps[34].weeks",
+        "carmel-christian:catalog.camps[35].weeks"
+      ],
+      "t": "Settimana 6 (20–23 lug)"
+    },
+    {
+      "text": "Basketball skills camp for rising 6th–8th grade boys.",
+      "of": "bceb2ddd",
+      "at": [
+        "carmel-christian:catalog.camps[30].desc"
+      ],
+      "t": "Camp di avviamento al basket per i ragazzi della 6ª–8ª classe in salita."
+    },
+    {
+      "text": "Musical-theater week for rising 3rd–6th graders.",
+      "of": "699972a6",
+      "at": [
+        "carmel-christian:catalog.camps[31].desc"
+      ],
+      "t": "Settimana di teatro musicale per i bambini della 3ª–6ª classe in salita."
+    },
+    {
+      "text": "Cricut® craft week for rising 4th–8th graders.",
+      "of": "0d8eae57",
+      "at": [
+        "carmel-christian:catalog.camps[32].desc"
+      ],
+      "t": "Settimana di artigianato con Cricut® per i bambini della 4ª–8ª classe in salita."
+    },
+    {
+      "text": "Rising 4–8",
+      "of": "5527dc84",
+      "at": [
+        "carmel-christian:catalog.camps[32].gradeLabel"
+      ],
+      "t": "4–8 in salita"
+    },
+    {
+      "text": "Hands-on engineering challenges for rising 3rd–6th graders.",
+      "of": "fd2f0d49",
+      "at": [
+        "carmel-christian:catalog.camps[33].desc"
+      ],
+      "t": "Sfide pratiche di ingegneria per i bambini della 3ª–6ª classe in salita."
+    },
+    {
+      "text": "Story-and-character enrichment week for rising 1st–8th graders.",
+      "of": "f9f7f2ad",
+      "at": [
+        "carmel-christian:catalog.camps[34].desc"
+      ],
+      "t": "Settimana di arricchimento su storie e personaggi per i bambini della 1ª–8ª classe in salita."
+    },
+    {
+      "text": "Games-and-adventure enrichment week for rising 1st–3rd graders.",
+      "of": "4e4c5995",
+      "at": [
+        "carmel-christian:catalog.camps[35].desc"
+      ],
+      "t": "Settimana di arricchimento tra giochi e avventura per i bambini della 1ª–3ª classe in salita."
+    },
+    {
+      "text": "The six **categories** (Athletics, Arts & Crafts, STEM & Engineering, Cooking, Faith, General enrichment) are **inferred from the camp names** — the school prints no category labels on its Summer Adventures pages.",
+      "of": "e8aeee4b",
+      "at": [
+        "carmel-christian:catalog.flags[0].text"
+      ],
+      "t": "Le sei **categorie** (Atletica, Arti e artigianato, STEM e ingegneria, Cucina, Fede, Arricchimento generale) sono **dedotte dai nomi dei camp** — la scuola non stampa etichette di categoria sulle sue pagine Summer Adventures."
+    },
+    {
+      "text": "No **before-care or full-day** option is published — the only wrap-around care is the 12–1 p.m. After Camp Lunch Hour. Sibling discount, early-bird and deposit are not published either.",
+      "of": "d908ab98",
+      "at": [
+        "carmel-christian:catalog.flags[1].text"
+      ],
+      "t": "Non è pubblicata alcuna opzione di **assistenza pre-camp o a giornata intera** — l’unica assistenza integrativa è l’After Camp Lunch Hour delle 12–1 p.m. Nemmeno lo sconto per fratelli, la tariffa early-bird e il deposito sono pubblicati."
+    },
+    {
+      "text": "Camp itself is a flat $180 a four-day week ($150 the two three-day weeks) — then the only add-on is a $40 After Camp Lunch Hour ($30 the short weeks).",
+      "of": "ae9503df",
+      "at": [
+        "carmel-christian:costPlanner.headline"
+      ],
+      "t": "Il camp in sé costa una tariffa fissa di $180 a settimana di quattro giorni ($150 le due settimane di tre giorni) — poi l’unico supplemento è un’After Camp Lunch Hour da $40 ($30 le settimane brevi)."
+    },
+    {
+      "text": "Six weeks are available, June 8 – July 23, 2026, with no camps the week of June 22–25. Weeks 2 and 3 are three-day weeks and cost less. All camps are half-day, 9 a.m.–12 p.m., Monday–Thursday.",
+      "of": "a58d9d22",
+      "at": [
+        "carmel-christian:costPlanner.subhead"
+      ],
+      "t": "Sono disponibili sei settimane, dall’8 giugno al 23 luglio 2026, senza camp la settimana del 22–25 giugno. Le settimane 2 e 3 sono settimane di tre giorni e costano meno. Tutti i camp sono a mezza giornata, 9 a.m.–12 p.m., lunedì–giovedì."
+    },
+    {
+      "text": "Four-day week",
+      "of": "bd7d949a",
+      "at": [
+        "carmel-christian:costPlanner.tiers[0].label"
+      ],
+      "t": "Settimana di quattro giorni"
+    },
+    {
+      "text": "Half-day camp · four-day week · 9 a.m.–12 p.m.",
+      "of": "1bf1b719",
+      "at": [
+        "carmel-christian:costPlanner.tiers[0].panelLabel"
+      ],
+      "t": "Camp a mezza giornata · settimana di quattro giorni · 9 a.m.–12 p.m."
+    },
+    {
+      "text": "The standard week (Weeks 1, 4, 5 and 6). Half-day, Monday–Thursday.",
+      "of": "6cbb2a55",
+      "at": [
+        "carmel-christian:costPlanner.tiers[0].detail"
+      ],
+      "t": "La settimana standard (Settimane 1, 4, 5 e 6). Mezza giornata, lunedì–giovedì."
+    },
+    {
+      "text": "Three-day week",
+      "of": "0a507f44",
+      "at": [
+        "carmel-christian:costPlanner.tiers[1].label"
+      ],
+      "t": "Settimana di tre giorni"
+    },
+    {
+      "text": "Half-day camp · three-day week · 9 a.m.–12 p.m.",
+      "of": "c982400f",
+      "at": [
+        "carmel-christian:costPlanner.tiers[1].panelLabel"
+      ],
+      "t": "Camp a mezza giornata · settimana di tre giorni · 9 a.m.–12 p.m."
+    },
+    {
+      "text": "Weeks 2 and 3 only — the Juneteenth and July 4 weeks run Monday–Wednesday.",
+      "of": "c9a49a3f",
+      "at": [
+        "carmel-christian:costPlanner.tiers[1].detail"
+      ],
+      "t": "Solo Settimane 2 e 3 — le settimane di Juneteenth e del 4 luglio vanno da lunedì a mercoledì."
+    },
+    {
+      "text": "After Camp Lunch Hour 12–1 p.m. (four-day week)",
+      "of": "4b07cff0",
+      "at": [
+        "carmel-christian:costPlanner.addons[0].label"
+      ],
+      "t": "After Camp Lunch Hour 12–1 p.m. (settimana di quattro giorni)"
+    },
+    {
+      "text": "After Camp Lunch Hour 12–1 p.m. (three-day week)",
+      "of": "44720f2c",
+      "at": [
+        "carmel-christian:costPlanner.addons[1].label"
+      ],
+      "t": "After Camp Lunch Hour 12–1 p.m. (settimana di tre giorni)"
+    },
+    {
+      "text": "A **registration fee** is charged at sign-up, but the school does not publish the amount.",
+      "of": "0f6684a9",
+      "at": [
+        "carmel-christian:costPlanner.fees[0].label"
+      ],
+      "t": "Al momento dell’iscrizione viene addebitata una **quota di registrazione**, ma la scuola non ne pubblica l’importo."
+    },
+    {
+      "text": "The only wrap-around care is the **12–1 p.m. After Camp Lunch Hour** — there is no published before-care and no full-day option. Add the four-day rate ($40) for a standard week or the three-day rate ($30) for Weeks 2 and 3.",
+      "of": "653916fe",
+      "at": [
+        "carmel-christian:costPlanner.fees[1].label"
+      ],
+      "t": "L’unica assistenza integrativa è l’**After Camp Lunch Hour delle 12–1 p.m.** — non c’è assistenza pre-camp pubblicata né un’opzione a giornata intera. Aggiungi la tariffa da quattro giorni ($40) per una settimana standard o quella da tre giorni ($30) per le Settimane 2 e 3."
+    },
+    {
+      "text": "Register at least a week ahead.",
+      "of": "7bcb5992",
+      "at": [
+        "carmel-christian:costPlanner.aside.title"
+      ],
+      "t": "Iscriviti con almeno una settimana di anticipo."
+    },
+    {
+      "text": "Registration runs through the Summer Adventures portal and closes **one week before each camp starts** unless a camp fills first. Grades are **rising** grades; the program is directed by **Debbie Yates** and is open to Carmel families and the general public.",
+      "of": "cc40807f",
+      "at": [
+        "carmel-christian:costPlanner.aside.text"
+      ],
+      "t": "L’iscrizione avviene tramite il portale Summer Adventures e chiude **una settimana prima dell’inizio di ogni camp** a meno che un camp non si riempia prima. Le classi sono classi **in salita**; il programma è diretto da **Debbie Yates** ed è aperto alle famiglie Carmel e al pubblico in generale."
+    },
+    {
+      "text": "The **registration fee amount is not published** — the school references a fee at sign-up but never states it. No sibling discount, early-bird or deposit is published either.",
+      "of": "80e76227",
+      "at": [
+        "carmel-christian:costPlanner.flags[0].text"
+      ],
+      "t": "L’**importo della quota di registrazione non è pubblicato** — la scuola cita una quota all’iscrizione ma non la indica mai. Nemmeno lo sconto per fratelli, la tariffa early-bird o il deposito sono pubblicati."
     }
   ]
 }

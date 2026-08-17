@@ -117,7 +117,9 @@
       "at": [
         "providence-day:coverage.facts[2].label",
         "charlotte-country-day:coverage.facts[2].label",
-        "cannon:cost.fees[3].label"
+        "cannon:cost.fees[3].label",
+        "carmel-christian:coverage.facts[4].label",
+        "carmel-christian:cost.fees[4].label"
       ]
     },
     {
@@ -133,7 +135,8 @@
       "at": [
         "providence-day:coverage.facts[3].label",
         "charlotte-christian:coverage.facts[3].label",
-        "cannon:coverage.facts[1].label"
+        "cannon:coverage.facts[1].label",
+        "carmel-christian:coverage.facts[0].label"
       ]
     },
     {
@@ -177,7 +180,8 @@
       "at": [
         "providence-day:cost.periodsLabel",
         "charlotte-christian:cost.periodsLabel",
-        "charlotte-country-day:cost.periodsLabel"
+        "charlotte-country-day:cost.periodsLabel",
+        "carmel-christian:cost.periodsLabel"
       ]
     },
     {
@@ -1244,7 +1248,8 @@
       "t": "يُحاسَب",
       "of": "b4c012ed",
       "at": [
-        "charlotte-latin:cost.fees[0].label"
+        "charlotte-latin:cost.fees[0].label",
+        "carmel-christian:cost.fees[0].label"
       ]
     },
     {
@@ -1261,7 +1266,8 @@
         "charlotte-latin:cost.fees[1].label",
         "charlotte-christian:cost.fees[0].label",
         "cannon:cost.fees[0].label",
-        "covenant-day:cost.fees[2].label"
+        "covenant-day:cost.fees[2].label",
+        "carmel-christian:cost.fees[5].label"
       ]
     },
     {
@@ -1270,7 +1276,9 @@
       "at": [
         "charlotte-latin:cost.fees[1].value",
         "charlotte-latin:cost.fees[2].value",
-        "charlotte-latin:cost.fees[3].value"
+        "charlotte-latin:cost.fees[3].value",
+        "carmel-christian:cost.fees[5].value",
+        "carmel-christian:cost.fees[6].value"
       ]
     },
     {
@@ -1438,7 +1446,8 @@
         "charlotte-latin:dayInside.wordsTitle",
         "charlotte-christian:dayInside.wordsTitle",
         "charlotte-country-day:dayInside.wordsTitle",
-        "cannon:dayInside.wordsTitle"
+        "cannon:dayInside.wordsTitle",
+        "carmel-christian:dayInside.wordsTitle"
       ]
     },
     {
@@ -2732,7 +2741,8 @@
       "of": "966da620",
       "at": [
         "charlotte-country-day:coverage.facts[1].label",
-        "covenant-day:cost.fees[0].label"
+        "covenant-day:cost.fees[0].label",
+        "carmel-christian:coverage.facts[3].label"
       ]
     },
     {
@@ -4960,6 +4970,643 @@
       "of": "4af54c87",
       "at": [
         "davidson-day:verdict.checklist[8]"
+      ]
+    },
+    {
+      "t": "يغطي برنامج اليوم الممتد (Extended Day) من مرحلة الروضة حتى الصف الثامن حتى الساعة 6:00 مساءً، موزّعاً بين نادي Young Cougars Club لأطفال الروضة ورعاية After School للصفوف 1–8.",
+      "of": "62e5ca2f",
+      "at": [
+        "carmel-christian:coverage.headline"
+      ]
+    },
+    {
+      "t": "تفتح الرعاية الصباحية أبوابها في الساعة 7:30 صباحاً لطلاب CCS، وتمتد نافذة أطول للأشقّاء في WEE-School حتى الساعة 9:00 صباحاً. البرنامج بأكمله مبنيّ على رسالة المدرسة “Grow and Go” — “GROW to become followers of Christ and GO make Him known to the world.”",
+      "of": "9322bbc1",
+      "at": [
+        "carmel-christian:coverage.subhead"
+      ]
+    },
+    {
+      "t": "الأسعار على الأشرطة هي **الرسم الشهري للدوام الكامل — 5 أيام في الأسبوع**، تُحتسب على مدى 9 أشهر. كما تُباع كل جلسة بواقع 3 أيام في الأسبوع بسعر أقل، وبنظام الحضور المؤقت بسعر ثابت لليوم الواحد؛ افتح **The Cost Planner** أدناه لتسعير أي مزيج.",
+      "of": "c3ac9dbd",
+      "at": [
+        "carmel-christian:coverage.basisNote"
+      ]
+    },
+    {
+      "t": "يبدأ 1:15",
+      "of": "e1999275",
+      "at": [
+        "carmel-christian:coverage.rows[0].dismissal"
+      ]
+    },
+    {
+      "t": "الصفوف 1–8 · الروضة بعد YCC",
+      "of": "5941acd2",
+      "at": [
+        "carmel-christian:coverage.rows[1].dismissal"
+      ]
+    },
+    {
+      "t": "طلاب CCS **7:30–8:00 صباحاً** ($110/شهرياً لخمسة أيام)؛ أشقّاء طلاب CCS في WEE School يحضرون **7:30–9:00 صباحاً** ($220/شهرياً لخمسة أيام)",
+      "of": "2b3f3124",
+      "at": [
+        "carmel-christian:coverage.facts[0].text"
+      ]
+    },
+    {
+      "t": "بعد YCC",
+      "of": "01d36a04",
+      "at": [
+        "carmel-christian:coverage.facts[1].label"
+      ]
+    },
+    {
+      "t": "ينضمّ أطفال الروضة في YCC إلى مجموعة After School الابتدائية للساعة الأخيرة عند **5:00 مساءً**؛ ويصل طلاب Middle School بحلول الساعة 3:30",
+      "of": "804cd4b8",
+      "at": [
+        "carmel-christian:coverage.facts[1].text"
+      ]
+    },
+    {
+      "t": "أحدث موعد للاصطحاب",
+      "of": "43e5f056",
+      "at": [
+        "carmel-christian:coverage.facts[2].label"
+      ]
+    },
+    {
+      "t": "6:00 مساءً",
+      "of": "a95ad622",
+      "at": [
+        "carmel-christian:coverage.facts[2].text"
+      ]
+    },
+    {
+      "t": "$30 لليوم لكل طالب لبرنامجي YCC وAfter School",
+      "of": "118f5914",
+      "at": [
+        "carmel-christian:coverage.facts[3].text"
+      ]
+    },
+    {
+      "t": "$10 عن أول 10 دقائق، ثم $10 عن كل 10 دقائق إضافية",
+      "of": "e17a0ee5",
+      "at": [
+        "carmel-christian:coverage.facts[4].text"
+      ]
+    },
+    {
+      "t": "مغلق",
+      "of": "3201cae5",
+      "at": [
+        "carmel-christian:coverage.facts[5].label"
+      ]
+    },
+    {
+      "t": "يوم الجمعة الذي يسبق عطلة عيد الميلاد وآخر يوم دراسي؛ ويعمل برنامجا YCC وAfter School بجدول مختصر في أيام الانصراف المبكر",
+      "of": "b373c095",
+      "at": [
+        "carmel-christian:coverage.facts[5].text"
+      ]
+    },
+    {
+      "t": "تتوفّر **Morning Sibling Care** مجانية عند الساعة 7:35 صباحاً في Worship Center، لكنها ليست جزءاً من برنامج اليوم الممتد المدفوع — بل هي رعاية إشرافية منفصلة للوصول المبكر.",
+      "of": "9e33f7d9",
+      "at": [
+        "carmel-christian:coverage.flags[0].text"
+      ]
+    },
+    {
+      "t": "تُظهر لمحة الويب لعام 2026-2027 برنامج اليوم الممتد على أنه **“Registration for 2026-2027 is now full.”** وهذه حالة تشغيلية تتعلّق بالسعة، لا تغييراً في الساعات أو الأسعار المنشورة، لكنها تعني أن المتقدّم في منتصف العام قد يواجه قائمة انتظار.",
+      "of": "b5ece373",
+      "at": [
+        "carmel-christian:coverage.flags[1].text"
+      ]
+    },
+    {
+      "t": "تُسعَّر كل جلسة برسم شهري ثابت بحسب عدد الأيام في الأسبوع — 5 أيام أو 3 أيام أو حضور مؤقت — يُحتسب شهرياً على مدى 9 أشهر عبر FACTS.",
+      "of": "56d6eb4a",
+      "at": [
+        "carmel-christian:cost.headline"
+      ]
+    },
+    {
+      "t": "جميع الأسعار أدناه منشورة في دليل اليوم الممتد للمدرسة لعام 2026-2027، فلا شيء هنا مُقدَّر. ولا يتناسب السعر خطياً مع عدد الأيام، لذا فإن جدول 3 أيام له رقمه المنشور الخاص وليس كسراً من سعر 5 أيام.",
+      "of": "30b2553f",
+      "at": [
+        "carmel-christian:cost.subhead"
+      ]
+    },
+    {
+      "t": "Before School · 7:30–8:00",
+      "of": "9b46e1ea",
+      "at": [
+        "carmel-christian:cost.rows[0].label"
+      ]
+    },
+    {
+      "t": "Before School (طلاب CCS) · 7:30–8:00 صباحاً",
+      "of": "37ff2124",
+      "at": [
+        "carmel-christian:cost.rows[0].panelLabel"
+      ]
+    },
+    {
+      "t": "Before School · أشقّاء WEE · 7:30–9:00",
+      "of": "54bb53ef",
+      "at": [
+        "carmel-christian:cost.rows[1].label"
+      ]
+    },
+    {
+      "t": "Before School (أشقّاء طلاب CCS في WEE School) · 7:30–9:00 صباحاً",
+      "of": "bbf34e3f",
+      "at": [
+        "carmel-christian:cost.rows[1].panelLabel"
+      ]
+    },
+    {
+      "t": "Young Cougars Club · 1:15–3:00",
+      "of": "a8e82589",
+      "at": [
+        "carmel-christian:cost.rows[2].label"
+      ]
+    },
+    {
+      "t": "Young Cougars Club (الروضة) · 1:15–3:00 مساءً",
+      "of": "50d049e4",
+      "at": [
+        "carmel-christian:cost.rows[2].panelLabel"
+      ]
+    },
+    {
+      "t": "After School / After YCC · 3:00–6:00",
+      "of": "29866daa",
+      "at": [
+        "carmel-christian:cost.rows[3].label"
+      ]
+    },
+    {
+      "t": "After School / After YCC · 3:00–6:00 مساءً",
+      "of": "3c1d04e5",
+      "at": [
+        "carmel-christian:cost.rows[3].panelLabel"
+      ]
+    },
+    {
+      "t": "شهرياً على مدى 9 أشهر (FACTS / Family Portal)",
+      "of": "a131f345",
+      "at": [
+        "carmel-christian:cost.fees[0].value"
+      ]
+    },
+    {
+      "t": "الحضور المؤقت (YCC & After School)",
+      "of": "7c4a4eb2",
+      "at": [
+        "carmel-christian:cost.fees[1].label"
+      ]
+    },
+    {
+      "t": "$30 / لليوم لكل طالب",
+      "of": "68e160cb",
+      "at": [
+        "carmel-christian:cost.fees[1].value"
+      ]
+    },
+    {
+      "t": "الحضور المؤقت (Before School، طلاب CCS)",
+      "of": "a8b91af7",
+      "at": [
+        "carmel-christian:cost.fees[2].label"
+      ]
+    },
+    {
+      "t": "$10 / لليوم",
+      "of": "d77c3c89",
+      "at": [
+        "carmel-christian:cost.fees[2].value"
+      ]
+    },
+    {
+      "t": "الحضور المؤقت (Before School، أشقّاء WEE)",
+      "of": "40248fc1",
+      "at": [
+        "carmel-christian:cost.fees[3].label"
+      ]
+    },
+    {
+      "t": "$20 / لليوم",
+      "of": "7c65be6e",
+      "at": [
+        "carmel-christian:cost.fees[3].value"
+      ]
+    },
+    {
+      "t": "$10 عن أول 10 دقائق، ثم $10 / عن كل 10 دقائق إضافية",
+      "of": "39f7d23c",
+      "at": [
+        "carmel-christian:cost.fees[4].value"
+      ]
+    },
+    {
+      "t": "خصم الأشقّاء",
+      "of": "a1cb668c",
+      "at": [
+        "carmel-christian:cost.fees[6].label"
+      ]
+    },
+    {
+      "t": "التسجيل يكون لخمسة أيام أو ثلاثة أيام أو حضور مؤقت، بحسب أسبقية التقديم وضمن أماكن محدودة. وتُعدّ فئة Before School في WEE-School رسماً منفصلاً لأشقّاء طلاب CCS الملتحقين بـ WEE School، لا خصماً على الرسم القياسي.",
+      "of": "8e7efb62",
+      "at": [
+        "carmel-christian:cost.fees[7].label"
+      ]
+    },
+    {
+      "t": "لا يُنشَر أي إجمالي سنوي بالدولار. يعطي الدليل رسوماً شهرية تُحتسب على مدى **9 أشهر** لكنه لا يذكر مطلقاً رقماً للسنة الدراسية، لذا فإن الإجماليات هنا هي الرسم الشهري × 9.",
+      "of": "cbf80efc",
+      "at": [
+        "carmel-christian:cost.flags[0].text"
+      ]
+    },
+    {
+      "t": "لا يُنشَر أي رسم تسجيل ولا أي خصم للأشقّاء لبرنامج اليوم الممتد. ولا يُذكر وجود أيٍّ منهما أو عدمه — فهما ببساطة غائبان عن الدليل.",
+      "of": "da328bcf",
+      "at": [
+        "carmel-christian:cost.flags[1].text"
+      ]
+    },
+    {
+      "t": "تُنشَر لكل جلسة أسعار 5 أيام و3 أيام فقط — فلا يوجد سعر منفصل ليوم واحد أو يومين أو أربعة أيام، لذا تُظهر الأعمدة الوسيطة “—.” أما الأيام المتفرّقة فتمرّ عبر سعر الحضور المؤقت الثابت بدلاً من ذلك.",
+      "of": "618b6d68",
+      "at": [
+        "carmel-christian:cost.flags[2].text"
+      ]
+    },
+    {
+      "t": "الفترة المسائية للروضة هي Young Cougars Club — برنامج منظّم قائم على الأدب، لا غرفة انتظار — بينما ينتقل طلاب الصفوف 1–8 إلى رعاية After School مع مساحة لأداء الواجبات.",
+      "of": "9c7606ff",
+      "at": [
+        "carmel-christian:dayInside.headline"
+      ]
+    },
+    {
+      "t": "يُدير Young Cougars Club ثلاث دورات — قصة وفنّ وأنشطة — حول موضوع تعليمي أسبوعي، ثم ينضمّ إلى مجموعة After School الابتدائية في الساعة الأخيرة من اليوم.",
+      "of": "ee2cbaf5",
+      "at": [
+        "carmel-christian:dayInside.subhead"
+      ]
+    },
+    {
+      "t": "الفترة المسائية للروضة (Young Cougars Club)",
+      "of": "78cac045",
+      "at": [
+        "carmel-christian:dayInside.rhythmTitle"
+      ]
+    },
+    {
+      "t": "1:15",
+      "of": "11e2c904",
+      "at": [
+        "carmel-christian:dayInside.rhythm[0].time"
+      ]
+    },
+    {
+      "t": "يبدأ YCC",
+      "of": "6f29b6b8",
+      "at": [
+        "carmel-christian:dayInside.rhythm[0].name"
+      ]
+    },
+    {
+      "t": "يجتمع أطفال الروضة للفترة المسائية المنظّمة القائمة على الأدب حول موضوع الأسبوع",
+      "of": "5211bb3c",
+      "at": [
+        "carmel-christian:dayInside.rhythm[0].detail"
+      ]
+    },
+    {
+      "t": "الدورات",
+      "of": "817167e4",
+      "at": [
+        "carmel-christian:dayInside.rhythm[1].time"
+      ]
+    },
+    {
+      "t": "قصة · فنّ · أنشطة",
+      "of": "5367ce48",
+      "at": [
+        "carmel-christian:dayInside.rhythm[1].name"
+      ]
+    },
+    {
+      "t": "ثلاث دورات — فترة قصة وفترة فنّ وفترة أنشطة — مبنيّة على “exciting and educational weekly themes”",
+      "of": "d0f0ca6c",
+      "at": [
+        "carmel-christian:dayInside.rhythm[1].detail"
+      ]
+    },
+    {
+      "t": "3:00",
+      "of": "b8907e28",
+      "at": [
+        "carmel-christian:dayInside.rhythm[2].time"
+      ]
+    },
+    {
+      "t": "إلى After Care",
+      "of": "dfcc2fbe",
+      "at": [
+        "carmel-christian:dayInside.rhythm[2].name"
+      ]
+    },
+    {
+      "t": "ينتقل أطفال YCC إلى رعاية After School إلى جانب الصفوف 1–8؛ ويصل طلاب Middle School بحلول الساعة 3:30",
+      "of": "afde5739",
+      "at": [
+        "carmel-christian:dayInside.rhythm[2].detail"
+      ]
+    },
+    {
+      "t": "5:00",
+      "of": "769a4fee",
+      "at": [
+        "carmel-christian:dayInside.rhythm[3].time"
+      ]
+    },
+    {
+      "t": "مجموعة واحدة",
+      "of": "8ed457a4",
+      "at": [
+        "carmel-christian:dayInside.rhythm[3].name"
+      ]
+    },
+    {
+      "t": "ينضمّ أطفال ما بعد YCC إلى مجموعة After School الابتدائية للساعة الأخيرة، حتى موعد الاصطحاب في 6:00 مساءً",
+      "of": "e655351e",
+      "at": [
+        "carmel-christian:dayInside.rhythm[3].detail"
+      ]
+    },
+    {
+      "t": "Grow and Go",
+      "of": "ec2bba3b",
+      "at": [
+        "carmel-christian:dayInside.words[0]"
+      ]
+    },
+    {
+      "t": "منظّم",
+      "of": "e50a3e06",
+      "at": [
+        "carmel-christian:dayInside.words[1]"
+      ]
+    },
+    {
+      "t": "قائم على الأدب",
+      "of": "9c9d2ed5",
+      "at": [
+        "carmel-christian:dayInside.words[2]"
+      ]
+    },
+    {
+      "t": "موضوعات أسبوعية",
+      "of": "b03cafa8",
+      "at": [
+        "carmel-christian:dayInside.words[3]"
+      ]
+    },
+    {
+      "t": "قصة · فنّ · أنشطة",
+      "of": "1ee5b428",
+      "at": [
+        "carmel-christian:dayInside.words[4]"
+      ]
+    },
+    {
+      "t": "مساحة للواجبات",
+      "of": "f4993f59",
+      "at": [
+        "carmel-christian:dayInside.words[5]"
+      ]
+    },
+    {
+      "t": "رسالة اليوم الممتد هي “GROW to become followers of Christ and GO make Him known to the world” (متّى 28:19–20) — إطار “Grow and Go”. ويوصَف Young Cougars Club بأنه “a structured, literature based program with 3 rotations (story, art and activities) with exciting and educational weekly themes.” وتوفّر رعاية After School للصفوف 1–8 مساحة لأداء الواجبات، مع منطقة منفصلة لطلاب Middle School.",
+      "of": "92ef2a7d",
+      "at": [
+        "carmel-christian:dayInside.wordsText"
+      ]
+    },
+    {
+      "t": "حصص الإثراء ودروس الموسيقى",
+      "of": "d1d141f4",
+      "at": [
+        "carmel-christian:dayInside.catalogTitle"
+      ]
+    },
+    {
+      "t": "يقدّم اليوم الممتد حصص إثراء (Enrichment Classes) ودروس إثراء موسيقي (Music Enrichment Lessons) ضمن البرنامج، لكن **عروض عام 2026-2027 لم تُنشَر بعد** — إذ تدرجها المدرسة على أنها “coming August 2026”، فلا توجد بعدُ أسماء حصص أو أيام أو صفوف أو رسوم لعرضها.",
+      "of": "5aed3be2",
+      "at": [
+        "carmel-christian:dayInside.catalogIntro"
+      ]
+    },
+    {
+      "t": "**قائمة الإثراء ودروس الموسيقى لعام 2026-2027 لم تُنشَر بعد** (“coming August 2026”). ولا تتوفّر أسماء حصص أو مدرّبون أو أيام أو نطاقات صفوف أو رسوم لكل حصة للعام المقبل.",
+      "of": "96cf3a2b",
+      "at": [
+        "carmel-christian:dayInside.flags[0].text"
+      ]
+    },
+    {
+      "t": "لا يُنشَر أي نسبة بين الموظّفين والأطفال ولا حجم مجموعة لبرنامجي YCC أو After School، ولا يُقدَّم أي جدول ساعة بساعة لفترة ما بعد الظهر للصفوف 1–8 عدا “homework space”.",
+      "of": "4e0b96ac",
+      "at": [
+        "carmel-christian:dayInside.flags[1].text"
+      ]
+    },
+    {
+      "t": "برنامج واحد للصفوف K–8 يغطّي يوم العمل بأكمله — من 7:30 صباحاً حتى 6:00 مساءً — بأسعار منشورة كاملة وواضحة، وفترة مسائية منظّمة فعلاً لأطفال الروضة.",
+      "of": "bc92a0c2",
+      "at": [
+        "carmel-christian:verdict.headline"
+      ]
+    },
+    {
+      "t": "الأسئلة المفتوحة هي السعة (العام ممتلئ “full” بالفعل)، وقائمة الإثراء المفقودة، ورسم التسجيل غير المنشور وخصم الأشقّاء — وهي بالضبط ما تجيب عنه الزيارة.",
+      "of": "018f2ce1",
+      "at": [
+        "carmel-christian:verdict.subhead"
+      ]
+    },
+    {
+      "t": "**تغطية يوم العمل بأكمله في برنامج واحد** — رعاية صباحية من 7:30 صباحاً ورعاية After School حتى 6:00 مساءً، تمتدّ من الروضة حتى الصف الثامن دون فجوة بين المراحل.",
+      "of": "519eb5f3",
+      "at": [
+        "carmel-christian:verdict.strengths[0]"
+      ]
+    },
+    {
+      "t": "**تسعير منشور بالكامل وسهل القراءة** — لكل جلسة سعر 5 أيام و3 أيام وحضور مؤقت في الدليل، فيستطيع أهل الطالب حساب تكلفتهم الشهرية الدقيقة قبل التقديم.",
+      "of": "8028e9f9",
+      "at": [
+        "carmel-christian:verdict.strengths[1]"
+      ]
+    },
+    {
+      "t": "**فترة مسائية منظّمة قائمة على الأدب لأطفال الروضة** — يُدير Young Cougars Club دورات قصة وفنّ وأنشطة حول موضوعات أسبوعية، لا إشرافاً غير متمايز.",
+      "of": "540328a0",
+      "at": [
+        "carmel-christian:verdict.strengths[2]"
+      ]
+    },
+    {
+      "t": "**يوجد سعر ثابت للحضور المؤقت** — $30/لليوم لبرنامجي YCC وAfter School — فلا تُجبَر العائلات ذات الحاجة العرضية على عقد كامل.",
+      "of": "9499d31c",
+      "at": [
+        "carmel-christian:verdict.strengths[3]"
+      ]
+    },
+    {
+      "t": "**مساحة لأداء الواجبات للصفوف 1–8**، مع منطقة منفصلة لطلاب Middle School الذين يصلون بحلول الساعة 3:30.",
+      "of": "b8521d95",
+      "at": [
+        "carmel-christian:verdict.strengths[4]"
+      ]
+    },
+    {
+      "t": "**إطار مسيحي صريح مدفوع برسالة** — تسري رسالة “Grow and Go” عبر البرنامج بأكمله.",
+      "of": "e2e1243c",
+      "at": [
+        "carmel-christian:verdict.strengths[5]"
+      ]
+    },
+    {
+      "t": "**عام 2026-2027 مُدرَج بالفعل على أنه ممتلئ.** فالعائلة المتقدّمة الآن قد تواجه قائمة انتظار بدلاً من تسجيل مفتوح.",
+      "of": "bb61be3d",
+      "at": [
+        "carmel-christian:verdict.watchouts[0]"
+      ]
+    },
+    {
+      "t": "**قائمة الإثراء ودروس الموسيقى غير منشورة** لعام 2026-27 — وُعِد بها “August 2026”، فلا تستطيع العائلات بعدُ الاطّلاع على الحصص أو الآلات المقدَّمة، ولا في أي أيام، ولا بأي تكلفة.",
+      "of": "21f743d0",
+      "at": [
+        "carmel-christian:verdict.watchouts[1]"
+      ]
+    },
+    {
+      "t": "**لا يُنشَر أي رسم تسجيل أو خصم للأشقّاء**، فلا يمكن حساب التكلفة الحقيقية لعائلة متعدّدة الأبناء من الدليل وحده.",
+      "of": "047b9cdc",
+      "at": [
+        "carmel-christian:verdict.watchouts[2]"
+      ]
+    },
+    {
+      "t": "**لا يُذكر أي إجمالي سنوي بالدولار** — بل أسعار شهرية فقط تُحتسب على مدى 9 أشهر، فيجب اشتقاق رقم السنة.",
+      "of": "65d23605",
+      "at": [
+        "carmel-christian:verdict.watchouts[3]"
+      ]
+    },
+    {
+      "t": "**تُقدَّم عقود 5 أيام و3 أيام فقط**، دون سعر ليومين أو أربعة أيام؛ وأي شيء بينهما يمرّ عبر سعر الحضور المؤقت الثابت.",
+      "of": "ec181676",
+      "at": [
+        "carmel-christian:verdict.watchouts[4]"
+      ]
+    },
+    {
+      "t": "**لا يُنشَر أي نسبة بين الموظّفين والأطفال** لبرنامجي YCC أو After School.",
+      "of": "77d39c2d",
+      "at": [
+        "carmel-christian:verdict.watchouts[5]"
+      ]
+    },
+    {
+      "t": "**يتراكم رسم الاصطحاب المتأخّر** بواقع $10 لكل 10 دقائق، دون حدّ أقصى مذكور.",
+      "of": "106363b0",
+      "at": [
+        "carmel-christian:verdict.watchouts[6]"
+      ]
+    },
+    {
+      "t": "هل برنامج 2026-2027 ممتلئ فعلاً، وهل توجد قائمة انتظار؟ إلى أي مدى نحن في القائمة، ومتى تُفتح الأماكن عادةً؟",
+      "of": "631347d3",
+      "at": [
+        "carmel-christian:verdict.checklist[0]"
+      ]
+    },
+    {
+      "t": "متى ستُنشَر قائمة الإثراء ودروس الموسيقى لعام 2026-27، وما الحصص والآلات المخطّط لها؟",
+      "of": "64d73bbf",
+      "at": [
+        "carmel-christian:verdict.checklist[1]"
+      ]
+    },
+    {
+      "t": "هل يوجد رسم تسجيل لليوم الممتد، وهل هو لكل طفل أم لكل عائلة؟",
+      "of": "35bb7a85",
+      "at": [
+        "carmel-christian:verdict.checklist[2]"
+      ]
+    },
+    {
+      "t": "هل يوجد أي خصم للأشقّاء عبر أسعار Before School وYCC وAfter School؟",
+      "of": "1a9619e1",
+      "at": [
+        "carmel-christian:verdict.checklist[3]"
+      ]
+    },
+    {
+      "t": "على كم شهراً يُحتسب اليوم الممتد — هل هي 9 أشهر بالضبط، وهل توجد أشهر (ديسمبر، يونيو) تُحتسب بالتناسب؟",
+      "of": "c6cfaf7d",
+      "at": [
+        "carmel-christian:verdict.checklist[4]"
+      ]
+    },
+    {
+      "t": "ما نسبة الموظّفين إلى الأطفال في Young Cougars Club وفي رعاية After School؟",
+      "of": "c9e315c9",
+      "at": [
+        "carmel-christian:verdict.checklist[5]"
+      ]
+    },
+    {
+      "t": "كيف تبدو فترة ما بعد الظهر للصفوف 1–8 فعلاً ساعةً بساعة — متى الوجبة الخفيفة والواجبات والوقت في الهواء الطلق؟",
+      "of": "5ed4273f",
+      "at": [
+        "carmel-christian:verdict.checklist[6]"
+      ]
+    },
+    {
+      "t": "هل يمكننا التبديل بين 5 أيام و3 أيام والحضور المؤقت في منتصف العام، وهل يوجد رسم لذلك؟",
+      "of": "6102ec42",
+      "at": [
+        "carmel-christian:verdict.checklist[7]"
+      ]
+    },
+    {
+      "t": "كيف يُحتسب رسم الاصطحاب المتأخّر، وهل يوجد حدّ أقصى له؟",
+      "of": "7a5904fe",
+      "at": [
+        "carmel-christian:verdict.checklist[8]"
+      ]
+    },
+    {
+      "t": "هل تنطبق المساعدة المالية على اليوم الممتد أصلاً، وعلى الإثراء أو دروس الموسيقى؟",
+      "of": "a5f73b88",
+      "at": [
+        "carmel-christian:verdict.checklist[9]"
+      ]
+    },
+    {
+      "t": "ما هي Morning Sibling Care عند الساعة 7:35 صباحاً، وهل تكلّف شيئاً مقارنةً بالرعاية الصباحية المدفوعة؟",
+      "of": "7092d9b2",
+      "at": [
+        "carmel-christian:verdict.checklist[10]"
       ]
     }
   ]

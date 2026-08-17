@@ -680,7 +680,8 @@
         "providence-day:counseling.mechanics[1]",
         "charlotte-latin:counseling.mechanics[1]",
         "charlotte-christian:counseling.mechanics[1]",
-        "charlotte-country-day:counseling.mechanics[1]"
+        "charlotte-country-day:counseling.mechanics[1]",
+        "carmel-christian:counseling.mechanics[2]"
       ],
       "t": "Redaksyon"
     },
@@ -872,7 +873,8 @@
         "charlotte-country-day:outcomes.buckets[0].tier",
         "cannon:outcomes.buckets[0].tier",
         "covenant-day:outcomes.buckets[0].tier",
-        "davidson-day:outcomes.buckets[0].tier"
+        "davidson-day:outcomes.buckets[0].tier",
+        "carmel-christian:outcomes.buckets[0].tier"
       ],
       "t": "Ivy League"
     },
@@ -894,7 +896,8 @@
         "charlotte-country-day:outcomes.buckets[1].tier",
         "cannon:outcomes.buckets[1].tier",
         "covenant-day:outcomes.buckets[1].tier",
-        "davidson-day:outcomes.buckets[1].tier"
+        "davidson-day:outcomes.buckets[1].tier",
+        "carmel-christian:outcomes.buckets[1].tier"
       ],
       "t": "“Ivy Plus”"
     },
@@ -916,7 +919,8 @@
         "charlotte-country-day:outcomes.buckets[2].tier",
         "cannon:outcomes.buckets[2].tier",
         "covenant-day:outcomes.buckets[2].tier",
-        "davidson-day:outcomes.buckets[2].tier"
+        "davidson-day:outcomes.buckets[2].tier",
+        "carmel-christian:outcomes.buckets[2].tier"
       ],
       "t": "Top-75 National Universities"
     },
@@ -930,7 +934,8 @@
         "charlotte-country-day:outcomes.buckets[3].tier",
         "cannon:outcomes.buckets[3].tier",
         "covenant-day:outcomes.buckets[3].tier",
-        "davidson-day:outcomes.buckets[3].tier"
+        "davidson-day:outcomes.buckets[3].tier",
+        "carmel-christian:outcomes.buckets[3].tier"
       ],
       "t": "Top-75 Liberal Arts"
     },
@@ -952,7 +957,8 @@
         "charlotte-country-day:outcomes.buckets[4].tier",
         "cannon:outcomes.buckets[4].tier",
         "covenant-day:outcomes.buckets[4].tier",
-        "davidson-day:outcomes.buckets[4].tier"
+        "davidson-day:outcomes.buckets[4].tier",
+        "carmel-christian:outcomes.buckets[4].tier"
       ],
       "t": "Power Four"
     },
@@ -974,7 +980,8 @@
         "charlotte-country-day:outcomes.buckets[5].tier",
         "cannon:outcomes.buckets[5].tier",
         "covenant-day:outcomes.buckets[5].tier",
-        "davidson-day:outcomes.buckets[5].tier"
+        "davidson-day:outcomes.buckets[5].tier",
+        "carmel-christian:outcomes.buckets[5].tier"
       ],
       "t": "HBCUs"
     },
@@ -1540,7 +1547,8 @@
       "text": "When direction changes",
       "of": "af01cccd",
       "at": [
-        "providence-day:wholeClass.middle[2].label"
+        "providence-day:wholeClass.middle[2].label",
+        "carmel-christian:wholeClass.middle[1].label"
       ],
       "t": "Lè direksyon an chanje"
     },
@@ -3271,7 +3279,8 @@
       "text": "College Counselor",
       "of": "8571c250",
       "at": [
-        "charlotte-christian:counseling.roster[1].role"
+        "charlotte-christian:counseling.roster[1].role",
+        "carmel-christian:counseling.roster[0].role"
       ],
       "t": "Konseye Inivèsite"
     },
@@ -6593,7 +6602,8 @@
       "text": "80%",
       "of": "489f4e50",
       "at": [
-        "covenant-day:transcript.stats[3].value"
+        "covenant-day:transcript.stats[3].value",
+        "carmel-christian:transcript.stats[2].value"
       ],
       "t": "80%"
     },
@@ -7189,6 +7199,14 @@
         "covenant-day:outcomes.bucketsNote"
       ],
       "t": "Derive pa rechèch sa a nan lis lekòl la pibliye kont tab 2026 U.S. News yo — menm lis yo itilize pou lòt lekòl isit yo, se pa chif lekòl la rapòte. Fenèt pi bonè yo te pi wo: pwen enpòtan 2018–2023 yo gen ladan Stanford, MIT, Princeton, Brown, Cornell ak Vanderbilt, epi lis 2021–2024 la ajoute senk kanpis UC."
+    },
+    {
+      "text": "225 institutions · bold = at least one graduate enrolled",
+      "of": "3ca8485c",
+      "at": [
+        "covenant-day:outcomes.collegesTotal"
+      ],
+      "t": "225 enstitisyon · gra = omwen yon gradye te enskri"
     },
     {
       "text": "No scholarship dollar totals — checked across all three profile editions",
@@ -8807,12 +8825,1164 @@
       "t": "Si pitit mwen gen akomodasyon atravè Learning Enrichment Center la, kiyès ki fè apwouve yo pou tès College Board ak ACT, epi ki dokimante yo pou sèvis andikap nan inivèsite?"
     },
     {
-      "text": "225 institutions · bold = at least one graduate enrolled",
-      "of": "3ca8485c",
+      "text": "73% of seniors scored a 3 or higher on at least one AP exam, and 80% sat at least one — enough for the College Board’s Platinum AP School Honor Roll, its top tier.",
+      "of": "43be6875",
       "at": [
-        "covenant-day:outcomes.collegesTotal"
+        "carmel-christian:transcript.headline"
       ],
-      "t": "225 enstitisyon · gra = omwen yon gradye te enskri"
+      "t": "73% nan elèv fen etid yo te fè yon 3 oswa plis nan omwen yon egzamen AP, epi 80% te chita omwen youn — ase pou Platinum AP School Honor Roll College Board la, nivo ki pi wo li."
+    },
+    {
+      "text": "A broad-participation AP program: 14 AP courses across 21 sections taught by 12 teachers, with 19% of seniors sitting five or more exams.",
+      "of": "d3c5a74a",
+      "at": [
+        "carmel-christian:transcript.subhead"
+      ],
+      "t": "Yon pwogram AP ak patisipasyon laj: 14 kou AP atravè 21 seksyon anseye pa 12 pwofesè, ak 19% nan elèv fen etid yo ki chita senk egzamen oswa plis."
+    },
+    {
+      "text": "Platinum",
+      "of": "67bf0d55",
+      "at": [
+        "carmel-christian:transcript.stats[0].value"
+      ],
+      "t": "Platinum"
+    },
+    {
+      "text": "AP School Honor Roll — the College Board’s top distinction",
+      "of": "fdfa71d0",
+      "at": [
+        "carmel-christian:transcript.stats[0].label"
+      ],
+      "t": "AP School Honor Roll — pi gwo distenksyon College Board la"
+    },
+    {
+      "text": "73%",
+      "of": "2dc5384e",
+      "at": [
+        "carmel-christian:transcript.stats[1].value"
+      ],
+      "t": "73%"
+    },
+    {
+      "text": "of seniors scored 3+ on at least one AP exam",
+      "of": "03cae366",
+      "at": [
+        "carmel-christian:transcript.stats[1].label"
+      ],
+      "t": "nan elèv fen etid yo te fè 3+ nan omwen yon egzamen AP"
+    },
+    {
+      "text": "of seniors sat at least one AP exam · 19% sat five or more",
+      "of": "f3259d37",
+      "at": [
+        "carmel-christian:transcript.stats[2].label"
+      ],
+      "t": "nan elèv fen etid yo te chita omwen yon egzamen AP · 19% te chita senk oswa plis"
+    },
+    {
+      "text": "14 / 21",
+      "of": "dc9d3892",
+      "at": [
+        "carmel-christian:transcript.stats[3].value"
+      ],
+      "t": "14 / 21"
+    },
+    {
+      "text": "AP courses / sections, taught by 12 teachers",
+      "of": "1110a371",
+      "at": [
+        "carmel-christian:transcript.stats[3].label"
+      ],
+      "t": "kou / seksyon AP, anseye pa 12 pwofesè"
+    },
+    {
+      "text": "What the AP recognition rests on",
+      "of": "b064a67a",
+      "at": [
+        "carmel-christian:transcript.depthTitle"
+      ],
+      "t": "Sou kisa rekonesans AP la chita"
+    },
+    {
+      "text": "Breadth over a narrow elite",
+      "of": "65ec7faa",
+      "at": [
+        "carmel-christian:transcript.depth[0].label"
+      ],
+      "t": "Lajè olye yon ti gwoup elit"
+    },
+    {
+      "text": "Platinum recognises schools where a large share of the senior class both takes and scores on AP exams — **80% sat an exam and 73% scored 3+**, so the recognition rests on the whole class, not a handful of specialists.",
+      "of": "dc229d7f",
+      "at": [
+        "carmel-christian:transcript.depth[0].text"
+      ],
+      "t": "Platinum rekonèt lekòl kote yon gwo pati nan klas fen etid la ni pran ni fè nòt nan egzamen AP — **80% te chita yon egzamen epi 73% te fè 3+**, kidonk rekonesans la chita sou tout klas la, se pa sou yon ti ponyen espesyalis."
+    },
+    {
+      "text": "Depth in the tail",
+      "of": "2da73ab4",
+      "at": [
+        "carmel-christian:transcript.depth[1].label"
+      ],
+      "t": "Pwofondè nan pati dèyè a"
+    },
+    {
+      "text": "**19% of seniors sat five or more AP exams** — a meaningful group carrying a heavy AP load, not just one or two courses.",
+      "of": "16db5083",
+      "at": [
+        "carmel-christian:transcript.depth[1].text"
+      ],
+      "t": "**19% nan elèv fen etid yo te chita senk egzamen AP oswa plis** — yon gwoup enpòtan k ap pote yon chaj AP lou, se pa jis youn oswa de kou."
+    },
+    {
+      "text": "Staffing",
+      "of": "59fbe26f",
+      "at": [
+        "carmel-christian:transcript.depth[2].label"
+      ],
+      "t": "Anplwaye"
+    },
+    {
+      "text": "**21 sections across 14 AP courses, taught by 12 teachers** — the program is spread across a real faculty rather than concentrated in one or two rooms.",
+      "of": "01cc569e",
+      "at": [
+        "carmel-christian:transcript.depth[2].text"
+      ],
+      "t": "**21 seksyon atravè 14 kou AP, anseye pa 12 pwofesè** — pwogram nan gaye atravè yon vrè fakilte olye li konsantre nan youn oswa de sal."
+    },
+    {
+      "text": "How the grade is framed",
+      "of": "cb40e1de",
+      "at": [
+        "carmel-christian:transcript.trustTitle"
+      ],
+      "t": "Kijan nòt la prezante"
+    },
+    {
+      "text": "Weighted, and does not rank",
+      "of": "74f79193",
+      "at": [
+        "carmel-christian:transcript.trust[0].label"
+      ],
+      "t": "Ponn, epi li pa klase"
+    },
+    {
+      "text": "The 2022 profile reports a weighted-GPA range (**3.64–4.58**) against an unweighted range (**3.35–3.86**) and states the school does not rank students — the range stands in for a rank.",
+      "of": "0cb04cb9",
+      "at": [
+        "carmel-christian:transcript.trust[0].text"
+      ],
+      "t": "Pwofil 2022 la rapòte yon plaj GPA ponn (**3.64–4.58**) kont yon plaj san pwa (**3.35–3.86**) epi li deklare lekòl la pa klase elèv yo — plaj la ranplase yon klasman."
+    },
+    {
+      "text": "The AP School Honor Roll post states no year. Its metadata (2024-02-12) plus the phrase “last year’s AP exams” points to the 2023 exams — treated as 2023 here, TO VERIFY. Separately, a 94%-of-exams-scoring-3+ figure surfaced in Course Offerings research (May 2025, 145 students); it measures a different denominator (exams, not seniors) and is not conflated with the 73% here.",
+      "of": "97fc78bb",
+      "at": [
+        "carmel-christian:transcript.flags[0].text"
+      ],
+      "t": "Pòs AP School Honor Roll la pa deklare okenn ane. Metadata li (2024-02-12) plis fraz “last year’s AP exams” lonje dwèt sou egzamen 2023 yo — trete kòm 2023 isit la, TO VERIFY. Apa, yon chif 94%-nan-egzamen-fè-3+ te parèt nan rechèch Course Offerings (May 2025, 145 elèv); li mezire yon denominatè diferan (egzamen, se pa elèv fen etid) epi li pa konfonn ak 73% isit la."
+    },
+    {
+      "text": "No National Merit / College Board recognition ledger is published — no Semifinalist, Finalist or Commended counts by year — so this card carries no merit ledger. The College Planning Timeline references National Merit only through the PSAT/NMSQT.",
+      "of": "f1929f7e",
+      "at": [
+        "carmel-christian:transcript.flags[1].text"
+      ],
+      "t": "Pa gen okenn rejis rekonesans National Merit / College Board ki pibliye — pa gen kont Semifinalist, Finalist oswa Commended pa ane — kidonk kat sa a pa pote okenn rejis merit. College Planning Timeline la refere a National Merit sèlman atravè PSAT/NMSQT."
+    },
+    {
+      "text": "One dedicated, NACCAP-certified college counselor runs a fully published program — a grade-by-grade timeline, a signature “College Boot Camp”, an essay workshop, and an admissions panel.",
+      "of": "2171bfd8",
+      "at": [
+        "carmel-christian:counseling.headline"
+      ],
+      "t": "Yon sèl konseye kolèj dedye, sètifye NACCAP, dirije yon pwogram ki byen pibliye — yon kalandriye klas pa klas, yon siyati “College Boot Camp”, yon atelye disètasyon, ak yon panèl admisyon."
+    },
+    {
+      "text": "Naviance and the Common Application are the tools; a separate academic advisor and personal counselor carry course-planning and pastoral load off the college office.",
+      "of": "ca9de234",
+      "at": [
+        "carmel-christian:counseling.subhead"
+      ],
+      "t": "Naviance ak Common Application se zouti yo; yon konseye akademik apa ak yon konseye pèsonèl pote chaj planifikasyon kou ak chaj pastoral sou biwo kolèj la."
+    },
+    {
+      "text": "1",
+      "of": "340ca71c",
+      "at": [
+        "carmel-christian:counseling.stats[0].value"
+      ],
+      "t": "1"
+    },
+    {
+      "text": "dedicated college counselor (NACCAP-certified)",
+      "of": "3c37ca3e",
+      "at": [
+        "carmel-christian:counseling.stats[0].label"
+      ],
+      "t": "konseye kolèj dedye (sètifye NACCAP)"
+    },
+    {
+      "text": "Naviance",
+      "of": "7981814a",
+      "at": [
+        "carmel-christian:counseling.stats[1].value"
+      ],
+      "t": "Naviance"
+    },
+    {
+      "text": "platform · Common Application · NCAA code 9999",
+      "of": "01e18c67",
+      "at": [
+        "carmel-christian:counseling.stats[1].label"
+      ],
+      "t": "platfòm · Common Application · NCAA code 9999"
+    },
+    {
+      "text": "4-year",
+      "of": "321c8cb7",
+      "at": [
+        "carmel-christian:counseling.stats[2].value"
+      ],
+      "t": "4-year"
+    },
+    {
+      "text": "published grade-by-grade College Planning Timeline",
+      "of": "284907d7",
+      "at": [
+        "carmel-christian:counseling.stats[2].label"
+      ],
+      "t": "College Planning Timeline pibliye klas pa klas"
+    },
+    {
+      "text": "2 / yr",
+      "of": "0531820b",
+      "at": [
+        "carmel-christian:counseling.stats[3].value"
+      ],
+      "t": "2 / yr"
+    },
+    {
+      "text": "excused college-visit absences per student",
+      "of": "38251749",
+      "at": [
+        "carmel-christian:counseling.stats[3].label"
+      ],
+      "t": "absans eskize pou vizit kolèj pa elèv"
+    },
+    {
+      "text": "NACCAP-certified · runs the essay workshop and proofing, submits transcripts and letters of recommendation, trains students on Naviance and the Common App, and writes the counselor LOR.",
+      "of": "8181943e",
+      "at": [
+        "carmel-christian:counseling.roster[0].detail"
+      ],
+      "t": "Sètifye NACCAP · dirije atelye disètasyon an ak koreksyon, soumèt relve nòt ak lèt rekòmandasyon, fòme elèv sou Naviance ak Common App, epi ekri lèt rekòmandasyon konseye a."
+    },
+    {
+      "text": "Academic Advisor",
+      "of": "c82b041a",
+      "at": [
+        "carmel-christian:counseling.roster[1].role"
+      ],
+      "t": "Academic Advisor"
+    },
+    {
+      "text": "Course planning for grades 8–11 — the placement work that feeds the transcript.",
+      "of": "286f331d",
+      "at": [
+        "carmel-christian:counseling.roster[1].detail"
+      ],
+      "t": "Planifikasyon kou pou klas 8–11 — travay plasman ki alimante relve nòt la."
+    },
+    {
+      "text": "Personal Counselor / Registrar",
+      "of": "280f95ad",
+      "at": [
+        "carmel-christian:counseling.roster[2].role"
+      ],
+      "t": "Personal Counselor / Registrar"
+    },
+    {
+      "text": "Personal counseling and registrar for grades 9–12 — pastoral load carried off the college office.",
+      "of": "e632f3fb",
+      "at": [
+        "carmel-christian:counseling.roster[2].detail"
+      ],
+      "t": "Konsèy pèsonèl ak rejis pou klas 9–12 — chaj pastoral pote sou biwo kolèj la."
+    },
+    {
+      "text": "ES & MS Counselor",
+      "of": "1a81a897",
+      "at": [
+        "carmel-christian:counseling.roster[3].role"
+      ],
+      "t": "ES & MS Counselor"
+    },
+    {
+      "text": "Elementary and middle school counseling.",
+      "of": "926fae54",
+      "at": [
+        "carmel-christian:counseling.roster[3].detail"
+      ],
+      "t": "Konsèy nan lekòl elemantè ak mwayen."
+    },
+    {
+      "text": "The four-year College Planning Timeline",
+      "of": "2b3a893f",
+      "at": [
+        "carmel-christian:counseling.timelineTitle"
+      ],
+      "t": "College Planning Timeline kat ane a"
+    },
+    {
+      "text": "Strong Start & Good Habits",
+      "of": "2f9b0f88",
+      "at": [
+        "carmel-christian:counseling.timeline[0].intensity"
+      ],
+      "t": "Bon Kòmansman ak Bon Abitid"
+    },
+    {
+      "text": "Build the study habits and GPA the transcript rests on",
+      "of": "c30d94ea",
+      "at": [
+        "carmel-christian:counseling.timeline[0].items[0]"
+      ],
+      "t": "Bati abitid etid ak GPA relve nòt la chita sou li"
+    },
+    {
+      "text": "Get involved early — the foundation for later leadership",
+      "of": "a87153bd",
+      "at": [
+        "carmel-christian:counseling.timeline[0].items[1]"
+      ],
+      "t": "Antre nan aktivite bonè — fondasyon pou lidèchip pita"
+    },
+    {
+      "text": "Focus: be a strong high-school student first",
+      "of": "48be9388",
+      "at": [
+        "carmel-christian:counseling.timeline[0].note"
+      ],
+      "t": "Fokis: se yon bon elèv lekòl segondè an premye"
+    },
+    {
+      "text": "Involvement & Service",
+      "of": "0251d637",
+      "at": [
+        "carmel-christian:counseling.timeline[1].intensity"
+      ],
+      "t": "Angajman ak Sèvis"
+    },
+    {
+      "text": "Deepen involvement and service",
+      "of": "ca71b7c3",
+      "at": [
+        "carmel-christian:counseling.timeline[1].items[0]"
+      ],
+      "t": "Apwofondi angajman ak sèvis"
+    },
+    {
+      "text": "Begin thinking about direction and fit",
+      "of": "520eb0fc",
+      "at": [
+        "carmel-christian:counseling.timeline[1].items[1]"
+      ],
+      "t": "Kòmanse panse sou direksyon ak sa ki bon pou ou"
+    },
+    {
+      "text": "Testing & College Research",
+      "of": "d7e07339",
+      "at": [
+        "carmel-christian:counseling.timeline[2].intensity"
+      ],
+      "t": "Tès ak Rechèch Kolèj"
+    },
+    {
+      "text": "**PSAT/NMSQT** — the National Merit gateway",
+      "of": "5b11394f",
+      "at": [
+        "carmel-christian:counseling.timeline[2].items[0]"
+      ],
+      "t": "**PSAT/NMSQT** — pòt National Merit la"
+    },
+    {
+      "text": "March essay rough draft with Berry and English faculty",
+      "of": "93d9793e",
+      "at": [
+        "carmel-christian:counseling.timeline[2].items[1]"
+      ],
+      "t": "Bouyon disètasyon mwa Mas ak Berry ak fakilte anglè"
+    },
+    {
+      "text": "February 1:1 with Berry and family to build the list",
+      "of": "3bf956b8",
+      "at": [
+        "carmel-christian:counseling.timeline[2].items[2]"
+      ],
+      "t": "Fevriye 1:1 ak Berry ak fanmi an pou bati lis la"
+    },
+    {
+      "text": "Standardized testing and college research in earnest",
+      "of": "4327fd38",
+      "at": [
+        "carmel-christian:counseling.timeline[2].note"
+      ],
+      "t": "Tès estandadize ak rechèch kolèj toutbon"
+    },
+    {
+      "text": "Completing Essays & Applications",
+      "of": "a9a6a0fc",
+      "at": [
+        "carmel-christian:counseling.timeline[3].intensity"
+      ],
+      "t": "Fini Disètasyon ak Aplikasyon"
+    },
+    {
+      "text": "**College Boot Camp Day** before senior year (May sign-ups)",
+      "of": "6ba7fb43",
+      "at": [
+        "carmel-christian:counseling.timeline[3].items[0]"
+      ],
+      "t": "**College Boot Camp Day** anvan dènye ane a (enskripsyon nan mwa Me)"
+    },
+    {
+      "text": "June/August “Logins and Letters” sessions",
+      "of": "875f366d",
+      "at": [
+        "carmel-christian:counseling.timeline[3].items[1]"
+      ],
+      "t": "Sesyon “Logins and Letters” nan mwa Jen/Out"
+    },
+    {
+      "text": "Early-action applications in October",
+      "of": "abde1fef",
+      "at": [
+        "carmel-christian:counseling.timeline[3].items[2]"
+      ],
+      "t": "Aplikasyon early-action nan mwa Oktòb"
+    },
+    {
+      "text": "Focus: complete essays and applications",
+      "of": "5f98bf9a",
+      "at": [
+        "carmel-christian:counseling.timeline[3].note"
+      ],
+      "t": "Fokis: fini disètasyon ak aplikasyon"
+    },
+    {
+      "text": "Anatomy of a College Application — the eight parts the office coaches",
+      "of": "e7f830b8",
+      "at": [
+        "carmel-christian:counseling.mechanicsTitle"
+      ],
+      "t": "Anatomi yon Aplikasyon Kolèj — uit pati biwo a antrene sou yo"
+    },
+    {
+      "text": "Transcript",
+      "of": "0583096b",
+      "at": [
+        "carmel-christian:counseling.mechanics[0]"
+      ],
+      "t": "Relve nòt"
+    },
+    {
+      "text": "Test scores",
+      "of": "922fa840",
+      "at": [
+        "carmel-christian:counseling.mechanics[1]"
+      ],
+      "t": "Nòt tès"
+    },
+    {
+      "text": "Application",
+      "of": "22af01e5",
+      "at": [
+        "carmel-christian:counseling.mechanics[3]"
+      ],
+      "t": "Aplikasyon"
+    },
+    {
+      "text": "Counselor LOR",
+      "of": "fbced8b8",
+      "at": [
+        "carmel-christian:counseling.mechanics[4]"
+      ],
+      "t": "Lèt rekòmandasyon konseye"
+    },
+    {
+      "text": "Teacher LOR",
+      "of": "602634f0",
+      "at": [
+        "carmel-christian:counseling.mechanics[5]"
+      ],
+      "t": "Lèt rekòmandasyon pwofesè"
+    },
+    {
+      "text": "Activities / service / leadership",
+      "of": "b13d0dea",
+      "at": [
+        "carmel-christian:counseling.mechanics[6]"
+      ],
+      "t": "Aktivite / sèvis / lidèchip"
+    },
+    {
+      "text": "Resume",
+      "of": "454d1d8a",
+      "at": [
+        "carmel-christian:counseling.mechanics[7]"
+      ],
+      "t": "Rezime"
+    },
+    {
+      "text": "That is the office’s own published “Anatomy of a College Application” framework, verbatim — eight named parts. The signature “College Boot Camp” bundles a Boot Camp Day with follow-up “Logins and Letters” sessions; a student essay-writing workshop plus proofing runs alongside, with the 11th-grade rough draft read by Berry and English faculty.",
+      "of": "af33c7ff",
+      "at": [
+        "carmel-christian:counseling.mechanicsNote"
+      ],
+      "t": "Sa se pwòp fòm “Anatomy of a College Application” biwo a pibliye, mo pou mo — uit pati ki gen non. Siyati “College Boot Camp” la konbine yon Boot Camp Day ak sesyon “Logins and Letters” apre; yon atelye ekri disètasyon pou elèv plis koreksyon mache akote, ak bouyon 11yèm ane a li pa Berry ak fakilte anglè."
+    },
+    {
+      "text": "College rep visits during Monday/Wednesday Crew classes or lunch (5–20 minutes each)",
+      "of": "27b3b01a",
+      "at": [
+        "carmel-christian:counseling.reach[0]"
+      ],
+      "t": "Vizit reprezantan kolèj pandan klas Crew Lendi/Mèkredi oswa lè lench (5–20 minit chak)"
+    },
+    {
+      "text": "A **College Admissions Panel** — public, private and Christian-college reps, a financial-aid officer, a Marine recruiter and a campus minister",
+      "of": "814dd7ac",
+      "at": [
+        "carmel-christian:counseling.reach[1]"
+      ],
+      "t": "Yon **College Admissions Panel** — reprezantan kolèj piblik, prive ak kretyen, yon ofisye èd finansye, yon rekritè Marine ak yon minis kanpis"
+    },
+    {
+      "text": "Naviance links student, counselor and colleges · Common Application · NCAA code 9999",
+      "of": "00c626a6",
+      "at": [
+        "carmel-christian:counseling.reach[2]"
+      ],
+      "t": "Naviance konekte elèv, konseye ak kolèj · Common Application · NCAA code 9999"
+    },
+    {
+      "text": "Two excused college-visit absences per student per year",
+      "of": "eca42479",
+      "at": [
+        "carmel-christian:counseling.reach[3]"
+      ],
+      "t": "De absans eskize pou vizit kolèj pa elèv chak ane"
+    },
+    {
+      "text": "The senior class size, the seniors-per-counselor ratio and the annual college-rep-visit count are not published anywhere on the public site — so no caseload figure is stated here rather than derived from an unpublished denominator.",
+      "of": "adc056b8",
+      "at": [
+        "carmel-christian:counseling.flags[0].text"
+      ],
+      "t": "Gwosè klas fen etid la, rapò elèv-pa-konseye a ak kantite vizit reprezantan kolèj chak ane pa pibliye okenn kote sou sit piblik la — kidonk pa gen okenn chif chaj travay deklare isit la olye pou l kalkile sou yon denominatè ki pa pibliye."
+    },
+    {
+      "text": "Around 215 institutions appear on the published College Acceptances list — Princeton and Duke at the top, through a deep bench of NC publics and Christian colleges.",
+      "of": "5627c532",
+      "at": [
+        "carmel-christian:outcomes.headline"
+      ],
+      "t": "Anviwon 215 enstitisyon parèt sou lis College Acceptances ki pibliye a — Princeton ak Duke anlè, atravè yon gwo baz kolèj piblik NC ak kolèj kretyen."
+    },
+    {
+      "text": "The page carries no time window, no counts and no matriculation markings, so it reads as a cumulative acceptance list. Here it is scored against the current U.S. News tiers.",
+      "of": "b76388b4",
+      "at": [
+        "carmel-christian:outcomes.subhead"
+      ],
+      "t": "Paj la pa pote okenn fenèt tan, okenn kont ak okenn mak matrikilasyon, kidonk li li tankou yon lis akseptasyon kimilatif. Isit la yo evalye l kont nivo U.S. News aktyèl yo."
+    },
+    {
+      "text": "~215",
+      "of": "6813e2c7",
+      "at": [
+        "carmel-christian:outcomes.stats[0].value"
+      ],
+      "t": "~215"
+    },
+    {
+      "text": "institutions named on the acceptance list (no count stated)",
+      "of": "d3b5e6ac",
+      "at": [
+        "carmel-christian:outcomes.stats[0].label"
+      ],
+      "t": "enstitisyon ki gen non sou lis akseptasyon an (pa gen kont ki deklare)"
+    },
+    {
+      "text": "1 of 8",
+      "of": "20634925",
+      "at": [
+        "carmel-christian:outcomes.stats[1].value"
+      ],
+      "t": "1 of 8"
+    },
+    {
+      "text": "Ivy League — Princeton",
+      "of": "aab63658",
+      "at": [
+        "carmel-christian:outcomes.stats[1].label"
+      ],
+      "t": "Ivy League — Princeton"
+    },
+    {
+      "text": "~27",
+      "of": "b68b33ba",
+      "at": [
+        "carmel-christian:outcomes.stats[2].value"
+      ],
+      "t": "~27"
+    },
+    {
+      "text": "Top-75 National Universities on the list",
+      "of": "e0126aa3",
+      "at": [
+        "carmel-christian:outcomes.stats[2].label"
+      ],
+      "t": "Top-75 National Universities sou lis la"
+    },
+    {
+      "text": "8",
+      "of": "3d0cb547",
+      "at": [
+        "carmel-christian:outcomes.stats[3].value"
+      ],
+      "t": "8"
+    },
+    {
+      "text": "HBCUs on the list",
+      "of": "5080a016",
+      "at": [
+        "carmel-christian:outcomes.stats[3].label"
+      ],
+      "t": "HBCU sou lis la"
+    },
+    {
+      "text": "— Princeton",
+      "of": "ccbef9e1",
+      "at": [
+        "carmel-christian:outcomes.buckets[0].note"
+      ],
+      "t": "— Princeton"
+    },
+    {
+      "text": "— adds Duke",
+      "of": "16bf9664",
+      "at": [
+        "carmel-christian:outcomes.buckets[1].note"
+      ],
+      "t": "— ajoute Duke"
+    },
+    {
+      "text": "— Davidson, Washington & Lee, Furman, Rhodes, Sewanee, Agnes Scott, Centre",
+      "of": "bf654425",
+      "at": [
+        "carmel-christian:outcomes.buckets[3].note"
+      ],
+      "t": "— Davidson, Washington & Lee, Furman, Rhodes, Sewanee, Agnes Scott, Centre"
+    },
+    {
+      "text": "— incl. Hampton, Howard, NC A&T, Florida A&M",
+      "of": "3ee4ba2e",
+      "at": [
+        "carmel-christian:outcomes.buckets[5].note"
+      ],
+      "t": "— ansanm ak Hampton, Howard, NC A&T, Florida A&M"
+    },
+    {
+      "text": "Counts are derived by this research from the same ~215-institution list you can filter at right, scored against the 2026 U.S. News tables — not figures the school reports. The list preserves the page’s verbatim duplicates (SCAD appears three ways; Alabama appears bare and as Tuscaloosa/Birmingham/Huntsville), and includes two non-college destinations — the United States Marine Corps and NASCAR Technical Institute.",
+      "of": "472a86b7",
+      "at": [
+        "carmel-christian:outcomes.bucketsNote"
+      ],
+      "t": "Kont yo se rechèch sa a ki kalkile yo apati menm lis 215-enstitisyon ou ka filtre sou bò dwat la, evalye kont tab U.S. News 2026 — se pa chif lekòl la rapòte. Lis la kenbe doub verbatim paj la (SCAD parèt twa fason; Alabama parèt tou senp ak kòm Tuscaloosa/Birmingham/Huntsville), epi li gen ladan de destinasyon ki pa kolèj — United States Marine Corps ak NASCAR Technical Institute."
+    },
+    {
+      "text": "Every named acceptance",
+      "of": "ad9fd2d8",
+      "at": [
+        "carmel-christian:outcomes.collegesTitle"
+      ],
+      "t": "Chak akseptasyon ki gen non"
+    },
+    {
+      "text": "~215 institutions · no time window, counts or matriculation markings published",
+      "of": "92b6be66",
+      "at": [
+        "carmel-christian:outcomes.collegesTotal"
+      ],
+      "t": "~215 enstitisyon · pa gen fenèt tan, kont oswa mak matrikilasyon ki pibliye"
+    },
+    {
+      "text": "No scholarship dollar totals published",
+      "of": "753cc439",
+      "at": [
+        "carmel-christian:outcomes.scholarships[0]"
+      ],
+      "t": "Pa gen okenn total dola bous ki pibliye"
+    },
+    {
+      "text": "No per-class acceptance counts — the list is a single cumulative window",
+      "of": "3b3595c2",
+      "at": [
+        "carmel-christian:outcomes.scholarships[1]"
+      ],
+      "t": "Pa gen kont akseptasyon pa klas — lis la se yon sèl fenèt kimilatif"
+    },
+    {
+      "text": "No matriculation markings — acceptances only",
+      "of": "a390b816",
+      "at": [
+        "carmel-christian:outcomes.scholarships[2]"
+      ],
+      "t": "Pa gen mak matrikilasyon — akseptasyon sèlman"
+    },
+    {
+      "text": "The school publishes no scholarship-offer totals and no named-award ledger anywhere in the materials located for this pass.",
+      "of": "c69ceffb",
+      "at": [
+        "carmel-christian:outcomes.scholarshipsNote"
+      ],
+      "t": "Lekòl la pa pibliye okenn total òf bous ni okenn rejis prim ki gen non okenn kote nan materyèl ki jwenn pou pas sa a."
+    },
+    {
+      "text": "this is an acceptance list, not a matriculation list — and unlike some peer schools it marks no enrollments at all, so it shows breadth of acceptances rather than where students actually enrolled. No time window or counts are stated, so a name means at least one acceptance at some point.",
+      "of": "7f06b91e",
+      "at": [
+        "carmel-christian:outcomes.caveat"
+      ],
+      "t": "sa a se yon lis akseptasyon, se pa yon lis matrikilasyon — epi kontrèman ak kèk lekòl parèy, li pa make okenn enskripsyon ditou, kidonk li montre lajè akseptasyon olye kote elèv yo vrèman enskri. Pa gen okenn fenèt tan oswa kont ki deklare, kidonk yon non vle di omwen yon akseptasyon nan yon moman."
+    },
+    {
+      "text": "The “Xavier University” entry is ambiguous between Xavier (OH) and Xavier of Louisiana (an HBCU); it is left uncategorized pending confirmation, so the HBCU bucket count of 8 excludes it. Bucket membership near the Top-75 line (e.g. Agnes Scott, Hampden-Sydney) should be re-confirmed against the live U.S. News edition at ingest.",
+      "of": "88f9894d",
+      "at": [
+        "carmel-christian:outcomes.flags[0].text"
+      ],
+      "t": "Antre “Xavier University” la anbigi ant Xavier (OH) ak Xavier of Louisiana (yon HBCU); li rete san kategori annatandan konfimasyon, kidonk kont bokèt HBCU 8 la eskli l. Manm bokèt tou pre liy Top-75 la (pa egzanp Agnes Scott, Hampden-Sydney) ta dwe rekonfime kont edisyon U.S. News aktif la nan moman ingest."
+    },
+    {
+      "text": "The edge here is a fully published, sequenced counseling program plus a broad-participation AP record — legibility and cadence rather than national-competition credentials.",
+      "of": "8ae167a8",
+      "at": [
+        "carmel-christian:edge.headline"
+      ],
+      "t": "Avantaj la se yon pwogram konsèy ki byen pibliye, ki byen ranje, plis yon dosye AP ak laj patisipasyon — lizibilite ak kadans olye kalifikasyon konpetisyon nasyonal."
+    },
+    {
+      "text": "What the school hands a family is a documented four-year plan and a top-tier College Board recognition; what it does not publish is a research-program or Olympiad track.",
+      "of": "0eb90cc6",
+      "at": [
+        "carmel-christian:edge.subhead"
+      ],
+      "t": "Sa lekòl la remèt yon fanmi se yon plan kat ane ki dokimante ak yon rekonesans College Board nan pi wo nivo; sa li pa pibliye se yon pwogram rechèch oswa yon pist Olympiad."
+    },
+    {
+      "text": "Lever 1 — Build the record",
+      "of": "8d241e6c",
+      "at": [
+        "carmel-christian:edge.levers[0].title"
+      ],
+      "t": "Levye 1 — Bati dosye a"
+    },
+    {
+      "text": "what your child brings",
+      "of": "8160bd29",
+      "at": [
+        "carmel-christian:edge.levers[0].hint"
+      ],
+      "t": "sa pitit ou pote"
+    },
+    {
+      "text": "**Platinum AP School Honor Roll** — the College Board’s top tier, earned on broad participation (80% of seniors sat an exam, 73% scored 3+) rather than a narrow elite.",
+      "of": "e8b4fa26",
+      "at": [
+        "carmel-christian:edge.levers[0].items[0]"
+      ],
+      "t": "**Platinum AP School Honor Roll** — pi wo nivo College Board la, genyen sou laj patisipasyon (80% nan elèv fen etid yo te chita yon egzamen, 73% te fè 3+) olye yon ti gwoup elit."
+    },
+    {
+      "text": "**A heavy-load group exists** — 19% of seniors sat five or more AP exams, across a 14-course / 21-section program.",
+      "of": "e1851c2c",
+      "at": [
+        "carmel-christian:edge.levers[0].items[1]"
+      ],
+      "t": "**Gen yon gwoup ak chaj lou** — 19% nan elèv fen etid yo te chita senk egzamen AP oswa plis, atravè yon pwogram 14-kou / 21-seksyon."
+    },
+    {
+      "text": "**A sequenced plan** — the published four-year timeline (Strong Start → Involvement & Service → Testing & Research → Essays & Applications) means a student is building toward the application from 9th grade, not assembling it in senior fall.",
+      "of": "9605a3f1",
+      "at": [
+        "carmel-christian:edge.levers[0].items[2]"
+      ],
+      "t": "**Yon plan ki byen ranje** — kalandriye kat ane pibliye a (Strong Start → Involvement & Service → Testing & Research → Essays & Applications) vle di yon elèv ap bati vè aplikasyon an depi 9yèm ane, se pa monte l nan otòn dènye ane a."
+    },
+    {
+      "text": "Lever 2 — The office’s leverage",
+      "of": "116d2939",
+      "at": [
+        "carmel-christian:edge.levers[1].title"
+      ],
+      "t": "Levye 2 — Levye biwo a"
+    },
+    {
+      "text": "what the building lends the file",
+      "of": "481c1ac1",
+      "at": [
+        "carmel-christian:edge.levers[1].hint"
+      ],
+      "t": "sa bilding lan prete dosye a"
+    },
+    {
+      "text": "**A NACCAP-certified counselor** — name recognition inside the Christian-college admissions circuit, matching the list’s deepest concentrations (Christian colleges and NC publics).",
+      "of": "dd2faa37",
+      "at": [
+        "carmel-christian:edge.levers[1].items[0]"
+      ],
+      "t": "**Yon konseye sètifye NACCAP** — rekonesans non anndan sèk admisyon kolèj kretyen an, ki matche ak konsantrasyon ki pi fon nan lis la (kolèj kretyen ak kolèj piblik NC)."
+    },
+    {
+      "text": "**A signature program that reps see** — the College Admissions Panel brings public, private and Christian-college reps, a financial-aid officer, a Marine recruiter and a campus minister into one room for families.",
+      "of": "9aca5eb2",
+      "at": [
+        "carmel-christian:edge.levers[1].items[1]"
+      ],
+      "t": "**Yon pwogram siyati reprezantan yo wè** — College Admissions Panel la pote reprezantan kolèj piblik, prive ak kretyen, yon ofisye èd finansye, yon rekritè Marine ak yon minis kanpis nan yon sèl sal pou fanmi yo."
+    },
+    {
+      "text": "**A legible transcript** — a stated weighting range and no-rank policy let a reader reconstruct rigor in context, and the AP Honor Roll gives the program a third-party mark.",
+      "of": "5374a8a3",
+      "at": [
+        "carmel-christian:edge.levers[1].items[2]"
+      ],
+      "t": "**Yon relve nòt ki lizib** — yon plaj pwa deklare ak yon règleman san klasman kite yon lektè rekonstwi rigè nan kontèks, epi AP Honor Roll la bay pwogram nan yon mak yon twazyèm pati."
+    },
+    {
+      "text": "No research program, Olympiad results, or national-competition credentials are published — the differentiators are cadence and legibility, not competition results.",
+      "of": "c53f3b3f",
+      "at": [
+        "carmel-christian:edge.levers[1].note"
+      ],
+      "t": "Pa gen okenn pwogram rechèch, rezilta Olympiad, oswa kalifikasyon konpetisyon nasyonal ki pibliye — sa ki fè diferans yo se kadans ak lizibilite, se pa rezilta konpetisyon."
+    },
+    {
+      "text": "The most recent test and GPA data the research could locate is the Class of 2022 profile — ranges, not distributions, and TO VERIFY until the current-year profile is relocated.",
+      "of": "210fc0fc",
+      "at": [
+        "carmel-christian:wholeClass.headline"
+      ],
+      "t": "Done tès ak GPA ki pi resan rechèch la te kapab jwenn se pwofil Class of 2022 a — plaj, se pa distribisyon, epi TO VERIFY jiskaske pwofil ane aktyèl la relokalize."
+    },
+    {
+      "text": "The school does not rank; the current-year School Profile PDF could not be relocated for this pass, so these figures are labeled Class of 2022 rather than presented as current.",
+      "of": "b547c43c",
+      "at": [
+        "carmel-christian:wholeClass.subhead"
+      ],
+      "t": "Lekòl la pa klase; PDF School Profile ane aktyèl la pa t kapab relokalize pou pas sa a, kidonk chif sa yo make Class of 2022 olye yo prezante kòm aktyèl."
+    },
+    {
+      "text": "SAT & ACT middle-50% ranges",
+      "of": "2d42043f",
+      "at": [
+        "carmel-christian:wholeClass.scoreTables[0].title"
+      ],
+      "t": "Plaj mitan-50% SAT ak ACT"
+    },
+    {
+      "text": "— Class of 2022 · TO VERIFY (from a cached 2022–23 profile)",
+      "of": "fb409b88",
+      "at": [
+        "carmel-christian:wholeClass.scoreTables[0].hint"
+      ],
+      "t": "— Class of 2022 · TO VERIFY (soti nan yon pwofil 2022–23 ki kache)"
+    },
+    {
+      "text": "SAT total (middle 50%)",
+      "of": "f7bb9413",
+      "at": [
+        "carmel-christian:wholeClass.scoreTables[0].rows[0].label"
+      ],
+      "t": "Total SAT (mitan 50%)"
+    },
+    {
+      "text": "ACT composite (middle 50%)",
+      "of": "74dfae54",
+      "at": [
+        "carmel-christian:wholeClass.scoreTables[0].rows[1].label"
+      ],
+      "t": "Konpozit ACT (mitan 50%)"
+    },
+    {
+      "text": "Ranges only — the cached profile publishes the middle 50%, not percentiles or tester counts. Labeled Class of 2022 because the current-year profile could not be relocated.",
+      "of": "b668f65c",
+      "at": [
+        "carmel-christian:wholeClass.scoreTables[0].note"
+      ],
+      "t": "Plaj sèlman — pwofil kache a pibliye mitan 50% la, se pa pousantaj ni kont moun ki teste. Make Class of 2022 paske pwofil ane aktyèl la pa t kapab relokalize."
+    },
+    {
+      "text": "GPA ranges",
+      "of": "a0abdc59",
+      "at": [
+        "carmel-christian:wholeClass.scoreTables[1].title"
+      ],
+      "t": "Plaj GPA"
+    },
+    {
+      "text": "— Class of 2022 · TO VERIFY",
+      "of": "e6e4fefd",
+      "at": [
+        "carmel-christian:wholeClass.scoreTables[1].hint"
+      ],
+      "t": "— Class of 2022 · TO VERIFY"
+    },
+    {
+      "text": "Weighted GPA",
+      "of": "0786b73a",
+      "at": [
+        "carmel-christian:wholeClass.scoreTables[1].rows[0].label"
+      ],
+      "t": "GPA ponn"
+    },
+    {
+      "text": "Unweighted GPA",
+      "of": "84a7761d",
+      "at": [
+        "carmel-christian:wholeClass.scoreTables[1].rows[1].label"
+      ],
+      "t": "GPA san pwa"
+    },
+    {
+      "text": "Ranges, not a quintile distribution — the school does not rank, and no GPA quantiles are published.",
+      "of": "14264a95",
+      "at": [
+        "carmel-christian:wholeClass.scoreTables[1].note"
+      ],
+      "t": "Plaj, se pa yon distribisyon kentil — lekòl la pa klase, epi pa gen okenn kantil GPA ki pibliye."
+    },
+    {
+      "text": "No GPA distribution or quintile table is published — the weighted/unweighted ranges above (Class of 2022) are the entire GPA disclosure the research located.",
+      "of": "f4714619",
+      "at": [
+        "carmel-christian:wholeClass.gpaNote"
+      ],
+      "t": "Pa gen okenn distribisyon GPA ni tab kentil ki pibliye — plaj ponn/san pwa anwo yo (Class of 2022) se tout divilgasyon GPA rechèch la te jwenn."
+    },
+    {
+      "text": "Personal counseling on staff",
+      "of": "c4165219",
+      "at": [
+        "carmel-christian:wholeClass.support[0].label"
+      ],
+      "t": "Konsèy pèsonèl nan anplwaye"
+    },
+    {
+      "text": "A Personal Counselor / Registrar (Clay Kessler) serves grades 9–12, distinct from the college office — the pastoral and personal-support channel.",
+      "of": "8b7f676d",
+      "at": [
+        "carmel-christian:wholeClass.support[0].text"
+      ],
+      "t": "Yon Personal Counselor / Registrar (Clay Kessler) sèvi klas 9–12, apa de biwo kolèj la — kanal sipò pastoral ak pèsonèl la."
+    },
+    {
+      "text": "No structured learning-differences program, resource room, or accommodations detail is published, and no figures on how testing accommodations are documented were located for this pass.",
+      "of": "8372fe5a",
+      "at": [
+        "carmel-christian:wholeClass.supportNote"
+      ],
+      "t": "Pa gen okenn pwogram estriktire pou diferans aprantisaj, sal resous, oswa detay akomodasyon ki pibliye, epi pa gen okenn chif sou kijan akomodasyon tès dokimante ki te jwenn pou pas sa a."
+    },
+    {
+      "text": "The list matches a broad class",
+      "of": "b70d34ba",
+      "at": [
+        "carmel-christian:wholeClass.middle[0].label"
+      ],
+      "t": "Lis la matche ak yon klas laj"
+    },
+    {
+      "text": "The acceptance list runs from Princeton and Duke through NC publics (Chapel Hill, NC State, UNC Charlotte, App State, East Carolina), Christian colleges, community colleges and trade destinations (NASCAR Technical Institute) — the spread of a broad, not uniformly elite, class.",
+      "of": "c979c8be",
+      "at": [
+        "carmel-christian:wholeClass.middle[0].text"
+      ],
+      "t": "Lis akseptasyon an mache depi Princeton ak Duke atravè kolèj piblik NC (Chapel Hill, NC State, UNC Charlotte, App State, East Carolina), kolèj kretyen, kolèj kominotè ak destinasyon metye (NASCAR Technical Institute) — laj yon klas ki laj, ki pa inifòmman elit."
+    },
+    {
+      "text": "Art and specialist destinations appear (SCAD, Ringling College of Art & Design, Watkins College of Art, UNC School of the Arts, New York Film Academy, The American Musical & Dramatic Academy), alongside a UK/international thread (St Andrews, Glasgow, Stirling, York, Brock, Cape Breton).",
+      "of": "114267fb",
+      "at": [
+        "carmel-christian:wholeClass.middle[1].text"
+      ],
+      "t": "Destinasyon atizay ak espesyalis parèt (SCAD, Ringling College of Art & Design, Watkins College of Art, UNC School of the Arts, New York Film Academy, The American Musical & Dramatic Academy), ansanm ak yon fil UK/entènasyonal (St Andrews, Glasgow, Stirling, York, Brock, Cape Breton)."
+    },
+    {
+      "text": "Every figure on this card is from a cached 2022–23 profile (Class of 2022); the current-year School Profile PDF 404s under every filename variant and Wayback was rate-limited during this pass. Re-hunt the current profile at ingest and refresh these numbers.",
+      "of": "5383d982",
+      "at": [
+        "carmel-christian:wholeClass.flags[0].text"
+      ],
+      "t": "Chak chif sou kat sa a soti nan yon pwofil 2022–23 ki kache (Class of 2022); PDF School Profile ane aktyèl la bay 404 anba chak varyasyon non fichye, epi Wayback te limite an tarif pandan pas sa a. Chèche pwofil aktyèl la ankò nan moman ingest epi rafrechi chif sa yo."
+    },
+    {
+      "text": "No score percentiles, no GPA quintiles, no tester counts and no per-quintile outcomes are published — only the ranges above. The shape of the class is not recoverable from public sources.",
+      "of": "279d15f5",
+      "at": [
+        "carmel-christian:wholeClass.flags[1].text"
+      ],
+      "t": "Pa gen okenn pousantaj nòt, okenn kentil GPA, okenn kont moun ki teste ak okenn rezilta pa kentil ki pibliye — sèlman plaj anwo yo. Fòm klas la pa rekiperab nan sous piblik yo."
+    },
+    {
+      "text": "A well-documented, sequenced counseling program and a broad-participation AP record — with the current-year quantitative profile the one real hole a visit should close.",
+      "of": "1fcd4085",
+      "at": [
+        "carmel-christian:verdict.headline"
+      ],
+      "t": "Yon pwogram konsèy ki byen dokimante, ki byen ranje ak yon dosye AP ak laj patisipasyon — ak pwofil kantitatif ane aktyèl la kòm sèl vrè twou yon vizit ta dwe fèmen."
+    },
+    {
+      "text": "The process disclosure is unusually complete for a school this size; the outcomes and test data are thinner, and the latest profile could not be located.",
+      "of": "b460c0f5",
+      "at": [
+        "carmel-christian:verdict.subhead"
+      ],
+      "t": "Divilgasyon pwosesis la konplè yon fason ki pa abityèl pou yon lekòl gwosè sa a; rezilta yo ak done tès yo pi mens, epi pwofil ki pi resan an pa t kapab jwenn."
+    },
+    {
+      "text": "The AP story is broad, not narrow",
+      "of": "3b46edb8",
+      "at": [
+        "carmel-christian:verdict.points[0].label"
+      ],
+      "t": "Istwa AP la laj, se pa etwat"
+    },
+    {
+      "text": "Platinum AP School Honor Roll earned on whole-class participation — 80% of seniors sat an exam and 73% scored 3+, with 19% sitting five or more.",
+      "of": "8c5b9494",
+      "at": [
+        "carmel-christian:verdict.points[0].text"
+      ],
+      "t": "Platinum AP School Honor Roll genyen sou patisipasyon tout klas la — 80% nan elèv fen etid yo te chita yon egzamen epi 73% te fè 3+, ak 19% ki chita senk oswa plis."
+    },
+    {
+      "text": "The counseling program is fully published",
+      "of": "ca14ee11",
+      "at": [
+        "carmel-christian:verdict.points[1].label"
+      ],
+      "t": "Pwogram konsèy la byen pibliye nèt"
+    },
+    {
+      "text": "A grade-by-grade timeline, a signature College Boot Camp, an essay workshop, an eight-part application framework and an admissions panel — more process detail than several larger peers publish.",
+      "of": "a11ccfaf",
+      "at": [
+        "carmel-christian:verdict.points[1].text"
+      ],
+      "t": "Yon kalandriye klas pa klas, yon siyati College Boot Camp, yon atelye disètasyon, yon fòm aplikasyon uit pati ak yon panèl admisyon — plis detay pwosesis pase plizyè lekòl parèy pi gwo pibliye."
+    },
+    {
+      "text": "A single dedicated counselor",
+      "of": "3f3d8a67",
+      "at": [
+        "carmel-christian:verdict.points[2].label"
+      ],
+      "t": "Yon sèl konseye dedye"
+    },
+    {
+      "text": "One NACCAP-certified college counselor, cushioned by a separate academic advisor and personal counselor — but the senior caseload is never stated, so ask it directly.",
+      "of": "723981fc",
+      "at": [
+        "carmel-christian:verdict.points[2].text"
+      ],
+      "t": "Yon sèl konseye kolèj sètifye NACCAP, sipòte pa yon konseye akademik apa ak yon konseye pèsonèl — men chaj travay dènye ane a pa janm deklare, kidonk mande l dirèkteman."
+    },
+    {
+      "text": "Outcomes show breadth",
+      "of": "64712b0b",
+      "at": [
+        "carmel-christian:verdict.points[3].label"
+      ],
+      "t": "Rezilta yo montre lajè"
+    },
+    {
+      "text": "Around 215 named acceptances led by Princeton and Duke, deep in NC publics and Christian colleges — but the list marks no matriculations, so it shows acceptances, not where students enrolled.",
+      "of": "6f870b6f",
+      "at": [
+        "carmel-christian:verdict.points[3].text"
+      ],
+      "t": "Anviwon 215 akseptasyon ki gen non mennen pa Princeton ak Duke, byen fon nan kolèj piblik NC ak kolèj kretyen — men lis la pa make okenn matrikilasyon, kidonk li montre akseptasyon, se pa kote elèv yo enskri."
+    },
+    {
+      "text": "The quantitative profile is stale",
+      "of": "2d1df8bb",
+      "at": [
+        "carmel-christian:verdict.points[4].label"
+      ],
+      "t": "Pwofil kantitatif la ansyen"
+    },
+    {
+      "text": "The most recent SAT/ACT/GPA data the research located is Class of 2022, from a cached profile; the current-year profile could not be relocated. That is the first thing to ask for on a visit.",
+      "of": "9daa1e81",
+      "at": [
+        "carmel-christian:verdict.points[4].text"
+      ],
+      "t": "Done SAT/ACT/GPA ki pi resan rechèch la te jwenn se Class of 2022, soti nan yon pwofil kache; pwofil ane aktyèl la pa t kapab relokalize. Sa se premye bagay pou mande nan yon vizit."
+    },
+    {
+      "text": "How many seniors does the college counselor carry at peak season, and how large is the senior class?",
+      "of": "85302780",
+      "at": [
+        "carmel-christian:verdict.checklist[0]"
+      ],
+      "t": "Konbyen elèv fen etid konseye kolèj la pote nan gwo sezon an, epi ki gwosè klas fen etid la?"
+    },
+    {
+      "text": "Can we see the current-year School Profile — what are this year’s SAT/ACT and GPA figures, and how many students test?",
+      "of": "c96ce6be",
+      "at": [
+        "carmel-christian:verdict.checklist[1]"
+      ],
+      "t": "Èske nou ka wè School Profile ane aktyèl la — ki chif SAT/ACT ak GPA ane sa a, epi konbyen elèv teste?"
+    },
+    {
+      "text": "Which AP courses actually run next year, and how are students placed into them?",
+      "of": "31d04a0c",
+      "at": [
+        "carmel-christian:verdict.checklist[2]"
+      ],
+      "t": "Ki kou AP ki vrèman ap mache ane pwochèn, epi kijan elèv yo plase nan yo?"
+    },
+    {
+      "text": "The acceptance list marks no enrollments — where did last year’s class actually matriculate, and in what concentrations?",
+      "of": "6b8588eb",
+      "at": [
+        "carmel-christian:verdict.checklist[3]"
+      ],
+      "t": "Lis akseptasyon an pa make okenn enskripsyon — ki kote klas ane pase a vrèman matrikile, epi nan ki konsantrasyon?"
+    },
+    {
+      "text": "How are testing accommodations documented for the College Board and ACT, and what learning-support is available beyond personal counseling?",
+      "of": "89976fdd",
+      "at": [
+        "carmel-christian:verdict.checklist[4]"
+      ],
+      "t": "Kijan akomodasyon tès dokimante pou College Board ak ACT, epi ki sipò aprantisaj ki disponib apa de konsèy pèsonèl?"
+    },
+    {
+      "text": "Roughly how many college reps visit each year, and how does the College Admissions Panel fit the application calendar?",
+      "of": "e4b46a53",
+      "at": [
+        "carmel-christian:verdict.checklist[5]"
+      ],
+      "t": "Apeprè konbyen reprezantan kolèj vizite chak ane, epi kijan College Admissions Panel la kadre ak kalandriye aplikasyon an?"
     }
   ]
 }

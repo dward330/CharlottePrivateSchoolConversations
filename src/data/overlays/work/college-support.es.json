@@ -680,7 +680,8 @@
         "providence-day:counseling.mechanics[1]",
         "charlotte-latin:counseling.mechanics[1]",
         "charlotte-christian:counseling.mechanics[1]",
-        "charlotte-country-day:counseling.mechanics[1]"
+        "charlotte-country-day:counseling.mechanics[1]",
+        "carmel-christian:counseling.mechanics[2]"
       ],
       "t": "Ensayos"
     },
@@ -872,7 +873,8 @@
         "charlotte-country-day:outcomes.buckets[0].tier",
         "cannon:outcomes.buckets[0].tier",
         "covenant-day:outcomes.buckets[0].tier",
-        "davidson-day:outcomes.buckets[0].tier"
+        "davidson-day:outcomes.buckets[0].tier",
+        "carmel-christian:outcomes.buckets[0].tier"
       ],
       "t": "Ivy League"
     },
@@ -894,7 +896,8 @@
         "charlotte-country-day:outcomes.buckets[1].tier",
         "cannon:outcomes.buckets[1].tier",
         "covenant-day:outcomes.buckets[1].tier",
-        "davidson-day:outcomes.buckets[1].tier"
+        "davidson-day:outcomes.buckets[1].tier",
+        "carmel-christian:outcomes.buckets[1].tier"
       ],
       "t": "“Ivy Plus”"
     },
@@ -916,7 +919,8 @@
         "charlotte-country-day:outcomes.buckets[2].tier",
         "cannon:outcomes.buckets[2].tier",
         "covenant-day:outcomes.buckets[2].tier",
-        "davidson-day:outcomes.buckets[2].tier"
+        "davidson-day:outcomes.buckets[2].tier",
+        "carmel-christian:outcomes.buckets[2].tier"
       ],
       "t": "Top-75 universidades nacionales"
     },
@@ -930,7 +934,8 @@
         "charlotte-country-day:outcomes.buckets[3].tier",
         "cannon:outcomes.buckets[3].tier",
         "covenant-day:outcomes.buckets[3].tier",
-        "davidson-day:outcomes.buckets[3].tier"
+        "davidson-day:outcomes.buckets[3].tier",
+        "carmel-christian:outcomes.buckets[3].tier"
       ],
       "t": "Top-75 liberal arts"
     },
@@ -952,7 +957,8 @@
         "charlotte-country-day:outcomes.buckets[4].tier",
         "cannon:outcomes.buckets[4].tier",
         "covenant-day:outcomes.buckets[4].tier",
-        "davidson-day:outcomes.buckets[4].tier"
+        "davidson-day:outcomes.buckets[4].tier",
+        "carmel-christian:outcomes.buckets[4].tier"
       ],
       "t": "Power Four"
     },
@@ -974,7 +980,8 @@
         "charlotte-country-day:outcomes.buckets[5].tier",
         "cannon:outcomes.buckets[5].tier",
         "covenant-day:outcomes.buckets[5].tier",
-        "davidson-day:outcomes.buckets[5].tier"
+        "davidson-day:outcomes.buckets[5].tier",
+        "carmel-christian:outcomes.buckets[5].tier"
       ],
       "t": "HBCUs"
     },
@@ -1540,7 +1547,8 @@
       "text": "When direction changes",
       "of": "af01cccd",
       "at": [
-        "providence-day:wholeClass.middle[2].label"
+        "providence-day:wholeClass.middle[2].label",
+        "carmel-christian:wholeClass.middle[1].label"
       ],
       "t": "Cuando cambia el rumbo"
     },
@@ -3271,7 +3279,8 @@
       "text": "College Counselor",
       "of": "8571c250",
       "at": [
-        "charlotte-christian:counseling.roster[1].role"
+        "charlotte-christian:counseling.roster[1].role",
+        "carmel-christian:counseling.roster[0].role"
       ],
       "t": "Orientadora universitaria"
     },
@@ -6593,7 +6602,8 @@
       "text": "80%",
       "of": "489f4e50",
       "at": [
-        "covenant-day:transcript.stats[3].value"
+        "covenant-day:transcript.stats[3].value",
+        "carmel-christian:transcript.stats[2].value"
       ],
       "t": "80%"
     },
@@ -7189,6 +7199,14 @@
         "covenant-day:outcomes.bucketsNote"
       ],
       "t": "Derivado por esta investigación a partir de la lista publicada del colegio frente a las tablas de U.S. News de 2026 — las mismas listas usadas para los demás colegios aquí, no cifras que el colegio declare. Las ventanas anteriores fueron más altas: los aspectos destacados de 2018–2023 incluyen Stanford, MIT, Princeton, Brown, Cornell y Vanderbilt, y la lista de 2021–2024 añade cinco campus de la UC."
+    },
+    {
+      "text": "225 institutions · bold = at least one graduate enrolled",
+      "of": "3ca8485c",
+      "at": [
+        "covenant-day:outcomes.collegesTotal"
+      ],
+      "t": "225 instituciones · negrita = al menos un graduado matriculado"
     },
     {
       "text": "No scholarship dollar totals — checked across all three profile editions",
@@ -8807,12 +8825,1164 @@
       "t": "Si mi hijo tiene adaptaciones a través del Learning Enrichment Center, ¿quién se encarga de que se aprueben para los exámenes del College Board y del ACT, y de documentarlas ante los servicios de discapacidad de la universidad?"
     },
     {
-      "text": "225 institutions · bold = at least one graduate enrolled",
-      "of": "3ca8485c",
+      "text": "73% of seniors scored a 3 or higher on at least one AP exam, and 80% sat at least one — enough for the College Board’s Platinum AP School Honor Roll, its top tier.",
+      "of": "43be6875",
       "at": [
-        "covenant-day:outcomes.collegesTotal"
+        "carmel-christian:transcript.headline"
       ],
-      "t": "225 instituciones · negrita = al menos un graduado matriculado"
+      "t": "El 73% de los seniors obtuvo un 3 o más en al menos un examen AP, y el 80% presentó al menos uno — suficiente para el Platinum AP School Honor Roll del College Board, su nivel más alto."
+    },
+    {
+      "text": "A broad-participation AP program: 14 AP courses across 21 sections taught by 12 teachers, with 19% of seniors sitting five or more exams.",
+      "of": "d3c5a74a",
+      "at": [
+        "carmel-christian:transcript.subhead"
+      ],
+      "t": "Un programa AP de amplia participación: 14 cursos AP en 21 secciones impartidos por 12 profesores, con el 19% de los seniors presentando cinco o más exámenes."
+    },
+    {
+      "text": "Platinum",
+      "of": "67bf0d55",
+      "at": [
+        "carmel-christian:transcript.stats[0].value"
+      ],
+      "t": "Platinum"
+    },
+    {
+      "text": "AP School Honor Roll — the College Board’s top distinction",
+      "of": "fdfa71d0",
+      "at": [
+        "carmel-christian:transcript.stats[0].label"
+      ],
+      "t": "AP School Honor Roll — la máxima distinción del College Board"
+    },
+    {
+      "text": "73%",
+      "of": "2dc5384e",
+      "at": [
+        "carmel-christian:transcript.stats[1].value"
+      ],
+      "t": "73%"
+    },
+    {
+      "text": "of seniors scored 3+ on at least one AP exam",
+      "of": "03cae366",
+      "at": [
+        "carmel-christian:transcript.stats[1].label"
+      ],
+      "t": "de los seniors obtuvo 3+ en al menos un examen AP"
+    },
+    {
+      "text": "of seniors sat at least one AP exam · 19% sat five or more",
+      "of": "f3259d37",
+      "at": [
+        "carmel-christian:transcript.stats[2].label"
+      ],
+      "t": "de los seniors presentó al menos un examen AP · el 19% presentó cinco o más"
+    },
+    {
+      "text": "14 / 21",
+      "of": "dc9d3892",
+      "at": [
+        "carmel-christian:transcript.stats[3].value"
+      ],
+      "t": "14 / 21"
+    },
+    {
+      "text": "AP courses / sections, taught by 12 teachers",
+      "of": "1110a371",
+      "at": [
+        "carmel-christian:transcript.stats[3].label"
+      ],
+      "t": "cursos / secciones AP, impartidos por 12 profesores"
+    },
+    {
+      "text": "What the AP recognition rests on",
+      "of": "b064a67a",
+      "at": [
+        "carmel-christian:transcript.depthTitle"
+      ],
+      "t": "En qué se basa el reconocimiento AP"
+    },
+    {
+      "text": "Breadth over a narrow elite",
+      "of": "65ec7faa",
+      "at": [
+        "carmel-christian:transcript.depth[0].label"
+      ],
+      "t": "Amplitud por encima de una élite reducida"
+    },
+    {
+      "text": "Platinum recognises schools where a large share of the senior class both takes and scores on AP exams — **80% sat an exam and 73% scored 3+**, so the recognition rests on the whole class, not a handful of specialists.",
+      "of": "dc229d7f",
+      "at": [
+        "carmel-christian:transcript.depth[0].text"
+      ],
+      "t": "Platinum reconoce a las escuelas donde una gran parte de la clase de seniors tanto presenta como obtiene puntaje en los exámenes AP — **el 80% presentó un examen y el 73% obtuvo 3+**, así que el reconocimiento se basa en toda la clase, no en un puñado de especialistas."
+    },
+    {
+      "text": "Depth in the tail",
+      "of": "2da73ab4",
+      "at": [
+        "carmel-christian:transcript.depth[1].label"
+      ],
+      "t": "Profundidad en la cola"
+    },
+    {
+      "text": "**19% of seniors sat five or more AP exams** — a meaningful group carrying a heavy AP load, not just one or two courses.",
+      "of": "16db5083",
+      "at": [
+        "carmel-christian:transcript.depth[1].text"
+      ],
+      "t": "**El 19% de los seniors presentó cinco o más exámenes AP** — un grupo significativo que lleva una carga AP pesada, no solo uno o dos cursos."
+    },
+    {
+      "text": "Staffing",
+      "of": "59fbe26f",
+      "at": [
+        "carmel-christian:transcript.depth[2].label"
+      ],
+      "t": "Personal docente"
+    },
+    {
+      "text": "**21 sections across 14 AP courses, taught by 12 teachers** — the program is spread across a real faculty rather than concentrated in one or two rooms.",
+      "of": "01cc569e",
+      "at": [
+        "carmel-christian:transcript.depth[2].text"
+      ],
+      "t": "**21 secciones en 14 cursos AP, impartidos por 12 profesores** — el programa está repartido entre un profesorado real en lugar de concentrado en una o dos aulas."
+    },
+    {
+      "text": "How the grade is framed",
+      "of": "cb40e1de",
+      "at": [
+        "carmel-christian:transcript.trustTitle"
+      ],
+      "t": "Cómo se plantea la calificación"
+    },
+    {
+      "text": "Weighted, and does not rank",
+      "of": "74f79193",
+      "at": [
+        "carmel-christian:transcript.trust[0].label"
+      ],
+      "t": "Ponderada, y no clasifica"
+    },
+    {
+      "text": "The 2022 profile reports a weighted-GPA range (**3.64–4.58**) against an unweighted range (**3.35–3.86**) and states the school does not rank students — the range stands in for a rank.",
+      "of": "0cb04cb9",
+      "at": [
+        "carmel-christian:transcript.trust[0].text"
+      ],
+      "t": "El perfil de 2022 reporta un rango de GPA ponderado (**3.64–4.58**) frente a un rango sin ponderar (**3.35–3.86**) e indica que la escuela no clasifica a los estudiantes — el rango sustituye a una clasificación."
+    },
+    {
+      "text": "The AP School Honor Roll post states no year. Its metadata (2024-02-12) plus the phrase “last year’s AP exams” points to the 2023 exams — treated as 2023 here, TO VERIFY. Separately, a 94%-of-exams-scoring-3+ figure surfaced in Course Offerings research (May 2025, 145 students); it measures a different denominator (exams, not seniors) and is not conflated with the 73% here.",
+      "of": "97fc78bb",
+      "at": [
+        "carmel-christian:transcript.flags[0].text"
+      ],
+      "t": "La publicación del AP School Honor Roll no indica año. Sus metadatos (2024-02-12) más la frase “last year’s AP exams” apuntan a los exámenes de 2023 — tratado como 2023 aquí, POR VERIFICAR. Por separado, una cifra de 94%-de-exámenes-con-3+ surgió en la investigación de Course Offerings (mayo de 2025, 145 estudiantes); mide un denominador diferente (exámenes, no seniors) y no se confunde con el 73% de aquí."
+    },
+    {
+      "text": "No National Merit / College Board recognition ledger is published — no Semifinalist, Finalist or Commended counts by year — so this card carries no merit ledger. The College Planning Timeline references National Merit only through the PSAT/NMSQT.",
+      "of": "f1929f7e",
+      "at": [
+        "carmel-christian:transcript.flags[1].text"
+      ],
+      "t": "No se publica ningún registro de reconocimientos National Merit / College Board — sin conteos de Semifinalist, Finalist o Commended por año — así que esta ficha no lleva un registro de méritos. El College Planning Timeline hace referencia a National Merit únicamente a través del PSAT/NMSQT."
+    },
+    {
+      "text": "One dedicated, NACCAP-certified college counselor runs a fully published program — a grade-by-grade timeline, a signature “College Boot Camp”, an essay workshop, and an admissions panel.",
+      "of": "2171bfd8",
+      "at": [
+        "carmel-christian:counseling.headline"
+      ],
+      "t": "Un consejero universitario dedicado y certificado por NACCAP dirige un programa totalmente publicado — un cronograma grado por grado, un característico “College Boot Camp”, un taller de ensayos y un panel de admisiones."
+    },
+    {
+      "text": "Naviance and the Common Application are the tools; a separate academic advisor and personal counselor carry course-planning and pastoral load off the college office.",
+      "of": "ca9de234",
+      "at": [
+        "carmel-christian:counseling.subhead"
+      ],
+      "t": "Naviance y el Common Application son las herramientas; un asesor académico y un consejero personal separados llevan la carga de planificación de cursos y de acompañamiento pastoral fuera de la oficina universitaria."
+    },
+    {
+      "text": "1",
+      "of": "340ca71c",
+      "at": [
+        "carmel-christian:counseling.stats[0].value"
+      ],
+      "t": "1"
+    },
+    {
+      "text": "dedicated college counselor (NACCAP-certified)",
+      "of": "3c37ca3e",
+      "at": [
+        "carmel-christian:counseling.stats[0].label"
+      ],
+      "t": "consejero universitario dedicado (certificado por NACCAP)"
+    },
+    {
+      "text": "Naviance",
+      "of": "7981814a",
+      "at": [
+        "carmel-christian:counseling.stats[1].value"
+      ],
+      "t": "Naviance"
+    },
+    {
+      "text": "platform · Common Application · NCAA code 9999",
+      "of": "01e18c67",
+      "at": [
+        "carmel-christian:counseling.stats[1].label"
+      ],
+      "t": "plataforma · Common Application · código NCAA 9999"
+    },
+    {
+      "text": "4-year",
+      "of": "321c8cb7",
+      "at": [
+        "carmel-christian:counseling.stats[2].value"
+      ],
+      "t": "4 años"
+    },
+    {
+      "text": "published grade-by-grade College Planning Timeline",
+      "of": "284907d7",
+      "at": [
+        "carmel-christian:counseling.stats[2].label"
+      ],
+      "t": "College Planning Timeline publicado, grado por grado"
+    },
+    {
+      "text": "2 / yr",
+      "of": "0531820b",
+      "at": [
+        "carmel-christian:counseling.stats[3].value"
+      ],
+      "t": "2 / año"
+    },
+    {
+      "text": "excused college-visit absences per student",
+      "of": "38251749",
+      "at": [
+        "carmel-christian:counseling.stats[3].label"
+      ],
+      "t": "ausencias justificadas por visitas universitarias por estudiante"
+    },
+    {
+      "text": "NACCAP-certified · runs the essay workshop and proofing, submits transcripts and letters of recommendation, trains students on Naviance and the Common App, and writes the counselor LOR.",
+      "of": "8181943e",
+      "at": [
+        "carmel-christian:counseling.roster[0].detail"
+      ],
+      "t": "Certificado por NACCAP · dirige el taller de ensayos y la revisión, envía expedientes y cartas de recomendación, capacita a los estudiantes en Naviance y el Common App, y escribe la carta de recomendación del consejero."
+    },
+    {
+      "text": "Academic Advisor",
+      "of": "c82b041a",
+      "at": [
+        "carmel-christian:counseling.roster[1].role"
+      ],
+      "t": "Academic Advisor"
+    },
+    {
+      "text": "Course planning for grades 8–11 — the placement work that feeds the transcript.",
+      "of": "286f331d",
+      "at": [
+        "carmel-christian:counseling.roster[1].detail"
+      ],
+      "t": "Planificación de cursos para los grados 8–11 — el trabajo de ubicación que alimenta el expediente."
+    },
+    {
+      "text": "Personal Counselor / Registrar",
+      "of": "280f95ad",
+      "at": [
+        "carmel-christian:counseling.roster[2].role"
+      ],
+      "t": "Personal Counselor / Registrar"
+    },
+    {
+      "text": "Personal counseling and registrar for grades 9–12 — pastoral load carried off the college office.",
+      "of": "e632f3fb",
+      "at": [
+        "carmel-christian:counseling.roster[2].detail"
+      ],
+      "t": "Consejería personal y registro para los grados 9–12 — la carga pastoral llevada fuera de la oficina universitaria."
+    },
+    {
+      "text": "ES & MS Counselor",
+      "of": "1a81a897",
+      "at": [
+        "carmel-christian:counseling.roster[3].role"
+      ],
+      "t": "ES & MS Counselor"
+    },
+    {
+      "text": "Elementary and middle school counseling.",
+      "of": "926fae54",
+      "at": [
+        "carmel-christian:counseling.roster[3].detail"
+      ],
+      "t": "Consejería de primaria y middle school."
+    },
+    {
+      "text": "The four-year College Planning Timeline",
+      "of": "2b3a893f",
+      "at": [
+        "carmel-christian:counseling.timelineTitle"
+      ],
+      "t": "El College Planning Timeline de cuatro años"
+    },
+    {
+      "text": "Strong Start & Good Habits",
+      "of": "2f9b0f88",
+      "at": [
+        "carmel-christian:counseling.timeline[0].intensity"
+      ],
+      "t": "Buen comienzo y buenos hábitos"
+    },
+    {
+      "text": "Build the study habits and GPA the transcript rests on",
+      "of": "c30d94ea",
+      "at": [
+        "carmel-christian:counseling.timeline[0].items[0]"
+      ],
+      "t": "Construir los hábitos de estudio y el GPA sobre los que se apoya el expediente"
+    },
+    {
+      "text": "Get involved early — the foundation for later leadership",
+      "of": "a87153bd",
+      "at": [
+        "carmel-christian:counseling.timeline[0].items[1]"
+      ],
+      "t": "Involucrarse temprano — la base para el liderazgo posterior"
+    },
+    {
+      "text": "Focus: be a strong high-school student first",
+      "of": "48be9388",
+      "at": [
+        "carmel-christian:counseling.timeline[0].note"
+      ],
+      "t": "Enfoque: ser primero un buen estudiante de secundaria"
+    },
+    {
+      "text": "Involvement & Service",
+      "of": "0251d637",
+      "at": [
+        "carmel-christian:counseling.timeline[1].intensity"
+      ],
+      "t": "Participación y servicio"
+    },
+    {
+      "text": "Deepen involvement and service",
+      "of": "ca71b7c3",
+      "at": [
+        "carmel-christian:counseling.timeline[1].items[0]"
+      ],
+      "t": "Profundizar la participación y el servicio"
+    },
+    {
+      "text": "Begin thinking about direction and fit",
+      "of": "520eb0fc",
+      "at": [
+        "carmel-christian:counseling.timeline[1].items[1]"
+      ],
+      "t": "Empezar a pensar en la dirección y el encaje"
+    },
+    {
+      "text": "Testing & College Research",
+      "of": "d7e07339",
+      "at": [
+        "carmel-christian:counseling.timeline[2].intensity"
+      ],
+      "t": "Exámenes e investigación universitaria"
+    },
+    {
+      "text": "**PSAT/NMSQT** — the National Merit gateway",
+      "of": "5b11394f",
+      "at": [
+        "carmel-christian:counseling.timeline[2].items[0]"
+      ],
+      "t": "**PSAT/NMSQT** — la puerta de entrada al National Merit"
+    },
+    {
+      "text": "March essay rough draft with Berry and English faculty",
+      "of": "93d9793e",
+      "at": [
+        "carmel-christian:counseling.timeline[2].items[1]"
+      ],
+      "t": "Borrador del ensayo de marzo con Berry y el profesorado de inglés"
+    },
+    {
+      "text": "February 1:1 with Berry and family to build the list",
+      "of": "3bf956b8",
+      "at": [
+        "carmel-christian:counseling.timeline[2].items[2]"
+      ],
+      "t": "Reunión 1:1 de febrero con Berry y la familia para armar la lista"
+    },
+    {
+      "text": "Standardized testing and college research in earnest",
+      "of": "4327fd38",
+      "at": [
+        "carmel-christian:counseling.timeline[2].note"
+      ],
+      "t": "Exámenes estandarizados e investigación universitaria en serio"
+    },
+    {
+      "text": "Completing Essays & Applications",
+      "of": "a9a6a0fc",
+      "at": [
+        "carmel-christian:counseling.timeline[3].intensity"
+      ],
+      "t": "Completar ensayos y solicitudes"
+    },
+    {
+      "text": "**College Boot Camp Day** before senior year (May sign-ups)",
+      "of": "6ba7fb43",
+      "at": [
+        "carmel-christian:counseling.timeline[3].items[0]"
+      ],
+      "t": "**College Boot Camp Day** antes del último año (inscripciones en mayo)"
+    },
+    {
+      "text": "June/August “Logins and Letters” sessions",
+      "of": "875f366d",
+      "at": [
+        "carmel-christian:counseling.timeline[3].items[1]"
+      ],
+      "t": "Sesiones “Logins and Letters” de junio/agosto"
+    },
+    {
+      "text": "Early-action applications in October",
+      "of": "abde1fef",
+      "at": [
+        "carmel-christian:counseling.timeline[3].items[2]"
+      ],
+      "t": "Solicitudes de early action en octubre"
+    },
+    {
+      "text": "Focus: complete essays and applications",
+      "of": "5f98bf9a",
+      "at": [
+        "carmel-christian:counseling.timeline[3].note"
+      ],
+      "t": "Enfoque: completar ensayos y solicitudes"
+    },
+    {
+      "text": "Anatomy of a College Application — the eight parts the office coaches",
+      "of": "e7f830b8",
+      "at": [
+        "carmel-christian:counseling.mechanicsTitle"
+      ],
+      "t": "Anatomy of a College Application — las ocho partes que la oficina orienta"
+    },
+    {
+      "text": "Transcript",
+      "of": "0583096b",
+      "at": [
+        "carmel-christian:counseling.mechanics[0]"
+      ],
+      "t": "Expediente académico"
+    },
+    {
+      "text": "Test scores",
+      "of": "922fa840",
+      "at": [
+        "carmel-christian:counseling.mechanics[1]"
+      ],
+      "t": "Puntajes de exámenes"
+    },
+    {
+      "text": "Application",
+      "of": "22af01e5",
+      "at": [
+        "carmel-christian:counseling.mechanics[3]"
+      ],
+      "t": "Solicitud"
+    },
+    {
+      "text": "Counselor LOR",
+      "of": "fbced8b8",
+      "at": [
+        "carmel-christian:counseling.mechanics[4]"
+      ],
+      "t": "Carta de recomendación del consejero"
+    },
+    {
+      "text": "Teacher LOR",
+      "of": "602634f0",
+      "at": [
+        "carmel-christian:counseling.mechanics[5]"
+      ],
+      "t": "Carta de recomendación del profesor"
+    },
+    {
+      "text": "Activities / service / leadership",
+      "of": "b13d0dea",
+      "at": [
+        "carmel-christian:counseling.mechanics[6]"
+      ],
+      "t": "Actividades / servicio / liderazgo"
+    },
+    {
+      "text": "Resume",
+      "of": "454d1d8a",
+      "at": [
+        "carmel-christian:counseling.mechanics[7]"
+      ],
+      "t": "Currículum"
+    },
+    {
+      "text": "That is the office’s own published “Anatomy of a College Application” framework, verbatim — eight named parts. The signature “College Boot Camp” bundles a Boot Camp Day with follow-up “Logins and Letters” sessions; a student essay-writing workshop plus proofing runs alongside, with the 11th-grade rough draft read by Berry and English faculty.",
+      "of": "af33c7ff",
+      "at": [
+        "carmel-christian:counseling.mechanicsNote"
+      ],
+      "t": "Ese es el propio marco “Anatomy of a College Application” publicado por la oficina, textualmente — ocho partes nombradas. El característico “College Boot Camp” combina un Boot Camp Day con sesiones de seguimiento “Logins and Letters”; junto a ello se realiza un taller de escritura de ensayos para estudiantes más la revisión, con el borrador de 11.º grado leído por Berry y el profesorado de inglés."
+    },
+    {
+      "text": "College rep visits during Monday/Wednesday Crew classes or lunch (5–20 minutes each)",
+      "of": "27b3b01a",
+      "at": [
+        "carmel-christian:counseling.reach[0]"
+      ],
+      "t": "Visitas de representantes universitarios durante las clases Crew de lunes/miércoles o el almuerzo (5–20 minutos cada una)"
+    },
+    {
+      "text": "A **College Admissions Panel** — public, private and Christian-college reps, a financial-aid officer, a Marine recruiter and a campus minister",
+      "of": "814dd7ac",
+      "at": [
+        "carmel-christian:counseling.reach[1]"
+      ],
+      "t": "Un **College Admissions Panel** — representantes de universidades públicas, privadas y cristianas, un oficial de ayuda financiera, un reclutador de la Marine y un ministro del campus"
+    },
+    {
+      "text": "Naviance links student, counselor and colleges · Common Application · NCAA code 9999",
+      "of": "00c626a6",
+      "at": [
+        "carmel-christian:counseling.reach[2]"
+      ],
+      "t": "Naviance conecta al estudiante, al consejero y a las universidades · Common Application · código NCAA 9999"
+    },
+    {
+      "text": "Two excused college-visit absences per student per year",
+      "of": "eca42479",
+      "at": [
+        "carmel-christian:counseling.reach[3]"
+      ],
+      "t": "Dos ausencias justificadas por visitas universitarias por estudiante al año"
+    },
+    {
+      "text": "The senior class size, the seniors-per-counselor ratio and the annual college-rep-visit count are not published anywhere on the public site — so no caseload figure is stated here rather than derived from an unpublished denominator.",
+      "of": "adc056b8",
+      "at": [
+        "carmel-christian:counseling.flags[0].text"
+      ],
+      "t": "El tamaño de la clase de seniors, la proporción de seniors por consejero y el número anual de visitas de representantes universitarios no se publican en ninguna parte del sitio público — así que aquí no se indica ninguna cifra de carga de casos en lugar de deducirla de un denominador no publicado."
+    },
+    {
+      "text": "Around 215 institutions appear on the published College Acceptances list — Princeton and Duke at the top, through a deep bench of NC publics and Christian colleges.",
+      "of": "5627c532",
+      "at": [
+        "carmel-christian:outcomes.headline"
+      ],
+      "t": "Alrededor de 215 instituciones aparecen en la lista publicada de College Acceptances — Princeton y Duke a la cabeza, pasando por una amplia base de universidades públicas de NC y colleges cristianos."
+    },
+    {
+      "text": "The page carries no time window, no counts and no matriculation markings, so it reads as a cumulative acceptance list. Here it is scored against the current U.S. News tiers.",
+      "of": "b76388b4",
+      "at": [
+        "carmel-christian:outcomes.subhead"
+      ],
+      "t": "La página no lleva ninguna ventana temporal, ni conteos ni marcas de matriculación, así que se lee como una lista acumulativa de admisiones. Aquí se evalúa contra los niveles actuales de U.S. News."
+    },
+    {
+      "text": "~215",
+      "of": "6813e2c7",
+      "at": [
+        "carmel-christian:outcomes.stats[0].value"
+      ],
+      "t": "~215"
+    },
+    {
+      "text": "institutions named on the acceptance list (no count stated)",
+      "of": "d3b5e6ac",
+      "at": [
+        "carmel-christian:outcomes.stats[0].label"
+      ],
+      "t": "instituciones nombradas en la lista de admisiones (sin conteo indicado)"
+    },
+    {
+      "text": "1 of 8",
+      "of": "20634925",
+      "at": [
+        "carmel-christian:outcomes.stats[1].value"
+      ],
+      "t": "1 de 8"
+    },
+    {
+      "text": "Ivy League — Princeton",
+      "of": "aab63658",
+      "at": [
+        "carmel-christian:outcomes.stats[1].label"
+      ],
+      "t": "Ivy League — Princeton"
+    },
+    {
+      "text": "~27",
+      "of": "b68b33ba",
+      "at": [
+        "carmel-christian:outcomes.stats[2].value"
+      ],
+      "t": "~27"
+    },
+    {
+      "text": "Top-75 National Universities on the list",
+      "of": "e0126aa3",
+      "at": [
+        "carmel-christian:outcomes.stats[2].label"
+      ],
+      "t": "Top-75 National Universities en la lista"
+    },
+    {
+      "text": "8",
+      "of": "3d0cb547",
+      "at": [
+        "carmel-christian:outcomes.stats[3].value"
+      ],
+      "t": "8"
+    },
+    {
+      "text": "HBCUs on the list",
+      "of": "5080a016",
+      "at": [
+        "carmel-christian:outcomes.stats[3].label"
+      ],
+      "t": "HBCU en la lista"
+    },
+    {
+      "text": "— Princeton",
+      "of": "ccbef9e1",
+      "at": [
+        "carmel-christian:outcomes.buckets[0].note"
+      ],
+      "t": "— Princeton"
+    },
+    {
+      "text": "— adds Duke",
+      "of": "16bf9664",
+      "at": [
+        "carmel-christian:outcomes.buckets[1].note"
+      ],
+      "t": "— añade Duke"
+    },
+    {
+      "text": "— Davidson, Washington & Lee, Furman, Rhodes, Sewanee, Agnes Scott, Centre",
+      "of": "bf654425",
+      "at": [
+        "carmel-christian:outcomes.buckets[3].note"
+      ],
+      "t": "— Davidson, Washington & Lee, Furman, Rhodes, Sewanee, Agnes Scott, Centre"
+    },
+    {
+      "text": "— incl. Hampton, Howard, NC A&T, Florida A&M",
+      "of": "3ee4ba2e",
+      "at": [
+        "carmel-christian:outcomes.buckets[5].note"
+      ],
+      "t": "— incl. Hampton, Howard, NC A&T, Florida A&M"
+    },
+    {
+      "text": "Counts are derived by this research from the same ~215-institution list you can filter at right, scored against the 2026 U.S. News tables — not figures the school reports. The list preserves the page’s verbatim duplicates (SCAD appears three ways; Alabama appears bare and as Tuscaloosa/Birmingham/Huntsville), and includes two non-college destinations — the United States Marine Corps and NASCAR Technical Institute.",
+      "of": "472a86b7",
+      "at": [
+        "carmel-christian:outcomes.bucketsNote"
+      ],
+      "t": "Los conteos los deduce esta investigación a partir de la misma lista de ~215 instituciones que puedes filtrar a la derecha, evaluada contra las tablas de U.S. News de 2026 — no son cifras que la escuela reporte. La lista conserva los duplicados textuales de la página (SCAD aparece de tres formas; Alabama aparece a secas y como Tuscaloosa/Birmingham/Huntsville), e incluye dos destinos no universitarios — la United States Marine Corps y el NASCAR Technical Institute."
+    },
+    {
+      "text": "Every named acceptance",
+      "of": "ad9fd2d8",
+      "at": [
+        "carmel-christian:outcomes.collegesTitle"
+      ],
+      "t": "Cada admisión nombrada"
+    },
+    {
+      "text": "~215 institutions · no time window, counts or matriculation markings published",
+      "of": "92b6be66",
+      "at": [
+        "carmel-christian:outcomes.collegesTotal"
+      ],
+      "t": "~215 instituciones · sin ventana temporal, conteos ni marcas de matriculación publicadas"
+    },
+    {
+      "text": "No scholarship dollar totals published",
+      "of": "753cc439",
+      "at": [
+        "carmel-christian:outcomes.scholarships[0]"
+      ],
+      "t": "No se publican totales en dólares de becas"
+    },
+    {
+      "text": "No per-class acceptance counts — the list is a single cumulative window",
+      "of": "3b3595c2",
+      "at": [
+        "carmel-christian:outcomes.scholarships[1]"
+      ],
+      "t": "Sin conteos de admisiones por clase — la lista es una única ventana acumulativa"
+    },
+    {
+      "text": "No matriculation markings — acceptances only",
+      "of": "a390b816",
+      "at": [
+        "carmel-christian:outcomes.scholarships[2]"
+      ],
+      "t": "Sin marcas de matriculación — solo admisiones"
+    },
+    {
+      "text": "The school publishes no scholarship-offer totals and no named-award ledger anywhere in the materials located for this pass.",
+      "of": "c69ceffb",
+      "at": [
+        "carmel-christian:outcomes.scholarshipsNote"
+      ],
+      "t": "La escuela no publica ningún total de ofertas de becas ni registro de premios nombrados en ninguno de los materiales localizados para esta revisión."
+    },
+    {
+      "text": "this is an acceptance list, not a matriculation list — and unlike some peer schools it marks no enrollments at all, so it shows breadth of acceptances rather than where students actually enrolled. No time window or counts are stated, so a name means at least one acceptance at some point.",
+      "of": "7f06b91e",
+      "at": [
+        "carmel-christian:outcomes.caveat"
+      ],
+      "t": "esta es una lista de admisiones, no una lista de matriculación — y a diferencia de algunas escuelas pares no marca ninguna inscripción en absoluto, así que muestra la amplitud de admisiones en lugar de dónde se inscribieron realmente los estudiantes. No se indica ninguna ventana temporal ni conteos, así que un nombre significa al menos una admisión en algún momento."
+    },
+    {
+      "text": "The “Xavier University” entry is ambiguous between Xavier (OH) and Xavier of Louisiana (an HBCU); it is left uncategorized pending confirmation, so the HBCU bucket count of 8 excludes it. Bucket membership near the Top-75 line (e.g. Agnes Scott, Hampden-Sydney) should be re-confirmed against the live U.S. News edition at ingest.",
+      "of": "88f9894d",
+      "at": [
+        "carmel-christian:outcomes.flags[0].text"
+      ],
+      "t": "La entrada “Xavier University” es ambigua entre Xavier (OH) y Xavier of Louisiana (una HBCU); se deja sin categorizar a la espera de confirmación, así que el conteo de 8 del grupo HBCU la excluye. La pertenencia a un grupo cerca de la línea Top-75 (p. ej. Agnes Scott, Hampden-Sydney) debería reconfirmarse contra la edición en vivo de U.S. News al momento de la ingesta."
+    },
+    {
+      "text": "The edge here is a fully published, sequenced counseling program plus a broad-participation AP record — legibility and cadence rather than national-competition credentials.",
+      "of": "8ae167a8",
+      "at": [
+        "carmel-christian:edge.headline"
+      ],
+      "t": "La ventaja aquí es un programa de consejería totalmente publicado y secuenciado más un historial AP de amplia participación — legibilidad y cadencia en lugar de credenciales de competición nacional."
+    },
+    {
+      "text": "What the school hands a family is a documented four-year plan and a top-tier College Board recognition; what it does not publish is a research-program or Olympiad track.",
+      "of": "0eb90cc6",
+      "at": [
+        "carmel-christian:edge.subhead"
+      ],
+      "t": "Lo que la escuela le entrega a una familia es un plan documentado de cuatro años y un reconocimiento de máximo nivel del College Board; lo que no publica es un programa de investigación o una vía de Olimpiadas."
+    },
+    {
+      "text": "Lever 1 — Build the record",
+      "of": "8d241e6c",
+      "at": [
+        "carmel-christian:edge.levers[0].title"
+      ],
+      "t": "Palanca 1 — Construir el historial"
+    },
+    {
+      "text": "what your child brings",
+      "of": "8160bd29",
+      "at": [
+        "carmel-christian:edge.levers[0].hint"
+      ],
+      "t": "lo que aporta tu hijo"
+    },
+    {
+      "text": "**Platinum AP School Honor Roll** — the College Board’s top tier, earned on broad participation (80% of seniors sat an exam, 73% scored 3+) rather than a narrow elite.",
+      "of": "e8b4fa26",
+      "at": [
+        "carmel-christian:edge.levers[0].items[0]"
+      ],
+      "t": "**Platinum AP School Honor Roll** — el nivel más alto del College Board, obtenido por amplia participación (el 80% de los seniors presentó un examen, el 73% obtuvo 3+) en lugar de por una élite reducida."
+    },
+    {
+      "text": "**A heavy-load group exists** — 19% of seniors sat five or more AP exams, across a 14-course / 21-section program.",
+      "of": "e1851c2c",
+      "at": [
+        "carmel-christian:edge.levers[0].items[1]"
+      ],
+      "t": "**Existe un grupo de carga pesada** — el 19% de los seniors presentó cinco o más exámenes AP, dentro de un programa de 14 cursos / 21 secciones."
+    },
+    {
+      "text": "**A sequenced plan** — the published four-year timeline (Strong Start → Involvement & Service → Testing & Research → Essays & Applications) means a student is building toward the application from 9th grade, not assembling it in senior fall.",
+      "of": "9605a3f1",
+      "at": [
+        "carmel-christian:edge.levers[0].items[2]"
+      ],
+      "t": "**Un plan secuenciado** — el cronograma publicado de cuatro años (Strong Start → Involvement & Service → Testing & Research → Essays & Applications) significa que un estudiante va construyendo hacia la solicitud desde 9.º grado, en lugar de armarla en el otoño del último año."
+    },
+    {
+      "text": "Lever 2 — The office’s leverage",
+      "of": "116d2939",
+      "at": [
+        "carmel-christian:edge.levers[1].title"
+      ],
+      "t": "Palanca 2 — La influencia de la oficina"
+    },
+    {
+      "text": "what the building lends the file",
+      "of": "481c1ac1",
+      "at": [
+        "carmel-christian:edge.levers[1].hint"
+      ],
+      "t": "lo que el establecimiento aporta al expediente"
+    },
+    {
+      "text": "**A NACCAP-certified counselor** — name recognition inside the Christian-college admissions circuit, matching the list’s deepest concentrations (Christian colleges and NC publics).",
+      "of": "dd2faa37",
+      "at": [
+        "carmel-christian:edge.levers[1].items[0]"
+      ],
+      "t": "**Un consejero certificado por NACCAP** — reconocimiento de nombre dentro del circuito de admisiones de colleges cristianos, que coincide con las mayores concentraciones de la lista (colleges cristianos y universidades públicas de NC)."
+    },
+    {
+      "text": "**A signature program that reps see** — the College Admissions Panel brings public, private and Christian-college reps, a financial-aid officer, a Marine recruiter and a campus minister into one room for families.",
+      "of": "9aca5eb2",
+      "at": [
+        "carmel-christian:edge.levers[1].items[1]"
+      ],
+      "t": "**Un programa característico que los representantes ven** — el College Admissions Panel reúne a representantes de universidades públicas, privadas y cristianas, a un oficial de ayuda financiera, a un reclutador de la Marine y a un ministro del campus en una misma sala para las familias."
+    },
+    {
+      "text": "**A legible transcript** — a stated weighting range and no-rank policy let a reader reconstruct rigor in context, and the AP Honor Roll gives the program a third-party mark.",
+      "of": "5374a8a3",
+      "at": [
+        "carmel-christian:edge.levers[1].items[2]"
+      ],
+      "t": "**Un expediente legible** — un rango de ponderación indicado y una política de no clasificar permiten a un lector reconstruir el rigor en contexto, y el AP Honor Roll le da al programa una marca de terceros."
+    },
+    {
+      "text": "No research program, Olympiad results, or national-competition credentials are published — the differentiators are cadence and legibility, not competition results.",
+      "of": "c53f3b3f",
+      "at": [
+        "carmel-christian:edge.levers[1].note"
+      ],
+      "t": "No se publican programa de investigación, resultados de Olimpiadas ni credenciales de competición nacional — los diferenciadores son la cadencia y la legibilidad, no los resultados de competición."
+    },
+    {
+      "text": "The most recent test and GPA data the research could locate is the Class of 2022 profile — ranges, not distributions, and TO VERIFY until the current-year profile is relocated.",
+      "of": "210fc0fc",
+      "at": [
+        "carmel-christian:wholeClass.headline"
+      ],
+      "t": "Los datos de exámenes y GPA más recientes que la investigación pudo localizar son el perfil de la Class of 2022 — rangos, no distribuciones, y POR VERIFICAR hasta que se reubique el perfil del año actual."
+    },
+    {
+      "text": "The school does not rank; the current-year School Profile PDF could not be relocated for this pass, so these figures are labeled Class of 2022 rather than presented as current.",
+      "of": "b547c43c",
+      "at": [
+        "carmel-christian:wholeClass.subhead"
+      ],
+      "t": "La escuela no clasifica; el School Profile PDF del año actual no pudo reubicarse para esta revisión, así que estas cifras se etiquetan como Class of 2022 en lugar de presentarse como actuales."
+    },
+    {
+      "text": "SAT & ACT middle-50% ranges",
+      "of": "2d42043f",
+      "at": [
+        "carmel-christian:wholeClass.scoreTables[0].title"
+      ],
+      "t": "Rangos del 50% central de SAT y ACT"
+    },
+    {
+      "text": "— Class of 2022 · TO VERIFY (from a cached 2022–23 profile)",
+      "of": "fb409b88",
+      "at": [
+        "carmel-christian:wholeClass.scoreTables[0].hint"
+      ],
+      "t": "— Class of 2022 · POR VERIFICAR (de un perfil 2022–23 en caché)"
+    },
+    {
+      "text": "SAT total (middle 50%)",
+      "of": "f7bb9413",
+      "at": [
+        "carmel-christian:wholeClass.scoreTables[0].rows[0].label"
+      ],
+      "t": "SAT total (50% central)"
+    },
+    {
+      "text": "ACT composite (middle 50%)",
+      "of": "74dfae54",
+      "at": [
+        "carmel-christian:wholeClass.scoreTables[0].rows[1].label"
+      ],
+      "t": "ACT compuesto (50% central)"
+    },
+    {
+      "text": "Ranges only — the cached profile publishes the middle 50%, not percentiles or tester counts. Labeled Class of 2022 because the current-year profile could not be relocated.",
+      "of": "b668f65c",
+      "at": [
+        "carmel-christian:wholeClass.scoreTables[0].note"
+      ],
+      "t": "Solo rangos — el perfil en caché publica el 50% central, no percentiles ni conteos de examinados. Etiquetado como Class of 2022 porque el perfil del año actual no pudo reubicarse."
+    },
+    {
+      "text": "GPA ranges",
+      "of": "a0abdc59",
+      "at": [
+        "carmel-christian:wholeClass.scoreTables[1].title"
+      ],
+      "t": "Rangos de GPA"
+    },
+    {
+      "text": "— Class of 2022 · TO VERIFY",
+      "of": "e6e4fefd",
+      "at": [
+        "carmel-christian:wholeClass.scoreTables[1].hint"
+      ],
+      "t": "— Class of 2022 · POR VERIFICAR"
+    },
+    {
+      "text": "Weighted GPA",
+      "of": "0786b73a",
+      "at": [
+        "carmel-christian:wholeClass.scoreTables[1].rows[0].label"
+      ],
+      "t": "GPA ponderado"
+    },
+    {
+      "text": "Unweighted GPA",
+      "of": "84a7761d",
+      "at": [
+        "carmel-christian:wholeClass.scoreTables[1].rows[1].label"
+      ],
+      "t": "GPA sin ponderar"
+    },
+    {
+      "text": "Ranges, not a quintile distribution — the school does not rank, and no GPA quantiles are published.",
+      "of": "14264a95",
+      "at": [
+        "carmel-christian:wholeClass.scoreTables[1].note"
+      ],
+      "t": "Rangos, no una distribución por quintiles — la escuela no clasifica, y no se publican cuantiles de GPA."
+    },
+    {
+      "text": "No GPA distribution or quintile table is published — the weighted/unweighted ranges above (Class of 2022) are the entire GPA disclosure the research located.",
+      "of": "f4714619",
+      "at": [
+        "carmel-christian:wholeClass.gpaNote"
+      ],
+      "t": "No se publica ninguna distribución de GPA ni tabla de quintiles — los rangos ponderado/sin ponderar de arriba (Class of 2022) son toda la divulgación de GPA que la investigación localizó."
+    },
+    {
+      "text": "Personal counseling on staff",
+      "of": "c4165219",
+      "at": [
+        "carmel-christian:wholeClass.support[0].label"
+      ],
+      "t": "Consejería personal en el personal"
+    },
+    {
+      "text": "A Personal Counselor / Registrar (Clay Kessler) serves grades 9–12, distinct from the college office — the pastoral and personal-support channel.",
+      "of": "8b7f676d",
+      "at": [
+        "carmel-christian:wholeClass.support[0].text"
+      ],
+      "t": "Un Personal Counselor / Registrar (Clay Kessler) atiende a los grados 9–12, distinto de la oficina universitaria — el canal de apoyo pastoral y personal."
+    },
+    {
+      "text": "No structured learning-differences program, resource room, or accommodations detail is published, and no figures on how testing accommodations are documented were located for this pass.",
+      "of": "8372fe5a",
+      "at": [
+        "carmel-christian:wholeClass.supportNote"
+      ],
+      "t": "No se publica ningún programa estructurado de diferencias de aprendizaje, sala de recursos ni detalle de adaptaciones, y no se localizó ninguna cifra sobre cómo se documentan las adaptaciones para exámenes en esta revisión."
+    },
+    {
+      "text": "The list matches a broad class",
+      "of": "b70d34ba",
+      "at": [
+        "carmel-christian:wholeClass.middle[0].label"
+      ],
+      "t": "La lista coincide con una clase amplia"
+    },
+    {
+      "text": "The acceptance list runs from Princeton and Duke through NC publics (Chapel Hill, NC State, UNC Charlotte, App State, East Carolina), Christian colleges, community colleges and trade destinations (NASCAR Technical Institute) — the spread of a broad, not uniformly elite, class.",
+      "of": "c979c8be",
+      "at": [
+        "carmel-christian:wholeClass.middle[0].text"
+      ],
+      "t": "La lista de admisiones va desde Princeton y Duke pasando por universidades públicas de NC (Chapel Hill, NC State, UNC Charlotte, App State, East Carolina), colleges cristianos, community colleges y destinos vocacionales (NASCAR Technical Institute) — la amplitud de una clase amplia, no uniformemente elitista."
+    },
+    {
+      "text": "Art and specialist destinations appear (SCAD, Ringling College of Art & Design, Watkins College of Art, UNC School of the Arts, New York Film Academy, The American Musical & Dramatic Academy), alongside a UK/international thread (St Andrews, Glasgow, Stirling, York, Brock, Cape Breton).",
+      "of": "114267fb",
+      "at": [
+        "carmel-christian:wholeClass.middle[1].text"
+      ],
+      "t": "Aparecen destinos de arte y especializados (SCAD, Ringling College of Art & Design, Watkins College of Art, UNC School of the Arts, New York Film Academy, The American Musical & Dramatic Academy), junto a una línea de Reino Unido/internacional (St Andrews, Glasgow, Stirling, York, Brock, Cape Breton)."
+    },
+    {
+      "text": "Every figure on this card is from a cached 2022–23 profile (Class of 2022); the current-year School Profile PDF 404s under every filename variant and Wayback was rate-limited during this pass. Re-hunt the current profile at ingest and refresh these numbers.",
+      "of": "5383d982",
+      "at": [
+        "carmel-christian:wholeClass.flags[0].text"
+      ],
+      "t": "Cada cifra de esta ficha proviene de un perfil 2022–23 en caché (Class of 2022); el School Profile PDF del año actual da error 404 bajo cada variante de nombre de archivo y Wayback estaba con límite de tasa durante esta revisión. Vuelve a buscar el perfil actual al momento de la ingesta y actualiza estas cifras."
+    },
+    {
+      "text": "No score percentiles, no GPA quintiles, no tester counts and no per-quintile outcomes are published — only the ranges above. The shape of the class is not recoverable from public sources.",
+      "of": "279d15f5",
+      "at": [
+        "carmel-christian:wholeClass.flags[1].text"
+      ],
+      "t": "No se publican percentiles de puntaje, ni quintiles de GPA, ni conteos de examinados ni resultados por quintil — solo los rangos de arriba. La forma de la clase no es recuperable a partir de fuentes públicas."
+    },
+    {
+      "text": "A well-documented, sequenced counseling program and a broad-participation AP record — with the current-year quantitative profile the one real hole a visit should close.",
+      "of": "1fcd4085",
+      "at": [
+        "carmel-christian:verdict.headline"
+      ],
+      "t": "Un programa de consejería bien documentado y secuenciado y un historial AP de amplia participación — con el perfil cuantitativo del año actual como el único hueco real que una visita debería cerrar."
+    },
+    {
+      "text": "The process disclosure is unusually complete for a school this size; the outcomes and test data are thinner, and the latest profile could not be located.",
+      "of": "b460c0f5",
+      "at": [
+        "carmel-christian:verdict.subhead"
+      ],
+      "t": "La divulgación del proceso es inusualmente completa para una escuela de este tamaño; los resultados y los datos de exámenes son más escasos, y el perfil más reciente no pudo localizarse."
+    },
+    {
+      "text": "The AP story is broad, not narrow",
+      "of": "3b46edb8",
+      "at": [
+        "carmel-christian:verdict.points[0].label"
+      ],
+      "t": "La historia AP es amplia, no estrecha"
+    },
+    {
+      "text": "Platinum AP School Honor Roll earned on whole-class participation — 80% of seniors sat an exam and 73% scored 3+, with 19% sitting five or more.",
+      "of": "8c5b9494",
+      "at": [
+        "carmel-christian:verdict.points[0].text"
+      ],
+      "t": "Platinum AP School Honor Roll obtenido por participación de toda la clase — el 80% de los seniors presentó un examen y el 73% obtuvo 3+, con el 19% presentando cinco o más."
+    },
+    {
+      "text": "The counseling program is fully published",
+      "of": "ca14ee11",
+      "at": [
+        "carmel-christian:verdict.points[1].label"
+      ],
+      "t": "El programa de consejería está totalmente publicado"
+    },
+    {
+      "text": "A grade-by-grade timeline, a signature College Boot Camp, an essay workshop, an eight-part application framework and an admissions panel — more process detail than several larger peers publish.",
+      "of": "a11ccfaf",
+      "at": [
+        "carmel-christian:verdict.points[1].text"
+      ],
+      "t": "Un cronograma grado por grado, un característico College Boot Camp, un taller de ensayos, un marco de solicitud de ocho partes y un panel de admisiones — más detalle de proceso del que publican varias escuelas pares más grandes."
+    },
+    {
+      "text": "A single dedicated counselor",
+      "of": "3f3d8a67",
+      "at": [
+        "carmel-christian:verdict.points[2].label"
+      ],
+      "t": "Un solo consejero dedicado"
+    },
+    {
+      "text": "One NACCAP-certified college counselor, cushioned by a separate academic advisor and personal counselor — but the senior caseload is never stated, so ask it directly.",
+      "of": "723981fc",
+      "at": [
+        "carmel-christian:verdict.points[2].text"
+      ],
+      "t": "Un consejero universitario certificado por NACCAP, respaldado por un asesor académico y un consejero personal separados — pero la carga de casos de seniors nunca se indica, así que pregúntala directamente."
+    },
+    {
+      "text": "Outcomes show breadth",
+      "of": "64712b0b",
+      "at": [
+        "carmel-christian:verdict.points[3].label"
+      ],
+      "t": "Los resultados muestran amplitud"
+    },
+    {
+      "text": "Around 215 named acceptances led by Princeton and Duke, deep in NC publics and Christian colleges — but the list marks no matriculations, so it shows acceptances, not where students enrolled.",
+      "of": "6f870b6f",
+      "at": [
+        "carmel-christian:verdict.points[3].text"
+      ],
+      "t": "Alrededor de 215 admisiones nombradas encabezadas por Princeton y Duke, con profundidad en universidades públicas de NC y colleges cristianos — pero la lista no marca matriculaciones, así que muestra admisiones, no dónde se inscribieron los estudiantes."
+    },
+    {
+      "text": "The quantitative profile is stale",
+      "of": "2d1df8bb",
+      "at": [
+        "carmel-christian:verdict.points[4].label"
+      ],
+      "t": "El perfil cuantitativo está desactualizado"
+    },
+    {
+      "text": "The most recent SAT/ACT/GPA data the research located is Class of 2022, from a cached profile; the current-year profile could not be relocated. That is the first thing to ask for on a visit.",
+      "of": "9daa1e81",
+      "at": [
+        "carmel-christian:verdict.points[4].text"
+      ],
+      "t": "Los datos de SAT/ACT/GPA más recientes que la investigación localizó son de la Class of 2022, de un perfil en caché; el perfil del año actual no pudo reubicarse. Eso es lo primero que hay que pedir en una visita."
+    },
+    {
+      "text": "How many seniors does the college counselor carry at peak season, and how large is the senior class?",
+      "of": "85302780",
+      "at": [
+        "carmel-christian:verdict.checklist[0]"
+      ],
+      "t": "¿Cuántos seniors lleva el consejero universitario en temporada alta, y qué tan grande es la clase de seniors?"
+    },
+    {
+      "text": "Can we see the current-year School Profile — what are this year’s SAT/ACT and GPA figures, and how many students test?",
+      "of": "c96ce6be",
+      "at": [
+        "carmel-christian:verdict.checklist[1]"
+      ],
+      "t": "¿Podemos ver el School Profile del año actual — cuáles son las cifras de SAT/ACT y GPA de este año, y cuántos estudiantes se examinan?"
+    },
+    {
+      "text": "Which AP courses actually run next year, and how are students placed into them?",
+      "of": "31d04a0c",
+      "at": [
+        "carmel-christian:verdict.checklist[2]"
+      ],
+      "t": "¿Qué cursos AP se dictan realmente el año próximo, y cómo se ubica a los estudiantes en ellos?"
+    },
+    {
+      "text": "The acceptance list marks no enrollments — where did last year’s class actually matriculate, and in what concentrations?",
+      "of": "6b8588eb",
+      "at": [
+        "carmel-christian:verdict.checklist[3]"
+      ],
+      "t": "La lista de admisiones no marca inscripciones — ¿dónde se matriculó realmente la clase del año pasado, y en qué concentraciones?"
+    },
+    {
+      "text": "How are testing accommodations documented for the College Board and ACT, and what learning-support is available beyond personal counseling?",
+      "of": "89976fdd",
+      "at": [
+        "carmel-christian:verdict.checklist[4]"
+      ],
+      "t": "¿Cómo se documentan las adaptaciones para exámenes ante el College Board y el ACT, y qué apoyo de aprendizaje hay más allá de la consejería personal?"
+    },
+    {
+      "text": "Roughly how many college reps visit each year, and how does the College Admissions Panel fit the application calendar?",
+      "of": "e4b46a53",
+      "at": [
+        "carmel-christian:verdict.checklist[5]"
+      ],
+      "t": "¿Aproximadamente cuántos representantes universitarios visitan cada año, y cómo encaja el College Admissions Panel en el calendario de solicitudes?"
     }
   ]
 }
