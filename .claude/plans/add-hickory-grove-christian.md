@@ -1,11 +1,11 @@
 ---
 name: add-hickory-grove-christian
 title: Add Hickory Grove Christian School as the 9th school
-status: english-done
+status: implemented
 phases: 2
 created: 2026-08-17
 branch: feat/add-hickory-grove-christian
-prs: []
+prs: [141]
 ---
 
 # Add Hickory Grove Christian School as the 9th school
@@ -429,5 +429,40 @@ yet — held for the two-phase gate). Deviations and outcomes worth carrying int
   schools have.
 - **coverage:floor:** HG 20/30 Compare rows (66%), 8/8 areas — above the Davidson Day floor.
 
-**For Phase 2 (fresh window):** `git checkout feat/add-hickory-grove-christian`, confirm the
-user approved the English, then work the Phase 2 steps above. Do not rebuild Phase 1.
+**Phase 2 (all nine prose locales) shipped** in the same branch/PR, 2026-08-17.
+
+- **517 strings per locale**, not the ~479 estimated: 479 are Hickory Grove's, and **38
+  are Carmel Christian metric-values strings that shipped untranslated in PR #140**.
+  Nothing had surfaced them until HG landed on the same Compare rows, so this pass closes
+  a pre-existing gap as a side effect.
+- **Backfill by content hash, not re-translation.** The extractor blanks every `t`;
+  existing translations were restored by `of` hash before any model saw the file, leaving
+  only new strings blank. Merging is hash-keyed, never index-keyed. No shipped wording in
+  any locale changed — the diff is purely additive.
+- **Three Phase-1 data defects were found by the extractor and fixed at the source**
+  rather than translated around: `rosterTitle` + `bucketsTitle` were lifted chrome (HG was
+  the only school setting either; both have translated `sections.*` fallbacks), and three
+  `ensembles` values were prose in a proper-noun field. Deleted / normalised, with the
+  detail preserved in `boardNote`. Same shapes as the Covenant Day and Carmel mistakes.
+- **27 genuine cross-locale leaks fixed to consensus.** `i18n:leaks` was inverted to give,
+  per field path, the set of locales that kept it English — kept by 1–3 of 9 is a real
+  miss, kept by 6+ is a deliberate identifier retention. That cleanly separated 27 leaks
+  (`Math`, `Reading & Fluency`, `Elementary`, `Aggregator`, `Guidance lunches`, the
+  `Rising N` terms) from 3 correct keeps (`AP Capstone Diplomas`, two `AP Scholars` tiers).
+- **Two invisible defect classes surfaced during translation**, both caught before merge
+  and both recorded in `src/data/overlays/NOTES.md`: six Cyrillic homoglyph `е` in Kreyòl,
+  and 44 stray U+200F RLM marks in Arabic. Neither is visible in review and no check in
+  this repo looks for either.
+- **Browser print-out done on both schools, all nine locales, panels force-expanded** —
+  HG 6.4k→77k chars, Providence Day 8.8k→187k. The decisive check was the unabbreviated
+  7-digit figure: `$3,013,928` renders as `3.013.928 US$` (es), `13 750 $US`-style spacing
+  (fr), `$30,13,928` (hi, lakh/crore applied **once** at render), and inside LRI…PDI
+  isolates with Western digits in both RTL locales. That proves the data stored the English
+  3-3-3 form rather than a pre-regrouped one.
+- **`clubCatalog.ts` `source` lines carry editorial parentheticals inside a field
+  classified as a citation label.** Real, but **pre-existing on `main` for every school** —
+  not introduced here, and left alone deliberately because fixing it means re-extracting a
+  topic complete in nine languages. Recorded in NOTES.md as a known item.
+- **Deferred:** native-speaker review of the new prose in every locale — the one failure
+  mode (register, naturalness) no automated check reaches. Not deployed; `npm run deploy`
+  is the user's call.

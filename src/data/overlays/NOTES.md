@@ -1419,3 +1419,65 @@ English**. Only the framing prose around them is translated (`Wayback`, `under`,
 
 As in every prior locale — see CLAUDE.md. Arabic inherits the same English
 strings in `program`/`value`/`year` fields. Not ar-specific; not fixed here.
+
+---
+
+## Hickory Grove Christian backfill (9th school) — 2026-08-17
+
+Not a locale rollout: one school's prose added to nine already-complete locales.
+517 strings each (479 Hickory Grove, 38 Carmel Christian metric-values entries
+that shipped untranslated in PR #140 and nothing had surfaced until Hickory Grove
+landed on the same Compare rows).
+
+**Method — hash-keyed backfill, not re-translation.** The extractor blanks every
+`t`, which is right for a fresh rollout and wrong here. Existing translations were
+restored by content hash (`of`) before any model saw the file, leaving only the new
+strings blank. Merging is by hash and never by index: an index-keyed merge ships
+fluent prose attached to the wrong original at 100% coverage. The result is
+additive — no shipped wording changed in any locale.
+
+**Three Phase-1 data defects were fixed rather than translated around**, each of
+which would have shipped English inside otherwise-translated cards in all nine:
+
+- `counseling.rosterTitle`, `outcomes.bucketsTitle` — lifted chrome. Hickory Grove
+  was the only school setting either, and both have translated `sections.*`
+  fallbacks. Deleted from the data. Third occurrence of this shape after Covenant
+  Day and Carmel; the extractor's "unclassified field" warning is what catches it.
+- Three `music.tracks[].ensembles` values were descriptive prose in a field
+  correctly classified as an ensemble proper noun for every other value — the
+  "right about 12 values, wrong about the 13th" shape. Normalised to the
+  convention; the detail moved into `boardNote`, which is prose and translates.
+
+**A defect class no check in this repo looks for: Cyrillic homoglyphs.**
+Composing Kreyòl emitted six `е` (U+0435) inside otherwise-correct words. Invisible
+in review, invisible to grep unless you search the codepoint, and it breaks search
+silently. Caught during self-verification; all nine locales then swept clean. Worth
+adding to the standard sweep — it costs one regex over the work files.
+
+Arabic hit the mirror-image version: composing RTL prose around Latin identifiers
+emitted 44 stray U+200F RLM marks. The render layer owns bidi isolates, so
+hand-injected controls are a defect. Same fix, same invisibility.
+
+**Cross-locale leak triage by consensus, not by eye.** Inverting `i18n:leaks` gives,
+per field path, the set of locales that kept it English. Kept by 1–3 of 9 → almost
+always a real miss; kept by 6+ → a deliberate identifier retention. That separated
+27 genuine leaks (`Math`, `Reading & Fluency`, `Elementary`, `Aggregator`,
+`Guidance lunches`, `CEEB code`, `head coach`, `College Prep`, the `Rising N`
+grade-band terms) from 3 correct keeps (`AP Capstone Diplomas`, the two
+`AP Scholars` tiers). All 27 fixed to the consensus rendering.
+
+## `source` citation lines carry editorial prose — pre-existing, NOT fixed
+
+The browser sweep flagged, in every locale, the `clubCatalog.ts` `source` line:
+
+    privateschoolreview.com — HGCS profile (the only source naming all 27
+    non-sports orgs) · hgchristian.org — Academics & Arts pages (corroborating …)
+
+`source` is classified `'citation label'` and skipped, which is right for the URL
+list and wrong for the parenthetical judgement inside it. **This is not Hickory
+Grove's doing** — every school on `main` has one (`named orgs only; no public
+chartered directory`, `roster assembled from several pages`, `third-party roster`).
+Left alone deliberately: fixing it means widening the `source` path rules and
+re-extracting a topic complete in nine languages, which is the same cost that keeps
+the 7-string defect open. Recorded so the next rollout finds it as a known item
+rather than rediscovering it as a bug.
