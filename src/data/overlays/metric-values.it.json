@@ -52,6 +52,13 @@
       ]
     },
     {
+      "t": "~78",
+      "of": "2b92a7ae",
+      "at": [
+        "providence-day:[0].values.carmel-christian"
+      ]
+    },
+    {
       "t": "~75",
       "of": "2892a2f5",
       "at": [
@@ -91,6 +98,20 @@
       "of": "99d184c3",
       "at": [
         "providence-day:[0].quals.providence-day.text"
+      ]
+    },
+    {
+      "t": "Solo catalogo della scuola superiore; la scuola non pubblica elenchi di corsi denominati per la scuola primaria o media. Una materia insegnata ai livelli Standard, Honors e AP è conteggiata come titoli distinti, coerentemente con il modo in cui la scuola li elenca.",
+      "of": "3fdfacc3",
+      "at": [
+        "providence-day:[0].quals.carmel-christian.text"
+      ]
+    },
+    {
+      "t": "Non pubblicato: l'elenco completo dei corsi di Hickory Grove Christian viene generato solo tramite una guida alla selezione dei corsi in JavaScript, priva di HTML statico o PDF, perciò un conteggio totale dei corsi non è disponibile pubblicamente. Il suo catalogo AP di 17 corsi (la riga successiva) è il dato enumerabile.",
+      "of": "3395a183",
+      "at": [
+        "providence-day:[0].quals.hickory-grove-christian.text"
       ]
     },
     {
@@ -143,10 +164,24 @@
       ]
     },
     {
+      "t": "16",
+      "of": "19eb271e",
+      "at": [
+        "providence-day:[1].values.carmel-christian"
+      ]
+    },
+    {
       "t": "26 AP",
       "of": "475d503a",
       "at": [
         "providence-day:[1].values.davidson-day"
+      ]
+    },
+    {
+      "t": "17 AP",
+      "of": "89e7aec2",
+      "at": [
+        "providence-day:[1].values.hickory-grove-christian"
       ]
     },
     {
@@ -192,6 +227,13 @@
       ]
     },
     {
+      "t": "La scuola pubblicizza 17 corsi AP più l'AP Capstone (AP Seminar + AP Research). Il suo profilo 2025–26 ne nomina 14 per titolo e il profilo 2023–24 ne nominava 17, perciò quali vengano attivati in un dato anno è variabile; l'unione dei 18 titoli comprende tutti i corsi nominati nei vari profili.",
+      "of": "6c7330bf",
+      "at": [
+        "providence-day:[1].quals.hickory-grove-christian.text"
+      ]
+    },
+    {
       "t": "Dipartimenti Upper School",
       "of": "b7916ae2",
       "at": [
@@ -210,8 +252,11 @@
       "of": "3d0cb547",
       "at": [
         "providence-day:[2].values.cannon",
+        "providence-day:[2].values.hickory-grove-christian",
+        "providence-day:[9].values.carmel-christian",
         "providence-day:[24].values.charlotte-country-day",
         "providence-day:[24].values.covenant-day",
+        "providence-day:[24].values.hickory-grove-christian",
         "providence-day:[28].values.charlotte-christian"
       ]
     },
@@ -229,6 +274,7 @@
       "at": [
         "providence-day:[2].values.charlotte-country-day",
         "providence-day:[2].values.covenant-day",
+        "providence-day:[2].values.carmel-christian",
         "providence-day:[2].values.davidson-day",
         "providence-day:[24].values.providence-day",
         "providence-day:[28].values.charlotte-country-day",
@@ -251,8 +297,8 @@
       ]
     },
     {
-      "t": "Quota di esami AP con punteggio pari o superiore a 3, anno più recente riportato. Charlotte Latin e Davidson Day non pubblicano un tasso di superamento.",
-      "of": "abcf3feb",
+      "t": "Quota di esami AP con punteggio pari o superiore a 3, anno più recente riportato. Charlotte Latin, Davidson Day e Hickory Grove Christian non pubblicano un tasso di superamento per esame.",
+      "of": "80c172c9",
       "at": [
         "providence-day:[3].note"
       ]
@@ -283,6 +329,13 @@
       "of": "3ec55d39",
       "at": [
         "providence-day:[3].values.covenant-day"
+      ]
+    },
+    {
+      "t": "73%",
+      "of": "2dc5384e",
+      "at": [
+        "providence-day:[3].values.carmel-christian"
       ]
     },
     {
@@ -328,6 +381,13 @@
       ]
     },
     {
+      "t": "Quota di studenti dell'ultimo anno con punteggio pari o superiore a 3 in almeno un esame AP, dall'AP School Honor Roll (Platinum). L'anno non è indicato nell'articolo della scuola; i suoi metadati lo collocano agli esami del 2023.",
+      "of": "9aac7a39",
+      "at": [
+        "providence-day:[3].quals.carmel-christian.text"
+      ]
+    },
+    {
       "t": "Ivy League",
       "of": "2200187e",
       "at": [
@@ -369,6 +429,20 @@
       "of": "99bd1e9d",
       "at": [
         "providence-day:[4].values.charlotte-latin"
+      ]
+    },
+    {
+      "t": "1 / 8",
+      "of": "84166ad1",
+      "at": [
+        "providence-day:[4].values.carmel-christian"
+      ]
+    },
+    {
+      "t": "0 / 8",
+      "of": "ac83bdee",
+      "at": [
+        "providence-day:[4].values.hickory-grove-christian"
       ]
     },
     {
@@ -428,6 +502,20 @@
       ]
     },
     {
+      "t": "Una delle otto università della Ivy League (Princeton) compare nell'elenco cumulativo delle ammissioni della scuola.",
+      "of": "53a03d4c",
+      "at": [
+        "providence-day:[4].quals.carmel-christian.text"
+      ]
+    },
+    {
+      "t": "Nessuna delle 8 università della Ivy League compare negli elenchi delle ammissioni 2023 + 2025 pubblicati da Hickory Grove Christian, confrontati con le tabelle U.S. News 2026 — non è un dato che la scuola riporti direttamente.",
+      "of": "db21d1ea",
+      "at": [
+        "providence-day:[4].quals.hickory-grove-christian.text"
+      ]
+    },
+    {
       "t": "“Ivy Plus”",
       "of": "c7790b24",
       "at": [
@@ -477,10 +565,24 @@
       ]
     },
     {
+      "t": "2 / 12",
+      "of": "b5bce023",
+      "at": [
+        "providence-day:[5].values.carmel-christian"
+      ]
+    },
+    {
       "t": "8 / 17",
       "of": "50395612",
       "at": [
         "providence-day:[5].values.davidson-day"
+      ]
+    },
+    {
+      "t": "0 / 17",
+      "of": "6c52937a",
+      "at": [
+        "providence-day:[5].values.hickory-grove-christian"
       ]
     },
     {
@@ -540,6 +642,20 @@
       ]
     },
     {
+      "t": "Due delle dodici scuole “Ivy Plus” (Princeton, Duke) compaiono nell'elenco delle ammissioni.",
+      "of": "394d59b8",
+      "at": [
+        "providence-day:[5].quals.carmel-christian.text"
+      ]
+    },
+    {
+      "t": "Nessuno dei 17 istituti “Ivy Plus” compare negli elenchi delle ammissioni 2023 + 2025 pubblicati da Hickory Grove Christian, confrontati con le tabelle U.S. News 2026 — non è un dato che la scuola riporti direttamente.",
+      "of": "dd27d14f",
+      "at": [
+        "providence-day:[5].quals.hickory-grove-christian.text"
+      ]
+    },
+    {
       "t": "Top-75 National Universities",
       "of": "4fcd95b1",
       "at": [
@@ -590,10 +706,24 @@
       ]
     },
     {
+      "t": "~27",
+      "of": "b68b33ba",
+      "at": [
+        "providence-day:[6].values.carmel-christian"
+      ]
+    },
+    {
       "t": "44 / 75",
       "of": "478803e0",
       "at": [
         "providence-day:[6].values.davidson-day"
+      ]
+    },
+    {
+      "t": "22 / 75",
+      "of": "ecf89430",
+      "at": [
+        "providence-day:[6].values.hickory-grove-christian"
       ]
     },
     {
@@ -653,6 +783,20 @@
       ]
     },
     {
+      "t": "Un conteggio delle US News Top-75 National Universities nominate nell'elenco cumulativo delle ammissioni della scuola, che non indica alcuna finestra temporale. Diverse scuole si collocano vicino alla soglia della classifica dell'anno in corso.",
+      "of": "82974820",
+      "at": [
+        "providence-day:[6].quals.carmel-christian.text"
+      ]
+    },
+    {
+      "t": "22 delle prime 75 National Universities compaiono negli elenchi delle ammissioni 2023 + 2025 pubblicati da Hickory Grove Christian, confrontati con le tabelle U.S. News 2026 — non è un dato che la scuola riporti direttamente.",
+      "of": "45407bc9",
+      "at": [
+        "providence-day:[6].quals.hickory-grove-christian.text"
+      ]
+    },
+    {
       "t": "Top-75 Liberal Arts",
       "of": "38effdb0",
       "at": [
@@ -691,7 +835,15 @@
       "t": "9 / 75",
       "of": "fff53af3",
       "at": [
-        "providence-day:[7].values.covenant-day"
+        "providence-day:[7].values.covenant-day",
+        "providence-day:[7].values.hickory-grove-christian"
+      ]
+    },
+    {
+      "t": "~10",
+      "of": "1f838a40",
+      "at": [
+        "providence-day:[7].values.carmel-christian"
       ]
     },
     {
@@ -758,6 +910,20 @@
       ]
     },
     {
+      "t": "US News Top-75 Liberal Arts Colleges nominati nell'elenco cumulativo delle ammissioni; un paio si collocano vicino alla soglia della classifica.",
+      "of": "1aaa66bf",
+      "at": [
+        "providence-day:[7].quals.carmel-christian.text"
+      ]
+    },
+    {
+      "t": "9 dei primi 75 Liberal Arts Colleges compaiono negli elenchi delle ammissioni 2023 + 2025 pubblicati da Hickory Grove Christian (tra cui Bowdoin, Pomona, Claremont McKenna, Grinnell, Colgate, Washington & Lee), confrontati con le tabelle U.S. News 2026.",
+      "of": "c9b0b9d9",
+      "at": [
+        "providence-day:[7].quals.hickory-grove-christian.text"
+      ]
+    },
+    {
       "t": "Power Four",
       "of": "b3297a32",
       "at": [
@@ -801,10 +967,24 @@
       ]
     },
     {
+      "t": "~38 / 68",
+      "of": "897f0e9f",
+      "at": [
+        "providence-day:[8].values.carmel-christian"
+      ]
+    },
+    {
       "t": "42 / 68",
       "of": "a1f5c978",
       "at": [
         "providence-day:[8].values.davidson-day"
+      ]
+    },
+    {
+      "t": "24 / 68",
+      "of": "1f2aff48",
+      "at": [
+        "providence-day:[8].values.hickory-grove-christian"
       ]
     },
     {
@@ -864,6 +1044,20 @@
       ]
     },
     {
+      "t": "Membri della Power Four (su 68, inclusa Notre Dame) nominati nell'elenco cumulativo delle ammissioni. L'elenco non indica alcuna finestra temporale e non segnala alcuna immatricolazione.",
+      "of": "2f109512",
+      "at": [
+        "providence-day:[8].quals.carmel-christian.text"
+      ]
+    },
+    {
+      "t": "24 delle 68 università Power Four compaiono negli elenchi delle ammissioni 2023 + 2025 pubblicati da Hickory Grove Christian (UConn appartiene alla Big East, non alla Power Four, perciò è esclusa). Non è un dato che la scuola riporti direttamente.",
+      "of": "0ac96ff3",
+      "at": [
+        "providence-day:[8].quals.hickory-grove-christian.text"
+      ]
+    },
+    {
       "t": "HBCUs",
       "of": "d6316d90",
       "at": [
@@ -911,6 +1105,13 @@
       "at": [
         "providence-day:[9].values.covenant-day",
         "providence-day:[9].values.davidson-day"
+      ]
+    },
+    {
+      "t": "20 / 107",
+      "of": "23377734",
+      "at": [
+        "providence-day:[9].values.hickory-grove-christian"
       ]
     },
     {
@@ -967,6 +1168,20 @@
       "of": "1ac66519",
       "at": [
         "providence-day:[9].quals.providence-day.text"
+      ]
+    },
+    {
+      "t": "Historically Black colleges and universities nominati nell'elenco delle ammissioni.",
+      "of": "c7e59bc6",
+      "at": [
+        "providence-day:[9].quals.carmel-christian.text"
+      ]
+    },
+    {
+      "t": "20 dei 107 Historically Black Colleges & Universities compaiono negli elenchi delle ammissioni 2023 + 2025 pubblicati da Hickory Grove Christian (tra cui Howard, Hampton, Morehouse, NC A&T, Florida A&M, Fisk) — un canale HBCU particolarmente ricco.",
+      "of": "31d4d033",
+      "at": [
+        "providence-day:[9].quals.hickory-grove-christian.text"
       ]
     },
     {
@@ -1131,10 +1346,24 @@
       ]
     },
     {
+      "t": "$18,750",
+      "of": "984cd4da",
+      "at": [
+        "providence-day:[11].values.carmel-christian"
+      ]
+    },
+    {
       "t": "$26,910",
       "of": "d7e28b59",
       "at": [
         "providence-day:[11].values.davidson-day"
+      ]
+    },
+    {
+      "t": "$13,750",
+      "of": "fc371887",
+      "at": [
+        "providence-day:[11].values.hickory-grove-christian"
       ]
     },
     {
@@ -1152,6 +1381,13 @@
       ]
     },
     {
+      "t": "La fascia Grades 9–12 ($13,750). La pagina delle rette della scuola viene generata tramite un widget di portale, perciò questa cifra attuale è confermata su due mirror di terze parti anziché ripresa da un PDF della scuola; l'anno scolastico esatto non è indicato.",
+      "of": "a3a396b5",
+      "at": [
+        "providence-day:[11].quals.hickory-grove-christian.text"
+      ]
+    },
+    {
       "t": "% che riceve aiuti",
       "of": "dcbef77c",
       "at": [
@@ -1159,8 +1395,8 @@
       ]
     },
     {
-      "t": "Quota di studenti/famiglie che ricevono aiuti secondo quanto dichiarato dalla scuola. “~” dove la scuola dice “circa”; anno/denominatore variano — vedi il rapporto della scuola. Charlotte Christian e Davidson Day non pubblicano questo dato.",
-      "of": "aeb0b11c",
+      "t": "Quota di studenti/famiglie che ricevono aiuti secondo quanto dichiarato dalla scuola. “~” dove la scuola dice “approximately”; anno e denominatore variano — si veda il report della scuola. Charlotte Christian, Davidson Day e Hickory Grove Christian non pubblicano questo dato.",
+      "of": "c53ce403",
       "at": [
         "providence-day:[12].note"
       ]
@@ -1185,6 +1421,13 @@
       "of": "842974e7",
       "at": [
         "providence-day:[12].values.charlotte-latin"
+      ]
+    },
+    {
+      "t": "20%",
+      "of": "cee768ae",
+      "at": [
+        "providence-day:[12].values.carmel-christian"
       ]
     },
     {
@@ -1362,7 +1605,15 @@
       "of": "0ebb0ed6",
       "at": [
         "providence-day:[15].values.charlotte-latin",
+        "providence-day:[15].values.hickory-grove-christian",
         "providence-day:[15].values.providence-day"
+      ]
+    },
+    {
+      "t": "K–12",
+      "of": "e0278c04",
+      "at": [
+        "providence-day:[15].values.carmel-christian"
       ]
     },
     {
@@ -1407,6 +1658,20 @@
       "of": "06d6f2d3",
       "at": [
         "providence-day:[15].quals.davidson-day.text"
+      ]
+    },
+    {
+      "t": "Le arti si estendono dalla K alla 12: musica e arte integrate nelle grades K–4, che diventano sequenziali e opzionali dalla grade 5 in su.",
+      "of": "f67b4480",
+      "at": [
+        "providence-day:[15].quals.carmel-christian.text"
+      ]
+    },
+    {
+      "t": "Le arti sono offerte dalla Transitional Kindergarten (TK) fino alla grade 12 — arti visive e musica generale nelle prime classi, che si allargano a banda, coro, teatro e a un percorso di studio a livelli entro la scuola superiore.",
+      "of": "6d8aaff6",
+      "at": [
+        "providence-day:[15].quals.hickory-grove-christian.text"
       ]
     },
     {
@@ -1459,6 +1724,20 @@
       ]
     },
     {
+      "t": "Blumey 2026 — Best Actress",
+      "of": "381ce8f4",
+      "at": [
+        "providence-day:[16].values.carmel-christian"
+      ]
+    },
+    {
+      "t": "Candidature Blumey 2025–26",
+      "of": "5a21c3aa",
+      "at": [
+        "providence-day:[16].values.hickory-grove-christian"
+      ]
+    },
+    {
       "t": "riconoscimento Blumey",
       "of": "cc199a5c",
       "at": [
@@ -1508,6 +1787,20 @@
       ]
     },
     {
+      "t": "Il Blumey Award 2026 per Best Actress — Anna Jernigan, per Footloose. La vincitrice accede ai Jimmy Awards nazionali.",
+      "of": "e3a50509",
+      "at": [
+        "providence-day:[16].quals.carmel-christian.text"
+      ]
+    },
+    {
+      "t": "Candidati e finalisti ai Blumey Award in due stagioni consecutive — Seussical (2025) e Disney’s The Little Mermaid (2026), con Amara Aghedo e Christian Young ricorrenti. Non è pubblicata alcuna vittoria vera e propria. I Blumeys sono i premi di teatro musicale per le scuole superiori della regione di Charlotte.",
+      "of": "b5035838",
+      "at": [
+        "providence-day:[16].quals.hickory-grove-christian.text"
+      ]
+    },
+    {
       "t": "Corsi avanzati",
       "of": "a79c3149",
       "at": [
@@ -1534,6 +1827,25 @@
       "of": "3b521870",
       "at": [
         "providence-day:[17].values.charlotte-country-day"
+      ]
+    },
+    {
+      "t": "3",
+      "of": "360caa42",
+      "at": [
+        "providence-day:[17].values.carmel-christian",
+        "providence-day:[18].values.carmel-christian",
+        "providence-day:[28].values.charlotte-latin",
+        "providence-day:[28].values.davidson-day",
+        "providence-day:[29].values.cannon",
+        "providence-day:[29].values.hickory-grove-christian"
+      ]
+    },
+    {
+      "t": "AP Studio Art 2D",
+      "of": "dafc312f",
+      "at": [
+        "providence-day:[17].values.hickory-grove-christian"
       ]
     },
     {
@@ -1569,6 +1881,13 @@
       "of": "37750126",
       "at": [
         "providence-day:[17].quals.providence-day.text"
+      ]
+    },
+    {
+      "t": "Il corso artistico avanzato che la scuola nomina è AP Studio Art 2D (AP 2-D Art & Design), al vertice della sequenza di studio Art I–IV; gli studenti \"consistently score 3 or 4.\"",
+      "of": "c9894b1e",
+      "at": [
+        "providence-day:[17].quals.hickory-grove-christian.text"
       ]
     },
     {
@@ -1614,6 +1933,13 @@
       ]
     },
     {
+      "t": "3 ensemble",
+      "of": "6d5a020e",
+      "at": [
+        "providence-day:[18].values.hickory-grove-christian"
+      ]
+    },
+    {
       "t": "4 ensembles",
       "of": "ddc02b07",
       "at": [
@@ -1653,6 +1979,13 @@
       "of": "15743562",
       "at": [
         "providence-day:[18].quals.providence-day.text"
+      ]
+    },
+    {
+      "t": "Tre ensemble nominati della scuola superiore — Concert Band, Jazz Band e Choir. Non è offerta alcuna orchestra a nessun livello.",
+      "of": "1290bb44",
+      "at": [
+        "providence-day:[18].quals.hickory-grove-christian.text"
       ]
     },
     {
@@ -1706,10 +2039,24 @@
       ]
     },
     {
+      "t": "~5",
+      "of": "885dbb3c",
+      "at": [
+        "providence-day:[19].values.carmel-christian"
+      ]
+    },
+    {
       "t": "≥9",
       "of": "e05ccd9b",
       "at": [
         "providence-day:[19].values.davidson-day"
+      ]
+    },
+    {
+      "t": "27",
+      "of": "8af294c6",
+      "at": [
+        "providence-day:[19].values.hickory-grove-christian"
       ]
     },
     {
@@ -1762,6 +2109,20 @@
       ]
     },
     {
+      "t": "Organizzazioni studentesche permanenti della scuola superiore: National Honor Society, National Beta Club, Spanish Honor Society, Student Council e il Timothy Project. Per il resto i club nascono su iniziativa degli studenti tramite domanda, perciò non è pubblicato alcun elenco fisso.",
+      "of": "64db848f",
+      "at": [
+        "providence-day:[19].quals.carmel-christian.text"
+      ]
+    },
+    {
+      "t": "27 organizzazioni non sportive (18 club/organizzazioni + 9 di arti/musica) da un unico aggregatore (PrivateSchoolReview) — il sito della scuola stessa non ha una pagina sui club, perciò si tratta di un conteggio a fonte unica. Cinque sono honor society; un sottoinsieme (Choir, Drama, Jazz Band, Discipleship) è corroborato sul sito della scuola.",
+      "of": "60c9c31d",
+      "at": [
+        "providence-day:[19].quals.hickory-grove-christian.text"
+      ]
+    },
+    {
       "t": "Risultato di punta",
       "of": "472b065e",
       "at": [
@@ -1808,6 +2169,13 @@
       "of": "50ea292d",
       "at": [
         "providence-day:[20].values.covenant-day"
+      ]
+    },
+    {
+      "t": "Titolo NCISAA 4A di basket 2022",
+      "of": "643bd5bc",
+      "at": [
+        "providence-day:[20].values.carmel-christian"
       ]
     },
     {
@@ -1871,6 +2239,13 @@
       "of": "833db766",
       "at": [
         "providence-day:[20].quals.providence-day.text"
+      ]
+    },
+    {
+      "t": "Il titolo statale NCISAA 4A di basket maschile 2022 (batt. Greensboro Day 71–66; Cade Tyson ha segnato 31 punti). La squadra di calcio femminile ha raggiunto la finale 4A del 2026 come seconda classificata.",
+      "of": "c4b526ed",
+      "at": [
+        "providence-day:[20].quals.carmel-christian.text"
       ]
     },
     {
@@ -1964,8 +2339,16 @@
         "providence-day:[22].values.charlotte-country-day",
         "providence-day:[22].values.charlotte-latin",
         "providence-day:[22].values.covenant-day",
+        "providence-day:[22].values.carmel-christian",
         "providence-day:[22].values.davidson-day",
         "providence-day:[22].values.cannon"
+      ]
+    },
+    {
+      "t": "5:30 PM",
+      "of": "ce6d8030",
+      "at": [
+        "providence-day:[22].values.hickory-grove-christian"
       ]
     },
     {
@@ -2008,6 +2391,20 @@
       "of": "2f34b58d",
       "at": [
         "providence-day:[22].quals.davidson-day.text"
+      ]
+    },
+    {
+      "t": "Il servizio After School / After YCC si svolge dalle 3:00 alle 6:00 PM; le 6:00 PM sono l'ultimo orario di ritiro pubblicato.",
+      "of": "29662437",
+      "at": [
+        "providence-day:[22].quals.carmel-christian.text"
+      ]
+    },
+    {
+      "t": "Il programma Afterschool (TK–5) e lo Study Hall (grades 6–11) condividono un'unica fascia 2:30–5:30 p.m., perciò le 5:30 p.m. sono l'ultimo orario di ritiro — prima delle 6:00 p.m. offerte dalle altre scuole.",
+      "of": "7c44cd2b",
+      "at": [
+        "providence-day:[22].quals.hickory-grove-christian.text"
       ]
     },
     {
@@ -2060,6 +2457,13 @@
       ]
     },
     {
+      "t": "$245/mese",
+      "of": "fca2b9dd",
+      "at": [
+        "providence-day:[23].values.carmel-christian"
+      ]
+    },
+    {
       "t": "$750/mese",
       "of": "d147bcce",
       "at": [
@@ -2099,6 +2503,13 @@
       "of": "71c8d334",
       "at": [
         "providence-day:[23].subs.covenant-day"
+      ]
+    },
+    {
+      "t": "≈$2,205/anno",
+      "of": "9ebecfe2",
+      "at": [
+        "providence-day:[23].subs.carmel-christian"
       ]
     },
     {
@@ -2144,6 +2555,13 @@
       ]
     },
     {
+      "t": "Carmel Christian pubblica un'unica tariffa forfettaria After School / After YCC — $245/month per cinque giorni alla settimana, dalle 3:00 alle 6:00 p.m. — uguale per ogni classe, diversamente dalle scuole a fasce per classe accanto ad essa. Il totale annuale la distribuisce sui nove mesi di fatturazione indicati dal regolamento; il servizio pre-scuola dalle 7:30 a.m. costa $110/month, ed è previsto un ingresso libero a $30/day.",
+      "of": "cf0e9d8e",
+      "at": [
+        "providence-day:[23].quals.carmel-christian.text"
+      ]
+    },
+    {
       "t": "Transitional Kindergarten alla fascia dalle 1 alle 6 p.m., cinque giorni a settimana, fatturato mensilmente a $750; il totale annuo ipotizza 10 mesi, e la scuola dichiara apertamente di non pubblicare il proprio numero di mesi di fatturazione. TK esce alle 1:00 p.m., quindi copre 5 ore al giorno; le classi 1–5 dalle 3 alle 6 p.m. costano $470/mese, e non esiste la formula a ingresso libero.",
       "of": "16104bd6",
       "at": [
@@ -2176,7 +2594,8 @@
       "t": "6",
       "of": "330ca589",
       "at": [
-        "providence-day:[24].values.charlotte-christian"
+        "providence-day:[24].values.charlotte-christian",
+        "providence-day:[24].values.carmel-christian"
       ]
     },
     {
@@ -2184,6 +2603,13 @@
       "of": "e9f9e019",
       "at": [
         "providence-day:[24].quals.charlotte-country-day.text"
+      ]
+    },
+    {
+      "t": "La pagina attuale del 2026 mostra otto finestre di turni (Jun–Jul), coerenti con i ~8 blocchi settimanali del catalogo Summer 2023 recuperato dall'Internet Archive; i nomi esatti dei campi del 2026 sono nascosti dietro la piattaforma di iscrizione della scuola.",
+      "of": "952a5232",
+      "at": [
+        "providence-day:[24].quals.hickory-grove-christian.text"
       ]
     },
     {
@@ -2250,6 +2676,21 @@
       ]
     },
     {
+      "t": "36",
+      "of": "89f0549c",
+      "at": [
+        "providence-day:[25].values.carmel-christian"
+      ]
+    },
+    {
+      "t": "17",
+      "of": "1aeb28b1",
+      "at": [
+        "providence-day:[25].values.hickory-grove-christian",
+        "providence-day:[28].values.providence-day"
+      ]
+    },
+    {
       "t": "170",
       "of": "e130c313",
       "at": [
@@ -2261,6 +2702,13 @@
       "of": "94ffcc7f",
       "at": [
         "providence-day:[25].quals.cannon.text"
+      ]
+    },
+    {
+      "t": "17 campi nominati nel catalogo Summer 2023 — 12 accademici/di arricchimento e 5 atletici — recuperati dall'Internet Archive perché il catalogo attuale del 2026 è nascosto dietro la piattaforma di iscrizione della scuola. Un'offerta rappresentativa, non l'elenco esatto del 2026.",
+      "of": "e5176267",
+      "at": [
+        "providence-day:[25].quals.hickory-grove-christian.text"
       ]
     },
     {
@@ -2343,6 +2791,20 @@
       ]
     },
     {
+      "t": "in ingresso K–8",
+      "of": "d534a63d",
+      "at": [
+        "providence-day:[26].values.carmel-christian"
+      ]
+    },
+    {
+      "t": "in ingresso 1–8",
+      "of": "cbc3c1d3",
+      "at": [
+        "providence-day:[26].values.hickory-grove-christian"
+      ]
+    },
+    {
       "t": "La scuola dichiara che i campi sono “aperti a tutti i partecipanti dai 3.5 - 18 anni”. L’età è calcolata al 1º agosto 2026 e tutti i partecipanti di Pre-K devono aver tolto il pannolino.",
       "of": "e3070636",
       "at": [
@@ -2385,6 +2847,20 @@
       ]
     },
     {
+      "t": "Summer Adventures si rivolge dagli studenti in ingresso alla kindergarten fino a quelli in ingresso all'8ª; i singoli campi hanno fasce più ristrette.",
+      "of": "a35bbc86",
+      "at": [
+        "providence-day:[26].quals.carmel-christian.text"
+      ]
+    },
+    {
+      "t": "La grande maggioranza dei campi si rivolge agli studenti in ingresso dalla 1ª all'8ª, più un campo per la scuola superiore (un College Admissions Boot Camp per gli studenti in ingresso al penultimo e all'ultimo anno). Dal catalogo Summer 2023, recuperato dall'Internet Archive.",
+      "of": "cdadf459",
+      "at": [
+        "providence-day:[26].quals.hickory-grove-christian.text"
+      ]
+    },
+    {
       "t": "Accoglienza estesa",
       "of": "2459c4c2",
       "at": [
@@ -2419,6 +2895,13 @@
       "of": "792cd57e",
       "at": [
         "providence-day:[27].values.charlotte-country-day"
+      ]
+    },
+    {
+      "t": "12–1 PM",
+      "of": "f9a26929",
+      "at": [
+        "providence-day:[27].values.carmel-christian"
       ]
     },
     {
@@ -2471,6 +2954,13 @@
       ]
     },
     {
+      "t": "La custodia a copertura estesa è limitata all'opzione aggiuntiva After Camp Lunch Hour dalle 12 all'1 PM; non è pubblicato alcun servizio pre-campo o a giornata intera.",
+      "of": "a8a24ad5",
+      "at": [
+        "providence-day:[27].quals.carmel-christian.text"
+      ]
+    },
+    {
       "t": "Impegni Power 4",
       "of": "1f2f8490",
       "at": [
@@ -2493,19 +2983,11 @@
       ]
     },
     {
-      "t": "3",
-      "of": "360caa42",
+      "t": "0",
+      "of": "350ca8af",
       "at": [
-        "providence-day:[28].values.charlotte-latin",
-        "providence-day:[28].values.davidson-day",
-        "providence-day:[29].values.cannon"
-      ]
-    },
-    {
-      "t": "17",
-      "of": "1aeb28b1",
-      "at": [
-        "providence-day:[28].values.providence-day"
+        "providence-day:[28].values.carmel-christian",
+        "providence-day:[28].values.hickory-grove-christian"
       ]
     },
     {
@@ -2576,6 +3058,13 @@
       ]
     },
     {
+      "t": "5",
+      "of": "300ca0d0",
+      "at": [
+        "providence-day:[29].values.carmel-christian"
+      ]
+    },
+    {
       "t": "39",
       "of": "90f05fa1",
       "at": [
@@ -2587,6 +3076,13 @@
       "of": "3a938b8a",
       "at": [
         "providence-day:[29].quals.covenant-day.text"
+      ]
+    },
+    {
+      "t": "Un minimo documentato — tutti e tre riguardano il baseball: Davis Cabbage (UNC Wilmington) e Ben Green (UNC Asheville) nella Class of 2025, più Brady Johnson (ETSU). Tutti sono D1 mid-major; non è emerso alcun impegno Power 4 né in altri sport, e la scuola non pubblica alcun elenco per tutti gli sport.",
+      "of": "fdfe26b8",
+      "at": [
+        "providence-day:[29].quals.hickory-grove-christian.text"
       ]
     }
   ]
