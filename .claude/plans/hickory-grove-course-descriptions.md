@@ -1,7 +1,7 @@
 ---
 name: hickory-grove-course-descriptions
 title: Replace Hickory Grove's AP-only course stub with the full 2026-2027 catalog (117 courses, 11 departments)
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-08-17
 branch: feat/hickory-grove-course-descriptions
@@ -390,3 +390,82 @@ trusting this list.
 - **Should the three certificate tracks be shown?** Needs UX approval for a new card.
   **Default:** do not build; the data is preserved in source-material and the plan raises
   it separately.
+
+## Implementation notes
+
+### Phase 1 (English) — shipped 2026-08-17
+
+Three deviations from the plan as written, all in the data rather than the approach.
+
+**1. 112 courses, not 117.** The plan counted 117 unique title *strings*. Five of those are
+spelling variants of a course already filed under its home department, listed a second time
+in the Comprehensive List of Electives with different punctuation:
+
+| Electives-index spelling | Department spelling |
+|---|---|
+| `Ceramics` | `Ceramics I` |
+| `Concert Band I-IV` | `Concert Band (I-IV)` |
+| `Health Science` | `Health Sciences` |
+| `Art IV - Honors` | `Art IV` |
+| `Musical Theatre III & IV` | `Musical Theater III & IV` |
+
+Each pair shares its grade level, prerequisite and description, so they are one course
+listed twice, not two courses. **112** is the count of real courses; the 177-records /
+117-strings / 112-courses distinction is written into both the code comment and the
+`us-courses` qual note so the figure is auditable.
+
+**2. 12 departments, not 11 — an Electives tab was added.** The plan decided the
+Comprehensive List of Electives "becomes no tab" because it duplicates courses filed
+elsewhere. That is true of 46 of its 60 entries, but **14 courses appear ONLY there**
+(Biblical Manhood, Biblical Womanhood, Creative Writing, Critical Thinking and Reasoning
+through Current Affairs, Personal Finance and Accounting, Psychology, SOAR, Student Intern,
+Work Release, plus the five spelling variants above). Dropping the index entirely would
+have silently lost nine real courses.
+
+Separately, **AP Seminar, AP Research and AP Psychology appear only in the catalog's
+Advanced Placement section** and have no home department at all. The plan's own open
+question anticipated this and set the default: *"put both in an `Electives` department if
+one emerges naturally from the catalog's elective list."* It does. The Electives tab holds
+those nine elective-only courses plus those three AP courses — 11 entries, nothing
+double-listed. `us-departments` is therefore **12**, not the 11 the plan projected.
+
+**3. The older Curriculum Guide's superseded prose was still rendering.** The plan scoped
+the "delete the stale SPA claims" decision to the code comment and the metric quals. But
+that file's ingested prose renders as a Course Offerings card, so the page was showing
+`NOT EXTRACTABLE (SPA-blocked)`, `Total US course count: NOT EXACTLY ENUMERABLE` and the
+"defensible floor of ~30+" derivation **directly beside** the new 112-course catalog card.
+Caught in the browser check, not by any automated check.
+
+Fixed by retracting those specific claims in the source file — a superseded banner at the
+top, corrected Metrics rows, and a retraction box over the "how the figure was derived"
+section — then re-ingesting. Everything the plan says stays valid (CEEB code, GPA scale,
+class rank, dual enrollment, graduation requirements, AP-exam results) is untouched; the
+file remains committed as the source for all of it.
+
+### Verification results
+
+- `npx tsc --noEmit` — clean
+- `npm run check:schema` — up to date (after `npm run schema`)
+- `npm run check:metrics` — every subtopic matched a rule; 30 value metrics cover every
+  school. Required one `RULES` addition: `course selection` folded onto the existing
+  `curriculum` key so the new subtopic could not slugify into an unapproved card.
+- `npm run check:quals` — every coded Compare cell carries a provenance tooltip
+- `npm run build` — succeeds (chains `check:seo`, `check:schema`, `check:ranks`)
+- **Browser check (Playwright, real Chromium)** — all 12 department tabs render and switch
+  correctly; AP renders `tag-accent`, CP/Honors `tag-outline`; stat tiles read 112 / 17 AP
+  / 12; teaser reads "112 courses — scroll for full list"; no not-published note remains
+  anywhere in the Course Offerings section.
+- **Browser check, Compare page** — Hickory Grove shows 112 (leader-tinted), 17 AP and 12
+  departments against Covenant Day's 90 / 17 AP / 9, with provenance tooltips attached.
+- **Spot-check against the source PDF** — Aquaponics Internship, Fiber Crafts II, Work
+  Release, Advanced Functions & Trigonometry and Yearbook III - Honors all verify: title
+  verbatim, grade tag correct, description faithful and not invented.
+
+### Raised for the user, not built
+
+- `the-arts :: advanced-arts-coursework` still reads `'AP Studio Art 2D'` while the catalog
+  titles it **"Advanced Placement 2D Studio Art"**. Different topic; left as-is per the
+  plan's *Out of scope*.
+- The three certificate tracks (AP Capstone Diploma™, Global Missions & Language, Medical
+  Sciences) and the AP eligibility policy remain transcribed in source-material but unshown
+  — both need a new card, and therefore UX approval.
