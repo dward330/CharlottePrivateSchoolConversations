@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**9 schools × 8 research areas**, 367 ingested research documents.
+**9 schools × 8 research areas**, 368 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -52,7 +52,7 @@ exists yet and **the section does not render at all** for that school.
 
 | Research area | Slug | Cannon | Carmel Christian | Charlotte Christian | Charlotte Country Day | Charlotte Latin | Covenant Day | Davidson Day | Hickory Grove Christian | Providence Day |
 |---|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
-| Course Offerings | `course-offerings` | 1 | 2 | 1 | 1 | 1 | 4 | 1 | 1 | 1 |
+| Course Offerings | `course-offerings` | 1 | 2 | 1 | 1 | 1 | 4 | 1 | 2 | 1 |
 | Student Clubs | `student-clubs` | 10 | 1 | 10 | 10 | 8 | 6 | 9 | 1 | 8 |
 | The Arts | `the-arts` | 8 | 1 | 8 | 8 | 7 | 7 | 5 | 1 | 7 |
 | Sports | `sports` | 15 | 1 | 15 | 15 | 15 | 15 | 15 | 1 | 15 |
@@ -76,7 +76,7 @@ research dossier folds in behind a structured card.
 
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
-| `curriculum` | Course Offerings | 9/9 | 5 |
+| `curriculum` | Course Offerings | 9/9 | 6 |
 
 ### Student Clubs `student-clubs`
 
@@ -525,7 +525,7 @@ highest number is not the best) · **Q** carries per-cell provenance tooltips.
 
 | Row key | Label | Coverage | Flags |
 |---|---|--:|---|
-| `us-courses` | Upper School courses catalogued | 8/9 | Q |
+| `us-courses` | Upper School courses catalogued | 9/9 | Q |
 | `advanced-courses` | AP / advanced courses | 9/9 | Q |
 | `us-departments` | Upper School departments | 9/9 |  |
 

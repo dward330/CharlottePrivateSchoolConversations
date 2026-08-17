@@ -6781,89 +6781,218 @@ const CARMEL_CHRISTIAN: CourseOfferings = {
 }
 
 /* ── Hickory Grove Christian School ──────────────────────────────────────────
-   2025-2026 guide year. HGCS does NOT publish a machine-readable course
-   catalog: the "2025-2026 Course Selection Guide" page is a Finalsite JavaScript
-   SPA whose body renders client-side, and no downloadable curriculum PDF exists
-   anywhere on the domain (verified via a Wayback CDX sweep). So the individual
-   regular/honors course TITLES (Algebra II, Biology, …) are not publicly
-   extractable. What the school's HS Profile PDFs DO name — the AP catalog, the
-   honors-bearing departments, dual enrollment, and the 27-unit graduation
-   requirements — is transcribed below, grouped by the eight required subject
-   departments. The `notPublished` note states the SPA limitation honestly above a
-   REAL list of named AP courses, the way Providence Day's Lower School card
-   states its subject-areas grain. There is only one division (Upper School): the
-   Lower/Middle course titles are equally SPA-blocked, so no empty division card
-   is shipped for them. */
+   2026-2027 guide year, from the school's own 92-page Course Selection Catalog.
+   THIS SUPERSEDES the earlier conclusion that HGCS's course list was
+   SPA-blocked and unextractable — that pass looked at /academics/guidance/courses
+   (a Finalsite SPA that genuinely returns an empty body). The real page is
+   /academics/high-school/college-and-career-planning/courses, which embeds a
+   Heyzine page-flip viewer backed by a plain PDF whose text layer extracts
+   cleanly. Do not re-derive the old gap. (Reusable channel: when a catalog sits
+   behind a flipbook viewer — Heyzine, Calaméo, Issuu — look for the backing PDF
+   before recording a not-published gap.)
+
+   112 courses across 12 departments. The catalog's own "Advanced Placement"
+   section is NOT a tab: its 17 AP courses are filed into their home departments
+   the way Covenant Day and Providence Day file theirs, so AP Biology appears
+   under Science rather than twice. The catalog's "Comprehensive List of
+   Electives" is likewise not a tab — it is a cross-cutting index that re-lists
+   courses already filed under their departments. Its 9 elective-ONLY courses,
+   plus AP Seminar, AP Research and AP Psychology (which the catalog files under
+   Advanced Placement alone), make up the Electives department here.
+
+   Count note: the catalog yields 177 course records and 117 distinct title
+   STRINGS, but five of those are spelling variants of a course already listed
+   under its department (`Ceramics` / `Ceramics I`, `Concert Band I-IV` /
+   `Concert Band (I-IV)`, `Health Science` / `Health Sciences`, `Art IV - Honors`
+   / `Art IV`, `Musical Theatre III & IV` / `Musical Theater III & IV`). 112 is
+   the count of real courses. Titles are verbatim from the catalog, including its
+   own inconsistent Theatre/Theater spellings; descriptions condense the
+   catalog's own prose and invent nothing.
+
+   Still one division: HGCS publishes no named Lower or Middle School course
+   lists, and a division with zero items ships no card at all. */
 const HICKORY_GROVE_CHRISTIAN: CourseOfferings = {
-  guideYear: '2025-2026',
+  guideYear: '2026-2027',
   divisions: [
     {
       title: 'Upper School Courses',
       grades: 'Grades 9 – 12',
       teaser:
-        '17 AP courses plus AP Capstone across 8 departments, with a full honors track in 6 of them — the named AP catalog; regular course titles render only in the school\'s JavaScript course guide.',
-      source: 'HGCS High School Profile (Fall 2025 & Fall 2023) — CEEB 340661',
+        '112 courses across 12 departments — 17 Advanced Placement including the full AP Capstone track, a four-year Bible sequence taught at CP and Honors levels, and an aquaponics internship run on the school’s own working system.',
+      source: 'HGCS 2026-2027 Course Selection Catalog (92 pp.)',
       sourceUrl:
-        'https://resources.finalsite.net/images/v1759254561/hgchristianorg/zymp8lu0k9m6ndgumpgi/HGCSHSProfileFall25.pdf',
-      notPublished:
-        'Hickory Grove Christian publishes its full course list only through a JavaScript "Course Selection Guide" that renders no static HTML, and no downloadable curriculum PDF exists — so the individual regular and honors course titles are not publicly available. What the school\'s HS Profile PDFs name — the AP catalog, the honors-bearing departments, and dual enrollment — is listed below by department; a leveled regular sequence (e.g. Algebra I–II, Spanish I–IV) exists but its exact titles are not published.',
+        'https://www.hgchristian.org/academics/high-school/college-and-career-planning/courses',
       departments: [
         {
-          name: 'English',
+          name: 'Bible',
           courses: [
-            { title: 'AP English Language and Composition', tag: 'AP', description: 'One of the two AP English offerings named on the school profile; the department also runs an honors track.' },
-            { title: 'AP English Literature and Composition', tag: 'AP', description: 'The second AP English offering; regular and honors English titles are not individually published.' },
+            { title: 'Old Testament Survey - College Preparatory', tag: 'CP', description: 'The ninth-grade entry course, surveying the whole Bible as one story through the themes that trace God’s redemptive plan.' },
+            { title: 'Old Testament Survey - Honors', tag: 'Honors', description: 'The same survey with an in-depth look at the covenants of Scripture; offered for dual enrollment through Judson College.' },
+            { title: 'New Testament Survey - College Preparatory', tag: 'CP', description: 'An introduction to the New Testament books, world and life of Christ, taught alongside the hermeneutical skills to interpret and apply them.' },
+            { title: 'New Testament Survey - Honors', tag: 'Honors', description: 'The honors New Testament year, also offered for dual enrollment through Judson College.' },
+            { title: 'Christian Apologetics - College Preparatory', tag: 'CP', description: 'The logical, philosophical, historical and scientific evidences for the Christian faith, and how to respond to contemporary ethical questions from a biblical perspective.' },
+            { title: 'Apologetics - Honors', tag: 'Honors', description: 'The honors track, adding three projects — service with a Christian organization, apologetics practice with a non-Christian, and independent research.' },
+            { title: 'Introduction to Philosophy - Honors', tag: 'Honors', description: 'Metaphysics, epistemology and axiology through the major philosophers, building toward worldview discernment.' },
+            { title: 'Introduction to Ethics - Honors', tag: 'Honors', description: 'Classical ethical thought from Plato to Aquinas, developed into a biblically grounded framework for contemporary questions.' },
+            { title: 'Systematic Theology', tag: 'Gr 12', description: 'The doctrines essential to orthodox Christian faith, and how worldviews shape belief.' },
+            { title: 'Systematic Theology - Honors', tag: 'Honors', description: 'The honors senior theology course, adding analysis of theologians through history; offered for dual enrollment through Judson College.' },
+            { title: 'Introduction to Bible', tag: 'Gr 9–12', description: 'A general introduction to the Bible’s authorship, structure and storyline, recommended for students new to Christian schooling.' },
           ],
         },
         {
-          name: 'Mathematics',
+          name: 'English',
           courses: [
-            { title: 'AP Calculus AB', tag: 'AP', description: 'Named on the school profile; the math department runs an honors track beneath the AP level.' },
-            { title: 'AP Calculus BC', tag: 'AP', description: 'The higher AP calculus course.' },
-            { title: 'AP Statistics', tag: 'AP', description: 'The third named AP math course; regular titles (Algebra, Geometry, Precalculus) are not published.' },
+            { title: 'English I - College Preparatory', tag: 'CP', description: 'The ninth-grade course in reading comprehension, literary analysis and expository writing, with MLA instruction and a PSAT/SAT vocabulary program.' },
+            { title: 'English I - Honors', tag: 'Honors', description: 'The honors ninth-grade course, adding quarterly independent reading assignments and projects.' },
+            { title: 'English II - College Preparatory', tag: 'CP', description: 'World literature focused on one geographic region, with literary archetypes and continued vocabulary and grammar work.' },
+            { title: 'English II - Honors', tag: 'Honors', description: 'The honors sophomore year, expecting quarterly independent reading and writing projects.' },
+            { title: 'English III - College Preparatory', tag: 'CP', description: 'A survey of American texts and ideas, with analytical, argumentative, informative and narrative writing plus MLA research.' },
+            { title: 'English III - Honors', tag: 'Honors', description: 'The honors American-literature year, requiring more independent analysis than the standard course.' },
+            { title: 'English IV - College Preparatory', tag: 'CP', description: 'College-level freshman writing alongside novels, plays and poems, introducing the literary theories students meet in college.' },
+            { title: 'English IV - Honors', tag: 'Honors', description: 'The honors senior year, focused on personal narrative and argumentation to prepare for college writing.' },
+            { title: 'Advanced Placement English Language and Composition', tag: 'AP', description: 'Rhetorical analysis across mostly nonfiction genres, at the pace of a semester of college English.' },
+            { title: 'Advanced Placement English Literature and Composition', tag: 'AP', description: 'In-depth literary analysis of fiction, poetry, drama and full-length novels, with an extensive summer reading assignment.' },
+          ],
+        },
+        {
+          name: 'Math',
+          courses: [
+            { title: 'Algebra I', tag: 'Gr 9', description: 'The in-depth study of variables, expressions and equations that prepares students for upper-level high school mathematics.' },
+            { title: 'Geometry - College Preparatory', tag: 'CP', description: 'Plane and solid Euclidean geometry with inductive and deductive reasoning, including an Algebra I review.' },
+            { title: 'Geometry - Honors', tag: 'Honors', description: 'The honors geometry course; eighth-graders must pass a proficiency exam and score at grade level on the Terra Nova to enter.' },
+            { title: 'Algebra II - College Preparatory', tag: 'CP', description: 'Problem-solving methods across applications — systems, polynomials, radicals, quadratics, sequences and probability.' },
+            { title: 'Algebra II - Honors', tag: 'Honors', description: 'The honors track, introducing functions as preparation for Precalculus and Calculus at a rigorous pace.' },
+            { title: 'Advanced Functions & Trigonometry', tag: 'Gr 11–12', description: 'Further skill development for Precalculus or college mathematics; deliberately not a path directly into Calculus.' },
+            { title: 'Precalculus - Honors', tag: 'Honors', description: 'Detailed analysis of functions and a unit-circle approach to trigonometry, with a heavy and essential homework load.' },
+            { title: 'Calculus  - Honors', tag: 'Honors', description: 'Differential and integral calculus building the foundation for AP Calculus, and a prerequisite for it.' },
+            { title: 'Advanced Placement Calculus AB', tag: 'AP', description: 'College-level limits, differentiation and integration; double-blocked with Honors Calculus, with the AP exam required.' },
+            { title: 'Advanced Placement Calculus BC', tag: 'AP', description: 'The faster track through series, power series, Taylor polynomials and parametric, vector and polar calculus; offered second semester only.' },
+            { title: 'Advanced Placement Statistics', tag: 'AP', description: 'Collecting, analyzing and drawing conclusions from data — exploration, probability, inference and regression.' },
           ],
         },
         {
           name: 'Science',
           courses: [
-            { title: 'AP Biology', tag: 'AP', description: 'Named AP science course; the department runs an honors track.' },
-            { title: 'AP Chemistry', tag: 'AP', description: 'Named AP science course.' },
-            { title: 'AP Environmental Science', tag: 'AP', description: 'The third named AP science course; regular titles are not published.' },
+            { title: 'Biology - College Preparatory', tag: 'CP', description: 'The introductory life-science course, from biochemistry and cellular physiology through genetics, Creation, evolution and ecology.' },
+            { title: 'Biology - Honors', tag: 'Honors', description: 'The honors ninth-grade biology course, moving faster and adding research writing and analysis.' },
+            { title: 'Biology II - Honors', tag: 'Honors', description: 'Organic chemistry, cellular energetics, photosynthesis and DNA — the prerequisite that makes a student eligible for AP Biology.' },
+            { title: 'Principles of Chemistry and Physics - College Preparatory', tag: 'CP', description: 'The introductory core science split between physics and chemistry; replaces College Preparatory Chemistry.' },
+            { title: 'Chemistry - Honors', tag: 'Honors', description: 'Applications rather than memorization — atomic structure, the periodic table, reactions, gas laws and solutions, with extensive lab work.' },
+            { title: 'Chemistry II - Honors', tag: 'Honors', description: 'Covers the first half of the AP Chemistry curriculum; students who do well may enroll in AP Chemistry the same spring.' },
+            { title: 'Anatomy and Physiology I - Honors', tag: 'Honors', description: 'An in-depth study of the body’s major systems and their disorders, with labs and dissections.' },
+            { title: 'Anatomy & Physiology II - Honors', tag: 'Honors', description: 'The remaining body systems — digestive, excretory, special senses, endocrine, lymphatic and reproductive — concluding with a fetal pig dissection.' },
+            { title: 'Human Anatomy & Wellness', tag: 'Gr 10–12', description: 'Body systems paired with the principles of wellness — nutrition, physical activity, sleep and stress management.' },
+            { title: 'Health Sciences', tag: 'Gr 10–12', description: 'For students interested in the medical field: healthcare careers, medical terminology, CPR certification, first aid and hands-on labs.' },
+            { title: 'Earth Science', tag: 'Gr 11–12', description: 'A lab-based course centered on weather and climate — the atmosphere, severe storms, plate tectonics and space exploration.' },
+            { title: 'Horticulture', tag: 'Gr 10–12', description: 'Renewable and nonrenewable energy, food sustainability and water distribution, with hands-on work in the campus aquaponics facility.' },
+            { title: 'Aquaponics Internship', tag: 'Gr 11–12', description: 'Hands-on work in a functioning aquaponics system — water quality, fish care and crop production — integrating biology, chemistry and engineering.' },
+            { title: 'Advanced Placement Biology', tag: 'AP', description: 'College-level biology, double-blocked with Honors Biology II to accommodate the mandated College Board labs.' },
+            { title: 'Advanced Placement Chemistry', tag: 'AP', description: 'College-level chemistry with required summer review exercises; double-blocked with Honors Chemistry II.' },
+            { title: 'Advanced Placement Environmental Science', tag: 'AP', description: 'The scientific principles behind environmental problems and the alternatives for resolving them, across multiple labs.' },
           ],
         },
         {
           name: 'Social Studies',
           courses: [
-            { title: 'AP US History', tag: 'AP', description: 'Named on the school profile; the department runs an honors track.' },
-            { title: 'AP US Government and Politics', tag: 'AP', description: 'Named AP social-studies course.' },
-            { title: 'AP Psychology', tag: 'AP', description: 'Named AP social-studies course.' },
-            { title: 'AP Human Geography', tag: 'AP', description: 'Named on the 2023-24 profile; whether it runs in a given year varies (the 2025-26 profile omits it).' },
+            { title: 'World History - College Preparatory', tag: 'CP', description: 'The required ninth-grade survey from the Neolithic Revolution through the twentieth century, read through biblical principles.' },
+            { title: 'World History - Honors', tag: 'Honors', description: 'The honors world-history year, at a higher academic level with more independent work.' },
+            { title: 'U.S. History I - College Preparatory', tag: 'CP', description: 'Required American history from exploration through Reconstruction, examining political, social, economic and cultural issues.' },
+            { title: 'U.S. History I - Honors', tag: 'Honors', description: 'The honors course, running from exploration through the Progressive Era with an emphasis on critical and analytical thinking.' },
+            { title: 'U.S. History II - College Preparatory', tag: 'CP', description: 'Required American history from World War I to the present.' },
+            { title: 'U.S. History II - Honors', tag: 'Honors', description: 'The honors second American-history year, going deeper on the same period.' },
+            { title: 'Government/Economics - College Preparatory', tag: 'CP', description: 'The required senior civics course — the Constitution and three branches — paired with microeconomics from biblical principles.' },
+            { title: 'Government/Economics - Honors', tag: 'Honors', description: 'The honors senior civics-and-economics course, with more depth and analytical work.' },
+            { title: 'Advanced Placement United States History', tag: 'AP', description: 'A college-level survey from the colonial period to the present, built on document-based and free-response essay writing.' },
+            { title: 'Advanced Placement Government and Politics', tag: 'AP', description: 'College-level American national government — institutions, political behavior, public policy, civil liberties and civil rights. Recommended for seniors.' },
+            { title: 'Advanced Placement Human Geography and Environment', tag: 'AP', description: 'Population, cultural patterns, political organization of space, land use and economic development, themed on globalization versus cultural diversity.' },
           ],
         },
         {
           name: 'Foreign Language',
           courses: [
-            { title: 'AP Spanish Language and Culture', tag: 'AP', description: 'Named on the 2023-24 profile; the department runs an honors track. Regular Spanish levels are not individually published.' },
+            { title: 'Spanish I', tag: 'Gr 9–11', description: 'A comprehension-first entry course: most class time is spent listening to and reading Spanish, with minimal explicit grammar.' },
+            { title: 'Spanish II', tag: 'Gr 10–12', description: 'More grammar than level I, but still built on maximum exposure to the language through authentic texts.' },
+            { title: 'Spanish III - Honors', tag: 'Honors', description: 'An accelerated year of new tenses and vocabulary across all three modes of communication, themed toward the AP exam.' },
+            { title: 'Spanish IV - Honors', tag: 'Honors', description: 'Continued study through novels and authentic cultural resources, expressing feelings, emotions and personal opinions.' },
+            { title: 'Advanced Placement Spanish Language and Culture', tag: 'AP', description: 'Taught almost exclusively in Spanish, exploring cultural products, practices and perspectives; the AP exam is required.' },
+            { title: 'American Sign Language I', tag: 'Gr 9–12', description: 'Basic conversational ASL through finger-spelling, vocabulary and grammatical structure, with cultural awareness of the D/deaf community.' },
+            { title: 'American Sign Language II', tag: 'Gr 9–12', description: 'Intermediate conversational ASL, developing expressive and receptive language skills.' },
           ],
         },
         {
-          name: 'Fine Arts',
+          name: 'Visual Arts',
           courses: [
-            { title: 'AP Studio Art 2D (AP 2-D Art & Design)', tag: 'AP', description: 'The AP visual-arts course, atop the Art I–IV studio sequence; students "consistently score 3 or 4."' },
+            { title: 'Art I', tag: 'Gr 9–12', description: 'The fundamentals of art and essential skills in drawing, painting and image-making, plus how to discuss and evaluate artwork.' },
+            { title: 'Art II', tag: 'Gr 10–12', description: 'Applying Art I skills to complete compositions using the principles of design, and introducing new media.' },
+            { title: 'Art III', tag: 'Gr 11–12', description: 'Preparation for the AP portfolio, culminating in a sustained investigation series on the student’s own artistic interests.' },
+            { title: 'Art IV', tag: 'Gr 12', description: 'Built around a personal portfolio; the school prefers it be completed in the fall with AP 2D in the spring.' },
+            { title: 'Art Appreciation', tag: 'Gr 9–12', description: 'Awareness and appreciation of art through study, discussion, written critique and creation — no prior art background assumed.' },
+            { title: 'Ceramics I', tag: 'Gr 10–12', description: 'The fundamentals of 3D art and handbuilding with clay — pinch, slab and coil construction, plus decorative techniques and glazing.' },
+            { title: 'Ceramics II', tag: 'Gr 11–12', description: 'Project-based work building on handbuilding technique, and may include an introduction to wheel throwing.' },
+            { title: 'Fiber Crafts I', tag: 'Gr 9–12', description: 'Needle crafts — crochet and cross stitch — alongside hand sewing, machine sewing and quilting, taught project by project.' },
+            { title: 'Fiber Crafts II', tag: 'Gr 10–12', description: 'More advanced crocheting and quilting, including a small quilt inspired by a study of the women of the Bible.' },
+            { title: 'Advanced Placement 2D Studio Art', tag: 'AP', description: 'A 15-piece sustained investigation driven by an essential question, plus five selected works and a written artist’s statement.' },
           ],
         },
         {
-          name: 'Electives & AP Capstone',
+          name: 'Performing Arts',
           courses: [
-            { title: 'AP Seminar', tag: 'AP', description: 'The first course of the AP Capstone track — research, argument and collaboration.' },
-            { title: 'AP Research', tag: 'AP', description: 'The second AP Capstone course; four AP Capstone Diplomas were awarded in 2024-25.' },
-            { title: 'AP Computer Science A', tag: 'AP', description: 'Named on the 2023-24 profile; whether it runs in a given year varies.' },
+            { title: 'Choir/Ensemble I & II', tag: 'Gr 9–12', description: 'An introduction to choral singing in two to four parts, with two to three performances a semester counting toward the grade.' },
+            { title: 'Choir/Ensemble III & IV', tag: 'Gr 10–12', description: 'Advanced choral technique and leadership, with duet and solo performance and participation in every choral performance.' },
+            { title: 'Concert Band (I-IV)', tag: 'Gr 9–12', description: 'Concert band repertoire with formal music theory and history, and auditions for NCBA All-District, All-State and the Solo & Ensemble Festival.' },
+            { title: 'Theatre I & II', tag: 'Gr 9–12', description: 'Theatre history and acting technique, with audition skills, confidence and stage presence, and critical response to performance.' },
+            { title: 'Theatre III & IV', tag: 'Gr 10–12', description: 'Deeper theatre history, Shakespearean and advanced acting, playwriting and student directing; Theatre IV may include a theatre-for-missions project.' },
+            { title: 'Musical Theatre I & II', tag: 'Gr 9–12', description: 'An introduction rotating through jazz, tap, singing and acting, with end-of-semester performance opportunities by audition.' },
+            { title: 'Musical Theater III & IV', tag: 'Gr 11–12', description: 'Intermediate and advanced tap alongside advancing acting and singing, with solo work and individual advanced projects.' },
+            { title: 'Introduction to Public Speaking', tag: 'Gr 9–12', description: 'Individual, duo and small-group speech preparation plus formal debate, building research, logic and communication skills.' },
           ],
         },
         {
-          name: 'Bible',
+          name: 'Student Media',
           courses: [
-            { title: 'Bible', tag: 'Gr 9–12', description: 'A daily Bible credit is required all four years (4 units); an honors track is available. Individual course titles are not published.' },
+            { title: 'Introduction to Photography and Design', tag: 'Gr 9–12', description: 'Camera functions, composition and lighting alongside graphic-design fundamentals — layout, color theory and typography.' },
+            { title: 'Yearbook I', tag: 'Gr 9–12', description: 'Staff of the student-produced TK–12 yearbook, Exodus — photography, journalism, spread design and deadline production.' },
+            { title: 'Yearbook II', tag: 'Gr 9–12', description: 'Advanced design, feature writing and photography, with students beginning to specialize in one of those areas.' },
+            { title: 'Yearbook III - Honors', tag: 'Honors', description: 'An editor-and-leader role over the yearbook staff — content development, design consistency, mentoring and project management.' },
+            { title: 'Digital Media', tag: 'Gr 10–12', description: 'Video production and broadcast journalism anchored by the weekly school broadcast, rotating through filming, editing, on-camera and segment writing.' },
+            { title: 'Digital Media II', tag: 'Gr 11–12', description: 'Lead editor or producer of the weekly broadcast, plus podcast production, documentary features and promotional campaigns.' },
+            { title: 'Communications Internship', tag: 'Gr 11–12', description: 'An application-based capstone working alongside the Director of Media & Communications on real school-wide content and live events.' },
+          ],
+        },
+        {
+          name: 'Technology',
+          courses: [
+            { title: 'Coding', tag: 'Gr 9–12', description: 'Building interactive web pages from scratch in HTML5, CSS3 and JavaScript, including accessibility, performance and debugging.' },
+            { title: 'Tech Production and Photoshop', tag: 'Gr 9–12', description: 'Project-based Photoshop alongside chapel production — camera operation, lighting, imaging controls and video editing.' },
+            { title: 'Advanced Placement Computer Science A', tag: 'AP', description: 'Object-oriented programming, algorithm development and data structures, equivalent to a first-semester college course.' },
+          ],
+        },
+        {
+          name: 'Physical Education',
+          courses: [
+            { title: 'Lifetime Fitness/Health', tag: 'Gr 9–10', description: 'The graduation-requirement course — health topics from nutrition to mental health, paired with daily aerobic, flexibility and strength work.' },
+            { title: 'Team Sports', tag: 'Gr 9–12', description: 'Intermediate skill in selected team sports, with leadership development and athletics as a platform to share the Gospel.' },
+            { title: 'Strength Training/Conditioning', tag: 'Gr 10–12', description: 'Weight training for major muscle groups plus conditioning routines; varsity athletes get priority for class spots.' },
+            { title: 'In-Season Weight Training', tag: 'Gr 9–12', description: 'Lifting during a student’s designated sport season to gain strength, size and speed.' },
+            { title: 'Speed and Agility Training, Beginning/Intermediate', tag: 'Gr 9–12', description: 'Targeted work on foot speed, leg turnover, sprint endurance and competitive balance for athletes.' },
+            { title: 'Flexibility Training', tag: 'Gr 9–12', description: 'Students design their own flexibility program across static, isometric and dynamic stretching, with yoga and Pilates elements.' },
+          ],
+        },
+        {
+          name: 'Electives',
+          courses: [
+            { title: 'Advanced Placement Seminar', tag: 'AP', description: 'The first AP Capstone course — cross-curricular inquiry, synthesis from multiple sources, and written and oral argument.' },
+            { title: 'Advanced Placement Research', tag: 'AP', description: 'The second AP Capstone course — a year-long investigation culminating in a 4,000–5,000-word paper and oral defense.' },
+            { title: 'Advanced Placement Psychology', tag: 'AP', description: 'The systematic, scientific study of behavior and mental processes across the major subfields of psychology.' },
+            { title: 'Psychology', tag: 'Gr 9–12', description: 'A survey of the major principles — human development, learning and memory, personality, stress, and abnormal behavior and treatment.' },
+            { title: 'Personal Finance and Accounting', tag: 'Gr 10–12', description: 'A graduation requirement covering income, budgeting, credit, saving and investing, insurance and taxes.' },
+            { title: 'Creative Writing', tag: 'Gr 9–12', description: 'Expressive writing across poetry, short stories, plays and comic strips, with strategies for getting past writer’s block.' },
+            { title: 'Critical Thinking and Reasoning through Current Affairs', tag: 'Gr 9–12', description: 'Analysis of the political, economic, social and cultural issues shaping the United States and the world, through a biblical perspective.' },
+            { title: 'Biblical Manhood', tag: 'Gr 10–12', description: 'The biblical understanding of masculinity and the role of men in family, church and society, open to young men.' },
+            { title: 'Biblical Womanhood', tag: 'Gr 10–12', description: 'The biblical understanding of femininity and the role of women in family, church and society, open to young women.' },
+            { title: 'SOAR', tag: 'Gr 9–12', description: 'Critical thinking, organization, time management and career exploration — aimed at students transitioning into high school.' },
+            { title: 'Student Intern', tag: 'Gr 9–12', description: 'A graded, application-based internship serving others through direct observation, hands-on work and reflection.' },
+            { title: 'Work Release', tag: 'Gr 12', description: 'For seniors with a 3.0 GPA and an employer letter who leave school early for work; not available in a sport’s season.' },
           ],
         },
       ],

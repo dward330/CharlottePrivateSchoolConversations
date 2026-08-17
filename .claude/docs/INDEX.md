@@ -38,7 +38,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Charlotte Latin School](course-offerings/charlotte-latin.md) — 1 docs
 - [Covenant Day School](course-offerings/covenant-day.md) — 4 docs
 - [Davidson Day School](course-offerings/davidson-day.md) — 1 docs
-- [Hickory Grove Christian School](course-offerings/hickory-grove-christian.md) — 1 docs
+- [Hickory Grove Christian School](course-offerings/hickory-grove-christian.md) — 2 docs
 - [Providence Day School](course-offerings/providence-day.md) — 1 docs
 
 ### Financial Aid & Tuition (`financial-aid-tuition/`)
@@ -102,4 +102,4 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 
 ## Data layer
-- `src/data/schools.json` — 367 documents across 8 topics and 9 schools.
+- `src/data/schools.json` — 368 documents across 8 topics and 9 schools.

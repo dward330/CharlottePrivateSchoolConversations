@@ -121,7 +121,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '90', // level-qualified entries across the 9 /academics/high-school department tiles
       'carmel-christian': '~78', // HS catalog across 9 depts (S2/S3/S4); levels counted separately
       'davidson-day': '~75', // 74 described + AP Spanish Literature listed without a description; 66 on the 2026-27 offerings grid
-      'hickory-grove-christian': null, // full course list is SPA-blocked (JS course guide, no PDF); only the AP catalog is publicly enumerable
+      'hickory-grove-christian': '112', // real courses in the 2026-2027 Course Selection Catalog; 117 distinct title strings, 5 of them spelling variants
       'providence-day': '149', // distinct entries; multi-year language sequences counted once per track
     },
     quals: {
@@ -147,7 +147,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'hickory-grove-christian': {
         kind: 'scope',
-        text: 'Not published: Hickory Grove Christian’s full course list renders only through a JavaScript course-selection guide with no static HTML or PDF, so a total course count is not publicly available. Its 17-course AP catalog (the next row) is the enumerable figure.',
+        text: 'Counted from the school’s own 92-page 2026-2027 Course Selection Catalog. A subject taught at College Preparatory, Honors and AP counts once per level, matching how the catalog lists them and how the other schools here are counted. The catalog holds 177 course records and 117 distinct title strings, but its Comprehensive List of Electives re-lists courses already filed under their home departments, and five of those re-listings differ only in spelling — so 112 is the count of real courses.',
       },
     },
   },
@@ -169,7 +169,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '17 AP', // AP-tagged courses on the /academics/high-school department tiles; the 2026-27 Profile matrix listed 15
       'carmel-christian': '16', // 16 AP courses (landing page; profile says 15, +AP World History → 16)
       'davidson-day': '26 AP', // the catalog's explicit AP list (p.11)
-      'hickory-grove-christian': '17 AP', // school advertises 17 AP + AP Capstone; 2025-26 profile names 14, 2023-24 named 17
+      'hickory-grove-christian': '17 AP', // the 2026-2027 catalog's Advanced Placement section, counted title by title
       'providence-day': '28 AP', // 28 AP courses described; catalog prose names 27 subject areas
     },
     quals: {
@@ -195,7 +195,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'hickory-grove-christian': {
         kind: 'scope',
-        text: 'The school advertises 17 AP courses plus the AP Capstone (AP Seminar + AP Research). Its 2025–26 profile names 14 by title and its 2023–24 profile named 17, so which run in a given year varies; the 18-title union spans all named courses across profiles.',
+        text: 'The 17 courses named in the Advanced Placement section of the school’s 2026-2027 Course Selection Catalog, which includes the full AP Capstone track (AP Seminar and AP Research). All AP students are required to sit the exam, and AP Biology, Calculus and Chemistry additionally require an 80 or higher in the first-semester prerequisite.',
       },
     },
   },
@@ -212,7 +212,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '9', // the 9 department tiles on /academics/high-school, incl. Restoration & Sustainability and Other
       'carmel-christian': '9', // Bible, English, Math, Science, Social Studies, World Lang, Health & Fitness, Arts, Electives
       'davidson-day': '9', // per the catalog contents (pp. 4-6)
-      'hickory-grove-christian': '8', // Bible, English, Math, Social Studies, Science, Foreign Language, Health/PE, Fine Arts
+      'hickory-grove-christian': '12', // 2026-2027 catalog: Bible, English, Math, Science, Social Studies, Foreign Language, Visual Arts, Performing Arts, Student Media, Technology, PE, Electives. Was 8, derived from graduation-requirement subject areas before the catalog was located.
       'providence-day': '11', // catalog sections, incl. both IDEAS@PDS strands
     },
   },

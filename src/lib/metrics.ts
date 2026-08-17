@@ -41,7 +41,10 @@ const RULES: Record<string, Rule[]> = {
   // so the pattern matches a bare "curriculum" / "course…offerings" too.
   'course-offerings': [
     {
-      match: /curriculum|course.*offerings|course offerings|program of stud/i,
+      // "Course Selection Catalog" / "Course Selection Guide" is Hickory Grove's
+      // own name for its catalog; it must fold onto the same key as everyone
+      // else's "Curriculum Guide" rather than slugifying into its own card.
+      match: /curriculum|course.*offerings|course offerings|course selection|program of stud/i,
       key: 'curriculum',
       label: 'Course Offerings',
     },
