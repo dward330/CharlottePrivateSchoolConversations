@@ -22,6 +22,7 @@
         "charlotte-christian:divisions[0].title",
         "charlotte-country-day:divisions[0].title",
         "cannon:divisions[0].title",
+        "covenant-day:divisions[2].title",
         "davidson-day:divisions[0].title",
         "carmel-christian:divisions[2].title"
       ],
@@ -67,6 +68,16 @@
       "at": [
         "providence-day:divisions[0].departments[0].courses[0].title",
         "charlotte-christian:divisions[0].departments[1].courses[2].title",
+        "covenant-day:divisions[1].departments[0].courses[1].title",
+        "covenant-day:divisions[1].departments[1].courses[2].title",
+        "covenant-day:divisions[1].departments[2].courses[2].title",
+        "covenant-day:divisions[2].departments[0].courses[1].title",
+        "covenant-day:divisions[2].departments[1].courses[1].title",
+        "covenant-day:divisions[2].departments[2].courses[1].title",
+        "covenant-day:divisions[2].departments[3].courses[1].title",
+        "covenant-day:divisions[2].departments[4].courses[1].title",
+        "covenant-day:divisions[2].departments[5].courses[1].title",
+        "covenant-day:divisions[2].departments[6].courses[1].title",
         "carmel-christian:divisions[1].departments[2].name",
         "carmel-christian:divisions[2].departments[0].courses[1].title"
       ],
@@ -116,6 +127,16 @@
       "at": [
         "providence-day:divisions[0].departments[0].courses[1].title",
         "cannon:divisions[0].departments[0].courses[0].title",
+        "covenant-day:divisions[1].departments[0].courses[0].title",
+        "covenant-day:divisions[1].departments[1].courses[0].title",
+        "covenant-day:divisions[1].departments[2].courses[0].title",
+        "covenant-day:divisions[2].departments[0].courses[0].title",
+        "covenant-day:divisions[2].departments[1].courses[0].title",
+        "covenant-day:divisions[2].departments[2].courses[0].title",
+        "covenant-day:divisions[2].departments[3].courses[0].title",
+        "covenant-day:divisions[2].departments[4].courses[0].title",
+        "covenant-day:divisions[2].departments[5].courses[0].title",
+        "covenant-day:divisions[2].departments[6].courses[0].title",
         "carmel-christian:divisions[1].departments[1].name",
         "carmel-christian:divisions[2].departments[0].courses[2].title"
       ],
@@ -150,6 +171,15 @@
         "cannon:divisions[1].departments[0].courses[1].title",
         "cannon:divisions[2].departments[2].name",
         "covenant-day:divisions[0].departments[2].name",
+        "covenant-day:divisions[1].departments[0].courses[3].title",
+        "covenant-day:divisions[1].departments[1].courses[5].title",
+        "covenant-day:divisions[1].departments[2].courses[5].title",
+        "covenant-day:divisions[2].departments[1].courses[3].title",
+        "covenant-day:divisions[2].departments[2].courses[3].title",
+        "covenant-day:divisions[2].departments[3].courses[3].title",
+        "covenant-day:divisions[2].departments[4].courses[3].title",
+        "covenant-day:divisions[2].departments[5].courses[3].title",
+        "covenant-day:divisions[2].departments[6].courses[3].title",
         "davidson-day:divisions[2].departments[3].name",
         "carmel-christian:divisions[0].departments[3].name",
         "carmel-christian:divisions[1].departments[4].name",
@@ -181,6 +211,15 @@
         "cannon:divisions[1].departments[0].courses[2].title",
         "cannon:divisions[2].departments[3].name",
         "covenant-day:divisions[0].departments[3].name",
+        "covenant-day:divisions[1].departments[0].courses[4].title",
+        "covenant-day:divisions[1].departments[1].courses[6].title",
+        "covenant-day:divisions[1].departments[2].courses[6].title",
+        "covenant-day:divisions[2].departments[1].courses[4].title",
+        "covenant-day:divisions[2].departments[2].courses[4].title",
+        "covenant-day:divisions[2].departments[3].courses[4].title",
+        "covenant-day:divisions[2].departments[4].courses[4].title",
+        "covenant-day:divisions[2].departments[5].courses[4].title",
+        "covenant-day:divisions[2].departments[6].courses[4].title",
         "carmel-christian:divisions[0].departments[4].name",
         "carmel-christian:divisions[1].departments[5].name",
         "carmel-christian:divisions[2].departments[0].courses[4].title",
@@ -273,6 +312,9 @@
         "charlotte-latin:divisions[0].departments[2].courses[1].title",
         "charlotte-christian:divisions[0].departments[2].courses[0].title",
         "cannon:divisions[0].departments[2].courses[0].title",
+        "covenant-day:divisions[1].departments[3].courses[1].title",
+        "covenant-day:divisions[2].departments[0].courses[4].title",
+        "covenant-day:divisions[2].departments[7].courses[0].title",
         "carmel-christian:divisions[2].departments[1].courses[0].title"
       ],
       "t": "Art"
@@ -293,6 +335,7 @@
         "charlotte-latin:divisions[0].departments[2].courses[0].title",
         "charlotte-christian:divisions[0].departments[2].courses[1].title",
         "cannon:divisions[0].departments[2].courses[1].title",
+        "covenant-day:divisions[2].departments[7].courses[1].title",
         "carmel-christian:divisions[2].departments[1].courses[3].title"
       ],
       "t": "Music"
@@ -352,6 +395,10 @@
         "cannon:divisions[0].departments[2].courses[2].title",
         "cannon:divisions[1].departments[0].courses[3].title",
         "cannon:divisions[2].departments[7].name",
+        "covenant-day:divisions[1].departments[0].courses[6].title",
+        "covenant-day:divisions[1].departments[1].courses[8].title",
+        "covenant-day:divisions[1].departments[2].courses[8].title",
+        "covenant-day:divisions[2].departments[7].courses[4].title",
         "davidson-day:divisions[2].departments[7].name",
         "carmel-christian:divisions[0].departments[6].courses[1].title",
         "carmel-christian:divisions[1].departments[6].courses[0].title",
@@ -437,7 +484,8 @@
       "at": [
         "providence-day:divisions[0].departments[2].courses[9].title",
         "charlotte-latin:divisions[0].departments[2].courses[4].title",
-        "cannon:divisions[0].departments[3].courses[2].title"
+        "cannon:divisions[0].departments[3].courses[2].title",
+        "covenant-day:divisions[2].departments[7].courses[5].title"
       ],
       "t": "Library"
     },
@@ -458,6 +506,7 @@
         "charlotte-christian:divisions[1].title",
         "charlotte-country-day:divisions[1].title",
         "cannon:divisions[1].title",
+        "covenant-day:divisions[1].title",
         "davidson-day:divisions[1].title",
         "carmel-christian:divisions[1].title"
       ],
@@ -539,6 +588,13 @@
         "charlotte-country-day:divisions[1].departments[5].courses[2].tag",
         "charlotte-country-day:divisions[1].departments[5].courses[6].tag",
         "cannon:divisions[1].departments[2].courses[1].tag",
+        "covenant-day:divisions[1].departments[0].courses[0].tag",
+        "covenant-day:divisions[1].departments[0].courses[1].tag",
+        "covenant-day:divisions[1].departments[0].courses[2].tag",
+        "covenant-day:divisions[1].departments[0].courses[3].tag",
+        "covenant-day:divisions[1].departments[0].courses[4].tag",
+        "covenant-day:divisions[1].departments[0].courses[5].tag",
+        "covenant-day:divisions[1].departments[0].courses[6].tag",
         "davidson-day:divisions[1].departments[0].courses[2].tag",
         "davidson-day:divisions[1].departments[0].courses[4].tag",
         "carmel-christian:divisions[1].departments[0].courses[0].tag",
@@ -596,6 +652,13 @@
         "charlotte-country-day:divisions[1].departments[1].courses[3].tag",
         "charlotte-country-day:divisions[1].departments[2].courses[2].tag",
         "charlotte-country-day:divisions[1].departments[5].courses[3].tag",
+        "covenant-day:divisions[1].departments[1].courses[0].tag",
+        "covenant-day:divisions[1].departments[1].courses[2].tag",
+        "covenant-day:divisions[1].departments[1].courses[4].tag",
+        "covenant-day:divisions[1].departments[1].courses[5].tag",
+        "covenant-day:divisions[1].departments[1].courses[6].tag",
+        "covenant-day:divisions[1].departments[1].courses[7].tag",
+        "covenant-day:divisions[1].departments[1].courses[8].tag",
         "davidson-day:divisions[1].departments[0].courses[5].tag",
         "carmel-christian:divisions[1].departments[0].courses[1].tag",
         "carmel-christian:divisions[1].departments[1].courses[1].tag",
@@ -653,6 +716,13 @@
         "charlotte-country-day:divisions[1].departments[2].courses[3].tag",
         "charlotte-country-day:divisions[1].departments[5].courses[4].tag",
         "cannon:divisions[1].departments[1].courses[3].tag",
+        "covenant-day:divisions[1].departments[2].courses[0].tag",
+        "covenant-day:divisions[1].departments[2].courses[2].tag",
+        "covenant-day:divisions[1].departments[2].courses[4].tag",
+        "covenant-day:divisions[1].departments[2].courses[5].tag",
+        "covenant-day:divisions[1].departments[2].courses[6].tag",
+        "covenant-day:divisions[1].departments[2].courses[7].tag",
+        "covenant-day:divisions[1].departments[2].courses[8].tag",
         "davidson-day:divisions[1].departments[0].courses[7].tag",
         "carmel-christian:divisions[1].departments[0].courses[2].tag",
         "carmel-christian:divisions[1].departments[1].courses[2].tag",
@@ -1358,6 +1428,13 @@
         "providence-day:divisions[1].departments[5].courses[5].tag",
         "providence-day:divisions[1].departments[5].courses[6].tag",
         "providence-day:divisions[1].departments[6].courses[11].tag",
+        "covenant-day:divisions[1].departments[3].courses[0].tag",
+        "covenant-day:divisions[1].departments[3].courses[1].tag",
+        "covenant-day:divisions[1].departments[3].courses[2].tag",
+        "covenant-day:divisions[1].departments[3].courses[3].tag",
+        "covenant-day:divisions[1].departments[3].courses[4].tag",
+        "covenant-day:divisions[1].departments[3].courses[5].tag",
+        "covenant-day:divisions[1].departments[3].courses[6].tag",
         "carmel-christian:divisions[1].departments[6].courses[0].tag",
         "carmel-christian:divisions[1].departments[7].courses[2].tag",
         "carmel-christian:divisions[1].departments[7].courses[3].tag",
@@ -1487,7 +1564,7 @@
       "at": [
         "providence-day:divisions[1].departments[5].courses[2].title",
         "providence-day:divisions[2].departments[6].courses[8].title",
-        "covenant-day:divisions[0].departments[5].courses[9].title"
+        "covenant-day:divisions[0].departments[5].courses[10].title"
       ],
       "t": "Latin 2"
     },
@@ -2327,8 +2404,9 @@
         "cannon:divisions[2].departments[6].courses[1].tag",
         "covenant-day:divisions[0].departments[0].courses[8].tag",
         "covenant-day:divisions[0].departments[0].courses[9].tag",
-        "covenant-day:divisions[0].departments[1].courses[10].tag",
         "covenant-day:divisions[0].departments[1].courses[11].tag",
+        "covenant-day:divisions[0].departments[1].courses[12].tag",
+        "covenant-day:divisions[0].departments[1].courses[13].tag",
         "covenant-day:divisions[0].departments[2].courses[8].tag",
         "covenant-day:divisions[0].departments[2].courses[9].tag",
         "covenant-day:divisions[0].departments[2].courses[10].tag",
@@ -2338,7 +2416,8 @@
         "covenant-day:divisions[0].departments[3].courses[9].tag",
         "covenant-day:divisions[0].departments[3].courses[10].tag",
         "covenant-day:divisions[0].departments[5].courses[4].tag",
-        "covenant-day:divisions[0].departments[5].courses[12].tag",
+        "covenant-day:divisions[0].departments[5].courses[9].tag",
+        "covenant-day:divisions[0].departments[5].courses[13].tag",
         "covenant-day:divisions[0].departments[6].courses[16].tag",
         "davidson-day:divisions[2].departments[0].courses[6].tag",
         "davidson-day:divisions[2].departments[0].courses[7].tag",
@@ -3020,7 +3099,7 @@
       "of": "9e6fb02a",
       "at": [
         "providence-day:divisions[2].departments[2].courses[10].title",
-        "covenant-day:divisions[0].departments[1].courses[8].title"
+        "covenant-day:divisions[0].departments[1].courses[9].title"
       ],
       "t": "Statistics"
     },
@@ -3054,7 +3133,7 @@
       "at": [
         "providence-day:divisions[2].departments[2].courses[12].title",
         "charlotte-country-day:divisions[2].departments[1].courses[13].title",
-        "covenant-day:divisions[0].departments[1].courses[10].title",
+        "covenant-day:divisions[0].departments[1].courses[11].title",
         "davidson-day:divisions[2].departments[1].courses[9].title",
         "carmel-christian:divisions[0].departments[2].courses[11].title",
         "hickory-grove-christian:divisions[0].departments[1].courses[0].title"
@@ -3075,6 +3154,7 @@
       "at": [
         "providence-day:divisions[2].departments[2].courses[13].title",
         "charlotte-country-day:divisions[2].departments[1].courses[14].title",
+        "covenant-day:divisions[0].departments[1].courses[12].title",
         "davidson-day:divisions[2].departments[1].courses[10].title",
         "hickory-grove-christian:divisions[0].departments[1].courses[1].title"
       ],
@@ -3094,7 +3174,7 @@
       "at": [
         "providence-day:divisions[2].departments[2].courses[14].title",
         "charlotte-country-day:divisions[2].departments[1].courses[11].title",
-        "covenant-day:divisions[0].departments[1].courses[11].title",
+        "covenant-day:divisions[0].departments[1].courses[13].title",
         "davidson-day:divisions[2].departments[1].courses[12].title",
         "carmel-christian:divisions[0].departments[2].courses[12].title",
         "hickory-grove-christian:divisions[0].departments[1].courses[2].title"
@@ -3705,7 +3785,8 @@
       "text": "Broadcast Journalism",
       "of": "eb9f0f36",
       "at": [
-        "providence-day:divisions[2].departments[5].courses[0].title"
+        "providence-day:divisions[2].departments[5].courses[0].title",
+        "covenant-day:divisions[1].departments[3].courses[6].title"
       ],
       "t": "Broadcast Journalism"
     },
@@ -3881,7 +3962,8 @@
       "text": "AP Spanish Language",
       "of": "5e3f2f4e",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[6].title"
+        "providence-day:divisions[2].departments[6].courses[6].title",
+        "covenant-day:divisions[0].departments[5].courses[4].title"
       ],
       "t": "AP Spanish Language"
     },
@@ -3962,8 +4044,7 @@
       "of": "6d3b696e",
       "at": [
         "providence-day:divisions[2].departments[6].courses[12].title",
-        "charlotte-country-day:divisions[2].departments[4].courses[13].title",
-        "covenant-day:divisions[0].departments[5].courses[12].title"
+        "charlotte-country-day:divisions[2].departments[4].courses[13].title"
       ],
       "t": "AP Latin"
     },
@@ -4254,7 +4335,8 @@
       "at": [
         "providence-day:divisions[2].departments[8].courses[0].title",
         "charlotte-latin:divisions[2].departments[8].courses[6].title",
-        "charlotte-country-day:divisions[1].departments[4].courses[1].title"
+        "charlotte-country-day:divisions[1].departments[4].courses[1].title",
+        "covenant-day:divisions[1].departments[3].courses[2].title"
       ],
       "t": "Band"
     },
@@ -4556,9 +4638,9 @@
         "covenant-day:divisions[0].departments[0].courses[7].tag",
         "covenant-day:divisions[0].departments[1].courses[2].tag",
         "covenant-day:divisions[0].departments[1].courses[4].tag",
-        "covenant-day:divisions[0].departments[1].courses[6].tag",
         "covenant-day:divisions[0].departments[1].courses[7].tag",
-        "covenant-day:divisions[0].departments[1].courses[9].tag",
+        "covenant-day:divisions[0].departments[1].courses[8].tag",
+        "covenant-day:divisions[0].departments[1].courses[10].tag",
         "covenant-day:divisions[0].departments[2].courses[1].tag",
         "covenant-day:divisions[0].departments[2].courses[3].tag",
         "covenant-day:divisions[0].departments[2].courses[4].tag",
@@ -4571,13 +4653,17 @@
         "covenant-day:divisions[0].departments[5].courses[3].tag",
         "covenant-day:divisions[0].departments[5].courses[7].tag",
         "covenant-day:divisions[0].departments[5].courses[8].tag",
-        "covenant-day:divisions[0].departments[5].courses[10].tag",
         "covenant-day:divisions[0].departments[5].courses[11].tag",
+        "covenant-day:divisions[0].departments[5].courses[12].tag",
         "covenant-day:divisions[0].departments[6].courses[1].tag",
         "covenant-day:divisions[0].departments[6].courses[3].tag",
         "covenant-day:divisions[0].departments[6].courses[6].tag",
         "covenant-day:divisions[0].departments[6].courses[14].tag",
         "covenant-day:divisions[0].departments[6].courses[15].tag",
+        "covenant-day:divisions[1].departments[1].courses[1].tag",
+        "covenant-day:divisions[1].departments[1].courses[3].tag",
+        "covenant-day:divisions[1].departments[2].courses[1].tag",
+        "covenant-day:divisions[1].departments[2].courses[3].tag",
         "davidson-day:divisions[1].departments[0].courses[8].tag",
         "davidson-day:divisions[1].departments[0].courses[9].tag",
         "davidson-day:divisions[2].departments[0].courses[1].tag",
@@ -4999,6 +5085,8 @@
         "charlotte-christian:divisions[0].departments[2].courses[4].title",
         "charlotte-country-day:divisions[1].departments[3].courses[0].title",
         "cannon:divisions[0].departments[1].courses[0].title",
+        "covenant-day:divisions[1].departments[3].courses[3].title",
+        "covenant-day:divisions[2].departments[7].courses[3].title",
         "carmel-christian:divisions[1].departments[3].name",
         "carmel-christian:divisions[2].departments[1].courses[1].title"
       ],
@@ -5061,6 +5149,11 @@
         "charlotte-country-day:divisions[1].departments[5].courses[1].tag",
         "charlotte-country-day:divisions[1].departments[5].courses[5].tag",
         "cannon:divisions[1].departments[2].courses[0].tag",
+        "covenant-day:divisions[2].departments[6].courses[0].tag",
+        "covenant-day:divisions[2].departments[6].courses[1].tag",
+        "covenant-day:divisions[2].departments[6].courses[2].tag",
+        "covenant-day:divisions[2].departments[6].courses[3].tag",
+        "covenant-day:divisions[2].departments[6].courses[4].tag",
         "davidson-day:divisions[1].departments[0].courses[0].tag"
       ],
       "t": "Gr 5"
@@ -5287,6 +5380,7 @@
         "charlotte-christian:divisions[2].departments[5].name",
         "cannon:divisions[1].departments[2].name",
         "cannon:divisions[2].departments[4].name",
+        "covenant-day:divisions[1].departments[0].courses[5].title",
         "davidson-day:divisions[2].departments[4].name",
         "carmel-christian:divisions[0].departments[5].name"
       ],
@@ -5427,6 +5521,7 @@
       "at": [
         "charlotte-latin:divisions[1].departments[5].name",
         "charlotte-christian:divisions[1].departments[5].name",
+        "covenant-day:divisions[1].departments[3].name",
         "carmel-christian:divisions[0].departments[8].name"
       ],
       "t": "ఐచ్ఛిక కోర్సులు"
@@ -5479,7 +5574,8 @@
       "of": "770729c0",
       "at": [
         "charlotte-latin:divisions[1].departments[5].courses[3].title",
-        "charlotte-country-day:divisions[1].departments[4].courses[4].title"
+        "charlotte-country-day:divisions[1].departments[4].courses[4].title",
+        "covenant-day:divisions[1].departments[3].courses[4].title"
       ],
       "t": "Drama"
     },
@@ -6068,7 +6164,7 @@
       "at": [
         "charlotte-latin:divisions[2].departments[3].courses[7].title",
         "charlotte-christian:divisions[2].departments[2].courses[6].title",
-        "covenant-day:divisions[0].departments[1].courses[5].title"
+        "covenant-day:divisions[0].departments[1].courses[6].title"
       ],
       "t": "Pre-Calculus"
     },
@@ -6173,7 +6269,7 @@
       "of": "58226eb6",
       "at": [
         "charlotte-latin:divisions[2].departments[3].courses[13].description",
-        "covenant-day:divisions[0].departments[1].courses[11].description",
+        "covenant-day:divisions[0].departments[1].courses[13].description",
         "carmel-christian:divisions[0].departments[2].courses[12].description"
       ],
       "t": "కళాశాల స్థాయి గణాంకాలు."
@@ -6674,8 +6770,7 @@
       "of": "f7790c8f",
       "at": [
         "charlotte-latin:divisions[2].departments[5].courses[9].description",
-        "charlotte-country-day:divisions[2].departments[4].courses[13].description",
-        "covenant-day:divisions[0].departments[5].courses[12].description"
+        "charlotte-country-day:divisions[2].departments[4].courses[13].description"
       ],
       "t": "కళాశాల స్థాయి Latin."
     },
@@ -7302,6 +7397,16 @@
         "charlotte-christian:divisions[0].departments[0].courses[0].title",
         "charlotte-christian:divisions[1].departments[0].name",
         "covenant-day:divisions[0].departments[4].name",
+        "covenant-day:divisions[1].departments[0].courses[2].title",
+        "covenant-day:divisions[1].departments[1].courses[4].title",
+        "covenant-day:divisions[1].departments[2].courses[4].title",
+        "covenant-day:divisions[2].departments[0].courses[2].title",
+        "covenant-day:divisions[2].departments[1].courses[2].title",
+        "covenant-day:divisions[2].departments[2].courses[2].title",
+        "covenant-day:divisions[2].departments[3].courses[2].title",
+        "covenant-day:divisions[2].departments[4].courses[2].title",
+        "covenant-day:divisions[2].departments[5].courses[2].title",
+        "covenant-day:divisions[2].departments[6].courses[2].title",
         "carmel-christian:divisions[0].departments[0].name",
         "carmel-christian:divisions[1].departments[0].name",
         "carmel-christian:divisions[2].departments[0].courses[0].title",
@@ -7338,7 +7443,12 @@
       "text": "Gr 4",
       "of": "e92670e0",
       "at": [
-        "charlotte-christian:divisions[0].departments[0].courses[1].tag"
+        "charlotte-christian:divisions[0].departments[0].courses[1].tag",
+        "covenant-day:divisions[2].departments[5].courses[0].tag",
+        "covenant-day:divisions[2].departments[5].courses[1].tag",
+        "covenant-day:divisions[2].departments[5].courses[2].tag",
+        "covenant-day:divisions[2].departments[5].courses[3].tag",
+        "covenant-day:divisions[2].departments[5].courses[4].tag"
       ],
       "t": "Gr 4"
     },
@@ -7967,7 +8077,8 @@
       "text": "Old Testament Survey",
       "of": "6b2cd411",
       "at": [
-        "charlotte-christian:divisions[2].departments[0].courses[0].title"
+        "charlotte-christian:divisions[2].departments[0].courses[0].title",
+        "covenant-day:divisions[0].departments[4].courses[0].title"
       ],
       "t": "Old Testament Survey"
     },
@@ -7983,7 +8094,8 @@
       "text": "New Testament Survey",
       "of": "15a0fcf0",
       "at": [
-        "charlotte-christian:divisions[2].departments[0].courses[1].title"
+        "charlotte-christian:divisions[2].departments[0].courses[1].title",
+        "covenant-day:divisions[0].departments[4].courses[1].title"
       ],
       "t": "New Testament Survey"
     },
@@ -8394,7 +8506,7 @@
       "of": "7c827282",
       "at": [
         "charlotte-christian:divisions[2].departments[2].courses[7].title",
-        "covenant-day:divisions[0].departments[1].courses[6].title"
+        "covenant-day:divisions[0].departments[1].courses[7].title"
       ],
       "t": "Pre-Calculus Honors"
     },
@@ -9541,6 +9653,7 @@
         "charlotte-christian:divisions[2].departments[7].courses[13].title",
         "charlotte-country-day:divisions[1].departments[4].courses[2].title",
         "covenant-day:divisions[0].departments[6].courses[0].title",
+        "covenant-day:divisions[1].departments[3].courses[5].title",
         "carmel-christian:divisions[0].departments[7].courses[7].title"
       ],
       "t": "Choir"
@@ -10062,7 +10175,12 @@
       "text": "JK",
       "of": "45f11f62",
       "at": [
-        "charlotte-country-day:divisions[0].departments[0].courses[0].tag"
+        "charlotte-country-day:divisions[0].departments[0].courses[0].tag",
+        "covenant-day:divisions[2].departments[0].courses[0].tag",
+        "covenant-day:divisions[2].departments[0].courses[1].tag",
+        "covenant-day:divisions[2].departments[0].courses[2].tag",
+        "covenant-day:divisions[2].departments[0].courses[3].tag",
+        "covenant-day:divisions[2].departments[0].courses[4].tag"
       ],
       "t": "JK"
     },
@@ -14679,12 +14797,12 @@
       "t": "GRADES 9 – 12"
     },
     {
-      "text": "80 course entries across 9 departments, from the 2026-27 High School Profile matrix — the school publishes named courses for the high school only.",
-      "of": "930c6d65",
+      "text": "90 course entries across 9 departments — 17 Advanced Placement, a named Bible course for each of the four years, and a Restoration & Sustainability department no other school here runs.",
+      "of": "7d118c76",
       "at": [
         "covenant-day:divisions[0].teaser"
       ],
-      "t": "9 విభాగాలలో 80 కోర్సు నమోదులు, 2026-27 High School Profile matrix నుంచి — పాఠశాల high schoolకు మాత్రమే పేరున్న కోర్సులను ప్రచురిస్తుంది."
+      "t": "9 విభాగాలలో 90 కోర్సులు — 17 Advanced Placement, నాలుగు సంవత్సరాల్లో ప్రతి దానికీ పేరున్న ఒక Bible కోర్సు, ఇంకా ఇక్కడ మరే పాఠశాలా నడపని Restoration & Sustainability విభాగం."
     },
     {
       "text": "Language & Literature",
@@ -14706,7 +14824,8 @@
         "covenant-day:divisions[0].departments[1].courses[1].tag",
         "covenant-day:divisions[0].departments[1].courses[3].tag",
         "covenant-day:divisions[0].departments[1].courses[5].tag",
-        "covenant-day:divisions[0].departments[1].courses[8].tag",
+        "covenant-day:divisions[0].departments[1].courses[6].tag",
+        "covenant-day:divisions[0].departments[1].courses[9].tag",
         "covenant-day:divisions[0].departments[2].courses[0].tag",
         "covenant-day:divisions[0].departments[2].courses[2].tag",
         "covenant-day:divisions[0].departments[2].courses[5].tag",
@@ -14718,7 +14837,7 @@
         "covenant-day:divisions[0].departments[5].courses[1].tag",
         "covenant-day:divisions[0].departments[5].courses[5].tag",
         "covenant-day:divisions[0].departments[5].courses[6].tag",
-        "covenant-day:divisions[0].departments[5].courses[9].tag",
+        "covenant-day:divisions[0].departments[5].courses[10].tag",
         "covenant-day:divisions[0].departments[6].courses[0].tag",
         "covenant-day:divisions[0].departments[6].courses[2].tag",
         "covenant-day:divisions[0].departments[6].courses[4].tag",
@@ -14734,7 +14853,10 @@
         "covenant-day:divisions[0].departments[7].courses[1].tag",
         "covenant-day:divisions[0].departments[7].courses[2].tag",
         "covenant-day:divisions[0].departments[7].courses[3].tag",
-        "covenant-day:divisions[0].departments[8].courses[0].tag"
+        "covenant-day:divisions[0].departments[7].courses[4].tag",
+        "covenant-day:divisions[0].departments[8].courses[0].tag",
+        "covenant-day:divisions[0].departments[8].courses[1].tag",
+        "covenant-day:divisions[0].departments[8].courses[2].tag"
       ],
       "t": "CP"
     },
@@ -14944,10 +15066,26 @@
       "t": "Honors రెండో-సంవత్సరం algebra."
     },
     {
+      "text": "Liberal Arts Math",
+      "of": "cfc30c9a",
+      "at": [
+        "covenant-day:divisions[0].departments[1].courses[5].title"
+      ],
+      "t": "Liberal Arts Math"
+    },
+    {
+      "text": "The alternative senior-year math for students not continuing to pre-calculus.",
+      "of": "9bb80e16",
+      "at": [
+        "covenant-day:divisions[0].departments[1].courses[5].description"
+      ],
+      "t": "ప్రీ-కాలిక్యులస్‌కు కొనసాగని విద్యార్థుల కోసం చివరి సంవత్సరపు ప్రత్యామ్నాయ గణిత కోర్సు."
+    },
+    {
       "text": "Functions and trigonometry before calculus.",
       "of": "bd5bfb9f",
       "at": [
-        "covenant-day:divisions[0].departments[1].courses[5].description"
+        "covenant-day:divisions[0].departments[1].courses[6].description"
       ],
       "t": "calculusకు ముందు functions మరియు trigonometry."
     },
@@ -14955,7 +15093,7 @@
       "text": "The honors pre-calculus year.",
       "of": "c25b1426",
       "at": [
-        "covenant-day:divisions[0].departments[1].courses[6].description"
+        "covenant-day:divisions[0].departments[1].courses[7].description"
       ],
       "t": "honors pre-calculus సంవత్సరం."
     },
@@ -14963,7 +15101,7 @@
       "text": "Calculus Honors",
       "of": "7778afe6",
       "at": [
-        "covenant-day:divisions[0].departments[1].courses[7].title"
+        "covenant-day:divisions[0].departments[1].courses[8].title"
       ],
       "t": "Calculus Honors"
     },
@@ -14971,7 +15109,7 @@
       "text": "Honors calculus — available for dual enrollment with Covenant College.",
       "of": "773b4637",
       "at": [
-        "covenant-day:divisions[0].departments[1].courses[7].description"
+        "covenant-day:divisions[0].departments[1].courses[8].description"
       ],
       "t": "Honors calculus — Covenant Collegeతో dual enrollmentకు అందుబాటులో."
     },
@@ -14979,7 +15117,7 @@
       "text": "Introductory statistics.",
       "of": "b729daf0",
       "at": [
-        "covenant-day:divisions[0].departments[1].courses[8].description"
+        "covenant-day:divisions[0].departments[1].courses[9].description"
       ],
       "t": "పరిచయాత్మక statistics."
     },
@@ -14987,7 +15125,7 @@
       "text": "Statistics Honors",
       "of": "b7b12c3b",
       "at": [
-        "covenant-day:divisions[0].departments[1].courses[9].title"
+        "covenant-day:divisions[0].departments[1].courses[10].title"
       ],
       "t": "Statistics Honors"
     },
@@ -14995,7 +15133,7 @@
       "text": "Honors statistics — available for dual enrollment with Covenant College.",
       "of": "534c8b8a",
       "at": [
-        "covenant-day:divisions[0].departments[1].courses[9].description"
+        "covenant-day:divisions[0].departments[1].courses[10].description"
       ],
       "t": "Honors statistics — Covenant Collegeతో dual enrollmentకు అందుబాటులో."
     },
@@ -15003,10 +15141,18 @@
       "text": "College-level differential and integral calculus.",
       "of": "cf28429f",
       "at": [
-        "covenant-day:divisions[0].departments[1].courses[10].description",
+        "covenant-day:divisions[0].departments[1].courses[11].description",
         "carmel-christian:divisions[0].departments[2].courses[11].description"
       ],
       "t": "కళాశాల-స్థాయి differential మరియు integral calculus."
+    },
+    {
+      "text": "The faster calculus track, through series; the school notes this offering may be impacted by student enrollment.",
+      "of": "c8c6d5de",
+      "at": [
+        "covenant-day:divisions[0].departments[1].courses[12].description"
+      ],
+      "t": "శ్రేణుల వరకు సాగే వేగవంతమైన కాలిక్యులస్ మార్గం; విద్యార్థుల చేరికను బట్టి ఈ కోర్సు అందుబాటు మారవచ్చని పాఠశాల తెలిపింది."
     },
     {
       "text": "The entry lab science.",
@@ -15043,12 +15189,12 @@
       "t": "Honors రసాయనశాస్త్రం."
     },
     {
-      "text": "Anatomy Honors",
-      "of": "f9404247",
+      "text": "Anatomy & Physiology Honors",
+      "of": "1328b04e",
       "at": [
         "covenant-day:divisions[0].departments[2].courses[4].title"
       ],
-      "t": "Anatomy Honors"
+      "t": "Anatomy & Physiology Honors"
     },
     {
       "text": "Honors anatomy and physiology.",
@@ -15148,14 +15294,12 @@
       "t": "Honors ప్రపంచ చరిత్ర."
     },
     {
-      "text": "US History",
-      "of": "9aeceb25",
+      "text": "U.S. History",
+      "of": "6fd41d17",
       "at": [
-        "covenant-day:divisions[0].departments[3].courses[2].title",
-        "carmel-christian:divisions[0].departments[4].courses[4].title",
-        "carmel-christian:divisions[0].departments[4].courses[5].title"
+        "covenant-day:divisions[0].departments[3].courses[2].title"
       ],
-      "t": "US History"
+      "t": "అమెరికా చరిత్ర"
     },
     {
       "text": "The American-history year.",
@@ -15166,28 +15310,29 @@
       "t": "American-history సంవత్సరం."
     },
     {
-      "text": "US History Honors",
-      "of": "c72348aa",
+      "text": "U.S. History Honors",
+      "of": "66ac24a4",
       "at": [
-        "covenant-day:divisions[0].departments[3].courses[3].title"
+        "covenant-day:divisions[0].departments[3].courses[3].title",
+        "davidson-day:divisions[2].departments[2].courses[4].title"
       ],
-      "t": "US History Honors"
+      "t": "U.S. History Honors"
     },
     {
-      "text": "Honors US history.",
-      "of": "373e89ea",
+      "text": "Honors U.S. history.",
+      "of": "917ebc6c",
       "at": [
         "covenant-day:divisions[0].departments[3].courses[3].description"
       ],
-      "t": "Honors US చరిత్ర."
+      "t": "ఆనర్స్ స్థాయి అమెరికా చరిత్ర."
     },
     {
-      "text": "Government & Economics",
-      "of": "eddf407a",
+      "text": "Government and Economics",
+      "of": "969d3d21",
       "at": [
         "covenant-day:divisions[0].departments[3].courses[4].title"
       ],
-      "t": "Government & Economics"
+      "t": "ప్రభుత్వం మరియు ఆర్థికశాస్త్రం"
     },
     {
       "text": "The civics-and-economics capstone.",
@@ -15198,12 +15343,12 @@
       "t": "civics-and-economics ముగింపు కోర్సు."
     },
     {
-      "text": "Government & Economics Honors",
-      "of": "c8e369eb",
+      "text": "Government and Economics Honors",
+      "of": "166645a6",
       "at": [
         "covenant-day:divisions[0].departments[3].courses[5].title"
       ],
-      "t": "Government & Economics Honors"
+      "t": "ప్రభుత్వం మరియు ఆర్థికశాస్త్రం Honors"
     },
     {
       "text": "The honors capstone.",
@@ -15230,14 +15375,13 @@
       "t": "Honors మనోవిజ్ఞానం."
     },
     {
-      "text": "AP US History",
-      "of": "6ac84760",
+      "text": "AP U.S. History",
+      "of": "f17effea",
       "at": [
         "covenant-day:divisions[0].departments[3].courses[7].title",
-        "carmel-christian:divisions[0].departments[4].courses[10].title",
-        "hickory-grove-christian:divisions[0].departments[3].courses[0].title"
+        "davidson-day:divisions[2].departments[2].courses[5].title"
       ],
-      "t": "AP US History"
+      "t": "AP U.S. History"
     },
     {
       "text": "College-level American history.",
@@ -15249,75 +15393,100 @@
       "t": "కళాశాల-స్థాయి American history."
     },
     {
-      "text": "AP Government & Politics: US",
-      "of": "1cae4d1e",
+      "text": "AP U.S. Government & Politics",
+      "of": "201a5cb6",
       "at": [
         "covenant-day:divisions[0].departments[3].courses[8].title"
       ],
-      "t": "AP Government & Politics: US"
+      "t": "AP U.S. Government & Politics"
     },
     {
-      "text": "College-level US government.",
-      "of": "7fbbaa78",
+      "text": "College-level U.S. government and politics.",
+      "of": "a2e8e362",
       "at": [
         "covenant-day:divisions[0].departments[3].courses[8].description"
       ],
-      "t": "కళాశాల-స్థాయి US government."
+      "t": "కళాశాల స్థాయి అమెరికా ప్రభుత్వం మరియు రాజకీయాలు."
     },
     {
-      "text": "Bible (each year)",
-      "of": "16edf300",
+      "text": "9th Grade",
+      "of": "c6432aef",
       "at": [
-        "covenant-day:divisions[0].departments[4].courses[0].title"
+        "covenant-day:divisions[0].departments[4].courses[0].tag"
       ],
-      "t": "Bible (ప్రతి సంవత్సరం)"
+      "t": "9th Grade"
     },
     {
-      "text": "Gr 9–12",
-      "of": "8a72ad6f",
-      "at": [
-        "covenant-day:divisions[0].departments[4].courses[0].tag",
-        "davidson-day:divisions[2].departments[1].courses[0].tag",
-        "davidson-day:divisions[2].departments[1].courses[2].tag",
-        "davidson-day:divisions[2].departments[4].courses[0].tag",
-        "davidson-day:divisions[2].departments[4].courses[6].tag",
-        "carmel-christian:divisions[0].departments[0].courses[0].tag",
-        "carmel-christian:divisions[0].departments[0].courses[1].tag",
-        "carmel-christian:divisions[0].departments[0].courses[2].tag",
-        "carmel-christian:divisions[0].departments[0].courses[3].tag",
-        "carmel-christian:divisions[0].departments[5].courses[0].tag",
-        "carmel-christian:divisions[0].departments[5].courses[7].tag",
-        "carmel-christian:divisions[0].departments[6].courses[0].tag",
-        "carmel-christian:divisions[0].departments[6].courses[1].tag",
-        "carmel-christian:divisions[0].departments[6].courses[2].tag",
-        "carmel-christian:divisions[0].departments[6].courses[3].tag",
-        "carmel-christian:divisions[0].departments[6].courses[4].tag",
-        "carmel-christian:divisions[0].departments[7].courses[0].tag",
-        "carmel-christian:divisions[0].departments[7].courses[1].tag",
-        "carmel-christian:divisions[0].departments[7].courses[5].tag",
-        "carmel-christian:divisions[0].departments[7].courses[6].tag",
-        "carmel-christian:divisions[0].departments[7].courses[7].tag",
-        "carmel-christian:divisions[0].departments[7].courses[8].tag",
-        "carmel-christian:divisions[0].departments[7].courses[10].tag",
-        "carmel-christian:divisions[0].departments[7].courses[11].tag",
-        "carmel-christian:divisions[0].departments[7].courses[12].tag",
-        "carmel-christian:divisions[0].departments[7].courses[13].tag",
-        "carmel-christian:divisions[0].departments[7].courses[14].tag",
-        "carmel-christian:divisions[0].departments[8].courses[2].tag",
-        "carmel-christian:divisions[0].departments[8].courses[3].tag",
-        "carmel-christian:divisions[0].departments[8].courses[4].tag",
-        "carmel-christian:divisions[0].departments[8].courses[5].tag",
-        "hickory-grove-christian:divisions[0].departments[7].courses[0].tag"
-      ],
-      "t": "Gr 9–12"
-    },
-    {
-      "text": "Three graduation units; students must be enrolled in a Bible course every year. The profile matrix prints no per-year titles.",
-      "of": "1689b225",
+      "text": "The freshman Bible course; students are enrolled in a Bible course every year, and three units are required to graduate.",
+      "of": "e1318f97",
       "at": [
         "covenant-day:divisions[0].departments[4].courses[0].description"
       ],
-      "t": "మూడు గ్రాడ్యుయేషన్ units; విద్యార్థులు ప్రతి సంవత్సరం ఒక Bible courseలో నమోదు కావాలి. profile matrix ఒక్కో-సంవత్సర శీర్షికలను ముద్రించదు."
+      "t": "మొదటి సంవత్సరపు Bible కోర్సు; విద్యార్థులు ప్రతి సంవత్సరం ఒక Bible కోర్సులో చేరి ఉంటారు, పట్టా పొందడానికి మూడు యూనిట్లు అవసరం."
+    },
+    {
+      "text": "10th Grade",
+      "of": "8fa188bf",
+      "at": [
+        "covenant-day:divisions[0].departments[4].courses[1].tag"
+      ],
+      "t": "10th Grade"
+    },
+    {
+      "text": "The sophomore Bible course, surveying the New Testament.",
+      "of": "951e76cf",
+      "at": [
+        "covenant-day:divisions[0].departments[4].courses[1].description"
+      ],
+      "t": "రెండో సంవత్సరపు Bible కోర్సు, కొత్త నిబంధన సంక్షిప్త పరిచయం."
+    },
+    {
+      "text": "Christian Doctrine",
+      "of": "5eae87e2",
+      "at": [
+        "covenant-day:divisions[0].departments[4].courses[2].title"
+      ],
+      "t": "క్రైస్తవ సిద్ధాంతం"
+    },
+    {
+      "text": "11th Grade",
+      "of": "e6801018",
+      "at": [
+        "covenant-day:divisions[0].departments[4].courses[2].tag"
+      ],
+      "t": "11th Grade"
+    },
+    {
+      "text": "The junior Bible course, working through Christian doctrine systematically.",
+      "of": "460124d1",
+      "at": [
+        "covenant-day:divisions[0].departments[4].courses[2].description"
+      ],
+      "t": "మూడో సంవత్సరపు Bible కోర్సు, క్రైస్తవ సిద్ధాంతాన్ని క్రమపద్ధతిలో పరిశీలిస్తుంది."
+    },
+    {
+      "text": "Engaging the Culture - An Introduction to Apologetics and Worldviews",
+      "of": "67c21bc2",
+      "at": [
+        "covenant-day:divisions[0].departments[4].courses[3].title"
+      ],
+      "t": "Engaging the Culture - An Introduction to Apologetics and Worldviews"
+    },
+    {
+      "text": "12th Grade",
+      "of": "91c6a395",
+      "at": [
+        "covenant-day:divisions[0].departments[4].courses[3].tag"
+      ],
+      "t": "12th Grade"
+    },
+    {
+      "text": "The senior Bible capstone in apologetics and competing worldviews.",
+      "of": "bd161267",
+      "at": [
+        "covenant-day:divisions[0].departments[4].courses[3].description"
+      ],
+      "t": "చివరి సంవత్సరపు Bible ముగింపు కోర్సు — విశ్వాస సమర్థన శాస్త్రం మరియు పోటీ ప్రపంచ దృక్పథాలపై."
     },
     {
       "text": "Spanish 1",
@@ -15384,14 +15553,6 @@
         "carmel-christian:divisions[0].departments[5].courses[5].description"
       ],
       "t": "honors స్థాయిలో నాలుగో-సంవత్సరం Spanish."
-    },
-    {
-      "text": "AP Spanish",
-      "of": "849a5d8c",
-      "at": [
-        "covenant-day:divisions[0].departments[5].courses[4].title"
-      ],
-      "t": "AP Spanish"
     },
     {
       "text": "College-level Spanish language.",
@@ -15466,10 +15627,26 @@
       "t": "honors స్థాయిలో నాలుగో-సంవత్సరం French."
     },
     {
+      "text": "AP French",
+      "of": "91b4167c",
+      "at": [
+        "covenant-day:divisions[0].departments[5].courses[9].title"
+      ],
+      "t": "AP French"
+    },
+    {
+      "text": "College-level French; the school notes this offering may be impacted by student enrollment.",
+      "of": "0a5cba85",
+      "at": [
+        "covenant-day:divisions[0].departments[5].courses[9].description"
+      ],
+      "t": "కళాశాల స్థాయి ఫ్రెంచ్; విద్యార్థుల చేరికను బట్టి ఈ కోర్సు అందుబాటు మారవచ్చని పాఠశాల తెలిపింది."
+    },
+    {
       "text": "Second-year Latin (the sequence starts in middle school).",
       "of": "ffc01eaf",
       "at": [
-        "covenant-day:divisions[0].departments[5].courses[9].description"
+        "covenant-day:divisions[0].departments[5].courses[10].description"
       ],
       "t": "రెండో-సంవత్సరం Latin (క్రమం middle schoolలో మొదలవుతుంది)."
     },
@@ -15477,7 +15654,7 @@
       "text": "Latin 3 Honors",
       "of": "318596a1",
       "at": [
-        "covenant-day:divisions[0].departments[5].courses[10].title"
+        "covenant-day:divisions[0].departments[5].courses[11].title"
       ],
       "t": "Latin 3 Honors"
     },
@@ -15485,7 +15662,7 @@
       "text": "Third-year Latin at honors level.",
       "of": "1211abb0",
       "at": [
-        "covenant-day:divisions[0].departments[5].courses[10].description"
+        "covenant-day:divisions[0].departments[5].courses[11].description"
       ],
       "t": "honors స్థాయిలో మూడో-సంవత్సరం Latin."
     },
@@ -15493,7 +15670,7 @@
       "text": "Latin 4 Honors",
       "of": "3786e58a",
       "at": [
-        "covenant-day:divisions[0].departments[5].courses[11].title"
+        "covenant-day:divisions[0].departments[5].courses[12].title"
       ],
       "t": "Latin 4 Honors"
     },
@@ -15501,9 +15678,25 @@
       "text": "Fourth-year Latin at honors level.",
       "of": "38baadab",
       "at": [
-        "covenant-day:divisions[0].departments[5].courses[11].description"
+        "covenant-day:divisions[0].departments[5].courses[12].description"
       ],
       "t": "honors స్థాయిలో నాలుగో-సంవత్సరం Latin."
+    },
+    {
+      "text": "AP Latin: Caesar and Vergil",
+      "of": "4aeab7ad",
+      "at": [
+        "covenant-day:divisions[0].departments[5].courses[13].title"
+      ],
+      "t": "AP Latin: Caesar and Vergil"
+    },
+    {
+      "text": "College-level Latin, on the Caesar and Vergil syllabus.",
+      "of": "f7069e2b",
+      "at": [
+        "covenant-day:divisions[0].departments[5].courses[13].description"
+      ],
+      "t": "కళాశాల స్థాయి లాటిన్, సీజర్ మరియు వర్జిల్ పాఠ్యాంశాలపై."
     },
     {
       "text": "The high school choral ensemble as a credit course.",
@@ -15758,10 +15951,26 @@
       "t": "community కోసం విద్యార్థులను literacy tutorsగా శిక్షణ ఇవ్వడం."
     },
     {
+      "text": "ContainIt",
+      "of": "a86ed426",
+      "at": [
+        "covenant-day:divisions[0].departments[7].courses[1].title"
+      ],
+      "t": "ContainIt"
+    },
+    {
+      "text": "The department’s student-run enterprise course.",
+      "of": "2ebc9521",
+      "at": [
+        "covenant-day:divisions[0].departments[7].courses[1].description"
+      ],
+      "t": "విభాగానికి చెందిన, విద్యార్థులే నడిపే వ్యాపార కోర్సు."
+    },
+    {
       "text": "Intercultural Practicum",
       "of": "7fc5330f",
       "at": [
-        "covenant-day:divisions[0].departments[7].courses[1].title"
+        "covenant-day:divisions[0].departments[7].courses[2].title"
       ],
       "t": "Intercultural Practicum"
     },
@@ -15769,23 +15978,23 @@
       "text": "Applied cross-cultural engagement.",
       "of": "7de1b888",
       "at": [
-        "covenant-day:divisions[0].departments[7].courses[1].description"
+        "covenant-day:divisions[0].departments[7].courses[2].description"
       ],
       "t": "అనువర్తిత cross-cultural భాగస్వామ్యం."
     },
     {
-      "text": "Introduction to Engineering",
-      "of": "1c2acea9",
+      "text": "Intro to Engineering",
+      "of": "ee1a97f1",
       "at": [
-        "covenant-day:divisions[0].departments[7].courses[2].title"
+        "covenant-day:divisions[0].departments[7].courses[3].title"
       ],
-      "t": "Introduction to Engineering"
+      "t": "Intro to Engineering"
     },
     {
       "text": "The department’s engineering entry.",
       "of": "64f53171",
       "at": [
-        "covenant-day:divisions[0].departments[7].courses[2].description"
+        "covenant-day:divisions[0].departments[7].courses[3].description"
       ],
       "t": "విభాగం engineering ప్రవేశ కోర్సు."
     },
@@ -15793,7 +16002,7 @@
       "text": "Restore525",
       "of": "bf5dde7d",
       "at": [
-        "covenant-day:divisions[0].departments[7].courses[3].title"
+        "covenant-day:divisions[0].departments[7].courses[4].title"
       ],
       "t": "Restore525"
     },
@@ -15801,33 +16010,871 @@
       "text": "The department’s service-build program as a credit course.",
       "of": "1a98bd31",
       "at": [
-        "covenant-day:divisions[0].departments[7].courses[3].description"
+        "covenant-day:divisions[0].departments[7].courses[4].description"
       ],
       "t": "credit courseగా విభాగం service-build కార్యక్రమం."
     },
     {
-      "text": "PE",
-      "of": "2c0000fe",
+      "text": "Other",
+      "of": "6e38ff95",
       "at": [
         "covenant-day:divisions[0].departments[8].name"
       ],
-      "t": "PE"
+      "t": "ఇతరాలు"
     },
     {
-      "text": "Strength & Fitness",
-      "of": "9a8bf562",
+      "text": "Individual Research Project",
+      "of": "2ab24d46",
       "at": [
         "covenant-day:divisions[0].departments[8].courses[0].title"
       ],
-      "t": "Strength & Fitness"
+      "t": "Individual Research Project"
+    },
+    {
+      "text": "A self-directed research course taken for credit.",
+      "of": "10977152",
+      "at": [
+        "covenant-day:divisions[0].departments[8].courses[0].description"
+      ],
+      "t": "క్రెడిట్ కోసం తీసుకునే స్వీయ-నిర్దేశిత పరిశోధన కోర్సు."
+    },
+    {
+      "text": "Strength & Fitness Training",
+      "of": "a659381c",
+      "at": [
+        "covenant-day:divisions[0].departments[8].courses[1].title"
+      ],
+      "t": "Strength & Fitness Training"
     },
     {
       "text": "The Webb Fitness Center course; a PE credit is also earnable via two school sport seasons.",
       "of": "5fdc624f",
       "at": [
-        "covenant-day:divisions[0].departments[8].courses[0].description"
+        "covenant-day:divisions[0].departments[8].courses[1].description"
       ],
       "t": "Webb Fitness Center కోర్సు; రెండు పాఠశాల క్రీడా సీజన్ల ద్వారా కూడా ఒక PE credit సంపాదించవచ్చు."
+    },
+    {
+      "text": "Student Assistant",
+      "of": "1da10560",
+      "at": [
+        "covenant-day:divisions[0].departments[8].courses[2].title"
+      ],
+      "t": "Student Assistant"
+    },
+    {
+      "text": "A credit-bearing assistantship supporting a department or office.",
+      "of": "bc41d1f3",
+      "at": [
+        "covenant-day:divisions[0].departments[8].courses[2].description"
+      ],
+      "t": "ఒక విభాగానికి లేదా కార్యాలయానికి సహాయపడే, క్రెడిట్ ఇచ్చే సహాయక బాధ్యత."
+    },
+    {
+      "text": "GRADES 6 – 8",
+      "of": "540842be",
+      "at": [
+        "covenant-day:divisions[1].grades",
+        "carmel-christian:divisions[1].grades"
+      ],
+      "t": "GRADES 6 – 8"
+    },
+    {
+      "text": "Seven subject areas per grade plus three named honors tracks and a seven-course elective slate — Latin from 6th grade, Applied English in 6th and 7th.",
+      "of": "f84d89ac",
+      "at": [
+        "covenant-day:divisions[1].teaser"
+      ],
+      "t": "ప్రతి తరగతికీ ఏడు విషయ రంగాలు, వాటితో పాటు పేరున్న మూడు ఆనర్స్ మార్గాలు మరియు ఏడు ఐచ్ఛిక కోర్సుల జాబితా — 6వ తరగతి నుంచే లాటిన్, 6, 7 తరగతుల్లో Applied English."
+    },
+    {
+      "text": "Covenant Day publishes per-grade subject areas and competencies for grades 6–8 rather than a full course catalog. The honors tracks and electives below are the school’s own named courses; the remaining rows carry each grade’s published subject description.",
+      "of": "18af49e0",
+      "at": [
+        "covenant-day:divisions[1].notPublished"
+      ],
+      "t": "Covenant Day 6–8 తరగతులకు పూర్తి కోర్సు పట్టిక బదులు ప్రతి తరగతికీ విషయ రంగాలను, సామర్థ్యాలను ప్రచురిస్తుంది. కింద ఉన్న ఆనర్స్ మార్గాలు, ఐచ్ఛిక కోర్సులు పాఠశాల స్వంతంగా పేరు పెట్టిన కోర్సులు; మిగిలిన వరుసలు ఆ తరగతికి ప్రచురించిన విషయ వివరణను తెలుపుతాయి."
+    },
+    {
+      "text": "6th Grade",
+      "of": "496b28f2",
+      "at": [
+        "covenant-day:divisions[1].departments[0].name"
+      ],
+      "t": "6వ తరగతి"
+    },
+    {
+      "text": "Reading deeply through synthesis and analysis of fiction and nonfiction; all students get extra Applied English time to build thesis statements as the foundation for strong essays.",
+      "of": "bf56e770",
+      "at": [
+        "covenant-day:divisions[1].departments[0].courses[0].description"
+      ],
+      "t": "కల్పన మరియు కల్పనేతర రచనల సంగ్రహణ, విశ్లేషణ ద్వారా లోతైన పఠనం; మంచి వ్యాసానికి పునాదిగా థీసిస్ వాక్యాలు నిర్మించడానికి విద్యార్థులందరికీ అదనపు Applied English సమయం ఇస్తారు."
+    },
+    {
+      "text": "Reviews arithmetic and number sense — decimal and fraction operations — before ratios and percentages, integers, variables, equations and inequalities, 2D and 3D geometry, and statistics.",
+      "of": "b97ed71e",
+      "at": [
+        "covenant-day:divisions[1].departments[0].courses[1].description"
+      ],
+      "t": "నిష్పత్తులు, శాతాలు, పూర్ణాంకాలు, చరరాశులు, సమీకరణాలు, అసమానతలు, 2D మరియు 3D జ్యామితి, గణాంకాలకు వెళ్ళే ముందు అంకగణితం, సంఖ్యాజ్ఞానం — దశాంశ, భిన్న ప్రక్రియలు — పునశ్చరణ చేస్తారు."
+    },
+    {
+      "text": "An Old Testament survey, building on events and themes in scripture to deepen understanding of what the Bible teaches about God, humanity and self.",
+      "of": "b63e9c9f",
+      "at": [
+        "covenant-day:divisions[1].departments[0].courses[2].description"
+      ],
+      "t": "పాత నిబంధన సంక్షిప్త పరిచయం; లేఖనాల్లోని సంఘటనలు, ఇతివృత్తాల ఆధారంగా దేవుని గురించి, మానవాళి గురించి, తన గురించి బైబిల్ ఏమి బోధిస్తుందో లోతుగా తెలుసుకుంటారు."
+    },
+    {
+      "text": "Life Science — cells, heredity, DNA, viruses, bacteria, protists and fungi, animals, human body systems, plants and dissection, with lab experiments and projects.",
+      "of": "cb9cfadb",
+      "at": [
+        "covenant-day:divisions[1].departments[0].courses[3].description"
+      ],
+      "t": "జీవశాస్త్రం — కణాలు, అనువంశికత, డీఎన్ఏ, వైరస్‌లు, బ్యాక్టీరియా, ప్రొటిస్టులు, శిలీంధ్రాలు, జంతువులు, మానవ శరీర వ్యవస్థలు, మొక్కలు, విచ్ఛేదనం, వీటితో పాటు ప్రయోగశాల ప్రయోగాలు, ప్రాజెక్టులు."
+    },
+    {
+      "text": "US History Part 1 — the history and geography of the United States from the Jamestown Colony to the Civil War.",
+      "of": "d06bb892",
+      "at": [
+        "covenant-day:divisions[1].departments[0].courses[4].description"
+      ],
+      "t": "అమెరికా చరిత్ర భాగం 1 — జేమ్స్‌టౌన్ కాలనీ నుంచి అంతర్యుద్ధం వరకు అమెరికా చరిత్ర, భౌగోళికం."
+    },
+    {
+      "text": "Greek Mythology as the entry to Latin study in middle school; Spanish is offered as an elective.",
+      "of": "ff98a38e",
+      "at": [
+        "covenant-day:divisions[1].departments[0].courses[5].description"
+      ],
+      "t": "మిడిల్ స్కూల్‌లో లాటిన్ అధ్యయనానికి ప్రవేశ మార్గంగా గ్రీకు పురాణం; స్పానిష్ ఐచ్ఛికంగా అందిస్తారు."
+    },
+    {
+      "text": "Game skills and strategies with personal fitness goals, emphasising life sports and healthy living.",
+      "of": "58e1e497",
+      "at": [
+        "covenant-day:divisions[1].departments[0].courses[6].description"
+      ],
+      "t": "వ్యక్తిగత ఆరోగ్య లక్ష్యాలతో ఆట నైపుణ్యాలు, వ్యూహాలు; జీవితాంతం ఆడగలిగే ఆటలకు, ఆరోగ్యకరమైన జీవనశైలికి ప్రాధాన్యం."
+    },
+    {
+      "text": "7th Grade",
+      "of": "332e4a31",
+      "at": [
+        "covenant-day:divisions[1].departments[1].name"
+      ],
+      "t": "7వ తరగతి"
+    },
+    {
+      "text": "Persuasive, informative, narrative and research-based writing alongside complex texts, more advanced grammar, and Greek and Latin roots; all students get extra Applied English time.",
+      "of": "367b8bdb",
+      "at": [
+        "covenant-day:divisions[1].departments[1].courses[0].description"
+      ],
+      "t": "సంక్లిష్ట పాఠాలు, మరింత ఉన్నత వ్యాకరణం, గ్రీకు-లాటిన్ మూలాలతో పాటు ఒప్పించే, సమాచార, కథన, పరిశోధన ఆధారిత రచన; విద్యార్థులందరికీ అదనపు Applied English సమయం ఇస్తారు."
+    },
+    {
+      "text": "English Honors",
+      "of": "e0b140d8",
+      "at": [
+        "covenant-day:divisions[1].departments[1].courses[1].title",
+        "covenant-day:divisions[1].departments[2].courses[1].title"
+      ],
+      "t": "English Honors"
+    },
+    {
+      "text": "Deeper literary analysis within a biblical worldview — multi-paragraph argumentative essays with thesis, textual evidence and commentary, plus expository writing and accelerated language conventions.",
+      "of": "569efd69",
+      "at": [
+        "covenant-day:divisions[1].departments[1].courses[1].description"
+      ],
+      "t": "బైబిల్ ప్రపంచ దృక్పథంలో మరింత లోతైన సాహిత్య విశ్లేషణ — థీసిస్, పాఠ ఆధారాలు, వ్యాఖ్యానంతో బహుళ-పేరా వాద వ్యాసాలు, వీటితో పాటు వివరణాత్మక రచన, వేగవంతమైన భాషా సంప్రదాయాలు."
+    },
+    {
+      "text": "Ratios and proportional relationships, unit conversions, integers across all operations, order of operations and expressions, equations and inequalities, geometry, statistics and probability.",
+      "of": "26877543",
+      "at": [
+        "covenant-day:divisions[1].departments[1].courses[2].description"
+      ],
+      "t": "నిష్పత్తులు, అనుపాత సంబంధాలు, ప్రమాణ మార్పిడులు, అన్ని ప్రక్రియల్లో పూర్ణాంకాలు, ప్రక్రియల క్రమం, సమాసాలు, సమీకరణాలు, అసమానతలు, జ్యామితి, గణాంకాలు, సంభావ్యత."
+    },
+    {
+      "text": "Math Honors (Pre-Algebra)",
+      "of": "2b79b7ab",
+      "at": [
+        "covenant-day:divisions[1].departments[1].courses[3].title"
+      ],
+      "t": "Math Honors (Pre-Algebra)"
+    },
+    {
+      "text": "Introduces algebra through equations and inequalities, exponent rules, linear relations and functions, radicals, angle relationships, angles and polygons, and unit conversions.",
+      "of": "2e40610e",
+      "at": [
+        "covenant-day:divisions[1].departments[1].courses[3].description",
+        "covenant-day:divisions[1].departments[2].courses[2].description"
+      ],
+      "t": "సమీకరణాలు, అసమానతలు, ఘాతాంక నియమాలు, రేఖీయ సంబంధాలు, ప్రమేయాలు, కరణులు, కోణ సంబంధాలు, కోణాలు, బహుభుజులు, ప్రమాణ మార్పిడుల ద్వారా బీజగణితాన్ని పరిచయం చేస్తుంది."
+    },
+    {
+      "text": "The Gospels, woven together to show the life of Christ and his fulfilment of Scripture, alongside how to study the Bible and build a habit of personal devotions.",
+      "of": "3efdac45",
+      "at": [
+        "covenant-day:divisions[1].departments[1].courses[4].description"
+      ],
+      "t": "క్రీస్తు జీవితాన్ని, లేఖనాలను ఆయన నెరవేర్చిన తీరును చూపేలా సువార్తలను కలిపి అల్లుతారు; బైబిల్ ఎలా చదవాలి, వ్యక్తిగత ధ్యాన అలవాటు ఎలా పెంచుకోవాలి అనేదీ నేర్పుతారు."
+    },
+    {
+      "text": "Earth science — geology, oceanography, meteorology and astronomy, with lab experiments and projects.",
+      "of": "6bc03e7a",
+      "at": [
+        "covenant-day:divisions[1].departments[1].courses[5].description"
+      ],
+      "t": "భూశాస్త్రం — భూగర్భ శాస్త్రం, సముద్ర శాస్త్రం, వాతావరణ శాస్త్రం, ఖగోళ శాస్త్రం, వీటితో పాటు ప్రయోగశాల ప్రయోగాలు, ప్రాజెక్టులు."
+    },
+    {
+      "text": "The Reconstruction Era to the present day through a biblical lens, built on primary documents written by historical figures.",
+      "of": "33228ed5",
+      "at": [
+        "covenant-day:divisions[1].departments[1].courses[6].description"
+      ],
+      "t": "చారిత్రక వ్యక్తులు రాసిన మూల పత్రాల ఆధారంగా, బైబిల్ దృక్పథంలో పునర్నిర్మాణ యుగం నుంచి నేటి వరకు."
+    },
+    {
+      "text": "Latin IA",
+      "of": "9681a61d",
+      "at": [
+        "covenant-day:divisions[1].departments[1].courses[7].title"
+      ],
+      "t": "Latin IA"
+    },
+    {
+      "text": "The first half of the middle school Latin sequence; Spanish is offered as an elective.",
+      "of": "bc5a2dff",
+      "at": [
+        "covenant-day:divisions[1].departments[1].courses[7].description"
+      ],
+      "t": "మిడిల్ స్కూల్ లాటిన్ క్రమంలో మొదటి సగం; స్పానిష్ ఐచ్ఛికంగా అందిస్తారు."
+    },
+    {
+      "text": "Game skills and strategies with personal fitness goals; students in grades 7–8 may also compete on Covenant Day athletic teams.",
+      "of": "33eff911",
+      "at": [
+        "covenant-day:divisions[1].departments[1].courses[8].description"
+      ],
+      "t": "వ్యక్తిగత ఆరోగ్య లక్ష్యాలతో ఆట నైపుణ్యాలు, వ్యూహాలు; 7–8 తరగతుల విద్యార్థులు Covenant Day క్రీడా జట్లలోనూ పోటీ పడవచ్చు."
+    },
+    {
+      "text": "8th Grade",
+      "of": "c84c5bc8",
+      "at": [
+        "covenant-day:divisions[1].departments[2].name"
+      ],
+      "t": "8వ తరగతి"
+    },
+    {
+      "text": "Informative, narrative and research writing culminating in a research paper, with complex texts, advanced grammar, and cross-discipline research assignments.",
+      "of": "731fe6df",
+      "at": [
+        "covenant-day:divisions[1].departments[2].courses[0].description"
+      ],
+      "t": "సంక్లిష్ట పాఠాలు, ఉన్నత వ్యాకరణం, విభాగాల మధ్య పరిశోధన పనులతో సమాచార, కథన, పరిశోధన రచన — చివరికి ఒక పరిశోధన పత్రంతో ముగుస్తుంది."
+    },
+    {
+      "text": "Rigorous literary analysis across major literary themes, history and culture, with formal and informal responses, analytical essays and creative pieces; syntax awareness and vocabulary expand throughout.",
+      "of": "2e86c234",
+      "at": [
+        "covenant-day:divisions[1].departments[2].courses[1].description"
+      ],
+      "t": "ప్రధాన సాహిత్య ఇతివృత్తాలు, చరిత్ర, సంస్కృతి అంతటా కఠినమైన సాహిత్య విశ్లేషణ; అధికారిక, అనధికారిక స్పందనలు, విశ్లేషణాత్మక వ్యాసాలు, సృజనాత్మక రచనలు; ఏడాది పొడవునా వాక్యనిర్మాణ అవగాహన, పదజాలం విస్తరిస్తాయి."
+    },
+    {
+      "text": "Math Honors (Algebra)",
+      "of": "cb4b9197",
+      "at": [
+        "covenant-day:divisions[1].departments[2].courses[3].title"
+      ],
+      "t": "Math Honors (Algebra)"
+    },
+    {
+      "text": "The real number system, expressions, linear and quadratic equations and their graphs, inequalities, systems of equations, polynomials, relations, functions, and radical and rational expressions.",
+      "of": "9322bae1",
+      "at": [
+        "covenant-day:divisions[1].departments[2].courses[3].description"
+      ],
+      "t": "వాస్తవ సంఖ్యా వ్యవస్థ, సమాసాలు, రేఖీయ మరియు వర్గ సమీకరణాలు వాటి గ్రాఫులు, అసమానతలు, సమీకరణ వ్యవస్థలు, బహుపదులు, సంబంధాలు, ప్రమేయాలు, కరణీయ మరియు అకరణీయ సమాసాలు."
+    },
+    {
+      "text": "Acts and the Pauline Epistles, with practical application and learning to share one’s faith.",
+      "of": "c6daeeeb",
+      "at": [
+        "covenant-day:divisions[1].departments[2].courses[4].description"
+      ],
+      "t": "అపొస్తలుల కార్యములు, పౌలు పత్రికలు; ఆచరణాత్మక అన్వయంతో పాటు తన విశ్వాసాన్ని పంచుకోవడం నేర్చుకుంటారు."
+    },
+    {
+      "text": "Physical science — motion and forces, energy and waves (sound, light and electricity), magnetism and chemistry, with lab experiments and projects.",
+      "of": "13b67030",
+      "at": [
+        "covenant-day:divisions[1].departments[2].courses[5].description"
+      ],
+      "t": "భౌతిక శాస్త్రం — చలనం, బలాలు, శక్తి, తరంగాలు (ధ్వని, కాంతి, విద్యుత్), అయస్కాంతత్వం, రసాయన శాస్త్రం, వీటితో పాటు ప్రయోగశాల ప్రయోగాలు, ప్రాజెక్టులు."
+    },
+    {
+      "text": "World History Part 1 — Mesopotamia, Ancient Egypt, Ancient Greece and Rome through the Middle Ages, including major world religions and how they relate to Christianity.",
+      "of": "89839b45",
+      "at": [
+        "covenant-day:divisions[1].departments[2].courses[6].description"
+      ],
+      "t": "ప్రపంచ చరిత్ర భాగం 1 — మెసొపొటేమియా, ప్రాచీన ఈజిప్టు, ప్రాచీన గ్రీసు, రోమ్ నుంచి మధ్య యుగాల వరకు; ప్రధాన ప్రపంచ మతాలు, క్రైస్తవ మతంతో వాటి సంబంధమూ ఇందులో ఉన్నాయి."
+    },
+    {
+      "text": "Latin IB",
+      "of": "9381a164",
+      "at": [
+        "covenant-day:divisions[1].departments[2].courses[7].title"
+      ],
+      "t": "Latin IB"
+    },
+    {
+      "text": "Completes the middle school Latin sequence; Spanish is offered as an elective.",
+      "of": "a067ded6",
+      "at": [
+        "covenant-day:divisions[1].departments[2].courses[7].description"
+      ],
+      "t": "మిడిల్ స్కూల్ లాటిన్ క్రమాన్ని పూర్తి చేస్తుంది; స్పానిష్ ఐచ్ఛికంగా అందిస్తారు."
+    },
+    {
+      "text": "Game skills and strategies with personal fitness goals; students may also compete on Covenant Day athletic teams.",
+      "of": "00afdbcc",
+      "at": [
+        "covenant-day:divisions[1].departments[2].courses[8].description"
+      ],
+      "t": "వ్యక్తిగత ఆరోగ్య లక్ష్యాలతో ఆట నైపుణ్యాలు, వ్యూహాలు; విద్యార్థులు Covenant Day క్రీడా జట్లలోనూ పోటీ పడవచ్చు."
+    },
+    {
+      "text": "CREATE",
+      "of": "c19230dd",
+      "at": [
+        "covenant-day:divisions[1].departments[3].courses[0].title"
+      ],
+      "t": "CREATE"
+    },
+    {
+      "text": "One of seven electives; students choose two each year.",
+      "of": "51c9dcff",
+      "at": [
+        "covenant-day:divisions[1].departments[3].courses[0].description",
+        "covenant-day:divisions[1].departments[3].courses[1].description",
+        "covenant-day:divisions[1].departments[3].courses[2].description",
+        "covenant-day:divisions[1].departments[3].courses[4].description",
+        "covenant-day:divisions[1].departments[3].courses[5].description",
+        "covenant-day:divisions[1].departments[3].courses[6].description"
+      ],
+      "t": "ఏడు ఐచ్ఛిక కోర్సుల్లో ఒకటి; విద్యార్థులు ప్రతి సంవత్సరం రెండు ఎంచుకుంటారు."
+    },
+    {
+      "text": "Offered as an elective alongside the required Latin sequence.",
+      "of": "bc0898f3",
+      "at": [
+        "covenant-day:divisions[1].departments[3].courses[3].description"
+      ],
+      "t": "తప్పనిసరి లాటిన్ క్రమంతో పాటు ఐచ్ఛికంగా అందిస్తారు."
+    },
+    {
+      "text": "JUNIOR KINDERGARTEN – GRADE 5",
+      "of": "d7fe98a1",
+      "at": [
+        "covenant-day:divisions[2].grades"
+      ],
+      "t": "JUNIOR KINDERGARTEN – GRADE 5"
+    },
+    {
+      "text": "Five to six subject areas described for each of seven grades, plus six named Specials — CREATE Junior, Spanish from Junior Kindergarten, and recorder in 4th before band instruments in 5th.",
+      "of": "c5cc067c",
+      "at": [
+        "covenant-day:divisions[2].teaser"
+      ],
+      "t": "ఏడు తరగతుల్లో ప్రతి దానికీ ఐదు నుంచి ఆరు విషయ రంగాల వివరణ, వాటితో పాటు పేరున్న ఆరు Specials — CREATE Junior, Junior Kindergarten నుంచే స్పానిష్, 5వ తరగతిలో బ్యాండ్ వాయిద్యాలకు ముందు 4వ తరగతిలో రికార్డర్."
+    },
+    {
+      "text": "Covenant Day publishes per-grade subject areas and competencies for JK–5 rather than a named-course catalog. The Specials below are the school’s own named courses; the per-grade rows condense that grade’s published competency description.",
+      "of": "7abf4def",
+      "at": [
+        "covenant-day:divisions[2].notPublished"
+      ],
+      "t": "Covenant Day JK–5 తరగతులకు పేరున్న కోర్సుల పట్టిక బదులు ప్రతి తరగతికీ విషయ రంగాలను, సామర్థ్యాలను ప్రచురిస్తుంది. కింద ఉన్న Specials పాఠశాల స్వంతంగా పేరు పెట్టిన కోర్సులు; తరగతుల వారీ వరుసలు ఆ తరగతికి ప్రచురించిన సామర్థ్య వివరణను సంక్షిప్తం చేస్తాయి."
+    },
+    {
+      "text": "Junior Kindergarten",
+      "of": "5ee6535c",
+      "at": [
+        "covenant-day:divisions[2].departments[0].name"
+      ],
+      "t": "Junior Kindergarten"
+    },
+    {
+      "text": "Phonics through directionality, letter sounds, at least 10 digraphs, CVC sound blending and 5 common exception words; retelling and predicting in comprehension; and forming most lowercase and capital letters.",
+      "of": "f8840d44",
+      "at": [
+        "covenant-day:divisions[2].departments[0].courses[0].description"
+      ],
+      "t": "దిశ, అక్షర ధ్వనులు, కనీసం 10 సంయుక్తాక్షరాలు, CVC ధ్వని కలయిక, 5 సాధారణ మినహాయింపు పదాల ద్వారా ధ్వని శాస్త్రం; అవగాహనలో తిరిగి చెప్పడం, ఊహించడం; ఇంకా చాలావరకు చిన్న, పెద్ద అక్షరాలు రాయడం."
+    },
+    {
+      "text": "Positional relationships and 2D shapes, comparing length, weight and capacity; counting to 20 and backward from 10, number bonds to 5, doubles to 10, subitizing to 5; and repeating patterns, sorting, and comparing quantities to 10.",
+      "of": "05a23605",
+      "at": [
+        "covenant-day:divisions[2].departments[0].courses[1].description"
+      ],
+      "t": "స్థాన సంబంధాలు, 2D ఆకారాలు, పొడవు, బరువు, సామర్థ్యాల పోలిక; 20 వరకు లెక్కించడం, 10 నుంచి వెనక్కి లెక్కించడం, 5 వరకు సంఖ్యా బంధాలు, 10 వరకు రెట్టింపులు, 5 వరకు చూడగానే గుర్తించడం; ఇంకా పునరావృత నమూనాలు, వర్గీకరణ, 10 వరకు పరిమాణాల పోలిక."
+    },
+    {
+      "text": "God’s love through short memorized Scripture passages and key Bible characters, with weekly chapel and lower school Missions Week.",
+      "of": "acbbd185",
+      "at": [
+        "covenant-day:divisions[2].departments[0].courses[2].description"
+      ],
+      "t": "కంఠస్థం చేసిన చిన్న లేఖన భాగాలు, ముఖ్య బైబిల్ పాత్రల ద్వారా దేవుని ప్రేమ; వారానికొక చాపెల్, లోయర్ స్కూల్ మిషన్స్ వీక్‌తో పాటు."
+    },
+    {
+      "text": "Science and Social Studies",
+      "of": "a22a5bd2",
+      "at": [
+        "covenant-day:divisions[2].departments[0].courses[3].title"
+      ],
+      "t": "సైన్స్ మరియు సాంఘిక శాస్త్రం"
+    },
+    {
+      "text": "Exploring the natural world — body parts, seasons, life cycles, plant growth and changing states of matter — alongside significant historical figures, past/present/future, other countries, and community helpers.",
+      "of": "ed426eb3",
+      "at": [
+        "covenant-day:divisions[2].departments[0].courses[3].description"
+      ],
+      "t": "సహజ ప్రపంచాన్ని అన్వేషించడం — శరీర భాగాలు, ఋతువులు, జీవన చక్రాలు, మొక్కల పెరుగుదల, పదార్థ స్థితుల మార్పు — వీటితో పాటు ముఖ్యమైన చారిత్రక వ్యక్తులు, గతం/వర్తమానం/భవిష్యత్తు, ఇతర దేశాలు, సమాజ సేవకులు."
+    },
+    {
+      "text": "Imaginative role-play and performing for an audience, with nursery rhymes and songs alongside a range of materials, tools and art techniques.",
+      "of": "6aebf4f6",
+      "at": [
+        "covenant-day:divisions[2].departments[0].courses[4].description"
+      ],
+      "t": "ఊహాత్మక పాత్రాభినయం, ప్రేక్షకుల ముందు ప్రదర్శన; పిల్లల పాటలు, గీతాలతో పాటు రకరకాల సామగ్రి, పనిముట్లు, కళా పద్ధతులు."
+    },
+    {
+      "text": "Kindergarten",
+      "of": "68541d89",
+      "at": [
+        "covenant-day:divisions[2].departments[1].name"
+      ],
+      "t": "Kindergarten"
+    },
+    {
+      "text": "K",
+      "of": "ce0c068a",
+      "at": [
+        "covenant-day:divisions[2].departments[1].courses[0].tag",
+        "covenant-day:divisions[2].departments[1].courses[1].tag",
+        "covenant-day:divisions[2].departments[1].courses[2].tag",
+        "covenant-day:divisions[2].departments[1].courses[3].tag",
+        "covenant-day:divisions[2].departments[1].courses[4].tag"
+      ],
+      "t": "K"
+    },
+    {
+      "text": "Phonological awareness, short vowel words and sight-word recognition; story retelling, listening comprehension and verbal reasoning; handwriting, sentence structure and writing stories.",
+      "of": "c0c7beb3",
+      "at": [
+        "covenant-day:divisions[2].departments[1].courses[0].description"
+      ],
+      "t": "ధ్వని అవగాహన, హ్రస్వ స్వర పదాలు, చూడగానే గుర్తించే పదాలు; కథ తిరిగి చెప్పడం, విని అర్థం చేసుకోవడం, మౌఖిక తార్కికత; చేతిరాత, వాక్య నిర్మాణం, కథలు రాయడం."
+    },
+    {
+      "text": "Math talks with manipulatives — counting and skip counting to 100, number recognition and formation 0–20, place value to 20, geometry, patterns, sorting, measurement, combinations of 10, graphing, estimating and calendar.",
+      "of": "46842447",
+      "at": [
+        "covenant-day:divisions[2].departments[1].courses[1].description"
+      ],
+      "t": "చేతితో పట్టుకునే సామగ్రితో గణిత చర్చలు — 100 వరకు లెక్కించడం, దూకుడు లెక్కింపు, 0–20 సంఖ్యల గుర్తింపు, రాయడం, 20 వరకు స్థాన విలువ, జ్యామితి, నమూనాలు, వర్గీకరణ, కొలత, 10 జతలు, గ్రాఫులు, అంచనా, క్యాలెండర్."
+    },
+    {
+      "text": "Friendship with God and others through group projects, activity centers and classroom community, with weekly chapel, Missions Week, memorized Scripture and Bible characters.",
+      "of": "05ddc586",
+      "at": [
+        "covenant-day:divisions[2].departments[1].courses[2].description"
+      ],
+      "t": "సమూహ ప్రాజెక్టులు, కార్యకలాప కేంద్రాలు, తరగతి సమాజం ద్వారా దేవునితో, ఇతరులతో స్నేహం; వారానికొక చాపెల్, మిషన్స్ వీక్, కంఠస్థం చేసిన లేఖనాలు, బైబిల్ పాత్రలతో పాటు."
+    },
+    {
+      "text": "God’s strength in the oceans, creative patterns through the seasons, and animal life cycles.",
+      "of": "3c695181",
+      "at": [
+        "covenant-day:divisions[2].departments[1].courses[3].description"
+      ],
+      "t": "సముద్రాల్లో దేవుని బలం, ఋతువుల్లో సృష్టి నమూనాలు, జంతువుల జీవన చక్రాలు."
+    },
+    {
+      "text": "Explorers, pilgrims and Native Americans, famous artists and holidays, and world cultures and traditions as a way into empathy for others.",
+      "of": "e5fc2900",
+      "at": [
+        "covenant-day:divisions[2].departments[1].courses[4].description"
+      ],
+      "t": "అన్వేషకులు, పిల్‌గ్రిమ్‌లు, స్థానిక అమెరికన్లు, ప్రసిద్ధ కళాకారులు, పండుగలు; ఇతరుల పట్ల సానుభూతికి దారిగా ప్రపంచ సంస్కృతులు, సంప్రదాయాలు."
+    },
+    {
+      "text": "First Grade",
+      "of": "0633b25e",
+      "at": [
+        "covenant-day:divisions[2].departments[2].name"
+      ],
+      "t": "1వ తరగతి"
+    },
+    {
+      "text": "Gr 1",
+      "of": "ee2678bf",
+      "at": [
+        "covenant-day:divisions[2].departments[2].courses[0].tag",
+        "covenant-day:divisions[2].departments[2].courses[1].tag",
+        "covenant-day:divisions[2].departments[2].courses[2].tag",
+        "covenant-day:divisions[2].departments[2].courses[3].tag",
+        "covenant-day:divisions[2].departments[2].courses[4].tag"
+      ],
+      "t": "Gr 1"
+    },
+    {
+      "text": "Phonics and spelling through decoding and fluency; grammar covering parts of speech, capitalization and sentence types; comprehension from retelling to cause/effect and fact/opinion; and personal narrative, opinion and informational writing.",
+      "of": "d78fd7b1",
+      "at": [
+        "covenant-day:divisions[2].departments[2].courses[0].description"
+      ],
+      "t": "అక్షర విడదీత, పఠన సాఫీతనం ద్వారా ధ్వని శాస్త్రం, అక్షరక్రమం; భాషా భాగాలు, పెద్ద అక్షరాల వాడకం, వాక్య రకాలతో వ్యాకరణం; తిరిగి చెప్పడం నుంచి కారణం/ఫలితం, వాస్తవం/అభిప్రాయం వరకు అవగాహన; ఇంకా వ్యక్తిగత కథనం, అభిప్రాయం, సమాచార రచన."
+    },
+    {
+      "text": "Place value to 100 and numbers to 120, number bonds, addition and subtraction to 100, ordinal numbers, 2D and 3D shapes, mental math, customary length and weight, picture and bar graphs, money, calendar and time.",
+      "of": "e4d8dcdf",
+      "at": [
+        "covenant-day:divisions[2].departments[2].courses[1].description"
+      ],
+      "t": "100 వరకు స్థాన విలువ, 120 వరకు సంఖ్యలు, సంఖ్యా బంధాలు, 100 వరకు కూడిక తీసివేత, క్రమ సంఖ్యలు, 2D మరియు 3D ఆకారాలు, మానసిక గణితం, సంప్రదాయ పొడవు బరువు, చిత్ర మరియు కమ్మీ గ్రాఫులు, డబ్బు, క్యాలెండర్, సమయం."
+    },
+    {
+      "text": "Abraham, Isaac and Jacob, Joseph, Moses, Israel and the Promised Land, then Judges and Ruth, Samuel and Saul, David and Solomon, the divided kingdom, exile and return, Psalms and Proverbs.",
+      "of": "930bc3e5",
+      "at": [
+        "covenant-day:divisions[2].departments[2].courses[2].description"
+      ],
+      "t": "అబ్రాహాము, ఇస్సాకు, యాకోబు, యోసేపు, మోషే, ఇశ్రాయేలు, వాగ్దాన భూమి; తరువాత న్యాయాధిపతులు, రూతు, సమూయేలు, సౌలు, దావీదు, సొలొమోను, విభజిత రాజ్యం, ప్రవాసం, తిరిగి రాక, కీర్తనలు, సామెతలు."
+    },
+    {
+      "text": "Seasonal patterns, plants, light and sound waves, animal behaviors and habitats.",
+      "of": "8b3bd7d6",
+      "at": [
+        "covenant-day:divisions[2].departments[2].courses[3].description"
+      ],
+      "t": "ఋతువుల నమూనాలు, మొక్కలు, కాంతి, ధ్వని తరంగాలు, జంతువుల ప్రవర్తనలు, ఆవాసాలు."
+    },
+    {
+      "text": "Safety, laws and responsible citizenship, with units on home, school and community, map skills, and past, present and future events.",
+      "of": "3800f9a5",
+      "at": [
+        "covenant-day:divisions[2].departments[2].courses[4].description"
+      ],
+      "t": "భద్రత, చట్టాలు, బాధ్యతాయుత పౌరసత్వం; ఇల్లు, పాఠశాల, సమాజంపై పాఠాలు, పటాల నైపుణ్యాలు, గత, వర్తమాన, భవిష్యత్ సంఘటనలు."
+    },
+    {
+      "text": "Second Grade",
+      "of": "12e3a7f2",
+      "at": [
+        "covenant-day:divisions[2].departments[3].name"
+      ],
+      "t": "2వ తరగతి"
+    },
+    {
+      "text": "Gr 2",
+      "of": "ef267a52",
+      "at": [
+        "covenant-day:divisions[2].departments[3].courses[0].tag",
+        "covenant-day:divisions[2].departments[3].courses[1].tag",
+        "covenant-day:divisions[2].departments[3].courses[2].tag",
+        "covenant-day:divisions[2].departments[3].courses[3].tag",
+        "covenant-day:divisions[2].departments[3].courses[4].tag"
+      ],
+      "t": "Gr 2"
+    },
+    {
+      "text": "Decoding and encoding short, long-vowel and multi-syllabic words; grammar through contractions and sentence types; comprehension including sequencing and verbal reasoning; and expanded narrative and informational writing in print and cursive.",
+      "of": "5b9d84c6",
+      "at": [
+        "covenant-day:divisions[2].departments[3].courses[0].description"
+      ],
+      "t": "హ్రస్వ, దీర్ఘ స్వర, బహు అక్షర పదాలను చదవడం, రాయడం; సంక్షిప్త రూపాలు, వాక్య రకాల వరకు వ్యాకరణం; క్రమంలో అమర్చడం, మౌఖిక తార్కికతతో సహా అవగాహన; ఇంకా అచ్చు, చేతిరాతల్లో విస్తృత కథన, సమాచార రచన."
+    },
+    {
+      "text": "Fact families to 20, mental math and estimation, place value to 1,000, 2- and 3-digit addition and subtraction, an introduction to fractions, multiplication and division, time, money, customary and metric measurement, and bar-model problem solving.",
+      "of": "fd40ee8c",
+      "at": [
+        "covenant-day:divisions[2].departments[3].courses[1].description"
+      ],
+      "t": "20 వరకు సంఖ్యా కుటుంబాలు, మానసిక గణితం, అంచనా, 1,000 వరకు స్థాన విలువ, 2, 3 అంకెల కూడిక తీసివేత, భిన్నాల పరిచయం, గుణకారం భాగహారం, సమయం, డబ్బు, సంప్రదాయ మరియు మెట్రిక్ కొలతలు, కమ్మీ నమూనాలతో సమస్యా పరిష్కారం."
+    },
+    {
+      "text": "An Old Testament review via the Jesse Tree and the intertestamental period, then the New Testament — Jesus’ birth, ministry, miracles, parables, crucifixion and resurrection — closing with the early church and Paul’s journeys.",
+      "of": "e81419c9",
+      "at": [
+        "covenant-day:divisions[2].departments[3].courses[2].description"
+      ],
+      "t": "యెష్షయి వృక్షం, రెండు నిబంధనల మధ్య కాలం ద్వారా పాత నిబంధన పునశ్చరణ; తరువాత కొత్త నిబంధన — యేసు జననం, పరిచర్య, అద్భుతాలు, ఉపమానాలు, సిలువ మరణం, పునరుత్థానం — చివరగా తొలి సంఘం, పౌలు ప్రయాణాలు."
+    },
+    {
+      "text": "The human body, life cycles, insects, oceanography, animal behaviors and interactions with matter.",
+      "of": "c824babd",
+      "at": [
+        "covenant-day:divisions[2].departments[3].courses[3].description"
+      ],
+      "t": "మానవ శరీరం, జీవన చక్రాలు, కీటకాలు, సముద్ర శాస్త్రం, జంతువుల ప్రవర్తనలు, పదార్థంతో వాటి పరస్పర చర్యలు."
+    },
+    {
+      "text": "Immigration, geography’s influence on communities, community helpers and resources, globes and map skills, holidays and world culture, plus how officials are elected and how history shapes a community’s heritage.",
+      "of": "280e74c3",
+      "at": [
+        "covenant-day:divisions[2].departments[3].courses[4].description"
+      ],
+      "t": "వలసలు, సమాజాలపై భౌగోళిక ప్రభావం, సమాజ సేవకులు, వనరులు, భూగోళాలు, పటాల నైపుణ్యాలు, పండుగలు, ప్రపంచ సంస్కృతి; వీటితో పాటు ప్రజాప్రతినిధులు ఎలా ఎన్నికవుతారు, ఒక సమాజ వారసత్వాన్ని చరిత్ర ఎలా తీర్చిదిద్దుతుంది."
+    },
+    {
+      "text": "Third Grade",
+      "of": "aebdcf3d",
+      "at": [
+        "covenant-day:divisions[2].departments[4].name"
+      ],
+      "t": "3వ తరగతి"
+    },
+    {
+      "text": "Gr 3",
+      "of": "f0267be5",
+      "at": [
+        "covenant-day:divisions[2].departments[4].courses[0].tag",
+        "covenant-day:divisions[2].departments[4].courses[1].tag",
+        "covenant-day:divisions[2].departments[4].courses[2].tag",
+        "covenant-day:divisions[2].departments[4].courses[3].tag",
+        "covenant-day:divisions[2].departments[4].courses[4].tag"
+      ],
+      "t": "Gr 3"
+    },
+    {
+      "text": "Spelling patterns, rules and syllable division; grammar across synonyms, antonyms, homonyms, prepositions and irregular verbs; comprehension through inference and author’s purpose; and simple, compound and four sentence types in composition.",
+      "of": "9dba593e",
+      "at": [
+        "covenant-day:divisions[2].departments[4].courses[0].description"
+      ],
+      "t": "అక్షరక్రమ నమూనాలు, నియమాలు, అక్షర విభజన; పర్యాయ, వ్యతిరేక, సమోచ్చారణ పదాలు, విభక్తులు, అక్రమ క్రియలతో వ్యాకరణం; ఊహ, రచయిత ఉద్దేశం ద్వారా అవగాహన; ఇంకా రచనలో సరళ, సంయుక్త వాక్యాలు, నాలుగు వాక్య రకాలు."
+    },
+    {
+      "text": "Place value to 10,000, rounding, mental math and estimation, bar models for word problems, multiplication facts 0–12, 1- and 2-digit multiplication and division, fractions and decimals, angles and lines, area and perimeter, and measurement conversions.",
+      "of": "eb65540d",
+      "at": [
+        "covenant-day:divisions[2].departments[4].courses[1].description"
+      ],
+      "t": "10,000 వరకు స్థాన విలువ, సవరణ, మానసిక గణితం, అంచనా, పద సమస్యలకు కమ్మీ నమూనాలు, 0–12 ఎక్కాలు, 1, 2 అంకెల గుణకారం భాగహారం, భిన్నాలు, దశాంశాలు, కోణాలు, రేఖలు, వైశాల్యం, చుట్టుకొలత, కొలత మార్పిడులు."
+    },
+    {
+      "text": "Creation, the fall, Noah, the Tower of Babel, Abraham, Isaac, Jacob, Joseph, the Exodus, the ten commandments, the wilderness and the Promised Land, closing with a book study of Ephesians.",
+      "of": "48152969",
+      "at": [
+        "covenant-day:divisions[2].departments[4].courses[2].description"
+      ],
+      "t": "సృష్టి, పతనం, నోవహు, బాబెలు గోపురం, అబ్రాహాము, ఇస్సాకు, యాకోబు, యోసేపు, నిర్గమకాండం, పది ఆజ్ఞలు, అరణ్యం, వాగ్దాన భూమి; చివరగా ఎఫెసీయుల పత్రిక అధ్యయనం."
+    },
+    {
+      "text": "Forces and magnetism, the earth and the activity on it, plants, animals and fossils.",
+      "of": "223b42ce",
+      "at": [
+        "covenant-day:divisions[2].departments[4].courses[3].description"
+      ],
+      "t": "బలాలు, అయస్కాంతత్వం, భూమి, దానిపై జరిగే కార్యకలాపాలు, మొక్కలు, జంతువులు, శిలాజాలు."
+    },
+    {
+      "text": "How events, individuals and ideas have shaped communities — especially Charlotte, NC — plus major landforms and their impact on people, industry and the economy, and the 13 American colonies.",
+      "of": "d2050df7",
+      "at": [
+        "covenant-day:divisions[2].departments[4].courses[4].description"
+      ],
+      "t": "సంఘటనలు, వ్యక్తులు, ఆలోచనలు సమాజాలను ఎలా తీర్చిదిద్దాయి — ముఖ్యంగా నార్త్ కరోలినాలోని Charlotte — వీటితో పాటు ప్రధాన భూస్వరూపాలు, ప్రజలు, పరిశ్రమ, ఆర్థిక వ్యవస్థపై వాటి ప్రభావం, ఇంకా 13 అమెరికన్ కాలనీలు."
+    },
+    {
+      "text": "Fourth Grade",
+      "of": "df5b922e",
+      "at": [
+        "covenant-day:divisions[2].departments[5].name"
+      ],
+      "t": "4వ తరగతి"
+    },
+    {
+      "text": "Word analysis, fluency and vocabulary using glossaries, dictionaries and thesauruses; morphology and spelling rules with sentence parts and subject-verb agreement; comprehension through inference and author’s viewpoint; and writing for different purposes and audiences.",
+      "of": "77a2caf1",
+      "at": [
+        "covenant-day:divisions[2].departments[5].courses[0].description"
+      ],
+      "t": "పద కోశాలు, నిఘంటువులు, పర్యాయపద కోశాల సాయంతో పద విశ్లేషణ, సాఫీతనం, పదజాలం; వాక్య భాగాలు, కర్త-క్రియ అనుసంధానంతో రూప శాస్త్రం, అక్షరక్రమ నియమాలు; ఊహ, రచయిత దృక్కోణం ద్వారా అవగాహన; ఇంకా వేర్వేరు ప్రయోజనాలకు, పాఠకులకు రచన."
+    },
+    {
+      "text": "Multi-digit operations, common multiples and factors, mean, median, mode and range, fractions and decimals across all four operations, customary and metric measurement, perimeter and area, lines and angles, quadrilaterals, congruence and symmetry, and multi-step bar models.",
+      "of": "5bf9b374",
+      "at": [
+        "covenant-day:divisions[2].departments[5].courses[1].description"
+      ],
+      "t": "బహు అంకెల ప్రక్రియలు, ఉమ్మడి గుణిజాలు కారణాంకాలు, సగటు, మధ్యగతం, బాహుళకం, వ్యాప్తి, నాలుగు ప్రక్రియల్లో భిన్నాలు దశాంశాలు, సంప్రదాయ మరియు మెట్రిక్ కొలతలు, చుట్టుకొలత వైశాల్యం, రేఖలు కోణాలు, చతుర్భుజాలు, సర్వసమానత సౌష్టవం, బహు దశల కమ్మీ నమూనాలు."
+    },
+    {
+      "text": "Philippians, Judges, Joshua, Kings Saul, David and Solomon, Ruth, Samuel, the divided kingdom, the feast of trumpets, the day of atonement, and the fruit of the spirit.",
+      "of": "f5ab1491",
+      "at": [
+        "covenant-day:divisions[2].departments[5].courses[2].description"
+      ],
+      "t": "ఫిలిప్పీయులు, న్యాయాధిపతులు, యెహోషువ, రాజులు సౌలు, దావీదు, సొలొమోను, రూతు, సమూయేలు, విభజిత రాజ్యం, బూరల పండుగ, ప్రాయశ్చిత్త దినం, ఆత్మ ఫలం."
+    },
+    {
+      "text": "Energy, speed and moving objects, waves, the earth’s features, natural hazards, and structures and functions.",
+      "of": "3b3e965e",
+      "at": [
+        "covenant-day:divisions[2].departments[5].courses[3].description"
+      ],
+      "t": "శక్తి, వేగం, కదిలే వస్తువులు, తరంగాలు, భూమి లక్షణాలు, ప్రకృతి విపత్తులు, నిర్మాణాలు, వాటి పనితీరు."
+    },
+    {
+      "text": "North Carolina — its regions, history and government, and the environmental and technological factors shaping the state’s growth.",
+      "of": "ae8894ac",
+      "at": [
+        "covenant-day:divisions[2].departments[5].courses[4].description"
+      ],
+      "t": "నార్త్ కరోలినా — దాని ప్రాంతాలు, చరిత్ర, ప్రభుత్వం; రాష్ట్ర వృద్ధిని తీర్చిదిద్దే పర్యావరణ, సాంకేతిక అంశాలు."
+    },
+    {
+      "text": "Fifth Grade",
+      "of": "ddfda45d",
+      "at": [
+        "covenant-day:divisions[2].departments[6].name"
+      ],
+      "t": "5వ తరగతి"
+    },
+    {
+      "text": "Parts of speech, analogies, subjects and predicates, prepositional phrases and clauses; comprehension across fiction, fantasy, biography, historical fiction, non-fiction and poetry; and descriptive, narrative, expository and persuasive writing plus literary analysis.",
+      "of": "553c68ca",
+      "at": [
+        "covenant-day:divisions[2].departments[6].courses[0].description"
+      ],
+      "t": "భాషా భాగాలు, సాదృశ్యాలు, కర్తలు, విధేయాలు, విభక్తి సమాసాలు, ఉపవాక్యాలు; కల్పన, ఫాంటసీ, జీవిత చరిత్ర, చారిత్రక కల్పన, కల్పనేతర రచన, కవిత్వం అంతటా అవగాహన; ఇంకా వర్ణనాత్మక, కథన, వివరణాత్మక, ఒప్పించే రచన, సాహిత్య విశ్లేషణ."
+    },
+    {
+      "text": "Place value to 10,000,000, mental math and estimation, multi-digit multiplication and division, fractions, bar-graph problem-solving models, algebraic thinking, area and perimeter, ratios, decimals and percents, graphs, probability and types of angles.",
+      "of": "c7ddaff9",
+      "at": [
+        "covenant-day:divisions[2].departments[6].courses[1].description"
+      ],
+      "t": "10,000,000 వరకు స్థాన విలువ, మానసిక గణితం, అంచనా, బహు అంకెల గుణకారం భాగహారం, భిన్నాలు, సమస్యా పరిష్కారానికి కమ్మీ గ్రాఫు నమూనాలు, బీజగణిత ఆలోచన, వైశాల్యం చుట్టుకొలత, నిష్పత్తులు, దశాంశాలు శాతాలు, గ్రాఫులు, సంభావ్యత, కోణ రకాలు."
+    },
+    {
+      "text": "1 Peter, Old Testament covenants, Judah’s return, the writers of the Gospels, Rosh Hashanah, Yom Kippur, Hannukah, Passover, and Jesus’ birth, ministry, parables, death and resurrection.",
+      "of": "a0d61196",
+      "at": [
+        "covenant-day:divisions[2].departments[6].courses[2].description"
+      ],
+      "t": "1 పేతురు, పాత నిబంధన నిబంధనలు, యూదా తిరిగి రాక, సువార్త రచయితలు, రోష్ హషానా, యోమ్ కిప్పూర్, హనుక్కా, పస్కా, ఇంకా యేసు జననం, పరిచర్య, ఉపమానాలు, మరణం, పునరుత్థానం."
+    },
+    {
+      "text": "Chemical and physical property change, gravity, energy, photosynthesis and plant decomposition, and earth systems.",
+      "of": "bdb83b3a",
+      "at": [
+        "covenant-day:divisions[2].departments[6].courses[3].description"
+      ],
+      "t": "రసాయన, భౌతిక ధర్మాల మార్పు, గురుత్వాకర్షణ, శక్తి, కిరణజన్య సంయోగక్రియ, మొక్కల కుళ్ళుదల, భూ వ్యవస్థలు."
+    },
+    {
+      "text": "World and state geography, ancient Mesopotamia, Greece and Rome, Vikings, Medieval Europe, the Renaissance and Reformation, the Age of Exploration, and the Mayas, Incas and Aztecs.",
+      "of": "a9542e5f",
+      "at": [
+        "covenant-day:divisions[2].departments[6].courses[4].description"
+      ],
+      "t": "ప్రపంచ, రాష్ట్ర భౌగోళికం, ప్రాచీన మెసొపొటేమియా, గ్రీసు, రోమ్, వైకింగ్‌లు, మధ్యయుగ ఐరోపా, పునరుజ్జీవనం, సంస్కరణ, అన్వేషణ యుగం, ఇంకా మాయా, ఇన్కా, ఆజ్‌టెక్ నాగరికతలు."
+    },
+    {
+      "text": "Specials",
+      "of": "244e8099",
+      "at": [
+        "covenant-day:divisions[2].departments[7].name",
+        "davidson-day:divisions[0].departments[0].courses[1].title"
+      ],
+      "t": "Specials"
+    },
+    {
+      "text": "JK–Gr 5",
+      "of": "32eebe81",
+      "at": [
+        "covenant-day:divisions[2].departments[7].courses[0].tag",
+        "covenant-day:divisions[2].departments[7].courses[1].tag",
+        "covenant-day:divisions[2].departments[7].courses[2].tag",
+        "covenant-day:divisions[2].departments[7].courses[3].tag",
+        "covenant-day:divisions[2].departments[7].courses[4].tag",
+        "covenant-day:divisions[2].departments[7].courses[5].tag"
+      ],
+      "t": "JK–Gr 5"
+    },
+    {
+      "text": "Skill, craftsmanship, beauty, clarity and balance practiced through painting, sketching, ceramics, printmaking, landscapes and portraits, shown at the annual spring Art Walk.",
+      "of": "c401dd07",
+      "at": [
+        "covenant-day:divisions[2].departments[7].courses[0].description"
+      ],
+      "t": "చిత్రలేఖనం, గీత చిత్రాలు, మృణ్మయ కళ, ముద్రణ కళ, ప్రకృతి దృశ్యాలు, ముఖ చిత్రాల ద్వారా నైపుణ్యం, హస్తకళా నైపుణ్యం, సౌందర్యం, స్పష్టత, సమతుల్యత సాధన; ఏటా వసంతంలో జరిగే Art Walk‌లో ప్రదర్శన."
+    },
+    {
+      "text": "Vocal, instrumental and percussion music across classical and modern composers; 4th grade learns recorder and 5th grade band instruments, with a children’s choir and private piano, vocal and guitar lessons available.",
+      "of": "8a74cd7d",
+      "at": [
+        "covenant-day:divisions[2].departments[7].courses[1].description"
+      ],
+      "t": "శాస్త్రీయ, ఆధునిక స్వరకర్తల గాత్ర, వాయిద్య, తాళ వాద్య సంగీతం; 4వ తరగతి రికార్డర్, 5వ తరగతి బ్యాండ్ వాయిద్యాలు నేర్చుకుంటాయి; పిల్లల గాయక బృందం, పియానో, గాత్రం, గిటార్ ప్రైవేటు పాఠాలు అందుబాటులో ఉన్నాయి."
+    },
+    {
+      "text": "CREATE Junior",
+      "of": "df24f2e2",
+      "at": [
+        "covenant-day:divisions[2].departments[7].courses[2].title"
+      ],
+      "t": "CREATE Junior"
+    },
+    {
+      "text": "Integrates technology and critical thinking with each grade’s content areas through science, technology, math and engineering — the precursor to the Middle School’s CREATE.",
+      "of": "1fb9cf66",
+      "at": [
+        "covenant-day:divisions[2].departments[7].courses[2].description"
+      ],
+      "t": "సైన్స్, సాంకేతికత, గణితం, ఇంజినీరింగ్ ద్వారా ప్రతి తరగతి విషయాంశాలతో సాంకేతికతను, విమర్శనాత్మక ఆలోచనను కలుపుతుంది — మిడిల్ స్కూల్ CREATE‌కు ముందటి దశ."
+    },
+    {
+      "text": "Teaches the language alongside the culture, studying the holidays, geography and traditions of Spanish communities.",
+      "of": "1ed3e5f5",
+      "at": [
+        "covenant-day:divisions[2].departments[7].courses[3].description"
+      ],
+      "t": "స్పానిష్ మాట్లాడే సమాజాల పండుగలు, భౌగోళికం, సంప్రదాయాలను చదివిస్తూ భాషతో పాటు సంస్కృతినీ నేర్పుతుంది."
+    },
+    {
+      "text": "Weekly athletic skills and endurance work built on developmentally appropriate lessons, with the Turkey Trot and Field Day as highlights.",
+      "of": "16160081",
+      "at": [
+        "covenant-day:divisions[2].departments[7].courses[4].description"
+      ],
+      "t": "వయసుకు తగిన పాఠాల ఆధారంగా వారానికొకసారి క్రీడా నైపుణ్యాలు, ఓర్పు సాధన; Turkey Trot, Field Day ముఖ్య ఆకర్షణలు."
+    },
+    {
+      "text": "Finding books and developing research skills in print and online, with the Readers Are Leaders program encouraging reading for pleasure with a purpose.",
+      "of": "5a001d17",
+      "at": [
+        "covenant-day:divisions[2].departments[7].courses[5].description"
+      ],
+      "t": "అచ్చులోనూ ఆన్‌లైన్‌లోనూ పుస్తకాలు వెతకడం, పరిశోధన నైపుణ్యాలు పెంచుకోవడం; ఒక ఉద్దేశంతో ఆనందం కోసం చదవమని ప్రోత్సహించే Readers Are Leaders కార్యక్రమంతో."
     },
     {
       "text": "Age 2 – Grade 4",
@@ -15876,14 +16923,6 @@
         "davidson-day:divisions[0].departments[0].courses[0].description"
       ],
       "t": "Early Preschool (2s/3s), Preschool (3s/4s), మరియు Junior Kindergarten (4s/5s) జ్ఞాన నైపుణ్యాలు, భాషా వికాసం, చలన నైపుణ్యాలు, కార్యనిర్వహణ నైపుణ్యాలు మరియు సామాజిక-భావోద్వేగ క్షేమాన్ని లక్ష్యంగా పెట్టుకుంటాయి."
-    },
-    {
-      "text": "Specials",
-      "of": "244e8099",
-      "at": [
-        "davidson-day:divisions[0].departments[0].courses[1].title"
-      ],
-      "t": "Specials"
     },
     {
       "text": "K–Gr 4",
@@ -16289,6 +17328,44 @@
       "t": "ఉన్నత yearbook విద్యార్థులు ఇతివృత్తం, అమరిక, సిబ్బంది శిక్షణ మరియు వ్యాపార ప్రచారాలలో నాయకత్వ బాధ్యతలు చేపడతారు."
     },
     {
+      "text": "Gr 9–12",
+      "of": "8a72ad6f",
+      "at": [
+        "davidson-day:divisions[2].departments[1].courses[0].tag",
+        "davidson-day:divisions[2].departments[1].courses[2].tag",
+        "davidson-day:divisions[2].departments[4].courses[0].tag",
+        "davidson-day:divisions[2].departments[4].courses[6].tag",
+        "carmel-christian:divisions[0].departments[0].courses[0].tag",
+        "carmel-christian:divisions[0].departments[0].courses[1].tag",
+        "carmel-christian:divisions[0].departments[0].courses[2].tag",
+        "carmel-christian:divisions[0].departments[0].courses[3].tag",
+        "carmel-christian:divisions[0].departments[5].courses[0].tag",
+        "carmel-christian:divisions[0].departments[5].courses[7].tag",
+        "carmel-christian:divisions[0].departments[6].courses[0].tag",
+        "carmel-christian:divisions[0].departments[6].courses[1].tag",
+        "carmel-christian:divisions[0].departments[6].courses[2].tag",
+        "carmel-christian:divisions[0].departments[6].courses[3].tag",
+        "carmel-christian:divisions[0].departments[6].courses[4].tag",
+        "carmel-christian:divisions[0].departments[7].courses[0].tag",
+        "carmel-christian:divisions[0].departments[7].courses[1].tag",
+        "carmel-christian:divisions[0].departments[7].courses[5].tag",
+        "carmel-christian:divisions[0].departments[7].courses[6].tag",
+        "carmel-christian:divisions[0].departments[7].courses[7].tag",
+        "carmel-christian:divisions[0].departments[7].courses[8].tag",
+        "carmel-christian:divisions[0].departments[7].courses[10].tag",
+        "carmel-christian:divisions[0].departments[7].courses[11].tag",
+        "carmel-christian:divisions[0].departments[7].courses[12].tag",
+        "carmel-christian:divisions[0].departments[7].courses[13].tag",
+        "carmel-christian:divisions[0].departments[7].courses[14].tag",
+        "carmel-christian:divisions[0].departments[8].courses[2].tag",
+        "carmel-christian:divisions[0].departments[8].courses[3].tag",
+        "carmel-christian:divisions[0].departments[8].courses[4].tag",
+        "carmel-christian:divisions[0].departments[8].courses[5].tag",
+        "hickory-grove-christian:divisions[0].departments[7].courses[0].tag"
+      ],
+      "t": "Gr 9–12"
+    },
+    {
       "text": "Introduces the fundamental concepts of algebra and their multiple representations, including linear and quadratic equations and polynomials.",
       "of": "f8359616",
       "at": [
@@ -16491,28 +17568,12 @@
       "t": "ప్రపంచ సమన్వయం, పారిశ్రామికీకరణ, వలసవాదం మరియు సైద్ధాంతిక ఘర్షణను కలిగి సుమారు 1200 CE నుంచి కళాశాల స్థాయి సర్వేక్షణ."
     },
     {
-      "text": "U.S. History Honors",
-      "of": "66ac24a4",
-      "at": [
-        "davidson-day:divisions[2].departments[2].courses[4].title"
-      ],
-      "t": "U.S. History Honors"
-    },
-    {
       "text": "Surveys United States history from the peopling of North America to the present through diverse viewpoints and primary-source argumentation.",
       "of": "c6cfcf81",
       "at": [
         "davidson-day:divisions[2].departments[2].courses[4].description"
       ],
       "t": "వైవిధ్యభరిత దృక్కోణాలు మరియు ప్రాథమిక ఆధార వాదన ద్వారా ఉత్తర అమెరికాలో మానవ నివాసం నుంచి నేటి వరకు అమెరికా చరిత్రను సర్వేక్షిస్తుంది."
-    },
-    {
-      "text": "AP U.S. History",
-      "of": "f17effea",
-      "at": [
-        "davidson-day:divisions[2].departments[2].courses[5].title"
-      ],
-      "t": "AP U.S. History"
     },
     {
       "text": "A college-level survey with substantially greater reading — primary documents, cartoons, maps, data sets — pushing students to work like historians.",
@@ -17824,6 +18885,15 @@
       "t": "US government మరియు economics యొక్క honors ట్రాక్."
     },
     {
+      "text": "US History",
+      "of": "9aeceb25",
+      "at": [
+        "carmel-christian:divisions[0].departments[4].courses[4].title",
+        "carmel-christian:divisions[0].departments[4].courses[5].title"
+      ],
+      "t": "US History"
+    },
+    {
       "text": "The standard track of US history.",
       "of": "e59f7649",
       "at": [
@@ -17902,6 +18972,15 @@
         "carmel-christian:divisions[0].departments[4].courses[9].description"
       ],
       "t": "కళాశాల-స్థాయి US government మరియు politics."
+    },
+    {
+      "text": "AP US History",
+      "of": "6ac84760",
+      "at": [
+        "carmel-christian:divisions[0].departments[4].courses[10].title",
+        "hickory-grove-christian:divisions[0].departments[3].courses[0].title"
+      ],
+      "t": "AP US History"
     },
     {
       "text": "AP World History",
@@ -18394,14 +19473,6 @@
         "carmel-christian:divisions[0].departments[8].courses[7].description"
       ],
       "t": "రెండవ AP Capstone కోర్సు, ఒక విద్యా పత్రంతో ముగుస్తుంది."
-    },
-    {
-      "text": "GRADES 6 – 8",
-      "of": "540842be",
-      "at": [
-        "carmel-christian:divisions[1].grades"
-      ],
-      "t": "GRADES 6 – 8"
     },
     {
       "text": "The Middle School publishes its own named-course list — a full academic core plus an unusually broad elective slate — from the 2024-25 Middle School Curriculum Guide.",

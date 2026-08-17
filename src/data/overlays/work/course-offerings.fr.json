@@ -22,6 +22,7 @@
         "charlotte-christian:divisions[0].title",
         "charlotte-country-day:divisions[0].title",
         "cannon:divisions[0].title",
+        "covenant-day:divisions[2].title",
         "davidson-day:divisions[0].title",
         "carmel-christian:divisions[2].title"
       ],
@@ -67,6 +68,16 @@
       "at": [
         "providence-day:divisions[0].departments[0].courses[0].title",
         "charlotte-christian:divisions[0].departments[1].courses[2].title",
+        "covenant-day:divisions[1].departments[0].courses[1].title",
+        "covenant-day:divisions[1].departments[1].courses[2].title",
+        "covenant-day:divisions[1].departments[2].courses[2].title",
+        "covenant-day:divisions[2].departments[0].courses[1].title",
+        "covenant-day:divisions[2].departments[1].courses[1].title",
+        "covenant-day:divisions[2].departments[2].courses[1].title",
+        "covenant-day:divisions[2].departments[3].courses[1].title",
+        "covenant-day:divisions[2].departments[4].courses[1].title",
+        "covenant-day:divisions[2].departments[5].courses[1].title",
+        "covenant-day:divisions[2].departments[6].courses[1].title",
         "carmel-christian:divisions[1].departments[2].name",
         "carmel-christian:divisions[2].departments[0].courses[1].title"
       ],
@@ -116,6 +127,16 @@
       "at": [
         "providence-day:divisions[0].departments[0].courses[1].title",
         "cannon:divisions[0].departments[0].courses[0].title",
+        "covenant-day:divisions[1].departments[0].courses[0].title",
+        "covenant-day:divisions[1].departments[1].courses[0].title",
+        "covenant-day:divisions[1].departments[2].courses[0].title",
+        "covenant-day:divisions[2].departments[0].courses[0].title",
+        "covenant-day:divisions[2].departments[1].courses[0].title",
+        "covenant-day:divisions[2].departments[2].courses[0].title",
+        "covenant-day:divisions[2].departments[3].courses[0].title",
+        "covenant-day:divisions[2].departments[4].courses[0].title",
+        "covenant-day:divisions[2].departments[5].courses[0].title",
+        "covenant-day:divisions[2].departments[6].courses[0].title",
         "carmel-christian:divisions[1].departments[1].name",
         "carmel-christian:divisions[2].departments[0].courses[2].title"
       ],
@@ -150,6 +171,15 @@
         "cannon:divisions[1].departments[0].courses[1].title",
         "cannon:divisions[2].departments[2].name",
         "covenant-day:divisions[0].departments[2].name",
+        "covenant-day:divisions[1].departments[0].courses[3].title",
+        "covenant-day:divisions[1].departments[1].courses[5].title",
+        "covenant-day:divisions[1].departments[2].courses[5].title",
+        "covenant-day:divisions[2].departments[1].courses[3].title",
+        "covenant-day:divisions[2].departments[2].courses[3].title",
+        "covenant-day:divisions[2].departments[3].courses[3].title",
+        "covenant-day:divisions[2].departments[4].courses[3].title",
+        "covenant-day:divisions[2].departments[5].courses[3].title",
+        "covenant-day:divisions[2].departments[6].courses[3].title",
         "davidson-day:divisions[2].departments[3].name",
         "carmel-christian:divisions[0].departments[3].name",
         "carmel-christian:divisions[1].departments[4].name",
@@ -181,6 +211,15 @@
         "cannon:divisions[1].departments[0].courses[2].title",
         "cannon:divisions[2].departments[3].name",
         "covenant-day:divisions[0].departments[3].name",
+        "covenant-day:divisions[1].departments[0].courses[4].title",
+        "covenant-day:divisions[1].departments[1].courses[6].title",
+        "covenant-day:divisions[1].departments[2].courses[6].title",
+        "covenant-day:divisions[2].departments[1].courses[4].title",
+        "covenant-day:divisions[2].departments[2].courses[4].title",
+        "covenant-day:divisions[2].departments[3].courses[4].title",
+        "covenant-day:divisions[2].departments[4].courses[4].title",
+        "covenant-day:divisions[2].departments[5].courses[4].title",
+        "covenant-day:divisions[2].departments[6].courses[4].title",
         "carmel-christian:divisions[0].departments[4].name",
         "carmel-christian:divisions[1].departments[5].name",
         "carmel-christian:divisions[2].departments[0].courses[4].title",
@@ -273,6 +312,9 @@
         "charlotte-latin:divisions[0].departments[2].courses[1].title",
         "charlotte-christian:divisions[0].departments[2].courses[0].title",
         "cannon:divisions[0].departments[2].courses[0].title",
+        "covenant-day:divisions[1].departments[3].courses[1].title",
+        "covenant-day:divisions[2].departments[0].courses[4].title",
+        "covenant-day:divisions[2].departments[7].courses[0].title",
         "carmel-christian:divisions[2].departments[1].courses[0].title"
       ],
       "t": "Art"
@@ -293,6 +335,7 @@
         "charlotte-latin:divisions[0].departments[2].courses[0].title",
         "charlotte-christian:divisions[0].departments[2].courses[1].title",
         "cannon:divisions[0].departments[2].courses[1].title",
+        "covenant-day:divisions[2].departments[7].courses[1].title",
         "carmel-christian:divisions[2].departments[1].courses[3].title"
       ],
       "t": "Music"
@@ -352,6 +395,10 @@
         "cannon:divisions[0].departments[2].courses[2].title",
         "cannon:divisions[1].departments[0].courses[3].title",
         "cannon:divisions[2].departments[7].name",
+        "covenant-day:divisions[1].departments[0].courses[6].title",
+        "covenant-day:divisions[1].departments[1].courses[8].title",
+        "covenant-day:divisions[1].departments[2].courses[8].title",
+        "covenant-day:divisions[2].departments[7].courses[4].title",
         "davidson-day:divisions[2].departments[7].name",
         "carmel-christian:divisions[0].departments[6].courses[1].title",
         "carmel-christian:divisions[1].departments[6].courses[0].title",
@@ -437,7 +484,8 @@
       "at": [
         "providence-day:divisions[0].departments[2].courses[9].title",
         "charlotte-latin:divisions[0].departments[2].courses[4].title",
-        "cannon:divisions[0].departments[3].courses[2].title"
+        "cannon:divisions[0].departments[3].courses[2].title",
+        "covenant-day:divisions[2].departments[7].courses[5].title"
       ],
       "t": "Library"
     },
@@ -458,6 +506,7 @@
         "charlotte-christian:divisions[1].title",
         "charlotte-country-day:divisions[1].title",
         "cannon:divisions[1].title",
+        "covenant-day:divisions[1].title",
         "davidson-day:divisions[1].title",
         "carmel-christian:divisions[1].title"
       ],
@@ -539,6 +588,13 @@
         "charlotte-country-day:divisions[1].departments[5].courses[2].tag",
         "charlotte-country-day:divisions[1].departments[5].courses[6].tag",
         "cannon:divisions[1].departments[2].courses[1].tag",
+        "covenant-day:divisions[1].departments[0].courses[0].tag",
+        "covenant-day:divisions[1].departments[0].courses[1].tag",
+        "covenant-day:divisions[1].departments[0].courses[2].tag",
+        "covenant-day:divisions[1].departments[0].courses[3].tag",
+        "covenant-day:divisions[1].departments[0].courses[4].tag",
+        "covenant-day:divisions[1].departments[0].courses[5].tag",
+        "covenant-day:divisions[1].departments[0].courses[6].tag",
         "davidson-day:divisions[1].departments[0].courses[2].tag",
         "davidson-day:divisions[1].departments[0].courses[4].tag",
         "carmel-christian:divisions[1].departments[0].courses[0].tag",
@@ -596,6 +652,13 @@
         "charlotte-country-day:divisions[1].departments[1].courses[3].tag",
         "charlotte-country-day:divisions[1].departments[2].courses[2].tag",
         "charlotte-country-day:divisions[1].departments[5].courses[3].tag",
+        "covenant-day:divisions[1].departments[1].courses[0].tag",
+        "covenant-day:divisions[1].departments[1].courses[2].tag",
+        "covenant-day:divisions[1].departments[1].courses[4].tag",
+        "covenant-day:divisions[1].departments[1].courses[5].tag",
+        "covenant-day:divisions[1].departments[1].courses[6].tag",
+        "covenant-day:divisions[1].departments[1].courses[7].tag",
+        "covenant-day:divisions[1].departments[1].courses[8].tag",
         "davidson-day:divisions[1].departments[0].courses[5].tag",
         "carmel-christian:divisions[1].departments[0].courses[1].tag",
         "carmel-christian:divisions[1].departments[1].courses[1].tag",
@@ -653,6 +716,13 @@
         "charlotte-country-day:divisions[1].departments[2].courses[3].tag",
         "charlotte-country-day:divisions[1].departments[5].courses[4].tag",
         "cannon:divisions[1].departments[1].courses[3].tag",
+        "covenant-day:divisions[1].departments[2].courses[0].tag",
+        "covenant-day:divisions[1].departments[2].courses[2].tag",
+        "covenant-day:divisions[1].departments[2].courses[4].tag",
+        "covenant-day:divisions[1].departments[2].courses[5].tag",
+        "covenant-day:divisions[1].departments[2].courses[6].tag",
+        "covenant-day:divisions[1].departments[2].courses[7].tag",
+        "covenant-day:divisions[1].departments[2].courses[8].tag",
         "davidson-day:divisions[1].departments[0].courses[7].tag",
         "carmel-christian:divisions[1].departments[0].courses[2].tag",
         "carmel-christian:divisions[1].departments[1].courses[2].tag",
@@ -1358,6 +1428,13 @@
         "providence-day:divisions[1].departments[5].courses[5].tag",
         "providence-day:divisions[1].departments[5].courses[6].tag",
         "providence-day:divisions[1].departments[6].courses[11].tag",
+        "covenant-day:divisions[1].departments[3].courses[0].tag",
+        "covenant-day:divisions[1].departments[3].courses[1].tag",
+        "covenant-day:divisions[1].departments[3].courses[2].tag",
+        "covenant-day:divisions[1].departments[3].courses[3].tag",
+        "covenant-day:divisions[1].departments[3].courses[4].tag",
+        "covenant-day:divisions[1].departments[3].courses[5].tag",
+        "covenant-day:divisions[1].departments[3].courses[6].tag",
         "carmel-christian:divisions[1].departments[6].courses[0].tag",
         "carmel-christian:divisions[1].departments[7].courses[2].tag",
         "carmel-christian:divisions[1].departments[7].courses[3].tag",
@@ -1487,7 +1564,7 @@
       "at": [
         "providence-day:divisions[1].departments[5].courses[2].title",
         "providence-day:divisions[2].departments[6].courses[8].title",
-        "covenant-day:divisions[0].departments[5].courses[9].title"
+        "covenant-day:divisions[0].departments[5].courses[10].title"
       ],
       "t": "Latin 2"
     },
@@ -2327,8 +2404,9 @@
         "cannon:divisions[2].departments[6].courses[1].tag",
         "covenant-day:divisions[0].departments[0].courses[8].tag",
         "covenant-day:divisions[0].departments[0].courses[9].tag",
-        "covenant-day:divisions[0].departments[1].courses[10].tag",
         "covenant-day:divisions[0].departments[1].courses[11].tag",
+        "covenant-day:divisions[0].departments[1].courses[12].tag",
+        "covenant-day:divisions[0].departments[1].courses[13].tag",
         "covenant-day:divisions[0].departments[2].courses[8].tag",
         "covenant-day:divisions[0].departments[2].courses[9].tag",
         "covenant-day:divisions[0].departments[2].courses[10].tag",
@@ -2338,7 +2416,8 @@
         "covenant-day:divisions[0].departments[3].courses[9].tag",
         "covenant-day:divisions[0].departments[3].courses[10].tag",
         "covenant-day:divisions[0].departments[5].courses[4].tag",
-        "covenant-day:divisions[0].departments[5].courses[12].tag",
+        "covenant-day:divisions[0].departments[5].courses[9].tag",
+        "covenant-day:divisions[0].departments[5].courses[13].tag",
         "covenant-day:divisions[0].departments[6].courses[16].tag",
         "davidson-day:divisions[2].departments[0].courses[6].tag",
         "davidson-day:divisions[2].departments[0].courses[7].tag",
@@ -3020,7 +3099,7 @@
       "of": "9e6fb02a",
       "at": [
         "providence-day:divisions[2].departments[2].courses[10].title",
-        "covenant-day:divisions[0].departments[1].courses[8].title"
+        "covenant-day:divisions[0].departments[1].courses[9].title"
       ],
       "t": "Statistics"
     },
@@ -3054,7 +3133,7 @@
       "at": [
         "providence-day:divisions[2].departments[2].courses[12].title",
         "charlotte-country-day:divisions[2].departments[1].courses[13].title",
-        "covenant-day:divisions[0].departments[1].courses[10].title",
+        "covenant-day:divisions[0].departments[1].courses[11].title",
         "davidson-day:divisions[2].departments[1].courses[9].title",
         "carmel-christian:divisions[0].departments[2].courses[11].title",
         "hickory-grove-christian:divisions[0].departments[1].courses[0].title"
@@ -3075,6 +3154,7 @@
       "at": [
         "providence-day:divisions[2].departments[2].courses[13].title",
         "charlotte-country-day:divisions[2].departments[1].courses[14].title",
+        "covenant-day:divisions[0].departments[1].courses[12].title",
         "davidson-day:divisions[2].departments[1].courses[10].title",
         "hickory-grove-christian:divisions[0].departments[1].courses[1].title"
       ],
@@ -3094,7 +3174,7 @@
       "at": [
         "providence-day:divisions[2].departments[2].courses[14].title",
         "charlotte-country-day:divisions[2].departments[1].courses[11].title",
-        "covenant-day:divisions[0].departments[1].courses[11].title",
+        "covenant-day:divisions[0].departments[1].courses[13].title",
         "davidson-day:divisions[2].departments[1].courses[12].title",
         "carmel-christian:divisions[0].departments[2].courses[12].title",
         "hickory-grove-christian:divisions[0].departments[1].courses[2].title"
@@ -3705,7 +3785,8 @@
       "text": "Broadcast Journalism",
       "of": "eb9f0f36",
       "at": [
-        "providence-day:divisions[2].departments[5].courses[0].title"
+        "providence-day:divisions[2].departments[5].courses[0].title",
+        "covenant-day:divisions[1].departments[3].courses[6].title"
       ],
       "t": "Broadcast Journalism"
     },
@@ -3881,7 +3962,8 @@
       "text": "AP Spanish Language",
       "of": "5e3f2f4e",
       "at": [
-        "providence-day:divisions[2].departments[6].courses[6].title"
+        "providence-day:divisions[2].departments[6].courses[6].title",
+        "covenant-day:divisions[0].departments[5].courses[4].title"
       ],
       "t": "AP Spanish Language"
     },
@@ -3962,8 +4044,7 @@
       "of": "6d3b696e",
       "at": [
         "providence-day:divisions[2].departments[6].courses[12].title",
-        "charlotte-country-day:divisions[2].departments[4].courses[13].title",
-        "covenant-day:divisions[0].departments[5].courses[12].title"
+        "charlotte-country-day:divisions[2].departments[4].courses[13].title"
       ],
       "t": "AP Latin"
     },
@@ -4254,7 +4335,8 @@
       "at": [
         "providence-day:divisions[2].departments[8].courses[0].title",
         "charlotte-latin:divisions[2].departments[8].courses[6].title",
-        "charlotte-country-day:divisions[1].departments[4].courses[1].title"
+        "charlotte-country-day:divisions[1].departments[4].courses[1].title",
+        "covenant-day:divisions[1].departments[3].courses[2].title"
       ],
       "t": "Band"
     },
@@ -4556,9 +4638,9 @@
         "covenant-day:divisions[0].departments[0].courses[7].tag",
         "covenant-day:divisions[0].departments[1].courses[2].tag",
         "covenant-day:divisions[0].departments[1].courses[4].tag",
-        "covenant-day:divisions[0].departments[1].courses[6].tag",
         "covenant-day:divisions[0].departments[1].courses[7].tag",
-        "covenant-day:divisions[0].departments[1].courses[9].tag",
+        "covenant-day:divisions[0].departments[1].courses[8].tag",
+        "covenant-day:divisions[0].departments[1].courses[10].tag",
         "covenant-day:divisions[0].departments[2].courses[1].tag",
         "covenant-day:divisions[0].departments[2].courses[3].tag",
         "covenant-day:divisions[0].departments[2].courses[4].tag",
@@ -4571,13 +4653,17 @@
         "covenant-day:divisions[0].departments[5].courses[3].tag",
         "covenant-day:divisions[0].departments[5].courses[7].tag",
         "covenant-day:divisions[0].departments[5].courses[8].tag",
-        "covenant-day:divisions[0].departments[5].courses[10].tag",
         "covenant-day:divisions[0].departments[5].courses[11].tag",
+        "covenant-day:divisions[0].departments[5].courses[12].tag",
         "covenant-day:divisions[0].departments[6].courses[1].tag",
         "covenant-day:divisions[0].departments[6].courses[3].tag",
         "covenant-day:divisions[0].departments[6].courses[6].tag",
         "covenant-day:divisions[0].departments[6].courses[14].tag",
         "covenant-day:divisions[0].departments[6].courses[15].tag",
+        "covenant-day:divisions[1].departments[1].courses[1].tag",
+        "covenant-day:divisions[1].departments[1].courses[3].tag",
+        "covenant-day:divisions[1].departments[2].courses[1].tag",
+        "covenant-day:divisions[1].departments[2].courses[3].tag",
         "davidson-day:divisions[1].departments[0].courses[8].tag",
         "davidson-day:divisions[1].departments[0].courses[9].tag",
         "davidson-day:divisions[2].departments[0].courses[1].tag",
@@ -4999,6 +5085,8 @@
         "charlotte-christian:divisions[0].departments[2].courses[4].title",
         "charlotte-country-day:divisions[1].departments[3].courses[0].title",
         "cannon:divisions[0].departments[1].courses[0].title",
+        "covenant-day:divisions[1].departments[3].courses[3].title",
+        "covenant-day:divisions[2].departments[7].courses[3].title",
         "carmel-christian:divisions[1].departments[3].name",
         "carmel-christian:divisions[2].departments[1].courses[1].title"
       ],
@@ -5061,6 +5149,11 @@
         "charlotte-country-day:divisions[1].departments[5].courses[1].tag",
         "charlotte-country-day:divisions[1].departments[5].courses[5].tag",
         "cannon:divisions[1].departments[2].courses[0].tag",
+        "covenant-day:divisions[2].departments[6].courses[0].tag",
+        "covenant-day:divisions[2].departments[6].courses[1].tag",
+        "covenant-day:divisions[2].departments[6].courses[2].tag",
+        "covenant-day:divisions[2].departments[6].courses[3].tag",
+        "covenant-day:divisions[2].departments[6].courses[4].tag",
         "davidson-day:divisions[1].departments[0].courses[0].tag"
       ],
       "t": "Niv. 5"
@@ -5287,6 +5380,7 @@
         "charlotte-christian:divisions[2].departments[5].name",
         "cannon:divisions[1].departments[2].name",
         "cannon:divisions[2].departments[4].name",
+        "covenant-day:divisions[1].departments[0].courses[5].title",
         "davidson-day:divisions[2].departments[4].name",
         "carmel-christian:divisions[0].departments[5].name"
       ],
@@ -5427,6 +5521,7 @@
       "at": [
         "charlotte-latin:divisions[1].departments[5].name",
         "charlotte-christian:divisions[1].departments[5].name",
+        "covenant-day:divisions[1].departments[3].name",
         "carmel-christian:divisions[0].departments[8].name"
       ],
       "t": "Options"
@@ -5479,7 +5574,8 @@
       "of": "770729c0",
       "at": [
         "charlotte-latin:divisions[1].departments[5].courses[3].title",
-        "charlotte-country-day:divisions[1].departments[4].courses[4].title"
+        "charlotte-country-day:divisions[1].departments[4].courses[4].title",
+        "covenant-day:divisions[1].departments[3].courses[4].title"
       ],
       "t": "Drama"
     },
@@ -6068,7 +6164,7 @@
       "at": [
         "charlotte-latin:divisions[2].departments[3].courses[7].title",
         "charlotte-christian:divisions[2].departments[2].courses[6].title",
-        "covenant-day:divisions[0].departments[1].courses[5].title"
+        "covenant-day:divisions[0].departments[1].courses[6].title"
       ],
       "t": "Pre-Calculus"
     },
@@ -6173,7 +6269,7 @@
       "of": "58226eb6",
       "at": [
         "charlotte-latin:divisions[2].departments[3].courses[13].description",
-        "covenant-day:divisions[0].departments[1].courses[11].description",
+        "covenant-day:divisions[0].departments[1].courses[13].description",
         "carmel-christian:divisions[0].departments[2].courses[12].description"
       ],
       "t": "Statistiques de niveau universitaire."
@@ -6674,8 +6770,7 @@
       "of": "f7790c8f",
       "at": [
         "charlotte-latin:divisions[2].departments[5].courses[9].description",
-        "charlotte-country-day:divisions[2].departments[4].courses[13].description",
-        "covenant-day:divisions[0].departments[5].courses[12].description"
+        "charlotte-country-day:divisions[2].departments[4].courses[13].description"
       ],
       "t": "Latin de niveau universitaire."
     },
@@ -7302,6 +7397,16 @@
         "charlotte-christian:divisions[0].departments[0].courses[0].title",
         "charlotte-christian:divisions[1].departments[0].name",
         "covenant-day:divisions[0].departments[4].name",
+        "covenant-day:divisions[1].departments[0].courses[2].title",
+        "covenant-day:divisions[1].departments[1].courses[4].title",
+        "covenant-day:divisions[1].departments[2].courses[4].title",
+        "covenant-day:divisions[2].departments[0].courses[2].title",
+        "covenant-day:divisions[2].departments[1].courses[2].title",
+        "covenant-day:divisions[2].departments[2].courses[2].title",
+        "covenant-day:divisions[2].departments[3].courses[2].title",
+        "covenant-day:divisions[2].departments[4].courses[2].title",
+        "covenant-day:divisions[2].departments[5].courses[2].title",
+        "covenant-day:divisions[2].departments[6].courses[2].title",
         "carmel-christian:divisions[0].departments[0].name",
         "carmel-christian:divisions[1].departments[0].name",
         "carmel-christian:divisions[2].departments[0].courses[0].title",
@@ -7338,7 +7443,12 @@
       "text": "Gr 4",
       "of": "e92670e0",
       "at": [
-        "charlotte-christian:divisions[0].departments[0].courses[1].tag"
+        "charlotte-christian:divisions[0].departments[0].courses[1].tag",
+        "covenant-day:divisions[2].departments[5].courses[0].tag",
+        "covenant-day:divisions[2].departments[5].courses[1].tag",
+        "covenant-day:divisions[2].departments[5].courses[2].tag",
+        "covenant-day:divisions[2].departments[5].courses[3].tag",
+        "covenant-day:divisions[2].departments[5].courses[4].tag"
       ],
       "t": "Niv. 4"
     },
@@ -7967,7 +8077,8 @@
       "text": "Old Testament Survey",
       "of": "6b2cd411",
       "at": [
-        "charlotte-christian:divisions[2].departments[0].courses[0].title"
+        "charlotte-christian:divisions[2].departments[0].courses[0].title",
+        "covenant-day:divisions[0].departments[4].courses[0].title"
       ],
       "t": "Old Testament Survey"
     },
@@ -7983,7 +8094,8 @@
       "text": "New Testament Survey",
       "of": "15a0fcf0",
       "at": [
-        "charlotte-christian:divisions[2].departments[0].courses[1].title"
+        "charlotte-christian:divisions[2].departments[0].courses[1].title",
+        "covenant-day:divisions[0].departments[4].courses[1].title"
       ],
       "t": "New Testament Survey"
     },
@@ -8394,7 +8506,7 @@
       "of": "7c827282",
       "at": [
         "charlotte-christian:divisions[2].departments[2].courses[7].title",
-        "covenant-day:divisions[0].departments[1].courses[6].title"
+        "covenant-day:divisions[0].departments[1].courses[7].title"
       ],
       "t": "Pre-Calculus Honors"
     },
@@ -9541,6 +9653,7 @@
         "charlotte-christian:divisions[2].departments[7].courses[13].title",
         "charlotte-country-day:divisions[1].departments[4].courses[2].title",
         "covenant-day:divisions[0].departments[6].courses[0].title",
+        "covenant-day:divisions[1].departments[3].courses[5].title",
         "carmel-christian:divisions[0].departments[7].courses[7].title"
       ],
       "t": "Choir"
@@ -10062,7 +10175,12 @@
       "text": "JK",
       "of": "45f11f62",
       "at": [
-        "charlotte-country-day:divisions[0].departments[0].courses[0].tag"
+        "charlotte-country-day:divisions[0].departments[0].courses[0].tag",
+        "covenant-day:divisions[2].departments[0].courses[0].tag",
+        "covenant-day:divisions[2].departments[0].courses[1].tag",
+        "covenant-day:divisions[2].departments[0].courses[2].tag",
+        "covenant-day:divisions[2].departments[0].courses[3].tag",
+        "covenant-day:divisions[2].departments[0].courses[4].tag"
       ],
       "t": "JK"
     },
@@ -14679,12 +14797,12 @@
       "t": "NIVEAUX 9 – 12"
     },
     {
-      "text": "80 course entries across 9 departments, from the 2026-27 High School Profile matrix — the school publishes named courses for the high school only.",
-      "of": "930c6d65",
+      "text": "90 course entries across 9 departments — 17 Advanced Placement, a named Bible course for each of the four years, and a Restoration & Sustainability department no other school here runs.",
+      "of": "7d118c76",
       "at": [
         "covenant-day:divisions[0].teaser"
       ],
-      "t": "80 entrées de cours réparties sur 9 départements, d’après la grille du High School Profile 2026-27 — l’école ne publie de cours nommés que pour le lycée."
+      "t": "90 cours répartis sur 9 départements — 17 Advanced Placement, un cours de Bible nommé pour chacune des quatre années, et un département Restoration & Sustainability qu’aucune autre école ici ne propose."
     },
     {
       "text": "Language & Literature",
@@ -14706,7 +14824,8 @@
         "covenant-day:divisions[0].departments[1].courses[1].tag",
         "covenant-day:divisions[0].departments[1].courses[3].tag",
         "covenant-day:divisions[0].departments[1].courses[5].tag",
-        "covenant-day:divisions[0].departments[1].courses[8].tag",
+        "covenant-day:divisions[0].departments[1].courses[6].tag",
+        "covenant-day:divisions[0].departments[1].courses[9].tag",
         "covenant-day:divisions[0].departments[2].courses[0].tag",
         "covenant-day:divisions[0].departments[2].courses[2].tag",
         "covenant-day:divisions[0].departments[2].courses[5].tag",
@@ -14718,7 +14837,7 @@
         "covenant-day:divisions[0].departments[5].courses[1].tag",
         "covenant-day:divisions[0].departments[5].courses[5].tag",
         "covenant-day:divisions[0].departments[5].courses[6].tag",
-        "covenant-day:divisions[0].departments[5].courses[9].tag",
+        "covenant-day:divisions[0].departments[5].courses[10].tag",
         "covenant-day:divisions[0].departments[6].courses[0].tag",
         "covenant-day:divisions[0].departments[6].courses[2].tag",
         "covenant-day:divisions[0].departments[6].courses[4].tag",
@@ -14734,7 +14853,10 @@
         "covenant-day:divisions[0].departments[7].courses[1].tag",
         "covenant-day:divisions[0].departments[7].courses[2].tag",
         "covenant-day:divisions[0].departments[7].courses[3].tag",
-        "covenant-day:divisions[0].departments[8].courses[0].tag"
+        "covenant-day:divisions[0].departments[7].courses[4].tag",
+        "covenant-day:divisions[0].departments[8].courses[0].tag",
+        "covenant-day:divisions[0].departments[8].courses[1].tag",
+        "covenant-day:divisions[0].departments[8].courses[2].tag"
       ],
       "t": "CP"
     },
@@ -14944,10 +15066,26 @@
       "t": "Algèbre de deuxième année honors."
     },
     {
+      "text": "Liberal Arts Math",
+      "of": "cfc30c9a",
+      "at": [
+        "covenant-day:divisions[0].departments[1].courses[5].title"
+      ],
+      "t": "Liberal Arts Math"
+    },
+    {
+      "text": "The alternative senior-year math for students not continuing to pre-calculus.",
+      "of": "9bb80e16",
+      "at": [
+        "covenant-day:divisions[0].departments[1].courses[5].description"
+      ],
+      "t": "Le cours de mathématiques alternatif de terminale, pour les élèves qui ne poursuivent pas jusqu’au pré-calcul."
+    },
+    {
       "text": "Functions and trigonometry before calculus.",
       "of": "bd5bfb9f",
       "at": [
-        "covenant-day:divisions[0].departments[1].courses[5].description"
+        "covenant-day:divisions[0].departments[1].courses[6].description"
       ],
       "t": "Fonctions et trigonométrie avant le calcul différentiel et intégral."
     },
@@ -14955,7 +15093,7 @@
       "text": "The honors pre-calculus year.",
       "of": "c25b1426",
       "at": [
-        "covenant-day:divisions[0].departments[1].courses[6].description"
+        "covenant-day:divisions[0].departments[1].courses[7].description"
       ],
       "t": "L’année de pré-calcul honors."
     },
@@ -14963,7 +15101,7 @@
       "text": "Calculus Honors",
       "of": "7778afe6",
       "at": [
-        "covenant-day:divisions[0].departments[1].courses[7].title"
+        "covenant-day:divisions[0].departments[1].courses[8].title"
       ],
       "t": "Calculus Honors"
     },
@@ -14971,7 +15109,7 @@
       "text": "Honors calculus — available for dual enrollment with Covenant College.",
       "of": "773b4637",
       "at": [
-        "covenant-day:divisions[0].departments[1].courses[7].description"
+        "covenant-day:divisions[0].departments[1].courses[8].description"
       ],
       "t": "Calcul honors — disponible en inscription simultanée (dual enrollment) avec le Covenant College."
     },
@@ -14979,7 +15117,7 @@
       "text": "Introductory statistics.",
       "of": "b729daf0",
       "at": [
-        "covenant-day:divisions[0].departments[1].courses[8].description"
+        "covenant-day:divisions[0].departments[1].courses[9].description"
       ],
       "t": "Statistiques d’introduction."
     },
@@ -14987,7 +15125,7 @@
       "text": "Statistics Honors",
       "of": "b7b12c3b",
       "at": [
-        "covenant-day:divisions[0].departments[1].courses[9].title"
+        "covenant-day:divisions[0].departments[1].courses[10].title"
       ],
       "t": "Statistics Honors"
     },
@@ -14995,7 +15133,7 @@
       "text": "Honors statistics — available for dual enrollment with Covenant College.",
       "of": "534c8b8a",
       "at": [
-        "covenant-day:divisions[0].departments[1].courses[9].description"
+        "covenant-day:divisions[0].departments[1].courses[10].description"
       ],
       "t": "Statistiques honors — disponibles en inscription simultanée (dual enrollment) avec le Covenant College."
     },
@@ -15003,10 +15141,18 @@
       "text": "College-level differential and integral calculus.",
       "of": "cf28429f",
       "at": [
-        "covenant-day:divisions[0].departments[1].courses[10].description",
+        "covenant-day:divisions[0].departments[1].courses[11].description",
         "carmel-christian:divisions[0].departments[2].courses[11].description"
       ],
       "t": "Calcul différentiel et intégral de niveau universitaire."
+    },
+    {
+      "text": "The faster calculus track, through series; the school notes this offering may be impacted by student enrollment.",
+      "of": "c8c6d5de",
+      "at": [
+        "covenant-day:divisions[0].departments[1].courses[12].description"
+      ],
+      "t": "La filière de calcul accélérée, jusqu’aux séries ; l’école précise que cette offre peut être affectée par les effectifs."
     },
     {
       "text": "The entry lab science.",
@@ -15043,12 +15189,12 @@
       "t": "Chimie honors."
     },
     {
-      "text": "Anatomy Honors",
-      "of": "f9404247",
+      "text": "Anatomy & Physiology Honors",
+      "of": "1328b04e",
       "at": [
         "covenant-day:divisions[0].departments[2].courses[4].title"
       ],
-      "t": "Anatomy Honors"
+      "t": "Anatomy & Physiology Honors"
     },
     {
       "text": "Honors anatomy and physiology.",
@@ -15148,14 +15294,12 @@
       "t": "Histoire mondiale honors."
     },
     {
-      "text": "US History",
-      "of": "9aeceb25",
+      "text": "U.S. History",
+      "of": "6fd41d17",
       "at": [
-        "covenant-day:divisions[0].departments[3].courses[2].title",
-        "carmel-christian:divisions[0].departments[4].courses[4].title",
-        "carmel-christian:divisions[0].departments[4].courses[5].title"
+        "covenant-day:divisions[0].departments[3].courses[2].title"
       ],
-      "t": "US History"
+      "t": "Histoire des États-Unis"
     },
     {
       "text": "The American-history year.",
@@ -15166,28 +15310,29 @@
       "t": "L’année d’histoire américaine."
     },
     {
-      "text": "US History Honors",
-      "of": "c72348aa",
+      "text": "U.S. History Honors",
+      "of": "66ac24a4",
       "at": [
-        "covenant-day:divisions[0].departments[3].courses[3].title"
+        "covenant-day:divisions[0].departments[3].courses[3].title",
+        "davidson-day:divisions[2].departments[2].courses[4].title"
       ],
-      "t": "US History Honors"
+      "t": "U.S. History Honors"
     },
     {
-      "text": "Honors US history.",
-      "of": "373e89ea",
+      "text": "Honors U.S. history.",
+      "of": "917ebc6c",
       "at": [
         "covenant-day:divisions[0].departments[3].courses[3].description"
       ],
-      "t": "Histoire américaine honors."
+      "t": "Histoire des États-Unis honors."
     },
     {
-      "text": "Government & Economics",
-      "of": "eddf407a",
+      "text": "Government and Economics",
+      "of": "969d3d21",
       "at": [
         "covenant-day:divisions[0].departments[3].courses[4].title"
       ],
-      "t": "Government & Economics"
+      "t": "Gouvernement et économie"
     },
     {
       "text": "The civics-and-economics capstone.",
@@ -15198,12 +15343,12 @@
       "t": "Le point d’orgue d’éducation civique et d’économie."
     },
     {
-      "text": "Government & Economics Honors",
-      "of": "c8e369eb",
+      "text": "Government and Economics Honors",
+      "of": "166645a6",
       "at": [
         "covenant-day:divisions[0].departments[3].courses[5].title"
       ],
-      "t": "Government & Economics Honors"
+      "t": "Gouvernement et économie Honors"
     },
     {
       "text": "The honors capstone.",
@@ -15230,14 +15375,13 @@
       "t": "Psychologie honors."
     },
     {
-      "text": "AP US History",
-      "of": "6ac84760",
+      "text": "AP U.S. History",
+      "of": "f17effea",
       "at": [
         "covenant-day:divisions[0].departments[3].courses[7].title",
-        "carmel-christian:divisions[0].departments[4].courses[10].title",
-        "hickory-grove-christian:divisions[0].departments[3].courses[0].title"
+        "davidson-day:divisions[2].departments[2].courses[5].title"
       ],
-      "t": "AP US History"
+      "t": "AP U.S. History"
     },
     {
       "text": "College-level American history.",
@@ -15249,75 +15393,100 @@
       "t": "Histoire américaine de niveau universitaire."
     },
     {
-      "text": "AP Government & Politics: US",
-      "of": "1cae4d1e",
+      "text": "AP U.S. Government & Politics",
+      "of": "201a5cb6",
       "at": [
         "covenant-day:divisions[0].departments[3].courses[8].title"
       ],
-      "t": "AP Government & Politics: US"
+      "t": "AP U.S. Government & Politics"
     },
     {
-      "text": "College-level US government.",
-      "of": "7fbbaa78",
+      "text": "College-level U.S. government and politics.",
+      "of": "a2e8e362",
       "at": [
         "covenant-day:divisions[0].departments[3].courses[8].description"
       ],
-      "t": "Institutions et vie politique américaines de niveau universitaire."
+      "t": "Gouvernement et vie politique des États-Unis, de niveau universitaire."
     },
     {
-      "text": "Bible (each year)",
-      "of": "16edf300",
+      "text": "9th Grade",
+      "of": "c6432aef",
       "at": [
-        "covenant-day:divisions[0].departments[4].courses[0].title"
+        "covenant-day:divisions[0].departments[4].courses[0].tag"
       ],
-      "t": "Bible (chaque année)"
+      "t": "9th Grade"
     },
     {
-      "text": "Gr 9–12",
-      "of": "8a72ad6f",
-      "at": [
-        "covenant-day:divisions[0].departments[4].courses[0].tag",
-        "davidson-day:divisions[2].departments[1].courses[0].tag",
-        "davidson-day:divisions[2].departments[1].courses[2].tag",
-        "davidson-day:divisions[2].departments[4].courses[0].tag",
-        "davidson-day:divisions[2].departments[4].courses[6].tag",
-        "carmel-christian:divisions[0].departments[0].courses[0].tag",
-        "carmel-christian:divisions[0].departments[0].courses[1].tag",
-        "carmel-christian:divisions[0].departments[0].courses[2].tag",
-        "carmel-christian:divisions[0].departments[0].courses[3].tag",
-        "carmel-christian:divisions[0].departments[5].courses[0].tag",
-        "carmel-christian:divisions[0].departments[5].courses[7].tag",
-        "carmel-christian:divisions[0].departments[6].courses[0].tag",
-        "carmel-christian:divisions[0].departments[6].courses[1].tag",
-        "carmel-christian:divisions[0].departments[6].courses[2].tag",
-        "carmel-christian:divisions[0].departments[6].courses[3].tag",
-        "carmel-christian:divisions[0].departments[6].courses[4].tag",
-        "carmel-christian:divisions[0].departments[7].courses[0].tag",
-        "carmel-christian:divisions[0].departments[7].courses[1].tag",
-        "carmel-christian:divisions[0].departments[7].courses[5].tag",
-        "carmel-christian:divisions[0].departments[7].courses[6].tag",
-        "carmel-christian:divisions[0].departments[7].courses[7].tag",
-        "carmel-christian:divisions[0].departments[7].courses[8].tag",
-        "carmel-christian:divisions[0].departments[7].courses[10].tag",
-        "carmel-christian:divisions[0].departments[7].courses[11].tag",
-        "carmel-christian:divisions[0].departments[7].courses[12].tag",
-        "carmel-christian:divisions[0].departments[7].courses[13].tag",
-        "carmel-christian:divisions[0].departments[7].courses[14].tag",
-        "carmel-christian:divisions[0].departments[8].courses[2].tag",
-        "carmel-christian:divisions[0].departments[8].courses[3].tag",
-        "carmel-christian:divisions[0].departments[8].courses[4].tag",
-        "carmel-christian:divisions[0].departments[8].courses[5].tag",
-        "hickory-grove-christian:divisions[0].departments[7].courses[0].tag"
-      ],
-      "t": "Niv. 9–12"
-    },
-    {
-      "text": "Three graduation units; students must be enrolled in a Bible course every year. The profile matrix prints no per-year titles.",
-      "of": "1689b225",
+      "text": "The freshman Bible course; students are enrolled in a Bible course every year, and three units are required to graduate.",
+      "of": "e1318f97",
       "at": [
         "covenant-day:divisions[0].departments[4].courses[0].description"
       ],
-      "t": "Trois unités de diplomation ; les élèves doivent être inscrits à un cours de Bible chaque année. La grille du profil n’imprime aucun intitulé année par année."
+      "t": "Le cours de Bible de première année ; les élèves sont inscrits à un cours de Bible chaque année, et trois unités sont exigées pour obtenir le diplôme."
+    },
+    {
+      "text": "10th Grade",
+      "of": "8fa188bf",
+      "at": [
+        "covenant-day:divisions[0].departments[4].courses[1].tag"
+      ],
+      "t": "10th Grade"
+    },
+    {
+      "text": "The sophomore Bible course, surveying the New Testament.",
+      "of": "951e76cf",
+      "at": [
+        "covenant-day:divisions[0].departments[4].courses[1].description"
+      ],
+      "t": "Le cours de Bible de deuxième année, un panorama du Nouveau Testament."
+    },
+    {
+      "text": "Christian Doctrine",
+      "of": "5eae87e2",
+      "at": [
+        "covenant-day:divisions[0].departments[4].courses[2].title"
+      ],
+      "t": "Doctrine chrétienne"
+    },
+    {
+      "text": "11th Grade",
+      "of": "e6801018",
+      "at": [
+        "covenant-day:divisions[0].departments[4].courses[2].tag"
+      ],
+      "t": "11th Grade"
+    },
+    {
+      "text": "The junior Bible course, working through Christian doctrine systematically.",
+      "of": "460124d1",
+      "at": [
+        "covenant-day:divisions[0].departments[4].courses[2].description"
+      ],
+      "t": "Le cours de Bible de troisième année, qui parcourt systématiquement la doctrine chrétienne."
+    },
+    {
+      "text": "Engaging the Culture - An Introduction to Apologetics and Worldviews",
+      "of": "67c21bc2",
+      "at": [
+        "covenant-day:divisions[0].departments[4].courses[3].title"
+      ],
+      "t": "Engaging the Culture - An Introduction to Apologetics and Worldviews"
+    },
+    {
+      "text": "12th Grade",
+      "of": "91c6a395",
+      "at": [
+        "covenant-day:divisions[0].departments[4].courses[3].tag"
+      ],
+      "t": "12th Grade"
+    },
+    {
+      "text": "The senior Bible capstone in apologetics and competing worldviews.",
+      "of": "bd161267",
+      "at": [
+        "covenant-day:divisions[0].departments[4].courses[3].description"
+      ],
+      "t": "Le point d’orgue du cours de Bible en terminale, consacré à l’apologétique et aux visions du monde concurrentes."
     },
     {
       "text": "Spanish 1",
@@ -15384,14 +15553,6 @@
         "carmel-christian:divisions[0].departments[5].courses[5].description"
       ],
       "t": "Espagnol de quatrième année au niveau honors."
-    },
-    {
-      "text": "AP Spanish",
-      "of": "849a5d8c",
-      "at": [
-        "covenant-day:divisions[0].departments[5].courses[4].title"
-      ],
-      "t": "AP Spanish"
     },
     {
       "text": "College-level Spanish language.",
@@ -15466,10 +15627,26 @@
       "t": "Français de quatrième année au niveau honors."
     },
     {
+      "text": "AP French",
+      "of": "91b4167c",
+      "at": [
+        "covenant-day:divisions[0].departments[5].courses[9].title"
+      ],
+      "t": "AP French"
+    },
+    {
+      "text": "College-level French; the school notes this offering may be impacted by student enrollment.",
+      "of": "0a5cba85",
+      "at": [
+        "covenant-day:divisions[0].departments[5].courses[9].description"
+      ],
+      "t": "Français de niveau universitaire ; l’école précise que cette offre peut être affectée par les effectifs."
+    },
+    {
       "text": "Second-year Latin (the sequence starts in middle school).",
       "of": "ffc01eaf",
       "at": [
-        "covenant-day:divisions[0].departments[5].courses[9].description"
+        "covenant-day:divisions[0].departments[5].courses[10].description"
       ],
       "t": "Latin de deuxième année (la séquence commence au collège)."
     },
@@ -15477,7 +15654,7 @@
       "text": "Latin 3 Honors",
       "of": "318596a1",
       "at": [
-        "covenant-day:divisions[0].departments[5].courses[10].title"
+        "covenant-day:divisions[0].departments[5].courses[11].title"
       ],
       "t": "Latin 3 Honors"
     },
@@ -15485,7 +15662,7 @@
       "text": "Third-year Latin at honors level.",
       "of": "1211abb0",
       "at": [
-        "covenant-day:divisions[0].departments[5].courses[10].description"
+        "covenant-day:divisions[0].departments[5].courses[11].description"
       ],
       "t": "Latin de troisième année au niveau honors."
     },
@@ -15493,7 +15670,7 @@
       "text": "Latin 4 Honors",
       "of": "3786e58a",
       "at": [
-        "covenant-day:divisions[0].departments[5].courses[11].title"
+        "covenant-day:divisions[0].departments[5].courses[12].title"
       ],
       "t": "Latin 4 Honors"
     },
@@ -15501,9 +15678,25 @@
       "text": "Fourth-year Latin at honors level.",
       "of": "38baadab",
       "at": [
-        "covenant-day:divisions[0].departments[5].courses[11].description"
+        "covenant-day:divisions[0].departments[5].courses[12].description"
       ],
       "t": "Latin de quatrième année au niveau honors."
+    },
+    {
+      "text": "AP Latin: Caesar and Vergil",
+      "of": "4aeab7ad",
+      "at": [
+        "covenant-day:divisions[0].departments[5].courses[13].title"
+      ],
+      "t": "AP Latin: Caesar and Vergil"
+    },
+    {
+      "text": "College-level Latin, on the Caesar and Vergil syllabus.",
+      "of": "f7069e2b",
+      "at": [
+        "covenant-day:divisions[0].departments[5].courses[13].description"
+      ],
+      "t": "Latin de niveau universitaire, sur le programme César et Virgile."
     },
     {
       "text": "The high school choral ensemble as a credit course.",
@@ -15758,10 +15951,26 @@
       "t": "Former les élèves comme tuteurs d’alphabétisation pour la communauté."
     },
     {
+      "text": "ContainIt",
+      "of": "a86ed426",
+      "at": [
+        "covenant-day:divisions[0].departments[7].courses[1].title"
+      ],
+      "t": "ContainIt"
+    },
+    {
+      "text": "The department’s student-run enterprise course.",
+      "of": "2ebc9521",
+      "at": [
+        "covenant-day:divisions[0].departments[7].courses[1].description"
+      ],
+      "t": "Le cours d’entreprise gérée par les élèves du département."
+    },
+    {
       "text": "Intercultural Practicum",
       "of": "7fc5330f",
       "at": [
-        "covenant-day:divisions[0].departments[7].courses[1].title"
+        "covenant-day:divisions[0].departments[7].courses[2].title"
       ],
       "t": "Intercultural Practicum"
     },
@@ -15769,23 +15978,23 @@
       "text": "Applied cross-cultural engagement.",
       "of": "7de1b888",
       "at": [
-        "covenant-day:divisions[0].departments[7].courses[1].description"
+        "covenant-day:divisions[0].departments[7].courses[2].description"
       ],
       "t": "Engagement interculturel appliqué."
     },
     {
-      "text": "Introduction to Engineering",
-      "of": "1c2acea9",
+      "text": "Intro to Engineering",
+      "of": "ee1a97f1",
       "at": [
-        "covenant-day:divisions[0].departments[7].courses[2].title"
+        "covenant-day:divisions[0].departments[7].courses[3].title"
       ],
-      "t": "Introduction to Engineering"
+      "t": "Intro to Engineering"
     },
     {
       "text": "The department’s engineering entry.",
       "of": "64f53171",
       "at": [
-        "covenant-day:divisions[0].departments[7].courses[2].description"
+        "covenant-day:divisions[0].departments[7].courses[3].description"
       ],
       "t": "Le cours d’entrée en ingénierie du département."
     },
@@ -15793,7 +16002,7 @@
       "text": "Restore525",
       "of": "bf5dde7d",
       "at": [
-        "covenant-day:divisions[0].departments[7].courses[3].title"
+        "covenant-day:divisions[0].departments[7].courses[4].title"
       ],
       "t": "Restore525"
     },
@@ -15801,33 +16010,871 @@
       "text": "The department’s service-build program as a credit course.",
       "of": "1a98bd31",
       "at": [
-        "covenant-day:divisions[0].departments[7].courses[3].description"
+        "covenant-day:divisions[0].departments[7].courses[4].description"
       ],
       "t": "Le programme de chantier de service du département, sous forme de cours crédité."
     },
     {
-      "text": "PE",
-      "of": "2c0000fe",
+      "text": "Other",
+      "of": "6e38ff95",
       "at": [
         "covenant-day:divisions[0].departments[8].name"
       ],
-      "t": "PE"
+      "t": "Autres"
     },
     {
-      "text": "Strength & Fitness",
-      "of": "9a8bf562",
+      "text": "Individual Research Project",
+      "of": "2ab24d46",
       "at": [
         "covenant-day:divisions[0].departments[8].courses[0].title"
       ],
-      "t": "Strength & Fitness"
+      "t": "Individual Research Project"
+    },
+    {
+      "text": "A self-directed research course taken for credit.",
+      "of": "10977152",
+      "at": [
+        "covenant-day:divisions[0].departments[8].courses[0].description"
+      ],
+      "t": "Un cours de recherche en autonomie, validé par des crédits."
+    },
+    {
+      "text": "Strength & Fitness Training",
+      "of": "a659381c",
+      "at": [
+        "covenant-day:divisions[0].departments[8].courses[1].title"
+      ],
+      "t": "Strength & Fitness Training"
     },
     {
       "text": "The Webb Fitness Center course; a PE credit is also earnable via two school sport seasons.",
       "of": "5fdc624f",
       "at": [
-        "covenant-day:divisions[0].departments[8].courses[0].description"
+        "covenant-day:divisions[0].departments[8].courses[1].description"
       ],
       "t": "Le cours du Webb Fitness Center ; un crédit de PE peut aussi s’obtenir via deux saisons de sport scolaire."
+    },
+    {
+      "text": "Student Assistant",
+      "of": "1da10560",
+      "at": [
+        "covenant-day:divisions[0].departments[8].courses[2].title"
+      ],
+      "t": "Student Assistant"
+    },
+    {
+      "text": "A credit-bearing assistantship supporting a department or office.",
+      "of": "bc41d1f3",
+      "at": [
+        "covenant-day:divisions[0].departments[8].courses[2].description"
+      ],
+      "t": "Un assistanat crédité, en appui d’un département ou d’un service."
+    },
+    {
+      "text": "GRADES 6 – 8",
+      "of": "540842be",
+      "at": [
+        "covenant-day:divisions[1].grades",
+        "carmel-christian:divisions[1].grades"
+      ],
+      "t": "GRADES 6 – 8"
+    },
+    {
+      "text": "Seven subject areas per grade plus three named honors tracks and a seven-course elective slate — Latin from 6th grade, Applied English in 6th and 7th.",
+      "of": "f84d89ac",
+      "at": [
+        "covenant-day:divisions[1].teaser"
+      ],
+      "t": "Sept domaines par niveau, plus trois filières honors nommées et une offre de sept options — le latin dès la 6e année et l’Applied English en 6e et 7e année."
+    },
+    {
+      "text": "Covenant Day publishes per-grade subject areas and competencies for grades 6–8 rather than a full course catalog. The honors tracks and electives below are the school’s own named courses; the remaining rows carry each grade’s published subject description.",
+      "of": "18af49e0",
+      "at": [
+        "covenant-day:divisions[1].notPublished"
+      ],
+      "t": "Covenant Day publie, pour les niveaux 6 à 8, des domaines et des compétences par niveau plutôt qu’un catalogue de cours complet. Les filières honors et les options ci-dessous sont les cours nommés de l’école ; les autres lignes reprennent la description publiée pour chaque niveau."
+    },
+    {
+      "text": "6th Grade",
+      "of": "496b28f2",
+      "at": [
+        "covenant-day:divisions[1].departments[0].name"
+      ],
+      "t": "Niveau 6"
+    },
+    {
+      "text": "Reading deeply through synthesis and analysis of fiction and nonfiction; all students get extra Applied English time to build thesis statements as the foundation for strong essays.",
+      "of": "bf56e770",
+      "at": [
+        "covenant-day:divisions[1].departments[0].courses[0].description"
+      ],
+      "t": "Une lecture approfondie par la synthèse et l’analyse de fiction et de non-fiction ; tous les élèves bénéficient d’un temps supplémentaire d’Applied English pour construire des énoncés de thèse, fondement d’une bonne dissertation."
+    },
+    {
+      "text": "Reviews arithmetic and number sense — decimal and fraction operations — before ratios and percentages, integers, variables, equations and inequalities, 2D and 3D geometry, and statistics.",
+      "of": "b97ed71e",
+      "at": [
+        "covenant-day:divisions[1].departments[0].courses[1].description"
+      ],
+      "t": "Revoit le calcul et le sens du nombre — opérations sur les décimaux et les fractions — avant d’aborder les rapports et les pourcentages, les entiers relatifs, les variables, les équations et les inéquations, la géométrie 2D et 3D, et les statistiques."
+    },
+    {
+      "text": "An Old Testament survey, building on events and themes in scripture to deepen understanding of what the Bible teaches about God, humanity and self.",
+      "of": "b63e9c9f",
+      "at": [
+        "covenant-day:divisions[1].departments[0].courses[2].description"
+      ],
+      "t": "Un panorama de l’Ancien Testament qui, à partir des événements et des thèmes des Écritures, approfondit ce que la Bible enseigne sur Dieu, l’humanité et soi-même."
+    },
+    {
+      "text": "Life Science — cells, heredity, DNA, viruses, bacteria, protists and fungi, animals, human body systems, plants and dissection, with lab experiments and projects.",
+      "of": "cb9cfadb",
+      "at": [
+        "covenant-day:divisions[1].departments[0].courses[3].description"
+      ],
+      "t": "Sciences du vivant — cellules, hérédité, ADN, virus, bactéries, protistes et champignons, animaux, systèmes du corps humain, plantes et dissection, avec expériences de laboratoire et projets."
+    },
+    {
+      "text": "US History Part 1 — the history and geography of the United States from the Jamestown Colony to the Civil War.",
+      "of": "d06bb892",
+      "at": [
+        "covenant-day:divisions[1].departments[0].courses[4].description"
+      ],
+      "t": "Histoire des États-Unis, partie 1 — l’histoire et la géographie des États-Unis, de la colonie de Jamestown à la guerre de Sécession."
+    },
+    {
+      "text": "Greek Mythology as the entry to Latin study in middle school; Spanish is offered as an elective.",
+      "of": "ff98a38e",
+      "at": [
+        "covenant-day:divisions[1].departments[0].courses[5].description"
+      ],
+      "t": "La mythologie grecque comme porte d’entrée vers l’étude du latin au Middle School ; l’espagnol est proposé en option."
+    },
+    {
+      "text": "Game skills and strategies with personal fitness goals, emphasising life sports and healthy living.",
+      "of": "58e1e497",
+      "at": [
+        "covenant-day:divisions[1].departments[0].courses[6].description"
+      ],
+      "t": "Gestes et stratégies de jeu, assortis d’objectifs de condition physique personnels, en insistant sur les sports praticables toute la vie et sur l’hygiène de vie."
+    },
+    {
+      "text": "7th Grade",
+      "of": "332e4a31",
+      "at": [
+        "covenant-day:divisions[1].departments[1].name"
+      ],
+      "t": "Niveau 7"
+    },
+    {
+      "text": "Persuasive, informative, narrative and research-based writing alongside complex texts, more advanced grammar, and Greek and Latin roots; all students get extra Applied English time.",
+      "of": "367b8bdb",
+      "at": [
+        "covenant-day:divisions[1].departments[1].courses[0].description"
+      ],
+      "t": "Écriture persuasive, informative, narrative et documentaire, aux côtés de textes complexes, d’une grammaire plus avancée et des racines grecques et latines ; tous les élèves bénéficient d’un temps supplémentaire d’Applied English."
+    },
+    {
+      "text": "English Honors",
+      "of": "e0b140d8",
+      "at": [
+        "covenant-day:divisions[1].departments[1].courses[1].title",
+        "covenant-day:divisions[1].departments[2].courses[1].title"
+      ],
+      "t": "English Honors"
+    },
+    {
+      "text": "Deeper literary analysis within a biblical worldview — multi-paragraph argumentative essays with thesis, textual evidence and commentary, plus expository writing and accelerated language conventions.",
+      "of": "569efd69",
+      "at": [
+        "covenant-day:divisions[1].departments[1].courses[1].description"
+      ],
+      "t": "Une analyse littéraire plus poussée dans une vision du monde biblique — dissertations argumentatives de plusieurs paragraphes avec thèse, preuves textuelles et commentaire, ainsi que de l’écriture explicative et des conventions de langue accélérées."
+    },
+    {
+      "text": "Ratios and proportional relationships, unit conversions, integers across all operations, order of operations and expressions, equations and inequalities, geometry, statistics and probability.",
+      "of": "26877543",
+      "at": [
+        "covenant-day:divisions[1].departments[1].courses[2].description"
+      ],
+      "t": "Rapports et relations de proportionnalité, conversions d’unités, entiers relatifs dans toutes les opérations, priorités opératoires et expressions, équations et inéquations, géométrie, statistiques et probabilités."
+    },
+    {
+      "text": "Math Honors (Pre-Algebra)",
+      "of": "2b79b7ab",
+      "at": [
+        "covenant-day:divisions[1].departments[1].courses[3].title"
+      ],
+      "t": "Math Honors (Pre-Algebra)"
+    },
+    {
+      "text": "Introduces algebra through equations and inequalities, exponent rules, linear relations and functions, radicals, angle relationships, angles and polygons, and unit conversions.",
+      "of": "2e40610e",
+      "at": [
+        "covenant-day:divisions[1].departments[1].courses[3].description",
+        "covenant-day:divisions[1].departments[2].courses[2].description"
+      ],
+      "t": "Introduit l’algèbre par les équations et les inéquations, les règles des exposants, les relations et fonctions linéaires, les radicaux, les relations entre angles, les angles et les polygones, et les conversions d’unités."
+    },
+    {
+      "text": "The Gospels, woven together to show the life of Christ and his fulfilment of Scripture, alongside how to study the Bible and build a habit of personal devotions.",
+      "of": "3efdac45",
+      "at": [
+        "covenant-day:divisions[1].departments[1].courses[4].description"
+      ],
+      "t": "Les Évangiles, entrelacés pour montrer la vie du Christ et son accomplissement des Écritures, avec l’apprentissage de l’étude de la Bible et d’une habitude de dévotion personnelle."
+    },
+    {
+      "text": "Earth science — geology, oceanography, meteorology and astronomy, with lab experiments and projects.",
+      "of": "6bc03e7a",
+      "at": [
+        "covenant-day:divisions[1].departments[1].courses[5].description"
+      ],
+      "t": "Sciences de la Terre — géologie, océanographie, météorologie et astronomie, avec expériences de laboratoire et projets."
+    },
+    {
+      "text": "The Reconstruction Era to the present day through a biblical lens, built on primary documents written by historical figures.",
+      "of": "33228ed5",
+      "at": [
+        "covenant-day:divisions[1].departments[1].courses[6].description"
+      ],
+      "t": "De la Reconstruction à nos jours dans une perspective biblique, à partir de documents originaux rédigés par des personnages historiques."
+    },
+    {
+      "text": "Latin IA",
+      "of": "9681a61d",
+      "at": [
+        "covenant-day:divisions[1].departments[1].courses[7].title"
+      ],
+      "t": "Latin IA"
+    },
+    {
+      "text": "The first half of the middle school Latin sequence; Spanish is offered as an elective.",
+      "of": "bc5a2dff",
+      "at": [
+        "covenant-day:divisions[1].departments[1].courses[7].description"
+      ],
+      "t": "La première moitié de la séquence de latin du Middle School ; l’espagnol est proposé en option."
+    },
+    {
+      "text": "Game skills and strategies with personal fitness goals; students in grades 7–8 may also compete on Covenant Day athletic teams.",
+      "of": "33eff911",
+      "at": [
+        "covenant-day:divisions[1].departments[1].courses[8].description"
+      ],
+      "t": "Gestes et stratégies de jeu, assortis d’objectifs de condition physique personnels ; les élèves des niveaux 7 et 8 peuvent aussi concourir dans les équipes sportives de Covenant Day."
+    },
+    {
+      "text": "8th Grade",
+      "of": "c84c5bc8",
+      "at": [
+        "covenant-day:divisions[1].departments[2].name"
+      ],
+      "t": "Niveau 8"
+    },
+    {
+      "text": "Informative, narrative and research writing culminating in a research paper, with complex texts, advanced grammar, and cross-discipline research assignments.",
+      "of": "731fe6df",
+      "at": [
+        "covenant-day:divisions[1].departments[2].courses[0].description"
+      ],
+      "t": "Écriture informative, narrative et documentaire aboutissant à un mémoire de recherche, avec des textes complexes, une grammaire avancée et des travaux de recherche transversaux."
+    },
+    {
+      "text": "Rigorous literary analysis across major literary themes, history and culture, with formal and informal responses, analytical essays and creative pieces; syntax awareness and vocabulary expand throughout.",
+      "of": "2e86c234",
+      "at": [
+        "covenant-day:divisions[1].departments[2].courses[1].description"
+      ],
+      "t": "Une analyse littéraire rigoureuse à travers les grands thèmes littéraires, l’histoire et la culture, avec réponses formelles et informelles, dissertations analytiques et écrits créatifs ; la conscience syntaxique et le vocabulaire s’enrichissent tout au long de l’année."
+    },
+    {
+      "text": "Math Honors (Algebra)",
+      "of": "cb4b9197",
+      "at": [
+        "covenant-day:divisions[1].departments[2].courses[3].title"
+      ],
+      "t": "Math Honors (Algebra)"
+    },
+    {
+      "text": "The real number system, expressions, linear and quadratic equations and their graphs, inequalities, systems of equations, polynomials, relations, functions, and radical and rational expressions.",
+      "of": "9322bae1",
+      "at": [
+        "covenant-day:divisions[1].departments[2].courses[3].description"
+      ],
+      "t": "L’ensemble des nombres réels, les expressions, les équations linéaires et du second degré et leurs représentations graphiques, les inéquations, les systèmes d’équations, les polynômes, les relations, les fonctions, et les expressions radicales et rationnelles."
+    },
+    {
+      "text": "Acts and the Pauline Epistles, with practical application and learning to share one’s faith.",
+      "of": "c6daeeeb",
+      "at": [
+        "covenant-day:divisions[1].departments[2].courses[4].description"
+      ],
+      "t": "Les Actes et les épîtres pauliniennes, avec une application pratique et l’apprentissage du partage de sa foi."
+    },
+    {
+      "text": "Physical science — motion and forces, energy and waves (sound, light and electricity), magnetism and chemistry, with lab experiments and projects.",
+      "of": "13b67030",
+      "at": [
+        "covenant-day:divisions[1].departments[2].courses[5].description"
+      ],
+      "t": "Sciences physiques — mouvement et forces, énergie et ondes (son, lumière et électricité), magnétisme et chimie, avec expériences de laboratoire et projets."
+    },
+    {
+      "text": "World History Part 1 — Mesopotamia, Ancient Egypt, Ancient Greece and Rome through the Middle Ages, including major world religions and how they relate to Christianity.",
+      "of": "89839b45",
+      "at": [
+        "covenant-day:divisions[1].departments[2].courses[6].description"
+      ],
+      "t": "Histoire du monde, partie 1 — la Mésopotamie, l’Égypte antique, la Grèce et la Rome antiques jusqu’au Moyen Âge, y compris les grandes religions du monde et leur rapport au christianisme."
+    },
+    {
+      "text": "Latin IB",
+      "of": "9381a164",
+      "at": [
+        "covenant-day:divisions[1].departments[2].courses[7].title"
+      ],
+      "t": "Latin IB"
+    },
+    {
+      "text": "Completes the middle school Latin sequence; Spanish is offered as an elective.",
+      "of": "a067ded6",
+      "at": [
+        "covenant-day:divisions[1].departments[2].courses[7].description"
+      ],
+      "t": "Achève la séquence de latin du Middle School ; l’espagnol est proposé en option."
+    },
+    {
+      "text": "Game skills and strategies with personal fitness goals; students may also compete on Covenant Day athletic teams.",
+      "of": "00afdbcc",
+      "at": [
+        "covenant-day:divisions[1].departments[2].courses[8].description"
+      ],
+      "t": "Gestes et stratégies de jeu, assortis d’objectifs de condition physique personnels ; les élèves peuvent aussi concourir dans les équipes sportives de Covenant Day."
+    },
+    {
+      "text": "CREATE",
+      "of": "c19230dd",
+      "at": [
+        "covenant-day:divisions[1].departments[3].courses[0].title"
+      ],
+      "t": "CREATE"
+    },
+    {
+      "text": "One of seven electives; students choose two each year.",
+      "of": "51c9dcff",
+      "at": [
+        "covenant-day:divisions[1].departments[3].courses[0].description",
+        "covenant-day:divisions[1].departments[3].courses[1].description",
+        "covenant-day:divisions[1].departments[3].courses[2].description",
+        "covenant-day:divisions[1].departments[3].courses[4].description",
+        "covenant-day:divisions[1].departments[3].courses[5].description",
+        "covenant-day:divisions[1].departments[3].courses[6].description"
+      ],
+      "t": "L’une des sept options ; les élèves en choisissent deux par an."
+    },
+    {
+      "text": "Offered as an elective alongside the required Latin sequence.",
+      "of": "bc0898f3",
+      "at": [
+        "covenant-day:divisions[1].departments[3].courses[3].description"
+      ],
+      "t": "Proposé en option, aux côtés de la séquence de latin obligatoire."
+    },
+    {
+      "text": "JUNIOR KINDERGARTEN – GRADE 5",
+      "of": "d7fe98a1",
+      "at": [
+        "covenant-day:divisions[2].grades"
+      ],
+      "t": "JUNIOR KINDERGARTEN – NIVEAU 5"
+    },
+    {
+      "text": "Five to six subject areas described for each of seven grades, plus six named Specials — CREATE Junior, Spanish from Junior Kindergarten, and recorder in 4th before band instruments in 5th.",
+      "of": "c5cc067c",
+      "at": [
+        "covenant-day:divisions[2].teaser"
+      ],
+      "t": "Cinq à six domaines décrits pour chacun des sept niveaux, plus six cours spéciaux nommés — CREATE Junior, l’espagnol dès la Junior Kindergarten, et la flûte à bec en 4e année avant les instruments d’harmonie en 5e."
+    },
+    {
+      "text": "Covenant Day publishes per-grade subject areas and competencies for JK–5 rather than a named-course catalog. The Specials below are the school’s own named courses; the per-grade rows condense that grade’s published competency description.",
+      "of": "7abf4def",
+      "at": [
+        "covenant-day:divisions[2].notPublished"
+      ],
+      "t": "Covenant Day publie, pour la JK à la 5e année, des domaines et des compétences par niveau plutôt qu’un catalogue de cours nommés. Les cours spéciaux ci-dessous sont les cours nommés de l’école ; les lignes par niveau condensent la description des compétences publiée pour ce niveau."
+    },
+    {
+      "text": "Junior Kindergarten",
+      "of": "5ee6535c",
+      "at": [
+        "covenant-day:divisions[2].departments[0].name"
+      ],
+      "t": "Junior Kindergarten"
+    },
+    {
+      "text": "Phonics through directionality, letter sounds, at least 10 digraphs, CVC sound blending and 5 common exception words; retelling and predicting in comprehension; and forming most lowercase and capital letters.",
+      "of": "f8840d44",
+      "at": [
+        "covenant-day:divisions[2].departments[0].courses[0].description"
+      ],
+      "t": "La phonétique par la directionnalité, le son des lettres, au moins 10 digrammes, la fusion des sons CVC et 5 mots courants irréguliers ; le rappel de récit et l’anticipation en compréhension ; et le tracé de la plupart des minuscules et des majuscules."
+    },
+    {
+      "text": "Positional relationships and 2D shapes, comparing length, weight and capacity; counting to 20 and backward from 10, number bonds to 5, doubles to 10, subitizing to 5; and repeating patterns, sorting, and comparing quantities to 10.",
+      "of": "05a23605",
+      "at": [
+        "covenant-day:divisions[2].departments[0].courses[1].description"
+      ],
+      "t": "Les relations de position et les figures 2D, la comparaison des longueurs, des masses et des contenances ; compter jusqu’à 20 et à rebours depuis 10, les décompositions jusqu’à 5, les doubles jusqu’à 10 et la subitisation jusqu’à 5 ; ainsi que les motifs répétitifs, le tri et la comparaison de quantités jusqu’à 10."
+    },
+    {
+      "text": "God’s love through short memorized Scripture passages and key Bible characters, with weekly chapel and lower school Missions Week.",
+      "of": "acbbd185",
+      "at": [
+        "covenant-day:divisions[2].departments[0].courses[2].description"
+      ],
+      "t": "L’amour de Dieu à travers de courts passages des Écritures appris par cœur et des personnages bibliques clés, avec un culte hebdomadaire et la Semaine des missions du Lower School."
+    },
+    {
+      "text": "Science and Social Studies",
+      "of": "a22a5bd2",
+      "at": [
+        "covenant-day:divisions[2].departments[0].courses[3].title"
+      ],
+      "t": "Sciences et sciences sociales"
+    },
+    {
+      "text": "Exploring the natural world — body parts, seasons, life cycles, plant growth and changing states of matter — alongside significant historical figures, past/present/future, other countries, and community helpers.",
+      "of": "ed426eb3",
+      "at": [
+        "covenant-day:divisions[2].departments[0].courses[3].description"
+      ],
+      "t": "L’exploration du monde naturel — parties du corps, saisons, cycles de vie, croissance des plantes et changements d’état de la matière — aux côtés de grandes figures historiques, du passé, du présent et du futur, d’autres pays et des métiers au service de la collectivité."
+    },
+    {
+      "text": "Imaginative role-play and performing for an audience, with nursery rhymes and songs alongside a range of materials, tools and art techniques.",
+      "of": "6aebf4f6",
+      "at": [
+        "covenant-day:divisions[2].departments[0].courses[4].description"
+      ],
+      "t": "Le jeu de rôle imaginaire et la représentation devant un public, avec comptines et chansons, ainsi qu’une variété de matériaux, d’outils et de techniques artistiques."
+    },
+    {
+      "text": "Kindergarten",
+      "of": "68541d89",
+      "at": [
+        "covenant-day:divisions[2].departments[1].name"
+      ],
+      "t": "Kindergarten"
+    },
+    {
+      "text": "K",
+      "of": "ce0c068a",
+      "at": [
+        "covenant-day:divisions[2].departments[1].courses[0].tag",
+        "covenant-day:divisions[2].departments[1].courses[1].tag",
+        "covenant-day:divisions[2].departments[1].courses[2].tag",
+        "covenant-day:divisions[2].departments[1].courses[3].tag",
+        "covenant-day:divisions[2].departments[1].courses[4].tag"
+      ],
+      "t": "K"
+    },
+    {
+      "text": "Phonological awareness, short vowel words and sight-word recognition; story retelling, listening comprehension and verbal reasoning; handwriting, sentence structure and writing stories.",
+      "of": "c0c7beb3",
+      "at": [
+        "covenant-day:divisions[2].departments[1].courses[0].description"
+      ],
+      "t": "La conscience phonologique, les mots à voyelle brève et la reconnaissance des mots courants ; le rappel de récit, la compréhension orale et le raisonnement verbal ; l’écriture manuscrite, la structure de la phrase et la rédaction d’histoires."
+    },
+    {
+      "text": "Math talks with manipulatives — counting and skip counting to 100, number recognition and formation 0–20, place value to 20, geometry, patterns, sorting, measurement, combinations of 10, graphing, estimating and calendar.",
+      "of": "46842447",
+      "at": [
+        "covenant-day:divisions[2].departments[1].courses[1].description"
+      ],
+      "t": "Des échanges mathématiques avec du matériel de manipulation — compter et compter de n en n jusqu’à 100, reconnaître et tracer les nombres de 0 à 20, la numération jusqu’à 20, la géométrie, les motifs, le tri, la mesure, les compléments à 10, les graphiques, l’estimation et le calendrier."
+    },
+    {
+      "text": "Friendship with God and others through group projects, activity centers and classroom community, with weekly chapel, Missions Week, memorized Scripture and Bible characters.",
+      "of": "05ddc586",
+      "at": [
+        "covenant-day:divisions[2].departments[1].courses[2].description"
+      ],
+      "t": "L’amitié avec Dieu et avec les autres à travers des projets de groupe, des ateliers et la vie de la classe, avec un culte hebdomadaire, la Semaine des missions, des Écritures apprises par cœur et des personnages bibliques."
+    },
+    {
+      "text": "God’s strength in the oceans, creative patterns through the seasons, and animal life cycles.",
+      "of": "3c695181",
+      "at": [
+        "covenant-day:divisions[2].departments[1].courses[3].description"
+      ],
+      "t": "La force de Dieu dans les océans, les motifs de la création au fil des saisons, et les cycles de vie des animaux."
+    },
+    {
+      "text": "Explorers, pilgrims and Native Americans, famous artists and holidays, and world cultures and traditions as a way into empathy for others.",
+      "of": "e5fc2900",
+      "at": [
+        "covenant-day:divisions[2].departments[1].courses[4].description"
+      ],
+      "t": "Les explorateurs, les pèlerins et les Amérindiens, les artistes célèbres et les fêtes, ainsi que les cultures et les traditions du monde comme chemin vers l’empathie."
+    },
+    {
+      "text": "First Grade",
+      "of": "0633b25e",
+      "at": [
+        "covenant-day:divisions[2].departments[2].name"
+      ],
+      "t": "Niveau 1"
+    },
+    {
+      "text": "Gr 1",
+      "of": "ee2678bf",
+      "at": [
+        "covenant-day:divisions[2].departments[2].courses[0].tag",
+        "covenant-day:divisions[2].departments[2].courses[1].tag",
+        "covenant-day:divisions[2].departments[2].courses[2].tag",
+        "covenant-day:divisions[2].departments[2].courses[3].tag",
+        "covenant-day:divisions[2].departments[2].courses[4].tag"
+      ],
+      "t": "Niv. 1"
+    },
+    {
+      "text": "Phonics and spelling through decoding and fluency; grammar covering parts of speech, capitalization and sentence types; comprehension from retelling to cause/effect and fact/opinion; and personal narrative, opinion and informational writing.",
+      "of": "d78fd7b1",
+      "at": [
+        "covenant-day:divisions[2].departments[2].courses[0].description"
+      ],
+      "t": "La phonétique et l’orthographe par le décodage et la fluidité ; la grammaire, avec les classes de mots, les majuscules et les types de phrases ; la compréhension, du rappel de récit à la cause/conséquence et au fait/opinion ; et l’écriture de récits personnels, d’opinion et de textes informatifs."
+    },
+    {
+      "text": "Place value to 100 and numbers to 120, number bonds, addition and subtraction to 100, ordinal numbers, 2D and 3D shapes, mental math, customary length and weight, picture and bar graphs, money, calendar and time.",
+      "of": "e4d8dcdf",
+      "at": [
+        "covenant-day:divisions[2].departments[2].courses[1].description"
+      ],
+      "t": "La numération jusqu’à 100 et les nombres jusqu’à 120, les décompositions, l’addition et la soustraction jusqu’à 100, les nombres ordinaux, les figures 2D et 3D, le calcul mental, les longueurs et les masses en unités usuelles américaines, les diagrammes en images et en barres, la monnaie, le calendrier et l’heure."
+    },
+    {
+      "text": "Abraham, Isaac and Jacob, Joseph, Moses, Israel and the Promised Land, then Judges and Ruth, Samuel and Saul, David and Solomon, the divided kingdom, exile and return, Psalms and Proverbs.",
+      "of": "930bc3e5",
+      "at": [
+        "covenant-day:divisions[2].departments[2].courses[2].description"
+      ],
+      "t": "Abraham, Isaac et Jacob, Joseph, Moïse, Israël et la Terre promise, puis les Juges et Ruth, Samuel et Saül, David et Salomon, le royaume divisé, l’exil et le retour, les Psaumes et les Proverbes."
+    },
+    {
+      "text": "Seasonal patterns, plants, light and sound waves, animal behaviors and habitats.",
+      "of": "8b3bd7d6",
+      "at": [
+        "covenant-day:divisions[2].departments[2].courses[3].description"
+      ],
+      "t": "Les rythmes des saisons, les plantes, les ondes lumineuses et sonores, et les comportements et habitats des animaux."
+    },
+    {
+      "text": "Safety, laws and responsible citizenship, with units on home, school and community, map skills, and past, present and future events.",
+      "of": "3800f9a5",
+      "at": [
+        "covenant-day:divisions[2].departments[2].courses[4].description"
+      ],
+      "t": "La sécurité, les lois et la citoyenneté responsable, avec des séquences sur la maison, l’école et la collectivité, la lecture de cartes, et les événements passés, présents et futurs."
+    },
+    {
+      "text": "Second Grade",
+      "of": "12e3a7f2",
+      "at": [
+        "covenant-day:divisions[2].departments[3].name"
+      ],
+      "t": "Niveau 2"
+    },
+    {
+      "text": "Gr 2",
+      "of": "ef267a52",
+      "at": [
+        "covenant-day:divisions[2].departments[3].courses[0].tag",
+        "covenant-day:divisions[2].departments[3].courses[1].tag",
+        "covenant-day:divisions[2].departments[3].courses[2].tag",
+        "covenant-day:divisions[2].departments[3].courses[3].tag",
+        "covenant-day:divisions[2].departments[3].courses[4].tag"
+      ],
+      "t": "Niv. 2"
+    },
+    {
+      "text": "Decoding and encoding short, long-vowel and multi-syllabic words; grammar through contractions and sentence types; comprehension including sequencing and verbal reasoning; and expanded narrative and informational writing in print and cursive.",
+      "of": "5b9d84c6",
+      "at": [
+        "covenant-day:divisions[2].departments[3].courses[0].description"
+      ],
+      "t": "Le décodage et l’encodage de mots courts, à voyelle longue et polysyllabiques ; la grammaire, jusqu’aux contractions et aux types de phrases ; la compréhension, y compris la mise en ordre et le raisonnement verbal ; et une écriture narrative et informative élargie, en script et en cursive."
+    },
+    {
+      "text": "Fact families to 20, mental math and estimation, place value to 1,000, 2- and 3-digit addition and subtraction, an introduction to fractions, multiplication and division, time, money, customary and metric measurement, and bar-model problem solving.",
+      "of": "fd40ee8c",
+      "at": [
+        "covenant-day:divisions[2].departments[3].courses[1].description"
+      ],
+      "t": "Les familles d’opérations jusqu’à 20, le calcul mental et l’estimation, la numération jusqu’à 1,000, l’addition et la soustraction à 2 et 3 chiffres, une introduction aux fractions, la multiplication et la division, l’heure, la monnaie, les mesures en unités usuelles et métriques, et la résolution de problèmes par schémas en barres."
+    },
+    {
+      "text": "An Old Testament review via the Jesse Tree and the intertestamental period, then the New Testament — Jesus’ birth, ministry, miracles, parables, crucifixion and resurrection — closing with the early church and Paul’s journeys.",
+      "of": "e81419c9",
+      "at": [
+        "covenant-day:divisions[2].departments[3].courses[2].description"
+      ],
+      "t": "Une révision de l’Ancien Testament par l’arbre de Jessé et la période intertestamentaire, puis le Nouveau Testament — la naissance de Jésus, son ministère, ses miracles, ses paraboles, sa crucifixion et sa résurrection — pour finir sur l’Église primitive et les voyages de Paul."
+    },
+    {
+      "text": "The human body, life cycles, insects, oceanography, animal behaviors and interactions with matter.",
+      "of": "c824babd",
+      "at": [
+        "covenant-day:divisions[2].departments[3].courses[3].description"
+      ],
+      "t": "Le corps humain, les cycles de vie, les insectes, l’océanographie, et les comportements des animaux et leurs interactions avec la matière."
+    },
+    {
+      "text": "Immigration, geography’s influence on communities, community helpers and resources, globes and map skills, holidays and world culture, plus how officials are elected and how history shapes a community’s heritage.",
+      "of": "280e74c3",
+      "at": [
+        "covenant-day:divisions[2].departments[3].courses[4].description"
+      ],
+      "t": "L’immigration, l’influence de la géographie sur les collectivités, les métiers et les ressources de la collectivité, les globes et la lecture de cartes, les fêtes et les cultures du monde, ainsi que la façon dont les élus sont désignés et dont l’histoire façonne le patrimoine d’une collectivité."
+    },
+    {
+      "text": "Third Grade",
+      "of": "aebdcf3d",
+      "at": [
+        "covenant-day:divisions[2].departments[4].name"
+      ],
+      "t": "Niveau 3"
+    },
+    {
+      "text": "Gr 3",
+      "of": "f0267be5",
+      "at": [
+        "covenant-day:divisions[2].departments[4].courses[0].tag",
+        "covenant-day:divisions[2].departments[4].courses[1].tag",
+        "covenant-day:divisions[2].departments[4].courses[2].tag",
+        "covenant-day:divisions[2].departments[4].courses[3].tag",
+        "covenant-day:divisions[2].departments[4].courses[4].tag"
+      ],
+      "t": "Niv. 3"
+    },
+    {
+      "text": "Spelling patterns, rules and syllable division; grammar across synonyms, antonyms, homonyms, prepositions and irregular verbs; comprehension through inference and author’s purpose; and simple, compound and four sentence types in composition.",
+      "of": "9dba593e",
+      "at": [
+        "covenant-day:divisions[2].departments[4].courses[0].description"
+      ],
+      "t": "Les régularités orthographiques, les règles et la découpe syllabique ; la grammaire, avec synonymes, antonymes, homonymes, prépositions et verbes irréguliers ; la compréhension par l’inférence et l’intention de l’auteur ; et les phrases simples, composées et les quatre types de phrases en expression écrite."
+    },
+    {
+      "text": "Place value to 10,000, rounding, mental math and estimation, bar models for word problems, multiplication facts 0–12, 1- and 2-digit multiplication and division, fractions and decimals, angles and lines, area and perimeter, and measurement conversions.",
+      "of": "eb65540d",
+      "at": [
+        "covenant-day:divisions[2].departments[4].courses[1].description"
+      ],
+      "t": "La numération jusqu’à 10,000, l’arrondi, le calcul mental et l’estimation, les schémas en barres pour les problèmes, les tables de multiplication de 0 à 12, la multiplication et la division à 1 et 2 chiffres, les fractions et les décimaux, les angles et les droites, l’aire et le périmètre, et les conversions de mesures."
+    },
+    {
+      "text": "Creation, the fall, Noah, the Tower of Babel, Abraham, Isaac, Jacob, Joseph, the Exodus, the ten commandments, the wilderness and the Promised Land, closing with a book study of Ephesians.",
+      "of": "48152969",
+      "at": [
+        "covenant-day:divisions[2].departments[4].courses[2].description"
+      ],
+      "t": "La création, la chute, Noé, la tour de Babel, Abraham, Isaac, Jacob, Joseph, l’Exode, les dix commandements, le désert et la Terre promise, pour finir sur une étude de l’épître aux Éphésiens."
+    },
+    {
+      "text": "Forces and magnetism, the earth and the activity on it, plants, animals and fossils.",
+      "of": "223b42ce",
+      "at": [
+        "covenant-day:divisions[2].departments[4].courses[3].description"
+      ],
+      "t": "Les forces et le magnétisme, la Terre et son activité, les plantes, les animaux et les fossiles."
+    },
+    {
+      "text": "How events, individuals and ideas have shaped communities — especially Charlotte, NC — plus major landforms and their impact on people, industry and the economy, and the 13 American colonies.",
+      "of": "d2050df7",
+      "at": [
+        "covenant-day:divisions[2].departments[4].courses[4].description"
+      ],
+      "t": "Comment les événements, les personnes et les idées ont façonné les collectivités — en particulier Charlotte, en Caroline du Nord — ainsi que les grands reliefs et leur incidence sur les populations, l’industrie et l’économie, et les 13 colonies américaines."
+    },
+    {
+      "text": "Fourth Grade",
+      "of": "df5b922e",
+      "at": [
+        "covenant-day:divisions[2].departments[5].name"
+      ],
+      "t": "Niveau 4"
+    },
+    {
+      "text": "Word analysis, fluency and vocabulary using glossaries, dictionaries and thesauruses; morphology and spelling rules with sentence parts and subject-verb agreement; comprehension through inference and author’s viewpoint; and writing for different purposes and audiences.",
+      "of": "77a2caf1",
+      "at": [
+        "covenant-day:divisions[2].departments[5].courses[0].description"
+      ],
+      "t": "L’analyse des mots, la fluidité et le vocabulaire à l’aide de glossaires, de dictionnaires et de dictionnaires analogiques ; la morphologie et les règles orthographiques, avec les constituants de la phrase et l’accord sujet-verbe ; la compréhension par l’inférence et le point de vue de l’auteur ; et l’écriture selon les finalités et les destinataires."
+    },
+    {
+      "text": "Multi-digit operations, common multiples and factors, mean, median, mode and range, fractions and decimals across all four operations, customary and metric measurement, perimeter and area, lines and angles, quadrilaterals, congruence and symmetry, and multi-step bar models.",
+      "of": "5bf9b374",
+      "at": [
+        "covenant-day:divisions[2].departments[5].courses[1].description"
+      ],
+      "t": "Les opérations à plusieurs chiffres, les multiples et diviseurs communs, la moyenne, la médiane, le mode et l’étendue, les fractions et les décimaux dans les quatre opérations, les mesures en unités usuelles et métriques, le périmètre et l’aire, les droites et les angles, les quadrilatères, la congruence et la symétrie, et les schémas en barres à plusieurs étapes."
+    },
+    {
+      "text": "Philippians, Judges, Joshua, Kings Saul, David and Solomon, Ruth, Samuel, the divided kingdom, the feast of trumpets, the day of atonement, and the fruit of the spirit.",
+      "of": "f5ab1491",
+      "at": [
+        "covenant-day:divisions[2].departments[5].courses[2].description"
+      ],
+      "t": "L’épître aux Philippiens, les Juges, Josué, les rois Saül, David et Salomon, Ruth, Samuel, le royaume divisé, la fête des trompettes, le jour des expiations, et le fruit de l’Esprit."
+    },
+    {
+      "text": "Energy, speed and moving objects, waves, the earth’s features, natural hazards, and structures and functions.",
+      "of": "3b3e965e",
+      "at": [
+        "covenant-day:divisions[2].departments[5].courses[3].description"
+      ],
+      "t": "L’énergie, la vitesse et les objets en mouvement, les ondes, les reliefs terrestres, les risques naturels, et les structures et leurs fonctions."
+    },
+    {
+      "text": "North Carolina — its regions, history and government, and the environmental and technological factors shaping the state’s growth.",
+      "of": "ae8894ac",
+      "at": [
+        "covenant-day:divisions[2].departments[5].courses[4].description"
+      ],
+      "t": "La Caroline du Nord — ses régions, son histoire et son gouvernement, et les facteurs environnementaux et technologiques qui façonnent la croissance de l’État."
+    },
+    {
+      "text": "Fifth Grade",
+      "of": "ddfda45d",
+      "at": [
+        "covenant-day:divisions[2].departments[6].name"
+      ],
+      "t": "Niveau 5"
+    },
+    {
+      "text": "Parts of speech, analogies, subjects and predicates, prepositional phrases and clauses; comprehension across fiction, fantasy, biography, historical fiction, non-fiction and poetry; and descriptive, narrative, expository and persuasive writing plus literary analysis.",
+      "of": "553c68ca",
+      "at": [
+        "covenant-day:divisions[2].departments[6].courses[0].description"
+      ],
+      "t": "Les classes de mots, les analogies, sujets et prédicats, groupes prépositionnels et propositions ; la compréhension à travers la fiction, la fantasy, la biographie, la fiction historique, la non-fiction et la poésie ; et l’écriture descriptive, narrative, explicative et persuasive, ainsi que l’analyse littéraire."
+    },
+    {
+      "text": "Place value to 10,000,000, mental math and estimation, multi-digit multiplication and division, fractions, bar-graph problem-solving models, algebraic thinking, area and perimeter, ratios, decimals and percents, graphs, probability and types of angles.",
+      "of": "c7ddaff9",
+      "at": [
+        "covenant-day:divisions[2].departments[6].courses[1].description"
+      ],
+      "t": "La numération jusqu’à 10,000,000, le calcul mental et l’estimation, la multiplication et la division à plusieurs chiffres, les fractions, les schémas en barres pour résoudre des problèmes, la pensée algébrique, l’aire et le périmètre, les rapports, les décimaux et les pourcentages, les graphiques, les probabilités et les types d’angles."
+    },
+    {
+      "text": "1 Peter, Old Testament covenants, Judah’s return, the writers of the Gospels, Rosh Hashanah, Yom Kippur, Hannukah, Passover, and Jesus’ birth, ministry, parables, death and resurrection.",
+      "of": "a0d61196",
+      "at": [
+        "covenant-day:divisions[2].departments[6].courses[2].description"
+      ],
+      "t": "1 Pierre, les alliances de l’Ancien Testament, le retour de Juda, les auteurs des Évangiles, Roch Hachana, Yom Kippour, Hanoucca, la Pâque juive, et la naissance de Jésus, son ministère, ses paraboles, sa mort et sa résurrection."
+    },
+    {
+      "text": "Chemical and physical property change, gravity, energy, photosynthesis and plant decomposition, and earth systems.",
+      "of": "bdb83b3a",
+      "at": [
+        "covenant-day:divisions[2].departments[6].courses[3].description"
+      ],
+      "t": "Les changements de propriétés chimiques et physiques, la gravité, l’énergie, la photosynthèse et la décomposition végétale, et les systèmes terrestres."
+    },
+    {
+      "text": "World and state geography, ancient Mesopotamia, Greece and Rome, Vikings, Medieval Europe, the Renaissance and Reformation, the Age of Exploration, and the Mayas, Incas and Aztecs.",
+      "of": "a9542e5f",
+      "at": [
+        "covenant-day:divisions[2].departments[6].courses[4].description"
+      ],
+      "t": "La géographie du monde et de l’État, la Mésopotamie antique, la Grèce et la Rome antiques, les Vikings, l’Europe médiévale, la Renaissance et la Réforme, les grandes découvertes, et les Mayas, les Incas et les Aztèques."
+    },
+    {
+      "text": "Specials",
+      "of": "244e8099",
+      "at": [
+        "covenant-day:divisions[2].departments[7].name",
+        "davidson-day:divisions[0].departments[0].courses[1].title"
+      ],
+      "t": "Cours spéciaux"
+    },
+    {
+      "text": "JK–Gr 5",
+      "of": "32eebe81",
+      "at": [
+        "covenant-day:divisions[2].departments[7].courses[0].tag",
+        "covenant-day:divisions[2].departments[7].courses[1].tag",
+        "covenant-day:divisions[2].departments[7].courses[2].tag",
+        "covenant-day:divisions[2].departments[7].courses[3].tag",
+        "covenant-day:divisions[2].departments[7].courses[4].tag",
+        "covenant-day:divisions[2].departments[7].courses[5].tag"
+      ],
+      "t": "JK–Niv. 5"
+    },
+    {
+      "text": "Skill, craftsmanship, beauty, clarity and balance practiced through painting, sketching, ceramics, printmaking, landscapes and portraits, shown at the annual spring Art Walk.",
+      "of": "c401dd07",
+      "at": [
+        "covenant-day:divisions[2].departments[7].courses[0].description"
+      ],
+      "t": "L’habileté, le soin du geste, la beauté, la clarté et l’équilibre travaillés par la peinture, le dessin, la céramique, la gravure, le paysage et le portrait, exposés à l’Art Walk annuel du printemps."
+    },
+    {
+      "text": "Vocal, instrumental and percussion music across classical and modern composers; 4th grade learns recorder and 5th grade band instruments, with a children’s choir and private piano, vocal and guitar lessons available.",
+      "of": "8a74cd7d",
+      "at": [
+        "covenant-day:divisions[2].departments[7].courses[1].description"
+      ],
+      "t": "Musique vocale, instrumentale et de percussion, de compositeurs classiques et modernes ; la 4e année apprend la flûte à bec et la 5e les instruments d’harmonie, avec une chorale d’enfants et des cours particuliers de piano, de chant et de guitare proposés."
+    },
+    {
+      "text": "CREATE Junior",
+      "of": "df24f2e2",
+      "at": [
+        "covenant-day:divisions[2].departments[7].courses[2].title"
+      ],
+      "t": "CREATE Junior"
+    },
+    {
+      "text": "Integrates technology and critical thinking with each grade’s content areas through science, technology, math and engineering — the precursor to the Middle School’s CREATE.",
+      "of": "1fb9cf66",
+      "at": [
+        "covenant-day:divisions[2].departments[7].courses[2].description"
+      ],
+      "t": "Intègre la technologie et l’esprit critique aux contenus de chaque niveau par les sciences, la technologie, les mathématiques et l’ingénierie — le précurseur du CREATE du Middle School."
+    },
+    {
+      "text": "Teaches the language alongside the culture, studying the holidays, geography and traditions of Spanish communities.",
+      "of": "1ed3e5f5",
+      "at": [
+        "covenant-day:divisions[2].departments[7].courses[3].description"
+      ],
+      "t": "Enseigne la langue en même temps que la culture, en étudiant les fêtes, la géographie et les traditions des communautés hispanophones."
+    },
+    {
+      "text": "Weekly athletic skills and endurance work built on developmentally appropriate lessons, with the Turkey Trot and Field Day as highlights.",
+      "of": "16160081",
+      "at": [
+        "covenant-day:divisions[2].departments[7].courses[4].description"
+      ],
+      "t": "Un travail hebdomadaire d’habileté athlétique et d’endurance, fondé sur des séances adaptées au développement de l’enfant, avec le Turkey Trot et le Field Day comme temps forts."
+    },
+    {
+      "text": "Finding books and developing research skills in print and online, with the Readers Are Leaders program encouraging reading for pleasure with a purpose.",
+      "of": "5a001d17",
+      "at": [
+        "covenant-day:divisions[2].departments[7].courses[5].description"
+      ],
+      "t": "Trouver des livres et développer des compétences de recherche sur papier et en ligne, avec le programme Readers Are Leaders, qui encourage à lire pour le plaisir mais avec un but."
     },
     {
       "text": "Age 2 – Grade 4",
@@ -15876,14 +16923,6 @@
         "davidson-day:divisions[0].departments[0].courses[0].description"
       ],
       "t": "Early Preschool (2/3 ans), Preschool (3/4 ans) et Junior Kindergarten (4/5 ans) visent les compétences cognitives, le développement du langage, la motricité, les fonctions exécutives et le bien-être socio-émotionnel."
-    },
-    {
-      "text": "Specials",
-      "of": "244e8099",
-      "at": [
-        "davidson-day:divisions[0].departments[0].courses[1].title"
-      ],
-      "t": "Cours spéciaux"
     },
     {
       "text": "K–Gr 4",
@@ -16289,6 +17328,44 @@
       "t": "Les élèves avancés de l’album assument des rôles de direction pour le thème, la mise en page, la formation de l’équipe et les campagnes commerciales."
     },
     {
+      "text": "Gr 9–12",
+      "of": "8a72ad6f",
+      "at": [
+        "davidson-day:divisions[2].departments[1].courses[0].tag",
+        "davidson-day:divisions[2].departments[1].courses[2].tag",
+        "davidson-day:divisions[2].departments[4].courses[0].tag",
+        "davidson-day:divisions[2].departments[4].courses[6].tag",
+        "carmel-christian:divisions[0].departments[0].courses[0].tag",
+        "carmel-christian:divisions[0].departments[0].courses[1].tag",
+        "carmel-christian:divisions[0].departments[0].courses[2].tag",
+        "carmel-christian:divisions[0].departments[0].courses[3].tag",
+        "carmel-christian:divisions[0].departments[5].courses[0].tag",
+        "carmel-christian:divisions[0].departments[5].courses[7].tag",
+        "carmel-christian:divisions[0].departments[6].courses[0].tag",
+        "carmel-christian:divisions[0].departments[6].courses[1].tag",
+        "carmel-christian:divisions[0].departments[6].courses[2].tag",
+        "carmel-christian:divisions[0].departments[6].courses[3].tag",
+        "carmel-christian:divisions[0].departments[6].courses[4].tag",
+        "carmel-christian:divisions[0].departments[7].courses[0].tag",
+        "carmel-christian:divisions[0].departments[7].courses[1].tag",
+        "carmel-christian:divisions[0].departments[7].courses[5].tag",
+        "carmel-christian:divisions[0].departments[7].courses[6].tag",
+        "carmel-christian:divisions[0].departments[7].courses[7].tag",
+        "carmel-christian:divisions[0].departments[7].courses[8].tag",
+        "carmel-christian:divisions[0].departments[7].courses[10].tag",
+        "carmel-christian:divisions[0].departments[7].courses[11].tag",
+        "carmel-christian:divisions[0].departments[7].courses[12].tag",
+        "carmel-christian:divisions[0].departments[7].courses[13].tag",
+        "carmel-christian:divisions[0].departments[7].courses[14].tag",
+        "carmel-christian:divisions[0].departments[8].courses[2].tag",
+        "carmel-christian:divisions[0].departments[8].courses[3].tag",
+        "carmel-christian:divisions[0].departments[8].courses[4].tag",
+        "carmel-christian:divisions[0].departments[8].courses[5].tag",
+        "hickory-grove-christian:divisions[0].departments[7].courses[0].tag"
+      ],
+      "t": "Niv. 9–12"
+    },
+    {
       "text": "Introduces the fundamental concepts of algebra and their multiple representations, including linear and quadratic equations and polynomials.",
       "of": "f8359616",
       "at": [
@@ -16491,28 +17568,12 @@
       "t": "Un panorama de niveau universitaire à partir d’environ 1200 apr. J.-C., couvrant l’intégration mondiale, l’industrialisation, le colonialisme et les conflits idéologiques."
     },
     {
-      "text": "U.S. History Honors",
-      "of": "66ac24a4",
-      "at": [
-        "davidson-day:divisions[2].departments[2].courses[4].title"
-      ],
-      "t": "U.S. History Honors"
-    },
-    {
       "text": "Surveys United States history from the peopling of North America to the present through diverse viewpoints and primary-source argumentation.",
       "of": "c6cfcf81",
       "at": [
         "davidson-day:divisions[2].departments[2].courses[4].description"
       ],
       "t": "Parcourt l’histoire des États-Unis, du peuplement de l’Amérique du Nord jusqu’à nos jours, à travers des points de vue variés et l’argumentation à partir de sources primaires."
-    },
-    {
-      "text": "AP U.S. History",
-      "of": "f17effea",
-      "at": [
-        "davidson-day:divisions[2].departments[2].courses[5].title"
-      ],
-      "t": "AP U.S. History"
     },
     {
       "text": "A college-level survey with substantially greater reading — primary documents, cartoons, maps, data sets — pushing students to work like historians.",
@@ -17824,6 +18885,15 @@
       "t": "La filière honors de gouvernement et économie des États-Unis."
     },
     {
+      "text": "US History",
+      "of": "9aeceb25",
+      "at": [
+        "carmel-christian:divisions[0].departments[4].courses[4].title",
+        "carmel-christian:divisions[0].departments[4].courses[5].title"
+      ],
+      "t": "US History"
+    },
+    {
       "text": "The standard track of US history.",
       "of": "e59f7649",
       "at": [
@@ -17902,6 +18972,15 @@
         "carmel-christian:divisions[0].departments[4].courses[9].description"
       ],
       "t": "Gouvernement et politique des États-Unis de niveau universitaire."
+    },
+    {
+      "text": "AP US History",
+      "of": "6ac84760",
+      "at": [
+        "carmel-christian:divisions[0].departments[4].courses[10].title",
+        "hickory-grove-christian:divisions[0].departments[3].courses[0].title"
+      ],
+      "t": "AP US History"
     },
     {
       "text": "AP World History",
@@ -18394,14 +19473,6 @@
         "carmel-christian:divisions[0].departments[8].courses[7].description"
       ],
       "t": "Le deuxième cours AP Capstone, aboutissant à un mémoire académique."
-    },
-    {
-      "text": "GRADES 6 – 8",
-      "of": "540842be",
-      "at": [
-        "carmel-christian:divisions[1].grades"
-      ],
-      "t": "GRADES 6 – 8"
     },
     {
       "text": "The Middle School publishes its own named-course list — a full academic core plus an unusually broad elective slate — from the 2024-25 Middle School Curriculum Guide.",

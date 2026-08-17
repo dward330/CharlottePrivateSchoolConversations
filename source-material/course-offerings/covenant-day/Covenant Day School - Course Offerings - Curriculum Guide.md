@@ -5,6 +5,19 @@
 > academics pages. **High school only** — the Lower School and Middle School
 > academics pages describe competencies, not named course lists, so no JK-5 or 6-8
 > catalog exists to transcribe (confirmed absence).
+>
+> **⚠️ CORRECTION (2026-08-17) — the "confirmed absence" above is WRONG.** The
+> Lower and Middle School academics pages DO publish per-grade curriculum, behind
+> click-to-open tiles whose text is loaded by JavaScript and is absent from the
+> page HTML a plain `curl` returns. That retrieval failure was mistaken for a
+> publication gap. The real material is now captured in the three sibling files
+> in this folder (`… - Lower School Curriculum.md`, `… - Middle School
+> Curriculum.md`, `… - High School Course and Elective Offerings.md`), each
+> recording the reproducible fetch. **This file is superseded for course lists**
+> and retained only for the Profile-PDF material the academics pages do not carry
+> (graduation units, weighting, AP gating, edition drift). Where this file and the
+> academics-page files disagree on a course list, the academics pages win — they
+> are the school's current self-published catalog.
 
 ### Sources
 

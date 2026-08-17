@@ -31,13 +31,20 @@ const HIDE = [
 ]
 
 const RULES: Record<string, Rule[]> = {
-  // Course Offerings renders as three per-division cards driven by
-  // data/courseOfferings.ts, not by the ingested prose. The single research
-  // file per school ("… - Course Offerings - Curriculum Guide.md") folds onto
-  // one key so SchoolDetail can swap in the division cards; without a rules
-  // array the subtopic would slugify into an orphan prose section.
+  // Course Offerings renders as per-division cards driven by
+  // data/courseOfferings.ts, not by the ingested prose. Every research file for
+  // the topic folds onto ONE key so SchoolDetail can swap in the division
+  // cards; without a rules array the subtopic would slugify into an orphan
+  // prose section. Most schools publish a single "… - Curriculum Guide.md";
+  // Covenant Day publishes one file per division ("Lower School Curriculum",
+  // "Middle School Curriculum", "High School Course and Elective Offerings"),
+  // so the pattern matches a bare "curriculum" / "course…offerings" too.
   'course-offerings': [
-    { match: /curriculum guide|course offerings|program of stud/i, key: 'curriculum', label: 'Course Offerings' },
+    {
+      match: /curriculum|course.*offerings|course offerings|program of stud/i,
+      key: 'curriculum',
+      label: 'Course Offerings',
+    },
   ],
   'after-school': [
     // After School renders as four consolidated cards driven by

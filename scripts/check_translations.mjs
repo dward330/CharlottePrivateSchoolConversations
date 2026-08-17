@@ -256,7 +256,12 @@ async function main() {
         const drifted = live.filter((a) => en.get(a).of !== entry.of)
         if (drifted.length) {
           stale++
-          if (staleEx.length < 3) staleEx.push({ at: drifted[0], was: entry.text })
+          // Shipped overlay entries carry only { t, of, at } — the English
+          // `text` lives in the WORK file, not here. Report the live English
+          // (from `en`) beside the now-stale translation instead.
+          if (staleEx.length < 3) {
+            staleEx.push({ at: drifted[0], now: en.get(drifted[0])?.value, t: entry.t })
+          }
           // Drifted sites stay uncovered — they render English until re-translated.
           for (const a of live) if (!drifted.includes(a) && entry.t) covered.add(a)
           continue
@@ -282,7 +287,8 @@ async function main() {
       }
       for (const e of staleEx) {
         console.log(`      stale: ${e.at}`)
-        console.log(`             was: ${JSON.stringify(e.was).slice(0, 76)}`)
+        console.log(`             English now: ${JSON.stringify(e.now ?? null).slice(0, 76)}`)
+        console.log(`             stale t:     ${JSON.stringify(e.t ?? null).slice(0, 76)}`)
       }
       problems += stale + orphan
     }

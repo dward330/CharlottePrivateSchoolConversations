@@ -507,6 +507,33 @@ for (const s of STANDALONE) {
   w('|---|---|---|')
   for (const f of s.fields) w(`| \`${f.name}\` | \`${esc(tidyType(f.type))}\` | ${f.optional ? '' : 'yes'} |`)
   w()
+  if (s.file === 'courseOfferings.ts') {
+    // Standing rule set 2026-08-17, after Covenant Day shipped High-School-only
+    // for months because a plain page fetch of its JK-8 academics pages returned
+    // tile titles and zero course text. The rule lives here because this doc is
+    // what /add-school and a new-school build read first.
+    w('**A division absent because research could not RETRIEVE it is not the same as a')
+    w('division the school does not PUBLISH — and the two are indistinguishable from a plain')
+    w('page fetch.** Modern school sites (Finalsite especially) render curriculum as click-to-')
+    w('open tiles whose bodies are fetched separately and are **not in the page HTML**, so')
+    w('`curl` of an academics page returns tile *titles* and no course text at all. Covenant')
+    w('Day shipped a High-School-only card for exactly this reason, with a code comment')
+    w('asserting the absence was by design. Before writing `notPublished` — or omitting a')
+    w('division — fetch the tile bodies (for Finalsite:')
+    w('`/fs/elements/<element_id>?is_popup=true&post_id=<post_id>&show_post=true`) and record')
+    w('the element/post ids in `source-material/` so the data is refreshable. A confirmed')
+    w('absence must come from a retrieval that could have succeeded.')
+    w()
+    w('**Division ORDER is load-bearing and append-only for an existing school.** Locale')
+    w('overlays key on index paths (`<slug>:divisions[0].departments[2].courses[5].title`) and')
+    w('`SchoolDetail` renders `divisions` in array order with no sort, so inserting a division')
+    w('at the front shifts every existing path and silently orphans that school\'s overlay')
+    w('entries in every locale — the runtime falls back to English with no error and no')
+    w('coverage change. Append new divisions at the END (Covenant Day and Carmel Christian')
+    w('both ship High → Middle → Lower for this reason). Order only matters within a school;')
+    w('a brand-new school is free to use grade order.')
+    w()
+  }
   const others = s.types.filter((t) => t !== s.root)
   if (others.length) {
     w(`Supporting types: ${others.map((t) => `\`${t}\``).join(', ')}`)
