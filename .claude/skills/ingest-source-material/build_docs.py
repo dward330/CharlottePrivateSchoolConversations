@@ -44,6 +44,13 @@ SCHOOL_NAMES = {
 }
 pretty = lambda slug, table: table.get(slug, slug.replace("-", " ").title())
 
+# Internal-only source-material folders: kept as committed provenance (logo
+# sourcing, trademark notes) per the data-provenance standard, but NOT rendered
+# as a public explore topic / Compare surface. Anything here is skipped when the
+# manifest is built. `branding` holds where each school's header logo came from —
+# reference material, never a page section.
+INTERNAL_TOPICS = {"branding"}
+
 # A table header cell that wraps inside its own column comes out of pdfplumber as a
 # split word: the header row on one line, then the tail of the wrapped word alone on
 # the next ("Sectio Subject Confidence" / "n"). Text order alone can't say which word
@@ -119,7 +126,8 @@ def main():
 
     os.makedirs(DATADIR, exist_ok=True)
     manifest_docs, counts = [], {}
-    topics = [t for t in list_dirs(SM) if not only or t == only]
+    topics = [t for t in list_dirs(SM)
+              if (not only or t == only) and t not in INTERNAL_TOPICS]
 
     for tslug in topics:
         tname = pretty(tslug, TOPIC_NAMES)
