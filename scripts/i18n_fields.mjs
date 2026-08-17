@@ -348,6 +348,7 @@ export const PATH_OVERRIDES = new Map([
   ['values.covenant-day', true],
   ['values.davidson-day', true],
   ['values.carmel-christian', true],
+  ['values.hickory-grove-christian', true],
   // The second display line under a value (metricValues.ts `subs`) — same money
   // in the other billing period, e.g. "≈$3,250/yr" under "$325/mo". Same shape and
   // same reason as `values` above: the digits round-trip untouched, but the `/yr`
@@ -361,6 +362,7 @@ export const PATH_OVERRIDES = new Map([
   ['subs.covenant-day', true],
   ['subs.davidson-day', true],
   ['subs.carmel-christian', true],
+  ['subs.hickory-grove-christian', true],
   // Per-cell provenance tooltips (metricValues.ts `quals`). The `.text` leaf is
   // prose (translated); the `.kind` leaf is an ENUM KEY resolved through the
   // locale catalogs (compare.qual.*), NOT display text — it must NOT be extracted.
@@ -378,6 +380,7 @@ export const PATH_OVERRIDES = new Map([
   ['compareAs', false],
   ['quals.davidson-day.kind', false],
   ['quals.carmel-christian.kind', false],
+  ['quals.hickory-grove-christian.kind', false],
   // Course Offerings. Classified from an ENUMERATION of every distinct value in
   // the module, not from the leaf names — the lesson of the three College
   // Support splits.

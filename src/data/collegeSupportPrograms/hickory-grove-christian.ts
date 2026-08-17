@@ -255,7 +255,6 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
       { value: '275', label: 'high-school students (2025–26)' },
       { value: 'No tools', label: 'Naviance / SCOIR / Common App account not published' },
     ],
-    rosterTitle: 'Who is in the room',
     roster: [
       {
         role: 'Director of Counseling',
@@ -311,7 +310,6 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
       { value: '9', label: 'Top-75 Liberal Arts colleges on the list' },
       { value: '20', label: 'HBCUs on the list' },
     ],
-    bucketsTitle: 'Scored against the 2026 U.S. News tiers',
     buckets: [
       { tier: 'Ivy League', count: '0 / 8' },
       { tier: '“Ivy Plus”', count: '0 / 17' },

@@ -145,15 +145,15 @@ export const hickoryGroveChristian: ArtsProgram = {
       },
       {
         label: 'Middle School',
-        ensembles: ['Band (6th beginner / 7th–8th intermediate)', 'Choir'],
+        ensembles: ['Band (6–8)', 'Choir'],
       },
       {
         label: 'Elementary',
-        ensembles: ['General music (National Standards)', 'Orff / rhythm instruments', 'Recorder (Gr 4)'],
+        ensembles: ['General music', 'Orff', 'Recorder (Gr 4)'],
       },
     ],
     boardNote:
-      'No orchestra or strings ensemble is published at any level, and no a cappella group is named.',
+      'Middle School band is split into a 6th-grade beginner section and a 7th–8th intermediate section. The elementary strand is a general-music class taught to the National Standards, with Orff and rhythm instruments alongside recorder in Grade 4. No orchestra or strings ensemble is published at any level, and no a cappella group is named.',
     ladderTitle: 'The honors ladder — what is published',
     ladder: [
       {
