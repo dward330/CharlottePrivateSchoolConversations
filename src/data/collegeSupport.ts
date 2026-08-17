@@ -186,11 +186,15 @@ export type Bucket = {
  */
 export type College = {
   name: string
-  /** e.g. "National Rank #3", "Liberal Rank #13". Blank where unranked. */
-  rankLabel?: string
   /**
    * Bucket keys this college belongs to — any of 'ivy' | 'ivyplus' | 'nu75' |
    * 'lac75' | 'p4' | 'hbcu'. Drives the filter chips above the list.
+   *
+   * The US News rank label is NOT stored here — it resolves from the master
+   * `COLLEGE_RANKINGS` table (`src/data/collegeRankings.ts`) at render time via
+   * `rankLabelFor(name)`, so a rank lives in exactly one place. Adding a college
+   * here needs only its name and buckets; its label (if it holds a National/LAC
+   * rank) comes from the master.
    */
   cats: string[]
   /** True where the school's list marks it as enrolling (bolded). */

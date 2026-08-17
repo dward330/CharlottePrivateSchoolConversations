@@ -33,6 +33,7 @@ import type {
   WholeClass,
 } from '../data/collegeSupport.ts'
 import { COLLEGE_FILTERS } from '../data/collegeSupport.ts'
+import { rankLabelFor } from '../data/collegeRankings.ts'
 import { useTranslation } from 'react-i18next'
 import { sourceLabel } from '../lib/labels.ts'
 
@@ -458,16 +459,19 @@ function CollegeList({ data }: { data: Outcomes }) {
       </div>
 
       <div className="cs-college-list">
-        {shown.map((c) => (
-          <div key={c.name} className="cs-college">
-            <span className={c.enrolling ? 'cs-college-name is-enrolling' : 'cs-college-name'}>
-              {c.name}
-            </span>
-            {c.rankLabel && (
-              <span className="cs-college-rank text-muted">{c.rankLabel}</span>
-            )}
-          </div>
-        ))}
+        {shown.map((c) => {
+          const rankLabel = rankLabelFor(c.name)
+          return (
+            <div key={c.name} className="cs-college">
+              <span className={c.enrolling ? 'cs-college-name is-enrolling' : 'cs-college-name'}>
+                {c.name}
+              </span>
+              {rankLabel && (
+                <span className="cs-college-rank text-muted">{rankLabel}</span>
+              )}
+            </div>
+          )
+        })}
         {shown.length === 0 && (
           <div className="cs-college-empty text-muted">
             No colleges match that filter.
