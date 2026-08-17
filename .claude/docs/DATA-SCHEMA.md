@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**8 schools × 9 research areas**, 361 ingested research documents.
+**8 schools × 8 research areas**, 355 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -58,7 +58,6 @@ exists yet and **the section does not render at all** for that school.
 | College Support | `college-support` | 10 | 1 | 11 | 9 | 11 | 8 | 10 | 10 |
 | After School | `after-school` | 5 | 1 | 6 | 6 | 6 | 4 | 5 | 6 |
 | Summer Programs | `summer-programs` | 1 | 1 | 1 | 1 | 1 | 1 | — | 1 |
-| Branding | `branding` | 1 | — | 1 | 1 | 1 | — | 1 | 1 |
 | Financial Aid & Tuition | `financial-aid-tuition` | 2 | 1 | 1 | 2 | 1 | 2 | 2 | 1 |
 
 ## 2. Research-area sections (prose layer)
@@ -156,26 +155,12 @@ research dossier folds in behind a structured card.
 |---|---|--:|--:|
 | `redesign-research` | Summer Programs Research Dossier (2026) | 7/8 | 2 |
 
-### Branding `branding`
-
-| Card key | Label | Schools | Distinct subtopic phrasings |
-|---|---|--:|--:|
-| `athletics-logo` ⚠️ | Athletics Logo | 6/8 | 1 |
-
 ### Financial Aid & Tuition `financial-aid-tuition`
 
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
 | `in-depth-report` | In-Depth Report | 8/8 | 2 |
 | `tuition-history` | Tuition History & Sources | 4/8 | 1 |
-
-> ⚠️ **Unmatched subtopics.** These keys were not produced by a `RULES` entry — they
-> were slugified from a raw subtopic that matched no rule, so each is effectively an
-> **unapproved card**. Either fold the phrasing onto an existing key in
-> `src/lib/metrics.ts`, or get the new card approved. `npm run check:metrics` reports
-> the same finding.
->
-> - `branding` :: `athletics-logo` — "Athletics Logo" (6/8 schools)
 
 ## 3. Structured cards (typed layer)
 
