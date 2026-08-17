@@ -148,6 +148,11 @@ const RULES: Record<string, Rule[]> = {
     { match: /power 4/i, key: 'power-4', label: 'Power 4 Offers' },
     { match: /professional athletes/i, key: 'pros', label: 'Professional Athletes' },
     { match: /sports medicine/i, key: 'sports-medicine', label: 'Sports Medicine & Performance' },
+    // "Team Levels (V/JV/MS)" is the per-sport source note behind the Sports
+    // Offered card's depth chips — provenance for that card, not a card of its
+    // own, so it folds onto sports-offered rather than slugifying into an
+    // orphan metric.
+    { match: /team levels/i, key: 'sports-offered', label: 'Sports Offered' },
     { match: /sports offered/i, key: 'sports-offered', label: 'Sports Offered' },
     { match: /top 100|recruiting/i, key: 'recruiting', label: 'Top-100 Recruiting Rankings' },
     { match: /win.?loss/i, key: 'win-loss', label: 'Win–Loss Records' },

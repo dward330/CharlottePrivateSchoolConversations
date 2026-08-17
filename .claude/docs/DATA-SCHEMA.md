@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**8 schools × 8 research areas**, 355 ingested research documents.
+**8 schools × 8 research areas**, 356 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -54,7 +54,7 @@ exists yet and **the section does not render at all** for that school.
 | Course Offerings | `course-offerings` | 1 | 2 | 1 | 1 | 1 | 1 | 1 | 1 |
 | Student Clubs | `student-clubs` | 10 | 1 | 10 | 10 | 8 | 6 | 9 | 8 |
 | The Arts | `the-arts` | 8 | 1 | 8 | 8 | 7 | 7 | 5 | 7 |
-| Sports | `sports` | 15 | 1 | 15 | 15 | 15 | 14 | 15 | 15 |
+| Sports | `sports` | 15 | 1 | 15 | 15 | 15 | 15 | 15 | 15 |
 | College Support | `college-support` | 10 | 1 | 11 | 9 | 11 | 8 | 10 | 10 |
 | After School | `after-school` | 5 | 1 | 6 | 6 | 6 | 4 | 5 | 6 |
 | Summer Programs | `summer-programs` | 1 | 1 | 1 | 1 | 1 | 1 | — | 1 |
@@ -120,7 +120,7 @@ research dossier folds in behind a structured card.
 | `pros` | Professional Athletes | 7/8 | 1 |
 | `redesign-research` | Sports Research Dossier (2026) | 8/8 | 1 |
 | `sports-medicine` | Sports Medicine & Performance | 7/8 | 1 |
-| `sports-offered` | Sports Offered | 7/8 | 1 |
+| `sports-offered` | Sports Offered | 7/8 | 2 |
 | `recruiting` | Top-100 Recruiting Rankings | 7/8 | 1 |
 | `win-loss` | Win–Loss Records | 7/8 | 2 |
 

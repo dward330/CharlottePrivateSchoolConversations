@@ -16,15 +16,6 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Davidson Day School](after-school/davidson-day.md) — 5 docs
 - [Providence Day School](after-school/providence-day.md) — 6 docs
 
-### Branding (`branding/`)
-
-- [Cannon School](branding/cannon.md) — 1 docs
-- [Charlotte Christian School](branding/charlotte-christian.md) — 1 docs
-- [Charlotte Country Day School](branding/charlotte-country-day.md) — 1 docs
-- [Charlotte Latin School](branding/charlotte-latin.md) — 1 docs
-- [Davidson Day School](branding/davidson-day.md) — 1 docs
-- [Providence Day School](branding/providence-day.md) — 1 docs
-
 ### College Support (`college-support/`)
 
 - [Cannon School](college-support/cannon.md) — 10 docs
@@ -65,7 +56,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Charlotte Christian School](sports/charlotte-christian.md) — 15 docs
 - [Charlotte Country Day School](sports/charlotte-country-day.md) — 15 docs
 - [Charlotte Latin School](sports/charlotte-latin.md) — 15 docs
-- [Covenant Day School](sports/covenant-day.md) — 14 docs
+- [Covenant Day School](sports/covenant-day.md) — 15 docs
 - [Davidson Day School](sports/davidson-day.md) — 15 docs
 - [Providence Day School](sports/providence-day.md) — 15 docs
 
@@ -103,4 +94,4 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 
 ## Data layer
-- `src/data/schools.json` — 361 documents across 9 topics and 8 schools.
+- `src/data/schools.json` — 356 documents across 8 topics and 8 schools.

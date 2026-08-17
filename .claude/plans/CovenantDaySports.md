@@ -1,7 +1,7 @@
 ---
 name: CovenantDaySports
 title: Label each Covenant Day sport with its real Varsity / JV / Middle School levels
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-08-17
 branch: feat/covenant-day-sports-levels

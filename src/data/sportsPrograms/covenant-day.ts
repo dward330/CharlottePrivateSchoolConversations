@@ -11,10 +11,11 @@
 // standing "national stage" card would be one real fact padded with absences.
 // Same treatment as Davidson Day's omitted 1g.
 //
-// Per-team V/JV/MS levels are stated by the school only in aggregate ("18
-// sports teams at the varsity, JV, and middle school levels"), so the offered
-// card lists each team at the varsity level its own teams page confirms and
-// says so in the footnote rather than asserting unverified JV/MS rows.
+// Per-team V/JV/MS levels come from each team page's "Additional Levels" box
+// on covenantday.org — the school's own per-sport statement of which JV and
+// middle-school ladders exist (8 sports field a JV, all but Girls Golf field an
+// MS team). The full matrix, page ids and re-verification method are in
+// source-material/sports/covenant-day/Covenant Day School - Sports - Team Levels (V-JV-MS).md.
 
 import type { SportsProgram } from '../sportsProgram.ts'
 
@@ -45,41 +46,41 @@ export const covenantDay: SportsProgram = {
         name: 'Fall',
         note: '8 teams',
         sports: [
-          { name: 'Football', levels: ['V'] },
-          { name: 'Soccer (Boys)', levels: ['V'] },
-          { name: 'Field Hockey (Girls)', levels: ['V'] },
-          { name: 'Volleyball (Girls)', levels: ['V'] },
-          { name: 'Cross Country (B & G)', levels: ['V'] },
-          { name: 'Tennis (Girls)', levels: ['V'] },
+          { name: 'Football', levels: ['V', 'JV', 'MS'] },
+          { name: 'Soccer (Boys)', levels: ['V', 'JV', 'MS'] },
+          { name: 'Field Hockey (Girls)', levels: ['V', 'JV', 'MS'] },
+          { name: 'Volleyball (Girls)', levels: ['V', 'JV', 'MS'] },
+          { name: 'Cross Country (B & G)', levels: ['V', 'MS'] },
+          { name: 'Tennis (Girls)', levels: ['V', 'JV', 'MS'] },
           { name: 'Golf (Girls)', levels: ['V'] },
-          { name: 'Cheerleading', levels: ['V'] },
+          { name: 'Cheerleading', levels: ['V', 'MS'] },
         ],
       },
       {
         name: 'Winter',
         note: '4 teams',
         sports: [
-          { name: 'Basketball (Boys)', levels: ['V'] },
-          { name: 'Basketball (Girls)', levels: ['V'] },
-          { name: 'Swimming (B & G)', levels: ['V'] },
-          { name: 'Cheerleading', levels: ['V'] },
+          { name: 'Basketball (Boys)', levels: ['V', 'JV', 'MS'] },
+          { name: 'Basketball (Girls)', levels: ['V', 'MS'] },
+          { name: 'Swimming (B & G)', levels: ['V', 'MS'] },
+          { name: 'Cheerleading', levels: ['V', 'MS'] },
         ],
       },
       {
         name: 'Spring',
         note: '6 teams',
         sports: [
-          { name: 'Baseball', levels: ['V'] },
-          { name: 'Softball (Girls)', levels: ['V'] },
-          { name: 'Soccer (Girls)', levels: ['V'] },
-          { name: 'Tennis (Boys)', levels: ['V'] },
-          { name: 'Golf (Boys)', levels: ['V'] },
-          { name: 'Track & Field (B & G)', levels: ['V'] },
+          { name: 'Baseball', levels: ['V', 'JV', 'MS'] },
+          { name: 'Softball (Girls)', levels: ['V', 'MS'] },
+          { name: 'Soccer (Girls)', levels: ['V', 'JV', 'MS'] },
+          { name: 'Tennis (Boys)', levels: ['V', 'MS'] },
+          { name: 'Golf (Boys)', levels: ['V', 'MS'] },
+          { name: 'Track & Field (B & G)', levels: ['V', 'MS'] },
         ],
       },
     ],
     footnote:
-      'The 18-team figure and season groupings are the school’s own; it states teams run "at the varsity, JV, and middle school levels" without publishing a per-sport breakdown, so JV/MS rows are not asserted here. Boys volleyball runs as a club sport, and a combined lacrosse program appears in the school’s signing coverage. MaxPreps counts 21 varsity sports and 50 total teams by splitting genders and levels the school aggregates.',
+      'The 18-team figure and season groupings are the school’s own. The per-sport V / JV / MS chips are taken from each team’s "Additional Levels" listing on the school site: 8 sports field a JV team and every sport but Girls Golf fields a middle-school team. Boys volleyball runs as a club sport, and a combined lacrosse program appears in the school’s signing coverage. MaxPreps counts 21 varsity sports and 50 total teams by splitting genders and levels the school aggregates.',
     sources: [
       { label: 'covenantday.org — Teams', url: TEAMS },
       { label: 'covenantday.org — Athletics', url: ATHLETICS },
