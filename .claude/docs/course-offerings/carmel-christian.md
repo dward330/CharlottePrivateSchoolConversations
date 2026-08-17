@@ -1,5 +1,5 @@
 # Carmel Christian School — Course Offerings
-> Distilled from 2 source document(s) in `source-material/course-offerings/carmel-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-16.
+> Distilled from 2 source document(s) in `source-material/course-offerings/carmel-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-17.
 **Documents:** Curriculum Guide, Elementary Curriculum Guide
 
 

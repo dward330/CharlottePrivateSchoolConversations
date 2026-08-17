@@ -1,5 +1,5 @@
 # Charlotte Country Day School — Course Offerings
-> Distilled from 1 source document(s) in `source-material/course-offerings/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-16.
+> Distilled from 1 source document(s) in `source-material/course-offerings/charlotte-country-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-17.
 **Documents:** Curriculum Guide
 
 

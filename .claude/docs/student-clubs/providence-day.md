@@ -1,5 +1,5 @@
 # Providence Day School — Student Clubs
-> Distilled from 8 source document(s) in `source-material/student-clubs/providence-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-16.
+> Distilled from 8 source document(s) in `source-material/student-clubs/providence-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-17.
 **Documents:** Academic and Competitive Programs, Club Catalog and Descriptions, Governance, Formation, Funding and Discovery, NotebookLM Episode Prompt, Participation and Popularity, Service, Leadership and Civic Engagement, Thematic Pathways, Clubs Redesign Deep Research
 
 

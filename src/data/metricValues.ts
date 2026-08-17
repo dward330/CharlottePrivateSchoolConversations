@@ -121,6 +121,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '80', // level-qualified entries in the 2026-27 HS Profile matrix (~65 distinct titles)
       'carmel-christian': '~78', // HS catalog across 9 depts (S2/S3/S4); levels counted separately
       'davidson-day': '~75', // 74 described + AP Spanish Literature listed without a description; 66 on the 2026-27 offerings grid
+      'hickory-grove-christian': null, // full course list is SPA-blocked (JS course guide, no PDF); only the AP catalog is publicly enumerable
       'providence-day': '149', // distinct entries; multi-year language sequences counted once per track
     },
     quals: {
@@ -144,6 +145,10 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'scope',
         text: 'High-school catalog only; the school publishes no named lower- or middle-school course lists. A subject taught at Standard, Honors and AP is counted as separate titles, matching how the school lists them.',
       },
+      'hickory-grove-christian': {
+        kind: 'scope',
+        text: 'Not published: Hickory Grove Christian’s full course list renders only through a JavaScript course-selection guide with no static HTML or PDF, so a total course count is not publicly available. Its 17-course AP catalog (the next row) is the enumerable figure.',
+      },
     },
   },
   {
@@ -164,6 +169,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '15 AP', // the 2026-27 HS Profile matrix's AP column; earlier editions ran up to 18
       'carmel-christian': '16', // 16 AP courses (landing page; profile says 15, +AP World History → 16)
       'davidson-day': '26 AP', // the catalog's explicit AP list (p.11)
+      'hickory-grove-christian': '17 AP', // school advertises 17 AP + AP Capstone; 2025-26 profile names 14, 2023-24 named 17
       'providence-day': '28 AP', // 28 AP courses described; catalog prose names 27 subject areas
     },
     quals: {
@@ -187,6 +193,10 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'scope',
         text: '28 AP courses are described in the catalog, whose prose names 27 subject areas.',
       },
+      'hickory-grove-christian': {
+        kind: 'scope',
+        text: 'The school advertises 17 AP courses plus the AP Capstone (AP Seminar + AP Research). Its 2025–26 profile names 14 by title and its 2023–24 profile named 17, so which run in a given year varies; the 18-title union spans all named courses across profiles.',
+      },
     },
   },
   {
@@ -202,6 +212,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '9', // 8 matrix disciplines + Bible (3-unit grad requirement, no matrix row)
       'carmel-christian': '9', // Bible, English, Math, Science, Social Studies, World Lang, Health & Fitness, Arts, Electives
       'davidson-day': '9', // per the catalog contents (pp. 4-6)
+      'hickory-grove-christian': '8', // Bible, English, Math, Social Studies, Science, Foreign Language, Health/PE, Fine Arts
       'providence-day': '11', // catalog sections, incl. both IDEAS@PDS strands
     },
   },
@@ -212,7 +223,7 @@ export const VALUE_METRICS: ValueMetric[] = [
     topic: 'college-support',
     key: 'ap-performance',
     label: 'AP scoring 3+',
-    note: 'Share of AP exams scoring 3 or higher, most recent reported year. Charlotte Latin & Davidson Day do not publish a pass rate.',
+    note: 'Share of AP exams scoring 3 or higher, most recent reported year. Charlotte Latin, Davidson Day & Hickory Grove Christian do not publish a per-exam pass rate.',
     values: {
       cannon: '92%', // 92.39% of exams scored 3+
       'charlotte-christian': '89%', // 2024: 265/298 (89%)
@@ -221,6 +232,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '96%', // 2026: 96% of 401 exams scored 3+; 5-yr series 84/93/92/96/96
       'carmel-christian': '73%', // seniors scoring 3+ on ≥1 AP exam; Platinum AP Honor Roll (2023, to verify)
       'davidson-day': null, // pass rate not published
+      'hickory-grove-christian': null, // only overlapping "students who earned a 3/4/5 on ≥1 exam" published — no per-exam pass rate
       'providence-day': '94%', // May 2025: 94% scored 3+
     },
     quals: {
@@ -252,6 +264,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '2 / 8', // Dartmouth, Penn — both bold (matriculated) on the 2023-2026 list
       'carmel-christian': '1 / 8', // Princeton only
       'davidson-day': '3 / 8', // buckets, collegeSupportPrograms/davidson-day.ts
+      'hickory-grove-christian': '0 / 8', // no Ivy on the 2023+2025 lists
       'providence-day': '8 / 8', // buckets, collegeSupportPrograms/providence-day.ts
     },
     quals: {
@@ -265,6 +278,10 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': {
         kind: 'scope',
         text: 'One of the eight Ivy League universities (Princeton) appears on the school’s cumulative acceptance list.',
+      },
+      'hickory-grove-christian': {
+        kind: 'scope',
+        text: 'None of the 8 Ivy League universities appears on Hickory Grove Christian’s published 2023 + 2025 acceptance lists, matched against the 2026 U.S. News tables — not a figure the school reports itself.',
       },
     },
   },
@@ -285,6 +302,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '3 / 17', // Dartmouth, Penn + Duke, all bold (matriculated)
       'carmel-christian': '2 / 12', // Princeton, Duke
       'davidson-day': '8 / 17', // buckets, collegeSupportPrograms/davidson-day.ts
+      'hickory-grove-christian': '0 / 17', // no Ivy Plus on the 2023+2025 lists
       'providence-day': '17 / 17', // buckets, collegeSupportPrograms/providence-day.ts
     },
     quals: {
@@ -298,6 +316,10 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': {
         kind: 'scope',
         text: 'Two of the twelve “Ivy Plus” schools (Princeton, Duke) appear on the acceptance list.',
+      },
+      'hickory-grove-christian': {
+        kind: 'scope',
+        text: 'None of the 17 “Ivy Plus” institutions appears on Hickory Grove Christian’s published 2023 + 2025 acceptance lists, matched against the 2026 U.S. News tables — not a figure the school reports itself.',
       },
     },
   },
@@ -318,6 +340,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '40 / 75', // worked classification in the Redesign Research 2026 dossier
       'carmel-christian': '~27', // US News Top-75 National Universities on the acceptance list; several near the line
       'davidson-day': '44 / 75', // buckets, collegeSupportPrograms/davidson-day.ts
+      'hickory-grove-christian': '22 / 75', // buckets, collegeSupportPrograms/hickory-grove-christian.ts (2023+2025 lists)
       'providence-day': '58 / 75', // buckets, collegeSupportPrograms/providence-day.ts
     },
     quals: {
@@ -331,6 +354,10 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': {
         kind: 'minimum',
         text: 'A count of US News Top-75 National Universities named on the school’s cumulative acceptance list, which states no year window. Several schools sit near the current-year ranking cut.',
+      },
+      'hickory-grove-christian': {
+        kind: 'scope',
+        text: '22 of the top 75 National Universities appear across Hickory Grove Christian’s published 2023 + 2025 acceptance lists, matched against the 2026 U.S. News tables — not a figure the school reports itself.',
       },
     },
   },
@@ -351,6 +378,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '9 / 75', // Davidson, Furman, Macalester, Rhodes, Sewanee, Richmond, USAFA, Wofford, Gettysburg
       'carmel-christian': '~10', // US News Top-75 Liberal Arts Colleges on the acceptance list
       'davidson-day': '26 / 75', // buckets, collegeSupportPrograms/davidson-day.ts
+      'hickory-grove-christian': '9 / 75', // buckets, collegeSupportPrograms/hickory-grove-christian.ts
       'providence-day': '43 / 75', // buckets, collegeSupportPrograms/providence-day.ts
     },
     quals: {
@@ -364,6 +392,10 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': {
         kind: 'minimum',
         text: 'US News Top-75 Liberal Arts Colleges named on the cumulative acceptance list; a couple sit near the ranking cut.',
+      },
+      'hickory-grove-christian': {
+        kind: 'scope',
+        text: '9 of the top 75 Liberal Arts Colleges appear across Hickory Grove Christian’s published 2023 + 2025 acceptance lists (incl. Bowdoin, Pomona, Claremont McKenna, Grinnell, Colgate, Washington & Lee), matched against the 2026 U.S. News tables.',
       },
     },
   },
@@ -384,6 +416,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '46 / 68', // ACC 14 · SEC 12 · Big Ten 11 · Big 12 9 (worked in the dossier)
       'carmel-christian': '~38 / 68', // Power Four members on the acceptance list (denominator 68 incl. Notre Dame)
       'davidson-day': '42 / 68', // buckets, collegeSupportPrograms/davidson-day.ts
+      'hickory-grove-christian': '24 / 68', // buckets, collegeSupportPrograms/hickory-grove-christian.ts (UConn excluded — Big East)
       'providence-day': '57 / 68', // buckets, collegeSupportPrograms/providence-day.ts
     },
     quals: {
@@ -400,6 +433,10 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': {
         kind: 'scope',
         text: 'Power Four members (of 68, including Notre Dame) named on the cumulative acceptance list. The list states no year window and marks no matriculations.',
+      },
+      'hickory-grove-christian': {
+        kind: 'scope',
+        text: '24 of the 68 Power Four universities appear across Hickory Grove Christian’s published 2023 + 2025 acceptance lists (UConn is Big East, not Power Four, so it is excluded). Not a figure the school reports itself.',
       },
     },
   },
@@ -420,6 +457,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '3 / 107', // Fayetteville State, Johnson C. Smith, NC A&T (NC A&T bold/matriculated)
       'carmel-christian': '8', // Hampton, Howard, NC A&T, NC Central, Norfolk State, SC State, WSSU, FAMU
       'davidson-day': '3 / 107', // buckets, collegeSupportPrograms/davidson-day.ts
+      'hickory-grove-christian': '20 / 107', // buckets, collegeSupportPrograms/hickory-grove-christian.ts
       'providence-day': '14 / 107', // buckets, collegeSupportPrograms/providence-day.ts
     },
     quals: {
@@ -433,6 +471,10 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': {
         kind: 'scope',
         text: 'Historically Black colleges and universities named on the acceptance list.',
+      },
+      'hickory-grove-christian': {
+        kind: 'scope',
+        text: '20 of the 107 Historically Black Colleges & Universities appear across Hickory Grove Christian’s published 2023 + 2025 acceptance lists (incl. Howard, Hampton, Morehouse, NC A&T, Florida A&M, Fisk) — a notably deep HBCU pipeline.',
       },
     },
   },
@@ -452,6 +494,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '85:1', // 85 seniors ÷ 1 dedicated Guidance & College Counseling Director
       'carmel-christian': null, // seniors-per-counselor not published
       'davidson-day': '~23:1', // ~23–24 seniors in a ~47-student class
+      'hickory-grove-christian': null, // caseload not published; computable only (~34:1 across 2 staff, but one is a non-college admin)
       'providence-day': '~44:1', // ~44–45 seniors/counselor (quarter-class model)
     },
     quals: {
@@ -483,6 +526,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '$22,790', // Grades 9–12, 2026–27 (website table; the 2025-26 terms PDF shows $21,590)
       'carmel-christian': '$18,750', // Grades 9–12, 2026-27 (+$550 tech 9th, +$200 senior fee)
       'davidson-day': '$26,910', // Upper School 9–12, 2026–27
+      'hickory-grove-christian': '$13,750', // Grades 9–12; third-party-confirmed current band (portal-rendered page)
       'providence-day': '$36,325', // Grades 6–12, 2026–27
     },
     quals: {
@@ -490,13 +534,17 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'scope',
         text: 'This is the Grades 6–12 tuition for 2026–27. Providence Day’s top band spans Grades 6–12, so it covers a wider grade range than the 9–12 figures beside it.',
       },
+      'hickory-grove-christian': {
+        kind: 'scope',
+        text: 'The Grades 9–12 band ($13,750). The school’s tuition page renders through a portal widget, so this current figure is confirmed across two third-party mirrors rather than lifted from a school PDF; the exact school year is not stated.',
+      },
     },
   },
   {
     topic: 'financial-aid-tuition',
     key: 'pct-aid',
     label: '% receiving aid',
-    note: 'Share of students/families receiving aid as the school states it. “~” where the school says “approximately”; year/denominator vary — see the school’s report. Charlotte Christian & Davidson Day do not publish this.',
+    note: 'Share of students/families receiving aid as the school states it. “~” where the school says “approximately”; year/denominator vary — see the school’s report. Charlotte Christian, Davidson Day & Hickory Grove Christian do not publish this.',
     values: {
       cannon: '24%', // 24% of students, 2025–26
       'charlotte-christian': null, // share receiving aid not published
@@ -505,6 +553,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '~20%', // third-party only (PrivateSchoolReview, schooltuitions.org); school publishes no share
       'carmel-christian': '20%', // third-party (PrivateSchoolReview), not school-confirmed
       'davidson-day': null, // share on aid not published
+      'hickory-grove-christian': null, // church ministry (990-exempt) — no aid share published or derivable
       'providence-day': '~21%', // ~21% of families (undated)
     },
     quals: {
@@ -543,6 +592,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': null, // structural dead end: a church ministry exempt from Form 990 — no filing exists to find
       'carmel-christian': null, // not published (school is church-exempt, files no 990)
       'davidson-day': null, // aid budget not published
+      'hickory-grove-christian': null, // church ministry exempt from Form 990 — no filing exists to find
       'providence-day': '$3.68M', // $3,683,971 (2017–18, most recent published)
     },
     quals: {
@@ -573,6 +623,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': null, // not published, and no Form 990 exists to derive one from
       'carmel-christian': null, // not published
       'davidson-day': null, // average/median not published
+      'hickory-grove-christian': null, // church ministry (990-exempt) — no average published or derivable
       'providence-day': '$13,695', // average grant (2017–18, most recent published)
     },
     quals: {
@@ -607,6 +658,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': 'JK–12',
       'carmel-christian': 'K–12', // arts integrated K-4, sequential from grade 5
       'davidson-day': 'Age 2–Gr 12',
+      'hickory-grove-christian': 'TK–12',
       'providence-day': 'TK–12',
     },
     quals: {
@@ -642,6 +694,10 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'range',
         text: 'Arts run K–12: integrated music and art in grades K–4, becoming sequential and elective from grade 5 up.',
       },
+      'hickory-grove-christian': {
+        kind: 'scope',
+        text: 'Arts are offered from Transitional Kindergarten (TK) through grade 12 — visual art and general music in the early grades, widening into band, choir, theatre and a leveled studio track by high school.',
+      },
     },
   },
   {
@@ -662,6 +718,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '2 Blumey wins', // Best Featured Performer 2013 + Student Critic Award 2016; 8 recognitions 2013-2019
       'carmel-christian': '2026 Blumey — Best Actress', // Anna Jernigan, Footloose; advances to the Jimmy Awards
       'davidson-day': null, // no signature recognition named
+      'hickory-grove-christian': '2025–26 Blumey noms', // nominees/finalists both years (Seussical, The Little Mermaid); no win
       'providence-day': 'Blumey recognition', // repeated Blumey Awards recognition
     },
     quals: {
@@ -693,6 +750,10 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'scope',
         text: 'The 2026 Blumey Award for Best Actress — Anna Jernigan, for Footloose. The winner advances to the national Jimmy Awards.',
       },
+      'hickory-grove-christian': {
+        kind: 'scope',
+        text: 'Blumey Award nominees and finalists in back-to-back seasons — Seussical (2025) and Disney’s The Little Mermaid (2026), with Amara Aghedo and Christian Young recurring. No outright win is published. The Blumeys are the Charlotte region’s high-school musical-theatre awards.',
+      },
     },
   },
   {
@@ -708,6 +769,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': 'AP Studio Art', // + Honors Studio Art and Honors Auditioned Theatre
       'carmel-christian': '3', // AP 2-D Art & Design, Honors Art III, Honors Art IV (curriculum guide)
       'davidson-day': null, // not detailed
+      'hickory-grove-christian': 'AP Studio Art 2D', // atop the Art I–IV studio sequence
       'providence-day': '3 AP arts', // AP Studio Art, AP Art History, AP Music Theory
     },
     quals: {
@@ -727,6 +789,10 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'scope',
         text: 'Three AP arts courses: AP Studio Art, AP Art History, and AP Music Theory.',
       },
+      'hickory-grove-christian': {
+        kind: 'scope',
+        text: 'The advanced arts course the school names is AP Studio Art 2D (AP 2-D Art & Design), atop the Art I–IV studio sequence; students "consistently score 3 or 4."',
+      },
     },
   },
   {
@@ -742,6 +808,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '9 ensembles', // Children's Choir, MS Band/Choir/Worship, Symphonic Band, HS Choir/Worship/A Cappella + gr.5 intro
       'carmel-christian': '3', // Symphonic Band, Choir, Ignite Band
       'davidson-day': null, // no count stated
+      'hickory-grove-christian': '3 ensembles', // HS: Concert Band, Jazz Band, Choir (no orchestra)
       'providence-day': '4 ensembles', // Band, Orchestra, Chorus, Jazz
     },
     quals: {
@@ -764,6 +831,10 @@ export const VALUE_METRICS: ValueMetric[] = [
       'providence-day': {
         kind: 'scope',
         text: 'Four performing ensembles: Band, Orchestra, Chorus, and Jazz.',
+      },
+      'hickory-grove-christian': {
+        kind: 'scope',
+        text: 'Three named high-school ensembles — Concert Band, Jazz Band and Choir. No orchestra is offered at any level.',
       },
     },
   },
@@ -794,6 +865,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '≥14', // documented floor; school publishes no roster, third-party 27-item list filtered for division/type
       'carmel-christian': '~5', // standing HS bodies: NHS, Beta, Spanish Honor Society, Student Council, Timothy Project
       'davidson-day': '≥9', // confirmed clubs only; no US roster published
+      'hickory-grove-christian': '27', // aggregator roster (18 clubs/orgs + 9 arts/music), single-source
       'providence-day': '77', // official 25–26 US list, 5 arts clubs excluded
     },
     quals: {
@@ -826,6 +898,10 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'minimum',
         text: 'Standing high-school student organizations: National Honor Society, National Beta Club, Spanish Honor Society, Student Council, and the Timothy Project. Clubs are otherwise student-initiated by application, so no fixed roster is published.',
       },
+      'hickory-grove-christian': {
+        kind: 'scope',
+        text: '27 non-sports organizations (18 clubs/organizations + 9 arts/music) from a single aggregator (PrivateSchoolReview) — the school\'s own site has no clubs page, so this is a single-source count. Five are honor societies; a subset (Choir, Drama, Jazz Band, Discipleship) is corroborated on the school site.',
+      },
     },
   },
   {
@@ -847,6 +923,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': 'Mock Trial art 2nd NC', // courtroom artist: regional champion, 2025 state runner-up
       'carmel-christian': '2022 NCISAA 4A basketball title', // def. Greensboro Day 71-66 (Cade Tyson 31 pts)
       'davidson-day': 'Battle of Books 1st', // MS team 1st in regional competition
+      'hickory-grove-christian': null, // no competitive club result published in any source (confirmed null)
       'providence-day': 'DECA → ICDC ’26', // DECA advanced to national ICDC 2026
     },
     quals: {
@@ -902,6 +979,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': '~50% mentor weekly', // ~half of juniors/seniors mentor weekly
       'charlotte-latin': '~90% play a sport', // ~90% in grades 7–12 play a sanctioned sport
       'davidson-day': null, // no participation figure published
+      'hickory-grove-christian': null, // no club-participation rate published (PSR's "60% agree there are plenty of clubs" is a satisfaction survey, not participation)
       'providence-day': '~50% in service clubs', // service clubs engage ~half of Upper School
     },
     quals: {
@@ -936,6 +1014,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '6:00 PM', // Extended Day, JK-8, last session 4:30–6:00 p.m.
       'carmel-christian': '6:00 PM', // After School / After YCC 3:00–6:00 PM
       'davidson-day': '6:00 PM', // Extended Care, 2:45–6:00 p.m.
+      'hickory-grove-christian': '5:30 PM', // Afterschool (TK–5) & Study Hall (6–11), 2:30–5:30 p.m.
       cannon: '6:00 PM', // After School Program, 3:00–6:00 p.m. on regular days
       // These two remain null because no single hour is honest for the whole school:
       // Charlotte Christian's Lower School runs to 6:00 but Middle School stops at
@@ -972,6 +1051,10 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'official',
         text: 'After School / After YCC care runs 3:00–6:00 PM; 6:00 PM is the latest published pickup.',
       },
+      'hickory-grove-christian': {
+        kind: 'official',
+        text: 'The Afterschool program (TK–5) and Study Hall (grades 6–11) share one 2:30–5:30 p.m. window, so 5:30 p.m. is the latest pickup — earlier than the 6:00 p.m. the other schools offer.',
+      },
     },
   },
 
@@ -1004,6 +1087,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '$744/mo', // JK/K to 6:00 p.m. = 3 stacked sessions × $248/mo, 5 days/wk
       'carmel-christian': '$245/mo', // After School / After YCC 5-day to 6:00 p.m., 2026-27
       'davidson-day': null, // publishes no extended-care pricing — its Extended Care page 404s
+      'hickory-grove-christian': null, // recurring TK–5 Afterschool rate not published (portal-only); $35/day Adventure Days is a separate out-of-session program
       'providence-day': '$750/mo', // TK · 1–6 p.m. tier · 5 days/wk, 2026-27
     },
     // The year's total under each monthly figure. Cannon's and Latin's are the
@@ -1080,12 +1164,17 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '8', // June 1 – July 31, the week of June 29 off
       'carmel-christian': '6', // Jun 8–Jul 23 2026; weeks 2 & 3 are 3-day
       'davidson-day': null, // publishes no summer program — see the negative-finding note
+      'hickory-grove-christian': '8', // ~8 week-blocks Jun–Jul; live 2026 page confirms 8 session windows
       'providence-day': '9', // June 1 – July 31, the longest season of the five
     },
     quals: {
       'charlotte-country-day': {
         kind: 'scope',
         text: 'Eight weeks including the June 1-5 "Pre-Camp" week, which carries 9 priced camps. The school’s own summer landing page markets the season as the seven weeks from June 8.',
+      },
+      'hickory-grove-christian': {
+        kind: 'scope',
+        text: 'The live 2026 page shows eight session windows (Jun–Jul), consistent with the ~8 week-blocks of the Summer 2023 catalog recovered from the Internet Archive; the exact 2026 camp names are hidden behind the school\'s registration platform.',
       },
       'charlotte-christian': {
         kind: 'scope',
@@ -1110,12 +1199,17 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '20', // distinct camps named on the public 2026 page; school markets "29 camps"
       'carmel-christian': '36', // named camps across the 6 weeks
       'davidson-day': null,
+      'hickory-grove-christian': '17', // Summer 2023 slate (representative): 12 academic + 5 athletic
       'providence-day': '170', // priced brochure rows; 151 distinct names
     },
     quals: {
       cannon: {
         kind: 'scope',
         text: '251 camp-week offerings across seven weeks, representing roughly 180 distinct camp titles. Counted from the school’s own 80-page 2026 brochure.',
+      },
+      'hickory-grove-christian': {
+        kind: 'scope',
+        text: '17 named camps in the Summer 2023 catalog — 12 academic/enrichment and 5 athletic — recovered from the Internet Archive because the live 2026 catalog is hidden behind the school\'s registration platform. A representative slate, not the exact 2026 list.',
       },
       'charlotte-latin': {
         kind: 'scope',
@@ -1159,6 +1253,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': 'JK–Grade 12', // rising grades, Little Lion/Cub Camp at the bottom to HS strength & college camps
       'carmel-christian': 'rising K–8', // Summer Adventures
       'davidson-day': null,
+      'hickory-grove-christian': 'rising 1–8', // most camps rising 1st–8th; one HS College Admissions Boot Camp
       'providence-day': '4–18', // four by January 1, 2026; About page says 4.5 to 18
     },
     quals: {
@@ -1190,6 +1285,10 @@ export const VALUE_METRICS: ValueMetric[] = [
         kind: 'range',
         text: 'Summer Adventures serves rising kindergarten through rising 8th grade; individual camps carry narrower bands.',
       },
+      'hickory-grove-christian': {
+        kind: 'range',
+        text: 'The great majority of camps serve rising 1st–8th graders, plus one high-school camp (a College Admissions Boot Camp for rising juniors and seniors). From the Summer 2023 catalog, recovered from the Internet Archive.',
+      },
     },
   },
   {
@@ -1208,6 +1307,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '7:30 AM–5:30 PM', // Before Care 7:30–8:45, After Care 4:00–5:30
       'carmel-christian': '12–1 PM', // After Camp Lunch Hour add-on only; no before/after camp care
       'davidson-day': null,
+      'hickory-grove-christian': null, // no summer wrap-around care — after-school program is closed in summer, camps are half-day only
       'providence-day': '7:00 AM–6:00 PM', // Before Care from 7, After Care to 6 — the widest span
     },
     quals: {
@@ -1268,6 +1368,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '1', // ’24 Eaton (Louisville, ACC — field hockey)
       'carmel-christian': '0', // no Power 4 commit 2024–26; top prospects took mid-majors
       'davidson-day': '3', // ’25 Denis (UNC), Gordon (Georgia) · ’26 Stevens (Clemson)
+      'hickory-grove-christian': '0', // no Power 4 commit 2024–26; all D1 commits are mid-major baseball
       'providence-day': '17', // school "Alumni at the Next Level" roster, 2024–26 (17 P4 tally)
     },
     quals: {
@@ -1306,6 +1407,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'covenant-day': '9', // ’24: Eaton, Marcus (2) · ’25: Huitt, Dirks, Gardner, Stanley (4) · ’26: Neil, Welsh, Houseton (3)
       'carmel-christian': '5', // K.Taylor (UNCA ’24), Slay (Marshall ’25), Bowman (UNCG ’25), Buzzard (Coastal Carolina ’26), Johnson (UNCA ’26) — all basketball
       'davidson-day': '9', // ’24: M.Smith · ’25: Denis, Doty, Glass, Gordon, Seifert, K.Smith · ’26: Stevens, Peck (2024 & 2026 under-documented — floor)
+      'hickory-grove-christian': '3', // all baseball: Cabbage (UNCW ’25), Green (UNC Asheville ’25), Johnson (ETSU) — mid-major
       'providence-day': '39', // school roster D1 tally, 2024–26
     },
     quals: {
@@ -1328,6 +1430,10 @@ export const VALUE_METRICS: ValueMetric[] = [
       'davidson-day': {
         kind: 'minimum',
         text: 'A documented minimum; the Classes of 2024 and 2026 are under-documented for Davidson Day.',
+      },
+      'hickory-grove-christian': {
+        kind: 'minimum',
+        text: 'A documented minimum — all three are baseball: Davis Cabbage (UNC Wilmington) and Ben Green (UNC Asheville) in the Class of 2025, plus Brady Johnson (ETSU). All are mid-major D1; no Power 4 and no other-sport commit surfaced, and the school publishes no all-sport list.',
       },
     },
   },

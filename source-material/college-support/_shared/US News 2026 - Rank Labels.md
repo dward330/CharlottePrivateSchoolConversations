@@ -11,6 +11,18 @@
 > labels the six original schools carried (researched against the 2026 U.S. News
 > tables in PR #93), plus Covenant Day additions.
 >
+> **Hickory Grove Christian added 2026-08-17:** its 2023 + 2025 acceptance lists
+> introduced three colleges holding a real 2026 National/LAC rank that were not
+> yet in the master — **Fordham University (National #97)**, **Grinnell College
+> (Liberal #13)** and **Grand Canyon University (National #395-434)** — each
+> confirmed against the 2026 usnews.com profile via the Yahoo-search channel and
+> added here. Rensselaer Polytechnic Institute (National #64), already present,
+> gained a name-spelling alias; the Knoxville-tagged Tennessee flagship, Penn
+> State (University Park) and Washington & Lee were resolved via aliases to their
+> existing rows. Its Regional-ranked destinations (College of Charleston, Xavier
+> of Louisiana, Rollins, Appalachian State, High Point) hold no National/LAC rank
+> and correctly carry no label.
+>
 > **Expanded 2026-08-16 (this pass):** every college across all eight schools'
 > acceptance lists that holds a real U.S. News 2026 rank — **National
 > Universities OR National Liberal Arts Colleges, at ANY rank**, not just the
@@ -155,6 +167,7 @@
 | Florida Gulf Coast University | National Rank #318 |
 | Florida Institute of Technology | National Rank #232 |
 | Florida State University | National Rank #51 |
+| Fordham University | National Rank #97 |
 | Franklin & Marshall College | Liberal Rank #35 |
 | Furman University | Liberal Rank #45 |
 | Gardner-Webb University | National Rank #384 |
@@ -164,6 +177,8 @@
 | Georgia Southern University | National Rank #343 |
 | Georgia Tech | National Rank #32 |
 | Gettysburg College | Liberal Rank #58 |
+| Grand Canyon University | National Rank #395-434 |
+| Grinnell College | Liberal Rank #13 |
 | Gordon College | Liberal Rank #156 |
 | Goucher College | Liberal Rank #126 |
 | Guilford College | Liberal Rank #172 |

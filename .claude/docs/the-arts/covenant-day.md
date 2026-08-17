@@ -1,5 +1,5 @@
 # Covenant Day School — The Arts
-> Distilled from 7 source document(s) in `source-material/the-arts/covenant-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-16.
+> Distilled from 7 source document(s) in `source-material/the-arts/covenant-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-17.
 **Documents:** Awards and Recognition, Deep Research, Facilities, Music, Program Overview, Theater and Drama, Visual Arts
 
 

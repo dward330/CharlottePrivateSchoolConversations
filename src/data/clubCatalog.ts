@@ -571,6 +571,72 @@ const CARMEL_CHRISTIAN: ClubCatalog = {
     'carmelchristian.org — Family Handbook (2021–22 ed., pp. 74–75) · The Timothy Project page · privateschoolreview.com profile (no single published club directory)',
 }
 
+// Hickory Grove Christian — the full 27-organization non-sports roster, from
+// source-material/student-clubs/hickory-grove-christian/. THE WHOLE ROSTER IS
+// SINGLE-SOURCE: it rides on one aggregator (PrivateSchoolReview) because the
+// school's own site has no clubs/activities page. A subset is individually
+// corroborated by the school site (Discipleship, Choir, Drama, Jazz Band, the
+// mission trips, the HGBC food-pantry partnership, and the Exodus yearbook);
+// every other club rests on the aggregator alone. That single-source status is
+// stated in the verdict, a division note, and the source line — it is the
+// catalog's defining caveat, not a hidden one.
+const HICKORY_GROVE_CHRISTIAN: ClubCatalog = {
+  verdict:
+    '27 non-sports organizations across interest clubs, arts clubs and five honor societies — a broad roster, but one that rides entirely on a single third-party aggregator.',
+  verdictHint:
+    'The school publishes no clubs page; this list is from PrivateSchoolReview, with a subset confirmed on the school site.',
+  countNoun: 'named orgs',
+  categories: [
+    { key: 'honor', short: 'Honor societies', full: 'Honor society' },
+    { key: 'interest', short: 'Interest & academic', full: 'Interest / academic club' },
+    { key: 'faith', short: 'Faith & service', full: 'Faith / service / leadership' },
+    { key: 'arts', short: 'Arts & music', full: 'Arts / music club' },
+  ],
+  clubs: [
+    { name: 'National Honor Society', cat: 'honor', note: 'High School — scholarship, leadership, service and character' },
+    { name: 'National Junior Honor Society', cat: 'honor', note: 'Middle School' },
+    { name: 'National Science Honor Society', cat: 'honor', note: 'Achievement in the sciences' },
+    { name: 'Quill and Scroll Honor Society', cat: 'honor', note: 'International high-school journalism honor society' },
+    { name: 'Rho Kappa', cat: 'honor', note: 'National Social Studies Honor Society (juniors/seniors)' },
+    { name: 'Apologetics Club', cat: 'interest', note: 'Aggregator-listed; apologetics is taught school-wide' },
+    { name: 'Public Speaking Club', cat: 'interest', note: 'Aggregator-listed' },
+    { name: 'Health Occupations Students of America', cat: 'interest', note: 'HOSA — aggregator-listed' },
+    { name: 'International Culture Club', cat: 'interest', note: 'Aggregator-listed' },
+    { name: 'Spanish Club', cat: 'interest', note: 'Aggregator-listed; the school confirms a Spanish program' },
+    { name: 'Spanish Reading/Conversation Club', cat: 'interest', note: 'Aggregator-listed' },
+    { name: 'Venture Club', cat: 'interest', note: 'Aggregator-listed' },
+    { name: 'Guidance Session', cat: 'interest', note: 'Aggregator-listed' },
+    { name: 'Student Council', cat: 'interest', note: 'Aggregator-listed' },
+    { name: 'Spirit Club', cat: 'interest', note: 'Aggregator-listed' },
+    { name: 'Discipleship', cat: 'faith', note: 'Confirmed on the school site — small-group discipleship' },
+    { name: 'Chick-fil-A Leadership Academy', cat: 'faith', note: 'Aggregator-listed leadership program' },
+    { name: 'Global Ambassadors', cat: 'faith', note: 'Aggregator-listed leadership/international program' },
+    { name: 'Art Club', cat: 'arts', note: 'Aggregator-listed; the school confirms a Visual Arts program' },
+    { name: 'Choir Club', cat: 'arts', note: 'Confirmed on the school site — Choir' },
+    { name: 'Drama Club', cat: 'arts', note: 'Confirmed on the school site — Theatre / Musical Theatre' },
+    { name: 'Jazz Band', cat: 'arts', note: 'Confirmed on the school site — Jazz Band' },
+    { name: 'Pep Band', cat: 'arts', note: 'Aggregator-listed' },
+    { name: 'Praise Band', cat: 'arts', note: 'Aggregator-listed' },
+    { name: 'Guitar Club', cat: 'arts', note: 'Aggregator-listed' },
+    { name: 'Ukulele Club', cat: 'arts', note: 'Aggregator-listed' },
+    { name: 'Fiber Club', cat: 'arts', note: 'Aggregator-listed' },
+  ],
+  divisions: [
+    {
+      label: 'Single-source roster',
+      text: 'This 27-organization list comes entirely from PrivateSchoolReview — the school\'s own site publishes no clubs or activities page, and no second source enumerates these clubs. A subset is individually corroborated by the school site (Discipleship, Choir, Drama, Jazz Band); the rest rest on the aggregator alone, and some (HOSA, Chick-fil-A Leadership Academy, the honor societies) are national programs whose active HGCS chapter is not independently confirmed.',
+      tag: 'Single-source',
+    },
+    {
+      label: 'Faith & service beyond the roster',
+      text: 'The school\'s own site confirms international mission trips to the Dominican Republic, Ecuador, Haiti and Kenya, and an aquaponics program supplying the Hickory Grove Baptist Church food pantry — service channels that run through the church ministry rather than as listed clubs.',
+      tag: 'School-reported',
+    },
+  ],
+  source:
+    'privateschoolreview.com — HGCS profile (the only source naming all 27 non-sports orgs) · hgchristian.org — Academics & Arts pages (corroborating Discipleship, Choir, Drama, Jazz Band, mission trips, food-pantry partnership, and the Exodus yearbook)',
+}
+
 const CATALOG: Record<string, ClubCatalog> = {
   'charlotte-latin': CHARLOTTE_LATIN,
   'providence-day': PROVIDENCE_DAY,
@@ -580,6 +646,7 @@ const CATALOG: Record<string, ClubCatalog> = {
   'covenant-day': COVENANT_DAY,
   'davidson-day': DAVIDSON_DAY,
   'carmel-christian': CARMEL_CHRISTIAN,
+  'hickory-grove-christian': HICKORY_GROVE_CHRISTIAN,
 }
 
 /**

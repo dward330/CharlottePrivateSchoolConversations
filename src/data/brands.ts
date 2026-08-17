@@ -73,6 +73,15 @@ export const BRANDS: Record<string, Brand> = {
     logo: '/logos/davidson-day.png',
     welcomeVideoUrl: 'https://www.youtube.com/embed/wTYvCc7FXCs',
   },
+  'hickory-grove-christian': {
+    // Lions — navy & gold. #14396e is a mid-navy chosen to stay distinct from the
+    // other blues: Covenant Day's #002855 (also "Lions — blue & gold") and
+    // Charlotte Latin's #12294f are darker, Charlotte Christian's #1e40af is
+    // brighter. Initials 'HG' — HG/HGC not otherwise taken.
+    color: '#14396e',
+    initials: 'HG',
+    welcomeVideoUrl: 'https://www.youtube.com/embed/hhtjvy5tCVE', // user-chosen, 2026-08-17
+  },
   'providence-day': {
     color: '#be123c', // Chargers — red, white & navy
     initials: 'PD',

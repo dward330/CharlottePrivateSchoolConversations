@@ -6276,6 +6276,97 @@ const CARMEL_CHRISTIAN: CourseOfferings = {
   ],
 }
 
+/* ── Hickory Grove Christian School ──────────────────────────────────────────
+   2025-2026 guide year. HGCS does NOT publish a machine-readable course
+   catalog: the "2025-2026 Course Selection Guide" page is a Finalsite JavaScript
+   SPA whose body renders client-side, and no downloadable curriculum PDF exists
+   anywhere on the domain (verified via a Wayback CDX sweep). So the individual
+   regular/honors course TITLES (Algebra II, Biology, …) are not publicly
+   extractable. What the school's HS Profile PDFs DO name — the AP catalog, the
+   honors-bearing departments, dual enrollment, and the 27-unit graduation
+   requirements — is transcribed below, grouped by the eight required subject
+   departments. The `notPublished` note states the SPA limitation honestly above a
+   REAL list of named AP courses, the way Providence Day's Lower School card
+   states its subject-areas grain. There is only one division (Upper School): the
+   Lower/Middle course titles are equally SPA-blocked, so no empty division card
+   is shipped for them. */
+const HICKORY_GROVE_CHRISTIAN: CourseOfferings = {
+  guideYear: '2025-2026',
+  divisions: [
+    {
+      title: 'Upper School Courses',
+      grades: 'Grades 9 – 12',
+      teaser:
+        '17 AP courses plus AP Capstone across 8 departments, with a full honors track in 6 of them — the named AP catalog; regular course titles render only in the school\'s JavaScript course guide.',
+      source: 'HGCS High School Profile (Fall 2025 & Fall 2023) — CEEB 340661',
+      sourceUrl:
+        'https://resources.finalsite.net/images/v1759254561/hgchristianorg/zymp8lu0k9m6ndgumpgi/HGCSHSProfileFall25.pdf',
+      notPublished:
+        'Hickory Grove Christian publishes its full course list only through a JavaScript "Course Selection Guide" that renders no static HTML, and no downloadable curriculum PDF exists — so the individual regular and honors course titles are not publicly available. What the school\'s HS Profile PDFs name — the AP catalog, the honors-bearing departments, and dual enrollment — is listed below by department; a leveled regular sequence (e.g. Algebra I–II, Spanish I–IV) exists but its exact titles are not published.',
+      departments: [
+        {
+          name: 'English',
+          courses: [
+            { title: 'AP English Language and Composition', tag: 'AP', description: 'One of the two AP English offerings named on the school profile; the department also runs an honors track.' },
+            { title: 'AP English Literature and Composition', tag: 'AP', description: 'The second AP English offering; regular and honors English titles are not individually published.' },
+          ],
+        },
+        {
+          name: 'Mathematics',
+          courses: [
+            { title: 'AP Calculus AB', tag: 'AP', description: 'Named on the school profile; the math department runs an honors track beneath the AP level.' },
+            { title: 'AP Calculus BC', tag: 'AP', description: 'The higher AP calculus course.' },
+            { title: 'AP Statistics', tag: 'AP', description: 'The third named AP math course; regular titles (Algebra, Geometry, Precalculus) are not published.' },
+          ],
+        },
+        {
+          name: 'Science',
+          courses: [
+            { title: 'AP Biology', tag: 'AP', description: 'Named AP science course; the department runs an honors track.' },
+            { title: 'AP Chemistry', tag: 'AP', description: 'Named AP science course.' },
+            { title: 'AP Environmental Science', tag: 'AP', description: 'The third named AP science course; regular titles are not published.' },
+          ],
+        },
+        {
+          name: 'Social Studies',
+          courses: [
+            { title: 'AP US History', tag: 'AP', description: 'Named on the school profile; the department runs an honors track.' },
+            { title: 'AP US Government and Politics', tag: 'AP', description: 'Named AP social-studies course.' },
+            { title: 'AP Psychology', tag: 'AP', description: 'Named AP social-studies course.' },
+            { title: 'AP Human Geography', tag: 'AP', description: 'Named on the 2023-24 profile; whether it runs in a given year varies (the 2025-26 profile omits it).' },
+          ],
+        },
+        {
+          name: 'Foreign Language',
+          courses: [
+            { title: 'AP Spanish Language and Culture', tag: 'AP', description: 'Named on the 2023-24 profile; the department runs an honors track. Regular Spanish levels are not individually published.' },
+          ],
+        },
+        {
+          name: 'Fine Arts',
+          courses: [
+            { title: 'AP Studio Art 2D (AP 2-D Art & Design)', tag: 'AP', description: 'The AP visual-arts course, atop the Art I–IV studio sequence; students "consistently score 3 or 4."' },
+          ],
+        },
+        {
+          name: 'Electives & AP Capstone',
+          courses: [
+            { title: 'AP Seminar', tag: 'AP', description: 'The first course of the AP Capstone track — research, argument and collaboration.' },
+            { title: 'AP Research', tag: 'AP', description: 'The second AP Capstone course; four AP Capstone Diplomas were awarded in 2024-25.' },
+            { title: 'AP Computer Science A', tag: 'AP', description: 'Named on the 2023-24 profile; whether it runs in a given year varies.' },
+          ],
+        },
+        {
+          name: 'Bible',
+          courses: [
+            { title: 'Bible', tag: 'Gr 9–12', description: 'A daily Bible credit is required all four years (4 units); an honors track is available. Individual course titles are not published.' },
+          ],
+        },
+      ],
+    },
+  ],
+}
+
 const OFFERINGS: Record<string, CourseOfferings> = {
   'providence-day': PROVIDENCE_DAY,
   'carmel-christian': CARMEL_CHRISTIAN,
@@ -6285,6 +6376,7 @@ const OFFERINGS: Record<string, CourseOfferings> = {
   'charlotte-christian': CHARLOTTE_CHRISTIAN,
   'covenant-day': COVENANT_DAY,
   'davidson-day': DAVIDSON_DAY,
+  'hickory-grove-christian': HICKORY_GROVE_CHRISTIAN,
 }
 
 /* ---------------------------------------------------------- translations -- */
