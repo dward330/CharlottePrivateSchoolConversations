@@ -38,7 +38,9 @@
         "cannon:catalog.categoryFilters[0].label",
         "cannon:catalog.gradeFilters[0].label",
         "covenant-day:catalog.categoryFilters[0].label",
-        "covenant-day:catalog.gradeFilters[0].label"
+        "covenant-day:catalog.gradeFilters[0].label",
+        "carmel-christian:catalog.categoryFilters[0].label",
+        "carmel-christian:catalog.gradeFilters[0].label"
       ]
     },
     {
@@ -8989,6 +8991,792 @@
       "of": "09c29363",
       "at": [
         "covenant-day:costPlanner.flags[0].text"
+      ]
+    },
+    {
+      "t": "جميع مخيّمات \"Summer Adventures\" الـ 36 لعام 2026 — لائحة نصف يومية (9 صباحاً–12 ظهراً، الإثنين–الخميس) للأطفال الصاعدين من الروضة حتى الصف الثامن، بسعر ثابت $180 للأسبوع ذي الأربعة أيام و$150 للأسبوع ذي الثلاثة أيام.",
+      "of": "f09ecc79",
+      "at": [
+        "carmel-christian:catalog.headline"
+      ]
+    },
+    {
+      "t": "ستّة أسابيع غير متّصلة تمتدّ من 8 يونيو – 23 يوليو 2026 (لا مخيّمات في أسبوع 22–25 يونيو). والأسبوعان 2 و3 ثلاثيّا الأيام — Juneteenth و4 يوليو — وسعرهما مخفّض إلى $150.",
+      "of": "e7c5fb74",
+      "at": [
+        "carmel-christian:catalog.subhead"
+      ]
+    },
+    {
+      "t": "**اللائحة الكاملة من 36 مخيّماً** مدرجة — وهذه هي كامل الكتالوج المنشور للمدرسة، لا عيّنة. والصفوف المعروضة هي صفوف **صاعدة**. ولا يتغيّر سعر المخيّم الواحد؛ بل يتبع نوع الأسبوع ($180 لأربعة أيام / $150 لثلاثة أيام). و**الفئات مُستنتَجة** من أسماء المخيّمات — إذ لا تطبع المدرسة أي تسميات للفئات — وهي مُشار إليها أدناه.",
+      "of": "854b3c8c",
+      "at": [
+        "carmel-christian:catalog.intro"
+      ]
+    },
+    {
+      "t": "الرياضة",
+      "of": "f258c9e2",
+      "at": [
+        "carmel-christian:catalog.categoryFilters[1].label",
+        "carmel-christian:catalog.camps[1].categoryLabel",
+        "carmel-christian:catalog.camps[3].categoryLabel",
+        "carmel-christian:catalog.camps[7].categoryLabel",
+        "carmel-christian:catalog.camps[9].categoryLabel",
+        "carmel-christian:catalog.camps[11].categoryLabel",
+        "carmel-christian:catalog.camps[12].categoryLabel",
+        "carmel-christian:catalog.camps[19].categoryLabel",
+        "carmel-christian:catalog.camps[22].categoryLabel",
+        "carmel-christian:catalog.camps[27].categoryLabel",
+        "carmel-christian:catalog.camps[28].categoryLabel",
+        "carmel-christian:catalog.camps[30].categoryLabel"
+      ]
+    },
+    {
+      "t": "الفنون والحِرَف",
+      "of": "68d5c3a8",
+      "at": [
+        "carmel-christian:catalog.categoryFilters[2].label",
+        "carmel-christian:catalog.camps[8].categoryLabel",
+        "carmel-christian:catalog.camps[13].categoryLabel",
+        "carmel-christian:catalog.camps[21].categoryLabel",
+        "carmel-christian:catalog.camps[23].categoryLabel",
+        "carmel-christian:catalog.camps[26].categoryLabel",
+        "carmel-christian:catalog.camps[31].categoryLabel",
+        "carmel-christian:catalog.camps[32].categoryLabel"
+      ]
+    },
+    {
+      "t": "STEM والهندسة",
+      "of": "937b560d",
+      "at": [
+        "carmel-christian:catalog.categoryFilters[3].label",
+        "carmel-christian:catalog.camps[5].categoryLabel",
+        "carmel-christian:catalog.camps[15].categoryLabel",
+        "carmel-christian:catalog.camps[17].categoryLabel",
+        "carmel-christian:catalog.camps[20].categoryLabel",
+        "carmel-christian:catalog.camps[33].categoryLabel"
+      ]
+    },
+    {
+      "t": "الطبخ",
+      "of": "450b1697",
+      "at": [
+        "carmel-christian:catalog.categoryFilters[4].label",
+        "carmel-christian:catalog.camps[4].categoryLabel",
+        "carmel-christian:catalog.camps[18].categoryLabel"
+      ]
+    },
+    {
+      "t": "الإيمان",
+      "of": "4eb1b257",
+      "at": [
+        "carmel-christian:catalog.categoryFilters[5].label",
+        "carmel-christian:catalog.camps[2].categoryLabel"
+      ]
+    },
+    {
+      "t": "إثراء عامّ",
+      "of": "3a207a58",
+      "at": [
+        "carmel-christian:catalog.categoryFilters[6].label",
+        "carmel-christian:catalog.camps[0].categoryLabel",
+        "carmel-christian:catalog.camps[6].categoryLabel",
+        "carmel-christian:catalog.camps[10].categoryLabel",
+        "carmel-christian:catalog.camps[14].categoryLabel",
+        "carmel-christian:catalog.camps[16].categoryLabel",
+        "carmel-christian:catalog.camps[24].categoryLabel",
+        "carmel-christian:catalog.camps[25].categoryLabel",
+        "carmel-christian:catalog.camps[29].categoryLabel",
+        "carmel-christian:catalog.camps[34].categoryLabel",
+        "carmel-christian:catalog.camps[35].categoryLabel"
+      ]
+    },
+    {
+      "t": "روضة صاعدة",
+      "of": "de34ad9e",
+      "at": [
+        "carmel-christian:catalog.gradeFilters[1].label"
+      ]
+    },
+    {
+      "t": "صاعد 1–2",
+      "of": "3865e3f1",
+      "at": [
+        "carmel-christian:catalog.gradeFilters[2].label",
+        "carmel-christian:catalog.camps[11].gradeLabel"
+      ]
+    },
+    {
+      "t": "صاعد 3–5",
+      "of": "172955de",
+      "at": [
+        "carmel-christian:catalog.gradeFilters[3].label",
+        "carmel-christian:catalog.camps[1].gradeLabel",
+        "carmel-christian:catalog.camps[22].gradeLabel"
+      ]
+    },
+    {
+      "t": "صاعد 6–8",
+      "of": "aaafdf9e",
+      "at": [
+        "carmel-christian:catalog.gradeFilters[4].label",
+        "carmel-christian:catalog.camps[28].gradeLabel",
+        "carmel-christian:catalog.camps[30].gradeLabel"
+      ]
+    },
+    {
+      "t": "أسبوع إثراء عامّ بموضوع عالم American Girl.",
+      "of": "eb3b4007",
+      "at": [
+        "carmel-christian:catalog.camps[0].desc"
+      ]
+    },
+    {
+      "t": "صاعد الروضة–5",
+      "of": "031ced66",
+      "at": [
+        "carmel-christian:catalog.camps[0].gradeLabel",
+        "carmel-christian:catalog.camps[24].gradeLabel"
+      ]
+    },
+    {
+      "t": "الإثنين–الخميس (4 أيام)",
+      "of": "913bce7b",
+      "at": [
+        "carmel-christian:catalog.camps[0].dayLabel",
+        "carmel-christian:catalog.camps[1].dayLabel",
+        "carmel-christian:catalog.camps[2].dayLabel",
+        "carmel-christian:catalog.camps[3].dayLabel",
+        "carmel-christian:catalog.camps[4].dayLabel",
+        "carmel-christian:catalog.camps[5].dayLabel",
+        "carmel-christian:catalog.camps[16].dayLabel",
+        "carmel-christian:catalog.camps[17].dayLabel",
+        "carmel-christian:catalog.camps[18].dayLabel",
+        "carmel-christian:catalog.camps[19].dayLabel",
+        "carmel-christian:catalog.camps[20].dayLabel",
+        "carmel-christian:catalog.camps[21].dayLabel",
+        "carmel-christian:catalog.camps[22].dayLabel",
+        "carmel-christian:catalog.camps[23].dayLabel",
+        "carmel-christian:catalog.camps[24].dayLabel",
+        "carmel-christian:catalog.camps[25].dayLabel",
+        "carmel-christian:catalog.camps[26].dayLabel",
+        "carmel-christian:catalog.camps[27].dayLabel",
+        "carmel-christian:catalog.camps[28].dayLabel",
+        "carmel-christian:catalog.camps[29].dayLabel",
+        "carmel-christian:catalog.camps[30].dayLabel",
+        "carmel-christian:catalog.camps[31].dayLabel",
+        "carmel-christian:catalog.camps[32].dayLabel",
+        "carmel-christian:catalog.camps[33].dayLabel",
+        "carmel-christian:catalog.camps[34].dayLabel",
+        "carmel-christian:catalog.camps[35].dayLabel"
+      ]
+    },
+    {
+      "t": "9 صباحاً–12 ظهراً",
+      "of": "0bc6b407",
+      "at": [
+        "carmel-christian:catalog.camps[0].hours",
+        "carmel-christian:catalog.camps[1].hours",
+        "carmel-christian:catalog.camps[2].hours",
+        "carmel-christian:catalog.camps[3].hours",
+        "carmel-christian:catalog.camps[4].hours",
+        "carmel-christian:catalog.camps[5].hours",
+        "carmel-christian:catalog.camps[6].hours",
+        "carmel-christian:catalog.camps[7].hours",
+        "carmel-christian:catalog.camps[8].hours",
+        "carmel-christian:catalog.camps[9].hours",
+        "carmel-christian:catalog.camps[10].hours",
+        "carmel-christian:catalog.camps[11].hours",
+        "carmel-christian:catalog.camps[12].hours",
+        "carmel-christian:catalog.camps[13].hours",
+        "carmel-christian:catalog.camps[14].hours",
+        "carmel-christian:catalog.camps[15].hours",
+        "carmel-christian:catalog.camps[16].hours",
+        "carmel-christian:catalog.camps[17].hours",
+        "carmel-christian:catalog.camps[18].hours",
+        "carmel-christian:catalog.camps[19].hours",
+        "carmel-christian:catalog.camps[20].hours",
+        "carmel-christian:catalog.camps[21].hours",
+        "carmel-christian:catalog.camps[22].hours",
+        "carmel-christian:catalog.camps[23].hours",
+        "carmel-christian:catalog.camps[24].hours",
+        "carmel-christian:catalog.camps[25].hours",
+        "carmel-christian:catalog.camps[26].hours",
+        "carmel-christian:catalog.camps[27].hours",
+        "carmel-christian:catalog.camps[28].hours",
+        "carmel-christian:catalog.camps[29].hours",
+        "carmel-christian:catalog.camps[30].hours",
+        "carmel-christian:catalog.camps[31].hours",
+        "carmel-christian:catalog.camps[32].hours",
+        "carmel-christian:catalog.camps[33].hours",
+        "carmel-christian:catalog.camps[34].hours",
+        "carmel-christian:catalog.camps[35].hours"
+      ]
+    },
+    {
+      "t": "الأسبوع 1 (8–11 يونيو)",
+      "of": "dbb152dd",
+      "at": [
+        "carmel-christian:catalog.camps[0].weeks",
+        "carmel-christian:catalog.camps[1].weeks",
+        "carmel-christian:catalog.camps[2].weeks",
+        "carmel-christian:catalog.camps[3].weeks",
+        "carmel-christian:catalog.camps[4].weeks",
+        "carmel-christian:catalog.camps[5].weeks"
+      ]
+    },
+    {
+      "t": "مخيّم مهارات كرة سلّة لفتيان الصفوف الصاعدة 3–5.",
+      "of": "048c6c3b",
+      "at": [
+        "carmel-christian:catalog.camps[1].desc"
+      ]
+    },
+    {
+      "t": "أسبوع بموضوع إيماني يستكشف العالم المخلوق.",
+      "of": "d87ea2be",
+      "at": [
+        "carmel-christian:catalog.camps[2].desc"
+      ]
+    },
+    {
+      "t": "صاعد 1–8",
+      "of": "2e65d433",
+      "at": [
+        "carmel-christian:catalog.camps[2].gradeLabel",
+        "carmel-christian:catalog.camps[21].gradeLabel",
+        "carmel-christian:catalog.camps[26].gradeLabel",
+        "carmel-christian:catalog.camps[34].gradeLabel"
+      ]
+    },
+    {
+      "t": "كرة طائرة تمهيدية للصاعدين من الصف الثالث حتى السادس.",
+      "of": "9cf6c464",
+      "at": [
+        "carmel-christian:catalog.camps[3].desc"
+      ]
+    },
+    {
+      "t": "صاعد 3–6",
+      "of": "1629544b",
+      "at": [
+        "carmel-christian:catalog.camps[3].gradeLabel",
+        "carmel-christian:catalog.camps[12].gradeLabel",
+        "carmel-christian:catalog.camps[31].gradeLabel",
+        "carmel-christian:catalog.camps[33].gradeLabel"
+      ]
+    },
+    {
+      "t": "أسبوع طبخ عملي للصاعدين من الصف الثالث حتى الثامن.",
+      "of": "eafeb718",
+      "at": [
+        "carmel-christian:catalog.camps[4].desc"
+      ]
+    },
+    {
+      "t": "صاعد 3–8",
+      "of": "14295125",
+      "at": [
+        "carmel-christian:catalog.camps[4].gradeLabel",
+        "carmel-christian:catalog.camps[8].gradeLabel"
+      ]
+    },
+    {
+      "t": "بناء LEGO® وهندسة للصاعدين من الصف الأول حتى الثالث.",
+      "of": "2c8fc803",
+      "at": [
+        "carmel-christian:catalog.camps[5].desc"
+      ]
+    },
+    {
+      "t": "صاعد 1–3",
+      "of": "3765e25e",
+      "at": [
+        "carmel-christian:catalog.camps[5].gradeLabel",
+        "carmel-christian:catalog.camps[35].gradeLabel"
+      ]
+    },
+    {
+      "t": "أسبوع إثراء بالحِرَف واللعب لفتيات الصفوف الصاعدة 2–4.",
+      "of": "3f3a7c1b",
+      "at": [
+        "carmel-christian:catalog.camps[6].desc"
+      ]
+    },
+    {
+      "t": "صاعد 2–4",
+      "of": "83647f0e",
+      "at": [
+        "carmel-christian:catalog.camps[6].gradeLabel"
+      ]
+    },
+    {
+      "t": "الإثنين–الأربعاء (3 أيام)",
+      "of": "080034ab",
+      "at": [
+        "carmel-christian:catalog.camps[6].dayLabel",
+        "carmel-christian:catalog.camps[7].dayLabel",
+        "carmel-christian:catalog.camps[8].dayLabel",
+        "carmel-christian:catalog.camps[9].dayLabel",
+        "carmel-christian:catalog.camps[10].dayLabel",
+        "carmel-christian:catalog.camps[11].dayLabel",
+        "carmel-christian:catalog.camps[12].dayLabel",
+        "carmel-christian:catalog.camps[13].dayLabel",
+        "carmel-christian:catalog.camps[14].dayLabel",
+        "carmel-christian:catalog.camps[15].dayLabel"
+      ]
+    },
+    {
+      "t": "الأسبوع 2 (15–17 يونيو)",
+      "of": "ec51231e",
+      "at": [
+        "carmel-christian:catalog.camps[6].weeks",
+        "carmel-christian:catalog.camps[7].weeks",
+        "carmel-christian:catalog.camps[8].weeks",
+        "carmel-christian:catalog.camps[9].weeks",
+        "carmel-christian:catalog.camps[10].weeks"
+      ]
+    },
+    {
+      "t": "مخيّم مهارات كرة سلّة للفتيات الصاعدات من الصف الخامس حتى الثامن.",
+      "of": "e27201b7",
+      "at": [
+        "carmel-christian:catalog.camps[7].desc"
+      ]
+    },
+    {
+      "t": "صاعد 5–8",
+      "of": "ea003c9f",
+      "at": [
+        "carmel-christian:catalog.camps[7].gradeLabel",
+        "carmel-christian:catalog.camps[19].gradeLabel"
+      ]
+    },
+    {
+      "t": "أسبوع صناعة أفلام للصاعدين من الصف الثالث حتى الثامن.",
+      "of": "0a4925fe",
+      "at": [
+        "carmel-christian:catalog.camps[8].desc"
+      ]
+    },
+    {
+      "t": "أسبوع ألعاب Nerf® النشطة للصاعدين من الصف الثاني حتى السادس.",
+      "of": "e9e622df",
+      "at": [
+        "carmel-christian:catalog.camps[9].desc",
+        "carmel-christian:catalog.camps[27].desc"
+      ]
+    },
+    {
+      "t": "صاعد 2–6",
+      "of": "81647be8",
+      "at": [
+        "carmel-christian:catalog.camps[9].gradeLabel",
+        "carmel-christian:catalog.camps[27].gradeLabel"
+      ]
+    },
+    {
+      "t": "أسبوع إثراء بموضوع المحيط لأصغر المخيّمين.",
+      "of": "2d87144f",
+      "at": [
+        "carmel-christian:catalog.camps[10].desc"
+      ]
+    },
+    {
+      "t": "صاعد الروضة–2",
+      "of": "061cf21f",
+      "at": [
+        "carmel-christian:catalog.camps[10].gradeLabel",
+        "carmel-christian:catalog.camps[25].gradeLabel"
+      ]
+    },
+    {
+      "t": "كرة سلّة للمبتدئين لفتيان الصفوف الصاعدة 1–2.",
+      "of": "5d21ea31",
+      "at": [
+        "carmel-christian:catalog.camps[11].desc"
+      ]
+    },
+    {
+      "t": "الأسبوع 3 (29 يونيو–1 يوليو)",
+      "of": "10891a00",
+      "at": [
+        "carmel-christian:catalog.camps[11].weeks",
+        "carmel-christian:catalog.camps[12].weeks",
+        "carmel-christian:catalog.camps[13].weeks",
+        "carmel-christian:catalog.camps[14].weeks",
+        "carmel-christian:catalog.camps[15].weeks"
+      ]
+    },
+    {
+      "t": "أسبوع تصويبات استعراضية وألعاب للصاعدين من الصف الثالث حتى السادس.",
+      "of": "db8bf48e",
+      "at": [
+        "carmel-christian:catalog.camps[12].desc"
+      ]
+    },
+    {
+      "t": "أسبوع حِرَف زهور للصاعدين من الصف الأول حتى الرابع.",
+      "of": "75daba5a",
+      "at": [
+        "carmel-christian:catalog.camps[13].desc"
+      ]
+    },
+    {
+      "t": "صاعد 1–4",
+      "of": "3a65e717",
+      "at": [
+        "carmel-christian:catalog.camps[13].gradeLabel",
+        "carmel-christian:catalog.camps[15].gradeLabel"
+      ]
+    },
+    {
+      "t": "أسبوع إثراء بموضوع حفلة المبيت للصاعدين من الصف الثاني حتى الخامس.",
+      "of": "c618dab8",
+      "at": [
+        "carmel-christian:catalog.camps[14].desc"
+      ]
+    },
+    {
+      "t": "صاعد 2–5",
+      "of": "846480a1",
+      "at": [
+        "carmel-christian:catalog.camps[14].gradeLabel",
+        "carmel-christian:catalog.camps[16].gradeLabel",
+        "carmel-christian:catalog.camps[23].gradeLabel"
+      ]
+    },
+    {
+      "t": "أنشطة علوم وهندسة للصاعدين من الصف الأول حتى الرابع.",
+      "of": "9e8f0b5e",
+      "at": [
+        "carmel-christian:catalog.camps[15].desc"
+      ]
+    },
+    {
+      "t": "أسبوع إثراء بتحدّيات جماعية للصاعدين من الصف الثاني حتى الخامس.",
+      "of": "2eb21788",
+      "at": [
+        "carmel-christian:catalog.camps[16].desc"
+      ]
+    },
+    {
+      "t": "الأسبوع 4 (6–9 يوليو)",
+      "of": "be8bb6fd",
+      "at": [
+        "carmel-christian:catalog.camps[16].weeks",
+        "carmel-christian:catalog.camps[17].weeks",
+        "carmel-christian:catalog.camps[18].weeks",
+        "carmel-christian:catalog.camps[19].weeks",
+        "carmel-christian:catalog.camps[20].weeks",
+        "carmel-christian:catalog.camps[21].weeks",
+        "carmel-christian:catalog.camps[22].weeks"
+      ]
+    },
+    {
+      "t": "أسبوع صناعة رسوم متحرّكة للصاعدين من الروضة حتى الصف الثالث.",
+      "of": "f2c5ff9f",
+      "at": [
+        "carmel-christian:catalog.camps[17].desc"
+      ]
+    },
+    {
+      "t": "صاعد الروضة–3",
+      "of": "051cf08c",
+      "at": [
+        "carmel-christian:catalog.camps[17].gradeLabel"
+      ]
+    },
+    {
+      "t": "أسبوع طبخ يركّز على الخبز للصاعدين من الصف الأول حتى الخامس.",
+      "of": "cdcc682e",
+      "at": [
+        "carmel-christian:catalog.camps[18].desc"
+      ]
+    },
+    {
+      "t": "صاعد 1–5",
+      "of": "3965e584",
+      "at": [
+        "carmel-christian:catalog.camps[18].gradeLabel"
+      ]
+    },
+    {
+      "t": "مخيّم مهارات كرة طائرة للفتيات الصاعدات من الصف الخامس حتى الثامن.",
+      "of": "cd7acc09",
+      "at": [
+        "carmel-christian:catalog.camps[19].desc"
+      ]
+    },
+    {
+      "t": "بناء LEGO® متقدّم للصاعدين من الصف الرابع حتى السادس.",
+      "of": "e8614cca",
+      "at": [
+        "carmel-christian:catalog.camps[20].desc"
+      ]
+    },
+    {
+      "t": "صاعد 4–6",
+      "of": "4b27ccc6",
+      "at": [
+        "carmel-christian:catalog.camps[20].gradeLabel"
+      ]
+    },
+    {
+      "t": "أسبوع فنون بصرية للصاعدين من الصف الأول حتى الثامن.",
+      "of": "7f00415c",
+      "at": [
+        "carmel-christian:catalog.camps[21].desc"
+      ]
+    },
+    {
+      "t": "مخيّم مهارات pickleball للصاعدين من الصف الثالث حتى الخامس.",
+      "of": "92f6fde3",
+      "at": [
+        "carmel-christian:catalog.camps[22].desc"
+      ]
+    },
+    {
+      "t": "استوديو فنّ بمواد معاد تدويرها للصاعدين من الصف الثاني حتى الخامس.",
+      "of": "afebd9a9",
+      "at": [
+        "carmel-christian:catalog.camps[23].desc"
+      ]
+    },
+    {
+      "t": "الأسبوع 5 (13–16 يوليو)",
+      "of": "a973fdca",
+      "at": [
+        "carmel-christian:catalog.camps[23].weeks",
+        "carmel-christian:catalog.camps[24].weeks",
+        "carmel-christian:catalog.camps[25].weeks",
+        "carmel-christian:catalog.camps[26].weeks",
+        "carmel-christian:catalog.camps[27].weeks",
+        "carmel-christian:catalog.camps[28].weeks"
+      ]
+    },
+    {
+      "t": "أسبوع إثراء بموضوع Barbie للصاعدين من الروضة حتى الصف الخامس.",
+      "of": "6cee202d",
+      "at": [
+        "carmel-christian:catalog.camps[24].desc"
+      ]
+    },
+    {
+      "t": "أسبوع إثراء باللعب التخيّلي لأصغر المخيّمين.",
+      "of": "36d4b902",
+      "at": [
+        "carmel-christian:catalog.camps[25].desc"
+      ]
+    },
+    {
+      "t": "أسبوع فنّ بوسائط مختلطة للصاعدين من الصف الأول حتى الثامن.",
+      "of": "875ed8aa",
+      "at": [
+        "carmel-christian:catalog.camps[26].desc"
+      ]
+    },
+    {
+      "t": "مخيّم مهارات pickleball للصاعدين من الصف السادس حتى الثامن.",
+      "of": "29922bb5",
+      "at": [
+        "carmel-christian:catalog.camps[28].desc"
+      ]
+    },
+    {
+      "t": "معسكر إثراء مكثّف للصاعدين من الصف الثاني حتى الثالث.",
+      "of": "76a3d3aa",
+      "at": [
+        "carmel-christian:catalog.camps[29].desc"
+      ]
+    },
+    {
+      "t": "صاعد 2–3",
+      "of": "866483c7",
+      "at": [
+        "carmel-christian:catalog.camps[29].gradeLabel"
+      ]
+    },
+    {
+      "t": "الأسبوع 6 (20–23 يوليو)",
+      "of": "0f29daf1",
+      "at": [
+        "carmel-christian:catalog.camps[29].weeks",
+        "carmel-christian:catalog.camps[30].weeks",
+        "carmel-christian:catalog.camps[31].weeks",
+        "carmel-christian:catalog.camps[32].weeks",
+        "carmel-christian:catalog.camps[33].weeks",
+        "carmel-christian:catalog.camps[34].weeks",
+        "carmel-christian:catalog.camps[35].weeks"
+      ]
+    },
+    {
+      "t": "مخيّم مهارات كرة سلّة لفتيان الصفوف الصاعدة 6–8.",
+      "of": "bceb2ddd",
+      "at": [
+        "carmel-christian:catalog.camps[30].desc"
+      ]
+    },
+    {
+      "t": "أسبوع مسرح غنائي للصاعدين من الصف الثالث حتى السادس.",
+      "of": "699972a6",
+      "at": [
+        "carmel-christian:catalog.camps[31].desc"
+      ]
+    },
+    {
+      "t": "أسبوع حِرَف Cricut® للصاعدين من الصف الرابع حتى الثامن.",
+      "of": "0d8eae57",
+      "at": [
+        "carmel-christian:catalog.camps[32].desc"
+      ]
+    },
+    {
+      "t": "صاعد 4–8",
+      "of": "5527dc84",
+      "at": [
+        "carmel-christian:catalog.camps[32].gradeLabel"
+      ]
+    },
+    {
+      "t": "تحدّيات هندسية عملية للصاعدين من الصف الثالث حتى السادس.",
+      "of": "fd2f0d49",
+      "at": [
+        "carmel-christian:catalog.camps[33].desc"
+      ]
+    },
+    {
+      "t": "أسبوع إثراء بالقصص والشخصيات للصاعدين من الصف الأول حتى الثامن.",
+      "of": "f9f7f2ad",
+      "at": [
+        "carmel-christian:catalog.camps[34].desc"
+      ]
+    },
+    {
+      "t": "أسبوع إثراء بالألعاب والمغامرة للصاعدين من الصف الأول حتى الثالث.",
+      "of": "4e4c5995",
+      "at": [
+        "carmel-christian:catalog.camps[35].desc"
+      ]
+    },
+    {
+      "t": "الفئات الستّ (الرياضة، الفنون والحِرَف، STEM والهندسة، الطبخ، الإيمان، الإثراء العامّ) **مُستنتَجة من أسماء المخيّمات** — إذ لا تطبع المدرسة أي تسميات للفئات على صفحات Summer Adventures.",
+      "of": "e8aeee4b",
+      "at": [
+        "carmel-christian:catalog.flags[0].text"
+      ]
+    },
+    {
+      "t": "لا يُنشَر أي خيار **رعاية صباحية أو يوم كامل** — فالرعاية المحيطة الوحيدة هي After Camp Lunch Hour من 12–1 ظهراً. كما أن خصم الأشقّاء والتسجيل المبكّر والعربون غير منشورة أيضاً.",
+      "of": "d908ab98",
+      "at": [
+        "carmel-christian:catalog.flags[1].text"
+      ]
+    },
+    {
+      "t": "المخيّم نفسه بسعر ثابت $180 للأسبوع ذي الأربعة أيام ($150 للأسبوعين ثلاثيّي الأيام) — ثم الإضافة الوحيدة هي $40 لـ After Camp Lunch Hour ($30 للأسابيع القصيرة).",
+      "of": "ae9503df",
+      "at": [
+        "carmel-christian:costPlanner.headline"
+      ]
+    },
+    {
+      "t": "تتوفّر ستّة أسابيع، من 8 يونيو – 23 يوليو 2026، دون مخيّمات في أسبوع 22–25 يونيو. والأسبوعان 2 و3 ثلاثيّا الأيام ويكلّفان أقلّ. وجميع المخيّمات نصف يومية، 9 صباحاً–12 ظهراً، الإثنين–الخميس.",
+      "of": "a58d9d22",
+      "at": [
+        "carmel-christian:costPlanner.subhead"
+      ]
+    },
+    {
+      "t": "أسبوع من أربعة أيام",
+      "of": "bd7d949a",
+      "at": [
+        "carmel-christian:costPlanner.tiers[0].label"
+      ]
+    },
+    {
+      "t": "مخيّم نصف يومي · أسبوع من أربعة أيام · 9 صباحاً–12 ظهراً",
+      "of": "1bf1b719",
+      "at": [
+        "carmel-christian:costPlanner.tiers[0].panelLabel"
+      ]
+    },
+    {
+      "t": "الأسبوع القياسي (الأسابيع 1 و4 و5 و6). نصف يومي، الإثنين–الخميس.",
+      "of": "6cbb2a55",
+      "at": [
+        "carmel-christian:costPlanner.tiers[0].detail"
+      ]
+    },
+    {
+      "t": "أسبوع من ثلاثة أيام",
+      "of": "0a507f44",
+      "at": [
+        "carmel-christian:costPlanner.tiers[1].label"
+      ]
+    },
+    {
+      "t": "مخيّم نصف يومي · أسبوع من ثلاثة أيام · 9 صباحاً–12 ظهراً",
+      "of": "c982400f",
+      "at": [
+        "carmel-christian:costPlanner.tiers[1].panelLabel"
+      ]
+    },
+    {
+      "t": "الأسبوعان 2 و3 فقط — يسير أسبوعا Juneteenth و4 يوليو من الإثنين–الأربعاء.",
+      "of": "c9a49a3f",
+      "at": [
+        "carmel-christian:costPlanner.tiers[1].detail"
+      ]
+    },
+    {
+      "t": "After Camp Lunch Hour من 12–1 ظهراً (أسبوع من أربعة أيام)",
+      "of": "4b07cff0",
+      "at": [
+        "carmel-christian:costPlanner.addons[0].label"
+      ]
+    },
+    {
+      "t": "After Camp Lunch Hour من 12–1 ظهراً (أسبوع من ثلاثة أيام)",
+      "of": "44720f2c",
+      "at": [
+        "carmel-christian:costPlanner.addons[1].label"
+      ]
+    },
+    {
+      "t": "يُفرَض **رسم تسجيل** عند الاشتراك، لكن المدرسة لا تنشر المبلغ.",
+      "of": "0f6684a9",
+      "at": [
+        "carmel-christian:costPlanner.fees[0].label"
+      ]
+    },
+    {
+      "t": "الرعاية المحيطة الوحيدة هي **After Camp Lunch Hour من 12–1 ظهراً** — فلا رعاية صباحية منشورة ولا خيار يوم كامل. أضِف رسم الأربعة أيام ($40) لأسبوع قياسي أو رسم الثلاثة أيام ($30) للأسبوعين 2 و3.",
+      "of": "653916fe",
+      "at": [
+        "carmel-christian:costPlanner.fees[1].label"
+      ]
+    },
+    {
+      "t": "سجِّل قبل أسبوع على الأقلّ.",
+      "of": "7bcb5992",
+      "at": [
+        "carmel-christian:costPlanner.aside.title"
+      ]
+    },
+    {
+      "t": "يتمّ التسجيل عبر بوابة Summer Adventures ويُغلَق **قبل أسبوع من بدء كل مخيّم** ما لم يمتلئ المخيّم أولاً. والصفوف **صاعدة**؛ والبرنامج بإدارة **Debbie Yates** ومفتوح لعائلات Carmel والجمهور العامّ.",
+      "of": "cc40807f",
+      "at": [
+        "carmel-christian:costPlanner.aside.text"
+      ]
+    },
+    {
+      "t": "**مبلغ رسم التسجيل غير منشور** — تشير المدرسة إلى رسم عند الاشتراك لكنها لا تذكره أبداً. ولا يُنشَر أي خصم للأشقّاء أو تسجيل مبكّر أو عربون أيضاً.",
+      "of": "80e76227",
+      "at": [
+        "carmel-christian:costPlanner.flags[0].text"
       ]
     }
   ]

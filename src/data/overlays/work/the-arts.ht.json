@@ -161,7 +161,8 @@
         "charlotte-country-day:ladder.divisions[2].grades",
         "cannon:ladder.divisions[2].grades",
         "covenant-day:ladder.divisions[2].grades",
-        "davidson-day:ladder.divisions[2].grades"
+        "davidson-day:ladder.divisions[2].grades",
+        "carmel-christian:ladder.divisions[2].grades"
       ],
       "t": "9–12"
     },
@@ -205,7 +206,8 @@
         "charlotte-latin:ladder.enrichmentTitle",
         "charlotte-christian:ladder.enrichmentTitle",
         "charlotte-country-day:ladder.enrichmentTitle",
-        "cannon:ladder.enrichmentTitle"
+        "cannon:ladder.enrichmentTitle",
+        "carmel-christian:ladder.enrichmentTitle"
       ],
       "t": "Kouch anrichisman an — pi lwen pase sal klas la"
     },
@@ -306,7 +308,8 @@
         "providence-day:theatre.season[0].season",
         "charlotte-latin:theatre.season[0].season",
         "charlotte-country-day:theatre.season[0].season",
-        "cannon:theatre.season[0].season"
+        "cannon:theatre.season[0].season",
+        "carmel-christian:theatre.season[0].season"
       ],
       "t": "Otòn"
     },
@@ -336,7 +339,8 @@
         "charlotte-latin:theatre.season[1].season",
         "charlotte-christian:visual.exhibits[0].when",
         "charlotte-country-day:theatre.season[2].season",
-        "covenant-day:visual.exhibits[1].when"
+        "covenant-day:visual.exhibits[1].when",
+        "carmel-christian:theatre.season[1].season"
       ],
       "t": "Prentan"
     },
@@ -490,7 +494,8 @@
       "of": "751c47b2",
       "at": [
         "providence-day:music.tracks[0].label",
-        "charlotte-latin:music.tracks[0].label"
+        "charlotte-latin:music.tracks[0].label",
+        "carmel-christian:music.tracks[0].label"
       ],
       "t": "Kourikoulè — antre lè w enskri"
     },
@@ -498,7 +503,8 @@
       "text": "Auditioned — earn a seat",
       "of": "31194fb9",
       "at": [
-        "providence-day:music.tracks[1].label"
+        "providence-day:music.tracks[1].label",
+        "carmel-christian:music.tracks[1].label"
       ],
       "t": "Ak odisyon — merite yon plas"
     },
@@ -540,7 +546,8 @@
         "charlotte-christian:music.ladder[0].label",
         "charlotte-country-day:music.ladder[0].label",
         "cannon:music.ladder[0].label",
-        "davidson-day:music.ladder[0].label"
+        "davidson-day:music.ladder[0].label",
+        "carmel-christian:music.ladder[0].label"
       ],
       "t": "Antre nan yon ansanm"
     },
@@ -559,7 +566,8 @@
         "providence-day:music.ladder[1].label",
         "charlotte-latin:music.ladder[1].label",
         "charlotte-country-day:music.ladder[1].label",
-        "davidson-day:music.ladder[1].label"
+        "davidson-day:music.ladder[1].label",
+        "carmel-christian:music.ladder[1].label"
       ],
       "t": "Odisyone pou monte"
     },
@@ -579,7 +587,8 @@
         "charlotte-latin:music.ladder[2].label",
         "charlotte-christian:music.ladder[2].label",
         "charlotte-country-day:music.ladder[2].label",
-        "davidson-day:music.ladder[2].label"
+        "davidson-day:music.ladder[2].label",
+        "carmel-christian:music.ladder[2].label"
       ],
       "t": "Chwazi pi lwen pase kanpis la"
     },
@@ -3065,7 +3074,8 @@
       "of": "f65af38a",
       "at": [
         "charlotte-country-day:visual.exhibits[0].when",
-        "cannon:visual.exhibits[2].when"
+        "cannon:visual.exhibits[2].when",
+        "carmel-christian:visual.exhibits[0].when"
       ],
       "t": "Anyèl"
     },
@@ -4226,7 +4236,8 @@
       "text": "6–8",
       "of": "b7020a62",
       "at": [
-        "covenant-day:ladder.divisions[1].grades"
+        "covenant-day:ladder.divisions[1].grades",
+        "carmel-christian:ladder.divisions[1].grades"
       ],
       "t": "6–8"
     },
@@ -5542,6 +5553,567 @@
         "davidson-day:verdict.ask[6]"
       ],
       "t": "Èske yon fanfa oswa koral Middle School egziste, epi èske li alimante okenn bagay nan Upper School?"
+    },
+    {
+      "text": "A K–12 arts program — integrated music and art for every K–4 student, becoming a sequential, elective-driven track from grade 5 up.",
+      "of": "97212600",
+      "at": [
+        "carmel-christian:ladder.headline"
+      ],
+      "t": "Yon pwogram atizay K–12 — mizik ak atizay entegre pou chak elèv K–4, k ap vin yon pist sekans, ki mennen pa elektif depi klas 5 monte."
+    },
+    {
+      "text": "Overseen by Arts Director Christina McCorkle, and headlined in 2026 by a Blumey Best Actress win that advanced to the national Jimmy Awards.",
+      "of": "39460b86",
+      "at": [
+        "carmel-christian:ladder.subhead"
+      ],
+      "t": "Sipèvize pa Arts Director Christina McCorkle, epi mete an tèt an 2026 pa yon viktwa Blumey Best Actress ki te avanse nan Jimmy Awards nasyonal yo."
+    },
+    {
+      "text": "arts program, integrated K–4",
+      "of": "38b25f94",
+      "at": [
+        "carmel-christian:ladder.stats[0].label"
+      ],
+      "t": "pwogram atizay, entegre K–4"
+    },
+    {
+      "text": "named ensembles + auditioned Ignite Band",
+      "of": "8ab9ca66",
+      "at": [
+        "carmel-christian:ladder.stats[1].label"
+      ],
+      "t": "ansanm ki gen non + Ignite Band ak odisyon"
+    },
+    {
+      "text": "Blumey Best Actress win — \"Footloose\"",
+      "of": "6e7456fc",
+      "at": [
+        "carmel-christian:ladder.stats[2].label"
+      ],
+      "t": "Viktwa Blumey Best Actress — \"Footloose\""
+    },
+    {
+      "text": "Christians in Theatre Arts conference",
+      "of": "92380233",
+      "at": [
+        "carmel-christian:ladder.stats[3].label"
+      ],
+      "t": "Konferans Christians in Theatre Arts"
+    },
+    {
+      "text": "K–5",
+      "of": "6392dcaa",
+      "at": [
+        "carmel-christian:ladder.divisions[0].grades"
+      ],
+      "t": "K–5"
+    },
+    {
+      "text": "Every K–4 student takes both music and art classes",
+      "of": "3689145f",
+      "at": [
+        "carmel-christian:ladder.divisions[0].items[0]"
+      ],
+      "t": "Chak elèv K–4 pran ni klas mizik ni klas atizay"
+    },
+    {
+      "text": "At grade 5 visual art continues and students may join choir / creative arts",
+      "of": "b80024b2",
+      "at": [
+        "carmel-christian:ladder.divisions[0].items[1]"
+      ],
+      "t": "Nan klas 5 atizay vizyèl kontinye epi elèv yo ka antre nan choir / creative arts"
+    },
+    {
+      "text": "A 5th-grade musical (2024-25: \"Seussical KIDS\")",
+      "of": "2eb8c17d",
+      "at": [
+        "carmel-christian:ladder.divisions[0].items[2]"
+      ],
+      "t": "Yon mizikal 5yèm klas (2024-25: \"Seussical KIDS\")"
+    },
+    {
+      "text": "Band · Choir · Ignite (MS Praise Band) · Art · Theatre",
+      "of": "d98aff43",
+      "at": [
+        "carmel-christian:ladder.divisions[1].items[0]"
+      ],
+      "t": "Band · Choir · Ignite (MS Praise Band) · Art · Theatre"
+    },
+    {
+      "text": "A Middle School musical (2024-25: \"Disney's The Lion King Jr.\")",
+      "of": "676ad284",
+      "at": [
+        "carmel-christian:ladder.divisions[1].items[1]"
+      ],
+      "t": "Yon mizikal Middle School (2024-25: \"Disney's The Lion King Jr.\")"
+    },
+    {
+      "text": "Musical Theatre Dance, Spring Play Competition (NCTC) and a Shakespeare Play Festival",
+      "of": "90e91dbc",
+      "at": [
+        "carmel-christian:ladder.divisions[1].items[2]"
+      ],
+      "t": "Musical Theatre Dance, Spring Play Competition (NCTC) ak yon Shakespeare Play Festival"
+    },
+    {
+      "text": "Honor Band, Christmas and Spring Concerts, and an Art Festival",
+      "of": "00474572",
+      "at": [
+        "carmel-christian:ladder.divisions[1].items[3]"
+      ],
+      "t": "Honor Band, Konsè Nwèl ak Prentan, ak yon Art Festival"
+    },
+    {
+      "text": "Christians in Theatre Arts (CITA) Conference",
+      "of": "a10dbc67",
+      "at": [
+        "carmel-christian:ladder.divisions[1].items[4]"
+      ],
+      "t": "Konferans Christians in Theatre Arts (CITA)"
+    },
+    {
+      "text": "Choir · Symphonic Band · Ignite Band (HS Praise Band, audition-based)",
+      "of": "e7f845fc",
+      "at": [
+        "carmel-christian:ladder.divisions[2].items[0]"
+      ],
+      "t": "Choir · Symphonic Band · Ignite Band (HS Praise Band, baze sou odisyon)"
+    },
+    {
+      "text": "Theatre plus Technical Theater and Design",
+      "of": "d55eadc7",
+      "at": [
+        "carmel-christian:ladder.divisions[2].items[1]"
+      ],
+      "t": "Theatre plis Technical Theater and Design"
+    },
+    {
+      "text": "Visual Arts · Digital Photography · Yearbook · Creative Writing · Journalism",
+      "of": "13fbd309",
+      "at": [
+        "carmel-christian:ladder.divisions[2].items[2]"
+      ],
+      "t": "Visual Arts · Digital Photography · Yearbook · Creative Writing · Journalism"
+    },
+    {
+      "text": "Christians in Theatre Arts (CITA)",
+      "of": "9706987b",
+      "at": [
+        "carmel-christian:ladder.enrichment[0].label"
+      ],
+      "t": "Christians in Theatre Arts (CITA)"
+    },
+    {
+      "text": "Middle School theatre students attend the CITA Conference — a faith-based theatre-arts gathering that sits on the published Middle School arts calendar.",
+      "of": "fa3d98ca",
+      "at": [
+        "carmel-christian:ladder.enrichment[0].text"
+      ],
+      "t": "Elèv teyat Middle School yo asiste Konferans CITA a — yon rasanbleman teyat-atizay ki baze sou lafwa ki sou kalandriye atizay Middle School ki pibliye a."
+    },
+    {
+      "text": "Festival calendar",
+      "of": "bff2671d",
+      "at": [
+        "carmel-christian:ladder.enrichment[1].label"
+      ],
+      "t": "Kalandriye festival"
+    },
+    {
+      "text": "The Middle School program lists a Spring Play Competition (the NCTC one-act circuit), a Shakespeare Play Festival, an Honor Band event and an annual Art Festival as recurring fixtures.",
+      "of": "34721603",
+      "at": [
+        "carmel-christian:ladder.enrichment[1].text"
+      ],
+      "t": "Pwogram Middle School la liste yon Spring Play Competition (sikwi yon-akt NCTC la), yon Shakespeare Play Festival, yon evènman Honor Band ak yon Art Festival anyèl kòm evènman rekiran."
+    },
+    {
+      "text": "A K–12 production season topped by a 2026 Blumey Best Actress win — Anna Jernigan in \"Footloose\" — that advanced to the national Jimmy Awards.",
+      "of": "ddd6cd90",
+      "at": [
+        "carmel-christian:theatre.headline"
+      ],
+      "t": "Yon sezon pwodiksyon K–12 mete an tèt pa yon viktwa Blumey Best Actress 2026 — Anna Jernigan nan \"Footloose\" — ki te avanse nan Jimmy Awards nasyonal yo."
+    },
+    {
+      "text": "The Blumeys are Blumenthal Performing Arts’ regional high-school musical-theater awards. Carmel Christian converted a finalist run into an outright win in 2026 and placed six across five categories that year.",
+      "of": "a29fa0d5",
+      "at": [
+        "carmel-christian:theatre.subhead"
+      ],
+      "t": "Blumeys yo se prim teyat-mizikal lekòl segondè rejyonal Blumenthal Performing Arts yo. Carmel Christian konvèti yon kous finalis nan yon viktwa nèt an 2026 epi li plase sis atravè senk kategori ane sa a."
+    },
+    {
+      "text": "The season rhythm — a K–12 slate each year",
+      "of": "bdb041f2",
+      "at": [
+        "carmel-christian:theatre.seasonTitle"
+      ],
+      "t": "Ritm sezon an — yon seri K–12 chak ane"
+    },
+    {
+      "text": "Musical (junior edition)",
+      "of": "0ecd51e5",
+      "at": [
+        "carmel-christian:theatre.season[0].kind"
+      ],
+      "t": "Mizikal (edisyon jinyò)"
+    },
+    {
+      "text": "2025-26: Disney's High School Musical, Jr. (Nov 14–15, 2025). The fall slot skews to a junior-edition musical drawing across the divisions.",
+      "of": "acf38cad",
+      "at": [
+        "carmel-christian:theatre.season[0].detail"
+      ],
+      "t": "2025-26: Disney's High School Musical, Jr. (Nov 14–15, 2025). Plas otòn nan panche vè yon mizikal edisyon-jinyò ki rale atravè divizyon yo."
+    },
+    {
+      "text": "Musical (Upper School)",
+      "of": "060b12d4",
+      "at": [
+        "carmel-christian:theatre.season[1].kind"
+      ],
+      "t": "Mizikal (Upper School)"
+    },
+    {
+      "text": "2025-26: Footloose — The Musical (Mar 26–28, 2026, \"SOLD OUT!\"), the production that took the 2026 Blumey Best Actress win. 2024-25 ran three shows across divisions: Seussical KIDS (5th grade), Disney's The Lion King Jr. (Middle School) and Oklahoma! (High School).",
+      "of": "8ddd2b42",
+      "at": [
+        "carmel-christian:theatre.season[1].detail"
+      ],
+      "t": "2025-26: Footloose — The Musical (Mar 26–28, 2026, \"SOLD OUT!\"), pwodiksyon ki te pran viktwa Blumey Best Actress 2026 la. 2024-25 te mache twa spektak atravè divizyon yo: Seussical KIDS (5yèm klas), Disney's The Lion King Jr. (Middle School) ak Oklahoma! (High School)."
+    },
+    {
+      "text": "The director and the venue are not published — the arts nav carries a \"Main Stage\" label but no room name, and the Footloose \"SOLD OUT!\" note implies a fixed-capacity house that is not named anywhere.",
+      "of": "589fafe3",
+      "at": [
+        "carmel-christian:theatre.venueNote"
+      ],
+      "t": "Direktè a ak lye a pa pibliye — nav atizay la pote yon etikèt \"Main Stage\" men pa gen okenn non sal, epi nòt \"SOLD OUT!\" Footloose la sijere yon sal ak kapasite fiks ki pa nonmen okenn kote."
+    },
+    {
+      "text": "The Blumey ledger — external judging",
+      "of": "900c8f6e",
+      "at": [
+        "carmel-christian:theatre.ledgerTitle"
+      ],
+      "t": "Rejis Blumey la — jijman ekstèn"
+    },
+    {
+      "text": "Best Actress WIN — Anna Jernigan as Ariel Moore, who advances to the national Jimmy Awards (ceremony May 17, 2026, Belk Theater; announced May 18). Plus five more placements across four categories: Best Actor finalist (James Coleman as Ren McCormack), Best Supporting Actor finalist (Sloan Pettus as Willard Hewitt), Best Supporting Actress finalist (Charlotte Scott as Rusty), Best Featured Performer finalist (Titus Teague as Garvin) and a Best Choreography Execution nominee (production).",
+      "of": "1d80efd5",
+      "at": [
+        "carmel-christian:theatre.ledger[0].result"
+      ],
+      "t": "Best Actress WIN — Anna Jernigan kòm Ariel Moore, ki avanse nan Jimmy Awards nasyonal yo (seremoni May 17, 2026, Belk Theater; anonse May 18). Plis senk lòt plasman atravè kat kategori: Best Actor finalis (James Coleman kòm Ren McCormack), Best Supporting Actor finalis (Sloan Pettus kòm Willard Hewitt), Best Supporting Actress finalis (Charlotte Scott kòm Rusty), Best Featured Performer finalis (Titus Teague kòm Garvin) ak yon nominе Best Choreography Execution (pwodiksyon)."
+    },
+    {
+      "text": "Seven placements, no win: Best Featured Performer nominees Sasha Mashchenko (Ballet Lead) and Caeden Moore (Vlad); Best Actor finalists Dylan Wilson (Dmitry) and Anna Jernigan (Lily); Best Supporting Actor finalists Caeden Moore (Vlad) and Karleigh Robin (Dowager Empress); and a Best Featured Performer finalist, Sasha Mashchenko (Ballet Lead). Jernigan appears under \"Finalists for Best Actor\" verbatim in Blumenthal's official PDF — a likely labeling quirk (she played Lily); TO VERIFY.",
+      "of": "80a560e0",
+      "at": [
+        "carmel-christian:theatre.ledger[1].result"
+      ],
+      "t": "Sèt plasman, pa gen viktwa: Best Featured Performer nominе Sasha Mashchenko (Ballet Lead) ak Caeden Moore (Vlad); Best Actor finalis Dylan Wilson (Dmitry) ak Anna Jernigan (Lily); Best Supporting Actor finalis Caeden Moore (Vlad) ak Karleigh Robin (Dowager Empress); ak yon Best Featured Performer finalis, Sasha Mashchenko (Ballet Lead). Jernigan parèt anba \"Finalists for Best Actor\" mo pou mo nan PDF ofisyèl Blumenthal la — yon pwobab kwak nan etikèt (li te jwe Lily); TO VERIFY."
+    },
+    {
+      "text": "Two nominations per the school’s undated news page: Best Actress (Darien Pisacano) and Best Actor (Dylan Wilson). Attributed by the school to \"Singin' in the Rain,\" an earlier production than Anastasia; the exact year is not published and is TO VERIFY.",
+      "of": "bf3c961b",
+      "at": [
+        "carmel-christian:theatre.ledger[2].result"
+      ],
+      "t": "De nominasyon dapre paj nouvèl san dat lekòl la: Best Actress (Darien Pisacano) ak Best Actor (Dylan Wilson). Atribye pa lekòl la a \"Singin' in the Rain,\" yon pwodiksyon pi bonè pase Anastasia; ane egzak la pa pibliye epi li TO VERIFY."
+    },
+    {
+      "text": "Anna Jernigan’s arc anchors the program: a 2024 Best Actor finalist placement (as Lily in Anastasia, per Blumenthal’s own labeling) became the 2026 Best Actress win for Footloose, which carried on to the national Jimmy Awards. Note that the 2024 nominations belong to Anastasia, not to \"Singin' in the Rain\" — the school’s undated news page pins a separate, earlier pair of noms (Pisacano, Wilson) to that different production. No NCTC festival result or state-level theatre honor was found in this pass; the Middle School Spring Play Competition names the NCTC circuit but no placement is published.",
+      "of": "d2e2e05e",
+      "at": [
+        "carmel-christian:theatre.honestContext"
+      ],
+      "t": "Ak Anna Jernigan ankre pwogram nan: yon plasman Best Actor finalis 2024 (kòm Lily nan Anastasia, dapre pwòp etikèt Blumenthal la) te vin viktwa Best Actress 2026 pou Footloose, ki te kontinye nan Jimmy Awards nasyonal yo. Note ke nominasyon 2024 yo apatni a Anastasia, se pa a \"Singin' in the Rain\" — paj nouvèl san dat lekòl la kole yon lòt pè nominasyon apa, pi bonè (Pisacano, Wilson) sou pwodiksyon diferan sa a. Pa gen okenn rezilta festival NCTC oswa onè teyat nan nivo leta ki jwenn nan pas sa a; Spring Play Competition Middle School la nonmen sikwi NCTC a men pa gen okenn plasman ki pibliye."
+    },
+    {
+      "text": "Three named ensembles across the divisions — Symphonic Band, Choir and the audition-based Ignite Band praise team.",
+      "of": "594b5b4b",
+      "at": [
+        "carmel-christian:music.headline"
+      ],
+      "t": "Twa ansanm ki gen non atravè divizyon yo — Symphonic Band, Choir ak Ignite Band, ekip louwanj ki baze sou odisyon an."
+    },
+    {
+      "text": "The ensemble slate is band- and choir-centered; no orchestra, a cappella group or music honor society is published.",
+      "of": "d28469fa",
+      "at": [
+        "carmel-christian:music.subhead"
+      ],
+      "t": "Seri ansanm nan konsantre sou band ak choir; pa gen okenn òkès, gwoup a cappella oswa sosyete onè mizik ki pibliye."
+    },
+    {
+      "text": "Middle School worship",
+      "of": "8af52fd2",
+      "at": [
+        "carmel-christian:music.tracks[2].label"
+      ],
+      "t": "Adorasyon Middle School"
+    },
+    {
+      "text": "Ignite Band, the High School praise team, is audition-based — a video submission followed by an in-person round by invitation. No orchestra, a cappella group or Tri-M / music honor society is published.",
+      "of": "fe857902",
+      "at": [
+        "carmel-christian:music.boardNote"
+      ],
+      "t": "Ignite Band, ekip louwanj High School la, baze sou odisyon — yon soumisyon videyo swiv pa yon wonn an pèsòn pa envitasyon. Pa gen okenn òkès, gwoup a cappella oswa sosyete onè mizik Tri-M ki pibliye."
+    },
+    {
+      "text": "The honors ladder — what is published",
+      "of": "b7b34683",
+      "at": [
+        "carmel-christian:music.ladderTitle"
+      ],
+      "t": "Nechèl onè a — sa ki pibliye"
+    },
+    {
+      "text": "band and choir run from grade 5 through High School, with Christmas and Spring Concerts on the Middle School calendar.",
+      "of": "d4725a2c",
+      "at": [
+        "carmel-christian:music.ladder[0].text"
+      ],
+      "t": "band ak choir mache depi klas 5 rive High School, ak Konsè Nwèl ak Prentan sou kalandriye Middle School la."
+    },
+    {
+      "text": "Ignite Band (HS Praise Band) holds an audition — a video round followed by an in-person round by invitation.",
+      "of": "c720bd78",
+      "at": [
+        "carmel-christian:music.ladder[1].text"
+      ],
+      "t": "Ignite Band (HS Praise Band) fè yon odisyon — yon wonn videyo swiv pa yon wonn an pèsòn pa envitasyon."
+    },
+    {
+      "text": "the Middle School program lists an \"Honor Band\" event; no all-state, adjudication or festival result is published, and a mentioned \"Carowinds Festival of Music\" did not surface in this pass (TO VERIFY).",
+      "of": "b9f9df1f",
+      "at": [
+        "carmel-christian:music.ladder[2].text"
+      ],
+      "t": "pwogram Middle School la liste yon evènman \"Honor Band\"; pa gen okenn rezilta all-state, jijman oswa festival ki pibliye, epi yon \"Carowinds Festival of Music\" ki mansyone pa t parèt nan pas sa a (TO VERIFY)."
+    },
+    {
+      "text": "No music honor society (e.g. Tri-M) and no per-year selection or superior-rating counts are published. The honors picture beyond the Middle School Honor Band event is not documented.",
+      "of": "e4b12ba7",
+      "at": [
+        "carmel-christian:music.ladderNote"
+      ],
+      "t": "Pa gen okenn sosyete onè mizik (pa egzanp Tri-M) ak pa gen okenn kont seleksyon oswa nòt siperyè pa ane ki pibliye. Foto onè a depase evènman Honor Band Middle School la pa dokimante."
+    },
+    {
+      "text": "A studio track that widens into media and publications in High School — visual arts, digital photography, yearbook, creative writing and journalism.",
+      "of": "04dd2270",
+      "at": [
+        "carmel-christian:visual.headline"
+      ],
+      "t": "Yon pist studio ki elaji nan medya ak piblikasyon nan High School — atizay vizyèl, fotografi dijital, yearbook, ekri kreyatif ak jounalis."
+    },
+    {
+      "text": "The arts page names no leveled studio sequence, but the Course Offerings guide does: a path from Art I/II up to AP 2-D Art & Design.",
+      "of": "3627ce55",
+      "at": [
+        "carmel-christian:visual.subhead"
+      ],
+      "t": "Paj atizay la pa nonmen okenn sekans studio ak nivo, men gid Course Offerings la wi: yon chemen depi Art I/II rive AP 2-D Art & Design."
+    },
+    {
+      "text": "Studio & media",
+      "of": "5fdec809",
+      "at": [
+        "carmel-christian:visual.mediaTitle"
+      ],
+      "t": "Studio & medya"
+    },
+    {
+      "text": "the core studio strand, K–12",
+      "of": "6db4515c",
+      "at": [
+        "carmel-christian:visual.media[0].detail"
+      ],
+      "t": "branch studio debaz la, K–12"
+    },
+    {
+      "text": "a discrete High School course",
+      "of": "db6b977c",
+      "at": [
+        "carmel-christian:visual.media[1].detail"
+      ],
+      "t": "yon kou High School distenk"
+    },
+    {
+      "text": "publication design",
+      "of": "a4e1d4c5",
+      "at": [
+        "carmel-christian:visual.media[2].detail"
+      ],
+      "t": "design piblikasyon"
+    },
+    {
+      "text": "a High School arts elective",
+      "of": "a9b384c1",
+      "at": [
+        "carmel-christian:visual.media[3].detail",
+        "carmel-christian:visual.media[4].detail"
+      ],
+      "t": "yon elektif atizay High School"
+    },
+    {
+      "text": "This sequence comes from the Course Offerings guide, not the arts page — the two disagree, and the arts page names no leveled sequence at all. Graphic design as a discrete course is not published (TO VERIFY).",
+      "of": "229ebbc1",
+      "at": [
+        "carmel-christian:visual.pathNote"
+      ],
+      "t": "Sekans sa a soti nan gid Course Offerings la, se pa paj atizay la — de yo pa dakò, epi paj atizay la pa nonmen okenn sekans ak nivo ditou. Graphic design kòm yon kou distenk pa pibliye (TO VERIFY)."
+    },
+    {
+      "text": "the one named exhibit event on the arts calendar",
+      "of": "d9001e3a",
+      "at": [
+        "carmel-christian:visual.exhibits[0].detail"
+      ],
+      "t": "sèl evènman ekspozisyon ki gen non sou kalandriye atizay la"
+    },
+    {
+      "text": "High School gallery or exhibit events beyond the Middle School Art Festival are not published, and no external visual-arts recognition (Scholastic or otherwise) surfaced in this pass. The Honors and AP studio courses appear only in the Course Offerings guide, which the arts page does not corroborate.",
+      "of": "cb28c06a",
+      "at": [
+        "carmel-christian:visual.footnote"
+      ],
+      "t": "Evènman galri oswa ekspozisyon High School depase Art Festival Middle School la pa pibliye, epi pa gen okenn rekonesans atizay vizyèl ekstèn (Scholastic oswa lòt) ki parèt nan pas sa a. Kou studio Honors ak AP yo parèt sèlman nan gid Course Offerings la, ke paj atizay la pa korobore."
+    },
+    {
+      "text": "A theatre program with a genuine, recently converted Blumey win, sitting on a leaner music and visual-arts footprint than its regional peers.",
+      "of": "df393023",
+      "at": [
+        "carmel-christian:verdict.headline"
+      ],
+      "t": "Yon pwogram teyat ak yon vrè viktwa Blumey ki fèk konvèti, ki chita sou yon anpreyent mizik ak atizay vizyèl ki pi mens pase parèy rejyonal li yo."
+    },
+    {
+      "text": "The 2026 Best Actress win and its Jimmy Awards advancement are the real, verified headline; the open questions are about the undocumented venue, director and honors circuits.",
+      "of": "64550676",
+      "at": [
+        "carmel-christian:verdict.subhead"
+      ],
+      "t": "Viktwa Best Actress 2026 la ak avansman Jimmy Awards li a se vrè tit ki verifye a; kesyon ki louvri yo se sou lye, direktè ak sikwi onè ki pa dokimante."
+    },
+    {
+      "text": "A verified Blumey win — not just finalists",
+      "of": "704ba098",
+      "at": [
+        "carmel-christian:verdict.holdsUp[0].label"
+      ],
+      "t": "Yon viktwa Blumey verifye — se pa jis finalis"
+    },
+    {
+      "text": "Anna Jernigan took Best Actress for \"Footloose\" at the 2026 Blumey Awards (confirmed by WFAE) and advanced to the national Jimmy Awards — an outright win, converted from her 2024 finalist placement.",
+      "of": "2753919c",
+      "at": [
+        "carmel-christian:verdict.holdsUp[0].text"
+      ],
+      "t": "Anna Jernigan pran Best Actress pou \"Footloose\" nan Blumey Awards 2026 la (konfime pa WFAE) epi li avanse nan Jimmy Awards nasyonal yo — yon viktwa nèt, konvèti soti nan plasman finalis 2024 li a."
+    },
+    {
+      "text": "Depth behind the win",
+      "of": "46a38e1f",
+      "at": [
+        "carmel-christian:verdict.holdsUp[1].label"
+      ],
+      "t": "Pwofondè dèyè viktwa a"
+    },
+    {
+      "text": "the 2026 \"Footloose\" run placed six across five categories (actress, actor, both supporting, featured performer and choreography), and \"Anastasia\" placed seven in 2024 — a repeat producer of acting finalists, not a one-off.",
+      "of": "6cb4dc1f",
+      "at": [
+        "carmel-christian:verdict.holdsUp[1].text"
+      ],
+      "t": "kous \"Footloose\" 2026 la plase sis atravè senk kategori (aktris, aktè, tou de sipò, featured performer ak koreyografi), epi \"Anastasia\" plase sèt an 2024 — yon pwodiktè finalis aktè repete, se pa yon sèl fwa."
+    },
+    {
+      "text": "A studio path that reaches AP",
+      "of": "4e563df6",
+      "at": [
+        "carmel-christian:verdict.holdsUp[2].label"
+      ],
+      "t": "Yon pist studio ki rive nan AP"
+    },
+    {
+      "text": "the Course Offerings guide runs Art I/II → Honors Art III/IV → AP 2-D Art & Design, plus a media-and-publications cluster (digital photography, yearbook, creative writing, journalism) in High School.",
+      "of": "5bdf3ffc",
+      "at": [
+        "carmel-christian:verdict.holdsUp[2].text"
+      ],
+      "t": "gid Course Offerings la mache Art I/II → Honors Art III/IV → AP 2-D Art & Design, plis yon gwoup medya-e-piblikasyon (fotografi dijital, yearbook, ekri kreyatif, jounalis) nan High School."
+    },
+    {
+      "text": "A faith-based theatre circuit",
+      "of": "f5f77f32",
+      "at": [
+        "carmel-christian:verdict.holdsUp[3].label"
+      ],
+      "t": "Yon sikwi teyat ki baze sou lafwa"
+    },
+    {
+      "text": "Middle School students attend the Christians in Theatre Arts (CITA) Conference and enter the NCTC Spring Play Competition — an early on-ramp to competitive and community theatre.",
+      "of": "a0a6cf22",
+      "at": [
+        "carmel-christian:verdict.holdsUp[3].text"
+      ],
+      "t": "Elèv Middle School yo asiste Konferans Christians in Theatre Arts (CITA) a epi yo antre nan NCTC Spring Play Competition — yon premye antre nan teyat konpetitif ak kominotè."
+    },
+    {
+      "text": "Where do productions like \"Footloose\" actually stage — what is the venue, and how many seats? The site names a \"Main Stage\" but no room.",
+      "of": "edaebf1f",
+      "at": [
+        "carmel-christian:verdict.ask[0]"
+      ],
+      "t": "Ki kote pwodiksyon tankou \"Footloose\" vrèman monte — ki lye a, epi konbyen plas? Sit la nonmen yon \"Main Stage\" men pa gen okenn sal."
+    },
+    {
+      "text": "Who directs the Upper School musical, and who ran the 2026 Blumey-winning \"Footloose\"? No director is published.",
+      "of": "4455cb8c",
+      "at": [
+        "carmel-christian:verdict.ask[1]"
+      ],
+      "t": "Kiyès ki dirije mizikal Upper School la, epi kiyès ki mennen \"Footloose\" ki genyen Blumey 2026 la? Pa gen okenn direktè ki pibliye."
+    },
+    {
+      "text": "The Course Offerings guide lists Honors Art III/IV, Honors Acting Studio and AP 2-D Art & Design, but the arts page names none of them — which of these actually runs each year?",
+      "of": "1085a35a",
+      "at": [
+        "carmel-christian:verdict.ask[2]"
+      ],
+      "t": "Gid Course Offerings la liste Honors Art III/IV, Honors Acting Studio ak AP 2-D Art & Design, men paj atizay la pa nonmen okenn nan yo — kilès nan sa yo vrèman mache chak ane?"
+    },
+    {
+      "text": "Is there any music beyond band, choir and the Ignite praise teams — an orchestra, a strings program, or an a cappella group?",
+      "of": "6279455d",
+      "at": [
+        "carmel-christian:verdict.ask[3]"
+      ],
+      "t": "Èske gen okenn mizik depase band, choir ak ekip louwanj Ignite yo — yon òkès, yon pwogram kòd, oswa yon gwoup a cappella?"
+    },
+    {
+      "text": "What happens at the Middle School \"Honor Band\" event, and do students audition into any all-state or regional honors ensemble from there?",
+      "of": "ec980e55",
+      "at": [
+        "carmel-christian:verdict.ask[4]"
+      ],
+      "t": "Kisa ki pase nan evènman \"Honor Band\" Middle School la, epi èske elèv yo fè odisyon nan nenpòt ansanm onè all-state oswa rejyonal apati la?"
+    },
+    {
+      "text": "Was the \"Singin' in the Rain\" Blumey pair (Pisacano, Wilson) a separate year from the 2024 \"Anastasia\" nominations — and what year was it?",
+      "of": "d5b276fe",
+      "at": [
+        "carmel-christian:verdict.ask[5]"
+      ],
+      "t": "Èske pè Blumey \"Singin' in the Rain\" la (Pisacano, Wilson) te yon ane apa de nominasyon \"Anastasia\" 2024 yo — epi ki ane li te ye?"
     }
   ]
 }

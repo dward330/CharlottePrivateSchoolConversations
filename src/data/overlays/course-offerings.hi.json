@@ -19,7 +19,8 @@
         "charlotte-christian:divisions[0].title",
         "charlotte-country-day:divisions[0].title",
         "cannon:divisions[0].title",
-        "davidson-day:divisions[0].title"
+        "davidson-day:divisions[0].title",
+        "carmel-christian:divisions[2].title"
       ]
     },
     {
@@ -48,7 +49,8 @@
       "t": "मुख्य पाठ्यक्रम",
       "of": "a056ff15",
       "at": [
-        "providence-day:divisions[0].departments[0].name"
+        "providence-day:divisions[0].departments[0].name",
+        "carmel-christian:divisions[2].departments[0].name"
       ]
     },
     {
@@ -56,7 +58,9 @@
       "of": "5569c3af",
       "at": [
         "providence-day:divisions[0].departments[0].courses[0].title",
-        "charlotte-christian:divisions[0].departments[1].courses[2].title"
+        "charlotte-christian:divisions[0].departments[1].courses[2].title",
+        "carmel-christian:divisions[1].departments[2].name",
+        "carmel-christian:divisions[2].departments[0].courses[1].title"
       ]
     },
     {
@@ -100,7 +104,9 @@
       "of": "722769af",
       "at": [
         "providence-day:divisions[0].departments[0].courses[1].title",
-        "cannon:divisions[0].departments[0].courses[0].title"
+        "cannon:divisions[0].departments[0].courses[0].title",
+        "carmel-christian:divisions[1].departments[1].name",
+        "carmel-christian:divisions[2].departments[0].courses[2].title"
       ]
     },
     {
@@ -131,7 +137,10 @@
         "cannon:divisions[1].departments[0].courses[1].title",
         "cannon:divisions[2].departments[2].name",
         "covenant-day:divisions[0].departments[2].name",
-        "davidson-day:divisions[2].departments[3].name"
+        "davidson-day:divisions[2].departments[3].name",
+        "carmel-christian:divisions[0].departments[3].name",
+        "carmel-christian:divisions[1].departments[4].name",
+        "carmel-christian:divisions[2].departments[0].courses[3].title"
       ]
     },
     {
@@ -155,7 +164,10 @@
         "cannon:divisions[0].departments[0].courses[3].title",
         "cannon:divisions[1].departments[0].courses[2].title",
         "cannon:divisions[2].departments[3].name",
-        "covenant-day:divisions[0].departments[3].name"
+        "covenant-day:divisions[0].departments[3].name",
+        "carmel-christian:divisions[0].departments[4].name",
+        "carmel-christian:divisions[1].departments[5].name",
+        "carmel-christian:divisions[2].departments[0].courses[4].title"
       ]
     },
     {
@@ -233,7 +245,8 @@
         "providence-day:divisions[0].departments[2].courses[0].title",
         "charlotte-latin:divisions[0].departments[2].courses[1].title",
         "charlotte-christian:divisions[0].departments[2].courses[0].title",
-        "cannon:divisions[0].departments[2].courses[0].title"
+        "cannon:divisions[0].departments[2].courses[0].title",
+        "carmel-christian:divisions[2].departments[1].courses[0].title"
       ]
     },
     {
@@ -250,7 +263,8 @@
         "providence-day:divisions[0].departments[2].courses[1].title",
         "charlotte-latin:divisions[0].departments[2].courses[0].title",
         "charlotte-christian:divisions[0].departments[2].courses[1].title",
-        "cannon:divisions[0].departments[2].courses[1].title"
+        "cannon:divisions[0].departments[2].courses[1].title",
+        "carmel-christian:divisions[2].departments[1].courses[3].title"
       ]
     },
     {
@@ -303,7 +317,10 @@
         "cannon:divisions[0].departments[2].courses[2].title",
         "cannon:divisions[1].departments[0].courses[3].title",
         "cannon:divisions[2].departments[7].name",
-        "davidson-day:divisions[2].departments[7].name"
+        "davidson-day:divisions[2].departments[7].name",
+        "carmel-christian:divisions[0].departments[6].courses[1].title",
+        "carmel-christian:divisions[1].departments[6].courses[0].title",
+        "carmel-christian:divisions[2].departments[1].courses[4].title"
       ]
     },
     {
@@ -394,7 +411,8 @@
         "charlotte-christian:divisions[1].title",
         "charlotte-country-day:divisions[1].title",
         "cannon:divisions[1].title",
-        "davidson-day:divisions[1].title"
+        "davidson-day:divisions[1].title",
+        "carmel-christian:divisions[1].title"
       ]
     },
     {
@@ -427,7 +445,8 @@
         "cannon:divisions[1].departments[0].courses[0].title",
         "cannon:divisions[2].departments[0].name",
         "covenant-day:divisions[0].departments[0].name",
-        "davidson-day:divisions[2].departments[0].name"
+        "davidson-day:divisions[2].departments[0].name",
+        "carmel-christian:divisions[0].departments[1].name"
       ]
     },
     {
@@ -468,7 +487,18 @@
         "charlotte-country-day:divisions[1].departments[5].courses[6].tag",
         "cannon:divisions[1].departments[2].courses[1].tag",
         "davidson-day:divisions[1].departments[0].courses[2].tag",
-        "davidson-day:divisions[1].departments[0].courses[4].tag"
+        "davidson-day:divisions[1].departments[0].courses[4].tag",
+        "carmel-christian:divisions[1].departments[0].courses[0].tag",
+        "carmel-christian:divisions[1].departments[1].courses[0].tag",
+        "carmel-christian:divisions[1].departments[2].courses[0].tag",
+        "carmel-christian:divisions[1].departments[3].courses[0].tag",
+        "carmel-christian:divisions[1].departments[4].courses[0].tag",
+        "carmel-christian:divisions[1].departments[5].courses[0].tag",
+        "carmel-christian:divisions[1].departments[7].courses[0].tag",
+        "carmel-christian:divisions[1].departments[7].courses[6].tag",
+        "carmel-christian:divisions[1].departments[8].courses[0].tag",
+        "carmel-christian:divisions[1].departments[8].courses[1].tag",
+        "carmel-christian:divisions[1].departments[8].courses[2].tag"
       ]
     },
     {
@@ -510,7 +540,13 @@
         "charlotte-country-day:divisions[1].departments[1].courses[3].tag",
         "charlotte-country-day:divisions[1].departments[2].courses[2].tag",
         "charlotte-country-day:divisions[1].departments[5].courses[3].tag",
-        "davidson-day:divisions[1].departments[0].courses[5].tag"
+        "davidson-day:divisions[1].departments[0].courses[5].tag",
+        "carmel-christian:divisions[1].departments[0].courses[1].tag",
+        "carmel-christian:divisions[1].departments[1].courses[1].tag",
+        "carmel-christian:divisions[1].departments[2].courses[2].tag",
+        "carmel-christian:divisions[1].departments[3].courses[1].tag",
+        "carmel-christian:divisions[1].departments[4].courses[1].tag",
+        "carmel-christian:divisions[1].departments[5].courses[1].tag"
       ]
     },
     {
@@ -558,7 +594,12 @@
         "charlotte-country-day:divisions[1].departments[2].courses[3].tag",
         "charlotte-country-day:divisions[1].departments[5].courses[4].tag",
         "cannon:divisions[1].departments[1].courses[3].tag",
-        "davidson-day:divisions[1].departments[0].courses[7].tag"
+        "davidson-day:divisions[1].departments[0].courses[7].tag",
+        "carmel-christian:divisions[1].departments[0].courses[2].tag",
+        "carmel-christian:divisions[1].departments[1].courses[2].tag",
+        "carmel-christian:divisions[1].departments[3].courses[2].tag",
+        "carmel-christian:divisions[1].departments[4].courses[2].tag",
+        "carmel-christian:divisions[1].departments[5].courses[2].tag"
       ]
     },
     {
@@ -765,7 +806,18 @@
         "cannon:divisions[1].departments[2].courses[2].tag",
         "cannon:divisions[1].departments[3].courses[2].tag",
         "davidson-day:divisions[1].departments[0].courses[6].tag",
-        "davidson-day:divisions[1].departments[1].courses[1].tag"
+        "davidson-day:divisions[1].departments[1].courses[1].tag",
+        "carmel-christian:divisions[1].departments[2].courses[3].tag",
+        "carmel-christian:divisions[1].departments[6].courses[1].tag",
+        "carmel-christian:divisions[1].departments[7].courses[1].tag",
+        "carmel-christian:divisions[1].departments[7].courses[5].tag",
+        "carmel-christian:divisions[1].departments[7].courses[7].tag",
+        "carmel-christian:divisions[1].departments[7].courses[9].tag",
+        "carmel-christian:divisions[1].departments[8].courses[5].tag",
+        "carmel-christian:divisions[1].departments[8].courses[6].tag",
+        "carmel-christian:divisions[1].departments[8].courses[7].tag",
+        "carmel-christian:divisions[1].departments[8].courses[8].tag",
+        "carmel-christian:divisions[1].departments[8].courses[9].tag"
       ]
     },
     {
@@ -795,7 +847,8 @@
         "cannon:divisions[2].departments[1].name",
         "covenant-day:divisions[0].departments[1].name",
         "davidson-day:divisions[1].departments[0].name",
-        "davidson-day:divisions[2].departments[1].name"
+        "davidson-day:divisions[2].departments[1].name",
+        "carmel-christian:divisions[0].departments[2].name"
       ]
     },
     {
@@ -816,7 +869,8 @@
       "t": "Math 7",
       "of": "3db1701e",
       "at": [
-        "providence-day:divisions[1].departments[1].courses[1].title"
+        "providence-day:divisions[1].departments[1].courses[1].title",
+        "carmel-christian:divisions[1].departments[2].courses[2].title"
       ]
     },
     {
@@ -1184,7 +1238,14 @@
         "providence-day:divisions[1].departments[5].courses[4].tag",
         "providence-day:divisions[1].departments[5].courses[5].tag",
         "providence-day:divisions[1].departments[5].courses[6].tag",
-        "providence-day:divisions[1].departments[6].courses[11].tag"
+        "providence-day:divisions[1].departments[6].courses[11].tag",
+        "carmel-christian:divisions[1].departments[6].courses[0].tag",
+        "carmel-christian:divisions[1].departments[7].courses[2].tag",
+        "carmel-christian:divisions[1].departments[7].courses[3].tag",
+        "carmel-christian:divisions[1].departments[7].courses[4].tag",
+        "carmel-christian:divisions[1].departments[7].courses[8].tag",
+        "carmel-christian:divisions[1].departments[8].courses[3].tag",
+        "carmel-christian:divisions[1].departments[8].courses[4].tag"
       ]
     },
     {
@@ -1796,7 +1857,8 @@
       "at": [
         "providence-day:divisions[2].departments[0].courses[3].title",
         "charlotte-christian:divisions[2].departments[1].courses[12].title",
-        "charlotte-country-day:divisions[2].departments[0].courses[8].title"
+        "charlotte-country-day:divisions[2].departments[0].courses[8].title",
+        "carmel-christian:divisions[1].departments[8].courses[7].title"
       ]
     },
     {
@@ -2093,7 +2155,23 @@
         "davidson-day:divisions[2].departments[6].courses[1].tag",
         "davidson-day:divisions[2].departments[6].courses[2].tag",
         "davidson-day:divisions[2].departments[8].courses[1].tag",
-        "davidson-day:divisions[2].departments[8].courses[3].tag"
+        "davidson-day:divisions[2].departments[8].courses[3].tag",
+        "carmel-christian:divisions[0].departments[1].courses[12].tag",
+        "carmel-christian:divisions[0].departments[1].courses[13].tag",
+        "carmel-christian:divisions[0].departments[2].courses[8].tag",
+        "carmel-christian:divisions[0].departments[2].courses[11].tag",
+        "carmel-christian:divisions[0].departments[2].courses[12].tag",
+        "carmel-christian:divisions[0].departments[3].courses[13].tag",
+        "carmel-christian:divisions[0].departments[3].courses[14].tag",
+        "carmel-christian:divisions[0].departments[4].courses[9].tag",
+        "carmel-christian:divisions[0].departments[4].courses[10].tag",
+        "carmel-christian:divisions[0].departments[4].courses[11].tag",
+        "carmel-christian:divisions[0].departments[4].courses[12].tag",
+        "carmel-christian:divisions[0].departments[4].courses[13].tag",
+        "carmel-christian:divisions[0].departments[5].courses[6].tag",
+        "carmel-christian:divisions[0].departments[7].courses[4].tag",
+        "carmel-christian:divisions[0].departments[8].courses[6].tag",
+        "carmel-christian:divisions[0].departments[8].courses[7].tag"
       ]
     },
     {
@@ -2152,7 +2230,9 @@
       "of": "64b858bb",
       "at": [
         "providence-day:divisions[2].departments[1].courses[1].title",
-        "covenant-day:divisions[0].departments[3].courses[0].title"
+        "covenant-day:divisions[0].departments[3].courses[0].title",
+        "carmel-christian:divisions[0].departments[4].courses[0].title",
+        "carmel-christian:divisions[0].departments[4].courses[1].title"
       ]
     },
     {
@@ -2245,7 +2325,8 @@
       "of": "0899a9cf",
       "at": [
         "providence-day:divisions[2].departments[1].courses[7].title",
-        "charlotte-country-day:divisions[2].departments[3].courses[9].title"
+        "charlotte-country-day:divisions[2].departments[3].courses[9].title",
+        "carmel-christian:divisions[0].departments[4].courses[11].title"
       ]
     },
     {
@@ -2292,7 +2373,8 @@
         "providence-day:divisions[2].departments[1].courses[10].title",
         "charlotte-country-day:divisions[2].departments[3].courses[7].title",
         "covenant-day:divisions[0].departments[3].courses[10].title",
-        "davidson-day:divisions[2].departments[2].courses[9].title"
+        "davidson-day:divisions[2].departments[2].courses[9].title",
+        "carmel-christian:divisions[0].departments[4].courses[12].title"
       ]
     },
     {
@@ -2500,7 +2582,8 @@
         "charlotte-country-day:divisions[1].departments[0].courses[8].title",
         "charlotte-country-day:divisions[2].departments[1].courses[1].title",
         "covenant-day:divisions[0].departments[1].courses[1].title",
-        "davidson-day:divisions[2].departments[1].courses[2].title"
+        "davidson-day:divisions[2].departments[1].courses[2].title",
+        "carmel-christian:divisions[0].departments[2].courses[2].title"
       ]
     },
     {
@@ -2545,7 +2628,10 @@
         "providence-day:divisions[2].departments[2].courses[4].title",
         "charlotte-christian:divisions[2].departments[2].courses[3].title",
         "charlotte-country-day:divisions[2].departments[1].courses[3].title",
-        "davidson-day:divisions[2].departments[1].courses[4].title"
+        "davidson-day:divisions[2].departments[1].courses[4].title",
+        "carmel-christian:divisions[0].departments[2].courses[3].title",
+        "carmel-christian:divisions[0].departments[2].courses[4].title",
+        "carmel-christian:divisions[0].departments[2].courses[5].title"
       ]
     },
     {
@@ -2662,7 +2748,8 @@
         "providence-day:divisions[2].departments[2].courses[12].title",
         "charlotte-country-day:divisions[2].departments[1].courses[13].title",
         "covenant-day:divisions[0].departments[1].courses[10].title",
-        "davidson-day:divisions[2].departments[1].courses[9].title"
+        "davidson-day:divisions[2].departments[1].courses[9].title",
+        "carmel-christian:divisions[0].departments[2].courses[11].title"
       ]
     },
     {
@@ -2695,7 +2782,8 @@
         "providence-day:divisions[2].departments[2].courses[14].title",
         "charlotte-country-day:divisions[2].departments[1].courses[11].title",
         "covenant-day:divisions[0].departments[1].courses[11].title",
-        "davidson-day:divisions[2].departments[1].courses[12].title"
+        "davidson-day:divisions[2].departments[1].courses[12].title",
+        "carmel-christian:divisions[0].departments[2].courses[12].title"
       ]
     },
     {
@@ -3006,7 +3094,8 @@
         "providence-day:divisions[2].departments[3].courses[15].title",
         "charlotte-country-day:divisions[2].departments[2].courses[2].title",
         "covenant-day:divisions[0].departments[2].courses[8].title",
-        "davidson-day:divisions[2].departments[3].courses[9].title"
+        "davidson-day:divisions[2].departments[3].courses[9].title",
+        "carmel-christian:divisions[0].departments[3].courses[13].title"
       ]
     },
     {
@@ -3040,7 +3129,8 @@
         "providence-day:divisions[2].departments[3].courses[17].title",
         "charlotte-country-day:divisions[2].departments[2].courses[5].title",
         "covenant-day:divisions[0].departments[2].courses[10].title",
-        "davidson-day:divisions[2].departments[3].courses[10].title"
+        "davidson-day:divisions[2].departments[3].courses[10].title",
+        "carmel-christian:divisions[0].departments[3].courses[14].title"
       ]
     },
     {
@@ -3655,7 +3745,8 @@
         "providence-day:divisions[2].departments[7].courses[8].title",
         "charlotte-latin:divisions[2].departments[7].courses[6].title",
         "charlotte-country-day:divisions[2].departments[5].courses[26].title",
-        "covenant-day:divisions[0].departments[6].courses[13].title"
+        "covenant-day:divisions[0].departments[6].courses[13].title",
+        "carmel-christian:divisions[0].departments[7].courses[14].title"
       ]
     },
     {
@@ -4036,7 +4127,35 @@
         "davidson-day:divisions[2].departments[5].courses[4].tag",
         "davidson-day:divisions[2].departments[8].courses[0].tag",
         "davidson-day:divisions[2].departments[8].courses[2].tag",
-        "davidson-day:divisions[2].departments[8].courses[7].tag"
+        "davidson-day:divisions[2].departments[8].courses[7].tag",
+        "carmel-christian:divisions[0].departments[1].courses[2].tag",
+        "carmel-christian:divisions[0].departments[1].courses[5].tag",
+        "carmel-christian:divisions[0].departments[1].courses[8].tag",
+        "carmel-christian:divisions[0].departments[1].courses[11].tag",
+        "carmel-christian:divisions[0].departments[2].courses[2].tag",
+        "carmel-christian:divisions[0].departments[2].courses[5].tag",
+        "carmel-christian:divisions[0].departments[2].courses[7].tag",
+        "carmel-christian:divisions[0].departments[2].courses[10].tag",
+        "carmel-christian:divisions[0].departments[3].courses[1].tag",
+        "carmel-christian:divisions[0].departments[3].courses[2].tag",
+        "carmel-christian:divisions[0].departments[3].courses[4].tag",
+        "carmel-christian:divisions[0].departments[3].courses[5].tag",
+        "carmel-christian:divisions[0].departments[3].courses[7].tag",
+        "carmel-christian:divisions[0].departments[3].courses[9].tag",
+        "carmel-christian:divisions[0].departments[3].courses[12].tag",
+        "carmel-christian:divisions[0].departments[4].courses[1].tag",
+        "carmel-christian:divisions[0].departments[4].courses[3].tag",
+        "carmel-christian:divisions[0].departments[4].courses[5].tag",
+        "carmel-christian:divisions[0].departments[5].courses[2].tag",
+        "carmel-christian:divisions[0].departments[5].courses[4].tag",
+        "carmel-christian:divisions[0].departments[5].courses[5].tag",
+        "carmel-christian:divisions[0].departments[7].courses[2].tag",
+        "carmel-christian:divisions[0].departments[7].courses[3].tag",
+        "carmel-christian:divisions[0].departments[7].courses[9].tag",
+        "carmel-christian:divisions[1].departments[1].courses[3].tag",
+        "carmel-christian:divisions[1].departments[2].courses[1].tag",
+        "carmel-christian:divisions[1].departments[2].courses[4].tag",
+        "carmel-christian:divisions[1].departments[2].courses[5].tag"
       ]
     },
     {
@@ -4357,7 +4476,9 @@
         "charlotte-latin:divisions[0].departments[1].courses[0].title",
         "charlotte-christian:divisions[0].departments[2].courses[4].title",
         "charlotte-country-day:divisions[1].departments[3].courses[0].title",
-        "cannon:divisions[0].departments[1].courses[0].title"
+        "cannon:divisions[0].departments[1].courses[0].title",
+        "carmel-christian:divisions[1].departments[3].name",
+        "carmel-christian:divisions[2].departments[1].courses[1].title"
       ]
     },
     {
@@ -4510,7 +4631,8 @@
       "t": "Math 6",
       "of": "3eb171b1",
       "at": [
-        "charlotte-latin:divisions[1].departments[2].courses[0].title"
+        "charlotte-latin:divisions[1].departments[2].courses[0].title",
+        "carmel-christian:divisions[1].departments[2].courses[0].title"
       ]
     },
     {
@@ -4526,7 +4648,8 @@
       "at": [
         "charlotte-latin:divisions[1].departments[2].courses[1].title",
         "charlotte-country-day:divisions[1].departments[0].courses[3].title",
-        "cannon:divisions[1].departments[1].courses[1].title"
+        "cannon:divisions[1].departments[1].courses[1].title",
+        "carmel-christian:divisions[1].departments[2].courses[3].title"
       ]
     },
     {
@@ -4609,7 +4732,8 @@
         "charlotte-christian:divisions[2].departments[5].name",
         "cannon:divisions[1].departments[2].name",
         "cannon:divisions[2].departments[4].name",
-        "davidson-day:divisions[2].departments[4].name"
+        "davidson-day:divisions[2].departments[4].name",
+        "carmel-christian:divisions[0].departments[5].name"
       ]
     },
     {
@@ -4730,7 +4854,8 @@
       "of": "ddead67b",
       "at": [
         "charlotte-latin:divisions[1].departments[5].name",
-        "charlotte-christian:divisions[1].departments[5].name"
+        "charlotte-christian:divisions[1].departments[5].name",
+        "carmel-christian:divisions[0].departments[8].name"
       ]
     },
     {
@@ -4818,7 +4943,10 @@
       "t": "World Literature",
       "of": "4f78eb8e",
       "at": [
-        "charlotte-latin:divisions[2].departments[0].courses[0].title"
+        "charlotte-latin:divisions[2].departments[0].courses[0].title",
+        "carmel-christian:divisions[0].departments[1].courses[9].title",
+        "carmel-christian:divisions[0].departments[1].courses[10].title",
+        "carmel-christian:divisions[0].departments[1].courses[11].title"
       ]
     },
     {
@@ -4847,7 +4975,10 @@
       "of": "c3da6e02",
       "at": [
         "charlotte-latin:divisions[2].departments[0].courses[2].title",
-        "covenant-day:divisions[0].departments[0].courses[2].title"
+        "covenant-day:divisions[0].departments[0].courses[2].title",
+        "carmel-christian:divisions[0].departments[1].courses[3].title",
+        "carmel-christian:divisions[0].departments[1].courses[4].title",
+        "carmel-christian:divisions[0].departments[1].courses[5].title"
       ]
     },
     {
@@ -5166,7 +5297,8 @@
       "of": "d34cd34c",
       "at": [
         "charlotte-latin:divisions[2].departments[2].courses[1].description",
-        "covenant-day:divisions[0].departments[3].courses[10].description"
+        "covenant-day:divisions[0].departments[3].courses[10].description",
+        "carmel-christian:divisions[0].departments[4].courses[12].description"
       ]
     },
     {
@@ -5379,7 +5511,8 @@
       "of": "58226eb6",
       "at": [
         "charlotte-latin:divisions[2].departments[3].courses[13].description",
-        "covenant-day:divisions[0].departments[1].courses[11].description"
+        "covenant-day:divisions[0].departments[1].courses[11].description",
+        "carmel-christian:divisions[0].departments[2].courses[12].description"
       ]
     },
     {
@@ -5415,7 +5548,8 @@
       "of": "bb3a07ca",
       "at": [
         "charlotte-latin:divisions[2].departments[4].courses[0].title",
-        "davidson-day:divisions[2].departments[3].courses[0].title"
+        "davidson-day:divisions[2].departments[3].courses[0].title",
+        "carmel-christian:divisions[0].departments[3].courses[8].title"
       ]
     },
     {
@@ -5446,7 +5580,9 @@
         "charlotte-latin:divisions[2].departments[4].courses[2].title",
         "charlotte-christian:divisions[2].departments[3].courses[2].title",
         "covenant-day:divisions[0].departments[2].courses[2].title",
-        "davidson-day:divisions[2].departments[3].courses[4].title"
+        "davidson-day:divisions[2].departments[3].courses[4].title",
+        "carmel-christian:divisions[0].departments[3].courses[3].title",
+        "carmel-christian:divisions[0].departments[3].courses[4].title"
       ]
     },
     {
@@ -5491,7 +5627,9 @@
         "charlotte-latin:divisions[2].departments[4].courses[5].title",
         "charlotte-christian:divisions[2].departments[3].courses[0].title",
         "covenant-day:divisions[0].departments[2].courses[0].title",
-        "davidson-day:divisions[2].departments[3].courses[7].title"
+        "davidson-day:divisions[2].departments[3].courses[7].title",
+        "carmel-christian:divisions[0].departments[3].courses[0].title",
+        "carmel-christian:divisions[0].departments[3].courses[1].title"
       ]
     },
     {
@@ -5527,7 +5665,8 @@
       "of": "c092d8e4",
       "at": [
         "charlotte-latin:divisions[2].departments[4].courses[7].description",
-        "covenant-day:divisions[0].departments[2].courses[8].description"
+        "covenant-day:divisions[0].departments[2].courses[8].description",
+        "carmel-christian:divisions[0].departments[3].courses[13].description"
       ]
     },
     {
@@ -5542,7 +5681,8 @@
       "of": "380c4f3f",
       "at": [
         "charlotte-latin:divisions[2].departments[4].courses[8].description",
-        "covenant-day:divisions[0].departments[2].courses[10].description"
+        "covenant-day:divisions[0].departments[2].courses[10].description",
+        "carmel-christian:divisions[0].departments[3].courses[14].description"
       ]
     },
     {
@@ -5756,7 +5896,8 @@
       "of": "528149e0",
       "at": [
         "charlotte-latin:divisions[2].departments[5].courses[5].description",
-        "charlotte-country-day:divisions[2].departments[4].courses[9].description"
+        "charlotte-country-day:divisions[2].departments[4].courses[9].description",
+        "carmel-christian:divisions[0].departments[5].courses[6].description"
       ]
     },
     {
@@ -6332,7 +6473,8 @@
         "charlotte-christian:guideYear",
         "cannon:guideYear",
         "covenant-day:guideYear",
-        "davidson-day:guideYear"
+        "davidson-day:guideYear",
+        "carmel-christian:guideYear"
       ]
     },
     {
@@ -6364,7 +6506,10 @@
         "charlotte-christian:divisions[0].departments[0].name",
         "charlotte-christian:divisions[0].departments[0].courses[0].title",
         "charlotte-christian:divisions[1].departments[0].name",
-        "covenant-day:divisions[0].departments[4].name"
+        "covenant-day:divisions[0].departments[4].name",
+        "carmel-christian:divisions[0].departments[0].name",
+        "carmel-christian:divisions[1].departments[0].name",
+        "carmel-christian:divisions[2].departments[0].courses[0].title"
       ]
     },
     {
@@ -6693,7 +6838,8 @@
       "t": "Physical Science",
       "of": "ce55127a",
       "at": [
-        "charlotte-christian:divisions[1].departments[2].courses[1].title"
+        "charlotte-christian:divisions[1].departments[2].courses[1].title",
+        "carmel-christian:divisions[1].departments[4].courses[2].title"
       ]
     },
     {
@@ -6707,7 +6853,8 @@
       "t": "Life Science",
       "of": "970e4115",
       "at": [
-        "charlotte-christian:divisions[1].departments[2].courses[2].title"
+        "charlotte-christian:divisions[1].departments[2].courses[2].title",
+        "carmel-christian:divisions[1].departments[4].courses[1].title"
       ]
     },
     {
@@ -6721,7 +6868,8 @@
       "t": "Earth Science",
       "of": "1a46f04d",
       "at": [
-        "charlotte-christian:divisions[1].departments[2].courses[3].title"
+        "charlotte-christian:divisions[1].departments[2].courses[3].title",
+        "carmel-christian:divisions[1].departments[4].courses[0].title"
       ]
     },
     {
@@ -8324,7 +8472,8 @@
       "at": [
         "charlotte-christian:divisions[2].departments[7].courses[13].title",
         "charlotte-country-day:divisions[1].departments[4].courses[2].title",
-        "covenant-day:divisions[0].departments[6].courses[0].title"
+        "covenant-day:divisions[0].departments[6].courses[0].title",
+        "carmel-christian:divisions[0].departments[7].courses[7].title"
       ]
     },
     {
@@ -8465,7 +8614,8 @@
       "of": "3ef991bc",
       "at": [
         "charlotte-christian:divisions[2].departments[7].courses[23].title",
-        "covenant-day:divisions[0].departments[6].courses[11].title"
+        "covenant-day:divisions[0].departments[6].courses[11].title",
+        "carmel-christian:divisions[1].departments[7].courses[2].title"
       ]
     },
     {
@@ -9279,7 +9429,8 @@
         "charlotte-country-day:divisions[1].departments[5].courses[2].title",
         "charlotte-country-day:divisions[1].departments[5].courses[3].title",
         "charlotte-country-day:divisions[1].departments[5].courses[4].title",
-        "covenant-day:divisions[0].departments[2].courses[5].title"
+        "covenant-day:divisions[0].departments[2].courses[5].title",
+        "carmel-christian:divisions[0].departments[6].courses[0].title"
       ]
     },
     {
@@ -10167,7 +10318,8 @@
       "t": "कॉलेज-स्तर का मानव भूगोल।",
       "of": "22a34bc8",
       "at": [
-        "charlotte-country-day:divisions[2].departments[3].courses[9].description"
+        "charlotte-country-day:divisions[2].departments[3].courses[9].description",
+        "carmel-christian:divisions[0].departments[4].courses[11].description"
       ]
     },
     {
@@ -10480,7 +10632,8 @@
       "of": "04056db0",
       "at": [
         "charlotte-country-day:divisions[2].departments[5].courses[3].title",
-        "covenant-day:divisions[0].departments[6].courses[2].title"
+        "covenant-day:divisions[0].departments[6].courses[2].title",
+        "carmel-christian:divisions[0].departments[7].courses[5].title"
       ]
     },
     {
@@ -11565,7 +11718,8 @@
       "t": "Honors Precalculus",
       "of": "6265b601",
       "at": [
-        "cannon:divisions[2].departments[1].courses[5].title"
+        "cannon:divisions[2].departments[1].courses[5].title",
+        "carmel-christian:divisions[0].departments[2].courses[7].title"
       ]
     },
     {
@@ -11741,7 +11895,8 @@
       "t": "Honors Chemistry",
       "of": "bebcf292",
       "at": [
-        "cannon:divisions[2].departments[2].courses[4].title"
+        "cannon:divisions[2].departments[2].courses[4].title",
+        "carmel-christian:divisions[0].departments[3].courses[5].title"
       ]
     },
     {
@@ -11783,7 +11938,8 @@
       "t": "Honors Biology",
       "of": "ad9e1613",
       "at": [
-        "cannon:divisions[2].departments[2].courses[7].title"
+        "cannon:divisions[2].departments[2].courses[7].title",
+        "carmel-christian:divisions[0].departments[3].courses[2].title"
       ]
     },
     {
@@ -12360,7 +12516,8 @@
       "t": "कलाएँ",
       "of": "278c981b",
       "at": [
-        "cannon:divisions[2].departments[5].name"
+        "cannon:divisions[2].departments[5].name",
+        "carmel-christian:divisions[0].departments[7].name"
       ]
     },
     {
@@ -12808,14 +12965,16 @@
       "t": "High School के कोर्स",
       "of": "d2156e65",
       "at": [
-        "covenant-day:divisions[0].title"
+        "covenant-day:divisions[0].title",
+        "carmel-christian:divisions[0].title"
       ]
     },
     {
       "t": "कक्षा 9 – 12",
       "of": "b750d992",
       "at": [
-        "covenant-day:divisions[0].grades"
+        "covenant-day:divisions[0].grades",
+        "carmel-christian:divisions[0].grades"
       ]
     },
     {
@@ -12949,7 +13108,10 @@
       "t": "British Literature",
       "of": "d5de682b",
       "at": [
-        "covenant-day:divisions[0].departments[0].courses[6].title"
+        "covenant-day:divisions[0].departments[0].courses[6].title",
+        "carmel-christian:divisions[0].departments[1].courses[6].title",
+        "carmel-christian:divisions[0].departments[1].courses[7].title",
+        "carmel-christian:divisions[0].departments[1].courses[8].title"
       ]
     },
     {
@@ -12977,7 +13139,8 @@
       "t": "AP English Language & Composition",
       "of": "9306a94e",
       "at": [
-        "covenant-day:divisions[0].departments[0].courses[8].title"
+        "covenant-day:divisions[0].departments[0].courses[8].title",
+        "carmel-christian:divisions[0].departments[1].courses[12].title"
       ]
     },
     {
@@ -12991,7 +13154,8 @@
       "t": "AP English Literature & Composition",
       "of": "6c1a804b",
       "at": [
-        "covenant-day:divisions[0].departments[0].courses[9].title"
+        "covenant-day:divisions[0].departments[0].courses[9].title",
+        "carmel-christian:divisions[0].departments[1].courses[13].title"
       ]
     },
     {
@@ -13103,7 +13267,8 @@
       "t": "कॉलेज-स्तर का differential और integral calculus।",
       "of": "cf28429f",
       "at": [
-        "covenant-day:divisions[0].departments[1].courses[10].description"
+        "covenant-day:divisions[0].departments[1].courses[10].description",
+        "carmel-christian:divisions[0].departments[2].courses[11].description"
       ]
     },
     {
@@ -13117,7 +13282,8 @@
       "t": "Honors biology।",
       "of": "130ae067",
       "at": [
-        "covenant-day:divisions[0].departments[2].courses[1].description"
+        "covenant-day:divisions[0].departments[2].courses[1].description",
+        "carmel-christian:divisions[0].departments[3].courses[2].description"
       ]
     },
     {
@@ -13131,7 +13297,8 @@
       "t": "Honors chemistry।",
       "of": "49b89254",
       "at": [
-        "covenant-day:divisions[0].departments[2].courses[3].description"
+        "covenant-day:divisions[0].departments[2].courses[3].description",
+        "carmel-christian:divisions[0].departments[3].courses[5].description"
       ]
     },
     {
@@ -13230,7 +13397,9 @@
       "t": "US History",
       "of": "9aeceb25",
       "at": [
-        "covenant-day:divisions[0].departments[3].courses[2].title"
+        "covenant-day:divisions[0].departments[3].courses[2].title",
+        "carmel-christian:divisions[0].departments[4].courses[4].title",
+        "carmel-christian:divisions[0].departments[4].courses[5].title"
       ]
     },
     {
@@ -13300,14 +13469,16 @@
       "t": "AP US History",
       "of": "6ac84760",
       "at": [
-        "covenant-day:divisions[0].departments[3].courses[7].title"
+        "covenant-day:divisions[0].departments[3].courses[7].title",
+        "carmel-christian:divisions[0].departments[4].courses[10].title"
       ]
     },
     {
       "t": "कॉलेज-स्तर का American history।",
       "of": "4eab3535",
       "at": [
-        "covenant-day:divisions[0].departments[3].courses[7].description"
+        "covenant-day:divisions[0].departments[3].courses[7].description",
+        "carmel-christian:divisions[0].departments[4].courses[10].description"
       ]
     },
     {
@@ -13339,7 +13510,33 @@
         "davidson-day:divisions[2].departments[1].courses[0].tag",
         "davidson-day:divisions[2].departments[1].courses[2].tag",
         "davidson-day:divisions[2].departments[4].courses[0].tag",
-        "davidson-day:divisions[2].departments[4].courses[6].tag"
+        "davidson-day:divisions[2].departments[4].courses[6].tag",
+        "carmel-christian:divisions[0].departments[0].courses[0].tag",
+        "carmel-christian:divisions[0].departments[0].courses[1].tag",
+        "carmel-christian:divisions[0].departments[0].courses[2].tag",
+        "carmel-christian:divisions[0].departments[0].courses[3].tag",
+        "carmel-christian:divisions[0].departments[5].courses[0].tag",
+        "carmel-christian:divisions[0].departments[5].courses[7].tag",
+        "carmel-christian:divisions[0].departments[6].courses[0].tag",
+        "carmel-christian:divisions[0].departments[6].courses[1].tag",
+        "carmel-christian:divisions[0].departments[6].courses[2].tag",
+        "carmel-christian:divisions[0].departments[6].courses[3].tag",
+        "carmel-christian:divisions[0].departments[6].courses[4].tag",
+        "carmel-christian:divisions[0].departments[7].courses[0].tag",
+        "carmel-christian:divisions[0].departments[7].courses[1].tag",
+        "carmel-christian:divisions[0].departments[7].courses[5].tag",
+        "carmel-christian:divisions[0].departments[7].courses[6].tag",
+        "carmel-christian:divisions[0].departments[7].courses[7].tag",
+        "carmel-christian:divisions[0].departments[7].courses[8].tag",
+        "carmel-christian:divisions[0].departments[7].courses[10].tag",
+        "carmel-christian:divisions[0].departments[7].courses[11].tag",
+        "carmel-christian:divisions[0].departments[7].courses[12].tag",
+        "carmel-christian:divisions[0].departments[7].courses[13].tag",
+        "carmel-christian:divisions[0].departments[7].courses[14].tag",
+        "carmel-christian:divisions[0].departments[8].courses[2].tag",
+        "carmel-christian:divisions[0].departments[8].courses[3].tag",
+        "carmel-christian:divisions[0].departments[8].courses[4].tag",
+        "carmel-christian:divisions[0].departments[8].courses[5].tag"
       ]
     },
     {
@@ -13360,7 +13557,8 @@
       "t": "पहले वर्ष का Spanish।",
       "of": "a3c9ba01",
       "at": [
-        "covenant-day:divisions[0].departments[5].courses[0].description"
+        "covenant-day:divisions[0].departments[5].courses[0].description",
+        "carmel-christian:divisions[0].departments[5].courses[0].description"
       ]
     },
     {
@@ -13402,7 +13600,8 @@
       "t": "honors स्तर पर चौथे वर्ष का Spanish।",
       "of": "1a545c25",
       "at": [
-        "covenant-day:divisions[0].departments[5].courses[3].description"
+        "covenant-day:divisions[0].departments[5].courses[3].description",
+        "carmel-christian:divisions[0].departments[5].courses[5].description"
       ]
     },
     {
@@ -13528,7 +13727,8 @@
       "t": "क्रेडिट कोर्स के रूप में concert band।",
       "of": "24e64e54",
       "at": [
-        "covenant-day:divisions[0].departments[6].courses[2].description"
+        "covenant-day:divisions[0].departments[6].courses[2].description",
+        "carmel-christian:divisions[0].departments[7].courses[5].description"
       ]
     },
     {
@@ -13661,7 +13861,8 @@
       "t": "स्कूल की yearbook का निर्माण।",
       "of": "2c363213",
       "at": [
-        "covenant-day:divisions[0].departments[6].courses[13].description"
+        "covenant-day:divisions[0].departments[6].courses[13].description",
+        "carmel-christian:divisions[0].departments[7].courses[14].description"
       ]
     },
     {
@@ -13916,7 +14117,8 @@
       "t": "Math 1",
       "of": "3fb17344",
       "at": [
-        "davidson-day:divisions[1].departments[0].courses[2].title"
+        "davidson-day:divisions[1].departments[0].courses[2].title",
+        "carmel-christian:divisions[0].departments[2].courses[0].title"
       ]
     },
     {
@@ -13958,7 +14160,8 @@
       "t": "Math 2",
       "of": "42b177fd",
       "at": [
-        "davidson-day:divisions[1].departments[0].courses[5].title"
+        "davidson-day:divisions[1].departments[0].courses[5].title",
+        "carmel-christian:divisions[0].departments[2].courses[1].title"
       ]
     },
     {
@@ -14203,7 +14406,8 @@
       "t": "Algebra I Honors",
       "of": "86ff9905",
       "at": [
-        "davidson-day:divisions[2].departments[1].courses[1].title"
+        "davidson-day:divisions[2].departments[1].courses[1].title",
+        "carmel-christian:divisions[1].departments[2].courses[5].title"
       ]
     },
     {
@@ -14259,7 +14463,8 @@
       "t": "AP Precalculus",
       "of": "747f14c1",
       "at": [
-        "davidson-day:divisions[2].departments[1].courses[7].title"
+        "davidson-day:divisions[2].departments[1].courses[7].title",
+        "carmel-christian:divisions[0].departments[2].courses[8].title"
       ]
     },
     {
@@ -14630,7 +14835,8 @@
       "t": "Spanish I",
       "of": "389b9238",
       "at": [
-        "davidson-day:divisions[2].departments[4].courses[6].title"
+        "davidson-day:divisions[2].departments[4].courses[6].title",
+        "carmel-christian:divisions[0].departments[5].courses[0].title"
       ]
     },
     {
@@ -14644,7 +14850,9 @@
       "t": "Spanish II",
       "of": "8de787e3",
       "at": [
-        "davidson-day:divisions[2].departments[4].courses[7].title"
+        "davidson-day:divisions[2].departments[4].courses[7].title",
+        "carmel-christian:divisions[0].departments[5].courses[1].title",
+        "carmel-christian:divisions[0].departments[5].courses[2].title"
       ]
     },
     {
@@ -14924,7 +15132,8 @@
       "t": "Weight Training",
       "of": "df149d6d",
       "at": [
-        "davidson-day:divisions[2].departments[7].courses[0].title"
+        "davidson-day:divisions[2].departments[7].courses[0].title",
+        "carmel-christian:divisions[0].departments[6].courses[4].title"
       ]
     },
     {
@@ -15086,6 +15295,1667 @@
       "of": "75301aca",
       "at": [
         "davidson-day:divisions[2].departments[8].courses[8].description"
+      ]
+    },
+    {
+      "t": "9 विभागों में 78 course titles — जिसमें 16 Advanced Placement courses शामिल हैं — 2026-27 High School Curriculum Guide से।",
+      "of": "f1b73320",
+      "at": [
+        "carmel-christian:divisions[0].teaser"
+      ]
+    },
+    {
+      "t": "Old Testament",
+      "of": "ee26dd01",
+      "at": [
+        "carmel-christian:divisions[0].departments[0].courses[0].title"
+      ]
+    },
+    {
+      "t": "चार-credit Bible अनुक्रम में एक Biblical Studies course।",
+      "of": "4072c999",
+      "at": [
+        "carmel-christian:divisions[0].departments[0].courses[0].description",
+        "carmel-christian:divisions[0].departments[0].courses[1].description"
+      ]
+    },
+    {
+      "t": "New Testament",
+      "of": "b1bf1b72",
+      "at": [
+        "carmel-christian:divisions[0].departments[0].courses[1].title"
+      ]
+    },
+    {
+      "t": "Understanding the Faith & Culture",
+      "of": "c1a47092",
+      "at": [
+        "carmel-christian:divisions[0].departments[0].courses[2].title"
+      ]
+    },
+    {
+      "t": "सांस्कृतिक संदर्भ में faith की जाँच करने वाला एक Biblical Studies course।",
+      "of": "d3ec1c3e",
+      "at": [
+        "carmel-christian:divisions[0].departments[0].courses[2].description"
+      ]
+    },
+    {
+      "t": "Understanding the Times",
+      "of": "94436114",
+      "at": [
+        "carmel-christian:divisions[0].departments[0].courses[3].title"
+      ]
+    },
+    {
+      "t": "Biblical Studies अनुक्रम में एक worldview capstone।",
+      "of": "19fdf8d8",
+      "at": [
+        "carmel-christian:divisions[0].departments[0].courses[3].description"
+      ]
+    },
+    {
+      "t": "Genres and Themes",
+      "of": "d1643436",
+      "at": [
+        "carmel-christian:divisions[0].departments[1].courses[0].title",
+        "carmel-christian:divisions[0].departments[1].courses[1].title",
+        "carmel-christian:divisions[0].departments[1].courses[2].title"
+      ]
+    },
+    {
+      "t": "Pathways",
+      "of": "6ada010a",
+      "at": [
+        "carmel-christian:divisions[0].departments[1].courses[0].tag",
+        "carmel-christian:divisions[0].departments[1].courses[3].tag",
+        "carmel-christian:divisions[0].departments[1].courses[6].tag",
+        "carmel-christian:divisions[0].departments[1].courses[9].tag",
+        "carmel-christian:divisions[0].departments[2].courses[0].tag",
+        "carmel-christian:divisions[0].departments[2].courses[1].tag",
+        "carmel-christian:divisions[0].departments[2].courses[3].tag",
+        "carmel-christian:divisions[0].departments[2].courses[6].tag"
+      ]
+    },
+    {
+      "t": "प्रवेश-स्तरीय English course का Pathways ट्रैक।",
+      "of": "12f7306b",
+      "at": [
+        "carmel-christian:divisions[0].departments[1].courses[0].description"
+      ]
+    },
+    {
+      "t": "Standard",
+      "of": "0016ab68",
+      "at": [
+        "carmel-christian:divisions[0].departments[1].courses[1].tag",
+        "carmel-christian:divisions[0].departments[1].courses[4].tag",
+        "carmel-christian:divisions[0].departments[1].courses[7].tag",
+        "carmel-christian:divisions[0].departments[1].courses[10].tag",
+        "carmel-christian:divisions[0].departments[2].courses[4].tag",
+        "carmel-christian:divisions[0].departments[2].courses[9].tag",
+        "carmel-christian:divisions[0].departments[3].courses[0].tag",
+        "carmel-christian:divisions[0].departments[3].courses[3].tag",
+        "carmel-christian:divisions[0].departments[3].courses[6].tag",
+        "carmel-christian:divisions[0].departments[3].courses[8].tag",
+        "carmel-christian:divisions[0].departments[3].courses[10].tag",
+        "carmel-christian:divisions[0].departments[3].courses[11].tag",
+        "carmel-christian:divisions[0].departments[4].courses[0].tag",
+        "carmel-christian:divisions[0].departments[4].courses[2].tag",
+        "carmel-christian:divisions[0].departments[4].courses[4].tag",
+        "carmel-christian:divisions[0].departments[4].courses[6].tag",
+        "carmel-christian:divisions[0].departments[4].courses[7].tag",
+        "carmel-christian:divisions[0].departments[4].courses[8].tag",
+        "carmel-christian:divisions[0].departments[5].courses[1].tag",
+        "carmel-christian:divisions[0].departments[5].courses[3].tag"
+      ]
+    },
+    {
+      "t": "प्रवेश-स्तरीय English course का मानक ट्रैक।",
+      "of": "696e13a1",
+      "at": [
+        "carmel-christian:divisions[0].departments[1].courses[1].description"
+      ]
+    },
+    {
+      "t": "प्रवेश-स्तरीय English course का honors ट्रैक।",
+      "of": "9e7a42ed",
+      "at": [
+        "carmel-christian:divisions[0].departments[1].courses[2].description"
+      ]
+    },
+    {
+      "t": "American-literature वर्ष का Pathways ट्रैक।",
+      "of": "614e41a5",
+      "at": [
+        "carmel-christian:divisions[0].departments[1].courses[3].description"
+      ]
+    },
+    {
+      "t": "American-literature वर्ष का मानक ट्रैक।",
+      "of": "8f36e75f",
+      "at": [
+        "carmel-christian:divisions[0].departments[1].courses[4].description"
+      ]
+    },
+    {
+      "t": "American-literature वर्ष का honors ट्रैक।",
+      "of": "ece21bd3",
+      "at": [
+        "carmel-christian:divisions[0].departments[1].courses[5].description"
+      ]
+    },
+    {
+      "t": "British-literature वर्ष का Pathways ट्रैक।",
+      "of": "b7d1ce3a",
+      "at": [
+        "carmel-christian:divisions[0].departments[1].courses[6].description"
+      ]
+    },
+    {
+      "t": "British-literature वर्ष का मानक ट्रैक।",
+      "of": "db985eb8",
+      "at": [
+        "carmel-christian:divisions[0].departments[1].courses[7].description"
+      ]
+    },
+    {
+      "t": "British-literature वर्ष का honors ट्रैक।",
+      "of": "9626cfa4",
+      "at": [
+        "carmel-christian:divisions[0].departments[1].courses[8].description"
+      ]
+    },
+    {
+      "t": "world-literature वर्ष का Pathways ट्रैक।",
+      "of": "0ab0c213",
+      "at": [
+        "carmel-christian:divisions[0].departments[1].courses[9].description"
+      ]
+    },
+    {
+      "t": "world-literature वर्ष का मानक ट्रैक।",
+      "of": "80270a49",
+      "at": [
+        "carmel-christian:divisions[0].departments[1].courses[10].description"
+      ]
+    },
+    {
+      "t": "world-literature वर्ष का honors ट्रैक।",
+      "of": "9ea8fdfd",
+      "at": [
+        "carmel-christian:divisions[0].departments[1].courses[11].description"
+      ]
+    },
+    {
+      "t": "College-स्तरीय rhetoric, argument और composition।",
+      "of": "28bcf791",
+      "at": [
+        "carmel-christian:divisions[0].departments[1].courses[12].description"
+      ]
+    },
+    {
+      "t": "College-स्तरीय साहित्यिक विश्लेषण और composition।",
+      "of": "411d86ce",
+      "at": [
+        "carmel-christian:divisions[0].departments[1].courses[13].description"
+      ]
+    },
+    {
+      "t": "math अनुक्रम का Pathways प्रवेश course।",
+      "of": "fda80fd1",
+      "at": [
+        "carmel-christian:divisions[0].departments[2].courses[0].description"
+      ]
+    },
+    {
+      "t": "math अनुक्रम का Pathways दूसरा course।",
+      "of": "443d0077",
+      "at": [
+        "carmel-christian:divisions[0].departments[2].courses[1].description"
+      ]
+    },
+    {
+      "t": "Honors Euclidean geometry।",
+      "of": "cea094ce",
+      "at": [
+        "carmel-christian:divisions[0].departments[2].courses[2].description"
+      ]
+    },
+    {
+      "t": "दूसरे-वर्ष के algebra का Pathways ट्रैक।",
+      "of": "8da03c4b",
+      "at": [
+        "carmel-christian:divisions[0].departments[2].courses[3].description"
+      ]
+    },
+    {
+      "t": "दूसरे-वर्ष के algebra का मानक ट्रैक।",
+      "of": "8dc78499",
+      "at": [
+        "carmel-christian:divisions[0].departments[2].courses[4].description"
+      ]
+    },
+    {
+      "t": "दूसरे-वर्ष के algebra का honors ट्रैक।",
+      "of": "334ab015",
+      "at": [
+        "carmel-christian:divisions[0].departments[2].courses[5].description"
+      ]
+    },
+    {
+      "t": "Math 4 (Algebra III & Trigonometry)",
+      "of": "3c10bc28",
+      "at": [
+        "carmel-christian:divisions[0].departments[2].courses[6].title"
+      ]
+    },
+    {
+      "t": "Algebra III और trigonometry को कवर करने वाला Pathways चौथे-वर्ष का course।",
+      "of": "bcb97320",
+      "at": [
+        "carmel-christian:divisions[0].departments[2].courses[6].description"
+      ]
+    },
+    {
+      "t": "Honors precalculus — calculus से पहले functions और trigonometry।",
+      "of": "9b7144a1",
+      "at": [
+        "carmel-christian:divisions[0].departments[2].courses[7].description"
+      ]
+    },
+    {
+      "t": "College-स्तरीय precalculus।",
+      "of": "2444457a",
+      "at": [
+        "carmel-christian:divisions[0].departments[2].courses[8].description"
+      ]
+    },
+    {
+      "t": "Probability & Statistics",
+      "of": "18dbfb05",
+      "at": [
+        "carmel-christian:divisions[0].departments[2].courses[9].title",
+        "carmel-christian:divisions[0].departments[2].courses[10].title"
+      ]
+    },
+    {
+      "t": "probability और statistics का मानक ट्रैक।",
+      "of": "571bdc7e",
+      "at": [
+        "carmel-christian:divisions[0].departments[2].courses[9].description"
+      ]
+    },
+    {
+      "t": "probability और statistics का honors ट्रैक।",
+      "of": "e46f2e9a",
+      "at": [
+        "carmel-christian:divisions[0].departments[2].courses[10].description"
+      ]
+    },
+    {
+      "t": "प्रवेश-स्तरीय lab science का मानक ट्रैक।",
+      "of": "58d48619",
+      "at": [
+        "carmel-christian:divisions[0].departments[3].courses[0].description"
+      ]
+    },
+    {
+      "t": "प्रवेश-स्तरीय lab science का honors ट्रैक।",
+      "of": "3732be25",
+      "at": [
+        "carmel-christian:divisions[0].departments[3].courses[1].description"
+      ]
+    },
+    {
+      "t": "chemistry का मानक ट्रैक।",
+      "of": "33a38cd9",
+      "at": [
+        "carmel-christian:divisions[0].departments[3].courses[3].description"
+      ]
+    },
+    {
+      "t": "chemistry का honors ट्रैक।",
+      "of": "b1f1c215",
+      "at": [
+        "carmel-christian:divisions[0].departments[3].courses[4].description"
+      ]
+    },
+    {
+      "t": "Human Anatomy & Physiology",
+      "of": "af832b0a",
+      "at": [
+        "carmel-christian:divisions[0].departments[3].courses[6].title",
+        "carmel-christian:divisions[0].departments[3].courses[7].title"
+      ]
+    },
+    {
+      "t": "anatomy और physiology का मानक ट्रैक।",
+      "of": "0f1130a2",
+      "at": [
+        "carmel-christian:divisions[0].departments[3].courses[6].description"
+      ]
+    },
+    {
+      "t": "anatomy और physiology का honors ट्रैक।",
+      "of": "031449ae",
+      "at": [
+        "carmel-christian:divisions[0].departments[3].courses[7].description"
+      ]
+    },
+    {
+      "t": "Conceptual physics।",
+      "of": "f023bd0c",
+      "at": [
+        "carmel-christian:divisions[0].departments[3].courses[8].description"
+      ]
+    },
+    {
+      "t": "Honors Physics",
+      "of": "e3e08cd5",
+      "at": [
+        "carmel-christian:divisions[0].departments[3].courses[9].title"
+      ]
+    },
+    {
+      "t": "Honors physics।",
+      "of": "527e1981",
+      "at": [
+        "carmel-christian:divisions[0].departments[3].courses[9].description"
+      ]
+    },
+    {
+      "t": "Forensics",
+      "of": "f49980d1",
+      "at": [
+        "carmel-christian:divisions[0].departments[3].courses[10].title"
+      ]
+    },
+    {
+      "t": "Forensic science।",
+      "of": "a1067834",
+      "at": [
+        "carmel-christian:divisions[0].departments[3].courses[10].description"
+      ]
+    },
+    {
+      "t": "Intro to Engineering & Robotics",
+      "of": "2d16cd78",
+      "at": [
+        "carmel-christian:divisions[0].departments[3].courses[11].title"
+      ]
+    },
+    {
+      "t": "परिचयात्मक engineering और robotics।",
+      "of": "e305086c",
+      "at": [
+        "carmel-christian:divisions[0].departments[3].courses[11].description"
+      ]
+    },
+    {
+      "t": "Honors Engineering II",
+      "of": "89b3e39f",
+      "at": [
+        "carmel-christian:divisions[0].departments[3].courses[12].title"
+      ]
+    },
+    {
+      "t": "दूसरे-स्तर का honors engineering course।",
+      "of": "03e9ee7a",
+      "at": [
+        "carmel-christian:divisions[0].departments[3].courses[12].description"
+      ]
+    },
+    {
+      "t": "world history का मानक ट्रैक।",
+      "of": "2215bcd7",
+      "at": [
+        "carmel-christian:divisions[0].departments[4].courses[0].description"
+      ]
+    },
+    {
+      "t": "world history का honors ट्रैक।",
+      "of": "2dcecd2b",
+      "at": [
+        "carmel-christian:divisions[0].departments[4].courses[1].description"
+      ]
+    },
+    {
+      "t": "US Government & Economics",
+      "of": "d318929c",
+      "at": [
+        "carmel-christian:divisions[0].departments[4].courses[2].title",
+        "carmel-christian:divisions[0].departments[4].courses[3].title"
+      ]
+    },
+    {
+      "t": "US government और economics का मानक ट्रैक।",
+      "of": "609d36bf",
+      "at": [
+        "carmel-christian:divisions[0].departments[4].courses[2].description"
+      ]
+    },
+    {
+      "t": "US government और economics का honors ट्रैक।",
+      "of": "5591d84b",
+      "at": [
+        "carmel-christian:divisions[0].departments[4].courses[3].description"
+      ]
+    },
+    {
+      "t": "US history का मानक ट्रैक।",
+      "of": "e59f7649",
+      "at": [
+        "carmel-christian:divisions[0].departments[4].courses[4].description"
+      ]
+    },
+    {
+      "t": "US history का honors ट्रैक।",
+      "of": "9826041d",
+      "at": [
+        "carmel-christian:divisions[0].departments[4].courses[5].description"
+      ]
+    },
+    {
+      "t": "Cultural Geography",
+      "of": "6a5fa1f5",
+      "at": [
+        "carmel-christian:divisions[0].departments[4].courses[6].title"
+      ]
+    },
+    {
+      "t": "एक cultural geography elective।",
+      "of": "47aa782f",
+      "at": [
+        "carmel-christian:divisions[0].departments[4].courses[6].description"
+      ]
+    },
+    {
+      "t": "Psychology/Sociology",
+      "of": "99ec86fd",
+      "at": [
+        "carmel-christian:divisions[0].departments[4].courses[7].title"
+      ]
+    },
+    {
+      "t": "एक संयुक्त psychology और sociology elective।",
+      "of": "97e44270",
+      "at": [
+        "carmel-christian:divisions[0].departments[4].courses[7].description"
+      ]
+    },
+    {
+      "t": "Personal Finance",
+      "of": "a1435e7b",
+      "at": [
+        "carmel-christian:divisions[0].departments[4].courses[8].title"
+      ]
+    },
+    {
+      "t": "एक personal-finance course।",
+      "of": "f41cf752",
+      "at": [
+        "carmel-christian:divisions[0].departments[4].courses[8].description"
+      ]
+    },
+    {
+      "t": "AP US Government & Politics",
+      "of": "cda0cdd8",
+      "at": [
+        "carmel-christian:divisions[0].departments[4].courses[9].title"
+      ]
+    },
+    {
+      "t": "College-स्तरीय US government और politics।",
+      "of": "84f086dc",
+      "at": [
+        "carmel-christian:divisions[0].departments[4].courses[9].description"
+      ]
+    },
+    {
+      "t": "AP World History",
+      "of": "70758d40",
+      "at": [
+        "carmel-christian:divisions[0].departments[4].courses[13].title"
+      ]
+    },
+    {
+      "t": "College-स्तरीय world history।",
+      "of": "20072cd5",
+      "at": [
+        "carmel-christian:divisions[0].departments[4].courses[13].description"
+      ]
+    },
+    {
+      "t": "दूसरे-वर्ष के Spanish का मानक ट्रैक।",
+      "of": "8d578eb5",
+      "at": [
+        "carmel-christian:divisions[0].departments[5].courses[1].description"
+      ]
+    },
+    {
+      "t": "दूसरे-वर्ष के Spanish का honors ट्रैक।",
+      "of": "2d17b2b1",
+      "at": [
+        "carmel-christian:divisions[0].departments[5].courses[2].description"
+      ]
+    },
+    {
+      "t": "Spanish III",
+      "of": "0d7a909e",
+      "at": [
+        "carmel-christian:divisions[0].departments[5].courses[3].title",
+        "carmel-christian:divisions[0].departments[5].courses[4].title"
+      ]
+    },
+    {
+      "t": "तीसरे-वर्ष के Spanish का मानक ट्रैक।",
+      "of": "bba79e8a",
+      "at": [
+        "carmel-christian:divisions[0].departments[5].courses[3].description"
+      ]
+    },
+    {
+      "t": "तीसरे-वर्ष के Spanish का honors ट्रैक।",
+      "of": "79c652fe",
+      "at": [
+        "carmel-christian:divisions[0].departments[5].courses[4].description"
+      ]
+    },
+    {
+      "t": "Honors Spanish IV",
+      "of": "2d15eb33",
+      "at": [
+        "carmel-christian:divisions[0].departments[5].courses[5].title"
+      ]
+    },
+    {
+      "t": "AP Spanish (Language & Culture)",
+      "of": "4af37e85",
+      "at": [
+        "carmel-christian:divisions[0].departments[5].courses[6].title"
+      ]
+    },
+    {
+      "t": "World Language (Online)",
+      "of": "eddfae63",
+      "at": [
+        "carmel-christian:divisions[0].departments[5].courses[7].title"
+      ]
+    },
+    {
+      "t": "Spanish से परे भाषाओं के लिए एक online world-language विकल्प।",
+      "of": "2300f410",
+      "at": [
+        "carmel-christian:divisions[0].departments[5].courses[7].description"
+      ]
+    },
+    {
+      "t": "Health & Fitness",
+      "of": "6662a519",
+      "at": [
+        "carmel-christian:divisions[0].departments[6].name"
+      ]
+    },
+    {
+      "t": "health आवश्यकता।",
+      "of": "9a426895",
+      "at": [
+        "carmel-christian:divisions[0].departments[6].courses[0].description"
+      ]
+    },
+    {
+      "t": "Physical education।",
+      "of": "2a8d7268",
+      "at": [
+        "carmel-christian:divisions[0].departments[6].courses[1].description"
+      ]
+    },
+    {
+      "t": "Ladies Athletic Conditioning",
+      "of": "6e14061a",
+      "at": [
+        "carmel-christian:divisions[0].departments[6].courses[2].title"
+      ]
+    },
+    {
+      "t": "छात्राओं के लिए athletic conditioning।",
+      "of": "01a97e57",
+      "at": [
+        "carmel-christian:divisions[0].departments[6].courses[2].description"
+      ]
+    },
+    {
+      "t": "Team Sports",
+      "of": "6797103f",
+      "at": [
+        "carmel-christian:divisions[0].departments[6].courses[3].title"
+      ]
+    },
+    {
+      "t": "एक team-sports fitness course।",
+      "of": "e4970b9e",
+      "at": [
+        "carmel-christian:divisions[0].departments[6].courses[3].description"
+      ]
+    },
+    {
+      "t": "एक weight-training fitness course।",
+      "of": "9382733c",
+      "at": [
+        "carmel-christian:divisions[0].departments[6].courses[4].description"
+      ]
+    },
+    {
+      "t": "Art I / Studio Art I",
+      "of": "f6cebb1c",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[0].title"
+      ]
+    },
+    {
+      "t": "प्रवेश-स्तरीय studio-art course।",
+      "of": "6c29989b",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[0].description"
+      ]
+    },
+    {
+      "t": "Art II / Studio Art II",
+      "of": "6a23df7e",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[1].title"
+      ]
+    },
+    {
+      "t": "दूसरे-स्तर का studio-art course।",
+      "of": "9252bbb2",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[1].description"
+      ]
+    },
+    {
+      "t": "Honors Art III / Studio Art III",
+      "of": "41e29bc5",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[2].title"
+      ]
+    },
+    {
+      "t": "तीसरे-स्तर का honors studio art।",
+      "of": "6de2b031",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[2].description"
+      ]
+    },
+    {
+      "t": "Honors Art IV / Studio Art IV",
+      "of": "e2347d2b",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[3].title"
+      ]
+    },
+    {
+      "t": "चौथे-स्तर का honors studio art।",
+      "of": "08bfe334",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[3].description"
+      ]
+    },
+    {
+      "t": "AP 2-D Art & Design",
+      "of": "525e4052",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[4].title"
+      ]
+    },
+    {
+      "t": "AP 2-D art और design portfolio।",
+      "of": "220f1f56",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[4].description"
+      ]
+    },
+    {
+      "t": "IGNITE Praise Band",
+      "of": "2c95ceb4",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[6].title"
+      ]
+    },
+    {
+      "t": "स्कूल praise band एक credit course के रूप में।",
+      "of": "9fa6c3d6",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[6].description"
+      ]
+    },
+    {
+      "t": "choral ensemble एक credit course के रूप में।",
+      "of": "7d73774f",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[7].description"
+      ]
+    },
+    {
+      "t": "Theatrical Studies",
+      "of": "fe32cc25",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[8].title"
+      ]
+    },
+    {
+      "t": "एक परिचयात्मक theatre course।",
+      "of": "112dd5f2",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[8].description"
+      ]
+    },
+    {
+      "t": "Honors Acting Studio",
+      "of": "a0c5d346",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[9].title"
+      ]
+    },
+    {
+      "t": "honors acting course।",
+      "of": "13d7db36",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[9].description"
+      ]
+    },
+    {
+      "t": "Digital Photography I",
+      "of": "57f983e7",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[10].title"
+      ]
+    },
+    {
+      "t": "पहले-स्तर की digital photography।",
+      "of": "c3c9686d",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[10].description"
+      ]
+    },
+    {
+      "t": "Digital Photography II",
+      "of": "2bca4aea",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[11].title"
+      ]
+    },
+    {
+      "t": "दूसरे-स्तर की digital photography।",
+      "of": "70a18af9",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[11].description"
+      ]
+    },
+    {
+      "t": "Media & Journalism I",
+      "of": "571181da",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[12].title"
+      ]
+    },
+    {
+      "t": "पहले-स्तर का media और journalism।",
+      "of": "ed97643f",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[12].description"
+      ]
+    },
+    {
+      "t": "Media & Journalism II",
+      "of": "a38efa69",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[13].title"
+      ]
+    },
+    {
+      "t": "दूसरे-स्तर का media और journalism।",
+      "of": "174b9f83",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[13].description"
+      ]
+    },
+    {
+      "t": "Entrepreneurship and Marketing",
+      "of": "dadc83a5",
+      "at": [
+        "carmel-christian:divisions[0].departments[8].courses[0].title"
+      ]
+    },
+    {
+      "t": "Business",
+      "of": "07dbaf6b",
+      "at": [
+        "carmel-christian:divisions[0].departments[8].courses[0].tag",
+        "carmel-christian:divisions[0].departments[8].courses[1].tag"
+      ]
+    },
+    {
+      "t": "entrepreneurship और marketing में एक business elective।",
+      "of": "28fac35a",
+      "at": [
+        "carmel-christian:divisions[0].departments[8].courses[0].description"
+      ]
+    },
+    {
+      "t": "Finance and Business Ethics",
+      "of": "162b41c2",
+      "at": [
+        "carmel-christian:divisions[0].departments[8].courses[1].title"
+      ]
+    },
+    {
+      "t": "finance और ethics में एक business elective।",
+      "of": "53efbca5",
+      "at": [
+        "carmel-christian:divisions[0].departments[8].courses[1].description"
+      ]
+    },
+    {
+      "t": "Christian Leadership Practicum",
+      "of": "480bd04b",
+      "at": [
+        "carmel-christian:divisions[0].departments[8].courses[2].title"
+      ]
+    },
+    {
+      "t": "Christian leadership में एक practicum।",
+      "of": "c9b4b84f",
+      "at": [
+        "carmel-christian:divisions[0].departments[8].courses[2].description"
+      ]
+    },
+    {
+      "t": "Educational Internship",
+      "of": "13744d86",
+      "at": [
+        "carmel-christian:divisions[0].departments[8].courses[3].title"
+      ]
+    },
+    {
+      "t": "एक निगरानी-सहित educational internship।",
+      "of": "a406242d",
+      "at": [
+        "carmel-christian:divisions[0].departments[8].courses[3].description"
+      ]
+    },
+    {
+      "t": "Public Speaking and Debate",
+      "of": "2bbcec08",
+      "at": [
+        "carmel-christian:divisions[0].departments[8].courses[4].title"
+      ]
+    },
+    {
+      "t": "एक public-speaking और debate elective।",
+      "of": "afc0683b",
+      "at": [
+        "carmel-christian:divisions[0].departments[8].courses[4].description"
+      ]
+    },
+    {
+      "t": "Science and Faith",
+      "of": "afcfed0c",
+      "at": [
+        "carmel-christian:divisions[0].departments[8].courses[5].title"
+      ]
+    },
+    {
+      "t": "science और faith की जाँच करने वाला एक elective।",
+      "of": "70da4d38",
+      "at": [
+        "carmel-christian:divisions[0].departments[8].courses[5].description"
+      ]
+    },
+    {
+      "t": "AP Seminar",
+      "of": "ffed3977",
+      "at": [
+        "carmel-christian:divisions[0].departments[8].courses[6].title"
+      ]
+    },
+    {
+      "t": "पहला AP Capstone course, जो research और argument कौशल विकसित करता है।",
+      "of": "c33b040d",
+      "at": [
+        "carmel-christian:divisions[0].departments[8].courses[6].description"
+      ]
+    },
+    {
+      "t": "AP Research",
+      "of": "a8eae3d1",
+      "at": [
+        "carmel-christian:divisions[0].departments[8].courses[7].title"
+      ]
+    },
+    {
+      "t": "दूसरा AP Capstone course, जो एक शैक्षणिक पेपर में परिणत होता है।",
+      "of": "967b43e9",
+      "at": [
+        "carmel-christian:divisions[0].departments[8].courses[7].description"
+      ]
+    },
+    {
+      "t": "GRADES 6 – 8",
+      "of": "540842be",
+      "at": [
+        "carmel-christian:divisions[1].grades"
+      ]
+    },
+    {
+      "t": "Middle School अपनी स्वयं की नामित-course सूची प्रकाशित करता है — एक पूर्ण शैक्षणिक core और साथ ही एक असामान्य रूप से व्यापक elective स्लेट — 2024-25 Middle School Curriculum Guide से।",
+      "of": "c86aa979",
+      "at": [
+        "carmel-christian:divisions[1].teaser"
+      ]
+    },
+    {
+      "t": "Sixth Grade Bible",
+      "of": "ccc2f51e",
+      "at": [
+        "carmel-christian:divisions[1].departments[0].courses[0].title"
+      ]
+    },
+    {
+      "t": "ग्रेड-6 Bible course।",
+      "of": "847f6f4b",
+      "at": [
+        "carmel-christian:divisions[1].departments[0].courses[0].description"
+      ]
+    },
+    {
+      "t": "Seventh Grade Bible",
+      "of": "fefe097f",
+      "at": [
+        "carmel-christian:divisions[1].departments[0].courses[1].title"
+      ]
+    },
+    {
+      "t": "ग्रेड-7 Bible course।",
+      "of": "4ad5b87c",
+      "at": [
+        "carmel-christian:divisions[1].departments[0].courses[1].description"
+      ]
+    },
+    {
+      "t": "Eighth Grade Bible",
+      "of": "42486ca5",
+      "at": [
+        "carmel-christian:divisions[1].departments[0].courses[2].title"
+      ]
+    },
+    {
+      "t": "ग्रेड-8 Bible course।",
+      "of": "11e3db79",
+      "at": [
+        "carmel-christian:divisions[1].departments[0].courses[2].description"
+      ]
+    },
+    {
+      "t": "Language Arts 6",
+      "of": "b59687b1",
+      "at": [
+        "carmel-christian:divisions[1].departments[1].courses[0].title"
+      ]
+    },
+    {
+      "t": "ग्रेड-6 language-arts course।",
+      "of": "cd1cfee2",
+      "at": [
+        "carmel-christian:divisions[1].departments[1].courses[0].description"
+      ]
+    },
+    {
+      "t": "Language Arts 7",
+      "of": "b496861e",
+      "at": [
+        "carmel-christian:divisions[1].departments[1].courses[1].title"
+      ]
+    },
+    {
+      "t": "ग्रेड-7 language-arts course।",
+      "of": "f1b2815d",
+      "at": [
+        "carmel-christian:divisions[1].departments[1].courses[1].description"
+      ]
+    },
+    {
+      "t": "Language Arts 8",
+      "of": "af967e3f",
+      "at": [
+        "carmel-christian:divisions[1].departments[1].courses[2].title"
+      ]
+    },
+    {
+      "t": "ग्रेड-8 language-arts course।",
+      "of": "5af0608c",
+      "at": [
+        "carmel-christian:divisions[1].departments[1].courses[2].description"
+      ]
+    },
+    {
+      "t": "Honors Level Courses",
+      "of": "b22b0dc8",
+      "at": [
+        "carmel-christian:divisions[1].departments[1].courses[3].title"
+      ]
+    },
+    {
+      "t": "honors-ट्रैक language arts, ग्रेड 6–8 में प्रदान की जाती है।",
+      "of": "f84a371d",
+      "at": [
+        "carmel-christian:divisions[1].departments[1].courses[3].description"
+      ]
+    },
+    {
+      "t": "Advanced Seminar Courses",
+      "of": "466bda26",
+      "at": [
+        "carmel-christian:divisions[1].departments[1].courses[4].title",
+        "carmel-christian:divisions[1].departments[2].courses[6].title"
+      ]
+    },
+    {
+      "t": "CCS Pathways",
+      "of": "ef5834d7",
+      "at": [
+        "carmel-christian:divisions[1].departments[1].courses[4].tag",
+        "carmel-christian:divisions[1].departments[2].courses[6].tag"
+      ]
+    },
+    {
+      "t": "CCS Pathways के माध्यम से advanced-seminar language arts, ग्रेड 6–8।",
+      "of": "48b7f84b",
+      "at": [
+        "carmel-christian:divisions[1].departments[1].courses[4].description"
+      ]
+    },
+    {
+      "t": "ग्रेड-6 mathematics course।",
+      "of": "355776b7",
+      "at": [
+        "carmel-christian:divisions[1].departments[2].courses[0].description"
+      ]
+    },
+    {
+      "t": "Math 6 Honors",
+      "of": "a2c6cd96",
+      "at": [
+        "carmel-christian:divisions[1].departments[2].courses[1].title"
+      ]
+    },
+    {
+      "t": "honors ग्रेड-6 mathematics course।",
+      "of": "eaea780a",
+      "at": [
+        "carmel-christian:divisions[1].departments[2].courses[1].description"
+      ]
+    },
+    {
+      "t": "ग्रेड-7 mathematics course।",
+      "of": "8e2c4d2c",
+      "at": [
+        "carmel-christian:divisions[1].departments[2].courses[2].description"
+      ]
+    },
+    {
+      "t": "pre-algebra course।",
+      "of": "c5693d21",
+      "at": [
+        "carmel-christian:divisions[1].departments[2].courses[3].description"
+      ]
+    },
+    {
+      "t": "Pre-Algebra Honors",
+      "of": "cbe14f60",
+      "at": [
+        "carmel-christian:divisions[1].departments[2].courses[4].title"
+      ]
+    },
+    {
+      "t": "honors pre-algebra course।",
+      "of": "857b0eb8",
+      "at": [
+        "carmel-christian:divisions[1].departments[2].courses[4].description"
+      ]
+    },
+    {
+      "t": "middle school में honors credit के लिए लिया गया high-school Algebra I।",
+      "of": "003b87af",
+      "at": [
+        "carmel-christian:divisions[1].departments[2].courses[5].description"
+      ]
+    },
+    {
+      "t": "CCS Pathways के माध्यम से advanced-seminar math, ग्रेड 6–8।",
+      "of": "0e4b5c4b",
+      "at": [
+        "carmel-christian:divisions[1].departments[2].courses[6].description"
+      ]
+    },
+    {
+      "t": "Foundational Spanish",
+      "of": "9cb21631",
+      "at": [
+        "carmel-christian:divisions[1].departments[3].courses[0].title"
+      ]
+    },
+    {
+      "t": "परिचयात्मक middle-school Spanish course।",
+      "of": "1051e32b",
+      "at": [
+        "carmel-christian:divisions[1].departments[3].courses[0].description"
+      ]
+    },
+    {
+      "t": "Spanish 1-A",
+      "of": "9d715492",
+      "at": [
+        "carmel-christian:divisions[1].departments[3].courses[1].title"
+      ]
+    },
+    {
+      "t": "Spanish I अनुक्रम का पहला भाग।",
+      "of": "732b25a9",
+      "at": [
+        "carmel-christian:divisions[1].departments[3].courses[1].description"
+      ]
+    },
+    {
+      "t": "Spanish I-B",
+      "of": "db974e37",
+      "at": [
+        "carmel-christian:divisions[1].departments[3].courses[2].title"
+      ]
+    },
+    {
+      "t": "Spanish I अनुक्रम का दूसरा भाग।",
+      "of": "d05d7c37",
+      "at": [
+        "carmel-christian:divisions[1].departments[3].courses[2].description"
+      ]
+    },
+    {
+      "t": "ग्रेड-6 science course।",
+      "of": "08f7ec8b",
+      "at": [
+        "carmel-christian:divisions[1].departments[4].courses[0].description"
+      ]
+    },
+    {
+      "t": "ग्रेड-7 science course।",
+      "of": "459dae2c",
+      "at": [
+        "carmel-christian:divisions[1].departments[4].courses[1].description"
+      ]
+    },
+    {
+      "t": "ग्रेड-8 science course।",
+      "of": "b616b301",
+      "at": [
+        "carmel-christian:divisions[1].departments[4].courses[2].description"
+      ]
+    },
+    {
+      "t": "World Studies I: Development of Civilizations",
+      "of": "460cc927",
+      "at": [
+        "carmel-christian:divisions[1].departments[5].courses[0].title"
+      ]
+    },
+    {
+      "t": "ग्रेड-6 social-studies course।",
+      "of": "f12bb946",
+      "at": [
+        "carmel-christian:divisions[1].departments[5].courses[0].description"
+      ]
+    },
+    {
+      "t": "World Studies II: Modern Era",
+      "of": "f212dd4b",
+      "at": [
+        "carmel-christian:divisions[1].departments[5].courses[1].title"
+      ]
+    },
+    {
+      "t": "ग्रेड-7 social-studies course।",
+      "of": "7d235783",
+      "at": [
+        "carmel-christian:divisions[1].departments[5].courses[1].description"
+      ]
+    },
+    {
+      "t": "North Carolina and American History",
+      "of": "952fafa6",
+      "at": [
+        "carmel-christian:divisions[1].departments[5].courses[2].title"
+      ]
+    },
+    {
+      "t": "ग्रेड-8 social-studies course।",
+      "of": "beb3f384",
+      "at": [
+        "carmel-christian:divisions[1].departments[5].courses[2].description"
+      ]
+    },
+    {
+      "t": "Physical Activity Electives",
+      "of": "fa55d9cd",
+      "at": [
+        "carmel-christian:divisions[1].departments[6].name"
+      ]
+    },
+    {
+      "t": "middle-school physical education।",
+      "of": "4c1798bc",
+      "at": [
+        "carmel-christian:divisions[1].departments[6].courses[0].description"
+      ]
+    },
+    {
+      "t": "Pilates",
+      "of": "f5faf1d7",
+      "at": [
+        "carmel-christian:divisions[1].departments[6].courses[1].title"
+      ]
+    },
+    {
+      "t": "Pilates में एक physical-activity elective।",
+      "of": "957044f3",
+      "at": [
+        "carmel-christian:divisions[1].departments[6].courses[1].description"
+      ]
+    },
+    {
+      "t": "Arts Electives",
+      "of": "6068ffcf",
+      "at": [
+        "carmel-christian:divisions[1].departments[7].name"
+      ]
+    },
+    {
+      "t": "Art Foundations",
+      "of": "cefe9968",
+      "at": [
+        "carmel-christian:divisions[1].departments[7].courses[0].title"
+      ]
+    },
+    {
+      "t": "प्रवेश-स्तरीय visual-art elective।",
+      "of": "9326d53b",
+      "at": [
+        "carmel-christian:divisions[1].departments[7].courses[0].description"
+      ]
+    },
+    {
+      "t": "Middle School Art",
+      "of": "8bb2de41",
+      "at": [
+        "carmel-christian:divisions[1].departments[7].courses[1].title"
+      ]
+    },
+    {
+      "t": "जारी रहने वाली visual-art elective।",
+      "of": "5005e69d",
+      "at": [
+        "carmel-christian:divisions[1].departments[7].courses[1].description"
+      ]
+    },
+    {
+      "t": "digital photography में एक visual-art elective।",
+      "of": "1d559efd",
+      "at": [
+        "carmel-christian:divisions[1].departments[7].courses[2].description"
+      ]
+    },
+    {
+      "t": "Carmel Christian Choir",
+      "of": "b73a7251",
+      "at": [
+        "carmel-christian:divisions[1].departments[7].courses[3].title"
+      ]
+    },
+    {
+      "t": "middle-school choir।",
+      "of": "73f4053b",
+      "at": [
+        "carmel-christian:divisions[1].departments[7].courses[3].description"
+      ]
+    },
+    {
+      "t": "Middle School Band",
+      "of": "720dc0bb",
+      "at": [
+        "carmel-christian:divisions[1].departments[7].courses[4].title"
+      ]
+    },
+    {
+      "t": "middle-school band।",
+      "of": "8169abbb",
+      "at": [
+        "carmel-christian:divisions[1].departments[7].courses[4].description"
+      ]
+    },
+    {
+      "t": "Ignite Praise Band",
+      "of": "fdcc7b94",
+      "at": [
+        "carmel-christian:divisions[1].departments[7].courses[5].title"
+      ]
+    },
+    {
+      "t": "audition-आधारित chapel worship band।",
+      "of": "54a220a1",
+      "at": [
+        "carmel-christian:divisions[1].departments[7].courses[5].description"
+      ]
+    },
+    {
+      "t": "Beginning Theatre",
+      "of": "3c8c380b",
+      "at": [
+        "carmel-christian:divisions[1].departments[7].courses[6].title"
+      ]
+    },
+    {
+      "t": "प्रवेश-स्तरीय theatre elective।",
+      "of": "3c5c33c8",
+      "at": [
+        "carmel-christian:divisions[1].departments[7].courses[6].description"
+      ]
+    },
+    {
+      "t": "Theatre Arts",
+      "of": "08d00d7e",
+      "at": [
+        "carmel-christian:divisions[1].departments[7].courses[7].title"
+      ]
+    },
+    {
+      "t": "जारी रहने वाली theatre elective।",
+      "of": "bd2514be",
+      "at": [
+        "carmel-christian:divisions[1].departments[7].courses[7].description"
+      ]
+    },
+    {
+      "t": "Dance Foundations",
+      "of": "14c87ae2",
+      "at": [
+        "carmel-christian:divisions[1].departments[7].courses[8].title"
+      ]
+    },
+    {
+      "t": "एक movement/dance elective।",
+      "of": "fa07088e",
+      "at": [
+        "carmel-christian:divisions[1].departments[7].courses[8].description"
+      ]
+    },
+    {
+      "t": "Studio Theatre",
+      "of": "6597bf88",
+      "at": [
+        "carmel-christian:divisions[1].departments[7].courses[9].title"
+      ]
+    },
+    {
+      "t": "एक advanced theatre elective।",
+      "of": "cf630518",
+      "at": [
+        "carmel-christian:divisions[1].departments[7].courses[9].description"
+      ]
+    },
+    {
+      "t": "Core Content Electives",
+      "of": "065bc887",
+      "at": [
+        "carmel-christian:divisions[1].departments[8].name"
+      ]
+    },
+    {
+      "t": "Life Skills",
+      "of": "42a28f27",
+      "at": [
+        "carmel-christian:divisions[1].departments[8].courses[0].title"
+      ]
+    },
+    {
+      "t": "एक सेमेस्टर-भर की core-content elective।",
+      "of": "96ef82f9",
+      "at": [
+        "carmel-christian:divisions[1].departments[8].courses[0].description",
+        "carmel-christian:divisions[1].departments[8].courses[1].description",
+        "carmel-christian:divisions[1].departments[8].courses[2].description",
+        "carmel-christian:divisions[1].departments[8].courses[3].description",
+        "carmel-christian:divisions[1].departments[8].courses[6].description"
+      ]
+    },
+    {
+      "t": "News and Media Production",
+      "of": "4e51251a",
+      "at": [
+        "carmel-christian:divisions[1].departments[8].courses[1].title"
+      ]
+    },
+    {
+      "t": "Sports Science",
+      "of": "fc8053b4",
+      "at": [
+        "carmel-christian:divisions[1].departments[8].courses[2].title"
+      ]
+    },
+    {
+      "t": "Problem Solvers",
+      "of": "a33fe80c",
+      "at": [
+        "carmel-christian:divisions[1].departments[8].courses[3].title"
+      ]
+    },
+    {
+      "t": "Study Hall",
+      "of": "7e263085",
+      "at": [
+        "carmel-christian:divisions[1].departments[8].courses[4].title"
+      ]
+    },
+    {
+      "t": "एक निगरानी-सहित अध्ययन अवधि।",
+      "of": "ef14b196",
+      "at": [
+        "carmel-christian:divisions[1].departments[8].courses[4].description"
+      ]
+    },
+    {
+      "t": "STEM",
+      "of": "b79768d8",
+      "at": [
+        "carmel-christian:divisions[1].departments[8].courses[5].title",
+        "carmel-christian:divisions[2].departments[1].courses[5].title"
+      ]
+    },
+    {
+      "t": "एक सेमेस्टर-भर की STEM elective।",
+      "of": "35ba6f27",
+      "at": [
+        "carmel-christian:divisions[1].departments[8].courses[5].description"
+      ]
+    },
+    {
+      "t": "Food Traveler",
+      "of": "4eea3bf4",
+      "at": [
+        "carmel-christian:divisions[1].departments[8].courses[6].title"
+      ]
+    },
+    {
+      "t": "एक सेमेस्टर-भर की writing elective।",
+      "of": "da27b498",
+      "at": [
+        "carmel-christian:divisions[1].departments[8].courses[7].description"
+      ]
+    },
+    {
+      "t": "Christian Leadership",
+      "of": "7dddde73",
+      "at": [
+        "carmel-christian:divisions[1].departments[8].courses[8].title"
+      ]
+    },
+    {
+      "t": "एक सेमेस्टर-भर की leadership elective।",
+      "of": "a3aca2f1",
+      "at": [
+        "carmel-christian:divisions[1].departments[8].courses[8].description"
+      ]
+    },
+    {
+      "t": "Exploring Design Technology",
+      "of": "89b701af",
+      "at": [
+        "carmel-christian:divisions[1].departments[8].courses[9].title"
+      ]
+    },
+    {
+      "t": "एक सेमेस्टर-भर की design-technology elective।",
+      "of": "1351b4f3",
+      "at": [
+        "carmel-christian:divisions[1].departments[8].courses[9].description"
+      ]
+    },
+    {
+      "t": "KINDERGARTEN – GRADE 5",
+      "of": "01b598a8",
+      "at": [
+        "carmel-christian:divisions[2].grades"
+      ]
+    },
+    {
+      "t": "पाँच core विषय और साथ ही छह Special Areas, प्रत्येक का प्रति-ग्रेड वर्णन 2026-27 Elementary Course Description Guide में — किंडरगार्टन से संरचित literacy (Orton-Gillingham) और एक hands-on STEM lab।",
+      "of": "300044c7",
+      "at": [
+        "carmel-christian:divisions[2].teaser"
+      ]
+    },
+    {
+      "t": "elementary guide हर विषय को अलग-अलग नामित courses के बजाय ग्रेड के अनुसार वर्णित करता है (जैसे प्रति ग्रेड \"Math\"), जो K–5 के लिए सामान्य है; नीचे की पंक्तियाँ guide के अपने प्रति-ग्रेड वर्णन रखती हैं।",
+      "of": "fd7ffacd",
+      "at": [
+        "carmel-christian:divisions[2].notPublished"
+      ]
+    },
+    {
+      "t": "K–Gr 5",
+      "of": "4e15bb39",
+      "at": [
+        "carmel-christian:divisions[2].departments[0].courses[0].tag",
+        "carmel-christian:divisions[2].departments[0].courses[1].tag",
+        "carmel-christian:divisions[2].departments[0].courses[2].tag",
+        "carmel-christian:divisions[2].departments[0].courses[3].tag",
+        "carmel-christian:divisions[2].departments[0].courses[4].tag",
+        "carmel-christian:divisions[2].departments[1].courses[0].tag",
+        "carmel-christian:divisions[2].departments[1].courses[1].tag",
+        "carmel-christian:divisions[2].departments[1].courses[2].tag",
+        "carmel-christian:divisions[2].departments[1].courses[3].tag",
+        "carmel-christian:divisions[2].departments[1].courses[4].tag",
+        "carmel-christian:divisions[2].departments[1].courses[5].tag"
+      ]
+    },
+    {
+      "t": "Creation तथा Old और New Testaments के माध्यम से ईश्वर कौन है, Bible-study कौशल और Christian living, साप्ताहिक scripture memorization और chapel के साथ जो हर विषय में एक biblical worldview को सुदृढ़ करते हैं।",
+      "of": "a51a1b30",
+      "at": [
+        "carmel-christian:divisions[2].departments[0].courses[0].description"
+      ]
+    },
+    {
+      "t": "किंडरगार्टन में foundational number sense जो Grade 5 तक fraction operations, volume, measurement, decimals, geometry और coordinate planes तक बढ़ता है — पूरे दौरान visual models, hands-on गतिविधियाँ और word-problem तर्क।",
+      "of": "a4ec24fb",
+      "at": [
+        "carmel-christian:divisions[2].departments[0].courses[1].description"
+      ]
+    },
+    {
+      "t": "Science of Reading में निहित एक multisensory literacy block, Orton-Gillingham phonics के साथ; strands में phonemic awareness, phonics और morphology, reading (Grade 1 से Accelerated Reader), grammar (Grade 5 तक Analytical Grammar), composition और handwriting शामिल हैं।",
+      "of": "ab9ec485",
+      "at": [
+        "carmel-christian:divisions[2].departments[0].courses[2].description"
+      ]
+    },
+    {
+      "t": "life, physical और earth/space science में ईश्वर की creation का inquiry-आधारित, hands-on अध्ययन, जो ग्रेड के अनुसार plants और matter से water और climate, energy और environments, तथा living systems तक बढ़ता है।",
+      "of": "b804c69b",
+      "at": [
+        "carmel-christian:divisions[2].departments[0].courses[3].description"
+      ]
+    },
+    {
+      "t": "एक biblical worldview से civics, culture, economics, geography और history, जो community themes से होते हुए US history, North Carolina history (Grade 4) और 1880s तक की प्रारंभिक American history (Grade 5) तक बढ़ता है।",
+      "of": "8020c065",
+      "at": [
+        "carmel-christian:divisions[2].departments[0].courses[4].description"
+      ]
+    },
+    {
+      "t": "Special Areas (सभी ग्रेड)",
+      "of": "02378ec6",
+      "at": [
+        "carmel-christian:divisions[2].departments[1].name"
+      ]
+    },
+    {
+      "t": "Foundational निर्माण कौशल — painting, drawing, cutting, collage — art के तत्वों, art शब्दावली और self-assessment के साथ, रचनात्मकता को ईश्वर के design की अभिव्यक्ति के रूप में प्रस्तुत करते हुए।",
+      "of": "1f46a066",
+      "at": [
+        "carmel-christian:divisions[2].departments[1].courses[0].description"
+      ]
+    },
+    {
+      "t": "songs, games, literature, art और technology के माध्यम से संचार के तीन modes — interpretive, interpersonal और presentational — में भाषा विकास।",
+      "of": "d9d06b97",
+      "at": [
+        "carmel-christian:divisions[2].departments[1].courses[1].description"
+      ]
+    },
+    {
+      "t": "Media / Technology",
+      "of": "919ae19c",
+      "at": [
+        "carmel-christian:divisions[2].departments[1].courses[2].title"
+      ]
+    },
+    {
+      "t": "Digital resources, Google Classroom और Chrome, तथा बुनियादी keyboarding और coding, Media Specialist और Technology Specialist के साथ पढ़ाया गया।",
+      "of": "2399a257",
+      "at": [
+        "carmel-christian:divisions[2].departments[1].courses[2].description"
+      ]
+    },
+    {
+      "t": "worship के एक रूप के रूप में music literacy, प्रतिक्रिया और प्रासंगिकता — music के तत्व और hand drums, kazoos तथा boomwhackers पर foundational कौशल, अंतरविषयक संबंधों के साथ।",
+      "of": "c1252c6f",
+      "at": [
+        "carmel-christian:divisions[2].departments[1].courses[3].description"
+      ]
+    },
+    {
+      "t": "Spatial awareness, games, fitness चुनौतियाँ, fine- और large-motor विकास, teamwork और व्यक्तिगत तथा सामाजिक ज़िम्मेदारी की नींव।",
+      "of": "93e50e16",
+      "at": [
+        "carmel-christian:divisions[2].departments[1].courses[4].description"
+      ]
+    },
+    {
+      "t": "STEM Lab — engineering builds, Dash-robot coding, codable Lego kits और 3D-printer designs, अक्सर सीधे classroom science curriculum से जुड़े हुए।",
+      "of": "0ccd01bd",
+      "at": [
+        "carmel-christian:divisions[2].departments[1].courses[5].description"
       ]
     }
   ]

@@ -326,7 +326,6 @@ export const carmelChristian: CollegeSupportProgram = {
       { value: '4-year', label: 'published grade-by-grade College Planning Timeline' },
       { value: '2 / yr', label: 'excused college-visit absences per student' },
     ],
-    rosterTitle: 'Who’s in the office',
     roster: [
       {
         role: 'College Counselor',
@@ -388,7 +387,6 @@ export const carmelChristian: CollegeSupportProgram = {
     ],
     mechanicsNote:
       'That is the office’s own published “Anatomy of a College Application” framework, verbatim — eight named parts. The signature “College Boot Camp” bundles a Boot Camp Day with follow-up “Logins and Letters” sessions; a student essay-writing workshop plus proofing runs alongside, with the 11th-grade rough draft read by Berry and English faculty.',
-    reachTitle: 'The office’s reach',
     reach: [
       'College rep visits during Monday/Wednesday Crew classes or lunch (5–20 minutes each)',
       'A **College Admissions Panel** — public, private and Christian-college reps, a financial-aid officer, a Marine recruiter and a campus minister',

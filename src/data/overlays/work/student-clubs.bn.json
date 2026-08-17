@@ -321,7 +321,9 @@
         "providence-day:honors.societies[0].feedsFrom",
         "charlotte-latin:honors.societies[0].feedsFrom",
         "charlotte-country-day:honors.societies[0].feedsFrom",
-        "cannon:honors.societies[0].feedsFrom"
+        "cannon:honors.societies[0].feedsFrom",
+        "carmel-christian:honors.societies[0].feedsFrom",
+        "carmel-christian:honors.societies[3].feedsFrom"
       ],
       "t": "শ্রেণিকক্ষ"
     },
@@ -340,7 +342,8 @@
         "providence-day:honors.societies[1].feedsFrom",
         "charlotte-christian:honors.societies[0].feedsFrom",
         "charlotte-country-day:honors.societies[1].feedsFrom",
-        "charlotte-country-day:honors.societies[2].feedsFrom"
+        "charlotte-country-day:honors.societies[2].feedsFrom",
+        "carmel-christian:honors.societies[1].feedsFrom"
       ],
       "t": "শ্রেণিকক্ষ + সেবা"
     },
@@ -395,7 +398,8 @@
         "charlotte-christian:honors.societies[4].feedsFrom",
         "cannon:honors.societies[8].feedsFrom",
         "cannon:honors.societies[9].feedsFrom",
-        "cannon:honors.societies[10].feedsFrom"
+        "cannon:honors.societies[10].feedsFrom",
+        "carmel-christian:honors.societies[2].feedsFrom"
       ],
       "t": "বিশ্বভাষা"
     },
@@ -433,7 +437,8 @@
         "charlotte-country-day:clusters.verdictHint",
         "cannon:clusters.verdictHint",
         "covenant-day:clusters.verdictHint",
-        "davidson-day:clusters.verdictHint"
+        "davidson-day:clusters.verdictHint",
+        "carmel-christian:clusters.verdictHint"
       ],
       "t": "পূর্ণ গবেষণা-নোট ও তার সূত্র দেখতে যেকোনো সারি খুলুন।"
     },
@@ -1340,7 +1345,10 @@
         "covenant-day:clusters.rows[3].evidenceLabel",
         "davidson-day:clusters.rows[1].evidenceLabel",
         "davidson-day:clusters.rows[2].evidenceLabel",
-        "davidson-day:catalog.divisions[0].tag"
+        "davidson-day:catalog.divisions[0].tag",
+        "carmel-christian:catalog.divisions[0].tag",
+        "carmel-christian:catalog.divisions[1].tag",
+        "carmel-christian:catalog.divisions[2].tag"
       ],
       "t": "স্কুলের দেওয়া তথ্য"
     },
@@ -1823,7 +1831,8 @@
         "charlotte-country-day:catalog.categories[2].full",
         "cannon:catalog.categories[3].short",
         "cannon:catalog.categories[3].full",
-        "davidson-day:catalog.categories[2].short"
+        "davidson-day:catalog.categories[2].short",
+        "carmel-christian:catalog.categories[2].short"
       ],
       "t": "সেবা"
     },
@@ -2095,7 +2104,8 @@
       "text": "Middle School (6–8)",
       "of": "6ad60afc",
       "at": [
-        "charlotte-latin:catalog.divisions[0].label"
+        "charlotte-latin:catalog.divisions[0].label",
+        "carmel-christian:catalog.divisions[1].label"
       ],
       "t": "Middle School (6–8)"
     },
@@ -2528,7 +2538,8 @@
       "of": "fa4511f1",
       "at": [
         "charlotte-christian:catalog.categories[1].short",
-        "covenant-day:catalog.categories[1].full"
+        "covenant-day:catalog.categories[1].full",
+        "carmel-christian:catalog.categories[0].short"
       ],
       "t": "Honor society"
     },
@@ -2536,7 +2547,8 @@
       "text": "Honor society",
       "of": "c53b433d",
       "at": [
-        "charlotte-christian:catalog.categories[1].full"
+        "charlotte-christian:catalog.categories[1].full",
+        "carmel-christian:catalog.categories[0].full"
       ],
       "t": "Honor society"
     },
@@ -3734,7 +3746,8 @@
       "text": "named orgs",
       "of": "99a4be51",
       "at": [
-        "cannon:catalog.countNoun"
+        "cannon:catalog.countNoun",
+        "carmel-christian:catalog.countNoun"
       ],
       "t": "নামভুক্ত সংগঠন"
     },
@@ -3929,7 +3942,8 @@
       "text": "Student-initiated model",
       "of": "01f81999",
       "at": [
-        "cannon:catalog.divisions[0].label"
+        "cannon:catalog.divisions[0].label",
+        "carmel-christian:catalog.divisions[0].label"
       ],
       "t": "শিক্ষার্থী-সূচিত মডেল"
     },
@@ -4724,6 +4738,335 @@
         "davidson-day:catalog.divisions[0].text"
       ],
       "t": "ক্লাবগুলোর পাশাপাশি স্কুল-পরিচালিত কাঠামো: AFAR-এর প্রত্নতাত্ত্বিক মাঠগবেষণা, Community Engagement Councils ও Patriot Week সেবা কাঠামো, Student Diversity Council, National Honor Society, Middle School-এর Battle of the Books দল, এবং House System ও Patriot Pals-এর মতো রীতি।"
+    },
+    {
+      "text": "A high-school discipleship-and-service organization where students mentor Extended-Day children weekly — the school’s one standing service org, entered by application and interview.",
+      "of": "069b977f",
+      "at": [
+        "carmel-christian:service.headline"
+      ],
+      "t": "একটি high-school discipleship-ও-service সংগঠন যেখানে শিক্ষার্থীরা প্রতি সপ্তাহে Extended-Day শিশুদের mentor করে — স্কুলের একমাত্র স্থায়ী service org, আবেদন ও interview-এর মাধ্যমে প্রবেশযোগ্য।"
+    },
+    {
+      "text": "Service is a published graduation-adjacent expectation here: a minimum of 20 service hours per grade level in high school, met partly through J-Term and Beta Club rather than a single logged total.",
+      "of": "dc675754",
+      "at": [
+        "carmel-christian:service.subhead"
+      ],
+      "t": "এখানে সেবা একটি প্রকাশিত graduation-সংলগ্ন প্রত্যাশা: high school-এ প্রতি গ্রেড স্তরে ন্যূনতম 20 service hours, যা একটি একক লগ করা মোটের বদলে আংশিকভাবে J-Term ও Beta Club-এর মাধ্যমে পূরণ হয়।"
+    },
+    {
+      "text": "Mon–Fri · 3:30–4:30 · HS mentors",
+      "of": "1361006a",
+      "at": [
+        "carmel-christian:service.programs[0].valueLabel"
+      ],
+      "t": "Mon–Fri · 3:30–4:30 · HS mentor"
+    },
+    {
+      "text": "High school students mentor children in the school’s Extended-Day program, entered by application, teacher recommendation, a September interview and October training. It is the one standing high-school service and discipleship organization, run on a fixed weekly schedule rather than as an opt-in sign-up.",
+      "of": "d1e93b00",
+      "at": [
+        "carmel-christian:service.programs[0].detail"
+      ],
+      "t": "High school শিক্ষার্থীরা স্কুলের Extended-Day প্রোগ্রামে শিশুদের mentor করে, আবেদন, শিক্ষকের সুপারিশ, একটি September interview ও October প্রশিক্ষণের মাধ্যমে প্রবেশযোগ্য। এটি একমাত্র স্থায়ী high-school service ও discipleship সংগঠন, একটি opt-in sign-up-এর বদলে একটি নির্দিষ্ট সাপ্তাহিক সূচিতে চলে।"
+    },
+    {
+      "text": "required per grade level · high school",
+      "of": "cada6b1f",
+      "at": [
+        "carmel-christian:service.programs[1].valueLabel"
+      ],
+      "t": "প্রতি গ্রেড স্তরে প্রয়োজনীয় · high school"
+    },
+    {
+      "text": "\"A minimum of 20 hours are the required service hours per grade level.\" J-Term service hours can count toward the requirement (up to 20 per J-Term course), and Beta Club adds its own 10 hours per semester. No school-wide cumulative total is published.",
+      "of": "70419ba5",
+      "at": [
+        "carmel-christian:service.programs[1].detail"
+      ],
+      "t": "\"A minimum of 20 hours are the required service hours per grade level.\" J-Term service hours প্রয়োজনীয়তার দিকে গণ্য হতে পারে (প্রতি J-Term কোর্সে সর্বোচ্চ 20), এবং Beta Club প্রতি সেমিস্টারে তার নিজস্ব 10 hours যোগ করে। কোনো স্কুল-ব্যাপী ক্রমসঞ্চিত মোট প্রকাশিত নয়।"
+    },
+    {
+      "text": "week-long · graduation requirement",
+      "of": "a948014e",
+      "at": [
+        "carmel-christian:service.programs[2].valueLabel"
+      ],
+      "t": "সপ্তাহ-দীর্ঘ · graduation প্রয়োজনীয়তা"
+    },
+    {
+      "text": "A mandatory week-long J-Term course is a graduation requirement and can include mission trips; the high school also runs international missions trips. See You at the Pole, the annual student prayer gathering, is led by the MS SGA and HS Student Council.",
+      "of": "e6c24b44",
+      "at": [
+        "carmel-christian:service.programs[2].detail"
+      ],
+      "t": "একটি বাধ্যতামূলক সপ্তাহ-দীর্ঘ J-Term কোর্স একটি graduation প্রয়োজনীয়তা এবং mission trip অন্তর্ভুক্ত করতে পারে; high school আন্তর্জাতিক missions trip-ও চালায়। See You at the Pole, বার্ষিক শিক্ষার্থী prayer সমাবেশ, MS SGA ও HS Student Council দ্বারা পরিচালিত।"
+    },
+    {
+      "text": "Beyond the standing org",
+      "of": "5f655015",
+      "at": [
+        "carmel-christian:service.footnoteTitle"
+      ],
+      "t": "স্থায়ী org-এর বাইরে"
+    },
+    {
+      "text": "Spiritual-life traditions carry the rest of the program: the Windy Gap fall spiritual retreat in the NC mountains for Middle and High School, See You at the Pole, and Christmas and Spring Arts programs. Cornerstone Prayer Ministry is a parent gathering, not a student organization, and is not counted here.",
+      "of": "813d9b0b",
+      "at": [
+        "carmel-christian:service.footnote"
+      ],
+      "t": "Spiritual-life ঐতিহ্য প্রোগ্রামের বাকিটা বহন করে: Middle ও High School-এর জন্য NC পাহাড়ে Windy Gap fall spiritual retreat, See You at the Pole, এবং Christmas ও Spring Arts প্রোগ্রাম। Cornerstone Prayer Ministry একটি অভিভাবক সমাবেশ, একটি শিক্ষার্থী সংগঠন নয়, এবং এখানে গণ্য করা হয়নি।"
+    },
+    {
+      "text": "The 20-hour service requirement is an individual expectation, not a membership, and J-Term is a required course rather than a club. Cornerstone Prayer Ministry is a parent/family prayer gathering, not a student organization. Only the Timothy Project is a standing student service org.",
+      "of": "d026d235",
+      "at": [
+        "carmel-christian:service.flags[0].text"
+      ],
+      "t": "20-hour service প্রয়োজনীয়তা একটি ব্যক্তিগত প্রত্যাশা, একটি membership নয়, এবং J-Term একটি ক্লাবের বদলে একটি প্রয়োজনীয় কোর্স। Cornerstone Prayer Ministry একটি অভিভাবক/পরিবার prayer সমাবেশ, একটি শিক্ষার্থী সংগঠন নয়। কেবল Timothy Project-ই একটি স্থায়ী শিক্ষার্থী service org।"
+    },
+    {
+      "text": "No school-wide cumulative service-hours total is published, and figures rest on the 2021–22 Family Handbook (the newest published edition), so they are current but date-sensitive.",
+      "of": "0d947277",
+      "at": [
+        "carmel-christian:service.flags[1].text"
+      ],
+      "t": "কোনো স্কুল-ব্যাপী ক্রমসঞ্চিত service-hours মোট প্রকাশিত নয়, এবং সংখ্যাগুলো 2021–22 Family Handbook-এর (নবীনতম প্রকাশিত সংস্করণ) ওপর নির্ভর করে, তাই এগুলো বর্তমান কিন্তু তারিখ-সংবেদনশীল।"
+    },
+    {
+      "text": "Four documented societies — three high-school chapters plus a middle-school junior society — each with published GPA and induction detail.",
+      "of": "4de66502",
+      "at": [
+        "carmel-christian:honors.headline"
+      ],
+      "t": "চারটি নথিভুক্ত society — তিনটি high-school chapter এবং একটি middle-school junior society — প্রতিটি প্রকাশিত GPA ও induction বিবরণসহ।"
+    },
+    {
+      "text": "Entered by achievement and application: the school publishes GPA thresholds and induction windows for its academic societies rather than a standing directory page.",
+      "of": "960c9c8a",
+      "at": [
+        "carmel-christian:honors.subhead"
+      ],
+      "t": "অর্জন ও আবেদনের মাধ্যমে প্রবেশযোগ্য: স্কুল একটি স্থায়ী directory পৃষ্ঠার বদলে তার academic society-গুলোর জন্য GPA থ্রেশহোল্ড ও induction উইন্ডো প্রকাশ করে।"
+    },
+    {
+      "text": "Scholarship, leadership, service and character — 3.85 weighted GPA (3.75 unweighted from the class of 2024); by application, with October inductions",
+      "of": "0fbde75e",
+      "at": [
+        "carmel-christian:honors.societies[0].recognizes"
+      ],
+      "t": "Scholarship, leadership, service ও character — 3.85 weighted GPA (class of 2024 থেকে 3.75 unweighted); আবেদনের মাধ্যমে, October induction-সহ"
+    },
+    {
+      "text": "Academic achievement and service — grades 10–12, 3.50 GPA, 10 service hours per semester and 2 service projects per year; fall inductions",
+      "of": "29c908a6",
+      "at": [
+        "carmel-christian:honors.societies[1].recognizes"
+      ],
+      "t": "Academic অর্জন ও service — গ্রেড 10–12, 3.50 GPA, প্রতি সেমিস্টারে 10 service hours এবং প্রতি বছরে 2টি service project; fall induction"
+    },
+    {
+      "text": "Spanish-language achievement — the \"CCS Chapter of SHS\"",
+      "of": "5b9a38b1",
+      "at": [
+        "carmel-christian:honors.societies[2].recognizes"
+      ],
+      "t": "Spanish-ভাষা অর্জন — \"CCS Chapter of SHS\""
+    },
+    {
+      "text": "Scholarship and character for 8th graders — 3.8+ GPA; October inductions",
+      "of": "90202933",
+      "at": [
+        "carmel-christian:honors.societies[3].recognizes"
+      ],
+      "t": "8th grader-দের জন্য scholarship ও character — 3.8+ GPA; October induction"
+    },
+    {
+      "text": "The school publishes no standing honor-society page — divisions, GPA thresholds and induction windows are transcribed from the 2021–22 Family Handbook, so faculty-sponsor names and current member counts are unstated. The Spanish Honor Society’s most recent evidence is the 2021–22 senior-cords table, so whether the chapter is still active is unconfirmed.",
+      "of": "c628fc0c",
+      "at": [
+        "carmel-christian:honors.flags[0].text"
+      ],
+      "t": "স্কুল কোনো স্থায়ী honor-society পৃষ্ঠা প্রকাশ করে না — বিভাগ, GPA থ্রেশহোল্ড ও induction উইন্ডো 2021–22 Family Handbook থেকে প্রতিলিপি করা, তাই faculty-sponsor নাম ও বর্তমান সদস্য সংখ্যা উল্লিখিত নয়। Spanish Honor Society-র সবচেয়ে সাম্প্রতিক প্রমাণ 2021–22 senior-cords টেবিল, তাই chapter-টি এখনো সক্রিয় কিনা তা অনিশ্চিত।"
+    },
+    {
+      "text": "No standing academic-competition clubs; academic distinction runs through honor societies.",
+      "of": "198f83e5",
+      "at": [
+        "carmel-christian:clusters.verdict"
+      ],
+      "t": "কোনো স্থায়ী academic-competition ক্লাব নেই; academic স্বাতন্ত্র্য honor society-র মধ্য দিয়ে চলে।"
+    },
+    {
+      "text": "Honor societies →",
+      "of": "48a8bb43",
+      "at": [
+        "carmel-christian:clusters.rows[0].name"
+      ],
+      "t": "অনার সোসাইটি →"
+    },
+    {
+      "text": "National Honor Society, National Beta Club, Spanish Honor Society (+ NJHS in the MS)",
+      "of": "c1dcb6e6",
+      "at": [
+        "carmel-christian:clusters.rows[0].oneLiner"
+      ],
+      "t": "National Honor Society, National Beta Club, Spanish Honor Society (+ MS-এ NJHS)"
+    },
+    {
+      "text": "Handbook",
+      "of": "b94a65c5",
+      "at": [
+        "carmel-christian:clusters.rows[0].evidenceLabel"
+      ],
+      "t": "Handbook"
+    },
+    {
+      "text": "Academic recognition rather than competition: the High School runs the National Honor Society (application; weighted GPA 3.85), the National Beta Club (grades 10–12; GPA 3.50 with service hours), and a Spanish Honor Society, with the National Junior Honor Society for 8th grade in the Middle School. These are the school’s academic distinctions in this area.",
+      "of": "4d75a0bb",
+      "at": [
+        "carmel-christian:clusters.rows[0].note"
+      ],
+      "t": "প্রতিযোগিতার বদলে academic স্বীকৃতি: High School National Honor Society (আবেদন; weighted GPA 3.85), National Beta Club (গ্রেড 10–12; service hours-সহ GPA 3.50), এবং একটি Spanish Honor Society চালায়, Middle School-এ 8th grade-এর জন্য National Junior Honor Society-সহ। এগুলোই এই এলাকায় স্কুলের academic স্বাতন্ত্র্য।"
+    },
+    {
+      "text": "Student-initiated clubs",
+      "of": "f9430809",
+      "at": [
+        "carmel-christian:clusters.rows[1].name"
+      ],
+      "t": "শিক্ষার্থী-উদ্যোগী ক্লাব"
+    },
+    {
+      "text": "No standing robotics, debate, Model UN, mock trial, quiz bowl, or DECA club",
+      "of": "ddf2907f",
+      "at": [
+        "carmel-christian:clusters.rows[1].oneLiner"
+      ],
+      "t": "কোনো স্থায়ী robotics, debate, Model UN, mock trial, quiz bowl বা DECA ক্লাব নেই"
+    },
+    {
+      "text": "Confirmed absent",
+      "of": "66260f9b",
+      "at": [
+        "carmel-christian:clusters.rows[1].evidenceLabel"
+      ],
+      "t": "অনুপস্থিত নিশ্চিত"
+    },
+    {
+      "text": "A deep pass through the handbook, the live site, and third-party aggregators confirmed none of the usual academic-competition clubs run as standing Upper School organizations. Clubs are student-initiated by application, so any such club would depend on students applying to found it in a given year; chess appears only as an Extended-Day enrichment class.",
+      "of": "7571dacf",
+      "at": [
+        "carmel-christian:clusters.rows[1].note"
+      ],
+      "t": "handbook, live সাইট ও তৃতীয়-পক্ষ aggregator-এর মধ্য দিয়ে একটি গভীর পাস নিশ্চিত করেছে যে সাধারণ academic-competition ক্লাবগুলোর কোনোটিই স্থায়ী Upper School সংগঠন হিসেবে চলে না। ক্লাবগুলো আবেদনের মাধ্যমে শিক্ষার্থী-উদ্যোগী, তাই এমন যেকোনো ক্লাব একটি নির্দিষ্ট বছরে তা প্রতিষ্ঠা করতে শিক্ষার্থীরা আবেদন করার ওপর নির্ভর করবে; chess কেবল একটি Extended-Day enrichment ক্লাস হিসেবে দেখা যায়।"
+    },
+    {
+      "text": "Clubs are student-initiated by application, so the standing roster is small — five named Upper School organizations, mostly honor societies, student government, and one service org.",
+      "of": "6aec162a",
+      "at": [
+        "carmel-christian:catalog.verdict"
+      ],
+      "t": "ক্লাবগুলো আবেদনের মাধ্যমে শিক্ষার্থী-উদ্যোগী, তাই স্থায়ী roster ছোট — পাঁচটি নামযুক্ত Upper School সংগঠন, বেশিরভাগই honor society, student government এবং একটি service org।"
+    },
+    {
+      "text": "There is no published club directory; this is what the handbook and school pages confirm.",
+      "of": "c0083880",
+      "at": [
+        "carmel-christian:catalog.verdictHint"
+      ],
+      "t": "কোনো প্রকাশিত ক্লাব directory নেই; handbook ও school পৃষ্ঠাগুলো যা নিশ্চিত করে তা এটাই।"
+    },
+    {
+      "text": "Student government",
+      "of": "134f2c97",
+      "at": [
+        "carmel-christian:catalog.categories[1].short",
+        "carmel-christian:catalog.categories[1].full"
+      ],
+      "t": "স্টুডেন্ট গভর্নমেন্ট"
+    },
+    {
+      "text": "Service / discipleship",
+      "of": "9088343a",
+      "at": [
+        "carmel-christian:catalog.categories[2].full"
+      ],
+      "t": "সেবা / শিষ্যত্ব"
+    },
+    {
+      "text": "High School; application-based (weighted GPA 3.85 → 3.75 unweighted from the Class of 2024), October inductions",
+      "of": "1b4703ef",
+      "at": [
+        "carmel-christian:catalog.clubs[0].note"
+      ],
+      "t": "High School; আবেদন-ভিত্তিক (weighted GPA 3.85 → Class of 2024 থেকে 3.75 unweighted), October induction"
+    },
+    {
+      "text": "High School (grades 10–12); GPA 3.50 with 10 service hours per semester and 2 service projects a year; fall inductions",
+      "of": "31477fc4",
+      "at": [
+        "carmel-christian:catalog.clubs[1].note"
+      ],
+      "t": "High School (গ্রেড 10–12); প্রতি সেমিস্টারে 10 service hours ও প্রতি বছরে 2টি service project-সহ GPA 3.50; fall induction"
+    },
+    {
+      "text": "High School — the \"CCS Chapter of SHS\"; last confirmed in the 2021–22 graduation-cords table",
+      "of": "4344c427",
+      "at": [
+        "carmel-christian:catalog.clubs[2].note"
+      ],
+      "t": "High School — \"CCS Chapter of SHS\"; সর্বশেষ নিশ্চিত হয়েছে 2021–22 graduation-cords টেবিলে"
+    },
+    {
+      "text": "High School; four officers elected each spring and two representatives per grade in the fall",
+      "of": "f5fabb7f",
+      "at": [
+        "carmel-christian:catalog.clubs[3].note"
+      ],
+      "t": "High School; প্রতি বসন্তে চারজন officer নির্বাচিত এবং fall-এ প্রতি গ্রেডে দুজন প্রতিনিধি"
+    },
+    {
+      "text": "High School service / discipleship org — students mentor Extended-Day children; application, teacher rec, September interview, October training, one hour weekly",
+      "of": "619371ea",
+      "at": [
+        "carmel-christian:catalog.clubs[4].note"
+      ],
+      "t": "High School service / discipleship org — শিক্ষার্থীরা Extended-Day শিশুদের mentor করে; আবেদন, শিক্ষকের সুপারিশ, September interview, October প্রশিক্ষণ, সপ্তাহে এক ঘণ্টা"
+    },
+    {
+      "text": "Carmel frames clubs as student-led: a student interested in creating a club requests a form from the High School or Middle School office and applies, and the administration reviews and may accept or deny it. This explains the small standing roster — the active list depends on who applies each year and is not published.",
+      "of": "bdaed44f",
+      "at": [
+        "carmel-christian:catalog.divisions[0].text"
+      ],
+      "t": "Carmel ক্লাবগুলোকে শিক্ষার্থী-নেতৃত্বাধীন হিসেবে উপস্থাপন করে: একটি ক্লাব তৈরিতে আগ্রহী একজন শিক্ষার্থী High School বা Middle School office থেকে একটি ফর্ম চেয়ে আবেদন করে, এবং প্রশাসন পর্যালোচনা করে গ্রহণ বা প্রত্যাখ্যান করতে পারে। এটি ছোট স্থায়ী roster ব্যাখ্যা করে — সক্রিয় তালিকা প্রতি বছর কে আবেদন করে তার ওপর নির্ভর করে এবং প্রকাশিত নয়।"
+    },
+    {
+      "text": "Two named organizations: the Student Government Association (President/VP/Secretary plus two representatives per grade, nine students — Charlotte Rescue Mission project, banquet, Spirit Week) and, for 8th grade, the National Junior Honor Society (GPA 3.8+, October inductions).",
+      "of": "f70a4998",
+      "at": [
+        "carmel-christian:catalog.divisions[1].text"
+      ],
+      "t": "দুটি নামযুক্ত সংগঠন: Student Government Association (President/VP/Secretary এবং প্রতি গ্রেডে দুজন প্রতিনিধি, নয়জন শিক্ষার্থী — Charlotte Rescue Mission project, banquet, Spirit Week) এবং, 8th grade-এর জন্য, National Junior Honor Society (GPA 3.8+, October induction)।"
+    },
+    {
+      "text": "Spiritual life & traditions",
+      "of": "96d40bef",
+      "at": [
+        "carmel-christian:catalog.divisions[2].label"
+      ],
+      "t": "Spiritual life ও ঐতিহ্য"
+    },
+    {
+      "text": "Chapel and tradition rather than clubs: the Ignite Praise Band leads Thursday chapel worship, and the school year runs on the Windy Gap retreat, See You at the Pole (led by the MS SGA and HS Student Council), Spirit Week / Homecoming, J-Term (a graduation-requirement week that can include mission trips), and international missions trips.",
+      "of": "e3695031",
+      "at": [
+        "carmel-christian:catalog.divisions[2].text"
+      ],
+      "t": "ক্লাবের বদলে chapel ও ঐতিহ্য: Ignite Praise Band Thursday chapel worship-এর নেতৃত্ব দেয়, এবং স্কুল বছর চলে Windy Gap retreat, See You at the Pole (MS SGA ও HS Student Council দ্বারা পরিচালিত), Spirit Week / Homecoming, J-Term (একটি graduation-প্রয়োজনীয়তার সপ্তাহ যা mission trip অন্তর্ভুক্ত করতে পারে), এবং আন্তর্জাতিক missions trip-এর ওপর।"
     }
   ]
 }

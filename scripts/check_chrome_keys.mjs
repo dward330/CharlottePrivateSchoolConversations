@@ -35,6 +35,7 @@ import { SKIP_KEYS, PATH_OVERRIDES } from './i18n_fields.mjs'
 const SLUGS = [
   'providence-day', 'charlotte-latin', 'charlotte-christian',
   'charlotte-country-day', 'cannon', 'covenant-day', 'davidson-day',
+  'carmel-christian',
 ]
 
 const TOPICS = {
@@ -53,6 +54,7 @@ const EXPORTS = {
   cannon: 'cannon',
   'covenant-day': 'covenantDay',
   'davidson-day': 'davidsonDay',
+  'carmel-christian': 'carmelChristian',
 }
 
 /**
@@ -67,6 +69,9 @@ const EXPORTS = {
  */
 const CLAIMS = [
   { leaf: 'day', prefix: 'afterSchool.day_', exempt: ['—'] },
+  // Summer camps carry `days: ['Mon','Tue',…]` — the same weekday codes as `day`,
+  // rendered through the same afterSchool.day_* chrome key by dayLabel().
+  { leaf: 'days', prefix: 'afterSchool.day_', exempt: ['—'] },
   { leaf: 'dayFilters', prefix: 'afterSchool.day_', exempt: ['All', '—'] },
   // Grade filters are grade codes (TK, K, 1…8) rendered as-is; only the 'All'
   // sentinel is worded, and it has its own key.

@@ -262,7 +262,6 @@ export const carmelChristian: SportsProgram = {
       { value: '5', label: 'D1 basketball signees, 2024–26' },
     ],
     schedule: [],
-    nilTitle: 'The NIL timeline',
     nil: [
       {
         date: 'August 12, 2025',

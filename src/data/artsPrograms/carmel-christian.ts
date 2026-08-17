@@ -225,7 +225,6 @@ export const carmelChristian: ArtsProgram = {
       { name: 'Creative Writing', detail: 'a High School arts elective' },
       { name: 'Journalism', detail: 'a High School arts elective' },
     ],
-    pathTitle: 'The studio course path',
     path: [
       { name: 'Art I / II' },
       { name: 'Honors Art III / IV' },
@@ -233,7 +232,6 @@ export const carmelChristian: ArtsProgram = {
     ],
     pathNote:
       'This sequence comes from the Course Offerings guide, not the arts page — the two disagree, and the arts page names no leveled sequence at all. Graphic design as a discrete course is not published (TO VERIFY).',
-    exhibitsTitle: 'Where the work goes public',
     exhibits: [
       {
         when: 'Annual',

@@ -35,6 +35,7 @@ import { SKIP_KEYS, PATH_OVERRIDES, REVIEWED_SKIPS, REVIEWED_SKIP_VALUES } from 
 const SLUGS = [
   'providence-day', 'charlotte-latin', 'charlotte-christian',
   'charlotte-country-day', 'cannon', 'covenant-day', 'davidson-day',
+  'carmel-christian',
 ]
 
 const TOPICS = {
@@ -53,6 +54,7 @@ const EXPORTS = {
   cannon: 'cannon',
   'covenant-day': 'covenantDay',
   'davidson-day': 'davidsonDay',
+  'carmel-christian': 'carmelChristian',
 }
 
 const args = process.argv.slice(2)

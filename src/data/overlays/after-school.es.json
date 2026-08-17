@@ -117,7 +117,9 @@
       "at": [
         "providence-day:coverage.facts[2].label",
         "charlotte-country-day:coverage.facts[2].label",
-        "cannon:cost.fees[3].label"
+        "cannon:cost.fees[3].label",
+        "carmel-christian:coverage.facts[4].label",
+        "carmel-christian:cost.fees[4].label"
       ]
     },
     {
@@ -133,7 +135,8 @@
       "at": [
         "providence-day:coverage.facts[3].label",
         "charlotte-christian:coverage.facts[3].label",
-        "cannon:coverage.facts[1].label"
+        "cannon:coverage.facts[1].label",
+        "carmel-christian:coverage.facts[0].label"
       ]
     },
     {
@@ -177,7 +180,8 @@
       "at": [
         "providence-day:cost.periodsLabel",
         "charlotte-christian:cost.periodsLabel",
-        "charlotte-country-day:cost.periodsLabel"
+        "charlotte-country-day:cost.periodsLabel",
+        "carmel-christian:cost.periodsLabel"
       ]
     },
     {
@@ -1244,7 +1248,8 @@
       "t": "Facturado",
       "of": "b4c012ed",
       "at": [
-        "charlotte-latin:cost.fees[0].label"
+        "charlotte-latin:cost.fees[0].label",
+        "carmel-christian:cost.fees[0].label"
       ]
     },
     {
@@ -1261,7 +1266,8 @@
         "charlotte-latin:cost.fees[1].label",
         "charlotte-christian:cost.fees[0].label",
         "cannon:cost.fees[0].label",
-        "covenant-day:cost.fees[2].label"
+        "covenant-day:cost.fees[2].label",
+        "carmel-christian:cost.fees[5].label"
       ]
     },
     {
@@ -1270,7 +1276,9 @@
       "at": [
         "charlotte-latin:cost.fees[1].value",
         "charlotte-latin:cost.fees[2].value",
-        "charlotte-latin:cost.fees[3].value"
+        "charlotte-latin:cost.fees[3].value",
+        "carmel-christian:cost.fees[5].value",
+        "carmel-christian:cost.fees[6].value"
       ]
     },
     {
@@ -1438,7 +1446,8 @@
         "charlotte-latin:dayInside.wordsTitle",
         "charlotte-christian:dayInside.wordsTitle",
         "charlotte-country-day:dayInside.wordsTitle",
-        "cannon:dayInside.wordsTitle"
+        "cannon:dayInside.wordsTitle",
+        "carmel-christian:dayInside.wordsTitle"
       ]
     },
     {
@@ -2732,7 +2741,8 @@
       "of": "966da620",
       "at": [
         "charlotte-country-day:coverage.facts[1].label",
-        "covenant-day:cost.fees[0].label"
+        "covenant-day:cost.fees[0].label",
+        "carmel-christian:coverage.facts[3].label"
       ]
     },
     {
@@ -4960,6 +4970,643 @@
       "of": "4af54c87",
       "at": [
         "davidson-day:verdict.checklist[8]"
+      ]
+    },
+    {
+      "t": "El Extended Day Program abarca desde K hasta el grado 8 hasta las 6:00 p.m., dividido entre el Young Cougars Club de kindergarten y el After School care para los grados 1–8.",
+      "of": "62e5ca2f",
+      "at": [
+        "carmel-christian:coverage.headline"
+      ]
+    },
+    {
+      "t": "El cuidado antes de clase abre a las 7:30 a.m. para los estudiantes de CCS, y una ventana más amplia para hermanos de WEE-School se extiende hasta las 9:00 a.m. Todo el programa se construye sobre la misión “Grow and Go” de la escuela: “GROW to become followers of Christ and GO make Him known to the world.”",
+      "of": "9322bbc1",
+      "at": [
+        "carmel-christian:coverage.subhead"
+      ]
+    },
+    {
+      "t": "Los precios en las barras son la **tarifa mensual de tiempo completo — 5 días a la semana**, facturada a lo largo de 9 meses. Cada sesión también se vende a 3 días a la semana por menos, y sin cita previa a una tarifa fija por día; abre **The Cost Planner** más abajo para calcular el precio de cualquier combinación.",
+      "of": "c3ac9dbd",
+      "at": [
+        "carmel-christian:coverage.basisNote"
+      ]
+    },
+    {
+      "t": "comienza 1:15",
+      "of": "e1999275",
+      "at": [
+        "carmel-christian:coverage.rows[0].dismissal"
+      ]
+    },
+    {
+      "t": "grados 1–8 · K después de YCC",
+      "of": "5941acd2",
+      "at": [
+        "carmel-christian:coverage.rows[1].dismissal"
+      ]
+    },
+    {
+      "t": "estudiantes de CCS **7:30–8:00 a.m.** ($110/mo 5 días); hermanos de CCS en la WEE School **7:30–9:00 a.m.** ($220/mo 5 días)",
+      "of": "2b3f3124",
+      "at": [
+        "carmel-christian:coverage.facts[0].text"
+      ]
+    },
+    {
+      "t": "Después de YCC",
+      "of": "01d36a04",
+      "at": [
+        "carmel-christian:coverage.facts[1].label"
+      ]
+    },
+    {
+      "t": "los niños de kindergarten del YCC se unen al grupo de After School de primaria durante la última hora, a las **5:00 p.m.**; los estudiantes de Middle School llegan a las 3:30",
+      "of": "804cd4b8",
+      "at": [
+        "carmel-christian:coverage.facts[1].text"
+      ]
+    },
+    {
+      "t": "Última recogida",
+      "of": "43e5f056",
+      "at": [
+        "carmel-christian:coverage.facts[2].label"
+      ]
+    },
+    {
+      "t": "6:00 p.m.",
+      "of": "a95ad622",
+      "at": [
+        "carmel-christian:coverage.facts[2].text"
+      ]
+    },
+    {
+      "t": "$30/día por estudiante para YCC y After School",
+      "of": "118f5914",
+      "at": [
+        "carmel-christian:coverage.facts[3].text"
+      ]
+    },
+    {
+      "t": "$10 por los primeros 10 minutos, luego $10 por cada 10 minutos adicionales",
+      "of": "e17a0ee5",
+      "at": [
+        "carmel-christian:coverage.facts[4].text"
+      ]
+    },
+    {
+      "t": "Cerrado",
+      "of": "3201cae5",
+      "at": [
+        "carmel-christian:coverage.facts[5].label"
+      ]
+    },
+    {
+      "t": "el viernes antes del receso de Navidad y el último día de clases; YCC y After School siguen un horario reducido en los días de salida temprana",
+      "of": "b373c095",
+      "at": [
+        "carmel-christian:coverage.facts[5].text"
+      ]
+    },
+    {
+      "t": "Existe un **Morning Sibling Care** gratuito a las 7:35 a.m. en el Worship Center, pero NO forma parte del programa pagado de Extended Day: es un servicio separado de entrada temprana supervisada.",
+      "of": "9e33f7d9",
+      "at": [
+        "carmel-christian:coverage.flags[0].text"
+      ]
+    },
+    {
+      "t": "La descripción general web de 2026-2027 muestra Extended Day como **“Registration for 2026-2027 is now full.”** Eso es un estado operativo de capacidad, no un cambio en los horarios o precios publicados, pero significa que quien solicite a mitad de año puede enfrentar una lista de espera.",
+      "of": "b5ece373",
+      "at": [
+        "carmel-christian:coverage.flags[1].text"
+      ]
+    },
+    {
+      "t": "Cada sesión tiene un precio de tarifa mensual fija según los días por semana — 5 días, 3 días o sin cita previa — facturada mensualmente a lo largo de 9 meses a través de FACTS.",
+      "of": "56d6eb4a",
+      "at": [
+        "carmel-christian:cost.headline"
+      ]
+    },
+    {
+      "t": "Todas las tarifas a continuación están publicadas en el 2026-2027 Extended Day Handbook de la escuela, así que nada aquí es proyectado. La tarifa no escala linealmente con los días, así que un horario de 3 días es su propia cifra publicada y no una fracción del precio de 5 días.",
+      "of": "30b2553f",
+      "at": [
+        "carmel-christian:cost.subhead"
+      ]
+    },
+    {
+      "t": "Before School · 7:30–8:00",
+      "of": "9b46e1ea",
+      "at": [
+        "carmel-christian:cost.rows[0].label"
+      ]
+    },
+    {
+      "t": "Before School (estudiantes de CCS) · 7:30–8:00 am",
+      "of": "37ff2124",
+      "at": [
+        "carmel-christian:cost.rows[0].panelLabel"
+      ]
+    },
+    {
+      "t": "Before School · hermano WEE · 7:30–9:00",
+      "of": "54bb53ef",
+      "at": [
+        "carmel-christian:cost.rows[1].label"
+      ]
+    },
+    {
+      "t": "Before School (hermano de CCS en la WEE School) · 7:30–9:00 am",
+      "of": "bbf34e3f",
+      "at": [
+        "carmel-christian:cost.rows[1].panelLabel"
+      ]
+    },
+    {
+      "t": "Young Cougars Club · 1:15–3:00",
+      "of": "a8e82589",
+      "at": [
+        "carmel-christian:cost.rows[2].label"
+      ]
+    },
+    {
+      "t": "Young Cougars Club (K) · 1:15–3:00 pm",
+      "of": "50d049e4",
+      "at": [
+        "carmel-christian:cost.rows[2].panelLabel"
+      ]
+    },
+    {
+      "t": "After School / After YCC · 3:00–6:00",
+      "of": "29866daa",
+      "at": [
+        "carmel-christian:cost.rows[3].label"
+      ]
+    },
+    {
+      "t": "After School / After YCC · 3:00–6:00 pm",
+      "of": "3c1d04e5",
+      "at": [
+        "carmel-christian:cost.rows[3].panelLabel"
+      ]
+    },
+    {
+      "t": "mensual a lo largo de 9 meses (FACTS / Family Portal)",
+      "of": "a131f345",
+      "at": [
+        "carmel-christian:cost.fees[0].value"
+      ]
+    },
+    {
+      "t": "Sin cita previa (YCC y After School)",
+      "of": "7c4a4eb2",
+      "at": [
+        "carmel-christian:cost.fees[1].label"
+      ]
+    },
+    {
+      "t": "$30 / día por estudiante",
+      "of": "68e160cb",
+      "at": [
+        "carmel-christian:cost.fees[1].value"
+      ]
+    },
+    {
+      "t": "Sin cita previa (Before School, CCS)",
+      "of": "a8b91af7",
+      "at": [
+        "carmel-christian:cost.fees[2].label"
+      ]
+    },
+    {
+      "t": "$10 / día",
+      "of": "d77c3c89",
+      "at": [
+        "carmel-christian:cost.fees[2].value"
+      ]
+    },
+    {
+      "t": "Sin cita previa (Before School, hermano WEE)",
+      "of": "40248fc1",
+      "at": [
+        "carmel-christian:cost.fees[3].label"
+      ]
+    },
+    {
+      "t": "$20 / día",
+      "of": "7c65be6e",
+      "at": [
+        "carmel-christian:cost.fees[3].value"
+      ]
+    },
+    {
+      "t": "$10 los primeros 10 min, luego $10 / 10 min adicionales",
+      "of": "39f7d23c",
+      "at": [
+        "carmel-christian:cost.fees[4].value"
+      ]
+    },
+    {
+      "t": "Descuento por hermanos",
+      "of": "a1cb668c",
+      "at": [
+        "carmel-christian:cost.fees[6].label"
+      ]
+    },
+    {
+      "t": "La inscripción es de 5 días, 3 días o sin cita previa, por orden de llegada y con cupo limitado. El nivel de Before School de la WEE-School es una tarifa separada para hermanos de CCS en la WEE School, no un descuento sobre la tarifa estándar.",
+      "of": "8e7efb62",
+      "at": [
+        "carmel-christian:cost.fees[7].label"
+      ]
+    },
+    {
+      "t": "No se publica ningún total anual en dólares. El manual da tarifas mensuales facturadas a lo largo de **9 meses** pero nunca indica una cifra del año escolar, así que los totales aquí son la tarifa mensual × 9.",
+      "of": "cbf80efc",
+      "at": [
+        "carmel-christian:cost.flags[0].text"
+      ]
+    },
+    {
+      "t": "No se publica ninguna cuota de inscripción ni descuento por hermanos para Extended Day. No se indica que existan ni que no existan: simplemente están ausentes del manual.",
+      "of": "da328bcf",
+      "at": [
+        "carmel-christian:cost.flags[1].text"
+      ]
+    },
+    {
+      "t": "Solo se publican tarifas de 5 días y 3 días para cada sesión — no hay una tarifa separada de 1, 2 o 4 días, así que las columnas intermedias muestran “—.” Los días ocasionales pasan por la tarifa fija sin cita previa.",
+      "of": "618b6d68",
+      "at": [
+        "carmel-christian:cost.flags[2].text"
+      ]
+    },
+    {
+      "t": "La tarde de kindergarten es el Young Cougars Club — un programa estructurado y basado en la literatura, no una sala de espera — mientras que los grados 1–8 pasan al After School care con espacio para tareas.",
+      "of": "9c7606ff",
+      "at": [
+        "carmel-christian:dayInside.headline"
+      ]
+    },
+    {
+      "t": "El Young Cougars Club realiza tres rotaciones — cuento, arte y actividades — en torno a un tema educativo semanal, y luego se une al grupo de After School de primaria durante la última hora del día.",
+      "of": "ee2cbaf5",
+      "at": [
+        "carmel-christian:dayInside.subhead"
+      ]
+    },
+    {
+      "t": "La tarde de kindergarten (Young Cougars Club)",
+      "of": "78cac045",
+      "at": [
+        "carmel-christian:dayInside.rhythmTitle"
+      ]
+    },
+    {
+      "t": "1:15",
+      "of": "11e2c904",
+      "at": [
+        "carmel-christian:dayInside.rhythm[0].time"
+      ]
+    },
+    {
+      "t": "Comienza YCC",
+      "of": "6f29b6b8",
+      "at": [
+        "carmel-christian:dayInside.rhythm[0].name"
+      ]
+    },
+    {
+      "t": "Los niños de kindergarten se reúnen para la tarde estructurada y basada en la literatura en torno al tema de la semana",
+      "of": "5211bb3c",
+      "at": [
+        "carmel-christian:dayInside.rhythm[0].detail"
+      ]
+    },
+    {
+      "t": "Rotaciones",
+      "of": "817167e4",
+      "at": [
+        "carmel-christian:dayInside.rhythm[1].time"
+      ]
+    },
+    {
+      "t": "Cuento · arte · actividades",
+      "of": "5367ce48",
+      "at": [
+        "carmel-christian:dayInside.rhythm[1].name"
+      ]
+    },
+    {
+      "t": "Tres rotaciones — un bloque de cuento, un bloque de arte y un bloque de actividades — construidas sobre “exciting and educational weekly themes”",
+      "of": "d0f0ca6c",
+      "at": [
+        "carmel-christian:dayInside.rhythm[1].detail"
+      ]
+    },
+    {
+      "t": "3:00",
+      "of": "b8907e28",
+      "at": [
+        "carmel-christian:dayInside.rhythm[2].time"
+      ]
+    },
+    {
+      "t": "Al After Care",
+      "of": "dfcc2fbe",
+      "at": [
+        "carmel-christian:dayInside.rhythm[2].name"
+      ]
+    },
+    {
+      "t": "Los niños del YCC pasan al After School care junto con los grados 1–8; los estudiantes de Middle School llegan a las 3:30",
+      "of": "afde5739",
+      "at": [
+        "carmel-christian:dayInside.rhythm[2].detail"
+      ]
+    },
+    {
+      "t": "5:00",
+      "of": "769a4fee",
+      "at": [
+        "carmel-christian:dayInside.rhythm[3].time"
+      ]
+    },
+    {
+      "t": "Un grupo",
+      "of": "8ed457a4",
+      "at": [
+        "carmel-christian:dayInside.rhythm[3].name"
+      ]
+    },
+    {
+      "t": "Los niños de After-YCC se unen al grupo de After School de primaria durante la última hora, hasta la recogida a las 6:00 p.m.",
+      "of": "e655351e",
+      "at": [
+        "carmel-christian:dayInside.rhythm[3].detail"
+      ]
+    },
+    {
+      "t": "Grow and Go",
+      "of": "ec2bba3b",
+      "at": [
+        "carmel-christian:dayInside.words[0]"
+      ]
+    },
+    {
+      "t": "estructurado",
+      "of": "e50a3e06",
+      "at": [
+        "carmel-christian:dayInside.words[1]"
+      ]
+    },
+    {
+      "t": "basado en la literatura",
+      "of": "9c9d2ed5",
+      "at": [
+        "carmel-christian:dayInside.words[2]"
+      ]
+    },
+    {
+      "t": "temas semanales",
+      "of": "b03cafa8",
+      "at": [
+        "carmel-christian:dayInside.words[3]"
+      ]
+    },
+    {
+      "t": "cuento · arte · actividades",
+      "of": "1ee5b428",
+      "at": [
+        "carmel-christian:dayInside.words[4]"
+      ]
+    },
+    {
+      "t": "espacio para tareas",
+      "of": "f4993f59",
+      "at": [
+        "carmel-christian:dayInside.words[5]"
+      ]
+    },
+    {
+      "t": "La misión de Extended Day es “GROW to become followers of Christ and GO make Him known to the world” (Mateo 28:19–20) — el planteamiento de “Grow and Go”. El Young Cougars Club se describe como “a structured, literature based program with 3 rotations (story, art and activities) with exciting and educational weekly themes.” El After School care para los grados 1–8 ofrece espacio para tareas, con un área separada para los estudiantes de Middle School.",
+      "of": "92ef2a7d",
+      "at": [
+        "carmel-christian:dayInside.wordsText"
+      ]
+    },
+    {
+      "t": "Enriquecimiento y clases de música",
+      "of": "d1d141f4",
+      "at": [
+        "carmel-christian:dayInside.catalogTitle"
+      ]
+    },
+    {
+      "t": "Extended Day ofrece Enrichment Classes y Music Enrichment Lessons dentro del programa, pero la **oferta de 2026-2027 aún no está publicada** — la escuela las lista como “coming August 2026,” así que aún no hay nombres de clases, días, grados ni tarifas que mostrar.",
+      "of": "5aed3be2",
+      "at": [
+        "carmel-christian:dayInside.catalogIntro"
+      ]
+    },
+    {
+      "t": "La **lista de enriquecimiento y clases de música de 2026-2027 aún no está publicada** (“coming August 2026”). No hay nombres de clases, instructores, días, franjas de grados ni tarifas por clase disponibles para el año próximo.",
+      "of": "96cf3a2b",
+      "at": [
+        "carmel-christian:dayInside.flags[0].text"
+      ]
+    },
+    {
+      "t": "No se publica ninguna proporción personal-niño ni tamaño de grupo para el YCC o el After School care, ni se da un horario hora por hora para la tarde de los grados 1–8 más allá de “homework space.”",
+      "of": "4e0b96ac",
+      "at": [
+        "carmel-christian:dayInside.flags[1].text"
+      ]
+    },
+    {
+      "t": "Un solo programa K–8 que cubre toda la jornada laboral — de 7:30 a.m. a 6:00 p.m. — con tarifas totalmente publicadas y claramente fijadas, y una tarde de kindergarten genuinamente estructurada.",
+      "of": "bc92a0c2",
+      "at": [
+        "carmel-christian:verdict.headline"
+      ]
+    },
+    {
+      "t": "Las preguntas abiertas son la capacidad (el año ya está “full”), la lista de enriquecimiento faltante y la cuota de inscripción y el descuento por hermanos no publicados — exactamente lo que responde una visita.",
+      "of": "018f2ce1",
+      "at": [
+        "carmel-christian:verdict.subhead"
+      ]
+    },
+    {
+      "t": "**Cobertura de toda la jornada laboral en un solo programa** — cuidado antes de clase desde las 7:30 a.m. y After School hasta las 6:00 p.m., abarcando desde kindergarten hasta el grado 8 sin brecha entre divisiones.",
+      "of": "519eb5f3",
+      "at": [
+        "carmel-christian:verdict.strengths[0]"
+      ]
+    },
+    {
+      "t": "**Precios totalmente publicados y legibles** — cada sesión tiene una tarifa de 5 días, 3 días y sin cita previa en el manual, así que una familia puede calcular su costo mensual exacto antes de solicitar.",
+      "of": "8028e9f9",
+      "at": [
+        "carmel-christian:verdict.strengths[1]"
+      ]
+    },
+    {
+      "t": "**Una tarde de kindergarten estructurada y basada en la literatura** — el Young Cougars Club realiza rotaciones de cuento, arte y actividades sobre temas semanales, no supervisión indiferenciada.",
+      "of": "540328a0",
+      "at": [
+        "carmel-christian:verdict.strengths[2]"
+      ]
+    },
+    {
+      "t": "**Existe una tarifa fija sin cita previa** — $30/día para YCC y After School — así que las familias con necesidad ocasional no están obligadas a un contrato completo.",
+      "of": "9499d31c",
+      "at": [
+        "carmel-christian:verdict.strengths[3]"
+      ]
+    },
+    {
+      "t": "**Espacio para tareas para los grados 1–8**, con un área separada para los estudiantes de Middle School que llegan a las 3:30.",
+      "of": "b8521d95",
+      "at": [
+        "carmel-christian:verdict.strengths[4]"
+      ]
+    },
+    {
+      "t": "**Un planteamiento con misión, explícitamente cristiano** — la misión “Grow and Go” recorre todo el programa.",
+      "of": "e2e1243c",
+      "at": [
+        "carmel-christian:verdict.strengths[5]"
+      ]
+    },
+    {
+      "t": "**El año 2026-2027 ya aparece como lleno.** Una familia que solicite ahora puede enfrentar una lista de espera en lugar de inscripción abierta.",
+      "of": "bb61be3d",
+      "at": [
+        "carmel-christian:verdict.watchouts[0]"
+      ]
+    },
+    {
+      "t": "**La lista de enriquecimiento y clases de música no está publicada** para 2026-27 — prometida para “August 2026,” así que las familias aún no pueden ver qué clases o instrumentos se ofrecen, en qué días o a qué costo.",
+      "of": "21f743d0",
+      "at": [
+        "carmel-christian:verdict.watchouts[1]"
+      ]
+    },
+    {
+      "t": "**No se publica ninguna cuota de inscripción ni descuento por hermanos**, así que el costo real para una familia con varios hijos no puede calcularse solo con el manual.",
+      "of": "047b9cdc",
+      "at": [
+        "carmel-christian:verdict.watchouts[2]"
+      ]
+    },
+    {
+      "t": "**No se indica ningún total anual en dólares** — solo tarifas mensuales facturadas a lo largo de 9 meses, así que la cifra anual debe deducirse.",
+      "of": "65d23605",
+      "at": [
+        "carmel-christian:verdict.watchouts[3]"
+      ]
+    },
+    {
+      "t": "**Solo se ofrecen contratos de 5 días y 3 días**, sin tarifa de 2 o 4 días; cualquier opción intermedia pasa por la tarifa fija sin cita previa.",
+      "of": "ec181676",
+      "at": [
+        "carmel-christian:verdict.watchouts[4]"
+      ]
+    },
+    {
+      "t": "**No se publica ninguna proporción personal-niño** ni para el YCC ni para el After School care.",
+      "of": "77d39c2d",
+      "at": [
+        "carmel-christian:verdict.watchouts[5]"
+      ]
+    },
+    {
+      "t": "**La recogida tardía se acumula** a $10 por cada 10 minutos, sin límite indicado.",
+      "of": "106363b0",
+      "at": [
+        "carmel-christian:verdict.watchouts[6]"
+      ]
+    },
+    {
+      "t": "¿Está realmente lleno el programa de 2026-2027, y hay lista de espera? ¿Qué tan abajo estamos, y cuándo suelen abrirse cupos?",
+      "of": "631347d3",
+      "at": [
+        "carmel-christian:verdict.checklist[0]"
+      ]
+    },
+    {
+      "t": "¿Cuándo se publicará la lista de enriquecimiento y clases de música de 2026-27, y qué clases e instrumentos se planean?",
+      "of": "64d73bbf",
+      "at": [
+        "carmel-christian:verdict.checklist[1]"
+      ]
+    },
+    {
+      "t": "¿Hay una cuota de inscripción para Extended Day, y es por niño o por familia?",
+      "of": "35bb7a85",
+      "at": [
+        "carmel-christian:verdict.checklist[2]"
+      ]
+    },
+    {
+      "t": "¿Hay algún descuento por hermanos entre las tarifas de Before School, YCC y After School?",
+      "of": "1a9619e1",
+      "at": [
+        "carmel-christian:verdict.checklist[3]"
+      ]
+    },
+    {
+      "t": "¿Cuántos meses se factura Extended Day — son exactamente 9, y hay algún mes (diciembre, junio) que se prorratee?",
+      "of": "c6cfaf7d",
+      "at": [
+        "carmel-christian:verdict.checklist[4]"
+      ]
+    },
+    {
+      "t": "¿Cuál es la proporción personal-niño en el Young Cougars Club y en el After School care?",
+      "of": "c9e315c9",
+      "at": [
+        "carmel-christian:verdict.checklist[5]"
+      ]
+    },
+    {
+      "t": "¿Cómo es realmente la tarde de los grados 1–8 hora por hora — cuándo es la merienda, las tareas, el tiempo al aire libre?",
+      "of": "5ed4273f",
+      "at": [
+        "carmel-christian:verdict.checklist[6]"
+      ]
+    },
+    {
+      "t": "¿Podemos cambiar entre 5 días, 3 días y sin cita previa a mitad de año, y hay una tarifa por hacerlo?",
+      "of": "6102ec42",
+      "at": [
+        "carmel-christian:verdict.checklist[7]"
+      ]
+    },
+    {
+      "t": "¿Cómo se calcula la tarifa por recogida tardía, y hay algún límite?",
+      "of": "7a5904fe",
+      "at": [
+        "carmel-christian:verdict.checklist[8]"
+      ]
+    },
+    {
+      "t": "¿Se aplica la ayuda financiera a Extended Day en absoluto, y al enriquecimiento o las clases de música?",
+      "of": "a5f73b88",
+      "at": [
+        "carmel-christian:verdict.checklist[9]"
+      ]
+    },
+    {
+      "t": "¿Qué es el Morning Sibling Care a las 7:35 a.m., y cuesta algo en relación con el cuidado pagado antes de clase?",
+      "of": "7092d9b2",
+      "at": [
+        "carmel-christian:verdict.checklist[10]"
       ]
     }
   ]

@@ -31,7 +31,8 @@
         "charlotte-christian:offered.stats[1].label",
         "charlotte-country-day:offered.stats[1].label",
         "cannon:offered.stats[1].label",
-        "davidson-day:offered.stats[1].label"
+        "davidson-day:offered.stats[1].label",
+        "carmel-christian:offered.stats[1].label"
       ]
     },
     {
@@ -59,7 +60,8 @@
         "charlotte-country-day:offered.seasons[0].name",
         "cannon:offered.seasons[0].name",
         "covenant-day:offered.seasons[0].name",
-        "davidson-day:offered.seasons[0].name"
+        "davidson-day:offered.seasons[0].name",
+        "carmel-christian:offered.seasons[0].name"
       ]
     },
     {
@@ -83,7 +85,8 @@
         "charlotte-country-day:offered.seasons[1].name",
         "cannon:offered.seasons[1].name",
         "covenant-day:offered.seasons[1].name",
-        "davidson-day:offered.seasons[1].name"
+        "davidson-day:offered.seasons[1].name",
+        "carmel-christian:offered.seasons[1].name"
       ]
     },
     {
@@ -96,7 +99,8 @@
         "charlotte-country-day:offered.seasons[2].name",
         "cannon:offered.seasons[2].name",
         "covenant-day:offered.seasons[2].name",
-        "davidson-day:offered.seasons[2].name"
+        "davidson-day:offered.seasons[2].name",
+        "carmel-christian:offered.seasons[2].name"
       ]
     },
     {
@@ -168,7 +172,10 @@
         "davidson-day:record.rows[2].cells[1].result",
         "davidson-day:record.rows[3].cells[0].result",
         "davidson-day:record.rows[3].cells[1].result",
-        "davidson-day:record.rows[4].cells[0].result"
+        "davidson-day:record.rows[4].cells[0].result",
+        "carmel-christian:record.rows[0].cells[0].result",
+        "carmel-christian:record.rows[0].cells[1].result",
+        "carmel-christian:record.rows[1].cells[0].result"
       ]
     },
     {
@@ -191,7 +198,10 @@
         "cannon:record.rows[3].cells[2].result",
         "covenant-day:record.rows[1].cells[1].result",
         "covenant-day:record.rows[1].cells[2].result",
-        "davidson-day:record.rows[1].cells[2].result"
+        "davidson-day:record.rows[1].cells[2].result",
+        "carmel-christian:record.rows[0].cells[2].result",
+        "carmel-christian:record.rows[1].cells[1].result",
+        "carmel-christian:record.rows[2].cells[2].result"
       ]
     },
     {
@@ -267,7 +277,10 @@
         "davidson-day:record.rows[5].cells[2].result",
         "davidson-day:record.rows[6].cells[0].result",
         "davidson-day:record.rows[6].cells[1].result",
-        "davidson-day:record.rows[6].cells[2].result"
+        "davidson-day:record.rows[6].cells[2].result",
+        "carmel-christian:record.rows[1].cells[2].result",
+        "carmel-christian:record.rows[2].cells[0].result",
+        "carmel-christian:record.rows[2].cells[1].result"
       ]
     },
     {
@@ -374,7 +387,8 @@
         "charlotte-country-day:pipeline.funnel[0].label",
         "cannon:pipeline.funnel[0].label",
         "covenant-day:pipeline.funnel[0].label",
-        "davidson-day:pipeline.funnel[0].label"
+        "davidson-day:pipeline.funnel[0].label",
+        "carmel-christian:pipeline.funnel[0].label"
       ]
     },
     {
@@ -396,7 +410,8 @@
         "charlotte-country-day:pipeline.funnel[1].label",
         "cannon:pipeline.funnel[1].label",
         "covenant-day:pipeline.funnel[1].label",
-        "davidson-day:pipeline.funnel[1].label"
+        "davidson-day:pipeline.funnel[1].label",
+        "carmel-christian:pipeline.funnel[1].label"
       ]
     },
     {
@@ -422,7 +437,8 @@
         "charlotte-country-day:pipeline.funnel[2].label",
         "cannon:pipeline.funnel[2].label",
         "covenant-day:pipeline.funnel[2].label",
-        "davidson-day:pipeline.funnel[2].label"
+        "davidson-day:pipeline.funnel[2].label",
+        "carmel-christian:pipeline.funnel[2].label"
       ]
     },
     {
@@ -435,7 +451,8 @@
         "charlotte-country-day:pipeline.funnel[2].hint",
         "cannon:pipeline.funnel[2].hint",
         "covenant-day:pipeline.funnel[2].hint",
-        "davidson-day:pipeline.funnel[2].hint"
+        "davidson-day:pipeline.funnel[2].hint",
+        "carmel-christian:pipeline.funnel[2].hint"
       ]
     },
     {
@@ -657,7 +674,8 @@
         "covenant-day:pipeline.roster[13].sport",
         "covenant-day:pipeline.roster[28].sport",
         "davidson-day:pipeline.roster[5].sport",
-        "davidson-day:pipeline.roster[6].sport"
+        "davidson-day:pipeline.roster[6].sport",
+        "carmel-christian:pipeline.roster[8].sport"
       ]
     },
     {
@@ -685,7 +703,10 @@
         "covenant-day:pipeline.roster[20].sport",
         "covenant-day:pipeline.roster[26].sport",
         "covenant-day:pipeline.roster[31].sport",
-        "covenant-day:pipeline.roster[32].sport"
+        "covenant-day:pipeline.roster[32].sport",
+        "carmel-christian:pipeline.roster[5].sport",
+        "carmel-christian:pipeline.roster[6].sport",
+        "carmel-christian:pipeline.roster[9].sport"
       ]
     },
     {
@@ -937,7 +958,8 @@
       "at": [
         "providence-day:honors.honors[3].tag",
         "charlotte-christian:honors.honors[4].tag",
-        "cannon:honors.honors[3].tag"
+        "cannon:honors.honors[3].tag",
+        "carmel-christian:honors.honors[2].tag"
       ]
     },
     {
@@ -1924,7 +1946,8 @@
       "t": "NC Mr. Basketball",
       "of": "61e58ab4",
       "at": [
-        "charlotte-latin:honors.honors[0].label"
+        "charlotte-latin:honors.honors[0].label",
+        "carmel-christian:honors.honors[0].label"
       ]
     },
     {
@@ -4761,7 +4784,14 @@
         "covenant-day:pipeline.roster[14].sport",
         "covenant-day:pipeline.roster[15].sport",
         "covenant-day:pipeline.roster[29].sport",
-        "covenant-day:pipeline.roster[30].sport"
+        "covenant-day:pipeline.roster[30].sport",
+        "carmel-christian:pipeline.roster[0].sport",
+        "carmel-christian:pipeline.roster[1].sport",
+        "carmel-christian:pipeline.roster[2].sport",
+        "carmel-christian:pipeline.roster[3].sport",
+        "carmel-christian:pipeline.roster[4].sport",
+        "carmel-christian:pipeline.roster[7].sport",
+        "carmel-christian:pipeline.roster[10].sport"
       ]
     },
     {
@@ -5648,7 +5678,8 @@
       "t": "5",
       "of": "300ca0d0",
       "at": [
-        "davidson-day:coaching.featured[1].stats[1].value"
+        "davidson-day:coaching.featured[1].stats[1].value",
+        "carmel-christian:national.stats[2].value"
       ]
     },
     {
@@ -5733,6 +5764,342 @@
       "of": "45ea4cdb",
       "at": [
         "davidson-day:coaching.worthKnowing"
+      ]
+    },
+    {
+      "t": "মোটামুটি 28টি দল জুড়ে 9টি varsity খেলা — NCISAA 4A-তে একটি মনোনিবিষ্ট Cougars প্রোগ্রাম, শীর্ষ private-school শ্রেণিবিন্যাস।",
+      "of": "5c3363af",
+      "at": [
+        "carmel-christian:offered.headline"
+      ]
+    },
+    {
+      "t": "Basketball, soccer ও volleyball একটি JV ও Middle School সিঁড়ি বহন করে; বর্তমান অফার তালিকায় কোনো football, lacrosse বা track নেই।",
+      "of": "68af5b13",
+      "at": [
+        "carmel-christian:offered.subhead"
+      ]
+    },
+    {
+      "t": "স্বতন্ত্র varsity খেলা",
+      "of": "6c0c64fe",
+      "at": [
+        "carmel-christian:offered.stats[0].label"
+      ]
+    },
+    {
+      "t": "NCISAA (~2019 পর্যন্ত ছিল 3A)",
+      "of": "e1008ec3",
+      "at": [
+        "carmel-christian:offered.stats[2].label"
+      ]
+    },
+    {
+      "t": "Matthews, NC",
+      "of": "0b290165",
+      "at": [
+        "carmel-christian:offered.stats[3].label"
+      ]
+    },
+    {
+      "t": "Middle School ছেলেদের basketball অংশগ্রহণ বাড়াতে \"Blue & Gold\" দলে ভাগ হয়, এবং golf বসন্তে একটি co-ed Middle School দল চালায়। Carmel ~2019 সালের দিকে NCISAA 3A থেকে 4A-তে উঠে যায়।",
+      "of": "31e754ab",
+      "at": [
+        "carmel-christian:offered.footnote"
+      ]
+    },
+    {
+      "t": "তিনটি সাম্প্রতিক NCISAA শিরোপা — দুটি ছেলেদের basketball-এ (2019 3A, 2022 4A) এবং একটি ছেলেদের soccer-এ (2020 4A) — একগুচ্ছ গভীর ফাইনাল দৌড়ের পেছনে।",
+      "of": "e9539ba9",
+      "at": [
+        "carmel-christian:record.headline"
+      ]
+    },
+    {
+      "t": "\"State\" = NCISAA (private-school association); Carmel public-school NCHSAA-তে প্রতিযোগিতা করে না।",
+      "of": "1dd1117d",
+      "at": [
+        "carmel-christian:record.subhead"
+      ]
+    },
+    {
+      "t": "2018 ও 2019-এ পরপর 3A; 2022 4A champion; runner-up 2023 ও 2025",
+      "of": "f3ef690e",
+      "at": [
+        "carmel-christian:record.rows[0].note"
+      ]
+    },
+    {
+      "t": "2019–2022-এ পরপর চারটি ফাইনাল, 2020-তে 4A জিতে",
+      "of": "0c490bcb",
+      "at": [
+        "carmel-christian:record.rows[1].note"
+      ]
+    },
+    {
+      "t": "'26 4A ফাইনাল Providence Day-র কাছে 1–2-এ হেরেছে",
+      "of": "3cd90daa",
+      "at": [
+        "carmel-christian:record.rows[2].note"
+      ]
+    },
+    {
+      "t": "Christ School সেই ছেলেদের basketball 4A শিরোপা নিয়েছে যা Carmel 2023 (48–53) ও 2025-এ হেরেছে (Christ School three-peat করেছে); Rabun Gap-Nacoochee 2021 (1–0) ও 2022 (1–0) ছেলেদের soccer 4A ফাইনালে Carmel-কে হারিয়েছে, এবং 2019 3A ফাইনালে Coastal Christian; Providence Day 2026 মেয়েদের soccer 4A শিরোপার জন্য Carmel-কে shut out করেছে (1–2)।",
+      "of": "581ebb84",
+      "at": [
+        "carmel-christian:record.didNotWin"
+      ]
+    },
+    {
+      "t": "'21–22 সিজন",
+      "of": "b635ef35",
+      "at": [
+        "carmel-christian:record.bars[0].tag"
+      ]
+    },
+    {
+      "t": "2020 শিরোপা দৌড়",
+      "of": "0f7c2a1a",
+      "at": [
+        "carmel-christian:record.bars[1].tag"
+      ]
+    },
+    {
+      "t": "'25–26 সিজন",
+      "of": "0d504105",
+      "at": [
+        "carmel-christian:record.bars[2].tag"
+      ]
+    },
+    {
+      "t": "2022: NCISAA 4A champion — 26 Feb 2022-এ Wingate-এ Greensboro Day-কে 71–66-এ হারিয়েছে, Cade Tyson 31 স্কোর করে। 2023: 28–4, 4A ফাইনাল Christ School-এর কাছে 48–53-এ হেরেছে (25 Feb 2023) একটি Jaeden Mustaf-নেতৃত্বাধীন দলের পেছনে। 2025: আবার 4A ফাইনালে পৌঁছে Christ School-এর কাছে হেরেছে, যারা three-peat করেছে (স্কোর যাচাই করা বাকি)। রেগুলার-সিজন রেকর্ড: 2021–22 26–3, 2022–23 28–4, 2016–17 21–6, 2015–16 22–8।",
+      "of": "72393982",
+      "at": [
+        "carmel-christian:record.seasonDetail[0].text"
+      ]
+    },
+    {
+      "t": "2020: NCISAA 4A champion — Rabun Gap-Nacoochee-কে 2–0-এ হারিয়ে 14–1-এ শেষ করেছে। এটি ছিল পরপর চারটি ফাইনালের মাঝখানে: 2019 3A ফাইনাল Coastal Christian-এর কাছে হেরেছে, 2020 জিতেছে, তারপর 2021 (1–0) ও 2022 (1–0) 4A ফাইনাল Rabun Gap-এর কাছে হেরেছে।",
+      "of": "96a1da83",
+      "at": [
+        "carmel-christian:record.seasonDetail[1].text"
+      ]
+    },
+    {
+      "t": "2026: NCISAA 4A ফাইনালে পৌঁছে Providence Day-র কাছে 1–2-এ হেরেছে (16 May 2026), 14–5-এ শেষ করেছে। athletics সাইট সিজনটিকে একটি \"2025-26 state champions\" দৌড় হিসেবে ট্যাগ করেছে, যা ফাইনালের পরাজয়ের সঙ্গে সাংঘর্ষিক — নিশ্চিতকরণ সাপেক্ষে এখানে runner-up হিসেবে ধরা হয়েছে।",
+      "of": "13aa35a5",
+      "at": [
+        "carmel-christian:record.seasonDetail[2].text"
+      ]
+    },
+    {
+      "t": "2024–26 শ্রেণিগুলো জুড়ে পাঁচটি Division I commit — প্রতিটি basketball-এ, এবং প্রতিটি mid-major। শূন্য Power 4।",
+      "of": "308ba25e",
+      "at": [
+        "carmel-christian:pipeline.headline"
+      ]
+    },
+    {
+      "t": "স্কুলের সরকারি \"Next Steps\" college-commit roster থেকে তৈরি; division ও conference লেবেল প্রতিটি college-এর NCAA status থেকে গবেষক যোগ করেছেন।",
+      "of": "c081cbd3",
+      "at": [
+        "carmel-christian:pipeline.subhead"
+      ]
+    },
+    {
+      "t": "(সব division, 2024–26)",
+      "of": "a4d94bc6",
+      "at": [
+        "carmel-christian:pipeline.funnel[0].hint"
+      ]
+    },
+    {
+      "t": "(সব basketball)",
+      "of": "dc8552e8",
+      "at": [
+        "carmel-christian:pipeline.funnel[1].hint"
+      ]
+    },
+    {
+      "t": "পাঁচটি D1 commit-ই basketball খেলোয়াড় যারা mid-major প্রোগ্রামে সই করেছে — Big South ও Sun Belt। এই উইন্ডোতে কোনো Carmel signee একটি Power 4 স্কুলে যায়নি। Kam Taylor ACC-তে (Florida State) পৌঁছেছেন কেবল পরে transfer portal-এর মাধ্যমে, Carmel commit হিসেবে নয়।",
+      "of": "1c6929dd",
+      "at": [
+        "carmel-christian:pipeline.funnelNote"
+      ]
+    },
+    {
+      "t": "basketball-এর বাইরে, Carmel-এর সাম্প্রতিক signee-রা প্রধানত NCAA Division II ও III-তে যায়: baseball Lander (D2), Ferrum (D3) ও USC Aiken (D2)-এ; basketball-ও Fayetteville State (D2) ও Johnson & Wales (D3)-এ; volleyball Winston-Salem State (D2)-এ; পাশাপাশি golf, tennis ও dance signee। একটি D2/D3 offer-ই সাধারণ ফলাফল, যেখানে basketball-ই একমাত্র খেলা যা নির্ভরযোগ্যভাবে D1 তৈরি করে।",
+      "of": "47f8e807",
+      "at": [
+        "carmel-christian:pipeline.realityCheck"
+      ]
+    },
+    {
+      "t": "Cade Tyson (’22) ছিলেন 2022 NC Mr. Basketball এবং প্রোগ্রামের recruiting শিরোনাম হিসেবে ছেড়ে গেছেন (Belmont → UNC → Minnesota; একটি 2026 NBA G League Draft Combine / Portsmouth আমন্ত্রিত)। Jaeden Mustaf, Carmel-এ all-state এবং সাবেক-NBA Jerrod Mustaf-এর ছেলে, 2022–23 দলকে 28–4 ও state ফাইনালে নেতৃত্ব দিয়েছেন Georgia Tech → Indiana-র আগে। Cody Peck (6'10\", four-star, top-100 → Dayton) প্রায়ই Carmel-এর সঙ্গে যুক্ত করা হয় কিন্তু সেখানে কেবল দুটি সিজন খেলেছেন এবং অন্যত্র graduate করেছেন — তিনি Carmel commit নন।",
+      "of": "e4053346",
+      "at": [
+        "carmel-christian:pipeline.rankedRecruits"
+      ]
+    },
+    {
+      "t": "Level লেবেল (P4 / D1 / D2 / D3) ও conference প্রতিটি college-এর NCAA status থেকে গবেষক যোগ করেছেন — এগুলো স্কুলের তালিকায় নেই। P4 = SEC · Big Ten · ACC · Big 12। D2/D3 সারিগুলো \"Next Steps\" roster-এর non-D1 signee-দের একটি প্রতিনিধিত্বমূলক নমুনা, পুরো তালিকা নয়।",
+      "of": "bfc7f408",
+      "at": [
+        "carmel-christian:pipeline.rosterNote"
+      ]
+    },
+    {
+      "t": "কোনো নিশ্চিত পেশাদার ক্রীড়াবিদ নেই — কিন্তু basketball প্রোগ্রাম থেকে একজন NC Mr. Basketball এবং একটি high-major recruiting pipeline।",
+      "of": "c22b2305",
+      "at": [
+        "carmel-christian:honors.headline"
+      ]
+    },
+    {
+      "t": "Carmel কোনো pro-alumni tracker রাখে না, এবং কোনো alumnus নিশ্চিত pro নন; নিচের নামগুলো recruiting ও player-of-the-year সম্মান।",
+      "of": "5a04a4c3",
+      "at": [
+        "carmel-christian:honors.subhead"
+      ]
+    },
+    {
+      "t": "Cade Tyson (’22) — 2022 North Carolina Mr. Basketball, সিনিয়র হিসেবে গড়ে 24.0 ppg এবং Greensboro Day-র বিপক্ষে state-title জয়ে 31 স্কোর করে। Belmont → UNC → Minnesota; একটি 2026 NBA G League Draft Combine ও Portsmouth আমন্ত্রিত (একজন draft prospect, এখনো pro নন)।",
+      "of": "0c9f9c83",
+      "at": [
+        "carmel-christian:honors.honors[0].text"
+      ]
+    },
+    {
+      "t": "রাজ্যব্যাপী, বছরে 1 জন",
+      "of": "5d12f0e0",
+      "at": [
+        "carmel-christian:honors.honors[0].tag"
+      ]
+    },
+    {
+      "t": "হাই-মেজর রিক্রুটিং",
+      "of": "a34eb12d",
+      "at": [
+        "carmel-christian:honors.honors[1].label"
+      ]
+    },
+    {
+      "t": "Jaeden Mustaf — Carmel-এ all-state, 2022–23 দলকে 28–4 ও state ফাইনালে নেতৃত্ব দিয়েছেন, এবং সাবেক-NBA খেলোয়াড় Jerrod Mustaf-এর ছেলে। Georgia Tech → Indiana (April 2026)। তিনি DeMatha থেকে transfer করে এসেছেন; তিনি Carmel থেকে graduate করেছেন কিনা তা অনিশ্চিত।",
+      "of": "70cace08",
+      "at": [
+        "carmel-christian:honors.honors[1].text"
+      ]
+    },
+    {
+      "t": "ন্যাশনাল রিক্রুট",
+      "of": "172db871",
+      "at": [
+        "carmel-christian:honors.honors[1].tag"
+      ]
+    },
+    {
+      "t": "All-conference",
+      "of": "08950675",
+      "at": [
+        "carmel-christian:honors.honors[2].label"
+      ]
+    },
+    {
+      "t": "Kam Taylor (’24) — Florida State-এ transfer করার আগে UNC Asheville-এ first-team All-Big South (sophomore হিসেবে 18.9 ppg)।",
+      "of": "e89d8142",
+      "at": [
+        "carmel-christian:honors.honors[2].text"
+      ]
+    },
+    {
+      "t": "Athletic Director Grant Coffey Cougars প্রোগ্রামের নেতৃত্ব দেন; পৃথক head-coach নাম, মেয়াদ ও রেকর্ড প্রকাশিত নয়।",
+      "of": "dffb827e",
+      "at": [
+        "carmel-christian:coaching.headline"
+      ]
+    },
+    {
+      "t": "Athletic Director: Grant Coffey, BEd, CAA।",
+      "of": "b5c01669",
+      "at": [
+        "carmel-christian:coaching.subhead"
+      ]
+    },
+    {
+      "t": "Carmel-এর athletics পৃষ্ঠাগুলো একটি coaches directory উল্লেখ করে কিন্তু কোনো head-coach নাম, মেয়াদ বা career রেকর্ড তালিকাভুক্ত করে না। এই বিবরণগুলো fetch করা পৃষ্ঠায় অপ্রকাশিত — একটি coaching খতিয়ান populate করতে একটি গভীর পাস (school directory, press) প্রয়োজন হবে।",
+      "of": "b89852f4",
+      "at": [
+        "carmel-christian:coaching.worthKnowing"
+      ]
+    },
+    {
+      "t": "একজন Carmel basketball alumnus-এর জন্য একটি first-wave NIL deal — Bryce Slay August 2025-এ একটি জাতীয় ব্র্যান্ডের সঙ্গে সই করেছেন।",
+      "of": "f7263566",
+      "at": [
+        "carmel-christian:national.headline"
+      ]
+    },
+    {
+      "t": "Carmel NCISAA 4A-তে প্রতিযোগিতা করে, শীর্ষ private-school শ্রেণিবিন্যাস; কোনো team national-poll ranking প্রকাশিত নয়।",
+      "of": "9672ce9d",
+      "at": [
+        "carmel-christian:national.subhead"
+      ]
+    },
+    {
+      "t": "4A",
+      "of": "58e33b86",
+      "at": [
+        "carmel-christian:national.stats[0].value"
+      ]
+    },
+    {
+      "t": "NCISAA শীর্ষ শ্রেণিবিন্যাস",
+      "of": "fa438285",
+      "at": [
+        "carmel-christian:national.stats[0].label"
+      ]
+    },
+    {
+      "t": "Aug 12 2025",
+      "of": "2022a34e",
+      "at": [
+        "carmel-christian:national.stats[1].value"
+      ]
+    },
+    {
+      "t": "Bryce Slay NIL deal ঘোষণা করা হয়েছে",
+      "of": "94a5b751",
+      "at": [
+        "carmel-christian:national.stats[1].label"
+      ]
+    },
+    {
+      "t": "D1 basketball signee, 2024–26",
+      "of": "a969a39e",
+      "at": [
+        "carmel-christian:national.stats[2].label"
+      ]
+    },
+    {
+      "t": "August 12, 2025",
+      "of": "455a4bac",
+      "at": [
+        "carmel-christian:national.nil[0].date"
+      ]
+    },
+    {
+      "t": "Class of 2025 basketball alumnus Bryce Slay তার প্রথম NIL deal সই করেছেন — College HUNKS (College Hunks Hauling Junk & Moving)-এর সঙ্গে — এমন একটি চুক্তি সুরক্ষিত করা প্রথম Charlotte high-school graduate-দের একজন হিসেবে বর্ণিত। কোনো ডলার সংখ্যা প্রকাশ করা হয়নি; চুক্তিটি তার বাবা-মা Tamar (সাবেক-Charlotte Bobcats) ও Celeste Slay-এর উদ্যোগে হয়েছে। Slay Marshall-এ commit করেছিলেন।",
+      "of": "40ac5c1e",
+      "at": [
+        "carmel-christian:national.nil[0].text"
+      ]
+    },
+    {
+      "t": "CARMEL-এর প্রথম",
+      "of": "6bfc1131",
+      "at": [
+        "carmel-christian:national.nil[0].tag"
       ]
     }
   ]

@@ -282,7 +282,9 @@
         "providence-day:honors.societies[0].feedsFrom",
         "charlotte-latin:honors.societies[0].feedsFrom",
         "charlotte-country-day:honors.societies[0].feedsFrom",
-        "cannon:honors.societies[0].feedsFrom"
+        "cannon:honors.societies[0].feedsFrom",
+        "carmel-christian:honors.societies[0].feedsFrom",
+        "carmel-christian:honors.societies[3].feedsFrom"
       ]
     },
     {
@@ -299,7 +301,8 @@
         "providence-day:honors.societies[1].feedsFrom",
         "charlotte-christian:honors.societies[0].feedsFrom",
         "charlotte-country-day:honors.societies[1].feedsFrom",
-        "charlotte-country-day:honors.societies[2].feedsFrom"
+        "charlotte-country-day:honors.societies[2].feedsFrom",
+        "carmel-christian:honors.societies[1].feedsFrom"
       ]
     },
     {
@@ -349,7 +352,8 @@
         "charlotte-christian:honors.societies[4].feedsFrom",
         "cannon:honors.societies[8].feedsFrom",
         "cannon:honors.societies[9].feedsFrom",
-        "cannon:honors.societies[10].feedsFrom"
+        "cannon:honors.societies[10].feedsFrom",
+        "carmel-christian:honors.societies[2].feedsFrom"
       ]
     },
     {
@@ -383,7 +387,8 @@
         "charlotte-country-day:clusters.verdictHint",
         "cannon:clusters.verdictHint",
         "covenant-day:clusters.verdictHint",
-        "davidson-day:clusters.verdictHint"
+        "davidson-day:clusters.verdictHint",
+        "carmel-christian:clusters.verdictHint"
       ]
     },
     {
@@ -1181,7 +1186,10 @@
         "covenant-day:clusters.rows[3].evidenceLabel",
         "davidson-day:clusters.rows[1].evidenceLabel",
         "davidson-day:clusters.rows[2].evidenceLabel",
-        "davidson-day:catalog.divisions[0].tag"
+        "davidson-day:catalog.divisions[0].tag",
+        "carmel-christian:catalog.divisions[0].tag",
+        "carmel-christian:catalog.divisions[1].tag",
+        "carmel-christian:catalog.divisions[2].tag"
       ]
     },
     {
@@ -1605,7 +1613,8 @@
         "charlotte-country-day:catalog.categories[2].full",
         "cannon:catalog.categories[3].short",
         "cannon:catalog.categories[3].full",
-        "davidson-day:catalog.categories[2].short"
+        "davidson-day:catalog.categories[2].short",
+        "carmel-christian:catalog.categories[2].short"
       ]
     },
     {
@@ -1843,7 +1852,8 @@
       "t": "Middle School (6–8)",
       "of": "6ad60afc",
       "at": [
-        "charlotte-latin:catalog.divisions[0].label"
+        "charlotte-latin:catalog.divisions[0].label",
+        "carmel-christian:catalog.divisions[1].label"
       ]
     },
     {
@@ -2222,14 +2232,16 @@
       "of": "fa4511f1",
       "at": [
         "charlotte-christian:catalog.categories[1].short",
-        "covenant-day:catalog.categories[1].full"
+        "covenant-day:catalog.categories[1].full",
+        "carmel-christian:catalog.categories[0].short"
       ]
     },
     {
       "t": "Société d’honneur",
       "of": "c53b433d",
       "at": [
-        "charlotte-christian:catalog.categories[1].full"
+        "charlotte-christian:catalog.categories[1].full",
+        "carmel-christian:catalog.categories[0].full"
       ]
     },
     {
@@ -3279,7 +3291,8 @@
       "t": "organisations nommées",
       "of": "99a4be51",
       "at": [
-        "cannon:catalog.countNoun"
+        "cannon:catalog.countNoun",
+        "carmel-christian:catalog.countNoun"
       ]
     },
     {
@@ -3450,7 +3463,8 @@
       "t": "Modèle à l’initiative des élèves",
       "of": "01f81999",
       "at": [
-        "cannon:catalog.divisions[0].label"
+        "cannon:catalog.divisions[0].label",
+        "carmel-christian:catalog.divisions[0].label"
       ]
     },
     {
@@ -4145,6 +4159,294 @@
       "of": "69095674",
       "at": [
         "davidson-day:catalog.divisions[0].text"
+      ]
+    },
+    {
+      "t": "Une organisation de discipulat et de service au secondaire où les élèves accompagnent chaque semaine des enfants de l'Extended Day — la seule organisation de service permanente de l'école, à laquelle on accède sur candidature et entretien.",
+      "of": "069b977f",
+      "at": [
+        "carmel-christian:service.headline"
+      ]
+    },
+    {
+      "t": "Le service est ici une attente publiée liée à l'obtention du diplôme : un minimum de 20 heures de service par niveau au secondaire, satisfaites en partie via le J-Term et le Beta Club plutôt que par un total unique enregistré.",
+      "of": "dc675754",
+      "at": [
+        "carmel-christian:service.subhead"
+      ]
+    },
+    {
+      "t": "Lun–Ven · 3:30–4:30 · mentors du secondaire",
+      "of": "1361006a",
+      "at": [
+        "carmel-christian:service.programs[0].valueLabel"
+      ]
+    },
+    {
+      "t": "Des élèves du secondaire accompagnent des enfants du programme Extended Day de l'école, sur candidature, recommandation d'enseignant, entretien en septembre et formation en octobre. C'est la seule organisation permanente de service et de discipulat au secondaire, fonctionnant selon un horaire hebdomadaire fixe plutôt que sur inscription volontaire.",
+      "of": "d1e93b00",
+      "at": [
+        "carmel-christian:service.programs[0].detail"
+      ]
+    },
+    {
+      "t": "requises par niveau · secondaire",
+      "of": "cada6b1f",
+      "at": [
+        "carmel-christian:service.programs[1].valueLabel"
+      ]
+    },
+    {
+      "t": "« A minimum of 20 hours are the required service hours per grade level. » Les heures de service du J-Term peuvent compter dans l'exigence (jusqu'à 20 par cours de J-Term), et le Beta Club ajoute ses propres 10 heures par semestre. Aucun total cumulatif à l'échelle de l'école n'est publié.",
+      "of": "70419ba5",
+      "at": [
+        "carmel-christian:service.programs[1].detail"
+      ]
+    },
+    {
+      "t": "d'une semaine · exigence de diplôme",
+      "of": "a948014e",
+      "at": [
+        "carmel-christian:service.programs[2].valueLabel"
+      ]
+    },
+    {
+      "t": "Un cours J-Term obligatoire d'une semaine est une exigence de diplôme et peut inclure des voyages missionnaires ; le secondaire organise aussi des voyages missionnaires internationaux. See You at the Pole, le rassemblement annuel de prière des élèves, est mené par le MS SGA et le HS Student Council.",
+      "of": "e6c24b44",
+      "at": [
+        "carmel-christian:service.programs[2].detail"
+      ]
+    },
+    {
+      "t": "Au-delà de l'organisation permanente",
+      "of": "5f655015",
+      "at": [
+        "carmel-christian:service.footnoteTitle"
+      ]
+    },
+    {
+      "t": "Les traditions de vie spirituelle portent le reste du programme : la retraite spirituelle d'automne Windy Gap dans les montagnes de Caroline du Nord pour le Middle et le High School, See You at the Pole, et les programmes d'arts de Noël et de printemps. Le Cornerstone Prayer Ministry est un rassemblement de parents, non une organisation d'élèves, et n'est pas compté ici.",
+      "of": "813d9b0b",
+      "at": [
+        "carmel-christian:service.footnote"
+      ]
+    },
+    {
+      "t": "L'exigence de 20 heures de service est une attente individuelle, non une adhésion, et le J-Term est un cours obligatoire plutôt qu'un club. Le Cornerstone Prayer Ministry est un rassemblement de prière parents/famille, non une organisation d'élèves. Seul le Timothy Project est une organisation permanente de service d'élèves.",
+      "of": "d026d235",
+      "at": [
+        "carmel-christian:service.flags[0].text"
+      ]
+    },
+    {
+      "t": "Aucun total cumulatif d'heures de service à l'échelle de l'école n'est publié, et les chiffres reposent sur le 2021–22 Family Handbook (l'édition publiée la plus récente), ils sont donc à jour mais sensibles à la date.",
+      "of": "0d947277",
+      "at": [
+        "carmel-christian:service.flags[1].text"
+      ]
+    },
+    {
+      "t": "Quatre sociétés documentées — trois chapitres au secondaire plus une société junior au collège — chacune avec des détails publiés sur le GPA et l'intronisation.",
+      "of": "4de66502",
+      "at": [
+        "carmel-christian:honors.headline"
+      ]
+    },
+    {
+      "t": "L'accès se fait par le mérite et sur candidature : l'école publie les seuils de GPA et les fenêtres d'intronisation de ses sociétés académiques plutôt qu'une page d'annuaire permanente.",
+      "of": "960c9c8a",
+      "at": [
+        "carmel-christian:honors.subhead"
+      ]
+    },
+    {
+      "t": "Érudition, leadership, service et caractère — GPA pondérée de 3.85 (3.75 non pondérée à partir de la promotion 2024) ; sur candidature, avec des intronisations en octobre",
+      "of": "0fbde75e",
+      "at": [
+        "carmel-christian:honors.societies[0].recognizes"
+      ]
+    },
+    {
+      "t": "Réussite académique et service — 10e à 12e années, GPA de 3.50, 10 heures de service par semestre et 2 projets de service par an ; intronisations à l'automne",
+      "of": "29c908a6",
+      "at": [
+        "carmel-christian:honors.societies[1].recognizes"
+      ]
+    },
+    {
+      "t": "Réussite en langue espagnole — le « CCS Chapter of SHS »",
+      "of": "5b9a38b1",
+      "at": [
+        "carmel-christian:honors.societies[2].recognizes"
+      ]
+    },
+    {
+      "t": "Érudition et caractère pour les élèves de 8e année — GPA de 3.8+ ; intronisations en octobre",
+      "of": "90202933",
+      "at": [
+        "carmel-christian:honors.societies[3].recognizes"
+      ]
+    },
+    {
+      "t": "L'école ne publie aucune page permanente de société d'honneur — les divisions, seuils de GPA et fenêtres d'intronisation sont transcrits du 2021–22 Family Handbook, si bien que les noms des enseignants parrains et les effectifs actuels ne sont pas indiqués. La preuve la plus récente concernant la Spanish Honor Society est la table des cordons de fin d'études 2021–22, si bien que la présence encore active du chapitre n'est pas confirmée.",
+      "of": "c628fc0c",
+      "at": [
+        "carmel-christian:honors.flags[0].text"
+      ]
+    },
+    {
+      "t": "Aucun club permanent de compétition académique ; la distinction académique passe par les sociétés d'honneur.",
+      "of": "198f83e5",
+      "at": [
+        "carmel-christian:clusters.verdict"
+      ]
+    },
+    {
+      "t": "Sociétés d'honneur →",
+      "of": "48a8bb43",
+      "at": [
+        "carmel-christian:clusters.rows[0].name"
+      ]
+    },
+    {
+      "t": "National Honor Society, National Beta Club, Spanish Honor Society (+ NJHS au MS)",
+      "of": "c1dcb6e6",
+      "at": [
+        "carmel-christian:clusters.rows[0].oneLiner"
+      ]
+    },
+    {
+      "t": "Handbook",
+      "of": "b94a65c5",
+      "at": [
+        "carmel-christian:clusters.rows[0].evidenceLabel"
+      ]
+    },
+    {
+      "t": "Une reconnaissance académique plutôt qu'une compétition : le High School organise la National Honor Society (sur candidature ; GPA pondérée 3.85), le National Beta Club (10e à 12e années ; GPA 3.50 avec heures de service) et une Spanish Honor Society, avec la National Junior Honor Society pour la 8e année au Middle School. Ce sont les distinctions académiques de l'école dans ce domaine.",
+      "of": "4d75a0bb",
+      "at": [
+        "carmel-christian:clusters.rows[0].note"
+      ]
+    },
+    {
+      "t": "Clubs à l'initiative des élèves",
+      "of": "f9430809",
+      "at": [
+        "carmel-christian:clusters.rows[1].name"
+      ]
+    },
+    {
+      "t": "Aucun club permanent de robotique, débat, Model UN, mock trial, quiz bowl ou DECA",
+      "of": "ddf2907f",
+      "at": [
+        "carmel-christian:clusters.rows[1].oneLiner"
+      ]
+    },
+    {
+      "t": "Absence confirmée",
+      "of": "66260f9b",
+      "at": [
+        "carmel-christian:clusters.rows[1].evidenceLabel"
+      ]
+    },
+    {
+      "t": "Un passage approfondi dans le manuel, sur le site en direct et auprès d'agrégateurs tiers a confirmé qu'aucun des clubs habituels de compétition académique ne fonctionne comme organisation permanente d'Upper School. Les clubs sont à l'initiative des élèves, sur candidature, si bien qu'un tel club dépendrait d'élèves postulant pour le fonder une année donnée ; les échecs n'apparaissent que comme cours d'enrichissement de l'Extended Day.",
+      "of": "7571dacf",
+      "at": [
+        "carmel-christian:clusters.rows[1].note"
+      ]
+    },
+    {
+      "t": "Les clubs sont à l'initiative des élèves, sur candidature, si bien que le roster permanent est réduit — cinq organisations nommées d'Upper School, principalement des sociétés d'honneur, le gouvernement étudiant et une organisation de service.",
+      "of": "6aec162a",
+      "at": [
+        "carmel-christian:catalog.verdict"
+      ]
+    },
+    {
+      "t": "Il n'existe aucun annuaire de clubs publié ; voici ce que le manuel et les pages de l'école confirment.",
+      "of": "c0083880",
+      "at": [
+        "carmel-christian:catalog.verdictHint"
+      ]
+    },
+    {
+      "t": "Gouvernement étudiant",
+      "of": "134f2c97",
+      "at": [
+        "carmel-christian:catalog.categories[1].short",
+        "carmel-christian:catalog.categories[1].full"
+      ]
+    },
+    {
+      "t": "Service / discipulat",
+      "of": "9088343a",
+      "at": [
+        "carmel-christian:catalog.categories[2].full"
+      ]
+    },
+    {
+      "t": "High School ; sur candidature (GPA pondérée 3.85 → 3.75 non pondérée à partir de la Class of 2024), intronisations en octobre",
+      "of": "1b4703ef",
+      "at": [
+        "carmel-christian:catalog.clubs[0].note"
+      ]
+    },
+    {
+      "t": "High School (10e à 12e années) ; GPA 3.50 avec 10 heures de service par semestre et 2 projets de service par an ; intronisations à l'automne",
+      "of": "31477fc4",
+      "at": [
+        "carmel-christian:catalog.clubs[1].note"
+      ]
+    },
+    {
+      "t": "High School — le « CCS Chapter of SHS » ; dernière confirmation dans la table des cordons de fin d'études 2021–22",
+      "of": "4344c427",
+      "at": [
+        "carmel-christian:catalog.clubs[2].note"
+      ]
+    },
+    {
+      "t": "High School ; quatre officiers élus chaque printemps et deux représentants par niveau à l'automne",
+      "of": "f5fabb7f",
+      "at": [
+        "carmel-christian:catalog.clubs[3].note"
+      ]
+    },
+    {
+      "t": "Organisation de service / discipulat au High School — les élèves accompagnent des enfants de l'Extended Day ; candidature, recommandation d'enseignant, entretien en septembre, formation en octobre, une heure par semaine",
+      "of": "619371ea",
+      "at": [
+        "carmel-christian:catalog.clubs[4].note"
+      ]
+    },
+    {
+      "t": "Carmel présente les clubs comme portés par les élèves : un élève souhaitant créer un club demande un formulaire au bureau du High School ou du Middle School et postule, et l'administration examine la demande et peut l'accepter ou la refuser. Cela explique la petitesse du roster permanent — la liste active dépend de qui postule chaque année et n'est pas publiée.",
+      "of": "bdaed44f",
+      "at": [
+        "carmel-christian:catalog.divisions[0].text"
+      ]
+    },
+    {
+      "t": "Deux organisations nommées : la Student Government Association (Président/VP/Secrétaire plus deux représentants par niveau, neuf élèves — projet Charlotte Rescue Mission, banquet, Spirit Week) et, pour la 8e année, la National Junior Honor Society (GPA 3.8+, intronisations en octobre).",
+      "of": "f70a4998",
+      "at": [
+        "carmel-christian:catalog.divisions[1].text"
+      ]
+    },
+    {
+      "t": "Vie spirituelle & traditions",
+      "of": "96d40bef",
+      "at": [
+        "carmel-christian:catalog.divisions[2].label"
+      ]
+    },
+    {
+      "t": "La chapelle et la tradition plutôt que des clubs : l'Ignite Praise Band mène le culte de la chapelle du jeudi, et l'année scolaire est rythmée par la retraite Windy Gap, See You at the Pole (menée par le MS SGA et le HS Student Council), la Spirit Week / Homecoming, le J-Term (une semaine exigence de diplôme pouvant inclure des voyages missionnaires) et des voyages missionnaires internationaux.",
+      "of": "e3695031",
+      "at": [
+        "carmel-christian:catalog.divisions[2].text"
       ]
     }
   ]

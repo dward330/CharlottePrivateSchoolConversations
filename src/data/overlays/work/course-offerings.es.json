@@ -22,7 +22,8 @@
         "charlotte-christian:divisions[0].title",
         "charlotte-country-day:divisions[0].title",
         "cannon:divisions[0].title",
-        "davidson-day:divisions[0].title"
+        "davidson-day:divisions[0].title",
+        "carmel-christian:divisions[2].title"
       ],
       "t": "Asignaturas de Lower School"
     },
@@ -55,7 +56,8 @@
       "text": "Core Curriculum",
       "of": "a056ff15",
       "at": [
-        "providence-day:divisions[0].departments[0].name"
+        "providence-day:divisions[0].departments[0].name",
+        "carmel-christian:divisions[2].departments[0].name"
       ],
       "t": "Plan de estudios básico"
     },
@@ -64,7 +66,9 @@
       "of": "5569c3af",
       "at": [
         "providence-day:divisions[0].departments[0].courses[0].title",
-        "charlotte-christian:divisions[0].departments[1].courses[2].title"
+        "charlotte-christian:divisions[0].departments[1].courses[2].title",
+        "carmel-christian:divisions[1].departments[2].name",
+        "carmel-christian:divisions[2].departments[0].courses[1].title"
       ],
       "t": "Matemáticas"
     },
@@ -111,7 +115,9 @@
       "of": "722769af",
       "at": [
         "providence-day:divisions[0].departments[0].courses[1].title",
-        "cannon:divisions[0].departments[0].courses[0].title"
+        "cannon:divisions[0].departments[0].courses[0].title",
+        "carmel-christian:divisions[1].departments[1].name",
+        "carmel-christian:divisions[2].departments[0].courses[2].title"
       ],
       "t": "Lengua y literatura"
     },
@@ -144,7 +150,10 @@
         "cannon:divisions[1].departments[0].courses[1].title",
         "cannon:divisions[2].departments[2].name",
         "covenant-day:divisions[0].departments[2].name",
-        "davidson-day:divisions[2].departments[3].name"
+        "davidson-day:divisions[2].departments[3].name",
+        "carmel-christian:divisions[0].departments[3].name",
+        "carmel-christian:divisions[1].departments[4].name",
+        "carmel-christian:divisions[2].departments[0].courses[3].title"
       ],
       "t": "Ciencias"
     },
@@ -170,7 +179,10 @@
         "cannon:divisions[0].departments[0].courses[3].title",
         "cannon:divisions[1].departments[0].courses[2].title",
         "cannon:divisions[2].departments[3].name",
-        "covenant-day:divisions[0].departments[3].name"
+        "covenant-day:divisions[0].departments[3].name",
+        "carmel-christian:divisions[0].departments[4].name",
+        "carmel-christian:divisions[1].departments[5].name",
+        "carmel-christian:divisions[2].departments[0].courses[4].title"
       ],
       "t": "Ciencias sociales"
     },
@@ -258,7 +270,8 @@
         "providence-day:divisions[0].departments[2].courses[0].title",
         "charlotte-latin:divisions[0].departments[2].courses[1].title",
         "charlotte-christian:divisions[0].departments[2].courses[0].title",
-        "cannon:divisions[0].departments[2].courses[0].title"
+        "cannon:divisions[0].departments[2].courses[0].title",
+        "carmel-christian:divisions[2].departments[1].courses[0].title"
       ],
       "t": "Arte"
     },
@@ -277,7 +290,8 @@
         "providence-day:divisions[0].departments[2].courses[1].title",
         "charlotte-latin:divisions[0].departments[2].courses[0].title",
         "charlotte-christian:divisions[0].departments[2].courses[1].title",
-        "cannon:divisions[0].departments[2].courses[1].title"
+        "cannon:divisions[0].departments[2].courses[1].title",
+        "carmel-christian:divisions[2].departments[1].courses[3].title"
       ],
       "t": "Música"
     },
@@ -336,7 +350,10 @@
         "cannon:divisions[0].departments[2].courses[2].title",
         "cannon:divisions[1].departments[0].courses[3].title",
         "cannon:divisions[2].departments[7].name",
-        "davidson-day:divisions[2].departments[7].name"
+        "davidson-day:divisions[2].departments[7].name",
+        "carmel-christian:divisions[0].departments[6].courses[1].title",
+        "carmel-christian:divisions[1].departments[6].courses[0].title",
+        "carmel-christian:divisions[2].departments[1].courses[4].title"
       ],
       "t": "Educación física"
     },
@@ -439,7 +456,8 @@
         "charlotte-christian:divisions[1].title",
         "charlotte-country-day:divisions[1].title",
         "cannon:divisions[1].title",
-        "davidson-day:divisions[1].title"
+        "davidson-day:divisions[1].title",
+        "carmel-christian:divisions[1].title"
       ],
       "t": "Asignaturas de Middle School"
     },
@@ -475,7 +493,8 @@
         "cannon:divisions[1].departments[0].courses[0].title",
         "cannon:divisions[2].departments[0].name",
         "covenant-day:divisions[0].departments[0].name",
-        "davidson-day:divisions[2].departments[0].name"
+        "davidson-day:divisions[2].departments[0].name",
+        "carmel-christian:divisions[0].departments[1].name"
       ],
       "t": "Inglés"
     },
@@ -518,7 +537,18 @@
         "charlotte-country-day:divisions[1].departments[5].courses[6].tag",
         "cannon:divisions[1].departments[2].courses[1].tag",
         "davidson-day:divisions[1].departments[0].courses[2].tag",
-        "davidson-day:divisions[1].departments[0].courses[4].tag"
+        "davidson-day:divisions[1].departments[0].courses[4].tag",
+        "carmel-christian:divisions[1].departments[0].courses[0].tag",
+        "carmel-christian:divisions[1].departments[1].courses[0].tag",
+        "carmel-christian:divisions[1].departments[2].courses[0].tag",
+        "carmel-christian:divisions[1].departments[3].courses[0].tag",
+        "carmel-christian:divisions[1].departments[4].courses[0].tag",
+        "carmel-christian:divisions[1].departments[5].courses[0].tag",
+        "carmel-christian:divisions[1].departments[7].courses[0].tag",
+        "carmel-christian:divisions[1].departments[7].courses[6].tag",
+        "carmel-christian:divisions[1].departments[8].courses[0].tag",
+        "carmel-christian:divisions[1].departments[8].courses[1].tag",
+        "carmel-christian:divisions[1].departments[8].courses[2].tag"
       ],
       "t": "Gr 6"
     },
@@ -563,7 +593,13 @@
         "charlotte-country-day:divisions[1].departments[1].courses[3].tag",
         "charlotte-country-day:divisions[1].departments[2].courses[2].tag",
         "charlotte-country-day:divisions[1].departments[5].courses[3].tag",
-        "davidson-day:divisions[1].departments[0].courses[5].tag"
+        "davidson-day:divisions[1].departments[0].courses[5].tag",
+        "carmel-christian:divisions[1].departments[0].courses[1].tag",
+        "carmel-christian:divisions[1].departments[1].courses[1].tag",
+        "carmel-christian:divisions[1].departments[2].courses[2].tag",
+        "carmel-christian:divisions[1].departments[3].courses[1].tag",
+        "carmel-christian:divisions[1].departments[4].courses[1].tag",
+        "carmel-christian:divisions[1].departments[5].courses[1].tag"
       ],
       "t": "Gr 7"
     },
@@ -614,7 +650,12 @@
         "charlotte-country-day:divisions[1].departments[2].courses[3].tag",
         "charlotte-country-day:divisions[1].departments[5].courses[4].tag",
         "cannon:divisions[1].departments[1].courses[3].tag",
-        "davidson-day:divisions[1].departments[0].courses[7].tag"
+        "davidson-day:divisions[1].departments[0].courses[7].tag",
+        "carmel-christian:divisions[1].departments[0].courses[2].tag",
+        "carmel-christian:divisions[1].departments[1].courses[2].tag",
+        "carmel-christian:divisions[1].departments[3].courses[2].tag",
+        "carmel-christian:divisions[1].departments[4].courses[2].tag",
+        "carmel-christian:divisions[1].departments[5].courses[2].tag"
       ],
       "t": "Gr 8"
     },
@@ -830,7 +871,18 @@
         "cannon:divisions[1].departments[2].courses[2].tag",
         "cannon:divisions[1].departments[3].courses[2].tag",
         "davidson-day:divisions[1].departments[0].courses[6].tag",
-        "davidson-day:divisions[1].departments[1].courses[1].tag"
+        "davidson-day:divisions[1].departments[1].courses[1].tag",
+        "carmel-christian:divisions[1].departments[2].courses[3].tag",
+        "carmel-christian:divisions[1].departments[6].courses[1].tag",
+        "carmel-christian:divisions[1].departments[7].courses[1].tag",
+        "carmel-christian:divisions[1].departments[7].courses[5].tag",
+        "carmel-christian:divisions[1].departments[7].courses[7].tag",
+        "carmel-christian:divisions[1].departments[7].courses[9].tag",
+        "carmel-christian:divisions[1].departments[8].courses[5].tag",
+        "carmel-christian:divisions[1].departments[8].courses[6].tag",
+        "carmel-christian:divisions[1].departments[8].courses[7].tag",
+        "carmel-christian:divisions[1].departments[8].courses[8].tag",
+        "carmel-christian:divisions[1].departments[8].courses[9].tag"
       ],
       "t": "Gr 7–8"
     },
@@ -862,7 +914,8 @@
         "cannon:divisions[2].departments[1].name",
         "covenant-day:divisions[0].departments[1].name",
         "davidson-day:divisions[1].departments[0].name",
-        "davidson-day:divisions[2].departments[1].name"
+        "davidson-day:divisions[2].departments[1].name",
+        "carmel-christian:divisions[0].departments[2].name"
       ],
       "t": "Matemáticas"
     },
@@ -886,7 +939,8 @@
       "text": "Math 7",
       "of": "3db1701e",
       "at": [
-        "providence-day:divisions[1].departments[1].courses[1].title"
+        "providence-day:divisions[1].departments[1].courses[1].title",
+        "carmel-christian:divisions[1].departments[2].courses[2].title"
       ],
       "t": "Math 7"
     },
@@ -1299,7 +1353,14 @@
         "providence-day:divisions[1].departments[5].courses[4].tag",
         "providence-day:divisions[1].departments[5].courses[5].tag",
         "providence-day:divisions[1].departments[5].courses[6].tag",
-        "providence-day:divisions[1].departments[6].courses[11].tag"
+        "providence-day:divisions[1].departments[6].courses[11].tag",
+        "carmel-christian:divisions[1].departments[6].courses[0].tag",
+        "carmel-christian:divisions[1].departments[7].courses[2].tag",
+        "carmel-christian:divisions[1].departments[7].courses[3].tag",
+        "carmel-christian:divisions[1].departments[7].courses[4].tag",
+        "carmel-christian:divisions[1].departments[7].courses[8].tag",
+        "carmel-christian:divisions[1].departments[8].courses[3].tag",
+        "carmel-christian:divisions[1].departments[8].courses[4].tag"
       ],
       "t": "Gr 6–8"
     },
@@ -1979,7 +2040,8 @@
       "at": [
         "providence-day:divisions[2].departments[0].courses[3].title",
         "charlotte-christian:divisions[2].departments[1].courses[12].title",
-        "charlotte-country-day:divisions[2].departments[0].courses[8].title"
+        "charlotte-country-day:divisions[2].departments[0].courses[8].title",
+        "carmel-christian:divisions[1].departments[8].courses[7].title"
       ],
       "t": "Escritura creativa"
     },
@@ -2297,7 +2359,23 @@
         "davidson-day:divisions[2].departments[6].courses[1].tag",
         "davidson-day:divisions[2].departments[6].courses[2].tag",
         "davidson-day:divisions[2].departments[8].courses[1].tag",
-        "davidson-day:divisions[2].departments[8].courses[3].tag"
+        "davidson-day:divisions[2].departments[8].courses[3].tag",
+        "carmel-christian:divisions[0].departments[1].courses[12].tag",
+        "carmel-christian:divisions[0].departments[1].courses[13].tag",
+        "carmel-christian:divisions[0].departments[2].courses[8].tag",
+        "carmel-christian:divisions[0].departments[2].courses[11].tag",
+        "carmel-christian:divisions[0].departments[2].courses[12].tag",
+        "carmel-christian:divisions[0].departments[3].courses[13].tag",
+        "carmel-christian:divisions[0].departments[3].courses[14].tag",
+        "carmel-christian:divisions[0].departments[4].courses[9].tag",
+        "carmel-christian:divisions[0].departments[4].courses[10].tag",
+        "carmel-christian:divisions[0].departments[4].courses[11].tag",
+        "carmel-christian:divisions[0].departments[4].courses[12].tag",
+        "carmel-christian:divisions[0].departments[4].courses[13].tag",
+        "carmel-christian:divisions[0].departments[5].courses[6].tag",
+        "carmel-christian:divisions[0].departments[7].courses[4].tag",
+        "carmel-christian:divisions[0].departments[8].courses[6].tag",
+        "carmel-christian:divisions[0].departments[8].courses[7].tag"
       ],
       "t": "AP"
     },
@@ -2364,7 +2442,9 @@
       "of": "64b858bb",
       "at": [
         "providence-day:divisions[2].departments[1].courses[1].title",
-        "covenant-day:divisions[0].departments[3].courses[0].title"
+        "covenant-day:divisions[0].departments[3].courses[0].title",
+        "carmel-christian:divisions[0].departments[4].courses[0].title",
+        "carmel-christian:divisions[0].departments[4].courses[1].title"
       ],
       "t": "Historia universal"
     },
@@ -2469,7 +2549,8 @@
       "of": "0899a9cf",
       "at": [
         "providence-day:divisions[2].departments[1].courses[7].title",
-        "charlotte-country-day:divisions[2].departments[3].courses[9].title"
+        "charlotte-country-day:divisions[2].departments[3].courses[9].title",
+        "carmel-christian:divisions[0].departments[4].courses[11].title"
       ],
       "t": "AP Human Geography"
     },
@@ -2522,7 +2603,8 @@
         "providence-day:divisions[2].departments[1].courses[10].title",
         "charlotte-country-day:divisions[2].departments[3].courses[7].title",
         "covenant-day:divisions[0].departments[3].courses[10].title",
-        "davidson-day:divisions[2].departments[2].courses[9].title"
+        "davidson-day:divisions[2].departments[2].courses[9].title",
+        "carmel-christian:divisions[0].departments[4].courses[12].title"
       ],
       "t": "AP Psychology"
     },
@@ -2758,7 +2840,8 @@
         "charlotte-country-day:divisions[1].departments[0].courses[8].title",
         "charlotte-country-day:divisions[2].departments[1].courses[1].title",
         "covenant-day:divisions[0].departments[1].courses[1].title",
-        "davidson-day:divisions[2].departments[1].courses[2].title"
+        "davidson-day:divisions[2].departments[1].courses[2].title",
+        "carmel-christian:divisions[0].departments[2].courses[2].title"
       ],
       "t": "Geometría"
     },
@@ -2809,7 +2892,10 @@
         "providence-day:divisions[2].departments[2].courses[4].title",
         "charlotte-christian:divisions[2].departments[2].courses[3].title",
         "charlotte-country-day:divisions[2].departments[1].courses[3].title",
-        "davidson-day:divisions[2].departments[1].courses[4].title"
+        "davidson-day:divisions[2].departments[1].courses[4].title",
+        "carmel-christian:divisions[0].departments[2].courses[3].title",
+        "carmel-christian:divisions[0].departments[2].courses[4].title",
+        "carmel-christian:divisions[0].departments[2].courses[5].title"
       ],
       "t": "Algebra II"
     },
@@ -2942,7 +3028,8 @@
         "providence-day:divisions[2].departments[2].courses[12].title",
         "charlotte-country-day:divisions[2].departments[1].courses[13].title",
         "covenant-day:divisions[0].departments[1].courses[10].title",
-        "davidson-day:divisions[2].departments[1].courses[9].title"
+        "davidson-day:divisions[2].departments[1].courses[9].title",
+        "carmel-christian:divisions[0].departments[2].courses[11].title"
       ],
       "t": "AP Calculus AB"
     },
@@ -2979,7 +3066,8 @@
         "providence-day:divisions[2].departments[2].courses[14].title",
         "charlotte-country-day:divisions[2].departments[1].courses[11].title",
         "covenant-day:divisions[0].departments[1].courses[11].title",
-        "davidson-day:divisions[2].departments[1].courses[12].title"
+        "davidson-day:divisions[2].departments[1].courses[12].title",
+        "carmel-christian:divisions[0].departments[2].courses[12].title"
       ],
       "t": "AP Statistics"
     },
@@ -3330,7 +3418,8 @@
         "providence-day:divisions[2].departments[3].courses[15].title",
         "charlotte-country-day:divisions[2].departments[2].courses[2].title",
         "covenant-day:divisions[0].departments[2].courses[8].title",
-        "davidson-day:divisions[2].departments[3].courses[9].title"
+        "davidson-day:divisions[2].departments[3].courses[9].title",
+        "carmel-christian:divisions[0].departments[3].courses[13].title"
       ],
       "t": "AP Biology"
     },
@@ -3368,7 +3457,8 @@
         "providence-day:divisions[2].departments[3].courses[17].title",
         "charlotte-country-day:divisions[2].departments[2].courses[5].title",
         "covenant-day:divisions[0].departments[2].courses[10].title",
-        "davidson-day:divisions[2].departments[3].courses[10].title"
+        "davidson-day:divisions[2].departments[3].courses[10].title",
+        "carmel-christian:divisions[0].departments[3].courses[14].title"
       ],
       "t": "AP Environmental Science"
     },
@@ -4069,7 +4159,8 @@
         "providence-day:divisions[2].departments[7].courses[8].title",
         "charlotte-latin:divisions[2].departments[7].courses[6].title",
         "charlotte-country-day:divisions[2].departments[5].courses[26].title",
-        "covenant-day:divisions[0].departments[6].courses[13].title"
+        "covenant-day:divisions[0].departments[6].courses[13].title",
+        "carmel-christian:divisions[0].departments[7].courses[14].title"
       ],
       "t": "Anuario"
     },
@@ -4481,7 +4572,35 @@
         "davidson-day:divisions[2].departments[5].courses[4].tag",
         "davidson-day:divisions[2].departments[8].courses[0].tag",
         "davidson-day:divisions[2].departments[8].courses[2].tag",
-        "davidson-day:divisions[2].departments[8].courses[7].tag"
+        "davidson-day:divisions[2].departments[8].courses[7].tag",
+        "carmel-christian:divisions[0].departments[1].courses[2].tag",
+        "carmel-christian:divisions[0].departments[1].courses[5].tag",
+        "carmel-christian:divisions[0].departments[1].courses[8].tag",
+        "carmel-christian:divisions[0].departments[1].courses[11].tag",
+        "carmel-christian:divisions[0].departments[2].courses[2].tag",
+        "carmel-christian:divisions[0].departments[2].courses[5].tag",
+        "carmel-christian:divisions[0].departments[2].courses[7].tag",
+        "carmel-christian:divisions[0].departments[2].courses[10].tag",
+        "carmel-christian:divisions[0].departments[3].courses[1].tag",
+        "carmel-christian:divisions[0].departments[3].courses[2].tag",
+        "carmel-christian:divisions[0].departments[3].courses[4].tag",
+        "carmel-christian:divisions[0].departments[3].courses[5].tag",
+        "carmel-christian:divisions[0].departments[3].courses[7].tag",
+        "carmel-christian:divisions[0].departments[3].courses[9].tag",
+        "carmel-christian:divisions[0].departments[3].courses[12].tag",
+        "carmel-christian:divisions[0].departments[4].courses[1].tag",
+        "carmel-christian:divisions[0].departments[4].courses[3].tag",
+        "carmel-christian:divisions[0].departments[4].courses[5].tag",
+        "carmel-christian:divisions[0].departments[5].courses[2].tag",
+        "carmel-christian:divisions[0].departments[5].courses[4].tag",
+        "carmel-christian:divisions[0].departments[5].courses[5].tag",
+        "carmel-christian:divisions[0].departments[7].courses[2].tag",
+        "carmel-christian:divisions[0].departments[7].courses[3].tag",
+        "carmel-christian:divisions[0].departments[7].courses[9].tag",
+        "carmel-christian:divisions[1].departments[1].courses[3].tag",
+        "carmel-christian:divisions[1].departments[2].courses[1].tag",
+        "carmel-christian:divisions[1].departments[2].courses[4].tag",
+        "carmel-christian:divisions[1].departments[2].courses[5].tag"
       ],
       "t": "Honors"
     },
@@ -4845,7 +4964,9 @@
         "charlotte-latin:divisions[0].departments[1].courses[0].title",
         "charlotte-christian:divisions[0].departments[2].courses[4].title",
         "charlotte-country-day:divisions[1].departments[3].courses[0].title",
-        "cannon:divisions[0].departments[1].courses[0].title"
+        "cannon:divisions[0].departments[1].courses[0].title",
+        "carmel-christian:divisions[1].departments[3].name",
+        "carmel-christian:divisions[2].departments[1].courses[1].title"
       ],
       "t": "Español"
     },
@@ -5018,7 +5139,8 @@
       "text": "Math 6",
       "of": "3eb171b1",
       "at": [
-        "charlotte-latin:divisions[1].departments[2].courses[0].title"
+        "charlotte-latin:divisions[1].departments[2].courses[0].title",
+        "carmel-christian:divisions[1].departments[2].courses[0].title"
       ],
       "t": "Math 6"
     },
@@ -5036,7 +5158,8 @@
       "at": [
         "charlotte-latin:divisions[1].departments[2].courses[1].title",
         "charlotte-country-day:divisions[1].departments[0].courses[3].title",
-        "cannon:divisions[1].departments[1].courses[1].title"
+        "cannon:divisions[1].departments[1].courses[1].title",
+        "carmel-christian:divisions[1].departments[2].courses[3].title"
       ],
       "t": "Pre-Álgebra"
     },
@@ -5130,7 +5253,8 @@
         "charlotte-christian:divisions[2].departments[5].name",
         "cannon:divisions[1].departments[2].name",
         "cannon:divisions[2].departments[4].name",
-        "davidson-day:divisions[2].departments[4].name"
+        "davidson-day:divisions[2].departments[4].name",
+        "carmel-christian:divisions[0].departments[5].name"
       ],
       "t": "Lenguas extranjeras"
     },
@@ -5268,7 +5392,8 @@
       "of": "ddead67b",
       "at": [
         "charlotte-latin:divisions[1].departments[5].name",
-        "charlotte-christian:divisions[1].departments[5].name"
+        "charlotte-christian:divisions[1].departments[5].name",
+        "carmel-christian:divisions[0].departments[8].name"
       ],
       "t": "Optativas"
     },
@@ -5368,7 +5493,10 @@
       "text": "World Literature",
       "of": "4f78eb8e",
       "at": [
-        "charlotte-latin:divisions[2].departments[0].courses[0].title"
+        "charlotte-latin:divisions[2].departments[0].courses[0].title",
+        "carmel-christian:divisions[0].departments[1].courses[9].title",
+        "carmel-christian:divisions[0].departments[1].courses[10].title",
+        "carmel-christian:divisions[0].departments[1].courses[11].title"
       ],
       "t": "Literatura universal"
     },
@@ -5401,7 +5529,10 @@
       "of": "c3da6e02",
       "at": [
         "charlotte-latin:divisions[2].departments[0].courses[2].title",
-        "covenant-day:divisions[0].departments[0].courses[2].title"
+        "covenant-day:divisions[0].departments[0].courses[2].title",
+        "carmel-christian:divisions[0].departments[1].courses[3].title",
+        "carmel-christian:divisions[0].departments[1].courses[4].title",
+        "carmel-christian:divisions[0].departments[1].courses[5].title"
       ],
       "t": "Literatura estadounidense"
     },
@@ -5764,7 +5895,8 @@
       "of": "d34cd34c",
       "at": [
         "charlotte-latin:divisions[2].departments[2].courses[1].description",
-        "covenant-day:divisions[0].departments[3].courses[10].description"
+        "covenant-day:divisions[0].departments[3].courses[10].description",
+        "carmel-christian:divisions[0].departments[4].courses[12].description"
       ],
       "t": "Psicología de nivel universitario."
     },
@@ -6007,7 +6139,8 @@
       "of": "58226eb6",
       "at": [
         "charlotte-latin:divisions[2].departments[3].courses[13].description",
-        "covenant-day:divisions[0].departments[1].courses[11].description"
+        "covenant-day:divisions[0].departments[1].courses[11].description",
+        "carmel-christian:divisions[0].departments[2].courses[12].description"
       ],
       "t": "Estadística de nivel universitario."
     },
@@ -6048,7 +6181,8 @@
       "of": "bb3a07ca",
       "at": [
         "charlotte-latin:divisions[2].departments[4].courses[0].title",
-        "davidson-day:divisions[2].departments[3].courses[0].title"
+        "davidson-day:divisions[2].departments[3].courses[0].title",
+        "carmel-christian:divisions[0].departments[3].courses[8].title"
       ],
       "t": "Física conceptual"
     },
@@ -6083,7 +6217,9 @@
         "charlotte-latin:divisions[2].departments[4].courses[2].title",
         "charlotte-christian:divisions[2].departments[3].courses[2].title",
         "covenant-day:divisions[0].departments[2].courses[2].title",
-        "davidson-day:divisions[2].departments[3].courses[4].title"
+        "davidson-day:divisions[2].departments[3].courses[4].title",
+        "carmel-christian:divisions[0].departments[3].courses[3].title",
+        "carmel-christian:divisions[0].departments[3].courses[4].title"
       ],
       "t": "Química"
     },
@@ -6134,7 +6270,9 @@
         "charlotte-latin:divisions[2].departments[4].courses[5].title",
         "charlotte-christian:divisions[2].departments[3].courses[0].title",
         "covenant-day:divisions[0].departments[2].courses[0].title",
-        "davidson-day:divisions[2].departments[3].courses[7].title"
+        "davidson-day:divisions[2].departments[3].courses[7].title",
+        "carmel-christian:divisions[0].departments[3].courses[0].title",
+        "carmel-christian:divisions[0].departments[3].courses[1].title"
       ],
       "t": "Biología"
     },
@@ -6175,7 +6313,8 @@
       "of": "c092d8e4",
       "at": [
         "charlotte-latin:divisions[2].departments[4].courses[7].description",
-        "covenant-day:divisions[0].departments[2].courses[8].description"
+        "covenant-day:divisions[0].departments[2].courses[8].description",
+        "carmel-christian:divisions[0].departments[3].courses[13].description"
       ],
       "t": "Biología de nivel universitario."
     },
@@ -6192,7 +6331,8 @@
       "of": "380c4f3f",
       "at": [
         "charlotte-latin:divisions[2].departments[4].courses[8].description",
-        "covenant-day:divisions[0].departments[2].courses[10].description"
+        "covenant-day:divisions[0].departments[2].courses[10].description",
+        "carmel-christian:divisions[0].departments[3].courses[14].description"
       ],
       "t": "Ciencias ambientales de nivel universitario."
     },
@@ -6432,7 +6572,8 @@
       "of": "528149e0",
       "at": [
         "charlotte-latin:divisions[2].departments[5].courses[5].description",
-        "charlotte-country-day:divisions[2].departments[4].courses[9].description"
+        "charlotte-country-day:divisions[2].departments[4].courses[9].description",
+        "carmel-christian:divisions[0].departments[5].courses[6].description"
       ],
       "t": "Lengua y cultura españolas de nivel universitario."
     },
@@ -7089,7 +7230,8 @@
         "charlotte-christian:guideYear",
         "cannon:guideYear",
         "covenant-day:guideYear",
-        "davidson-day:guideYear"
+        "davidson-day:guideYear",
+        "carmel-christian:guideYear"
       ],
       "t": "2026-27"
     },
@@ -7125,7 +7267,10 @@
         "charlotte-christian:divisions[0].departments[0].name",
         "charlotte-christian:divisions[0].departments[0].courses[0].title",
         "charlotte-christian:divisions[1].departments[0].name",
-        "covenant-day:divisions[0].departments[4].name"
+        "covenant-day:divisions[0].departments[4].name",
+        "carmel-christian:divisions[0].departments[0].name",
+        "carmel-christian:divisions[1].departments[0].name",
+        "carmel-christian:divisions[2].departments[0].courses[0].title"
       ],
       "t": "Bible"
     },
@@ -7498,7 +7643,8 @@
       "text": "Physical Science",
       "of": "ce55127a",
       "at": [
-        "charlotte-christian:divisions[1].departments[2].courses[1].title"
+        "charlotte-christian:divisions[1].departments[2].courses[1].title",
+        "carmel-christian:divisions[1].departments[4].courses[2].title"
       ],
       "t": "Ciencias físicas"
     },
@@ -7514,7 +7660,8 @@
       "text": "Life Science",
       "of": "970e4115",
       "at": [
-        "charlotte-christian:divisions[1].departments[2].courses[2].title"
+        "charlotte-christian:divisions[1].departments[2].courses[2].title",
+        "carmel-christian:divisions[1].departments[4].courses[1].title"
       ],
       "t": "Ciencias de la vida"
     },
@@ -7530,7 +7677,8 @@
       "text": "Earth Science",
       "of": "1a46f04d",
       "at": [
-        "charlotte-christian:divisions[1].departments[2].courses[3].title"
+        "charlotte-christian:divisions[1].departments[2].courses[3].title",
+        "carmel-christian:divisions[1].departments[4].courses[0].title"
       ],
       "t": "Ciencias de la Tierra"
     },
@@ -9355,7 +9503,8 @@
       "at": [
         "charlotte-christian:divisions[2].departments[7].courses[13].title",
         "charlotte-country-day:divisions[1].departments[4].courses[2].title",
-        "covenant-day:divisions[0].departments[6].courses[0].title"
+        "covenant-day:divisions[0].departments[6].courses[0].title",
+        "carmel-christian:divisions[0].departments[7].courses[7].title"
       ],
       "t": "Coro"
     },
@@ -9516,7 +9665,8 @@
       "of": "3ef991bc",
       "at": [
         "charlotte-christian:divisions[2].departments[7].courses[23].title",
-        "covenant-day:divisions[0].departments[6].courses[11].title"
+        "covenant-day:divisions[0].departments[6].courses[11].title",
+        "carmel-christian:divisions[1].departments[7].courses[2].title"
       ],
       "t": "Fotografía digital"
     },
@@ -10444,7 +10594,8 @@
         "charlotte-country-day:divisions[1].departments[5].courses[2].title",
         "charlotte-country-day:divisions[1].departments[5].courses[3].title",
         "charlotte-country-day:divisions[1].departments[5].courses[4].title",
-        "covenant-day:divisions[0].departments[2].courses[5].title"
+        "covenant-day:divisions[0].departments[2].courses[5].title",
+        "carmel-christian:divisions[0].departments[6].courses[0].title"
       ],
       "t": "Salud"
     },
@@ -11457,7 +11608,8 @@
       "text": "College-level human geography.",
       "of": "22a34bc8",
       "at": [
-        "charlotte-country-day:divisions[2].departments[3].courses[9].description"
+        "charlotte-country-day:divisions[2].departments[3].courses[9].description",
+        "carmel-christian:divisions[0].departments[4].courses[11].description"
       ],
       "t": "Geografía humana de nivel universitario."
     },
@@ -11814,7 +11966,8 @@
       "of": "04056db0",
       "at": [
         "charlotte-country-day:divisions[2].departments[5].courses[3].title",
-        "covenant-day:divisions[0].departments[6].courses[2].title"
+        "covenant-day:divisions[0].departments[6].courses[2].title",
+        "carmel-christian:divisions[0].departments[7].courses[5].title"
       ],
       "t": "Banda sinfónica"
     },
@@ -13050,7 +13203,8 @@
       "text": "Honors Precalculus",
       "of": "6265b601",
       "at": [
-        "cannon:divisions[2].departments[1].courses[5].title"
+        "cannon:divisions[2].departments[1].courses[5].title",
+        "carmel-christian:divisions[0].departments[2].courses[7].title"
       ],
       "t": "Honors Precalculus"
     },
@@ -13251,7 +13405,8 @@
       "text": "Honors Chemistry",
       "of": "bebcf292",
       "at": [
-        "cannon:divisions[2].departments[2].courses[4].title"
+        "cannon:divisions[2].departments[2].courses[4].title",
+        "carmel-christian:divisions[0].departments[3].courses[5].title"
       ],
       "t": "Honors Chemistry"
     },
@@ -13299,7 +13454,8 @@
       "text": "Honors Biology",
       "of": "ad9e1613",
       "at": [
-        "cannon:divisions[2].departments[2].courses[7].title"
+        "cannon:divisions[2].departments[2].courses[7].title",
+        "carmel-christian:divisions[0].departments[3].courses[2].title"
       ],
       "t": "Honors Biology"
     },
@@ -13957,7 +14113,8 @@
       "text": "Arts",
       "of": "278c981b",
       "at": [
-        "cannon:divisions[2].departments[5].name"
+        "cannon:divisions[2].departments[5].name",
+        "carmel-christian:divisions[0].departments[7].name"
       ],
       "t": "Artes"
     },
@@ -14469,7 +14626,8 @@
       "text": "High School Courses",
       "of": "d2156e65",
       "at": [
-        "covenant-day:divisions[0].title"
+        "covenant-day:divisions[0].title",
+        "carmel-christian:divisions[0].title"
       ],
       "t": "Asignaturas de High School"
     },
@@ -14477,7 +14635,8 @@
       "text": "GRADES 9 – 12",
       "of": "b750d992",
       "at": [
-        "covenant-day:divisions[0].grades"
+        "covenant-day:divisions[0].grades",
+        "carmel-christian:divisions[0].grades"
       ],
       "t": "GRADOS 9 – 12"
     },
@@ -14625,7 +14784,10 @@
       "text": "British Literature",
       "of": "d5de682b",
       "at": [
-        "covenant-day:divisions[0].departments[0].courses[6].title"
+        "covenant-day:divisions[0].departments[0].courses[6].title",
+        "carmel-christian:divisions[0].departments[1].courses[6].title",
+        "carmel-christian:divisions[0].departments[1].courses[7].title",
+        "carmel-christian:divisions[0].departments[1].courses[8].title"
       ],
       "t": "British Literature"
     },
@@ -14657,7 +14819,8 @@
       "text": "AP English Language & Composition",
       "of": "9306a94e",
       "at": [
-        "covenant-day:divisions[0].departments[0].courses[8].title"
+        "covenant-day:divisions[0].departments[0].courses[8].title",
+        "carmel-christian:divisions[0].departments[1].courses[12].title"
       ],
       "t": "AP English Language & Composition"
     },
@@ -14673,7 +14836,8 @@
       "text": "AP English Literature & Composition",
       "of": "6c1a804b",
       "at": [
-        "covenant-day:divisions[0].departments[0].courses[9].title"
+        "covenant-day:divisions[0].departments[0].courses[9].title",
+        "carmel-christian:divisions[0].departments[1].courses[13].title"
       ],
       "t": "AP English Literature & Composition"
     },
@@ -14801,7 +14965,8 @@
       "text": "College-level differential and integral calculus.",
       "of": "cf28429f",
       "at": [
-        "covenant-day:divisions[0].departments[1].courses[10].description"
+        "covenant-day:divisions[0].departments[1].courses[10].description",
+        "carmel-christian:divisions[0].departments[2].courses[11].description"
       ],
       "t": "Cálculo diferencial e integral de nivel universitario."
     },
@@ -14817,7 +14982,8 @@
       "text": "Honors biology.",
       "of": "130ae067",
       "at": [
-        "covenant-day:divisions[0].departments[2].courses[1].description"
+        "covenant-day:divisions[0].departments[2].courses[1].description",
+        "carmel-christian:divisions[0].departments[3].courses[2].description"
       ],
       "t": "Biología de honores."
     },
@@ -14833,7 +14999,8 @@
       "text": "Honors chemistry.",
       "of": "49b89254",
       "at": [
-        "covenant-day:divisions[0].departments[2].courses[3].description"
+        "covenant-day:divisions[0].departments[2].courses[3].description",
+        "carmel-christian:divisions[0].departments[3].courses[5].description"
       ],
       "t": "Química de honores."
     },
@@ -14946,7 +15113,9 @@
       "text": "US History",
       "of": "9aeceb25",
       "at": [
-        "covenant-day:divisions[0].departments[3].courses[2].title"
+        "covenant-day:divisions[0].departments[3].courses[2].title",
+        "carmel-christian:divisions[0].departments[4].courses[4].title",
+        "carmel-christian:divisions[0].departments[4].courses[5].title"
       ],
       "t": "US History"
     },
@@ -15026,7 +15195,8 @@
       "text": "AP US History",
       "of": "6ac84760",
       "at": [
-        "covenant-day:divisions[0].departments[3].courses[7].title"
+        "covenant-day:divisions[0].departments[3].courses[7].title",
+        "carmel-christian:divisions[0].departments[4].courses[10].title"
       ],
       "t": "AP US History"
     },
@@ -15034,7 +15204,8 @@
       "text": "College-level American history.",
       "of": "4eab3535",
       "at": [
-        "covenant-day:divisions[0].departments[3].courses[7].description"
+        "covenant-day:divisions[0].departments[3].courses[7].description",
+        "carmel-christian:divisions[0].departments[4].courses[10].description"
       ],
       "t": "Historia estadounidense de nivel universitario."
     },
@@ -15070,7 +15241,33 @@
         "davidson-day:divisions[2].departments[1].courses[0].tag",
         "davidson-day:divisions[2].departments[1].courses[2].tag",
         "davidson-day:divisions[2].departments[4].courses[0].tag",
-        "davidson-day:divisions[2].departments[4].courses[6].tag"
+        "davidson-day:divisions[2].departments[4].courses[6].tag",
+        "carmel-christian:divisions[0].departments[0].courses[0].tag",
+        "carmel-christian:divisions[0].departments[0].courses[1].tag",
+        "carmel-christian:divisions[0].departments[0].courses[2].tag",
+        "carmel-christian:divisions[0].departments[0].courses[3].tag",
+        "carmel-christian:divisions[0].departments[5].courses[0].tag",
+        "carmel-christian:divisions[0].departments[5].courses[7].tag",
+        "carmel-christian:divisions[0].departments[6].courses[0].tag",
+        "carmel-christian:divisions[0].departments[6].courses[1].tag",
+        "carmel-christian:divisions[0].departments[6].courses[2].tag",
+        "carmel-christian:divisions[0].departments[6].courses[3].tag",
+        "carmel-christian:divisions[0].departments[6].courses[4].tag",
+        "carmel-christian:divisions[0].departments[7].courses[0].tag",
+        "carmel-christian:divisions[0].departments[7].courses[1].tag",
+        "carmel-christian:divisions[0].departments[7].courses[5].tag",
+        "carmel-christian:divisions[0].departments[7].courses[6].tag",
+        "carmel-christian:divisions[0].departments[7].courses[7].tag",
+        "carmel-christian:divisions[0].departments[7].courses[8].tag",
+        "carmel-christian:divisions[0].departments[7].courses[10].tag",
+        "carmel-christian:divisions[0].departments[7].courses[11].tag",
+        "carmel-christian:divisions[0].departments[7].courses[12].tag",
+        "carmel-christian:divisions[0].departments[7].courses[13].tag",
+        "carmel-christian:divisions[0].departments[7].courses[14].tag",
+        "carmel-christian:divisions[0].departments[8].courses[2].tag",
+        "carmel-christian:divisions[0].departments[8].courses[3].tag",
+        "carmel-christian:divisions[0].departments[8].courses[4].tag",
+        "carmel-christian:divisions[0].departments[8].courses[5].tag"
       ],
       "t": "Gr 9–12"
     },
@@ -15094,7 +15291,8 @@
       "text": "First-year Spanish.",
       "of": "a3c9ba01",
       "at": [
-        "covenant-day:divisions[0].departments[5].courses[0].description"
+        "covenant-day:divisions[0].departments[5].courses[0].description",
+        "carmel-christian:divisions[0].departments[5].courses[0].description"
       ],
       "t": "Español de primer año."
     },
@@ -15142,7 +15340,8 @@
       "text": "Fourth-year Spanish at honors level.",
       "of": "1a545c25",
       "at": [
-        "covenant-day:divisions[0].departments[5].courses[3].description"
+        "covenant-day:divisions[0].departments[5].courses[3].description",
+        "carmel-christian:divisions[0].departments[5].courses[5].description"
       ],
       "t": "Español de cuarto año a nivel de honores."
     },
@@ -15286,7 +15485,8 @@
       "text": "The concert band as a credit course.",
       "of": "24e64e54",
       "at": [
-        "covenant-day:divisions[0].departments[6].courses[2].description"
+        "covenant-day:divisions[0].departments[6].courses[2].description",
+        "carmel-christian:divisions[0].departments[7].courses[5].description"
       ],
       "t": "La banda de concierto como asignatura con crédito."
     },
@@ -15438,7 +15638,8 @@
       "text": "Producing the school yearbook.",
       "of": "2c363213",
       "at": [
-        "covenant-day:divisions[0].departments[6].courses[13].description"
+        "covenant-day:divisions[0].departments[6].courses[13].description",
+        "carmel-christian:divisions[0].departments[7].courses[14].description"
       ],
       "t": "Producción del anuario del colegio."
     },
@@ -15729,7 +15930,8 @@
       "text": "Math 1",
       "of": "3fb17344",
       "at": [
-        "davidson-day:divisions[1].departments[0].courses[2].title"
+        "davidson-day:divisions[1].departments[0].courses[2].title",
+        "carmel-christian:divisions[0].departments[2].courses[0].title"
       ],
       "t": "Math 1"
     },
@@ -15777,7 +15979,8 @@
       "text": "Math 2",
       "of": "42b177fd",
       "at": [
-        "davidson-day:divisions[1].departments[0].courses[5].title"
+        "davidson-day:divisions[1].departments[0].courses[5].title",
+        "carmel-christian:divisions[0].departments[2].courses[1].title"
       ],
       "t": "Math 2"
     },
@@ -16057,7 +16260,8 @@
       "text": "Algebra I Honors",
       "of": "86ff9905",
       "at": [
-        "davidson-day:divisions[2].departments[1].courses[1].title"
+        "davidson-day:divisions[2].departments[1].courses[1].title",
+        "carmel-christian:divisions[1].departments[2].courses[5].title"
       ],
       "t": "Algebra I Honors"
     },
@@ -16121,7 +16325,8 @@
       "text": "AP Precalculus",
       "of": "747f14c1",
       "at": [
-        "davidson-day:divisions[2].departments[1].courses[7].title"
+        "davidson-day:divisions[2].departments[1].courses[7].title",
+        "carmel-christian:divisions[0].departments[2].courses[8].title"
       ],
       "t": "AP Precalculus"
     },
@@ -16545,7 +16750,8 @@
       "text": "Spanish I",
       "of": "389b9238",
       "at": [
-        "davidson-day:divisions[2].departments[4].courses[6].title"
+        "davidson-day:divisions[2].departments[4].courses[6].title",
+        "carmel-christian:divisions[0].departments[5].courses[0].title"
       ],
       "t": "Spanish I"
     },
@@ -16561,7 +16767,9 @@
       "text": "Spanish II",
       "of": "8de787e3",
       "at": [
-        "davidson-day:divisions[2].departments[4].courses[7].title"
+        "davidson-day:divisions[2].departments[4].courses[7].title",
+        "carmel-christian:divisions[0].departments[5].courses[1].title",
+        "carmel-christian:divisions[0].departments[5].courses[2].title"
       ],
       "t": "Spanish II"
     },
@@ -16881,7 +17089,8 @@
       "text": "Weight Training",
       "of": "df149d6d",
       "at": [
-        "davidson-day:divisions[2].departments[7].courses[0].title"
+        "davidson-day:divisions[2].departments[7].courses[0].title",
+        "carmel-christian:divisions[0].departments[6].courses[4].title"
       ],
       "t": "Entrenamiento con pesas"
     },
@@ -17068,6 +17277,1897 @@
         "davidson-day:divisions[2].departments[8].courses[8].description"
       ],
       "t": "Un plan de estudio diseñado por el estudiante con un supervisor del profesorado, que exige un resumen y un programa aprobados; excluido del promedio."
+    },
+    {
+      "text": "78 course titles across 9 departments — including 16 Advanced Placement courses — from the 2026-27 High School Curriculum Guide.",
+      "of": "f1b73320",
+      "at": [
+        "carmel-christian:divisions[0].teaser"
+      ],
+      "t": "78 títulos de cursos en 9 departamentos — incluidos 16 cursos Advanced Placement — de la 2026-27 High School Curriculum Guide."
+    },
+    {
+      "text": "Old Testament",
+      "of": "ee26dd01",
+      "at": [
+        "carmel-christian:divisions[0].departments[0].courses[0].title"
+      ],
+      "t": "Old Testament"
+    },
+    {
+      "text": "A Biblical Studies course in the four-credit Bible sequence.",
+      "of": "4072c999",
+      "at": [
+        "carmel-christian:divisions[0].departments[0].courses[0].description",
+        "carmel-christian:divisions[0].departments[0].courses[1].description"
+      ],
+      "t": "Un curso de Biblical Studies dentro de la secuencia de Bible de cuatro créditos."
+    },
+    {
+      "text": "New Testament",
+      "of": "b1bf1b72",
+      "at": [
+        "carmel-christian:divisions[0].departments[0].courses[1].title"
+      ],
+      "t": "New Testament"
+    },
+    {
+      "text": "Understanding the Faith & Culture",
+      "of": "c1a47092",
+      "at": [
+        "carmel-christian:divisions[0].departments[0].courses[2].title"
+      ],
+      "t": "Understanding the Faith & Culture"
+    },
+    {
+      "text": "A Biblical Studies course examining faith in cultural context.",
+      "of": "d3ec1c3e",
+      "at": [
+        "carmel-christian:divisions[0].departments[0].courses[2].description"
+      ],
+      "t": "Un curso de Biblical Studies que examina la fe en su contexto cultural."
+    },
+    {
+      "text": "Understanding the Times",
+      "of": "94436114",
+      "at": [
+        "carmel-christian:divisions[0].departments[0].courses[3].title"
+      ],
+      "t": "Understanding the Times"
+    },
+    {
+      "text": "A worldview capstone in the Biblical Studies sequence.",
+      "of": "19fdf8d8",
+      "at": [
+        "carmel-christian:divisions[0].departments[0].courses[3].description"
+      ],
+      "t": "Un capstone de cosmovisión dentro de la secuencia de Biblical Studies."
+    },
+    {
+      "text": "Genres and Themes",
+      "of": "d1643436",
+      "at": [
+        "carmel-christian:divisions[0].departments[1].courses[0].title",
+        "carmel-christian:divisions[0].departments[1].courses[1].title",
+        "carmel-christian:divisions[0].departments[1].courses[2].title"
+      ],
+      "t": "Genres and Themes"
+    },
+    {
+      "text": "Pathways",
+      "of": "6ada010a",
+      "at": [
+        "carmel-christian:divisions[0].departments[1].courses[0].tag",
+        "carmel-christian:divisions[0].departments[1].courses[3].tag",
+        "carmel-christian:divisions[0].departments[1].courses[6].tag",
+        "carmel-christian:divisions[0].departments[1].courses[9].tag",
+        "carmel-christian:divisions[0].departments[2].courses[0].tag",
+        "carmel-christian:divisions[0].departments[2].courses[1].tag",
+        "carmel-christian:divisions[0].departments[2].courses[3].tag",
+        "carmel-christian:divisions[0].departments[2].courses[6].tag"
+      ],
+      "t": "Pathways"
+    },
+    {
+      "text": "The Pathways track of the entry English course.",
+      "of": "12f7306b",
+      "at": [
+        "carmel-christian:divisions[0].departments[1].courses[0].description"
+      ],
+      "t": "La vía Pathways del curso de inglés de entrada."
+    },
+    {
+      "text": "Standard",
+      "of": "0016ab68",
+      "at": [
+        "carmel-christian:divisions[0].departments[1].courses[1].tag",
+        "carmel-christian:divisions[0].departments[1].courses[4].tag",
+        "carmel-christian:divisions[0].departments[1].courses[7].tag",
+        "carmel-christian:divisions[0].departments[1].courses[10].tag",
+        "carmel-christian:divisions[0].departments[2].courses[4].tag",
+        "carmel-christian:divisions[0].departments[2].courses[9].tag",
+        "carmel-christian:divisions[0].departments[3].courses[0].tag",
+        "carmel-christian:divisions[0].departments[3].courses[3].tag",
+        "carmel-christian:divisions[0].departments[3].courses[6].tag",
+        "carmel-christian:divisions[0].departments[3].courses[8].tag",
+        "carmel-christian:divisions[0].departments[3].courses[10].tag",
+        "carmel-christian:divisions[0].departments[3].courses[11].tag",
+        "carmel-christian:divisions[0].departments[4].courses[0].tag",
+        "carmel-christian:divisions[0].departments[4].courses[2].tag",
+        "carmel-christian:divisions[0].departments[4].courses[4].tag",
+        "carmel-christian:divisions[0].departments[4].courses[6].tag",
+        "carmel-christian:divisions[0].departments[4].courses[7].tag",
+        "carmel-christian:divisions[0].departments[4].courses[8].tag",
+        "carmel-christian:divisions[0].departments[5].courses[1].tag",
+        "carmel-christian:divisions[0].departments[5].courses[3].tag"
+      ],
+      "t": "Standard"
+    },
+    {
+      "text": "The standard track of the entry English course.",
+      "of": "696e13a1",
+      "at": [
+        "carmel-christian:divisions[0].departments[1].courses[1].description"
+      ],
+      "t": "La vía estándar del curso de inglés de entrada."
+    },
+    {
+      "text": "The honors track of the entry English course.",
+      "of": "9e7a42ed",
+      "at": [
+        "carmel-christian:divisions[0].departments[1].courses[2].description"
+      ],
+      "t": "La vía honors del curso de inglés de entrada."
+    },
+    {
+      "text": "The Pathways track of the American-literature year.",
+      "of": "614e41a5",
+      "at": [
+        "carmel-christian:divisions[0].departments[1].courses[3].description"
+      ],
+      "t": "La vía Pathways del año de literatura estadounidense."
+    },
+    {
+      "text": "The standard track of the American-literature year.",
+      "of": "8f36e75f",
+      "at": [
+        "carmel-christian:divisions[0].departments[1].courses[4].description"
+      ],
+      "t": "La vía estándar del año de literatura estadounidense."
+    },
+    {
+      "text": "The honors track of the American-literature year.",
+      "of": "ece21bd3",
+      "at": [
+        "carmel-christian:divisions[0].departments[1].courses[5].description"
+      ],
+      "t": "La vía honors del año de literatura estadounidense."
+    },
+    {
+      "text": "The Pathways track of the British-literature year.",
+      "of": "b7d1ce3a",
+      "at": [
+        "carmel-christian:divisions[0].departments[1].courses[6].description"
+      ],
+      "t": "La vía Pathways del año de literatura británica."
+    },
+    {
+      "text": "The standard track of the British-literature year.",
+      "of": "db985eb8",
+      "at": [
+        "carmel-christian:divisions[0].departments[1].courses[7].description"
+      ],
+      "t": "La vía estándar del año de literatura británica."
+    },
+    {
+      "text": "The honors track of the British-literature year.",
+      "of": "9626cfa4",
+      "at": [
+        "carmel-christian:divisions[0].departments[1].courses[8].description"
+      ],
+      "t": "La vía honors del año de literatura británica."
+    },
+    {
+      "text": "The Pathways track of the world-literature year.",
+      "of": "0ab0c213",
+      "at": [
+        "carmel-christian:divisions[0].departments[1].courses[9].description"
+      ],
+      "t": "La vía Pathways del año de literatura universal."
+    },
+    {
+      "text": "The standard track of the world-literature year.",
+      "of": "80270a49",
+      "at": [
+        "carmel-christian:divisions[0].departments[1].courses[10].description"
+      ],
+      "t": "La vía estándar del año de literatura universal."
+    },
+    {
+      "text": "The honors track of the world-literature year.",
+      "of": "9ea8fdfd",
+      "at": [
+        "carmel-christian:divisions[0].departments[1].courses[11].description"
+      ],
+      "t": "La vía honors del año de literatura universal."
+    },
+    {
+      "text": "College-level rhetoric, argument, and composition.",
+      "of": "28bcf791",
+      "at": [
+        "carmel-christian:divisions[0].departments[1].courses[12].description"
+      ],
+      "t": "Retórica, argumentación y composición de nivel universitario."
+    },
+    {
+      "text": "College-level literary analysis and composition.",
+      "of": "411d86ce",
+      "at": [
+        "carmel-christian:divisions[0].departments[1].courses[13].description"
+      ],
+      "t": "Análisis literario y composición de nivel universitario."
+    },
+    {
+      "text": "The Pathways entry course of the math sequence.",
+      "of": "fda80fd1",
+      "at": [
+        "carmel-christian:divisions[0].departments[2].courses[0].description"
+      ],
+      "t": "El curso de entrada Pathways de la secuencia de matemáticas."
+    },
+    {
+      "text": "The Pathways second course of the math sequence.",
+      "of": "443d0077",
+      "at": [
+        "carmel-christian:divisions[0].departments[2].courses[1].description"
+      ],
+      "t": "El segundo curso Pathways de la secuencia de matemáticas."
+    },
+    {
+      "text": "Honors Euclidean geometry.",
+      "of": "cea094ce",
+      "at": [
+        "carmel-christian:divisions[0].departments[2].courses[2].description"
+      ],
+      "t": "Geometría euclidiana honors."
+    },
+    {
+      "text": "The Pathways track of second-year algebra.",
+      "of": "8da03c4b",
+      "at": [
+        "carmel-christian:divisions[0].departments[2].courses[3].description"
+      ],
+      "t": "La vía Pathways del álgebra de segundo año."
+    },
+    {
+      "text": "The standard track of second-year algebra.",
+      "of": "8dc78499",
+      "at": [
+        "carmel-christian:divisions[0].departments[2].courses[4].description"
+      ],
+      "t": "La vía estándar del álgebra de segundo año."
+    },
+    {
+      "text": "The honors track of second-year algebra.",
+      "of": "334ab015",
+      "at": [
+        "carmel-christian:divisions[0].departments[2].courses[5].description"
+      ],
+      "t": "La vía honors del álgebra de segundo año."
+    },
+    {
+      "text": "Math 4 (Algebra III & Trigonometry)",
+      "of": "3c10bc28",
+      "at": [
+        "carmel-christian:divisions[0].departments[2].courses[6].title"
+      ],
+      "t": "Math 4 (Algebra III & Trigonometry)"
+    },
+    {
+      "text": "The Pathways fourth-year course covering Algebra III and trigonometry.",
+      "of": "bcb97320",
+      "at": [
+        "carmel-christian:divisions[0].departments[2].courses[6].description"
+      ],
+      "t": "El curso Pathways de cuarto año que abarca Algebra III y trigonometría."
+    },
+    {
+      "text": "Honors precalculus — functions and trigonometry before calculus.",
+      "of": "9b7144a1",
+      "at": [
+        "carmel-christian:divisions[0].departments[2].courses[7].description"
+      ],
+      "t": "Precálculo honors — funciones y trigonometría antes del cálculo."
+    },
+    {
+      "text": "College-level precalculus.",
+      "of": "2444457a",
+      "at": [
+        "carmel-christian:divisions[0].departments[2].courses[8].description"
+      ],
+      "t": "Precálculo de nivel universitario."
+    },
+    {
+      "text": "Probability & Statistics",
+      "of": "18dbfb05",
+      "at": [
+        "carmel-christian:divisions[0].departments[2].courses[9].title",
+        "carmel-christian:divisions[0].departments[2].courses[10].title"
+      ],
+      "t": "Probability & Statistics"
+    },
+    {
+      "text": "The standard track of probability and statistics.",
+      "of": "571bdc7e",
+      "at": [
+        "carmel-christian:divisions[0].departments[2].courses[9].description"
+      ],
+      "t": "La vía estándar de probabilidad y estadística."
+    },
+    {
+      "text": "The honors track of probability and statistics.",
+      "of": "e46f2e9a",
+      "at": [
+        "carmel-christian:divisions[0].departments[2].courses[10].description"
+      ],
+      "t": "La vía honors de probabilidad y estadística."
+    },
+    {
+      "text": "The standard track of the entry lab science.",
+      "of": "58d48619",
+      "at": [
+        "carmel-christian:divisions[0].departments[3].courses[0].description"
+      ],
+      "t": "La vía estándar de la ciencia de laboratorio de entrada."
+    },
+    {
+      "text": "The honors track of the entry lab science.",
+      "of": "3732be25",
+      "at": [
+        "carmel-christian:divisions[0].departments[3].courses[1].description"
+      ],
+      "t": "La vía honors de la ciencia de laboratorio de entrada."
+    },
+    {
+      "text": "The standard track of chemistry.",
+      "of": "33a38cd9",
+      "at": [
+        "carmel-christian:divisions[0].departments[3].courses[3].description"
+      ],
+      "t": "La vía estándar de química."
+    },
+    {
+      "text": "The honors track of chemistry.",
+      "of": "b1f1c215",
+      "at": [
+        "carmel-christian:divisions[0].departments[3].courses[4].description"
+      ],
+      "t": "La vía honors de química."
+    },
+    {
+      "text": "Human Anatomy & Physiology",
+      "of": "af832b0a",
+      "at": [
+        "carmel-christian:divisions[0].departments[3].courses[6].title",
+        "carmel-christian:divisions[0].departments[3].courses[7].title"
+      ],
+      "t": "Human Anatomy & Physiology"
+    },
+    {
+      "text": "The standard track of anatomy and physiology.",
+      "of": "0f1130a2",
+      "at": [
+        "carmel-christian:divisions[0].departments[3].courses[6].description"
+      ],
+      "t": "La vía estándar de anatomía y fisiología."
+    },
+    {
+      "text": "The honors track of anatomy and physiology.",
+      "of": "031449ae",
+      "at": [
+        "carmel-christian:divisions[0].departments[3].courses[7].description"
+      ],
+      "t": "La vía honors de anatomía y fisiología."
+    },
+    {
+      "text": "Conceptual physics.",
+      "of": "f023bd0c",
+      "at": [
+        "carmel-christian:divisions[0].departments[3].courses[8].description"
+      ],
+      "t": "Física conceptual."
+    },
+    {
+      "text": "Honors Physics",
+      "of": "e3e08cd5",
+      "at": [
+        "carmel-christian:divisions[0].departments[3].courses[9].title"
+      ],
+      "t": "Honors Physics"
+    },
+    {
+      "text": "Honors physics.",
+      "of": "527e1981",
+      "at": [
+        "carmel-christian:divisions[0].departments[3].courses[9].description"
+      ],
+      "t": "Física honors."
+    },
+    {
+      "text": "Forensics",
+      "of": "f49980d1",
+      "at": [
+        "carmel-christian:divisions[0].departments[3].courses[10].title"
+      ],
+      "t": "Forensics"
+    },
+    {
+      "text": "Forensic science.",
+      "of": "a1067834",
+      "at": [
+        "carmel-christian:divisions[0].departments[3].courses[10].description"
+      ],
+      "t": "Ciencia forense."
+    },
+    {
+      "text": "Intro to Engineering & Robotics",
+      "of": "2d16cd78",
+      "at": [
+        "carmel-christian:divisions[0].departments[3].courses[11].title"
+      ],
+      "t": "Intro to Engineering & Robotics"
+    },
+    {
+      "text": "Introductory engineering and robotics.",
+      "of": "e305086c",
+      "at": [
+        "carmel-christian:divisions[0].departments[3].courses[11].description"
+      ],
+      "t": "Ingeniería y robótica introductorias."
+    },
+    {
+      "text": "Honors Engineering II",
+      "of": "89b3e39f",
+      "at": [
+        "carmel-christian:divisions[0].departments[3].courses[12].title"
+      ],
+      "t": "Honors Engineering II"
+    },
+    {
+      "text": "The second-level honors engineering course.",
+      "of": "03e9ee7a",
+      "at": [
+        "carmel-christian:divisions[0].departments[3].courses[12].description"
+      ],
+      "t": "El curso honors de ingeniería de segundo nivel."
+    },
+    {
+      "text": "The standard track of world history.",
+      "of": "2215bcd7",
+      "at": [
+        "carmel-christian:divisions[0].departments[4].courses[0].description"
+      ],
+      "t": "La vía estándar de historia universal."
+    },
+    {
+      "text": "The honors track of world history.",
+      "of": "2dcecd2b",
+      "at": [
+        "carmel-christian:divisions[0].departments[4].courses[1].description"
+      ],
+      "t": "La vía honors de historia universal."
+    },
+    {
+      "text": "US Government & Economics",
+      "of": "d318929c",
+      "at": [
+        "carmel-christian:divisions[0].departments[4].courses[2].title",
+        "carmel-christian:divisions[0].departments[4].courses[3].title"
+      ],
+      "t": "US Government & Economics"
+    },
+    {
+      "text": "The standard track of US government and economics.",
+      "of": "609d36bf",
+      "at": [
+        "carmel-christian:divisions[0].departments[4].courses[2].description"
+      ],
+      "t": "La vía estándar de gobierno y economía de EE. UU."
+    },
+    {
+      "text": "The honors track of US government and economics.",
+      "of": "5591d84b",
+      "at": [
+        "carmel-christian:divisions[0].departments[4].courses[3].description"
+      ],
+      "t": "La vía honors de gobierno y economía de EE. UU."
+    },
+    {
+      "text": "The standard track of US history.",
+      "of": "e59f7649",
+      "at": [
+        "carmel-christian:divisions[0].departments[4].courses[4].description"
+      ],
+      "t": "La vía estándar de historia de EE. UU."
+    },
+    {
+      "text": "The honors track of US history.",
+      "of": "9826041d",
+      "at": [
+        "carmel-christian:divisions[0].departments[4].courses[5].description"
+      ],
+      "t": "La vía honors de historia de EE. UU."
+    },
+    {
+      "text": "Cultural Geography",
+      "of": "6a5fa1f5",
+      "at": [
+        "carmel-christian:divisions[0].departments[4].courses[6].title"
+      ],
+      "t": "Cultural Geography"
+    },
+    {
+      "text": "A cultural geography elective.",
+      "of": "47aa782f",
+      "at": [
+        "carmel-christian:divisions[0].departments[4].courses[6].description"
+      ],
+      "t": "Una optativa de geografía cultural."
+    },
+    {
+      "text": "Psychology/Sociology",
+      "of": "99ec86fd",
+      "at": [
+        "carmel-christian:divisions[0].departments[4].courses[7].title"
+      ],
+      "t": "Psychology/Sociology"
+    },
+    {
+      "text": "A combined psychology and sociology elective.",
+      "of": "97e44270",
+      "at": [
+        "carmel-christian:divisions[0].departments[4].courses[7].description"
+      ],
+      "t": "Una optativa combinada de psicología y sociología."
+    },
+    {
+      "text": "Personal Finance",
+      "of": "a1435e7b",
+      "at": [
+        "carmel-christian:divisions[0].departments[4].courses[8].title"
+      ],
+      "t": "Personal Finance"
+    },
+    {
+      "text": "A personal-finance course.",
+      "of": "f41cf752",
+      "at": [
+        "carmel-christian:divisions[0].departments[4].courses[8].description"
+      ],
+      "t": "Un curso de finanzas personales."
+    },
+    {
+      "text": "AP US Government & Politics",
+      "of": "cda0cdd8",
+      "at": [
+        "carmel-christian:divisions[0].departments[4].courses[9].title"
+      ],
+      "t": "AP US Government & Politics"
+    },
+    {
+      "text": "College-level US government and politics.",
+      "of": "84f086dc",
+      "at": [
+        "carmel-christian:divisions[0].departments[4].courses[9].description"
+      ],
+      "t": "Gobierno y política de EE. UU. de nivel universitario."
+    },
+    {
+      "text": "AP World History",
+      "of": "70758d40",
+      "at": [
+        "carmel-christian:divisions[0].departments[4].courses[13].title"
+      ],
+      "t": "AP World History"
+    },
+    {
+      "text": "College-level world history.",
+      "of": "20072cd5",
+      "at": [
+        "carmel-christian:divisions[0].departments[4].courses[13].description"
+      ],
+      "t": "Historia universal de nivel universitario."
+    },
+    {
+      "text": "The standard track of second-year Spanish.",
+      "of": "8d578eb5",
+      "at": [
+        "carmel-christian:divisions[0].departments[5].courses[1].description"
+      ],
+      "t": "La vía estándar del español de segundo año."
+    },
+    {
+      "text": "The honors track of second-year Spanish.",
+      "of": "2d17b2b1",
+      "at": [
+        "carmel-christian:divisions[0].departments[5].courses[2].description"
+      ],
+      "t": "La vía honors del español de segundo año."
+    },
+    {
+      "text": "Spanish III",
+      "of": "0d7a909e",
+      "at": [
+        "carmel-christian:divisions[0].departments[5].courses[3].title",
+        "carmel-christian:divisions[0].departments[5].courses[4].title"
+      ],
+      "t": "Spanish III"
+    },
+    {
+      "text": "The standard track of third-year Spanish.",
+      "of": "bba79e8a",
+      "at": [
+        "carmel-christian:divisions[0].departments[5].courses[3].description"
+      ],
+      "t": "La vía estándar del español de tercer año."
+    },
+    {
+      "text": "The honors track of third-year Spanish.",
+      "of": "79c652fe",
+      "at": [
+        "carmel-christian:divisions[0].departments[5].courses[4].description"
+      ],
+      "t": "La vía honors del español de tercer año."
+    },
+    {
+      "text": "Honors Spanish IV",
+      "of": "2d15eb33",
+      "at": [
+        "carmel-christian:divisions[0].departments[5].courses[5].title"
+      ],
+      "t": "Honors Spanish IV"
+    },
+    {
+      "text": "AP Spanish (Language & Culture)",
+      "of": "4af37e85",
+      "at": [
+        "carmel-christian:divisions[0].departments[5].courses[6].title"
+      ],
+      "t": "AP Spanish (Language & Culture)"
+    },
+    {
+      "text": "World Language (Online)",
+      "of": "eddfae63",
+      "at": [
+        "carmel-christian:divisions[0].departments[5].courses[7].title"
+      ],
+      "t": "World Language (Online)"
+    },
+    {
+      "text": "An online world-language option for languages beyond Spanish.",
+      "of": "2300f410",
+      "at": [
+        "carmel-christian:divisions[0].departments[5].courses[7].description"
+      ],
+      "t": "Una opción de idioma del mundo en línea para lenguas distintas del español."
+    },
+    {
+      "text": "Health & Fitness",
+      "of": "6662a519",
+      "at": [
+        "carmel-christian:divisions[0].departments[6].name"
+      ],
+      "t": "Health & Fitness"
+    },
+    {
+      "text": "The health requirement.",
+      "of": "9a426895",
+      "at": [
+        "carmel-christian:divisions[0].departments[6].courses[0].description"
+      ],
+      "t": "El requisito de salud."
+    },
+    {
+      "text": "Physical education.",
+      "of": "2a8d7268",
+      "at": [
+        "carmel-christian:divisions[0].departments[6].courses[1].description"
+      ],
+      "t": "Educación física."
+    },
+    {
+      "text": "Ladies Athletic Conditioning",
+      "of": "6e14061a",
+      "at": [
+        "carmel-christian:divisions[0].departments[6].courses[2].title"
+      ],
+      "t": "Ladies Athletic Conditioning"
+    },
+    {
+      "text": "Athletic conditioning for female students.",
+      "of": "01a97e57",
+      "at": [
+        "carmel-christian:divisions[0].departments[6].courses[2].description"
+      ],
+      "t": "Acondicionamiento atlético para estudiantes mujeres."
+    },
+    {
+      "text": "Team Sports",
+      "of": "6797103f",
+      "at": [
+        "carmel-christian:divisions[0].departments[6].courses[3].title"
+      ],
+      "t": "Team Sports"
+    },
+    {
+      "text": "A team-sports fitness course.",
+      "of": "e4970b9e",
+      "at": [
+        "carmel-christian:divisions[0].departments[6].courses[3].description"
+      ],
+      "t": "Un curso de acondicionamiento físico de deportes en equipo."
+    },
+    {
+      "text": "A weight-training fitness course.",
+      "of": "9382733c",
+      "at": [
+        "carmel-christian:divisions[0].departments[6].courses[4].description"
+      ],
+      "t": "Un curso de acondicionamiento físico de entrenamiento con pesas."
+    },
+    {
+      "text": "Art I / Studio Art I",
+      "of": "f6cebb1c",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[0].title"
+      ],
+      "t": "Art I / Studio Art I"
+    },
+    {
+      "text": "The entry studio-art course.",
+      "of": "6c29989b",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[0].description"
+      ],
+      "t": "El curso de arte de estudio de entrada."
+    },
+    {
+      "text": "Art II / Studio Art II",
+      "of": "6a23df7e",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[1].title"
+      ],
+      "t": "Art II / Studio Art II"
+    },
+    {
+      "text": "The second-level studio-art course.",
+      "of": "9252bbb2",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[1].description"
+      ],
+      "t": "El curso de arte de estudio de segundo nivel."
+    },
+    {
+      "text": "Honors Art III / Studio Art III",
+      "of": "41e29bc5",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[2].title"
+      ],
+      "t": "Honors Art III / Studio Art III"
+    },
+    {
+      "text": "Third-level honors studio art.",
+      "of": "6de2b031",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[2].description"
+      ],
+      "t": "Arte de estudio honors de tercer nivel."
+    },
+    {
+      "text": "Honors Art IV / Studio Art IV",
+      "of": "e2347d2b",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[3].title"
+      ],
+      "t": "Honors Art IV / Studio Art IV"
+    },
+    {
+      "text": "Fourth-level honors studio art.",
+      "of": "08bfe334",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[3].description"
+      ],
+      "t": "Arte de estudio honors de cuarto nivel."
+    },
+    {
+      "text": "AP 2-D Art & Design",
+      "of": "525e4052",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[4].title"
+      ],
+      "t": "AP 2-D Art & Design"
+    },
+    {
+      "text": "The AP 2-D art and design portfolio.",
+      "of": "220f1f56",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[4].description"
+      ],
+      "t": "El portafolio AP de arte y diseño en 2-D."
+    },
+    {
+      "text": "IGNITE Praise Band",
+      "of": "2c95ceb4",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[6].title"
+      ],
+      "t": "IGNITE Praise Band"
+    },
+    {
+      "text": "The school praise band as a credit course.",
+      "of": "9fa6c3d6",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[6].description"
+      ],
+      "t": "La banda de alabanza de la escuela como curso con crédito."
+    },
+    {
+      "text": "The choral ensemble as a credit course.",
+      "of": "7d73774f",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[7].description"
+      ],
+      "t": "El conjunto coral como curso con crédito."
+    },
+    {
+      "text": "Theatrical Studies",
+      "of": "fe32cc25",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[8].title"
+      ],
+      "t": "Theatrical Studies"
+    },
+    {
+      "text": "An introductory theatre course.",
+      "of": "112dd5f2",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[8].description"
+      ],
+      "t": "Un curso introductorio de teatro."
+    },
+    {
+      "text": "Honors Acting Studio",
+      "of": "a0c5d346",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[9].title"
+      ],
+      "t": "Honors Acting Studio"
+    },
+    {
+      "text": "The honors acting course.",
+      "of": "13d7db36",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[9].description"
+      ],
+      "t": "El curso honors de actuación."
+    },
+    {
+      "text": "Digital Photography I",
+      "of": "57f983e7",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[10].title"
+      ],
+      "t": "Digital Photography I"
+    },
+    {
+      "text": "First-level digital photography.",
+      "of": "c3c9686d",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[10].description"
+      ],
+      "t": "Fotografía digital de primer nivel."
+    },
+    {
+      "text": "Digital Photography II",
+      "of": "2bca4aea",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[11].title"
+      ],
+      "t": "Digital Photography II"
+    },
+    {
+      "text": "Second-level digital photography.",
+      "of": "70a18af9",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[11].description"
+      ],
+      "t": "Fotografía digital de segundo nivel."
+    },
+    {
+      "text": "Media & Journalism I",
+      "of": "571181da",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[12].title"
+      ],
+      "t": "Media & Journalism I"
+    },
+    {
+      "text": "First-level media and journalism.",
+      "of": "ed97643f",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[12].description"
+      ],
+      "t": "Medios y periodismo de primer nivel."
+    },
+    {
+      "text": "Media & Journalism II",
+      "of": "a38efa69",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[13].title"
+      ],
+      "t": "Media & Journalism II"
+    },
+    {
+      "text": "Second-level media and journalism.",
+      "of": "174b9f83",
+      "at": [
+        "carmel-christian:divisions[0].departments[7].courses[13].description"
+      ],
+      "t": "Medios y periodismo de segundo nivel."
+    },
+    {
+      "text": "Entrepreneurship and Marketing",
+      "of": "dadc83a5",
+      "at": [
+        "carmel-christian:divisions[0].departments[8].courses[0].title"
+      ],
+      "t": "Entrepreneurship and Marketing"
+    },
+    {
+      "text": "Business",
+      "of": "07dbaf6b",
+      "at": [
+        "carmel-christian:divisions[0].departments[8].courses[0].tag",
+        "carmel-christian:divisions[0].departments[8].courses[1].tag"
+      ],
+      "t": "Business"
+    },
+    {
+      "text": "A business elective in entrepreneurship and marketing.",
+      "of": "28fac35a",
+      "at": [
+        "carmel-christian:divisions[0].departments[8].courses[0].description"
+      ],
+      "t": "Una optativa de negocios en emprendimiento y marketing."
+    },
+    {
+      "text": "Finance and Business Ethics",
+      "of": "162b41c2",
+      "at": [
+        "carmel-christian:divisions[0].departments[8].courses[1].title"
+      ],
+      "t": "Finance and Business Ethics"
+    },
+    {
+      "text": "A business elective in finance and ethics.",
+      "of": "53efbca5",
+      "at": [
+        "carmel-christian:divisions[0].departments[8].courses[1].description"
+      ],
+      "t": "Una optativa de negocios en finanzas y ética."
+    },
+    {
+      "text": "Christian Leadership Practicum",
+      "of": "480bd04b",
+      "at": [
+        "carmel-christian:divisions[0].departments[8].courses[2].title"
+      ],
+      "t": "Christian Leadership Practicum"
+    },
+    {
+      "text": "A practicum in Christian leadership.",
+      "of": "c9b4b84f",
+      "at": [
+        "carmel-christian:divisions[0].departments[8].courses[2].description"
+      ],
+      "t": "Una práctica de liderazgo cristiano."
+    },
+    {
+      "text": "Educational Internship",
+      "of": "13744d86",
+      "at": [
+        "carmel-christian:divisions[0].departments[8].courses[3].title"
+      ],
+      "t": "Educational Internship"
+    },
+    {
+      "text": "A supervised educational internship.",
+      "of": "a406242d",
+      "at": [
+        "carmel-christian:divisions[0].departments[8].courses[3].description"
+      ],
+      "t": "Una pasantía educativa supervisada."
+    },
+    {
+      "text": "Public Speaking and Debate",
+      "of": "2bbcec08",
+      "at": [
+        "carmel-christian:divisions[0].departments[8].courses[4].title"
+      ],
+      "t": "Public Speaking and Debate"
+    },
+    {
+      "text": "A public-speaking and debate elective.",
+      "of": "afc0683b",
+      "at": [
+        "carmel-christian:divisions[0].departments[8].courses[4].description"
+      ],
+      "t": "Una optativa de oratoria y debate."
+    },
+    {
+      "text": "Science and Faith",
+      "of": "afcfed0c",
+      "at": [
+        "carmel-christian:divisions[0].departments[8].courses[5].title"
+      ],
+      "t": "Science and Faith"
+    },
+    {
+      "text": "An elective examining science and faith.",
+      "of": "70da4d38",
+      "at": [
+        "carmel-christian:divisions[0].departments[8].courses[5].description"
+      ],
+      "t": "Una optativa que examina la ciencia y la fe."
+    },
+    {
+      "text": "AP Seminar",
+      "of": "ffed3977",
+      "at": [
+        "carmel-christian:divisions[0].departments[8].courses[6].title"
+      ],
+      "t": "AP Seminar"
+    },
+    {
+      "text": "The first AP Capstone course, developing research and argument skills.",
+      "of": "c33b040d",
+      "at": [
+        "carmel-christian:divisions[0].departments[8].courses[6].description"
+      ],
+      "t": "El primer curso AP Capstone, que desarrolla habilidades de investigación y argumentación."
+    },
+    {
+      "text": "AP Research",
+      "of": "a8eae3d1",
+      "at": [
+        "carmel-christian:divisions[0].departments[8].courses[7].title"
+      ],
+      "t": "AP Research"
+    },
+    {
+      "text": "The second AP Capstone course, culminating in an academic paper.",
+      "of": "967b43e9",
+      "at": [
+        "carmel-christian:divisions[0].departments[8].courses[7].description"
+      ],
+      "t": "El segundo curso AP Capstone, que culmina en un trabajo académico."
+    },
+    {
+      "text": "GRADES 6 – 8",
+      "of": "540842be",
+      "at": [
+        "carmel-christian:divisions[1].grades"
+      ],
+      "t": "GRADES 6 – 8"
+    },
+    {
+      "text": "The Middle School publishes its own named-course list — a full academic core plus an unusually broad elective slate — from the 2024-25 Middle School Curriculum Guide.",
+      "of": "c86aa979",
+      "at": [
+        "carmel-christian:divisions[1].teaser"
+      ],
+      "t": "El Middle School publica su propia lista de cursos con nombre — un núcleo académico completo más una gama de optativas inusualmente amplia — de la 2024-25 Middle School Curriculum Guide."
+    },
+    {
+      "text": "Sixth Grade Bible",
+      "of": "ccc2f51e",
+      "at": [
+        "carmel-christian:divisions[1].departments[0].courses[0].title"
+      ],
+      "t": "Sixth Grade Bible"
+    },
+    {
+      "text": "The grade-6 Bible course.",
+      "of": "847f6f4b",
+      "at": [
+        "carmel-christian:divisions[1].departments[0].courses[0].description"
+      ],
+      "t": "El curso de Bible de 6.º grado."
+    },
+    {
+      "text": "Seventh Grade Bible",
+      "of": "fefe097f",
+      "at": [
+        "carmel-christian:divisions[1].departments[0].courses[1].title"
+      ],
+      "t": "Seventh Grade Bible"
+    },
+    {
+      "text": "The grade-7 Bible course.",
+      "of": "4ad5b87c",
+      "at": [
+        "carmel-christian:divisions[1].departments[0].courses[1].description"
+      ],
+      "t": "El curso de Bible de 7.º grado."
+    },
+    {
+      "text": "Eighth Grade Bible",
+      "of": "42486ca5",
+      "at": [
+        "carmel-christian:divisions[1].departments[0].courses[2].title"
+      ],
+      "t": "Eighth Grade Bible"
+    },
+    {
+      "text": "The grade-8 Bible course.",
+      "of": "11e3db79",
+      "at": [
+        "carmel-christian:divisions[1].departments[0].courses[2].description"
+      ],
+      "t": "El curso de Bible de 8.º grado."
+    },
+    {
+      "text": "Language Arts 6",
+      "of": "b59687b1",
+      "at": [
+        "carmel-christian:divisions[1].departments[1].courses[0].title"
+      ],
+      "t": "Language Arts 6"
+    },
+    {
+      "text": "The grade-6 language-arts course.",
+      "of": "cd1cfee2",
+      "at": [
+        "carmel-christian:divisions[1].departments[1].courses[0].description"
+      ],
+      "t": "El curso de language arts de 6.º grado."
+    },
+    {
+      "text": "Language Arts 7",
+      "of": "b496861e",
+      "at": [
+        "carmel-christian:divisions[1].departments[1].courses[1].title"
+      ],
+      "t": "Language Arts 7"
+    },
+    {
+      "text": "The grade-7 language-arts course.",
+      "of": "f1b2815d",
+      "at": [
+        "carmel-christian:divisions[1].departments[1].courses[1].description"
+      ],
+      "t": "El curso de language arts de 7.º grado."
+    },
+    {
+      "text": "Language Arts 8",
+      "of": "af967e3f",
+      "at": [
+        "carmel-christian:divisions[1].departments[1].courses[2].title"
+      ],
+      "t": "Language Arts 8"
+    },
+    {
+      "text": "The grade-8 language-arts course.",
+      "of": "5af0608c",
+      "at": [
+        "carmel-christian:divisions[1].departments[1].courses[2].description"
+      ],
+      "t": "El curso de language arts de 8.º grado."
+    },
+    {
+      "text": "Honors Level Courses",
+      "of": "b22b0dc8",
+      "at": [
+        "carmel-christian:divisions[1].departments[1].courses[3].title"
+      ],
+      "t": "Honors Level Courses"
+    },
+    {
+      "text": "Honors-track language arts, offered in grades 6–8.",
+      "of": "f84a371d",
+      "at": [
+        "carmel-christian:divisions[1].departments[1].courses[3].description"
+      ],
+      "t": "Language arts de vía honors, ofrecida en los grados 6–8."
+    },
+    {
+      "text": "Advanced Seminar Courses",
+      "of": "466bda26",
+      "at": [
+        "carmel-christian:divisions[1].departments[1].courses[4].title",
+        "carmel-christian:divisions[1].departments[2].courses[6].title"
+      ],
+      "t": "Advanced Seminar Courses"
+    },
+    {
+      "text": "CCS Pathways",
+      "of": "ef5834d7",
+      "at": [
+        "carmel-christian:divisions[1].departments[1].courses[4].tag",
+        "carmel-christian:divisions[1].departments[2].courses[6].tag"
+      ],
+      "t": "CCS Pathways"
+    },
+    {
+      "text": "Advanced-seminar language arts through CCS Pathways, grades 6–8.",
+      "of": "48b7f84b",
+      "at": [
+        "carmel-christian:divisions[1].departments[1].courses[4].description"
+      ],
+      "t": "Language arts de seminario avanzado a través de CCS Pathways, grados 6–8."
+    },
+    {
+      "text": "The grade-6 mathematics course.",
+      "of": "355776b7",
+      "at": [
+        "carmel-christian:divisions[1].departments[2].courses[0].description"
+      ],
+      "t": "El curso de matemáticas de 6.º grado."
+    },
+    {
+      "text": "Math 6 Honors",
+      "of": "a2c6cd96",
+      "at": [
+        "carmel-christian:divisions[1].departments[2].courses[1].title"
+      ],
+      "t": "Math 6 Honors"
+    },
+    {
+      "text": "The honors grade-6 mathematics course.",
+      "of": "eaea780a",
+      "at": [
+        "carmel-christian:divisions[1].departments[2].courses[1].description"
+      ],
+      "t": "El curso de matemáticas honors de 6.º grado."
+    },
+    {
+      "text": "The grade-7 mathematics course.",
+      "of": "8e2c4d2c",
+      "at": [
+        "carmel-christian:divisions[1].departments[2].courses[2].description"
+      ],
+      "t": "El curso de matemáticas de 7.º grado."
+    },
+    {
+      "text": "The pre-algebra course.",
+      "of": "c5693d21",
+      "at": [
+        "carmel-christian:divisions[1].departments[2].courses[3].description"
+      ],
+      "t": "El curso de preálgebra."
+    },
+    {
+      "text": "Pre-Algebra Honors",
+      "of": "cbe14f60",
+      "at": [
+        "carmel-christian:divisions[1].departments[2].courses[4].title"
+      ],
+      "t": "Pre-Algebra Honors"
+    },
+    {
+      "text": "The honors pre-algebra course.",
+      "of": "857b0eb8",
+      "at": [
+        "carmel-christian:divisions[1].departments[2].courses[4].description"
+      ],
+      "t": "El curso de preálgebra honors."
+    },
+    {
+      "text": "High-school Algebra I taken for honors credit in middle school.",
+      "of": "003b87af",
+      "at": [
+        "carmel-christian:divisions[1].departments[2].courses[5].description"
+      ],
+      "t": "Algebra I de secundaria cursada por crédito honors en middle school."
+    },
+    {
+      "text": "Advanced-seminar math through CCS Pathways, grades 6–8.",
+      "of": "0e4b5c4b",
+      "at": [
+        "carmel-christian:divisions[1].departments[2].courses[6].description"
+      ],
+      "t": "Matemáticas de seminario avanzado a través de CCS Pathways, grados 6–8."
+    },
+    {
+      "text": "Foundational Spanish",
+      "of": "9cb21631",
+      "at": [
+        "carmel-christian:divisions[1].departments[3].courses[0].title"
+      ],
+      "t": "Foundational Spanish"
+    },
+    {
+      "text": "The introductory middle-school Spanish course.",
+      "of": "1051e32b",
+      "at": [
+        "carmel-christian:divisions[1].departments[3].courses[0].description"
+      ],
+      "t": "El curso introductorio de español de middle school."
+    },
+    {
+      "text": "Spanish 1-A",
+      "of": "9d715492",
+      "at": [
+        "carmel-christian:divisions[1].departments[3].courses[1].title"
+      ],
+      "t": "Spanish 1-A"
+    },
+    {
+      "text": "The first half of the Spanish I sequence.",
+      "of": "732b25a9",
+      "at": [
+        "carmel-christian:divisions[1].departments[3].courses[1].description"
+      ],
+      "t": "La primera mitad de la secuencia de Spanish I."
+    },
+    {
+      "text": "Spanish I-B",
+      "of": "db974e37",
+      "at": [
+        "carmel-christian:divisions[1].departments[3].courses[2].title"
+      ],
+      "t": "Spanish I-B"
+    },
+    {
+      "text": "The second half of the Spanish I sequence.",
+      "of": "d05d7c37",
+      "at": [
+        "carmel-christian:divisions[1].departments[3].courses[2].description"
+      ],
+      "t": "La segunda mitad de la secuencia de Spanish I."
+    },
+    {
+      "text": "The grade-6 science course.",
+      "of": "08f7ec8b",
+      "at": [
+        "carmel-christian:divisions[1].departments[4].courses[0].description"
+      ],
+      "t": "El curso de ciencias de 6.º grado."
+    },
+    {
+      "text": "The grade-7 science course.",
+      "of": "459dae2c",
+      "at": [
+        "carmel-christian:divisions[1].departments[4].courses[1].description"
+      ],
+      "t": "El curso de ciencias de 7.º grado."
+    },
+    {
+      "text": "The grade-8 science course.",
+      "of": "b616b301",
+      "at": [
+        "carmel-christian:divisions[1].departments[4].courses[2].description"
+      ],
+      "t": "El curso de ciencias de 8.º grado."
+    },
+    {
+      "text": "World Studies I: Development of Civilizations",
+      "of": "460cc927",
+      "at": [
+        "carmel-christian:divisions[1].departments[5].courses[0].title"
+      ],
+      "t": "World Studies I: Development of Civilizations"
+    },
+    {
+      "text": "The grade-6 social-studies course.",
+      "of": "f12bb946",
+      "at": [
+        "carmel-christian:divisions[1].departments[5].courses[0].description"
+      ],
+      "t": "El curso de estudios sociales de 6.º grado."
+    },
+    {
+      "text": "World Studies II: Modern Era",
+      "of": "f212dd4b",
+      "at": [
+        "carmel-christian:divisions[1].departments[5].courses[1].title"
+      ],
+      "t": "World Studies II: Modern Era"
+    },
+    {
+      "text": "The grade-7 social-studies course.",
+      "of": "7d235783",
+      "at": [
+        "carmel-christian:divisions[1].departments[5].courses[1].description"
+      ],
+      "t": "El curso de estudios sociales de 7.º grado."
+    },
+    {
+      "text": "North Carolina and American History",
+      "of": "952fafa6",
+      "at": [
+        "carmel-christian:divisions[1].departments[5].courses[2].title"
+      ],
+      "t": "North Carolina and American History"
+    },
+    {
+      "text": "The grade-8 social-studies course.",
+      "of": "beb3f384",
+      "at": [
+        "carmel-christian:divisions[1].departments[5].courses[2].description"
+      ],
+      "t": "El curso de estudios sociales de 8.º grado."
+    },
+    {
+      "text": "Physical Activity Electives",
+      "of": "fa55d9cd",
+      "at": [
+        "carmel-christian:divisions[1].departments[6].name"
+      ],
+      "t": "Physical Activity Electives"
+    },
+    {
+      "text": "Middle-school physical education.",
+      "of": "4c1798bc",
+      "at": [
+        "carmel-christian:divisions[1].departments[6].courses[0].description"
+      ],
+      "t": "Educación física de middle school."
+    },
+    {
+      "text": "Pilates",
+      "of": "f5faf1d7",
+      "at": [
+        "carmel-christian:divisions[1].departments[6].courses[1].title"
+      ],
+      "t": "Pilates"
+    },
+    {
+      "text": "A physical-activity elective in Pilates.",
+      "of": "957044f3",
+      "at": [
+        "carmel-christian:divisions[1].departments[6].courses[1].description"
+      ],
+      "t": "Una optativa de actividad física en Pilates."
+    },
+    {
+      "text": "Arts Electives",
+      "of": "6068ffcf",
+      "at": [
+        "carmel-christian:divisions[1].departments[7].name"
+      ],
+      "t": "Arts Electives"
+    },
+    {
+      "text": "Art Foundations",
+      "of": "cefe9968",
+      "at": [
+        "carmel-christian:divisions[1].departments[7].courses[0].title"
+      ],
+      "t": "Art Foundations"
+    },
+    {
+      "text": "The entry visual-art elective.",
+      "of": "9326d53b",
+      "at": [
+        "carmel-christian:divisions[1].departments[7].courses[0].description"
+      ],
+      "t": "La optativa de arte visual de entrada."
+    },
+    {
+      "text": "Middle School Art",
+      "of": "8bb2de41",
+      "at": [
+        "carmel-christian:divisions[1].departments[7].courses[1].title"
+      ],
+      "t": "Middle School Art"
+    },
+    {
+      "text": "The continuing visual-art elective.",
+      "of": "5005e69d",
+      "at": [
+        "carmel-christian:divisions[1].departments[7].courses[1].description"
+      ],
+      "t": "La optativa de arte visual de continuación."
+    },
+    {
+      "text": "A visual-art elective in digital photography.",
+      "of": "1d559efd",
+      "at": [
+        "carmel-christian:divisions[1].departments[7].courses[2].description"
+      ],
+      "t": "Una optativa de arte visual en fotografía digital."
+    },
+    {
+      "text": "Carmel Christian Choir",
+      "of": "b73a7251",
+      "at": [
+        "carmel-christian:divisions[1].departments[7].courses[3].title"
+      ],
+      "t": "Carmel Christian Choir"
+    },
+    {
+      "text": "The middle-school choir.",
+      "of": "73f4053b",
+      "at": [
+        "carmel-christian:divisions[1].departments[7].courses[3].description"
+      ],
+      "t": "El coro de middle school."
+    },
+    {
+      "text": "Middle School Band",
+      "of": "720dc0bb",
+      "at": [
+        "carmel-christian:divisions[1].departments[7].courses[4].title"
+      ],
+      "t": "Middle School Band"
+    },
+    {
+      "text": "The middle-school band.",
+      "of": "8169abbb",
+      "at": [
+        "carmel-christian:divisions[1].departments[7].courses[4].description"
+      ],
+      "t": "La banda de middle school."
+    },
+    {
+      "text": "Ignite Praise Band",
+      "of": "fdcc7b94",
+      "at": [
+        "carmel-christian:divisions[1].departments[7].courses[5].title"
+      ],
+      "t": "Ignite Praise Band"
+    },
+    {
+      "text": "The audition-based chapel worship band.",
+      "of": "54a220a1",
+      "at": [
+        "carmel-christian:divisions[1].departments[7].courses[5].description"
+      ],
+      "t": "La banda de adoración de capilla con audición."
+    },
+    {
+      "text": "Beginning Theatre",
+      "of": "3c8c380b",
+      "at": [
+        "carmel-christian:divisions[1].departments[7].courses[6].title"
+      ],
+      "t": "Beginning Theatre"
+    },
+    {
+      "text": "The entry theatre elective.",
+      "of": "3c5c33c8",
+      "at": [
+        "carmel-christian:divisions[1].departments[7].courses[6].description"
+      ],
+      "t": "La optativa de teatro de entrada."
+    },
+    {
+      "text": "Theatre Arts",
+      "of": "08d00d7e",
+      "at": [
+        "carmel-christian:divisions[1].departments[7].courses[7].title"
+      ],
+      "t": "Theatre Arts"
+    },
+    {
+      "text": "The continuing theatre elective.",
+      "of": "bd2514be",
+      "at": [
+        "carmel-christian:divisions[1].departments[7].courses[7].description"
+      ],
+      "t": "La optativa de teatro de continuación."
+    },
+    {
+      "text": "Dance Foundations",
+      "of": "14c87ae2",
+      "at": [
+        "carmel-christian:divisions[1].departments[7].courses[8].title"
+      ],
+      "t": "Dance Foundations"
+    },
+    {
+      "text": "A movement/dance elective.",
+      "of": "fa07088e",
+      "at": [
+        "carmel-christian:divisions[1].departments[7].courses[8].description"
+      ],
+      "t": "Una optativa de movimiento/danza."
+    },
+    {
+      "text": "Studio Theatre",
+      "of": "6597bf88",
+      "at": [
+        "carmel-christian:divisions[1].departments[7].courses[9].title"
+      ],
+      "t": "Studio Theatre"
+    },
+    {
+      "text": "An advanced theatre elective.",
+      "of": "cf630518",
+      "at": [
+        "carmel-christian:divisions[1].departments[7].courses[9].description"
+      ],
+      "t": "Una optativa de teatro avanzada."
+    },
+    {
+      "text": "Core Content Electives",
+      "of": "065bc887",
+      "at": [
+        "carmel-christian:divisions[1].departments[8].name"
+      ],
+      "t": "Core Content Electives"
+    },
+    {
+      "text": "Life Skills",
+      "of": "42a28f27",
+      "at": [
+        "carmel-christian:divisions[1].departments[8].courses[0].title"
+      ],
+      "t": "Life Skills"
+    },
+    {
+      "text": "A semester-long core-content elective.",
+      "of": "96ef82f9",
+      "at": [
+        "carmel-christian:divisions[1].departments[8].courses[0].description",
+        "carmel-christian:divisions[1].departments[8].courses[1].description",
+        "carmel-christian:divisions[1].departments[8].courses[2].description",
+        "carmel-christian:divisions[1].departments[8].courses[3].description",
+        "carmel-christian:divisions[1].departments[8].courses[6].description"
+      ],
+      "t": "Una optativa de contenido central de un semestre."
+    },
+    {
+      "text": "News and Media Production",
+      "of": "4e51251a",
+      "at": [
+        "carmel-christian:divisions[1].departments[8].courses[1].title"
+      ],
+      "t": "News and Media Production"
+    },
+    {
+      "text": "Sports Science",
+      "of": "fc8053b4",
+      "at": [
+        "carmel-christian:divisions[1].departments[8].courses[2].title"
+      ],
+      "t": "Sports Science"
+    },
+    {
+      "text": "Problem Solvers",
+      "of": "a33fe80c",
+      "at": [
+        "carmel-christian:divisions[1].departments[8].courses[3].title"
+      ],
+      "t": "Problem Solvers"
+    },
+    {
+      "text": "Study Hall",
+      "of": "7e263085",
+      "at": [
+        "carmel-christian:divisions[1].departments[8].courses[4].title"
+      ],
+      "t": "Study Hall"
+    },
+    {
+      "text": "A supervised study period.",
+      "of": "ef14b196",
+      "at": [
+        "carmel-christian:divisions[1].departments[8].courses[4].description"
+      ],
+      "t": "Un período de estudio supervisado."
+    },
+    {
+      "text": "STEM",
+      "of": "b79768d8",
+      "at": [
+        "carmel-christian:divisions[1].departments[8].courses[5].title",
+        "carmel-christian:divisions[2].departments[1].courses[5].title"
+      ],
+      "t": "STEM"
+    },
+    {
+      "text": "A semester-long STEM elective.",
+      "of": "35ba6f27",
+      "at": [
+        "carmel-christian:divisions[1].departments[8].courses[5].description"
+      ],
+      "t": "Una optativa STEM de un semestre."
+    },
+    {
+      "text": "Food Traveler",
+      "of": "4eea3bf4",
+      "at": [
+        "carmel-christian:divisions[1].departments[8].courses[6].title"
+      ],
+      "t": "Food Traveler"
+    },
+    {
+      "text": "A semester-long writing elective.",
+      "of": "da27b498",
+      "at": [
+        "carmel-christian:divisions[1].departments[8].courses[7].description"
+      ],
+      "t": "Una optativa de escritura de un semestre."
+    },
+    {
+      "text": "Christian Leadership",
+      "of": "7dddde73",
+      "at": [
+        "carmel-christian:divisions[1].departments[8].courses[8].title"
+      ],
+      "t": "Christian Leadership"
+    },
+    {
+      "text": "A semester-long leadership elective.",
+      "of": "a3aca2f1",
+      "at": [
+        "carmel-christian:divisions[1].departments[8].courses[8].description"
+      ],
+      "t": "Una optativa de liderazgo de un semestre."
+    },
+    {
+      "text": "Exploring Design Technology",
+      "of": "89b701af",
+      "at": [
+        "carmel-christian:divisions[1].departments[8].courses[9].title"
+      ],
+      "t": "Exploring Design Technology"
+    },
+    {
+      "text": "A semester-long design-technology elective.",
+      "of": "1351b4f3",
+      "at": [
+        "carmel-christian:divisions[1].departments[8].courses[9].description"
+      ],
+      "t": "Una optativa de tecnología de diseño de un semestre."
+    },
+    {
+      "text": "KINDERGARTEN – GRADE 5",
+      "of": "01b598a8",
+      "at": [
+        "carmel-christian:divisions[2].grades"
+      ],
+      "t": "KINDERGARTEN – GRADE 5"
+    },
+    {
+      "text": "Five core subjects plus six Special Areas, each described per grade in the 2026-27 Elementary Course Description Guide — structured literacy (Orton-Gillingham) and a hands-on STEM lab from Kindergarten.",
+      "of": "300044c7",
+      "at": [
+        "carmel-christian:divisions[2].teaser"
+      ],
+      "t": "Cinco materias centrales más seis Special Areas, cada una descrita por grado en la 2026-27 Elementary Course Description Guide — alfabetización estructurada (Orton-Gillingham) y un laboratorio STEM práctico desde Kindergarten."
+    },
+    {
+      "text": "The elementary guide describes each subject by grade (e.g. \"Math\" per grade) rather than as distinctly-titled courses, which is normal for K–5; the rows below carry the guide’s own per-grade descriptions.",
+      "of": "fd7ffacd",
+      "at": [
+        "carmel-christian:divisions[2].notPublished"
+      ],
+      "t": "La guía de primaria describe cada materia por grado (p. ej. \"Math\" por grado) en lugar de como cursos con títulos distintos, lo cual es normal para K–5; las filas a continuación llevan las propias descripciones por grado de la guía."
+    },
+    {
+      "text": "K–Gr 5",
+      "of": "4e15bb39",
+      "at": [
+        "carmel-christian:divisions[2].departments[0].courses[0].tag",
+        "carmel-christian:divisions[2].departments[0].courses[1].tag",
+        "carmel-christian:divisions[2].departments[0].courses[2].tag",
+        "carmel-christian:divisions[2].departments[0].courses[3].tag",
+        "carmel-christian:divisions[2].departments[0].courses[4].tag",
+        "carmel-christian:divisions[2].departments[1].courses[0].tag",
+        "carmel-christian:divisions[2].departments[1].courses[1].tag",
+        "carmel-christian:divisions[2].departments[1].courses[2].tag",
+        "carmel-christian:divisions[2].departments[1].courses[3].tag",
+        "carmel-christian:divisions[2].departments[1].courses[4].tag",
+        "carmel-christian:divisions[2].departments[1].courses[5].tag"
+      ],
+      "t": "K–Gr 5"
+    },
+    {
+      "text": "Who God is through Creation and the Old and New Testaments, Bible-study skills and Christian living, with weekly scripture memorization and chapel reinforcing a biblical worldview across every subject.",
+      "of": "a51a1b30",
+      "at": [
+        "carmel-christian:divisions[2].departments[0].courses[0].description"
+      ],
+      "t": "Quién es Dios a través de la Creación y el Antiguo y el Nuevo Testamento, habilidades de estudio bíblico y la vida cristiana, con memorización semanal de las Escrituras y capilla que refuerzan una cosmovisión bíblica en cada materia."
+    },
+    {
+      "text": "Foundational number sense in Kindergarten building through Grade 5 fraction operations, volume, measurement, decimals, geometry and coordinate planes — visual models, hands-on activities and word-problem reasoning throughout.",
+      "of": "a4ec24fb",
+      "at": [
+        "carmel-christian:divisions[2].departments[0].courses[1].description"
+      ],
+      "t": "Sentido numérico fundamental en Kindergarten que se desarrolla hasta las operaciones con fracciones, volumen, medición, decimales, geometría y planos de coordenadas de Grade 5 — modelos visuales, actividades prácticas y razonamiento con problemas verbales en todo momento."
+    },
+    {
+      "text": "A multisensory literacy block rooted in the Science of Reading with Orton-Gillingham phonics; strands span phonemic awareness, phonics and morphology, reading (Accelerated Reader from Grade 1), grammar (Analytical Grammar by Grade 5), composition and handwriting.",
+      "of": "ab9ec485",
+      "at": [
+        "carmel-christian:divisions[2].departments[0].courses[2].description"
+      ],
+      "t": "Un bloque de alfabetización multisensorial arraigado en la Science of Reading con fonética Orton-Gillingham; las líneas abarcan conciencia fonémica, fonética y morfología, lectura (Accelerated Reader desde Grade 1), gramática (Analytical Grammar para Grade 5), composición y caligrafía."
+    },
+    {
+      "text": "Inquiry-based, hands-on study of God’s creation across life, physical and earth/space science, advancing by grade from plants and matter to water and climate, energy and environments, and living systems.",
+      "of": "b804c69b",
+      "at": [
+        "carmel-christian:divisions[2].departments[0].courses[3].description"
+      ],
+      "t": "Estudio práctico y basado en la indagación de la creación de Dios a través de las ciencias de la vida, físicas y de la tierra/el espacio, avanzando por grado desde las plantas y la materia hasta el agua y el clima, la energía y los entornos, y los sistemas vivos."
+    },
+    {
+      "text": "Civics, culture, economics, geography and history from a biblical worldview, progressing from community themes through US history, North Carolina history (Grade 4) and early American history to the 1880s (Grade 5).",
+      "of": "8020c065",
+      "at": [
+        "carmel-christian:divisions[2].departments[0].courses[4].description"
+      ],
+      "t": "Civismo, cultura, economía, geografía e historia desde una cosmovisión bíblica, progresando desde temas comunitarios pasando por la historia de EE. UU., la historia de North Carolina (Grade 4) y la historia estadounidense temprana hasta la década de 1880 (Grade 5)."
+    },
+    {
+      "text": "Special Areas (All Grades)",
+      "of": "02378ec6",
+      "at": [
+        "carmel-christian:divisions[2].departments[1].name"
+      ],
+      "t": "Special Areas (Todos los grados)"
+    },
+    {
+      "text": "Foundational construction skills — painting, drawing, cutting, collage — with the elements of art, art vocabulary and self-assessment, framing creativity as an expression of God’s design.",
+      "of": "1f46a066",
+      "at": [
+        "carmel-christian:divisions[2].departments[1].courses[0].description"
+      ],
+      "t": "Habilidades de construcción fundamentales — pintura, dibujo, recorte, collage — con los elementos del arte, el vocabulario artístico y la autoevaluación, planteando la creatividad como una expresión del diseño de Dios."
+    },
+    {
+      "text": "Language development through songs, games, literature, art and technology across the three modes of communication — interpretive, interpersonal and presentational.",
+      "of": "d9d06b97",
+      "at": [
+        "carmel-christian:divisions[2].departments[1].courses[1].description"
+      ],
+      "t": "Desarrollo del lenguaje a través de canciones, juegos, literatura, arte y tecnología en los tres modos de comunicación — interpretativo, interpersonal y presentacional."
+    },
+    {
+      "text": "Media / Technology",
+      "of": "919ae19c",
+      "at": [
+        "carmel-christian:divisions[2].departments[1].courses[2].title"
+      ],
+      "t": "Media / Technology"
+    },
+    {
+      "text": "Digital resources, Google Classroom and Chrome, and basic keyboarding and coding, taught with the Media Specialist and Technology Specialist.",
+      "of": "2399a257",
+      "at": [
+        "carmel-christian:divisions[2].departments[1].courses[2].description"
+      ],
+      "t": "Recursos digitales, Google Classroom y Chrome, y mecanografía y programación básicas, enseñados con el Media Specialist y el Technology Specialist."
+    },
+    {
+      "text": "Music literacy, response and relevance as a form of worship — the elements of music and foundational skills on hand drums, kazoos and boomwhackers, with interdisciplinary connections.",
+      "of": "c1252c6f",
+      "at": [
+        "carmel-christian:divisions[2].departments[1].courses[3].description"
+      ],
+      "t": "Alfabetización, respuesta y relevancia musical como una forma de adoración — los elementos de la música y las habilidades fundamentales en tambores de mano, kazoos y boomwhackers, con conexiones interdisciplinarias."
+    },
+    {
+      "text": "Spatial awareness, games, fitness challenges, fine- and large-motor development, teamwork and the foundations of personal and social responsibility.",
+      "of": "93e50e16",
+      "at": [
+        "carmel-christian:divisions[2].departments[1].courses[4].description"
+      ],
+      "t": "Conciencia espacial, juegos, desafíos de fitness, desarrollo de motricidad fina y gruesa, trabajo en equipo y las bases de la responsabilidad personal y social."
+    },
+    {
+      "text": "The STEM Lab — engineering builds, Dash-robot coding, codable Lego kits and 3D-printer designs, often tied directly to the classroom science curriculum.",
+      "of": "0ccd01bd",
+      "at": [
+        "carmel-christian:divisions[2].departments[1].courses[5].description"
+      ],
+      "t": "El STEM Lab — construcciones de ingeniería, programación del robot Dash, kits de Lego programables y diseños de impresora 3D, a menudo vinculados directamente al currículo de ciencias del aula."
     }
   ]
 }

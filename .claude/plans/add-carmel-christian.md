@@ -1,7 +1,7 @@
 ---
 name: add-carmel-christian
 title: Add Carmel Christian School as the 8th school
-status: english-done
+status: implemented
 phases: 2
 created: 2026-08-16
 branch: feat/add-carmel-christian
@@ -718,3 +718,42 @@ matches the master-driven architecture. `check:ranks` enforces master-resolution
   (rank labels are chrome-ish but the college names are data) — re-extract cleanly.
 - Then open ONE PR with both phases, flip status to `implemented`.
 - Do NOT deploy without the user's in-the-moment say-so.
+
+## Implementation notes (2026-08-17)
+
+Both phases shipped. Phase 1 (English) built the 8th school across all research areas
+mirroring the richest schools; reviewed and approved by the user. Phase 2 translated the
+research prose into all nine `PROSE_TRANSLATED` locales.
+
+Deviations / discoveries worth recording:
+
+- **Five lifted-chrome title fields were deleted from Carmel's data**
+  (`nilTitle`, `pathTitle`, `exhibitsTitle`, `rosterTitle`, `reachTitle`). Every other
+  school — including Providence Day — omits these and inherits the translatable chrome
+  heading via `data.xTitle ?? t('sections.…')`. Carmel's Phase-1 author had hardcoded
+  slightly-reworded English values, which would have pinned those five headings to
+  English in all ten locales (the Covenant Day mistake). This surfaced as five of six
+  "unclassified field" warnings from `i18n_extract.mjs`.
+
+- **`summer catalog.camps[].days[]` is the first populated `days[]`** (prior schools all
+  had `days: []`). Classified as a skip — the values (`Mon`,`Tue`,…) are filter-match
+  enum codes rendered through the `afterSchool.day_*` chrome key by `dayLabel()`, not free
+  prose. Added a `days` CLAIMS row to `check_chrome_keys.mjs` so the chrome promise stays
+  checkable.
+
+- **Backfill mechanism:** existing schools' translations were restored losslessly by
+  content-hash from the shipped overlays; only Carmel's 764 unique strings per locale were
+  newly translated. `metric-values` needed no change (Carmel adds no new metric strings).
+
+- **Defects caught in verification:** one fr course identifier had been translated
+  (restored); 132 fa strings used Eastern-Arabic digits (fa is FIGURE_SAFE = Western,
+  converted); 32 genuine short-prose strings that 1–3 locales left English while the
+  others translated were fixed to consensus (`i18n:leaks` triage).
+
+- **Pre-existing, out of scope (confirmed identical count with/without Carmel):** es
+  sepdrift (178 tokens), fa/ht sepdrift (1 each), and the 7 `i18n_audit_skips` prose
+  flags — all on existing schools, documented in CLAUDE.md, not introduced here.
+
+- Verification: `check:runtime` passes for all 9 locales; full `npm run build` clean;
+  browser render confirmed on Carmel incl. Arabic (RTL) and Hindi (Devanagari), panels
+  expanded. NOT deployed (awaiting the user's say-so).

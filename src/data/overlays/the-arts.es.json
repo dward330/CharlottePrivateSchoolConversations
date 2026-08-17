@@ -141,7 +141,8 @@
         "charlotte-country-day:ladder.divisions[2].grades",
         "cannon:ladder.divisions[2].grades",
         "covenant-day:ladder.divisions[2].grades",
-        "davidson-day:ladder.divisions[2].grades"
+        "davidson-day:ladder.divisions[2].grades",
+        "carmel-christian:ladder.divisions[2].grades"
       ]
     },
     {
@@ -180,7 +181,8 @@
         "charlotte-latin:ladder.enrichmentTitle",
         "charlotte-christian:ladder.enrichmentTitle",
         "charlotte-country-day:ladder.enrichmentTitle",
-        "cannon:ladder.enrichmentTitle"
+        "cannon:ladder.enrichmentTitle",
+        "carmel-christian:ladder.enrichmentTitle"
       ]
     },
     {
@@ -269,7 +271,8 @@
         "providence-day:theatre.season[0].season",
         "charlotte-latin:theatre.season[0].season",
         "charlotte-country-day:theatre.season[0].season",
-        "cannon:theatre.season[0].season"
+        "cannon:theatre.season[0].season",
+        "carmel-christian:theatre.season[0].season"
       ]
     },
     {
@@ -296,7 +299,8 @@
         "charlotte-latin:theatre.season[1].season",
         "charlotte-christian:visual.exhibits[0].when",
         "charlotte-country-day:theatre.season[2].season",
-        "covenant-day:visual.exhibits[1].when"
+        "covenant-day:visual.exhibits[1].when",
+        "carmel-christian:theatre.season[1].season"
       ]
     },
     {
@@ -431,14 +435,16 @@
       "of": "751c47b2",
       "at": [
         "providence-day:music.tracks[0].label",
-        "charlotte-latin:music.tracks[0].label"
+        "charlotte-latin:music.tracks[0].label",
+        "carmel-christian:music.tracks[0].label"
       ]
     },
     {
       "t": "Por audición — hay que ganarse la plaza",
       "of": "31194fb9",
       "at": [
-        "providence-day:music.tracks[1].label"
+        "providence-day:music.tracks[1].label",
+        "carmel-christian:music.tracks[1].label"
       ]
     },
     {
@@ -476,7 +482,8 @@
         "charlotte-christian:music.ladder[0].label",
         "charlotte-country-day:music.ladder[0].label",
         "cannon:music.ladder[0].label",
-        "davidson-day:music.ladder[0].label"
+        "davidson-day:music.ladder[0].label",
+        "carmel-christian:music.ladder[0].label"
       ]
     },
     {
@@ -493,7 +500,8 @@
         "providence-day:music.ladder[1].label",
         "charlotte-latin:music.ladder[1].label",
         "charlotte-country-day:music.ladder[1].label",
-        "davidson-day:music.ladder[1].label"
+        "davidson-day:music.ladder[1].label",
+        "carmel-christian:music.ladder[1].label"
       ]
     },
     {
@@ -511,7 +519,8 @@
         "charlotte-latin:music.ladder[2].label",
         "charlotte-christian:music.ladder[2].label",
         "charlotte-country-day:music.ladder[2].label",
-        "davidson-day:music.ladder[2].label"
+        "davidson-day:music.ladder[2].label",
+        "carmel-christian:music.ladder[2].label"
       ]
     },
     {
@@ -2689,7 +2698,8 @@
       "of": "f65af38a",
       "at": [
         "charlotte-country-day:visual.exhibits[0].when",
-        "cannon:visual.exhibits[2].when"
+        "cannon:visual.exhibits[2].when",
+        "carmel-christian:visual.exhibits[0].when"
       ]
     },
     {
@@ -3705,7 +3715,8 @@
       "t": "6–8",
       "of": "b7020a62",
       "at": [
-        "covenant-day:ladder.divisions[1].grades"
+        "covenant-day:ladder.divisions[1].grades",
+        "carmel-christian:ladder.divisions[1].grades"
       ]
     },
     {
@@ -4855,6 +4866,497 @@
       "of": "321b1f7b",
       "at": [
         "davidson-day:verdict.ask[6]"
+      ]
+    },
+    {
+      "t": "Un programa de artes K–12 — música y arte integrados para cada estudiante de K–4, que se convierte en una vía secuencial y basada en optativas a partir del grado 5.",
+      "of": "97212600",
+      "at": [
+        "carmel-christian:ladder.headline"
+      ]
+    },
+    {
+      "t": "Supervisado por la Arts Director Christina McCorkle, y encabezado en 2026 por una victoria de Blumey Best Actress que avanzó a los Jimmy Awards nacionales.",
+      "of": "39460b86",
+      "at": [
+        "carmel-christian:ladder.subhead"
+      ]
+    },
+    {
+      "t": "programa de artes, integrado K–4",
+      "of": "38b25f94",
+      "at": [
+        "carmel-christian:ladder.stats[0].label"
+      ]
+    },
+    {
+      "t": "conjuntos con nombre + Ignite Band con audición",
+      "of": "8ab9ca66",
+      "at": [
+        "carmel-christian:ladder.stats[1].label"
+      ]
+    },
+    {
+      "t": "Victoria de Blumey Best Actress — \"Footloose\"",
+      "of": "6e7456fc",
+      "at": [
+        "carmel-christian:ladder.stats[2].label"
+      ]
+    },
+    {
+      "t": "Conferencia Christians in Theatre Arts",
+      "of": "92380233",
+      "at": [
+        "carmel-christian:ladder.stats[3].label"
+      ]
+    },
+    {
+      "t": "K–5",
+      "of": "6392dcaa",
+      "at": [
+        "carmel-christian:ladder.divisions[0].grades"
+      ]
+    },
+    {
+      "t": "Cada estudiante de K–4 toma clases tanto de música como de arte",
+      "of": "3689145f",
+      "at": [
+        "carmel-christian:ladder.divisions[0].items[0]"
+      ]
+    },
+    {
+      "t": "En el grado 5 continúa el arte visual y los estudiantes pueden unirse a coro / creative arts",
+      "of": "b80024b2",
+      "at": [
+        "carmel-christian:ladder.divisions[0].items[1]"
+      ]
+    },
+    {
+      "t": "Un musical de 5.º grado (2024-25: \"Seussical KIDS\")",
+      "of": "2eb8c17d",
+      "at": [
+        "carmel-christian:ladder.divisions[0].items[2]"
+      ]
+    },
+    {
+      "t": "Band · Choir · Ignite (MS Praise Band) · Art · Theatre",
+      "of": "d98aff43",
+      "at": [
+        "carmel-christian:ladder.divisions[1].items[0]"
+      ]
+    },
+    {
+      "t": "Un musical de Middle School (2024-25: \"Disney's The Lion King Jr.\")",
+      "of": "676ad284",
+      "at": [
+        "carmel-christian:ladder.divisions[1].items[1]"
+      ]
+    },
+    {
+      "t": "Musical Theatre Dance, Spring Play Competition (NCTC) y un Shakespeare Play Festival",
+      "of": "90e91dbc",
+      "at": [
+        "carmel-christian:ladder.divisions[1].items[2]"
+      ]
+    },
+    {
+      "t": "Honor Band, conciertos de Navidad y de primavera, y un Art Festival",
+      "of": "00474572",
+      "at": [
+        "carmel-christian:ladder.divisions[1].items[3]"
+      ]
+    },
+    {
+      "t": "Conferencia Christians in Theatre Arts (CITA)",
+      "of": "a10dbc67",
+      "at": [
+        "carmel-christian:ladder.divisions[1].items[4]"
+      ]
+    },
+    {
+      "t": "Choir · Symphonic Band · Ignite Band (HS Praise Band, con audición)",
+      "of": "e7f845fc",
+      "at": [
+        "carmel-christian:ladder.divisions[2].items[0]"
+      ]
+    },
+    {
+      "t": "Theatre más Technical Theater and Design",
+      "of": "d55eadc7",
+      "at": [
+        "carmel-christian:ladder.divisions[2].items[1]"
+      ]
+    },
+    {
+      "t": "Visual Arts · Digital Photography · Yearbook · Creative Writing · Journalism",
+      "of": "13fbd309",
+      "at": [
+        "carmel-christian:ladder.divisions[2].items[2]"
+      ]
+    },
+    {
+      "t": "Christians in Theatre Arts (CITA)",
+      "of": "9706987b",
+      "at": [
+        "carmel-christian:ladder.enrichment[0].label"
+      ]
+    },
+    {
+      "t": "Los estudiantes de teatro de Middle School asisten a la CITA Conference — un encuentro de artes teatrales de base religiosa que figura en el calendario de artes publicado de Middle School.",
+      "of": "fa3d98ca",
+      "at": [
+        "carmel-christian:ladder.enrichment[0].text"
+      ]
+    },
+    {
+      "t": "Calendario de festivales",
+      "of": "bff2671d",
+      "at": [
+        "carmel-christian:ladder.enrichment[1].label"
+      ]
+    },
+    {
+      "t": "El programa de Middle School incluye una Spring Play Competition (el circuito de un acto de la NCTC), un Shakespeare Play Festival, un evento de Honor Band y un Art Festival anual como eventos recurrentes.",
+      "of": "34721603",
+      "at": [
+        "carmel-christian:ladder.enrichment[1].text"
+      ]
+    },
+    {
+      "t": "Una temporada de producciones K–12 coronada por una victoria de Blumey Best Actress de 2026 — Anna Jernigan en \"Footloose\" — que avanzó a los Jimmy Awards nacionales.",
+      "of": "ddd6cd90",
+      "at": [
+        "carmel-christian:theatre.headline"
+      ]
+    },
+    {
+      "t": "Los Blumeys son los premios regionales de teatro musical de secundaria de Blumenthal Performing Arts. Carmel Christian convirtió una racha de finalista en una victoria absoluta en 2026 y colocó seis en cinco categorías ese año.",
+      "of": "a29fa0d5",
+      "at": [
+        "carmel-christian:theatre.subhead"
+      ]
+    },
+    {
+      "t": "El ritmo de la temporada — una gama K–12 cada año",
+      "of": "bdb041f2",
+      "at": [
+        "carmel-christian:theatre.seasonTitle"
+      ]
+    },
+    {
+      "t": "Musical (edición junior)",
+      "of": "0ecd51e5",
+      "at": [
+        "carmel-christian:theatre.season[0].kind"
+      ]
+    },
+    {
+      "t": "2025-26: Disney's High School Musical, Jr. (14–15 de nov de 2025). El espacio de otoño se inclina hacia un musical de edición junior que abarca las divisiones.",
+      "of": "acf38cad",
+      "at": [
+        "carmel-christian:theatre.season[0].detail"
+      ]
+    },
+    {
+      "t": "Musical (Upper School)",
+      "of": "060b12d4",
+      "at": [
+        "carmel-christian:theatre.season[1].kind"
+      ]
+    },
+    {
+      "t": "2025-26: Footloose — The Musical (26–28 de marzo de 2026, \"SOLD OUT!\"), la producción que se llevó la victoria de Blumey Best Actress de 2026. 2024-25 tuvo tres funciones a través de las divisiones: Seussical KIDS (5.º grado), Disney's The Lion King Jr. (Middle School) y Oklahoma! (High School).",
+      "of": "8ddd2b42",
+      "at": [
+        "carmel-christian:theatre.season[1].detail"
+      ]
+    },
+    {
+      "t": "El director y el lugar no se publican — la navegación de artes lleva una etiqueta de \"Main Stage\" pero ningún nombre de sala, y la nota de \"SOLD OUT!\" de Footloose implica una sala de capacidad fija que no se nombra en ninguna parte.",
+      "of": "589fafe3",
+      "at": [
+        "carmel-christian:theatre.venueNote"
+      ]
+    },
+    {
+      "t": "El registro Blumey — juicio externo",
+      "of": "900c8f6e",
+      "at": [
+        "carmel-christian:theatre.ledgerTitle"
+      ]
+    },
+    {
+      "t": "VICTORIA de Best Actress — Anna Jernigan como Ariel Moore, que avanza a los Jimmy Awards nacionales (ceremonia el 17 de mayo de 2026, Belk Theater; anunciado el 18 de mayo). Más cinco colocaciones más en cuatro categorías: finalista de Best Actor (James Coleman como Ren McCormack), finalista de Best Supporting Actor (Sloan Pettus como Willard Hewitt), finalista de Best Supporting Actress (Charlotte Scott como Rusty), finalista de Best Featured Performer (Titus Teague como Garvin) y una nominada a Best Choreography Execution (producción).",
+      "of": "1d80efd5",
+      "at": [
+        "carmel-christian:theatre.ledger[0].result"
+      ]
+    },
+    {
+      "t": "Siete colocaciones, sin victoria: nominados a Best Featured Performer Sasha Mashchenko (Ballet Lead) y Caeden Moore (Vlad); finalistas de Best Actor Dylan Wilson (Dmitry) y Anna Jernigan (Lily); finalistas de Best Supporting Actor Caeden Moore (Vlad) y Karleigh Robin (Dowager Empress); y una finalista de Best Featured Performer, Sasha Mashchenko (Ballet Lead). Jernigan aparece bajo \"Finalists for Best Actor\" textualmente en el PDF oficial de Blumenthal — probablemente una peculiaridad de etiquetado (interpretó a Lily); POR VERIFICAR.",
+      "of": "80a560e0",
+      "at": [
+        "carmel-christian:theatre.ledger[1].result"
+      ]
+    },
+    {
+      "t": "Dos nominaciones según la página de noticias sin fecha de la escuela: Best Actress (Darien Pisacano) y Best Actor (Dylan Wilson). Atribuidas por la escuela a \"Singin' in the Rain,\" una producción anterior a Anastasia; el año exacto no se publica y está POR VERIFICAR.",
+      "of": "bf3c961b",
+      "at": [
+        "carmel-christian:theatre.ledger[2].result"
+      ]
+    },
+    {
+      "t": "El arco de Anna Jernigan ancla el programa: una colocación como finalista de Best Actor de 2024 (como Lily en Anastasia, según el propio etiquetado de Blumenthal) se convirtió en la victoria de Best Actress de 2026 por Footloose, que continuó a los Jimmy Awards nacionales. Ten en cuenta que las nominaciones de 2024 pertenecen a Anastasia, no a \"Singin' in the Rain\" — la página de noticias sin fecha de la escuela ancla un par de nominaciones separado y anterior (Pisacano, Wilson) a esa producción diferente. No se encontró ningún resultado de festival de NCTC ni honor de teatro a nivel estatal en esta revisión; la Spring Play Competition de Middle School nombra el circuito de NCTC pero no se publica ninguna colocación.",
+      "of": "d2e2e05e",
+      "at": [
+        "carmel-christian:theatre.honestContext"
+      ]
+    },
+    {
+      "t": "Tres conjuntos con nombre a través de las divisiones — Symphonic Band, Choir y el equipo de alabanza Ignite Band con audición.",
+      "of": "594b5b4b",
+      "at": [
+        "carmel-christian:music.headline"
+      ]
+    },
+    {
+      "t": "La gama de conjuntos está centrada en banda y coro; no se publica ninguna orquesta, grupo a cappella ni sociedad de honor musical.",
+      "of": "d28469fa",
+      "at": [
+        "carmel-christian:music.subhead"
+      ]
+    },
+    {
+      "t": "Adoración de Middle School",
+      "of": "8af52fd2",
+      "at": [
+        "carmel-christian:music.tracks[2].label"
+      ]
+    },
+    {
+      "t": "Ignite Band, el equipo de alabanza de High School, es con audición — una entrega de video seguida de una ronda presencial por invitación. No se publica ninguna orquesta, grupo a cappella ni sociedad de honor musical Tri-M.",
+      "of": "fe857902",
+      "at": [
+        "carmel-christian:music.boardNote"
+      ]
+    },
+    {
+      "t": "La escala de honores — lo que se publica",
+      "of": "b7b34683",
+      "at": [
+        "carmel-christian:music.ladderTitle"
+      ]
+    },
+    {
+      "t": "banda y coro van del grado 5 a la High School, con conciertos de Navidad y de primavera en el calendario de Middle School.",
+      "of": "d4725a2c",
+      "at": [
+        "carmel-christian:music.ladder[0].text"
+      ]
+    },
+    {
+      "t": "Ignite Band (HS Praise Band) realiza una audición — una ronda de video seguida de una ronda presencial por invitación.",
+      "of": "c720bd78",
+      "at": [
+        "carmel-christian:music.ladder[1].text"
+      ]
+    },
+    {
+      "t": "el programa de Middle School incluye un evento de \"Honor Band\"; no se publica ningún resultado de all-state, adjudicación ni festival, y un mencionado \"Carowinds Festival of Music\" no surgió en esta revisión (POR VERIFICAR).",
+      "of": "b9f9df1f",
+      "at": [
+        "carmel-christian:music.ladder[2].text"
+      ]
+    },
+    {
+      "t": "No se publica ninguna sociedad de honor musical (p. ej. Tri-M) ni conteos de selección por año o de calificaciones superiores. El panorama de honores más allá del evento de Honor Band de Middle School no está documentado.",
+      "of": "e4b12ba7",
+      "at": [
+        "carmel-christian:music.ladderNote"
+      ]
+    },
+    {
+      "t": "Una vía de estudio que se amplía hacia medios y publicaciones en la High School — artes visuales, fotografía digital, anuario, escritura creativa y periodismo.",
+      "of": "04dd2270",
+      "at": [
+        "carmel-christian:visual.headline"
+      ]
+    },
+    {
+      "t": "La página de artes no nombra ninguna secuencia de estudio por niveles, pero la guía de Course Offerings sí: un camino desde Art I/II hasta AP 2-D Art & Design.",
+      "of": "3627ce55",
+      "at": [
+        "carmel-christian:visual.subhead"
+      ]
+    },
+    {
+      "t": "Estudio y medios",
+      "of": "5fdec809",
+      "at": [
+        "carmel-christian:visual.mediaTitle"
+      ]
+    },
+    {
+      "t": "la línea central de estudio, K–12",
+      "of": "6db4515c",
+      "at": [
+        "carmel-christian:visual.media[0].detail"
+      ]
+    },
+    {
+      "t": "un curso discreto de High School",
+      "of": "db6b977c",
+      "at": [
+        "carmel-christian:visual.media[1].detail"
+      ]
+    },
+    {
+      "t": "diseño de publicaciones",
+      "of": "a4e1d4c5",
+      "at": [
+        "carmel-christian:visual.media[2].detail"
+      ]
+    },
+    {
+      "t": "una optativa de artes de High School",
+      "of": "a9b384c1",
+      "at": [
+        "carmel-christian:visual.media[3].detail",
+        "carmel-christian:visual.media[4].detail"
+      ]
+    },
+    {
+      "t": "Esta secuencia proviene de la guía de Course Offerings, no de la página de artes — las dos discrepan, y la página de artes no nombra ninguna secuencia por niveles en absoluto. El diseño gráfico como curso discreto no se publica (POR VERIFICAR).",
+      "of": "229ebbc1",
+      "at": [
+        "carmel-christian:visual.pathNote"
+      ]
+    },
+    {
+      "t": "el único evento de exhibición nombrado en el calendario de artes",
+      "of": "d9001e3a",
+      "at": [
+        "carmel-christian:visual.exhibits[0].detail"
+      ]
+    },
+    {
+      "t": "Los eventos de galería o exhibición de High School más allá del Art Festival de Middle School no se publican, y no surgió ningún reconocimiento externo de artes visuales (Scholastic u otro) en esta revisión. Los cursos Honors y AP de estudio aparecen solo en la guía de Course Offerings, que la página de artes no corrobora.",
+      "of": "cb28c06a",
+      "at": [
+        "carmel-christian:visual.footnote"
+      ]
+    },
+    {
+      "t": "Un programa de teatro con una victoria de Blumey genuina y recientemente convertida, apoyado sobre una huella de música y artes visuales más magra que la de sus pares regionales.",
+      "of": "df393023",
+      "at": [
+        "carmel-christian:verdict.headline"
+      ]
+    },
+    {
+      "t": "La victoria de Best Actress de 2026 y su avance a los Jimmy Awards son el titular real y verificado; las preguntas abiertas son sobre el lugar, el director y los circuitos de honores sin documentar.",
+      "of": "64550676",
+      "at": [
+        "carmel-christian:verdict.subhead"
+      ]
+    },
+    {
+      "t": "Una victoria de Blumey verificada — no solo finalistas",
+      "of": "704ba098",
+      "at": [
+        "carmel-christian:verdict.holdsUp[0].label"
+      ]
+    },
+    {
+      "t": "Anna Jernigan se llevó Best Actress por \"Footloose\" en los Blumey Awards de 2026 (confirmado por WFAE) y avanzó a los Jimmy Awards nacionales — una victoria absoluta, convertida a partir de su colocación como finalista de 2024.",
+      "of": "2753919c",
+      "at": [
+        "carmel-christian:verdict.holdsUp[0].text"
+      ]
+    },
+    {
+      "t": "Profundidad detrás de la victoria",
+      "of": "46a38e1f",
+      "at": [
+        "carmel-christian:verdict.holdsUp[1].label"
+      ]
+    },
+    {
+      "t": "la campaña de \"Footloose\" de 2026 colocó seis en cinco categorías (actriz, actor, ambos de reparto, featured performer y coreografía), y \"Anastasia\" colocó siete en 2024 — un productor recurrente de finalistas de actuación, no algo aislado.",
+      "of": "6cb4dc1f",
+      "at": [
+        "carmel-christian:verdict.holdsUp[1].text"
+      ]
+    },
+    {
+      "t": "Una vía de estudio que llega hasta AP",
+      "of": "4e563df6",
+      "at": [
+        "carmel-christian:verdict.holdsUp[2].label"
+      ]
+    },
+    {
+      "t": "la guía de Course Offerings va de Art I/II → Honors Art III/IV → AP 2-D Art & Design, más un grupo de medios y publicaciones (fotografía digital, anuario, escritura creativa, periodismo) en la High School.",
+      "of": "5bdf3ffc",
+      "at": [
+        "carmel-christian:verdict.holdsUp[2].text"
+      ]
+    },
+    {
+      "t": "Un circuito de teatro de base religiosa",
+      "of": "f5f77f32",
+      "at": [
+        "carmel-christian:verdict.holdsUp[3].label"
+      ]
+    },
+    {
+      "t": "Los estudiantes de Middle School asisten a la Christians in Theatre Arts (CITA) Conference y participan en la NCTC Spring Play Competition — una vía temprana de acceso al teatro competitivo y comunitario.",
+      "of": "a0a6cf22",
+      "at": [
+        "carmel-christian:verdict.holdsUp[3].text"
+      ]
+    },
+    {
+      "t": "¿Dónde se montan realmente producciones como \"Footloose\" — cuál es el lugar, y cuántos asientos? El sitio nombra un \"Main Stage\" pero ninguna sala.",
+      "of": "edaebf1f",
+      "at": [
+        "carmel-christian:verdict.ask[0]"
+      ]
+    },
+    {
+      "t": "¿Quién dirige el musical de Upper School, y quién dirigió el \"Footloose\" ganador del Blumey de 2026? No se publica ningún director.",
+      "of": "4455cb8c",
+      "at": [
+        "carmel-christian:verdict.ask[1]"
+      ]
+    },
+    {
+      "t": "La guía de Course Offerings lista Honors Art III/IV, Honors Acting Studio y AP 2-D Art & Design, pero la página de artes no nombra ninguno de ellos — ¿cuáles de estos se dictan realmente cada año?",
+      "of": "1085a35a",
+      "at": [
+        "carmel-christian:verdict.ask[2]"
+      ]
+    },
+    {
+      "t": "¿Hay algo de música más allá de banda, coro y los equipos de alabanza Ignite — una orquesta, un programa de cuerdas o un grupo a cappella?",
+      "of": "6279455d",
+      "at": [
+        "carmel-christian:verdict.ask[3]"
+      ]
+    },
+    {
+      "t": "¿Qué ocurre en el evento de \"Honor Band\" de Middle School, y los estudiantes hacen audición allí para algún conjunto de honores all-state o regional?",
+      "of": "ec980e55",
+      "at": [
+        "carmel-christian:verdict.ask[4]"
+      ]
+    },
+    {
+      "t": "¿Fue el par Blumey de \"Singin' in the Rain\" (Pisacano, Wilson) de un año distinto al de las nominaciones de \"Anastasia\" de 2024 — y de qué año fue?",
+      "of": "d5b276fe",
+      "at": [
+        "carmel-christian:verdict.ask[5]"
       ]
     }
   ]
