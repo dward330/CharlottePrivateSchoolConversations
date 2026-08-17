@@ -1,7 +1,7 @@
 ---
 name: CovenantDaySports
 title: Label each Covenant Day sport with its real Varsity / JV / Middle School levels
-status: english-done
+status: implemented
 phases: 2
 created: 2026-08-17
 branch: feat/covenant-day-sports-levels
@@ -228,3 +228,40 @@ in each of the 9 sports overlays: `sports.ar/bn/es/fa/fr/hi/ht/it/te.json` under
 
 None. The per-sport matrix is fully verified against the live school site; Girls Golf's
 varsity-only status was double-checked.
+
+## Implementation notes
+
+Shipped in PR #142 (both phases). Built as planned; three notes on how it deviated from
+or added to the plan text:
+
+- **`metrics.ts` gained a `RULES` entry, unmentioned by the plan.** Ingesting the new
+  "Team Levels (V-JV-MS)" note made it an *unmatched sports subtopic* (`check:metrics`
+  flagged it), which would slugify into an orphan card — the documented slugify trap. It
+  is provenance for the existing Sports Offered card, not a card of its own, so it was
+  folded onto the `sports-offered` key (`{ match: /team levels/i, … }`, placed before the
+  `sports offered` rule). Confirmed in the DATA-SCHEMA diff: `sports-offered` went 1→2
+  subtopics, no new card/row.
+- **The Phase-1→Phase-2 stale signal came from `check:translations`, not `check:runtime`.**
+  The plan named `check:runtime` as the check that would report the footnote overlays stale
+  after the English reword. It did not — this repo's `check:runtime` validates shipped
+  stamps against the committed **work file**, not live `src/data/**` (the documented
+  work-file blind spot), so editing only `src/data` leaves it passing. `check:translations`
+  (the ingest skill's step 5b) is what correctly reported `covenant-day:offered.footnote`
+  STALE in the sports overlays, and clean again after Phase 2. No plan step was skipped;
+  the signal simply lives in a different check than the plan assumed.
+- **`"Additional Levels"` kept in English in every locale.** It is a citation of the
+  school site's own sidebar label — a parent matches it against the page — so it was left
+  quoted in English in all 9 translations, on the same logic each locale already applied
+  to the old quoted `"at the varsity…"` string. Figures `18 / 8 / 21 / 50` and the
+  `V / JV / MS` tokens were copied char-for-char; `hi`/`te` render them in Western digits
+  with no lakh/crore grouping (verified in-browser), which is correct since none exceeds
+  three digits.
+
+Verification: `tsc` clean; `npm run build` clean (check:schema, check:ranks, check:seo);
+`check:translations` 100% with the footnote now translated in all 9 (1341→1342 field
+sites); `check:runtime` resolves for all 9; `check:sepdrift` shows the footnote clean in
+every locale (the pre-existing 32 es / after-school drifts are the known open defect on
+main, unchanged by this PR); `check:hi`/`check:fr`/`check:bidi`/`check:fa`/`check:money`/
+`check:currency` all pass; `i18n:leaks` shows no footnote leak. Browser-verified: the 18
+depth chips against the source matrix (English), and the reworded footnote rendering
+translated in `es` and `hi`.
