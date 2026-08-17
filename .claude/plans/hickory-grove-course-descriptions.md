@@ -1,11 +1,11 @@
 ---
 name: hickory-grove-course-descriptions
-title: Replace Hickory Grove's AP-only course stub with the full 2026-2027 catalog (117 courses, 11 departments)
-status: english-done
+title: Replace Hickory Grove's AP-only course stub with the full 2026-2027 catalog (shipped as 112 courses, 12 departments)
+status: implemented
 phases: 2
 created: 2026-08-17
 branch: feat/hickory-grove-course-descriptions
-prs: []
+prs: [145]
 ---
 
 # Hickory Grove course descriptions — the real catalog
@@ -469,3 +469,68 @@ file remains committed as the source for all of it.
 - The three certificate tracks (AP Capstone Diploma™, Global Missions & Language, Medical
   Sciences) and the AP eligibility policy remain transcribed in source-material but unshown
   — both need a new card, and therefore UX approval.
+
+### Phase 2 (nine locales) — shipped 2026-08-17
+
+Both phases merged in **PR #145**.
+
+**Scope was wider than the plan wrote: `metric-values` came along too.** The plan scoped
+Phase 2 to the `course-offerings` topic. But Phase 1 rewrote the `us-courses` and
+`advanced-courses` `quals` provenance text, and those strings live in the
+**`metric-values`** overlay. `check:translations` reported them as stale in all nine
+locales. This is the same finding the Covenant Day rollout recorded, and it generalizes:
+**whenever a phase edits `metricValues.ts`, its locale phase covers `metric-values` too
+— a metric recount is a prose change, because the text explaining the count is prose.**
+
+**Volume.** 206 new strings per locale in `course-offerings` (114 real prose — 112 course
+descriptions, the teaser, the new `Student Media` department name — plus 89 course
+titles, 2 grade tags and the `guideYear` as identifiers), and 4 in `metric-values`
+(2 qual paragraphs, 2 bare figures).
+
+**Method — the hash-preserving re-extract, reused unchanged.** `i18n_extract.mjs --force`
+blanks every `t`; without `--force` it refuses to touch a work file holding translations.
+Neither suits a backfill. Extract fresh into a temp dir, then copy each prior `t` onto the
+entry with the same `of` content hash, **never by index**. Verified by asserting zero
+existing translations changed rather than trusting a count: 2,325 strings per locale
+restored untouched, 206 genuinely new, 22 retired.
+
+**Locale conventions were read out of the existing overlays, not re-derived:**
+
+| Convention | Locales |
+|---|---|
+| Course titles stay English | all 9 (the `check:fr` rule) |
+| Grade tags localize (`Niv.` / `গ্রেড` / `कक्षा`) | `fr`, `bn`, `hi` only |
+| `Student Media` translated | all except `fr` |
+| `guideYear` copied verbatim | all 9 |
+
+The grade-tag split is the documented case where `i18n:leaks` flags locales for
+disagreeing **with each other** — each new tag matches how that same locale already
+renders `Gr 4`–`Gr 12`, so it is not a miss.
+
+**One real defect caught by a checker, worth recording.** The first Farsi draft used
+Persian numerals (`۱۱۲`, `۲۰۲۶-۲۰۲۷`) for the counts and the year. `check:fa` flagged it,
+and it is a genuine figure re-typing: the existing `fa` quals use Western digits
+(`2026–27`, `74`, `13 AP`), because a parent matches these against the school's own page.
+Converted to Western digits in both topics. **This is why `fa` is on `FIGURE_SAFE_NUMBERS`
+for digits — the render layer handles presentation; the data never does.**
+
+### Phase 2 verification
+
+- `npm run check:translations` — **100%** on both topics, zero stale
+- `npm run check:runtime` — clean for all 9 locales (the authoritative guard; a failed
+  stamp falls back to English silently)
+- `check:hashes`, `check:fr`, `check:script`, `check:bidi`, `check:fa`, `check:hi`,
+  `check:currency`, `check:money`, `check:quals` — all pass
+- `npm run check:sepdrift` — **unchanged from the `main` baseline** (`es` 178, `ht` 1,
+  `fa` 1, all pre-existing). Verified by stashing the change and re-running, rather than
+  assuming.
+- `npx tsc --noEmit`, `npm run build` — clean
+- **Browser check, panels expanded, in `ar` (RTL), `hi` (lakh/crore), `fr` and `es`** —
+  12 tabs render and switch; course titles stayed English; grade tags correct per locale;
+  `112` is **not** lakh/crore-regrouped in `hi` (three digits, and the data correctly
+  stores the English 3-3-3 figure); `4,000–5,000` reads correctly inside an RTL paragraph
+  without a hand-added isolate.
+- `npm run i18n:leaks` per locale — the only new flags are the grade tags above.
+
+**`check:live` was not chased** — it is known-incomplete and fails on `main` for
+`course-offerings` by construction. `check:runtime` is the guard that covers it.
