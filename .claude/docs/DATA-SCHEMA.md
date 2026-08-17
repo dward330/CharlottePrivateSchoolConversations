@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**9 schools × 8 research areas**, 364 ingested research documents.
+**9 schools × 8 research areas**, 367 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -52,7 +52,7 @@ exists yet and **the section does not render at all** for that school.
 
 | Research area | Slug | Cannon | Carmel Christian | Charlotte Christian | Charlotte Country Day | Charlotte Latin | Covenant Day | Davidson Day | Hickory Grove Christian | Providence Day |
 |---|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
-| Course Offerings | `course-offerings` | 1 | 2 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| Course Offerings | `course-offerings` | 1 | 2 | 1 | 1 | 1 | 4 | 1 | 1 | 1 |
 | Student Clubs | `student-clubs` | 10 | 1 | 10 | 10 | 8 | 6 | 9 | 1 | 8 |
 | The Arts | `the-arts` | 8 | 1 | 8 | 8 | 7 | 7 | 5 | 1 | 7 |
 | Sports | `sports` | 15 | 1 | 15 | 15 | 15 | 15 | 15 | 1 | 15 |
@@ -76,7 +76,7 @@ research dossier folds in behind a structured card.
 
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
-| `curriculum` | Course Offerings | 9/9 | 2 |
+| `curriculum` | Course Offerings | 9/9 | 5 |
 
 ### Student Clubs `student-clubs`
 
@@ -633,6 +633,27 @@ Per-division course catalogs, transcribed from each school’s own curriculum gu
 |---|---|---|
 | `divisions` | `Division[]` | yes |
 | `guideYear` | `string` | yes |
+
+**A division absent because research could not RETRIEVE it is not the same as a
+division the school does not PUBLISH — and the two are indistinguishable from a plain
+page fetch.** Modern school sites (Finalsite especially) render curriculum as click-to-
+open tiles whose bodies are fetched separately and are **not in the page HTML**, so
+`curl` of an academics page returns tile *titles* and no course text at all. Covenant
+Day shipped a High-School-only card for exactly this reason, with a code comment
+asserting the absence was by design. Before writing `notPublished` — or omitting a
+division — fetch the tile bodies (for Finalsite:
+`/fs/elements/<element_id>?is_popup=true&post_id=<post_id>&show_post=true`) and record
+the element/post ids in `source-material/` so the data is refreshable. A confirmed
+absence must come from a retrieval that could have succeeded.
+
+**Division ORDER is load-bearing and append-only for an existing school.** Locale
+overlays key on index paths (`<slug>:divisions[0].departments[2].courses[5].title`) and
+`SchoolDetail` renders `divisions` in array order with no sort, so inserting a division
+at the front shifts every existing path and silently orphans that school's overlay
+entries in every locale — the runtime falls back to English with no error and no
+coverage change. Append new divisions at the END (Covenant Day and Carmel Christian
+both ship High → Middle → Lower for this reason). Order only matters within a school;
+a brand-new school is free to use grade order.
 
 Supporting types: `Course`, `Department`, `Division`
 

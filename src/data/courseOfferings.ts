@@ -5124,14 +5124,28 @@ const CHARLOTTE_CHRISTIAN: CourseOfferings = {
 }
 
 /* ── Covenant Day School ────────────────────────────────────────────────────
-   Transcribed from the 2026-2027 High School Profile course matrix (the
-   school's primary published course document — it prints no prose catalog).
-   80 level-qualified entries across 8 matrix disciplines plus Bible, 15 AP.
-   HIGH SCHOOL ONLY by design: the Lower and Middle School academics pages
-   describe competencies, not named course lists, so no JK-5 / 6-8 division
-   card exists to transcribe — stated in the division teaser rather than left
-   implicit. Descriptions are level/sequence facts from the matrix, not
-   invented catalog prose. See source-material/course-offerings/covenant-day/. */
+   THREE divisions. Covenant Day publishes curriculum for every division — the
+   High School as named, level-qualified courses; JK-5 and 6-8 as per-grade
+   subject areas with competency prose, plus genuinely named Specials, honors
+   tracks and electives.
+
+   Why an earlier pass shipped High School only: the academics pages are
+   Finalsite, and each curriculum tile is a POST whose body is absent from the
+   page HTML — it loads on click from
+   /fs/elements/<element_id>?is_popup=true&post_id=<post_id>&show_post=true.
+   A plain fetch of /academics/lower-school returns tile TITLES and zero course
+   text, which reads exactly like a school that publishes nothing. That is a
+   retrieval failure, not a confirmed absence; all 21 tile payloads are now
+   captured verbatim in source-material/course-offerings/covenant-day/.
+
+   Division order is High → Middle → Lower, and is LOAD-BEARING: the locale
+   overlays key on index paths (covenant-day:divisions[0]...), so Middle and
+   Lower are APPENDED at [1] and [2] rather than placed in grade order. Carmel
+   Christian ships the same way. High School is reconciled against the
+   /academics/high-school department tiles; where the older 2026-27 Profile
+   matrix carries a course the academics page omits, the course is kept — both
+   are the school's own publications. Descriptions condense the school's own
+   catalog language, never invented prose. */
 const COVENANT_DAY: CourseOfferings = {
   guideYear: '2026-27',
   divisions: [
@@ -5139,10 +5153,10 @@ const COVENANT_DAY: CourseOfferings = {
       title: 'High School Courses',
       grades: 'GRADES 9 – 12',
       teaser:
-        '80 course entries across 9 departments, from the 2026-27 High School Profile matrix — the school publishes named courses for the high school only.',
-      source: 'Covenant Day High School Profile 2026-2027 (course matrix)',
-      sourceUrl:
-        'https://resources.finalsite.net/images/v1758547252/covenant/x8i0qddxvctsp5jqbpmt/2025-26HSGuidanceProfile.pdf',
+        '90 course entries across 9 departments — 17 Advanced Placement, a named Bible course for each of the four years, and a Restoration & Sustainability department no other school here runs.',
+      source:
+        'Covenant Day High School academics page (department tiles), reconciled against the 2026-2027 High School Profile course matrix',
+      sourceUrl: 'https://www.covenantday.org/academics/high-school',
       departments: [
         {
           name: 'English',
@@ -5167,12 +5181,14 @@ const COVENANT_DAY: CourseOfferings = {
             { title: 'Geometry Honors', tag: 'Honors', description: 'The honors geometry year.' },
             { title: 'Algebra 2', tag: 'CP', description: 'Second-year algebra.' },
             { title: 'Algebra 2 Honors', tag: 'Honors', description: 'Honors second-year algebra.' },
+            { title: 'Liberal Arts Math', tag: 'CP', description: 'The alternative senior-year math for students not continuing to pre-calculus.' },
             { title: 'Pre-Calculus', tag: 'CP', description: 'Functions and trigonometry before calculus.' },
             { title: 'Pre-Calculus Honors', tag: 'Honors', description: 'The honors pre-calculus year.' },
             { title: 'Calculus Honors', tag: 'Honors', description: 'Honors calculus — available for dual enrollment with Covenant College.' },
             { title: 'Statistics', tag: 'CP', description: 'Introductory statistics.' },
             { title: 'Statistics Honors', tag: 'Honors', description: 'Honors statistics — available for dual enrollment with Covenant College.' },
             { title: 'AP Calculus AB', tag: 'AP', description: 'College-level differential and integral calculus.' },
+            { title: 'AP Calculus BC', tag: 'AP', description: 'The faster calculus track, through series; the school notes this offering may be impacted by student enrollment.' },
             { title: 'AP Statistics', tag: 'AP', description: 'College-level statistics.' },
           ],
         },
@@ -5183,7 +5199,7 @@ const COVENANT_DAY: CourseOfferings = {
             { title: 'Biology Honors', tag: 'Honors', description: 'Honors biology.' },
             { title: 'Chemistry', tag: 'CP', description: 'Second lab science of the sequence.' },
             { title: 'Chemistry Honors', tag: 'Honors', description: 'Honors chemistry.' },
-            { title: 'Anatomy Honors', tag: 'Honors', description: 'Honors anatomy and physiology.' },
+            { title: 'Anatomy & Physiology Honors', tag: 'Honors', description: 'Honors anatomy and physiology.' },
             { title: 'Health', tag: 'CP', description: 'The half-unit health requirement.' },
             { title: 'Sports & Exercise Science', tag: 'CP', description: 'Applied exercise science.' },
             { title: 'Sports & Exercise Science Honors', tag: 'Honors', description: 'The honors track of exercise science.' },
@@ -5198,13 +5214,13 @@ const COVENANT_DAY: CourseOfferings = {
           courses: [
             { title: 'World History', tag: 'CP', description: 'The entry history course.' },
             { title: 'World History Honors', tag: 'Honors', description: 'Honors world history.' },
-            { title: 'US History', tag: 'CP', description: 'The American-history year.' },
-            { title: 'US History Honors', tag: 'Honors', description: 'Honors US history.' },
-            { title: 'Government & Economics', tag: 'CP', description: 'The civics-and-economics capstone.' },
-            { title: 'Government & Economics Honors', tag: 'Honors', description: 'The honors capstone.' },
+            { title: 'U.S. History', tag: 'CP', description: 'The American-history year.' },
+            { title: 'U.S. History Honors', tag: 'Honors', description: 'Honors U.S. history.' },
+            { title: 'Government and Economics', tag: 'CP', description: 'The civics-and-economics capstone.' },
+            { title: 'Government and Economics Honors', tag: 'Honors', description: 'The honors capstone.' },
             { title: 'Psychology Honors', tag: 'Honors', description: 'Honors psychology.' },
-            { title: 'AP US History', tag: 'AP', description: 'College-level American history.' },
-            { title: 'AP Government & Politics: US', tag: 'AP', description: 'College-level US government.' },
+            { title: 'AP U.S. History', tag: 'AP', description: 'College-level American history.' },
+            { title: 'AP U.S. Government & Politics', tag: 'AP', description: 'College-level U.S. government and politics.' },
             { title: 'AP European History', tag: 'AP', description: 'College-level European history.' },
             { title: 'AP Psychology', tag: 'AP', description: 'College-level psychology.' },
           ],
@@ -5212,7 +5228,10 @@ const COVENANT_DAY: CourseOfferings = {
         {
           name: 'Bible',
           courses: [
-            { title: 'Bible (each year)', tag: 'Gr 9–12', description: 'Three graduation units; students must be enrolled in a Bible course every year. The profile matrix prints no per-year titles.' },
+            { title: 'Old Testament Survey', tag: '9th Grade', description: 'The freshman Bible course; students are enrolled in a Bible course every year, and three units are required to graduate.' },
+            { title: 'New Testament Survey', tag: '10th Grade', description: 'The sophomore Bible course, surveying the New Testament.' },
+            { title: 'Christian Doctrine', tag: '11th Grade', description: 'The junior Bible course, working through Christian doctrine systematically.' },
+            { title: 'Engaging the Culture - An Introduction to Apologetics and Worldviews', tag: '12th Grade', description: 'The senior Bible capstone in apologetics and competing worldviews.' },
           ],
         },
         {
@@ -5222,15 +5241,16 @@ const COVENANT_DAY: CourseOfferings = {
             { title: 'Spanish 2', tag: 'CP', description: 'Second-year Spanish.' },
             { title: 'Spanish 3 Honors', tag: 'Honors', description: 'Third-year Spanish at honors level.' },
             { title: 'Spanish 4 Honors', tag: 'Honors', description: 'Fourth-year Spanish at honors level.' },
-            { title: 'AP Spanish', tag: 'AP', description: 'College-level Spanish language.' },
+            { title: 'AP Spanish Language', tag: 'AP', description: 'College-level Spanish language.' },
             { title: 'French 1', tag: 'CP', description: 'First-year French.' },
             { title: 'French 2', tag: 'CP', description: 'Second-year French.' },
             { title: 'French 3 Honors', tag: 'Honors', description: 'Third-year French at honors level.' },
             { title: 'French 4 Honors', tag: 'Honors', description: 'Fourth-year French at honors level.' },
+            { title: 'AP French', tag: 'AP', description: 'College-level French; the school notes this offering may be impacted by student enrollment.' },
             { title: 'Latin 2', tag: 'CP', description: 'Second-year Latin (the sequence starts in middle school).' },
             { title: 'Latin 3 Honors', tag: 'Honors', description: 'Third-year Latin at honors level.' },
             { title: 'Latin 4 Honors', tag: 'Honors', description: 'Fourth-year Latin at honors level.' },
-            { title: 'AP Latin', tag: 'AP', description: 'College-level Latin.' },
+            { title: 'AP Latin: Caesar and Vergil', tag: 'AP', description: 'College-level Latin, on the Caesar and Vergil syllabus.' },
           ],
         },
         {
@@ -5259,23 +5279,507 @@ const COVENANT_DAY: CourseOfferings = {
           name: 'Restoration & Sustainability',
           courses: [
             { title: 'Augustine Literacy Project', tag: 'CP', description: 'Training students as literacy tutors for the community.' },
+            { title: 'ContainIt', tag: 'CP', description: 'The department’s student-run enterprise course.' },
             { title: 'Intercultural Practicum', tag: 'CP', description: 'Applied cross-cultural engagement.' },
-            { title: 'Introduction to Engineering', tag: 'CP', description: 'The department’s engineering entry.' },
+            { title: 'Intro to Engineering', tag: 'CP', description: 'The department’s engineering entry.' },
             { title: 'Restore525', tag: 'CP', description: 'The department’s service-build program as a credit course.' },
           ],
         },
         {
-          name: 'PE',
+          name: 'Other',
           courses: [
-            { title: 'Strength & Fitness', tag: 'CP', description: 'The Webb Fitness Center course; a PE credit is also earnable via two school sport seasons.' },
+            { title: 'Individual Research Project', tag: 'CP', description: 'A self-directed research course taken for credit.' },
+            { title: 'Strength & Fitness Training', tag: 'CP', description: 'The Webb Fitness Center course; a PE credit is also earnable via two school sport seasons.' },
+            { title: 'Student Assistant', tag: 'CP', description: 'A credit-bearing assistantship supporting a department or office.' },
           ],
         },
       ],
     },
-    /* NO Lower/Middle School division card: the school publishes zero named
-       courses below grade 9 (the JK-8 pages describe competencies), and a
-       division with no courses is omitted entirely rather than shipped as an
-       empty card — the HS card's teaser carries the scope note instead. */
+    {
+      title: 'Middle School Courses',
+      grades: 'GRADES 6 – 8',
+      teaser:
+        'Seven subject areas per grade plus three named honors tracks and a seven-course elective slate — Latin from 6th grade, Applied English in 6th and 7th.',
+      source: 'Covenant Day Middle School Curriculum (academics page)',
+      sourceUrl: 'https://www.covenantday.org/academics/middle-school',
+      notPublished:
+        'Covenant Day publishes per-grade subject areas and competencies for grades 6–8 rather than a full course catalog. The honors tracks and electives below are the school’s own named courses; the remaining rows carry each grade’s published subject description.',
+      departments: [
+        {
+          name: '6th Grade',
+          courses: [
+            {
+              title: 'Language Arts',
+              tag: 'Gr 6',
+              description:
+                'Reading deeply through synthesis and analysis of fiction and nonfiction; all students get extra Applied English time to build thesis statements as the foundation for strong essays.',
+            },
+            {
+              title: 'Math',
+              tag: 'Gr 6',
+              description:
+                'Reviews arithmetic and number sense — decimal and fraction operations — before ratios and percentages, integers, variables, equations and inequalities, 2D and 3D geometry, and statistics.',
+            },
+            {
+              title: 'Bible',
+              tag: 'Gr 6',
+              description:
+                'An Old Testament survey, building on events and themes in scripture to deepen understanding of what the Bible teaches about God, humanity and self.',
+            },
+            {
+              title: 'Science',
+              tag: 'Gr 6',
+              description:
+                'Life Science — cells, heredity, DNA, viruses, bacteria, protists and fungi, animals, human body systems, plants and dissection, with lab experiments and projects.',
+            },
+            {
+              title: 'Social Studies',
+              tag: 'Gr 6',
+              description:
+                'US History Part 1 — the history and geography of the United States from the Jamestown Colony to the Civil War.',
+            },
+            {
+              title: 'World Languages',
+              tag: 'Gr 6',
+              description:
+                'Greek Mythology as the entry to Latin study in middle school; Spanish is offered as an elective.',
+            },
+            {
+              title: 'Physical Education',
+              tag: 'Gr 6',
+              description:
+                'Game skills and strategies with personal fitness goals, emphasising life sports and healthy living.',
+            },
+          ],
+        },
+        {
+          name: '7th Grade',
+          courses: [
+            {
+              title: 'Language Arts',
+              tag: 'Gr 7',
+              description:
+                'Persuasive, informative, narrative and research-based writing alongside complex texts, more advanced grammar, and Greek and Latin roots; all students get extra Applied English time.',
+            },
+            {
+              title: 'English Honors',
+              tag: 'Honors',
+              description:
+                'Deeper literary analysis within a biblical worldview — multi-paragraph argumentative essays with thesis, textual evidence and commentary, plus expository writing and accelerated language conventions.',
+            },
+            {
+              title: 'Math',
+              tag: 'Gr 7',
+              description:
+                'Ratios and proportional relationships, unit conversions, integers across all operations, order of operations and expressions, equations and inequalities, geometry, statistics and probability.',
+            },
+            {
+              title: 'Math Honors (Pre-Algebra)',
+              tag: 'Honors',
+              description:
+                'Introduces algebra through equations and inequalities, exponent rules, linear relations and functions, radicals, angle relationships, angles and polygons, and unit conversions.',
+            },
+            {
+              title: 'Bible',
+              tag: 'Gr 7',
+              description:
+                'The Gospels, woven together to show the life of Christ and his fulfilment of Scripture, alongside how to study the Bible and build a habit of personal devotions.',
+            },
+            {
+              title: 'Science',
+              tag: 'Gr 7',
+              description:
+                'Earth science — geology, oceanography, meteorology and astronomy, with lab experiments and projects.',
+            },
+            {
+              title: 'Social Studies',
+              tag: 'Gr 7',
+              description:
+                'The Reconstruction Era to the present day through a biblical lens, built on primary documents written by historical figures.',
+            },
+            {
+              title: 'Latin IA',
+              tag: 'Gr 7',
+              description:
+                'The first half of the middle school Latin sequence; Spanish is offered as an elective.',
+            },
+            {
+              title: 'Physical Education',
+              tag: 'Gr 7',
+              description:
+                'Game skills and strategies with personal fitness goals; students in grades 7–8 may also compete on Covenant Day athletic teams.',
+            },
+          ],
+        },
+        {
+          name: '8th Grade',
+          courses: [
+            {
+              title: 'Language Arts',
+              tag: 'Gr 8',
+              description:
+                'Informative, narrative and research writing culminating in a research paper, with complex texts, advanced grammar, and cross-discipline research assignments.',
+            },
+            {
+              title: 'English Honors',
+              tag: 'Honors',
+              description:
+                'Rigorous literary analysis across major literary themes, history and culture, with formal and informal responses, analytical essays and creative pieces; syntax awareness and vocabulary expand throughout.',
+            },
+            {
+              title: 'Math',
+              tag: 'Gr 8',
+              description:
+                'Introduces algebra through equations and inequalities, exponent rules, linear relations and functions, radicals, angle relationships, angles and polygons, and unit conversions.',
+            },
+            {
+              title: 'Math Honors (Algebra)',
+              tag: 'Honors',
+              description:
+                'The real number system, expressions, linear and quadratic equations and their graphs, inequalities, systems of equations, polynomials, relations, functions, and radical and rational expressions.',
+            },
+            {
+              title: 'Bible',
+              tag: 'Gr 8',
+              description:
+                'Acts and the Pauline Epistles, with practical application and learning to share one’s faith.',
+            },
+            {
+              title: 'Science',
+              tag: 'Gr 8',
+              description:
+                'Physical science — motion and forces, energy and waves (sound, light and electricity), magnetism and chemistry, with lab experiments and projects.',
+            },
+            {
+              title: 'Social Studies',
+              tag: 'Gr 8',
+              description:
+                'World History Part 1 — Mesopotamia, Ancient Egypt, Ancient Greece and Rome through the Middle Ages, including major world religions and how they relate to Christianity.',
+            },
+            {
+              title: 'Latin IB',
+              tag: 'Gr 8',
+              description:
+                'Completes the middle school Latin sequence; Spanish is offered as an elective.',
+            },
+            {
+              title: 'Physical Education',
+              tag: 'Gr 8',
+              description:
+                'Game skills and strategies with personal fitness goals; students may also compete on Covenant Day athletic teams.',
+            },
+          ],
+        },
+        {
+          name: 'Electives',
+          courses: [
+            { title: 'CREATE', tag: 'Gr 6–8', description: 'One of seven electives; students choose two each year.' },
+            { title: 'Art', tag: 'Gr 6–8', description: 'One of seven electives; students choose two each year.' },
+            { title: 'Band', tag: 'Gr 6–8', description: 'One of seven electives; students choose two each year.' },
+            { title: 'Spanish', tag: 'Gr 6–8', description: 'Offered as an elective alongside the required Latin sequence.' },
+            { title: 'Drama', tag: 'Gr 6–8', description: 'One of seven electives; students choose two each year.' },
+            { title: 'Choir', tag: 'Gr 6–8', description: 'One of seven electives; students choose two each year.' },
+            { title: 'Broadcast Journalism', tag: 'Gr 6–8', description: 'One of seven electives; students choose two each year.' },
+          ],
+        },
+      ],
+    },
+    {
+      title: 'Lower School Courses',
+      grades: 'JUNIOR KINDERGARTEN – GRADE 5',
+      teaser:
+        'Five to six subject areas described for each of seven grades, plus six named Specials — CREATE Junior, Spanish from Junior Kindergarten, and recorder in 4th before band instruments in 5th.',
+      source: 'Covenant Day Lower School Curriculum (academics page)',
+      sourceUrl: 'https://www.covenantday.org/academics/lower-school',
+      notPublished:
+        'Covenant Day publishes per-grade subject areas and competencies for JK–5 rather than a named-course catalog. The Specials below are the school’s own named courses; the per-grade rows condense that grade’s published competency description.',
+      departments: [
+        {
+          name: 'Junior Kindergarten',
+          courses: [
+            {
+              title: 'Language Arts',
+              tag: 'JK',
+              description:
+                'Phonics through directionality, letter sounds, at least 10 digraphs, CVC sound blending and 5 common exception words; retelling and predicting in comprehension; and forming most lowercase and capital letters.',
+            },
+            {
+              title: 'Math',
+              tag: 'JK',
+              description:
+                'Positional relationships and 2D shapes, comparing length, weight and capacity; counting to 20 and backward from 10, number bonds to 5, doubles to 10, subitizing to 5; and repeating patterns, sorting, and comparing quantities to 10.',
+            },
+            {
+              title: 'Bible',
+              tag: 'JK',
+              description:
+                'God’s love through short memorized Scripture passages and key Bible characters, with weekly chapel and lower school Missions Week.',
+            },
+            {
+              title: 'Science and Social Studies',
+              tag: 'JK',
+              description:
+                'Exploring the natural world — body parts, seasons, life cycles, plant growth and changing states of matter — alongside significant historical figures, past/present/future, other countries, and community helpers.',
+            },
+            {
+              title: 'Art',
+              tag: 'JK',
+              description:
+                'Imaginative role-play and performing for an audience, with nursery rhymes and songs alongside a range of materials, tools and art techniques.',
+            },
+          ],
+        },
+        {
+          name: 'Kindergarten',
+          courses: [
+            {
+              title: 'Language Arts',
+              tag: 'K',
+              description:
+                'Phonological awareness, short vowel words and sight-word recognition; story retelling, listening comprehension and verbal reasoning; handwriting, sentence structure and writing stories.',
+            },
+            {
+              title: 'Math',
+              tag: 'K',
+              description:
+                'Math talks with manipulatives — counting and skip counting to 100, number recognition and formation 0–20, place value to 20, geometry, patterns, sorting, measurement, combinations of 10, graphing, estimating and calendar.',
+            },
+            {
+              title: 'Bible',
+              tag: 'K',
+              description:
+                'Friendship with God and others through group projects, activity centers and classroom community, with weekly chapel, Missions Week, memorized Scripture and Bible characters.',
+            },
+            {
+              title: 'Science',
+              tag: 'K',
+              description:
+                'God’s strength in the oceans, creative patterns through the seasons, and animal life cycles.',
+            },
+            {
+              title: 'Social Studies',
+              tag: 'K',
+              description:
+                'Explorers, pilgrims and Native Americans, famous artists and holidays, and world cultures and traditions as a way into empathy for others.',
+            },
+          ],
+        },
+        {
+          name: 'First Grade',
+          courses: [
+            {
+              title: 'Language Arts',
+              tag: 'Gr 1',
+              description:
+                'Phonics and spelling through decoding and fluency; grammar covering parts of speech, capitalization and sentence types; comprehension from retelling to cause/effect and fact/opinion; and personal narrative, opinion and informational writing.',
+            },
+            {
+              title: 'Math',
+              tag: 'Gr 1',
+              description:
+                'Place value to 100 and numbers to 120, number bonds, addition and subtraction to 100, ordinal numbers, 2D and 3D shapes, mental math, customary length and weight, picture and bar graphs, money, calendar and time.',
+            },
+            {
+              title: 'Bible',
+              tag: 'Gr 1',
+              description:
+                'Abraham, Isaac and Jacob, Joseph, Moses, Israel and the Promised Land, then Judges and Ruth, Samuel and Saul, David and Solomon, the divided kingdom, exile and return, Psalms and Proverbs.',
+            },
+            {
+              title: 'Science',
+              tag: 'Gr 1',
+              description: 'Seasonal patterns, plants, light and sound waves, animal behaviors and habitats.',
+            },
+            {
+              title: 'Social Studies',
+              tag: 'Gr 1',
+              description:
+                'Safety, laws and responsible citizenship, with units on home, school and community, map skills, and past, present and future events.',
+            },
+          ],
+        },
+        {
+          name: 'Second Grade',
+          courses: [
+            {
+              title: 'Language Arts',
+              tag: 'Gr 2',
+              description:
+                'Decoding and encoding short, long-vowel and multi-syllabic words; grammar through contractions and sentence types; comprehension including sequencing and verbal reasoning; and expanded narrative and informational writing in print and cursive.',
+            },
+            {
+              title: 'Math',
+              tag: 'Gr 2',
+              description:
+                'Fact families to 20, mental math and estimation, place value to 1,000, 2- and 3-digit addition and subtraction, an introduction to fractions, multiplication and division, time, money, customary and metric measurement, and bar-model problem solving.',
+            },
+            {
+              title: 'Bible',
+              tag: 'Gr 2',
+              description:
+                'An Old Testament review via the Jesse Tree and the intertestamental period, then the New Testament — Jesus’ birth, ministry, miracles, parables, crucifixion and resurrection — closing with the early church and Paul’s journeys.',
+            },
+            {
+              title: 'Science',
+              tag: 'Gr 2',
+              description:
+                'The human body, life cycles, insects, oceanography, animal behaviors and interactions with matter.',
+            },
+            {
+              title: 'Social Studies',
+              tag: 'Gr 2',
+              description:
+                'Immigration, geography’s influence on communities, community helpers and resources, globes and map skills, holidays and world culture, plus how officials are elected and how history shapes a community’s heritage.',
+            },
+          ],
+        },
+        {
+          name: 'Third Grade',
+          courses: [
+            {
+              title: 'Language Arts',
+              tag: 'Gr 3',
+              description:
+                'Spelling patterns, rules and syllable division; grammar across synonyms, antonyms, homonyms, prepositions and irregular verbs; comprehension through inference and author’s purpose; and simple, compound and four sentence types in composition.',
+            },
+            {
+              title: 'Math',
+              tag: 'Gr 3',
+              description:
+                'Place value to 10,000, rounding, mental math and estimation, bar models for word problems, multiplication facts 0–12, 1- and 2-digit multiplication and division, fractions and decimals, angles and lines, area and perimeter, and measurement conversions.',
+            },
+            {
+              title: 'Bible',
+              tag: 'Gr 3',
+              description:
+                'Creation, the fall, Noah, the Tower of Babel, Abraham, Isaac, Jacob, Joseph, the Exodus, the ten commandments, the wilderness and the Promised Land, closing with a book study of Ephesians.',
+            },
+            {
+              title: 'Science',
+              tag: 'Gr 3',
+              description: 'Forces and magnetism, the earth and the activity on it, plants, animals and fossils.',
+            },
+            {
+              title: 'Social Studies',
+              tag: 'Gr 3',
+              description:
+                'How events, individuals and ideas have shaped communities — especially Charlotte, NC — plus major landforms and their impact on people, industry and the economy, and the 13 American colonies.',
+            },
+          ],
+        },
+        {
+          name: 'Fourth Grade',
+          courses: [
+            {
+              title: 'Language Arts',
+              tag: 'Gr 4',
+              description:
+                'Word analysis, fluency and vocabulary using glossaries, dictionaries and thesauruses; morphology and spelling rules with sentence parts and subject-verb agreement; comprehension through inference and author’s viewpoint; and writing for different purposes and audiences.',
+            },
+            {
+              title: 'Math',
+              tag: 'Gr 4',
+              description:
+                'Multi-digit operations, common multiples and factors, mean, median, mode and range, fractions and decimals across all four operations, customary and metric measurement, perimeter and area, lines and angles, quadrilaterals, congruence and symmetry, and multi-step bar models.',
+            },
+            {
+              title: 'Bible',
+              tag: 'Gr 4',
+              description:
+                'Philippians, Judges, Joshua, Kings Saul, David and Solomon, Ruth, Samuel, the divided kingdom, the feast of trumpets, the day of atonement, and the fruit of the spirit.',
+            },
+            {
+              title: 'Science',
+              tag: 'Gr 4',
+              description:
+                'Energy, speed and moving objects, waves, the earth’s features, natural hazards, and structures and functions.',
+            },
+            {
+              title: 'Social Studies',
+              tag: 'Gr 4',
+              description:
+                'North Carolina — its regions, history and government, and the environmental and technological factors shaping the state’s growth.',
+            },
+          ],
+        },
+        {
+          name: 'Fifth Grade',
+          courses: [
+            {
+              title: 'Language Arts',
+              tag: 'Gr 5',
+              description:
+                'Parts of speech, analogies, subjects and predicates, prepositional phrases and clauses; comprehension across fiction, fantasy, biography, historical fiction, non-fiction and poetry; and descriptive, narrative, expository and persuasive writing plus literary analysis.',
+            },
+            {
+              title: 'Math',
+              tag: 'Gr 5',
+              description:
+                'Place value to 10,000,000, mental math and estimation, multi-digit multiplication and division, fractions, bar-graph problem-solving models, algebraic thinking, area and perimeter, ratios, decimals and percents, graphs, probability and types of angles.',
+            },
+            {
+              title: 'Bible',
+              tag: 'Gr 5',
+              description:
+                '1 Peter, Old Testament covenants, Judah’s return, the writers of the Gospels, Rosh Hashanah, Yom Kippur, Hannukah, Passover, and Jesus’ birth, ministry, parables, death and resurrection.',
+            },
+            {
+              title: 'Science',
+              tag: 'Gr 5',
+              description:
+                'Chemical and physical property change, gravity, energy, photosynthesis and plant decomposition, and earth systems.',
+            },
+            {
+              title: 'Social Studies',
+              tag: 'Gr 5',
+              description:
+                'World and state geography, ancient Mesopotamia, Greece and Rome, Vikings, Medieval Europe, the Renaissance and Reformation, the Age of Exploration, and the Mayas, Incas and Aztecs.',
+            },
+          ],
+        },
+        {
+          name: 'Specials',
+          courses: [
+            {
+              title: 'Art',
+              tag: 'JK–Gr 5',
+              description:
+                'Skill, craftsmanship, beauty, clarity and balance practiced through painting, sketching, ceramics, printmaking, landscapes and portraits, shown at the annual spring Art Walk.',
+            },
+            {
+              title: 'Music',
+              tag: 'JK–Gr 5',
+              description:
+                'Vocal, instrumental and percussion music across classical and modern composers; 4th grade learns recorder and 5th grade band instruments, with a children’s choir and private piano, vocal and guitar lessons available.',
+            },
+            {
+              title: 'CREATE Junior',
+              tag: 'JK–Gr 5',
+              description:
+                'Integrates technology and critical thinking with each grade’s content areas through science, technology, math and engineering — the precursor to the Middle School’s CREATE.',
+            },
+            {
+              title: 'Spanish',
+              tag: 'JK–Gr 5',
+              description:
+                'Teaches the language alongside the culture, studying the holidays, geography and traditions of Spanish communities.',
+            },
+            {
+              title: 'Physical Education',
+              tag: 'JK–Gr 5',
+              description:
+                'Weekly athletic skills and endurance work built on developmentally appropriate lessons, with the Turkey Trot and Field Day as highlights.',
+            },
+            {
+              title: 'Library',
+              tag: 'JK–Gr 5',
+              description:
+                'Finding books and developing research skills in print and online, with the Readers Are Leaders program encouraging reading for pleasure with a purpose.',
+            },
+          ],
+        },
+      ],
+    },
   ],
 }
 

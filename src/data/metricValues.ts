@@ -118,7 +118,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-christian': '~135', // ~135 unique titles; 6 are cross-listed in two departments
       'charlotte-country-day': '119', // line-by-line count of the Total Index of Courses by Department (p.8)
       'charlotte-latin': '129', // counted from the live Upper School course-offerings page
-      'covenant-day': '80', // level-qualified entries in the 2026-27 HS Profile matrix (~65 distinct titles)
+      'covenant-day': '90', // level-qualified entries across the 9 /academics/high-school department tiles
       'carmel-christian': '~78', // HS catalog across 9 depts (S2/S3/S4); levels counted separately
       'davidson-day': '~75', // 74 described + AP Spanish Literature listed without a description; 66 on the 2026-27 offerings grid
       'hickory-grove-christian': null, // full course list is SPA-blocked (JS course guide, no PDF); only the AP catalog is publicly enumerable
@@ -131,7 +131,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'covenant-day': {
         kind: 'scope',
-        text: 'Counted as level-qualified entries in the school’s 2026–27 High School Profile course matrix — a title offered at CP, Honors and AP counts once per level, matching how the other schools’ catalogs list courses. About 65 distinct titles.',
+        text: 'Counted as level-qualified entries across the nine department tiles the school publishes on its own High School academics page — a title offered at CP, Honors and AP counts once per level, matching how the other schools’ catalogs list courses. The older 2026–27 High School Profile course matrix showed 80.',
       },
       'davidson-day': {
         kind: 'scope',
@@ -166,7 +166,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-christian': '21 AP', // the guide's own AP roster, corroborated by the admissions FAQ
       'charlotte-country-day': '23 AP + 18 IB', // plus the IB core (Theory of Knowledge, Extended Essay, CAS)
       'charlotte-latin': '22 AP subjects', // the school's stated figure; 23 AP-titled entries appear on the course page
-      'covenant-day': '15 AP', // the 2026-27 HS Profile matrix's AP column; earlier editions ran up to 18
+      'covenant-day': '17 AP', // AP-tagged courses on the /academics/high-school department tiles; the 2026-27 Profile matrix listed 15
       'carmel-christian': '16', // 16 AP courses (landing page; profile says 15, +AP World History → 16)
       'davidson-day': '26 AP', // the catalog's explicit AP list (p.11)
       'hickory-grove-christian': '17 AP', // school advertises 17 AP + AP Capstone; 2025-26 profile names 14, 2023-24 named 17
@@ -187,7 +187,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'covenant-day': {
         kind: 'scope',
-        text: '15 AP courses in the 2026–27 High School Profile course matrix. The school’s own earlier editions ran higher (up to 18 in 2024–25, when AP Calculus BC, Human Geography and French were offered) — the catalog flexes with enrollment, and the current profile overrides third-party counts of 15–21.',
+        text: '17 AP courses on the school’s own High School academics page, which lists AP Calculus BC and AP French that the older 2026–27 Profile course matrix (15) omitted. Both carry the school’s note that the offering may be impacted by student enrollment, so the catalog flexes year to year — earlier editions ran up to 18.',
       },
       'providence-day': {
         kind: 'scope',
@@ -209,7 +209,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-christian': '11', // counting Fine Arts as one department with four sub-areas
       'charlotte-country-day': '9', // 7 core academic plus Non-Departmental and Physical Education
       'charlotte-latin': '13', // department headings on the course-offerings page
-      'covenant-day': '9', // 8 matrix disciplines + Bible (3-unit grad requirement, no matrix row)
+      'covenant-day': '9', // the 9 department tiles on /academics/high-school, incl. Restoration & Sustainability and Other
       'carmel-christian': '9', // Bible, English, Math, Science, Social Studies, World Lang, Health & Fitness, Arts, Electives
       'davidson-day': '9', // per the catalog contents (pp. 4-6)
       'hickory-grove-christian': '8', // Bible, English, Math, Social Studies, Science, Foreign Language, Health/PE, Fine Arts

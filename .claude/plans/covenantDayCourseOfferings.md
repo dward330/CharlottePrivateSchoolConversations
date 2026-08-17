@@ -1,7 +1,7 @@
 ---
 name: covenantDayCourseOfferings
 title: Add Covenant Day's Lower and Middle School course offerings, and reconcile the High School list to the school's own academics pages
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-08-17
 branch: feat/covenant-day-course-offerings
