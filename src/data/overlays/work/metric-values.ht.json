@@ -61,6 +61,14 @@
       "t": "80"
     },
     {
+      "text": "~78",
+      "of": "2b92a7ae",
+      "at": [
+        "providence-day:[0].values.carmel-christian"
+      ],
+      "t": "~78"
+    },
+    {
       "text": "~75",
       "of": "2892a2f5",
       "at": [
@@ -107,6 +115,22 @@
         "providence-day:[0].quals.providence-day.text"
       ],
       "t": "Antre kou distenk, ak sekans lang plizyè ane konte yon fwa pou chak filyè olye yon fwa pou chak nivo."
+    },
+    {
+      "text": "High-school catalog only; the school publishes no named lower- or middle-school course lists. A subject taught at Standard, Honors and AP is counted as separate titles, matching how the school lists them.",
+      "of": "3fdfacc3",
+      "at": [
+        "providence-day:[0].quals.carmel-christian.text"
+      ],
+      "t": "Katalòg lekòl segondè sèlman; lekòl la pa pibliye okenn lis kou ki gen non pou lower oswa middle school. Yon matyè yo anseye nan nivo Standard, Honors ak AP konte kòm tit apa, sa ki matche ak fason lekòl la liste yo."
+    },
+    {
+      "text": "Not published: Hickory Grove Christian’s full course list renders only through a JavaScript course-selection guide with no static HTML or PDF, so a total course count is not publicly available. Its 17-course AP catalog (the next row) is the enumerable figure.",
+      "of": "3395a183",
+      "at": [
+        "providence-day:[0].quals.hickory-grove-christian.text"
+      ],
+      "t": "Pa pibliye: lis kou konplè Hickory Grove Christian la parèt sèlman atravè yon gid chwa kou JavaScript san okenn HTML estatik ni PDF, kidonk yon kantite total kou pa disponib piblikman. Katalòg AP 17 kou li a (liy ki vin apre a) se chif ou ka konte a."
     },
     {
       "text": "AP / advanced courses",
@@ -165,12 +189,28 @@
       "t": "15 AP"
     },
     {
+      "text": "16",
+      "of": "19eb271e",
+      "at": [
+        "providence-day:[1].values.carmel-christian"
+      ],
+      "t": "16"
+    },
+    {
       "text": "26 AP",
       "of": "475d503a",
       "at": [
         "providence-day:[1].values.davidson-day"
       ],
       "t": "26 AP"
+    },
+    {
+      "text": "17 AP",
+      "of": "89e7aec2",
+      "at": [
+        "providence-day:[1].values.hickory-grove-christian"
+      ],
+      "t": "17 AP"
     },
     {
       "text": "28 AP",
@@ -221,6 +261,14 @@
       "t": "28 kou AP dekri nan katalòg la, ki nan tèks li site 27 domèn matyè."
     },
     {
+      "text": "The school advertises 17 AP courses plus the AP Capstone (AP Seminar + AP Research). Its 2025–26 profile names 14 by title and its 2023–24 profile named 17, so which run in a given year varies; the 18-title union spans all named courses across profiles.",
+      "of": "6c7330bf",
+      "at": [
+        "providence-day:[1].quals.hickory-grove-christian.text"
+      ],
+      "t": "Lekòl la anonse 17 kou AP plis AP Capstone la (AP Seminar + AP Research). Pwofil 2025–26 li a nonmen 14 pa tit epi pwofil 2023–24 li a te nonmen 17, kidonk kilès ki fèt nan yon ane bay varye; inyon 18 tit la kouvri tout kou ki gen non atravè pwofil yo."
+    },
+    {
       "text": "Upper School departments",
       "of": "b7916ae2",
       "at": [
@@ -241,8 +289,11 @@
       "of": "3d0cb547",
       "at": [
         "providence-day:[2].values.cannon",
+        "providence-day:[2].values.hickory-grove-christian",
+        "providence-day:[9].values.carmel-christian",
         "providence-day:[24].values.charlotte-country-day",
         "providence-day:[24].values.covenant-day",
+        "providence-day:[24].values.hickory-grove-christian",
         "providence-day:[28].values.charlotte-christian"
       ],
       "t": "8"
@@ -262,6 +313,7 @@
       "at": [
         "providence-day:[2].values.charlotte-country-day",
         "providence-day:[2].values.covenant-day",
+        "providence-day:[2].values.carmel-christian",
         "providence-day:[2].values.davidson-day",
         "providence-day:[24].values.providence-day",
         "providence-day:[28].values.charlotte-country-day",
@@ -287,12 +339,12 @@
       "t": "AP ki fè 3+"
     },
     {
-      "text": "Share of AP exams scoring 3 or higher, most recent reported year. Charlotte Latin & Davidson Day do not publish a pass rate.",
-      "of": "abcf3feb",
+      "text": "Share of AP exams scoring 3 or higher, most recent reported year. Charlotte Latin, Davidson Day & Hickory Grove Christian do not publish a per-exam pass rate.",
+      "of": "80c172c9",
       "at": [
         "providence-day:[3].note"
       ],
-      "t": "Pòsyon egzamen AP ki fè 3 oswa plis, dènye ane ki rapòte a. Charlotte Latin ak Davidson Day pa pibliye yon to reyisit."
+      "t": "Pòsyon egzamen AP ki fè 3 oswa plis, dènye ane yo rapòte a. Charlotte Latin, Davidson Day ak Hickory Grove Christian pa pibliye yon to reyisit pa egzamen."
     },
     {
       "text": "92%",
@@ -325,6 +377,14 @@
         "providence-day:[3].values.covenant-day"
       ],
       "t": "96%"
+    },
+    {
+      "text": "73%",
+      "of": "2dc5384e",
+      "at": [
+        "providence-day:[3].values.carmel-christian"
+      ],
+      "t": "73%"
     },
     {
       "text": "94%",
@@ -375,6 +435,14 @@
       "t": "94% egzamen AP yo te jwenn 3 oswa plis nan Me 2025. Yon nòt 3+ se nivo pifò kolèj konsidere kòm yon rezilta ki pase."
     },
     {
+      "text": "Share of seniors scoring 3 or higher on at least one AP exam, from the AP School Honor Roll (Platinum). The year is not stated on the school’s article; its metadata places it at the 2023 exams.",
+      "of": "9aac7a39",
+      "at": [
+        "providence-day:[3].quals.carmel-christian.text"
+      ],
+      "t": "Pòsyon elèv dènye ane ki fè 3 oswa plis nan omwen yon egzamen AP, apati AP School Honor Roll la (Platinum). Ane a pa deklare nan atik lekòl la; metadone li mete l nan egzamen 2023 yo."
+    },
+    {
       "text": "Ivy League",
       "of": "2200187e",
       "at": [
@@ -423,6 +491,22 @@
         "providence-day:[4].values.charlotte-latin"
       ],
       "t": "5 / 8"
+    },
+    {
+      "text": "1 / 8",
+      "of": "84166ad1",
+      "at": [
+        "providence-day:[4].values.carmel-christian"
+      ],
+      "t": "1 / 8"
+    },
+    {
+      "text": "0 / 8",
+      "of": "ac83bdee",
+      "at": [
+        "providence-day:[4].values.hickory-grove-christian"
+      ],
+      "t": "0 / 8"
     },
     {
       "text": "8 / 8",
@@ -489,6 +573,22 @@
       "t": "8 nan 8 inivèsite Ivy League yo parèt sou lis akseptasyon Providence Day pibliye a, konpare ak tablo 2026 U.S. News yo — se pa yon chif lekòl la li menm rapòte."
     },
     {
+      "text": "One of the eight Ivy League universities (Princeton) appears on the school’s cumulative acceptance list.",
+      "of": "53a03d4c",
+      "at": [
+        "providence-day:[4].quals.carmel-christian.text"
+      ],
+      "t": "Youn nan uit inivèsite Ivy League yo (Princeton) parèt sou lis akseptasyon kimilatif lekòl la."
+    },
+    {
+      "text": "None of the 8 Ivy League universities appears on Hickory Grove Christian’s published 2023 + 2025 acceptance lists, matched against the 2026 U.S. News tables — not a figure the school reports itself.",
+      "of": "db21d1ea",
+      "at": [
+        "providence-day:[4].quals.hickory-grove-christian.text"
+      ],
+      "t": "Okenn nan 8 inivèsite Ivy League yo pa parèt sou lis akseptasyon 2023 + 2025 Hickory Grove Christian pibliye yo, konpare ak tablo 2026 U.S. News yo — se pa yon chif lekòl la li menm rapòte."
+    },
+    {
       "text": "“Ivy Plus”",
       "of": "c7790b24",
       "at": [
@@ -545,12 +645,28 @@
       "t": "3 / 17"
     },
     {
+      "text": "2 / 12",
+      "of": "b5bce023",
+      "at": [
+        "providence-day:[5].values.carmel-christian"
+      ],
+      "t": "2 / 12"
+    },
+    {
       "text": "8 / 17",
       "of": "50395612",
       "at": [
         "providence-day:[5].values.davidson-day"
       ],
       "t": "8 / 17"
+    },
+    {
+      "text": "0 / 17",
+      "of": "6c52937a",
+      "at": [
+        "providence-day:[5].values.hickory-grove-christian"
+      ],
+      "t": "0 / 17"
     },
     {
       "text": "17 / 17",
@@ -617,6 +733,22 @@
       "t": "17 nan 17 enstitisyon “Ivy Plus” yo parèt sou lis akseptasyon Providence Day pibliye a, konpare ak tablo 2026 U.S. News yo — se pa yon chif lekòl la li menm rapòte."
     },
     {
+      "text": "Two of the twelve “Ivy Plus” schools (Princeton, Duke) appear on the acceptance list.",
+      "of": "394d59b8",
+      "at": [
+        "providence-day:[5].quals.carmel-christian.text"
+      ],
+      "t": "De nan douz lekòl “Ivy Plus” yo (Princeton, Duke) parèt sou lis akseptasyon an."
+    },
+    {
+      "text": "None of the 17 “Ivy Plus” institutions appears on Hickory Grove Christian’s published 2023 + 2025 acceptance lists, matched against the 2026 U.S. News tables — not a figure the school reports itself.",
+      "of": "dd27d14f",
+      "at": [
+        "providence-day:[5].quals.hickory-grove-christian.text"
+      ],
+      "t": "Okenn nan 17 enstitisyon “Ivy Plus” yo pa parèt sou lis akseptasyon 2023 + 2025 Hickory Grove Christian pibliye yo, konpare ak tablo 2026 U.S. News yo — se pa yon chif lekòl la li menm rapòte."
+    },
+    {
       "text": "Top-75 National Universities",
       "of": "4fcd95b1",
       "at": [
@@ -674,12 +806,28 @@
       "t": "40 / 75"
     },
     {
+      "text": "~27",
+      "of": "b68b33ba",
+      "at": [
+        "providence-day:[6].values.carmel-christian"
+      ],
+      "t": "~27"
+    },
+    {
       "text": "44 / 75",
       "of": "478803e0",
       "at": [
         "providence-day:[6].values.davidson-day"
       ],
       "t": "44 / 75"
+    },
+    {
+      "text": "22 / 75",
+      "of": "ecf89430",
+      "at": [
+        "providence-day:[6].values.hickory-grove-christian"
+      ],
+      "t": "22 / 75"
     },
     {
       "text": "58 / 75",
@@ -746,6 +894,22 @@
       "t": "58 nan 75 pi bon National Universities yo parèt sou lis akseptasyon Providence Day pibliye a, konpare ak tablo 2026 U.S. News yo — se pa yon chif lekòl la li menm rapòte."
     },
     {
+      "text": "A count of US News Top-75 National Universities named on the school’s cumulative acceptance list, which states no year window. Several schools sit near the current-year ranking cut.",
+      "of": "82974820",
+      "at": [
+        "providence-day:[6].quals.carmel-christian.text"
+      ],
+      "t": "Yon kont US News Top-75 National Universities ki nonmen sou lis akseptasyon kimilatif lekòl la, ki pa deklare okenn fenèt ane. Plizyè lekòl chita toupre limit klasman ane aktyèl la."
+    },
+    {
+      "text": "22 of the top 75 National Universities appear across Hickory Grove Christian’s published 2023 + 2025 acceptance lists, matched against the 2026 U.S. News tables — not a figure the school reports itself.",
+      "of": "45407bc9",
+      "at": [
+        "providence-day:[6].quals.hickory-grove-christian.text"
+      ],
+      "t": "22 nan 75 pi bon National Universities yo parèt atravè lis akseptasyon 2023 + 2025 Hickory Grove Christian pibliye yo, konpare ak tablo 2026 U.S. News yo — se pa yon chif lekòl la li menm rapòte."
+    },
+    {
       "text": "Top-75 Liberal Arts",
       "of": "38effdb0",
       "at": [
@@ -789,9 +953,18 @@
       "text": "9 / 75",
       "of": "fff53af3",
       "at": [
-        "providence-day:[7].values.covenant-day"
+        "providence-day:[7].values.covenant-day",
+        "providence-day:[7].values.hickory-grove-christian"
       ],
       "t": "9 / 75"
+    },
+    {
+      "text": "~10",
+      "of": "1f838a40",
+      "at": [
+        "providence-day:[7].values.carmel-christian"
+      ],
+      "t": "~10"
     },
     {
       "text": "26 / 75",
@@ -866,6 +1039,22 @@
       "t": "43 nan 75 pi bon Liberal Arts Colleges yo parèt sou lis akseptasyon Providence Day pibliye a, konpare ak tablo 2026 U.S. News yo — se pa yon chif lekòl la li menm rapòte."
     },
     {
+      "text": "US News Top-75 Liberal Arts Colleges named on the cumulative acceptance list; a couple sit near the ranking cut.",
+      "of": "1aaa66bf",
+      "at": [
+        "providence-day:[7].quals.carmel-christian.text"
+      ],
+      "t": "US News Top-75 Liberal Arts Colleges ki nonmen sou lis akseptasyon kimilatif la; de nan yo chita toupre limit klasman an."
+    },
+    {
+      "text": "9 of the top 75 Liberal Arts Colleges appear across Hickory Grove Christian’s published 2023 + 2025 acceptance lists (incl. Bowdoin, Pomona, Claremont McKenna, Grinnell, Colgate, Washington & Lee), matched against the 2026 U.S. News tables.",
+      "of": "c9b0b9d9",
+      "at": [
+        "providence-day:[7].quals.hickory-grove-christian.text"
+      ],
+      "t": "9 nan 75 pi bon Liberal Arts Colleges yo parèt atravè lis akseptasyon 2023 + 2025 Hickory Grove Christian pibliye yo (ki enkli Bowdoin, Pomona, Claremont McKenna, Grinnell, Colgate, Washington & Lee), konpare ak tablo 2026 U.S. News yo."
+    },
+    {
       "text": "Power Four",
       "of": "b3297a32",
       "at": [
@@ -915,12 +1104,28 @@
       "t": "46 / 68"
     },
     {
+      "text": "~38 / 68",
+      "of": "897f0e9f",
+      "at": [
+        "providence-day:[8].values.carmel-christian"
+      ],
+      "t": "~38 / 68"
+    },
+    {
       "text": "42 / 68",
       "of": "a1f5c978",
       "at": [
         "providence-day:[8].values.davidson-day"
       ],
       "t": "42 / 68"
+    },
+    {
+      "text": "24 / 68",
+      "of": "1f2aff48",
+      "at": [
+        "providence-day:[8].values.hickory-grove-christian"
+      ],
+      "t": "24 / 68"
     },
     {
       "text": "57 / 68",
@@ -987,6 +1192,22 @@
       "t": "57 nan 68 inivèsite Power Four yo (ACC, Big Ten, Big 12, SEC, plis Notre Dame) parèt sou lis akseptasyon Providence Day pibliye a, konpare ak tablo 2026 U.S. News yo — se pa yon chif lekòl la li menm rapòte."
     },
     {
+      "text": "Power Four members (of 68, including Notre Dame) named on the cumulative acceptance list. The list states no year window and marks no matriculations.",
+      "of": "2f109512",
+      "at": [
+        "providence-day:[8].quals.carmel-christian.text"
+      ],
+      "t": "Manm Power Four (nan 68, ki gen ladan Notre Dame) ki nonmen sou lis akseptasyon kimilatif la. Lis la pa deklare okenn fenèt ane epi li pa make okenn enskripsyon."
+    },
+    {
+      "text": "24 of the 68 Power Four universities appear across Hickory Grove Christian’s published 2023 + 2025 acceptance lists (UConn is Big East, not Power Four, so it is excluded). Not a figure the school reports itself.",
+      "of": "0ac96ff3",
+      "at": [
+        "providence-day:[8].quals.hickory-grove-christian.text"
+      ],
+      "t": "24 nan 68 inivèsite Power Four yo parèt atravè lis akseptasyon 2023 + 2025 Hickory Grove Christian pibliye yo (UConn se Big East, se pa Power Four, kidonk li eskli). Se pa yon chif lekòl la li menm rapòte."
+    },
+    {
       "text": "HBCUs",
       "of": "d6316d90",
       "at": [
@@ -1042,6 +1263,14 @@
         "providence-day:[9].values.davidson-day"
       ],
       "t": "3 / 107"
+    },
+    {
+      "text": "20 / 107",
+      "of": "23377734",
+      "at": [
+        "providence-day:[9].values.hickory-grove-christian"
+      ],
+      "t": "20 / 107"
     },
     {
       "text": "14 / 107",
@@ -1106,6 +1335,22 @@
         "providence-day:[9].quals.providence-day.text"
       ],
       "t": "14 nan 107 Historically Black Colleges & Universities yo parèt sou lis akseptasyon Providence Day pibliye a, konpare ak tablo 2026 U.S. News yo — se pa yon chif lekòl la li menm rapòte."
+    },
+    {
+      "text": "Historically Black colleges and universities named on the acceptance list.",
+      "of": "c7e59bc6",
+      "at": [
+        "providence-day:[9].quals.carmel-christian.text"
+      ],
+      "t": "Kolèj ak inivèsite istorikman nwa ki nonmen sou lis akseptasyon an."
+    },
+    {
+      "text": "20 of the 107 Historically Black Colleges & Universities appear across Hickory Grove Christian’s published 2023 + 2025 acceptance lists (incl. Howard, Hampton, Morehouse, NC A&T, Florida A&M, Fisk) — a notably deep HBCU pipeline.",
+      "of": "31d4d033",
+      "at": [
+        "providence-day:[9].quals.hickory-grove-christian.text"
+      ],
+      "t": "20 nan 107 Historically Black Colleges & Universities yo parèt atravè lis akseptasyon 2023 + 2025 Hickory Grove Christian pibliye yo (ki enkli Howard, Hampton, Morehouse, NC A&T, Florida A&M, Fisk) — yon rezo HBCU ki remakabman pwofon."
     },
     {
       "text": "Seniors per counselor",
@@ -1292,12 +1537,28 @@
       "t": "$22,790"
     },
     {
+      "text": "$18,750",
+      "of": "984cd4da",
+      "at": [
+        "providence-day:[11].values.carmel-christian"
+      ],
+      "t": "$18,750"
+    },
+    {
       "text": "$26,910",
       "of": "d7e28b59",
       "at": [
         "providence-day:[11].values.davidson-day"
       ],
       "t": "$26,910"
+    },
+    {
+      "text": "$13,750",
+      "of": "fc371887",
+      "at": [
+        "providence-day:[11].values.hickory-grove-christian"
+      ],
+      "t": "$13,750"
     },
     {
       "text": "$36,325",
@@ -1316,6 +1577,14 @@
       "t": "Sa a se ekolaj Klas 6–12 pou 2026–27. Bann pi wo Providence Day a kouvri Klas 6–12, konsa li kouvri yon etandi klas pi laj pase chif 9–12 ki akote l yo."
     },
     {
+      "text": "The Grades 9–12 band ($13,750). The school’s tuition page renders through a portal widget, so this current figure is confirmed across two third-party mirrors rather than lifted from a school PDF; the exact school year is not stated.",
+      "of": "a3a396b5",
+      "at": [
+        "providence-day:[11].quals.hickory-grove-christian.text"
+      ],
+      "t": "Bann Grad 9–12 la ($13,750). Paj frè eskolè lekòl la afiche atravè yon widget pòtal, kidonk chif aktyèl sa a konfime atravè de mirwa twazyèm pati olye ke leve nan yon PDF lekòl la; ane eskolè egzak la pa deklare."
+    },
+    {
       "text": "% receiving aid",
       "of": "dcbef77c",
       "at": [
@@ -1324,12 +1593,12 @@
       "t": "% k ap resevwa èd"
     },
     {
-      "text": "Share of students/families receiving aid as the school states it. “~” where the school says “approximately”; year/denominator vary — see the school’s report. Charlotte Christian & Davidson Day do not publish this.",
-      "of": "aeb0b11c",
+      "text": "Share of students/families receiving aid as the school states it. “~” where the school says “approximately”; year/denominator vary — see the school’s report. Charlotte Christian, Davidson Day & Hickory Grove Christian do not publish this.",
+      "of": "c53ce403",
       "at": [
         "providence-day:[12].note"
       ],
-      "t": "Pòsyon elèv/fanmi k ap resevwa èd jan lekòl la di l la. “~” kote lekòl la di “apeprè”; ane a ak baz kalkil la varye — gade rapò lekòl la. Charlotte Christian ak Davidson Day pa pibliye sa."
+      "t": "Pòsyon elèv/fanmi k ap resevwa èd jan lekòl la di l la. “~” kote lekòl la di “apeprè”; ane/denominatè varye — gade rapò lekòl la. Charlotte Christian, Davidson Day ak Hickory Grove Christian pa pibliye sa."
     },
     {
       "text": "24%",
@@ -1355,6 +1624,14 @@
         "providence-day:[12].values.charlotte-latin"
       ],
       "t": "14%"
+    },
+    {
+      "text": "20%",
+      "of": "cee768ae",
+      "at": [
+        "providence-day:[12].values.carmel-christian"
+      ],
+      "t": "20%"
     },
     {
       "text": "~21%",
@@ -1555,9 +1832,18 @@
       "of": "0ebb0ed6",
       "at": [
         "providence-day:[15].values.charlotte-latin",
+        "providence-day:[15].values.hickory-grove-christian",
         "providence-day:[15].values.providence-day"
       ],
       "t": "TK–12"
+    },
+    {
+      "text": "K–12",
+      "of": "e0278c04",
+      "at": [
+        "providence-day:[15].values.carmel-christian"
+      ],
+      "t": "K–12"
     },
     {
       "text": "Age 2–Gr 12",
@@ -1608,6 +1894,22 @@
         "providence-day:[15].quals.davidson-day.text"
       ],
       "t": "Atistik ale depi laj 2 an rive nan klas 12 — etandi ki pi laj pami lekòl sa yo, ki desann rive nan premye ane laptit anfans yo."
+    },
+    {
+      "text": "Arts run K–12: integrated music and art in grades K–4, becoming sequential and elective from grade 5 up.",
+      "of": "f67b4480",
+      "at": [
+        "providence-day:[15].quals.carmel-christian.text"
+      ],
+      "t": "Atizay ale K–12: mizik ak atizay entegre nan klas K–4, k ap vin sekansyèl ak elektif apati klas 5 monte."
+    },
+    {
+      "text": "Arts are offered from Transitional Kindergarten (TK) through grade 12 — visual art and general music in the early grades, widening into band, choir, theatre and a leveled studio track by high school.",
+      "of": "6d8aaff6",
+      "at": [
+        "providence-day:[15].quals.hickory-grove-christian.text"
+      ],
+      "t": "Yo ofri atizay depi Transitional Kindergarten (TK) rive nan klas 12 — atizay vizyèl ak mizik jeneral nan premye klas yo, k ap elaji nan band, choir, teyat ak yon pist estidyo ak nivo lè yo rive nan lekòl segondè."
     },
     {
       "text": "Signature recognition",
@@ -1666,6 +1968,22 @@
       "t": "2 viktwa Blumey"
     },
     {
+      "text": "2026 Blumey — Best Actress",
+      "of": "381ce8f4",
+      "at": [
+        "providence-day:[16].values.carmel-christian"
+      ],
+      "t": "Blumey 2026 — Best Actress"
+    },
+    {
+      "text": "2025–26 Blumey noms",
+      "of": "5a21c3aa",
+      "at": [
+        "providence-day:[16].values.hickory-grove-christian"
+      ],
+      "t": "Nominasyon Blumey 2025–26"
+    },
+    {
       "text": "Blumey recognition",
       "of": "cc199a5c",
       "at": [
@@ -1722,6 +2040,22 @@
       "t": "Rekonesans repete nan Blumey Awards yo, prim teyat mizikal lekòl segondè rejyon Charlotte a."
     },
     {
+      "text": "The 2026 Blumey Award for Best Actress — Anna Jernigan, for Footloose. The winner advances to the national Jimmy Awards.",
+      "of": "e3a50509",
+      "at": [
+        "providence-day:[16].quals.carmel-christian.text"
+      ],
+      "t": "Blumey Award 2026 pou Best Actress — Anna Jernigan, pou Footloose. Moun ki genyen an avanse nan Jimmy Awards nasyonal yo."
+    },
+    {
+      "text": "Blumey Award nominees and finalists in back-to-back seasons — Seussical (2025) and Disney’s The Little Mermaid (2026), with Amara Aghedo and Christian Young recurring. No outright win is published. The Blumeys are the Charlotte region’s high-school musical-theatre awards.",
+      "of": "b5035838",
+      "at": [
+        "providence-day:[16].quals.hickory-grove-christian.text"
+      ],
+      "t": "Moun ki gen nominasyon ak finalis Blumey Award nan de sezon youn dèyè lòt — Seussical (2025) ak Disney’s The Little Mermaid (2026), ak Amara Aghedo ak Christian Young ki repete. Pa gen okenn viktwa nèt ki pibliye. Blumeys yo se prim teyat-mizikal lekòl segondè rejyon Charlotte la."
+    },
+    {
       "text": "Advanced coursework",
       "of": "a79c3149",
       "at": [
@@ -1753,6 +2087,27 @@
         "providence-day:[17].values.charlotte-country-day"
       ],
       "t": "AP + IB"
+    },
+    {
+      "text": "3",
+      "of": "360caa42",
+      "at": [
+        "providence-day:[17].values.carmel-christian",
+        "providence-day:[18].values.carmel-christian",
+        "providence-day:[28].values.charlotte-latin",
+        "providence-day:[28].values.davidson-day",
+        "providence-day:[29].values.cannon",
+        "providence-day:[29].values.hickory-grove-christian"
+      ],
+      "t": "3"
+    },
+    {
+      "text": "AP Studio Art 2D",
+      "of": "dafc312f",
+      "at": [
+        "providence-day:[17].values.hickory-grove-christian"
+      ],
+      "t": "AP Studio Art 2D"
     },
     {
       "text": "3 AP arts",
@@ -1793,6 +2148,14 @@
         "providence-day:[17].quals.providence-day.text"
       ],
       "t": "Twa kou atistik AP: AP Studio Art, AP Art History, ak AP Music Theory."
+    },
+    {
+      "text": "The advanced arts course the school names is AP Studio Art 2D (AP 2-D Art & Design), atop the Art I–IV studio sequence; students \"consistently score 3 or 4.\"",
+      "of": "c9894b1e",
+      "at": [
+        "providence-day:[17].quals.hickory-grove-christian.text"
+      ],
+      "t": "Kou atizay avanse lekòl la nonmen an se AP Studio Art 2D (AP 2-D Art & Design), anlè sekans estidyo Art I–IV la; elèv yo \"consistently score 3 or 4.\""
     },
     {
       "text": "Ensembles / offerings",
@@ -1843,6 +2206,14 @@
       "t": "9 ansanm"
     },
     {
+      "text": "3 ensembles",
+      "of": "6d5a020e",
+      "at": [
+        "providence-day:[18].values.hickory-grove-christian"
+      ],
+      "t": "3 ansanm"
+    },
+    {
       "text": "4 ensembles",
       "of": "ddc02b07",
       "at": [
@@ -1889,6 +2260,14 @@
         "providence-day:[18].quals.providence-day.text"
       ],
       "t": "Kat ansanm pèfòmans: Band, Orchestra, Chorus, ak Jazz."
+    },
+    {
+      "text": "Three named high-school ensembles — Concert Band, Jazz Band and Choir. No orchestra is offered at any level.",
+      "of": "1290bb44",
+      "at": [
+        "providence-day:[18].quals.hickory-grove-christian.text"
+      ],
+      "t": "Twa ansanm lekòl segondè ki gen non — Concert Band, Jazz Band ak Choir. Yo pa ofri okenn òkès nan okenn nivo."
     },
     {
       "text": "Upper School student organizations",
@@ -1948,12 +2327,28 @@
       "t": "≥14"
     },
     {
+      "text": "~5",
+      "of": "885dbb3c",
+      "at": [
+        "providence-day:[19].values.carmel-christian"
+      ],
+      "t": "~5"
+    },
+    {
       "text": "≥9",
       "of": "e05ccd9b",
       "at": [
         "providence-day:[19].values.davidson-day"
       ],
       "t": "≥9"
+    },
+    {
+      "text": "27",
+      "of": "8af294c6",
+      "at": [
+        "providence-day:[19].values.hickory-grove-christian"
+      ],
+      "t": "27"
     },
     {
       "text": "77",
@@ -2012,6 +2407,22 @@
       "t": "Pran nan lis klib Upper School ofisyèl 2025–26 lekòl la, ak 5 klib atistik eskli pou yon dekont pwòp — pi bon seri a nan ansanm nan."
     },
     {
+      "text": "Standing high-school student organizations: National Honor Society, National Beta Club, Spanish Honor Society, Student Council, and the Timothy Project. Clubs are otherwise student-initiated by application, so no fixed roster is published.",
+      "of": "64db848f",
+      "at": [
+        "providence-day:[19].quals.carmel-christian.text"
+      ],
+      "t": "Òganizasyon elèv lekòl segondè pèmanan: National Honor Society, National Beta Club, Spanish Honor Society, Student Council, ak Timothy Project la. Apa de sa, se elèv yo ki inisye klib yo pa aplikasyon, kidonk pa gen okenn lis fiks ki pibliye."
+    },
+    {
+      "text": "27 non-sports organizations (18 clubs/organizations + 9 arts/music) from a single aggregator (PrivateSchoolReview) — the school's own site has no clubs page, so this is a single-source count. Five are honor societies; a subset (Choir, Drama, Jazz Band, Discipleship) is corroborated on the school site.",
+      "of": "60c9c31d",
+      "at": [
+        "providence-day:[19].quals.hickory-grove-christian.text"
+      ],
+      "t": "27 òganizasyon ki pa espò (18 klib/òganizasyon + 9 atizay/mizik) ki soti nan yon sèl agregatè (PrivateSchoolReview) — pwòp sit lekòl la pa gen paj klib, kidonk sa a se yon kont ak yon sèl sous. Senk se sosyete onè; sit lekòl la konfime yon pati ladan (Choir, Drama, Jazz Band, Discipleship)."
+    },
+    {
       "text": "Flagship result",
       "of": "472b065e",
       "at": [
@@ -2066,6 +2477,14 @@
         "providence-day:[20].values.covenant-day"
       ],
       "t": "Mock Trial atizay 2yèm NC"
+    },
+    {
+      "text": "2022 NCISAA 4A basketball title",
+      "of": "643bd5bc",
+      "at": [
+        "providence-day:[20].values.carmel-christian"
+      ],
+      "t": "Tit basketball NCISAA 4A 2022"
     },
     {
       "text": "Battle of Books 1st",
@@ -2138,6 +2557,14 @@
         "providence-day:[20].quals.providence-day.text"
       ],
       "t": "Ekip biznis DECA a te avanse nan International Career Development Conference (ICDC) nasyonal la nan 2026."
+    },
+    {
+      "text": "The 2022 NCISAA 4A boys basketball state title (def. Greensboro Day 71–66; Cade Tyson scored 31). The girls soccer team reached the 2026 4A final as runner-up.",
+      "of": "c4b526ed",
+      "at": [
+        "providence-day:[20].quals.carmel-christian.text"
+      ],
+      "t": "Tit eta basketball gason NCISAA 4A 2022 la (bat Greensboro Day 71–66; Cade Tyson te fè 31). Ekip soccer fi a te rive nan final 4A 2026 la kòm dezyèm plas."
     },
     {
       "text": "Participation signal",
@@ -2242,10 +2669,19 @@
         "providence-day:[22].values.charlotte-country-day",
         "providence-day:[22].values.charlotte-latin",
         "providence-day:[22].values.covenant-day",
+        "providence-day:[22].values.carmel-christian",
         "providence-day:[22].values.davidson-day",
         "providence-day:[22].values.cannon"
       ],
       "t": "6:00 PM"
+    },
+    {
+      "text": "5:30 PM",
+      "of": "ce6d8030",
+      "at": [
+        "providence-day:[22].values.hickory-grove-christian"
+      ],
+      "t": "5:30 PM"
     },
     {
       "text": "The JrK–8 After School Program runs 3:00–6:00 p.m. on regular days. On early-dismissal days it runs 11:45 a.m.–4:00 p.m., ending two hours earlier than the 6:00 shown here.",
@@ -2294,6 +2730,22 @@
         "providence-day:[22].quals.davidson-day.text"
       ],
       "t": "Extended Care Lower School la ale 2:45–6:00 p.m. Konfime lè aktyèl yo ak lekòl la."
+    },
+    {
+      "text": "After School / After YCC care runs 3:00–6:00 PM; 6:00 PM is the latest published pickup.",
+      "of": "29662437",
+      "at": [
+        "providence-day:[22].quals.carmel-christian.text"
+      ],
+      "t": "Swen After School / After YCC ale 3:00–6:00 PM; 6:00 PM se dènye lè pou vin chèche ki pibliye."
+    },
+    {
+      "text": "The Afterschool program (TK–5) and Study Hall (grades 6–11) share one 2:30–5:30 p.m. window, so 5:30 p.m. is the latest pickup — earlier than the 6:00 p.m. the other schools offer.",
+      "of": "7c44cd2b",
+      "at": [
+        "providence-day:[22].quals.hickory-grove-christian.text"
+      ],
+      "t": "Pwogram Afterschool la (TK–5) ak Study Hall la (grad 6–11) pataje yon sèl fenèt 2:30–5:30 p.m., kidonk 5:30 p.m. se dènye lè pou vin chèche timoun nan — pi bonè pase 6:00 p.m. lòt lekòl yo ofri a."
     },
     {
       "text": "Cost of after-school care",
@@ -2352,6 +2804,14 @@
       "t": "$744/mwa"
     },
     {
+      "text": "$245/mo",
+      "of": "fca2b9dd",
+      "at": [
+        "providence-day:[23].values.carmel-christian"
+      ],
+      "t": "$245/mwa"
+    },
+    {
       "text": "$750/mo",
       "of": "d147bcce",
       "at": [
@@ -2398,6 +2858,14 @@
         "providence-day:[23].subs.covenant-day"
       ],
       "t": "$6,696/an"
+    },
+    {
+      "text": "≈$2,205/yr",
+      "of": "9ebecfe2",
+      "at": [
+        "providence-day:[23].subs.carmel-christian"
+      ],
+      "t": "≈$2,205/ane"
     },
     {
       "text": "≈$7,500/yr",
@@ -2448,6 +2916,14 @@
       "t": "Covenant Day mete pri pa sesyon 1.5 èdtan ($248/mwa pou senk jou pa semèn): yon timoun JK/K yo lage 1:30 p.m. bezwen tou lè twa sesyon yo pou rive 6:00, sa vle di $744/mwa. Chif anyèl la se tab \"for 10 Months\" lekòl la li menm ($6,696), pi bon mache pase 10× to mansyèl la paske Out ak Desanm faktire a mwatye. Grad 1–8 lage anviwon 3:00 epi bezwen sèlman de sesyon ($496/mwa); gadri anvan lekòl apati 7:30 a.m. gratis."
     },
     {
+      "text": "Carmel Christian publishes one flat After School / After YCC rate — $245/month for five days a week, 3:00–6:00 p.m. — the same for every grade, unlike the tiered-by-grade schools beside it. The yearly total spreads it over the nine billing months the handbook states; before-care from 7:30 a.m. is $110/month, and there is a $30/day drop-in.",
+      "of": "cf0e9d8e",
+      "at": [
+        "providence-day:[23].quals.carmel-christian.text"
+      ],
+      "t": "Carmel Christian pibliye yon sèl to fiks After School / After YCC — $245/mwa pou senk jou pa semèn, 3:00–6:00 p.m. — menm bagay pou chak klas, kontrèman ak lekòl ki gen palye pa klas ki bò kote l yo. Total anyèl la separe l sou nèf mwa faktirasyon handbook la deklare; swen anvan lekòl apati 7:30 a.m. se $110/mwa, epi gen yon opsyon san randevou $30/jou."
+    },
+    {
       "text": "Transitional Kindergarten at the 1–6 p.m. tier, five days a week, billed monthly at $750; the yearly total assumes 10 months, and the school states outright that its number of billing months is not published. TK dismisses at 1:00 p.m., so this covers 5 hours a day; Grades 1–5 at 3–6 p.m. is $470/mo, and there is no drop-in option.",
       "of": "16104bd6",
       "at": [
@@ -2484,7 +2960,8 @@
       "text": "6",
       "of": "330ca589",
       "at": [
-        "providence-day:[24].values.charlotte-christian"
+        "providence-day:[24].values.charlotte-christian",
+        "providence-day:[24].values.carmel-christian"
       ],
       "t": "6"
     },
@@ -2495,6 +2972,14 @@
         "providence-day:[24].quals.charlotte-country-day.text"
       ],
       "t": "Uit semèn, ansanm ak semèn “Pre-Camp” 1-5 jen an, ki gen 9 kan ki gen pri. Paj ete lekòl la li menm prezante sezon an kòm sèt semèn ki kòmanse 8 jen."
+    },
+    {
+      "text": "The live 2026 page shows eight session windows (Jun–Jul), consistent with the ~8 week-blocks of the Summer 2023 catalog recovered from the Internet Archive; the exact 2026 camp names are hidden behind the school's registration platform.",
+      "of": "952a5232",
+      "at": [
+        "providence-day:[24].quals.hickory-grove-christian.text"
+      ],
+      "t": "Paj 2026 an dirèk la montre uit fenèt sesyon (Jen–Jiyè), ki dakò ak ~8 blòk semèn katalòg Summer 2023 la yo rekipere nan Internet Archive; non egzak kan 2026 yo kache dèyè platfòm enskripsyon lekòl la."
     },
     {
       "text": "Six weeks, but not consecutive: the school takes a two-week break around July 4 (June 29 – July 3 has no camps).",
@@ -2569,6 +3054,23 @@
       "t": "20"
     },
     {
+      "text": "36",
+      "of": "89f0549c",
+      "at": [
+        "providence-day:[25].values.carmel-christian"
+      ],
+      "t": "36"
+    },
+    {
+      "text": "17",
+      "of": "1aeb28b1",
+      "at": [
+        "providence-day:[25].values.hickory-grove-christian",
+        "providence-day:[28].values.providence-day"
+      ],
+      "t": "17"
+    },
+    {
       "text": "170",
       "of": "e130c313",
       "at": [
@@ -2583,6 +3085,14 @@
         "providence-day:[25].quals.cannon.text"
       ],
       "t": "251 òf kan-semèn sou sèt semèn, ki reprezante anviwon 180 tit kan diferan. Konte apati bwochi 2026 lekòl la li menm ki gen 80 paj."
+    },
+    {
+      "text": "17 named camps in the Summer 2023 catalog — 12 academic/enrichment and 5 athletic — recovered from the Internet Archive because the live 2026 catalog is hidden behind the school's registration platform. A representative slate, not the exact 2026 list.",
+      "of": "e5176267",
+      "at": [
+        "providence-day:[25].quals.hickory-grove-christian.text"
+      ],
+      "t": "17 kan ki gen non nan katalòg Summer 2023 la — 12 akademik/anrichisman ak 5 atletik — rekipere nan Internet Archive paske katalòg 2026 an dirèk la kache dèyè platfòm enskripsyon lekòl la. Yon seri reprezantatif, se pa lis 2026 egzak la."
     },
     {
       "text": "232 offerings across seven sessions, from 169 unique camp titles — a camp running in three sessions is counted three times.",
@@ -2675,6 +3185,22 @@
       "t": "3.5–18"
     },
     {
+      "text": "rising K–8",
+      "of": "d534a63d",
+      "at": [
+        "providence-day:[26].values.carmel-christian"
+      ],
+      "t": "rising K–8"
+    },
+    {
+      "text": "rising 1–8",
+      "of": "cbc3c1d3",
+      "at": [
+        "providence-day:[26].values.hickory-grove-christian"
+      ],
+      "t": "rising 1–8"
+    },
+    {
       "text": "The school states camps are \"open to all campers ages 3.5 - 18 years old\". Age is calculated as of August 1, 2026, and all Pre-K campers must be toilet trained.",
       "of": "e3070636",
       "at": [
@@ -2723,6 +3249,22 @@
       "t": "Grad yo se grad k ap monte pou ane eskolè k ap vini an, depi Little Lion/Cub Camp anba a jiska kan fòs-ak-kondisyone lekòl segondè ak kan admisyon inivèsite. Kan yo louvri pou kominote a."
     },
     {
+      "text": "Summer Adventures serves rising kindergarten through rising 8th grade; individual camps carry narrower bands.",
+      "of": "a35bbc86",
+      "at": [
+        "providence-day:[26].quals.carmel-christian.text"
+      ],
+      "t": "Summer Adventures sèvi depi rising kindergarten rive rising 8yèm klas; kan endividyèl yo pote bann pi etwat."
+    },
+    {
+      "text": "The great majority of camps serve rising 1st–8th graders, plus one high-school camp (a College Admissions Boot Camp for rising juniors and seniors). From the Summer 2023 catalog, recovered from the Internet Archive.",
+      "of": "cdadf459",
+      "at": [
+        "providence-day:[26].quals.hickory-grove-christian.text"
+      ],
+      "t": "Gwo majorite kan yo sèvi elèv rising 1ye–8yèm klas, plis yon kan lekòl segondè (yon College Admissions Boot Camp pou elèv rising twazyèm ak dènye ane). Apati katalòg Summer 2023 la, rekipere nan Internet Archive."
+    },
+    {
       "text": "Wrap-around care",
       "of": "2459c4c2",
       "at": [
@@ -2763,6 +3305,14 @@
         "providence-day:[27].values.charlotte-country-day"
       ],
       "t": "7:30 AM–5:00 PM"
+    },
+    {
+      "text": "12–1 PM",
+      "of": "f9a26929",
+      "at": [
+        "providence-day:[27].values.carmel-christian"
+      ],
+      "t": "12–1 PM"
     },
     {
       "text": "7:00 AM–6:00 PM",
@@ -2821,6 +3371,14 @@
       "t": "Yon dire dis èdtan pou TK–8: Before Care 7:30–8:45 am a $50/semèn ak After Care 4:00–5:30 pm a $50/semèn, ak Lunch Care $30/semèn ki fè pon ant midi–1 pm. Camp Lion (Full Day) ak Cub Camp gen ladan tou le twa san okenn frè anplis."
     },
     {
+      "text": "Wrap-around care is limited to the 12–1 PM After Camp Lunch Hour add-on; no before-camp or full-day care is published.",
+      "of": "a8a24ad5",
+      "at": [
+        "providence-day:[27].quals.carmel-christian.text"
+      ],
+      "t": "Swen pwolonje a limite ak sèvis anplis After Camp Lunch Hour 12–1 PM la; pa gen okenn swen anvan kan ni tout lajounen ki pibliye."
+    },
+    {
       "text": "Power 4 commits",
       "of": "1f2f8490",
       "at": [
@@ -2846,22 +3404,13 @@
       "t": "1"
     },
     {
-      "text": "3",
-      "of": "360caa42",
+      "text": "0",
+      "of": "350ca8af",
       "at": [
-        "providence-day:[28].values.charlotte-latin",
-        "providence-day:[28].values.davidson-day",
-        "providence-day:[29].values.cannon"
+        "providence-day:[28].values.carmel-christian",
+        "providence-day:[28].values.hickory-grove-christian"
       ],
-      "t": "3"
-    },
-    {
-      "text": "17",
-      "of": "1aeb28b1",
-      "at": [
-        "providence-day:[28].values.providence-day"
-      ],
-      "t": "17"
+      "t": "0"
     },
     {
       "text": "A documented minimum. Several of Cannon’s best-known athletes committed outside the 2024–26 window and so are not counted here.",
@@ -2940,6 +3489,14 @@
       "t": "14"
     },
     {
+      "text": "5",
+      "of": "300ca0d0",
+      "at": [
+        "providence-day:[29].values.carmel-christian"
+      ],
+      "t": "5"
+    },
+    {
       "text": "39",
       "of": "90f05fa1",
       "at": [
@@ -2954,6 +3511,14 @@
         "providence-day:[29].quals.covenant-day.text"
       ],
       "t": "Yon minimòm dokimante ki soti nan atik siyati lekòl la li menm: Eaton ak Marcus (’24), Huitt, Dirks, Gardner ak Stanley (’25), Neil, Welsh ak Houseton (’26). Atik Class of 2024 la sèlman ka rekipere an pati, kidonk planche a ka ba."
+    },
+    {
+      "text": "A documented minimum — all three are baseball: Davis Cabbage (UNC Wilmington) and Ben Green (UNC Asheville) in the Class of 2025, plus Brady Johnson (ETSU). All are mid-major D1; no Power 4 and no other-sport commit surfaced, and the school publishes no all-sport list.",
+      "of": "fdfe26b8",
+      "at": [
+        "providence-day:[29].quals.hickory-grove-christian.text"
+      ],
+      "t": "Yon minimòm dokimante — tou twa se baseball: Davis Cabbage (UNC Wilmington) ak Ben Green (UNC Asheville) nan Class of 2025, plis Brady Johnson (ETSU). Tout se D1 mid-major; pa gen okenn Power 4 ni okenn angajman nan yon lòt espò ki parèt, epi lekòl la pa pibliye okenn lis pou tout espò."
     }
   ]
 }

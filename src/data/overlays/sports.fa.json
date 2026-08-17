@@ -32,14 +32,16 @@
         "charlotte-country-day:offered.stats[1].label",
         "cannon:offered.stats[1].label",
         "davidson-day:offered.stats[1].label",
-        "carmel-christian:offered.stats[1].label"
+        "carmel-christian:offered.stats[1].label",
+        "hickory-grove-christian:offered.stats[0].label"
       ]
     },
     {
       "t": "پایه‌های واجد شرایط رقابت",
       "of": "a84454be",
       "at": [
-        "providence-day:offered.stats[2].label"
+        "providence-day:offered.stats[2].label",
+        "hickory-grove-christian:offered.stats[2].label"
       ]
     },
     {
@@ -61,7 +63,8 @@
         "cannon:offered.seasons[0].name",
         "covenant-day:offered.seasons[0].name",
         "davidson-day:offered.seasons[0].name",
-        "carmel-christian:offered.seasons[0].name"
+        "carmel-christian:offered.seasons[0].name",
+        "hickory-grove-christian:offered.seasons[0].name"
       ]
     },
     {
@@ -86,7 +89,8 @@
         "cannon:offered.seasons[1].name",
         "covenant-day:offered.seasons[1].name",
         "davidson-day:offered.seasons[1].name",
-        "carmel-christian:offered.seasons[1].name"
+        "carmel-christian:offered.seasons[1].name",
+        "hickory-grove-christian:offered.seasons[1].name"
       ]
     },
     {
@@ -100,7 +104,8 @@
         "cannon:offered.seasons[2].name",
         "covenant-day:offered.seasons[2].name",
         "davidson-day:offered.seasons[2].name",
-        "carmel-christian:offered.seasons[2].name"
+        "carmel-christian:offered.seasons[2].name",
+        "hickory-grove-christian:offered.seasons[2].name"
       ]
     },
     {
@@ -175,7 +180,10 @@
         "davidson-day:record.rows[4].cells[0].result",
         "carmel-christian:record.rows[0].cells[0].result",
         "carmel-christian:record.rows[0].cells[1].result",
-        "carmel-christian:record.rows[1].cells[0].result"
+        "carmel-christian:record.rows[1].cells[0].result",
+        "hickory-grove-christian:record.rows[0].cells[0].result",
+        "hickory-grove-christian:record.rows[0].cells[1].result",
+        "hickory-grove-christian:record.rows[1].cells[2].result"
       ]
     },
     {
@@ -201,7 +209,8 @@
         "davidson-day:record.rows[1].cells[2].result",
         "carmel-christian:record.rows[0].cells[2].result",
         "carmel-christian:record.rows[1].cells[1].result",
-        "carmel-christian:record.rows[2].cells[2].result"
+        "carmel-christian:record.rows[2].cells[2].result",
+        "hickory-grove-christian:record.rows[0].cells[2].result"
       ]
     },
     {
@@ -280,7 +289,12 @@
         "davidson-day:record.rows[6].cells[2].result",
         "carmel-christian:record.rows[1].cells[2].result",
         "carmel-christian:record.rows[2].cells[0].result",
-        "carmel-christian:record.rows[2].cells[1].result"
+        "carmel-christian:record.rows[2].cells[1].result",
+        "hickory-grove-christian:record.rows[1].cells[0].result",
+        "hickory-grove-christian:record.rows[1].cells[1].result",
+        "hickory-grove-christian:record.rows[2].cells[0].result",
+        "hickory-grove-christian:record.rows[2].cells[1].result",
+        "hickory-grove-christian:record.rows[2].cells[2].result"
       ]
     },
     {
@@ -388,7 +402,8 @@
         "cannon:pipeline.funnel[0].label",
         "covenant-day:pipeline.funnel[0].label",
         "davidson-day:pipeline.funnel[0].label",
-        "carmel-christian:pipeline.funnel[0].label"
+        "carmel-christian:pipeline.funnel[0].label",
+        "hickory-grove-christian:pipeline.funnel[0].label"
       ]
     },
     {
@@ -411,7 +426,8 @@
         "cannon:pipeline.funnel[1].label",
         "covenant-day:pipeline.funnel[1].label",
         "davidson-day:pipeline.funnel[1].label",
-        "carmel-christian:pipeline.funnel[1].label"
+        "carmel-christian:pipeline.funnel[1].label",
+        "hickory-grove-christian:pipeline.funnel[1].label"
       ]
     },
     {
@@ -438,7 +454,8 @@
         "cannon:pipeline.funnel[2].label",
         "covenant-day:pipeline.funnel[2].label",
         "davidson-day:pipeline.funnel[2].label",
-        "carmel-christian:pipeline.funnel[2].label"
+        "carmel-christian:pipeline.funnel[2].label",
+        "hickory-grove-christian:pipeline.funnel[2].label"
       ]
     },
     {
@@ -452,7 +469,8 @@
         "cannon:pipeline.funnel[2].hint",
         "covenant-day:pipeline.funnel[2].hint",
         "davidson-day:pipeline.funnel[2].hint",
-        "carmel-christian:pipeline.funnel[2].hint"
+        "carmel-christian:pipeline.funnel[2].hint",
+        "hickory-grove-christian:pipeline.funnel[2].hint"
       ]
     },
     {
@@ -518,7 +536,8 @@
         "charlotte-christian:pipeline.roster[30].sport",
         "charlotte-christian:pipeline.roster[32].sport",
         "charlotte-country-day:pipeline.roster[20].sport",
-        "covenant-day:pipeline.roster[11].sport"
+        "covenant-day:pipeline.roster[11].sport",
+        "hickory-grove-christian:coaching.tenure[0].role"
       ]
     },
     {
@@ -589,7 +608,8 @@
         "cannon:pipeline.roster[1].sport",
         "cannon:pipeline.roster[3].sport",
         "cannon:pipeline.roster[6].sport",
-        "cannon:coaching.tenure[2].role"
+        "cannon:coaching.tenure[2].role",
+        "hickory-grove-christian:coaching.tenure[2].role"
       ]
     },
     {
@@ -656,7 +676,8 @@
         "davidson-day:pipeline.roster[0].sport",
         "davidson-day:pipeline.roster[1].sport",
         "davidson-day:pipeline.roster[2].sport",
-        "davidson-day:pipeline.roster[9].sport"
+        "davidson-day:pipeline.roster[9].sport",
+        "hickory-grove-christian:coaching.tenure[1].role"
       ]
     },
     {
@@ -706,7 +727,12 @@
         "covenant-day:pipeline.roster[32].sport",
         "carmel-christian:pipeline.roster[5].sport",
         "carmel-christian:pipeline.roster[6].sport",
-        "carmel-christian:pipeline.roster[9].sport"
+        "carmel-christian:pipeline.roster[9].sport",
+        "hickory-grove-christian:pipeline.roster[0].sport",
+        "hickory-grove-christian:pipeline.roster[1].sport",
+        "hickory-grove-christian:pipeline.roster[2].sport",
+        "hickory-grove-christian:pipeline.roster[3].sport",
+        "hickory-grove-christian:pipeline.roster[4].sport"
       ]
     },
     {
@@ -731,7 +757,8 @@
         "charlotte-latin:pipeline.roster[11].sport",
         "charlotte-christian:pipeline.roster[18].sport",
         "charlotte-country-day:pipeline.roster[37].sport",
-        "davidson-day:pipeline.roster[8].sport"
+        "davidson-day:pipeline.roster[8].sport",
+        "hickory-grove-christian:coaching.tenure[6].role"
       ]
     },
     {
@@ -762,7 +789,8 @@
         "charlotte-christian:pipeline.roster[12].sport",
         "charlotte-christian:pipeline.roster[15].sport",
         "charlotte-christian:pipeline.roster[31].sport",
-        "covenant-day:pipeline.roster[2].sport"
+        "covenant-day:pipeline.roster[2].sport",
+        "hickory-grove-christian:coaching.tenure[5].role"
       ]
     },
     {
@@ -6100,6 +6128,323 @@
       "of": "6bfc1131",
       "at": [
         "carmel-christian:national.nil[0].tag"
+      ]
+    },
+    {
+      "t": "حدود 30 تیم در تقریباً 12 تا 14 رشتهٔ ورزشی برای پایه‌های 6–12، که با نام Lions در NCISAA 3A و Metrolina Athletic Conference رقابت می‌کنند.",
+      "of": "35f8f884",
+      "at": [
+        "hickory-grove-christian:offered.headline"
+      ]
+    },
+    {
+      "t": "بیشتر برنامه‌های varsity یک نردبان Middle School در زیر خود دارند و چند برنامه یک تیم JV. سطح‌های زیر بازتاب تیم‌هایی است که در صفحهٔ Coaches & Teams مدرسه یک سرمربی برایشان ذکر شده است.",
+      "of": "34c62d06",
+      "at": [
+        "hickory-grove-christian:offered.subhead"
+      ]
+    },
+    {
+      "t": "رشتهٔ ورزشی (مدرسه می‌گوید 12؛ Wikipedia می‌گوید 14)",
+      "of": "57cfa67d",
+      "at": [
+        "hickory-grove-christian:offered.stats[1].label"
+      ]
+    },
+    {
+      "t": "Metrolina Athletic Conference",
+      "of": "c7aa424a",
+      "at": [
+        "hickory-grove-christian:offered.stats[3].label"
+      ]
+    },
+    {
+      "t": "صفحهٔ ورزش مدرسه می‌گوید «30 teams participating in 12 different sports» (Wikipedia از 14 رشته / 28 تیم می‌گوید). Tennis (پسران و دختران)، Wrestling و Field Hockey در فهرست رشته‌های MaxPreps دیده می‌شوند اما در صفحهٔ Coaches & Teams مدرسه سرمربی‌ای برایشان ذکر نشده است، بنابراین نشان سطحی برای آن‌ها ترسیم نشده است. مدیر ورزشی: Jim Rhodes؛ معاون مدیر ورزشی: Crystal Rhodes.",
+      "of": "49bdd7eb",
+      "at": [
+        "hickory-grove-christian:offered.footnote"
+      ]
+    },
+    {
+      "t": "هفت عنوان قهرمانی ایالتی تیمی NCISAA از زمان پیوستن در 2002 — با تکیه بر سلسله‌ای در softball با هفت قهرمانی 3A و یک برنامهٔ baseball با دو عنوان.",
+      "of": "e736bb91",
+      "at": [
+        "hickory-grove-christian:record.headline"
+      ]
+    },
+    {
+      "t": "«ایالتی» یعنی NCISAA (انجمن مدارس خصوصی)؛ HGCS در 3A رقابت می‌کند. Softball برنامهٔ شاخص است: هفت عنوان در بازهٔ 2006–2019.",
+      "of": "3baa5980",
+      "at": [
+        "hickory-grove-christian:record.subhead"
+      ]
+    },
+    {
+      "t": "قهرمان 3A در 2021 و 2023 (و 2A در 2005)؛ نایب قهرمان 2024 — با شکست کامل مقابل Grace Christian of Sanford",
+      "of": "981b2a7a",
+      "at": [
+        "hickory-grove-christian:record.rows[0].note"
+      ]
+    },
+    {
+      "t": "کسب عنوان NCISAA Division II در 2025 با 130 امتیاز، 37 امتیاز جلوتر از Asheville School",
+      "of": "6f26f52d",
+      "at": [
+        "hickory-grove-christian:record.rows[1].note"
+      ]
+    },
+    {
+      "t": "هفت عنوان 3A در بازهٔ 2006–2019 — برنامهٔ شاخص، اما دورهٔ قهرمانی‌هایش پیش از این بازهٔ زمانی است (به پایین نگاه کنید)",
+      "of": "e432b53c",
+      "at": [
+        "hickory-grove-christian:record.rows[2].note"
+      ]
+    },
+    {
+      "t": "فینال baseball 3A در 2024 به Grace Christian of Sanford رسید که سری سه‌بازی‌ای را به‌طور کامل برد (4–1، 7–5).",
+      "of": "19e9aabb",
+      "at": [
+        "hickory-grove-christian:record.didNotWin"
+      ]
+    },
+    {
+      "t": "2006–2019",
+      "of": "64e64022",
+      "at": [
+        "hickory-grove-christian:record.bars[0].tag"
+      ]
+    },
+    {
+      "t": "2005 · 2021 · 2023",
+      "of": "0d6ff9a6",
+      "at": [
+        "hickory-grove-christian:record.bars[1].tag"
+      ]
+    },
+    {
+      "t": "2009 (3A)",
+      "of": "1d22922f",
+      "at": [
+        "hickory-grove-christian:record.bars[2].tag"
+      ]
+    },
+    {
+      "t": "2025 (D2)",
+      "of": "4adeb9d7",
+      "at": [
+        "hickory-grove-christian:record.bars[3].tag"
+      ]
+    },
+    {
+      "t": "هفت قهرمانی NCISAA 3A — در 2019، 2017، 2010، 2009، 2008، 2007 و 2006 — به‌همراه نایب‌قهرمانی 3A در 2018، 2015 و 2013 و نایب‌قهرمانی 2A در 2004. این عمیق‌ترین دورهٔ قهرمانی در میان همهٔ برنامه‌های HGCS است.",
+      "of": "1c00cde6",
+      "at": [
+        "hickory-grove-christian:record.seasonDetail[0].text"
+      ]
+    },
+    {
+      "t": "قهرمان NCISAA 3A در 2021 و 2023 (و قهرمان 2A در 2005). در 2024 تیم Lions با کارنامهٔ 18–10 به فینال 3A رسید اما مقابل Grace Christian of Sanford با نتایج 4–1 و 7–5 به‌طور کامل شکست خورد. نتایج دقیق فینال‌های 2021 و 2023 در هیچ صفحهٔ اصلی‌ای که در این بررسی یافت شد منتشر نشده بود.",
+      "of": "2a35d593",
+      "at": [
+        "hickory-grove-christian:record.seasonDetail[1].text"
+      ]
+    },
+    {
+      "t": "قهرمان NCISAA Division II در 2025 با 130 امتیاز، 37 امتیاز جلوتر از Asheville School — Anthony Hawkins هر دو مادهٔ پرتاب دیسک (164-8) و پرتاب وزنه (53-7.25) را برد، با پشتوانهٔ سه پیروزی در دو امدادی.",
+      "of": "2f50220b",
+      "at": [
+        "hickory-grove-christian:record.seasonDetail[2].text"
+      ]
+    },
+    {
+      "t": "سه تعهد Division I در baseball در میان دوره‌های فارغ‌التحصیلی 2024–26 — همه به کنفرانس‌های mid-major، هیچ‌کدام Power 4.",
+      "of": "f9ae4823",
+      "at": [
+        "hickory-grove-christian:pipeline.headline"
+      ]
+    },
+    {
+      "t": "بر پایهٔ ردیاب جذب baseball ایالت NC در HighSchoolOT و یک پیش‌نمای PrepBaseballReport تهیه شده است؛ برچسب‌های division را پژوهشگر بر اساس وضعیت NCAA هر دانشگاه افزوده است.",
+      "of": "12a2ab13",
+      "at": [
+        "hickory-grove-christian:pipeline.subhead"
+      ]
+    },
+    {
+      "t": "(همهٔ بخش‌ها، baseball)",
+      "of": "498333c9",
+      "at": [
+        "hickory-grove-christian:pipeline.funnel[0].hint"
+      ]
+    },
+    {
+      "t": "(mid-major)",
+      "of": "a8f86ba2",
+      "at": [
+        "hickory-grove-christian:pipeline.funnel[1].hint"
+      ]
+    },
+    {
+      "t": "هر تعهد اخیر ورزش دانشگاهی که این پژوهش یافت، در baseball است. هر سه تعهد Division I به کنفرانس‌های mid-major است (SoCon، CAA، Big South)؛ در این بازه هیچ تعهد Power 4 وجود ندارد. این شمار را یک کف بدانید — هیچ فهرست تعهدهای همهٔ رشته‌ها که مدرسه منتشر کرده باشد یافت نشد.",
+      "of": "e217848d",
+      "at": [
+        "hickory-grove-christian:pipeline.funnelNote"
+      ]
+    },
+    {
+      "t": "ردپای جذب دانشگاهی HGCS در این بازه در baseball است، همان برنامه‌ای که دو عنوان ایالتی اخیرش را دارد. برای 2024–26 هیچ تعهد دانشگاهی در basketball، football یا رشته‌های دیگر نمایان نشد و هیچ صفحهٔ «next level» برای همهٔ رشته‌ها منتشر نشده است، بنابراین ممکن است رشته‌های دیگر تعهدهایی داشته باشند که این پژوهش نتوانسته ببیند.",
+      "of": "1179f830",
+      "at": [
+        "hickory-grove-christian:pipeline.realityCheck"
+      ]
+    },
+    {
+      "t": "برچسب‌های سطح (D1 / D2) و کنفرانس‌ها را پژوهشگر بر اساس وضعیت NCAA هر دانشگاه افزوده است. مورد Brady Johnson ← ETSU از یک پیش‌نمای PrepBaseballReport به دست آمده که از راه جست‌وجو نمایان شد (صفحه در دریافت مستقیم خطای 403 می‌دهد)، بنابراین برچسب TO VERIFY دارد. P4 = SEC · Big Ten · ACC · Big 12.",
+      "of": "4cef94c4",
+      "at": [
+        "hickory-grove-christian:pipeline.rosterNote"
+      ]
+    },
+    {
+      "t": "هیچ فارغ‌التحصیل حرفه‌ای یا Power-4 نمایان نشد — افتخارهای اینجا قهرمانان انفرادی ایالتی NCISAA در golf، cross country و track هستند.",
+      "of": "2edb11ab",
+      "at": [
+        "hickory-grove-christian:honors.headline"
+      ]
+    },
+    {
+      "t": "HGCS هیچ ردیابی برای فارغ‌التحصیلان حرفه‌ای ندارد و چنین چیزی نیز یافت نشد؛ افتخارهای انفرادی تأییدشده همان قهرمانان ایالتی آن است.",
+      "of": "d3ce79a4",
+      "at": [
+        "hickory-grove-christian:honors.subhead"
+      ]
+    },
+    {
+      "t": "Track & Field — قهرمانان انفرادی ایالتی",
+      "of": "4f334ca0",
+      "at": [
+        "hickory-grove-christian:honors.honors[0].label"
+      ]
+    },
+    {
+      "t": "Anthony Hawkins در رقابت‌های NCISAA D2 در 2025 هر دو مادهٔ پرتاب دیسک (164-8) و پرتاب وزنه (53-7.25) را برد. مدرسه چند قهرمان انفرادی و امدادی ایالتی را در سال‌های 2019، 2021، 2023، 2024 و 2025 فهرست می‌کند.",
+      "of": "3cf04edb",
+      "at": [
+        "hickory-grove-christian:honors.honors[0].text"
+      ]
+    },
+    {
+      "t": "NCISAA، انفرادی",
+      "of": "35862fd7",
+      "at": [
+        "hickory-grove-christian:honors.honors[0].tag",
+        "hickory-grove-christian:honors.honors[1].tag",
+        "hickory-grove-christian:honors.honors[2].tag"
+      ]
+    },
+    {
+      "t": "Men's Golf — قهرمان انفرادی ایالتی",
+      "of": "0bc99f62",
+      "at": [
+        "hickory-grove-christian:honors.honors[1].label"
+      ]
+    },
+    {
+      "t": "Chad Cox عنوان انفرادی NCISAA 3A را در هر دو سال 2009 و 2010 به دست آورد.",
+      "of": "eb34fd1b",
+      "at": [
+        "hickory-grove-christian:honors.honors[1].text"
+      ]
+    },
+    {
+      "t": "Cross Country — قهرمان انفرادی ایالتی",
+      "of": "8ddf0e40",
+      "at": [
+        "hickory-grove-christian:honors.honors[2].label"
+      ]
+    },
+    {
+      "t": "Daniel Similton عنوان انفرادی مردان NCISAA 3A را در 2019 به دست آورد، و HGCS عنوان انفرادی پسران را در 2018 نیز کسب کرد.",
+      "of": "fb06595b",
+      "at": [
+        "hickory-grove-christian:honors.honors[2].text"
+      ]
+    },
+    {
+      "t": "مجموع کارنامهٔ برنامه",
+      "of": "ea3b5196",
+      "at": [
+        "hickory-grove-christian:honors.honors[3].label"
+      ]
+    },
+    {
+      "t": "از زمان پیوستن به NCISAA در 2002: 57 حضور در پلی‌آف ایالتی، 22 حضور در Final Four ایالتی، 7 قهرمانی ایالتی تیمی، 5 نایب‌قهرمانی ایالتی و 48 قهرمانی فصل عادی / تورنمنت MAC.",
+      "of": "6a96d1d4",
+      "at": [
+        "hickory-grove-christian:honors.honors[3].text"
+      ]
+    },
+    {
+      "t": "از 2002",
+      "of": "772f380f",
+      "at": [
+        "hickory-grove-christian:honors.honors[3].tag"
+      ]
+    },
+    {
+      "t": "فهرست کامل سرمربیان با نام منتشر شده است — اما هیچ زندگی‌نامه، کارنامه یا مدت خدمتی منتشر نشده، بنابراین این یک فهرست اسامی است و نه یک کارنامهٔ حرفه‌ای.",
+      "of": "b0e642c6",
+      "at": [
+        "hickory-grove-christian:coaching.headline"
+      ]
+    },
+    {
+      "t": "مدیر ورزشی: Jim Rhodes. معاون مدیر ورزشی: Crystal Rhodes.",
+      "of": "37c37620",
+      "at": [
+        "hickory-grove-christian:coaching.subhead"
+      ]
+    },
+    {
+      "t": "سرمربی",
+      "of": "7d3cb385",
+      "at": [
+        "hickory-grove-christian:coaching.tenure[0].since",
+        "hickory-grove-christian:coaching.tenure[1].since",
+        "hickory-grove-christian:coaching.tenure[2].since",
+        "hickory-grove-christian:coaching.tenure[3].since",
+        "hickory-grove-christian:coaching.tenure[4].since",
+        "hickory-grove-christian:coaching.tenure[5].since",
+        "hickory-grove-christian:coaching.tenure[6].since",
+        "hickory-grove-christian:coaching.tenure[7].since"
+      ]
+    },
+    {
+      "t": "Baseball (V و JV)",
+      "of": "0896dcc0",
+      "at": [
+        "hickory-grove-christian:coaching.tenure[3].role"
+      ]
+    },
+    {
+      "t": "Softball · MS Girls Basketball",
+      "of": "cf828157",
+      "at": [
+        "hickory-grove-christian:coaching.tenure[4].role"
+      ]
+    },
+    {
+      "t": "Volleyball (V و JV)",
+      "of": "25f8618c",
+      "at": [
+        "hickory-grove-christian:coaching.tenure[7].role"
+      ]
+    },
+    {
+      "t": "صفحهٔ Coaches & Teams برای تقریباً هر تیم varsity، JV و Middle School یک سرمربی نام می‌برد (از جمله Elizabeth Hamilton، Keith White و Todd Staples برای Cross Country و Golf؛ Sam Cox برای Swimming؛ Carmen Costner برای Cheer)، اما هیچ زندگی‌نامه، کارنامهٔ حرفه‌ای یا مدت خدمتی منتشر نمی‌کند — بنابراین از منابع عمومی نمی‌توان هیچ ادعایی دربارهٔ سابقه یا تداوم مطرح کرد. از این رو فیلدهای «since» و عرض به‌جای پر شدن با سالی حدسی، با TO VERIFY نشانه‌گذاری شده‌اند.",
+      "of": "11d8c8cf",
+      "at": [
+        "hickory-grove-christian:coaching.worthKnowing"
       ]
     }
   ]
