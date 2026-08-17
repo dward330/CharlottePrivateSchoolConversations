@@ -162,7 +162,8 @@
         "cannon:ladder.divisions[2].grades",
         "covenant-day:ladder.divisions[2].grades",
         "davidson-day:ladder.divisions[2].grades",
-        "carmel-christian:ladder.divisions[2].grades"
+        "carmel-christian:ladder.divisions[2].grades",
+        "hickory-grove-christian:ladder.divisions[2].grades"
       ],
       "t": "9–12"
     },
@@ -547,7 +548,8 @@
         "charlotte-country-day:music.ladder[0].label",
         "cannon:music.ladder[0].label",
         "davidson-day:music.ladder[0].label",
-        "carmel-christian:music.ladder[0].label"
+        "carmel-christian:music.ladder[0].label",
+        "hickory-grove-christian:music.ladder[0].label"
       ],
       "t": "একটি এনসেম্বলে যোগ দিন"
     },
@@ -4237,7 +4239,8 @@
       "of": "b7020a62",
       "at": [
         "covenant-day:ladder.divisions[1].grades",
-        "carmel-christian:ladder.divisions[1].grades"
+        "carmel-christian:ladder.divisions[1].grades",
+        "hickory-grove-christian:ladder.divisions[1].grades"
       ],
       "t": "6–8"
     },
@@ -5798,7 +5801,8 @@
       "text": "The Blumey ledger — external judging",
       "of": "900c8f6e",
       "at": [
-        "carmel-christian:theatre.ledgerTitle"
+        "carmel-christian:theatre.ledgerTitle",
+        "hickory-grove-christian:theatre.ledgerTitle"
       ],
       "t": "Blumey খতিয়ান — বাহ্যিক বিচার"
     },
@@ -5870,7 +5874,8 @@
       "text": "The honors ladder — what is published",
       "of": "b7b34683",
       "at": [
-        "carmel-christian:music.ladderTitle"
+        "carmel-christian:music.ladderTitle",
+        "hickory-grove-christian:music.ladderTitle"
       ],
       "t": "honors সিঁড়ি — যা প্রকাশিত"
     },
@@ -5926,7 +5931,8 @@
       "text": "Studio & media",
       "of": "5fdec809",
       "at": [
-        "carmel-christian:visual.mediaTitle"
+        "carmel-christian:visual.mediaTitle",
+        "hickory-grove-christian:visual.mediaTitle"
       ],
       "t": "Studio ও media"
     },
@@ -6039,7 +6045,8 @@
       "text": "A studio path that reaches AP",
       "of": "4e563df6",
       "at": [
-        "carmel-christian:verdict.holdsUp[2].label"
+        "carmel-christian:verdict.holdsUp[2].label",
+        "hickory-grove-christian:verdict.holdsUp[1].label"
       ],
       "t": "একটি studio পথ যা AP পর্যন্ত পৌঁছায়"
     },
@@ -6114,6 +6121,566 @@
         "carmel-christian:verdict.ask[5]"
       ],
       "t": "\"Singin' in the Rain\" Blumey জুড়ি (Pisacano, Wilson) কি 2024 \"Anastasia\" মনোনয়ন থেকে একটি আলাদা বছর ছিল — এবং তা কোন বছর ছিল?"
+    },
+    {
+      "text": "A TK–12 arts ladder — visual art and general music for every young student, widening into band, choir, theatre and a leveled studio track in the upper grades.",
+      "of": "df0e2f6f",
+      "at": [
+        "hickory-grove-christian:ladder.headline"
+      ],
+      "t": "TK–12 জুড়ে শিল্পকলার একটি ধাপ — ছোট শিক্ষার্থীদের সবার জন্য চারুকলা ও সাধারণ সংগীত, যা উঁচু গ্রেডে গিয়ে band, choir, theatre ও একটি স্তরভিত্তিক studio ট্র্যাকে প্রশস্ত হয়।"
+    },
+    {
+      "text": "Band- and choir-centered, with no orchestra at any level. The performing-arts headline is a run of Blumey Award nominations in 2025 and 2026.",
+      "of": "1f58040e",
+      "at": [
+        "hickory-grove-christian:ladder.subhead"
+      ],
+      "t": "band ও choir-কেন্দ্রিক, কোনো স্তরেই orchestra নেই। পরিবেশনা-শিল্পের প্রধান খবর হলো 2025 ও 2026 সালে পরপর Blumey Award মনোনয়ন।"
+    },
+    {
+      "text": "arts program, integrated in the early grades",
+      "of": "dbc25833",
+      "at": [
+        "hickory-grove-christian:ladder.stats[0].label"
+      ],
+      "t": "শিল্পকলা কর্মসূচি, প্রাথমিক গ্রেডে সমন্বিত"
+    },
+    {
+      "text": "Blumey nominee — Christian Young (The Little Mermaid)",
+      "of": "a3233a68",
+      "at": [
+        "hickory-grove-christian:ladder.stats[1].label"
+      ],
+      "t": "Blumey মনোনীত — Christian Young (The Little Mermaid)"
+    },
+    {
+      "text": "theatre productions, plus a biennial spring musical",
+      "of": "f90ed8a2",
+      "at": [
+        "hickory-grove-christian:ladder.stats[2].label"
+      ],
+      "t": "নাট্য প্রযোজনা, সঙ্গে দুই বছর অন্তর একটি বসন্তকালীন musical"
+    },
+    {
+      "text": "music + Thespian (ITS) theatre honor societies",
+      "of": "79446a77",
+      "at": [
+        "hickory-grove-christian:ladder.stats[3].label"
+      ],
+      "t": "সংগীত + Thespian (ITS) নাট্য honor society"
+    },
+    {
+      "text": "TK–5",
+      "of": "f79ad9ec",
+      "at": [
+        "hickory-grove-christian:ladder.divisions[0].grades"
+      ],
+      "t": "TK–5"
+    },
+    {
+      "text": "Visual art at every level — foundation skills in shape, color, texture, value and 3D",
+      "of": "42fc05c0",
+      "at": [
+        "hickory-grove-christian:ladder.divisions[0].items[0]"
+      ],
+      "t": "প্রতিটি স্তরে চারুকলা — আকার, রং, বুনট, উজ্জ্বলতা ও ত্রিমাত্রিকতায় ভিত্তিমূলক দক্ষতা"
+    },
+    {
+      "text": "General music aligned to the National Standards: singing, rhythm and Orff instruments",
+      "of": "28957237",
+      "at": [
+        "hickory-grove-christian:ladder.divisions[0].items[1]"
+      ],
+      "t": "National Standards অনুসারে সাধারণ সংগীত: গান, ছন্দ ও Orff বাদ্যযন্ত্র"
+    },
+    {
+      "text": "Recorder introduced in fourth grade; composing rhythmic patterns and melodies",
+      "of": "d6151640",
+      "at": [
+        "hickory-grove-christian:ladder.divisions[0].items[2]"
+      ],
+      "t": "চতুর্থ গ্রেডে recorder-এর সূচনা; ছন্দের বিন্যাস ও সুর রচনা"
+    },
+    {
+      "text": "Band (6th-grade beginners, 7th–8th intermediate) · Choir (open to all)",
+      "of": "3382b19e",
+      "at": [
+        "hickory-grove-christian:ladder.divisions[1].items[0]"
+      ],
+      "t": "Band (6th গ্রেডে নতুনদের জন্য, 7th–8th-এ মধ্যবর্তী স্তর) · Choir (সবার জন্য উন্মুক্ত)"
+    },
+    {
+      "text": "Theatre and Musical Theatre — stage presence, speech, backstage, acting/singing/dance",
+      "of": "da1a538a",
+      "at": [
+        "hickory-grove-christian:ladder.divisions[1].items[1]"
+      ],
+      "t": "Theatre ও Musical Theatre — মঞ্চে উপস্থিতি, বাচনভঙ্গি, নেপথ্যের কাজ, অভিনয়/গান/নাচ"
+    },
+    {
+      "text": "Visual arts: original artwork, color mixing, artist studies (e.g. Picasso), mixed-media portraits",
+      "of": "8ac7915a",
+      "at": [
+        "hickory-grove-christian:ladder.divisions[1].items[2]"
+      ],
+      "t": "চারুকলা: মৌলিক শিল্পকর্ম, রং মেশানো, শিল্পী-অধ্যয়ন (যেমন Picasso), মিশ্র-মাধ্যমে প্রতিকৃতি"
+    },
+    {
+      "text": "Christmas Chapel, Winter/Spring Performing Arts Concerts, ACSI band festivals",
+      "of": "744e5c55",
+      "at": [
+        "hickory-grove-christian:ladder.divisions[1].items[3]"
+      ],
+      "t": "Christmas Chapel, Winter/Spring Performing Arts Concerts, ACSI band উৎসব"
+    },
+    {
+      "text": "Concert Band · Jazz Band · Choir · Musical Theatre · Theatre · Technical Theatre",
+      "of": "3abb8ab0",
+      "at": [
+        "hickory-grove-christian:ladder.divisions[2].items[0]"
+      ],
+      "t": "Concert Band · Jazz Band · Choir · Musical Theatre · Theatre · Technical Theatre"
+    },
+    {
+      "text": "Visual Arts (Art I–IV), AP Studio Art 2D and Art Appreciation",
+      "of": "841cc08d",
+      "at": [
+        "hickory-grove-christian:ladder.divisions[2].items[1]"
+      ],
+      "t": "Visual Arts (Art I–IV), AP Studio Art 2D ও Art Appreciation"
+    },
+    {
+      "text": "Yearbook / Student Media — the *Exodus* yearbook (Yearbook I, Honors Yearbook I–III)",
+      "of": "db8a0d60",
+      "at": [
+        "hickory-grove-christian:ladder.divisions[2].items[2]"
+      ],
+      "t": "Yearbook / Student Media — *Exodus* yearbook (Yearbook I, Honors Yearbook I–III)"
+    },
+    {
+      "text": "Beyond the classroom",
+      "of": "289b393a",
+      "at": [
+        "hickory-grove-christian:ladder.enrichmentTitle"
+      ],
+      "t": "শ্রেণিকক্ষের বাইরে"
+    },
+    {
+      "text": "Festivals & adjudication",
+      "of": "f8dc3f99",
+      "at": [
+        "hickory-grove-christian:ladder.enrichment[0].label"
+      ],
+      "t": "উৎসব ও বিচার-মূল্যায়ন"
+    },
+    {
+      "text": "Band students participate in adjudicated festivals annually, and the Middle School band has earned superior ratings at ACSI band festivals. Choir performs at community events, statewide festivals and out-of-state tours.",
+      "of": "1a7f8072",
+      "at": [
+        "hickory-grove-christian:ladder.enrichment[0].text"
+      ],
+      "t": "Band-এর শিক্ষার্থীরা প্রতি বছর বিচারকৃত উৎসবে অংশ নেয়, আর Middle School band ACSI band উৎসবে superior রেটিং পেয়েছে। Choir কমিউনিটির অনুষ্ঠান, রাজ্যব্যাপী উৎসব ও রাজ্যের বাইরের সফরে পরিবেশন করে।"
+    },
+    {
+      "text": "Competition",
+      "of": "7e1929d8",
+      "at": [
+        "hickory-grove-christian:ladder.enrichment[1].label"
+      ],
+      "t": "প্রতিযোগিতা"
+    },
+    {
+      "text": "Drama students compete in fall competitions, and visual-arts students display work throughout the year and compete in public and private competitions.",
+      "of": "060b1dcf",
+      "at": [
+        "hickory-grove-christian:ladder.enrichment[1].text"
+      ],
+      "t": "Drama-র শিক্ষার্থীরা শরৎকালীন প্রতিযোগিতায় অংশ নেয়, আর চারুকলার শিক্ষার্থীরা সারা বছর কাজ প্রদর্শন করে এবং সরকারি ও বেসরকারি প্রতিযোগিতায় অংশ নেয়।"
+    },
+    {
+      "text": "Three productions a year and a biennial spring musical — with Blumey Award recognition in back-to-back seasons: Seussical in 2025 and Disney's The Little Mermaid in 2026.",
+      "of": "9c6951b0",
+      "at": [
+        "hickory-grove-christian:theatre.headline"
+      ],
+      "t": "বছরে তিনটি প্রযোজনা এবং দুই বছর অন্তর একটি বসন্তকালীন musical — সঙ্গে পরপর দুই মৌসুমে Blumey Award-এর স্বীকৃতি: 2025-এ Seussical এবং 2026-এ Disney's The Little Mermaid।"
+    },
+    {
+      "text": "The Blumeys are Blumenthal Performing Arts' regional high-school musical-theater awards. HGCS placed nominees and finalists across both years, though no outright win is published.",
+      "of": "3f4443bf",
+      "at": [
+        "hickory-grove-christian:theatre.subhead"
+      ],
+      "t": "Blumey হলো Blumenthal Performing Arts-এর আঞ্চলিক হাই স্কুল musical-theater পুরস্কার। HGCS দুই বছরেই মনোনীত ও ফাইনালিস্ট পেয়েছে, তবে সরাসরি কোনো জয় প্রকাশিত নয়।"
+    },
+    {
+      "text": "The season rhythm",
+      "of": "88be63b3",
+      "at": [
+        "hickory-grove-christian:theatre.seasonTitle"
+      ],
+      "t": "মৌসুমের ছন্দ"
+    },
+    {
+      "text": "Every year",
+      "of": "1a1b3f6d",
+      "at": [
+        "hickory-grove-christian:theatre.season[0].season"
+      ],
+      "t": "প্রতি বছর"
+    },
+    {
+      "text": "Three productions",
+      "of": "75d76a67",
+      "at": [
+        "hickory-grove-christian:theatre.season[0].kind"
+      ],
+      "t": "তিনটি প্রযোজনা"
+    },
+    {
+      "text": "Drama students mount three productions per year and compete in fall competitions, drawing students across grade levels.",
+      "of": "f5a1014c",
+      "at": [
+        "hickory-grove-christian:theatre.season[0].detail"
+      ],
+      "t": "Drama-র শিক্ষার্থীরা বছরে তিনটি প্রযোজনা মঞ্চস্থ করে এবং শরৎকালীন প্রতিযোগিতায় অংশ নেয়, যেখানে বিভিন্ন গ্রেডের শিক্ষার্থীরা যুক্ত হয়।"
+    },
+    {
+      "text": "Every other year",
+      "of": "66b60c07",
+      "at": [
+        "hickory-grove-christian:theatre.season[1].season"
+      ],
+      "t": "এক বছর অন্তর"
+    },
+    {
+      "text": "Large-scale spring musical",
+      "of": "444458ee",
+      "at": [
+        "hickory-grove-christian:theatre.season[1].kind"
+      ],
+      "t": "বড় মাপের বসন্তকালীন musical"
+    },
+    {
+      "text": "A biennial spring musical is the marquee production — Seussical (2025) and Disney's The Little Mermaid (2026) are the two most recent, both Blumey-recognized.",
+      "of": "6f01761a",
+      "at": [
+        "hickory-grove-christian:theatre.season[1].detail"
+      ],
+      "t": "দুই বছর অন্তর হওয়া বসন্তকালীন musical-ই প্রধান প্রযোজনা — Seussical (2025) ও Disney's The Little Mermaid (2026) হলো সাম্প্রতিকতম দুটি, দুটিই Blumey-স্বীকৃত।"
+    },
+    {
+      "text": "The theatre director and the performance venue are not published on any HGCS arts page.",
+      "of": "a519979a",
+      "at": [
+        "hickory-grove-christian:theatre.venueNote"
+      ],
+      "t": "নাট্য পরিচালক ও পরিবেশনার স্থান HGCS-এর কোনো শিল্পকলা পাতায় প্রকাশিত নয়।"
+    },
+    {
+      "text": "Three nominees: Christian Young (Scuttle) for Best Supporting Actor, Gabby Coleman (Flounder) for Best Supporting Actress, and Amara Aghedo (Aquata) for Best Featured Performer. No win is published.",
+      "of": "a977adae",
+      "at": [
+        "hickory-grove-christian:theatre.ledger[0].result"
+      ],
+      "t": "তিনজন মনোনীত: Best Supporting Actor-এ Christian Young (Scuttle), Best Supporting Actress-এ Gabby Coleman (Flounder), এবং Best Featured Performer-এ Amara Aghedo (Aquata)। কোনো জয় প্রকাশিত নয়।"
+    },
+    {
+      "text": "Amara Aghedo (Sour Kangaroo) was a Best Featured Performer nominee, and the production placed five finalists: Christian Young (Jojo, Best Actor), Fallon Burns (Mayzie, Best Actress), Michael McCray (Mr. Mayor, Best Supporting Actor), Mackenzie Moore (Mrs. Mayor, Best Supporting Actress) and Aghedo again among the Best Featured Performer finalists.",
+      "of": "0c0d123e",
+      "at": [
+        "hickory-grove-christian:theatre.ledger[1].result"
+      ],
+      "t": "Amara Aghedo (Sour Kangaroo) Best Featured Performer-এ মনোনীত ছিলেন, আর প্রযোজনাটি পাঁচজন ফাইনালিস্ট পেয়েছে: Christian Young (Jojo, Best Actor), Fallon Burns (Mayzie, Best Actress), Michael McCray (Mr. Mayor, Best Supporting Actor), Mackenzie Moore (Mrs. Mayor, Best Supporting Actress) এবং Best Featured Performer-এর ফাইনালিস্টদের মধ্যে আবারও Aghedo।"
+    },
+    {
+      "text": "Amara Aghedo and Christian Young each recur across both years — a repeat producer of nominated performers. But no Blumey win is published for HGCS in either year (nominee/finalist recognition only), and no director name, venue or non-Blumey recent-season title is published.",
+      "of": "27464e73",
+      "at": [
+        "hickory-grove-christian:theatre.honestContext"
+      ],
+      "t": "Amara Aghedo ও Christian Young — দুজনেরই নাম দুই বছরেই ফিরে এসেছে, অর্থাৎ এখান থেকে বারবার মনোনীত পারফরমার উঠে আসে। তবে কোনো বছরেই HGCS-এর জন্য কোনো Blumey জয় প্রকাশিত নয় (কেবল মনোনয়ন/ফাইনালিস্টের স্বীকৃতি), এবং পরিচালকের নাম, স্থান বা Blumey-বহির্ভূত সাম্প্রতিক মৌসুমের কোনো প্রযোজনার নামও প্রকাশিত নয়।"
+    },
+    {
+      "text": "Band and choir across the divisions — Concert Band, Jazz Band and Choir in High School — with no orchestra published at any level.",
+      "of": "f44e2a99",
+      "at": [
+        "hickory-grove-christian:music.headline"
+      ],
+      "t": "সব বিভাগজুড়ে band ও choir — High School-এ Concert Band, Jazz Band ও Choir — কোনো স্তরেই orchestra প্রকাশিত নয়।"
+    },
+    {
+      "text": "The ensemble slate is band- and choir-centered; the honors mark is the Tri-M Music Honor Society, and adjudicated festivals are a recurring fixture.",
+      "of": "324c7927",
+      "at": [
+        "hickory-grove-christian:music.subhead"
+      ],
+      "t": "এনসেম্বলের তালিকাটি band ও choir-কেন্দ্রিক; সম্মাননার চিহ্ন হলো Tri-M Music Honor Society, আর বিচারকৃত উৎসবগুলো নিয়মিত আয়োজন।"
+    },
+    {
+      "text": "High School",
+      "of": "8ab05d33",
+      "at": [
+        "hickory-grove-christian:music.tracks[0].label"
+      ],
+      "t": "High School"
+    },
+    {
+      "text": "Middle School",
+      "of": "15441234",
+      "at": [
+        "hickory-grove-christian:music.tracks[1].label"
+      ],
+      "t": "Middle School"
+    },
+    {
+      "text": "Elementary",
+      "of": "2e111ccb",
+      "at": [
+        "hickory-grove-christian:music.tracks[2].label"
+      ],
+      "t": "প্রাথমিক"
+    },
+    {
+      "text": "Middle School band is split into a 6th-grade beginner section and a 7th–8th intermediate section. The elementary strand is a general-music class taught to the National Standards, with Orff and rhythm instruments alongside recorder in Grade 4. No orchestra or strings ensemble is published at any level, and no a cappella group is named.",
+      "of": "fc7ce07e",
+      "at": [
+        "hickory-grove-christian:music.boardNote"
+      ],
+      "t": "Middle School band দুই ভাগে বিভক্ত: 6th গ্রেডের নতুনদের অংশ এবং 7th–8th-এর মধ্যবর্তী অংশ। প্রাথমিক ধারাটি National Standards অনুসারে পড়ানো একটি সাধারণ-সংগীত ক্লাস, যেখানে Grade 4-এ recorder-এর পাশাপাশি Orff ও ছন্দ-বাদ্যযন্ত্র থাকে। কোনো স্তরেই orchestra বা তারযন্ত্রের এনসেম্বল প্রকাশিত নয়, এবং কোনো a cappella দলের নামও নেই।"
+    },
+    {
+      "text": "band and choir run from the elementary grades through High School, with Christmas Chapel and Winter/Spring Performing Arts Concerts on the calendar.",
+      "of": "0aca8c40",
+      "at": [
+        "hickory-grove-christian:music.ladder[0].text"
+      ],
+      "t": "band ও choir প্রাথমিক গ্রেড থেকে High School পর্যন্ত চলে, আর বর্ষপঞ্জিতে থাকে Christmas Chapel ও Winter/Spring Performing Arts Concerts।"
+    },
+    {
+      "text": "Earn a superior rating",
+      "of": "a48219e0",
+      "at": [
+        "hickory-grove-christian:music.ladder[1].label"
+      ],
+      "t": "superior রেটিং অর্জন"
+    },
+    {
+      "text": "band students take part in adjudicated festivals annually, and the Middle School band has earned superior ratings at ACSI band festivals.",
+      "of": "42d00433",
+      "at": [
+        "hickory-grove-christian:music.ladder[1].text"
+      ],
+      "t": "band-এর শিক্ষার্থীরা প্রতি বছর বিচারকৃত উৎসবে অংশ নেয়, আর Middle School band ACSI band উৎসবে superior রেটিং পেয়েছে।"
+    },
+    {
+      "text": "Be recognized",
+      "of": "fb24ad6c",
+      "at": [
+        "hickory-grove-christian:music.ladder[2].label"
+      ],
+      "t": "স্বীকৃতি পাওয়া"
+    },
+    {
+      "text": "the Tri-M Music Honor Society is the published music honor at HGCS; per-year selection or superior-rating counts are not published.",
+      "of": "73835589",
+      "at": [
+        "hickory-grove-christian:music.ladder[2].text"
+      ],
+      "t": "HGCS-এ প্রকাশিত সংগীত সম্মাননা হলো Tri-M Music Honor Society; বছরভিত্তিক নির্বাচন বা superior রেটিংয়ের সংখ্যা প্রকাশিত নয়।"
+    },
+    {
+      "text": "Beyond Tri-M and the ACSI band festivals, no all-state selection, adjudication result count or festival placement is published.",
+      "of": "55717754",
+      "at": [
+        "hickory-grove-christian:music.ladderNote"
+      ],
+      "t": "Tri-M ও ACSI band উৎসবের বাইরে কোনো all-state নির্বাচন, বিচার-ফলাফলের সংখ্যা বা উৎসবে অর্জিত স্থান প্রকাশিত নয়।"
+    },
+    {
+      "text": "A leveled studio sequence — Art I through Art IV to AP Studio Art 2D — plus Art Appreciation and the Exodus yearbook publications track.",
+      "of": "8722107a",
+      "at": [
+        "hickory-grove-christian:visual.headline"
+      ],
+      "t": "একটি স্তরভিত্তিক studio ধারা — Art I থেকে Art IV হয়ে AP Studio Art 2D পর্যন্ত — সঙ্গে Art Appreciation ও Exodus yearbook-এর প্রকাশনা ট্র্যাক।"
+    },
+    {
+      "text": "The visual-arts page names an actual leveled path (unlike the performing-arts page), and reports AP Studio Art students consistently scoring 3 or 4.",
+      "of": "5d2f06d6",
+      "at": [
+        "hickory-grove-christian:visual.subhead"
+      ],
+      "t": "চারুকলার পাতাটি (পরিবেশনা-শিল্পের পাতার মতো নয়) সত্যিকারের একটি স্তরভিত্তিক পথের নাম দেয়, এবং জানায় যে AP Studio Art-এর শিক্ষার্থীরা ধারাবাহিকভাবে 3 বা 4 পায়।"
+    },
+    {
+      "text": "the core leveled studio strand",
+      "of": "6803d42e",
+      "at": [
+        "hickory-grove-christian:visual.media[0].detail"
+      ],
+      "t": "মূল স্তরভিত্তিক studio ধারা"
+    },
+    {
+      "text": "a High School survey course",
+      "of": "998248f3",
+      "at": [
+        "hickory-grove-christian:visual.media[1].detail"
+      ],
+      "t": "High School-এর একটি পরিচিতিমূলক কোর্স"
+    },
+    {
+      "text": "Yearbook I and Honors Yearbook I–III",
+      "of": "32f22c79",
+      "at": [
+        "hickory-grove-christian:visual.media[2].detail"
+      ],
+      "t": "Yearbook I ও Honors Yearbook I–III"
+    },
+    {
+      "text": "This sequence is published on the visual-arts page. AP Studio Art students \"consistently score 3 or 4 on the AP exam\" (scores dipped during remote learning); no National Art Honor Society is published.",
+      "of": "b61f085f",
+      "at": [
+        "hickory-grove-christian:visual.pathNote"
+      ],
+      "t": "এই ধারাটি চারুকলার পাতায় প্রকাশিত। AP Studio Art-এর শিক্ষার্থীরা \"consistently score 3 or 4 on the AP exam\" (দূরশিক্ষণের সময় স্কোর কিছুটা নেমেছিল); কোনো National Art Honor Society প্রকাশিত নয়।"
+    },
+    {
+      "text": "Throughout the year",
+      "of": "eed0dcfe",
+      "at": [
+        "hickory-grove-christian:visual.exhibits[0].when"
+      ],
+      "t": "সারা বছর ধরে"
+    },
+    {
+      "text": "visual-arts students display work throughout the year and compete in public and private competitions",
+      "of": "faf1244e",
+      "at": [
+        "hickory-grove-christian:visual.exhibits[0].detail"
+      ],
+      "t": "চারুকলার শিক্ষার্থীরা সারা বছর কাজ প্রদর্শন করে এবং সরকারি ও বেসরকারি প্রতিযোগিতায় অংশ নেয়"
+    },
+    {
+      "text": "No named gallery or exhibit event, no National Art Honor Society and no external visual-arts recognition (Scholastic or otherwise) is published. The K–5 and Middle School foundation (shapes/colors/texture; artist studies, mixed-media portraits) feeds the High School sequence.",
+      "of": "00a9356a",
+      "at": [
+        "hickory-grove-christian:visual.footnote"
+      ],
+      "t": "নাম ধরে কোনো গ্যালারি বা প্রদর্শনীর আয়োজন, কোনো National Art Honor Society এবং চারুকলায় বাইরের কোনো স্বীকৃতি (Scholastic বা অন্য কিছু) প্রকাশিত নয়। K–5 ও Middle School-এর ভিত্তি (আকার/রং/বুনট; শিল্পী-অধ্যয়ন, মিশ্র-মাধ্যমে প্রতিকৃতি) High School-এর ধারাটিতে জোগান দেয়।"
+    },
+    {
+      "text": "A band-and-choir music program and a leveled studio track, with a theatre program that has drawn Blumey recognition two years running — the open questions are about the unpublished venue, director and orchestra.",
+      "of": "6be66fa1",
+      "at": [
+        "hickory-grove-christian:verdict.headline"
+      ],
+      "t": "band-ও-choir ভিত্তিক একটি সংগীত কর্মসূচি ও একটি স্তরভিত্তিক studio ট্র্যাক, সঙ্গে এমন একটি নাট্য কর্মসূচি যা পরপর দুই বছর Blumey স্বীকৃতি পেয়েছে — খোলা প্রশ্নগুলো অপ্রকাশিত স্থান, পরিচালক ও orchestra নিয়ে।"
+    },
+    {
+      "text": "The Blumey nominations across Seussical (2025) and The Little Mermaid (2026) are the real, verified headline; the gaps are the undocumented facilities and the absence of orchestra and a cappella.",
+      "of": "6b132458",
+      "at": [
+        "hickory-grove-christian:verdict.subhead"
+      ],
+      "t": "Seussical (2025) ও The Little Mermaid (2026)-এ পাওয়া Blumey মনোনয়নগুলোই আসল, যাচাইকৃত প্রধান খবর; ঘাটতিগুলো হলো নথিবিহীন অবকাঠামো এবং orchestra ও a cappella-র অনুপস্থিতি।"
+    },
+    {
+      "text": "Back-to-back Blumey recognition",
+      "of": "4a74c6cd",
+      "at": [
+        "hickory-grove-christian:verdict.holdsUp[0].label"
+      ],
+      "t": "পরপর দুই বছর Blumey স্বীকৃতি"
+    },
+    {
+      "text": "HGCS placed nominees and finalists at the 2025 (Seussical) and 2026 (The Little Mermaid) Blumey Awards, with Amara Aghedo and Christian Young recurring across both years — a repeat producer of nominated performers.",
+      "of": "49a88d99",
+      "at": [
+        "hickory-grove-christian:verdict.holdsUp[0].text"
+      ],
+      "t": "HGCS 2025 (Seussical) ও 2026 (The Little Mermaid) Blumey Awards-এ মনোনীত ও ফাইনালিস্ট পেয়েছে, যেখানে Amara Aghedo ও Christian Young দুই বছরেই ফিরে এসেছেন — অর্থাৎ এখান থেকে বারবার মনোনীত পারফরমার উঠে আসে।"
+    },
+    {
+      "text": "the visual-arts page publishes a leveled Art I → IV → AP Studio Art 2D sequence, with AP students consistently scoring 3 or 4.",
+      "of": "de89be9e",
+      "at": [
+        "hickory-grove-christian:verdict.holdsUp[1].text"
+      ],
+      "t": "চারুকলার পাতাটি Art I → IV → AP Studio Art 2D-র একটি স্তরভিত্তিক ধারা প্রকাশ করে, যেখানে AP-র শিক্ষার্থীরা ধারাবাহিকভাবে 3 বা 4 পায়।"
+    },
+    {
+      "text": "Adjudicated music",
+      "of": "ff6341cc",
+      "at": [
+        "hickory-grove-christian:verdict.holdsUp[2].label"
+      ],
+      "t": "বিচারকৃত সংগীত"
+    },
+    {
+      "text": "band students take part in adjudicated festivals annually, the Middle School band has earned superior ACSI ratings, and Tri-M recognizes the strongest musicians.",
+      "of": "7c47ac58",
+      "at": [
+        "hickory-grove-christian:verdict.holdsUp[2].text"
+      ],
+      "t": "band-এর শিক্ষার্থীরা প্রতি বছর বিচারকৃত উৎসবে অংশ নেয়, Middle School band ACSI-তে superior রেটিং পেয়েছে, এবং Tri-M সবচেয়ে দক্ষ সংগীতশিল্পীদের স্বীকৃতি দেয়।"
+    },
+    {
+      "text": "A full TK–12 ladder",
+      "of": "eb48aaf8",
+      "at": [
+        "hickory-grove-christian:verdict.holdsUp[3].label"
+      ],
+      "t": "TK–12 জুড়ে একটি পূর্ণ ধাপ"
+    },
+    {
+      "text": "visual art and general music reach every young student, widening into band, choir, theatre, technical theatre and the Exodus yearbook by High School.",
+      "of": "fb171194",
+      "at": [
+        "hickory-grove-christian:verdict.holdsUp[3].text"
+      ],
+      "t": "চারুকলা ও সাধারণ সংগীত প্রতিটি ছোট শিক্ষার্থীর কাছে পৌঁছায়, আর High School-এ গিয়ে তা band, choir, theatre, technical theatre ও Exodus yearbook-এ প্রশস্ত হয়।"
+    },
+    {
+      "text": "Where do the biennial musicals stage — what is the venue, and how many seats? No performance space is named.",
+      "of": "18856e7a",
+      "at": [
+        "hickory-grove-christian:verdict.ask[0]"
+      ],
+      "t": "দুই বছর অন্তর হওয়া musical-গুলো কোথায় মঞ্চস্থ হয় — স্থানটি কী, আর আসন কতগুলো? পরিবেশনার কোনো জায়গার নাম দেওয়া নেই।"
+    },
+    {
+      "text": "Who directs the Upper School theatre program, and who directed the Blumey-recognized Seussical and The Little Mermaid?",
+      "of": "aa099ff6",
+      "at": [
+        "hickory-grove-christian:verdict.ask[1]"
+      ],
+      "t": "Upper School-এর নাট্য কর্মসূচি কে পরিচালনা করেন, আর Blumey-স্বীকৃত Seussical ও The Little Mermaid কে পরিচালনা করেছিলেন?"
+    },
+    {
+      "text": "Is there any music beyond band and choir — an orchestra, a strings program, or an a cappella group? None is published.",
+      "of": "45a87b0e",
+      "at": [
+        "hickory-grove-christian:verdict.ask[2]"
+      ],
+      "t": "band ও choir-এর বাইরে সংগীতের অন্য কিছু আছে কি — কোনো orchestra, তারযন্ত্রের কর্মসূচি, বা a cappella দল? কিছুই প্রকাশিত নয়।"
+    },
+    {
+      "text": "What does the AP Studio Art 2D score distribution actually look like year to year, beyond \"consistently 3 or 4\"?",
+      "of": "53cc0606",
+      "at": [
+        "hickory-grove-christian:verdict.ask[3]"
+      ],
+      "t": "\"consistently 3 or 4\"-এর বাইরে বছরে বছরে AP Studio Art 2D-র স্কোরের বণ্টন আসলে কেমন?"
+    },
+    {
+      "text": "Is there a National Art Honor Society or any external visual-arts recognition (Scholastic) the page does not mention?",
+      "of": "ec42a222",
+      "at": [
+        "hickory-grove-christian:verdict.ask[4]"
+      ],
+      "t": "পাতাটিতে উল্লেখ নেই এমন কোনো National Art Honor Society বা চারুকলায় বাইরের কোনো স্বীকৃতি (Scholastic) আছে কি?"
     }
   ]
 }

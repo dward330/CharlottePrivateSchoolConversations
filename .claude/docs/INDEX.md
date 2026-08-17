@@ -14,6 +14,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Charlotte Latin School](after-school/charlotte-latin.md) — 6 docs
 - [Covenant Day School](after-school/covenant-day.md) — 4 docs
 - [Davidson Day School](after-school/davidson-day.md) — 5 docs
+- [Hickory Grove Christian School](after-school/hickory-grove-christian.md) — 1 docs
 - [Providence Day School](after-school/providence-day.md) — 6 docs
 
 ### College Support (`college-support/`)
@@ -25,6 +26,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Charlotte Latin School](college-support/charlotte-latin.md) — 11 docs
 - [Covenant Day School](college-support/covenant-day.md) — 8 docs
 - [Davidson Day School](college-support/davidson-day.md) — 10 docs
+- [Hickory Grove Christian School](college-support/hickory-grove-christian.md) — 1 docs
 - [Providence Day School](college-support/providence-day.md) — 10 docs
 
 ### Course Offerings (`course-offerings/`)
@@ -36,6 +38,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Charlotte Latin School](course-offerings/charlotte-latin.md) — 1 docs
 - [Covenant Day School](course-offerings/covenant-day.md) — 1 docs
 - [Davidson Day School](course-offerings/davidson-day.md) — 1 docs
+- [Hickory Grove Christian School](course-offerings/hickory-grove-christian.md) — 1 docs
 - [Providence Day School](course-offerings/providence-day.md) — 1 docs
 
 ### Financial Aid & Tuition (`financial-aid-tuition/`)
@@ -47,6 +50,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Charlotte Latin School](financial-aid-tuition/charlotte-latin.md) — 1 docs
 - [Covenant Day School](financial-aid-tuition/covenant-day.md) — 2 docs
 - [Davidson Day School](financial-aid-tuition/davidson-day.md) — 2 docs
+- [Hickory Grove Christian School](financial-aid-tuition/hickory-grove-christian.md) — 1 docs
 - [Providence Day School](financial-aid-tuition/providence-day.md) — 1 docs
 
 ### Sports (`sports/`)
@@ -58,6 +62,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Charlotte Latin School](sports/charlotte-latin.md) — 15 docs
 - [Covenant Day School](sports/covenant-day.md) — 15 docs
 - [Davidson Day School](sports/davidson-day.md) — 15 docs
+- [Hickory Grove Christian School](sports/hickory-grove-christian.md) — 1 docs
 - [Providence Day School](sports/providence-day.md) — 15 docs
 
 ### Student Clubs (`student-clubs/`)
@@ -69,6 +74,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Charlotte Latin School](student-clubs/charlotte-latin.md) — 8 docs
 - [Covenant Day School](student-clubs/covenant-day.md) — 6 docs
 - [Davidson Day School](student-clubs/davidson-day.md) — 9 docs
+- [Hickory Grove Christian School](student-clubs/hickory-grove-christian.md) — 1 docs
 - [Providence Day School](student-clubs/providence-day.md) — 8 docs
 
 ### Summer Programs (`summer-programs/`)
@@ -79,6 +85,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Charlotte Country Day School](summer-programs/charlotte-country-day.md) — 1 docs
 - [Charlotte Latin School](summer-programs/charlotte-latin.md) — 1 docs
 - [Covenant Day School](summer-programs/covenant-day.md) — 1 docs
+- [Hickory Grove Christian School](summer-programs/hickory-grove-christian.md) — 1 docs
 - [Providence Day School](summer-programs/providence-day.md) — 1 docs
 
 ### The Arts (`the-arts/`)
@@ -90,8 +97,9 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 - [Charlotte Latin School](the-arts/charlotte-latin.md) — 7 docs
 - [Covenant Day School](the-arts/covenant-day.md) — 7 docs
 - [Davidson Day School](the-arts/davidson-day.md) — 5 docs
+- [Hickory Grove Christian School](the-arts/hickory-grove-christian.md) — 1 docs
 - [Providence Day School](the-arts/providence-day.md) — 7 docs
 
 
 ## Data layer
-- `src/data/schools.json` — 356 documents across 8 topics and 8 schools.
+- `src/data/schools.json` — 364 documents across 8 topics and 9 schools.

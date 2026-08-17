@@ -1,5 +1,5 @@
 # Covenant Day School — Student Clubs
-> Distilled from 6 source document(s) in `source-material/student-clubs/covenant-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-16.
+> Distilled from 6 source document(s) in `source-material/student-clubs/covenant-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-17.
 **Documents:** Academic and Competitive Clubs, Club Catalog and Overview, Honor Societies, Lower and Middle School Activities, Service and Community Engagement, Signature Traditions and Student Life
 
 

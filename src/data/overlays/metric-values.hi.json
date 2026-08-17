@@ -52,6 +52,13 @@
       ]
     },
     {
+      "t": "~78",
+      "of": "2b92a7ae",
+      "at": [
+        "providence-day:[0].values.carmel-christian"
+      ]
+    },
+    {
       "t": "~75",
       "of": "2892a2f5",
       "at": [
@@ -91,6 +98,20 @@
       "of": "99d184c3",
       "at": [
         "providence-day:[0].quals.providence-day.text"
+      ]
+    },
+    {
+      "t": "केवल High School की सूची; स्कूल lower या middle school की कोई नामित कोर्स सूची प्रकाशित नहीं करता। जो विषय Standard, Honors और AP — तीनों स्तरों पर पढ़ाया जाता है, उसे अलग-अलग शीर्षकों के रूप में गिना गया है, ठीक वैसे ही जैसे स्कूल उन्हें सूचीबद्ध करता है।",
+      "of": "3fdfacc3",
+      "at": [
+        "providence-day:[0].quals.carmel-christian.text"
+      ]
+    },
+    {
+      "t": "प्रकाशित नहीं: Hickory Grove Christian की पूरी कोर्स सूची केवल एक JavaScript course-selection guide के ज़रिए दिखती है, जिसका कोई स्थिर HTML या PDF नहीं है, इसलिए कुल कोर्स संख्या सार्वजनिक रूप से उपलब्ध नहीं है। इसकी 17 कोर्स वाली AP सूची (अगली पंक्ति) ही वह आँकड़ा है जिसे गिना जा सकता है।",
+      "of": "3395a183",
+      "at": [
+        "providence-day:[0].quals.hickory-grove-christian.text"
       ]
     },
     {
@@ -143,10 +164,24 @@
       ]
     },
     {
+      "t": "16",
+      "of": "19eb271e",
+      "at": [
+        "providence-day:[1].values.carmel-christian"
+      ]
+    },
+    {
       "t": "26 AP",
       "of": "475d503a",
       "at": [
         "providence-day:[1].values.davidson-day"
+      ]
+    },
+    {
+      "t": "17 AP",
+      "of": "89e7aec2",
+      "at": [
+        "providence-day:[1].values.hickory-grove-christian"
       ]
     },
     {
@@ -192,6 +227,13 @@
       ]
     },
     {
+      "t": "स्कूल 17 AP कोर्स तथा AP Capstone (AP Seminar + AP Research) का प्रचार करता है। इसकी 2025–26 प्रोफ़ाइल 14 के नाम देती है और 2023–24 प्रोफ़ाइल ने 17 के नाम दिए थे, इसलिए किसी वर्ष कौन-से चलते हैं यह बदलता रहता है; 18 शीर्षकों का संयुक्त समूह सभी प्रोफ़ाइलों में नामित सभी कोर्सों को समेटता है।",
+      "of": "6c7330bf",
+      "at": [
+        "providence-day:[1].quals.hickory-grove-christian.text"
+      ]
+    },
+    {
       "t": "Upper School के विभाग",
       "of": "b7916ae2",
       "at": [
@@ -210,8 +252,11 @@
       "of": "3d0cb547",
       "at": [
         "providence-day:[2].values.cannon",
+        "providence-day:[2].values.hickory-grove-christian",
+        "providence-day:[9].values.carmel-christian",
         "providence-day:[24].values.charlotte-country-day",
         "providence-day:[24].values.covenant-day",
+        "providence-day:[24].values.hickory-grove-christian",
         "providence-day:[28].values.charlotte-christian"
       ]
     },
@@ -229,6 +274,7 @@
       "at": [
         "providence-day:[2].values.charlotte-country-day",
         "providence-day:[2].values.covenant-day",
+        "providence-day:[2].values.carmel-christian",
         "providence-day:[2].values.davidson-day",
         "providence-day:[24].values.providence-day",
         "providence-day:[28].values.charlotte-country-day",
@@ -251,8 +297,8 @@
       ]
     },
     {
-      "t": "सबसे हालिया बताए गए वर्ष में 3 या उससे अधिक स्कोर वाली AP परीक्षाओं का हिस्सा। Charlotte Latin और Davidson Day उत्तीर्ण दर प्रकाशित नहीं करते।",
-      "of": "abcf3feb",
+      "t": "3 या उससे अधिक अंक पाने वाली AP परीक्षाओं का हिस्सा, सबसे हालिया रिपोर्ट किए गए वर्ष के लिए। Charlotte Latin, Davidson Day और Hickory Grove Christian प्रति-परीक्षा उत्तीर्ण दर प्रकाशित नहीं करते।",
+      "of": "80c172c9",
       "at": [
         "providence-day:[3].note"
       ]
@@ -283,6 +329,13 @@
       "of": "3ec55d39",
       "at": [
         "providence-day:[3].values.covenant-day"
+      ]
+    },
+    {
+      "t": "73%",
+      "of": "2dc5384e",
+      "at": [
+        "providence-day:[3].values.carmel-christian"
       ]
     },
     {
@@ -328,6 +381,13 @@
       ]
     },
     {
+      "t": "कम से कम एक AP परीक्षा में 3 या उससे अधिक अंक पाने वाले seniors का हिस्सा, AP School Honor Roll (Platinum) के अनुसार। स्कूल के लेख में वर्ष नहीं बताया गया है; उसका metadata इसे 2023 की परीक्षाओं से जोड़ता है।",
+      "of": "9aac7a39",
+      "at": [
+        "providence-day:[3].quals.carmel-christian.text"
+      ]
+    },
+    {
       "t": "Ivy League",
       "of": "2200187e",
       "at": [
@@ -369,6 +429,20 @@
       "of": "99bd1e9d",
       "at": [
         "providence-day:[4].values.charlotte-latin"
+      ]
+    },
+    {
+      "t": "1 / 8",
+      "of": "84166ad1",
+      "at": [
+        "providence-day:[4].values.carmel-christian"
+      ]
+    },
+    {
+      "t": "0 / 8",
+      "of": "ac83bdee",
+      "at": [
+        "providence-day:[4].values.hickory-grove-christian"
       ]
     },
     {
@@ -428,6 +502,20 @@
       ]
     },
     {
+      "t": "आठ Ivy League विश्वविद्यालयों में से एक (Princeton) स्कूल की संचयी स्वीकृति सूची में दिखता है।",
+      "of": "53a03d4c",
+      "at": [
+        "providence-day:[4].quals.carmel-christian.text"
+      ]
+    },
+    {
+      "t": "8 Ivy League विश्वविद्यालयों में से कोई भी Hickory Grove Christian की प्रकाशित 2023 + 2025 स्वीकृति सूचियों में नहीं दिखता, जिन्हें 2026 की U.S. News तालिकाओं से मिलाया गया — यह आँकड़ा स्कूल स्वयं नहीं बताता।",
+      "of": "db21d1ea",
+      "at": [
+        "providence-day:[4].quals.hickory-grove-christian.text"
+      ]
+    },
+    {
       "t": "“Ivy Plus”",
       "of": "c7790b24",
       "at": [
@@ -477,10 +565,24 @@
       ]
     },
     {
+      "t": "2 / 12",
+      "of": "b5bce023",
+      "at": [
+        "providence-day:[5].values.carmel-christian"
+      ]
+    },
+    {
       "t": "8 / 17",
       "of": "50395612",
       "at": [
         "providence-day:[5].values.davidson-day"
+      ]
+    },
+    {
+      "t": "0 / 17",
+      "of": "6c52937a",
+      "at": [
+        "providence-day:[5].values.hickory-grove-christian"
       ]
     },
     {
@@ -540,6 +642,20 @@
       ]
     },
     {
+      "t": "बारह “Ivy Plus” संस्थानों में से दो (Princeton, Duke) स्वीकृति सूची में दिखते हैं।",
+      "of": "394d59b8",
+      "at": [
+        "providence-day:[5].quals.carmel-christian.text"
+      ]
+    },
+    {
+      "t": "17 “Ivy Plus” संस्थानों में से कोई भी Hickory Grove Christian की प्रकाशित 2023 + 2025 स्वीकृति सूचियों में नहीं दिखता, जिन्हें 2026 की U.S. News तालिकाओं से मिलाया गया — यह आँकड़ा स्कूल स्वयं नहीं बताता।",
+      "of": "dd27d14f",
+      "at": [
+        "providence-day:[5].quals.hickory-grove-christian.text"
+      ]
+    },
+    {
       "t": "शीर्ष-75 National Universities",
       "of": "4fcd95b1",
       "at": [
@@ -590,10 +706,24 @@
       ]
     },
     {
+      "t": "~27",
+      "of": "b68b33ba",
+      "at": [
+        "providence-day:[6].values.carmel-christian"
+      ]
+    },
+    {
       "t": "44 / 75",
       "of": "478803e0",
       "at": [
         "providence-day:[6].values.davidson-day"
+      ]
+    },
+    {
+      "t": "22 / 75",
+      "of": "ecf89430",
+      "at": [
+        "providence-day:[6].values.hickory-grove-christian"
       ]
     },
     {
@@ -653,6 +783,20 @@
       ]
     },
     {
+      "t": "स्कूल की संचयी स्वीकृति सूची में नामित US News Top-75 National Universities की गिनती, जिसमें कोई वर्ष-अवधि नहीं बताई गई है। कई संस्थान इस वर्ष की रैंकिंग की कट-सीमा के आसपास हैं।",
+      "of": "82974820",
+      "at": [
+        "providence-day:[6].quals.carmel-christian.text"
+      ]
+    },
+    {
+      "t": "शीर्ष 75 National Universities में से 22 Hickory Grove Christian की प्रकाशित 2023 + 2025 स्वीकृति सूचियों में दिखते हैं, जिन्हें 2026 की U.S. News तालिकाओं से मिलाया गया — यह आँकड़ा स्कूल स्वयं नहीं बताता।",
+      "of": "45407bc9",
+      "at": [
+        "providence-day:[6].quals.hickory-grove-christian.text"
+      ]
+    },
+    {
       "t": "शीर्ष-75 Liberal Arts",
       "of": "38effdb0",
       "at": [
@@ -691,7 +835,15 @@
       "t": "9 / 75",
       "of": "fff53af3",
       "at": [
-        "providence-day:[7].values.covenant-day"
+        "providence-day:[7].values.covenant-day",
+        "providence-day:[7].values.hickory-grove-christian"
+      ]
+    },
+    {
+      "t": "~10",
+      "of": "1f838a40",
+      "at": [
+        "providence-day:[7].values.carmel-christian"
       ]
     },
     {
@@ -758,6 +910,20 @@
       ]
     },
     {
+      "t": "संचयी स्वीकृति सूची में नामित US News Top-75 Liberal Arts Colleges; इनमें से कुछ रैंकिंग की कट-सीमा के आसपास हैं।",
+      "of": "1aaa66bf",
+      "at": [
+        "providence-day:[7].quals.carmel-christian.text"
+      ]
+    },
+    {
+      "t": "शीर्ष 75 Liberal Arts Colleges में से 9 Hickory Grove Christian की प्रकाशित 2023 + 2025 स्वीकृति सूचियों में दिखते हैं (जिनमें Bowdoin, Pomona, Claremont McKenna, Grinnell, Colgate, Washington & Lee शामिल हैं), जिन्हें 2026 की U.S. News तालिकाओं से मिलाया गया।",
+      "of": "c9b0b9d9",
+      "at": [
+        "providence-day:[7].quals.hickory-grove-christian.text"
+      ]
+    },
+    {
       "t": "Power Four",
       "of": "b3297a32",
       "at": [
@@ -801,10 +967,24 @@
       ]
     },
     {
+      "t": "~38 / 68",
+      "of": "897f0e9f",
+      "at": [
+        "providence-day:[8].values.carmel-christian"
+      ]
+    },
+    {
       "t": "42 / 68",
       "of": "a1f5c978",
       "at": [
         "providence-day:[8].values.davidson-day"
+      ]
+    },
+    {
+      "t": "24 / 68",
+      "of": "1f2aff48",
+      "at": [
+        "providence-day:[8].values.hickory-grove-christian"
       ]
     },
     {
@@ -864,6 +1044,20 @@
       ]
     },
     {
+      "t": "संचयी स्वीकृति सूची में नामित Power Four सदस्य (कुल 68 में से, जिनमें Notre Dame भी शामिल है)। सूची में न कोई वर्ष-अवधि बताई गई है, न कोई दाख़िला चिह्नित है।",
+      "of": "2f109512",
+      "at": [
+        "providence-day:[8].quals.carmel-christian.text"
+      ]
+    },
+    {
+      "t": "68 Power Four विश्वविद्यालयों में से 24 Hickory Grove Christian की प्रकाशित 2023 + 2025 स्वीकृति सूचियों में दिखते हैं (UConn Big East में है, Power Four में नहीं, इसलिए उसे छोड़ा गया है)। यह आँकड़ा स्कूल स्वयं नहीं बताता।",
+      "of": "0ac96ff3",
+      "at": [
+        "providence-day:[8].quals.hickory-grove-christian.text"
+      ]
+    },
+    {
       "t": "HBCUs",
       "of": "d6316d90",
       "at": [
@@ -911,6 +1105,13 @@
       "at": [
         "providence-day:[9].values.covenant-day",
         "providence-day:[9].values.davidson-day"
+      ]
+    },
+    {
+      "t": "20 / 107",
+      "of": "23377734",
+      "at": [
+        "providence-day:[9].values.hickory-grove-christian"
       ]
     },
     {
@@ -967,6 +1168,20 @@
       "of": "1ac66519",
       "at": [
         "providence-day:[9].quals.providence-day.text"
+      ]
+    },
+    {
+      "t": "स्वीकृति सूची में नामित Historically Black colleges and universities।",
+      "of": "c7e59bc6",
+      "at": [
+        "providence-day:[9].quals.carmel-christian.text"
+      ]
+    },
+    {
+      "t": "107 Historically Black Colleges & Universities में से 20 Hickory Grove Christian की प्रकाशित 2023 + 2025 स्वीकृति सूचियों में दिखते हैं (जिनमें Howard, Hampton, Morehouse, NC A&T, Florida A&M, Fisk शामिल हैं) — यानी HBCU तक पहुँच की उल्लेखनीय रूप से गहरी धारा।",
+      "of": "31d4d033",
+      "at": [
+        "providence-day:[9].quals.hickory-grove-christian.text"
       ]
     },
     {
@@ -1131,10 +1346,24 @@
       ]
     },
     {
+      "t": "$18,750",
+      "of": "984cd4da",
+      "at": [
+        "providence-day:[11].values.carmel-christian"
+      ]
+    },
+    {
       "t": "$26,910",
       "of": "d7e28b59",
       "at": [
         "providence-day:[11].values.davidson-day"
+      ]
+    },
+    {
+      "t": "$13,750",
+      "of": "fc371887",
+      "at": [
+        "providence-day:[11].values.hickory-grove-christian"
       ]
     },
     {
@@ -1152,6 +1381,13 @@
       ]
     },
     {
+      "t": "कक्षा 9–12 का बैंड ($13,750)। स्कूल का ट्यूशन पेज एक portal widget के ज़रिए दिखता है, इसलिए यह मौजूदा आँकड़ा किसी स्कूल PDF से लेने के बजाय दो तीसरे-पक्ष के mirror से पुष्ट किया गया है; सटीक शैक्षणिक वर्ष नहीं बताया गया है।",
+      "of": "a3a396b5",
+      "at": [
+        "providence-day:[11].quals.hickory-grove-christian.text"
+      ]
+    },
+    {
       "t": "सहायता पाने वालों का %",
       "of": "dcbef77c",
       "at": [
@@ -1159,8 +1395,8 @@
       ]
     },
     {
-      "t": "सहायता पाने वाले छात्रों/परिवारों का हिस्सा, जैसा स्कूल बताता है। जहाँ स्कूल “approximately” कहता है वहाँ “~” लगाया गया है; वर्ष और आधार-संख्या अलग-अलग हैं — स्कूल की रिपोर्ट देखें। Charlotte Christian और Davidson Day यह प्रकाशित नहीं करते।",
-      "of": "aeb0b11c",
+      "t": "सहायता पाने वाले छात्रों/परिवारों का हिस्सा, जैसा स्कूल स्वयं बताता है। जहाँ स्कूल “approximately” कहता है वहाँ “~” लगाया गया है; वर्ष/हर बदलते रहते हैं — स्कूल की रिपोर्ट देखें। Charlotte Christian, Davidson Day और Hickory Grove Christian इसे प्रकाशित नहीं करते।",
+      "of": "c53ce403",
       "at": [
         "providence-day:[12].note"
       ]
@@ -1185,6 +1421,13 @@
       "of": "842974e7",
       "at": [
         "providence-day:[12].values.charlotte-latin"
+      ]
+    },
+    {
+      "t": "20%",
+      "of": "cee768ae",
+      "at": [
+        "providence-day:[12].values.carmel-christian"
       ]
     },
     {
@@ -1362,7 +1605,15 @@
       "of": "0ebb0ed6",
       "at": [
         "providence-day:[15].values.charlotte-latin",
+        "providence-day:[15].values.hickory-grove-christian",
         "providence-day:[15].values.providence-day"
+      ]
+    },
+    {
+      "t": "K–12",
+      "of": "e0278c04",
+      "at": [
+        "providence-day:[15].values.carmel-christian"
       ]
     },
     {
@@ -1407,6 +1658,20 @@
       "of": "06d6f2d3",
       "at": [
         "providence-day:[15].quals.davidson-day.text"
+      ]
+    },
+    {
+      "t": "कला K–12 तक चलती है: कक्षा K–4 में संगीत और कला पाठ्यक्रम में समाहित रहते हैं, और कक्षा 5 से आगे क्रमबद्ध तथा ऐच्छिक हो जाते हैं।",
+      "of": "f67b4480",
+      "at": [
+        "providence-day:[15].quals.carmel-christian.text"
+      ]
+    },
+    {
+      "t": "कला Transitional Kindergarten (TK) से कक्षा 12 तक दी जाती है — शुरुआती कक्षाओं में दृश्य-कला और सामान्य संगीत, जो High School तक आते-आते band, choir, theatre और एक स्तरबद्ध स्टूडियो ट्रैक तक चौड़े हो जाते हैं।",
+      "of": "6d8aaff6",
+      "at": [
+        "providence-day:[15].quals.hickory-grove-christian.text"
       ]
     },
     {
@@ -1459,6 +1724,20 @@
       ]
     },
     {
+      "t": "2026 Blumey — Best Actress",
+      "of": "381ce8f4",
+      "at": [
+        "providence-day:[16].values.carmel-christian"
+      ]
+    },
+    {
+      "t": "2025–26 के Blumey नामांकन",
+      "of": "5a21c3aa",
+      "at": [
+        "providence-day:[16].values.hickory-grove-christian"
+      ]
+    },
+    {
       "t": "Blumey पहचान",
       "of": "cc199a5c",
       "at": [
@@ -1508,6 +1787,20 @@
       ]
     },
     {
+      "t": "Best Actress के लिए 2026 का Blumey Award — Footloose के लिए Anna Jernigan। विजेता राष्ट्रीय Jimmy Awards तक पहुँचता है।",
+      "of": "e3a50509",
+      "at": [
+        "providence-day:[16].quals.carmel-christian.text"
+      ]
+    },
+    {
+      "t": "लगातार दो सत्रों में Blumey Award के नामांकित और finalists — Seussical (2025) और Disney’s The Little Mermaid (2026), जिनमें Amara Aghedo और Christian Young दोहराए गए। कोई सीधी जीत प्रकाशित नहीं है। Blumeys, Charlotte क्षेत्र के High School musical-theatre पुरस्कार हैं।",
+      "of": "b5035838",
+      "at": [
+        "providence-day:[16].quals.hickory-grove-christian.text"
+      ]
+    },
+    {
       "t": "उन्नत पाठ्यक्रम",
       "of": "a79c3149",
       "at": [
@@ -1534,6 +1827,25 @@
       "of": "3b521870",
       "at": [
         "providence-day:[17].values.charlotte-country-day"
+      ]
+    },
+    {
+      "t": "3",
+      "of": "360caa42",
+      "at": [
+        "providence-day:[17].values.carmel-christian",
+        "providence-day:[18].values.carmel-christian",
+        "providence-day:[28].values.charlotte-latin",
+        "providence-day:[28].values.davidson-day",
+        "providence-day:[29].values.cannon",
+        "providence-day:[29].values.hickory-grove-christian"
+      ]
+    },
+    {
+      "t": "AP Studio Art 2D",
+      "of": "dafc312f",
+      "at": [
+        "providence-day:[17].values.hickory-grove-christian"
       ]
     },
     {
@@ -1569,6 +1881,13 @@
       "of": "37750126",
       "at": [
         "providence-day:[17].quals.providence-day.text"
+      ]
+    },
+    {
+      "t": "स्कूल जिस उन्नत कला कोर्स का नाम लेता है वह AP Studio Art 2D (AP 2-D Art & Design) है, जो Art I–IV स्टूडियो क्रम के शीर्ष पर है; छात्र \"consistently score 3 or 4.\"",
+      "of": "c9894b1e",
+      "at": [
+        "providence-day:[17].quals.hickory-grove-christian.text"
       ]
     },
     {
@@ -1614,6 +1933,13 @@
       ]
     },
     {
+      "t": "3 एन्सेम्बल",
+      "of": "6d5a020e",
+      "at": [
+        "providence-day:[18].values.hickory-grove-christian"
+      ]
+    },
+    {
       "t": "4 समूह",
       "of": "ddc02b07",
       "at": [
@@ -1653,6 +1979,13 @@
       "of": "15743562",
       "at": [
         "providence-day:[18].quals.providence-day.text"
+      ]
+    },
+    {
+      "t": "High School के तीन नामित ensembles — Concert Band, Jazz Band और Choir। किसी भी स्तर पर कोई orchestra नहीं दिया जाता।",
+      "of": "1290bb44",
+      "at": [
+        "providence-day:[18].quals.hickory-grove-christian.text"
       ]
     },
     {
@@ -1706,10 +2039,24 @@
       ]
     },
     {
+      "t": "~5",
+      "of": "885dbb3c",
+      "at": [
+        "providence-day:[19].values.carmel-christian"
+      ]
+    },
+    {
       "t": "≥9",
       "of": "e05ccd9b",
       "at": [
         "providence-day:[19].values.davidson-day"
+      ]
+    },
+    {
+      "t": "27",
+      "of": "8af294c6",
+      "at": [
+        "providence-day:[19].values.hickory-grove-christian"
       ]
     },
     {
@@ -1762,6 +2109,20 @@
       ]
     },
     {
+      "t": "High School के स्थायी छात्र संगठन: National Honor Society, National Beta Club, Spanish Honor Society, Student Council, और Timothy Project। इनके अलावा क्लब छात्रों द्वारा आवेदन देकर शुरू किए जाते हैं, इसलिए कोई निश्चित सूची प्रकाशित नहीं है।",
+      "of": "64db848f",
+      "at": [
+        "providence-day:[19].quals.carmel-christian.text"
+      ]
+    },
+    {
+      "t": "एक ही संग्राहक (PrivateSchoolReview) से लिए गए 27 ग़ैर-खेल संगठन (18 क्लब/संगठन + 9 कला/संगीत) — स्कूल की अपनी साइट पर कोई clubs पेज नहीं है, इसलिए यह एकल-स्रोत गिनती है। इनमें से पाँच honor societies हैं; एक हिस्से (Choir, Drama, Jazz Band, Discipleship) की पुष्टि स्कूल की साइट पर होती है।",
+      "of": "60c9c31d",
+      "at": [
+        "providence-day:[19].quals.hickory-grove-christian.text"
+      ]
+    },
+    {
       "t": "प्रमुख उपलब्धि",
       "of": "472b065e",
       "at": [
@@ -1808,6 +2169,13 @@
       "of": "50ea292d",
       "at": [
         "providence-day:[20].values.covenant-day"
+      ]
+    },
+    {
+      "t": "2022 का NCISAA 4A basketball ख़िताब",
+      "of": "643bd5bc",
+      "at": [
+        "providence-day:[20].values.carmel-christian"
       ]
     },
     {
@@ -1871,6 +2239,13 @@
       "of": "833db766",
       "at": [
         "providence-day:[20].quals.providence-day.text"
+      ]
+    },
+    {
+      "t": "2022 का NCISAA 4A लड़कों का basketball राज्य ख़िताब (Greensboro Day को 71–66 से हराया; Cade Tyson ने 31 अंक बनाए)। लड़कियों की soccer टीम 2026 के 4A फ़ाइनल तक पहुँची और उपविजेता रही।",
+      "of": "c4b526ed",
+      "at": [
+        "providence-day:[20].quals.carmel-christian.text"
       ]
     },
     {
@@ -1964,8 +2339,16 @@
         "providence-day:[22].values.charlotte-country-day",
         "providence-day:[22].values.charlotte-latin",
         "providence-day:[22].values.covenant-day",
+        "providence-day:[22].values.carmel-christian",
         "providence-day:[22].values.davidson-day",
         "providence-day:[22].values.cannon"
+      ]
+    },
+    {
+      "t": "5:30 PM",
+      "of": "ce6d8030",
+      "at": [
+        "providence-day:[22].values.hickory-grove-christian"
       ]
     },
     {
@@ -2008,6 +2391,20 @@
       "of": "2f34b58d",
       "at": [
         "providence-day:[22].quals.davidson-day.text"
+      ]
+    },
+    {
+      "t": "After School / After YCC देखभाल 3:00–6:00 PM चलती है; 6:00 PM बच्चे को ले जाने का सबसे देर का प्रकाशित समय है।",
+      "of": "29662437",
+      "at": [
+        "providence-day:[22].quals.carmel-christian.text"
+      ]
+    },
+    {
+      "t": "Afterschool कार्यक्रम (TK–5) और Study Hall (कक्षा 6–11) एक ही 2:30–5:30 p.m. अवधि साझा करते हैं, इसलिए बच्चे को ले जाने का सबसे देर का समय 5:30 p.m. है — बाक़ी स्कूलों के 6:00 p.m. से पहले।",
+      "of": "7c44cd2b",
+      "at": [
+        "providence-day:[22].quals.hickory-grove-christian.text"
       ]
     },
     {
@@ -2060,6 +2457,13 @@
       ]
     },
     {
+      "t": "$245/माह",
+      "of": "fca2b9dd",
+      "at": [
+        "providence-day:[23].values.carmel-christian"
+      ]
+    },
+    {
       "t": "$750/माह",
       "of": "d147bcce",
       "at": [
@@ -2099,6 +2503,13 @@
       "of": "71c8d334",
       "at": [
         "providence-day:[23].subs.covenant-day"
+      ]
+    },
+    {
+      "t": "≈$2,205/वर्ष",
+      "of": "9ebecfe2",
+      "at": [
+        "providence-day:[23].subs.carmel-christian"
       ]
     },
     {
@@ -2144,6 +2555,13 @@
       ]
     },
     {
+      "t": "Carmel Christian एक ही समान After School / After YCC दर प्रकाशित करता है — सप्ताह में पाँच दिन, 3:00–6:00 p.m. के लिए $245/माह — जो हर कक्षा के लिए एक जैसी है, इसके साथ दिखने वाले कक्षा-दर-कक्षा दर वाले स्कूलों के उलट। वार्षिक कुल राशि इसे handbook में बताए गए नौ बिलिंग महीनों में फैलाती है; 7:30 a.m. से before-care $110/माह है, और $30/दिन का एक drop-in विकल्प भी है।",
+      "of": "cf0e9d8e",
+      "at": [
+        "providence-day:[23].quals.carmel-christian.text"
+      ]
+    },
+    {
       "t": "Transitional Kindergarten 1–6 p.m. टियर पर, हफ़्ते में पाँच दिन, मासिक $750 पर बिल; साल का कुल 10 महीने मानकर निकाला गया है, और स्कूल साफ़ कहता है कि वह कितने महीनों का बिल बनाता है यह छापा नहीं गया। TK की छुट्टी 1:00 p.m. पर होती है, इसलिए इससे रोज़ 5 घंटे मिलते हैं; ग्रेड 1–5 के लिए 3–6 p.m. का ख़र्च $470/माह है, और ड्रॉप-इन का कोई विकल्प नहीं है।",
       "of": "16104bd6",
       "at": [
@@ -2176,7 +2594,8 @@
       "t": "6",
       "of": "330ca589",
       "at": [
-        "providence-day:[24].values.charlotte-christian"
+        "providence-day:[24].values.charlotte-christian",
+        "providence-day:[24].values.carmel-christian"
       ]
     },
     {
@@ -2184,6 +2603,13 @@
       "of": "e9f9e019",
       "at": [
         "providence-day:[24].quals.charlotte-country-day.text"
+      ]
+    },
+    {
+      "t": "2026 का मौजूदा पेज आठ सत्र-अवधियाँ (Jun–Jul) दिखाता है, जो Internet Archive से प्राप्त Summer 2023 सूची के ~8 सप्ताह-खंडों से मेल खाती हैं; 2026 के camps के सटीक नाम स्कूल के registration platform के पीछे छिपे हैं।",
+      "of": "952a5232",
+      "at": [
+        "providence-day:[24].quals.hickory-grove-christian.text"
       ]
     },
     {
@@ -2250,6 +2676,21 @@
       ]
     },
     {
+      "t": "36",
+      "of": "89f0549c",
+      "at": [
+        "providence-day:[25].values.carmel-christian"
+      ]
+    },
+    {
+      "t": "17",
+      "of": "1aeb28b1",
+      "at": [
+        "providence-day:[25].values.hickory-grove-christian",
+        "providence-day:[28].values.providence-day"
+      ]
+    },
+    {
       "t": "170",
       "of": "e130c313",
       "at": [
@@ -2261,6 +2702,13 @@
       "of": "94ffcc7f",
       "at": [
         "providence-day:[25].quals.cannon.text"
+      ]
+    },
+    {
+      "t": "Summer 2023 की सूची में 17 नामित camps — 12 शैक्षणिक/enrichment और 5 खेल — जो Internet Archive से प्राप्त हुए, क्योंकि 2026 की मौजूदा सूची स्कूल के registration platform के पीछे छिपी है। यह एक प्रतिनिधि सूची है, 2026 की सटीक सूची नहीं।",
+      "of": "e5176267",
+      "at": [
+        "providence-day:[25].quals.hickory-grove-christian.text"
       ]
     },
     {
@@ -2343,6 +2791,20 @@
       ]
     },
     {
+      "t": "rising K–8",
+      "of": "d534a63d",
+      "at": [
+        "providence-day:[26].values.carmel-christian"
+      ]
+    },
+    {
+      "t": "1–8 में जाने वाले",
+      "of": "cbc3c1d3",
+      "at": [
+        "providence-day:[26].values.hickory-grove-christian"
+      ]
+    },
+    {
       "t": "स्कूल कहता है कि कैंप “3.5 - 18 वर्ष के सभी कैंपर्स के लिए खुले हैं”। उम्र 1 अगस्त 2026 के आधार पर गिनी जाती है, और Pre-K के सभी कैंपर्स का टॉयलेट ट्रेनिंग पूरा होना ज़रूरी है।",
       "of": "e3070636",
       "at": [
@@ -2385,6 +2847,20 @@
       ]
     },
     {
+      "t": "Summer Adventures rising kindergarten से rising 8th grade तक के लिए है; अलग-अलग camps के दायरे इससे सँकरे हैं।",
+      "of": "a35bbc86",
+      "at": [
+        "providence-day:[26].quals.carmel-christian.text"
+      ]
+    },
+    {
+      "t": "अधिकांश camps rising 1st–8th graders के लिए हैं, साथ ही एक High School camp भी (rising juniors और seniors के लिए College Admissions Boot Camp)। Summer 2023 की सूची से, जो Internet Archive से प्राप्त हुई।",
+      "of": "cdadf459",
+      "at": [
+        "providence-day:[26].quals.hickory-grove-christian.text"
+      ]
+    },
+    {
       "t": "कैंप से पहले और बाद की देखभाल",
       "of": "2459c4c2",
       "at": [
@@ -2419,6 +2895,13 @@
       "of": "792cd57e",
       "at": [
         "providence-day:[27].values.charlotte-country-day"
+      ]
+    },
+    {
+      "t": "12–1 PM",
+      "of": "f9a26929",
+      "at": [
+        "providence-day:[27].values.carmel-christian"
       ]
     },
     {
@@ -2471,6 +2954,13 @@
       ]
     },
     {
+      "t": "wrap-around देखभाल केवल 12–1 PM के After Camp Lunch Hour add-on तक सीमित है; camp से पहले या पूरे दिन की कोई देखभाल प्रकाशित नहीं है।",
+      "of": "a8a24ad5",
+      "at": [
+        "providence-day:[27].quals.carmel-christian.text"
+      ]
+    },
+    {
       "t": "Power 4 प्रतिबद्धताएँ",
       "of": "1f2f8490",
       "at": [
@@ -2493,19 +2983,11 @@
       ]
     },
     {
-      "t": "3",
-      "of": "360caa42",
+      "t": "0",
+      "of": "350ca8af",
       "at": [
-        "providence-day:[28].values.charlotte-latin",
-        "providence-day:[28].values.davidson-day",
-        "providence-day:[29].values.cannon"
-      ]
-    },
-    {
-      "t": "17",
-      "of": "1aeb28b1",
-      "at": [
-        "providence-day:[28].values.providence-day"
+        "providence-day:[28].values.carmel-christian",
+        "providence-day:[28].values.hickory-grove-christian"
       ]
     },
     {
@@ -2576,6 +3058,13 @@
       ]
     },
     {
+      "t": "5",
+      "of": "300ca0d0",
+      "at": [
+        "providence-day:[29].values.carmel-christian"
+      ]
+    },
+    {
       "t": "39",
       "of": "90f05fa1",
       "at": [
@@ -2587,6 +3076,13 @@
       "of": "3a938b8a",
       "at": [
         "providence-day:[29].quals.covenant-day.text"
+      ]
+    },
+    {
+      "t": "एक प्रलेखित न्यूनतम — तीनों baseball के हैं: Class of 2025 में Davis Cabbage (UNC Wilmington) और Ben Green (UNC Asheville), साथ ही Brady Johnson (ETSU)। सभी mid-major D1 हैं; कोई Power 4 और किसी अन्य खेल का कोई commit सामने नहीं आया, और स्कूल सभी खेलों की कोई सूची प्रकाशित नहीं करता।",
+      "of": "fdfe26b8",
+      "at": [
+        "providence-day:[29].quals.hickory-grove-christian.text"
       ]
     }
   ]

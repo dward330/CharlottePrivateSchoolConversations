@@ -56,6 +56,7 @@ const EXPORTS = {
   'covenant-day': 'covenantDay',
   'davidson-day': 'davidsonDay',
   'carmel-christian': 'carmelChristian',
+  'hickory-grove-christian': 'hickoryGroveChristian',
 }
 
 /**

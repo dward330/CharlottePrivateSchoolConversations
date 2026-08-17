@@ -112,6 +112,7 @@ export const COLLEGE_RANKINGS: Record<string, string> = {
   "Florida Gulf Coast University": "National Rank #318",
   "Florida Institute of Technology": "National Rank #232",
   "Florida State University": "National Rank #51",
+  "Fordham University": "National Rank #97",
   "Franklin and Marshall College": "Liberal Rank #35",
   "Furman University": "Liberal Rank #45",
   "Gardner-Webb University": "National Rank #384",
@@ -121,6 +122,8 @@ export const COLLEGE_RANKINGS: Record<string, string> = {
   "Georgia Southern University": "National Rank #343",
   "Georgia Tech": "National Rank #32",
   "Gettysburg College": "Liberal Rank #58",
+  "Grand Canyon University": "National Rank #395-434",
+  "Grinnell College": "Liberal Rank #13",
   "Gordon College": "Liberal Rank #156",
   "Goucher College": "Liberal Rank #126",
   "Guilford College": "Liberal Rank #172",
@@ -477,6 +480,15 @@ const ALIAS: Record<string, string> = {
   'univ of massachusetts': 'University of Massachusetts Amherst',
   'univ of hawaii': 'University of Hawaii at Manoa',
   'univ of tennessee': 'The University of Tennessee, Knoxville',
+  // Hickory Grove's list writes the Knoxville flagship with the campus tag and
+  // "Institute" unabbreviated — both normalize away from the canonical keys.
+  'univ of tennessee knoxville': 'University of Tennessee',
+  'rensselaer polytechnic institute': 'Rensselaer Polytechnic Inst.',
+  // Hickory Grove's 2023 list writes these two verbatim in forms that normalize
+  // away from the canonical keys — W&L without "University", Penn State spelled
+  // out with "at University Park".
+  'washington & lee': 'Washington and Lee University',
+  'pennsylvania state univ at university park': 'Penn State University, University Park',
   'penn state univ': 'Penn State University (University Park)',
   'purdue univ main campus': 'Purdue University',
   // Sewanee appears with the "Sewanee" tag before, after, or absent — all one school.

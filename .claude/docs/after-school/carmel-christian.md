@@ -1,5 +1,5 @@
 # Carmel Christian School — After School
-> Distilled from 1 source document(s) in `source-material/after-school/carmel-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-16.
+> Distilled from 1 source document(s) in `source-material/after-school/carmel-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-17.
 **Documents:** Extended Day
 
 

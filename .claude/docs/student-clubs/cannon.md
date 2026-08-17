@@ -1,5 +1,5 @@
 # Cannon School — Student Clubs
-> Distilled from 10 source document(s) in `source-material/student-clubs/cannon/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-16.
+> Distilled from 10 source document(s) in `source-material/student-clubs/cannon/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-17.
 **Documents:** Affinity and Identity Groups, Catalog Upper School, Governance and Student Leadership, Honor Societies, Lower School, Middle School, NotebookLM Prompt, Service Learning and Community Engagement, Signature Competitive Programs, Clubs Redesign Deep Research
 
 

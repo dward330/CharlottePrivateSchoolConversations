@@ -81,7 +81,8 @@
         "providence-day:affinity.strips[0].title",
         "providence-day:catalog.divisions[0].label",
         "charlotte-christian:affinity.strips[1].title",
-        "charlotte-country-day:affinity.strips[0].title"
+        "charlotte-country-day:affinity.strips[0].title",
+        "hickory-grove-christian:catalog.clubs[1].note"
       ]
     },
     {
@@ -284,7 +285,9 @@
         "charlotte-country-day:honors.societies[0].feedsFrom",
         "cannon:honors.societies[0].feedsFrom",
         "carmel-christian:honors.societies[0].feedsFrom",
-        "carmel-christian:honors.societies[3].feedsFrom"
+        "carmel-christian:honors.societies[3].feedsFrom",
+        "hickory-grove-christian:honors.societies[0].feedsFrom",
+        "hickory-grove-christian:honors.societies[1].feedsFrom"
       ]
     },
     {
@@ -1189,7 +1192,8 @@
         "davidson-day:catalog.divisions[0].tag",
         "carmel-christian:catalog.divisions[0].tag",
         "carmel-christian:catalog.divisions[1].tag",
-        "carmel-christian:catalog.divisions[2].tag"
+        "carmel-christian:catalog.divisions[2].tag",
+        "hickory-grove-christian:catalog.divisions[1].tag"
       ]
     },
     {
@@ -2233,7 +2237,8 @@
       "at": [
         "charlotte-christian:catalog.categories[1].short",
         "covenant-day:catalog.categories[1].full",
-        "carmel-christian:catalog.categories[0].short"
+        "carmel-christian:catalog.categories[0].short",
+        "hickory-grove-christian:catalog.categories[0].short"
       ]
     },
     {
@@ -2241,7 +2246,8 @@
       "of": "c53b433d",
       "at": [
         "charlotte-christian:catalog.categories[1].full",
-        "carmel-christian:catalog.categories[0].full"
+        "carmel-christian:catalog.categories[0].full",
+        "hickory-grove-christian:catalog.categories[0].full"
       ]
     },
     {
@@ -3088,7 +3094,8 @@
       "t": "studi sociali",
       "of": "29a76cb3",
       "at": [
-        "cannon:honors.societies[1].feedsFrom"
+        "cannon:honors.societies[1].feedsFrom",
+        "hickory-grove-christian:honors.societies[4].feedsFrom"
       ]
     },
     {
@@ -3292,7 +3299,8 @@
       "of": "99a4be51",
       "at": [
         "cannon:catalog.countNoun",
-        "carmel-christian:catalog.countNoun"
+        "carmel-christian:catalog.countNoun",
+        "hickory-grove-christian:catalog.countNoun"
       ]
     },
     {
@@ -4305,7 +4313,8 @@
       "t": "Honor society →",
       "of": "48a8bb43",
       "at": [
-        "carmel-christian:clusters.rows[0].name"
+        "carmel-christian:clusters.rows[0].name",
+        "hickory-grove-christian:clusters.rows[0].name"
       ]
     },
     {
@@ -4447,6 +4456,411 @@
       "of": "e3695031",
       "at": [
         "carmel-christian:catalog.divisions[2].text"
+      ]
+    },
+    {
+      "t": "Una spina dorsale di fede e servizio costruita su viaggi missionari internazionali e su una collaborazione attiva con un banco alimentare — i programmi di servizio che il sito della scuola stessa conferma.",
+      "of": "5a43219c",
+      "at": [
+        "hickory-grove-christian:service.headline"
+      ]
+    },
+    {
+      "t": "Qui il servizio passa dal ministero della chiesa anziché da un singolo club registrato: viaggi missionari in quattro Paesi, un programma di acquaponica che rifornisce il banco alimentare di una chiesa e programmi di leadership indicati per nome.",
+      "of": "bfe2a7fa",
+      "at": [
+        "hickory-grove-christian:service.subhead"
+      ]
+    },
+    {
+      "t": "Paesi · viaggi missionari internazionali",
+      "of": "3e32daaa",
+      "at": [
+        "hickory-grove-christian:service.programs[0].valueLabel"
+      ]
+    },
+    {
+      "t": "La scuola nomina attività di sensibilizzazione internazionale e viaggi missionari nella Repubblica Dominicana, in Ecuador, ad Haiti e in Kenya — l'impegno di servizio pubblicato più chiaro, corroborato sulla pagina Academics della scuola stessa.",
+      "of": "4b22b86e",
+      "at": [
+        "hickory-grove-christian:service.programs[0].detail"
+      ]
+    },
+    {
+      "t": "banco alimentare · tramite acquaponica",
+      "of": "52148830",
+      "at": [
+        "hickory-grove-christian:service.programs[1].valueLabel"
+      ]
+    },
+    {
+      "t": "HGCS gestisce un programma di acquaponica che rifornisce il banco alimentare della Hickory Grove Baptist Church — un canale permanente di servizio alla comunità confermato dalla scuola, anziché un club a iscrizione volontaria.",
+      "of": "9de5be9e",
+      "at": [
+        "hickory-grove-christian:service.programs[1].detail"
+      ]
+    },
+    {
+      "t": "programmi di leadership indicati per nome",
+      "of": "3717214e",
+      "at": [
+        "hickory-grove-christian:service.programs[2].valueLabel"
+      ]
+    },
+    {
+      "t": "L'elenco dell'aggregatore nomina un capitolo della Chick-fil-A Leadership Academy e un programma Global Ambassadors, oltre al discepolato in piccoli gruppi; il sito della scuola conferma il discepolato ma non i due programmi nominati singolarmente.",
+      "of": "07c503e8",
+      "at": [
+        "hickory-grove-christian:service.programs[2].detail"
+      ]
+    },
+    {
+      "t": "L'elenco più ampio",
+      "of": "2a8bc1b2",
+      "at": [
+        "hickory-grove-christian:service.footnoteTitle"
+      ]
+    },
+    {
+      "t": "PrivateSchoolReview elenca in tutto 27 organizzazioni non sportive — 18 \"Clubs and Organizations\" e 9 \"Arts and Music\" — che spaziano dai club d'interesse (Apologetics, Public Speaking, Spanish, International Culture, Venture, Spirit) ai club artistici (Art, Guitar, Ukulele, Fiber, Pep Band, Praise Band). L'elenco completo si trova nella scheda Club Catalog, segnalato come a fonte unica.",
+      "of": "d252f31e",
+      "at": [
+        "hickory-grove-christian:service.footnote"
+      ]
+    },
+    {
+      "t": "L'elenco delle 27 organizzazioni è a fonte unica (PrivateSchoolReview) — la scuola non pubblica alcuna pagina su club o attività. I viaggi missionari, la collaborazione con il banco alimentare, il discepolato, il coro, il teatro e la jazz band sono corroborati singolarmente sul sito della scuola; gli altri club nominati si basano unicamente sull'aggregatore.",
+      "of": "dce3f70c",
+      "at": [
+        "hickory-grove-christian:service.flags[0].text"
+      ]
+    },
+    {
+      "t": "Cinque honor society coprono studi accademici, scienze, giornalismo e studi sociali — dalla NJHS della scuola media a quattro capitoli della scuola superiore.",
+      "of": "24422420",
+      "at": [
+        "hickory-grove-christian:honors.headline"
+      ]
+    },
+    {
+      "t": "PrivateSchoolReview elenca un raggruppamento esplicito \"Honor Societies\" composto esattamente da queste cinque; non sono pubblicate da nessuna parte date di ingresso, soglie di GPA, nomi dei capitoli o nomi dei responsabili.",
+      "of": "0a6a1cf6",
+      "at": [
+        "hickory-grove-christian:honors.subhead"
+      ]
+    },
+    {
+      "t": "Rendimento accademico, leadership, servizio e carattere (NHS)",
+      "of": "62dd2ddb",
+      "at": [
+        "hickory-grove-christian:honors.societies[0].recognizes"
+      ]
+    },
+    {
+      "t": "Rendimento accademico e carattere per gli studenti della scuola media (NJHS)",
+      "of": "56537202",
+      "at": [
+        "hickory-grove-christian:honors.societies[1].recognizes"
+      ]
+    },
+    {
+      "t": "Merito nelle discipline scientifiche",
+      "of": "6349a967",
+      "at": [
+        "hickory-grove-christian:honors.societies[2].recognizes",
+        "hickory-grove-christian:catalog.clubs[2].note"
+      ]
+    },
+    {
+      "t": "scienze",
+      "of": "02c65ebd",
+      "at": [
+        "hickory-grove-christian:honors.societies[2].feedsFrom"
+      ]
+    },
+    {
+      "t": "L'honor society internazionale di giornalismo per le scuole superiori",
+      "of": "e534f745",
+      "at": [
+        "hickory-grove-christian:honors.societies[3].recognizes"
+      ]
+    },
+    {
+      "t": "media studenteschi",
+      "of": "a2bcca24",
+      "at": [
+        "hickory-grove-christian:honors.societies[3].feedsFrom"
+      ]
+    },
+    {
+      "t": "La National Social Studies Honor Society (penultimo/ultimo anno)",
+      "of": "13dd7c8d",
+      "at": [
+        "hickory-grove-christian:honors.societies[4].recognizes"
+      ]
+    },
+    {
+      "t": "Le cinque società compaiono nell'elenco di PrivateSchoolReview; la scuola non pubblica alcuna pagina sulle honor society, perciò finestre di ingresso, soglie di GPA, nomi dei capitoli, nomi dei responsabili e numero di membri non sono indicati. Alcune sono programmi nazionali il cui capitolo attivo presso HGCS non è confermato in modo indipendente.",
+      "of": "4ec8cf07",
+      "at": [
+        "hickory-grove-christian:honors.flags[0].text"
+      ]
+    },
+    {
+      "t": "Cinque honor society costituiscono il fulcro del riconoscimento accademico; i club orientati alla competizione non presentano alcun risultato pubblicato.",
+      "of": "cd899afe",
+      "at": [
+        "hickory-grove-christian:clusters.verdict"
+      ]
+    },
+    {
+      "t": "Aprire una riga qualsiasi per la nota di ricerca completa e la relativa fonte. L'elenco completo è a fonte unica.",
+      "of": "486c30be",
+      "at": [
+        "hickory-grove-christian:clusters.verdictHint"
+      ]
+    },
+    {
+      "t": "National Honor Society, National Science Honor Society, Quill & Scroll, Rho Kappa (+ NJHS nella MS)",
+      "of": "d7edda72",
+      "at": [
+        "hickory-grove-christian:clusters.rows[0].oneLiner"
+      ]
+    },
+    {
+      "t": "Aggregatore",
+      "of": "4703932c",
+      "at": [
+        "hickory-grove-christian:clusters.rows[0].evidenceLabel"
+      ]
+    },
+    {
+      "t": "Cinque honor society coprono le varie discipline: National Honor Society e National Science Honor Society (merito nelle discipline scientifiche), Quill and Scroll (giornalismo/media studenteschi), Rho Kappa (National Social Studies Honor Society) e la National Junior Honor Society nella Middle School. Sono queste le distinzioni accademiche della scuola in quest'area; la scuola non pubblica soglie di GPA, finestre di ingresso o nomi dei responsabili.",
+      "of": "cac05ff9",
+      "at": [
+        "hickory-grove-christian:clusters.rows[0].note"
+      ]
+    },
+    {
+      "t": "Club orientati alla competizione",
+      "of": "6f0cd616",
+      "at": [
+        "hickory-grove-christian:clusters.rows[1].name"
+      ]
+    },
+    {
+      "t": "HOSA, Public Speaking, Apologetics e Venture compaiono nell'elenco — ma non è pubblicato alcun risultato di competizione",
+      "of": "b296abeb",
+      "at": [
+        "hickory-grove-christian:clusters.rows[1].oneLiner"
+      ]
+    },
+    {
+      "t": "Fonte unica",
+      "of": "e63698f9",
+      "at": [
+        "hickory-grove-christian:clusters.rows[1].evidenceLabel",
+        "hickory-grove-christian:catalog.divisions[0].tag"
+      ]
+    },
+    {
+      "t": "L'elenco dell'aggregatore nomina Health Occupations Students of America (HOSA), un Public Speaking Club, un Apologetics Club e un Venture Club — il tipo di club che di solito gareggiano — ma per nessuno di essi è pubblicato in alcuna fonte un titolo o un piazzamento. L'elenco si regge su un solo aggregatore (PrivateSchoolReview); il sito della scuola stessa non ha una pagina sui club, perciò il dato sul risultato di punta è un null confermato.",
+      "of": "7d841d5d",
+      "at": [
+        "hickory-grove-christian:clusters.rows[1].note"
+      ]
+    },
+    {
+      "t": "27 organizzazioni non sportive tra club d'interesse, club artistici e cinque honor society — un elenco ampio, ma che si regge interamente su un unico aggregatore di terze parti.",
+      "of": "01ef4ce7",
+      "at": [
+        "hickory-grove-christian:catalog.verdict"
+      ]
+    },
+    {
+      "t": "La scuola non pubblica alcuna pagina sui club; questo elenco proviene da PrivateSchoolReview, con un sottoinsieme confermato sul sito della scuola.",
+      "of": "41491a23",
+      "at": [
+        "hickory-grove-christian:catalog.verdictHint"
+      ]
+    },
+    {
+      "t": "Interesse e ambito accademico",
+      "of": "f90cc144",
+      "at": [
+        "hickory-grove-christian:catalog.categories[1].short"
+      ]
+    },
+    {
+      "t": "Club d'interesse / accademico",
+      "of": "1f1fb7b3",
+      "at": [
+        "hickory-grove-christian:catalog.categories[1].full"
+      ]
+    },
+    {
+      "t": "Fede e servizio",
+      "of": "620bd4ae",
+      "at": [
+        "hickory-grove-christian:catalog.categories[2].short"
+      ]
+    },
+    {
+      "t": "Fede / servizio / leadership",
+      "of": "308f3e67",
+      "at": [
+        "hickory-grove-christian:catalog.categories[2].full"
+      ]
+    },
+    {
+      "t": "Arti e musica",
+      "of": "0ca0a142",
+      "at": [
+        "hickory-grove-christian:catalog.categories[3].short"
+      ]
+    },
+    {
+      "t": "Club di arti / musica",
+      "of": "fd8d2b7f",
+      "at": [
+        "hickory-grove-christian:catalog.categories[3].full"
+      ]
+    },
+    {
+      "t": "High School — rendimento accademico, leadership, servizio e carattere",
+      "of": "9b0d358d",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[0].note"
+      ]
+    },
+    {
+      "t": "Honor society internazionale di giornalismo per le scuole superiori",
+      "of": "2b11e7b8",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[3].note"
+      ]
+    },
+    {
+      "t": "National Social Studies Honor Society (penultimo/ultimo anno)",
+      "of": "2065c2ce",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[4].note"
+      ]
+    },
+    {
+      "t": "Elencato dall'aggregatore; l'apologetica è insegnata in tutta la scuola",
+      "of": "7238ed26",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[5].note"
+      ]
+    },
+    {
+      "t": "Elencato dall'aggregatore",
+      "of": "baaf739a",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[6].note",
+        "hickory-grove-christian:catalog.clubs[8].note",
+        "hickory-grove-christian:catalog.clubs[10].note",
+        "hickory-grove-christian:catalog.clubs[11].note",
+        "hickory-grove-christian:catalog.clubs[12].note",
+        "hickory-grove-christian:catalog.clubs[13].note",
+        "hickory-grove-christian:catalog.clubs[14].note",
+        "hickory-grove-christian:catalog.clubs[22].note",
+        "hickory-grove-christian:catalog.clubs[23].note",
+        "hickory-grove-christian:catalog.clubs[24].note",
+        "hickory-grove-christian:catalog.clubs[25].note",
+        "hickory-grove-christian:catalog.clubs[26].note"
+      ]
+    },
+    {
+      "t": "HOSA — elencato dall'aggregatore",
+      "of": "52f5a969",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[7].note"
+      ]
+    },
+    {
+      "t": "Elencato dall'aggregatore; la scuola conferma un programma di spagnolo",
+      "of": "c6a31462",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[9].note"
+      ]
+    },
+    {
+      "t": "Confermato sul sito della scuola — discepolato in piccoli gruppi",
+      "of": "ed4f1393",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[15].note"
+      ]
+    },
+    {
+      "t": "Programma di leadership elencato dall'aggregatore",
+      "of": "0ea80fed",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[16].note"
+      ]
+    },
+    {
+      "t": "Programma di leadership/internazionale elencato dall'aggregatore",
+      "of": "30183a0a",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[17].note"
+      ]
+    },
+    {
+      "t": "Elencato dall'aggregatore; la scuola conferma un programma di Visual Arts",
+      "of": "0e27b68c",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[18].note"
+      ]
+    },
+    {
+      "t": "Confermato sul sito della scuola — Choir",
+      "of": "fecb5c68",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[19].note"
+      ]
+    },
+    {
+      "t": "Confermato sul sito della scuola — Theatre / Musical Theatre",
+      "of": "f0469014",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[20].note"
+      ]
+    },
+    {
+      "t": "Confermato sul sito della scuola — Jazz Band",
+      "of": "1d50f6bb",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[21].note"
+      ]
+    },
+    {
+      "t": "Elenco a fonte unica",
+      "of": "0a7649d8",
+      "at": [
+        "hickory-grove-christian:catalog.divisions[0].label"
+      ]
+    },
+    {
+      "t": "Questo elenco di 27 organizzazioni proviene interamente da PrivateSchoolReview — il sito della scuola stessa non pubblica alcuna pagina su club o attività, e nessuna seconda fonte enumera questi club. Un sottoinsieme è corroborato singolarmente dal sito della scuola (Discipleship, Choir, Drama, Jazz Band); i restanti si basano unicamente sull'aggregatore, e alcuni (HOSA, Chick-fil-A Leadership Academy, le honor society) sono programmi nazionali il cui capitolo attivo presso HGCS non è confermato in modo indipendente.",
+      "of": "17f9cf63",
+      "at": [
+        "hickory-grove-christian:catalog.divisions[0].text"
+      ]
+    },
+    {
+      "t": "Fede e servizio oltre l'elenco",
+      "of": "c7d68fa1",
+      "at": [
+        "hickory-grove-christian:catalog.divisions[1].label"
+      ]
+    },
+    {
+      "t": "Il sito della scuola stessa conferma viaggi missionari internazionali nella Repubblica Dominicana, in Ecuador, ad Haiti e in Kenya, e un programma di acquaponica che rifornisce il banco alimentare della Hickory Grove Baptist Church — canali di servizio che passano dal ministero della chiesa anziché configurarsi come club elencati.",
+      "of": "e199dd55",
+      "at": [
+        "hickory-grove-christian:catalog.divisions[1].text"
       ]
     }
   ]

@@ -374,6 +374,35 @@ const CARMEL_CHRISTIAN: ClubClusters = {
   ],
 }
 
+// Hickory Grove Christian — the academic-recognition spine runs through five
+// honor societies; the interest/competition clubs (HOSA, Public Speaking,
+// Apologetics, Venture) appear on a single aggregator with no published
+// competition result, so no flagship placement can be claimed. From
+// source-material/student-clubs/hickory-grove-christian/. The whole 27-org roster
+// is single-source (PrivateSchoolReview); the school publishes no clubs page.
+const HICKORY_GROVE_CHRISTIAN: ClubClusters = {
+  verdict: 'Five honor societies anchor academic recognition; the competition-oriented clubs carry no published result.',
+  verdictHint: 'Open any row for the full research note and its source. The full roster is single-source.',
+  rows: [
+    {
+      name: 'Honor societies →',
+      oneLiner: 'National Honor Society, National Science Honor Society, Quill & Scroll, Rho Kappa (+ NJHS in the MS)',
+      evidence: 'reported',
+      evidenceLabel: 'Aggregator',
+      note: 'Five honor societies span the disciplines: National Honor Society and National Science Honor Society (achievement in the sciences), Quill and Scroll (journalism/student media), Rho Kappa (National Social Studies Honor Society), and the National Junior Honor Society in the Middle School. These are the school\'s academic distinctions in this area; the school publishes no GPA thresholds, induction windows or advisor names.',
+      source: 'privateschoolreview.com — HGCS profile (Honor Societies grouping)',
+    },
+    {
+      name: 'Competition-oriented clubs',
+      oneLiner: 'HOSA, Public Speaking, Apologetics and Venture appear on the roster — but no competition result is published',
+      evidence: 'reported',
+      evidenceLabel: 'Single-source',
+      note: 'The aggregator roster names Health Occupations Students of America (HOSA), a Public Speaking Club, an Apologetics Club and a Venture Club — the kind of clubs that usually compete — but no titled or placement result for any of them is published in any source. The roster rides on one aggregator (PrivateSchoolReview); the school\'s own site has no clubs page, so the flagship-result figure is a confirmed null.',
+      source: 'privateschoolreview.com — HGCS profile (single-source roster)',
+    },
+  ],
+}
+
 const CLUSTERS: Record<string, ClubClusters> = {
   'providence-day': PROVIDENCE_DAY,
   'charlotte-latin': CHARLOTTE_LATIN,
@@ -383,6 +412,7 @@ const CLUSTERS: Record<string, ClubClusters> = {
   'covenant-day': COVENANT_DAY,
   'davidson-day': DAVIDSON_DAY,
   'carmel-christian': CARMEL_CHRISTIAN,
+  'hickory-grove-christian': HICKORY_GROVE_CHRISTIAN,
 }
 
 /**

@@ -137,10 +137,21 @@ Then report, and make the ask concrete:
 > Verification: <results>
 >
 > Nothing is translated yet. Once you're happy with the English wording, say the word and
-> I'll roll it out to the other <N> locales — in this window or a new one.
+> I'll roll it out to the other <N> locales.
+>
+> **Phase 2 is meant to run in a fresh window** — this session is long, and translating
+> the overlays needs nothing from it beyond what the plan already records. When you're
+> ready, paste this into a new window:
+>
+> ```
+> /implement <name> — Phase 2. The English page is approved. Run only Phase 2 (translate
+> the prose overlays to every locale in PROSE_TRANSLATED); do not rebuild Phase 1.
+> ```
 
 Tell them **what to look at**, not just what you did. The point of the gate is that they
-see it rendered; a report they can only nod at wastes the round trip.
+see it rendered; a report they can only nod at wastes the round trip. Hand them the
+paste-in `/implement` command above so Phase 2 starts clean rather than carrying this
+window's tokens.
 
 **Then end the turn.** Do not proceed on an assumption that they'd approve, and do not
 ask a yes/no question and answer it yourself. The wording is what's being reviewed, and
@@ -150,6 +161,21 @@ propagating it to every locale before that review multiplies each revision by <N
 
 Only on the user's explicit go-ahead. If they asked for wording changes, make those in
 English first and re-confirm before translating.
+
+**Phase 2 normally runs in a FRESH session** (the paste-in command from step 6), to keep
+the long Phase-1 window's tokens out of the translation work. A clean window has no memory
+of Phase 1, so re-orient from the durable record before touching anything:
+
+- Read the plan document — its Phase 2 steps are the spec, and `status: english-done` on it
+  is the signal Phase 1 already shipped. Confirm with the user that the English is approved
+  before translating (they may have paged you here without it).
+- `git checkout <plan branch>` (from the plan's front matter) — Phase 1 is committed there,
+  unmerged, waiting. Do **not** start a new branch or rebuild Phase 1.
+- Skim `git log`/`git diff main...<branch>` to see what English shipped, since you did not
+  write it this session.
+
+If instead the user says "keep going" in the *same* window that built Phase 1, just proceed
+— the fresh-session steps above are a no-op when the branch is already checked out.
 
 Work the plan's Phase 2 steps. Get the layer right — UI chrome means the
 `src/locales/*.json` catalogs listed in `TRANSLATED`; research prose means the overlay

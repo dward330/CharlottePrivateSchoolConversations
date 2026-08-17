@@ -81,7 +81,8 @@
         "providence-day:affinity.strips[0].title",
         "providence-day:catalog.divisions[0].label",
         "charlotte-christian:affinity.strips[1].title",
-        "charlotte-country-day:affinity.strips[0].title"
+        "charlotte-country-day:affinity.strips[0].title",
+        "hickory-grove-christian:catalog.clubs[1].note"
       ]
     },
     {
@@ -284,7 +285,9 @@
         "charlotte-country-day:honors.societies[0].feedsFrom",
         "cannon:honors.societies[0].feedsFrom",
         "carmel-christian:honors.societies[0].feedsFrom",
-        "carmel-christian:honors.societies[3].feedsFrom"
+        "carmel-christian:honors.societies[3].feedsFrom",
+        "hickory-grove-christian:honors.societies[0].feedsFrom",
+        "hickory-grove-christian:honors.societies[1].feedsFrom"
       ]
     },
     {
@@ -1189,7 +1192,8 @@
         "davidson-day:catalog.divisions[0].tag",
         "carmel-christian:catalog.divisions[0].tag",
         "carmel-christian:catalog.divisions[1].tag",
-        "carmel-christian:catalog.divisions[2].tag"
+        "carmel-christian:catalog.divisions[2].tag",
+        "hickory-grove-christian:catalog.divisions[1].tag"
       ]
     },
     {
@@ -2233,7 +2237,8 @@
       "at": [
         "charlotte-christian:catalog.categories[1].short",
         "covenant-day:catalog.categories[1].full",
-        "carmel-christian:catalog.categories[0].short"
+        "carmel-christian:catalog.categories[0].short",
+        "hickory-grove-christian:catalog.categories[0].short"
       ]
     },
     {
@@ -2241,7 +2246,8 @@
       "of": "c53b433d",
       "at": [
         "charlotte-christian:catalog.categories[1].full",
-        "carmel-christian:catalog.categories[0].full"
+        "carmel-christian:catalog.categories[0].full",
+        "hickory-grove-christian:catalog.categories[0].full"
       ]
     },
     {
@@ -3088,7 +3094,8 @@
       "t": "الدراسات الاجتماعية",
       "of": "29a76cb3",
       "at": [
-        "cannon:honors.societies[1].feedsFrom"
+        "cannon:honors.societies[1].feedsFrom",
+        "hickory-grove-christian:honors.societies[4].feedsFrom"
       ]
     },
     {
@@ -3292,7 +3299,8 @@
       "of": "99a4be51",
       "at": [
         "cannon:catalog.countNoun",
-        "carmel-christian:catalog.countNoun"
+        "carmel-christian:catalog.countNoun",
+        "hickory-grove-christian:catalog.countNoun"
       ]
     },
     {
@@ -4305,7 +4313,8 @@
       "t": "جمعيات التكريم ←",
       "of": "48a8bb43",
       "at": [
-        "carmel-christian:clusters.rows[0].name"
+        "carmel-christian:clusters.rows[0].name",
+        "hickory-grove-christian:clusters.rows[0].name"
       ]
     },
     {
@@ -4447,6 +4456,411 @@
       "of": "e3695031",
       "at": [
         "carmel-christian:catalog.divisions[2].text"
+      ]
+    },
+    {
+      "t": "عمود فقري من الإيمان والخدمة يقوم على رحلات تبشيرية دولية وشراكة عاملة مع بنك للطعام — وهي برامج الخدمة التي يؤكدها موقع المدرسة نفسه.",
+      "of": "5a43219c",
+      "at": [
+        "hickory-grove-christian:service.headline"
+      ]
+    },
+    {
+      "t": "تجري الخدمة هنا عبر خدمة الكنيسة لا عبر ناد واحد مُوثَّق: رحلات تبشيرية إلى أربعة بلدان، وبرنامج للاستزراع المائي يغذّي بنك طعام تابعاً للكنيسة، وبرامج قيادية مذكورة بالاسم.",
+      "of": "bfe2a7fa",
+      "at": [
+        "hickory-grove-christian:service.subhead"
+      ]
+    },
+    {
+      "t": "بلدان · رحلات تبشيرية دولية",
+      "of": "3e32daaa",
+      "at": [
+        "hickory-grove-christian:service.programs[0].valueLabel"
+      ]
+    },
+    {
+      "t": "تذكر المدرسة أنشطة التواصل الدولي والرحلات التبشيرية إلى Dominican Republic وEcuador وHaiti وKenya — وهو أوضح التزام خدمي منشور، ويؤكده كذلك ما ورد في صفحة Academics الخاصة بالمدرسة.",
+      "of": "4b22b86e",
+      "at": [
+        "hickory-grove-christian:service.programs[0].detail"
+      ]
+    },
+    {
+      "t": "بنك طعام · عبر الاستزراع المائي",
+      "of": "52148830",
+      "at": [
+        "hickory-grove-christian:service.programs[1].valueLabel"
+      ]
+    },
+    {
+      "t": "تدير HGCS برنامجاً للاستزراع المائي يزوّد بنك الطعام التابع لـ Hickory Grove Baptist Church — وهو قناة قائمة لخدمة المجتمع تؤكدها المدرسة، لا ناد يُنضم إليه اختيارياً.",
+      "of": "9de5be9e",
+      "at": [
+        "hickory-grove-christian:service.programs[1].detail"
+      ]
+    },
+    {
+      "t": "برامج قيادية مذكورة بالاسم",
+      "of": "3717214e",
+      "at": [
+        "hickory-grove-christian:service.programs[2].valueLabel"
+      ]
+    },
+    {
+      "t": "تذكر قائمة المُجمِّع فرعاً لـ Chick-fil-A Leadership Academy وبرنامج Global Ambassadors، إلى جانب التلمذة في مجموعات صغيرة؛ ويؤكد موقع المدرسة التلمذة دون البرنامجين المذكورين بالاسم كلاً على حدة.",
+      "of": "07c503e8",
+      "at": [
+        "hickory-grove-christian:service.programs[2].detail"
+      ]
+    },
+    {
+      "t": "القائمة الأوسع",
+      "of": "2a8bc1b2",
+      "at": [
+        "hickory-grove-christian:service.footnoteTitle"
+      ]
+    },
+    {
+      "t": "يُدرج PrivateSchoolReview 27 منظمة غير رياضية إجمالاً — 18 ضمن \"Clubs and Organizations\" و9 ضمن \"Arts and Music\" — تشمل أندية اهتمامات (Apologetics وPublic Speaking وSpanish وInternational Culture وVenture وSpirit) وأندية فنية (Art وGuitar وUkulele وFiber وPep Band وPraise Band). والقائمة الكاملة موجودة في بطاقة Club Catalog، موسومةً بأنها ذات مصدر واحد.",
+      "of": "d252f31e",
+      "at": [
+        "hickory-grove-christian:service.footnote"
+      ]
+    },
+    {
+      "t": "قائمة المنظمات السبع والعشرين ذات مصدر واحد (PrivateSchoolReview) — إذ لا تنشر المدرسة أي صفحة للأندية أو الأنشطة. أما الرحلات التبشيرية وشراكة بنك الطعام والتلمذة والجوقة والدراما وفرقة الجاز فمؤكَّدة كلٌّ على حدة في موقع المدرسة؛ في حين تستند بقية الأندية المذكورة إلى المُجمِّع وحده.",
+      "of": "dce3f70c",
+      "at": [
+        "hickory-grove-christian:service.flags[0].text"
+      ]
+    },
+    {
+      "t": "خمس جمعيات شرف تمتد عبر الدراسات الأكاديمية والعلوم والصحافة والدراسات الاجتماعية — من NJHS في المرحلة المتوسطة إلى أربعة فروع في المرحلة الثانوية.",
+      "of": "24422420",
+      "at": [
+        "hickory-grove-christian:honors.headline"
+      ]
+    },
+    {
+      "t": "يُدرج PrivateSchoolReview تصنيفاً صريحاً باسم \"Honor Societies\" يضم هذه الخمس بالتحديد؛ ولا تُنشر في أي مكان تواريخ للانضمام ولا حدود دنيا لـ GPA ولا أسماء فروع ولا أسماء مشرفين.",
+      "of": "0a6a1cf6",
+      "at": [
+        "hickory-grove-christian:honors.subhead"
+      ]
+    },
+    {
+      "t": "التحصيل الدراسي والقيادة والخدمة والأخلاق (NHS)",
+      "of": "62dd2ddb",
+      "at": [
+        "hickory-grove-christian:honors.societies[0].recognizes"
+      ]
+    },
+    {
+      "t": "التحصيل الدراسي والأخلاق لطلاب المرحلة المتوسطة (NJHS)",
+      "of": "56537202",
+      "at": [
+        "hickory-grove-christian:honors.societies[1].recognizes"
+      ]
+    },
+    {
+      "t": "التميّز في العلوم",
+      "of": "6349a967",
+      "at": [
+        "hickory-grove-christian:honors.societies[2].recognizes",
+        "hickory-grove-christian:catalog.clubs[2].note"
+      ]
+    },
+    {
+      "t": "العلوم",
+      "of": "02c65ebd",
+      "at": [
+        "hickory-grove-christian:honors.societies[2].feedsFrom"
+      ]
+    },
+    {
+      "t": "جمعية الشرف الدولية للصحافة في المرحلة الثانوية",
+      "of": "e534f745",
+      "at": [
+        "hickory-grove-christian:honors.societies[3].recognizes"
+      ]
+    },
+    {
+      "t": "الإعلام الطلابي",
+      "of": "a2bcca24",
+      "at": [
+        "hickory-grove-christian:honors.societies[3].feedsFrom"
+      ]
+    },
+    {
+      "t": "The National Social Studies Honor Society (للصفين الحادي عشر والثاني عشر)",
+      "of": "13dd7c8d",
+      "at": [
+        "hickory-grove-christian:honors.societies[4].recognizes"
+      ]
+    },
+    {
+      "t": "تظهر الجمعيات الخمس في قائمة PrivateSchoolReview؛ ولا تنشر المدرسة أي صفحة لجمعيات الشرف، ولذلك تظل نوافذ الانضمام والحدود الدنيا لـ GPA وأسماء الفروع وأسماء المشرفين وأعداد الأعضاء جميعها غير مذكورة. وبعضها برامج وطنية لم يجرِ تأكيد وجود فرع نشط لها في HGCS بصورة مستقلة.",
+      "of": "4ec8cf07",
+      "at": [
+        "hickory-grove-christian:honors.flags[0].text"
+      ]
+    },
+    {
+      "t": "ترتكز التقديرات الأكاديمية على خمس جمعيات شرف؛ أما الأندية ذات التوجه التنافسي فلا تحمل أي نتيجة منشورة.",
+      "of": "cd899afe",
+      "at": [
+        "hickory-grove-christian:clusters.verdict"
+      ]
+    },
+    {
+      "t": "يمكن فتح أي صف للاطلاع على ملاحظة البحث الكاملة ومصدرها. والقائمة الكاملة ذات مصدر واحد.",
+      "of": "486c30be",
+      "at": [
+        "hickory-grove-christian:clusters.verdictHint"
+      ]
+    },
+    {
+      "t": "National Honor Society وNational Science Honor Society وQuill & Scroll وRho Kappa (+ NJHS في المرحلة المتوسطة)",
+      "of": "d7edda72",
+      "at": [
+        "hickory-grove-christian:clusters.rows[0].oneLiner"
+      ]
+    },
+    {
+      "t": "مُجمِّع",
+      "of": "4703932c",
+      "at": [
+        "hickory-grove-christian:clusters.rows[0].evidenceLabel"
+      ]
+    },
+    {
+      "t": "خمس جمعيات شرف تمتد عبر التخصصات: National Honor Society وNational Science Honor Society (التميّز في العلوم)، وQuill and Scroll (الصحافة والإعلام الطلابي)، وRho Kappa (The National Social Studies Honor Society)، وThe National Junior Honor Society في Middle School. وهذه هي التقديرات الأكاديمية للمدرسة في هذا المجال؛ ولا تنشر المدرسة أي حدود دنيا لـ GPA ولا نوافذ للانضمام ولا أسماء مشرفين.",
+      "of": "cac05ff9",
+      "at": [
+        "hickory-grove-christian:clusters.rows[0].note"
+      ]
+    },
+    {
+      "t": "الأندية ذات التوجه التنافسي",
+      "of": "6f0cd616",
+      "at": [
+        "hickory-grove-christian:clusters.rows[1].name"
+      ]
+    },
+    {
+      "t": "تظهر HOSA وPublic Speaking وApologetics وVenture في القائمة — لكن لا تُنشر أي نتيجة تنافسية",
+      "of": "b296abeb",
+      "at": [
+        "hickory-grove-christian:clusters.rows[1].oneLiner"
+      ]
+    },
+    {
+      "t": "مصدر واحد",
+      "of": "e63698f9",
+      "at": [
+        "hickory-grove-christian:clusters.rows[1].evidenceLabel",
+        "hickory-grove-christian:catalog.divisions[0].tag"
+      ]
+    },
+    {
+      "t": "تذكر قائمة المُجمِّع Health Occupations Students of America (HOSA) وناديَ Public Speaking وناديَ Apologetics وناديَ Venture — وهي من الأندية التي تتنافس عادةً — لكن لا يُنشر في أي مصدر أي لقب أو مركز لأي منها. وتستند القائمة إلى مُجمِّع واحد (PrivateSchoolReview)؛ وموقع المدرسة نفسه لا يتضمن صفحة للأندية، ومن ثمّ فإن رقم النتيجة البارزة هو صفر مؤكَّد.",
+      "of": "7d841d5d",
+      "at": [
+        "hickory-grove-christian:clusters.rows[1].note"
+      ]
+    },
+    {
+      "t": "27 منظمة غير رياضية تشمل أندية اهتمامات وأندية فنية وخمس جمعيات شرف — وهي قائمة واسعة، غير أنها تستند بالكامل إلى مُجمِّع واحد تابع لجهة خارجية.",
+      "of": "01ef4ce7",
+      "at": [
+        "hickory-grove-christian:catalog.verdict"
+      ]
+    },
+    {
+      "t": "لا تنشر المدرسة أي صفحة للأندية؛ وهذه القائمة مأخوذة من PrivateSchoolReview، مع تأكيد جزء منها في موقع المدرسة.",
+      "of": "41491a23",
+      "at": [
+        "hickory-grove-christian:catalog.verdictHint"
+      ]
+    },
+    {
+      "t": "الاهتمامات والدراسات",
+      "of": "f90cc144",
+      "at": [
+        "hickory-grove-christian:catalog.categories[1].short"
+      ]
+    },
+    {
+      "t": "نادٍ للاهتمامات أو الدراسات",
+      "of": "1f1fb7b3",
+      "at": [
+        "hickory-grove-christian:catalog.categories[1].full"
+      ]
+    },
+    {
+      "t": "الإيمان والخدمة",
+      "of": "620bd4ae",
+      "at": [
+        "hickory-grove-christian:catalog.categories[2].short"
+      ]
+    },
+    {
+      "t": "الإيمان / الخدمة / القيادة",
+      "of": "308f3e67",
+      "at": [
+        "hickory-grove-christian:catalog.categories[2].full"
+      ]
+    },
+    {
+      "t": "الفنون والموسيقى",
+      "of": "0ca0a142",
+      "at": [
+        "hickory-grove-christian:catalog.categories[3].short"
+      ]
+    },
+    {
+      "t": "نادٍ للفنون أو الموسيقى",
+      "of": "fd8d2b7f",
+      "at": [
+        "hickory-grove-christian:catalog.categories[3].full"
+      ]
+    },
+    {
+      "t": "High School — التحصيل الدراسي والقيادة والخدمة والأخلاق",
+      "of": "9b0d358d",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[0].note"
+      ]
+    },
+    {
+      "t": "جمعية شرف دولية للصحافة في المرحلة الثانوية",
+      "of": "2b11e7b8",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[3].note"
+      ]
+    },
+    {
+      "t": "The National Social Studies Honor Society (للصفين الحادي عشر والثاني عشر)",
+      "of": "2065c2ce",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[4].note"
+      ]
+    },
+    {
+      "t": "مُدرَج لدى المُجمِّع؛ وعلم الدفاع عن العقيدة يُدرَّس على مستوى المدرسة كلها",
+      "of": "7238ed26",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[5].note"
+      ]
+    },
+    {
+      "t": "مُدرَج لدى المُجمِّع",
+      "of": "baaf739a",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[6].note",
+        "hickory-grove-christian:catalog.clubs[8].note",
+        "hickory-grove-christian:catalog.clubs[10].note",
+        "hickory-grove-christian:catalog.clubs[11].note",
+        "hickory-grove-christian:catalog.clubs[12].note",
+        "hickory-grove-christian:catalog.clubs[13].note",
+        "hickory-grove-christian:catalog.clubs[14].note",
+        "hickory-grove-christian:catalog.clubs[22].note",
+        "hickory-grove-christian:catalog.clubs[23].note",
+        "hickory-grove-christian:catalog.clubs[24].note",
+        "hickory-grove-christian:catalog.clubs[25].note",
+        "hickory-grove-christian:catalog.clubs[26].note"
+      ]
+    },
+    {
+      "t": "HOSA — مُدرَج لدى المُجمِّع",
+      "of": "52f5a969",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[7].note"
+      ]
+    },
+    {
+      "t": "مُدرَج لدى المُجمِّع؛ وتؤكد المدرسة وجود برنامج للغة الإسبانية",
+      "of": "c6a31462",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[9].note"
+      ]
+    },
+    {
+      "t": "مؤكَّد في موقع المدرسة — تلمذة في مجموعات صغيرة",
+      "of": "ed4f1393",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[15].note"
+      ]
+    },
+    {
+      "t": "برنامج قيادي مُدرَج لدى المُجمِّع",
+      "of": "0ea80fed",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[16].note"
+      ]
+    },
+    {
+      "t": "برنامج قيادي/دولي مُدرَج لدى المُجمِّع",
+      "of": "30183a0a",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[17].note"
+      ]
+    },
+    {
+      "t": "مُدرَج لدى المُجمِّع؛ وتؤكد المدرسة وجود برنامج للفنون البصرية",
+      "of": "0e27b68c",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[18].note"
+      ]
+    },
+    {
+      "t": "مؤكَّد في موقع المدرسة — Choir",
+      "of": "fecb5c68",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[19].note"
+      ]
+    },
+    {
+      "t": "مؤكَّد في موقع المدرسة — Theatre / Musical Theatre",
+      "of": "f0469014",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[20].note"
+      ]
+    },
+    {
+      "t": "مؤكَّد في موقع المدرسة — Jazz Band",
+      "of": "1d50f6bb",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[21].note"
+      ]
+    },
+    {
+      "t": "قائمة ذات مصدر واحد",
+      "of": "0a7649d8",
+      "at": [
+        "hickory-grove-christian:catalog.divisions[0].label"
+      ]
+    },
+    {
+      "t": "تأتي قائمة المنظمات السبع والعشرين هذه بالكامل من PrivateSchoolReview — إذ لا ينشر موقع المدرسة نفسه أي صفحة للأندية أو الأنشطة، ولا يوجد مصدر ثانٍ يُعدّد هذه الأندية. وثمة جزء منها مؤكَّد كلٌّ على حدة في موقع المدرسة (Discipleship وChoir وDrama وJazz Band)؛ أما البقية فتستند إلى المُجمِّع وحده، وبعضها (HOSA وChick-fil-A Leadership Academy وجمعيات الشرف) برامج وطنية لم يجرِ تأكيد وجود فرع نشط لها في HGCS بصورة مستقلة.",
+      "of": "17f9cf63",
+      "at": [
+        "hickory-grove-christian:catalog.divisions[0].text"
+      ]
+    },
+    {
+      "t": "الإيمان والخدمة خارج نطاق القائمة",
+      "of": "c7d68fa1",
+      "at": [
+        "hickory-grove-christian:catalog.divisions[1].label"
+      ]
+    },
+    {
+      "t": "يؤكد موقع المدرسة نفسه وجود رحلات تبشيرية دولية إلى Dominican Republic وEcuador وHaiti وKenya، وبرنامج للاستزراع المائي يزوّد بنك الطعام التابع لـ Hickory Grove Baptist Church — وهي قنوات خدمة تجري عبر خدمة الكنيسة لا بوصفها أندية مُدرَجة.",
+      "of": "e199dd55",
+      "at": [
+        "hickory-grove-christian:catalog.divisions[1].text"
       ]
     }
   ]

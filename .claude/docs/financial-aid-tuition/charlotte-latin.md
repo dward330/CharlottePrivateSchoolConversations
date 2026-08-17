@@ -1,5 +1,5 @@
 # Charlotte Latin School — Financial Aid & Tuition
-> Distilled from 1 source document(s) in `source-material/financial-aid-tuition/charlotte-latin/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-16.
+> Distilled from 1 source document(s) in `source-material/financial-aid-tuition/charlotte-latin/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-17.
 **Documents:** Deep Dive Report
 
 

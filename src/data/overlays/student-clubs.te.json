@@ -81,7 +81,8 @@
         "providence-day:affinity.strips[0].title",
         "providence-day:catalog.divisions[0].label",
         "charlotte-christian:affinity.strips[1].title",
-        "charlotte-country-day:affinity.strips[0].title"
+        "charlotte-country-day:affinity.strips[0].title",
+        "hickory-grove-christian:catalog.clubs[1].note"
       ]
     },
     {
@@ -284,7 +285,9 @@
         "charlotte-country-day:honors.societies[0].feedsFrom",
         "cannon:honors.societies[0].feedsFrom",
         "carmel-christian:honors.societies[0].feedsFrom",
-        "carmel-christian:honors.societies[3].feedsFrom"
+        "carmel-christian:honors.societies[3].feedsFrom",
+        "hickory-grove-christian:honors.societies[0].feedsFrom",
+        "hickory-grove-christian:honors.societies[1].feedsFrom"
       ]
     },
     {
@@ -1189,7 +1192,8 @@
         "davidson-day:catalog.divisions[0].tag",
         "carmel-christian:catalog.divisions[0].tag",
         "carmel-christian:catalog.divisions[1].tag",
-        "carmel-christian:catalog.divisions[2].tag"
+        "carmel-christian:catalog.divisions[2].tag",
+        "hickory-grove-christian:catalog.divisions[1].tag"
       ]
     },
     {
@@ -2233,7 +2237,8 @@
       "at": [
         "charlotte-christian:catalog.categories[1].short",
         "covenant-day:catalog.categories[1].full",
-        "carmel-christian:catalog.categories[0].short"
+        "carmel-christian:catalog.categories[0].short",
+        "hickory-grove-christian:catalog.categories[0].short"
       ]
     },
     {
@@ -2241,7 +2246,8 @@
       "of": "c53b433d",
       "at": [
         "charlotte-christian:catalog.categories[1].full",
-        "carmel-christian:catalog.categories[0].full"
+        "carmel-christian:catalog.categories[0].full",
+        "hickory-grove-christian:catalog.categories[0].full"
       ]
     },
     {
@@ -3088,7 +3094,8 @@
       "t": "సామాజిక శాస్త్రాలు",
       "of": "29a76cb3",
       "at": [
-        "cannon:honors.societies[1].feedsFrom"
+        "cannon:honors.societies[1].feedsFrom",
+        "hickory-grove-christian:honors.societies[4].feedsFrom"
       ]
     },
     {
@@ -3292,7 +3299,8 @@
       "of": "99a4be51",
       "at": [
         "cannon:catalog.countNoun",
-        "carmel-christian:catalog.countNoun"
+        "carmel-christian:catalog.countNoun",
+        "hickory-grove-christian:catalog.countNoun"
       ]
     },
     {
@@ -4305,7 +4313,8 @@
       "t": "ఆనర్ సొసైటీలు →",
       "of": "48a8bb43",
       "at": [
-        "carmel-christian:clusters.rows[0].name"
+        "carmel-christian:clusters.rows[0].name",
+        "hickory-grove-christian:clusters.rows[0].name"
       ]
     },
     {
@@ -4447,6 +4456,411 @@
       "of": "e3695031",
       "at": [
         "carmel-christian:catalog.divisions[2].text"
+      ]
+    },
+    {
+      "t": "అంతర్జాతీయ mission trips మరియు క్రియాశీలంగా నడుస్తున్న food-pantry భాగస్వామ్యంపై నిర్మించిన విశ్వాసం-మరియు-సేవ వెన్నెముక — పాఠశాల స్వంత సైట్ ధ్రువీకరించే సేవా కార్యక్రమాలు ఇవే.",
+      "of": "5a43219c",
+      "at": [
+        "hickory-grove-christian:service.headline"
+      ]
+    },
+    {
+      "t": "ఇక్కడ సేవ ఒకే నమోదిత క్లబ్ ద్వారా కాక చర్చి ministry ద్వారా నడుస్తుంది: నాలుగు దేశాలకు mission trips, ఒక చర్చి food pantryకి సరఫరా చేసే aquaponics కార్యక్రమం, మరియు పేరున్న నాయకత్వ కార్యక్రమాలు.",
+      "of": "bfe2a7fa",
+      "at": [
+        "hickory-grove-christian:service.subhead"
+      ]
+    },
+    {
+      "t": "దేశాలు · అంతర్జాతీయ mission trips",
+      "of": "3e32daaa",
+      "at": [
+        "hickory-grove-christian:service.programs[0].valueLabel"
+      ]
+    },
+    {
+      "t": "Dominican Republic, Ecuador, Haiti మరియు Kenyaకు అంతర్జాతీయ outreach మరియు mission trips గురించి పాఠశాల పేర్కొంటుంది — ఇది ప్రచురించిన సేవా నిబద్ధతలలో అత్యంత స్పష్టమైనది, పాఠశాల స్వంత Academics పేజీలో కూడా ధ్రువీకరించబడింది.",
+      "of": "4b22b86e",
+      "at": [
+        "hickory-grove-christian:service.programs[0].detail"
+      ]
+    },
+    {
+      "t": "food pantry · aquaponics ద్వారా",
+      "of": "52148830",
+      "at": [
+        "hickory-grove-christian:service.programs[1].valueLabel"
+      ]
+    },
+    {
+      "t": "Hickory Grove Baptist Church food pantryకి సరఫరా చేసే aquaponics కార్యక్రమాన్ని HGCS నడుపుతుంది — ఇది ఐచ్ఛిక క్లబ్ కాక, పాఠశాల ధ్రువీకరించిన నిరంతర సమాజ-సేవా మార్గం.",
+      "of": "9de5be9e",
+      "at": [
+        "hickory-grove-christian:service.programs[1].detail"
+      ]
+    },
+    {
+      "t": "పేరున్న నాయకత్వ కార్యక్రమాలు",
+      "of": "3717214e",
+      "at": [
+        "hickory-grove-christian:service.programs[2].valueLabel"
+      ]
+    },
+    {
+      "t": "సమాహారక జాబితా ఒక Chick-fil-A Leadership Academy chapter మరియు ఒక Global Ambassadors కార్యక్రమాన్ని, వాటితో పాటు చిన్న-బృంద discipleshipను పేర్కొంటుంది; పాఠశాల సైట్ discipleshipను ధ్రువీకరిస్తుంది కానీ ఆ రెండు కార్యక్రమాలను విడిగా ధ్రువీకరించదు.",
+      "of": "07c503e8",
+      "at": [
+        "hickory-grove-christian:service.programs[2].detail"
+      ]
+    },
+    {
+      "t": "విస్తృత జాబితా",
+      "of": "2a8bc1b2",
+      "at": [
+        "hickory-grove-christian:service.footnoteTitle"
+      ]
+    },
+    {
+      "t": "PrivateSchoolReview మొత్తం 27 క్రీడేతర సంస్థలను పేర్కొంటుంది — 18 \"Clubs and Organizations\" మరియు 9 \"Arts and Music\" — వీటిలో అభిరుచి క్లబ్‌లు (Apologetics, Public Speaking, Spanish, International Culture, Venture, Spirit) మరియు కళల క్లబ్‌లు (Art, Guitar, Ukulele, Fiber, Pep Band, Praise Band) ఉన్నాయి. పూర్తి జాబితా Club Catalog కార్డులో ఉంది, ఒకే మూలం అని గుర్తు పెట్టబడింది.",
+      "of": "d252f31e",
+      "at": [
+        "hickory-grove-christian:service.footnote"
+      ]
+    },
+    {
+      "t": "27 సంస్థల ఈ జాబితా ఒకే మూలం నుంచి వచ్చింది (PrivateSchoolReview) — పాఠశాల clubs/activities పేజీ ఏదీ ప్రచురించలేదు. mission trips, food-pantry భాగస్వామ్యం, discipleship, choir, drama మరియు jazz band విడివిడిగా పాఠశాల సైట్‌లో ధ్రువీకరించబడ్డాయి; మిగతా క్లబ్‌లు సమాహారక సైట్ మీద మాత్రమే ఆధారపడి ఉన్నాయి.",
+      "of": "dce3f70c",
+      "at": [
+        "hickory-grove-christian:service.flags[0].text"
+      ]
+    },
+    {
+      "t": "ఐదు Honor Societies విద్య, విజ్ఞాన శాస్త్రం, పాత్రికేయం మరియు సామాజిక శాస్త్రాలను కవర్ చేస్తాయి — Middle School NJHS నుంచి నాలుగు హై-స్కూల్ chapters వరకు.",
+      "of": "24422420",
+      "at": [
+        "hickory-grove-christian:honors.headline"
+      ]
+    },
+    {
+      "t": "PrivateSchoolReview సరిగ్గా ఈ ఐదింటిని ఒక స్పష్టమైన \"Honor Societies\" విభాగంగా చూపుతుంది; ప్రవేశ తేదీలు, GPA కనీస పరిమితులు, chapter పేర్లు లేదా advisor పేర్లు ఎక్కడా ప్రచురించబడలేదు.",
+      "of": "0a6a1cf6",
+      "at": [
+        "hickory-grove-christian:honors.subhead"
+      ]
+    },
+    {
+      "t": "విద్యా ప్రతిభ, నాయకత్వం, సేవ మరియు వ్యక్తిత్వం (NHS)",
+      "of": "62dd2ddb",
+      "at": [
+        "hickory-grove-christian:honors.societies[0].recognizes"
+      ]
+    },
+    {
+      "t": "Middle School విద్యార్థులకు విద్యా ప్రతిభ మరియు వ్యక్తిత్వం (NJHS)",
+      "of": "56537202",
+      "at": [
+        "hickory-grove-christian:honors.societies[1].recognizes"
+      ]
+    },
+    {
+      "t": "విజ్ఞాన శాస్త్రాలలో సాధన",
+      "of": "6349a967",
+      "at": [
+        "hickory-grove-christian:honors.societies[2].recognizes",
+        "hickory-grove-christian:catalog.clubs[2].note"
+      ]
+    },
+    {
+      "t": "విజ్ఞాన శాస్త్రం",
+      "of": "02c65ebd",
+      "at": [
+        "hickory-grove-christian:honors.societies[2].feedsFrom"
+      ]
+    },
+    {
+      "t": "అంతర్జాతీయ హై-స్కూల్ పాత్రికేయ Honor Society",
+      "of": "e534f745",
+      "at": [
+        "hickory-grove-christian:honors.societies[3].recognizes"
+      ]
+    },
+    {
+      "t": "విద్యార్థి మాధ్యమాలు",
+      "of": "a2bcca24",
+      "at": [
+        "hickory-grove-christian:honors.societies[3].feedsFrom"
+      ]
+    },
+    {
+      "t": "National Social Studies Honor Society (మూడో/చివరి సంవత్సరం విద్యార్థులు)",
+      "of": "13dd7c8d",
+      "at": [
+        "hickory-grove-christian:honors.societies[4].recognizes"
+      ]
+    },
+    {
+      "t": "ఈ ఐదు societies PrivateSchoolReview జాబితాలో కనిపిస్తాయి; పాఠశాల honor-society పేజీ ఏదీ ప్రచురించలేదు, కాబట్టి ప్రవేశ కాలాలు, GPA కనీస పరిమితులు, chapter పేర్లు, advisor పేర్లు మరియు సభ్యుల సంఖ్యలు ఏవీ తెలపబడలేదు. వీటిలో కొన్ని జాతీయ కార్యక్రమాలు, వాటి HGCS chapter క్రియాశీలంగా ఉందని స్వతంత్రంగా ధ్రువీకరించబడలేదు.",
+      "of": "4ec8cf07",
+      "at": [
+        "hickory-grove-christian:honors.flags[0].text"
+      ]
+    },
+    {
+      "t": "విద్యాపరమైన గుర్తింపుకు ఐదు Honor Societies ఆధారం; పోటీలకు ఉద్దేశించిన క్లబ్‌లకు ప్రచురించిన ఫలితం ఏదీ లేదు.",
+      "of": "cd899afe",
+      "at": [
+        "hickory-grove-christian:clusters.verdict"
+      ]
+    },
+    {
+      "t": "పూర్తి పరిశోధన గమనిక మరియు దాని మూలం కోసం ఏ వరుసనైనా తెరవండి. పూర్తి జాబితా ఒకే మూలం నుంచి వచ్చినది.",
+      "of": "486c30be",
+      "at": [
+        "hickory-grove-christian:clusters.verdictHint"
+      ]
+    },
+    {
+      "t": "National Honor Society, National Science Honor Society, Quill & Scroll, Rho Kappa (+ MSలో NJHS)",
+      "of": "d7edda72",
+      "at": [
+        "hickory-grove-christian:clusters.rows[0].oneLiner"
+      ]
+    },
+    {
+      "t": "సమాహారకం",
+      "of": "4703932c",
+      "at": [
+        "hickory-grove-christian:clusters.rows[0].evidenceLabel"
+      ]
+    },
+    {
+      "t": "ఐదు Honor Societies వివిధ రంగాలను కవర్ చేస్తాయి: National Honor Society మరియు National Science Honor Society (విజ్ఞాన శాస్త్రాలలో సాధన), Quill and Scroll (పాత్రికేయం/విద్యార్థి మాధ్యమాలు), Rho Kappa (National Social Studies Honor Society), మరియు Middle Schoolలో National Junior Honor Society. ఈ రంగంలో పాఠశాల విద్యాపరమైన గుర్తింపులు ఇవే; GPA కనీస పరిమితులు, ప్రవేశ కాలాలు లేదా advisor పేర్లు ఏవీ పాఠశాల ప్రచురించలేదు.",
+      "of": "cac05ff9",
+      "at": [
+        "hickory-grove-christian:clusters.rows[0].note"
+      ]
+    },
+    {
+      "t": "పోటీలకు ఉద్దేశించిన క్లబ్‌లు",
+      "of": "6f0cd616",
+      "at": [
+        "hickory-grove-christian:clusters.rows[1].name"
+      ]
+    },
+    {
+      "t": "HOSA, Public Speaking, Apologetics మరియు Venture జాబితాలో కనిపిస్తాయి — కానీ పోటీ ఫలితం ఏదీ ప్రచురించబడలేదు",
+      "of": "b296abeb",
+      "at": [
+        "hickory-grove-christian:clusters.rows[1].oneLiner"
+      ]
+    },
+    {
+      "t": "ఒకే మూలం",
+      "of": "e63698f9",
+      "at": [
+        "hickory-grove-christian:clusters.rows[1].evidenceLabel",
+        "hickory-grove-christian:catalog.divisions[0].tag"
+      ]
+    },
+    {
+      "t": "సమాహారక జాబితా Health Occupations Students of America (HOSA), ఒక Public Speaking Club, ఒక Apologetics Club మరియు ఒక Venture Clubను పేర్కొంటుంది — సాధారణంగా పోటీ పడే రకం క్లబ్‌లు ఇవి — కానీ వీటిలో దేనికీ టైటిల్ లేదా స్థానం ఫలితం ఏ మూలంలోనూ ప్రచురించబడలేదు. ఈ జాబితా ఒకే సమాహారకం (PrivateSchoolReview) మీద ఆధారపడి ఉంది; పాఠశాల స్వంత సైట్‌లో clubs పేజీ లేదు, కాబట్టి ప్రధాన-ఫలితం సంఖ్య ధ్రువీకరించిన శూన్యం.",
+      "of": "7d841d5d",
+      "at": [
+        "hickory-grove-christian:clusters.rows[1].note"
+      ]
+    },
+    {
+      "t": "అభిరుచి క్లబ్‌లు, కళల క్లబ్‌లు మరియు ఐదు Honor Societies కలిపి 27 క్రీడేతర సంస్థలు — విస్తృత జాబితా, కానీ పూర్తిగా ఒకే మూడో-పక్ష సమాహారకం మీద ఆధారపడినది.",
+      "of": "01ef4ce7",
+      "at": [
+        "hickory-grove-christian:catalog.verdict"
+      ]
+    },
+    {
+      "t": "పాఠశాల clubs పేజీ ఏదీ ప్రచురించలేదు; ఈ జాబితా PrivateSchoolReview నుంచి వచ్చింది, అందులో కొంత భాగం పాఠశాల సైట్‌లో ధ్రువీకరించబడింది.",
+      "of": "41491a23",
+      "at": [
+        "hickory-grove-christian:catalog.verdictHint"
+      ]
+    },
+    {
+      "t": "అభిరుచి మరియు విద్యాపరం",
+      "of": "f90cc144",
+      "at": [
+        "hickory-grove-christian:catalog.categories[1].short"
+      ]
+    },
+    {
+      "t": "అభిరుచి / విద్యాపరమైన క్లబ్",
+      "of": "1f1fb7b3",
+      "at": [
+        "hickory-grove-christian:catalog.categories[1].full"
+      ]
+    },
+    {
+      "t": "విశ్వాసం మరియు సేవ",
+      "of": "620bd4ae",
+      "at": [
+        "hickory-grove-christian:catalog.categories[2].short"
+      ]
+    },
+    {
+      "t": "విశ్వాసం / సేవ / నాయకత్వం",
+      "of": "308f3e67",
+      "at": [
+        "hickory-grove-christian:catalog.categories[2].full"
+      ]
+    },
+    {
+      "t": "కళలు మరియు సంగీతం",
+      "of": "0ca0a142",
+      "at": [
+        "hickory-grove-christian:catalog.categories[3].short"
+      ]
+    },
+    {
+      "t": "కళల / సంగీత క్లబ్",
+      "of": "fd8d2b7f",
+      "at": [
+        "hickory-grove-christian:catalog.categories[3].full"
+      ]
+    },
+    {
+      "t": "High School — విద్యా ప్రతిభ, నాయకత్వం, సేవ మరియు వ్యక్తిత్వం",
+      "of": "9b0d358d",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[0].note"
+      ]
+    },
+    {
+      "t": "అంతర్జాతీయ హై-స్కూల్ పాత్రికేయ Honor Society",
+      "of": "2b11e7b8",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[3].note"
+      ]
+    },
+    {
+      "t": "National Social Studies Honor Society (మూడో/చివరి సంవత్సరం విద్యార్థులు)",
+      "of": "2065c2ce",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[4].note"
+      ]
+    },
+    {
+      "t": "సమాహారకంలో పేర్కొనబడింది; apologetics పాఠశాల అంతటా బోధించబడుతుంది",
+      "of": "7238ed26",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[5].note"
+      ]
+    },
+    {
+      "t": "సమాహారకంలో పేర్కొనబడింది",
+      "of": "baaf739a",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[6].note",
+        "hickory-grove-christian:catalog.clubs[8].note",
+        "hickory-grove-christian:catalog.clubs[10].note",
+        "hickory-grove-christian:catalog.clubs[11].note",
+        "hickory-grove-christian:catalog.clubs[12].note",
+        "hickory-grove-christian:catalog.clubs[13].note",
+        "hickory-grove-christian:catalog.clubs[14].note",
+        "hickory-grove-christian:catalog.clubs[22].note",
+        "hickory-grove-christian:catalog.clubs[23].note",
+        "hickory-grove-christian:catalog.clubs[24].note",
+        "hickory-grove-christian:catalog.clubs[25].note",
+        "hickory-grove-christian:catalog.clubs[26].note"
+      ]
+    },
+    {
+      "t": "HOSA — సమాహారకంలో పేర్కొనబడింది",
+      "of": "52f5a969",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[7].note"
+      ]
+    },
+    {
+      "t": "సమాహారకంలో పేర్కొనబడింది; ఒక Spanish కార్యక్రమం ఉందని పాఠశాల ధ్రువీకరిస్తుంది",
+      "of": "c6a31462",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[9].note"
+      ]
+    },
+    {
+      "t": "పాఠశాల సైట్‌లో ధ్రువీకరించబడింది — చిన్న-బృంద discipleship",
+      "of": "ed4f1393",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[15].note"
+      ]
+    },
+    {
+      "t": "సమాహారకంలో పేర్కొన్న నాయకత్వ కార్యక్రమం",
+      "of": "0ea80fed",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[16].note"
+      ]
+    },
+    {
+      "t": "సమాహారకంలో పేర్కొన్న నాయకత్వ/అంతర్జాతీయ కార్యక్రమం",
+      "of": "30183a0a",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[17].note"
+      ]
+    },
+    {
+      "t": "సమాహారకంలో పేర్కొనబడింది; ఒక Visual Arts కార్యక్రమం ఉందని పాఠశాల ధ్రువీకరిస్తుంది",
+      "of": "0e27b68c",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[18].note"
+      ]
+    },
+    {
+      "t": "పాఠశాల సైట్‌లో ధ్రువీకరించబడింది — Choir",
+      "of": "fecb5c68",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[19].note"
+      ]
+    },
+    {
+      "t": "పాఠశాల సైట్‌లో ధ్రువీకరించబడింది — Theatre / Musical Theatre",
+      "of": "f0469014",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[20].note"
+      ]
+    },
+    {
+      "t": "పాఠశాల సైట్‌లో ధ్రువీకరించబడింది — Jazz Band",
+      "of": "1d50f6bb",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[21].note"
+      ]
+    },
+    {
+      "t": "ఒకే మూలం నుంచి వచ్చిన జాబితా",
+      "of": "0a7649d8",
+      "at": [
+        "hickory-grove-christian:catalog.divisions[0].label"
+      ]
+    },
+    {
+      "t": "27 సంస్థల ఈ జాబితా పూర్తిగా PrivateSchoolReview నుంచే వచ్చింది — పాఠశాల స్వంత సైట్ clubs లేదా activities పేజీ ఏదీ ప్రచురించలేదు, మరియు ఈ క్లబ్‌లను పేర్కొనే రెండో మూలం ఏదీ లేదు. ఇందులో కొంత భాగం విడివిడిగా పాఠశాల సైట్‌లో ధ్రువీకరించబడింది (Discipleship, Choir, Drama, Jazz Band); మిగతావి సమాహారకం మీద మాత్రమే ఆధారపడి ఉన్నాయి, మరియు వీటిలో కొన్ని (HOSA, Chick-fil-A Leadership Academy, Honor Societies) జాతీయ కార్యక్రమాలు, వాటి HGCS chapter క్రియాశీలంగా ఉందని స్వతంత్రంగా ధ్రువీకరించబడలేదు.",
+      "of": "17f9cf63",
+      "at": [
+        "hickory-grove-christian:catalog.divisions[0].text"
+      ]
+    },
+    {
+      "t": "జాబితాకు మించి విశ్వాసం మరియు సేవ",
+      "of": "c7d68fa1",
+      "at": [
+        "hickory-grove-christian:catalog.divisions[1].label"
+      ]
+    },
+    {
+      "t": "Dominican Republic, Ecuador, Haiti మరియు Kenyaకు అంతర్జాతీయ mission trips, మరియు Hickory Grove Baptist Church food pantryకి సరఫరా చేసే aquaponics కార్యక్రమం — వీటిని పాఠశాల స్వంత సైట్ ధ్రువీకరిస్తుంది. ఇవి జాబితాలోని క్లబ్‌లుగా కాక చర్చి ministry ద్వారా నడిచే సేవా మార్గాలు.",
+      "of": "e199dd55",
+      "at": [
+        "hickory-grove-christian:catalog.divisions[1].text"
       ]
     }
   ]

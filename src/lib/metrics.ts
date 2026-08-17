@@ -118,6 +118,11 @@ const RULES: Record<string, Rule[]> = {
     // They belong to the same question "Where Graduates Go" answers, hence
     // `outcomes`. Without this they slugify into an orphan metric per school.
     { match: /acceptances? window|acceptance-window/i, key: 'outcomes', label: 'Placement Outcomes' },
+    // Hickory Grove's college research rides on the school-profile PDF (acceptance
+    // list, SAT/ACT/AP, grading) — the "Where Graduates Go" material — so its
+    // "… - College Support - School Profile" file folds onto `outcomes` rather
+    // than slugifying into an orphan "School Profile" card.
+    { match: /school profile/i, key: 'outcomes', label: 'Placement Outcomes' },
     { match: /outcomes/i, key: 'outcomes', label: 'Placement Outcomes' },
     { match: /standing out/i, key: 'standing-out', label: 'Standing Out' },
     { match: /deep research/i, key: 'in-depth-report', label: 'In-Depth Report' },
@@ -174,7 +179,7 @@ const RULES: Record<string, Rule[]> = {
     // findings are rendered by the structured 1a/1b/1c cards
     // (data/clubsProgram.ts), so letting it slugify would add a sixth card to
     // every school for material already on screen.
-    { match: /^provenance$|confidence key|^cross-cutting|^technical notes|clubs redesign deep research/i, key: 'catalog', label: 'Club Catalog & Overview' },
+    { match: /^provenance$|confidence key|^cross-cutting|^technical notes|clubs redesign deep research|^deep research$/i, key: 'catalog', label: 'Club Catalog & Overview' },
     { match: /honor societ/i, key: 'honor-societies', label: 'Honor Societies' },
     { match: /affinity|identity|diversity|belonging|global awareness/i, key: 'affinity', label: 'Affinity & Identity Groups' },
     { match: /publication|student media|\bmedia\b/i, key: 'media', label: 'Publications & Media' },

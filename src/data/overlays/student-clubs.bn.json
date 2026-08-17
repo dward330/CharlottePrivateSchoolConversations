@@ -81,7 +81,8 @@
         "providence-day:affinity.strips[0].title",
         "providence-day:catalog.divisions[0].label",
         "charlotte-christian:affinity.strips[1].title",
-        "charlotte-country-day:affinity.strips[0].title"
+        "charlotte-country-day:affinity.strips[0].title",
+        "hickory-grove-christian:catalog.clubs[1].note"
       ]
     },
     {
@@ -284,7 +285,9 @@
         "charlotte-country-day:honors.societies[0].feedsFrom",
         "cannon:honors.societies[0].feedsFrom",
         "carmel-christian:honors.societies[0].feedsFrom",
-        "carmel-christian:honors.societies[3].feedsFrom"
+        "carmel-christian:honors.societies[3].feedsFrom",
+        "hickory-grove-christian:honors.societies[0].feedsFrom",
+        "hickory-grove-christian:honors.societies[1].feedsFrom"
       ]
     },
     {
@@ -1189,7 +1192,8 @@
         "davidson-day:catalog.divisions[0].tag",
         "carmel-christian:catalog.divisions[0].tag",
         "carmel-christian:catalog.divisions[1].tag",
-        "carmel-christian:catalog.divisions[2].tag"
+        "carmel-christian:catalog.divisions[2].tag",
+        "hickory-grove-christian:catalog.divisions[1].tag"
       ]
     },
     {
@@ -2233,7 +2237,8 @@
       "at": [
         "charlotte-christian:catalog.categories[1].short",
         "covenant-day:catalog.categories[1].full",
-        "carmel-christian:catalog.categories[0].short"
+        "carmel-christian:catalog.categories[0].short",
+        "hickory-grove-christian:catalog.categories[0].short"
       ]
     },
     {
@@ -2241,7 +2246,8 @@
       "of": "c53b433d",
       "at": [
         "charlotte-christian:catalog.categories[1].full",
-        "carmel-christian:catalog.categories[0].full"
+        "carmel-christian:catalog.categories[0].full",
+        "hickory-grove-christian:catalog.categories[0].full"
       ]
     },
     {
@@ -3088,7 +3094,8 @@
       "t": "সমাজবিজ্ঞান",
       "of": "29a76cb3",
       "at": [
-        "cannon:honors.societies[1].feedsFrom"
+        "cannon:honors.societies[1].feedsFrom",
+        "hickory-grove-christian:honors.societies[4].feedsFrom"
       ]
     },
     {
@@ -3292,7 +3299,8 @@
       "of": "99a4be51",
       "at": [
         "cannon:catalog.countNoun",
-        "carmel-christian:catalog.countNoun"
+        "carmel-christian:catalog.countNoun",
+        "hickory-grove-christian:catalog.countNoun"
       ]
     },
     {
@@ -4305,7 +4313,8 @@
       "t": "অনার সোসাইটি →",
       "of": "48a8bb43",
       "at": [
-        "carmel-christian:clusters.rows[0].name"
+        "carmel-christian:clusters.rows[0].name",
+        "hickory-grove-christian:clusters.rows[0].name"
       ]
     },
     {
@@ -4447,6 +4456,411 @@
       "of": "e3695031",
       "at": [
         "carmel-christian:catalog.divisions[2].text"
+      ]
+    },
+    {
+      "t": "আন্তর্জাতিক mission trip ও একটি কার্যকর খাদ্য-ভাণ্ডার অংশীদারিত্বের ওপর গড়া বিশ্বাস-ও-সেবার একটি মেরুদণ্ড — এই সেবা কর্মসূচিগুলোই স্কুলের নিজের সাইট নিশ্চিত করে।",
+      "of": "5a43219c",
+      "at": [
+        "hickory-grove-christian:service.headline"
+      ]
+    },
+    {
+      "t": "এখানে সেবাকাজ চলে গির্জার সেবাকার্যের মধ্য দিয়ে, নথিভুক্ত কোনো একটি ক্লাবের মাধ্যমে নয়: চারটি দেশে mission trip, গির্জার একটি খাদ্য-ভাণ্ডারে খাবার জোগানো একটি aquaponics কর্মসূচি, এবং নামভুক্ত কয়েকটি নেতৃত্ব কর্মসূচি।",
+      "of": "bfe2a7fa",
+      "at": [
+        "hickory-grove-christian:service.subhead"
+      ]
+    },
+    {
+      "t": "দেশ · আন্তর্জাতিক mission trip",
+      "of": "3e32daaa",
+      "at": [
+        "hickory-grove-christian:service.programs[0].valueLabel"
+      ]
+    },
+    {
+      "t": "স্কুল Dominican Republic, Ecuador, Haiti ও Kenya-তে আন্তর্জাতিক outreach ও mission trip-এর কথা উল্লেখ করে — এটিই সবচেয়ে স্পষ্ট প্রকাশিত সেবা-প্রতিশ্রুতি, যা স্কুলের নিজের Academics পাতাতেও সমর্থিত।",
+      "of": "4b22b86e",
+      "at": [
+        "hickory-grove-christian:service.programs[0].detail"
+      ]
+    },
+    {
+      "t": "খাদ্য-ভাণ্ডার · aquaponics-এর মাধ্যমে",
+      "of": "52148830",
+      "at": [
+        "hickory-grove-christian:service.programs[1].valueLabel"
+      ]
+    },
+    {
+      "t": "HGCS একটি aquaponics কর্মসূচি চালায় যা Hickory Grove Baptist Church-এর খাদ্য-ভাণ্ডারে জোগান দেয় — এটি স্কুল-নিশ্চিত একটি স্থায়ী সমাজসেবা ধারা, ইচ্ছেমতো যোগ দেওয়ার ক্লাব নয়।",
+      "of": "9de5be9e",
+      "at": [
+        "hickory-grove-christian:service.programs[1].detail"
+      ]
+    },
+    {
+      "t": "নামভুক্ত নেতৃত্ব কর্মসূচি",
+      "of": "3717214e",
+      "at": [
+        "hickory-grove-christian:service.programs[2].valueLabel"
+      ]
+    },
+    {
+      "t": "aggregator-এর তালিকায় একটি Chick-fil-A Leadership Academy চ্যাপ্টার ও একটি Global Ambassadors কর্মসূচির নাম আছে, সঙ্গে ছোট দলে discipleship; স্কুলের সাইট discipleship নিশ্চিত করে, তবে নামভুক্ত ওই দুটি কর্মসূচি আলাদাভাবে নয়।",
+      "of": "07c503e8",
+      "at": [
+        "hickory-grove-christian:service.programs[2].detail"
+      ]
+    },
+    {
+      "t": "বৃহত্তর তালিকা",
+      "of": "2a8bc1b2",
+      "at": [
+        "hickory-grove-christian:service.footnoteTitle"
+      ]
+    },
+    {
+      "t": "PrivateSchoolReview মোট 27টি ক্রীড়া-বহির্ভূত সংগঠনের তালিকা দেয় — 18টি \"Clubs and Organizations\" ও 9টি \"Arts and Music\" — যার মধ্যে আছে আগ্রহভিত্তিক ক্লাব (Apologetics, Public Speaking, Spanish, International Culture, Venture, Spirit) ও শিল্প-ক্লাব (Art, Guitar, Ukulele, Fiber, Pep Band, Praise Band)। পূর্ণ তালিকাটি Club Catalog কার্ডে আছে, একক-উৎস হিসেবে চিহ্নিত।",
+      "of": "d252f31e",
+      "at": [
+        "hickory-grove-christian:service.footnote"
+      ]
+    },
+    {
+      "t": "27টি সংগঠনের তালিকাটি একক-উৎসভিত্তিক (PrivateSchoolReview) — স্কুল ক্লাব/কার্যক্রমের কোনো পাতা প্রকাশ করে না। mission trip, খাদ্য-ভাণ্ডার অংশীদারিত্ব, discipleship, choir, drama ও jazz band স্কুলের সাইটে আলাদাভাবে সমর্থিত; নামভুক্ত অন্য ক্লাবগুলো কেবল aggregator-এর ওপরই নির্ভরশীল।",
+      "of": "dce3f70c",
+      "at": [
+        "hickory-grove-christian:service.flags[0].text"
+      ]
+    },
+    {
+      "t": "পাঁচটি honor society ছড়িয়ে আছে পড়াশোনা, বিজ্ঞান, সাংবাদিকতা ও সমাজবিজ্ঞানে — মাধ্যমিকের NJHS থেকে হাই স্কুলের চারটি চ্যাপ্টার পর্যন্ত।",
+      "of": "24422420",
+      "at": [
+        "hickory-grove-christian:honors.headline"
+      ]
+    },
+    {
+      "t": "PrivateSchoolReview ঠিক এই পাঁচটি নিয়েই স্পষ্টভাবে একটি \"Honor Societies\" দল দেখায়; কোথাও কোনো induction-এর তারিখ, GPA-র সর্বনিম্ন সীমা, চ্যাপ্টারের নাম বা উপদেষ্টার নাম প্রকাশিত নয়।",
+      "of": "0a6a1cf6",
+      "at": [
+        "hickory-grove-christian:honors.subhead"
+      ]
+    },
+    {
+      "t": "পাণ্ডিত্য, নেতৃত্ব, সেবা ও চরিত্র (NHS)",
+      "of": "62dd2ddb",
+      "at": [
+        "hickory-grove-christian:honors.societies[0].recognizes"
+      ]
+    },
+    {
+      "t": "মাধ্যমিকের শিক্ষার্থীদের জন্য পাণ্ডিত্য ও চরিত্র (NJHS)",
+      "of": "56537202",
+      "at": [
+        "hickory-grove-christian:honors.societies[1].recognizes"
+      ]
+    },
+    {
+      "t": "বিজ্ঞানে কৃতিত্ব",
+      "of": "6349a967",
+      "at": [
+        "hickory-grove-christian:honors.societies[2].recognizes",
+        "hickory-grove-christian:catalog.clubs[2].note"
+      ]
+    },
+    {
+      "t": "বিজ্ঞান",
+      "of": "02c65ebd",
+      "at": [
+        "hickory-grove-christian:honors.societies[2].feedsFrom"
+      ]
+    },
+    {
+      "t": "হাই স্কুল সাংবাদিকতার আন্তর্জাতিক honor society",
+      "of": "e534f745",
+      "at": [
+        "hickory-grove-christian:honors.societies[3].recognizes"
+      ]
+    },
+    {
+      "t": "শিক্ষার্থী-মাধ্যম",
+      "of": "a2bcca24",
+      "at": [
+        "hickory-grove-christian:honors.societies[3].feedsFrom"
+      ]
+    },
+    {
+      "t": "National Social Studies Honor Society (junior/senior)",
+      "of": "13dd7c8d",
+      "at": [
+        "hickory-grove-christian:honors.societies[4].recognizes"
+      ]
+    },
+    {
+      "t": "পাঁচটি society PrivateSchoolReview-এর তালিকায় আছে; স্কুল honor society নিয়ে কোনো পাতা প্রকাশ করে না, তাই induction-এর সময়সীমা, GPA-র সর্বনিম্ন সীমা, চ্যাপ্টারের নাম, উপদেষ্টার নাম ও সদস্যসংখ্যা — কোনোটিই জানানো নেই। এদের কয়েকটি জাতীয় কর্মসূচি, যেগুলোর HGCS চ্যাপ্টার সক্রিয় কি না তা স্বাধীনভাবে নিশ্চিত করা যায়নি।",
+      "of": "4ec8cf07",
+      "at": [
+        "hickory-grove-christian:honors.flags[0].text"
+      ]
+    },
+    {
+      "t": "একাডেমিক স্বীকৃতির ভিত্তি পাঁচটি honor society; প্রতিযোগিতামুখী ক্লাবগুলোর কোনো প্রকাশিত ফলাফল নেই।",
+      "of": "cd899afe",
+      "at": [
+        "hickory-grove-christian:clusters.verdict"
+      ]
+    },
+    {
+      "t": "পূর্ণ গবেষণা-নোট ও তার উৎস দেখতে যেকোনো সারি খুলুন। পূর্ণ তালিকাটি একক-উৎসভিত্তিক।",
+      "of": "486c30be",
+      "at": [
+        "hickory-grove-christian:clusters.verdictHint"
+      ]
+    },
+    {
+      "t": "National Honor Society, National Science Honor Society, Quill & Scroll, Rho Kappa (+ MS-এ NJHS)",
+      "of": "d7edda72",
+      "at": [
+        "hickory-grove-christian:clusters.rows[0].oneLiner"
+      ]
+    },
+    {
+      "t": "অ্যাগ্রিগেটর",
+      "of": "4703932c",
+      "at": [
+        "hickory-grove-christian:clusters.rows[0].evidenceLabel"
+      ]
+    },
+    {
+      "t": "পাঁচটি honor society বিভিন্ন বিষয়ে ছড়িয়ে আছে: National Honor Society ও National Science Honor Society (বিজ্ঞানে কৃতিত্ব), Quill and Scroll (সাংবাদিকতা/শিক্ষার্থী-মাধ্যম), Rho Kappa (National Social Studies Honor Society), এবং Middle School-এ National Junior Honor Society। এই ক্ষেত্রে এগুলোই স্কুলের একাডেমিক স্বীকৃতি; স্কুল কোনো GPA-র সর্বনিম্ন সীমা, induction-এর সময়সীমা বা উপদেষ্টার নাম প্রকাশ করে না।",
+      "of": "cac05ff9",
+      "at": [
+        "hickory-grove-christian:clusters.rows[0].note"
+      ]
+    },
+    {
+      "t": "প্রতিযোগিতামুখী ক্লাব",
+      "of": "6f0cd616",
+      "at": [
+        "hickory-grove-christian:clusters.rows[1].name"
+      ]
+    },
+    {
+      "t": "তালিকায় HOSA, Public Speaking, Apologetics ও Venture আছে — তবে কোনো প্রতিযোগিতার ফলাফল প্রকাশিত নয়",
+      "of": "b296abeb",
+      "at": [
+        "hickory-grove-christian:clusters.rows[1].oneLiner"
+      ]
+    },
+    {
+      "t": "একক-উৎস",
+      "of": "e63698f9",
+      "at": [
+        "hickory-grove-christian:clusters.rows[1].evidenceLabel",
+        "hickory-grove-christian:catalog.divisions[0].tag"
+      ]
+    },
+    {
+      "t": "aggregator-এর তালিকায় নাম আছে Health Occupations Students of America (HOSA), একটি Public Speaking Club, একটি Apologetics Club ও একটি Venture Club-এর — সাধারণত যে ধরনের ক্লাব প্রতিযোগিতায় নামে — তবে এদের কারও কোনো শিরোপা বা স্থান-অর্জনের ফলাফল কোনো উৎসেই প্রকাশিত নয়। তালিকাটি একটিমাত্র aggregator-এর (PrivateSchoolReview) ওপর দাঁড়িয়ে; স্কুলের নিজের সাইটে ক্লাবের কোনো পাতা নেই, তাই সেরা-ফলাফলের সংখ্যাটি একটি নিশ্চিত শূন্য।",
+      "of": "7d841d5d",
+      "at": [
+        "hickory-grove-christian:clusters.rows[1].note"
+      ]
+    },
+    {
+      "t": "আগ্রহভিত্তিক ক্লাব, শিল্প-ক্লাব ও পাঁচটি honor society মিলিয়ে 27টি ক্রীড়া-বহির্ভূত সংগঠন — বিস্তৃত একটি তালিকা, তবে যা পুরোপুরি একটিমাত্র তৃতীয়-পক্ষ aggregator-এর ওপর দাঁড়িয়ে।",
+      "of": "01ef4ce7",
+      "at": [
+        "hickory-grove-christian:catalog.verdict"
+      ]
+    },
+    {
+      "t": "স্কুল ক্লাবের কোনো পাতা প্রকাশ করে না; এই তালিকাটি PrivateSchoolReview থেকে নেওয়া, যার একটি অংশ স্কুলের সাইটে নিশ্চিত করা হয়েছে।",
+      "of": "41491a23",
+      "at": [
+        "hickory-grove-christian:catalog.verdictHint"
+      ]
+    },
+    {
+      "t": "আগ্রহ ও পড়াশোনা",
+      "of": "f90cc144",
+      "at": [
+        "hickory-grove-christian:catalog.categories[1].short"
+      ]
+    },
+    {
+      "t": "আগ্রহভিত্তিক / একাডেমিক ক্লাব",
+      "of": "1f1fb7b3",
+      "at": [
+        "hickory-grove-christian:catalog.categories[1].full"
+      ]
+    },
+    {
+      "t": "বিশ্বাস ও সেবা",
+      "of": "620bd4ae",
+      "at": [
+        "hickory-grove-christian:catalog.categories[2].short"
+      ]
+    },
+    {
+      "t": "বিশ্বাস / সেবা / নেতৃত্ব",
+      "of": "308f3e67",
+      "at": [
+        "hickory-grove-christian:catalog.categories[2].full"
+      ]
+    },
+    {
+      "t": "শিল্প ও সংগীত",
+      "of": "0ca0a142",
+      "at": [
+        "hickory-grove-christian:catalog.categories[3].short"
+      ]
+    },
+    {
+      "t": "শিল্প / সংগীত ক্লাব",
+      "of": "fd8d2b7f",
+      "at": [
+        "hickory-grove-christian:catalog.categories[3].full"
+      ]
+    },
+    {
+      "t": "High School — পাণ্ডিত্য, নেতৃত্ব, সেবা ও চরিত্র",
+      "of": "9b0d358d",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[0].note"
+      ]
+    },
+    {
+      "t": "হাই স্কুল সাংবাদিকতার আন্তর্জাতিক honor society",
+      "of": "2b11e7b8",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[3].note"
+      ]
+    },
+    {
+      "t": "National Social Studies Honor Society (junior/senior)",
+      "of": "2065c2ce",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[4].note"
+      ]
+    },
+    {
+      "t": "Aggregator-এর তালিকাভুক্ত; apologetics পুরো স্কুলজুড়ে পড়ানো হয়",
+      "of": "7238ed26",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[5].note"
+      ]
+    },
+    {
+      "t": "Aggregator-এর তালিকাভুক্ত",
+      "of": "baaf739a",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[6].note",
+        "hickory-grove-christian:catalog.clubs[8].note",
+        "hickory-grove-christian:catalog.clubs[10].note",
+        "hickory-grove-christian:catalog.clubs[11].note",
+        "hickory-grove-christian:catalog.clubs[12].note",
+        "hickory-grove-christian:catalog.clubs[13].note",
+        "hickory-grove-christian:catalog.clubs[14].note",
+        "hickory-grove-christian:catalog.clubs[22].note",
+        "hickory-grove-christian:catalog.clubs[23].note",
+        "hickory-grove-christian:catalog.clubs[24].note",
+        "hickory-grove-christian:catalog.clubs[25].note",
+        "hickory-grove-christian:catalog.clubs[26].note"
+      ]
+    },
+    {
+      "t": "HOSA — aggregator-এর তালিকাভুক্ত",
+      "of": "52f5a969",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[7].note"
+      ]
+    },
+    {
+      "t": "Aggregator-এর তালিকাভুক্ত; স্কুল একটি Spanish কর্মসূচির কথা নিশ্চিত করে",
+      "of": "c6a31462",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[9].note"
+      ]
+    },
+    {
+      "t": "স্কুলের সাইটে নিশ্চিত — ছোট দলে discipleship",
+      "of": "ed4f1393",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[15].note"
+      ]
+    },
+    {
+      "t": "Aggregator-এর তালিকাভুক্ত নেতৃত্ব কর্মসূচি",
+      "of": "0ea80fed",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[16].note"
+      ]
+    },
+    {
+      "t": "Aggregator-এর তালিকাভুক্ত নেতৃত্ব/আন্তর্জাতিক কর্মসূচি",
+      "of": "30183a0a",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[17].note"
+      ]
+    },
+    {
+      "t": "Aggregator-এর তালিকাভুক্ত; স্কুল একটি Visual Arts কর্মসূচির কথা নিশ্চিত করে",
+      "of": "0e27b68c",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[18].note"
+      ]
+    },
+    {
+      "t": "স্কুলের সাইটে নিশ্চিত — Choir",
+      "of": "fecb5c68",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[19].note"
+      ]
+    },
+    {
+      "t": "স্কুলের সাইটে নিশ্চিত — Theatre / Musical Theatre",
+      "of": "f0469014",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[20].note"
+      ]
+    },
+    {
+      "t": "স্কুলের সাইটে নিশ্চিত — Jazz Band",
+      "of": "1d50f6bb",
+      "at": [
+        "hickory-grove-christian:catalog.clubs[21].note"
+      ]
+    },
+    {
+      "t": "একক-উৎসভিত্তিক তালিকা",
+      "of": "0a7649d8",
+      "at": [
+        "hickory-grove-christian:catalog.divisions[0].label"
+      ]
+    },
+    {
+      "t": "27টি সংগঠনের এই তালিকাটি পুরোপুরি PrivateSchoolReview থেকে এসেছে — স্কুলের নিজের সাইট ক্লাব বা কার্যক্রমের কোনো পাতা প্রকাশ করে না, এবং দ্বিতীয় কোনো উৎস এই ক্লাবগুলোর নাম ধরে তালিকা দেয় না। একটি অংশ স্কুলের সাইটে আলাদাভাবে সমর্থিত (Discipleship, Choir, Drama, Jazz Band); বাকিগুলো কেবল aggregator-এর ওপরই নির্ভরশীল, আর কয়েকটি (HOSA, Chick-fil-A Leadership Academy, honor society-গুলো) জাতীয় কর্মসূচি, যেগুলোর HGCS চ্যাপ্টার সক্রিয় কি না তা স্বাধীনভাবে নিশ্চিত করা যায়নি।",
+      "of": "17f9cf63",
+      "at": [
+        "hickory-grove-christian:catalog.divisions[0].text"
+      ]
+    },
+    {
+      "t": "তালিকার বাইরে বিশ্বাস ও সেবা",
+      "of": "c7d68fa1",
+      "at": [
+        "hickory-grove-christian:catalog.divisions[1].label"
+      ]
+    },
+    {
+      "t": "স্কুলের নিজের সাইট Dominican Republic, Ecuador, Haiti ও Kenya-তে আন্তর্জাতিক mission trip এবং Hickory Grove Baptist Church-এর খাদ্য-ভাণ্ডারে জোগান দেওয়া একটি aquaponics কর্মসূচির কথা নিশ্চিত করে — এই সেবা-ধারাগুলো তালিকাভুক্ত ক্লাব হিসেবে নয়, বরং গির্জার সেবাকার্যের মধ্য দিয়ে চলে।",
+      "of": "e199dd55",
+      "at": [
+        "hickory-grove-christian:catalog.divisions[1].text"
       ]
     }
   ]

@@ -2199,6 +2199,203 @@ const CARMEL_CHRISTIAN: FinancialAidReport = {
     'carmelchristian.org — 2026-2027 Tuition and Enrollment Fees (PDF, dated 5 Dec 2025), Financial Aid landing page · ncseaa.edu — NC Opportunity Scholarship · privateschoolreview.com (third-party ~20% on aid) · projects.propublica.org — Nonprofit Explorer (school files no Form 990; Carmel Educational Foundation, EIN 56-2107877). Retrieved 16 Aug 2026. The school did not commission, review or approve this report.',
 }
 
+/* ── Hickory Grove Christian ── the tuition bands are the school's own current
+   figures, confirmed across two third-party mirrors (the school's tuition page
+   renders its fee tables through an embedded FACTS/portal widget that did not
+   expose the numbers to a fetch). Aid mechanisms are from the school's own
+   scholarships page. Like Carmel Christian and Covenant Day, the school is a
+   ministry of a church — Hickory Grove Baptist Church — that is IRS 990-exempt
+   and files no Form 990, so no aid totals, rates or averages exist to find; that
+   is a structural gap, not a page waiting to be located. No prior-year tuition
+   was recovered (the portal-rendered page leaves no archived band figures), so
+   no band carries a `prior`. The NCSEAA per-school voucher line (224 recipients /
+   $1,441,873 / ≈$6,437 avg, 2023–24) is state-voucher money, NOT institutional
+   aid, and is deliberately kept out of the aid-outcome sections. */
+const HICKORY_GROVE_CHRISTIAN: FinancialAidReport = {
+  title: 'Tuition & Financial Aid — Deep Dive Report',
+  meta: '2025–26 tuition · figures as of 17 Aug 2026',
+  framing: [
+    {
+      icon: 'info',
+      title: 'Unpublished ≠ deficient.',
+      body: '"Not published" flags a transparency gap — never a judgement that the aid programme is small or unwelcoming.',
+    },
+    {
+      icon: 'clock',
+      title: 'Published ≠ current.',
+      body: 'The tuition bands are the school\'s own current figures, confirmed across two third-party mirrors because the school\'s tuition page renders its tables through an embedded portal widget. Undated figures are flagged, not guessed.',
+    },
+    {
+      icon: 'book',
+      title: 'K–12 aid only.',
+      body: 'Tuition assistance while enrolled — not college aid. Not financial advice.',
+    },
+  ],
+  sections: [
+    {
+      id: 'fa-tuition',
+      navTitle: 'Tuition by Band',
+      title: 'Tuition by Grade Level',
+      confidence: 80,
+      figureCaption: 'Published tuition by grade band',
+      bands: [
+        { label: 'TK–5 (Elementary)', amount: 11500 },
+        { label: 'Grades 6–8 (Middle)', amount: 12500 },
+        { label: 'Grades 9–12 (High)', amount: 13750 },
+      ],
+      figureNote:
+        'Three bands from transitional kindergarten through grade 12, a $2,250 spread from lowest to highest. The school\'s own tuition-and-fees page renders its fee tables through an embedded FACTS/portal widget, so these figures are confirmed across two independent third-party mirrors (PrivateSchoolReview and a second aggregator) that match the school\'s published $11,500–$13,750 range, rather than lifted char-for-char from a school PDF.',
+      figureNote2:
+        'Separate "student services fees" documents (2025-26 and 2026-27) are referenced on the tuition page but render through the portal and were not captured; those fee amounts are not shown here.',
+      source:
+        'hgchristian.org — Tuition and Fees (portal-rendered); PrivateSchoolReview + a second aggregator mirror of the current bands, retrieved 17 Aug 2026',
+    },
+    {
+      id: 'fa-engine',
+      navTitle: 'The Aid Engine',
+      title: 'Aid Process and Timeline',
+      confidence: 70,
+      timeline: [
+        {
+          when: 'Feb–Mar',
+          detail:
+            'The **NCSEAA Opportunity Scholarship** application window (Feb 6 – Mar 6 in the 2025 cycle; priority deadline **March 2, 2026** with April notification; late applications accepted through August)',
+          emphasis: true,
+        },
+        {
+          when: 'By May 31',
+          detail:
+            'A **5% discount** applies to tuition paid in full by **May 31, 2026**',
+        },
+        {
+          when: 'Every year',
+          detail:
+            'The school\'s own need-based aid runs through **FACTS Grant & Aid** ($40 application fee); funds are awarded until depleted',
+        },
+      ],
+      boxes: [
+        {
+          title: 'Platform',
+          body: '**FACTS** runs the school\'s need assessment (Grant & Aid) and the monthly tuition draft. The **NCSEAA Opportunity Scholarship** (a state voucher) and **ESA+** (for children with disabilities) are actively referenced as funding layers.',
+        },
+        {
+          tag: 'NOT PUBLISHED',
+          body: 'No decision timeline, appeals process, or award-ceiling policy appears on the public record. The FACTS payment-plan installment count and any plan fee are set inside the portal. Automatic legacy discounts (multi-child, clergy) were **discontinued as of 2026-2027** per the school.',
+        },
+      ],
+      source:
+        'hgchristian.org — Scholarships (NCSEAA tiers, ESA+, FACTS Grant & Aid, 5% early-pay), retrieved 17 Aug 2026',
+    },
+    {
+      id: 'fa-numbers',
+      navTitle: 'Aid in Numbers',
+      title: 'What the Numbers Disclose',
+      confidence: 20,
+      stats: [
+        { value: 'No 990', label: 'church ministry — IRS-exempt from filing' },
+        { value: '$0', label: 'published aid totals, averages, or rates' },
+        { value: '990-exempt', label: 'no public financial disclosure to derive from' },
+      ],
+      figureNote:
+        'The school publishes no percentage of students on aid, no total awarded, and no average award — and none can be derived, because there is no public financial disclosure to derive them from.',
+      boxes: [
+        {
+          tag: 'NOT PUBLISHED — AND NOT RECOVERABLE',
+          body: 'Hickory Grove Christian is a ministry of **Hickory Grove Baptist Church** and, as a church-affiliated organisation, is **not required to file Form 990** — ProPublica returns no filing for the church as a school operator. Every other school in this project (bar Covenant Day and Carmel Christian) is a 990 filer whose aid totals can be checked against its return; here there is **no filing to check**, so the gap is structural rather than a page waiting to be found.',
+        },
+        {
+          tag: 'STATE VOUCHERS — NOT SCHOOL AID',
+          body: 'The NC Opportunity Scholarship 2023-24 annual report lists **224 recipients / $1,441,873 / ≈$6,437 average** flowing to HGCS families. That is **state-voucher money paid to families, not institutional need-based aid** — it is recorded here only for traceability and is deliberately not presented as the school\'s aid rate, total, or average.',
+        },
+      ],
+      source:
+        'projects.propublica.org — Nonprofit Explorer (church files no Form 990); ncleg.gov — NC Opportunity Scholarship 2023-24 Annual Report (voucher line), retrieved 17 Aug 2026',
+    },
+    {
+      id: 'fa-merit',
+      navTitle: 'Discounts & State Aid',
+      title: 'Merit, Discounts & State Scholarships',
+      confidence: 80,
+      tag: 'SCHOOL AID IS NEED-BASED',
+      plans: [
+        {
+          figure: '5%',
+          label: 'Early-payment discount',
+          detail: 'Off tuition if paid entirely by **May 31, 2026**.',
+          emphasis: true,
+        },
+        {
+          figure: 'NCSEAA',
+          label: 'Opportunity Scholarship',
+          detail: 'Four income tiers — **$7,942 (100%)**, $7,148 (90%), $4,766 (60%), $3,574 (45%); no income cap to apply, and the award scales with household income.',
+        },
+        {
+          figure: 'ESA+',
+          label: 'Education Student Accounts Plus',
+          detail: 'State accounts for qualified expenses for children with disabilities in eligible non-public settings.',
+        },
+      ],
+      boxes: [
+        {
+          tag: 'NOT PUBLISHED',
+          body: 'No merit scholarships appear on the public record — the school\'s own aid (FACTS Grant & Aid) is need-based only. The previously-offered automatic multi-child and clergy discounts were discontinued as of 2026-2027.',
+        },
+      ],
+      source:
+        'hgchristian.org — Scholarships (NCSEAA tiers, ESA+, 5% early-pay, discontinued legacy discounts), retrieved 17 Aug 2026',
+    },
+    {
+      id: 'fa-paying',
+      navTitle: 'Paying the Balance',
+      title: 'Payment Plans & Contract Terms',
+      confidence: 45,
+      plans: [
+        {
+          figure: '$40',
+          label: 'FACTS Grant & Aid application fee',
+          detail: 'The fee to apply for the school\'s need-based aid through FACTS.',
+        },
+        {
+          figure: 'FACTS',
+          label: 'Annual billing, monthly draft',
+          detail: 'Tuition is "billed annually and divided into equal payments based on the plan you select," drafted monthly through **FACTS**. The number of installments and any plan fee are set inside the portal.',
+          emphasis: true,
+        },
+      ],
+      boxes: [
+        {
+          tag: 'NOT PUBLISHED',
+          body: 'The **number of monthly installments** and any FACTS plan fee are not stated on the public pages — they live inside the family\'s FACTS portal. No paid-in-full alternative beyond the 5% early-pay discount, and no late-payment or withdrawal terms, appear on the retrieved sources.',
+        },
+      ],
+      source:
+        'hgchristian.org — Tuition and Fees / Scholarships (FACTS billing, 5% early-pay), retrieved 17 Aug 2026',
+    },
+    {
+      id: 'fa-trend',
+      navTitle: 'Trend & Questions',
+      title: 'The Trend, and What to Ask',
+      confidence: 40,
+      stats: [
+        { value: '$13,750', label: 'top band (grades 9–12)' },
+        { value: '1 yr', label: 'of published rates — no history recovered' },
+      ],
+      questionsTitle: 'Questions the public record cannot answer',
+      questions: [
+        'What share of families receive the school\'s own FACTS-based aid, and what is the average award? (No figure is published, and the church files no 990.)',
+        'How many monthly installments does the FACTS plan run, and does it carry a fee?',
+        'What are the "student services fees," and do they include the after-school program rate?',
+        'How does the NCSEAA Opportunity Scholarship interact with the school\'s own FACTS Grant & Aid for a given family?',
+        'Is there any appeals or mid-year change-of-circumstance process for need-based aid?',
+        'Were the multi-child and clergy discounts fully discontinued for 2026-27, or replaced by anything?',
+      ],
+      source: 'Synthesis of the sources cited on the sections above',
+    },
+  ],
+  sources:
+    'hgchristian.org — Tuition and Fees (portal-rendered) and Scholarships (NCSEAA Opportunity Scholarship tiers, ESA+, FACTS Grant & Aid, 5% early-pay) · PrivateSchoolReview + a second aggregator (tuition-band mirror) · projects.propublica.org — Nonprofit Explorer (Hickory Grove Baptist Church files no Form 990) · ncleg.gov — NC Opportunity Scholarship 2023-24 Annual Report (state-voucher line, not institutional aid). Retrieved 17 Aug 2026. The school did not commission, review or approve this report.',
+}
+
 const REPORTS: Record<string, FinancialAidReport> = {
   'charlotte-country-day': COUNTRY_DAY,
   cannon: CANNON,
@@ -2208,6 +2405,7 @@ const REPORTS: Record<string, FinancialAidReport> = {
   'charlotte-latin': CHARLOTTE_LATIN,
   'providence-day': PROVIDENCE_DAY,
   'carmel-christian': CARMEL_CHRISTIAN,
+  'hickory-grove-christian': HICKORY_GROVE_CHRISTIAN,
 }
 
 /* ---------------------------------------------------------- translations -- */
