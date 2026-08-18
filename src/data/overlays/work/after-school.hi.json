@@ -136,7 +136,8 @@
         "charlotte-country-day:coverage.facts[2].label",
         "cannon:cost.fees[3].label",
         "carmel-christian:coverage.facts[4].label",
-        "carmel-christian:cost.fees[4].label"
+        "carmel-christian:cost.fees[4].label",
+        "gaston-day:coverage.facts[1].label"
       ],
       "t": "देर से pickup"
     },
@@ -433,7 +434,8 @@
       "of": "d270c952",
       "at": [
         "providence-day:cost.fees[4].value",
-        "cannon:cost.fees[0].value"
+        "cannon:cost.fees[0].value",
+        "gaston-day:cost.fees[4].value"
       ],
       "t": "$25"
     },
@@ -1199,7 +1201,8 @@
         "charlotte-latin:coverage.summer.season",
         "charlotte-christian:coverage.summer.season",
         "charlotte-country-day:coverage.summer.season",
-        "cannon:coverage.summer.season"
+        "cannon:coverage.summer.season",
+        "gaston-day:coverage.summer.season"
       ],
       "t": "जून–जुलाई"
     },
@@ -3123,7 +3126,8 @@
       "at": [
         "charlotte-country-day:coverage.facts[1].label",
         "covenant-day:cost.fees[0].label",
-        "carmel-christian:coverage.facts[3].label"
+        "carmel-christian:coverage.facts[3].label",
+        "gaston-day:coverage.facts[0].label"
       ],
       "t": "बिना पूर्व-पंजीकरण"
     },
@@ -6826,6 +6830,816 @@
         "hickory-grove-christian:verdict.checklist[5]"
       ],
       "t": "कार्यक्रम बंद रहने के कारण गर्मियों में बाल देखभाल के क्या विकल्प हैं — आधे दिन के camps के अलावा?"
+    },
+    {
+      "text": "Care runs to 6:00 pm for Pre-K through 8th grade, split into a Lower School tier from 3:00 and a Middle School tier from 4:00.",
+      "of": "bfb77064",
+      "at": [
+        "gaston-day:coverage.headline"
+      ],
+      "t": "Pre-K से 8वीं कक्षा तक देखभाल 6:00 pm तक चलती है, जो 3:00 से शुरू होने वाले Lower School स्तर और 4:00 से शुरू होने वाले Middle School स्तर में बँटी है।"
+    },
+    {
+      "text": "Both tiers land in the same room by mid-afternoon; the difference is when each division’s day ends, not what the programme offers.",
+      "of": "3994541b",
+      "at": [
+        "gaston-day:coverage.subhead"
+      ],
+      "t": "दोपहर बीतते-बीतते दोनों स्तर एक ही कमरे में पहुँच जाते हैं; फ़र्क़ यह है कि हर डिवीज़न का दिन कब ख़त्म होता है, न कि कार्यक्रम क्या देता है।"
+    },
+    {
+      "text": "Prices shown are the published WEEKLY rates from the school’s 2025-26 Schedule of Tuition and Fees, which assume regular enrolment; the drop-in alternative is billed per day and is listed in the facts below. See the flags below — the programme web page labels near-identical figures as monthly.",
+      "of": "dd360eb1",
+      "at": [
+        "gaston-day:coverage.basisNote"
+      ],
+      "t": "दिखाई गई क़ीमतें स्कूल की 2025-26 Schedule of Tuition and Fees में प्रकाशित साप्ताहिक दरें हैं, जो नियमित नामांकन मानकर चलती हैं; ड्रॉप-इन का विकल्प प्रति दिन बिल होता है और नीचे तथ्यों में दिया गया है। नीचे के flags देखें — कार्यक्रम का वेब पेज लगभग यही आँकड़े मासिक बताता है।"
+    },
+    {
+      "text": "PS–4th · dismissal 3:00",
+      "of": "cf1739b4",
+      "at": [
+        "gaston-day:coverage.rows[0].dismissal"
+      ],
+      "t": "PS–4th · छुट्टी 3:00"
+    },
+    {
+      "text": "After School Care · $95/week or $30/day",
+      "of": "582d1893",
+      "at": [
+        "gaston-day:coverage.rows[0].flatLabel"
+      ],
+      "t": "After School Care · $95/week या $30/day"
+    },
+    {
+      "text": "5th–8th · dismissal 4:00",
+      "of": "8c483b1b",
+      "at": [
+        "gaston-day:coverage.rows[1].dismissal"
+      ],
+      "t": "5th–8th · छुट्टी 4:00"
+    },
+    {
+      "text": "After School Care · $55/week or $15/day",
+      "of": "0e52375e",
+      "at": [
+        "gaston-day:coverage.rows[1].flatLabel"
+      ],
+      "t": "After School Care · $55/week या $15/day"
+    },
+    {
+      "text": "9th–12th",
+      "of": "a9af72ca",
+      "at": [
+        "gaston-day:coverage.rows[2].dismissal"
+      ],
+      "t": "9th–12th"
+    },
+    {
+      "text": "Summer care is a separate programme with its own published rates — Camp Spartan full and half days plus before-camp care from 7:45 am and after-camp care to 5:00 pm. See the Summer Programs area.",
+      "of": "996e0810",
+      "at": [
+        "gaston-day:coverage.summer.text"
+      ],
+      "t": "गर्मियों की देखभाल अपनी प्रकाशित दरों वाला एक अलग कार्यक्रम है — Camp Spartan के पूरे और आधे दिन, साथ में 7:45 am से कैंप-पूर्व देखभाल और 5:00 pm तक कैंप-बाद देखभाल। Summer Programs खंड देखें।"
+    },
+    {
+      "text": "Available without weekly enrolment at **$30/day** (Lower School) and **$15/day** (Middle School). An **Extended Day Drop-In Fee of $25** also appears on the fee schedule.",
+      "of": "102fb295",
+      "at": [
+        "gaston-day:coverage.facts[0].text"
+      ],
+      "t": "साप्ताहिक नामांकन के बिना भी उपलब्ध, **$30/day** (Lower School) और **$15/day** (Middle School) पर। शुल्क अनुसूची में **$25 का Extended Day Drop-In Fee** भी दिखता है।"
+    },
+    {
+      "text": "**$10 for the first 5 minutes**, then **$5 per additional 5-minute increment**. Pickup is from the front carpool line.",
+      "of": "2c280635",
+      "at": [
+        "gaston-day:coverage.facts[1].text"
+      ],
+      "t": "**पहले 5 मिनट के लिए $10**, फिर **हर अतिरिक्त 5 मिनट पर $5**। बच्चों को सामने की carpool लाइन से लिया जाता है।"
+    },
+    {
+      "text": "Registration",
+      "of": "83988d98",
+      "at": [
+        "gaston-day:coverage.facts[2].label"
+      ],
+      "t": "पंजीकरण"
+    },
+    {
+      "text": "Through the **Popsicle** app — the same platform the summer camps use. Registration is free and stated as taking under five minutes.",
+      "of": "339f1dae",
+      "at": [
+        "gaston-day:coverage.facts[2].text"
+      ],
+      "t": "**Popsicle** ऐप के ज़रिए — वही प्लेटफ़ॉर्म जो गर्मियों के कैंप इस्तेमाल करते हैं। पंजीकरण निःशुल्क है और बताया गया है कि इसमें पाँच मिनट से कम लगते हैं।"
+    },
+    {
+      "text": "Staff contacts",
+      "of": "7085c0b2",
+      "at": [
+        "gaston-day:coverage.facts[3].label"
+      ],
+      "t": "कर्मचारियों से संपर्क"
+    },
+    {
+      "text": "**Letty Jimenez** (980.502.5817) and **Traci Harbin**.",
+      "of": "bc1cdbb7",
+      "at": [
+        "gaston-day:coverage.facts[3].text"
+      ],
+      "t": "**Letty Jimenez** (980.502.5817) और **Traci Harbin**।"
+    },
+    {
+      "text": "Music lessons interlock",
+      "of": "52c051cc",
+      "at": [
+        "gaston-day:coverage.facts[4].label"
+      ],
+      "t": "संगीत की कक्षाओं से जुड़ाव"
+    },
+    {
+      "text": "Middle School students waiting for a music lesson (**$35/lesson**) may work on homework in aftercare **at no charge**.",
+      "of": "df2e3b63",
+      "at": [
+        "gaston-day:coverage.facts[4].text"
+      ],
+      "t": "Middle School के जो छात्र संगीत की कक्षा (**$35/lesson**) की प्रतीक्षा में हैं, वे **बिना किसी शुल्क के** aftercare में गृहकार्य कर सकते हैं।"
+    },
+    {
+      "text": "No Upper School care",
+      "of": "49913287",
+      "at": [
+        "gaston-day:coverage.facts[5].label"
+      ],
+      "t": "Upper School के लिए कोई देखभाल नहीं"
+    },
+    {
+      "text": "The programme covers **Pre-K through 8th grade only**. No after-school care is published for grades 9–12, which is normal on this roster but worth stating.",
+      "of": "e87b6e65",
+      "at": [
+        "gaston-day:coverage.facts[5].text"
+      ],
+      "t": "यह कार्यक्रम **केवल Pre-K से 8वीं कक्षा तक** है। कक्षा 9–12 के लिए स्कूल के बाद की कोई देखभाल प्रकाशित नहीं है, जो इस सूची में सामान्य बात है पर कहने लायक़ है।"
+    },
+    {
+      "text": "The programme page says **3:15–5:30 pm** for both divisions; the 2025-26 fee schedule says **3:00–6:00** (Lower School) and **4:00–6:00** (Middle School). Both are shown here: the fee schedule sets the rates and the Compare row’s 6:00 pm latest pickup, the page sets the afternoon rhythm. A family should confirm the current window at enrolment.",
+      "of": "5998fe68",
+      "at": [
+        "gaston-day:coverage.flags[0].text"
+      ],
+      "t": "कार्यक्रम का पेज दोनों डिवीज़नों के लिए **3:15–5:30 pm** बताता है; 2025-26 की शुल्क अनुसूची **3:00–6:00** (Lower School) और **4:00–6:00** (Middle School) बताती है। दोनों यहाँ दिखाए गए हैं: दरें और Compare पंक्ति का 6:00 pm वाला अंतिम पिकअप शुल्क अनुसूची से हैं, दोपहर की लय पेज से है। परिवार को नामांकन के समय मौजूदा अवधि की पुष्टि कर लेनी चाहिए।"
+    },
+    {
+      "text": "The page prices weekly enrolment at **$100/month** (LS) and **$60/month** (MS); the fee schedule says **$95/week** and **$55/week**. The drop-in rates ($30/day, $15/day) are identical in both. The per-week reading is used, since a monthly rate below four drop-in days is not economically coherent.",
+      "of": "27660033",
+      "at": [
+        "gaston-day:coverage.flags[1].text"
+      ],
+      "t": "पेज साप्ताहिक नामांकन की क़ीमत **$100/month** (LS) और **$60/month** (MS) बताता है; शुल्क अनुसूची **$95/week** और **$55/week** बताती है। ड्रॉप-इन दरें ($30/day, $15/day) दोनों में एक जैसी हैं। साप्ताहिक पाठ लिया गया है, क्योंकि चार ड्रॉप-इन दिनों से कम की मासिक दर आर्थिक रूप से संगत नहीं बैठती।"
+    },
+    {
+      "text": "At $95 a week for the Lower School and $55 for the Middle School, this is among the least expensive aftercare on the roster.",
+      "of": "b133484b",
+      "at": [
+        "gaston-day:cost.headline"
+      ],
+      "t": "Lower School के लिए $95 प्रति सप्ताह और Middle School के लिए $55 पर, यह इस सूची की सबसे सस्ती aftercare में से है।"
+    },
+    {
+      "text": "A full school year of five-day Lower School care comes to roughly $3,420 across 36 weeks — before any drop-in days or late fees.",
+      "of": "01cdd883",
+      "at": [
+        "gaston-day:cost.subhead"
+      ],
+      "t": "पाँच दिन की Lower School देखभाल का पूरा स्कूल वर्ष 36 सप्ताहों में लगभग $3,420 बनता है — किसी भी ड्रॉप-इन दिन या देर से लेने के शुल्क से पहले।"
+    },
+    {
+      "text": "36 school weeks",
+      "of": "6584e6c5",
+      "at": [
+        "gaston-day:cost.periodsLabel"
+      ],
+      "t": "36 स्कूल सप्ताह"
+    },
+    {
+      "text": "Lower School · PS–4th",
+      "of": "6def2ab3",
+      "at": [
+        "gaston-day:cost.rows[0].label"
+      ],
+      "t": "Lower School · PS–4th"
+    },
+    {
+      "text": "Lower School · PS–4th · weekly enrolment",
+      "of": "2a3329f1",
+      "at": [
+        "gaston-day:cost.rows[0].panelLabel"
+      ],
+      "t": "Lower School · PS–4th · साप्ताहिक नामांकन"
+    },
+    {
+      "text": "Middle School · 5th–8th",
+      "of": "fb8f86b9",
+      "at": [
+        "gaston-day:cost.rows[1].label"
+      ],
+      "t": "Middle School · 5th–8th"
+    },
+    {
+      "text": "Middle School · 5th–8th · weekly enrolment",
+      "of": "40f4e72f",
+      "at": [
+        "gaston-day:cost.rows[1].panelLabel"
+      ],
+      "t": "Middle School · 5th–8th · साप्ताहिक नामांकन"
+    },
+    {
+      "text": "Lower School · drop-in",
+      "of": "1242df14",
+      "at": [
+        "gaston-day:cost.rows[2].label",
+        "gaston-day:cost.fees[1].label"
+      ],
+      "t": "Lower School · ड्रॉप-इन"
+    },
+    {
+      "text": "Lower School · drop-in, per day",
+      "of": "7814d415",
+      "at": [
+        "gaston-day:cost.rows[2].panelLabel"
+      ],
+      "t": "Lower School · ड्रॉप-इन, प्रति दिन"
+    },
+    {
+      "text": "Middle School · drop-in",
+      "of": "d3902c6e",
+      "at": [
+        "gaston-day:cost.rows[3].label",
+        "gaston-day:cost.fees[3].label"
+      ],
+      "t": "Middle School · ड्रॉप-इन"
+    },
+    {
+      "text": "Middle School · drop-in, per day",
+      "of": "03f1264f",
+      "at": [
+        "gaston-day:cost.rows[3].panelLabel"
+      ],
+      "t": "Middle School · ड्रॉप-इन, प्रति दिन"
+    },
+    {
+      "text": "The weekly rate is flat, so it does not scale with days",
+      "of": "92618b50",
+      "at": [
+        "gaston-day:cost.aside.title"
+      ],
+      "t": "साप्ताहिक दर एकसमान है, इसलिए वह दिनों के साथ नहीं बढ़ती"
+    },
+    {
+      "text": "The published $95 and $55 figures are weekly enrolment rates that do not vary by how many afternoons a child attends — which is why those two rows show the same price in every column. Drop-in is the alternative that scales: at Lower School rates, drop-in beats weekly enrolment up to three days a week ($90 vs $95) and loses from four ($120 vs $95).",
+      "of": "53262328",
+      "at": [
+        "gaston-day:cost.aside.text"
+      ],
+      "t": "प्रकाशित $95 और $55 साप्ताहिक नामांकन की दरें हैं, जो इससे नहीं बदलतीं कि बच्चा कितनी दोपहरें आता है — इसीलिए उन दोनों पंक्तियों में हर स्तंभ पर एक ही क़ीमत दिखती है। ड्रॉप-इन वह विकल्प है जो दिनों के साथ बढ़ता है: Lower School की दरों पर हफ़्ते में तीन दिन तक ड्रॉप-इन साप्ताहिक नामांकन से सस्ता पड़ता है ($90 बनाम $95) और चार दिन से महँगा ($120 बनाम $95)।"
+    },
+    {
+      "text": "Lower School · weekly enrolment",
+      "of": "519b3e4e",
+      "at": [
+        "gaston-day:cost.fees[0].label"
+      ],
+      "t": "Lower School · साप्ताहिक नामांकन"
+    },
+    {
+      "text": "$95/week",
+      "of": "cf4c30e6",
+      "at": [
+        "gaston-day:cost.fees[0].value"
+      ],
+      "t": "$95/week"
+    },
+    {
+      "text": "$30/day",
+      "of": "35289245",
+      "at": [
+        "gaston-day:cost.fees[1].value"
+      ],
+      "t": "$30/day"
+    },
+    {
+      "text": "Middle School · weekly enrolment",
+      "of": "219b70a8",
+      "at": [
+        "gaston-day:cost.fees[2].label"
+      ],
+      "t": "Middle School · साप्ताहिक नामांकन"
+    },
+    {
+      "text": "$55/week",
+      "of": "84acf482",
+      "at": [
+        "gaston-day:cost.fees[2].value"
+      ],
+      "t": "$55/week"
+    },
+    {
+      "text": "$15/day",
+      "of": "431b12c0",
+      "at": [
+        "gaston-day:cost.fees[3].value"
+      ],
+      "t": "$15/day"
+    },
+    {
+      "text": "Extended Day Drop-In Fee",
+      "of": "0215e91d",
+      "at": [
+        "gaston-day:cost.fees[4].label"
+      ],
+      "t": "Extended Day Drop-In Fee"
+    },
+    {
+      "text": "Music lessons",
+      "of": "4d585419",
+      "at": [
+        "gaston-day:cost.fees[5].label"
+      ],
+      "t": "संगीत की कक्षाएँ"
+    },
+    {
+      "text": "$35/lesson",
+      "of": "1e35d0b4",
+      "at": [
+        "gaston-day:cost.fees[5].value"
+      ],
+      "t": "$35/lesson"
+    },
+    {
+      "text": "Late pickup — first 5 minutes",
+      "of": "ff00cd0b",
+      "at": [
+        "gaston-day:cost.fees[6].label"
+      ],
+      "t": "देर से लेना — पहले 5 मिनट"
+    },
+    {
+      "text": "$10",
+      "of": "d5730ca2",
+      "at": [
+        "gaston-day:cost.fees[6].value"
+      ],
+      "t": "$10"
+    },
+    {
+      "text": "Late pickup — each further 5 minutes",
+      "of": "c96277d8",
+      "at": [
+        "gaston-day:cost.fees[7].label"
+      ],
+      "t": "देर से लेना — उसके बाद हर 5 मिनट"
+    },
+    {
+      "text": "$5",
+      "of": "0cbbb472",
+      "at": [
+        "gaston-day:cost.fees[7].value"
+      ],
+      "t": "$5"
+    },
+    {
+      "text": "The 36-week year is this project’s standard planning assumption for comparability across schools, not a figure Gaston Day publishes. The school states no annual aftercare total, no registration fee, no sibling discount and no tuition-insurance terms for the programme.",
+      "of": "b09c2dcd",
+      "at": [
+        "gaston-day:cost.fees[8].label"
+      ],
+      "t": "36 सप्ताह का वर्ष स्कूलों के बीच तुलना के लिए इस परियोजना की मानक योजना-धारणा है, कोई आँकड़ा नहीं जो Gaston Day प्रकाशित करता हो। स्कूल न aftercare का कोई वार्षिक कुल बताता है, न पंजीकरण शुल्क, न भाई-बहन छूट, और न इस कार्यक्रम के लिए ट्यूशन-बीमा की कोई शर्तें।"
+    },
+    {
+      "text": "The programme page labels these same figures as **$100/month** and **$60/month**. The weekly reading from the official fee schedule is used — see the Coverage card’s flag for why.",
+      "of": "38c63975",
+      "at": [
+        "gaston-day:cost.flags[0].text"
+      ],
+      "t": "कार्यक्रम का पेज इन्हीं आँकड़ों को **$100/month** और **$60/month** बताता है। आधिकारिक शुल्क अनुसूची का साप्ताहिक पाठ लिया गया है — क्यों, यह Coverage कार्ड के flag में देखें।"
+    },
+    {
+      "text": "No registration fee, sibling discount, financial-aid pathway or annual cap is published for aftercare specifically.",
+      "of": "e3faf456",
+      "at": [
+        "gaston-day:cost.flags[1].text"
+      ],
+      "t": "ख़ास तौर पर aftercare के लिए कोई पंजीकरण शुल्क, भाई-बहन छूट, वित्तीय-सहायता का रास्ता या वार्षिक अधिकतम सीमा प्रकाशित नहीं है।"
+    },
+    {
+      "text": "A published minute-by-minute afternoon: choice time, then snack and homework by grade level, then a STEAM group activity, then choice time again.",
+      "of": "1bccbb9a",
+      "at": [
+        "gaston-day:dayInside.headline"
+      ],
+      "t": "मिनट-दर-मिनट प्रकाशित एक दोपहर: पहले choice time, फिर कक्षा-स्तर के अनुसार नाश्ता और गृहकार्य, फिर STEAM की सामूहिक गतिविधि, फिर दोबारा choice time।"
+    },
+    {
+      "text": "Unusually for this roster, Gaston Day prints the actual clock rather than describing the programme in general terms.",
+      "of": "c36b3b7c",
+      "at": [
+        "gaston-day:dayInside.subhead"
+      ],
+      "t": "इस सूची में असामान्य रूप से, Gaston Day कार्यक्रम को सामान्य शब्दों में बताने के बजाय असली घड़ी छापता है।"
+    },
+    {
+      "text": "The published afternoon",
+      "of": "0e782ef2",
+      "at": [
+        "gaston-day:dayInside.rhythmTitle"
+      ],
+      "t": "प्रकाशित दोपहर"
+    },
+    {
+      "text": "3:15",
+      "of": "c192caea",
+      "at": [
+        "gaston-day:dayInside.rhythm[0].time"
+      ],
+      "t": "3:15"
+    },
+    {
+      "text": "Relax / Choice Time",
+      "of": "f1c538d8",
+      "at": [
+        "gaston-day:dayInside.rhythm[0].name"
+      ],
+      "t": "Relax / Choice Time"
+    },
+    {
+      "text": "Playground, games and socialising as students arrive from Lower School dismissal.",
+      "of": "9417de3a",
+      "at": [
+        "gaston-day:dayInside.rhythm[0].detail"
+      ],
+      "t": "Lower School की छुट्टी के बाद छात्रों के आते ही खेल का मैदान, खेल और मेल-जोल।"
+    },
+    {
+      "text": "4:00",
+      "of": "ce552613",
+      "at": [
+        "gaston-day:dayInside.rhythm[1].time"
+      ],
+      "t": "4:00"
+    },
+    {
+      "text": "Snack & homework",
+      "of": "d68abdef",
+      "at": [
+        "gaston-day:dayInside.rhythm[1].name"
+      ],
+      "t": "नाश्ता और गृहकार्य"
+    },
+    {
+      "text": "Separated by grade level. Snack is distributed around 4:15; students may bring their own in addition.",
+      "of": "c59bbc29",
+      "at": [
+        "gaston-day:dayInside.rhythm[1].detail"
+      ],
+      "t": "कक्षा-स्तर के अनुसार अलग-अलग। नाश्ता लगभग 4:15 पर बाँटा जाता है; छात्र इसके अलावा अपना भी ला सकते हैं।"
+    },
+    {
+      "text": "4:25",
+      "of": "e550cd1a",
+      "at": [
+        "gaston-day:dayInside.rhythm[2].time"
+      ],
+      "t": "4:25"
+    },
+    {
+      "text": "Whole-group activity",
+      "of": "2c6c1acb",
+      "at": [
+        "gaston-day:dayInside.rhythm[2].name"
+      ],
+      "t": "पूरे समूह की गतिविधि"
+    },
+    {
+      "text": "Emphasising STEAM and collaboration — the one structured, all-together block of the afternoon.",
+      "of": "0585bbbc",
+      "at": [
+        "gaston-day:dayInside.rhythm[2].detail"
+      ],
+      "t": "STEAM और सहयोग पर ज़ोर — दोपहर का यही एक व्यवस्थित, सबके साथ वाला खंड है।"
+    },
+    {
+      "text": "4:55",
+      "of": "655ccf8d",
+      "at": [
+        "gaston-day:dayInside.rhythm[3].time"
+      ],
+      "t": "4:55"
+    },
+    {
+      "text": "Choice time",
+      "of": "653f0203",
+      "at": [
+        "gaston-day:dayInside.rhythm[3].name"
+      ],
+      "t": "पसंद का समय"
+    },
+    {
+      "text": "Free choice until pickup. Tech activities are available on Fridays only.",
+      "of": "81a4aadd",
+      "at": [
+        "gaston-day:dayInside.rhythm[3].detail"
+      ],
+      "t": "लेने आने तक स्वतंत्र चुनाव। तकनीक से जुड़ी गतिविधियाँ केवल शुक्रवार को उपलब्ध होती हैं।"
+    },
+    {
+      "text": "In the school’s own words",
+      "of": "ce7ecbde",
+      "at": [
+        "gaston-day:dayInside.wordsTitle"
+      ],
+      "t": "स्कूल के अपने शब्दों में"
+    },
+    {
+      "text": "Relax/Choice Time",
+      "of": "2f656d06",
+      "at": [
+        "gaston-day:dayInside.words[0]"
+      ],
+      "t": "Relax/Choice Time"
+    },
+    {
+      "text": "STEAM",
+      "of": "785075d3",
+      "at": [
+        "gaston-day:dayInside.words[1]"
+      ],
+      "t": "STEAM"
+    },
+    {
+      "text": "collaboration",
+      "of": "833642b6",
+      "at": [
+        "gaston-day:dayInside.words[2]"
+      ],
+      "t": "सहयोग"
+    },
+    {
+      "text": "homework help",
+      "of": "ec528e6e",
+      "at": [
+        "gaston-day:dayInside.words[3]"
+      ],
+      "t": "गृहकार्य में मदद"
+    },
+    {
+      "text": "snack",
+      "of": "ae0af9ed",
+      "at": [
+        "gaston-day:dayInside.words[4]"
+      ],
+      "t": "नाश्ता"
+    },
+    {
+      "text": "grade-level groups",
+      "of": "e8ad37b1",
+      "at": [
+        "gaston-day:dayInside.words[5]"
+      ],
+      "t": "कक्षा-स्तर के समूह"
+    },
+    {
+      "text": "The programme is framed around a decompression-then-structure rhythm: students arrive to unstructured play, move into a separated homework and snack window, come together for a STEAM-and-collaboration block, then return to choice. Middle School students waiting for music lessons may work on homework at no charge, which is the one explicit interlock with another school programme.",
+      "of": "e3eb036a",
+      "at": [
+        "gaston-day:dayInside.wordsText"
+      ],
+      "t": "कार्यक्रम को पहले तनाव-मुक्ति और फिर व्यवस्था की लय पर गढ़ा गया है: छात्र आकर बिना बंधन के खेलते हैं, फिर अलग-अलग समूहों में गृहकार्य और नाश्ते की अवधि में जाते हैं, फिर STEAM और सहयोग के खंड के लिए साथ आते हैं, और फिर choice पर लौटते हैं। संगीत की कक्षाओं की प्रतीक्षा कर रहे Middle School छात्र बिना शुल्क गृहकार्य कर सकते हैं, और स्कूल के किसी दूसरे कार्यक्रम से जुड़ाव का यही एक स्पष्ट उदाहरण है।"
+    },
+    {
+      "text": "Enrichment classes",
+      "of": "5e669198",
+      "at": [
+        "gaston-day:dayInside.catalogTitle"
+      ],
+      "t": "संवर्धन कक्षाएँ"
+    },
+    {
+      "text": "The school lists enrichment programmes as **“coming soon”** at the time of this research, so there is no class catalog to show. This is a genuine absence rather than an un-researched gap — the section exists on the page with no offerings in it.",
+      "of": "4d9e2ec3",
+      "at": [
+        "gaston-day:dayInside.catalogIntro"
+      ],
+      "t": "इस शोध के समय स्कूल संवर्धन कार्यक्रमों को **“coming soon”** बताता है, इसलिए दिखाने के लिए कोई कक्षा-सूची नहीं है। यह बिना शोध की कमी नहीं, एक असली अनुपस्थिति है — पेज पर यह खंड मौजूद है पर उसमें कोई सेवा नहीं है।"
+    },
+    {
+      "text": "Enrichment offerings are advertised as \"coming soon\" with no classes, days, grades or fees published — so no catalog is shown rather than an empty one.",
+      "of": "e8b6c7b8",
+      "at": [
+        "gaston-day:dayInside.flags[0].text"
+      ],
+      "t": "संवर्धन की सेवाओं का प्रचार \"coming soon\" के रूप में है और कोई कक्षा, दिन, कक्षा-स्तर या शुल्क प्रकाशित नहीं है — इसलिए ख़ाली सूची दिखाने के बजाय कोई सूची नहीं दिखाई गई।"
+    },
+    {
+      "text": "This rhythm is the web page’s 3:15–5:30 window. The fee schedule’s window runs 3:00–6:00 (Lower School), so the published blocks may start 15 minutes earlier and run 30 minutes later than shown.",
+      "of": "319251b2",
+      "at": [
+        "gaston-day:dayInside.flags[1].text"
+      ],
+      "t": "यह लय वेब पेज की 3:15–5:30 वाली अवधि है। शुल्क अनुसूची की अवधि 3:00–6:00 (Lower School) है, इसलिए प्रकाशित खंड यहाँ दिखाए गए समय से 15 मिनट पहले शुरू और 30 मिनट बाद तक चल सकते हैं।"
+    },
+    {
+      "text": "No staff-to-child ratio, capacity, or policy for early-dismissal and teacher-workday coverage is published.",
+      "of": "ec1c2e32",
+      "at": [
+        "gaston-day:dayInside.flags[2].text"
+      ],
+      "t": "कर्मचारी-प्रति-बच्चा अनुपात, क्षमता, या जल्दी छुट्टी और शिक्षक के कार्य-दिवसों पर देखभाल की कोई नीति प्रकाशित नहीं है।"
+    },
+    {
+      "text": "Cheap, published in detail, and genuinely structured — but with an unresolved conflict between the school’s two own sources on both hours and billing period.",
+      "of": "c7b15ee8",
+      "at": [
+        "gaston-day:verdict.headline"
+      ],
+      "t": "सस्ता, विस्तार से प्रकाशित और सचमुच व्यवस्थित — पर स्कूल के अपने दो स्रोतों के बीच समय और बिलिंग अवधि, दोनों पर एक अनसुलझा टकराव है।"
+    },
+    {
+      "text": "For a family that needs care to 6:00 pm, this is the least expensive option on the roster; confirm the window before relying on it.",
+      "of": "c86428c6",
+      "at": [
+        "gaston-day:verdict.subhead"
+      ],
+      "t": "जिस परिवार को 6:00 pm तक देखभाल चाहिए, उसके लिए यह इस सूची का सबसे सस्ता विकल्प है; इस पर निर्भर होने से पहले अवधि की पुष्टि कर लें।"
+    },
+    {
+      "text": "What holds up",
+      "of": "1d3ad71e",
+      "at": [
+        "gaston-day:verdict.strengthsTitle"
+      ],
+      "t": "क्या मज़बूत है"
+    },
+    {
+      "text": "**The price is the lowest here.** $95/week for Lower School and $55/week for Middle School, with drop-in at $30 and $15 — no registration fee published.",
+      "of": "9dfdd473",
+      "at": [
+        "gaston-day:verdict.strengths[0]"
+      ],
+      "t": "**क़ीमत यहाँ सबसे कम है।** Lower School के लिए $95/week और Middle School के लिए $55/week, ड्रॉप-इन $30 और $15 पर — कोई पंजीकरण शुल्क प्रकाशित नहीं।"
+    },
+    {
+      "text": "**The afternoon is published minute by minute.** Four named blocks with times, rather than a general description of \"supervision and activities\".",
+      "of": "b689257a",
+      "at": [
+        "gaston-day:verdict.strengths[1]"
+      ],
+      "t": "**दोपहर मिनट-दर-मिनट प्रकाशित है।** \"निगरानी और गतिविधियाँ\" जैसे सामान्य विवरण के बजाय समय के साथ चार नामित खंड।"
+    },
+    {
+      "text": "**Homework is a scheduled block, not an afterthought** — 4:00–4:25, separated by grade level, with snack alongside.",
+      "of": "5dc433b8",
+      "at": [
+        "gaston-day:verdict.strengths[2]"
+      ],
+      "t": "**गृहकार्य एक निर्धारित खंड है, बाद की सोच नहीं** — 4:00–4:25, कक्षा-स्तर के अनुसार अलग, साथ में नाश्ता।"
+    },
+    {
+      "text": "**There is a structured group activity every day** built around STEAM and collaboration, so the afternoon is not purely custodial.",
+      "of": "aea8dfb2",
+      "at": [
+        "gaston-day:verdict.strengths[3]"
+      ],
+      "t": "**हर दिन STEAM और सहयोग पर बनी एक व्यवस्थित सामूहिक गतिविधि होती है**, इसलिए दोपहर केवल देखरेख भर नहीं है।"
+    },
+    {
+      "text": "**Coverage runs to 6:00 pm** on the fee schedule — later than several peers, and covering the full Pre-K–8 span in two tiers.",
+      "of": "70978dc2",
+      "at": [
+        "gaston-day:verdict.strengths[4]"
+      ],
+      "t": "**शुल्क अनुसूची के अनुसार देखभाल 6:00 pm तक चलती है** — कई समकक्षों से देर तक, और दो स्तरों में पूरे Pre-K–8 दायरे को समेटते हुए।"
+    },
+    {
+      "text": "**It interlocks with music lessons**, letting Middle School students do homework free while waiting.",
+      "of": "2044a7e9",
+      "at": [
+        "gaston-day:verdict.strengths[5]"
+      ],
+      "t": "**यह संगीत की कक्षाओं से जुड़ती है**, जिससे Middle School के छात्र प्रतीक्षा के दौरान मुफ़्त में गृहकार्य कर सकते हैं।"
+    },
+    {
+      "text": "What to check",
+      "of": "2252120c",
+      "at": [
+        "gaston-day:verdict.watchoutsTitle"
+      ],
+      "t": "क्या जाँचना चाहिए"
+    },
+    {
+      "text": "**The hours conflict.** 3:15–5:30 on the programme page versus 3:00–6:00 and 4:00–6:00 on the fee schedule — a 30-minute difference at the end of the day that matters if you are relying on it.",
+      "of": "8d56262d",
+      "at": [
+        "gaston-day:verdict.watchouts[0]"
+      ],
+      "t": "**समय में टकराव है।** कार्यक्रम के पेज पर 3:15–5:30 बनाम शुल्क अनुसूची पर 3:00–6:00 और 4:00–6:00 — दिन के अंत में 30 मिनट का यह फ़र्क़ मायने रखता है अगर आप उस पर निर्भर हैं।"
+    },
+    {
+      "text": "**The billing period conflicts.** \"$100/month\" on the page versus \"$95/week\" on the fee schedule. These are very different annual totals; confirm which you will be billed.",
+      "of": "5c58535c",
+      "at": [
+        "gaston-day:verdict.watchouts[1]"
+      ],
+      "t": "**बिलिंग अवधि में टकराव है।** पेज पर \"$100/month\" बनाम शुल्क अनुसूची पर \"$95/week\"। इनके वार्षिक कुल बहुत अलग बनते हैं; पुष्टि कर लें कि आपका बिल किस तरह बनेगा।"
+    },
+    {
+      "text": "**Enrichment is \"coming soon\"** — the extras that other schools bundle into aftercare do not exist here yet.",
+      "of": "8f4fe97c",
+      "at": [
+        "gaston-day:verdict.watchouts[2]"
+      ],
+      "t": "**संवर्धन \"coming soon\" है** — जो अतिरिक्त सुविधाएँ दूसरे स्कूल aftercare के साथ जोड़ देते हैं, वे यहाँ अभी मौजूद नहीं हैं।"
+    },
+    {
+      "text": "**No Upper School care.** Grades 9–12 have no published after-school programme.",
+      "of": "9223cc40",
+      "at": [
+        "gaston-day:verdict.watchouts[3]"
+      ],
+      "t": "**Upper School के लिए कोई देखभाल नहीं।** कक्षा 9–12 के लिए स्कूल के बाद का कोई प्रकाशित कार्यक्रम नहीं है।"
+    },
+    {
+      "text": "**Late fees start fast** — $10 within the first five minutes, then $5 per five minutes.",
+      "of": "36eb907a",
+      "at": [
+        "gaston-day:verdict.watchouts[4]"
+      ],
+      "t": "**देर से लेने के शुल्क जल्दी शुरू होते हैं** — पहले पाँच मिनट के भीतर $10, फिर हर पाँच मिनट पर $5।"
+    },
+    {
+      "text": "**Nothing published on ratios or capacity**, so there is no way to know how many children one adult supervises.",
+      "of": "594884f3",
+      "at": [
+        "gaston-day:verdict.watchouts[5]"
+      ],
+      "t": "**अनुपात या क्षमता पर कुछ प्रकाशित नहीं**, इसलिए यह जानने का कोई रास्ता नहीं कि एक वयस्क कितने बच्चों की देखरेख करता है।"
+    },
+    {
+      "text": "Which is current — 3:15–5:30 on the website, or the 3:00–6:00 and 4:00–6:00 on the fee schedule?",
+      "of": "6384b23c",
+      "at": [
+        "gaston-day:verdict.checklist[0]"
+      ],
+      "t": "मौजूदा कौन-सा है — वेबसाइट पर दिया 3:15–5:30, या शुल्क अनुसूची के 3:00–6:00 और 4:00–6:00?"
+    },
+    {
+      "text": "Is the recurring rate $95 a week or $100 a month? What is the actual annual cost for five days?",
+      "of": "6f700ad8",
+      "at": [
+        "gaston-day:verdict.checklist[1]"
+      ],
+      "t": "आवर्ती दर $95 प्रति सप्ताह है या $100 प्रति माह? पाँच दिन की असली वार्षिक लागत कितनी है?"
+    },
+    {
+      "text": "What is the staff-to-child ratio, and how many children are typically in the room by 5 pm?",
+      "of": "ee9c4745",
+      "at": [
+        "gaston-day:verdict.checklist[2]"
+      ],
+      "t": "कर्मचारी-प्रति-बच्चा अनुपात क्या है, और 5 pm तक कमरे में आम तौर पर कितने बच्चे होते हैं?"
+    },
+    {
+      "text": "When will enrichment classes start, what will they cost, and are they inside the base rate?",
+      "of": "87987c15",
+      "at": [
+        "gaston-day:verdict.checklist[3]"
+      ],
+      "t": "संवर्धन कक्षाएँ कब शुरू होंगी, उनकी लागत क्या होगी, और क्या वे मूल दर में शामिल हैं?"
+    },
+    {
+      "text": "Does aftercare run on early-dismissal days, teacher workdays and exam days?",
+      "of": "f8e6c385",
+      "at": [
+        "gaston-day:verdict.checklist[4]"
+      ],
+      "t": "क्या aftercare जल्दी छुट्टी वाले दिनों, शिक्षकों के कार्य-दिवसों और परीक्षा के दिनों में चलती है?"
+    },
+    {
+      "text": "Is there any financial-aid pathway or sibling discount for aftercare, as there is for tuition?",
+      "of": "3a923a3f",
+      "at": [
+        "gaston-day:verdict.checklist[5]"
+      ],
+      "t": "जैसे ट्यूशन के लिए है, वैसे ही क्या aftercare के लिए भी कोई वित्तीय-सहायता का रास्ता या भाई-बहन छूट है?"
+    },
+    {
+      "text": "How is the 5th–8th grade tier supervised differently from the Pre-K–4th tier once both are in the same room?",
+      "of": "d1678ff8",
+      "at": [
+        "gaston-day:verdict.checklist[6]"
+      ],
+      "t": "जब 5वीं–8वीं और Pre-K–4th दोनों स्तर एक ही कमरे में आ जाते हैं, तब 5वीं–8वीं स्तर की देखरेख किस तरह अलग होती है?"
     }
   ]
 }
