@@ -64,7 +64,8 @@
         "covenant-day:offered.seasons[0].name",
         "davidson-day:offered.seasons[0].name",
         "carmel-christian:offered.seasons[0].name",
-        "hickory-grove-christian:offered.seasons[0].name"
+        "hickory-grove-christian:offered.seasons[0].name",
+        "gaston-day:offered.seasons[0].name"
       ]
     },
     {
@@ -90,7 +91,8 @@
         "covenant-day:offered.seasons[1].name",
         "davidson-day:offered.seasons[1].name",
         "carmel-christian:offered.seasons[1].name",
-        "hickory-grove-christian:offered.seasons[1].name"
+        "hickory-grove-christian:offered.seasons[1].name",
+        "gaston-day:offered.seasons[1].name"
       ]
     },
     {
@@ -105,7 +107,8 @@
         "covenant-day:offered.seasons[2].name",
         "davidson-day:offered.seasons[2].name",
         "carmel-christian:offered.seasons[2].name",
-        "hickory-grove-christian:offered.seasons[2].name"
+        "hickory-grove-christian:offered.seasons[2].name",
+        "gaston-day:offered.seasons[2].name"
       ]
     },
     {
@@ -183,7 +186,13 @@
         "carmel-christian:record.rows[1].cells[0].result",
         "hickory-grove-christian:record.rows[0].cells[0].result",
         "hickory-grove-christian:record.rows[0].cells[1].result",
-        "hickory-grove-christian:record.rows[1].cells[2].result"
+        "hickory-grove-christian:record.rows[1].cells[2].result",
+        "gaston-day:record.rows[0].cells[0].result",
+        "gaston-day:record.rows[0].cells[1].result",
+        "gaston-day:record.rows[0].cells[2].result",
+        "gaston-day:record.rows[1].cells[1].result",
+        "gaston-day:record.rows[1].cells[2].result",
+        "gaston-day:record.rows[2].cells[1].result"
       ]
     },
     {
@@ -294,7 +303,10 @@
         "hickory-grove-christian:record.rows[1].cells[1].result",
         "hickory-grove-christian:record.rows[2].cells[0].result",
         "hickory-grove-christian:record.rows[2].cells[1].result",
-        "hickory-grove-christian:record.rows[2].cells[2].result"
+        "hickory-grove-christian:record.rows[2].cells[2].result",
+        "gaston-day:record.rows[1].cells[0].result",
+        "gaston-day:record.rows[2].cells[0].result",
+        "gaston-day:record.rows[2].cells[2].result"
       ]
     },
     {
@@ -5117,7 +5129,8 @@
       "t": "Direktè Atletik",
       "of": "e3e4c54b",
       "at": [
-        "covenant-day:coaching.tenure[1].role"
+        "covenant-day:coaching.tenure[1].role",
+        "gaston-day:facilities.care[0].label"
       ]
     },
     {
@@ -6445,6 +6458,308 @@
       "of": "11d8c8cf",
       "at": [
         "hickory-grove-christian:coaching.worthKnowing"
+      ]
+    },
+    {
+      "t": "19 espò an ekip atravè twa sezon, ak anviwon 70% elèv nan grad 6–12 k ap jwe omwen youn.",
+      "of": "19459ea5",
+      "at": [
+        "gaston-day:offered.headline"
+      ]
+    },
+    {
+      "t": "Yon pwogram NCISAA 2A ki genyen uit chanpyona eta an ekip depi 2021 — yon to tit ki li pi gwo anpil pase enskripsyon 510 elèv lekòl la.",
+      "of": "203ff4ca",
+      "at": [
+        "gaston-day:offered.subhead"
+      ]
+    },
+    {
+      "t": "espò an ekip atravè twa sezon",
+      "of": "1427439e",
+      "at": [
+        "gaston-day:offered.stats[0].label"
+      ]
+    },
+    {
+      "t": "nan grad 6–12 jwe omwen yon espò",
+      "of": "7cdb734c",
+      "at": [
+        "gaston-day:offered.stats[1].label"
+      ]
+    },
+    {
+      "t": "tit eta an ekip NCISAA 2A depi 2021",
+      "of": "025948af",
+      "at": [
+        "gaston-day:offered.stats[2].label"
+      ]
+    },
+    {
+      "t": "klasifikasyon NCISAA",
+      "of": "ffd173a8",
+      "at": [
+        "gaston-day:offered.stats[3].label"
+      ]
+    },
+    {
+      "t": "7 ekip",
+      "of": "5a9f4260",
+      "at": [
+        "gaston-day:offered.seasons[0].note",
+        "gaston-day:offered.seasons[2].note"
+      ]
+    },
+    {
+      "t": "5 ekip",
+      "of": "054d512e",
+      "at": [
+        "gaston-day:offered.seasons[1].note"
+      ]
+    },
+    {
+      "t": "Nivo ki parèt yo se sa sous yo pibliye reyèlman. Volebòl se sèl espò ki gen nechèl li dokimante — MaxPreps make ekip varsity, JV ak freshman — kidonk se sèl liy ki pote yon etikèt JV; tout lòt espò yo montre V sèlman paske sit atletik ki ta bay nechèl yo se JavaScript ki rann li epi li pa ekspoze anyen bay yon fetch. Middle School la mete pwòp ekip pa l nan foutbòl, baskètbòl, atletism ak natasyon (grad 6–8, sijè a estati akademik ak konpòtman), men lekòl la pa pibliye yon lis MS konplè, kidonk nou pa reklame okenn etikèt MS. Cheering ak atletism soti nan Private School Review olye ke nan griy sezon MaxPreps la.",
+      "of": "7e4610bc",
+      "at": [
+        "gaston-day:offered.footnote"
+      ]
+    },
+    {
+      "t": "Uit chanpyona eta NCISAA 2A depi 2021 — ki enkli yon ane ak twa tit an 2024–25 lè volebòl, foutbòl gason ak tenis fi tout te genyen.",
+      "of": "741bb841",
+      "at": [
+        "gaston-day:record.headline"
+      ]
+    },
+    {
+      "t": "Tenis fi gen kat tit epi li nan yon twazyèm tit youn dèyè lòt; volebòl gen twa epi li te rive nan final 2025 la an senk sèt.",
+      "of": "21136c62",
+      "at": [
+        "gaston-day:record.subhead"
+      ]
+    },
+    {
+      "t": "Kat tit antou (2021, 2023, 2024, 2025) ak twa youn dèyè lòt jiska 2025 — li te bat Trinity School of Durham & Chapel Hill 5–1 an 2023, epi Epiphany School ni an 2024 ni an 2025",
+      "of": "0e564ec1",
+      "at": [
+        "gaston-day:record.rows[0].note"
+      ]
+    },
+    {
+      "t": "Twa tit (2021, 2024, 2025); li te bale Westminster Catawba sou 26 okt. 2024, epi li te bat St. Thomas More Academy 3–2 sou 25 okt. 2025. Plis twa lòt patisipasyon nan final ak senk tit lig pandan deseni a",
+      "of": "958fe120",
+      "at": [
+        "gaston-day:record.rows[1].note"
+      ]
+    },
+    {
+      "t": "Li te kenbe Westchester Country Day san bi pou chanpyona NCISAA 2A 2024 la",
+      "of": "e69b4ba4",
+      "at": [
+        "gaston-day:record.rows[2].note"
+      ]
+    },
+    {
+      "t": "tout lòt pwogram. Uit tit yo depi 2021 chita nan egzakteman twa espò — tenis fi, volebòl ak foutbòl gason — epi lekòl la pa pibliye okenn istwa chanpyona pou sèz lòt yo, kidonk rejis sa a se yon dosye fòs konsantre olye ke pwofondè nan tout pwogram nan.",
+      "of": "e64dee8f",
+      "at": [
+        "gaston-day:record.didNotWin"
+      ]
+    },
+    {
+      "t": "Pwogram ki pi dekore nan lekòl la: chanpyon NCISAA 2A an 2021, 2023, 2024 ak 2025. Kouvèti a te dekri viktwa 2024 la kont Epiphany School kòm twazyèm chanpyona eta pwogram nan an kat ane ak katriyèm nan antou; viktwa 2025 la kont menm advèsè a te fè l twa youn dèyè lòt.",
+      "of": "f977b315",
+      "at": [
+        "gaston-day:record.seasonDetail[0].text"
+      ]
+    },
+    {
+      "t": "Li te genyen tit 2A a an 2021, epi ankò an 2024 ak 2025 anba antrenè prensipal Derek Bing. Final 2025 la kont St. Thomas More Academy te ale nan tout senk sèt yo, 3–2, sou 25 oktòb 2025. Anplis twa tit yo, pwogram nan rive nan twa lòt final epi li pran senk tit lig pandan deseni a.",
+      "of": "1eef43a1",
+      "at": [
+        "gaston-day:record.seasonDetail[1].text"
+      ]
+    },
+    {
+      "t": "Li te genyen chanpyona NCISAA 2A 2024 la ak yon match san bi kont Westchester Country Day, li te konplete yon ane lekòl ak twa tit ansanm ak volebòl ak tenis fi — kous la kouvèti lokal la te make kòm “Déjà vu”.",
+      "of": "210e1e59",
+      "at": [
+        "gaston-day:record.seasonDetail[2].text"
+      ]
+    },
+    {
+      "t": "Dosye onè piblik la mens akote rejis chanpyona a — lekòl la pibliye rezilta ekip, se pa onè endividyèl.",
+      "of": "cac2ab89",
+      "at": [
+        "gaston-day:honors.headline"
+      ]
+    },
+    {
+      "t": "Pa gen ansyen elèv pwofesyonèl, lis All-State oswa prim jwè-ane ki parèt nan okenn sous ki pibliye, epi sit atletik ki ta pote yo pa lizib pa machin.",
+      "of": "515d1b36",
+      "at": [
+        "gaston-day:honors.subhead"
+      ]
+    },
+    {
+      "t": "2025",
+      "of": "41293f26",
+      "at": [
+        "gaston-day:honors.honors[0].label"
+      ]
+    },
+    {
+      "t": "Tenis fi — chanpyon eta NCISAA 2A, twazyèm tit youn dèyè lòt (bat Epiphany School). Volebòl — chanpyon eta NCISAA 2A (bat St. Thomas More Academy 3–2, 25 okt.).",
+      "of": "819d4e61",
+      "at": [
+        "gaston-day:honors.honors[0].text"
+      ]
+    },
+    {
+      "t": "2024",
+      "of": "422940b9",
+      "at": [
+        "gaston-day:honors.honors[1].label"
+      ]
+    },
+    {
+      "t": "Volebòl — chanpyon eta NCISAA 2A (bale Westminster Catawba, 26 okt.). Foutbòl gason — chanpyon eta NCISAA 2A (bat Westchester Country Day). Tenis fi — chanpyon eta NCISAA 2A, dezyèm youn dèyè lòt.",
+      "of": "10a88e51",
+      "at": [
+        "gaston-day:honors.honors[1].text"
+      ]
+    },
+    {
+      "t": "2023",
+      "of": "4329424c",
+      "at": [
+        "gaston-day:honors.honors[2].label"
+      ]
+    },
+    {
+      "t": "Tenis fi — chanpyon eta NCISAA 2A, bat Trinity School of Durham & Chapel Hill 5–1.",
+      "of": "a33019ab",
+      "at": [
+        "gaston-day:honors.honors[2].text"
+      ]
+    },
+    {
+      "t": "2021",
+      "of": "45294572",
+      "at": [
+        "gaston-day:honors.honors[3].label"
+      ]
+    },
+    {
+      "t": "Volebòl ak tenis fi — chanpyon eta NCISAA 2A, premye tit nan kous aktyèl chak pwogram nan.",
+      "of": "8b5e46d8",
+      "at": [
+        "gaston-day:honors.honors[3].text"
+      ]
+    },
+    {
+      "t": "Deseni",
+      "of": "64db5029",
+      "at": [
+        "gaston-day:honors.honors[4].label"
+      ]
+    },
+    {
+      "t": "Volebòl — twa lòt patisipasyon nan final NCISAA ak senk tit lig anplis twa chanpyona yo.",
+      "of": "171a80c5",
+      "at": [
+        "gaston-day:honors.honors[4].text"
+      ]
+    },
+    {
+      "t": "Yon kanpis 60 kawo tè k ap sipòte 19 espò, ak depatman atletik la ki dirije pa yon sèl direktè yo nonmen.",
+      "of": "10c1b3fd",
+      "at": [
+        "gaston-day:facilities.headline"
+      ]
+    },
+    {
+      "t": "Detay nan nivo enstalasyon se pati ki pi fèb nan dosye piblik la isit la — lekòl la pa pibliye okenn envantè enstalasyon, epi sit atletik la se JavaScript ki rann li.",
+      "of": "3541c9bd",
+      "at": [
+        "gaston-day:facilities.subhead"
+      ]
+    },
+    {
+      "t": "60 kawo tè nan Gastonia, k ap sèvi yon zòn senk konte — Gaston, Lincoln, Cleveland, Mecklenburg ak York.",
+      "of": "038a61f0",
+      "at": [
+        "gaston-day:facilities.venues[0].detail"
+      ]
+    },
+    {
+      "t": "550 plas chita, limyè ak son modèn, ak yon estidyo dans pwofesyonèl. Sèl enstalasyon sou kanpis la lekòl la dekri an detay — li sèvi zafè atistik olye ke atletik, epi kat Arts yo kouvri l.",
+      "of": "9d4d522c",
+      "at": [
+        "gaston-day:facilities.venues[1].detail"
+      ]
+    },
+    {
+      "t": "Pa pibliye. Pa gen okenn envantè jimnazyòm, teren, kou oswa pisin ki parèt sou okenn paj ki aksesib; aranjman natasyon ak lit lakay pa deklare.",
+      "of": "4d3ff496",
+      "at": [
+        "gaston-day:facilities.venues[2].detail"
+      ]
+    },
+    {
+      "t": "Lulu Brase, ki nonmen nan pwòp Academic Profile lekòl la. Li ko-dirije pwogram kan ete a tou.",
+      "of": "fbcbfd5c",
+      "at": [
+        "gaston-day:facilities.care[0].text"
+      ]
+    },
+    {
+      "t": "Antrènman atletik / medsin espòtif",
+      "of": "74ce2ced",
+      "at": [
+        "gaston-day:facilities.care[1].label"
+      ]
+    },
+    {
+      "t": "Pa pibliye. Pa gen okenn antrenè atletik, doktè ekip oswa pwotokòl konmosyon serebral ki nonmen nan okenn sous ki aksesib.",
+      "of": "43e1de69",
+      "at": [
+        "gaston-day:facilities.care[1].text"
+      ]
+    },
+    {
+      "t": "Kalifikasyon",
+      "of": "6febc86e",
+      "at": [
+        "gaston-day:facilities.care[2].label"
+      ]
+    },
+    {
+      "t": "Patisipasyon Middle School (grad 6–8) egzije estati akademik ak konpòtman pozitif — sèl règ kalifikasyon lekòl la deklare piblikman.",
+      "of": "e86a2690",
+      "at": [
+        "gaston-day:facilities.care[2].text"
+      ]
+    },
+    {
+      "t": "Dokiman ki dirije",
+      "of": "afcbdec0",
+      "at": [
+        "gaston-day:facilities.care[3].label"
+      ]
+    },
+    {
+      "t": "Sit atletik la fè referans a yon Athletic Department Handbook 2026-2027 ak enfòmasyon sou tryout, men tou de chita dèyè kouch JavaScript la epi nou pa t ka jwenn yo.",
+      "of": "4d69e28c",
+      "at": [
+        "gaston-day:facilities.care[3].text"
+      ]
+    },
+    {
+      "t": "Kat sa a kout espre. Chak lekòl parèy sou lis sa a pibliye yon lis enstalasyon; Gaston Day pa fè l, epi sèl dokiman ki ta pote l la (Athletic Handbook la) pa aksesib. Sa a se yon mank nan piblikasyon, se pa yon absans enstalasyon — yon kanpis k ap mete 19 espò sou teren evidamman genyen yo.",
+      "of": "38ee3a38",
+      "at": [
+        "gaston-day:facilities.careNote"
       ]
     }
   ]
