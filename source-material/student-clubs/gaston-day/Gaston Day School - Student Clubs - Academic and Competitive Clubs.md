@@ -1,4 +1,4 @@
-# Gaston Day School — Student Clubs (Roster, Honor Societies and Signature Programs 2026)
+# Gaston Day School — Student Clubs (Academic and Competitive Clubs)
 
 **Provenance**
 
@@ -33,25 +33,6 @@
 | S8 | https://2016.igem.org/Team:Gaston_Day | **iGEM 2016** team wiki |
 | S9 | https://blog.igem.org/blog/2024/6/10/the-experimental-nature-of-high-school-igem-teams | iGEM blog on high-school teams |
 | S10 | https://issuu.com/gdsblutopia/docs/blutopia_2012 | Blutopia issue archive |
-
-## Club roster (S1 — Private School Review, 14 items)
-
-Blutopia · Chess Club · Classics Club · Drama Club · French Club · Middle School Literary
-Magazine · Peer Mentoring · Public Debate Club · Science Olympiad · Spanish Club · Student
-Government · Theatre Arts · Upper School Literary and Arts Magazine · Yearbook
-
-## Additional clubs (S2, S3 — third-party or exemplar mentions)
-
-Interact · Mock Trial · Quiz Bowl · FCA (Fellowship of Christian Athletes) · Art Club ·
-Spirit Club · Junior Heart Board · International Club · **3-D Printing Club** ·
-**Green Team** · **International Council**
-
-The last three are named by the school itself (S3); the rest are third-party listings
-carrying the verify caveat. Student Government operates at **both Middle School and Upper
-School** level.
-
-**Club formation policy (S3):** students can **start a new club by securing a faculty
-sponsor** — so the roster is intentionally open-ended and any enumeration is a snapshot.
 
 ## Honor societies
 

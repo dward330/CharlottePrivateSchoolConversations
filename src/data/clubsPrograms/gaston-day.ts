@@ -4,18 +4,23 @@
 // "Gaston Day School - Student Clubs - Roster Honor Societies and Signature
 // Programs 2026.md".
 //
-// IMPORTANT PROVENANCE CAVEAT, carried onto the card as a `verify` flag:
-// the enumerated club roster is RECONSTRUCTED FROM THIRD-PARTY LISTINGS
-// (Private School Review, Niche), not from a school-published dated list. The
-// school's own Upper School page names only exemplar clubs ("3-D Printing Club
-// to Green Team to International Council") and states that students may start a
-// new club by securing a faculty sponsor — so the roster is intentionally
-// open-ended and any enumeration is a snapshot, not a census. Counts derived
-// from it are flagged rather than presented as school-stated figures.
+// All three cards render.
 //
-// All three cards render. The `affinity` card carries the roster; `service`
-// carries the three signature programs and the service ladder; `honors` carries
-// the three chartered societies plus the non-society recognition.
+// `affinity` is Affinity & IDENTITY groups, and Gaston Day names NONE — so the
+// card ships with an empty `groups` roster and carries the gap instead, the
+// same shape Cannon uses. The general club roster (Chess, Yearbook, Science
+// Olympiad, iGEM, VEX Robotics and the rest) does NOT belong here: it lives in
+// the Club Catalog card (src/data/clubCatalog.ts) and the Academic &
+// Competitive Clubs card (src/data/clubClusters.ts). An earlier draft wrongly
+// put the whole roster on this card; identity groups and interest clubs are
+// different things and the card titles say so.
+//
+// The one genuinely notable finding here: the school's own About page carries a
+// "DIVERSITY & DIFFERENCE" heading whose body is unfilled Lorem ipsum, so the
+// section exists and was never written.
+//
+// `service` carries the three signature programs and the service ladder;
+// `honors` carries the three chartered societies plus non-society recognition.
 
 import type { ClubsProgram } from '../clubsProgram.ts'
 
@@ -24,86 +29,57 @@ const MIDDLE = 'https://www.gastonday.org/middle-school/'
 const PROFILE =
   'https://www.gastonday.org/wp-content/uploads/2025/09/New-GDS-Profile-25-26.pdf'
 const PSR = 'https://www.privateschoolreview.com/gaston-day-school-profile'
-const IGEM = 'https://2020.igem.org/Team:Gaston_Day_School'
 
 export const gastonDay: ClubsProgram = {
   /* --------------------------------------------------------- 3a affinity -- */
   affinity: {
     headline:
-      'Twenty-eight identifiable clubs plus three honor societies, from Chess and Classics to a 3-D Printing Club, a Green Team and an International Council — with any student able to start a new one by finding a faculty sponsor.',
+      'Gaston Day names no affinity or identity groups at all — and its own "Diversity & Difference" page is unfilled placeholder text.',
     subhead:
-      'The standouts are not on the roster at all: a gold-medal iGEM synthetic-biology team and a VEX Robotics squad that reached TSA Nationals in its first year of competing.',
-    umbrella: {
-      name: 'Student-founded by design',
-      detail:
-        'The school states that students "can start a new club by securing a faculty sponsor," so the roster grows from student initiative rather than from a fixed central list. That is why no published count exists — and why the numbers on this card carry a count flag.',
-    },
-    groups: [
-      { name: 'Blutopia', detail: 'US literary & arts magazine — nationally recognised' },
-      { name: 'Middle School Literary Magazine' },
-      { name: 'Yearbook' },
-      { name: 'Chess Club' },
-      { name: 'Classics Club' },
-      { name: 'Drama Club' },
-      { name: 'Theatre Arts' },
-      { name: 'French Club' },
-      { name: 'Spanish Club' },
-      { name: 'Public Debate Club' },
-      { name: 'Science Olympiad' },
-      { name: 'Student Government', detail: 'Middle School and Upper School' },
-      { name: 'Peer Mentoring', detail: 'Sunship Earth — see the Service card' },
-      { name: '3-D Printing Club', detail: 'Named by the school itself' },
-      { name: 'Green Team', detail: 'Named by the school itself' },
-      { name: 'International Council', detail: 'Named by the school itself' },
-      { name: 'Interact' },
-      { name: 'Mock Trial' },
-      { name: 'Quiz Bowl' },
-      { name: 'FCA', detail: 'Fellowship of Christian Athletes' },
-      { name: 'Art Club' },
-      { name: 'Spirit Club' },
-      { name: 'Junior Heart Board' },
-      { name: 'International Club' },
-    ],
+      'The nearest things on the roster are cultural-interest clubs rather than identity groups, and the school publishes no DEI office, staff or programme. This is the clearest publication gap in its record.',
+    umbrella: undefined,
+    groups: [],
     strips: [
       {
-        title: 'iGEM — synthetic biology',
-        hint: '· gold medal · 2012, 2016, 2018, 2020',
-        text: 'Gaston Day has fielded four International Genetically Engineered Machine high-school teams, winning a **gold medal**. Documented projects include a **kudzu phytotoxin** and an ***E. coli* K-12 isobutanol biofuel**. iGEM is a university-level competition with a separate high-school track — fielding a team from a 510-student school is genuinely unusual, and the Duke undergraduate iGEM team has supported the Gaston Day squad.',
+        title: 'What is published',
+        hint: '· Upper School',
+        text: 'Nothing identity-based. The school\'s Upper School page describes "a wide variety of clubs" and names three by way of example — 3-D Printing Club, Green Team and International Council — none of which is an affinity group. No Black Student Union, gender or sexuality alliance, multiracial, Jewish, Asian, Latine or interfaith group appears anywhere on gastonday.org or in any third-party listing.',
       },
       {
-        title: 'VEX Robotics',
-        hint: '· TSA Nationals, 2023',
-        text: 'After years in a joint-school **FIRST Robotics** team that placed **4th at state level**, Gaston Day launched its own VEX Robotics Club and **qualified for Technology Student Association VEX Nationals in 2023 — its first year of competing**. **Robotics (H)** and **Engineering (H)** also run as Upper School courses, and the school has a renovated makerspace with 3-D printers, laser cutters and CNC machines.',
+        title: 'The cultural-interest clubs',
+        hint: '· not affinity groups',
+        text: 'An **International Council** and an **International Club** exist, alongside **Spanish**, **French** and **Classics** clubs. These are language and cultural-interest clubs tied to the curriculum, not identity groups with a membership basis — they are catalogued on the Club Catalog card and are listed here only to be explicit that they were considered and are not the same thing.',
       },
       {
-        title: 'Middle School',
-        hint: '· grades 5–8',
-        text: 'Middle School students elect **LEAD courses** (required) alongside art, drama, chorus and band, and run their own **Student Government**. The **Spartan Strong Volunteer Service Award** recognises 50+ volunteer hours a year at this level.',
+        title: 'The international cohort',
+        hint: '· ~14% of students',
+        text: 'A third-party listing puts international students at about 14% of the 510 enrolled, and the Academic Profile carries a world-language exception for ESL international students — so a substantial international cohort demonstrably exists. What is not published is any student-led group, peer-support structure or buddy programme serving it. The International Program page describes admissions, homestay vetting through ABC Education Group and the Global Classroom Initiative, and names Carolyn Senter as Director of International Programs — but no student organisation.',
+      },
+      {
+        title: 'Middle & Lower School',
+        text: 'No affinity groups in either division. The Middle School publishes LEAD courses, advisory, Student Government and the Spartan Strong Volunteer Service Award; advisory sessions are described as covering "pertinent topics" and "activities promoting diversity and life skills", which is the only diversity-adjacent programming named anywhere in the school\'s published material.',
+      },
+      {
+        title: 'Parents',
+        text: 'No parent affinity or identity groups are published.',
       },
     ],
-    leadershipTitle: 'The leadership arm',
-    leadership:
-      '"Every student has an opportunity for leadership" through athletics, performing arts, clubs or classroom roles, and students in **grades 9 and 10 attend a one-day leadership workshop**. Student Government runs at both Middle and Upper School level, and the student-led **Honor Council** enforces the Honor Code.',
     flags: [
       {
-        kind: 'count',
-        text: 'The 28-club figure is a reconstruction, not a published count. Private School Review enumerates 14 activities; the school itself names only three clubs by way of example; the rest come from third-party listings. Because students found new clubs each year with a faculty sponsor, the true roster is a moving target and no source states its size.',
+        kind: 'gap',
+        text: 'The school\'s About page carries a "DIVERSITY & DIFFERENCE" heading whose body is **unfilled Lorem ipsum placeholder text** — the section was created and never written. There is no DEI office, no named diversity staff member, no diversity statement, no affinity roster and no student diversity leadership arm anywhere on the public site. This is a stronger form of gap than a school that simply does not mention the subject.',
       },
       {
         kind: 'gap',
-        text: 'No school-published, dated club list exists — with no membership numbers, faculty sponsors, meeting times, or per-club competition results for any club other than iGEM and robotics.',
-      },
-      {
-        kind: 'count',
-        text: 'The iGEM gold medal is third-party-confirmed; the archived iGEM team wikis return 403 to automated fetches, so the medal level was not re-verified at source in this pass. Team participation across 2012, 2016, 2018 and 2020 IS confirmed by the archived team pages.',
+        text: 'Third-party commentary (Niche reviews) describes the school as lacking racial and socio-economic diversity and names inclusion as an area for growth. That is unverified opinion rather than published data, and no enrollment demographic breakdown is available from the school: NCES reports "N/A" for every racial category, and Private School Review reports 19% students of color against a 24% state average.',
       },
     ],
     sources: [
-      { label: 'gastonday.org — Upper School (club policy, named clubs, leadership workshop)', url: UPPER },
-      { label: 'Private School Review — Gaston Day School (14-item activity list)', url: PSR },
-      { label: 'gastonday.org — Academic Profile 2025-2026 (robotics history, Blutopia)', url: PROFILE },
-      { label: 'iGEM team archive — 2020 Gaston Day School team', url: IGEM },
-      { label: 'gastonday.org — Middle School (LEAD, student government, service award)', url: MIDDLE },
+      { label: 'gastonday.org — About Us ("Diversity & Difference" heading with placeholder body)', url: 'https://www.gastonday.org/about-us/' },
+      { label: 'gastonday.org — Upper School (the three named example clubs; no affinity groups)', url: UPPER },
+      { label: 'gastonday.org — International Program (homestay, Global Classroom; no student group)', url: 'https://www.gastonday.org/international/' },
+      { label: 'gastonday.org — Middle School (advisory, LEAD, service award)', url: MIDDLE },
+      { label: 'nces.ed.gov — PSS 2023-24 (demographics reported N/A); privateschoolreview.com — 19% students of color', url: PSR },
     ],
   },
 

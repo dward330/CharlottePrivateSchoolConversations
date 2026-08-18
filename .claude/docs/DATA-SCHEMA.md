@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**10 schools × 8 research areas**, 376 ingested research documents.
+**10 schools × 8 research areas**, 377 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -54,7 +54,7 @@ exists yet and **the section does not render at all** for that school.
 | Research area | Slug | Cannon | Carmel Christian | Charlotte Christian | Charlotte Country Day | Charlotte Latin | Covenant Day | Davidson Day | Gaston Day | Hickory Grove Christian | Providence Day |
 |---|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
 | Course Offerings | `course-offerings` | 1 | 2 | 1 | 1 | 1 | 4 | 1 | 1 | 2 | 1 |
-| Student Clubs | `student-clubs` | 10 | 1 | 10 | 10 | 8 | 6 | 9 | 1 | 1 | 8 |
+| Student Clubs | `student-clubs` | 10 | 1 | 10 | 10 | 8 | 6 | 9 | 2 | 1 | 8 |
 | The Arts | `the-arts` | 8 | 1 | 8 | 8 | 7 | 7 | 5 | 1 | 1 | 7 |
 | Sports | `sports` | 15 | 1 | 15 | 15 | 15 | 15 | 15 | 1 | 1 | 15 |
 | College Support | `college-support` | 10 | 1 | 11 | 9 | 11 | 8 | 10 | 1 | 1 | 10 |
@@ -83,14 +83,14 @@ research dossier folds in behind a structured card.
 
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
-| `academic-clubs` | Academic & Competitive Clubs | 7/10 | 5 |
-| `honor-societies` | Honor Societies | 5/10 | 2 |
+| `academic-clubs` | Academic & Competitive Clubs | 8/10 | 5 |
+| `honor-societies` | Honor Societies | 4/10 | 1 |
 | `signature` | Signature Programs & Traditions | 6/10 | 6 |
 | `media` | Publications & Media | 2/10 | 2 |
 | `affinity` | Affinity & Identity Groups | 4/10 | 3 |
 | `service` | Service & Civic Engagement | 5/10 | 4 |
 | `lower-middle` | Lower / Middle School Activities | 3/10 | 3 |
-| `catalog` | Club Catalog & Overview | 9/10 | 6 |
+| `catalog` | Club Catalog & Overview | 10/10 | 6 |
 
 ### The Arts `the-arts`
 
