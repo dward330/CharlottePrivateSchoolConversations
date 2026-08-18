@@ -287,7 +287,9 @@
         "carmel-christian:honors.societies[0].feedsFrom",
         "carmel-christian:honors.societies[3].feedsFrom",
         "hickory-grove-christian:honors.societies[0].feedsFrom",
-        "hickory-grove-christian:honors.societies[1].feedsFrom"
+        "hickory-grove-christian:honors.societies[1].feedsFrom",
+        "gaston-day:honors.societies[0].feedsFrom",
+        "gaston-day:honors.societies[1].feedsFrom"
       ]
     },
     {
@@ -330,7 +332,8 @@
         "charlotte-country-day:honors.societies[5].feedsFrom",
         "cannon:honors.societies[5].feedsFrom",
         "cannon:honors.societies[6].feedsFrom",
-        "cannon:honors.societies[7].feedsFrom"
+        "cannon:honors.societies[7].feedsFrom",
+        "gaston-day:honors.societies[2].feedsFrom"
       ]
     },
     {
@@ -391,7 +394,8 @@
         "cannon:clusters.verdictHint",
         "covenant-day:clusters.verdictHint",
         "davidson-day:clusters.verdictHint",
-        "carmel-christian:clusters.verdictHint"
+        "carmel-christian:clusters.verdictHint",
+        "gaston-day:clusters.verdictHint"
       ]
     },
     {
@@ -416,7 +420,9 @@
         "charlotte-christian:clusters.rows[0].evidenceLabel",
         "charlotte-country-day:clusters.rows[0].evidenceLabel",
         "cannon:clusters.rows[1].evidenceLabel",
-        "davidson-day:clusters.rows[0].evidenceLabel"
+        "davidson-day:clusters.rows[0].evidenceLabel",
+        "gaston-day:clusters.rows[0].evidenceLabel",
+        "gaston-day:clusters.rows[1].evidenceLabel"
       ]
     },
     {
@@ -613,7 +619,8 @@
       "of": "7136d3fa",
       "at": [
         "providence-day:catalog.categories[5].short",
-        "cannon:catalog.categories[5].short"
+        "cannon:catalog.categories[5].short",
+        "gaston-day:catalog.categories[1].short"
       ]
     },
     {
@@ -1193,7 +1200,8 @@
         "carmel-christian:catalog.divisions[0].tag",
         "carmel-christian:catalog.divisions[1].tag",
         "carmel-christian:catalog.divisions[2].tag",
-        "hickory-grove-christian:catalog.divisions[1].tag"
+        "hickory-grove-christian:catalog.divisions[1].tag",
+        "gaston-day:catalog.divisions[1].tag"
       ]
     },
     {
@@ -1217,7 +1225,8 @@
       "at": [
         "providence-day:catalog.divisions[1].tag",
         "charlotte-latin:catalog.divisions[1].tag",
-        "cannon:catalog.divisions[1].tag"
+        "cannon:catalog.divisions[1].tag",
+        "gaston-day:catalog.divisions[2].tag"
       ]
     },
     {
@@ -1646,7 +1655,9 @@
       "t": "Interesse speciale",
       "of": "74f77aca",
       "at": [
-        "charlotte-latin:catalog.categories[3].short"
+        "charlotte-latin:catalog.categories[3].short",
+        "gaston-day:catalog.categories[5].short",
+        "gaston-day:catalog.categories[5].full"
       ]
     },
     {
@@ -1674,7 +1685,8 @@
       "t": "Cultura e lingua",
       "of": "ebfd54c3",
       "at": [
-        "charlotte-latin:catalog.categories[5].full"
+        "charlotte-latin:catalog.categories[5].full",
+        "gaston-day:catalog.categories[3].full"
       ]
     },
     {
@@ -2238,7 +2250,8 @@
         "charlotte-christian:catalog.categories[1].short",
         "covenant-day:catalog.categories[1].full",
         "carmel-christian:catalog.categories[0].short",
-        "hickory-grove-christian:catalog.categories[0].short"
+        "hickory-grove-christian:catalog.categories[0].short",
+        "gaston-day:catalog.categories[6].short"
       ]
     },
     {
@@ -2247,7 +2260,8 @@
       "at": [
         "charlotte-christian:catalog.categories[1].full",
         "carmel-christian:catalog.categories[0].full",
-        "hickory-grove-christian:catalog.categories[0].full"
+        "hickory-grove-christian:catalog.categories[0].full",
+        "gaston-day:catalog.categories[6].full"
       ]
     },
     {
@@ -2423,7 +2437,8 @@
       "t": "Middle School (5–8)",
       "of": "6b3bf75b",
       "at": [
-        "charlotte-christian:catalog.divisions[0].label"
+        "charlotte-christian:catalog.divisions[0].label",
+        "gaston-day:catalog.divisions[2].label"
       ]
     },
     {
@@ -2792,7 +2807,8 @@
       "t": "Solo nominata",
       "of": "a0706e54",
       "at": [
-        "charlotte-country-day:clusters.rows[1].evidenceLabel"
+        "charlotte-country-day:clusters.rows[1].evidenceLabel",
+        "gaston-day:clusters.rows[4].evidenceLabel"
       ]
     },
     {
@@ -3300,7 +3316,8 @@
       "at": [
         "cannon:catalog.countNoun",
         "carmel-christian:catalog.countNoun",
-        "hickory-grove-christian:catalog.countNoun"
+        "hickory-grove-christian:catalog.countNoun",
+        "gaston-day:catalog.countNoun"
       ]
     },
     {
@@ -4314,7 +4331,8 @@
       "of": "48a8bb43",
       "at": [
         "carmel-christian:clusters.rows[0].name",
-        "hickory-grove-christian:clusters.rows[0].name"
+        "hickory-grove-christian:clusters.rows[0].name",
+        "gaston-day:clusters.rows[4].name"
       ]
     },
     {
@@ -4861,6 +4879,615 @@
       "of": "e199dd55",
       "at": [
         "hickory-grove-christian:catalog.divisions[1].text"
+      ]
+    },
+    {
+      "t": "Il servizio è un requisito per il diploma, non un club — 25 ore ogni anno per ogni studente dell’Upper School, e un Capstone da 40 ore che ogni studente dell’ultimo anno deve completare.",
+      "of": "c520b934",
+      "at": [
+        "gaston-day:service.headline"
+      ]
+    },
+    {
+      "t": "Il peer mentoring dura l’intero anno scolastico e abbina ciascuno studente del penultimo e dell’ultimo anno a un alunno di quarta.",
+      "of": "4a1b0f13",
+      "at": [
+        "gaston-day:service.subhead"
+      ]
+    },
+    {
+      "t": "minimo, richiesto a ogni studente dell’ultimo anno",
+      "of": "a9c7ab74",
+      "at": [
+        "gaston-day:service.programs[0].valueLabel"
+      ]
+    },
+    {
+      "t": "Ogni studente dell’ultimo anno completa un tirocinio, un progetto di ricerca o di servizio alla comunità approvato di non meno di 40 ore, incentrato o sulla preparazione a una carriera professionale o sulla promozione di uno dei valori fondanti della scuola. Inizia nel secondo semestre del penultimo anno e si conclude nel primo semestre dell’ultimo anno, con documentazione e rendicontazione lungo tutto il percorso — e vale 0.25 crediti.",
+      "of": "b5eebeb3",
+      "at": [
+        "gaston-day:service.programs[0].detail"
+      ]
+    },
+    {
+      "t": "studenti del penultimo e dell’ultimo anno che seguono alunni di quarta",
+      "of": "853c7961",
+      "at": [
+        "gaston-day:service.programs[1].valueLabel"
+      ]
+    },
+    {
+      "t": "Studenti selezionati del penultimo e dell’ultimo anno trascorrono ogni autunno diversi giorni in montagna con la classe quarta, conducendo attività sul rapporto tra l’ambiente e il genere umano. Le relazioni che si formano diventano un programma di mentoring: ogni studente dell’undicesima e della dodicesima classe continua a incontrare il proprio allievo di quarta e a lavorare con lui per tutto l’anno scolastico.",
+      "of": "ede50773",
+      "at": [
+        "gaston-day:service.programs[1].detail"
+      ]
+    },
+    {
+      "t": "all’anno, per ogni studente dell’Upper School",
+      "of": "e92aea83",
+      "at": [
+        "gaston-day:service.programs[2].valueLabel"
+      ]
+    },
+    {
+      "t": "Tutti gli studenti dell’Upper School devono completare un minimo di 25 ore di volontariato all’anno, che salgono a 40 ore per i membri della National Honor Society. Gli studenti del penultimo anno progettano, organizzano e realizzano inoltre un proprio progetto di servizio alla comunità.",
+      "of": "a1c4e871",
+      "at": [
+        "gaston-day:service.programs[2].detail"
+      ]
+    },
+    {
+      "t": "La scala dei riconoscimenti al di sopra del requisito",
+      "of": "6eb8add8",
+      "at": [
+        "gaston-day:service.footnoteTitle"
+      ]
+    },
+    {
+      "t": "Oltre la soglia minima di 25 ore, il President’s Service Award riconosce gli studenti dell’Upper School che hanno svolto 100 ore o più, e la Middle School ha un proprio Spartan Strong Volunteer Service Award a partire da 50+ ore all’anno. Esiste quindi una scala documentata su tre livelli — 25 obbligatorie, 50 riconosciute nella Middle School, 100 riconosciute nell’Upper School — più la soglia NHS di 40 ore che le si affianca.",
+      "of": "4a06ac9c",
+      "at": [
+        "gaston-day:service.footnote"
+      ]
+    },
+    {
+      "t": "REQUIREMENT",
+      "of": "b1b0f088",
+      "at": [
+        "gaston-day:service.flags[0].label"
+      ]
+    },
+    {
+      "t": "Il Capstone e l’obbligo di 25 ore di servizio sono requisiti per il diploma anziché club — sono elencati qui perché è lì che avviene realmente la maggior parte del servizio a Gaston Day, e perché ogni diplomato ne ha svolto uno.",
+      "of": "50ac5021",
+      "at": [
+        "gaston-day:service.flags[0].text"
+      ]
+    },
+    {
+      "t": "La scuola non pubblica alcun totale aggregato delle ore di servizio, alcun conteggio dei destinatari del President’s Service Award, né alcun elenco dei partner comunitari presso cui gli studenti prestano servizio.",
+      "of": "01d1e3ff",
+      "at": [
+        "gaston-day:service.flags[1].text"
+      ]
+    },
+    {
+      "t": "Tre honor societies costituite ufficialmente, e un Honor Code fatto rispettare da un Honor Council guidato dagli studenti, di cui l’ufficio orientamento universitario riferirà alle commissioni di ammissione se richiesto.",
+      "of": "c24e6038",
+      "at": [
+        "gaston-day:honors.headline"
+      ]
+    },
+    {
+      "t": "La comunicazione relativa all’Honor Code è insolitamente esplicita — la scuola dichiara nel proprio profilo di segnalare le violazioni, incluse sospensione, allontanamento o espulsione.",
+      "of": "27cceb99",
+      "at": [
+        "gaston-day:honors.subhead"
+      ]
+    },
+    {
+      "t": "Rendimento scolastico, leadership, servizio e carattere. I membri della NHS hanno un requisito annuale di servizio di 40 ore a fronte delle 25 previste per tutta la scuola.",
+      "of": "33bd5ef6",
+      "at": [
+        "gaston-day:honors.societies[0].recognizes"
+      ]
+    },
+    {
+      "t": "Risultati scolastici, carattere, leadership e servizio — una seconda società accademica accanto alla NHS.",
+      "of": "734322c4",
+      "at": [
+        "gaston-day:honors.societies[1].recognizes"
+      ]
+    },
+    {
+      "t": "Eccellenza nel teatro. La scuola costituisce la società ma non pubblica il numero della sua troupe né le soglie di ammissione.",
+      "of": "7d45ad1d",
+      "at": [
+        "gaston-day:honors.societies[2].recognizes"
+      ]
+    },
+    {
+      "t": "Honor Code e Honor Council",
+      "of": "0dd2ae41",
+      "at": [
+        "gaston-day:honors.adjacent[0].label"
+      ]
+    },
+    {
+      "t": "La condotta degli studenti è disciplinata dall’Honor Code, fatto rispettare da un Honor Council guidato dagli studenti. Su richiesta di un’università, il College Counseling segnalerà qualsiasi violazione dell’honor code, incluse sospensione, allontanamento o espulsione.",
+      "of": "b6a9d15e",
+      "at": [
+        "gaston-day:honors.adjacent[0].text"
+      ]
+    },
+    {
+      "t": "President’s Service Award",
+      "of": "818b3439",
+      "at": [
+        "gaston-day:honors.adjacent[1].label"
+      ]
+    },
+    {
+      "t": "Per gli studenti dell’Upper School che hanno svolto 100 ore o più — il gradino più alto della scala del servizio.",
+      "of": "dacd7648",
+      "at": [
+        "gaston-day:honors.adjacent[1].text"
+      ]
+    },
+    {
+      "t": "Spartan Strong Volunteer Service Award",
+      "of": "f3a67ccf",
+      "at": [
+        "gaston-day:honors.adjacent[2].label"
+      ]
+    },
+    {
+      "t": "L’equivalente della Middle School, che riconosce 50+ ore di volontariato in un anno.",
+      "of": "0bccf0ef",
+      "at": [
+        "gaston-day:honors.adjacent[2].text"
+      ]
+    },
+    {
+      "t": "Scholastic Art & Writing Awards",
+      "of": "d9c1bf65",
+      "at": [
+        "gaston-day:honors.adjacent[3].label"
+      ]
+    },
+    {
+      "t": "Blutopia ha ottenuto numerosi Scholastic Art and Writing Awards ed è costantemente premiata nel NC Scholastic Media Association Literary Magazine Contest.",
+      "of": "2b223d47",
+      "at": [
+        "gaston-day:honors.adjacent[3].text"
+      ]
+    },
+    {
+      "t": "medaglia d’oro iGEM",
+      "of": "c7a9f494",
+      "at": [
+        "gaston-day:honors.adjacent[4].label"
+      ]
+    },
+    {
+      "t": "La medaglia d’oro della squadra di biologia sintetica è il riconoscimento competitivo più distintivo della scuola e si colloca al di fuori di qualsiasi struttura societaria.",
+      "of": "bb10e8db",
+      "at": [
+        "gaston-day:honors.adjacent[4].text"
+      ]
+    },
+    {
+      "t": "Per nessuna delle tre società sono pubblicati criteri di ammissione, soglie di GPA, nomi delle sezioni o numeri di membri — solo il fatto che esistano. Il programma National Merit non è affatto menzionato nel profilo, per cui non è stato possibile costruire alcun registro di Semifinalist/Commended.",
+      "of": "070ba241",
+      "at": [
+        "gaston-day:honors.flags[0].text"
+      ]
+    },
+    {
+      "t": "Una squadra iGEM di biologia sintetica da medaglia d’oro e una qualificazione ai VEX Nationals al primo anno reggono un elenco per il resto basato su terze parti.",
+      "of": "5002745e",
+      "at": [
+        "gaston-day:clusters.verdict"
+      ]
+    },
+    {
+      "t": "iGEM Synthetic Biology",
+      "of": "6a19e29b",
+      "at": [
+        "gaston-day:clusters.rows[0].name"
+      ]
+    },
+    {
+      "t": "Medaglia d’oro; quattro squadre — 2012, 2016, 2018 e 2020",
+      "of": "9cb5e363",
+      "at": [
+        "gaston-day:clusters.rows[0].oneLiner"
+      ]
+    },
+    {
+      "t": "Il fiore all’occhiello. iGEM (International Genetically Engineered Machine) è una competizione di biologia sintetica di livello universitario con una sezione separata per le scuole superiori, e Gaston Day ha schierato quattro squadre pur avendo 510 studenti. Tra i progetti documentati figurano una fitotossina del kudzu e un biocarburante a isobutanolo da E. coli K-12; la squadra universitaria iGEM di Duke ha sostenuto il gruppo. La medaglia d’oro è confermata da terze parti — i wiki archiviati delle squadre iGEM rispondono 403 alle richieste automatizzate, quindi in questa rilevazione il livello della medaglia non è stato ri-verificato alla fonte, benché la partecipazione delle squadre in tutti e quattro gli anni sia confermata da quelle pagine archiviate.",
+      "of": "b61b0c28",
+      "at": [
+        "gaston-day:clusters.rows[0].note"
+      ]
+    },
+    {
+      "t": "VEX Robotics",
+      "of": "c82faa7d",
+      "at": [
+        "gaston-day:clusters.rows[1].name"
+      ]
+    },
+    {
+      "t": "Qualificata ai TSA VEX Nationals nel 2023 — al suo primo anno di partecipazione",
+      "of": "2faae7b6",
+      "at": [
+        "gaston-day:clusters.rows[1].oneLiner"
+      ]
+    },
+    {
+      "t": "Il profilo della scuola stessa lo afferma chiaramente: “After years of operating a joint-school robotics team competing in FIRST Robotics where they placed 4th in state level competition, Gaston Day launched its own VEX Robotics Club and qualified for Technology Student Association VEX Nationals in 2023, the first year of joining the competition.” Robotics (H) ed Engineering (H) sono attivi anche come corsi dell’Upper School, supportati da un makerspace ristrutturato con stampanti 3-D, taglierine laser e macchine CNC.",
+      "of": "f4d5b259",
+      "at": [
+        "gaston-day:clusters.rows[1].note"
+      ]
+    },
+    {
+      "t": "Club di gara →",
+      "of": "39ed9a0f",
+      "at": [
+        "gaston-day:clusters.rows[2].name"
+      ]
+    },
+    {
+      "t": "Science Olympiad, Public Debate, Mock Trial, Quiz Bowl",
+      "of": "3641c5b7",
+      "at": [
+        "gaston-day:clusters.rows[2].oneLiner"
+      ]
+    },
+    {
+      "t": "Terze parti",
+      "of": "88d82a1b",
+      "at": [
+        "gaston-day:clusters.rows[2].evidenceLabel",
+        "gaston-day:catalog.divisions[0].tag"
+      ]
+    },
+    {
+      "t": "Quattro club orientati alla competizione compaiono negli elenchi di terze parti, e Speech & Debate è attivo inoltre come corso dell’Upper School — ma per nessuno di essi è pubblicato alcun titolo o piazzamento. Qui è confermata l’esistenza, non i risultati.",
+      "of": "5d1ac699",
+      "at": [
+        "gaston-day:clusters.rows[2].note"
+      ]
+    },
+    {
+      "t": "Pubblicazioni →",
+      "of": "225b9af4",
+      "at": [
+        "gaston-day:clusters.rows[3].name"
+      ]
+    },
+    {
+      "t": "Blutopia, US Literary & Arts Magazine, MS Literary Magazine, Yearbook",
+      "of": "407df385",
+      "at": [
+        "gaston-day:clusters.rows[3].oneLiner"
+      ]
+    },
+    {
+      "t": "Verificato — premio",
+      "of": "4f98eca8",
+      "at": [
+        "gaston-day:clusters.rows[3].evidenceLabel"
+      ]
+    },
+    {
+      "t": "Blutopia è l’unica pubblicazione con un palmarès documentato: interamente sviluppata, realizzata e pubblicata dagli studenti, ha ottenuto numerosi Scholastic Art and Writing Awards ed è costantemente premiata nel Literary Magazine Contest della North Carolina Scholastic Media Association. La scuola non pubblica il numero né gli anni dei premi, per cui “numerosi” è una sua parola, riportata anziché quantificata.",
+      "of": "e2cacf90",
+      "at": [
+        "gaston-day:clusters.rows[3].note"
+      ]
+    },
+    {
+      "t": "National Honor Society, National Beta Club, International Thespian Society",
+      "of": "7a348e2b",
+      "at": [
+        "gaston-day:clusters.rows[4].oneLiner"
+      ]
+    },
+    {
+      "t": "Tre società costituite ufficialmente. I membri della NHS hanno un requisito annuale di servizio di 40 ore a fronte delle 25 previste per tutta la scuola — l’unico dato prossimo all’ammissione che la scuola pubblichi. Per nessuna delle tre sono pubblicate soglie di GPA, nomi delle sezioni, numeri di troupe o conteggi dei membri, e il profilo non menziona affatto il programma National Merit.",
+      "of": "d2cffdbd",
+      "at": [
+        "gaston-day:clusters.rows[4].note"
+      ]
+    },
+    {
+      "t": "28 club nominati e tre honor societies — con in primo piano una squadra iGEM di biologia sintetica da medaglia d’oro e una squadra di VEX Robotics arrivata ai TSA Nationals al primo anno.",
+      "of": "58e47468",
+      "at": [
+        "gaston-day:catalog.verdict"
+      ]
+    },
+    {
+      "t": "La scuola non pubblica una pagina dei club; gran parte di questo elenco proviene da fonti di terze parti, con una manciata di voci che la scuola nomina essa stessa.",
+      "of": "94bdac9f",
+      "at": [
+        "gaston-day:catalog.verdictHint"
+      ]
+    },
+    {
+      "t": "STEM e competizioni",
+      "of": "122ef195",
+      "at": [
+        "gaston-day:catalog.categories[0].short"
+      ]
+    },
+    {
+      "t": "STEM / competizioni",
+      "of": "4e9e331e",
+      "at": [
+        "gaston-day:catalog.categories[0].full"
+      ]
+    },
+    {
+      "t": "Pubblicazioni / media",
+      "of": "de92519c",
+      "at": [
+        "gaston-day:catalog.categories[1].full"
+      ]
+    },
+    {
+      "t": "Leadership e servizio",
+      "of": "a91d04bf",
+      "at": [
+        "gaston-day:catalog.categories[2].short"
+      ]
+    },
+    {
+      "t": "Leadership / servizio",
+      "of": "847d0f0c",
+      "at": [
+        "gaston-day:catalog.categories[2].full"
+      ]
+    },
+    {
+      "t": "Lingua e cultura",
+      "of": "e993f0f7",
+      "at": [
+        "gaston-day:catalog.categories[3].short"
+      ]
+    },
+    {
+      "t": "Arti",
+      "of": "278c981b",
+      "at": [
+        "gaston-day:catalog.categories[4].short"
+      ]
+    },
+    {
+      "t": "Arti e spettacolo",
+      "of": "98ad47b3",
+      "at": [
+        "gaston-day:catalog.categories[4].full"
+      ]
+    },
+    {
+      "t": "Medaglia d’oro — squadre nel 2012, 2016, 2018 e 2020; progetti su una fitotossina del kudzu e su un biocarburante a isobutanolo da E. coli K-12",
+      "of": "68d926ef",
+      "at": [
+        "gaston-day:catalog.clubs[0].note"
+      ]
+    },
+    {
+      "t": "Qualificato ai TSA VEX Nationals nel 2023, al primo anno di partecipazione; in precedenza 4º a livello statale in FIRST Robotics",
+      "of": "27dc525a",
+      "at": [
+        "gaston-day:catalog.clubs[1].note"
+      ]
+    },
+    {
+      "t": "Competizione scientifica interscolastica",
+      "of": "7469159f",
+      "at": [
+        "gaston-day:catalog.clubs[2].note"
+      ]
+    },
+    {
+      "t": "Nominato dalla scuola stessa; supportato dal makerspace ristrutturato",
+      "of": "2e24ce1a",
+      "at": [
+        "gaston-day:catalog.clubs[3].note"
+      ]
+    },
+    {
+      "t": "Dibattito competitivo; Speech & Debate è attivo anche come corso",
+      "of": "cd8e9d68",
+      "at": [
+        "gaston-day:catalog.clubs[4].note"
+      ]
+    },
+    {
+      "t": "Elencato da terze parti",
+      "of": "ac168114",
+      "at": [
+        "gaston-day:catalog.clubs[5].note",
+        "gaston-day:catalog.clubs[6].note",
+        "gaston-day:catalog.clubs[18].note",
+        "gaston-day:catalog.clubs[21].note",
+        "gaston-day:catalog.clubs[24].note",
+        "gaston-day:catalog.clubs[25].note",
+        "gaston-day:catalog.clubs[26].note"
+      ]
+    },
+    {
+      "t": "Rivista letteraria e artistica dell’Upper School — numerosi Scholastic Art & Writing Awards e ripetuti riconoscimenti nel NCSMA Literary Magazine Contest",
+      "of": "3236d5da",
+      "at": [
+        "gaston-day:catalog.clubs[7].note"
+      ]
+    },
+    {
+      "t": "Elencata separatamente da Blutopia da PrivateSchoolReview",
+      "of": "6257ba56",
+      "at": [
+        "gaston-day:catalog.clubs[8].note"
+      ]
+    },
+    {
+      "t": "La pubblicazione corrispondente della Middle School",
+      "of": "d2a08c58",
+      "at": [
+        "gaston-day:catalog.clubs[9].note"
+      ]
+    },
+    {
+      "t": "Attivo anche come corso dell’Upper School con crediti",
+      "of": "f710620e",
+      "at": [
+        "gaston-day:catalog.clubs[10].note"
+      ]
+    },
+    {
+      "t": "Attivo sia a livello di Middle School sia di Upper School",
+      "of": "22ac61c1",
+      "at": [
+        "gaston-day:catalog.clubs[11].note"
+      ]
+    },
+    {
+      "t": "Guidato dagli studenti; fa rispettare l’Honor Code, le cui violazioni l’ufficio orientamento universitario segnala alle università su richiesta",
+      "of": "061c215c",
+      "at": [
+        "gaston-day:catalog.clubs[12].note"
+      ]
+    },
+    {
+      "t": "Sunship Earth — studenti del penultimo e dell’ultimo anno seguono un alunno di quarta per tutto l’anno scolastico",
+      "of": "bf8d20b9",
+      "at": [
+        "gaston-day:catalog.clubs[13].note"
+      ]
+    },
+    {
+      "t": "Club di servizio affiliato al Rotary; elencato da terze parti",
+      "of": "7f5aeec1",
+      "at": [
+        "gaston-day:catalog.clubs[14].note"
+      ]
+    },
+    {
+      "t": "Elencato da terze parti — comitato giovanile dell’American Heart Association",
+      "of": "568664a6",
+      "at": [
+        "gaston-day:catalog.clubs[15].note"
+      ]
+    },
+    {
+      "t": "Nominato dalla scuola stessa — gruppo ambientalista",
+      "of": "9a918f9c",
+      "at": [
+        "gaston-day:catalog.clubs[16].note"
+      ]
+    },
+    {
+      "t": "Nominato dalla scuola stessa; si affianca a un corpo studentesco internazionale al 14%",
+      "of": "e4e90f7a",
+      "at": [
+        "gaston-day:catalog.clubs[17].note"
+      ]
+    },
+    {
+      "t": "Lo spagnolo è attivo come sequenza di corsi I–IV(H)",
+      "of": "0a9884fe",
+      "at": [
+        "gaston-day:catalog.clubs[19].note"
+      ]
+    },
+    {
+      "t": "Il francese soddisfa il requisito di lingua straniera, benché nel profilo non sia enumerata alcuna sequenza di corsi di francese",
+      "of": "2f8409ce",
+      "at": [
+        "gaston-day:catalog.clubs[20].note"
+      ]
+    },
+    {
+      "t": "Alimenta due grandi produzioni all’anno, tra cui il musical primaverile",
+      "of": "4a0e9c5a",
+      "at": [
+        "gaston-day:catalog.clubs[22].note"
+      ]
+    },
+    {
+      "t": "Elencato separatamente da PrivateSchoolReview; l’Actors’ Conservatory Theatre è attivo come programma dedicato",
+      "of": "dc6a78ea",
+      "at": [
+        "gaston-day:catalog.clubs[23].note"
+      ]
+    },
+    {
+      "t": "Fellowship of Christian Athletes; elencato da terze parti presso una scuola non confessionale",
+      "of": "29203330",
+      "at": [
+        "gaston-day:catalog.clubs[27].note"
+      ]
+    },
+    {
+      "t": "I membri hanno un requisito annuale di servizio di 40 ore a fronte delle 25 previste per tutta la scuola",
+      "of": "fe5ab031",
+      "at": [
+        "gaston-day:catalog.clubs[28].note"
+      ]
+    },
+    {
+      "t": "Risultati scolastici, carattere, leadership e servizio",
+      "of": "c64999ad",
+      "at": [
+        "gaston-day:catalog.clubs[29].note"
+      ]
+    },
+    {
+      "t": "Società onoraria del teatro; numero della troupe e soglie di ammissione non pubblicati",
+      "of": "0dce6486",
+      "at": [
+        "gaston-day:catalog.clubs[30].note"
+      ]
+    },
+    {
+      "t": "Elenco ricostruito",
+      "of": "a0b3901f",
+      "at": [
+        "gaston-day:catalog.divisions[0].label"
+      ]
+    },
+    {
+      "t": "Gaston Day non pubblica alcuna pagina di club o attività. PrivateSchoolReview enumera 14 attività e Niche ne aggiunge diverse altre; la scuola stessa nomina soltanto 3-D Printing Club, Green Team e International Council, a titolo di esempio, e afferma che gli studenti “can start a new club by securing a faculty sponsor.” L’elenco è quindi un’istantanea aperta più che un censimento, e la sua dimensione non è una cifra che alcuna fonte dichiari.",
+      "of": "2438e856",
+      "at": [
+        "gaston-day:catalog.divisions[0].text"
+      ]
+    },
+    {
+      "t": "I due che non sono in dubbio",
+      "of": "906d3dc1",
+      "at": [
+        "gaston-day:catalog.divisions[1].label"
+      ]
+    },
+    {
+      "t": "iGEM e VEX Robotics sono documentati nell’Academic Profile della scuola stessa e, per iGEM, da quattro wiki archiviati delle squadre di gara (2012, 2016, 2018, 2020). Si tratta di competizioni di livello universitario con sezioni per le scuole superiori, e schierarle da una scuola di 510 studenti è la cosa più distintiva di questo elenco.",
+      "of": "d81efdfb",
+      "at": [
+        "gaston-day:catalog.divisions[1].text"
+      ]
+    },
+    {
+      "t": "Gli studenti della Middle School scelgono i corsi obbligatori LEAD accanto ad arte, teatro, coro e banda, e gestiscono un proprio Student Government. Lo Spartan Strong Volunteer Service Award riconosce 50+ ore di volontariato all’anno. Non è pubblicato alcun elenco separato di club della Middle School.",
+      "of": "158da676",
+      "at": [
+        "gaston-day:catalog.divisions[2].text"
       ]
     }
   ]

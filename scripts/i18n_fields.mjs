@@ -88,6 +88,19 @@ export const PROSE_KEYS = new Set([
   'footnoteTitle', 'timelineTitle', 'mechanicsTitle', 'collegesTitle',
   'wordsTitle', 'gpaTitle', 'rhythmTitle', 'catalogTitle', 'scheduleTitle',
   'scheduleNote', 'gpaHint', 'collegesTotal', 'periodsLabel',
+  // Surfaced by Gaston Day (2026-08-18), the first school to override these
+  // sub-headings. Each renders as `data.xTitle ?? t('sections.…')`, so the
+  // uniform test above decides it: these NINE genuinely diverge from their
+  // fallback and are research findings ("How the list scores against the
+  // selectivity tiers" vs the generic "The selectivity buckets"), so they are
+  // prose. Five siblings that were byte-identical to their fallback
+  // (pathTitle, holdsUpTitle, adjacentTitle, and both checklistTitles) were
+  // DELETED from the data rather than classified — a lifted heading pins that
+  // heading to English in every locale. artsProgram's `askTitle` was deleted
+  // too: the type declared it but no component ever read it.
+  'boardTitle', 'exhibitsTitle', 'strengthsTitle', 'watchoutsTitle',
+  'reachTitle', 'bucketsTitle', 'scholarshipsTitle', 'supportTitle',
+  'middleTitle',
   // Photo credits name a publisher and are half descriptive ("Photo: Providence
   // Day School athletics"); the leading noun reads as chrome in Spanish.
   'credit',
@@ -349,6 +362,7 @@ export const PATH_OVERRIDES = new Map([
   ['values.davidson-day', true],
   ['values.carmel-christian', true],
   ['values.hickory-grove-christian', true],
+  ['values.gaston-day', true],
   // The second display line under a value (metricValues.ts `subs`) — same money
   // in the other billing period, e.g. "≈$3,250/yr" under "$325/mo". Same shape and
   // same reason as `values` above: the digits round-trip untouched, but the `/yr`
@@ -363,6 +377,7 @@ export const PATH_OVERRIDES = new Map([
   ['subs.davidson-day', true],
   ['subs.carmel-christian', true],
   ['subs.hickory-grove-christian', true],
+  ['subs.gaston-day', true],
   // Per-cell provenance tooltips (metricValues.ts `quals`). The `.text` leaf is
   // prose (translated); the `.kind` leaf is an ENUM KEY resolved through the
   // locale catalogs (compare.qual.*), NOT display text — it must NOT be extracted.
@@ -381,6 +396,7 @@ export const PATH_OVERRIDES = new Map([
   ['quals.davidson-day.kind', false],
   ['quals.carmel-christian.kind', false],
   ['quals.hickory-grove-christian.kind', false],
+  ['quals.gaston-day.kind', false],
   // Course Offerings. Classified from an ENUMERATION of every distinct value in
   // the module, not from the leaf names — the lesson of the three College
   // Support splits.

@@ -72,7 +72,8 @@
         "covenant-day:offered.seasons[0].name",
         "davidson-day:offered.seasons[0].name",
         "carmel-christian:offered.seasons[0].name",
-        "hickory-grove-christian:offered.seasons[0].name"
+        "hickory-grove-christian:offered.seasons[0].name",
+        "gaston-day:offered.seasons[0].name"
       ],
       "t": "پاییز"
     },
@@ -100,7 +101,8 @@
         "covenant-day:offered.seasons[1].name",
         "davidson-day:offered.seasons[1].name",
         "carmel-christian:offered.seasons[1].name",
-        "hickory-grove-christian:offered.seasons[1].name"
+        "hickory-grove-christian:offered.seasons[1].name",
+        "gaston-day:offered.seasons[1].name"
       ],
       "t": "زمستان"
     },
@@ -116,7 +118,8 @@
         "covenant-day:offered.seasons[2].name",
         "davidson-day:offered.seasons[2].name",
         "carmel-christian:offered.seasons[2].name",
-        "hickory-grove-christian:offered.seasons[2].name"
+        "hickory-grove-christian:offered.seasons[2].name",
+        "gaston-day:offered.seasons[2].name"
       ],
       "t": "بهار"
     },
@@ -198,7 +201,13 @@
         "carmel-christian:record.rows[1].cells[0].result",
         "hickory-grove-christian:record.rows[0].cells[0].result",
         "hickory-grove-christian:record.rows[0].cells[1].result",
-        "hickory-grove-christian:record.rows[1].cells[2].result"
+        "hickory-grove-christian:record.rows[1].cells[2].result",
+        "gaston-day:record.rows[0].cells[0].result",
+        "gaston-day:record.rows[0].cells[1].result",
+        "gaston-day:record.rows[0].cells[2].result",
+        "gaston-day:record.rows[1].cells[1].result",
+        "gaston-day:record.rows[1].cells[2].result",
+        "gaston-day:record.rows[2].cells[1].result"
       ],
       "t": "ایالتی"
     },
@@ -313,7 +322,10 @@
         "hickory-grove-christian:record.rows[1].cells[1].result",
         "hickory-grove-christian:record.rows[2].cells[0].result",
         "hickory-grove-christian:record.rows[2].cells[1].result",
-        "hickory-grove-christian:record.rows[2].cells[2].result"
+        "hickory-grove-christian:record.rows[2].cells[2].result",
+        "gaston-day:record.rows[1].cells[0].result",
+        "gaston-day:record.rows[2].cells[0].result",
+        "gaston-day:record.rows[2].cells[2].result"
       ],
       "t": "هیچ"
     },
@@ -5767,7 +5779,8 @@
       "text": "Athletic Director",
       "of": "e3e4c54b",
       "at": [
-        "covenant-day:coaching.tenure[1].role"
+        "covenant-day:coaching.tenure[1].role",
+        "gaston-day:facilities.care[0].label"
       ],
       "t": "مدیر ورزشی"
     },
@@ -7285,6 +7298,351 @@
         "hickory-grove-christian:coaching.worthKnowing"
       ],
       "t": "صفحهٔ Coaches & Teams برای تقریباً هر تیم varsity، JV و Middle School یک سرمربی نام می‌برد (از جمله Elizabeth Hamilton، Keith White و Todd Staples برای Cross Country و Golf؛ Sam Cox برای Swimming؛ Carmen Costner برای Cheer)، اما هیچ زندگی‌نامه، کارنامهٔ حرفه‌ای یا مدت خدمتی منتشر نمی‌کند — بنابراین از منابع عمومی نمی‌توان هیچ ادعایی دربارهٔ سابقه یا تداوم مطرح کرد. از این رو فیلدهای «since» و عرض به‌جای پر شدن با سالی حدسی، با TO VERIFY نشانه‌گذاری شده‌اند."
+    },
+    {
+      "text": "19 team sports across three seasons, with about 70% of students in grades 6–12 playing at least one.",
+      "of": "19459ea5",
+      "at": [
+        "gaston-day:offered.headline"
+      ],
+      "t": "19 رشتهٔ ورزشی تیمی در سه فصل، با حدود 70% از دانش‌آموزان پایه‌های 6–12 که دست‌کم در یکی از آن‌ها بازی می‌کنند."
+    },
+    {
+      "text": "An NCISAA 2A program that has won eight team state championships since 2021 — a title rate that reads much larger than the school’s 510 enrollment.",
+      "of": "203ff4ca",
+      "at": [
+        "gaston-day:offered.subhead"
+      ],
+      "t": "برنامه‌ای در NCISAA 2A که از 2021 هشت عنوان قهرمانی ایالتی تیمی برده است — نرخ عنوانی که بسیار بزرگ‌تر از ثبت‌نام 510 نفری مدرسه به نظر می‌رسد."
+    },
+    {
+      "text": "team sports across three seasons",
+      "of": "1427439e",
+      "at": [
+        "gaston-day:offered.stats[0].label"
+      ],
+      "t": "رشتهٔ ورزشی تیمی در سه فصل"
+    },
+    {
+      "text": "of grades 6–12 play at least one sport",
+      "of": "7cdb734c",
+      "at": [
+        "gaston-day:offered.stats[1].label"
+      ],
+      "t": "از پایه‌های 6–12 دست‌کم در یک رشته ورزش می‌کنند"
+    },
+    {
+      "text": "NCISAA 2A team state titles since 2021",
+      "of": "025948af",
+      "at": [
+        "gaston-day:offered.stats[2].label"
+      ],
+      "t": "عنوان قهرمانی ایالتی تیمی NCISAA 2A از 2021"
+    },
+    {
+      "text": "NCISAA classification",
+      "of": "ffd173a8",
+      "at": [
+        "gaston-day:offered.stats[3].label"
+      ],
+      "t": "ردهٔ NCISAA"
+    },
+    {
+      "text": "7 teams",
+      "of": "5a9f4260",
+      "at": [
+        "gaston-day:offered.seasons[0].note",
+        "gaston-day:offered.seasons[2].note"
+      ],
+      "t": "7 تیم"
+    },
+    {
+      "text": "5 teams",
+      "of": "054d512e",
+      "at": [
+        "gaston-day:offered.seasons[1].note"
+      ],
+      "t": "5 تیم"
+    },
+    {
+      "text": "Levels shown are what the sources actually publish. Volleyball is the one sport whose ladder is documented — MaxPreps lists varsity, JV and freshman teams — so it is the only row carrying a JV chip; every other sport shows V alone because the athletics site that would list its ladder is JavaScript-rendered and exposes nothing to a fetch. The Middle School fields its own teams in soccer, basketball, track & field and swimming (grades 6–8, subject to academic standing and behaviour), but the school does not publish a full MS roster, so no MS chips are claimed. Cheering and track & field come from Private School Review rather than the MaxPreps season grid.",
+      "of": "7e4610bc",
+      "at": [
+        "gaston-day:offered.footnote"
+      ],
+      "t": "سطح‌های نشان‌داده‌شده همان چیزی است که منابع واقعاً منتشر می‌کنند. والیبال تنها رشته‌ای است که نردبانش مستند شده است — MaxPreps تیم‌های varsity، JV و freshman را فهرست می‌کند — بنابراین تنها ردیفی است که چیپ JV دارد؛ هر رشتهٔ دیگری تنها V را نشان می‌دهد، چون سایت ورزشی‌ای که قرار بود نردبانش را فهرست کند با JavaScript رندر می‌شود و چیزی در اختیار یک fetch نمی‌گذارد. Middle School تیم‌های خودش را در فوتبال، بسکتبال، دو و میدانی و شنا به میدان می‌فرستد (پایه‌های 6–8، مشروط به وضعیت تحصیلی و رفتار)، اما مدرسه فهرست کامل MS را منتشر نمی‌کند، بنابراین هیچ چیپ MS ادعا نشده است. Cheering و دو و میدانی از Private School Review گرفته شده‌اند و نه از جدول فصلی MaxPreps."
+    },
+    {
+      "text": "Eight NCISAA 2A state championships since 2021 — including a three-title year in 2024–25 when volleyball, boys soccer and girls tennis all won.",
+      "of": "741bb841",
+      "at": [
+        "gaston-day:record.headline"
+      ],
+      "t": "هشت عنوان قهرمانی ایالتی NCISAA 2A از 2021 — از جمله سالی با سه عنوان در 2024–25 که والیبال، فوتبال پسران و تنیس دختران هر سه برنده شدند."
+    },
+    {
+      "text": "Girls tennis has four titles and is on a three-peat; volleyball has three and reached the 2025 final in five sets.",
+      "of": "21136c62",
+      "at": [
+        "gaston-day:record.subhead"
+      ],
+      "t": "تنیس دختران چهار عنوان دارد و در مسیر سه‌گانهٔ پیاپی است؛ والیبال سه عنوان دارد و در فینال 2025 در پنج ست حاضر شد."
+    },
+    {
+      "text": "Four titles overall (2021, 2023, 2024, 2025) and three straight through 2025 — beat Trinity School of Durham & Chapel Hill 5–1 in 2023, then Epiphany School in both 2024 and 2025",
+      "of": "0e564ec1",
+      "at": [
+        "gaston-day:record.rows[0].note"
+      ],
+      "t": "در مجموع چهار عنوان (2021، 2023، 2024، 2025) و سه عنوان پیاپی تا 2025 — در 2023 با نتیجهٔ 5–1 بر Trinity School of Durham & Chapel Hill غلبه کرد، سپس در 2024 و 2025 هر دو بار بر Epiphany School"
+    },
+    {
+      "text": "Three titles (2021, 2024, 2025); swept Westminster Catawba on Oct 26 2024, then beat St. Thomas More Academy 3–2 on Oct 25 2025. Plus three further finals appearances and five league titles over the decade",
+      "of": "958fe120",
+      "at": [
+        "gaston-day:record.rows[1].note"
+      ],
+      "t": "سه عنوان (2021، 2024، 2025)؛ در 26 اکتبر 2024 Westminster Catawba را بدون از دست دادن ست شکست داد، سپس در 25 اکتبر 2025 با نتیجهٔ 3–2 بر St. Thomas More Academy پیروز شد. به‌علاوهٔ سه حضور دیگر در فینال و پنج عنوان لیگ در طول دهه"
+    },
+    {
+      "text": "Blanked Westchester Country Day for the 2024 NCISAA 2A championship",
+      "of": "e69b4ba4",
+      "at": [
+        "gaston-day:record.rows[2].note"
+      ],
+      "t": "برای قهرمانی NCISAA 2A سال 2024، دروازهٔ Westchester Country Day را بسته نگه داشت"
+    },
+    {
+      "text": "every other program. The eight titles since 2021 sit in exactly three sports — girls tennis, volleyball and boys soccer — and the school publishes no championship history for the other sixteen, so this ledger is a record of concentrated strength rather than program-wide depth.",
+      "of": "e64dee8f",
+      "at": [
+        "gaston-day:record.didNotWin"
+      ],
+      "t": "هر برنامهٔ دیگری. هشت عنوان از 2021 دقیقاً در سه رشته جای دارند — تنیس دختران، والیبال و فوتبال پسران — و مدرسه برای شانزده رشتهٔ دیگر هیچ تاریخچهٔ قهرمانی منتشر نمی‌کند، بنابراین این کارنامه سند قدرتی متمرکز است و نه عمقی در سراسر برنامه‌ها."
+    },
+    {
+      "text": "The most decorated program at the school: NCISAA 2A champions in 2021, 2023, 2024 and 2025. The 2024 win over Epiphany School was described in coverage as the program’s third state championship in four years and fourth overall; the 2025 win over the same opponent made it three straight.",
+      "of": "f977b315",
+      "at": [
+        "gaston-day:record.seasonDetail[0].text"
+      ],
+      "t": "پرافتخارترین برنامهٔ مدرسه: قهرمان NCISAA 2A در 2021، 2023، 2024 و 2025. پیروزی 2024 بر Epiphany School در پوشش خبری، سومین قهرمانی ایالتی برنامه در چهار سال و چهارمین در مجموع توصیف شد؛ پیروزی 2025 بر همان حریف آن را به سه عنوان پیاپی رساند."
+    },
+    {
+      "text": "Won the 2A title in 2021, then again in 2024 and 2025 under head coach Derek Bing. The 2025 final against St. Thomas More Academy went the full five sets, 3–2, on October 25 2025. Beyond the three titles the programme has reached three further finals and taken five league titles over the decade.",
+      "of": "1eef43a1",
+      "at": [
+        "gaston-day:record.seasonDetail[1].text"
+      ],
+      "t": "در 2021 عنوان 2A را برد، سپس دوباره در 2024 و 2025 زیر نظر سرمربی Derek Bing. فینال 2025 برابر St. Thomas More Academy در 25 اکتبر 2025 به هر پنج ست کشیده شد، 3–2. فراتر از این سه عنوان، برنامه به سه فینال دیگر رسیده و در طول دهه پنج عنوان لیگ گرفته است."
+    },
+    {
+      "text": "Won the 2024 NCISAA 2A championship with a shutout of Westchester Country Day, completing a three-title school year alongside volleyball and girls tennis — the run local coverage headlined as \"Déjà vu\".",
+      "of": "210e1e59",
+      "at": [
+        "gaston-day:record.seasonDetail[2].text"
+      ],
+      "t": "قهرمانی NCISAA 2A سال 2024 را با بسته نگه داشتن دروازهٔ Westchester Country Day به دست آورد و در کنار والیبال و تنیس دختران سالی با سه عنوان را کامل کرد — دوره‌ای که پوشش خبری محلی آن را با تیتر \"Déjà vu\" منتشر کرد."
+    },
+    {
+      "text": "The public honors record is thin next to the championship ledger — the school publishes team results, not individual accolades.",
+      "of": "cac2ab89",
+      "at": [
+        "gaston-day:honors.headline"
+      ],
+      "t": "کارنامهٔ عمومی افتخارات در کنار دفتر قهرمانی‌ها نازک است — مدرسه نتایج تیمی را منتشر می‌کند و نه افتخارات فردی."
+    },
+    {
+      "text": "No professional alumni, All-State lists or player-of-the-year awards appear in any published source, and the athletics site that would carry them is not machine-readable.",
+      "of": "515d1b36",
+      "at": [
+        "gaston-day:honors.subhead"
+      ],
+      "t": "هیچ فارغ‌التحصیل حرفه‌ای، فهرست All-State یا جایزهٔ بازیکن سال در هیچ منبع منتشرشده‌ای دیده نمی‌شود، و سایت ورزشی‌ای که قرار بود آن‌ها را داشته باشد ماشین‌خوان نیست."
+    },
+    {
+      "text": "2025",
+      "of": "41293f26",
+      "at": [
+        "gaston-day:honors.honors[0].label"
+      ],
+      "t": "2025"
+    },
+    {
+      "text": "Girls tennis — NCISAA 2A state champions, third consecutive title (def. Epiphany School). Volleyball — NCISAA 2A state champions (def. St. Thomas More Academy 3–2, Oct 25).",
+      "of": "819d4e61",
+      "at": [
+        "gaston-day:honors.honors[0].text"
+      ],
+      "t": "تنیس دختران — قهرمان ایالتی NCISAA 2A، سومین عنوان پیاپی (با پیروزی بر Epiphany School). والیبال — قهرمان ایالتی NCISAA 2A (با پیروزی 3–2 بر St. Thomas More Academy، 25 اکتبر)."
+    },
+    {
+      "text": "2024",
+      "of": "422940b9",
+      "at": [
+        "gaston-day:honors.honors[1].label"
+      ],
+      "t": "2024"
+    },
+    {
+      "text": "Volleyball — NCISAA 2A state champions (swept Westminster Catawba, Oct 26). Boys soccer — NCISAA 2A state champions (def. Westchester Country Day). Girls tennis — NCISAA 2A state champions, second straight.",
+      "of": "10a88e51",
+      "at": [
+        "gaston-day:honors.honors[1].text"
+      ],
+      "t": "والیبال — قهرمان ایالتی NCISAA 2A (Westminster Catawba را بدون از دست دادن ست شکست داد، 26 اکتبر). فوتبال پسران — قهرمان ایالتی NCISAA 2A (با پیروزی بر Westchester Country Day). تنیس دختران — قهرمان ایالتی NCISAA 2A، دومین عنوان پیاپی."
+    },
+    {
+      "text": "2023",
+      "of": "4329424c",
+      "at": [
+        "gaston-day:honors.honors[2].label"
+      ],
+      "t": "2023"
+    },
+    {
+      "text": "Girls tennis — NCISAA 2A state champions, def. Trinity School of Durham & Chapel Hill 5–1.",
+      "of": "a33019ab",
+      "at": [
+        "gaston-day:honors.honors[2].text"
+      ],
+      "t": "تنیس دختران — قهرمان ایالتی NCISAA 2A، با پیروزی 5–1 بر Trinity School of Durham & Chapel Hill."
+    },
+    {
+      "text": "2021",
+      "of": "45294572",
+      "at": [
+        "gaston-day:honors.honors[3].label"
+      ],
+      "t": "2021"
+    },
+    {
+      "text": "Volleyball and girls tennis — NCISAA 2A state champions, the first title in each programme’s current run.",
+      "of": "8b5e46d8",
+      "at": [
+        "gaston-day:honors.honors[3].text"
+      ],
+      "t": "والیبال و تنیس دختران — قهرمان ایالتی NCISAA 2A، نخستین عنوان در دورهٔ کنونی هر دو برنامه."
+    },
+    {
+      "text": "Decade",
+      "of": "64db5029",
+      "at": [
+        "gaston-day:honors.honors[4].label"
+      ],
+      "t": "دهه"
+    },
+    {
+      "text": "Volleyball — three further NCISAA finals appearances and five league titles beyond the three championships.",
+      "of": "171a80c5",
+      "at": [
+        "gaston-day:honors.honors[4].text"
+      ],
+      "t": "والیبال — سه حضور دیگر در فینال‌های NCISAA و پنج عنوان لیگ، فراتر از آن سه قهرمانی."
+    },
+    {
+      "text": "A 60-acre campus supporting 19 sports, with the athletics department run by a single named director.",
+      "of": "10c1b3fd",
+      "at": [
+        "gaston-day:facilities.headline"
+      ],
+      "t": "محوطه‌ای 60 جریبی که از 19 رشتهٔ ورزشی پشتیبانی می‌کند، با بخش ورزش که یک مدیر نام‌برده آن را اداره می‌کند."
+    },
+    {
+      "text": "Venue-level detail is the weakest part of the public record here — the school publishes no facility inventory, and the athletics site is JavaScript-rendered.",
+      "of": "3541c9bd",
+      "at": [
+        "gaston-day:facilities.subhead"
+      ],
+      "t": "جزئیات در سطح مکان‌ها ضعیف‌ترین بخش سابقهٔ عمومی در اینجاست — مدرسه هیچ سیاههٔ امکاناتی منتشر نمی‌کند، و سایت ورزشی با JavaScript رندر می‌شود."
+    },
+    {
+      "text": "60 acres in Gastonia, serving a five-county draw — Gaston, Lincoln, Cleveland, Mecklenburg and York.",
+      "of": "038a61f0",
+      "at": [
+        "gaston-day:facilities.venues[0].detail"
+      ],
+      "t": "60 جریب در Gastonia، که دانش‌آموزانی از پنج شهرستان را جذب می‌کند — Gaston، Lincoln، Cleveland، Mecklenburg و York."
+    },
+    {
+      "text": "550 seats, modern lighting and sound, and a professional dance studio. The one campus venue the school describes in detail — it serves the arts rather than athletics, and is covered on the Arts cards.",
+      "of": "9d4d522c",
+      "at": [
+        "gaston-day:facilities.venues[1].detail"
+      ],
+      "t": "550 صندلی، نورپردازی و صدابرداری امروزی، و یک استودیوی رقص حرفه‌ای. تنها مکانی در محوطه که مدرسه آن را با جزئیات توصیف می‌کند — در خدمت هنر است و نه ورزش، و در کارت‌های هنر پوشش داده می‌شود."
+    },
+    {
+      "text": "Not published. No gymnasium, field, court or pool inventory appears on any accessible page; home swim and wrestling arrangements are unstated.",
+      "of": "4d3ff496",
+      "at": [
+        "gaston-day:facilities.venues[2].detail"
+      ],
+      "t": "منتشر نشده. هیچ سیاهه‌ای از سالن ورزشی، زمین، زمین بازی یا استخر در هیچ صفحهٔ در دسترسی دیده نمی‌شود؛ ترتیبات میزبانی شنا و کشتی اعلام نشده است."
+    },
+    {
+      "text": "Lulu Brase, named in the school’s own Academic Profile. She also co-directs the summer camp programme.",
+      "of": "fbcbfd5c",
+      "at": [
+        "gaston-day:facilities.care[0].text"
+      ],
+      "t": "Lulu Brase، که در Academic Profile خودِ مدرسه نام برده شده است. او هم‌چنین هم‌مدیر برنامهٔ اردوی تابستانی است."
+    },
+    {
+      "text": "Athletic training / sports medicine",
+      "of": "74ce2ced",
+      "at": [
+        "gaston-day:facilities.care[1].label"
+      ],
+      "t": "تمرین ورزشی / پزشکی ورزشی"
+    },
+    {
+      "text": "Not published. No athletic trainer, team physician or concussion protocol is named in any accessible source.",
+      "of": "43e1de69",
+      "at": [
+        "gaston-day:facilities.care[1].text"
+      ],
+      "t": "منتشر نشده. در هیچ منبع در دسترسی نام مربی بدنساز، پزشک تیم یا پروتکل ضربهٔ مغزی برده نشده است."
+    },
+    {
+      "text": "Eligibility",
+      "of": "6febc86e",
+      "at": [
+        "gaston-day:facilities.care[2].label"
+      ],
+      "t": "شرایط احراز"
+    },
+    {
+      "text": "Middle School participation (grades 6–8) requires academic standing and positive behaviour — the one eligibility rule the school states publicly.",
+      "of": "e86a2690",
+      "at": [
+        "gaston-day:facilities.care[2].text"
+      ],
+      "t": "مشارکت در Middle School (پایه‌های 6–8) نیازمند وضعیت تحصیلی مناسب و رفتار مثبت است — تنها قاعدهٔ احرازی که مدرسه علناً اعلام می‌کند."
+    },
+    {
+      "text": "Governing documents",
+      "of": "afcbdec0",
+      "at": [
+        "gaston-day:facilities.care[3].label"
+      ],
+      "t": "اسناد ناظم"
+    },
+    {
+      "text": "The athletics site references an Athletic Department Handbook 2026-2027 and tryout information, but both sit behind the JS-rendered layer and could not be retrieved.",
+      "of": "4d69e28c",
+      "at": [
+        "gaston-day:facilities.care[3].text"
+      ],
+      "t": "سایت ورزشی به Athletic Department Handbook 2026-2027 و اطلاعات تست ورودی اشاره می‌کند، اما هر دو پشت لایهٔ رندرشده با JS قرار دارند و بازیابی نشدند."
+    },
+    {
+      "text": "This card is deliberately short. Every peer school on this roster publishes a venue list; Gaston Day does not, and the one document that would carry it (the Athletic Handbook) is not reachable. That is a publication gap, not an absence of facilities — a campus fielding 19 sports plainly has them.",
+      "of": "38ee3a38",
+      "at": [
+        "gaston-day:facilities.careNote"
+      ],
+      "t": "این کارت عمداً کوتاه است. هر مدرسهٔ هم‌ترازی در این فهرست یک سیاههٔ مکان‌ها منتشر می‌کند؛ Gaston Day چنین نمی‌کند، و تنها سندی که آن را در بر می‌داشت (Athletic Handbook) قابل دسترسی نیست. این یک کاستی در انتشار است و نه نبود امکانات — محوطه‌ای که 19 رشته را به میدان می‌فرستد آشکارا آن‌ها را دارد."
     }
   ]
 }

@@ -437,15 +437,28 @@ export function previewHasGapLanguage(preview: string, topic?: string): boolean 
 }
 
 /** A clean one-line summary (first real paragraph) for collapsed card previews. */
+/**
+ * Drop markdown emphasis markers. The teaser this feeds renders as PLAIN TEXT
+ * (SchoolDetail's `.topic-teaser` span), so a `**bold**` span carried over from
+ * the source note would show its asterisks literally — "the school's **highest
+ * honor**". Bold inside the card BODY is unaffected: ProseContent renders it.
+ */
+function stripEmphasis(text: string): string {
+  return text
+    .replace(/\*\*([^*]+)\*\*/g, '$1')
+    .replace(/(?<![\w*])\*([^*\n]+)\*(?![\w*])/g, '$1')
+    .replace(/\*\*/g, '')
+}
+
 export function proseSummary(raw: string, title?: string, topic?: string): string {
   for (const b of parseProse(raw, title, topic)) {
-    if (b.kind === 'para' && b.text && !b.demoted) return b.text
-    if (b.kind === 'facts' && b.lines.length) return b.lines.join(' — ')
+    if (b.kind === 'para' && b.text && !b.demoted) return stripEmphasis(b.text)
+    if (b.kind === 'facts' && b.lines.length) return stripEmphasis(b.lines.join(' — '))
   }
   // No usable block. The raw text is the last resort, but it is unparsed and so
   // unfiltered — returning it could surface gap language the parse just removed.
   // Only fall back when the note carries no gap framing at all.
-  const flat = raw.replace(/\s+/g, ' ').trim()
+  const flat = stripEmphasis(raw.replace(/\s+/g, ' ').trim())
   return raw.split('\n').some((l) => isGapHeading(l, topic)) ? '' : flat
 }
 

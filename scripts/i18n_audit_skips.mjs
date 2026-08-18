@@ -36,6 +36,7 @@ const SLUGS = [
   'providence-day', 'charlotte-latin', 'charlotte-christian',
   'charlotte-country-day', 'cannon', 'covenant-day', 'davidson-day',
   'carmel-christian', 'hickory-grove-christian',
+  'gaston-day',
 ]
 
 const TOPICS = {
@@ -56,6 +57,7 @@ const EXPORTS = {
   'davidson-day': 'davidsonDay',
   'carmel-christian': 'carmelChristian',
   'hickory-grove-christian': 'hickoryGroveChristian',
+  'gaston-day': 'gastonDay',
 }
 
 const args = process.argv.slice(2)

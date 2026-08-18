@@ -64,7 +64,8 @@
         "covenant-day:offered.seasons[0].name",
         "davidson-day:offered.seasons[0].name",
         "carmel-christian:offered.seasons[0].name",
-        "hickory-grove-christian:offered.seasons[0].name"
+        "hickory-grove-christian:offered.seasons[0].name",
+        "gaston-day:offered.seasons[0].name"
       ]
     },
     {
@@ -90,7 +91,8 @@
         "covenant-day:offered.seasons[1].name",
         "davidson-day:offered.seasons[1].name",
         "carmel-christian:offered.seasons[1].name",
-        "hickory-grove-christian:offered.seasons[1].name"
+        "hickory-grove-christian:offered.seasons[1].name",
+        "gaston-day:offered.seasons[1].name"
       ]
     },
     {
@@ -105,7 +107,8 @@
         "covenant-day:offered.seasons[2].name",
         "davidson-day:offered.seasons[2].name",
         "carmel-christian:offered.seasons[2].name",
-        "hickory-grove-christian:offered.seasons[2].name"
+        "hickory-grove-christian:offered.seasons[2].name",
+        "gaston-day:offered.seasons[2].name"
       ]
     },
     {
@@ -183,7 +186,13 @@
         "carmel-christian:record.rows[1].cells[0].result",
         "hickory-grove-christian:record.rows[0].cells[0].result",
         "hickory-grove-christian:record.rows[0].cells[1].result",
-        "hickory-grove-christian:record.rows[1].cells[2].result"
+        "hickory-grove-christian:record.rows[1].cells[2].result",
+        "gaston-day:record.rows[0].cells[0].result",
+        "gaston-day:record.rows[0].cells[1].result",
+        "gaston-day:record.rows[0].cells[2].result",
+        "gaston-day:record.rows[1].cells[1].result",
+        "gaston-day:record.rows[1].cells[2].result",
+        "gaston-day:record.rows[2].cells[1].result"
       ]
     },
     {
@@ -294,7 +303,10 @@
         "hickory-grove-christian:record.rows[1].cells[1].result",
         "hickory-grove-christian:record.rows[2].cells[0].result",
         "hickory-grove-christian:record.rows[2].cells[1].result",
-        "hickory-grove-christian:record.rows[2].cells[2].result"
+        "hickory-grove-christian:record.rows[2].cells[2].result",
+        "gaston-day:record.rows[1].cells[0].result",
+        "gaston-day:record.rows[2].cells[0].result",
+        "gaston-day:record.rows[2].cells[2].result"
       ]
     },
     {
@@ -5117,7 +5129,8 @@
       "t": "Athletic Director",
       "of": "e3e4c54b",
       "at": [
-        "covenant-day:coaching.tenure[1].role"
+        "covenant-day:coaching.tenure[1].role",
+        "gaston-day:facilities.care[0].label"
       ]
     },
     {
@@ -6445,6 +6458,308 @@
       "of": "11d8c8cf",
       "at": [
         "hickory-grove-christian:coaching.worthKnowing"
+      ]
+    },
+    {
+      "t": "మూడు సీజన్లలో 19 జట్టు క్రీడలు, 6–12 తరగతుల విద్యార్థుల్లో దాదాపు 70% కనీసం ఒక క్రీడ ఆడతారు.",
+      "of": "19459ea5",
+      "at": [
+        "gaston-day:offered.headline"
+      ]
+    },
+    {
+      "t": "2021 నుంచి ఎనిమిది జట్టు రాష్ట్ర ఛాంపియన్‌షిప్‌లు గెలిచిన NCISAA 2A కార్యక్రమం — పాఠశాల 510 నమోదు సంఖ్య కంటే చాలా పెద్దదిగా అనిపించే టైటిల్ రేటు.",
+      "of": "203ff4ca",
+      "at": [
+        "gaston-day:offered.subhead"
+      ]
+    },
+    {
+      "t": "మూడు సీజన్లలో జట్టు క్రీడలు",
+      "of": "1427439e",
+      "at": [
+        "gaston-day:offered.stats[0].label"
+      ]
+    },
+    {
+      "t": "6–12 తరగతుల్లో కనీసం ఒక క్రీడ ఆడేవారు",
+      "of": "7cdb734c",
+      "at": [
+        "gaston-day:offered.stats[1].label"
+      ]
+    },
+    {
+      "t": "2021 నుంచి NCISAA 2A జట్టు రాష్ట్ర టైటిళ్లు",
+      "of": "025948af",
+      "at": [
+        "gaston-day:offered.stats[2].label"
+      ]
+    },
+    {
+      "t": "NCISAA వర్గీకరణ",
+      "of": "ffd173a8",
+      "at": [
+        "gaston-day:offered.stats[3].label"
+      ]
+    },
+    {
+      "t": "7 జట్లు",
+      "of": "5a9f4260",
+      "at": [
+        "gaston-day:offered.seasons[0].note",
+        "gaston-day:offered.seasons[2].note"
+      ]
+    },
+    {
+      "t": "5 జట్లు",
+      "of": "054d512e",
+      "at": [
+        "gaston-day:offered.seasons[1].note"
+      ]
+    },
+    {
+      "t": "చూపిన స్థాయిలు మూలాలు నిజంగా ప్రచురించినవే. Volleyball ఒక్కటే నిచ్చెన నమోదైన క్రీడ — MaxPreps varsity, JV మరియు freshman జట్లను జాబితా చేస్తుంది — కాబట్టి JV chip ఉన్న ఏకైక వరుస అదే; మిగతా ప్రతి క్రీడకూ V మాత్రమే కనిపిస్తుంది, ఎందుకంటే వాటి నిచ్చెనను జాబితా చేయాల్సిన athletics సైట్ JavaScriptతో render అవుతుంది మరియు fetchకు ఏమీ ఇవ్వదు. Middle School soccer, basketball, track & field మరియు swimmingలో సొంత జట్లను పంపుతుంది (6–8 తరగతులు, విద్యా స్థితి మరియు ప్రవర్తనకు లోబడి), కానీ పాఠశాల పూర్తి MS జాబితాను ప్రచురించదు, కాబట్టి MS chips ఏవీ చెప్పబడలేదు. Cheering మరియు track & field MaxPreps సీజన్ పట్టిక నుంచి కాక Private School Review నుంచి వచ్చాయి.",
+      "of": "7e4610bc",
+      "at": [
+        "gaston-day:offered.footnote"
+      ]
+    },
+    {
+      "t": "2021 నుంచి ఎనిమిది NCISAA 2A రాష్ట్ర ఛాంపియన్‌షిప్‌లు — volleyball, బాలుర soccer మరియు బాలికల tennis మూడూ గెలిచిన 2024–25 మూడు-టైటిళ్ల సంవత్సరంతో సహా.",
+      "of": "741bb841",
+      "at": [
+        "gaston-day:record.headline"
+      ]
+    },
+    {
+      "t": "బాలికల tennisకు నాలుగు టైటిళ్లు ఉన్నాయి మరియు వరుసగా మూడో టైటిల్ దిశలో ఉంది; volleyballకు మూడు ఉన్నాయి మరియు అది 2025 ఫైనల్‌కు ఐదు సెట్లలో చేరింది.",
+      "of": "21136c62",
+      "at": [
+        "gaston-day:record.subhead"
+      ]
+    },
+    {
+      "t": "మొత్తం నాలుగు టైటిళ్లు (2021, 2023, 2024, 2025) మరియు 2025 వరకు వరుసగా మూడు — 2023లో Trinity School of Durham & Chapel Hillను 5–1 తేడాతో ఓడించి, ఆపై 2024 మరియు 2025 రెండింటిలోనూ Epiphany Schoolను ఓడించింది",
+      "of": "0e564ec1",
+      "at": [
+        "gaston-day:record.rows[0].note"
+      ]
+    },
+    {
+      "t": "మూడు టైటిళ్లు (2021, 2024, 2025); Oct 26 2024న Westminster Catawbaను క్లీన్‌స్వీప్ చేసింది, ఆపై Oct 25 2025న St. Thomas More Academyను 3–2 తేడాతో ఓడించింది. అదనంగా ఈ దశాబ్దంలో మరో మూడు ఫైనల్ ప్రవేశాలు మరియు ఐదు లీగ్ టైటిళ్లు",
+      "of": "958fe120",
+      "at": [
+        "gaston-day:record.rows[1].note"
+      ]
+    },
+    {
+      "t": "2024 NCISAA 2A ఛాంపియన్‌షిప్‌లో Westchester Country Dayను ఒక్క గోల్ కూడా చేయనివ్వకుండా ఓడించింది",
+      "of": "e69b4ba4",
+      "at": [
+        "gaston-day:record.rows[2].note"
+      ]
+    },
+    {
+      "t": "మిగతా ప్రతి కార్యక్రమం. 2021 నుంచి వచ్చిన ఎనిమిది టైటిళ్లూ కచ్చితంగా మూడు క్రీడల్లోనే ఉన్నాయి — బాలికల tennis, volleyball మరియు బాలుర soccer — మిగతా పదహారు క్రీడలకు పాఠశాల ఎలాంటి ఛాంపియన్‌షిప్ చరిత్రనూ ప్రచురించలేదు, కాబట్టి ఈ లెక్క కార్యక్రమం అంతటా ఉన్న లోతును కాక, కేంద్రీకృతమైన బలాన్ని చూపే రికార్డు.",
+      "of": "e64dee8f",
+      "at": [
+        "gaston-day:record.didNotWin"
+      ]
+    },
+    {
+      "t": "పాఠశాలలో అత్యధిక గౌరవాలు పొందిన కార్యక్రమం: 2021, 2023, 2024 మరియు 2025లో NCISAA 2A ఛాంపియన్లు. 2024లో Epiphany Schoolపై సాధించిన విజయాన్ని వార్తా కథనాలు నాలుగు సంవత్సరాల్లో కార్యక్రమానికి మూడో రాష్ట్ర ఛాంపియన్‌షిప్‌గా, మొత్తం నాలుగోదిగా వర్ణించాయి; అదే ప్రత్యర్థిపై 2025 విజయంతో అది వరుసగా మూడు అయ్యింది.",
+      "of": "f977b315",
+      "at": [
+        "gaston-day:record.seasonDetail[0].text"
+      ]
+    },
+    {
+      "t": "2021లో 2A టైటిల్ గెలిచింది, ఆపై head coach Derek Bing ఆధ్వర్యంలో 2024 మరియు 2025లో మళ్లీ గెలిచింది. St. Thomas More Academyతో 2025 ఫైనల్ October 25 2025న పూర్తి ఐదు సెట్లు సాగి 3–2 తేడాతో ముగిసింది. మూడు టైటిళ్లతో పాటు ఈ కార్యక్రమం మరో మూడు ఫైనల్స్‌కు చేరింది మరియు ఈ దశాబ్దంలో ఐదు లీగ్ టైటిళ్లు సాధించింది.",
+      "of": "1eef43a1",
+      "at": [
+        "gaston-day:record.seasonDetail[1].text"
+      ]
+    },
+    {
+      "t": "Westchester Country Dayను ఒక్క గోల్ కూడా చేయనివ్వకుండా ఓడించి 2024 NCISAA 2A ఛాంపియన్‌షిప్ గెలిచింది, volleyball మరియు బాలికల tennisతో కలిసి మూడు-టైటిళ్ల విద్యా సంవత్సరాన్ని పూర్తి చేసింది — స్థానిక కథనాలు ఈ ప్రస్థానానికి \"Déjà vu\" అని శీర్షిక పెట్టాయి.",
+      "of": "210e1e59",
+      "at": [
+        "gaston-day:record.seasonDetail[2].text"
+      ]
+    },
+    {
+      "t": "ఛాంపియన్‌షిప్ లెక్క పక్కన బహిరంగ గౌరవాల రికార్డు పలుచగా ఉంది — పాఠశాల జట్టు ఫలితాలను ప్రచురిస్తుంది, వ్యక్తిగత గౌరవాలను కాదు.",
+      "of": "cac2ab89",
+      "at": [
+        "gaston-day:honors.headline"
+      ]
+    },
+    {
+      "t": "ప్రచురించిన ఏ మూలంలోనూ వృత్తిపరమైన పూర్వ విద్యార్థులు, All-State జాబితాలు లేదా player-of-the-year అవార్డులు కనిపించవు, మరియు వాటిని కలిగి ఉండాల్సిన athletics సైట్ యంత్రం చదవగలిగేది కాదు.",
+      "of": "515d1b36",
+      "at": [
+        "gaston-day:honors.subhead"
+      ]
+    },
+    {
+      "t": "2025",
+      "of": "41293f26",
+      "at": [
+        "gaston-day:honors.honors[0].label"
+      ]
+    },
+    {
+      "t": "బాలికల tennis — NCISAA 2A రాష్ట్ర ఛాంపియన్లు, వరుసగా మూడో టైటిల్ (Epiphany Schoolపై విజయం). Volleyball — NCISAA 2A రాష్ట్ర ఛాంపియన్లు (St. Thomas More Academyపై 3–2 విజయం, Oct 25).",
+      "of": "819d4e61",
+      "at": [
+        "gaston-day:honors.honors[0].text"
+      ]
+    },
+    {
+      "t": "2024",
+      "of": "422940b9",
+      "at": [
+        "gaston-day:honors.honors[1].label"
+      ]
+    },
+    {
+      "t": "Volleyball — NCISAA 2A రాష్ట్ర ఛాంపియన్లు (Westminster Catawbaను క్లీన్‌స్వీప్ చేసింది, Oct 26). బాలుర soccer — NCISAA 2A రాష్ట్ర ఛాంపియన్లు (Westchester Country Dayపై విజయం). బాలికల tennis — NCISAA 2A రాష్ట్ర ఛాంపియన్లు, వరుసగా రెండోసారి.",
+      "of": "10a88e51",
+      "at": [
+        "gaston-day:honors.honors[1].text"
+      ]
+    },
+    {
+      "t": "2023",
+      "of": "4329424c",
+      "at": [
+        "gaston-day:honors.honors[2].label"
+      ]
+    },
+    {
+      "t": "బాలికల tennis — NCISAA 2A రాష్ట్ర ఛాంపియన్లు, Trinity School of Durham & Chapel Hillపై 5–1 విజయం.",
+      "of": "a33019ab",
+      "at": [
+        "gaston-day:honors.honors[2].text"
+      ]
+    },
+    {
+      "t": "2021",
+      "of": "45294572",
+      "at": [
+        "gaston-day:honors.honors[3].label"
+      ]
+    },
+    {
+      "t": "Volleyball మరియు బాలికల tennis — NCISAA 2A రాష్ట్ర ఛాంపియన్లు, ఒక్కో కార్యక్రమం ప్రస్తుత ప్రస్థానంలో తొలి టైటిల్.",
+      "of": "8b5e46d8",
+      "at": [
+        "gaston-day:honors.honors[3].text"
+      ]
+    },
+    {
+      "t": "దశాబ్దం",
+      "of": "64db5029",
+      "at": [
+        "gaston-day:honors.honors[4].label"
+      ]
+    },
+    {
+      "t": "Volleyball — మూడు ఛాంపియన్‌షిప్‌లతో పాటు మరో మూడు NCISAA ఫైనల్ ప్రవేశాలు మరియు ఐదు లీగ్ టైటిళ్లు.",
+      "of": "171a80c5",
+      "at": [
+        "gaston-day:honors.honors[4].text"
+      ]
+    },
+    {
+      "t": "19 క్రీడలకు ఆధారంగా నిలుస్తున్న 60-acre ప్రాంగణం, athletics విభాగాన్ని పేరు పేర్కొన్న ఒకే డైరెక్టర్ నడుపుతున్నారు.",
+      "of": "10c1b3fd",
+      "at": [
+        "gaston-day:facilities.headline"
+      ]
+    },
+    {
+      "t": "ఇక్కడి బహిరంగ రికార్డులో వేదికల వివరాలే అత్యంత బలహీన భాగం — పాఠశాల ఏ సదుపాయాల జాబితానూ ప్రచురించలేదు, మరియు athletics సైట్ JavaScriptతో render అవుతుంది.",
+      "of": "3541c9bd",
+      "at": [
+        "gaston-day:facilities.subhead"
+      ]
+    },
+    {
+      "t": "Gastoniaలో 60 acres, ఐదు కౌంటీల నుంచి విద్యార్థులను ఆకర్షిస్తుంది — Gaston, Lincoln, Cleveland, Mecklenburg మరియు York.",
+      "of": "038a61f0",
+      "at": [
+        "gaston-day:facilities.venues[0].detail"
+      ]
+    },
+    {
+      "t": "550 సీట్లు, ఆధునిక లైటింగ్ మరియు సౌండ్, మరియు ఒక వృత్తిపరమైన నృత్య స్టూడియో. పాఠశాల వివరంగా వర్ణించిన ఏకైక ప్రాంగణ వేదిక ఇదే — ఇది athletics కాక కళలకు ఉపయోగపడుతుంది, మరియు దీని గురించి కళల కార్డుల్లో ఉంది.",
+      "of": "9d4d522c",
+      "at": [
+        "gaston-day:facilities.venues[1].detail"
+      ]
+    },
+    {
+      "t": "ప్రచురించలేదు. అందుబాటులో ఉన్న ఏ పేజీలోనూ gymnasium, మైదానం, court లేదా pool జాబితా కనిపించదు; స్వస్థల swim మరియు wrestling ఏర్పాట్లు పేర్కొనబడలేదు.",
+      "of": "4d3ff496",
+      "at": [
+        "gaston-day:facilities.venues[2].detail"
+      ]
+    },
+    {
+      "t": "Lulu Brase, పాఠశాల సొంత Academic Profileలో పేర్కొనబడ్డారు. ఆమె వేసవి శిబిర కార్యక్రమానికి సహ-దర్శకత్వం కూడా వహిస్తారు.",
+      "of": "fbcbfd5c",
+      "at": [
+        "gaston-day:facilities.care[0].text"
+      ]
+    },
+    {
+      "t": "Athletic training / క్రీడా వైద్యం",
+      "of": "74ce2ced",
+      "at": [
+        "gaston-day:facilities.care[1].label"
+      ]
+    },
+    {
+      "t": "ప్రచురించలేదు. అందుబాటులో ఉన్న ఏ మూలంలోనూ athletic trainer, జట్టు వైద్యుడు లేదా concussion protocol పేర్కొనబడలేదు.",
+      "of": "43e1de69",
+      "at": [
+        "gaston-day:facilities.care[1].text"
+      ]
+    },
+    {
+      "t": "అర్హత",
+      "of": "6febc86e",
+      "at": [
+        "gaston-day:facilities.care[2].label"
+      ]
+    },
+    {
+      "t": "Middle School భాగస్వామ్యానికి (6–8 తరగతులు) విద్యా స్థితి మరియు సానుకూల ప్రవర్తన అవసరం — పాఠశాల బహిరంగంగా పేర్కొన్న ఏకైక అర్హత నిబంధన ఇదే.",
+      "of": "e86a2690",
+      "at": [
+        "gaston-day:facilities.care[2].text"
+      ]
+    },
+    {
+      "t": "పాలక పత్రాలు",
+      "of": "afcbdec0",
+      "at": [
+        "gaston-day:facilities.care[3].label"
+      ]
+    },
+    {
+      "t": "Athletics సైట్ Athletic Department Handbook 2026-2027 మరియు tryout సమాచారాన్ని ప్రస్తావిస్తుంది, కానీ ఆ రెండూ JSతో render అయ్యే పొర వెనుక ఉన్నాయి మరియు వాటిని పొందలేకపోయాం.",
+      "of": "4d69e28c",
+      "at": [
+        "gaston-day:facilities.care[3].text"
+      ]
+    },
+    {
+      "t": "ఈ కార్డు ఉద్దేశపూర్వకంగా చిన్నది. ఈ జాబితాలోని ప్రతి సమాన పాఠశాలా వేదికల జాబితాను ప్రచురిస్తుంది; Gaston Day ప్రచురించదు, మరియు దాన్ని కలిగి ఉండాల్సిన ఏకైక పత్రం (Athletic Handbook) అందుబాటులో లేదు. ఇది సదుపాయాలు లేకపోవడం కాదు, ప్రచురణలోని లోటు — 19 క్రీడలను నడిపే ప్రాంగణానికి అవి స్పష్టంగా ఉంటాయి.",
+      "of": "38ee3a38",
+      "at": [
+        "gaston-day:facilities.careNote"
       ]
     }
   ]

@@ -414,15 +414,15 @@ export const carmelChristian: CollegeSupportProgram = {
     stats: [
       { value: '~215', label: 'institutions named on the acceptance list (no count stated)' },
       { value: '1 of 8', label: 'Ivy League — Princeton' },
-      { value: '~27', label: 'Top-75 National Universities on the list' },
+      { value: '32', label: 'Top-75 National Universities on the list' },
       { value: '8', label: 'HBCUs on the list' },
     ],
     buckets: [
       { tier: 'Ivy League', count: '1 / 8', note: '— Princeton' },
       { tier: '“Ivy Plus”', count: '2 / 17', note: '— adds Duke' },
-      { tier: 'Top-75 National Universities', count: '27 / 75' },
-      { tier: 'Top-75 Liberal Arts', count: '7 / 75', note: '— Davidson, Washington & Lee, Furman, Rhodes, Sewanee, Agnes Scott, Centre' },
-      { tier: 'Power Four', count: '38 / 68' },
+      { tier: 'Top-75 National Universities', count: '32 / 75' },
+      { tier: 'Top-75 Liberal Arts', count: '10 / 75', note: '— incl. Davidson, Washington & Lee, Furman, Rhodes, Sewanee, Richmond, Trinity, Wofford, Agnes Scott, Centre' },
+      { tier: 'Power Four', count: '44 / 68' },
       { tier: 'HBCUs', count: '8 / 107', note: '— incl. Hampton, Howard, NC A&T, Florida A&M' },
     ],
     bucketsNote:

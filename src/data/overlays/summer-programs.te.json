@@ -42,7 +42,9 @@
         "carmel-christian:catalog.categoryFilters[0].label",
         "carmel-christian:catalog.gradeFilters[0].label",
         "hickory-grove-christian:catalog.categoryFilters[0].label",
-        "hickory-grove-christian:catalog.gradeFilters[0].label"
+        "hickory-grove-christian:catalog.gradeFilters[0].label",
+        "gaston-day:catalog.categoryFilters[0].label",
+        "gaston-day:catalog.gradeFilters[0].label"
       ]
     },
     {
@@ -176,7 +178,16 @@
         "covenant-day:catalog.camps[9].categoryLabel",
         "covenant-day:catalog.camps[10].categoryLabel",
         "covenant-day:catalog.camps[11].categoryLabel",
-        "covenant-day:catalog.camps[12].categoryLabel"
+        "covenant-day:catalog.camps[12].categoryLabel",
+        "gaston-day:catalog.categoryFilters[3].label",
+        "gaston-day:catalog.camps[3].categoryLabel",
+        "gaston-day:catalog.camps[8].categoryLabel",
+        "gaston-day:catalog.camps[13].categoryLabel",
+        "gaston-day:catalog.camps[17].categoryLabel",
+        "gaston-day:catalog.camps[18].categoryLabel",
+        "gaston-day:catalog.camps[23].categoryLabel",
+        "gaston-day:catalog.camps[24].categoryLabel",
+        "gaston-day:catalog.camps[25].categoryLabel"
       ]
     },
     {
@@ -497,7 +508,30 @@
         "covenant-day:catalog.camps[16].dayLabel",
         "covenant-day:catalog.camps[17].dayLabel",
         "covenant-day:catalog.camps[18].dayLabel",
-        "covenant-day:catalog.camps[19].dayLabel"
+        "covenant-day:catalog.camps[19].dayLabel",
+        "gaston-day:catalog.camps[0].dayLabel",
+        "gaston-day:catalog.camps[1].dayLabel",
+        "gaston-day:catalog.camps[2].dayLabel",
+        "gaston-day:catalog.camps[3].dayLabel",
+        "gaston-day:catalog.camps[4].dayLabel",
+        "gaston-day:catalog.camps[7].dayLabel",
+        "gaston-day:catalog.camps[8].dayLabel",
+        "gaston-day:catalog.camps[9].dayLabel",
+        "gaston-day:catalog.camps[10].dayLabel",
+        "gaston-day:catalog.camps[11].dayLabel",
+        "gaston-day:catalog.camps[13].dayLabel",
+        "gaston-day:catalog.camps[14].dayLabel",
+        "gaston-day:catalog.camps[15].dayLabel",
+        "gaston-day:catalog.camps[16].dayLabel",
+        "gaston-day:catalog.camps[17].dayLabel",
+        "gaston-day:catalog.camps[18].dayLabel",
+        "gaston-day:catalog.camps[19].dayLabel",
+        "gaston-day:catalog.camps[20].dayLabel",
+        "gaston-day:catalog.camps[21].dayLabel",
+        "gaston-day:catalog.camps[22].dayLabel",
+        "gaston-day:catalog.camps[23].dayLabel",
+        "gaston-day:catalog.camps[24].dayLabel",
+        "gaston-day:catalog.camps[25].dayLabel"
       ]
     },
     {
@@ -2993,7 +3027,13 @@
       "of": "ca0fab3c",
       "at": [
         "charlotte-latin:catalog.camps[52].categoryLabel",
-        "charlotte-latin:catalog.camps[53].categoryLabel"
+        "charlotte-latin:catalog.camps[53].categoryLabel",
+        "gaston-day:catalog.categoryFilters[5].label",
+        "gaston-day:catalog.camps[10].categoryLabel",
+        "gaston-day:catalog.camps[19].categoryLabel",
+        "gaston-day:catalog.camps[20].categoryLabel",
+        "gaston-day:catalog.camps[21].categoryLabel",
+        "gaston-day:catalog.camps[22].categoryLabel"
       ]
     },
     {
@@ -7316,7 +7356,10 @@
         "hickory-grove-christian:catalog.camps[11].dayLabel",
         "hickory-grove-christian:catalog.camps[12].dayLabel",
         "hickory-grove-christian:catalog.camps[13].dayLabel",
-        "hickory-grove-christian:catalog.camps[14].dayLabel"
+        "hickory-grove-christian:catalog.camps[14].dayLabel",
+        "gaston-day:catalog.camps[5].dayLabel",
+        "gaston-day:catalog.camps[6].dayLabel",
+        "gaston-day:catalog.camps[12].dayLabel"
       ]
     },
     {
@@ -9152,7 +9195,8 @@
       "at": [
         "carmel-christian:catalog.gradeFilters[4].label",
         "carmel-christian:catalog.camps[28].gradeLabel",
-        "carmel-christian:catalog.camps[30].gradeLabel"
+        "carmel-christian:catalog.camps[30].gradeLabel",
+        "gaston-day:catalog.gradeFilters[3].label"
       ]
     },
     {
@@ -9541,7 +9585,8 @@
       "t": "Rising 1–5",
       "of": "3965e584",
       "at": [
-        "carmel-christian:catalog.camps[18].gradeLabel"
+        "carmel-christian:catalog.camps[18].gradeLabel",
+        "gaston-day:catalog.gradeFilters[2].label"
       ]
     },
     {
@@ -10131,6 +10176,820 @@
       "of": "5a13c375",
       "at": [
         "hickory-grove-christian:catalog.flags[1].text"
+      ]
+    },
+    {
+      "t": "June 1 నుంచి July 31 వరకు ఎనిమిది వారాలు, ఇందులో పూర్తి-రోజు Camp Spartan, అర్ధ-రోజు సుసంపన్న శిబిరాలు, నలుగురు భాగస్వామ్య నిర్వాహకులు మరియు Nike Sports Camps ఉన్నాయి — పాఠశాల విద్యార్థులు కానివారికీ తెరిచి ఉన్నాయి.",
+      "of": "e1e7014a",
+      "at": [
+        "gaston-day:catalog.headline"
+      ]
+    },
+    {
+      "t": "Camp Spartan ఉదయం 8:30 నుంచి సాయంత్రం 3:30 వరకు నడుస్తుంది, మధ్యాహ్న భోజనం కలిపి ఉంటుంది, మరియు ముందు-వెనుక సంరక్షణ ఉదయం 7:45 నుంచి సాయంత్రం 5:00 వరకు రోజును పొడిగిస్తుంది.",
+      "of": "440697cb",
+      "at": [
+        "gaston-day:catalog.subhead"
+      ]
+    },
+    {
+      "t": "పాఠశాల శిబిరాల జాబితాలో ప్రచురించినట్టుగా పూర్తి 2026 జాబితా — నలుగురు నిర్వాహకుల నుంచి 30 శిబిరాలు. తరగతి స్థాయిలు “rising” తరగతులు: అంటే 2026-27 విద్యా సంవత్సరంలో పిల్లవాడి తరగతి. కొన్ని సుసంపన్న శిబిరాలు వేచి ఉండే జాబితాతో FULL గా, ఒకటి రద్దు అయినట్టుగా కనిపిస్తున్నాయి; ఆ స్థితులను వడపోయకుండా ప్రచురించినట్టే ఇచ్చాం.",
+      "of": "0f0d2460",
+      "at": [
+        "gaston-day:catalog.intro"
+      ]
+    },
+    {
+      "t": "రోజు శిబిరం",
+      "of": "31934b3a",
+      "at": [
+        "gaston-day:catalog.categoryFilters[1].label",
+        "gaston-day:catalog.camps[0].categoryLabel",
+        "gaston-day:catalog.camps[1].categoryLabel"
+      ]
+    },
+    {
+      "t": "సుసంపన్నత",
+      "of": "42d5db5c",
+      "at": [
+        "gaston-day:catalog.categoryFilters[2].label",
+        "gaston-day:catalog.camps[2].categoryLabel",
+        "gaston-day:catalog.camps[4].categoryLabel",
+        "gaston-day:catalog.camps[5].categoryLabel",
+        "gaston-day:catalog.camps[6].categoryLabel",
+        "gaston-day:catalog.camps[7].categoryLabel",
+        "gaston-day:catalog.camps[11].categoryLabel",
+        "gaston-day:catalog.camps[12].categoryLabel"
+      ]
+    },
+    {
+      "t": "కళలు మరియు నాటకం",
+      "of": "d6cf3226",
+      "at": [
+        "gaston-day:catalog.categoryFilters[4].label",
+        "gaston-day:catalog.camps[9].categoryLabel",
+        "gaston-day:catalog.camps[14].categoryLabel",
+        "gaston-day:catalog.camps[15].categoryLabel",
+        "gaston-day:catalog.camps[16].categoryLabel"
+      ]
+    },
+    {
+      "t": "ట్యూటరింగ్",
+      "of": "5f3ff239",
+      "at": [
+        "gaston-day:catalog.categoryFilters[6].label",
+        "gaston-day:catalog.camps[26].categoryLabel"
+      ]
+    },
+    {
+      "t": "Rising PK–K",
+      "of": "fe59bf8e",
+      "at": [
+        "gaston-day:catalog.gradeFilters[1].label",
+        "gaston-day:catalog.camps[1].gradeLabel"
+      ]
+    },
+    {
+      "t": "Rising 9–12",
+      "of": "77e63086",
+      "at": [
+        "gaston-day:catalog.gradeFilters[4].label"
+      ]
+    },
+    {
+      "t": "చేతిపనులు, కార్యకలాపాలు, ప్రయోగాలు మరియు ఆటలతో పూర్తి-రోజు శిబిరం — వేసవిలో పిల్లల సంరక్షణ అవసరమైన ఉద్యోగ తల్లిదండ్రుల కోసం రూపొందించబడింది.",
+      "of": "37a811b0",
+      "at": [
+        "gaston-day:catalog.camps[0].desc"
+      ]
+    },
+    {
+      "t": "Rising 1st–5th",
+      "of": "f465998f",
+      "at": [
+        "gaston-day:catalog.camps[0].gradeLabel"
+      ]
+    },
+    {
+      "t": "8:30am-3:30pm (అర్ధ రోజు 8:30-12pm లేదా 12:30-3:30pm)",
+      "of": "f9652c41",
+      "at": [
+        "gaston-day:catalog.camps[0].hours",
+        "gaston-day:catalog.camps[1].hours"
+      ]
+    },
+    {
+      "t": "వారాలు 1, 2, 3, 5, 6, 7, 8",
+      "of": "15668b7e",
+      "at": [
+        "gaston-day:catalog.camps[0].weeks"
+      ]
+    },
+    {
+      "t": "అతి చిన్న శిబిరార్థుల కోసం మలచిన అదే పూర్తి-రోజు రూపం — చేతిపనులు, కార్యకలాపాలు, ప్రయోగాలు మరియు ఆటలు.",
+      "of": "d79f4e3a",
+      "at": [
+        "gaston-day:catalog.camps[1].desc"
+      ]
+    },
+    {
+      "t": "వారాలు 1, 2, 3, 4, 5, 6, 7, 8",
+      "of": "30d03432",
+      "at": [
+        "gaston-day:catalog.camps[1].weeks"
+      ]
+    },
+    {
+      "t": "ఊరు దాటకుండానే సముద్ర తీరంలో ఒక వారం: నిధి పెట్టెలు, ఇసుక కళ మరియు గవ్వల వేట. Patty Maier నేతృత్వంలో.",
+      "of": "bc40bf7b",
+      "at": [
+        "gaston-day:catalog.camps[2].desc"
+      ]
+    },
+    {
+      "t": "PreK–K",
+      "of": "8054a225",
+      "at": [
+        "gaston-day:catalog.camps[2].gradeLabel"
+      ]
+    },
+    {
+      "t": "9am-12pm",
+      "of": "c39d860d",
+      "at": [
+        "gaston-day:catalog.camps[2].hours",
+        "gaston-day:catalog.camps[3].hours",
+        "gaston-day:catalog.camps[4].hours",
+        "gaston-day:catalog.camps[5].hours",
+        "gaston-day:catalog.camps[6].hours",
+        "gaston-day:catalog.camps[7].hours",
+        "gaston-day:catalog.camps[8].hours",
+        "gaston-day:catalog.camps[9].hours",
+        "gaston-day:catalog.camps[10].hours",
+        "gaston-day:catalog.camps[11].hours",
+        "gaston-day:catalog.camps[12].hours"
+      ]
+    },
+    {
+      "t": "వారం 1 — June 1-5",
+      "of": "57efacaf",
+      "at": [
+        "gaston-day:catalog.camps[2].weeks",
+        "gaston-day:catalog.camps[3].weeks",
+        "gaston-day:catalog.camps[17].weeks"
+      ]
+    },
+    {
+      "t": "కొత్త మరియు అనుభవజ్ఞులైన ఆటగాళ్ల కోసం ప్రాథమిక నైపుణ్యాలపై ఒక వారం. Andrew Perino నేతృత్వంలో.",
+      "of": "c876e6a2",
+      "at": [
+        "gaston-day:catalog.camps[3].desc"
+      ]
+    },
+    {
+      "t": "Rising 1st–8th",
+      "of": "c932d9d0",
+      "at": [
+        "gaston-day:catalog.camps[3].gradeLabel"
+      ]
+    },
+    {
+      "t": "గ్రహాలు, ఈ లోకానికి అతీతమైన కళా కార్యకలాపాలు మరియు ఉత్సాహభరితమైన ఒక వారం. Alison Morgan నేతృత్వంలో.",
+      "of": "0ba32af6",
+      "at": [
+        "gaston-day:catalog.camps[4].desc"
+      ]
+    },
+    {
+      "t": "Rising PK–1st",
+      "of": "38617f47",
+      "at": [
+        "gaston-day:catalog.camps[4].gradeLabel",
+        "gaston-day:catalog.camps[6].gradeLabel"
+      ]
+    },
+    {
+      "t": "వారం 2 — June 8-12",
+      "of": "50a90acf",
+      "at": [
+        "gaston-day:catalog.camps[4].weeks",
+        "gaston-day:catalog.camps[14].weeks"
+      ]
+    },
+    {
+      "t": "రంగుల కార్యకలాపాలు, చేతితో చేసే పనులు, ఆటలు మరియు పుష్కలంగా చల్లని విందులు. Sydney Hedrick నేతృత్వంలో.",
+      "of": "d4d2d875",
+      "at": [
+        "gaston-day:catalog.camps[5].desc"
+      ]
+    },
+    {
+      "t": "Rising PK–3rd",
+      "of": "1f835d08",
+      "at": [
+        "gaston-day:catalog.camps[5].gradeLabel"
+      ]
+    },
+    {
+      "t": "వారం 3 — June 15-18",
+      "of": "79c4d24c",
+      "at": [
+        "gaston-day:catalog.camps[5].weeks",
+        "gaston-day:catalog.camps[6].weeks"
+      ]
+    },
+    {
+      "t": "భవిష్యత్ paleontologists కోసం డైనోసార్లు, తవ్వకాలు మరియు వెలికితీతలతో గర్జించే ఒక వారం. Alison Morgan నేతృత్వంలో.",
+      "of": "5e034585",
+      "at": [
+        "gaston-day:catalog.camps[6].desc"
+      ]
+    },
+    {
+      "t": "చేతితో చేసే పనులు మరియు ఆటల ద్వారా వన్యప్రాణులు, ఆవాసాలు మరియు పరిరక్షణ. రద్దు అయినట్టుగా ప్రచురించారు.",
+      "of": "78a03b2a",
+      "at": [
+        "gaston-day:catalog.camps[7].desc"
+      ]
+    },
+    {
+      "t": "Rising K–3rd",
+      "of": "5db3b81a",
+      "at": [
+        "gaston-day:catalog.camps[7].gradeLabel"
+      ]
+    },
+    {
+      "t": "వారం 5 — July 6-10",
+      "of": "50e27080",
+      "at": [
+        "gaston-day:catalog.camps[7].weeks",
+        "gaston-day:catalog.camps[8].weeks",
+        "gaston-day:catalog.camps[9].weeks",
+        "gaston-day:catalog.camps[20].weeks"
+      ]
+    },
+    {
+      "t": "Coach P తో, సంవత్సరంలోని అత్యుత్తమ PE పాఠాలన్నీ కలిపి ఒక వారం. Andrew Perino నేతృత్వంలో.",
+      "of": "6e83b049",
+      "at": [
+        "gaston-day:catalog.camps[8].desc"
+      ]
+    },
+    {
+      "t": "Rising PK–4th",
+      "of": "5b44ad9b",
+      "at": [
+        "gaston-day:catalog.camps[8].gradeLabel"
+      ]
+    },
+    {
+      "t": "ఒక చిన్న musical కోసం పాటలు మరియు స్క్రిప్టు, అదనంగా ఒక సాధారణ సెట్ రూపకల్పన. Milette Oden నేతృత్వంలో.",
+      "of": "b23d7722",
+      "at": [
+        "gaston-day:catalog.camps[9].desc"
+      ]
+    },
+    {
+      "t": "Rising PK–6th",
+      "of": "1a9dcc51",
+      "at": [
+        "gaston-day:catalog.camps[9].gradeLabel"
+      ]
+    },
+    {
+      "t": "సమన్వయాన్ని మరియు ఆత్మవిశ్వాసాన్ని పెంచే నృత్యం, సృజనాత్మక కదలిక, ఆటలు మరియు లయబద్ధ కార్యకలాపాలు. Sydney Hedrick నేతృత్వంలో.",
+      "of": "0ca2c840",
+      "at": [
+        "gaston-day:catalog.camps[10].desc"
+      ]
+    },
+    {
+      "t": "Rising PK–2nd",
+      "of": "7e41a043",
+      "at": [
+        "gaston-day:catalog.camps[10].gradeLabel"
+      ]
+    },
+    {
+      "t": "వారం 6 — July 13-17",
+      "of": "1ded5ca4",
+      "at": [
+        "gaston-day:catalog.camps[10].weeks",
+        "gaston-day:catalog.camps[18].weeks"
+      ]
+    },
+    {
+      "t": "ఉత్తర ధ్రువంలో gingerbread ఇళ్లు, candy canes, చేతిపనులు, నృత్యం మరియు కథలు. Alison Morgan నేతృత్వంలో.",
+      "of": "cfe4c37b",
+      "at": [
+        "gaston-day:catalog.camps[11].desc"
+      ]
+    },
+    {
+      "t": "Rising PreK–2",
+      "of": "eef8021e",
+      "at": [
+        "gaston-day:catalog.camps[11].gradeLabel",
+        "gaston-day:catalog.camps[12].gradeLabel"
+      ]
+    },
+    {
+      "t": "వారం 7 — July 20-24",
+      "of": "af0f09c9",
+      "at": [
+        "gaston-day:catalog.camps[11].weeks",
+        "gaston-day:catalog.camps[21].weeks"
+      ]
+    },
+    {
+      "t": "మాయాజాల fairy ఇతివృత్తంతో చేతిపనులు, కార్యకలాపాలు మరియు ఆటలు. Rachel Lambert నేతృత్వంలో.",
+      "of": "f1a5642c",
+      "at": [
+        "gaston-day:catalog.camps[12].desc"
+      ]
+    },
+    {
+      "t": "వారం 8 — July 27-30",
+      "of": "b3515f08",
+      "at": [
+        "gaston-day:catalog.camps[12].weeks"
+      ]
+    },
+    {
+      "t": "వారమంతా పలు క్రీడలు, అదనంగా జట్టుకృషి నైపుణ్యాలు — \"life is too short for just one sport\". 2-4-1 camp సైట్ ద్వారా నమోదు.",
+      "of": "f171b136",
+      "at": [
+        "gaston-day:catalog.camps[13].desc"
+      ]
+    },
+    {
+      "t": "Rising K–8th",
+      "of": "e002c2d9",
+      "at": [
+        "gaston-day:catalog.camps[13].gradeLabel"
+      ]
+    },
+    {
+      "t": "9:00am-3:00pm",
+      "of": "eaddb95d",
+      "at": [
+        "gaston-day:catalog.camps[13].hours",
+        "gaston-day:catalog.camps[14].hours",
+        "gaston-day:catalog.camps[15].hours",
+        "gaston-day:catalog.camps[16].hours"
+      ]
+    },
+    {
+      "t": "వారం 4 — June 22-26",
+      "of": "832d5528",
+      "at": [
+        "gaston-day:catalog.camps[13].weeks",
+        "gaston-day:catalog.camps[19].weeks"
+      ]
+    },
+    {
+      "t": "Children’s Theater of Charlotte తో పూర్తి నాటక వారం. వారి వెబ్‌సైట్ ద్వారా నమోదు.",
+      "of": "50cd6e51",
+      "at": [
+        "gaston-day:catalog.camps[14].desc",
+        "gaston-day:catalog.camps[15].desc"
+      ]
+    },
+    {
+      "t": "Rising 3rd–6th",
+      "of": "56861ff1",
+      "at": [
+        "gaston-day:catalog.camps[14].gradeLabel",
+        "gaston-day:catalog.camps[15].gradeLabel"
+      ]
+    },
+    {
+      "t": "వారం 3 — June 15-19",
+      "of": "7ac4d3df",
+      "at": [
+        "gaston-day:catalog.camps[15].weeks",
+        "gaston-day:catalog.camps[16].weeks"
+      ]
+    },
+    {
+      "t": "అతి చిన్న వయస్సు సమూహం కోసం Children’s Theater of Charlotte తో పూర్తి నాటక వారం. వారి వెబ్‌సైట్ ద్వారా నమోదు.",
+      "of": "f5022c90",
+      "at": [
+        "gaston-day:catalog.camps[16].desc"
+      ]
+    },
+    {
+      "t": "Rising K–2nd",
+      "of": "9c4ab985",
+      "at": [
+        "gaston-day:catalog.camps[16].gradeLabel",
+        "gaston-day:catalog.camps[20].gradeLabel"
+      ]
+    },
+    {
+      "t": "Formations, jumps, నృత్యం, stunting మరియు tumbling, చివరలో కుటుంబ ప్రదర్శనతో ముగుస్తుంది. ఈ పరిశోధన సమయానికి నమోదు మూసివేయబడింది.",
+      "of": "32e50150",
+      "at": [
+        "gaston-day:catalog.camps[17].desc"
+      ]
+    },
+    {
+      "t": "Rising K–4th",
+      "of": "eca67f4d",
+      "at": [
+        "gaston-day:catalog.camps[17].gradeLabel",
+        "gaston-day:catalog.camps[18].gradeLabel",
+        "gaston-day:catalog.camps[19].gradeLabel",
+        "gaston-day:catalog.camps[21].gradeLabel",
+        "gaston-day:catalog.camps[22].gradeLabel"
+      ]
+    },
+    {
+      "t": "9:00am-12:00",
+      "of": "41173c3a",
+      "at": [
+        "gaston-day:catalog.camps[17].hours",
+        "gaston-day:catalog.camps[18].hours",
+        "gaston-day:catalog.camps[19].hours",
+        "gaston-day:catalog.camps[20].hours",
+        "gaston-day:catalog.camps[21].hours",
+        "gaston-day:catalog.camps[22].hours"
+      ]
+    },
+    {
+      "t": "Vault, beam, bars మరియు floor, చివరలో కుటుంబ ప్రదర్శనతో ముగుస్తుంది. ఈ పరిశోధన సమయానికి నమోదు మూసివేయబడింది.",
+      "of": "c74128bd",
+      "at": [
+        "gaston-day:catalog.camps[18].desc"
+      ]
+    },
+    {
+      "t": "ప్రతిరోజూ ఒక కొత్త యువరాణి, కథలు, props మరియు చేతిపనులతో. ఈ పరిశోధన సమయానికి నమోదు మూసివేయబడింది.",
+      "of": "543a4835",
+      "at": [
+        "gaston-day:catalog.camps[19].desc"
+      ]
+    },
+    {
+      "t": "ఊహాత్మక కదలిక మరియు కథ చెప్పడం ద్వారా నైపుణ్యాలను పెంచే gymnastics తో కలిపిన ballet. ఈ పరిశోధన సమయానికి నమోదు మూసివేయబడింది.",
+      "of": "9cbf7afe",
+      "at": [
+        "gaston-day:catalog.camps[20].desc"
+      ]
+    },
+    {
+      "t": "Jazz, ballet మరియు tumbling పునాదులు, వారాంతపు ప్రదర్శన వరకు తీసుకెళతాయి. అనుభవం అవసరం లేదు. ఈ పరిశోధన సమయానికి నమోదు మూసివేయబడింది.",
+      "of": "2dc39dad",
+      "at": [
+        "gaston-day:catalog.camps[21].desc"
+      ]
+    },
+    {
+      "t": "Plié, tendu, pirouette, grand jeté మరియు reverence, అదనంగా ballet కథలు మరియు pointe shoes. ఈ పరిశోధన సమయానికి నమోదు మూసివేయబడింది.",
+      "of": "3d0e7d51",
+      "at": [
+        "gaston-day:catalog.camps[22].desc"
+      ]
+    },
+    {
+      "t": "వారం 8 — July 27-31",
+      "of": "b451609b",
+      "at": [
+        "gaston-day:catalog.camps[22].weeks"
+      ]
+    },
+    {
+      "t": "Coach Jordan Paris తో ప్రాథమికాంశాలు, shooting మరియు జట్టు ఆట. US Sports Camps ద్వారా నమోదు.",
+      "of": "beadaf92",
+      "at": [
+        "gaston-day:catalog.camps[23].desc"
+      ]
+    },
+    {
+      "t": "వయస్సు 9–15 (wk 1) · 10–17 (wk 7)",
+      "of": "9393a096",
+      "at": [
+        "gaston-day:catalog.camps[23].gradeLabel"
+      ]
+    },
+    {
+      "t": "9:00am-3:00pm (శుక్రవారాలు మధ్యాహ్నానికి ముగుస్తాయి)",
+      "of": "35f7726e",
+      "at": [
+        "gaston-day:catalog.camps[23].hours",
+        "gaston-day:catalog.camps[24].hours",
+        "gaston-day:catalog.camps[25].hours"
+      ]
+    },
+    {
+      "t": "వారాలు 1 మరియు 7",
+      "of": "7a17a4a5",
+      "at": [
+        "gaston-day:catalog.camps[23].weeks"
+      ]
+    },
+    {
+      "t": "Coach Catey Stewart మరియు Charlotte Soccer Academy తో సాంకేతికత, ఆత్మవిశ్వాసం మరియు పోటీతత్వం.",
+      "of": "e82d8ba0",
+      "at": [
+        "gaston-day:catalog.camps[24].desc"
+      ]
+    },
+    {
+      "t": "వయస్సు 8–14",
+      "of": "3d95869f",
+      "at": [
+        "gaston-day:catalog.camps[24].gradeLabel"
+      ]
+    },
+    {
+      "t": "వారాలు 2 మరియు 5",
+      "of": "b5bf05e6",
+      "at": [
+        "gaston-day:catalog.camps[24].weeks"
+      ]
+    },
+    {
+      "t": "2025 రాష్ట్ర-ఛాంపియన్ volleyball జట్టుకు శిక్షణ ఇచ్చిన Coach Derek Bing తో drills మరియు స్నేహపూర్వక ఆటలు.",
+      "of": "7d63a648",
+      "at": [
+        "gaston-day:catalog.camps[25].desc"
+      ]
+    },
+    {
+      "t": "వయస్సు 10–16",
+      "of": "4278a434",
+      "at": [
+        "gaston-day:catalog.camps[25].gradeLabel"
+      ]
+    },
+    {
+      "t": "వారాలు 3, 6 మరియు 8",
+      "of": "0e977b16",
+      "at": [
+        "gaston-day:catalog.camps[25].weeks"
+      ]
+    },
+    {
+      "t": "పఠనం, గణితం, రచన మరియు ఇతర విషయాల్లో ఒకరికొకరు ట్యూటరింగ్ — \"summer slump\" ను ఎదుర్కోవడం నుంచి నేరుగా బోధన వరకు. Gaston Day విద్యార్థులు కానివారికీ తెరిచి ఉంది. Julie Dellibovi ని సంప్రదించండి.",
+      "of": "2b4dfa21",
+      "at": [
+        "gaston-day:catalog.camps[26].desc"
+      ]
+    },
+    {
+      "t": "Rising K–12th",
+      "of": "a9ddd89c",
+      "at": [
+        "gaston-day:catalog.camps[26].gradeLabel"
+      ]
+    },
+    {
+      "t": "—",
+      "of": "113ed003",
+      "at": [
+        "gaston-day:catalog.camps[26].dayLabel"
+      ]
+    },
+    {
+      "t": "ఏర్పాటు ప్రకారం",
+      "of": "37231a48",
+      "at": [
+        "gaston-day:catalog.camps[26].hours"
+      ]
+    },
+    {
+      "t": "జాబితా \"CHECK BACK FREQUENTLY AS MORE ENRICHMENT CAMPS ARE BEING ADDED\" అని చెబుతుంది, కాబట్టి సుసంపన్న శిబిరాల జాబితా తుది జాబితా కాక, పెరుగుతున్న ఒక చిత్రం మాత్రమే. FULL/వేచి ఉండే జాబితా మరియు రద్దు స్థితులను ప్రచురించినట్టే ఇచ్చాం, అవి ఈలోగా మారి ఉంటాయి.",
+      "of": "10be8142",
+      "at": [
+        "gaston-day:catalog.flags[0].text"
+      ]
+    },
+    {
+      "t": "భాగస్వామ్య శిబిరాల ధరలను (Children’s Theater of Charlotte, Legends, Studio Elite, 2-4-1 మరియు Nike) Gaston Day కాక ఒక్కో నిర్వాహకుడే నిర్ణయించి వసూలు చేస్తారు, మరియు అవి పాఠశాల జాబితాలో ప్రచురించబడలేదు — వాటిని అంచనా వేయకుండా \"—\" గా చూపాం.",
+      "of": "c5567d01",
+      "at": [
+        "gaston-day:catalog.flags[1].text"
+      ]
+    },
+    {
+      "t": "Camp Spartan కు 4వ వారంలో (June 22 వారం) శిబిరం లేదు, మరియు June 29 వారంలో గానీ June 19న గానీ ఏ శిబిరమూ లేదు — జాబితాలోని వారాల సంఖ్య దానికి తగ్గట్టు దాటవేస్తుంది, కాబట్టి \"8 వారాలు\" అంటే వరుసగా ఎనిమిది వారాలు కాక June 1 నుంచి July 31 వరకు అని అర్థం.",
+      "of": "aa9ac42b",
+      "at": [
+        "gaston-day:catalog.flags[2].text"
+      ]
+    },
+    {
+      "t": "Camp Spartan పూర్తి-రోజు వారం $300, మధ్యాహ్న భోజనం కలిపి; అర్ధ-రోజు సుసంపన్న శిబిరం $220.",
+      "of": "f631177a",
+      "at": [
+        "gaston-day:costPlanner.headline"
+      ]
+    },
+    {
+      "t": "ముందు-వెనుక సంరక్షణకు విడిగా, తక్కువ ధర ఉంది — శిబిరానికి ముందు వారానికి $25, తర్వాత వారానికి $35.",
+      "of": "03442776",
+      "at": [
+        "gaston-day:costPlanner.subhead"
+      ]
+    },
+    {
+      "t": "Camp Spartan — పూర్తి రోజు",
+      "of": "5c9ed476",
+      "at": [
+        "gaston-day:costPlanner.tiers[0].label"
+      ]
+    },
+    {
+      "t": "Camp Spartan · పూర్తి రోజు · 8:30am-3:30pm",
+      "of": "31007937",
+      "at": [
+        "gaston-day:costPlanner.tiers[0].panelLabel"
+      ]
+    },
+    {
+      "t": "8:30am-3:30pm · మధ్యాహ్న భోజనం కలిపి · rising 1st-5th (Jr: rising PK-K)",
+      "of": "048aea3e",
+      "at": [
+        "gaston-day:costPlanner.tiers[0].detail"
+      ]
+    },
+    {
+      "t": "Camp Spartan — అర్ధ రోజు",
+      "of": "2dc769ee",
+      "at": [
+        "gaston-day:costPlanner.tiers[1].label"
+      ]
+    },
+    {
+      "t": "Camp Spartan · అర్ధ రోజు · AM లేదా PM",
+      "of": "e8da5f9e",
+      "at": [
+        "gaston-day:costPlanner.tiers[1].panelLabel"
+      ]
+    },
+    {
+      "t": "AM 8:30-12pm or PM 12:30-3:30pm",
+      "of": "3d813cb3",
+      "at": [
+        "gaston-day:costPlanner.tiers[1].detail"
+      ]
+    },
+    {
+      "t": "అర్ధ-రోజు సుసంపన్న శిబిరం",
+      "of": "cd8fdb79",
+      "at": [
+        "gaston-day:costPlanner.tiers[2].label"
+      ]
+    },
+    {
+      "t": "అర్ధ-రోజు సుసంపన్న శిబిరం · 9am-12pm",
+      "of": "260e4514",
+      "at": [
+        "gaston-day:costPlanner.tiers[2].panelLabel"
+      ]
+    },
+    {
+      "t": "9am-12pm · వారానికి ఒక ఇతివృత్త శిబిరం",
+      "of": "73971cf9",
+      "at": [
+        "gaston-day:costPlanner.tiers[2].detail"
+      ]
+    },
+    {
+      "t": "వారం 3 — పూర్తి రోజు (చిన్న వారం)",
+      "of": "e80d2d38",
+      "at": [
+        "gaston-day:costPlanner.tiers[3].label"
+      ]
+    },
+    {
+      "t": "వారం 3 · పూర్తి రోజు · June 15-18, June 19న శిబిరం లేదు",
+      "of": "d5cdb2db",
+      "at": [
+        "gaston-day:costPlanner.tiers[3].panelLabel"
+      ]
+    },
+    {
+      "t": "నాలుగు-రోజుల వారం — ప్రచురించిన చిన్న-వారం రేటు",
+      "of": "b81ebac2",
+      "at": [
+        "gaston-day:costPlanner.tiers[3].detail",
+        "gaston-day:costPlanner.tiers[4].detail",
+        "gaston-day:costPlanner.tiers[5].detail"
+      ]
+    },
+    {
+      "t": "వారం 3 — అర్ధ రోజు (చిన్న వారం)",
+      "of": "101202a4",
+      "at": [
+        "gaston-day:costPlanner.tiers[4].label"
+      ]
+    },
+    {
+      "t": "వారం 3 · అర్ధ రోజు · June 15-18",
+      "of": "37c81d83",
+      "at": [
+        "gaston-day:costPlanner.tiers[4].panelLabel"
+      ]
+    },
+    {
+      "t": "వారం 3 — సుసంపన్నత (చిన్న వారం)",
+      "of": "90afb69a",
+      "at": [
+        "gaston-day:costPlanner.tiers[5].label"
+      ]
+    },
+    {
+      "t": "వారం 3 · సుసంపన్న శిబిరం · June 15-18",
+      "of": "b9e270fe",
+      "at": [
+        "gaston-day:costPlanner.tiers[5].panelLabel"
+      ]
+    },
+    {
+      "t": "శిబిరానికి ముందు సంరక్షణ · 7:45-8:30am",
+      "of": "fc4d73bf",
+      "at": [
+        "gaston-day:costPlanner.addons[0].label"
+      ]
+    },
+    {
+      "t": "శిబిరం తర్వాత సంరక్షణ · 3:30-5:00pm",
+      "of": "66230c3f",
+      "at": [
+        "gaston-day:costPlanner.addons[1].label"
+      ]
+    },
+    {
+      "t": "శిబిరాల మధ్య మధ్యాహ్న భోజన సంరక్షణ · 11:30am-12:30pm",
+      "of": "6e91863e",
+      "at": [
+        "gaston-day:costPlanner.addons[2].label"
+      ]
+    },
+    {
+      "t": "వేసవి ట్యూటరింగ్ — అర గంట",
+      "of": "95a98a79",
+      "at": [
+        "gaston-day:costPlanner.fees[0].label"
+      ]
+    },
+    {
+      "t": "వేసవి ట్యూటరింగ్ — పూర్తి గంట",
+      "of": "3d1560cd",
+      "at": [
+        "gaston-day:costPlanner.fees[1].label"
+      ]
+    },
+    {
+      "t": "ఉదయం మరియు మధ్యాహ్నం శిబిరాల మధ్య ప్రాంగణంలోనే ఉండే శిబిరార్థులకు Lunch Care తప్పనిసరి, మరియు దీనిలో Sparty’s Dining Service నుంచి మధ్యాహ్న భోజనం ఉంటుంది. ఇది పూర్తి-రోజు Camp Spartan మరియు Camp Spartan Jr ఫీజులో ఇప్పటికే కలిసి ఉంది, కాబట్టి రెండు అర్ధ-రోజు శిబిరాలను కలిపినప్పుడు మాత్రమే దీన్ని జోడించండి.",
+      "of": "ec6bcc6e",
+      "at": [
+        "gaston-day:costPlanner.fees[2].label"
+      ]
+    },
+    {
+      "t": "నమోదు సమయంలోనే Popsicle యాప్ ద్వారా పూర్తి ఫీజు చెల్లించాలి. వాపసులు: శిబిరం మొదలయ్యే మూడు లేదా అంతకంటే ఎక్కువ వారాల ముందు రద్దు చేస్తే 50%; ఆ తర్వాత ఏమీ లేదు, మరియు ఆలస్యంగా వచ్చినా, ముందే వెళ్లిపోయినా ఏమీ లేదు. తగినంత నమోదు లేక Gaston Day ఒక శిబిరాన్ని రద్దు చేస్తే, కనీసం రెండు వారాల ముందు తెలియజేసి పూర్తి మొత్తాన్ని వాపసు ఇస్తుంది.",
+      "of": "8f3f90dd",
+      "at": [
+        "gaston-day:costPlanner.fees[3].label"
+      ]
+    },
+    {
+      "t": "భాగస్వామ్య శిబిరాలకు (Children’s Theater of Charlotte, Legends Sports Academy, Studio Elite, 2-4-1 మరియు Nike Sports Camps) ఒక్కో నిర్వాహకుడే ధర నిర్ణయించి వసూలు చేస్తారు, మరియు అవి ఈ ప్రణాళికలో చేర్చబడలేదు.",
+      "of": "ac8acdc7",
+      "at": [
+        "gaston-day:costPlanner.fees[4].label"
+      ]
+    },
+    {
+      "t": "నమోదు February లో మొదలవుతుంది",
+      "of": "0b4dad56",
+      "at": [
+        "gaston-day:costPlanner.aside.title"
+      ]
+    },
+    {
+      "t": "Gaston Day కుటుంబాలకు లింకులు **Monday, Feb. 9th మధ్యాహ్నం 12 గంటలకు** Popsicle యాప్ ద్వారా అందుబాటులోకి వస్తాయి. వేసవి రూపు దిద్దుకుంటున్న కొద్దీ కుటుంబాలు తిరిగి వచ్చి శిబిరాలను జోడించుకోవచ్చు. శిబిరాలు పాఠశాల విద్యార్థులు కానివారికీ తెరిచి ఉన్నాయి — \"You do not have to be a student at Gaston Day to participate in summer camps!\"",
+      "of": "ec8b9fbd",
+      "at": [
+        "gaston-day:costPlanner.aside.text"
+      ]
+    },
+    {
+      "t": "వేసవి మొత్తానికి గరిష్ఠంగా 8 వారాలు, కానీ ఏ ఒక్క శిబిరమూ ఎనిమిది వారాలూ నడవదు మరియు June 29 వారంలో ఏ శిబిరమూ లేదు — కాబట్టి 8-వారాల మొత్తం అనేది సాధించగల నమోదు కాక, ప్రణాళిక పరమైన గరిష్ఠ పరిమితి మాత్రమే.",
+      "of": "b1d14991",
+      "at": [
+        "gaston-day:costPlanner.flags[0].text"
+      ]
+    },
+    {
+      "t": "వేసవి శిబిరాలకు తోబుట్టువుల రాయితీ, బహుళ-వారాల రాయితీ, ఆర్థిక సహాయం లేదా ముందస్తు-నమోదు రేటు ఏవీ ప్రచురించబడలేదు, మరియు ప్రచురించిన నమోదు రుసుము కూడా లేదు.",
+      "of": "ea1315a4",
+      "at": [
+        "gaston-day:costPlanner.flags[1].text"
       ]
     }
   ]

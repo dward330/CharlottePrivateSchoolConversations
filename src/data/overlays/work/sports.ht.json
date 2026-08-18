@@ -72,7 +72,8 @@
         "covenant-day:offered.seasons[0].name",
         "davidson-day:offered.seasons[0].name",
         "carmel-christian:offered.seasons[0].name",
-        "hickory-grove-christian:offered.seasons[0].name"
+        "hickory-grove-christian:offered.seasons[0].name",
+        "gaston-day:offered.seasons[0].name"
       ],
       "t": "Otòn"
     },
@@ -100,7 +101,8 @@
         "covenant-day:offered.seasons[1].name",
         "davidson-day:offered.seasons[1].name",
         "carmel-christian:offered.seasons[1].name",
-        "hickory-grove-christian:offered.seasons[1].name"
+        "hickory-grove-christian:offered.seasons[1].name",
+        "gaston-day:offered.seasons[1].name"
       ],
       "t": "Ivè"
     },
@@ -116,7 +118,8 @@
         "covenant-day:offered.seasons[2].name",
         "davidson-day:offered.seasons[2].name",
         "carmel-christian:offered.seasons[2].name",
-        "hickory-grove-christian:offered.seasons[2].name"
+        "hickory-grove-christian:offered.seasons[2].name",
+        "gaston-day:offered.seasons[2].name"
       ],
       "t": "Prentan"
     },
@@ -198,7 +201,13 @@
         "carmel-christian:record.rows[1].cells[0].result",
         "hickory-grove-christian:record.rows[0].cells[0].result",
         "hickory-grove-christian:record.rows[0].cells[1].result",
-        "hickory-grove-christian:record.rows[1].cells[2].result"
+        "hickory-grove-christian:record.rows[1].cells[2].result",
+        "gaston-day:record.rows[0].cells[0].result",
+        "gaston-day:record.rows[0].cells[1].result",
+        "gaston-day:record.rows[0].cells[2].result",
+        "gaston-day:record.rows[1].cells[1].result",
+        "gaston-day:record.rows[1].cells[2].result",
+        "gaston-day:record.rows[2].cells[1].result"
       ],
       "t": "ETA"
     },
@@ -313,7 +322,10 @@
         "hickory-grove-christian:record.rows[1].cells[1].result",
         "hickory-grove-christian:record.rows[2].cells[0].result",
         "hickory-grove-christian:record.rows[2].cells[1].result",
-        "hickory-grove-christian:record.rows[2].cells[2].result"
+        "hickory-grove-christian:record.rows[2].cells[2].result",
+        "gaston-day:record.rows[1].cells[0].result",
+        "gaston-day:record.rows[2].cells[0].result",
+        "gaston-day:record.rows[2].cells[2].result"
       ],
       "t": "OKENN"
     },
@@ -5767,7 +5779,8 @@
       "text": "Athletic Director",
       "of": "e3e4c54b",
       "at": [
-        "covenant-day:coaching.tenure[1].role"
+        "covenant-day:coaching.tenure[1].role",
+        "gaston-day:facilities.care[0].label"
       ],
       "t": "Direktè Atletik"
     },
@@ -7285,6 +7298,351 @@
         "hickory-grove-christian:coaching.worthKnowing"
       ],
       "t": "Paj Coaches & Teams la nonmen yon antrenè prensipal pou prèske chak eskwad varsity, JV ak Middle School (antrenè Cross Country ak Golf Elizabeth Hamilton, Keith White ak Todd Staples; Swimming Sam Cox; Cheer Carmen Costner pami yo), men li pa pibliye okenn byografi, dosye karyè oswa longè dire — kidonk nou pa ka fè okenn reklamasyon sou pedigri oswa kontinwite apati sous piblik. Se poutèt sa chan \"since\" ak lajè yo make TO VERIFY olye ke ranpli ak yon ane ki devine."
+    },
+    {
+      "text": "19 team sports across three seasons, with about 70% of students in grades 6–12 playing at least one.",
+      "of": "19459ea5",
+      "at": [
+        "gaston-day:offered.headline"
+      ],
+      "t": "19 espò an ekip atravè twa sezon, ak anviwon 70% elèv nan grad 6–12 k ap jwe omwen youn."
+    },
+    {
+      "text": "An NCISAA 2A program that has won eight team state championships since 2021 — a title rate that reads much larger than the school’s 510 enrollment.",
+      "of": "203ff4ca",
+      "at": [
+        "gaston-day:offered.subhead"
+      ],
+      "t": "Yon pwogram NCISAA 2A ki genyen uit chanpyona eta an ekip depi 2021 — yon to tit ki li pi gwo anpil pase enskripsyon 510 elèv lekòl la."
+    },
+    {
+      "text": "team sports across three seasons",
+      "of": "1427439e",
+      "at": [
+        "gaston-day:offered.stats[0].label"
+      ],
+      "t": "espò an ekip atravè twa sezon"
+    },
+    {
+      "text": "of grades 6–12 play at least one sport",
+      "of": "7cdb734c",
+      "at": [
+        "gaston-day:offered.stats[1].label"
+      ],
+      "t": "nan grad 6–12 jwe omwen yon espò"
+    },
+    {
+      "text": "NCISAA 2A team state titles since 2021",
+      "of": "025948af",
+      "at": [
+        "gaston-day:offered.stats[2].label"
+      ],
+      "t": "tit eta an ekip NCISAA 2A depi 2021"
+    },
+    {
+      "text": "NCISAA classification",
+      "of": "ffd173a8",
+      "at": [
+        "gaston-day:offered.stats[3].label"
+      ],
+      "t": "klasifikasyon NCISAA"
+    },
+    {
+      "text": "7 teams",
+      "of": "5a9f4260",
+      "at": [
+        "gaston-day:offered.seasons[0].note",
+        "gaston-day:offered.seasons[2].note"
+      ],
+      "t": "7 ekip"
+    },
+    {
+      "text": "5 teams",
+      "of": "054d512e",
+      "at": [
+        "gaston-day:offered.seasons[1].note"
+      ],
+      "t": "5 ekip"
+    },
+    {
+      "text": "Levels shown are what the sources actually publish. Volleyball is the one sport whose ladder is documented — MaxPreps lists varsity, JV and freshman teams — so it is the only row carrying a JV chip; every other sport shows V alone because the athletics site that would list its ladder is JavaScript-rendered and exposes nothing to a fetch. The Middle School fields its own teams in soccer, basketball, track & field and swimming (grades 6–8, subject to academic standing and behaviour), but the school does not publish a full MS roster, so no MS chips are claimed. Cheering and track & field come from Private School Review rather than the MaxPreps season grid.",
+      "of": "7e4610bc",
+      "at": [
+        "gaston-day:offered.footnote"
+      ],
+      "t": "Nivo ki parèt yo se sa sous yo pibliye reyèlman. Volebòl se sèl espò ki gen nechèl li dokimante — MaxPreps make ekip varsity, JV ak freshman — kidonk se sèl liy ki pote yon etikèt JV; tout lòt espò yo montre V sèlman paske sit atletik ki ta bay nechèl yo se JavaScript ki rann li epi li pa ekspoze anyen bay yon fetch. Middle School la mete pwòp ekip pa l nan foutbòl, baskètbòl, atletism ak natasyon (grad 6–8, sijè a estati akademik ak konpòtman), men lekòl la pa pibliye yon lis MS konplè, kidonk nou pa reklame okenn etikèt MS. Cheering ak atletism soti nan Private School Review olye ke nan griy sezon MaxPreps la."
+    },
+    {
+      "text": "Eight NCISAA 2A state championships since 2021 — including a three-title year in 2024–25 when volleyball, boys soccer and girls tennis all won.",
+      "of": "741bb841",
+      "at": [
+        "gaston-day:record.headline"
+      ],
+      "t": "Uit chanpyona eta NCISAA 2A depi 2021 — ki enkli yon ane ak twa tit an 2024–25 lè volebòl, foutbòl gason ak tenis fi tout te genyen."
+    },
+    {
+      "text": "Girls tennis has four titles and is on a three-peat; volleyball has three and reached the 2025 final in five sets.",
+      "of": "21136c62",
+      "at": [
+        "gaston-day:record.subhead"
+      ],
+      "t": "Tenis fi gen kat tit epi li nan yon twazyèm tit youn dèyè lòt; volebòl gen twa epi li te rive nan final 2025 la an senk sèt."
+    },
+    {
+      "text": "Four titles overall (2021, 2023, 2024, 2025) and three straight through 2025 — beat Trinity School of Durham & Chapel Hill 5–1 in 2023, then Epiphany School in both 2024 and 2025",
+      "of": "0e564ec1",
+      "at": [
+        "gaston-day:record.rows[0].note"
+      ],
+      "t": "Kat tit antou (2021, 2023, 2024, 2025) ak twa youn dèyè lòt jiska 2025 — li te bat Trinity School of Durham & Chapel Hill 5–1 an 2023, epi Epiphany School ni an 2024 ni an 2025"
+    },
+    {
+      "text": "Three titles (2021, 2024, 2025); swept Westminster Catawba on Oct 26 2024, then beat St. Thomas More Academy 3–2 on Oct 25 2025. Plus three further finals appearances and five league titles over the decade",
+      "of": "958fe120",
+      "at": [
+        "gaston-day:record.rows[1].note"
+      ],
+      "t": "Twa tit (2021, 2024, 2025); li te bale Westminster Catawba sou 26 okt. 2024, epi li te bat St. Thomas More Academy 3–2 sou 25 okt. 2025. Plis twa lòt patisipasyon nan final ak senk tit lig pandan deseni a"
+    },
+    {
+      "text": "Blanked Westchester Country Day for the 2024 NCISAA 2A championship",
+      "of": "e69b4ba4",
+      "at": [
+        "gaston-day:record.rows[2].note"
+      ],
+      "t": "Li te kenbe Westchester Country Day san bi pou chanpyona NCISAA 2A 2024 la"
+    },
+    {
+      "text": "every other program. The eight titles since 2021 sit in exactly three sports — girls tennis, volleyball and boys soccer — and the school publishes no championship history for the other sixteen, so this ledger is a record of concentrated strength rather than program-wide depth.",
+      "of": "e64dee8f",
+      "at": [
+        "gaston-day:record.didNotWin"
+      ],
+      "t": "tout lòt pwogram. Uit tit yo depi 2021 chita nan egzakteman twa espò — tenis fi, volebòl ak foutbòl gason — epi lekòl la pa pibliye okenn istwa chanpyona pou sèz lòt yo, kidonk rejis sa a se yon dosye fòs konsantre olye ke pwofondè nan tout pwogram nan."
+    },
+    {
+      "text": "The most decorated program at the school: NCISAA 2A champions in 2021, 2023, 2024 and 2025. The 2024 win over Epiphany School was described in coverage as the program’s third state championship in four years and fourth overall; the 2025 win over the same opponent made it three straight.",
+      "of": "f977b315",
+      "at": [
+        "gaston-day:record.seasonDetail[0].text"
+      ],
+      "t": "Pwogram ki pi dekore nan lekòl la: chanpyon NCISAA 2A an 2021, 2023, 2024 ak 2025. Kouvèti a te dekri viktwa 2024 la kont Epiphany School kòm twazyèm chanpyona eta pwogram nan an kat ane ak katriyèm nan antou; viktwa 2025 la kont menm advèsè a te fè l twa youn dèyè lòt."
+    },
+    {
+      "text": "Won the 2A title in 2021, then again in 2024 and 2025 under head coach Derek Bing. The 2025 final against St. Thomas More Academy went the full five sets, 3–2, on October 25 2025. Beyond the three titles the programme has reached three further finals and taken five league titles over the decade.",
+      "of": "1eef43a1",
+      "at": [
+        "gaston-day:record.seasonDetail[1].text"
+      ],
+      "t": "Li te genyen tit 2A a an 2021, epi ankò an 2024 ak 2025 anba antrenè prensipal Derek Bing. Final 2025 la kont St. Thomas More Academy te ale nan tout senk sèt yo, 3–2, sou 25 oktòb 2025. Anplis twa tit yo, pwogram nan rive nan twa lòt final epi li pran senk tit lig pandan deseni a."
+    },
+    {
+      "text": "Won the 2024 NCISAA 2A championship with a shutout of Westchester Country Day, completing a three-title school year alongside volleyball and girls tennis — the run local coverage headlined as \"Déjà vu\".",
+      "of": "210e1e59",
+      "at": [
+        "gaston-day:record.seasonDetail[2].text"
+      ],
+      "t": "Li te genyen chanpyona NCISAA 2A 2024 la ak yon match san bi kont Westchester Country Day, li te konplete yon ane lekòl ak twa tit ansanm ak volebòl ak tenis fi — kous la kouvèti lokal la te make kòm “Déjà vu”."
+    },
+    {
+      "text": "The public honors record is thin next to the championship ledger — the school publishes team results, not individual accolades.",
+      "of": "cac2ab89",
+      "at": [
+        "gaston-day:honors.headline"
+      ],
+      "t": "Dosye onè piblik la mens akote rejis chanpyona a — lekòl la pibliye rezilta ekip, se pa onè endividyèl."
+    },
+    {
+      "text": "No professional alumni, All-State lists or player-of-the-year awards appear in any published source, and the athletics site that would carry them is not machine-readable.",
+      "of": "515d1b36",
+      "at": [
+        "gaston-day:honors.subhead"
+      ],
+      "t": "Pa gen ansyen elèv pwofesyonèl, lis All-State oswa prim jwè-ane ki parèt nan okenn sous ki pibliye, epi sit atletik ki ta pote yo pa lizib pa machin."
+    },
+    {
+      "text": "2025",
+      "of": "41293f26",
+      "at": [
+        "gaston-day:honors.honors[0].label"
+      ],
+      "t": "2025"
+    },
+    {
+      "text": "Girls tennis — NCISAA 2A state champions, third consecutive title (def. Epiphany School). Volleyball — NCISAA 2A state champions (def. St. Thomas More Academy 3–2, Oct 25).",
+      "of": "819d4e61",
+      "at": [
+        "gaston-day:honors.honors[0].text"
+      ],
+      "t": "Tenis fi — chanpyon eta NCISAA 2A, twazyèm tit youn dèyè lòt (bat Epiphany School). Volebòl — chanpyon eta NCISAA 2A (bat St. Thomas More Academy 3–2, 25 okt.)."
+    },
+    {
+      "text": "2024",
+      "of": "422940b9",
+      "at": [
+        "gaston-day:honors.honors[1].label"
+      ],
+      "t": "2024"
+    },
+    {
+      "text": "Volleyball — NCISAA 2A state champions (swept Westminster Catawba, Oct 26). Boys soccer — NCISAA 2A state champions (def. Westchester Country Day). Girls tennis — NCISAA 2A state champions, second straight.",
+      "of": "10a88e51",
+      "at": [
+        "gaston-day:honors.honors[1].text"
+      ],
+      "t": "Volebòl — chanpyon eta NCISAA 2A (bale Westminster Catawba, 26 okt.). Foutbòl gason — chanpyon eta NCISAA 2A (bat Westchester Country Day). Tenis fi — chanpyon eta NCISAA 2A, dezyèm youn dèyè lòt."
+    },
+    {
+      "text": "2023",
+      "of": "4329424c",
+      "at": [
+        "gaston-day:honors.honors[2].label"
+      ],
+      "t": "2023"
+    },
+    {
+      "text": "Girls tennis — NCISAA 2A state champions, def. Trinity School of Durham & Chapel Hill 5–1.",
+      "of": "a33019ab",
+      "at": [
+        "gaston-day:honors.honors[2].text"
+      ],
+      "t": "Tenis fi — chanpyon eta NCISAA 2A, bat Trinity School of Durham & Chapel Hill 5–1."
+    },
+    {
+      "text": "2021",
+      "of": "45294572",
+      "at": [
+        "gaston-day:honors.honors[3].label"
+      ],
+      "t": "2021"
+    },
+    {
+      "text": "Volleyball and girls tennis — NCISAA 2A state champions, the first title in each programme’s current run.",
+      "of": "8b5e46d8",
+      "at": [
+        "gaston-day:honors.honors[3].text"
+      ],
+      "t": "Volebòl ak tenis fi — chanpyon eta NCISAA 2A, premye tit nan kous aktyèl chak pwogram nan."
+    },
+    {
+      "text": "Decade",
+      "of": "64db5029",
+      "at": [
+        "gaston-day:honors.honors[4].label"
+      ],
+      "t": "Deseni"
+    },
+    {
+      "text": "Volleyball — three further NCISAA finals appearances and five league titles beyond the three championships.",
+      "of": "171a80c5",
+      "at": [
+        "gaston-day:honors.honors[4].text"
+      ],
+      "t": "Volebòl — twa lòt patisipasyon nan final NCISAA ak senk tit lig anplis twa chanpyona yo."
+    },
+    {
+      "text": "A 60-acre campus supporting 19 sports, with the athletics department run by a single named director.",
+      "of": "10c1b3fd",
+      "at": [
+        "gaston-day:facilities.headline"
+      ],
+      "t": "Yon kanpis 60 kawo tè k ap sipòte 19 espò, ak depatman atletik la ki dirije pa yon sèl direktè yo nonmen."
+    },
+    {
+      "text": "Venue-level detail is the weakest part of the public record here — the school publishes no facility inventory, and the athletics site is JavaScript-rendered.",
+      "of": "3541c9bd",
+      "at": [
+        "gaston-day:facilities.subhead"
+      ],
+      "t": "Detay nan nivo enstalasyon se pati ki pi fèb nan dosye piblik la isit la — lekòl la pa pibliye okenn envantè enstalasyon, epi sit atletik la se JavaScript ki rann li."
+    },
+    {
+      "text": "60 acres in Gastonia, serving a five-county draw — Gaston, Lincoln, Cleveland, Mecklenburg and York.",
+      "of": "038a61f0",
+      "at": [
+        "gaston-day:facilities.venues[0].detail"
+      ],
+      "t": "60 kawo tè nan Gastonia, k ap sèvi yon zòn senk konte — Gaston, Lincoln, Cleveland, Mecklenburg ak York."
+    },
+    {
+      "text": "550 seats, modern lighting and sound, and a professional dance studio. The one campus venue the school describes in detail — it serves the arts rather than athletics, and is covered on the Arts cards.",
+      "of": "9d4d522c",
+      "at": [
+        "gaston-day:facilities.venues[1].detail"
+      ],
+      "t": "550 plas chita, limyè ak son modèn, ak yon estidyo dans pwofesyonèl. Sèl enstalasyon sou kanpis la lekòl la dekri an detay — li sèvi zafè atistik olye ke atletik, epi kat Arts yo kouvri l."
+    },
+    {
+      "text": "Not published. No gymnasium, field, court or pool inventory appears on any accessible page; home swim and wrestling arrangements are unstated.",
+      "of": "4d3ff496",
+      "at": [
+        "gaston-day:facilities.venues[2].detail"
+      ],
+      "t": "Pa pibliye. Pa gen okenn envantè jimnazyòm, teren, kou oswa pisin ki parèt sou okenn paj ki aksesib; aranjman natasyon ak lit lakay pa deklare."
+    },
+    {
+      "text": "Lulu Brase, named in the school’s own Academic Profile. She also co-directs the summer camp programme.",
+      "of": "fbcbfd5c",
+      "at": [
+        "gaston-day:facilities.care[0].text"
+      ],
+      "t": "Lulu Brase, ki nonmen nan pwòp Academic Profile lekòl la. Li ko-dirije pwogram kan ete a tou."
+    },
+    {
+      "text": "Athletic training / sports medicine",
+      "of": "74ce2ced",
+      "at": [
+        "gaston-day:facilities.care[1].label"
+      ],
+      "t": "Antrènman atletik / medsin espòtif"
+    },
+    {
+      "text": "Not published. No athletic trainer, team physician or concussion protocol is named in any accessible source.",
+      "of": "43e1de69",
+      "at": [
+        "gaston-day:facilities.care[1].text"
+      ],
+      "t": "Pa pibliye. Pa gen okenn antrenè atletik, doktè ekip oswa pwotokòl konmosyon serebral ki nonmen nan okenn sous ki aksesib."
+    },
+    {
+      "text": "Eligibility",
+      "of": "6febc86e",
+      "at": [
+        "gaston-day:facilities.care[2].label"
+      ],
+      "t": "Kalifikasyon"
+    },
+    {
+      "text": "Middle School participation (grades 6–8) requires academic standing and positive behaviour — the one eligibility rule the school states publicly.",
+      "of": "e86a2690",
+      "at": [
+        "gaston-day:facilities.care[2].text"
+      ],
+      "t": "Patisipasyon Middle School (grad 6–8) egzije estati akademik ak konpòtman pozitif — sèl règ kalifikasyon lekòl la deklare piblikman."
+    },
+    {
+      "text": "Governing documents",
+      "of": "afcbdec0",
+      "at": [
+        "gaston-day:facilities.care[3].label"
+      ],
+      "t": "Dokiman ki dirije"
+    },
+    {
+      "text": "The athletics site references an Athletic Department Handbook 2026-2027 and tryout information, but both sit behind the JS-rendered layer and could not be retrieved.",
+      "of": "4d69e28c",
+      "at": [
+        "gaston-day:facilities.care[3].text"
+      ],
+      "t": "Sit atletik la fè referans a yon Athletic Department Handbook 2026-2027 ak enfòmasyon sou tryout, men tou de chita dèyè kouch JavaScript la epi nou pa t ka jwenn yo."
+    },
+    {
+      "text": "This card is deliberately short. Every peer school on this roster publishes a venue list; Gaston Day does not, and the one document that would carry it (the Athletic Handbook) is not reachable. That is a publication gap, not an absence of facilities — a campus fielding 19 sports plainly has them.",
+      "of": "38ee3a38",
+      "at": [
+        "gaston-day:facilities.careNote"
+      ],
+      "t": "Kat sa a kout espre. Chak lekòl parèy sou lis sa a pibliye yon lis enstalasyon; Gaston Day pa fè l, epi sèl dokiman ki ta pote l la (Athletic Handbook la) pa aksesib. Sa a se yon mank nan piblikasyon, se pa yon absans enstalasyon — yon kanpis k ap mete 19 espò sou teren evidamman genyen yo."
     }
   ]
 }

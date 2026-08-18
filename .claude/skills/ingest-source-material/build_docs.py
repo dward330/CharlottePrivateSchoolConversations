@@ -40,6 +40,7 @@ SCHOOL_NAMES = {
     "charlotte-latin": "Charlotte Latin School",
     "covenant-day": "Covenant Day School",
     "davidson-day": "Davidson Day School",
+    "gaston-day": "Gaston Day School",
     "hickory-grove-christian": "Hickory Grove Christian School",
     "providence-day": "Providence Day School",
 }

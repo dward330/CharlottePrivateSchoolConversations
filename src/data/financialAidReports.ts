@@ -2396,6 +2396,248 @@ const HICKORY_GROVE_CHRISTIAN: FinancialAidReport = {
     'hgchristian.org — Tuition and Fees (portal-rendered) and Scholarships (NCSEAA Opportunity Scholarship tiers, ESA+, FACTS Grant & Aid, 5% early-pay) · PrivateSchoolReview + a second aggregator (tuition-band mirror) · projects.propublica.org — Nonprofit Explorer (Hickory Grove Baptist Church files no Form 990) · ncleg.gov — NC Opportunity Scholarship 2023-24 Annual Report (state-voucher line, not institutional aid). Retrieved 17 Aug 2026. The school did not commission, review or approve this report.',
 }
 
+/* ── Gaston Day ── transcribed from the school's own SCHEDULE OF TUITION AND
+   FEES 2025-2026 PDF (pdftotext -layout), the Cost & Financial Aid page and the
+   Scholarships page — see source-material/financial-aid-tuition/gaston-day/.
+   Two things shape this report: Gaston Day publishes tuition and fees as
+   SEPARATE columns plus an explicit combined total, which no other school here
+   does; and it runs THREE distinct assistance channels (need-based aid, merit
+   scholarships, and the NC Opportunity Scholarship) whose overlap is almost
+   certainly why the school's own 26% aid share and a third-party 45% figure
+   diverge so widely. */
+const GASTON_DAY: FinancialAidReport = {
+  title: 'Tuition & Financial Aid — Deep Dive Report',
+  meta: '2025–26 school year · figures as of 18 Aug 2026',
+  framing: [
+    {
+      icon: 'info',
+      title: 'Unpublished ≠ deficient.',
+      body: '"Not published" flags a transparency gap — never a judgement that the aid programme is small or unwelcoming.',
+    },
+    {
+      icon: 'clock',
+      title: 'Tuition and fees are billed separately.',
+      body: 'Gaston Day publishes a tuition column, a fees column and a combined total. The all-in total is the like-for-like figure against other schools, and is what this report leads with.',
+    },
+    {
+      icon: 'book',
+      title: 'K–12 aid only.',
+      body: 'Tuition assistance while enrolled — not college aid. Not financial advice.',
+    },
+  ],
+  sections: [
+    {
+      id: 'fa-tuition',
+      navTitle: 'Tuition by Band',
+      title: 'Tuition by Grade Level',
+      confidence: 98,
+      figureCaption: 'Published all-in totals by grade band, 2025-26 — tuition plus fees',
+      bands: [
+        { label: 'Preschool/Pre-K half-day', amount: 8775 },
+        { label: 'Preschool/Pre-K full day', amount: 10890 },
+        { label: 'Kindergarten–4th', amount: 19500 },
+        { label: '5th–8th', amount: 21425 },
+        { label: '9th–12th', amount: 22390 },
+      ],
+      figureNote:
+        'Five bands from half-day preschool to grade 12. The amounts above are the school’s own published totals; the underlying split at the top band is $20,215 tuition + $2,175 fees = $22,390. Fees scale with the band, from $900 at half-day preschool to $2,175 in the Upper School.',
+      figureNote2:
+        'For 2026-27 the school publishes only a range — $20,300 to $23,310 depending on grade — with no per-grade schedule posted at the time of this research.',
+      source:
+        'gastonday.org — Schedule of Tuition and Fees 2025-2026 (PDF); Cost and Financial Aid page, retrieved 18 Aug 2026',
+    },
+    {
+      id: 'fa-beyond',
+      navTitle: 'Fees & Added Costs',
+      title: 'Fees and Additional Costs',
+      confidence: 90,
+      componentsTitle: 'What sits outside the published total',
+      components: [
+        { label: 'Bus — round trip · $2,500/yr', status: 'priced' },
+        { label: 'Bus — one way · $1,630/yr', status: 'priced' },
+        { label: 'Bus — per trip · $18', status: 'priced' },
+        { label: 'After school care, Lower School · $95/week or $30/day', status: 'priced' },
+        { label: 'After school care, Middle School · $55/week or $15/day', status: 'priced' },
+        { label: 'Extended Day drop-in fee · $25', status: 'priced' },
+        { label: 'Music lessons · $35 per lesson', status: 'priced' },
+        { label: 'Summer camps · $175–$300/week, plus wrap-around care', status: 'priced' },
+        { label: 'Financial aid application fee (Clarity) · $65', status: 'priced' },
+        { label: 'Lunch — Sparty’s Dining Service', status: 'unpriced' },
+        { label: 'Uniforms / dress code', status: 'unpriced' },
+        { label: 'Athletics participation costs', status: 'unpriced' },
+      ],
+      componentsNote:
+        'Unusually, almost every add-on Gaston Day publishes carries a price — the transport, aftercare, music-lesson and summer-camp rates are all stated in dollars on the fee schedule or the camp catalog. What the school does not publish is what tuition itself includes, so whether technology, lab fees, retreats and field trips sit inside the fees column is unstated.',
+      componentsAside:
+        'The fees column is not itemised. A family sees "$2,175 in fees" at the Upper School band without being told what those fees buy.',
+      source:
+        'gastonday.org — Schedule of Tuition and Fees 2025-2026 (PDF); After School Program page; 2026 Summer Camps Catalog, retrieved 18 Aug 2026',
+    },
+    {
+      id: 'fa-engine',
+      navTitle: 'The Aid Engine',
+      title: 'Aid Process and Timeline',
+      confidence: 85,
+      timeline: [
+        {
+          when: 'Step 1',
+          detail: 'Create an account with **Clarity** — not FACTS or SSS, the platform most of this roster uses',
+        },
+        {
+          when: 'Step 2',
+          detail: 'Add Gaston Day School to the applicant entry',
+        },
+        {
+          when: 'Step 3',
+          detail: 'Complete the application and pay the **$65 application fee**',
+        },
+        {
+          when: 'Step 4',
+          detail: 'Complete **tax verification** — by IRS transfer or through Clarity’s own option',
+        },
+        {
+          when: 'Step 5',
+          detail: 'Submit, then monitor the dashboard for document requests',
+        },
+        {
+          when: 'Deadline',
+          detail: 'The aid deadline is **rolling** — but the school warns funds "may become limited or unavailable towards the beginning of the new school year (August)"',
+          emphasis: true,
+        },
+      ],
+      boxes: [
+        {
+          title: 'A rolling deadline is a soft deadline',
+          body: 'Rolling sounds permissive and is really the opposite: there is no date protecting a late applicant, and the school states outright that money runs out by August. Applying early is the whole strategy. Contact: **Kevin Napp**, Director of Admissions, 704.864.7744 ext. 414.',
+        },
+        {
+          tag: 'NOT PUBLISHED',
+          body: 'No decision timeline, no appeals process, no mid-year change-of-circumstance route, and no statement of whether awards renew automatically or require a fresh application each year.',
+        },
+      ],
+      source:
+        'gastonday.org — Cost and Financial Aid (Clarity five-step process), retrieved 18 Aug 2026',
+    },
+    {
+      id: 'fa-numbers',
+      navTitle: 'Aid in Numbers',
+      title: 'What the Numbers Disclose',
+      confidence: 45,
+      stats: [
+        { value: '26%', label: 'of the student body on tuition assistance — the school’s own figure' },
+        { value: 'up to 80%', label: 'of tuition — the published discount ceiling, K–12' },
+        { value: '$0', label: 'published aid budget, total awarded, or average award' },
+      ],
+      figureNote:
+        'The 26% comes from the school’s own 2025-26 Academic Profile. A third-party profile (Private School Review) reports 45% — a wide divergence, and probably a definitional one rather than an error: the profile’s "tuition assistance" is need-based aid, while an aggregator’s "percent on financial aid" commonly folds in merit awards and NC Opportunity Scholarship recipients, which at Gaston Day are three separate channels.',
+      boxes: [
+        {
+          title: 'The 80% ceiling is the most useful published number',
+          body: 'The school states aid of **up to 80% of tuition** for Kindergarten through grade 12. That is a real ceiling a family can plan against, and few schools on this roster publish one at all.',
+        },
+        {
+          tag: 'NOT PUBLISHED',
+          body: 'No total aid budget in dollars, no average award, no count of families receiving aid, no median award, and no breakdown of aid by grade band or by channel.',
+        },
+        {
+          tag: 'ENROLLMENT ALSO DIVERGES',
+          body: 'The school reports **510** students; Private School Review says **466**; the federal NCES survey (2023-24) says **448**. The school’s own current figure is used throughout this project — but any per-student figure computed from a third-party enrollment count will differ from one computed from the school’s.',
+        },
+      ],
+      source:
+        'gastonday.org — Academic Profile 2025-2026; Cost and Financial Aid; privateschoolreview.com; nces.ed.gov PSS 2023-24, retrieved 18 Aug 2026',
+    },
+    {
+      id: 'fa-merit',
+      navTitle: 'Merit & State Aid',
+      title: 'Merit Scholarships & State Programs',
+      confidence: 90,
+      tag: 'A FULL-TUITION MERIT AWARD EXISTS',
+      ladder: [
+        {
+          gift: '100%',
+          share: 100,
+          detail: '**The W. Duke Kimbrell Scholarship** — the school’s highest honor, covering **100% of tuition**, for grades 8–11. Awarded by invitation to qualified applicants on scholarly excellence, high moral character, family involvement, leadership and demonstrated community or hobby participation.',
+        },
+        {
+          gift: 'Merit',
+          share: 40,
+          detail: '**The Kimbrell Family Scholarship** — grades 5–11, for students with nationally normed test scores at the **90th percentile or higher** and/or an unweighted **GPA of 3.5 or higher**. Every admitted applicant is reviewed automatically; nominated students may add supplemental materials and interview on campus. The award amount is not published.',
+        },
+        {
+          gift: 'State',
+          share: 25,
+          detail: '**NC Opportunity Scholarship** — approximately **$3,000 to $7,000**, K–12, based on household income. The state window is **February 1 to March 1**; later applicants are waitlisted.',
+        },
+      ],
+      boxes: [
+        {
+          title: 'Three channels, not one',
+          body: 'Gaston Day runs need-based **Financial Aid**, **Merit Scholarships** and the **NC Opportunity Scholarship** as separate routes. A family may be eligible for more than one, and the interaction between them is not published — which is worth asking about directly.',
+        },
+        {
+          tag: 'NOT PUBLISHED',
+          body: 'No amount for the Kimbrell Family Scholarship, no deadlines for either Kimbrell award, no count of recipients, no renewal terms, and no sibling, military, clergy or employee discount.',
+        },
+      ],
+      source:
+        'gastonday.org — Scholarships page; Cost and Financial Aid, retrieved 18 Aug 2026',
+    },
+    {
+      id: 'fa-paying',
+      navTitle: 'Paying the Balance',
+      title: 'Payment Plans & Terms',
+      confidence: 40,
+      plans: [
+        {
+          figure: 'Several',
+          label: 'Payment plans offered',
+          detail: 'The fee schedule states that "Gaston Day offers a variety of payment plans in an effort to make our community more affordable and accessible" — but names none of them, gives no installment counts, dates or fees.',
+          emphasis: true,
+        },
+        {
+          figure: 'Deposit',
+          label: 'Assumed by every plan',
+          detail: 'All payment plans "assume tuition deposit and fees have been paid" — so the deposit and the full fees column come first, whatever plan a family picks. The deposit amount is not published.',
+        },
+      ],
+      boxes: [
+        {
+          tag: 'NOT PUBLISHED',
+          body: 'This is the thinnest section of Gaston Day’s public record. No plan names, no installment schedule, no plan fees, no card-processing surcharge, no deposit amount, no late-payment policy, no withdrawal or refund terms, and no tuition-insurance or refund-plan offering appear anywhere on the public site. Every peer school here publishes at least the installment count.',
+        },
+      ],
+      source:
+        'gastonday.org — Schedule of Tuition and Fees 2025-2026 (PDF), retrieved 18 Aug 2026',
+    },
+    {
+      id: 'fa-trend',
+      navTitle: 'Trend & Questions',
+      title: 'The Trend, and What to Ask',
+      confidence: 55,
+      stats: [
+        { value: '$22,390', label: 'top band all-in, 2025-26 (tuition $20,215 + fees $2,175)' },
+        { value: '$20,300–$23,310', label: 'the 2026-27 range, published without a per-grade table' },
+        { value: '2 yrs', label: 'of schedules retrievable (2024-25 and 2025-26 PDFs)' },
+      ],
+      questionsTitle: 'Questions the public record cannot answer',
+      questions: [
+        'What is the total aid budget, the average award, and how many families receive aid?',
+        'Why does the school report 26% on tuition assistance when Private School Review reports 45% — what does each figure count?',
+        'What are the payment plans, how many installments, and what do they cost?',
+        'What is the enrollment deposit, and is it refundable or credited to tuition?',
+        'What exactly do the fees buy — the $2,175 Upper School fees column is not itemised anywhere?',
+        'Do need-based aid, the Kimbrell awards and the NC Opportunity Scholarship stack, or offset each other?',
+        'What is the amount of the Kimbrell Family Scholarship, and when are both Kimbrell awards decided?',
+        'Given the rolling deadline and the August funds warning, by what date should a family realistically apply?',
+      ],
+      source: 'Synthesis of the sources cited on the sections above',
+    },
+  ],
+  sources:
+    'gastonday.org — Schedule of Tuition and Fees 2025-2026 (PDF) · Cost and Financial Aid · Scholarships · Academic Profile 2025-2026 (PDF) · After School Program · 2026 Summer Camps Catalog · privateschoolreview.com · nces.ed.gov PSS — retrieved 18 Aug 2026',
+}
+
 const REPORTS: Record<string, FinancialAidReport> = {
   'charlotte-country-day': COUNTRY_DAY,
   cannon: CANNON,
@@ -2406,6 +2648,7 @@ const REPORTS: Record<string, FinancialAidReport> = {
   'providence-day': PROVIDENCE_DAY,
   'carmel-christian': CARMEL_CHRISTIAN,
   'hickory-grove-christian': HICKORY_GROVE_CHRISTIAN,
+  'gaston-day': GASTON_DAY,
 }
 
 /* ---------------------------------------------------------- translations -- */

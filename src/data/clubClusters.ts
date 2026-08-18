@@ -403,6 +403,59 @@ const HICKORY_GROVE_CHRISTIAN: ClubClusters = {
   ],
 }
 
+// ── Gaston Day ── the inverse of Hickory Grove's shape: the ROSTER is
+// third-party and thin, but the FLAGSHIP RESULT is genuinely verified and
+// unusually strong — an iGEM gold medal plus a TSA VEX Nationals qualification
+// in the team's first year. Both are documented in the school's own Academic
+// Profile, and iGEM additionally by four archived competition team wikis. So
+// the STEM row is 'verified' while the rest of the roster is 'reported'.
+const GASTON_DAY: ClubClusters = {
+  verdict: 'A gold-medal iGEM synthetic-biology team and a first-year VEX Nationals qualification anchor an otherwise third-party roster.',
+  verdictHint: 'Open any row for the full research note and its source.',
+  rows: [
+    {
+      name: 'iGEM Synthetic Biology',
+      oneLiner: 'Gold medal; four teams — 2012, 2016, 2018 and 2020',
+      evidence: 'verified',
+      evidenceLabel: 'Verified — event',
+      note: 'The flagship. iGEM (International Genetically Engineered Machine) is a university-level synthetic-biology competition with a separate high-school track, and Gaston Day has fielded four teams from a 510-student school. Documented projects include a kudzu phytotoxin and an E. coli K-12 isobutanol biofuel; the Duke undergraduate iGEM team has supported the squad. The gold medal is third-party-confirmed — the archived iGEM team wikis return 403 to automated fetches, so the medal level was not re-verified at source in this pass, though team participation across all four years is confirmed by those archived pages.',
+      source: 'gastonday.org — Academic Profile 2025-2026; iGEM team archives (2012, 2016, 2018, 2020)',
+    },
+    {
+      name: 'VEX Robotics',
+      oneLiner: 'Qualified for TSA VEX Nationals in 2023 — its first year of competing',
+      evidence: 'verified',
+      evidenceLabel: 'Verified — event',
+      note: 'The school\'s own profile states it plainly: "After years of operating a joint-school robotics team competing in FIRST Robotics where they placed 4th in state level competition, Gaston Day launched its own VEX Robotics Club and qualified for Technology Student Association VEX Nationals in 2023, the first year of joining the competition." Robotics (H) and Engineering (H) also run as Upper School courses, supported by a renovated makerspace with 3-D printers, laser cutters and CNC machines.',
+      source: 'gastonday.org — Academic Profile 2025-2026 (Signature Learning Experiences)',
+    },
+    {
+      name: 'Competition clubs →',
+      oneLiner: 'Science Olympiad, Public Debate, Mock Trial, Quiz Bowl',
+      evidence: 'reported',
+      evidenceLabel: 'Third-party',
+      note: 'Four competition-oriented clubs appear across the third-party listings, and Speech & Debate additionally runs as an Upper School course — but no titled or placement result is published for any of them. Existence, not results, is what is confirmed here.',
+      source: 'privateschoolreview.com — Gaston Day profile; niche.com',
+    },
+    {
+      name: 'Publications →',
+      oneLiner: 'Blutopia, US Literary & Arts Magazine, MS Literary Magazine, Yearbook',
+      evidence: 'verified',
+      evidenceLabel: 'Verified — award',
+      note: 'Blutopia is the one publication with a documented award record: entirely student-developed, created and published, it has taken numerous Scholastic Art and Writing Awards and is consistently recognised in the North Carolina Scholastic Media Association\'s Literary Magazine Contest. The school does not publish award counts or years, so "numerous" is its own word, reproduced rather than quantified.',
+      source: 'gastonday.org — Academic Profile 2025-2026 (Signature Learning Experiences); issuu.com/gdsblutopia',
+    },
+    {
+      name: 'Honor societies →',
+      oneLiner: 'National Honor Society, National Beta Club, International Thespian Society',
+      evidence: 'reported',
+      evidenceLabel: 'Named only',
+      note: 'Three chartered societies. NHS members carry a 40-hour annual service requirement against the school-wide 25 — the one induction-adjacent figure the school publishes. No GPA thresholds, chapter names, troupe numbers or member counts are published for any of the three, and the profile does not mention the National Merit programme at all.',
+      source: 'privateschoolreview.com — Gaston Day profile; gastonday.org — Academic Profile 2025-2026',
+    },
+  ],
+}
+
 const CLUSTERS: Record<string, ClubClusters> = {
   'providence-day': PROVIDENCE_DAY,
   'charlotte-latin': CHARLOTTE_LATIN,
@@ -413,6 +466,7 @@ const CLUSTERS: Record<string, ClubClusters> = {
   'davidson-day': DAVIDSON_DAY,
   'carmel-christian': CARMEL_CHRISTIAN,
   'hickory-grove-christian': HICKORY_GROVE_CHRISTIAN,
+  'gaston-day': GASTON_DAY,
 }
 
 /**

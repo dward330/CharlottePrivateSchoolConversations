@@ -9,11 +9,29 @@ import { useTranslation } from 'react-i18next'
 const URL_RE = /(https?:\/\/[^\s]+)/g
 const TRAILING = /[.,;:!?)\]}>"'`]+$/
 
+// The research notes are distilled from markdown source material, so they carry
+// **bold** spans inline — including inside table cells, which is where they are
+// most visible. Without this the asterisks render as literal text ("**100% of
+// tuition**"). Applied to every text-bearing slot via linkify(), so paragraphs,
+// list items, headings and table cells all agree.
+const BOLD_RE = /\*\*([^*]+)\*\*/g
+
+/** Render `**bold**` spans inside an already-plain string segment. */
+function emphasize(text: string, keyBase: string): ReactNode {
+  if (!text.includes('**')) return text
+  const parts = text.split(BOLD_RE)
+  if (parts.length === 1) return text
+  return parts.map((part, i) =>
+    // split() with one capture group alternates: plain, captured, plain, …
+    i % 2 === 1 ? <strong key={`${keyBase}-b${i}`}>{part}</strong> : part,
+  )
+}
+
 function linkify(text: string): ReactNode {
   const parts = text.split(URL_RE)
-  if (parts.length === 1) return text
+  if (parts.length === 1) return emphasize(text, 'e')
   return parts.map((part, i) => {
-    if (i % 2 === 0) return part // plain-text segment
+    if (i % 2 === 0) return emphasize(part, `e${i}`) // plain-text segment
     const trailer = part.match(TRAILING)?.[0] ?? ''
     const href = trailer ? part.slice(0, -trailer.length) : part
     return (

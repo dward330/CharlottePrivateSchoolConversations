@@ -326,7 +326,9 @@
         "carmel-christian:honors.societies[0].feedsFrom",
         "carmel-christian:honors.societies[3].feedsFrom",
         "hickory-grove-christian:honors.societies[0].feedsFrom",
-        "hickory-grove-christian:honors.societies[1].feedsFrom"
+        "hickory-grove-christian:honors.societies[1].feedsFrom",
+        "gaston-day:honors.societies[0].feedsFrom",
+        "gaston-day:honors.societies[1].feedsFrom"
       ],
       "t": "sal klas la"
     },
@@ -373,7 +375,8 @@
         "charlotte-country-day:honors.societies[5].feedsFrom",
         "cannon:honors.societies[5].feedsFrom",
         "cannon:honors.societies[6].feedsFrom",
-        "cannon:honors.societies[7].feedsFrom"
+        "cannon:honors.societies[7].feedsFrom",
+        "gaston-day:honors.societies[2].feedsFrom"
       ],
       "t": "Atizay yo"
     },
@@ -441,7 +444,8 @@
         "cannon:clusters.verdictHint",
         "covenant-day:clusters.verdictHint",
         "davidson-day:clusters.verdictHint",
-        "carmel-christian:clusters.verdictHint"
+        "carmel-christian:clusters.verdictHint",
+        "gaston-day:clusters.verdictHint"
       ],
       "t": "Louvri nenpòt liy pou nòt rechèch konplè a ak sous li."
     },
@@ -469,7 +473,9 @@
         "charlotte-christian:clusters.rows[0].evidenceLabel",
         "charlotte-country-day:clusters.rows[0].evidenceLabel",
         "cannon:clusters.rows[1].evidenceLabel",
-        "davidson-day:clusters.rows[0].evidenceLabel"
+        "davidson-day:clusters.rows[0].evidenceLabel",
+        "gaston-day:clusters.rows[0].evidenceLabel",
+        "gaston-day:clusters.rows[1].evidenceLabel"
       ],
       "t": "Verifye — evènman"
     },
@@ -692,7 +698,8 @@
       "of": "7136d3fa",
       "at": [
         "providence-day:catalog.categories[5].short",
-        "cannon:catalog.categories[5].short"
+        "cannon:catalog.categories[5].short",
+        "gaston-day:catalog.categories[1].short"
       ],
       "t": "Piblikasyon"
     },
@@ -1352,7 +1359,8 @@
         "carmel-christian:catalog.divisions[0].tag",
         "carmel-christian:catalog.divisions[1].tag",
         "carmel-christian:catalog.divisions[2].tag",
-        "hickory-grove-christian:catalog.divisions[1].tag"
+        "hickory-grove-christian:catalog.divisions[1].tag",
+        "gaston-day:catalog.divisions[1].tag"
       ],
       "t": "Rapòte pa lekòl la"
     },
@@ -1379,7 +1387,8 @@
       "at": [
         "providence-day:catalog.divisions[1].tag",
         "charlotte-latin:catalog.divisions[1].tag",
-        "cannon:catalog.divisions[1].tag"
+        "cannon:catalog.divisions[1].tag",
+        "gaston-day:catalog.divisions[2].tag"
       ],
       "t": "Estriktirèl"
     },
@@ -1868,7 +1877,9 @@
       "text": "Special interest",
       "of": "74f77aca",
       "at": [
-        "charlotte-latin:catalog.categories[3].short"
+        "charlotte-latin:catalog.categories[3].short",
+        "gaston-day:catalog.categories[5].short",
+        "gaston-day:catalog.categories[5].full"
       ],
       "t": "Enterè espesyal"
     },
@@ -1900,7 +1911,8 @@
       "text": "Culture & language",
       "of": "ebfd54c3",
       "at": [
-        "charlotte-latin:catalog.categories[5].full"
+        "charlotte-latin:catalog.categories[5].full",
+        "gaston-day:catalog.categories[3].full"
       ],
       "t": "Kilti ak lang"
     },
@@ -2544,7 +2556,8 @@
         "charlotte-christian:catalog.categories[1].short",
         "covenant-day:catalog.categories[1].full",
         "carmel-christian:catalog.categories[0].short",
-        "hickory-grove-christian:catalog.categories[0].short"
+        "hickory-grove-christian:catalog.categories[0].short",
+        "gaston-day:catalog.categories[6].short"
       ],
       "t": "Sosyete onè"
     },
@@ -2554,7 +2567,8 @@
       "at": [
         "charlotte-christian:catalog.categories[1].full",
         "carmel-christian:catalog.categories[0].full",
-        "hickory-grove-christian:catalog.categories[0].full"
+        "hickory-grove-christian:catalog.categories[0].full",
+        "gaston-day:catalog.categories[6].full"
       ],
       "t": "Sosyete onè"
     },
@@ -2755,7 +2769,8 @@
       "text": "Middle School (5–8)",
       "of": "6b3bf75b",
       "at": [
-        "charlotte-christian:catalog.divisions[0].label"
+        "charlotte-christian:catalog.divisions[0].label",
+        "gaston-day:catalog.divisions[2].label"
       ],
       "t": "Middle School (5–8)"
     },
@@ -3176,7 +3191,8 @@
       "text": "Named only",
       "of": "a0706e54",
       "at": [
-        "charlotte-country-day:clusters.rows[1].evidenceLabel"
+        "charlotte-country-day:clusters.rows[1].evidenceLabel",
+        "gaston-day:clusters.rows[4].evidenceLabel"
       ],
       "t": "Nonmen sèlman"
     },
@@ -3755,7 +3771,8 @@
       "at": [
         "cannon:catalog.countNoun",
         "carmel-christian:catalog.countNoun",
-        "hickory-grove-christian:catalog.countNoun"
+        "hickory-grove-christian:catalog.countNoun",
+        "gaston-day:catalog.countNoun"
       ],
       "t": "òganizasyon ki nonmen"
     },
@@ -4912,7 +4929,8 @@
       "of": "48a8bb43",
       "at": [
         "carmel-christian:clusters.rows[0].name",
-        "hickory-grove-christian:clusters.rows[0].name"
+        "hickory-grove-christian:clusters.rows[0].name",
+        "gaston-day:clusters.rows[4].name"
       ],
       "t": "Sosyete onè →"
     },
@@ -5537,6 +5555,701 @@
         "hickory-grove-christian:catalog.divisions[1].text"
       ],
       "t": "Pwòp sit lekòl la konfime vwayaj misyon entènasyonal nan Dominican Republic, Ecuador, Haiti ak Kenya, ak yon pwogram akwaponik k ap founi depo manje Hickory Grove Baptist Church la — chanèl sèvis ki pase atravè ministè legliz la olye ke kòm klib ki liste."
+    },
+    {
+      "text": "Service is a graduation requirement, not a club — 25 hours every year for every Upper School student, and a 40-hour Capstone every senior must complete.",
+      "of": "c520b934",
+      "at": [
+        "gaston-day:service.headline"
+      ],
+      "t": "Sèvis se yon kondisyon pou gradyasyon, se pa yon klib — 25 èdtan chak ane pou chak elèv Upper School, ak yon Capstone 40 èdtan chak elèv dènye ane dwe konplete."
+    },
+    {
+      "text": "Peer mentoring runs the length of a school year and pairs each junior and senior with a fourth grader.",
+      "of": "4a1b0f13",
+      "at": [
+        "gaston-day:service.subhead"
+      ],
+      "t": "Mentoraj ant kanmarad kouri pandan tout yon ane eskolè epi li mete chak elèv onzyèm ak douzyèm ane ansanm ak yon elèv katriyèm ane."
+    },
+    {
+      "text": "minimum, required of every senior",
+      "of": "a9c7ab74",
+      "at": [
+        "gaston-day:service.programs[0].valueLabel"
+      ],
+      "t": "minimòm, egzije pou chak elèv dènye ane"
+    },
+    {
+      "text": "Every senior completes an approved internship, research or community-service project of no less than 40 hours, focused either on preparation for a professional career or on advancing one of the school’s core values. It begins in the second semester of junior year and completes in the first semester of senior year, with documentation and reporting throughout — and carries 0.25 credit.",
+      "of": "b5eebeb3",
+      "at": [
+        "gaston-day:service.programs[0].detail"
+      ],
+      "t": "Chak elèv dènye ane konplete yon estaj, yon rechèch oswa yon pwojè sèvis kominotè yo apwouve ki pa mwens pase 40 èdtan, ki konsantre swa sou preparasyon pou yon karyè pwofesyonèl swa sou avanse youn nan valè debaz lekòl la. Li kòmanse nan dezyèm semès onzyèm ane a epi li fini nan premye semès douzyèm ane a, ak dokimantasyon ak rapò pandan tout tan an — epi li pote 0.25 kredi."
+    },
+    {
+      "text": "juniors & seniors mentoring 4th graders",
+      "of": "853c7961",
+      "at": [
+        "gaston-day:service.programs[1].valueLabel"
+      ],
+      "t": "elèv onzyèm ak douzyèm ane k ap mentore elèv 4yèm ane"
+    },
+    {
+      "text": "Selected juniors and seniors spend several days each fall in the mountains with the fourth-grade class, leading activities on the relationship between the environment and the human race. The relationships formed become a mentoring programme: each eleventh- and twelfth-grade student continues to meet and work with their fourth-grade mentee throughout the school year.",
+      "of": "ede50773",
+      "at": [
+        "gaston-day:service.programs[1].detail"
+      ],
+      "t": "Elèv onzyèm ak douzyèm ane yo chwazi pase plizyè jou chak otòn nan mòn yo ak klas katriyèm ane a, k ap mennen aktivite sou relasyon ant anviwònman an ak ras imèn nan. Relasyon ki fòme yo vin tounen yon pwogram mentoraj: chak elèv onzyèm ak douzyèm ane kontinye rankontre epi travay ak elèv katriyèm ane l ap mentore a pandan tout ane eskolè a."
+    },
+    {
+      "text": "per year, every Upper School student",
+      "of": "e92aea83",
+      "at": [
+        "gaston-day:service.programs[2].valueLabel"
+      ],
+      "t": "pa ane, chak elèv Upper School"
+    },
+    {
+      "text": "All Upper School students must complete a minimum of 25 hours of volunteer service each year, rising to 40 hours for National Honor Society members. Juniors additionally plan, organise and execute their own community-service project.",
+      "of": "a1c4e871",
+      "at": [
+        "gaston-day:service.programs[2].detail"
+      ],
+      "t": "Tout elèv Upper School dwe konplete yon minimòm de 25 èdtan sèvis volontè chak ane, ki monte a 40 èdtan pou manm National Honor Society. Anplis, elèv onzyèm ane yo planifye, òganize epi egzekite pwòp pwojè sèvis kominotè pa yo."
+    },
+    {
+      "text": "The recognition ladder above the requirement",
+      "of": "6eb8add8",
+      "at": [
+        "gaston-day:service.footnoteTitle"
+      ],
+      "t": "Nechèl rekonesans ki anwo egzijans lan"
+    },
+    {
+      "text": "Beyond the 25-hour floor, the President’s Service Award recognises Upper School students who have served 100 or more hours, and the Middle School runs its own Spartan Strong Volunteer Service Award at 50+ hours a year. So there is a documented ladder at three levels — 25 required, 50 recognised in the Middle School, 100 recognised in the Upper School — plus the 40-hour NHS threshold sitting alongside.",
+      "of": "4a06ac9c",
+      "at": [
+        "gaston-day:service.footnote"
+      ],
+      "t": "Pi lwen pase planche 25 èdtan an, President’s Service Award la rekonèt elèv Upper School ki sèvi 100 èdtan oswa plis, epi Middle School la fè pwòp Spartan Strong Volunteer Service Award pa l a 50+ èdtan pa ane. Kidonk gen yon nechèl dokimante nan twa nivo — 25 egzije, 50 rekonèt nan Middle School la, 100 rekonèt nan Upper School la — plis sèy 40 èdtan NHS la ki chita akote."
+    },
+    {
+      "text": "REQUIREMENT",
+      "of": "b1b0f088",
+      "at": [
+        "gaston-day:service.flags[0].label"
+      ],
+      "t": "REQUIREMENT"
+    },
+    {
+      "text": "The Capstone and the 25-hour service obligation are graduation requirements rather than clubs — they are listed here because they are where most Gaston Day service actually happens, and because every graduate has one.",
+      "of": "50ac5021",
+      "at": [
+        "gaston-day:service.flags[0].text"
+      ],
+      "t": "Capstone la ak obligasyon 25 èdtan sèvis la se kondisyon pou gradyasyon olye ke klib — nou mete yo la paske se kote pifò sèvis Gaston Day yo reyèlman fèt, epi paske chak gradye gen youn."
+    },
+    {
+      "text": "The school publishes no aggregate service-hour total, no count of President’s Service Award recipients, and no list of the community partners students serve with.",
+      "of": "01d1e3ff",
+      "at": [
+        "gaston-day:service.flags[1].text"
+      ],
+      "t": "Lekòl la pa pibliye okenn total èdtan sèvis, okenn kantite moun ki resevwa President’s Service Award, ni okenn lis patnè kominotè elèv yo sèvi avèk yo."
+    },
+    {
+      "text": "Three chartered honor societies, and an Honor Code enforced by a student-led Honor Council that the college office will report to admissions when asked.",
+      "of": "c24e6038",
+      "at": [
+        "gaston-day:honors.headline"
+      ],
+      "t": "Twa sosyete onè ki chate, ak yon Honor Code yon Honor Council elèv yo dirije aplike epi biwo inivèsite a ap rapòte bay admisyon lè yo mande l."
+    },
+    {
+      "text": "The Honor Code disclosure is unusually explicit — the school states in its own profile that it reports violations, including suspension, dismissal or expulsion.",
+      "of": "27cceb99",
+      "at": [
+        "gaston-day:honors.subhead"
+      ],
+      "t": "Divilgasyon Honor Code la eksplisit yon fason ki pa abityèl — lekòl la deklare nan pwòp pwofil li ke li rapòte vyolasyon, ki enkli sispansyon, ranvwa oswa ekspilsyon."
+    },
+    {
+      "text": "Scholarship, leadership, service and character. NHS members carry a 40-hour annual service requirement against the school-wide 25.",
+      "of": "33bd5ef6",
+      "at": [
+        "gaston-day:honors.societies[0].recognizes"
+      ],
+      "t": "Bous akademik, lidèchip, sèvis ak karaktè. Manm NHS pote yon egzijans sèvis anyèl 40 èdtan kont 25 la nan tout lekòl la."
+    },
+    {
+      "text": "Academic achievement, character, leadership and service — a second academic society alongside NHS.",
+      "of": "734322c4",
+      "at": [
+        "gaston-day:honors.societies[1].recognizes"
+      ],
+      "t": "Reyalizasyon akademik, karaktè, lidèchip ak sèvis — yon dezyèm sosyete akademik akote NHS."
+    },
+    {
+      "text": "Excellence in theatre. The school charters the society but does not publish its troupe number or induction thresholds.",
+      "of": "7d45ad1d",
+      "at": [
+        "gaston-day:honors.societies[2].recognizes"
+      ],
+      "t": "Eksèlans nan teyat. Lekòl la chate sosyete a men li pa pibliye nimewo twoup li ni sèy pou entwonizasyon yo."
+    },
+    {
+      "text": "Honor Code & Honor Council",
+      "of": "0dd2ae41",
+      "at": [
+        "gaston-day:honors.adjacent[0].label"
+      ],
+      "t": "Honor Code ak Honor Council"
+    },
+    {
+      "text": "Student conduct is governed by the Honor Code, enforced by a student-led Honor Council. When a college requests it, College Counseling will report any honor code violations, including suspension, dismissal or expulsion.",
+      "of": "b6a9d15e",
+      "at": [
+        "gaston-day:honors.adjacent[0].text"
+      ],
+      "t": "Honor Code la gouvène konduit elèv yo, epi yon Honor Council elèv yo dirije aplike l. Lè yon inivèsite mande l, College Counseling ap rapòte nenpòt vyolasyon honor code, ki enkli sispansyon, ranvwa oswa ekspilsyon."
+    },
+    {
+      "text": "President’s Service Award",
+      "of": "818b3439",
+      "at": [
+        "gaston-day:honors.adjacent[1].label"
+      ],
+      "t": "President’s Service Award"
+    },
+    {
+      "text": "For Upper School students who have served 100 or more hours — the top rung of the service ladder.",
+      "of": "dacd7648",
+      "at": [
+        "gaston-day:honors.adjacent[1].text"
+      ],
+      "t": "Pou elèv Upper School ki sèvi 100 èdtan oswa plis — pi wo bawo nechèl sèvis la."
+    },
+    {
+      "text": "Spartan Strong Volunteer Service Award",
+      "of": "f3a67ccf",
+      "at": [
+        "gaston-day:honors.adjacent[2].label"
+      ],
+      "t": "Spartan Strong Volunteer Service Award"
+    },
+    {
+      "text": "The Middle School equivalent, recognising 50+ volunteer hours in a year.",
+      "of": "0bccf0ef",
+      "at": [
+        "gaston-day:honors.adjacent[2].text"
+      ],
+      "t": "Ekivalan Middle School la, ki rekonèt 50+ èdtan volontè nan yon ane."
+    },
+    {
+      "text": "Scholastic Art & Writing Awards",
+      "of": "d9c1bf65",
+      "at": [
+        "gaston-day:honors.adjacent[3].label"
+      ],
+      "t": "Scholastic Art & Writing Awards"
+    },
+    {
+      "text": "Blutopia has taken numerous Scholastic Art and Writing Awards and is consistently recognised in the NC Scholastic Media Association Literary Magazine Contest.",
+      "of": "2b223d47",
+      "at": [
+        "gaston-day:honors.adjacent[3].text"
+      ],
+      "t": "Blutopia pran anpil Scholastic Art and Writing Awards epi yo rekonèt li tout tan nan NC Scholastic Media Association Literary Magazine Contest la."
+    },
+    {
+      "text": "iGEM gold medal",
+      "of": "c7a9f494",
+      "at": [
+        "gaston-day:honors.adjacent[4].label"
+      ],
+      "t": "Meday lò iGEM"
+    },
+    {
+      "text": "The synthetic-biology team’s gold medal is the school’s most distinctive competitive recognition, and sits outside any society structure.",
+      "of": "bb10e8db",
+      "at": [
+        "gaston-day:honors.adjacent[4].text"
+      ],
+      "t": "Meday lò ekip byoloji sentetik la se rekonesans konpetitif ki pi distenktif lekòl la, epi li chita andeyò nenpòt estrikti sosyete."
+    },
+    {
+      "text": "No induction criteria, GPA thresholds, chapter names or member counts are published for any of the three societies — only that they exist. The National Merit programme is not mentioned in the profile at all, so no Semifinalist/Commended ledger could be built.",
+      "of": "070ba241",
+      "at": [
+        "gaston-day:honors.flags[0].text"
+      ],
+      "t": "Pa gen okenn kritè entwonizasyon, sèy GPA, non chapit ni kantite manm ki pibliye pou okenn nan twa sosyete yo — sèlman ke yo egziste. Pwogram National Merit la pa menm mansyone nan pwofil la, kidonk nou pa t ka bati okenn lis Semifinalist/Commended."
+    },
+    {
+      "text": "A gold-medal iGEM synthetic-biology team and a first-year VEX Nationals qualification anchor an otherwise third-party roster.",
+      "of": "5002745e",
+      "at": [
+        "gaston-day:clusters.verdict"
+      ],
+      "t": "Yon ekip byoloji sentetik iGEM ki gen meday lò ak yon kalifikasyon pou VEX Nationals nan premye ane a ankre yon lis ki lòt bò sa soti nan twazyèm pati."
+    },
+    {
+      "text": "iGEM Synthetic Biology",
+      "of": "6a19e29b",
+      "at": [
+        "gaston-day:clusters.rows[0].name"
+      ],
+      "t": "iGEM Synthetic Biology"
+    },
+    {
+      "text": "Gold medal; four teams — 2012, 2016, 2018 and 2020",
+      "of": "9cb5e363",
+      "at": [
+        "gaston-day:clusters.rows[0].oneLiner"
+      ],
+      "t": "Meday lò; kat ekip — 2012, 2016, 2018 ak 2020"
+    },
+    {
+      "text": "The flagship. iGEM (International Genetically Engineered Machine) is a university-level synthetic-biology competition with a separate high-school track, and Gaston Day has fielded four teams from a 510-student school. Documented projects include a kudzu phytotoxin and an E. coli K-12 isobutanol biofuel; the Duke undergraduate iGEM team has supported the squad. The gold medal is third-party-confirmed — the archived iGEM team wikis return 403 to automated fetches, so the medal level was not re-verified at source in this pass, though team participation across all four years is confirmed by those archived pages.",
+      "of": "b61b0c28",
+      "at": [
+        "gaston-day:clusters.rows[0].note"
+      ],
+      "t": "Pi gwo a. iGEM (International Genetically Engineered Machine) se yon konpetisyon byoloji sentetik nan nivo inivèsite ki gen yon pis apa pou lekòl segondè, epi Gaston Day mete kat ekip sou teren apati yon lekòl 510 elèv. Pwojè dokimante yo enkli yon fitotoksin kudzu ak yon byokabiran izobitanòl E. coli K-12; ekip iGEM etidyan Duke yo sipòte gwoup la. Meday lò a konfime pa yon twazyèm pati — wiki ekip iGEM ki achive yo bay 403 bay fetch otomatik, kidonk nou pa t re-verifye nivo meday la nan sous la nan pas sa a, byenke paj achive sa yo konfime patisipasyon ekip la nan tout kat ane yo."
+    },
+    {
+      "text": "VEX Robotics",
+      "of": "c82faa7d",
+      "at": [
+        "gaston-day:clusters.rows[1].name"
+      ],
+      "t": "VEX Robotics"
+    },
+    {
+      "text": "Qualified for TSA VEX Nationals in 2023 — its first year of competing",
+      "of": "2faae7b6",
+      "at": [
+        "gaston-day:clusters.rows[1].oneLiner"
+      ],
+      "t": "Li te kalifye pou TSA VEX Nationals an 2023 — premye ane li nan konpetisyon"
+    },
+    {
+      "text": "The school's own profile states it plainly: \"After years of operating a joint-school robotics team competing in FIRST Robotics where they placed 4th in state level competition, Gaston Day launched its own VEX Robotics Club and qualified for Technology Student Association VEX Nationals in 2023, the first year of joining the competition.\" Robotics (H) and Engineering (H) also run as Upper School courses, supported by a renovated makerspace with 3-D printers, laser cutters and CNC machines.",
+      "of": "f4d5b259",
+      "at": [
+        "gaston-day:clusters.rows[1].note"
+      ],
+      "t": "Pwòp pwofil lekòl la di l klèman: “After years of operating a joint-school robotics team competing in FIRST Robotics where they placed 4th in state level competition, Gaston Day launched its own VEX Robotics Club and qualified for Technology Student Association VEX Nationals in 2023, the first year of joining the competition.” Robotics (H) ak Engineering (H) fonksyone kòm kou Upper School tou, ak sipò yon makerspace ki renove ak enprimant 3-D, koupè lazè ak machin CNC."
+    },
+    {
+      "text": "Competition clubs →",
+      "of": "39ed9a0f",
+      "at": [
+        "gaston-day:clusters.rows[2].name"
+      ],
+      "t": "Klib konpetisyon →"
+    },
+    {
+      "text": "Science Olympiad, Public Debate, Mock Trial, Quiz Bowl",
+      "of": "3641c5b7",
+      "at": [
+        "gaston-day:clusters.rows[2].oneLiner"
+      ],
+      "t": "Science Olympiad, Public Debate, Mock Trial, Quiz Bowl"
+    },
+    {
+      "text": "Third-party",
+      "of": "88d82a1b",
+      "at": [
+        "gaston-day:clusters.rows[2].evidenceLabel",
+        "gaston-day:catalog.divisions[0].tag"
+      ],
+      "t": "Twazyèm pati"
+    },
+    {
+      "text": "Four competition-oriented clubs appear across the third-party listings, and Speech & Debate additionally runs as an Upper School course — but no titled or placement result is published for any of them. Existence, not results, is what is confirmed here.",
+      "of": "5d1ac699",
+      "at": [
+        "gaston-day:clusters.rows[2].note"
+      ],
+      "t": "Kat klib ki oryante sou konpetisyon parèt atravè lis twazyèm pati yo, epi Speech & Debate fonksyone anplis kòm yon kou Upper School — men pa gen okenn tit ni rezilta plasman ki pibliye pou okenn nan yo. Egzistans, se pa rezilta, se sa ki konfime isit la."
+    },
+    {
+      "text": "Publications →",
+      "of": "225b9af4",
+      "at": [
+        "gaston-day:clusters.rows[3].name"
+      ],
+      "t": "Piblikasyon →"
+    },
+    {
+      "text": "Blutopia, US Literary & Arts Magazine, MS Literary Magazine, Yearbook",
+      "of": "407df385",
+      "at": [
+        "gaston-day:clusters.rows[3].oneLiner"
+      ],
+      "t": "Blutopia, US Literary & Arts Magazine, MS Literary Magazine, Yearbook"
+    },
+    {
+      "text": "Verified — award",
+      "of": "4f98eca8",
+      "at": [
+        "gaston-day:clusters.rows[3].evidenceLabel"
+      ],
+      "t": "Verifye — prim"
+    },
+    {
+      "text": "Blutopia is the one publication with a documented award record: entirely student-developed, created and published, it has taken numerous Scholastic Art and Writing Awards and is consistently recognised in the North Carolina Scholastic Media Association's Literary Magazine Contest. The school does not publish award counts or years, so \"numerous\" is its own word, reproduced rather than quantified.",
+      "of": "e2cacf90",
+      "at": [
+        "gaston-day:clusters.rows[3].note"
+      ],
+      "t": "Blutopia se sèl piblikasyon ki gen yon dosye prim dokimante: elèv yo devlope, kreye epi pibliye l nèt, li pran anpil Scholastic Art and Writing Awards epi yo rekonèt li tout tan nan Literary Magazine Contest North Carolina Scholastic Media Association la. Lekòl la pa pibliye kantite prim ni ane yo, kidonk “numerous” se pwòp mo pa l, nou repwodui l olye ke nou kantifye l."
+    },
+    {
+      "text": "National Honor Society, National Beta Club, International Thespian Society",
+      "of": "7a348e2b",
+      "at": [
+        "gaston-day:clusters.rows[4].oneLiner"
+      ],
+      "t": "National Honor Society, National Beta Club, International Thespian Society"
+    },
+    {
+      "text": "Three chartered societies. NHS members carry a 40-hour annual service requirement against the school-wide 25 — the one induction-adjacent figure the school publishes. No GPA thresholds, chapter names, troupe numbers or member counts are published for any of the three, and the profile does not mention the National Merit programme at all.",
+      "of": "d2cffdbd",
+      "at": [
+        "gaston-day:clusters.rows[4].note"
+      ],
+      "t": "Twa sosyete ki chate. Manm NHS pote yon egzijans sèvis anyèl 40 èdtan kont 25 la nan tout lekòl la — sèl chif ki toupre entwonizasyon lekòl la pibliye. Pa gen okenn sèy GPA, non chapit, nimewo twoup ni kantite manm ki pibliye pou okenn nan twa yo, epi pwofil la pa menm mansyone pwogram National Merit la."
+    },
+    {
+      "text": "28 named clubs and three honor societies — headlined by a gold-medal iGEM synthetic-biology team and a VEX Robotics squad that reached TSA Nationals in its first year.",
+      "of": "58e47468",
+      "at": [
+        "gaston-day:catalog.verdict"
+      ],
+      "t": "28 klib ki gen non ak twa sosyete onè — ak yon ekip byoloji sentetik iGEM ki gen meday lò ak yon eskwad VEX Robotics ki rive nan TSA Nationals nan premye ane l alatèt."
+    },
+    {
+      "text": "The school publishes no clubs page; most of this roster comes from third-party listings, with a handful the school names itself.",
+      "of": "94bdac9f",
+      "at": [
+        "gaston-day:catalog.verdictHint"
+      ],
+      "t": "Lekòl la pa pibliye okenn paj klib; pifò nan lis sa a soti nan lis twazyèm pati, ak yon ti kras lekòl la nonmen li menm."
+    },
+    {
+      "text": "STEM & competitive",
+      "of": "122ef195",
+      "at": [
+        "gaston-day:catalog.categories[0].short"
+      ],
+      "t": "STEM ak konpetitif"
+    },
+    {
+      "text": "STEM / competitive",
+      "of": "4e9e331e",
+      "at": [
+        "gaston-day:catalog.categories[0].full"
+      ],
+      "t": "STEM / konpetitif"
+    },
+    {
+      "text": "Publications & media",
+      "of": "de92519c",
+      "at": [
+        "gaston-day:catalog.categories[1].full"
+      ],
+      "t": "Piblikasyon ak medya"
+    },
+    {
+      "text": "Leadership & service",
+      "of": "a91d04bf",
+      "at": [
+        "gaston-day:catalog.categories[2].short"
+      ],
+      "t": "Lidèchip ak sèvis"
+    },
+    {
+      "text": "Leadership / service",
+      "of": "847d0f0c",
+      "at": [
+        "gaston-day:catalog.categories[2].full"
+      ],
+      "t": "Lidèchip / sèvis"
+    },
+    {
+      "text": "Language & culture",
+      "of": "e993f0f7",
+      "at": [
+        "gaston-day:catalog.categories[3].short"
+      ],
+      "t": "Lang ak kilti"
+    },
+    {
+      "text": "Arts",
+      "of": "278c981b",
+      "at": [
+        "gaston-day:catalog.categories[4].short"
+      ],
+      "t": "Atizay"
+    },
+    {
+      "text": "Arts & performance",
+      "of": "98ad47b3",
+      "at": [
+        "gaston-day:catalog.categories[4].full"
+      ],
+      "t": "Atizay ak pèfòmans"
+    },
+    {
+      "text": "Gold medal — teams in 2012, 2016, 2018 and 2020; kudzu phytotoxin and E. coli K-12 isobutanol biofuel projects",
+      "of": "68d926ef",
+      "at": [
+        "gaston-day:catalog.clubs[0].note"
+      ],
+      "t": "Meday lò — ekip an 2012, 2016, 2018 ak 2020; pwojè fitotoksin kudzu ak byokabiran izobitanòl E. coli K-12"
+    },
+    {
+      "text": "Qualified for TSA VEX Nationals in 2023, its first year competing; previously 4th at state in FIRST Robotics",
+      "of": "27dc525a",
+      "at": [
+        "gaston-day:catalog.clubs[1].note"
+      ],
+      "t": "Li te kalifye pou TSA VEX Nationals an 2023, premye ane li nan konpetisyon; anvan sa 4yèm nan eta a nan FIRST Robotics"
+    },
+    {
+      "text": "Interscholastic science competition",
+      "of": "7469159f",
+      "at": [
+        "gaston-day:catalog.clubs[2].note"
+      ],
+      "t": "Konpetisyon syans ant lekòl"
+    },
+    {
+      "text": "Named by the school itself; supported by the renovated makerspace",
+      "of": "2e24ce1a",
+      "at": [
+        "gaston-day:catalog.clubs[3].note"
+      ],
+      "t": "Lekòl la menm nonmen li; makerspace ki renove a sipòte l"
+    },
+    {
+      "text": "Competitive debate; Speech & Debate also runs as a course",
+      "of": "cd8e9d68",
+      "at": [
+        "gaston-day:catalog.clubs[4].note"
+      ],
+      "t": "Deba konpetitif; Speech & Debate fonksyone kòm yon kou tou"
+    },
+    {
+      "text": "Third-party listed",
+      "of": "ac168114",
+      "at": [
+        "gaston-day:catalog.clubs[5].note",
+        "gaston-day:catalog.clubs[6].note",
+        "gaston-day:catalog.clubs[18].note",
+        "gaston-day:catalog.clubs[21].note",
+        "gaston-day:catalog.clubs[24].note",
+        "gaston-day:catalog.clubs[25].note",
+        "gaston-day:catalog.clubs[26].note"
+      ],
+      "t": "Lis pa yon twazyèm pati"
+    },
+    {
+      "text": "Upper School literary and arts magazine — numerous Scholastic Art & Writing Awards and repeated NCSMA Literary Magazine Contest recognition",
+      "of": "3236d5da",
+      "at": [
+        "gaston-day:catalog.clubs[7].note"
+      ],
+      "t": "Magazin literè ak atistik Upper School la — anpil Scholastic Art & Writing Awards ak rekonesans repete nan NCSMA Literary Magazine Contest la"
+    },
+    {
+      "text": "Listed separately from Blutopia by PrivateSchoolReview",
+      "of": "6257ba56",
+      "at": [
+        "gaston-day:catalog.clubs[8].note"
+      ],
+      "t": "PrivateSchoolReview liste l apa de Blutopia"
+    },
+    {
+      "text": "The Middle School counterpart publication",
+      "of": "d2a08c58",
+      "at": [
+        "gaston-day:catalog.clubs[9].note"
+      ],
+      "t": "Piblikasyon parèy la nan Middle School"
+    },
+    {
+      "text": "Also runs as an Upper School course for credit",
+      "of": "f710620e",
+      "at": [
+        "gaston-day:catalog.clubs[10].note"
+      ],
+      "t": "Li fonksyone kòm yon kou Upper School pou kredi tou"
+    },
+    {
+      "text": "Runs at both Middle School and Upper School level",
+      "of": "22ac61c1",
+      "at": [
+        "gaston-day:catalog.clubs[11].note"
+      ],
+      "t": "Li fonksyone nan nivo Middle School ak Upper School tou de"
+    },
+    {
+      "text": "Student-led; enforces the Honor Code, whose violations the college office reports to colleges on request",
+      "of": "061c215c",
+      "at": [
+        "gaston-day:catalog.clubs[12].note"
+      ],
+      "t": "Elèv yo dirije l; li aplike Honor Code la, epi biwo inivèsite a rapòte vyolasyon l yo bay inivèsite yo lè yo mande"
+    },
+    {
+      "text": "Sunship Earth — juniors and seniors mentor a fourth grader across the school year",
+      "of": "bf8d20b9",
+      "at": [
+        "gaston-day:catalog.clubs[13].note"
+      ],
+      "t": "Sunship Earth — elèv onzyèm ak douzyèm ane mentore yon elèv katriyèm ane pandan tout ane eskolè a"
+    },
+    {
+      "text": "Rotary-affiliated service club; third-party listed",
+      "of": "7f5aeec1",
+      "at": [
+        "gaston-day:catalog.clubs[14].note"
+      ],
+      "t": "Klib sèvis ki afilye ak Rotary; lis pa yon twazyèm pati"
+    },
+    {
+      "text": "Third-party listed — American Heart Association youth board",
+      "of": "568664a6",
+      "at": [
+        "gaston-day:catalog.clubs[15].note"
+      ],
+      "t": "Lis pa yon twazyèm pati — konsèy jèn American Heart Association"
+    },
+    {
+      "text": "Named by the school itself — environmental group",
+      "of": "9a918f9c",
+      "at": [
+        "gaston-day:catalog.clubs[16].note"
+      ],
+      "t": "Lekòl la menm nonmen li — gwoup anviwònmantal"
+    },
+    {
+      "text": "Named by the school itself; sits alongside a 14%-international student body",
+      "of": "e4e90f7a",
+      "at": [
+        "gaston-day:catalog.clubs[17].note"
+      ],
+      "t": "Lekòl la menm nonmen li; li chita akote yon kò elèv ki 14% entènasyonal"
+    },
+    {
+      "text": "Spanish runs I–IV(H) as a course sequence",
+      "of": "0a9884fe",
+      "at": [
+        "gaston-day:catalog.clubs[19].note"
+      ],
+      "t": "Spanish fonksyone I–IV(H) kòm yon sekans kou"
+    },
+    {
+      "text": "French satisfies the world-language requirement, though no French course sequence is enumerated in the profile",
+      "of": "2f8409ce",
+      "at": [
+        "gaston-day:catalog.clubs[20].note"
+      ],
+      "t": "Franse satisfè egzijans lang etranje a, byenke pwofil la pa enimere okenn sekans kou franse"
+    },
+    {
+      "text": "Feeds two major productions a year including the spring musical",
+      "of": "4a0e9c5a",
+      "at": [
+        "gaston-day:catalog.clubs[22].note"
+      ],
+      "t": "Li nouri de gwo pwodiksyon pa ane ki enkli mizikal prentan an"
+    },
+    {
+      "text": "Listed separately by PrivateSchoolReview; Actors' Conservatory Theatre runs as a dedicated program",
+      "of": "dc6a78ea",
+      "at": [
+        "gaston-day:catalog.clubs[23].note"
+      ],
+      "t": "PrivateSchoolReview liste l apa; Actors’ Conservatory Theatre fonksyone kòm yon pwogram dedye"
+    },
+    {
+      "text": "Fellowship of Christian Athletes; third-party listed at a non-sectarian school",
+      "of": "29203330",
+      "at": [
+        "gaston-day:catalog.clubs[27].note"
+      ],
+      "t": "Fellowship of Christian Athletes; lis pa yon twazyèm pati nan yon lekòl ki pa sektè"
+    },
+    {
+      "text": "Members carry a 40-hour annual service requirement against the school-wide 25",
+      "of": "fe5ab031",
+      "at": [
+        "gaston-day:catalog.clubs[28].note"
+      ],
+      "t": "Manm yo pote yon egzijans sèvis anyèl 40 èdtan kont 25 la nan tout lekòl la"
+    },
+    {
+      "text": "Academic achievement, character, leadership and service",
+      "of": "c64999ad",
+      "at": [
+        "gaston-day:catalog.clubs[29].note"
+      ],
+      "t": "Reyalizasyon akademik, karaktè, lidèchip ak sèvis"
+    },
+    {
+      "text": "Theatre honor society; troupe number and induction thresholds not published",
+      "of": "0dce6486",
+      "at": [
+        "gaston-day:catalog.clubs[30].note"
+      ],
+      "t": "Sosyete onè teyat; nimewo twoup ak sèy entwonizasyon pa pibliye"
+    },
+    {
+      "text": "Reconstructed roster",
+      "of": "a0b3901f",
+      "at": [
+        "gaston-day:catalog.divisions[0].label"
+      ],
+      "t": "Lis rekonstwi"
+    },
+    {
+      "text": "Gaston Day publishes no clubs or activities page. PrivateSchoolReview enumerates 14 activities and Niche adds several more; the school itself names only 3-D Printing Club, Green Team and International Council, by way of example, and states that students \"can start a new club by securing a faculty sponsor.\" The roster is therefore an open-ended snapshot rather than a census, and its size is not a figure any source states.",
+      "of": "2438e856",
+      "at": [
+        "gaston-day:catalog.divisions[0].text"
+      ],
+      "t": "Gaston Day pa pibliye okenn paj klib oswa aktivite. PrivateSchoolReview enimere 14 aktivite epi Niche ajoute plizyè lòt; lekòl la menm nonmen sèlman 3-D Printing Club, Green Team ak International Council, kòm egzanp, epi li deklare ke elèv yo “can start a new club by securing a faculty sponsor.” Kidonk lis la se yon foto ouvè olye ke yon resansman, epi gwosè l pa yon chif okenn sous deklare."
+    },
+    {
+      "text": "The two that are not in doubt",
+      "of": "906d3dc1",
+      "at": [
+        "gaston-day:catalog.divisions[1].label"
+      ],
+      "t": "De ki pa gen dout sou yo"
+    },
+    {
+      "text": "iGEM and VEX Robotics are documented in the school's own Academic Profile and, for iGEM, by four archived competition team wikis (2012, 2016, 2018, 2020). These are university-level competitions with high-school tracks, and fielding them from a 510-student school is the most distinctive thing on this roster.",
+      "of": "d81efdfb",
+      "at": [
+        "gaston-day:catalog.divisions[1].text"
+      ],
+      "t": "iGEM ak VEX Robotics dokimante nan pwòp Academic Profile lekòl la epi, pou iGEM, nan kat wiki ekip konpetisyon ki achive (2012, 2016, 2018, 2020). Sa yo se konpetisyon nan nivo inivèsite ki gen pis pou lekòl segondè, epi mete yo sou teren apati yon lekòl 510 elèv se bagay ki pi distenktif sou lis sa a."
+    },
+    {
+      "text": "Middle School students elect required LEAD courses alongside art, drama, chorus and band, and run their own Student Government. The Spartan Strong Volunteer Service Award recognises 50+ volunteer hours a year. No separate Middle School club roster is published.",
+      "of": "158da676",
+      "at": [
+        "gaston-day:catalog.divisions[2].text"
+      ],
+      "t": "Elèv Middle School yo chwazi kou LEAD obligatwa yo ansanm ak atizay, dram, koral ak fanfa, epi yo fè pwòp Student Government pa yo. Spartan Strong Volunteer Service Award la rekonèt 50+ èdtan volontè pa ane. Pa gen okenn lis klib Middle School apa ki pibliye."
     }
   ]
 }

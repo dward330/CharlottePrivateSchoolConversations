@@ -107,7 +107,8 @@
         "providence-day:ladder.divisions[1].grades",
         "charlotte-latin:ladder.divisions[1].grades",
         "cannon:ladder.divisions[1].grades",
-        "davidson-day:ladder.divisions[1].grades"
+        "davidson-day:ladder.divisions[1].grades",
+        "gaston-day:ladder.divisions[1].grades"
       ],
       "t": "5–8"
     },
@@ -163,7 +164,8 @@
         "covenant-day:ladder.divisions[2].grades",
         "davidson-day:ladder.divisions[2].grades",
         "carmel-christian:ladder.divisions[2].grades",
-        "hickory-grove-christian:ladder.divisions[2].grades"
+        "hickory-grove-christian:ladder.divisions[2].grades",
+        "gaston-day:ladder.divisions[2].grades"
       ],
       "t": "9–12"
     },
@@ -341,7 +343,8 @@
         "charlotte-christian:visual.exhibits[0].when",
         "charlotte-country-day:theatre.season[2].season",
         "covenant-day:visual.exhibits[1].when",
-        "carmel-christian:theatre.season[1].season"
+        "carmel-christian:theatre.season[1].season",
+        "gaston-day:theatre.season[1].season"
       ],
       "t": "Primavera"
     },
@@ -350,7 +353,8 @@
       "of": "346c73d9",
       "at": [
         "providence-day:theatre.season[1].kind",
-        "charlotte-country-day:theatre.season[1].kind"
+        "charlotte-country-day:theatre.season[1].kind",
+        "gaston-day:theatre.season[1].kind"
       ],
       "t": "Musical"
     },
@@ -3077,7 +3081,9 @@
       "at": [
         "charlotte-country-day:visual.exhibits[0].when",
         "cannon:visual.exhibits[2].when",
-        "carmel-christian:visual.exhibits[0].when"
+        "carmel-christian:visual.exhibits[0].when",
+        "gaston-day:visual.exhibits[0].when",
+        "gaston-day:visual.exhibits[1].when"
       ],
       "t": "Anual"
     },
@@ -4880,7 +4886,8 @@
       "text": "fine arts required to graduate",
       "of": "279b1430",
       "at": [
-        "davidson-day:ladder.stats[3].label"
+        "davidson-day:ladder.stats[3].label",
+        "gaston-day:ladder.stats[1].label"
       ],
       "t": "créditos de bellas artes exigidos para graduarse"
     },
@@ -6430,7 +6437,8 @@
       "text": "Middle School",
       "of": "15441234",
       "at": [
-        "hickory-grove-christian:music.tracks[1].label"
+        "hickory-grove-christian:music.tracks[1].label",
+        "gaston-day:music.tracks[0].label"
       ],
       "t": "Middle School"
     },
@@ -6681,6 +6689,734 @@
         "hickory-grove-christian:verdict.ask[4]"
       ],
       "t": "¿Existe alguna National Art Honor Society o algún reconocimiento externo en artes visuales (Scholastic) que la página no mencione?"
+    },
+    {
+      "text": "Drama starts in second grade and runs unbroken to Visual Art IV Honors — a PS-12 arts ladder anchored by a named 550-seat arts centre.",
+      "of": "8dc4781c",
+      "at": [
+        "gaston-day:ladder.headline"
+      ],
+      "t": "El teatro empieza en segundo grado y se prolonga sin interrupción hasta Visual Art IV Honors — una progresión artística de PS a 12 anclada en un centro de artes con nombre propio y 550 butacas."
+    },
+    {
+      "text": "Two years of fine arts are required to graduate, and the arts sit inside the classroom rather than beside it: in the Lower School, music, art and drama lessons are coordinated with the units of study being taught.",
+      "of": "b15727b7",
+      "at": [
+        "gaston-day:ladder.subhead"
+      ],
+      "t": "Se exigen dos años de bellas artes para graduarse, y las artes están dentro del aula más que al lado de ella: en Lower School, las clases de música, arte y teatro se coordinan con las unidades didácticas que se están impartiendo."
+    },
+    {
+      "text": "seats in the Pamela Kimbrell Warlick Visual & Performing Arts Center",
+      "of": "988f401a",
+      "at": [
+        "gaston-day:ladder.stats[0].label"
+      ],
+      "t": "butacas en el Pamela Kimbrell Warlick Visual & Performing Arts Center"
+    },
+    {
+      "text": "where drama classes begin",
+      "of": "c38f3bfe",
+      "at": [
+        "gaston-day:ladder.stats[2].label"
+      ],
+      "t": "cuándo empiezan las clases de teatro"
+    },
+    {
+      "text": "major productions a year, including the spring musical",
+      "of": "c2a62141",
+      "at": [
+        "gaston-day:ladder.stats[3].label"
+      ],
+      "t": "grandes producciones al año, incluido el musical de primavera"
+    },
+    {
+      "text": "PS–4",
+      "of": "bbdb3d63",
+      "at": [
+        "gaston-day:ladder.divisions[0].grades"
+      ],
+      "t": "PS–4"
+    },
+    {
+      "text": "Music, art and drama coordinated with classroom units of study rather than taught in isolation",
+      "of": "63bc24f2",
+      "at": [
+        "gaston-day:ladder.divisions[0].items[0]"
+      ],
+      "t": "Música, arte y teatro coordinados con las unidades didácticas del aula en lugar de impartirse de forma aislada"
+    },
+    {
+      "text": "Drama classes begin as early as second grade",
+      "of": "c5fb022f",
+      "at": [
+        "gaston-day:ladder.divisions[0].items[1]"
+      ],
+      "t": "Las clases de teatro empiezan ya en segundo grado"
+    },
+    {
+      "text": "Experiential learning through frequent field trips, guest speakers and virtual tours",
+      "of": "d6b530a3",
+      "at": [
+        "gaston-day:ladder.divisions[0].items[2]"
+      ],
+      "t": "Aprendizaje experiencial mediante frecuentes salidas, ponentes invitados y visitas virtuales"
+    },
+    {
+      "text": "Electives chosen from art, drama, chorus and band",
+      "of": "ae56f443",
+      "at": [
+        "gaston-day:ladder.divisions[1].items[0]"
+      ],
+      "t": "Optativas elegidas entre arte, teatro, coro y banda"
+    },
+    {
+      "text": "MS Instrumental Ensemble — woodwinds, brass, percussion, piano and guitar",
+      "of": "fa9e878c",
+      "at": [
+        "gaston-day:ladder.divisions[1].items[1]"
+      ],
+      "t": "MS Instrumental Ensemble — viento madera, viento metal, percusión, piano y guitarra"
+    },
+    {
+      "text": "Middle School Chorus",
+      "of": "90ae1b0e",
+      "at": [
+        "gaston-day:ladder.divisions[1].items[2]"
+      ],
+      "t": "Middle School Chorus"
+    },
+    {
+      "text": "Private music lessons available",
+      "of": "43295d89",
+      "at": [
+        "gaston-day:ladder.divisions[1].items[3]"
+      ],
+      "t": "Clases particulares de música disponibles"
+    },
+    {
+      "text": "Visual Art I, II, III and Visual Art IV (H)",
+      "of": "6eee811c",
+      "at": [
+        "gaston-day:ladder.divisions[2].items[0]"
+      ],
+      "t": "Visual Art I, II, III y Visual Art IV (H)"
+    },
+    {
+      "text": "Band, Concert Choir and Drama as fine-arts courses",
+      "of": "fe70b8e8",
+      "at": [
+        "gaston-day:ladder.divisions[2].items[1]"
+      ],
+      "t": "Band, Concert Choir y Drama como asignaturas de bellas artes"
+    },
+    {
+      "text": "Upper School Vocal Performance Ensemble",
+      "of": "3b06a2a1",
+      "at": [
+        "gaston-day:ladder.divisions[2].items[2]"
+      ],
+      "t": "Upper School Vocal Performance Ensemble"
+    },
+    {
+      "text": "Actors’ Conservatory Theatre as a dedicated programme",
+      "of": "1b08a4ae",
+      "at": [
+        "gaston-day:ladder.divisions[2].items[3]"
+      ],
+      "t": "Actors’ Conservatory Theatre como programa propio"
+    },
+    {
+      "text": "Arts-adjacent electives: Music Appreciation, Cinema Studies, Creative Writing (H), Yearbook",
+      "of": "87366eac",
+      "at": [
+        "gaston-day:ladder.divisions[2].items[4]"
+      ],
+      "t": "Optativas afines a las artes: Music Appreciation, Cinema Studies, Creative Writing (H), Yearbook"
+    },
+    {
+      "text": "Beyond the timetable",
+      "of": "f6cb035e",
+      "at": [
+        "gaston-day:ladder.enrichmentTitle"
+      ],
+      "t": "Más allá del horario lectivo"
+    },
+    {
+      "text": "Private lessons",
+      "of": "ffedbb41",
+      "at": [
+        "gaston-day:ladder.enrichment[0].label"
+      ],
+      "t": "Clases particulares"
+    },
+    {
+      "text": "Taught by contracted professional musicians, billed at $35 per lesson on the school’s published fee schedule. Middle School students waiting for a lesson may do homework in aftercare at no charge.",
+      "of": "93d39370",
+      "at": [
+        "gaston-day:ladder.enrichment[0].text"
+      ],
+      "t": "Impartidas por músicos profesionales contratados, facturadas a $35 por clase en el calendario de cuotas publicado por el colegio. Los estudiantes de Middle School que esperan a su clase pueden hacer los deberes en el servicio de cuidado extraescolar sin coste alguno."
+    },
+    {
+      "text": "Performance travel",
+      "of": "f9db0633",
+      "at": [
+        "gaston-day:ladder.enrichment[1].label"
+      ],
+      "t": "Giras de actuación"
+    },
+    {
+      "text": "The programme has performed at St Mary-le-Bow and Canterbury Cathedral, and given joint concerts with the Westminster Youth Orchestra.",
+      "of": "42ca3a37",
+      "at": [
+        "gaston-day:ladder.enrichment[1].text"
+      ],
+      "t": "El programa ha actuado en St Mary-le-Bow y en Canterbury Cathedral, y ha dado conciertos conjuntos con la Westminster Youth Orchestra."
+    },
+    {
+      "text": "Summer arts camps",
+      "of": "2ce60830",
+      "at": [
+        "gaston-day:ladder.enrichment[2].label"
+      ],
+      "t": "Campamentos de verano de artes"
+    },
+    {
+      "text": "Thespian Camp (rising PK–6) runs in the summer catalog, alongside partner camps from the Children’s Theater of Charlotte (Frozen, Willy Wonka, Cowabunga) and Studio Elite dance.",
+      "of": "14fdd8e7",
+      "at": [
+        "gaston-day:ladder.enrichment[2].text"
+      ],
+      "t": "El Thespian Camp (de PK a 6.º, cursos entrantes) figura en el catálogo de verano, junto a campamentos de socios del Children’s Theater of Charlotte (Frozen, Willy Wonka, Cowabunga) y de danza de Studio Elite."
+    },
+    {
+      "text": "Student publication",
+      "of": "5c5f1aba",
+      "at": [
+        "gaston-day:ladder.enrichment[3].label"
+      ],
+      "t": "Publicación estudiantil"
+    },
+    {
+      "text": "Blutopia, the literary and art magazine, is entirely student-developed, created and published — see the Verdict card for its award record.",
+      "of": "f9ae22c9",
+      "at": [
+        "gaston-day:ladder.enrichment[3].text"
+      ],
+      "t": "Blutopia, la revista de literatura y arte, está desarrollada, creada y publicada íntegramente por estudiantes — véase la tarjeta de veredicto para su historial de premios."
+    },
+    {
+      "text": "Two major productions a year, including a spring musical, staged in a 550-seat centre with a professional dance studio.",
+      "of": "69fa751d",
+      "at": [
+        "gaston-day:theatre.headline"
+      ],
+      "t": "Dos grandes producciones al año, incluido un musical de primavera, puestas en escena en un centro de 550 butacas con un estudio de danza profesional."
+    },
+    {
+      "text": "Students work on stage, as stage managers, on crew or in design — the school states all four routes explicitly, so theatre is not only for performers.",
+      "of": "1fdb7cec",
+      "at": [
+        "gaston-day:theatre.subhead"
+      ],
+      "t": "Los estudiantes trabajan sobre el escenario, como regidores, en el equipo técnico o en diseño — el colegio enuncia las cuatro vías de forma explícita, así que el teatro no es solo para quien actúa."
+    },
+    {
+      "text": "The production year",
+      "of": "81a3d574",
+      "at": [
+        "gaston-day:theatre.seasonTitle"
+      ],
+      "t": "El año de producciones"
+    },
+    {
+      "text": "Across the year",
+      "of": "6d397ef4",
+      "at": [
+        "gaston-day:theatre.season[0].season"
+      ],
+      "t": "A lo largo del año"
+    },
+    {
+      "text": "Two major shows",
+      "of": "c5ef52ae",
+      "at": [
+        "gaston-day:theatre.season[0].kind"
+      ],
+      "t": "Dos grandes espectáculos"
+    },
+    {
+      "text": "The school stages two major productions each year, one of which is the spring musical. Specific titles and dates are not published.",
+      "of": "5d1d381a",
+      "at": [
+        "gaston-day:theatre.season[0].detail"
+      ],
+      "t": "El colegio pone en escena dos grandes producciones cada año, una de ellas el musical de primavera. Los títulos y fechas concretos no están publicados."
+    },
+    {
+      "text": "The spring musical is the named anchor of the production calendar.",
+      "of": "4ca4e271",
+      "at": [
+        "gaston-day:theatre.season[1].detail"
+      ],
+      "t": "El musical de primavera es el eje con nombre propio del calendario de producciones."
+    },
+    {
+      "text": "Curricular",
+      "of": "426615c7",
+      "at": [
+        "gaston-day:theatre.season[2].season"
+      ],
+      "t": "Curricular"
+    },
+    {
+      "text": "Drama from grade 2",
+      "of": "51b4d535",
+      "at": [
+        "gaston-day:theatre.season[2].kind"
+      ],
+      "t": "Teatro desde 2.º grado"
+    },
+    {
+      "text": "Drama classes begin as early as second grade, so the pipeline into Upper School productions starts in the Lower School.",
+      "of": "d74632de",
+      "at": [
+        "gaston-day:theatre.season[2].detail"
+      ],
+      "t": "Las clases de teatro empiezan ya en segundo grado, así que la cantera hacia las producciones de Upper School arranca en Lower School."
+    },
+    {
+      "text": "Summer",
+      "of": "42f6a154",
+      "at": [
+        "gaston-day:theatre.season[3].season"
+      ],
+      "t": "Verano"
+    },
+    {
+      "text": "Thespian Camp",
+      "of": "9dba3d9a",
+      "at": [
+        "gaston-day:theatre.season[3].kind"
+      ],
+      "t": "Thespian Camp"
+    },
+    {
+      "text": "Thespian Camp (rising PK–6) teaches songs and script for a short musical and involves campers in designing a simple set.",
+      "of": "29e15bf8",
+      "at": [
+        "gaston-day:theatre.season[3].detail"
+      ],
+      "t": "El Thespian Camp (de PK a 6.º, cursos entrantes) enseña las canciones y el guion de un musical breve e implica a los participantes en el diseño de una escenografía sencilla."
+    },
+    {
+      "text": "Travis Johnson chairs the Fine Arts Department (ext. 415). The Actors’ Conservatory Theatre operates as a dedicated programme within the school’s theatre offering.",
+      "of": "bfaf84c8",
+      "at": [
+        "gaston-day:theatre.whoRunsIt"
+      ],
+      "t": "Travis Johnson dirige el Fine Arts Department (ext. 415). El Actors’ Conservatory Theatre funciona como programa propio dentro de la oferta teatral del colegio."
+    },
+    {
+      "text": "The Pamela Kimbrell Warlick Visual & Performing Arts Center seats 550 and carries modern lighting and sound systems plus a professional dance studio — a substantial house for a school of 510 students.",
+      "of": "0a2cfa65",
+      "at": [
+        "gaston-day:theatre.venueNote"
+      ],
+      "t": "El Pamela Kimbrell Warlick Visual & Performing Arts Center tiene 550 butacas y cuenta con sistemas modernos de iluminación y sonido, además de un estudio de danza profesional — un aforo considerable para un colegio de 510 estudiantes."
+    },
+    {
+      "text": "The school publishes no production titles, performance dates, cast sizes or theatre competition results, and it names no International Thespian Society troupe number despite chartering the society. So the *shape* of the programme is well documented while its *record* is not — this card deliberately carries no awards ledger rather than an empty one.",
+      "of": "fc74421f",
+      "at": [
+        "gaston-day:theatre.honestContext"
+      ],
+      "t": "El colegio no publica títulos de producciones, fechas de función, tamaños de reparto ni resultados de competiciones teatrales, y no indica ningún número de compañía de la International Thespian Society pese a haber constituido la sociedad. Así que la *forma* del programa está bien documentada mientras que su *trayectoria* no lo está — esta tarjeta deliberadamente no lleva ningún registro de premios en lugar de llevar uno vacío."
+    },
+    {
+      "text": "Chorus students earned “superior” ratings in regional adjudications across six years, and the programme has sent students on to the UNC School of the Arts and Governor’s School.",
+      "of": "fd6054af",
+      "at": [
+        "gaston-day:music.headline"
+      ],
+      "t": "Los estudiantes de coro obtuvieron calificaciones de “superior” en certámenes regionales a lo largo de seis años, y el programa ha llevado a estudiantes hasta la UNC School of the Arts y la Governor’s School."
+    },
+    {
+      "text": "Music is taught as a practice rather than a subject — the curriculum covers singing, movement, improvisation, reading, writing and performing.",
+      "of": "32ad2dcd",
+      "at": [
+        "gaston-day:music.subhead"
+      ],
+      "t": "La música se enseña como una práctica más que como una asignatura — el plan de estudios abarca canto, movimiento, improvisación, lectura, escritura e interpretación."
+    },
+    {
+      "text": "The ensembles",
+      "of": "e246d810",
+      "at": [
+        "gaston-day:music.boardTitle"
+      ],
+      "t": "Los conjuntos"
+    },
+    {
+      "text": "Upper School",
+      "of": "bfabeb69",
+      "at": [
+        "gaston-day:music.tracks[1].label"
+      ],
+      "t": "Upper School"
+    },
+    {
+      "text": "Individual study",
+      "of": "f5b0829f",
+      "at": [
+        "gaston-day:music.tracks[2].label"
+      ],
+      "t": "Estudio individual"
+    },
+    {
+      "text": "Band and Concert Choir appear in the profile’s fine-arts course table, so they carry academic credit toward the two-year requirement; the ensembles listed on the arts page sit alongside them. Private lessons are taught by contracted professional musicians.",
+      "of": "23a0021c",
+      "at": [
+        "gaston-day:music.boardNote"
+      ],
+      "t": "Band y Concert Choir aparecen en la tabla de asignaturas de bellas artes del perfil, así que otorgan crédito académico para el requisito de dos años; los conjuntos que figuran en la página de artes se sitúan junto a ellos. Las clases particulares las imparten músicos profesionales contratados."
+    },
+    {
+      "text": "The recognition ladder",
+      "of": "31d184fd",
+      "at": [
+        "gaston-day:music.ladderTitle"
+      ],
+      "t": "La escala de reconocimiento"
+    },
+    {
+      "text": "Regional adjudication",
+      "of": "c06fb4d1",
+      "at": [
+        "gaston-day:music.ladder[0].label"
+      ],
+      "t": "Certamen regional"
+    },
+    {
+      "text": "Chorus students earned “superior” ratings in regional adjudications over six years — a sustained record rather than a single strong year.",
+      "of": "9452b0c6",
+      "at": [
+        "gaston-day:music.ladder[0].text"
+      ],
+      "t": "Los estudiantes de coro obtuvieron calificaciones de “superior” en certámenes regionales a lo largo de seis años — una trayectoria sostenida y no un único año bueno."
+    },
+    {
+      "text": "Conservatory admission",
+      "of": "f8ced44f",
+      "at": [
+        "gaston-day:music.ladder[1].label"
+      ],
+      "t": "Admisión en conservatorio"
+    },
+    {
+      "text": "Students have gained admission to the North Carolina School of the Arts. UNC School of the Arts also appears on the school’s 2019–2025 college acceptance list, independently corroborating the pathway.",
+      "of": "3f6dd568",
+      "at": [
+        "gaston-day:music.ladder[1].text"
+      ],
+      "t": "Ha habido estudiantes admitidos en la North Carolina School of the Arts. UNC School of the Arts también aparece en la lista de admisiones universitarias 2019–2025 del colegio, lo que corrobora de forma independiente esa vía."
+    },
+    {
+      "text": "Governor’s School",
+      "of": "9446fe91",
+      "at": [
+        "gaston-day:music.ladder[2].label"
+      ],
+      "t": "Governor’s School"
+    },
+    {
+      "text": "Students have earned places at North Carolina Governor’s School, the state’s selective summer programme for gifted students.",
+      "of": "f8be13be",
+      "at": [
+        "gaston-day:music.ladder[2].text"
+      ],
+      "t": "Ha habido estudiantes que han obtenido plaza en la North Carolina Governor’s School, el programa estival selectivo del estado para alumnado de altas capacidades."
+    },
+    {
+      "text": "International performance",
+      "of": "4957f0e1",
+      "at": [
+        "gaston-day:music.ladder[3].label"
+      ],
+      "t": "Actuaciones internacionales"
+    },
+    {
+      "text": "Performances at St Mary-le-Bow and Canterbury Cathedral, plus joint concerts with the Westminster Youth Orchestra.",
+      "of": "4dec7f4f",
+      "at": [
+        "gaston-day:music.ladder[3].text"
+      ],
+      "t": "Actuaciones en St Mary-le-Bow y Canterbury Cathedral, además de conciertos conjuntos con la Westminster Youth Orchestra."
+    },
+    {
+      "text": "The school does not publish ensemble sizes, named all-state or all-district selections, festival ratings by year, or a music faculty roster beyond the department chair — so the ladder above is qualitative where a larger school would publish counts.",
+      "of": "aea5c459",
+      "at": [
+        "gaston-day:music.ladderNote"
+      ],
+      "t": "El colegio no publica tamaños de los conjuntos, selecciones nominales all-state o all-district, calificaciones de festivales por año ni un listado del profesorado de música más allá del director del departamento — así que la escala anterior es cualitativa allí donde un colegio más grande publicaría recuentos."
+    },
+    {
+      "text": "A four-step Upper School sequence ending at Visual Art IV Honors, taught across five media including ceramics and printmaking.",
+      "of": "91b7b1e2",
+      "at": [
+        "gaston-day:visual.headline"
+      ],
+      "t": "Una secuencia de cuatro pasos en Upper School que culmina en Visual Art IV Honors, impartida en cinco medios, entre ellos cerámica y grabado."
+    },
+    {
+      "text": "Portfolio development is named as part of the instruction, which is the practical difference between an art elective and a route to an art school — and the acceptance list bears it out.",
+      "of": "d0e6435a",
+      "at": [
+        "gaston-day:visual.subhead"
+      ],
+      "t": "La elaboración del portafolio se nombra como parte de la enseñanza, que es la diferencia práctica entre una optativa de arte y una vía hacia una escuela de arte — y la lista de admisiones lo confirma."
+    },
+    {
+      "text": "What students actually work in",
+      "of": "ab1858da",
+      "at": [
+        "gaston-day:visual.mediaTitle"
+      ],
+      "t": "En qué trabajan realmente los estudiantes"
+    },
+    {
+      "text": "Named explicitly in the Upper School visual-arts description",
+      "of": "1bdf19ee",
+      "at": [
+        "gaston-day:visual.media[4].detail"
+      ],
+      "t": "Nombrado explícitamente en la descripción de artes visuales de Upper School"
+    },
+    {
+      "text": "There is no AP Studio Art or AP Art History in the profile’s course table — Visual Art IV (H) is the terminal course, carrying the Honors +0.50 weighting rather than an AP +1.0. Cinema Studies, Creative Writing (H) and Yearbook sit alongside as arts-adjacent electives.",
+      "of": "1ad917a4",
+      "at": [
+        "gaston-day:visual.pathNote"
+      ],
+      "t": "No hay AP Studio Art ni AP Art History en la tabla de asignaturas del perfil — Visual Art IV (H) es la asignatura final, con la ponderación Honors de +0.50 en lugar de un AP de +1.0. Cinema Studies, Creative Writing (H) y Yearbook se sitúan al lado como optativas afines a las artes."
+    },
+    {
+      "text": "Where the work goes",
+      "of": "d3d0e20a",
+      "at": [
+        "gaston-day:visual.exhibitsTitle"
+      ],
+      "t": "Adónde va el trabajo"
+    },
+    {
+      "text": "Numerous Scholastic Art Awards, plus wins at national, regional and local competitions.",
+      "of": "746ac530",
+      "at": [
+        "gaston-day:visual.exhibits[0].detail"
+      ],
+      "t": "Numerosos Scholastic Art Awards, además de premios en competiciones nacionales, regionales y locales."
+    },
+    {
+      "text": "The student literary and art magazine publishes illustrations, paintings and photographs alongside written work, and has taken numerous Scholastic Art and Writing Awards and repeated recognition in the NC Scholastic Media Association Literary Magazine Contest.",
+      "of": "a9cfe5a6",
+      "at": [
+        "gaston-day:visual.exhibits[1].detail"
+      ],
+      "t": "La revista estudiantil de literatura y arte publica ilustraciones, pinturas y fotografías junto a los textos, y ha obtenido numerosos Scholastic Art and Writing Awards y reconocimiento repetido en el NC Scholastic Media Association Literary Magazine Contest."
+    },
+    {
+      "text": "2019–2025",
+      "of": "2adf025d",
+      "at": [
+        "gaston-day:visual.exhibits[2].when"
+      ],
+      "t": "2019–2025"
+    },
+    {
+      "text": "The 2019–2025 acceptance list includes RISD, SCAD, School of Visual Arts, Maryland Institute College of Art, the School of the Art Institute of Chicago, Minneapolis College of Art and Design and UNC School of the Arts — seven specialty art and design institutions.",
+      "of": "66207e20",
+      "at": [
+        "gaston-day:visual.exhibits[2].detail"
+      ],
+      "t": "La lista de admisiones 2019–2025 incluye RISD, SCAD, School of Visual Arts, Maryland Institute College of Art, la School of the Art Institute of Chicago, el Minneapolis College of Art and Design y la UNC School of the Arts — siete instituciones especializadas en arte y diseño."
+    },
+    {
+      "text": "The department is chaired by Travis Johnson; no other arts faculty are named publicly. The school publishes no gallery or exhibition calendar, no count of Scholastic awards by year and no named student winners — \"numerous\" is the school’s own word and is reproduced rather than quantified.",
+      "of": "6d204ef7",
+      "at": [
+        "gaston-day:visual.footnote"
+      ],
+      "t": "El departamento lo dirige Travis Johnson; no se nombra públicamente a ningún otro docente de artes. El colegio no publica ningún calendario de galería o exposiciones, ni recuento de premios Scholastic por año, ni nombres de estudiantes premiados — \"numerous\" es la propia palabra del colegio y se reproduce en lugar de cuantificarse."
+    },
+    {
+      "text": "A serious arts programme for a 510-student school — a named 550-seat centre, a six-year adjudication record, and a student magazine with a national award history.",
+      "of": "5b76b2a5",
+      "at": [
+        "gaston-day:verdict.headline"
+      ],
+      "t": "Un programa artístico serio para un colegio de 510 estudiantes — un centro con nombre propio y 550 butacas, una trayectoria de seis años en certámenes y una revista estudiantil con historial de premios nacionales."
+    },
+    {
+      "text": "What is missing is the record rather than the programme: almost nothing is published by year, by title or by name.",
+      "of": "c894aa2e",
+      "at": [
+        "gaston-day:verdict.subhead"
+      ],
+      "t": "Lo que falta es el registro más que el programa: casi nada se publica por año, por título ni por nombre."
+    },
+    {
+      "text": "The facility is real and named",
+      "of": "099988bd",
+      "at": [
+        "gaston-day:verdict.holdsUp[0].label"
+      ],
+      "t": "La instalación es real y tiene nombre propio"
+    },
+    {
+      "text": "The Pamela Kimbrell Warlick Visual & Performing Arts Center seats 550 with modern lighting and sound and a professional dance studio — larger than the school’s entire enrollment.",
+      "of": "6e5cd3ae",
+      "at": [
+        "gaston-day:verdict.holdsUp[0].text"
+      ],
+      "t": "El Pamela Kimbrell Warlick Visual & Performing Arts Center tiene 550 butacas con iluminación y sonido modernos y un estudio de danza profesional — mayor que toda la matriculación del colegio."
+    },
+    {
+      "text": "The ladder is genuinely PS–12",
+      "of": "f1e22d13",
+      "at": [
+        "gaston-day:verdict.holdsUp[1].label"
+      ],
+      "t": "La progresión es genuinamente de PS a 12"
+    },
+    {
+      "text": "Drama from second grade, integrated arts in the Lower School, four elective tracks in the Middle School, and a four-course visual sequence plus three ensembles in the Upper School.",
+      "of": "469c7114",
+      "at": [
+        "gaston-day:verdict.holdsUp[1].text"
+      ],
+      "t": "Teatro desde segundo grado, artes integradas en Lower School, cuatro itinerarios de optativas en Middle School, y una secuencia visual de cuatro asignaturas más tres conjuntos en Upper School."
+    },
+    {
+      "text": "Recognition is sustained, not one-off",
+      "of": "48b3e2a5",
+      "at": [
+        "gaston-day:verdict.holdsUp[2].label"
+      ],
+      "t": "El reconocimiento es sostenido, no puntual"
+    },
+    {
+      "text": "Six years of “superior” regional chorus adjudications, and admissions to UNC School of the Arts and Governor’s School.",
+      "of": "e156b624",
+      "at": [
+        "gaston-day:verdict.holdsUp[2].text"
+      ],
+      "t": "Seis años de certámenes regionales de coro con calificación de “superior”, y admisiones en la UNC School of the Arts y la Governor’s School."
+    },
+    {
+      "text": "Blutopia is a genuine distinction",
+      "of": "e3df9a95",
+      "at": [
+        "gaston-day:verdict.holdsUp[3].label"
+      ],
+      "t": "Blutopia es una distinción genuina"
+    },
+    {
+      "text": "Entirely student-produced, with numerous Scholastic Art and Writing Awards and consistent recognition in the NC Scholastic Media Association Literary Magazine Contest.",
+      "of": "4532306d",
+      "at": [
+        "gaston-day:verdict.holdsUp[3].text"
+      ],
+      "t": "Producida íntegramente por estudiantes, con numerosos Scholastic Art and Writing Awards y reconocimiento constante en el NC Scholastic Media Association Literary Magazine Contest."
+    },
+    {
+      "text": "Portfolio work leads somewhere",
+      "of": "45810778",
+      "at": [
+        "gaston-day:verdict.holdsUp[4].label"
+      ],
+      "t": "El trabajo de portafolio lleva a alguna parte"
+    },
+    {
+      "text": "Portfolio development is taught, and seven specialty art and design schools — RISD, SCAD, SVA, MICA, SAIC, MCAD and UNCSA — appear on the acceptance list.",
+      "of": "07b229cb",
+      "at": [
+        "gaston-day:verdict.holdsUp[4].text"
+      ],
+      "t": "Se enseña la elaboración del portafolio, y siete escuelas especializadas en arte y diseño — RISD, SCAD, SVA, MICA, SAIC, MCAD y UNCSA — aparecen en la lista de admisiones."
+    },
+    {
+      "text": "Arts grades are published",
+      "of": "60615395",
+      "at": [
+        "gaston-day:verdict.holdsUp[5].label"
+      ],
+      "t": "Se publican las calificaciones de artes"
+    },
+    {
+      "text": "The profile prints an ARTS grade distribution for 2024-25 (72% A+, 22% A, 5% A-), which few schools disclose. Read it as context for how the department grades rather than as a difficulty signal.",
+      "of": "16169f26",
+      "at": [
+        "gaston-day:verdict.holdsUp[5].text"
+      ],
+      "t": "El perfil imprime una distribución de calificaciones de ARTS para 2024-25 (72% A+, 22% A, 5% A-), algo que pocos colegios divulgan. Léase como contexto sobre cómo califica el departamento, y no como una señal de dificultad."
+    },
+    {
+      "text": "What were the last two years’ productions, and how many students were cast versus crewed?",
+      "of": "95c3ac2d",
+      "at": [
+        "gaston-day:verdict.ask[0]"
+      ],
+      "t": "¿Cuáles fueron las producciones de los dos últimos años y cuántos estudiantes salieron en escena frente a los que estuvieron en el equipo técnico?"
+    },
+    {
+      "text": "How large are Band, Concert Choir and the Vocal Performance Ensemble — and does everyone who auditions get a place?",
+      "of": "76bfc700",
+      "at": [
+        "gaston-day:verdict.ask[1]"
+      ],
+      "t": "¿Qué tamaño tienen Band, Concert Choir y el Vocal Performance Ensemble — y consigue plaza todo el que se presenta a la audición?"
+    },
+    {
+      "text": "Visual Art IV is the terminal course with no AP Studio Art — how do students building an art-school portfolio go further?",
+      "of": "5422ced3",
+      "at": [
+        "gaston-day:verdict.ask[2]"
+      ],
+      "t": "Visual Art IV es la asignatura final y no hay AP Studio Art — ¿cómo van más allá los estudiantes que están construyendo un portafolio para una escuela de arte?"
+    },
+    {
+      "text": "Which regional adjudications does the chorus enter, and what were the ratings in the last two years specifically?",
+      "of": "fa04601d",
+      "at": [
+        "gaston-day:verdict.ask[3]"
+      ],
+      "t": "¿A qué certámenes regionales se presenta el coro y cuáles fueron las calificaciones en los dos últimos años en concreto?"
+    },
+    {
+      "text": "How many Scholastic Art Awards did students win last year, and at what level (Gold Key, Silver Key, Honorable Mention)?",
+      "of": "4d5ba981",
+      "at": [
+        "gaston-day:verdict.ask[4]"
+      ],
+      "t": "¿Cuántos Scholastic Art Awards ganaron los estudiantes el año pasado y en qué nivel (Gold Key, Silver Key, Honorable Mention)?"
+    },
+    {
+      "text": "Who teaches visual art, music and drama beyond the department chair, and what are their backgrounds?",
+      "of": "8f09b46e",
+      "at": [
+        "gaston-day:verdict.ask[5]"
+      ],
+      "t": "¿Quién imparte artes visuales, música y teatro además del director del departamento, y cuál es su trayectoria?"
+    },
+    {
+      "text": "Is there an International Thespian Society troupe, and what are its induction requirements?",
+      "of": "4386257e",
+      "at": [
+        "gaston-day:verdict.ask[6]"
+      ],
+      "t": "¿Existe una compañía de la International Thespian Society y cuáles son sus requisitos de admisión?"
     }
   ]
 }

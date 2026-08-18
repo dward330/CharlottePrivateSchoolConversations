@@ -42,7 +42,9 @@
         "carmel-christian:catalog.categoryFilters[0].label",
         "carmel-christian:catalog.gradeFilters[0].label",
         "hickory-grove-christian:catalog.categoryFilters[0].label",
-        "hickory-grove-christian:catalog.gradeFilters[0].label"
+        "hickory-grove-christian:catalog.gradeFilters[0].label",
+        "gaston-day:catalog.categoryFilters[0].label",
+        "gaston-day:catalog.gradeFilters[0].label"
       ]
     },
     {
@@ -176,7 +178,16 @@
         "covenant-day:catalog.camps[9].categoryLabel",
         "covenant-day:catalog.camps[10].categoryLabel",
         "covenant-day:catalog.camps[11].categoryLabel",
-        "covenant-day:catalog.camps[12].categoryLabel"
+        "covenant-day:catalog.camps[12].categoryLabel",
+        "gaston-day:catalog.categoryFilters[3].label",
+        "gaston-day:catalog.camps[3].categoryLabel",
+        "gaston-day:catalog.camps[8].categoryLabel",
+        "gaston-day:catalog.camps[13].categoryLabel",
+        "gaston-day:catalog.camps[17].categoryLabel",
+        "gaston-day:catalog.camps[18].categoryLabel",
+        "gaston-day:catalog.camps[23].categoryLabel",
+        "gaston-day:catalog.camps[24].categoryLabel",
+        "gaston-day:catalog.camps[25].categoryLabel"
       ]
     },
     {
@@ -497,7 +508,30 @@
         "covenant-day:catalog.camps[16].dayLabel",
         "covenant-day:catalog.camps[17].dayLabel",
         "covenant-day:catalog.camps[18].dayLabel",
-        "covenant-day:catalog.camps[19].dayLabel"
+        "covenant-day:catalog.camps[19].dayLabel",
+        "gaston-day:catalog.camps[0].dayLabel",
+        "gaston-day:catalog.camps[1].dayLabel",
+        "gaston-day:catalog.camps[2].dayLabel",
+        "gaston-day:catalog.camps[3].dayLabel",
+        "gaston-day:catalog.camps[4].dayLabel",
+        "gaston-day:catalog.camps[7].dayLabel",
+        "gaston-day:catalog.camps[8].dayLabel",
+        "gaston-day:catalog.camps[9].dayLabel",
+        "gaston-day:catalog.camps[10].dayLabel",
+        "gaston-day:catalog.camps[11].dayLabel",
+        "gaston-day:catalog.camps[13].dayLabel",
+        "gaston-day:catalog.camps[14].dayLabel",
+        "gaston-day:catalog.camps[15].dayLabel",
+        "gaston-day:catalog.camps[16].dayLabel",
+        "gaston-day:catalog.camps[17].dayLabel",
+        "gaston-day:catalog.camps[18].dayLabel",
+        "gaston-day:catalog.camps[19].dayLabel",
+        "gaston-day:catalog.camps[20].dayLabel",
+        "gaston-day:catalog.camps[21].dayLabel",
+        "gaston-day:catalog.camps[22].dayLabel",
+        "gaston-day:catalog.camps[23].dayLabel",
+        "gaston-day:catalog.camps[24].dayLabel",
+        "gaston-day:catalog.camps[25].dayLabel"
       ]
     },
     {
@@ -2993,7 +3027,13 @@
       "of": "ca0fab3c",
       "at": [
         "charlotte-latin:catalog.camps[52].categoryLabel",
-        "charlotte-latin:catalog.camps[53].categoryLabel"
+        "charlotte-latin:catalog.camps[53].categoryLabel",
+        "gaston-day:catalog.categoryFilters[5].label",
+        "gaston-day:catalog.camps[10].categoryLabel",
+        "gaston-day:catalog.camps[19].categoryLabel",
+        "gaston-day:catalog.camps[20].categoryLabel",
+        "gaston-day:catalog.camps[21].categoryLabel",
+        "gaston-day:catalog.camps[22].categoryLabel"
       ]
     },
     {
@@ -7316,7 +7356,10 @@
         "hickory-grove-christian:catalog.camps[11].dayLabel",
         "hickory-grove-christian:catalog.camps[12].dayLabel",
         "hickory-grove-christian:catalog.camps[13].dayLabel",
-        "hickory-grove-christian:catalog.camps[14].dayLabel"
+        "hickory-grove-christian:catalog.camps[14].dayLabel",
+        "gaston-day:catalog.camps[5].dayLabel",
+        "gaston-day:catalog.camps[6].dayLabel",
+        "gaston-day:catalog.camps[12].dayLabel"
       ]
     },
     {
@@ -9152,7 +9195,8 @@
       "at": [
         "carmel-christian:catalog.gradeFilters[4].label",
         "carmel-christian:catalog.camps[28].gradeLabel",
-        "carmel-christian:catalog.camps[30].gradeLabel"
+        "carmel-christian:catalog.camps[30].gradeLabel",
+        "gaston-day:catalog.gradeFilters[3].label"
       ]
     },
     {
@@ -9541,7 +9585,8 @@
       "t": "Rising 1–5",
       "of": "3965e584",
       "at": [
-        "carmel-christian:catalog.camps[18].gradeLabel"
+        "carmel-christian:catalog.camps[18].gradeLabel",
+        "gaston-day:catalog.gradeFilters[2].label"
       ]
     },
     {
@@ -10131,6 +10176,820 @@
       "of": "5a13c375",
       "at": [
         "hickory-grove-christian:catalog.flags[1].text"
+      ]
+    },
+    {
+      "t": "1 जून से 31 जुलाई तक आठ सप्ताह, जिनमें पूरे दिन का Camp Spartan, आधे दिन के संवर्धन कैंप, चार साझेदार प्रदाता और Nike Sports Camps शामिल हैं — और जो ग़ैर-छात्रों के लिए भी खुले हैं।",
+      "of": "e1e7014a",
+      "at": [
+        "gaston-day:catalog.headline"
+      ]
+    },
+    {
+      "t": "Camp Spartan 8:30 am–3:30 pm चलता है और उसमें भोजन शामिल है, तथा wrap-around देखभाल दिन को 7:45 am से 5:00 pm तक बढ़ा देती है।",
+      "of": "440697cb",
+      "at": [
+        "gaston-day:catalog.subhead"
+      ]
+    },
+    {
+      "t": "स्कूल के कैंप कैटलॉग में प्रकाशित 2026 की पूरी सूची — चार प्रदाताओं के 30 कैंप। कक्षा-स्तर “rising” कक्षाएँ हैं: यानी 2026-27 शैक्षणिक वर्ष में बच्चे की कक्षा। कई संवर्धन कैंप प्रतीक्षा-सूची के साथ FULL दिखते हैं और एक रद्द; इन स्थितियों को छाँटकर हटाने के बजाय जैसा प्रकाशित है वैसा ही रखा गया है।",
+      "of": "0f0d2460",
+      "at": [
+        "gaston-day:catalog.intro"
+      ]
+    },
+    {
+      "t": "Day camp",
+      "of": "31934b3a",
+      "at": [
+        "gaston-day:catalog.categoryFilters[1].label",
+        "gaston-day:catalog.camps[0].categoryLabel",
+        "gaston-day:catalog.camps[1].categoryLabel"
+      ]
+    },
+    {
+      "t": "संवर्धन",
+      "of": "42d5db5c",
+      "at": [
+        "gaston-day:catalog.categoryFilters[2].label",
+        "gaston-day:catalog.camps[2].categoryLabel",
+        "gaston-day:catalog.camps[4].categoryLabel",
+        "gaston-day:catalog.camps[5].categoryLabel",
+        "gaston-day:catalog.camps[6].categoryLabel",
+        "gaston-day:catalog.camps[7].categoryLabel",
+        "gaston-day:catalog.camps[11].categoryLabel",
+        "gaston-day:catalog.camps[12].categoryLabel"
+      ]
+    },
+    {
+      "t": "कला और रंगमंच",
+      "of": "d6cf3226",
+      "at": [
+        "gaston-day:catalog.categoryFilters[4].label",
+        "gaston-day:catalog.camps[9].categoryLabel",
+        "gaston-day:catalog.camps[14].categoryLabel",
+        "gaston-day:catalog.camps[15].categoryLabel",
+        "gaston-day:catalog.camps[16].categoryLabel"
+      ]
+    },
+    {
+      "t": "ट्यूशन",
+      "of": "5f3ff239",
+      "at": [
+        "gaston-day:catalog.categoryFilters[6].label",
+        "gaston-day:catalog.camps[26].categoryLabel"
+      ]
+    },
+    {
+      "t": "Rising PK–K",
+      "of": "fe59bf8e",
+      "at": [
+        "gaston-day:catalog.gradeFilters[1].label",
+        "gaston-day:catalog.camps[1].gradeLabel"
+      ]
+    },
+    {
+      "t": "Rising 9–12",
+      "of": "77e63086",
+      "at": [
+        "gaston-day:catalog.gradeFilters[4].label"
+      ]
+    },
+    {
+      "t": "पूरे दिन का कैंप जिसमें शिल्प, गतिविधियाँ, प्रयोग और खेल होते हैं — उन कामकाजी माता-पिता के लिए बना जिन्हें गर्मियों में बच्चों की देखभाल चाहिए।",
+      "of": "37a811b0",
+      "at": [
+        "gaston-day:catalog.camps[0].desc"
+      ]
+    },
+    {
+      "t": "Rising 1st–5th",
+      "of": "f465998f",
+      "at": [
+        "gaston-day:catalog.camps[0].gradeLabel"
+      ]
+    },
+    {
+      "t": "8:30am-3:30pm (आधा दिन 8:30-12pm या 12:30-3:30pm)",
+      "of": "f9652c41",
+      "at": [
+        "gaston-day:catalog.camps[0].hours",
+        "gaston-day:catalog.camps[1].hours"
+      ]
+    },
+    {
+      "t": "सप्ताह 1, 2, 3, 5, 6, 7, 8",
+      "of": "15668b7e",
+      "at": [
+        "gaston-day:catalog.camps[0].weeks"
+      ]
+    },
+    {
+      "t": "वही पूरे दिन का ढाँचा, सबसे छोटे कैंपरों के हिसाब से — शिल्प, गतिविधियाँ, प्रयोग और खेल।",
+      "of": "d79f4e3a",
+      "at": [
+        "gaston-day:catalog.camps[1].desc"
+      ]
+    },
+    {
+      "t": "सप्ताह 1, 2, 3, 4, 5, 6, 7, 8",
+      "of": "30d03432",
+      "at": [
+        "gaston-day:catalog.camps[1].weeks"
+      ]
+    },
+    {
+      "t": "शहर छोड़े बिना समुद्र-तट पर एक सप्ताह: ख़ज़ाने के डिब्बे, रेत की कला और सीपियों की खोज। Patty Maier के नेतृत्व में।",
+      "of": "bc40bf7b",
+      "at": [
+        "gaston-day:catalog.camps[2].desc"
+      ]
+    },
+    {
+      "t": "PreK–K",
+      "of": "8054a225",
+      "at": [
+        "gaston-day:catalog.camps[2].gradeLabel"
+      ]
+    },
+    {
+      "t": "9am-12pm",
+      "of": "c39d860d",
+      "at": [
+        "gaston-day:catalog.camps[2].hours",
+        "gaston-day:catalog.camps[3].hours",
+        "gaston-day:catalog.camps[4].hours",
+        "gaston-day:catalog.camps[5].hours",
+        "gaston-day:catalog.camps[6].hours",
+        "gaston-day:catalog.camps[7].hours",
+        "gaston-day:catalog.camps[8].hours",
+        "gaston-day:catalog.camps[9].hours",
+        "gaston-day:catalog.camps[10].hours",
+        "gaston-day:catalog.camps[11].hours",
+        "gaston-day:catalog.camps[12].hours"
+      ]
+    },
+    {
+      "t": "सप्ताह 1 — June 1-5",
+      "of": "57efacaf",
+      "at": [
+        "gaston-day:catalog.camps[2].weeks",
+        "gaston-day:catalog.camps[3].weeks",
+        "gaston-day:catalog.camps[17].weeks"
+      ]
+    },
+    {
+      "t": "नए और अनुभवी, दोनों तरह के खिलाड़ियों के लिए बुनियादी कौशल पर एक सप्ताह। Andrew Perino के नेतृत्व में।",
+      "of": "c876e6a2",
+      "at": [
+        "gaston-day:catalog.camps[3].desc"
+      ]
+    },
+    {
+      "t": "Rising 1st–8th",
+      "of": "c932d9d0",
+      "at": [
+        "gaston-day:catalog.camps[3].gradeLabel"
+      ]
+    },
+    {
+      "t": "ग्रह, इस दुनिया से परे कला-गतिविधियाँ और एक धमाकेदार सप्ताह। Alison Morgan के नेतृत्व में।",
+      "of": "0ba32af6",
+      "at": [
+        "gaston-day:catalog.camps[4].desc"
+      ]
+    },
+    {
+      "t": "Rising PK–1st",
+      "of": "38617f47",
+      "at": [
+        "gaston-day:catalog.camps[4].gradeLabel",
+        "gaston-day:catalog.camps[6].gradeLabel"
+      ]
+    },
+    {
+      "t": "सप्ताह 2 — June 8-12",
+      "of": "50a90acf",
+      "at": [
+        "gaston-day:catalog.camps[4].weeks",
+        "gaston-day:catalog.camps[14].weeks"
+      ]
+    },
+    {
+      "t": "रंगीन गतिविधियाँ, हाथों से बनने वाले शिल्प, खेल और ढेर सारी ठंडी चीज़ें। Sydney Hedrick के नेतृत्व में।",
+      "of": "d4d2d875",
+      "at": [
+        "gaston-day:catalog.camps[5].desc"
+      ]
+    },
+    {
+      "t": "Rising PK–3rd",
+      "of": "1f835d08",
+      "at": [
+        "gaston-day:catalog.camps[5].gradeLabel"
+      ]
+    },
+    {
+      "t": "सप्ताह 3 — June 15-18",
+      "of": "79c4d24c",
+      "at": [
+        "gaston-day:catalog.camps[5].weeks",
+        "gaston-day:catalog.camps[6].weeks"
+      ]
+    },
+    {
+      "t": "भावी जीवाश्म-वैज्ञानिकों के लिए डायनासोर, खुदाई और उत्खनन का एक दहाड़ता हुआ सप्ताह। Alison Morgan के नेतृत्व में।",
+      "of": "5e034585",
+      "at": [
+        "gaston-day:catalog.camps[6].desc"
+      ]
+    },
+    {
+      "t": "हाथों से बनने वाले शिल्प और खेलों के ज़रिए वन्यजीव, आवास और संरक्षण। रद्द के रूप में प्रकाशित।",
+      "of": "78a03b2a",
+      "at": [
+        "gaston-day:catalog.camps[7].desc"
+      ]
+    },
+    {
+      "t": "Rising K–3rd",
+      "of": "5db3b81a",
+      "at": [
+        "gaston-day:catalog.camps[7].gradeLabel"
+      ]
+    },
+    {
+      "t": "सप्ताह 5 — July 6-10",
+      "of": "50e27080",
+      "at": [
+        "gaston-day:catalog.camps[7].weeks",
+        "gaston-day:catalog.camps[8].weeks",
+        "gaston-day:catalog.camps[9].weeks",
+        "gaston-day:catalog.camps[20].weeks"
+      ]
+    },
+    {
+      "t": "Coach P के साथ, साल के सबसे बेहतरीन PE पाठों को एक सप्ताह में समेटा हुआ। Andrew Perino के नेतृत्व में।",
+      "of": "6e83b049",
+      "at": [
+        "gaston-day:catalog.camps[8].desc"
+      ]
+    },
+    {
+      "t": "Rising PK–4th",
+      "of": "5b44ad9b",
+      "at": [
+        "gaston-day:catalog.camps[8].gradeLabel"
+      ]
+    },
+    {
+      "t": "एक छोटे musical के गीत और पटकथा, साथ में एक सादा सेट डिज़ाइन करना। Milette Oden के नेतृत्व में।",
+      "of": "b23d7722",
+      "at": [
+        "gaston-day:catalog.camps[9].desc"
+      ]
+    },
+    {
+      "t": "Rising PK–6th",
+      "of": "1a9dcc51",
+      "at": [
+        "gaston-day:catalog.camps[9].gradeLabel"
+      ]
+    },
+    {
+      "t": "नृत्य, रचनात्मक गति, खेल और लयबद्ध गतिविधियाँ जो समन्वय और आत्मविश्वास बढ़ाती हैं। Sydney Hedrick के नेतृत्व में।",
+      "of": "0ca2c840",
+      "at": [
+        "gaston-day:catalog.camps[10].desc"
+      ]
+    },
+    {
+      "t": "Rising PK–2nd",
+      "of": "7e41a043",
+      "at": [
+        "gaston-day:catalog.camps[10].gradeLabel"
+      ]
+    },
+    {
+      "t": "सप्ताह 6 — July 13-17",
+      "of": "1ded5ca4",
+      "at": [
+        "gaston-day:catalog.camps[10].weeks",
+        "gaston-day:catalog.camps[18].weeks"
+      ]
+    },
+    {
+      "t": "उत्तरी ध्रुव पर gingerbread घर, candy cane, शिल्प, नृत्य और कहानियाँ। Alison Morgan के नेतृत्व में।",
+      "of": "cfe4c37b",
+      "at": [
+        "gaston-day:catalog.camps[11].desc"
+      ]
+    },
+    {
+      "t": "Rising PreK–2",
+      "of": "eef8021e",
+      "at": [
+        "gaston-day:catalog.camps[11].gradeLabel",
+        "gaston-day:catalog.camps[12].gradeLabel"
+      ]
+    },
+    {
+      "t": "सप्ताह 7 — July 20-24",
+      "of": "af0f09c9",
+      "at": [
+        "gaston-day:catalog.camps[11].weeks",
+        "gaston-day:catalog.camps[21].weeks"
+      ]
+    },
+    {
+      "t": "परियों की थीम पर जादुई शिल्प, गतिविधियाँ और खेल। Rachel Lambert के नेतृत्व में।",
+      "of": "f1a5642c",
+      "at": [
+        "gaston-day:catalog.camps[12].desc"
+      ]
+    },
+    {
+      "t": "सप्ताह 8 — July 27-30",
+      "of": "b3515f08",
+      "at": [
+        "gaston-day:catalog.camps[12].weeks"
+      ]
+    },
+    {
+      "t": "सप्ताह भर कई खेल, साथ में टीम-भावना के कौशल — \"life is too short for just one sport\"। पंजीकरण 2-4-1 कैंप साइट के ज़रिए।",
+      "of": "f171b136",
+      "at": [
+        "gaston-day:catalog.camps[13].desc"
+      ]
+    },
+    {
+      "t": "Rising K–8th",
+      "of": "e002c2d9",
+      "at": [
+        "gaston-day:catalog.camps[13].gradeLabel"
+      ]
+    },
+    {
+      "t": "9:00am-3:00pm",
+      "of": "eaddb95d",
+      "at": [
+        "gaston-day:catalog.camps[13].hours",
+        "gaston-day:catalog.camps[14].hours",
+        "gaston-day:catalog.camps[15].hours",
+        "gaston-day:catalog.camps[16].hours"
+      ]
+    },
+    {
+      "t": "सप्ताह 4 — June 22-26",
+      "of": "832d5528",
+      "at": [
+        "gaston-day:catalog.camps[13].weeks",
+        "gaston-day:catalog.camps[19].weeks"
+      ]
+    },
+    {
+      "t": "Children’s Theater of Charlotte के साथ रंगमंच का पूरा एक सप्ताह। पंजीकरण उनकी वेबसाइट के ज़रिए।",
+      "of": "50cd6e51",
+      "at": [
+        "gaston-day:catalog.camps[14].desc",
+        "gaston-day:catalog.camps[15].desc"
+      ]
+    },
+    {
+      "t": "Rising 3rd–6th",
+      "of": "56861ff1",
+      "at": [
+        "gaston-day:catalog.camps[14].gradeLabel",
+        "gaston-day:catalog.camps[15].gradeLabel"
+      ]
+    },
+    {
+      "t": "सप्ताह 3 — June 15-19",
+      "of": "7ac4d3df",
+      "at": [
+        "gaston-day:catalog.camps[15].weeks",
+        "gaston-day:catalog.camps[16].weeks"
+      ]
+    },
+    {
+      "t": "सबसे छोटे समूह के लिए Children’s Theater of Charlotte के साथ रंगमंच का पूरा एक सप्ताह। पंजीकरण उनकी वेबसाइट के ज़रिए।",
+      "of": "f5022c90",
+      "at": [
+        "gaston-day:catalog.camps[16].desc"
+      ]
+    },
+    {
+      "t": "Rising K–2nd",
+      "of": "9c4ab985",
+      "at": [
+        "gaston-day:catalog.camps[16].gradeLabel",
+        "gaston-day:catalog.camps[20].gradeLabel"
+      ]
+    },
+    {
+      "t": "Formations, jumps, नृत्य, stunting और tumbling, जो परिवार के सामने एक प्रदर्शन पर ख़त्म होते हैं। इस शोध के समय पंजीकरण बंद था।",
+      "of": "32e50150",
+      "at": [
+        "gaston-day:catalog.camps[17].desc"
+      ]
+    },
+    {
+      "t": "Rising K–4th",
+      "of": "eca67f4d",
+      "at": [
+        "gaston-day:catalog.camps[17].gradeLabel",
+        "gaston-day:catalog.camps[18].gradeLabel",
+        "gaston-day:catalog.camps[19].gradeLabel",
+        "gaston-day:catalog.camps[21].gradeLabel",
+        "gaston-day:catalog.camps[22].gradeLabel"
+      ]
+    },
+    {
+      "t": "9:00am-12:00",
+      "of": "41173c3a",
+      "at": [
+        "gaston-day:catalog.camps[17].hours",
+        "gaston-day:catalog.camps[18].hours",
+        "gaston-day:catalog.camps[19].hours",
+        "gaston-day:catalog.camps[20].hours",
+        "gaston-day:catalog.camps[21].hours",
+        "gaston-day:catalog.camps[22].hours"
+      ]
+    },
+    {
+      "t": "Vault, beam, bars और floor, जो परिवार के सामने एक प्रदर्शन पर ख़त्म होते हैं। इस शोध के समय पंजीकरण बंद था।",
+      "of": "c74128bd",
+      "at": [
+        "gaston-day:catalog.camps[18].desc"
+      ]
+    },
+    {
+      "t": "हर दिन एक नई राजकुमारी, कहानियों, props और शिल्प के साथ। इस शोध के समय पंजीकरण बंद था।",
+      "of": "543a4835",
+      "at": [
+        "gaston-day:catalog.camps[19].desc"
+      ]
+    },
+    {
+      "t": "कल्पनाशील गति और क़िस्सागोई के ज़रिए ballet को कौशल बढ़ाने वाले gymnastics के साथ मिलाया गया। इस शोध के समय पंजीकरण बंद था।",
+      "of": "9cbf7afe",
+      "at": [
+        "gaston-day:catalog.camps[20].desc"
+      ]
+    },
+    {
+      "t": "Jazz, ballet और tumbling की बुनियाद, जो सप्ताह के अंत की प्रस्तुति तक ले जाती है। किसी अनुभव की ज़रूरत नहीं। इस शोध के समय पंजीकरण बंद था।",
+      "of": "2dc39dad",
+      "at": [
+        "gaston-day:catalog.camps[21].desc"
+      ]
+    },
+    {
+      "t": "Plié, tendu, pirouette, grand jeté और reverence, साथ में ballet की कहानियाँ और pointe shoes। इस शोध के समय पंजीकरण बंद था।",
+      "of": "3d0e7d51",
+      "at": [
+        "gaston-day:catalog.camps[22].desc"
+      ]
+    },
+    {
+      "t": "सप्ताह 8 — July 27-31",
+      "of": "b451609b",
+      "at": [
+        "gaston-day:catalog.camps[22].weeks"
+      ]
+    },
+    {
+      "t": "Coach Jordan Paris के साथ बुनियादी बातें, shooting और टीम खेल। पंजीकरण US Sports Camps के ज़रिए।",
+      "of": "beadaf92",
+      "at": [
+        "gaston-day:catalog.camps[23].desc"
+      ]
+    },
+    {
+      "t": "उम्र 9–15 (wk 1) · 10–17 (wk 7)",
+      "of": "9393a096",
+      "at": [
+        "gaston-day:catalog.camps[23].gradeLabel"
+      ]
+    },
+    {
+      "t": "9:00am-3:00pm (शुक्रवार को दोपहर 12 बजे समाप्त)",
+      "of": "35f7726e",
+      "at": [
+        "gaston-day:catalog.camps[23].hours",
+        "gaston-day:catalog.camps[24].hours",
+        "gaston-day:catalog.camps[25].hours"
+      ]
+    },
+    {
+      "t": "सप्ताह 1 और 7",
+      "of": "7a17a4a5",
+      "at": [
+        "gaston-day:catalog.camps[23].weeks"
+      ]
+    },
+    {
+      "t": "Coach Catey Stewart और Charlotte Soccer Academy के साथ तकनीक, आत्मविश्वास और प्रतिस्पर्धी बढ़त।",
+      "of": "e82d8ba0",
+      "at": [
+        "gaston-day:catalog.camps[24].desc"
+      ]
+    },
+    {
+      "t": "उम्र 8–14",
+      "of": "3d95869f",
+      "at": [
+        "gaston-day:catalog.camps[24].gradeLabel"
+      ]
+    },
+    {
+      "t": "सप्ताह 2 और 5",
+      "of": "b5bf05e6",
+      "at": [
+        "gaston-day:catalog.camps[24].weeks"
+      ]
+    },
+    {
+      "t": "Coach Derek Bing के साथ अभ्यास और मैत्री मैच, जिन्होंने 2025 की राज्य-चैंपियन volleyball टीम को कोच किया।",
+      "of": "7d63a648",
+      "at": [
+        "gaston-day:catalog.camps[25].desc"
+      ]
+    },
+    {
+      "t": "उम्र 10–16",
+      "of": "4278a434",
+      "at": [
+        "gaston-day:catalog.camps[25].gradeLabel"
+      ]
+    },
+    {
+      "t": "सप्ताह 3, 6 और 8",
+      "of": "0e977b16",
+      "at": [
+        "gaston-day:catalog.camps[25].weeks"
+      ]
+    },
+    {
+      "t": "पढ़ने, गणित, लेखन और उससे आगे में एक-से-एक ट्यूशन — \"summer slump\" से लड़ने से लेकर सीधी शिक्षा तक। Gaston Day से बाहर के छात्रों के लिए भी खुला। Julie Dellibovi से संपर्क करें।",
+      "of": "2b4dfa21",
+      "at": [
+        "gaston-day:catalog.camps[26].desc"
+      ]
+    },
+    {
+      "t": "Rising K–12th",
+      "of": "a9ddd89c",
+      "at": [
+        "gaston-day:catalog.camps[26].gradeLabel"
+      ]
+    },
+    {
+      "t": "—",
+      "of": "113ed003",
+      "at": [
+        "gaston-day:catalog.camps[26].dayLabel"
+      ]
+    },
+    {
+      "t": "तय करके",
+      "of": "37231a48",
+      "at": [
+        "gaston-day:catalog.camps[26].hours"
+      ]
+    },
+    {
+      "t": "कैटलॉग कहता है \"CHECK BACK FREQUENTLY AS MORE ENRICHMENT CAMPS ARE BEING ADDED\", इसलिए संवर्धन की यह सूची अंतिम नहीं, बल्कि बढ़ता हुआ एक स्नैपशॉट है। FULL/प्रतीक्षा-सूची और रद्द की स्थितियाँ जैसी प्रकाशित थीं वैसी ही रखी गई हैं और अब तक बदल चुकी होंगी।",
+      "of": "10be8142",
+      "at": [
+        "gaston-day:catalog.flags[0].text"
+      ]
+    },
+    {
+      "t": "साझेदार कैंप की क़ीमतें (Children’s Theater of Charlotte, Legends, Studio Elite, 2-4-1 और Nike) हर प्रदाता ख़ुद तय करता है और उन्हीं का बिल बनता है, Gaston Day का नहीं, और वे स्कूल के कैटलॉग में प्रकाशित नहीं हैं — इसलिए उनका अनुमान लगाने के बजाय \"—\" दिखाया गया है।",
+      "of": "c5567d01",
+      "at": [
+        "gaston-day:catalog.flags[1].text"
+      ]
+    },
+    {
+      "t": "Camp Spartan के लिए सप्ताह 4 (22 जून वाला सप्ताह) में कोई कैंप नहीं है, और 29 जून वाले सप्ताह या 19 जून को कोई कैंप बिल्कुल नहीं है — कैटलॉग की सप्ताह-गिनती उसी हिसाब से आगे छलाँग लगाती है, इसलिए \"8 सप्ताह\" का मतलब लगातार आठ सप्ताह नहीं, बल्कि 1 जून से 31 जुलाई तक की अवधि है।",
+      "of": "aa9ac42b",
+      "at": [
+        "gaston-day:catalog.flags[2].text"
+      ]
+    },
+    {
+      "t": "Camp Spartan के पूरे दिन वाले सप्ताह की क़ीमत भोजन सहित $300 है; आधे दिन का संवर्धन कैंप $220 का है।",
+      "of": "f631177a",
+      "at": [
+        "gaston-day:costPlanner.headline"
+      ]
+    },
+    {
+      "t": "Wrap-around देखभाल की क़ीमत अलग और कम रखी गई है — कैंप से पहले के सप्ताह के लिए $25, बाद के सप्ताह के लिए $35।",
+      "of": "03442776",
+      "at": [
+        "gaston-day:costPlanner.subhead"
+      ]
+    },
+    {
+      "t": "Camp Spartan — पूरा दिन",
+      "of": "5c9ed476",
+      "at": [
+        "gaston-day:costPlanner.tiers[0].label"
+      ]
+    },
+    {
+      "t": "Camp Spartan · पूरा दिन · 8:30am-3:30pm",
+      "of": "31007937",
+      "at": [
+        "gaston-day:costPlanner.tiers[0].panelLabel"
+      ]
+    },
+    {
+      "t": "8:30am-3:30pm · भोजन शामिल · rising 1st-5th (Jr: rising PK-K)",
+      "of": "048aea3e",
+      "at": [
+        "gaston-day:costPlanner.tiers[0].detail"
+      ]
+    },
+    {
+      "t": "Camp Spartan — आधा दिन",
+      "of": "2dc769ee",
+      "at": [
+        "gaston-day:costPlanner.tiers[1].label"
+      ]
+    },
+    {
+      "t": "Camp Spartan · आधा दिन · AM या PM",
+      "of": "e8da5f9e",
+      "at": [
+        "gaston-day:costPlanner.tiers[1].panelLabel"
+      ]
+    },
+    {
+      "t": "AM 8:30-12pm or PM 12:30-3:30pm",
+      "of": "3d813cb3",
+      "at": [
+        "gaston-day:costPlanner.tiers[1].detail"
+      ]
+    },
+    {
+      "t": "आधे दिन का संवर्धन कैंप",
+      "of": "cd8fdb79",
+      "at": [
+        "gaston-day:costPlanner.tiers[2].label"
+      ]
+    },
+    {
+      "t": "आधे दिन का संवर्धन कैंप · 9am-12pm",
+      "of": "260e4514",
+      "at": [
+        "gaston-day:costPlanner.tiers[2].panelLabel"
+      ]
+    },
+    {
+      "t": "9am-12pm · हर सप्ताह एक थीम वाला कैंप",
+      "of": "73971cf9",
+      "at": [
+        "gaston-day:costPlanner.tiers[2].detail"
+      ]
+    },
+    {
+      "t": "सप्ताह 3 — पूरा दिन (छोटा सप्ताह)",
+      "of": "e80d2d38",
+      "at": [
+        "gaston-day:costPlanner.tiers[3].label"
+      ]
+    },
+    {
+      "t": "सप्ताह 3 · पूरा दिन · June 15-18, 19 जून को कैंप नहीं",
+      "of": "d5cdb2db",
+      "at": [
+        "gaston-day:costPlanner.tiers[3].panelLabel"
+      ]
+    },
+    {
+      "t": "चार दिन का सप्ताह — प्रकाशित छोटे-सप्ताह की दर",
+      "of": "b81ebac2",
+      "at": [
+        "gaston-day:costPlanner.tiers[3].detail",
+        "gaston-day:costPlanner.tiers[4].detail",
+        "gaston-day:costPlanner.tiers[5].detail"
+      ]
+    },
+    {
+      "t": "सप्ताह 3 — आधा दिन (छोटा सप्ताह)",
+      "of": "101202a4",
+      "at": [
+        "gaston-day:costPlanner.tiers[4].label"
+      ]
+    },
+    {
+      "t": "सप्ताह 3 · आधा दिन · June 15-18",
+      "of": "37c81d83",
+      "at": [
+        "gaston-day:costPlanner.tiers[4].panelLabel"
+      ]
+    },
+    {
+      "t": "सप्ताह 3 — संवर्धन (छोटा सप्ताह)",
+      "of": "90afb69a",
+      "at": [
+        "gaston-day:costPlanner.tiers[5].label"
+      ]
+    },
+    {
+      "t": "सप्ताह 3 · संवर्धन कैंप · June 15-18",
+      "of": "b9e270fe",
+      "at": [
+        "gaston-day:costPlanner.tiers[5].panelLabel"
+      ]
+    },
+    {
+      "t": "कैंप से पहले देखभाल · 7:45-8:30am",
+      "of": "fc4d73bf",
+      "at": [
+        "gaston-day:costPlanner.addons[0].label"
+      ]
+    },
+    {
+      "t": "कैंप के बाद देखभाल · 3:30-5:00pm",
+      "of": "66230c3f",
+      "at": [
+        "gaston-day:costPlanner.addons[1].label"
+      ]
+    },
+    {
+      "t": "कैंपों के बीच भोजन की देखभाल · 11:30am-12:30pm",
+      "of": "6e91863e",
+      "at": [
+        "gaston-day:costPlanner.addons[2].label"
+      ]
+    },
+    {
+      "t": "गर्मियों की ट्यूशन — आधा घंटा",
+      "of": "95a98a79",
+      "at": [
+        "gaston-day:costPlanner.fees[0].label"
+      ]
+    },
+    {
+      "t": "गर्मियों की ट्यूशन — पूरा घंटा",
+      "of": "3d1560cd",
+      "at": [
+        "gaston-day:costPlanner.fees[1].label"
+      ]
+    },
+    {
+      "t": "जो कैंपर सुबह और दोपहर के कैंप के बीच कैंपस पर रुकते हैं, उनके लिए Lunch Care अनिवार्य है, और उसमें Sparty’s Dining Service का भोजन शामिल है। यह पहले से ही पूरे दिन के Camp Spartan और Camp Spartan Jr की फ़ीस में शामिल है, इसलिए इसे केवल तब जोड़ें जब आधे-आधे दिन के दो कैंप मिला रहे हों।",
+      "of": "ec6bcc6e",
+      "at": [
+        "gaston-day:costPlanner.fees[2].label"
+      ]
+    },
+    {
+      "t": "पूरी फ़ीस नामांकन के समय Popsicle ऐप के ज़रिए देनी होती है। वापसी: कैंप शुरू होने से तीन या उससे अधिक सप्ताह पहले रद्द करने पर 50%; उसके बाद कुछ नहीं, और देर से आने या जल्दी जाने पर भी कुछ नहीं। अगर Gaston Day पर्याप्त नामांकन न होने पर कोई कैंप रद्द करता है तो वह कम-से-कम दो सप्ताह पहले सूचना देता है और पूरी राशि लौटाता है।",
+      "of": "8f3f90dd",
+      "at": [
+        "gaston-day:costPlanner.fees[3].label"
+      ]
+    },
+    {
+      "t": "साझेदार कैंप (Children’s Theater of Charlotte, Legends Sports Academy, Studio Elite, 2-4-1 और Nike Sports Camps) की क़ीमत और बिल हर प्रदाता ख़ुद बनाता है, और वे इस planner में शामिल नहीं हैं।",
+      "of": "ac8acdc7",
+      "at": [
+        "gaston-day:costPlanner.fees[4].label"
+      ]
+    },
+    {
+      "t": "पंजीकरण फ़रवरी में खुलता है",
+      "of": "0b4dad56",
+      "at": [
+        "gaston-day:costPlanner.aside.title"
+      ]
+    },
+    {
+      "t": "Gaston Day के परिवारों के लिए लिंक **सोमवार, Feb. 9th को दोपहर 12 बजे** Popsicle ऐप पर सक्रिय हो जाते हैं। गर्मियों की तस्वीर साफ़ होने के साथ परिवार लौटकर और कैंप जोड़ सकते हैं। कैंप ग़ैर-छात्रों के लिए भी खुले हैं — \"You do not have to be a student at Gaston Day to participate in summer camps!\"",
+      "of": "ec8b9fbd",
+      "at": [
+        "gaston-day:costPlanner.aside.text"
+      ]
+    },
+    {
+      "t": "पूरी गर्मी की अधिकतम सीमा 8 सप्ताह है, पर कोई भी एक कैंप आठों सप्ताह नहीं चलता और 29 जून वाले सप्ताह में कोई कैंप नहीं है — इसलिए 8 सप्ताह का कुल योजना बनाने की एक ऊपरी सीमा है, कोई ऐसी बुकिंग नहीं जो असल में हो सके।",
+      "of": "b1d14991",
+      "at": [
+        "gaston-day:costPlanner.flags[0].text"
+      ]
+    },
+    {
+      "t": "गर्मियों के कैंप के लिए न कोई भाई-बहन छूट, न कई सप्ताहों की छूट, न वित्तीय सहायता और न कोई early-bird दर प्रकाशित है, और न ही कोई प्रकाशित पंजीकरण शुल्क है।",
+      "of": "ea1315a4",
+      "at": [
+        "gaston-day:costPlanner.flags[1].text"
       ]
     }
   ]

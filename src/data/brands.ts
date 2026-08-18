@@ -73,6 +73,25 @@ export const BRANDS: Record<string, Brand> = {
     logo: '/logos/davidson-day.png',
     welcomeVideoUrl: 'https://www.youtube.com/embed/wTYvCc7FXCs',
   },
+  'gaston-day': {
+    // Spartans — navy & gold. #00263f is SAMPLED from the school's own wordmark
+    // (gaston-day-logo-blue-gold-01.png on gastonday.org), not eyeballed from a
+    // screenshot: the logo's dominant non-white pixel bucket quantizes to
+    // #002840, and the crest carries a lighter #183060. The planning note
+    // expected a near-collision needing a nudge — it turned out not to. At
+    // #00263f this is the DARKEST and most cyan-leaning navy in the set, clearly
+    // separable from Hickory Grove's #14396e and Charlotte Latin's #12294f
+    // (both lighter and more violet) and from Covenant Day's #002855 (more
+    // blue, less green). No adjustment was needed, so the badge is the school's
+    // real color rather than a distinguishable approximation of it.
+    // The brand also carries a real gold (#c8a058, ~10.9k pixels of the
+    // wordmark) — the planning note's "navy + white, no secondary accent" was
+    // wrong. Brand has no secondary-color field, so the gold is recorded here
+    // rather than dropped.
+    color: '#00263f',
+    initials: 'GD', // confirmed by the GD monogram on the school's crest
+    welcomeVideoUrl: 'https://www.youtube.com/embed/f1ohuLbiKJI', // user-chosen, 2026-08-18
+  },
   'hickory-grove-christian': {
     // Lions — navy & gold. #14396e is a mid-navy chosen to stay distinct from the
     // other blues: Covenant Day's #002855 (also "Lions — blue & gold") and

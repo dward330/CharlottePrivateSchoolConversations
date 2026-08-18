@@ -417,6 +417,35 @@ for (const s of STRUCTURED) {
     w('header, everything else suppresses it.')
     w()
   }
+  if (s.topic === 'student-clubs') {
+    // Standing rule set 2026-08-18, after the Gaston Day review found the whole
+    // general club roster on the affinity card AND the two roster cards missing
+    // entirely. The rule lives here because this doc is what /add-school and a
+    // new-school build read first.
+    w('**`affinity` is for IDENTITY groups only — not the general club roster.** It holds')
+    w('identity-based groups (Black Student Union, gender/sexuality alliance, multiracial,')
+    w('Jewish/Asian/Latine affinity, interfaith) and the DEI structure around them. Chess,')
+    w('Yearbook, Science Olympiad, robotics and language/cultural-interest clubs belong on')
+    w('the **Club Catalog & Overview** card (`src/data/clubCatalog.ts`) and the **Academic &')
+    w('Competitive Clubs** card (`src/data/clubClusters.ts`). A school with no named identity')
+    w('groups never gets a roster of interest clubs standing in for them: it either ships')
+    w('`groups: []` with a gap flag (Cannon, which at least publishes a sentence confirming')
+    w('affinity groups exist) or **omits the card entirely** (Gaston Day — user call,')
+    w('2026-08-18). Prefer omission where the school publishes nothing at all and the card')
+    w('would be only gap flags: that is the no-empty-cards rule, and a section of absences')
+    w('reads worse than no section.')
+    w()
+    w('**Those two roster cards are PROSE-metric cards, so they render only when the ingest')
+    w('produces their metric key.** `clubCatalog.ts` attaches to the `catalog` key and')
+    w('`clubClusters.ts` to `academic-clubs`; a correctly-written entry in either module')
+    w('renders NOTHING if no subtopic resolved to its key. Name the source-material files')
+    w('to the roster convention (`… - Student Clubs - Club Catalog and Overview.md`,')
+    w('`… - Academic and Competitive Clubs.md`) rather than relying on one combined file —')
+    w('a single file whose name matches an earlier `RULES` pattern (e.g. `/honor societ/i`)')
+    w('silently claims the whole topic and leaves the area rendering "No readable notes for')
+    w('this area yet". `check:metrics` cannot catch this: every subtopic DID match a rule.')
+    w()
+  }
   const missing = schools.map((x) => x.slug).filter((x) => !s.schools.includes(x))
   w(`**Schools with data:** ${s.schools.length}/${schools.length}` +
     (missing.length ? ` — absent: ${missing.map((m) => `\`${m}\``).join(', ')}` : ''))

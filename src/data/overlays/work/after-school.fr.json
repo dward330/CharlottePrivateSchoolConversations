@@ -136,7 +136,8 @@
         "charlotte-country-day:coverage.facts[2].label",
         "cannon:cost.fees[3].label",
         "carmel-christian:coverage.facts[4].label",
-        "carmel-christian:cost.fees[4].label"
+        "carmel-christian:cost.fees[4].label",
+        "gaston-day:coverage.facts[1].label"
       ],
       "t": "Récupération tardive"
     },
@@ -433,7 +434,8 @@
       "of": "d270c952",
       "at": [
         "providence-day:cost.fees[4].value",
-        "cannon:cost.fees[0].value"
+        "cannon:cost.fees[0].value",
+        "gaston-day:cost.fees[4].value"
       ],
       "t": "$25"
     },
@@ -1199,7 +1201,8 @@
         "charlotte-latin:coverage.summer.season",
         "charlotte-christian:coverage.summer.season",
         "charlotte-country-day:coverage.summer.season",
-        "cannon:coverage.summer.season"
+        "cannon:coverage.summer.season",
+        "gaston-day:coverage.summer.season"
       ],
       "t": "JUIN–JUIL."
     },
@@ -3123,7 +3126,8 @@
       "at": [
         "charlotte-country-day:coverage.facts[1].label",
         "covenant-day:cost.fees[0].label",
-        "carmel-christian:coverage.facts[3].label"
+        "carmel-christian:coverage.facts[3].label",
+        "gaston-day:coverage.facts[0].label"
       ],
       "t": "Accès libre"
     },
@@ -6826,6 +6830,816 @@
         "hickory-grove-christian:verdict.checklist[5]"
       ],
       "t": "Quelles solutions de garde existent pendant l’été, puisque le programme est fermé — au-delà des camps d’une demi-journée ?"
+    },
+    {
+      "text": "Care runs to 6:00 pm for Pre-K through 8th grade, split into a Lower School tier from 3:00 and a Middle School tier from 4:00.",
+      "of": "bfb77064",
+      "at": [
+        "gaston-day:coverage.headline"
+      ],
+      "t": "L’accueil fonctionne jusqu’à 6:00 pm de la Pre-K à la 8e année, réparti en un palier Lower School à partir de 3:00 et un palier Middle School à partir de 4:00."
+    },
+    {
+      "text": "Both tiers land in the same room by mid-afternoon; the difference is when each division’s day ends, not what the programme offers.",
+      "of": "3994541b",
+      "at": [
+        "gaston-day:coverage.subhead"
+      ],
+      "t": "Les deux paliers se retrouvent dans la même salle en milieu d’après-midi ; la différence tient à l’heure de fin de journée de chaque division, non à ce que le programme propose."
+    },
+    {
+      "text": "Prices shown are the published WEEKLY rates from the school’s 2025-26 Schedule of Tuition and Fees, which assume regular enrolment; the drop-in alternative is billed per day and is listed in the facts below. See the flags below — the programme web page labels near-identical figures as monthly.",
+      "of": "dd360eb1",
+      "at": [
+        "gaston-day:coverage.basisNote"
+      ],
+      "t": "Les prix affichés sont les tarifs HEBDOMADAIRES publiés dans le Schedule of Tuition and Fees 2025-26 de l’école, qui supposent une inscription régulière ; l’option d’accueil ponctuel est facturée à la journée et figure dans les faits ci-dessous. Voir les signalements ci-dessous — la page web du programme libelle des montants quasi identiques comme mensuels."
+    },
+    {
+      "text": "PS–4th · dismissal 3:00",
+      "of": "cf1739b4",
+      "at": [
+        "gaston-day:coverage.rows[0].dismissal"
+      ],
+      "t": "PS–4th · sortie 3:00"
+    },
+    {
+      "text": "After School Care · $95/week or $30/day",
+      "of": "582d1893",
+      "at": [
+        "gaston-day:coverage.rows[0].flatLabel"
+      ],
+      "t": "After School Care · $95/semaine ou $30/jour"
+    },
+    {
+      "text": "5th–8th · dismissal 4:00",
+      "of": "8c483b1b",
+      "at": [
+        "gaston-day:coverage.rows[1].dismissal"
+      ],
+      "t": "5th–8th · sortie 4:00"
+    },
+    {
+      "text": "After School Care · $55/week or $15/day",
+      "of": "0e52375e",
+      "at": [
+        "gaston-day:coverage.rows[1].flatLabel"
+      ],
+      "t": "After School Care · $55/semaine ou $15/jour"
+    },
+    {
+      "text": "9th–12th",
+      "of": "a9af72ca",
+      "at": [
+        "gaston-day:coverage.rows[2].dismissal"
+      ],
+      "t": "9th–12th"
+    },
+    {
+      "text": "Summer care is a separate programme with its own published rates — Camp Spartan full and half days plus before-camp care from 7:45 am and after-camp care to 5:00 pm. See the Summer Programs area.",
+      "of": "996e0810",
+      "at": [
+        "gaston-day:coverage.summer.text"
+      ],
+      "t": "L’accueil d’été est un programme distinct doté de ses propres tarifs publiés — journées complètes et demi-journées de Camp Spartan, plus une garde avant le camp dès 7:45 am et après le camp jusqu’à 5:00 pm. Voir la rubrique Summer Programs."
+    },
+    {
+      "text": "Available without weekly enrolment at **$30/day** (Lower School) and **$15/day** (Middle School). An **Extended Day Drop-In Fee of $25** also appears on the fee schedule.",
+      "of": "102fb295",
+      "at": [
+        "gaston-day:coverage.facts[0].text"
+      ],
+      "t": "Accessible sans inscription hebdomadaire à **$30/jour** (Lower School) et **$15/jour** (Middle School). Des **frais d’accueil ponctuel Extended Day de $25** figurent également sur le barème."
+    },
+    {
+      "text": "**$10 for the first 5 minutes**, then **$5 per additional 5-minute increment**. Pickup is from the front carpool line.",
+      "of": "2c280635",
+      "at": [
+        "gaston-day:coverage.facts[1].text"
+      ],
+      "t": "**$10 pour les 5 premières minutes**, puis **$5 par tranche supplémentaire de 5 minutes**. La récupération se fait depuis la file de covoiturage à l’avant."
+    },
+    {
+      "text": "Registration",
+      "of": "83988d98",
+      "at": [
+        "gaston-day:coverage.facts[2].label"
+      ],
+      "t": "Inscription"
+    },
+    {
+      "text": "Through the **Popsicle** app — the same platform the summer camps use. Registration is free and stated as taking under five minutes.",
+      "of": "339f1dae",
+      "at": [
+        "gaston-day:coverage.facts[2].text"
+      ],
+      "t": "Via l’application **Popsicle** — la même plateforme que celle utilisée par les camps d’été. L’inscription est gratuite et annoncée comme prenant moins de cinq minutes."
+    },
+    {
+      "text": "Staff contacts",
+      "of": "7085c0b2",
+      "at": [
+        "gaston-day:coverage.facts[3].label"
+      ],
+      "t": "Contacts du personnel"
+    },
+    {
+      "text": "**Letty Jimenez** (980.502.5817) and **Traci Harbin**.",
+      "of": "bc1cdbb7",
+      "at": [
+        "gaston-day:coverage.facts[3].text"
+      ],
+      "t": "**Letty Jimenez** (980.502.5817) et **Traci Harbin**."
+    },
+    {
+      "text": "Music lessons interlock",
+      "of": "52c051cc",
+      "at": [
+        "gaston-day:coverage.facts[4].label"
+      ],
+      "t": "Articulation avec les cours de musique"
+    },
+    {
+      "text": "Middle School students waiting for a music lesson (**$35/lesson**) may work on homework in aftercare **at no charge**.",
+      "of": "df2e3b63",
+      "at": [
+        "gaston-day:coverage.facts[4].text"
+      ],
+      "t": "Les élèves du Middle School qui attendent un cours de musique (**$35/cours**) peuvent faire leurs devoirs à l’accueil périscolaire **sans frais**."
+    },
+    {
+      "text": "No Upper School care",
+      "of": "49913287",
+      "at": [
+        "gaston-day:coverage.facts[5].label"
+      ],
+      "t": "Aucun accueil à l’Upper School"
+    },
+    {
+      "text": "The programme covers **Pre-K through 8th grade only**. No after-school care is published for grades 9–12, which is normal on this roster but worth stating.",
+      "of": "e87b6e65",
+      "at": [
+        "gaston-day:coverage.facts[5].text"
+      ],
+      "t": "Le programme couvre **uniquement de la Pre-K à la 8e année**. Aucun accueil périscolaire n’est publié pour les niveaux 9 à 12, ce qui est habituel sur cette liste mais mérite d’être précisé."
+    },
+    {
+      "text": "The programme page says **3:15–5:30 pm** for both divisions; the 2025-26 fee schedule says **3:00–6:00** (Lower School) and **4:00–6:00** (Middle School). Both are shown here: the fee schedule sets the rates and the Compare row’s 6:00 pm latest pickup, the page sets the afternoon rhythm. A family should confirm the current window at enrolment.",
+      "of": "5998fe68",
+      "at": [
+        "gaston-day:coverage.flags[0].text"
+      ],
+      "t": "La page du programme indique **3:15–5:30 pm** pour les deux divisions ; le barème 2025-26 indique **3:00–6:00** (Lower School) et **4:00–6:00** (Middle School). Les deux sont présentés ici : le barème fixe les tarifs et l’heure de récupération la plus tardive de 6:00 pm de la ligne Compare, la page fixe le rythme de l’après-midi. Une famille devrait confirmer la plage horaire actuelle au moment de l’inscription."
+    },
+    {
+      "text": "The page prices weekly enrolment at **$100/month** (LS) and **$60/month** (MS); the fee schedule says **$95/week** and **$55/week**. The drop-in rates ($30/day, $15/day) are identical in both. The per-week reading is used, since a monthly rate below four drop-in days is not economically coherent.",
+      "of": "27660033",
+      "at": [
+        "gaston-day:coverage.flags[1].text"
+      ],
+      "t": "La page tarifie l’inscription hebdomadaire à **$100/mois** (LS) et **$60/mois** (MS) ; le barème indique **$95/semaine** et **$55/semaine**. Les tarifs d’accueil ponctuel ($30/jour, $15/jour) sont identiques dans les deux. C’est la lecture hebdomadaire qui est retenue, puisqu’un tarif mensuel inférieur à quatre journées ponctuelles n’est pas économiquement cohérent."
+    },
+    {
+      "text": "At $95 a week for the Lower School and $55 for the Middle School, this is among the least expensive aftercare on the roster.",
+      "of": "b133484b",
+      "at": [
+        "gaston-day:cost.headline"
+      ],
+      "t": "À $95 par semaine pour la Lower School et $55 pour la Middle School, c’est l’un des accueils périscolaires les moins chers de la liste."
+    },
+    {
+      "text": "A full school year of five-day Lower School care comes to roughly $3,420 across 36 weeks — before any drop-in days or late fees.",
+      "of": "01cdd883",
+      "at": [
+        "gaston-day:cost.subhead"
+      ],
+      "t": "Une année scolaire complète d’accueil cinq jours par semaine en Lower School revient à environ $3,420 sur 36 semaines — avant toute journée ponctuelle ou tout frais de retard."
+    },
+    {
+      "text": "36 school weeks",
+      "of": "6584e6c5",
+      "at": [
+        "gaston-day:cost.periodsLabel"
+      ],
+      "t": "36 semaines scolaires"
+    },
+    {
+      "text": "Lower School · PS–4th",
+      "of": "6def2ab3",
+      "at": [
+        "gaston-day:cost.rows[0].label"
+      ],
+      "t": "Lower School · PS–4th"
+    },
+    {
+      "text": "Lower School · PS–4th · weekly enrolment",
+      "of": "2a3329f1",
+      "at": [
+        "gaston-day:cost.rows[0].panelLabel"
+      ],
+      "t": "Lower School · PS–4th · inscription hebdomadaire"
+    },
+    {
+      "text": "Middle School · 5th–8th",
+      "of": "fb8f86b9",
+      "at": [
+        "gaston-day:cost.rows[1].label"
+      ],
+      "t": "Middle School · 5th–8th"
+    },
+    {
+      "text": "Middle School · 5th–8th · weekly enrolment",
+      "of": "40f4e72f",
+      "at": [
+        "gaston-day:cost.rows[1].panelLabel"
+      ],
+      "t": "Middle School · 5th–8th · inscription hebdomadaire"
+    },
+    {
+      "text": "Lower School · drop-in",
+      "of": "1242df14",
+      "at": [
+        "gaston-day:cost.rows[2].label",
+        "gaston-day:cost.fees[1].label"
+      ],
+      "t": "Lower School · accueil ponctuel"
+    },
+    {
+      "text": "Lower School · drop-in, per day",
+      "of": "7814d415",
+      "at": [
+        "gaston-day:cost.rows[2].panelLabel"
+      ],
+      "t": "Lower School · accueil ponctuel, par jour"
+    },
+    {
+      "text": "Middle School · drop-in",
+      "of": "d3902c6e",
+      "at": [
+        "gaston-day:cost.rows[3].label",
+        "gaston-day:cost.fees[3].label"
+      ],
+      "t": "Middle School · accueil ponctuel"
+    },
+    {
+      "text": "Middle School · drop-in, per day",
+      "of": "03f1264f",
+      "at": [
+        "gaston-day:cost.rows[3].panelLabel"
+      ],
+      "t": "Middle School · accueil ponctuel, par jour"
+    },
+    {
+      "text": "The weekly rate is flat, so it does not scale with days",
+      "of": "92618b50",
+      "at": [
+        "gaston-day:cost.aside.title"
+      ],
+      "t": "Le tarif hebdomadaire est forfaitaire : il n’augmente donc pas avec le nombre de jours"
+    },
+    {
+      "text": "The published $95 and $55 figures are weekly enrolment rates that do not vary by how many afternoons a child attends — which is why those two rows show the same price in every column. Drop-in is the alternative that scales: at Lower School rates, drop-in beats weekly enrolment up to three days a week ($90 vs $95) and loses from four ($120 vs $95).",
+      "of": "53262328",
+      "at": [
+        "gaston-day:cost.aside.text"
+      ],
+      "t": "Les montants publiés de $95 et $55 sont des tarifs d’inscription hebdomadaire qui ne varient pas selon le nombre d’après-midi passés par l’enfant — c’est pourquoi ces deux lignes affichent le même prix dans chaque colonne. L’accueil ponctuel est l’option qui, elle, évolue : aux tarifs de la Lower School, il est plus avantageux que l’inscription hebdomadaire jusqu’à trois jours par semaine ($90 contre $95) et devient plus coûteux à partir de quatre ($120 contre $95)."
+    },
+    {
+      "text": "Lower School · weekly enrolment",
+      "of": "519b3e4e",
+      "at": [
+        "gaston-day:cost.fees[0].label"
+      ],
+      "t": "Lower School · inscription hebdomadaire"
+    },
+    {
+      "text": "$95/week",
+      "of": "cf4c30e6",
+      "at": [
+        "gaston-day:cost.fees[0].value"
+      ],
+      "t": "$95/semaine"
+    },
+    {
+      "text": "$30/day",
+      "of": "35289245",
+      "at": [
+        "gaston-day:cost.fees[1].value"
+      ],
+      "t": "$30/jour"
+    },
+    {
+      "text": "Middle School · weekly enrolment",
+      "of": "219b70a8",
+      "at": [
+        "gaston-day:cost.fees[2].label"
+      ],
+      "t": "Middle School · inscription hebdomadaire"
+    },
+    {
+      "text": "$55/week",
+      "of": "84acf482",
+      "at": [
+        "gaston-day:cost.fees[2].value"
+      ],
+      "t": "$55/semaine"
+    },
+    {
+      "text": "$15/day",
+      "of": "431b12c0",
+      "at": [
+        "gaston-day:cost.fees[3].value"
+      ],
+      "t": "$15/jour"
+    },
+    {
+      "text": "Extended Day Drop-In Fee",
+      "of": "0215e91d",
+      "at": [
+        "gaston-day:cost.fees[4].label"
+      ],
+      "t": "Frais d’accueil ponctuel Extended Day"
+    },
+    {
+      "text": "Music lessons",
+      "of": "4d585419",
+      "at": [
+        "gaston-day:cost.fees[5].label"
+      ],
+      "t": "Cours de musique"
+    },
+    {
+      "text": "$35/lesson",
+      "of": "1e35d0b4",
+      "at": [
+        "gaston-day:cost.fees[5].value"
+      ],
+      "t": "$35/cours"
+    },
+    {
+      "text": "Late pickup — first 5 minutes",
+      "of": "ff00cd0b",
+      "at": [
+        "gaston-day:cost.fees[6].label"
+      ],
+      "t": "Récupération tardive — 5 premières minutes"
+    },
+    {
+      "text": "$10",
+      "of": "d5730ca2",
+      "at": [
+        "gaston-day:cost.fees[6].value"
+      ],
+      "t": "$10"
+    },
+    {
+      "text": "Late pickup — each further 5 minutes",
+      "of": "c96277d8",
+      "at": [
+        "gaston-day:cost.fees[7].label"
+      ],
+      "t": "Récupération tardive — chaque tranche de 5 minutes supplémentaire"
+    },
+    {
+      "text": "$5",
+      "of": "0cbbb472",
+      "at": [
+        "gaston-day:cost.fees[7].value"
+      ],
+      "t": "$5"
+    },
+    {
+      "text": "The 36-week year is this project’s standard planning assumption for comparability across schools, not a figure Gaston Day publishes. The school states no annual aftercare total, no registration fee, no sibling discount and no tuition-insurance terms for the programme.",
+      "of": "b09c2dcd",
+      "at": [
+        "gaston-day:cost.fees[8].label"
+      ],
+      "t": "L’année de 36 semaines est l’hypothèse de calcul standard de ce projet, retenue pour permettre la comparaison entre écoles, et non un chiffre publié par Gaston Day. L’école n’indique aucun total annuel d’accueil périscolaire, aucun frais d’inscription, aucune réduction fratrie et aucune condition d’assurance scolarité pour ce programme."
+    },
+    {
+      "text": "The programme page labels these same figures as **$100/month** and **$60/month**. The weekly reading from the official fee schedule is used — see the Coverage card’s flag for why.",
+      "of": "38c63975",
+      "at": [
+        "gaston-day:cost.flags[0].text"
+      ],
+      "t": "La page du programme libelle ces mêmes montants comme **$100/mois** et **$60/mois**. C’est la lecture hebdomadaire du barème officiel qui est retenue — voir le signalement de la carte Couverture pour les raisons."
+    },
+    {
+      "text": "No registration fee, sibling discount, financial-aid pathway or annual cap is published for aftercare specifically.",
+      "of": "e3faf456",
+      "at": [
+        "gaston-day:cost.flags[1].text"
+      ],
+      "t": "Aucun frais d’inscription, réduction fratrie, voie d’aide financière ni plafond annuel n’est publié pour l’accueil périscolaire en particulier."
+    },
+    {
+      "text": "A published minute-by-minute afternoon: choice time, then snack and homework by grade level, then a STEAM group activity, then choice time again.",
+      "of": "1bccbb9a",
+      "at": [
+        "gaston-day:dayInside.headline"
+      ],
+      "t": "Un après-midi publié minute par minute : temps libre, puis goûter et devoirs par niveau, puis une activité de groupe STEAM, puis de nouveau du temps libre."
+    },
+    {
+      "text": "Unusually for this roster, Gaston Day prints the actual clock rather than describing the programme in general terms.",
+      "of": "c36b3b7c",
+      "at": [
+        "gaston-day:dayInside.subhead"
+      ],
+      "t": "Fait inhabituel sur cette liste, Gaston Day publie l’horaire réel plutôt que de décrire le programme en termes généraux."
+    },
+    {
+      "text": "The published afternoon",
+      "of": "0e782ef2",
+      "at": [
+        "gaston-day:dayInside.rhythmTitle"
+      ],
+      "t": "L’après-midi tel qu’il est publié"
+    },
+    {
+      "text": "3:15",
+      "of": "c192caea",
+      "at": [
+        "gaston-day:dayInside.rhythm[0].time"
+      ],
+      "t": "3:15"
+    },
+    {
+      "text": "Relax / Choice Time",
+      "of": "f1c538d8",
+      "at": [
+        "gaston-day:dayInside.rhythm[0].name"
+      ],
+      "t": "Relax / Choice Time"
+    },
+    {
+      "text": "Playground, games and socialising as students arrive from Lower School dismissal.",
+      "of": "9417de3a",
+      "at": [
+        "gaston-day:dayInside.rhythm[0].detail"
+      ],
+      "t": "Aire de jeux, jeux et vie sociale à mesure que les élèves arrivent après la sortie de la Lower School."
+    },
+    {
+      "text": "4:00",
+      "of": "ce552613",
+      "at": [
+        "gaston-day:dayInside.rhythm[1].time"
+      ],
+      "t": "4:00"
+    },
+    {
+      "text": "Snack & homework",
+      "of": "d68abdef",
+      "at": [
+        "gaston-day:dayInside.rhythm[1].name"
+      ],
+      "t": "Goûter et devoirs"
+    },
+    {
+      "text": "Separated by grade level. Snack is distributed around 4:15; students may bring their own in addition.",
+      "of": "c59bbc29",
+      "at": [
+        "gaston-day:dayInside.rhythm[1].detail"
+      ],
+      "t": "Séparés par niveau. Le goûter est distribué vers 4:15 ; les élèves peuvent en apporter un en plus."
+    },
+    {
+      "text": "4:25",
+      "of": "e550cd1a",
+      "at": [
+        "gaston-day:dayInside.rhythm[2].time"
+      ],
+      "t": "4:25"
+    },
+    {
+      "text": "Whole-group activity",
+      "of": "2c6c1acb",
+      "at": [
+        "gaston-day:dayInside.rhythm[2].name"
+      ],
+      "t": "Activité en groupe entier"
+    },
+    {
+      "text": "Emphasising STEAM and collaboration — the one structured, all-together block of the afternoon.",
+      "of": "0585bbbc",
+      "at": [
+        "gaston-day:dayInside.rhythm[2].detail"
+      ],
+      "t": "Mettant l’accent sur le STEAM et la collaboration — l’unique bloc structuré et collectif de l’après-midi."
+    },
+    {
+      "text": "4:55",
+      "of": "655ccf8d",
+      "at": [
+        "gaston-day:dayInside.rhythm[3].time"
+      ],
+      "t": "4:55"
+    },
+    {
+      "text": "Choice time",
+      "of": "653f0203",
+      "at": [
+        "gaston-day:dayInside.rhythm[3].name"
+      ],
+      "t": "Temps libre"
+    },
+    {
+      "text": "Free choice until pickup. Tech activities are available on Fridays only.",
+      "of": "81a4aadd",
+      "at": [
+        "gaston-day:dayInside.rhythm[3].detail"
+      ],
+      "t": "Choix libre jusqu’à la récupération. Les activités numériques ne sont proposées que le vendredi."
+    },
+    {
+      "text": "In the school’s own words",
+      "of": "ce7ecbde",
+      "at": [
+        "gaston-day:dayInside.wordsTitle"
+      ],
+      "t": "Dans les mots de l’école"
+    },
+    {
+      "text": "Relax/Choice Time",
+      "of": "2f656d06",
+      "at": [
+        "gaston-day:dayInside.words[0]"
+      ],
+      "t": "Relax/Choice Time"
+    },
+    {
+      "text": "STEAM",
+      "of": "785075d3",
+      "at": [
+        "gaston-day:dayInside.words[1]"
+      ],
+      "t": "STEAM"
+    },
+    {
+      "text": "collaboration",
+      "of": "833642b6",
+      "at": [
+        "gaston-day:dayInside.words[2]"
+      ],
+      "t": "collaboration"
+    },
+    {
+      "text": "homework help",
+      "of": "ec528e6e",
+      "at": [
+        "gaston-day:dayInside.words[3]"
+      ],
+      "t": "aide aux devoirs"
+    },
+    {
+      "text": "snack",
+      "of": "ae0af9ed",
+      "at": [
+        "gaston-day:dayInside.words[4]"
+      ],
+      "t": "goûter"
+    },
+    {
+      "text": "grade-level groups",
+      "of": "e8ad37b1",
+      "at": [
+        "gaston-day:dayInside.words[5]"
+      ],
+      "t": "groupes par niveau"
+    },
+    {
+      "text": "The programme is framed around a decompression-then-structure rhythm: students arrive to unstructured play, move into a separated homework and snack window, come together for a STEAM-and-collaboration block, then return to choice. Middle School students waiting for music lessons may work on homework at no charge, which is the one explicit interlock with another school programme.",
+      "of": "e3eb036a",
+      "at": [
+        "gaston-day:dayInside.wordsText"
+      ],
+      "t": "Le programme est construit autour d’un rythme décompression-puis-structure : les élèves arrivent pour un temps de jeu libre, passent à une plage séparée de devoirs et de goûter, se réunissent pour un bloc STEAM et collaboration, puis reviennent au temps libre. Les élèves du Middle School qui attendent un cours de musique peuvent faire leurs devoirs sans frais, ce qui constitue la seule articulation explicite avec un autre programme de l’école."
+    },
+    {
+      "text": "Enrichment classes",
+      "of": "5e669198",
+      "at": [
+        "gaston-day:dayInside.catalogTitle"
+      ],
+      "t": "Cours d’enrichissement"
+    },
+    {
+      "text": "The school lists enrichment programmes as **“coming soon”** at the time of this research, so there is no class catalog to show. This is a genuine absence rather than an un-researched gap — the section exists on the page with no offerings in it.",
+      "of": "4d9e2ec3",
+      "at": [
+        "gaston-day:dayInside.catalogIntro"
+      ],
+      "t": "L’école indique les programmes d’enrichissement comme **« coming soon »** au moment de cette recherche : il n’y a donc pas de catalogue de cours à présenter. Il s’agit d’une véritable absence et non d’une lacune non investiguée — la rubrique existe sur la page sans aucune offre à l’intérieur."
+    },
+    {
+      "text": "Enrichment offerings are advertised as \"coming soon\" with no classes, days, grades or fees published — so no catalog is shown rather than an empty one.",
+      "of": "e8b6c7b8",
+      "at": [
+        "gaston-day:dayInside.flags[0].text"
+      ],
+      "t": "Les offres d’enrichissement sont annoncées comme \"coming soon\", sans cours, jours, niveaux ni tarifs publiés — aucun catalogue n’est donc présenté plutôt qu’un catalogue vide."
+    },
+    {
+      "text": "This rhythm is the web page’s 3:15–5:30 window. The fee schedule’s window runs 3:00–6:00 (Lower School), so the published blocks may start 15 minutes earlier and run 30 minutes later than shown.",
+      "of": "319251b2",
+      "at": [
+        "gaston-day:dayInside.flags[1].text"
+      ],
+      "t": "Ce rythme correspond à la plage 3:15–5:30 de la page web. La plage du barème va de 3:00 à 6:00 (Lower School) : les blocs publiés peuvent donc commencer 15 minutes plus tôt et se terminer 30 minutes plus tard que ce qui est indiqué."
+    },
+    {
+      "text": "No staff-to-child ratio, capacity, or policy for early-dismissal and teacher-workday coverage is published.",
+      "of": "ec1c2e32",
+      "at": [
+        "gaston-day:dayInside.flags[2].text"
+      ],
+      "t": "Aucun taux d’encadrement adulte/enfant, aucune capacité d’accueil et aucune politique de prise en charge lors des sorties anticipées et des journées pédagogiques n’est publiée."
+    },
+    {
+      "text": "Cheap, published in detail, and genuinely structured — but with an unresolved conflict between the school’s two own sources on both hours and billing period.",
+      "of": "c7b15ee8",
+      "at": [
+        "gaston-day:verdict.headline"
+      ],
+      "t": "Bon marché, publié en détail et véritablement structuré — mais avec un conflit non résolu entre les deux sources de l’école elle-même, tant sur les horaires que sur la période de facturation."
+    },
+    {
+      "text": "For a family that needs care to 6:00 pm, this is the least expensive option on the roster; confirm the window before relying on it.",
+      "of": "c86428c6",
+      "at": [
+        "gaston-day:verdict.subhead"
+      ],
+      "t": "Pour une famille qui a besoin d’un accueil jusqu’à 6:00 pm, c’est l’option la moins chère de la liste ; confirmez la plage horaire avant de compter dessus."
+    },
+    {
+      "text": "What holds up",
+      "of": "1d3ad71e",
+      "at": [
+        "gaston-day:verdict.strengthsTitle"
+      ],
+      "t": "Ce qui tient"
+    },
+    {
+      "text": "**The price is the lowest here.** $95/week for Lower School and $55/week for Middle School, with drop-in at $30 and $15 — no registration fee published.",
+      "of": "9dfdd473",
+      "at": [
+        "gaston-day:verdict.strengths[0]"
+      ],
+      "t": "**Le prix est le plus bas ici.** $95/semaine pour la Lower School et $55/semaine pour la Middle School, avec un accueil ponctuel à $30 et $15 — aucun frais d’inscription publié."
+    },
+    {
+      "text": "**The afternoon is published minute by minute.** Four named blocks with times, rather than a general description of \"supervision and activities\".",
+      "of": "b689257a",
+      "at": [
+        "gaston-day:verdict.strengths[1]"
+      ],
+      "t": "**L’après-midi est publié minute par minute.** Quatre blocs nommés avec leurs horaires, plutôt qu’une description générale de type \"supervision et activités\"."
+    },
+    {
+      "text": "**Homework is a scheduled block, not an afterthought** — 4:00–4:25, separated by grade level, with snack alongside.",
+      "of": "5dc433b8",
+      "at": [
+        "gaston-day:verdict.strengths[2]"
+      ],
+      "t": "**Les devoirs constituent un bloc programmé, pas une arrière-pensée** — de 4:00 à 4:25, séparés par niveau, avec le goûter en parallèle."
+    },
+    {
+      "text": "**There is a structured group activity every day** built around STEAM and collaboration, so the afternoon is not purely custodial.",
+      "of": "aea8dfb2",
+      "at": [
+        "gaston-day:verdict.strengths[3]"
+      ],
+      "t": "**Il y a chaque jour une activité de groupe structurée** construite autour du STEAM et de la collaboration : l’après-midi n’est donc pas purement de la garde."
+    },
+    {
+      "text": "**Coverage runs to 6:00 pm** on the fee schedule — later than several peers, and covering the full Pre-K–8 span in two tiers.",
+      "of": "70978dc2",
+      "at": [
+        "gaston-day:verdict.strengths[4]"
+      ],
+      "t": "**La couverture va jusqu’à 6:00 pm** selon le barème — plus tard que plusieurs écoles homologues, et couvrant toute la tranche Pre-K–8 en deux paliers."
+    },
+    {
+      "text": "**It interlocks with music lessons**, letting Middle School students do homework free while waiting.",
+      "of": "2044a7e9",
+      "at": [
+        "gaston-day:verdict.strengths[5]"
+      ],
+      "t": "**Il s’articule avec les cours de musique**, en permettant aux élèves du Middle School de faire leurs devoirs gratuitement pendant qu’ils attendent."
+    },
+    {
+      "text": "What to check",
+      "of": "2252120c",
+      "at": [
+        "gaston-day:verdict.watchoutsTitle"
+      ],
+      "t": "Ce qu’il faut vérifier"
+    },
+    {
+      "text": "**The hours conflict.** 3:15–5:30 on the programme page versus 3:00–6:00 and 4:00–6:00 on the fee schedule — a 30-minute difference at the end of the day that matters if you are relying on it.",
+      "of": "8d56262d",
+      "at": [
+        "gaston-day:verdict.watchouts[0]"
+      ],
+      "t": "**Les horaires se contredisent.** 3:15–5:30 sur la page du programme contre 3:00–6:00 et 4:00–6:00 sur le barème — un écart de 30 minutes en fin de journée qui compte si vous comptez dessus."
+    },
+    {
+      "text": "**The billing period conflicts.** \"$100/month\" on the page versus \"$95/week\" on the fee schedule. These are very different annual totals; confirm which you will be billed.",
+      "of": "5c58535c",
+      "at": [
+        "gaston-day:verdict.watchouts[1]"
+      ],
+      "t": "**La période de facturation se contredit.** \"$100/mois\" sur la page contre \"$95/semaine\" sur le barème. Les totaux annuels sont très différents ; confirmez lequel vous sera facturé."
+    },
+    {
+      "text": "**Enrichment is \"coming soon\"** — the extras that other schools bundle into aftercare do not exist here yet.",
+      "of": "8f4fe97c",
+      "at": [
+        "gaston-day:verdict.watchouts[2]"
+      ],
+      "t": "**L’enrichissement est annoncé \"coming soon\"** — les compléments que d’autres écoles intègrent à l’accueil périscolaire n’existent pas encore ici."
+    },
+    {
+      "text": "**No Upper School care.** Grades 9–12 have no published after-school programme.",
+      "of": "9223cc40",
+      "at": [
+        "gaston-day:verdict.watchouts[3]"
+      ],
+      "t": "**Aucun accueil à l’Upper School.** Les niveaux 9 à 12 n’ont aucun programme périscolaire publié."
+    },
+    {
+      "text": "**Late fees start fast** — $10 within the first five minutes, then $5 per five minutes.",
+      "of": "36eb907a",
+      "at": [
+        "gaston-day:verdict.watchouts[4]"
+      ],
+      "t": "**Les frais de retard démarrent vite** — $10 dès les cinq premières minutes, puis $5 par tranche de cinq minutes."
+    },
+    {
+      "text": "**Nothing published on ratios or capacity**, so there is no way to know how many children one adult supervises.",
+      "of": "594884f3",
+      "at": [
+        "gaston-day:verdict.watchouts[5]"
+      ],
+      "t": "**Rien n’est publié sur les taux d’encadrement ni sur la capacité d’accueil** : impossible donc de savoir combien d’enfants un adulte surveille."
+    },
+    {
+      "text": "Which is current — 3:15–5:30 on the website, or the 3:00–6:00 and 4:00–6:00 on the fee schedule?",
+      "of": "6384b23c",
+      "at": [
+        "gaston-day:verdict.checklist[0]"
+      ],
+      "t": "Laquelle est en vigueur — 3:15–5:30 sur le site web, ou les plages 3:00–6:00 et 4:00–6:00 du barème ?"
+    },
+    {
+      "text": "Is the recurring rate $95 a week or $100 a month? What is the actual annual cost for five days?",
+      "of": "6f700ad8",
+      "at": [
+        "gaston-day:verdict.checklist[1]"
+      ],
+      "t": "Le tarif récurrent est-il de $95 par semaine ou de $100 par mois ? Quel est le coût annuel réel pour cinq jours ?"
+    },
+    {
+      "text": "What is the staff-to-child ratio, and how many children are typically in the room by 5 pm?",
+      "of": "ee9c4745",
+      "at": [
+        "gaston-day:verdict.checklist[2]"
+      ],
+      "t": "Quel est le taux d’encadrement adulte/enfant, et combien d’enfants se trouvent habituellement dans la salle à 5 pm ?"
+    },
+    {
+      "text": "When will enrichment classes start, what will they cost, and are they inside the base rate?",
+      "of": "87987c15",
+      "at": [
+        "gaston-day:verdict.checklist[3]"
+      ],
+      "t": "Quand les cours d’enrichissement commenceront-ils, combien coûteront-ils, et sont-ils compris dans le tarif de base ?"
+    },
+    {
+      "text": "Does aftercare run on early-dismissal days, teacher workdays and exam days?",
+      "of": "f8e6c385",
+      "at": [
+        "gaston-day:verdict.checklist[4]"
+      ],
+      "t": "L’accueil périscolaire fonctionne-t-il les jours de sortie anticipée, les journées pédagogiques et les jours d’examen ?"
+    },
+    {
+      "text": "Is there any financial-aid pathway or sibling discount for aftercare, as there is for tuition?",
+      "of": "3a923a3f",
+      "at": [
+        "gaston-day:verdict.checklist[5]"
+      ],
+      "t": "Existe-t-il une voie d’aide financière ou une réduction fratrie pour l’accueil périscolaire, comme il en existe pour les frais de scolarité ?"
+    },
+    {
+      "text": "How is the 5th–8th grade tier supervised differently from the Pre-K–4th tier once both are in the same room?",
+      "of": "d1678ff8",
+      "at": [
+        "gaston-day:verdict.checklist[6]"
+      ],
+      "t": "En quoi l’encadrement du palier 5th–8th diffère-t-il de celui du palier Pre-K–4th une fois que les deux se retrouvent dans la même salle ?"
     }
   ]
 }

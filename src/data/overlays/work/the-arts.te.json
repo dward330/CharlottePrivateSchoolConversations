@@ -107,7 +107,8 @@
         "providence-day:ladder.divisions[1].grades",
         "charlotte-latin:ladder.divisions[1].grades",
         "cannon:ladder.divisions[1].grades",
-        "davidson-day:ladder.divisions[1].grades"
+        "davidson-day:ladder.divisions[1].grades",
+        "gaston-day:ladder.divisions[1].grades"
       ],
       "t": "5–8"
     },
@@ -163,7 +164,8 @@
         "covenant-day:ladder.divisions[2].grades",
         "davidson-day:ladder.divisions[2].grades",
         "carmel-christian:ladder.divisions[2].grades",
-        "hickory-grove-christian:ladder.divisions[2].grades"
+        "hickory-grove-christian:ladder.divisions[2].grades",
+        "gaston-day:ladder.divisions[2].grades"
       ],
       "t": "9–12"
     },
@@ -341,7 +343,8 @@
         "charlotte-christian:visual.exhibits[0].when",
         "charlotte-country-day:theatre.season[2].season",
         "covenant-day:visual.exhibits[1].when",
-        "carmel-christian:theatre.season[1].season"
+        "carmel-christian:theatre.season[1].season",
+        "gaston-day:theatre.season[1].season"
       ],
       "t": "వసంతం"
     },
@@ -350,7 +353,8 @@
       "of": "346c73d9",
       "at": [
         "providence-day:theatre.season[1].kind",
-        "charlotte-country-day:theatre.season[1].kind"
+        "charlotte-country-day:theatre.season[1].kind",
+        "gaston-day:theatre.season[1].kind"
       ],
       "t": "సంగీత నాటకం"
     },
@@ -3077,7 +3081,9 @@
       "at": [
         "charlotte-country-day:visual.exhibits[0].when",
         "cannon:visual.exhibits[2].when",
-        "carmel-christian:visual.exhibits[0].when"
+        "carmel-christian:visual.exhibits[0].when",
+        "gaston-day:visual.exhibits[0].when",
+        "gaston-day:visual.exhibits[1].when"
       ],
       "t": "వార్షికం"
     },
@@ -4880,7 +4886,8 @@
       "text": "fine arts required to graduate",
       "of": "279b1430",
       "at": [
-        "davidson-day:ladder.stats[3].label"
+        "davidson-day:ladder.stats[3].label",
+        "gaston-day:ladder.stats[1].label"
       ],
       "t": "ఉత్తీర్ణతకు అవసరమైన లలిత కళలు"
     },
@@ -6430,7 +6437,8 @@
       "text": "Middle School",
       "of": "15441234",
       "at": [
-        "hickory-grove-christian:music.tracks[1].label"
+        "hickory-grove-christian:music.tracks[1].label",
+        "gaston-day:music.tracks[0].label"
       ],
       "t": "Middle School"
     },
@@ -6681,6 +6689,734 @@
         "hickory-grove-christian:verdict.ask[4]"
       ],
       "t": "పేజీలో ప్రస్తావించని National Art Honor Society గానీ, ఏదైనా బాహ్య దృశ్య కళల గుర్తింపు (Scholastic) గానీ ఉందా?"
+    },
+    {
+      "text": "Drama starts in second grade and runs unbroken to Visual Art IV Honors — a PS-12 arts ladder anchored by a named 550-seat arts centre.",
+      "of": "8dc4781c",
+      "at": [
+        "gaston-day:ladder.headline"
+      ],
+      "t": "నాటకం రెండో తరగతిలో మొదలై Visual Art IV Honors వరకు నిరంతరాయంగా సాగుతుంది — పేరు పెట్టిన 550-సీట్ల కళా కేంద్రం ఆధారంగా నిలిచిన PS-12 కళల నిచ్చెన."
+    },
+    {
+      "text": "Two years of fine arts are required to graduate, and the arts sit inside the classroom rather than beside it: in the Lower School, music, art and drama lessons are coordinated with the units of study being taught.",
+      "of": "b15727b7",
+      "at": [
+        "gaston-day:ladder.subhead"
+      ],
+      "t": "పట్టభద్రత కోసం రెండు సంవత్సరాల fine arts తప్పనిసరి, మరియు కళలు తరగతి గది పక్కన కాక దాని లోపలే ఉంటాయి: Lower Schoolలో సంగీతం, చిత్రకళ మరియు నాటక పాఠాలు అప్పుడు బోధిస్తున్న అధ్యయన విభాగాలతో సమన్వయం చేయబడతాయి."
+    },
+    {
+      "text": "seats in the Pamela Kimbrell Warlick Visual & Performing Arts Center",
+      "of": "988f401a",
+      "at": [
+        "gaston-day:ladder.stats[0].label"
+      ],
+      "t": "Pamela Kimbrell Warlick Visual & Performing Arts Centerలో సీట్లు"
+    },
+    {
+      "text": "where drama classes begin",
+      "of": "c38f3bfe",
+      "at": [
+        "gaston-day:ladder.stats[2].label"
+      ],
+      "t": "నాటక తరగతులు మొదలయ్యే చోటు"
+    },
+    {
+      "text": "major productions a year, including the spring musical",
+      "of": "c2a62141",
+      "at": [
+        "gaston-day:ladder.stats[3].label"
+      ],
+      "t": "సంవత్సరానికి ప్రధాన ప్రదర్శనలు, వసంత musical తో సహా"
+    },
+    {
+      "text": "PS–4",
+      "of": "bbdb3d63",
+      "at": [
+        "gaston-day:ladder.divisions[0].grades"
+      ],
+      "t": "PS–4"
+    },
+    {
+      "text": "Music, art and drama coordinated with classroom units of study rather than taught in isolation",
+      "of": "63bc24f2",
+      "at": [
+        "gaston-day:ladder.divisions[0].items[0]"
+      ],
+      "t": "సంగీతం, చిత్రకళ మరియు నాటకం విడిగా కాక తరగతి గది అధ్యయన విభాగాలతో సమన్వయం చేసి బోధించబడతాయి"
+    },
+    {
+      "text": "Drama classes begin as early as second grade",
+      "of": "c5fb022f",
+      "at": [
+        "gaston-day:ladder.divisions[0].items[1]"
+      ],
+      "t": "నాటక తరగతులు రెండో తరగతి నుంచే మొదలవుతాయి"
+    },
+    {
+      "text": "Experiential learning through frequent field trips, guest speakers and virtual tours",
+      "of": "d6b530a3",
+      "at": [
+        "gaston-day:ladder.divisions[0].items[2]"
+      ],
+      "t": "తరచూ field trips, అతిథి వక్తలు మరియు virtual tours ద్వారా అనుభవపూర్వక అభ్యసనం"
+    },
+    {
+      "text": "Electives chosen from art, drama, chorus and band",
+      "of": "ae56f443",
+      "at": [
+        "gaston-day:ladder.divisions[1].items[0]"
+      ],
+      "t": "కళ, నాటకం, chorus మరియు band నుంచి ఎంచుకున్న ఐచ్ఛికాలు"
+    },
+    {
+      "text": "MS Instrumental Ensemble — woodwinds, brass, percussion, piano and guitar",
+      "of": "fa9e878c",
+      "at": [
+        "gaston-day:ladder.divisions[1].items[1]"
+      ],
+      "t": "MS Instrumental Ensemble — woodwinds, brass, percussion, piano మరియు guitar"
+    },
+    {
+      "text": "Middle School Chorus",
+      "of": "90ae1b0e",
+      "at": [
+        "gaston-day:ladder.divisions[1].items[2]"
+      ],
+      "t": "Middle School Chorus"
+    },
+    {
+      "text": "Private music lessons available",
+      "of": "43295d89",
+      "at": [
+        "gaston-day:ladder.divisions[1].items[3]"
+      ],
+      "t": "వ్యక్తిగత సంగీత పాఠాలు అందుబాటులో ఉన్నాయి"
+    },
+    {
+      "text": "Visual Art I, II, III and Visual Art IV (H)",
+      "of": "6eee811c",
+      "at": [
+        "gaston-day:ladder.divisions[2].items[0]"
+      ],
+      "t": "Visual Art I, II, III మరియు Visual Art IV (H)"
+    },
+    {
+      "text": "Band, Concert Choir and Drama as fine-arts courses",
+      "of": "fe70b8e8",
+      "at": [
+        "gaston-day:ladder.divisions[2].items[1]"
+      ],
+      "t": "fine-arts కోర్సులుగా Band, Concert Choir మరియు Drama"
+    },
+    {
+      "text": "Upper School Vocal Performance Ensemble",
+      "of": "3b06a2a1",
+      "at": [
+        "gaston-day:ladder.divisions[2].items[2]"
+      ],
+      "t": "Upper School Vocal Performance Ensemble"
+    },
+    {
+      "text": "Actors’ Conservatory Theatre as a dedicated programme",
+      "of": "1b08a4ae",
+      "at": [
+        "gaston-day:ladder.divisions[2].items[3]"
+      ],
+      "t": "ఒక ప్రత్యేక కార్యక్రమంగా Actors’ Conservatory Theatre"
+    },
+    {
+      "text": "Arts-adjacent electives: Music Appreciation, Cinema Studies, Creative Writing (H), Yearbook",
+      "of": "87366eac",
+      "at": [
+        "gaston-day:ladder.divisions[2].items[4]"
+      ],
+      "t": "కళలకు దగ్గరి ఐచ్ఛికాలు: Music Appreciation, Cinema Studies, Creative Writing (H), Yearbook"
+    },
+    {
+      "text": "Beyond the timetable",
+      "of": "f6cb035e",
+      "at": [
+        "gaston-day:ladder.enrichmentTitle"
+      ],
+      "t": "సమయ పట్టికకు వెలుపల"
+    },
+    {
+      "text": "Private lessons",
+      "of": "ffedbb41",
+      "at": [
+        "gaston-day:ladder.enrichment[0].label"
+      ],
+      "t": "వ్యక్తిగత పాఠాలు"
+    },
+    {
+      "text": "Taught by contracted professional musicians, billed at $35 per lesson on the school’s published fee schedule. Middle School students waiting for a lesson may do homework in aftercare at no charge.",
+      "of": "93d39370",
+      "at": [
+        "gaston-day:ladder.enrichment[0].text"
+      ],
+      "t": "ఒప్పంద ప్రాతిపదికన పనిచేసే వృత్తిపరమైన సంగీతకారులు బోధిస్తారు, పాఠశాల ప్రచురించిన రుసుముల పట్టికలో ఒక్కో పాఠానికి $35 వసూలు చేస్తారు. పాఠం కోసం వేచి ఉన్న Middle School విద్యార్థులు ఎలాంటి రుసుము లేకుండా aftercareలో ఇంటి పని చేసుకోవచ్చు."
+    },
+    {
+      "text": "Performance travel",
+      "of": "f9db0633",
+      "at": [
+        "gaston-day:ladder.enrichment[1].label"
+      ],
+      "t": "ప్రదర్శన ప్రయాణాలు"
+    },
+    {
+      "text": "The programme has performed at St Mary-le-Bow and Canterbury Cathedral, and given joint concerts with the Westminster Youth Orchestra.",
+      "of": "42ca3a37",
+      "at": [
+        "gaston-day:ladder.enrichment[1].text"
+      ],
+      "t": "ఈ కార్యక్రమం St Mary-le-Bow మరియు Canterbury Cathedralలో ప్రదర్శనలు ఇచ్చింది, మరియు Westminster Youth Orchestra తో కలిసి ఉమ్మడి కచేరీలు నిర్వహించింది."
+    },
+    {
+      "text": "Summer arts camps",
+      "of": "2ce60830",
+      "at": [
+        "gaston-day:ladder.enrichment[2].label"
+      ],
+      "t": "వేసవి కళల శిబిరాలు"
+    },
+    {
+      "text": "Thespian Camp (rising PK–6) runs in the summer catalog, alongside partner camps from the Children’s Theater of Charlotte (Frozen, Willy Wonka, Cowabunga) and Studio Elite dance.",
+      "of": "14fdd8e7",
+      "at": [
+        "gaston-day:ladder.enrichment[2].text"
+      ],
+      "t": "Thespian Camp (rising PK–6) వేసవి జాబితాలో నడుస్తుంది, దానితో పాటు Children’s Theater of Charlotte (Frozen, Willy Wonka, Cowabunga) మరియు Studio Elite dance భాగస్వామ్య శిబిరాలు కూడా."
+    },
+    {
+      "text": "Student publication",
+      "of": "5c5f1aba",
+      "at": [
+        "gaston-day:ladder.enrichment[3].label"
+      ],
+      "t": "విద్యార్థి ప్రచురణ"
+    },
+    {
+      "text": "Blutopia, the literary and art magazine, is entirely student-developed, created and published — see the Verdict card for its award record.",
+      "of": "f9ae22c9",
+      "at": [
+        "gaston-day:ladder.enrichment[3].text"
+      ],
+      "t": "సాహిత్య మరియు కళల పత్రిక Blutopia ను పూర్తిగా విద్యార్థులే అభివృద్ధి చేసి, రూపొందించి, ప్రచురిస్తారు — దాని అవార్డు రికార్డు కోసం Verdict కార్డు చూడండి."
+    },
+    {
+      "text": "Two major productions a year, including a spring musical, staged in a 550-seat centre with a professional dance studio.",
+      "of": "69fa751d",
+      "at": [
+        "gaston-day:theatre.headline"
+      ],
+      "t": "సంవత్సరానికి రెండు ప్రధాన ప్రదర్శనలు, వాటిలో ఒక వసంత musical, వృత్తిపరమైన నృత్య స్టూడియో ఉన్న 550-సీట్ల కేంద్రంలో ప్రదర్శించబడతాయి."
+    },
+    {
+      "text": "Students work on stage, as stage managers, on crew or in design — the school states all four routes explicitly, so theatre is not only for performers.",
+      "of": "1fdb7cec",
+      "at": [
+        "gaston-day:theatre.subhead"
+      ],
+      "t": "విద్యార్థులు వేదికపై, stage managers గా, crewలో లేదా design లో పని చేస్తారు — పాఠశాల ఈ నాలుగు మార్గాలనూ స్పష్టంగా పేర్కొంటుంది, కాబట్టి నాటకరంగం ప్రదర్శకులకు మాత్రమే కాదు."
+    },
+    {
+      "text": "The production year",
+      "of": "81a3d574",
+      "at": [
+        "gaston-day:theatre.seasonTitle"
+      ],
+      "t": "ప్రదర్శనల సంవత్సరం"
+    },
+    {
+      "text": "Across the year",
+      "of": "6d397ef4",
+      "at": [
+        "gaston-day:theatre.season[0].season"
+      ],
+      "t": "సంవత్సరం అంతటా"
+    },
+    {
+      "text": "Two major shows",
+      "of": "c5ef52ae",
+      "at": [
+        "gaston-day:theatre.season[0].kind"
+      ],
+      "t": "రెండు ప్రధాన ప్రదర్శనలు"
+    },
+    {
+      "text": "The school stages two major productions each year, one of which is the spring musical. Specific titles and dates are not published.",
+      "of": "5d1d381a",
+      "at": [
+        "gaston-day:theatre.season[0].detail"
+      ],
+      "t": "పాఠశాల ప్రతి సంవత్సరం రెండు ప్రధాన ప్రదర్శనలు నిర్వహిస్తుంది, వాటిలో ఒకటి వసంత musical. నిర్దిష్ట పేర్లు మరియు తేదీలు ప్రచురించబడలేదు."
+    },
+    {
+      "text": "The spring musical is the named anchor of the production calendar.",
+      "of": "4ca4e271",
+      "at": [
+        "gaston-day:theatre.season[1].detail"
+      ],
+      "t": "వసంత musical ప్రదర్శనల క్యాలెండర్‌కు పేరు పెట్టిన కేంద్ర బిందువు."
+    },
+    {
+      "text": "Curricular",
+      "of": "426615c7",
+      "at": [
+        "gaston-day:theatre.season[2].season"
+      ],
+      "t": "పాఠ్యప్రణాళికలో భాగం"
+    },
+    {
+      "text": "Drama from grade 2",
+      "of": "51b4d535",
+      "at": [
+        "gaston-day:theatre.season[2].kind"
+      ],
+      "t": "2వ తరగతి నుంచి నాటకం"
+    },
+    {
+      "text": "Drama classes begin as early as second grade, so the pipeline into Upper School productions starts in the Lower School.",
+      "of": "d74632de",
+      "at": [
+        "gaston-day:theatre.season[2].detail"
+      ],
+      "t": "నాటక తరగతులు రెండో తరగతి నుంచే మొదలవుతాయి, కాబట్టి Upper School ప్రదర్శనలకు మార్గం Lower Schoolలోనే మొదలవుతుంది."
+    },
+    {
+      "text": "Summer",
+      "of": "42f6a154",
+      "at": [
+        "gaston-day:theatre.season[3].season"
+      ],
+      "t": "వేసవి"
+    },
+    {
+      "text": "Thespian Camp",
+      "of": "9dba3d9a",
+      "at": [
+        "gaston-day:theatre.season[3].kind"
+      ],
+      "t": "Thespian Camp"
+    },
+    {
+      "text": "Thespian Camp (rising PK–6) teaches songs and script for a short musical and involves campers in designing a simple set.",
+      "of": "29e15bf8",
+      "at": [
+        "gaston-day:theatre.season[3].detail"
+      ],
+      "t": "Thespian Camp (rising PK–6) ఒక చిన్న musical కోసం పాటలు మరియు స్క్రిప్టు నేర్పుతుంది, మరియు శిబిరార్థులను ఒక సాధారణ సెట్ రూపకల్పనలో పాలుపంచుకునేలా చేస్తుంది."
+    },
+    {
+      "text": "Travis Johnson chairs the Fine Arts Department (ext. 415). The Actors’ Conservatory Theatre operates as a dedicated programme within the school’s theatre offering.",
+      "of": "bfaf84c8",
+      "at": [
+        "gaston-day:theatre.whoRunsIt"
+      ],
+      "t": "Travis Johnson Fine Arts Departmentకు అధ్యక్షత వహిస్తారు (ext. 415). Actors’ Conservatory Theatre పాఠశాల నాటక కార్యక్రమంలో ఒక ప్రత్యేక కార్యక్రమంగా నడుస్తుంది."
+    },
+    {
+      "text": "The Pamela Kimbrell Warlick Visual & Performing Arts Center seats 550 and carries modern lighting and sound systems plus a professional dance studio — a substantial house for a school of 510 students.",
+      "of": "0a2cfa65",
+      "at": [
+        "gaston-day:theatre.venueNote"
+      ],
+      "t": "Pamela Kimbrell Warlick Visual & Performing Arts Centerలో 550 సీట్లు ఉన్నాయి, ఆధునిక లైటింగ్ మరియు సౌండ్ వ్యవస్థలతో పాటు ఒక వృత్తిపరమైన నృత్య స్టూడియో కూడా ఉంది — 510 మంది విద్యార్థుల పాఠశాలకు ఇది గణనీయమైన వేదిక."
+    },
+    {
+      "text": "The school publishes no production titles, performance dates, cast sizes or theatre competition results, and it names no International Thespian Society troupe number despite chartering the society. So the *shape* of the programme is well documented while its *record* is not — this card deliberately carries no awards ledger rather than an empty one.",
+      "of": "fc74421f",
+      "at": [
+        "gaston-day:theatre.honestContext"
+      ],
+      "t": "పాఠశాల ప్రదర్శనల పేర్లు, ప్రదర్శన తేదీలు, నటుల సంఖ్య లేదా నాటక పోటీ ఫలితాలు ఏవీ ప్రచురించదు, మరియు International Thespian Society ను నమోదు చేసినప్పటికీ దాని troupe సంఖ్యను చెప్పలేదు. కాబట్టి కార్యక్రమం *స్వరూపం* బాగా నమోదైంది, కానీ దాని *రికార్డు* కాలేదు — ఈ కార్డు ఖాళీ అవార్డుల పట్టికను చూపే బదులు ఉద్దేశపూర్వకంగా అలాంటిదేమీ చూపడం లేదు."
+    },
+    {
+      "text": "Chorus students earned “superior” ratings in regional adjudications across six years, and the programme has sent students on to the UNC School of the Arts and Governor’s School.",
+      "of": "fd6054af",
+      "at": [
+        "gaston-day:music.headline"
+      ],
+      "t": "Chorus విద్యార్థులు ఆరు సంవత్సరాల పాటు ప్రాంతీయ న్యాయనిర్ణయాల్లో “superior” రేటింగ్‌లు సాధించారు, మరియు ఈ కార్యక్రమం విద్యార్థులను UNC School of the Arts మరియు Governor’s Schoolకు పంపింది."
+    },
+    {
+      "text": "Music is taught as a practice rather than a subject — the curriculum covers singing, movement, improvisation, reading, writing and performing.",
+      "of": "32ad2dcd",
+      "at": [
+        "gaston-day:music.subhead"
+      ],
+      "t": "సంగీతాన్ని ఒక విషయంగా కాక ఒక ఆచరణగా బోధిస్తారు — పాఠ్యప్రణాళికలో గానం, కదలిక, తక్షణ సృజన, చదవడం, రాయడం మరియు ప్రదర్శించడం ఉంటాయి."
+    },
+    {
+      "text": "The ensembles",
+      "of": "e246d810",
+      "at": [
+        "gaston-day:music.boardTitle"
+      ],
+      "t": "Ensembles"
+    },
+    {
+      "text": "Upper School",
+      "of": "bfabeb69",
+      "at": [
+        "gaston-day:music.tracks[1].label"
+      ],
+      "t": "Upper School"
+    },
+    {
+      "text": "Individual study",
+      "of": "f5b0829f",
+      "at": [
+        "gaston-day:music.tracks[2].label"
+      ],
+      "t": "వ్యక్తిగత అధ్యయనం"
+    },
+    {
+      "text": "Band and Concert Choir appear in the profile’s fine-arts course table, so they carry academic credit toward the two-year requirement; the ensembles listed on the arts page sit alongside them. Private lessons are taught by contracted professional musicians.",
+      "of": "23a0021c",
+      "at": [
+        "gaston-day:music.boardNote"
+      ],
+      "t": "Band మరియు Concert Choir profileలోని fine-arts కోర్సు పట్టికలో కనిపిస్తాయి, కాబట్టి అవి రెండు సంవత్సరాల నిబంధనకు విద్యా క్రెడిట్ ఇస్తాయి; కళల పేజీలో ఇచ్చిన ensembles వాటి పక్కనే ఉంటాయి. ప్రైవేట్ పాఠాలను ఒప్పంద ప్రాతిపదికన పనిచేసే వృత్తిపరమైన సంగీతకారులు బోధిస్తారు."
+    },
+    {
+      "text": "The recognition ladder",
+      "of": "31d184fd",
+      "at": [
+        "gaston-day:music.ladderTitle"
+      ],
+      "t": "గుర్తింపు నిచ్చెన"
+    },
+    {
+      "text": "Regional adjudication",
+      "of": "c06fb4d1",
+      "at": [
+        "gaston-day:music.ladder[0].label"
+      ],
+      "t": "ప్రాంతీయ న్యాయనిర్ణయం"
+    },
+    {
+      "text": "Chorus students earned “superior” ratings in regional adjudications over six years — a sustained record rather than a single strong year.",
+      "of": "9452b0c6",
+      "at": [
+        "gaston-day:music.ladder[0].text"
+      ],
+      "t": "Chorus విద్యార్థులు ఆరు సంవత్సరాల పాటు ప్రాంతీయ న్యాయనిర్ణయాల్లో “superior” రేటింగ్‌లు సాధించారు — ఇది ఒక్క బలమైన సంవత్సరం కాక, నిలకడగా సాగిన రికార్డు."
+    },
+    {
+      "text": "Conservatory admission",
+      "of": "f8ced44f",
+      "at": [
+        "gaston-day:music.ladder[1].label"
+      ],
+      "t": "Conservatory ప్రవేశం"
+    },
+    {
+      "text": "Students have gained admission to the North Carolina School of the Arts. UNC School of the Arts also appears on the school’s 2019–2025 college acceptance list, independently corroborating the pathway.",
+      "of": "3f6dd568",
+      "at": [
+        "gaston-day:music.ladder[1].text"
+      ],
+      "t": "విద్యార్థులు North Carolina School of the Artsలో ప్రవేశం పొందారు. పాఠశాల 2019–2025 కళాశాల ప్రవేశాల జాబితాలో UNC School of the Arts కూడా కనిపిస్తుంది, ఇది ఈ మార్గాన్ని స్వతంత్రంగా ధ్రువీకరిస్తుంది."
+    },
+    {
+      "text": "Governor’s School",
+      "of": "9446fe91",
+      "at": [
+        "gaston-day:music.ladder[2].label"
+      ],
+      "t": "Governor’s School"
+    },
+    {
+      "text": "Students have earned places at North Carolina Governor’s School, the state’s selective summer programme for gifted students.",
+      "of": "f8be13be",
+      "at": [
+        "gaston-day:music.ladder[2].text"
+      ],
+      "t": "ప్రతిభావంతులైన విద్యార్థుల కోసం రాష్ట్రం నిర్వహించే ఎంపిక ఆధారిత వేసవి కార్యక్రమం North Carolina Governor’s Schoolలో విద్యార్థులు స్థానాలు సంపాదించారు."
+    },
+    {
+      "text": "International performance",
+      "of": "4957f0e1",
+      "at": [
+        "gaston-day:music.ladder[3].label"
+      ],
+      "t": "అంతర్జాతీయ ప్రదర్శన"
+    },
+    {
+      "text": "Performances at St Mary-le-Bow and Canterbury Cathedral, plus joint concerts with the Westminster Youth Orchestra.",
+      "of": "4dec7f4f",
+      "at": [
+        "gaston-day:music.ladder[3].text"
+      ],
+      "t": "St Mary-le-Bow మరియు Canterbury Cathedralలో ప్రదర్శనలు, అదనంగా Westminster Youth Orchestra తో ఉమ్మడి కచేరీలు."
+    },
+    {
+      "text": "The school does not publish ensemble sizes, named all-state or all-district selections, festival ratings by year, or a music faculty roster beyond the department chair — so the ladder above is qualitative where a larger school would publish counts.",
+      "of": "aea5c459",
+      "at": [
+        "gaston-day:music.ladderNote"
+      ],
+      "t": "పాఠశాల ensemble పరిమాణాలు, పేరు పెట్టిన all-state లేదా all-district ఎంపికలు, సంవత్సరాల వారీ festival రేటింగ్‌లు, లేదా విభాగాధిపతికి మించి సంగీత అధ్యాపకుల జాబితాను ప్రచురించదు — కాబట్టి పెద్ద పాఠశాల అయితే లెక్కలు ప్రచురించే చోట, పైన ఇచ్చిన నిచ్చెన గుణాత్మకంగానే ఉంది."
+    },
+    {
+      "text": "A four-step Upper School sequence ending at Visual Art IV Honors, taught across five media including ceramics and printmaking.",
+      "of": "91b7b1e2",
+      "at": [
+        "gaston-day:visual.headline"
+      ],
+      "t": "Visual Art IV Honors వద్ద ముగిసే నాలుగు-దశల Upper School క్రమం, ceramics మరియు printmaking సహా ఐదు మాధ్యమాల్లో బోధించబడుతుంది."
+    },
+    {
+      "text": "Portfolio development is named as part of the instruction, which is the practical difference between an art elective and a route to an art school — and the acceptance list bears it out.",
+      "of": "d0e6435a",
+      "at": [
+        "gaston-day:visual.subhead"
+      ],
+      "t": "బోధనలో భాగంగా portfolio అభివృద్ధిని స్పష్టంగా పేర్కొన్నారు — ఒక కళల ఐచ్ఛికానికి మరియు కళల పాఠశాలకు దారితీసే మార్గానికి మధ్య ఆచరణాత్మక తేడా అదే, మరియు ప్రవేశాల జాబితా దీన్ని నిరూపిస్తోంది."
+    },
+    {
+      "text": "What students actually work in",
+      "of": "ab1858da",
+      "at": [
+        "gaston-day:visual.mediaTitle"
+      ],
+      "t": "విద్యార్థులు నిజంగా ఏ మాధ్యమాల్లో పని చేస్తారు"
+    },
+    {
+      "text": "Named explicitly in the Upper School visual-arts description",
+      "of": "1bdf19ee",
+      "at": [
+        "gaston-day:visual.media[4].detail"
+      ],
+      "t": "Upper School దృశ్య కళల వివరణలో స్పష్టంగా పేర్కొనబడ్డాయి"
+    },
+    {
+      "text": "There is no AP Studio Art or AP Art History in the profile’s course table — Visual Art IV (H) is the terminal course, carrying the Honors +0.50 weighting rather than an AP +1.0. Cinema Studies, Creative Writing (H) and Yearbook sit alongside as arts-adjacent electives.",
+      "of": "1ad917a4",
+      "at": [
+        "gaston-day:visual.pathNote"
+      ],
+      "t": "profile కోర్సు పట్టికలో AP Studio Art గానీ AP Art History గానీ లేవు — Visual Art IV (H) చివరి కోర్సు, ఇది AP ఇచ్చే +1.0 కాక Honors ఇచ్చే +0.50 బరువును కలిగి ఉంటుంది. Cinema Studies, Creative Writing (H) మరియు Yearbook వాటి పక్కన కళలకు దగ్గరి ఐచ్ఛికాలుగా ఉన్నాయి."
+    },
+    {
+      "text": "Where the work goes",
+      "of": "d3d0e20a",
+      "at": [
+        "gaston-day:visual.exhibitsTitle"
+      ],
+      "t": "ఆ పని ఎక్కడికి వెళుతుంది"
+    },
+    {
+      "text": "Numerous Scholastic Art Awards, plus wins at national, regional and local competitions.",
+      "of": "746ac530",
+      "at": [
+        "gaston-day:visual.exhibits[0].detail"
+      ],
+      "t": "అనేక Scholastic Art Awards, అదనంగా జాతీయ, ప్రాంతీయ మరియు స్థానిక పోటీల్లో విజయాలు."
+    },
+    {
+      "text": "The student literary and art magazine publishes illustrations, paintings and photographs alongside written work, and has taken numerous Scholastic Art and Writing Awards and repeated recognition in the NC Scholastic Media Association Literary Magazine Contest.",
+      "of": "a9cfe5a6",
+      "at": [
+        "gaston-day:visual.exhibits[1].detail"
+      ],
+      "t": "విద్యార్థుల సాహిత్య మరియు కళల పత్రిక లిఖిత రచనలతో పాటు చిత్రాలు, పెయింటింగ్‌లు మరియు ఫొటోగ్రాఫ్‌లను ప్రచురిస్తుంది, మరియు అనేక Scholastic Art and Writing Awards గెలుచుకుంది, అలాగే NC Scholastic Media Association Literary Magazine Contestలో పదేపదే గుర్తింపు పొందింది."
+    },
+    {
+      "text": "2019–2025",
+      "of": "2adf025d",
+      "at": [
+        "gaston-day:visual.exhibits[2].when"
+      ],
+      "t": "2019–2025"
+    },
+    {
+      "text": "The 2019–2025 acceptance list includes RISD, SCAD, School of Visual Arts, Maryland Institute College of Art, the School of the Art Institute of Chicago, Minneapolis College of Art and Design and UNC School of the Arts — seven specialty art and design institutions.",
+      "of": "66207e20",
+      "at": [
+        "gaston-day:visual.exhibits[2].detail"
+      ],
+      "t": "2019–2025 ప్రవేశాల జాబితాలో RISD, SCAD, School of Visual Arts, Maryland Institute College of Art, School of the Art Institute of Chicago, Minneapolis College of Art and Design మరియు UNC School of the Arts ఉన్నాయి — ఏడు ప్రత్యేక కళల మరియు design సంస్థలు."
+    },
+    {
+      "text": "The department is chaired by Travis Johnson; no other arts faculty are named publicly. The school publishes no gallery or exhibition calendar, no count of Scholastic awards by year and no named student winners — \"numerous\" is the school’s own word and is reproduced rather than quantified.",
+      "of": "6d204ef7",
+      "at": [
+        "gaston-day:visual.footnote"
+      ],
+      "t": "ఈ విభాగానికి Travis Johnson అధ్యక్షత వహిస్తారు; ఇతర కళల అధ్యాపకుల పేర్లు బహిరంగంగా లేవు. పాఠశాల gallery లేదా ప్రదర్శనల క్యాలెండర్, సంవత్సరాల వారీ Scholastic అవార్డుల లెక్క, లేదా విజేతల పేర్లు ఏవీ ప్రచురించదు — \"numerous\" అనేది పాఠశాల సొంత మాట, దాన్ని లెక్కించకుండా అలాగే ఇచ్చాం."
+    },
+    {
+      "text": "A serious arts programme for a 510-student school — a named 550-seat centre, a six-year adjudication record, and a student magazine with a national award history.",
+      "of": "5b76b2a5",
+      "at": [
+        "gaston-day:verdict.headline"
+      ],
+      "t": "510 మంది విద్యార్థుల పాఠశాలకు ఇది ఒక గంభీరమైన కళల కార్యక్రమం — పేరు పెట్టిన 550-సీట్ల కేంద్రం, ఆరు సంవత్సరాల న్యాయనిర్ణయ రికార్డు, మరియు జాతీయ అవార్డుల చరిత్ర ఉన్న విద్యార్థుల పత్రిక."
+    },
+    {
+      "text": "What is missing is the record rather than the programme: almost nothing is published by year, by title or by name.",
+      "of": "c894aa2e",
+      "at": [
+        "gaston-day:verdict.subhead"
+      ],
+      "t": "లేనిది కార్యక్రమం కాదు, రికార్డు: సంవత్సరాల వారీగా, పేర్ల వారీగా దాదాపు ఏమీ ప్రచురించబడలేదు."
+    },
+    {
+      "text": "The facility is real and named",
+      "of": "099988bd",
+      "at": [
+        "gaston-day:verdict.holdsUp[0].label"
+      ],
+      "t": "సదుపాయం నిజమైనది మరియు దానికి పేరు ఉంది"
+    },
+    {
+      "text": "The Pamela Kimbrell Warlick Visual & Performing Arts Center seats 550 with modern lighting and sound and a professional dance studio — larger than the school’s entire enrollment.",
+      "of": "6e5cd3ae",
+      "at": [
+        "gaston-day:verdict.holdsUp[0].text"
+      ],
+      "t": "Pamela Kimbrell Warlick Visual & Performing Arts Centerలో ఆధునిక లైటింగ్, సౌండ్ మరియు ఒక వృత్తిపరమైన నృత్య స్టూడియోతో పాటు 550 సీట్లు ఉన్నాయి — పాఠశాల మొత్తం విద్యార్థుల సంఖ్య కంటే ఎక్కువ."
+    },
+    {
+      "text": "The ladder is genuinely PS–12",
+      "of": "f1e22d13",
+      "at": [
+        "gaston-day:verdict.holdsUp[1].label"
+      ],
+      "t": "ఈ నిచ్చెన నిజంగా PS–12"
+    },
+    {
+      "text": "Drama from second grade, integrated arts in the Lower School, four elective tracks in the Middle School, and a four-course visual sequence plus three ensembles in the Upper School.",
+      "of": "469c7114",
+      "at": [
+        "gaston-day:verdict.holdsUp[1].text"
+      ],
+      "t": "రెండో తరగతి నుంచి నాటకం, Lower Schoolలో సమన్వయ కళలు, Middle Schoolలో నాలుగు ఐచ్ఛిక మార్గాలు, మరియు Upper Schoolలో నాలుగు-కోర్సుల దృశ్య కళల క్రమం, అదనంగా మూడు ensembles."
+    },
+    {
+      "text": "Recognition is sustained, not one-off",
+      "of": "48b3e2a5",
+      "at": [
+        "gaston-day:verdict.holdsUp[2].label"
+      ],
+      "t": "గుర్తింపు ఒక్కసారిది కాదు, నిలకడైనది"
+    },
+    {
+      "text": "Six years of “superior” regional chorus adjudications, and admissions to UNC School of the Arts and Governor’s School.",
+      "of": "e156b624",
+      "at": [
+        "gaston-day:verdict.holdsUp[2].text"
+      ],
+      "t": "ఆరు సంవత్సరాల “superior” ప్రాంతీయ chorus న్యాయనిర్ణయాలు, మరియు UNC School of the Arts మరియు Governor’s Schoolలో ప్రవేశాలు."
+    },
+    {
+      "text": "Blutopia is a genuine distinction",
+      "of": "e3df9a95",
+      "at": [
+        "gaston-day:verdict.holdsUp[3].label"
+      ],
+      "t": "Blutopia ఒక నిజమైన విశిష్టత"
+    },
+    {
+      "text": "Entirely student-produced, with numerous Scholastic Art and Writing Awards and consistent recognition in the NC Scholastic Media Association Literary Magazine Contest.",
+      "of": "4532306d",
+      "at": [
+        "gaston-day:verdict.holdsUp[3].text"
+      ],
+      "t": "పూర్తిగా విద్యార్థులే రూపొందిస్తారు, అనేక Scholastic Art and Writing Awards మరియు NC Scholastic Media Association Literary Magazine Contestలో స్థిరమైన గుర్తింపుతో."
+    },
+    {
+      "text": "Portfolio work leads somewhere",
+      "of": "45810778",
+      "at": [
+        "gaston-day:verdict.holdsUp[4].label"
+      ],
+      "t": "Portfolio పని ఎక్కడికో దారితీస్తుంది"
+    },
+    {
+      "text": "Portfolio development is taught, and seven specialty art and design schools — RISD, SCAD, SVA, MICA, SAIC, MCAD and UNCSA — appear on the acceptance list.",
+      "of": "07b229cb",
+      "at": [
+        "gaston-day:verdict.holdsUp[4].text"
+      ],
+      "t": "Portfolio అభివృద్ధిని బోధిస్తారు, మరియు ప్రవేశాల జాబితాలో ఏడు ప్రత్యేక కళల మరియు design పాఠశాలలు — RISD, SCAD, SVA, MICA, SAIC, MCAD మరియు UNCSA — కనిపిస్తాయి."
+    },
+    {
+      "text": "Arts grades are published",
+      "of": "60615395",
+      "at": [
+        "gaston-day:verdict.holdsUp[5].label"
+      ],
+      "t": "కళల గ్రేడ్‌లు ప్రచురించబడ్డాయి"
+    },
+    {
+      "text": "The profile prints an ARTS grade distribution for 2024-25 (72% A+, 22% A, 5% A-), which few schools disclose. Read it as context for how the department grades rather than as a difficulty signal.",
+      "of": "16169f26",
+      "at": [
+        "gaston-day:verdict.holdsUp[5].text"
+      ],
+      "t": "profile 2024-25కు ARTS గ్రేడ్ పంపిణీని ముద్రిస్తుంది (72% A+, 22% A, 5% A-), దీన్ని ప్రచురించే పాఠశాలలు చాలా తక్కువ. దీన్ని కఠినత సూచికగా కాక, ఆ విభాగం ఎలా గ్రేడ్ ఇస్తుందో తెలిపే నేపథ్యంగా చదవాలి."
+    },
+    {
+      "text": "What were the last two years’ productions, and how many students were cast versus crewed?",
+      "of": "95c3ac2d",
+      "at": [
+        "gaston-day:verdict.ask[0]"
+      ],
+      "t": "గత రెండు సంవత్సరాల ప్రదర్శనలు ఏవి, మరియు ఎంతమంది విద్యార్థులు నటించారు, ఎంతమంది crewలో పని చేశారు?"
+    },
+    {
+      "text": "How large are Band, Concert Choir and the Vocal Performance Ensemble — and does everyone who auditions get a place?",
+      "of": "76bfc700",
+      "at": [
+        "gaston-day:verdict.ask[1]"
+      ],
+      "t": "Band, Concert Choir మరియు Vocal Performance Ensemble ఎంత పెద్దవి — మరియు audition ఇచ్చిన ప్రతి ఒక్కరికీ చోటు దొరుకుతుందా?"
+    },
+    {
+      "text": "Visual Art IV is the terminal course with no AP Studio Art — how do students building an art-school portfolio go further?",
+      "of": "5422ced3",
+      "at": [
+        "gaston-day:verdict.ask[2]"
+      ],
+      "t": "AP Studio Art లేకుండా Visual Art IV చివరి కోర్సు — కళల పాఠశాల కోసం portfolio తయారు చేసుకుంటున్న విద్యార్థులు ఇంకా ముందుకు ఎలా వెళతారు?"
+    },
+    {
+      "text": "Which regional adjudications does the chorus enter, and what were the ratings in the last two years specifically?",
+      "of": "fa04601d",
+      "at": [
+        "gaston-day:verdict.ask[3]"
+      ],
+      "t": "Chorus ఏ ప్రాంతీయ న్యాయనిర్ణయాల్లో పాల్గొంటుంది, మరియు గత రెండు సంవత్సరాల్లో నిర్దిష్టంగా రేటింగ్‌లు ఏమిటి?"
+    },
+    {
+      "text": "How many Scholastic Art Awards did students win last year, and at what level (Gold Key, Silver Key, Honorable Mention)?",
+      "of": "4d5ba981",
+      "at": [
+        "gaston-day:verdict.ask[4]"
+      ],
+      "t": "గత సంవత్సరం విద్యార్థులు ఎన్ని Scholastic Art Awards గెలిచారు, మరియు ఏ స్థాయిలో (Gold Key, Silver Key, Honorable Mention)?"
+    },
+    {
+      "text": "Who teaches visual art, music and drama beyond the department chair, and what are their backgrounds?",
+      "of": "8f09b46e",
+      "at": [
+        "gaston-day:verdict.ask[5]"
+      ],
+      "t": "విభాగాధిపతికి మించి దృశ్య కళలు, సంగీతం మరియు నాటకం ఎవరు బోధిస్తారు, మరియు వారి నేపథ్యాలు ఏమిటి?"
+    },
+    {
+      "text": "Is there an International Thespian Society troupe, and what are its induction requirements?",
+      "of": "4386257e",
+      "at": [
+        "gaston-day:verdict.ask[6]"
+      ],
+      "t": "International Thespian Society troupe ఏదైనా ఉందా, మరియు దాని చేరిక నిబంధనలు ఏమిటి?"
     }
   ]
 }

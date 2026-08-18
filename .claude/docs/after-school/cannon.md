@@ -1,5 +1,5 @@
 # Cannon School — After School
-> Distilled from 5 source document(s) in `source-material/after-school/cannon/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-17.
+> Distilled from 5 source document(s) in `source-material/after-school/cannon/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-18.
 **Documents:** Deep Research, Pricing, Program Details, Program Overview, Redesign Research 2026
 
 

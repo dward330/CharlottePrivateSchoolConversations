@@ -60,7 +60,7 @@ const RULES: Record<string, Rule[]> = {
     // prose cards. It must stay FIRST: those headings also contain words like
     // "enrichment" and "cost" that the later rules would otherwise match.
     {
-      match: /^card —|^card --|redesign research 2026|enrichment classes fall|^provenance$|^sources( &| and)? where to verify$|^sources$/i,
+      match: /^card —|^card --|redesign research 2026|program hours and rates|enrichment classes fall|^provenance$|^sources( &| and)? where to verify$|^sources$/i,
       key: 'redesign-research',
       label: 'After School Research Dossier (2026)',
     },
@@ -94,7 +94,7 @@ const RULES: Record<string, Rule[]> = {
   // The tuition-history provenance file arrives as one section per markdown
   // heading; those all fold into a single card rather than becoming seven.
   'financial-aid-tuition': [
-    { match: /deep dive report|deep research/i, key: 'in-depth-report', label: 'In-Depth Report' },
+    { match: /deep dive report|deep research|schedule and aid programs/i, key: 'in-depth-report', label: 'In-Depth Report' },
     {
       match: /tuition history|provenance|source snapshots|tuition by (band|division)|year-over-year|reduced-day|captured in the same snapshots|published \d+(\.\d+)?% increase/i,
       key: 'tuition-history',
@@ -147,7 +147,7 @@ const RULES: Record<string, Rule[]> = {
     // orphan prose cards. It must stay FIRST: the slice headings also contain
     // words like "coaching" and "facilities" that later rules would match.
     {
-      match: /redesign research|^\d\.\s|^corrections to|^gaps ?\/|^sources$|^class(es)? of \d{4}|^division i total|^power 4 commitments/i,
+      match: /redesign research|program and championship ledger|^\d\.\s|^corrections to|^gaps ?\/|^sources$|^class(es)? of \d{4}|^division i total|^power 4 commitments/i,
       key: 'redesign-research',
       label: 'Sports Research Dossier (2026)',
     },

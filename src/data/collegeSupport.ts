@@ -437,6 +437,7 @@ import { davidsonDay } from './collegeSupportPrograms/davidson-day.ts'
 import { covenantDay } from './collegeSupportPrograms/covenant-day.ts'
 import { carmelChristian } from './collegeSupportPrograms/carmel-christian.ts'
 import { hickoryGroveChristian } from './collegeSupportPrograms/hickory-grove-christian.ts'
+import { gastonDay } from './collegeSupportPrograms/gaston-day.ts'
 
 const PROGRAMS: Record<string, CollegeSupportProgram> = {
   'providence-day': providenceDay,
@@ -448,6 +449,7 @@ const PROGRAMS: Record<string, CollegeSupportProgram> = {
   'carmel-christian': carmelChristian,
   'davidson-day': davidsonDay,
   'hickory-grove-christian': hickoryGroveChristian,
+  'gaston-day': gastonDay,
 }
 
 /* ---------------------------------------------------------- translations -- */

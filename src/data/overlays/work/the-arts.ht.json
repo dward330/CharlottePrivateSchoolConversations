@@ -107,7 +107,8 @@
         "providence-day:ladder.divisions[1].grades",
         "charlotte-latin:ladder.divisions[1].grades",
         "cannon:ladder.divisions[1].grades",
-        "davidson-day:ladder.divisions[1].grades"
+        "davidson-day:ladder.divisions[1].grades",
+        "gaston-day:ladder.divisions[1].grades"
       ],
       "t": "5–8"
     },
@@ -163,7 +164,8 @@
         "covenant-day:ladder.divisions[2].grades",
         "davidson-day:ladder.divisions[2].grades",
         "carmel-christian:ladder.divisions[2].grades",
-        "hickory-grove-christian:ladder.divisions[2].grades"
+        "hickory-grove-christian:ladder.divisions[2].grades",
+        "gaston-day:ladder.divisions[2].grades"
       ],
       "t": "9–12"
     },
@@ -341,7 +343,8 @@
         "charlotte-christian:visual.exhibits[0].when",
         "charlotte-country-day:theatre.season[2].season",
         "covenant-day:visual.exhibits[1].when",
-        "carmel-christian:theatre.season[1].season"
+        "carmel-christian:theatre.season[1].season",
+        "gaston-day:theatre.season[1].season"
       ],
       "t": "Prentan"
     },
@@ -350,7 +353,8 @@
       "of": "346c73d9",
       "at": [
         "providence-day:theatre.season[1].kind",
-        "charlotte-country-day:theatre.season[1].kind"
+        "charlotte-country-day:theatre.season[1].kind",
+        "gaston-day:theatre.season[1].kind"
       ],
       "t": "Mizikal"
     },
@@ -3077,7 +3081,9 @@
       "at": [
         "charlotte-country-day:visual.exhibits[0].when",
         "cannon:visual.exhibits[2].when",
-        "carmel-christian:visual.exhibits[0].when"
+        "carmel-christian:visual.exhibits[0].when",
+        "gaston-day:visual.exhibits[0].when",
+        "gaston-day:visual.exhibits[1].when"
       ],
       "t": "Anyèl"
     },
@@ -4880,7 +4886,8 @@
       "text": "fine arts required to graduate",
       "of": "279b1430",
       "at": [
-        "davidson-day:ladder.stats[3].label"
+        "davidson-day:ladder.stats[3].label",
+        "gaston-day:ladder.stats[1].label"
       ],
       "t": "bozar obligatwa pou gradye"
     },
@@ -6430,7 +6437,8 @@
       "text": "Middle School",
       "of": "15441234",
       "at": [
-        "hickory-grove-christian:music.tracks[1].label"
+        "hickory-grove-christian:music.tracks[1].label",
+        "gaston-day:music.tracks[0].label"
       ],
       "t": "Middle School"
     },
@@ -6681,6 +6689,734 @@
         "hickory-grove-christian:verdict.ask[4]"
       ],
       "t": "Èske gen yon National Art Honor Society oswa nenpòt rekonesans atizay vizyèl ekstèn (Scholastic) paj la pa mansyone?"
+    },
+    {
+      "text": "Drama starts in second grade and runs unbroken to Visual Art IV Honors — a PS-12 arts ladder anchored by a named 550-seat arts centre.",
+      "of": "8dc4781c",
+      "at": [
+        "gaston-day:ladder.headline"
+      ],
+      "t": "Dram kòmanse nan dezyèm ane epi li kouri san kanpe jiska Visual Art IV Honors — yon nechèl atistik PS-12 ki ankre nan yon sant atistik 550 plas ki gen non."
+    },
+    {
+      "text": "Two years of fine arts are required to graduate, and the arts sit inside the classroom rather than beside it: in the Lower School, music, art and drama lessons are coordinated with the units of study being taught.",
+      "of": "b15727b7",
+      "at": [
+        "gaston-day:ladder.subhead"
+      ],
+      "t": "Yo egzije de ane bozar pou gradye, epi atizay yo chita anndan salklas la olye ke akote l: nan Lower School la, leson mizik, atizay ak dram yo kowòdone ak inite etid y ap anseye yo."
+    },
+    {
+      "text": "seats in the Pamela Kimbrell Warlick Visual & Performing Arts Center",
+      "of": "988f401a",
+      "at": [
+        "gaston-day:ladder.stats[0].label"
+      ],
+      "t": "plas nan Pamela Kimbrell Warlick Visual & Performing Arts Center la"
+    },
+    {
+      "text": "where drama classes begin",
+      "of": "c38f3bfe",
+      "at": [
+        "gaston-day:ladder.stats[2].label"
+      ],
+      "t": "kote klas dram yo kòmanse"
+    },
+    {
+      "text": "major productions a year, including the spring musical",
+      "of": "c2a62141",
+      "at": [
+        "gaston-day:ladder.stats[3].label"
+      ],
+      "t": "gwo pwodiksyon pa ane, ki enkli mizikal prentan an"
+    },
+    {
+      "text": "PS–4",
+      "of": "bbdb3d63",
+      "at": [
+        "gaston-day:ladder.divisions[0].grades"
+      ],
+      "t": "PS–4"
+    },
+    {
+      "text": "Music, art and drama coordinated with classroom units of study rather than taught in isolation",
+      "of": "63bc24f2",
+      "at": [
+        "gaston-day:ladder.divisions[0].items[0]"
+      ],
+      "t": "Mizik, atizay ak dram kowòdone ak inite etid salklas la olye ke anseye yo apa"
+    },
+    {
+      "text": "Drama classes begin as early as second grade",
+      "of": "c5fb022f",
+      "at": [
+        "gaston-day:ladder.divisions[0].items[1]"
+      ],
+      "t": "Klas dram yo kòmanse depi dezyèm ane"
+    },
+    {
+      "text": "Experiential learning through frequent field trips, guest speakers and virtual tours",
+      "of": "d6b530a3",
+      "at": [
+        "gaston-day:ladder.divisions[0].items[2]"
+      ],
+      "t": "Aprantisaj eksperyansyèl atravè vwayaj eskolè, envite k ap pale ak vizit vityèl souvan"
+    },
+    {
+      "text": "Electives chosen from art, drama, chorus and band",
+      "of": "ae56f443",
+      "at": [
+        "gaston-day:ladder.divisions[1].items[0]"
+      ],
+      "t": "Elektif yo chwazi nan atizay, dram, koral ak fanfa"
+    },
+    {
+      "text": "MS Instrumental Ensemble — woodwinds, brass, percussion, piano and guitar",
+      "of": "fa9e878c",
+      "at": [
+        "gaston-day:ladder.divisions[1].items[1]"
+      ],
+      "t": "MS Instrumental Ensemble — enstriman a van an bwa, kwiv, pèkisyon, pyano ak gita"
+    },
+    {
+      "text": "Middle School Chorus",
+      "of": "90ae1b0e",
+      "at": [
+        "gaston-day:ladder.divisions[1].items[2]"
+      ],
+      "t": "Middle School Chorus"
+    },
+    {
+      "text": "Private music lessons available",
+      "of": "43295d89",
+      "at": [
+        "gaston-day:ladder.divisions[1].items[3]"
+      ],
+      "t": "Leson mizik prive disponib"
+    },
+    {
+      "text": "Visual Art I, II, III and Visual Art IV (H)",
+      "of": "6eee811c",
+      "at": [
+        "gaston-day:ladder.divisions[2].items[0]"
+      ],
+      "t": "Visual Art I, II, III ak Visual Art IV (H)"
+    },
+    {
+      "text": "Band, Concert Choir and Drama as fine-arts courses",
+      "of": "fe70b8e8",
+      "at": [
+        "gaston-day:ladder.divisions[2].items[1]"
+      ],
+      "t": "Band, Concert Choir ak Drama kòm kou bozar"
+    },
+    {
+      "text": "Upper School Vocal Performance Ensemble",
+      "of": "3b06a2a1",
+      "at": [
+        "gaston-day:ladder.divisions[2].items[2]"
+      ],
+      "t": "Upper School Vocal Performance Ensemble"
+    },
+    {
+      "text": "Actors’ Conservatory Theatre as a dedicated programme",
+      "of": "1b08a4ae",
+      "at": [
+        "gaston-day:ladder.divisions[2].items[3]"
+      ],
+      "t": "Actors’ Conservatory Theatre kòm yon pwogram dedye"
+    },
+    {
+      "text": "Arts-adjacent electives: Music Appreciation, Cinema Studies, Creative Writing (H), Yearbook",
+      "of": "87366eac",
+      "at": [
+        "gaston-day:ladder.divisions[2].items[4]"
+      ],
+      "t": "Elektif ki pre atizay: Music Appreciation, Cinema Studies, Creative Writing (H), Yearbook"
+    },
+    {
+      "text": "Beyond the timetable",
+      "of": "f6cb035e",
+      "at": [
+        "gaston-day:ladder.enrichmentTitle"
+      ],
+      "t": "Pi lwen pase orè a"
+    },
+    {
+      "text": "Private lessons",
+      "of": "ffedbb41",
+      "at": [
+        "gaston-day:ladder.enrichment[0].label"
+      ],
+      "t": "Leson prive"
+    },
+    {
+      "text": "Taught by contracted professional musicians, billed at $35 per lesson on the school’s published fee schedule. Middle School students waiting for a lesson may do homework in aftercare at no charge.",
+      "of": "93d39370",
+      "at": [
+        "gaston-day:ladder.enrichment[0].text"
+      ],
+      "t": "Mizisyen pwofesyonèl anba kontra anseye yo, faktire a $35 pa leson sou barèm frè lekòl la pibliye a. Elèv Middle School k ap tann yon leson ka fè devwa yo nan swen apre lekòl gratis."
+    },
+    {
+      "text": "Performance travel",
+      "of": "f9db0633",
+      "at": [
+        "gaston-day:ladder.enrichment[1].label"
+      ],
+      "t": "Vwayaj pou pèfòmans"
+    },
+    {
+      "text": "The programme has performed at St Mary-le-Bow and Canterbury Cathedral, and given joint concerts with the Westminster Youth Orchestra.",
+      "of": "42ca3a37",
+      "at": [
+        "gaston-day:ladder.enrichment[1].text"
+      ],
+      "t": "Pwogram nan fè pèfòmans nan St Mary-le-Bow ak Canterbury Cathedral, epi li bay konsè ansanm ak Westminster Youth Orchestra a."
+    },
+    {
+      "text": "Summer arts camps",
+      "of": "2ce60830",
+      "at": [
+        "gaston-day:ladder.enrichment[2].label"
+      ],
+      "t": "Kan atistik ete"
+    },
+    {
+      "text": "Thespian Camp (rising PK–6) runs in the summer catalog, alongside partner camps from the Children’s Theater of Charlotte (Frozen, Willy Wonka, Cowabunga) and Studio Elite dance.",
+      "of": "14fdd8e7",
+      "at": [
+        "gaston-day:ladder.enrichment[2].text"
+      ],
+      "t": "Thespian Camp (k ap monte PK–6) fonksyone nan katalòg ete a, ansanm ak kan patnè Children’s Theater of Charlotte la (Frozen, Willy Wonka, Cowabunga) ak dans Studio Elite."
+    },
+    {
+      "text": "Student publication",
+      "of": "5c5f1aba",
+      "at": [
+        "gaston-day:ladder.enrichment[3].label"
+      ],
+      "t": "Piblikasyon elèv"
+    },
+    {
+      "text": "Blutopia, the literary and art magazine, is entirely student-developed, created and published — see the Verdict card for its award record.",
+      "of": "f9ae22c9",
+      "at": [
+        "gaston-day:ladder.enrichment[3].text"
+      ],
+      "t": "Blutopia, magazin literè ak atistik la, elèv yo devlope, kreye epi pibliye l nèt — gade kat Verdict la pou dosye prim li."
+    },
+    {
+      "text": "Two major productions a year, including a spring musical, staged in a 550-seat centre with a professional dance studio.",
+      "of": "69fa751d",
+      "at": [
+        "gaston-day:theatre.headline"
+      ],
+      "t": "De gwo pwodiksyon pa ane, ki enkli yon mizikal prentan, monte nan yon sant 550 plas ak yon estidyo dans pwofesyonèl."
+    },
+    {
+      "text": "Students work on stage, as stage managers, on crew or in design — the school states all four routes explicitly, so theatre is not only for performers.",
+      "of": "1fdb7cec",
+      "at": [
+        "gaston-day:theatre.subhead"
+      ],
+      "t": "Elèv yo travay sou sèn nan, kòm jeran sèn, nan ekip teknik oswa nan konsepsyon — lekòl la deklare tout kat wout yo eksplisitman, kidonk teyat pa sèlman pou moun k ap fè pèfòmans."
+    },
+    {
+      "text": "The production year",
+      "of": "81a3d574",
+      "at": [
+        "gaston-day:theatre.seasonTitle"
+      ],
+      "t": "Ane pwodiksyon an"
+    },
+    {
+      "text": "Across the year",
+      "of": "6d397ef4",
+      "at": [
+        "gaston-day:theatre.season[0].season"
+      ],
+      "t": "Atravè ane a"
+    },
+    {
+      "text": "Two major shows",
+      "of": "c5ef52ae",
+      "at": [
+        "gaston-day:theatre.season[0].kind"
+      ],
+      "t": "De gwo pyès"
+    },
+    {
+      "text": "The school stages two major productions each year, one of which is the spring musical. Specific titles and dates are not published.",
+      "of": "5d1d381a",
+      "at": [
+        "gaston-day:theatre.season[0].detail"
+      ],
+      "t": "Lekòl la monte de gwo pwodiksyon chak ane, epi youn ladan yo se mizikal prentan an. Tit ak dat espesifik pa pibliye."
+    },
+    {
+      "text": "The spring musical is the named anchor of the production calendar.",
+      "of": "4ca4e271",
+      "at": [
+        "gaston-day:theatre.season[1].detail"
+      ],
+      "t": "Mizikal prentan an se ankraj ki gen non nan kalandriye pwodiksyon an."
+    },
+    {
+      "text": "Curricular",
+      "of": "426615c7",
+      "at": [
+        "gaston-day:theatre.season[2].season"
+      ],
+      "t": "Kourikoulè"
+    },
+    {
+      "text": "Drama from grade 2",
+      "of": "51b4d535",
+      "at": [
+        "gaston-day:theatre.season[2].kind"
+      ],
+      "t": "Dram apati grad 2"
+    },
+    {
+      "text": "Drama classes begin as early as second grade, so the pipeline into Upper School productions starts in the Lower School.",
+      "of": "d74632de",
+      "at": [
+        "gaston-day:theatre.season[2].detail"
+      ],
+      "t": "Klas dram yo kòmanse depi dezyèm ane, kidonk kanal la ki mennen nan pwodiksyon Upper School yo kòmanse nan Lower School la."
+    },
+    {
+      "text": "Summer",
+      "of": "42f6a154",
+      "at": [
+        "gaston-day:theatre.season[3].season"
+      ],
+      "t": "Ete"
+    },
+    {
+      "text": "Thespian Camp",
+      "of": "9dba3d9a",
+      "at": [
+        "gaston-day:theatre.season[3].kind"
+      ],
+      "t": "Thespian Camp"
+    },
+    {
+      "text": "Thespian Camp (rising PK–6) teaches songs and script for a short musical and involves campers in designing a simple set.",
+      "of": "29e15bf8",
+      "at": [
+        "gaston-day:theatre.season[3].detail"
+      ],
+      "t": "Thespian Camp (k ap monte PK–6) anseye chante ak script pou yon ti mizikal epi li enplike patisipan yo nan konsepsyon yon dekò senp."
+    },
+    {
+      "text": "Travis Johnson chairs the Fine Arts Department (ext. 415). The Actors’ Conservatory Theatre operates as a dedicated programme within the school’s theatre offering.",
+      "of": "bfaf84c8",
+      "at": [
+        "gaston-day:theatre.whoRunsIt"
+      ],
+      "t": "Travis Johnson prezide Fine Arts Department la (ext. 415). Actors’ Conservatory Theatre a fonksyone kòm yon pwogram dedye anndan ofrann teyat lekòl la."
+    },
+    {
+      "text": "The Pamela Kimbrell Warlick Visual & Performing Arts Center seats 550 and carries modern lighting and sound systems plus a professional dance studio — a substantial house for a school of 510 students.",
+      "of": "0a2cfa65",
+      "at": [
+        "gaston-day:theatre.venueNote"
+      ],
+      "t": "Pamela Kimbrell Warlick Visual & Performing Arts Center la gen 550 plas epi li pote sistèm limyè ak son modèn plis yon estidyo dans pwofesyonèl — yon sal enpòtan pou yon lekòl 510 elèv."
+    },
+    {
+      "text": "The school publishes no production titles, performance dates, cast sizes or theatre competition results, and it names no International Thespian Society troupe number despite chartering the society. So the *shape* of the programme is well documented while its *record* is not — this card deliberately carries no awards ledger rather than an empty one.",
+      "of": "fc74421f",
+      "at": [
+        "gaston-day:theatre.honestContext"
+      ],
+      "t": "Lekòl la pa pibliye okenn tit pwodiksyon, dat pèfòmans, gwosè distribisyon ni rezilta konpetisyon teyat, epi li pa nonmen okenn nimewo twoup International Thespian Society malgre li chate sosyete a. Kidonk *fòm* pwogram nan byen dokimante pandan *dosye* li a pa dokimante — sa a se yon mank nan piblikasyon, se pa yon jijman sou kalite a."
+    },
+    {
+      "text": "Chorus students earned “superior” ratings in regional adjudications across six years, and the programme has sent students on to the UNC School of the Arts and Governor’s School.",
+      "of": "fd6054af",
+      "at": [
+        "gaston-day:music.headline"
+      ],
+      "t": "Elèv koral yo te genyen nòt “superior” nan jijman rejyonal atravè sis ane, epi pwogram nan voye elèv nan UNC School of the Arts ak Governor’s School."
+    },
+    {
+      "text": "Music is taught as a practice rather than a subject — the curriculum covers singing, movement, improvisation, reading, writing and performing.",
+      "of": "32ad2dcd",
+      "at": [
+        "gaston-day:music.subhead"
+      ],
+      "t": "Yo anseye mizik kòm yon pratik olye ke kòm yon matyè — kourikoulòm nan kouvri chante, mouvman, enpwovizasyon, lekti, ekriti ak pèfòmans."
+    },
+    {
+      "text": "The ensembles",
+      "of": "e246d810",
+      "at": [
+        "gaston-day:music.boardTitle"
+      ],
+      "t": "Ansanm yo"
+    },
+    {
+      "text": "Upper School",
+      "of": "bfabeb69",
+      "at": [
+        "gaston-day:music.tracks[1].label"
+      ],
+      "t": "Upper School"
+    },
+    {
+      "text": "Individual study",
+      "of": "f5b0829f",
+      "at": [
+        "gaston-day:music.tracks[2].label"
+      ],
+      "t": "Etid endividyèl"
+    },
+    {
+      "text": "Band and Concert Choir appear in the profile’s fine-arts course table, so they carry academic credit toward the two-year requirement; the ensembles listed on the arts page sit alongside them. Private lessons are taught by contracted professional musicians.",
+      "of": "23a0021c",
+      "at": [
+        "gaston-day:music.boardNote"
+      ],
+      "t": "Band ak Concert Choir parèt nan tab kou bozar pwofil la, kidonk yo pote kredi akademik pou egzijans de ane a; ansanm ki liste sou paj atistik la chita akote yo. Se mizisyen pwofesyonèl anba kontra ki bay leson prive yo."
+    },
+    {
+      "text": "The recognition ladder",
+      "of": "31d184fd",
+      "at": [
+        "gaston-day:music.ladderTitle"
+      ],
+      "t": "Nechèl rekonesans lan"
+    },
+    {
+      "text": "Regional adjudication",
+      "of": "c06fb4d1",
+      "at": [
+        "gaston-day:music.ladder[0].label"
+      ],
+      "t": "Jijman rejyonal"
+    },
+    {
+      "text": "Chorus students earned “superior” ratings in regional adjudications over six years — a sustained record rather than a single strong year.",
+      "of": "9452b0c6",
+      "at": [
+        "gaston-day:music.ladder[0].text"
+      ],
+      "t": "Elèv koral yo te genyen nòt “superior” nan jijman rejyonal pandan sis ane — yon dosye ki soutni olye ke yon sèl bon ane."
+    },
+    {
+      "text": "Conservatory admission",
+      "of": "f8ced44f",
+      "at": [
+        "gaston-day:music.ladder[1].label"
+      ],
+      "t": "Admisyon nan konsèvatwa"
+    },
+    {
+      "text": "Students have gained admission to the North Carolina School of the Arts. UNC School of the Arts also appears on the school’s 2019–2025 college acceptance list, independently corroborating the pathway.",
+      "of": "3f6dd568",
+      "at": [
+        "gaston-day:music.ladder[1].text"
+      ],
+      "t": "Elèv yo jwenn admisyon nan North Carolina School of the Arts. UNC School of the Arts parèt tou sou lis akseptasyon inivèsite 2019–2025 lekòl la, sa ki konfime wout la endepandamman."
+    },
+    {
+      "text": "Governor’s School",
+      "of": "9446fe91",
+      "at": [
+        "gaston-day:music.ladder[2].label"
+      ],
+      "t": "Governor’s School"
+    },
+    {
+      "text": "Students have earned places at North Carolina Governor’s School, the state’s selective summer programme for gifted students.",
+      "of": "f8be13be",
+      "at": [
+        "gaston-day:music.ladder[2].text"
+      ],
+      "t": "Elèv yo jwenn plas nan North Carolina Governor’s School, pwogram ete selektif eta a pou elèv ki gen gwo talan."
+    },
+    {
+      "text": "International performance",
+      "of": "4957f0e1",
+      "at": [
+        "gaston-day:music.ladder[3].label"
+      ],
+      "t": "Pèfòmans entènasyonal"
+    },
+    {
+      "text": "Performances at St Mary-le-Bow and Canterbury Cathedral, plus joint concerts with the Westminster Youth Orchestra.",
+      "of": "4dec7f4f",
+      "at": [
+        "gaston-day:music.ladder[3].text"
+      ],
+      "t": "Pèfòmans nan St Mary-le-Bow ak Canterbury Cathedral, plis konsè ansanm ak Westminster Youth Orchestra a."
+    },
+    {
+      "text": "The school does not publish ensemble sizes, named all-state or all-district selections, festival ratings by year, or a music faculty roster beyond the department chair — so the ladder above is qualitative where a larger school would publish counts.",
+      "of": "aea5c459",
+      "at": [
+        "gaston-day:music.ladderNote"
+      ],
+      "t": "Lekòl la pa pibliye gwosè ansanm, seleksyon all-state oswa all-district ki gen non, nòt festival pa ane, ni yon lis pwofesè mizik pi lwen pase prezidan depatman an — kidonk nechèl ki anwo a kalitatif kote yon lekòl pi gwo ta pibliye chif."
+    },
+    {
+      "text": "A four-step Upper School sequence ending at Visual Art IV Honors, taught across five media including ceramics and printmaking.",
+      "of": "91b7b1e2",
+      "at": [
+        "gaston-day:visual.headline"
+      ],
+      "t": "Yon sekans Upper School kat etap ki fini nan Visual Art IV Honors, ki anseye atravè senk mwayen ki enkli seramik ak gravi."
+    },
+    {
+      "text": "Portfolio development is named as part of the instruction, which is the practical difference between an art elective and a route to an art school — and the acceptance list bears it out.",
+      "of": "d0e6435a",
+      "at": [
+        "gaston-day:visual.subhead"
+      ],
+      "t": "Yo nonmen devlopman pòtfolyo kòm yon pati nan ansèyman an, epi se sa ki diferans pratik ant yon elektif atizay ak yon wout ki mennen nan yon lekòl atizay — epi lis akseptasyon an konfime l."
+    },
+    {
+      "text": "What students actually work in",
+      "of": "ab1858da",
+      "at": [
+        "gaston-day:visual.mediaTitle"
+      ],
+      "t": "Nan kisa elèv yo travay reyèlman"
+    },
+    {
+      "text": "Named explicitly in the Upper School visual-arts description",
+      "of": "1bdf19ee",
+      "at": [
+        "gaston-day:visual.media[4].detail"
+      ],
+      "t": "Nonmen eksplisitman nan deskripsyon atizay vizyèl Upper School la"
+    },
+    {
+      "text": "There is no AP Studio Art or AP Art History in the profile’s course table — Visual Art IV (H) is the terminal course, carrying the Honors +0.50 weighting rather than an AP +1.0. Cinema Studies, Creative Writing (H) and Yearbook sit alongside as arts-adjacent electives.",
+      "of": "1ad917a4",
+      "at": [
+        "gaston-day:visual.pathNote"
+      ],
+      "t": "Pa gen AP Studio Art ni AP Art History nan tab kou pwofil la — Visual Art IV (H) se dènye kou a, ki pote pwa Honors +0.50 olye ke yon AP +1.0. Cinema Studies, Creative Writing (H) ak Yearbook chita akote kòm elektif ki pre atizay."
+    },
+    {
+      "text": "Where the work goes",
+      "of": "d3d0e20a",
+      "at": [
+        "gaston-day:visual.exhibitsTitle"
+      ],
+      "t": "Kote travay la ale"
+    },
+    {
+      "text": "Numerous Scholastic Art Awards, plus wins at national, regional and local competitions.",
+      "of": "746ac530",
+      "at": [
+        "gaston-day:visual.exhibits[0].detail"
+      ],
+      "t": "Anpil Scholastic Art Awards, plis viktwa nan konpetisyon nasyonal, rejyonal ak lokal."
+    },
+    {
+      "text": "The student literary and art magazine publishes illustrations, paintings and photographs alongside written work, and has taken numerous Scholastic Art and Writing Awards and repeated recognition in the NC Scholastic Media Association Literary Magazine Contest.",
+      "of": "a9cfe5a6",
+      "at": [
+        "gaston-day:visual.exhibits[1].detail"
+      ],
+      "t": "Magazin literè ak atistik elèv yo pibliye ilistrasyon, penti ak foto ansanm ak travay ekri, epi li pran anpil Scholastic Art and Writing Awards ak rekonesans repete nan NC Scholastic Media Association Literary Magazine Contest la."
+    },
+    {
+      "text": "2019–2025",
+      "of": "2adf025d",
+      "at": [
+        "gaston-day:visual.exhibits[2].when"
+      ],
+      "t": "2019–2025"
+    },
+    {
+      "text": "The 2019–2025 acceptance list includes RISD, SCAD, School of Visual Arts, Maryland Institute College of Art, the School of the Art Institute of Chicago, Minneapolis College of Art and Design and UNC School of the Arts — seven specialty art and design institutions.",
+      "of": "66207e20",
+      "at": [
+        "gaston-day:visual.exhibits[2].detail"
+      ],
+      "t": "Lis akseptasyon 2019–2025 la enkli RISD, SCAD, School of Visual Arts, Maryland Institute College of Art, School of the Art Institute of Chicago, Minneapolis College of Art and Design ak UNC School of the Arts — sèt enstitisyon espesyalize nan atizay ak konsepsyon."
+    },
+    {
+      "text": "The department is chaired by Travis Johnson; no other arts faculty are named publicly. The school publishes no gallery or exhibition calendar, no count of Scholastic awards by year and no named student winners — \"numerous\" is the school’s own word and is reproduced rather than quantified.",
+      "of": "6d204ef7",
+      "at": [
+        "gaston-day:visual.footnote"
+      ],
+      "t": "Travis Johnson prezide depatman an; nou pa nonmen okenn lòt pwofesè atizay piblikman. Lekòl la pa pibliye okenn kalandriye galri oswa ekspozisyon, okenn kantite prim Scholastic pa ane ni okenn non elèv ki genyen — “numerous” se pwòp mo lekòl la epi nou repwodui l olye ke nou kantifye l."
+    },
+    {
+      "text": "A serious arts programme for a 510-student school — a named 550-seat centre, a six-year adjudication record, and a student magazine with a national award history.",
+      "of": "5b76b2a5",
+      "at": [
+        "gaston-day:verdict.headline"
+      ],
+      "t": "Yon pwogram atistik serye pou yon lekòl 510 elèv — yon sant 550 plas ki gen non, yon dosye jijman sis ane, ak yon magazin elèv ki gen yon istwa prim nasyonal."
+    },
+    {
+      "text": "What is missing is the record rather than the programme: almost nothing is published by year, by title or by name.",
+      "of": "c894aa2e",
+      "at": [
+        "gaston-day:verdict.subhead"
+      ],
+      "t": "Sa ki manke se dosye a olye ke pwogram nan: prèske anyen pa pibliye pa ane, pa tit oswa pa non."
+    },
+    {
+      "text": "The facility is real and named",
+      "of": "099988bd",
+      "at": [
+        "gaston-day:verdict.holdsUp[0].label"
+      ],
+      "t": "Enstalasyon an reyèl epi li gen yon non"
+    },
+    {
+      "text": "The Pamela Kimbrell Warlick Visual & Performing Arts Center seats 550 with modern lighting and sound and a professional dance studio — larger than the school’s entire enrollment.",
+      "of": "6e5cd3ae",
+      "at": [
+        "gaston-day:verdict.holdsUp[0].text"
+      ],
+      "t": "Pamela Kimbrell Warlick Visual & Performing Arts Center la gen 550 plas ak limyè ak son modèn ak yon estidyo dans pwofesyonèl — pi gwo pase tout enskripsyon lekòl la."
+    },
+    {
+      "text": "The ladder is genuinely PS–12",
+      "of": "f1e22d13",
+      "at": [
+        "gaston-day:verdict.holdsUp[1].label"
+      ],
+      "t": "Nechèl la vrèman PS–12"
+    },
+    {
+      "text": "Drama from second grade, integrated arts in the Lower School, four elective tracks in the Middle School, and a four-course visual sequence plus three ensembles in the Upper School.",
+      "of": "469c7114",
+      "at": [
+        "gaston-day:verdict.holdsUp[1].text"
+      ],
+      "t": "Dram apati dezyèm ane, atizay entegre nan Lower School la, kat pis elektif nan Middle School la, ak yon sekans vizyèl kat kou plis twa ansanm nan Upper School la."
+    },
+    {
+      "text": "Recognition is sustained, not one-off",
+      "of": "48b3e2a5",
+      "at": [
+        "gaston-day:verdict.holdsUp[2].label"
+      ],
+      "t": "Rekonesans lan soutni, li pa yon sèl fwa"
+    },
+    {
+      "text": "Six years of “superior” regional chorus adjudications, and admissions to UNC School of the Arts and Governor’s School.",
+      "of": "e156b624",
+      "at": [
+        "gaston-day:verdict.holdsUp[2].text"
+      ],
+      "t": "Sis ane jijman koral rejyonal “superior”, ak admisyon nan UNC School of the Arts ak Governor’s School."
+    },
+    {
+      "text": "Blutopia is a genuine distinction",
+      "of": "e3df9a95",
+      "at": [
+        "gaston-day:verdict.holdsUp[3].label"
+      ],
+      "t": "Blutopia se yon vrè distenksyon"
+    },
+    {
+      "text": "Entirely student-produced, with numerous Scholastic Art and Writing Awards and consistent recognition in the NC Scholastic Media Association Literary Magazine Contest.",
+      "of": "4532306d",
+      "at": [
+        "gaston-day:verdict.holdsUp[3].text"
+      ],
+      "t": "Elèv yo pwodui l nèt, ak anpil Scholastic Art and Writing Awards ak rekonesans konstan nan NC Scholastic Media Association Literary Magazine Contest la."
+    },
+    {
+      "text": "Portfolio work leads somewhere",
+      "of": "45810778",
+      "at": [
+        "gaston-day:verdict.holdsUp[4].label"
+      ],
+      "t": "Travay pòtfolyo a mennen yon kote"
+    },
+    {
+      "text": "Portfolio development is taught, and seven specialty art and design schools — RISD, SCAD, SVA, MICA, SAIC, MCAD and UNCSA — appear on the acceptance list.",
+      "of": "07b229cb",
+      "at": [
+        "gaston-day:verdict.holdsUp[4].text"
+      ],
+      "t": "Yo anseye devlopman pòtfolyo, epi sèt lekòl espesyalize nan atizay ak konsepsyon — RISD, SCAD, SVA, MICA, SAIC, MCAD ak UNCSA — parèt sou lis akseptasyon an."
+    },
+    {
+      "text": "Arts grades are published",
+      "of": "60615395",
+      "at": [
+        "gaston-day:verdict.holdsUp[5].label"
+      ],
+      "t": "Nòt atistik yo pibliye"
+    },
+    {
+      "text": "The profile prints an ARTS grade distribution for 2024-25 (72% A+, 22% A, 5% A-), which few schools disclose. Read it as context for how the department grades rather than as a difficulty signal.",
+      "of": "16169f26",
+      "at": [
+        "gaston-day:verdict.holdsUp[5].text"
+      ],
+      "t": "Pwofil la enprime yon distribisyon nòt ARTS pou 2024-25 (72% A+, 22% A, 5% A-), yon bagay tre kèk lekòl divilge. Li l kòm kontèks sou kijan depatman an bay nòt olye ke kòm yon siy difikilte."
+    },
+    {
+      "text": "What were the last two years’ productions, and how many students were cast versus crewed?",
+      "of": "95c3ac2d",
+      "at": [
+        "gaston-day:verdict.ask[0]"
+      ],
+      "t": "Ki pwodiksyon de dènye ane yo te ye, epi konbyen elèv ki te nan distribisyon an kont konbyen ki te nan ekip teknik la?"
+    },
+    {
+      "text": "How large are Band, Concert Choir and the Vocal Performance Ensemble — and does everyone who auditions get a place?",
+      "of": "76bfc700",
+      "at": [
+        "gaston-day:verdict.ask[1]"
+      ],
+      "t": "Ki gwosè Band, Concert Choir ak Vocal Performance Ensemble la — epi èske tout moun ki odisyone jwenn yon plas?"
+    },
+    {
+      "text": "Visual Art IV is the terminal course with no AP Studio Art — how do students building an art-school portfolio go further?",
+      "of": "5422ced3",
+      "at": [
+        "gaston-day:verdict.ask[2]"
+      ],
+      "t": "Visual Art IV se dènye kou a epi pa gen AP Studio Art — kijan elèv k ap bati yon pòtfolyo pou lekòl atizay ale pi lwen?"
+    },
+    {
+      "text": "Which regional adjudications does the chorus enter, and what were the ratings in the last two years specifically?",
+      "of": "fa04601d",
+      "at": [
+        "gaston-day:verdict.ask[3]"
+      ],
+      "t": "Nan ki jijman rejyonal koral la antre, epi ki nòt li te jwenn nan de dènye ane yo espesifikman?"
+    },
+    {
+      "text": "How many Scholastic Art Awards did students win last year, and at what level (Gold Key, Silver Key, Honorable Mention)?",
+      "of": "4d5ba981",
+      "at": [
+        "gaston-day:verdict.ask[4]"
+      ],
+      "t": "Konbyen Scholastic Art Awards elèv yo te genyen ane pase, epi nan ki nivo (Gold Key, Silver Key, Honorable Mention)?"
+    },
+    {
+      "text": "Who teaches visual art, music and drama beyond the department chair, and what are their backgrounds?",
+      "of": "8f09b46e",
+      "at": [
+        "gaston-day:verdict.ask[5]"
+      ],
+      "t": "Kiyès ki anseye atizay vizyèl, mizik ak dram pi lwen pase prezidan depatman an, epi ki background yo?"
+    },
+    {
+      "text": "Is there an International Thespian Society troupe, and what are its induction requirements?",
+      "of": "4386257e",
+      "at": [
+        "gaston-day:verdict.ask[6]"
+      ],
+      "t": "Èske gen yon twoup International Thespian Society, epi ki egzijans entwonizasyon li yo?"
     }
   ]
 }

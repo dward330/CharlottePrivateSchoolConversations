@@ -1,5 +1,5 @@
 # Hickory Grove Christian School — Course Offerings
-> Distilled from 2 source document(s) in `source-material/course-offerings/hickory-grove-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-17.
+> Distilled from 2 source document(s) in `source-material/course-offerings/hickory-grove-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-18.
 **Documents:** 2026-2027 Course Selection Catalog, Curriculum Guide
 
 

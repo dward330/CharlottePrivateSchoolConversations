@@ -326,7 +326,9 @@
         "carmel-christian:honors.societies[0].feedsFrom",
         "carmel-christian:honors.societies[3].feedsFrom",
         "hickory-grove-christian:honors.societies[0].feedsFrom",
-        "hickory-grove-christian:honors.societies[1].feedsFrom"
+        "hickory-grove-christian:honors.societies[1].feedsFrom",
+        "gaston-day:honors.societies[0].feedsFrom",
+        "gaston-day:honors.societies[1].feedsFrom"
       ],
       "t": "الصف الدراسي"
     },
@@ -373,7 +375,8 @@
         "charlotte-country-day:honors.societies[5].feedsFrom",
         "cannon:honors.societies[5].feedsFrom",
         "cannon:honors.societies[6].feedsFrom",
-        "cannon:honors.societies[7].feedsFrom"
+        "cannon:honors.societies[7].feedsFrom",
+        "gaston-day:honors.societies[2].feedsFrom"
       ],
       "t": "الفنون"
     },
@@ -441,7 +444,8 @@
         "cannon:clusters.verdictHint",
         "covenant-day:clusters.verdictHint",
         "davidson-day:clusters.verdictHint",
-        "carmel-christian:clusters.verdictHint"
+        "carmel-christian:clusters.verdictHint",
+        "gaston-day:clusters.verdictHint"
       ],
       "t": "افتح أي صف للاطّلاع على الملاحظة البحثية الكاملة ومصدرها."
     },
@@ -469,7 +473,9 @@
         "charlotte-christian:clusters.rows[0].evidenceLabel",
         "charlotte-country-day:clusters.rows[0].evidenceLabel",
         "cannon:clusters.rows[1].evidenceLabel",
-        "davidson-day:clusters.rows[0].evidenceLabel"
+        "davidson-day:clusters.rows[0].evidenceLabel",
+        "gaston-day:clusters.rows[0].evidenceLabel",
+        "gaston-day:clusters.rows[1].evidenceLabel"
       ],
       "t": "مؤكَّد — فعالية"
     },
@@ -692,7 +698,8 @@
       "of": "7136d3fa",
       "at": [
         "providence-day:catalog.categories[5].short",
-        "cannon:catalog.categories[5].short"
+        "cannon:catalog.categories[5].short",
+        "gaston-day:catalog.categories[1].short"
       ],
       "t": "المطبوعات"
     },
@@ -1352,7 +1359,8 @@
         "carmel-christian:catalog.divisions[0].tag",
         "carmel-christian:catalog.divisions[1].tag",
         "carmel-christian:catalog.divisions[2].tag",
-        "hickory-grove-christian:catalog.divisions[1].tag"
+        "hickory-grove-christian:catalog.divisions[1].tag",
+        "gaston-day:catalog.divisions[1].tag"
       ],
       "t": "مُبلَّغ من المدرسة"
     },
@@ -1379,7 +1387,8 @@
       "at": [
         "providence-day:catalog.divisions[1].tag",
         "charlotte-latin:catalog.divisions[1].tag",
-        "cannon:catalog.divisions[1].tag"
+        "cannon:catalog.divisions[1].tag",
+        "gaston-day:catalog.divisions[2].tag"
       ],
       "t": "بنيوي"
     },
@@ -1868,7 +1877,9 @@
       "text": "Special interest",
       "of": "74f77aca",
       "at": [
-        "charlotte-latin:catalog.categories[3].short"
+        "charlotte-latin:catalog.categories[3].short",
+        "gaston-day:catalog.categories[5].short",
+        "gaston-day:catalog.categories[5].full"
       ],
       "t": "اهتمام خاص"
     },
@@ -1900,7 +1911,8 @@
       "text": "Culture & language",
       "of": "ebfd54c3",
       "at": [
-        "charlotte-latin:catalog.categories[5].full"
+        "charlotte-latin:catalog.categories[5].full",
+        "gaston-day:catalog.categories[3].full"
       ],
       "t": "الثقافة واللغة"
     },
@@ -2544,7 +2556,8 @@
         "charlotte-christian:catalog.categories[1].short",
         "covenant-day:catalog.categories[1].full",
         "carmel-christian:catalog.categories[0].short",
-        "hickory-grove-christian:catalog.categories[0].short"
+        "hickory-grove-christian:catalog.categories[0].short",
+        "gaston-day:catalog.categories[6].short"
       ],
       "t": "جمعيات التكريم"
     },
@@ -2554,7 +2567,8 @@
       "at": [
         "charlotte-christian:catalog.categories[1].full",
         "carmel-christian:catalog.categories[0].full",
-        "hickory-grove-christian:catalog.categories[0].full"
+        "hickory-grove-christian:catalog.categories[0].full",
+        "gaston-day:catalog.categories[6].full"
       ],
       "t": "جمعية تكريم"
     },
@@ -2755,7 +2769,8 @@
       "text": "Middle School (5–8)",
       "of": "6b3bf75b",
       "at": [
-        "charlotte-christian:catalog.divisions[0].label"
+        "charlotte-christian:catalog.divisions[0].label",
+        "gaston-day:catalog.divisions[2].label"
       ],
       "t": "Middle School (5–8)"
     },
@@ -3176,7 +3191,8 @@
       "text": "Named only",
       "of": "a0706e54",
       "at": [
-        "charlotte-country-day:clusters.rows[1].evidenceLabel"
+        "charlotte-country-day:clusters.rows[1].evidenceLabel",
+        "gaston-day:clusters.rows[4].evidenceLabel"
       ],
       "t": "بالاسم فقط"
     },
@@ -3755,7 +3771,8 @@
       "at": [
         "cannon:catalog.countNoun",
         "carmel-christian:catalog.countNoun",
-        "hickory-grove-christian:catalog.countNoun"
+        "hickory-grove-christian:catalog.countNoun",
+        "gaston-day:catalog.countNoun"
       ],
       "t": "منظمة مُسمّاة"
     },
@@ -4912,7 +4929,8 @@
       "of": "48a8bb43",
       "at": [
         "carmel-christian:clusters.rows[0].name",
-        "hickory-grove-christian:clusters.rows[0].name"
+        "hickory-grove-christian:clusters.rows[0].name",
+        "gaston-day:clusters.rows[4].name"
       ],
       "t": "جمعيات التكريم ←"
     },
@@ -5537,6 +5555,701 @@
         "hickory-grove-christian:catalog.divisions[1].text"
       ],
       "t": "يؤكد موقع المدرسة نفسه وجود رحلات تبشيرية دولية إلى Dominican Republic وEcuador وHaiti وKenya، وبرنامج للاستزراع المائي يزوّد بنك الطعام التابع لـ Hickory Grove Baptist Church — وهي قنوات خدمة تجري عبر خدمة الكنيسة لا بوصفها أندية مُدرَجة."
+    },
+    {
+      "text": "Service is a graduation requirement, not a club — 25 hours every year for every Upper School student, and a 40-hour Capstone every senior must complete.",
+      "of": "c520b934",
+      "at": [
+        "gaston-day:service.headline"
+      ],
+      "t": "الخدمة متطلّب تخرّج لا ناد — 25 ساعة كل سنة لكل طالب في Upper School، ومشروع Capstone من 40 ساعة على كل طالب في السنة الأخيرة إتمامه."
+    },
+    {
+      "text": "Peer mentoring runs the length of a school year and pairs each junior and senior with a fourth grader.",
+      "of": "4a1b0f13",
+      "at": [
+        "gaston-day:service.subhead"
+      ],
+      "t": "الإرشاد بين الأقران يمتدّ طول العام الدراسي ويقرن كل طالب في السنتين ما قبل الأخيرة والأخيرة بطالب في الصف الرابع."
+    },
+    {
+      "text": "minimum, required of every senior",
+      "of": "a9c7ab74",
+      "at": [
+        "gaston-day:service.programs[0].valueLabel"
+      ],
+      "t": "حدًّا أدنى، مطلوبة من كل طالب في السنة الأخيرة"
+    },
+    {
+      "text": "Every senior completes an approved internship, research or community-service project of no less than 40 hours, focused either on preparation for a professional career or on advancing one of the school’s core values. It begins in the second semester of junior year and completes in the first semester of senior year, with documentation and reporting throughout — and carries 0.25 credit.",
+      "of": "b5eebeb3",
+      "at": [
+        "gaston-day:service.programs[0].detail"
+      ],
+      "t": "يُكمل كل طالب في السنة الأخيرة تدريبًا عمليًّا أو بحثًا أو مشروع خدمة مجتمعية معتمدًا لا يقلّ عن 40 ساعة، يركّز إما على الإعداد لمسار مهني وإما على تعزيز إحدى قيم المدرسة الجوهرية. ويبدأ في الفصل الدراسي الثاني من السنة ما قبل الأخيرة ويكتمل في الفصل الأول من السنة الأخيرة، مع توثيق وتقارير طوال المدّة — ويحمل رصيدًا قدره 0.25."
+    },
+    {
+      "text": "juniors & seniors mentoring 4th graders",
+      "of": "853c7961",
+      "at": [
+        "gaston-day:service.programs[1].valueLabel"
+      ],
+      "t": "طلاب السنتين ما قبل الأخيرة والأخيرة يُرشدون طلاب الصف الرابع"
+    },
+    {
+      "text": "Selected juniors and seniors spend several days each fall in the mountains with the fourth-grade class, leading activities on the relationship between the environment and the human race. The relationships formed become a mentoring programme: each eleventh- and twelfth-grade student continues to meet and work with their fourth-grade mentee throughout the school year.",
+      "of": "ede50773",
+      "at": [
+        "gaston-day:service.programs[1].detail"
+      ],
+      "t": "يقضي طلاب مختارون من السنتين ما قبل الأخيرة والأخيرة عدّة أيام كل خريف في الجبال مع صفّ الصف الرابع، يقودون أنشطة عن العلاقة بين البيئة والجنس البشري. وتصير العلاقات المتكوّنة برنامج إرشاد: إذ يواصل كل طالب في الصفّين الحادي عشر والثاني عشر لقاء متدرّبه من الصف الرابع والعمل معه طوال العام الدراسي."
+    },
+    {
+      "text": "per year, every Upper School student",
+      "of": "e92aea83",
+      "at": [
+        "gaston-day:service.programs[2].valueLabel"
+      ],
+      "t": "في السنة، لكل طالب في Upper School"
+    },
+    {
+      "text": "All Upper School students must complete a minimum of 25 hours of volunteer service each year, rising to 40 hours for National Honor Society members. Juniors additionally plan, organise and execute their own community-service project.",
+      "of": "a1c4e871",
+      "at": [
+        "gaston-day:service.programs[2].detail"
+      ],
+      "t": "على كل طلاب Upper School إكمال 25 ساعة تطوّع على الأقل كل سنة، ترتفع إلى 40 ساعة لأعضاء National Honor Society. ويخطّط طلاب السنة ما قبل الأخيرة إضافةً إلى ذلك مشروع خدمة مجتمعية خاصًّا بهم وينظّمونه وينفّذونه."
+    },
+    {
+      "text": "The recognition ladder above the requirement",
+      "of": "6eb8add8",
+      "at": [
+        "gaston-day:service.footnoteTitle"
+      ],
+      "t": "سلّم التكريم فوق المتطلّب"
+    },
+    {
+      "text": "Beyond the 25-hour floor, the President’s Service Award recognises Upper School students who have served 100 or more hours, and the Middle School runs its own Spartan Strong Volunteer Service Award at 50+ hours a year. So there is a documented ladder at three levels — 25 required, 50 recognised in the Middle School, 100 recognised in the Upper School — plus the 40-hour NHS threshold sitting alongside.",
+      "of": "4a06ac9c",
+      "at": [
+        "gaston-day:service.footnote"
+      ],
+      "t": "فوق حدّ الـ25 ساعة، يُكرّم President’s Service Award طلاب Upper School الذين خدموا 100 ساعة أو أكثر، وتدير Middle School جائزتها الخاصّة Spartan Strong Volunteer Service Award عند 50+ ساعة في السنة. فثمّة سلّم موثَّق بثلاثة مستويات — 25 مطلوبة، و50 مُكرَّمة في Middle School، و100 مُكرَّمة في Upper School — إضافةً إلى عتبة الـ40 ساعة لـ NHS القائمة إلى جانبها."
+    },
+    {
+      "text": "REQUIREMENT",
+      "of": "b1b0f088",
+      "at": [
+        "gaston-day:service.flags[0].label"
+      ],
+      "t": "REQUIREMENT"
+    },
+    {
+      "text": "The Capstone and the 25-hour service obligation are graduation requirements rather than clubs — they are listed here because they are where most Gaston Day service actually happens, and because every graduate has one.",
+      "of": "50ac5021",
+      "at": [
+        "gaston-day:service.flags[0].text"
+      ],
+      "t": "مشروع Capstone والتزام الـ25 ساعة خدمة متطلّبا تخرّج لا ناديان — وقد أُدرجا هنا لأنهما حيث تجري فعليًّا معظم خدمة Gaston Day، ولأن كل خرّيج له واحد."
+    },
+    {
+      "text": "The school publishes no aggregate service-hour total, no count of President’s Service Award recipients, and no list of the community partners students serve with.",
+      "of": "01d1e3ff",
+      "at": [
+        "gaston-day:service.flags[1].text"
+      ],
+      "t": "لا تنشر المدرسة إجماليًّا مجمَّعًا لساعات الخدمة، ولا عددًا لمتلقّي President’s Service Award، ولا قائمة بشركاء المجتمع الذين يخدم الطلاب معهم."
+    },
+    {
+      "text": "Three chartered honor societies, and an Honor Code enforced by a student-led Honor Council that the college office will report to admissions when asked.",
+      "of": "c24e6038",
+      "at": [
+        "gaston-day:honors.headline"
+      ],
+      "t": "ثلاث جمعيات تكريم مُرخَّصة، وHonor Code يُنفّذه Honor Council بقيادة الطلاب، وسيبلّغ مكتب الجامعات مكاتب القبول عنه عند الطلب."
+    },
+    {
+      "text": "The Honor Code disclosure is unusually explicit — the school states in its own profile that it reports violations, including suspension, dismissal or expulsion.",
+      "of": "27cceb99",
+      "at": [
+        "gaston-day:honors.subhead"
+      ],
+      "t": "الإفصاح عن Honor Code صريح على غير المعتاد — إذ تذكر المدرسة في ملفّها أنها تُبلّغ عن المخالفات، بما فيها الإيقاف أو الفصل أو الطرد."
+    },
+    {
+      "text": "Scholarship, leadership, service and character. NHS members carry a 40-hour annual service requirement against the school-wide 25.",
+      "of": "33bd5ef6",
+      "at": [
+        "gaston-day:honors.societies[0].recognizes"
+      ],
+      "t": "التحصيل والقيادة والخدمة والخُلق. ويحمل أعضاء NHS متطلّب خدمة سنويًّا قدره 40 ساعة مقابل الـ25 المعتمدة على مستوى المدرسة."
+    },
+    {
+      "text": "Academic achievement, character, leadership and service — a second academic society alongside NHS.",
+      "of": "734322c4",
+      "at": [
+        "gaston-day:honors.societies[1].recognizes"
+      ],
+      "t": "الإنجاز الأكاديمي والخُلق والقيادة والخدمة — جمعية أكاديمية ثانية إلى جانب NHS."
+    },
+    {
+      "text": "Excellence in theatre. The school charters the society but does not publish its troupe number or induction thresholds.",
+      "of": "7d45ad1d",
+      "at": [
+        "gaston-day:honors.societies[2].recognizes"
+      ],
+      "t": "التميّز في المسرح. وترخّص المدرسة الجمعية لكنها لا تنشر رقم فرقتها ولا عتبات التنصيب فيها."
+    },
+    {
+      "text": "Honor Code & Honor Council",
+      "of": "0dd2ae41",
+      "at": [
+        "gaston-day:honors.adjacent[0].label"
+      ],
+      "t": "Honor Code وHonor Council"
+    },
+    {
+      "text": "Student conduct is governed by the Honor Code, enforced by a student-led Honor Council. When a college requests it, College Counseling will report any honor code violations, including suspension, dismissal or expulsion.",
+      "of": "b6a9d15e",
+      "at": [
+        "gaston-day:honors.adjacent[0].text"
+      ],
+      "t": "يحكم سلوكَ الطلاب Honor Code، الذي يُنفّذه Honor Council بقيادة الطلاب. وعندما تطلب جامعة ذلك، يُبلّغ College Counseling عن أي مخالفة لـ honor code، بما فيها الإيقاف أو الفصل أو الطرد."
+    },
+    {
+      "text": "President’s Service Award",
+      "of": "818b3439",
+      "at": [
+        "gaston-day:honors.adjacent[1].label"
+      ],
+      "t": "President’s Service Award"
+    },
+    {
+      "text": "For Upper School students who have served 100 or more hours — the top rung of the service ladder.",
+      "of": "dacd7648",
+      "at": [
+        "gaston-day:honors.adjacent[1].text"
+      ],
+      "t": "لطلاب Upper School الذين خدموا 100 ساعة أو أكثر — أعلى درجات سلّم الخدمة."
+    },
+    {
+      "text": "Spartan Strong Volunteer Service Award",
+      "of": "f3a67ccf",
+      "at": [
+        "gaston-day:honors.adjacent[2].label"
+      ],
+      "t": "Spartan Strong Volunteer Service Award"
+    },
+    {
+      "text": "The Middle School equivalent, recognising 50+ volunteer hours in a year.",
+      "of": "0bccf0ef",
+      "at": [
+        "gaston-day:honors.adjacent[2].text"
+      ],
+      "t": "نظيرتها في Middle School، وتُكرّم 50+ ساعة تطوّع في السنة."
+    },
+    {
+      "text": "Scholastic Art & Writing Awards",
+      "of": "d9c1bf65",
+      "at": [
+        "gaston-day:honors.adjacent[3].label"
+      ],
+      "t": "Scholastic Art & Writing Awards"
+    },
+    {
+      "text": "Blutopia has taken numerous Scholastic Art and Writing Awards and is consistently recognised in the NC Scholastic Media Association Literary Magazine Contest.",
+      "of": "2b223d47",
+      "at": [
+        "gaston-day:honors.adjacent[3].text"
+      ],
+      "t": "نالت Blutopia عددًا كبيرًا من Scholastic Art and Writing Awards وتُكرَّم باستمرار في NC Scholastic Media Association Literary Magazine Contest."
+    },
+    {
+      "text": "iGEM gold medal",
+      "of": "c7a9f494",
+      "at": [
+        "gaston-day:honors.adjacent[4].label"
+      ],
+      "t": "ميدالية iGEM الذهبية"
+    },
+    {
+      "text": "The synthetic-biology team’s gold medal is the school’s most distinctive competitive recognition, and sits outside any society structure.",
+      "of": "bb10e8db",
+      "at": [
+        "gaston-day:honors.adjacent[4].text"
+      ],
+      "t": "الميدالية الذهبية لفريق البيولوجيا التركيبية هي أكثر تكريم تنافسي تميّزًا في المدرسة، وتقع خارج أي بنية جمعيات."
+    },
+    {
+      "text": "No induction criteria, GPA thresholds, chapter names or member counts are published for any of the three societies — only that they exist. The National Merit programme is not mentioned in the profile at all, so no Semifinalist/Commended ledger could be built.",
+      "of": "070ba241",
+      "at": [
+        "gaston-day:honors.flags[0].text"
+      ],
+      "t": "لا تُنشَر معايير تنصيب ولا عتبات GPA ولا أسماء فروع ولا أعداد أعضاء لأيٍّ من الجمعيات الثلاث — بل وجودها فقط. ولا يُذكَر برنامج National Merit في الملفّ إطلاقًا، فتعذّر بناء سجلّ Semifinalist/Commended."
+    },
+    {
+      "text": "A gold-medal iGEM synthetic-biology team and a first-year VEX Nationals qualification anchor an otherwise third-party roster.",
+      "of": "5002745e",
+      "at": [
+        "gaston-day:clusters.verdict"
+      ],
+      "t": "فريق iGEM للبيولوجيا التركيبية الحائز ميدالية ذهبية وتأهّل إلى VEX Nationals في السنة الأولى يرسّخان قائمةً هي فيما عدا ذلك من طرف ثالث."
+    },
+    {
+      "text": "iGEM Synthetic Biology",
+      "of": "6a19e29b",
+      "at": [
+        "gaston-day:clusters.rows[0].name"
+      ],
+      "t": "iGEM Synthetic Biology"
+    },
+    {
+      "text": "Gold medal; four teams — 2012, 2016, 2018 and 2020",
+      "of": "9cb5e363",
+      "at": [
+        "gaston-day:clusters.rows[0].oneLiner"
+      ],
+      "t": "ميدالية ذهبية؛ أربعة فرق — 2012 و2016 و2018 و2020"
+    },
+    {
+      "text": "The flagship. iGEM (International Genetically Engineered Machine) is a university-level synthetic-biology competition with a separate high-school track, and Gaston Day has fielded four teams from a 510-student school. Documented projects include a kudzu phytotoxin and an E. coli K-12 isobutanol biofuel; the Duke undergraduate iGEM team has supported the squad. The gold medal is third-party-confirmed — the archived iGEM team wikis return 403 to automated fetches, so the medal level was not re-verified at source in this pass, though team participation across all four years is confirmed by those archived pages.",
+      "of": "b61b0c28",
+      "at": [
+        "gaston-day:clusters.rows[0].note"
+      ],
+      "t": "الفريق الرائد. وiGEM (International Genetically Engineered Machine) مسابقة بيولوجيا تركيبية بمستوى جامعي لها مسار منفصل للمرحلة الثانوية، وقد دفعت Gaston Day بأربعة فرق من مدرسة عدد طلابها 510. وتشمل المشاريع الموثَّقة سمًّا نباتيًّا من الكودزو ووقودًا حيويًّا من الأيزوبيوتانول باستخدام E. coli K-12؛ وقد دعم فريقُ iGEM الجامعي في Duke المجموعةَ. والميدالية الذهبية مؤكَّدة من طرف ثالث — إذ تُرجع ويكيّات فرق iGEM المؤرشَفة رمز 403 للجلب الآلي، فلم يُعَد التحقّق من مستوى الميدالية عند المصدر في هذا المسح، وإن كانت مشاركة الفريق في السنوات الأربع كلها مؤكَّدة من تلك الصفحات المؤرشَفة."
+    },
+    {
+      "text": "VEX Robotics",
+      "of": "c82faa7d",
+      "at": [
+        "gaston-day:clusters.rows[1].name"
+      ],
+      "t": "VEX Robotics"
+    },
+    {
+      "text": "Qualified for TSA VEX Nationals in 2023 — its first year of competing",
+      "of": "2faae7b6",
+      "at": [
+        "gaston-day:clusters.rows[1].oneLiner"
+      ],
+      "t": "تأهّل إلى TSA VEX Nationals في 2023 — سنته الأولى في المنافسة"
+    },
+    {
+      "text": "The school's own profile states it plainly: \"After years of operating a joint-school robotics team competing in FIRST Robotics where they placed 4th in state level competition, Gaston Day launched its own VEX Robotics Club and qualified for Technology Student Association VEX Nationals in 2023, the first year of joining the competition.\" Robotics (H) and Engineering (H) also run as Upper School courses, supported by a renovated makerspace with 3-D printers, laser cutters and CNC machines.",
+      "of": "f4d5b259",
+      "at": [
+        "gaston-day:clusters.rows[1].note"
+      ],
+      "t": "يذكر ملفّ المدرسة نفسها ذلك بوضوح: \"After years of operating a joint-school robotics team competing in FIRST Robotics where they placed 4th in state level competition, Gaston Day launched its own VEX Robotics Club and qualified for Technology Student Association VEX Nationals in 2023, the first year of joining the competition.\" وتُدرَّس Robotics (H) وEngineering (H) أيضًا بوصفهما حصّتين في Upper School، مدعومتين بـ makerspace مُجدَّد فيه طابعات ثلاثية الأبعاد وقاطعات ليزر وآلات CNC."
+    },
+    {
+      "text": "Competition clubs →",
+      "of": "39ed9a0f",
+      "at": [
+        "gaston-day:clusters.rows[2].name"
+      ],
+      "t": "أندية المسابقات ←"
+    },
+    {
+      "text": "Science Olympiad, Public Debate, Mock Trial, Quiz Bowl",
+      "of": "3641c5b7",
+      "at": [
+        "gaston-day:clusters.rows[2].oneLiner"
+      ],
+      "t": "Science Olympiad, Public Debate, Mock Trial, Quiz Bowl"
+    },
+    {
+      "text": "Third-party",
+      "of": "88d82a1b",
+      "at": [
+        "gaston-day:clusters.rows[2].evidenceLabel",
+        "gaston-day:catalog.divisions[0].tag"
+      ],
+      "t": "طرف ثالث"
+    },
+    {
+      "text": "Four competition-oriented clubs appear across the third-party listings, and Speech & Debate additionally runs as an Upper School course — but no titled or placement result is published for any of them. Existence, not results, is what is confirmed here.",
+      "of": "5d1ac699",
+      "at": [
+        "gaston-day:clusters.rows[2].note"
+      ],
+      "t": "تظهر أربعة أندية ذات توجّه تنافسي عبر قوائم أطراف ثالثة، وتُدرَّس Speech & Debate إضافةً إلى ذلك بوصفها حصّة في Upper School — لكن لا نتيجة لقب ولا مركز منشورة لأيٍّ منها. فالمؤكَّد هنا هو الوجود لا النتائج."
+    },
+    {
+      "text": "Publications →",
+      "of": "225b9af4",
+      "at": [
+        "gaston-day:clusters.rows[3].name"
+      ],
+      "t": "المطبوعات ←"
+    },
+    {
+      "text": "Blutopia, US Literary & Arts Magazine, MS Literary Magazine, Yearbook",
+      "of": "407df385",
+      "at": [
+        "gaston-day:clusters.rows[3].oneLiner"
+      ],
+      "t": "Blutopia, US Literary & Arts Magazine, MS Literary Magazine, Yearbook"
+    },
+    {
+      "text": "Verified — award",
+      "of": "4f98eca8",
+      "at": [
+        "gaston-day:clusters.rows[3].evidenceLabel"
+      ],
+      "t": "مؤكَّد — جائزة"
+    },
+    {
+      "text": "Blutopia is the one publication with a documented award record: entirely student-developed, created and published, it has taken numerous Scholastic Art and Writing Awards and is consistently recognised in the North Carolina Scholastic Media Association's Literary Magazine Contest. The school does not publish award counts or years, so \"numerous\" is its own word, reproduced rather than quantified.",
+      "of": "e2cacf90",
+      "at": [
+        "gaston-day:clusters.rows[3].note"
+      ],
+      "t": "Blutopia هي المطبوعة الوحيدة ذات سجلّ جوائز موثَّق: فهي مُطوَّرة ومُنشأة ومنشورة بالكامل بأيدي الطلاب، وقد نالت عددًا كبيرًا من Scholastic Art and Writing Awards وتُكرَّم باستمرار في Literary Magazine Contest التابعة لـ North Carolina Scholastic Media Association. ولا تنشر المدرسة أعداد الجوائز ولا سنواتها، فكلمة \"numerous\" كلمتها هي، مستنسَخة لا مُقدَّرة بعدد."
+    },
+    {
+      "text": "National Honor Society, National Beta Club, International Thespian Society",
+      "of": "7a348e2b",
+      "at": [
+        "gaston-day:clusters.rows[4].oneLiner"
+      ],
+      "t": "National Honor Society, National Beta Club, International Thespian Society"
+    },
+    {
+      "text": "Three chartered societies. NHS members carry a 40-hour annual service requirement against the school-wide 25 — the one induction-adjacent figure the school publishes. No GPA thresholds, chapter names, troupe numbers or member counts are published for any of the three, and the profile does not mention the National Merit programme at all.",
+      "of": "d2cffdbd",
+      "at": [
+        "gaston-day:clusters.rows[4].note"
+      ],
+      "t": "ثلاث جمعيات مُرخَّصة. ويحمل أعضاء NHS متطلّب خدمة سنويًّا قدره 40 ساعة مقابل الـ25 المعتمدة على مستوى المدرسة — وهو الرقم الوحيد القريب من التنصيب الذي تنشره المدرسة. ولا تُنشَر عتبات GPA ولا أسماء فروع ولا أرقام فرق مسرحية ولا أعداد أعضاء لأيٍّ من الثلاث، ولا يذكر الملفّ برنامج National Merit إطلاقًا."
+    },
+    {
+      "text": "28 named clubs and three honor societies — headlined by a gold-medal iGEM synthetic-biology team and a VEX Robotics squad that reached TSA Nationals in its first year.",
+      "of": "58e47468",
+      "at": [
+        "gaston-day:catalog.verdict"
+      ],
+      "t": "28 ناديًا مسمّى وثلاث جمعيات تكريم — يتصدّرها فريق iGEM للبيولوجيا التركيبية الحائز ميدالية ذهبية وفريق VEX Robotics الذي بلغ TSA Nationals في سنته الأولى."
+    },
+    {
+      "text": "The school publishes no clubs page; most of this roster comes from third-party listings, with a handful the school names itself.",
+      "of": "94bdac9f",
+      "at": [
+        "gaston-day:catalog.verdictHint"
+      ],
+      "t": "لا تنشر المدرسة صفحة أندية؛ ومعظم هذه القائمة يأتي من قوائم أطراف ثالثة، مع قلّة تسمّيها المدرسة بنفسها."
+    },
+    {
+      "text": "STEM & competitive",
+      "of": "122ef195",
+      "at": [
+        "gaston-day:catalog.categories[0].short"
+      ],
+      "t": "STEM وتنافسي"
+    },
+    {
+      "text": "STEM / competitive",
+      "of": "4e9e331e",
+      "at": [
+        "gaston-day:catalog.categories[0].full"
+      ],
+      "t": "STEM / تنافسي"
+    },
+    {
+      "text": "Publications & media",
+      "of": "de92519c",
+      "at": [
+        "gaston-day:catalog.categories[1].full"
+      ],
+      "t": "المطبوعات والإعلام"
+    },
+    {
+      "text": "Leadership & service",
+      "of": "a91d04bf",
+      "at": [
+        "gaston-day:catalog.categories[2].short"
+      ],
+      "t": "القيادة والخدمة"
+    },
+    {
+      "text": "Leadership / service",
+      "of": "847d0f0c",
+      "at": [
+        "gaston-day:catalog.categories[2].full"
+      ],
+      "t": "قيادة / خدمة"
+    },
+    {
+      "text": "Language & culture",
+      "of": "e993f0f7",
+      "at": [
+        "gaston-day:catalog.categories[3].short"
+      ],
+      "t": "اللغة والثقافة"
+    },
+    {
+      "text": "Arts",
+      "of": "278c981b",
+      "at": [
+        "gaston-day:catalog.categories[4].short"
+      ],
+      "t": "الفنون"
+    },
+    {
+      "text": "Arts & performance",
+      "of": "98ad47b3",
+      "at": [
+        "gaston-day:catalog.categories[4].full"
+      ],
+      "t": "الفنون والأداء"
+    },
+    {
+      "text": "Gold medal — teams in 2012, 2016, 2018 and 2020; kudzu phytotoxin and E. coli K-12 isobutanol biofuel projects",
+      "of": "68d926ef",
+      "at": [
+        "gaston-day:catalog.clubs[0].note"
+      ],
+      "t": "ميدالية ذهبية — فرق في 2012 و2016 و2018 و2020؛ مشروعا سمّ نباتي من الكودزو ووقود حيوي من الأيزوبيوتانول باستخدام E. coli K-12"
+    },
+    {
+      "text": "Qualified for TSA VEX Nationals in 2023, its first year competing; previously 4th at state in FIRST Robotics",
+      "of": "27dc525a",
+      "at": [
+        "gaston-day:catalog.clubs[1].note"
+      ],
+      "t": "تأهّل إلى TSA VEX Nationals في 2023، سنته الأولى في المنافسة؛ وسبق أن حلّ رابعًا على مستوى الولاية في FIRST Robotics"
+    },
+    {
+      "text": "Interscholastic science competition",
+      "of": "7469159f",
+      "at": [
+        "gaston-day:catalog.clubs[2].note"
+      ],
+      "t": "مسابقة علمية بين المدارس"
+    },
+    {
+      "text": "Named by the school itself; supported by the renovated makerspace",
+      "of": "2e24ce1a",
+      "at": [
+        "gaston-day:catalog.clubs[3].note"
+      ],
+      "t": "سمّته المدرسة بنفسها؛ مدعوم بـ makerspace المُجدَّد"
+    },
+    {
+      "text": "Competitive debate; Speech & Debate also runs as a course",
+      "of": "cd8e9d68",
+      "at": [
+        "gaston-day:catalog.clubs[4].note"
+      ],
+      "t": "مناظرة تنافسية؛ وتُدرَّس Speech & Debate أيضًا بوصفها حصّة"
+    },
+    {
+      "text": "Third-party listed",
+      "of": "ac168114",
+      "at": [
+        "gaston-day:catalog.clubs[5].note",
+        "gaston-day:catalog.clubs[6].note",
+        "gaston-day:catalog.clubs[18].note",
+        "gaston-day:catalog.clubs[21].note",
+        "gaston-day:catalog.clubs[24].note",
+        "gaston-day:catalog.clubs[25].note",
+        "gaston-day:catalog.clubs[26].note"
+      ],
+      "t": "مُدرَج لدى طرف ثالث"
+    },
+    {
+      "text": "Upper School literary and arts magazine — numerous Scholastic Art & Writing Awards and repeated NCSMA Literary Magazine Contest recognition",
+      "of": "3236d5da",
+      "at": [
+        "gaston-day:catalog.clubs[7].note"
+      ],
+      "t": "مجلّة Upper School الأدبية والفنية — عدد كبير من Scholastic Art & Writing Awards وتكريم متكرّر في NCSMA Literary Magazine Contest"
+    },
+    {
+      "text": "Listed separately from Blutopia by PrivateSchoolReview",
+      "of": "6257ba56",
+      "at": [
+        "gaston-day:catalog.clubs[8].note"
+      ],
+      "t": "مُدرَجة منفصلةً عن Blutopia لدى PrivateSchoolReview"
+    },
+    {
+      "text": "The Middle School counterpart publication",
+      "of": "d2a08c58",
+      "at": [
+        "gaston-day:catalog.clubs[9].note"
+      ],
+      "t": "المطبوعة النظيرة في Middle School"
+    },
+    {
+      "text": "Also runs as an Upper School course for credit",
+      "of": "f710620e",
+      "at": [
+        "gaston-day:catalog.clubs[10].note"
+      ],
+      "t": "تُدرَّس أيضًا بوصفها حصّة في Upper School مقابل رصيد"
+    },
+    {
+      "text": "Runs at both Middle School and Upper School level",
+      "of": "22ac61c1",
+      "at": [
+        "gaston-day:catalog.clubs[11].note"
+      ],
+      "t": "يعمل على مستويَي Middle School وUpper School معًا"
+    },
+    {
+      "text": "Student-led; enforces the Honor Code, whose violations the college office reports to colleges on request",
+      "of": "061c215c",
+      "at": [
+        "gaston-day:catalog.clubs[12].note"
+      ],
+      "t": "بقيادة الطلاب؛ يُنفّذ Honor Code الذي يُبلّغ مكتب الجامعات الجامعاتِ عن مخالفاته عند الطلب"
+    },
+    {
+      "text": "Sunship Earth — juniors and seniors mentor a fourth grader across the school year",
+      "of": "bf8d20b9",
+      "at": [
+        "gaston-day:catalog.clubs[13].note"
+      ],
+      "t": "Sunship Earth — يُرشد طلاب السنتين ما قبل الأخيرة والأخيرة طالبًا في الصف الرابع طوال العام الدراسي"
+    },
+    {
+      "text": "Rotary-affiliated service club; third-party listed",
+      "of": "7f5aeec1",
+      "at": [
+        "gaston-day:catalog.clubs[14].note"
+      ],
+      "t": "نادي خدمة تابع لـ Rotary؛ مُدرَج لدى طرف ثالث"
+    },
+    {
+      "text": "Third-party listed — American Heart Association youth board",
+      "of": "568664a6",
+      "at": [
+        "gaston-day:catalog.clubs[15].note"
+      ],
+      "t": "مُدرَج لدى طرف ثالث — مجلس شبابي تابع لـ American Heart Association"
+    },
+    {
+      "text": "Named by the school itself — environmental group",
+      "of": "9a918f9c",
+      "at": [
+        "gaston-day:catalog.clubs[16].note"
+      ],
+      "t": "سمّته المدرسة بنفسها — مجموعة بيئية"
+    },
+    {
+      "text": "Named by the school itself; sits alongside a 14%-international student body",
+      "of": "e4e90f7a",
+      "at": [
+        "gaston-day:catalog.clubs[17].note"
+      ],
+      "t": "سمّته المدرسة بنفسها؛ ويأتي إلى جانب طلاب دوليين نسبتهم 14%"
+    },
+    {
+      "text": "Spanish runs I–IV(H) as a course sequence",
+      "of": "0a9884fe",
+      "at": [
+        "gaston-day:catalog.clubs[19].note"
+      ],
+      "t": "الإسبانية تُدرَّس من I إلى IV(H) بوصفها تسلسل حصص"
+    },
+    {
+      "text": "French satisfies the world-language requirement, though no French course sequence is enumerated in the profile",
+      "of": "2f8409ce",
+      "at": [
+        "gaston-day:catalog.clubs[20].note"
+      ],
+      "t": "الفرنسية تفي بمتطلّب اللغة العالمية، وإن لم يُعدَّد أي تسلسل حصص فرنسية في الملفّ"
+    },
+    {
+      "text": "Feeds two major productions a year including the spring musical",
+      "of": "4a0e9c5a",
+      "at": [
+        "gaston-day:catalog.clubs[22].note"
+      ],
+      "t": "يُغذّي إنتاجين كبيرين في السنة منهما المسرحية الغنائية الربيعية"
+    },
+    {
+      "text": "Listed separately by PrivateSchoolReview; Actors' Conservatory Theatre runs as a dedicated program",
+      "of": "dc6a78ea",
+      "at": [
+        "gaston-day:catalog.clubs[23].note"
+      ],
+      "t": "مُدرَج منفصلًا لدى PrivateSchoolReview؛ ويعمل Actors' Conservatory Theatre بوصفه برنامجًا مخصَّصًا"
+    },
+    {
+      "text": "Fellowship of Christian Athletes; third-party listed at a non-sectarian school",
+      "of": "29203330",
+      "at": [
+        "gaston-day:catalog.clubs[27].note"
+      ],
+      "t": "Fellowship of Christian Athletes؛ مُدرَج لدى طرف ثالث في مدرسة غير طائفية"
+    },
+    {
+      "text": "Members carry a 40-hour annual service requirement against the school-wide 25",
+      "of": "fe5ab031",
+      "at": [
+        "gaston-day:catalog.clubs[28].note"
+      ],
+      "t": "يحمل الأعضاء متطلّب خدمة سنويًّا قدره 40 ساعة مقابل الـ25 المعتمدة على مستوى المدرسة"
+    },
+    {
+      "text": "Academic achievement, character, leadership and service",
+      "of": "c64999ad",
+      "at": [
+        "gaston-day:catalog.clubs[29].note"
+      ],
+      "t": "الإنجاز الأكاديمي والخُلق والقيادة والخدمة"
+    },
+    {
+      "text": "Theatre honor society; troupe number and induction thresholds not published",
+      "of": "0dce6486",
+      "at": [
+        "gaston-day:catalog.clubs[30].note"
+      ],
+      "t": "جمعية تكريم مسرحية؛ رقم الفرقة وعتبات التنصيب غير منشورين"
+    },
+    {
+      "text": "Reconstructed roster",
+      "of": "a0b3901f",
+      "at": [
+        "gaston-day:catalog.divisions[0].label"
+      ],
+      "t": "قائمة مُعاد بناؤها"
+    },
+    {
+      "text": "Gaston Day publishes no clubs or activities page. PrivateSchoolReview enumerates 14 activities and Niche adds several more; the school itself names only 3-D Printing Club, Green Team and International Council, by way of example, and states that students \"can start a new club by securing a faculty sponsor.\" The roster is therefore an open-ended snapshot rather than a census, and its size is not a figure any source states.",
+      "of": "2438e856",
+      "at": [
+        "gaston-day:catalog.divisions[0].text"
+      ],
+      "t": "لا تنشر Gaston Day صفحة أندية أو أنشطة. ويُعدّد PrivateSchoolReview 14 نشاطًا ويضيف Niche عدّة أنشطة أخرى؛ أما المدرسة نفسها فلا تسمّي سوى 3-D Printing Club وGreen Team وInternational Council، على سبيل المثال، وتذكر أن الطلاب \"can start a new club by securing a faculty sponsor.\" ولذلك فالقائمة لقطة مفتوحة لا إحصاء شاملًا، وحجمها ليس رقمًا يذكره أي مصدر."
+    },
+    {
+      "text": "The two that are not in doubt",
+      "of": "906d3dc1",
+      "at": [
+        "gaston-day:catalog.divisions[1].label"
+      ],
+      "t": "الاثنان اللذان لا شكّ فيهما"
+    },
+    {
+      "text": "iGEM and VEX Robotics are documented in the school's own Academic Profile and, for iGEM, by four archived competition team wikis (2012, 2016, 2018, 2020). These are university-level competitions with high-school tracks, and fielding them from a 510-student school is the most distinctive thing on this roster.",
+      "of": "d81efdfb",
+      "at": [
+        "gaston-day:catalog.divisions[1].text"
+      ],
+      "t": "iGEM وVEX Robotics موثَّقان في Academic Profile الخاصّ بالمدرسة، وبالنسبة لـ iGEM في أربع ويكيّات مؤرشَفة لفرق المسابقة (2012 و2016 و2018 و2020). وهاتان مسابقتان بمستوى جامعي لهما مسارات للمرحلة الثانوية، والدفع بهما من مدرسة عدد طلابها 510 هو أكثر ما يميّز هذه القائمة."
+    },
+    {
+      "text": "Middle School students elect required LEAD courses alongside art, drama, chorus and band, and run their own Student Government. The Spartan Strong Volunteer Service Award recognises 50+ volunteer hours a year. No separate Middle School club roster is published.",
+      "of": "158da676",
+      "at": [
+        "gaston-day:catalog.divisions[2].text"
+      ],
+      "t": "يختار طلاب Middle School حصص LEAD المطلوبة إلى جانب الفن والدراما والجوقة والفرقة الموسيقية، ويديرون حكومتهم الطلابية الخاصّة. ويُكرّم Spartan Strong Volunteer Service Award 50+ ساعة تطوّع في السنة. ولا تُنشَر قائمة أندية منفصلة لـ Middle School."
     }
   ]
 }
