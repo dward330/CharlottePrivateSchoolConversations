@@ -1088,10 +1088,12 @@ export const VALUE_METRICS: ValueMetric[] = [
       'gaston-day': '6:00 PM', // per the 2025-26 fee schedule (LS 3:00-6:00, MS 4:00-6:00); the programme page states 5:30 PM — see the discrepancy flag
       cannon: '6:00 PM', // After School Program, 3:00–6:00 p.m. on regular days
       'providence-day': '6:00 PM', // Extended Day (TK–5) and MS Clubhouse both close at 6:00
-      // Charlotte Christian stays null because no single hour is honest for the
-      // whole school: Lower School Extended Day runs to 6:00 but Middle School
-      // stops at 5:00. That is a genuine conflict, not a coverage gap.
-      'charlotte-christian': null,
+      // The only school whose divisions diverge: Lower School Extended Day runs
+      // to 6:00 but Middle School stops at 5:00. This row asks for the
+      // Lower-School hour (see `note`), so 6:00 is the answer to the question
+      // posed — the Middle School caveat lives in the tooltip rather than
+      // blanking the cell.
+      'charlotte-christian': '6:00 PM', // LS Extended Day JK–4 to 6:00; MS grades 5–8 stop at 5:00
     },
     quals: {
       'gaston-day': {
@@ -1104,7 +1106,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       },
       'charlotte-christian': {
         kind: 'scope',
-        text: 'The two divisions differ, so no single time fits: Lower School Extended Day (JK–4) runs to 6:00 p.m., while Middle School Extended Day ends at 5:00 p.m., a full hour earlier.',
+        text: '6:00 p.m. is the Lower School figure: Extended Day (JK–4) runs from dismissal to 6:00 p.m., and the school states that all Extended Day care ends promptly at 6 p.m. Middle School (grades 5–8) is a separate programme that ends at 5:00 p.m., a full hour earlier, with its own late fee from 5:01 p.m. This is the only school on the roster whose divisions differ, so read this row as Lower School and confirm Middle School hours separately.',
       },
       'charlotte-country-day': {
         kind: 'scope',
