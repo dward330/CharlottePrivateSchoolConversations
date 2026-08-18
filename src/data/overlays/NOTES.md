@@ -1492,3 +1492,38 @@ Left alone deliberately: fixing it means widening the `source` path rules and
 re-extracting a topic complete in nine languages, which is the same cost that keeps
 the 7-string defect open. Recorded so the next rollout finds it as a known item
 rather than rediscovering it as a bug.
+
+---
+
+## KNOWN OPEN DEFECT — descriptive phrases inside `ensembles` (2026-08-18)
+
+`ensembles` is classified *"proper noun — ensemble name"* in
+`scripts/i18n_fields.mjs` and is therefore SKIPPED from extraction. That is right
+for `Concert Choir` and `Honors Wind Ensemble`, and wrong for the handful of
+values that are descriptive phrases. Those ship as English to all nine prose
+locales, and no automated check can see them — coverage reads 100% because the
+field was never extracted at all.
+
+Found by a browser print-out of the Gaston Day page, which is the only step that
+catches this class. Gaston Day's own instance was fixed at the DATA layer rather
+than by reclassifying the field: `Private lessons with contracted professional
+musicians` became `Private lessons`, and the detail moved into `boardNote`, which
+is already prose. Four remain across other schools:
+
+| Value | File |
+|---|---|
+| `Prior experience — or audition if inexperienced` | `artsPrograms/cannon.ts` |
+| `Vertical progression — a four-year ladder` | `artsPrograms/cannon.ts` |
+| `Middle School — non-auditioned, in the daily curriculum` | `artsPrograms/charlotte-country-day.ts` |
+| `Auditioned — new students must audition` | `artsPrograms/davidson-day.ts` |
+
+**Why the field was not simply flipped to prose.** `music.tracks[].ensembles`
+holds 95 values across the ten schools and 91 are genuine proper nouns. The
+extractor matches `PATH_OVERRIDES` by path suffix, so flipping it would newly
+extract all 95 — re-opening a topic already complete in nine languages, to
+translate ensemble names that must stay English anyway. The same-shaped fix used
+here (move the prose to a neighbouring prose field) is cheaper and safer per
+occurrence.
+
+This is the fourth instance of the recorded shape: a field correctly classified
+for most of its values and wrong for a few — after `value`, `tier` and `kind`.

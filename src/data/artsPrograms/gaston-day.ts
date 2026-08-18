@@ -171,13 +171,13 @@ export const gastonDay: ArtsProgram = {
       {
         label: 'Individual study',
         ensembles: [
-          'Private lessons with contracted professional musicians',
+          'Private lessons',
           'Music Appreciation (elective)',
         ],
       },
     ],
     boardNote:
-      'Band and Concert Choir appear in the profile’s fine-arts course table, so they carry academic credit toward the two-year requirement; the ensembles listed on the arts page sit alongside them.',
+      'Band and Concert Choir appear in the profile’s fine-arts course table, so they carry academic credit toward the two-year requirement; the ensembles listed on the arts page sit alongside them. Private lessons are taught by contracted professional musicians.',
     ladderTitle: 'The recognition ladder',
     ladder: [
       {
