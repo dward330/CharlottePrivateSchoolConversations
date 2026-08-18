@@ -4,20 +4,19 @@
 // "Gaston Day School - Student Clubs - Roster Honor Societies and Signature
 // Programs 2026.md".
 //
-// All three cards render.
+// TWO of three cards render. `affinity` (Affinity & Identity Groups) is OMITTED
+// ENTIRELY — Gaston Day names no identity groups at all, and the material that
+// does exist is a set of absences rather than content: the school's own About
+// page carries a "DIVERSITY & DIFFERENCE" heading whose body is unfilled Lorem
+// ipsum, there is no DEI office or named staff, and no student group serves the
+// ~14% international cohort. Per the no-empty-cards rule a card with zero items
+// is omitted rather than shipped as a shell of gap flags. (User call,
+// 2026-08-18, at the review step.)
 //
-// `affinity` is Affinity & IDENTITY groups, and Gaston Day names NONE — so the
-// card ships with an empty `groups` roster and carries the gap instead, the
-// same shape Cannon uses. The general club roster (Chess, Yearbook, Science
-// Olympiad, iGEM, VEX Robotics and the rest) does NOT belong here: it lives in
-// the Club Catalog card (src/data/clubCatalog.ts) and the Academic &
-// Competitive Clubs card (src/data/clubClusters.ts). An earlier draft wrongly
-// put the whole roster on this card; identity groups and interest clubs are
-// different things and the card titles say so.
-//
-// The one genuinely notable finding here: the school's own About page carries a
-// "DIVERSITY & DIFFERENCE" heading whose body is unfilled Lorem ipsum, so the
-// section exists and was never written.
+// Note the general club roster (Chess, Yearbook, Science Olympiad, iGEM, VEX
+// Robotics and the rest) was never affinity material either — it lives in the
+// Club Catalog card (src/data/clubCatalog.ts) and the Academic & Competitive
+// Clubs card (src/data/clubClusters.ts). An earlier draft wrongly put it here.
 //
 // `service` carries the three signature programs and the service ladder;
 // `honors` carries the three chartered societies plus non-society recognition.
@@ -32,57 +31,6 @@ const PSR = 'https://www.privateschoolreview.com/gaston-day-school-profile'
 
 export const gastonDay: ClubsProgram = {
   /* --------------------------------------------------------- 3a affinity -- */
-  affinity: {
-    headline:
-      'Gaston Day names no affinity or identity groups at all — and its own "Diversity & Difference" page is unfilled placeholder text.',
-    subhead:
-      'The nearest things on the roster are cultural-interest clubs rather than identity groups, and the school publishes no DEI office, staff or programme. This is the clearest publication gap in its record.',
-    umbrella: undefined,
-    groups: [],
-    strips: [
-      {
-        title: 'What is published',
-        hint: '· Upper School',
-        text: 'Nothing identity-based. The school\'s Upper School page describes "a wide variety of clubs" and names three by way of example — 3-D Printing Club, Green Team and International Council — none of which is an affinity group. No Black Student Union, gender or sexuality alliance, multiracial, Jewish, Asian, Latine or interfaith group appears anywhere on gastonday.org or in any third-party listing.',
-      },
-      {
-        title: 'The cultural-interest clubs',
-        hint: '· not affinity groups',
-        text: 'An **International Council** and an **International Club** exist, alongside **Spanish**, **French** and **Classics** clubs. These are language and cultural-interest clubs tied to the curriculum, not identity groups with a membership basis — they are catalogued on the Club Catalog card and are listed here only to be explicit that they were considered and are not the same thing.',
-      },
-      {
-        title: 'The international cohort',
-        hint: '· ~14% of students',
-        text: 'A third-party listing puts international students at about 14% of the 510 enrolled, and the Academic Profile carries a world-language exception for ESL international students — so a substantial international cohort demonstrably exists. What is not published is any student-led group, peer-support structure or buddy programme serving it. The International Program page describes admissions, homestay vetting through ABC Education Group and the Global Classroom Initiative, and names Carolyn Senter as Director of International Programs — but no student organisation.',
-      },
-      {
-        title: 'Middle & Lower School',
-        text: 'No affinity groups in either division. The Middle School publishes LEAD courses, advisory, Student Government and the Spartan Strong Volunteer Service Award; advisory sessions are described as covering "pertinent topics" and "activities promoting diversity and life skills", which is the only diversity-adjacent programming named anywhere in the school\'s published material.',
-      },
-      {
-        title: 'Parents',
-        text: 'No parent affinity or identity groups are published.',
-      },
-    ],
-    flags: [
-      {
-        kind: 'gap',
-        text: 'The school\'s About page carries a "DIVERSITY & DIFFERENCE" heading whose body is **unfilled Lorem ipsum placeholder text** — the section was created and never written. There is no DEI office, no named diversity staff member, no diversity statement, no affinity roster and no student diversity leadership arm anywhere on the public site. This is a stronger form of gap than a school that simply does not mention the subject.',
-      },
-      {
-        kind: 'gap',
-        text: 'Third-party commentary (Niche reviews) describes the school as lacking racial and socio-economic diversity and names inclusion as an area for growth. That is unverified opinion rather than published data, and no enrollment demographic breakdown is available from the school: NCES reports "N/A" for every racial category, and Private School Review reports 19% students of color against a 24% state average.',
-      },
-    ],
-    sources: [
-      { label: 'gastonday.org — About Us ("Diversity & Difference" heading with placeholder body)', url: 'https://www.gastonday.org/about-us/' },
-      { label: 'gastonday.org — Upper School (the three named example clubs; no affinity groups)', url: UPPER },
-      { label: 'gastonday.org — International Program (homestay, Global Classroom; no student group)', url: 'https://www.gastonday.org/international/' },
-      { label: 'gastonday.org — Middle School (advisory, LEAD, service award)', url: MIDDLE },
-      { label: 'nces.ed.gov — PSS 2023-24 (demographics reported N/A); privateschoolreview.com — 19% students of color', url: PSR },
-    ],
-  },
-
   /* ---------------------------------------------------------- 3b service -- */
   service: {
     headline:

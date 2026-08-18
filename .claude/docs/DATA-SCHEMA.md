@@ -324,8 +324,12 @@ Jewish/Asian/Latine affinity, interfaith) and the DEI structure around them. Che
 Yearbook, Science Olympiad, robotics and language/cultural-interest clubs belong on
 the **Club Catalog & Overview** card (`src/data/clubCatalog.ts`) and the **Academic &
 Competitive Clubs** card (`src/data/clubClusters.ts`). A school with no named identity
-groups ships `groups: []` plus a gap flag — the Cannon and Gaston Day precedent —
-never a roster of interest clubs standing in for them.
+groups never gets a roster of interest clubs standing in for them: it either ships
+`groups: []` with a gap flag (Cannon, which at least publishes a sentence confirming
+affinity groups exist) or **omits the card entirely** (Gaston Day — user call,
+2026-08-18). Prefer omission where the school publishes nothing at all and the card
+would be only gap flags: that is the no-empty-cards rule, and a section of absences
+reads worse than no section.
 
 **Those two roster cards are PROSE-metric cards, so they render only when the ingest
 produces their metric key.** `clubCatalog.ts` attaches to the `catalog` key and
