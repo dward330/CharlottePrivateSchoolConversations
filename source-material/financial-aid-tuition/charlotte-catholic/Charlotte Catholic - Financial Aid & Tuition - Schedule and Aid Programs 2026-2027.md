@@ -11,21 +11,21 @@
 - **School:** Charlotte Catholic High School, grades 9–12, part of **Mecklenburg Area
   Catholic Schools (MACS)**, Diocese of Charlotte.
 
-## ⚠️ Tuition is set centrally by MACS, not by the school
+### ⚠️ Tuition is set centrally by MACS, not by the school
 
 Unlike every independent school on this roster, CCHS does not set or publish its own
 tuition. **MACS publishes one high-school schedule covering grades 9–12** at
 discovermacs.org, and the school site links to it. That is why the source below is a
 diocesan page rather than a school page.
 
-## Source URLs
+### Source URLs
 
 | Ref | URL | What it covers |
 | --- | --- | --- |
 | S1 | https://www.discovermacs.org/admissions/tuitionandaffordability | **MACS Tuition & Affordability** — the 2026-27 high-school tuition schedule, all fees, Family Individualized Tuition, the Clarity application, multi-child discounts, OSP and ESA+, and every deadline below |
 | S2 | https://catholicnewsherald.com/schools/94-news/schools/11321-apply-now-for-2025-26-opportunity-scholarships | NC Opportunity Scholarship context for diocesan families |
 
-## Tuition 2026-2027, grades 9–12
+### Tuition 2026-2027, grades 9–12
 
 | Rate | Amount |
 | --- | --- |
@@ -39,19 +39,7 @@ family for the same seat — a ~30% difference driven by parish participation ra
 financial need. The app's `top-tuition` row uses the **$23,562** International rate as the
 school's highest published tier, consistent with how that row is defined for other schools.
 
-## Fees
-
-| Fee | Amount |
-| --- | --- |
-| Application fee | **$120 per student** |
-| Continuous enrollment fee | **$150 per returning student** |
-| **Capital fee** | **$1,995 per family** |
-| FACTS payment plan fee | **$15–$45 per family** |
-
-Note the capital fee is charged **per family**, not per student — so it does not scale with
-the number of children enrolled, unlike the application and enrollment fees.
-
-## Financial aid mechanisms
+### Financial aid mechanisms
 
 - **Family Individualized Tuition (FIT)** — the need-based program. Awards vary by family
   circumstance and fund availability.
@@ -65,14 +53,14 @@ the number of children enrolled, unlike the application and enrollment fees.
 - **Education Student Accounts (ESA+)** — **$9,000** or **$17,000** yearly for students with
   qualifying disabilities.
 
-## Deadlines
+### Deadlines
 
 - **FIT applications: May 15** for returning students; new families are encouraged to apply
   alongside the admission application.
 - **NCSEAA scholarship applications open in February** for the following school year.
 - **2026-27 enrollment opens 3/23/26.**
 
-## ⚠️ Two sources that are wrong, and are deliberately not ingested
+### ⚠️ Two sources that are wrong, and are deliberately not ingested
 
 1. **PrivateSchoolReview lists CCHS tuition as $45,000.** That is **demonstrably wrong** —
    more than double the official community rate of $21,562 published by MACS itself. Not
@@ -82,7 +70,7 @@ the number of children enrolled, unlike the application and enrollment fees.
    is an easy mis-ingest for a page with that exact title, and it is not the source of
    anything here.
 
-## Confirmed structural nulls
+### Confirmed structural nulls
 
 - **`pct-aid`, `aid-awarded`, `avg-award` — permanently null.** MACS publishes aid figures
   **diocese-wide only**, never per school. There is no CCHS-specific percentage of students
@@ -97,3 +85,15 @@ the number of children enrolled, unlike the application and enrollment fees.
   reliable year attribution; **those are not shipped**, because a tuition-history row built
   from unattributable figures is worse than no row. Archived MACS snapshots would be the
   path if this row is ever wanted.
+
+## Fees
+
+| Fee | Amount |
+| --- | --- |
+| Application fee | **$120 per student** |
+| Continuous enrollment fee | **$150 per returning student** |
+| **Capital fee** | **$1,995 per family** |
+| FACTS payment plan fee | **$15–$45 per family** |
+
+Note the capital fee is charged **per family**, not per student — so it does not scale with
+the number of children enrolled, unlike the application and enrollment fees.
