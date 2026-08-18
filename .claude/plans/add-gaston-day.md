@@ -548,3 +548,78 @@ and the per-locale rollout docs for register; do not re-derive either.
   likely Course Offerings (curriculum) and the College Support academic case. **If it turns
   out to fit no existing card, that is a new card and needs the user's approval BEFORE it is
   built** — surface it and wait, per the UX-design standard. Do not create a new topic for it.
+
+## Implementation notes — Phase 1 (English), 2026-08-18
+
+**Status: English shipped and pushed** on `feat/add-gaston-day` (7 commits, no PR yet,
+not deployed). The user reviewed the rendered page and accepted it after five rounds of
+fixes, all recorded below.
+
+### Deviations from the plan, and why
+
+- **Coverage came in at 25/30 (83%), 8/8 areas — 7th of 10**, above the plan's predicted
+  ~23/30 (77%). The difference is the Summer catalog (below).
+- **The Summer Google Doc catalog WAS retrievable** — the plan's priority unlock and open
+  question. The page's linked Google Doc returns only a JS shell to WebFetch, but the
+  plain-text export endpoint (`/export?format=txt` in place of `/edit`) returns it whole.
+  That single document supplied 30 camps with dates, ages, times and prices, and is what
+  lifted Summer from mostly-null to fully populated including the Cost Planner.
+- **Brand is navy AND gold**, not the plan's "navy + white, no secondary accent". Sampled
+  from the school's own wordmark: navy `#00263f`, gold `#c8a058`. The plan expected a
+  near-collision needing a nudge; it turned out not to — `#00263f` is the darkest navy in
+  the set and is cleanly distinct from Hickory Grove `#14396e` and Charlotte Latin
+  `#12294f`, verified by rendering all four badges side by side. No adjustment was made,
+  so the badge is the school's real color.
+- **The Affinity & Identity Groups card was OMITTED** (user call at review). The school
+  names no identity groups, has no DEI office or staff, and its own About page carries a
+  "DIVERSITY & DIFFERENCE" heading whose body is unfilled Lorem ipsum. Per the
+  no-empty-cards rule a card of pure gap flags is not shipped.
+- **`usnews.com` hard-blocks this environment** — TLS completes, no body ever returns
+  (`curl` reports `http=000`; WebFetch times out). The user set a standing rule during
+  this build: try usnews.com first, and after five blocks in one pass switch to the Yahoo
+  channel for the remainder. Recorded in `add-school/SKILL.md` and the shared rank-labels
+  doc, not just here.
+- **Babson College is a confirmed NOT-FOUND rank** and ships unlabeled rather than
+  guessed. Its prominent WSJ/College Pulse #2 is a different publisher and must not be
+  mistaken for a U.S. News figure by a later pass.
+
+### Review-step bugs found and fixed (all by the user, all in the browser)
+
+1. **Affinity card held the general club roster** (Chess, Yearbook, Science Olympiad).
+   Behind it sat a larger bug: the Club Catalog and Academic & Competitive Clubs cards
+   **never rendered at all** — the single ingested subtopic matched `/honor societ/i` and
+   folded onto `honor-societies`, so the `catalog` and `academic-clubs` keys those cards
+   attach to never existed. `check:metrics` passed throughout: every subtopic DID match a
+   rule, just the wrong one. Fixed by splitting the source file to the roster naming
+   convention. **Both lessons are now rules in the generated schema doc.**
+2. **Selectivity buckets missing denominators**, and three counts wrong (nu75 40→41,
+   lac75 21→23, hbcu 4→5) after Tougaloo was added as both HBCU and lac75 without the
+   tallies being updated. Fixed in the bucket table, the six Compare cells and the verdict
+   prose. Counts are now derived from the college list, not transcribed.
+3. **Financial Aid rendered NINE prose cards** duplicating the structured Deep Dive
+   Report, because the source file used `## ` headings where every other school uses
+   `### `. Six were removed and two the user wanted kept (Bus services, Named
+   scholarships) were restored as their own sections, ordered last so no content bleeds
+   into them. `(S1)`-style source-ref suffixes stripped from headings.
+4. **Markdown `**bold**` printed its asterisks** rather than rendering — app-wide and
+   pre-existing, 793 table rows across all ten schools (Country Day's college-support
+   alone had 160). `ProseContent` now renders bold; `proseSummary()` and `make_preview()`
+   strip it, since teasers are plain text. Also cleared two long-standing teaser leaks on
+   Covenant Day and Davidson Day.
+5. **Carmel Christian's buckets** (pre-existing on `main`, fixed here at the user's
+   request): three bare Compare cells, a wrong Ivy Plus denominator (`2 / 12` — the set is
+   17), and a `~10` that contradicted its own table's `7 / 75`. Recounted from the `cats`
+   list: nu75 32, lac75 10, p4 44, hbcu 8. P4 is 44 not 45 because Alabama appears twice
+   in a list that deliberately preserves the school's verbatim duplicates.
+
+### Carried into Phase 2
+
+- `gaston-day` was added to **all six** i18n scripts in Phase 1, including all three
+  `i18n_fields.mjs` blocks, and **verified by extracting to a scratch locale and confirming
+  Gaston Day's strings (including iGEM) actually appear in the work file** — not by a green
+  coverage run.
+- The `## ` → `### ` heading change and the affinity-card removal both altered English
+  prose, so any overlay extraction must happen AFTER this branch's final English state.
+- Two Compare cells hold prose worth watching in translation: the after-school
+  discrepancy flags, and the `latest-pickup` / `aftercare-cost` tooltips, which explain a
+  conflict between two of the school's own sources.
