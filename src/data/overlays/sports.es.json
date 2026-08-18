@@ -64,7 +64,8 @@
         "covenant-day:offered.seasons[0].name",
         "davidson-day:offered.seasons[0].name",
         "carmel-christian:offered.seasons[0].name",
-        "hickory-grove-christian:offered.seasons[0].name"
+        "hickory-grove-christian:offered.seasons[0].name",
+        "gaston-day:offered.seasons[0].name"
       ]
     },
     {
@@ -90,7 +91,8 @@
         "covenant-day:offered.seasons[1].name",
         "davidson-day:offered.seasons[1].name",
         "carmel-christian:offered.seasons[1].name",
-        "hickory-grove-christian:offered.seasons[1].name"
+        "hickory-grove-christian:offered.seasons[1].name",
+        "gaston-day:offered.seasons[1].name"
       ]
     },
     {
@@ -105,7 +107,8 @@
         "covenant-day:offered.seasons[2].name",
         "davidson-day:offered.seasons[2].name",
         "carmel-christian:offered.seasons[2].name",
-        "hickory-grove-christian:offered.seasons[2].name"
+        "hickory-grove-christian:offered.seasons[2].name",
+        "gaston-day:offered.seasons[2].name"
       ]
     },
     {
@@ -183,7 +186,13 @@
         "carmel-christian:record.rows[1].cells[0].result",
         "hickory-grove-christian:record.rows[0].cells[0].result",
         "hickory-grove-christian:record.rows[0].cells[1].result",
-        "hickory-grove-christian:record.rows[1].cells[2].result"
+        "hickory-grove-christian:record.rows[1].cells[2].result",
+        "gaston-day:record.rows[0].cells[0].result",
+        "gaston-day:record.rows[0].cells[1].result",
+        "gaston-day:record.rows[0].cells[2].result",
+        "gaston-day:record.rows[1].cells[1].result",
+        "gaston-day:record.rows[1].cells[2].result",
+        "gaston-day:record.rows[2].cells[1].result"
       ]
     },
     {
@@ -294,7 +303,10 @@
         "hickory-grove-christian:record.rows[1].cells[1].result",
         "hickory-grove-christian:record.rows[2].cells[0].result",
         "hickory-grove-christian:record.rows[2].cells[1].result",
-        "hickory-grove-christian:record.rows[2].cells[2].result"
+        "hickory-grove-christian:record.rows[2].cells[2].result",
+        "gaston-day:record.rows[1].cells[0].result",
+        "gaston-day:record.rows[2].cells[0].result",
+        "gaston-day:record.rows[2].cells[2].result"
       ]
     },
     {
@@ -5117,7 +5129,8 @@
       "t": "Director deportivo",
       "of": "e3e4c54b",
       "at": [
-        "covenant-day:coaching.tenure[1].role"
+        "covenant-day:coaching.tenure[1].role",
+        "gaston-day:facilities.care[0].label"
       ]
     },
     {
@@ -6445,6 +6458,308 @@
       "of": "11d8c8cf",
       "at": [
         "hickory-grove-christian:coaching.worthKnowing"
+      ]
+    },
+    {
+      "t": "19 deportes de equipo repartidos en tres temporadas, con cerca del 70% del alumnado de los grados 6–12 practicando al menos uno.",
+      "of": "19459ea5",
+      "at": [
+        "gaston-day:offered.headline"
+      ]
+    },
+    {
+      "t": "Un programa NCISAA 2A que ha ganado ocho títulos estatales por equipos desde 2021 — una tasa de títulos que resulta mucho mayor de lo que sugiere la matrícula de 510 alumnos del centro.",
+      "of": "203ff4ca",
+      "at": [
+        "gaston-day:offered.subhead"
+      ]
+    },
+    {
+      "t": "deportes de equipo en tres temporadas",
+      "of": "1427439e",
+      "at": [
+        "gaston-day:offered.stats[0].label"
+      ]
+    },
+    {
+      "t": "de los grados 6–12 practica al menos un deporte",
+      "of": "7cdb734c",
+      "at": [
+        "gaston-day:offered.stats[1].label"
+      ]
+    },
+    {
+      "t": "títulos estatales por equipos NCISAA 2A desde 2021",
+      "of": "025948af",
+      "at": [
+        "gaston-day:offered.stats[2].label"
+      ]
+    },
+    {
+      "t": "clasificación NCISAA",
+      "of": "ffd173a8",
+      "at": [
+        "gaston-day:offered.stats[3].label"
+      ]
+    },
+    {
+      "t": "7 equipos",
+      "of": "5a9f4260",
+      "at": [
+        "gaston-day:offered.seasons[0].note",
+        "gaston-day:offered.seasons[2].note"
+      ]
+    },
+    {
+      "t": "5 equipos",
+      "of": "054d512e",
+      "at": [
+        "gaston-day:offered.seasons[1].note"
+      ]
+    },
+    {
+      "t": "Los niveles que se muestran son los que las fuentes publican realmente. El voleibol es el único deporte cuya escala está documentada — MaxPreps enumera equipos varsity, JV y freshman —, por lo que es la única fila que lleva una etiqueta JV; todos los demás deportes muestran solo V porque el sitio de atletismo que enumeraría su escala se renderiza con JavaScript y no expone nada a una descarga. La Middle School presenta sus propios equipos en fútbol, baloncesto, atletismo y natación (grados 6–8, sujeto a rendimiento académico y conducta), pero el centro no publica una plantilla completa de MS, así que no se reclama ninguna etiqueta MS. Los datos de animación y atletismo proceden de Private School Review y no de la parrilla de temporada de MaxPreps.",
+      "of": "7e4610bc",
+      "at": [
+        "gaston-day:offered.footnote"
+      ]
+    },
+    {
+      "t": "Ocho campeonatos estatales NCISAA 2A desde 2021 — incluido un año de tres títulos en 2024–25, cuando ganaron voleibol, fútbol masculino y tenis femenino.",
+      "of": "741bb841",
+      "at": [
+        "gaston-day:record.headline"
+      ]
+    },
+    {
+      "t": "El tenis femenino acumula cuatro títulos y encadena un tricampeonato; el voleibol tiene tres y llegó a la final de 2025 en cinco sets.",
+      "of": "21136c62",
+      "at": [
+        "gaston-day:record.subhead"
+      ]
+    },
+    {
+      "t": "Cuatro títulos en total (2021, 2023, 2024, 2025) y tres consecutivos hasta 2025 — venció a Trinity School of Durham & Chapel Hill por 5–1 en 2023, y después a Epiphany School en 2024 y 2025",
+      "of": "0e564ec1",
+      "at": [
+        "gaston-day:record.rows[0].note"
+      ]
+    },
+    {
+      "t": "Tres títulos (2021, 2024, 2025); barrió a Westminster Catawba el 26 de octubre de 2024 y después venció a St. Thomas More Academy por 3–2 el 25 de octubre de 2025. Además, otras tres presencias en finales y cinco títulos de liga a lo largo de la década",
+      "of": "958fe120",
+      "at": [
+        "gaston-day:record.rows[1].note"
+      ]
+    },
+    {
+      "t": "Dejó a cero a Westchester Country Day en el campeonato NCISAA 2A de 2024",
+      "of": "e69b4ba4",
+      "at": [
+        "gaston-day:record.rows[2].note"
+      ]
+    },
+    {
+      "t": "todos los demás programas. Los ocho títulos desde 2021 se concentran en exactamente tres deportes — tenis femenino, voleibol y fútbol masculino — y el centro no publica ningún historial de campeonatos para los otros dieciséis, de modo que este registro refleja una fortaleza concentrada más que una profundidad en todo el programa.",
+      "of": "e64dee8f",
+      "at": [
+        "gaston-day:record.didNotWin"
+      ]
+    },
+    {
+      "t": "El programa más laureado del centro: campeones NCISAA 2A en 2021, 2023, 2024 y 2025. La victoria de 2024 ante Epiphany School se describió en la cobertura como el tercer campeonato estatal del programa en cuatro años y el cuarto en total; la de 2025 ante el mismo rival lo convirtió en tres consecutivos.",
+      "of": "f977b315",
+      "at": [
+        "gaston-day:record.seasonDetail[0].text"
+      ]
+    },
+    {
+      "t": "Ganó el título 2A en 2021 y de nuevo en 2024 y 2025 con el entrenador principal Derek Bing. La final de 2025 ante St. Thomas More Academy se resolvió en los cinco sets, 3–2, el 25 de octubre de 2025. Más allá de los tres títulos, el programa ha alcanzado otras tres finales y ha conseguido cinco títulos de liga a lo largo de la década.",
+      "of": "1eef43a1",
+      "at": [
+        "gaston-day:record.seasonDetail[1].text"
+      ]
+    },
+    {
+      "t": "Ganó el campeonato NCISAA 2A de 2024 dejando a cero a Westchester Country Day, completando un curso escolar de tres títulos junto al voleibol y el tenis femenino — la racha que la prensa local tituló como “Déjà vu”.",
+      "of": "210e1e59",
+      "at": [
+        "gaston-day:record.seasonDetail[2].text"
+      ]
+    },
+    {
+      "t": "El registro público de distinciones es escaso al lado del historial de campeonatos — el centro publica resultados por equipos, no reconocimientos individuales.",
+      "of": "cac2ab89",
+      "at": [
+        "gaston-day:honors.headline"
+      ]
+    },
+    {
+      "t": "No aparecen exalumnos profesionales, listas All-State ni premios a jugador del año en ninguna fuente publicada, y el sitio de atletismo que los recogería no es legible por máquina.",
+      "of": "515d1b36",
+      "at": [
+        "gaston-day:honors.subhead"
+      ]
+    },
+    {
+      "t": "2025",
+      "of": "41293f26",
+      "at": [
+        "gaston-day:honors.honors[0].label"
+      ]
+    },
+    {
+      "t": "Tenis femenino — campeonas estatales NCISAA 2A, tercer título consecutivo (venc. a Epiphany School). Voleibol — campeonas estatales NCISAA 2A (venc. a St. Thomas More Academy 3–2, 25 de octubre).",
+      "of": "819d4e61",
+      "at": [
+        "gaston-day:honors.honors[0].text"
+      ]
+    },
+    {
+      "t": "2024",
+      "of": "422940b9",
+      "at": [
+        "gaston-day:honors.honors[1].label"
+      ]
+    },
+    {
+      "t": "Voleibol — campeonas estatales NCISAA 2A (barrieron a Westminster Catawba, 26 de octubre). Fútbol masculino — campeones estatales NCISAA 2A (venc. a Westchester Country Day). Tenis femenino — campeonas estatales NCISAA 2A, segundo título seguido.",
+      "of": "10a88e51",
+      "at": [
+        "gaston-day:honors.honors[1].text"
+      ]
+    },
+    {
+      "t": "2023",
+      "of": "4329424c",
+      "at": [
+        "gaston-day:honors.honors[2].label"
+      ]
+    },
+    {
+      "t": "Tenis femenino — campeonas estatales NCISAA 2A, venc. a Trinity School of Durham & Chapel Hill 5–1.",
+      "of": "a33019ab",
+      "at": [
+        "gaston-day:honors.honors[2].text"
+      ]
+    },
+    {
+      "t": "2021",
+      "of": "45294572",
+      "at": [
+        "gaston-day:honors.honors[3].label"
+      ]
+    },
+    {
+      "t": "Voleibol y tenis femenino — campeones estatales NCISAA 2A, el primer título de la racha actual de cada programa.",
+      "of": "8b5e46d8",
+      "at": [
+        "gaston-day:honors.honors[3].text"
+      ]
+    },
+    {
+      "t": "Década",
+      "of": "64db5029",
+      "at": [
+        "gaston-day:honors.honors[4].label"
+      ]
+    },
+    {
+      "t": "Voleibol — otras tres presencias en finales NCISAA y cinco títulos de liga además de los tres campeonatos.",
+      "of": "171a80c5",
+      "at": [
+        "gaston-day:honors.honors[4].text"
+      ]
+    },
+    {
+      "t": "Un campus de 60 acres que da soporte a 19 deportes, con el departamento de atletismo dirigido por una única directora nombrada.",
+      "of": "10c1b3fd",
+      "at": [
+        "gaston-day:facilities.headline"
+      ]
+    },
+    {
+      "t": "El detalle sobre instalaciones es la parte más débil del registro público en este caso — el centro no publica ningún inventario de instalaciones y el sitio de atletismo se renderiza con JavaScript.",
+      "of": "3541c9bd",
+      "at": [
+        "gaston-day:facilities.subhead"
+      ]
+    },
+    {
+      "t": "60 acres en Gastonia, con una captación de cinco condados — Gaston, Lincoln, Cleveland, Mecklenburg y York.",
+      "of": "038a61f0",
+      "at": [
+        "gaston-day:facilities.venues[0].detail"
+      ]
+    },
+    {
+      "t": "550 asientos, iluminación y sonido modernos y un estudio de danza profesional. Es el único recinto del campus que el centro describe en detalle — está al servicio de las artes más que del atletismo, y se trata en las fichas de Artes.",
+      "of": "9d4d522c",
+      "at": [
+        "gaston-day:facilities.venues[1].detail"
+      ]
+    },
+    {
+      "t": "No publicado. No aparece ningún inventario de gimnasios, campos, pistas o piscinas en ninguna página accesible; no se indican los arreglos para natación y lucha en casa.",
+      "of": "4d3ff496",
+      "at": [
+        "gaston-day:facilities.venues[2].detail"
+      ]
+    },
+    {
+      "t": "Lulu Brase, mencionada en el propio Academic Profile del centro. También codirige el programa de campamento de verano.",
+      "of": "fbcbfd5c",
+      "at": [
+        "gaston-day:facilities.care[0].text"
+      ]
+    },
+    {
+      "t": "Preparación física / medicina deportiva",
+      "of": "74ce2ced",
+      "at": [
+        "gaston-day:facilities.care[1].label"
+      ]
+    },
+    {
+      "t": "No publicado. Ninguna fuente accesible nombra a un preparador físico, un médico de equipo ni un protocolo de conmociones cerebrales.",
+      "of": "43e1de69",
+      "at": [
+        "gaston-day:facilities.care[1].text"
+      ]
+    },
+    {
+      "t": "Requisitos de participación",
+      "of": "6febc86e",
+      "at": [
+        "gaston-day:facilities.care[2].label"
+      ]
+    },
+    {
+      "t": "La participación en la Middle School (grados 6–8) exige un rendimiento académico y una conducta positiva — la única norma de elegibilidad que el centro expone públicamente.",
+      "of": "e86a2690",
+      "at": [
+        "gaston-day:facilities.care[2].text"
+      ]
+    },
+    {
+      "t": "Documentos normativos",
+      "of": "afcbdec0",
+      "at": [
+        "gaston-day:facilities.care[3].label"
+      ]
+    },
+    {
+      "t": "El sitio de atletismo hace referencia a un Athletic Department Handbook 2026-2027 y a información sobre pruebas de selección, pero ambos están tras la capa renderizada con JS y no se han podido recuperar.",
+      "of": "4d69e28c",
+      "at": [
+        "gaston-day:facilities.care[3].text"
+      ]
+    },
+    {
+      "t": "Esta ficha es deliberadamente breve. Todos los centros equiparables de esta lista publican un listado de instalaciones; Gaston Day no lo hace, y el único documento que lo recogería (el Athletic Handbook) no es accesible. Se trata de una laguna de publicación, no de una ausencia de instalaciones — un campus que presenta 19 deportes evidentemente las tiene.",
+      "of": "38ee3a38",
+      "at": [
+        "gaston-day:facilities.careNote"
       ]
     }
   ]
