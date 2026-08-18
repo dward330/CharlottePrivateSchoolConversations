@@ -1087,11 +1087,11 @@ export const VALUE_METRICS: ValueMetric[] = [
       'hickory-grove-christian': '5:30 PM', // Afterschool (TK–5) & Study Hall (6–11), 2:30–5:30 p.m.
       'gaston-day': '6:00 PM', // per the 2025-26 fee schedule (LS 3:00-6:00, MS 4:00-6:00); the programme page states 5:30 PM — see the discrepancy flag
       cannon: '6:00 PM', // After School Program, 3:00–6:00 p.m. on regular days
-      // These two remain null because no single hour is honest for the whole school:
-      // Charlotte Christian's Lower School runs to 6:00 but Middle School stops at
-      // 5:00, and Providence Day's 1–6 p.m. Extended Day is Lower School only.
+      'providence-day': '6:00 PM', // Extended Day (TK–5) and MS Clubhouse both close at 6:00
+      // Charlotte Christian stays null because no single hour is honest for the
+      // whole school: Lower School Extended Day runs to 6:00 but Middle School
+      // stops at 5:00. That is a genuine conflict, not a coverage gap.
       'charlotte-christian': null,
-      'providence-day': null,
     },
     quals: {
       'gaston-day': {
@@ -1109,6 +1109,10 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': {
         kind: 'scope',
         text: 'The Lower School’s Structured Care program runs until 6:00 p.m. Confirm current hours with the school.',
+      },
+      'providence-day': {
+        kind: 'scope',
+        text: 'Extended Day closes at 6:00 p.m. for every grade it serves — TK from 1:00, Kindergarten from 2:00, grades 1–5 from 3:00 — and the Middle School Clubhouse also runs to 6:00. Upper School has no published after-school programme. Late pickup is billed at $1.00 per minute after 6:00 p.m.',
       },
       'charlotte-latin': {
         kind: 'scope',
