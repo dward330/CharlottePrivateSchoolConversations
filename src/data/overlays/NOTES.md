@@ -25,10 +25,21 @@ school does and does not claim. Translating a quotation would misrepresent it as
 something the school said in Spanish. Surrounding prose is translated; the quoted
 span is not.
 
-**Figures are never re-typed.** Numbers keep their value; only Spanish decimal and
-thousands conventions apply where the number is written out in prose
-(`20,642` → `20.642`, `3.6 GPA` → `3,6`). Currency continues to be handled at
-render time by `localizeMoneyText()`, never here.
+**Figures are never re-typed — including their separators.** A figure is copied
+**char-for-char** from its English source: `20,642` stays `20,642`, `3.6 GPA`
+stays `3.6`. Currency is handled at render time by `localizeMoneyText()`, never
+here.
+
+> **Corrected 2026-08-18.** This paragraph previously instructed the opposite —
+> that Spanish decimal and thousands conventions applied to numbers written out
+> in prose (`20,642` → `20.642`, `3.6` → `3,6`). That is now a defect:
+> `scripts/check_sep_drift.mjs` (`npm run check:sepdrift`) requires every
+> separator-bearing numeric token in a `t` field to appear verbatim in its
+> English `text`, because a parent matches these figures against the school's
+> own page. The rule postdates this note, and the ~178 drifted `es` tokens the
+> checker still reports on `main` were written under the old guidance — they are
+> a known open defect, not a licence to add more. Do not re-localize a separator
+> inside a data string; the render layer owns presentation.
 
 **Hedges are preserved literally.** This is the highest-risk part of the
 translation and the reason the whole corpus wants review. Where the English says
