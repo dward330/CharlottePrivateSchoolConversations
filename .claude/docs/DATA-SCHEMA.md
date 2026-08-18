@@ -594,7 +594,7 @@ highest number is not the best) · **Q** carries per-cell provenance tooltips.
 
 | Row key | Label | Coverage | Flags |
 |---|---|--:|---|
-| `latest-pickup` | Latest pickup time | 8/10 | Q |
+| `latest-pickup` | Latest pickup time | 10/10 | Q |
 | `aftercare-cost` | Cost of after-school care | 8/10 | – Q sub |
 
 ### Summer Programs `summer-programs`
