@@ -107,7 +107,8 @@
         "providence-day:ladder.divisions[1].grades",
         "charlotte-latin:ladder.divisions[1].grades",
         "cannon:ladder.divisions[1].grades",
-        "davidson-day:ladder.divisions[1].grades"
+        "davidson-day:ladder.divisions[1].grades",
+        "gaston-day:ladder.divisions[1].grades"
       ],
       "t": "5–8"
     },
@@ -163,7 +164,8 @@
         "covenant-day:ladder.divisions[2].grades",
         "davidson-day:ladder.divisions[2].grades",
         "carmel-christian:ladder.divisions[2].grades",
-        "hickory-grove-christian:ladder.divisions[2].grades"
+        "hickory-grove-christian:ladder.divisions[2].grades",
+        "gaston-day:ladder.divisions[2].grades"
       ],
       "t": "9–12"
     },
@@ -341,7 +343,8 @@
         "charlotte-christian:visual.exhibits[0].when",
         "charlotte-country-day:theatre.season[2].season",
         "covenant-day:visual.exhibits[1].when",
-        "carmel-christian:theatre.season[1].season"
+        "carmel-christian:theatre.season[1].season",
+        "gaston-day:theatre.season[1].season"
       ],
       "t": "الربيع"
     },
@@ -350,7 +353,8 @@
       "of": "346c73d9",
       "at": [
         "providence-day:theatre.season[1].kind",
-        "charlotte-country-day:theatre.season[1].kind"
+        "charlotte-country-day:theatre.season[1].kind",
+        "gaston-day:theatre.season[1].kind"
       ],
       "t": "مسرحية غنائية"
     },
@@ -3077,7 +3081,9 @@
       "at": [
         "charlotte-country-day:visual.exhibits[0].when",
         "cannon:visual.exhibits[2].when",
-        "carmel-christian:visual.exhibits[0].when"
+        "carmel-christian:visual.exhibits[0].when",
+        "gaston-day:visual.exhibits[0].when",
+        "gaston-day:visual.exhibits[1].when"
       ],
       "t": "سنوي"
     },
@@ -4880,7 +4886,8 @@
       "text": "fine arts required to graduate",
       "of": "279b1430",
       "at": [
-        "davidson-day:ladder.stats[3].label"
+        "davidson-day:ladder.stats[3].label",
+        "gaston-day:ladder.stats[1].label"
       ],
       "t": "الفنون الجميلة مطلوبة للتخرّج"
     },
@@ -6430,7 +6437,8 @@
       "text": "Middle School",
       "of": "15441234",
       "at": [
-        "hickory-grove-christian:music.tracks[1].label"
+        "hickory-grove-christian:music.tracks[1].label",
+        "gaston-day:music.tracks[0].label"
       ],
       "t": "Middle School"
     },
@@ -6681,6 +6689,734 @@
         "hickory-grove-christian:verdict.ask[4]"
       ],
       "t": "هل يوجد فرع لـ National Art Honor Society أو أي تقدير خارجي في الفنون البصرية (Scholastic) لا تذكره الصفحة؟"
+    },
+    {
+      "text": "Drama starts in second grade and runs unbroken to Visual Art IV Honors — a PS-12 arts ladder anchored by a named 550-seat arts centre.",
+      "of": "8dc4781c",
+      "at": [
+        "gaston-day:ladder.headline"
+      ],
+      "t": "تبدأ الدراما في الصف الثاني وتمتدّ بلا انقطاع إلى Visual Art IV Honors — سُلّم فنون من PS إلى 12 يرسّخه مركز فنون مُسمّى بسعة 550 مقعدًا."
+    },
+    {
+      "text": "Two years of fine arts are required to graduate, and the arts sit inside the classroom rather than beside it: in the Lower School, music, art and drama lessons are coordinated with the units of study being taught.",
+      "of": "b15727b7",
+      "at": [
+        "gaston-day:ladder.subhead"
+      ],
+      "t": "يُشترَط للتخرّج سنتان في الفنون الجميلة، والفنون قائمة داخل الصف لا إلى جانبه: ففي Lower School تُنسَّق حصص الموسيقى والفن والدراما مع وحدات الدراسة التي تُدرَّس."
+    },
+    {
+      "text": "seats in the Pamela Kimbrell Warlick Visual & Performing Arts Center",
+      "of": "988f401a",
+      "at": [
+        "gaston-day:ladder.stats[0].label"
+      ],
+      "t": "مقعدًا في Pamela Kimbrell Warlick Visual & Performing Arts Center"
+    },
+    {
+      "text": "where drama classes begin",
+      "of": "c38f3bfe",
+      "at": [
+        "gaston-day:ladder.stats[2].label"
+      ],
+      "t": "حيث تبدأ حصص الدراما"
+    },
+    {
+      "text": "major productions a year, including the spring musical",
+      "of": "c2a62141",
+      "at": [
+        "gaston-day:ladder.stats[3].label"
+      ],
+      "t": "إنتاجًا كبيرًا في السنة، منها المسرحية الغنائية الربيعية"
+    },
+    {
+      "text": "PS–4",
+      "of": "bbdb3d63",
+      "at": [
+        "gaston-day:ladder.divisions[0].grades"
+      ],
+      "t": "PS–4"
+    },
+    {
+      "text": "Music, art and drama coordinated with classroom units of study rather than taught in isolation",
+      "of": "63bc24f2",
+      "at": [
+        "gaston-day:ladder.divisions[0].items[0]"
+      ],
+      "t": "الموسيقى والفن والدراما مُنسَّقة مع وحدات الدراسة الصفّية لا مُدرَّسة بمعزل عنها"
+    },
+    {
+      "text": "Drama classes begin as early as second grade",
+      "of": "c5fb022f",
+      "at": [
+        "gaston-day:ladder.divisions[0].items[1]"
+      ],
+      "t": "تبدأ حصص الدراما مبكّرًا منذ الصف الثاني"
+    },
+    {
+      "text": "Experiential learning through frequent field trips, guest speakers and virtual tours",
+      "of": "d6b530a3",
+      "at": [
+        "gaston-day:ladder.divisions[0].items[2]"
+      ],
+      "t": "تعلّم تجريبي عبر رحلات ميدانية متكرّرة ومتحدّثين ضيوف وجولات افتراضية"
+    },
+    {
+      "text": "Electives chosen from art, drama, chorus and band",
+      "of": "ae56f443",
+      "at": [
+        "gaston-day:ladder.divisions[1].items[0]"
+      ],
+      "t": "مواد اختيارية تُختار من الفن والدراما والجوقة والفرقة الموسيقية"
+    },
+    {
+      "text": "MS Instrumental Ensemble — woodwinds, brass, percussion, piano and guitar",
+      "of": "fa9e878c",
+      "at": [
+        "gaston-day:ladder.divisions[1].items[1]"
+      ],
+      "t": "MS Instrumental Ensemble — آلات النفخ الخشبية والنحاسية والإيقاع والبيانو والغيتار"
+    },
+    {
+      "text": "Middle School Chorus",
+      "of": "90ae1b0e",
+      "at": [
+        "gaston-day:ladder.divisions[1].items[2]"
+      ],
+      "t": "جوقة Middle School"
+    },
+    {
+      "text": "Private music lessons available",
+      "of": "43295d89",
+      "at": [
+        "gaston-day:ladder.divisions[1].items[3]"
+      ],
+      "t": "دروس موسيقى خاصّة متاحة"
+    },
+    {
+      "text": "Visual Art I, II, III and Visual Art IV (H)",
+      "of": "6eee811c",
+      "at": [
+        "gaston-day:ladder.divisions[2].items[0]"
+      ],
+      "t": "Visual Art I, II, III وVisual Art IV (H)"
+    },
+    {
+      "text": "Band, Concert Choir and Drama as fine-arts courses",
+      "of": "fe70b8e8",
+      "at": [
+        "gaston-day:ladder.divisions[2].items[1]"
+      ],
+      "t": "Band وConcert Choir وDrama بوصفها حصص فنون جميلة"
+    },
+    {
+      "text": "Upper School Vocal Performance Ensemble",
+      "of": "3b06a2a1",
+      "at": [
+        "gaston-day:ladder.divisions[2].items[2]"
+      ],
+      "t": "Upper School Vocal Performance Ensemble"
+    },
+    {
+      "text": "Actors’ Conservatory Theatre as a dedicated programme",
+      "of": "1b08a4ae",
+      "at": [
+        "gaston-day:ladder.divisions[2].items[3]"
+      ],
+      "t": "Actors’ Conservatory Theatre بوصفه برنامجًا مخصَّصًا"
+    },
+    {
+      "text": "Arts-adjacent electives: Music Appreciation, Cinema Studies, Creative Writing (H), Yearbook",
+      "of": "87366eac",
+      "at": [
+        "gaston-day:ladder.divisions[2].items[4]"
+      ],
+      "t": "مواد اختيارية متاخمة للفنون: Music Appreciation وCinema Studies وCreative Writing (H) وYearbook"
+    },
+    {
+      "text": "Beyond the timetable",
+      "of": "f6cb035e",
+      "at": [
+        "gaston-day:ladder.enrichmentTitle"
+      ],
+      "t": "خارج الجدول الدراسي"
+    },
+    {
+      "text": "Private lessons",
+      "of": "ffedbb41",
+      "at": [
+        "gaston-day:ladder.enrichment[0].label"
+      ],
+      "t": "الدروس الخاصّة"
+    },
+    {
+      "text": "Taught by contracted professional musicians, billed at $35 per lesson on the school’s published fee schedule. Middle School students waiting for a lesson may do homework in aftercare at no charge.",
+      "of": "93d39370",
+      "at": [
+        "gaston-day:ladder.enrichment[0].text"
+      ],
+      "t": "يدرّسها موسيقيون محترفون متعاقَد معهم، وتُحاسَب بـ $35 لكل درس في جدول المصاريف المنشور للمدرسة. ويجوز لطلاب Middle School المنتظرين درسًا أداء واجباتهم في رعاية ما بعد الدوام دون رسوم."
+    },
+    {
+      "text": "Performance travel",
+      "of": "f9db0633",
+      "at": [
+        "gaston-day:ladder.enrichment[1].label"
+      ],
+      "t": "السفر للأداء"
+    },
+    {
+      "text": "The programme has performed at St Mary-le-Bow and Canterbury Cathedral, and given joint concerts with the Westminster Youth Orchestra.",
+      "of": "42ca3a37",
+      "at": [
+        "gaston-day:ladder.enrichment[1].text"
+      ],
+      "t": "أدّى البرنامج في St Mary-le-Bow وCanterbury Cathedral، وقدّم حفلات مشتركة مع Westminster Youth Orchestra."
+    },
+    {
+      "text": "Summer arts camps",
+      "of": "2ce60830",
+      "at": [
+        "gaston-day:ladder.enrichment[2].label"
+      ],
+      "t": "مخيّمات الفنون الصيفية"
+    },
+    {
+      "text": "Thespian Camp (rising PK–6) runs in the summer catalog, alongside partner camps from the Children’s Theater of Charlotte (Frozen, Willy Wonka, Cowabunga) and Studio Elite dance.",
+      "of": "14fdd8e7",
+      "at": [
+        "gaston-day:ladder.enrichment[2].text"
+      ],
+      "t": "يُدرَج Thespian Camp (للمنتقلين من PK إلى 6) في كتالوج الصيف، إلى جانب مخيّمات شريكة من Children’s Theater of Charlotte (Frozen وWilly Wonka وCowabunga) ورقص Studio Elite."
+    },
+    {
+      "text": "Student publication",
+      "of": "5c5f1aba",
+      "at": [
+        "gaston-day:ladder.enrichment[3].label"
+      ],
+      "t": "نشرة طلابية"
+    },
+    {
+      "text": "Blutopia, the literary and art magazine, is entirely student-developed, created and published — see the Verdict card for its award record.",
+      "of": "f9ae22c9",
+      "at": [
+        "gaston-day:ladder.enrichment[3].text"
+      ],
+      "t": "Blutopia، المجلّة الأدبية والفنية، مُطوَّرة ومُنشأة ومنشورة بالكامل بأيدي الطلاب — انظر بطاقة الخلاصة للاطّلاع على سجلّ جوائزها."
+    },
+    {
+      "text": "Two major productions a year, including a spring musical, staged in a 550-seat centre with a professional dance studio.",
+      "of": "69fa751d",
+      "at": [
+        "gaston-day:theatre.headline"
+      ],
+      "t": "إنتاجان كبيران في السنة، منهما مسرحية غنائية ربيعية، يُقدَّمان في مركز بسعة 550 مقعدًا فيه استوديو رقص احترافي."
+    },
+    {
+      "text": "Students work on stage, as stage managers, on crew or in design — the school states all four routes explicitly, so theatre is not only for performers.",
+      "of": "1fdb7cec",
+      "at": [
+        "gaston-day:theatre.subhead"
+      ],
+      "t": "يعمل الطلاب على الخشبة، أو مديري خشبة، أو ضمن الطاقم، أو في التصميم — وتذكر المدرسة المسارات الأربعة كلها صراحةً، فالمسرح ليس للمؤدّين وحدهم."
+    },
+    {
+      "text": "The production year",
+      "of": "81a3d574",
+      "at": [
+        "gaston-day:theatre.seasonTitle"
+      ],
+      "t": "سنة الإنتاج"
+    },
+    {
+      "text": "Across the year",
+      "of": "6d397ef4",
+      "at": [
+        "gaston-day:theatre.season[0].season"
+      ],
+      "t": "على مدار السنة"
+    },
+    {
+      "text": "Two major shows",
+      "of": "c5ef52ae",
+      "at": [
+        "gaston-day:theatre.season[0].kind"
+      ],
+      "t": "عرضان كبيران"
+    },
+    {
+      "text": "The school stages two major productions each year, one of which is the spring musical. Specific titles and dates are not published.",
+      "of": "5d1d381a",
+      "at": [
+        "gaston-day:theatre.season[0].detail"
+      ],
+      "t": "تقدّم المدرسة إنتاجين كبيرين كل سنة، أحدهما المسرحية الغنائية الربيعية. والعناوين والتواريخ المحدّدة غير منشورة."
+    },
+    {
+      "text": "The spring musical is the named anchor of the production calendar.",
+      "of": "4ca4e271",
+      "at": [
+        "gaston-day:theatre.season[1].detail"
+      ],
+      "t": "المسرحية الغنائية الربيعية هي المرتكز المُسمّى لتقويم الإنتاج."
+    },
+    {
+      "text": "Curricular",
+      "of": "426615c7",
+      "at": [
+        "gaston-day:theatre.season[2].season"
+      ],
+      "t": "منهجي"
+    },
+    {
+      "text": "Drama from grade 2",
+      "of": "51b4d535",
+      "at": [
+        "gaston-day:theatre.season[2].kind"
+      ],
+      "t": "الدراما من الصف 2"
+    },
+    {
+      "text": "Drama classes begin as early as second grade, so the pipeline into Upper School productions starts in the Lower School.",
+      "of": "d74632de",
+      "at": [
+        "gaston-day:theatre.season[2].detail"
+      ],
+      "t": "تبدأ حصص الدراما مبكّرًا منذ الصف الثاني، فيبدأ خطّ التغذية إلى إنتاجات Upper School في Lower School."
+    },
+    {
+      "text": "Summer",
+      "of": "42f6a154",
+      "at": [
+        "gaston-day:theatre.season[3].season"
+      ],
+      "t": "الصيف"
+    },
+    {
+      "text": "Thespian Camp",
+      "of": "9dba3d9a",
+      "at": [
+        "gaston-day:theatre.season[3].kind"
+      ],
+      "t": "Thespian Camp"
+    },
+    {
+      "text": "Thespian Camp (rising PK–6) teaches songs and script for a short musical and involves campers in designing a simple set.",
+      "of": "29e15bf8",
+      "at": [
+        "gaston-day:theatre.season[3].detail"
+      ],
+      "t": "يعلّم Thespian Camp (للمنتقلين من PK إلى 6) أغاني ونصًّا لمسرحية غنائية قصيرة ويُشرك المخيّمين في تصميم ديكور بسيط."
+    },
+    {
+      "text": "Travis Johnson chairs the Fine Arts Department (ext. 415). The Actors’ Conservatory Theatre operates as a dedicated programme within the school’s theatre offering.",
+      "of": "bfaf84c8",
+      "at": [
+        "gaston-day:theatre.whoRunsIt"
+      ],
+      "t": "يرأس Travis Johnson قسم الفنون الجميلة (ext. 415). ويعمل Actors’ Conservatory Theatre بوصفه برنامجًا مخصَّصًا ضمن عرض المسرح في المدرسة."
+    },
+    {
+      "text": "The Pamela Kimbrell Warlick Visual & Performing Arts Center seats 550 and carries modern lighting and sound systems plus a professional dance studio — a substantial house for a school of 510 students.",
+      "of": "0a2cfa65",
+      "at": [
+        "gaston-day:theatre.venueNote"
+      ],
+      "t": "يتّسع Pamela Kimbrell Warlick Visual & Performing Arts Center لـ 550 مقعدًا ويحمل أنظمة إضاءة وصوت حديثة إضافةً إلى استوديو رقص احترافي — وهي قاعة كبيرة لمدرسة عدد طلابها 510."
+    },
+    {
+      "text": "The school publishes no production titles, performance dates, cast sizes or theatre competition results, and it names no International Thespian Society troupe number despite chartering the society. So the *shape* of the programme is well documented while its *record* is not — this card deliberately carries no awards ledger rather than an empty one.",
+      "of": "fc74421f",
+      "at": [
+        "gaston-day:theatre.honestContext"
+      ],
+      "t": "لا تنشر المدرسة عناوين إنتاجات ولا تواريخ عروض ولا أحجام فرق تمثيل ولا نتائج مسابقات مسرحية، ولا تسمّي رقم فرقة International Thespian Society رغم ترخيصها الجمعية. فـ*شكل* البرنامج موثَّق جيدًا بينما *سجلّه* ليس كذلك — ولذلك لا تحمل هذه البطاقة سجلّ جوائز عمدًا بدلًا من أن تحمل سجلًّا فارغًا."
+    },
+    {
+      "text": "Chorus students earned “superior” ratings in regional adjudications across six years, and the programme has sent students on to the UNC School of the Arts and Governor’s School.",
+      "of": "fd6054af",
+      "at": [
+        "gaston-day:music.headline"
+      ],
+      "t": "نال طلاب الجوقة تقديرات “superior” في التحكيمات الإقليمية على مدى ستّ سنوات، ودفع البرنامج بطلاب إلى UNC School of the Arts وGovernor’s School."
+    },
+    {
+      "text": "Music is taught as a practice rather than a subject — the curriculum covers singing, movement, improvisation, reading, writing and performing.",
+      "of": "32ad2dcd",
+      "at": [
+        "gaston-day:music.subhead"
+      ],
+      "t": "تُدرَّس الموسيقى بوصفها ممارسة لا مادّة — إذ يغطّي المنهج الغناء والحركة والارتجال والقراءة والكتابة والأداء."
+    },
+    {
+      "text": "The ensembles",
+      "of": "e246d810",
+      "at": [
+        "gaston-day:music.boardTitle"
+      ],
+      "t": "الفرق الموسيقية"
+    },
+    {
+      "text": "Upper School",
+      "of": "bfabeb69",
+      "at": [
+        "gaston-day:music.tracks[1].label"
+      ],
+      "t": "Upper School"
+    },
+    {
+      "text": "Individual study",
+      "of": "f5b0829f",
+      "at": [
+        "gaston-day:music.tracks[2].label"
+      ],
+      "t": "الدراسة الفردية"
+    },
+    {
+      "text": "Band and Concert Choir appear in the profile’s fine-arts course table, so they carry academic credit toward the two-year requirement; the ensembles listed on the arts page sit alongside them.",
+      "of": "b2415d92",
+      "at": [
+        "gaston-day:music.boardNote"
+      ],
+      "t": "يظهر Band وConcert Choir في جدول حصص الفنون الجميلة في الملفّ، فهما يحملان رصيدًا أكاديميًّا نحو متطلّب السنتين؛ والفرق المُدرَجة في صفحة الفنون تقوم إلى جانبهما."
+    },
+    {
+      "text": "The recognition ladder",
+      "of": "31d184fd",
+      "at": [
+        "gaston-day:music.ladderTitle"
+      ],
+      "t": "سلّم التكريم"
+    },
+    {
+      "text": "Regional adjudication",
+      "of": "c06fb4d1",
+      "at": [
+        "gaston-day:music.ladder[0].label"
+      ],
+      "t": "التحكيم الإقليمي"
+    },
+    {
+      "text": "Chorus students earned “superior” ratings in regional adjudications over six years — a sustained record rather than a single strong year.",
+      "of": "9452b0c6",
+      "at": [
+        "gaston-day:music.ladder[0].text"
+      ],
+      "t": "نال طلاب الجوقة تقديرات “superior” في التحكيمات الإقليمية على مدى ستّ سنوات — سجلّ مستمرّ لا سنة قوية واحدة."
+    },
+    {
+      "text": "Conservatory admission",
+      "of": "f8ced44f",
+      "at": [
+        "gaston-day:music.ladder[1].label"
+      ],
+      "t": "القبول في المعاهد الموسيقية"
+    },
+    {
+      "text": "Students have gained admission to the North Carolina School of the Arts. UNC School of the Arts also appears on the school’s 2019–2025 college acceptance list, independently corroborating the pathway.",
+      "of": "3f6dd568",
+      "at": [
+        "gaston-day:music.ladder[1].text"
+      ],
+      "t": "نال طلاب قبولًا في North Carolina School of the Arts. كما تظهر UNC School of the Arts في قائمة قبولات الجامعات للمدرسة 2019–2025، بما يعزّز المسار على نحو مستقلّ."
+    },
+    {
+      "text": "Governor’s School",
+      "of": "9446fe91",
+      "at": [
+        "gaston-day:music.ladder[2].label"
+      ],
+      "t": "Governor’s School"
+    },
+    {
+      "text": "Students have earned places at North Carolina Governor’s School, the state’s selective summer programme for gifted students.",
+      "of": "f8be13be",
+      "at": [
+        "gaston-day:music.ladder[2].text"
+      ],
+      "t": "نال طلاب مقاعد في North Carolina Governor’s School، البرنامج الصيفي الانتقائي في الولاية للطلاب الموهوبين."
+    },
+    {
+      "text": "International performance",
+      "of": "4957f0e1",
+      "at": [
+        "gaston-day:music.ladder[3].label"
+      ],
+      "t": "الأداء الدولي"
+    },
+    {
+      "text": "Performances at St Mary-le-Bow and Canterbury Cathedral, plus joint concerts with the Westminster Youth Orchestra.",
+      "of": "4dec7f4f",
+      "at": [
+        "gaston-day:music.ladder[3].text"
+      ],
+      "t": "عروض في St Mary-le-Bow وCanterbury Cathedral، إضافةً إلى حفلات مشتركة مع Westminster Youth Orchestra."
+    },
+    {
+      "text": "The school does not publish ensemble sizes, named all-state or all-district selections, festival ratings by year, or a music faculty roster beyond the department chair — so the ladder above is qualitative where a larger school would publish counts.",
+      "of": "aea5c459",
+      "at": [
+        "gaston-day:music.ladderNote"
+      ],
+      "t": "لا تنشر المدرسة أحجام الفرق ولا الاختيارات المُسمّاة على مستوى الولاية أو المنطقة ولا تقديرات المهرجانات بحسب السنة ولا قائمة بأعضاء هيئة تدريس الموسيقى عدا رئيس القسم — فالسلّم أعلاه وصفيّ حيث كانت مدرسة أكبر ستنشر أعدادًا."
+    },
+    {
+      "text": "A four-step Upper School sequence ending at Visual Art IV Honors, taught across five media including ceramics and printmaking.",
+      "of": "91b7b1e2",
+      "at": [
+        "gaston-day:visual.headline"
+      ],
+      "t": "تسلسل من أربع خطوات في Upper School ينتهي عند Visual Art IV Honors، يُدرَّس عبر خمس وسائط منها الخزف وفنّ الطباعة."
+    },
+    {
+      "text": "Portfolio development is named as part of the instruction, which is the practical difference between an art elective and a route to an art school — and the acceptance list bears it out.",
+      "of": "d0e6435a",
+      "at": [
+        "gaston-day:visual.subhead"
+      ],
+      "t": "يُذكَر تطوير ملفّ الأعمال جزءًا من التدريس، وهو الفرق العملي بين مادّة فنية اختيارية ومسار إلى مدرسة فنون — وقائمة القبولات تشهد بذلك."
+    },
+    {
+      "text": "What students actually work in",
+      "of": "ab1858da",
+      "at": [
+        "gaston-day:visual.mediaTitle"
+      ],
+      "t": "ما يعمل فيه الطلاب فعليًّا"
+    },
+    {
+      "text": "Named explicitly in the Upper School visual-arts description",
+      "of": "1bdf19ee",
+      "at": [
+        "gaston-day:visual.media[4].detail"
+      ],
+      "t": "مذكور صراحةً في وصف الفنون البصرية في Upper School"
+    },
+    {
+      "text": "There is no AP Studio Art or AP Art History in the profile’s course table — Visual Art IV (H) is the terminal course, carrying the Honors +0.50 weighting rather than an AP +1.0. Cinema Studies, Creative Writing (H) and Yearbook sit alongside as arts-adjacent electives.",
+      "of": "1ad917a4",
+      "at": [
+        "gaston-day:visual.pathNote"
+      ],
+      "t": "لا وجود لـ AP Studio Art ولا AP Art History في جدول حصص الملفّ — فـ Visual Art IV (H) هي الحصّة الختامية، وتحمل ترجيح Honors بمقدار +0.50 لا ترجيح AP بمقدار +1.0. وتقوم Cinema Studies وCreative Writing (H) وYearbook إلى جانبها بوصفها موادّ اختيارية متاخمة للفنون."
+    },
+    {
+      "text": "Where the work goes",
+      "of": "d3d0e20a",
+      "at": [
+        "gaston-day:visual.exhibitsTitle"
+      ],
+      "t": "إلى أين يذهب العمل"
+    },
+    {
+      "text": "Numerous Scholastic Art Awards, plus wins at national, regional and local competitions.",
+      "of": "746ac530",
+      "at": [
+        "gaston-day:visual.exhibits[0].detail"
+      ],
+      "t": "عدد كبير من Scholastic Art Awards، إضافةً إلى فوز في مسابقات وطنية وإقليمية ومحلية."
+    },
+    {
+      "text": "The student literary and art magazine publishes illustrations, paintings and photographs alongside written work, and has taken numerous Scholastic Art and Writing Awards and repeated recognition in the NC Scholastic Media Association Literary Magazine Contest.",
+      "of": "a9cfe5a6",
+      "at": [
+        "gaston-day:visual.exhibits[1].detail"
+      ],
+      "t": "تنشر مجلّة الطلاب الأدبية والفنية رسومًا توضيحية ولوحات وصورًا إلى جانب الأعمال المكتوبة، وقد نالت عددًا كبيرًا من Scholastic Art and Writing Awards وتكريمًا متكرّرًا في NC Scholastic Media Association Literary Magazine Contest."
+    },
+    {
+      "text": "2019–2025",
+      "of": "2adf025d",
+      "at": [
+        "gaston-day:visual.exhibits[2].when"
+      ],
+      "t": "2019–2025"
+    },
+    {
+      "text": "The 2019–2025 acceptance list includes RISD, SCAD, School of Visual Arts, Maryland Institute College of Art, the School of the Art Institute of Chicago, Minneapolis College of Art and Design and UNC School of the Arts — seven specialty art and design institutions.",
+      "of": "66207e20",
+      "at": [
+        "gaston-day:visual.exhibits[2].detail"
+      ],
+      "t": "تضمّ قائمة القبولات 2019–2025 كلًّا من RISD وSCAD وSchool of Visual Arts وMaryland Institute College of Art وSchool of the Art Institute of Chicago وMinneapolis College of Art and Design وUNC School of the Arts — سبع مؤسّسات متخصّصة في الفن والتصميم."
+    },
+    {
+      "text": "The department is chaired by Travis Johnson; no other arts faculty are named publicly. The school publishes no gallery or exhibition calendar, no count of Scholastic awards by year and no named student winners — \"numerous\" is the school’s own word and is reproduced rather than quantified.",
+      "of": "6d204ef7",
+      "at": [
+        "gaston-day:visual.footnote"
+      ],
+      "t": "يرأس القسمَ Travis Johnson؛ ولا يُسمّى علنًا أي عضو آخر في هيئة تدريس الفنون. ولا تنشر المدرسة تقويم معارض أو صالات عرض، ولا عددًا لجوائز Scholastic بحسب السنة، ولا أسماء طلاب فائزين — فكلمة \"numerous\" كلمة المدرسة هي، مستنسَخة لا مُقدَّرة بعدد."
+    },
+    {
+      "text": "A serious arts programme for a 510-student school — a named 550-seat centre, a six-year adjudication record, and a student magazine with a national award history.",
+      "of": "5b76b2a5",
+      "at": [
+        "gaston-day:verdict.headline"
+      ],
+      "t": "برنامج فنون جادّ لمدرسة عدد طلابها 510 — مركز مُسمّى بسعة 550 مقعدًا، وسجلّ تحكيم على مدى ستّ سنوات، ومجلّة طلابية لها تاريخ جوائز وطنية."
+    },
+    {
+      "text": "What is missing is the record rather than the programme: almost nothing is published by year, by title or by name.",
+      "of": "c894aa2e",
+      "at": [
+        "gaston-day:verdict.subhead"
+      ],
+      "t": "ما ينقص هو السجلّ لا البرنامج: إذ لا يكاد يُنشَر شيء بحسب السنة أو العنوان أو الاسم."
+    },
+    {
+      "text": "The facility is real and named",
+      "of": "099988bd",
+      "at": [
+        "gaston-day:verdict.holdsUp[0].label"
+      ],
+      "t": "المرفق حقيقي ومُسمّى"
+    },
+    {
+      "text": "The Pamela Kimbrell Warlick Visual & Performing Arts Center seats 550 with modern lighting and sound and a professional dance studio — larger than the school’s entire enrollment.",
+      "of": "6e5cd3ae",
+      "at": [
+        "gaston-day:verdict.holdsUp[0].text"
+      ],
+      "t": "يتّسع Pamela Kimbrell Warlick Visual & Performing Arts Center لـ 550 مقعدًا بإضاءة وصوت حديثين واستوديو رقص احترافي — أكبر من مجموع طلاب المدرسة كلهم."
+    },
+    {
+      "text": "The ladder is genuinely PS–12",
+      "of": "f1e22d13",
+      "at": [
+        "gaston-day:verdict.holdsUp[1].label"
+      ],
+      "t": "السلّم يمتدّ فعلًا من PS إلى 12"
+    },
+    {
+      "text": "Drama from second grade, integrated arts in the Lower School, four elective tracks in the Middle School, and a four-course visual sequence plus three ensembles in the Upper School.",
+      "of": "469c7114",
+      "at": [
+        "gaston-day:verdict.holdsUp[1].text"
+      ],
+      "t": "دراما من الصف الثاني، وفنون مدمَجة في Lower School، وأربعة مسارات اختيارية في Middle School، وتسلسل بصري من أربع حصص إضافةً إلى ثلاث فرق في Upper School."
+    },
+    {
+      "text": "Recognition is sustained, not one-off",
+      "of": "48b3e2a5",
+      "at": [
+        "gaston-day:verdict.holdsUp[2].label"
+      ],
+      "t": "التكريم مستمرّ لا لمرّة واحدة"
+    },
+    {
+      "text": "Six years of “superior” regional chorus adjudications, and admissions to UNC School of the Arts and Governor’s School.",
+      "of": "e156b624",
+      "at": [
+        "gaston-day:verdict.holdsUp[2].text"
+      ],
+      "t": "ستّ سنوات من تقديرات “superior” في تحكيمات الجوقة الإقليمية، وقبولات في UNC School of the Arts وGovernor’s School."
+    },
+    {
+      "text": "Blutopia is a genuine distinction",
+      "of": "e3df9a95",
+      "at": [
+        "gaston-day:verdict.holdsUp[3].label"
+      ],
+      "t": "Blutopia تمايز حقيقي"
+    },
+    {
+      "text": "Entirely student-produced, with numerous Scholastic Art and Writing Awards and consistent recognition in the NC Scholastic Media Association Literary Magazine Contest.",
+      "of": "4532306d",
+      "at": [
+        "gaston-day:verdict.holdsUp[3].text"
+      ],
+      "t": "من إنتاج الطلاب بالكامل، مع عدد كبير من Scholastic Art and Writing Awards وتكريم مستمرّ في NC Scholastic Media Association Literary Magazine Contest."
+    },
+    {
+      "text": "Portfolio work leads somewhere",
+      "of": "45810778",
+      "at": [
+        "gaston-day:verdict.holdsUp[4].label"
+      ],
+      "t": "العمل على ملفّ الأعمال يفضي إلى شيء"
+    },
+    {
+      "text": "Portfolio development is taught, and seven specialty art and design schools — RISD, SCAD, SVA, MICA, SAIC, MCAD and UNCSA — appear on the acceptance list.",
+      "of": "07b229cb",
+      "at": [
+        "gaston-day:verdict.holdsUp[4].text"
+      ],
+      "t": "يُدرَّس تطوير ملفّ الأعمال، وتظهر سبع مدارس متخصّصة في الفن والتصميم — RISD وSCAD وSVA وMICA وSAIC وMCAD وUNCSA — في قائمة القبولات."
+    },
+    {
+      "text": "Arts grades are published",
+      "of": "60615395",
+      "at": [
+        "gaston-day:verdict.holdsUp[5].label"
+      ],
+      "t": "درجات الفنون منشورة"
+    },
+    {
+      "text": "The profile prints an ARTS grade distribution for 2024-25 (72% A+, 22% A, 5% A-), which few schools disclose. Read it as context for how the department grades rather than as a difficulty signal.",
+      "of": "16169f26",
+      "at": [
+        "gaston-day:verdict.holdsUp[5].text"
+      ],
+      "t": "يطبع الملفّ توزيعًا لدرجات ARTS لعام 2024-25 (72% A+، و22% A، و5% A-)، وهو ما تفصح عنه قلّة من المدارس. واقرأه سياقًا لكيفية تقدير القسم للدرجات لا إشارةً إلى الصعوبة."
+    },
+    {
+      "text": "What were the last two years’ productions, and how many students were cast versus crewed?",
+      "of": "95c3ac2d",
+      "at": [
+        "gaston-day:verdict.ask[0]"
+      ],
+      "t": "ما إنتاجات السنتين الأخيرتين، وكم طالبًا أُسنِد إليه دور تمثيلي مقابل من عمل في الطاقم؟"
+    },
+    {
+      "text": "How large are Band, Concert Choir and the Vocal Performance Ensemble — and does everyone who auditions get a place?",
+      "of": "76bfc700",
+      "at": [
+        "gaston-day:verdict.ask[1]"
+      ],
+      "t": "ما حجم Band وConcert Choir وVocal Performance Ensemble — وهل ينال كل من يخضع للاختبار مقعدًا؟"
+    },
+    {
+      "text": "Visual Art IV is the terminal course with no AP Studio Art — how do students building an art-school portfolio go further?",
+      "of": "5422ced3",
+      "at": [
+        "gaston-day:verdict.ask[2]"
+      ],
+      "t": "Visual Art IV هي الحصّة الختامية دون AP Studio Art — فكيف يمضي الطلاب الذين يبنون ملفّ أعمال لمدرسة فنون إلى أبعد من ذلك؟"
+    },
+    {
+      "text": "Which regional adjudications does the chorus enter, and what were the ratings in the last two years specifically?",
+      "of": "fa04601d",
+      "at": [
+        "gaston-day:verdict.ask[3]"
+      ],
+      "t": "ما التحكيمات الإقليمية التي تدخلها الجوقة، وما التقديرات في السنتين الأخيرتين تحديدًا؟"
+    },
+    {
+      "text": "How many Scholastic Art Awards did students win last year, and at what level (Gold Key, Silver Key, Honorable Mention)?",
+      "of": "4d5ba981",
+      "at": [
+        "gaston-day:verdict.ask[4]"
+      ],
+      "t": "كم جائزة من Scholastic Art Awards نالها الطلاب العام الماضي، وعلى أي مستوى (Gold Key أو Silver Key أو Honorable Mention)؟"
+    },
+    {
+      "text": "Who teaches visual art, music and drama beyond the department chair, and what are their backgrounds?",
+      "of": "8f09b46e",
+      "at": [
+        "gaston-day:verdict.ask[5]"
+      ],
+      "t": "من يدرّس الفن البصري والموسيقى والدراما عدا رئيس القسم، وما خلفياتهم؟"
+    },
+    {
+      "text": "Is there an International Thespian Society troupe, and what are its induction requirements?",
+      "of": "4386257e",
+      "at": [
+        "gaston-day:verdict.ask[6]"
+      ],
+      "t": "هل توجد فرقة International Thespian Society، وما شروط التنصيب فيها؟"
     }
   ]
 }
