@@ -318,6 +318,25 @@ Root type `ClubsProgram` · registry `CLUBS_CARDS` · `src/data/clubsProgram.ts`
 | `service` | Service & Civic Engagement | Is service real here, or hours-logging? |
 | `honors` | Honor Societies | Will achievement get recognized? |
 
+**`affinity` is for IDENTITY groups only — not the general club roster.** It holds
+identity-based groups (Black Student Union, gender/sexuality alliance, multiracial,
+Jewish/Asian/Latine affinity, interfaith) and the DEI structure around them. Chess,
+Yearbook, Science Olympiad, robotics and language/cultural-interest clubs belong on
+the **Club Catalog & Overview** card (`src/data/clubCatalog.ts`) and the **Academic &
+Competitive Clubs** card (`src/data/clubClusters.ts`). A school with no named identity
+groups ships `groups: []` plus a gap flag — the Cannon and Gaston Day precedent —
+never a roster of interest clubs standing in for them.
+
+**Those two roster cards are PROSE-metric cards, so they render only when the ingest
+produces their metric key.** `clubCatalog.ts` attaches to the `catalog` key and
+`clubClusters.ts` to `academic-clubs`; a correctly-written entry in either module
+renders NOTHING if no subtopic resolved to its key. Name the source-material files
+to the roster convention (`… - Student Clubs - Club Catalog and Overview.md`,
+`… - Academic and Competitive Clubs.md`) rather than relying on one combined file —
+a single file whose name matches an earlier `RULES` pattern (e.g. `/honor societ/i`)
+silently claims the whole topic and leaves the area rendering "No readable notes for
+this area yet". `check:metrics` cannot catch this: every subtopic DID match a rule.
+
 **Schools with data:** 10/10
 
 <details><summary>Types defined in <code>clubsProgram.ts</code> (12)</summary>
