@@ -326,7 +326,9 @@
         "carmel-christian:honors.societies[0].feedsFrom",
         "carmel-christian:honors.societies[3].feedsFrom",
         "hickory-grove-christian:honors.societies[0].feedsFrom",
-        "hickory-grove-christian:honors.societies[1].feedsFrom"
+        "hickory-grove-christian:honors.societies[1].feedsFrom",
+        "gaston-day:honors.societies[0].feedsFrom",
+        "gaston-day:honors.societies[1].feedsFrom"
       ],
       "t": "শ্রেণিকক্ষ"
     },
@@ -373,7 +375,8 @@
         "charlotte-country-day:honors.societies[5].feedsFrom",
         "cannon:honors.societies[5].feedsFrom",
         "cannon:honors.societies[6].feedsFrom",
-        "cannon:honors.societies[7].feedsFrom"
+        "cannon:honors.societies[7].feedsFrom",
+        "gaston-day:honors.societies[2].feedsFrom"
       ],
       "t": "The Arts"
     },
@@ -441,7 +444,8 @@
         "cannon:clusters.verdictHint",
         "covenant-day:clusters.verdictHint",
         "davidson-day:clusters.verdictHint",
-        "carmel-christian:clusters.verdictHint"
+        "carmel-christian:clusters.verdictHint",
+        "gaston-day:clusters.verdictHint"
       ],
       "t": "পূর্ণ গবেষণা-নোট ও তার সূত্র দেখতে যেকোনো সারি খুলুন।"
     },
@@ -469,7 +473,9 @@
         "charlotte-christian:clusters.rows[0].evidenceLabel",
         "charlotte-country-day:clusters.rows[0].evidenceLabel",
         "cannon:clusters.rows[1].evidenceLabel",
-        "davidson-day:clusters.rows[0].evidenceLabel"
+        "davidson-day:clusters.rows[0].evidenceLabel",
+        "gaston-day:clusters.rows[0].evidenceLabel",
+        "gaston-day:clusters.rows[1].evidenceLabel"
       ],
       "t": "যাচাইকৃত — ইভেন্ট"
     },
@@ -692,7 +698,8 @@
       "of": "7136d3fa",
       "at": [
         "providence-day:catalog.categories[5].short",
-        "cannon:catalog.categories[5].short"
+        "cannon:catalog.categories[5].short",
+        "gaston-day:catalog.categories[1].short"
       ],
       "t": "প্রকাশনা"
     },
@@ -1352,7 +1359,8 @@
         "carmel-christian:catalog.divisions[0].tag",
         "carmel-christian:catalog.divisions[1].tag",
         "carmel-christian:catalog.divisions[2].tag",
-        "hickory-grove-christian:catalog.divisions[1].tag"
+        "hickory-grove-christian:catalog.divisions[1].tag",
+        "gaston-day:catalog.divisions[1].tag"
       ],
       "t": "স্কুলের দেওয়া তথ্য"
     },
@@ -1379,7 +1387,8 @@
       "at": [
         "providence-day:catalog.divisions[1].tag",
         "charlotte-latin:catalog.divisions[1].tag",
-        "cannon:catalog.divisions[1].tag"
+        "cannon:catalog.divisions[1].tag",
+        "gaston-day:catalog.divisions[2].tag"
       ],
       "t": "কাঠামোগত"
     },
@@ -1868,7 +1877,9 @@
       "text": "Special interest",
       "of": "74f77aca",
       "at": [
-        "charlotte-latin:catalog.categories[3].short"
+        "charlotte-latin:catalog.categories[3].short",
+        "gaston-day:catalog.categories[5].short",
+        "gaston-day:catalog.categories[5].full"
       ],
       "t": "বিশেষ আগ্রহ"
     },
@@ -1900,7 +1911,8 @@
       "text": "Culture & language",
       "of": "ebfd54c3",
       "at": [
-        "charlotte-latin:catalog.categories[5].full"
+        "charlotte-latin:catalog.categories[5].full",
+        "gaston-day:catalog.categories[3].full"
       ],
       "t": "সংস্কৃতি ও ভাষা"
     },
@@ -2544,7 +2556,8 @@
         "charlotte-christian:catalog.categories[1].short",
         "covenant-day:catalog.categories[1].full",
         "carmel-christian:catalog.categories[0].short",
-        "hickory-grove-christian:catalog.categories[0].short"
+        "hickory-grove-christian:catalog.categories[0].short",
+        "gaston-day:catalog.categories[6].short"
       ],
       "t": "Honor society"
     },
@@ -2554,7 +2567,8 @@
       "at": [
         "charlotte-christian:catalog.categories[1].full",
         "carmel-christian:catalog.categories[0].full",
-        "hickory-grove-christian:catalog.categories[0].full"
+        "hickory-grove-christian:catalog.categories[0].full",
+        "gaston-day:catalog.categories[6].full"
       ],
       "t": "Honor society"
     },
@@ -2755,7 +2769,8 @@
       "text": "Middle School (5–8)",
       "of": "6b3bf75b",
       "at": [
-        "charlotte-christian:catalog.divisions[0].label"
+        "charlotte-christian:catalog.divisions[0].label",
+        "gaston-day:catalog.divisions[2].label"
       ],
       "t": "Middle School (5–8)"
     },
@@ -3176,7 +3191,8 @@
       "text": "Named only",
       "of": "a0706e54",
       "at": [
-        "charlotte-country-day:clusters.rows[1].evidenceLabel"
+        "charlotte-country-day:clusters.rows[1].evidenceLabel",
+        "gaston-day:clusters.rows[4].evidenceLabel"
       ],
       "t": "কেবল নামভুক্ত"
     },
@@ -3755,7 +3771,8 @@
       "at": [
         "cannon:catalog.countNoun",
         "carmel-christian:catalog.countNoun",
-        "hickory-grove-christian:catalog.countNoun"
+        "hickory-grove-christian:catalog.countNoun",
+        "gaston-day:catalog.countNoun"
       ],
       "t": "নামভুক্ত সংগঠন"
     },
@@ -4912,7 +4929,8 @@
       "of": "48a8bb43",
       "at": [
         "carmel-christian:clusters.rows[0].name",
-        "hickory-grove-christian:clusters.rows[0].name"
+        "hickory-grove-christian:clusters.rows[0].name",
+        "gaston-day:clusters.rows[4].name"
       ],
       "t": "অনার সোসাইটি →"
     },
@@ -5537,6 +5555,701 @@
         "hickory-grove-christian:catalog.divisions[1].text"
       ],
       "t": "স্কুলের নিজের সাইট Dominican Republic, Ecuador, Haiti ও Kenya-তে আন্তর্জাতিক mission trip এবং Hickory Grove Baptist Church-এর খাদ্য-ভাণ্ডারে জোগান দেওয়া একটি aquaponics কর্মসূচির কথা নিশ্চিত করে — এই সেবা-ধারাগুলো তালিকাভুক্ত ক্লাব হিসেবে নয়, বরং গির্জার সেবাকার্যের মধ্য দিয়ে চলে।"
+    },
+    {
+      "text": "Service is a graduation requirement, not a club — 25 hours every year for every Upper School student, and a 40-hour Capstone every senior must complete.",
+      "of": "c520b934",
+      "at": [
+        "gaston-day:service.headline"
+      ],
+      "t": "সেবা এখানে ক্লাব নয়, স্নাতক হওয়ার শর্ত — প্রতিটি Upper School শিক্ষার্থীর জন্য প্রতি বছর 25 ঘণ্টা, আর প্রতিটি সিনিয়রকে শেষ করতে হয় 40 ঘণ্টার একটি Capstone।"
+    },
+    {
+      "text": "Peer mentoring runs the length of a school year and pairs each junior and senior with a fourth grader.",
+      "of": "4a1b0f13",
+      "at": [
+        "gaston-day:service.subhead"
+      ],
+      "t": "সহপাঠী-মেন্টরিং চলে পুরো শিক্ষাবর্ষজুড়ে এবং প্রতিটি junior ও senior-কে একজন চতুর্থ-শ্রেণির শিক্ষার্থীর সঙ্গে জোড়া বেঁধে দেয়।"
+    },
+    {
+      "text": "minimum, required of every senior",
+      "of": "a9c7ab74",
+      "at": [
+        "gaston-day:service.programs[0].valueLabel"
+      ],
+      "t": "সর্বনিম্ন, প্রতিটি সিনিয়রের জন্য আবশ্যিক"
+    },
+    {
+      "text": "Every senior completes an approved internship, research or community-service project of no less than 40 hours, focused either on preparation for a professional career or on advancing one of the school’s core values. It begins in the second semester of junior year and completes in the first semester of senior year, with documentation and reporting throughout — and carries 0.25 credit.",
+      "of": "b5eebeb3",
+      "at": [
+        "gaston-day:service.programs[0].detail"
+      ],
+      "t": "প্রতিটি সিনিয়র অনুমোদিত একটি internship, গবেষণা বা সমাজসেবা প্রকল্প শেষ করে, যা 40 ঘণ্টার কম নয়, এবং যার লক্ষ্য হয় কোনো পেশাগত ক্যারিয়ারের প্রস্তুতি নয়তো স্কুলের কোনো একটি মূল মূল্যবোধকে এগিয়ে নেওয়া। এটি শুরু হয় junior বর্ষের দ্বিতীয় সেমিস্টারে এবং শেষ হয় senior বর্ষের প্রথম সেমিস্টারে, পুরো সময় নথিভুক্তি ও প্রতিবেদনসহ — আর এতে 0.25 ক্রেডিট মেলে।"
+    },
+    {
+      "text": "juniors & seniors mentoring 4th graders",
+      "of": "853c7961",
+      "at": [
+        "gaston-day:service.programs[1].valueLabel"
+      ],
+      "t": "junior ও senior-রা 4th গ্রেডের শিক্ষার্থীদের মেন্টর করে"
+    },
+    {
+      "text": "Selected juniors and seniors spend several days each fall in the mountains with the fourth-grade class, leading activities on the relationship between the environment and the human race. The relationships formed become a mentoring programme: each eleventh- and twelfth-grade student continues to meet and work with their fourth-grade mentee throughout the school year.",
+      "of": "ede50773",
+      "at": [
+        "gaston-day:service.programs[1].detail"
+      ],
+      "t": "বাছাই করা junior ও senior-রা প্রতি হেমন্তে কয়েক দিন পাহাড়ে কাটায় চতুর্থ শ্রেণির ব্যাচের সঙ্গে, পরিবেশ ও মানবজাতির সম্পর্ক নিয়ে কর্মকাণ্ডে নেতৃত্ব দেয়। এতে গড়ে ওঠা সম্পর্কই পরে একটি মেন্টরিং কর্মসূচিতে দাঁড়ায়: একাদশ ও দ্বাদশ শ্রেণির প্রতিটি শিক্ষার্থী পুরো শিক্ষাবর্ষজুড়ে তার চতুর্থ-শ্রেণির mentee-র সঙ্গে দেখা ও কাজ চালিয়ে যায়।"
+    },
+    {
+      "text": "per year, every Upper School student",
+      "of": "e92aea83",
+      "at": [
+        "gaston-day:service.programs[2].valueLabel"
+      ],
+      "t": "প্রতি বছর, প্রতিটি Upper School শিক্ষার্থীর জন্য"
+    },
+    {
+      "text": "All Upper School students must complete a minimum of 25 hours of volunteer service each year, rising to 40 hours for National Honor Society members. Juniors additionally plan, organise and execute their own community-service project.",
+      "of": "a1c4e871",
+      "at": [
+        "gaston-day:service.programs[2].detail"
+      ],
+      "t": "Upper School-এর সব শিক্ষার্থীকে প্রতি বছর অন্তত 25 ঘণ্টা স্বেচ্ছাসেবা করতে হয়, National Honor Society-র সদস্যদের জন্য যা বেড়ে দাঁড়ায় 40 ঘণ্টায়। junior-রা এর বাইরে নিজেদের একটি সমাজসেবা প্রকল্প পরিকল্পনা, আয়োজন ও বাস্তবায়ন করে।"
+    },
+    {
+      "text": "The recognition ladder above the requirement",
+      "of": "6eb8add8",
+      "at": [
+        "gaston-day:service.footnoteTitle"
+      ],
+      "t": "শর্তের ওপরে স্বীকৃতির সিঁড়ি"
+    },
+    {
+      "text": "Beyond the 25-hour floor, the President’s Service Award recognises Upper School students who have served 100 or more hours, and the Middle School runs its own Spartan Strong Volunteer Service Award at 50+ hours a year. So there is a documented ladder at three levels — 25 required, 50 recognised in the Middle School, 100 recognised in the Upper School — plus the 40-hour NHS threshold sitting alongside.",
+      "of": "4a06ac9c",
+      "at": [
+        "gaston-day:service.footnote"
+      ],
+      "t": "25 ঘণ্টার সর্বনিম্ন সীমা ছাড়িয়ে, President’s Service Award স্বীকৃতি দেয় সেসব Upper School শিক্ষার্থীকে যারা 100 ঘণ্টা বা তার বেশি সেবা দিয়েছে, আর Middle School চালায় তার নিজস্ব Spartan Strong Volunteer Service Award, বছরে 50+ ঘণ্টায়। অর্থাৎ তিনটি স্তরে একটি নথিভুক্ত সিঁড়ি আছে — 25 আবশ্যিক, Middle School-এ 50-এ স্বীকৃতি, Upper School-এ 100-এ স্বীকৃতি — সঙ্গে পাশাপাশি রয়েছে NHS-এর 40 ঘণ্টার সীমা।"
+    },
+    {
+      "text": "REQUIREMENT",
+      "of": "b1b0f088",
+      "at": [
+        "gaston-day:service.flags[0].label"
+      ],
+      "t": "REQUIREMENT"
+    },
+    {
+      "text": "The Capstone and the 25-hour service obligation are graduation requirements rather than clubs — they are listed here because they are where most Gaston Day service actually happens, and because every graduate has one.",
+      "of": "50ac5021",
+      "at": [
+        "gaston-day:service.flags[0].text"
+      ],
+      "t": "Capstone ও 25 ঘণ্টার সেবার দায়িত্ব ক্লাব নয়, স্নাতক হওয়ার শর্ত — এখানে এগুলো রাখা হয়েছে কারণ Gaston Day-র বেশিরভাগ সেবা আসলে এখানেই ঘটে, আর কারণ প্রতিটি স্নাতকেরই একটি করে আছে।"
+    },
+    {
+      "text": "The school publishes no aggregate service-hour total, no count of President’s Service Award recipients, and no list of the community partners students serve with.",
+      "of": "01d1e3ff",
+      "at": [
+        "gaston-day:service.flags[1].text"
+      ],
+      "t": "স্কুল সেবার ঘণ্টার কোনো সামষ্টিক মোট প্রকাশ করে না, President’s Service Award প্রাপকের সংখ্যাও নয়, আর শিক্ষার্থীরা যেসব সমাজ-অংশীদারের সঙ্গে সেবা দেয় তাদের কোনো তালিকাও নয়।"
+    },
+    {
+      "text": "Three chartered honor societies, and an Honor Code enforced by a student-led Honor Council that the college office will report to admissions when asked.",
+      "of": "c24e6038",
+      "at": [
+        "gaston-day:honors.headline"
+      ],
+      "t": "সনদপ্রাপ্ত তিনটি honor society, আর একটি Honor Code, যা কার্যকর করে শিক্ষার্থী-পরিচালিত একটি Honor Council — এবং চাওয়া হলে কলেজ দপ্তর তা ভর্তির দপ্তরকে জানাবে।"
+    },
+    {
+      "text": "The Honor Code disclosure is unusually explicit — the school states in its own profile that it reports violations, including suspension, dismissal or expulsion.",
+      "of": "27cceb99",
+      "at": [
+        "gaston-day:honors.subhead"
+      ],
+      "t": "Honor Code-এর এই প্রকাশটি অস্বাভাবিক রকমের স্পষ্ট — স্কুল তার নিজের profile-এ জানায় যে তারা লঙ্ঘনের কথা জানিয়ে দেয়, যার মধ্যে সাময়িক বহিষ্কার, ছাঁটাই বা স্থায়ী বহিষ্কারও পড়ে।"
+    },
+    {
+      "text": "Scholarship, leadership, service and character. NHS members carry a 40-hour annual service requirement against the school-wide 25.",
+      "of": "33bd5ef6",
+      "at": [
+        "gaston-day:honors.societies[0].recognizes"
+      ],
+      "t": "পাণ্ডিত্য, নেতৃত্ব, সেবা ও চরিত্র। সারা স্কুলের 25 ঘণ্টার বিপরীতে NHS সদস্যদের জন্য বছরে 40 ঘণ্টা সেবার শর্ত।"
+    },
+    {
+      "text": "Academic achievement, character, leadership and service — a second academic society alongside NHS.",
+      "of": "734322c4",
+      "at": [
+        "gaston-day:honors.societies[1].recognizes"
+      ],
+      "t": "শিক্ষাগত অর্জন, চরিত্র, নেতৃত্ব ও সেবা — NHS-এর পাশাপাশি দ্বিতীয় একটি একাডেমিক সোসাইটি।"
+    },
+    {
+      "text": "Excellence in theatre. The school charters the society but does not publish its troupe number or induction thresholds.",
+      "of": "7d45ad1d",
+      "at": [
+        "gaston-day:honors.societies[2].recognizes"
+      ],
+      "t": "নাটকে উৎকর্ষ। স্কুল সোসাইটিটির সনদ নিলেও তার troupe নম্বর বা অন্তর্ভুক্তির শর্ত প্রকাশ করে না।"
+    },
+    {
+      "text": "Honor Code & Honor Council",
+      "of": "0dd2ae41",
+      "at": [
+        "gaston-day:honors.adjacent[0].label"
+      ],
+      "t": "Honor Code ও Honor Council"
+    },
+    {
+      "text": "Student conduct is governed by the Honor Code, enforced by a student-led Honor Council. When a college requests it, College Counseling will report any honor code violations, including suspension, dismissal or expulsion.",
+      "of": "b6a9d15e",
+      "at": [
+        "gaston-day:honors.adjacent[0].text"
+      ],
+      "t": "শিক্ষার্থীদের আচরণ চলে Honor Code অনুযায়ী, যা কার্যকর করে শিক্ষার্থী-পরিচালিত একটি Honor Council। কোনো কলেজ চাইলে College Counseling honor code লঙ্ঘনের যেকোনো ঘটনা জানিয়ে দেবে, যার মধ্যে সাময়িক বহিষ্কার, ছাঁটাই বা স্থায়ী বহিষ্কারও পড়ে।"
+    },
+    {
+      "text": "President’s Service Award",
+      "of": "818b3439",
+      "at": [
+        "gaston-day:honors.adjacent[1].label"
+      ],
+      "t": "President’s Service Award"
+    },
+    {
+      "text": "For Upper School students who have served 100 or more hours — the top rung of the service ladder.",
+      "of": "dacd7648",
+      "at": [
+        "gaston-day:honors.adjacent[1].text"
+      ],
+      "t": "যেসব Upper School শিক্ষার্থী 100 ঘণ্টা বা তার বেশি সেবা দিয়েছে তাদের জন্য — সেবার সিঁড়ির সবচেয়ে ওপরের ধাপ।"
+    },
+    {
+      "text": "Spartan Strong Volunteer Service Award",
+      "of": "f3a67ccf",
+      "at": [
+        "gaston-day:honors.adjacent[2].label"
+      ],
+      "t": "Spartan Strong Volunteer Service Award"
+    },
+    {
+      "text": "The Middle School equivalent, recognising 50+ volunteer hours in a year.",
+      "of": "0bccf0ef",
+      "at": [
+        "gaston-day:honors.adjacent[2].text"
+      ],
+      "t": "Middle School-এর সমতুল্য পুরস্কার, বছরে 50+ স্বেচ্ছাসেবার ঘণ্টাকে স্বীকৃতি দেয়।"
+    },
+    {
+      "text": "Scholastic Art & Writing Awards",
+      "of": "d9c1bf65",
+      "at": [
+        "gaston-day:honors.adjacent[3].label"
+      ],
+      "t": "Scholastic Art & Writing Awards"
+    },
+    {
+      "text": "Blutopia has taken numerous Scholastic Art and Writing Awards and is consistently recognised in the NC Scholastic Media Association Literary Magazine Contest.",
+      "of": "2b223d47",
+      "at": [
+        "gaston-day:honors.adjacent[3].text"
+      ],
+      "t": "Blutopia অসংখ্য Scholastic Art and Writing Awards পেয়েছে এবং NC Scholastic Media Association Literary Magazine Contest-এ নিয়মিত স্বীকৃতি পায়।"
+    },
+    {
+      "text": "iGEM gold medal",
+      "of": "c7a9f494",
+      "at": [
+        "gaston-day:honors.adjacent[4].label"
+      ],
+      "t": "iGEM স্বর্ণপদক"
+    },
+    {
+      "text": "The synthetic-biology team’s gold medal is the school’s most distinctive competitive recognition, and sits outside any society structure.",
+      "of": "bb10e8db",
+      "at": [
+        "gaston-day:honors.adjacent[4].text"
+      ],
+      "t": "synthetic-biology দলের স্বর্ণপদকটি স্কুলের সবচেয়ে স্বতন্ত্র প্রতিযোগিতামূলক স্বীকৃতি, আর তা কোনো সোসাইটি-কাঠামোর বাইরে পড়ে।"
+    },
+    {
+      "text": "No induction criteria, GPA thresholds, chapter names or member counts are published for any of the three societies — only that they exist. The National Merit programme is not mentioned in the profile at all, so no Semifinalist/Commended ledger could be built.",
+      "of": "070ba241",
+      "at": [
+        "gaston-day:honors.flags[0].text"
+      ],
+      "t": "তিনটি সোসাইটির কোনোটিরই অন্তর্ভুক্তির শর্ত, GPA-র সীমা, চ্যাপ্টারের নাম বা সদস্যসংখ্যা প্রকাশিত নয় — কেবল এটুকুই যে সেগুলো আছে। profile-এ National Merit কর্মসূচির উল্লেখই নেই, তাই Semifinalist/Commended-এর কোনো তালিকা তৈরি করা যায়নি।"
+    },
+    {
+      "text": "A gold-medal iGEM synthetic-biology team and a first-year VEX Nationals qualification anchor an otherwise third-party roster.",
+      "of": "5002745e",
+      "at": [
+        "gaston-day:clusters.verdict"
+      ],
+      "t": "স্বর্ণপদকজয়ী একটি iGEM synthetic-biology দল এবং প্রথম বছরেই VEX Nationals-এ উত্তীর্ণ হওয়া — অন্যথায় তৃতীয় পক্ষের তথ্যে গড়া তালিকাটির ভিত্তি এই দুটিই।"
+    },
+    {
+      "text": "iGEM Synthetic Biology",
+      "of": "6a19e29b",
+      "at": [
+        "gaston-day:clusters.rows[0].name"
+      ],
+      "t": "iGEM Synthetic Biology"
+    },
+    {
+      "text": "Gold medal; four teams — 2012, 2016, 2018 and 2020",
+      "of": "9cb5e363",
+      "at": [
+        "gaston-day:clusters.rows[0].oneLiner"
+      ],
+      "t": "স্বর্ণপদক; চারটি দল — 2012, 2016, 2018 ও 2020"
+    },
+    {
+      "text": "The flagship. iGEM (International Genetically Engineered Machine) is a university-level synthetic-biology competition with a separate high-school track, and Gaston Day has fielded four teams from a 510-student school. Documented projects include a kudzu phytotoxin and an E. coli K-12 isobutanol biofuel; the Duke undergraduate iGEM team has supported the squad. The gold medal is third-party-confirmed — the archived iGEM team wikis return 403 to automated fetches, so the medal level was not re-verified at source in this pass, though team participation across all four years is confirmed by those archived pages.",
+      "of": "b61b0c28",
+      "at": [
+        "gaston-day:clusters.rows[0].note"
+      ],
+      "t": "এটিই প্রধান অর্জন। iGEM (International Genetically Engineered Machine) হলো বিশ্ববিদ্যালয় পর্যায়ের একটি synthetic-biology প্রতিযোগিতা, যার হাই স্কুলের জন্য আলাদা একটি ধারা আছে, আর 510 শিক্ষার্থীর একটি স্কুল থেকে Gaston Day চারটি দল পাঠিয়েছে। নথিভুক্ত প্রকল্পগুলোর মধ্যে আছে একটি kudzu phytotoxin এবং একটি E. coli K-12 isobutanol জৈব-জ্বালানি; Duke-এর স্নাতক পর্যায়ের iGEM দল এই দলটিকে সহায়তা দিয়েছে। স্বর্ণপদকটি তৃতীয় পক্ষ দিয়ে নিশ্চিত করা — সংরক্ষিত iGEM দলীয় wiki-গুলো স্বয়ংক্রিয় fetch-এ 403 দেয়, তাই এই পাসে পদকের স্তরটি উৎসে গিয়ে আবার যাচাই করা যায়নি, যদিও চার বছরেই দলের অংশগ্রহণ ওই সংরক্ষিত পাতাগুলো দিয়ে নিশ্চিত।"
+    },
+    {
+      "text": "VEX Robotics",
+      "of": "c82faa7d",
+      "at": [
+        "gaston-day:clusters.rows[1].name"
+      ],
+      "t": "VEX Robotics"
+    },
+    {
+      "text": "Qualified for TSA VEX Nationals in 2023 — its first year of competing",
+      "of": "2faae7b6",
+      "at": [
+        "gaston-day:clusters.rows[1].oneLiner"
+      ],
+      "t": "2023-এ TSA VEX Nationals-এ উত্তীর্ণ — প্রতিযোগিতায় নামার প্রথম বছরেই"
+    },
+    {
+      "text": "The school's own profile states it plainly: \"After years of operating a joint-school robotics team competing in FIRST Robotics where they placed 4th in state level competition, Gaston Day launched its own VEX Robotics Club and qualified for Technology Student Association VEX Nationals in 2023, the first year of joining the competition.\" Robotics (H) and Engineering (H) also run as Upper School courses, supported by a renovated makerspace with 3-D printers, laser cutters and CNC machines.",
+      "of": "f4d5b259",
+      "at": [
+        "gaston-day:clusters.rows[1].note"
+      ],
+      "t": "স্কুলের নিজের profile-এ কথাটি স্পষ্ট: “After years of operating a joint-school robotics team competing in FIRST Robotics where they placed 4th in state level competition, Gaston Day launched its own VEX Robotics Club and qualified for Technology Student Association VEX Nationals in 2023, the first year of joining the competition.” Robotics (H) ও Engineering (H) Upper School-এর কোর্স হিসেবেও চলে, যার সহায়তায় আছে 3-D printer, laser cutter ও CNC মেশিনসহ সংস্কার করা একটি makerspace।"
+    },
+    {
+      "text": "Competition clubs →",
+      "of": "39ed9a0f",
+      "at": [
+        "gaston-day:clusters.rows[2].name"
+      ],
+      "t": "প্রতিযোগিতামূলক ক্লাব →"
+    },
+    {
+      "text": "Science Olympiad, Public Debate, Mock Trial, Quiz Bowl",
+      "of": "3641c5b7",
+      "at": [
+        "gaston-day:clusters.rows[2].oneLiner"
+      ],
+      "t": "Science Olympiad, Public Debate, Mock Trial, Quiz Bowl"
+    },
+    {
+      "text": "Third-party",
+      "of": "88d82a1b",
+      "at": [
+        "gaston-day:clusters.rows[2].evidenceLabel",
+        "gaston-day:catalog.divisions[0].tag"
+      ],
+      "t": "তৃতীয় পক্ষ"
+    },
+    {
+      "text": "Four competition-oriented clubs appear across the third-party listings, and Speech & Debate additionally runs as an Upper School course — but no titled or placement result is published for any of them. Existence, not results, is what is confirmed here.",
+      "of": "5d1ac699",
+      "at": [
+        "gaston-day:clusters.rows[2].note"
+      ],
+      "t": "তৃতীয় পক্ষের তালিকাগুলোতে প্রতিযোগিতাধর্মী চারটি ক্লাব পাওয়া যায়, আর Speech & Debate বাড়তি হিসেবে Upper School-এর একটি কোর্স হিসেবেও চলে — কিন্তু এগুলোর কোনোটিরই কোনো শিরোপা বা স্থান-অর্জনের ফল প্রকাশিত নয়। এখানে যা নিশ্চিত করা গেছে তা অস্তিত্ব, ফলাফল নয়।"
+    },
+    {
+      "text": "Publications →",
+      "of": "225b9af4",
+      "at": [
+        "gaston-day:clusters.rows[3].name"
+      ],
+      "t": "প্রকাশনা →"
+    },
+    {
+      "text": "Blutopia, US Literary & Arts Magazine, MS Literary Magazine, Yearbook",
+      "of": "407df385",
+      "at": [
+        "gaston-day:clusters.rows[3].oneLiner"
+      ],
+      "t": "Blutopia, US Literary & Arts Magazine, MS Literary Magazine, Yearbook"
+    },
+    {
+      "text": "Verified — award",
+      "of": "4f98eca8",
+      "at": [
+        "gaston-day:clusters.rows[3].evidenceLabel"
+      ],
+      "t": "যাচাইকৃত — পুরস্কার"
+    },
+    {
+      "text": "Blutopia is the one publication with a documented award record: entirely student-developed, created and published, it has taken numerous Scholastic Art and Writing Awards and is consistently recognised in the North Carolina Scholastic Media Association's Literary Magazine Contest. The school does not publish award counts or years, so \"numerous\" is its own word, reproduced rather than quantified.",
+      "of": "e2cacf90",
+      "at": [
+        "gaston-day:clusters.rows[3].note"
+      ],
+      "t": "নথিভুক্ত পুরস্কারের রেকর্ড আছে এমন একমাত্র প্রকাশনা Blutopia: পুরোপুরি শিক্ষার্থীদের গড়া, তৈরি ও প্রকাশিত, এটি অসংখ্য Scholastic Art and Writing Awards পেয়েছে এবং North Carolina Scholastic Media Association-এর Literary Magazine Contest-এ নিয়মিত স্বীকৃতি পায়। স্কুল পুরস্কারের সংখ্যা বা বছর প্রকাশ করে না, তাই “অসংখ্য” তাদেরই শব্দ, সংখ্যায় বাঁধা নয়, হুবহু তুলে দেওয়া।"
+    },
+    {
+      "text": "National Honor Society, National Beta Club, International Thespian Society",
+      "of": "7a348e2b",
+      "at": [
+        "gaston-day:clusters.rows[4].oneLiner"
+      ],
+      "t": "National Honor Society, National Beta Club, International Thespian Society"
+    },
+    {
+      "text": "Three chartered societies. NHS members carry a 40-hour annual service requirement against the school-wide 25 — the one induction-adjacent figure the school publishes. No GPA thresholds, chapter names, troupe numbers or member counts are published for any of the three, and the profile does not mention the National Merit programme at all.",
+      "of": "d2cffdbd",
+      "at": [
+        "gaston-day:clusters.rows[4].note"
+      ],
+      "t": "সনদপ্রাপ্ত তিনটি সোসাইটি। সারা স্কুলের 25 ঘণ্টার বিপরীতে NHS সদস্যদের জন্য বছরে 40 ঘণ্টা সেবার শর্ত — অন্তর্ভুক্তি-সংক্রান্ত এই একটিমাত্র সংখ্যাই স্কুল প্রকাশ করে। তিনটির কোনোটিরই GPA-র সীমা, চ্যাপ্টারের নাম, troupe নম্বর বা সদস্যসংখ্যা প্রকাশিত নয়, আর profile-এ National Merit কর্মসূচির উল্লেখই নেই।"
+    },
+    {
+      "text": "28 named clubs and three honor societies — headlined by a gold-medal iGEM synthetic-biology team and a VEX Robotics squad that reached TSA Nationals in its first year.",
+      "of": "58e47468",
+      "at": [
+        "gaston-day:catalog.verdict"
+      ],
+      "t": "নাম ধরে 28টি ক্লাব ও তিনটি honor society — সবচেয়ে উল্লেখযোগ্য স্বর্ণপদকজয়ী একটি iGEM synthetic-biology দল এবং প্রথম বছরেই TSA Nationals-এ পৌঁছানো একটি VEX Robotics দল।"
+    },
+    {
+      "text": "The school publishes no clubs page; most of this roster comes from third-party listings, with a handful the school names itself.",
+      "of": "94bdac9f",
+      "at": [
+        "gaston-day:catalog.verdictHint"
+      ],
+      "t": "স্কুল ক্লাবের কোনো পাতা প্রকাশ করে না; এই তালিকার বেশিরভাগই তৃতীয় পক্ষের তালিকা থেকে নেওয়া, অল্প কয়েকটির নাম স্কুল নিজে বলে।"
+    },
+    {
+      "text": "STEM & competitive",
+      "of": "122ef195",
+      "at": [
+        "gaston-day:catalog.categories[0].short"
+      ],
+      "t": "STEM ও প্রতিযোগিতামূলক"
+    },
+    {
+      "text": "STEM / competitive",
+      "of": "4e9e331e",
+      "at": [
+        "gaston-day:catalog.categories[0].full"
+      ],
+      "t": "STEM / প্রতিযোগিতামূলক"
+    },
+    {
+      "text": "Publications & media",
+      "of": "de92519c",
+      "at": [
+        "gaston-day:catalog.categories[1].full"
+      ],
+      "t": "প্রকাশনা ও গণমাধ্যম"
+    },
+    {
+      "text": "Leadership & service",
+      "of": "a91d04bf",
+      "at": [
+        "gaston-day:catalog.categories[2].short"
+      ],
+      "t": "নেতৃত্ব ও সেবা"
+    },
+    {
+      "text": "Leadership / service",
+      "of": "847d0f0c",
+      "at": [
+        "gaston-day:catalog.categories[2].full"
+      ],
+      "t": "নেতৃত্ব / সেবা"
+    },
+    {
+      "text": "Language & culture",
+      "of": "e993f0f7",
+      "at": [
+        "gaston-day:catalog.categories[3].short"
+      ],
+      "t": "ভাষা ও সংস্কৃতি"
+    },
+    {
+      "text": "Arts",
+      "of": "278c981b",
+      "at": [
+        "gaston-day:catalog.categories[4].short"
+      ],
+      "t": "শিল্পকলা"
+    },
+    {
+      "text": "Arts & performance",
+      "of": "98ad47b3",
+      "at": [
+        "gaston-day:catalog.categories[4].full"
+      ],
+      "t": "শিল্পকলা ও পরিবেশনা"
+    },
+    {
+      "text": "Gold medal — teams in 2012, 2016, 2018 and 2020; kudzu phytotoxin and E. coli K-12 isobutanol biofuel projects",
+      "of": "68d926ef",
+      "at": [
+        "gaston-day:catalog.clubs[0].note"
+      ],
+      "t": "স্বর্ণপদক — 2012, 2016, 2018 ও 2020-এ দল; kudzu phytotoxin ও E. coli K-12 isobutanol জৈব-জ্বালানি প্রকল্প"
+    },
+    {
+      "text": "Qualified for TSA VEX Nationals in 2023, its first year competing; previously 4th at state in FIRST Robotics",
+      "of": "27dc525a",
+      "at": [
+        "gaston-day:catalog.clubs[1].note"
+      ],
+      "t": "2023-এ TSA VEX Nationals-এ উত্তীর্ণ, প্রতিযোগিতায় নামার প্রথম বছরেই; এর আগে FIRST Robotics-এ রাজ্য পর্যায়ে 4th"
+    },
+    {
+      "text": "Interscholastic science competition",
+      "of": "7469159f",
+      "at": [
+        "gaston-day:catalog.clubs[2].note"
+      ],
+      "t": "আন্তঃস্কুল বিজ্ঞান প্রতিযোগিতা"
+    },
+    {
+      "text": "Named by the school itself; supported by the renovated makerspace",
+      "of": "2e24ce1a",
+      "at": [
+        "gaston-day:catalog.clubs[3].note"
+      ],
+      "t": "স্কুল নিজেই নাম করেছে; সংস্কার করা makerspace-এর সহায়তায় চলে"
+    },
+    {
+      "text": "Competitive debate; Speech & Debate also runs as a course",
+      "of": "cd8e9d68",
+      "at": [
+        "gaston-day:catalog.clubs[4].note"
+      ],
+      "t": "প্রতিযোগিতামূলক বিতর্ক; Speech & Debate একটি কোর্স হিসেবেও চলে"
+    },
+    {
+      "text": "Third-party listed",
+      "of": "ac168114",
+      "at": [
+        "gaston-day:catalog.clubs[5].note",
+        "gaston-day:catalog.clubs[6].note",
+        "gaston-day:catalog.clubs[18].note",
+        "gaston-day:catalog.clubs[21].note",
+        "gaston-day:catalog.clubs[24].note",
+        "gaston-day:catalog.clubs[25].note",
+        "gaston-day:catalog.clubs[26].note"
+      ],
+      "t": "তৃতীয় পক্ষের তালিকাভুক্ত"
+    },
+    {
+      "text": "Upper School literary and arts magazine — numerous Scholastic Art & Writing Awards and repeated NCSMA Literary Magazine Contest recognition",
+      "of": "3236d5da",
+      "at": [
+        "gaston-day:catalog.clubs[7].note"
+      ],
+      "t": "Upper School-এর সাহিত্য ও চিত্রকলার পত্রিকা — অসংখ্য Scholastic Art & Writing Awards এবং NCSMA Literary Magazine Contest-এ বারবার স্বীকৃতি"
+    },
+    {
+      "text": "Listed separately from Blutopia by PrivateSchoolReview",
+      "of": "6257ba56",
+      "at": [
+        "gaston-day:catalog.clubs[8].note"
+      ],
+      "t": "PrivateSchoolReview এটিকে Blutopia থেকে আলাদা করে তালিকাভুক্ত করেছে"
+    },
+    {
+      "text": "The Middle School counterpart publication",
+      "of": "d2a08c58",
+      "at": [
+        "gaston-day:catalog.clubs[9].note"
+      ],
+      "t": "Middle School-এর সমতুল্য প্রকাশনাটি"
+    },
+    {
+      "text": "Also runs as an Upper School course for credit",
+      "of": "f710620e",
+      "at": [
+        "gaston-day:catalog.clubs[10].note"
+      ],
+      "t": "Upper School-এ ক্রেডিটযুক্ত কোর্স হিসেবেও চলে"
+    },
+    {
+      "text": "Runs at both Middle School and Upper School level",
+      "of": "22ac61c1",
+      "at": [
+        "gaston-day:catalog.clubs[11].note"
+      ],
+      "t": "Middle School ও Upper School — দুই স্তরেই চলে"
+    },
+    {
+      "text": "Student-led; enforces the Honor Code, whose violations the college office reports to colleges on request",
+      "of": "061c215c",
+      "at": [
+        "gaston-day:catalog.clubs[12].note"
+      ],
+      "t": "শিক্ষার্থী-পরিচালিত; Honor Code কার্যকর করে, যার লঙ্ঘনের কথা কলেজ দপ্তর চাওয়া হলে কলেজগুলোকে জানায়"
+    },
+    {
+      "text": "Sunship Earth — juniors and seniors mentor a fourth grader across the school year",
+      "of": "bf8d20b9",
+      "at": [
+        "gaston-day:catalog.clubs[13].note"
+      ],
+      "t": "Sunship Earth — junior ও senior-রা পুরো শিক্ষাবর্ষজুড়ে একজন চতুর্থ-শ্রেণির শিক্ষার্থীকে মেন্টর করে"
+    },
+    {
+      "text": "Rotary-affiliated service club; third-party listed",
+      "of": "7f5aeec1",
+      "at": [
+        "gaston-day:catalog.clubs[14].note"
+      ],
+      "t": "Rotary-অনুমোদিত সেবা ক্লাব; তৃতীয় পক্ষের তালিকাভুক্ত"
+    },
+    {
+      "text": "Third-party listed — American Heart Association youth board",
+      "of": "568664a6",
+      "at": [
+        "gaston-day:catalog.clubs[15].note"
+      ],
+      "t": "তৃতীয় পক্ষের তালিকাভুক্ত — American Heart Association-এর যুব বোর্ড"
+    },
+    {
+      "text": "Named by the school itself — environmental group",
+      "of": "9a918f9c",
+      "at": [
+        "gaston-day:catalog.clubs[16].note"
+      ],
+      "t": "স্কুল নিজেই নাম করেছে — পরিবেশ দল"
+    },
+    {
+      "text": "Named by the school itself; sits alongside a 14%-international student body",
+      "of": "e4e90f7a",
+      "at": [
+        "gaston-day:catalog.clubs[17].note"
+      ],
+      "t": "স্কুল নিজেই নাম করেছে; 14%-আন্তর্জাতিক শিক্ষার্থী-সংখ্যার পাশাপাশি রয়েছে"
+    },
+    {
+      "text": "Spanish runs I–IV(H) as a course sequence",
+      "of": "0a9884fe",
+      "at": [
+        "gaston-day:catalog.clubs[19].note"
+      ],
+      "t": "Spanish কোর্স-ধারা হিসেবে I–IV(H) পর্যন্ত চলে"
+    },
+    {
+      "text": "French satisfies the world-language requirement, though no French course sequence is enumerated in the profile",
+      "of": "2f8409ce",
+      "at": [
+        "gaston-day:catalog.clubs[20].note"
+      ],
+      "t": "French বিশ্বভাষার শর্ত পূরণ করে, যদিও profile-এ French-এর কোনো কোর্স-ধারার তালিকা দেওয়া নেই"
+    },
+    {
+      "text": "Feeds two major productions a year including the spring musical",
+      "of": "4a0e9c5a",
+      "at": [
+        "gaston-day:catalog.clubs[22].note"
+      ],
+      "t": "বছরে দুটি বড় প্রযোজনায় শিক্ষার্থী জোগায়, যার একটি বসন্তের musical"
+    },
+    {
+      "text": "Listed separately by PrivateSchoolReview; Actors' Conservatory Theatre runs as a dedicated program",
+      "of": "dc6a78ea",
+      "at": [
+        "gaston-day:catalog.clubs[23].note"
+      ],
+      "t": "PrivateSchoolReview একে আলাদা করে তালিকাভুক্ত করেছে; Actors' Conservatory Theatre একটি নিবেদিত কর্মসূচি হিসেবে চলে"
+    },
+    {
+      "text": "Fellowship of Christian Athletes; third-party listed at a non-sectarian school",
+      "of": "29203330",
+      "at": [
+        "gaston-day:catalog.clubs[27].note"
+      ],
+      "t": "Fellowship of Christian Athletes; ধর্মনিরপেক্ষ একটি স্কুলে তৃতীয় পক্ষের তালিকাভুক্ত"
+    },
+    {
+      "text": "Members carry a 40-hour annual service requirement against the school-wide 25",
+      "of": "fe5ab031",
+      "at": [
+        "gaston-day:catalog.clubs[28].note"
+      ],
+      "t": "সারা স্কুলের 25 ঘণ্টার বিপরীতে সদস্যদের জন্য বছরে 40 ঘণ্টা সেবার শর্ত"
+    },
+    {
+      "text": "Academic achievement, character, leadership and service",
+      "of": "c64999ad",
+      "at": [
+        "gaston-day:catalog.clubs[29].note"
+      ],
+      "t": "শিক্ষাগত অর্জন, চরিত্র, নেতৃত্ব ও সেবা"
+    },
+    {
+      "text": "Theatre honor society; troupe number and induction thresholds not published",
+      "of": "0dce6486",
+      "at": [
+        "gaston-day:catalog.clubs[30].note"
+      ],
+      "t": "নাটকের honor society; troupe নম্বর ও অন্তর্ভুক্তির শর্ত প্রকাশিত নয়"
+    },
+    {
+      "text": "Reconstructed roster",
+      "of": "a0b3901f",
+      "at": [
+        "gaston-day:catalog.divisions[0].label"
+      ],
+      "t": "পুনর্গঠিত তালিকা"
+    },
+    {
+      "text": "Gaston Day publishes no clubs or activities page. PrivateSchoolReview enumerates 14 activities and Niche adds several more; the school itself names only 3-D Printing Club, Green Team and International Council, by way of example, and states that students \"can start a new club by securing a faculty sponsor.\" The roster is therefore an open-ended snapshot rather than a census, and its size is not a figure any source states.",
+      "of": "2438e856",
+      "at": [
+        "gaston-day:catalog.divisions[0].text"
+      ],
+      "t": "Gaston Day ক্লাব বা কার্যক্রমের কোনো পাতা প্রকাশ করে না। PrivateSchoolReview 14টি কার্যক্রমের তালিকা দেয় এবং Niche আরও কয়েকটি যোগ করে; স্কুল নিজে কেবল উদাহরণ হিসেবে 3-D Printing Club, Green Team ও International Council-এর নাম বলে, আর জানায় যে শিক্ষার্থীরা “can start a new club by securing a faculty sponsor.” তাই তালিকাটি কোনো শুমারি নয়, একটি খোলা-প্রান্তের ঝলক, আর এর আকার কোনো উৎসই সংখ্যায় বলে না।"
+    },
+    {
+      "text": "The two that are not in doubt",
+      "of": "906d3dc1",
+      "at": [
+        "gaston-day:catalog.divisions[1].label"
+      ],
+      "t": "যে দুটি নিয়ে কোনো সংশয় নেই"
+    },
+    {
+      "text": "iGEM and VEX Robotics are documented in the school's own Academic Profile and, for iGEM, by four archived competition team wikis (2012, 2016, 2018, 2020). These are university-level competitions with high-school tracks, and fielding them from a 510-student school is the most distinctive thing on this roster.",
+      "of": "d81efdfb",
+      "at": [
+        "gaston-day:catalog.divisions[1].text"
+      ],
+      "t": "iGEM ও VEX Robotics নথিভুক্ত আছে স্কুলের নিজের Academic Profile-এ, আর iGEM-এর ক্ষেত্রে চারটি সংরক্ষিত প্রতিযোগিতা-দলের wiki-তেও (2012, 2016, 2018, 2020)। এগুলো বিশ্ববিদ্যালয় পর্যায়ের প্রতিযোগিতা, যাদের হাই স্কুলের ধারা আছে, আর 510 শিক্ষার্থীর একটি স্কুল থেকে এতে দল পাঠানোই এই তালিকার সবচেয়ে স্বতন্ত্র বিষয়।"
+    },
+    {
+      "text": "Middle School students elect required LEAD courses alongside art, drama, chorus and band, and run their own Student Government. The Spartan Strong Volunteer Service Award recognises 50+ volunteer hours a year. No separate Middle School club roster is published.",
+      "of": "158da676",
+      "at": [
+        "gaston-day:catalog.divisions[2].text"
+      ],
+      "t": "Middle School-এর শিক্ষার্থীরা চিত্রকলা, নাটক, chorus ও band-এর পাশাপাশি আবশ্যিক LEAD কোর্স বেছে নেয়, আর নিজেদের Student Government চালায়। Spartan Strong Volunteer Service Award বছরে 50+ স্বেচ্ছাসেবার ঘণ্টাকে স্বীকৃতি দেয়। Middle School-এর আলাদা কোনো ক্লাব-তালিকা প্রকাশিত নয়।"
     }
   ]
 }

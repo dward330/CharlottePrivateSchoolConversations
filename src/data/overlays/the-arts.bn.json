@@ -93,7 +93,8 @@
         "providence-day:ladder.divisions[1].grades",
         "charlotte-latin:ladder.divisions[1].grades",
         "cannon:ladder.divisions[1].grades",
-        "davidson-day:ladder.divisions[1].grades"
+        "davidson-day:ladder.divisions[1].grades",
+        "gaston-day:ladder.divisions[1].grades"
       ]
     },
     {
@@ -143,7 +144,8 @@
         "covenant-day:ladder.divisions[2].grades",
         "davidson-day:ladder.divisions[2].grades",
         "carmel-christian:ladder.divisions[2].grades",
-        "hickory-grove-christian:ladder.divisions[2].grades"
+        "hickory-grove-christian:ladder.divisions[2].grades",
+        "gaston-day:ladder.divisions[2].grades"
       ]
     },
     {
@@ -301,7 +303,8 @@
         "charlotte-christian:visual.exhibits[0].when",
         "charlotte-country-day:theatre.season[2].season",
         "covenant-day:visual.exhibits[1].when",
-        "carmel-christian:theatre.season[1].season"
+        "carmel-christian:theatre.season[1].season",
+        "gaston-day:theatre.season[1].season"
       ]
     },
     {
@@ -309,7 +312,8 @@
       "of": "346c73d9",
       "at": [
         "providence-day:theatre.season[1].kind",
-        "charlotte-country-day:theatre.season[1].kind"
+        "charlotte-country-day:theatre.season[1].kind",
+        "gaston-day:theatre.season[1].kind"
       ]
     },
     {
@@ -2701,7 +2705,9 @@
       "at": [
         "charlotte-country-day:visual.exhibits[0].when",
         "cannon:visual.exhibits[2].when",
-        "carmel-christian:visual.exhibits[0].when"
+        "carmel-christian:visual.exhibits[0].when",
+        "gaston-day:visual.exhibits[0].when",
+        "gaston-day:visual.exhibits[1].when"
       ]
     },
     {
@@ -4279,7 +4285,8 @@
       "t": "স্নাতক হতে প্রয়োজনীয় চারুকলা",
       "of": "279b1430",
       "at": [
-        "davidson-day:ladder.stats[3].label"
+        "davidson-day:ladder.stats[3].label",
+        "gaston-day:ladder.stats[1].label"
       ]
     },
     {
@@ -5636,7 +5643,8 @@
       "t": "Middle School",
       "of": "15441234",
       "at": [
-        "hickory-grove-christian:music.tracks[1].label"
+        "hickory-grove-christian:music.tracks[1].label",
+        "gaston-day:music.tracks[0].label"
       ]
     },
     {
@@ -5854,6 +5862,643 @@
       "of": "ec42a222",
       "at": [
         "hickory-grove-christian:verdict.ask[4]"
+      ]
+    },
+    {
+      "t": "নাটক শুরু হয় দ্বিতীয় গ্রেডে এবং অবিচ্ছিন্নভাবে চলে Visual Art IV Honors পর্যন্ত — একটি PS-12 শিল্পকলার ধাপ, যার ভিত্তি নামভুক্ত 550 আসনের একটি আর্টস সেন্টার।",
+      "of": "8dc4781c",
+      "at": [
+        "gaston-day:ladder.headline"
+      ]
+    },
+    {
+      "t": "স্নাতক হতে দুই বছরের চারুকলা আবশ্যক, আর শিল্পকলা শ্রেণিকক্ষের পাশে নয়, ভেতরেই থাকে: Lower School-এ সংগীত, আর্ট ও নাটকের পাঠ পড়ানো বিষয়-এককগুলোর সঙ্গে সমন্বয় করে সাজানো হয়।",
+      "of": "b15727b7",
+      "at": [
+        "gaston-day:ladder.subhead"
+      ]
+    },
+    {
+      "t": "Pamela Kimbrell Warlick Visual & Performing Arts Center-এ আসন",
+      "of": "988f401a",
+      "at": [
+        "gaston-day:ladder.stats[0].label"
+      ]
+    },
+    {
+      "t": "যে গ্রেডে নাটকের ক্লাস শুরু হয়",
+      "of": "c38f3bfe",
+      "at": [
+        "gaston-day:ladder.stats[2].label"
+      ]
+    },
+    {
+      "t": "বছরে বড় প্রযোজনা, বসন্তের মিউজিক্যালসহ",
+      "of": "c2a62141",
+      "at": [
+        "gaston-day:ladder.stats[3].label"
+      ]
+    },
+    {
+      "t": "PS–4",
+      "of": "bbdb3d63",
+      "at": [
+        "gaston-day:ladder.divisions[0].grades"
+      ]
+    },
+    {
+      "t": "সংগীত, আর্ট ও নাটক আলাদাভাবে না পড়িয়ে শ্রেণিকক্ষের বিষয়-এককের সঙ্গে সমন্বয় করে পড়ানো হয়",
+      "of": "63bc24f2",
+      "at": [
+        "gaston-day:ladder.divisions[0].items[0]"
+      ]
+    },
+    {
+      "t": "নাটকের ক্লাস শুরু হয় দ্বিতীয় গ্রেড থেকেই",
+      "of": "c5fb022f",
+      "at": [
+        "gaston-day:ladder.divisions[0].items[1]"
+      ]
+    },
+    {
+      "t": "ঘন ঘন মাঠ-ভ্রমণ, অতিথি বক্তা ও ভার্চুয়াল ট্যুরের মাধ্যমে অভিজ্ঞতাভিত্তিক শেখা",
+      "of": "d6b530a3",
+      "at": [
+        "gaston-day:ladder.divisions[0].items[2]"
+      ]
+    },
+    {
+      "t": "আর্ট, নাটক, কোরাস ও ব্যান্ড থেকে বেছে নেওয়া ঐচ্ছিক বিষয়",
+      "of": "ae56f443",
+      "at": [
+        "gaston-day:ladder.divisions[1].items[0]"
+      ]
+    },
+    {
+      "t": "MS Instrumental Ensemble — উডউইন্ড, ব্রাস, পারকাশন, পিয়ানো ও গিটার",
+      "of": "fa9e878c",
+      "at": [
+        "gaston-day:ladder.divisions[1].items[1]"
+      ]
+    },
+    {
+      "t": "Middle School Chorus",
+      "of": "90ae1b0e",
+      "at": [
+        "gaston-day:ladder.divisions[1].items[2]"
+      ]
+    },
+    {
+      "t": "ব্যক্তিগত সংগীত পাঠের সুযোগ আছে",
+      "of": "43295d89",
+      "at": [
+        "gaston-day:ladder.divisions[1].items[3]"
+      ]
+    },
+    {
+      "t": "Visual Art I, II, III এবং Visual Art IV (H)",
+      "of": "6eee811c",
+      "at": [
+        "gaston-day:ladder.divisions[2].items[0]"
+      ]
+    },
+    {
+      "t": "চারুকলার কোর্স হিসেবে Band, Concert Choir ও Drama",
+      "of": "fe70b8e8",
+      "at": [
+        "gaston-day:ladder.divisions[2].items[1]"
+      ]
+    },
+    {
+      "t": "Upper School Vocal Performance Ensemble",
+      "of": "3b06a2a1",
+      "at": [
+        "gaston-day:ladder.divisions[2].items[2]"
+      ]
+    },
+    {
+      "t": "একটি নিবেদিত কর্মসূচি হিসেবে Actors’ Conservatory Theatre",
+      "of": "1b08a4ae",
+      "at": [
+        "gaston-day:ladder.divisions[2].items[3]"
+      ]
+    },
+    {
+      "t": "শিল্পকলা-সংলগ্ন ঐচ্ছিক বিষয়: Music Appreciation, Cinema Studies, Creative Writing (H), Yearbook",
+      "of": "87366eac",
+      "at": [
+        "gaston-day:ladder.divisions[2].items[4]"
+      ]
+    },
+    {
+      "t": "রুটিনের বাইরে",
+      "of": "f6cb035e",
+      "at": [
+        "gaston-day:ladder.enrichmentTitle"
+      ]
+    },
+    {
+      "t": "ব্যক্তিগত পাঠ",
+      "of": "ffedbb41",
+      "at": [
+        "gaston-day:ladder.enrichment[0].label"
+      ]
+    },
+    {
+      "t": "চুক্তিভিত্তিক পেশাদার সংগীতশিল্পীরা পড়ান, স্কুলের প্রকাশিত ফি-তালিকায় প্রতি পাঠে $35 ধরা হয়। Middle School-এর যেসব শিক্ষার্থী পাঠের অপেক্ষায় থাকে, তারা বিনা খরচে aftercare-এ বসে বাড়ির কাজ করতে পারে।",
+      "of": "93d39370",
+      "at": [
+        "gaston-day:ladder.enrichment[0].text"
+      ]
+    },
+    {
+      "t": "পরিবেশনার সফর",
+      "of": "f9db0633",
+      "at": [
+        "gaston-day:ladder.enrichment[1].label"
+      ]
+    },
+    {
+      "t": "কর্মসূচিটি St Mary-le-Bow ও Canterbury Cathedral-এ পরিবেশন করেছে, এবং Westminster Youth Orchestra-র সঙ্গে যৌথ কনসার্ট করেছে।",
+      "of": "42ca3a37",
+      "at": [
+        "gaston-day:ladder.enrichment[1].text"
+      ]
+    },
+    {
+      "t": "গ্রীষ্মকালীন শিল্পকলার ক্যাম্প",
+      "of": "2ce60830",
+      "at": [
+        "gaston-day:ladder.enrichment[2].label"
+      ]
+    },
+    {
+      "t": "Thespian Camp (rising PK–6) গ্রীষ্মের ক্যাটালগে চলে, সঙ্গে Children’s Theater of Charlotte-এর অংশীদার ক্যাম্প (Frozen, Willy Wonka, Cowabunga) ও Studio Elite নৃত্য।",
+      "of": "14fdd8e7",
+      "at": [
+        "gaston-day:ladder.enrichment[2].text"
+      ]
+    },
+    {
+      "t": "শিক্ষার্থী প্রকাশনা",
+      "of": "5c5f1aba",
+      "at": [
+        "gaston-day:ladder.enrichment[3].label"
+      ]
+    },
+    {
+      "t": "সাহিত্য ও শিল্পকলার পত্রিকা Blutopia সম্পূর্ণভাবে শিক্ষার্থীদের দ্বারা গড়া, তৈরি ও প্রকাশিত — এর পুরস্কারের নথির জন্য Verdict কার্ড দেখুন।",
+      "of": "f9ae22c9",
+      "at": [
+        "gaston-day:ladder.enrichment[3].text"
+      ]
+    },
+    {
+      "t": "বছরে দুটি বড় প্রযোজনা, তার একটি বসন্তের মিউজিক্যাল, মঞ্চস্থ হয় পেশাদার ড্যান্স স্টুডিওসহ 550 আসনের একটি কেন্দ্রে।",
+      "of": "69fa751d",
+      "at": [
+        "gaston-day:theatre.headline"
+      ]
+    },
+    {
+      "t": "শিক্ষার্থীরা কাজ করে মঞ্চে, স্টেজ ম্যানেজার হিসেবে, ক্রুতে বা নকশায় — স্কুল চারটি পথই স্পষ্ট করে উল্লেখ করে, তাই থিয়েটার কেবল পরিবেশকদের জন্য নয়।",
+      "of": "1fdb7cec",
+      "at": [
+        "gaston-day:theatre.subhead"
+      ]
+    },
+    {
+      "t": "প্রযোজনার বছর",
+      "of": "81a3d574",
+      "at": [
+        "gaston-day:theatre.seasonTitle"
+      ]
+    },
+    {
+      "t": "বছরজুড়ে",
+      "of": "6d397ef4",
+      "at": [
+        "gaston-day:theatre.season[0].season"
+      ]
+    },
+    {
+      "t": "দুটি বড় প্রযোজনা",
+      "of": "c5ef52ae",
+      "at": [
+        "gaston-day:theatre.season[0].kind"
+      ]
+    },
+    {
+      "t": "স্কুল প্রতি বছর দুটি বড় প্রযোজনা মঞ্চস্থ করে, যার একটি বসন্তের মিউজিক্যাল। নির্দিষ্ট নাম ও তারিখ প্রকাশিত নয়।",
+      "of": "5d1d381a",
+      "at": [
+        "gaston-day:theatre.season[0].detail"
+      ]
+    },
+    {
+      "t": "বসন্তের মিউজিক্যালই প্রযোজনার পঞ্জিকার নামভুক্ত মূল ভিত্তি।",
+      "of": "4ca4e271",
+      "at": [
+        "gaston-day:theatre.season[1].detail"
+      ]
+    },
+    {
+      "t": "পাঠ্যক্রমভুক্ত",
+      "of": "426615c7",
+      "at": [
+        "gaston-day:theatre.season[2].season"
+      ]
+    },
+    {
+      "t": "গ্রেড 2 থেকে নাটক",
+      "of": "51b4d535",
+      "at": [
+        "gaston-day:theatre.season[2].kind"
+      ]
+    },
+    {
+      "t": "নাটকের ক্লাস শুরু হয় দ্বিতীয় গ্রেড থেকেই, তাই Upper School-এর প্রযোজনায় পৌঁছানোর ধারাটি শুরু হয় Lower School-এ।",
+      "of": "d74632de",
+      "at": [
+        "gaston-day:theatre.season[2].detail"
+      ]
+    },
+    {
+      "t": "গ্রীষ্ম",
+      "of": "42f6a154",
+      "at": [
+        "gaston-day:theatre.season[3].season"
+      ]
+    },
+    {
+      "t": "Thespian Camp",
+      "of": "9dba3d9a",
+      "at": [
+        "gaston-day:theatre.season[3].kind"
+      ]
+    },
+    {
+      "t": "Thespian Camp (rising PK–6) একটি ছোট মিউজিক্যালের গান ও চিত্রনাট্য শেখায় এবং ক্যাম্পারদের একটি সরল মঞ্চসজ্জা নকশার কাজে যুক্ত করে।",
+      "of": "29e15bf8",
+      "at": [
+        "gaston-day:theatre.season[3].detail"
+      ]
+    },
+    {
+      "t": "Fine Arts Department-এর প্রধান Travis Johnson (ext. 415)। স্কুলের থিয়েটার আয়োজনের ভেতরে Actors’ Conservatory Theatre একটি নিবেদিত কর্মসূচি হিসেবে চলে।",
+      "of": "bfaf84c8",
+      "at": [
+        "gaston-day:theatre.whoRunsIt"
+      ]
+    },
+    {
+      "t": "Pamela Kimbrell Warlick Visual & Performing Arts Center-এ 550টি আসন এবং আধুনিক আলো ও শব্দব্যবস্থার সঙ্গে একটি পেশাদার ড্যান্স স্টুডিও আছে — 510 জন শিক্ষার্থীর একটি স্কুলের জন্য যথেষ্ট বড় একটি প্রেক্ষাগৃহ।",
+      "of": "0a2cfa65",
+      "at": [
+        "gaston-day:theatre.venueNote"
+      ]
+    },
+    {
+      "t": "স্কুল কোনো প্রযোজনার নাম, পরিবেশনার তারিখ, অভিনয়শিল্পীর সংখ্যা বা থিয়েটার প্রতিযোগিতার ফল প্রকাশ করে না, এবং International Thespian Society-র সনদ নেওয়া সত্ত্বেও কোনো troupe নম্বর জানায় না। ফলে কর্মসূচিটির *গড়ন* ভালোভাবে নথিভুক্ত হলেও তার *নথিবদ্ধ অর্জন* নয় — এই কার্ডে ইচ্ছাকৃতভাবেই খালি পুরস্কারের তালিকার বদলে কোনো তালিকাই রাখা হয়নি।",
+      "of": "fc74421f",
+      "at": [
+        "gaston-day:theatre.honestContext"
+      ]
+    },
+    {
+      "t": "কোরাসের শিক্ষার্থীরা ছয় বছর ধরে আঞ্চলিক বিচারে “superior” রেটিং পেয়েছে, এবং কর্মসূচিটি শিক্ষার্থীদের UNC School of the Arts ও Governor’s School-এ পাঠিয়েছে।",
+      "of": "fd6054af",
+      "at": [
+        "gaston-day:music.headline"
+      ]
+    },
+    {
+      "t": "সংগীত এখানে একটি বিষয় নয়, একটি চর্চা হিসেবে পড়ানো হয় — পাঠ্যক্রমে আছে গাওয়া, চলন, ইমপ্রোভাইজেশন, পড়া, লেখা ও পরিবেশন।",
+      "of": "32ad2dcd",
+      "at": [
+        "gaston-day:music.subhead"
+      ]
+    },
+    {
+      "t": "এনসেম্বলগুলো",
+      "of": "e246d810",
+      "at": [
+        "gaston-day:music.boardTitle"
+      ]
+    },
+    {
+      "t": "Upper School",
+      "of": "bfabeb69",
+      "at": [
+        "gaston-day:music.tracks[1].label"
+      ]
+    },
+    {
+      "t": "ব্যক্তিগত অধ্যয়ন",
+      "of": "f5b0829f",
+      "at": [
+        "gaston-day:music.tracks[2].label"
+      ]
+    },
+    {
+      "t": "Band ও Concert Choir প্রোফাইলের চারুকলা কোর্স-তালিকায় আছে, তাই দুই বছরের আবশ্যিকতার দিকে এগুলো একাডেমিক ক্রেডিট বহন করে; শিল্পকলার পাতায় থাকা এনসেম্বলগুলো এগুলোর পাশাপাশি চলে।",
+      "of": "b2415d92",
+      "at": [
+        "gaston-day:music.boardNote"
+      ]
+    },
+    {
+      "t": "স্বীকৃতির ধাপ",
+      "of": "31d184fd",
+      "at": [
+        "gaston-day:music.ladderTitle"
+      ]
+    },
+    {
+      "t": "আঞ্চলিক বিচার",
+      "of": "c06fb4d1",
+      "at": [
+        "gaston-day:music.ladder[0].label"
+      ]
+    },
+    {
+      "t": "কোরাসের শিক্ষার্থীরা ছয় বছর ধরে আঞ্চলিক বিচারে “superior” রেটিং পেয়েছে — একটি ভালো বছরের নয়, বরং টানা ধরে রাখা একটি নথি।",
+      "of": "9452b0c6",
+      "at": [
+        "gaston-day:music.ladder[0].text"
+      ]
+    },
+    {
+      "t": "কনজারভেটরিতে ভর্তি",
+      "of": "f8ced44f",
+      "at": [
+        "gaston-day:music.ladder[1].label"
+      ]
+    },
+    {
+      "t": "শিক্ষার্থীরা North Carolina School of the Arts-এ ভর্তির সুযোগ পেয়েছে। স্কুলের 2019–2025 কলেজ ভর্তি-তালিকাতেও UNC School of the Arts আছে, যা স্বাধীনভাবে এই পথটিকে সমর্থন করে।",
+      "of": "3f6dd568",
+      "at": [
+        "gaston-day:music.ladder[1].text"
+      ]
+    },
+    {
+      "t": "Governor’s School",
+      "of": "9446fe91",
+      "at": [
+        "gaston-day:music.ladder[2].label"
+      ]
+    },
+    {
+      "t": "শিক্ষার্থীরা North Carolina Governor’s School-এ জায়গা পেয়েছে, যা মেধাবী শিক্ষার্থীদের জন্য রাজ্যের বাছাইকৃত গ্রীষ্মকালীন কর্মসূচি।",
+      "of": "f8be13be",
+      "at": [
+        "gaston-day:music.ladder[2].text"
+      ]
+    },
+    {
+      "t": "আন্তর্জাতিক পরিবেশনা",
+      "of": "4957f0e1",
+      "at": [
+        "gaston-day:music.ladder[3].label"
+      ]
+    },
+    {
+      "t": "St Mary-le-Bow ও Canterbury Cathedral-এ পরিবেশনা, সঙ্গে Westminster Youth Orchestra-র সঙ্গে যৌথ কনসার্ট।",
+      "of": "4dec7f4f",
+      "at": [
+        "gaston-day:music.ladder[3].text"
+      ]
+    },
+    {
+      "t": "স্কুল এনসেম্বলের আকার, নামভুক্ত all-state বা all-district নির্বাচন, বছরভিত্তিক উৎসবের রেটিং, কিংবা বিভাগীয় প্রধানের বাইরে সংগীত শিক্ষকদের তালিকা প্রকাশ করে না — তাই ওপরের ধাপটি গুণগত, যেখানে বড় কোনো স্কুল সংখ্যা প্রকাশ করত।",
+      "of": "aea5c459",
+      "at": [
+        "gaston-day:music.ladderNote"
+      ]
+    },
+    {
+      "t": "Upper School-এ চার ধাপের একটি ধারাবাহিকতা, যা শেষ হয় Visual Art IV Honors-এ, পড়ানো হয় মৃৎশিল্প ও ছাপচিত্রসহ পাঁচটি মাধ্যমে।",
+      "of": "91b7b1e2",
+      "at": [
+        "gaston-day:visual.headline"
+      ]
+    },
+    {
+      "t": "পোর্টফোলিও গড়ে তোলাকে শিক্ষাদানের অংশ হিসেবেই উল্লেখ করা হয়, আর একটি আর্ট ঐচ্ছিক বিষয় ও আর্ট স্কুলে যাওয়ার পথের মধ্যে বাস্তব পার্থক্যটা এখানেই — আর ভর্তি-তালিকা তা সমর্থন করে।",
+      "of": "d0e6435a",
+      "at": [
+        "gaston-day:visual.subhead"
+      ]
+    },
+    {
+      "t": "শিক্ষার্থীরা আসলে কোন মাধ্যমে কাজ করে",
+      "of": "ab1858da",
+      "at": [
+        "gaston-day:visual.mediaTitle"
+      ]
+    },
+    {
+      "t": "Upper School-এর চারুকলার বর্ণনায় স্পষ্টভাবে উল্লেখ করা",
+      "of": "1bdf19ee",
+      "at": [
+        "gaston-day:visual.media[4].detail"
+      ]
+    },
+    {
+      "t": "প্রোফাইলের কোর্স-তালিকায় AP Studio Art বা AP Art History নেই — Visual Art IV (H)-ই শেষ কোর্স, যা AP-র +1.0 নয়, Honors-এর +0.50 ভার বহন করে। Cinema Studies, Creative Writing (H) ও Yearbook এর পাশে শিল্পকলা-সংলগ্ন ঐচ্ছিক বিষয় হিসেবে আছে।",
+      "of": "1ad917a4",
+      "at": [
+        "gaston-day:visual.pathNote"
+      ]
+    },
+    {
+      "t": "কাজগুলো কোথায় যায়",
+      "of": "d3d0e20a",
+      "at": [
+        "gaston-day:visual.exhibitsTitle"
+      ]
+    },
+    {
+      "t": "অসংখ্য Scholastic Art Awards, সঙ্গে জাতীয়, আঞ্চলিক ও স্থানীয় প্রতিযোগিতায় জয়।",
+      "of": "746ac530",
+      "at": [
+        "gaston-day:visual.exhibits[0].detail"
+      ]
+    },
+    {
+      "t": "শিক্ষার্থীদের সাহিত্য ও শিল্পকলার পত্রিকাটি লেখার পাশাপাশি অলংকরণ, চিত্রকর্ম ও আলোকচিত্র প্রকাশ করে, এবং এটি অসংখ্য Scholastic Art and Writing Awards ও NC Scholastic Media Association Literary Magazine Contest-এ বারবার স্বীকৃতি পেয়েছে।",
+      "of": "a9cfe5a6",
+      "at": [
+        "gaston-day:visual.exhibits[1].detail"
+      ]
+    },
+    {
+      "t": "2019–2025",
+      "of": "2adf025d",
+      "at": [
+        "gaston-day:visual.exhibits[2].when"
+      ]
+    },
+    {
+      "t": "2019–2025-এর ভর্তি-তালিকায় আছে RISD, SCAD, School of Visual Arts, Maryland Institute College of Art, School of the Art Institute of Chicago, Minneapolis College of Art and Design ও UNC School of the Arts — শিল্প ও নকশার সাতটি বিশেষায়িত প্রতিষ্ঠান।",
+      "of": "66207e20",
+      "at": [
+        "gaston-day:visual.exhibits[2].detail"
+      ]
+    },
+    {
+      "t": "বিভাগের প্রধান Travis Johnson; শিল্পকলার আর কোনো শিক্ষকের নাম প্রকাশ্যে নেই। স্কুল কোনো গ্যালারি বা প্রদর্শনীর পঞ্জিকা, বছরভিত্তিক Scholastic পুরস্কারের সংখ্যা কিংবা বিজয়ী শিক্ষার্থীদের নাম প্রকাশ করে না — \"numerous\" স্কুলের নিজস্ব শব্দ, তা সংখ্যায় না এনে যেমন আছে তেমনই রাখা হয়েছে।",
+      "of": "6d204ef7",
+      "at": [
+        "gaston-day:visual.footnote"
+      ]
+    },
+    {
+      "t": "510 জন শিক্ষার্থীর একটি স্কুলের জন্য গুরুত্বসহকারে গড়া একটি শিল্পকলা কর্মসূচি — নামভুক্ত 550 আসনের একটি কেন্দ্র, ছয় বছরের বিচারের নথি, এবং জাতীয় পুরস্কারের ইতিহাসসহ শিক্ষার্থীদের একটি পত্রিকা।",
+      "of": "5b76b2a5",
+      "at": [
+        "gaston-day:verdict.headline"
+      ]
+    },
+    {
+      "t": "যা নেই তা কর্মসূচি নয়, নথি: বছর ধরে, নাম ধরে বা ব্যক্তি ধরে প্রায় কিছুই প্রকাশিত হয় না।",
+      "of": "c894aa2e",
+      "at": [
+        "gaston-day:verdict.subhead"
+      ]
+    },
+    {
+      "t": "সুবিধাটি বাস্তব ও নামভুক্ত",
+      "of": "099988bd",
+      "at": [
+        "gaston-day:verdict.holdsUp[0].label"
+      ]
+    },
+    {
+      "t": "Pamela Kimbrell Warlick Visual & Performing Arts Center-এ 550টি আসন, আধুনিক আলো ও শব্দব্যবস্থা এবং একটি পেশাদার ড্যান্স স্টুডিও — স্কুলের মোট শিক্ষার্থীসংখ্যার চেয়েও বড়।",
+      "of": "6e5cd3ae",
+      "at": [
+        "gaston-day:verdict.holdsUp[0].text"
+      ]
+    },
+    {
+      "t": "ধাপটি সত্যিকার অর্থেই PS–12",
+      "of": "f1e22d13",
+      "at": [
+        "gaston-day:verdict.holdsUp[1].label"
+      ]
+    },
+    {
+      "t": "দ্বিতীয় গ্রেড থেকে নাটক, Lower School-এ সমন্বিত শিল্পকলা, Middle School-এ চারটি ঐচ্ছিক ধারা, এবং Upper School-এ চার কোর্সের চারুকলার ধারাবাহিকতা ও তিনটি এনসেম্বল।",
+      "of": "469c7114",
+      "at": [
+        "gaston-day:verdict.holdsUp[1].text"
+      ]
+    },
+    {
+      "t": "স্বীকৃতি একবারের নয়, ধারাবাহিক",
+      "of": "48b3e2a5",
+      "at": [
+        "gaston-day:verdict.holdsUp[2].label"
+      ]
+    },
+    {
+      "t": "ছয় বছর ধরে আঞ্চলিক কোরাস বিচারে “superior”, এবং UNC School of the Arts ও Governor’s School-এ ভর্তি।",
+      "of": "e156b624",
+      "at": [
+        "gaston-day:verdict.holdsUp[2].text"
+      ]
+    },
+    {
+      "t": "Blutopia সত্যিকারের একটি স্বাতন্ত্র্য",
+      "of": "e3df9a95",
+      "at": [
+        "gaston-day:verdict.holdsUp[3].label"
+      ]
+    },
+    {
+      "t": "পুরোপুরি শিক্ষার্থীদের তৈরি, সঙ্গে অসংখ্য Scholastic Art and Writing Awards ও NC Scholastic Media Association Literary Magazine Contest-এ ধারাবাহিক স্বীকৃতি।",
+      "of": "4532306d",
+      "at": [
+        "gaston-day:verdict.holdsUp[3].text"
+      ]
+    },
+    {
+      "t": "পোর্টফোলিওর কাজ কোথাও পৌঁছে দেয়",
+      "of": "45810778",
+      "at": [
+        "gaston-day:verdict.holdsUp[4].label"
+      ]
+    },
+    {
+      "t": "পোর্টফোলিও গড়ে তোলা শেখানো হয়, আর ভর্তি-তালিকায় আছে শিল্প ও নকশার সাতটি বিশেষায়িত স্কুল — RISD, SCAD, SVA, MICA, SAIC, MCAD ও UNCSA।",
+      "of": "07b229cb",
+      "at": [
+        "gaston-day:verdict.holdsUp[4].text"
+      ]
+    },
+    {
+      "t": "শিল্পকলার নম্বর প্রকাশ করা হয়",
+      "of": "60615395",
+      "at": [
+        "gaston-day:verdict.holdsUp[5].label"
+      ]
+    },
+    {
+      "t": "প্রোফাইলে 2024-25-এর ARTS নম্বর-বণ্টন ছাপা হয় (72% A+, 22% A, 5% A-), যা খুব কম স্কুলই প্রকাশ করে। একে কঠিনতার ইঙ্গিত নয়, বরং বিভাগটি কীভাবে নম্বর দেয় তার প্রেক্ষাপট হিসেবে পড়ুন।",
+      "of": "16169f26",
+      "at": [
+        "gaston-day:verdict.holdsUp[5].text"
+      ]
+    },
+    {
+      "t": "গত দুই বছরের প্রযোজনাগুলো কী ছিল, এবং কতজন শিক্ষার্থী অভিনয়ে আর কতজন ক্রুতে ছিল?",
+      "of": "95c3ac2d",
+      "at": [
+        "gaston-day:verdict.ask[0]"
+      ]
+    },
+    {
+      "t": "Band, Concert Choir ও Vocal Performance Ensemble কত বড় — এবং যারা অডিশন দেয় তারা সবাই কি জায়গা পায়?",
+      "of": "76bfc700",
+      "at": [
+        "gaston-day:verdict.ask[1]"
+      ]
+    },
+    {
+      "t": "AP Studio Art না থাকায় Visual Art IV-ই শেষ কোর্স — আর্ট স্কুলের জন্য পোর্টফোলিও গড়ছে এমন শিক্ষার্থীরা কীভাবে আরও এগোয়?",
+      "of": "5422ced3",
+      "at": [
+        "gaston-day:verdict.ask[2]"
+      ]
+    },
+    {
+      "t": "কোরাস কোন কোন আঞ্চলিক বিচারে অংশ নেয়, এবং সুনির্দিষ্টভাবে গত দুই বছরের রেটিং কী ছিল?",
+      "of": "fa04601d",
+      "at": [
+        "gaston-day:verdict.ask[3]"
+      ]
+    },
+    {
+      "t": "গত বছর শিক্ষার্থীরা কতগুলো Scholastic Art Awards জিতেছে, এবং কোন স্তরে (Gold Key, Silver Key, Honorable Mention)?",
+      "of": "4d5ba981",
+      "at": [
+        "gaston-day:verdict.ask[4]"
+      ]
+    },
+    {
+      "t": "বিভাগীয় প্রধানের বাইরে চারুকলা, সংগীত ও নাটক কারা পড়ান, এবং তাঁদের পটভূমি কী?",
+      "of": "8f09b46e",
+      "at": [
+        "gaston-day:verdict.ask[5]"
+      ]
+    },
+    {
+      "t": "International Thespian Society-র কোনো troupe আছে কি, এবং তাতে অন্তর্ভুক্তির শর্ত কী?",
+      "of": "4386257e",
+      "at": [
+        "gaston-day:verdict.ask[6]"
       ]
     }
   ]

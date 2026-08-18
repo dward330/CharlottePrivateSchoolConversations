@@ -47,7 +47,9 @@
         "carmel-christian:catalog.categoryFilters[0].label",
         "carmel-christian:catalog.gradeFilters[0].label",
         "hickory-grove-christian:catalog.categoryFilters[0].label",
-        "hickory-grove-christian:catalog.gradeFilters[0].label"
+        "hickory-grove-christian:catalog.gradeFilters[0].label",
+        "gaston-day:catalog.categoryFilters[0].label",
+        "gaston-day:catalog.gradeFilters[0].label"
       ],
       "t": "সব"
     },
@@ -186,7 +188,16 @@
         "covenant-day:catalog.camps[9].categoryLabel",
         "covenant-day:catalog.camps[10].categoryLabel",
         "covenant-day:catalog.camps[11].categoryLabel",
-        "covenant-day:catalog.camps[12].categoryLabel"
+        "covenant-day:catalog.camps[12].categoryLabel",
+        "gaston-day:catalog.categoryFilters[3].label",
+        "gaston-day:catalog.camps[3].categoryLabel",
+        "gaston-day:catalog.camps[8].categoryLabel",
+        "gaston-day:catalog.camps[13].categoryLabel",
+        "gaston-day:catalog.camps[17].categoryLabel",
+        "gaston-day:catalog.camps[18].categoryLabel",
+        "gaston-day:catalog.camps[23].categoryLabel",
+        "gaston-day:catalog.camps[24].categoryLabel",
+        "gaston-day:catalog.camps[25].categoryLabel"
       ],
       "t": "ক্রীড়া"
     },
@@ -519,7 +530,30 @@
         "covenant-day:catalog.camps[16].dayLabel",
         "covenant-day:catalog.camps[17].dayLabel",
         "covenant-day:catalog.camps[18].dayLabel",
-        "covenant-day:catalog.camps[19].dayLabel"
+        "covenant-day:catalog.camps[19].dayLabel",
+        "gaston-day:catalog.camps[0].dayLabel",
+        "gaston-day:catalog.camps[1].dayLabel",
+        "gaston-day:catalog.camps[2].dayLabel",
+        "gaston-day:catalog.camps[3].dayLabel",
+        "gaston-day:catalog.camps[4].dayLabel",
+        "gaston-day:catalog.camps[7].dayLabel",
+        "gaston-day:catalog.camps[8].dayLabel",
+        "gaston-day:catalog.camps[9].dayLabel",
+        "gaston-day:catalog.camps[10].dayLabel",
+        "gaston-day:catalog.camps[11].dayLabel",
+        "gaston-day:catalog.camps[13].dayLabel",
+        "gaston-day:catalog.camps[14].dayLabel",
+        "gaston-day:catalog.camps[15].dayLabel",
+        "gaston-day:catalog.camps[16].dayLabel",
+        "gaston-day:catalog.camps[17].dayLabel",
+        "gaston-day:catalog.camps[18].dayLabel",
+        "gaston-day:catalog.camps[19].dayLabel",
+        "gaston-day:catalog.camps[20].dayLabel",
+        "gaston-day:catalog.camps[21].dayLabel",
+        "gaston-day:catalog.camps[22].dayLabel",
+        "gaston-day:catalog.camps[23].dayLabel",
+        "gaston-day:catalog.camps[24].dayLabel",
+        "gaston-day:catalog.camps[25].dayLabel"
       ],
       "t": "সোম–শুক্র"
     },
@@ -3317,7 +3351,13 @@
       "of": "ca0fab3c",
       "at": [
         "charlotte-latin:catalog.camps[52].categoryLabel",
-        "charlotte-latin:catalog.camps[53].categoryLabel"
+        "charlotte-latin:catalog.camps[53].categoryLabel",
+        "gaston-day:catalog.categoryFilters[5].label",
+        "gaston-day:catalog.camps[10].categoryLabel",
+        "gaston-day:catalog.camps[19].categoryLabel",
+        "gaston-day:catalog.camps[20].categoryLabel",
+        "gaston-day:catalog.camps[21].categoryLabel",
+        "gaston-day:catalog.camps[22].categoryLabel"
       ],
       "t": "নাচ"
     },
@@ -8143,7 +8183,10 @@
         "hickory-grove-christian:catalog.camps[11].dayLabel",
         "hickory-grove-christian:catalog.camps[12].dayLabel",
         "hickory-grove-christian:catalog.camps[13].dayLabel",
-        "hickory-grove-christian:catalog.camps[14].dayLabel"
+        "hickory-grove-christian:catalog.camps[14].dayLabel",
+        "gaston-day:catalog.camps[5].dayLabel",
+        "gaston-day:catalog.camps[6].dayLabel",
+        "gaston-day:catalog.camps[12].dayLabel"
       ],
       "t": "সোম–বৃহস্পতি"
     },
@@ -10217,7 +10260,8 @@
       "at": [
         "carmel-christian:catalog.gradeFilters[4].label",
         "carmel-christian:catalog.camps[28].gradeLabel",
-        "carmel-christian:catalog.camps[30].gradeLabel"
+        "carmel-christian:catalog.camps[30].gradeLabel",
+        "gaston-day:catalog.gradeFilters[3].label"
       ],
       "t": "Rising 6–8"
     },
@@ -10645,7 +10689,8 @@
       "text": "Rising 1–5",
       "of": "3965e584",
       "at": [
-        "carmel-christian:catalog.camps[18].gradeLabel"
+        "carmel-christian:catalog.camps[18].gradeLabel",
+        "gaston-day:catalog.gradeFilters[2].label"
       ],
       "t": "Rising 1–5"
     },
@@ -11316,6 +11361,928 @@
         "hickory-grove-christian:catalog.flags[1].text"
       ],
       "t": "সরাসরি বা আর্কাইভ করা কোনো পাতাতেই ক্যাম্প-প্রতি দাম প্রকাশিত নয় — দাম কেবল Brushfire-এর checkout-এর ভেতরেই আছে — তাই কোনো Cost Planner কার্ড তৈরি করা হয়নি এবং গ্রীষ্মকালীন খরচের সংখ্যাগুলো N/A। গ্রীষ্মে কোনো সম্পূরক শিশু-পরিচর্যাও নেই: ক্যাম্পগুলো অর্ধদিবসের এবং গ্রীষ্মে স্কুল-পরবর্তী কর্মসূচি বন্ধ থাকে।"
+    },
+    {
+      "text": "Eight weeks from June 1 to July 31, spanning full-day Camp Spartan, half-day enrichment camps, four partner providers and Nike Sports Camps — open to non-students.",
+      "of": "e1e7014a",
+      "at": [
+        "gaston-day:catalog.headline"
+      ],
+      "t": "1 June থেকে 31 July পর্যন্ত আট সপ্তাহ, যাতে আছে সারাদিনের Camp Spartan, অর্ধদিবস সমৃদ্ধিমূলক ক্যাম্প, চারটি অংশীদার সরবরাহকারী ও Nike Sports Camps — স্কুলের বাইরের শিক্ষার্থীদের জন্যও খোলা।"
+    },
+    {
+      "text": "Camp Spartan runs 8:30 am–3:30 pm with lunch included, and wrap-around care extends the day from 7:45 am to 5:00 pm.",
+      "of": "440697cb",
+      "at": [
+        "gaston-day:catalog.subhead"
+      ],
+      "t": "Camp Spartan চলে সকাল 8:30 থেকে বিকেল 3:30 পর্যন্ত, দুপুরের খাবারসহ, আর আগে-পরের যত্ন দিনটিকে সকাল 7:45 থেকে বিকেল 5:00 পর্যন্ত বাড়িয়ে দেয়।"
+    },
+    {
+      "text": "The complete 2026 slate as published in the school’s camp catalog — 30 camps across four providers. Grade levels are “rising” grades: the child’s grade for the 2026-27 school year. Several enrichment camps show as FULL with a waitlist and one as cancelled; those states are reproduced as published rather than filtered out.",
+      "of": "0f0d2460",
+      "at": [
+        "gaston-day:catalog.intro"
+      ],
+      "t": "স্কুলের ক্যাম্প-তালিকায় প্রকাশিত 2026-এর পূর্ণ সূচি — চারটি সরবরাহকারীর 30টি ক্যাম্প। গ্রেড বলতে “rising” গ্রেড বোঝানো হয়েছে: 2026-27 শিক্ষাবর্ষে শিশুটি যে গ্রেডে থাকবে। কয়েকটি সমৃদ্ধিমূলক ক্যাম্প FULL দেখাচ্ছে, সঙ্গে অপেক্ষমাণ তালিকা, আর একটি বাতিল; ওই অবস্থাগুলো ছেঁকে বাদ না দিয়ে যেমন প্রকাশিত তেমনই তুলে ধরা হয়েছে।"
+    },
+    {
+      "text": "Day camp",
+      "of": "31934b3a",
+      "at": [
+        "gaston-day:catalog.categoryFilters[1].label",
+        "gaston-day:catalog.camps[0].categoryLabel",
+        "gaston-day:catalog.camps[1].categoryLabel"
+      ],
+      "t": "দিবা-ক্যাম্প"
+    },
+    {
+      "text": "Enrichment",
+      "of": "42d5db5c",
+      "at": [
+        "gaston-day:catalog.categoryFilters[2].label",
+        "gaston-day:catalog.camps[2].categoryLabel",
+        "gaston-day:catalog.camps[4].categoryLabel",
+        "gaston-day:catalog.camps[5].categoryLabel",
+        "gaston-day:catalog.camps[6].categoryLabel",
+        "gaston-day:catalog.camps[7].categoryLabel",
+        "gaston-day:catalog.camps[11].categoryLabel",
+        "gaston-day:catalog.camps[12].categoryLabel"
+      ],
+      "t": "Enrichment"
+    },
+    {
+      "text": "Arts & theatre",
+      "of": "d6cf3226",
+      "at": [
+        "gaston-day:catalog.categoryFilters[4].label",
+        "gaston-day:catalog.camps[9].categoryLabel",
+        "gaston-day:catalog.camps[14].categoryLabel",
+        "gaston-day:catalog.camps[15].categoryLabel",
+        "gaston-day:catalog.camps[16].categoryLabel"
+      ],
+      "t": "আর্টস ও থিয়েটার"
+    },
+    {
+      "text": "Tutoring",
+      "of": "5f3ff239",
+      "at": [
+        "gaston-day:catalog.categoryFilters[6].label",
+        "gaston-day:catalog.camps[26].categoryLabel"
+      ],
+      "t": "টিউটরিং"
+    },
+    {
+      "text": "Rising PK–K",
+      "of": "fe59bf8e",
+      "at": [
+        "gaston-day:catalog.gradeFilters[1].label",
+        "gaston-day:catalog.camps[1].gradeLabel"
+      ],
+      "t": "Rising PK–K"
+    },
+    {
+      "text": "Rising 9–12",
+      "of": "77e63086",
+      "at": [
+        "gaston-day:catalog.gradeFilters[4].label"
+      ],
+      "t": "Rising 9–12"
+    },
+    {
+      "text": "All-day camp of crafts, activities, experiments and games — built for working parents needing summer childcare.",
+      "of": "37a811b0",
+      "at": [
+        "gaston-day:catalog.camps[0].desc"
+      ],
+      "t": "কারুশিল্প, কাজকর্ম, পরীক্ষা-নিরীক্ষা ও খেলার সারাদিনের ক্যাম্প — গ্রীষ্মে শিশুর দেখভাল দরকার এমন কর্মজীবী অভিভাবকদের কথা ভেবে গড়া।"
+    },
+    {
+      "text": "Rising 1st–5th",
+      "of": "f465998f",
+      "at": [
+        "gaston-day:catalog.camps[0].gradeLabel"
+      ],
+      "t": "Rising 1st–5th"
+    },
+    {
+      "text": "8:30am-3:30pm (half day 8:30-12pm or 12:30-3:30pm)",
+      "of": "f9652c41",
+      "at": [
+        "gaston-day:catalog.camps[0].hours",
+        "gaston-day:catalog.camps[1].hours"
+      ],
+      "t": "8:30am-3:30pm (অর্ধদিবস 8:30-12pm বা 12:30-3:30pm)"
+    },
+    {
+      "text": "Weeks 1, 2, 3, 5, 6, 7, 8",
+      "of": "15668b7e",
+      "at": [
+        "gaston-day:catalog.camps[0].weeks"
+      ],
+      "t": "সপ্তাহ 1, 2, 3, 5, 6, 7, 8"
+    },
+    {
+      "text": "The same all-day format tailored to the youngest campers — crafts, activities, experiments and games.",
+      "of": "d79f4e3a",
+      "at": [
+        "gaston-day:catalog.camps[1].desc"
+      ],
+      "t": "সেই একই সারাদিনের ধরন, সবচেয়ে ছোট ক্যাম্পারদের কথা ভেবে সাজানো — কারুশিল্প, কাজকর্ম, পরীক্ষা-নিরীক্ষা ও খেলা।"
+    },
+    {
+      "text": "Weeks 1, 2, 3, 4, 5, 6, 7, 8",
+      "of": "30d03432",
+      "at": [
+        "gaston-day:catalog.camps[1].weeks"
+      ],
+      "t": "সপ্তাহ 1, 2, 3, 4, 5, 6, 7, 8"
+    },
+    {
+      "text": "A week at the beach without leaving town: treasure boxes, sand art and shell hunts. Led by Patty Maier.",
+      "of": "bc40bf7b",
+      "at": [
+        "gaston-day:catalog.camps[2].desc"
+      ],
+      "t": "শহর না ছেড়েই সমুদ্রসৈকতে একটি সপ্তাহ: গুপ্তধনের বাক্স, বালির শিল্প ও ঝিনুক খোঁজা। পরিচালনায় Patty Maier।"
+    },
+    {
+      "text": "PreK–K",
+      "of": "8054a225",
+      "at": [
+        "gaston-day:catalog.camps[2].gradeLabel"
+      ],
+      "t": "PreK–K"
+    },
+    {
+      "text": "9am-12pm",
+      "of": "c39d860d",
+      "at": [
+        "gaston-day:catalog.camps[2].hours",
+        "gaston-day:catalog.camps[3].hours",
+        "gaston-day:catalog.camps[4].hours",
+        "gaston-day:catalog.camps[5].hours",
+        "gaston-day:catalog.camps[6].hours",
+        "gaston-day:catalog.camps[7].hours",
+        "gaston-day:catalog.camps[8].hours",
+        "gaston-day:catalog.camps[9].hours",
+        "gaston-day:catalog.camps[10].hours",
+        "gaston-day:catalog.camps[11].hours",
+        "gaston-day:catalog.camps[12].hours"
+      ],
+      "t": "9am-12pm"
+    },
+    {
+      "text": "Week 1 — June 1-5",
+      "of": "57efacaf",
+      "at": [
+        "gaston-day:catalog.camps[2].weeks",
+        "gaston-day:catalog.camps[3].weeks",
+        "gaston-day:catalog.camps[17].weeks"
+      ],
+      "t": "সপ্তাহ 1 — June 1-5"
+    },
+    {
+      "text": "A week on fundamental skills for new and experienced players. Led by Andrew Perino.",
+      "of": "c876e6a2",
+      "at": [
+        "gaston-day:catalog.camps[3].desc"
+      ],
+      "t": "নতুন ও অভিজ্ঞ খেলোয়াড়দের জন্য মৌলিক দক্ষতার একটি সপ্তাহ। পরিচালনায় Andrew Perino।"
+    },
+    {
+      "text": "Rising 1st–8th",
+      "of": "c932d9d0",
+      "at": [
+        "gaston-day:catalog.camps[3].gradeLabel"
+      ],
+      "t": "Rising 1st–8th"
+    },
+    {
+      "text": "Planets, out-of-this-world art activities and a blast of a week. Led by Alison Morgan.",
+      "of": "0ba32af6",
+      "at": [
+        "gaston-day:catalog.camps[4].desc"
+      ],
+      "t": "গ্রহ-নক্ষত্র, এই দুনিয়ার বাইরের শিল্পকর্ম আর দুর্দান্ত একটি সপ্তাহ। পরিচালনায় Alison Morgan।"
+    },
+    {
+      "text": "Rising PK–1st",
+      "of": "38617f47",
+      "at": [
+        "gaston-day:catalog.camps[4].gradeLabel",
+        "gaston-day:catalog.camps[6].gradeLabel"
+      ],
+      "t": "Rising PK–1st"
+    },
+    {
+      "text": "Week 2 — June 8-12",
+      "of": "50a90acf",
+      "at": [
+        "gaston-day:catalog.camps[4].weeks",
+        "gaston-day:catalog.camps[14].weeks"
+      ],
+      "t": "সপ্তাহ 2 — June 8-12"
+    },
+    {
+      "text": "Colourful activities, hands-on crafts, games and plenty of icy treats. Led by Sydney Hedrick.",
+      "of": "d4d2d875",
+      "at": [
+        "gaston-day:catalog.camps[5].desc"
+      ],
+      "t": "রঙিন কাজকর্ম, হাতেকলমে কারুশিল্প, খেলা আর প্রচুর ঠান্ডা খাবার। পরিচালনায় Sydney Hedrick।"
+    },
+    {
+      "text": "Rising PK–3rd",
+      "of": "1f835d08",
+      "at": [
+        "gaston-day:catalog.camps[5].gradeLabel"
+      ],
+      "t": "Rising PK–3rd"
+    },
+    {
+      "text": "Week 3 — June 15-18",
+      "of": "79c4d24c",
+      "at": [
+        "gaston-day:catalog.camps[5].weeks",
+        "gaston-day:catalog.camps[6].weeks"
+      ],
+      "t": "সপ্তাহ 3 — June 15-18"
+    },
+    {
+      "text": "A roar-some week of dinosaurs, digging and excavating for future paleontologists. Led by Alison Morgan.",
+      "of": "5e034585",
+      "at": [
+        "gaston-day:catalog.camps[6].desc"
+      ],
+      "t": "ভবিষ্যতের জীবাশ্মবিদদের জন্য ডাইনোসর, খোঁড়াখুঁড়ি ও খনন নিয়ে গর্জনভরা একটি সপ্তাহ। পরিচালনায় Alison Morgan।"
+    },
+    {
+      "text": "Wildlife, habitats and conservation through hands-on crafts and games. Published as cancelled.",
+      "of": "78a03b2a",
+      "at": [
+        "gaston-day:catalog.camps[7].desc"
+      ],
+      "t": "হাতেকলমে কারুশিল্প ও খেলার মধ্য দিয়ে বন্যপ্রাণী, আবাসস্থল ও সংরক্ষণ। বাতিল হিসেবে প্রকাশিত।"
+    },
+    {
+      "text": "Rising K–3rd",
+      "of": "5db3b81a",
+      "at": [
+        "gaston-day:catalog.camps[7].gradeLabel"
+      ],
+      "t": "Rising K–3rd"
+    },
+    {
+      "text": "Week 5 — July 6-10",
+      "of": "50e27080",
+      "at": [
+        "gaston-day:catalog.camps[7].weeks",
+        "gaston-day:catalog.camps[8].weeks",
+        "gaston-day:catalog.camps[9].weeks",
+        "gaston-day:catalog.camps[20].weeks"
+      ],
+      "t": "সপ্তাহ 5 — July 6-10"
+    },
+    {
+      "text": "A week of the best PE lessons of the year rolled into one, with Coach P. Led by Andrew Perino.",
+      "of": "6e83b049",
+      "at": [
+        "gaston-day:catalog.camps[8].desc"
+      ],
+      "t": "Coach P-এর সঙ্গে বছরের সেরা PE ক্লাসগুলো এক সপ্তাহে জড়ো করা। পরিচালনায় Andrew Perino।"
+    },
+    {
+      "text": "Rising PK–4th",
+      "of": "5b44ad9b",
+      "at": [
+        "gaston-day:catalog.camps[8].gradeLabel"
+      ],
+      "t": "Rising PK–4th"
+    },
+    {
+      "text": "Songs and script for a short musical, plus designing a simple set. Led by Milette Oden.",
+      "of": "b23d7722",
+      "at": [
+        "gaston-day:catalog.camps[9].desc"
+      ],
+      "t": "ছোট একটি musical-এর গান ও চিত্রনাট্য, সঙ্গে সহজ একটি মঞ্চসজ্জার নকশা। পরিচালনায় Milette Oden।"
+    },
+    {
+      "text": "Rising PK–6th",
+      "of": "1a9dcc51",
+      "at": [
+        "gaston-day:catalog.camps[9].gradeLabel"
+      ],
+      "t": "Rising PK–6th"
+    },
+    {
+      "text": "Dancing, creative movement, games and rhythmic activities building coordination and confidence. Led by Sydney Hedrick.",
+      "of": "0ca2c840",
+      "at": [
+        "gaston-day:catalog.camps[10].desc"
+      ],
+      "t": "নাচ, সৃজনশীল সঞ্চালন, খেলা ও ছন্দময় কাজকর্ম, যা সমন্বয় ও আত্মবিশ্বাস গড়ে তোলে। পরিচালনায় Sydney Hedrick।"
+    },
+    {
+      "text": "Rising PK–2nd",
+      "of": "7e41a043",
+      "at": [
+        "gaston-day:catalog.camps[10].gradeLabel"
+      ],
+      "t": "Rising PK–2nd"
+    },
+    {
+      "text": "Week 6 — July 13-17",
+      "of": "1ded5ca4",
+      "at": [
+        "gaston-day:catalog.camps[10].weeks",
+        "gaston-day:catalog.camps[18].weeks"
+      ],
+      "t": "সপ্তাহ 6 — July 13-17"
+    },
+    {
+      "text": "Gingerbread houses, candy canes, crafts, dancing and stories at the North Pole. Led by Alison Morgan.",
+      "of": "cfe4c37b",
+      "at": [
+        "gaston-day:catalog.camps[11].desc"
+      ],
+      "t": "উত্তর মেরুতে জিঞ্জারব্রেড ঘর, ক্যান্ডি কেন, কারুশিল্প, নাচ ও গল্প। পরিচালনায় Alison Morgan।"
+    },
+    {
+      "text": "Rising PreK–2",
+      "of": "eef8021e",
+      "at": [
+        "gaston-day:catalog.camps[11].gradeLabel",
+        "gaston-day:catalog.camps[12].gradeLabel"
+      ],
+      "t": "Rising PreK–2"
+    },
+    {
+      "text": "Week 7 — July 20-24",
+      "of": "af0f09c9",
+      "at": [
+        "gaston-day:catalog.camps[11].weeks",
+        "gaston-day:catalog.camps[21].weeks"
+      ],
+      "t": "সপ্তাহ 7 — July 20-24"
+    },
+    {
+      "text": "Magical fairy-themed crafts, activities and games. Led by Rachel Lambert.",
+      "of": "f1a5642c",
+      "at": [
+        "gaston-day:catalog.camps[12].desc"
+      ],
+      "t": "পরিদের জাদুকরী বিষয় নিয়ে কারুশিল্প, কাজকর্ম ও খেলা। পরিচালনায় Rachel Lambert।"
+    },
+    {
+      "text": "Week 8 — July 27-30",
+      "of": "b3515f08",
+      "at": [
+        "gaston-day:catalog.camps[12].weeks"
+      ],
+      "t": "সপ্তাহ 8 — July 27-30"
+    },
+    {
+      "text": "Multiple sports across the week plus teamwork skills — \"life is too short for just one sport\". Registered through the 2-4-1 camp site.",
+      "of": "f171b136",
+      "at": [
+        "gaston-day:catalog.camps[13].desc"
+      ],
+      "t": "সপ্তাহজুড়ে একাধিক খেলা, সঙ্গে দলগত কাজের দক্ষতা — “life is too short for just one sport”। নিবন্ধন 2-4-1 ক্যাম্প সাইটের মাধ্যমে।"
+    },
+    {
+      "text": "Rising K–8th",
+      "of": "e002c2d9",
+      "at": [
+        "gaston-day:catalog.camps[13].gradeLabel"
+      ],
+      "t": "Rising K–8th"
+    },
+    {
+      "text": "9:00am-3:00pm",
+      "of": "eaddb95d",
+      "at": [
+        "gaston-day:catalog.camps[13].hours",
+        "gaston-day:catalog.camps[14].hours",
+        "gaston-day:catalog.camps[15].hours",
+        "gaston-day:catalog.camps[16].hours"
+      ],
+      "t": "9:00am-3:00pm"
+    },
+    {
+      "text": "Week 4 — June 22-26",
+      "of": "832d5528",
+      "at": [
+        "gaston-day:catalog.camps[13].weeks",
+        "gaston-day:catalog.camps[19].weeks"
+      ],
+      "t": "সপ্তাহ 4 — June 22-26"
+    },
+    {
+      "text": "A full theatre week with the Children’s Theater of Charlotte. Registered via their website.",
+      "of": "50cd6e51",
+      "at": [
+        "gaston-day:catalog.camps[14].desc",
+        "gaston-day:catalog.camps[15].desc"
+      ],
+      "t": "Children’s Theater of Charlotte-এর সঙ্গে থিয়েটারের পূর্ণ একটি সপ্তাহ। নিবন্ধন তাদের ওয়েবসাইটের মাধ্যমে।"
+    },
+    {
+      "text": "Rising 3rd–6th",
+      "of": "56861ff1",
+      "at": [
+        "gaston-day:catalog.camps[14].gradeLabel",
+        "gaston-day:catalog.camps[15].gradeLabel"
+      ],
+      "t": "Rising 3rd–6th"
+    },
+    {
+      "text": "Week 3 — June 15-19",
+      "of": "7ac4d3df",
+      "at": [
+        "gaston-day:catalog.camps[15].weeks",
+        "gaston-day:catalog.camps[16].weeks"
+      ],
+      "t": "সপ্তাহ 3 — June 15-19"
+    },
+    {
+      "text": "A full theatre week with the Children’s Theater of Charlotte for the youngest group. Registered via their website.",
+      "of": "f5022c90",
+      "at": [
+        "gaston-day:catalog.camps[16].desc"
+      ],
+      "t": "সবচেয়ে ছোট দলটির জন্য Children’s Theater of Charlotte-এর সঙ্গে থিয়েটারের পূর্ণ একটি সপ্তাহ। নিবন্ধন তাদের ওয়েবসাইটের মাধ্যমে।"
+    },
+    {
+      "text": "Rising K–2nd",
+      "of": "9c4ab985",
+      "at": [
+        "gaston-day:catalog.camps[16].gradeLabel",
+        "gaston-day:catalog.camps[20].gradeLabel"
+      ],
+      "t": "Rising K–2nd"
+    },
+    {
+      "text": "Formations, jumps, dance, stunting and tumbling, ending in a family showcase. Registration closed at the time of this research.",
+      "of": "32e50150",
+      "at": [
+        "gaston-day:catalog.camps[17].desc"
+      ],
+      "t": "গঠনবিন্যাস, লাফ, নাচ, stunting ও tumbling, শেষে পরিবারের সামনে পরিবেশনা। এই গবেষণার সময় নিবন্ধন বন্ধ ছিল।"
+    },
+    {
+      "text": "Rising K–4th",
+      "of": "eca67f4d",
+      "at": [
+        "gaston-day:catalog.camps[17].gradeLabel",
+        "gaston-day:catalog.camps[18].gradeLabel",
+        "gaston-day:catalog.camps[19].gradeLabel",
+        "gaston-day:catalog.camps[21].gradeLabel",
+        "gaston-day:catalog.camps[22].gradeLabel"
+      ],
+      "t": "Rising K–4th"
+    },
+    {
+      "text": "9:00am-12:00",
+      "of": "41173c3a",
+      "at": [
+        "gaston-day:catalog.camps[17].hours",
+        "gaston-day:catalog.camps[18].hours",
+        "gaston-day:catalog.camps[19].hours",
+        "gaston-day:catalog.camps[20].hours",
+        "gaston-day:catalog.camps[21].hours",
+        "gaston-day:catalog.camps[22].hours"
+      ],
+      "t": "9:00am-12:00"
+    },
+    {
+      "text": "Vault, beam, bars and floor, ending in a family showcase. Registration closed at the time of this research.",
+      "of": "c74128bd",
+      "at": [
+        "gaston-day:catalog.camps[18].desc"
+      ],
+      "t": "Vault, beam, bars ও floor, শেষে পরিবারের সামনে পরিবেশনা। এই গবেষণার সময় নিবন্ধন বন্ধ ছিল।"
+    },
+    {
+      "text": "A new princess each day with stories, props and crafts. Registration closed at the time of this research.",
+      "of": "543a4835",
+      "at": [
+        "gaston-day:catalog.camps[19].desc"
+      ],
+      "t": "প্রতিদিন নতুন একজন রাজকন্যা, সঙ্গে গল্প, সরঞ্জাম ও কারুশিল্প। এই গবেষণার সময় নিবন্ধন বন্ধ ছিল।"
+    },
+    {
+      "text": "Ballet blended with skill-building gymnastics through imaginative movement and storytelling. Registration closed at the time of this research.",
+      "of": "9cbf7afe",
+      "at": [
+        "gaston-day:catalog.camps[20].desc"
+      ],
+      "t": "কল্পনাপ্রবণ সঞ্চালন ও গল্প বলার মধ্য দিয়ে ব্যালের সঙ্গে দক্ষতা-গড়া জিমন্যাস্টিকসের মিশেল। এই গবেষণার সময় নিবন্ধন বন্ধ ছিল।"
+    },
+    {
+      "text": "Jazz, ballet and tumbling foundations building to an end-of-week performance. No experience necessary. Registration closed at the time of this research.",
+      "of": "2dc39dad",
+      "at": [
+        "gaston-day:catalog.camps[21].desc"
+      ],
+      "t": "Jazz, ব্যালে ও tumbling-এর ভিত্তি, যা সপ্তাহের শেষে একটি পরিবেশনায় গিয়ে ঠেকে। কোনো অভিজ্ঞতার দরকার নেই। এই গবেষণার সময় নিবন্ধন বন্ধ ছিল।"
+    },
+    {
+      "text": "Plié, tendu, pirouette, grand jeté and reverence, plus ballet stories and pointe shoes. Registration closed at the time of this research.",
+      "of": "3d0e7d51",
+      "at": [
+        "gaston-day:catalog.camps[22].desc"
+      ],
+      "t": "Plié, tendu, pirouette, grand jeté ও reverence, সঙ্গে ব্যালের গল্প ও pointe জুতা। এই গবেষণার সময় নিবন্ধন বন্ধ ছিল।"
+    },
+    {
+      "text": "Week 8 — July 27-31",
+      "of": "b451609b",
+      "at": [
+        "gaston-day:catalog.camps[22].weeks"
+      ],
+      "t": "সপ্তাহ 8 — July 27-31"
+    },
+    {
+      "text": "Fundamentals, shooting and team play with Coach Jordan Paris. Registered via US Sports Camps.",
+      "of": "beadaf92",
+      "at": [
+        "gaston-day:catalog.camps[23].desc"
+      ],
+      "t": "Coach Jordan Paris-এর সঙ্গে মৌলিক দক্ষতা, শুটিং ও দলগত খেলা। নিবন্ধন US Sports Camps-এর মাধ্যমে।"
+    },
+    {
+      "text": "Ages 9–15 (wk 1) · 10–17 (wk 7)",
+      "of": "9393a096",
+      "at": [
+        "gaston-day:catalog.camps[23].gradeLabel"
+      ],
+      "t": "বয়স 9–15 (সপ্তাহ 1) · 10–17 (সপ্তাহ 7)"
+    },
+    {
+      "text": "9:00am-3:00pm (Fridays end at noon)",
+      "of": "35f7726e",
+      "at": [
+        "gaston-day:catalog.camps[23].hours",
+        "gaston-day:catalog.camps[24].hours",
+        "gaston-day:catalog.camps[25].hours"
+      ],
+      "t": "9:00am-3:00pm (শুক্রবার দুপুরে শেষ)"
+    },
+    {
+      "text": "Weeks 1 and 7",
+      "of": "7a17a4a5",
+      "at": [
+        "gaston-day:catalog.camps[23].weeks"
+      ],
+      "t": "সপ্তাহ 1 ও 7"
+    },
+    {
+      "text": "Technique, confidence and competitive edge with Coach Catey Stewart and Charlotte Soccer Academy.",
+      "of": "e82d8ba0",
+      "at": [
+        "gaston-day:catalog.camps[24].desc"
+      ],
+      "t": "Coach Catey Stewart ও Charlotte Soccer Academy-র সঙ্গে কৌশল, আত্মবিশ্বাস ও প্রতিযোগিতামূলক ধার।"
+    },
+    {
+      "text": "Ages 8–14",
+      "of": "3d95869f",
+      "at": [
+        "gaston-day:catalog.camps[24].gradeLabel"
+      ],
+      "t": "বয়স 8–14"
+    },
+    {
+      "text": "Weeks 2 and 5",
+      "of": "b5bf05e6",
+      "at": [
+        "gaston-day:catalog.camps[24].weeks"
+      ],
+      "t": "সপ্তাহ 2 ও 5"
+    },
+    {
+      "text": "Drills and friendly games with Coach Derek Bing, who coached the 2025 state-champion volleyball team.",
+      "of": "7d63a648",
+      "at": [
+        "gaston-day:catalog.camps[25].desc"
+      ],
+      "t": "Coach Derek Bing-এর সঙ্গে অনুশীলন ও প্রীতি ম্যাচ; তিনি 2025-এর রাজ্য-চ্যাম্পিয়ন ভলিবল দলের কোচ ছিলেন।"
+    },
+    {
+      "text": "Ages 10–16",
+      "of": "4278a434",
+      "at": [
+        "gaston-day:catalog.camps[25].gradeLabel"
+      ],
+      "t": "বয়স 10–16"
+    },
+    {
+      "text": "Weeks 3, 6 and 8",
+      "of": "0e977b16",
+      "at": [
+        "gaston-day:catalog.camps[25].weeks"
+      ],
+      "t": "সপ্তাহ 3, 6 ও 8"
+    },
+    {
+      "text": "One-to-one tutoring in reading, maths, writing and beyond — from combating the \"summer slump\" to direct instruction. Open to non-Gaston Day students. Contact Julie Dellibovi.",
+      "of": "2b4dfa21",
+      "at": [
+        "gaston-day:catalog.camps[26].desc"
+      ],
+      "t": "পড়া, গণিত, লেখা ও তার বাইরেও এক-একজনের জন্য আলাদা টিউটরিং — “summer slump” ঠেকানো থেকে সরাসরি পাঠদান পর্যন্ত। Gaston Day-র বাইরের শিক্ষার্থীদের জন্যও খোলা। যোগাযোগ Julie Dellibovi।"
+    },
+    {
+      "text": "Rising K–12th",
+      "of": "a9ddd89c",
+      "at": [
+        "gaston-day:catalog.camps[26].gradeLabel"
+      ],
+      "t": "Rising K–12th"
+    },
+    {
+      "text": "—",
+      "of": "113ed003",
+      "at": [
+        "gaston-day:catalog.camps[26].dayLabel"
+      ],
+      "t": "—"
+    },
+    {
+      "text": "By arrangement",
+      "of": "37231a48",
+      "at": [
+        "gaston-day:catalog.camps[26].hours"
+      ],
+      "t": "আলোচনা সাপেক্ষে"
+    },
+    {
+      "text": "The catalog states \"CHECK BACK FREQUENTLY AS MORE ENRICHMENT CAMPS ARE BEING ADDED\", so the enrichment list is a growing snapshot rather than a final slate. FULL/waitlist and cancelled states are reproduced as published and will have changed.",
+      "of": "10be8142",
+      "at": [
+        "gaston-day:catalog.flags[0].text"
+      ],
+      "t": "তালিকায় বলা আছে “CHECK BACK FREQUENTLY AS MORE ENRICHMENT CAMPS ARE BEING ADDED”, তাই সমৃদ্ধিমূলক ক্যাম্পের তালিকাটি চূড়ান্ত সূচি নয়, বাড়তে থাকা একটি ঝলক। FULL/অপেক্ষমাণ ও বাতিল অবস্থাগুলো যেমন প্রকাশিত তেমনই তুলে ধরা হয়েছে এবং সেগুলো ততক্ষণে বদলে গেছে।"
+    },
+    {
+      "text": "Partner-camp prices (Children’s Theater of Charlotte, Legends, Studio Elite, 2-4-1 and Nike) are set and billed by each provider, not by Gaston Day, and are not published in the school’s catalog — they show as \"—\" rather than being estimated.",
+      "of": "c5567d01",
+      "at": [
+        "gaston-day:catalog.flags[1].text"
+      ],
+      "t": "অংশীদার ক্যাম্পগুলোর দাম (Children’s Theater of Charlotte, Legends, Studio Elite, 2-4-1 ও Nike) নির্ধারণ ও বিল করে সংশ্লিষ্ট সরবরাহকারীই, Gaston Day নয়, আর সেগুলো স্কুলের তালিকায় প্রকাশিত নয় — তাই অনুমান করার বদলে সেগুলো “—” হিসেবে দেখানো হয়েছে।"
+    },
+    {
+      "text": "There is no camp in week 4 (the week of June 22) for Camp Spartan, and no camp at all the week of June 29 or on June 19 — the catalog’s week numbering skips accordingly, so \"8 weeks\" spans June 1 to July 31 rather than eight consecutive weeks.",
+      "of": "aa9ac42b",
+      "at": [
+        "gaston-day:catalog.flags[2].text"
+      ],
+      "t": "Camp Spartan-এর জন্য সপ্তাহ 4-এ (June 22-এর সপ্তাহ) কোনো ক্যাম্প নেই, আর June 29-এর সপ্তাহে বা June 19-এ কোনো ক্যাম্পই নেই — তালিকার সপ্তাহ-গণনাও সেভাবেই এড়িয়ে যায়, তাই “8 weeks” বলতে টানা আট সপ্তাহ নয়, June 1 থেকে July 31 পর্যন্ত সময়টা বোঝায়।"
+    },
+    {
+      "text": "A full-day week of Camp Spartan is $300 with lunch included; a half-day enrichment camp is $220.",
+      "of": "f631177a",
+      "at": [
+        "gaston-day:costPlanner.headline"
+      ],
+      "t": "Camp Spartan-এর সারাদিনের এক সপ্তাহের দাম $300, দুপুরের খাবারসহ; অর্ধদিবস সমৃদ্ধিমূলক ক্যাম্পের দাম $220।"
+    },
+    {
+      "text": "Wrap-around care is priced separately and modestly — $25 for the week before camp, $35 for the week after.",
+      "of": "03442776",
+      "at": [
+        "gaston-day:costPlanner.subhead"
+      ],
+      "t": "আগে-পরের যত্নের দাম আলাদা এবং কম — ক্যাম্পের আগের সপ্তাহের জন্য $25, পরের সপ্তাহের জন্য $35।"
+    },
+    {
+      "text": "Camp Spartan — full day",
+      "of": "5c9ed476",
+      "at": [
+        "gaston-day:costPlanner.tiers[0].label"
+      ],
+      "t": "Camp Spartan — সারাদিন"
+    },
+    {
+      "text": "Camp Spartan · full day · 8:30am-3:30pm",
+      "of": "31007937",
+      "at": [
+        "gaston-day:costPlanner.tiers[0].panelLabel"
+      ],
+      "t": "Camp Spartan · সারাদিন · 8:30am-3:30pm"
+    },
+    {
+      "text": "8:30am-3:30pm · lunch included · rising 1st-5th (Jr: rising PK-K)",
+      "of": "048aea3e",
+      "at": [
+        "gaston-day:costPlanner.tiers[0].detail"
+      ],
+      "t": "8:30am-3:30pm · দুপুরের খাবারসহ · rising 1st-5th (Jr: rising PK-K)"
+    },
+    {
+      "text": "Camp Spartan — half day",
+      "of": "2dc769ee",
+      "at": [
+        "gaston-day:costPlanner.tiers[1].label"
+      ],
+      "t": "Camp Spartan — অর্ধদিবস"
+    },
+    {
+      "text": "Camp Spartan · half day · AM or PM",
+      "of": "e8da5f9e",
+      "at": [
+        "gaston-day:costPlanner.tiers[1].panelLabel"
+      ],
+      "t": "Camp Spartan · অর্ধদিবস · AM বা PM"
+    },
+    {
+      "text": "AM 8:30-12pm or PM 12:30-3:30pm",
+      "of": "3d813cb3",
+      "at": [
+        "gaston-day:costPlanner.tiers[1].detail"
+      ],
+      "t": "AM 8:30-12pm or PM 12:30-3:30pm"
+    },
+    {
+      "text": "Half-day enrichment camp",
+      "of": "cd8fdb79",
+      "at": [
+        "gaston-day:costPlanner.tiers[2].label"
+      ],
+      "t": "অর্ধদিবস সমৃদ্ধিমূলক ক্যাম্প"
+    },
+    {
+      "text": "Half-day enrichment camp · 9am-12pm",
+      "of": "260e4514",
+      "at": [
+        "gaston-day:costPlanner.tiers[2].panelLabel"
+      ],
+      "t": "অর্ধদিবস সমৃদ্ধিমূলক ক্যাম্প · 9am-12pm"
+    },
+    {
+      "text": "9am-12pm · one themed camp per week",
+      "of": "73971cf9",
+      "at": [
+        "gaston-day:costPlanner.tiers[2].detail"
+      ],
+      "t": "9am-12pm · সপ্তাহে একটি করে বিষয়ভিত্তিক ক্যাম্প"
+    },
+    {
+      "text": "Week 3 — full day (short week)",
+      "of": "e80d2d38",
+      "at": [
+        "gaston-day:costPlanner.tiers[3].label"
+      ],
+      "t": "সপ্তাহ 3 — সারাদিন (ছোট সপ্তাহ)"
+    },
+    {
+      "text": "Week 3 · full day · June 15-18, no camp June 19",
+      "of": "d5cdb2db",
+      "at": [
+        "gaston-day:costPlanner.tiers[3].panelLabel"
+      ],
+      "t": "সপ্তাহ 3 · সারাদিন · June 15-18, June 19-এ কোনো ক্যাম্প নেই"
+    },
+    {
+      "text": "Four-day week — the published short-week rate",
+      "of": "b81ebac2",
+      "at": [
+        "gaston-day:costPlanner.tiers[3].detail",
+        "gaston-day:costPlanner.tiers[4].detail",
+        "gaston-day:costPlanner.tiers[5].detail"
+      ],
+      "t": "চার দিনের সপ্তাহ — প্রকাশিত ছোট-সপ্তাহের হার"
+    },
+    {
+      "text": "Week 3 — half day (short week)",
+      "of": "101202a4",
+      "at": [
+        "gaston-day:costPlanner.tiers[4].label"
+      ],
+      "t": "সপ্তাহ 3 — অর্ধদিবস (ছোট সপ্তাহ)"
+    },
+    {
+      "text": "Week 3 · half day · June 15-18",
+      "of": "37c81d83",
+      "at": [
+        "gaston-day:costPlanner.tiers[4].panelLabel"
+      ],
+      "t": "সপ্তাহ 3 · অর্ধদিবস · June 15-18"
+    },
+    {
+      "text": "Week 3 — enrichment (short week)",
+      "of": "90afb69a",
+      "at": [
+        "gaston-day:costPlanner.tiers[5].label"
+      ],
+      "t": "সপ্তাহ 3 — সমৃদ্ধিমূলক (ছোট সপ্তাহ)"
+    },
+    {
+      "text": "Week 3 · enrichment camp · June 15-18",
+      "of": "b9e270fe",
+      "at": [
+        "gaston-day:costPlanner.tiers[5].panelLabel"
+      ],
+      "t": "সপ্তাহ 3 · সমৃদ্ধিমূলক ক্যাম্প · June 15-18"
+    },
+    {
+      "text": "Before camp care · 7:45-8:30am",
+      "of": "fc4d73bf",
+      "at": [
+        "gaston-day:costPlanner.addons[0].label"
+      ],
+      "t": "ক্যাম্পের আগের যত্ন · 7:45-8:30am"
+    },
+    {
+      "text": "After camp care · 3:30-5:00pm",
+      "of": "66230c3f",
+      "at": [
+        "gaston-day:costPlanner.addons[1].label"
+      ],
+      "t": "ক্যাম্পের পরের যত্ন · 3:30-5:00pm"
+    },
+    {
+      "text": "Between-camp lunch care · 11:30am-12:30pm",
+      "of": "6e91863e",
+      "at": [
+        "gaston-day:costPlanner.addons[2].label"
+      ],
+      "t": "দুই ক্যাম্পের মাঝের দুপুরের যত্ন · 11:30am-12:30pm"
+    },
+    {
+      "text": "Summer tutoring — half hour",
+      "of": "95a98a79",
+      "at": [
+        "gaston-day:costPlanner.fees[0].label"
+      ],
+      "t": "গ্রীষ্মকালীন টিউটরিং — আধা ঘণ্টা"
+    },
+    {
+      "text": "Summer tutoring — full hour",
+      "of": "3d1560cd",
+      "at": [
+        "gaston-day:costPlanner.fees[1].label"
+      ],
+      "t": "গ্রীষ্মকালীন টিউটরিং — পুরো ঘণ্টা"
+    },
+    {
+      "text": "Lunch Care is REQUIRED for campers staying on campus between a morning and an afternoon camp, and includes lunch from Sparty’s Dining Service. It is already included in full-day Camp Spartan and Camp Spartan Jr tuition, so add it only when combining two half-day camps.",
+      "of": "ec6bcc6e",
+      "at": [
+        "gaston-day:costPlanner.fees[2].label"
+      ],
+      "t": "সকালের ও বিকেলের ক্যাম্পের মাঝে ক্যাম্পাসে থেকে যাওয়া ক্যাম্পারদের জন্য Lunch Care বাধ্যতামূলক, আর এতে Sparty’s Dining Service-এর দুপুরের খাবারও থাকে। সারাদিনের Camp Spartan ও Camp Spartan Jr-এর ফি-তে এটি আগে থেকেই ধরা, তাই দুটি অর্ধদিবস ক্যাম্প একসঙ্গে নিলে তবেই এটি যোগ করুন।"
+    },
+    {
+      "text": "Full tuition is payable at the time of enrolment through the Popsicle app. Refunds: 50% if cancelled three or more weeks before the camp starts; nothing after that, and nothing for arriving late or leaving early. If Gaston Day cancels a camp for insufficient enrolment it gives at least two weeks’ notice and refunds in full.",
+      "of": "8f3f90dd",
+      "at": [
+        "gaston-day:costPlanner.fees[3].label"
+      ],
+      "t": "ভর্তির সময়েই Popsicle অ্যাপের মাধ্যমে পুরো ফি দিতে হয়। ফেরত: ক্যাম্প শুরুর তিন সপ্তাহ বা তার বেশি আগে বাতিল করলে 50%; এরপর কিছুই নয়, আর দেরিতে এলে বা আগে চলে গেলেও কিছু নয়। যথেষ্ট ভর্তি না হওয়ায় Gaston Day কোনো ক্যাম্প বাতিল করলে তারা অন্তত দুই সপ্তাহ আগে জানায় এবং পুরো টাকা ফেরত দেয়।"
+    },
+    {
+      "text": "Partner camps (Children’s Theater of Charlotte, Legends Sports Academy, Studio Elite, 2-4-1 and Nike Sports Camps) are priced and billed by each provider and are not included in this planner.",
+      "of": "ac8acdc7",
+      "at": [
+        "gaston-day:costPlanner.fees[4].label"
+      ],
+      "t": "অংশীদার ক্যাম্পগুলোর (Children’s Theater of Charlotte, Legends Sports Academy, Studio Elite, 2-4-1 ও Nike Sports Camps) দাম নির্ধারণ ও বিল করে সংশ্লিষ্ট সরবরাহকারী, আর সেগুলো এই পরিকল্পনাকারীতে ধরা নেই।"
+    },
+    {
+      "text": "Registration opens in February",
+      "of": "0b4dad56",
+      "at": [
+        "gaston-day:costPlanner.aside.title"
+      ],
+      "t": "নিবন্ধন শুরু ফেব্রুয়ারিতে"
+    },
+    {
+      "text": "Links go live for Gaston Day families on **Monday, Feb. 9th at noon**, through the Popsicle app. Families can return to add camps as the summer takes shape. Camps are open to non-students — \"You do not have to be a student at Gaston Day to participate in summer camps!\"",
+      "of": "ec8b9fbd",
+      "at": [
+        "gaston-day:costPlanner.aside.text"
+      ],
+      "t": "Gaston Day-র পরিবারদের জন্য লিংক চালু হয় **Monday, Feb. 9th at noon**, Popsicle অ্যাপের মাধ্যমে। গ্রীষ্মের রূপরেখা স্পষ্ট হতে থাকলে পরিবারগুলো ফিরে এসে আরও ক্যাম্প যোগ করতে পারে। ক্যাম্পগুলো স্কুলের বাইরের শিক্ষার্থীদের জন্যও খোলা — “You do not have to be a student at Gaston Day to participate in summer camps!”"
+    },
+    {
+      "text": "The whole-summer maximum is 8 weeks, but no single camp runs all eight and there is no camp the week of June 29 — so an 8-week total is a planning ceiling rather than an achievable booking.",
+      "of": "b1d14991",
+      "at": [
+        "gaston-day:costPlanner.flags[0].text"
+      ],
+      "t": "পুরো গ্রীষ্মের সর্বোচ্চ 8 সপ্তাহ, তবে কোনো একটি ক্যাম্পই আট সপ্তাহ ধরে চলে না, আর June 29-এর সপ্তাহে কোনো ক্যাম্পই নেই — তাই 8 সপ্তাহের মোটটি বাস্তবে বুক করার মতো কিছু নয়, পরিকল্পনার একটি ঊর্ধ্বসীমা।"
+    },
+    {
+      "text": "No sibling discount, multi-week discount, financial aid or early-bird rate is published for summer camps, and there is no published registration fee.",
+      "of": "ea1315a4",
+      "at": [
+        "gaston-day:costPlanner.flags[1].text"
+      ],
+      "t": "গ্রীষ্মকালীন ক্যাম্পের জন্য কোনো ভাইবোনের ছাড়, একাধিক-সপ্তাহের ছাড়, আর্থিক সহায়তা বা আগেভাগে নিবন্ধনের হার প্রকাশিত নয়, আর কোনো প্রকাশিত নিবন্ধন ফি-ও নেই।"
     }
   ]
 }
