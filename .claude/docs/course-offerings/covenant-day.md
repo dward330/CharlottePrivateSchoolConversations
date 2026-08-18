@@ -1,5 +1,5 @@
 # Covenant Day School — Course Offerings
-> Distilled from 4 source document(s) in `source-material/course-offerings/covenant-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-17.
+> Distilled from 4 source document(s) in `source-material/course-offerings/covenant-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-18.
 **Documents:** Curriculum Guide, High School Course and Elective Offerings, Lower School Curriculum, Middle School Curriculum
 
 

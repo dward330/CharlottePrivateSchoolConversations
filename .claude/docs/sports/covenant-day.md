@@ -1,5 +1,5 @@
 # Covenant Day School — Sports
-> Distilled from 15 source document(s) in `source-material/sports/covenant-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-17.
+> Distilled from 15 source document(s) in `source-material/sports/covenant-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-18.
 **Documents:** Awards and Honors, Championships, Coaches Pedigree and Continuity, College Commitments 2024-2026, Facilities and Infrastructure, NIL Landscape, National Profile, Power 4 Offers, Professional Athletes, Redesign Research 2026, Sports Medicine and Performance, Sports Offered, Team Levels (V-JV-MS), Top 100 Recruiting Rankings, Win-Loss Records
 
 

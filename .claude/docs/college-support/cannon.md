@@ -1,5 +1,5 @@
 # Cannon School — College Support
-> Distilled from 10 source document(s) in `source-material/college-support/cannon/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-17.
+> Distilled from 10 source document(s) in `source-material/college-support/cannon/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-18.
 **Documents:** Academic Case, Acceptances Window 2023-2026, Application Support, Counseling Engine, Fit and Rank, Institutional Leverage, NotebookLM Prompt, Outcomes, Redesign Research 2026, Standing Out
 
 

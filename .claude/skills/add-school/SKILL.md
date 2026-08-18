@@ -468,11 +468,20 @@ implementing window would otherwise get wrong:
   and never edit rank labels into the per-school list file — that field no longer exists.
   Matching is by institution across spellings (the normalizer folds `The`, punctuation,
   `University`/`College`; `University of California–Irvine` == `UC (Irvine)`), so add a new
-  college under one clean canonical name. The sourcing channel that works when usnews.com
-  times out is **Yahoo search** (`https://search.yahoo.com/search?p=<school>+us+news+2026+ranked`),
-  which surfaces the verbatim "In the 2026 edition of Best Colleges, <school> is ranked
-  No. #N in <category>" line; never add a row without that verbatim 2026 figure, and never
-  guess or use a prior-year number. `npm run check:ranks` (chained into `npm run build`)
+  college under one clean canonical name.
+
+  **Sourcing channel — usnews.com FIRST, Yahoo as the documented fallback (user-set,
+  2026-08-18).** Always try **usnews.com directly** for a rank. If it blocks or times out
+  **five times in a single school's research pass**, stop retrying it and use **Yahoo
+  search** for the remainder of that pass:
+  `https://search.yahoo.com/search?p=<school>+us+news+2026+ranked`, which surfaces the
+  verbatim "In the 2026 edition of Best Colleges, <school> is ranked No. #N in <category>"
+  line. Record **which channel** confirmed each figure in the companion doc. Note that
+  usnews.com has been observed hard-blocking this environment outright — it completes the
+  TLS handshake and then never returns a body, so `curl` reports `http=000` and WebFetch
+  times out; when that is the behaviour, the five-strike threshold is reached immediately
+  and the whole pass runs on Yahoo. Never add a row without the verbatim 2026 figure, and
+  never guess or use a prior-year number. `npm run check:ranks` (chained into `npm run build`)
   verifies every ranked-bucket college resolves in the master and that the master agrees
   with the companion doc — but it does **not** catch a label missing on a `cats: []` college,
   so labeling a ranked non-bucketed college is a research obligation, not something the check

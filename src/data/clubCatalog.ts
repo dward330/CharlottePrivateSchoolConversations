@@ -637,6 +637,85 @@ const HICKORY_GROVE_CHRISTIAN: ClubCatalog = {
     'privateschoolreview.com — HGCS profile (the only source naming all 27 non-sports orgs) · hgchristian.org — Academics & Arts pages (corroborating Discipleship, Choir, Drama, Jazz Band, mission trips, food-pantry partnership, and the Exodus yearbook)',
 }
 
+// ── Gaston Day ── the roster is RECONSTRUCTED FROM THIRD-PARTY LISTINGS
+// (PrivateSchoolReview's 14-item activity list, plus Niche), because the school
+// publishes no clubs page of its own — its Upper School page names only three
+// clubs by way of example and states that students may start a new one with a
+// faculty sponsor. Same single-source shape as Hickory Grove, and flagged the
+// same way. The three school-named clubs (3-D Printing, Green Team,
+// International Council) are marked as such so a reader can tell which rows the
+// school itself vouches for. iGEM and VEX Robotics are the genuinely
+// distinctive entries and are corroborated by the school's own Academic Profile
+// and by the archived iGEM team wikis.
+const GASTON_DAY: ClubCatalog = {
+  verdict:
+    '28 named clubs and three honor societies — headlined by a gold-medal iGEM synthetic-biology team and a VEX Robotics squad that reached TSA Nationals in its first year.',
+  verdictHint:
+    'The school publishes no clubs page; most of this roster comes from third-party listings, with a handful the school names itself.',
+  countNoun: 'named orgs',
+  categories: [
+    { key: 'stem', short: 'STEM & competitive', full: 'STEM / competitive' },
+    { key: 'pub', short: 'Publications', full: 'Publications & media' },
+    { key: 'lead', short: 'Leadership & service', full: 'Leadership / service' },
+    { key: 'cult', short: 'Language & culture', full: 'Culture & language' },
+    { key: 'arts', short: 'Arts', full: 'Arts & performance' },
+    { key: 'interest', short: 'Special interest', full: 'Special interest' },
+    { key: 'honor', short: 'Honor societies', full: 'Honor society' },
+  ],
+  clubs: [
+    { name: 'iGEM Synthetic Biology Team', cat: 'stem', note: 'Gold medal — teams in 2012, 2016, 2018 and 2020; kudzu phytotoxin and E. coli K-12 isobutanol biofuel projects' },
+    { name: 'VEX Robotics', cat: 'stem', note: 'Qualified for TSA VEX Nationals in 2023, its first year competing; previously 4th at state in FIRST Robotics' },
+    { name: 'Science Olympiad', cat: 'stem', note: 'Interscholastic science competition' },
+    { name: '3-D Printing Club', cat: 'stem', note: 'Named by the school itself; supported by the renovated makerspace' },
+    { name: 'Public Debate Club', cat: 'stem', note: 'Competitive debate; Speech & Debate also runs as a course' },
+    { name: 'Mock Trial', cat: 'stem', note: 'Third-party listed' },
+    { name: 'Quiz Bowl', cat: 'stem', note: 'Third-party listed' },
+    { name: 'Blutopia', cat: 'pub', note: 'Upper School literary and arts magazine — numerous Scholastic Art & Writing Awards and repeated NCSMA Literary Magazine Contest recognition' },
+    { name: 'Upper School Literary and Arts Magazine', cat: 'pub', note: 'Listed separately from Blutopia by PrivateSchoolReview' },
+    { name: 'Middle School Literary Magazine', cat: 'pub', note: 'The Middle School counterpart publication' },
+    { name: 'Yearbook', cat: 'pub', note: 'Also runs as an Upper School course for credit' },
+    { name: 'Student Government', cat: 'lead', note: 'Runs at both Middle School and Upper School level' },
+    { name: 'Honor Council', cat: 'lead', note: 'Student-led; enforces the Honor Code, whose violations the college office reports to colleges on request' },
+    { name: 'Peer Mentoring', cat: 'lead', note: 'Sunship Earth — juniors and seniors mentor a fourth grader across the school year' },
+    { name: 'Interact', cat: 'lead', note: 'Rotary-affiliated service club; third-party listed' },
+    { name: 'Junior Heart Board', cat: 'lead', note: 'Third-party listed — American Heart Association youth board' },
+    { name: 'Green Team', cat: 'lead', note: 'Named by the school itself — environmental group' },
+    { name: 'International Council', cat: 'cult', note: 'Named by the school itself; sits alongside a 14%-international student body' },
+    { name: 'International Club', cat: 'cult', note: 'Third-party listed' },
+    { name: 'Spanish Club', cat: 'cult', note: 'Spanish runs I–IV(H) as a course sequence' },
+    { name: 'French Club', cat: 'cult', note: 'French satisfies the world-language requirement, though no French course sequence is enumerated in the profile' },
+    { name: 'Classics Club', cat: 'cult', note: 'Third-party listed' },
+    { name: 'Drama Club', cat: 'arts', note: 'Feeds two major productions a year including the spring musical' },
+    { name: 'Theatre Arts', cat: 'arts', note: 'Listed separately by PrivateSchoolReview; Actors\' Conservatory Theatre runs as a dedicated program' },
+    { name: 'Art Club', cat: 'arts', note: 'Third-party listed' },
+    { name: 'Chess Club', cat: 'interest', note: 'Third-party listed' },
+    { name: 'Spirit Club', cat: 'interest', note: 'Third-party listed' },
+    { name: 'FCA', cat: 'interest', note: 'Fellowship of Christian Athletes; third-party listed at a non-sectarian school' },
+    { name: 'National Honor Society', cat: 'honor', note: 'Members carry a 40-hour annual service requirement against the school-wide 25' },
+    { name: 'National Beta Club', cat: 'honor', note: 'Academic achievement, character, leadership and service' },
+    { name: 'International Thespian Society', cat: 'honor', note: 'Theatre honor society; troupe number and induction thresholds not published' },
+  ],
+  divisions: [
+    {
+      label: 'Reconstructed roster',
+      text: 'Gaston Day publishes no clubs or activities page. PrivateSchoolReview enumerates 14 activities and Niche adds several more; the school itself names only 3-D Printing Club, Green Team and International Council, by way of example, and states that students "can start a new club by securing a faculty sponsor." The roster is therefore an open-ended snapshot rather than a census, and its size is not a figure any source states.',
+      tag: 'Third-party',
+    },
+    {
+      label: 'The two that are not in doubt',
+      text: 'iGEM and VEX Robotics are documented in the school\'s own Academic Profile and, for iGEM, by four archived competition team wikis (2012, 2016, 2018, 2020). These are university-level competitions with high-school tracks, and fielding them from a 510-student school is the most distinctive thing on this roster.',
+      tag: 'School-reported',
+    },
+    {
+      label: 'Middle School (5–8)',
+      text: 'Middle School students elect required LEAD courses alongside art, drama, chorus and band, and run their own Student Government. The Spartan Strong Volunteer Service Award recognises 50+ volunteer hours a year. No separate Middle School club roster is published.',
+      tag: 'Structural',
+    },
+  ],
+  source:
+    'privateschoolreview.com — Gaston Day profile (the 14-item activity list) · niche.com — Gaston Day (additional clubs; 403s to automated fetch) · gastonday.org — Upper School (3-D Printing, Green Team, International Council; club-formation policy) · gastonday.org — Academic Profile 2025-2026 (iGEM, VEX Robotics, Blutopia, Honor Code, honor societies)',
+}
+
 const CATALOG: Record<string, ClubCatalog> = {
   'charlotte-latin': CHARLOTTE_LATIN,
   'providence-day': PROVIDENCE_DAY,
@@ -647,6 +726,7 @@ const CATALOG: Record<string, ClubCatalog> = {
   'davidson-day': DAVIDSON_DAY,
   'carmel-christian': CARMEL_CHRISTIAN,
   'hickory-grove-christian': HICKORY_GROVE_CHRISTIAN,
+  'gaston-day': GASTON_DAY,
 }
 
 /**

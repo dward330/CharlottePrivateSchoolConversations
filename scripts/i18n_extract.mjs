@@ -45,6 +45,7 @@ const SLUGS = [
   'providence-day', 'charlotte-latin', 'charlotte-christian',
   'charlotte-country-day', 'cannon', 'covenant-day', 'davidson-day',
   'carmel-christian', 'hickory-grove-christian',
+  'gaston-day',
 ]
 
 /**
@@ -94,6 +95,7 @@ const EXPORTS = {
   'davidson-day': 'davidsonDay',
   'carmel-christian': 'carmelChristian',
   'hickory-grove-christian': 'hickoryGroveChristian',
+  'gaston-day': 'gastonDay',
 }
 
 /** One school's entry for a topic, or undefined if that school has none. */

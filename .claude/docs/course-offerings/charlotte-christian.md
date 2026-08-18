@@ -1,5 +1,5 @@
 # Charlotte Christian School — Course Offerings
-> Distilled from 1 source document(s) in `source-material/course-offerings/charlotte-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-17.
+> Distilled from 1 source document(s) in `source-material/course-offerings/charlotte-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-18.
 **Documents:** Curriculum Guide
 
 

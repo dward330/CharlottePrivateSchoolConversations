@@ -1,5 +1,5 @@
 # Carmel Christian School — The Arts
-> Distilled from 1 source document(s) in `source-material/the-arts/carmel-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-17.
+> Distilled from 1 source document(s) in `source-material/the-arts/carmel-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-18.
 **Documents:** Deep Research
 
 

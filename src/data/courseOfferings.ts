@@ -7000,6 +7000,196 @@ const HICKORY_GROVE_CHRISTIAN: CourseOfferings = {
   ],
 }
 
+/* ── Gaston Day School ──────────────────────────────────────────────────────
+   2025-26 Academic Profile PDF — the school's fullest published enumeration of
+   its curriculum, printed as a subject table with H / DE / AP markers. There is
+   no separate course-catalog PDF with descriptions and prerequisites, so Upper
+   School descriptions below are condensed from the profile's own requirement
+   language and the Upper School page rather than from a catalog.
+
+   TEN AP courses, counted from the profile's own table (Private School Review
+   says 9 and omits Chemistry, which the profile marks "(H)(AP)").
+
+   The Lower School division is OMITTED entirely: Gaston Day publishes neither
+   named courses nor subject areas for PS-4, only a description of how language
+   arts, mathematics and integrated fine arts are structured. Per the standing
+   no-empty-cards rule a division with zero named items gets no card, and the
+   scope note rides on the Middle School teaser instead. */
+const GASTON_DAY: CourseOfferings = {
+  guideYear: '2025-26',
+  divisions: [
+    {
+      title: 'Middle School Courses',
+      grades: 'Grades 5 – 8',
+      teaser:
+        'Five subject strands by grade, plus required LEAD courses and arts electives. (The Early/Lower School, PS–4, publishes no named courses or subject list at all.)',
+      source: 'gastonday.org — Middle School',
+      sourceUrl: 'https://www.gastonday.org/middle-school/',
+      notPublished:
+        'Gaston Day publishes Middle School curriculum as per-grade subject strands rather than as named, individually-described courses. The rows below are those strands as the school states them.',
+      departments: [
+        {
+          name: 'Core',
+          courses: [
+            {
+              title: 'English',
+              tag: 'Gr 5–8',
+              description: 'Literature, grammar and written composition across all four Middle School years.',
+            },
+            {
+              title: 'Science',
+              tag: 'Gr 5–8',
+              description: 'Earth and Space Science in 5th, Life Science in 6th, Earth Systems in 7th and Physical Science in 8th.',
+            },
+            {
+              title: 'Mathematics',
+              tag: 'Gr 5–8',
+              description: 'Grade-level mathematics with honors options, including Honors Algebra I available in 7th and 8th grade.',
+            },
+            {
+              title: 'Social Studies',
+              tag: 'Gr 5–8',
+              description: 'Human Geography in 5th and 6th, U.S. History in 7th and World History I in 8th.',
+            },
+            {
+              title: 'World Languages',
+              tag: 'Gr 5–8',
+              description: 'Language acquisition in 5th and 6th, then Conversational Spanish and Spanish I in 7th and 8th.',
+            },
+          ],
+        },
+        {
+          name: 'Electives & LEAD',
+          courses: [
+            {
+              title: 'LEAD',
+              tag: 'Required',
+              description: 'A required course sequence carrying digital citizenship and life-skills instruction alongside advisory.',
+            },
+            {
+              title: 'Art',
+              tag: 'Elective',
+              description: 'One of four fine-arts electives Middle School students choose between.',
+            },
+            {
+              title: 'Drama',
+              tag: 'Elective',
+              description: 'Continues the drama sequence that begins in second grade in the Lower School.',
+            },
+            {
+              title: 'Chorus',
+              tag: 'Elective',
+              description: 'The Middle School Chorus, which performs alongside the instrumental ensemble.',
+            },
+            {
+              title: 'Band',
+              tag: 'Elective',
+              description: 'Feeds the MS Instrumental Ensemble — woodwinds, brass, percussion, piano and guitar.',
+            },
+          ],
+        },
+      ],
+    },
+    {
+      title: 'Upper School Courses',
+      grades: 'Grades 9 – 12',
+      teaser:
+        '46 named courses across eight departments, including 10 AP courses and one dual-enrollment course taught by Gaston Day faculty.',
+      source: 'gastonday.org — Academic Profile 2025-2026 (curriculum table)',
+      sourceUrl:
+        'https://www.gastonday.org/wp-content/uploads/2025/09/New-GDS-Profile-25-26.pdf',
+      departments: [
+        {
+          name: 'English',
+          courses: [
+            { title: 'English 9', tag: 'Honors', description: 'First of the four required years of English.' },
+            { title: 'English 10', tag: 'Honors', description: 'Second-year English, offered at the Honors level.' },
+            { title: 'American Literature', tag: 'Honors', description: 'Upper-level survey offered at the Honors level.' },
+            { title: 'British Literature', tag: 'Honors', description: 'Upper-level survey offered at the Honors level.' },
+            { title: 'English Literature & Composition', tag: 'AP', description: 'College-level literary analysis; all AP students must sit the exam.' },
+            { title: 'English Language & Composition', tag: 'AP', description: 'College-level rhetoric and composition; all AP students must sit the exam.' },
+          ],
+        },
+        {
+          name: 'Mathematics',
+          courses: [
+            { title: 'Algebra I', tag: 'Honors', description: 'Required for graduation; also available in Middle School at the Honors level.' },
+            { title: 'Geometry', tag: 'Honors', description: 'Required for graduation, offered at the Honors level.' },
+            { title: 'Algebra II', tag: 'Honors', description: 'Required for graduation, offered at the Honors level.' },
+            { title: 'PreCalculus', tag: 'Honors', description: 'Bridge course into the calculus sequence.' },
+            { title: 'Advanced Functions and Models', description: 'A fourth-year mathematics option for students not continuing to calculus.' },
+            { title: 'Calculus', tag: 'Honors', description: 'Honors calculus, offered alongside the two AP calculus courses.' },
+            { title: 'Statistics', tag: 'Honors', description: 'Honors statistics as a fourth-year mathematics option.' },
+            { title: 'Calculus AB', tag: 'AP', description: 'First-semester college calculus; all AP students must sit the exam.' },
+            { title: 'Calculus BC', tag: 'AP', description: 'Extends AB through series and further integration techniques.' },
+          ],
+        },
+        {
+          name: 'Science',
+          courses: [
+            { title: 'Biology', tag: 'Honors / AP', description: 'Required lab science, offered at both Honors and AP level.' },
+            { title: 'Chemistry', tag: 'Honors / AP', description: 'Required lab science, offered at both Honors and AP level.' },
+            { title: 'Environmental Science', tag: 'Honors', description: 'A third-year lab science option at the Honors level.' },
+            { title: 'Physics', tag: 'Honors', description: 'Honors physics, the prerequisite tier beneath AP Physics II.' },
+            { title: 'Physics II', tag: 'AP', description: 'The AP physics offering, implying a two-year physics sequence.' },
+          ],
+        },
+        {
+          name: 'Social Studies',
+          courses: [
+            { title: 'World History', tag: 'Honors', description: 'Required for graduation, offered at the Honors level.' },
+            { title: 'US History', tag: 'Honors / AP', description: 'Required for graduation, offered at both Honors and AP level.' },
+            { title: 'Government and Economics', tag: 'Honors / AP', description: 'Required for graduation, offered at both Honors and AP level.' },
+          ],
+        },
+        {
+          name: 'World Language',
+          courses: [
+            { title: 'Spanish I, II, III', description: 'Completion through Level III is required for graduation; the requirement may also be met in French.' },
+            { title: 'Spanish IV', tag: 'Honors', description: 'The terminal Spanish course, beyond the graduation requirement.' },
+          ],
+        },
+        {
+          name: 'Fine Arts',
+          courses: [
+            { title: 'Band', description: 'One of four fine-arts courses counting toward the two-year requirement.' },
+            { title: 'Concert Choir', description: 'Vocal ensemble carrying fine-arts credit.' },
+            { title: 'Drama', description: 'Theatre course; the school stages two major productions a year including a spring musical.' },
+            { title: 'Visual Art I, II, III', description: 'A three-step sequence covering drawing, painting, ceramics, printmaking and portfolio development.' },
+            { title: 'Visual Art IV', tag: 'Honors', description: 'The terminal visual-arts course — there is no AP Studio Art.' },
+          ],
+        },
+        {
+          name: 'PE / Health',
+          courses: [
+            { title: 'Physical Education', description: 'Counts toward the one-year PE/Health graduation requirement.' },
+            { title: 'Health and Wellness', description: 'Counts toward the one-year PE/Health graduation requirement.' },
+          ],
+        },
+        {
+          name: 'Electives',
+          courses: [
+            { title: 'AP Computer Science', tag: 'AP', description: 'The tenth AP course, supported by a makerspace with 3-D printers, laser cutters and CNC machines.' },
+            { title: 'Engineering', tag: 'Honors', description: 'Honors engineering, taught alongside the makerspace facilities.' },
+            { title: 'Robotics', tag: 'Honors', description: 'Feeds the VEX Robotics team that reached TSA VEX Nationals in 2023.' },
+            { title: 'Intro to Business', tag: 'Honors / DE', description: 'The one dual-enrollment course taught by Gaston Day faculty; DE credit is not calculated into the GPA.' },
+            { title: 'Creative Writing', tag: 'Honors', description: 'Feeds Blutopia, the student literary and art magazine.' },
+            { title: 'Speech & Debate', description: 'Supports the Public Debate Club and Mock Trial.' },
+            { title: 'Psychology', description: 'Social-science elective.' },
+            { title: 'Human Geography', description: 'Social-science elective; also taught in Middle School at grade level.' },
+            { title: 'Human Health and Medicine', description: 'Pre-health elective.' },
+            { title: 'World Views', description: 'Elective examining differing worldviews.' },
+            { title: 'Music Appreciation', description: 'Arts-adjacent elective.' },
+            { title: 'Cinema Studies', description: 'Arts-adjacent elective in film analysis.' },
+            { title: 'Yearbook', description: 'Student publication carrying course credit.' },
+            { title: 'Strength & Conditioning I, II, III', description: 'A three-level athletic-performance elective sequence.' },
+          ],
+        },
+      ],
+    },
+  ],
+}
+
 const OFFERINGS: Record<string, CourseOfferings> = {
   'providence-day': PROVIDENCE_DAY,
   'carmel-christian': CARMEL_CHRISTIAN,
@@ -7010,6 +7200,7 @@ const OFFERINGS: Record<string, CourseOfferings> = {
   'covenant-day': COVENANT_DAY,
   'davidson-day': DAVIDSON_DAY,
   'hickory-grove-christian': HICKORY_GROVE_CHRISTIAN,
+  'gaston-day': GASTON_DAY,
 }
 
 /* ---------------------------------------------------------- translations -- */
