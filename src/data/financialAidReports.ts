@@ -2754,14 +2754,8 @@ const CHARLOTTE_CATHOLIC: FinancialAidReport = {
           title: 'No per-school aid figures exist',
           body: 'MACS publishes aid data **diocese-wide only, never per school**. There is no published percentage of CCHS students receiving aid, no total aid awarded at CCHS, and no average award. This is a disclosure structure, not a research gap — the figures are not published anywhere for this school specifically.',
         },
-        {
-          tag: 'STRUCTURAL',
-          title: 'No Form 990 exists, and none ever will',
-          body: 'MACS operates under **EIN 56-1779865**. ProPublica\'s Nonprofit Explorer states the organization "is not required to submit tax filings because the IRS designates it as a **religious organization**." For most independent schools the 990 is the fallback source for aid totals when the school publishes none; **here that fallback does not exist**, so the three aid figures are permanently unavailable rather than merely unpublished.',
-        },
       ],
-      source:
-        'discovermacs.org; ProPublica Nonprofit Explorer (EIN 56-1779865)',
+      source: 'discovermacs.org — Tuition & Affordability',
     },
     {
       id: 'fa-merit',
@@ -2824,26 +2818,9 @@ const CHARLOTTE_CATHOLIC: FinancialAidReport = {
     },
     {
       id: 'fa-trend',
-      navTitle: 'Trend & Questions',
-      title: 'What to Ask, and What Cannot Be Answered',
+      navTitle: 'What to Ask',
+      title: 'What to Ask',
       confidence: 60,
-      boxes: [
-        {
-          tag: 'NOT PUBLISHED',
-          title: 'No tuition history',
-          body: 'MACS publishes only the current year. Secondary sources give **$13,348** and **$9,366** for unspecified earlier years, with no reliable attribution — those are **not** shown as a trend here, because a history built from unattributable figures is worse than no history. Archived MACS snapshots would be the route if this is ever needed.',
-        },
-        {
-          tag: 'DEMONSTRABLY WRONG',
-          title: 'Ignore the $45,000 figure',
-          body: 'PrivateSchoolReview lists CCHS tuition as **$45,000** — more than double the official community rate of $21,562 published by MACS itself. It is wrong and is not used anywhere in this app.',
-        },
-        {
-          tag: 'EASY TO MIS-READ',
-          title: 'The school\'s "Financial Aid and Scholarships" page is about COLLEGE aid',
-          body: 'The CCHS page carrying that exact title covers FAFSA and college scholarship searches for seniors — **not** CCHS tuition assistance. A family searching the school site for aid will land there first.',
-        },
-      ],
       questionsTitle: 'Ask the admissions office',
       questions: [
         'What exactly qualifies us as a "participating Catholic" family, and which parish verifies it?',
