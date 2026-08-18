@@ -209,12 +209,12 @@ export const gastonDay: AfterSchoolProgram = {
       {
         time: '4:25',
         name: 'Whole-group activity',
-        detail: 'Emphasising **STEAM and collaboration** — the one structured, all-together block of the afternoon.',
+        detail: 'Emphasising STEAM and collaboration — the one structured, all-together block of the afternoon.',
       },
       {
         time: '4:55',
         name: 'Choice time',
-        detail: 'Free choice until pickup. **Tech activities are available on Fridays only.**',
+        detail: 'Free choice until pickup. Tech activities are available on Fridays only.',
       },
     ],
     wordsTitle: 'In the school’s own words',

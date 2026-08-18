@@ -35,6 +35,7 @@
 | S5 | https://www.privateschoolreview.com/gaston-day-school-profile | Third-party — 45% on financial aid, enrollment 466, endowment **$8.5 million**, 60-acre campus, avg class size 15. **Conflicts with S4; S4 wins.** |
 
 ### Tuition and fees 2025-2026
+
 | Grade Level | Tuition | Fees | Total |
 | --- | --: | --: | --: |
 | Preschool (3's) and Pre-K (4's): Half-Day | $7,875 | $900 | $8,775 |
@@ -52,14 +53,8 @@ figures.
 **2026-27 tuition (S2):** **$20,300 – $23,310** depending on grade. Published as a range on
 the cost page; the per-grade 2026-27 schedule PDF was not posted at the time of this pass.
 
-### Bus services
-| Service | Rate |
-| --- | --: |
-| Round Trip | $2,500 |
-| One Way | $1,630 |
-| Per Trip Fee | $18 |
-
 ### After school & enrichment rates
+
 | Item | Rate |
 | --- | --- |
 | Music Lessons (per lesson) | $35 |
@@ -82,6 +77,7 @@ which is the more likely thing to have been updated in-year. See the after-schoo
 the full page transcription.
 
 ### Financial aid
+
 - **Platform: Clarity** (not FACTS or SSS). Five steps: sign up at the Clarity app; add
  Gaston Day School to the applicant entry; complete the application and pay the **$65**
  fee; complete tax verification (IRS transfer or Clarity's option); submit and monitor the
@@ -100,6 +96,7 @@ variety of payment plans" and that all plans assume the tuition deposit and fees
 paid). These are recorded as confirmed absences, not as unresearched gaps.
 
 ### Aid share
+
 **26% of the student body receives tuition assistance** (2025-26 Academic Profile).
 
 S5 (Private School Review) reports **45%**. The school's own profile is used. The two are
@@ -108,17 +105,8 @@ while a third-party "percent on financial aid" figure commonly folds in merit aw
 state Opportunity Scholarship recipients — which at Gaston Day are three separate channels
 (S2). The gap is therefore plausibly definitional rather than either figure being wrong.
 
-### Named scholarships
-| Scholarship | Award | Grades | Criteria | Deadline |
-| --- | --- | --- | --- | --- |
-| **The W. Duke Kimbrell Scholarship** | **100% of tuition** | 8–11 | Scholarly excellence, high moral character, family involvement, leadership qualities, demonstrated community/hobby participation. **By invitation** to qualified applicants | Not published |
-| **Kimbrell Family Scholarship** | Amount not published | 5–11 | Nationally normed test scores at the **90th percentile or higher** and/or an unweighted **GPA of 3.5 or higher**. All admitted applicants are reviewed automatically; nominated students may submit supplemental materials and complete an on-campus interview | Not published |
-| **NC Opportunity Scholarship** | "approximately **$3,000 to $7,000**" | K–12 | State programme: NC resident, age-eligible, not graduated, not enrolled full-time post-secondary; household-income based | **February 1 – March 1** (later applicants waitlisted) |
-
-The W. Duke Kimbrell Scholarship is the school's **highest honor** and is full-tuition —
-notable because a 100%-of-tuition merit award is uncommon on this roster.
-
 ### Institutional context
+
 - **Endowment: $8.5 million**
 - **Campus: 60 acres**
 - **Average class size: 15**
@@ -127,6 +115,24 @@ notable because a 100%-of-tuition merit award is uncommon on this roster.
 
 These are third-party figures (Private School Review) and are not confirmed by a school
 publication; they are carried with that caveat and flagged for verification where surfaced.
+## Bus services
+
+| Service | Rate |
+| --- | --: |
+| Round Trip | $2,500 |
+| One Way | $1,630 |
+| Per Trip Fee | $18 |
+
+## Named scholarships
+
+| Scholarship | Award | Grades | Criteria | Deadline |
+| --- | --- | --- | --- | --- |
+| **The W. Duke Kimbrell Scholarship** | **100% of tuition** | 8–11 | Scholarly excellence, high moral character, family involvement, leadership qualities, demonstrated community/hobby participation. **By invitation** to qualified applicants | Not published |
+| **Kimbrell Family Scholarship** | Amount not published | 5–11 | Nationally normed test scores at the **90th percentile or higher** and/or an unweighted **GPA of 3.5 or higher**. All admitted applicants are reviewed automatically; nominated students may submit supplemental materials and complete an on-campus interview | Not published |
+| **NC Opportunity Scholarship** | "approximately **$3,000 to $7,000**" | K–12 | State programme: NC resident, age-eligible, not graduated, not enrolled full-time post-secondary; household-income based | **February 1 – March 1** (later applicants waitlisted) |
+
+The W. Duke Kimbrell Scholarship is the school's **highest honor** and is full-tuition —
+notable because a 100%-of-tuition merit award is uncommon on this roster.
 
 
 ---

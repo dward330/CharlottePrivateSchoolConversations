@@ -178,27 +178,27 @@ export const gastonDay: SportsProgram = {
       {
         label: '2025',
         text:
-          '**Girls tennis** — NCISAA 2A state champions, third consecutive title (def. Epiphany School). **Volleyball** — NCISAA 2A state champions (def. St. Thomas More Academy 3–2, Oct 25).',
+          'Girls tennis — NCISAA 2A state champions, third consecutive title (def. Epiphany School). Volleyball — NCISAA 2A state champions (def. St. Thomas More Academy 3–2, Oct 25).',
       },
       {
         label: '2024',
         text:
-          '**Volleyball** — NCISAA 2A state champions (swept Westminster Catawba, Oct 26). **Boys soccer** — NCISAA 2A state champions (def. Westchester Country Day). **Girls tennis** — NCISAA 2A state champions, second straight.',
+          'Volleyball — NCISAA 2A state champions (swept Westminster Catawba, Oct 26). Boys soccer — NCISAA 2A state champions (def. Westchester Country Day). Girls tennis — NCISAA 2A state champions, second straight.',
       },
       {
         label: '2023',
         text:
-          '**Girls tennis** — NCISAA 2A state champions, def. Trinity School of Durham & Chapel Hill 5–1.',
+          'Girls tennis — NCISAA 2A state champions, def. Trinity School of Durham & Chapel Hill 5–1.',
       },
       {
         label: '2021',
         text:
-          '**Volleyball** and **girls tennis** — NCISAA 2A state champions, the first title in each programme’s current run.',
+          'Volleyball and girls tennis — NCISAA 2A state champions, the first title in each programme’s current run.',
       },
       {
         label: 'Decade',
         text:
-          '**Volleyball** — three further NCISAA finals appearances and **five league titles** beyond the three championships.',
+          'Volleyball — three further NCISAA finals appearances and five league titles beyond the three championships.',
       },
     ],
     sources: [
@@ -218,35 +218,35 @@ export const gastonDay: SportsProgram = {
       {
         name: 'Campus',
         detail:
-          '**60 acres** in Gastonia, serving a five-county draw — Gaston, Lincoln, Cleveland, Mecklenburg and York.',
+          '60 acres in Gastonia, serving a five-county draw — Gaston, Lincoln, Cleveland, Mecklenburg and York.',
       },
       {
         name: 'Pamela Kimbrell Warlick Visual & Performing Arts Center',
         detail:
-          '**550 seats**, modern lighting and sound, and a professional dance studio. The one campus venue the school describes in detail — it serves the arts rather than athletics, and is covered on the Arts cards.',
+          '550 seats, modern lighting and sound, and a professional dance studio. The one campus venue the school describes in detail — it serves the arts rather than athletics, and is covered on the Arts cards.',
       },
       {
         name: 'Athletics venues',
         detail:
-          '**Not published.** No gymnasium, field, court or pool inventory appears on any accessible page; home swim and wrestling arrangements are unstated.',
+          'Not published. No gymnasium, field, court or pool inventory appears on any accessible page; home swim and wrestling arrangements are unstated.',
       },
     ],
     care: [
       {
         label: 'Athletic Director',
-        text: '**Lulu Brase**, named in the school’s own Academic Profile. She also co-directs the summer camp programme.',
+        text: 'Lulu Brase, named in the school’s own Academic Profile. She also co-directs the summer camp programme.',
       },
       {
         label: 'Athletic training / sports medicine',
-        text: '**Not published.** No athletic trainer, team physician or concussion protocol is named in any accessible source.',
+        text: 'Not published. No athletic trainer, team physician or concussion protocol is named in any accessible source.',
       },
       {
         label: 'Eligibility',
-        text: 'Middle School participation (grades 6–8) requires **academic standing and positive behaviour** — the one eligibility rule the school states publicly.',
+        text: 'Middle School participation (grades 6–8) requires academic standing and positive behaviour — the one eligibility rule the school states publicly.',
       },
       {
         label: 'Governing documents',
-        text: 'The athletics site references an **Athletic Department Handbook 2026-2027** and tryout information, but both sit behind the JS-rendered layer and could not be retrieved.',
+        text: 'The athletics site references an Athletic Department Handbook 2026-2027 and tryout information, but both sit behind the JS-rendered layer and could not be retrieved.',
       },
     ],
     careNote:

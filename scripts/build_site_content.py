@@ -112,6 +112,15 @@ def clean(text: str) -> str:
 def make_preview(body: str) -> str:
     """First meaningful prose from a section, for a collapsed teaser."""
     stripped = SOURCE_LINE.sub("", body)
+    # Teasers render as plain text (SchoolDetail's .topic-teaser span), so any
+    # markdown emphasis carried over from the source note would show as literal
+    # asterisks — "the school's **highest honor**". Strip the markers and keep
+    # the words. Bold inside the card BODY still renders, via ProseContent.
+    stripped = re.sub(r"\*\*([^*]+)\*\*", r"\1", stripped)
+    stripped = re.sub(r"(?<![\w*])\*([^*\n]+)\*(?![\w*])", r"\1", stripped)
+    # Any marker left over (an unbalanced pair, or one spanning a table row) would
+    # still surface as a literal asterisk in the teaser, so drop the rest.
+    stripped = stripped.replace("**", "")
     words = " ".join(stripped.split())
     if len(words) <= PREVIEW_MAX:
         return words

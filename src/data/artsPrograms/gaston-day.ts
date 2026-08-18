@@ -42,8 +42,8 @@ export const gastonDay: ArtsProgram = {
         name: 'Early & Lower School',
         grades: 'PS–4',
         items: [
-          'Music, art and drama **coordinated with classroom units of study** rather than taught in isolation',
-          '**Drama classes begin as early as second grade**',
+          'Music, art and drama coordinated with classroom units of study rather than taught in isolation',
+          'Drama classes begin as early as second grade',
           'Experiential learning through frequent field trips, guest speakers and virtual tours',
         ],
       },
@@ -51,9 +51,9 @@ export const gastonDay: ArtsProgram = {
         name: 'Middle School',
         grades: '5–8',
         items: [
-          'Electives chosen from **art, drama, chorus and band**',
-          '**MS Instrumental Ensemble** — woodwinds, brass, percussion, piano and guitar',
-          '**Middle School Chorus**',
+          'Electives chosen from art, drama, chorus and band',
+          'MS Instrumental Ensemble — woodwinds, brass, percussion, piano and guitar',
+          'Middle School Chorus',
           'Private music lessons available',
         ],
       },
@@ -61,10 +61,10 @@ export const gastonDay: ArtsProgram = {
         name: 'Upper School',
         grades: '9–12',
         items: [
-          '**Visual Art I, II, III** and **Visual Art IV (H)**',
-          '**Band**, **Concert Choir** and **Drama** as fine-arts courses',
-          '**Upper School Vocal Performance Ensemble**',
-          '**Actors’ Conservatory Theatre** as a dedicated programme',
+          'Visual Art I, II, III and Visual Art IV (H)',
+          'Band, Concert Choir and Drama as fine-arts courses',
+          'Upper School Vocal Performance Ensemble',
+          'Actors’ Conservatory Theatre as a dedicated programme',
           'Arts-adjacent electives: Music Appreciation, Cinema Studies, Creative Writing (H), Yearbook',
         ],
       },
@@ -73,19 +73,19 @@ export const gastonDay: ArtsProgram = {
     enrichment: [
       {
         label: 'Private lessons',
-        text: 'Taught by **contracted professional musicians**, billed at **$35 per lesson** on the school’s published fee schedule. Middle School students waiting for a lesson may do homework in aftercare at no charge.',
+        text: 'Taught by contracted professional musicians, billed at $35 per lesson on the school’s published fee schedule. Middle School students waiting for a lesson may do homework in aftercare at no charge.',
       },
       {
         label: 'Performance travel',
-        text: 'The programme has performed at **St Mary-le-Bow** and **Canterbury Cathedral**, and given joint concerts with the **Westminster Youth Orchestra**.',
+        text: 'The programme has performed at St Mary-le-Bow and Canterbury Cathedral, and given joint concerts with the Westminster Youth Orchestra.',
       },
       {
         label: 'Summer arts camps',
-        text: '**Thespian Camp** (rising PK–6) runs in the summer catalog, alongside partner camps from the **Children’s Theater of Charlotte** (Frozen, Willy Wonka, Cowabunga) and **Studio Elite** dance.',
+        text: 'Thespian Camp (rising PK–6) runs in the summer catalog, alongside partner camps from the Children’s Theater of Charlotte (Frozen, Willy Wonka, Cowabunga) and Studio Elite dance.',
       },
       {
         label: 'Student publication',
-        text: '**Blutopia**, the literary and art magazine, is entirely student-developed, created and published — see the Verdict card for its award record.',
+        text: 'Blutopia, the literary and art magazine, is entirely student-developed, created and published — see the Verdict card for its award record.',
       },
     ],
     sources: [
@@ -108,7 +108,7 @@ export const gastonDay: ArtsProgram = {
         season: 'Across the year',
         kind: 'Two major shows',
         detail:
-          'The school stages **two major productions each year**, one of which is the **spring musical**. Specific titles and dates are not published.',
+          'The school stages two major productions each year, one of which is the spring musical. Specific titles and dates are not published.',
       },
       {
         season: 'Spring',
@@ -120,19 +120,19 @@ export const gastonDay: ArtsProgram = {
         season: 'Curricular',
         kind: 'Drama from grade 2',
         detail:
-          'Drama classes begin as early as **second grade**, so the pipeline into Upper School productions starts in the Lower School.',
+          'Drama classes begin as early as second grade, so the pipeline into Upper School productions starts in the Lower School.',
       },
       {
         season: 'Summer',
         kind: 'Thespian Camp',
         detail:
-          '**Thespian Camp** (rising PK–6) teaches songs and script for a short musical and involves campers in designing a simple set.',
+          'Thespian Camp (rising PK–6) teaches songs and script for a short musical and involves campers in designing a simple set.',
       },
     ],
     whoRunsIt:
-      '**Travis Johnson** chairs the Fine Arts Department (ext. 415). The **Actors’ Conservatory Theatre** operates as a dedicated programme within the school’s theatre offering.',
+      'Travis Johnson chairs the Fine Arts Department (ext. 415). The Actors’ Conservatory Theatre operates as a dedicated programme within the school’s theatre offering.',
     venueNote:
-      'The **Pamela Kimbrell Warlick Visual & Performing Arts Center** seats **550** and carries modern lighting and sound systems plus a **professional dance studio** — a substantial house for a school of 510 students.',
+      'The Pamela Kimbrell Warlick Visual & Performing Arts Center seats 550 and carries modern lighting and sound systems plus a professional dance studio — a substantial house for a school of 510 students.',
     honestContext:
       'The school publishes no production titles, performance dates, cast sizes or theatre competition results, and it names no International Thespian Society troupe number despite chartering the society. So the *shape* of the programme is well documented while its *record* is not — this card deliberately carries no awards ledger rather than an empty one.',
     sources: [
@@ -182,19 +182,19 @@ export const gastonDay: ArtsProgram = {
     ladder: [
       {
         label: 'Regional adjudication',
-        text: 'Chorus students earned **“superior” ratings in regional adjudications over six years** — a sustained record rather than a single strong year.',
+        text: 'Chorus students earned “superior” ratings in regional adjudications over six years — a sustained record rather than a single strong year.',
       },
       {
         label: 'Conservatory admission',
-        text: 'Students have gained admission to the **North Carolina School of the Arts**. UNC School of the Arts also appears on the school’s 2019–2025 college acceptance list, independently corroborating the pathway.',
+        text: 'Students have gained admission to the North Carolina School of the Arts. UNC School of the Arts also appears on the school’s 2019–2025 college acceptance list, independently corroborating the pathway.',
       },
       {
         label: 'Governor’s School',
-        text: 'Students have earned places at **North Carolina Governor’s School**, the state’s selective summer programme for gifted students.',
+        text: 'Students have earned places at North Carolina Governor’s School, the state’s selective summer programme for gifted students.',
       },
       {
         label: 'International performance',
-        text: 'Performances at **St Mary-le-Bow** and **Canterbury Cathedral**, plus joint concerts with the **Westminster Youth Orchestra**.',
+        text: 'Performances at St Mary-le-Bow and Canterbury Cathedral, plus joint concerts with the Westminster Youth Orchestra.',
       },
     ],
     ladderNote:
@@ -227,30 +227,30 @@ export const gastonDay: ArtsProgram = {
       { name: 'Visual Art IV (H)', terminal: true },
     ],
     pathNote:
-      'There is **no AP Studio Art or AP Art History** in the profile’s course table — Visual Art IV (H) is the terminal course, carrying the Honors +0.50 weighting rather than an AP +1.0. Cinema Studies, Creative Writing (H) and Yearbook sit alongside as arts-adjacent electives.',
+      'There is no AP Studio Art or AP Art History in the profile’s course table — Visual Art IV (H) is the terminal course, carrying the Honors +0.50 weighting rather than an AP +1.0. Cinema Studies, Creative Writing (H) and Yearbook sit alongside as arts-adjacent electives.',
     exhibitsTitle: 'Where the work goes',
     exhibits: [
       {
         when: 'Annual',
         name: 'Scholastic Art Awards',
         detail:
-          '**Numerous Scholastic Art Awards**, plus wins at national, regional and local competitions.',
+          'Numerous Scholastic Art Awards, plus wins at national, regional and local competitions.',
       },
       {
         when: 'Annual',
         name: 'Blutopia',
         detail:
-          'The student literary and art magazine publishes illustrations, paintings and photographs alongside written work, and has taken **numerous Scholastic Art and Writing Awards** and repeated recognition in the **NC Scholastic Media Association Literary Magazine Contest**.',
+          'The student literary and art magazine publishes illustrations, paintings and photographs alongside written work, and has taken numerous Scholastic Art and Writing Awards and repeated recognition in the NC Scholastic Media Association Literary Magazine Contest.',
       },
       {
         when: '2019–2025',
         name: 'Art-school matriculation',
         detail:
-          'The 2019–2025 acceptance list includes **RISD, SCAD, School of Visual Arts, Maryland Institute College of Art, the School of the Art Institute of Chicago, Minneapolis College of Art and Design** and **UNC School of the Arts** — seven specialty art and design institutions.',
+          'The 2019–2025 acceptance list includes RISD, SCAD, School of Visual Arts, Maryland Institute College of Art, the School of the Art Institute of Chicago, Minneapolis College of Art and Design and UNC School of the Arts — seven specialty art and design institutions.',
       },
     ],
     footnote:
-      'The department is chaired by **Travis Johnson**; no other arts faculty are named publicly. The school publishes no gallery or exhibition calendar, no count of Scholastic awards by year and no named student winners — "numerous" is the school’s own word and is reproduced rather than quantified.',
+      'The department is chaired by Travis Johnson; no other arts faculty are named publicly. The school publishes no gallery or exhibition calendar, no count of Scholastic awards by year and no named student winners — "numerous" is the school’s own word and is reproduced rather than quantified.',
     sources: [
       { label: 'gastonday.org — Arts (media, portfolio development, awards)', url: ARTS },
       { label: 'gastonday.org — Academic Profile 2025-2026 (Visual Art I–IV(H), Blutopia recognition, ARTS grade distribution)', url: PROFILE },
@@ -267,19 +267,19 @@ export const gastonDay: ArtsProgram = {
     holdsUp: [
       {
         label: 'The facility is real and named',
-        text: 'The **Pamela Kimbrell Warlick Visual & Performing Arts Center** seats **550** with modern lighting and sound and a **professional dance studio** — larger than the school’s entire enrollment.',
+        text: 'The Pamela Kimbrell Warlick Visual & Performing Arts Center seats 550 with modern lighting and sound and a professional dance studio — larger than the school’s entire enrollment.',
       },
       {
         label: 'The ladder is genuinely PS–12',
-        text: 'Drama from **second grade**, integrated arts in the Lower School, four elective tracks in the Middle School, and a four-course visual sequence plus three ensembles in the Upper School.',
+        text: 'Drama from second grade, integrated arts in the Lower School, four elective tracks in the Middle School, and a four-course visual sequence plus three ensembles in the Upper School.',
       },
       {
         label: 'Recognition is sustained, not one-off',
-        text: '**Six years** of “superior” regional chorus adjudications, and admissions to **UNC School of the Arts** and **Governor’s School**.',
+        text: 'Six years of “superior” regional chorus adjudications, and admissions to UNC School of the Arts and Governor’s School.',
       },
       {
         label: 'Blutopia is a genuine distinction',
-        text: 'Entirely student-produced, with **numerous Scholastic Art and Writing Awards** and consistent recognition in the **NC Scholastic Media Association Literary Magazine Contest**.',
+        text: 'Entirely student-produced, with numerous Scholastic Art and Writing Awards and consistent recognition in the NC Scholastic Media Association Literary Magazine Contest.',
       },
       {
         label: 'Portfolio work leads somewhere',
@@ -287,7 +287,7 @@ export const gastonDay: ArtsProgram = {
       },
       {
         label: 'Arts grades are published',
-        text: 'The profile prints an ARTS grade distribution for 2024-25 (**72% A+, 22% A, 5% A-**), which few schools disclose. Read it as context for how the department grades rather than as a difficulty signal.',
+        text: 'The profile prints an ARTS grade distribution for 2024-25 (72% A+, 22% A, 5% A-), which few schools disclose. Read it as context for how the department grades rather than as a difficulty signal.',
       },
     ],
     askTitle: 'Ask on the tour',

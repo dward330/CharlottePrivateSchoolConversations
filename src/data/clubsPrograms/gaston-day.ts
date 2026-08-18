@@ -65,7 +65,7 @@ export const gastonDay: ClubsProgram = {
     ],
     footnoteTitle: 'The recognition ladder above the requirement',
     footnote:
-      'Beyond the 25-hour floor, the **President’s Service Award** recognises Upper School students who have served **100 or more hours**, and the Middle School runs its own **Spartan Strong Volunteer Service Award** at **50+ hours** a year. So there is a documented ladder at three levels — 25 required, 50 recognised in the Middle School, 100 recognised in the Upper School — plus the 40-hour NHS threshold sitting alongside.',
+      'Beyond the 25-hour floor, the President’s Service Award recognises Upper School students who have served 100 or more hours, and the Middle School runs its own Spartan Strong Volunteer Service Award at 50+ hours a year. So there is a documented ladder at three levels — 25 required, 50 recognised in the Middle School, 100 recognised in the Upper School — plus the 40-hour NHS threshold sitting alongside.',
     flags: [
       {
         kind: 'not-a-club',
@@ -95,7 +95,7 @@ export const gastonDay: ClubsProgram = {
         name: 'National Honor Society',
         division: 'Upper School',
         recognizes:
-          'Scholarship, leadership, service and character. NHS members carry a **40-hour** annual service requirement against the school-wide 25.',
+          'Scholarship, leadership, service and character. NHS members carry a 40-hour annual service requirement against the school-wide 25.',
         feedsFrom: 'the classroom',
       },
       {
@@ -117,23 +117,23 @@ export const gastonDay: ClubsProgram = {
     adjacent: [
       {
         label: 'Honor Code & Honor Council',
-        text: 'Student conduct is governed by the **Honor Code**, enforced by a **student-led Honor Council**. When a college requests it, College Counseling **will report any honor code violations**, including suspension, dismissal or expulsion.',
+        text: 'Student conduct is governed by the Honor Code, enforced by a student-led Honor Council. When a college requests it, College Counseling will report any honor code violations, including suspension, dismissal or expulsion.',
       },
       {
         label: 'President’s Service Award',
-        text: 'For Upper School students who have served **100 or more hours** — the top rung of the service ladder.',
+        text: 'For Upper School students who have served 100 or more hours — the top rung of the service ladder.',
       },
       {
         label: 'Spartan Strong Volunteer Service Award',
-        text: 'The Middle School equivalent, recognising **50+ volunteer hours** in a year.',
+        text: 'The Middle School equivalent, recognising 50+ volunteer hours in a year.',
       },
       {
         label: 'Scholastic Art & Writing Awards',
-        text: '**Blutopia** has taken numerous Scholastic Art and Writing Awards and is consistently recognised in the **NC Scholastic Media Association Literary Magazine Contest**.',
+        text: 'Blutopia has taken numerous Scholastic Art and Writing Awards and is consistently recognised in the NC Scholastic Media Association Literary Magazine Contest.',
       },
       {
         label: 'iGEM gold medal',
-        text: 'The synthetic-biology team’s **gold medal** is the school’s most distinctive competitive recognition, and sits outside any society structure.',
+        text: 'The synthetic-biology team’s gold medal is the school’s most distinctive competitive recognition, and sits outside any society structure.',
       },
     ],
     flags: [

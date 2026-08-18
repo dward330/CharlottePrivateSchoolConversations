@@ -2440,9 +2440,9 @@ const GASTON_DAY: FinancialAidReport = {
         { label: '9th–12th', amount: 22390 },
       ],
       figureNote:
-        'Five bands from half-day preschool to grade 12. The amounts above are the school’s own published **totals**; the underlying split at the top band is **$20,215 tuition + $2,175 fees = $22,390**. Fees scale with the band, from $900 at half-day preschool to $2,175 in the Upper School.',
+        'Five bands from half-day preschool to grade 12. The amounts above are the school’s own published totals; the underlying split at the top band is $20,215 tuition + $2,175 fees = $22,390. Fees scale with the band, from $900 at half-day preschool to $2,175 in the Upper School.',
       figureNote2:
-        'For **2026-27** the school publishes only a range — **$20,300 to $23,310** depending on grade — with no per-grade schedule posted at the time of this research.',
+        'For 2026-27 the school publishes only a range — $20,300 to $23,310 depending on grade — with no per-grade schedule posted at the time of this research.',
       source:
         'gastonday.org — Schedule of Tuition and Fees 2025-2026 (PDF); Cost and Financial Aid page, retrieved 18 Aug 2026',
     },
@@ -2467,7 +2467,7 @@ const GASTON_DAY: FinancialAidReport = {
         { label: 'Athletics participation costs', status: 'unpriced' },
       ],
       componentsNote:
-        'Unusually, almost every add-on Gaston Day publishes carries a price — the transport, aftercare, music-lesson and summer-camp rates are all stated in dollars on the fee schedule or the camp catalog. What the school does **not** publish is what tuition itself includes, so whether technology, lab fees, retreats and field trips sit inside the fees column is unstated.',
+        'Unusually, almost every add-on Gaston Day publishes carries a price — the transport, aftercare, music-lesson and summer-camp rates are all stated in dollars on the fee schedule or the camp catalog. What the school does not publish is what tuition itself includes, so whether technology, lab fees, retreats and field trips sit inside the fees column is unstated.',
       componentsAside:
         'The fees column is not itemised. A family sees "$2,175 in fees" at the Upper School band without being told what those fees buy.',
       source:
@@ -2529,7 +2529,7 @@ const GASTON_DAY: FinancialAidReport = {
         { value: '$0', label: 'published aid budget, total awarded, or average award' },
       ],
       figureNote:
-        'The **26%** comes from the school’s own 2025-26 Academic Profile. A third-party profile (Private School Review) reports **45%** — a wide divergence, and probably a definitional one rather than an error: the profile’s "tuition assistance" is need-based aid, while an aggregator’s "percent on financial aid" commonly folds in merit awards and NC Opportunity Scholarship recipients, which at Gaston Day are three separate channels.',
+        'The 26% comes from the school’s own 2025-26 Academic Profile. A third-party profile (Private School Review) reports 45% — a wide divergence, and probably a definitional one rather than an error: the profile’s "tuition assistance" is need-based aid, while an aggregator’s "percent on financial aid" commonly folds in merit awards and NC Opportunity Scholarship recipients, which at Gaston Day are three separate channels.',
       boxes: [
         {
           title: 'The 80% ceiling is the most useful published number',
