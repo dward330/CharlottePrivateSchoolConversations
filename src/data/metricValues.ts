@@ -312,7 +312,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': '2 / 12', // Princeton, Duke
       'davidson-day': '8 / 17', // buckets, collegeSupportPrograms/davidson-day.ts
       'hickory-grove-christian': '0 / 17', // no Ivy Plus on the 2023+2025 lists
-      'gaston-day': '6', // adds Stanford, Duke, Johns Hopkins, Georgetown
+      'gaston-day': '6 / 17', // adds Stanford, Duke, Johns Hopkins, Georgetown
       'providence-day': '17 / 17', // buckets, collegeSupportPrograms/providence-day.ts
     },
     quals: {
@@ -351,7 +351,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': '~27', // US News Top-75 National Universities on the acceptance list; several near the line
       'davidson-day': '44 / 75', // buckets, collegeSupportPrograms/davidson-day.ts
       'hickory-grove-christian': '22 / 75', // buckets, collegeSupportPrograms/hickory-grove-christian.ts (2023+2025 lists)
-      'gaston-day': '40', // scored against the 2026 US News National Universities table, 2019-2025 list
+      'gaston-day': '41 / 75', // scored against the 2026 US News National Universities table, 2019-2025 list
       'providence-day': '58 / 75', // buckets, collegeSupportPrograms/providence-day.ts
     },
     quals: {
@@ -390,7 +390,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': '~10', // US News Top-75 Liberal Arts Colleges on the acceptance list
       'davidson-day': '26 / 75', // buckets, collegeSupportPrograms/davidson-day.ts
       'hickory-grove-christian': '9 / 75', // buckets, collegeSupportPrograms/hickory-grove-christian.ts
-      'gaston-day': '21', // scored against the 2026 US News National Liberal Arts table, 2019-2025 list
+      'gaston-day': '23 / 75', // scored against the 2026 US News National Liberal Arts table, 2019-2025 list
       'providence-day': '43 / 75', // buckets, collegeSupportPrograms/providence-day.ts
     },
     quals: {
@@ -475,7 +475,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': '8', // Hampton, Howard, NC A&T, NC Central, Norfolk State, SC State, WSSU, FAMU
       'davidson-day': '3 / 107', // buckets, collegeSupportPrograms/davidson-day.ts
       'hickory-grove-christian': '20 / 107', // buckets, collegeSupportPrograms/hickory-grove-christian.ts
-      'gaston-day': '4', // Hampton, NC A&T, NC Central, Winston-Salem State
+      'gaston-day': '5 / 107', // Hampton, NC A&T, NC Central, Winston-Salem State, Tougaloo (Tougaloo also holds Liberal Rank #180)
       'providence-day': '14 / 107', // buckets, collegeSupportPrograms/providence-day.ts
     },
     quals: {
