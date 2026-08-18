@@ -9,7 +9,8 @@
       "of": "fe38e73d",
       "at": [
         "providence-day:guideYear",
-        "charlotte-country-day:guideYear"
+        "charlotte-country-day:guideYear",
+        "gaston-day:guideYear"
       ],
       "t": "2025-26"
     },
@@ -185,7 +186,9 @@
         "carmel-christian:divisions[0].departments[3].name",
         "carmel-christian:divisions[1].departments[4].name",
         "carmel-christian:divisions[2].departments[0].courses[3].title",
-        "hickory-grove-christian:divisions[0].departments[3].name"
+        "hickory-grove-christian:divisions[0].departments[3].name",
+        "gaston-day:divisions[0].departments[0].courses[1].title",
+        "gaston-day:divisions[1].departments[2].name"
       ],
       "t": "Science"
     },
@@ -224,7 +227,9 @@
         "carmel-christian:divisions[0].departments[4].name",
         "carmel-christian:divisions[1].departments[5].name",
         "carmel-christian:divisions[2].departments[0].courses[4].title",
-        "hickory-grove-christian:divisions[0].departments[4].name"
+        "hickory-grove-christian:divisions[0].departments[4].name",
+        "gaston-day:divisions[0].departments[0].courses[3].title",
+        "gaston-day:divisions[1].departments[3].name"
       ],
       "t": "Social Studies"
     },
@@ -245,7 +250,8 @@
         "providence-day:divisions[2].departments[6].name",
         "charlotte-latin:divisions[0].departments[1].name",
         "cannon:divisions[0].departments[1].name",
-        "covenant-day:divisions[0].departments[5].name"
+        "covenant-day:divisions[0].departments[5].name",
+        "gaston-day:divisions[1].departments[4].name"
       ],
       "t": "Langue étrangère"
     },
@@ -316,7 +322,8 @@
         "covenant-day:divisions[1].departments[3].courses[1].title",
         "covenant-day:divisions[2].departments[0].courses[4].title",
         "covenant-day:divisions[2].departments[7].courses[0].title",
-        "carmel-christian:divisions[2].departments[1].courses[0].title"
+        "carmel-christian:divisions[2].departments[1].courses[0].title",
+        "gaston-day:divisions[0].departments[1].courses[1].title"
       ],
       "t": "Art"
     },
@@ -404,7 +411,8 @@
         "carmel-christian:divisions[0].departments[6].courses[1].title",
         "carmel-christian:divisions[1].departments[6].courses[0].title",
         "carmel-christian:divisions[2].departments[1].courses[4].title",
-        "hickory-grove-christian:divisions[0].departments[10].name"
+        "hickory-grove-christian:divisions[0].departments[10].name",
+        "gaston-day:divisions[1].departments[6].courses[0].title"
       ],
       "t": "Physical Education"
     },
@@ -510,7 +518,8 @@
         "cannon:divisions[1].title",
         "covenant-day:divisions[1].title",
         "davidson-day:divisions[1].title",
-        "carmel-christian:divisions[1].title"
+        "carmel-christian:divisions[1].title",
+        "gaston-day:divisions[0].title"
       ],
       "t": "Cours du Middle School"
     },
@@ -548,7 +557,9 @@
         "covenant-day:divisions[0].departments[0].name",
         "davidson-day:divisions[2].departments[0].name",
         "carmel-christian:divisions[0].departments[1].name",
-        "hickory-grove-christian:divisions[0].departments[1].name"
+        "hickory-grove-christian:divisions[0].departments[1].name",
+        "gaston-day:divisions[0].departments[0].courses[0].title",
+        "gaston-day:divisions[1].departments[0].name"
       ],
       "t": "English"
     },
@@ -990,7 +1001,9 @@
         "covenant-day:divisions[0].departments[1].name",
         "davidson-day:divisions[1].departments[0].name",
         "davidson-day:divisions[2].departments[1].name",
-        "carmel-christian:divisions[0].departments[2].name"
+        "carmel-christian:divisions[0].departments[2].name",
+        "gaston-day:divisions[0].departments[0].courses[2].title",
+        "gaston-day:divisions[1].departments[1].name"
       ],
       "t": "Mathematics"
     },
@@ -1366,7 +1379,8 @@
       "of": "a37971e0",
       "at": [
         "providence-day:divisions[1].departments[4].courses[2].title",
-        "charlotte-christian:divisions[2].departments[6].courses[10].title"
+        "charlotte-christian:divisions[2].departments[6].courses[10].title",
+        "gaston-day:divisions[1].departments[7].courses[2].title"
       ],
       "t": "Robotics"
     },
@@ -1962,7 +1976,8 @@
         "charlotte-country-day:divisions[2].departments[3].courses[0].tag",
         "charlotte-country-day:divisions[2].departments[3].courses[1].tag",
         "charlotte-country-day:divisions[2].departments[3].courses[4].tag",
-        "charlotte-country-day:divisions[2].departments[7].courses[0].tag"
+        "charlotte-country-day:divisions[2].departments[7].courses[0].tag",
+        "gaston-day:divisions[0].departments[1].courses[0].tag"
       ],
       "t": "Obligatoire"
     },
@@ -2000,7 +2015,8 @@
         "charlotte-country-day:divisions[2].title",
         "cannon:divisions[2].title",
         "davidson-day:divisions[2].title",
-        "hickory-grove-christian:divisions[0].title"
+        "hickory-grove-christian:divisions[0].title",
+        "gaston-day:divisions[1].title"
       ],
       "t": "Cours de l’Upper School"
     },
@@ -2014,7 +2030,8 @@
         "charlotte-country-day:divisions[2].grades",
         "cannon:divisions[2].grades",
         "davidson-day:divisions[2].grades",
-        "hickory-grove-christian:divisions[0].grades"
+        "hickory-grove-christian:divisions[0].grades",
+        "gaston-day:divisions[1].grades"
       ],
       "t": "Niveaux 9 – 12"
     },
@@ -2127,7 +2144,8 @@
         "charlotte-christian:divisions[2].departments[1].courses[12].title",
         "charlotte-country-day:divisions[2].departments[0].courses[8].title",
         "carmel-christian:divisions[1].departments[8].courses[7].title",
-        "hickory-grove-christian:divisions[0].departments[11].courses[5].title"
+        "hickory-grove-christian:divisions[0].departments[11].courses[5].title",
+        "gaston-day:divisions[1].departments[7].courses[4].title"
       ],
       "t": "Creative Writing"
     },
@@ -2480,7 +2498,13 @@
         "hickory-grove-christian:divisions[0].departments[9].courses[2].tag",
         "hickory-grove-christian:divisions[0].departments[11].courses[0].tag",
         "hickory-grove-christian:divisions[0].departments[11].courses[1].tag",
-        "hickory-grove-christian:divisions[0].departments[11].courses[2].tag"
+        "hickory-grove-christian:divisions[0].departments[11].courses[2].tag",
+        "gaston-day:divisions[1].departments[0].courses[4].tag",
+        "gaston-day:divisions[1].departments[0].courses[5].tag",
+        "gaston-day:divisions[1].departments[1].courses[7].tag",
+        "gaston-day:divisions[1].departments[1].courses[8].tag",
+        "gaston-day:divisions[1].departments[2].courses[4].tag",
+        "gaston-day:divisions[1].departments[7].courses[0].tag"
       ],
       "t": "AP"
     },
@@ -2549,7 +2573,8 @@
         "providence-day:divisions[2].departments[1].courses[1].title",
         "covenant-day:divisions[0].departments[3].courses[0].title",
         "carmel-christian:divisions[0].departments[4].courses[0].title",
-        "carmel-christian:divisions[0].departments[4].courses[1].title"
+        "carmel-christian:divisions[0].departments[4].courses[1].title",
+        "gaston-day:divisions[1].departments[3].courses[0].title"
       ],
       "t": "World History"
     },
@@ -2924,7 +2949,8 @@
         "charlotte-country-day:divisions[2].departments[1].courses[0].title",
         "cannon:divisions[1].departments[1].courses[3].title",
         "davidson-day:divisions[2].departments[1].courses[0].title",
-        "hickory-grove-christian:divisions[0].departments[2].courses[0].title"
+        "hickory-grove-christian:divisions[0].departments[2].courses[0].title",
+        "gaston-day:divisions[1].departments[1].courses[0].title"
       ],
       "t": "Algebra I"
     },
@@ -2947,7 +2973,8 @@
         "charlotte-country-day:divisions[2].departments[1].courses[1].title",
         "covenant-day:divisions[0].departments[1].courses[1].title",
         "davidson-day:divisions[2].departments[1].courses[2].title",
-        "carmel-christian:divisions[0].departments[2].courses[2].title"
+        "carmel-christian:divisions[0].departments[2].courses[2].title",
+        "gaston-day:divisions[1].departments[1].courses[1].title"
       ],
       "t": "Geometry"
     },
@@ -3001,7 +3028,8 @@
         "davidson-day:divisions[2].departments[1].courses[4].title",
         "carmel-christian:divisions[0].departments[2].courses[3].title",
         "carmel-christian:divisions[0].departments[2].courses[4].title",
-        "carmel-christian:divisions[0].departments[2].courses[5].title"
+        "carmel-christian:divisions[0].departments[2].courses[5].title",
+        "gaston-day:divisions[1].departments[1].courses[2].title"
       ],
       "t": "Algebra II"
     },
@@ -3099,7 +3127,8 @@
       "of": "9e6fb02a",
       "at": [
         "providence-day:divisions[2].departments[2].courses[10].title",
-        "covenant-day:divisions[0].departments[1].courses[9].title"
+        "covenant-day:divisions[0].departments[1].courses[9].title",
+        "gaston-day:divisions[1].departments[1].courses[6].title"
       ],
       "t": "Statistics"
     },
@@ -4284,7 +4313,8 @@
         "charlotte-latin:divisions[2].departments[7].courses[6].title",
         "charlotte-country-day:divisions[2].departments[5].courses[26].title",
         "covenant-day:divisions[0].departments[6].courses[13].title",
-        "carmel-christian:divisions[0].departments[7].courses[14].title"
+        "carmel-christian:divisions[0].departments[7].courses[14].title",
+        "gaston-day:divisions[1].departments[7].courses[12].title"
       ],
       "t": "Yearbook"
     },
@@ -4346,7 +4376,9 @@
         "providence-day:divisions[2].departments[8].courses[0].title",
         "charlotte-latin:divisions[2].departments[8].courses[6].title",
         "charlotte-country-day:divisions[1].departments[4].courses[1].title",
-        "covenant-day:divisions[1].departments[3].courses[2].title"
+        "covenant-day:divisions[1].departments[3].courses[2].title",
+        "gaston-day:divisions[0].departments[1].courses[4].title",
+        "gaston-day:divisions[1].departments[5].courses[0].title"
       ],
       "t": "Band"
     },
@@ -4362,7 +4394,8 @@
       "text": "Chorus",
       "of": "0571ca53",
       "at": [
-        "providence-day:divisions[2].departments[8].courses[1].title"
+        "providence-day:divisions[2].departments[8].courses[1].title",
+        "gaston-day:divisions[0].departments[1].courses[3].title"
       ],
       "t": "Chorus"
     },
@@ -4757,7 +4790,25 @@
         "hickory-grove-christian:divisions[0].departments[4].courses[7].tag",
         "hickory-grove-christian:divisions[0].departments[5].courses[2].tag",
         "hickory-grove-christian:divisions[0].departments[5].courses[3].tag",
-        "hickory-grove-christian:divisions[0].departments[8].courses[3].tag"
+        "hickory-grove-christian:divisions[0].departments[8].courses[3].tag",
+        "gaston-day:divisions[1].departments[0].courses[0].tag",
+        "gaston-day:divisions[1].departments[0].courses[1].tag",
+        "gaston-day:divisions[1].departments[0].courses[2].tag",
+        "gaston-day:divisions[1].departments[0].courses[3].tag",
+        "gaston-day:divisions[1].departments[1].courses[0].tag",
+        "gaston-day:divisions[1].departments[1].courses[1].tag",
+        "gaston-day:divisions[1].departments[1].courses[2].tag",
+        "gaston-day:divisions[1].departments[1].courses[3].tag",
+        "gaston-day:divisions[1].departments[1].courses[5].tag",
+        "gaston-day:divisions[1].departments[1].courses[6].tag",
+        "gaston-day:divisions[1].departments[2].courses[2].tag",
+        "gaston-day:divisions[1].departments[2].courses[3].tag",
+        "gaston-day:divisions[1].departments[3].courses[0].tag",
+        "gaston-day:divisions[1].departments[4].courses[1].tag",
+        "gaston-day:divisions[1].departments[5].courses[4].tag",
+        "gaston-day:divisions[1].departments[7].courses[1].tag",
+        "gaston-day:divisions[1].departments[7].courses[2].tag",
+        "gaston-day:divisions[1].departments[7].courses[4].tag"
       ],
       "t": "Honors"
     },
@@ -5427,7 +5478,8 @@
         "cannon:divisions[2].departments[4].name",
         "covenant-day:divisions[1].departments[0].courses[5].title",
         "davidson-day:divisions[2].departments[4].name",
-        "carmel-christian:divisions[0].departments[5].name"
+        "carmel-christian:divisions[0].departments[5].name",
+        "gaston-day:divisions[0].departments[0].courses[4].title"
       ],
       "t": "Langues du monde"
     },
@@ -5568,7 +5620,8 @@
         "charlotte-christian:divisions[1].departments[5].name",
         "covenant-day:divisions[1].departments[3].name",
         "carmel-christian:divisions[0].departments[8].name",
-        "hickory-grove-christian:divisions[0].departments[11].name"
+        "hickory-grove-christian:divisions[0].departments[11].name",
+        "gaston-day:divisions[1].departments[7].name"
       ],
       "t": "Options"
     },
@@ -5593,7 +5646,8 @@
       "of": "7f535550",
       "at": [
         "charlotte-latin:divisions[1].departments[5].courses[1].title",
-        "charlotte-country-day:divisions[1].departments[2].courses[4].title"
+        "charlotte-country-day:divisions[1].departments[2].courses[4].title",
+        "gaston-day:divisions[1].departments[7].courses[1].title"
       ],
       "t": "Engineering"
     },
@@ -5621,7 +5675,9 @@
       "at": [
         "charlotte-latin:divisions[1].departments[5].courses[3].title",
         "charlotte-country-day:divisions[1].departments[4].courses[4].title",
-        "covenant-day:divisions[1].departments[3].courses[4].title"
+        "covenant-day:divisions[1].departments[3].courses[4].title",
+        "gaston-day:divisions[0].departments[1].courses[2].title",
+        "gaston-day:divisions[1].departments[5].courses[2].title"
       ],
       "t": "Drama"
     },
@@ -5708,7 +5764,8 @@
         "covenant-day:divisions[0].departments[0].courses[2].title",
         "carmel-christian:divisions[0].departments[1].courses[3].title",
         "carmel-christian:divisions[0].departments[1].courses[4].title",
-        "carmel-christian:divisions[0].departments[1].courses[5].title"
+        "carmel-christian:divisions[0].departments[1].courses[5].title",
+        "gaston-day:divisions[1].departments[0].courses[2].title"
       ],
       "t": "American Literature"
     },
@@ -6242,7 +6299,8 @@
       "text": "Calculus",
       "of": "d46a6fe1",
       "at": [
-        "charlotte-latin:divisions[2].departments[3].courses[9].title"
+        "charlotte-latin:divisions[2].departments[3].courses[9].title",
+        "gaston-day:divisions[1].departments[1].courses[5].title"
       ],
       "t": "Calculus"
     },
@@ -6395,7 +6453,8 @@
         "covenant-day:divisions[0].departments[2].courses[2].title",
         "davidson-day:divisions[2].departments[3].courses[4].title",
         "carmel-christian:divisions[0].departments[3].courses[3].title",
-        "carmel-christian:divisions[0].departments[3].courses[4].title"
+        "carmel-christian:divisions[0].departments[3].courses[4].title",
+        "gaston-day:divisions[1].departments[2].courses[1].title"
       ],
       "t": "Chemistry"
     },
@@ -6448,7 +6507,8 @@
         "covenant-day:divisions[0].departments[2].courses[0].title",
         "davidson-day:divisions[2].departments[3].courses[7].title",
         "carmel-christian:divisions[0].departments[3].courses[0].title",
-        "carmel-christian:divisions[0].departments[3].courses[1].title"
+        "carmel-christian:divisions[0].departments[3].courses[1].title",
+        "gaston-day:divisions[1].departments[2].courses[0].title"
       ],
       "t": "Biology"
     },
@@ -6593,7 +6653,11 @@
         "cannon:divisions[2].departments[2].courses[15].tag",
         "cannon:divisions[2].departments[3].courses[6].tag",
         "cannon:divisions[2].departments[3].courses[7].tag",
-        "davidson-day:divisions[2].departments[0].courses[9].tag"
+        "davidson-day:divisions[2].departments[0].courses[9].tag",
+        "gaston-day:divisions[0].departments[1].courses[1].tag",
+        "gaston-day:divisions[0].departments[1].courses[2].tag",
+        "gaston-day:divisions[0].departments[1].courses[3].tag",
+        "gaston-day:divisions[0].departments[1].courses[4].tag"
       ],
       "t": "Elective"
     },
@@ -7290,7 +7354,8 @@
       "of": "60bca842",
       "at": [
         "charlotte-latin:divisions[2].departments[8].courses[7].title",
-        "charlotte-country-day:divisions[2].departments[5].courses[0].title"
+        "charlotte-country-day:divisions[2].departments[5].courses[0].title",
+        "gaston-day:divisions[1].departments[5].courses[1].title"
       ],
       "t": "Concert Choir"
     },
@@ -7667,7 +7732,8 @@
         "charlotte-christian:divisions[1].grades",
         "charlotte-country-day:divisions[1].grades",
         "cannon:divisions[1].grades",
-        "davidson-day:divisions[1].grades"
+        "davidson-day:divisions[1].grades",
+        "gaston-day:divisions[0].grades"
       ],
       "t": "Niveaux 5 – 8"
     },
@@ -8044,7 +8110,12 @@
         "cannon:divisions[1].departments[0].courses[3].tag",
         "cannon:divisions[1].departments[0].courses[4].tag",
         "cannon:divisions[1].departments[3].courses[3].tag",
-        "davidson-day:divisions[1].departments[1].courses[0].tag"
+        "davidson-day:divisions[1].departments[1].courses[0].tag",
+        "gaston-day:divisions[0].departments[0].courses[0].tag",
+        "gaston-day:divisions[0].departments[0].courses[1].tag",
+        "gaston-day:divisions[0].departments[0].courses[2].tag",
+        "gaston-day:divisions[0].departments[0].courses[3].tag",
+        "gaston-day:divisions[0].departments[0].courses[4].tag"
       ],
       "t": "Niv. 5–8"
     },
@@ -8224,7 +8295,8 @@
       "text": "English 9",
       "of": "1bc65428",
       "at": [
-        "charlotte-christian:divisions[2].departments[1].courses[0].title"
+        "charlotte-christian:divisions[2].departments[1].courses[0].title",
+        "gaston-day:divisions[1].departments[0].courses[0].title"
       ],
       "t": "English 9"
     },
@@ -8256,7 +8328,8 @@
       "text": "English 10",
       "of": "c122c0e0",
       "at": [
-        "charlotte-christian:divisions[2].departments[1].courses[2].title"
+        "charlotte-christian:divisions[2].departments[1].courses[2].title",
+        "gaston-day:divisions[1].departments[0].courses[1].title"
       ],
       "t": "English 10"
     },
@@ -8745,7 +8818,8 @@
       "text": "Physics",
       "of": "0dc58442",
       "at": [
-        "charlotte-christian:divisions[2].departments[3].courses[4].title"
+        "charlotte-christian:divisions[2].departments[3].courses[4].title",
+        "gaston-day:divisions[1].departments[2].courses[3].title"
       ],
       "t": "Physics"
     },
@@ -9121,7 +9195,8 @@
       "of": "2caecc04",
       "at": [
         "charlotte-christian:divisions[2].departments[4].courses[13].title",
-        "hickory-grove-christian:divisions[0].departments[11].courses[3].title"
+        "hickory-grove-christian:divisions[0].departments[11].courses[3].title",
+        "gaston-day:divisions[1].departments[7].courses[6].title"
       ],
       "t": "Psychology"
     },
@@ -9487,7 +9562,8 @@
         "charlotte-christian:divisions[2].departments[7].name",
         "charlotte-country-day:divisions[1].departments[4].name",
         "charlotte-country-day:divisions[2].departments[5].name",
-        "covenant-day:divisions[0].departments[6].name"
+        "covenant-day:divisions[0].departments[6].name",
+        "gaston-day:divisions[1].departments[5].name"
       ],
       "t": "Beaux-arts"
     },
@@ -15026,7 +15102,8 @@
         "covenant-day:divisions[0].departments[0].courses[6].title",
         "carmel-christian:divisions[0].departments[1].courses[6].title",
         "carmel-christian:divisions[0].departments[1].courses[7].title",
-        "carmel-christian:divisions[0].departments[1].courses[8].title"
+        "carmel-christian:divisions[0].departments[1].courses[8].title",
+        "gaston-day:divisions[1].departments[0].courses[3].title"
       ],
       "t": "British Literature"
     },
@@ -15409,7 +15486,8 @@
       "text": "Government and Economics",
       "of": "969d3d21",
       "at": [
-        "covenant-day:divisions[0].departments[3].courses[4].title"
+        "covenant-day:divisions[0].departments[3].courses[4].title",
+        "gaston-day:divisions[1].departments[3].courses[2].title"
       ],
       "t": "Gouvernement et économie"
     },
@@ -18993,7 +19071,8 @@
       "of": "9aeceb25",
       "at": [
         "carmel-christian:divisions[0].departments[4].courses[4].title",
-        "carmel-christian:divisions[0].departments[4].courses[5].title"
+        "carmel-christian:divisions[0].departments[4].courses[5].title",
+        "gaston-day:divisions[1].departments[3].courses[1].title"
       ],
       "t": "US History"
     },
@@ -22040,6 +22119,663 @@
         "hickory-grove-christian:divisions[0].departments[11].courses[11].description"
       ],
       "t": "Pour les élèves de terminale ayant une moyenne de 3.0 et une lettre de leur employeur, qui quittent l'école plus tôt pour travailler ; indisponible pendant la saison de leur sport."
+    },
+    {
+      "text": "Five subject strands by grade, plus required LEAD courses and arts electives. (The Early/Lower School, PS–4, publishes no named courses or subject list at all.)",
+      "of": "9992b6dd",
+      "at": [
+        "gaston-day:divisions[0].teaser"
+      ],
+      "t": "Cinq axes disciplinaires par niveau, plus des cours LEAD obligatoires et des options artistiques. (L’Early/Lower School, PS–4, ne publie ni cours nommés ni liste de matières.)"
+    },
+    {
+      "text": "Gaston Day publishes Middle School curriculum as per-grade subject strands rather than as named, individually-described courses. The rows below are those strands as the school states them.",
+      "of": "7cdc32f8",
+      "at": [
+        "gaston-day:divisions[0].notPublished"
+      ],
+      "t": "Gaston Day publie le programme du Middle School sous forme d’axes disciplinaires par niveau plutôt que de cours nommés et décrits individuellement. Les lignes ci-dessous reprennent ces axes tels que l’école les énonce."
+    },
+    {
+      "text": "Core",
+      "of": "5d8aac9e",
+      "at": [
+        "gaston-day:divisions[0].departments[0].name"
+      ],
+      "t": "Enseignements fondamentaux"
+    },
+    {
+      "text": "Literature, grammar and written composition across all four Middle School years.",
+      "of": "fd50d01e",
+      "at": [
+        "gaston-day:divisions[0].departments[0].courses[0].description"
+      ],
+      "t": "Littérature, grammaire et expression écrite sur les quatre années du Middle School."
+    },
+    {
+      "text": "Earth and Space Science in 5th, Life Science in 6th, Earth Systems in 7th and Physical Science in 8th.",
+      "of": "d01c40ae",
+      "at": [
+        "gaston-day:divisions[0].departments[0].courses[1].description"
+      ],
+      "t": "Earth and Space Science en 5th, Life Science en 6th, Earth Systems en 7th et Physical Science en 8th."
+    },
+    {
+      "text": "Grade-level mathematics with honors options, including Honors Algebra I available in 7th and 8th grade.",
+      "of": "e70dd58c",
+      "at": [
+        "gaston-day:divisions[0].departments[0].courses[2].description"
+      ],
+      "t": "Mathématiques au niveau de la classe, avec des options honors, dont Honors Algebra I accessible en 7th et en 8th grade."
+    },
+    {
+      "text": "Human Geography in 5th and 6th, U.S. History in 7th and World History I in 8th.",
+      "of": "bdc00f80",
+      "at": [
+        "gaston-day:divisions[0].departments[0].courses[3].description"
+      ],
+      "t": "Human Geography en 5th et 6th, U.S. History en 7th et World History I en 8th."
+    },
+    {
+      "text": "Language acquisition in 5th and 6th, then Conversational Spanish and Spanish I in 7th and 8th.",
+      "of": "27a87953",
+      "at": [
+        "gaston-day:divisions[0].departments[0].courses[4].description"
+      ],
+      "t": "Acquisition de la langue en 5th et 6th, puis Conversational Spanish et Spanish I en 7th et 8th."
+    },
+    {
+      "text": "Electives & LEAD",
+      "of": "d9a1b901",
+      "at": [
+        "gaston-day:divisions[0].departments[1].name"
+      ],
+      "t": "Options et LEAD"
+    },
+    {
+      "text": "LEAD",
+      "of": "6238cfef",
+      "at": [
+        "gaston-day:divisions[0].departments[1].courses[0].title"
+      ],
+      "t": "LEAD"
+    },
+    {
+      "text": "A required course sequence carrying digital citizenship and life-skills instruction alongside advisory.",
+      "of": "b69b590d",
+      "at": [
+        "gaston-day:divisions[0].departments[1].courses[0].description"
+      ],
+      "t": "Une séquence de cours obligatoire qui assure l’enseignement de la citoyenneté numérique et des compétences de vie, en parallèle du tutorat."
+    },
+    {
+      "text": "One of four fine-arts electives Middle School students choose between.",
+      "of": "042311af",
+      "at": [
+        "gaston-day:divisions[0].departments[1].courses[1].description"
+      ],
+      "t": "L’une des quatre options de beaux-arts entre lesquelles les élèves du Middle School choisissent."
+    },
+    {
+      "text": "Continues the drama sequence that begins in second grade in the Lower School.",
+      "of": "ad25f1c8",
+      "at": [
+        "gaston-day:divisions[0].departments[1].courses[2].description"
+      ],
+      "t": "Poursuit la séquence de théâtre qui commence en deuxième année à la Lower School."
+    },
+    {
+      "text": "The Middle School Chorus, which performs alongside the instrumental ensemble.",
+      "of": "add8a04e",
+      "at": [
+        "gaston-day:divisions[0].departments[1].courses[3].description"
+      ],
+      "t": "Le Middle School Chorus, qui se produit aux côtés de l’ensemble instrumental."
+    },
+    {
+      "text": "Feeds the MS Instrumental Ensemble — woodwinds, brass, percussion, piano and guitar.",
+      "of": "991bb5e0",
+      "at": [
+        "gaston-day:divisions[0].departments[1].courses[4].description"
+      ],
+      "t": "Alimente le MS Instrumental Ensemble — bois, cuivres, percussions, piano et guitare."
+    },
+    {
+      "text": "46 named courses across eight departments, including 10 AP courses and one dual-enrollment course taught by Gaston Day faculty.",
+      "of": "82392cef",
+      "at": [
+        "gaston-day:divisions[1].teaser"
+      ],
+      "t": "46 cours nommés répartis dans huit départements, dont 10 cours AP et un cours en inscription simultanée (dual enrollment) assuré par des enseignants de Gaston Day."
+    },
+    {
+      "text": "First of the four required years of English.",
+      "of": "97849943",
+      "at": [
+        "gaston-day:divisions[1].departments[0].courses[0].description"
+      ],
+      "t": "La première des quatre années d’anglais obligatoires."
+    },
+    {
+      "text": "Second-year English, offered at the Honors level.",
+      "of": "4809f909",
+      "at": [
+        "gaston-day:divisions[1].departments[0].courses[1].description"
+      ],
+      "t": "Anglais de deuxième année, proposé au niveau Honors."
+    },
+    {
+      "text": "Upper-level survey offered at the Honors level.",
+      "of": "7fd423da",
+      "at": [
+        "gaston-day:divisions[1].departments[0].courses[2].description",
+        "gaston-day:divisions[1].departments[0].courses[3].description"
+      ],
+      "t": "Panorama de niveau supérieur, proposé au niveau Honors."
+    },
+    {
+      "text": "English Literature & Composition",
+      "of": "098482ae",
+      "at": [
+        "gaston-day:divisions[1].departments[0].courses[4].title"
+      ],
+      "t": "English Literature & Composition"
+    },
+    {
+      "text": "College-level literary analysis; all AP students must sit the exam.",
+      "of": "24f6092d",
+      "at": [
+        "gaston-day:divisions[1].departments[0].courses[4].description"
+      ],
+      "t": "Analyse littéraire de niveau universitaire ; tous les élèves en AP doivent passer l’examen."
+    },
+    {
+      "text": "English Language & Composition",
+      "of": "02da69fb",
+      "at": [
+        "gaston-day:divisions[1].departments[0].courses[5].title"
+      ],
+      "t": "English Language & Composition"
+    },
+    {
+      "text": "College-level rhetoric and composition; all AP students must sit the exam.",
+      "of": "813e2ebc",
+      "at": [
+        "gaston-day:divisions[1].departments[0].courses[5].description"
+      ],
+      "t": "Rhétorique et expression écrite de niveau universitaire ; tous les élèves en AP doivent passer l’examen."
+    },
+    {
+      "text": "Required for graduation; also available in Middle School at the Honors level.",
+      "of": "d11f57b3",
+      "at": [
+        "gaston-day:divisions[1].departments[1].courses[0].description"
+      ],
+      "t": "Obligatoire pour l’obtention du diplôme ; également accessible au Middle School au niveau Honors."
+    },
+    {
+      "text": "Required for graduation, offered at the Honors level.",
+      "of": "974b6249",
+      "at": [
+        "gaston-day:divisions[1].departments[1].courses[1].description",
+        "gaston-day:divisions[1].departments[1].courses[2].description",
+        "gaston-day:divisions[1].departments[3].courses[0].description"
+      ],
+      "t": "Obligatoire pour l’obtention du diplôme, proposé au niveau Honors."
+    },
+    {
+      "text": "PreCalculus",
+      "of": "f13e04aa",
+      "at": [
+        "gaston-day:divisions[1].departments[1].courses[3].title"
+      ],
+      "t": "PreCalculus"
+    },
+    {
+      "text": "Bridge course into the calculus sequence.",
+      "of": "2843b533",
+      "at": [
+        "gaston-day:divisions[1].departments[1].courses[3].description"
+      ],
+      "t": "Cours passerelle vers la séquence de calcul."
+    },
+    {
+      "text": "Advanced Functions and Models",
+      "of": "7bb9c573",
+      "at": [
+        "gaston-day:divisions[1].departments[1].courses[4].title"
+      ],
+      "t": "Advanced Functions and Models"
+    },
+    {
+      "text": "A fourth-year mathematics option for students not continuing to calculus.",
+      "of": "2f3648c2",
+      "at": [
+        "gaston-day:divisions[1].departments[1].courses[4].description"
+      ],
+      "t": "Une option de mathématiques de quatrième année pour les élèves qui ne poursuivent pas vers le calcul."
+    },
+    {
+      "text": "Honors calculus, offered alongside the two AP calculus courses.",
+      "of": "5b92db79",
+      "at": [
+        "gaston-day:divisions[1].departments[1].courses[5].description"
+      ],
+      "t": "Calcul au niveau Honors, proposé aux côtés des deux cours AP de calcul."
+    },
+    {
+      "text": "Honors statistics as a fourth-year mathematics option.",
+      "of": "6e40b237",
+      "at": [
+        "gaston-day:divisions[1].departments[1].courses[6].description"
+      ],
+      "t": "Statistiques au niveau Honors, comme option de mathématiques de quatrième année."
+    },
+    {
+      "text": "Calculus AB",
+      "of": "e41733fc",
+      "at": [
+        "gaston-day:divisions[1].departments[1].courses[7].title"
+      ],
+      "t": "Calculus AB"
+    },
+    {
+      "text": "First-semester college calculus; all AP students must sit the exam.",
+      "of": "e3870c8f",
+      "at": [
+        "gaston-day:divisions[1].departments[1].courses[7].description"
+      ],
+      "t": "Calcul universitaire de premier semestre ; tous les élèves en AP doivent passer l’examen."
+    },
+    {
+      "text": "Calculus BC",
+      "of": "bd14b800",
+      "at": [
+        "gaston-day:divisions[1].departments[1].courses[8].title"
+      ],
+      "t": "Calculus BC"
+    },
+    {
+      "text": "Extends AB through series and further integration techniques.",
+      "of": "3a3064cb",
+      "at": [
+        "gaston-day:divisions[1].departments[1].courses[8].description"
+      ],
+      "t": "Prolonge AB par les séries et des techniques d’intégration supplémentaires."
+    },
+    {
+      "text": "Honors / AP",
+      "of": "853ba52a",
+      "at": [
+        "gaston-day:divisions[1].departments[2].courses[0].tag",
+        "gaston-day:divisions[1].departments[2].courses[1].tag",
+        "gaston-day:divisions[1].departments[3].courses[1].tag",
+        "gaston-day:divisions[1].departments[3].courses[2].tag"
+      ],
+      "t": "Honors / AP"
+    },
+    {
+      "text": "Required lab science, offered at both Honors and AP level.",
+      "of": "07e4fcc7",
+      "at": [
+        "gaston-day:divisions[1].departments[2].courses[0].description",
+        "gaston-day:divisions[1].departments[2].courses[1].description"
+      ],
+      "t": "Science expérimentale obligatoire, proposée aux niveaux Honors et AP."
+    },
+    {
+      "text": "Environmental Science",
+      "of": "e7a2758d",
+      "at": [
+        "gaston-day:divisions[1].departments[2].courses[2].title"
+      ],
+      "t": "Environmental Science"
+    },
+    {
+      "text": "A third-year lab science option at the Honors level.",
+      "of": "8d493c6e",
+      "at": [
+        "gaston-day:divisions[1].departments[2].courses[2].description"
+      ],
+      "t": "Une option de science expérimentale de troisième année, au niveau Honors."
+    },
+    {
+      "text": "Honors physics, the prerequisite tier beneath AP Physics II.",
+      "of": "d5eeb4f3",
+      "at": [
+        "gaston-day:divisions[1].departments[2].courses[3].description"
+      ],
+      "t": "Physique au niveau Honors, le palier prérequis en dessous d’AP Physics II."
+    },
+    {
+      "text": "Physics II",
+      "of": "dcf258bc",
+      "at": [
+        "gaston-day:divisions[1].departments[2].courses[4].title"
+      ],
+      "t": "Physics II"
+    },
+    {
+      "text": "The AP physics offering, implying a two-year physics sequence.",
+      "of": "864db0ae",
+      "at": [
+        "gaston-day:divisions[1].departments[2].courses[4].description"
+      ],
+      "t": "L’offre AP en physique, ce qui suppose une séquence de physique sur deux ans."
+    },
+    {
+      "text": "Required for graduation, offered at both Honors and AP level.",
+      "of": "70979d3b",
+      "at": [
+        "gaston-day:divisions[1].departments[3].courses[1].description",
+        "gaston-day:divisions[1].departments[3].courses[2].description"
+      ],
+      "t": "Obligatoire pour l’obtention du diplôme, proposé aux niveaux Honors et AP."
+    },
+    {
+      "text": "Spanish I, II, III",
+      "of": "82735e1f",
+      "at": [
+        "gaston-day:divisions[1].departments[4].courses[0].title"
+      ],
+      "t": "Spanish I, II, III"
+    },
+    {
+      "text": "Completion through Level III is required for graduation; the requirement may also be met in French.",
+      "of": "713afca6",
+      "at": [
+        "gaston-day:divisions[1].departments[4].courses[0].description"
+      ],
+      "t": "L’achèvement jusqu’au niveau III est obligatoire pour l’obtention du diplôme ; cette exigence peut également être satisfaite en français."
+    },
+    {
+      "text": "Spanish IV",
+      "of": "8ae7832a",
+      "at": [
+        "gaston-day:divisions[1].departments[4].courses[1].title"
+      ],
+      "t": "Spanish IV"
+    },
+    {
+      "text": "The terminal Spanish course, beyond the graduation requirement.",
+      "of": "74478fea",
+      "at": [
+        "gaston-day:divisions[1].departments[4].courses[1].description"
+      ],
+      "t": "Le cours d’espagnol terminal, au-delà de l’exigence de diplôme."
+    },
+    {
+      "text": "One of four fine-arts courses counting toward the two-year requirement.",
+      "of": "b2a9983b",
+      "at": [
+        "gaston-day:divisions[1].departments[5].courses[0].description"
+      ],
+      "t": "L’un des quatre cours de beaux-arts comptant pour l’exigence de deux années."
+    },
+    {
+      "text": "Vocal ensemble carrying fine-arts credit.",
+      "of": "6d74514a",
+      "at": [
+        "gaston-day:divisions[1].departments[5].courses[1].description"
+      ],
+      "t": "Ensemble vocal donnant droit à des crédits de beaux-arts."
+    },
+    {
+      "text": "Theatre course; the school stages two major productions a year including a spring musical.",
+      "of": "08e19154",
+      "at": [
+        "gaston-day:divisions[1].departments[5].courses[2].description"
+      ],
+      "t": "Cours de théâtre ; l’école monte deux grandes productions par an, dont une comédie musicale au printemps."
+    },
+    {
+      "text": "Visual Art I, II, III",
+      "of": "a680d73a",
+      "at": [
+        "gaston-day:divisions[1].departments[5].courses[3].title"
+      ],
+      "t": "Visual Art I, II, III"
+    },
+    {
+      "text": "A three-step sequence covering drawing, painting, ceramics, printmaking and portfolio development.",
+      "of": "9bdc59d8",
+      "at": [
+        "gaston-day:divisions[1].departments[5].courses[3].description"
+      ],
+      "t": "Une séquence en trois étapes couvrant le dessin, la peinture, la céramique, la gravure et la constitution d’un portfolio."
+    },
+    {
+      "text": "Visual Art IV",
+      "of": "3edcd427",
+      "at": [
+        "gaston-day:divisions[1].departments[5].courses[4].title"
+      ],
+      "t": "Visual Art IV"
+    },
+    {
+      "text": "The terminal visual-arts course — there is no AP Studio Art.",
+      "of": "5cffc833",
+      "at": [
+        "gaston-day:divisions[1].departments[5].courses[4].description"
+      ],
+      "t": "Le cours terminal d’arts plastiques — il n’existe pas d’AP Studio Art."
+    },
+    {
+      "text": "PE / Health",
+      "of": "2205c997",
+      "at": [
+        "gaston-day:divisions[1].departments[6].name"
+      ],
+      "t": "Éducation physique / Santé"
+    },
+    {
+      "text": "Counts toward the one-year PE/Health graduation requirement.",
+      "of": "6d29da3a",
+      "at": [
+        "gaston-day:divisions[1].departments[6].courses[0].description",
+        "gaston-day:divisions[1].departments[6].courses[1].description"
+      ],
+      "t": "Compte pour l’exigence d’une année d’EPS/santé requise pour le diplôme."
+    },
+    {
+      "text": "Health and Wellness",
+      "of": "a662147d",
+      "at": [
+        "gaston-day:divisions[1].departments[6].courses[1].title"
+      ],
+      "t": "Health and Wellness"
+    },
+    {
+      "text": "AP Computer Science",
+      "of": "76f1574b",
+      "at": [
+        "gaston-day:divisions[1].departments[7].courses[0].title"
+      ],
+      "t": "AP Computer Science"
+    },
+    {
+      "text": "The tenth AP course, supported by a makerspace with 3-D printers, laser cutters and CNC machines.",
+      "of": "01d42c74",
+      "at": [
+        "gaston-day:divisions[1].departments[7].courses[0].description"
+      ],
+      "t": "Le dixième cours AP, appuyé par un makerspace équipé d’imprimantes 3-D, de découpeuses laser et de machines CNC."
+    },
+    {
+      "text": "Honors engineering, taught alongside the makerspace facilities.",
+      "of": "1f735478",
+      "at": [
+        "gaston-day:divisions[1].departments[7].courses[1].description"
+      ],
+      "t": "Ingénierie au niveau Honors, enseignée en lien avec les installations du makerspace."
+    },
+    {
+      "text": "Feeds the VEX Robotics team that reached TSA VEX Nationals in 2023.",
+      "of": "97424e67",
+      "at": [
+        "gaston-day:divisions[1].departments[7].courses[2].description"
+      ],
+      "t": "Alimente l’équipe de VEX Robotics qui a atteint les TSA VEX Nationals en 2023."
+    },
+    {
+      "text": "Intro to Business",
+      "of": "f13f1da0",
+      "at": [
+        "gaston-day:divisions[1].departments[7].courses[3].title"
+      ],
+      "t": "Intro to Business"
+    },
+    {
+      "text": "Honors / DE",
+      "of": "4e481a88",
+      "at": [
+        "gaston-day:divisions[1].departments[7].courses[3].tag"
+      ],
+      "t": "Honors / DE"
+    },
+    {
+      "text": "The one dual-enrollment course taught by Gaston Day faculty; DE credit is not calculated into the GPA.",
+      "of": "1b7ac333",
+      "at": [
+        "gaston-day:divisions[1].departments[7].courses[3].description"
+      ],
+      "t": "Le seul cours en inscription simultanée (dual enrollment) assuré par des enseignants de Gaston Day ; les crédits DE n’entrent pas dans le calcul du GPA."
+    },
+    {
+      "text": "Feeds Blutopia, the student literary and art magazine.",
+      "of": "5e090e4c",
+      "at": [
+        "gaston-day:divisions[1].departments[7].courses[4].description"
+      ],
+      "t": "Alimente Blutopia, la revue littéraire et artistique des élèves."
+    },
+    {
+      "text": "Speech & Debate",
+      "of": "cd1e171a",
+      "at": [
+        "gaston-day:divisions[1].departments[7].courses[5].title"
+      ],
+      "t": "Speech & Debate"
+    },
+    {
+      "text": "Supports the Public Debate Club and Mock Trial.",
+      "of": "f82c4f41",
+      "at": [
+        "gaston-day:divisions[1].departments[7].courses[5].description"
+      ],
+      "t": "Soutient le Public Debate Club et le Mock Trial."
+    },
+    {
+      "text": "Social-science elective.",
+      "of": "06ae3fce",
+      "at": [
+        "gaston-day:divisions[1].departments[7].courses[6].description"
+      ],
+      "t": "Option de sciences sociales."
+    },
+    {
+      "text": "Human Geography",
+      "of": "72acf09c",
+      "at": [
+        "gaston-day:divisions[1].departments[7].courses[7].title"
+      ],
+      "t": "Human Geography"
+    },
+    {
+      "text": "Social-science elective; also taught in Middle School at grade level.",
+      "of": "4babaa6f",
+      "at": [
+        "gaston-day:divisions[1].departments[7].courses[7].description"
+      ],
+      "t": "Option de sciences sociales ; également enseignée au Middle School au niveau de la classe."
+    },
+    {
+      "text": "Human Health and Medicine",
+      "of": "efdc4117",
+      "at": [
+        "gaston-day:divisions[1].departments[7].courses[8].title"
+      ],
+      "t": "Human Health and Medicine"
+    },
+    {
+      "text": "Pre-health elective.",
+      "of": "3c6183f0",
+      "at": [
+        "gaston-day:divisions[1].departments[7].courses[8].description"
+      ],
+      "t": "Option d’orientation vers les métiers de la santé."
+    },
+    {
+      "text": "World Views",
+      "of": "12841b85",
+      "at": [
+        "gaston-day:divisions[1].departments[7].courses[9].title"
+      ],
+      "t": "World Views"
+    },
+    {
+      "text": "Elective examining differing worldviews.",
+      "of": "7154ae26",
+      "at": [
+        "gaston-day:divisions[1].departments[7].courses[9].description"
+      ],
+      "t": "Option consacrée à l’examen de visions du monde divergentes."
+    },
+    {
+      "text": "Music Appreciation",
+      "of": "0e32ae83",
+      "at": [
+        "gaston-day:divisions[1].departments[7].courses[10].title"
+      ],
+      "t": "Music Appreciation"
+    },
+    {
+      "text": "Arts-adjacent elective.",
+      "of": "72b87fdb",
+      "at": [
+        "gaston-day:divisions[1].departments[7].courses[10].description"
+      ],
+      "t": "Option connexe aux arts."
+    },
+    {
+      "text": "Cinema Studies",
+      "of": "e6a3bc4b",
+      "at": [
+        "gaston-day:divisions[1].departments[7].courses[11].title"
+      ],
+      "t": "Cinema Studies"
+    },
+    {
+      "text": "Arts-adjacent elective in film analysis.",
+      "of": "ccc12480",
+      "at": [
+        "gaston-day:divisions[1].departments[7].courses[11].description"
+      ],
+      "t": "Option connexe aux arts, consacrée à l’analyse filmique."
+    },
+    {
+      "text": "Student publication carrying course credit.",
+      "of": "0da49365",
+      "at": [
+        "gaston-day:divisions[1].departments[7].courses[12].description"
+      ],
+      "t": "Publication des élèves donnant droit à des crédits de cours."
+    },
+    {
+      "text": "Strength & Conditioning I, II, III",
+      "of": "33b19365",
+      "at": [
+        "gaston-day:divisions[1].departments[7].courses[13].title"
+      ],
+      "t": "Strength & Conditioning I, II, III"
+    },
+    {
+      "text": "A three-level athletic-performance elective sequence.",
+      "of": "76120750",
+      "at": [
+        "gaston-day:divisions[1].departments[7].courses[13].description"
+      ],
+      "t": "Une séquence d’options en trois niveaux consacrée à la performance athlétique."
     }
   ]
 }

@@ -64,7 +64,8 @@
         "covenant-day:offered.seasons[0].name",
         "davidson-day:offered.seasons[0].name",
         "carmel-christian:offered.seasons[0].name",
-        "hickory-grove-christian:offered.seasons[0].name"
+        "hickory-grove-christian:offered.seasons[0].name",
+        "gaston-day:offered.seasons[0].name"
       ]
     },
     {
@@ -90,7 +91,8 @@
         "covenant-day:offered.seasons[1].name",
         "davidson-day:offered.seasons[1].name",
         "carmel-christian:offered.seasons[1].name",
-        "hickory-grove-christian:offered.seasons[1].name"
+        "hickory-grove-christian:offered.seasons[1].name",
+        "gaston-day:offered.seasons[1].name"
       ]
     },
     {
@@ -105,7 +107,8 @@
         "covenant-day:offered.seasons[2].name",
         "davidson-day:offered.seasons[2].name",
         "carmel-christian:offered.seasons[2].name",
-        "hickory-grove-christian:offered.seasons[2].name"
+        "hickory-grove-christian:offered.seasons[2].name",
+        "gaston-day:offered.seasons[2].name"
       ]
     },
     {
@@ -183,7 +186,13 @@
         "carmel-christian:record.rows[1].cells[0].result",
         "hickory-grove-christian:record.rows[0].cells[0].result",
         "hickory-grove-christian:record.rows[0].cells[1].result",
-        "hickory-grove-christian:record.rows[1].cells[2].result"
+        "hickory-grove-christian:record.rows[1].cells[2].result",
+        "gaston-day:record.rows[0].cells[0].result",
+        "gaston-day:record.rows[0].cells[1].result",
+        "gaston-day:record.rows[0].cells[2].result",
+        "gaston-day:record.rows[1].cells[1].result",
+        "gaston-day:record.rows[1].cells[2].result",
+        "gaston-day:record.rows[2].cells[1].result"
       ]
     },
     {
@@ -294,7 +303,10 @@
         "hickory-grove-christian:record.rows[1].cells[1].result",
         "hickory-grove-christian:record.rows[2].cells[0].result",
         "hickory-grove-christian:record.rows[2].cells[1].result",
-        "hickory-grove-christian:record.rows[2].cells[2].result"
+        "hickory-grove-christian:record.rows[2].cells[2].result",
+        "gaston-day:record.rows[1].cells[0].result",
+        "gaston-day:record.rows[2].cells[0].result",
+        "gaston-day:record.rows[2].cells[2].result"
       ]
     },
     {
@@ -5117,7 +5129,8 @@
       "t": "Athletic Director",
       "of": "e3e4c54b",
       "at": [
-        "covenant-day:coaching.tenure[1].role"
+        "covenant-day:coaching.tenure[1].role",
+        "gaston-day:facilities.care[0].label"
       ]
     },
     {
@@ -6445,6 +6458,308 @@
       "of": "11d8c8cf",
       "at": [
         "hickory-grove-christian:coaching.worthKnowing"
+      ]
+    },
+    {
+      "t": "19 sports collectifs sur trois saisons, avec environ 70% des élèves des niveaux 6 à 12 pratiquant au moins l’un d’eux.",
+      "of": "19459ea5",
+      "at": [
+        "gaston-day:offered.headline"
+      ]
+    },
+    {
+      "t": "Un programme NCISAA 2A qui a remporté huit titres d’État par équipe depuis 2021 — un rythme de titres bien plus élevé que ne le laisserait supposer l’effectif de 510 élèves de l’école.",
+      "of": "203ff4ca",
+      "at": [
+        "gaston-day:offered.subhead"
+      ]
+    },
+    {
+      "t": "sports collectifs sur trois saisons",
+      "of": "1427439e",
+      "at": [
+        "gaston-day:offered.stats[0].label"
+      ]
+    },
+    {
+      "t": "des niveaux 6 à 12 pratiquent au moins un sport",
+      "of": "7cdb734c",
+      "at": [
+        "gaston-day:offered.stats[1].label"
+      ]
+    },
+    {
+      "t": "titres d’État par équipe NCISAA 2A depuis 2021",
+      "of": "025948af",
+      "at": [
+        "gaston-day:offered.stats[2].label"
+      ]
+    },
+    {
+      "t": "Classification NCISAA",
+      "of": "ffd173a8",
+      "at": [
+        "gaston-day:offered.stats[3].label"
+      ]
+    },
+    {
+      "t": "7 équipes",
+      "of": "5a9f4260",
+      "at": [
+        "gaston-day:offered.seasons[0].note",
+        "gaston-day:offered.seasons[2].note"
+      ]
+    },
+    {
+      "t": "5 équipes",
+      "of": "054d512e",
+      "at": [
+        "gaston-day:offered.seasons[1].note"
+      ]
+    },
+    {
+      "t": "Les niveaux indiqués sont ceux que les sources publient effectivement. Le volley-ball est le seul sport dont l’échelonnement est documenté — MaxPreps y recense des équipes varsity, JV et freshman — il est donc la seule ligne à porter une puce JV ; tous les autres sports n’affichent que V, parce que le site d’athlétisme qui recenserait leur échelonnement est rendu en JavaScript et n’expose rien à une récupération automatisée. Le Middle School engage ses propres équipes en soccer, basketball, track & field et natation (niveaux 6 à 8, sous réserve du niveau scolaire et du comportement), mais l’école ne publie pas de liste complète des équipes MS : aucune puce MS n’est donc revendiquée. Cheering et track & field proviennent de Private School Review et non de la grille des saisons MaxPreps.",
+      "of": "7e4610bc",
+      "at": [
+        "gaston-day:offered.footnote"
+      ]
+    },
+    {
+      "t": "Huit titres d’État NCISAA 2A depuis 2021 — dont une année à trois titres en 2024–25, lorsque le volley-ball, le soccer garçons et le tennis filles l’ont tous emporté.",
+      "of": "741bb841",
+      "at": [
+        "gaston-day:record.headline"
+      ]
+    },
+    {
+      "t": "Le tennis filles compte quatre titres et vise un troisième consécutif ; le volley-ball en compte trois et a atteint la finale 2025 en cinq sets.",
+      "of": "21136c62",
+      "at": [
+        "gaston-day:record.subhead"
+      ]
+    },
+    {
+      "t": "Quatre titres au total (2021, 2023, 2024, 2025) et trois d’affilée jusqu’en 2025 — victoire 5–1 sur Trinity School of Durham & Chapel Hill en 2023, puis sur Epiphany School en 2024 comme en 2025",
+      "of": "0e564ec1",
+      "at": [
+        "gaston-day:record.rows[0].note"
+      ]
+    },
+    {
+      "t": "Trois titres (2021, 2024, 2025) ; victoire nette sur Westminster Catawba le 26 oct. 2024, puis 3–2 face à St. Thomas More Academy le 25 oct. 2025. S’y ajoutent trois autres finales disputées et cinq titres de ligue sur la décennie",
+      "of": "958fe120",
+      "at": [
+        "gaston-day:record.rows[1].note"
+      ]
+    },
+    {
+      "t": "A blanchi Westchester Country Day pour le titre NCISAA 2A 2024",
+      "of": "e69b4ba4",
+      "at": [
+        "gaston-day:record.rows[2].note"
+      ]
+    },
+    {
+      "t": "tous les autres programmes. Les huit titres depuis 2021 se concentrent dans exactement trois sports — tennis filles, volley-ball et soccer garçons — et l’école ne publie aucun palmarès pour les seize autres : ce bilan traduit donc une force concentrée plutôt qu’une profondeur d’ensemble.",
+      "of": "e64dee8f",
+      "at": [
+        "gaston-day:record.didNotWin"
+      ]
+    },
+    {
+      "t": "Le programme le plus titré de l’école : champions NCISAA 2A en 2021, 2023, 2024 et 2025. La victoire de 2024 sur Epiphany School a été présentée par la presse comme le troisième titre d’État du programme en quatre ans et le quatrième au total ; la victoire de 2025 sur le même adversaire a porté la série à trois consécutifs.",
+      "of": "f977b315",
+      "at": [
+        "gaston-day:record.seasonDetail[0].text"
+      ]
+    },
+    {
+      "t": "A remporté le titre 2A en 2021, puis de nouveau en 2024 et 2025 sous la direction de l’entraîneur principal Derek Bing. La finale 2025 face à St. Thomas More Academy est allée au bout des cinq sets, 3–2, le 25 octobre 2025. Au-delà des trois titres, le programme a atteint trois autres finales et enlevé cinq titres de ligue sur la décennie.",
+      "of": "1eef43a1",
+      "at": [
+        "gaston-day:record.seasonDetail[1].text"
+      ]
+    },
+    {
+      "t": "A remporté le titre NCISAA 2A 2024 en blanchissant Westchester Country Day, complétant une année scolaire à trois titres aux côtés du volley-ball et du tennis filles — une série que la presse locale a titrée \"Déjà vu\".",
+      "of": "210e1e59",
+      "at": [
+        "gaston-day:record.seasonDetail[2].text"
+      ]
+    },
+    {
+      "t": "Le palmarès individuel public est mince à côté du bilan en championnats — l’école publie des résultats d’équipe, pas des distinctions individuelles.",
+      "of": "cac2ab89",
+      "at": [
+        "gaston-day:honors.headline"
+      ]
+    },
+    {
+      "t": "Aucun ancien élève professionnel, aucune liste All-State ni récompense de joueur de l’année n’apparaît dans une source publiée, et le site d’athlétisme qui les porterait n’est pas exploitable par une machine.",
+      "of": "515d1b36",
+      "at": [
+        "gaston-day:honors.subhead"
+      ]
+    },
+    {
+      "t": "2025",
+      "of": "41293f26",
+      "at": [
+        "gaston-day:honors.honors[0].label"
+      ]
+    },
+    {
+      "t": "Tennis filles — champions d’État NCISAA 2A, troisième titre consécutif (vict. Epiphany School). Volley-ball — champions d’État NCISAA 2A (vict. St. Thomas More Academy 3–2, 25 oct.).",
+      "of": "819d4e61",
+      "at": [
+        "gaston-day:honors.honors[0].text"
+      ]
+    },
+    {
+      "t": "2024",
+      "of": "422940b9",
+      "at": [
+        "gaston-day:honors.honors[1].label"
+      ]
+    },
+    {
+      "t": "Volley-ball — champions d’État NCISAA 2A (victoire nette sur Westminster Catawba, 26 oct.). Soccer garçons — champions d’État NCISAA 2A (vict. Westchester Country Day). Tennis filles — champions d’État NCISAA 2A, deuxième consécutif.",
+      "of": "10a88e51",
+      "at": [
+        "gaston-day:honors.honors[1].text"
+      ]
+    },
+    {
+      "t": "2023",
+      "of": "4329424c",
+      "at": [
+        "gaston-day:honors.honors[2].label"
+      ]
+    },
+    {
+      "t": "Tennis filles — champions d’État NCISAA 2A, vict. Trinity School of Durham & Chapel Hill 5–1.",
+      "of": "a33019ab",
+      "at": [
+        "gaston-day:honors.honors[2].text"
+      ]
+    },
+    {
+      "t": "2021",
+      "of": "45294572",
+      "at": [
+        "gaston-day:honors.honors[3].label"
+      ]
+    },
+    {
+      "t": "Volley-ball et tennis filles — champions d’État NCISAA 2A, le premier titre de la série en cours de chacun des deux programmes.",
+      "of": "8b5e46d8",
+      "at": [
+        "gaston-day:honors.honors[3].text"
+      ]
+    },
+    {
+      "t": "Décennie",
+      "of": "64db5029",
+      "at": [
+        "gaston-day:honors.honors[4].label"
+      ]
+    },
+    {
+      "t": "Volley-ball — trois autres finales NCISAA disputées et cinq titres de ligue, en plus des trois championnats.",
+      "of": "171a80c5",
+      "at": [
+        "gaston-day:honors.honors[4].text"
+      ]
+    },
+    {
+      "t": "Un campus de 60 acres accueillant 19 sports, avec un service des sports dirigé par une seule responsable nommément identifiée.",
+      "of": "10c1b3fd",
+      "at": [
+        "gaston-day:facilities.headline"
+      ]
+    },
+    {
+      "t": "Le détail des installations est le point le plus faible du dossier public ici — l’école ne publie aucun inventaire d’équipements, et le site d’athlétisme est rendu en JavaScript.",
+      "of": "3541c9bd",
+      "at": [
+        "gaston-day:facilities.subhead"
+      ]
+    },
+    {
+      "t": "60 acres à Gastonia, desservant un bassin de recrutement de cinq comtés — Gaston, Lincoln, Cleveland, Mecklenburg et York.",
+      "of": "038a61f0",
+      "at": [
+        "gaston-day:facilities.venues[0].detail"
+      ]
+    },
+    {
+      "t": "550 places, éclairage et sonorisation modernes, et un studio de danse professionnel. Le seul lieu du campus que l’école décrit en détail — il sert les arts plutôt que le sport, et il est traité dans les cartes Arts.",
+      "of": "9d4d522c",
+      "at": [
+        "gaston-day:facilities.venues[1].detail"
+      ]
+    },
+    {
+      "t": "Non publié. Aucun inventaire de gymnases, terrains, courts ou bassins n’apparaît sur une page accessible ; les modalités d’accueil pour la natation et la lutte ne sont pas précisées.",
+      "of": "4d3ff496",
+      "at": [
+        "gaston-day:facilities.venues[2].detail"
+      ]
+    },
+    {
+      "t": "Lulu Brase, nommée dans l’Academic Profile de l’école elle-même. Elle codirige également le programme de camps d’été.",
+      "of": "fbcbfd5c",
+      "at": [
+        "gaston-day:facilities.care[0].text"
+      ]
+    },
+    {
+      "t": "Préparation sportive / médecine du sport",
+      "of": "74ce2ced",
+      "at": [
+        "gaston-day:facilities.care[1].label"
+      ]
+    },
+    {
+      "t": "Non publié. Aucun préparateur sportif, médecin d’équipe ni protocole commotion n’est nommé dans une source accessible.",
+      "of": "43e1de69",
+      "at": [
+        "gaston-day:facilities.care[1].text"
+      ]
+    },
+    {
+      "t": "Éligibilité",
+      "of": "6febc86e",
+      "at": [
+        "gaston-day:facilities.care[2].label"
+      ]
+    },
+    {
+      "t": "La participation au Middle School (niveaux 6 à 8) est conditionnée au niveau scolaire et à un comportement positif — la seule règle d’éligibilité que l’école énonce publiquement.",
+      "of": "e86a2690",
+      "at": [
+        "gaston-day:facilities.care[2].text"
+      ]
+    },
+    {
+      "t": "Documents de référence",
+      "of": "afcbdec0",
+      "at": [
+        "gaston-day:facilities.care[3].label"
+      ]
+    },
+    {
+      "t": "Le site d’athlétisme mentionne un Athletic Department Handbook 2026-2027 et des informations sur les sélections, mais les deux se trouvent derrière la couche rendue en JS et n’ont pas pu être récupérés.",
+      "of": "4d69e28c",
+      "at": [
+        "gaston-day:facilities.care[3].text"
+      ]
+    },
+    {
+      "t": "Cette carte est volontairement courte. Toutes les écoles homologues de cette liste publient un inventaire de leurs installations ; Gaston Day ne le fait pas, et le seul document qui le porterait (l’Athletic Handbook) est inaccessible. Il s’agit d’une lacune de publication, non d’une absence d’installations — un campus qui engage 19 sports en possède manifestement.",
+      "of": "38ee3a38",
+      "at": [
+        "gaston-day:facilities.careNote"
       ]
     }
   ]
