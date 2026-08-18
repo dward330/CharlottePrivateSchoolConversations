@@ -1,11 +1,11 @@
 ---
 name: add-gaston-day
 title: Add Gaston Day School as the 10th school
-status: english-done
+status: implemented
 phases: 2
 created: 2026-08-18
 branch: feat/add-gaston-day
-prs: []
+prs: [146]
 ---
 
 # Add Gaston Day School as the 10th school
@@ -623,3 +623,96 @@ fixes, all recorded below.
 - Two Compare cells hold prose worth watching in translation: the after-school
   discrepancy flags, and the `latest-pickup` / `aftercare-cost` tooltips, which explain a
   conflict between two of the school's own sources.
+
+---
+
+## Implementation notes — Phase 2 (locales), 2026-08-18
+
+**Status: shipped.** All nine `PROSE_TRANSLATED` locales (`es, it, bn, ar, fr, ht, hi, fa,
+te`) carry Gaston Day's full prose surface — **967 strings each, 8,703 total**. Both phases
+are in PR #146.
+
+### Two Phase-1 defects the extraction surfaced
+
+Neither was visible to any check; both would have shipped English to all nine locales.
+
+1. **Five lifted chrome headings.** `pathTitle`, `holdsUpTitle`, `adjacentTitle` and both
+   `checklistTitle`s were byte-identical to the `sections.*` / `cardLabels.*` fallback they
+   override, which pins the heading to English everywhere. Deleted, so each falls back to
+   its translated catalog string. The nine that genuinely diverge were kept and added to
+   `PROSE_KEYS` — which also cleared the **15 unclassified field paths** `i18n_extract.mjs`
+   was silently excluding. `artsProgram.ts`'s `askTitle` was dead (declared, never read) and
+   was removed.
+2. **Provenance rendering to readers.** "Compiled by: Claude Code deep research pass" was
+   visible on the financial-aid page. The source used `**Provenance**` where every other
+   school uses `## Provenance`, so ingest never made it its own subtopic and
+   `INTERNAL_SUBTOPICS` in `src/lib/content.ts` could not see it. Fixed at the source (six
+   sibling `###` promoted to `##` so the block stays bounded) and re-ingested.
+
+### A second extraction path the plan did not anticipate
+
+The plan's step 1 covers `src/data/**`. The **`src/content` overlay layer is separate**, has
+no `guardExisting`, and held **zero** Gaston Day sections. Only `financial-aid-tuition`
+carries live blocks (`student-clubs` reports 0 — every section is card-replaced), and it
+needed its own hash-preserving merge. Verified by content — 971 strings with `iGEM`,
+`Camp Spartan`, `Gastonia` present — not by a coverage number.
+
+### `npm run check:runtime` was only ever checking French
+
+It was pinned to `--lang fr` in `package.json`. This is the authoritative guard — the one
+check that catches an overlay silently falling back to English while coverage reads 100% —
+so **eight of nine locales were shipping unverified by it**. Now sweeps every locale in
+`PROSE_TRANSLATED` via `scripts/check_runtime_all.mjs`; `check:runtime:one` keeps the
+single-locale form. It found 7 orphaned entries on its first run (stale stamps from Phase
+1's Carmel corrections), cleared by rebuilding.
+
+### Defects found and fixed during translation
+
+- **A dropped clause** in Kreyòl: the senior-capstone string lost "with documentation and
+  reporting throughout — and carries 0.25 credit" entirely. Fluent output, missing a
+  sentence — caught by comparing the multiset of numeric tokens against the English, not by
+  `check:sepdrift`, which passed.
+- **`Choice time`** left English in `hi` **and** `te` while six locales translated it and
+  both translate every sibling label in the same card.
+- **`Arts`** left English in `it` (now `Arti`), found by the cross-locale leak triage.
+- An Arabic string spelling **`68` as words** rather than keeping the digits.
+- Three Spanish entries an interrupted early run had filled with **raw English**.
+
+### The browser print-out earned its place again
+
+Panels forced open (40 `<details>` per locale, ~93k → ~108k chars). It found
+**`Private lessons with contracted professional musicians`** rendering English in every
+locale: it sits in `ensembles`, classified "proper noun — ensemble name" and skipped from
+extraction. Coverage read 100% because the field was never extracted at all. This is the
+**fourth** instance of the recorded shape — a field right for most values and wrong for a
+few — after `value`, `tier` and `kind`.
+
+Fixed at the data layer (`Private lessons`, detail moved to the already-prose `boardNote`)
+rather than by flipping the path: `music.tracks[].ensembles` holds 95 values of which 91 are
+genuine proper nouns, and the extractor matches by path suffix, so reclassifying would
+re-open a topic complete in nine languages to translate ensemble names that must stay
+English. **Four sibling occurrences remain** in cannon / charlotte-country-day /
+davidson-day, recorded in `src/data/overlays/NOTES.md`.
+
+### One documentation bug corrected
+
+`NOTES.md` told Spanish translators to localize separators in prose figures
+(`20,642` → `20.642`) — the exact re-typing `check:sepdrift` now rejects, and the likely
+origin of the **178 drifted `es` tokens still open on `main`**. The rule postdates the note.
+Corrected to state the char-for-char requirement, with the history recorded.
+
+### Verification
+
+`check:runtime` all 9 locales resolve (10,268 entries each) · `check:translations` 100%, no
+drift · `check:sepdrift` 0 added drift (pre-existing: `es` 178, `ht` 1, `fa` 1) ·
+`check:fr` · `check:hi` · `check:fa` · `check:bidi` · `check:script` · `check:currency` ·
+`check:money` · `check:quals` · `check:schema` · `check:ranks` · `check:seo` · `tsc` ·
+`npm run build` — all clean. Browser print-out on all 10 locales, panels open, RTL correct
+for `fa`/`ar`, no pre-paint English flash.
+
+### Left undone, deliberately
+
+- The **178 pre-existing `es` drifted tokens** (unit conversions like `45,730 sq ft` →
+  `4.248 m²`) — a defect on `main`, not introduced here.
+- The **four remaining `ensembles` prose values** on other schools.
+- **Native-speaker review** for Kreyòl and Hindi, which both still ship unreviewed.
