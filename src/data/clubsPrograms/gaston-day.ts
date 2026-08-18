@@ -113,7 +113,6 @@ export const gastonDay: ClubsProgram = {
         feedsFrom: 'The Arts',
       },
     ],
-    adjacentTitle: 'Recognition that is not a society',
     adjacent: [
       {
         label: 'Honor Code & Honor Council',

@@ -219,7 +219,6 @@ export const gastonDay: ArtsProgram = {
       { name: 'Printmaking' },
       { name: 'Portfolio development', detail: 'Named explicitly in the Upper School visual-arts description' },
     ],
-    pathTitle: 'The course path',
     path: [
       { name: 'Visual Art I' },
       { name: 'Visual Art II' },
@@ -263,7 +262,6 @@ export const gastonDay: ArtsProgram = {
       'A serious arts programme for a 510-student school — a named 550-seat centre, a six-year adjudication record, and a student magazine with a national award history.',
     subhead:
       'What is missing is the record rather than the programme: almost nothing is published by year, by title or by name.',
-    holdsUpTitle: 'Why it holds up',
     holdsUp: [
       {
         label: 'The facility is real and named',
@@ -290,7 +288,6 @@ export const gastonDay: ArtsProgram = {
         text: 'The profile prints an ARTS grade distribution for 2024-25 (72% A+, 22% A, 5% A-), which few schools disclose. Read it as context for how the department grades rather than as a difficulty signal.',
       },
     ],
-    askTitle: 'Ask on the tour',
     ask: [
       'What were the last two years’ productions, and how many students were cast versus crewed?',
       'How large are Band, Concert Choir and the Vocal Performance Ensemble — and does everyone who auditions get a place?',

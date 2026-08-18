@@ -278,7 +278,6 @@ export const gastonDay: AfterSchoolProgram = {
       '**Late fees start fast** — $10 within the first five minutes, then $5 per five minutes.',
       '**Nothing published on ratios or capacity**, so there is no way to know how many children one adult supervises.',
     ],
-    checklistTitle: 'Ask on the tour',
     checklist: [
       'Which is current — 3:15–5:30 on the website, or the 3:00–6:00 and 4:00–6:00 on the fee schedule?',
       'Is the recurring rate $95 a week or $100 a month? What is the actual annual cost for five days?',

@@ -88,6 +88,19 @@ export const PROSE_KEYS = new Set([
   'footnoteTitle', 'timelineTitle', 'mechanicsTitle', 'collegesTitle',
   'wordsTitle', 'gpaTitle', 'rhythmTitle', 'catalogTitle', 'scheduleTitle',
   'scheduleNote', 'gpaHint', 'collegesTotal', 'periodsLabel',
+  // Surfaced by Gaston Day (2026-08-18), the first school to override these
+  // sub-headings. Each renders as `data.xTitle ?? t('sections.…')`, so the
+  // uniform test above decides it: these NINE genuinely diverge from their
+  // fallback and are research findings ("How the list scores against the
+  // selectivity tiers" vs the generic "The selectivity buckets"), so they are
+  // prose. Five siblings that were byte-identical to their fallback
+  // (pathTitle, holdsUpTitle, adjacentTitle, and both checklistTitles) were
+  // DELETED from the data rather than classified — a lifted heading pins that
+  // heading to English in every locale. artsProgram's `askTitle` was deleted
+  // too: the type declared it but no component ever read it.
+  'boardTitle', 'exhibitsTitle', 'strengthsTitle', 'watchoutsTitle',
+  'reachTitle', 'bucketsTitle', 'scholarshipsTitle', 'supportTitle',
+  'middleTitle',
   // Photo credits name a publisher and are half descriptive ("Photo: Providence
   // Day School athletics"); the leading noun reads as chrome in Spanish.
   'credit',

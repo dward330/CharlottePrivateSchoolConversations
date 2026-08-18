@@ -241,7 +241,6 @@ export type Verdict = {
   holdsUpTitle?: string
   /** The "why it holds up" checkmark rows. */
   holdsUp: { label: string; text: string }[]
-  askTitle?: string
   /** Tickable "ask on the tour" questions. */
   ask: string[]
   sources: ArtsSource[]

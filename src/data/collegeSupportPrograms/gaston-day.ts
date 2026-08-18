@@ -630,7 +630,6 @@ export const gastonDay: CollegeSupportProgram = {
       { label: 'The acceptance breadth is genuine', text: '**231 institutions** including Yale, Stanford, Dartmouth, Duke, Johns Hopkins and Georgetown, plus 23 top-75 liberal arts colleges — wide range for classes of ~35.' },
       { label: 'The money is disclosed', text: 'Four years of merit-scholarship totals are published — **$3.76M for 21 students in 2025** — where many schools publish none.' },
     ],
-    checklistTitle: 'Ask on the tour',
     checklist: [
       'With 35 seniors and two counselors, does Kristy Smith carry her own caseload, or is the ~18:1 figure really 35:1 against the Director?',
       'The acceptance list covers seven years — where did the last two graduating classes actually enroll, and in what concentrations?',

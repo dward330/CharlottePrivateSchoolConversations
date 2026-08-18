@@ -302,7 +302,7 @@ Root type `ArtsProgram` · registry `ARTS_CARDS` · `src/data/artsProgram.ts` ·
 
 `VisualArts` — `headline`, `subhead?`, `mediaTitle?`, `media`, `pathTitle?`, `path`, `pathNote?`, `exhibitsTitle?`, `exhibits`, `footnote?`, `photo?`, `sources`
 
-`Verdict` — `headline`, `subhead?`, `holdsUpTitle?`, `holdsUp`, `askTitle?`, `ask`, `sources`
+`Verdict` — `headline`, `subhead?`, `holdsUpTitle?`, `holdsUp`, `ask`, `sources`
 
 `ArtsProgram` — `ladder?`, `theatre?`, `music?`, `visual?`, `verdict?`
 
