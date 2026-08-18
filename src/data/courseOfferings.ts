@@ -7190,6 +7190,1176 @@ const GASTON_DAY: CourseOfferings = {
   ],
 }
 
+/* ── Charlotte Catholic High School ─────────────────────────────────────────
+   2026-2027 Curriculum Guide (96pp), machine-extracted by course code: 195
+   entries — 193 coded courses plus 2 CPCC dual-enrollment courses. CCHS is a
+   9–12 school, the only one on this roster with no lower or middle school, so
+   it has exactly ONE division rather than three.
+
+   Descriptions are condensed from the guide's own catalog prose. Note the guide
+   lists 12 sections but only 11 are CCHS teaching departments — Dual Enrollment
+   is two courses taken off-campus at CPCC, and it is kept as its own tab here
+   because that is how the guide presents it. */
+const CHARLOTTE_CATHOLIC: CourseOfferings = {
+  guideYear: '2026-27',
+  divisions: [
+    {
+      title: 'Upper School Courses',
+      grades: 'GRADES 9 – 12',
+      teaser:
+        '195 courses across 11 departments plus dual enrollment — 24 AP, 43 Honors and 18 Advanced, with Visual & Performing Arts the largest department at 39.',
+      source: 'CCHS Curriculum Guide 2026-2027 (96pp)',
+      sourceUrl:
+        'https://resources.finalsite.net/images/v1771958102/charlottecatholicorg/ggbqwr7ecdypclivyab5/2026-2027CurriculumGuideedited.pdf',
+      departments: [
+        {
+          name: 'English',
+          courses: [
+            {
+              title: 'English 9',
+              description:
+                'The course includes a review of grammar fundamentals and basic conventions of essay writing.',
+            },
+            {
+              title: 'Advanced English 9',
+              tag: 'Advanced',
+              description:
+                'The course includes an overview and fast-paced review of grammar fundamentals and basic conventions of essay writing.',
+            },
+            {
+              title: 'SASP English 9: The Art of Language',
+              tag: 'SASP',
+              description:
+                'The Art of Language cultivates mastery of language as both a tool for clear thought and an expression of beauty.',
+            },
+            {
+              title: 'SASP English 9: Great Adventure Seminar',
+              tag: 'SASP',
+              description:
+                'The Great Adventure Seminar invites students to journey through some of the greatest works of literature, exploring timeless questions about the human person and the universal story.',
+            },
+            {
+              title: 'English 10',
+              description:
+                'This course includes the study of World Literature through novels, short stories, drama, and poetry; grammar fundamentals and the reinforcement of these essential grammar skills within the context of writing assignments; introduction to…',
+            },
+            {
+              title: 'Advanced English 10',
+              tag: 'Advanced',
+              description:
+                'This course includes the study of World Literature through novels, short stories drama, and poetry; grammar fundamentals and the reinforcement of these essential grammar skills within the context of writing assignments; introduction to…',
+            },
+            {
+              title: 'Honors English 10',
+              tag: 'Honors',
+              description:
+                'This course includes many of the same topics taught in Advanced English 10, but involves a more comprehensive focus on World Literature and additional outside reading.',
+            },
+            {
+              title: 'SASP English 10: Quest Seminar',
+              tag: 'SASP',
+              description:
+                'Great books based: Homer, Odyssey; Plato, Apology; Boethius, Consolation of Philosophy; Anselm, Proslogion; Huxley, Brave New World.',
+            },
+            {
+              title: 'English 11',
+              description:
+                'This course includes writing skills techniques (e.g., prewriting, organization, drafting, revisions, etc.); documented essays using primary and, in some cases, secondary sources; concentrated practice in literary analysis; reading…',
+            },
+            {
+              title: 'Honors English 11',
+              tag: 'Honors',
+              description:
+                'This course includes writing skills techniques (e.g., prewriting, organization, drafting, revision, etc.,); documented essays using primary and secondary resources; concentrated practice in writing analytical essays; reading…',
+            },
+            {
+              title: 'Advanced Placement English 11',
+              tag: 'AP',
+              description:
+                'This course comprises much of the material covered in Honors English 11 Honors as well as the principles of rhetoric and argument.',
+            },
+            {
+              title: 'English 12',
+              description:
+                'This course includes a survey of British Literature; review and practice of paragraph and essay structure; reinforcement of essential grammar skills within the context of writing assignments; reading comprehension, summary and analysis;…',
+            },
+            {
+              title: 'Honors English 12',
+              tag: 'Honors',
+              description:
+                'This course includes an in-depth study of British Literature through close reading and discussion; advanced composition resulting in several documented literary analyses using primary and, in some cases.',
+            },
+            {
+              title: 'Advanced Placement English 12',
+              tag: 'AP',
+              description:
+                'This course includes all the essentials of Honors English 12 with the addition of several sophisticated texts.',
+            },
+            {
+              title: 'Advanced Placement English 12',
+              tag: 'AP',
+              description:
+                'This course comprises much of the material covered in Honors English 12 as well as the principles of rhetoric and argument.',
+            },
+            {
+              title: 'Journalism',
+              description:
+                'This class is designed to give practical experience in interviewing and writing techniques ( news, features, editorials, sports coverage, and reviews of cultural events ), photography, and layout.',
+            },
+            {
+              title: 'Yearbook',
+              description:
+                'Students receive instruction in layout and design, copywriting and caption writing, photo selection and cropping, and all other components involved in producing the school yearbook.',
+            },
+            {
+              title: 'Honors Social Issues in Literature',
+              tag: 'Honors',
+              description:
+                'Honors Social Issues in Literature focuses on texts and authors who raise up issues of race, gender, ethnicity, and socio-economics.',
+            },
+          ],
+        },
+        {
+          name: 'Interdisciplinary Studies',
+          courses: [
+            {
+              title: 'Guided Academic Support',
+              description:
+                'This course is tailored for 10th, 11th, and 12th grade Academic Achievement students with a GPA 2.9 or below.',
+            },
+            {
+              title: 'Assistants',
+              description:
+                'Assistants will be assigned tasks for the office, counselors, alumni and campus ministry. Evaluation is based on their willingness to learn, initiative and performance of assigned tasks, and demonstrated competencies within the area…',
+            },
+            {
+              title: 'Study Hall',
+              description:
+                'Students will spend their time working independently on their coursework in a supervised environment.',
+            },
+            {
+              title: 'Options Scholars',
+              tag: 'Options',
+              description:
+                'Students will serve as academic peer mentors for those enrolled in the Options Program. In this role, Options Scholars will develop meaningful peer relationships while learning about various intellectual and developmental disabilities.',
+            },
+            {
+              title: 'SAT Prep',
+              description:
+                'This course is designed to help students prepare effectively for the SAT. Instruction is divided into two main components: Evidence-Based Reading & Writing and Mathematics.',
+            },
+            {
+              title: 'Sports Ethics',
+              description:
+                'Students will explore the deeper meaning of sport through an ethical and philosophical lens.',
+            },
+            {
+              title: 'Honors African American Studies',
+              tag: 'Honors',
+              description:
+                'Honors African American Studies focuses on the historical, political, economic, and social figures and movements impacting Black Americans over the past 400+ years.',
+            },
+            {
+              title: 'Honors Latin American Influence',
+              tag: 'Honors',
+              description:
+                'This interdisciplinary course is designed for the students to explore the Latino influence in the United States in the last century.',
+            },
+            {
+              title: 'Personal Finance',
+              description:
+                'This course is designed to provide students with personal skills needed daily. Topics of study include establishing a bank account and maintaining a checkbook and debit card, computing personal income tax and analyzing employment taxes.',
+            },
+            {
+              title: 'Marketing Principles',
+              description:
+                'This is a beginning class to help students become familiar with the world of business through a marketing perspective.',
+            },
+            {
+              title: 'Introduction to Accounting',
+              description:
+                'This class is designed to provide an understanding of the basic principles of the Accounting Cycle as it applies to business entities.',
+            },
+            {
+              title: 'Advanced Placement Computer Science A',
+              tag: 'AP',
+              description:
+                'Advanced Placement Computer Science A emphasizes object-oriented programming methodology, with a strong focus on problem solving and algorithm development.',
+            },
+            {
+              title: 'Advanced Placement Cybersecurity Kickstart',
+              tag: 'AP',
+              description:
+                'AP Cybersecurity offers a broad introduction to the field and aligns closely with a college-level, introductory cybersecurity course.',
+            },
+            {
+              title: 'Introduction to STEM',
+              description:
+                'Do you like building things? Do you tend to be curious how things work?',
+            },
+            {
+              title: 'Introduction to Engineering',
+              description:
+                'Introduction to Engineering is designed to develop foundational concepts and skills that will prepare students for more advanced courses in engineering.',
+            },
+            {
+              title: 'Honors Electrical and Computing Engineering',
+              tag: 'Honors',
+              description:
+                'This course is designed to prepare students for advanced courses in electrical and computing engineering fields.',
+            },
+            {
+              title: 'Honors Civil and Construction Engineering',
+              tag: 'Honors',
+              description:
+                'This course is designed to prepare students for college level courses in these fields. Students will explore design concepts including building systems, building materials, structures and loads, transportation, and environmental…',
+            },
+            {
+              title: 'Honors Engineering Capstone',
+              tag: 'Honors',
+              description:
+                'Honors Engineering Capstone is available for students who completed prior CCHS engineering courses and are interested in pursuing a degree in engineering fields.',
+            },
+          ],
+        },
+        {
+          name: 'Mathematics',
+          courses: [
+            {
+              title: 'Algebra I',
+              description:
+                'This course includes a review of operations with integers, fractions, and decimals; solving equations and inequalities in one variable; introduction to functions; linear functions; systems of linear equations and systems of linear…',
+            },
+            {
+              title: 'Advanced Algebra I',
+              tag: 'Advanced',
+              description:
+                'This course includes a brief review of operations with integers, fractions, and decimals; solving equations and inequalities in one variable; introduction to functions; linear functions; systems of linear equations and systems of linear…',
+            },
+            {
+              title: 'Geometry',
+              description:
+                'This course includes basic terms and symbols; congruence and similarity of polygons and circles; area and volume; parallel and perpendicular lines; transformations; and an introduction to proof.',
+            },
+            {
+              title: 'Advanced Geometry',
+              tag: 'Advanced',
+              description:
+                'This course includes the study of basic terms and symbols; congruence and similarity of polygons and circles; area and volume; parallel and perpendicular lines; transformations and proofs.',
+            },
+            {
+              title: 'Honors Geometry',
+              tag: 'Honors',
+              description:
+                'This rigorous course is designed for students who possess a strong work ethic and ability to think critically and includes the in depth study of basic terms and symbols; congruence and similarity of polygons and circles; parallel and…',
+            },
+            {
+              title: 'Algebra II',
+              description:
+                'This course includes the study of linear, quadratic, exponential, logarithmic, radical, rational and trigonometric functions; complex numbers; correlation and regression.',
+            },
+            {
+              title: 'Advanced Algebra II',
+              tag: 'Advanced',
+              description:
+                'This course includes the study of linear, quadratic, exponential, logarithmic, radical, rational and trigonometric functions; complex numbers; correlation and regression; normal models; and confidence intervals for proportions and means.',
+            },
+            {
+              title: 'Honors Algebra II',
+              tag: 'Honors',
+              description:
+                'This rigorous course is designed for students who possess a strong work ethic and ability to think critically and includes the in depth study of linear, quadratic, exponential, logarithmic, radical, rational and trigonometric functions;…',
+            },
+            {
+              title: 'Advanced Algebra 3/Statistics',
+              tag: 'Advanced',
+              description:
+                'This course is intended to prepare students for an Algebra, Statistics, or Pre-Calculus course at the university level.',
+            },
+            {
+              title: 'Advanced Algebra 4/Trigonometry',
+              tag: 'Advanced',
+              description:
+                'This course is intended to prepare students for an Algebra, Statistics, Pre-Calculus, or Calculus course at the university level.',
+            },
+            {
+              title: 'Functions and Modeling',
+              description:
+                'This course provides students the opportunity to further study linear, quadratic, exponential, logarithmic and trigonometric functions.',
+            },
+            {
+              title: 'Advanced Pre-Calculus',
+              tag: 'Advanced',
+              description:
+                'This course includes the further development and analysis of functions including polynomial, rational, exponential, and logarithmic and trigonometric functions.',
+            },
+            {
+              title: 'Honors Pre-Calculus',
+              tag: 'Honors',
+              description:
+                'This rigorous course is designed for students who possess a strong work ethic and ability to think critically and includes the further development and analysis of functions including polynomial, rational, exponential, and logarithmic…',
+            },
+            {
+              title: 'Honors Calculus',
+              tag: 'Honors',
+              description:
+                'Topics included in this course are limits, derivatives of both algebraic and transcendental functions, methods of integration, and applications of the derivative and integral.',
+            },
+            {
+              title: 'Advanced Placement Statistics',
+              tag: 'AP',
+              description:
+                'The AP Statistics course is equivalent to a one-semester, introductory, non-calculus-based college course in statistics.',
+            },
+            {
+              title: 'Advanced Placement Calculus AB',
+              tag: 'AP',
+              description:
+                'Advanced Placement Calculus AB is roughly equivalent to a first semester college calculus course devoted to topics in differential and integral calculus.',
+            },
+            {
+              title: 'Advanced Placement Calculus BC',
+              tag: 'AP',
+              description:
+                'Advanced Placement Calculus BC is roughly equivalent to both first and second semester college calculus courses and includes the content learned in Calculus AB while extending it to different types of equations and introduces the topic…',
+            },
+          ],
+        },
+        {
+          name: 'Options Program / Pathways Program',
+          courses: [
+            {
+              title: 'Options English 9',
+              tag: 'Options',
+              description:
+                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+            },
+            {
+              title: 'Options English 10',
+              tag: 'Options',
+              description:
+                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+            },
+            {
+              title: 'Options English 11',
+              tag: 'Options',
+              description:
+                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+            },
+            {
+              title: 'Options English 12',
+              tag: 'Options',
+              description:
+                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+            },
+            {
+              title: 'Options Year 1',
+              tag: 'Options',
+              description:
+                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+            },
+            {
+              title: 'Options Year 2',
+              tag: 'Options',
+              description:
+                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+            },
+            {
+              title: 'Options Year 3',
+              tag: 'Options',
+              description:
+                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+            },
+            {
+              title: 'Options Year 4',
+              tag: 'Options',
+              description:
+                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+            },
+            {
+              title: 'Options PE',
+              tag: 'Options',
+              description:
+                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+            },
+            {
+              title: 'Math Life 1',
+              tag: 'Options',
+              description:
+                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+            },
+            {
+              title: 'Math Life 2',
+              tag: 'Options',
+              description:
+                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+            },
+            {
+              title: 'Options Personal Finance',
+              tag: 'Options',
+              description:
+                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+            },
+            {
+              title: 'Options Financial Management',
+              tag: 'Options',
+              description:
+                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+            },
+            {
+              title: 'Pathway Program',
+              tag: 'Options',
+              description:
+                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+            },
+          ],
+        },
+        {
+          name: 'Philosophy',
+          courses: [
+            {
+              title: 'Introduction to Philosophy: Human Person',
+              description:
+                'This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).',
+            },
+            {
+              title: 'Ethics',
+              description:
+                'This course introduces students to classical philosophy’s approach to ethics through a Catholic lens.',
+            },
+            {
+              title: 'Logic',
+              description:
+                'Logic is the art of habitually reasoning from true premises to true conclusions. The purpose of this course is to cultivate a student’s ability to think critically and apply logical reasoning across a variety of subject matters.',
+            },
+          ],
+        },
+        {
+          name: 'Physical Education',
+          courses: [
+            {
+              title: 'Health',
+              description:
+                'The Health course aims to foster a holistic understanding of health, emphasizing the connection between physical, mental, emotional, and spiritual well-being.',
+            },
+            {
+              title: 'Physical Education',
+              description:
+                'The Physical Education course is designed to promote the development of a healthy and active lifestyle through a variety of physical activities and sports.',
+            },
+            {
+              title: 'Aerobics',
+              description:
+                'This course will focus on simple endurance and aerobic movements in order to increase physical abilities.',
+            },
+            {
+              title: 'Men’s Weightlifting',
+              description:
+                'This course is designed to educate students on the proper techniques of weightlifting, how to target specific muscle groups and the design and implementation of using a lifting schedule specifically to the needs of the male population.',
+            },
+            {
+              title: 'Women’s Weightlifting',
+              description:
+                'This course is designed to educate students on the proper techniques of weightlifting, how to target specific muscle groups and the design and implementation of using a lifting schedule specifically to the needs of the female population.',
+            },
+            {
+              title: 'Jazzercise',
+              description:
+                'This course will focus on the elements of dance with cardio movement exercises. Pilates and stretching will also be implemented.',
+            },
+            {
+              title: 'Team Sports: Upperclassmen PE',
+              description:
+                'Students will participate in various team activities with emphasis on group and individual choice and carry-over activities.',
+            },
+            {
+              title: 'Honors Weightlifting & Wellness',
+              tag: 'Honors',
+              description:
+                'This advanced course is designed for students who have successfully completed introductory weightlifting classes and are ready to deepen their understanding of strength training, fitness, health, and wellness.',
+            },
+          ],
+        },
+        {
+          name: 'Science',
+          courses: [
+            {
+              title: 'Biology',
+              description:
+                'The primary objective of this course is to introduce the student to a broad, general understanding of the fundamental principles of biology through a study of humans and their interaction with other organisms and their mutually shared…',
+            },
+            {
+              title: 'Advanced Biology',
+              tag: 'Advanced',
+              description:
+                'The purpose of this course is to introduce the student to an in-depth study of the basic principles of biological processes.',
+            },
+            {
+              title: 'Integrated Chemistry and Physics',
+              description:
+                'Integrated Chemistry and Physics explores matter, energy, and the interaction between matter and energy.',
+            },
+            {
+              title: 'Advanced Chemistry',
+              tag: 'Advanced',
+              description:
+                'This course covers the fundamentals of chemistry. Topics will include, but are not limited to, atomic structure, writing chemical names and formulas, balancing chemical equations, solving stoichiometric problems, behavior of gases,…',
+            },
+            {
+              title: 'Honors Chemistry',
+              tag: 'Honors',
+              description:
+                'This rigorous course is designed for students who possess a strong work ethic and the ability to think critically.',
+            },
+            {
+              title: 'Oceanography',
+              description:
+                'Oceanography explores the geology, chemistry, physics, marine biology, and ecology of the oceans.',
+            },
+            {
+              title: 'Environmental Science',
+              description:
+                'Environmental Science is offered to those students interested in studying present issues concerning the earth and its environment.',
+            },
+            {
+              title: 'Physics',
+              description:
+                'This introductory physics course is designed to relate the principles of physics to the world that surrounds the students.',
+            },
+            {
+              title: 'Honors Anatomy and Physiology',
+              tag: 'Honors',
+              description:
+                'This rigorous course is designed for students who possess a strong work ethic and the ability to think critically.',
+            },
+            {
+              title: 'Honors Nutritional Science',
+              tag: 'Honors',
+              description:
+                'This course is designed to provide an introduction to human nutrition, health, and its impacts on society.',
+            },
+            {
+              title: 'Advanced Placement Biology',
+              tag: 'AP',
+              description:
+                'Advanced Placement Biology is designed for students who are strongly considering furthering their studies in the life sciences and/or medical fields.',
+            },
+            {
+              title: 'Advanced Placement Chemistry',
+              tag: 'AP',
+              description:
+                'Advanced Placement Chemistry is designed as a second-year chemistry course. This is a highly intensive elective science covering the topics usually included in a first-year college level chemistry course.',
+            },
+            {
+              title: 'Advanced Placement Environmental Science',
+              tag: 'AP',
+              description:
+                'This course covers topics usually included in a first year college course in environmental science.',
+            },
+            {
+              title: 'Advanced Placement Physics 1: Algebra-Based',
+              tag: 'AP',
+              description:
+                'This course is a full year in-depth study of Newtonian mechanics. The content includes kinematics, Newton’s laws of motion, work, energy and power, systems of particles and linear momentum, circular motion and rotation, and oscillations…',
+            },
+            {
+              title: 'Advanced Placement Physics C: Mechanics',
+              tag: 'AP',
+              description:
+                'This course is a full year in-depth study of Newtonian mechanics. The content includes kinematics, Newton’s laws of motion, work, energy and power, systems of particles and linear momentum, circular motion and rotation, and oscillations…',
+            },
+            {
+              title: 'Sports Medicine',
+              description:
+                'Sports Medicine is a hands-on course for students interested in athletic performance, injury prevention, health care, and human movement.',
+            },
+            {
+              title: 'Forensic Science',
+              description:
+                'This semester course will familiarize students with the basic principles and uses of forensic science in the American justice system.',
+            },
+            {
+              title: 'Biotechnology',
+              description:
+                'This course will provide students with a comprehensive introduction to the scientific concepts and laboratory research techniques currently used in the field of biotechnology.',
+            },
+          ],
+        },
+        {
+          name: 'Social Studies',
+          courses: [
+            {
+              title: 'World History',
+              description:
+                'This is a college prep survey course in World History with a scope and sequence that includes both western and non-western cultures and societies to the present.',
+            },
+            {
+              title: 'Advanced World History',
+              tag: 'Advanced',
+              description:
+                'Students will explore this broad scope by reading actively and creatively, evaluating historical evidence using primary and secondary sources, analyzing visual materials, interpreting data, and recognizing point of view and bias.',
+            },
+            {
+              title: 'Honors World History',
+              tag: 'Honors',
+              description:
+                'Honors World History is the highest-level World History class at Charlotte Catholic. Deadlines for assignments are often given days and even weeks in advance, so students must plan their work and manage their time to be successful in…',
+            },
+            {
+              title: 'SASP World History: Icon of Christian Art',
+              tag: 'SASP',
+              description:
+                'This course examines the development of Western and Near Eastern civilizations through the historical and artistic influence of Christianity.',
+            },
+            {
+              title: 'U.S. History',
+              description:
+                'This survey course is a college prep level course that examines the political, economic, social, and cultural development of the United States.',
+            },
+            {
+              title: 'Honors U.S. History',
+              tag: 'Honors',
+              description:
+                'This course examines the major topics of United States history in greater depth and with more rigor than college prep U.S.',
+            },
+            {
+              title: 'Advanced Placement U.S. History',
+              tag: 'AP',
+              description:
+                'This is a college level course in which students investigate significant events, individuals, developments, and historical processes in United States history from approximately 1491 to the present.',
+            },
+            {
+              title: 'Psychology',
+              description:
+                'This course introduces students to the scientific study of human behavior and mental processes.',
+            },
+            {
+              title: 'Advanced Placement Psychology',
+              tag: 'AP',
+              description:
+                'This course is a college-level course that introduces students to the systematic and scientific study of human behavior and mental processes.',
+            },
+            {
+              title: 'Politics',
+              description:
+                'This course is a college prep level U.S. Government class that introduces students to the foundations, structures, and processes of the American political system.',
+            },
+            {
+              title: 'Honors Politics',
+              tag: 'Honors',
+              description:
+                'This course covers the same foundational topics as the college prep level U.S. Government course, but with greater depth, pace, and academic rigor.',
+            },
+            {
+              title: 'Advanced Placement United States Government',
+              tag: 'AP',
+              description:
+                'This course provides a college-level introduction to key political concepts, ideas, institutions, policies, interactions, roles, and behaviors that characterize the constitutional system and political culture of the United States.',
+            },
+            {
+              title: 'Economics',
+              description:
+                'This course is a college prep level economics course that introduces students to the fundamental principles of economics with a primary focus on the American economic system.',
+            },
+            {
+              title: 'Honors Economics',
+              tag: 'Honors',
+              description:
+                'This class provides students with a thorough understanding of the principles of economics that apply to the behavior of individual decision makers, including consumers and producers, within the larger economic system.',
+            },
+            {
+              title: 'Advanced Placement Microeconomics',
+              tag: 'AP',
+              description:
+                'This class is a college-level course that introduces students to the principles of economics that apply to the behavior of individual consumers, firms, and resource owners.',
+            },
+            {
+              title: 'Advanced Placement European History',
+              tag: 'AP',
+              description:
+                'This course begins with a brief orientation to philosophy and logic. The remainder of the course examines how God reveals himself to people.',
+            },
+          ],
+        },
+        {
+          name: 'Theology',
+          courses: [
+            {
+              title: 'Faith and Revelation: Knowing',
+              description:
+                'This course begins with a brief orientation to philosophy and logic. The remainder of the course examines how God reveals himself to people.',
+            },
+            {
+              title: 'The Blessed Trinity and Our Christian Vocation',
+              description:
+                'This course presents the Blessed Trinity – one God in three divine Persons: Father, Son, and Holy Spirit – which is the central mystery of the Christian Faith.',
+            },
+            {
+              title: 'SASP Theology 9: Sacred Scripture',
+              tag: 'SASP',
+              description:
+                'Sacred Scripture offers students a deep encounter with the Word of God through a traditional, liberal arts lens.',
+            },
+            {
+              title: 'The Mystery of Redemption and Christian',
+              description:
+                'This course examines the meaning of redemption; Original Sin; and how the salvific promise made to our first parents is fulfilled in the life, Death, Resurrection, and Ascension of Jesus Christ.',
+            },
+            {
+              title: 'The Church: Sacrament of Salvation',
+              description:
+                'The Church, which is established by Jesus Christ and guided by the Holy Spirit, continues the salvific ministry of Christ in the world today; thus, the Church is both the Sacrament of Communion and the Sacrament of Salvation.',
+            },
+            {
+              title: 'SASP Theology 10: Wisdom of the Fathers',
+              tag: 'SASP',
+              description:
+                'This course will immerse students in the works of the major Fathers of the Church and discuss their influence on the theological development of the Church and its understanding of Divine Revelation (Sacred Tradition and Sacred Scripture).',
+            },
+            {
+              title: 'The Sacraments: Source of Our Life in Christ',
+              description:
+                'This course recognizes how Jesus Christ, through his great love for us, instituted the Sacraments as the ordinary means of receiving salvation and entrusted them to the Church.',
+            },
+            {
+              title: 'Our Moral Life in Christ',
+              description:
+                'Through participation in this course students will learn how a well-formed conscience is essential to make moral decisions.',
+            },
+            {
+              title: 'Catholic Apologetics',
+              description:
+                'This course prepares students for active dialogue with non-Catholics in the public sphere.',
+            },
+            {
+              title: 'Vocations and the Universal Call to Holiness',
+              description:
+                'This course explores the vocations of life that spring from our Baptism and how God calls each of us to holiness on earth and to eternal life with him in heaven.',
+            },
+            {
+              title: 'The Social Doctrine of the Catholic Church',
+              description:
+                'This course introduces students to the social teachings of the Catholic Church, a rich body of thought covering love and family, law and justice, war and peace, wealth and poverty, rights and duties, and freedom and obligation.',
+            },
+            {
+              title: 'History of the Church',
+              description:
+                'This course begins with the story of God’s definitive intervention into human history in the Person of his Son and continues through his Church to the present day.',
+            },
+            {
+              title: 'Honors Gospel and Film',
+              tag: 'Honors',
+              description:
+                'This course will enable students to develop a standard for analyzing what they see portrayed in the cinema.',
+            },
+            {
+              title: 'Honors Ecumenical and Interreligious Studies',
+              tag: 'Honors',
+              description:
+                'This course presents an overview of world religions including Judaism, Christianity, Islam, Hinduism and Buddhism.',
+            },
+          ],
+        },
+        {
+          name: 'Visual and Performing Arts',
+          courses: [
+            {
+              title: 'Art I',
+              description:
+                'Art I is an introductory course focusing on fundamental art skills. Various media and tools are explored including painting, drawing, and sculpture.',
+            },
+            {
+              title: 'Art II',
+              description:
+                'Art II is an intermediate course focused on expanding on fundamental art skills learned in Art I, with an emphasis on further developing drawing techniques.',
+            },
+            {
+              title: 'Art III',
+              description:
+                'Art III is a proficient course focused on developing techniques in painting and printmaking.',
+            },
+            {
+              title: 'Honors Portfolio Prep',
+              tag: 'Honors',
+              description:
+                'Honors Portfolio Prep is an advanced course designed to prepare students for AP Studio Art and college portfolio submissions.',
+            },
+            {
+              title: 'Honors Art IV',
+              tag: 'Honors',
+              description:
+                'Honors Art IV is an advanced course focusing on refining proficient art skills through experimental and advanced techniques.',
+            },
+            {
+              title: 'AP Studio Art',
+              tag: 'AP',
+              description:
+                'AP Studio Art is a college equivalent course in which students create a 2D Design or a Drawing portfolio to be evaluated by the College Board.',
+            },
+            {
+              title: 'Ceramics I',
+              description:
+                'Ceramics I is an introductory course focusing on fundamental skills for working with clay.',
+            },
+            {
+              title: 'Ceramics II',
+              description:
+                'Ceramics II is an intermediate course focusing on fundamental skills for working with the pottery wheel.',
+            },
+            {
+              title: 'Introduction to Photography',
+              description:
+                'Photography II is a continuation of Photography I and requires students to have a good working knowledge of DSLR camera controls and the fundamentals of composition.',
+            },
+            {
+              title: 'Photography II',
+              description:
+                'Photography II is a continuation of Photography I and requires students to have a good working knowledge of DSLR camera controls and the fundamentals of composition.',
+            },
+            {
+              title: 'Photography III',
+              description:
+                'Photography III is a continuation of Photography I and II and requires students to have a thorough knowledge of DSLR camera controls and the fundamentals of composition.',
+            },
+            {
+              title: 'Digital Art and Graphic Design',
+              description:
+                'The foundational premise of graphic design is that the artist/designer uses words and pictures to tell a story.',
+            },
+            {
+              title: 'Digital Art, Graphics, and Anime',
+              description:
+                'How digital art and graphics including anime took over the world. Students in this course will take a visual romp through the evolution of comics and advertising graphics, including the current anime craze, over the past century.',
+            },
+            {
+              title: 'Freshman Men’s Chorus',
+              description:
+                'This course offers incoming freshmen men an opportunity to develop their singing voices through choral singing, correct breathing, sight singing, and vocal production techniques.',
+            },
+            {
+              title: 'Freshman Women’s Chorus',
+              description:
+                'This course offers incoming freshmen women an opportunity to develop their singing voices through choral singing, correct breathing, sight singing, and vocal production techniques.',
+            },
+            {
+              title: 'Choral Ensemble',
+              description:
+                'The Choral Ensemble is an intermediate level choir of students who are continuing to develop their singing voices through choral singing, correct breathing, sight singing, and vocal production techniques.',
+            },
+            {
+              title: 'Women’s Chamber Ensemble',
+              description:
+                'This course is an auditioned proficient level choir for women with previous singing experience.',
+            },
+            {
+              title: 'Honors Women’s Chamber Ensemble',
+              tag: 'Honors',
+              description:
+                'This course is an auditioned proficient and advanced level choir for women with previous singing experience.',
+            },
+            {
+              title: 'Men’s Chamber Ensemble',
+              description:
+                'This course is an auditioned proficient level choir for men with previous singing experience.',
+            },
+            {
+              title: 'Honors Men’s Chamber Ensemble',
+              tag: 'Honors',
+              description:
+                'This course is an auditioned proficient and advanced level choir for men with previous singing experience.',
+            },
+            {
+              title: 'Honors Concert Choir',
+              tag: 'Honors',
+              description:
+                'This course is an auditioned, advanced level mixed choir for men and women with significant previous singing experience.',
+            },
+            {
+              title: 'Costume Design and Production',
+              description:
+                'Join this award-winning class that will lay the groundwork for hands-on experience in the world of clothing design and application.',
+            },
+            {
+              title: 'Honors Costume Design and Production',
+              tag: 'Honors',
+              description:
+                'The clothes look great, but why do they look great? Learn about color theory and aesthetics to perfect your skills that can launch your career in the industry.',
+            },
+            {
+              title: 'Theatre: Design and Tech',
+              description:
+                'Interested in the craft of technical theatre? This program allows students the chance to design, build, rig, and engineer all the technical elements of our theatre performances.',
+            },
+            {
+              title: 'Honors Theatre: Design and Tech',
+              tag: 'Honors',
+              description:
+                'Perfect the craft, create and apply the vision. This advanced element of the course not only allows students to create the sets but gives them the tools to work in a professional setting, where all the concepts of design and aesthetics…',
+            },
+            {
+              title: 'On The Stage: Acting, Directing, Movie Making',
+              description:
+                'Begin your journey to stardom as a student of the craft of acting, directing, and movie making.',
+            },
+            {
+              title: 'Behind the Scenes: Set Design, Construction,',
+              description:
+                'Come see how we make it look easy. The world of stage craft is vast and can lend itself to numerous other career paths.',
+            },
+            {
+              title: 'Acting',
+              description:
+                'This course is offered to students who desire to seriously pursue all acting techniques for the stage as well as screen.',
+            },
+            {
+              title: 'Honors Acting',
+              tag: 'Honors',
+              description:
+                'Honors Acting requires students to put time, energy and commitment into fulfilling superior theater student requirements.',
+            },
+            {
+              title: 'Honors TV, Film, and Production',
+              tag: 'Honors',
+              description:
+                'This course furthers the knowledge of the principles, procedures, and techniques of television/web series production.',
+            },
+            {
+              title: 'Dance I',
+              description:
+                'Dance I is an introductory course for incoming freshmen with little or no formal dance instruction, but offered to those interested in learning and possibly furthering their dance knowledge and technique.',
+            },
+            {
+              title: 'Dance II',
+              description:
+                'Dance II is an intermediate to advanced level dance class in which students with previous dance experience either outside of school or through Dance I freshman year can continue to improve their dance techniques and performance skills.',
+            },
+            {
+              title: 'Honors Dance III',
+              tag: 'Honors',
+              description:
+                'Dance III is an honors level performance course which highlights the advanced technique skills of students through the application of choreography The class meets the full year and two staged recitals are required including the use of…',
+            },
+            {
+              title: 'Concert Band',
+              description:
+                'Students with playing experience are eligible for this class through an audition. Students accepted into this ensemble are expected to be proficient on their instrument, have a basic knowledge of music theory, and be fluent in reading…',
+            },
+            {
+              title: 'Honors Wind Ensemble',
+              tag: 'Honors',
+              description:
+                'This class is for juniors and seniors who have completed one year of Concert Band and who wish to receive honors credit for their participation in band.',
+            },
+            {
+              title: 'Percussion',
+              description:
+                'This class is for members of the symphonic band who play percussion instruments. The class will cover the fundamentals of playing percussion instruments and application of musicianship skills to the genre.',
+            },
+            {
+              title: 'Honors Percussion',
+              tag: 'Honors',
+              description:
+                'This class is for members of the percussion group who wish to receive honors credit for their participation in band.',
+            },
+            {
+              title: 'Introduction to Guitar',
+              description:
+                'This course is designed as a performance based class to give an understanding of the fundamentals of acoustic guitar playing.',
+            },
+            {
+              title: 'Guitar II',
+              description:
+                'This course is designed for the intermediate-advanced guitar student. The course will be a continuation of the material covered in Guitar I with more emphasis on improving the fundamentals with sight reading, scales, chord spellings,…',
+            },
+          ],
+        },
+        {
+          name: 'World Languages',
+          courses: [
+            {
+              title: 'French I',
+              description:
+                'The French I course involves the elementary acquisition of the four fundamental skills of learning the language: reading, writing, listening, and speaking.',
+            },
+            {
+              title: 'French II',
+              description:
+                'This course is designed to continue the foundation learned in French I and build a greater understanding and comprehension of reading, writing, listening, and speaking.',
+            },
+            {
+              title: 'Advanced French II',
+              tag: 'Advanced',
+              description:
+                'This course is designed to continue the foundation learned in French I and build a greater understanding and comprehension of reading, writing, listening, and speaking.',
+            },
+            {
+              title: 'Advanced French III',
+              tag: 'Advanced',
+              description:
+                'This course is an advanced course designed to develop in the students a greater understanding and comprehension of the French language, by continuing the development and application of the language on reading, writing, listening and…',
+            },
+            {
+              title: 'Honors French III',
+              tag: 'Honors',
+              description:
+                'This course is designed to prepare the student for Honors Spanish IV or AP French Language and Culture, developing in the student a greater comprehension and understanding of more complex reading, writing, listening and speaking.',
+            },
+            {
+              title: 'Honors French IV',
+              tag: 'Honors',
+              description:
+                'On the linguistic level, the acquisition and honing of the four language skills are still constant goals within a culturally rich setting.',
+            },
+            {
+              title: 'Advanced Placement French V',
+              tag: 'AP',
+              description:
+                'The Advanced Placement French Language and Culture course is equivalent to an introductory college-level course and is designed to advance students’ communicative proficiency in French within a culturally rich and content-based framework.',
+            },
+            {
+              title: 'German I',
+              description:
+                'The German I course involves the elementary acquisition of the four fundamental skills of learning the language: reading, writing, listening, and speaking.',
+            },
+            {
+              title: 'German II',
+              description:
+                'This course is designed to continue the foundation learned in German I and build a greater understanding and comprehension of reading, writing, listening, and speaking.',
+            },
+            {
+              title: 'Honors German III',
+              tag: 'Honors',
+              description:
+                'This course is designed to prepare the student for Honors German IV or AP German Language and Culture, developing in the student a greater comprehension and understanding of more complex reading, writing, listening and speaking.',
+            },
+            {
+              title: 'Honors German IV',
+              tag: 'Honors',
+              description:
+                'On the linguistic level, the acquisition and honing of the four language skills are still constant goals within a culturally rich setting.',
+            },
+            {
+              title: 'Advanced Placement German V',
+              tag: 'AP',
+              description:
+                'The Advanced Placement German Language and Culture course is equivalent to an introductory college-level course and is designed to advance students’ communicative proficiency in German within a culturally rich and content-based framework.',
+            },
+            {
+              title: 'Latin I',
+              description:
+                'The Latin I course involves the elementary acquisition of Latin grammar, reading, and vocabulary.',
+            },
+            {
+              title: 'Latin II',
+              description:
+                'This course is designed to continue the foundation learned in Latin I and build a greater understanding of complex sentence structures, increase vocabulary and help students prepare to read from well known authors from the ancient world.',
+            },
+            {
+              title: 'Advanced Latin II',
+              tag: 'Advanced',
+              description:
+                'This course is designed to continue the foundation learned in Latin I and build a greater understanding of complex sentence structures, increase vocabulary and help students prepare to read from well known authors from the ancient world.',
+            },
+            {
+              title: 'Advanced Latin III',
+              tag: 'Advanced',
+              description:
+                'Advanced Latin III will further review and apply Latin vocabulary and grammar. Students will explore readings in adapted and authentic Latin literature, while learning to read and interpret prose and poetry.',
+            },
+            {
+              title: 'Honors Latin III',
+              tag: 'Honors',
+              description:
+                'This course is designed for students whose demonstrated mastery of Latin fundamentals indicates readiness for authentic literary texts.',
+            },
+            {
+              title: 'Honors Latin lV',
+              tag: 'Honors',
+              description:
+                'This course emphasizes the rhetorical, metrical, and cultural conventions of epic and lyric poetry.',
+            },
+            {
+              title: 'Advanced Placement Latin',
+              tag: 'AP',
+              description:
+                'The Advanced Placement Latin course focuses on advanced Latin language acquisition through close reading, textual analysis, and contextualization of authentic texts.',
+            },
+            {
+              title: 'Spanish I',
+              description:
+                'The Spanish I course involves the elementary acquisition of the four fundamental skills of learning the language: reading, writing, listening, and speaking.',
+            },
+            {
+              title: 'Spanish II',
+              description:
+                'This course is designed to continue the foundation learned in Spanish 1 and build a greater understanding and comprehension of reading, writing, listening, and speaking.',
+            },
+            {
+              title: 'Advanced Spanish II',
+              tag: 'Advanced',
+              description:
+                'This course is designed to continue the foundation learned in Spanish 1 and build a greater understanding and comprehension of reading, writing, listening, and speaking.',
+            },
+            {
+              title: 'Advanced Spanish III',
+              tag: 'Advanced',
+              description:
+                'This course is an advanced course designed to develop in the students a greater understanding and comprehension of the Spanish language, by continuing the development and application of the language on reading, writing, listening and…',
+            },
+            {
+              title: 'Advanced Spanish III - Native Speaker',
+              tag: 'Advanced',
+              description:
+                'This course is an advanced course designed for students who already speak Spanish at home or in their communities.',
+            },
+            {
+              title: 'Honors Spanish III',
+              tag: 'Honors',
+              description:
+                'This course is designed to prepare the student for Honors Spanish IV or AP Spanish Language and Culture, developing in the student a greater comprehension and understanding of more complex reading, writing, listening and speaking.',
+            },
+            {
+              title: 'Honors Spanish IV',
+              tag: 'Honors',
+              description:
+                'On the linguistic level, the acquisition and honing of the four language skills are still constant goals within a culturally rich setting.',
+            },
+            {
+              title: 'Advanced Placement Spanish V:',
+              tag: 'AP',
+              description:
+                'The Advanced Placement Spanish Language and Culture course is equivalent to an introductory college-level course and is designed to advance students’ communicative proficiency in Spanish within a culturally rich and content-based framework.',
+            },
+            {
+              title: 'Advanced Placement Spanish VI:',
+              tag: 'AP',
+              description:
+                'The Advanced Placement Spanish Literature and Culture course is equivalent to a college-level literature course and is designed to advance students’ interpretive, analytical, and communicative skills in Spanish.',
+            },
+          ],
+        },
+        {
+          name: 'Dual Enrollment',
+          courses: [
+            {
+              title: 'Dual Enrollment: Public Speaking',
+              tag: 'Dual Enrollment',
+              description:
+                'This course provides instruction and experience in preparation and delivery of speeches within a public setting and group discussion.',
+            },
+            {
+              title: 'Dual Enrollment: Introduction to Sociology',
+              tag: 'Dual Enrollment',
+              description:
+                'This course introduces the scientific study of human society, culture, and social interactions.',
+            },
+          ],
+        },
+      ],
+    },
+  ],
+}
+
 const OFFERINGS: Record<string, CourseOfferings> = {
   'providence-day': PROVIDENCE_DAY,
   'carmel-christian': CARMEL_CHRISTIAN,
@@ -7197,6 +8367,7 @@ const OFFERINGS: Record<string, CourseOfferings> = {
   'charlotte-country-day': CHARLOTTE_COUNTRY_DAY,
   cannon: CANNON,
   'charlotte-christian': CHARLOTTE_CHRISTIAN,
+  'charlotte-catholic': CHARLOTTE_CATHOLIC,
   'covenant-day': COVENANT_DAY,
   'davidson-day': DAVIDSON_DAY,
   'hickory-grove-christian': HICKORY_GROVE_CHRISTIAN,

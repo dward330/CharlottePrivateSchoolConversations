@@ -33,6 +33,7 @@ const RANKED = new Set(['ivy', 'ivyplus', 'nu75', 'lac75'])
 const SCHOOLS = [
   ['cannon', () => import('../src/data/collegeSupportPrograms/cannon.ts')],
   ['carmel-christian', () => import('../src/data/collegeSupportPrograms/carmel-christian.ts')],
+  ['charlotte-catholic', () => import('../src/data/collegeSupportPrograms/charlotte-catholic.ts')],
   ['charlotte-christian', () => import('../src/data/collegeSupportPrograms/charlotte-christian.ts')],
   ['charlotte-country-day', () => import('../src/data/collegeSupportPrograms/charlotte-country-day.ts')],
   ['charlotte-latin', () => import('../src/data/collegeSupportPrograms/charlotte-latin.ts')],

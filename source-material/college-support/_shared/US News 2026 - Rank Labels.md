@@ -193,15 +193,18 @@
 | Elon University | National Rank #117 |
 | Emmanuel College | Liberal Rank #135 |
 | Emory University | National Rank #24 |
+| Fairfield University | National Rank #139 |
 | Fisk University | Liberal Rank #156 |
 | Florida A&M University | National Rank #169 |
 | Florida Gulf Coast University | National Rank #318 |
 | Florida Institute of Technology | National Rank #232 |
+| Florida International University | National Rank #97 |
 | Florida State University | National Rank #51 |
 | Fordham University | National Rank #97 |
 | Franklin & Marshall College | Liberal Rank #35 |
 | Furman University | Liberal Rank #45 |
 | Gardner-Webb University | National Rank #384 |
+| George Mason University | National Rank #117 |
 | George Washington University | National Rank #59 |
 | Georgetown University | National Rank #24 |
 | Georgia Institute of Technology | National Rank #32 |
@@ -513,3 +516,48 @@
 | Yale University | National Rank #4 |
 | Young Harris College | Liberal Rank #183-201 |
 |---|---|
+
+
+## Charlotte Catholic pass — 2026-08-18
+
+Added while building `charlotte-catholic`. Its School Profile lists **169
+institutions**; **110 already resolved** in the master and **59 were unseen**.
+
+**Three new rows** — the only unseen institutions holding a US News 2026
+**National** or **National Liberal Arts** rank:
+
+| Institution | Label | Channel |
+| --- | --- | --- |
+| Fairfield University | National Rank #139 | Yahoo (usnews.com timed out) |
+| Florida International University | National Rank #97 | Yahoo (usnews.com timed out) |
+| George Mason University | National Rank #117 | Yahoo (usnews.com timed out) |
+
+**usnews.com was tried first and timed out** on every direct profile fetch, so
+per the standing rule the Yahoo channel was used and is recorded here for each
+figure. No rank was guessed and no prior-year number was carried forward.
+
+**Four aliases added, not rows** — flagship campuses whose campus tag normalizes
+away from an existing canonical key: `Arizona State University (Downtown
+Phoenix)` → #117, `Ohio University (Main Campus)` → #198, `Pace University (New
+York City)` → #273, `Saint Mary's College` → Liberal #84.
+
+**The remaining 52 unseen institutions correctly get NO row**, each verified
+rather than assumed:
+
+- **Regional, not National/LAC** — Appalachian State (#3 Regional South),
+  College of Charleston (#9 Regional South), Providence College (#2 Regional
+  North), Loyola University Maryland (#7 Regional North), Marist (#9 Regional
+  North), St. Bonaventure (#25 Regional North), Salisbury (#45 Regional North),
+  Savannah College of Art and Design (#8 Regional South), Cal Poly San Luis
+  Obispo (#1 Regional West), Benedictine College (#7 Regional Colleges Midwest),
+  High Point (#1 Regional Colleges South), and others in the same categories.
+- **Specialty ranking only** — Rose-Hulman is #1 in *undergraduate engineering*,
+  which is not a National/LAC rank and so is not a label this table carries.
+- **Community / technical colleges** — Central Piedmont, Cleveland, Pellissippi
+  State, Tri-County Technical, Trident Technical, Wake Technical, Palm Beach
+  State, Santa Barbara City.
+- **Foreign institutions** — University of Gloucestershire (UK), The American
+  University of Rome (Italy).
+- **Branch campus, deliberately unlabeled** — `University of South Carolina
+  (Lancaster)` is a separate two-year campus, so it is NOT aliased to the
+  Columbia flagship's #127, per the branch-campus rule in `collegeRankings.ts`.

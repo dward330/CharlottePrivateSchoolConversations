@@ -273,6 +273,7 @@ import {
 import { providenceDay } from './clubsPrograms/providence-day.ts'
 import { charlotteLatin } from './clubsPrograms/charlotte-latin.ts'
 import { charlotteChristian } from './clubsPrograms/charlotte-christian.ts'
+import { charlotteCatholic } from './clubsPrograms/charlotte-catholic.ts'
 import { charlotteCountryDay } from './clubsPrograms/charlotte-country-day.ts'
 import { cannon } from './clubsPrograms/cannon.ts'
 import { davidsonDay } from './clubsPrograms/davidson-day.ts'
@@ -285,6 +286,7 @@ const PROGRAMS: Record<string, ClubsProgram> = {
   'providence-day': providenceDay,
   'charlotte-latin': charlotteLatin,
   'charlotte-christian': charlotteChristian,
+  'charlotte-catholic': charlotteCatholic,
   'charlotte-country-day': charlotteCountryDay,
   cannon: cannon,
   'covenant-day': covenantDay,

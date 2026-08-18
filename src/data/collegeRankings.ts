@@ -109,16 +109,19 @@ export const COLLEGE_RANKINGS: Record<string, string> = {
   "Elon University": "National Rank #117",
   "Emmanuel College": "Liberal Rank #135",
   "Emory University": "National Rank #24",
+  "Fairfield University": "National Rank #139",
   "Fisk University": "Liberal Rank #156",
   "Florida A&M University": "National Rank #169",
   "Florida Agricultural and Mechanical University": "National Rank #169",
   "Florida Gulf Coast University": "National Rank #318",
   "Florida Institute of Technology": "National Rank #232",
+  "Florida International University": "National Rank #97",
   "Florida State University": "National Rank #51",
   "Fordham University": "National Rank #97",
   "Franklin and Marshall College": "Liberal Rank #35",
   "Furman University": "Liberal Rank #45",
   "Gardner-Webb University": "National Rank #384",
+  "George Mason University": "National Rank #117",
   "George Washington University": "National Rank #59",
   "Georgetown University": "National Rank #24",
   "Georgia Institute of Technology": "National Rank #32",
@@ -522,6 +525,14 @@ const ALIAS: Record<string, string> = {
   'lynchburg coll': 'University of Lynchburg',
   'st johns univ queens campus': "St. John's University",
   'univ of alabama tuscaloosa': 'The University of Alabama',
+  // Charlotte Catholic's profile writes several flagships with a campus tag that
+  // normalizes away from the canonical key. Branch campuses are deliberately NOT
+  // aliased — 'University of South Carolina (Lancaster)' is a separate two-year
+  // campus and correctly stays unlabeled, per the rule at the top of this map.
+  'ohio univ main campus': 'Ohio University',
+  'pace univ new york city': 'Pace University',
+  'saint marys coll': "Saint Mary's College (Indiana)",
+  'arizona state univ downtown phoenix': 'Arizona State University',
 }
 for (const [variant, canon] of Object.entries(ALIAS)) {
   const label = BY_NORM.get(normName(canon))

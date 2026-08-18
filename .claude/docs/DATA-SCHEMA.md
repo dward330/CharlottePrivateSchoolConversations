@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**10 schools × 8 research areas**, 377 ingested research documents.
+**11 schools × 8 research areas**, 384 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -36,6 +36,7 @@ automatically — and automatically gains a pre-rendered SEO page.
 |---|---|
 | `cannon` | Cannon School |
 | `carmel-christian` | Carmel Christian School |
+| `charlotte-catholic` | Charlotte Catholic High School |
 | `charlotte-christian` | Charlotte Christian School |
 | `charlotte-country-day` | Charlotte Country Day School |
 | `charlotte-latin` | Charlotte Latin School |
@@ -51,16 +52,16 @@ Listed in the order they appear on a school page (`TOPIC_ORDER` in `src/lib/metr
 the count is ingested documents for that school × topic. A blank cell means no research
 exists yet and **the section does not render at all** for that school.
 
-| Research area | Slug | Cannon | Carmel Christian | Charlotte Christian | Charlotte Country Day | Charlotte Latin | Covenant Day | Davidson Day | Gaston Day | Hickory Grove Christian | Providence Day |
-|---|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
-| Course Offerings | `course-offerings` | 1 | 2 | 1 | 1 | 1 | 4 | 1 | 1 | 2 | 1 |
-| Student Clubs | `student-clubs` | 10 | 1 | 10 | 10 | 8 | 6 | 9 | 2 | 1 | 8 |
-| The Arts | `the-arts` | 8 | 1 | 8 | 8 | 7 | 7 | 5 | 1 | 1 | 7 |
-| Sports | `sports` | 15 | 1 | 15 | 15 | 15 | 15 | 15 | 1 | 1 | 15 |
-| College Support | `college-support` | 10 | 1 | 11 | 9 | 11 | 8 | 10 | 1 | 1 | 10 |
-| After School | `after-school` | 5 | 1 | 6 | 6 | 6 | 4 | 5 | 1 | 1 | 6 |
-| Summer Programs | `summer-programs` | 1 | 1 | 1 | 1 | 1 | 1 | — | 1 | 1 | 1 |
-| Financial Aid & Tuition | `financial-aid-tuition` | 2 | 1 | 1 | 2 | 1 | 2 | 2 | 1 | 1 | 1 |
+| Research area | Slug | Cannon | Carmel Christian | Charlotte Catholic High | Charlotte Christian | Charlotte Country Day | Charlotte Latin | Covenant Day | Davidson Day | Gaston Day | Hickory Grove Christian | Providence Day |
+|---|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
+| Course Offerings | `course-offerings` | 1 | 2 | 1 | 1 | 1 | 1 | 4 | 1 | 1 | 2 | 1 |
+| Student Clubs | `student-clubs` | 10 | 1 | 1 | 10 | 10 | 8 | 6 | 9 | 2 | 1 | 8 |
+| The Arts | `the-arts` | 8 | 1 | 1 | 8 | 8 | 7 | 7 | 5 | 1 | 1 | 7 |
+| Sports | `sports` | 15 | 1 | 1 | 15 | 15 | 15 | 15 | 15 | 1 | 1 | 15 |
+| College Support | `college-support` | 10 | 1 | 1 | 11 | 9 | 11 | 8 | 10 | 1 | 1 | 10 |
+| After School | `after-school` | 5 | 1 | — | 6 | 6 | 6 | 4 | 5 | 1 | 1 | 6 |
+| Summer Programs | `summer-programs` | 1 | 1 | 1 | 1 | 1 | 1 | 1 | — | 1 | 1 | 1 |
+| Financial Aid & Tuition | `financial-aid-tuition` | 2 | 1 | 1 | 1 | 2 | 1 | 2 | 2 | 1 | 1 | 1 |
 
 ## 2. Research-area sections (prose layer)
 
@@ -77,92 +78,92 @@ research dossier folds in behind a structured card.
 
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
-| `curriculum` | Course Offerings | 10/10 | 7 |
+| `curriculum` | Course Offerings | 11/11 | 8 |
 
 ### Student Clubs `student-clubs`
 
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
-| `academic-clubs` | Academic & Competitive Clubs | 8/10 | 5 |
-| `honor-societies` | Honor Societies | 4/10 | 1 |
-| `signature` | Signature Programs & Traditions | 6/10 | 6 |
-| `media` | Publications & Media | 2/10 | 2 |
-| `affinity` | Affinity & Identity Groups | 4/10 | 3 |
-| `service` | Service & Civic Engagement | 5/10 | 4 |
-| `lower-middle` | Lower / Middle School Activities | 3/10 | 3 |
-| `catalog` | Club Catalog & Overview | 10/10 | 6 |
+| `academic-clubs` | Academic & Competitive Clubs | 8/11 | 5 |
+| `honor-societies` | Honor Societies | 4/11 | 1 |
+| `signature` | Signature Programs & Traditions | 6/11 | 6 |
+| `media` | Publications & Media | 2/11 | 2 |
+| `affinity` | Affinity & Identity Groups | 4/11 | 3 |
+| `service` | Service & Civic Engagement | 5/11 | 4 |
+| `lower-middle` | Lower / Middle School Activities | 3/11 | 3 |
+| `catalog` | Club Catalog & Overview | 11/11 | 6 |
 
 ### The Arts `the-arts`
 
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
-| `overview` | Program Overview | 7/10 | 1 |
-| `awards` | Awards & Recognition | 5/10 | 1 |
-| `performing-arts` | Performing Arts | 2/10 | 1 |
-| `visual-arts` | Visual Arts | 7/10 | 1 |
-| `facilities` | Facilities | 5/10 | 2 |
-| `in-depth-report` | In-Depth Report | 9/10 | 2 |
-| `courses` | Course Offerings | 1/10 | 1 |
-| `music` | Music | 5/10 | 1 |
-| `theatre` | Theatre & Drama | 5/10 | 4 |
-| `digital-arts` | Digital Arts | 1/10 | 1 |
+| `overview` | Program Overview | 7/11 | 1 |
+| `awards` | Awards & Recognition | 5/11 | 1 |
+| `performing-arts` | Performing Arts | 2/11 | 1 |
+| `visual-arts` | Visual Arts | 7/11 | 1 |
+| `facilities` | Facilities | 6/11 | 2 |
+| `in-depth-report` | In-Depth Report | 9/11 | 2 |
+| `courses` | Course Offerings | 1/11 | 1 |
+| `music` | Music | 5/11 | 1 |
+| `theatre` | Theatre & Drama | 5/11 | 4 |
+| `digital-arts` | Digital Arts | 1/11 | 1 |
 
 ### Sports `sports`
 
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
-| `awards` | Awards & Honors | 7/10 | 1 |
-| `championships` | Championships | 7/10 | 1 |
-| `coaches` | Coaches: Pedigree & Continuity | 7/10 | 2 |
-| `matriculation` | D1 / Top-College Matriculation | 7/10 | 3 |
-| `facilities` | Facilities & Infrastructure | 7/10 | 1 |
-| `nil` | NIL Landscape | 7/10 | 1 |
-| `national-profile` | National Profile | 7/10 | 4 |
-| `power-4` | Power 4 Offers | 7/10 | 1 |
-| `pros` | Professional Athletes | 7/10 | 1 |
-| `redesign-research` | Sports Research Dossier (2026) | 10/10 | 2 |
-| `sports-medicine` | Sports Medicine & Performance | 7/10 | 1 |
-| `sports-offered` | Sports Offered | 7/10 | 2 |
-| `recruiting` | Top-100 Recruiting Rankings | 7/10 | 1 |
-| `win-loss` | Win–Loss Records | 7/10 | 2 |
+| `awards` | Awards & Honors | 7/11 | 1 |
+| `championships` | Championships | 8/11 | 2 |
+| `coaches` | Coaches: Pedigree & Continuity | 7/11 | 2 |
+| `matriculation` | D1 / Top-College Matriculation | 7/11 | 3 |
+| `facilities` | Facilities & Infrastructure | 7/11 | 1 |
+| `nil` | NIL Landscape | 7/11 | 1 |
+| `national-profile` | National Profile | 7/11 | 4 |
+| `power-4` | Power 4 Offers | 7/11 | 1 |
+| `pros` | Professional Athletes | 7/11 | 1 |
+| `redesign-research` | Sports Research Dossier (2026) | 10/11 | 2 |
+| `sports-medicine` | Sports Medicine & Performance | 7/11 | 1 |
+| `sports-offered` | Sports Offered | 7/11 | 2 |
+| `recruiting` | Top-100 Recruiting Rankings | 7/11 | 1 |
+| `win-loss` | Win–Loss Records | 7/11 | 2 |
 
 ### College Support `college-support`
 
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
-| `academic-case` | Academic Case | 7/10 | 1 |
-| `outcomes` | Placement Outcomes | 9/10 | 4 |
-| `application-support` | Application Support | 7/10 | 1 |
-| `counseling-engine` | Counseling Engine | 7/10 | 1 |
-| `fit-rank` | Fit & Rank | 7/10 | 2 |
-| `institutional-leverage` | Institutional Leverage | 7/10 | 1 |
-| `redesign-research` | College Support Research Dossier (2026) | 8/10 | 1 |
-| `standing-out` | Standing Out | 7/10 | 1 |
-| `in-depth-report` | In-Depth Report | 3/10 | 1 |
+| `academic-case` | Academic Case | 7/11 | 1 |
+| `outcomes` | Placement Outcomes | 10/11 | 5 |
+| `application-support` | Application Support | 7/11 | 1 |
+| `counseling-engine` | Counseling Engine | 7/11 | 1 |
+| `fit-rank` | Fit & Rank | 7/11 | 2 |
+| `institutional-leverage` | Institutional Leverage | 7/11 | 1 |
+| `redesign-research` | College Support Research Dossier (2026) | 8/11 | 1 |
+| `standing-out` | Standing Out | 7/11 | 1 |
+| `in-depth-report` | In-Depth Report | 3/11 | 1 |
 
 ### After School `after-school`
 
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
-| `overview` | Program Overview | 7/10 | 1 |
-| `details` | Program Details | 1/10 | 1 |
-| `enrichment` | Enrichment & Activities | 4/10 | 4 |
-| `aftercare` | Extended Day / Aftercare | 8/10 | 4 |
-| `in-depth-report` | In-Depth Report | 7/10 | 3 |
-| `redesign-research` | After School Research Dossier (2026) | 7/10 | 3 |
+| `overview` | Program Overview | 7/11 | 1 |
+| `details` | Program Details | 1/11 | 1 |
+| `enrichment` | Enrichment & Activities | 4/11 | 4 |
+| `aftercare` | Extended Day / Aftercare | 8/11 | 4 |
+| `in-depth-report` | In-Depth Report | 7/11 | 3 |
+| `redesign-research` | After School Research Dossier (2026) | 7/11 | 3 |
 
 ### Summer Programs `summer-programs`
 
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
-| `redesign-research` | Summer Programs Research Dossier (2026) | 9/10 | 3 |
+| `redesign-research` | Summer Programs Research Dossier (2026) | 10/11 | 3 |
 
 ### Financial Aid & Tuition `financial-aid-tuition`
 
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
-| `in-depth-report` | In-Depth Report | 10/10 | 3 |
-| `tuition-history` | Tuition History & Sources | 4/10 | 1 |
+| `in-depth-report` | In-Depth Report | 11/11 | 4 |
+| `tuition-history` | Tuition History & Sources | 4/11 | 1 |
 
 ## 3. Structured cards (typed layer)
 
@@ -188,7 +189,7 @@ Root type `SportsProgram` · registry `SPORTS_CARDS` · `src/data/sportsProgram.
 | `facilities` | Facilities & Athlete Care | Topic 06 of 07 |
 | `national` | National Stage & NIL | Topic 07 of 07 |
 
-**Schools with data:** 10/10
+**Schools with data:** 11/11
 
 <details><summary>Types defined in <code>sportsProgram.ts</code> (31)</summary>
 
@@ -266,7 +267,7 @@ Root type `ArtsProgram` · registry `ARTS_CARDS` · `src/data/artsProgram.ts` ·
 | `visual` | Studio to Gallery | Topic 04 of 05 |
 | `verdict` | Verdict & Visit Checklist | Topic 05 of 05 |
 
-**Schools with data:** 10/10
+**Schools with data:** 11/11
 
 <details><summary>Types defined in <code>artsProgram.ts</code> (18)</summary>
 
@@ -341,7 +342,7 @@ a single file whose name matches an earlier `RULES` pattern (e.g. `/honor societ
 silently claims the whole topic and leaves the area rendering "No readable notes for
 this area yet". `check:metrics` cannot catch this: every subtopic DID match a rule.
 
-**Schools with data:** 10/10
+**Schools with data:** 11/11
 
 <details><summary>Types defined in <code>clubsProgram.ts</code> (12)</summary>
 
@@ -405,7 +406,7 @@ distributions sets `noPercentiles: true` on that `ScoreTable` — otherwise the
 a wrong low score. Card rule set 2026-08-16; the six-value percentile shape keeps the
 header, everything else suppresses it.
 
-**Schools with data:** 10/10
+**Schools with data:** 11/11
 
 <details><summary>Types defined in <code>collegeSupport.ts</code> (21)</summary>
 
@@ -464,7 +465,7 @@ Root type `AfterSchoolProgram` · registry `AFTER_SCHOOL_CARDS` · `src/data/aft
 | `dayInside` | A Day Inside + Enrichment | What does my kid actually do until pickup? |
 | `verdict` | Verdict & Visit Checklist | What do I probe on the tour? |
 
-**Schools with data:** 10/10
+**Schools with data:** 10/11 — absent: `charlotte-catholic`
 
 <details><summary>Types defined in <code>afterSchool.ts</code> (15)</summary>
 
@@ -507,7 +508,7 @@ Root type `SummerProgram` · registry `SUMMER_CARDS` · `src/data/summerPrograms
 | `catalog` | The Camp Catalog | Which camps fit my child, and when do they run? |
 | `costPlanner` | The Summer Cost Planner | What does a whole summer actually cost? |
 
-**Schools with data:** 9/10 — absent: `davidson-day`
+**Schools with data:** 10/11 — absent: `davidson-day`
 
 <details><summary>Types defined in <code>summerPrograms.ts</code> (12)</summary>
 
@@ -549,71 +550,71 @@ highest number is not the best) · **Q** carries per-cell provenance tooltips.
 
 | Row key | Label | Coverage | Flags |
 |---|---|--:|---|
-| `us-courses` | Upper School courses catalogued | 10/10 | Q |
-| `advanced-courses` | AP / advanced courses | 10/10 | Q |
-| `us-departments` | Upper School departments | 10/10 |  |
+| `us-courses` | Upper School courses catalogued | 11/11 | Q |
+| `advanced-courses` | AP / advanced courses | 11/11 | Q |
+| `us-departments` | Upper School departments | 11/11 | Q |
 
 ### Student Clubs `student-clubs`
 
 | Row key | Label | Coverage | Flags |
 |---|---|--:|---|
-| `us-organizations` | Upper School student organizations | 10/10 | Q |
-| `flagship-result` | Flagship result | 9/10 | – Q |
-| `participation` | Participation signal | 4/10 | Q |
+| `us-organizations` | Upper School student organizations | 11/11 | Q |
+| `flagship-result` | Flagship result | 10/11 | – Q |
+| `participation` | Participation signal | 5/11 | Q |
 
 ### The Arts `the-arts`
 
 | Row key | Label | Coverage | Flags |
 |---|---|--:|---|
-| `program-span` | Program span | 10/10 | Q |
-| `signature-recognition` | Signature recognition | 9/10 | – Q |
-| `advanced-arts-coursework` | Advanced coursework | 7/10 | Q |
-| `ensembles` | Ensembles / offerings | 8/10 | Q |
+| `program-span` | Program span | 11/11 | Q |
+| `signature-recognition` | Signature recognition | 10/11 | – Q |
+| `advanced-arts-coursework` | Advanced coursework | 8/11 | Q |
+| `ensembles` | Ensembles / offerings | 9/11 | Q |
 
 ### Sports `sports`
 
 | Row key | Label | Coverage | Flags |
 |---|---|--:|---|
-| `p4-commits-2426` | Power 4 commits | 9/10 | Q |
-| `d1-commits-2426` | Division I commits | 9/10 | Q |
+| `p4-commits-2426` | Power 4 commits | 10/11 | Q |
+| `d1-commits-2426` | Division I commits | 10/11 | Q |
 
 ### College Support `college-support`
 
 | Row key | Label | Coverage | Flags |
 |---|---|--:|---|
-| `ap-performance` | AP scoring 3+ | 7/10 | Q |
-| `bucket-ivy` | Ivy League | 10/10 | Q |
-| `bucket-ivyplus` | “Ivy Plus” | 10/10 | Q |
-| `bucket-nu75` | Top-75 National Universities | 10/10 | Q |
-| `bucket-lac75` | Top-75 Liberal Arts | 10/10 | Q |
-| `bucket-p4` | Power Four | 10/10 | Q |
-| `bucket-hbcu` | HBCUs | 10/10 | Q |
-| `counselor-caseload` | Seniors per counselor | 8/10 | ↓ Q |
+| `ap-performance` | AP scoring 3+ | 8/11 | Q |
+| `bucket-ivy` | Ivy League | 11/11 | Q |
+| `bucket-ivyplus` | “Ivy Plus” | 11/11 | Q |
+| `bucket-nu75` | Top-75 National Universities | 11/11 | Q |
+| `bucket-lac75` | Top-75 Liberal Arts | 11/11 | Q |
+| `bucket-p4` | Power Four | 11/11 | Q |
+| `bucket-hbcu` | HBCUs | 11/11 | Q |
+| `counselor-caseload` | Seniors per counselor | 9/11 | ↓ Q |
 
 ### After School `after-school`
 
 | Row key | Label | Coverage | Flags |
 |---|---|--:|---|
-| `latest-pickup` | Latest pickup time | 10/10 | Q |
-| `aftercare-cost` | Cost of after-school care | 8/10 | – Q sub |
+| `latest-pickup` | Latest pickup time | 10/11 | Q |
+| `aftercare-cost` | Cost of after-school care | 8/11 | – Q sub |
 
 ### Summer Programs `summer-programs`
 
 | Row key | Label | Coverage | Flags |
 |---|---|--:|---|
-| `summer-weeks` | Weeks of summer camp | 9/10 | Q |
-| `summer-camps` | Camps published | 9/10 | Q |
-| `summer-ages` | Ages served | 9/10 | Q |
-| `summer-care-span` | Wrap-around care | 8/10 | Q |
+| `summer-weeks` | Weeks of summer camp | 10/11 | Q |
+| `summer-camps` | Camps published | 10/11 | Q |
+| `summer-ages` | Ages served | 10/11 | Q |
+| `summer-care-span` | Wrap-around care | 8/11 | Q |
 
 ### Financial Aid & Tuition `financial-aid-tuition`
 
 | Row key | Label | Coverage | Flags |
 |---|---|--:|---|
-| `top-tuition` | Top tuition | 10/10 | – Q |
-| `pct-aid` | % receiving aid | 7/10 | Q |
-| `aid-awarded` | Aid awarded / year | 3/10 | Q |
-| `avg-award` | Average award | 2/10 | Q |
+| `top-tuition` | Top tuition | 11/11 | – Q |
+| `pct-aid` | % receiving aid | 7/11 | Q |
+| `aid-awarded` | Aid awarded / year | 3/11 | Q |
+| `avg-award` | Average award | 2/11 | Q |
 
 **Total:** 30 Compare rows across 8 research areas.
 

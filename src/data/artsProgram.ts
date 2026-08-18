@@ -300,6 +300,13 @@ export const ARTS_CARDS = [
  * so its card is titled for the wider set.
  */
 const TITLE_OVERRIDES: Record<string, Partial<Record<keyof ArtsProgram, string>>> = {
+  // Charlotte Catholic is a 9–12 school — the only one on this roster with no
+  // lower or middle school — so there is no TK–12 ladder to describe. It DOES
+  // compete in the Blumeys (five finalists in 2025, five more placements in
+  // 2026), so the theatre card keeps the shared Blumey title.
+  'charlotte-catholic': {
+    ladder: 'The 9–12 Arts Ladder',
+  },
   cannon: {
     ladder: 'The JrK–12 Arts Ladder',
   },
@@ -354,6 +361,7 @@ import {
 import { providenceDay } from './artsPrograms/providence-day.ts'
 import { charlotteLatin } from './artsPrograms/charlotte-latin.ts'
 import { charlotteChristian } from './artsPrograms/charlotte-christian.ts'
+import { charlotteCatholic } from './artsPrograms/charlotte-catholic.ts'
 import { charlotteCountryDay } from './artsPrograms/charlotte-country-day.ts'
 import { cannon } from './artsPrograms/cannon.ts'
 import { davidsonDay } from './artsPrograms/davidson-day.ts'
@@ -366,6 +374,7 @@ const PROGRAMS: Record<string, ArtsProgram> = {
   'providence-day': providenceDay,
   'charlotte-latin': charlotteLatin,
   'charlotte-christian': charlotteChristian,
+  'charlotte-catholic': charlotteCatholic,
   'charlotte-country-day': charlotteCountryDay,
   cannon: cannon,
   'covenant-day': covenantDay,
