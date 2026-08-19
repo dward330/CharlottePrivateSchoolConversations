@@ -718,3 +718,100 @@ Phase-2 regression.** `check:runtime` is authoritative.
   in fetchable HTML. **Default:** one attempt to reach the Prezi content directly; if it
   fails, populate the cards from what *is* published and do not write a `null` for a card
   that has partial material.
+
+## Implementation notes — Phase 1 (English), 2026-08-18
+
+Phase 1 is built, reviewed by the user, and pushed to `feat/add-charlotte-catholic`
+(6 commits, **no PR yet** — both phases land in one PR). Status: `english-done`.
+
+**Read this section before starting Phase 2.** It records what shipped that the plan above
+did not anticipate, and two things that would break if Phase 2 assumed the plan was still
+an accurate description of the branch.
+
+### ⚠️ Two things Phase 2 must NOT do
+
+1. **Do NOT re-ingest `financial-aid-tuition`.** After review, the user trimmed that area
+   from nine prose cards to **In-Depth Report + Fees only**. That was done at the data
+   layer: six `##` headings in
+   `source-material/financial-aid-tuition/charlotte-catholic/…md` were demoted to `###`,
+   and `## Fees` was moved to the end of the file so it absorbs no trailing subsection.
+   Re-running `build_docs.py` on this topic is safe (the heading levels are committed), but
+   **re-ordering or re-promoting those headings would bring the deleted cards back**. No
+   research was lost — every figure is still in the file and still renders inside the two
+   surviving cards.
+2. **The branch carries four cross-school UI fixes** unrelated to translation. They are
+   already committed; Phase 2 should carry them into the PR body rather than treat them as
+   stray diff. See "UI fixes" below.
+
+### What shipped, against what the plan predicted
+
+| Plan said | Actually shipped | Why |
+|---|---|---|
+| `media` is a confirmed `null` | **CCHS HAS publications** | The curriculum guide's Journalism (234) and Yearbook (235) descriptions state students publish the school newspaper, literary magazine, yearbook and a podcast — as English courses, not clubs. Recorded as a NOT-A-CLUB flag on the Honor Societies card. Also: `media`, `tuition-history` and `recruiting` are **prose card keys, not Compare rows** — the plan listed them as rows. |
+| Brand is "green and gold" | **Light blue** — `#3a759e`, initials `CH` | Wikipedia's infobox says light blue/white/red and the school's own stylesheet has no green at all. `#75b2dd` is the site's real accent, deepened along the same hue (204.8°) to reach 4.98:1 white-on-badge. This also dissolves the plan's Country-Day-green collision worry. Provenance in `source-material/branding/charlotte-catholic/`. |
+| `bucket-ivyplus` 7/17 | **9/17** | The app's own Ivy Plus set (derived from what other schools tag) includes Georgetown and Northwestern. |
+| `bucket-nu75` 35/75 | **36/75** | Derived from the master `collegeRankings.ts`, not estimated. |
+| `bucket-p4` ~46/68 | **39/68** | The dedupe the plan flagged was real: 40 name-rows → 39 institutions (the two Arizona State campuses are one university). |
+| `d1-commits-2426` 26 | **25** | Mary Catherine Farley (Wofford) appears on a signing list but never on a college roster, so she fails the corroboration bar every other athlete clears. `p4-commits-2426` = **10**, exactly as planned. |
+| step 12 lists 6 i18n scripts | **7** | `scripts/check_rank_labels.mjs` has its own hardcoded `SCHOOLS` list the plan's table missed. Added. |
+| — | **5 lifted chrome `xTitle`s removed** | `nilTitle`, `pathTitle`, `leadershipTitle`, `adjacentTitle`, `rosterTitle` — the Covenant-Day-7 / Gaston-Day-5 defect, caught in Phase 1 by `npm run i18n:report`, which now reports `✓ every string field is classified`. |
+
+Other figures landed exactly as planned: **195 courses** (24 AP + 43 Honors + 18 Advanced),
+**169 institutions**, **76 clubs**, **6/8 Ivy**, **17/75 LAC**, **2/107 HBCU**.
+
+### Coverage
+
+**24 of 30 Compare rows (80%), 7 of 8 areas** — above the plan's ~23/30 estimate and well
+clear of the 17/30 floor. 9th of 11 on fill. Expanded, the page renders **133k characters
+across 34 cards** against Providence Day's 164k/33, so the rich areas were not capped at a
+thin school's depth.
+
+### UI fixes on this branch (cross-school, not CCHS-specific)
+
+All four were found during the user's review and fixed in shared CSS/components, so **every
+school gets them**. Each was regression-checked in a real browser across all 11 schools.
+
+1. **Hairline grids lost their bottom rule on a ragged last row.** `.stat-strip`,
+   `.hairline-grid` and `.fa-contents` drew top+left rules per cell and relied on the cell
+   below to close each one. College Support runs 8 tiles across 5 columns, so the tiles
+   above the gap had no bottom edge. Cells now draw a bottom rule too. Verified: 29 ragged
+   grids across 11 schools, zero missing rules.
+2. **The counseling roster painted a grey block and overflowed.** `.cs-roster` /
+   `.cs-timeline` used `gap: 1px` over `background: var(--border)` — the exact pattern the
+   `.stat-strip` comments warn against — so empty cells showed the backing field, and long
+   emails pushed the grid 88px past the card. Now per-cell hairlines plus `min-width: 0` /
+   `overflow-wrap: anywhere`.
+3. **The roster forced 5 columns.** `min(roster.length, 5)` made 7 counselors sit in
+   ~175px columns, wrapping emails mid-word while the short last row sat half empty. Now
+   `repeat(auto-fit, minmax(232px, 1fr))` — 232px clears the longest address on one line.
+4. **`.fa-split` always rendered a left column.** A section with questions but no stats or
+   boxes left the checklist pinned beside dead space. It now spans full width when there is
+   nothing to sit beside.
+
+### A scroll-frame sweep was run across all 11 schools
+
+The Club Catalog was capped at **420px** in a scroll frame (the `.courselist` pattern) —
+76 clubs rendered ~3,500px, burying the card's own division notes and sources. It shrinks
+below the cap when the list is short, so only schools that need a scrollbar get one.
+
+**Deliberately not capped, having measured every list-like block on every school:** Honor
+Societies (3–11 rows, 225–534px), Academic & Competitive Clubs (2–6 collapsible rows,
+already progressive disclosure — nesting a scroller inside `<details>` would be worse), and
+the tour checklists (`as-checklist` 907px worst case, `cs-checklist`, `arts-asks`,
+`fa-questions`) which are meant to be read straight through and printed. Every large table
+in the app — including Charlotte Christian's 96-row, 6,448px summer catalog — was already
+capped at 320px.
+
+### Known, pre-existing, NOT introduced here
+
+At mobile widths with **every `<details>` force-expanded**, the page overflows horizontally
+by ~47,766px. Measured on `main` before this branch: **byte-identical**. A real user never
+hits it — with panels closed the page has **zero** overflow at 390px. Not chased, to keep
+this change's scope honest. Worth its own plan.
+
+### Phase 2 scope is unchanged
+
+Nine prose locales (`es, bn, ht, te, fr, fa, it, hi, ar`), per the Phase 2 steps above.
+Every string on the page is English today. The slug is already in all seven i18n scripts
+(Phase 1 step 12), so the extractor sees the school — but **still verify the strings appear
+in the work files by inspection**, per Phase 2 step 1.
