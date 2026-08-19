@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-08-18
 branch: feat/add-charlotte-catholic
-prs: [147]
+prs: [150]
 ---
 
 # Add Charlotte Catholic High School as the 11th school
