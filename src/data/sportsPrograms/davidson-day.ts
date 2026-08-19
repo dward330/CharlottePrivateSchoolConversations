@@ -175,16 +175,20 @@ export const davidsonDay: SportsProgram = {
     ],
     seasonDetail: [
       {
-        program: 'The 2023–24 peak',
-        text: 'Seven state titles in one year — boys and girls soccer, volleyball, boys and girls cross country, boys basketball and boys tennis — the most of any 2A school in the NCISAA, plus the Wells Fargo Cup for all-sports excellence.',
+        // The editorial framing ("the peak") lives in `text`, which is extracted
+        // for translation; `program` is a skipped sport/season identifier, so a
+        // phrase left here ships English to every locale. Same fix shape as the
+        // Gaston Day `ensembles` case in src/data/overlays/NOTES.md.
+        program: '2023–24',
+        text: 'The peak. Seven state titles in one year — boys and girls soccer, volleyball, boys and girls cross country, boys basketball and boys tennis — the most of any 2A school in the NCISAA, plus the Wells Fargo Cup for all-sports excellence.',
       },
       {
         program: 'Boys Basketball',
         text: 'The historic peak was 2019–20: 30–1, ranked No. 5 in North Carolina, and the NCISAA 2A championship, led by senior C.J. Huntley. In 2025–26 the Patriots went 23–11 under new coach Gary Ellington and beat Oak Hill Academy 86–79 — handing that national program its first loss of the season — before losing the state semifinal to Greensboro Day.',
       },
       {
-        program: 'The 2025–26 decline',
-        text: 'Three-peats ended in girls soccer and boys soccer, volleyball lost the final, and both cross country titles went elsewhere. Girls soccer fell from 14–2 champions to 3–11. Coaching turnover is the visible common factor: soccer changed hands after 2024–25, and girls basketball has had seven head coaches in eight documented seasons.',
+        program: '2025–26',
+        text: 'The decline. Three-peats ended in girls soccer and boys soccer, volleyball lost the final, and both cross country titles went elsewhere. Girls soccer fell from 14–2 champions to 3–11. Coaching turnover is the visible common factor: soccer changed hands after 2024–25, and girls basketball has had seven head coaches in eight documented seasons.',
       },
     ],
     sources: [

@@ -1495,7 +1495,7 @@ rather than rediscovering it as a bug.
 
 ---
 
-## KNOWN OPEN DEFECT — descriptive phrases inside `ensembles` (2026-08-18)
+## RESOLVED 2026-08-19 — descriptive phrases in music track labels (was: `ensembles`)
 
 `ensembles` is classified *"proper noun — ensemble name"* in
 `scripts/i18n_fields.mjs` and is therefore SKIPPED from extraction. That is right
@@ -1516,6 +1516,22 @@ is already prose. Four remain across other schools:
 | `Vertical progression — a four-year ladder` | `artsPrograms/cannon.ts` |
 | `Middle School — non-auditioned, in the daily curriculum` | `artsPrograms/charlotte-country-day.ts` |
 | `Auditioned — new students must audition` | `artsPrograms/davidson-day.ts` |
+
+**UPDATE 2026-08-19 — this entry named the WRONG FIELD, and the defect was almost
+entirely already fixed.** The four values above do not live in `ensembles`; they live in
+the sibling **`music.tracks[].label`**, which *is* an extracted prose field. Measured
+across all nine locales, all four were already translated in eight of them. The single
+genuine remainder was `Prior experience — or audition if inexperienced` in **`fa` only**,
+now translated (`تجربهٔ پیشین — یا آزمون در صورت نداشتن تجربه`).
+
+`ensembles` itself remains correctly skipped — it holds the proper-noun ensemble names
+(`Honors Jazz Combo`, `Honors Concert Chorus`) beside each label, and the reasoning below
+for not flipping it still stands.
+
+**The lesson is about the doc, not the data:** this entry was written from the field name
+in a grep hit rather than from the resolved overlay path, and then read as authoritative
+by two later sessions. When recording a leak, record the **`at` path from the overlay
+work file** (`cannon:music.tracks[1].label`), not the key you found in `src/data`.
 
 **Why the field was not simply flipped to prose.** `music.tracks[].ensembles`
 holds 95 values across the ten schools and 91 are genuine proper nouns. The
