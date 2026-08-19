@@ -164,6 +164,22 @@ paths return HTTP 200 while serving the wrong sheet, and two selection traps pro
 plausible-but-wrong tables that render without any error. It is UNC-system campuses only
 — a complement to a matriculation list, never a replacement.
 
+**The standing target set is the Top 6 NC public universities**, settled 2026-08-19 and
+not to be re-asked or re-derived per task — as **exact dashboard strings**:
+
+```
+UNC-Chapel Hill            NC State University        UNC Charlotte
+East Carolina University   UNC Wilmington             UNC Greensboro
+```
+
+Copy them verbatim. Hyphenation is inconsistent in the dashboard's own house style
+(`UNC-Chapel Hill` hyphenated; `UNC Charlotte` / `UNC Wilmington` / `UNC Greensboro` not),
+and it is **`East Carolina University`**, not "Eastern" — an exact-match filter fails
+**silently** on either slip. The six match US News *National Universities*; the reason
+that qualifier matters is that **Appalachian State is ranked *Regional Universities
+South***, so "top 6 in NC" is not self-defining and a different six is not
+interchangeable. The dashboard still holds all 16 campuses if a task genuinely wants them.
+
 Two rules travel with the data. **Always carry the denominator** — these are small cells
 (44 applicants at one campus in one year), so a bare percentage off a single-digit base is
 not publishable, the same discipline `/add-school` applies to area percentages. And the

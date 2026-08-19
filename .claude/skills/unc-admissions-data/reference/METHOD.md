@@ -295,10 +295,17 @@ Any figure that reaches `src/data/metricValues.ts` must trace back to one of the
 
 ## 7. Scale planning
 
-11 schools × 6 institutions = **66 combinations**, each ~30–60s including re-render
-waits ⇒ roughly **35–65 minutes** of wall-clock for a full sweep, plus screenshot
-reading. Sequence it as: pick institution once → iterate all 11 schools → next
-institution. That minimises the expensive Institution re-render.
+The default sweep is **11 tracked schools × the standing Top 6 institutions (§9) = 66
+combinations**, each ~30–60s including re-render waits ⇒ roughly **35–65 minutes** of
+wall-clock, plus screenshot reading.
+
+**Sequence it institution-outer, school-inner**: select one institution, then iterate all
+11 schools, then move to the next institution. The Institution filter is the expensive
+re-render, so this does 6 of those instead of 66.
+
+Report progress as you go rather than going quiet for an hour, and **write each
+institution's results to `source-material/` as that institution completes** — a crash at
+combination 60 should not cost the first 59.
 
 A full 16-institution sweep is 176 combinations — only do that if a plan asks for it.
 
@@ -312,12 +319,24 @@ UX-design standard in `CLAUDE.md`. Land the data, then propose the UI with reaso
 
 ---
 
-## 9. Open question for any plan that uses this
+## 9. The target institution set — SETTLED
 
-"Top 6 NC public universities by US News national ranking" is **ambiguous and must be
-settled with the user before scraping**: US News ranks *National Universities*
-(UNC-Chapel Hill, NC State, UNC Charlotte, East Carolina, UNC Greensboro, UNC
-Wilmington all appear there), but **Appalachian State is ranked in *Regional
-Universities South*** — a different list entirely. Picking one silently produces a
-"top 6" that cannot be reproduced. Confirm the ranking list, its year, and whether
-regional-ranked campuses are eligible.
+**Answered 2026-08-19.** The default target set is the standing Top 6, defined as exact
+dashboard strings in [`../SKILL.md`](../SKILL.md) §1. Do not re-ask it; do not re-derive
+it from a ranking.
+
+```
+UNC-Chapel Hill            NC State University        UNC Charlotte
+East Carolina University   UNC Wilmington             UNC Greensboro
+```
+
+Copy those strings verbatim — hyphenation is inconsistent in the dashboard's own house
+style (`UNC-Chapel Hill` hyphenated; `UNC Charlotte` / `UNC Wilmington` /
+`UNC Greensboro` not), and it is **`East Carolina University`**, not "Eastern". An
+exact-match filter fails **silently** on either slip.
+
+Kept for the record, because it explains why the set is written down rather than derived:
+the list matches US News *National Universities*, while **Appalachian State is ranked in
+*Regional Universities South*** — a different list. "Top 6 in NC" is therefore not
+self-defining, and a future task that wants the ranking re-derived should treat that as a
+new question rather than silently substituting a different six.
