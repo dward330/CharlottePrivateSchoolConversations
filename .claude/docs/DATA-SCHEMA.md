@@ -389,7 +389,7 @@ Root type `CollegeSupportProgram` · registry `COLLEGE_SUPPORT_CARDS` · `src/da
 
 | Card key | Title | Parent question / kicker |
 |---|---|---|
-| `ncAdmissions` | Admissions Rate for Top NC Public Universities | If we're aiming in-state, what are our odds from here? |
+| `ncAdmissions` | Admission Rates at the Top NC Public Universities | If we're aiming in-state, what are our odds from here? |
 | `transcript` | The Transcript Colleges See | How strong is the record my kid graduates with? |
 | `counseling` | The Counseling Engine | Who helps my kid — how much, with what, and when? |
 | `outcomes` | Where Graduates Go | Does this actually get kids into top schools? |
@@ -431,6 +431,13 @@ This card is **not a matriculation list** and must never be described as one: th
 dashboard covers the 16 public UNC campuses and nothing else, so it says nothing
 about private or out-of-state outcomes. A school with no dashboard data omits the
 card entirely rather than shipping an empty shell.
+
+**That scope limit is an EDITORIAL rule, not an on-card caveat.** The card shipped
+with a `gap` flag spelling it out beneath the ledger; it was removed 2026-08-19 at
+the user's request as footer clutter. So the rule binds how the card is described
+in prose, headings and any future summary — it no longer describes what the card
+renders. `methodNote` still carries the joint-figure caveat, which is a different
+point. Do not re-add the flag on the assumption the doc requires it.
 
 **The `outcomes.colleges` list is the school's FULL published acceptance list.** Each
 entry carries only `{ name, cats }` (plus `enrolling: true` for bold/matriculated

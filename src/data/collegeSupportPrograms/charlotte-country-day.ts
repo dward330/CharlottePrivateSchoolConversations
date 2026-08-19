@@ -472,10 +472,6 @@ export const charlotteCountryDay: CollegeSupportProgram = {
         kind: 'verify',
         text: 'Rank order follows the US News **National Universities** table for NC publics. That qualifier matters: Appalachian State is ranked in **Regional Universities South**, a different list, so “top 6 in NC” is not self-defining. Re-score when the next edition lands.',
       },
-      {
-        kind: 'gap',
-        text: 'UNC-system campuses only — the dashboard covers the 16 public UNC institutions and nothing else. It says nothing about private or out-of-state destinations, so this complements the acceptance list rather than replacing it.',
-      },
     ],
     sources: [
       {
