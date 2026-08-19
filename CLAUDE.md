@@ -423,23 +423,33 @@ load. `$3.25M`-style tiles prove nothing about digit grouping — only figures l
 `$3,683,971` do. Skipping either step makes the print-out report clean without
 having looked at the part that breaks (Telugu, 2026-07-29).
 
-**KNOWN OPEN DEFECT — seven English strings ship in all five non-English
-locales.** Surfaced by `i18n_audit_skips.mjs` during the French rollout and
-confirmed absent from every overlay. Not French-specific; not fixed, because it
-means widening `i18n_fields.mjs` path rules and re-extracting topics already
-complete in five languages:
+**PARTLY-OPEN DEFECT — English strings in figure/identifier fields.** Surfaced
+by `i18n_audit_skips.mjs` during the French rollout. Re-measured 2026-08-19; the
+original table was wrong in three ways, so the corrected one is below. Two rows
+are now **fixed**, four are **deliberately left**:
 
-| Value | Field | File |
-|---|---|---|
-| `The 2023–24 peak`, `The 2025–26 decline` | `program` | `sportsPrograms/davidson-day.ts` |
-| `Football — Estep era` | `program` | `sportsPrograms/charlotte-christian.ts` |
-| `2 years`, `1 credit` | `value` | `artsPrograms/cannon.ts`, `davidson-day.ts` |
-| `15-yr (2024–25 profile)`, `(2021–22 profile)` | `year` | `collegeSupportPrograms/charlotte-christian.ts` |
+| Value | Field | File | Status |
+|---|---|---|---|
+| `The 2023–24 peak`, `The 2025–26 decline` | `seasonDetail[].program` | `sportsPrograms/davidson-day.ts` | **FIXED 2026-08-19** — framing moved into the adjacent `text`, which is extracted; `program` is now the bare season (`2023–24`) |
+| `Football — Estep era`, `Football — James era` | `bars[].program` | `sportsPrograms/charlotte-christian.ts` | left — see cost below |
+| `2 years`, `1 credit` | `value` | `artsPrograms/cannon.ts`, `davidson-day.ts` | left — figure field |
+| `15-yr (2024–25 profile)`, `15-yr (2021–22 profile)` | `year` | `collegeSupportPrograms/charlotte-christian.ts` | left — figure field |
 
-This is exactly the "right about 12 values, wrong about the 13th" shape above:
-`program` is a genuine sport name for 23 of 27 values and an editorial phrase
-for 4. Recorded so it is not re-discovered as a bug in whichever locale ships
-next.
+**Three corrections to the original entry.** It said `program` is "a genuine sport
+name for 23 of 27 values"; the real counts are **2 editorial of 34** at
+`seasonDetail[].program` and **2 of 42** at `bars[].program` — two separate paths,
+not one field. It listed `(2021–22 profile)` where the actual value is
+`15-yr (2021–22 profile)`. And it **omitted `Football — James era`**, which has the
+identical defect.
+
+**Why the remaining four are left, on purpose.** `bars[].program` is a chart bar
+label whose siblings are `record`/`pct`/`tag` — there is no adjacent prose field to
+move the era phrase into, so the only fix is promoting the path in `PATH_OVERRIDES`,
+which would newly extract **40 sport names** into nine locales to translate 2
+strings. The `value` and `year` rows are figure fields holding a unit word
+(`2 years` sits beside `22`, `1 AP`, `298`, `89%`, `11,486 sq ft`); treating them as
+prose means extracting every figure in the app. Both are judged not worth it —
+recorded as a decision, so a later pass does not re-litigate them as bugs.
 
 Rules of thumb: never concatenate sentence fragments — use interpolation
 (`{{count}} schools`) so word order can change per language. Use i18next's `count`
