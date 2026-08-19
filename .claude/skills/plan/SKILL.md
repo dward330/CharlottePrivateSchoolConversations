@@ -39,6 +39,14 @@ Leave it uningested: running the pipeline is `/implement`'s job. Make the
 `ingest-source-material` step explicit in the plan, and say in your closing report which
 files you wrote and that they're uncommitted.
 
+**Some sources have a skill that already knows how to reach them.** Before researching a
+source that looks awkward to fetch, check whether a skill covers it — reaching for one is
+cheaper than re-deriving a method, and the skill carries the traps. Notably, UNC-system
+admit rates per high school live behind a canvas-rendered Tableau dashboard that blocks
+every simple export path: use `unc-admissions-data` rather than improvising. If a plan
+depends on that data, settle **which institutions** at planning time — "top 6 by US News"
+is ambiguous, because Appalachian State is ranked *Regional*, not *National*.
+
 ## Steps
 
 ### 1. Ask what to plan

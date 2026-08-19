@@ -1,13 +1,16 @@
-# Scraping the UNC Insight Tableau dashboard (Applied / Admitted / Enrolled)
+# Method — scraping the UNC Insight Tableau dashboard
 
-**START HERE.** This doc is the worked method for pulling *per-high-school ×
-per-UNC-institution* application outcomes out of the NC public university system's
-Tableau dashboard. It was derived empirically on **2026-08-19** and every claim below
-was verified by running it — including the things that **do not** work, which are
-recorded so nobody burns another hour rediscovering them.
+**Reference file for the `unc-admissions-data` skill.** [`../SKILL.md`](../SKILL.md) is
+the entry point and holds the workflow, the provenance obligations and the
+interpretation rules; this file is the mechanical how-to it defers to.
 
-Read this **before** writing a plan that needs UNC admissions data (`/add-school`,
-`/plan`). The mechanism is fiddly in specific ways that are invisible until you hit them.
+Every claim below was derived empirically on **2026-08-19** by running it — including
+the things that **do not** work, which are recorded so nobody burns another hour
+rediscovering them.
+
+The mechanism is fiddly in specific ways that are invisible until you hit them, and the
+blocked paths return HTTP 200 while giving you the wrong data. Read §1 and §2 before
+touching the dashboard.
 
 **Dashboard URL**
 
@@ -280,7 +283,7 @@ This is external school data, so the standing rule in `CLAUDE.md` applies in ful
 
 - Save to `source-material/college-support/<school>/<School> - College Support - UNC System Admissions.md`
 - Include the provenance header (fetched-by / date / method = "UNC Insight Tableau
-  dashboard, headful-Chrome CDP scrape per `.claude/docs/unc-insight-tableau-scrape.md`"),
+  dashboard, headful-Chrome CDP scrape per the `unc-admissions-data` skill"),
   the **dashboard URL**, the exact filter values used (institution string, school
   string, term range, Recent-HS-Graduate setting), and the full per-term counts —
   **not just the derived rate**.
