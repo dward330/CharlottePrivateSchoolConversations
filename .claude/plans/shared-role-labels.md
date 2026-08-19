@@ -1,11 +1,11 @@
 ---
 name: shared-role-labels
 title: Translate two athletics role labels that four locales left in English across three schools
-status: not-implemented
+status: implemented
 phases: 1
 created: 2026-08-19
 branch: i18n/shared-role-labels
-prs: []
+prs: [151]
 ---
 
 # Translate two athletics role labels that four locales left in English
@@ -225,3 +225,71 @@ Single-phase; run all of it.
 - **Is `bn`'s all-Latin treatment of `Director of …` titles deliberate?** Step 3 resolves
   this by inspection. **Default:** if `bn` keeps every other `Director of …` in Latin, leave
   `Athletic Director` English for `bn` and record the evidence; fix the other three locales.
+
+## Implementation notes
+
+Implemented 2026-08-19 on `i18n/shared-role-labels`. **Four of the eight planned
+locale-cells were filled; the other four are recorded keeps** — the outcome step 3
+explicitly permitted, generalized from `bn` to all four lagging locales on the same
+evidence.
+
+### `Strength & conditioning` — translated for `bn`, `te`, `it`, `hi` (as planned)
+
+| Locale | Rendering |
+|---|---|
+| bn | স্ট্রেংথ ও কন্ডিশনিং |
+| te | స్ట్రెంగ్త్ & కండిషనింగ్ |
+| it | Forza e condizionamento |
+| hi | स्ट्रेंथ और कंडीशनिंग |
+
+Confirmed a genuine leak by the `facilities.care[].label` class — a homogeneous set of
+21 sibling labels of which every locale already translates 18–21, including the
+adjacent `S&C staff` and `Strength as curriculum`. The lowercase `conditioning` marks
+it descriptive rather than a job title.
+
+### `Athletic Director` — NOT translated; recorded keep for `bn`, `te`, `fr`, `hi`
+
+The plan's step 3 anticipated this for `bn` and told the implementer to record a keep
+with evidence rather than force a translation. Inspection showed the convention is not
+`bn`-specific: **all four locales keep 6 of 6 bare `Director` job titles in Latin, with
+zero exceptions** — `Director of Athletics`, `Director of Sports Performance`,
+`Director of Athletic Performance`, `Associate Athletic Director`, `Football Program
+Director`, and `Athletic Director` itself. The only `Director` strings they touch are
+compound, where a sport-name prefix is translated and the title stays Latin
+(`কুস্তি · Director of S&C`).
+
+**Why the plan's 62–87% figure pointed the other way.** That rate was measured over all
+68 `coaching.tenure[].role` / `featured[].kicker` strings, most of which are a sport
+name plus an editorial clause (`Boys Basketball — 19 yrs as assistant`); those are
+translated because the clause is prose. Narrowed to the comparable class — bare job
+titles — the four locales translate `Head Coach` and `Athletic Trainer` but no
+`Director` title at all. Translating this one would have made it the sole translated
+director title in each locale.
+
+`it` was left as-is because it already shipped `Direttore atletico`, and `es`/`ht`/
+`fa`/`ar` likewise keep their existing translations. The label therefore reads
+translated in 5 of 9 locales and English in 4, each per that locale's own convention.
+
+### Open question resolved
+
+The hash-sharing note was added (the plan's default) — to `scripts/gen_data_schema.mjs`
+in the §3 preamble, so it covers all six structured areas; `DATA-SCHEMA.md` regenerated
+and `check:schema` passes.
+
+### Verification
+
+`tsc` clean · `build` passes · `check:runtime` 11,344 × 9 with no orphans (unchanged) ·
+`check:sepdrift` identical to baseline in all nine (es 178, ht 1, fa 1, rest 0) ·
+`check:script`, `check:hi`, `check:fr`, `check:bidi`, `check:schema`, `check:ranks` pass.
+
+`i18n:leaks` — `Strength & conditioning` cleared the flag list in all five affected
+locales. `Athletic Director` still flags in `bn`/`te`/`fr`/`hi`, which is correct: the
+checker's own output states each flag is a review item, not automatically a defect, and
+the keep is now documented in `src/data/overlays/NOTES.md`.
+
+**Browser check (real Chromium, panels force-expanded)** across all three schools × five
+locales: the label renders translated, no horizontal scroll, and no overflow in the
+kicker/tenure/care containers. One correction to a first-pass reading — Gaston Day
+appeared to show an untranslated `Athletic Director` in `it`, but that was a full-page
+text match against surrounding prose; the `.sports-care-label` itself correctly renders
+`Direttore atletico` (and `Director deportivo` in `es`).

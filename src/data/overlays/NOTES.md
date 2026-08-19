@@ -1527,3 +1527,44 @@ occurrence.
 
 This is the fourth instance of the recorded shape: a field correctly classified
 for most of its values and wrong for a few — after `value`, `tier` and `kind`.
+
+---
+
+## Shared-hash role labels — one entry, three school pages (2026-08-19)
+
+Overlay entries are keyed by **content hash, not by school**, so a single entry
+serves every school whose English text matches at that field path. Two athletics
+labels in `sports.<lang>.json` are shared this way:
+
+| String | Paths | Schools |
+|---|---|---|
+| `Athletic Director` | 4 | `charlotte-catholic`, `covenant-day`, `gaston-day` |
+| `Strength & conditioning` | 2 | `charlotte-catholic`, `covenant-day` |
+
+This is why the Charlotte Catholic Phase 2 triage (PR #150) **refused** both: the
+agents were scoped to `charlotte-catholic:` paths and correctly declined to rewrite
+other schools' pages from a single-school brief. Fixing them is a deliberate
+cross-school decision, taken here.
+
+**`Strength & conditioning` was a real leak — translated for `bn`, `te`, `it`, `hi`.**
+The evidence is `facilities.care[].label`, a homogeneous class of 21 sibling labels:
+every locale already translates 18–21 of them, including the immediately adjacent
+`S&C staff` and `Strength as curriculum`. The lowercase `conditioning` marks it as a
+descriptive label rather than a job title.
+
+**`Athletic Director` is a deliberate KEEP for `bn`, `te`, `fr`, `hi` — not a leak.**
+Those four locales keep **6 of 6** bare `Director` job titles in Latin, with no
+exceptions: `Director of Athletics`, `Director of Sports Performance`, `Director of
+Athletic Performance`, `Associate Athletic Director`, `Football Program Director` and
+`Athletic Director` itself. The only `Director` strings they touch are compound ones
+where a *sport-name prefix* is translated while the title stays Latin (`কুস্তি ·
+Director of S&C`). Translating this one would make it the sole translated director
+title in each locale, contradicting their own established convention. `es`, `ht`, `fa`,
+`ar` and `it` do translate it, and keep it translated — the test applied is each
+locale's own consistency, not a cross-locale majority.
+
+Four sibling strings flagged by `i18n:leaks` in the same pass were measured and
+rejected as convention, not leaks: `Basketball` and `Soccer` (every locale keeps
+75–97% of sport labels Latin), `Health` (95–99% of `courses[].title` Latin — course
+titles are searchable identifiers), and `Choral`. Recorded so a later pass does not
+re-litigate them.

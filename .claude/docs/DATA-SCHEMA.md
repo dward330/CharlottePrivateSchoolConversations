@@ -175,6 +175,17 @@ missing that field simply does not render the card.
 Per-school data lives one file per school so each school's research stays reviewable on
 its own, and is merged with locale overlays at render time.
 
+**Locale overlay entries are keyed by CONTENT HASH, not by school — one entry may serve
+several schools.** Any two schools whose English text is identical at a translated field
+share a single overlay entry listing every path it covers, so editing that entry changes
+every school on the list at once. `Athletic Director` is one entry spanning four paths
+across three schools. Two consequences: a single-school translation brief cannot safely
+fix a shared string (the fix is cross-school by construction, and needs a decision at
+that scope), and a translation judged against one school's conventions is applied to all
+of them. Splitting a hash by editing one school's English to make it differ corrupts
+data to work around a storage detail — decide the wording once, for every school sharing
+it.
+
 ### Sports `sports`
 
 Root type `SportsProgram` · registry `SPORTS_CARDS` · `src/data/sportsProgram.ts` · per-school `src/data/sportsPrograms/<slug>.ts`
