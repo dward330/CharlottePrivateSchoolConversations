@@ -11,7 +11,7 @@
 
 # Gaston Day School — Financial Aid & Tuition (Schedule and Aid Programs 2026)
 
-## Provenance
+**Provenance**
 
 - **Compiled by:** Claude Code deep research pass (`/implement add-gaston-day`).
 - **Date compiled:** 2026-08-18
@@ -24,7 +24,7 @@
 - **Currency note:** every figure below is copied char-for-char from its source. Nothing is
  rounded, converted or re-typed.
 
-## Source URLs
+### Source URLs
 
 | Ref | URL | What it covers |
 | --- | --- | --- |
@@ -34,7 +34,7 @@
 | S4 | https://www.gastonday.org/wp-content/uploads/2025/09/New-GDS-Profile-25-26.pdf | Academic Profile 2025-26 — **26% of student body on tuition assistance**, enrollment **510** |
 | S5 | https://www.privateschoolreview.com/gaston-day-school-profile | Third-party — 45% on financial aid, enrollment 466, endowment **$8.5 million**, 60-acre campus, avg class size 15. **Conflicts with S4; S4 wins.** |
 
-## Tuition and fees 2025-2026
+### Tuition and fees 2025-2026
 
 | Grade Level | Tuition | Fees | Total |
 | --- | --: | --: | --: |
@@ -53,7 +53,7 @@ figures.
 **2026-27 tuition (S2):** **$20,300 – $23,310** depending on grade. Published as a range on
 the cost page; the per-grade 2026-27 schedule PDF was not posted at the time of this pass.
 
-## After school & enrichment rates
+### After school & enrichment rates (duplicated in the After School area)
 
 | Item | Rate |
 | --- | --- |
@@ -76,7 +76,7 @@ rate authority and the **web page (S2/after-school file)** for the current opera
 which is the more likely thing to have been updated in-year. See the after-school file for
 the full page transcription.
 
-## Financial aid
+### Financial aid
 
 - **Platform: Clarity** (not FACTS or SSS). Five steps: sign up at the Clarity app; add
  Gaston Day School to the applicant entry; complete the application and pay the **$65**
@@ -95,7 +95,7 @@ or refund-plan terms, and the payment-plan tiers (S1 states only that "Gaston Da
 variety of payment plans" and that all plans assume the tuition deposit and fees have been
 paid). These are recorded as confirmed absences, not as unresearched gaps.
 
-## Aid share
+### Aid share
 
 **26% of the student body receives tuition assistance** (2025-26 Academic Profile).
 
@@ -105,7 +105,7 @@ while a third-party "percent on financial aid" figure commonly folds in merit aw
 state Opportunity Scholarship recipients — which at Gaston Day are three separate channels
 (S2). The gap is therefore plausibly definitional rather than either figure being wrong.
 
-## Institutional context
+### Institutional context
 
 - **Endowment: $8.5 million**
 - **Campus: 60 acres**

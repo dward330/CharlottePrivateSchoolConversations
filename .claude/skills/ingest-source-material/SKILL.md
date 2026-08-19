@@ -316,11 +316,12 @@ Nothing is deleted by this: demoted sections still ship in the committed researc
 and still render inside the intro/report card. This is about what gets its own headline on
 a parent-facing page.
 
-**⚠️ Two schools on the roster currently violate this and are known debt.** `gaston-day`
-renders **8 raw prose cards** — including a bare `Source URLs` ref-table — and shows **no
-In-Depth Report card at all**. `charlotte-country-day` leads with `Tuition History &
-Sources` before its report. Both predate this rule; fix them when either school is next
-touched rather than as a drive-by.
+**`gaston-day` was the worst violator and is now FIXED** (2026-08-18): it rendered **8 raw
+prose cards** — including a bare `Source URLs` ref-table — and **no In-Depth Report card at
+all**. It now renders the report plus two genuinely additive cards (Bus services, Named
+scholarships). **`charlotte-country-day` remains known debt**, leading with `Tuition History
+& Sources` before its report; fix it when that school is next touched rather than as a
+drive-by.
 
 **Gaston Day's missing report is a DIFFERENT bug, and worth understanding — one blank line
 costs a school its whole structured card.** Its `REPORTS` entry is present and complete (7
@@ -336,8 +337,16 @@ Every other school writes its opening block as bold text (`**Provenance**`) rath
 heading, so its H1 section keeps a body and survives. **Rule: in a financial-aid research
 file, never let the first `##` heading follow the `# Title` with nothing between them.**
 Leave the provenance block unheaded (bold text), or put any prose between them. Verified
-across all 11 schools: Gaston Day is the only file with a title-only in-depth section, and
-the only school missing the card.
+across all 11 schools: Gaston Day was the only file with a title-only in-depth section, and
+the only school missing the card. Fixed by changing its `## Provenance` to `**Provenance**`
+— a one-line change that restored the whole structured card.
+
+**One more thing that audit surfaced: a card duplicating another research area.** Gaston
+Day's Financial Aid also carried an `After school & enrichment rates` card whose figures
+($95/$55 weekly, $30/$15 drop-in, the $25 Extended Day fee, the $35 music lessons and the
+rate-conflict discussion) are **all already in its After School area**, which is where a
+parent looks for them. Demoted to `###`. When a section restates another area's data, that
+is a card the other area already owns.
 
 **⚠️ `check:metrics` CANNOT catch this — do not rely on it here.** Section 1 of that check
 iterates the **manifest**, which holds one entry per *file* (its subtopic is the filename
