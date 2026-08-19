@@ -317,10 +317,27 @@ and still render inside the intro/report card. This is about what gets its own h
 a parent-facing page.
 
 **⚠️ Two schools on the roster currently violate this and are known debt.** `gaston-day`
-renders **8 raw prose cards** — including a bare `Source URLs` ref-table — and has **no
-`REPORTS` entry at all**, so it never swaps in the structured card. `charlotte-country-day`
-leads with `Tuition History & Sources` before its report. Both predate this rule; fix them
-when either school is next touched rather than as a drive-by.
+renders **8 raw prose cards** — including a bare `Source URLs` ref-table — and shows **no
+In-Depth Report card at all**. `charlotte-country-day` leads with `Tuition History &
+Sources` before its report. Both predate this rule; fix them when either school is next
+touched rather than as a drive-by.
+
+**Gaston Day's missing report is a DIFFERENT bug, and worth understanding — one blank line
+costs a school its whole structured card.** Its `REPORTS` entry is present and complete (7
+sections, resolves fine), and its subtopic normalizes to `in-depth-report` correctly. The
+break is upstream: its research file opens `# Title` immediately followed by
+`## Provenance`, so the H1 section has **no body of its own**. `isInternal()` in
+`src/lib/content.ts` drops any section whose entire body is the source's own `# Title`
+line — correct on its own terms, since that heading is already the card's title — but
+dropping it removes the ONLY group carrying the `in-depth-report` key, and the report card
+is attached to that key. No group, no card.
+
+Every other school writes its opening block as bold text (`**Provenance**`) rather than a
+heading, so its H1 section keeps a body and survives. **Rule: in a financial-aid research
+file, never let the first `##` heading follow the `# Title` with nothing between them.**
+Leave the provenance block unheaded (bold text), or put any prose between them. Verified
+across all 11 schools: Gaston Day is the only file with a title-only in-depth section, and
+the only school missing the card.
 
 **⚠️ `check:metrics` CANNOT catch this — do not rely on it here.** Section 1 of that check
 iterates the **manifest**, which holds one entry per *file* (its subtopic is the filename
