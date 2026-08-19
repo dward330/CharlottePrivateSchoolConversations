@@ -97,6 +97,63 @@ def _strip_bare_url_dumps(text: str) -> str:
     return "\n".join(out)
 
 
+# Internal research provenance must NEVER reach a public school page. Research
+# files open with a provenance block naming who compiled the note, when and how
+# ("Compiled by Claude Code deep research pass…", "- **Retrieved by:** Claude").
+# That is maintainer metadata for the committed record, not something a parent
+# reading about a school should see — and it leaked: Covenant Day's
+# tuition-history card rendered "> Provenance: Compiled by Claude Code on
+# 2026-08-15" as body text, with 65 content files carrying the same strings
+# waiting to surface.
+#
+# Stripped HERE, in the generator, rather than filtered at render: src/content is
+# regenerated from source-material on every ingest, so a render-side filter would
+# have to be re-derived by every consumer (page, print-out, pre-rendered HTML,
+# search index, translation overlays). Removing it at the source means it cannot
+# come back. The source-material files KEEP their provenance headers — that is
+# the point of the committed record; only the RENDERED layer drops them.
+#
+# Label forms seen across the corpus: "**Compiled by:**", "- **Retrieved by:**",
+# "**Date compiled:**", "**Method:**", "> **Provenance:**". Anchoring at the
+# start of a (possibly quoted, possibly bulleted) line catches them without
+# touching prose that merely uses the word.
+PROVENANCE_LINE = re.compile(
+    r"^\s*(?:>\s*)?(?:[-*+]\s*)?(?:\*\*)?"
+    r"(?:Provenance|Compiled by|Compiled research note|Retrieved by|Retrieval date"
+    r"|Date compiled|Method|Prepared by|Author)\b.*$",
+    re.IGNORECASE | re.MULTILINE,
+)
+# A blockquote provenance block runs until a blank or non-quoted line, so its
+# continuation rows go too.
+PROVENANCE_QUOTE_TAIL = re.compile(r"^>\s*(?![*#-]).*$", re.MULTILINE)
+# Stray attribution surviving outside the block form.
+ATTRIBUTION = re.compile(
+    r"(?:Compiled by[^.\n]*\.?|Claude Code[^.\n]*\.?|deep research pass\s*\([^)]*\)\.?)",
+    re.IGNORECASE,
+)
+# Section headings that are purely internal record-keeping — never a card.
+PROVENANCE_HEADING = re.compile(
+    r"^\s*(?:Provenance|Sources? referenced.*|Method(?:ology)?|Source snapshots?)\s*$",
+    re.IGNORECASE,
+)
+
+
+def _strip_provenance(text: str) -> str:
+    """Remove internal provenance/attribution from text bound for the app."""
+    out, in_quote_block = [], False
+    for line in text.splitlines():
+        if PROVENANCE_LINE.match(line):
+            # A quoted provenance line opens a block; swallow its continuation.
+            in_quote_block = line.lstrip().startswith(">")
+            continue
+        if in_quote_block:
+            if PROVENANCE_QUOTE_TAIL.match(line):
+                continue
+            in_quote_block = False
+        out.append(line)
+    return ATTRIBUTION.sub("", "\n".join(out))
+
+
 def clean(text: str) -> str:
     text = CID_BULLET.sub("• ", text)
     text = CID_ANY.sub("", text)
@@ -105,6 +162,7 @@ def clean(text: str) -> str:
     text = "\n".join(line.rstrip() for line in text.splitlines())
     text = _rejoin_wrapped_urls(text)
     text = _strip_bare_url_dumps(text)
+    text = _strip_provenance(text)
     text = MULTI_BLANK.sub("\n\n", text)
     return text.strip()
 
@@ -159,6 +217,13 @@ def parse_note(md: str):
         body = SOURCE_LINE.sub("", rest).strip()
         body = clean(body)
         if not body:
+            continue
+        # A section that was ENTIRELY internal provenance collapses to orphaned
+        # scraps once its attribution lines are stripped ("- Live pa", a stray
+        # bullet), which would render as a card titled "Provenance" with nonsense
+        # under it. Drop the section outright. The research file keeps it; only
+        # the rendered layer loses it.
+        if PROVENANCE_HEADING.match(subtopic) or len(" ".join(body.split())) < 40:
             continue
         sections.append(
             {
