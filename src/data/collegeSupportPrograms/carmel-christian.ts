@@ -293,7 +293,8 @@ export const carmelChristian: CollegeSupportProgram = {
         rate: '25.0%',
         ratePct: 0.25,
         fiveYearRate: '32.7%',
-        fiveYearCounts: '113 applied · 37 in',
+        fiveYearApplied: '113',
+        fiveYearAccepted: '37',
       },
       {
         key: 'nc-state-university',
@@ -305,7 +306,8 @@ export const carmelChristian: CollegeSupportProgram = {
         rate: '30.8%',
         ratePct: 0.308,
         fiveYearRate: '32.5%',
-        fiveYearCounts: '126 applied · 41 in',
+        fiveYearApplied: '126',
+        fiveYearAccepted: '41',
       },
       {
         key: 'unc-charlotte',
@@ -317,7 +319,8 @@ export const carmelChristian: CollegeSupportProgram = {
         rate: '56.7%',
         ratePct: 0.567,
         fiveYearRate: '76.9%',
-        fiveYearCounts: '130 applied · 100 in',
+        fiveYearApplied: '130',
+        fiveYearAccepted: '100',
       },
       {
         key: 'east-carolina-university',
@@ -329,7 +332,8 @@ export const carmelChristian: CollegeSupportProgram = {
         rate: '100.0%',
         ratePct: 1,
         fiveYearRate: '91.5%',
-        fiveYearCounts: '71 applied · 65 in',
+        fiveYearApplied: '71',
+        fiveYearAccepted: '65',
       },
       {
         key: 'unc-wilmington',
@@ -341,7 +345,8 @@ export const carmelChristian: CollegeSupportProgram = {
         rate: '61.3%',
         ratePct: 0.613,
         fiveYearRate: '70.1%',
-        fiveYearCounts: '117 applied · 82 in',
+        fiveYearApplied: '117',
+        fiveYearAccepted: '82',
       },
       {
         key: 'unc-greensboro',
@@ -353,7 +358,8 @@ export const carmelChristian: CollegeSupportProgram = {
         rate: '100.0%',
         ratePct: 1,
         fiveYearRate: '77.8%',
-        fiveYearCounts: '27 applied · 21 in',
+        fiveYearApplied: '27',
+        fiveYearAccepted: '21',
       },
     ],
     methodNote:

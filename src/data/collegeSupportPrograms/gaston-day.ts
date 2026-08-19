@@ -305,7 +305,8 @@ export const gastonDay: CollegeSupportProgram = {
         rate: '27.3%',
         ratePct: 0.273,
         fiveYearRate: '29.6%',
-        fiveYearCounts: '71 applied · 21 in',
+        fiveYearApplied: '71',
+        fiveYearAccepted: '21',
       },
       {
         key: 'nc-state-university',
@@ -317,7 +318,8 @@ export const gastonDay: CollegeSupportProgram = {
         rate: '46.7%',
         ratePct: 0.467,
         fiveYearRate: '50.0%',
-        fiveYearCounts: '76 applied · 38 in',
+        fiveYearApplied: '76',
+        fiveYearAccepted: '38',
       },
       {
         key: 'unc-charlotte',
@@ -329,7 +331,8 @@ export const gastonDay: CollegeSupportProgram = {
         rate: '85.7%',
         ratePct: 0.857,
         fiveYearRate: '88.6%',
-        fiveYearCounts: '35 applied · 31 in',
+        fiveYearApplied: '35',
+        fiveYearAccepted: '31',
       },
       {
         key: 'east-carolina-university',
@@ -341,7 +344,8 @@ export const gastonDay: CollegeSupportProgram = {
         rate: '100.0%',
         ratePct: 1,
         fiveYearRate: '100.0%',
-        fiveYearCounts: '17 applied · 17 in',
+        fiveYearApplied: '17',
+        fiveYearAccepted: '17',
       },
       {
         key: 'unc-wilmington',
@@ -353,7 +357,8 @@ export const gastonDay: CollegeSupportProgram = {
         rate: '75.0%',
         ratePct: 0.75,
         fiveYearRate: '67.7%',
-        fiveYearCounts: '31 applied · 21 in',
+        fiveYearApplied: '31',
+        fiveYearAccepted: '21',
       },
       {
         key: 'unc-greensboro',
@@ -365,7 +370,8 @@ export const gastonDay: CollegeSupportProgram = {
         rate: '100.0%',
         ratePct: 1,
         fiveYearRate: '100.0%',
-        fiveYearCounts: '12 applied · 12 in',
+        fiveYearApplied: '12',
+        fiveYearAccepted: '12',
       },
     ],
     methodNote:

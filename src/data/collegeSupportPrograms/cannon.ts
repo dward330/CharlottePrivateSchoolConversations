@@ -353,7 +353,8 @@ export const cannon: CollegeSupportProgram = {
         rate: '31.7%',
         ratePct: 0.317,
         fiveYearRate: '37.4%',
-        fiveYearCounts: '273 applied · 102 in',
+        fiveYearApplied: '273',
+        fiveYearAccepted: '102',
       },
       {
         key: 'nc-state-university',
@@ -365,7 +366,8 @@ export const cannon: CollegeSupportProgram = {
         rate: '65.4%',
         ratePct: 0.654,
         fiveYearRate: '58.1%',
-        fiveYearCounts: '236 applied · 137 in',
+        fiveYearApplied: '236',
+        fiveYearAccepted: '137',
       },
       {
         key: 'unc-charlotte',
@@ -377,7 +379,8 @@ export const cannon: CollegeSupportProgram = {
         rate: '100.0%',
         ratePct: 1,
         fiveYearRate: '96.0%',
-        fiveYearCounts: '99 applied · 95 in',
+        fiveYearApplied: '99',
+        fiveYearAccepted: '95',
       },
       {
         key: 'east-carolina-university',
@@ -389,7 +392,8 @@ export const cannon: CollegeSupportProgram = {
         rate: '100.0%',
         ratePct: 1,
         fiveYearRate: '96.8%',
-        fiveYearCounts: '62 applied · 60 in',
+        fiveYearApplied: '62',
+        fiveYearAccepted: '60',
       },
       {
         key: 'unc-wilmington',
@@ -401,7 +405,8 @@ export const cannon: CollegeSupportProgram = {
         rate: '70.6%',
         ratePct: 0.706,
         fiveYearRate: '64.9%',
-        fiveYearCounts: '94 applied · 61 in',
+        fiveYearApplied: '94',
+        fiveYearAccepted: '61',
       },
       {
         key: 'unc-greensboro',
@@ -413,7 +418,8 @@ export const cannon: CollegeSupportProgram = {
         rate: '100.0%',
         ratePct: 1,
         fiveYearRate: '100.0%',
-        fiveYearCounts: '24 applied · 24 in',
+        fiveYearApplied: '24',
+        fiveYearAccepted: '24',
       },
     ],
     methodNote:

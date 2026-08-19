@@ -467,7 +467,7 @@ header, everything else suppresses it.
 
 `CsRow` — `label`, `text`
 
-`NcUniversity` — `key`, `name`, `rank`, `note?`, `applied`, `accepted`, `rate?`, `ratePct?`, `fiveYearRate?`, `fiveYearCounts?`
+`NcUniversity` — `key`, `name`, `rank`, `note?`, `applied`, `accepted`, `rate?`, `ratePct?`, `fiveYearRate?`, `fiveYearApplied?`, `fiveYearAccepted?`
 
 `NcAdmissions` — `headline`, `subhead?`, `stats`, `ledgerTitle?`, `universities`, `methodNote?`, `flags`, `sources`
 

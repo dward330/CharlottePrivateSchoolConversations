@@ -59,7 +59,8 @@ export const covenantDay: CollegeSupportProgram = {
         rate: '27.3%',
         ratePct: 0.273,
         fiveYearRate: '34.6%',
-        fiveYearCounts: '136 applied · 47 in',
+        fiveYearApplied: '136',
+        fiveYearAccepted: '47',
       },
       {
         key: 'nc-state-university',
@@ -71,7 +72,8 @@ export const covenantDay: CollegeSupportProgram = {
         rate: '52.4%',
         ratePct: 0.524,
         fiveYearRate: '58.3%',
-        fiveYearCounts: '168 applied · 98 in',
+        fiveYearApplied: '168',
+        fiveYearAccepted: '98',
       },
       {
         key: 'unc-charlotte',
@@ -83,7 +85,8 @@ export const covenantDay: CollegeSupportProgram = {
         rate: '89.5%',
         ratePct: 0.895,
         fiveYearRate: '90.5%',
-        fiveYearCounts: '63 applied · 57 in',
+        fiveYearApplied: '63',
+        fiveYearAccepted: '57',
       },
       {
         key: 'east-carolina-university',
@@ -95,7 +98,8 @@ export const covenantDay: CollegeSupportProgram = {
         rate: '85.7%',
         ratePct: 0.857,
         fiveYearRate: '84.2%',
-        fiveYearCounts: '38 applied · 32 in',
+        fiveYearApplied: '38',
+        fiveYearAccepted: '32',
       },
       {
         key: 'unc-wilmington',
@@ -107,7 +111,8 @@ export const covenantDay: CollegeSupportProgram = {
         rate: '72.7%',
         ratePct: 0.727,
         fiveYearRate: '70.0%',
-        fiveYearCounts: '80 applied · 56 in',
+        fiveYearApplied: '80',
+        fiveYearAccepted: '56',
       },
       {
         key: 'unc-greensboro',
@@ -119,7 +124,8 @@ export const covenantDay: CollegeSupportProgram = {
         rate: '40.0%',
         ratePct: 0.4,
         fiveYearRate: '78.6%',
-        fiveYearCounts: '14 applied · 11 in',
+        fiveYearApplied: '14',
+        fiveYearAccepted: '11',
       },
     ],
     methodNote:

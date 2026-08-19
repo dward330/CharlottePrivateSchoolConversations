@@ -274,8 +274,17 @@ export function NcAdmissionsBody({ data }: { data: NcAdmissions }) {
                 </td>
                 <td className="cs-td cs-td-5yr">
                   {u.fiveYearRate && <span className="cs-5yr-val">{u.fiveYearRate}</span>}
-                  {u.fiveYearCounts && (
-                    <span className="cs-5yr-note text-muted">{u.fiveYearCounts}</span>
+                  {/* The denominator line is composed from a chrome key rather
+                      than stored as one string, so "applied"/"in" translate
+                      while the two figures interpolate through untouched. Word
+                      order is the locale's to choose. */}
+                  {u.fiveYearApplied && u.fiveYearAccepted && (
+                    <span className="cs-5yr-note text-muted">
+                      {t('tables.ncFiveYearCounts', {
+                        applied: u.fiveYearApplied,
+                        accepted: u.fiveYearAccepted,
+                      })}
+                    </span>
                   )}
                 </td>
               </tr>

@@ -119,8 +119,22 @@ export type NcUniversity = {
   ratePct?: number
   /** Five-year pooled rate, e.g. '39%' (the design's `avg5`). */
   fiveYearRate?: string
-  /** Pooled denominator line, e.g. '341 applied · 133 in' (`avgNote`). */
-  fiveYearCounts?: string
+  /**
+   * Pooled five-year applications and acceptances, as separate display
+   * figures (the design's `avgNote`, which was one string: '341 applied · 133 in').
+   *
+   * Split deliberately. As one string the field carried the English words
+   * "applied" and "in" wrapped around two numerals, inside a table cell —
+   * the repo's recurring "sentence wearing an identifier's clothes" leak.
+   * Classifying it prose would have sent 66 figure-bearing strings through
+   * translation and invited the very re-typing check:sepdrift exists to catch;
+   * skipping it would have shipped English into nine locales. Splitting the
+   * figures out lets the words live in the `tables.ncFiveYearCounts` chrome
+   * key and interpolate, so the numerals are never re-typed and the sentence
+   * still translates.
+   */
+  fiveYearApplied?: string
+  fiveYearAccepted?: string
 }
 
 /**

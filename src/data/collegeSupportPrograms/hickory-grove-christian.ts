@@ -213,7 +213,8 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
         rate: '20.0%',
         ratePct: 0.2,
         fiveYearRate: '26.7%',
-        fiveYearCounts: '45 applied · 12 in',
+        fiveYearApplied: '45',
+        fiveYearAccepted: '12',
       },
       {
         key: 'nc-state-university',
@@ -225,7 +226,8 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
         rate: '52.6%',
         ratePct: 0.526,
         fiveYearRate: '53.9%',
-        fiveYearCounts: '76 applied · 41 in',
+        fiveYearApplied: '76',
+        fiveYearAccepted: '41',
       },
       {
         key: 'unc-charlotte',
@@ -237,7 +239,8 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
         rate: '84.0%',
         ratePct: 0.84,
         fiveYearRate: '91.6%',
-        fiveYearCounts: '107 applied · 98 in',
+        fiveYearApplied: '107',
+        fiveYearAccepted: '98',
       },
       {
         key: 'east-carolina-university',
@@ -249,7 +252,8 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
         rate: '100.0%',
         ratePct: 1,
         fiveYearRate: '91.7%',
-        fiveYearCounts: '36 applied · 33 in',
+        fiveYearApplied: '36',
+        fiveYearAccepted: '33',
       },
       {
         key: 'unc-wilmington',
@@ -261,7 +265,8 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
         rate: '87.5%',
         ratePct: 0.875,
         fiveYearRate: '91.3%',
-        fiveYearCounts: '46 applied · 42 in',
+        fiveYearApplied: '46',
+        fiveYearAccepted: '42',
       },
       {
         key: 'unc-greensboro',
@@ -273,7 +278,8 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
         rate: '100.0%',
         ratePct: 1,
         fiveYearRate: '93.8%',
-        fiveYearCounts: '32 applied · 30 in',
+        fiveYearApplied: '32',
+        fiveYearAccepted: '30',
       },
     ],
     methodNote:
