@@ -9,11 +9,7 @@ _Placeholder description — more detail to be added as the project develops._
 
 - `.claude/docs/` — reference material and notes (e.g. markdown converted from source files),
   including the generated [`DATA-SCHEMA.md`](.claude/docs/DATA-SCHEMA.md) catalog of every
-  level of school data the app presents (see the data-schema standard below), and
-  [`unc-insight-tableau-scrape.md`](.claude/docs/unc-insight-tableau-scrape.md) — the verified
-  method for pulling per-school × per-UNC-institution admit rates out of the NC system's
-  Tableau dashboard (**read it before planning any work that needs UNC admissions data**;
-  it records what does NOT work, and two traps that produce plausible-but-wrong tables)
+  level of school data the app presents (see the data-schema standard below)
 - `.claude/skills/` — reusable skills
 - `.claude/commands/` — slash commands
 - `.claude/plans/` — implementation plans (one `.md` per feature) plus `INDEX.md`
@@ -152,6 +148,29 @@ Covenant Day review bugs — the zero-items card and the acceptance-list rank la
 produced exactly such doc rules.)
 
 See [`.claude/skills/add-school/SKILL.md`](.claude/skills/add-school/SKILL.md).
+
+### UNC admissions data — `unc-admissions-data`
+
+The NC university system publishes a Tableau dashboard giving **Applied / Admitted /
+Enrolled per NC high school × per UNC campus**, Fall 2016–2025. That is a
+*government-published* admit rate for a school we track, rather than the school's own
+marketing figure, so it is unusually good evidence for the College Support area — and it
+covers private schools, so **it is worth checking before concluding a school's college
+outcomes are "not published."**
+
+The dashboard is canvas-rendered and blocks every simple export path, so the method is
+non-obvious and lives in the skill. **Use the skill rather than improvising**: the blocked
+paths return HTTP 200 while serving the wrong sheet, and two selection traps produce
+plausible-but-wrong tables that render without any error. It is UNC-system campuses only
+— a complement to a matriculation list, never a replacement.
+
+Two rules travel with the data. **Always carry the denominator** — these are small cells
+(44 applicants at one campus in one year), so a bare percentage off a single-digit base is
+not publishable, the same discipline `/add-school` applies to area percentages. And the
+figure is a **joint property of school × university**, not either one's admit rate; label
+it accordingly.
+
+See [`.claude/skills/unc-admissions-data/SKILL.md`](.claude/skills/unc-admissions-data/SKILL.md).
 
 ## UX-design standard (required)
 
