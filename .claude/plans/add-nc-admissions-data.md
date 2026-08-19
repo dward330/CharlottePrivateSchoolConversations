@@ -1,11 +1,11 @@
 ---
 name: add-nc-admissions-data
 title: College Support — new first card "Admissions Rate for Top NC Public Universities"
-status: english-done
+status: implemented
 phases: 2
 created: 2026-08-19
 branch: feat/add-nc-admissions-data
-prs: []
+prs: [156]
 ---
 
 # College Support — new first card: Admissions Rate for Top NC Public Universities
@@ -635,3 +635,55 @@ mechanism rather than re-deriving it.
   `check:sepdrift`, and verify in the print-out.
 - **Do any of the 11 schools have no dashboard data at all?** — **default:** omit the card
   for that school and report it explicitly in the PR body; do not ship an empty shell.
+
+## Implementation notes
+
+Phase 1 shipped in f84aae1 (English, 11 schools). Phase 2 shipped in e05a832
+(chrome + prose overlay, all nine `PROSE_TRANSLATED` locales). Both in PR #156.
+
+Four deviations from the plan, all in Phase 2.
+
+**`fiveYearCounts` was split into two fields rather than classified.** The plan
+(Phase 2 step 1) left this as a deliberate decision: the field held
+`'341 applied · 133 in'`, and the choice was prose or skip. Neither is right —
+prose sends 66 figure-bearing strings through translation and invites exactly
+the re-typing `check:sepdrift` exists to catch, and skip ships two English words
+inside a table cell to nine locales, which is the repo's recurring
+"sentence wearing an identifier's clothes" defect. Instead the figures moved to
+`fiveYearApplied` / `fiveYearAccepted` (both skipped) and the words moved to the
+interpolated chrome key `tables.ncFiveYearCounts`. This touched
+`src/data/collegeSupport.ts`, `src/components/CollegeSupport.tsx` and all 11
+school data files — component work inside Phase 2, which the plan did not
+anticipate. All 66 values were migrated by regex capture so no digit was
+re-typed.
+
+**The card-title chrome key did not exist.** The plan's Phase 2 step 2 called
+for adding `cards.college-support.ncAdmissions` to each catalog, and it was
+absent from `en.json` too — Phase 1 had left the title as the English literal in
+`COLLEGE_SUPPORT_CARDS`, which `cardTitle()` falls back to. Without the key the
+card *heading* would have shipped English to all nine locales while coverage read
+100%. Added to `en.json` as well as the other nine.
+
+**Farsi digits.** The plan did not cover this. Eastern-Arabic digits were drafted
+for `fa` prose and for `tables.ncFiveYear`, then changed to Western: `fa` is in
+`FIGURE_SAFE_NUMBERS` so a figure stays matchable against the school's English
+source, and all 774 shipped `fa` prose entries already use Western digits. The
+Eastern precedent in `fa` chrome is confined to the `tables.pct*` percentile
+family, which has no source figure to match.
+
+**Two verification commands in the plan do not exist**: `npm run check:chrome`
+and `npm run check:rtl`. The real scripts are `check:script` / `check:hashes`
+and `check:bidi`; those were run instead. The RTL figure check was additionally
+done by per-character x-position measurement in a real browser (72 tokens across
+`fa`/`ar`, none internally reversed) rather than by the checker alone.
+
+One finding worth recording for the next locale: in an RTL paragraph the counts
+line renders its two figures in reverse *visual* order (`176` left of `419`).
+That is correct — the first logical item belongs on the right — and is a
+different shape from the documented `≈`-outside-the-isolate bug, where a neutral
+character was split from its own figure. Each digit run here is self-contained
+with strong-RTL words between them, so no isolate is needed.
+
+`check:sepdrift`, `check:figures` and `check:metrics` still fail on `es`/`ht`/`fa`
+and on ingest advisories. The counts are identical on `main` (178/1/1, 12/5, 13),
+so all are pre-existing; none were introduced here and none are in `ncAdmissions`.
