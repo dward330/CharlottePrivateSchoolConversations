@@ -143,7 +143,9 @@ export type NcUniversity = {
  *
  * This is not a matriculation list and must never be described as one: the UNC
  * Insight dashboard covers the 16 public UNC campuses and nothing else, so it
- * says nothing about private or out-of-state outcomes. And the rate is a joint
+ * says nothing about private or out-of-state outcomes. That is an EDITORIAL
+ * rule about how the card is described — the `gap` flag that stated it on-card
+ * was removed 2026-08-19 as footer clutter. And the rate is a joint
  * property of the (school, university) pair — the rate at which that university
  * admitted that high school's applicants — not either institution's own admit
  * rate. `methodNote` carries that caveat on every school's card.
@@ -470,7 +472,7 @@ export const COLLEGE_SUPPORT_CARDS = [
      school's program object actually has. */
   {
     key: 'ncAdmissions',
-    title: 'Admissions Rate for Top NC Public Universities',
+    title: 'Admission Rates at the Top NC Public Universities',
     kicker: "If we're aiming in-state, what are our odds from here?",
   },
   {

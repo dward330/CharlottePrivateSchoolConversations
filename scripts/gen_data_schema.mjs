@@ -446,6 +446,13 @@ for (const s of STRUCTURED) {
     w('about private or out-of-state outcomes. A school with no dashboard data omits the')
     w('card entirely rather than shipping an empty shell.')
     w()
+    w('**That scope limit is an EDITORIAL rule, not an on-card caveat.** The card shipped')
+    w('with a `gap` flag spelling it out beneath the ledger; it was removed 2026-08-19 at')
+    w('the user\'s request as footer clutter. So the rule binds how the card is described')
+    w('in prose, headings and any future summary — it no longer describes what the card')
+    w('renders. `methodNote` still carries the joint-figure caveat, which is a different')
+    w('point. Do not re-add the flag on the assumption the doc requires it.')
+    w()
     // Standing rule set 2026-08-16, after Covenant Day first shipped its
     // acceptance list without rank labels: the rule lives here because this
     // doc is what /add-school and a new-school build read first.

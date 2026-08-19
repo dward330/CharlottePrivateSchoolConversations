@@ -3758,6 +3758,16 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
 .cs-th-rate { width: 200px; }
 .cs-th-5yr { width: 110px; text-align: right; }
 
+/* Applied / Accepted centre under their headers HERE ONLY. The shared
+   .cs-th-count / .cs-td-count pair is right-aligned because Where Graduates Go
+   uses it for a single count column that reads against the rate beside it;
+   this ledger has two adjacent count columns whose headers are wider than the
+   two- and three-digit figures under them, so right-alignment pushed the
+   numerals away from the labels. Scoped to .cs-nc-ledger rather than changed on
+   the shared class, which would restyle the other card. */
+.cs-nc-ledger .cs-th-count,
+.cs-nc-ledger .cs-td-count { text-align: center; }
+
 .cs-td-rank {
   font-family: var(--heading);
   font-weight: 600;
