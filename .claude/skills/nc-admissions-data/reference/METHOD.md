@@ -1,6 +1,6 @@
 # Method — scraping the UNC Insight Tableau dashboard
 
-**Reference file for the `unc-admissions-data` skill.** [`../SKILL.md`](../SKILL.md) is
+**Reference file for the `nc-admissions-data` skill.** [`../SKILL.md`](../SKILL.md) is
 the entry point and holds the workflow, the provenance obligations and the
 interpretation rules; this file is the mechanical how-to it defers to.
 
@@ -283,7 +283,7 @@ This is external school data, so the standing rule in `CLAUDE.md` applies in ful
 
 - Save to `source-material/college-support/<school>/<School> - College Support - UNC System Admissions.md`
 - Include the provenance header (fetched-by / date / method = "UNC Insight Tableau
-  dashboard, headful-Chrome CDP scrape per the `unc-admissions-data` skill"),
+  dashboard, headful-Chrome CDP scrape per the `nc-admissions-data` skill"),
   the **dashboard URL**, the exact filter values used (institution string, school
   string, term range, Recent-HS-Graduate setting), and the full per-term counts —
   **not just the derived rate**.

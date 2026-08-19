@@ -106,7 +106,7 @@ For each research area, probe the sources that area actually lives on:
 | Student Clubs | a clubs/activities list; honor-society pages; student-life section |
 | The Arts | fine-arts department pages, performance calendar, Blumey-style award records |
 | Sports | athletics site, team rosters, state-association records, recruiting DBs for commits |
-| College Support | the **school profile** PDF and matriculation/acceptance list — the single highest-value document. For an **NC** school there is also a government-published fallback: the UNC-system Tableau dashboard gives Applied/Admitted/Enrolled per high school × campus (see the `unc-admissions-data` skill). Do not conclude "not published" for college outcomes without considering it. |
+| College Support | the **school profile** PDF and matriculation/acceptance list — the single highest-value document. For an **NC** school there is also a government-published fallback: the UNC-system Tableau dashboard gives Applied/Admitted/Enrolled per high school × campus (see the `nc-admissions-data` skill). Do not conclude "not published" for college outcomes without considering it. |
 | After School | extended-day / aftercare page with **published hours and prices** |
 | Summer Programs | a summer camp catalog with sessions and prices |
 | Financial Aid & Tuition | published tuition table, aid percentages, and (if it exists) a Form 990 |
@@ -305,7 +305,7 @@ When the user picks it, run a **focused deep research pass on that one area only
   `Private School Review`, NCES, the school's Form 990, archived versions of pages
   (a tuition table pulled before an inquiry-form redesign still counts as published), local
   press, the diocese or association the school belongs to, and PDFs the site never links.
-- **For College Support on an NC school, the deep pass includes the `unc-admissions-data`
+- **For College Support on an NC school, the deep pass includes the `nc-admissions-data`
   skill** — the UNC-system dashboard publishes Applied/Admitted/Enrolled per high school ×
   campus regardless of what the school itself chooses to publish. It is well suited to this
   step: it converts a *not-found* into a **confirmed `null`**, which is exactly what a deep

@@ -149,7 +149,7 @@ produced exactly such doc rules.)
 
 See [`.claude/skills/add-school/SKILL.md`](.claude/skills/add-school/SKILL.md).
 
-### UNC admissions data — `unc-admissions-data`
+### NC university admissions data — `nc-admissions-data`
 
 The NC university system publishes a Tableau dashboard giving **Applied / Admitted /
 Enrolled per NC high school × per UNC campus**, Fall 2016–2025. That is a
@@ -186,7 +186,7 @@ not publishable, the same discipline `/add-school` applies to area percentages. 
 figure is a **joint property of school × university**, not either one's admit rate; label
 it accordingly.
 
-See [`.claude/skills/unc-admissions-data/SKILL.md`](.claude/skills/unc-admissions-data/SKILL.md).
+See [`.claude/skills/nc-admissions-data/SKILL.md`](.claude/skills/nc-admissions-data/SKILL.md).
 
 ## UX-design standard (required)
 

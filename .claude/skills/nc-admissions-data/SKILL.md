@@ -1,9 +1,11 @@
 ---
-name: unc-admissions-data
+name: nc-admissions-data
 description: >
-  Pull per-high-school × per-UNC-institution admissions outcomes (Applied, Admitted,
-  Enrolled, Admit Rate, Yield Rate, Fall 2016–2025) from the NC university system's public
-  Tableau dashboard, then persist them into source-material with their provenance.
+  Pull North Carolina university admissions outcomes for a given high school — Applied,
+  Admitted, Enrolled, Admit Rate and Yield Rate per institution, Fall 2016–2025 — then
+  persist them into source-material with their provenance. The source today is the UNC
+  system's public Tableau dashboard, covering all 16 UNC campuses; the skill is named for
+  the state so any future non-UNC NC admissions source belongs here too.
   Defaults to the project's standing Top 6 NC public universities — UNC-Chapel Hill,
   NC State University, UNC Charlotte, East Carolina University, UNC Wilmington and
   UNC Greensboro — so that set never needs re-specifying. Use
@@ -18,7 +20,13 @@ description: >
   works plus the traps that silently produce wrong tables.
 ---
 
-# /unc-admissions-data — pull UNC-system admissions outcomes for a school
+# /nc-admissions-data — pull NC university admissions outcomes for a school
+
+> **Scope note.** The skill is named for the **state**, not the UNC System, deliberately:
+> today its only source is the UNC-system dashboard below, but if NC admissions data ever
+> becomes available for non-UNC institutions (a private-college source, an NCES release),
+> it belongs here rather than in a second skill with an almost identical name. Everything
+> currently documented is UNC-system.
 
 The NC university system publishes a Tableau dashboard giving, for **every NC high
 school × every UNC-system institution**, the number of students who Applied, were

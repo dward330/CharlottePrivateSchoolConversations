@@ -43,7 +43,7 @@ files you wrote and that they're uncommitted.
 source that looks awkward to fetch, check whether a skill covers it — reaching for one is
 cheaper than re-deriving a method, and the skill carries the traps. Notably, UNC-system
 admit rates per high school live behind a canvas-rendered Tableau dashboard that blocks
-every simple export path: use `unc-admissions-data` rather than improvising. It **defaults
+every simple export path: use `nc-admissions-data` rather than improvising. It **defaults
 to the project's standing Top 6** — UNC-Chapel Hill, NC State University, UNC Charlotte,
 East Carolina University, UNC Wilmington, UNC Greensboro — so a plan needs to name
 institutions only when it wants something *other* than those six.

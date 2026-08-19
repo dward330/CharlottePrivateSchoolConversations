@@ -106,7 +106,7 @@ even when the plan doesn't mention it. The skill owns how ingestion works; just 
 fetched data reach the app without going through it.
 
 The same applies to *fetching*: if a plan calls for UNC-system admit rates, use the
-`unc-admissions-data` skill rather than working out the dashboard yourself. It is
+`nc-admissions-data` skill rather than working out the dashboard yourself. It is
 canvas-rendered and every simple export path is blocked while still returning HTTP 200,
 so an improvised attempt tends to produce a plausible-looking wrong table.
 
