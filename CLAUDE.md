@@ -9,7 +9,11 @@ _Placeholder description — more detail to be added as the project develops._
 
 - `.claude/docs/` — reference material and notes (e.g. markdown converted from source files),
   including the generated [`DATA-SCHEMA.md`](.claude/docs/DATA-SCHEMA.md) catalog of every
-  level of school data the app presents (see the data-schema standard below)
+  level of school data the app presents (see the data-schema standard below), and
+  [`unc-insight-tableau-scrape.md`](.claude/docs/unc-insight-tableau-scrape.md) — the verified
+  method for pulling per-school × per-UNC-institution admit rates out of the NC system's
+  Tableau dashboard (**read it before planning any work that needs UNC admissions data**;
+  it records what does NOT work, and two traps that produce plausible-but-wrong tables)
 - `.claude/skills/` — reusable skills
 - `.claude/commands/` — slash commands
 - `.claude/plans/` — implementation plans (one `.md` per feature) plus `INDEX.md`
