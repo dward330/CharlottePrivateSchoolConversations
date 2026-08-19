@@ -186,6 +186,17 @@ not publishable, the same discipline `/add-school` applies to area percentages. 
 figure is a **joint property of school × university**, not either one's admit rate; label
 it accordingly.
 
+**This data has a home in the app: `ncAdmissions`, the FIRST card of College
+Support** — *Admissions Rate for Top NC Public Universities* — added 2026-08-19. It leads
+the area precisely because its figures are government-published rather than
+school-published. The card shows, per school, applied / accepted / admit rate at each of
+the Top 6 for the most recent class, plus a **pooled** five-year rate
+(`sum(admitted)/sum(applied)`, never the mean of five annual rates). A school with no
+dashboard data omits the card rather than shipping an empty shell, and the card is never
+described as a matriculation list — it covers UNC-system campuses only. The full rule set
+lives in [`DATA-SCHEMA.md`](.claude/docs/DATA-SCHEMA.md), which is what `/add-school`
+reads first.
+
 See [`.claude/skills/nc-admissions-data/SKILL.md`](.claude/skills/nc-admissions-data/SKILL.md).
 
 ## UX-design standard (required)

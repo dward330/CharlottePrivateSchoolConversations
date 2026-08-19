@@ -343,6 +343,121 @@ const PROFILE_1718 =
   'https://www.charlottelatin.org/uploaded/COMPOSER/AcademicsTab/USprofile1718.pdf'
 
 export const charlotteLatin: CollegeSupportProgram = {
+  /* The area's FIRST card. Unlike every other card here, these figures are
+     GOVERNMENT-published — the UNC System's Insight dashboard, pulled via the
+     nc-admissions-data skill — rather than the school’s own marketing number.
+     Full per-term counts, the exact filter values and the provenance header are in
+     source-material/college-support/charlotte-latin/
+     Charlotte Latin School - College Support - UNC System Admissions.md.
+
+     Every rate ships with its denominator: these are small cells, and a bare
+     percentage off a single-digit base is not publishable. The five-year figure is
+     POOLED — sum(admitted)/sum(applied) over the five most recent terms — never the
+     mean of the five annual rates. */
+  ncAdmissions: {
+    headline:
+      'Across the six top-ranked NC public universities, Charlotte Latin School’s applicants were admitted at a pooled 45.5% over the last five entering classes — 334 acceptances from 734 applications.',
+    subhead:
+      'UNC-Chapel Hill is the hard one: 38.3% pooled there, against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.',
+    stats: [
+      { value: '734', label: 'applications to the six campuses, Fall 2021–2025' },
+      { value: '45.5%', label: 'pooled admit rate — 334 of 734 across those five classes' },
+      { value: '38.3%', label: 'at UNC-Chapel Hill — 115 of 300, the most selective of the six' },
+      { value: 'UNC-Chapel Hill', label: 'drew the most applications in Fall 2025 (69)' },
+    ],
+    universities: [
+      {
+        key: 'unc-chapel-hill',
+        name: 'UNC-Chapel Hill',
+        rank: 1,
+        note: 'Flagship · the most selective of the six',
+        applied: '69',
+        accepted: '23',
+        rate: '33.3%',
+        ratePct: 0.333,
+        fiveYearRate: '38.3%',
+        fiveYearCounts: '300 applied · 115 in',
+      },
+      {
+        key: 'nc-state-university',
+        name: 'NC State University',
+        rank: 2,
+        note: 'Flagship STEM · Raleigh',
+        applied: '67',
+        accepted: '23',
+        rate: '34.3%',
+        ratePct: 0.343,
+        fiveYearRate: '33.1%',
+        fiveYearCounts: '251 applied · 83 in',
+      },
+      {
+        key: 'unc-charlotte',
+        name: 'UNC Charlotte',
+        rank: 3,
+        note: 'Hometown campus',
+        applied: '14',
+        accepted: '11',
+        rate: '78.6%',
+        ratePct: 0.786,
+        fiveYearRate: '83.0%',
+        fiveYearCounts: '53 applied · 44 in',
+      },
+      {
+        key: 'east-carolina-university',
+        name: 'East Carolina University',
+        rank: 4,
+        note: 'Greenville · largest admit rates of the six',
+        applied: '10',
+        accepted: '10',
+        rate: '100.0%',
+        ratePct: 1,
+        fiveYearRate: '90.7%',
+        fiveYearCounts: '43 applied · 39 in',
+      },
+      {
+        key: 'unc-wilmington',
+        name: 'UNC Wilmington',
+        rank: 5,
+        note: 'Coastal · mid-selectivity',
+        applied: '25',
+        accepted: '13',
+        rate: '52.0%',
+        ratePct: 0.52,
+        fiveYearRate: '51.5%',
+        fiveYearCounts: '68 applied · 35 in',
+      },
+      {
+        key: 'unc-greensboro',
+        name: 'UNC Greensboro',
+        rank: 6,
+        note: 'Piedmont Triad',
+        applied: '8',
+        accepted: '8',
+        rate: '100.0%',
+        ratePct: 1,
+        fiveYearRate: '94.7%',
+        fiveYearCounts: '19 applied · 18 in',
+      },
+    ],
+    methodNote:
+      'Read each row as a joint figure: the rate at which that university admitted this school’s applicants — not the university’s overall admit rate, and not a measure of the school’s own selectivity. Applied/Accepted are the Fall 2025 entering class; the 5-yr column pools Fall 2021–2025 as sum(accepted)/sum(applied), so a heavy year counts more than a light one. Counts travel with every rate because several cells are single-digit.',
+    flags: [
+      {
+        kind: 'verify',
+        text: 'Rank order follows the US News **National Universities** table for NC publics. That qualifier matters: Appalachian State is ranked in **Regional Universities South**, a different list, so “top 6 in NC” is not self-defining. Re-score when the next edition lands.',
+      },
+      {
+        kind: 'gap',
+        text: 'UNC-system campuses only — the dashboard covers the 16 public UNC institutions and nothing else. It says nothing about private or out-of-state destinations, so this complements the acceptance list rather than replacing it.',
+      },
+    ],
+    sources: [
+      {
+        label: 'insight.northcarolina.edu — Applied, Admitted, Enrolled (Fall 2016–2025)',
+        url: 'https://insight.northcarolina.edu/t/Public/views/db_freshmen/AppliedAdmittedEnrolled?:embed=y&:isGuestRedirectFromVizportal=y',
+      },
+    ],
+  },
   transcript: {
     headline:
       'Students in AP classes are required to sit the exam — but unlike its peers, Latin publishes no AP score distribution at all, so the results of that policy are invisible.',

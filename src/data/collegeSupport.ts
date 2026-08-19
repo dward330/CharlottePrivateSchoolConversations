@@ -82,6 +82,77 @@ export type CsRow = {
   text: string
 }
 
+/* ------------------------------- nc public-university admissions ---------- */
+
+/**
+ * One university's row in the six-university ledger.
+ *
+ * Mirrors the design's mock row — { rank, name, note, applied, accepted, rate,
+ * avg5, avgNote } — with the figures carried as display STRINGS rather than
+ * bare numbers. Two reasons: a published figure is copied char-for-char and
+ * never re-typed or recomputed at render, and a rate suppressed for a small
+ * base has to be genuinely absent rather than zero.
+ *
+ * The counts come from the UNC system's Insight dashboard via the
+ * `nc-admissions-data` skill — a government-published figure per (high school ×
+ * campus) pair, not the school's own marketing number.
+ */
+export type NcUniversity = {
+  /** Stable key — 'unc-chapel-hill', 'nc-state', … Never displayed. */
+  key: string
+  /** Display name, EXACTLY as the dashboard spells it. Not translated. */
+  name: string
+  /** US News National Universities rank position within NC publics, 1–6. */
+  rank: number
+  /** Short descriptive note beside the name ("Hometown campus") — prose. */
+  note?: string
+  /** Most recent class: applications from this school. */
+  applied: string
+  /** Most recent class: acceptances. */
+  accepted: string
+  /**
+   * Admit rate for the most recent class, e.g. '39%'. Omitted where the
+   * denominator is missing — never estimated. See `flags` for the gap.
+   */
+  rate?: string
+  /** 0–1, drives the proportional bar width. Omitted with `rate`. */
+  ratePct?: number
+  /** Five-year pooled rate, e.g. '39%' (the design's `avg5`). */
+  fiveYearRate?: string
+  /** Pooled denominator line, e.g. '341 applied · 133 in' (`avgNote`). */
+  fiveYearCounts?: string
+}
+
+/**
+ * The "Admissions Rate for Top NC Public Universities" card — the area's FIRST
+ * card, ahead of the transcript.
+ *
+ * This is not a matriculation list and must never be described as one: the UNC
+ * Insight dashboard covers the 16 public UNC campuses and nothing else, so it
+ * says nothing about private or out-of-state outcomes. And the rate is a joint
+ * property of the (school, university) pair — the rate at which that university
+ * admitted that high school's applicants — not either institution's own admit
+ * rate. `methodNote` carries that caveat on every school's card.
+ */
+export type NcAdmissions = {
+  headline: string
+  subhead?: string
+  /** The 4-cell stat strip. */
+  stats: CsStat[]
+  /** Heading over the ledger. */
+  ledgerTitle?: string
+  /**
+   * The six universities, in US News rank order. Ships exactly six where the
+   * dashboard has data for all six; a campus with no data is still listed
+   * with counts and a gap flag rather than dropped.
+   */
+  universities: NcUniversity[]
+  /** The method note beneath the ledger. */
+  methodNote?: string
+  flags: CsFlag[]
+  sources: CsSource[]
+}
+
 /* -------------------------------------------- 1a the transcript ----------- */
 
 /** One year of the National Merit / College Board recognition ledger. */
@@ -363,6 +434,7 @@ export type Verdict = {
  * present, in this fixed order, so ordering stays consistent across schools.
  */
 export type CollegeSupportProgram = {
+  ncAdmissions?: NcAdmissions
   transcript?: Transcript
   counseling?: Counseling
   outcomes?: Outcomes
@@ -378,6 +450,15 @@ export type CollegeSupportProgram = {
  * review only; the shipped cards show the topic name alone.
  */
 export const COLLEGE_SUPPORT_CARDS = [
+  /* First, deliberately. This is the one card in the area whose figures are
+     government-published rather than school-published, so it leads. Array
+     order IS render order — SchoolDetail filters this list by which keys the
+     school's program object actually has. */
+  {
+    key: 'ncAdmissions',
+    title: 'Admissions Rate for Top NC Public Universities',
+    kicker: "If we're aiming in-state, what are our odds from here?",
+  },
   {
     key: 'transcript',
     title: 'The Transcript Colleges See',

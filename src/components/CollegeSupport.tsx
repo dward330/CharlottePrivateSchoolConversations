@@ -27,6 +27,7 @@ import type {
   CsSource,
   CsStat,
   Edge,
+  NcAdmissions,
   Outcomes,
   Transcript,
   Verdict,
@@ -203,6 +204,91 @@ function RichText({ text }: { text: string }) {
           : localizeMoneyText(part),
       )}
     </>
+  )
+}
+
+/* ---------------------- admissions rate for top nc public universities ---- */
+
+/**
+ * The area's FIRST card: how this school's own applicants fared at the six
+ * top-ranked NC public universities.
+ *
+ * The figures are government-published (the UNC system's Insight dashboard, via
+ * the `nc-admissions-data` skill) rather than school-published, which is the
+ * whole reason the card leads the area.
+ *
+ * No <h3> and no blueprint corners here: SchoolDetail's <summary> already draws
+ * the card title and teaser, and the <details> shell already draws the four
+ * registration marks. The body starts at the takeaway sentence.
+ */
+export function NcAdmissionsBody({ data }: { data: NcAdmissions }) {
+  const { t } = useTranslation()
+  return (
+    <div className="cs-body">
+      <Lead headline={data.headline} subhead={data.subhead} />
+      <Stats stats={data.stats} />
+
+      <Heading>{data.ledgerTitle ?? t('sections.ncLedger')}</Heading>
+      <div className="cs-ledger-wrap">
+        <table className="cs-ledger cs-nc-ledger">
+          <thead>
+            <tr>
+              <th scope="col" className="cs-th cs-th-rank">{t('tables.ncRank')}</th>
+              <th scope="col" className="cs-th">{t('tables.ncUniversity')}</th>
+              <th scope="col" className="cs-th cs-th-count">{t('tables.ncApplied')}</th>
+              <th scope="col" className="cs-th cs-th-count">{t('tables.ncAccepted')}</th>
+              <th scope="col" className="cs-th cs-th-rate">{t('tables.ncAdmitRate')}</th>
+              <th scope="col" className="cs-th cs-th-5yr">{t('tables.ncFiveYear')}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {data.universities.map((u) => (
+              <tr key={u.key}>
+                <td className="cs-td cs-td-rank">#{u.rank}</td>
+                <td className="cs-td cs-td-uni">
+                  <strong className="cs-uni-name">{u.name}</strong>
+                  {u.note && <span className="cs-uni-note text-muted">{u.note}</span>}
+                </td>
+                <td className="cs-td cs-td-count">{u.applied}</td>
+                <td className="cs-td cs-td-count">{u.accepted}</td>
+                <td className="cs-td">
+                  {/* A row with no `ratePct` is the PUBLICATION GAP case: it
+                      renders its counts and NO bar at all. A zero-width bar
+                      would read as a 0% admit rate, which is a different and
+                      wrong claim. */}
+                  {u.rate != null ? (
+                    <span className="cs-rate">
+                      <span className="cs-rate-val">{u.rate}</span>
+                      {u.ratePct != null && (
+                        <span className="cs-bar-track">
+                          <span
+                            className="cs-bar-fill"
+                            style={{ width: `${Math.round(u.ratePct * 100)}%` }}
+                          />
+                        </span>
+                      )}
+                    </span>
+                  ) : (
+                    <span className="text-muted">—</span>
+                  )}
+                </td>
+                <td className="cs-td cs-td-5yr">
+                  {u.fiveYearRate && <span className="cs-5yr-val">{u.fiveYearRate}</span>}
+                  {u.fiveYearCounts && (
+                    <span className="cs-5yr-note text-muted">{u.fiveYearCounts}</span>
+                  )}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      {data.methodNote && <Note text={data.methodNote} />}
+
+      <Flags flags={data.flags} />
+      <SourceRow sources={data.sources} />
+    </div>
   )
 }
 
