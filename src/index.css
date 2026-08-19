@@ -3737,6 +3737,69 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
 }
 .cs-bucket-note { font-size: 12px; }
 
+/* -- the NC public-university ledger --------------------------------------- */
+/* Matches section 2a of the College Support redesign. The design builds this as
+   one CSS grid with `display: contents` row wrappers; this ships as a real
+   <table> instead — it is tabular data, `display: contents` on a row wrapper
+   drops the row semantics for screen readers, and .cs-ledger-wrap already gives
+   the horizontal-scroll behaviour the mobile breakpoint depends on. The visual
+   result is the same; the column tracks below mirror the design's
+   `54px 1fr 92px 92px 200px 110px`.
+
+   The header fill the design specifies is ALREADY what .cs-th does (filled
+   --neutral-100, 10.5px, uppercase, 0.1em tracking), so no new header variant
+   is needed here.
+
+   The design hardcodes #be123c for the rank numeral and the bar; this app's
+   accent is per-school (src/data/brands.ts), so both use --accent and each
+   school's card carries its own colour. */
+
+.cs-th-rank { width: 54px; }
+.cs-th-rate { width: 200px; }
+.cs-th-5yr { width: 110px; text-align: right; }
+
+.cs-td-rank {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--accent);
+}
+.cs-td-uni { line-height: 1.35; }
+.cs-uni-name { font-family: var(--heading); font-size: 15px; display: block; }
+.cs-uni-note { font-size: 11.5px; display: block; }
+
+.cs-rate { display: flex; align-items: center; gap: 10px; }
+.cs-rate-val {
+  min-width: 38px;
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 15px;
+}
+.cs-bar-track {
+  flex: 1;
+  height: 8px;
+  background: var(--neutral-100);
+  border: 1px solid var(--border);
+  position: relative;
+  display: block;
+}
+.cs-bar-fill {
+  position: absolute;
+  inset: 0;
+  right: auto;
+  background: var(--accent);
+  display: block;
+}
+
+.cs-td-5yr { text-align: right; line-height: 1.35; }
+.cs-5yr-val {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 15px;
+  display: block;
+}
+.cs-5yr-note { font-size: 11px; display: block; white-space: nowrap; }
+
 /* Percentile tables: the median and mean columns carry the emphasis, because
    those are the two figures a parent actually benchmarks a child against. */
 .cs-th-metric { width: 120px; }
@@ -3985,6 +4048,9 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   /* Tables scroll sideways rather than crushing their columns. */
   .cs-scores { min-width: 620px; }
   .cs-ledger { min-width: 420px; }
+  /* Six columns including a proportional bar — needs more room than the
+     two-column merit ledger, or the bar column collapses to nothing. */
+  .cs-nc-ledger { min-width: 660px; }
 }
 
 @media (max-width: 600px) {

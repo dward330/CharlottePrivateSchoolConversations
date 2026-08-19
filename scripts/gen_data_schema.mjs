@@ -406,6 +406,46 @@ for (const s of STRUCTURED) {
   for (const c of s.cards) w(`| \`${c.key}\` | ${esc(c.title)} | ${esc(c.kicker ?? '—')} |`)
   w()
   if (s.topic === 'college-support') {
+    // Standing rule set 2026-08-19 with the ncAdmissions card. Lives here
+    // because this doc is what /add-school reads first: a new school needs to
+    // know this card exists, that it has a skill that populates it, and that
+    // the dashboard is worth checking BEFORE writing off college outcomes as
+    // unpublished.
+    w('**`ncAdmissions` is the area\'s FIRST card, and its figures are')
+    w('government-published rather than school-published** — which is why it leads. It is')
+    w('populated by the [`nc-admissions-data`](../skills/nc-admissions-data/SKILL.md) skill')
+    w('from the UNC system\'s Insight Tableau dashboard, which carries Applied / Admitted /')
+    w('Enrolled per NC high school × per UNC campus. **Check it before concluding a school\'s')
+    w('college outcomes are "not published"** — it covers every NC high school, private ones')
+    w('included. Do not improvise the scrape: the dashboard is canvas-rendered and every')
+    w('cheap export path is blocked server-side while still returning HTTP 200, so an')
+    w('improvised attempt yields a plausible-but-wrong table.')
+    w()
+    w('Four rules travel with that data, and all four are load-bearing:')
+    w()
+    w('- **The target set is the standing Top 6 NC publics, as EXACT dashboard strings** —')
+    w('  `UNC-Chapel Hill`, `NC State University`, `UNC Charlotte`, `East Carolina')
+    w('  University`, `UNC Wilmington`, `UNC Greensboro`. Hyphenation is inconsistent in the')
+    w('  dashboard\'s own house style and it is **East**, not "Eastern"; an exact-match filter')
+    w('  fails **silently** on either slip. Settled 2026-08-19 — do not re-derive it.')
+    w('- **Every rate carries its denominator.** These are small cells (one school had 11')
+    w('  applicants at a campus in a year), so a bare percentage off a single-digit base is')
+    w('  not publishable. Same discipline as `/add-school`\'s rule about printing counts')
+    w('  beside an area percentage.')
+    w('- **The figure is a joint property of school × university** — the rate at which that')
+    w('  university admitted that high school\'s applicants — not either institution\'s own')
+    w('  admit rate. Label it that way; the card\'s `methodNote` says so on every school.')
+    w('- **The rendered term is whatever the dashboard\'s latest is, per school, not a fixed')
+    w('  year.** Terms are per-cell: a school whose high school is young simply has fewer')
+    w('  terms. The five-year figure is POOLED — `sum(admitted) / sum(applied)` across the')
+    w('  five most recent terms — never the mean of five annual rates, which would weight a')
+    w('  6-applicant year equally with a 60-applicant one.')
+    w()
+    w('This card is **not a matriculation list** and must never be described as one: the')
+    w('dashboard covers the 16 public UNC campuses and nothing else, so it says nothing')
+    w('about private or out-of-state outcomes. A school with no dashboard data omits the')
+    w('card entirely rather than shipping an empty shell.')
+    w()
     // Standing rule set 2026-08-16, after Covenant Day first shipped its
     // acceptance list without rank labels: the rule lives here because this
     // doc is what /add-school and a new-school build read first.

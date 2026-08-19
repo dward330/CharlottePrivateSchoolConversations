@@ -20,17 +20,17 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 ### College Support (`college-support/`)
 
-- [Cannon School](college-support/cannon.md) — 10 docs
-- [Carmel Christian School](college-support/carmel-christian.md) — 1 docs
-- [Charlotte Catholic High School](college-support/charlotte-catholic.md) — 1 docs
-- [Charlotte Christian School](college-support/charlotte-christian.md) — 11 docs
-- [Charlotte Country Day School](college-support/charlotte-country-day.md) — 9 docs
-- [Charlotte Latin School](college-support/charlotte-latin.md) — 11 docs
-- [Covenant Day School](college-support/covenant-day.md) — 8 docs
-- [Davidson Day School](college-support/davidson-day.md) — 10 docs
-- [Gaston Day School](college-support/gaston-day.md) — 1 docs
-- [Hickory Grove Christian School](college-support/hickory-grove-christian.md) — 1 docs
-- [Providence Day School](college-support/providence-day.md) — 10 docs
+- [Cannon School](college-support/cannon.md) — 11 docs
+- [Carmel Christian School](college-support/carmel-christian.md) — 2 docs
+- [Charlotte Catholic High School](college-support/charlotte-catholic.md) — 2 docs
+- [Charlotte Christian School](college-support/charlotte-christian.md) — 12 docs
+- [Charlotte Country Day School](college-support/charlotte-country-day.md) — 10 docs
+- [Charlotte Latin School](college-support/charlotte-latin.md) — 12 docs
+- [Covenant Day School](college-support/covenant-day.md) — 9 docs
+- [Davidson Day School](college-support/davidson-day.md) — 11 docs
+- [Gaston Day School](college-support/gaston-day.md) — 2 docs
+- [Hickory Grove Christian School](college-support/hickory-grove-christian.md) — 2 docs
+- [Providence Day School](college-support/providence-day.md) — 11 docs
 
 ### Course Offerings (`course-offerings/`)
 
@@ -117,4 +117,4 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 
 ## Data layer
-- `src/data/schools.json` — 384 documents across 8 topics and 11 schools.
+- `src/data/schools.json` — 395 documents across 8 topics and 11 schools.

@@ -79,6 +79,7 @@ import {
   type CollegeSupportProgram,
 } from '../data/collegeSupport.ts'
 import {
+  NcAdmissionsBody,
   TranscriptBody,
   CounselingBody,
   OutcomesBody,
@@ -218,6 +219,8 @@ function CollegeSupportCardBody({
   cardKey: (typeof COLLEGE_SUPPORT_CARDS)[number]['key']
 }) {
   switch (cardKey) {
+    case 'ncAdmissions':
+      return <NcAdmissionsBody data={program.ncAdmissions!} />
     case 'transcript':
       return <TranscriptBody data={program.transcript!} />
     case 'counseling':

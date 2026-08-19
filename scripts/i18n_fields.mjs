@@ -35,6 +35,11 @@ export const PROSE_KEYS = new Set([
   'boardNote', 'bucketsNote', 'worthKnowing', 'scholarshipsNote', 'funnelNote',
   'realityCheck', 'gpaNote', 'ladderNote', 'supportNote', 'basisNote',
   'rosterNote', 'meritNote', 'mechanicsNote', 'careNote', 'pathNote',
+  // The NC admissions ledger's caveat: that a row is a JOINT figure of school ×
+  // university, not either one's own admit rate, and that the dashboard covers
+  // UNC-system campuses only. It is the sentence that stops the card being read
+  // as a matriculation list, so it must reach a non-English reader.
+  'methodNote',
   'venueNote', 'catalogIntro', 'leadership', 'broadcast', 'reach',
   'recognizes', 'feedsFrom', 'didNotWin',
   // Human-readable labels and captions
@@ -460,4 +465,30 @@ export const PATH_OVERRIDES = new Map([
   // by leaf, so `hours` stays a skip everywhere else. Every digit still round-
   // trips char-for-char; only the words move.
   ['catalog.camps[].hours', true],
+
+  // ------------------------------------------------ nc admissions ledger --
+  //
+  // The six-university ledger is a table of GOVERNMENT-PUBLISHED figures
+  // (UNC system Insight dashboard, via the nc-admissions-data skill). Every
+  // cell below is a figure a parent matches against the state's own table, so
+  // each is copied char-for-char and none of them translate.
+  //
+  // `key` and `name` are already skipped by leaf — `key` as an internal key,
+  // `name` as a proper noun. Both readings are correct here: `key` is a lookup
+  // identifier (translating it is the failure `flags[].kind` caused), and the
+  // university names are spelled exactly as the dashboard spells them, which
+  // is what a reader matches against the source.
+  ['ncAdmissions.universities[].applied', false],
+  ['ncAdmissions.universities[].accepted', false],
+  ['ncAdmissions.universities[].rate', false],
+  ['ncAdmissions.universities[].fiveYearRate', false],
+  // Formerly one string, `fiveYearCounts: '341 applied · 133 in'` — two English
+  // words wrapped around two numerals, inside a table cell. That is the leak
+  // shape this repo keeps rediscovering (`ensembles`, `sport`, `hours`), and
+  // neither classification fixed it: prose would send 66 figure strings through
+  // translation, skip would ship English to nine locales. The figures were split
+  // into these two fields and the words moved to the `tables.ncFiveYearCounts`
+  // chrome key, which interpolates them. So both stay figures.
+  ['ncAdmissions.universities[].fiveYearApplied', false],
+  ['ncAdmissions.universities[].fiveYearAccepted', false],
 ])

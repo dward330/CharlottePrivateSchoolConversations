@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**11 schools × 8 research areas**, 384 ingested research documents.
+**11 schools × 8 research areas**, 395 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -58,7 +58,7 @@ exists yet and **the section does not render at all** for that school.
 | Student Clubs | `student-clubs` | 10 | 1 | 1 | 10 | 10 | 8 | 6 | 9 | 2 | 1 | 8 |
 | The Arts | `the-arts` | 8 | 1 | 1 | 8 | 8 | 7 | 7 | 5 | 1 | 1 | 7 |
 | Sports | `sports` | 15 | 1 | 1 | 15 | 15 | 15 | 15 | 15 | 1 | 1 | 15 |
-| College Support | `college-support` | 10 | 1 | 1 | 11 | 9 | 11 | 8 | 10 | 1 | 1 | 10 |
+| College Support | `college-support` | 11 | 2 | 2 | 12 | 10 | 12 | 9 | 11 | 2 | 2 | 11 |
 | After School | `after-school` | 5 | 1 | — | 6 | 6 | 6 | 4 | 5 | 1 | 1 | 6 |
 | Summer Programs | `summer-programs` | 1 | 1 | 1 | 1 | 1 | 1 | 1 | — | 1 | 1 | 1 |
 | Financial Aid & Tuition | `financial-aid-tuition` | 2 | 1 | 1 | 1 | 2 | 1 | 2 | 2 | 1 | 1 | 1 |
@@ -132,7 +132,7 @@ research dossier folds in behind a structured card.
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
 | `academic-case` | Academic Case | 7/11 | 1 |
-| `outcomes` | Placement Outcomes | 10/11 | 5 |
+| `outcomes` | Placement Outcomes | 11/11 | 6 |
 | `application-support` | Application Support | 7/11 | 1 |
 | `counseling-engine` | Counseling Engine | 7/11 | 1 |
 | `fit-rank` | Fit & Rank | 7/11 | 2 |
@@ -389,12 +389,48 @@ Root type `CollegeSupportProgram` · registry `COLLEGE_SUPPORT_CARDS` · `src/da
 
 | Card key | Title | Parent question / kicker |
 |---|---|---|
+| `ncAdmissions` | Admissions Rate for Top NC Public Universities | If we're aiming in-state, what are our odds from here? |
 | `transcript` | The Transcript Colleges See | How strong is the record my kid graduates with? |
 | `counseling` | The Counseling Engine | Who helps my kid — how much, with what, and when? |
 | `outcomes` | Where Graduates Go | Does this actually get kids into top schools? |
 | `edge` | The Applicant's Edge | How does my kid stand out — and does the name help? |
 | `wholeClass` | Whole Class Analytics | What if my kid isn't at the top — or learns differently? |
 | `verdict` | Verdict & Visit Checklist | What should I probe on the tour? |
+
+**`ncAdmissions` is the area's FIRST card, and its figures are
+government-published rather than school-published** — which is why it leads. It is
+populated by the [`nc-admissions-data`](../skills/nc-admissions-data/SKILL.md) skill
+from the UNC system's Insight Tableau dashboard, which carries Applied / Admitted /
+Enrolled per NC high school × per UNC campus. **Check it before concluding a school's
+college outcomes are "not published"** — it covers every NC high school, private ones
+included. Do not improvise the scrape: the dashboard is canvas-rendered and every
+cheap export path is blocked server-side while still returning HTTP 200, so an
+improvised attempt yields a plausible-but-wrong table.
+
+Four rules travel with that data, and all four are load-bearing:
+
+- **The target set is the standing Top 6 NC publics, as EXACT dashboard strings** —
+  `UNC-Chapel Hill`, `NC State University`, `UNC Charlotte`, `East Carolina
+  University`, `UNC Wilmington`, `UNC Greensboro`. Hyphenation is inconsistent in the
+  dashboard's own house style and it is **East**, not "Eastern"; an exact-match filter
+  fails **silently** on either slip. Settled 2026-08-19 — do not re-derive it.
+- **Every rate carries its denominator.** These are small cells (one school had 11
+  applicants at a campus in a year), so a bare percentage off a single-digit base is
+  not publishable. Same discipline as `/add-school`'s rule about printing counts
+  beside an area percentage.
+- **The figure is a joint property of school × university** — the rate at which that
+  university admitted that high school's applicants — not either institution's own
+  admit rate. Label it that way; the card's `methodNote` says so on every school.
+- **The rendered term is whatever the dashboard's latest is, per school, not a fixed
+  year.** Terms are per-cell: a school whose high school is young simply has fewer
+  terms. The five-year figure is POOLED — `sum(admitted) / sum(applied)` across the
+  five most recent terms — never the mean of five annual rates, which would weight a
+  6-applicant year equally with a 60-applicant one.
+
+This card is **not a matriculation list** and must never be described as one: the
+dashboard covers the 16 public UNC campuses and nothing else, so it says nothing
+about private or out-of-state outcomes. A school with no dashboard data omits the
+card entirely rather than shipping an empty shell.
 
 **The `outcomes.colleges` list is the school's FULL published acceptance list.** Each
 entry carries only `{ name, cats }` (plus `enrolling: true` for bold/matriculated
@@ -419,7 +455,7 @@ header, everything else suppresses it.
 
 **Schools with data:** 11/11
 
-<details><summary>Types defined in <code>collegeSupport.ts</code> (21)</summary>
+<details><summary>Types defined in <code>collegeSupport.ts</code> (23)</summary>
 
 `CsSource` — `label`, `url?`
 
@@ -430,6 +466,10 @@ header, everything else suppresses it.
 `CsStat` — `value`, `label`
 
 `CsRow` — `label`, `text`
+
+`NcUniversity` — `key`, `name`, `rank`, `note?`, `applied`, `accepted`, `rate?`, `ratePct?`, `fiveYearRate?`, `fiveYearApplied?`, `fiveYearAccepted?`
+
+`NcAdmissions` — `headline`, `subhead?`, `stats`, `ledgerTitle?`, `universities`, `methodNote?`, `flags`, `sources`
 
 `MeritYear` — `year`, `detail`, `unconfirmed?`
 
@@ -461,7 +501,7 @@ header, everything else suppresses it.
 
 `Verdict` — `headline`, `subhead?`, `verdictTitle?`, `points`, `checklistTitle?`, `checklist`, `flags`, `sources`
 
-`CollegeSupportProgram` — `transcript?`, `counseling?`, `outcomes?`, `edge?`, `wholeClass?`, `verdict?`
+`CollegeSupportProgram` — `ncAdmissions?`, `transcript?`, `counseling?`, `outcomes?`, `edge?`, `wholeClass?`, `verdict?`
 
 </details>
 

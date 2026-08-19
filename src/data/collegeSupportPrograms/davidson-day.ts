@@ -295,6 +295,127 @@ const PROFILE =
 const COUNSELING = 'https://www.davidsonday.org/academics/college-counseling'
 
 export const davidsonDay: CollegeSupportProgram = {
+  /* The area's FIRST card. Unlike every other card here, these figures are
+     GOVERNMENT-published — the UNC System's Insight dashboard, pulled via the
+     nc-admissions-data skill — rather than the school’s own marketing number.
+     Full per-term counts, the exact filter values and the provenance header are in
+     source-material/college-support/davidson-day/
+     Davidson Day School - College Support - UNC System Admissions.md.
+
+     Every rate ships with its denominator: these are small cells, and a bare
+     percentage off a single-digit base is not publishable. The five-year figure is
+     POOLED — sum(admitted)/sum(applied) over the five most recent terms — never the
+     mean of the five annual rates. */
+  ncAdmissions: {
+    headline:
+      'Across the six top-ranked NC public universities, Davidson Day School’s applicants were admitted at a pooled 59.4% over the last five entering classes — 177 acceptances from 298 applications.',
+    subhead:
+      'UNC-Chapel Hill is the hard one: 44.4% pooled there, against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.',
+    stats: [
+      { value: '298', label: 'applications to the six campuses, Fall 2021–2025' },
+      { value: '59.4%', label: 'pooled admit rate — 177 of 298 across those five classes' },
+      { value: '44.4%', label: 'at UNC-Chapel Hill — 40 of 90, the most selective of the six' },
+      { value: 'UNC-Chapel Hill', label: 'drew the most applications in Fall 2025 (25)' },
+    ],
+    universities: [
+      {
+        key: 'unc-chapel-hill',
+        name: 'UNC-Chapel Hill',
+        rank: 1,
+        note: 'Flagship · the most selective of the six',
+        applied: '25',
+        accepted: '10',
+        rate: '40.0%',
+        ratePct: 0.4,
+        fiveYearRate: '44.4%',
+        fiveYearApplied: '90',
+        fiveYearAccepted: '40',
+      },
+      {
+        key: 'nc-state-university',
+        name: 'NC State University',
+        rank: 2,
+        note: 'Flagship STEM · Raleigh',
+        applied: '21',
+        accepted: '9',
+        rate: '42.9%',
+        ratePct: 0.429,
+        fiveYearRate: '42.4%',
+        fiveYearApplied: '92',
+        fiveYearAccepted: '39',
+      },
+      {
+        key: 'unc-charlotte',
+        name: 'UNC Charlotte',
+        rank: 3,
+        note: 'Hometown campus',
+        applied: '7',
+        accepted: '6',
+        rate: '85.7%',
+        ratePct: 0.857,
+        fiveYearRate: '86.1%',
+        fiveYearApplied: '36',
+        fiveYearAccepted: '31',
+      },
+      {
+        key: 'east-carolina-university',
+        name: 'East Carolina University',
+        rank: 4,
+        note: 'Greenville · largest admit rates of the six',
+        applied: '6',
+        accepted: '6',
+        rate: '100.0%',
+        ratePct: 1,
+        fiveYearRate: '100.0%',
+        fiveYearApplied: '28',
+        fiveYearAccepted: '28',
+      },
+      {
+        key: 'unc-wilmington',
+        name: 'UNC Wilmington',
+        rank: 5,
+        note: 'Coastal · mid-selectivity',
+        applied: '9',
+        accepted: '7',
+        rate: '77.8%',
+        ratePct: 0.778,
+        fiveYearRate: '69.0%',
+        fiveYearApplied: '42',
+        fiveYearAccepted: '29',
+      },
+      {
+        key: 'unc-greensboro',
+        name: 'UNC Greensboro',
+        rank: 6,
+        note: 'Piedmont Triad',
+        applied: '3',
+        accepted: '3',
+        rate: '100.0%',
+        ratePct: 1,
+        fiveYearRate: '100.0%',
+        fiveYearApplied: '10',
+        fiveYearAccepted: '10',
+      },
+    ],
+    methodNote:
+      'Read each row as a joint figure: the rate at which that university admitted this school’s applicants — not the university’s overall admit rate, and not a measure of the school’s own selectivity. Applied/Accepted are the Fall 2025 entering class; the 5-yr column pools Fall 2021–2025 as sum(accepted)/sum(applied), so a heavy year counts more than a light one. Counts travel with every rate because several cells are single-digit.',
+    flags: [
+      {
+        kind: 'verify',
+        text: 'Rank order follows the US News **National Universities** table for NC publics. That qualifier matters: Appalachian State is ranked in **Regional Universities South**, a different list, so “top 6 in NC” is not self-defining. Re-score when the next edition lands.',
+      },
+      {
+        kind: 'gap',
+        text: 'UNC-system campuses only — the dashboard covers the 16 public UNC institutions and nothing else. It says nothing about private or out-of-state destinations, so this complements the acceptance list rather than replacing it.',
+      },
+    ],
+    sources: [
+      {
+        label: 'insight.northcarolina.edu — Applied, Admitted, Enrolled (Fall 2016–2025)',
+        url: 'https://insight.northcarolina.edu/t/Public/views/db_freshmen/AppliedAdmittedEnrolled?:embed=y&:isGuestRedirectFromVizportal=y',
+      },
+    ],
+  },
   transcript: {
     headline:
       'Davidson Day publishes its grading machinery in full — the scale, the weighting, and an unusually explicit list of what is excluded from the GPA — but no AP exam results and no National Merit record at all.',

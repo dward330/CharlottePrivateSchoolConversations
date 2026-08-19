@@ -133,6 +133,13 @@ const RULES: Record<string, Rule[]> = {
     // "… - College Support - School Profile" file folds onto `outcomes` rather
     // than slugifying into an orphan "School Profile" card.
     { match: /school profile/i, key: 'outcomes', label: 'Placement Outcomes' },
+    // The UNC System admissions scrape (all 11 schools, 2026-08-19) is the
+    // provenance record behind the `ncAdmissions` structured card — full
+    // per-term Applied/Admitted/Enrolled counts per campus. The card renders
+    // from data/collegeSupport.ts, so this prose must NOT become a card of its
+    // own; it answers the same "where do graduates go" question, hence
+    // `outcomes`. Without this it slugifies into an orphan metric per school.
+    { match: /unc system admissions/i, key: 'outcomes', label: 'Placement Outcomes' },
     { match: /outcomes/i, key: 'outcomes', label: 'Placement Outcomes' },
     { match: /standing out/i, key: 'standing-out', label: 'Standing Out' },
     { match: /deep research/i, key: 'in-depth-report', label: 'In-Depth Report' },
