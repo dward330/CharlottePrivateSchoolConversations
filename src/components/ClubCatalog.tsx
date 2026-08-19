@@ -83,17 +83,23 @@ export function ClubCatalogBody({ catalog }: { catalog: ClubCatalog }) {
         </span>
       </div>
 
-      {/* Two-column club grid. */}
-      <div className="catalog-grid">
-        {shown.map((club) => (
-          <div key={club.name} className="catalog-club">
-            <div className="catalog-club-head">
-              <span className="catalog-club-name">{club.name}</span>
-              <span className="catalog-club-cat">{catFull(club.cat)}</span>
+      {/* Two-column club grid inside a capped scroll frame, matching the
+          Course Offerings pattern. A full roster runs long — 76 clubs is
+          ~3,500px, about nine screens — which buries the division notes and
+          sources below it. The filter chips above narrow the list; this caps
+          whatever is left. */}
+      <div className="catalog-scroll">
+        <div className="catalog-grid">
+          {shown.map((club) => (
+            <div key={club.name} className="catalog-club">
+              <div className="catalog-club-head">
+                <span className="catalog-club-name">{club.name}</span>
+                <span className="catalog-club-cat">{catFull(club.cat)}</span>
+              </div>
+              <div className="catalog-club-note text-muted">{club.note}</div>
             </div>
-            <div className="catalog-club-note text-muted">{club.note}</div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
 
       {/* Division / honest-gap notes — younger divisions and login-gated rosters. */}

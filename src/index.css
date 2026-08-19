@@ -1839,11 +1839,25 @@ main { flex: 1; }
   margin-left: auto;
 }
 
+/* Scroll frame around the club grid — the Course Offerings .courselist pattern.
+   A 76-club roster renders ~3,500px tall, so without a cap the card's own
+   division notes and source row sit nine screens below the fold. Only schools
+   whose list actually exceeds the cap get a scrollbar. */
+.catalog-scroll {
+  max-height: 420px;
+  overflow-y: auto;
+  border: 1px solid var(--border);
+  padding: 0 14px;
+  margin-bottom: 20px;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  scrollbar-color: var(--accent-300) transparent;
+  overscroll-behavior: contain;
+}
 .catalog-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0 20px;
-  margin-bottom: 20px;
 }
 /* An open catalog card runs its body in the app's two-column flow; the grid must
    stay a single self-contained column inside each so its own two-up layout is
@@ -1931,6 +1945,7 @@ main { flex: 1; }
 @media (max-width: 600px) {
   /* The two-up grid and 170px division label don't fit narrow screens. */
   .catalog-grid { grid-template-columns: 1fr; gap: 0; }
+  .catalog-scroll { max-height: 340px; padding: 0 10px; }
   .catalog-division { flex-wrap: wrap; }
   .catalog-division-label { width: auto; }
   .catalog-division-text { flex: 1 0 100%; order: 3; }
