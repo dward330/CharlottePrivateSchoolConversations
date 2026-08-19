@@ -282,6 +282,60 @@ add an empty or carried-over block to make a school look complete, and do not in
 figure the source does not state. Faithful transcription and completeness are the same
 goal, not competing ones.**
 
+#### What the Financial Aid area should RENDER — the card shape (user-set, 2026-08-18)
+
+The structured report is not just *a* card in this area; it is meant to be the **primary**
+one. Everything else in the research file is its evidence, not a peer card beside it.
+
+**The target shape is the In-Depth Report, plus at most one or two genuinely additive
+cards** — a fee table, a tuition-history card. Five schools already ship the report alone
+(Providence Day, Charlotte Latin, Carmel Christian, Charlotte Christian, Hickory Grove) and
+that is the clean end state.
+
+**What must NOT become its own card:**
+
+- **`Provenance`, `Source URLs`, `Sources`, `Method`, `Source snapshots`** — maintainer
+  scaffolding. A card whose whole body is a ref-table of URLs is not research a parent
+  reads; the report's own footer already carries its citations.
+- **Warnings and corrections** — "a source that is wrong and is deliberately not ingested",
+  "easy to mis-read". These belong inside the report's `boxes`, where they render as a
+  tagged aside, not as a standalone card.
+- **`Confirmed structural nulls` / gap inventories** — the report's `NOT PUBLISHED` boxes
+  are the place for these.
+- **Tuition tables that duplicate the report's own `bands`** — the report already draws the
+  tuition chart. A second prose copy of the same figures is noise.
+
+**The mechanism is heading level, not a component conditional.** Cards in this area come
+from the `##` headings of `source-material/financial-aid-tuition/<school>/*.md`. To keep a
+section as evidence rather than a card, write it as `###` under the file's intro. To make a
+section a card, give it `##`. **A section that should be a card must also be the LAST `##`
+in the file or be followed by another `##`** — trailing `###` subsections are absorbed into
+whichever `##` precedes them, so a card can silently swallow content meant for the intro.
+
+Nothing is deleted by this: demoted sections still ship in the committed research record
+and still render inside the intro/report card. This is about what gets its own headline on
+a parent-facing page.
+
+**⚠️ Two schools on the roster currently violate this and are known debt.** `gaston-day`
+renders **8 raw prose cards** — including a bare `Source URLs` ref-table — and has **no
+`REPORTS` entry at all**, so it never swaps in the structured card. `charlotte-country-day`
+leads with `Tuition History & Sources` before its report. Both predate this rule; fix them
+when either school is next touched rather than as a drive-by.
+
+**⚠️ `check:metrics` CANNOT catch this — do not rely on it here.** Section 1 of that check
+iterates the **manifest**, which holds one entry per *file* (its subtopic is the filename
+suffix). Cards, however, are generated from the `##` **headings inside** each file. For
+`gaston-day` the manifest holds **1** financial-aid subtopic while the page renders **10**
+cards; the check reports "every subtopic matched a rule" and is telling the truth about the
+layer it can see. Eight of those ten card keys (`source-urls`, `bus-services`,
+`institutional-context`, …) exist in no `RULES` array and appear nowhere in
+`DATA-SCHEMA.md`'s card table, which lists only the 2 keys the manifest knows about.
+
+**So the heading level in the research file is the only control, and reviewing the rendered
+page is the only check.** After ingesting a financial-aid file, open the school page and
+count the cards in that area. Anything beyond the report plus a genuinely additive card or
+two means a `##` should have been a `###`.
+
 ### 4. Translated UI strings → `src/locales/*.json`
 
 The app is internationalized (`react-i18next`; see the i18n standard in CLAUDE.md).
