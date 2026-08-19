@@ -3762,6 +3762,10 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   margin-bottom: 20px;
   overflow: hidden;
 }
+/* 232px fits the longest counselor email (meclementi@charlottecatholic.org) on
+   one line at 12px, so addresses stop wrapping mid-word and a short last row
+   widens to use the space instead of leaving it blank. */
+.cs-roster { grid-template-columns: repeat(auto-fit, minmax(232px, 1fr)); }
 .cs-roster > *,
 .cs-timeline > * {
   box-shadow:
