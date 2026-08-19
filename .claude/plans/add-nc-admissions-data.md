@@ -1,11 +1,11 @@
 ---
 name: add-nc-admissions-data
-title: College Support — new first card "Admissions Rate for Top NC Public Universities"
+title: College Support — new first card "Admission Rates at the Top NC Public Universities"
 status: implemented
 phases: 2
 created: 2026-08-19
 branch: feat/add-nc-admissions-data
-prs: [156]
+prs: [156, 157]
 ---
 
 # College Support — new first card: Admissions Rate for Top NC Public Universities
@@ -687,3 +687,27 @@ with strong-RTL words between them, so no isolate is needed.
 `check:sepdrift`, `check:figures` and `check:metrics` still fail on `es`/`ht`/`fa`
 and on ingest advisories. The counts are identical on `main` (178/1/1, 12/5, 13),
 so all are pre-existing; none were introduced here and none are in `ncAdmissions`.
+
+### Post-review polish (PR #157)
+
+Three changes from the user's review of the rendered English card, after both
+phases had merged:
+
+1. **Applied / Accepted centred** under their headers. The shared
+   `.cs-th-count` / `.cs-td-count` pair stays right-aligned — *Where Graduates
+   Go* uses it for a single count column — so the rule is scoped to
+   `.cs-nc-ledger`.
+2. **The `gap` flag removed** from all 11 schools as footer clutter. It was the
+   only on-card statement of the UNC-system scope limit, so `DATA-SCHEMA.md`
+   (via its generator) and the `NcAdmissions` type doc were updated to record
+   that caveat as an **editorial** rule — binding how the card is described,
+   not what it renders — rather than leaving a doc that implies a flag which no
+   longer exists.
+3. **Retitled** to *Admission Rates at the Top NC Public Universities*: plural
+   for the six rows, `at` rather than `for` since these are rates at those
+   universities. Retranslated in seven locales; `ht` and `fr` already read as
+   number-neutral with `nan` / `dans`, so their wording stands.
+
+Removing the flag orphaned one overlay entry per locale, pruned before
+rebuilding. `college-support` stays 100% for all nine at 2139 field sites.
+

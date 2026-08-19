@@ -138,7 +138,7 @@ export type NcUniversity = {
 }
 
 /**
- * The "Admissions Rate for Top NC Public Universities" card — the area's FIRST
+ * The "Admission Rates at the Top NC Public Universities" card — the area's FIRST
  * card, ahead of the transcript.
  *
  * This is not a matriculation list and must never be described as one: the UNC
