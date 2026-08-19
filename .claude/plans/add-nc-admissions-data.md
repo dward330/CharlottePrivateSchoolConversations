@@ -1,7 +1,7 @@
 ---
 name: add-nc-admissions-data
 title: College Support — new first card "Admissions Rate for Top NC Public Universities"
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-08-19
 branch: feat/add-nc-admissions-data
