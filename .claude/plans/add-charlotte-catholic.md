@@ -1,11 +1,11 @@
 ---
 name: add-charlotte-catholic
 title: Add Charlotte Catholic High School as the 11th school
-status: english-done
+status: implemented
 phases: 2
 created: 2026-08-18
 branch: feat/add-charlotte-catholic
-prs: []
+prs: [147]
 ---
 
 # Add Charlotte Catholic High School as the 11th school
@@ -815,3 +815,63 @@ Nine prose locales (`es, bn, ht, te, fr, fa, it, hi, ar`), per the Phase 2 steps
 Every string on the page is English today. The slug is already in all seven i18n scripts
 (Phase 1 step 12), so the extractor sees the school — but **still verify the strings appear
 in the work files by inspection**, per Phase 2 step 1.
+
+## Implementation notes — Phase 2 (locales), 2026-08-18
+
+All nine `PROSE_TRANSLATED` locales shipped: **es, bn, ht, te, fr, fa, it, hi, ar**.
+~1,085 strings per locale (~9,765 total) across the structured layer plus the
+`src/content` financial-aid blocks. `check:runtime` went from **10,269 → 11,344**
+resolving entries per locale, uniform across all nine, no orphans.
+
+### The backfill was lossless
+
+Existing translations were carried by content hash, not re-extracted: **10,214
+prior strings per locale restored byte-identical, 0 mismatches**. No shipped
+wording for the other ten schools changed.
+
+### Three defects found, none of them translation defects
+
+1. **A stranded mid-sentence fragment on the live English page.** The provenance
+   strip added in `0536fd2` tracked *blockquote* continuations but not *bullet*
+   ones, and `- **Method:** …` wraps across four lines in the research files. The
+   Financial Aid area opened with " affordability page — **not** from the CCHS
+   site…". Fifteen sections across eight topics were affected. Fixed in `eb2efa6`;
+   provenance stays fully stripped (0 occurrences under `src/content`). A recovery
+   subagent refused to translate the damaged blocks and reported this instead —
+   the correct call, since translating them would have locked the fragments into
+   nine locales.
+2. **Sport bar widths stored as percentages, not fractions** (`a486a54`).
+   `SportsProgram.tsx` renders `width: ${w * 100}%`, so 21 CCHS values authored as
+   `100`/`62`/`30` became 6200%–10000% — bars up to 58,800px, overflowing the page
+   by **58,070px** with panels expanded, in every locale **including English**.
+   Providence Day overflows 0 at the same width. A Phase 1 defect that only the
+   Phase 2 browser sweep caught.
+3. **22 genuine cross-locale leaks** fixed to consensus via `i18n:leaks`.
+
+### Two structural findings worth carrying forward
+
+- **Overlay entries are keyed by content hash, so identical English is SHARED
+  across schools.** `Basketball` is one entry spanning 15 paths, only 3 of them
+  CCHS; `Soccer` 11/2; `Athletic Director` 4/2. Such a string **cannot** be fixed
+  for one school — editing it rewrites every school that shares it. `Athletic
+  Director` is a real hi/fr leak that is currently unfixable per-school; it needs
+  either a hash split or a deliberate all-schools translation.
+- **A leak flag is often a locale's own convention, not a miss.** `hi` and `fa`
+  keep standalone roster sport labels in Latin at every school; `it` translates
+  them. Fixing to a cross-locale "consensus" would have made those locales
+  internally inconsistent. Decide per locale against its own shipped choices.
+
+### Verification
+
+`check:runtime` green for all 9 · `check:sepdrift` exactly at pre-existing
+baseline in every locale (es 178, ht 1, fa 1, six at 0) · `check:script`,
+`check:bidi`, `check:fa`, `check:hi`, `check:fr`, `check:currency`, `check:money`,
+`check:hashes` all pass · `tsc`, `npm run build`, `check:seo`, `check:schema`,
+`check:ranks` clean. Browser sweep across all ten locales with every `<details>`
+expanded: 113k–144k rendered chars, `$17,242,184` intact, `dir=rtl` for fa/ar,
+After School correctly absent, **0px** horizontal overflow.
+
+### Still open
+
+Native-speaker review of Charlotte Catholic's new prose in every locale — the one
+failure mode no check here reaches. Kreyòl and Hindi remain unreviewed generally.
