@@ -1,9 +1,14 @@
 ---
-name: unc-admissions-data
+name: nc-admissions-data
 description: >
-  Pull per-high-school × per-UNC-institution admissions outcomes (Applied, Admitted,
-  Enrolled, Admit Rate, Yield Rate, Fall 2016–2025) from the NC university system's public
-  Tableau dashboard, then persist them into source-material with their provenance. Use
+  Pull North Carolina university admissions outcomes for a given high school — Applied,
+  Admitted, Enrolled, Admit Rate and Yield Rate per institution, Fall 2016–2025 — then
+  persist them into source-material with their provenance. The source today is the UNC
+  system's public Tableau dashboard, covering all 16 UNC campuses; the skill is named for
+  the state so any future non-UNC NC admissions source belongs here too.
+  Defaults to the project's standing Top 6 NC public universities — UNC-Chapel Hill,
+  NC State University, UNC Charlotte, East Carolina University, UNC Wilmington and
+  UNC Greensboro — so that set never needs re-specifying. Use
   whenever a task needs third-party admit rates for a school we track — "how many of
   <school>'s graduates got into UNC-Chapel Hill", "get the UNC admit rates", "scrape the
   NC Insight dashboard", "admissions data for the College Support area" — or when
@@ -15,7 +20,13 @@ description: >
   works plus the traps that silently produce wrong tables.
 ---
 
-# /unc-admissions-data — pull UNC-system admissions outcomes for a school
+# /nc-admissions-data — pull NC university admissions outcomes for a school
+
+> **Scope note.** The skill is named for the **state**, not the UNC System, deliberately:
+> today its only source is the UNC-system dashboard below, but if NC admissions data ever
+> becomes available for non-UNC institutions (a private-college source, an NCES release),
+> it belongs here rather than in a second skill with an almost identical name. Everything
+> currently documented is UNC-system.
 
 The NC university system publishes a Tableau dashboard giving, for **every NC high
 school × every UNC-system institution**, the number of students who Applied, were
@@ -58,13 +69,39 @@ This skill may read anything, drive a browser, and write `source-material/`. It 
 
 Two parameters, and guessing either wastes the whole run:
 
-- **Which institutions?** The dashboard has 16. "Top 6 by US News" is **ambiguous and
-  must be settled with the user** — US News ranks *National Universities* (UNC-Chapel
-  Hill, NC State, UNC Charlotte, East Carolina, UNC Greensboro, UNC Wilmington all
-  appear there), but **Appalachian State is ranked in *Regional Universities South***, a
-  different list. Ask; do not pick silently, or the result cannot be reproduced.
+- **Which institutions?** **Default to the standing Top 6 below** — that question is
+  settled, so do not re-ask it. Only confirm if the user wants something different (one
+  campus, all 16, a custom set).
 - **Which terms?** All 10 (Fall 2016–2025), or the recent 3–5? A full sweep is
   meaningfully slower.
+
+#### The standing Top 6 (default target set)
+
+The six NC public universities this project tracks, **as exact dashboard strings** — copy
+verbatim, an exact-match filter fails silently on anything else:
+
+| # | Dashboard string | Also called |
+|---|---|---|
+| 1 | `UNC-Chapel Hill` | UNC Chapel Hill, Carolina |
+| 2 | `NC State University` | North Carolina State University, NCSU |
+| 3 | `UNC Charlotte` | UNC-Charlotte, UNCC |
+| 4 | `East Carolina University` | **"Eastern" Carolina — a common slip; the dashboard says East** |
+| 5 | `UNC Wilmington` | UNC-Wilmington, UNCW |
+| 6 | `UNC Greensboro` | UNC-Greensboro, UNCG |
+
+Two spelling traps in that list, both of which break an exact match silently:
+
+- **Hyphenation is inconsistent in the dashboard's own house style.** `UNC-Chapel Hill`
+  is hyphenated; `UNC Charlotte`, `UNC Wilmington` and `UNC Greensboro` are **not**.
+- **`East Carolina University`, not "Eastern".** The everyday name adds an "-ern" the
+  dashboard does not use.
+
+**Provenance of this list:** it is the user's standing choice (confirmed 2026-08-19),
+matching the US News *National Universities* ranking. Worth knowing why that mattered:
+**Appalachian State is ranked in *Regional Universities South***, a different list — so
+"top 6 in NC" is only reproducible once you name which ranking it came from. If a future
+task wants the ranking re-derived rather than inherited, treat that as a new question and
+ask; do not silently substitute a different six.
 
 ### 2. Read the method
 
