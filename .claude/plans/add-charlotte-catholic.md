@@ -846,7 +846,12 @@ wording for the other ten schools changed.
    by **58,070px** with panels expanded, in every locale **including English**.
    Providence Day overflows 0 at the same width. A Phase 1 defect that only the
    Phase 2 browser sweep caught.
-3. **22 genuine cross-locale leaks** fixed to consensus via `i18n:leaks`.
+3. **43 genuine cross-locale leaks** fixed via `i18n:leaks` (22 in the first pass,
+   21 more in Telugu). **Telugu was missed by the first triage** because it finished
+   translating after both triage agents were dispatched — it sat at 41 flags while
+   every other locale was at 3–13. Worth remembering: **a locale that finishes late
+   silently falls outside a fan-out that was scoped when it started.** Final CCHS
+   flag counts: es 3 · bn 7 · ht 5 · te 14 · fr 11 · fa 3 · it 8 · hi 13 · ar 8.
 
 ### Two structural findings worth carrying forward
 
@@ -854,8 +859,12 @@ wording for the other ten schools changed.
   across schools.** `Basketball` is one entry spanning 15 paths, only 3 of them
   CCHS; `Soccer` 11/2; `Athletic Director` 4/2. Such a string **cannot** be fixed
   for one school — editing it rewrites every school that shares it. `Athletic
-  Director` is a real hi/fr leak that is currently unfixable per-school; it needs
-  either a hash split or a deliberate all-schools translation.
+  Director` is a real hi/fr/te leak that is currently unfixable per-school; it
+  needs either a hash split or a deliberate all-schools translation. Six such
+  entries block Telugu fixes alone (`Health`, `Basketball`, `Soccer`, `Athletic
+  Director`, `Strength & conditioning`, `Choral`) and are real leaks for the OTHER
+  schools too — a follow-up pass scoped to allow cross-school edits would clear
+  them for every locale at once.
 - **A leak flag is often a locale's own convention, not a miss.** `hi` and `fa`
   keep standalone roster sport labels in Latin at every school; `it` translates
   them. Fixing to a cross-locale "consensus" would have made those locales
