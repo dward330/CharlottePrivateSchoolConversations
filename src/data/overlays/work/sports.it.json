@@ -67,6 +67,7 @@
         "providence-day:offered.seasons[0].name",
         "charlotte-latin:offered.seasons[0].name",
         "charlotte-christian:offered.seasons[0].name",
+        "charlotte-catholic:offered.seasons[0].name",
         "charlotte-country-day:offered.seasons[0].name",
         "cannon:offered.seasons[0].name",
         "covenant-day:offered.seasons[0].name",
@@ -96,6 +97,7 @@
         "providence-day:offered.seasons[1].name",
         "charlotte-latin:offered.seasons[1].name",
         "charlotte-christian:offered.seasons[1].name",
+        "charlotte-catholic:offered.seasons[1].name",
         "charlotte-country-day:offered.seasons[1].name",
         "cannon:offered.seasons[1].name",
         "covenant-day:offered.seasons[1].name",
@@ -113,6 +115,7 @@
         "providence-day:offered.seasons[2].name",
         "charlotte-latin:offered.seasons[2].name",
         "charlotte-christian:offered.seasons[2].name",
+        "charlotte-catholic:offered.seasons[2].name",
         "charlotte-country-day:offered.seasons[2].name",
         "cannon:offered.seasons[2].name",
         "covenant-day:offered.seasons[2].name",
@@ -170,6 +173,10 @@
         "charlotte-christian:record.rows[0].cells[2].result",
         "charlotte-christian:record.rows[2].cells[1].result",
         "charlotte-christian:record.rows[3].cells[1].result",
+        "charlotte-catholic:record.rows[0].cells[2].result",
+        "charlotte-catholic:record.rows[1].cells[2].result",
+        "charlotte-catholic:record.rows[2].cells[2].result",
+        "charlotte-catholic:record.bars[0].tag",
         "charlotte-country-day:record.rows[0].cells[0].result",
         "charlotte-country-day:record.rows[0].cells[1].result",
         "charlotte-country-day:record.rows[0].cells[2].result",
@@ -285,6 +292,15 @@
         "charlotte-christian:record.rows[5].cells[0].result",
         "charlotte-christian:record.rows[5].cells[1].result",
         "charlotte-christian:record.rows[5].cells[2].result",
+        "charlotte-catholic:record.rows[0].cells[0].result",
+        "charlotte-catholic:record.rows[0].cells[1].result",
+        "charlotte-catholic:record.rows[1].cells[0].result",
+        "charlotte-catholic:record.rows[1].cells[1].result",
+        "charlotte-catholic:record.rows[2].cells[0].result",
+        "charlotte-catholic:record.rows[2].cells[1].result",
+        "charlotte-catholic:record.rows[3].cells[0].result",
+        "charlotte-catholic:record.rows[3].cells[1].result",
+        "charlotte-catholic:record.rows[3].cells[2].result",
         "charlotte-country-day:record.rows[1].cells[1].result",
         "charlotte-country-day:record.rows[3].cells[2].result",
         "charlotte-country-day:record.rows[4].cells[0].result",
@@ -589,6 +605,11 @@
         "charlotte-christian:pipeline.roster[29].sport",
         "charlotte-christian:pipeline.roster[30].sport",
         "charlotte-christian:pipeline.roster[32].sport",
+        "charlotte-catholic:pipeline.roster[26].sport",
+        "charlotte-catholic:pipeline.roster[28].sport",
+        "charlotte-catholic:pipeline.roster[29].sport",
+        "charlotte-catholic:pipeline.roster[31].sport",
+        "charlotte-catholic:pipeline.roster[33].sport",
         "charlotte-country-day:pipeline.roster[20].sport",
         "covenant-day:pipeline.roster[11].sport",
         "hickory-grove-christian:coaching.tenure[0].role"
@@ -701,6 +722,8 @@
         "charlotte-christian:pipeline.roster[35].sport",
         "charlotte-christian:pipeline.roster[36].sport",
         "charlotte-christian:pipeline.roster[37].sport",
+        "charlotte-catholic:pipeline.roster[20].sport",
+        "charlotte-catholic:pipeline.roster[21].sport",
         "charlotte-country-day:pipeline.roster[38].sport"
       ],
       "t": "Golf"
@@ -776,6 +799,12 @@
         "charlotte-christian:pipeline.roster[16].sport",
         "charlotte-christian:pipeline.roster[27].sport",
         "charlotte-christian:pipeline.roster[28].sport",
+        "charlotte-catholic:pipeline.roster[2].sport",
+        "charlotte-catholic:pipeline.roster[3].sport",
+        "charlotte-catholic:pipeline.roster[5].sport",
+        "charlotte-catholic:pipeline.roster[14].sport",
+        "charlotte-catholic:pipeline.roster[23].sport",
+        "charlotte-catholic:pipeline.roster[34].sport",
         "charlotte-country-day:pipeline.roster[5].sport",
         "charlotte-country-day:pipeline.roster[9].sport",
         "charlotte-country-day:pipeline.roster[10].sport",
@@ -833,6 +862,7 @@
       "at": [
         "providence-day:pipeline.roster[28].sport",
         "charlotte-christian:pipeline.roster[1].sport",
+        "charlotte-catholic:pipeline.roster[10].sport",
         "covenant-day:pipeline.roster[23].sport",
         "covenant-day:pipeline.roster[25].sport"
       ],
@@ -1172,7 +1202,8 @@
       "text": "#1",
       "of": "08c87a19",
       "at": [
-        "providence-day:coaching.featured[0].stats[2].value"
+        "providence-day:coaching.featured[0].stats[2].value",
+        "charlotte-catholic:national.stats[2].value"
       ],
       "t": "#1"
     },
@@ -1236,7 +1267,8 @@
       "text": "20",
       "of": "8df2997f",
       "at": [
-        "providence-day:coaching.featured[1].stats[2].value"
+        "providence-day:coaching.featured[1].stats[2].value",
+        "charlotte-catholic:coaching.featured[0].stats[0].value"
       ],
       "t": "20"
     },
@@ -1519,6 +1551,7 @@
         "providence-day:facilities.care[0].label",
         "charlotte-latin:facilities.care[0].label",
         "charlotte-christian:facilities.care[0].label",
+        "charlotte-catholic:facilities.care[0].label",
         "charlotte-country-day:facilities.care[0].label",
         "cannon:facilities.care[0].label"
       ],
@@ -1836,6 +1869,7 @@
       "of": "60838c69",
       "at": [
         "charlotte-latin:offered.stats[0].label",
+        "charlotte-catholic:offered.stats[0].label",
         "charlotte-country-day:offered.stats[0].label"
       ],
       "t": "sport offerti"
@@ -2069,6 +2103,17 @@
         "charlotte-christian:pipeline.roster[3].sport",
         "charlotte-christian:pipeline.roster[20].sport",
         "charlotte-christian:pipeline.roster[33].sport",
+        "charlotte-catholic:pipeline.roster[0].sport",
+        "charlotte-catholic:pipeline.roster[1].sport",
+        "charlotte-catholic:pipeline.roster[4].sport",
+        "charlotte-catholic:pipeline.roster[12].sport",
+        "charlotte-catholic:pipeline.roster[15].sport",
+        "charlotte-catholic:pipeline.roster[16].sport",
+        "charlotte-catholic:pipeline.roster[17].sport",
+        "charlotte-catholic:pipeline.roster[19].sport",
+        "charlotte-catholic:pipeline.roster[22].sport",
+        "charlotte-catholic:pipeline.roster[24].sport",
+        "charlotte-catholic:pipeline.roster[25].sport",
         "covenant-day:pipeline.roster[10].sport"
       ],
       "t": "Lacrosse"
@@ -2101,6 +2146,7 @@
       "at": [
         "charlotte-latin:pipeline.roster[35].sport",
         "charlotte-christian:pipeline.roster[9].sport",
+        "charlotte-catholic:pipeline.roster[11].sport",
         "charlotte-country-day:pipeline.roster[22].sport",
         "charlotte-country-day:pipeline.roster[34].sport",
         "covenant-day:pipeline.roster[6].sport"
@@ -2275,7 +2321,8 @@
       "text": "Wells Fargo Cups",
       "of": "a37e6596",
       "at": [
-        "charlotte-latin:honors.honors[3].label"
+        "charlotte-latin:honors.honors[3].label",
+        "charlotte-catholic:honors.honors[5].label"
       ],
       "t": "Wells Fargo Cups"
     },
@@ -2421,6 +2468,7 @@
       "of": "310ca263",
       "at": [
         "charlotte-latin:coaching.featured[1].stats[1].value",
+        "charlotte-catholic:national.stats[0].value",
         "cannon:coaching.featured[1].stats[0].value"
       ],
       "t": "4"
@@ -3659,6 +3707,994 @@
         "charlotte-christian:facilities.careNote"
       ],
       "t": "Il modello ibrido è l'aspetto da approfondire durante una visita: due trainer alle dipendenze più un terzo fornito da Atrium si colloca tra lo staff interamente in-house di Providence Day e l'accordo interamente esternalizzato con Novant di Cannon. Le capienze non sono pubblicate per nessuna struttura di Charlotte Christian."
+    },
+    {
+      "text": "20 sports across three seasons, played against the state’s public schools.",
+      "of": "96034d0d",
+      "at": [
+        "charlotte-catholic:offered.headline"
+      ],
+      "t": "20 sport in tre stagioni, giocati contro le scuole pubbliche dello stato."
+    },
+    {
+      "text": "CCHS is one of only four parochial schools in the NCHSAA, so a Cougars team is measured against North Carolina’s largest public programs rather than in a private-school bracket.",
+      "of": "7653d9d7",
+      "at": [
+        "charlotte-catholic:offered.subhead"
+      ],
+      "t": "CCHS è una delle sole quattro scuole parrocchiali della NCHSAA, quindi una squadra dei Cougars si misura con i più grandi programmi pubblici del North Carolina anziché in un girone riservato alle scuole private."
+    },
+    {
+      "text": "state championships since 2000",
+      "of": "a93f5ab0",
+      "at": [
+        "charlotte-catholic:offered.stats[1].label"
+      ],
+      "t": "titoli statali dal 2000"
+    },
+    {
+      "text": "Wachovia / Wells Fargo Cups",
+      "of": "68b3bfa3",
+      "at": [
+        "charlotte-catholic:offered.stats[2].label"
+      ],
+      "t": "Wachovia / Wells Fargo Cup"
+    },
+    {
+      "text": "alumni who went on to NCAA / NAIA / JUCO play",
+      "of": "59a86ecc",
+      "at": [
+        "charlotte-catholic:offered.stats[3].label"
+      ],
+      "t": "ex studenti che sono passati a giocare in NCAA / NAIA / JUCO"
+    },
+    {
+      "text": "NCHSAA fall season",
+      "of": "295eed27",
+      "at": [
+        "charlotte-catholic:offered.seasons[0].note"
+      ],
+      "t": "stagione autunnale NCHSAA"
+    },
+    {
+      "text": "NCHSAA winter season",
+      "of": "050c468b",
+      "at": [
+        "charlotte-catholic:offered.seasons[1].note"
+      ],
+      "t": "stagione invernale NCHSAA"
+    },
+    {
+      "text": "NCHSAA spring season",
+      "of": "33d372ef",
+      "at": [
+        "charlotte-catholic:offered.seasons[2].note"
+      ],
+      "t": "stagione primaverile NCHSAA"
+    },
+    {
+      "text": "The 20 sports and their names are exactly as the school lists them on its All Sports page — it publishes no gender split for Soccer, Golf, Tennis, Basketball or Lacrosse even though it fields both boys’ and girls’ teams in each, and it groups nothing by season. The season grouping above follows the standard NCHSAA calendar; the school itself publishes the list flat. Level splits are indicative for the same reason: the individual sport pages are navigation boilerplate carrying no rosters or schedules. CCHS has no middle school — it is a 9–12 school — so no team carries an MS level, unlike every PK/K–12 school on this roster.",
+      "of": "9871dc64",
+      "at": [
+        "charlotte-catholic:offered.footnote"
+      ],
+      "t": "I 20 sport e i loro nomi sono esattamente come la scuola li elenca sulla propria pagina All Sports — non pubblica alcuna suddivisione per genere per Soccer, Golf, Tennis, Basketball o Lacrosse, pur schierando squadre sia maschili sia femminili in ciascuno di essi, e non raggruppa nulla per stagione. Il raggruppamento stagionale qui sopra segue il calendario NCHSAA standard; la scuola stessa pubblica l'elenco senza suddivisioni. Le suddivisioni per livello sono indicative per lo stesso motivo: le pagine dei singoli sport sono impostazioni di navigazione predefinite prive di rose e calendari. CCHS non ha una middle school — è una scuola 9–12 — quindi nessuna squadra ha un livello MS, a differenza di ogni scuola PK/K–12 di questo elenco."
+    },
+    {
+      "text": "74 state championships since 2000 — and three more in 2026 alone.",
+      "of": "f1d81c9f",
+      "at": [
+        "charlotte-catholic:record.headline"
+      ],
+      "t": "74 titoli statali dal 2000 — e altri tre nel solo 2026."
+    },
+    {
+      "text": "Girls soccer went undefeated; both lacrosse programs won in overtime, each ending a twelve-year drought. All NCHSAA titles.",
+      "of": "3f15e1e4",
+      "at": [
+        "charlotte-catholic:record.subhead"
+      ],
+      "t": "Il girls soccer ha chiuso da imbattuto; entrambi i programmi di lacrosse hanno vinto ai supplementari, ciascuno interrompendo un digiuno di dodici anni. Tutti titoli NCHSAA."
+    },
+    {
+      "text": "Beat Jacksonville 1–0 in the NCHSAA 6A final and finished the year without a loss.",
+      "of": "eb3f74fe",
+      "at": [
+        "charlotte-catholic:record.rows[0].note"
+      ],
+      "t": "Ha battuto Jacksonville 1–0 nella finale NCHSAA 6A e ha chiuso l'anno senza sconfitte."
+    },
+    {
+      "text": "Leonard’s overtime goal beat Middle Creek for the 1A-6A title — the programme’s second, and first in twelve years.",
+      "of": "45acdbed",
+      "at": [
+        "charlotte-catholic:record.rows[1].note"
+      ],
+      "t": "Il gol ai supplementari di Leonard ha battuto Middle Creek per il titolo 1A-6A — il secondo del programma, e il primo in dodici anni."
+    },
+    {
+      "text": "Tan’s overtime goal beat East Chapel Hill for the 1A-6A title, ending a twelve-year drought.",
+      "of": "d5da9935",
+      "at": [
+        "charlotte-catholic:record.rows[2].note"
+      ],
+      "t": "Il gol ai supplementari di Tan ha battuto East Chapel Hill per il titolo 1A-6A, interrompendo un digiuno di dodici anni."
+    },
+    {
+      "text": "8 state titles from 11 championship-game appearances historically. The 2025 season finished 7–5 (3–3 conference) with a 27–0 opening-round playoff win over A.C. Reynolds.",
+      "of": "dabe8842",
+      "at": [
+        "charlotte-catholic:record.rows[3].note"
+      ],
+      "t": "8 titoli statali su 11 partecipazioni storiche alla finale. La stagione 2025 si è chiusa 7–5 (3–3 in conference) con una vittoria per 27–0 al primo turno dei playoff su A.C. Reynolds."
+    },
+    {
+      "text": "The rows above are the programs with a documented result in this window. CCHS does not publish a season-by-season title ledger, so a blank cell means \"no title found for that year\", not a verified loss — the 74-title total since 2000 is the school’s own figure and spans far more sports than these four.",
+      "of": "14834971",
+      "at": [
+        "charlotte-catholic:record.didNotWin"
+      ],
+      "t": "Le righe qui sopra sono i programmi con un risultato documentato in questa finestra. CCHS non pubblica un registro dei titoli stagione per stagione, quindi una cella vuota significa «nessun titolo trovato per quell'anno», non una sconfitta verificata — il totale di 74 titoli dal 2000 è un dato della scuola stessa e riguarda molti più sport di questi quattro."
+    },
+    {
+      "text": "7–5 overall and 3–3 in the Southern Carolina 6A/7A conference, with 235 points scored against 198 allowed across a twelve-game season, then a 27–0 shutout of A.C. Reynolds in the opening playoff round.",
+      "of": "69250f89",
+      "at": [
+        "charlotte-catholic:record.seasonDetail[0].text"
+      ],
+      "t": "7–5 complessivo e 3–3 nella conference Southern Carolina 6A/7A, con 235 punti realizzati contro 198 subiti in una stagione di dodici partite, poi uno shutout per 27–0 su A.C. Reynolds al primo turno dei playoff."
+    },
+    {
+      "text": "Fourteen consecutive state championships — the longest title streak in the school’s history and the single strongest line in the 74-title total.",
+      "of": "6671982c",
+      "at": [
+        "charlotte-catholic:record.seasonDetail[1].text"
+      ],
+      "t": "Quattordici titoli statali consecutivi — la striscia di titoli più lunga nella storia della scuola e la singola voce più forte nel totale di 74 titoli."
+    },
+    {
+      "text": "35 documented college athletes across three graduating classes — 10 of them Power Four.",
+      "of": "4a6719a2",
+      "at": [
+        "charlotte-catholic:pipeline.headline"
+      ],
+      "t": "35 atleti universitari documentati in tre classi di diplomati — 10 dei quali Power Four."
+    },
+    {
+      "text": "Every athlete below is named in a dated article. Nothing here comes from a commitment-tracker summary.",
+      "of": "36e608ca",
+      "at": [
+        "charlotte-catholic:pipeline.subhead"
+      ],
+      "t": "Ogni atleta elencato di seguito è citato per nome in un articolo con data. Nulla di quanto riportato qui proviene dal riepilogo di un tracker di impegni."
+    },
+    {
+      "text": "Student body",
+      "of": "f7f025ac",
+      "at": [
+        "charlotte-catholic:pipeline.funnel[0].label"
+      ],
+      "t": "Popolazione studentesca"
+    },
+    {
+      "text": "grades 9–12",
+      "of": "3554df3c",
+      "at": [
+        "charlotte-catholic:pipeline.funnel[0].hint"
+      ],
+      "t": "classi 9–12"
+    },
+    {
+      "text": "Alumni who played in college",
+      "of": "58e37f64",
+      "at": [
+        "charlotte-catholic:pipeline.funnel[1].label"
+      ],
+      "t": "Ex studenti che hanno giocato al college"
+    },
+    {
+      "text": "NCAA / NAIA / JUCO, all years",
+      "of": "4166a49d",
+      "at": [
+        "charlotte-catholic:pipeline.funnel[1].hint"
+      ],
+      "t": "NCAA / NAIA / JUCO, tutti gli anni"
+    },
+    {
+      "text": "Documented commits",
+      "of": "a59c311f",
+      "at": [
+        "charlotte-catholic:pipeline.funnel[2].label"
+      ],
+      "t": "Impegni documentati"
+    },
+    {
+      "text": "Classes of 2024–2026",
+      "of": "03a3c853",
+      "at": [
+        "charlotte-catholic:pipeline.funnel[2].hint"
+      ],
+      "t": "Classi 2024–2026"
+    },
+    {
+      "text": "Division I",
+      "of": "e8c9e501",
+      "at": [
+        "charlotte-catholic:pipeline.funnel[3].label"
+      ],
+      "t": "Division I"
+    },
+    {
+      "text": "includes Power Four",
+      "of": "9ad6b053",
+      "at": [
+        "charlotte-catholic:pipeline.funnel[3].hint"
+      ],
+      "t": "include Power Four"
+    },
+    {
+      "text": "Power Four",
+      "of": "b3297a32",
+      "at": [
+        "charlotte-catholic:pipeline.funnel[4].label"
+      ],
+      "t": "Power Four"
+    },
+    {
+      "text": "ACC · Big Ten · Big 12 · SEC",
+      "of": "b38dd22c",
+      "at": [
+        "charlotte-catholic:pipeline.funnel[4].hint"
+      ],
+      "t": "ACC · Big Ten · Big 12 · SEC"
+    },
+    {
+      "text": "The 1000+ figure is the school’s own all-time count and is not restricted to these three classes, so it sits on a different time base from the rows beneath it. The Class of 2026 row is a documented MINIMUM: the February article covers only the February ceremony (football, soccer, cross country), and CCHS holds separate fall and spring signing days, so baseball and lacrosse — historically its richest sports — are largely unpublished for that class.",
+      "of": "1e7fb003",
+      "at": [
+        "charlotte-catholic:pipeline.funnelNote"
+      ],
+      "t": "La cifra 1000+ è il conteggio storico complessivo della scuola stessa e non è limitata a queste tre classi, quindi poggia su una base temporale diversa da quella delle righe sottostanti. La riga della Class of 2026 è un MINIMO documentato: l'articolo di febbraio copre solo la cerimonia di febbraio (football, soccer, cross country), e CCHS organizza signing day separati in autunno e in primavera, quindi baseball e lacrosse — storicamente i suoi sport più ricchi — restano in larga parte non pubblicati per quella classe."
+    },
+    {
+      "text": "Lacrosse is the single strongest pipeline here — 11 of 35 documented athletes, and both lacrosse programs won state titles in 2026. Baseball is the next, and its 2026 class is almost certainly understated because that class’s baseball signings were never published.",
+      "of": "836aa4c3",
+      "at": [
+        "charlotte-catholic:pipeline.realityCheck"
+      ],
+      "t": "Il lacrosse è di gran lunga il canale più forte qui — 11 dei 35 atleti documentati, ed entrambi i programmi di lacrosse hanno vinto titoli statali nel 2026. Il baseball è il successivo, e la sua classe 2026 è quasi certamente sottostimata perché le firme del baseball di quella classe non sono mai state pubblicate."
+    },
+    {
+      "text": "No CCHS athlete was found in a national top-100 recruiting ranking. The 247Sports and On3 school pages return 403/404, so this is recorded as not published rather than as zero.",
+      "of": "75a7230e",
+      "at": [
+        "charlotte-catholic:pipeline.rankedRecruits"
+      ],
+      "t": "Nessun atleta di CCHS è stato trovato in una classifica nazionale di reclutamento tra i primi 100. Le pagine scolastiche di 247Sports e On3 restituiscono 403/404, quindi il dato è registrato come non pubblicato anziché come zero."
+    },
+    {
+      "text": "Basketball",
+      "of": "5f3f8676",
+      "at": [
+        "charlotte-catholic:pipeline.roster[6].sport",
+        "charlotte-catholic:pipeline.roster[9].sport",
+        "charlotte-catholic:pipeline.roster[18].sport",
+        "covenant-day:pipeline.roster[1].sport",
+        "covenant-day:pipeline.roster[14].sport",
+        "covenant-day:pipeline.roster[15].sport",
+        "covenant-day:pipeline.roster[29].sport",
+        "covenant-day:pipeline.roster[30].sport",
+        "carmel-christian:pipeline.roster[0].sport",
+        "carmel-christian:pipeline.roster[1].sport",
+        "carmel-christian:pipeline.roster[2].sport",
+        "carmel-christian:pipeline.roster[3].sport",
+        "carmel-christian:pipeline.roster[4].sport",
+        "carmel-christian:pipeline.roster[7].sport",
+        "carmel-christian:pipeline.roster[10].sport"
+      ],
+      "t": "Basketball"
+    },
+    {
+      "text": "Field hockey",
+      "of": "87281338",
+      "at": [
+        "charlotte-catholic:pipeline.roster[7].sport"
+      ],
+      "t": "Hockey su prato"
+    },
+    {
+      "text": "Swim & dive",
+      "of": "743c68e3",
+      "at": [
+        "charlotte-catholic:pipeline.roster[8].sport",
+        "charlotte-catholic:pipeline.roster[13].sport"
+      ],
+      "t": "Nuoto e tuffi"
+    },
+    {
+      "text": "Soccer",
+      "of": "4d37567e",
+      "at": [
+        "charlotte-catholic:pipeline.roster[27].sport",
+        "charlotte-catholic:pipeline.roster[30].sport",
+        "covenant-day:pipeline.roster[4].sport",
+        "covenant-day:pipeline.roster[5].sport",
+        "covenant-day:pipeline.roster[9].sport",
+        "covenant-day:pipeline.roster[12].sport",
+        "covenant-day:pipeline.roster[18].sport",
+        "covenant-day:pipeline.roster[19].sport",
+        "covenant-day:pipeline.roster[21].sport",
+        "covenant-day:pipeline.roster[24].sport",
+        "covenant-day:pipeline.roster[27].sport"
+      ],
+      "t": "Soccer"
+    },
+    {
+      "text": "Cross country / track",
+      "of": "5ed3d377",
+      "at": [
+        "charlotte-catholic:pipeline.roster[32].sport"
+      ],
+      "t": "Corsa campestre / atletica"
+    },
+    {
+      "text": "Cannon Ridinger graduated from CCHS after earlier attending Charlotte Country Day (also in this app) and Hotchkiss; he is attributed here by graduating school and must not be double-counted. Evan MacIntyre is counted P4 at commitment time and has since transferred to Belmont Abbey via JUCO. Mary Catherine Farley (Wofford) appears on the 2024 signing list but never on a college roster, and is excluded from every count. Alex Hoffman surfaced only through a reverse roster lookup, not a signing article.",
+      "of": "2f98b322",
+      "at": [
+        "charlotte-catholic:pipeline.rosterNote"
+      ],
+      "t": "Cannon Ridinger si è diplomato al CCHS dopo aver frequentato in precedenza Charlotte Country Day (anch'essa presente in questa app) e Hotchkiss; qui è attribuito alla scuola di diploma e non deve essere conteggiato due volte. Evan MacIntyre è conteggiato come P4 al momento dell'impegno e da allora è passato a Belmont Abbey tramite JUCO. Mary Catherine Farley (Wofford) compare nell'elenco delle firme del 2024 ma mai in una rosa universitaria, ed è esclusa da ogni conteggio. Alex Hoffman è emerso solo tramite una ricerca inversa nelle rose, non da un articolo sulle firme."
+    },
+    {
+      "text": "Six alumni in professional sport, and a national lacrosse ranking that moved 158 places.",
+      "of": "3dccf567",
+      "at": [
+        "charlotte-catholic:honors.headline"
+      ],
+      "t": "Sei ex studenti nello sport professionistico e una classifica nazionale di lacrosse risalita di 158 posizioni."
+    },
+    {
+      "text": "The pro list spans four decades and four sports.",
+      "of": "116c411f",
+      "at": [
+        "charlotte-catholic:honors.subhead"
+      ],
+      "t": "L'elenco dei professionisti abbraccia quattro decenni e quattro sport."
+    },
+    {
+      "text": "NFL",
+      "of": "b1dd07fb",
+      "at": [
+        "charlotte-catholic:honors.pros[0].kicker",
+        "charlotte-catholic:honors.pros[1].kicker"
+      ],
+      "t": "NFL"
+    },
+    {
+      "text": "Drafted by the Oakland Raiders in 2017, 7th round, pick 242. Earlier the US Army Player of the Year (Hall Trophy).",
+      "of": "1d66f4a8",
+      "at": [
+        "charlotte-catholic:honors.pros[0].detail"
+      ],
+      "t": "Scelto dagli Oakland Raiders nel 2017, 7º giro, scelta numero 242. In precedenza US Army Player of the Year (Hall Trophy)."
+    },
+    {
+      "text": "Reached the National Football League.",
+      "of": "1e01f5b0",
+      "at": [
+        "charlotte-catholic:honors.pros[1].detail"
+      ],
+      "t": "È arrivato alla National Football League."
+    },
+    {
+      "text": "MLS",
+      "of": "694d3fbd",
+      "at": [
+        "charlotte-catholic:honors.pros[2].kicker",
+        "charlotte-catholic:honors.pros[3].kicker"
+      ],
+      "t": "MLS"
+    },
+    {
+      "text": "Major League Soccer.",
+      "of": "19c339f8",
+      "at": [
+        "charlotte-catholic:honors.pros[2].detail",
+        "charlotte-catholic:honors.pros[3].detail"
+      ],
+      "t": "Major League Soccer."
+    },
+    {
+      "text": "USL",
+      "of": "936bd10f",
+      "at": [
+        "charlotte-catholic:honors.pros[4].kicker"
+      ],
+      "t": "USL"
+    },
+    {
+      "text": "United Soccer League.",
+      "of": "56e53488",
+      "at": [
+        "charlotte-catholic:honors.pros[4].detail"
+      ],
+      "t": "United Soccer League."
+    },
+    {
+      "text": "WTA",
+      "of": "8aeb7ba5",
+      "at": [
+        "charlotte-catholic:honors.pros[5].kicker"
+      ],
+      "t": "WTA"
+    },
+    {
+      "text": "Professional tennis — the earliest of the school’s professional alumni.",
+      "of": "b6465d08",
+      "at": [
+        "charlotte-catholic:honors.pros[5].detail"
+      ],
+      "t": "Tennis professionistico — il più antico tra gli ex studenti professionisti della scuola."
+    },
+    {
+      "text": "Boys lacrosse, national rank",
+      "of": "db3dfb06",
+      "at": [
+        "charlotte-catholic:honors.honors[0].label"
+      ],
+      "t": "Boys lacrosse, classifica nazionale"
+    },
+    {
+      "text": "#28 in the country on MaxPreps and #1 in North Carolina — up from #186.",
+      "of": "5e99042c",
+      "at": [
+        "charlotte-catholic:honors.honors[0].text"
+      ],
+      "t": "#28 nel Paese su MaxPreps e #1 in North Carolina — in risalita dal #186."
+    },
+    {
+      "text": "#28 NATIONAL",
+      "of": "9d89064e",
+      "at": [
+        "charlotte-catholic:honors.honors[0].tag"
+      ],
+      "t": "#28 NAZIONALE"
+    },
+    {
+      "text": "Football, state rank",
+      "of": "a5844f31",
+      "at": [
+        "charlotte-catholic:honors.honors[1].label"
+      ],
+      "t": "Football, classifica statale"
+    },
+    {
+      "text": "#4 in NCHSAA 6A.",
+      "of": "fa0d45a2",
+      "at": [
+        "charlotte-catholic:honors.honors[1].text"
+      ],
+      "t": "#4 nella NCHSAA 6A."
+    },
+    {
+      "text": "#4 IN 6A",
+      "of": "49a2a7c2",
+      "at": [
+        "charlotte-catholic:honors.honors[1].tag"
+      ],
+      "t": "#4 IN 6A"
+    },
+    {
+      "text": "Will Hartman",
+      "of": "919d686e",
+      "at": [
+        "charlotte-catholic:honors.honors[2].label"
+      ],
+      "t": "Will Hartman"
+    },
+    {
+      "text": "Charlotte Observer golfer of the year; went on to Vanderbilt.",
+      "of": "8c1391d7",
+      "at": [
+        "charlotte-catholic:honors.honors[2].text"
+      ],
+      "t": "Golfista dell'anno secondo il Charlotte Observer; è poi passato a Vanderbilt."
+    },
+    {
+      "text": "Elijah Hood",
+      "of": "558a4b18",
+      "at": [
+        "charlotte-catholic:honors.honors[3].label"
+      ],
+      "t": "Elijah Hood"
+    },
+    {
+      "text": "US Army Player of the Year — the Hall Trophy — before North Carolina and the NFL.",
+      "of": "42c30a13",
+      "at": [
+        "charlotte-catholic:honors.honors[3].text"
+      ],
+      "t": "US Army Player of the Year — l'Hall Trophy — prima di North Carolina e della NFL."
+    },
+    {
+      "text": "Mason Poveromo",
+      "of": "331fabb4",
+      "at": [
+        "charlotte-catholic:honors.honors[4].label"
+      ],
+      "t": "Mason Poveromo"
+    },
+    {
+      "text": "Named in athlete-of-the-year recognition.",
+      "of": "7775b17b",
+      "at": [
+        "charlotte-catholic:honors.honors[4].text"
+      ],
+      "t": "Citato in un riconoscimento come atleta dell'anno."
+    },
+    {
+      "text": "8 Wachovia / Wells Fargo Cups, awarded to the top athletic program by division in North Carolina.",
+      "of": "ac60ebe3",
+      "at": [
+        "charlotte-catholic:honors.honors[5].text"
+      ],
+      "t": "8 Wachovia / Wells Fargo Cup, assegnate al miglior programma atletico per division in North Carolina."
+    },
+    {
+      "text": "8 CUPS",
+      "of": "14b765d4",
+      "at": [
+        "charlotte-catholic:honors.honors[5].tag"
+      ],
+      "t": "8 COPPE"
+    },
+    {
+      "text": "Sportsmanship and academics",
+      "of": "5601c4fd",
+      "at": [
+        "charlotte-catholic:honors.honors[6].label"
+      ],
+      "t": "Sportività e risultati accademici"
+    },
+    {
+      "text": "The school reports awards for sportsmanship, academic achievement and 100% community-service participation among its student-athletes.",
+      "of": "6e321e54",
+      "at": [
+        "charlotte-catholic:honors.honors[6].text"
+      ],
+      "t": "La scuola segnala riconoscimenti per la sportività, il rendimento accademico e la partecipazione al 100% al servizio alla comunità tra i propri student-athlete."
+    },
+    {
+      "text": "A deep baseball staff, and thin public disclosure everywhere else.",
+      "of": "12472e7d",
+      "at": [
+        "charlotte-catholic:coaching.headline"
+      ],
+      "t": "Uno staff di baseball nutrito e, per tutto il resto, scarsa trasparenza pubblica."
+    },
+    {
+      "text": "Baseball publishes eight coaches with full bios, start years, records and playing history. No other sport publishes anything comparable.",
+      "of": "76b1384c",
+      "at": [
+        "charlotte-catholic:coaching.subhead"
+      ],
+      "t": "Il baseball pubblica otto allenatori con biografie complete, anno di inizio, record e carriera da giocatore. Nessun altro sport pubblica qualcosa di paragonabile."
+    },
+    {
+      "text": "Athletic Director",
+      "of": "e3e4c54b",
+      "at": [
+        "charlotte-catholic:coaching.featured[0].kicker",
+        "charlotte-catholic:coaching.tenure[1].role",
+        "covenant-day:coaching.tenure[1].role",
+        "gaston-day:facilities.care[0].label"
+      ],
+      "t": "Direttore atletico"
+    },
+    {
+      "text": "sports administered",
+      "of": "536291f9",
+      "at": [
+        "charlotte-catholic:coaching.featured[0].stats[0].label"
+      ],
+      "t": "sport amministrati"
+    },
+    {
+      "text": "6A",
+      "of": "24e8f9d8",
+      "at": [
+        "charlotte-catholic:coaching.featured[0].stats[1].value",
+        "charlotte-catholic:national.stats[3].value"
+      ],
+      "t": "6A"
+    },
+    {
+      "text": "NCHSAA division",
+      "of": "c2f96888",
+      "at": [
+        "charlotte-catholic:coaching.featured[0].stats[1].label"
+      ],
+      "t": "division NCHSAA"
+    },
+    {
+      "text": "Directs an athletics department of 20 sports competing in the NCHSAA — the state’s public-school association — and advises the Fellowship of Christian Athletes club from the AD office.",
+      "of": "6369d528",
+      "at": [
+        "charlotte-catholic:coaching.featured[0].detail"
+      ],
+      "t": "Dirige un dipartimento atletico di 20 sport che competono nella NCHSAA — l'associazione delle scuole pubbliche dello stato — e segue come referente il club Fellowship of Christian Athletes dall'ufficio dell'AD."
+    },
+    {
+      "text": "Head Coach — Football",
+      "of": "bfbc1fbe",
+      "at": [
+        "charlotte-catholic:coaching.featured[1].kicker"
+      ],
+      "t": "Capo-allenatore — Football"
+    },
+    {
+      "text": "7–5",
+      "of": "4ec6e77e",
+      "at": [
+        "charlotte-catholic:coaching.featured[1].stats[0].value"
+      ],
+      "t": "7–5"
+    },
+    {
+      "text": "2025 record",
+      "of": "3afdb6b7",
+      "at": [
+        "charlotte-catholic:coaching.featured[1].stats[0].label"
+      ],
+      "t": "record 2025"
+    },
+    {
+      "text": "3–3",
+      "of": "6cb19c10",
+      "at": [
+        "charlotte-catholic:coaching.featured[1].stats[1].value"
+      ],
+      "t": "3–3"
+    },
+    {
+      "text": "2025 conference",
+      "of": "bb5b8dd4",
+      "at": [
+        "charlotte-catholic:coaching.featured[1].stats[1].label"
+      ],
+      "t": "conference 2025"
+    },
+    {
+      "text": "Led the 2025 team to a 7–5 finish and a 27–0 opening-round playoff win over A.C. Reynolds, in a programme with 8 state titles from 11 championship-game appearances.",
+      "of": "822425ea",
+      "at": [
+        "charlotte-catholic:coaching.featured[1].detail"
+      ],
+      "t": "Ha guidato la squadra 2025 a un bilancio di 7–5 e a una vittoria per 27–0 al primo turno dei playoff su A.C. Reynolds, in un programma con 8 titoli statali su 11 partecipazioni alla finale."
+    },
+    {
+      "text": "8 coaches with published bios, start years and playing history",
+      "of": "0015992d",
+      "at": [
+        "charlotte-catholic:coaching.tenure[0].role"
+      ],
+      "t": "8 allenatori con biografie pubblicate, anno di inizio e carriera da giocatore"
+    },
+    {
+      "text": "published",
+      "of": "bc488789",
+      "at": [
+        "charlotte-catholic:coaching.tenure[0].since"
+      ],
+      "t": "pubblicato"
+    },
+    {
+      "text": "not published",
+      "of": "c0bab374",
+      "at": [
+        "charlotte-catholic:coaching.tenure[1].since",
+        "charlotte-catholic:coaching.tenure[2].since",
+        "charlotte-catholic:coaching.tenure[3].since",
+        "charlotte-catholic:coaching.tenure[4].since"
+      ],
+      "t": "non pubblicato"
+    },
+    {
+      "text": "Head Coach, Football",
+      "of": "9c7a7f24",
+      "at": [
+        "charlotte-catholic:coaching.tenure[2].role"
+      ],
+      "t": "Capo-allenatore, Football"
+    },
+    {
+      "text": "Athletic Trainer",
+      "of": "57d2789c",
+      "at": [
+        "charlotte-catholic:coaching.tenure[3].role"
+      ],
+      "t": "Trainer atletico"
+    },
+    {
+      "text": "Strength & Conditioning Coach",
+      "of": "a1764d33",
+      "at": [
+        "charlotte-catholic:coaching.tenure[4].role"
+      ],
+      "t": "Allenatore di Strength & Conditioning"
+    },
+    {
+      "text": "The disclosure gap here is unusually sharp. Baseball’s staff page carries eight coaches with full bios including start years, coaching records and professional or draft history, while the other nineteen sports publish nav boilerplate with no named coach at all. Tenure bars above are therefore marked to verify for everyone except the baseball staff — the school does not publish start years outside that one programme.",
+      "of": "966e32eb",
+      "at": [
+        "charlotte-catholic:coaching.worthKnowing"
+      ],
+      "t": "Il divario di trasparenza è qui insolitamente netto. La pagina dello staff del baseball riporta otto allenatori con biografie complete che includono anno di inizio, record da allenatore e trascorsi professionistici o al draft, mentre gli altri diciannove sport pubblicano impostazioni di navigazione predefinite senza alcun allenatore indicato per nome. Le barre di permanenza qui sopra sono quindi contrassegnate come da verificare per tutti tranne che per lo staff del baseball: la scuola non pubblica gli anni di inizio al di fuori di quell'unico programma."
+    },
+    {
+      "text": "Oddo Field at Keffer Stadium, and athletic training staffed by Atrium Health.",
+      "of": "2b82713d",
+      "at": [
+        "charlotte-catholic:facilities.headline"
+      ],
+      "t": "Oddo Field at Keffer Stadium, e preparazione atletica con personale di Atrium Health."
+    },
+    {
+      "text": "The care model is outsourced to a hospital system rather than run in house — a different structure from the independent schools on this roster.",
+      "of": "8aad447c",
+      "at": [
+        "charlotte-catholic:facilities.subhead"
+      ],
+      "t": "Il modello di assistenza è affidato in outsourcing a un sistema ospedaliero anziché gestito internamente — una struttura diversa da quella delle scuole indipendenti di questo elenco."
+    },
+    {
+      "text": "approximately 3,500 seats; the field is named for Jim Oddo",
+      "of": "002200c4",
+      "at": [
+        "charlotte-catholic:facilities.venues[0].detail"
+      ],
+      "t": "circa 3,500 posti; il campo è intitolato a Jim Oddo"
+    },
+    {
+      "text": "basketball, volleyball and wrestling",
+      "of": "0574fd68",
+      "at": [
+        "charlotte-catholic:facilities.venues[1].detail"
+      ],
+      "t": "basketball, volleyball e wrestling"
+    },
+    {
+      "text": "home of the programme with the school’s deepest published coaching staff",
+      "of": "e1fdbd55",
+      "at": [
+        "charlotte-catholic:facilities.venues[2].detail"
+      ],
+      "t": "sede del programma con lo staff tecnico più nutrito tra quelli pubblicati dalla scuola"
+    },
+    {
+      "text": "base for the Atrium Health athletic-training staff and the student Sports Medicine club",
+      "of": "e1771a99",
+      "at": [
+        "charlotte-catholic:facilities.venues[3].detail"
+      ],
+      "t": "base per lo staff di preparazione atletica di Atrium Health e per il club studentesco di Sports Medicine"
+    },
+    {
+      "text": "650-seat auditorium, dedicated 2022 — shared with the arts programme",
+      "of": "c30c3ba8",
+      "at": [
+        "charlotte-catholic:facilities.venues[4].detail"
+      ],
+      "t": "auditorium da 650 posti, inaugurato nel 2022 — condiviso con il programma artistico"
+    },
+    {
+      "text": "Full-time licensed and certified athletic trainers, provided by Atrium Health rather than employed directly by the school.",
+      "of": "abfa9a8f",
+      "at": [
+        "charlotte-catholic:facilities.care[0].text"
+      ],
+      "t": "Trainer atletici a tempo pieno, abilitati e certificati, forniti da Atrium Health anziché assunti direttamente dalla scuola."
+    },
+    {
+      "text": "Lead trainer",
+      "of": "2e3ff8ea",
+      "at": [
+        "charlotte-catholic:facilities.care[1].label"
+      ],
+      "t": "Trainer responsabile"
+    },
+    {
+      "text": "Todd Wisocki, LAT/ATC — who also advises the student-run Sports Medicine club.",
+      "of": "6d491d12",
+      "at": [
+        "charlotte-catholic:facilities.care[1].text"
+      ],
+      "t": "Todd Wisocki, LAT/ATC — che è anche referente del club di Sports Medicine gestito dagli studenti."
+    },
+    {
+      "text": "Strength & conditioning",
+      "of": "980f5f55",
+      "at": [
+        "charlotte-catholic:facilities.care[2].label",
+        "covenant-day:facilities.care[0].label"
+      ],
+      "t": "Strength & conditioning"
+    },
+    {
+      "text": "Mike Hazel, NSCA CSCS.",
+      "of": "35aaf2bc",
+      "at": [
+        "charlotte-catholic:facilities.care[2].text"
+      ],
+      "t": "Mike Hazel, NSCA CSCS."
+    },
+    {
+      "text": "Student pathway",
+      "of": "95e57b6e",
+      "at": [
+        "charlotte-catholic:facilities.care[3].label"
+      ],
+      "t": "Percorso per gli studenti"
+    },
+    {
+      "text": "Sports Medicine runs as both a curriculum course (851) and a student club, so an interested athlete can study the field as well as be treated by it.",
+      "of": "a44c9cf9",
+      "at": [
+        "charlotte-catholic:facilities.care[3].text"
+      ],
+      "t": "Sports Medicine è attivo sia come corso curricolare (851) sia come club studentesco, quindi un atleta interessato può studiare la disciplina oltre che esserne assistito."
+    },
+    {
+      "text": "Atrium Health provision is a genuine structural difference: coverage and continuity come from a hospital system’s staffing model. The school publishes no concussion protocol, no team-physician name and no coverage schedule by sport, so what is available at a given practice or away fixture is not disclosed.",
+      "of": "1c9bcdbf",
+      "at": [
+        "charlotte-catholic:facilities.careNote"
+      ],
+      "t": "L'erogazione da parte di Atrium Health è una differenza strutturale reale: copertura e continuità derivano dal modello di organico di un sistema ospedaliero. La scuola non pubblica alcun protocollo per le commozioni cerebrali, alcun nome di medico di squadra né alcun calendario di copertura per sport, quindi ciò che è disponibile a un dato allenamento o a una trasferta non è reso noto."
+    },
+    {
+      "text": "A private school playing the public-school bracket — and an NIL policy it inherits from the NCHSAA.",
+      "of": "1ec81c89",
+      "at": [
+        "charlotte-catholic:national.headline"
+      ],
+      "t": "Una scuola privata che gioca nel girone delle scuole pubbliche — e una politica NIL che eredita dalla NCHSAA."
+    },
+    {
+      "text": "CCHS is one of only four parochial members of the North Carolina High School Athletic Association.",
+      "of": "c69989bc",
+      "at": [
+        "charlotte-catholic:national.subhead"
+      ],
+      "t": "CCHS è uno dei soli quattro membri parrocchiali della North Carolina High School Athletic Association."
+    },
+    {
+      "text": "parochial schools in the entire NCHSAA",
+      "of": "e37f4010",
+      "at": [
+        "charlotte-catholic:national.stats[0].label"
+      ],
+      "t": "scuole parrocchiali in tutta la NCHSAA"
+    },
+    {
+      "text": "#28",
+      "of": "7290b988",
+      "at": [
+        "charlotte-catholic:national.stats[1].value"
+      ],
+      "t": "#28"
+    },
+    {
+      "text": "boys lacrosse, national MaxPreps rank",
+      "of": "f42913e8",
+      "at": [
+        "charlotte-catholic:national.stats[1].label"
+      ],
+      "t": "boys lacrosse, posizione nazionale MaxPreps"
+    },
+    {
+      "text": "boys lacrosse, rank in North Carolina",
+      "of": "c485b6f9",
+      "at": [
+        "charlotte-catholic:national.stats[2].label"
+      ],
+      "t": "boys lacrosse, posizione in North Carolina"
+    },
+    {
+      "text": "NCHSAA division played",
+      "of": "70108fab",
+      "at": [
+        "charlotte-catholic:national.stats[3].label"
+      ],
+      "t": "division NCHSAA disputata"
+    },
+    {
+      "text": "What playing NCHSAA actually means",
+      "of": "8390dd52",
+      "at": [
+        "charlotte-catholic:national.scheduleTitle"
+      ],
+      "t": "Che cosa significa davvero giocare nella NCHSAA"
+    },
+    {
+      "text": "The conference CCHS competes in — public schools of comparable enrollment",
+      "of": "b2122665",
+      "at": [
+        "charlotte-catholic:national.schedule[0].detail"
+      ],
+      "t": "La conference in cui compete CCHS — scuole pubbliche con un numero di iscritti paragonabile"
+    },
+    {
+      "text": "Beaten 9–8 in overtime for the 2026 girls lacrosse state title",
+      "of": "c6b82ec8",
+      "at": [
+        "charlotte-catholic:national.schedule[1].detail"
+      ],
+      "t": "Sconfitta 9–8 ai supplementari per il titolo statale 2026 di girls lacrosse"
+    },
+    {
+      "text": "Beaten 9–8 in overtime for the 2026 boys lacrosse state title",
+      "of": "2c4a9710",
+      "at": [
+        "charlotte-catholic:national.schedule[2].detail"
+      ],
+      "t": "Sconfitta 9–8 ai supplementari per il titolo statale 2026 di boys lacrosse"
+    },
+    {
+      "text": "Beaten 1–0 for the 2026 6A girls soccer state title",
+      "of": "6991ad76",
+      "at": [
+        "charlotte-catholic:national.schedule[3].detail"
+      ],
+      "t": "Sconfitta 1–0 per il titolo statale 6A 2026 di girls soccer"
+    },
+    {
+      "text": "Shut out 27–0 in the opening round of the 2025 football playoffs",
+      "of": "290e16e5",
+      "at": [
+        "charlotte-catholic:national.schedule[4].detail"
+      ],
+      "t": "Battuta con uno shutout per 27–0 al primo turno dei playoff di football 2025"
+    },
+    {
+      "text": "This is the real differentiator for a recruiting family: every other school in this app plays NCISAA, the independent-school association. A CCHS athlete’s record, rankings and championships are set against North Carolina’s public schools, which is a larger and differently-shaped competitive field — and it makes cross-comparison with the rest of this roster imprecise in both directions.",
+      "of": "72d3999f",
+      "at": [
+        "charlotte-catholic:national.scheduleNote"
+      ],
+      "t": "È questo il vero elemento distintivo per una famiglia alle prese con il reclutamento: ogni altra scuola di questa app gioca nella NCISAA, l'associazione delle scuole indipendenti. Il record, le classifiche e i titoli di un atleta di CCHS si misurano con le scuole pubbliche del North Carolina, un campo competitivo più ampio e di natura diversa — e ciò rende impreciso, in entrambe le direzioni, il confronto con il resto di questo elenco."
+    },
+    {
+      "text": "July 1, 2023",
+      "of": "a4e51be1",
+      "at": [
+        "charlotte-catholic:national.nil[0].date"
+      ],
+      "t": "1 luglio 2023"
+    },
+    {
+      "text": "The NCHSAA’s name, image and likeness policy takes effect, covering every member school including CCHS.",
+      "of": "882a9d84",
+      "at": [
+        "charlotte-catholic:national.nil[0].text"
+      ],
+      "t": "Entra in vigore la politica della NCHSAA su nome, immagine e notorietà, che riguarda ogni scuola membro, CCHS compresa."
+    },
+    {
+      "text": "Current",
+      "of": "b3d0c37a",
+      "at": [
+        "charlotte-catholic:national.nil[1].date"
+      ],
+      "t": "Attuale"
+    },
+    {
+      "text": "No CCHS-specific NIL deal was found in any published source. The school itself publishes no NIL guidance of its own beyond the association policy it is bound by.",
+      "of": "4365e2a1",
+      "at": [
+        "charlotte-catholic:national.nil[1].text"
+      ],
+      "t": "Non è stato trovato alcun accordo NIL specifico di CCHS in alcuna fonte pubblicata. La scuola stessa non pubblica proprie indicazioni sul NIL oltre alla politica dell'associazione a cui è vincolata."
     },
     {
       "text": "72 teams across 26 sports, with about 85% of students in grades 7–12 playing — and 155 state championships all-time.",
@@ -5426,25 +6462,6 @@
       "t": "Non è documentato alcun recruit classificato tra i primi 100 a livello nazionale. I due recruit con maggiore copertura sono Emily Eaton ’24 — NCISAA Player of the Year 2023 e NC Player of the Year per Max Field Hockey, ingaggiata da un programma di Louisville tra i primi 10 — e l'ala di 6′9″ Michael Marcus Jr ’24, che ha scelto Appalachian State dopo una copertura a livello statale in NC."
     },
     {
-      "text": "Basketball",
-      "of": "5f3f8676",
-      "at": [
-        "covenant-day:pipeline.roster[1].sport",
-        "covenant-day:pipeline.roster[14].sport",
-        "covenant-day:pipeline.roster[15].sport",
-        "covenant-day:pipeline.roster[29].sport",
-        "covenant-day:pipeline.roster[30].sport",
-        "carmel-christian:pipeline.roster[0].sport",
-        "carmel-christian:pipeline.roster[1].sport",
-        "carmel-christian:pipeline.roster[2].sport",
-        "carmel-christian:pipeline.roster[3].sport",
-        "carmel-christian:pipeline.roster[4].sport",
-        "carmel-christian:pipeline.roster[7].sport",
-        "carmel-christian:pipeline.roster[10].sport"
-      ],
-      "t": "Basketball"
-    },
-    {
       "text": "XC / Track",
       "of": "0ef9f162",
       "at": [
@@ -5453,22 +6470,6 @@
         "covenant-day:pipeline.roster[22].sport"
       ],
       "t": "XC / Track"
-    },
-    {
-      "text": "Soccer",
-      "of": "4d37567e",
-      "at": [
-        "covenant-day:pipeline.roster[4].sport",
-        "covenant-day:pipeline.roster[5].sport",
-        "covenant-day:pipeline.roster[9].sport",
-        "covenant-day:pipeline.roster[12].sport",
-        "covenant-day:pipeline.roster[18].sport",
-        "covenant-day:pipeline.roster[19].sport",
-        "covenant-day:pipeline.roster[21].sport",
-        "covenant-day:pipeline.roster[24].sport",
-        "covenant-day:pipeline.roster[27].sport"
-      ],
-      "t": "Soccer"
     },
     {
       "text": "Compiled from the school’s own Lions News signing articles (September 2024 through April 2026). Levels and conferences were verified per college by the researcher; the two junior-college signees are listed at the D3 tier for want of an NJCAA level in this table’s scale. Eaton transferred from Louisville to Virginia — also ACC — for fall 2026.",
@@ -5776,15 +6777,6 @@
       "t": "dal 2003"
     },
     {
-      "text": "Athletic Director",
-      "of": "e3e4c54b",
-      "at": [
-        "covenant-day:coaching.tenure[1].role",
-        "gaston-day:facilities.care[0].label"
-      ],
-      "t": "Direttore atletico"
-    },
-    {
       "text": "promoted from HS Principal",
       "of": "ac5fbf5a",
       "at": [
@@ -5912,14 +6904,6 @@
         "covenant-day:facilities.venues[6].detail"
       ],
       "t": "Costruito nel 2015 — power rack, kettlebell, pesi liberi; serve le classi 6–12."
-    },
-    {
-      "text": "Strength & conditioning",
-      "of": "980f5f55",
-      "at": [
-        "covenant-day:facilities.care[0].label"
-      ],
-      "t": "Strength & conditioning"
     },
     {
       "text": "A dedicated faculty position — Chad Smith, HS Strength and Conditioning Teacher and Coach. Programming is age-appropriate with integrated speed and agility work; progress is tracked daily, and athletes lift after school and through summers.",

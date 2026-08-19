@@ -33,6 +33,7 @@
         "charlotte-latin:catalog.gradeFilters[0].label",
         "charlotte-christian:catalog.categoryFilters[0].label",
         "charlotte-christian:catalog.gradeFilters[0].label",
+        "charlotte-catholic:catalog.categoryFilters[0].label",
         "charlotte-country-day:catalog.categoryFilters[0].label",
         "charlotte-country-day:catalog.gradeFilters[0].label",
         "cannon:catalog.categoryFilters[0].label",
@@ -168,6 +169,11 @@
         "charlotte-christian:catalog.camps[23].categoryLabel",
         "charlotte-christian:catalog.camps[24].categoryLabel",
         "charlotte-christian:catalog.camps[25].categoryLabel",
+        "charlotte-catholic:catalog.categoryFilters[1].label",
+        "charlotte-catholic:catalog.camps[0].categoryLabel",
+        "charlotte-catholic:catalog.camps[1].categoryLabel",
+        "charlotte-catholic:catalog.camps[2].categoryLabel",
+        "charlotte-catholic:catalog.camps[3].categoryLabel",
         "covenant-day:catalog.categoryFilters[2].label",
         "covenant-day:catalog.camps[3].categoryLabel",
         "covenant-day:catalog.camps[4].categoryLabel",
@@ -5468,6 +5474,176 @@
       "of": "ed91b749",
       "at": [
         "charlotte-christian:costPlanner.flags[1].text"
+      ]
+    },
+    {
+      "t": "أربعة مخيمات رياضية تقيمها CCHS للمجتمع المحيط — للأطفال من عمر 6 إلى 13، لا لطلابها في المرحلة الثانوية.",
+      "of": "d33c71e6",
+      "at": [
+        "charlotte-catholic:catalog.headline"
+      ]
+    },
+    {
+      "t": "Charlotte Catholic مدرسة للصفوف 9–12. وبرنامجها الصيفي تدريب توعوي للأطفال الأصغر سنًّا في الحيّ، إضافةً إلى برنامجين من خارج CCHS توجّه طلابها إليهما.",
+      "of": "1694f806",
+      "at": [
+        "charlotte-catholic:catalog.subhead"
+      ]
+    },
+    {
+      "t": "كل مخيم أدناه مخيم رياضي نصف يومي يستضيفه طاقم تدريب من CCHS ومفتوح للمجتمع. والأعمار هي أعمار المخيّمين، وهي أدنى بكثير من صفوف CCHS نفسها 9–12. ولا تقيم المدرسة أي مدرسة صيفية أكاديمية ولا استدراك أرصدة — إذ ينصّ دليلها مرّتين على أن الطالب الراسب في حصّة يعيدها خارجيًّا، \"على نفقته خلال الصيف\".",
+      "of": "e51d247f",
+      "at": [
+        "charlotte-catholic:catalog.intro"
+      ]
+    },
+    {
+      "t": "كل الأعمار",
+      "of": "3012c794",
+      "at": [
+        "charlotte-catholic:catalog.gradeFilters[0].label"
+      ]
+    },
+    {
+      "t": "صاعد 2–5 / الأعمار 6–10",
+      "of": "5070d316",
+      "at": [
+        "charlotte-catholic:catalog.gradeFilters[1].label"
+      ]
+    },
+    {
+      "t": "صاعد 6–9 / الأعمار 11–13",
+      "of": "d3377e0f",
+      "at": [
+        "charlotte-catholic:catalog.gradeFilters[2].label"
+      ]
+    },
+    {
+      "t": "تطوير مهارات كرة السلة للإناث بإدارة طاقم التدريب في CCHS، مقسَّم إلى جلسة صباحية للمخيّمين الأصغر وجلسة بعد الظهر للأكبر.",
+      "of": "9375f718",
+      "at": [
+        "charlotte-catholic:catalog.camps[0].desc"
+      ]
+    },
+    {
+      "t": "صاعد إلى الصفوف 2–8",
+      "of": "fb7974d0",
+      "at": [
+        "charlotte-catholic:catalog.camps[0].gradeLabel"
+      ]
+    },
+    {
+      "t": "June 8–11",
+      "of": "92569b08",
+      "at": [
+        "charlotte-catholic:catalog.camps[0].dayLabel"
+      ]
+    },
+    {
+      "t": "صاعد 2–5: 9:00 AM–12:00 PM · صاعد 6–8: 1:00 PM–4:00 PM",
+      "of": "94518c1b",
+      "at": [
+        "charlotte-catholic:catalog.camps[0].hours"
+      ]
+    },
+    {
+      "t": "مخيم بيسبول متعدّد الجلسات يشمل إحماءً ديناميكيًّا وركض القواعد وعملًا في محطّات هجومية ودفاعية ولعبًا مقسَّمًا بحسب الفئات العمرية. ويُقام في Freedom Park (Dilworth LL Ballfields) لا في حرم CCHS؛ ويحضر المخيّمون غداءهم معهم.",
+      "of": "d0a1583b",
+      "at": [
+        "charlotte-catholic:catalog.camps[1].desc"
+      ]
+    },
+    {
+      "t": "الأعمار 6–13",
+      "of": "8561fb80",
+      "at": [
+        "charlotte-catholic:catalog.camps[1].gradeLabel"
+      ]
+    },
+    {
+      "t": "June 2–5 · June 9–12 · July 21–24",
+      "of": "89952d2a",
+      "at": [
+        "charlotte-catholic:catalog.camps[1].dayLabel"
+      ]
+    },
+    {
+      "t": "9:00 AM–1:00 PM (تسجيل الحضور 8:45 AM)",
+      "of": "456d28db",
+      "at": [
+        "charlotte-catholic:catalog.camps[1].hours"
+      ]
+    },
+    {
+      "t": "أساسيات كرة القدم للناشئين مع طاقم كرة القدم في CCHS. والنشرة المنشورة وثيقة من 2024 لم تُحدَّث، فالسعر والتواريخ أدناه هما ما تنشره المدرسة حاليًّا لا برنامج 2026 مؤكَّدًا.",
+      "of": "69bb3862",
+      "at": [
+        "charlotte-catholic:catalog.camps[2].desc"
+      ]
+    },
+    {
+      "t": "صاعد إلى الصفوف 3–9",
+      "of": "8f51d358",
+      "at": [
+        "charlotte-catholic:catalog.camps[2].gradeLabel"
+      ]
+    },
+    {
+      "t": "يوليو",
+      "of": "011ca01f",
+      "at": [
+        "charlotte-catholic:catalog.camps[2].dayLabel"
+      ]
+    },
+    {
+      "t": "8:30–11:30 AM",
+      "of": "8f891dae",
+      "at": [
+        "charlotte-catholic:catalog.camps[2].hours"
+      ]
+    },
+    {
+      "t": "مخيم كرة قدم يُقام في موقع CCHS. وتدرجه المدرسة دون تواريخ أو أعمار أو ساعات أو سعر.",
+      "of": "c88a5c9e",
+      "at": [
+        "charlotte-catholic:catalog.camps[3].desc"
+      ]
+    },
+    {
+      "t": "غير منشور",
+      "of": "d945d814",
+      "at": [
+        "charlotte-catholic:catalog.camps[3].gradeLabel",
+        "charlotte-catholic:catalog.camps[3].dayLabel",
+        "charlotte-catholic:catalog.camps[3].hours"
+      ]
+    },
+    {
+      "t": "ثلاثة من المخيمات الأربعة لا تنشر سعرًا على أي صفحة مدرسية. ويتعامل Eddie Hull Baseball مع الرسوم بالكامل عبر موقع تسجيل تابع لطرف ثالث، ولا ينشر مخيّما كرة السلة وكرة القدم أي سعر على الإطلاق — ولهذا تُحذَف بطاقة مخطّط التكلفة بدلًا من نمذجتها.",
+      "of": "57ddb105",
+      "at": [
+        "charlotte-catholic:catalog.flags[0].text"
+      ]
+    },
+    {
+      "t": "نشرة Cougar Football Camp أثر من 2024 لا يزال مرتبطًا من الموقع الحالي؛ وسعرها البالغ $160 ونطاق صفوفها مستنسَخان كما نُشِرا، لا مؤكَّدَين لعام 2026.",
+      "of": "34908750",
+      "at": [
+        "charlotte-catholic:catalog.flags[1].text"
+      ]
+    },
+    {
+      "t": "تُدرِج صفحة مخيم البيسبول جلساته تحت عنوان 2025. والتواريخ مسجَّلة حرفيًّا كما نُشِرت لا مُرحَّلة إلى الأمام، لأن تاريخًا مُعاد كتابته يؤكّد جدولًا لم تعلنه المدرسة.",
+      "of": "947a23f5",
+      "at": [
+        "charlotte-catholic:catalog.flags[2].text"
+      ]
+    },
+    {
+      "t": "لا توجد رعاية ممتدّة ولا رعاية ليوم كامل: فكل مخيم كتلة نصف يومية من ثلاث إلى أربع ساعات. ومخيم MACS الصيفي من 8am إلى 5pm برنامج مدرسة أخرى (St. Matthew وSt. Patrick، من عمر 5 حتى الصاعدين إلى الصفّ السادس) ولا يُنسَب إلى CCHS.",
+      "of": "e75312f6",
+      "at": [
+        "charlotte-catholic:catalog.flags[3].text"
       ]
     },
     {

@@ -159,6 +159,11 @@
         "providence-day:ladder.divisions[2].grades",
         "charlotte-latin:ladder.divisions[2].grades",
         "charlotte-christian:ladder.divisions[2].grades",
+        "charlotte-catholic:ladder.divisions[0].grades",
+        "charlotte-catholic:ladder.divisions[1].grades",
+        "charlotte-catholic:ladder.divisions[2].grades",
+        "charlotte-catholic:ladder.divisions[3].grades",
+        "charlotte-catholic:ladder.divisions[4].grades",
         "charlotte-country-day:ladder.divisions[2].grades",
         "cannon:ladder.divisions[2].grades",
         "covenant-day:ladder.divisions[2].grades",
@@ -353,6 +358,8 @@
       "of": "346c73d9",
       "at": [
         "providence-day:theatre.season[1].kind",
+        "charlotte-catholic:theatre.season[0].kind",
+        "charlotte-catholic:theatre.season[1].kind",
         "charlotte-country-day:theatre.season[1].kind",
         "gaston-day:theatre.season[1].kind"
       ],
@@ -2491,6 +2498,1008 @@
       "t": "هل توجد حصّة نظرية موسيقى أصلًا؟ فلا يوجد AP Music Theory، رغم أن الفنّ البصري يبلغ AP مرّتين."
     },
     {
+      "text": "The biggest department in the school — 39 courses, one per five in the whole catalog.",
+      "of": "77d614c6",
+      "at": [
+        "charlotte-catholic:ladder.headline"
+      ],
+      "t": "أكبر قسم في المدرسة — 39 حصّة، أي واحدة من كل خمس في الكتالوج كله."
+    },
+    {
+      "text": "Arts at CCHS is not an elective afterthought: it carries more courses than English, Science or Mathematics, across five disciplines and a purpose-built centre.",
+      "of": "b2994de0",
+      "at": [
+        "charlotte-catholic:ladder.subhead"
+      ],
+      "t": "الفنون في CCHS ليست مادة اختيارية عابرة: فهي تحمل حصصًا أكثر من English أو Science أو Mathematics، عبر خمسة تخصّصات ومركز مبنيّ لهذا الغرض."
+    },
+    {
+      "text": "arts courses — the largest department in the curriculum guide",
+      "of": "0299b41f",
+      "at": [
+        "charlotte-catholic:ladder.stats[0].label"
+      ],
+      "t": "حصص الفنون — أكبر قسم في دليل المنهج"
+    },
+    {
+      "text": "named performing ensembles",
+      "of": "0d9ed991",
+      "at": [
+        "charlotte-catholic:ladder.stats[1].label"
+      ],
+      "t": "فرق أداء مُسمّاة"
+    },
+    {
+      "text": "advanced arts coursework",
+      "of": "f4bb3bed",
+      "at": [
+        "charlotte-catholic:ladder.stats[2].label"
+      ],
+      "t": "مقرّرات فنون متقدّمة"
+    },
+    {
+      "text": "seats in the Fine Arts Center auditorium, dedicated 2022",
+      "of": "fc9abdd8",
+      "at": [
+        "charlotte-catholic:ladder.stats[3].label"
+      ],
+      "t": "مقاعد في قاعة Fine Arts Center، افتُتحت في 2022"
+    },
+    {
+      "text": "Art I → Art II → Art III → Honors Art IV, with Honors Portfolio Prep alongside",
+      "of": "e4976355",
+      "at": [
+        "charlotte-catholic:ladder.divisions[0].items[0]"
+      ],
+      "t": "Art I ← Art II ← Art III ← Honors Art IV، مع Honors Portfolio Prep إلى جانبها"
+    },
+    {
+      "text": "AP Studio Art — the department’s single AP course",
+      "of": "bca773c8",
+      "at": [
+        "charlotte-catholic:ladder.divisions[0].items[1]"
+      ],
+      "t": "AP Studio Art — حصّة AP الوحيدة في القسم"
+    },
+    {
+      "text": "Ceramics I and Ceramics II",
+      "of": "b71ad2b7",
+      "at": [
+        "charlotte-catholic:ladder.divisions[0].items[2]"
+      ],
+      "t": "Ceramics I وCeramics II"
+    },
+    {
+      "text": "Introduction to Photography → Photography II → Photography III",
+      "of": "a0d2c832",
+      "at": [
+        "charlotte-catholic:ladder.divisions[0].items[3]"
+      ],
+      "t": "Introduction to Photography ← Photography II ← Photography III"
+    },
+    {
+      "text": "Digital Art and Graphic Design; Digital Art, Graphics, and Anime",
+      "of": "515886e9",
+      "at": [
+        "charlotte-catholic:ladder.divisions[0].items[4]"
+      ],
+      "t": "Digital Art and Graphic Design؛ وDigital Art, Graphics, and Anime"
+    },
+    {
+      "text": "Freshman Men’s Chorus and Freshman Women’s Chorus — a dedicated entry rung",
+      "of": "077bb548",
+      "at": [
+        "charlotte-catholic:ladder.divisions[1].items[0]"
+      ],
+      "t": "Freshman Men’s Chorus وFreshman Women’s Chorus — درجة دخول مخصَّصة"
+    },
+    {
+      "text": "Choral Ensemble",
+      "of": "daa32d7d",
+      "at": [
+        "charlotte-catholic:ladder.divisions[1].items[1]"
+      ],
+      "t": "Choral Ensemble"
+    },
+    {
+      "text": "Women’s Chamber Ensemble and Honors Women’s Chamber Ensemble",
+      "of": "e9d3eb53",
+      "at": [
+        "charlotte-catholic:ladder.divisions[1].items[2]"
+      ],
+      "t": "Women’s Chamber Ensemble وHonors Women’s Chamber Ensemble"
+    },
+    {
+      "text": "Men’s Chamber Ensemble and Honors Men’s Chamber Ensemble",
+      "of": "78990c9f",
+      "at": [
+        "charlotte-catholic:ladder.divisions[1].items[3]"
+      ],
+      "t": "Men’s Chamber Ensemble وHonors Men’s Chamber Ensemble"
+    },
+    {
+      "text": "Honors Concert Choir — the co-ed terminal ensemble",
+      "of": "692e3dd5",
+      "at": [
+        "charlotte-catholic:ladder.divisions[1].items[4]"
+      ],
+      "t": "Honors Concert Choir — الفريق الختامي المختلط"
+    },
+    {
+      "text": "Concert Band → Honors Wind Ensemble",
+      "of": "0b4649b6",
+      "at": [
+        "charlotte-catholic:ladder.divisions[2].items[0]"
+      ],
+      "t": "Concert Band ← Honors Wind Ensemble"
+    },
+    {
+      "text": "Percussion → Honors Percussion",
+      "of": "473006e0",
+      "at": [
+        "charlotte-catholic:ladder.divisions[2].items[1]"
+      ],
+      "t": "Percussion ← Honors Percussion"
+    },
+    {
+      "text": "Introduction to Guitar → Guitar II",
+      "of": "e3b8eabe",
+      "at": [
+        "charlotte-catholic:ladder.divisions[2].items[2]"
+      ],
+      "t": "Introduction to Guitar ← Guitar II"
+    },
+    {
+      "text": "Marching Band, and Jazz Band as an after-school ensemble",
+      "of": "777b488b",
+      "at": [
+        "charlotte-catholic:ladder.divisions[2].items[3]"
+      ],
+      "t": "Marching Band، وJazz Band بوصفها فرقة بعد الدوام"
+    },
+    {
+      "text": "Acting → Honors Acting",
+      "of": "3ebb88b8",
+      "at": [
+        "charlotte-catholic:ladder.divisions[3].items[0]"
+      ],
+      "t": "Acting ← Honors Acting"
+    },
+    {
+      "text": "Theatre: Design and Tech → Honors Theatre: Design and Tech",
+      "of": "caa8fa70",
+      "at": [
+        "charlotte-catholic:ladder.divisions[3].items[1]"
+      ],
+      "t": "Theatre: Design and Tech ← Honors Theatre: Design and Tech"
+    },
+    {
+      "text": "Costume Design and Production → Honors Costume Design and Production",
+      "of": "6da2d042",
+      "at": [
+        "charlotte-catholic:ladder.divisions[3].items[2]"
+      ],
+      "t": "Costume Design and Production ← Honors Costume Design and Production"
+    },
+    {
+      "text": "On The Stage: Acting, Directing, Movie Making",
+      "of": "b4ceba77",
+      "at": [
+        "charlotte-catholic:ladder.divisions[3].items[3]"
+      ],
+      "t": "On The Stage: Acting, Directing, Movie Making"
+    },
+    {
+      "text": "Behind the Scenes: Set Design and Construction",
+      "of": "5cdb675f",
+      "at": [
+        "charlotte-catholic:ladder.divisions[3].items[4]"
+      ],
+      "t": "Behind the Scenes: Set Design and Construction"
+    },
+    {
+      "text": "Honors TV, Film, and Production",
+      "of": "b52fefb0",
+      "at": [
+        "charlotte-catholic:ladder.divisions[3].items[5]"
+      ],
+      "t": "Honors TV, Film, and Production"
+    },
+    {
+      "text": "Dance I → Dance II → Honors Dance III",
+      "of": "c6fff855",
+      "at": [
+        "charlotte-catholic:ladder.divisions[4].items[0]"
+      ],
+      "t": "Dance I ← Dance II ← Honors Dance III"
+    },
+    {
+      "text": "Beyond the timetable",
+      "of": "f6cb035e",
+      "at": [
+        "charlotte-catholic:ladder.enrichmentTitle",
+        "gaston-day:ladder.enrichmentTitle"
+      ],
+      "t": "خارج الجدول الدراسي"
+    },
+    {
+      "text": "Charlotte Symphony partnership",
+      "of": "982ab7a8",
+      "at": [
+        "charlotte-catholic:ladder.enrichment[0].label"
+      ],
+      "t": "شراكة Charlotte Symphony"
+    },
+    {
+      "text": "Symphony orchestra members provide sectionals and private lessons to CCHS students.",
+      "of": "b1718a8d",
+      "at": [
+        "charlotte-catholic:ladder.enrichment[0].text"
+      ],
+      "t": "يقدّم أعضاء الأوركسترا السيمفونية تدريبات جماعية للأقسام الآلية ودروسًا خاصة لطلاب CCHS."
+    },
+    {
+      "text": "Three Fine Arts Festivals a year",
+      "of": "e6db3274",
+      "at": [
+        "charlotte-catholic:ladder.enrichment[1].label"
+      ],
+      "t": "ثلاثة مهرجانات للفنون الجميلة في السنة"
+    },
+    {
+      "text": "Plus the annual school musical — the department’s published performance rhythm.",
+      "of": "c5378d8a",
+      "at": [
+        "charlotte-catholic:ladder.enrichment[1].text"
+      ],
+      "t": "إضافةً إلى المسرحية الغنائية المدرسية السنوية — إيقاع الأداء المنشور للقسم."
+    },
+    {
+      "text": "Dublin, every four years",
+      "of": "fa7f38ec",
+      "at": [
+        "charlotte-catholic:ladder.enrichment[2].label"
+      ],
+      "t": "دبلن، كل أربع سنوات"
+    },
+    {
+      "text": "The band performs quadrennially in the St. Patrick’s Day Parade in Dublin, Ireland.",
+      "of": "d2070fe8",
+      "at": [
+        "charlotte-catholic:ladder.enrichment[2].text"
+      ],
+      "t": "تؤدّي الفرقة الموسيقية كل أربع سنوات في موكب St. Patrick’s Day في دبلن بأيرلندا."
+    },
+    {
+      "text": "National performance",
+      "of": "c448ead5",
+      "at": [
+        "charlotte-catholic:ladder.enrichment[3].label"
+      ],
+      "t": "أداء وطني"
+    },
+    {
+      "text": "The band and choral programmes have performed in New York and Chicago.",
+      "of": "5f7eae0f",
+      "at": [
+        "charlotte-catholic:ladder.enrichment[3].text"
+      ],
+      "t": "أدّى برنامجا الفرقة الموسيقية والكورال في نيويورك وشيكاغو."
+    },
+    {
+      "text": "Diocesan touring",
+      "of": "7cfae379",
+      "at": [
+        "charlotte-catholic:ladder.enrichment[4].label"
+      ],
+      "t": "جولات على مستوى الأبرشية"
+    },
+    {
+      "text": "The choral programme tours and undertakes service projects across the Diocese of Charlotte.",
+      "of": "106f1e4d",
+      "at": [
+        "charlotte-catholic:ladder.enrichment[4].text"
+      ],
+      "t": "يقوم برنامج الكورال بجولات ومشاريع خدمة في أنحاء أبرشية شارلوت."
+    },
+    {
+      "text": "Scholastic Art Awards",
+      "of": "bbe1b633",
+      "at": [
+        "charlotte-catholic:ladder.enrichment[5].label"
+      ],
+      "t": "Scholastic Art Awards"
+    },
+    {
+      "text": "Students submit to the Charlotte-Mecklenburg Scholastic Art Awards, earning Gold, Silver and Honorable Mention.",
+      "of": "9259a251",
+      "at": [
+        "charlotte-catholic:ladder.enrichment[5].text"
+      ],
+      "t": "يقدّم الطلاب أعمالهم إلى Charlotte-Mecklenburg Scholastic Art Awards، فيحصدون الذهبية والفضية والتنويه بالتقدير."
+    },
+    {
+      "text": "Five Blumey finalists in 2025, five more nominations in 2026 — and no win yet.",
+      "of": "7c9d1095",
+      "at": [
+        "charlotte-catholic:theatre.headline"
+      ],
+      "t": "خمسة متأهّلين نهائيين في Blumey في 2025، وخمسة ترشيحات أخرى في 2026 — ولا فوز بعد."
+    },
+    {
+      "text": "Fiddler on the Roof placed a finalist in every one of the five individual performance categories, which is a rare sweep of nominations for one production.",
+      "of": "f727b088",
+      "at": [
+        "charlotte-catholic:theatre.subhead"
+      ],
+      "t": "حلّ Fiddler on the Roof متأهّلًا نهائيًّا في كل فئة من فئات الأداء الفردي الخمس، وهو اكتساح نادر للترشيحات لإنتاج واحد."
+    },
+    {
+      "text": "The documented production season",
+      "of": "cd46c3c0",
+      "at": [
+        "charlotte-catholic:theatre.seasonTitle"
+      ],
+      "t": "موسم الإنتاج الموثَّق"
+    },
+    {
+      "text": "2024–25",
+      "of": "96952863",
+      "at": [
+        "charlotte-catholic:theatre.season[0].season"
+      ],
+      "t": "2024–25"
+    },
+    {
+      "text": "Fiddler on the Roof — five Blumey finalists, one in each individual performance category",
+      "of": "59143597",
+      "at": [
+        "charlotte-catholic:theatre.season[0].detail"
+      ],
+      "t": "Fiddler on the Roof — خمسة متأهّلين نهائيين في Blumey، واحد في كل فئة أداء فردي"
+    },
+    {
+      "text": "2025–26",
+      "of": "f54f7583",
+      "at": [
+        "charlotte-catholic:theatre.season[1].season"
+      ],
+      "t": "2025–26"
+    },
+    {
+      "text": "The Wizard of Oz — four Blumey nominees and one finalist",
+      "of": "77d80270",
+      "at": [
+        "charlotte-catholic:theatre.season[1].detail"
+      ],
+      "t": "The Wizard of Oz — أربعة مرشَّحين لـ Blumey ومتأهّل نهائي واحد"
+    },
+    {
+      "text": "Marcus Riter has led theatre at CCHS for twelve years. The programme runs acting, directing, design and tech, costume and film as separate course strands, each with an Honors rung.",
+      "of": "e4563344",
+      "at": [
+        "charlotte-catholic:theatre.whoRunsIt"
+      ],
+      "t": "يقود Marcus Riter المسرح في CCHS منذ اثنتي عشرة سنة. ويقدّم البرنامج التمثيل والإخراج والتصميم والتقنية والأزياء والسينما بوصفها مسارات مقرّرات منفصلة، لكلٍّ منها درجة Honors."
+    },
+    {
+      "text": "Performances are staged in the MACS Fine Arts Center’s 650-seat auditorium, dedicated in 2022 and shared across all Mecklenburg Area Catholic Schools.",
+      "of": "953e164f",
+      "at": [
+        "charlotte-catholic:theatre.venueNote"
+      ],
+      "t": "تُقدَّم العروض في قاعة MACS Fine Arts Center ذات الـ 650 مقعدًا، التي افتُتحت في 2022 وتتشاركها كل Mecklenburg Area Catholic Schools."
+    },
+    {
+      "text": "Blumey Awards ledger",
+      "of": "ee521bd0",
+      "at": [
+        "charlotte-catholic:theatre.ledgerTitle"
+      ],
+      "t": "سجلّ Blumey Awards"
+    },
+    {
+      "text": "Finalist, Best Actor — Brenden Ortiz as Motel",
+      "of": "a16377b1",
+      "at": [
+        "charlotte-catholic:theatre.ledger[0].result"
+      ],
+      "t": "متأهّل نهائي، Best Actor — Brenden Ortiz بدور Motel"
+    },
+    {
+      "text": "Finalist, Best Actress — Maye Glessner as Hodel",
+      "of": "dbadbb55",
+      "at": [
+        "charlotte-catholic:theatre.ledger[1].result"
+      ],
+      "t": "متأهّلة نهائية، Best Actress — Maye Glessner بدور Hodel"
+    },
+    {
+      "text": "Finalist, Best Supporting Actor — Jon Pacheco as Perchik",
+      "of": "ff943dc1",
+      "at": [
+        "charlotte-catholic:theatre.ledger[2].result"
+      ],
+      "t": "متأهّل نهائي، Best Supporting Actor — Jon Pacheco بدور Perchik"
+    },
+    {
+      "text": "Finalist, Best Supporting Actress — Anna Wall as Tzeitel",
+      "of": "4153930a",
+      "at": [
+        "charlotte-catholic:theatre.ledger[3].result"
+      ],
+      "t": "متأهّلة نهائية، Best Supporting Actress — Anna Wall بدور Tzeitel"
+    },
+    {
+      "text": "Finalist, Best Featured Performer — Connor Nichols as Rabbi",
+      "of": "4029045a",
+      "at": [
+        "charlotte-catholic:theatre.ledger[4].result"
+      ],
+      "t": "متأهّل نهائي، Best Featured Performer — Connor Nichols بدور Rabbi"
+    },
+    {
+      "text": "Nominee, Best Actor — Aaron Quintero as Scarecrow",
+      "of": "133e7986",
+      "at": [
+        "charlotte-catholic:theatre.ledger[5].result"
+      ],
+      "t": "مرشَّح، Best Actor — Aaron Quintero بدور Scarecrow"
+    },
+    {
+      "text": "Nominee, Best Actress — Maye Glessner as Dorothy",
+      "of": "af6532a1",
+      "at": [
+        "charlotte-catholic:theatre.ledger[6].result"
+      ],
+      "t": "مرشَّحة، Best Actress — Maye Glessner بدور Dorothy"
+    },
+    {
+      "text": "Nominee, Best Supporting Actor — Jack Gordon as Uncle Henry / Guard",
+      "of": "f21fcb6f",
+      "at": [
+        "charlotte-catholic:theatre.ledger[7].result"
+      ],
+      "t": "مرشَّح، Best Supporting Actor — Jack Gordon بدور Uncle Henry / Guard"
+    },
+    {
+      "text": "Nominee, Best Supporting Actress — Amelia Quintero as Glinda",
+      "of": "2dc18669",
+      "at": [
+        "charlotte-catholic:theatre.ledger[8].result"
+      ],
+      "t": "مرشَّحة، Best Supporting Actress — Amelia Quintero بدور Glinda"
+    },
+    {
+      "text": "Finalist, Best Featured Performer — Olivia Overhalser as Toto Puppeteer",
+      "of": "7358157e",
+      "at": [
+        "charlotte-catholic:theatre.ledger[9].result"
+      ],
+      "t": "متأهّلة نهائية، Best Featured Performer — Olivia Overhalser بدور Toto Puppeteer"
+    },
+    {
+      "text": "CCHS has NOT won a Blumey in either year — verified against Blumenthal’s own 2026 winners release, where the five individual performance awards went to North Lincoln, Carmel Christian, Northwest School of the Arts and Weddington. Recognition here is consistent and deep rather than victorious: ten placements across two years, with Maye Glessner recognised in both (Hodel in 2025, Dorothy in 2026). Note also that the school’s own performances calendar publishes nothing — the two productions above are reconstructed from Blumey records, so the real season may well be larger than the school lets a family see.",
+      "of": "fe250a5b",
+      "at": [
+        "charlotte-catholic:theatre.honestContext"
+      ],
+      "t": "لم تفز CCHS بجائزة Blumey في أيٍّ من السنتين — وقد تحقّقنا من ذلك مقابل بيان الفائزين الرسمي من Blumenthal لعام 2026، حيث ذهبت جوائز الأداء الفردي الخمس إلى North Lincoln وCarmel Christian وNorthwest School of the Arts وWeddington. والتقدير هنا ثابت وعميق أكثر منه ظافرًا: عشرة مراكز عبر سنتين، مع تكريم Maye Glessner في كلتيهما (Hodel في 2025، وDorothy في 2026). ولاحظ أيضًا أن تقويم العروض الخاص بالمدرسة لا ينشر شيئًا — فالإنتاجان أعلاه أُعيد بناؤهما من سجلّات Blumey، ومن ثمّ فقد يكون الموسم الفعلي أكبر ممّا تتيح المدرسة لأسرة أن تراه."
+    },
+    {
+      "text": "Twelve named ensembles, and an Honors rung on almost every one.",
+      "of": "ceba9954",
+      "at": [
+        "charlotte-catholic:music.headline"
+      ],
+      "t": "اثنتا عشرة فرقة مُسمّاة، ودرجة Honors في كلٍّ منها تقريبًا."
+    },
+    {
+      "text": "The choral programme alone runs a freshman entry point, single-sex chamber ensembles at two levels, and a co-ed Honors Concert Choir at the top.",
+      "of": "2cdc51dd",
+      "at": [
+        "charlotte-catholic:music.subhead"
+      ],
+      "t": "يقدّم برنامج الكورال وحده نقطة دخول لطلاب السنة الأولى، وفرق حجرة أحادية الجنس على مستويين، وHonors Concert Choir مختلطًا في القمّة."
+    },
+    {
+      "text": "The ensemble board",
+      "of": "f7da1e67",
+      "at": [
+        "charlotte-catholic:music.boardTitle"
+      ],
+      "t": "لوحة الفرق"
+    },
+    {
+      "text": "Choral",
+      "of": "22900d0e",
+      "at": [
+        "charlotte-catholic:music.tracks[0].label",
+        "covenant-day:music.tracks[0].label"
+      ],
+      "t": "الجوقات"
+    },
+    {
+      "text": "Band & percussion",
+      "of": "bd4e7fa5",
+      "at": [
+        "charlotte-catholic:music.tracks[1].label"
+      ],
+      "t": "الفرقة الموسيقية والإيقاع"
+    },
+    {
+      "text": "After school",
+      "of": "203b34ff",
+      "at": [
+        "charlotte-catholic:music.tracks[2].label"
+      ],
+      "t": "بعد الدوام"
+    },
+    {
+      "text": "Guitar",
+      "of": "f53c5c2f",
+      "at": [
+        "charlotte-catholic:music.tracks[3].label"
+      ],
+      "t": "الغيتار"
+    },
+    {
+      "text": "Twelve ensembles carry course codes; Marching Band and Jazz Band operate alongside them, Jazz Band as an after-school group rather than a timetabled course.",
+      "of": "f0d77e51",
+      "at": [
+        "charlotte-catholic:music.boardNote"
+      ],
+      "t": "تحمل اثنتا عشرة فرقة رموز مقرّرات؛ ويعمل Marching Band وJazz Band إلى جانبها، وJazz Band مجموعة بعد الدوام لا حصّة مجدولة."
+    },
+    {
+      "text": "The honors pipeline",
+      "of": "f311f111",
+      "at": [
+        "charlotte-catholic:music.ladderTitle"
+      ],
+      "t": "مسار Honors"
+    },
+    {
+      "text": "Entry",
+      "of": "9cbfed33",
+      "at": [
+        "charlotte-catholic:music.ladder[0].label"
+      ],
+      "t": "الدخول"
+    },
+    {
+      "text": "Freshman Men’s or Women’s Chorus (301, 302) — a dedicated ninth-grade rung most schools do not staff separately.",
+      "of": "165e78bb",
+      "at": [
+        "charlotte-catholic:music.ladder[0].text"
+      ],
+      "t": "Freshman Men’s أو Women’s Chorus (301، 302) — درجة مخصَّصة للصفّ التاسع لا توفّر لها معظم المدارس طاقمًا منفصلًا."
+    },
+    {
+      "text": "Development",
+      "of": "a2381c8a",
+      "at": [
+        "charlotte-catholic:music.ladder[1].label"
+      ],
+      "t": "التطوير"
+    },
+    {
+      "text": "Choral Ensemble (332), Concert Band (326), Percussion (372) — the open-enrolment middle of the programme.",
+      "of": "d7018cc2",
+      "at": [
+        "charlotte-catholic:music.ladder[1].text"
+      ],
+      "t": "Choral Ensemble (332) وConcert Band (326) وPercussion (372) — وسط البرنامج المفتوح للتسجيل."
+    },
+    {
+      "text": "Selective",
+      "of": "a723fc11",
+      "at": [
+        "charlotte-catholic:music.ladder[2].label"
+      ],
+      "t": "الانتقائي"
+    },
+    {
+      "text": "Women’s and Men’s Chamber Ensembles (304, 303) — auditioned single-sex groups.",
+      "of": "3486fe49",
+      "at": [
+        "charlotte-catholic:music.ladder[2].text"
+      ],
+      "t": "Women’s وMen’s Chamber Ensembles (304، 303) — مجموعات أحادية الجنس بالاختبار."
+    },
+    {
+      "text": "Honors",
+      "of": "c7d97254",
+      "at": [
+        "charlotte-catholic:music.ladder[3].label"
+      ],
+      "t": "Honors"
+    },
+    {
+      "text": "Honors Chamber Ensembles (392, 357), Honors Wind Ensemble (394), Honors Percussion (373) — each carrying the extra quality point.",
+      "of": "2789c325",
+      "at": [
+        "charlotte-catholic:music.ladder[3].text"
+      ],
+      "t": "Honors Chamber Ensembles (392، 357) وHonors Wind Ensemble (394) وHonors Percussion (373) — تحمل كلٌّ منها نقطة الجودة الإضافية."
+    },
+    {
+      "text": "Terminal",
+      "of": "93c562d1",
+      "at": [
+        "charlotte-catholic:music.ladder[4].label"
+      ],
+      "t": "الختامي"
+    },
+    {
+      "text": "Honors Concert Choir (361) — the co-ed top of the choral ladder.",
+      "of": "b447ec91",
+      "at": [
+        "charlotte-catholic:music.ladder[4].text"
+      ],
+      "t": "Honors Concert Choir (361) — قمّة سُلّم الكورال المختلطة."
+    },
+    {
+      "text": "Every Honors ensemble carries the same +1 quality point as an Honors academic course, so a serious musician’s weighted GPA is not penalised for spending four years in the music wing. There is no AP Music Theory at CCHS — the Honors rungs are the ceiling.",
+      "of": "36e50f2e",
+      "at": [
+        "charlotte-catholic:music.ladderNote"
+      ],
+      "t": "تحمل كل فرقة Honors نقطة الجودة نفسها +1 التي تحملها حصّة Honors الأكاديمية، فلا يُعاقَب معدّل GPA الموزون لموسيقيّ جادّ لقضائه أربع سنوات في جناح الموسيقى. ولا يوجد AP Music Theory في CCHS — فدرجات Honors هي السقف."
+    },
+    {
+      "text": "A darkroom, a ceramics studio and a broadcast studio — nine named spaces in one building.",
+      "of": "aad024d9",
+      "at": [
+        "charlotte-catholic:visual.headline"
+      ],
+      "t": "غرفة تحميض واستوديو خزف واستوديو بثّ — تسعة فضاءات مُسمّاة في مبنى واحد."
+    },
+    {
+      "text": "Film photography is still taught with a working darkroom alongside the digital lab.",
+      "of": "f591a186",
+      "at": [
+        "charlotte-catholic:visual.subhead"
+      ],
+      "t": "لا يزال التصوير الفيلمي يُدرَّس بغرفة تحميض عاملة إلى جانب المختبر الرقمي."
+    },
+    {
+      "text": "What students actually work in",
+      "of": "ab1858da",
+      "at": [
+        "charlotte-catholic:visual.mediaTitle",
+        "gaston-day:visual.mediaTitle"
+      ],
+      "t": "ما يعمل فيه الطلاب فعليًّا"
+    },
+    {
+      "text": "the Art I–IV spine",
+      "of": "7872a473",
+      "at": [
+        "charlotte-catholic:visual.media[0].detail"
+      ],
+      "t": "العمود الفقري Art I–IV"
+    },
+    {
+      "text": "two-course sequence in a dedicated studio",
+      "of": "9501eab7",
+      "at": [
+        "charlotte-catholic:visual.media[1].detail"
+      ],
+      "t": "تسلسل من حصّتين في استوديو مخصَّص"
+    },
+    {
+      "text": "shot, developed and printed in the school’s darkroom",
+      "of": "7158517b",
+      "at": [
+        "charlotte-catholic:visual.media[2].detail"
+      ],
+      "t": "تُلتقَط وتُحمَّض وتُطبَع في غرفة التحميض بالمدرسة"
+    },
+    {
+      "text": "in the photography and digital labs",
+      "of": "312b5489",
+      "at": [
+        "charlotte-catholic:visual.media[3].detail"
+      ],
+      "t": "في مختبرَي التصوير والرقميات"
+    },
+    {
+      "text": "Digital Art and Graphic Design",
+      "of": "ae2647f7",
+      "at": [
+        "charlotte-catholic:visual.media[4].detail"
+      ],
+      "t": "Digital Art and Graphic Design"
+    },
+    {
+      "text": "Digital Art, Graphics, and Anime",
+      "of": "3c252624",
+      "at": [
+        "charlotte-catholic:visual.media[5].detail"
+      ],
+      "t": "Digital Art, Graphics, and Anime"
+    },
+    {
+      "text": "Honors TV, Film, and Production, in the broadcast studio",
+      "of": "25407ea7",
+      "at": [
+        "charlotte-catholic:visual.media[6].detail"
+      ],
+      "t": "Honors TV, Film, and Production، في استوديو البثّ"
+    },
+    {
+      "text": "through the studio-art sequence",
+      "of": "d4d0b96e",
+      "at": [
+        "charlotte-catholic:visual.media[7].detail"
+      ],
+      "t": "عبر تسلسل studio art"
+    },
+    {
+      "text": "Honors Portfolio Prep (364) runs alongside the upper rungs for students building an application portfolio. AP Studio Art is the department’s ONLY AP course — there is no AP Art History and no AP Music Theory, confirmed by sweeping all 195 courses in the curriculum guide.",
+      "of": "368f8399",
+      "at": [
+        "charlotte-catholic:visual.pathNote"
+      ],
+      "t": "يُقدَّم Honors Portfolio Prep (364) إلى جانب الدرجات العليا للطلاب الذين يبنون ملفّ أعمال للتقديم. وAP Studio Art هي حصّة AP الوحيدة في القسم — فلا يوجد AP Art History ولا AP Music Theory، وهو ما تأكّد بمسح المقرّرات الـ 195 كلها في دليل المنهج."
+    },
+    {
+      "text": "Where the work goes public",
+      "of": "9f7b6307",
+      "at": [
+        "charlotte-catholic:visual.exhibitsTitle"
+      ],
+      "t": "أين يخرج العمل إلى الجمهور"
+    },
+    {
+      "text": "Three times a year",
+      "of": "62fa75d7",
+      "at": [
+        "charlotte-catholic:visual.exhibits[0].when"
+      ],
+      "t": "ثلاث مرّات في السنة"
+    },
+    {
+      "text": "the department’s own showcase cycle",
+      "of": "72604c79",
+      "at": [
+        "charlotte-catholic:visual.exhibits[0].detail"
+      ],
+      "t": "دورة العرض الخاصة بالقسم"
+    },
+    {
+      "text": "Annual",
+      "of": "f65af38a",
+      "at": [
+        "charlotte-catholic:visual.exhibits[1].when",
+        "charlotte-catholic:visual.exhibits[2].when",
+        "charlotte-country-day:visual.exhibits[0].when",
+        "cannon:visual.exhibits[2].when",
+        "carmel-christian:visual.exhibits[0].when",
+        "gaston-day:visual.exhibits[0].when",
+        "gaston-day:visual.exhibits[1].when"
+      ],
+      "t": "سنوي"
+    },
+    {
+      "text": "Gold, Silver and Honorable Mention",
+      "of": "755b9355",
+      "at": [
+        "charlotte-catholic:visual.exhibits[1].detail"
+      ],
+      "t": "الذهبية والفضية والتنويه بالتقدير"
+    },
+    {
+      "text": "staged in the 650-seat Fine Arts Center auditorium",
+      "of": "9002be92",
+      "at": [
+        "charlotte-catholic:visual.exhibits[2].detail"
+      ],
+      "t": "تُقدَّم في قاعة Fine Arts Center ذات الـ 650 مقعدًا"
+    },
+    {
+      "text": "Ongoing",
+      "of": "680df662",
+      "at": [
+        "charlotte-catholic:visual.exhibits[3].when",
+        "davidson-day:visual.exhibits[1].when"
+      ],
+      "t": "مستمرّ"
+    },
+    {
+      "text": "exhibits alongside performances in the 2022 building",
+      "of": "12d1325e",
+      "at": [
+        "charlotte-catholic:visual.exhibits[3].detail"
+      ],
+      "t": "معارض إلى جانب العروض في مبنى 2022"
+    },
+    {
+      "text": "Faculty: Melissa Parks (visual art and AP Studio Art), Barry Johnson (photography and graphic design), Jacob Bohan (band), Marcus Riter (theatre, twelve years), Tara Ryan (dance), Christopher Jones (guitar). The nine named Fine Arts Center spaces are the 650-seat auditorium, two art studios, the band room, the broadcast studio, the ceramics studio, the dance studio, the darkroom and the photography/digital lab. The centre serves all MACS schools, not CCHS alone, so availability is shared.",
+      "of": "c9d4e107",
+      "at": [
+        "charlotte-catholic:visual.footnote"
+      ],
+      "t": "هيئة التدريس: Melissa Parks (الفن البصري وAP Studio Art)، وBarry Johnson (التصوير والتصميم الجرافيكي)، وJacob Bohan (الفرقة الموسيقية)، وMarcus Riter (المسرح، اثنتا عشرة سنة)، وTara Ryan (الرقص)، وChristopher Jones (الغيتار). والفضاءات التسعة المُسمّاة في Fine Arts Center هي القاعة ذات الـ 650 مقعدًا، واستوديوا فنّ، وغرفة الفرقة الموسيقية، واستوديو البثّ، واستوديو الخزف، واستوديو الرقص، وغرفة التحميض، ومختبر التصوير/الرقميات. ويخدم المركز كل مدارس MACS لا CCHS وحدها، لذا فإتاحته مشتركة."
+    },
+    {
+      "text": "A genuinely large arts department that under-publishes itself.",
+      "of": "f4f43825",
+      "at": [
+        "charlotte-catholic:verdict.headline"
+      ],
+      "t": "قسم فنون كبير حقًّا لكنه ينشر عن نفسه أقلّ ممّا يستحقّ."
+    },
+    {
+      "text": "The course catalog and the Blumey record both say more than the school’s own website does.",
+      "of": "cd91d40a",
+      "at": [
+        "charlotte-catholic:verdict.subhead"
+      ],
+      "t": "يقول كلٌّ من كتالوج المقرّرات وسجلّ Blumey أكثر ممّا يقوله موقع المدرسة نفسه."
+    },
+    {
+      "text": "It is the biggest department in the school",
+      "of": "2129c968",
+      "at": [
+        "charlotte-catholic:verdict.holdsUp[0].label"
+      ],
+      "t": "إنه أكبر قسم في المدرسة"
+    },
+    {
+      "text": "**39 of 195 courses** — more than English, Science or Mathematics. That is a staffing commitment, not a brochure claim.",
+      "of": "11d0e4bb",
+      "at": [
+        "charlotte-catholic:verdict.holdsUp[0].text"
+      ],
+      "t": "**39 من 195 حصّة** — أكثر من English أو Science أو Mathematics. وهذا التزام في التوظيف، لا ادّعاء في كتيّب دعائي."
+    },
+    {
+      "text": "The honors ladder is real",
+      "of": "4fe9dcd3",
+      "at": [
+        "charlotte-catholic:verdict.holdsUp[1].label"
+      ],
+      "t": "سُلّم Honors حقيقي"
+    },
+    {
+      "text": "**Twelve Honors arts courses**, each carrying the same **+1 quality point** as an Honors academic course, so four years in the music wing does not cost a student GPA.",
+      "of": "b8673576",
+      "at": [
+        "charlotte-catholic:verdict.holdsUp[1].text"
+      ],
+      "t": "**اثنتا عشرة حصّة فنون Honors**، تحمل كلٌّ منها **نقطة الجودة +1** نفسها التي تحملها حصّة Honors الأكاديمية، فلا تكلّف أربع سنوات في جناح الموسيقى الطالبَ شيئًا من معدّله."
+    },
+    {
+      "text": "Recognition is consistent",
+      "of": "57ab1768",
+      "at": [
+        "charlotte-catholic:verdict.holdsUp[2].label"
+      ],
+      "t": "التقدير ثابت"
+    },
+    {
+      "text": "**Five Blumey finalists in 2025** — one in every individual performance category — and **five more placements in 2026**. Deep and repeated, across two different shows.",
+      "of": "3fa33ed5",
+      "at": [
+        "charlotte-catholic:verdict.holdsUp[2].text"
+      ],
+      "t": "**خمسة متأهّلين نهائيين في Blumey في 2025** — واحد في كل فئة أداء فردي — و**خمسة مراكز أخرى في 2026**. عميق ومتكرّر، عبر عرضين مختلفين."
+    },
+    {
+      "text": "The facility is purpose-built and recent",
+      "of": "2278c83c",
+      "at": [
+        "charlotte-catholic:verdict.holdsUp[3].label"
+      ],
+      "t": "المرفق مبنيّ لهذا الغرض وحديث"
+    },
+    {
+      "text": "A **650-seat auditorium dedicated in 2022**, with a darkroom, ceramics studio, broadcast studio and dance studio among **nine named spaces**.",
+      "of": "e4afe7ce",
+      "at": [
+        "charlotte-catholic:verdict.holdsUp[3].text"
+      ],
+      "t": "**قاعة بـ 650 مقعدًا افتُتحت في 2022**، مع غرفة تحميض واستوديو خزف واستوديو بثّ واستوديو رقص ضمن **تسعة فضاءات مُسمّاة**."
+    },
+    {
+      "text": "Outside expertise is wired in",
+      "of": "46f2f3ed",
+      "at": [
+        "charlotte-catholic:verdict.holdsUp[4].label"
+      ],
+      "t": "الخبرة الخارجية مُدمَجة في البرنامج"
+    },
+    {
+      "text": "A **Charlotte Symphony partnership** supplying sectionals and private lessons, and a band that performs **quadrennially in Dublin**.",
+      "of": "509598a2",
+      "at": [
+        "charlotte-catholic:verdict.holdsUp[4].text"
+      ],
+      "t": "**شراكة مع Charlotte Symphony** توفّر تدريبات جماعية للأقسام الآلية ودروسًا خاصة، وفرقة موسيقية تؤدّي **كل أربع سنوات في دبلن**."
+    },
+    {
+      "text": "Be clear about the AP ceiling",
+      "of": "ab456dcb",
+      "at": [
+        "charlotte-catholic:verdict.holdsUp[5].label"
+      ],
+      "t": "كن واضحًا بشأن سقف AP"
+    },
+    {
+      "text": "**AP Studio Art is the only AP arts course.** No AP Music Theory, no AP Art History — the Honors rungs are the top of the ladder here.",
+      "of": "600784cc",
+      "at": [
+        "charlotte-catholic:verdict.holdsUp[5].text"
+      ],
+      "t": "**AP Studio Art هي حصّة الفنون الوحيدة من نوع AP.** فلا AP Music Theory ولا AP Art History — ودرجات Honors هي أعلى السُّلّم هنا."
+    },
+    {
+      "text": "The performances calendar shows \"No showings\" — where do families actually find the season, and can we see this year’s?",
+      "of": "6e080e7a",
+      "at": [
+        "charlotte-catholic:verdict.ask[0]"
+      ],
+      "t": "يعرض تقويم العروض \"No showings\" — فأين تجد الأسر الموسم فعليًّا، وهل يمكننا الاطّلاع على موسم هذه السنة؟"
+    },
+    {
+      "text": "Twelve ensembles is a lot for 1,171 students: which are auditioned, and what proportion of applicants get in?",
+      "of": "018169d5",
+      "at": [
+        "charlotte-catholic:verdict.ask[1]"
+      ],
+      "t": "اثنتا عشرة فرقة عدد كبير لـ 1,171 طالبًا: فأيّها بالاختبار، وما نسبة المتقدّمين الذين يُقبَلون؟"
+    },
+    {
+      "text": "The Fine Arts Center serves all MACS schools — how often does that limit CCHS rehearsal or performance time?",
+      "of": "b05baf19",
+      "at": [
+        "charlotte-catholic:verdict.ask[2]"
+      ],
+      "t": "يخدم Fine Arts Center كل مدارس MACS — فكم مرّة يحدّ ذلك من وقت التدريب أو الأداء لدى CCHS؟"
+    },
+    {
+      "text": "Honors ensembles carry a quality point. Is there any cap on how many arts Honors courses count toward the weighted GPA?",
+      "of": "f0a05cab",
+      "at": [
+        "charlotte-catholic:verdict.ask[3]"
+      ],
+      "t": "تحمل فرق Honors نقطة جودة. فهل هناك حدّ أقصى لعدد حصص الفنون من نوع Honors التي تُحتسب في معدّل GPA الموزون؟"
+    },
+    {
+      "text": "Five Blumey finalists in 2025 and no win — what does the theatre programme think is the gap?",
+      "of": "a439a605",
+      "at": [
+        "charlotte-catholic:verdict.ask[4]"
+      ],
+      "t": "خمسة متأهّلين نهائيين في Blumey في 2025 ولا فوز — فما الذي يراه برنامج المسرح فجوةً؟"
+    },
+    {
+      "text": "Is the darkroom still in regular use, or is film photography now taught mainly digitally?",
+      "of": "a6d3e22e",
+      "at": [
+        "charlotte-catholic:verdict.ask[5]"
+      ],
+      "t": "هل ما تزال غرفة التحميض مستخدَمة بانتظام، أم أن التصوير الفيلمي يُدرَّس الآن رقميًّا في الأساس؟"
+    },
+    {
+      "text": "When is the next Dublin parade trip, and what does it cost a family?",
+      "of": "359e6c59",
+      "at": [
+        "charlotte-catholic:verdict.ask[6]"
+      ],
+      "t": "متى رحلة الموكب المقبلة إلى دبلن، وكم تكلّف الأسرة؟"
+    },
+    {
+      "text": "AP Studio Art is the only AP. For a student wanting AP Music Theory or AP Art History, what is the alternative — dual enrollment, or nothing?",
+      "of": "e9003201",
+      "at": [
+        "charlotte-catholic:verdict.ask[7]"
+      ],
+      "t": "AP Studio Art هي حصّة AP الوحيدة. فبالنسبة إلى طالب يريد AP Music Theory أو AP Art History، ما البديل — التسجيل المزدوج، أم لا شيء؟"
+    },
+    {
       "text": "A 45,730 sq ft dedicated fine arts center, a separate 400-seat theater, and both AP and IB arts ceilings — an unusual dual framework.",
       "of": "28e468bb",
       "at": [
@@ -3074,18 +4083,6 @@
         "charlotte-country-day:visual.pathNote"
       ],
       "t": "AP Sculpture وAP Music Theory مُسمّيان؛ وحصص فنون IB بما فيها IB Theatre Arts تجري بالتوازي. والعنوانان الدقيقان في الدليل \"AP Studio Art\" و\"IB Visual Arts\" غير منشورين — إذ تقول الصفحات \"حصص فنون AP\" و\"حصص فنون IB\""
-    },
-    {
-      "text": "Annual",
-      "of": "f65af38a",
-      "at": [
-        "charlotte-country-day:visual.exhibits[0].when",
-        "cannon:visual.exhibits[2].when",
-        "carmel-christian:visual.exhibits[0].when",
-        "gaston-day:visual.exhibits[0].when",
-        "gaston-day:visual.exhibits[1].when"
-      ],
-      "t": "سنوي"
     },
     {
       "text": "every student in the school is encouraged to submit work",
@@ -4531,14 +5528,6 @@
       "t": "سجلّ التحكيم في Music in the Parks: تقديرات Superior لجوقة MS ثلاث سنوات متتالية، ومركز ثانٍ لفرقة HS الموسيقية في 2025."
     },
     {
-      "text": "Choral",
-      "of": "22900d0e",
-      "at": [
-        "covenant-day:music.tracks[0].label"
-      ],
-      "t": "الجوقات"
-    },
-    {
       "text": "Instrumental",
       "of": "19bad85d",
       "at": [
@@ -5347,14 +6336,6 @@
         "davidson-day:visual.exhibits[0].detail"
       ],
       "t": "تنتهي Photography I وII كلتاهما بملفّ أعمال نهائي"
-    },
-    {
-      "text": "Ongoing",
-      "of": "680df662",
-      "at": [
-        "davidson-day:visual.exhibits[1].when"
-      ],
-      "t": "مستمرّ"
     },
     {
       "text": "Photography III students build and maintain their own sites — a concrete, checkable output",
@@ -6835,14 +7816,6 @@
       "t": "مواد اختيارية متاخمة للفنون: Music Appreciation وCinema Studies وCreative Writing (H) وYearbook"
     },
     {
-      "text": "Beyond the timetable",
-      "of": "f6cb035e",
-      "at": [
-        "gaston-day:ladder.enrichmentTitle"
-      ],
-      "t": "خارج الجدول الدراسي"
-    },
-    {
       "text": "Private lessons",
       "of": "ffedbb41",
       "at": [
@@ -7177,14 +8150,6 @@
         "gaston-day:visual.subhead"
       ],
       "t": "يُذكَر تطوير ملفّ الأعمال جزءًا من التدريس، وهو الفرق العملي بين مادّة فنية اختيارية ومسار إلى مدرسة فنون — وقائمة القبولات تشهد بذلك."
-    },
-    {
-      "text": "What students actually work in",
-      "of": "ab1858da",
-      "at": [
-        "gaston-day:visual.mediaTitle"
-      ],
-      "t": "ما يعمل فيه الطلاب فعليًّا"
     },
     {
       "text": "Named explicitly in the Upper School visual-arts description",

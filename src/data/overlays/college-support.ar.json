@@ -34,7 +34,8 @@
       "t": "94%",
       "of": "3ac0d9bf",
       "at": [
-        "providence-day:transcript.stats[1].value"
+        "providence-day:transcript.stats[1].value",
+        "charlotte-catholic:transcript.stats[2].value"
       ]
     },
     {
@@ -134,6 +135,7 @@
         "providence-day:transcript.depth[0].label",
         "charlotte-latin:transcript.depth[0].label",
         "charlotte-christian:transcript.depth[0].label",
+        "charlotte-catholic:transcript.depth[0].label",
         "charlotte-country-day:transcript.depth[0].label",
         "cannon:transcript.depth[0].label",
         "davidson-day:transcript.depth[0].label",
@@ -189,6 +191,7 @@
       "of": "35e9a35d",
       "at": [
         "providence-day:transcript.depth[3].label",
+        "charlotte-catholic:transcript.depth[1].label",
         "gaston-day:transcript.depth[1].label"
       ]
     },
@@ -556,6 +559,7 @@
         "providence-day:counseling.timeline[3].intensity",
         "charlotte-latin:counseling.timeline[3].intensity",
         "charlotte-christian:counseling.timeline[3].intensity",
+        "charlotte-catholic:counseling.timeline[2].intensity",
         "charlotte-country-day:counseling.timeline[3].intensity",
         "cannon:counseling.timeline[2].intensity",
         "gaston-day:counseling.timeline[4].intensity"
@@ -783,6 +787,7 @@
         "providence-day:outcomes.buckets[0].tier",
         "charlotte-latin:outcomes.buckets[0].tier",
         "charlotte-christian:outcomes.buckets[0].tier",
+        "charlotte-catholic:outcomes.buckets[0].tier",
         "charlotte-country-day:outcomes.buckets[0].tier",
         "cannon:outcomes.buckets[0].tier",
         "covenant-day:outcomes.buckets[0].tier",
@@ -829,6 +834,7 @@
         "providence-day:outcomes.buckets[2].tier",
         "charlotte-latin:outcomes.buckets[2].tier",
         "charlotte-christian:outcomes.buckets[2].tier",
+        "charlotte-catholic:outcomes.buckets[2].tier",
         "charlotte-country-day:outcomes.buckets[2].tier",
         "cannon:outcomes.buckets[2].tier",
         "covenant-day:outcomes.buckets[2].tier",
@@ -868,6 +874,7 @@
         "providence-day:outcomes.buckets[4].tier",
         "charlotte-latin:outcomes.buckets[4].tier",
         "charlotte-christian:outcomes.buckets[4].tier",
+        "charlotte-catholic:outcomes.buckets[4].tier",
         "charlotte-country-day:outcomes.buckets[4].tier",
         "cannon:outcomes.buckets[4].tier",
         "covenant-day:outcomes.buckets[4].tier",
@@ -891,6 +898,7 @@
         "providence-day:outcomes.buckets[5].tier",
         "charlotte-latin:outcomes.buckets[5].tier",
         "charlotte-christian:outcomes.buckets[5].tier",
+        "charlotte-catholic:outcomes.buckets[5].tier",
         "charlotte-country-day:outcomes.buckets[5].tier",
         "cannon:outcomes.buckets[5].tier",
         "covenant-day:outcomes.buckets[5].tier",
@@ -1019,6 +1027,7 @@
         "providence-day:edge.levers[0].title",
         "charlotte-latin:edge.levers[0].title",
         "charlotte-christian:edge.levers[0].title",
+        "charlotte-catholic:edge.levers[0].title",
         "charlotte-country-day:edge.levers[0].title",
         "cannon:edge.levers[0].title",
         "davidson-day:edge.levers[0].title",
@@ -1067,6 +1076,7 @@
         "providence-day:edge.levers[1].title",
         "charlotte-latin:edge.levers[1].title",
         "charlotte-christian:edge.levers[1].title",
+        "charlotte-catholic:edge.levers[1].title",
         "charlotte-country-day:edge.levers[1].title",
         "cannon:edge.levers[1].title",
         "davidson-day:edge.levers[1].title",
@@ -1138,6 +1148,7 @@
       "at": [
         "providence-day:wholeClass.scoreTables[0].rows[0].label",
         "charlotte-christian:wholeClass.scoreTables[0].rows[0].label",
+        "charlotte-catholic:wholeClass.scoreTables[0].rows[0].label",
         "charlotte-country-day:wholeClass.scoreTables[0].rows[0].label",
         "cannon:wholeClass.scoreTables[0].rows[0].label"
       ]
@@ -1187,6 +1198,7 @@
       "at": [
         "providence-day:wholeClass.scoreTables[1].rows[0].label",
         "charlotte-christian:wholeClass.scoreTables[1].rows[0].label",
+        "charlotte-catholic:wholeClass.scoreTables[0].rows[1].label",
         "charlotte-country-day:wholeClass.scoreTables[1].rows[0].label",
         "cannon:wholeClass.scoreTables[1].rows[0].label"
       ]
@@ -1590,7 +1602,8 @@
       "t": "23",
       "of": "8ef29b12",
       "at": [
-        "charlotte-latin:transcript.stats[0].value"
+        "charlotte-latin:transcript.stats[0].value",
+        "charlotte-catholic:transcript.stats[1].value"
       ]
     },
     {
@@ -2936,6 +2949,7 @@
       "of": "08aab9fc",
       "at": [
         "charlotte-christian:counseling.roster[2].role",
+        "charlotte-catholic:counseling.roster[6].role",
         "davidson-day:counseling.roster[2].role"
       ]
     },
@@ -3667,6 +3681,1420 @@
       "of": "cbefe47b",
       "at": [
         "charlotte-christian:verdict.checklist[7]"
+      ]
+    },
+    {
+      "t": "كشف درجات موزون فقط، ولا ترتيب للصفّ، وبرنامج AP لا يكون فيه الاختبار اختياريًّا.",
+      "of": "e4ac1d86",
+      "at": [
+        "charlotte-catholic:transcript.headline"
+      ]
+    },
+    {
+      "t": "تضيف CCHS نقطة جودة واحدة لـ AP وHonors ولا تعرض إلا معدّل GPA الموزون — فالرقم الذي تقرأه الجامعة هو أصلًا الرقم المعدَّل من المدرسة.",
+      "of": "c9a9b609",
+      "at": [
+        "charlotte-catholic:transcript.subhead"
+      ]
+    },
+    {
+      "t": "1,064",
+      "of": "b48e43e2",
+      "at": [
+        "charlotte-catholic:transcript.stats[0].value"
+      ]
+    },
+    {
+      "t": "اختبارات AP المؤدّاة، 2024-25 (345 طالبًا، الصفّان 11–12)",
+      "of": "258374c4",
+      "at": [
+        "charlotte-catholic:transcript.stats[0].label"
+      ]
+    },
+    {
+      "t": "مواد AP المُختبَرة",
+      "of": "81a1c702",
+      "at": [
+        "charlotte-catholic:transcript.stats[1].label"
+      ]
+    },
+    {
+      "t": "من درجات AP كانت 3 أو أعلى",
+      "of": "f7596160",
+      "at": [
+        "charlotte-catholic:transcript.stats[2].label"
+      ]
+    },
+    {
+      "t": "72%",
+      "of": "09c2c10b",
+      "at": [
+        "charlotte-catholic:transcript.stats[3].value"
+      ]
+    },
+    {
+      "t": "من درجات AP كانت 4 أو 5",
+      "of": "a9b17491",
+      "at": [
+        "charlotte-catholic:transcript.stats[3].label"
+      ]
+    },
+    {
+      "t": "تقدير National Merit والأكاديميات العسكرية",
+      "of": "5514378c",
+      "at": [
+        "charlotte-catholic:transcript.meritTitle"
+      ]
+    },
+    {
+      "t": "متأهّلان اثنان لنهائي National Merit · 11 طالبًا مُنوَّهًا بهم",
+      "of": "f8de759a",
+      "at": [
+        "charlotte-catholic:transcript.merit[0].detail"
+      ]
+    },
+    {
+      "t": "3 تعيينات في US Naval Academy",
+      "of": "c29c8896",
+      "at": [
+        "charlotte-catholic:transcript.merit[1].detail",
+        "charlotte-catholic:outcomes.scholarships[3]"
+      ]
+    },
+    {
+      "t": "منحة Army ROTC في Cornell University",
+      "of": "9465449e",
+      "at": [
+        "charlotte-catholic:transcript.merit[2].detail",
+        "charlotte-catholic:outcomes.scholarships[4]"
+      ]
+    },
+    {
+      "t": "ينشر الملفّ أعداد المتأهّلين للنهائي والمُنوَّه بهم لكن دون سطر للمتأهّلين لنصف النهائي ودون سلسلة متعدّدة السنوات — فهذا السجلّ دفعة واحدة لا اتجاه عام.",
+      "of": "53132a19",
+      "at": [
+        "charlotte-catholic:transcript.meritNote"
+      ]
+    },
+    {
+      "t": "أين يمتدّ مسار المقرّرات إلى ما بعد التسلسل المعتاد",
+      "of": "0ef2cd78",
+      "at": [
+        "charlotte-catholic:transcript.depthTitle"
+      ]
+    },
+    {
+      "t": "تقع Honors Calculus وAP Calculus AB وAP Calculus BC وAP Statistics فوق Honors Pre-Calculus — أي أربعة خيارات بعد Pre-Calc.",
+      "of": "2558f927",
+      "at": [
+        "charlotte-catholic:transcript.depth[0].text"
+      ]
+    },
+    {
+      "t": "AP Biology وAP Chemistry وAP Environmental Science وAP Physics 1 وAP Physics C: Mechanics، إضافةً إلى Honors Anatomy and Physiology وHonors Nutritional Science وBiotechnology وForensic Science وSports Medicine.",
+      "of": "1e89d2c4",
+      "at": [
+        "charlotte-catholic:transcript.depth[1].text"
+      ]
+    },
+    {
+      "t": "علوم الحاسوب والهندسة",
+      "of": "06ed98d8",
+      "at": [
+        "charlotte-catholic:transcript.depth[2].label"
+      ]
+    },
+    {
+      "t": "AP Computer Science A وAP Cybersecurity Kickstart، فوق مسار هندسي من أربع حصص ينتهي بـ Honors Engineering Capstone.",
+      "of": "9a8ce8a7",
+      "at": [
+        "charlotte-catholic:transcript.depth[2].text"
+      ]
+    },
+    {
+      "t": "الدراسات الاجتماعية",
+      "of": "f59e79d3",
+      "at": [
+        "charlotte-catholic:transcript.depth[3].label"
+      ]
+    },
+    {
+      "t": "AP US History وAP European History وAP Psychology وAP US Government وAP Microeconomics — خمسة خيارات AP في قسم واحد.",
+      "of": "a63ebf60",
+      "at": [
+        "charlotte-catholic:transcript.depth[3].text"
+      ]
+    },
+    {
+      "t": "اللغات العالمية",
+      "of": "9bf7ece4",
+      "at": [
+        "charlotte-catholic:transcript.depth[4].label"
+      ]
+    },
+    {
+      "t": "تمتدّ French وGerman وLatin وSpanish كلٌّ منها حتى حصّة AP؛ وتستمرّ Spanish حتى AP Spanish VI، وهي حصّة من المستوى السادس.",
+      "of": "89de040b",
+      "at": [
+        "charlotte-catholic:transcript.depth[4].text"
+      ]
+    },
+    {
+      "t": "المسار الكلاسيكي",
+      "of": "c302e1f8",
+      "at": [
+        "charlotte-catholic:transcript.depth[5].label"
+      ]
+    },
+    {
+      "t": "يضيف St. Augustine Scholars Program، الجديد بدفعة من الصفّ التاسع في 2025-26، مسارًا كلاسيكيًّا مدّته أربع سنوات — الفلسفة والمنطق واللاتينية والنصوص الأصلية والحلقات السقراطية.",
+      "of": "3559d91a",
+      "at": [
+        "charlotte-catholic:transcript.depth[5].text"
+      ]
+    },
+    {
+      "t": "كيف صُمّمت الدرجة لتُقرَأ",
+      "of": "a65729c5",
+      "at": [
+        "charlotte-catholic:transcript.trustTitle",
+        "gaston-day:transcript.trustTitle"
+      ]
+    },
+    {
+      "t": "موزون فقط",
+      "of": "4dcc1b22",
+      "at": [
+        "charlotte-catholic:transcript.trust[0].label"
+      ]
+    },
+    {
+      "t": "نقطة جودة إضافية واحدة لحصص AP وHonors. ولا يظهر في كشف الدرجات إلا معدّل GPA الموزون — فليس هناك رقم غير موزون يُقارَن به.",
+      "of": "4bf351b5",
+      "at": [
+        "charlotte-catholic:transcript.trust[0].text"
+      ]
+    },
+    {
+      "t": "لا ترتيب للصفّ",
+      "of": "71b29dfc",
+      "at": [
+        "charlotte-catholic:transcript.trust[1].label"
+      ]
+    },
+    {
+      "t": "يذكر الملفّ صراحةً أن \"Charlotte Catholic لا ترتّب طلابها\". ويُنشَر بدلًا من ذلك مخطّط GPA من عشرة أعشار، فيمكن لجامعة أن تحدّد موقع الطالب دون ترتيب.",
+      "of": "e6d68c0d",
+      "at": [
+        "charlotte-catholic:transcript.trust[1].text"
+      ]
+    },
+    {
+      "t": "أعراف الحمل الدراسي مذكورة",
+      "of": "7f39a449",
+      "at": [
+        "charlotte-catholic:transcript.trust[2].label"
+      ]
+    },
+    {
+      "t": "تعرّف المدرسة \"الأكثر تطلّبًا\" بأنه حصّتا AP في السنة الثالثة إضافةً إلى 4 في السنة الرابعة — فيُخبَر القارئ بالسقف بدلًا من أن يُترَك ليخمّنه.",
+      "of": "22c9122a",
+      "at": [
+        "charlotte-catholic:transcript.trust[2].text"
+      ]
+    },
+    {
+      "t": "الدخول إلى AP تنافسي",
+      "of": "065e14a7",
+      "at": [
+        "charlotte-catholic:transcript.trust[3].label"
+      ]
+    },
+    {
+      "t": "يتقدّم الطلاب بطلب لكل حصّة AP؛ ويوازن التوزيع بين المقرّرات والدرجات السابقة ونتائج PSAT وملاحظات المعلّمين. فالتسجيل في AP هنا ليس مفتوحًا.",
+      "of": "da26d8e9",
+      "at": [
+        "charlotte-catholic:transcript.trust[3].text"
+      ]
+    },
+    {
+      "t": "Honors مُقنَّنة مبكّرًا",
+      "of": "1440ba05",
+      "at": [
+        "charlotte-catholic:transcript.trust[4].label"
+      ]
+    },
+    {
+      "t": "بحدّ أقصى حصّة honors واحدة في الصفّ التاسع و5 في العاشر، وبما لا يتجاوز 3 حصص متقدّمة في التاسع — فكشف درجات الصفوف الأولى مُقيَّد بالسياسة لا بالطموح.",
+      "of": "6f9b2003",
+      "at": [
+        "charlotte-catholic:transcript.trust[4].text"
+      ]
+    },
+    {
+      "t": "رصيد التحويل مستثنى",
+      "of": "c53d48bf",
+      "at": [
+        "charlotte-catholic:transcript.trust[5].label"
+      ]
+    },
+    {
+      "t": "لا تعكس كشوف الدرجات إلا الحصص المنجَزة في Charlotte Catholic؛ ولا تُضاف كشوف درجات التحويل إلى سجلّ CCHS.",
+      "of": "e147bd9a",
+      "at": [
+        "charlotte-catholic:transcript.trust[5].text"
+      ]
+    },
+    {
+      "t": "لا تُنشَر أعداد فئات AP Scholar. ويقدّم الملفّ بدلًا من ذلك الأداء على مستوى الاختبارات (94% حصلوا على 3 فأعلى عبر 1,064 اختبارًا)، وهو إفصاح أغنى — لكنه يعني تعذّر بناء سجلّ Scholar/Scholar with Distinction الذي تعرضه مدارس أخرى هنا.",
+      "of": "c7fda898",
+      "at": [
+        "charlotte-catholic:transcript.flags[0].text"
+      ]
+    },
+    {
+      "t": "أرقام AP تخصّ 2024-25 بينما أرقام الاختبارات والأعشار تخصّ دفعة 2026. وكلاهما كما نُشِر؛ وبينهما سنة واحدة ولا يُدمَجان في ادّعاء واحد.",
+      "of": "10e66944",
+      "at": [
+        "charlotte-catholic:transcript.flags[1].text"
+      ]
+    },
+    {
+      "t": "ستّة مرشدين ومدير لـ 324 طالبًا في السنة الأخيرة — نحو 54 طالبًا لكلٍّ منهم.",
+      "of": "cd4ba521",
+      "at": [
+        "charlotte-catholic:counseling.headline"
+      ]
+    },
+    {
+      "t": "عبء الحالات محسوب من رقمَي الملفّ نفسه، ولا تنشره المدرسة بوصفه نسبة.",
+      "of": "bea6d7c3",
+      "at": [
+        "charlotte-catholic:counseling.subhead"
+      ]
+    },
+    {
+      "t": "~54",
+      "of": "b38d6d98",
+      "at": [
+        "charlotte-catholic:counseling.stats[0].value"
+      ]
+    },
+    {
+      "t": "طلاب السنة الأخيرة لكل مرشد (324 طالبًا ÷ 6 مرشدين)",
+      "of": "efe46ca6",
+      "at": [
+        "charlotte-catholic:counseling.stats[0].label"
+      ]
+    },
+    {
+      "t": "324",
+      "of": "3d4b676c",
+      "at": [
+        "charlotte-catholic:counseling.stats[1].value"
+      ]
+    },
+    {
+      "t": "طالبًا في السنة الأخيرة في دفعة 2026",
+      "of": "969c737b",
+      "at": [
+        "charlotte-catholic:counseling.stats[1].label",
+        "gaston-day:counseling.stats[2].label"
+      ]
+    },
+    {
+      "t": "~195",
+      "of": "2528dbfa",
+      "at": [
+        "charlotte-catholic:counseling.stats[2].value"
+      ]
+    },
+    {
+      "t": "طلاب لكل مرشد عبر الصفوف 9–12",
+      "of": "03fa6172",
+      "at": [
+        "charlotte-catholic:counseling.stats[2].label"
+      ]
+    },
+    {
+      "t": "340 665",
+      "of": "b5b33251",
+      "at": [
+        "charlotte-catholic:counseling.stats[3].value"
+      ]
+    },
+    {
+      "t": "رمز CEEB",
+      "of": "8b28714f",
+      "at": [
+        "charlotte-catholic:counseling.stats[3].label",
+        "hickory-grove-christian:transcript.stats[3].label"
+      ]
+    },
+    {
+      "t": "مديرة خدمات الإرشاد",
+      "of": "fea07ca9",
+      "at": [
+        "charlotte-catholic:counseling.roster[0].role"
+      ]
+    },
+    {
+      "t": "sesovchen@charlottecatholic.org",
+      "of": "b3073910",
+      "at": [
+        "charlotte-catholic:counseling.roster[0].detail"
+      ]
+    },
+    {
+      "t": "مرشد",
+      "of": "be7455dd",
+      "at": [
+        "charlotte-catholic:counseling.roster[1].role",
+        "charlotte-catholic:counseling.roster[2].role",
+        "charlotte-catholic:counseling.roster[3].role",
+        "charlotte-catholic:counseling.roster[4].role",
+        "charlotte-catholic:counseling.roster[5].role",
+        "covenant-day:counseling.roster[1].role"
+      ]
+    },
+    {
+      "t": "clparks@charlottecatholic.org",
+      "of": "c4416a58",
+      "at": [
+        "charlotte-catholic:counseling.roster[1].detail"
+      ]
+    },
+    {
+      "t": "meclementi@charlottecatholic.org",
+      "of": "fed6ec31",
+      "at": [
+        "charlotte-catholic:counseling.roster[2].detail"
+      ]
+    },
+    {
+      "t": "smneedham@charlottecatholic.org",
+      "of": "6738e88a",
+      "at": [
+        "charlotte-catholic:counseling.roster[3].detail"
+      ]
+    },
+    {
+      "t": "krfisher@charlottecatholic.org",
+      "of": "12101ea2",
+      "at": [
+        "charlotte-catholic:counseling.roster[4].detail"
+      ]
+    },
+    {
+      "t": "hrnobary@charlottecatholic.org",
+      "of": "86882403",
+      "at": [
+        "charlotte-catholic:counseling.roster[5].detail"
+      ]
+    },
+    {
+      "t": "jmcramer@charlottecatholic.org",
+      "of": "fe8c36cf",
+      "at": [
+        "charlotte-catholic:counseling.roster[6].detail"
+      ]
+    },
+    {
+      "t": "الجدول الزمني الرباعي السنوات الذي ينشره مكتب الإرشاد",
+      "of": "7a9c97da",
+      "at": [
+        "charlotte-catholic:counseling.timelineTitle"
+      ]
+    },
+    {
+      "t": "التأسيس",
+      "of": "d3bd8504",
+      "at": [
+        "charlotte-catholic:counseling.timeline[0].intensity"
+      ]
+    },
+    {
+      "t": "يُحدَّد التوزيع بالمقرّرات السابقة والاختبارات المعيارية وملاحظات المعلّمين لا بطلب الطالب.",
+      "of": "83195120",
+      "at": [
+        "charlotte-catholic:counseling.timeline[0].items[0]"
+      ]
+    },
+    {
+      "t": "الوصول إلى Honors محدود بحصّة واحدة؛ والحصص المتقدّمة بثلاث.",
+      "of": "c144990b",
+      "at": [
+        "charlotte-catholic:counseling.timeline[0].items[1]"
+      ]
+    },
+    {
+      "t": "تُدرَس Philosophy (0.5 رصيد) في السنة الأولى ابتداءً من دفعة 2028.",
+      "of": "9f00a83a",
+      "at": [
+        "charlotte-catholic:counseling.timeline[0].items[2]"
+      ]
+    },
+    {
+      "t": "تبدأ الخدمة فورًا — 10 ساعات مستحقّة، منها 5 على الأقل خدمة رعية، بحلول 1 مارس.",
+      "of": "afa72801",
+      "at": [
+        "charlotte-catholic:counseling.timeline[0].items[3]"
+      ]
+    },
+    {
+      "t": "التركيز: ترسيخ معدّل GPA الموزون الذي سيحدّد مخطّط الأعشار موقعه لاحقًا.",
+      "of": "9432f1e1",
+      "at": [
+        "charlotte-catholic:counseling.timeline[0].note"
+      ]
+    },
+    {
+      "t": "التوسّع",
+      "of": "69bc6e8c",
+      "at": [
+        "charlotte-catholic:counseling.timeline[1].intensity"
+      ]
+    },
+    {
+      "t": "يتّسع الوصول إلى Honors بشكل حادّ — حتى خمس حصص honors.",
+      "of": "9736e4e6",
+      "at": [
+        "charlotte-catholic:counseling.timeline[1].items[0]"
+      ]
+    },
+    {
+      "t": "تبدأ نتائج PSAT في التغذية إلى قرارات التوزيع في AP.",
+      "of": "3b91a2e8",
+      "at": [
+        "charlotte-catholic:counseling.timeline[1].items[1]"
+      ]
+    },
+    {
+      "t": "ترتفع الخدمة إلى 20 ساعة في السنة، وهو المستوى الذي تبقى عليه حتى التخرّج.",
+      "of": "2dec048b",
+      "at": [
+        "charlotte-catholic:counseling.timeline[1].items[2]"
+      ]
+    },
+    {
+      "t": "تُفتَح Journalism وYearbook بوصفهما مادّتين اختياريتين، وهما حصّتا المطبوعات في المدرسة.",
+      "of": "23161b91",
+      "at": [
+        "charlotte-catholic:counseling.timeline[1].items[3]"
+      ]
+    },
+    {
+      "t": "تصبح حصص AP متاحة لأول مرّة؛ ويتقدّم الطلاب بطلب لكل حصّة.",
+      "of": "b042b78e",
+      "at": [
+        "charlotte-catholic:counseling.timeline[2].items[0]"
+      ]
+    },
+    {
+      "t": "حصّتا AP في السنة الثالثة هما المعيار الذي تصفه المدرسة بـ \"الأكثر تطلّبًا\".",
+      "of": "ca6de875",
+      "at": [
+        "charlotte-catholic:counseling.timeline[2].items[1]"
+      ]
+    },
+    {
+      "t": "اختبارات AP إلزامية في كل حصّة AP يدرسها الطالب.",
+      "of": "1b64e7d6",
+      "at": [
+        "charlotte-catholic:counseling.timeline[2].items[2]"
+      ]
+    },
+    {
+      "t": "يزور ممثّلو القبول الجامعي الحرم — وتُدرِج NC State مدرسة CCHS بوصفها موقع استقطاب مذكورًا بالاسم.",
+      "of": "9591ca1f",
+      "at": [
+        "charlotte-catholic:counseling.timeline[2].items[3]"
+      ]
+    },
+    {
+      "t": "الطلب",
+      "of": "22af01e5",
+      "at": [
+        "charlotte-catholic:counseling.timeline[3].intensity",
+        "carmel-christian:counseling.mechanics[3]"
+      ]
+    },
+    {
+      "t": "أربع حصص AP في السنة الرابعة تُكمِل الحمل \"الأكثر تطلّبًا\".",
+      "of": "592065bb",
+      "at": [
+        "charlotte-catholic:counseling.timeline[3].items[0]"
+      ]
+    },
+    {
+      "t": "ينشر مكتب الإرشاد أسئلة مقالات Common Application ويدعم الطلاب في الكتابة استنادًا إليها.",
+      "of": "a29ed415",
+      "at": [
+        "charlotte-catholic:counseling.timeline[3].items[1]"
+      ]
+    },
+    {
+      "t": "تحمل كشوف الدرجات معدّل GPA الموزون دون ترتيب؛ ويرافق مخطّط الأعشار الملفَّ.",
+      "of": "e9b0bae2",
+      "at": [
+        "charlotte-catholic:counseling.timeline[3].items[2]"
+      ]
+    },
+    {
+      "t": "ساعات الخدمة الأخيرة مستحقّة في 1 مارس، مُكمِلةً شرط التخرّج البالغ 70 ساعة.",
+      "of": "99346f4b",
+      "at": [
+        "charlotte-catholic:counseling.timeline[3].items[3]"
+      ]
+    },
+    {
+      "t": "ما يتولّاه المكتب",
+      "of": "b7f34fc5",
+      "at": [
+        "charlotte-catholic:counseling.mechanicsTitle"
+      ]
+    },
+    {
+      "t": "توزيع المقرّرات وتغيير المستويات، ضمن حدود الجدول الرئيسي",
+      "of": "cbd163ab",
+      "at": [
+        "charlotte-catholic:counseling.mechanics[0]"
+      ]
+    },
+    {
+      "t": "طلبات حصص AP وقرار التوزيع التنافسي",
+      "of": "15a7f56c",
+      "at": [
+        "charlotte-catholic:counseling.mechanics[1]"
+      ]
+    },
+    {
+      "t": "ملفّ المدرسة الذي يرافق كل كشف درجات",
+      "of": "89f45f50",
+      "at": [
+        "charlotte-catholic:counseling.mechanics[2]"
+      ]
+    },
+    {
+      "t": "إرشاد طلاب السنة الأخيرة بشأن أسئلة مقالات Common Application",
+      "of": "7cef8d72",
+      "at": [
+        "charlotte-catholic:counseling.mechanics[3]"
+      ]
+    },
+    {
+      "t": "استضافة ممثّلي القبول في الحرم",
+      "of": "fc492a71",
+      "at": [
+        "charlotte-catholic:counseling.mechanics[4]"
+      ]
+    },
+    {
+      "t": "إصدار كشوف الدرجات ووظيفة السجلّات",
+      "of": "07394321",
+      "at": [
+        "charlotte-catholic:counseling.mechanics[5]"
+      ]
+    },
+    {
+      "t": "تفاصيل مسار الجامعة للسنتين الثالثة والرابعة منشورة بوصفها عروض Prezi مُضمَّنة لا HTML، فمن شبه المؤكَّد أن المكتب يدير بنيةً أكبر ممّا تلتقطه هذه القائمة. ولا يُدرَج هنا إلا ما يمكن التحقّق منه في مواد منشورة قابلة للجلب.",
+      "of": "d782139c",
+      "at": [
+        "charlotte-catholic:counseling.mechanicsNote"
+      ]
+    },
+    {
+      "t": "المدى والأدوات",
+      "of": "0012b2ca",
+      "at": [
+        "charlotte-catholic:counseling.reachTitle",
+        "gaston-day:counseling.reachTitle"
+      ]
+    },
+    {
+      "t": "تُدرِج NC State University مدرسة Charlotte Catholic بوصفها موقع زيارة قبول مذكورًا بالاسم.",
+      "of": "d2706b4c",
+      "at": [
+        "charlotte-catholic:counseling.reach[0]"
+      ]
+    },
+    {
+      "t": "التحق خرّيجو دفعة 2025 بـ 169 كلية وجامعة مختلفة على مدى ثلاث سنوات.",
+      "of": "a849751f",
+      "at": [
+        "charlotte-catholic:counseling.reach[1]"
+      ]
+    },
+    {
+      "t": "بقي 38% من دفعة 2025 في نورث كارولاينا؛ والتحق 81% بجامعات حكومية.",
+      "of": "acf0d9aa",
+      "at": [
+        "charlotte-catholic:counseling.reach[2]"
+      ]
+    },
+    {
+      "t": "ثلاثة تعيينات في US Naval Academy في 2025، إضافةً إلى منحة Army ROTC في Cornell.",
+      "of": "24c3ac47",
+      "at": [
+        "charlotte-catholic:counseling.reach[3]"
+      ]
+    },
+    {
+      "t": "نسبة عبء الحالات ~54:1 لطلاب السنة الأخيرة محسوبة من 324 طالبًا في الملفّ ومن مرشديه الستّة المذكورين بالاسم. ولا تنشر المدرسة أي نسبة، وتُحتسَب المديرة هنا ضمن المرشدين.",
+      "of": "ab0e9a6f",
+      "at": [
+        "charlotte-catholic:counseling.flags[0].text"
+      ]
+    },
+    {
+      "t": "تعرض صفحة المرشدين المباشرة قائمة 2026-27، التي تُسقِط Sandy Needham وتضيف Kate McHugh. وتستخدم هذه البطاقة قائمة ملفّ 2025-2026 في كل موضع، حتى يأتي المرشدون الستّة وطلاب السنة الأخيرة الـ 324 من السنة نفسها.",
+      "of": "2ec7bc5f",
+      "at": [
+        "charlotte-catholic:counseling.flags[1].text"
+      ]
+    },
+    {
+      "t": "تُضمِّن صفحتا التخطيط الجامعي للسنتين الثالثة والرابعة عروض Prezi، ومحتواها غير متاح بوصفه نصًّا. ولذلك بُني الجدول الزمني الرباعي أعلاه من السياسات المنشورة، لا من عرض العملية الخاصّ بالمكتب.",
+      "of": "9c090894",
+      "at": [
+        "charlotte-catholic:counseling.flags[2].text"
+      ]
+    },
+    {
+      "t": "حيث استقبلت 169 جامعة خرّيجي CCHS على مدى ثلاث سنوات — و$17,242,184 من المنح لدفعة واحدة.",
+      "of": "4bb13519",
+      "at": [
+        "charlotte-catholic:outcomes.headline"
+      ]
+    },
+    {
+      "t": "هذه قائمة التحاق: أين سجّل الخرّيجون فعليًّا، لا كل مكان قُبِلوا فيه.",
+      "of": "5ef00101",
+      "at": [
+        "charlotte-catholic:outcomes.subhead"
+      ]
+    },
+    {
+      "t": "169",
+      "of": "f42ea265",
+      "at": [
+        "charlotte-catholic:outcomes.stats[0].value"
+      ]
+    },
+    {
+      "t": "مؤسسات التحق بها الخرّيجون، دفعات 2023–2025",
+      "of": "8ee9d658",
+      "at": [
+        "charlotte-catholic:outcomes.stats[0].label"
+      ]
+    },
+    {
+      "t": "95%",
+      "of": "5ec35102",
+      "at": [
+        "charlotte-catholic:outcomes.stats[1].value",
+        "gaston-day:transcript.stats[0].value",
+        "gaston-day:outcomes.stats[0].value"
+      ]
+    },
+    {
+      "t": "من دفعة 2025 انتقلوا مباشرةً إلى الدراسة بعد الثانوية",
+      "of": "ac173c60",
+      "at": [
+        "charlotte-catholic:outcomes.stats[1].label"
+      ]
+    },
+    {
+      "t": "$17,242,184",
+      "of": "09f926f8",
+      "at": [
+        "charlotte-catholic:outcomes.stats[2].value"
+      ]
+    },
+    {
+      "t": "منح حصلت عليها دفعة 2025",
+      "of": "b0340183",
+      "at": [
+        "charlotte-catholic:outcomes.stats[2].label"
+      ]
+    },
+    {
+      "t": "38%",
+      "of": "c2643db1",
+      "at": [
+        "charlotte-catholic:outcomes.stats[3].value"
+      ]
+    },
+    {
+      "t": "من دفعة 2025 بقوا في نورث كارولاينا",
+      "of": "596b039c",
+      "at": [
+        "charlotte-catholic:outcomes.stats[3].label"
+      ]
+    },
+    {
+      "t": "فئات الانتقائية عبر الدفعات الثلاث",
+      "of": "4d3d643d",
+      "at": [
+        "charlotte-catholic:outcomes.bucketsTitle"
+      ]
+    },
+    {
+      "t": "تغيب Brown وColumbia",
+      "of": "2cb7533b",
+      "at": [
+        "charlotte-catholic:outcomes.buckets[0].note"
+      ]
+    },
+    {
+      "t": "Ivy Plus",
+      "of": "919e817b",
+      "at": [
+        "charlotte-catholic:outcomes.buckets[1].tier"
+      ]
+    },
+    {
+      "t": "جامعات Ivy الستّ إضافةً إلى Duke وGeorgetown وNorthwestern",
+      "of": "81cd627c",
+      "at": [
+        "charlotte-catholic:outcomes.buckets[1].note"
+      ]
+    },
+    {
+      "t": "أفضل 75 كلية فنون حرّة",
+      "of": "0258d77e",
+      "at": [
+        "charlotte-catholic:outcomes.buckets[3].tier"
+      ]
+    },
+    {
+      "t": "تشمل الأكاديميات العسكرية الثلاث كلها — Naval #3، وAir Force #5، وWest Point #10",
+      "of": "141cfeb4",
+      "at": [
+        "charlotte-catholic:outcomes.buckets[3].note"
+      ]
+    },
+    {
+      "t": "يحمل 40 صفًّا هذا الوسم؛ وحرما Arizona State كلاهما مؤسسة واحدة",
+      "of": "56fcacc4",
+      "at": [
+        "charlotte-catholic:outcomes.buckets[4].note"
+      ]
+    },
+    {
+      "t": "Hampton University وBenedict College",
+      "of": "556c0e0a",
+      "at": [
+        "charlotte-catholic:outcomes.buckets[5].note"
+      ]
+    },
+    {
+      "t": "تَعُدّ كل فئة هنا حالات الالتحاق، لا حالات القبول. فالطالب يُقبَل في جامعات عدّة ويلتحق بواحدة، ومن ثمّ فإن هذه الأعداد أدنى بنيويًّا من قائمة قائمة على القبول ويجب ألّا تُقرأ بوصفها نتيجة قبول أصعب أو أضعف من مدرسة تنشر حالات القبول.",
+      "of": "689df72c",
+      "at": [
+        "charlotte-catholic:outcomes.bucketsNote"
+      ]
+    },
+    {
+      "t": "كل حالات الالتحاق، 2023–2025",
+      "of": "9a179c63",
+      "at": [
+        "charlotte-catholic:outcomes.collegesTitle"
+      ]
+    },
+    {
+      "t": "169 مؤسسة · لا ينشر الملفّ أعداد الملتحقين بكل مؤسسة",
+      "of": "a77b3f8e",
+      "at": [
+        "charlotte-catholic:outcomes.collegesTotal"
+      ]
+    },
+    {
+      "t": "المنح والتقدير",
+      "of": "753ebcd6",
+      "at": [
+        "charlotte-catholic:outcomes.scholarshipsTitle"
+      ]
+    },
+    {
+      "t": "$17,242,184 — إجمالي دفعة 2025",
+      "of": "e1750e92",
+      "at": [
+        "charlotte-catholic:outcomes.scholarships[0]"
+      ]
+    },
+    {
+      "t": "متأهّلان اثنان لنهائي National Merit (2025)",
+      "of": "6eaf81e9",
+      "at": [
+        "charlotte-catholic:outcomes.scholarships[1]"
+      ]
+    },
+    {
+      "t": "11 طالبًا مُنوَّهًا بهم من National Merit (2025)",
+      "of": "3929d148",
+      "at": [
+        "charlotte-catholic:outcomes.scholarships[2]"
+      ]
+    },
+    {
+      "t": "إجمالي المنح هو الرقم على مستوى الدفعة الذي تنشره المدرسة؛ وهو غير مفصَّل بحسب المؤسسة، ولا بين الاستحقاق والحاجة، ولا لكل طالب.",
+      "of": "2435a83d",
+      "at": [
+        "charlotte-catholic:outcomes.scholarshipsNote"
+      ]
+    },
+    {
+      "t": "عنوان الملفّ نفسه هو \"COLLEGE MATRICULATION CLASSES OF 2023-2025\" — أي حيث التحق الخرّيجون. وتنشر عدّة مدارس في هذه القائمة قوائم قبول بدلًا من ذلك، وهي أطول بكثير بحكم بنائها. ومقارنة الاثنتين مباشرةً تبخس CCHS حقّها.",
+      "of": "d8ebac5b",
+      "at": [
+        "charlotte-catholic:outcomes.caveat"
+      ]
+    },
+    {
+      "t": "لا تُنشَر أعداد الملتحقين بكل مؤسسة، فلا يمكن وسم أي جامعة في هذه القائمة بأنها استقبلت أكثر من خرّيج واحد.",
+      "of": "fc03e1db",
+      "at": [
+        "charlotte-catholic:outcomes.flags[0].text"
+      ]
+    },
+    {
+      "t": "يُحدَّد الانتماء إلى الفئات قياسًا على جدول U.S. News 2026 الرئيسي في التطبيق لا بواسطة المدرسة، التي لا تنشر إلا أسماء المؤسسات.",
+      "of": "f4fb173b",
+      "at": [
+        "charlotte-catholic:outcomes.flags[1].text"
+      ]
+    },
+    {
+      "t": "ما يحرّك طلب CCHS فعليًّا.",
+      "of": "c3b449f4",
+      "at": [
+        "charlotte-catholic:edge.headline"
+      ]
+    },
+    {
+      "t": "رافعة يبنيها الطالب، وأخرى توفّرها المدرسة بكونها برنامج NCHSAA صاحب 74 بطولة داخل منظومة أبرشية.",
+      "of": "4e9212bc",
+      "at": [
+        "charlotte-catholic:edge.subhead"
+      ]
+    },
+    {
+      "t": "ما يتحكّم فيه الطالب",
+      "of": "267b2867",
+      "at": [
+        "charlotte-catholic:edge.levers[0].hint"
+      ]
+    },
+    {
+      "t": "خُذ حمل AP الذي تصفه المدرسة بالأكثر تطلّبًا — حصّتان في السنة الثالثة و4 في السنة الرابعة — واجتَز الطلب التنافسي لكل حصّة.",
+      "of": "049aeaf5",
+      "at": [
+        "charlotte-catholic:edge.levers[0].items[0]"
+      ]
+    },
+    {
+      "t": "أدِّ اختبار AP في كل حصّة AP؛ فهو إلزامي هنا، ومن ثمّ فإن نسبة 94% الحاصلين على 3 فأعلى نتيجة دفعة يُقاس الطالب داخلها ولا ينسحب منها.",
+      "of": "d3539bac",
+      "at": [
+        "charlotte-catholic:edge.levers[0].items[1]"
+      ]
+    },
+    {
+      "t": "تجاوز 70 ساعة خدمة. فالشرط شامل للجميع، ومن ثمّ فإن الساعات نفسها لا تميّز — وإنما تميّز أدوار الرعية والقيادة خلفها.",
+      "of": "f9e3082f",
+      "at": [
+        "charlotte-catholic:edge.levers[0].items[2]"
+      ]
+    },
+    {
+      "t": "استخدم دليل الأندية الـ 76 لبناء العمق لا الاتّساع: فسبع جمعيات تكريم تحمل عتبات GPA منشورة، من NHS عند 3.9 إلى Mu Alpha Theta عند 4.5 في الرياضيات.",
+      "of": "f8e02a97",
+      "at": [
+        "charlotte-catholic:edge.levers[0].items[3]"
+      ]
+    },
+    {
+      "t": "بالنسبة إلى طلب ذي وجهة كلاسيكية أو لاهوتية، فإن St. Augustine Scholars Program عامل تمييز رباعي السنوات لن يحمله كثير من المتقدّمين في أي مكان.",
+      "of": "8dcd7154",
+      "at": [
+        "charlotte-catholic:edge.levers[0].items[4]"
+      ]
+    },
+    {
+      "t": "ما توفّره CCHS",
+      "of": "31357b9d",
+      "at": [
+        "charlotte-catholic:edge.levers[1].hint"
+      ]
+    },
+    {
+      "t": "امتداد الاستقطاب الرياضي حقيقي وغير معتاد: 74 بطولة ولاية منذ 2000، و8 كؤوس Wells Fargo، وأكثر من 1000 خرّيج واصلوا اللعب على مستوى NCAA أو NAIA أو الكليات المتوسطة.",
+      "of": "32895cd1",
+      "at": [
+        "charlotte-catholic:edge.levers[1].items[0]"
+      ]
+    },
+    {
+      "t": "CCHS واحدة من أربع مدارس أبرشية فقط تتنافس في NCHSAA — رابطة المدارس الحكومية — فيُقيَّم رياضيّوها أمام أكبر برامج الولاية لا ضمن فئة المدارس الخاصة.",
+      "of": "d3498cc6",
+      "at": [
+        "charlotte-catholic:edge.levers[1].items[1]"
+      ]
+    },
+    {
+      "t": "يقوم ملفّ المدرسة بالعمل التفسيري نيابةً عن قارئ القبول: مخطّط الأعشار، وأعراف الحمل المذكورة، وسياسة صريحة بعدم الترتيب، ومعيار محدَّد لـ \"الأكثر تطلّبًا\".",
+      "of": "ce521d2a",
+      "at": [
+        "charlotte-catholic:edge.levers[1].items[2]"
+      ]
+    },
+    {
+      "t": "يظهر الحجم الأبرشي في النتائج — ثلاثة تعيينات في Naval Academy في دفعة واحدة، والتحاق بالأكاديميات العسكرية الثلاث كلها.",
+      "of": "f3f78e01",
+      "at": [
+        "charlotte-catholic:edge.levers[1].items[3]"
+      ]
+    },
+    {
+      "t": "يمنح Fine Arts Center ذو الـ 650 مقعدًا الذي افتُتح في 2022، وشراكة Charlotte Symphony، وفرقة موسيقية تؤدّي كل أربع سنوات في دبلن، متقدّمي الفنون منصّةً لملفّ أعمالهم.",
+      "of": "142de12e",
+      "at": [
+        "charlotte-catholic:edge.levers[1].items[4]"
+      ]
+    },
+    {
+      "t": "لا يوجد مخطّط انتشار منشور على غرار Naviance/SCOIR، فلا تستطيع أسرة أن ترى معدّلات القبول بحسب نطاق GPA لهذه المدرسة.",
+      "of": "a8cc761d",
+      "at": [
+        "charlotte-catholic:edge.levers[1].note"
+      ]
+    },
+    {
+      "t": "لا تنشر CCHS أي أداة لنتائج القبول (لا مخطّطات انتشار ولا معدّلات قبول بحسب النطاق)، فلا يمكن الإجابة عن سؤال \"ما المطلوب\" كمّيًّا من مواد المدرسة نفسها.",
+      "of": "fa3ff6f7",
+      "at": [
+        "charlotte-catholic:edge.flags[0].text"
+      ]
+    },
+    {
+      "t": "الدفعة كلها، لا قمّتها وحدها.",
+      "of": "1c346cce",
+      "at": [
+        "charlotte-catholic:wholeClass.headline"
+      ]
+    },
+    {
+      "t": "تنشر CCHS نطاقات الـ50% الوسطى للاختبارات ومخطّط GPA من عشرة أعشار — وهو ما يكفي لتحديد موقع الطالب بصدق، وهي ترفض ترتيب الطلاب.",
+      "of": "e57969d0",
+      "at": [
+        "charlotte-catholic:wholeClass.subhead"
+      ]
+    },
+    {
+      "t": "SAT وACT، نطاقا الـ50% الوسطى",
+      "of": "29617c6d",
+      "at": [
+        "charlotte-catholic:wholeClass.scoreTables[0].title"
+      ]
+    },
+    {
+      "t": "دفعة 2026 · 226 مؤدّيًا لـ SAT · 144 مؤدّيًا لـ ACT",
+      "of": "ee54fb07",
+      "at": [
+        "charlotte-catholic:wholeClass.scoreTables[0].hint"
+      ]
+    },
+    {
+      "t": "تنشر المدرسة نطاق الـ50% الوسطى، لا المئينات ولا المتوسّط. وطرفا نطاق الـ50% الوسطى هما بحكم التعريف المئينان 25 و75، فهذان العمودان حقيقيان؛ أما المئينات 10 و50 و90 والمتوسّط فغير منشورة وتُعرَض بشرطات طويلة بدلًا من نمذجتها. ولا يُنشَر أي تقسيم على مستوى الأقسام (EBRW / Math).",
+      "of": "12b58580",
+      "at": [
+        "charlotte-catholic:wholeClass.scoreTables[0].note"
+      ]
+    },
+    {
+      "t": "توزيع GPA الموزون",
+      "of": "fdd82d64",
+      "at": [
+        "charlotte-catholic:wholeClass.gpaTitle"
+      ]
+    },
+    {
+      "t": "— دفعة 2026 · من مخطّط المدرسة ذي العشرة أعشار · موزون، وCCHS لا ترتّب الطلاب",
+      "of": "e499874a",
+      "at": [
+        "charlotte-catholic:wholeClass.gpaHint"
+      ]
+    },
+    {
+      "t": "الخُمس الأعلى",
+      "of": "8ccab3f5",
+      "at": [
+        "charlotte-catholic:wholeClass.quintiles[0].label"
+      ]
+    },
+    {
+      "t": "العُشران الأول والثاني",
+      "of": "c468ab17",
+      "at": [
+        "charlotte-catholic:wholeClass.quintiles[0].detail"
+      ]
+    },
+    {
+      "t": "Q2",
+      "of": "9cfce14a",
+      "at": [
+        "charlotte-catholic:wholeClass.quintiles[1].label"
+      ]
+    },
+    {
+      "t": "العُشران الثالث والرابع",
+      "of": "903581b4",
+      "at": [
+        "charlotte-catholic:wholeClass.quintiles[1].detail"
+      ]
+    },
+    {
+      "t": "Q3",
+      "of": "9dfce2dd",
+      "at": [
+        "charlotte-catholic:wholeClass.quintiles[2].label"
+      ]
+    },
+    {
+      "t": "العُشران الخامس والسادس",
+      "of": "2cabaed6",
+      "at": [
+        "charlotte-catholic:wholeClass.quintiles[2].detail"
+      ]
+    },
+    {
+      "t": "Q4",
+      "of": "96fcd7d8",
+      "at": [
+        "charlotte-catholic:wholeClass.quintiles[3].label"
+      ]
+    },
+    {
+      "t": "العُشران السابع والثامن",
+      "of": "94f15eda",
+      "at": [
+        "charlotte-catholic:wholeClass.quintiles[3].detail"
+      ]
+    },
+    {
+      "t": "الخُمس الأدنى",
+      "of": "62ac004b",
+      "at": [
+        "charlotte-catholic:wholeClass.quintiles[4].label"
+      ]
+    },
+    {
+      "t": "العُشران التاسع والعاشر",
+      "of": "86d41217",
+      "at": [
+        "charlotte-catholic:wholeClass.quintiles[4].detail"
+      ]
+    },
+    {
+      "t": "تنشر CCHS أعشارًا لا أخماسًا؛ ويجمع كل صفّ أعلاه عُشرين منشورين متجاورين، والنطاقات الأساسية مذكورة في سطر التفصيل فلا يخفي هذا الجمع شيئًا. والأعشار المنشورة هي: الأول 4.38–4.63، والثاني 4.26–4.37، والثالث 4.10–4.25، والرابع 3.96–4.09، والخامس 3.83–3.95، والسادس 3.71–3.82، والسابع 3.56–3.70، والثامن 3.37–3.54، والتاسع 3.16–3.36، والعاشر 2.25–3.14. وكل رقم موزون، بإضافة نقطة جودة واحدة لـ AP وHonors.",
+      "of": "3ad653e8",
+      "at": [
+        "charlotte-catholic:wholeClass.gpaNote"
+      ]
+    },
+    {
+      "t": "الدعم الأكاديمي",
+      "of": "217ce3fd",
+      "at": [
+        "charlotte-catholic:wholeClass.supportTitle"
+      ]
+    },
+    {
+      "t": "Guided Academic Support",
+      "of": "9b78fbb3",
+      "at": [
+        "charlotte-catholic:wholeClass.support[0].label"
+      ]
+    },
+    {
+      "t": "حصّة مجدولة (511) لا خدمة سحب من الصفّ — فالدعم يقع داخل الجدول الدراسي.",
+      "of": "8bd110ef",
+      "at": [
+        "charlotte-catholic:wholeClass.support[0].text"
+      ]
+    },
+    {
+      "t": "Options Program",
+      "of": "87c933d1",
+      "at": [
+        "charlotte-catholic:wholeClass.support[1].label"
+      ]
+    },
+    {
+      "t": "مسار موازٍ كامل — Options English 9–12، وOptions Year 1–4، وOptions PE، وMath Life 1–2، وOptions Personal Finance، وOptions Financial Management: 14 حصّة إجمالًا.",
+      "of": "fd1460c0",
+      "at": [
+        "charlotte-catholic:wholeClass.support[1].text"
+      ]
+    },
+    {
+      "t": "Pathway Program",
+      "of": "8c9998c9",
+      "at": [
+        "charlotte-catholic:wholeClass.support[2].label"
+      ]
+    },
+    {
+      "t": "حصّة مسار متمايزة (507) إلى جانب مسار Options.",
+      "of": "d2ffa010",
+      "at": [
+        "charlotte-catholic:wholeClass.support[2].text"
+      ]
+    },
+    {
+      "t": "Study Hall",
+      "of": "7e263085",
+      "at": [
+        "charlotte-catholic:wholeClass.support[3].label"
+      ]
+    },
+    {
+      "t": "مجدولة (100)، فلا يضطرّ جدول مدعوم إلى التضحية بخانة مادة اختيارية.",
+      "of": "c18615f6",
+      "at": [
+        "charlotte-catholic:wholeClass.support[3].text"
+      ]
+    },
+    {
+      "t": "لا تنشر CCHS أي وثيقة سياسة لفروق التعلّم، ولا أعداد التيسيرات، ولا كوادر الدعم التشخيصي. وحصص Options وPathways ظاهرة في دليل المنهج؛ أما الخدمات خلفها فغير موصوفة علنًا.",
+      "of": "59d252db",
+      "at": [
+        "charlotte-catholic:wholeClass.supportNote"
+      ]
+    },
+    {
+      "t": "النطاق الأوسط منشور",
+      "of": "46fad6ce",
+      "at": [
+        "charlotte-catholic:wholeClass.middle[0].label"
+      ]
+    },
+    {
+      "t": "يمتدّ العُشران الخامس والسادس من 3.83–3.95 ومن 3.71–3.82 — فيمكن لأسرة تحديد موقع الطالب الوسيط، وهو ما كانت مدرسة تنشر المتوسّطات وحدها ستخفيه.",
+      "of": "c85f457f",
+      "at": [
+        "charlotte-catholic:wholeClass.middle[0].text"
+      ]
+    },
+    {
+      "t": "العُشر الأدنى غير مخفيّ",
+      "of": "9ac7f076",
+      "at": [
+        "charlotte-catholic:wholeClass.middle[1].label"
+      ]
+    },
+    {
+      "t": "يُنشَر العُشر العاشر بوصفه 2.25–3.14 بدلًا من بتره، وهو صراحة غير معتادة في ملفّ مدرسة.",
+      "of": "5ba0fbcb",
+      "at": [
+        "charlotte-catholic:wholeClass.middle[1].text"
+      ]
+    },
+    {
+      "t": "95% يواصلون فورًا",
+      "of": "f815cd59",
+      "at": [
+        "charlotte-catholic:wholeClass.middle[2].label"
+      ]
+    },
+    {
+      "t": "من دفعة 2025، انتقل 95% مباشرةً إلى التعليم بعد الثانوي و2% إلى مؤسسات مدّتها سنتان.",
+      "of": "5a83df62",
+      "at": [
+        "charlotte-catholic:wholeClass.middle[2].text"
+      ]
+    },
+    {
+      "t": "ميل نحو الجامعات الحكومية",
+      "of": "1beea95c",
+      "at": [
+        "charlotte-catholic:wholeClass.middle[3].label"
+      ]
+    },
+    {
+      "t": "التحق 81% من دفعة 2025 بجامعات حكومية و19% بجامعات خاصة — وهو نمط نتائج أقرب إلى مدرسة ثانوية حكومية قوية منه إلى مدرسة نهارية مستقلّة.",
+      "of": "64c6a699",
+      "at": [
+        "charlotte-catholic:wholeClass.middle[3].text"
+      ]
+    },
+    {
+      "t": "لا يُنشَر متوسّط ولا وسيط لـ SAT/ACT، فلا يمكن وضع هذه المدرسة في مقارنة قائمة على المتوسّطات مع مدارس تنشر واحدًا. ونطاق الـ50% الوسطى هو المتاح.",
+      "of": "ca438bfd",
+      "at": [
+        "charlotte-catholic:wholeClass.flags[0].text"
+      ]
+    },
+    {
+      "t": "لا يوجد أي إفصاح عن فروق التعلّم أو التيسيرات يتجاوز أسماء الحصص في دليل المنهج.",
+      "of": "223e484f",
+      "at": [
+        "charlotte-catholic:wholeClass.flags[1].text"
+      ]
+    },
+    {
+      "t": "مدرسة ثانوية كاثوليكية كبيرة وشفّافة ومهيمنة رياضيًّا تنشر أكثر من معظم غيرها.",
+      "of": "e636e60f",
+      "at": [
+        "charlotte-catholic:verdict.headline"
+      ]
+    },
+    {
+      "t": "يجيب الملفّ عن الأسئلة التي تطرحها الأسر فعلًا — ويجيب هيكل الرسوم عن سؤال لا تثيره أي مدرسة أخرى في هذه القائمة.",
+      "of": "db842c3a",
+      "at": [
+        "charlotte-catholic:verdict.subhead"
+      ]
+    },
+    {
+      "t": "الإفصاح قوي حقًّا",
+      "of": "a1be4c04",
+      "at": [
+        "charlotte-catholic:verdict.points[0].label"
+      ]
+    },
+    {
+      "t": "**مخطّط GPA من عشرة أعشار يشمل العُشر الأدنى**، وأعراف حمل مذكورة، وسياسة صريحة بعدم الترتيب، وأداء AP على مستوى الاختبارات. ومعظم المدارس تنشر أقلّ من ذلك وتؤطّره على نحو أكثر تملّقًا.",
+      "of": "be923e53",
+      "at": [
+        "charlotte-catholic:verdict.points[0].text"
+      ]
+    },
+    {
+      "t": "لا يمكن تجميل معدّل AP",
+      "of": "a1eca892",
+      "at": [
+        "charlotte-catholic:verdict.points[1].label"
+      ]
+    },
+    {
+      "t": "**94% من الدرجات عند 3 فأعلى** عبر **1,064 اختبارًا** رقمٌ يشمل الدفعة كلها، لأن **الاختبار إلزامي في كل حصّة AP** — فلا يمكن استبعاد المرشّحين الأضعف بهدوء من المقام.",
+      "of": "d650b330",
+      "at": [
+        "charlotte-catholic:verdict.points[1].text"
+      ]
+    },
+    {
+      "t": "اقرأ قائمة الجامعات بوصفها حالات التحاق",
+      "of": "a0270676",
+      "at": [
+        "charlotte-catholic:verdict.points[2].label"
+      ]
+    },
+    {
+      "t": "الـ **169 مؤسسة** هي حيث *التحق* الخرّيجون فعليًّا، وهو مقياس أصغر من قائمة القبول بحكم بنائه. وتبدو CCHS أقوى لا أضعف متى فُهِم ذلك.",
+      "of": "62dd9ccb",
+      "at": [
+        "charlotte-catholic:verdict.points[2].text"
+      ]
+    },
+    {
+      "t": "الرياضة هي العنصر البارز",
+      "of": "af076d03",
+      "at": [
+        "charlotte-catholic:verdict.points[3].label"
+      ]
+    },
+    {
+      "t": "**74 بطولة ولاية** منذ 2000 و**8 كؤوس Wells Fargo**، فُزن داخل **NCHSAA** أمام مدارس حكومية لا ضمن فئة المدارس الخاصة.",
+      "of": "2c2f522e",
+      "at": [
+        "charlotte-catholic:verdict.points[3].text"
+      ]
+    },
+    {
+      "t": "الرسوم تتوقّف على المشاركة في الرعية",
+      "of": "93339144",
+      "at": [
+        "charlotte-catholic:verdict.points[4].label"
+      ]
+    },
+    {
+      "t": "**$15,041** لأسرة كاثوليكية مشارِكة مقابل **$21,562** بالسعر المجتمعي — أي فارق نحو 30% يقوده الانخراط في الرعية لا الحاجة المالية، وهو أكبر متغيّر منفرد في التكلفة هنا.",
+      "of": "23ea91a3",
+      "at": [
+        "charlotte-catholic:verdict.points[4].text"
+      ]
+    },
+    {
+      "t": "الفجوات بنيوية لا ناتجة عن إهمال",
+      "of": "07855402",
+      "at": [
+        "charlotte-catholic:verdict.points[5].label"
+      ]
+    },
+    {
+      "t": "لا أرقام مساعدات لكل مدرسة (تنشر MACS على مستوى الأبرشية فقط)، و**لا Form 990** (فالأبرشية معفاة بوصفها منظّمة دينية)، ولا تاريخ منشور للرسوم.",
+      "of": "7eaae1e0",
+      "at": [
+        "charlotte-catholic:verdict.points[5].text"
+      ]
+    },
+    {
+      "t": "هل نُعَدّ أسرة كاثوليكية مشارِكة لأغراض الرسوم — وما الذي تشترطه الرعية تحديدًا للتأهّل؟",
+      "of": "e35304f2",
+      "at": [
+        "charlotte-catholic:verdict.checklist[0]"
+      ]
+    },
+    {
+      "t": "ما الذي منحه Family Individualized Tuition فعليًّا لأسر مثل أسرتنا العام الماضي؟ فالأبرشية لا تنشر أرقام مساعدات لكل مدرسة.",
+      "of": "f485a021",
+      "at": [
+        "charlotte-catholic:verdict.checklist[1]"
+      ]
+    },
+    {
+      "t": "يريد ابني حصص AP — فما الذي يوازنه طلب كل حصّة، وكم عدد المتقدّمين الذين يُرفَضون؟",
+      "of": "7cf604ea",
+      "at": [
+        "charlotte-catholic:verdict.checklist[2]"
+      ]
+    },
+    {
+      "t": "اختبارات AP إلزامية هنا. فماذا يحدث لطالب يدرس حصّة AP ويؤدّي أداءً ضعيفًا في الاختبار؟",
+      "of": "d804d65b",
+      "at": [
+        "charlotte-catholic:verdict.checklist[3]"
+      ]
+    },
+    {
+      "t": "كيف يوزّع مكتب الإرشاد 324 طالبًا في السنة الأخيرة على ستّة مرشدين — هل يُعيَّن المرشد بحسب الحروف الأبجدية أم بحسب الصفّ أم يرافق الطالب أربع سنوات؟",
+      "of": "a10ec34e",
+      "at": [
+        "charlotte-catholic:verdict.checklist[4]"
+      ]
+    },
+    {
+      "t": "ما الذي يقدّمه Options Program فعليًّا يومًا بيوم، ومن يشكّل كوادر الدعم خلف تلك الحصص؟",
+      "of": "5ccfd764",
+      "at": [
+        "charlotte-catholic:verdict.checklist[5]"
+      ]
+    },
+    {
+      "t": "تؤدّي الفرقة الموسيقية في دبلن كل أربع سنوات — فكم تدفع الأسرة لذلك، ومتى الرحلة المقبلة؟",
+      "of": "0d3739c3",
+      "at": [
+        "charlotte-catholic:verdict.checklist[6]"
+      ]
+    },
+    {
+      "t": "أي الرياضات تقيم يومَي توقيع منفصلين في الخريف والربيع، وأين تُنشَر تلك النتائج؟",
+      "of": "8d9ee596",
+      "at": [
+        "charlotte-catholic:verdict.checklist[7]"
       ]
     },
     {
@@ -6054,13 +7482,6 @@
       ]
     },
     {
-      "t": "مرشد",
-      "of": "be7455dd",
-      "at": [
-        "covenant-day:counseling.roster[1].role"
-      ]
-    },
-    {
       "t": "مرشد توجيهي منذ 2016. بكالوريوس UNC Chapel Hill؛ وماجستير Georgia State؛ ومسجّل سابق في Reformed Theological Seminary.",
       "of": "f22262c9",
       "at": [
@@ -8194,13 +9615,6 @@
       ]
     },
     {
-      "t": "الطلب",
-      "of": "22af01e5",
-      "at": [
-        "carmel-christian:counseling.mechanics[3]"
-      ]
-    },
-    {
       "t": "Counselor LOR",
       "of": "fbced8b8",
       "at": [
@@ -8849,13 +10263,6 @@
       "of": "1f0eb289",
       "at": [
         "hickory-grove-christian:transcript.stats[3].value"
-      ]
-    },
-    {
-      "t": "رمز CEEB",
-      "of": "8b28714f",
-      "at": [
-        "hickory-grove-christian:transcript.stats[3].label"
       ]
     },
     {
@@ -9622,14 +11029,6 @@
       ]
     },
     {
-      "t": "95%",
-      "of": "5ec35102",
-      "at": [
-        "gaston-day:transcript.stats[0].value",
-        "gaston-day:outcomes.stats[0].value"
-      ]
-    },
-    {
       "t": "من طلاب AP حصلوا على 3+ في 2025 — ارتفاعًا من 72% في 2021",
       "of": "1913d89c",
       "at": [
@@ -9763,13 +11162,6 @@
       ]
     },
     {
-      "t": "كيف صُمّمت الدرجة لتُقرَأ",
-      "of": "a65729c5",
-      "at": [
-        "gaston-day:transcript.trustTitle"
-      ]
-    },
-    {
       "t": "مرجَّحة، على مقياس مذكور",
       "of": "f919a96f",
       "at": [
@@ -9865,13 +11257,6 @@
       "of": "8cf05955",
       "at": [
         "gaston-day:counseling.stats[2].value"
-      ]
-    },
-    {
-      "t": "طالبًا في السنة الأخيرة في دفعة 2026",
-      "of": "969c737b",
-      "at": [
-        "gaston-day:counseling.stats[2].label"
       ]
     },
     {
@@ -10083,13 +11468,6 @@
       "of": "95edac62",
       "at": [
         "gaston-day:counseling.mechanicsNote"
-      ]
-    },
-    {
-      "t": "المدى والأدوات",
-      "of": "0012b2ca",
-      "at": [
-        "gaston-day:counseling.reachTitle"
       ]
     },
     {

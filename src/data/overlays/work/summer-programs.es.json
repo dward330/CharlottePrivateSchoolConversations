@@ -38,6 +38,7 @@
         "charlotte-latin:catalog.gradeFilters[0].label",
         "charlotte-christian:catalog.categoryFilters[0].label",
         "charlotte-christian:catalog.gradeFilters[0].label",
+        "charlotte-catholic:catalog.categoryFilters[0].label",
         "charlotte-country-day:catalog.categoryFilters[0].label",
         "charlotte-country-day:catalog.gradeFilters[0].label",
         "cannon:catalog.categoryFilters[0].label",
@@ -178,6 +179,11 @@
         "charlotte-christian:catalog.camps[23].categoryLabel",
         "charlotte-christian:catalog.camps[24].categoryLabel",
         "charlotte-christian:catalog.camps[25].categoryLabel",
+        "charlotte-catholic:catalog.categoryFilters[1].label",
+        "charlotte-catholic:catalog.camps[0].categoryLabel",
+        "charlotte-catholic:catalog.camps[1].categoryLabel",
+        "charlotte-catholic:catalog.camps[2].categoryLabel",
+        "charlotte-catholic:catalog.camps[3].categoryLabel",
         "covenant-day:catalog.categoryFilters[2].label",
         "covenant-day:catalog.camps[3].categoryLabel",
         "covenant-day:catalog.camps[4].categoryLabel",
@@ -6084,6 +6090,200 @@
         "charlotte-christian:costPlanner.flags[1].text"
       ],
       "t": "No se publica **ningún descuento por hermanos ni por varias semanas, ni opción de depósito**. Los campistas sin inscripción previa \"deben inscribirse y pagar los campamentos íntegramente antes de asistir\"."
+    },
+    {
+      "text": "Four sports camps CCHS runs for the surrounding community — for children aged 6 to 13, not for its own high schoolers.",
+      "of": "d33c71e6",
+      "at": [
+        "charlotte-catholic:catalog.headline"
+      ],
+      "t": "Cuatro campamentos deportivos que CCHS organiza para la comunidad del entorno — para niños de 6 a 13 años, no para su propio alumnado de secundaria."
+    },
+    {
+      "text": "Charlotte Catholic is a 9–12 school. Its summer slate is outreach coaching for younger children in the neighbourhood, plus two non-CCHS programmes it points its own students toward.",
+      "of": "1694f806",
+      "at": [
+        "charlotte-catholic:catalog.subhead"
+      ],
+      "t": "Charlotte Catholic es un centro de 9–12. Su oferta de verano es entrenamiento de proyección para niños más pequeños del barrio, además de dos programas ajenos a CCHS hacia los que orienta a su propio alumnado."
+    },
+    {
+      "text": "Every camp below is a half-day athletic camp hosted by a CCHS coaching staff and open to the community. Ages are the campers’ ages, which run well below CCHS’s own 9–12 enrollment. The school runs no academic summer school and no credit recovery — its handbook twice states that a student who fails a course retakes it externally, \"at their expense over the summer\".",
+      "of": "e51d247f",
+      "at": [
+        "charlotte-catholic:catalog.intro"
+      ],
+      "t": "Todos los campamentos de abajo son campamentos deportivos de medio día organizados por el cuerpo técnico de CCHS y abiertos a la comunidad. Las edades son las de los participantes, que quedan bastante por debajo de la matrícula 9–12 del propio CCHS. El centro no ofrece ninguna escuela de verano académica ni recuperación de créditos — su reglamento afirma dos veces que el alumno que suspende una asignatura la repite fuera del centro, “por su cuenta durante el verano”."
+    },
+    {
+      "text": "All ages",
+      "of": "3012c794",
+      "at": [
+        "charlotte-catholic:catalog.gradeFilters[0].label"
+      ],
+      "t": "Todas las edades"
+    },
+    {
+      "text": "Rising 2–5 / ages 6–10",
+      "of": "5070d316",
+      "at": [
+        "charlotte-catholic:catalog.gradeFilters[1].label"
+      ],
+      "t": "Pasan a 2.º–5.º / 6–10 años"
+    },
+    {
+      "text": "Rising 6–9 / ages 11–13",
+      "of": "d3377e0f",
+      "at": [
+        "charlotte-catholic:catalog.gradeFilters[2].label"
+      ],
+      "t": "Pasan a 6.º–9.º / 11–13 años"
+    },
+    {
+      "text": "Girls’ basketball skill development run by the CCHS coaching staff, split into a morning session for younger campers and an afternoon session for older ones.",
+      "of": "9375f718",
+      "at": [
+        "charlotte-catholic:catalog.camps[0].desc"
+      ],
+      "t": "Desarrollo de habilidades de baloncesto femenino a cargo del cuerpo técnico de CCHS, dividido en una sesión de mañana para los participantes más pequeños y otra de tarde para los mayores."
+    },
+    {
+      "text": "Rising grades 2–8",
+      "of": "fb7974d0",
+      "at": [
+        "charlotte-catholic:catalog.camps[0].gradeLabel"
+      ],
+      "t": "Pasan a los grados 2–8"
+    },
+    {
+      "text": "June 8–11",
+      "of": "92569b08",
+      "at": [
+        "charlotte-catholic:catalog.camps[0].dayLabel"
+      ],
+      "t": "8–11 de junio"
+    },
+    {
+      "text": "Rising 2–5: 9:00 AM–12:00 PM · rising 6–8: 1:00 PM–4:00 PM",
+      "of": "94518c1b",
+      "at": [
+        "charlotte-catholic:catalog.camps[0].hours"
+      ],
+      "t": "Pasan a 2.º–5.º: 9:00 AM–12:00 PM · pasan a 6.º–8.º: 1:00 PM–4:00 PM"
+    },
+    {
+      "text": "Multi-session baseball camp with dynamic warm-ups, baserunning, offensive and defensive station work and age-grouped gameplay. Held at Freedom Park (Dilworth LL Ballfields) rather than on the CCHS campus; campers bring their own lunch.",
+      "of": "d0a1583b",
+      "at": [
+        "charlotte-catholic:catalog.camps[1].desc"
+      ],
+      "t": "Campamento de béisbol de varias sesiones con calentamientos dinámicos, corrido de bases, trabajo por estaciones de ataque y defensa y partidos por grupos de edad. Se celebra en Freedom Park (Dilworth LL Ballfields) y no en el campus de CCHS; los participantes llevan su propia comida."
+    },
+    {
+      "text": "Ages 6–13",
+      "of": "8561fb80",
+      "at": [
+        "charlotte-catholic:catalog.camps[1].gradeLabel"
+      ],
+      "t": "6–13 años"
+    },
+    {
+      "text": "June 2–5 · June 9–12 · July 21–24",
+      "of": "89952d2a",
+      "at": [
+        "charlotte-catholic:catalog.camps[1].dayLabel"
+      ],
+      "t": "2–5 de junio · 9–12 de junio · 21–24 de julio"
+    },
+    {
+      "text": "9:00 AM–1:00 PM (check-in 8:45 AM)",
+      "of": "456d28db",
+      "at": [
+        "charlotte-catholic:catalog.camps[1].hours"
+      ],
+      "t": "9:00 AM–1:00 PM (registro a las 8:45 AM)"
+    },
+    {
+      "text": "Youth football fundamentals with the CCHS football staff. The published flyer is a 2024 document that has not been refreshed, so both the price and the dates below are what the school currently publishes rather than a confirmed 2026 slate.",
+      "of": "69bb3862",
+      "at": [
+        "charlotte-catholic:catalog.camps[2].desc"
+      ],
+      "t": "Fundamentos de fútbol americano para jóvenes con el cuerpo técnico de fútbol americano de CCHS. El folleto publicado es un documento de 2024 que no se ha actualizado, así que tanto el precio como las fechas de abajo son los que el centro publica actualmente y no una programación confirmada para 2026."
+    },
+    {
+      "text": "Rising grades 3–9",
+      "of": "8f51d358",
+      "at": [
+        "charlotte-catholic:catalog.camps[2].gradeLabel"
+      ],
+      "t": "Pasan a los grados 3–9"
+    },
+    {
+      "text": "July",
+      "of": "011ca01f",
+      "at": [
+        "charlotte-catholic:catalog.camps[2].dayLabel"
+      ],
+      "t": "Julio"
+    },
+    {
+      "text": "8:30–11:30 AM",
+      "of": "8f891dae",
+      "at": [
+        "charlotte-catholic:catalog.camps[2].hours"
+      ],
+      "t": "8:30–11:30 AM"
+    },
+    {
+      "text": "A soccer camp hosted on the CCHS site. The school lists it without dates, ages, hours or price.",
+      "of": "c88a5c9e",
+      "at": [
+        "charlotte-catholic:catalog.camps[3].desc"
+      ],
+      "t": "Un campamento de fútbol organizado en las instalaciones de CCHS. El centro lo enumera sin fechas, edades, horarios ni precio."
+    },
+    {
+      "text": "Not published",
+      "of": "d945d814",
+      "at": [
+        "charlotte-catholic:catalog.camps[3].gradeLabel",
+        "charlotte-catholic:catalog.camps[3].dayLabel",
+        "charlotte-catholic:catalog.camps[3].hours"
+      ],
+      "t": "No publicado"
+    },
+    {
+      "text": "Three of the four camps publish no price on a school page. Eddie Hull Baseball handles fees entirely through a third-party registration site, and the basketball and soccer camps publish none at all — which is why the Cost Planner card is omitted rather than modeled.",
+      "of": "57ddb105",
+      "at": [
+        "charlotte-catholic:catalog.flags[0].text"
+      ],
+      "t": "Tres de los cuatro campamentos no publican precio en ninguna página del centro. Eddie Hull Baseball gestiona las tarifas íntegramente a través de una web de inscripción externa, y los campamentos de baloncesto y de fútbol no publican ninguna — por eso la ficha de planificación de costes se omite en vez de estimarse."
+    },
+    {
+      "text": "The Cougar Football Camp flyer is a 2024 artifact still linked from the current site; its $160 price and grade range are reproduced as published, not confirmed for 2026.",
+      "of": "34908750",
+      "at": [
+        "charlotte-catholic:catalog.flags[1].text"
+      ],
+      "t": "El folleto del Cougar Football Camp es un documento de 2024 todavía enlazado desde la web actual; su precio de $160 y su franja de grados se reproducen tal como están publicados, sin confirmar para 2026."
+    },
+    {
+      "text": "The baseball camp page lists its sessions under a 2025 heading. The dates are recorded verbatim as published rather than rolled forward, because a re-typed date would assert a schedule the school has not announced.",
+      "of": "947a23f5",
+      "at": [
+        "charlotte-catholic:catalog.flags[2].text"
+      ],
+      "t": "La página del campamento de béisbol enumera sus sesiones bajo un encabezado de 2025. Las fechas se recogen literalmente tal como se publican en lugar de adelantarlas, porque una fecha reescrita afirmaría un calendario que el centro no ha anunciado."
+    },
+    {
+      "text": "There is no wrap-around or full-day care: every camp is a half-day block of three to four hours. The MACS 8am–5pm summer camp is a different school’s programme (St. Matthew and St. Patrick, age 5 to rising 6th) and is not attributed to CCHS.",
+      "of": "e75312f6",
+      "at": [
+        "charlotte-catholic:catalog.flags[3].text"
+      ],
+      "t": "No hay servicio de acogida ampliada ni de jornada completa: cada campamento es un bloque de medio día de tres o cuatro horas. El campamento de verano de MACS de 8am a 5pm es el programa de otro centro (St. Matthew y St. Patrick, de 5 años a quienes pasan a 6.º) y no se atribuye a CCHS."
     },
     {
       "text": "132 priced camps across eight weeks, including a dedicated farm campus tier no other school here offers.",

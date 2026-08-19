@@ -159,6 +159,11 @@
         "providence-day:ladder.divisions[2].grades",
         "charlotte-latin:ladder.divisions[2].grades",
         "charlotte-christian:ladder.divisions[2].grades",
+        "charlotte-catholic:ladder.divisions[0].grades",
+        "charlotte-catholic:ladder.divisions[1].grades",
+        "charlotte-catholic:ladder.divisions[2].grades",
+        "charlotte-catholic:ladder.divisions[3].grades",
+        "charlotte-catholic:ladder.divisions[4].grades",
         "charlotte-country-day:ladder.divisions[2].grades",
         "cannon:ladder.divisions[2].grades",
         "covenant-day:ladder.divisions[2].grades",
@@ -353,6 +358,8 @@
       "of": "346c73d9",
       "at": [
         "providence-day:theatre.season[1].kind",
+        "charlotte-catholic:theatre.season[0].kind",
+        "charlotte-catholic:theatre.season[1].kind",
         "charlotte-country-day:theatre.season[1].kind",
         "gaston-day:theatre.season[1].kind"
       ],
@@ -2491,6 +2498,1008 @@
       "t": "क्या music theory का कोई कोर्स है ही? कोई AP Music Theory नहीं है, जबकि Visual Art दो बार AP तक पहुँचता है।"
     },
     {
+      "text": "The biggest department in the school — 39 courses, one per five in the whole catalog.",
+      "of": "77d614c6",
+      "at": [
+        "charlotte-catholic:ladder.headline"
+      ],
+      "t": "स्कूल का सबसे बड़ा विभाग — 39 कोर्स, यानी पूरी सूची के हर पाँच में से एक।"
+    },
+    {
+      "text": "Arts at CCHS is not an elective afterthought: it carries more courses than English, Science or Mathematics, across five disciplines and a purpose-built centre.",
+      "of": "b2994de0",
+      "at": [
+        "charlotte-catholic:ladder.subhead"
+      ],
+      "t": "CCHS में कला कोई ऐच्छिक पिछड़ी सोच नहीं है: यह English, Science या Mathematics से भी अधिक कोर्स रखती है, जो पाँच विधाओं और एक ख़ास तौर पर बने केंद्र में फैले हैं।"
+    },
+    {
+      "text": "arts courses — the largest department in the curriculum guide",
+      "of": "0299b41f",
+      "at": [
+        "charlotte-catholic:ladder.stats[0].label"
+      ],
+      "t": "कला के कोर्स — पाठ्यक्रम गाइड का सबसे बड़ा विभाग"
+    },
+    {
+      "text": "named performing ensembles",
+      "of": "0d9ed991",
+      "at": [
+        "charlotte-catholic:ladder.stats[1].label"
+      ],
+      "t": "नामित प्रदर्शन ensemble"
+    },
+    {
+      "text": "advanced arts coursework",
+      "of": "f4bb3bed",
+      "at": [
+        "charlotte-catholic:ladder.stats[2].label"
+      ],
+      "t": "कला का उन्नत coursework"
+    },
+    {
+      "text": "seats in the Fine Arts Center auditorium, dedicated 2022",
+      "of": "fc9abdd8",
+      "at": [
+        "charlotte-catholic:ladder.stats[3].label"
+      ],
+      "t": "Fine Arts Center के auditorium में सीटें, 2022 में समर्पित"
+    },
+    {
+      "text": "Art I → Art II → Art III → Honors Art IV, with Honors Portfolio Prep alongside",
+      "of": "e4976355",
+      "at": [
+        "charlotte-catholic:ladder.divisions[0].items[0]"
+      ],
+      "t": "Art I → Art II → Art III → Honors Art IV, साथ में Honors Portfolio Prep"
+    },
+    {
+      "text": "AP Studio Art — the department’s single AP course",
+      "of": "bca773c8",
+      "at": [
+        "charlotte-catholic:ladder.divisions[0].items[1]"
+      ],
+      "t": "AP Studio Art — विभाग का इकलौता AP कोर्स"
+    },
+    {
+      "text": "Ceramics I and Ceramics II",
+      "of": "b71ad2b7",
+      "at": [
+        "charlotte-catholic:ladder.divisions[0].items[2]"
+      ],
+      "t": "Ceramics I और Ceramics II"
+    },
+    {
+      "text": "Introduction to Photography → Photography II → Photography III",
+      "of": "a0d2c832",
+      "at": [
+        "charlotte-catholic:ladder.divisions[0].items[3]"
+      ],
+      "t": "Introduction to Photography → Photography II → Photography III"
+    },
+    {
+      "text": "Digital Art and Graphic Design; Digital Art, Graphics, and Anime",
+      "of": "515886e9",
+      "at": [
+        "charlotte-catholic:ladder.divisions[0].items[4]"
+      ],
+      "t": "Digital Art and Graphic Design; Digital Art, Graphics, and Anime"
+    },
+    {
+      "text": "Freshman Men’s Chorus and Freshman Women’s Chorus — a dedicated entry rung",
+      "of": "077bb548",
+      "at": [
+        "charlotte-catholic:ladder.divisions[1].items[0]"
+      ],
+      "t": "Freshman Men’s Chorus और Freshman Women’s Chorus — शुरुआत के लिए एक अलग पायदान"
+    },
+    {
+      "text": "Choral Ensemble",
+      "of": "daa32d7d",
+      "at": [
+        "charlotte-catholic:ladder.divisions[1].items[1]"
+      ],
+      "t": "Choral Ensemble"
+    },
+    {
+      "text": "Women’s Chamber Ensemble and Honors Women’s Chamber Ensemble",
+      "of": "e9d3eb53",
+      "at": [
+        "charlotte-catholic:ladder.divisions[1].items[2]"
+      ],
+      "t": "Women’s Chamber Ensemble और Honors Women’s Chamber Ensemble"
+    },
+    {
+      "text": "Men’s Chamber Ensemble and Honors Men’s Chamber Ensemble",
+      "of": "78990c9f",
+      "at": [
+        "charlotte-catholic:ladder.divisions[1].items[3]"
+      ],
+      "t": "Men’s Chamber Ensemble और Honors Men’s Chamber Ensemble"
+    },
+    {
+      "text": "Honors Concert Choir — the co-ed terminal ensemble",
+      "of": "692e3dd5",
+      "at": [
+        "charlotte-catholic:ladder.divisions[1].items[4]"
+      ],
+      "t": "Honors Concert Choir — co-ed शीर्ष ensemble"
+    },
+    {
+      "text": "Concert Band → Honors Wind Ensemble",
+      "of": "0b4649b6",
+      "at": [
+        "charlotte-catholic:ladder.divisions[2].items[0]"
+      ],
+      "t": "Concert Band → Honors Wind Ensemble"
+    },
+    {
+      "text": "Percussion → Honors Percussion",
+      "of": "473006e0",
+      "at": [
+        "charlotte-catholic:ladder.divisions[2].items[1]"
+      ],
+      "t": "Percussion → Honors Percussion"
+    },
+    {
+      "text": "Introduction to Guitar → Guitar II",
+      "of": "e3b8eabe",
+      "at": [
+        "charlotte-catholic:ladder.divisions[2].items[2]"
+      ],
+      "t": "Introduction to Guitar → Guitar II"
+    },
+    {
+      "text": "Marching Band, and Jazz Band as an after-school ensemble",
+      "of": "777b488b",
+      "at": [
+        "charlotte-catholic:ladder.divisions[2].items[3]"
+      ],
+      "t": "Marching Band, और Jazz Band एक after-school ensemble के रूप में"
+    },
+    {
+      "text": "Acting → Honors Acting",
+      "of": "3ebb88b8",
+      "at": [
+        "charlotte-catholic:ladder.divisions[3].items[0]"
+      ],
+      "t": "Acting → Honors Acting"
+    },
+    {
+      "text": "Theatre: Design and Tech → Honors Theatre: Design and Tech",
+      "of": "caa8fa70",
+      "at": [
+        "charlotte-catholic:ladder.divisions[3].items[1]"
+      ],
+      "t": "Theatre: Design and Tech → Honors Theatre: Design and Tech"
+    },
+    {
+      "text": "Costume Design and Production → Honors Costume Design and Production",
+      "of": "6da2d042",
+      "at": [
+        "charlotte-catholic:ladder.divisions[3].items[2]"
+      ],
+      "t": "Costume Design and Production → Honors Costume Design and Production"
+    },
+    {
+      "text": "On The Stage: Acting, Directing, Movie Making",
+      "of": "b4ceba77",
+      "at": [
+        "charlotte-catholic:ladder.divisions[3].items[3]"
+      ],
+      "t": "On The Stage: Acting, Directing, Movie Making"
+    },
+    {
+      "text": "Behind the Scenes: Set Design and Construction",
+      "of": "5cdb675f",
+      "at": [
+        "charlotte-catholic:ladder.divisions[3].items[4]"
+      ],
+      "t": "Behind the Scenes: Set Design and Construction"
+    },
+    {
+      "text": "Honors TV, Film, and Production",
+      "of": "b52fefb0",
+      "at": [
+        "charlotte-catholic:ladder.divisions[3].items[5]"
+      ],
+      "t": "Honors TV, Film, and Production"
+    },
+    {
+      "text": "Dance I → Dance II → Honors Dance III",
+      "of": "c6fff855",
+      "at": [
+        "charlotte-catholic:ladder.divisions[4].items[0]"
+      ],
+      "t": "Dance I → Dance II → Honors Dance III"
+    },
+    {
+      "text": "Beyond the timetable",
+      "of": "f6cb035e",
+      "at": [
+        "charlotte-catholic:ladder.enrichmentTitle",
+        "gaston-day:ladder.enrichmentTitle"
+      ],
+      "t": "समय-सारिणी से बाहर"
+    },
+    {
+      "text": "Charlotte Symphony partnership",
+      "of": "982ab7a8",
+      "at": [
+        "charlotte-catholic:ladder.enrichment[0].label"
+      ],
+      "t": "Charlotte Symphony के साथ साझेदारी"
+    },
+    {
+      "text": "Symphony orchestra members provide sectionals and private lessons to CCHS students.",
+      "of": "b1718a8d",
+      "at": [
+        "charlotte-catholic:ladder.enrichment[0].text"
+      ],
+      "t": "Symphony orchestra के सदस्य CCHS के छात्रों को sectional और निजी कक्षाएँ देते हैं।"
+    },
+    {
+      "text": "Three Fine Arts Festivals a year",
+      "of": "e6db3274",
+      "at": [
+        "charlotte-catholic:ladder.enrichment[1].label"
+      ],
+      "t": "साल में तीन Fine Arts Festival"
+    },
+    {
+      "text": "Plus the annual school musical — the department’s published performance rhythm.",
+      "of": "c5378d8a",
+      "at": [
+        "charlotte-catholic:ladder.enrichment[1].text"
+      ],
+      "t": "साथ में हर साल का स्कूल musical — विभाग की प्रकाशित प्रस्तुति-लय।"
+    },
+    {
+      "text": "Dublin, every four years",
+      "of": "fa7f38ec",
+      "at": [
+        "charlotte-catholic:ladder.enrichment[2].label"
+      ],
+      "t": "हर चार साल पर Dublin"
+    },
+    {
+      "text": "The band performs quadrennially in the St. Patrick’s Day Parade in Dublin, Ireland.",
+      "of": "d2070fe8",
+      "at": [
+        "charlotte-catholic:ladder.enrichment[2].text"
+      ],
+      "t": "Band हर चार साल में Dublin, Ireland की St. Patrick’s Day Parade में प्रस्तुति देता है।"
+    },
+    {
+      "text": "National performance",
+      "of": "c448ead5",
+      "at": [
+        "charlotte-catholic:ladder.enrichment[3].label"
+      ],
+      "t": "राष्ट्रीय प्रस्तुति"
+    },
+    {
+      "text": "The band and choral programmes have performed in New York and Chicago.",
+      "of": "5f7eae0f",
+      "at": [
+        "charlotte-catholic:ladder.enrichment[3].text"
+      ],
+      "t": "Band और choral कार्यक्रम New York और Chicago में प्रस्तुति दे चुके हैं।"
+    },
+    {
+      "text": "Diocesan touring",
+      "of": "7cfae379",
+      "at": [
+        "charlotte-catholic:ladder.enrichment[4].label"
+      ],
+      "t": "Diocese में दौरा"
+    },
+    {
+      "text": "The choral programme tours and undertakes service projects across the Diocese of Charlotte.",
+      "of": "106f1e4d",
+      "at": [
+        "charlotte-catholic:ladder.enrichment[4].text"
+      ],
+      "t": "Choral कार्यक्रम Diocese of Charlotte में दौरा करता है और सेवा-परियोजनाएँ चलाता है।"
+    },
+    {
+      "text": "Scholastic Art Awards",
+      "of": "bbe1b633",
+      "at": [
+        "charlotte-catholic:ladder.enrichment[5].label"
+      ],
+      "t": "Scholastic Art Awards"
+    },
+    {
+      "text": "Students submit to the Charlotte-Mecklenburg Scholastic Art Awards, earning Gold, Silver and Honorable Mention.",
+      "of": "9259a251",
+      "at": [
+        "charlotte-catholic:ladder.enrichment[5].text"
+      ],
+      "t": "छात्र Charlotte-Mecklenburg Scholastic Art Awards में प्रविष्टियाँ भेजते हैं और Gold, Silver तथा Honorable Mention जीतते हैं।"
+    },
+    {
+      "text": "Five Blumey finalists in 2025, five more nominations in 2026 — and no win yet.",
+      "of": "7c9d1095",
+      "at": [
+        "charlotte-catholic:theatre.headline"
+      ],
+      "t": "2025 में पाँच Blumey फ़ाइनलिस्ट, 2026 में पाँच और नामांकन — और अब तक कोई जीत नहीं।"
+    },
+    {
+      "text": "Fiddler on the Roof placed a finalist in every one of the five individual performance categories, which is a rare sweep of nominations for one production.",
+      "of": "f727b088",
+      "at": [
+        "charlotte-catholic:theatre.subhead"
+      ],
+      "t": "Fiddler on the Roof ने व्यक्तिगत प्रस्तुति की पाँचों श्रेणियों में से हर एक में एक finalist दिया, जो किसी एक प्रस्तुति के लिए नामांकनों की दुर्लभ सफ़ाई है।"
+    },
+    {
+      "text": "The documented production season",
+      "of": "cd46c3c0",
+      "at": [
+        "charlotte-catholic:theatre.seasonTitle"
+      ],
+      "t": "प्रलेखित प्रस्तुति-सत्र"
+    },
+    {
+      "text": "2024–25",
+      "of": "96952863",
+      "at": [
+        "charlotte-catholic:theatre.season[0].season"
+      ],
+      "t": "2024–25"
+    },
+    {
+      "text": "Fiddler on the Roof — five Blumey finalists, one in each individual performance category",
+      "of": "59143597",
+      "at": [
+        "charlotte-catholic:theatre.season[0].detail"
+      ],
+      "t": "Fiddler on the Roof — पाँच Blumey finalists, व्यक्तिगत प्रस्तुति की हर श्रेणी में एक"
+    },
+    {
+      "text": "2025–26",
+      "of": "f54f7583",
+      "at": [
+        "charlotte-catholic:theatre.season[1].season"
+      ],
+      "t": "2025–26"
+    },
+    {
+      "text": "The Wizard of Oz — four Blumey nominees and one finalist",
+      "of": "77d80270",
+      "at": [
+        "charlotte-catholic:theatre.season[1].detail"
+      ],
+      "t": "The Wizard of Oz — चार Blumey नामांकित और एक finalist"
+    },
+    {
+      "text": "Marcus Riter has led theatre at CCHS for twelve years. The programme runs acting, directing, design and tech, costume and film as separate course strands, each with an Honors rung.",
+      "of": "e4563344",
+      "at": [
+        "charlotte-catholic:theatre.whoRunsIt"
+      ],
+      "t": "Marcus Riter बारह वर्षों से CCHS में थिएटर का नेतृत्व कर रहे हैं। कार्यक्रम में acting, directing, design और tech, costume तथा film अलग-अलग कोर्स-धाराओं के रूप में चलते हैं, और हर एक में एक Honors पायदान है।"
+    },
+    {
+      "text": "Performances are staged in the MACS Fine Arts Center’s 650-seat auditorium, dedicated in 2022 and shared across all Mecklenburg Area Catholic Schools.",
+      "of": "953e164f",
+      "at": [
+        "charlotte-catholic:theatre.venueNote"
+      ],
+      "t": "प्रस्तुतियाँ MACS Fine Arts Center के 650 सीटों वाले auditorium में होती हैं, जो 2022 में समर्पित हुआ और सभी Mecklenburg Area Catholic Schools के बीच साझा है।"
+    },
+    {
+      "text": "Blumey Awards ledger",
+      "of": "ee521bd0",
+      "at": [
+        "charlotte-catholic:theatre.ledgerTitle"
+      ],
+      "t": "Blumey Awards का ब्यौरा"
+    },
+    {
+      "text": "Finalist, Best Actor — Brenden Ortiz as Motel",
+      "of": "a16377b1",
+      "at": [
+        "charlotte-catholic:theatre.ledger[0].result"
+      ],
+      "t": "Finalist, Best Actor — Brenden Ortiz, Motel के रूप में"
+    },
+    {
+      "text": "Finalist, Best Actress — Maye Glessner as Hodel",
+      "of": "dbadbb55",
+      "at": [
+        "charlotte-catholic:theatre.ledger[1].result"
+      ],
+      "t": "Finalist, Best Actress — Maye Glessner, Hodel के रूप में"
+    },
+    {
+      "text": "Finalist, Best Supporting Actor — Jon Pacheco as Perchik",
+      "of": "ff943dc1",
+      "at": [
+        "charlotte-catholic:theatre.ledger[2].result"
+      ],
+      "t": "Finalist, Best Supporting Actor — Jon Pacheco, Perchik के रूप में"
+    },
+    {
+      "text": "Finalist, Best Supporting Actress — Anna Wall as Tzeitel",
+      "of": "4153930a",
+      "at": [
+        "charlotte-catholic:theatre.ledger[3].result"
+      ],
+      "t": "Finalist, Best Supporting Actress — Anna Wall, Tzeitel के रूप में"
+    },
+    {
+      "text": "Finalist, Best Featured Performer — Connor Nichols as Rabbi",
+      "of": "4029045a",
+      "at": [
+        "charlotte-catholic:theatre.ledger[4].result"
+      ],
+      "t": "Finalist, Best Featured Performer — Connor Nichols, Rabbi के रूप में"
+    },
+    {
+      "text": "Nominee, Best Actor — Aaron Quintero as Scarecrow",
+      "of": "133e7986",
+      "at": [
+        "charlotte-catholic:theatre.ledger[5].result"
+      ],
+      "t": "नामांकित, Best Actor — Aaron Quintero, Scarecrow के रूप में"
+    },
+    {
+      "text": "Nominee, Best Actress — Maye Glessner as Dorothy",
+      "of": "af6532a1",
+      "at": [
+        "charlotte-catholic:theatre.ledger[6].result"
+      ],
+      "t": "नामांकित, Best Actress — Maye Glessner, Dorothy के रूप में"
+    },
+    {
+      "text": "Nominee, Best Supporting Actor — Jack Gordon as Uncle Henry / Guard",
+      "of": "f21fcb6f",
+      "at": [
+        "charlotte-catholic:theatre.ledger[7].result"
+      ],
+      "t": "नामांकित, Best Supporting Actor — Jack Gordon, Uncle Henry / Guard के रूप में"
+    },
+    {
+      "text": "Nominee, Best Supporting Actress — Amelia Quintero as Glinda",
+      "of": "2dc18669",
+      "at": [
+        "charlotte-catholic:theatre.ledger[8].result"
+      ],
+      "t": "नामांकित, Best Supporting Actress — Amelia Quintero, Glinda के रूप में"
+    },
+    {
+      "text": "Finalist, Best Featured Performer — Olivia Overhalser as Toto Puppeteer",
+      "of": "7358157e",
+      "at": [
+        "charlotte-catholic:theatre.ledger[9].result"
+      ],
+      "t": "Finalist, Best Featured Performer — Olivia Overhalser, Toto Puppeteer के रूप में"
+    },
+    {
+      "text": "CCHS has NOT won a Blumey in either year — verified against Blumenthal’s own 2026 winners release, where the five individual performance awards went to North Lincoln, Carmel Christian, Northwest School of the Arts and Weddington. Recognition here is consistent and deep rather than victorious: ten placements across two years, with Maye Glessner recognised in both (Hodel in 2025, Dorothy in 2026). Note also that the school’s own performances calendar publishes nothing — the two productions above are reconstructed from Blumey records, so the real season may well be larger than the school lets a family see.",
+      "of": "fe250a5b",
+      "at": [
+        "charlotte-catholic:theatre.honestContext"
+      ],
+      "t": "CCHS ने इनमें से किसी भी वर्ष Blumey नहीं जीता — यह Blumenthal की अपनी 2026 विजेता विज्ञप्ति से पुष्ट है, जिसमें प्रस्तुति के पाँचों व्यक्तिगत पुरस्कार North Lincoln, Carmel Christian, Northwest School of the Arts और Weddington को गए। यहाँ मान्यता विजयी नहीं, बल्कि लगातार और गहरी है: दो वर्षों में दस स्थान, और Maye Glessner को दोनों बार मान्यता मिली (2025 में Hodel, 2026 में Dorothy)। यह भी ध्यान दें कि स्कूल का अपना प्रस्तुति कैलेंडर कुछ भी प्रकाशित नहीं करता — ऊपर की दोनों प्रस्तुतियाँ Blumey के रिकॉर्ड से जोड़कर बनाई गई हैं, इसलिए असली सत्र उससे कहीं बड़ा हो सकता है जितना स्कूल किसी परिवार को दिखाता है।"
+    },
+    {
+      "text": "Twelve named ensembles, and an Honors rung on almost every one.",
+      "of": "ceba9954",
+      "at": [
+        "charlotte-catholic:music.headline"
+      ],
+      "t": "बारह नामित ensembles, और लगभग हर एक पर एक Honors पायदान।"
+    },
+    {
+      "text": "The choral programme alone runs a freshman entry point, single-sex chamber ensembles at two levels, and a co-ed Honors Concert Choir at the top.",
+      "of": "2cdc51dd",
+      "at": [
+        "charlotte-catholic:music.subhead"
+      ],
+      "t": "अकेला choral कार्यक्रम ही freshman के लिए एक प्रवेश-बिंदु, दो स्तरों पर एकल-लिंग chamber ensembles, और शीर्ष पर एक co-ed Honors Concert Choir चलाता है।"
+    },
+    {
+      "text": "The ensemble board",
+      "of": "f7da1e67",
+      "at": [
+        "charlotte-catholic:music.boardTitle"
+      ],
+      "t": "Ensemble बोर्ड"
+    },
+    {
+      "text": "Choral",
+      "of": "22900d0e",
+      "at": [
+        "charlotte-catholic:music.tracks[0].label",
+        "covenant-day:music.tracks[0].label"
+      ],
+      "t": "कोरल"
+    },
+    {
+      "text": "Band & percussion",
+      "of": "bd4e7fa5",
+      "at": [
+        "charlotte-catholic:music.tracks[1].label"
+      ],
+      "t": "Band और ताल-वाद्य"
+    },
+    {
+      "text": "After school",
+      "of": "203b34ff",
+      "at": [
+        "charlotte-catholic:music.tracks[2].label"
+      ],
+      "t": "स्कूल के बाद"
+    },
+    {
+      "text": "Guitar",
+      "of": "f53c5c2f",
+      "at": [
+        "charlotte-catholic:music.tracks[3].label"
+      ],
+      "t": "गिटार"
+    },
+    {
+      "text": "Twelve ensembles carry course codes; Marching Band and Jazz Band operate alongside them, Jazz Band as an after-school group rather than a timetabled course.",
+      "of": "f0d77e51",
+      "at": [
+        "charlotte-catholic:music.boardNote"
+      ],
+      "t": "बारह ensembles के अपने कोर्स कोड हैं; Marching Band और Jazz Band उनके साथ-साथ चलते हैं, और Jazz Band समय-सारणी वाले कोर्स के बजाय स्कूल के बाद चलने वाला समूह है।"
+    },
+    {
+      "text": "The honors pipeline",
+      "of": "f311f111",
+      "at": [
+        "charlotte-catholic:music.ladderTitle"
+      ],
+      "t": "Honors की राह"
+    },
+    {
+      "text": "Entry",
+      "of": "9cbfed33",
+      "at": [
+        "charlotte-catholic:music.ladder[0].label"
+      ],
+      "t": "प्रवेश"
+    },
+    {
+      "text": "Freshman Men’s or Women’s Chorus (301, 302) — a dedicated ninth-grade rung most schools do not staff separately.",
+      "of": "165e78bb",
+      "at": [
+        "charlotte-catholic:music.ladder[0].text"
+      ],
+      "t": "Freshman Men’s या Women’s Chorus (301, 302) — नौवीं कक्षा के लिए एक अलग पायदान, जिसके लिए अधिकांश स्कूल अलग से स्टाफ़ नहीं रखते।"
+    },
+    {
+      "text": "Development",
+      "of": "a2381c8a",
+      "at": [
+        "charlotte-catholic:music.ladder[1].label"
+      ],
+      "t": "विकास"
+    },
+    {
+      "text": "Choral Ensemble (332), Concert Band (326), Percussion (372) — the open-enrolment middle of the programme.",
+      "of": "d7018cc2",
+      "at": [
+        "charlotte-catholic:music.ladder[1].text"
+      ],
+      "t": "Choral Ensemble (332), Concert Band (326), Percussion (372) — कार्यक्रम का खुले-नामांकन वाला मध्य भाग।"
+    },
+    {
+      "text": "Selective",
+      "of": "a723fc11",
+      "at": [
+        "charlotte-catholic:music.ladder[2].label"
+      ],
+      "t": "चयनित"
+    },
+    {
+      "text": "Women’s and Men’s Chamber Ensembles (304, 303) — auditioned single-sex groups.",
+      "of": "3486fe49",
+      "at": [
+        "charlotte-catholic:music.ladder[2].text"
+      ],
+      "t": "Women’s और Men’s Chamber Ensembles (304, 303) — ऑडिशन-आधारित एकल-लिंग समूह।"
+    },
+    {
+      "text": "Honors",
+      "of": "c7d97254",
+      "at": [
+        "charlotte-catholic:music.ladder[3].label"
+      ],
+      "t": "Honors"
+    },
+    {
+      "text": "Honors Chamber Ensembles (392, 357), Honors Wind Ensemble (394), Honors Percussion (373) — each carrying the extra quality point.",
+      "of": "2789c325",
+      "at": [
+        "charlotte-catholic:music.ladder[3].text"
+      ],
+      "t": "Honors Chamber Ensembles (392, 357), Honors Wind Ensemble (394), Honors Percussion (373) — हर एक अतिरिक्त quality point देता है।"
+    },
+    {
+      "text": "Terminal",
+      "of": "93c562d1",
+      "at": [
+        "charlotte-catholic:music.ladder[4].label"
+      ],
+      "t": "शीर्ष"
+    },
+    {
+      "text": "Honors Concert Choir (361) — the co-ed top of the choral ladder.",
+      "of": "b447ec91",
+      "at": [
+        "charlotte-catholic:music.ladder[4].text"
+      ],
+      "t": "Honors Concert Choir (361) — choral सीढ़ी का co-ed शिखर।"
+    },
+    {
+      "text": "Every Honors ensemble carries the same +1 quality point as an Honors academic course, so a serious musician’s weighted GPA is not penalised for spending four years in the music wing. There is no AP Music Theory at CCHS — the Honors rungs are the ceiling.",
+      "of": "36e50f2e",
+      "at": [
+        "charlotte-catholic:music.ladderNote"
+      ],
+      "t": "हर Honors ensemble को Honors शैक्षणिक कोर्स जितना ही +1 quality point मिलता है, इसलिए संगीत में गंभीर छात्र के भारित GPA को संगीत विंग में चार साल बिताने का नुक़सान नहीं उठाना पड़ता। CCHS में AP Music Theory नहीं है — Honors पायदान ही सबसे ऊपर हैं।"
+    },
+    {
+      "text": "A darkroom, a ceramics studio and a broadcast studio — nine named spaces in one building.",
+      "of": "aad024d9",
+      "at": [
+        "charlotte-catholic:visual.headline"
+      ],
+      "t": "एक darkroom, एक ceramics स्टूडियो और एक broadcast स्टूडियो — एक ही इमारत में नौ नामित जगहें।"
+    },
+    {
+      "text": "Film photography is still taught with a working darkroom alongside the digital lab.",
+      "of": "f591a186",
+      "at": [
+        "charlotte-catholic:visual.subhead"
+      ],
+      "t": "डिजिटल lab के साथ-साथ एक चालू darkroom में आज भी फ़िल्म फ़ोटोग्राफ़ी पढ़ाई जाती है।"
+    },
+    {
+      "text": "What students actually work in",
+      "of": "ab1858da",
+      "at": [
+        "charlotte-catholic:visual.mediaTitle",
+        "gaston-day:visual.mediaTitle"
+      ],
+      "t": "छात्र असल में किन माध्यमों में काम करते हैं"
+    },
+    {
+      "text": "the Art I–IV spine",
+      "of": "7872a473",
+      "at": [
+        "charlotte-catholic:visual.media[0].detail"
+      ],
+      "t": "Art I–IV की रीढ़"
+    },
+    {
+      "text": "two-course sequence in a dedicated studio",
+      "of": "9501eab7",
+      "at": [
+        "charlotte-catholic:visual.media[1].detail"
+      ],
+      "t": "एक समर्पित स्टूडियो में दो कोर्स का क्रम"
+    },
+    {
+      "text": "shot, developed and printed in the school’s darkroom",
+      "of": "7158517b",
+      "at": [
+        "charlotte-catholic:visual.media[2].detail"
+      ],
+      "t": "स्कूल के darkroom में खींची, धोई और छापी गई"
+    },
+    {
+      "text": "in the photography and digital labs",
+      "of": "312b5489",
+      "at": [
+        "charlotte-catholic:visual.media[3].detail"
+      ],
+      "t": "photography और digital lab में"
+    },
+    {
+      "text": "Digital Art and Graphic Design",
+      "of": "ae2647f7",
+      "at": [
+        "charlotte-catholic:visual.media[4].detail"
+      ],
+      "t": "Digital Art and Graphic Design"
+    },
+    {
+      "text": "Digital Art, Graphics, and Anime",
+      "of": "3c252624",
+      "at": [
+        "charlotte-catholic:visual.media[5].detail"
+      ],
+      "t": "Digital Art, Graphics, and Anime"
+    },
+    {
+      "text": "Honors TV, Film, and Production, in the broadcast studio",
+      "of": "25407ea7",
+      "at": [
+        "charlotte-catholic:visual.media[6].detail"
+      ],
+      "t": "Honors TV, Film, and Production, broadcast स्टूडियो में"
+    },
+    {
+      "text": "through the studio-art sequence",
+      "of": "d4d0b96e",
+      "at": [
+        "charlotte-catholic:visual.media[7].detail"
+      ],
+      "t": "studio-art के क्रम से होकर"
+    },
+    {
+      "text": "Honors Portfolio Prep (364) runs alongside the upper rungs for students building an application portfolio. AP Studio Art is the department’s ONLY AP course — there is no AP Art History and no AP Music Theory, confirmed by sweeping all 195 courses in the curriculum guide.",
+      "of": "368f8399",
+      "at": [
+        "charlotte-catholic:visual.pathNote"
+      ],
+      "t": "आवेदन के लिए portfolio बना रहे छात्रों के लिए Honors Portfolio Prep (364) ऊपरी पायदानों के साथ-साथ चलता है। AP Studio Art विभाग का इकलौता AP कोर्स है — न AP Art History है, न AP Music Theory, और यह पाठ्यक्रम गाइड के सभी 195 कोर्स खंगालकर पुष्ट किया गया है।"
+    },
+    {
+      "text": "Where the work goes public",
+      "of": "9f7b6307",
+      "at": [
+        "charlotte-catholic:visual.exhibitsTitle"
+      ],
+      "t": "काम जनता के सामने कहाँ आता है"
+    },
+    {
+      "text": "Three times a year",
+      "of": "62fa75d7",
+      "at": [
+        "charlotte-catholic:visual.exhibits[0].when"
+      ],
+      "t": "साल में तीन बार"
+    },
+    {
+      "text": "the department’s own showcase cycle",
+      "of": "72604c79",
+      "at": [
+        "charlotte-catholic:visual.exhibits[0].detail"
+      ],
+      "t": "विभाग का अपना प्रदर्शन-चक्र"
+    },
+    {
+      "text": "Annual",
+      "of": "f65af38a",
+      "at": [
+        "charlotte-catholic:visual.exhibits[1].when",
+        "charlotte-catholic:visual.exhibits[2].when",
+        "charlotte-country-day:visual.exhibits[0].when",
+        "cannon:visual.exhibits[2].when",
+        "carmel-christian:visual.exhibits[0].when",
+        "gaston-day:visual.exhibits[0].when",
+        "gaston-day:visual.exhibits[1].when"
+      ],
+      "t": "वार्षिक"
+    },
+    {
+      "text": "Gold, Silver and Honorable Mention",
+      "of": "755b9355",
+      "at": [
+        "charlotte-catholic:visual.exhibits[1].detail"
+      ],
+      "t": "Gold, Silver और Honorable Mention"
+    },
+    {
+      "text": "staged in the 650-seat Fine Arts Center auditorium",
+      "of": "9002be92",
+      "at": [
+        "charlotte-catholic:visual.exhibits[2].detail"
+      ],
+      "t": "650 सीटों वाले Fine Arts Center auditorium में प्रस्तुत"
+    },
+    {
+      "text": "Ongoing",
+      "of": "680df662",
+      "at": [
+        "charlotte-catholic:visual.exhibits[3].when",
+        "davidson-day:visual.exhibits[1].when"
+      ],
+      "t": "निरंतर"
+    },
+    {
+      "text": "exhibits alongside performances in the 2022 building",
+      "of": "12d1325e",
+      "at": [
+        "charlotte-catholic:visual.exhibits[3].detail"
+      ],
+      "t": "2022 की इमारत में प्रस्तुतियों के साथ-साथ प्रदर्शनी"
+    },
+    {
+      "text": "Faculty: Melissa Parks (visual art and AP Studio Art), Barry Johnson (photography and graphic design), Jacob Bohan (band), Marcus Riter (theatre, twelve years), Tara Ryan (dance), Christopher Jones (guitar). The nine named Fine Arts Center spaces are the 650-seat auditorium, two art studios, the band room, the broadcast studio, the ceramics studio, the dance studio, the darkroom and the photography/digital lab. The centre serves all MACS schools, not CCHS alone, so availability is shared.",
+      "of": "c9d4e107",
+      "at": [
+        "charlotte-catholic:visual.footnote"
+      ],
+      "t": "शिक्षक: Melissa Parks (दृश्य कला और AP Studio Art), Barry Johnson (photography और graphic design), Jacob Bohan (band), Marcus Riter (थिएटर, बारह वर्ष), Tara Ryan (नृत्य), Christopher Jones (guitar)। Fine Arts Center की नौ नामित जगहें हैं: 650 सीटों का auditorium, दो कला स्टूडियो, band room, broadcast स्टूडियो, ceramics स्टूडियो, नृत्य स्टूडियो, darkroom और photography/digital lab। यह केंद्र अकेले CCHS का नहीं, बल्कि सभी MACS स्कूलों का है, इसलिए उपलब्धता साझा रहती है।"
+    },
+    {
+      "text": "A genuinely large arts department that under-publishes itself.",
+      "of": "f4f43825",
+      "at": [
+        "charlotte-catholic:verdict.headline"
+      ],
+      "t": "सचमुच एक बड़ा कला विभाग, जो अपने बारे में कम ही प्रकाशित करता है।"
+    },
+    {
+      "text": "The course catalog and the Blumey record both say more than the school’s own website does.",
+      "of": "cd91d40a",
+      "at": [
+        "charlotte-catholic:verdict.subhead"
+      ],
+      "t": "कोर्स सूची और Blumey का रिकॉर्ड, दोनों स्कूल की अपनी वेबसाइट से अधिक बताते हैं।"
+    },
+    {
+      "text": "It is the biggest department in the school",
+      "of": "2129c968",
+      "at": [
+        "charlotte-catholic:verdict.holdsUp[0].label"
+      ],
+      "t": "यह स्कूल का सबसे बड़ा विभाग है"
+    },
+    {
+      "text": "**39 of 195 courses** — more than English, Science or Mathematics. That is a staffing commitment, not a brochure claim.",
+      "of": "11d0e4bb",
+      "at": [
+        "charlotte-catholic:verdict.holdsUp[0].text"
+      ],
+      "t": "**195 में से 39 कोर्स** — English, Science या Mathematics से भी अधिक। यह स्टाफ़ की प्रतिबद्धता है, कोई brochure का दावा नहीं।"
+    },
+    {
+      "text": "The honors ladder is real",
+      "of": "4fe9dcd3",
+      "at": [
+        "charlotte-catholic:verdict.holdsUp[1].label"
+      ],
+      "t": "Honors की सीढ़ी असली है"
+    },
+    {
+      "text": "**Twelve Honors arts courses**, each carrying the same **+1 quality point** as an Honors academic course, so four years in the music wing does not cost a student GPA.",
+      "of": "b8673576",
+      "at": [
+        "charlotte-catholic:verdict.holdsUp[1].text"
+      ],
+      "t": "**कला के बारह Honors कोर्स**, और हर एक Honors शैक्षणिक कोर्स जितना ही **+1 quality point** देता है, इसलिए संगीत विंग में चार साल बिताने से छात्र का GPA नहीं गिरता।"
+    },
+    {
+      "text": "Recognition is consistent",
+      "of": "57ab1768",
+      "at": [
+        "charlotte-catholic:verdict.holdsUp[2].label"
+      ],
+      "t": "मान्यता लगातार मिलती है"
+    },
+    {
+      "text": "**Five Blumey finalists in 2025** — one in every individual performance category — and **five more placements in 2026**. Deep and repeated, across two different shows.",
+      "of": "3fa33ed5",
+      "at": [
+        "charlotte-catholic:verdict.holdsUp[2].text"
+      ],
+      "t": "**2025 में पाँच Blumey finalists** — व्यक्तिगत प्रस्तुति की हर श्रेणी में एक — और **2026 में पाँच और स्थान**। दो अलग-अलग प्रस्तुतियों में, गहरा और बार-बार।"
+    },
+    {
+      "text": "The facility is purpose-built and recent",
+      "of": "2278c83c",
+      "at": [
+        "charlotte-catholic:verdict.holdsUp[3].label"
+      ],
+      "t": "सुविधा ख़ास तौर पर बनी है और हाल की है"
+    },
+    {
+      "text": "A **650-seat auditorium dedicated in 2022**, with a darkroom, ceramics studio, broadcast studio and dance studio among **nine named spaces**.",
+      "of": "e4afe7ce",
+      "at": [
+        "charlotte-catholic:verdict.holdsUp[3].text"
+      ],
+      "t": "**2022 में समर्पित 650 सीटों का auditorium**, और **नौ नामित जगहों** में darkroom, ceramics स्टूडियो, broadcast स्टूडियो तथा नृत्य स्टूडियो शामिल हैं।"
+    },
+    {
+      "text": "Outside expertise is wired in",
+      "of": "46f2f3ed",
+      "at": [
+        "charlotte-catholic:verdict.holdsUp[4].label"
+      ],
+      "t": "बाहर की विशेषज्ञता भीतर तक जुड़ी है"
+    },
+    {
+      "text": "A **Charlotte Symphony partnership** supplying sectionals and private lessons, and a band that performs **quadrennially in Dublin**.",
+      "of": "509598a2",
+      "at": [
+        "charlotte-catholic:verdict.holdsUp[4].text"
+      ],
+      "t": "**Charlotte Symphony की साझेदारी**, जो sectional और निजी कक्षाएँ देती है, और एक band जो **हर चार साल पर Dublin** में प्रस्तुति देता है।"
+    },
+    {
+      "text": "Be clear about the AP ceiling",
+      "of": "ab456dcb",
+      "at": [
+        "charlotte-catholic:verdict.holdsUp[5].label"
+      ],
+      "t": "AP की सीमा को लेकर स्पष्ट रहें"
+    },
+    {
+      "text": "**AP Studio Art is the only AP arts course.** No AP Music Theory, no AP Art History — the Honors rungs are the top of the ladder here.",
+      "of": "600784cc",
+      "at": [
+        "charlotte-catholic:verdict.holdsUp[5].text"
+      ],
+      "t": "**AP Studio Art कला का इकलौता AP कोर्स है।** न AP Music Theory, न AP Art History — यहाँ Honors पायदान ही सीढ़ी का शिखर हैं।"
+    },
+    {
+      "text": "The performances calendar shows \"No showings\" — where do families actually find the season, and can we see this year’s?",
+      "of": "6e080e7a",
+      "at": [
+        "charlotte-catholic:verdict.ask[0]"
+      ],
+      "t": "प्रस्तुतियों का कैलेंडर \"No showings\" दिखाता है — परिवार असल में सत्र का कार्यक्रम कहाँ देखें, और क्या हम इस वर्ष का देख सकते हैं?"
+    },
+    {
+      "text": "Twelve ensembles is a lot for 1,171 students: which are auditioned, and what proportion of applicants get in?",
+      "of": "018169d5",
+      "at": [
+        "charlotte-catholic:verdict.ask[1]"
+      ],
+      "t": "1,171 छात्रों के लिए बारह ensembles काफ़ी हैं: इनमें से किनमें ऑडिशन होता है, और आवेदन करने वालों में से कितनों को जगह मिलती है?"
+    },
+    {
+      "text": "The Fine Arts Center serves all MACS schools — how often does that limit CCHS rehearsal or performance time?",
+      "of": "b05baf19",
+      "at": [
+        "charlotte-catholic:verdict.ask[2]"
+      ],
+      "t": "Fine Arts Center सभी MACS स्कूलों के काम आता है — इससे CCHS के अभ्यास या प्रस्तुति के समय पर कितनी बार असर पड़ता है?"
+    },
+    {
+      "text": "Honors ensembles carry a quality point. Is there any cap on how many arts Honors courses count toward the weighted GPA?",
+      "of": "f0a05cab",
+      "at": [
+        "charlotte-catholic:verdict.ask[3]"
+      ],
+      "t": "Honors ensembles quality point देते हैं। क्या इस पर कोई सीमा है कि कला के कितने Honors कोर्स भारित GPA में गिने जाते हैं?"
+    },
+    {
+      "text": "Five Blumey finalists in 2025 and no win — what does the theatre programme think is the gap?",
+      "of": "a439a605",
+      "at": [
+        "charlotte-catholic:verdict.ask[4]"
+      ],
+      "t": "2025 में पाँच Blumey finalists और एक भी जीत नहीं — थिएटर कार्यक्रम की नज़र में कमी कहाँ है?"
+    },
+    {
+      "text": "Is the darkroom still in regular use, or is film photography now taught mainly digitally?",
+      "of": "a6d3e22e",
+      "at": [
+        "charlotte-catholic:verdict.ask[5]"
+      ],
+      "t": "क्या darkroom अब भी नियमित रूप से इस्तेमाल होता है, या फ़िल्म फ़ोटोग्राफ़ी अब मुख्यतः डिजिटल तरीक़े से पढ़ाई जाती है?"
+    },
+    {
+      "text": "When is the next Dublin parade trip, and what does it cost a family?",
+      "of": "359e6c59",
+      "at": [
+        "charlotte-catholic:verdict.ask[6]"
+      ],
+      "t": "अगली Dublin परेड यात्रा कब है, और एक परिवार पर उसका कितना ख़र्च आता है?"
+    },
+    {
+      "text": "AP Studio Art is the only AP. For a student wanting AP Music Theory or AP Art History, what is the alternative — dual enrollment, or nothing?",
+      "of": "e9003201",
+      "at": [
+        "charlotte-catholic:verdict.ask[7]"
+      ],
+      "t": "AP Studio Art इकलौता AP है। जो छात्र AP Music Theory या AP Art History चाहता है, उसके लिए विकल्प क्या है — dual enrollment, या कुछ भी नहीं?"
+    },
+    {
       "text": "A 45,730 sq ft dedicated fine arts center, a separate 400-seat theater, and both AP and IB arts ceilings — an unusual dual framework.",
       "of": "28e468bb",
       "at": [
@@ -3074,18 +4083,6 @@
         "charlotte-country-day:visual.pathNote"
       ],
       "t": "AP Sculpture और AP Music Theory के नाम दिए गए हैं; IB कला कोर्स, जिनमें IB Theatre Arts शामिल है, समानांतर चलते हैं। \"AP Studio Art\" और \"IB Visual Arts\" के सटीक catalog नाम प्रकाशित नहीं हैं — पृष्ठों पर केवल \"AP art courses\" और \"IB art courses\" लिखा है"
-    },
-    {
-      "text": "Annual",
-      "of": "f65af38a",
-      "at": [
-        "charlotte-country-day:visual.exhibits[0].when",
-        "cannon:visual.exhibits[2].when",
-        "carmel-christian:visual.exhibits[0].when",
-        "gaston-day:visual.exhibits[0].when",
-        "gaston-day:visual.exhibits[1].when"
-      ],
-      "t": "वार्षिक"
     },
     {
       "text": "every student in the school is encouraged to submit work",
@@ -4531,14 +5528,6 @@
       "t": "Music in the Parks में जाँच का रिकॉर्ड: MS Choir को लगातार तीन साल Superior रेटिंग, और 2025 में HS Band की दूसरे स्थान की सफलता।"
     },
     {
-      "text": "Choral",
-      "of": "22900d0e",
-      "at": [
-        "covenant-day:music.tracks[0].label"
-      ],
-      "t": "कोरल"
-    },
-    {
       "text": "Instrumental",
       "of": "19bad85d",
       "at": [
@@ -5347,14 +6336,6 @@
         "davidson-day:visual.exhibits[0].detail"
       ],
       "t": "Photography I और II, दोनों एक अंतिम portfolio पर समाप्त होते हैं"
-    },
-    {
-      "text": "Ongoing",
-      "of": "680df662",
-      "at": [
-        "davidson-day:visual.exhibits[1].when"
-      ],
-      "t": "निरंतर"
     },
     {
       "text": "Photography III students build and maintain their own sites — a concrete, checkable output",
@@ -6835,14 +7816,6 @@
       "t": "कला से जुड़े वैकल्पिक कोर्स: Music Appreciation, Cinema Studies, Creative Writing (H), Yearbook"
     },
     {
-      "text": "Beyond the timetable",
-      "of": "f6cb035e",
-      "at": [
-        "gaston-day:ladder.enrichmentTitle"
-      ],
-      "t": "समय-सारिणी से बाहर"
-    },
-    {
       "text": "Private lessons",
       "of": "ffedbb41",
       "at": [
@@ -7177,14 +8150,6 @@
         "gaston-day:visual.subhead"
       ],
       "t": "पढ़ाई के हिस्से के रूप में portfolio तैयार करने का नाम लिया गया है, और किसी कला वैकल्पिक कोर्स तथा किसी कला-स्कूल तक जाने वाले रास्ते में व्यावहारिक फ़र्क़ यही है — और स्वीकृति सूची इसकी पुष्टि करती है।"
-    },
-    {
-      "text": "What students actually work in",
-      "of": "ab1858da",
-      "at": [
-        "gaston-day:visual.mediaTitle"
-      ],
-      "t": "छात्र असल में किन माध्यमों में काम करते हैं"
     },
     {
       "text": "Named explicitly in the Upper School visual-arts description",
