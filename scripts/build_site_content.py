@@ -126,6 +126,13 @@ PROVENANCE_LINE = re.compile(
 # A blockquote provenance block runs until a blank or non-quoted line, so its
 # continuation rows go too.
 PROVENANCE_QUOTE_TAIL = re.compile(r"^>\s*(?![*#-]).*$", re.MULTILINE)
+# A BULLET provenance line wraps the same way. "- **Method:** Tuition and fee
+# figures fetched from…" runs four physical lines in the source, and deleting
+# only the first strands the rest as a paragraph opening mid-sentence — which is
+# exactly what a parent then reads ("affordability page — not from the CCHS
+# site…"). A continuation row is indented and is not itself a new bullet,
+# heading or table row.
+PROVENANCE_BULLET_TAIL = re.compile(r"^\s+(?![-*+]\s|#|\||>).+$")
 # Stray attribution surviving outside the block form.
 ATTRIBUTION = re.compile(
     r"(?:Compiled by[^.\n]*\.?|Claude Code[^.\n]*\.?|deep research pass\s*\([^)]*\)\.?)",
@@ -140,16 +147,23 @@ PROVENANCE_HEADING = re.compile(
 
 def _strip_provenance(text: str) -> str:
     """Remove internal provenance/attribution from text bound for the app."""
-    out, in_quote_block = [], False
+    out, in_quote_block, in_bullet = [], False, False
     for line in text.splitlines():
         if PROVENANCE_LINE.match(line):
-            # A quoted provenance line opens a block; swallow its continuation.
-            in_quote_block = line.lstrip().startswith(">")
+            # A quoted or bulleted provenance line opens a block whose wrapped
+            # continuation rows must go with it.
+            stripped = line.lstrip()
+            in_quote_block = stripped.startswith(">")
+            in_bullet = bool(re.match(r"^[-*+]\s", stripped))
             continue
         if in_quote_block:
             if PROVENANCE_QUOTE_TAIL.match(line):
                 continue
             in_quote_block = False
+        if in_bullet:
+            if PROVENANCE_BULLET_TAIL.match(line):
+                continue
+            in_bullet = False
         out.append(line)
     return ATTRIBUTION.sub("", "\n".join(out))
 
