@@ -382,6 +382,20 @@ w()
 w('Per-school data lives one file per school so each school\'s research stays reviewable on')
 w('its own, and is merged with locale overlays at render time.')
 w()
+// Standing note added 2026-08-19: content-hash sharing has now caused confusion
+// twice (the PR #150 triage, and a follow-up that mis-described convention keeps
+// as leaks). See .claude/plans/shared-role-labels.md.
+w('**Locale overlay entries are keyed by CONTENT HASH, not by school — one entry may serve')
+w('several schools.** Any two schools whose English text is identical at a translated field')
+w('share a single overlay entry listing every path it covers, so editing that entry changes')
+w('every school on the list at once. `Athletic Director` is one entry spanning four paths')
+w('across three schools. Two consequences: a single-school translation brief cannot safely')
+w('fix a shared string (the fix is cross-school by construction, and needs a decision at')
+w('that scope), and a translation judged against one school\'s conventions is applied to all')
+w('of them. Splitting a hash by editing one school\'s English to make it differ corrupts')
+w('data to work around a storage detail — decide the wording once, for every school sharing')
+w('it.')
+w()
 for (const s of STRUCTURED) {
   w(`### ${esc(topicName.get(s.topic) ?? s.topic)} \`${s.topic}\``)
   w()
