@@ -34,7 +34,8 @@
       "t": "94%",
       "of": "3ac0d9bf",
       "at": [
-        "providence-day:transcript.stats[1].value"
+        "providence-day:transcript.stats[1].value",
+        "charlotte-catholic:transcript.stats[2].value"
       ]
     },
     {
@@ -134,6 +135,7 @@
         "providence-day:transcript.depth[0].label",
         "charlotte-latin:transcript.depth[0].label",
         "charlotte-christian:transcript.depth[0].label",
+        "charlotte-catholic:transcript.depth[0].label",
         "charlotte-country-day:transcript.depth[0].label",
         "cannon:transcript.depth[0].label",
         "davidson-day:transcript.depth[0].label",
@@ -189,6 +191,7 @@
       "of": "35e9a35d",
       "at": [
         "providence-day:transcript.depth[3].label",
+        "charlotte-catholic:transcript.depth[1].label",
         "gaston-day:transcript.depth[1].label"
       ]
     },
@@ -556,6 +559,7 @@
         "providence-day:counseling.timeline[3].intensity",
         "charlotte-latin:counseling.timeline[3].intensity",
         "charlotte-christian:counseling.timeline[3].intensity",
+        "charlotte-catholic:counseling.timeline[2].intensity",
         "charlotte-country-day:counseling.timeline[3].intensity",
         "cannon:counseling.timeline[2].intensity",
         "gaston-day:counseling.timeline[4].intensity"
@@ -783,6 +787,7 @@
         "providence-day:outcomes.buckets[0].tier",
         "charlotte-latin:outcomes.buckets[0].tier",
         "charlotte-christian:outcomes.buckets[0].tier",
+        "charlotte-catholic:outcomes.buckets[0].tier",
         "charlotte-country-day:outcomes.buckets[0].tier",
         "cannon:outcomes.buckets[0].tier",
         "covenant-day:outcomes.buckets[0].tier",
@@ -829,6 +834,7 @@
         "providence-day:outcomes.buckets[2].tier",
         "charlotte-latin:outcomes.buckets[2].tier",
         "charlotte-christian:outcomes.buckets[2].tier",
+        "charlotte-catholic:outcomes.buckets[2].tier",
         "charlotte-country-day:outcomes.buckets[2].tier",
         "cannon:outcomes.buckets[2].tier",
         "covenant-day:outcomes.buckets[2].tier",
@@ -868,6 +874,7 @@
         "providence-day:outcomes.buckets[4].tier",
         "charlotte-latin:outcomes.buckets[4].tier",
         "charlotte-christian:outcomes.buckets[4].tier",
+        "charlotte-catholic:outcomes.buckets[4].tier",
         "charlotte-country-day:outcomes.buckets[4].tier",
         "cannon:outcomes.buckets[4].tier",
         "covenant-day:outcomes.buckets[4].tier",
@@ -891,6 +898,7 @@
         "providence-day:outcomes.buckets[5].tier",
         "charlotte-latin:outcomes.buckets[5].tier",
         "charlotte-christian:outcomes.buckets[5].tier",
+        "charlotte-catholic:outcomes.buckets[5].tier",
         "charlotte-country-day:outcomes.buckets[5].tier",
         "cannon:outcomes.buckets[5].tier",
         "covenant-day:outcomes.buckets[5].tier",
@@ -1019,6 +1027,7 @@
         "providence-day:edge.levers[0].title",
         "charlotte-latin:edge.levers[0].title",
         "charlotte-christian:edge.levers[0].title",
+        "charlotte-catholic:edge.levers[0].title",
         "charlotte-country-day:edge.levers[0].title",
         "cannon:edge.levers[0].title",
         "davidson-day:edge.levers[0].title",
@@ -1067,6 +1076,7 @@
         "providence-day:edge.levers[1].title",
         "charlotte-latin:edge.levers[1].title",
         "charlotte-christian:edge.levers[1].title",
+        "charlotte-catholic:edge.levers[1].title",
         "charlotte-country-day:edge.levers[1].title",
         "cannon:edge.levers[1].title",
         "davidson-day:edge.levers[1].title",
@@ -1138,6 +1148,7 @@
       "at": [
         "providence-day:wholeClass.scoreTables[0].rows[0].label",
         "charlotte-christian:wholeClass.scoreTables[0].rows[0].label",
+        "charlotte-catholic:wholeClass.scoreTables[0].rows[0].label",
         "charlotte-country-day:wholeClass.scoreTables[0].rows[0].label",
         "cannon:wholeClass.scoreTables[0].rows[0].label"
       ]
@@ -1187,6 +1198,7 @@
       "at": [
         "providence-day:wholeClass.scoreTables[1].rows[0].label",
         "charlotte-christian:wholeClass.scoreTables[1].rows[0].label",
+        "charlotte-catholic:wholeClass.scoreTables[0].rows[1].label",
         "charlotte-country-day:wholeClass.scoreTables[1].rows[0].label",
         "cannon:wholeClass.scoreTables[1].rows[0].label"
       ]
@@ -1590,7 +1602,8 @@
       "t": "23",
       "of": "8ef29b12",
       "at": [
-        "charlotte-latin:transcript.stats[0].value"
+        "charlotte-latin:transcript.stats[0].value",
+        "charlotte-catholic:transcript.stats[1].value"
       ]
     },
     {
@@ -2936,6 +2949,7 @@
       "of": "08aab9fc",
       "at": [
         "charlotte-christian:counseling.roster[2].role",
+        "charlotte-catholic:counseling.roster[6].role",
         "davidson-day:counseling.roster[2].role"
       ]
     },
@@ -3667,6 +3681,1420 @@
       "of": "cbefe47b",
       "at": [
         "charlotte-christian:verdict.checklist[7]"
+      ]
+    },
+    {
+      "t": "weighted మాత్రమే ఉన్న transcript, class rank లేదు, మరియు పరీక్ష ఐచ్ఛికం కాని AP కార్యక్రమం.",
+      "of": "e4ac1d86",
+      "at": [
+        "charlotte-catholic:transcript.headline"
+      ]
+    },
+    {
+      "t": "CCHS AP మరియు Honorsకు ఒక quality point జోడించి weighted GPAను మాత్రమే చూపుతుంది — కాబట్టి ఒక కళాశాల చదివే సంఖ్య అప్పటికే పాఠశాల సర్దుబాటు చేసినదే.",
+      "of": "c9a9b609",
+      "at": [
+        "charlotte-catholic:transcript.subhead"
+      ]
+    },
+    {
+      "t": "1,064",
+      "of": "b48e43e2",
+      "at": [
+        "charlotte-catholic:transcript.stats[0].value"
+      ]
+    },
+    {
+      "t": "2024-25లో రాసిన AP పరీక్షలు (345 మంది విద్యార్థులు, 11–12 తరగతులు)",
+      "of": "258374c4",
+      "at": [
+        "charlotte-catholic:transcript.stats[0].label"
+      ]
+    },
+    {
+      "t": "పరీక్ష రాసిన AP సబ్జెక్టులు",
+      "of": "81a1c702",
+      "at": [
+        "charlotte-catholic:transcript.stats[1].label"
+      ]
+    },
+    {
+      "t": "AP స్కోర్లలో 3 లేదా అంతకంటే ఎక్కువ వచ్చినవి",
+      "of": "f7596160",
+      "at": [
+        "charlotte-catholic:transcript.stats[2].label"
+      ]
+    },
+    {
+      "t": "72%",
+      "of": "09c2c10b",
+      "at": [
+        "charlotte-catholic:transcript.stats[3].value"
+      ]
+    },
+    {
+      "t": "AP స్కోర్లలో 4 లేదా 5 వచ్చినవి",
+      "of": "a9b17491",
+      "at": [
+        "charlotte-catholic:transcript.stats[3].label"
+      ]
+    },
+    {
+      "t": "National Merit మరియు service-academy గుర్తింపు",
+      "of": "5514378c",
+      "at": [
+        "charlotte-catholic:transcript.meritTitle"
+      ]
+    },
+    {
+      "t": "2 National Merit Finalists · 11 Commended Students",
+      "of": "f8de759a",
+      "at": [
+        "charlotte-catholic:transcript.merit[0].detail"
+      ]
+    },
+    {
+      "t": "3 US Naval Academy నియామకాలు",
+      "of": "c29c8896",
+      "at": [
+        "charlotte-catholic:transcript.merit[1].detail",
+        "charlotte-catholic:outcomes.scholarships[3]"
+      ]
+    },
+    {
+      "t": "Cornell Universityలో Army ROTC స్కాలర్‌షిప్",
+      "of": "9465449e",
+      "at": [
+        "charlotte-catholic:transcript.merit[2].detail",
+        "charlotte-catholic:outcomes.scholarships[4]"
+      ]
+    },
+    {
+      "t": "ప్రొఫైల్ Finalists మరియు Commended సంఖ్యలను ప్రచురిస్తుంది కానీ Semifinalist వివరాలు లేదా బహు-సంవత్సర శ్రేణి ఇవ్వదు — కాబట్టి ఈ నమోదు ఒక ధోరణి కాదు, ఒకే బ్యాచ్ వివరాలు.",
+      "of": "53132a19",
+      "at": [
+        "charlotte-catholic:transcript.meritNote"
+      ]
+    },
+    {
+      "t": "కోర్సు మార్గం ప్రామాణిక క్రమాన్ని దాటి ఎక్కడ సాగుతుంది",
+      "of": "0ef2cd78",
+      "at": [
+        "charlotte-catholic:transcript.depthTitle"
+      ]
+    },
+    {
+      "t": "Honors Pre-Calculus పైన Honors Calculus, AP Calculus AB, AP Calculus BC మరియు AP Statistics ఉన్నాయి — Pre-Calc తర్వాత నాలుగు ఎంపికలు.",
+      "of": "2558f927",
+      "at": [
+        "charlotte-catholic:transcript.depth[0].text"
+      ]
+    },
+    {
+      "t": "AP Biology, AP Chemistry, AP Environmental Science, AP Physics 1 మరియు AP Physics C: Mechanics, అదనంగా Honors Anatomy and Physiology, Honors Nutritional Science, Biotechnology, Forensic Science మరియు Sports Medicine.",
+      "of": "1e89d2c4",
+      "at": [
+        "charlotte-catholic:transcript.depth[1].text"
+      ]
+    },
+    {
+      "t": "కంప్యూటర్ సైన్స్ మరియు ఇంజనీరింగ్",
+      "of": "06ed98d8",
+      "at": [
+        "charlotte-catholic:transcript.depth[2].label"
+      ]
+    },
+    {
+      "t": "Honors Engineering Capstoneతో ముగిసే నాలుగు కోర్సుల ఇంజనీరింగ్ మార్గంపైన AP Computer Science A మరియు AP Cybersecurity Kickstart.",
+      "of": "9a8ce8a7",
+      "at": [
+        "charlotte-catholic:transcript.depth[2].text"
+      ]
+    },
+    {
+      "t": "సామాజిక శాస్త్రాలు",
+      "of": "f59e79d3",
+      "at": [
+        "charlotte-catholic:transcript.depth[3].label"
+      ]
+    },
+    {
+      "t": "AP US History, AP European History, AP Psychology, AP US Government మరియు AP Microeconomics — ఒకే విభాగంలో ఐదు AP ఎంపికలు.",
+      "of": "a63ebf60",
+      "at": [
+        "charlotte-catholic:transcript.depth[3].text"
+      ]
+    },
+    {
+      "t": "ప్రపంచ భాషలు",
+      "of": "9bf7ece4",
+      "at": [
+        "charlotte-catholic:transcript.depth[4].label"
+      ]
+    },
+    {
+      "t": "French, German, Latin మరియు Spanish ప్రతి ఒక్కటీ ఒక AP కోర్సు వరకు సాగుతాయి; Spanish ఆరో స్థాయి కోర్సు అయిన AP Spanish VI వరకు కొనసాగుతుంది.",
+      "of": "89de040b",
+      "at": [
+        "charlotte-catholic:transcript.depth[4].text"
+      ]
+    },
+    {
+      "t": "Classical మార్గం",
+      "of": "c302e1f8",
+      "at": [
+        "charlotte-catholic:transcript.depth[5].label"
+      ]
+    },
+    {
+      "t": "2025-26లో 9వ తరగతి బృందంతో కొత్తగా ప్రారంభమైన St. Augustine Scholars Program నాలుగు సంవత్సరాల classical మార్గాన్ని జోడిస్తుంది — తత్వశాస్త్రం, తర్కం, Latin, మూల గ్రంథాలు మరియు Socratic seminars.",
+      "of": "3559d91a",
+      "at": [
+        "charlotte-catholic:transcript.depth[5].text"
+      ]
+    },
+    {
+      "t": "గ్రేడ్‌ను చదవడానికి వీలుగా ఎలా రూపొందించారు",
+      "of": "a65729c5",
+      "at": [
+        "charlotte-catholic:transcript.trustTitle",
+        "gaston-day:transcript.trustTitle"
+      ]
+    },
+    {
+      "t": "weighted మాత్రమే",
+      "of": "4dcc1b22",
+      "at": [
+        "charlotte-catholic:transcript.trust[0].label"
+      ]
+    },
+    {
+      "t": "AP మరియు Honors తరగతులకు అదనంగా ఒక quality point. transcriptలో weighted GPA మాత్రమే కనిపిస్తుంది — పోల్చడానికి unweighted సంఖ్య ఏదీ ఉండదు.",
+      "of": "4bf351b5",
+      "at": [
+        "charlotte-catholic:transcript.trust[0].text"
+      ]
+    },
+    {
+      "t": "class rank లేదు",
+      "of": "71b29dfc",
+      "at": [
+        "charlotte-catholic:transcript.trust[1].label"
+      ]
+    },
+    {
+      "t": "\"Charlotte Catholic విద్యార్థులకు ర్యాంకులు ఇవ్వదు\" అని ప్రొఫైల్ స్పష్టంగా పేర్కొంటుంది. దాని బదులు 10-decile GPA చార్ట్ ప్రచురిస్తారు, కాబట్టి ర్యాంకు లేకుండానే ఒక కళాశాల విద్యార్థి స్థానాన్ని అంచనా వేయగలదు.",
+      "of": "e6d68c0d",
+      "at": [
+        "charlotte-catholic:transcript.trust[1].text"
+      ]
+    },
+    {
+      "t": "భారం ప్రమాణాలు ప్రకటించారు",
+      "of": "7f39a449",
+      "at": [
+        "charlotte-catholic:transcript.trust[2].label"
+      ]
+    },
+    {
+      "t": "\"అత్యంత కఠినమైనది\" అంటే junior సంవత్సరంలో 2 AP కోర్సులు మరియు senior సంవత్సరంలో 4 అని పాఠశాల నిర్వచిస్తుంది — గరిష్ఠ స్థాయిని ఊహించుకోమని వదిలేయకుండా చదివేవారికి చెబుతారు.",
+      "of": "22c9122a",
+      "at": [
+        "charlotte-catholic:transcript.trust[2].text"
+      ]
+    },
+    {
+      "t": "AP ప్రవేశం పోటీతో కూడుకున్నది",
+      "of": "065e14a7",
+      "at": [
+        "charlotte-catholic:transcript.trust[3].label"
+      ]
+    },
+    {
+      "t": "విద్యార్థులు ప్రతి AP కోర్సుకూ దరఖాస్తు చేసుకోవాలి; ప్రవేశ నిర్ణయంలో గత కోర్సులు మరియు గ్రేడ్‌లు, PSAT ఫలితాలు మరియు ఉపాధ్యాయుల అభిప్రాయాలను పరిగణిస్తారు. ఇక్కడ AP అందరికీ తెరిచిన ప్రవేశం కాదు.",
+      "of": "da26d8e9",
+      "at": [
+        "charlotte-catholic:transcript.trust[3].text"
+      ]
+    },
+    {
+      "t": "Honors ముందుగానే పరిమితం చేయబడుతుంది",
+      "of": "1440ba05",
+      "at": [
+        "charlotte-catholic:transcript.trust[4].label"
+      ]
+    },
+    {
+      "t": "9వ తరగతిలో గరిష్ఠంగా 1 honors తరగతి మరియు 10వ తరగతిలో 5, 9వ తరగతిలో గరిష్ఠంగా 3 ఉన్నత స్థాయి తరగతులు — కాబట్టి కింది తరగతుల transcript ఆకాంక్ష వల్ల కాకుండా విధానం వల్ల పరిమితం అవుతుంది.",
+      "of": "6f9b2003",
+      "at": [
+        "charlotte-catholic:transcript.trust[4].text"
+      ]
+    },
+    {
+      "t": "బదిలీ క్రెడిట్ మినహాయింపు",
+      "of": "c53d48bf",
+      "at": [
+        "charlotte-catholic:transcript.trust[5].label"
+      ]
+    },
+    {
+      "t": "transcripts Charlotte Catholicలో పూర్తి చేసిన తరగతులను మాత్రమే చూపుతాయి; బదిలీ transcripts CCHS రికార్డుకు జోడించబడవు.",
+      "of": "e147bd9a",
+      "at": [
+        "charlotte-catholic:transcript.trust[5].text"
+      ]
+    },
+    {
+      "t": "AP Scholar స్థాయిల సంఖ్యలు ప్రచురించలేదు. దాని బదులు ప్రొఫైల్ పరీక్ష స్థాయి పనితీరును ఇస్తుంది (1,064 పరీక్షల్లో 94% మంది 3 లేదా అంతకంటే ఎక్కువ సాధించారు), ఇది మరింత సమగ్రమైన సమాచారం — కానీ దీనివల్ల ఇతర పాఠశాలలు చూపే Scholar/Scholar with Distinction నమోదును ఇక్కడ రూపొందించలేం.",
+      "of": "c7fda898",
+      "at": [
+        "charlotte-catholic:transcript.flags[0].text"
+      ]
+    },
+    {
+      "t": "AP సంఖ్యలు 2024-25 నాటివి, పరీక్షలు మరియు decile సంఖ్యలు Class of 2026 నాటివి. రెండూ ప్రచురించిన విధంగానే ఉన్నాయి; వాటి మధ్య ఒక సంవత్సరం తేడా ఉంది మరియు వాటిని ఒకే ప్రకటనగా కలపలేదు.",
+      "of": "10e66944",
+      "at": [
+        "charlotte-catholic:transcript.flags[1].text"
+      ]
+    },
+    {
+      "t": "324 మంది seniorsకు ఆరుగురు counselors మరియు ఒక director — ఒక్కొక్కరికి సుమారు 54 మంది seniors.",
+      "of": "cd4ba521",
+      "at": [
+        "charlotte-catholic:counseling.headline"
+      ]
+    },
+    {
+      "t": "ఈ పని భారాన్ని ప్రొఫైల్‌లోని రెండు సంఖ్యల నుంచి లెక్కించారు, పాఠశాల దీన్ని నిష్పత్తిగా ప్రచురించలేదు.",
+      "of": "bea6d7c3",
+      "at": [
+        "charlotte-catholic:counseling.subhead"
+      ]
+    },
+    {
+      "t": "~54",
+      "of": "b38d6d98",
+      "at": [
+        "charlotte-catholic:counseling.stats[0].value"
+      ]
+    },
+    {
+      "t": "ఒక్కో counselorకు seniors (324 seniors ÷ 6 counselors)",
+      "of": "efe46ca6",
+      "at": [
+        "charlotte-catholic:counseling.stats[0].label"
+      ]
+    },
+    {
+      "t": "324",
+      "of": "3d4b676c",
+      "at": [
+        "charlotte-catholic:counseling.stats[1].value"
+      ]
+    },
+    {
+      "t": "Class of 2026లో చివరి సంవత్సరం విద్యార్థులు",
+      "of": "969c737b",
+      "at": [
+        "charlotte-catholic:counseling.stats[1].label",
+        "gaston-day:counseling.stats[2].label"
+      ]
+    },
+    {
+      "t": "~195",
+      "of": "2528dbfa",
+      "at": [
+        "charlotte-catholic:counseling.stats[2].value"
+      ]
+    },
+    {
+      "t": "9–12 తరగతుల్లో ఒక్కో counselorకు విద్యార్థులు",
+      "of": "03fa6172",
+      "at": [
+        "charlotte-catholic:counseling.stats[2].label"
+      ]
+    },
+    {
+      "t": "340 665",
+      "of": "b5b33251",
+      "at": [
+        "charlotte-catholic:counseling.stats[3].value"
+      ]
+    },
+    {
+      "t": "CEEB కోడ్",
+      "of": "8b28714f",
+      "at": [
+        "charlotte-catholic:counseling.stats[3].label",
+        "hickory-grove-christian:transcript.stats[3].label"
+      ]
+    },
+    {
+      "t": "కౌన్సెలింగ్ సేవల డైరెక్టర్",
+      "of": "fea07ca9",
+      "at": [
+        "charlotte-catholic:counseling.roster[0].role"
+      ]
+    },
+    {
+      "t": "sesovchen@charlottecatholic.org",
+      "of": "b3073910",
+      "at": [
+        "charlotte-catholic:counseling.roster[0].detail"
+      ]
+    },
+    {
+      "t": "కౌన్సెలర్",
+      "of": "be7455dd",
+      "at": [
+        "charlotte-catholic:counseling.roster[1].role",
+        "charlotte-catholic:counseling.roster[2].role",
+        "charlotte-catholic:counseling.roster[3].role",
+        "charlotte-catholic:counseling.roster[4].role",
+        "charlotte-catholic:counseling.roster[5].role",
+        "covenant-day:counseling.roster[1].role"
+      ]
+    },
+    {
+      "t": "clparks@charlottecatholic.org",
+      "of": "c4416a58",
+      "at": [
+        "charlotte-catholic:counseling.roster[1].detail"
+      ]
+    },
+    {
+      "t": "meclementi@charlottecatholic.org",
+      "of": "fed6ec31",
+      "at": [
+        "charlotte-catholic:counseling.roster[2].detail"
+      ]
+    },
+    {
+      "t": "smneedham@charlottecatholic.org",
+      "of": "6738e88a",
+      "at": [
+        "charlotte-catholic:counseling.roster[3].detail"
+      ]
+    },
+    {
+      "t": "krfisher@charlottecatholic.org",
+      "of": "12101ea2",
+      "at": [
+        "charlotte-catholic:counseling.roster[4].detail"
+      ]
+    },
+    {
+      "t": "hrnobary@charlottecatholic.org",
+      "of": "86882403",
+      "at": [
+        "charlotte-catholic:counseling.roster[5].detail"
+      ]
+    },
+    {
+      "t": "jmcramer@charlottecatholic.org",
+      "of": "fe8c36cf",
+      "at": [
+        "charlotte-catholic:counseling.roster[6].detail"
+      ]
+    },
+    {
+      "t": "counseling కార్యాలయం ప్రచురించే నాలుగు సంవత్సరాల కాలక్రమం",
+      "of": "7a9c97da",
+      "at": [
+        "charlotte-catholic:counseling.timelineTitle"
+      ]
+    },
+    {
+      "t": "పునాది",
+      "of": "d3bd8504",
+      "at": [
+        "charlotte-catholic:counseling.timeline[0].intensity"
+      ]
+    },
+    {
+      "t": "విద్యార్థి కోరిక ప్రకారం కాకుండా గత కోర్సులు, ప్రామాణిక పరీక్షలు మరియు ఉపాధ్యాయుల అభిప్రాయాల ఆధారంగా ప్రవేశ స్థాయిని నిర్ణయిస్తారు.",
+      "of": "83195120",
+      "at": [
+        "charlotte-catholic:counseling.timeline[0].items[0]"
+      ]
+    },
+    {
+      "t": "Honors ప్రవేశం ఒక కోర్సుకు పరిమితం; ఉన్నత స్థాయి కోర్సులు మూడింటికి.",
+      "of": "c144990b",
+      "at": [
+        "charlotte-catholic:counseling.timeline[0].items[1]"
+      ]
+    },
+    {
+      "t": "Class of 2028 నుంచి తత్వశాస్త్రం (0.5 credit) freshman సంవత్సరంలో చదవాలి.",
+      "of": "9f00a83a",
+      "at": [
+        "charlotte-catholic:counseling.timeline[0].items[2]"
+      ]
+    },
+    {
+      "t": "సేవ వెంటనే మొదలవుతుంది — March 1 లోపు 10 గంటలు సమర్పించాలి, వాటిలో కనీసం 5 parish సేవ.",
+      "of": "afa72801",
+      "at": [
+        "charlotte-catholic:counseling.timeline[0].items[3]"
+      ]
+    },
+    {
+      "t": "దృష్టి: decile చార్ట్ తర్వాత స్థానం నిర్ణయించే weighted GPAను ఏర్పరచుకోవడం.",
+      "of": "9432f1e1",
+      "at": [
+        "charlotte-catholic:counseling.timeline[0].note"
+      ]
+    },
+    {
+      "t": "విస్తరణ",
+      "of": "69bc6e8c",
+      "at": [
+        "charlotte-catholic:counseling.timeline[1].intensity"
+      ]
+    },
+    {
+      "t": "Honors ప్రవేశం గణనీయంగా విస్తరిస్తుంది — ఐదు honors కోర్సుల వరకు.",
+      "of": "9736e4e6",
+      "at": [
+        "charlotte-catholic:counseling.timeline[1].items[0]"
+      ]
+    },
+    {
+      "t": "PSAT ఫలితాలు AP ప్రవేశ నిర్ణయాలను ప్రభావితం చేయడం మొదలవుతుంది.",
+      "of": "3b91a2e8",
+      "at": [
+        "charlotte-catholic:counseling.timeline[1].items[1]"
+      ]
+    },
+    {
+      "t": "సేవ సంవత్సరానికి 20 గంటలకు పెరుగుతుంది, పట్టా పొందే వరకు ఇదే స్థాయిలో ఉంటుంది.",
+      "of": "2dec048b",
+      "at": [
+        "charlotte-catholic:counseling.timeline[1].items[2]"
+      ]
+    },
+    {
+      "t": "పాఠశాలలోని రెండు ప్రచురణ కోర్సులైన Journalism మరియు Yearbook ఐచ్ఛిక కోర్సులుగా అందుబాటులోకి వస్తాయి.",
+      "of": "23161b91",
+      "at": [
+        "charlotte-catholic:counseling.timeline[1].items[3]"
+      ]
+    },
+    {
+      "t": "AP కోర్సులు తొలిసారి అందుబాటులోకి వస్తాయి; విద్యార్థులు ప్రతి కోర్సుకూ దరఖాస్తు చేసుకుంటారు.",
+      "of": "b042b78e",
+      "at": [
+        "charlotte-catholic:counseling.timeline[2].items[0]"
+      ]
+    },
+    {
+      "t": "junior సంవత్సరంలో రెండు AP కోర్సులు అనేది పాఠశాల ప్రకటించిన \"అత్యంత కఠినమైన\" ప్రమాణం.",
+      "of": "ca6de875",
+      "at": [
+        "charlotte-catholic:counseling.timeline[2].items[1]"
+      ]
+    },
+    {
+      "t": "చదివిన ప్రతి AP కోర్సులోనూ AP పరీక్షలు తప్పనిసరి.",
+      "of": "1b64e7d6",
+      "at": [
+        "charlotte-catholic:counseling.timeline[2].items[2]"
+      ]
+    },
+    {
+      "t": "కళాశాల ప్రవేశ ప్రతినిధులు ఆవరణను సందర్శిస్తారు — NC State CCHSను ఒక ప్రత్యేక recruiting ప్రదేశంగా పేర్కొంటుంది.",
+      "of": "9591ca1f",
+      "at": [
+        "charlotte-catholic:counseling.timeline[2].items[3]"
+      ]
+    },
+    {
+      "t": "దరఖాస్తు",
+      "of": "22af01e5",
+      "at": [
+        "charlotte-catholic:counseling.timeline[3].intensity",
+        "carmel-christian:counseling.mechanics[3]"
+      ]
+    },
+    {
+      "t": "senior సంవత్సరంలో నాలుగు AP కోర్సులు \"అత్యంత కఠినమైన\" భారాన్ని పూర్తి చేస్తాయి.",
+      "of": "592065bb",
+      "at": [
+        "charlotte-catholic:counseling.timeline[3].items[0]"
+      ]
+    },
+    {
+      "t": "counseling కార్యాలయం Common Application వ్యాస ప్రశ్నలను ప్రచురిస్తుంది మరియు వాటి ఆధారంగా రాయడంలో సహాయపడుతుంది.",
+      "of": "a29ed415",
+      "at": [
+        "charlotte-catholic:counseling.timeline[3].items[1]"
+      ]
+    },
+    {
+      "t": "transcripts weighted GPAను కలిగి ఉంటాయి, ర్యాంకు ఉండదు; decile చార్ట్ ప్రొఫైల్‌తో పాటు వెళ్తుంది.",
+      "of": "e9b0bae2",
+      "at": [
+        "charlotte-catholic:counseling.timeline[3].items[2]"
+      ]
+    },
+    {
+      "t": "చివరి సేవా గంటలు March 1 లోపు సమర్పించాలి, దీంతో 70 గంటల పట్టా నిబంధన పూర్తవుతుంది.",
+      "of": "99346f4b",
+      "at": [
+        "charlotte-catholic:counseling.timeline[3].items[3]"
+      ]
+    },
+    {
+      "t": "ఈ కార్యాలయం బాధ్యతలు",
+      "of": "b7f34fc5",
+      "at": [
+        "charlotte-catholic:counseling.mechanicsTitle"
+      ]
+    },
+    {
+      "t": "master schedule పరిధిలో కోర్సు ప్రవేశం మరియు స్థాయి మార్పులు",
+      "of": "cbd163ab",
+      "at": [
+        "charlotte-catholic:counseling.mechanics[0]"
+      ]
+    },
+    {
+      "t": "AP కోర్సు దరఖాస్తులు మరియు పోటీ ఆధారిత ప్రవేశ నిర్ణయం",
+      "of": "15a7f56c",
+      "at": [
+        "charlotte-catholic:counseling.mechanics[1]"
+      ]
+    },
+    {
+      "t": "ప్రతి transcriptతో పాటు వెళ్లే పాఠశాల ప్రొఫైల్",
+      "of": "89f45f50",
+      "at": [
+        "charlotte-catholic:counseling.mechanics[2]"
+      ]
+    },
+    {
+      "t": "seniors కోసం Common Application వ్యాస ప్రశ్నలపై మార్గదర్శకత్వం",
+      "of": "7cef8d72",
+      "at": [
+        "charlotte-catholic:counseling.mechanics[3]"
+      ]
+    },
+    {
+      "t": "ఆవరణలో ప్రవేశ ప్రతినిధులకు ఆతిథ్యం",
+      "of": "fc492a71",
+      "at": [
+        "charlotte-catholic:counseling.mechanics[4]"
+      ]
+    },
+    {
+      "t": "transcript తయారీ మరియు registrar బాధ్యతలు",
+      "of": "07394321",
+      "at": [
+        "charlotte-catholic:counseling.mechanics[5]"
+      ]
+    },
+    {
+      "t": "Junior మరియు senior కళాశాల ప్రక్రియ వివరాలు HTML రూపంలో కాకుండా Prezi ప్రదర్శనలుగా ప్రచురించబడ్డాయి, కాబట్టి ఈ జాబితా చూపే దానికంటే ఎక్కువ నిర్మాణాన్ని ఈ కార్యాలయం దాదాపు ఖచ్చితంగా నిర్వహిస్తుంది. లభ్యమైన ప్రచురిత సమాచారంలో ధ్రువీకరించదగినవి మాత్రమే ఇక్కడ జాబితా చేశాం.",
+      "of": "d782139c",
+      "at": [
+        "charlotte-catholic:counseling.mechanicsNote"
+      ]
+    },
+    {
+      "t": "పరిధి మరియు సాధనాలు",
+      "of": "0012b2ca",
+      "at": [
+        "charlotte-catholic:counseling.reachTitle",
+        "gaston-day:counseling.reachTitle"
+      ]
+    },
+    {
+      "t": "NC State University Charlotte Catholicను ఒక ప్రత్యేక ప్రవేశ-సందర్శన ప్రదేశంగా పేర్కొంటుంది.",
+      "of": "d2706b4c",
+      "at": [
+        "charlotte-catholic:counseling.reach[0]"
+      ]
+    },
+    {
+      "t": "Class of 2025 పట్టభద్రులు మూడు సంవత్సరాల్లో 169 వేర్వేరు కళాశాలలు మరియు విశ్వవిద్యాలయాల్లో చేరారు.",
+      "of": "a849751f",
+      "at": [
+        "charlotte-catholic:counseling.reach[1]"
+      ]
+    },
+    {
+      "t": "Class of 2025లో 38% మంది ఉత్తర Carolinaలోనే ఉన్నారు; 81% మంది ప్రభుత్వ విశ్వవిద్యాలయాల్లో చేరారు.",
+      "of": "acf0d9aa",
+      "at": [
+        "charlotte-catholic:counseling.reach[2]"
+      ]
+    },
+    {
+      "t": "2025లో మూడు US Naval Academy నియామకాలు, అదనంగా Cornellలో ఒక Army ROTC స్కాలర్‌షిప్.",
+      "of": "24c3ac47",
+      "at": [
+        "charlotte-catholic:counseling.reach[3]"
+      ]
+    },
+    {
+      "t": "~54:1 senior పని భారాన్ని ప్రొఫైల్‌లోని 324 seniors మరియు ఆరుగురు పేర్కొన్న counselors నుంచి లెక్కించారు. పాఠశాల ఎలాంటి నిష్పత్తిని ప్రచురించదు, మరియు ఇక్కడ directorను కూడా ఒక counselorగా లెక్కించారు.",
+      "of": "ab0e9a6f",
+      "at": [
+        "charlotte-catholic:counseling.flags[0].text"
+      ]
+    },
+    {
+      "t": "ప్రస్తుత counselors పేజీ 2026-27 జాబితాను చూపుతుంది, అందులో Sandy Needham తొలగించబడి Kate McHugh చేర్చబడ్డారు. ఈ కార్డు అంతటా 2025-2026 ప్రొఫైల్ జాబితాను ఉపయోగించారు, తద్వారా ఆరుగురు counselors మరియు 324 seniors ఒకే సంవత్సరానికి చెందినవి అవుతాయి.",
+      "of": "2ec7bc5f",
+      "at": [
+        "charlotte-catholic:counseling.flags[1].text"
+      ]
+    },
+    {
+      "t": "junior మరియు senior కళాశాల ప్రణాళిక పేజీలు Prezi ప్రదర్శనలను కలిగి ఉన్నాయి, వాటి విషయాలను వచనంగా అందుకోలేం. అందుకే పైన ఉన్న నాలుగు సంవత్సరాల కాలక్రమం ఆ కార్యాలయ సొంత ప్రక్రియ ప్రదర్శన నుంచి కాకుండా ప్రచురిత విధానాల నుంచి రూపొందించబడింది.",
+      "of": "9c090894",
+      "at": [
+        "charlotte-catholic:counseling.flags[2].text"
+      ]
+    },
+    {
+      "t": "మూడు సంవత్సరాల్లో 169 కళాశాలలు CCHS పట్టభద్రులను చేర్చుకున్నాయి — మరియు ఒక్క బ్యాచ్‌కు $17,242,184 స్కాలర్‌షిప్‌లు.",
+      "of": "4bb13519",
+      "at": [
+        "charlotte-catholic:outcomes.headline"
+      ]
+    },
+    {
+      "t": "ఇది చేరిక జాబితా: పట్టభద్రులు నిజంగా ఎక్కడ చేరారో చూపుతుంది, వారికి ప్రవేశం లభించిన ప్రతిచోటూ కాదు.",
+      "of": "5ef00101",
+      "at": [
+        "charlotte-catholic:outcomes.subhead"
+      ]
+    },
+    {
+      "t": "169",
+      "of": "f42ea265",
+      "at": [
+        "charlotte-catholic:outcomes.stats[0].value"
+      ]
+    },
+    {
+      "t": "చేరిన సంస్థలు, 2023–2025 బ్యాచ్‌లు",
+      "of": "8ee9d658",
+      "at": [
+        "charlotte-catholic:outcomes.stats[0].label"
+      ]
+    },
+    {
+      "t": "95%",
+      "of": "5ec35102",
+      "at": [
+        "charlotte-catholic:outcomes.stats[1].value",
+        "gaston-day:transcript.stats[0].value",
+        "gaston-day:outcomes.stats[0].value"
+      ]
+    },
+    {
+      "t": "Class of 2025లో నేరుగా ఉన్నత విద్యకు వెళ్లినవారు",
+      "of": "ac173c60",
+      "at": [
+        "charlotte-catholic:outcomes.stats[1].label"
+      ]
+    },
+    {
+      "t": "$17,242,184",
+      "of": "09f926f8",
+      "at": [
+        "charlotte-catholic:outcomes.stats[2].value"
+      ]
+    },
+    {
+      "t": "Class of 2025 సాధించిన స్కాలర్‌షిప్‌లు",
+      "of": "b0340183",
+      "at": [
+        "charlotte-catholic:outcomes.stats[2].label"
+      ]
+    },
+    {
+      "t": "38%",
+      "of": "c2643db1",
+      "at": [
+        "charlotte-catholic:outcomes.stats[3].value"
+      ]
+    },
+    {
+      "t": "Class of 2025లో ఉత్తర Carolinaలోనే ఉన్నవారు",
+      "of": "596b039c",
+      "at": [
+        "charlotte-catholic:outcomes.stats[3].label"
+      ]
+    },
+    {
+      "t": "మూడు బ్యాచ్‌లలో ఎంపిక కఠినత్వ శ్రేణులు",
+      "of": "4d3d643d",
+      "at": [
+        "charlotte-catholic:outcomes.bucketsTitle"
+      ]
+    },
+    {
+      "t": "Brown మరియు Columbia మినహా",
+      "of": "2cb7533b",
+      "at": [
+        "charlotte-catholic:outcomes.buckets[0].note"
+      ]
+    },
+    {
+      "t": "Ivy Plus",
+      "of": "919e817b",
+      "at": [
+        "charlotte-catholic:outcomes.buckets[1].tier"
+      ]
+    },
+    {
+      "t": "ఆరు Ivies మరియు Duke, Georgetown మరియు Northwestern",
+      "of": "81cd627c",
+      "at": [
+        "charlotte-catholic:outcomes.buckets[1].note"
+      ]
+    },
+    {
+      "t": "అగ్రస్థాయి 75 Liberal Arts Colleges",
+      "of": "0258d77e",
+      "at": [
+        "charlotte-catholic:outcomes.buckets[3].tier"
+      ]
+    },
+    {
+      "t": "మూడు service academies కలిపి — Naval #3, Air Force #5, West Point #10",
+      "of": "141cfeb4",
+      "at": [
+        "charlotte-catholic:outcomes.buckets[3].note"
+      ]
+    },
+    {
+      "t": "40 వరుసలకు ఈ ట్యాగ్ ఉంది; రెండు Arizona State ఆవరణలు ఒకే సంస్థ",
+      "of": "56fcacc4",
+      "at": [
+        "charlotte-catholic:outcomes.buckets[4].note"
+      ]
+    },
+    {
+      "t": "Hampton University మరియు Benedict College",
+      "of": "556c0e0a",
+      "at": [
+        "charlotte-catholic:outcomes.buckets[5].note"
+      ]
+    },
+    {
+      "t": "ఇక్కడి ప్రతి శ్రేణీ ప్రవేశాలను కాకుండా చేరికలను లెక్కిస్తుంది. ఒక విద్యార్థికి అనేక కళాశాలల్లో ప్రవేశం లభించి ఒకదానిలో మాత్రమే చేరతారు, కాబట్టి ఈ సంఖ్యలు ప్రవేశాల ఆధారిత జాబితా కంటే నిర్మాణపరంగానే తక్కువగా ఉంటాయి మరియు ప్రవేశాలను ప్రచురించే పాఠశాల కంటే కఠినమైన లేదా బలహీనమైన ఫలితంగా వీటిని చదవకూడదు.",
+      "of": "689df72c",
+      "at": [
+        "charlotte-catholic:outcomes.bucketsNote"
+      ]
+    },
+    {
+      "t": "ప్రతి చేరిక, 2023–2025",
+      "of": "9a179c63",
+      "at": [
+        "charlotte-catholic:outcomes.collegesTitle"
+      ]
+    },
+    {
+      "t": "169 సంస్థలు · ఒక్కో సంస్థకు ఎంతమంది చేరారో ప్రొఫైల్ ప్రచురించదు",
+      "of": "a77b3f8e",
+      "at": [
+        "charlotte-catholic:outcomes.collegesTotal"
+      ]
+    },
+    {
+      "t": "స్కాలర్‌షిప్‌లు మరియు గుర్తింపు",
+      "of": "753ebcd6",
+      "at": [
+        "charlotte-catholic:outcomes.scholarshipsTitle"
+      ]
+    },
+    {
+      "t": "$17,242,184 — Class of 2025 మొత్తం",
+      "of": "e1750e92",
+      "at": [
+        "charlotte-catholic:outcomes.scholarships[0]"
+      ]
+    },
+    {
+      "t": "2 National Merit Finalists (2025)",
+      "of": "6eaf81e9",
+      "at": [
+        "charlotte-catholic:outcomes.scholarships[1]"
+      ]
+    },
+    {
+      "t": "11 National Merit Commended Students (2025)",
+      "of": "3929d148",
+      "at": [
+        "charlotte-catholic:outcomes.scholarships[2]"
+      ]
+    },
+    {
+      "t": "స్కాలర్‌షిప్ మొత్తం పాఠశాల ప్రచురించిన బ్యాచ్ మొత్తం సంఖ్య; ఇది సంస్థల వారీగా, ప్రతిభ-వర్సెస్-అవసరం ప్రకారం లేదా ఒక్కో విద్యార్థికి విడివిడిగా ఇవ్వబడలేదు.",
+      "of": "2435a83d",
+      "at": [
+        "charlotte-catholic:outcomes.scholarshipsNote"
+      ]
+    },
+    {
+      "t": "ప్రొఫైల్ స్వంత శీర్షిక \"COLLEGE MATRICULATION CLASSES OF 2023-2025\" — అంటే పట్టభద్రులు ఎక్కడ చేరారో ఇది చూపుతుంది. ఈ జాబితాలోని కొన్ని పాఠశాలలు దీనికి బదులు ప్రవేశాల జాబితాలను ప్రచురిస్తాయి, అవి నిర్మాణపరంగానే చాలా పొడవుగా ఉంటాయి. ఈ రెండింటినీ నేరుగా పోల్చడం CCHSను తక్కువ చేసి చూపుతుంది.",
+      "of": "d8ebac5b",
+      "at": [
+        "charlotte-catholic:outcomes.caveat"
+      ]
+    },
+    {
+      "t": "ఒక్కో సంస్థకు ఎంతమంది చేరారనే సంఖ్యలు ప్రచురించలేదు, కాబట్టి ఈ జాబితాలోని ఏ కళాశాలనూ ఒకరి కంటే ఎక్కువ మంది పట్టభద్రులను చేర్చుకున్నట్టు గుర్తించలేం.",
+      "of": "fc03e1db",
+      "at": [
+        "charlotte-catholic:outcomes.flags[0].text"
+      ]
+    },
+    {
+      "t": "శ్రేణుల కేటాయింపును పాఠశాల కాకుండా యాప్ ప్రధాన U.S. News 2026 పట్టిక ఆధారంగా నిర్ణయించారు, పాఠశాల సంస్థల పేర్లను మాత్రమే ప్రచురిస్తుంది.",
+      "of": "f4fb173b",
+      "at": [
+        "charlotte-catholic:outcomes.flags[1].text"
+      ]
+    },
+    {
+      "t": "ఒక CCHS దరఖాస్తును నిజంగా ఏది ముందుకు నడిపిస్తుంది.",
+      "of": "c3b449f4",
+      "at": [
+        "charlotte-catholic:edge.headline"
+      ]
+    },
+    {
+      "t": "ఒకటి విద్యార్థి స్వయంగా నిర్మించుకునేది, మరొకటి డయోసిస్ వ్యవస్థలో 74 ఛాంపియన్‌షిప్‌ల NCHSAA కార్యక్రమంగా పాఠశాల అందించేది.",
+      "of": "4e9212bc",
+      "at": [
+        "charlotte-catholic:edge.subhead"
+      ]
+    },
+    {
+      "t": "విద్యార్థి చేతిలో ఉన్నవి",
+      "of": "267b2867",
+      "at": [
+        "charlotte-catholic:edge.levers[0].hint"
+      ]
+    },
+    {
+      "t": "పాఠశాల అత్యంత కఠినమైనదిగా పేర్కొన్న AP భారాన్ని తీసుకోండి — junior సంవత్సరంలో 2, senior సంవత్సరంలో 4 — మరియు ప్రతి కోర్సుకూ పోటీ దరఖాస్తులో నెగ్గండి.",
+      "of": "049aeaf5",
+      "at": [
+        "charlotte-catholic:edge.levers[0].items[0]"
+      ]
+    },
+    {
+      "t": "ప్రతి AP కోర్సులోనూ AP పరీక్ష రాయండి; ఇక్కడ ఇది తప్పనిసరి, కాబట్టి 3 లేదా అంతకంటే ఎక్కువ సాధించిన 94% అనేది విద్యార్థి తప్పించుకోలేని, తానూ భాగమైన బ్యాచ్ ఫలితం.",
+      "of": "d3539bac",
+      "at": [
+        "charlotte-catholic:edge.levers[0].items[1]"
+      ]
+    },
+    {
+      "t": "70 సేవా గంటలను దాటి వెళ్లండి. ఈ నిబంధన అందరికీ వర్తిస్తుంది, కాబట్టి గంటలు మాత్రమే ప్రత్యేకతను ఇవ్వవు — వాటి వెనుక ఉన్న parish మరియు నాయకత్వ బాధ్యతలే ఇస్తాయి.",
+      "of": "f9e3082f",
+      "at": [
+        "charlotte-catholic:edge.levers[0].items[2]"
+      ]
+    },
+    {
+      "t": "76 క్లబ్‌ల డైరెక్టరీని విస్తృతి కోసం కాకుండా లోతు కోసం వాడుకోండి: ఏడు honor societiesకు ప్రచురించిన GPA పరిమితులు ఉన్నాయి, NHSకు 3.9 నుంచి గణితంలో Mu Alpha Thetaకు 4.5 వరకు.",
+      "of": "f8e02a97",
+      "at": [
+        "charlotte-catholic:edge.levers[0].items[3]"
+      ]
+    },
+    {
+      "t": "classical లేదా వేదాంత దిశగా ఉన్న దరఖాస్తుకు, St. Augustine Scholars Program అనేది ఎక్కడైనా చాలా తక్కువ మంది దరఖాస్తుదారులు కలిగి ఉండే నాలుగు సంవత్సరాల ప్రత్యేకత.",
+      "of": "8dcd7154",
+      "at": [
+        "charlotte-catholic:edge.levers[0].items[4]"
+      ]
+    },
+    {
+      "t": "CCHS అందించేవి",
+      "of": "31357b9d",
+      "at": [
+        "charlotte-catholic:edge.levers[1].hint"
+      ]
+    },
+    {
+      "t": "క్రీడా recruiting పరిధి నిజమైనది మరియు అసాధారణమైనది: 2000 నుంచి 74 రాష్ట్ర ఛాంపియన్‌షిప్‌లు, 8 Wells Fargo Cups, మరియు NCAA, NAIA లేదా junior-college స్థాయిలో ఆడిన 1000+ పూర్వ విద్యార్థులు.",
+      "of": "32895cd1",
+      "at": [
+        "charlotte-catholic:edge.levers[1].items[0]"
+      ]
+    },
+    {
+      "t": "ప్రభుత్వ పాఠశాలల సంఘమైన NCHSAAలో పోటీపడుతున్న నాలుగు parochial పాఠశాలల్లో CCHS ఒకటి — కాబట్టి దాని క్రీడాకారులను ప్రైవేట్ పాఠశాలల విభాగంతో కాకుండా రాష్ట్రంలోని అతిపెద్ద కార్యక్రమాలతో పోల్చి అంచనా వేస్తారు.",
+      "of": "d3498cc6",
+      "at": [
+        "charlotte-catholic:edge.levers[1].items[1]"
+      ]
+    },
+    {
+      "t": "ప్రవేశ సమీక్షకుడి కోసం పాఠశాల ప్రొఫైల్ వివరణాత్మక పని చేస్తుంది: decile చార్ట్, ప్రకటిత భార ప్రమాణాలు, స్పష్టమైన ర్యాంకు-లేని విధానం మరియు నిర్వచించిన \"అత్యంత కఠినమైన\" ప్రమాణం.",
+      "of": "ce521d2a",
+      "at": [
+        "charlotte-catholic:edge.levers[1].items[2]"
+      ]
+    },
+    {
+      "t": "డయోసిస్ స్థాయి ఫలితాల్లో కనిపిస్తుంది — ఒకే బ్యాచ్‌లో మూడు Naval Academy నియామకాలు, మరియు మూడు academiesలోనూ service-academy చేరికలు.",
+      "of": "f3f78e01",
+      "at": [
+        "charlotte-catholic:edge.levers[1].items[3]"
+      ]
+    },
+    {
+      "t": "2022లో ప్రారంభించిన 650 సీట్ల Fine Arts Center, Charlotte Symphony భాగస్వామ్యం, మరియు ప్రతి నాలుగు సంవత్సరాలకు ఒకసారి Dublinలో ప్రదర్శన ఇచ్చే బ్యాండ్ కళల దరఖాస్తుదారులకు portfolio వేదికను అందిస్తాయి.",
+      "of": "142de12e",
+      "at": [
+        "charlotte-catholic:edge.levers[1].items[4]"
+      ]
+    },
+    {
+      "t": "ప్రచురించిన Naviance/SCOIR తరహా scattergram ఏదీ లేదు, కాబట్టి ఈ పాఠశాలకు GPA శ్రేణుల వారీగా ప్రవేశ రేట్లను ఒక కుటుంబం చూడలేదు.",
+      "of": "a8cc761d",
+      "at": [
+        "charlotte-catholic:edge.levers[1].note"
+      ]
+    },
+    {
+      "t": "CCHS ఎలాంటి ప్రవేశ-ఫలిత సాధనాన్ని ప్రచురించదు (scattergrams లేవు, శ్రేణుల వారీగా ప్రవేశ రేట్లు లేవు), కాబట్టి \"దీనికి ఏమి కావాలి\" అనే ప్రశ్నకు పాఠశాల స్వంత సమాచారం నుంచి సంఖ్యాపరంగా సమాధానం ఇవ్వలేం.",
+      "of": "fa3ff6f7",
+      "at": [
+        "charlotte-catholic:edge.flags[0].text"
+      ]
+    },
+    {
+      "t": "కేవలం అగ్రస్థాయి విద్యార్థులే కాదు, మొత్తం బ్యాచ్.",
+      "of": "1c346cce",
+      "at": [
+        "charlotte-catholic:wholeClass.headline"
+      ]
+    },
+    {
+      "t": "CCHS mid-50% పరీక్ష శ్రేణులను మరియు 10-decile GPA చార్టును ప్రచురిస్తుంది — ఒక విద్యార్థి స్థానాన్ని నిజాయితీగా అంచనా వేయడానికి ఇది సరిపోతుంది, మరియు వారికి ర్యాంకులు ఇవ్వడానికి నిరాకరిస్తుంది.",
+      "of": "e57969d0",
+      "at": [
+        "charlotte-catholic:wholeClass.subhead"
+      ]
+    },
+    {
+      "t": "SAT మరియు ACT, mid-50% శ్రేణులు",
+      "of": "29617c6d",
+      "at": [
+        "charlotte-catholic:wholeClass.scoreTables[0].title"
+      ]
+    },
+    {
+      "t": "Class of 2026 · 226 మంది SAT రాశారు · 144 మంది ACT రాశారు",
+      "of": "ee54fb07",
+      "at": [
+        "charlotte-catholic:wholeClass.scoreTables[0].hint"
+      ]
+    },
+    {
+      "t": "పాఠశాల mid-50% శ్రేణిని ప్రచురిస్తుంది, percentiles కాదు, సగటు కూడా కాదు. mid-50% శ్రేణి చివరి బిందువులు నిర్వచనం ప్రకారం 25వ మరియు 75వ percentiles, కాబట్టి ఆ రెండు నిలువు వరుసలు నిజమైనవి; 10వ, 50వ, 90వ మరియు సగటు ప్రచురించలేదు, కాబట్టి వాటిని ఊహించకుండా em-dashలుగా చూపారు. విభాగాల వారీ (EBRW / Math) విభజన ప్రచురించలేదు.",
+      "of": "12b58580",
+      "at": [
+        "charlotte-catholic:wholeClass.scoreTables[0].note"
+      ]
+    },
+    {
+      "t": "weighted GPA పంపిణీ",
+      "of": "fdd82d64",
+      "at": [
+        "charlotte-catholic:wholeClass.gpaTitle"
+      ]
+    },
+    {
+      "t": "— Class of 2026 · పాఠశాల 10-decile చార్ట్ నుంచి · weighted, మరియు CCHS ర్యాంకులు ఇవ్వదు",
+      "of": "e499874a",
+      "at": [
+        "charlotte-catholic:wholeClass.gpaHint"
+      ]
+    },
+    {
+      "t": "పై ఐదవ వంతు",
+      "of": "8ccab3f5",
+      "at": [
+        "charlotte-catholic:wholeClass.quintiles[0].label"
+      ]
+    },
+    {
+      "t": "1వ మరియు 2వ deciles",
+      "of": "c468ab17",
+      "at": [
+        "charlotte-catholic:wholeClass.quintiles[0].detail"
+      ]
+    },
+    {
+      "t": "Q2",
+      "of": "9cfce14a",
+      "at": [
+        "charlotte-catholic:wholeClass.quintiles[1].label"
+      ]
+    },
+    {
+      "t": "3వ మరియు 4వ deciles",
+      "of": "903581b4",
+      "at": [
+        "charlotte-catholic:wholeClass.quintiles[1].detail"
+      ]
+    },
+    {
+      "t": "Q3",
+      "of": "9dfce2dd",
+      "at": [
+        "charlotte-catholic:wholeClass.quintiles[2].label"
+      ]
+    },
+    {
+      "t": "5వ మరియు 6వ deciles",
+      "of": "2cabaed6",
+      "at": [
+        "charlotte-catholic:wholeClass.quintiles[2].detail"
+      ]
+    },
+    {
+      "t": "Q4",
+      "of": "96fcd7d8",
+      "at": [
+        "charlotte-catholic:wholeClass.quintiles[3].label"
+      ]
+    },
+    {
+      "t": "7వ మరియు 8వ deciles",
+      "of": "94f15eda",
+      "at": [
+        "charlotte-catholic:wholeClass.quintiles[3].detail"
+      ]
+    },
+    {
+      "t": "కింది ఐదవ వంతు",
+      "of": "62ac004b",
+      "at": [
+        "charlotte-catholic:wholeClass.quintiles[4].label"
+      ]
+    },
+    {
+      "t": "9వ మరియు 10వ deciles",
+      "of": "86d41217",
+      "at": [
+        "charlotte-catholic:wholeClass.quintiles[4].detail"
+      ]
+    },
+    {
+      "t": "CCHS quintiles కాకుండా DECILES ప్రచురిస్తుంది; పైన ఉన్న ప్రతి వరుసా ప్రచురించిన రెండు వరుస decilesను జతపరుస్తుంది, మరియు మూల శ్రేణులు వివరణ పంక్తిలో ఇవ్వబడ్డాయి కాబట్టి ఈ జతపరచడం వల్ల ఏదీ దాగిపోదు. ప్రచురించిన deciles: 1వది 4.38–4.63, 2వది 4.26–4.37, 3వది 4.10–4.25, 4వది 3.96–4.09, 5వది 3.83–3.95, 6వది 3.71–3.82, 7వది 3.56–3.70, 8వది 3.37–3.54, 9వది 3.16–3.36, 10వది 2.25–3.14. ప్రతి సంఖ్యా weighted, AP మరియు Honorsకు ఒక quality point జోడించి.",
+      "of": "3ad653e8",
+      "at": [
+        "charlotte-catholic:wholeClass.gpaNote"
+      ]
+    },
+    {
+      "t": "విద్యాపరమైన మద్దతు",
+      "of": "217ce3fd",
+      "at": [
+        "charlotte-catholic:wholeClass.supportTitle"
+      ]
+    },
+    {
+      "t": "Guided Academic Support",
+      "of": "9b78fbb3",
+      "at": [
+        "charlotte-catholic:wholeClass.support[0].label"
+      ]
+    },
+    {
+      "t": "ఇది తరగతి నుంచి బయటకు తీసుకెళ్లే సేవ కాకుండా సమయ పట్టికలో ఉన్న కోర్సు (511) — మద్దతు సమయ పట్టిక లోపలే ఉంటుంది.",
+      "of": "8bd110ef",
+      "at": [
+        "charlotte-catholic:wholeClass.support[0].text"
+      ]
+    },
+    {
+      "t": "Options Program",
+      "of": "87c933d1",
+      "at": [
+        "charlotte-catholic:wholeClass.support[1].label"
+      ]
+    },
+    {
+      "t": "పూర్తి సమాంతర మార్గం — Options English 9–12, Options Year 1–4, Options PE, Math Life 1–2, Options Personal Finance మరియు Options Financial Management: మొత్తం 14 కోర్సులు.",
+      "of": "fd1460c0",
+      "at": [
+        "charlotte-catholic:wholeClass.support[1].text"
+      ]
+    },
+    {
+      "t": "Pathway Program",
+      "of": "8c9998c9",
+      "at": [
+        "charlotte-catholic:wholeClass.support[2].label"
+      ]
+    },
+    {
+      "t": "Options మార్గంతో పాటు ఒక ప్రత్యేక pathway కోర్సు (507).",
+      "of": "d2ffa010",
+      "at": [
+        "charlotte-catholic:wholeClass.support[2].text"
+      ]
+    },
+    {
+      "t": "Study Hall",
+      "of": "7e263085",
+      "at": [
+        "charlotte-catholic:wholeClass.support[3].label"
+      ]
+    },
+    {
+      "t": "సమయ పట్టికలో ఉంటుంది (100), కాబట్టి మద్దతు ఉన్న సమయ పట్టిక కోసం ఒక ఐచ్ఛిక కోర్సును వదులుకోవాల్సిన అవసరం లేదు.",
+      "of": "c18615f6",
+      "at": [
+        "charlotte-catholic:wholeClass.support[3].text"
+      ]
+    },
+    {
+      "t": "CCHS ఎలాంటి అభ్యసన-భేద విధాన పత్రాన్ని, సదుపాయాల సంఖ్యలను లేదా నిర్ధారణ-మద్దతు సిబ్బంది వివరాలను ప్రచురించదు. Options మరియు Pathways కోర్సులు పాఠ్యప్రణాళిక మార్గదర్శిలో కనిపిస్తాయి; వాటి వెనుక ఉన్న సేవలను బహిరంగంగా వివరించలేదు.",
+      "of": "59d252db",
+      "at": [
+        "charlotte-catholic:wholeClass.supportNote"
+      ]
+    },
+    {
+      "t": "మధ్య శ్రేణిని ప్రచురిస్తారు",
+      "of": "46fad6ce",
+      "at": [
+        "charlotte-catholic:wholeClass.middle[0].label"
+      ]
+    },
+    {
+      "t": "5వ మరియు 6వ deciles 3.83–3.95 మరియు 3.71–3.82 మధ్య ఉన్నాయి — ఒక కుటుంబం మధ్యస్థ విద్యార్థి స్థానాన్ని గుర్తించగలదు, సగటులను మాత్రమే ప్రచురించే పాఠశాల దీన్ని దాచేస్తుంది.",
+      "of": "c85f457f",
+      "at": [
+        "charlotte-catholic:wholeClass.middle[0].text"
+      ]
+    },
+    {
+      "t": "కింది decileను దాచలేదు",
+      "of": "9ac7f076",
+      "at": [
+        "charlotte-catholic:wholeClass.middle[1].label"
+      ]
+    },
+    {
+      "t": "10వ decileను కత్తిరించకుండా 2.25–3.14గా ప్రచురించారు, ఇది పాఠశాల ప్రొఫైల్‌కు అసాధారణమైన నిజాయితీ.",
+      "of": "5ba0fbcb",
+      "at": [
+        "charlotte-catholic:wholeClass.middle[1].text"
+      ]
+    },
+    {
+      "t": "95% మంది వెంటనే కొనసాగుతారు",
+      "of": "f815cd59",
+      "at": [
+        "charlotte-catholic:wholeClass.middle[2].label"
+      ]
+    },
+    {
+      "t": "Class of 2025లో 95% మంది నేరుగా ఉన్నత విద్యకు మరియు 2% మంది రెండేళ్ల సంస్థలకు వెళ్లారు.",
+      "of": "5a83df62",
+      "at": [
+        "charlotte-catholic:wholeClass.middle[2].text"
+      ]
+    },
+    {
+      "t": "ప్రభుత్వ విశ్వవిద్యాలయాల వైపు మొగ్గు",
+      "of": "1beea95c",
+      "at": [
+        "charlotte-catholic:wholeClass.middle[3].label"
+      ]
+    },
+    {
+      "t": "Class of 2025లో 81% మంది ప్రభుత్వ విశ్వవిద్యాలయాల్లో మరియు 19% మంది ప్రైవేట్ వాటిలో చేరారు — ఇది స్వతంత్ర day పాఠశాల కంటే బలమైన ప్రభుత్వ ఉన్నత పాఠశాలకు దగ్గరగా ఉన్న ఫలిత స్వరూపం.",
+      "of": "64c6a699",
+      "at": [
+        "charlotte-catholic:wholeClass.middle[3].text"
+      ]
+    },
+    {
+      "t": "SAT/ACT సగటు లేదా మధ్యస్థ విలువ ప్రచురించలేదు, కాబట్టి వాటిని ప్రచురించే పాఠశాలలతో సగటుల ఆధారిత పోలికలో ఈ పాఠశాలను ఉంచలేం. ఉన్నది mid-50% శ్రేణి మాత్రమే.",
+      "of": "ca438bfd",
+      "at": [
+        "charlotte-catholic:wholeClass.flags[0].text"
+      ]
+    },
+    {
+      "t": "పాఠ్యప్రణాళిక మార్గదర్శిలోని కోర్సు పేర్లకు మించి అభ్యసన-భేదాలు లేదా సదుపాయాల గురించి ఎలాంటి సమాచారం లేదు.",
+      "of": "223e484f",
+      "at": [
+        "charlotte-catholic:wholeClass.flags[1].text"
+      ]
+    },
+    {
+      "t": "చాలా పాఠశాలల కంటే ఎక్కువ సమాచారాన్ని ప్రచురించే పెద్దదైన, పారదర్శకమైన, క్రీడల్లో ఆధిపత్యం కలిగిన కాథలిక్ ఉన్నత పాఠశాల.",
+      "of": "e636e60f",
+      "at": [
+        "charlotte-catholic:verdict.headline"
+      ]
+    },
+    {
+      "t": "ఒక కుటుంబం నిజంగా అడిగే ప్రశ్నలకు ప్రొఫైల్ సమాధానం ఇస్తుంది — మరియు ఈ జాబితాలోని మరే పాఠశాలా లేవనెత్తని ఒక ప్రశ్నకు ట్యూషన్ నిర్మాణం సమాధానం ఇస్తుంది.",
+      "of": "db842c3a",
+      "at": [
+        "charlotte-catholic:verdict.subhead"
+      ]
+    },
+    {
+      "t": "సమాచార వెల్లడి నిజంగా బలంగా ఉంది",
+      "of": "a1be4c04",
+      "at": [
+        "charlotte-catholic:verdict.points[0].label"
+      ]
+    },
+    {
+      "t": "**కింది decileతో సహా 10-decile GPA చార్ట్**, ప్రకటిత భార ప్రమాణాలు, స్పష్టమైన ర్యాంకు-లేని విధానం మరియు పరీక్ష స్థాయి AP పనితీరు. చాలా పాఠశాలలు దీనికంటే తక్కువ ప్రచురిస్తాయి మరియు దాన్ని మరింత అనుకూలంగా చూపుతాయి.",
+      "of": "be923e53",
+      "at": [
+        "charlotte-catholic:verdict.points[0].text"
+      ]
+    },
+    {
+      "t": "AP రేటును అందంగా చూపలేం",
+      "of": "a1eca892",
+      "at": [
+        "charlotte-catholic:verdict.points[1].label"
+      ]
+    },
+    {
+      "t": "**1,064 పరీక్షల**లో **3 లేదా అంతకంటే ఎక్కువ సాధించిన 94%** అనేది మొత్తం బ్యాచ్ సంఖ్య, ఎందుకంటే **ప్రతి AP కోర్సులోనూ పరీక్ష తప్పనిసరి** — బలహీనమైన విద్యార్థులను నిశ్శబ్దంగా లెక్కింపు నుంచి తప్పించలేరు.",
+      "of": "d650b330",
+      "at": [
+        "charlotte-catholic:verdict.points[1].text"
+      ]
+    },
+    {
+      "t": "కళాశాలల జాబితాను చేరికలుగా చదవండి",
+      "of": "a0270676",
+      "at": [
+        "charlotte-catholic:verdict.points[2].label"
+      ]
+    },
+    {
+      "t": "**169 సంస్థలు** అంటే పట్టభద్రులు నిజంగా *చేరిన* చోట్లు, ఇది నిర్మాణపరంగానే ప్రవేశాల జాబితా కంటే చిన్న కొలత. ఇది అర్థమైన తర్వాత CCHS బలహీనంగా కాక మరింత బలంగా కనిపిస్తుంది.",
+      "of": "62dd9ccb",
+      "at": [
+        "charlotte-catholic:verdict.points[2].text"
+      ]
+    },
+    {
+      "t": "క్రీడలే ప్రత్యేక ఆకర్షణ",
+      "of": "af076d03",
+      "at": [
+        "charlotte-catholic:verdict.points[3].label"
+      ]
+    },
+    {
+      "t": "2000 నుంచి **74 రాష్ట్ర ఛాంపియన్‌షిప్‌లు** మరియు **8 Wells Fargo Cups**, ఇవి ప్రైవేట్ పాఠశాలల విభాగంలో కాకుండా **NCHSAA** లోపల ప్రభుత్వ పాఠశాలలతో పోటీపడి సాధించినవి.",
+      "of": "2c2f522e",
+      "at": [
+        "charlotte-catholic:verdict.points[3].text"
+      ]
+    },
+    {
+      "t": "ట్యూషన్ parish భాగస్వామ్యంపై ఆధారపడి ఉంటుంది",
+      "of": "93339144",
+      "at": [
+        "charlotte-catholic:verdict.points[4].label"
+      ]
+    },
+    {
+      "t": "భాగస్వామ్యం ఉన్న కాథలిక్ కుటుంబానికి **$15,041**, community రేటుకు **$21,562** — ఇది ఆర్థిక అవసరం వల్ల కాకుండా parish భాగస్వామ్యం వల్ల ఏర్పడే ~30% తేడా, మరియు ఇక్కడ అతిపెద్ద ఒక్క ఖర్చు వ్యత్యాసం.",
+      "of": "23ea91a3",
+      "at": [
+        "charlotte-catholic:verdict.points[4].text"
+      ]
+    },
+    {
+      "t": "లోటుపాట్లు నిర్లక్ష్యం వల్ల కాదు, నిర్మాణపరమైనవి",
+      "of": "07855402",
+      "at": [
+        "charlotte-catholic:verdict.points[5].label"
+      ]
+    },
+    {
+      "t": "ఒక్కో పాఠశాలకు సహాయ సంఖ్యలు లేవు (MACS డయోసిస్ మొత్తానికి మాత్రమే ప్రచురిస్తుంది), **Form 990 లేదు** (డయోసిస్ మతపరమైన సంస్థగా మినహాయింపు పొందింది), మరియు ప్రచురించిన ట్యూషన్ చరిత్ర లేదు.",
+      "of": "7eaae1e0",
+      "at": [
+        "charlotte-catholic:verdict.points[5].text"
+      ]
+    },
+    {
+      "t": "ట్యూషన్ పరంగా మేము భాగస్వామ్యం ఉన్న కాథలిక్ కుటుంబమా — మరియు అర్హత పొందడానికి parish ఖచ్చితంగా ఏమి కోరుతుంది?",
+      "of": "e35304f2",
+      "at": [
+        "charlotte-catholic:verdict.checklist[0]"
+      ]
+    },
+    {
+      "t": "గత సంవత్సరం మా లాంటి కుటుంబాలకు Family Individualized Tuition నిజానికి ఎంత ఇచ్చింది? డయోసిస్ ఒక్కో పాఠశాలకు సహాయ సంఖ్యలను ప్రచురించదు.",
+      "of": "f485a021",
+      "at": [
+        "charlotte-catholic:verdict.checklist[1]"
+      ]
+    },
+    {
+      "t": "మా పిల్లలకు AP కోర్సులు కావాలి — ప్రతి కోర్సు దరఖాస్తులో దేనిని పరిగణిస్తారు, మరియు ఎంతమంది దరఖాస్తుదారులను తిరస్కరిస్తారు?",
+      "of": "7cf604ea",
+      "at": [
+        "charlotte-catholic:verdict.checklist[2]"
+      ]
+    },
+    {
+      "t": "ఇక్కడ AP పరీక్షలు తప్పనిసరి. ఒక AP కోర్సు చదివి పరీక్షలో సరిగా రాణించని విద్యార్థికి ఏమవుతుంది?",
+      "of": "d804d65b",
+      "at": [
+        "charlotte-catholic:verdict.checklist[3]"
+      ]
+    },
+    {
+      "t": "counseling కార్యాలయం 324 మంది seniorsను ఆరుగురికి ఎలా విభజిస్తుంది — counselorను అక్షరక్రమం ప్రకారం, తరగతి ప్రకారం కేటాయిస్తారా, లేక నాలుగు సంవత్సరాలూ అదే counselor కొనసాగుతారా?",
+      "of": "a10ec34e",
+      "at": [
+        "charlotte-catholic:verdict.checklist[4]"
+      ]
+    },
+    {
+      "t": "Options Program రోజువారీగా నిజానికి ఏమి అందిస్తుంది, మరియు ఆ కోర్సుల వెనుక ఉన్న మద్దతును ఎవరు నిర్వహిస్తారు?",
+      "of": "5ccfd764",
+      "at": [
+        "charlotte-catholic:verdict.checklist[5]"
+      ]
+    },
+    {
+      "t": "బ్యాండ్ ప్రతి నాలుగు సంవత్సరాలకు ఒకసారి Dublinలో ప్రదర్శన ఇస్తుంది — దానికి ఒక కుటుంబం ఎంత చెల్లించాలి, మరియు తదుపరిది ఎప్పుడు?",
+      "of": "0d3739c3",
+      "at": [
+        "charlotte-catholic:verdict.checklist[6]"
+      ]
+    },
+    {
+      "t": "ఏ క్రీడలు శరదృతువు మరియు వసంత signing days వేర్వేరుగా నిర్వహిస్తాయి, మరియు ఆ ఫలితాలు ఎక్కడ ప్రచురిస్తారు?",
+      "of": "8d9ee596",
+      "at": [
+        "charlotte-catholic:verdict.checklist[7]"
       ]
     },
     {
@@ -6054,13 +7482,6 @@
       ]
     },
     {
-      "t": "కౌన్సెలర్",
-      "of": "be7455dd",
-      "at": [
-        "covenant-day:counseling.roster[1].role"
-      ]
-    },
-    {
       "t": "2016 నుంచి Guidance Counselor. BA UNC Chapel Hill; MA Georgia State; మాజీ Reformed Theological Seminary registrar.",
       "of": "f22262c9",
       "at": [
@@ -8194,13 +9615,6 @@
       ]
     },
     {
-      "t": "దరఖాస్తు",
-      "of": "22af01e5",
-      "at": [
-        "carmel-christian:counseling.mechanics[3]"
-      ]
-    },
-    {
       "t": "Counselor LOR",
       "of": "fbced8b8",
       "at": [
@@ -8849,13 +10263,6 @@
       "of": "1f0eb289",
       "at": [
         "hickory-grove-christian:transcript.stats[3].value"
-      ]
-    },
-    {
-      "t": "CEEB కోడ్",
-      "of": "8b28714f",
-      "at": [
-        "hickory-grove-christian:transcript.stats[3].label"
       ]
     },
     {
@@ -9622,14 +11029,6 @@
       ]
     },
     {
-      "t": "95%",
-      "of": "5ec35102",
-      "at": [
-        "gaston-day:transcript.stats[0].value",
-        "gaston-day:outcomes.stats[0].value"
-      ]
-    },
-    {
       "t": "2025లో 3+ స్కోరు సాధించిన AP విద్యార్థులు — 2021లోని 72% నుంచి పెరిగింది",
       "of": "1913d89c",
       "at": [
@@ -9763,13 +11162,6 @@
       ]
     },
     {
-      "t": "గ్రేడ్‌ను చదవడానికి వీలుగా ఎలా రూపొందించారు",
-      "of": "a65729c5",
-      "at": [
-        "gaston-day:transcript.trustTitle"
-      ]
-    },
-    {
       "t": "అదనపు విలువతో, ప్రకటించిన స్కేలుపై",
       "of": "f919a96f",
       "at": [
@@ -9865,13 +11257,6 @@
       "of": "8cf05955",
       "at": [
         "gaston-day:counseling.stats[2].value"
-      ]
-    },
-    {
-      "t": "Class of 2026లో చివరి సంవత్సరం విద్యార్థులు",
-      "of": "969c737b",
-      "at": [
-        "gaston-day:counseling.stats[2].label"
       ]
     },
     {
@@ -10083,13 +11468,6 @@
       "of": "95edac62",
       "at": [
         "gaston-day:counseling.mechanicsNote"
-      ]
-    },
-    {
-      "t": "పరిధి మరియు సాధనాలు",
-      "of": "0012b2ca",
-      "at": [
-        "gaston-day:counseling.reachTitle"
       ]
     },
     {

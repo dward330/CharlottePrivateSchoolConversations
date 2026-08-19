@@ -165,6 +165,7 @@
         "charlotte-christian:divisions[0].departments[1].courses[3].title",
         "charlotte-christian:divisions[1].departments[2].name",
         "charlotte-christian:divisions[2].departments[3].name",
+        "charlotte-catholic:divisions[0].departments[6].name",
         "charlotte-country-day:divisions[0].departments[0].courses[3].title",
         "charlotte-country-day:divisions[1].departments[2].courses[0].title",
         "charlotte-country-day:divisions[1].departments[2].courses[2].title",
@@ -208,6 +209,7 @@
         "charlotte-christian:divisions[0].departments[1].courses[4].title",
         "charlotte-christian:divisions[1].departments[3].name",
         "charlotte-christian:divisions[2].departments[4].name",
+        "charlotte-catholic:divisions[0].departments[7].name",
         "charlotte-country-day:divisions[0].departments[0].courses[4].title",
         "charlotte-country-day:divisions[1].departments[1].courses[3].title",
         "charlotte-country-day:divisions[1].departments[1].courses[5].title",
@@ -397,6 +399,8 @@
         "charlotte-latin:divisions[0].departments[2].courses[3].title",
         "charlotte-latin:divisions[2].departments[10].name",
         "charlotte-christian:divisions[0].departments[2].courses[3].title",
+        "charlotte-catholic:divisions[0].departments[5].name",
+        "charlotte-catholic:divisions[0].departments[5].courses[1].title",
         "charlotte-country-day:divisions[0].departments[2].courses[1].title",
         "charlotte-country-day:divisions[1].departments[5].courses[0].title",
         "charlotte-country-day:divisions[2].departments[8].name",
@@ -549,6 +553,7 @@
         "charlotte-latin:divisions[1].departments[0].name",
         "charlotte-latin:divisions[2].departments[0].name",
         "charlotte-christian:divisions[2].departments[1].name",
+        "charlotte-catholic:divisions[0].departments[0].name",
         "charlotte-country-day:divisions[1].departments[1].courses[2].title",
         "charlotte-country-day:divisions[1].departments[1].courses[4].title",
         "charlotte-country-day:divisions[2].departments[0].name",
@@ -991,6 +996,7 @@
         "charlotte-latin:divisions[2].departments[3].name",
         "charlotte-christian:divisions[1].departments[1].name",
         "charlotte-christian:divisions[2].departments[2].name",
+        "charlotte-catholic:divisions[0].departments[2].name",
         "charlotte-country-day:divisions[0].departments[0].courses[2].title",
         "charlotte-country-day:divisions[1].departments[0].name",
         "charlotte-country-day:divisions[2].departments[1].name",
@@ -1115,7 +1121,25 @@
         "charlotte-latin:divisions[2].departments[6].courses[4].tag",
         "charlotte-latin:divisions[2].departments[7].courses[1].tag",
         "charlotte-latin:divisions[2].departments[7].courses[2].tag",
-        "charlotte-latin:divisions[2].departments[8].courses[4].tag"
+        "charlotte-latin:divisions[2].departments[8].courses[4].tag",
+        "charlotte-catholic:divisions[0].departments[0].courses[1].tag",
+        "charlotte-catholic:divisions[0].departments[0].courses[5].tag",
+        "charlotte-catholic:divisions[0].departments[2].courses[1].tag",
+        "charlotte-catholic:divisions[0].departments[2].courses[3].tag",
+        "charlotte-catholic:divisions[0].departments[2].courses[6].tag",
+        "charlotte-catholic:divisions[0].departments[2].courses[8].tag",
+        "charlotte-catholic:divisions[0].departments[2].courses[9].tag",
+        "charlotte-catholic:divisions[0].departments[2].courses[11].tag",
+        "charlotte-catholic:divisions[0].departments[6].courses[1].tag",
+        "charlotte-catholic:divisions[0].departments[6].courses[3].tag",
+        "charlotte-catholic:divisions[0].departments[7].courses[1].tag",
+        "charlotte-catholic:divisions[0].departments[10].courses[2].tag",
+        "charlotte-catholic:divisions[0].departments[10].courses[3].tag",
+        "charlotte-catholic:divisions[0].departments[10].courses[14].tag",
+        "charlotte-catholic:divisions[0].departments[10].courses[15].tag",
+        "charlotte-catholic:divisions[0].departments[10].courses[21].tag",
+        "charlotte-catholic:divisions[0].departments[10].courses[22].tag",
+        "charlotte-catholic:divisions[0].departments[10].courses[23].tag"
       ],
       "t": "Advanced"
     },
@@ -1163,7 +1187,8 @@
       "text": "Advanced Algebra I",
       "of": "c94b63b0",
       "at": [
-        "providence-day:divisions[1].departments[1].courses[6].title"
+        "providence-day:divisions[1].departments[1].courses[6].title",
+        "charlotte-catholic:divisions[0].departments[2].courses[1].title"
       ],
       "t": "Advanced Algebra I"
     },
@@ -2012,6 +2037,7 @@
         "providence-day:divisions[2].title",
         "charlotte-latin:divisions[2].title",
         "charlotte-christian:divisions[2].title",
+        "charlotte-catholic:divisions[0].title",
         "charlotte-country-day:divisions[2].title",
         "cannon:divisions[2].title",
         "davidson-day:divisions[2].title",
@@ -2386,6 +2412,30 @@
         "charlotte-christian:divisions[2].departments[7].courses[3].tag",
         "charlotte-christian:divisions[2].departments[7].courses[4].tag",
         "charlotte-christian:divisions[2].departments[7].courses[7].tag",
+        "charlotte-catholic:divisions[0].departments[0].courses[10].tag",
+        "charlotte-catholic:divisions[0].departments[0].courses[13].tag",
+        "charlotte-catholic:divisions[0].departments[0].courses[14].tag",
+        "charlotte-catholic:divisions[0].departments[1].courses[11].tag",
+        "charlotte-catholic:divisions[0].departments[1].courses[12].tag",
+        "charlotte-catholic:divisions[0].departments[2].courses[14].tag",
+        "charlotte-catholic:divisions[0].departments[2].courses[15].tag",
+        "charlotte-catholic:divisions[0].departments[2].courses[16].tag",
+        "charlotte-catholic:divisions[0].departments[6].courses[10].tag",
+        "charlotte-catholic:divisions[0].departments[6].courses[11].tag",
+        "charlotte-catholic:divisions[0].departments[6].courses[12].tag",
+        "charlotte-catholic:divisions[0].departments[6].courses[13].tag",
+        "charlotte-catholic:divisions[0].departments[6].courses[14].tag",
+        "charlotte-catholic:divisions[0].departments[7].courses[6].tag",
+        "charlotte-catholic:divisions[0].departments[7].courses[8].tag",
+        "charlotte-catholic:divisions[0].departments[7].courses[11].tag",
+        "charlotte-catholic:divisions[0].departments[7].courses[14].tag",
+        "charlotte-catholic:divisions[0].departments[7].courses[15].tag",
+        "charlotte-catholic:divisions[0].departments[9].courses[5].tag",
+        "charlotte-catholic:divisions[0].departments[10].courses[6].tag",
+        "charlotte-catholic:divisions[0].departments[10].courses[11].tag",
+        "charlotte-catholic:divisions[0].departments[10].courses[18].tag",
+        "charlotte-catholic:divisions[0].departments[10].courses[26].tag",
+        "charlotte-catholic:divisions[0].departments[10].courses[27].tag",
         "charlotte-country-day:divisions[2].departments[0].courses[3].tag",
         "charlotte-country-day:divisions[2].departments[0].courses[4].tag",
         "charlotte-country-day:divisions[2].departments[1].courses[11].tag",
@@ -2571,6 +2621,7 @@
       "of": "64b858bb",
       "at": [
         "providence-day:divisions[2].departments[1].courses[1].title",
+        "charlotte-catholic:divisions[0].departments[7].courses[0].title",
         "covenant-day:divisions[0].departments[3].courses[0].title",
         "carmel-christian:divisions[0].departments[4].courses[0].title",
         "carmel-christian:divisions[0].departments[4].courses[1].title",
@@ -2946,6 +2997,7 @@
         "charlotte-latin:divisions[1].departments[2].courses[4].title",
         "charlotte-latin:divisions[2].departments[3].courses[0].title",
         "charlotte-christian:divisions[2].departments[2].courses[0].title",
+        "charlotte-catholic:divisions[0].departments[2].courses[0].title",
         "charlotte-country-day:divisions[2].departments[1].courses[0].title",
         "cannon:divisions[1].departments[1].courses[3].title",
         "davidson-day:divisions[2].departments[1].courses[0].title",
@@ -2969,6 +3021,7 @@
         "providence-day:divisions[2].departments[2].courses[1].title",
         "charlotte-latin:divisions[2].departments[3].courses[2].title",
         "charlotte-christian:divisions[2].departments[2].courses[1].title",
+        "charlotte-catholic:divisions[0].departments[2].courses[2].title",
         "charlotte-country-day:divisions[1].departments[0].courses[8].title",
         "charlotte-country-day:divisions[2].departments[1].courses[1].title",
         "covenant-day:divisions[0].departments[1].courses[1].title",
@@ -3024,6 +3077,7 @@
       "at": [
         "providence-day:divisions[2].departments[2].courses[4].title",
         "charlotte-christian:divisions[2].departments[2].courses[3].title",
+        "charlotte-catholic:divisions[0].departments[2].courses[5].title",
         "charlotte-country-day:divisions[2].departments[1].courses[3].title",
         "davidson-day:divisions[2].departments[1].courses[4].title",
         "carmel-christian:divisions[0].departments[2].courses[3].title",
@@ -3465,7 +3519,8 @@
       "text": "Forensic Science",
       "of": "fba6e9f2",
       "at": [
-        "providence-day:divisions[2].departments[3].courses[11].title"
+        "providence-day:divisions[2].departments[3].courses[11].title",
+        "charlotte-catholic:divisions[0].departments[6].courses[16].title"
       ],
       "t": "Forensic Science"
     },
@@ -4311,6 +4366,7 @@
       "at": [
         "providence-day:divisions[2].departments[7].courses[8].title",
         "charlotte-latin:divisions[2].departments[7].courses[6].title",
+        "charlotte-catholic:divisions[0].departments[0].courses[16].title",
         "charlotte-country-day:divisions[2].departments[5].courses[26].title",
         "covenant-day:divisions[0].departments[6].courses[13].title",
         "carmel-christian:divisions[0].departments[7].courses[14].title",
@@ -4636,6 +4692,49 @@
         "charlotte-christian:divisions[2].departments[7].courses[9].tag",
         "charlotte-christian:divisions[2].departments[7].courses[22].tag",
         "charlotte-christian:divisions[2].departments[7].courses[26].tag",
+        "charlotte-catholic:divisions[0].departments[0].courses[6].tag",
+        "charlotte-catholic:divisions[0].departments[0].courses[9].tag",
+        "charlotte-catholic:divisions[0].departments[0].courses[12].tag",
+        "charlotte-catholic:divisions[0].departments[0].courses[17].tag",
+        "charlotte-catholic:divisions[0].departments[1].courses[6].tag",
+        "charlotte-catholic:divisions[0].departments[1].courses[7].tag",
+        "charlotte-catholic:divisions[0].departments[1].courses[15].tag",
+        "charlotte-catholic:divisions[0].departments[1].courses[16].tag",
+        "charlotte-catholic:divisions[0].departments[1].courses[17].tag",
+        "charlotte-catholic:divisions[0].departments[2].courses[4].tag",
+        "charlotte-catholic:divisions[0].departments[2].courses[7].tag",
+        "charlotte-catholic:divisions[0].departments[2].courses[12].tag",
+        "charlotte-catholic:divisions[0].departments[2].courses[13].tag",
+        "charlotte-catholic:divisions[0].departments[5].courses[7].tag",
+        "charlotte-catholic:divisions[0].departments[6].courses[4].tag",
+        "charlotte-catholic:divisions[0].departments[6].courses[8].tag",
+        "charlotte-catholic:divisions[0].departments[6].courses[9].tag",
+        "charlotte-catholic:divisions[0].departments[7].courses[2].tag",
+        "charlotte-catholic:divisions[0].departments[7].courses[5].tag",
+        "charlotte-catholic:divisions[0].departments[7].courses[10].tag",
+        "charlotte-catholic:divisions[0].departments[7].courses[13].tag",
+        "charlotte-catholic:divisions[0].departments[8].courses[12].tag",
+        "charlotte-catholic:divisions[0].departments[8].courses[13].tag",
+        "charlotte-catholic:divisions[0].departments[9].courses[3].tag",
+        "charlotte-catholic:divisions[0].departments[9].courses[4].tag",
+        "charlotte-catholic:divisions[0].departments[9].courses[17].tag",
+        "charlotte-catholic:divisions[0].departments[9].courses[19].tag",
+        "charlotte-catholic:divisions[0].departments[9].courses[20].tag",
+        "charlotte-catholic:divisions[0].departments[9].courses[22].tag",
+        "charlotte-catholic:divisions[0].departments[9].courses[24].tag",
+        "charlotte-catholic:divisions[0].departments[9].courses[28].tag",
+        "charlotte-catholic:divisions[0].departments[9].courses[29].tag",
+        "charlotte-catholic:divisions[0].departments[9].courses[32].tag",
+        "charlotte-catholic:divisions[0].departments[9].courses[34].tag",
+        "charlotte-catholic:divisions[0].departments[9].courses[36].tag",
+        "charlotte-catholic:divisions[0].departments[10].courses[4].tag",
+        "charlotte-catholic:divisions[0].departments[10].courses[5].tag",
+        "charlotte-catholic:divisions[0].departments[10].courses[9].tag",
+        "charlotte-catholic:divisions[0].departments[10].courses[10].tag",
+        "charlotte-catholic:divisions[0].departments[10].courses[16].tag",
+        "charlotte-catholic:divisions[0].departments[10].courses[17].tag",
+        "charlotte-catholic:divisions[0].departments[10].courses[24].tag",
+        "charlotte-catholic:divisions[0].departments[10].courses[25].tag",
         "charlotte-country-day:divisions[1].departments[0].courses[4].tag",
         "charlotte-country-day:divisions[1].departments[0].courses[5].tag",
         "charlotte-country-day:divisions[2].departments[1].courses[2].tag",
@@ -5474,6 +5573,7 @@
         "charlotte-latin:divisions[2].departments[5].name",
         "charlotte-christian:divisions[1].departments[4].name",
         "charlotte-christian:divisions[2].departments[5].name",
+        "charlotte-catholic:divisions[0].departments[10].name",
         "cannon:divisions[1].departments[2].name",
         "cannon:divisions[2].departments[4].name",
         "covenant-day:divisions[1].departments[0].courses[5].title",
@@ -5504,7 +5604,8 @@
       "of": "cb4b47ce",
       "at": [
         "charlotte-latin:divisions[1].departments[4].courses[1].title",
-        "charlotte-christian:divisions[2].departments[5].courses[2].title"
+        "charlotte-christian:divisions[2].departments[5].courses[2].title",
+        "charlotte-catholic:divisions[0].departments[10].courses[12].title"
       ],
       "t": "Latin I"
     },
@@ -6504,6 +6605,7 @@
       "at": [
         "charlotte-latin:divisions[2].departments[4].courses[5].title",
         "charlotte-christian:divisions[2].departments[3].courses[0].title",
+        "charlotte-catholic:divisions[0].departments[6].courses[0].title",
         "covenant-day:divisions[0].departments[2].courses[0].title",
         "davidson-day:divisions[2].departments[3].courses[7].title",
         "carmel-christian:divisions[0].departments[3].courses[0].title",
@@ -7249,7 +7351,8 @@
       "text": "Acting",
       "of": "3175a7ed",
       "at": [
-        "charlotte-latin:divisions[2].departments[8].courses[0].title"
+        "charlotte-latin:divisions[2].departments[8].courses[0].title",
+        "charlotte-catholic:divisions[0].departments[9].courses[27].title"
       ],
       "t": "Acting"
     },
@@ -7468,6 +7571,7 @@
       "of": "0a1761dd",
       "at": [
         "charlotte-christian:guideYear",
+        "charlotte-catholic:guideYear",
         "cannon:guideYear",
         "covenant-day:guideYear",
         "davidson-day:guideYear",
@@ -8296,6 +8400,7 @@
       "of": "1bc65428",
       "at": [
         "charlotte-christian:divisions[2].departments[1].courses[0].title",
+        "charlotte-catholic:divisions[0].departments[0].courses[0].title",
         "gaston-day:divisions[1].departments[0].courses[0].title"
       ],
       "t": "English 9"
@@ -8329,6 +8434,7 @@
       "of": "c122c0e0",
       "at": [
         "charlotte-christian:divisions[2].departments[1].courses[2].title",
+        "charlotte-catholic:divisions[0].departments[0].courses[4].title",
         "gaston-day:divisions[1].departments[0].courses[1].title"
       ],
       "t": "English 10"
@@ -8361,7 +8467,8 @@
       "text": "English 11",
       "of": "c222c273",
       "at": [
-        "charlotte-christian:divisions[2].departments[1].courses[4].title"
+        "charlotte-christian:divisions[2].departments[1].courses[4].title",
+        "charlotte-catholic:divisions[0].departments[0].courses[8].title"
       ],
       "t": "English 11"
     },
@@ -8394,6 +8501,7 @@
       "of": "c322c406",
       "at": [
         "charlotte-christian:divisions[2].departments[1].courses[6].title",
+        "charlotte-catholic:divisions[0].departments[0].courses[11].title",
         "charlotte-country-day:divisions[2].departments[0].courses[7].title"
       ],
       "t": "English 12"
@@ -8665,6 +8773,7 @@
       "of": "82ef0e1f",
       "at": [
         "charlotte-christian:divisions[2].departments[2].courses[9].title",
+        "charlotte-catholic:divisions[0].departments[2].courses[15].title",
         "cannon:divisions[2].departments[1].courses[12].title",
         "hickory-grove-christian:divisions[0].departments[2].courses[8].title"
       ],
@@ -8683,6 +8792,7 @@
       "of": "a9f18a1b",
       "at": [
         "charlotte-christian:divisions[2].departments[2].courses[10].title",
+        "charlotte-catholic:divisions[0].departments[2].courses[16].title",
         "cannon:divisions[2].departments[1].courses[13].title",
         "hickory-grove-christian:divisions[0].departments[2].courses[9].title"
       ],
@@ -8733,6 +8843,7 @@
       "of": "fc94aaff",
       "at": [
         "charlotte-christian:divisions[2].departments[2].courses[13].title",
+        "charlotte-catholic:divisions[0].departments[2].courses[14].title",
         "cannon:divisions[2].departments[1].courses[10].title",
         "hickory-grove-christian:divisions[0].departments[2].courses[10].title"
       ],
@@ -8819,6 +8930,7 @@
       "of": "0dc58442",
       "at": [
         "charlotte-christian:divisions[2].departments[3].courses[4].title",
+        "charlotte-catholic:divisions[0].departments[6].courses[7].title",
         "gaston-day:divisions[1].departments[2].courses[3].title"
       ],
       "t": "Physics"
@@ -8869,6 +8981,7 @@
       "of": "c51bfac3",
       "at": [
         "charlotte-christian:divisions[2].departments[3].courses[7].title",
+        "charlotte-catholic:divisions[0].departments[6].courses[10].title",
         "cannon:divisions[2].departments[2].courses[11].title",
         "hickory-grove-christian:divisions[0].departments[3].courses[13].title"
       ],
@@ -8887,6 +9000,7 @@
       "of": "2be1d8a2",
       "at": [
         "charlotte-christian:divisions[2].departments[3].courses[8].title",
+        "charlotte-catholic:divisions[0].departments[6].courses[11].title",
         "cannon:divisions[2].departments[2].courses[10].title",
         "hickory-grove-christian:divisions[0].departments[3].courses[14].title"
       ],
@@ -8905,6 +9019,7 @@
       "of": "9b9ce692",
       "at": [
         "charlotte-christian:divisions[2].departments[3].courses[9].title",
+        "charlotte-catholic:divisions[0].departments[6].courses[12].title",
         "hickory-grove-christian:divisions[0].departments[3].courses[15].title"
       ],
       "t": "Advanced Placement Environmental Science"
@@ -9146,7 +9261,8 @@
       "text": "Economics",
       "of": "dcc44d8d",
       "at": [
-        "charlotte-christian:divisions[2].departments[4].courses[10].title"
+        "charlotte-christian:divisions[2].departments[4].courses[10].title",
+        "charlotte-catholic:divisions[0].departments[7].courses[12].title"
       ],
       "t": "Economics"
     },
@@ -9195,6 +9311,7 @@
       "of": "2caecc04",
       "at": [
         "charlotte-christian:divisions[2].departments[4].courses[13].title",
+        "charlotte-catholic:divisions[0].departments[7].courses[7].title",
         "hickory-grove-christian:divisions[0].departments[11].courses[3].title",
         "gaston-day:divisions[1].departments[7].courses[6].title"
       ],
@@ -9213,6 +9330,7 @@
       "of": "85b1bc09",
       "at": [
         "charlotte-christian:divisions[2].departments[4].courses[14].title",
+        "charlotte-catholic:divisions[0].departments[7].courses[8].title",
         "cannon:divisions[2].departments[3].courses[8].title",
         "hickory-grove-christian:divisions[0].departments[11].courses[2].title"
       ],
@@ -9326,7 +9444,8 @@
       "text": "Advanced Placement Latin",
       "of": "1bff639e",
       "at": [
-        "charlotte-christian:divisions[2].departments[5].courses[5].title"
+        "charlotte-christian:divisions[2].departments[5].courses[5].title",
+        "charlotte-catholic:divisions[0].departments[10].courses[18].title"
       ],
       "t": "Advanced Placement Latin"
     },
@@ -9572,6 +9691,7 @@
       "of": "db9005d5",
       "at": [
         "charlotte-christian:divisions[2].departments[7].courses[0].title",
+        "charlotte-catholic:divisions[0].departments[9].courses[0].title",
         "hickory-grove-christian:divisions[0].departments[6].courses[0].title"
       ],
       "t": "Art I"
@@ -9589,6 +9709,7 @@
       "of": "3fb8d494",
       "at": [
         "charlotte-christian:divisions[2].departments[7].courses[1].title",
+        "charlotte-catholic:divisions[0].departments[9].courses[1].title",
         "hickory-grove-christian:divisions[0].departments[6].courses[1].title"
       ],
       "t": "Art II"
@@ -9810,7 +9931,8 @@
       "text": "Introduction to Guitar",
       "of": "e54cadcc",
       "at": [
-        "charlotte-christian:divisions[2].departments[7].courses[14].title"
+        "charlotte-christian:divisions[2].departments[7].courses[14].title",
+        "charlotte-catholic:divisions[0].departments[9].courses[37].title"
       ],
       "t": "Introduction to Guitar"
     },
@@ -10286,6 +10408,2869 @@
         "charlotte-christian:divisions[2].departments[10].courses[0].description"
       ],
       "t": "JK-12 yearbookను రూపొందిస్తుంది, రెండో లేదా మూడో సంవత్సరంలో ఉన్న మూడో, చివరి సంవత్సరం విద్యార్థులకు honors క్రెడిట్ అందుబాటులో ఉంటుంది."
+    },
+    {
+      "text": "GRADES 9 – 12",
+      "of": "b750d992",
+      "at": [
+        "charlotte-catholic:divisions[0].grades",
+        "covenant-day:divisions[0].grades",
+        "carmel-christian:divisions[0].grades"
+      ],
+      "t": "GRADES 9 – 12"
+    },
+    {
+      "text": "195 courses across 11 departments plus dual enrollment — 24 AP, 43 Honors and 18 Advanced, with Visual & Performing Arts the largest department at 39.",
+      "of": "ee05f62a",
+      "at": [
+        "charlotte-catholic:divisions[0].teaser"
+      ],
+      "t": "11 విభాగాల్లో 195 కోర్సులు మరియు dual enrollment — 24 AP, 43 Honors మరియు 18 Advanced, వీటిలో Visual & Performing Arts 39 కోర్సులతో అతిపెద్ద విభాగం."
+    },
+    {
+      "text": "The course includes a review of grammar fundamentals and basic conventions of essay writing.",
+      "of": "78d62dd8",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[0].description"
+      ],
+      "t": "ఈ కోర్సులో వ్యాకరణ ప్రాథమిక అంశాల పునశ్చరణ మరియు వ్యాస రచన ప్రాథమిక పద్ధతులు ఉంటాయి."
+    },
+    {
+      "text": "Advanced English 9",
+      "of": "9c84f71c",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[1].title"
+      ],
+      "t": "Advanced English 9"
+    },
+    {
+      "text": "The course includes an overview and fast-paced review of grammar fundamentals and basic conventions of essay writing.",
+      "of": "f1a7bab0",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[1].description"
+      ],
+      "t": "ఈ కోర్సులో వ్యాకరణ ప్రాథమిక అంశాలు మరియు వ్యాస రచన ప్రాథమిక పద్ధతుల సమగ్ర పరిచయం మరియు వేగవంతమైన పునశ్చరణ ఉంటాయి."
+    },
+    {
+      "text": "SASP English 9: The Art of Language",
+      "of": "2108d0da",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[2].title"
+      ],
+      "t": "SASP English 9: The Art of Language"
+    },
+    {
+      "text": "SASP",
+      "of": "01466c2a",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[2].tag",
+        "charlotte-catholic:divisions[0].departments[0].courses[3].tag",
+        "charlotte-catholic:divisions[0].departments[0].courses[7].tag",
+        "charlotte-catholic:divisions[0].departments[7].courses[3].tag",
+        "charlotte-catholic:divisions[0].departments[8].courses[2].tag",
+        "charlotte-catholic:divisions[0].departments[8].courses[5].tag"
+      ],
+      "t": "SASP"
+    },
+    {
+      "text": "The Art of Language cultivates mastery of language as both a tool for clear thought and an expression of beauty.",
+      "of": "81a1ad84",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[2].description"
+      ],
+      "t": "The Art of Language భాషను స్పష్టమైన ఆలోచనకు సాధనంగా మరియు సౌందర్య వ్యక్తీకరణగా ప్రావీణ్యం సాధించేలా పెంపొందిస్తుంది."
+    },
+    {
+      "text": "SASP English 9: Great Adventure Seminar",
+      "of": "58f133d7",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[3].title"
+      ],
+      "t": "SASP English 9: Great Adventure Seminar"
+    },
+    {
+      "text": "The Great Adventure Seminar invites students to journey through some of the greatest works of literature, exploring timeless questions about the human person and the universal story.",
+      "of": "1ea44f76",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[3].description"
+      ],
+      "t": "Great Adventure Seminar విద్యార్థులను సాహిత్యంలోని కొన్ని గొప్ప రచనల ద్వారా ప్రయాణించమని ఆహ్వానిస్తుంది, మానవుని గురించి మరియు విశ్వ కథనం గురించి కాలాతీత ప్రశ్నలను అన్వేషిస్తుంది."
+    },
+    {
+      "text": "This course includes the study of World Literature through novels, short stories, drama, and poetry; grammar fundamentals and the reinforcement of these essential grammar skills within the context of writing assignments; introduction to…",
+      "of": "bec957df",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[4].description"
+      ],
+      "t": "ఈ కోర్సులో నవలలు, కథలు, నాటకం మరియు కవిత్వం ద్వారా ప్రపంచ సాహిత్య అధ్యయనం; వ్యాకరణ ప్రాథమిక అంశాలు మరియు రచనా పనుల సందర్భంలో ఈ కీలక వ్యాకరణ నైపుణ్యాల బలోపేతం; పరిచయం…"
+    },
+    {
+      "text": "Advanced English 10",
+      "of": "816488cc",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[5].title"
+      ],
+      "t": "Advanced English 10"
+    },
+    {
+      "text": "This course includes the study of World Literature through novels, short stories drama, and poetry; grammar fundamentals and the reinforcement of these essential grammar skills within the context of writing assignments; introduction to…",
+      "of": "a1da3a57",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[5].description"
+      ],
+      "t": "ఈ కోర్సులో నవలలు, కథలు, నాటకం మరియు కవిత్వం ద్వారా ప్రపంచ సాహిత్య అధ్యయనం; వ్యాకరణ ప్రాథమిక అంశాలు మరియు రచనా పనుల సందర్భంలో ఈ కీలక వ్యాకరణ నైపుణ్యాల బలోపేతం; పరిచయం…"
+    },
+    {
+      "text": "Honors English 10",
+      "of": "da858005",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[6].title"
+      ],
+      "t": "Honors English 10"
+    },
+    {
+      "text": "This course includes many of the same topics taught in Advanced English 10, but involves a more comprehensive focus on World Literature and additional outside reading.",
+      "of": "19122635",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[6].description"
+      ],
+      "t": "ఈ కోర్సులో Advanced English 10లో బోధించే అనేక అంశాలే ఉంటాయి, కానీ ప్రపంచ సాహిత్యంపై మరింత సమగ్రమైన దృష్టి మరియు అదనపు బాహ్య పఠనం ఉంటాయి."
+    },
+    {
+      "text": "SASP English 10: Quest Seminar",
+      "of": "f91ed93e",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[7].title"
+      ],
+      "t": "SASP English 10: Quest Seminar"
+    },
+    {
+      "text": "Great books based: Homer, Odyssey; Plato, Apology; Boethius, Consolation of Philosophy; Anselm, Proslogion; Huxley, Brave New World.",
+      "of": "66b2b77e",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[7].description"
+      ],
+      "t": "గొప్ప గ్రంథాల ఆధారంగా: Homer, Odyssey; Plato, Apology; Boethius, Consolation of Philosophy; Anselm, Proslogion; Huxley, Brave New World."
+    },
+    {
+      "text": "This course includes writing skills techniques (e.g., prewriting, organization, drafting, revisions, etc.); documented essays using primary and, in some cases, secondary sources; concentrated practice in literary analysis; reading…",
+      "of": "57f63d9a",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[8].description"
+      ],
+      "t": "ఈ కోర్సులో రచనా నైపుణ్య పద్ధతులు (ఉదా. ముందస్తు రచన, క్రమబద్ధీకరణ, ముసాయిదా, సవరణలు మొదలైనవి); ప్రాథమిక మరియు కొన్ని సందర్భాల్లో ద్వితీయ మూలాలను ఉపయోగించి రాసిన ఆధార సహిత వ్యాసాలు; సాహిత్య విశ్లేషణలో కేంద్రీకృత అభ్యాసం; పఠనం…"
+    },
+    {
+      "text": "Honors English 11",
+      "of": "d9857e72",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[9].title"
+      ],
+      "t": "Honors English 11"
+    },
+    {
+      "text": "This course includes writing skills techniques (e.g., prewriting, organization, drafting, revision, etc.,); documented essays using primary and secondary resources; concentrated practice in writing analytical essays; reading…",
+      "of": "c3ac6c0c",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[9].description"
+      ],
+      "t": "ఈ కోర్సులో రచనా నైపుణ్య పద్ధతులు (ఉదా. ముందస్తు రచన, క్రమబద్ధీకరణ, ముసాయిదా, సవరణ మొదలైనవి); ప్రాథమిక మరియు ద్వితీయ వనరులను ఉపయోగించి రాసిన ఆధార సహిత వ్యాసాలు; విశ్లేషణాత్మక వ్యాసాల రచనలో కేంద్రీకృత అభ్యాసం; పఠనం…"
+    },
+    {
+      "text": "Advanced Placement English 11",
+      "of": "f5be7fc2",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[10].title"
+      ],
+      "t": "Advanced Placement English 11"
+    },
+    {
+      "text": "This course comprises much of the material covered in Honors English 11 Honors as well as the principles of rhetoric and argument.",
+      "of": "a5083a33",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[10].description"
+      ],
+      "t": "ఈ కోర్సులో Honors English 11లో కవర్ చేసే చాలా అంశాలతో పాటు వాక్చాతుర్యం మరియు వాదన సూత్రాలు ఉంటాయి."
+    },
+    {
+      "text": "This course includes a survey of British Literature; review and practice of paragraph and essay structure; reinforcement of essential grammar skills within the context of writing assignments; reading comprehension, summary and analysis;…",
+      "of": "91060f53",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[11].description"
+      ],
+      "t": "ఈ కోర్సులో బ్రిటిష్ సాహిత్య సమగ్ర పరిచయం; పేరా మరియు వ్యాస నిర్మాణ పునశ్చరణ మరియు అభ్యాసం; రచనా పనుల సందర్భంలో కీలక వ్యాకరణ నైపుణ్యాల బలోపేతం; పఠన అవగాహన, సారాంశం మరియు విశ్లేషణ;…"
+    },
+    {
+      "text": "Honors English 12",
+      "of": "d8857cdf",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[12].title"
+      ],
+      "t": "Honors English 12"
+    },
+    {
+      "text": "This course includes an in-depth study of British Literature through close reading and discussion; advanced composition resulting in several documented literary analyses using primary and, in some cases.",
+      "of": "459deaf1",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[12].description"
+      ],
+      "t": "ఈ కోర్సులో నిశిత పఠనం మరియు చర్చ ద్వారా బ్రిటిష్ సాహిత్యంపై లోతైన అధ్యయనం; ప్రాథమిక మరియు కొన్ని సందర్భాల్లో ఇతర మూలాలను ఉపయోగించి పలు ఆధార సహిత సాహిత్య విశ్లేషణలకు దారితీసే ఉన్నత స్థాయి రచన."
+    },
+    {
+      "text": "Advanced Placement English 12",
+      "of": "f4be7e2f",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[13].title",
+        "charlotte-catholic:divisions[0].departments[0].courses[14].title"
+      ],
+      "t": "Advanced Placement English 12"
+    },
+    {
+      "text": "This course includes all the essentials of Honors English 12 with the addition of several sophisticated texts.",
+      "of": "49e16eeb",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[13].description"
+      ],
+      "t": "ఈ కోర్సులో Honors English 12లోని అన్ని కీలక అంశాలతో పాటు పలు సంక్లిష్టమైన గ్రంథాలు ఉంటాయి."
+    },
+    {
+      "text": "This course comprises much of the material covered in Honors English 12 as well as the principles of rhetoric and argument.",
+      "of": "0bc63a29",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[14].description"
+      ],
+      "t": "ఈ కోర్సులో Honors English 12లో కవర్ చేసే చాలా అంశాలతో పాటు వాక్చాతుర్యం మరియు వాదన సూత్రాలు ఉంటాయి."
+    },
+    {
+      "text": "Journalism",
+      "of": "ec22efe7",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[15].title"
+      ],
+      "t": "Journalism"
+    },
+    {
+      "text": "This class is designed to give practical experience in interviewing and writing techniques ( news, features, editorials, sports coverage, and reviews of cultural events ), photography, and layout.",
+      "of": "24ad2dab",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[15].description"
+      ],
+      "t": "ఈ తరగతి ఇంటర్వ్యూ మరియు రచనా పద్ధతులు (వార్తలు, ఫీచర్లు, సంపాదకీయాలు, క్రీడల కథనాలు మరియు సాంస్కృతిక కార్యక్రమాల సమీక్షలు), photography మరియు layoutలో ఆచరణాత్మక అనుభవాన్ని అందించేలా రూపొందించబడింది."
+    },
+    {
+      "text": "Students receive instruction in layout and design, copywriting and caption writing, photo selection and cropping, and all other components involved in producing the school yearbook.",
+      "of": "cce529d1",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[16].description"
+      ],
+      "t": "విద్యార్థులు layout మరియు design, copywriting మరియు శీర్షికల రచన, ఫోటోల ఎంపిక మరియు cropping, అలాగే పాఠశాల yearbook తయారీలో పాల్గొనే అన్ని ఇతర అంశాలలో శిక్షణ పొందుతారు."
+    },
+    {
+      "text": "Honors Social Issues in Literature",
+      "of": "b60b1feb",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[17].title"
+      ],
+      "t": "Honors Social Issues in Literature"
+    },
+    {
+      "text": "Honors Social Issues in Literature focuses on texts and authors who raise up issues of race, gender, ethnicity, and socio-economics.",
+      "of": "2a429a77",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[17].description"
+      ],
+      "t": "Honors Social Issues in Literature జాతి, లింగం, ఎథ్నిసిటీ మరియు సామాజిక-ఆర్థిక అంశాలను లేవనెత్తే గ్రంథాలు మరియు రచయితలపై దృష్టి పెడుతుంది."
+    },
+    {
+      "text": "Interdisciplinary Studies",
+      "of": "438bae3b",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].name"
+      ],
+      "t": "అంతర్‌విభాగ అధ్యయనాలు"
+    },
+    {
+      "text": "Guided Academic Support",
+      "of": "9b78fbb3",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[0].title"
+      ],
+      "t": "Guided Academic Support"
+    },
+    {
+      "text": "This course is tailored for 10th, 11th, and 12th grade Academic Achievement students with a GPA 2.9 or below.",
+      "of": "a09da7c3",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[0].description"
+      ],
+      "t": "ఈ కోర్సు 2.9 లేదా అంతకంటే తక్కువ GPA ఉన్న 10, 11 మరియు 12వ తరగతుల Academic Achievement విద్యార్థుల కోసం ప్రత్యేకంగా రూపొందించబడింది."
+    },
+    {
+      "text": "Assistants",
+      "of": "60365f5c",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[1].title"
+      ],
+      "t": "Assistants"
+    },
+    {
+      "text": "Assistants will be assigned tasks for the office, counselors, alumni and campus ministry. Evaluation is based on their willingness to learn, initiative and performance of assigned tasks, and demonstrated competencies within the area…",
+      "of": "bff66572",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[1].description"
+      ],
+      "t": "Assistantsకు కార్యాలయం, counselors, పూర్వ విద్యార్థులు మరియు campus ministry కోసం పనులు కేటాయిస్తారు. నేర్చుకోవాలనే ఆసక్తి, చొరవ మరియు కేటాయించిన పనుల నిర్వహణ, అలాగే ఆ రంగంలో ప్రదర్శించిన సామర్థ్యాల ఆధారంగా మూల్యాంకనం జరుగుతుంది…"
+    },
+    {
+      "text": "Study Hall",
+      "of": "7e263085",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[2].title",
+        "carmel-christian:divisions[1].departments[8].courses[4].title"
+      ],
+      "t": "Study Hall"
+    },
+    {
+      "text": "Students will spend their time working independently on their coursework in a supervised environment.",
+      "of": "126b46c0",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[2].description"
+      ],
+      "t": "విద్యార్థులు పర్యవేక్షణలో ఉన్న వాతావరణంలో తమ కోర్సు పనిపై స్వతంత్రంగా పనిచేస్తూ సమయాన్ని గడుపుతారు."
+    },
+    {
+      "text": "Options Scholars",
+      "of": "ea23a104",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[3].title"
+      ],
+      "t": "Options Scholars"
+    },
+    {
+      "text": "Options",
+      "of": "353e0d45",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[3].tag",
+        "charlotte-catholic:divisions[0].departments[3].courses[0].tag",
+        "charlotte-catholic:divisions[0].departments[3].courses[1].tag",
+        "charlotte-catholic:divisions[0].departments[3].courses[2].tag",
+        "charlotte-catholic:divisions[0].departments[3].courses[3].tag",
+        "charlotte-catholic:divisions[0].departments[3].courses[4].tag",
+        "charlotte-catholic:divisions[0].departments[3].courses[5].tag",
+        "charlotte-catholic:divisions[0].departments[3].courses[6].tag",
+        "charlotte-catholic:divisions[0].departments[3].courses[7].tag",
+        "charlotte-catholic:divisions[0].departments[3].courses[8].tag",
+        "charlotte-catholic:divisions[0].departments[3].courses[9].tag",
+        "charlotte-catholic:divisions[0].departments[3].courses[10].tag",
+        "charlotte-catholic:divisions[0].departments[3].courses[11].tag",
+        "charlotte-catholic:divisions[0].departments[3].courses[12].tag",
+        "charlotte-catholic:divisions[0].departments[3].courses[13].tag"
+      ],
+      "t": "Options"
+    },
+    {
+      "text": "Students will serve as academic peer mentors for those enrolled in the Options Program. In this role, Options Scholars will develop meaningful peer relationships while learning about various intellectual and developmental disabilities.",
+      "of": "6b3c2edc",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[3].description"
+      ],
+      "t": "విద్యార్థులు Options Programలో చేరిన వారికి విద్యాపరమైన సహచర మార్గదర్శకులుగా పనిచేస్తారు. ఈ బాధ్యతలో Options Scholars వివిధ మేధో మరియు వికాస వైకల్యాల గురించి తెలుసుకుంటూ అర్థవంతమైన సహచర సంబంధాలను పెంపొందించుకుంటారు."
+    },
+    {
+      "text": "SAT Prep",
+      "of": "b74c7f92",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[4].title"
+      ],
+      "t": "SAT Prep"
+    },
+    {
+      "text": "This course is designed to help students prepare effectively for the SAT. Instruction is divided into two main components: Evidence-Based Reading & Writing and Mathematics.",
+      "of": "66820258",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[4].description"
+      ],
+      "t": "ఈ కోర్సు విద్యార్థులు SAT కోసం సమర్థవంతంగా సిద్ధమయ్యేందుకు సహాయపడేలా రూపొందించబడింది. బోధన రెండు ప్రధాన భాగాలుగా విభజించబడింది: Evidence-Based Reading & Writing మరియు గణితం."
+    },
+    {
+      "text": "Sports Ethics",
+      "of": "0c47f292",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[5].title"
+      ],
+      "t": "Sports Ethics"
+    },
+    {
+      "text": "Students will explore the deeper meaning of sport through an ethical and philosophical lens.",
+      "of": "abea03c6",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[5].description"
+      ],
+      "t": "విద్యార్థులు నైతిక మరియు తాత్విక దృక్కోణం నుంచి క్రీడల లోతైన అర్థాన్ని అన్వేషిస్తారు."
+    },
+    {
+      "text": "Honors African American Studies",
+      "of": "968a9ea3",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[6].title"
+      ],
+      "t": "Honors African American Studies"
+    },
+    {
+      "text": "Honors African American Studies focuses on the historical, political, economic, and social figures and movements impacting Black Americans over the past 400+ years.",
+      "of": "43fa8361",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[6].description"
+      ],
+      "t": "Honors African American Studies గత 400+ సంవత్సరాలలో నల్లజాతి అమెరికన్లపై ప్రభావం చూపిన చారిత్రక, రాజకీయ, ఆర్థిక మరియు సామాజిక వ్యక్తులు మరియు ఉద్యమాలపై దృష్టి పెడుతుంది."
+    },
+    {
+      "text": "Honors Latin American Influence",
+      "of": "37717a8b",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[7].title"
+      ],
+      "t": "Honors Latin American Influence"
+    },
+    {
+      "text": "This interdisciplinary course is designed for the students to explore the Latino influence in the United States in the last century.",
+      "of": "17c5af7e",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[7].description"
+      ],
+      "t": "గత శతాబ్దంలో అమెరికాలో Latino ప్రభావాన్ని విద్యార్థులు అన్వేషించేందుకు ఈ అంతర్విభాగ కోర్సు రూపొందించబడింది."
+    },
+    {
+      "text": "Personal Finance",
+      "of": "a1435e7b",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[8].title",
+        "carmel-christian:divisions[0].departments[4].courses[8].title"
+      ],
+      "t": "Personal Finance"
+    },
+    {
+      "text": "This course is designed to provide students with personal skills needed daily. Topics of study include establishing a bank account and maintaining a checkbook and debit card, computing personal income tax and analyzing employment taxes.",
+      "of": "ea401078",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[8].description"
+      ],
+      "t": "ఈ కోర్సు విద్యార్థులకు రోజువారీగా అవసరమైన వ్యక్తిగత నైపుణ్యాలను అందించేలా రూపొందించబడింది. అధ్యయన అంశాల్లో బ్యాంకు ఖాతా ప్రారంభించడం మరియు చెక్‌బుక్, డెబిట్ కార్డు నిర్వహణ, వ్యక్తిగత ఆదాయ పన్ను లెక్కించడం మరియు ఉద్యోగ పన్నుల విశ్లేషణ ఉన్నాయి."
+    },
+    {
+      "text": "Marketing Principles",
+      "of": "03b6c714",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[9].title"
+      ],
+      "t": "Marketing Principles"
+    },
+    {
+      "text": "This is a beginning class to help students become familiar with the world of business through a marketing perspective.",
+      "of": "18d8cc71",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[9].description"
+      ],
+      "t": "marketing దృక్కోణం నుంచి వ్యాపార ప్రపంచంతో విద్యార్థులు పరిచయం పెంచుకునేందుకు సహాయపడే ప్రారంభ స్థాయి తరగతి ఇది."
+    },
+    {
+      "text": "Introduction to Accounting",
+      "of": "93ea8a53",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[10].title"
+      ],
+      "t": "Introduction to Accounting"
+    },
+    {
+      "text": "This class is designed to provide an understanding of the basic principles of the Accounting Cycle as it applies to business entities.",
+      "of": "a7b074f0",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[10].description"
+      ],
+      "t": "వ్యాపార సంస్థలకు వర్తించే Accounting Cycle ప్రాథమిక సూత్రాలపై అవగాహన కల్పించేలా ఈ తరగతి రూపొందించబడింది."
+    },
+    {
+      "text": "Advanced Placement Computer Science A",
+      "of": "5369b620",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[11].title",
+        "cannon:divisions[2].departments[6].courses[1].title",
+        "hickory-grove-christian:divisions[0].departments[9].courses[2].title"
+      ],
+      "t": "Advanced Placement Computer Science A"
+    },
+    {
+      "text": "Advanced Placement Computer Science A emphasizes object-oriented programming methodology, with a strong focus on problem solving and algorithm development.",
+      "of": "564d1dca",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[11].description"
+      ],
+      "t": "Advanced Placement Computer Science A object-oriented programming పద్ధతిపై దృష్టి పెడుతుంది, సమస్య పరిష్కారం మరియు algorithm అభివృద్ధిపై బలమైన ప్రాధాన్యంతో."
+    },
+    {
+      "text": "Advanced Placement Cybersecurity Kickstart",
+      "of": "01903e11",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[12].title"
+      ],
+      "t": "Advanced Placement Cybersecurity Kickstart"
+    },
+    {
+      "text": "AP Cybersecurity offers a broad introduction to the field and aligns closely with a college-level, introductory cybersecurity course.",
+      "of": "8caee700",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[12].description"
+      ],
+      "t": "AP Cybersecurity ఈ రంగానికి విస్తృత పరిచయాన్ని అందిస్తుంది మరియు కళాశాల స్థాయి ప్రాథమిక cybersecurity కోర్సుతో దగ్గరగా సరిపోతుంది."
+    },
+    {
+      "text": "Introduction to STEM",
+      "of": "cc9fd807",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[13].title"
+      ],
+      "t": "Introduction to STEM"
+    },
+    {
+      "text": "Do you like building things? Do you tend to be curious how things work?",
+      "of": "e4de0528",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[13].description"
+      ],
+      "t": "మీకు వస్తువులు తయారు చేయడం ఇష్టమా? వస్తువులు ఎలా పనిచేస్తాయో తెలుసుకోవాలనే కుతూహలం మీకు ఉంటుందా?"
+    },
+    {
+      "text": "Introduction to Engineering",
+      "of": "1c2acea9",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[14].title"
+      ],
+      "t": "Introduction to Engineering"
+    },
+    {
+      "text": "Introduction to Engineering is designed to develop foundational concepts and skills that will prepare students for more advanced courses in engineering.",
+      "of": "646417ea",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[14].description"
+      ],
+      "t": "ఇంజనీరింగ్‌లో మరింత ఉన్నత స్థాయి కోర్సులకు విద్యార్థులను సిద్ధం చేసే మౌలిక భావనలు మరియు నైపుణ్యాలను పెంపొందించేలా Introduction to Engineering రూపొందించబడింది."
+    },
+    {
+      "text": "Honors Electrical and Computing Engineering",
+      "of": "b26ae162",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[15].title"
+      ],
+      "t": "Honors Electrical and Computing Engineering"
+    },
+    {
+      "text": "This course is designed to prepare students for advanced courses in electrical and computing engineering fields.",
+      "of": "e2038a46",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[15].description"
+      ],
+      "t": "electrical మరియు computing engineering రంగాల్లో ఉన్నత స్థాయి కోర్సులకు విద్యార్థులను సిద్ధం చేసేలా ఈ కోర్సు రూపొందించబడింది."
+    },
+    {
+      "text": "Honors Civil and Construction Engineering",
+      "of": "c7aa0cac",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[16].title"
+      ],
+      "t": "Honors Civil and Construction Engineering"
+    },
+    {
+      "text": "This course is designed to prepare students for college level courses in these fields. Students will explore design concepts including building systems, building materials, structures and loads, transportation, and environmental…",
+      "of": "8e488616",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[16].description"
+      ],
+      "t": "ఈ రంగాల్లో కళాశాల స్థాయి కోర్సులకు విద్యార్థులను సిద్ధం చేసేలా ఈ కోర్సు రూపొందించబడింది. విద్యార్థులు భవన వ్యవస్థలు, నిర్మాణ సామగ్రి, నిర్మాణాలు మరియు భారాలు, రవాణా మరియు పర్యావరణ అంశాలతో సహా design భావనలను అన్వేషిస్తారు…"
+    },
+    {
+      "text": "Honors Engineering Capstone",
+      "of": "272f33a0",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[17].title"
+      ],
+      "t": "Honors Engineering Capstone"
+    },
+    {
+      "text": "Honors Engineering Capstone is available for students who completed prior CCHS engineering courses and are interested in pursuing a degree in engineering fields.",
+      "of": "7d1490b7",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[17].description"
+      ],
+      "t": "గతంలో CCHS ఇంజనీరింగ్ కోర్సులు పూర్తి చేసి ఇంజనీరింగ్ రంగాల్లో డిగ్రీ చేయాలనుకునే విద్యార్థులకు Honors Engineering Capstone అందుబాటులో ఉంటుంది."
+    },
+    {
+      "text": "This course includes a review of operations with integers, fractions, and decimals; solving equations and inequalities in one variable; introduction to functions; linear functions; systems of linear equations and systems of linear…",
+      "of": "e1de9b86",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[0].description"
+      ],
+      "t": "ఈ కోర్సులో పూర్ణాంకాలు, భిన్నాలు మరియు దశాంశాలతో ప్రక్రియల పునశ్చరణ; ఒక చరరాశిలో సమీకరణాలు మరియు అసమానతల సాధన; ప్రమేయాల పరిచయం; రేఖీయ ప్రమేయాలు; రేఖీయ సమీకరణ వ్యవస్థలు మరియు రేఖీయ వ్యవస్థలు…"
+    },
+    {
+      "text": "This course includes a brief review of operations with integers, fractions, and decimals; solving equations and inequalities in one variable; introduction to functions; linear functions; systems of linear equations and systems of linear…",
+      "of": "e5db73ce",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[1].description"
+      ],
+      "t": "ఈ కోర్సులో పూర్ణాంకాలు, భిన్నాలు మరియు దశాంశాలతో ప్రక్రియల సంక్షిప్త పునశ్చరణ; ఒక చరరాశిలో సమీకరణాలు మరియు అసమానతల సాధన; ప్రమేయాల పరిచయం; రేఖీయ ప్రమేయాలు; రేఖీయ సమీకరణ వ్యవస్థలు మరియు రేఖీయ వ్యవస్థలు…"
+    },
+    {
+      "text": "This course includes basic terms and symbols; congruence and similarity of polygons and circles; area and volume; parallel and perpendicular lines; transformations; and an introduction to proof.",
+      "of": "d2651304",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[2].description"
+      ],
+      "t": "ఈ కోర్సులో ప్రాథమిక పదాలు మరియు సంకేతాలు; బహుభుజులు మరియు వృత్తాల సర్వసమానత్వం మరియు సారూప్యత; వైశాల్యం మరియు ఘనపరిమాణం; సమాంతర మరియు లంబ రేఖలు; రూపాంతరాలు; మరియు నిరూపణ పరిచయం ఉంటాయి."
+    },
+    {
+      "text": "Advanced Geometry",
+      "of": "a91bd63d",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[3].title"
+      ],
+      "t": "Advanced Geometry"
+    },
+    {
+      "text": "This course includes the study of basic terms and symbols; congruence and similarity of polygons and circles; area and volume; parallel and perpendicular lines; transformations and proofs.",
+      "of": "568449b3",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[3].description"
+      ],
+      "t": "ఈ కోర్సులో ప్రాథమిక పదాలు మరియు సంకేతాలు; బహుభుజులు మరియు వృత్తాల సర్వసమానత్వం మరియు సారూప్యత; వైశాల్యం మరియు ఘనపరిమాణం; సమాంతర మరియు లంబ రేఖలు; రూపాంతరాలు మరియు నిరూపణల అధ్యయనం ఉంటాయి."
+    },
+    {
+      "text": "Honors Geometry",
+      "of": "e8101e6c",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[4].title",
+        "charlotte-country-day:divisions[2].departments[1].courses[2].title",
+        "davidson-day:divisions[1].departments[0].courses[9].title"
+      ],
+      "t": "Honors Geometry"
+    },
+    {
+      "text": "This rigorous course is designed for students who possess a strong work ethic and ability to think critically and includes the in depth study of basic terms and symbols; congruence and similarity of polygons and circles; parallel and…",
+      "of": "d399e213",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[4].description"
+      ],
+      "t": "బలమైన పని నిబద్ధత మరియు విమర్శనాత్మకంగా ఆలోచించే సామర్థ్యం ఉన్న విద్యార్థుల కోసం రూపొందించిన ఈ కఠినమైన కోర్సులో ప్రాథమిక పదాలు మరియు సంకేతాలు; బహుభుజులు మరియు వృత్తాల సర్వసమానత్వం మరియు సారూప్యత; సమాంతర మరియు…"
+    },
+    {
+      "text": "This course includes the study of linear, quadratic, exponential, logarithmic, radical, rational and trigonometric functions; complex numbers; correlation and regression.",
+      "of": "b5cfa283",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[5].description"
+      ],
+      "t": "ఈ కోర్సులో రేఖీయ, వర్గ, ఘాతాంక, సంవర్గమాన, కరణీయ, అకరణీయ మరియు త్రికోణమితి ప్రమేయాల అధ్యయనం; సంకీర్ణ సంఖ్యలు; సహసంబంధం మరియు తిరోగమనం ఉంటాయి."
+    },
+    {
+      "text": "Advanced Algebra II",
+      "of": "daae60fb",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[6].title"
+      ],
+      "t": "Advanced Algebra II"
+    },
+    {
+      "text": "This course includes the study of linear, quadratic, exponential, logarithmic, radical, rational and trigonometric functions; complex numbers; correlation and regression; normal models; and confidence intervals for proportions and means.",
+      "of": "9c1c5de8",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[6].description"
+      ],
+      "t": "ఈ కోర్సులో రేఖీయ, వర్గ, ఘాతాంక, సంవర్గమాన, కరణీయ, అకరణీయ మరియు త్రికోణమితి ప్రమేయాల అధ్యయనం; సంకీర్ణ సంఖ్యలు; సహసంబంధం మరియు తిరోగమనం; సాధారణ నమూనాలు; మరియు నిష్పత్తులు, సగటుల కోసం విశ్వాస అంతరాలు ఉంటాయి."
+    },
+    {
+      "text": "Honors Algebra II",
+      "of": "cb784dca",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[7].title",
+        "charlotte-country-day:divisions[2].departments[1].courses[4].title",
+        "cannon:divisions[2].departments[1].courses[3].title"
+      ],
+      "t": "Honors Algebra II"
+    },
+    {
+      "text": "This rigorous course is designed for students who possess a strong work ethic and ability to think critically and includes the in depth study of linear, quadratic, exponential, logarithmic, radical, rational and trigonometric functions;…",
+      "of": "be216c19",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[7].description"
+      ],
+      "t": "బలమైన పని నిబద్ధత మరియు విమర్శనాత్మకంగా ఆలోచించే సామర్థ్యం ఉన్న విద్యార్థుల కోసం రూపొందించిన ఈ కఠినమైన కోర్సులో రేఖీయ, వర్గ, ఘాతాంక, సంవర్గమాన, కరణీయ, అకరణీయ మరియు త్రికోణమితి ప్రమేయాల లోతైన అధ్యయనం ఉంటుంది;…"
+    },
+    {
+      "text": "Advanced Algebra 3/Statistics",
+      "of": "55e2d7f8",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[8].title"
+      ],
+      "t": "Advanced Algebra 3/Statistics"
+    },
+    {
+      "text": "This course is intended to prepare students for an Algebra, Statistics, or Pre-Calculus course at the university level.",
+      "of": "08efbcd2",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[8].description"
+      ],
+      "t": "విశ్వవిద్యాలయ స్థాయిలో Algebra, Statistics లేదా Pre-Calculus కోర్సు కోసం విద్యార్థులను సిద్ధం చేయడం ఈ కోర్సు ఉద్దేశం."
+    },
+    {
+      "text": "Advanced Algebra 4/Trigonometry",
+      "of": "3704ea4b",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[9].title"
+      ],
+      "t": "Advanced Algebra 4/Trigonometry"
+    },
+    {
+      "text": "This course is intended to prepare students for an Algebra, Statistics, Pre-Calculus, or Calculus course at the university level.",
+      "of": "0a1b706a",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[9].description"
+      ],
+      "t": "విశ్వవిద్యాలయ స్థాయిలో Algebra, Statistics, Pre-Calculus లేదా Calculus కోర్సు కోసం విద్యార్థులను సిద్ధం చేయడం ఈ కోర్సు ఉద్దేశం."
+    },
+    {
+      "text": "Functions and Modeling",
+      "of": "9d57c6ea",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[10].title"
+      ],
+      "t": "Functions and Modeling"
+    },
+    {
+      "text": "This course provides students the opportunity to further study linear, quadratic, exponential, logarithmic and trigonometric functions.",
+      "of": "73e22d33",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[10].description"
+      ],
+      "t": "రేఖీయ, వర్గ, ఘాతాంక, సంవర్గమాన మరియు త్రికోణమితి ప్రమేయాలను మరింత లోతుగా అధ్యయనం చేసే అవకాశాన్ని ఈ కోర్సు విద్యార్థులకు అందిస్తుంది."
+    },
+    {
+      "text": "Advanced Pre-Calculus",
+      "of": "b0277d49",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[11].title"
+      ],
+      "t": "Advanced Pre-Calculus"
+    },
+    {
+      "text": "This course includes the further development and analysis of functions including polynomial, rational, exponential, and logarithmic and trigonometric functions.",
+      "of": "35f390f8",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[11].description"
+      ],
+      "t": "ఈ కోర్సులో బహుపది, అకరణీయ, ఘాతాంక, సంవర్గమాన మరియు త్రికోణమితి ప్రమేయాలతో సహా ప్రమేయాల మరింత అభివృద్ధి మరియు విశ్లేషణ ఉంటాయి."
+    },
+    {
+      "text": "Honors Pre-Calculus",
+      "of": "5a75cdc0",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[12].title"
+      ],
+      "t": "Honors Pre-Calculus"
+    },
+    {
+      "text": "This rigorous course is designed for students who possess a strong work ethic and ability to think critically and includes the further development and analysis of functions including polynomial, rational, exponential, and logarithmic…",
+      "of": "99a6e477",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[12].description"
+      ],
+      "t": "బలమైన పని నిబద్ధత మరియు విమర్శనాత్మకంగా ఆలోచించే సామర్థ్యం ఉన్న విద్యార్థుల కోసం రూపొందించిన ఈ కఠినమైన కోర్సులో బహుపది, అకరణీయ, ఘాతాంక మరియు సంవర్గమాన ప్రమేయాలతో సహా ప్రమేయాల మరింత అభివృద్ధి మరియు విశ్లేషణ ఉంటాయి…"
+    },
+    {
+      "text": "Honors Calculus",
+      "of": "4e67a2e4",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[13].title",
+        "cannon:divisions[2].departments[1].courses[8].title",
+        "davidson-day:divisions[2].departments[1].courses[8].title"
+      ],
+      "t": "Honors Calculus"
+    },
+    {
+      "text": "Topics included in this course are limits, derivatives of both algebraic and transcendental functions, methods of integration, and applications of the derivative and integral.",
+      "of": "babf9f4a",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[13].description"
+      ],
+      "t": "ఈ కోర్సులోని అంశాలు: అవధులు, బీజీయ మరియు అబీజీయ ప్రమేయాల అవకలజాలు, సమాకలన పద్ధతులు, మరియు అవకలజం, సమాకలనం అనువర్తనాలు."
+    },
+    {
+      "text": "The AP Statistics course is equivalent to a one-semester, introductory, non-calculus-based college course in statistics.",
+      "of": "b59edbde",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[14].description"
+      ],
+      "t": "AP Statistics కోర్సు గణాంకశాస్త్రంలో ఒక సెమిస్టర్ నిడివి గల, calculus ఆధారితం కాని కళాశాల ప్రాథమిక కోర్సుకు సమానం."
+    },
+    {
+      "text": "Advanced Placement Calculus AB is roughly equivalent to a first semester college calculus course devoted to topics in differential and integral calculus.",
+      "of": "b8d646ca",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[15].description"
+      ],
+      "t": "Advanced Placement Calculus AB అవకలన మరియు సమాకలన calculus అంశాలకు కేటాయించిన కళాశాల తొలి సెమిస్టర్ calculus కోర్సుకు దాదాపు సమానం."
+    },
+    {
+      "text": "Advanced Placement Calculus BC is roughly equivalent to both first and second semester college calculus courses and includes the content learned in Calculus AB while extending it to different types of equations and introduces the topic…",
+      "of": "3c0d07a6",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[16].description"
+      ],
+      "t": "Advanced Placement Calculus BC కళాశాల తొలి మరియు రెండో సెమిస్టర్ calculus కోర్సులు రెండింటికీ దాదాపు సమానం, ఇందులో Calculus ABలో నేర్చుకున్న విషయాలు ఉంటాయి, వాటిని వేర్వేరు రకాల సమీకరణాలకు విస్తరిస్తూ ఈ అంశాన్ని పరిచయం చేస్తుంది…"
+    },
+    {
+      "text": "Options Program / Pathways Program",
+      "of": "13b8fe4f",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[3].name"
+      ],
+      "t": "Options Program / Pathways Program"
+    },
+    {
+      "text": "Options English 9",
+      "of": "d38a2e32",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[3].courses[0].title"
+      ],
+      "t": "Options English 9"
+    },
+    {
+      "text": "This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).",
+      "of": "078dacf5",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[3].courses[0].description",
+        "charlotte-catholic:divisions[0].departments[3].courses[1].description",
+        "charlotte-catholic:divisions[0].departments[3].courses[2].description",
+        "charlotte-catholic:divisions[0].departments[3].courses[3].description",
+        "charlotte-catholic:divisions[0].departments[3].courses[4].description",
+        "charlotte-catholic:divisions[0].departments[3].courses[5].description",
+        "charlotte-catholic:divisions[0].departments[3].courses[6].description",
+        "charlotte-catholic:divisions[0].departments[3].courses[7].description",
+        "charlotte-catholic:divisions[0].departments[3].courses[8].description",
+        "charlotte-catholic:divisions[0].departments[3].courses[9].description",
+        "charlotte-catholic:divisions[0].departments[3].courses[10].description",
+        "charlotte-catholic:divisions[0].departments[3].courses[11].description",
+        "charlotte-catholic:divisions[0].departments[3].courses[12].description",
+        "charlotte-catholic:divisions[0].departments[3].courses[13].description",
+        "charlotte-catholic:divisions[0].departments[4].courses[0].description"
+      ],
+      "t": "మనుషులు వ్యక్తులు (అంటే స్వేచ్ఛ మరియు తెలుసుకోగల, ప్రేమించగల అంతరంగ జీవితం కలిగిన జీవులు) అని చెప్పడం అంటే ఏమిటో ఈ కోర్సు అధ్యయనం చేస్తుంది."
+    },
+    {
+      "text": "Options English 10",
+      "of": "949ad78e",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[3].courses[1].title"
+      ],
+      "t": "Options English 10"
+    },
+    {
+      "text": "Options English 11",
+      "of": "959ad921",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[3].courses[2].title"
+      ],
+      "t": "Options English 11"
+    },
+    {
+      "text": "Options English 12",
+      "of": "929ad468",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[3].courses[3].title"
+      ],
+      "t": "Options English 12"
+    },
+    {
+      "text": "Options Year 1",
+      "of": "40a9e51d",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[3].courses[4].title"
+      ],
+      "t": "Options Year 1"
+    },
+    {
+      "text": "Options Year 2",
+      "of": "3da9e064",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[3].courses[5].title"
+      ],
+      "t": "Options Year 2"
+    },
+    {
+      "text": "Options Year 3",
+      "of": "3ea9e1f7",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[3].courses[6].title"
+      ],
+      "t": "Options Year 3"
+    },
+    {
+      "text": "Options Year 4",
+      "of": "3ba9dd3e",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[3].courses[7].title"
+      ],
+      "t": "Options Year 4"
+    },
+    {
+      "text": "Options PE",
+      "of": "5582de28",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[3].courses[8].title"
+      ],
+      "t": "Options PE"
+    },
+    {
+      "text": "Math Life 1",
+      "of": "a9b0524c",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[3].courses[9].title"
+      ],
+      "t": "Math Life 1"
+    },
+    {
+      "text": "Math Life 2",
+      "of": "acb05705",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[3].courses[10].title"
+      ],
+      "t": "Math Life 2"
+    },
+    {
+      "text": "Options Personal Finance",
+      "of": "5552d0e5",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[3].courses[11].title"
+      ],
+      "t": "Options Personal Finance"
+    },
+    {
+      "text": "Options Financial Management",
+      "of": "833d04c5",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[3].courses[12].title"
+      ],
+      "t": "Options Financial Management"
+    },
+    {
+      "text": "Pathway Program",
+      "of": "8c9998c9",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[3].courses[13].title"
+      ],
+      "t": "Pathway Program"
+    },
+    {
+      "text": "Philosophy",
+      "of": "7d9e611a",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[4].name"
+      ],
+      "t": "తత్వశాస్త్రం"
+    },
+    {
+      "text": "Introduction to Philosophy: Human Person",
+      "of": "6713b605",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[4].courses[0].title"
+      ],
+      "t": "Introduction to Philosophy: Human Person"
+    },
+    {
+      "text": "Ethics",
+      "of": "6eca66f5",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[4].courses[1].title"
+      ],
+      "t": "Ethics"
+    },
+    {
+      "text": "This course introduces students to classical philosophy’s approach to ethics through a Catholic lens.",
+      "of": "6371b8ed",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[4].courses[1].description"
+      ],
+      "t": "ఈ కోర్సు కాథలిక్ దృక్కోణం నుంచి నైతికతపై శాస్త్రీయ తత్వశాస్త్ర దృక్పథాన్ని విద్యార్థులకు పరిచయం చేస్తుంది."
+    },
+    {
+      "text": "Logic",
+      "of": "5aedf3b1",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[4].courses[2].title"
+      ],
+      "t": "Logic"
+    },
+    {
+      "text": "Logic is the art of habitually reasoning from true premises to true conclusions. The purpose of this course is to cultivate a student’s ability to think critically and apply logical reasoning across a variety of subject matters.",
+      "of": "3f60856d",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[4].courses[2].description"
+      ],
+      "t": "Logic అంటే సత్యమైన ప్రతిపాదనల నుంచి సత్యమైన నిర్ధారణలకు అలవాటుగా తర్కించే కళ. విమర్శనాత్మకంగా ఆలోచించే మరియు వివిధ విషయాలలో తార్కిక ఆలోచనను అన్వయించే విద్యార్థి సామర్థ్యాన్ని పెంపొందించడమే ఈ కోర్సు ఉద్దేశం."
+    },
+    {
+      "text": "Health",
+      "of": "986145af",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[5].courses[0].title",
+        "charlotte-country-day:divisions[1].departments[5].courses[1].title",
+        "charlotte-country-day:divisions[1].departments[5].courses[2].title",
+        "charlotte-country-day:divisions[1].departments[5].courses[3].title",
+        "charlotte-country-day:divisions[1].departments[5].courses[4].title",
+        "covenant-day:divisions[0].departments[2].courses[5].title",
+        "carmel-christian:divisions[0].departments[6].courses[0].title"
+      ],
+      "t": "Health"
+    },
+    {
+      "text": "The Health course aims to foster a holistic understanding of health, emphasizing the connection between physical, mental, emotional, and spiritual well-being.",
+      "of": "c0c4e6aa",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[5].courses[0].description"
+      ],
+      "t": "Health కోర్సు శారీరక, మానసిక, భావోద్వేగ మరియు ఆధ్యాత్మిక క్షేమాల మధ్య సంబంధాన్ని నొక్కిచెబుతూ ఆరోగ్యంపై సమగ్ర అవగాహనను పెంపొందించడం లక్ష్యంగా పెట్టుకుంది."
+    },
+    {
+      "text": "The Physical Education course is designed to promote the development of a healthy and active lifestyle through a variety of physical activities and sports.",
+      "of": "6317d898",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[5].courses[1].description"
+      ],
+      "t": "Physical Education కోర్సు వివిధ శారీరక కార్యకలాపాలు మరియు క్రీడల ద్వారా ఆరోగ్యకరమైన, చురుకైన జీవనశైలిని ప్రోత్సహించేలా రూపొందించబడింది."
+    },
+    {
+      "text": "Aerobics",
+      "of": "e7b8b0f7",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[5].courses[2].title"
+      ],
+      "t": "Aerobics"
+    },
+    {
+      "text": "This course will focus on simple endurance and aerobic movements in order to increase physical abilities.",
+      "of": "193f5c87",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[5].courses[2].description"
+      ],
+      "t": "శారీరక సామర్థ్యాలను పెంచేందుకు ఈ కోర్సు సాధారణ ఓర్పు మరియు aerobic కదలికలపై దృష్టి పెడుతుంది."
+    },
+    {
+      "text": "Men’s Weightlifting",
+      "of": "58962588",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[5].courses[3].title"
+      ],
+      "t": "Men’s Weightlifting"
+    },
+    {
+      "text": "This course is designed to educate students on the proper techniques of weightlifting, how to target specific muscle groups and the design and implementation of using a lifting schedule specifically to the needs of the male population.",
+      "of": "537b770f",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[5].courses[3].description"
+      ],
+      "t": "weightliftingలో సరైన పద్ధతులు, నిర్దిష్ట కండరాల సమూహాలను ఎలా లక్ష్యంగా చేసుకోవాలి, మరియు పురుషుల అవసరాలకు అనుగుణంగా lifting షెడ్యూల్‌ను రూపొందించి అమలు చేయడంపై విద్యార్థులకు అవగాహన కల్పించేలా ఈ కోర్సు రూపొందించబడింది."
+    },
+    {
+      "text": "Women’s Weightlifting",
+      "of": "96ac85ce",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[5].courses[4].title"
+      ],
+      "t": "Women’s Weightlifting"
+    },
+    {
+      "text": "This course is designed to educate students on the proper techniques of weightlifting, how to target specific muscle groups and the design and implementation of using a lifting schedule specifically to the needs of the female population.",
+      "of": "80375162",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[5].courses[4].description"
+      ],
+      "t": "weightliftingలో సరైన పద్ధతులు, నిర్దిష్ట కండరాల సమూహాలను ఎలా లక్ష్యంగా చేసుకోవాలి, మరియు మహిళల అవసరాలకు అనుగుణంగా lifting షెడ్యూల్‌ను రూపొందించి అమలు చేయడంపై విద్యార్థులకు అవగాహన కల్పించేలా ఈ కోర్సు రూపొందించబడింది."
+    },
+    {
+      "text": "Jazzercise",
+      "of": "cdb9b0d3",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[5].courses[5].title"
+      ],
+      "t": "Jazzercise"
+    },
+    {
+      "text": "This course will focus on the elements of dance with cardio movement exercises. Pilates and stretching will also be implemented.",
+      "of": "98779b03",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[5].courses[5].description"
+      ],
+      "t": "ఈ కోర్సు cardio కదలికల వ్యాయామాలతో కూడిన నృత్య అంశాలపై దృష్టి పెడుతుంది. Pilates మరియు సాగదీత వ్యాయామాలు కూడా ఉంటాయి."
+    },
+    {
+      "text": "Team Sports: Upperclassmen PE",
+      "of": "3f3676fe",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[5].courses[6].title"
+      ],
+      "t": "Team Sports: Upperclassmen PE"
+    },
+    {
+      "text": "Students will participate in various team activities with emphasis on group and individual choice and carry-over activities.",
+      "of": "53094926",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[5].courses[6].description"
+      ],
+      "t": "విద్యార్థులు సమూహ మరియు వ్యక్తిగత ఎంపికకు, అలాగే జీవితాంతం కొనసాగే కార్యకలాపాలకు ప్రాధాన్యమిస్తూ వివిధ జట్టు కార్యకలాపాలలో పాల్గొంటారు."
+    },
+    {
+      "text": "Honors Weightlifting & Wellness",
+      "of": "b33aaf54",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[5].courses[7].title"
+      ],
+      "t": "Honors Weightlifting & Wellness"
+    },
+    {
+      "text": "This advanced course is designed for students who have successfully completed introductory weightlifting classes and are ready to deepen their understanding of strength training, fitness, health, and wellness.",
+      "of": "4521caab",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[5].courses[7].description"
+      ],
+      "t": "ప్రాథమిక weightlifting తరగతులను విజయవంతంగా పూర్తి చేసి బలం శిక్షణ, ఫిట్‌నెస్, ఆరోగ్యం మరియు క్షేమంపై తమ అవగాహనను మరింత లోతుగా పెంచుకోవాలనుకునే విద్యార్థుల కోసం ఈ ఉన్నత స్థాయి కోర్సు రూపొందించబడింది."
+    },
+    {
+      "text": "The primary objective of this course is to introduce the student to a broad, general understanding of the fundamental principles of biology through a study of humans and their interaction with other organisms and their mutually shared…",
+      "of": "7deb16f2",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[0].description"
+      ],
+      "t": "మనుషులు మరియు ఇతర జీవులతో వారి పరస్పర చర్య, అలాగే వారు పంచుకునే పర్యావరణం అధ్యయనం ద్వారా జీవశాస్త్ర మౌలిక సూత్రాలపై విస్తృత, సాధారణ అవగాహనను విద్యార్థికి పరిచయం చేయడమే ఈ కోర్సు ప్రధాన లక్ష్యం…"
+    },
+    {
+      "text": "Advanced Biology",
+      "of": "4c77c650",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[1].title"
+      ],
+      "t": "Advanced Biology"
+    },
+    {
+      "text": "The purpose of this course is to introduce the student to an in-depth study of the basic principles of biological processes.",
+      "of": "60b9b8e4",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[1].description"
+      ],
+      "t": "జీవ ప్రక్రియల ప్రాథమిక సూత్రాలపై లోతైన అధ్యయనాన్ని విద్యార్థికి పరిచయం చేయడమే ఈ కోర్సు ఉద్దేశం."
+    },
+    {
+      "text": "Integrated Chemistry and Physics",
+      "of": "9e4e09a2",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[2].title"
+      ],
+      "t": "Integrated Chemistry and Physics"
+    },
+    {
+      "text": "Integrated Chemistry and Physics explores matter, energy, and the interaction between matter and energy.",
+      "of": "139d8213",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[2].description"
+      ],
+      "t": "Integrated Chemistry and Physics పదార్థం, శక్తి మరియు పదార్థం-శక్తి మధ్య పరస్పర చర్యను అన్వేషిస్తుంది."
+    },
+    {
+      "text": "Advanced Chemistry",
+      "of": "59d57781",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[3].title"
+      ],
+      "t": "Advanced Chemistry"
+    },
+    {
+      "text": "This course covers the fundamentals of chemistry. Topics will include, but are not limited to, atomic structure, writing chemical names and formulas, balancing chemical equations, solving stoichiometric problems, behavior of gases,…",
+      "of": "9eb87da7",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[3].description"
+      ],
+      "t": "ఈ కోర్సు రసాయన శాస్త్ర ప్రాథమిక అంశాలను కవర్ చేస్తుంది. అంశాల్లో పరమాణు నిర్మాణం, రసాయన పేర్లు మరియు ఫార్ములాలు రాయడం, రసాయన సమీకరణాలను తుల్యం చేయడం, stoichiometric సమస్యల సాధన, వాయువుల ప్రవర్తన ఉంటాయి, కానీ వీటికే పరిమితం కాదు…"
+    },
+    {
+      "text": "Honors Chemistry",
+      "of": "bebcf292",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[4].title",
+        "cannon:divisions[2].departments[2].courses[4].title",
+        "carmel-christian:divisions[0].departments[3].courses[5].title"
+      ],
+      "t": "Honors Chemistry"
+    },
+    {
+      "text": "This rigorous course is designed for students who possess a strong work ethic and the ability to think critically.",
+      "of": "03475785",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[4].description",
+        "charlotte-catholic:divisions[0].departments[6].courses[8].description"
+      ],
+      "t": "బలమైన పని నిబద్ధత మరియు విమర్శనాత్మకంగా ఆలోచించే సామర్థ్యం ఉన్న విద్యార్థుల కోసం ఈ కఠినమైన కోర్సు రూపొందించబడింది."
+    },
+    {
+      "text": "Oceanography",
+      "of": "55417751",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[5].title"
+      ],
+      "t": "Oceanography"
+    },
+    {
+      "text": "Oceanography explores the geology, chemistry, physics, marine biology, and ecology of the oceans.",
+      "of": "f1586c54",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[5].description"
+      ],
+      "t": "Oceanography మహాసముద్రాల భూగర్భ శాస్త్రం, రసాయన శాస్త్రం, భౌతిక శాస్త్రం, సముద్ర జీవశాస్త్రం మరియు పర్యావరణ శాస్త్రాన్ని అన్వేషిస్తుంది."
+    },
+    {
+      "text": "Environmental Science",
+      "of": "e7a2758d",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[6].title",
+        "gaston-day:divisions[1].departments[2].courses[2].title"
+      ],
+      "t": "Environmental Science"
+    },
+    {
+      "text": "Environmental Science is offered to those students interested in studying present issues concerning the earth and its environment.",
+      "of": "4d77095f",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[6].description"
+      ],
+      "t": "భూమి మరియు దాని పర్యావరణానికి సంబంధించిన ప్రస్తుత సమస్యలను అధ్యయనం చేయాలనుకునే విద్యార్థులకు Environmental Science అందించబడుతుంది."
+    },
+    {
+      "text": "This introductory physics course is designed to relate the principles of physics to the world that surrounds the students.",
+      "of": "81a67add",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[7].description"
+      ],
+      "t": "ఈ ప్రాథమిక భౌతిక శాస్త్ర కోర్సు భౌతిక శాస్త్ర సూత్రాలను విద్యార్థుల చుట్టూ ఉన్న ప్రపంచంతో అనుసంధానించేలా రూపొందించబడింది."
+    },
+    {
+      "text": "Honors Anatomy and Physiology",
+      "of": "e9f192a9",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[8].title",
+        "cannon:divisions[2].departments[2].courses[15].title"
+      ],
+      "t": "Honors Anatomy and Physiology"
+    },
+    {
+      "text": "Honors Nutritional Science",
+      "of": "9ea9bddf",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[9].title"
+      ],
+      "t": "Honors Nutritional Science"
+    },
+    {
+      "text": "This course is designed to provide an introduction to human nutrition, health, and its impacts on society.",
+      "of": "88455d3f",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[9].description"
+      ],
+      "t": "మానవ పోషణ, ఆరోగ్యం మరియు సమాజంపై వాటి ప్రభావాలకు పరిచయాన్ని అందించేలా ఈ కోర్సు రూపొందించబడింది."
+    },
+    {
+      "text": "Advanced Placement Biology is designed for students who are strongly considering furthering their studies in the life sciences and/or medical fields.",
+      "of": "7c6db505",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[10].description"
+      ],
+      "t": "జీవ శాస్త్రాలు మరియు/లేదా వైద్య రంగాలలో తమ చదువును కొనసాగించాలని బలంగా ఆలోచిస్తున్న విద్యార్థుల కోసం Advanced Placement Biology రూపొందించబడింది."
+    },
+    {
+      "text": "Advanced Placement Chemistry is designed as a second-year chemistry course. This is a highly intensive elective science covering the topics usually included in a first-year college level chemistry course.",
+      "of": "3f2ac5cc",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[11].description"
+      ],
+      "t": "Advanced Placement Chemistry రెండో సంవత్సర రసాయన శాస్త్ర కోర్సుగా రూపొందించబడింది. ఇది సాధారణంగా కళాశాల తొలి సంవత్సర రసాయన శాస్త్ర కోర్సులో ఉండే అంశాలను కవర్ చేసే అత్యంత సాంద్రమైన ఐచ్ఛిక విజ్ఞాన కోర్సు."
+    },
+    {
+      "text": "This course covers topics usually included in a first year college course in environmental science.",
+      "of": "56716f95",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[12].description"
+      ],
+      "t": "పర్యావరణ శాస్త్రంలో కళాశాల తొలి సంవత్సర కోర్సులో సాధారణంగా ఉండే అంశాలను ఈ కోర్సు కవర్ చేస్తుంది."
+    },
+    {
+      "text": "Advanced Placement Physics 1: Algebra-Based",
+      "of": "9ccc7d7a",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[13].title"
+      ],
+      "t": "Advanced Placement Physics 1: Algebra-Based"
+    },
+    {
+      "text": "This course is a full year in-depth study of Newtonian mechanics. The content includes kinematics, Newton’s laws of motion, work, energy and power, systems of particles and linear momentum, circular motion and rotation, and oscillations…",
+      "of": "86cbfc8a",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[13].description",
+        "charlotte-catholic:divisions[0].departments[6].courses[14].description"
+      ],
+      "t": "ఈ కోర్సు న్యూటోనియన్ మెకానిక్స్‌పై పూర్తి సంవత్సరం లోతైన అధ్యయనం. విషయాల్లో గతిశాస్త్రం, న్యూటన్ చలన నియమాలు, పని, శక్తి మరియు సామర్థ్యం, కణ వ్యవస్థలు మరియు రేఖీయ ద్రవ్యవేగం, వృత్తాకార చలనం మరియు భ్రమణం, మరియు డోలనాలు ఉన్నాయి…"
+    },
+    {
+      "text": "Advanced Placement Physics C: Mechanics",
+      "of": "469d94dd",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[14].title"
+      ],
+      "t": "Advanced Placement Physics C: Mechanics"
+    },
+    {
+      "text": "Sports Medicine",
+      "of": "d821a326",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[15].title"
+      ],
+      "t": "Sports Medicine"
+    },
+    {
+      "text": "Sports Medicine is a hands-on course for students interested in athletic performance, injury prevention, health care, and human movement.",
+      "of": "59aa5518",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[15].description"
+      ],
+      "t": "Sports Medicine అనేది క్రీడా ప్రదర్శన, గాయాల నివారణ, ఆరోగ్య సంరక్షణ మరియు మానవ చలనంపై ఆసక్తి ఉన్న విద్యార్థుల కోసం ప్రత్యక్ష అనుభవ కోర్సు."
+    },
+    {
+      "text": "This semester course will familiarize students with the basic principles and uses of forensic science in the American justice system.",
+      "of": "f64f453e",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[16].description"
+      ],
+      "t": "ఈ సెమిస్టర్ కోర్సు అమెరికా న్యాయ వ్యవస్థలో forensic science ప్రాథమిక సూత్రాలు మరియు వినియోగంతో విద్యార్థులకు పరిచయం కల్పిస్తుంది."
+    },
+    {
+      "text": "Biotechnology",
+      "of": "83a189e3",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[17].title"
+      ],
+      "t": "Biotechnology"
+    },
+    {
+      "text": "This course will provide students with a comprehensive introduction to the scientific concepts and laboratory research techniques currently used in the field of biotechnology.",
+      "of": "17608f26",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[17].description"
+      ],
+      "t": "biotechnology రంగంలో ప్రస్తుతం ఉపయోగిస్తున్న శాస్త్రీయ భావనలు మరియు ప్రయోగశాల పరిశోధన పద్ధతులపై ఈ కోర్సు విద్యార్థులకు సమగ్ర పరిచయాన్ని అందిస్తుంది."
+    },
+    {
+      "text": "This is a college prep survey course in World History with a scope and sequence that includes both western and non-western cultures and societies to the present.",
+      "of": "0a7fb75a",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[0].description"
+      ],
+      "t": "ఇది ప్రపంచ చరిత్రలో ఒక college prep సమగ్ర కోర్సు, దీని పరిధి మరియు క్రమంలో నేటి వరకు పాశ్చాత్య మరియు పాశ్చాత్యేతర సంస్కృతులు, సమాజాలు రెండూ ఉంటాయి."
+    },
+    {
+      "text": "Advanced World History",
+      "of": "f9c1e7ef",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[1].title"
+      ],
+      "t": "Advanced World History"
+    },
+    {
+      "text": "Students will explore this broad scope by reading actively and creatively, evaluating historical evidence using primary and secondary sources, analyzing visual materials, interpreting data, and recognizing point of view and bias.",
+      "of": "af9763a7",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[1].description"
+      ],
+      "t": "విద్యార్థులు చురుకుగా, సృజనాత్మకంగా చదవడం, ప్రాథమిక మరియు ద్వితీయ మూలాలను ఉపయోగించి చారిత్రక ఆధారాలను మూల్యాంకనం చేయడం, దృశ్య సామగ్రిని విశ్లేషించడం, డేటాను వ్యాఖ్యానించడం, మరియు దృక్కోణం, పక్షపాతాన్ని గుర్తించడం ద్వారా ఈ విస్తృత పరిధిని అన్వేషిస్తారు."
+    },
+    {
+      "text": "Honors World History",
+      "of": "82998000",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[2].title",
+        "cannon:divisions[2].departments[3].courses[0].title"
+      ],
+      "t": "Honors World History"
+    },
+    {
+      "text": "Honors World History is the highest-level World History class at Charlotte Catholic. Deadlines for assignments are often given days and even weeks in advance, so students must plan their work and manage their time to be successful in…",
+      "of": "a3453ea4",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[2].description"
+      ],
+      "t": "Charlotte Catholicలో Honors World History అత్యున్నత స్థాయి World History తరగతి. పనుల గడువులు తరచుగా రోజులు, వారాల ముందుగానే ఇవ్వబడతాయి, కాబట్టి విద్యార్థులు విజయవంతం కావాలంటే తమ పనిని ప్రణాళిక చేసుకుని సమయాన్ని నిర్వహించుకోవాలి…"
+    },
+    {
+      "text": "SASP World History: Icon of Christian Art",
+      "of": "b18d58b0",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[3].title"
+      ],
+      "t": "SASP World History: Icon of Christian Art"
+    },
+    {
+      "text": "This course examines the development of Western and Near Eastern civilizations through the historical and artistic influence of Christianity.",
+      "of": "9b914725",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[3].description"
+      ],
+      "t": "క్రైస్తవ మతం చారిత్రక మరియు కళాత్మక ప్రభావం ద్వారా పాశ్చాత్య మరియు సమీప ప్రాచ్య నాగరికతల వికాసాన్ని ఈ కోర్సు పరిశీలిస్తుంది."
+    },
+    {
+      "text": "U.S. History",
+      "of": "6fd41d17",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[4].title",
+        "covenant-day:divisions[0].departments[3].courses[2].title"
+      ],
+      "t": "అమెరికా చరిత్ర"
+    },
+    {
+      "text": "This survey course is a college prep level course that examines the political, economic, social, and cultural development of the United States.",
+      "of": "44c8db66",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[4].description"
+      ],
+      "t": "ఈ సమగ్ర కోర్సు అమెరికా రాజకీయ, ఆర్థిక, సామాజిక మరియు సాంస్కృతిక వికాసాన్ని పరిశీలించే college prep స్థాయి కోర్సు."
+    },
+    {
+      "text": "Honors U.S. History",
+      "of": "68f7f0aa",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[5].title"
+      ],
+      "t": "Honors U.S. History"
+    },
+    {
+      "text": "This course examines the major topics of United States history in greater depth and with more rigor than college prep U.S.",
+      "of": "788a6dda",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[5].description"
+      ],
+      "t": "college prep U.S. కంటే ఎక్కువ లోతుతో మరియు ఎక్కువ కఠినత్వంతో ఈ కోర్సు అమెరికా చరిత్రలోని ప్రధాన అంశాలను పరిశీలిస్తుంది."
+    },
+    {
+      "text": "Advanced Placement U.S. History",
+      "of": "d208865a",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[6].title"
+      ],
+      "t": "Advanced Placement U.S. History"
+    },
+    {
+      "text": "This is a college level course in which students investigate significant events, individuals, developments, and historical processes in United States history from approximately 1491 to the present.",
+      "of": "bdd2aff6",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[6].description"
+      ],
+      "t": "ఇది కళాశాల స్థాయి కోర్సు, ఇందులో విద్యార్థులు సుమారు 1491 నుంచి నేటి వరకు అమెరికా చరిత్రలోని ముఖ్యమైన సంఘటనలు, వ్యక్తులు, పరిణామాలు మరియు చారిత్రక ప్రక్రియలను పరిశోధిస్తారు."
+    },
+    {
+      "text": "This course introduces students to the scientific study of human behavior and mental processes.",
+      "of": "0396eb47",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[7].description"
+      ],
+      "t": "మానవ ప్రవర్తన మరియు మానసిక ప్రక్రియల శాస్త్రీయ అధ్యయనానికి ఈ కోర్సు విద్యార్థులను పరిచయం చేస్తుంది."
+    },
+    {
+      "text": "This course is a college-level course that introduces students to the systematic and scientific study of human behavior and mental processes.",
+      "of": "43a5d41d",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[8].description"
+      ],
+      "t": "ఇది కళాశాల స్థాయి కోర్సు, ఇది మానవ ప్రవర్తన మరియు మానసిక ప్రక్రియల క్రమబద్ధమైన, శాస్త్రీయ అధ్యయనానికి విద్యార్థులను పరిచయం చేస్తుంది."
+    },
+    {
+      "text": "Politics",
+      "of": "b0fd982e",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[9].title"
+      ],
+      "t": "Politics"
+    },
+    {
+      "text": "This course is a college prep level U.S. Government class that introduces students to the foundations, structures, and processes of the American political system.",
+      "of": "5ac83c77",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[9].description"
+      ],
+      "t": "ఈ కోర్సు అమెరికా రాజకీయ వ్యవస్థ పునాదులు, నిర్మాణాలు మరియు ప్రక్రియలకు విద్యార్థులను పరిచయం చేసే college prep స్థాయి U.S. Government తరగతి."
+    },
+    {
+      "text": "Honors Politics",
+      "of": "c3c61e77",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[10].title"
+      ],
+      "t": "Honors Politics"
+    },
+    {
+      "text": "This course covers the same foundational topics as the college prep level U.S. Government course, but with greater depth, pace, and academic rigor.",
+      "of": "7d9301e8",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[10].description"
+      ],
+      "t": "ఈ కోర్సు college prep స్థాయి U.S. Government కోర్సులోని అదే మౌలిక అంశాలను కవర్ చేస్తుంది, కానీ ఎక్కువ లోతు, వేగం మరియు విద్యాపరమైన కఠినత్వంతో."
+    },
+    {
+      "text": "Advanced Placement United States Government",
+      "of": "5d8d342a",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[11].title"
+      ],
+      "t": "Advanced Placement United States Government"
+    },
+    {
+      "text": "This course provides a college-level introduction to key political concepts, ideas, institutions, policies, interactions, roles, and behaviors that characterize the constitutional system and political culture of the United States.",
+      "of": "d8b1836b",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[11].description"
+      ],
+      "t": "అమెరికా రాజ్యాంగ వ్యవస్థ మరియు రాజకీయ సంస్కృతిని నిర్వచించే కీలక రాజకీయ భావనలు, ఆలోచనలు, సంస్థలు, విధానాలు, పరస్పర చర్యలు, పాత్రలు మరియు ప్రవర్తనలకు ఈ కోర్సు కళాశాల స్థాయి పరిచయాన్ని అందిస్తుంది."
+    },
+    {
+      "text": "This course is a college prep level economics course that introduces students to the fundamental principles of economics with a primary focus on the American economic system.",
+      "of": "bdde45a3",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[12].description"
+      ],
+      "t": "ఇది ప్రధానంగా అమెరికా ఆర్థిక వ్యవస్థపై దృష్టి పెట్టి ఆర్థిక శాస్త్ర మౌలిక సూత్రాలకు విద్యార్థులను పరిచయం చేసే college prep స్థాయి ఆర్థిక శాస్త్ర కోర్సు."
+    },
+    {
+      "text": "Honors Economics",
+      "of": "f4a20b52",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[13].title"
+      ],
+      "t": "Honors Economics"
+    },
+    {
+      "text": "This class provides students with a thorough understanding of the principles of economics that apply to the behavior of individual decision makers, including consumers and producers, within the larger economic system.",
+      "of": "b0aced17",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[13].description"
+      ],
+      "t": "విస్తృత ఆర్థిక వ్యవస్థలో వినియోగదారులు మరియు ఉత్పత్తిదారులతో సహా వ్యక్తిగత నిర్ణయకర్తల ప్రవర్తనకు వర్తించే ఆర్థిక సూత్రాలపై ఈ తరగతి విద్యార్థులకు సమగ్ర అవగాహనను అందిస్తుంది."
+    },
+    {
+      "text": "Advanced Placement Microeconomics",
+      "of": "2a0f73a6",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[14].title"
+      ],
+      "t": "Advanced Placement Microeconomics"
+    },
+    {
+      "text": "This class is a college-level course that introduces students to the principles of economics that apply to the behavior of individual consumers, firms, and resource owners.",
+      "of": "43a6df4c",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[14].description"
+      ],
+      "t": "ఇది కళాశాల స్థాయి కోర్సు, ఇది వ్యక్తిగత వినియోగదారులు, సంస్థలు మరియు వనరుల యజమానుల ప్రవర్తనకు వర్తించే ఆర్థిక సూత్రాలకు విద్యార్థులను పరిచయం చేస్తుంది."
+    },
+    {
+      "text": "Advanced Placement European History",
+      "of": "b75faf55",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[15].title"
+      ],
+      "t": "Advanced Placement European History"
+    },
+    {
+      "text": "This course begins with a brief orientation to philosophy and logic. The remainder of the course examines how God reveals himself to people.",
+      "of": "0bb97eaf",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[15].description",
+        "charlotte-catholic:divisions[0].departments[8].courses[0].description"
+      ],
+      "t": "ఈ కోర్సు తత్వశాస్త్రం మరియు తర్కానికి సంక్షిప్త పరిచయంతో మొదలవుతుంది. మిగిలిన కోర్సు దేవుడు మనుషులకు తనను తాను ఎలా వెల్లడించుకుంటాడో పరిశీలిస్తుంది."
+    },
+    {
+      "text": "Theology",
+      "of": "e179f604",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].name"
+      ],
+      "t": "వేదాంతశాస్త్రం"
+    },
+    {
+      "text": "Faith and Revelation: Knowing",
+      "of": "aa8dc6d2",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[0].title"
+      ],
+      "t": "Faith and Revelation: Knowing"
+    },
+    {
+      "text": "The Blessed Trinity and Our Christian Vocation",
+      "of": "0e8586e6",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[1].title"
+      ],
+      "t": "The Blessed Trinity and Our Christian Vocation"
+    },
+    {
+      "text": "This course presents the Blessed Trinity – one God in three divine Persons: Father, Son, and Holy Spirit – which is the central mystery of the Christian Faith.",
+      "of": "09259e9d",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[1].description"
+      ],
+      "t": "ఈ కోర్సు క్రైస్తవ విశ్వాసానికి కేంద్ర రహస్యమైన పరిశుద్ధ త్రిత్వాన్ని — తండ్రి, కుమారుడు మరియు పరిశుద్ధాత్మ అనే ముగ్గురు దైవ వ్యక్తులలో ఒకే దేవుడు — పరిచయం చేస్తుంది."
+    },
+    {
+      "text": "SASP Theology 9: Sacred Scripture",
+      "of": "b06c3859",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[2].title"
+      ],
+      "t": "SASP Theology 9: Sacred Scripture"
+    },
+    {
+      "text": "Sacred Scripture offers students a deep encounter with the Word of God through a traditional, liberal arts lens.",
+      "of": "d3241369",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[2].description"
+      ],
+      "t": "Sacred Scripture సంప్రదాయ, liberal arts దృక్కోణం ద్వారా దేవుని వాక్యంతో లోతైన అనుభవాన్ని విద్యార్థులకు అందిస్తుంది."
+    },
+    {
+      "text": "The Mystery of Redemption and Christian",
+      "of": "a4b33301",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[3].title"
+      ],
+      "t": "The Mystery of Redemption and Christian"
+    },
+    {
+      "text": "This course examines the meaning of redemption; Original Sin; and how the salvific promise made to our first parents is fulfilled in the life, Death, Resurrection, and Ascension of Jesus Christ.",
+      "of": "68fe0098",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[3].description"
+      ],
+      "t": "ఈ కోర్సు రక్షణ అర్థాన్ని; మూల పాపాన్ని; మరియు మన మొదటి తల్లిదండ్రులకు ఇచ్చిన రక్షణ వాగ్దానం యేసు క్రీస్తు జీవితం, మరణం, పునరుత్థానం మరియు ఆరోహణలో ఎలా నెరవేరిందో పరిశీలిస్తుంది."
+    },
+    {
+      "text": "The Church: Sacrament of Salvation",
+      "of": "2441fcfb",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[4].title"
+      ],
+      "t": "The Church: Sacrament of Salvation"
+    },
+    {
+      "text": "The Church, which is established by Jesus Christ and guided by the Holy Spirit, continues the salvific ministry of Christ in the world today; thus, the Church is both the Sacrament of Communion and the Sacrament of Salvation.",
+      "of": "985864eb",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[4].description"
+      ],
+      "t": "యేసు క్రీస్తు స్థాపించి పరిశుద్ధాత్మ మార్గనిర్దేశం చేసే చర్చి, నేటికీ ప్రపంచంలో క్రీస్తు రక్షణ సేవను కొనసాగిస్తుంది; అందుకే చర్చి సహవాస సంస్కారం మరియు రక్షణ సంస్కారం రెండూ."
+    },
+    {
+      "text": "SASP Theology 10: Wisdom of the Fathers",
+      "of": "244e4e4a",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[5].title"
+      ],
+      "t": "SASP Theology 10: Wisdom of the Fathers"
+    },
+    {
+      "text": "This course will immerse students in the works of the major Fathers of the Church and discuss their influence on the theological development of the Church and its understanding of Divine Revelation (Sacred Tradition and Sacred Scripture).",
+      "of": "a000c0c5",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[5].description"
+      ],
+      "t": "ఈ కోర్సు విద్యార్థులను చర్చి ప్రధాన పితరుల రచనలలో మునిగేలా చేసి, చర్చి వేదాంత వికాసంపై మరియు దైవ ప్రత్యక్షత (పవిత్ర సంప్రదాయం మరియు పవిత్ర గ్రంథం) పట్ల దాని అవగాహనపై వారి ప్రభావాన్ని చర్చిస్తుంది."
+    },
+    {
+      "text": "The Sacraments: Source of Our Life in Christ",
+      "of": "10dd566d",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[6].title"
+      ],
+      "t": "The Sacraments: Source of Our Life in Christ"
+    },
+    {
+      "text": "This course recognizes how Jesus Christ, through his great love for us, instituted the Sacraments as the ordinary means of receiving salvation and entrusted them to the Church.",
+      "of": "95243e47",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[6].description"
+      ],
+      "t": "యేసు క్రీస్తు మనపై తనకున్న గొప్ప ప్రేమతో, రక్షణ పొందేందుకు సాధారణ మార్గంగా సంస్కారాలను స్థాపించి వాటిని చర్చికి అప్పగించారని ఈ కోర్సు గుర్తిస్తుంది."
+    },
+    {
+      "text": "Our Moral Life in Christ",
+      "of": "739e4ef4",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[7].title"
+      ],
+      "t": "Our Moral Life in Christ"
+    },
+    {
+      "text": "Through participation in this course students will learn how a well-formed conscience is essential to make moral decisions.",
+      "of": "3ed2113f",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[7].description"
+      ],
+      "t": "ఈ కోర్సులో పాల్గొనడం ద్వారా నైతిక నిర్ణయాలు తీసుకోవడానికి చక్కగా రూపొందిన అంతరాత్మ ఎంత అవసరమో విద్యార్థులు నేర్చుకుంటారు."
+    },
+    {
+      "text": "Catholic Apologetics",
+      "of": "9d641fac",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[8].title"
+      ],
+      "t": "Catholic Apologetics"
+    },
+    {
+      "text": "This course prepares students for active dialogue with non-Catholics in the public sphere.",
+      "of": "f567ced1",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[8].description"
+      ],
+      "t": "బహిరంగ వేదికలో కాథలిక్కులు కాని వారితో చురుకైన సంభాషణకు ఈ కోర్సు విద్యార్థులను సిద్ధం చేస్తుంది."
+    },
+    {
+      "text": "Vocations and the Universal Call to Holiness",
+      "of": "f19b6224",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[9].title"
+      ],
+      "t": "Vocations and the Universal Call to Holiness"
+    },
+    {
+      "text": "This course explores the vocations of life that spring from our Baptism and how God calls each of us to holiness on earth and to eternal life with him in heaven.",
+      "of": "1a8b3f22",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[9].description"
+      ],
+      "t": "మన జ్ఞానస్నానం నుంచి ఉద్భవించే జీవిత పిలుపులను, మరియు భూమిపై పవిత్రతకు, పరలోకంలో తనతో నిత్య జీవితానికి దేవుడు మనలో ప్రతి ఒక్కరినీ ఎలా పిలుస్తారో ఈ కోర్సు అన్వేషిస్తుంది."
+    },
+    {
+      "text": "The Social Doctrine of the Catholic Church",
+      "of": "2632d339",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[10].title"
+      ],
+      "t": "The Social Doctrine of the Catholic Church"
+    },
+    {
+      "text": "This course introduces students to the social teachings of the Catholic Church, a rich body of thought covering love and family, law and justice, war and peace, wealth and poverty, rights and duties, and freedom and obligation.",
+      "of": "ae8a7974",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[10].description"
+      ],
+      "t": "ప్రేమ మరియు కుటుంబం, చట్టం మరియు న్యాయం, యుద్ధం మరియు శాంతి, సంపద మరియు పేదరికం, హక్కులు మరియు విధులు, స్వేచ్ఛ మరియు బాధ్యతలను కలుపుకున్న సుసంపన్నమైన ఆలోచనా సంపద అయిన కాథలిక్ చర్చి సామాజిక బోధనలకు ఈ కోర్సు విద్యార్థులను పరిచయం చేస్తుంది."
+    },
+    {
+      "text": "History of the Church",
+      "of": "6a4b3da6",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[11].title"
+      ],
+      "t": "History of the Church"
+    },
+    {
+      "text": "This course begins with the story of God’s definitive intervention into human history in the Person of his Son and continues through his Church to the present day.",
+      "of": "16e347be",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[11].description"
+      ],
+      "t": "ఈ కోర్సు తన కుమారుని రూపంలో మానవ చరిత్రలో దేవుని నిర్ణాయక ప్రవేశ కథతో మొదలై, ఆయన చర్చి ద్వారా నేటి వరకు కొనసాగుతుంది."
+    },
+    {
+      "text": "Honors Gospel and Film",
+      "of": "1c38529d",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[12].title"
+      ],
+      "t": "Honors Gospel and Film"
+    },
+    {
+      "text": "This course will enable students to develop a standard for analyzing what they see portrayed in the cinema.",
+      "of": "1385fa2f",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[12].description"
+      ],
+      "t": "సినిమాలో తాము చూసే చిత్రణను విశ్లేషించడానికి ఒక ప్రమాణాన్ని రూపొందించుకునేలా ఈ కోర్సు విద్యార్థులకు తోడ్పడుతుంది."
+    },
+    {
+      "text": "Honors Ecumenical and Interreligious Studies",
+      "of": "0fa7bafb",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[13].title"
+      ],
+      "t": "Honors Ecumenical and Interreligious Studies"
+    },
+    {
+      "text": "This course presents an overview of world religions including Judaism, Christianity, Islam, Hinduism and Buddhism.",
+      "of": "548d4bba",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[13].description"
+      ],
+      "t": "యూదు మతం, క్రైస్తవ మతం, ఇస్లాం, హిందూ మతం మరియు బౌద్ధ మతంతో సహా ప్రపంచ మతాల సమగ్ర పరిచయాన్ని ఈ కోర్సు అందిస్తుంది."
+    },
+    {
+      "text": "Visual and Performing Arts",
+      "of": "fd9c353b",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].name"
+      ],
+      "t": "దృశ్య మరియు ప్రదర్శన కళలు"
+    },
+    {
+      "text": "Art I is an introductory course focusing on fundamental art skills. Various media and tools are explored including painting, drawing, and sculpture.",
+      "of": "0a151589",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[0].description"
+      ],
+      "t": "Art I అనేది మౌలిక కళా నైపుణ్యాలపై దృష్టి పెట్టే ప్రాథమిక కోర్సు. చిత్రలేఖనం, గీయడం మరియు శిల్పకళతో సహా వివిధ మాధ్యమాలు, పరికరాలను అన్వేషిస్తారు."
+    },
+    {
+      "text": "Art II is an intermediate course focused on expanding on fundamental art skills learned in Art I, with an emphasis on further developing drawing techniques.",
+      "of": "b72a785a",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[1].description"
+      ],
+      "t": "Art II అనేది Art Iలో నేర్చుకున్న మౌలిక కళా నైపుణ్యాలను విస్తరించే మధ్య స్థాయి కోర్సు, గీయడం పద్ధతులను మరింత అభివృద్ధి చేయడంపై ప్రాధాన్యంతో."
+    },
+    {
+      "text": "Art III",
+      "of": "2cf717e7",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[2].title",
+        "hickory-grove-christian:divisions[0].departments[6].courses[2].title"
+      ],
+      "t": "Art III"
+    },
+    {
+      "text": "Art III is a proficient course focused on developing techniques in painting and printmaking.",
+      "of": "9e1eb092",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[2].description"
+      ],
+      "t": "Art III అనేది చిత్రలేఖనం మరియు ముద్రణ కళలో పద్ధతులను అభివృద్ధి చేయడంపై దృష్టి పెట్టే ప్రావీణ్య స్థాయి కోర్సు."
+    },
+    {
+      "text": "Honors Portfolio Prep",
+      "of": "2c28ccbf",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[3].title"
+      ],
+      "t": "Honors Portfolio Prep"
+    },
+    {
+      "text": "Honors Portfolio Prep is an advanced course designed to prepare students for AP Studio Art and college portfolio submissions.",
+      "of": "323fe118",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[3].description"
+      ],
+      "t": "Honors Portfolio Prep అనేది AP Studio Art మరియు కళాశాల portfolio సమర్పణల కోసం విద్యార్థులను సిద్ధం చేసేలా రూపొందించిన ఉన్నత స్థాయి కోర్సు."
+    },
+    {
+      "text": "Honors Art IV",
+      "of": "e29c7ae8",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[4].title"
+      ],
+      "t": "Honors Art IV"
+    },
+    {
+      "text": "Honors Art IV is an advanced course focusing on refining proficient art skills through experimental and advanced techniques.",
+      "of": "703de8d0",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[4].description"
+      ],
+      "t": "Honors Art IV అనేది ప్రయోగాత్మక మరియు ఉన్నత స్థాయి పద్ధతుల ద్వారా ప్రావీణ్య స్థాయి కళా నైపుణ్యాలను మెరుగుపరచడంపై దృష్టి పెట్టే ఉన్నత స్థాయి కోర్సు."
+    },
+    {
+      "text": "AP Studio Art",
+      "of": "c75dc683",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[5].title",
+        "covenant-day:divisions[0].departments[6].courses[16].title",
+        "davidson-day:divisions[2].departments[5].courses[6].title"
+      ],
+      "t": "AP Studio Art"
+    },
+    {
+      "text": "AP Studio Art is a college equivalent course in which students create a 2D Design or a Drawing portfolio to be evaluated by the College Board.",
+      "of": "e1ea6261",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[5].description"
+      ],
+      "t": "AP Studio Art అనేది కళాశాలకు సమానమైన కోర్సు, ఇందులో విద్యార్థులు College Board మూల్యాంకనం కోసం 2D Design లేదా Drawing portfolioను రూపొందిస్తారు."
+    },
+    {
+      "text": "Ceramics I",
+      "of": "6b9cb6d7",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[6].title",
+        "hickory-grove-christian:divisions[0].departments[6].courses[5].title"
+      ],
+      "t": "Ceramics I"
+    },
+    {
+      "text": "Ceramics I is an introductory course focusing on fundamental skills for working with clay.",
+      "of": "96766432",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[6].description"
+      ],
+      "t": "Ceramics I అనేది మట్టితో పనిచేయడంలో మౌలిక నైపుణ్యాలపై దృష్టి పెట్టే ప్రాథమిక కోర్సు."
+    },
+    {
+      "text": "Ceramics II",
+      "of": "05b37aba",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[7].title",
+        "hickory-grove-christian:divisions[0].departments[6].courses[6].title"
+      ],
+      "t": "Ceramics II"
+    },
+    {
+      "text": "Ceramics II is an intermediate course focusing on fundamental skills for working with the pottery wheel.",
+      "of": "29538d30",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[7].description"
+      ],
+      "t": "Ceramics II అనేది కుమ్మరి చక్రంతో పనిచేయడంలో మౌలిక నైపుణ్యాలపై దృష్టి పెట్టే మధ్య స్థాయి కోర్సు."
+    },
+    {
+      "text": "Introduction to Photography",
+      "of": "87ec7741",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[8].title"
+      ],
+      "t": "Introduction to Photography"
+    },
+    {
+      "text": "Photography II is a continuation of Photography I and requires students to have a good working knowledge of DSLR camera controls and the fundamentals of composition.",
+      "of": "81f85554",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[8].description",
+        "charlotte-catholic:divisions[0].departments[9].courses[9].description"
+      ],
+      "t": "Photography II అనేది Photography I కొనసాగింపు, దీనికి విద్యార్థులకు DSLR కెమెరా నియంత్రణలపై మరియు composition మౌలిక అంశాలపై మంచి ఆచరణాత్మక అవగాహన అవసరం."
+    },
+    {
+      "text": "Photography II",
+      "of": "770d4cae",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[9].title",
+        "davidson-day:divisions[2].departments[5].courses[1].title"
+      ],
+      "t": "Photography II"
+    },
+    {
+      "text": "Photography III",
+      "of": "50f00fa5",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[10].title",
+        "davidson-day:divisions[2].departments[5].courses[2].title"
+      ],
+      "t": "Photography III"
+    },
+    {
+      "text": "Photography III is a continuation of Photography I and II and requires students to have a thorough knowledge of DSLR camera controls and the fundamentals of composition.",
+      "of": "67389adc",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[10].description"
+      ],
+      "t": "Photography III అనేది Photography I మరియు II కొనసాగింపు, దీనికి విద్యార్థులకు DSLR కెమెరా నియంత్రణలపై మరియు composition మౌలిక అంశాలపై సమగ్ర అవగాహన అవసరం."
+    },
+    {
+      "text": "Digital Art and Graphic Design",
+      "of": "ae2647f7",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[11].title"
+      ],
+      "t": "Digital Art and Graphic Design"
+    },
+    {
+      "text": "The foundational premise of graphic design is that the artist/designer uses words and pictures to tell a story.",
+      "of": "26c13a1e",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[11].description"
+      ],
+      "t": "graphic design మౌలిక సూత్రం ఏమిటంటే కళాకారుడు/designer ఒక కథను చెప్పడానికి పదాలను మరియు చిత్రాలను ఉపయోగిస్తారు."
+    },
+    {
+      "text": "Digital Art, Graphics, and Anime",
+      "of": "3c252624",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[12].title"
+      ],
+      "t": "Digital Art, Graphics, and Anime"
+    },
+    {
+      "text": "How digital art and graphics including anime took over the world. Students in this course will take a visual romp through the evolution of comics and advertising graphics, including the current anime craze, over the past century.",
+      "of": "af8e8ce0",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[12].description"
+      ],
+      "t": "anime సహా డిజిటల్ కళ మరియు graphics ప్రపంచాన్ని ఎలా ఆక్రమించాయో తెలుసుకోవడం. ఈ కోర్సులో విద్యార్థులు గత శతాబ్దంలో comics మరియు ప్రకటనల graphics పరిణామాన్ని, ప్రస్తుత anime క్రేజ్‌తో సహా, దృశ్య రూపంలో పరిశీలిస్తారు."
+    },
+    {
+      "text": "Freshman Men’s Chorus",
+      "of": "7613bf31",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[13].title"
+      ],
+      "t": "Freshman Men’s Chorus"
+    },
+    {
+      "text": "This course offers incoming freshmen men an opportunity to develop their singing voices through choral singing, correct breathing, sight singing, and vocal production techniques.",
+      "of": "9ea6724e",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[13].description"
+      ],
+      "t": "గాన బృంద గానం, సరైన శ్వాస పద్ధతులు, sight singing మరియు స్వర ఉత్పత్తి పద్ధతుల ద్వారా తమ గాన స్వరాలను అభివృద్ధి చేసుకునే అవకాశాన్ని ఈ కోర్సు కొత్తగా చేరిన freshman విద్యార్థులకు అందిస్తుంది."
+    },
+    {
+      "text": "Freshman Women’s Chorus",
+      "of": "ba4bcb17",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[14].title"
+      ],
+      "t": "Freshman Women’s Chorus"
+    },
+    {
+      "text": "This course offers incoming freshmen women an opportunity to develop their singing voices through choral singing, correct breathing, sight singing, and vocal production techniques.",
+      "of": "30121c3c",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[14].description"
+      ],
+      "t": "గాన బృంద గానం, సరైన శ్వాస పద్ధతులు, sight singing మరియు స్వర ఉత్పత్తి పద్ధతుల ద్వారా తమ గాన స్వరాలను అభివృద్ధి చేసుకునే అవకాశాన్ని ఈ కోర్సు కొత్తగా చేరిన freshman విద్యార్థినులకు అందిస్తుంది."
+    },
+    {
+      "text": "Choral Ensemble",
+      "of": "daa32d7d",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[15].title"
+      ],
+      "t": "Choral Ensemble"
+    },
+    {
+      "text": "The Choral Ensemble is an intermediate level choir of students who are continuing to develop their singing voices through choral singing, correct breathing, sight singing, and vocal production techniques.",
+      "of": "07f878b1",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[15].description"
+      ],
+      "t": "Choral Ensemble అనేది గాన బృంద గానం, సరైన శ్వాస పద్ధతులు, sight singing మరియు స్వర ఉత్పత్తి పద్ధతుల ద్వారా తమ గాన స్వరాలను అభివృద్ధి చేసుకుంటూ కొనసాగుతున్న విద్యార్థుల మధ్య స్థాయి గాన బృందం."
+    },
+    {
+      "text": "Women’s Chamber Ensemble",
+      "of": "504b554a",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[16].title"
+      ],
+      "t": "Women’s Chamber Ensemble"
+    },
+    {
+      "text": "This course is an auditioned proficient level choir for women with previous singing experience.",
+      "of": "9f34af36",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[16].description"
+      ],
+      "t": "ఈ కోర్సు గతంలో గాన అనుభవం ఉన్న మహిళల కోసం ఆడిషన్ ద్వారా ఎంపిక చేసే ప్రావీణ్య స్థాయి గాన బృందం."
+    },
+    {
+      "text": "Honors Women’s Chamber Ensemble",
+      "of": "432d4513",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[17].title"
+      ],
+      "t": "Honors Women’s Chamber Ensemble"
+    },
+    {
+      "text": "This course is an auditioned proficient and advanced level choir for women with previous singing experience.",
+      "of": "035360d3",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[17].description"
+      ],
+      "t": "ఈ కోర్సు గతంలో గాన అనుభవం ఉన్న మహిళల కోసం ఆడిషన్ ద్వారా ఎంపిక చేసే ప్రావీణ్య మరియు ఉన్నత స్థాయి గాన బృందం."
+    },
+    {
+      "text": "Men’s Chamber Ensemble",
+      "of": "971f5d3c",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[18].title"
+      ],
+      "t": "Men’s Chamber Ensemble"
+    },
+    {
+      "text": "This course is an auditioned proficient level choir for men with previous singing experience.",
+      "of": "ce946530",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[18].description"
+      ],
+      "t": "ఈ కోర్సు గతంలో గాన అనుభవం ఉన్న పురుషుల కోసం ఆడిషన్ ద్వారా ఎంపిక చేసే ప్రావీణ్య స్థాయి గాన బృందం."
+    },
+    {
+      "text": "Honors Men’s Chamber Ensemble",
+      "of": "53e79e4d",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[19].title"
+      ],
+      "t": "Honors Men’s Chamber Ensemble"
+    },
+    {
+      "text": "This course is an auditioned proficient and advanced level choir for men with previous singing experience.",
+      "of": "6b9a427d",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[19].description"
+      ],
+      "t": "ఈ కోర్సు గతంలో గాన అనుభవం ఉన్న పురుషుల కోసం ఆడిషన్ ద్వారా ఎంపిక చేసే ప్రావీణ్య మరియు ఉన్నత స్థాయి గాన బృందం."
+    },
+    {
+      "text": "Honors Concert Choir",
+      "of": "b751536d",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[20].title",
+        "charlotte-country-day:divisions[2].departments[5].courses[1].title"
+      ],
+      "t": "Honors Concert Choir"
+    },
+    {
+      "text": "This course is an auditioned, advanced level mixed choir for men and women with significant previous singing experience.",
+      "of": "53180152",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[20].description"
+      ],
+      "t": "ఈ కోర్సు గతంలో గణనీయమైన గాన అనుభవం ఉన్న పురుషులు మరియు మహిళల కోసం ఆడిషన్ ద్వారా ఎంపిక చేసే ఉన్నత స్థాయి మిశ్రమ గాన బృందం."
+    },
+    {
+      "text": "Costume Design and Production",
+      "of": "d4e14727",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[21].title"
+      ],
+      "t": "Costume Design and Production"
+    },
+    {
+      "text": "Join this award-winning class that will lay the groundwork for hands-on experience in the world of clothing design and application.",
+      "of": "2960fbcc",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[21].description"
+      ],
+      "t": "దుస్తుల design మరియు దాని అనువర్తన ప్రపంచంలో ప్రత్యక్ష అనుభవానికి పునాది వేసే ఈ పురస్కార విజేత తరగతిలో చేరండి."
+    },
+    {
+      "text": "Honors Costume Design and Production",
+      "of": "0b840884",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[22].title"
+      ],
+      "t": "Honors Costume Design and Production"
+    },
+    {
+      "text": "The clothes look great, but why do they look great? Learn about color theory and aesthetics to perfect your skills that can launch your career in the industry.",
+      "of": "14bc6028",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[22].description"
+      ],
+      "t": "దుస్తులు అందంగా కనిపిస్తాయి, కానీ అవి ఎందుకు అందంగా కనిపిస్తాయి? ఈ రంగంలో మీ వృత్తిని ప్రారంభించగల నైపుణ్యాలను మెరుగుపరచుకునేందుకు వర్ణ సిద్ధాంతం మరియు సౌందర్య శాస్త్రం గురించి తెలుసుకోండి."
+    },
+    {
+      "text": "Theatre: Design and Tech",
+      "of": "402c8973",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[23].title"
+      ],
+      "t": "Theatre: Design and Tech"
+    },
+    {
+      "text": "Interested in the craft of technical theatre? This program allows students the chance to design, build, rig, and engineer all the technical elements of our theatre performances.",
+      "of": "23fdd2cf",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[23].description"
+      ],
+      "t": "సాంకేతిక నాటకరంగ నైపుణ్యంపై ఆసక్తి ఉందా? మా నాటక ప్రదర్శనల అన్ని సాంకేతిక అంశాలను design చేయడానికి, నిర్మించడానికి, rig చేయడానికి మరియు engineer చేయడానికి ఈ కార్యక్రమం విద్యార్థులకు అవకాశం కల్పిస్తుంది."
+    },
+    {
+      "text": "Honors Theatre: Design and Tech",
+      "of": "561ee1f6",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[24].title"
+      ],
+      "t": "Honors Theatre: Design and Tech"
+    },
+    {
+      "text": "Perfect the craft, create and apply the vision. This advanced element of the course not only allows students to create the sets but gives them the tools to work in a professional setting, where all the concepts of design and aesthetics…",
+      "of": "8ba66e55",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[24].description"
+      ],
+      "t": "నైపుణ్యాన్ని మెరుగుపరచుకోండి, దృష్టిని రూపొందించి అమలు చేయండి. ఈ కోర్సు ఉన్నత స్థాయి భాగం విద్యార్థులు sets రూపొందించడమే కాకుండా, design మరియు సౌందర్య భావనలన్నీ వర్తించే వృత్తిపరమైన వాతావరణంలో పనిచేసేందుకు అవసరమైన సాధనాలను కూడా అందిస్తుంది…"
+    },
+    {
+      "text": "On The Stage: Acting, Directing, Movie Making",
+      "of": "b4ceba77",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[25].title"
+      ],
+      "t": "On The Stage: Acting, Directing, Movie Making"
+    },
+    {
+      "text": "Begin your journey to stardom as a student of the craft of acting, directing, and movie making.",
+      "of": "9a61a6e4",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[25].description"
+      ],
+      "t": "acting, directing మరియు movie making నైపుణ్యాల విద్యార్థిగా కీర్తి దిశగా మీ ప్రయాణాన్ని ప్రారంభించండి."
+    },
+    {
+      "text": "Behind the Scenes: Set Design, Construction,",
+      "of": "18071e22",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[26].title"
+      ],
+      "t": "Behind the Scenes: Set Design, Construction,"
+    },
+    {
+      "text": "Come see how we make it look easy. The world of stage craft is vast and can lend itself to numerous other career paths.",
+      "of": "1d869022",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[26].description"
+      ],
+      "t": "దీన్ని మేము ఎంత సులభంగా చేస్తామో వచ్చి చూడండి. stage craft ప్రపంచం విశాలమైనది మరియు అనేక ఇతర వృత్తి మార్గాలకు దారితీయగలదు."
+    },
+    {
+      "text": "This course is offered to students who desire to seriously pursue all acting techniques for the stage as well as screen.",
+      "of": "10b9628e",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[27].description"
+      ],
+      "t": "రంగస్థలం మరియు తెరపై నటనా పద్ధతులన్నింటినీ తీవ్రంగా అభ్యసించాలనుకునే విద్యార్థులకు ఈ కోర్సు అందించబడుతుంది."
+    },
+    {
+      "text": "Honors Acting",
+      "of": "5cd8b9a0",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[28].title"
+      ],
+      "t": "Honors Acting"
+    },
+    {
+      "text": "Honors Acting requires students to put time, energy and commitment into fulfilling superior theater student requirements.",
+      "of": "72d42788",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[28].description"
+      ],
+      "t": "Honors Acting విద్యార్థులు ఉన్నత స్థాయి నాటక విద్యార్థి అవసరాలను నెరవేర్చేందుకు సమయం, శక్తి మరియు నిబద్ధతను వెచ్చించాలని కోరుతుంది."
+    },
+    {
+      "text": "Honors TV, Film, and Production",
+      "of": "b52fefb0",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[29].title"
+      ],
+      "t": "Honors TV, Film, and Production"
+    },
+    {
+      "text": "This course furthers the knowledge of the principles, procedures, and techniques of television/web series production.",
+      "of": "fddd3045",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[29].description"
+      ],
+      "t": "ఈ కోర్సు టెలివిజన్/web series నిర్మాణ సూత్రాలు, పద్ధతులు మరియు ప్రక్రియలపై అవగాహనను మరింత పెంచుతుంది."
+    },
+    {
+      "text": "Dance I",
+      "of": "1f30f967",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[30].title"
+      ],
+      "t": "Dance I"
+    },
+    {
+      "text": "Dance I is an introductory course for incoming freshmen with little or no formal dance instruction, but offered to those interested in learning and possibly furthering their dance knowledge and technique.",
+      "of": "aed0ca00",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[30].description"
+      ],
+      "t": "Dance I అనేది అధికారిక నృత్య శిక్షణ తక్కువగా లేదా అసలు లేని కొత్త freshman విద్యార్థుల కోసం ప్రాథమిక కోర్సు, నృత్య పరిజ్ఞానం మరియు పద్ధతులను నేర్చుకోవాలని, వీలైతే మరింత పెంచుకోవాలని ఆసక్తి ఉన్నవారికి అందించబడుతుంది."
+    },
+    {
+      "text": "Dance II",
+      "of": "4818436a",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[31].title"
+      ],
+      "t": "Dance II"
+    },
+    {
+      "text": "Dance II is an intermediate to advanced level dance class in which students with previous dance experience either outside of school or through Dance I freshman year can continue to improve their dance techniques and performance skills.",
+      "of": "2d51fc71",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[31].description"
+      ],
+      "t": "Dance II అనేది మధ్య నుంచి ఉన్నత స్థాయి నృత్య తరగతి, ఇందులో పాఠశాల బయట లేదా freshman సంవత్సరంలో Dance I ద్వారా గతంలో నృత్య అనుభవం ఉన్న విద్యార్థులు తమ నృత్య పద్ధతులను మరియు ప్రదర్శన నైపుణ్యాలను మరింత మెరుగుపరచుకోవచ్చు."
+    },
+    {
+      "text": "Honors Dance III",
+      "of": "f320fa56",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[32].title"
+      ],
+      "t": "Honors Dance III"
+    },
+    {
+      "text": "Dance III is an honors level performance course which highlights the advanced technique skills of students through the application of choreography The class meets the full year and two staged recitals are required including the use of…",
+      "of": "c16f00cb",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[32].description"
+      ],
+      "t": "Dance III అనేది honors స్థాయి ప్రదర్శన కోర్సు, ఇది నృత్య రచన అనువర్తనం ద్వారా విద్యార్థుల ఉన్నత స్థాయి పద్ధతుల నైపుణ్యాలను ప్రదర్శిస్తుంది. ఈ తరగతి పూర్తి సంవత్సరం జరుగుతుంది మరియు రెండు రంగస్థల ప్రదర్శనలు తప్పనిసరి, వీటిలో వినియోగంతో సహా…"
+    },
+    {
+      "text": "Concert Band",
+      "of": "b08df0b4",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[33].title"
+      ],
+      "t": "Concert Band"
+    },
+    {
+      "text": "Students with playing experience are eligible for this class through an audition. Students accepted into this ensemble are expected to be proficient on their instrument, have a basic knowledge of music theory, and be fluent in reading…",
+      "of": "4de73b80",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[33].description"
+      ],
+      "t": "వాయిద్య అనుభవం ఉన్న విద్యార్థులు ఆడిషన్ ద్వారా ఈ తరగతికి అర్హులు. ఈ బృందంలోకి ఎంపికైన విద్యార్థులు తమ వాయిద్యంలో ప్రావీణ్యం కలిగి, సంగీత సిద్ధాంతంపై ప్రాథమిక అవగాహన కలిగి, చదవడంలో సాఫీగా ఉండాలని ఆశిస్తారు…"
+    },
+    {
+      "text": "Honors Wind Ensemble",
+      "of": "b4b08e49",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[34].title"
+      ],
+      "t": "Honors Wind Ensemble"
+    },
+    {
+      "text": "This class is for juniors and seniors who have completed one year of Concert Band and who wish to receive honors credit for their participation in band.",
+      "of": "ef41ca4c",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[34].description"
+      ],
+      "t": "ఒక సంవత్సరం Concert Band పూర్తి చేసి, band లో తమ భాగస్వామ్యానికి honors credit పొందాలనుకునే juniors మరియు seniors కోసం ఈ తరగతి."
+    },
+    {
+      "text": "Percussion",
+      "of": "37595b80",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[35].title"
+      ],
+      "t": "Percussion"
+    },
+    {
+      "text": "This class is for members of the symphonic band who play percussion instruments. The class will cover the fundamentals of playing percussion instruments and application of musicianship skills to the genre.",
+      "of": "16ac5eca",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[35].description"
+      ],
+      "t": "symphonic bandలో percussion వాయిద్యాలు వాయించే సభ్యుల కోసం ఈ తరగతి. ఈ తరగతి percussion వాయిద్యాలు వాయించడంలో మౌలిక అంశాలను మరియు ఈ శైలికి సంగీత నైపుణ్యాల అనువర్తనాన్ని కవర్ చేస్తుంది."
+    },
+    {
+      "text": "Honors Percussion",
+      "of": "0943913d",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[36].title"
+      ],
+      "t": "Honors Percussion"
+    },
+    {
+      "text": "This class is for members of the percussion group who wish to receive honors credit for their participation in band.",
+      "of": "eeccefc2",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[36].description"
+      ],
+      "t": "bandలో తమ భాగస్వామ్యానికి honors credit పొందాలనుకునే percussion బృంద సభ్యుల కోసం ఈ తరగతి."
+    },
+    {
+      "text": "This course is designed as a performance based class to give an understanding of the fundamentals of acoustic guitar playing.",
+      "of": "9c317d08",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[37].description"
+      ],
+      "t": "acoustic guitar వాయించడంలో మౌలిక అంశాలపై అవగాహన కల్పించేందుకు ఈ కోర్సు ప్రదర్శన ఆధారిత తరగతిగా రూపొందించబడింది."
+    },
+    {
+      "text": "Guitar II",
+      "of": "c8101baf",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[38].title"
+      ],
+      "t": "Guitar II"
+    },
+    {
+      "text": "This course is designed for the intermediate-advanced guitar student. The course will be a continuation of the material covered in Guitar I with more emphasis on improving the fundamentals with sight reading, scales, chord spellings,…",
+      "of": "2a574145",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[38].description"
+      ],
+      "t": "ఈ కోర్సు మధ్య నుంచి ఉన్నత స్థాయి guitar విద్యార్థుల కోసం రూపొందించబడింది. ఇది Guitar Iలో కవర్ చేసిన విషయాల కొనసాగింపుగా ఉంటుంది, sight reading, స్వరమాలికలు, chord రచనలతో మౌలిక అంశాలను మెరుగుపరచడంపై మరింత ప్రాధాన్యంతో…"
+    },
+    {
+      "text": "French I",
+      "of": "bd7271a2",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[0].title",
+        "davidson-day:divisions[2].departments[4].courses[0].title"
+      ],
+      "t": "French I"
+    },
+    {
+      "text": "The French I course involves the elementary acquisition of the four fundamental skills of learning the language: reading, writing, listening, and speaking.",
+      "of": "1c784189",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[0].description"
+      ],
+      "t": "French I కోర్సులో భాష నేర్చుకోవడంలోని నాలుగు మౌలిక నైపుణ్యాలను ప్రాథమిక స్థాయిలో సాధించడం ఉంటుంది: చదవడం, రాయడం, వినడం మరియు మాట్లాడటం."
+    },
+    {
+      "text": "French II",
+      "of": "262954f1",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[1].title",
+        "davidson-day:divisions[2].departments[4].courses[1].title"
+      ],
+      "t": "French II"
+    },
+    {
+      "text": "This course is designed to continue the foundation learned in French I and build a greater understanding and comprehension of reading, writing, listening, and speaking.",
+      "of": "d9bf2f32",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[1].description",
+        "charlotte-catholic:divisions[0].departments[10].courses[2].description"
+      ],
+      "t": "French Iలో నేర్చుకున్న పునాదిని కొనసాగించి, చదవడం, రాయడం, వినడం మరియు మాట్లాడటంపై మరింత అవగాహనను పెంపొందించేలా ఈ కోర్సు రూపొందించబడింది."
+    },
+    {
+      "text": "Advanced French II",
+      "of": "d248811d",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[2].title"
+      ],
+      "t": "Advanced French II"
+    },
+    {
+      "text": "Advanced French III",
+      "of": "5c23973c",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[3].title"
+      ],
+      "t": "Advanced French III"
+    },
+    {
+      "text": "This course is an advanced course designed to develop in the students a greater understanding and comprehension of the French language, by continuing the development and application of the language on reading, writing, listening and…",
+      "of": "2fb65d18",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[3].description"
+      ],
+      "t": "ఇది ఉన్నత స్థాయి కోర్సు, చదవడం, రాయడం, వినడం మరియు మాట్లాడటంపై భాషా అభివృద్ధిని, అనువర్తనాన్ని కొనసాగిస్తూ విద్యార్థుల్లో ఫ్రెంచ్ భాషపై మరింత అవగాహనను పెంపొందించేలా రూపొందించబడింది…"
+    },
+    {
+      "text": "Honors French III",
+      "of": "ba821699",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[4].title"
+      ],
+      "t": "Honors French III"
+    },
+    {
+      "text": "This course is designed to prepare the student for Honors Spanish IV or AP French Language and Culture, developing in the student a greater comprehension and understanding of more complex reading, writing, listening and speaking.",
+      "of": "7b3dddbd",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[4].description"
+      ],
+      "t": "Honors Spanish IV లేదా AP French Language and Culture కోసం విద్యార్థిని సిద్ధం చేసేలా ఈ కోర్సు రూపొందించబడింది, మరింత సంక్లిష్టమైన చదవడం, రాయడం, వినడం మరియు మాట్లాడటంపై విద్యార్థిలో ఎక్కువ అవగాహనను పెంపొందిస్తుంది."
+    },
+    {
+      "text": "Honors French IV",
+      "of": "f00057a3",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[5].title"
+      ],
+      "t": "Honors French IV"
+    },
+    {
+      "text": "On the linguistic level, the acquisition and honing of the four language skills are still constant goals within a culturally rich setting.",
+      "of": "775d5a79",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[5].description",
+        "charlotte-catholic:divisions[0].departments[10].courses[10].description",
+        "charlotte-catholic:divisions[0].departments[10].courses[25].description"
+      ],
+      "t": "భాషాపరంగా, సాంస్కృతికంగా సుసంపన్నమైన వాతావరణంలో నాలుగు భాషా నైపుణ్యాలను సాధించడం మరియు మెరుగుపరచుకోవడం నిరంతర లక్ష్యాలుగా కొనసాగుతాయి."
+    },
+    {
+      "text": "Advanced Placement French V",
+      "of": "b0b20c96",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[6].title"
+      ],
+      "t": "Advanced Placement French V"
+    },
+    {
+      "text": "The Advanced Placement French Language and Culture course is equivalent to an introductory college-level course and is designed to advance students’ communicative proficiency in French within a culturally rich and content-based framework.",
+      "of": "11c3751d",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[6].description"
+      ],
+      "t": "Advanced Placement French Language and Culture కోర్సు కళాశాల స్థాయి ప్రాథమిక కోర్సుకు సమానం మరియు సాంస్కృతికంగా సుసంపన్నమైన, విషయ ఆధారిత చట్రంలో ఫ్రెంచ్‌లో విద్యార్థుల సంభాషణా ప్రావీణ్యాన్ని పెంపొందించేలా రూపొందించబడింది."
+    },
+    {
+      "text": "German I",
+      "of": "3c91eae0",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[7].title"
+      ],
+      "t": "German I"
+    },
+    {
+      "text": "The German I course involves the elementary acquisition of the four fundamental skills of learning the language: reading, writing, listening, and speaking.",
+      "of": "6dc0c3fb",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[7].description"
+      ],
+      "t": "German I కోర్సులో భాష నేర్చుకోవడంలోని నాలుగు మౌలిక నైపుణ్యాలను ప్రాథమిక స్థాయిలో సాధించడం ఉంటుంది: చదవడం, రాయడం, వినడం మరియు మాట్లాడటం."
+    },
+    {
+      "text": "German II",
+      "of": "02b4680b",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[8].title"
+      ],
+      "t": "German II"
+    },
+    {
+      "text": "This course is designed to continue the foundation learned in German I and build a greater understanding and comprehension of reading, writing, listening, and speaking.",
+      "of": "a1cbc734",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[8].description"
+      ],
+      "t": "German Iలో నేర్చుకున్న పునాదిని కొనసాగించి, చదవడం, రాయడం, వినడం మరియు మాట్లాడటంపై మరింత అవగాహనను పెంపొందించేలా ఈ కోర్సు రూపొందించబడింది."
+    },
+    {
+      "text": "Honors German III",
+      "of": "78b4d053",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[9].title"
+      ],
+      "t": "Honors German III"
+    },
+    {
+      "text": "This course is designed to prepare the student for Honors German IV or AP German Language and Culture, developing in the student a greater comprehension and understanding of more complex reading, writing, listening and speaking.",
+      "of": "b61d605b",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[9].description"
+      ],
+      "t": "Honors German IV లేదా AP German Language and Culture కోసం విద్యార్థిని సిద్ధం చేసేలా ఈ కోర్సు రూపొందించబడింది, మరింత సంక్లిష్టమైన చదవడం, రాయడం, వినడం మరియు మాట్లాడటంపై విద్యార్థిలో ఎక్కువ అవగాహనను పెంపొందిస్తుంది."
+    },
+    {
+      "text": "Honors German IV",
+      "of": "2d641345",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[10].title"
+      ],
+      "t": "Honors German IV"
+    },
+    {
+      "text": "Advanced Placement German V",
+      "of": "1c2819ac",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[11].title"
+      ],
+      "t": "Advanced Placement German V"
+    },
+    {
+      "text": "The Advanced Placement German Language and Culture course is equivalent to an introductory college-level course and is designed to advance students’ communicative proficiency in German within a culturally rich and content-based framework.",
+      "of": "87857969",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[11].description"
+      ],
+      "t": "Advanced Placement German Language and Culture కోర్సు కళాశాల స్థాయి ప్రాథమిక కోర్సుకు సమానం మరియు సాంస్కృతికంగా సుసంపన్నమైన, విషయ ఆధారిత చట్రంలో జర్మన్‌లో విద్యార్థుల సంభాషణా ప్రావీణ్యాన్ని పెంపొందించేలా రూపొందించబడింది."
+    },
+    {
+      "text": "The Latin I course involves the elementary acquisition of Latin grammar, reading, and vocabulary.",
+      "of": "845daddd",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[12].description"
+      ],
+      "t": "Latin I కోర్సులో లాటిన్ వ్యాకరణం, పఠనం మరియు పదజాలాన్ని ప్రాథమిక స్థాయిలో సాధించడం ఉంటుంది."
+    },
+    {
+      "text": "Latin II",
+      "of": "8e819985",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[13].title"
+      ],
+      "t": "Latin II"
+    },
+    {
+      "text": "This course is designed to continue the foundation learned in Latin I and build a greater understanding of complex sentence structures, increase vocabulary and help students prepare to read from well known authors from the ancient world.",
+      "of": "8ec2dd96",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[13].description",
+        "charlotte-catholic:divisions[0].departments[10].courses[14].description"
+      ],
+      "t": "Latin Iలో నేర్చుకున్న పునాదిని కొనసాగించి, సంక్లిష్టమైన వాక్య నిర్మాణాలపై మరింత అవగాహన పెంపొందించి, పదజాలాన్ని పెంచి, ప్రాచీన ప్రపంచంలోని ప్రసిద్ధ రచయితల రచనలు చదవడానికి విద్యార్థులను సిద్ధం చేసేలా ఈ కోర్సు రూపొందించబడింది."
+    },
+    {
+      "text": "Advanced Latin II",
+      "of": "e7d5fda9",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[14].title"
+      ],
+      "t": "Advanced Latin II"
+    },
+    {
+      "text": "Advanced Latin III",
+      "of": "d5dea7a0",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[15].title"
+      ],
+      "t": "Advanced Latin III"
+    },
+    {
+      "text": "Advanced Latin III will further review and apply Latin vocabulary and grammar. Students will explore readings in adapted and authentic Latin literature, while learning to read and interpret prose and poetry.",
+      "of": "38d33041",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[15].description"
+      ],
+      "t": "Advanced Latin III లాటిన్ పదజాలం మరియు వ్యాకరణాన్ని మరింత పునశ్చరణ చేసి అన్వయిస్తుంది. విద్యార్థులు గద్యం మరియు పద్యాన్ని చదవడం, వ్యాఖ్యానించడం నేర్చుకుంటూ అనుసరణ మరియు మౌలిక లాటిన్ సాహిత్య పఠనాలను అన్వేషిస్తారు."
+    },
+    {
+      "text": "Honors Latin III",
+      "of": "aaade11b",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[16].title"
+      ],
+      "t": "Honors Latin III"
+    },
+    {
+      "text": "This course is designed for students whose demonstrated mastery of Latin fundamentals indicates readiness for authentic literary texts.",
+      "of": "087ba19a",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[16].description"
+      ],
+      "t": "లాటిన్ మౌలిక అంశాలపై ప్రదర్శించిన ప్రావీణ్యం మౌలిక సాహిత్య గ్రంథాలకు సంసిద్ధతను సూచించే విద్యార్థుల కోసం ఈ కోర్సు రూపొందించబడింది."
+    },
+    {
+      "text": "Honors Latin lV",
+      "of": "f7ddf50c",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[17].title"
+      ],
+      "t": "Honors Latin lV"
+    },
+    {
+      "text": "This course emphasizes the rhetorical, metrical, and cultural conventions of epic and lyric poetry.",
+      "of": "807d2322",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[17].description"
+      ],
+      "t": "ఈ కోర్సు ఇతిహాస మరియు గీత కవిత్వంలోని వాక్చాతుర్య, ఛందస్సు మరియు సాంస్కృతిక సంప్రదాయాలకు ప్రాధాన్యమిస్తుంది."
+    },
+    {
+      "text": "The Advanced Placement Latin course focuses on advanced Latin language acquisition through close reading, textual analysis, and contextualization of authentic texts.",
+      "of": "395bf95e",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[18].description"
+      ],
+      "t": "Advanced Placement Latin కోర్సు నిశిత పఠనం, పాఠ విశ్లేషణ మరియు మౌలిక గ్రంథాల సందర్భీకరణ ద్వారా ఉన్నత స్థాయి లాటిన్ భాషా సాధనపై దృష్టి పెడుతుంది."
+    },
+    {
+      "text": "Spanish I",
+      "of": "389b9238",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[19].title",
+        "davidson-day:divisions[2].departments[4].courses[6].title",
+        "carmel-christian:divisions[0].departments[5].courses[0].title",
+        "hickory-grove-christian:divisions[0].departments[5].courses[0].title"
+      ],
+      "t": "Spanish I"
+    },
+    {
+      "text": "The Spanish I course involves the elementary acquisition of the four fundamental skills of learning the language: reading, writing, listening, and speaking.",
+      "of": "fb73e7b9",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[19].description"
+      ],
+      "t": "Spanish I కోర్సులో భాష నేర్చుకోవడంలోని నాలుగు మౌలిక నైపుణ్యాలను ప్రాథమిక స్థాయిలో సాధించడం ఉంటుంది: చదవడం, రాయడం, వినడం మరియు మాట్లాడటం."
+    },
+    {
+      "text": "Spanish II",
+      "of": "8de787e3",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[20].title",
+        "davidson-day:divisions[2].departments[4].courses[7].title",
+        "carmel-christian:divisions[0].departments[5].courses[1].title",
+        "carmel-christian:divisions[0].departments[5].courses[2].title",
+        "hickory-grove-christian:divisions[0].departments[5].courses[1].title"
+      ],
+      "t": "Spanish II"
+    },
+    {
+      "text": "This course is designed to continue the foundation learned in Spanish 1 and build a greater understanding and comprehension of reading, writing, listening, and speaking.",
+      "of": "5ff21440",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[20].description",
+        "charlotte-catholic:divisions[0].departments[10].courses[21].description"
+      ],
+      "t": "Spanish 1లో నేర్చుకున్న పునాదిని కొనసాగించి, చదవడం, రాయడం, వినడం మరియు మాట్లాడటంపై మరింత అవగాహనను పెంపొందించేలా ఈ కోర్సు రూపొందించబడింది."
+    },
+    {
+      "text": "Advanced Spanish II",
+      "of": "396a38d7",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[21].title"
+      ],
+      "t": "Advanced Spanish II"
+    },
+    {
+      "text": "Advanced Spanish III",
+      "of": "003720ba",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[22].title"
+      ],
+      "t": "Advanced Spanish III"
+    },
+    {
+      "text": "This course is an advanced course designed to develop in the students a greater understanding and comprehension of the Spanish language, by continuing the development and application of the language on reading, writing, listening and…",
+      "of": "835aafba",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[22].description"
+      ],
+      "t": "ఇది ఉన్నత స్థాయి కోర్సు, చదవడం, రాయడం, వినడం మరియు మాట్లాడటంపై భాషా అభివృద్ధిని, అనువర్తనాన్ని కొనసాగిస్తూ విద్యార్థుల్లో స్పానిష్ భాషపై మరింత అవగాహనను పెంపొందించేలా రూపొందించబడింది…"
+    },
+    {
+      "text": "Advanced Spanish III - Native Speaker",
+      "of": "bb13b551",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[23].title"
+      ],
+      "t": "Advanced Spanish III - Native Speaker"
+    },
+    {
+      "text": "This course is an advanced course designed for students who already speak Spanish at home or in their communities.",
+      "of": "a440afa1",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[23].description"
+      ],
+      "t": "ఇంట్లో లేదా తమ సముదాయాల్లో ఇప్పటికే స్పానిష్ మాట్లాడే విద్యార్థుల కోసం రూపొందించిన ఉన్నత స్థాయి కోర్సు ఇది."
+    },
+    {
+      "text": "Honors Spanish III",
+      "of": "33c8af69",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[24].title"
+      ],
+      "t": "Honors Spanish III"
+    },
+    {
+      "text": "This course is designed to prepare the student for Honors Spanish IV or AP Spanish Language and Culture, developing in the student a greater comprehension and understanding of more complex reading, writing, listening and speaking.",
+      "of": "0c82a02d",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[24].description"
+      ],
+      "t": "Honors Spanish IV లేదా AP Spanish Language and Culture కోసం విద్యార్థిని సిద్ధం చేసేలా ఈ కోర్సు రూపొందించబడింది, మరింత సంక్లిష్టమైన చదవడం, రాయడం, వినడం మరియు మాట్లాడటంపై విద్యార్థిలో ఎక్కువ అవగాహనను పెంపొందిస్తుంది."
+    },
+    {
+      "text": "Honors Spanish IV",
+      "of": "2d15eb33",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[25].title",
+        "carmel-christian:divisions[0].departments[5].courses[5].title"
+      ],
+      "t": "Honors Spanish IV"
+    },
+    {
+      "text": "Advanced Placement Spanish V:",
+      "of": "ff6c6214",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[26].title"
+      ],
+      "t": "Advanced Placement Spanish V:"
+    },
+    {
+      "text": "The Advanced Placement Spanish Language and Culture course is equivalent to an introductory college-level course and is designed to advance students’ communicative proficiency in Spanish within a culturally rich and content-based framework.",
+      "of": "317c7f3b",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[26].description"
+      ],
+      "t": "Advanced Placement Spanish Language and Culture కోర్సు కళాశాల స్థాయి ప్రాథమిక కోర్సుకు సమానం మరియు సాంస్కృతికంగా సుసంపన్నమైన, విషయ ఆధారిత చట్రంలో స్పానిష్‌లో విద్యార్థుల సంభాషణా ప్రావీణ్యాన్ని పెంపొందించేలా రూపొందించబడింది."
+    },
+    {
+      "text": "Advanced Placement Spanish VI:",
+      "of": "486bc085",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[27].title"
+      ],
+      "t": "Advanced Placement Spanish VI:"
+    },
+    {
+      "text": "The Advanced Placement Spanish Literature and Culture course is equivalent to a college-level literature course and is designed to advance students’ interpretive, analytical, and communicative skills in Spanish.",
+      "of": "a6c071b3",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[27].description"
+      ],
+      "t": "Advanced Placement Spanish Literature and Culture కోర్సు కళాశాల స్థాయి సాహిత్య కోర్సుకు సమానం మరియు స్పానిష్‌లో విద్యార్థుల వ్యాఖ్యాన, విశ్లేషణాత్మక మరియు సంభాషణా నైపుణ్యాలను పెంపొందించేలా రూపొందించబడింది."
+    },
+    {
+      "text": "Dual Enrollment",
+      "of": "84b99ed5",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[11].name",
+        "charlotte-catholic:divisions[0].departments[11].courses[0].tag",
+        "charlotte-catholic:divisions[0].departments[11].courses[1].tag"
+      ],
+      "t": "ద్వంద్వ నమోదు"
+    },
+    {
+      "text": "Dual Enrollment: Public Speaking",
+      "of": "3943aa38",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[11].courses[0].title"
+      ],
+      "t": "Dual Enrollment: Public Speaking"
+    },
+    {
+      "text": "This course provides instruction and experience in preparation and delivery of speeches within a public setting and group discussion.",
+      "of": "dfae0ace",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[11].courses[0].description"
+      ],
+      "t": "బహిరంగ వేదికపై ప్రసంగాల తయారీ, ప్రదర్శన మరియు సమూహ చర్చలో ఈ కోర్సు బోధన మరియు అనుభవాన్ని అందిస్తుంది."
+    },
+    {
+      "text": "Dual Enrollment: Introduction to Sociology",
+      "of": "8fa388c6",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[11].courses[1].title"
+      ],
+      "t": "Dual Enrollment: Introduction to Sociology"
+    },
+    {
+      "text": "This course introduces the scientific study of human society, culture, and social interactions.",
+      "of": "ef3b3870",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[11].courses[1].description"
+      ],
+      "t": "మానవ సమాజం, సంస్కృతి మరియు సామాజిక పరస్పర చర్యల శాస్త్రీయ అధ్యయనాన్ని ఈ కోర్సు పరిచయం చేస్తుంది."
     },
     {
       "text": "10 subject areas — both French and Spanish from JK, a Design Lab, and a Grade 4 Exhibition research capstone.",
@@ -10882,19 +13867,6 @@
       "t": "వ్యక్తిగత దృఢత్వ మెరుగుదల, హృదయ సంబంధ సహనం, శారీరక బలం మరియు వివిధ క్రీడలకు పరిచయంపై దృష్టి పెట్టే రోజువారీ తరగతి."
     },
     {
-      "text": "Health",
-      "of": "986145af",
-      "at": [
-        "charlotte-country-day:divisions[1].departments[5].courses[1].title",
-        "charlotte-country-day:divisions[1].departments[5].courses[2].title",
-        "charlotte-country-day:divisions[1].departments[5].courses[3].title",
-        "charlotte-country-day:divisions[1].departments[5].courses[4].title",
-        "covenant-day:divisions[0].departments[2].courses[5].title",
-        "carmel-christian:divisions[0].departments[6].courses[0].title"
-      ],
-      "t": "Health"
-    },
-    {
       "text": "Instruction on human growth and development including reproductive systems and childbirth.",
       "of": "138f09bf",
       "at": [
@@ -11173,15 +14145,6 @@
       "t": "ప్రామాణిక స్థాయి జ్యామితి."
     },
     {
-      "text": "Honors Geometry",
-      "of": "e8101e6c",
-      "at": [
-        "charlotte-country-day:divisions[2].departments[1].courses[2].title",
-        "davidson-day:divisions[1].departments[0].courses[9].title"
-      ],
-      "t": "Honors Geometry"
-    },
-    {
       "text": "Accelerated geometry; requires 90 in Algebra I plus teacher recommendation.",
       "of": "b74d8e2d",
       "at": [
@@ -11196,15 +14159,6 @@
         "charlotte-country-day:divisions[2].departments[1].courses[3].description"
       ],
       "t": "రెండో సంవత్సరం బీజగణిత కోర్సు."
-    },
-    {
-      "text": "Honors Algebra II",
-      "of": "cb784dca",
-      "at": [
-        "charlotte-country-day:divisions[2].departments[1].courses[4].title",
-        "cannon:divisions[2].departments[1].courses[3].title"
-      ],
-      "t": "Honors Algebra II"
     },
     {
       "text": "Accelerated Algebra II; requires 90 in Geometry or 83 in Honors Geometry.",
@@ -12223,14 +15177,6 @@
         "charlotte-country-day:divisions[2].departments[5].courses[0].description"
       ],
       "t": "ఆడిషన్ లేని గాన బృందం."
-    },
-    {
-      "text": "Honors Concert Choir",
-      "of": "b751536d",
-      "at": [
-        "charlotte-country-day:divisions[2].departments[5].courses[1].title"
-      ],
-      "t": "Honors Concert Choir"
     },
     {
       "text": "Honors-level concert choir.",
@@ -13544,15 +16490,6 @@
       "t": "వాస్తవ ప్రపంచ దృగ్విషయాలకు నమూనాగా నిలిచే ప్రమేయ రకాలపై పరిశోధన ఆధారిత అన్వేషణ, AP Calculus BC దిశగా వెళ్తున్న విద్యార్థులకు అత్యంత అనుకూలం."
     },
     {
-      "text": "Honors Calculus",
-      "of": "4e67a2e4",
-      "at": [
-        "cannon:divisions[2].departments[1].courses[8].title",
-        "davidson-day:divisions[2].departments[1].courses[8].title"
-      ],
-      "t": "Honors Calculus"
-    },
-    {
       "text": "Introduces the topics of a semester of college calculus at a less intense pace and depth than the AP courses.",
       "of": "4798b033",
       "at": [
@@ -13695,15 +16632,6 @@
         "cannon:divisions[2].departments[2].courses[3].description"
       ],
       "t": "అణువుల నుంచి పర్యావరణ వ్యవస్థల వరకు అనువర్తన ఆధారిత అభ్యసనం మరియు విశ్లేషణా తర్కాన్ని నొక్కి చెప్పే లోతైన జీవ శాస్త్రం."
-    },
-    {
-      "text": "Honors Chemistry",
-      "of": "bebcf292",
-      "at": [
-        "cannon:divisions[2].departments[2].courses[4].title",
-        "carmel-christian:divisions[0].departments[3].courses[5].title"
-      ],
-      "t": "Honors Chemistry"
     },
     {
       "text": "A guided-inquiry course developing the properties, composition, and structure of matter plus energy’s role in changing matter.",
@@ -13859,14 +16787,6 @@
       "t": "ఉప్పునీటి aquariums ఏర్పాటు మరియు నిర్వహణతో సహా ప్రపంచ సముద్రాలలో నివసించే జంతువులను అధ్యయనం చేస్తుంది."
     },
     {
-      "text": "Honors Anatomy and Physiology",
-      "of": "e9f192a9",
-      "at": [
-        "cannon:divisions[2].departments[2].courses[15].title"
-      ],
-      "t": "Honors Anatomy and Physiology"
-    },
-    {
       "text": "An introductory study of the anatomical structures and physiological processes of key human body systems.",
       "of": "cf711b30",
       "at": [
@@ -13897,14 +16817,6 @@
         "cannon:divisions[2].departments[2].courses[16].description"
       ],
       "t": "శాస్త్రీయ అవగాహన గల పెద్దలకు సంబంధించిన శాస్త్రీయ దృగ్విషయాలపై అభిరుచిని పెంపొందించే పూర్తిగా ఆన్‌లైన్, అసమకాలిక కోర్సు."
-    },
-    {
-      "text": "Honors World History",
-      "of": "82998000",
-      "at": [
-        "cannon:divisions[2].departments[3].courses[0].title"
-      ],
-      "t": "Honors World History"
     },
     {
       "text": "Surveys prehistory through the twentieth century while equipping ninth graders with core humanities skills.",
@@ -14790,15 +17702,6 @@
       "t": "అల్గారిథమ్‌లు, ప్రోగ్రామ్‌లు, ఇంటర్నెట్, మరియు AI మరియు వాటి పర్యవసానాలను కలిగి computer science విస్తృతిని పరిచయం చేస్తుంది."
     },
     {
-      "text": "Advanced Placement Computer Science A",
-      "of": "5369b620",
-      "at": [
-        "cannon:divisions[2].departments[6].courses[1].title",
-        "hickory-grove-christian:divisions[0].departments[9].courses[2].title"
-      ],
-      "t": "Advanced Placement Computer Science A"
-    },
-    {
       "text": "Fundamentals of computer science through object-oriented design in Java, including data structures and algorithms.",
       "of": "4d4a492f",
       "at": [
@@ -14926,15 +17829,6 @@
         "carmel-christian:divisions[0].title"
       ],
       "t": "High School Courses"
-    },
-    {
-      "text": "GRADES 9 – 12",
-      "of": "b750d992",
-      "at": [
-        "covenant-day:divisions[0].grades",
-        "carmel-christian:divisions[0].grades"
-      ],
-      "t": "GRADES 9 – 12"
     },
     {
       "text": "90 course entries across 9 departments — 17 Advanced Placement, a named Bible course for each of the four years, and a Restoration & Sustainability department no other school here runs.",
@@ -15448,14 +18342,6 @@
         "covenant-day:divisions[0].departments[3].courses[1].description"
       ],
       "t": "Honors ప్రపంచ చరిత్ర."
-    },
-    {
-      "text": "U.S. History",
-      "of": "6fd41d17",
-      "at": [
-        "covenant-day:divisions[0].departments[3].courses[2].title"
-      ],
-      "t": "అమెరికా చరిత్ర"
     },
     {
       "text": "The American-history year.",
@@ -16065,15 +18951,6 @@
         "covenant-day:divisions[0].departments[6].courses[15].description"
       ],
       "t": "pre-AP studio సంవత్సరం."
-    },
-    {
-      "text": "AP Studio Art",
-      "of": "c75dc683",
-      "at": [
-        "covenant-day:divisions[0].departments[6].courses[16].title",
-        "davidson-day:divisions[2].departments[5].courses[6].title"
-      ],
-      "t": "AP Studio Art"
     },
     {
       "text": "The AP portfolio year, shown at the Art Talk exhibit.",
@@ -17933,28 +20810,12 @@
       "t": "వైద్య ఉదాహరణలు, సూక్ష్మదర్శిని మరియు విచ్ఛేదన ద్వారా మానవ శరీర నిర్మాణం మరియు పనితీరుపై సమగ్ర అధ్యయనం."
     },
     {
-      "text": "French I",
-      "of": "bd7271a2",
-      "at": [
-        "davidson-day:divisions[2].departments[4].courses[0].title"
-      ],
-      "t": "French I"
-    },
-    {
       "text": "Beginning French developing the four skill areas in culturally appropriate contexts, with emphasis on interpretive skills before production.",
       "of": "2f89b43e",
       "at": [
         "davidson-day:divisions[2].departments[4].courses[0].description"
       ],
       "t": "ఉత్పత్తికి ముందు వ్యాఖ్యాన నైపుణ్యాలపై ప్రాధాన్యంతో, సాంస్కృతికంగా తగిన సందర్భాలలో నాలుగు నైపుణ్య రంగాలను పెంపొందించే ప్రారంభ French."
-    },
-    {
-      "text": "French II",
-      "of": "262954f1",
-      "at": [
-        "davidson-day:divisions[2].departments[4].courses[1].title"
-      ],
-      "t": "French II"
     },
     {
       "text": "Builds French vocabulary around family, education, food, travel, and daily routines using authentic resources.",
@@ -18029,33 +20890,12 @@
       "t": "ఆరు ఇతివృత్తాల చుట్టూ వ్యవస్థీకృతమై దాదాపు పూర్తిగా Frenchలో బోధించే ముగింపు French కోర్సు."
     },
     {
-      "text": "Spanish I",
-      "of": "389b9238",
-      "at": [
-        "davidson-day:divisions[2].departments[4].courses[6].title",
-        "carmel-christian:divisions[0].departments[5].courses[0].title",
-        "hickory-grove-christian:divisions[0].departments[5].courses[0].title"
-      ],
-      "t": "Spanish I"
-    },
-    {
       "text": "Introductory Spanish covering thematic and grammatical units, moving toward novice-level production with authentic songs and video.",
       "of": "de402e63",
       "at": [
         "davidson-day:divisions[2].departments[4].courses[6].description"
       ],
       "t": "నిజమైన పాటలు మరియు వీడియోతో novice స్థాయి ఉత్పత్తి దిశగా సాగుతూ ఇతివృత్త మరియు వ్యాకరణ పాఠాలను కలిగిన పరిచయ Spanish."
-    },
-    {
-      "text": "Spanish II",
-      "of": "8de787e3",
-      "at": [
-        "davidson-day:divisions[2].departments[4].courses[7].title",
-        "carmel-christian:divisions[0].departments[5].courses[1].title",
-        "carmel-christian:divisions[0].departments[5].courses[2].title",
-        "hickory-grove-christian:divisions[0].departments[5].courses[1].title"
-      ],
-      "t": "Spanish II"
     },
     {
       "text": "Expands vocabulary through units on education, family, daily life, travel, and traditions across twelve Spanish-speaking countries.",
@@ -18170,28 +21010,12 @@
       "t": "ఫోటోగ్రఫీ మరియు కెమెరా ప్రాథమికాంశాలు — రూపకల్పన, కాంతి, exposure triangle, మరియు Adobe Lightroom — ఒక portfolioతో ముగుస్తుంది."
     },
     {
-      "text": "Photography II",
-      "of": "770d4cae",
-      "at": [
-        "davidson-day:divisions[2].departments[5].courses[1].title"
-      ],
-      "t": "Photography II"
-    },
-    {
       "text": "Continues photographic technique and post-production while developing individual point of view.",
       "of": "1b7536c5",
       "at": [
         "davidson-day:divisions[2].departments[5].courses[1].description"
       ],
       "t": "వ్యక్తిగత దృక్కోణాన్ని పెంపొందిస్తూ ఫోటో పద్ధతి మరియు post-productionను కొనసాగిస్తుంది."
-    },
-    {
-      "text": "Photography III",
-      "of": "50f00fa5",
-      "at": [
-        "davidson-day:divisions[2].departments[5].courses[2].title"
-      ],
-      "t": "Photography III"
     },
     {
       "text": "For serious student photographers mastering the digital SLR, advanced editing, and personal style, producing their own websites.",
@@ -19125,14 +21949,6 @@
       "t": "ఒక కలిపిన psychology మరియు sociology ఐచ్ఛికం."
     },
     {
-      "text": "Personal Finance",
-      "of": "a1435e7b",
-      "at": [
-        "carmel-christian:divisions[0].departments[4].courses[8].title"
-      ],
-      "t": "Personal Finance"
-    },
-    {
       "text": "A personal-finance course.",
       "of": "f41cf752",
       "at": [
@@ -19220,14 +22036,6 @@
         "carmel-christian:divisions[0].departments[5].courses[4].description"
       ],
       "t": "మూడవ-సంవత్సర Spanish యొక్క honors ట్రాక్."
-    },
-    {
-      "text": "Honors Spanish IV",
-      "of": "2d15eb33",
-      "at": [
-        "carmel-christian:divisions[0].departments[5].courses[5].title"
-      ],
-      "t": "Honors Spanish IV"
     },
     {
       "text": "AP Spanish (Language & Culture)",
@@ -20236,14 +23044,6 @@
         "carmel-christian:divisions[1].departments[8].courses[3].title"
       ],
       "t": "Problem Solvers"
-    },
-    {
-      "text": "Study Hall",
-      "of": "7e263085",
-      "at": [
-        "carmel-christian:divisions[1].departments[8].courses[4].title"
-      ],
-      "t": "Study Hall"
     },
     {
       "text": "A supervised study period.",
@@ -21457,14 +24257,6 @@
       "t": "రూపకల్పన సూత్రాలను ఉపయోగించి Art I నైపుణ్యాలను పూర్తి కూర్పులకు అన్వయించడం, కొత్త మాధ్యమాలను పరిచయం చేస్తూ."
     },
     {
-      "text": "Art III",
-      "of": "2cf717e7",
-      "at": [
-        "hickory-grove-christian:divisions[0].departments[6].courses[2].title"
-      ],
-      "t": "Art III"
-    },
-    {
       "text": "Preparation for the AP portfolio, culminating in a sustained investigation series on the student’s own artistic interests.",
       "of": "f16684e0",
       "at": [
@@ -21505,28 +24297,12 @@
       "t": "అధ్యయనం, చర్చ, లిఖిత విమర్శ మరియు సృజన ద్వారా కళపై అవగాహన, ఆదరణ — ముందస్తు కళా నేపథ్యం ఊహించబడదు."
     },
     {
-      "text": "Ceramics I",
-      "of": "6b9cb6d7",
-      "at": [
-        "hickory-grove-christian:divisions[0].departments[6].courses[5].title"
-      ],
-      "t": "Ceramics I"
-    },
-    {
       "text": "The fundamentals of 3D art and handbuilding with clay — pinch, slab and coil construction, plus decorative techniques and glazing.",
       "of": "951358fd",
       "at": [
         "hickory-grove-christian:divisions[0].departments[6].courses[5].description"
       ],
       "t": "త్రిమితీయ కళ మూలాంశాలు మరియు మట్టితో చేతితో రూపొందించే నైపుణ్యాలు — పించ్, స్లాబ్ మరియు కాయిల్ — అలాగే అలంకరణ పద్ధతులు, గ్లేజింగ్."
-    },
-    {
-      "text": "Ceramics II",
-      "of": "05b37aba",
-      "at": [
-        "hickory-grove-christian:divisions[0].departments[6].courses[6].title"
-      ],
-      "t": "Ceramics II"
     },
     {
       "text": "Project-based work building on handbuilding technique, and may include an introduction to wheel throwing.",
@@ -22422,14 +25198,6 @@
         "gaston-day:divisions[1].departments[2].courses[1].description"
       ],
       "t": "తప్పనిసరి ప్రయోగశాల విజ్ఞానం, Honors మరియు AP రెండు స్థాయిల్లోనూ అందించబడుతుంది."
-    },
-    {
-      "text": "Environmental Science",
-      "of": "e7a2758d",
-      "at": [
-        "gaston-day:divisions[1].departments[2].courses[2].title"
-      ],
-      "t": "Environmental Science"
     },
     {
       "text": "A third-year lab science option at the Honors level.",

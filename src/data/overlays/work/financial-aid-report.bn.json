@@ -11,6 +11,7 @@
         "providence-day:title",
         "charlotte-latin:title",
         "charlotte-christian:title",
+        "charlotte-catholic:title",
         "charlotte-country-day:title",
         "cannon:title",
         "covenant-day:title",
@@ -85,6 +86,7 @@
         "providence-day:framing[2].title",
         "charlotte-latin:framing[2].title",
         "charlotte-christian:framing[2].title",
+        "charlotte-catholic:framing[2].title",
         "charlotte-country-day:framing[2].title",
         "cannon:framing[2].title",
         "covenant-day:framing[2].title",
@@ -109,6 +111,7 @@
       "at": [
         "providence-day:sections[0].navTitle",
         "charlotte-latin:sections[0].navTitle",
+        "charlotte-catholic:sections[0].navTitle",
         "charlotte-country-day:sections[0].navTitle",
         "cannon:sections[0].navTitle"
       ],
@@ -197,6 +200,10 @@
         "charlotte-latin:sections[3].boxes[2].tag",
         "charlotte-latin:sections[5].boxes[3].tag",
         "charlotte-christian:sections[3].boxes[2].tag",
+        "charlotte-catholic:sections[2].boxes[3].tag",
+        "charlotte-catholic:sections[3].boxes[0].tag",
+        "charlotte-catholic:sections[4].boxes[0].tag",
+        "charlotte-catholic:sections[5].boxes[0].tag",
         "charlotte-country-day:sections[0].boxes[0].tag",
         "charlotte-country-day:sections[2].boxes[2].tag",
         "charlotte-country-day:sections[3].boxes[1].tag",
@@ -276,6 +283,7 @@
       "at": [
         "providence-day:sections[1].navTitle",
         "charlotte-latin:sections[1].navTitle",
+        "charlotte-catholic:sections[1].navTitle",
         "charlotte-country-day:sections[1].navTitle",
         "cannon:sections[1].navTitle"
       ],
@@ -484,6 +492,7 @@
       "at": [
         "providence-day:sections[2].navTitle",
         "charlotte-latin:sections[2].navTitle",
+        "charlotte-catholic:sections[2].navTitle",
         "charlotte-country-day:sections[2].navTitle",
         "cannon:sections[2].navTitle",
         "covenant-day:sections[2].navTitle",
@@ -647,7 +656,8 @@
       "of": "e15b3ca0",
       "at": [
         "providence-day:sections[3].navTitle",
-        "charlotte-latin:sections[3].navTitle"
+        "charlotte-latin:sections[3].navTitle",
+        "charlotte-catholic:sections[3].navTitle"
       ],
       "t": "সহায়তার সংখ্যা"
     },
@@ -906,6 +916,7 @@
       "at": [
         "providence-day:sections[5].navTitle",
         "charlotte-latin:sections[5].navTitle",
+        "charlotte-catholic:sections[5].navTitle",
         "charlotte-country-day:sections[4].navTitle",
         "cannon:sections[4].navTitle",
         "covenant-day:sections[5].navTitle",
@@ -3040,6 +3051,596 @@
         "charlotte-christian:sections[5].questions[6]"
       ],
       "t": "middle school-এর extended day-র হার কি lower school-এর প্রকাশিত হারের সমান?"
+    },
+    {
+      "text": "2026–27 school year · figures as of 18 Aug 2026",
+      "of": "f52eb327",
+      "at": [
+        "charlotte-catholic:meta"
+      ],
+      "t": "2026–27 শিক্ষাবর্ষ · 18 আগস্ট 2026 পর্যন্ত হালনাগাদ তথ্য"
+    },
+    {
+      "text": "Tuition is set by the diocese, not the school.",
+      "of": "d37a0857",
+      "at": [
+        "charlotte-catholic:framing[0].title"
+      ],
+      "t": "টিউশন ঠিক করে ডায়োসিস, স্কুল নয়।"
+    },
+    {
+      "text": "Charlotte Catholic publishes no tuition of its own. Mecklenburg Area Catholic Schools sets and publishes one high-school schedule covering grades 9–12 for every MACS high school, which is why every figure here cites discovermacs.org rather than the school site.",
+      "of": "ce665388",
+      "at": [
+        "charlotte-catholic:framing[0].body"
+      ],
+      "t": "Charlotte Catholic নিজের কোনো টিউশন প্রকাশ করে না। Mecklenburg Area Catholic Schools প্রতিটি MACS হাই স্কুলের জন্য 9–12 গ্রেড মিলিয়ে একটিই হাই-স্কুল তালিকা ঠিক করে ও প্রকাশ করে, সেজন্যই এখানকার প্রতিটি সংখ্যার সূত্র স্কুলের সাইট নয়, discovermacs.org।"
+    },
+    {
+      "text": "Only the current year is published.",
+      "of": "733ce9aa",
+      "at": [
+        "charlotte-catholic:framing[1].title"
+      ],
+      "t": "কেবল চলতি বছরেরটিই প্রকাশিত।"
+    },
+    {
+      "text": "MACS publishes the 2026-27 schedule and no history. Secondary sources give conflicting older figures ($13,348 and $9,366) with no reliable year attribution, so no tuition trend is shown here rather than one built from unattributable numbers.",
+      "of": "8a19c9b2",
+      "at": [
+        "charlotte-catholic:framing[1].body"
+      ],
+      "t": "MACS 2026-27-এর তালিকা প্রকাশ করে, কোনো পুরোনো হিসাব নয়। গৌণ সূত্রগুলোতে পুরোনো কিছু পরস্পরবিরোধী সংখ্যা ($13,348 ও $9,366) পাওয়া যায়, যেগুলোর বছর নির্ভরযোগ্যভাবে জানা যায় না, তাই সূত্রহীন সংখ্যা দিয়ে ধারা তৈরি না করে এখানে টিউশনের কোনো ধারাই দেখানো হয়নি।"
+    },
+    {
+      "text": "Tuition assistance while enrolled — not the $17,242,184 in college scholarships the Class of 2025 earned, which is university money and excluded throughout. Not financial advice.",
+      "of": "88649bba",
+      "at": [
+        "charlotte-catholic:framing[2].body"
+      ],
+      "t": "ভর্তি থাকা অবস্থায় টিউশন সহায়তা — 2025 ব্যাচের অর্জিত $17,242,184 কলেজ বৃত্তি নয়, যা বিশ্ববিদ্যালয়ের অর্থ এবং সর্বত্রই বাদ রাখা হয়েছে। এটি আর্থিক পরামর্শ নয়।"
+    },
+    {
+      "text": "Tuition by Family Status — Not by Grade",
+      "of": "fab16aab",
+      "at": [
+        "charlotte-catholic:sections[0].title"
+      ],
+      "t": "পারিবারিক অবস্থা অনুযায়ী টিউশন — গ্রেড অনুযায়ী নয়"
+    },
+    {
+      "text": "STRUCTURALLY DIFFERENT",
+      "of": "9ad82de4",
+      "at": [
+        "charlotte-catholic:sections[0].tag"
+      ],
+      "t": "কাঠামোগতভাবে আলাদা"
+    },
+    {
+      "text": "Published 2026-27 tuition, grades 9–12",
+      "of": "3b6db132",
+      "at": [
+        "charlotte-catholic:sections[0].figureCaption"
+      ],
+      "t": "প্রকাশিত 2026-27 টিউশন, গ্রেড 9–12"
+    },
+    {
+      "text": "Participating Catholic",
+      "of": "46b1a9d3",
+      "at": [
+        "charlotte-catholic:sections[0].bands[0].label"
+      ],
+      "t": "অংশগ্রহণকারী ক্যাথলিক"
+    },
+    {
+      "text": "Community (non-parishioner)",
+      "of": "29b14c29",
+      "at": [
+        "charlotte-catholic:sections[0].bands[1].label"
+      ],
+      "t": "সাধারণ (প্যারিশের বাইরে)"
+    },
+    {
+      "text": "High International",
+      "of": "8c752f55",
+      "at": [
+        "charlotte-catholic:sections[0].bands[2].label"
+      ],
+      "t": "High International"
+    },
+    {
+      "text": "This is the structural feature no other school on this roster has: **price depends on parish participation, not on grade level or financial need**. A participating Catholic family pays **$15,041** where a community family pays **$21,562** for the same seat in the same classroom — a **$6,521 difference, roughly 30%**. Because CCHS is a 9–12 school, there is no grade-band ladder at all; these three rows are the entire schedule.",
+      "of": "644cca30",
+      "at": [
+        "charlotte-catholic:sections[0].figureNote"
+      ],
+      "t": "এই তালিকার আর কোনো স্কুলেই এই কাঠামোগত বৈশিষ্ট্যটি নেই: **দাম নির্ভর করে প্যারিশে অংশগ্রহণের উপর, গ্রেড বা আর্থিক প্রয়োজনের উপর নয়**। একই শ্রেণিকক্ষের একই আসনের জন্য অংশগ্রহণকারী ক্যাথলিক পরিবার দেয় **$15,041**, আর সাধারণ পরিবার দেয় **$21,562** — অর্থাৎ **$6,521-এর ফারাক, প্রায় 30%**। CCHS 9–12 গ্রেডের স্কুল হওয়ায় এখানে গ্রেডভিত্তিক কোনো স্তর নেই; এই তিনটি সারিই গোটা তালিকা।"
+    },
+    {
+      "text": "The International rate applies to students requiring an I-20. The **$21,562** community rate is the figure to compare against other schools' published tuition, since it is the price to a family with no parish affiliation.",
+      "of": "bf157ee9",
+      "at": [
+        "charlotte-catholic:sections[0].figureNote2"
+      ],
+      "t": "International হারটি সেসব শিক্ষার্থীর ক্ষেত্রে প্রযোজ্য, যাঁদের I-20 লাগে। অন্য স্কুলগুলোর প্রকাশিত টিউশনের সঙ্গে তুলনার জন্য **$21,562** সাধারণ হারটিই দেখা উচিত, কারণ প্যারিশের সঙ্গে যুক্ত নয় এমন পরিবারের জন্য এটিই দাম।"
+    },
+    {
+      "text": "What Else a Family Pays",
+      "of": "3a2b4304",
+      "at": [
+        "charlotte-catholic:sections[1].title"
+      ],
+      "t": "একটি পরিবারকে আর কী কী দিতে হয়"
+    },
+    {
+      "text": "Published fees",
+      "of": "5cf0420e",
+      "at": [
+        "charlotte-catholic:sections[1].componentsTitle"
+      ],
+      "t": "প্রকাশিত ফি"
+    },
+    {
+      "text": "Capital fee — $1,995 per FAMILY",
+      "of": "14bbf874",
+      "at": [
+        "charlotte-catholic:sections[1].components[0].label"
+      ],
+      "t": "Capital fee — পরিবারপ্রতি $1,995"
+    },
+    {
+      "text": "Application fee — $120 per student",
+      "of": "e4445282",
+      "at": [
+        "charlotte-catholic:sections[1].components[1].label"
+      ],
+      "t": "আবেদন ফি — শিক্ষার্থীপ্রতি $120"
+    },
+    {
+      "text": "Continuous enrollment fee — $150 per returning student",
+      "of": "123a2fbe",
+      "at": [
+        "charlotte-catholic:sections[1].components[2].label"
+      ],
+      "t": "ধারাবাহিক ভর্তির ফি — পুরোনো শিক্ষার্থীপ্রতি $150"
+    },
+    {
+      "text": "FACTS payment plan fee — $15–$45 per family",
+      "of": "84475fdc",
+      "at": [
+        "charlotte-catholic:sections[1].components[3].label"
+      ],
+      "t": "FACTS কিস্তি-পরিকল্পনার ফি — পরিবারপ্রতি $15–$45"
+    },
+    {
+      "text": "Clarity aid application fee — $65",
+      "of": "8b71866a",
+      "at": [
+        "charlotte-catholic:sections[1].components[4].label"
+      ],
+      "t": "Clarity-তে সহায়তার আবেদন ফি — $65"
+    },
+    {
+      "text": "Books, technology and course fees",
+      "of": "95c29770",
+      "at": [
+        "charlotte-catholic:sections[1].components[5].label"
+      ],
+      "t": "বই, প্রযুক্তি ও কোর্সের ফি"
+    },
+    {
+      "text": "Athletics participation and spirit-pack costs",
+      "of": "85f78519",
+      "at": [
+        "charlotte-catholic:sections[1].components[6].label"
+      ],
+      "t": "ক্রীড়ায় অংশগ্রহণ ও spirit pack-এর খরচ"
+    },
+    {
+      "text": "Band travel — the Dublin parade trip runs quadrennially",
+      "of": "03833e66",
+      "at": [
+        "charlotte-catholic:sections[1].components[7].label"
+      ],
+      "t": "ব্যান্ডের ভ্রমণ — Dublin প্যারেডের সফরটি হয় প্রতি চার বছরে"
+    },
+    {
+      "text": "The **capital fee is charged per family rather than per student**, so unlike the application and enrollment fees it does not scale with the number of children enrolled.",
+      "of": "88be790b",
+      "at": [
+        "charlotte-catholic:sections[1].componentsNote"
+      ],
+      "t": "**capital fee নেওয়া হয় শিক্ষার্থীপ্রতি নয়, পরিবারপ্রতি**, তাই আবেদন ও ভর্তির ফি-র মতো এটি সন্তানসংখ্যার সঙ্গে বাড়ে না।"
+    },
+    {
+      "text": "A first-year community-rate family with one student pays $21,562 + $1,995 + $120 = **$23,677** before books, activities or athletics.",
+      "of": "c3f0715f",
+      "at": [
+        "charlotte-catholic:sections[1].componentsAside"
+      ],
+      "t": "এক সন্তান নিয়ে সাধারণ হারে প্রথম বছরের একটি পরিবারকে বই, কার্যক্রম বা খেলাধুলার আগেই দিতে হয় $21,562 + $1,995 + $120 = **$23,677**।"
+    },
+    {
+      "text": "How Aid Is Assessed and When",
+      "of": "6fea59c3",
+      "at": [
+        "charlotte-catholic:sections[2].title"
+      ],
+      "t": "সহায়তা কীভাবে ও কখন যাচাই হয়"
+    },
+    {
+      "text": "February",
+      "of": "fca77633",
+      "at": [
+        "charlotte-catholic:sections[2].timeline[0].when"
+      ],
+      "t": "ফেব্রুয়ারি"
+    },
+    {
+      "text": "The **NCSEAA** application window opens for the following school year — covering the **Opportunity Scholarship** and **ESA+**",
+      "of": "52e4974c",
+      "at": [
+        "charlotte-catholic:sections[2].timeline[0].detail"
+      ],
+      "t": "পরের শিক্ষাবর্ষের জন্য **NCSEAA**-র আবেদনের সময় শুরু হয় — যার আওতায় আছে **Opportunity Scholarship** ও **ESA+**"
+    },
+    {
+      "text": "March 23, 2026",
+      "of": "ca4e1acd",
+      "at": [
+        "charlotte-catholic:sections[2].timeline[1].when"
+      ],
+      "t": "23 মার্চ, 2026"
+    },
+    {
+      "text": "**2026-27 enrollment opens**",
+      "of": "92eb0e82",
+      "at": [
+        "charlotte-catholic:sections[2].timeline[1].detail"
+      ],
+      "t": "**2026-27-এর ভর্তি শুরু**"
+    },
+    {
+      "text": "By May 15",
+      "of": "27a6a3a5",
+      "at": [
+        "charlotte-catholic:sections[2].timeline[2].when"
+      ],
+      "t": "15 মে-র মধ্যে"
+    },
+    {
+      "text": "**Family Individualized Tuition (FIT) deadline for returning students.** New families are encouraged to apply alongside the admission application",
+      "of": "4290907b",
+      "at": [
+        "charlotte-catholic:sections[2].timeline[2].detail"
+      ],
+      "t": "**পুরোনো শিক্ষার্থীদের জন্য Family Individualized Tuition (FIT)-এর সময়সীমা।** নতুন পরিবারগুলোকে ভর্তির আবেদনের সঙ্গেই আবেদন করতে উৎসাহ দেওয়া হয়"
+    },
+    {
+      "text": "Platform — Clarity, not FACTS",
+      "of": "fca02a28",
+      "at": [
+        "charlotte-catholic:sections[2].boxes[0].title"
+      ],
+      "t": "প্ল্যাটফর্ম — FACTS নয়, Clarity"
+    },
+    {
+      "text": "Need is assessed through the **Clarity** application (**$65** fee). **FACTS appears in this system only as the payment processor**, not the need-assessment platform — an easy and consequential mix-up, since most schools on this roster run FACTS Grant & Aid for assessment. **TADS is not used.**",
+      "of": "064cd162",
+      "at": [
+        "charlotte-catholic:sections[2].boxes[0].body"
+      ],
+      "t": "প্রয়োজন যাচাই হয় **Clarity** আবেদনের মাধ্যমে (**$65** ফি)। **এই ব্যবস্থায় FACTS আসে কেবল অর্থ পরিশোধের মাধ্যম হিসেবে**, প্রয়োজন যাচাইয়ের প্ল্যাটফর্ম হিসেবে নয় — এটি সহজেই গুলিয়ে ফেলার মতো ও গুরুত্বপূর্ণ একটি বিষয়, কারণ এই তালিকার বেশিরভাগ স্কুলই যাচাইয়ের জন্য FACTS Grant & Aid ব্যবহার করে। **TADS ব্যবহার করা হয় না।**"
+    },
+    {
+      "text": "Family Individualized Tuition (FIT)",
+      "of": "b47df294",
+      "at": [
+        "charlotte-catholic:sections[2].boxes[1].title"
+      ],
+      "t": "Family Individualized Tuition (FIT)"
+    },
+    {
+      "text": "The diocese's need-based programme. Awards vary by family circumstance and by fund availability, so an award in one year does not guarantee the same in the next.",
+      "of": "8fdbb4b8",
+      "at": [
+        "charlotte-catholic:sections[2].boxes[1].body"
+      ],
+      "t": "ডায়োসিসের প্রয়োজনভিত্তিক কর্মসূচি। পরিবারের অবস্থা ও তহবিলের প্রাপ্যতা অনুযায়ী সহায়তার পরিমাণ বদলায়, তাই এক বছর সহায়তা পাওয়া মানেই পরের বছর একই পরিমাণ পাওয়ার নিশ্চয়তা নয়।"
+    },
+    {
+      "text": "Multi-child discounts — participating Catholic families only",
+      "of": "6dda8413",
+      "at": [
+        "charlotte-catholic:sections[2].boxes[2].title"
+      ],
+      "t": "একাধিক সন্তানের ছাড় — কেবল অংশগ্রহণকারী ক্যাথলিক পরিবারের জন্য"
+    },
+    {
+      "text": "Second child **10%**, third **25%**, fourth **50%**, fifth and beyond **100%**. Note these apply to the participating Catholic rate only, compounding the parish-status advantage for larger families.",
+      "of": "d729c103",
+      "at": [
+        "charlotte-catholic:sections[2].boxes[2].body"
+      ],
+      "t": "দ্বিতীয় সন্তানে **10%**, তৃতীয়তে **25%**, চতুর্থে **50%**, পঞ্চম ও তার পরে **100%**। লক্ষণীয়, এগুলো কেবল অংশগ্রহণকারী ক্যাথলিক হারের ক্ষেত্রেই প্রযোজ্য, ফলে বড় পরিবারের ক্ষেত্রে প্যারিশে যুক্ত থাকার সুবিধা আরও বাড়ে।"
+    },
+    {
+      "text": "No decision timeline, appeals process, or award-ceiling policy is published. Whether FIT awards are renewed automatically on re-application is not stated.",
+      "of": "19c32b5c",
+      "at": [
+        "charlotte-catholic:sections[2].boxes[3].body"
+      ],
+      "t": "সিদ্ধান্তের কোনো সময়সূচি, আপিলের প্রক্রিয়া বা সহায়তার সর্বোচ্চ সীমা নিয়ে কোনো নীতি প্রকাশিত নয়। আবার আবেদন করলে FIT-এর সহায়তা স্বয়ংক্রিয়ভাবে নবায়ন হয় কি না, তাও বলা নেই।"
+    },
+    {
+      "text": "What the Aid Programme Actually Awards",
+      "of": "5f013ce1",
+      "at": [
+        "charlotte-catholic:sections[3].title"
+      ],
+      "t": "সহায়তা কর্মসূচিটি আসলে কী দেয়"
+    },
+    {
+      "text": "DIOCESE-WIDE ONLY",
+      "of": "8f0b1009",
+      "at": [
+        "charlotte-catholic:sections[3].tag"
+      ],
+      "t": "কেবল গোটা ডায়োসিসের হিসাব"
+    },
+    {
+      "text": "No per-school aid figures exist",
+      "of": "3b95fbe8",
+      "at": [
+        "charlotte-catholic:sections[3].boxes[0].title"
+      ],
+      "t": "স্কুলভিত্তিক সহায়তার কোনো সংখ্যা নেই"
+    },
+    {
+      "text": "MACS publishes aid data **diocese-wide only, never per school**. There is no published percentage of CCHS students receiving aid, no total aid awarded at CCHS, and no average award. This is a disclosure structure, not a research gap — the figures are not published anywhere for this school specifically.",
+      "of": "7cd884da",
+      "at": [
+        "charlotte-catholic:sections[3].boxes[0].body"
+      ],
+      "t": "MACS সহায়তার তথ্য প্রকাশ করে **কেবল গোটা ডায়োসিসের হিসাবে, কখনও স্কুলভিত্তিকভাবে নয়**। CCHS-এর কত শতাংশ শিক্ষার্থী সহায়তা পান, CCHS-এ মোট কত সহায়তা দেওয়া হয়েছে বা গড়ে কত দেওয়া হয়েছে — এর কিছুই প্রকাশিত নয়। এটি গবেষণার ঘাটতি নয়, তথ্য প্রকাশের কাঠামোই এমন — বিশেষভাবে এই স্কুলের জন্য সংখ্যাগুলো কোথাও প্রকাশিত হয় না।"
+    },
+    {
+      "text": "State Funding",
+      "of": "c3eaa0ef",
+      "at": [
+        "charlotte-catholic:sections[4].navTitle"
+      ],
+      "t": "রাজ্যের অর্থায়ন"
+    },
+    {
+      "text": "State Scholarships and Vouchers",
+      "of": "a398acdd",
+      "at": [
+        "charlotte-catholic:sections[4].title"
+      ],
+      "t": "রাজ্যের বৃত্তি ও ভাউচার"
+    },
+    {
+      "text": "ESA+",
+      "of": "4a10fc69",
+      "at": [
+        "charlotte-catholic:sections[4].ladder[0].gift",
+        "hickory-grove-christian:sections[3].plans[2].figure"
+      ],
+      "t": "ESA+"
+    },
+    {
+      "text": "**$9,000 or $17,000** yearly for students with qualifying disabilities — the largest single funding layer available here",
+      "of": "b47647bd",
+      "at": [
+        "charlotte-catholic:sections[4].ladder[0].detail"
+      ],
+      "t": "যোগ্য প্রতিবন্ধকতাসম্পন্ন শিক্ষার্থীদের জন্য বছরে **$9,000 বা $17,000** — এখানে পাওয়া যায় এমন সবচেয়ে বড় একক অর্থায়নের স্তর"
+    },
+    {
+      "text": "Opportunity Scholarship",
+      "of": "2836de02",
+      "at": [
+        "charlotte-catholic:sections[4].ladder[1].gift",
+        "carmel-christian:sections[4].plans[2].label",
+        "hickory-grove-christian:sections[3].plans[1].label"
+      ],
+      "t": "Opportunity Scholarship"
+    },
+    {
+      "text": "Up to **$7,000+** annually, and — since the 2024 expansion — **with no income cap**, so families previously excluded now qualify",
+      "of": "db59fa2b",
+      "at": [
+        "charlotte-catholic:sections[4].ladder[1].detail"
+      ],
+      "t": "বছরে **$7,000+** পর্যন্ত, আর 2024 সালের সম্প্রসারণের পর থেকে — **আয়ের কোনো ঊর্ধ্বসীমা ছাড়াই**, ফলে আগে বাদ পড়া পরিবারগুলোও এখন যোগ্য"
+    },
+    {
+      "text": "These are **North Carolina state** programmes administered by NCSEAA, not CCHS awards. They stack with FIT rather than replacing it, and the diocese actively points families toward them.",
+      "of": "61aeb20e",
+      "at": [
+        "charlotte-catholic:sections[4].note"
+      ],
+      "t": "এগুলো NCSEAA-র পরিচালিত **North Carolina রাজ্যের** কর্মসূচি, CCHS-এর দেওয়া কিছু নয়। এগুলো FIT-এর জায়গা নেয় না, বরং তার সঙ্গে যোগ হয়, আর ডায়োসিস সক্রিয়ভাবেই পরিবারগুলোকে এদিকে পাঠায়।"
+    },
+    {
+      "text": "CCHS and MACS publish **no merit scholarships** of their own — no academic, athletic or arts merit awards appear anywhere in the published record. Aid here is need-based (FIT), parish-status-based (the Catholic rate and multi-child discounts), or state-funded.",
+      "of": "7106447c",
+      "at": [
+        "charlotte-catholic:sections[4].boxes[0].body"
+      ],
+      "t": "CCHS ও MACS নিজেদের **কোনো মেধাবৃত্তি** প্রকাশ করে না — প্রকাশিত নথির কোথাও একাডেমিক, ক্রীড়া বা চারুকলার মেধাভিত্তিক কোনো পুরস্কার নেই। এখানকার সহায়তা হয় প্রয়োজনভিত্তিক (FIT), নয়তো প্যারিশে অবস্থানভিত্তিক (ক্যাথলিক হার ও একাধিক সন্তানের ছাড়), নয়তো রাজ্যের অর্থায়নে।"
+    },
+    {
+      "text": "Payment Mechanics",
+      "of": "73acf5f6",
+      "at": [
+        "charlotte-catholic:sections[5].title"
+      ],
+      "t": "অর্থ পরিশোধের ব্যবস্থা"
+    },
+    {
+      "text": "FACTS",
+      "of": "fe5b76c4",
+      "at": [
+        "charlotte-catholic:sections[5].plans[0].figure",
+        "carmel-christian:sections[5].plans[1].figure",
+        "hickory-grove-christian:sections[4].plans[1].figure"
+      ],
+      "t": "FACTS"
+    },
+    {
+      "text": "Payment processor",
+      "of": "90169b25",
+      "at": [
+        "charlotte-catholic:sections[5].plans[0].label"
+      ],
+      "t": "অর্থ পরিশোধের মাধ্যম"
+    },
+    {
+      "text": "Runs the tuition draft. Plan fee **$15–$45 per family**.",
+      "of": "00f42751",
+      "at": [
+        "charlotte-catholic:sections[5].plans[0].detail"
+      ],
+      "t": "টিউশনের কিস্তি কেটে নেওয়ার কাজটি করে। পরিকল্পনার ফি **পরিবারপ্রতি $15–$45**।"
+    },
+    {
+      "text": "$150",
+      "of": "24155a9b",
+      "at": [
+        "charlotte-catholic:sections[5].plans[1].figure"
+      ],
+      "t": "$150"
+    },
+    {
+      "text": "Continuous enrollment",
+      "of": "396a9f6e",
+      "at": [
+        "charlotte-catholic:sections[5].plans[1].label"
+      ],
+      "t": "ধারাবাহিক ভর্তি"
+    },
+    {
+      "text": "Charged per returning student to hold the seat for the next year.",
+      "of": "cfc5d5cf",
+      "at": [
+        "charlotte-catholic:sections[5].plans[1].detail"
+      ],
+      "t": "পরের বছরের আসনটি ধরে রাখতে পুরোনো শিক্ষার্থীপ্রতি নেওয়া হয়।"
+    },
+    {
+      "text": "May 15",
+      "of": "3b28a9a4",
+      "at": [
+        "charlotte-catholic:sections[5].plans[2].figure"
+      ],
+      "t": "15 মে"
+    },
+    {
+      "text": "FIT deadline",
+      "of": "2a65d838",
+      "at": [
+        "charlotte-catholic:sections[5].plans[2].label"
+      ],
+      "t": "FIT-এর সময়সীমা"
+    },
+    {
+      "text": "Returning families must apply by this date to be considered.",
+      "of": "4d68970b",
+      "at": [
+        "charlotte-catholic:sections[5].plans[2].detail"
+      ],
+      "t": "বিবেচনায় আসতে হলে পুরোনো পরিবারগুলোকে এই তারিখের মধ্যে আবেদন করতে হয়।"
+    },
+    {
+      "text": "The number of installments in the FACTS plan, whether a pay-in-full discount exists, and any late-payment or withdrawal policy are not published — they sit inside the enrollment portal.",
+      "of": "352d01a7",
+      "at": [
+        "charlotte-catholic:sections[5].boxes[0].body"
+      ],
+      "t": "FACTS পরিকল্পনায় কত কিস্তি, একবারে পুরো টাকা দিলে ছাড় আছে কি না, এবং দেরিতে পরিশোধ বা ভর্তি বাতিলের কোনো নীতি — কিছুই প্রকাশিত নয়; এগুলো ভর্তির পোর্টালের ভেতরেই থাকে।"
+    },
+    {
+      "text": "What to Ask",
+      "of": "bfb2863d",
+      "at": [
+        "charlotte-catholic:sections[6].navTitle",
+        "charlotte-catholic:sections[6].title"
+      ],
+      "t": "যা জিজ্ঞেস করবেন"
+    },
+    {
+      "text": "Ask the admissions office",
+      "of": "ae061cf3",
+      "at": [
+        "charlotte-catholic:sections[6].questionsTitle"
+      ],
+      "t": "ভর্তি দপ্তরকে জিজ্ঞেস করুন"
+    },
+    {
+      "text": "What exactly qualifies us as a \"participating Catholic\" family, and which parish verifies it?",
+      "of": "b8599d7f",
+      "at": [
+        "charlotte-catholic:sections[6].questions[0]"
+      ],
+      "t": "ঠিক কী থাকলে আমরা \"participating Catholic\" পরিবার হিসেবে গণ্য হব, আর কোন প্যারিশ তা যাচাই করে?"
+    },
+    {
+      "text": "If our parish participation changes mid-enrollment, does our tuition rate change with it?",
+      "of": "56ba5b67",
+      "at": [
+        "charlotte-catholic:sections[6].questions[1]"
+      ],
+      "t": "পড়ার মাঝপথে প্যারিশে আমাদের অংশগ্রহণ বদলে গেলে টিউশনের হারও কি বদলে যায়?"
+    },
+    {
+      "text": "What did FIT actually award families at our income level last year — even as a range?",
+      "of": "d1f2a637",
+      "at": [
+        "charlotte-catholic:sections[6].questions[2]"
+      ],
+      "t": "আমাদের আয়ের স্তরের পরিবারগুলোকে গত বছর FIT আসলে কত দিয়েছে — অন্তত একটি পরিসর হলেও?"
+    },
+    {
+      "text": "Are FIT awards renewed automatically on re-application, or reassessed from scratch each year?",
+      "of": "471d67b0",
+      "at": [
+        "charlotte-catholic:sections[6].questions[3]"
+      ],
+      "t": "আবার আবেদন করলে FIT-এর সহায়তা কি স্বয়ংক্রিয়ভাবে নবায়ন হয়, নাকি প্রতি বছর নতুন করে যাচাই করা হয়?"
+    },
+    {
+      "text": "Do the multi-child discounts apply before or after a FIT award is calculated?",
+      "of": "2e987b5b",
+      "at": [
+        "charlotte-catholic:sections[6].questions[4]"
+      ],
+      "t": "একাধিক সন্তানের ছাড় কি FIT-এর সহায়তা হিসাব করার আগে প্রযোজ্য, নাকি পরে?"
+    },
+    {
+      "text": "Does the $1,995 capital fee recur every year, or is it charged once?",
+      "of": "a4f5fe24",
+      "at": [
+        "charlotte-catholic:sections[6].questions[5]"
+      ],
+      "t": "$1,995 capital fee কি প্রতি বছরই দিতে হয়, নাকি একবারই নেওয়া হয়?"
+    },
+    {
+      "text": "How many installments does the FACTS plan run, and is there a discount for paying in full?",
+      "of": "852f4492",
+      "at": [
+        "charlotte-catholic:sections[6].questions[6]"
+      ],
+      "t": "FACTS পরিকল্পনায় কত কিস্তি, আর একবারে পুরো টাকা দিলে কি কোনো ছাড় আছে?"
+    },
+    {
+      "text": "What should we budget beyond tuition for books, athletics and the band's Dublin trip?",
+      "of": "8ad79183",
+      "at": [
+        "charlotte-catholic:sections[6].questions[7]"
+      ],
+      "t": "টিউশনের বাইরে বই, খেলাধুলা ও ব্যান্ডের Dublin সফরের জন্য আমাদের কত টাকা ধরে রাখা উচিত?"
     },
     {
       "text": "Every dollar figure carries the school year it applies to. Undated school figures are flagged, not guessed.",
@@ -5650,15 +6251,6 @@
       "t": "প্রতি সন্তানপ্রতি, একই পরিবার থেকে **3য় সন্তান ভর্তি থেকে শুরু করে** প্রযোজ্য। দুই-সন্তানের পরিবার কিছুই পায় না।"
     },
     {
-      "text": "Opportunity Scholarship",
-      "of": "2836de02",
-      "at": [
-        "carmel-christian:sections[4].plans[2].label",
-        "hickory-grove-christian:sections[3].plans[1].label"
-      ],
-      "t": "Opportunity Scholarship"
-    },
-    {
       "text": "The school references the state voucher, with income caps removed and eligibility expanded to currently-enrolled private-school students.",
       "of": "934cab38",
       "at": [
@@ -5697,15 +6289,6 @@
         "carmel-christian:sections[5].plans[0].detail"
       ],
       "t": "প্রতি সন্তানপ্রতি, **অফেরতযোগ্য**, এবং — স্কুল অনুযায়ী — enrollment-এর সময় সম্পূর্ণ পরিশোধ করতে হবে।"
-    },
-    {
-      "text": "FACTS",
-      "of": "fe5b76c4",
-      "at": [
-        "carmel-christian:sections[5].plans[1].figure",
-        "hickory-grove-christian:sections[4].plans[1].figure"
-      ],
-      "t": "FACTS"
     },
     {
       "text": "Monthly auto-draft",
@@ -6012,14 +6595,6 @@
         "hickory-grove-christian:sections[3].plans[1].detail"
       ],
       "t": "আয়ের চারটি স্তর — **$7,942 (100%)**, $7,148 (90%), $4,766 (60%), $3,574 (45%); আবেদনের জন্য আয়ের কোনো ঊর্ধ্বসীমা নেই, এবং সহায়তার পরিমাণ পরিবারের আয় অনুযায়ী কমবেশি হয়।"
-    },
-    {
-      "text": "ESA+",
-      "of": "4a10fc69",
-      "at": [
-        "hickory-grove-christian:sections[3].plans[2].figure"
-      ],
-      "t": "ESA+"
     },
     {
       "text": "Education Student Accounts Plus",

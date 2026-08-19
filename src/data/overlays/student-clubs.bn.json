@@ -282,6 +282,7 @@
       "at": [
         "providence-day:honors.societies[0].feedsFrom",
         "charlotte-latin:honors.societies[0].feedsFrom",
+        "charlotte-catholic:honors.societies[0].feedsFrom",
         "charlotte-country-day:honors.societies[0].feedsFrom",
         "cannon:honors.societies[0].feedsFrom",
         "carmel-christian:honors.societies[0].feedsFrom",
@@ -327,6 +328,8 @@
         "charlotte-christian:honors.societies[1].feedsFrom",
         "charlotte-christian:honors.societies[2].feedsFrom",
         "charlotte-christian:honors.societies[3].feedsFrom",
+        "charlotte-catholic:honors.societies[4].feedsFrom",
+        "charlotte-catholic:honors.societies[5].feedsFrom",
         "charlotte-country-day:honors.societies[3].feedsFrom",
         "charlotte-country-day:honors.societies[4].feedsFrom",
         "charlotte-country-day:honors.societies[5].feedsFrom",
@@ -390,6 +393,7 @@
         "providence-day:clusters.verdictHint",
         "charlotte-latin:clusters.verdictHint",
         "charlotte-christian:clusters.verdictHint",
+        "charlotte-catholic:clusters.verdictHint",
         "charlotte-country-day:clusters.verdictHint",
         "cannon:clusters.verdictHint",
         "covenant-day:clusters.verdictHint",
@@ -455,7 +459,8 @@
         "providence-day:clusters.rows[3].evidenceLabel",
         "providence-day:clusters.rows[4].evidenceLabel",
         "charlotte-christian:clusters.rows[1].evidenceLabel",
-        "charlotte-christian:clusters.rows[2].evidenceLabel"
+        "charlotte-christian:clusters.rows[2].evidenceLabel",
+        "charlotte-catholic:clusters.rows[1].evidenceLabel"
       ]
     },
     {
@@ -470,6 +475,7 @@
       "of": "5b91930f",
       "at": [
         "providence-day:clusters.rows[2].name",
+        "charlotte-catholic:clusters.rows[2].name",
         "covenant-day:clusters.rows[1].name"
       ]
     },
@@ -619,6 +625,7 @@
       "of": "7136d3fa",
       "at": [
         "providence-day:catalog.categories[5].short",
+        "charlotte-catholic:catalog.divisions[0].label",
         "cannon:catalog.categories[5].short",
         "gaston-day:catalog.categories[1].short"
       ]
@@ -1225,6 +1232,8 @@
       "at": [
         "providence-day:catalog.divisions[1].tag",
         "charlotte-latin:catalog.divisions[1].tag",
+        "charlotte-catholic:clusters.rows[4].evidenceLabel",
+        "charlotte-catholic:catalog.divisions[0].tag",
         "cannon:catalog.divisions[1].tag",
         "gaston-day:catalog.divisions[2].tag"
       ]
@@ -1622,6 +1631,8 @@
       "at": [
         "charlotte-latin:catalog.categories[0].short",
         "charlotte-latin:catalog.categories[0].full",
+        "charlotte-catholic:catalog.categories[1].short",
+        "charlotte-catholic:catalog.categories[1].full",
         "charlotte-country-day:catalog.categories[2].short",
         "charlotte-country-day:catalog.categories[2].full",
         "cannon:catalog.categories[3].short",
@@ -2485,6 +2496,1252 @@
       ]
     },
     {
+      "t": "ছয়টি শ্রেণিতে 76টি ক্লাব, প্রায় প্রতিটিতেই নামধারী একজন উপদেষ্টা ও একটি কক্ষ আছে।",
+      "of": "3faabd45",
+      "at": [
+        "charlotte-catholic:affinity.headline"
+      ]
+    },
+    {
+      "t": "এই তালিকার সবচেয়ে স্বচ্ছ ডিরেক্টরিগুলোর একটি — বেশিরভাগ ক্লাবেরই লিখিত উদ্দেশ্য, একজন শিক্ষক-উপদেষ্টা ও ক্লাবটি আসলে কোথায় বসে, তা প্রকাশিত।",
+      "of": "f32f497b",
+      "at": [
+        "charlotte-catholic:affinity.subhead"
+      ]
+    },
+    {
+      "t": "ক্লাব ডিরেক্টরিটি student activities-এর নয়, Campus Ministry-র অধীনে, আর তাতেই এর ধরনটি গড়ে উঠেছে: বিশ্বাস-গঠন ও সেবামূলক ক্লাবগুলোই সবচেয়ে বড় অংশ, আর Campus Ministry Club নিজেই প্রতি মাসে গঠন, সহযোগ ও বিশ্বাসভিত্তিক আয়োজন করে, যেখানে altar server, sacristan ও peer ministry-র দায়িত্ব থাকে।",
+      "of": "8c02381e",
+      "at": [
+        "charlotte-catholic:affinity.umbrella.detail"
+      ]
+    },
+    {
+      "t": "কৃষ্ণাঙ্গ শিক্ষার্থীদের নিজেদের মধ্যে কথা বলার জন্য সচেতনভাবে একটি পরিসর তৈরি করে। উপদেষ্টা Dr. Sigwald, কক্ষ 225।",
+      "of": "84dc284d",
+      "at": [
+        "charlotte-catholic:affinity.groups[0].detail"
+      ]
+    },
+    {
+      "t": "যেসব শিক্ষার্থীর Asian-American ও Pacific Islander পটভূমি আছে বা এ নিয়ে আগ্রহ আছে, তাঁদের জন্য। উপদেষ্টা Mr. Pham, Library।",
+      "of": "6b6792fe",
+      "at": [
+        "charlotte-catholic:affinity.groups[1].detail"
+      ]
+    },
+    {
+      "t": "German ভাষা ও সংস্কৃতির প্রসার ঘটায়। উপদেষ্টা Mrs. Schmid-Rankin, কক্ষ 527।",
+      "of": "da0d4ea4",
+      "at": [
+        "charlotte-catholic:affinity.groups[2].detail"
+      ]
+    },
+    {
+      "t": "স্প্যানিশভাষী জনগোষ্ঠীর অভিজ্ঞতা তুলে ধরে। উপদেষ্টা Ms. Palomino, কক্ষ 204।",
+      "of": "7520fc64",
+      "at": [
+        "charlotte-catholic:affinity.groups[3].detail"
+      ]
+    },
+    {
+      "t": "সাংকেতিক ভাষা নিয়ে সচেতনতা ও বোঝাপড়া বাড়ায়। উপদেষ্টা Mrs. Bick, কক্ষ 318।",
+      "of": "9ad7a22c",
+      "at": [
+        "charlotte-catholic:affinity.groups[4].detail"
+      ]
+    },
+    {
+      "t": "যেসব শিক্ষার্থীর বাবা-মা CCHS থেকে পাশ করেছেন, তাঁদের একত্র করে। উপদেষ্টা Mrs. Clementi ও Mr. Morgan, কক্ষ 218।",
+      "of": "dd55f67f",
+      "at": [
+        "charlotte-catholic:affinity.groups[5].detail"
+      ]
+    },
+    {
+      "t": "স্কুল-পরিবারে মানসিক স্বাস্থ্য নিয়ে সচেতনতা বাড়ায়। উপদেষ্টা Mrs. Clementi, Counseling।",
+      "of": "0c365344",
+      "at": [
+        "charlotte-catholic:affinity.groups[6].detail"
+      ]
+    },
+    {
+      "t": "শিক্ষার্থী-ক্রীড়াবিদদের মধ্যে মানসিক ও শারীরিক চ্যালেঞ্জ নিয়ে কথা বলাকে স্বাভাবিক করে তোলে। উপদেষ্টা Mr. Christmas, Gym।",
+      "of": "d4150275",
+      "at": [
+        "charlotte-catholic:affinity.groups[7].detail"
+      ]
+    },
+    {
+      "t": "alopecia-য় আক্রান্ত শিক্ষার্থীদের পাশে দাঁড়ায়। উপদেষ্টা Mrs. Best, Campus Ministry।",
+      "of": "7b785ec4",
+      "at": [
+        "charlotte-catholic:affinity.groups[8].detail"
+      ]
+    },
+    {
+      "t": "খাদ্য-অ্যালার্জি নিয়ে সচেতনতা, সঙ্গে খাদ্য সংগ্রহের সেবা। উপদেষ্টা Ms. Davaz, কক্ষ 205।",
+      "of": "635ff4ed",
+      "at": [
+        "charlotte-catholic:affinity.groups[9].detail"
+      ]
+    },
+    {
+      "t": "ছয়টি শ্রেণি",
+      "of": "351bc900",
+      "at": [
+        "charlotte-catholic:affinity.strips[0].title"
+      ]
+    },
+    {
+      "t": "স্কুল যেভাবে সাজিয়েছে",
+      "of": "b759a30c",
+      "at": [
+        "charlotte-catholic:affinity.strips[0].hint"
+      ]
+    },
+    {
+      "t": "Education 16 · Service 23 · Community 9 · Culture 4 · Sports 15 · General Interest 9। সেবাই সবচেয়ে বড় একক অংশ, যা এমন একটি স্কুলের ক্ষেত্রে স্বাভাবিক যেখানে সেবা স্নাতক হওয়ার শর্ত।",
+      "of": "444bdd62",
+      "at": [
+        "charlotte-catholic:affinity.strips[0].text"
+      ]
+    },
+    {
+      "t": "সংস্কৃতি সবচেয়ে ছোট শ্রেণি",
+      "of": "caaf9c5b",
+      "at": [
+        "charlotte-catholic:affinity.strips[1].title"
+      ]
+    },
+    {
+      "t": "76টির মধ্যে 4টি",
+      "of": "1a924fad",
+      "at": [
+        "charlotte-catholic:affinity.strips[1].hint"
+      ]
+    },
+    {
+      "t": "Achievers, Asian American Pacific Islander, German ও Spanish ক্লাব। বৈচিত্র্যময় একটি মহানগরে ~1,171 জন শিক্ষার্থীর স্কুলে 23টি সেবামূলক ক্লাবের তুলনায় পরিচয় ও সংস্কৃতিভিত্তিক চারটি দল কম — স্কুল পরিদর্শনে গিয়ে জিজ্ঞেস করার মতো বিষয়।",
+      "of": "327f5890",
+      "at": [
+        "charlotte-catholic:affinity.strips[1].text"
+      ]
+    },
+    {
+      "t": "ক্রীড়া ক্লাবগুলো সত্যিকারের একটি দ্বিতীয় স্তর",
+      "of": "f5f5ce26",
+      "at": [
+        "charlotte-catholic:affinity.strips[2].title"
+      ]
+    },
+    {
+      "t": "15টি ক্লাব",
+      "of": "c63d6d3e",
+      "at": [
+        "charlotte-catholic:affinity.strips[2].hint"
+      ]
+    },
+    {
+      "t": "ক্লাইম্বিং, ফিগার স্কেটিং, মেয়েদের রাগবি, ছেলেদের রাগবি, গলফ, ল্যাক্রোস, পিকলবল, পিং পং, সেইলিং, স্কেটবোর্ডিং, সকার, ওয়েকবোর্ডিংসহ আরও অনেক কিছু — এর মধ্যে কয়েকটি ক্যাম্পাসের বাইরে Inner Peaks, Davie Park, Renaissance Skate Park ও Carolina Sports Complex-এ বসে। 6A varsity দলে সুযোগ না পাওয়া কোনো শিক্ষার্থীরও খেলার জায়গা থাকে।",
+      "of": "d1c06c76",
+      "at": [
+        "charlotte-catholic:affinity.strips[2].text"
+      ]
+    },
+    {
+      "t": "উপদেষ্টাদের নাম আছে, কক্ষও প্রকাশিত",
+      "of": "40c1f315",
+      "at": [
+        "charlotte-catholic:affinity.strips[3].title"
+      ]
+    },
+    {
+      "t": "76টি ক্লাবের প্রায় প্রতিটিতেই একজন শিক্ষক-উপদেষ্টা ও একটি বৈঠক-কক্ষ দেওয়া আছে — প্রকাশিত পরিচালনাগত তথ্যের এই মাত্রা অস্বাভাবিক, আর কোনো পরিবারের পক্ষে কে আসলে দলটি চালান তা জিজ্ঞেস করার একটি কাজের উপায়।",
+      "of": "8c35c132",
+      "at": [
+        "charlotte-catholic:affinity.strips[3].text"
+      ]
+    },
+    {
+      "t": "স্কুল প্রোফাইল বলে, CCHS \"encourages all students to participate in school-sponsored clubs\"। ডিরেক্টরিতে উপদেষ্টা ও কক্ষ থাকলেও আবেদনের কোনো প্রক্রিয়া, সদস্যসংখ্যার সীমা বা বৈঠকের সূচি নেই, তাই কোনো ক্লাবে আদৌ বাছাই হয় কি না, হলে কতটা — তা জানানো হয় না।",
+      "of": "c6490b93",
+      "at": [
+        "charlotte-catholic:affinity.leadership"
+      ]
+    },
+    {
+      "t": "স্কুল প্রোফাইল বলে \"over 50 club opportunities\"; ক্লাব ডিরেক্টরিতে গোনা যায় 76টি। দুটোই স্কুলের নিজের সংখ্যা। ডিরেক্টরিরটিই গোনা যায়, আর এই অ্যাপ সেটিই দেখায়।",
+      "of": "14af0d9b",
+      "at": [
+        "charlotte-catholic:affinity.flags[0].text"
+      ]
+    },
+    {
+      "t": "কোনো ক্লাবেরই সদস্যসংখ্যা প্রকাশিত নয়, তাই ডিরেক্টরি দেখে আকার বা বাছাইয়ের কড়াকড়ি বিচার করা যায় না।",
+      "of": "f81a29c9",
+      "at": [
+        "charlotte-catholic:affinity.flags[1].text"
+      ]
+    },
+    {
+      "t": "এখানে সেবাকে উৎসাহ দেওয়া হয় না — স্নাতক হতে হলে তা করতেই হয়।",
+      "of": "dc928c46",
+      "at": [
+        "charlotte-catholic:service.headline"
+      ]
+    },
+    {
+      "t": "চার বছরে অনুমোদিত 70 ঘণ্টা, তার মধ্যে প্রতি বছর অন্তত 5 ঘণ্টা প্যারিশ সেবা, Canvas-এ নথিভুক্ত এবং 1 মার্চের মধ্যে জমা দিতে হয়।",
+      "of": "e80ab2ab",
+      "at": [
+        "charlotte-catholic:service.subhead"
+      ]
+    },
+    {
+      "t": "স্নাতক হতে যত ঘণ্টা",
+      "of": "abdd987e",
+      "at": [
+        "charlotte-catholic:service.programs[0].valueLabel"
+      ]
+    },
+    {
+      "t": "Freshman-রা 10 ঘণ্টা জমা দেয়; sophomore, junior ও senior-রা প্রতি বছর 20 ঘণ্টা করে। কোনো শিক্ষার্থী চার বছরের কম পড়লে মোট ঘণ্টা সেই অনুযায়ী কমানো হয়। CCHS থেকে স্নাতক হওয়ার ঘোষিত শর্তগুলোর একটি এই সেবার ঘণ্টা।",
+      "of": "2e726edb",
+      "at": [
+        "charlotte-catholic:service.programs[0].detail"
+      ]
+    },
+    {
+      "t": "বছরে প্যারিশ সেবার ঘণ্টা",
+      "of": "be05b4a5",
+      "at": [
+        "charlotte-catholic:service.programs[1].valueLabel"
+      ]
+    },
+    {
+      "t": "প্রতি বছরের ঘণ্টার অন্তত পাঁচটি হতে হবে বিশেষভাবে প্যারিশ সেবা — ডায়োসিসের এই শর্ত কেবল কতটা সেবা নয়, শিক্ষার্থীরা কোথায় সেবা দেবে তাও ঠিক করে দেয়।",
+      "of": "c01fb044",
+      "at": [
+        "charlotte-catholic:service.programs[1].detail"
+      ]
+    },
+    {
+      "t": "অংশগ্রহণ",
+      "of": "e32177c6",
+      "at": [
+        "charlotte-catholic:service.programs[2].valueLabel"
+      ]
+    },
+    {
+      "t": "স্কুল প্রোফাইল জানায়, সমাজসেবায় অংশগ্রহণ 100%। যেহেতু সেবা ঐচ্ছিক কোনো কর্মসূচি নয়, স্নাতক হওয়ার শর্ত, তাই সংখ্যাটি কাঠামোগতভাবেই সত্য — এটি উৎসাহের কোনো মাপকাঠি নয়।",
+      "of": "0999378c",
+      "at": [
+        "charlotte-catholic:service.programs[2].detail"
+      ]
+    },
+    {
+      "t": "সেবামূলক ক্লাব",
+      "of": "ba3a4969",
+      "at": [
+        "charlotte-catholic:service.programs[3].valueLabel"
+      ]
+    },
+    {
+      "t": "ছয়টি ক্লাব-শ্রেণির মধ্যে সবচেয়ে বড়: এর মধ্যে আছে Best Buddies, Habitat for Humanity, Red Cross, Ronald McDonald House, Caritas, Mel’s Diner, Muffin Ministry, Beds for Kids, Helping Moms in Need, Golden Hearts, Live Like Bryant, Wayfinders Ambassadors ও U.S. Service Academy Club। কয়েকটি ক্যাম্পাসের বাইরে বসে — Habitat ReStore-এ, St. Matthew’s Parish Center-এ।",
+      "of": "e5f995ed",
+      "at": [
+        "charlotte-catholic:service.programs[3].detail"
+      ]
+    },
+    {
+      "t": "বার্ষিক সময়সীমা",
+      "of": "3b443b9e",
+      "at": [
+        "charlotte-catholic:service.programs[4].valueLabel"
+      ]
+    },
+    {
+      "t": "ঘণ্টার হিসাব নথিভুক্ত ও অনুমোদিত হতে হলে প্রতি বছর 1 মার্চের মধ্যে জমা দিতে হয়, Canvas-এ নথিভুক্ত করতে হয় এবং ছবি দেওয়া যায়। উপযুক্ত সুযোগ খুঁজে পেতে Campus Ministry শিক্ষার্থীদের সাহায্য করে।",
+      "of": "1c4c609a",
+      "at": [
+        "charlotte-catholic:service.programs[4].detail"
+      ]
+    },
+    {
+      "t": "একটি পরিবারের জন্য এর অর্থ কী",
+      "of": "016567cd",
+      "at": [
+        "charlotte-catholic:service.footnoteTitle"
+      ]
+    },
+    {
+      "t": "যেহেতু প্রত্যেক স্নাতকই 70 ঘণ্টা পূর্ণ করেন, সেবার ঘণ্টা দিয়ে CCHS-এর এক আবেদনকারীকে আরেকজনের থেকে আলাদা করা যায় না — কলেজের পাঠক আসলে যা আলাদা করে বুঝতে পারেন তা হলো প্যারিশের শর্ত ও ওই ঘণ্টার পেছনের নেতৃত্বের দায়িত্বগুলো। পরিবারের ব্যবহারিক চাপটিও দেখা উচিত: সাতটি ক্লাসের রুটিনের উপরে sophomore বছর থেকে প্রতি বছর 20 ঘণ্টা, সঙ্গে 1 মার্চের কড়া সময়সীমা।",
+      "of": "11557f66",
+      "at": [
+        "charlotte-catholic:service.footnote"
+      ]
+    },
+    {
+      "t": "দশটি honor society, আর একাডেমিকগুলোর জন্য প্রকাশিত GPA-র সীমা।",
+      "of": "53653485",
+      "at": [
+        "charlotte-catholic:honors.headline"
+      ]
+    },
+    {
+      "t": "দশটির মধ্যে চারটি বিশ্বভাষার সোসাইটি, যা এমন একটি পাঠক্রমের ক্ষেত্রে স্বাভাবিক যেখানে একই ভাষার দুটি ইউনিট বাধ্যতামূলক এবং চারটি ভাষা AP পর্যন্ত পড়ানো হয়।",
+      "of": "9ef22276",
+      "at": [
+        "charlotte-catholic:honors.subhead"
+      ]
+    },
+    {
+      "t": "বিদ্যা, নেতৃত্ব, সেবা ও চরিত্র — জানানো GPA-র সীমা 3.9",
+      "of": "b5c4f711",
+      "at": [
+        "charlotte-catholic:honors.societies[0].recognizes"
+      ]
+    },
+    {
+      "t": "গণিত — গণিতে জানানো GPA-র সীমা 4.5, এখানকার যেকোনো সোসাইটির চেয়ে উঁচু",
+      "of": "85519470",
+      "at": [
+        "charlotte-catholic:honors.societies[1].recognizes"
+      ]
+    },
+    {
+      "t": "গণিত",
+      "of": "cadbef3d",
+      "at": [
+        "charlotte-catholic:honors.societies[1].feedsFrom"
+      ]
+    },
+    {
+      "t": "বিজ্ঞান — জানানো হিসাবে বিজ্ঞানে 4.25 GPA, সঙ্গে সব মিলিয়ে 4.0",
+      "of": "4d33b929",
+      "at": [
+        "charlotte-catholic:honors.societies[2].recognizes"
+      ]
+    },
+    {
+      "t": "বিজ্ঞান",
+      "of": "35e9a35d",
+      "at": [
+        "charlotte-catholic:honors.societies[2].feedsFrom"
+      ]
+    },
+    {
+      "t": "সমাজবিজ্ঞান — জানানো GPA-র সীমা 3.75",
+      "of": "0315f742",
+      "at": [
+        "charlotte-catholic:honors.societies[3].recognizes"
+      ]
+    },
+    {
+      "t": "সমাজবিজ্ঞান",
+      "of": "7c3f4e73",
+      "at": [
+        "charlotte-catholic:honors.societies[3].feedsFrom"
+      ]
+    },
+    {
+      "t": "থিয়েটার — জানানো হিসাবে 3.0 GPA, সঙ্গে জমা হওয়া 60 thespian point",
+      "of": "8b9fe661",
+      "at": [
+        "charlotte-catholic:honors.societies[4].recognizes"
+      ]
+    },
+    {
+      "t": "দৃশ্যকলা",
+      "of": "6a45b160",
+      "at": [
+        "charlotte-catholic:honors.societies[5].recognizes"
+      ]
+    },
+    {
+      "t": "Spanish ভাষার পড়াশোনা",
+      "of": "25e7b07e",
+      "at": [
+        "charlotte-catholic:honors.societies[6].recognizes"
+      ]
+    },
+    {
+      "t": "বিশ্বভাষা",
+      "of": "c99b3a44",
+      "at": [
+        "charlotte-catholic:honors.societies[6].feedsFrom",
+        "charlotte-catholic:honors.societies[7].feedsFrom",
+        "charlotte-catholic:honors.societies[8].feedsFrom",
+        "charlotte-catholic:honors.societies[9].feedsFrom"
+      ]
+    },
+    {
+      "t": "French ভাষার পড়াশোনা",
+      "of": "6993ca4c",
+      "at": [
+        "charlotte-catholic:honors.societies[7].recognizes"
+      ]
+    },
+    {
+      "t": "German ভাষার পড়াশোনা",
+      "of": "cb2e66f6",
+      "at": [
+        "charlotte-catholic:honors.societies[8].recognizes"
+      ]
+    },
+    {
+      "t": "Latin ভাষার পড়াশোনা",
+      "of": "3ca03188",
+      "at": [
+        "charlotte-catholic:honors.societies[9].recognizes"
+      ]
+    },
+    {
+      "t": "National Merit",
+      "of": "c119ff02",
+      "at": [
+        "charlotte-catholic:honors.adjacent[0].label"
+      ]
+    },
+    {
+      "t": "2025 সালে 2 জন Finalist ও 11 জন Commended Student।",
+      "of": "e2727c79",
+      "at": [
+        "charlotte-catholic:honors.adjacent[0].text"
+      ]
+    },
+    {
+      "t": "সামরিক একাডেমি",
+      "of": "62b87e0e",
+      "at": [
+        "charlotte-catholic:honors.adjacent[1].label"
+      ]
+    },
+    {
+      "t": "2025 সালে US Naval Academy-তে তিনটি নিয়োগ, সঙ্গে Cornell-এ একটি Army ROTC বৃত্তি।",
+      "of": "24c3ac47",
+      "at": [
+        "charlotte-catholic:honors.adjacent[1].text"
+      ]
+    },
+    {
+      "t": "decile-ভিত্তিক তালিকা",
+      "of": "d83232ac",
+      "at": [
+        "charlotte-catholic:honors.adjacent[2].label"
+      ]
+    },
+    {
+      "t": "CCHS শিক্ষার্থীদের র‍্যাঙ্ক করে না, তাই এখানে valedictorian বা ক্লাস-র‍্যাঙ্কের কোনো স্বীকৃতি নেই — তার বদলে আছে 10 decile-এর একটি GPA তালিকা।",
+      "of": "072356a4",
+      "at": [
+        "charlotte-catholic:honors.adjacent[2].text"
+      ]
+    },
+    {
+      "t": "St. Augustine Scholars Program",
+      "of": "f7a37904",
+      "at": [
+        "charlotte-catholic:honors.adjacent[3].label"
+      ]
+    },
+    {
+      "t": "2025-26 সালে নবম শ্রেণির একটি দল দিয়ে শুরু হওয়া চার বছরের একটি বাছাই-ভিত্তিক ক্লাসিক্যাল ধারা — এটি সোসাইটি নয়, একটি কর্মসূচি, তবে স্কুলের সবচেয়ে বাছাই-ভিত্তিক একাডেমিক স্বীকৃতি।",
+      "of": "667b98b6",
+      "at": [
+        "charlotte-catholic:honors.adjacent[3].text"
+      ]
+    },
+    {
+      "t": "Blumey ফাইনালিস্ট",
+      "of": "cda7a41e",
+      "at": [
+        "charlotte-catholic:honors.adjacent[4].label"
+      ]
+    },
+    {
+      "t": "2025 সালে পাঁচজন ফাইনালিস্ট ও 2026 সালে আরও পাঁচটি অবস্থান — সাম্প্রতিক সময়ে বাইরের প্রতিযোগিতায় স্কুলের সবচেয়ে শক্ত স্বীকৃতি।",
+      "of": "2cfc5faa",
+      "at": [
+        "charlotte-catholic:honors.adjacent[4].text"
+      ]
+    },
+    {
+      "t": "দশটির মধ্যে পাঁচটি সোসাইটির অন্তর্ভুক্তির শর্ত প্রকাশিত। বিশ্বভাষার চারটি সোসাইটি ও National Art Honor Society-র নাম স্কুল প্রোফাইলে আছে, তবে কোনো GPA বা পয়েন্টের সীমা উল্লেখ নেই, আর কোনো সোসাইটিই তার সদস্যসংখ্যা প্রকাশ করে না।",
+      "of": "a618225f",
+      "at": [
+        "charlotte-catholic:honors.flags[0].text"
+      ]
+    },
+    {
+      "t": "CCHS-এ একটি স্কুল পত্রিকা, একটি সাহিত্য ম্যাগাজিন, একটি ইয়ারবুক ও একটি পডকাস্ট আছে — তবে সেগুলো চলে ENGLISH কোর্স হিসেবে (Journalism 234 ও Yearbook 235), ক্লাব হিসেবে নয়, আর সেজন্যই 76টি ক্লাবের ডিরেক্টরিতে এগুলোর কোনোটি নেই। দুটোই 10–12 গ্রেডের জন্য বছরব্যাপী ঐচ্ছিক বিষয়, যাতে English-এ B গড় ও একজন শিক্ষকের সুপারিশ লাগে; Yearbook-এ বাড়তি লাগে একটি আবেদন ও একটি সাক্ষাৎকার।",
+      "of": "232fea48",
+      "at": [
+        "charlotte-catholic:honors.flags[1].text"
+      ]
+    },
+    {
+      "t": "দশটি honor society, আর প্রতিযোগিতার এমন একটি তালিকা যার ফল বেশিরভাগ সময়েই প্রকাশিত হয় না।",
+      "of": "dd240094",
+      "at": [
+        "charlotte-catholic:clusters.verdict"
+      ]
+    },
+    {
+      "t": "Speech and Debate",
+      "of": "b46f47a7",
+      "at": [
+        "charlotte-catholic:clusters.rows[0].name"
+      ]
+    },
+    {
+      "t": "একমাত্র যে ক্লাবের প্রতিযোগিতার নথিভুক্ত রেকর্ড আছে — তবে তা 2017 সালের",
+      "of": "c8ac64bd",
+      "at": [
+        "charlotte-catholic:clusters.rows[0].oneLiner"
+      ]
+    },
+    {
+      "t": "স্কুলের খবর — পুরোনো",
+      "of": "fa1cace9",
+      "at": [
+        "charlotte-catholic:clusters.rows[0].evidenceLabel"
+      ]
+    },
+    {
+      "t": "ডায়োসিসের প্রতিবেদনে North Carolina-য় রাজ্য রানার-আপ হওয়া এবং Program Oral Interpretation-এ রাজ্য চ্যাম্পিয়ন (Darlene Singui-Tanyi) হওয়ার কথা আছে। ওই প্রতিবেদনটি 2017 সালের, এখানকার অন্য কোনো স্কুলের জন্য দেওয়া যেকোনো প্রতিযোগিতার ফলের চেয়ে পুরোনো, তাই বর্তমান কোনো অবস্থানের দাবি করা যায় না। ক্লাবটি বসে CCHS Media Center-এ, Mrs. Jennifer Taylor-এর তত্ত্বাবধানে।",
+      "of": "9e78c329",
+      "at": [
+        "charlotte-catholic:clusters.rows[0].note"
+      ]
+    },
+    {
+      "t": "অনার সোসাইটি →",
+      "of": "48a8bb43",
+      "at": [
+        "charlotte-catholic:clusters.rows[1].name",
+        "carmel-christian:clusters.rows[0].name",
+        "hickory-grove-christian:clusters.rows[0].name",
+        "gaston-day:clusters.rows[4].name"
+      ]
+    },
+    {
+      "t": "NHS, Mu Alpha Theta, Science NHS, Rho Kappa, International Thespian, National Art, সঙ্গে Spanish, French, German ও Latin",
+      "of": "1f251e47",
+      "at": [
+        "charlotte-catholic:clusters.rows[1].oneLiner"
+      ]
+    },
+    {
+      "t": "স্কুল প্রোফাইলে নামধারী দশটি সোসাইটি। প্রকাশিত GPA-র শর্ত আছে পাঁচটির: NHS 3.9, গণিতে Mu Alpha Theta 4.5, Science NHS-এ বিজ্ঞানে 4.25 ও সব মিলিয়ে 4.0, Rho Kappa 3.75, এবং International Thespian 3.0 সঙ্গে 60 পয়েন্ট। বিশ্বভাষার চারটি সোসাইটি ও National Art Honor Society কোনো সীমা প্রকাশ করে না, আর কোনোটিই সদস্যসংখ্যা প্রকাশ করে না।",
+      "of": "bba100e1",
+      "at": [
+        "charlotte-catholic:clusters.rows[1].note"
+      ]
+    },
+    {
+      "t": "Robotics, Medical Pathways, Finance",
+      "of": "1138fd04",
+      "at": [
+        "charlotte-catholic:clusters.rows[2].oneLiner"
+      ]
+    },
+    {
+      "t": "কেবল নামভুক্ত",
+      "of": "a0706e54",
+      "at": [
+        "charlotte-catholic:clusters.rows[2].evidenceLabel",
+        "charlotte-catholic:clusters.rows[3].evidenceLabel",
+        "charlotte-country-day:clusters.rows[1].evidenceLabel",
+        "gaston-day:clusters.rows[4].evidenceLabel"
+      ]
+    },
+    {
+      "t": "Room 517-এ Mr. Tucker-এর তত্ত্বাবধানে Robotics-এর উদ্দেশ্য \"promote STEAM in Charlotte Catholic and allow members to get hands-on experience\", তবে এর জন্য কোনো প্রতিযোগিতার ধারা, দলের নম্বর বা ফল প্রকাশিত নয়। Medical Pathways ও Finance প্রতিযোগিতামূলক দল নয়, অতিথি বক্তাদের নিয়ে পেশা-অনুসন্ধানের ক্লাব।",
+      "of": "7c7164cd",
+      "at": [
+        "charlotte-catholic:clusters.rows[2].note"
+      ]
+    },
+    {
+      "t": "নাগরিক ও একাডেমিক ক্লাব →",
+      "of": "171c7b60",
+      "at": [
+        "charlotte-catholic:clusters.rows[3].name"
+      ]
+    },
+    {
+      "t": "Model United Nations, Beacon of Truth, Apologetics, Young Authors, Good Reads",
+      "of": "ff0d58ed",
+      "at": [
+        "charlotte-catholic:clusters.rows[3].oneLiner"
+      ]
+    },
+    {
+      "t": "প্রচলিত অর্থে প্রতিযোগিতামূলক একমাত্র নাম Model UN, আর CCHS তার জন্য কোনো সম্মেলনে অংশগ্রহণ বা পুরস্কার প্রকাশ করে না। বাকিগুলো আলোচনা ও গঠনের ক্লাব — এর কয়েকটি স্পষ্টভাবেই ক্যাথলিক দৃষ্টিকোণ থেকে সাজানো, যা এই স্কুলের একাডেমিক ক্লাবগুলোর বৈশিষ্ট্য।",
+      "of": "ff8523ec",
+      "at": [
+        "charlotte-catholic:clusters.rows[3].note"
+      ]
+    },
+    {
+      "t": "প্রকাশনার ঘাটতি",
+      "of": "3e0e7a9f",
+      "at": [
+        "charlotte-catholic:clusters.rows[4].name"
+      ]
+    },
+    {
+      "t": "পত্রিকা, সাহিত্য ম্যাগাজিন, ইয়ারবুক ও পডকাস্ট চলে কোর্স হিসেবে, ক্লাব হিসেবে নয়",
+      "of": "bbb1ed3c",
+      "at": [
+        "charlotte-catholic:clusters.rows[4].oneLiner"
+      ]
+    },
+    {
+      "t": "Journalism (234)-এর শিক্ষার্থীরা স্কুল পত্রিকাটি ডিজিটাল আকারে তৈরি ও প্রকাশ করে এবং স্কুলের সাহিত্য ম্যাগাজিনটি গড়ে তোলে, সঙ্গে একটি পডকাস্ট তৈরির সুযোগও থাকে; Yearbook (235) তৈরি করে ইয়ারবুক। দুটোই বছরব্যাপী English ঐচ্ছিক বিষয়, যাতে B গড় ও একজন শিক্ষকের সুপারিশ লাগে, ফলে এই কাজগুলো পাঠ্যক্রমের বাইরের নয়, রুটিনের ভেতরেই পড়ে এবং কোনো ক্লাব তালিকায় থাকে না।",
+      "of": "2c514981",
+      "at": [
+        "charlotte-catholic:clusters.rows[4].note"
+      ]
+    },
+    {
+      "t": "ছয়টি শ্রেণিতে 76টি ক্লাব, প্রায় প্রতিটিতেই একজন শিক্ষক-উপদেষ্টা, একটি বৈঠক-কক্ষ ও লিখিত উদ্দেশ্য প্রকাশিত।",
+      "of": "a60750e0",
+      "at": [
+        "charlotte-catholic:catalog.verdict"
+      ]
+    },
+    {
+      "t": "23টি ক্লাব নিয়ে সেবাই সবচেয়ে বড় অংশ — যে স্কুলে স্নাতক হতে 70 ঘণ্টা সেবা লাগে, সেখানে এটি অবাক করার মতো নয়।",
+      "of": "3bbcdb3b",
+      "at": [
+        "charlotte-catholic:catalog.verdictHint"
+      ]
+    },
+    {
+      "t": "শিক্ষা",
+      "of": "1697d235",
+      "at": [
+        "charlotte-catholic:catalog.categories[0].short",
+        "charlotte-catholic:catalog.categories[0].full"
+      ]
+    },
+    {
+      "t": "সমাজ",
+      "of": "d559270e",
+      "at": [
+        "charlotte-catholic:catalog.categories[2].short",
+        "charlotte-catholic:catalog.categories[2].full"
+      ]
+    },
+    {
+      "t": "সংস্কৃতি",
+      "of": "9f5a3b71",
+      "at": [
+        "charlotte-catholic:catalog.categories[3].short",
+        "charlotte-catholic:catalog.categories[3].full"
+      ]
+    },
+    {
+      "t": "খেলাধুলা",
+      "of": "92ee90da",
+      "at": [
+        "charlotte-catholic:catalog.categories[4].short",
+        "charlotte-catholic:catalog.categories[4].full"
+      ]
+    },
+    {
+      "t": "সাধারণ আগ্রহ",
+      "of": "b48381c7",
+      "at": [
+        "charlotte-catholic:catalog.categories[5].short",
+        "charlotte-catholic:catalog.categories[5].full"
+      ]
+    },
+    {
+      "t": "alopecia-য় আক্রান্ত শিক্ষার্থীদের পাশে দাঁড়ায় ও গোটা স্কুলে সচেতনতা বাড়ায় — উপদেষ্টা Mrs. Best",
+      "of": "452dc7ab",
+      "at": [
+        "charlotte-catholic:catalog.clubs[0].note"
+      ]
+    },
+    {
+      "t": "ক্যাথলিক ধর্মের কঠিন প্রসঙ্গগুলো সামনে আনে, যাতে CCHS-এর শিক্ষার্থীরা ক্যাথলিক বিশ্বাস কী শেখায় সে সম্পর্কে আরও ভালো ধারণা পায় — উপদেষ্টা Mr. Sifuentes, 304",
+      "of": "35119c8a",
+      "at": [
+        "charlotte-catholic:catalog.clubs[1].note"
+      ]
+    },
+    {
+      "t": "আমাদের ক্যাথলিক বিশ্বাসের দৃষ্টিকোণ থেকে চলতি ঘটনা ও পশ্চিমের বদলে যাওয়া পরিবেশ সম্পর্কে Beacon-এর সদস্যদের জানায় — উপদেষ্টা Mr. Kennelly, 309",
+      "of": "946423a4",
+      "at": [
+        "charlotte-catholic:catalog.clubs[2].note"
+      ]
+    },
+    {
+      "t": "ব্যক্তিগত অর্থব্যবস্থা, শেয়ারবাজার ও অর্থ খাতের পেশা সম্পর্কে আরও জানা — উপদেষ্টা Mrs. Moricone, 212",
+      "of": "42ede412",
+      "at": [
+        "charlotte-catholic:catalog.clubs[3].note"
+      ]
+    },
+    {
+      "t": "খাদ্য-অ্যালার্জি নিয়ে সচেতনতা, সঙ্গে খাদ্য সংগ্রহসহ সেবামূলক কাজ — উপদেষ্টা Ms. Davaz, 205",
+      "of": "3d839b17",
+      "at": [
+        "charlotte-catholic:catalog.clubs[4].note"
+      ]
+    },
+    {
+      "t": "বিশ্বের ঘটনাবলি নিয়ে আলোচনা করতে বসে এবং বিশ্বাস ও দাতব্যের ভিত্তিতে তহবিল সংগ্রহ ও সেবার মাধ্যমে বিভিন্ন সংগঠনকে সহায়তা দিয়ে সচেতনতা বাড়ায় — উপদেষ্টা Ms. Cabana, 512",
+      "of": "40074f33",
+      "at": [
+        "charlotte-catholic:catalog.clubs[5].note"
+      ]
+    },
+    {
+      "t": "পড়ার প্রতি ভালোবাসা গড়ে তোলে; প্রতি বছর শিশুদের বই সংগ্রহের আয়োজন করে — উপদেষ্টা Ms. Davaz, 205",
+      "of": "dfb2be1a",
+      "at": [
+        "charlotte-catholic:catalog.clubs[6].note"
+      ]
+    },
+    {
+      "t": "এই ক্লাবটি সেসব শিক্ষার্থীর জন্য, যাঁরা স্বাস্থ্যসেবা ও চিকিৎসাবিজ্ঞানে পেশা গড়তে আগ্রহী — উপদেষ্টা Mrs. Cusack, 310",
+      "of": "5e775894",
+      "at": [
+        "charlotte-catholic:catalog.clubs[7].note"
+      ]
+    },
+    {
+      "t": "সংগীত তৈরির পুরো সৃজনশীল প্রক্রিয়ায় শিক্ষার্থীদের হাতে-কলমে অভিজ্ঞতা দেয় — উপদেষ্টা Mr. Queen, FAC Practice Rooms",
+      "of": "79b6c502",
+      "at": [
+        "charlotte-catholic:catalog.clubs[8].note"
+      ]
+    },
+    {
+      "t": "শিক্ষার্থীদের বন্য পরিবেশে নিরাপত্তা সম্পর্কে শেখায় এবং আরও বেশি শিক্ষার্থীকে বাইরে বের করে আনে — উপদেষ্টা Mr. Kennelly, 309",
+      "of": "1e8f44ee",
+      "at": [
+        "charlotte-catholic:catalog.clubs[9].note"
+      ]
+    },
+    {
+      "t": "Charlotte Catholic-এ STEAM-এর প্রসার ঘটায় এবং ভবিষ্যতের জন্য প্রকৌশলের সবচেয়ে গুরুত্বপূর্ণ ক্ষেত্রগুলোর একটিতে সদস্যদের হাতে-কলমে অভিজ্ঞতা নেওয়ার সুযোগ দেয় — উপদেষ্টা Mr. Tucker, 517",
+      "of": "19ceb578",
+      "at": [
+        "charlotte-catholic:catalog.clubs[10].note"
+      ]
+    },
+    {
+      "t": "Speech and Debate দলটি টুর্নামেন্টে অংশ নিয়ে ও চমৎকার একটি পরিবেশ গড়ে তুলে সবাইকে বলা ও তর্কের দক্ষতা বাড়াতে সাহায্য করে — উপদেষ্টা Mrs. Jennifer Taylor, CCHS Media Center",
+      "of": "33ae7dd9",
+      "at": [
+        "charlotte-catholic:catalog.clubs[11].note"
+      ]
+    },
+    {
+      "t": "Go Jen Go সংগঠনের সঙ্গে মিলে স্তন ক্যানসার নিয়ে সচেতনতা ছড়ায় — উপদেষ্টা Mrs. Nobary, College Room",
+      "of": "0d443209",
+      "at": [
+        "charlotte-catholic:catalog.clubs[12].note"
+      ]
+    },
+    {
+      "t": "আমাদের ক্লাবের লক্ষ্য সাংকেতিক ভাষা নিয়ে সচেতনতা ও বোঝাপড়া বাড়ানো — উপদেষ্টা Mrs. Bick, 318",
+      "of": "c1c659cb",
+      "at": [
+        "charlotte-catholic:catalog.clubs[13].note"
+      ]
+    },
+    {
+      "t": "Voices for Life-এর কাজ হলো জীবনের শুরু ও শেষ সংক্রান্ত বিষয়ে শিক্ষার্থীদের জানানো এবং প্রার্থনা ও সেবার মাধ্যমে যাদের কণ্ঠ নেই তাদের পক্ষে দাঁড়ানো… — উপদেষ্টা Mr. Quintero, 202",
+      "of": "9a3bb894",
+      "at": [
+        "charlotte-catholic:catalog.clubs[14].note"
+      ]
+    },
+    {
+      "t": "সৃজনশীল লেখার দক্ষতা বাড়াতে, লেখার কাজ ভাগ করে নিতে এবং লেখার প্রতি ভালোবাসা গড়ে তুলতে কাজ করে — উপদেষ্টা Mr. Gbenyon, 307",
+      "of": "2af84b66",
+      "at": [
+        "charlotte-catholic:catalog.clubs[15].note"
+      ]
+    },
+    {
+      "t": "হৃদরোগ নিয়ে সচেতনতা ছড়াতে চায় এবং হৃদরোগ নিয়ে কাজ করা সংগঠনগুলোর সঙ্গে, বিশেষত যারা সুবিধাবঞ্চিত ও সংখ্যালঘুদের সেবা দেয় তাদের সঙ্গে সেবামূলক কাজ করতে চায় — উপদেষ্টা Mr. Kuhn, 219",
+      "of": "095fcdcd",
+      "at": [
+        "charlotte-catholic:catalog.clubs[16].note"
+      ]
+    },
+    {
+      "t": "স্কুলের ক্লাব ডিরেক্টরিতে তালিকাভুক্ত — উপদেষ্টা Mrs. Montague, 310",
+      "of": "dbfabdb4",
+      "at": [
+        "charlotte-catholic:catalog.clubs[17].note"
+      ]
+    },
+    {
+      "t": "এমন একটি বিশ্বব্যাপী স্বেচ্ছাসেবী আন্দোলন গড়ে তুলতে নিবেদিত, যা এক-এক বন্ধুত্বের সুযোগ তৈরি করে — উপদেষ্টা Ms. Reynolds, 229",
+      "of": "e8edcc87",
+      "at": [
+        "charlotte-catholic:catalog.clubs[18].note"
+      ]
+    },
+    {
+      "t": "আমাদের ক্লাবের নামটিই ল্যাটিন শব্দ, যার অর্থ \"সবার প্রতি ভালোবাসা\" বা দাতব্য, অর্থাৎ মানবজাতির প্রতি খ্রিষ্টীয় ভালোবাসা, তাই আমরা সেই হাত ও… হয়ে ওঠার প্রতিটি সুযোগ গ্রহণ করি — উপদেষ্টা Dr. Leahy, 219",
+      "of": "02f5b826",
+      "at": [
+        "charlotte-catholic:catalog.clubs[19].note"
+      ]
+    },
+    {
+      "t": "CLT Foundation-এর উদ্দেশ্য বিশেষ চাহিদাসম্পন্ন শিশুদের এবং জীবন বদলে দেওয়া চিকিৎসাগত পরিস্থিতিতে থাকা শিশুদের জীবনকে সমৃদ্ধ ও বদলে দেওয়া — উপদেষ্টা Mrs. Taylor, Dance Room",
+      "of": "8fb02825",
+      "at": [
+        "charlotte-catholic:catalog.clubs[20].note"
+      ]
+    },
+    {
+      "t": "একটি জনপ্রিয় ভিডিও গেমে আগ্রহী শিক্ষার্থীদের একত্র করে — উপদেষ্টা Ms. El Fahsi, 208",
+      "of": "c6e14267",
+      "at": [
+        "charlotte-catholic:catalog.clubs[21].note"
+      ]
+    },
+    {
+      "t": "এই ক্লাবটি মাসে একবার, 300 নম্বর কক্ষে, সাধারণত স্কুলের পরে বসে — উপদেষ্টা Mr. Goodier, 300",
+      "of": "465ff954",
+      "at": [
+        "charlotte-catholic:catalog.clubs[22].note"
+      ]
+    },
+    {
+      "t": "বাস্তুতন্ত্র ও সম্পদের প্রতি আমাদের আচরণ উন্নত করে এমন সেবামূলক প্রকল্পের মাধ্যমে ঈশ্বরের সৃষ্টির যত্ন নেওয়ার একটি বাস্তব সম্পর্ক গড়ে তোলে — উপদেষ্টা Mrs. Albertson, 325",
+      "of": "01a301bd",
+      "at": [
+        "charlotte-catholic:catalog.clubs[23].note"
+      ]
+    },
+    {
+      "t": "চলাফেরায় অসুবিধা আছে এমন মানুষদের সাহায্য করাকে ঘিরে আনন্দময় স্বেচ্ছাসেবার কাজে মনোযোগ দেয় — উপদেষ্টা Mr. Georges, 316",
+      "of": "c3521063",
+      "at": [
+        "charlotte-catholic:catalog.clubs[24].note"
+      ]
+    },
+    {
+      "t": "সুবিধাবঞ্চিত প্রবীণদের মুখে হাসি ফোটায় — উপদেষ্টা Mrs. Cusack ও Ms. DalCerro, 217",
+      "of": "9b3e1b97",
+      "at": [
+        "charlotte-catholic:catalog.clubs[25].note"
+      ]
+    },
+    {
+      "t": "ঘর নির্মাণকে ঘিরে সেবার সুযোগ এবং আশপাশের নানা restore বিভাগে স্বেচ্ছাসেবার কাজে মনোযোগ দেয়… — উপদেষ্টা Mr. Smith",
+      "of": "a0f37ed2",
+      "at": [
+        "charlotte-catholic:catalog.clubs[26].note"
+      ]
+    },
+    {
+      "t": "উৎসবের সময়ে সুবিধাবঞ্চিত মানুষদের সাহায্য করে — উপদেষ্টা Dr. Sigwald, 225",
+      "of": "6d1bd31d",
+      "at": [
+        "charlotte-catholic:catalog.clubs[27].note"
+      ]
+    },
+    {
+      "t": "Helping with Mom's in Needs Club এমন একটি ক্লাব, যা St.-এর Walking With Mom's in Need সংগঠনের সঙ্গে মিলে কাজ করে — উপদেষ্টা Mrs. Crainer, 319",
+      "of": "b3e27899",
+      "at": [
+        "charlotte-catholic:catalog.clubs[28].note"
+      ]
+    },
+    {
+      "t": "Letters to Little Buddies Club-এর প্রতিটি সদস্য MACS-এর একটি প্রাথমিক স্কুলের একজন করে পত্রবন্ধু পাবেন এবং তাঁদের চিঠি লিখবেন ও নানা রকম… — উপদেষ্টা Mrs. Finnegan, 223",
+      "of": "cdb9865c",
+      "at": [
+        "charlotte-catholic:catalog.clubs[29].note"
+      ]
+    },
+    {
+      "t": "লক্ষ্য হলো LLB foundation-এর জন্য অর্থ সংগ্রহ ও সুবিধাবঞ্চিত শিশুদের সাহায্য করা — উপদেষ্টা Mr. Chuttey, Library",
+      "of": "3da369f3",
+      "at": [
+        "charlotte-catholic:catalog.clubs[30].note"
+      ]
+    },
+    {
+      "t": "Mel’s Diner Club মাসে এক শনিবার আমাদের সমাজের গৃহহীন ও শরণার্থীদের মতো অভাবী মানুষদের খাবার জোগানোর কাজ করবে — উপদেষ্টা Mrs. Kosanovich, St. Matthew's Parish Center",
+      "of": "3353c6c9",
+      "at": [
+        "charlotte-catholic:catalog.clubs[31].note"
+      ]
+    },
+    {
+      "t": "Muffin Ministry এমন একটি ক্লাব, যেখানে শিক্ষার্থীরা মাফিন বানিয়ে St.-এ গৃহহীনদের সেবা দেওয়া মিনিস্ট্রিগুলোতে পৌঁছে দিতে পারে — উপদেষ্টা Ms. El Fahsi, 208",
+      "of": "b77aa09f",
+      "at": [
+        "charlotte-catholic:catalog.clubs[32].note"
+      ]
+    },
+    {
+      "t": "যত্ন করে ব্যবহার করা পোশাক সংগ্রহ করে পুরোনো হিসেবে বিক্রি করে এবং সেই অর্থ নারীদের জন্য কাজ করা দাতব্য সংস্থায় দান করে — উপদেষ্টা Mrs. Simpson, 514",
+      "of": "47d1bc13",
+      "at": [
+        "charlotte-catholic:catalog.clubs[33].note"
+      ]
+    },
+    {
+      "t": "Pawsitive Impact Society-র উদ্দেশ্য খেলনা বানিয়ে, খাবার দান করে ও স্বেচ্ছাসেবা দিয়ে Charlotte-এর humane society-কে সহায়তা করা… — উপদেষ্টা Mrs. Bick, 318",
+      "of": "b24eeb5d",
+      "at": [
+        "charlotte-catholic:catalog.clubs[34].note"
+      ]
+    },
+    {
+      "t": "জীবন বদলে দেওয়া কিছু পরিস্থিতির জন্য নিজেকে তৈরি করতে জ্ঞান ও জীবনরক্ষাকারী দক্ষতা দেখায় — উপদেষ্টা Mrs. Tripp, 324",
+      "of": "2bdc5036",
+      "at": [
+        "charlotte-catholic:catalog.clubs[35].note"
+      ]
+    },
+    {
+      "t": "Ronald McDonald House Charities of Greater Charlotte Club সংস্থাটিতে দান করার জন্য বেক সেল ও জিনিসপত্র সংগ্রহের আয়োজন করবে, আর সেখানে গিয়ে… — উপদেষ্টা Mrs. Burnham, 206",
+      "of": "31f6c8b8",
+      "at": [
+        "charlotte-catholic:catalog.clubs[36].note"
+      ]
+    },
+    {
+      "t": "শিক্ষার্থীদের সেবার সুযোগ দেয় এবং Wayfinders-এ সেবাবঞ্চিত শিক্ষার্থীদের সাহায্য করে — উপদেষ্টা Mrs. Adamian, 521",
+      "of": "011e8d50",
+      "at": [
+        "charlotte-catholic:catalog.clubs[37].note"
+      ]
+    },
+    {
+      "t": "স্কুলের ক্লাব ডিরেক্টরিতে তালিকাভুক্ত — উপদেষ্টা Mr. Needham",
+      "of": "f75a6eb7",
+      "at": [
+        "charlotte-catholic:catalog.clubs[38].note"
+      ]
+    },
+    {
+      "t": "ক্লাব ডিরেক্টরির নিচে তালিকাভুক্ত — উপদেষ্টা Mr. Quintero, Campus Ministry Offices",
+      "of": "868773ce",
+      "at": [
+        "charlotte-catholic:catalog.clubs[39].note"
+      ]
+    },
+    {
+      "t": "Charlotte Catholic Beautification Club সেবামূলক প্রকল্পের মাধ্যমে ক্যাম্পাসকে সুন্দর করে তুলে শিক্ষার্থীজীবনকে উন্নত করতে ও ঈশ্বরকে সম্মান জানাতে কাজ করবে, আর… — উপদেষ্টা Mrs. Carano, Cafeteria",
+      "of": "5895d967",
+      "at": [
+        "charlotte-catholic:catalog.clubs[40].note"
+      ]
+    },
+    {
+      "t": "যেসব শিক্ষার্থীর বাবা-মা CCHS থেকে পাশ করেছেন তাঁদের একত্র করে সম্প্রীতি গড়ে তোলে ও প্রাক্তন শিক্ষার্থীদের সঙ্গে যোগাযোগ দৃঢ় করে — উপদেষ্টা Mrs. Clementi ও Mr. Morgan, 218",
+      "of": "d0d613e2",
+      "at": [
+        "charlotte-catholic:catalog.clubs[41].note"
+      ]
+    },
+    {
+      "t": "আমাদের স্কুল-পরিবারে মানসিক স্বাস্থ্য নিয়ে সচেতনতা বাড়ায় ও অভাবীদের সাহায্য করে — উপদেষ্টা Mrs. Clementi, Counseling",
+      "of": "d4770fdc",
+      "at": [
+        "charlotte-catholic:catalog.clubs[42].note"
+      ]
+    },
+    {
+      "t": "Morgan’s Message-এর উদ্দেশ্য শিক্ষার্থী-ক্রীড়াবিদদের মধ্যে ছড়িয়ে থাকা মানসিক ও শারীরিক চ্যালেঞ্জ নিয়ে কথা বলাকে স্বাভাবিক করে তোলা… — উপদেষ্টা Mr. Christmas, Gym",
+      "of": "38a2ba4c",
+      "at": [
+        "charlotte-catholic:catalog.clubs[43].note"
+      ]
+    },
+    {
+      "t": "ফটোগ্রাফির জগৎ ঘুরে দেখার মধ্য দিয়ে শিক্ষার্থীদের আগ্রহভিত্তিক একটি পরিসর গড়ে তোলার সুযোগ করে দেয় — উপদেষ্টা Mr. Johnson, 623",
+      "of": "8997a1d4",
+      "at": [
+        "charlotte-catholic:catalog.clubs[44].note"
+      ]
+    },
+    {
+      "t": "Holy Rosary-র প্রার্থনার মধ্য দিয়ে পাওয়া শান্ত অনুগ্রহকে আরও গভীরভাবে বুঝতে ও উপলব্ধি করতে সাহায্য করে — উপদেষ্টা Mrs. Friedman, 303",
+      "of": "2ecbf56d",
+      "at": [
+        "charlotte-catholic:catalog.clubs[45].note"
+      ]
+    },
+    {
+      "t": "স্টিকি নোটে — বা হাসিমুখের নোটে — সদয় কথা লিখে CCHS-এর শিক্ষার্থীদের মনে করিয়ে দিতে চায় যে তাঁরা স্বাগত ও যত্নের মধ্যে আছেন, যেগুলো… — উপদেষ্টা Mrs. Madden, 532",
+      "of": "63181b93",
+      "at": [
+        "charlotte-catholic:catalog.clubs[46].note"
+      ]
+    },
+    {
+      "t": "St — উপদেষ্টা Mr. Kennelly, 309",
+      "of": "50d37ed0",
+      "at": [
+        "charlotte-catholic:catalog.clubs[47].note"
+      ]
+    },
+    {
+      "t": "Charlotte Catholic-এর কৃষ্ণাঙ্গ ও অন্যান্য শিক্ষার্থীদের নিজেদের মধ্যে কথা বলার জন্য সচেতনভাবে একটি পরিসর তৈরি করে — উপদেষ্টা Dr. Sigwald, 225",
+      "of": "955a03ce",
+      "at": [
+        "charlotte-catholic:catalog.clubs[48].note"
+      ]
+    },
+    {
+      "t": "এটি এমন একটি ক্লাব, যেখানে Asian-American Pacific Islander জাতিগত পটভূমি ও ক্যাথলিক বিশ্বাসে আগ্রহী বা সেই পটভূমির শিক্ষার্থীরা যুক্ত হতে পারেন — উপদেষ্টা Mr. Pham, Library",
+      "of": "a17902bc",
+      "at": [
+        "charlotte-catholic:catalog.clubs[49].note"
+      ]
+    },
+    {
+      "t": "শিক্ষামূলক বৈঠক, অনুষ্ঠান ও সেবামূলক প্রকল্পের মাধ্যমে German ভাষা ও সংস্কৃতির প্রসারে কাজ করে — উপদেষ্টা Mrs. Schmid-Rankin, 527",
+      "of": "28b4d7af",
+      "at": [
+        "charlotte-catholic:catalog.clubs[50].note"
+      ]
+    },
+    {
+      "t": "Spanish Club-এর লক্ষ্য Spanish… এনে স্প্যানিশভাষী জনগোষ্ঠীর অভিজ্ঞতা তুলে ধরে আমাদের শিক্ষার্থীদের আরও জানানো — উপদেষ্টা Ms. Palomino, 204",
+      "of": "14201e60",
+      "at": [
+        "charlotte-catholic:catalog.clubs[51].note"
+      ]
+    },
+    {
+      "t": "Climbing Club-এ আমরা মাসে একবার বা দুই মাসে একবার মিলিত হয়ে Charlotte-এর তিনটি Inner Peaks কেন্দ্রের একটিতে ক্লাইম্বিং করব — উপদেষ্টা Mr. Kalbaugh, 211",
+      "of": "7c774592",
+      "at": [
+        "charlotte-catholic:catalog.clubs[52].note"
+      ]
+    },
+    {
+      "t": "Fellowship of Christian Athletes-এর উদ্দেশ্য ক্রীড়াবিদদের Christ-কে জানতে ও তাঁর মধ্যে বেড়ে উঠতে সাহায্য করা এবং… এর মাধ্যমে অন্যদেরও সেই পথে নিয়ে যাওয়া — উপদেষ্টা Mr. Christmas, AD Office",
+      "of": "cc23ea5f",
+      "at": [
+        "charlotte-catholic:catalog.clubs[53].note"
+      ]
+    },
+    {
+      "t": "ফিগার স্কেটিং নিয়ে আগ্রহী শিক্ষার্থীদের যুক্ত করে এবং যাঁরা শিখতে চান তাঁদের স্কেটিং শিখতে সাহায্য করে — উপদেষ্টা Ms. El Fahsi, 208",
+      "of": "3f7d0cc6",
+      "at": [
+        "charlotte-catholic:catalog.clubs[54].note"
+      ]
+    },
+    {
+      "t": "স্কুলের ক্লাব ডিরেক্টরিতে তালিকাভুক্ত — উপদেষ্টা Mr. Zenmke, Carolina Sports Complex",
+      "of": "6148fe05",
+      "at": [
+        "charlotte-catholic:catalog.clubs[55].note"
+      ]
+    },
+    {
+      "t": "এটি সেবামুখী শিক্ষার্থীদের একটি দল, যাঁরা গলফ খেলার আনন্দ নেওয়ার পাশাপাশি সমাজে ইতিবাচক প্রভাব রাখার চেষ্টা করেন — উপদেষ্টা Mr. Panther, 214",
+      "of": "c5c64c6f",
+      "at": [
+        "charlotte-catholic:catalog.clubs[56].note"
+      ]
+    },
+    {
+      "t": "Lacrosse Club-এর উদ্দেশ্য সবাইকে একত্র করে আনন্দময় ও সহজ পরিবেশে ল্যাক্রোস সম্পর্কে জানা ও খেলা, পাশাপাশি নতুন বন্ধু বানানো — উপদেষ্টা Mr. Kalbaugh, Davie Park",
+      "of": "e6506e1d",
+      "at": [
+        "charlotte-catholic:catalog.clubs[57].note"
+      ]
+    },
+    {
+      "t": "সততা ও আনুগত্য দেখিয়ে এবং Charlotte Catholic-এর সম্মান বাড়িয়ে অন্য রাগবি দলগুলোর বিপক্ষে CCHS ও আমাদের ক্যাথলিক বিশ্বাসের প্রতিনিধিত্ব করে — উপদেষ্টা Mr. Kuhn, 219",
+      "of": "919184fa",
+      "at": [
+        "charlotte-catholic:catalog.clubs[58].note"
+      ]
+    },
+    {
+      "t": "শিক্ষার্থীদের খুব মজার একটি খেলায় অংশ নেওয়ার এবং অন্য শিক্ষার্থীদের সঙ্গে দীর্ঘস্থায়ী সম্পর্ক গড়ার সুযোগ দেয় — উপদেষ্টা Mrs. Best, Campus Ministry",
+      "of": "216c1d60",
+      "at": [
+        "charlotte-catholic:catalog.clubs[59].note"
+      ]
+    },
+    {
+      "t": "Ping Pong Club-এর লক্ষ্য নতুন ও পুরোনো পিং পং খেলোয়াড়দের নিয়ে একটি পরিসর গড়ে তোলা — উপদেষ্টা Mr. Needham, Commons",
+      "of": "dfdfa587",
+      "at": [
+        "charlotte-catholic:catalog.clubs[60].note"
+      ]
+    },
+    {
+      "t": "Charlotte-এর বিভিন্ন দাতব্য সংস্থাকে সহায়তা করা 5k দৌড়ে অংশ নিয়ে তাদের জন্য সচেতনতা বাড়াতে সাহায্য করে — উপদেষ্টা Mr. Georges, 316",
+      "of": "c3b5f767",
+      "at": [
+        "charlotte-catholic:catalog.clubs[61].note"
+      ]
+    },
+    {
+      "t": "বন্ধুদের সঙ্গে আনন্দে পাল তোলা ও সেইলিং শেখা — উপদেষ্টা Mrs. Tripp, 324",
+      "of": "816c43f3",
+      "at": [
+        "charlotte-catholic:catalog.clubs[62].note"
+      ]
+    },
+    {
+      "t": "স্কেটিংয়ের মাধ্যমে বন্ধু বানায় এবং স্কেট পার্ক পরিষ্কার করে সমাজে স্কেটিংয়ের প্রসার ঘটায় — উপদেষ্টা Mr. Whitsell, Renaissance Skate Park",
+      "of": "87a55f6b",
+      "at": [
+        "charlotte-catholic:catalog.clubs[63].note"
+      ]
+    },
+    {
+      "t": "Soccer Souls-এর লক্ষ্য সেসব মানুষের কাছে সকারের আনন্দ পৌঁছে দেওয়া, যাঁরা হয় খেলাটি জানেন না, নয়তো খেলার সামর্থ্য নেই — উপদেষ্টা Mrs. Yarussi, 311",
+      "of": "0099353d",
+      "at": [
+        "charlotte-catholic:catalog.clubs[64].note"
+      ]
+    },
+    {
+      "t": "CCHS-এর ক্রীড়াবিদদের জন্য সেরা স্বাস্থ্যসেবা নিশ্চিত করতে কাজ করে, পাশাপাশি শিক্ষার্থীদের ক্রীড়া-চিকিৎসা ও ক্রীড়াবিদদের পরিচর্যার পদ্ধতি শেখায় — উপদেষ্টা Mr. Wisocki, Training Room",
+      "of": "4a4b0afa",
+      "at": [
+        "charlotte-catholic:catalog.clubs[65].note"
+      ]
+    },
+    {
+      "t": "শিক্ষার্থীদের ওয়েকবোর্ডিং খেলার অভিজ্ঞতা নেওয়ার সুযোগ দেয় — উপদেষ্টা Mr. Hage, South Town Waterpark",
+      "of": "11740525",
+      "at": [
+        "charlotte-catholic:catalog.clubs[66].note"
+      ]
+    },
+    {
+      "t": "চারুকলার প্রতি অভিন্ন ভালোবাসা নিয়ে একটি পরিসর গড়ে তুলতে এবং আঁকা, রং করা ও 3D শিল্পের দক্ষতা শিখতে ও বাড়াতে কাজ করে — উপদেষ্টা Mrs. Parks, 621",
+      "of": "1a14b79d",
+      "at": [
+        "charlotte-catholic:catalog.clubs[67].note"
+      ]
+    },
+    {
+      "t": "নানা রকম তাসের খেলা খেলাকে ঘিরেই এর কাজ — উপদেষ্টা Mr. Sifuentes, 304",
+      "of": "e580293a",
+      "at": [
+        "charlotte-catholic:catalog.clubs[68].note"
+      ]
+    },
+    {
+      "t": "আমাদের লক্ষ্য কঠিন সময়ের মধ্যে দিয়ে যাওয়া মানুষদের পাশে থাকা ও তাঁদের যত্ন নেওয়া নিশ্চিত করা — উপদেষ্টা Mr. Galarde, 534",
+      "of": "67d284ce",
+      "at": [
+        "charlotte-catholic:catalog.clubs[69].note"
+      ]
+    },
+    {
+      "t": "দাতব্য কাজের জন্য অর্থ সংগ্রহে সারা বছর বেক সেলের আয়োজন করে এবং বেক করা খাবার দান করতে বেকিং অনুষ্ঠানের আয়োজন করে — উপদেষ্টা Ms. Cabanna, 512",
+      "of": "77b894bc",
+      "at": [
+        "charlotte-catholic:catalog.clubs[70].note"
+      ]
+    },
+    {
+      "t": "স্কুলের ক্লাব ডিরেক্টরিতে তালিকাভুক্ত — উপদেষ্টা Ms. Waldron",
+      "of": "131ba04b",
+      "at": [
+        "charlotte-catholic:catalog.clubs[71].note"
+      ]
+    },
+    {
+      "t": "নানা ধারা ও নানা সময়ের প্রভাবশালী অ্যালবাম নিয়ে জানা ও আলোচনার একটি পরিসর দেয় — উপদেষ্টা Mr. Queen, Math Workroom",
+      "of": "a91e651d",
+      "at": [
+        "charlotte-catholic:catalog.clubs[72].note"
+      ]
+    },
+    {
+      "t": "একটি ক্লাব, যা মাসে একবার মিলিত হয়ে বোর্ড ও কৌশলের খেলা খেলে — উপদেষ্টা Mr. Dorsett, 306",
+      "of": "6cef2d2f",
+      "at": [
+        "charlotte-catholic:catalog.clubs[73].note"
+      ]
+    },
+    {
+      "t": "শিক্ষার্থীদের আনন্দময় ও সহনশীল পরিবেশে একত্র হয়ে Pokemon উপভোগ করার ও বন্ধু বানানোর সুযোগ দেয় — উপদেষ্টা Mr. Tucker, 517",
+      "of": "6ac74421",
+      "at": [
+        "charlotte-catholic:catalog.clubs[74].note"
+      ]
+    },
+    {
+      "t": "Sew fun এমন একটি ক্লাব, যা সেলাই করা ও সেলাই মেশিন ব্যবহার শেখায় — উপদেষ্টা Ms. Mirizio, 620",
+      "of": "30c1a7c5",
+      "at": [
+        "charlotte-catholic:catalog.clubs[75].note"
+      ]
+    },
+    {
+      "t": "স্কুল পত্রিকা, সাহিত্য ম্যাগাজিন, ইয়ারবুক ও শিক্ষার্থীদের একটি পডকাস্ট — সবই আছে, তবে সেগুলো চলে English কোর্স হিসেবে — Journalism (234) ও Yearbook (235) — ক্লাব হিসেবে নয়, আর সেজন্যই এই তালিকায় এগুলোর কোনোটি নেই।",
+      "of": "f5d80dc1",
+      "at": [
+        "charlotte-catholic:catalog.divisions[0].text"
+      ]
+    },
+    {
+      "t": "সেবা (গ্রেড 9–12)",
+      "of": "60bf72d6",
+      "at": [
+        "charlotte-catholic:catalog.divisions[1].label"
+      ]
+    },
+    {
+      "t": "স্নাতক হতে চার বছরে অনুমোদিত 70 ঘণ্টা সেবা লাগে — নবম শ্রেণিতে 10 ঘণ্টা এবং দশম থেকে দ্বাদশ শ্রেণির প্রতিটিতে 20 ঘণ্টা, যার অন্তত 5 ঘণ্টা প্রতি বছর প্যারিশ সেবা, জমা দিতে হয় 1 মার্চের মধ্যে।",
+      "of": "91cc70bf",
+      "at": [
+        "charlotte-catholic:catalog.divisions[1].text"
+      ]
+    },
+    {
+      "t": "স্নাতক হওয়ার শর্ত",
+      "of": "a5cdcdce",
+      "at": [
+        "charlotte-catholic:catalog.divisions[1].tag"
+      ]
+    },
+    {
+      "t": "সদস্যসংখ্যা",
+      "of": "3cbfc8ba",
+      "at": [
+        "charlotte-catholic:catalog.divisions[2].label"
+      ]
+    },
+    {
+      "t": "ডিরেক্টরিতে উপদেষ্টা ও কক্ষ প্রকাশিত হলেও সদস্যসংখ্যা, আবেদনের প্রক্রিয়া বা বৈঠকের সূচি নেই, তাই কোনো ক্লাব কত বড় বা কতটা বাছাই-ভিত্তিক তা এটি দেখে বিচার করা যায় না।",
+      "of": "bb6e3bfd",
+      "at": [
+        "charlotte-catholic:catalog.divisions[2].text"
+      ]
+    },
+    {
+      "t": "প্রকাশিত নয়",
+      "of": "d945d814",
+      "at": [
+        "charlotte-catholic:catalog.divisions[2].tag"
+      ]
+    },
+    {
       "t": "তিনটি ডিভিশন জুড়ে নামসহ পনেরোটি অ্যাফিনিটি গ্রুপ — প্রতিটিই সব শিক্ষার্থীর জন্য উন্মুক্ত — একটিমাত্র ছাতা-ফোরামের অধীনে, পেছনে আছে একটি শিক্ষার্থী নেতৃত্ব দল।",
       "of": "c2dfd002",
       "at": [
@@ -2801,14 +4058,6 @@
       "of": "6e7dd702",
       "at": [
         "charlotte-country-day:clusters.rows[1].oneLiner"
-      ]
-    },
-    {
-      "t": "কেবল নামভুক্ত",
-      "of": "a0706e54",
-      "at": [
-        "charlotte-country-day:clusters.rows[1].evidenceLabel",
-        "gaston-day:clusters.rows[4].evidenceLabel"
       ]
     },
     {
@@ -4324,15 +5573,6 @@
       "of": "198f83e5",
       "at": [
         "carmel-christian:clusters.verdict"
-      ]
-    },
-    {
-      "t": "অনার সোসাইটি →",
-      "of": "48a8bb43",
-      "at": [
-        "carmel-christian:clusters.rows[0].name",
-        "hickory-grove-christian:clusters.rows[0].name",
-        "gaston-day:clusters.rows[4].name"
       ]
     },
     {

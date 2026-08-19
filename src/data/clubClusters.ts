@@ -456,11 +456,68 @@ const GASTON_DAY: ClubClusters = {
   ],
 }
 
+// ── Charlotte Catholic ── the competitive slate is genuinely thin in public
+// relative to the school's size: 76 clubs, but almost none publish results. The
+// strongest documented competitive outcome anywhere in the research is the
+// Blumey Awards theatre record (five finalists in 2025), which belongs to The
+// Arts rather than here. Speech & Debate has a real competitive history but the
+// only coverage found is from 2017 — nine years old — so it is recorded as
+// reported rather than verified, with the staleness stated in the note.
+const CHARLOTTE_CATHOLIC: ClubClusters = {
+  verdict:
+    'Ten honor societies and a competitive slate that mostly does not publish results.',
+  verdictHint: 'Open any row for the full research note and its source.',
+  rows: [
+    {
+      name: 'Speech and Debate',
+      oneLiner: 'The one club with a documented competitive record — but it is from 2017',
+      evidence: 'reported',
+      evidenceLabel: 'School news — stale',
+      note: 'Diocesan coverage records a North Carolina state runner-up finish and a Program Oral Interpretation state champion (Darlene Singui-Tanyi). That coverage is from 2017, older than any competitive result shipped for another school here, so no current standing can be claimed. The club meets in the CCHS Media Center under Mrs. Jennifer Taylor.',
+      source: 'catholicnewsherald.com (2017); clubs directory',
+    },
+    {
+      name: 'Honor societies →',
+      oneLiner:
+        'NHS, Mu Alpha Theta, Science NHS, Rho Kappa, International Thespian, National Art, plus Spanish, French, German and Latin',
+      evidence: 'reported',
+      evidenceLabel: 'Official list',
+      note: 'Ten societies named on the school profile. Published GPA criteria exist for five: NHS 3.9, Mu Alpha Theta 4.5 in mathematics, Science NHS 4.25 science with 4.0 overall, Rho Kappa 3.75, and International Thespian 3.0 plus 60 points. The four world-language societies and the National Art Honor Society publish no threshold, and none publishes a membership count.',
+      source: 'School Profile 2025-2026 (PDF)',
+    },
+    {
+      name: 'STEM clubs →',
+      oneLiner: 'Robotics, Medical Pathways, Finance',
+      evidence: 'reported',
+      evidenceLabel: 'Named only',
+      note: 'Robotics exists to "promote STEAM in Charlotte Catholic and allow members to get hands-on experience" under Mr. Tucker in Room 517, but no competition circuit, team number or result is published for it. Medical Pathways and Finance are career-exploration clubs with guest speakers rather than competitive teams.',
+      source: 'Clubs directory',
+    },
+    {
+      name: 'Civic and academic clubs →',
+      oneLiner: 'Model United Nations, Beacon of Truth, Apologetics, Young Authors, Good Reads',
+      evidence: 'reported',
+      evidenceLabel: 'Named only',
+      note: 'Model UN is the only conventionally competitive entry, and CCHS publishes no conference attendance or awards for it. The remainder are discussion and formation clubs — several explicitly framed through a Catholic lens, which is the distinguishing feature of this school\u2019s academic club slate.',
+      source: 'Clubs directory',
+    },
+    {
+      name: 'The publications gap',
+      oneLiner: 'Newspaper, literary magazine, yearbook and podcast run as courses, not clubs',
+      evidence: 'reported',
+      evidenceLabel: 'Structural',
+      note: 'Journalism (234) students produce and publish the school newspaper in digital format and develop the school\u2019s literary magazine, with an option to produce a podcast; Yearbook (235) produces the yearbook. Both are year-long English electives requiring a B average and a teacher recommendation, so this activity is timetabled rather than extracurricular and appears in no club roster.',
+      source: 'Curriculum Guide 2026-2027 (PDF)',
+    },
+  ],
+}
+
 const CLUSTERS: Record<string, ClubClusters> = {
   'providence-day': PROVIDENCE_DAY,
   'charlotte-latin': CHARLOTTE_LATIN,
   cannon: CANNON,
   'charlotte-christian': CHARLOTTE_CHRISTIAN,
+  'charlotte-catholic': CHARLOTTE_CATHOLIC,
   'charlotte-country-day': CHARLOTTE_COUNTRY_DAY,
   'covenant-day': COVENANT_DAY,
   'davidson-day': DAVIDSON_DAY,

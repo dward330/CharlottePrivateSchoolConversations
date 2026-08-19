@@ -3,27 +3,6 @@
   "lang": "fr",
   "sections": [
     {
-      "of": "5495900d",
-      "subtopic": "Source snapshots",
-      "kind": "heading",
-      "at": [
-        "cannon:Source snapshots",
-        "charlotte-country-day:Source snapshots",
-        "davidson-day:Source snapshots"
-      ],
-      "text": "Source snapshots",
-      "t": "Instantanés sources"
-    },
-    {
-      "of": "d619be4b",
-      "subtopic": "Source snapshots",
-      "at": [
-        "cannon:Source snapshots"
-      ],
-      "text": "Additional snapshot checked carrying the same 2025–26 figures: `20251212154459`.",
-      "t": "Instantané supplémentaire vérifié portant les mêmes chiffres 2025–26 : `20251212154459`."
-    },
-    {
       "of": "f9704367",
       "subtopic": "Tuition by band and school year",
       "kind": "heading",
@@ -98,6 +77,7 @@
       "subtopic": "Year-over-year increases (computed from the published figures above, for reference only)",
       "at": [
         "cannon:Year-over-year increases (computed from the published figures above, for reference only)",
+        "charlotte-catholic:Fees",
         "charlotte-country-day:Year-over-year increases (computed from the published figures above, for reference only)",
         "covenant-day:Tuition History",
         "davidson-day:Year-over-year increases (computed from the published figures above, for reference only)",
@@ -107,13 +87,169 @@
       "t": "---"
     },
     {
-      "of": "39dd396f",
-      "subtopic": "Source snapshots",
+      "of": "b6720dc0",
+      "subtopic": "Schedule and Aid Programs 2026-2027",
+      "kind": "heading",
       "at": [
-        "charlotte-country-day:Source snapshots"
+        "charlotte-catholic:Schedule and Aid Programs 2026-2027"
       ],
-      "text": "Additional snapshots checked that carried the same figures (redundant confirmations):\n`20241013110721` (2024–25), `20250213060926` (2024–25), `20250713082444` (2025–26).",
-      "t": "Instantanés supplémentaires vérifiés portant les mêmes chiffres (confirmations redondantes) : `20241013110721` (2024–25), `20250213060926` (2024–25), `20250713082444` (2025–26)."
+      "text": "Schedule and Aid Programs 2026-2027",
+      "t": "Grille et programmes d’aide 2026-2027"
+    },
+    {
+      "of": "5a7f2634",
+      "subtopic": "Schedule and Aid Programs 2026-2027",
+      "at": [
+        "charlotte-catholic:Schedule and Aid Programs 2026-2027"
+      ],
+      "text": "# Charlotte Catholic High School — Financial Aid & Tuition (Schedule and Aid Programs 2026-2027)",
+      "t": "# Charlotte Catholic High School — Aide financière et frais de scolarité (Grille et programmes d’aide 2026-2027)"
+    },
+    {
+      "of": "824fd464",
+      "subtopic": "Schedule and Aid Programs 2026-2027",
+      "at": [
+        "charlotte-catholic:Schedule and Aid Programs 2026-2027"
+      ],
+      "text": "- **School:** Charlotte Catholic High School, grades 9–12, part of **Mecklenburg Area\n Catholic Schools (MACS)**, Diocese of Charlotte.",
+      "t": "- **École :** Charlotte Catholic High School, niveaux 9 à 12, rattachée aux **Mecklenburg Area\n Catholic Schools (MACS)**, Diocese of Charlotte."
+    },
+    {
+      "of": "706e6779",
+      "subtopic": "Schedule and Aid Programs 2026-2027",
+      "at": [
+        "charlotte-catholic:Schedule and Aid Programs 2026-2027"
+      ],
+      "text": "### ⚠️ Tuition is set centrally by MACS, not by the school",
+      "t": "### ⚠️ Les frais de scolarité sont fixés de façon centralisée par MACS, et non par l’école"
+    },
+    {
+      "of": "3a8c1da1",
+      "subtopic": "Schedule and Aid Programs 2026-2027",
+      "at": [
+        "charlotte-catholic:Schedule and Aid Programs 2026-2027"
+      ],
+      "text": "Unlike every independent school on this roster, CCHS does not set or publish its own\ntuition. **MACS publishes one high-school schedule covering grades 9–12** at\ndiscovermacs.org, and the school site links to it. That is why the source below is a\ndiocesan page rather than a school page.",
+      "t": "Contrairement à toutes les écoles indépendantes de cette liste, CCHS ne fixe ni ne publie ses propres\nfrais de scolarité. **MACS publie une grille unique pour le lycée, couvrant les niveaux 9 à 12** sur\ndiscovermacs.org, et le site de l’école y renvoie. C’est pourquoi la source ci-dessous est une\npage diocésaine plutôt qu’une page d’école."
+    },
+    {
+      "of": "fa0b6651",
+      "subtopic": "Schedule and Aid Programs 2026-2027",
+      "at": [
+        "charlotte-catholic:Schedule and Aid Programs 2026-2027",
+        "gaston-day:Schedule and Aid Programs 2026"
+      ],
+      "text": "### Source URLs",
+      "t": "### URL sources"
+    },
+    {
+      "of": "769e21fb",
+      "subtopic": "Schedule and Aid Programs 2026-2027",
+      "at": [
+        "charlotte-catholic:Schedule and Aid Programs 2026-2027"
+      ],
+      "text": "### Tuition 2026-2027, grades 9–12",
+      "t": "### Frais de scolarité 2026-2027, niveaux 9 à 12"
+    },
+    {
+      "of": "90a04080",
+      "subtopic": "Schedule and Aid Programs 2026-2027",
+      "at": [
+        "charlotte-catholic:Schedule and Aid Programs 2026-2027"
+      ],
+      "text": "**The parishioner / non-parishioner split is a tuition structure no other school on this\nroster shows.** A participating Catholic family pays **$6,521 less** than a community-rate\nfamily for the same seat — a ~30% difference driven by parish participation rather than by\nfinancial need. The app's `top-tuition` row uses the **$23,562** International rate as the\nschool's highest published tier, consistent with how that row is defined for other schools.",
+      "t": "**La distinction paroissien / non-paroissien constitue une structure tarifaire qu’aucune autre école de\ncette liste ne présente.** Une famille catholique pratiquante paie **$6,521 de moins** qu’une famille au tarif\ncommunauté pour la même place — un écart d’environ 30% déterminé par l’engagement paroissial plutôt que par\nles ressources. La ligne `top-tuition` de l’application retient le tarif International de **$23,562** comme\npalier publié le plus élevé de l’école, conformément à la définition de cette ligne pour les autres écoles."
+    },
+    {
+      "of": "8d5b54a5",
+      "subtopic": "Schedule and Aid Programs 2026-2027",
+      "at": [
+        "charlotte-catholic:Schedule and Aid Programs 2026-2027"
+      ],
+      "text": "### Financial aid mechanisms",
+      "t": "### Dispositifs d’aide financière"
+    },
+    {
+      "of": "a213ad75",
+      "subtopic": "Schedule and Aid Programs 2026-2027",
+      "at": [
+        "charlotte-catholic:Schedule and Aid Programs 2026-2027"
+      ],
+      "text": "- **Family Individualized Tuition (FIT)** — the need-based program. Awards vary by family\n circumstance and fund availability.\n- **Clarity** is the need-assessment application. ⚠️ **Not FACTS and not TADS** — FACTS\n appears in this system only as the **payment processor**, which is an easy\n mis-attribution. The Clarity application carries a **$65** fee.\n- **Multi-child discounts** (participating Catholic families only): **2nd child 10%** ·\n **3rd child 25%** · **4th child 50%** · **5th and additional children 100%**.\n- **NC Opportunity Scholarship Program (OSP)** — awards up to **$7,000+** annually, with\n **no income cap**.\n- **Education Student Accounts (ESA+)** — **$9,000** or **$17,000** yearly for students with\n qualifying disabilities.",
+      "t": "- **Family Individualized Tuition (FIT)** — le programme fondé sur les ressources. Les aides varient selon la situation\n de la famille et les fonds disponibles.\n- **Clarity** est le dossier d’évaluation des ressources. ⚠️ **Ni FACTS ni TADS** — FACTS\n n’intervient dans ce dispositif que comme **prestataire de paiement**, ce qui donne lieu à une\n confusion fréquente. Le dossier Clarity comporte des frais de **$65**.\n- **Réductions pour fratrie** (familles catholiques pratiquantes uniquement) : **2e enfant 10%** ·\n **3e enfant 25%** · **4e enfant 50%** · **5e enfant et suivants 100%**.\n- **NC Opportunity Scholarship Program (OSP)** — aides pouvant atteindre **$7,000+** par an, **sans\n plafond de revenus**.\n- **Education Student Accounts (ESA+)** — **$9,000** ou **$17,000** par an pour les élèves présentant\n un handicap éligible."
+    },
+    {
+      "of": "3207e655",
+      "subtopic": "Schedule and Aid Programs 2026-2027",
+      "at": [
+        "charlotte-catholic:Schedule and Aid Programs 2026-2027"
+      ],
+      "text": "### Deadlines",
+      "t": "### Échéances"
+    },
+    {
+      "of": "6dd610bd",
+      "subtopic": "Schedule and Aid Programs 2026-2027",
+      "at": [
+        "charlotte-catholic:Schedule and Aid Programs 2026-2027"
+      ],
+      "text": "- **FIT applications: May 15** for returning students; new families are encouraged to apply\n alongside the admission application.\n- **NCSEAA scholarship applications open in February** for the following school year.\n- **2026-27 enrollment opens 3/23/26.**",
+      "t": "- **Dossiers FIT : 15 mai** pour les élèves déjà inscrits ; les nouvelles familles sont invitées à déposer leur demande\n en même temps que le dossier d’admission.\n- **Les dossiers de bourse NCSEAA s’ouvrent en février** pour l’année scolaire suivante.\n- **Les inscriptions 2026-27 ouvrent le 3/23/26.**"
+    },
+    {
+      "of": "43380f6e",
+      "subtopic": "Schedule and Aid Programs 2026-2027",
+      "at": [
+        "charlotte-catholic:Schedule and Aid Programs 2026-2027"
+      ],
+      "text": "### ⚠️ Two sources that are wrong, and are deliberately not ingested",
+      "t": "### ⚠️ Deux sources erronées, délibérément non intégrées"
+    },
+    {
+      "of": "ce38db12",
+      "subtopic": "Schedule and Aid Programs 2026-2027",
+      "at": [
+        "charlotte-catholic:Schedule and Aid Programs 2026-2027"
+      ],
+      "text": "1. **PrivateSchoolReview lists CCHS tuition as $45,000.** That is **demonstrably wrong** —\n more than double the official community rate of $21,562 published by MACS itself. Not\n used.\n2. **The CCHS page titled \"Financial Aid and Scholarships\" is about COLLEGE financial aid\n for seniors** (FAFSA, college scholarship search), **not** CCHS tuition assistance. It\n is an easy mis-ingest for a page with that exact title, and it is not the source of\n anything here.",
+      "t": "1. **PrivateSchoolReview indique des frais de scolarité de $45,000 pour CCHS.** C’est **manifestement faux** —\n plus du double du tarif communauté officiel de $21,562 publié par MACS elle-même. Non\n utilisé.\n2. **La page de CCHS intitulée « Financial Aid and Scholarships » porte sur l’aide financière UNIVERSITAIRE\n destinée aux élèves de terminale** (FAFSA, recherche de bourses universitaires), et **non** sur l’aide aux frais de scolarité de CCHS. Elle\n se prête facilement à une intégration erronée compte tenu de son intitulé, et elle n’est la source\n de rien de ce qui figure ici."
+    },
+    {
+      "of": "b063d7c2",
+      "subtopic": "Schedule and Aid Programs 2026-2027",
+      "at": [
+        "charlotte-catholic:Schedule and Aid Programs 2026-2027"
+      ],
+      "text": "### Confirmed structural nulls",
+      "t": "### Valeurs nulles structurelles confirmées"
+    },
+    {
+      "of": "b9d38e72",
+      "subtopic": "Schedule and Aid Programs 2026-2027",
+      "at": [
+        "charlotte-catholic:Schedule and Aid Programs 2026-2027"
+      ],
+      "text": "- **`pct-aid`, `aid-awarded`, `avg-award` — permanently null.** MACS publishes aid figures\n **diocese-wide only**, never per school. There is no CCHS-specific percentage of students\n on aid, total aid awarded, or average award anywhere in the published record.\n- **No Form 990 exists, structurally.** MACS operates under **EIN 56-1779865**, and\n ProPublica's Nonprofit Explorer states the organization \"is not required to submit tax\n filings because the IRS designates it as a **religious organization**.\" **This is a\n permanent null, not a research gap** — no future pass will find a 990, and none should be\n spent looking. `hickory-grove-christian` already ships this same shape in the app.\n- **`tuition-history` — not published.** MACS publishes only the **current** year's\n schedule. Secondary sources give conflicting older figures ($13,348 and $9,366) with no\n reliable year attribution; **those are not shipped**, because a tuition-history row built\n from unattributable figures is worse than no row. Archived MACS snapshots would be the\n path if this row is ever wanted.",
+      "t": "- **`pct-aid`, `aid-awarded`, `avg-award` — nuls de façon permanente.** MACS publie les chiffres d’aide\n **à l’échelle du diocèse uniquement**, jamais par école. Il n’existe nulle part dans les documents publiés de pourcentage propre à CCHS\n d’élèves bénéficiant d’une aide, de montant total d’aide accordée, ni d’aide moyenne.\n- **Aucun formulaire 990 n’existe, pour des raisons structurelles.** MACS opère sous l’**EIN 56-1779865**, et\n le Nonprofit Explorer de ProPublica indique que l’organisation « is not required to submit tax\n filings because the IRS designates it as a **religious organization** ». **Il s’agit d’une\n valeur nulle permanente, et non d’une lacune de recherche** — aucune campagne future ne trouvera de 990, et il est inutile\n d’en chercher un. `hickory-grove-christian` présente déjà cette même configuration dans l’application.\n- **`tuition-history` — non publié.** MACS ne publie que la grille de l’année **en cours**.\n Des sources secondaires donnent des chiffres antérieurs contradictoires ($13,348 et $9,366) sans\n attribution fiable à une année ; **ils ne sont pas repris**, car une ligne d’historique des frais de scolarité bâtie\n sur des chiffres non attribuables vaut moins que pas de ligne du tout. Les instantanés archivés de MACS constitueraient la\n piste à suivre si cette ligne devait un jour être souhaitée."
+    },
+    {
+      "of": "3461c070",
+      "subtopic": "Fees",
+      "kind": "heading",
+      "at": [
+        "charlotte-catholic:Fees"
+      ],
+      "text": "Fees",
+      "t": "Frais"
+    },
+    {
+      "of": "5051fccf",
+      "subtopic": "Fees",
+      "at": [
+        "charlotte-catholic:Fees"
+      ],
+      "text": "Note the capital fee is charged **per family**, not per student — so it does not scale with\nthe number of children enrolled, unlike the application and enrollment fees.",
+      "t": "À noter : les frais d’investissement sont facturés **par famille**, et non par élève — ils n’augmentent donc pas avec\nle nombre d’enfants scolarisés, contrairement aux frais de dossier et d’inscription."
     },
     {
       "of": "7347ae01",
@@ -190,15 +326,6 @@
       "t": "# Covenant Day School — Aide financière et frais de scolarité — Historique des frais de scolarité"
     },
     {
-      "of": "4cb49cfb",
-      "subtopic": "Tuition History",
-      "at": [
-        "covenant-day:Tuition History"
-      ],
-      "text": "> **Provenance:** Compiled by Claude Code on 2026-08-15. Two tuition years are\n> live simultaneously — the website table shows 2026-27 while the linked payment\n> terms PDF shows 2025-26 — so both are recorded with their sources, and the app\n> pins its figure to one year explicitly.",
-      "t": "> **Provenance :** Compilé par Claude Code le 2026-08-15. Deux années de\n> frais de scolarité sont en vigueur simultanément — le tableau du site web indique 2026-27 tandis que le PDF\n> des conditions de paiement lié indique 2025-26 — les deux sont donc enregistrées avec leurs sources, et l’application\n> rattache sa valeur à une seule année de façon explicite."
-    },
-    {
       "of": "38f1ff5e",
       "subtopic": "Tuition History",
       "at": [
@@ -251,15 +378,6 @@
       ],
       "text": "**The app uses 2026-27 ($22,790, grades 9-12)** for `top-tuition` and every\ntuition figure in prose, matching the 2026-27 basis used for the six existing\nschools. The 2025-26 figures above exist so a reader reconciling against the\npayment-terms PDF understands the two live years; no app figure mixes years.",
       "t": "**L’application utilise 2026-27 ($22,790, niveaux 9-12)** pour `top-tuition` et pour chaque\nchiffre de frais de scolarité dans la prose, conformément à la base 2026-27 utilisée pour les six\nécoles existantes. Les chiffres 2025-26 ci-dessus existent pour qu’un lecteur qui les recoupe avec le\nPDF des conditions de paiement comprenne les deux années en vigueur ; aucun chiffre de l’application ne mélange les années."
-    },
-    {
-      "of": "c2b30540",
-      "subtopic": "Source snapshots",
-      "at": [
-        "davidson-day:Source snapshots"
-      ],
-      "text": "Note: snapshot `20230718230721` of the tuition-and-financial-aid URL was retrieved but is\n**gzip-corrupt in the archive** and could not be decoded. It was not needed, since\n`20230204193513` covers the same 2023–24 year cleanly.",
-      "t": "Note : l’instantané `20230718230721` de l’URL tuition-and-financial-aid a été récupéré mais est **corrompu au format gzip dans l’archive** et n’a pas pu être décodé. Il n’était pas nécessaire, `20230204193513` couvrant proprement la même année 2023–24."
     },
     {
       "of": "b8550754",
@@ -347,151 +465,164 @@
       "t": "Ces pourcentages relèvent d’un calcul dérivé des montants en dollars sourcés et sont clairement signalés comme tels ; les montants en dollars eux-mêmes sont tous directement sourcés. Davidson Day s’est tenue très près d’une augmentation annuelle constante d’environ 4.5% depuis 2023–24."
     },
     {
-      "of": "bae1c9de",
-      "subtopic": "Source URLs",
+      "of": "bbc865aa",
+      "subtopic": "Schedule and Aid Programs 2026",
       "kind": "heading",
       "at": [
-        "gaston-day:Source URLs"
+        "gaston-day:Schedule and Aid Programs 2026"
       ],
-      "text": "Source URLs",
-      "t": "URL des sources"
+      "text": "Schedule and Aid Programs 2026",
+      "t": "Grille et programmes d’aide 2026"
     },
     {
-      "of": "6ee1f53f",
-      "subtopic": "Tuition and fees 2025-2026",
-      "kind": "heading",
+      "of": "69c2b5d5",
+      "subtopic": "Schedule and Aid Programs 2026",
       "at": [
-        "gaston-day:Tuition and fees 2025-2026"
+        "gaston-day:Schedule and Aid Programs 2026"
       ],
-      "text": "Tuition and fees 2025-2026",
-      "t": "Frais de scolarité et frais annexes 2025-2026"
+      "text": "# Gaston Day School — Financial Aid & Tuition (Schedule and Aid Programs 2026)",
+      "t": "# Gaston Day School — Aide financière et frais de scolarité (Grille et programmes d’aide 2026)"
+    },
+    {
+      "of": "3bc91466",
+      "subtopic": "Schedule and Aid Programs 2026",
+      "at": [
+        "gaston-day:Schedule and Aid Programs 2026"
+      ],
+      "text": "- **School:** Gaston Day School, 2001 Gaston Day School Road, Gastonia, NC 28056.\n- **Currency note:** every figure below is copied char-for-char from its source. Nothing is\n rounded, converted or re-typed.",
+      "t": "- **École :** Gaston Day School, 2001 Gaston Day School Road, Gastonia, NC 28056.\n- **Note sur les montants :** chaque chiffre ci-dessous est repris caractère par caractère de sa source. Rien n’est\n arrondi, converti ni ressaisi."
+    },
+    {
+      "of": "ad6b45c6",
+      "subtopic": "Schedule and Aid Programs 2026",
+      "at": [
+        "gaston-day:Schedule and Aid Programs 2026"
+      ],
+      "text": "### Tuition and fees 2025-2026",
+      "t": "### Frais de scolarité et frais annexes 2025-2026"
     },
     {
       "of": "ec3bc477",
-      "subtopic": "Tuition and fees 2025-2026",
+      "subtopic": "Schedule and Aid Programs 2026",
       "at": [
-        "gaston-day:Tuition and fees 2025-2026"
+        "gaston-day:Schedule and Aid Programs 2026"
       ],
       "text": "**Note on the published \"total\".** Gaston Day publishes tuition and fees as separate columns\nplus an explicit combined total. The Upper School sticker figure is therefore **$22,390**\n(tuition $20,215 + fees $2,175) — that combined figure is what third-party sites quote as\nthe school's tuition, and it is the like-for-like number against other schools' all-in\nfigures.",
       "t": "**Note sur le « total » publié.** Gaston Day publie les frais de scolarité et les frais annexes en colonnes distinctes,\nplus un total combiné explicite. Le tarif affiché de l’Upper School est donc de **$22,390**\n(scolarité $20,215 + frais $2,175) — c’est ce montant combiné que les sites tiers citent comme\nles frais de scolarité de l’établissement, et c’est le chiffre comparable à périmètre égal face aux montants\ntout compris des autres écoles."
     },
     {
       "of": "b95aa13e",
-      "subtopic": "Tuition and fees 2025-2026",
+      "subtopic": "Schedule and Aid Programs 2026",
       "at": [
-        "gaston-day:Tuition and fees 2025-2026"
+        "gaston-day:Schedule and Aid Programs 2026"
       ],
       "text": "**2026-27 tuition (S2):** **$20,300 – $23,310** depending on grade. Published as a range on\nthe cost page; the per-grade 2026-27 schedule PDF was not posted at the time of this pass.",
       "t": "**Frais de scolarité 2026-27 (S2) :** **$20,300 – $23,310** selon le niveau. Publiés sous forme de fourchette sur\nla page des coûts ; le PDF du barème par niveau pour 2026-27 n’était pas mis en ligne au moment de cette passe."
     },
     {
-      "of": "9b71516d",
-      "subtopic": "After school & enrichment rates",
-      "kind": "heading",
+      "of": "32b4edc7",
+      "subtopic": "Schedule and Aid Programs 2026",
       "at": [
-        "gaston-day:After school & enrichment rates"
+        "gaston-day:Schedule and Aid Programs 2026"
       ],
-      "text": "After school & enrichment rates",
-      "t": "Tarifs de l’accueil périscolaire et des activités d’enrichissement"
+      "text": "### After school & enrichment rates (duplicated in the After School area)",
+      "t": "### Tarifs du périscolaire et des activités d’enrichissement (repris dans la rubrique Périscolaire)"
     },
     {
       "of": "3f09158f",
-      "subtopic": "After school & enrichment rates",
+      "subtopic": "Schedule and Aid Programs 2026",
       "at": [
-        "gaston-day:After school & enrichment rates"
+        "gaston-day:Schedule and Aid Programs 2026"
       ],
       "text": "**Rate conflict with the after-school web page — recorded, not silently resolved.** The\n`/afterschoolprogram/` page states hours of **3:15 PM – 5:30 PM** and prices of\n**$100/month** (Lower School) and **$60/month** (Middle School), with drop-in at $30/day and\n$15/day. The tuition schedule (S1) states **3:00–6:00** / **4:00–6:00** at **$95/week** and\n**$55/week**, with the same $30/day and $15/day drop-in rates.",
       "t": "**Conflit de tarifs avec la page web du périscolaire — consigné, non résolu en silence.** La\npage `/afterschoolprogram/` indique des horaires de **3:15 PM – 5:30 PM** et des tarifs de\n**$100/mois** (Lower School) et **$60/mois** (Middle School), avec un accueil ponctuel à $30/jour et\n$15/jour. Le barème des frais de scolarité (S1) indique **3:00–6:00** / **4:00–6:00** à **$95/semaine** et\n**$55/semaine**, avec les mêmes tarifs ponctuels de $30/jour et $15/jour."
     },
     {
       "of": "e2dd18b9",
-      "subtopic": "After school & enrichment rates",
+      "subtopic": "Schedule and Aid Programs 2026",
       "at": [
-        "gaston-day:After school & enrichment rates"
+        "gaston-day:Schedule and Aid Programs 2026"
       ],
       "text": "The drop-in rates agree exactly across both sources. The weekly-vs-monthly labels do not:\n$100/**month** for daily aftercare would be far below $30/day drop-in economics and below the\nschedule's own $95/week, so the page's \"/month\" reads as a label error for a weekly rate.\nBoth sources are retained above; the app uses the **official tuition schedule (S1)** as the\nrate authority and the **web page (S2/after-school file)** for the current operating window,\nwhich is the more likely thing to have been updated in-year. See the after-school file for\nthe full page transcription.",
       "t": "Les tarifs ponctuels concordent exactement entre les deux sources. Les libellés hebdomadaire/mensuel, non :\n$100/**mois** pour un accueil quotidien serait très en deçà de l’économie d’un accueil ponctuel à $30/jour et en deçà des\n$95/semaine du barème lui-même, si bien que le « /mois » de la page se lit comme une erreur de libellé pour un tarif hebdomadaire.\nLes deux sources sont conservées ci-dessus ; l’application retient le **barème officiel des frais de scolarité (S1)** comme\nautorité tarifaire et la **page web (S2/fichier périscolaire)** pour la plage horaire de fonctionnement actuelle,\nqui est ce qui a le plus probablement été mis à jour en cours d’année. Voir le fichier périscolaire pour\nla transcription intégrale de la page."
     },
     {
-      "of": "d9077902",
-      "subtopic": "Financial aid",
-      "kind": "heading",
+      "of": "def44a91",
+      "subtopic": "Schedule and Aid Programs 2026",
       "at": [
-        "gaston-day:Financial aid"
+        "gaston-day:Schedule and Aid Programs 2026"
       ],
-      "text": "Financial aid",
-      "t": "Aide financière"
+      "text": "### Financial aid",
+      "t": "### Aide financière"
     },
     {
       "of": "0a2c47a8",
-      "subtopic": "Financial aid",
+      "subtopic": "Schedule and Aid Programs 2026",
       "at": [
-        "gaston-day:Financial aid"
+        "gaston-day:Schedule and Aid Programs 2026"
       ],
       "text": "- **Platform: Clarity** (not FACTS or SSS). Five steps: sign up at the Clarity app; add\n Gaston Day School to the applicant entry; complete the application and pay the **$65**\n fee; complete tax verification (IRS transfer or Clarity's option); submit and monitor the\n dashboard for document requests.\n- **Deadline: rolling** — \"The financial aid deadline is rolling, but funds may become\n limited or unavailable towards the beginning of the new school year (August).\"\n- **Three assistance channels:** need-based Financial Aid, Merit Scholarships, and the\n **North Carolina Opportunity Scholarship**.\n- **Discount ceiling: up to 80%** of tuition (Kindergarten–Grade 12).\n- **Contact:** Kevin Napp, Director of Admissions, 704.864.7744 ext. 414.",
       "t": "- **Plateforme : Clarity** (ni FACTS ni SSS). Cinq étapes : s’inscrire sur l’application Clarity ; ajouter\n Gaston Day School à la fiche du candidat ; remplir le dossier et régler les **$65** de\n frais ; effectuer la vérification fiscale (transfert IRS ou l’option de Clarity) ; soumettre et surveiller le\n tableau de bord pour les demandes de documents.\n- **Date limite : au fil de l’eau** — \"The financial aid deadline is rolling, but funds may become\n limited or unavailable towards the beginning of the new school year (August).\"\n- **Trois voies d’aide :** l’aide financière fondée sur les besoins, les Merit Scholarships et la\n **North Carolina Opportunity Scholarship**.\n- **Plafond de réduction : jusqu’à 80%** des frais de scolarité (Kindergarten–Grade 12).\n- **Contact :** Kevin Napp, Director of Admissions, 704.864.7744 ext. 414."
     },
     {
       "of": "bd8b38b2",
-      "subtopic": "Financial aid",
+      "subtopic": "Schedule and Aid Programs 2026",
       "at": [
-        "gaston-day:Financial aid"
+        "gaston-day:Schedule and Aid Programs 2026"
       ],
       "text": "**Not published** on any page found in this pass: the total aid budget in dollars, the\naverage award, the number of families receiving aid, sibling discounts, tuition-insurance\nor refund-plan terms, and the payment-plan tiers (S1 states only that \"Gaston Day offers a\nvariety of payment plans\" and that all plans assume the tuition deposit and fees have been\npaid). These are recorded as confirmed absences, not as unresearched gaps.",
       "t": "**Non publié** sur aucune page trouvée lors de cette passe : le budget total de l’aide en dollars, le\nmontant moyen des aides, le nombre de familles bénéficiaires, les réductions fratrie, les conditions d’assurance\nscolarité ou de plan de remboursement, et les paliers des plans de paiement (S1 indique seulement que \"Gaston Day offers a\nvariety of payment plans\" et que tous les plans supposent que l’acompte de scolarité et les frais annexes ont été\nréglés). Ces éléments sont consignés comme des absences confirmées, non comme des lacunes non investiguées."
     },
     {
-      "of": "10ed16aa",
-      "subtopic": "Aid share",
-      "kind": "heading",
+      "of": "ee858271",
+      "subtopic": "Schedule and Aid Programs 2026",
       "at": [
-        "gaston-day:Aid share"
+        "gaston-day:Schedule and Aid Programs 2026"
       ],
-      "text": "Aid share",
-      "t": "Part d’élèves aidés"
+      "text": "### Aid share",
+      "t": "### Part des élèves aidés"
     },
     {
       "of": "15ebe61e",
-      "subtopic": "Aid share",
+      "subtopic": "Schedule and Aid Programs 2026",
       "at": [
-        "gaston-day:Aid share"
+        "gaston-day:Schedule and Aid Programs 2026"
       ],
       "text": "**26% of the student body receives tuition assistance** (2025-26 Academic Profile).",
       "t": "**26% des élèves bénéficient d’une aide aux frais de scolarité** (Academic Profile 2025-26)."
     },
     {
       "of": "d84f6dd0",
-      "subtopic": "Aid share",
+      "subtopic": "Schedule and Aid Programs 2026",
       "at": [
-        "gaston-day:Aid share"
+        "gaston-day:Schedule and Aid Programs 2026"
       ],
       "text": "S5 (Private School Review) reports **45%**. The school's own profile is used. The two are\nalso not measuring the same quantity: the profile's \"tuition assistance\" is need-based aid,\nwhile a third-party \"percent on financial aid\" figure commonly folds in merit awards and\nstate Opportunity Scholarship recipients — which at Gaston Day are three separate channels\n(S2). The gap is therefore plausibly definitional rather than either figure being wrong.",
       "t": "S5 (Private School Review) annonce **45%**. C’est le profil publié par l’école qui est retenu. Les deux chiffres\nne mesurent d’ailleurs pas la même grandeur : la « tuition assistance » du profil correspond à l’aide fondée sur les besoins,\ntandis qu’un chiffre tiers de « pourcentage d’élèves sous aide financière » englobe couramment aussi les bourses au mérite et\nles bénéficiaires de la North Carolina Opportunity Scholarship — qui, à Gaston Day, constituent trois voies distinctes\n(S2). L’écart est donc vraisemblablement d’ordre définitionnel plutôt que le signe qu’un des deux chiffres serait faux."
     },
     {
-      "of": "2ade3553",
-      "subtopic": "Institutional context",
-      "kind": "heading",
+      "of": "56665324",
+      "subtopic": "Schedule and Aid Programs 2026",
       "at": [
-        "gaston-day:Institutional context"
+        "gaston-day:Schedule and Aid Programs 2026"
       ],
-      "text": "Institutional context",
-      "t": "Contexte institutionnel"
+      "text": "### Institutional context",
+      "t": "### Contexte institutionnel"
     },
     {
       "of": "b5ea393b",
-      "subtopic": "Institutional context",
+      "subtopic": "Schedule and Aid Programs 2026",
       "at": [
-        "gaston-day:Institutional context"
+        "gaston-day:Schedule and Aid Programs 2026"
       ],
       "text": "- **Endowment: $8.5 million**\n- **Campus: 60 acres**\n- **Average class size: 15**\n- **Faculty with advanced degrees: 30%**\n- Founded **1967**; accreditations SACS, NAIS member.",
       "t": "- **Dotation : $8.5 million**\n- **Campus : 60 acres**\n- **Effectif moyen par classe : 15**\n- **Enseignants titulaires d’un diplôme de troisième cycle : 30%**\n- Fondée en **1967** ; accréditations SACS, membre de la NAIS."
     },
     {
       "of": "0b1cb6f5",
-      "subtopic": "Institutional context",
+      "subtopic": "Schedule and Aid Programs 2026",
       "at": [
-        "gaston-day:Institutional context"
+        "gaston-day:Schedule and Aid Programs 2026"
       ],
       "text": "These are third-party figures (Private School Review) and are not confirmed by a school\npublication; they are carried with that caveat and flagged for verification where surfaced.",
       "t": "Il s’agit de chiffres tiers (Private School Review), non confirmés par une publication de\nl’école ; ils sont repris avec cette réserve et signalés pour vérification là où ils sont affichés."

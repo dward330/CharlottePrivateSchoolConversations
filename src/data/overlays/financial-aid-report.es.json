@@ -9,6 +9,7 @@
         "providence-day:title",
         "charlotte-latin:title",
         "charlotte-christian:title",
+        "charlotte-catholic:title",
         "charlotte-country-day:title",
         "cannon:title",
         "covenant-day:title",
@@ -77,6 +78,7 @@
         "providence-day:framing[2].title",
         "charlotte-latin:framing[2].title",
         "charlotte-christian:framing[2].title",
+        "charlotte-catholic:framing[2].title",
         "charlotte-country-day:framing[2].title",
         "cannon:framing[2].title",
         "covenant-day:framing[2].title",
@@ -99,6 +101,7 @@
       "at": [
         "providence-day:sections[0].navTitle",
         "charlotte-latin:sections[0].navTitle",
+        "charlotte-catholic:sections[0].navTitle",
         "charlotte-country-day:sections[0].navTitle",
         "cannon:sections[0].navTitle"
       ]
@@ -178,6 +181,10 @@
         "charlotte-latin:sections[3].boxes[2].tag",
         "charlotte-latin:sections[5].boxes[3].tag",
         "charlotte-christian:sections[3].boxes[2].tag",
+        "charlotte-catholic:sections[2].boxes[3].tag",
+        "charlotte-catholic:sections[3].boxes[0].tag",
+        "charlotte-catholic:sections[4].boxes[0].tag",
+        "charlotte-catholic:sections[5].boxes[0].tag",
         "charlotte-country-day:sections[0].boxes[0].tag",
         "charlotte-country-day:sections[2].boxes[2].tag",
         "charlotte-country-day:sections[3].boxes[1].tag",
@@ -241,6 +248,7 @@
       "at": [
         "providence-day:sections[1].navTitle",
         "charlotte-latin:sections[1].navTitle",
+        "charlotte-catholic:sections[1].navTitle",
         "charlotte-country-day:sections[1].navTitle",
         "cannon:sections[1].navTitle"
       ]
@@ -424,6 +432,7 @@
       "at": [
         "providence-day:sections[2].navTitle",
         "charlotte-latin:sections[2].navTitle",
+        "charlotte-catholic:sections[2].navTitle",
         "charlotte-country-day:sections[2].navTitle",
         "cannon:sections[2].navTitle",
         "covenant-day:sections[2].navTitle",
@@ -569,7 +578,8 @@
       "of": "e15b3ca0",
       "at": [
         "providence-day:sections[3].navTitle",
-        "charlotte-latin:sections[3].navTitle"
+        "charlotte-latin:sections[3].navTitle",
+        "charlotte-catholic:sections[3].navTitle"
       ]
     },
     {
@@ -797,6 +807,7 @@
       "at": [
         "providence-day:sections[5].navTitle",
         "charlotte-latin:sections[5].navTitle",
+        "charlotte-catholic:sections[5].navTitle",
         "charlotte-country-day:sections[4].navTitle",
         "cannon:sections[4].navTitle",
         "covenant-day:sections[5].navTitle",
@@ -2673,6 +2684,523 @@
       "of": "e315244a",
       "at": [
         "charlotte-christian:sections[5].questions[6]"
+      ]
+    },
+    {
+      "t": "Año escolar 2026–27 · cifras a 18 de agosto de 2026",
+      "of": "f52eb327",
+      "at": [
+        "charlotte-catholic:meta"
+      ]
+    },
+    {
+      "t": "La matrícula la fija la diócesis, no el centro.",
+      "of": "d37a0857",
+      "at": [
+        "charlotte-catholic:framing[0].title"
+      ]
+    },
+    {
+      "t": "Charlotte Catholic no publica ninguna matrícula propia. Mecklenburg Area Catholic Schools fija y publica un único cuadro de tarifas de secundaria que cubre los grados 9–12 para todos sus institutos, y por eso todas las cifras de aquí citan discovermacs.org en lugar de la web del centro.",
+      "of": "ce665388",
+      "at": [
+        "charlotte-catholic:framing[0].body"
+      ]
+    },
+    {
+      "t": "Solo se publica el curso actual.",
+      "of": "733ce9aa",
+      "at": [
+        "charlotte-catholic:framing[1].title"
+      ]
+    },
+    {
+      "t": "MACS publica el cuadro de 2026-27 y ningún histórico. Las fuentes secundarias ofrecen cifras antiguas contradictorias ($13,348 y $9,366) sin una atribución de año fiable, así que aquí no se muestra ninguna tendencia de matrícula en lugar de construir una con cifras no atribuibles.",
+      "of": "8a19c9b2",
+      "at": [
+        "charlotte-catholic:framing[1].body"
+      ]
+    },
+    {
+      "t": "Ayuda a la matrícula durante la escolarización — no los $17,242,184 en becas universitarias que obtuvo la promoción de 2025, que es dinero de las universidades y queda excluido en todo momento. No constituye asesoramiento financiero.",
+      "of": "88649bba",
+      "at": [
+        "charlotte-catholic:framing[2].body"
+      ]
+    },
+    {
+      "t": "Matrícula según la situación familiar, no según el grado",
+      "of": "fab16aab",
+      "at": [
+        "charlotte-catholic:sections[0].title"
+      ]
+    },
+    {
+      "t": "ESTRUCTURALMENTE DISTINTO",
+      "of": "9ad82de4",
+      "at": [
+        "charlotte-catholic:sections[0].tag"
+      ]
+    },
+    {
+      "t": "Matrícula publicada para 2026-27, grados 9–12",
+      "of": "3b6db132",
+      "at": [
+        "charlotte-catholic:sections[0].figureCaption"
+      ]
+    },
+    {
+      "t": "Católica participante",
+      "of": "46b1a9d3",
+      "at": [
+        "charlotte-catholic:sections[0].bands[0].label"
+      ]
+    },
+    {
+      "t": "Comunidad (no parroquiana)",
+      "of": "29b14c29",
+      "at": [
+        "charlotte-catholic:sections[0].bands[1].label"
+      ]
+    },
+    {
+      "t": "High International",
+      "of": "8c752f55",
+      "at": [
+        "charlotte-catholic:sections[0].bands[2].label"
+      ]
+    },
+    {
+      "t": "Esta es la particularidad estructural que ningún otro centro de esta lista tiene: **el precio depende de la participación parroquial, no del curso ni de la necesidad económica**. Una familia católica participante paga **$15,041** allí donde una familia de la comunidad paga **$21,562** por la misma plaza en la misma aula — una **diferencia de $6,521, alrededor del 30%**. Como CCHS es un centro de 9–12, no hay ninguna escala por franjas de grado; estas tres filas son todo el cuadro de tarifas.",
+      "of": "644cca30",
+      "at": [
+        "charlotte-catholic:sections[0].figureNote"
+      ]
+    },
+    {
+      "t": "La tarifa International se aplica al alumnado que necesita un I-20. La tarifa de comunidad de **$21,562** es la cifra que hay que comparar con la matrícula publicada de otros centros, ya que es el precio para una familia sin vinculación parroquial.",
+      "of": "bf157ee9",
+      "at": [
+        "charlotte-catholic:sections[0].figureNote2"
+      ]
+    },
+    {
+      "t": "Qué más paga una familia",
+      "of": "3a2b4304",
+      "at": [
+        "charlotte-catholic:sections[1].title"
+      ]
+    },
+    {
+      "t": "Tarifas publicadas",
+      "of": "5cf0420e",
+      "at": [
+        "charlotte-catholic:sections[1].componentsTitle"
+      ]
+    },
+    {
+      "t": "Cuota de capital — $1,995 por FAMILIA",
+      "of": "14bbf874",
+      "at": [
+        "charlotte-catholic:sections[1].components[0].label"
+      ]
+    },
+    {
+      "t": "Tasa de solicitud — $120 por alumno",
+      "of": "e4445282",
+      "at": [
+        "charlotte-catholic:sections[1].components[1].label"
+      ]
+    },
+    {
+      "t": "Cuota de matrícula continua — $150 por alumno que regresa",
+      "of": "123a2fbe",
+      "at": [
+        "charlotte-catholic:sections[1].components[2].label"
+      ]
+    },
+    {
+      "t": "Comisión del plan de pago FACTS — $15–$45 por familia",
+      "of": "84475fdc",
+      "at": [
+        "charlotte-catholic:sections[1].components[3].label"
+      ]
+    },
+    {
+      "t": "Tasa de solicitud de ayuda en Clarity — $65",
+      "of": "8b71866a",
+      "at": [
+        "charlotte-catholic:sections[1].components[4].label"
+      ]
+    },
+    {
+      "t": "Libros, tecnología y tasas de asignaturas",
+      "of": "95c29770",
+      "at": [
+        "charlotte-catholic:sections[1].components[5].label"
+      ]
+    },
+    {
+      "t": "Costes de participación deportiva y de packs de equipación",
+      "of": "85f78519",
+      "at": [
+        "charlotte-catholic:sections[1].components[6].label"
+      ]
+    },
+    {
+      "t": "Viajes de la banda — el viaje al desfile de Dublín se hace cada cuatro años",
+      "of": "03833e66",
+      "at": [
+        "charlotte-catholic:sections[1].components[7].label"
+      ]
+    },
+    {
+      "t": "La **cuota de capital se cobra por familia y no por alumno**, así que, a diferencia de las tasas de solicitud y de matrícula, no aumenta con el número de hijos matriculados.",
+      "of": "88be790b",
+      "at": [
+        "charlotte-catholic:sections[1].componentsNote"
+      ]
+    },
+    {
+      "t": "Una familia de primer año con la tarifa de comunidad y un solo alumno paga $21,562 + $1,995 + $120 = **$23,677** antes de libros, actividades o deportes.",
+      "of": "c3f0715f",
+      "at": [
+        "charlotte-catholic:sections[1].componentsAside"
+      ]
+    },
+    {
+      "t": "Cómo se valora la ayuda y en qué plazos",
+      "of": "6fea59c3",
+      "at": [
+        "charlotte-catholic:sections[2].title"
+      ]
+    },
+    {
+      "t": "Febrero",
+      "of": "fca77633",
+      "at": [
+        "charlotte-catholic:sections[2].timeline[0].when"
+      ]
+    },
+    {
+      "t": "Se abre el plazo de solicitud de **NCSEAA** para el curso siguiente — cubre la **Opportunity Scholarship** y **ESA+**",
+      "of": "52e4974c",
+      "at": [
+        "charlotte-catholic:sections[2].timeline[0].detail"
+      ]
+    },
+    {
+      "t": "23 de marzo de 2026",
+      "of": "ca4e1acd",
+      "at": [
+        "charlotte-catholic:sections[2].timeline[1].when"
+      ]
+    },
+    {
+      "t": "**Se abre la matriculación para 2026-27**",
+      "of": "92eb0e82",
+      "at": [
+        "charlotte-catholic:sections[2].timeline[1].detail"
+      ]
+    },
+    {
+      "t": "Antes del 15 de mayo",
+      "of": "27a6a3a5",
+      "at": [
+        "charlotte-catholic:sections[2].timeline[2].when"
+      ]
+    },
+    {
+      "t": "**Fecha límite de Family Individualized Tuition (FIT) para el alumnado que continúa.** A las familias nuevas se les recomienda solicitarla junto con la solicitud de admisión",
+      "of": "4290907b",
+      "at": [
+        "charlotte-catholic:sections[2].timeline[2].detail"
+      ]
+    },
+    {
+      "t": "Plataforma — Clarity, no FACTS",
+      "of": "fca02a28",
+      "at": [
+        "charlotte-catholic:sections[2].boxes[0].title"
+      ]
+    },
+    {
+      "t": "La necesidad se valora mediante la solicitud de **Clarity** (tasa de **$65**). **FACTS aparece en este sistema solo como procesador de pagos**, no como plataforma de valoración de la necesidad — una confusión fácil y con consecuencias, ya que la mayoría de centros de esta lista usa FACTS Grant & Aid para la valoración. **No se usa TADS.**",
+      "of": "064cd162",
+      "at": [
+        "charlotte-catholic:sections[2].boxes[0].body"
+      ]
+    },
+    {
+      "t": "Family Individualized Tuition (FIT)",
+      "of": "b47df294",
+      "at": [
+        "charlotte-catholic:sections[2].boxes[1].title"
+      ]
+    },
+    {
+      "t": "El programa por necesidad de la diócesis. Las ayudas varían según las circunstancias de la familia y la disponibilidad de fondos, así que una ayuda en un curso no garantiza la misma al siguiente.",
+      "of": "8fdbb4b8",
+      "at": [
+        "charlotte-catholic:sections[2].boxes[1].body"
+      ]
+    },
+    {
+      "t": "Descuentos por varios hijos — solo para familias católicas participantes",
+      "of": "6dda8413",
+      "at": [
+        "charlotte-catholic:sections[2].boxes[2].title"
+      ]
+    },
+    {
+      "t": "Segundo hijo **10%**, tercero **25%**, cuarto **50%**, quinto y siguientes **100%**. Nótese que se aplican únicamente a la tarifa católica participante, lo que acentúa la ventaja del estatus parroquial en las familias numerosas.",
+      "of": "d729c103",
+      "at": [
+        "charlotte-catholic:sections[2].boxes[2].body"
+      ]
+    },
+    {
+      "t": "No se publica ningún calendario de resolución, proceso de recurso ni política de techo de las ayudas. No se indica si las ayudas de FIT se renuevan automáticamente al volver a solicitarlas.",
+      "of": "19c32b5c",
+      "at": [
+        "charlotte-catholic:sections[2].boxes[3].body"
+      ]
+    },
+    {
+      "t": "Qué concede realmente el programa de ayudas",
+      "of": "5f013ce1",
+      "at": [
+        "charlotte-catholic:sections[3].title"
+      ]
+    },
+    {
+      "t": "SOLO A NIVEL DIOCESANO",
+      "of": "8f0b1009",
+      "at": [
+        "charlotte-catholic:sections[3].tag"
+      ]
+    },
+    {
+      "t": "No existen cifras de ayuda por centro",
+      "of": "3b95fbe8",
+      "at": [
+        "charlotte-catholic:sections[3].boxes[0].title"
+      ]
+    },
+    {
+      "t": "MACS publica los datos de ayuda **solo a nivel de toda la diócesis, nunca por centro**. No hay ningún porcentaje publicado de alumnado de CCHS que recibe ayuda, ni el total de ayuda concedida en CCHS, ni una ayuda media. Esto es una forma de divulgar la información, no una laguna de la investigación — las cifras no se publican en ningún sitio para este centro en concreto.",
+      "of": "7cd884da",
+      "at": [
+        "charlotte-catholic:sections[3].boxes[0].body"
+      ]
+    },
+    {
+      "t": "Financiación estatal",
+      "of": "c3eaa0ef",
+      "at": [
+        "charlotte-catholic:sections[4].navTitle"
+      ]
+    },
+    {
+      "t": "Becas y cheques escolares del estado",
+      "of": "a398acdd",
+      "at": [
+        "charlotte-catholic:sections[4].title"
+      ]
+    },
+    {
+      "t": "ESA+",
+      "of": "4a10fc69",
+      "at": [
+        "charlotte-catholic:sections[4].ladder[0].gift",
+        "hickory-grove-christian:sections[3].plans[2].figure"
+      ]
+    },
+    {
+      "t": "**$9,000 o $17,000** al año para alumnado con discapacidades que cumplan los requisitos — la mayor capa de financiación disponible aquí",
+      "of": "b47647bd",
+      "at": [
+        "charlotte-catholic:sections[4].ladder[0].detail"
+      ]
+    },
+    {
+      "t": "Opportunity Scholarship",
+      "of": "2836de02",
+      "at": [
+        "charlotte-catholic:sections[4].ladder[1].gift",
+        "carmel-christian:sections[4].plans[2].label",
+        "hickory-grove-christian:sections[3].plans[1].label"
+      ]
+    },
+    {
+      "t": "Hasta **$7,000+** al año y, desde la ampliación de 2024, **sin límite de ingresos**, así que familias antes excluidas ahora cumplen los requisitos",
+      "of": "db59fa2b",
+      "at": [
+        "charlotte-catholic:sections[4].ladder[1].detail"
+      ]
+    },
+    {
+      "t": "Son programas del **estado de Carolina del Norte** gestionados por NCSEAA, no ayudas de CCHS. Se acumulan con FIT en lugar de sustituirla, y la diócesis orienta activamente a las familias hacia ellos.",
+      "of": "61aeb20e",
+      "at": [
+        "charlotte-catholic:sections[4].note"
+      ]
+    },
+    {
+      "t": "CCHS y MACS no publican **ninguna beca por mérito** propia — no aparece ninguna ayuda por mérito académico, deportivo o artístico en ningún punto del material publicado. Aquí la ayuda es por necesidad (FIT), por estatus parroquial (la tarifa católica y los descuentos por varios hijos) o de financiación estatal.",
+      "of": "7106447c",
+      "at": [
+        "charlotte-catholic:sections[4].boxes[0].body"
+      ]
+    },
+    {
+      "t": "Mecánica de los pagos",
+      "of": "73acf5f6",
+      "at": [
+        "charlotte-catholic:sections[5].title"
+      ]
+    },
+    {
+      "t": "FACTS",
+      "of": "fe5b76c4",
+      "at": [
+        "charlotte-catholic:sections[5].plans[0].figure",
+        "carmel-christian:sections[5].plans[1].figure",
+        "hickory-grove-christian:sections[4].plans[1].figure"
+      ]
+    },
+    {
+      "t": "Procesador de pagos",
+      "of": "90169b25",
+      "at": [
+        "charlotte-catholic:sections[5].plans[0].label"
+      ]
+    },
+    {
+      "t": "Gestiona el cargo de la matrícula. Comisión del plan: **$15–$45 por familia**.",
+      "of": "00f42751",
+      "at": [
+        "charlotte-catholic:sections[5].plans[0].detail"
+      ]
+    },
+    {
+      "t": "$150",
+      "of": "24155a9b",
+      "at": [
+        "charlotte-catholic:sections[5].plans[1].figure"
+      ]
+    },
+    {
+      "t": "Matrícula continua",
+      "of": "396a9f6e",
+      "at": [
+        "charlotte-catholic:sections[5].plans[1].label"
+      ]
+    },
+    {
+      "t": "Se cobra por cada alumno que continúa para reservar la plaza del curso siguiente.",
+      "of": "cfc5d5cf",
+      "at": [
+        "charlotte-catholic:sections[5].plans[1].detail"
+      ]
+    },
+    {
+      "t": "15 de mayo",
+      "of": "3b28a9a4",
+      "at": [
+        "charlotte-catholic:sections[5].plans[2].figure"
+      ]
+    },
+    {
+      "t": "Fecha límite de FIT",
+      "of": "2a65d838",
+      "at": [
+        "charlotte-catholic:sections[5].plans[2].label"
+      ]
+    },
+    {
+      "t": "Las familias que continúan deben solicitarla antes de esta fecha para que se les tenga en cuenta.",
+      "of": "4d68970b",
+      "at": [
+        "charlotte-catholic:sections[5].plans[2].detail"
+      ]
+    },
+    {
+      "t": "No se publica el número de plazos del plan de FACTS, ni si existe un descuento por pago íntegro, ni ninguna política de impago o de baja — todo eso está dentro del portal de matriculación.",
+      "of": "352d01a7",
+      "at": [
+        "charlotte-catholic:sections[5].boxes[0].body"
+      ]
+    },
+    {
+      "t": "Qué preguntar",
+      "of": "bfb2863d",
+      "at": [
+        "charlotte-catholic:sections[6].navTitle",
+        "charlotte-catholic:sections[6].title"
+      ]
+    },
+    {
+      "t": "Pregunte en la oficina de admisiones",
+      "of": "ae061cf3",
+      "at": [
+        "charlotte-catholic:sections[6].questionsTitle"
+      ]
+    },
+    {
+      "t": "¿Qué nos califica exactamente como familia “católica participante” y qué parroquia lo verifica?",
+      "of": "b8599d7f",
+      "at": [
+        "charlotte-catholic:sections[6].questions[0]"
+      ]
+    },
+    {
+      "t": "Si nuestra participación parroquial cambia a mitad de la escolarización, ¿cambia con ella nuestra tarifa de matrícula?",
+      "of": "56ba5b67",
+      "at": [
+        "charlotte-catholic:sections[6].questions[1]"
+      ]
+    },
+    {
+      "t": "¿Qué concedió realmente FIT el año pasado a familias con nuestro nivel de ingresos, aunque sea como horquilla?",
+      "of": "d1f2a637",
+      "at": [
+        "charlotte-catholic:sections[6].questions[2]"
+      ]
+    },
+    {
+      "t": "¿Las ayudas de FIT se renuevan automáticamente al volver a solicitarlas o se valoran de cero cada año?",
+      "of": "471d67b0",
+      "at": [
+        "charlotte-catholic:sections[6].questions[3]"
+      ]
+    },
+    {
+      "t": "¿Los descuentos por varios hijos se aplican antes o después de calcular la ayuda de FIT?",
+      "of": "2e987b5b",
+      "at": [
+        "charlotte-catholic:sections[6].questions[4]"
+      ]
+    },
+    {
+      "t": "¿La cuota de capital de $1,995 se repite cada año o se cobra una sola vez?",
+      "of": "a4f5fe24",
+      "at": [
+        "charlotte-catholic:sections[6].questions[5]"
+      ]
+    },
+    {
+      "t": "¿En cuántos plazos se reparte el plan de FACTS y hay descuento por pagar el importe íntegro?",
+      "of": "852f4492",
+      "at": [
+        "charlotte-catholic:sections[6].questions[6]"
+      ]
+    },
+    {
+      "t": "¿Qué debemos presupuestar además de la matrícula para libros, deportes y el viaje de la banda a Dublín?",
+      "of": "8ad79183",
+      "at": [
+        "charlotte-catholic:sections[6].questions[7]"
       ]
     },
     {
@@ -4965,14 +5493,6 @@
       ]
     },
     {
-      "t": "Opportunity Scholarship",
-      "of": "2836de02",
-      "at": [
-        "carmel-christian:sections[4].plans[2].label",
-        "hickory-grove-christian:sections[3].plans[1].label"
-      ]
-    },
-    {
       "t": "La escuela hace referencia al voucher estatal, con los topes de ingresos eliminados y la elegibilidad ampliada a estudiantes de escuelas privadas actualmente inscritos.",
       "of": "934cab38",
       "at": [
@@ -5005,14 +5525,6 @@
       "of": "899993cf",
       "at": [
         "carmel-christian:sections[5].plans[0].detail"
-      ]
-    },
-    {
-      "t": "FACTS",
-      "of": "fe5b76c4",
-      "at": [
-        "carmel-christian:sections[5].plans[1].figure",
-        "hickory-grove-christian:sections[4].plans[1].figure"
       ]
     },
     {
@@ -5281,13 +5793,6 @@
       "of": "da5dcffc",
       "at": [
         "hickory-grove-christian:sections[3].plans[1].detail"
-      ]
-    },
-    {
-      "t": "ESA+",
-      "of": "4a10fc69",
-      "at": [
-        "hickory-grove-christian:sections[3].plans[2].figure"
       ]
     },
     {

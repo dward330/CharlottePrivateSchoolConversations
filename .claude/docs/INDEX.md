@@ -22,6 +22,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 - [Cannon School](college-support/cannon.md) — 10 docs
 - [Carmel Christian School](college-support/carmel-christian.md) — 1 docs
+- [Charlotte Catholic High School](college-support/charlotte-catholic.md) — 1 docs
 - [Charlotte Christian School](college-support/charlotte-christian.md) — 11 docs
 - [Charlotte Country Day School](college-support/charlotte-country-day.md) — 9 docs
 - [Charlotte Latin School](college-support/charlotte-latin.md) — 11 docs
@@ -35,6 +36,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 - [Cannon School](course-offerings/cannon.md) — 1 docs
 - [Carmel Christian School](course-offerings/carmel-christian.md) — 2 docs
+- [Charlotte Catholic High School](course-offerings/charlotte-catholic.md) — 1 docs
 - [Charlotte Christian School](course-offerings/charlotte-christian.md) — 1 docs
 - [Charlotte Country Day School](course-offerings/charlotte-country-day.md) — 1 docs
 - [Charlotte Latin School](course-offerings/charlotte-latin.md) — 1 docs
@@ -48,6 +50,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 - [Cannon School](financial-aid-tuition/cannon.md) — 2 docs
 - [Carmel Christian School](financial-aid-tuition/carmel-christian.md) — 1 docs
+- [Charlotte Catholic High School](financial-aid-tuition/charlotte-catholic.md) — 1 docs
 - [Charlotte Christian School](financial-aid-tuition/charlotte-christian.md) — 1 docs
 - [Charlotte Country Day School](financial-aid-tuition/charlotte-country-day.md) — 2 docs
 - [Charlotte Latin School](financial-aid-tuition/charlotte-latin.md) — 1 docs
@@ -61,6 +64,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 - [Cannon School](sports/cannon.md) — 15 docs
 - [Carmel Christian School](sports/carmel-christian.md) — 1 docs
+- [Charlotte Catholic High School](sports/charlotte-catholic.md) — 1 docs
 - [Charlotte Christian School](sports/charlotte-christian.md) — 15 docs
 - [Charlotte Country Day School](sports/charlotte-country-day.md) — 15 docs
 - [Charlotte Latin School](sports/charlotte-latin.md) — 15 docs
@@ -74,6 +78,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 - [Cannon School](student-clubs/cannon.md) — 10 docs
 - [Carmel Christian School](student-clubs/carmel-christian.md) — 1 docs
+- [Charlotte Catholic High School](student-clubs/charlotte-catholic.md) — 1 docs
 - [Charlotte Christian School](student-clubs/charlotte-christian.md) — 10 docs
 - [Charlotte Country Day School](student-clubs/charlotte-country-day.md) — 10 docs
 - [Charlotte Latin School](student-clubs/charlotte-latin.md) — 8 docs
@@ -87,6 +92,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 - [Cannon School](summer-programs/cannon.md) — 1 docs
 - [Carmel Christian School](summer-programs/carmel-christian.md) — 1 docs
+- [Charlotte Catholic High School](summer-programs/charlotte-catholic.md) — 1 docs
 - [Charlotte Christian School](summer-programs/charlotte-christian.md) — 1 docs
 - [Charlotte Country Day School](summer-programs/charlotte-country-day.md) — 1 docs
 - [Charlotte Latin School](summer-programs/charlotte-latin.md) — 1 docs
@@ -99,6 +105,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 - [Cannon School](the-arts/cannon.md) — 8 docs
 - [Carmel Christian School](the-arts/carmel-christian.md) — 1 docs
+- [Charlotte Catholic High School](the-arts/charlotte-catholic.md) — 1 docs
 - [Charlotte Christian School](the-arts/charlotte-christian.md) — 8 docs
 - [Charlotte Country Day School](the-arts/charlotte-country-day.md) — 8 docs
 - [Charlotte Latin School](the-arts/charlotte-latin.md) — 7 docs
@@ -110,4 +117,4 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 
 ## Data layer
-- `src/data/schools.json` — 377 documents across 8 topics and 10 schools.
+- `src/data/schools.json` — 384 documents across 8 topics and 11 schools.

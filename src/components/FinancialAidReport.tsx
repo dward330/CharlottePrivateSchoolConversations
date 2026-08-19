@@ -350,6 +350,8 @@ function Section({ section, index }: { section: ReportSection; index: number }) 
 
   const hasFigure = !!(bands || (ranges && rangeMax) || ladder)
   const hasSide = !!(boxes?.length || source)
+  /** Does the question checklist have anything to sit beside? */
+  const hasAside = !!(stats?.length || boxes?.length)
 
   const figure = bands ? (
     <TuitionChart
@@ -423,22 +425,27 @@ function Section({ section, index }: { section: ReportSection; index: number }) 
         </div>
       )}
 
-      {/* Section 06 pairs a stat strip + boxes against the question checklist. */}
+      {/* Section 06 pairs a stat strip + boxes against the question checklist.
+          A section that carries questions but NEITHER stats nor boxes has an
+          empty left column, so the checklist spans the full width instead of
+          being pinned right beside dead space. */}
       {questions ? (
-        <div className="fa-split fa-split-wide">
-          <div className="fa-side">
-            {stats && (
-              <div className="stat-strip fa-stats">
-                {stats.map((s) => (
-                  <div key={s.label} className="stat-tile">
-                    <div className="stat-tile-val">{localizeMoneyText(s.value)}</div>
-                    <div className="stat-tile-label">{s.label}</div>
-                  </div>
-                ))}
-              </div>
-            )}
-            {boxes && <Boxes boxes={boxes} />}
-          </div>
+        <div className={hasAside ? 'fa-split fa-split-wide' : undefined}>
+          {hasAside && (
+            <div className="fa-side">
+              {stats && (
+                <div className="stat-strip fa-stats">
+                  {stats.map((s) => (
+                    <div key={s.label} className="stat-tile">
+                      <div className="stat-tile-val">{localizeMoneyText(s.value)}</div>
+                      <div className="stat-tile-label">{s.label}</div>
+                    </div>
+                  ))}
+                </div>
+              )}
+              {boxes && <Boxes boxes={boxes} />}
+            </div>
+          )}
           <div className="fa-box">
             {section.questionsTitle && (
               <div className="fa-figure-title">{section.questionsTitle}</div>

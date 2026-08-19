@@ -51,6 +51,7 @@ const EXPORTS = {
   'providence-day': 'providenceDay',
   'charlotte-latin': 'charlotteLatin',
   'charlotte-christian': 'charlotteChristian',
+  'charlotte-catholic': 'charlotteCatholic',
   'charlotte-country-day': 'charlotteCountryDay',
   cannon: 'cannon',
   'covenant-day': 'covenantDay',

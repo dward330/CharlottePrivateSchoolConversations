@@ -165,6 +165,7 @@
         "charlotte-christian:divisions[0].departments[1].courses[3].title",
         "charlotte-christian:divisions[1].departments[2].name",
         "charlotte-christian:divisions[2].departments[3].name",
+        "charlotte-catholic:divisions[0].departments[6].name",
         "charlotte-country-day:divisions[0].departments[0].courses[3].title",
         "charlotte-country-day:divisions[1].departments[2].courses[0].title",
         "charlotte-country-day:divisions[1].departments[2].courses[2].title",
@@ -208,6 +209,7 @@
         "charlotte-christian:divisions[0].departments[1].courses[4].title",
         "charlotte-christian:divisions[1].departments[3].name",
         "charlotte-christian:divisions[2].departments[4].name",
+        "charlotte-catholic:divisions[0].departments[7].name",
         "charlotte-country-day:divisions[0].departments[0].courses[4].title",
         "charlotte-country-day:divisions[1].departments[1].courses[3].title",
         "charlotte-country-day:divisions[1].departments[1].courses[5].title",
@@ -397,6 +399,8 @@
         "charlotte-latin:divisions[0].departments[2].courses[3].title",
         "charlotte-latin:divisions[2].departments[10].name",
         "charlotte-christian:divisions[0].departments[2].courses[3].title",
+        "charlotte-catholic:divisions[0].departments[5].name",
+        "charlotte-catholic:divisions[0].departments[5].courses[1].title",
         "charlotte-country-day:divisions[0].departments[2].courses[1].title",
         "charlotte-country-day:divisions[1].departments[5].courses[0].title",
         "charlotte-country-day:divisions[2].departments[8].name",
@@ -549,6 +553,7 @@
         "charlotte-latin:divisions[1].departments[0].name",
         "charlotte-latin:divisions[2].departments[0].name",
         "charlotte-christian:divisions[2].departments[1].name",
+        "charlotte-catholic:divisions[0].departments[0].name",
         "charlotte-country-day:divisions[1].departments[1].courses[2].title",
         "charlotte-country-day:divisions[1].departments[1].courses[4].title",
         "charlotte-country-day:divisions[2].departments[0].name",
@@ -991,6 +996,7 @@
         "charlotte-latin:divisions[2].departments[3].name",
         "charlotte-christian:divisions[1].departments[1].name",
         "charlotte-christian:divisions[2].departments[2].name",
+        "charlotte-catholic:divisions[0].departments[2].name",
         "charlotte-country-day:divisions[0].departments[0].courses[2].title",
         "charlotte-country-day:divisions[1].departments[0].name",
         "charlotte-country-day:divisions[2].departments[1].name",
@@ -1115,7 +1121,25 @@
         "charlotte-latin:divisions[2].departments[6].courses[4].tag",
         "charlotte-latin:divisions[2].departments[7].courses[1].tag",
         "charlotte-latin:divisions[2].departments[7].courses[2].tag",
-        "charlotte-latin:divisions[2].departments[8].courses[4].tag"
+        "charlotte-latin:divisions[2].departments[8].courses[4].tag",
+        "charlotte-catholic:divisions[0].departments[0].courses[1].tag",
+        "charlotte-catholic:divisions[0].departments[0].courses[5].tag",
+        "charlotte-catholic:divisions[0].departments[2].courses[1].tag",
+        "charlotte-catholic:divisions[0].departments[2].courses[3].tag",
+        "charlotte-catholic:divisions[0].departments[2].courses[6].tag",
+        "charlotte-catholic:divisions[0].departments[2].courses[8].tag",
+        "charlotte-catholic:divisions[0].departments[2].courses[9].tag",
+        "charlotte-catholic:divisions[0].departments[2].courses[11].tag",
+        "charlotte-catholic:divisions[0].departments[6].courses[1].tag",
+        "charlotte-catholic:divisions[0].departments[6].courses[3].tag",
+        "charlotte-catholic:divisions[0].departments[7].courses[1].tag",
+        "charlotte-catholic:divisions[0].departments[10].courses[2].tag",
+        "charlotte-catholic:divisions[0].departments[10].courses[3].tag",
+        "charlotte-catholic:divisions[0].departments[10].courses[14].tag",
+        "charlotte-catholic:divisions[0].departments[10].courses[15].tag",
+        "charlotte-catholic:divisions[0].departments[10].courses[21].tag",
+        "charlotte-catholic:divisions[0].departments[10].courses[22].tag",
+        "charlotte-catholic:divisions[0].departments[10].courses[23].tag"
       ],
       "t": "Avanzada"
     },
@@ -1163,7 +1187,8 @@
       "text": "Advanced Algebra I",
       "of": "c94b63b0",
       "at": [
-        "providence-day:divisions[1].departments[1].courses[6].title"
+        "providence-day:divisions[1].departments[1].courses[6].title",
+        "charlotte-catholic:divisions[0].departments[2].courses[1].title"
       ],
       "t": "Advanced Algebra I"
     },
@@ -2012,6 +2037,7 @@
         "providence-day:divisions[2].title",
         "charlotte-latin:divisions[2].title",
         "charlotte-christian:divisions[2].title",
+        "charlotte-catholic:divisions[0].title",
         "charlotte-country-day:divisions[2].title",
         "cannon:divisions[2].title",
         "davidson-day:divisions[2].title",
@@ -2386,6 +2412,30 @@
         "charlotte-christian:divisions[2].departments[7].courses[3].tag",
         "charlotte-christian:divisions[2].departments[7].courses[4].tag",
         "charlotte-christian:divisions[2].departments[7].courses[7].tag",
+        "charlotte-catholic:divisions[0].departments[0].courses[10].tag",
+        "charlotte-catholic:divisions[0].departments[0].courses[13].tag",
+        "charlotte-catholic:divisions[0].departments[0].courses[14].tag",
+        "charlotte-catholic:divisions[0].departments[1].courses[11].tag",
+        "charlotte-catholic:divisions[0].departments[1].courses[12].tag",
+        "charlotte-catholic:divisions[0].departments[2].courses[14].tag",
+        "charlotte-catholic:divisions[0].departments[2].courses[15].tag",
+        "charlotte-catholic:divisions[0].departments[2].courses[16].tag",
+        "charlotte-catholic:divisions[0].departments[6].courses[10].tag",
+        "charlotte-catholic:divisions[0].departments[6].courses[11].tag",
+        "charlotte-catholic:divisions[0].departments[6].courses[12].tag",
+        "charlotte-catholic:divisions[0].departments[6].courses[13].tag",
+        "charlotte-catholic:divisions[0].departments[6].courses[14].tag",
+        "charlotte-catholic:divisions[0].departments[7].courses[6].tag",
+        "charlotte-catholic:divisions[0].departments[7].courses[8].tag",
+        "charlotte-catholic:divisions[0].departments[7].courses[11].tag",
+        "charlotte-catholic:divisions[0].departments[7].courses[14].tag",
+        "charlotte-catholic:divisions[0].departments[7].courses[15].tag",
+        "charlotte-catholic:divisions[0].departments[9].courses[5].tag",
+        "charlotte-catholic:divisions[0].departments[10].courses[6].tag",
+        "charlotte-catholic:divisions[0].departments[10].courses[11].tag",
+        "charlotte-catholic:divisions[0].departments[10].courses[18].tag",
+        "charlotte-catholic:divisions[0].departments[10].courses[26].tag",
+        "charlotte-catholic:divisions[0].departments[10].courses[27].tag",
         "charlotte-country-day:divisions[2].departments[0].courses[3].tag",
         "charlotte-country-day:divisions[2].departments[0].courses[4].tag",
         "charlotte-country-day:divisions[2].departments[1].courses[11].tag",
@@ -2571,6 +2621,7 @@
       "of": "64b858bb",
       "at": [
         "providence-day:divisions[2].departments[1].courses[1].title",
+        "charlotte-catholic:divisions[0].departments[7].courses[0].title",
         "covenant-day:divisions[0].departments[3].courses[0].title",
         "carmel-christian:divisions[0].departments[4].courses[0].title",
         "carmel-christian:divisions[0].departments[4].courses[1].title",
@@ -2946,6 +2997,7 @@
         "charlotte-latin:divisions[1].departments[2].courses[4].title",
         "charlotte-latin:divisions[2].departments[3].courses[0].title",
         "charlotte-christian:divisions[2].departments[2].courses[0].title",
+        "charlotte-catholic:divisions[0].departments[2].courses[0].title",
         "charlotte-country-day:divisions[2].departments[1].courses[0].title",
         "cannon:divisions[1].departments[1].courses[3].title",
         "davidson-day:divisions[2].departments[1].courses[0].title",
@@ -2969,6 +3021,7 @@
         "providence-day:divisions[2].departments[2].courses[1].title",
         "charlotte-latin:divisions[2].departments[3].courses[2].title",
         "charlotte-christian:divisions[2].departments[2].courses[1].title",
+        "charlotte-catholic:divisions[0].departments[2].courses[2].title",
         "charlotte-country-day:divisions[1].departments[0].courses[8].title",
         "charlotte-country-day:divisions[2].departments[1].courses[1].title",
         "covenant-day:divisions[0].departments[1].courses[1].title",
@@ -3024,6 +3077,7 @@
       "at": [
         "providence-day:divisions[2].departments[2].courses[4].title",
         "charlotte-christian:divisions[2].departments[2].courses[3].title",
+        "charlotte-catholic:divisions[0].departments[2].courses[5].title",
         "charlotte-country-day:divisions[2].departments[1].courses[3].title",
         "davidson-day:divisions[2].departments[1].courses[4].title",
         "carmel-christian:divisions[0].departments[2].courses[3].title",
@@ -3465,7 +3519,8 @@
       "text": "Forensic Science",
       "of": "fba6e9f2",
       "at": [
-        "providence-day:divisions[2].departments[3].courses[11].title"
+        "providence-day:divisions[2].departments[3].courses[11].title",
+        "charlotte-catholic:divisions[0].departments[6].courses[16].title"
       ],
       "t": "Ciencia forense"
     },
@@ -4311,6 +4366,7 @@
       "at": [
         "providence-day:divisions[2].departments[7].courses[8].title",
         "charlotte-latin:divisions[2].departments[7].courses[6].title",
+        "charlotte-catholic:divisions[0].departments[0].courses[16].title",
         "charlotte-country-day:divisions[2].departments[5].courses[26].title",
         "covenant-day:divisions[0].departments[6].courses[13].title",
         "carmel-christian:divisions[0].departments[7].courses[14].title",
@@ -4636,6 +4692,49 @@
         "charlotte-christian:divisions[2].departments[7].courses[9].tag",
         "charlotte-christian:divisions[2].departments[7].courses[22].tag",
         "charlotte-christian:divisions[2].departments[7].courses[26].tag",
+        "charlotte-catholic:divisions[0].departments[0].courses[6].tag",
+        "charlotte-catholic:divisions[0].departments[0].courses[9].tag",
+        "charlotte-catholic:divisions[0].departments[0].courses[12].tag",
+        "charlotte-catholic:divisions[0].departments[0].courses[17].tag",
+        "charlotte-catholic:divisions[0].departments[1].courses[6].tag",
+        "charlotte-catholic:divisions[0].departments[1].courses[7].tag",
+        "charlotte-catholic:divisions[0].departments[1].courses[15].tag",
+        "charlotte-catholic:divisions[0].departments[1].courses[16].tag",
+        "charlotte-catholic:divisions[0].departments[1].courses[17].tag",
+        "charlotte-catholic:divisions[0].departments[2].courses[4].tag",
+        "charlotte-catholic:divisions[0].departments[2].courses[7].tag",
+        "charlotte-catholic:divisions[0].departments[2].courses[12].tag",
+        "charlotte-catholic:divisions[0].departments[2].courses[13].tag",
+        "charlotte-catholic:divisions[0].departments[5].courses[7].tag",
+        "charlotte-catholic:divisions[0].departments[6].courses[4].tag",
+        "charlotte-catholic:divisions[0].departments[6].courses[8].tag",
+        "charlotte-catholic:divisions[0].departments[6].courses[9].tag",
+        "charlotte-catholic:divisions[0].departments[7].courses[2].tag",
+        "charlotte-catholic:divisions[0].departments[7].courses[5].tag",
+        "charlotte-catholic:divisions[0].departments[7].courses[10].tag",
+        "charlotte-catholic:divisions[0].departments[7].courses[13].tag",
+        "charlotte-catholic:divisions[0].departments[8].courses[12].tag",
+        "charlotte-catholic:divisions[0].departments[8].courses[13].tag",
+        "charlotte-catholic:divisions[0].departments[9].courses[3].tag",
+        "charlotte-catholic:divisions[0].departments[9].courses[4].tag",
+        "charlotte-catholic:divisions[0].departments[9].courses[17].tag",
+        "charlotte-catholic:divisions[0].departments[9].courses[19].tag",
+        "charlotte-catholic:divisions[0].departments[9].courses[20].tag",
+        "charlotte-catholic:divisions[0].departments[9].courses[22].tag",
+        "charlotte-catholic:divisions[0].departments[9].courses[24].tag",
+        "charlotte-catholic:divisions[0].departments[9].courses[28].tag",
+        "charlotte-catholic:divisions[0].departments[9].courses[29].tag",
+        "charlotte-catholic:divisions[0].departments[9].courses[32].tag",
+        "charlotte-catholic:divisions[0].departments[9].courses[34].tag",
+        "charlotte-catholic:divisions[0].departments[9].courses[36].tag",
+        "charlotte-catholic:divisions[0].departments[10].courses[4].tag",
+        "charlotte-catholic:divisions[0].departments[10].courses[5].tag",
+        "charlotte-catholic:divisions[0].departments[10].courses[9].tag",
+        "charlotte-catholic:divisions[0].departments[10].courses[10].tag",
+        "charlotte-catholic:divisions[0].departments[10].courses[16].tag",
+        "charlotte-catholic:divisions[0].departments[10].courses[17].tag",
+        "charlotte-catholic:divisions[0].departments[10].courses[24].tag",
+        "charlotte-catholic:divisions[0].departments[10].courses[25].tag",
         "charlotte-country-day:divisions[1].departments[0].courses[4].tag",
         "charlotte-country-day:divisions[1].departments[0].courses[5].tag",
         "charlotte-country-day:divisions[2].departments[1].courses[2].tag",
@@ -5474,6 +5573,7 @@
         "charlotte-latin:divisions[2].departments[5].name",
         "charlotte-christian:divisions[1].departments[4].name",
         "charlotte-christian:divisions[2].departments[5].name",
+        "charlotte-catholic:divisions[0].departments[10].name",
         "cannon:divisions[1].departments[2].name",
         "cannon:divisions[2].departments[4].name",
         "covenant-day:divisions[1].departments[0].courses[5].title",
@@ -5504,7 +5604,8 @@
       "of": "cb4b47ce",
       "at": [
         "charlotte-latin:divisions[1].departments[4].courses[1].title",
-        "charlotte-christian:divisions[2].departments[5].courses[2].title"
+        "charlotte-christian:divisions[2].departments[5].courses[2].title",
+        "charlotte-catholic:divisions[0].departments[10].courses[12].title"
       ],
       "t": "Latin I"
     },
@@ -6504,6 +6605,7 @@
       "at": [
         "charlotte-latin:divisions[2].departments[4].courses[5].title",
         "charlotte-christian:divisions[2].departments[3].courses[0].title",
+        "charlotte-catholic:divisions[0].departments[6].courses[0].title",
         "covenant-day:divisions[0].departments[2].courses[0].title",
         "davidson-day:divisions[2].departments[3].courses[7].title",
         "carmel-christian:divisions[0].departments[3].courses[0].title",
@@ -7249,7 +7351,8 @@
       "text": "Acting",
       "of": "3175a7ed",
       "at": [
-        "charlotte-latin:divisions[2].departments[8].courses[0].title"
+        "charlotte-latin:divisions[2].departments[8].courses[0].title",
+        "charlotte-catholic:divisions[0].departments[9].courses[27].title"
       ],
       "t": "Interpretación"
     },
@@ -7468,6 +7571,7 @@
       "of": "0a1761dd",
       "at": [
         "charlotte-christian:guideYear",
+        "charlotte-catholic:guideYear",
         "cannon:guideYear",
         "covenant-day:guideYear",
         "davidson-day:guideYear",
@@ -8296,6 +8400,7 @@
       "of": "1bc65428",
       "at": [
         "charlotte-christian:divisions[2].departments[1].courses[0].title",
+        "charlotte-catholic:divisions[0].departments[0].courses[0].title",
         "gaston-day:divisions[1].departments[0].courses[0].title"
       ],
       "t": "English 9"
@@ -8329,6 +8434,7 @@
       "of": "c122c0e0",
       "at": [
         "charlotte-christian:divisions[2].departments[1].courses[2].title",
+        "charlotte-catholic:divisions[0].departments[0].courses[4].title",
         "gaston-day:divisions[1].departments[0].courses[1].title"
       ],
       "t": "English 10"
@@ -8361,7 +8467,8 @@
       "text": "English 11",
       "of": "c222c273",
       "at": [
-        "charlotte-christian:divisions[2].departments[1].courses[4].title"
+        "charlotte-christian:divisions[2].departments[1].courses[4].title",
+        "charlotte-catholic:divisions[0].departments[0].courses[8].title"
       ],
       "t": "English 11"
     },
@@ -8394,6 +8501,7 @@
       "of": "c322c406",
       "at": [
         "charlotte-christian:divisions[2].departments[1].courses[6].title",
+        "charlotte-catholic:divisions[0].departments[0].courses[11].title",
         "charlotte-country-day:divisions[2].departments[0].courses[7].title"
       ],
       "t": "English 12"
@@ -8665,6 +8773,7 @@
       "of": "82ef0e1f",
       "at": [
         "charlotte-christian:divisions[2].departments[2].courses[9].title",
+        "charlotte-catholic:divisions[0].departments[2].courses[15].title",
         "cannon:divisions[2].departments[1].courses[12].title",
         "hickory-grove-christian:divisions[0].departments[2].courses[8].title"
       ],
@@ -8683,6 +8792,7 @@
       "of": "a9f18a1b",
       "at": [
         "charlotte-christian:divisions[2].departments[2].courses[10].title",
+        "charlotte-catholic:divisions[0].departments[2].courses[16].title",
         "cannon:divisions[2].departments[1].courses[13].title",
         "hickory-grove-christian:divisions[0].departments[2].courses[9].title"
       ],
@@ -8733,6 +8843,7 @@
       "of": "fc94aaff",
       "at": [
         "charlotte-christian:divisions[2].departments[2].courses[13].title",
+        "charlotte-catholic:divisions[0].departments[2].courses[14].title",
         "cannon:divisions[2].departments[1].courses[10].title",
         "hickory-grove-christian:divisions[0].departments[2].courses[10].title"
       ],
@@ -8819,6 +8930,7 @@
       "of": "0dc58442",
       "at": [
         "charlotte-christian:divisions[2].departments[3].courses[4].title",
+        "charlotte-catholic:divisions[0].departments[6].courses[7].title",
         "gaston-day:divisions[1].departments[2].courses[3].title"
       ],
       "t": "Física"
@@ -8869,6 +8981,7 @@
       "of": "c51bfac3",
       "at": [
         "charlotte-christian:divisions[2].departments[3].courses[7].title",
+        "charlotte-catholic:divisions[0].departments[6].courses[10].title",
         "cannon:divisions[2].departments[2].courses[11].title",
         "hickory-grove-christian:divisions[0].departments[3].courses[13].title"
       ],
@@ -8887,6 +9000,7 @@
       "of": "2be1d8a2",
       "at": [
         "charlotte-christian:divisions[2].departments[3].courses[8].title",
+        "charlotte-catholic:divisions[0].departments[6].courses[11].title",
         "cannon:divisions[2].departments[2].courses[10].title",
         "hickory-grove-christian:divisions[0].departments[3].courses[14].title"
       ],
@@ -8905,6 +9019,7 @@
       "of": "9b9ce692",
       "at": [
         "charlotte-christian:divisions[2].departments[3].courses[9].title",
+        "charlotte-catholic:divisions[0].departments[6].courses[12].title",
         "hickory-grove-christian:divisions[0].departments[3].courses[15].title"
       ],
       "t": "Advanced Placement Environmental Science"
@@ -9146,7 +9261,8 @@
       "text": "Economics",
       "of": "dcc44d8d",
       "at": [
-        "charlotte-christian:divisions[2].departments[4].courses[10].title"
+        "charlotte-christian:divisions[2].departments[4].courses[10].title",
+        "charlotte-catholic:divisions[0].departments[7].courses[12].title"
       ],
       "t": "Economía"
     },
@@ -9195,6 +9311,7 @@
       "of": "2caecc04",
       "at": [
         "charlotte-christian:divisions[2].departments[4].courses[13].title",
+        "charlotte-catholic:divisions[0].departments[7].courses[7].title",
         "hickory-grove-christian:divisions[0].departments[11].courses[3].title",
         "gaston-day:divisions[1].departments[7].courses[6].title"
       ],
@@ -9213,6 +9330,7 @@
       "of": "85b1bc09",
       "at": [
         "charlotte-christian:divisions[2].departments[4].courses[14].title",
+        "charlotte-catholic:divisions[0].departments[7].courses[8].title",
         "cannon:divisions[2].departments[3].courses[8].title",
         "hickory-grove-christian:divisions[0].departments[11].courses[2].title"
       ],
@@ -9326,7 +9444,8 @@
       "text": "Advanced Placement Latin",
       "of": "1bff639e",
       "at": [
-        "charlotte-christian:divisions[2].departments[5].courses[5].title"
+        "charlotte-christian:divisions[2].departments[5].courses[5].title",
+        "charlotte-catholic:divisions[0].departments[10].courses[18].title"
       ],
       "t": "Advanced Placement Latin"
     },
@@ -9572,6 +9691,7 @@
       "of": "db9005d5",
       "at": [
         "charlotte-christian:divisions[2].departments[7].courses[0].title",
+        "charlotte-catholic:divisions[0].departments[9].courses[0].title",
         "hickory-grove-christian:divisions[0].departments[6].courses[0].title"
       ],
       "t": "Art I"
@@ -9589,6 +9709,7 @@
       "of": "3fb8d494",
       "at": [
         "charlotte-christian:divisions[2].departments[7].courses[1].title",
+        "charlotte-catholic:divisions[0].departments[9].courses[1].title",
         "hickory-grove-christian:divisions[0].departments[6].courses[1].title"
       ],
       "t": "Art II"
@@ -9810,7 +9931,8 @@
       "text": "Introduction to Guitar",
       "of": "e54cadcc",
       "at": [
-        "charlotte-christian:divisions[2].departments[7].courses[14].title"
+        "charlotte-christian:divisions[2].departments[7].courses[14].title",
+        "charlotte-catholic:divisions[0].departments[9].courses[37].title"
       ],
       "t": "Introducción a la guitarra"
     },
@@ -10286,6 +10408,2869 @@
         "charlotte-christian:divisions[2].departments[10].courses[0].description"
       ],
       "t": "Produce el anuario de JK a 12.º curso, con crédito Honors disponible para los alumnos de tercer y último curso en su segundo o tercer año en la asignatura."
+    },
+    {
+      "text": "GRADES 9 – 12",
+      "of": "b750d992",
+      "at": [
+        "charlotte-catholic:divisions[0].grades",
+        "covenant-day:divisions[0].grades",
+        "carmel-christian:divisions[0].grades"
+      ],
+      "t": "GRADOS 9 – 12"
+    },
+    {
+      "text": "195 courses across 11 departments plus dual enrollment — 24 AP, 43 Honors and 18 Advanced, with Visual & Performing Arts the largest department at 39.",
+      "of": "ee05f62a",
+      "at": [
+        "charlotte-catholic:divisions[0].teaser"
+      ],
+      "t": "195 asignaturas en 11 departamentos más la matrícula dual — 24 AP, 43 Honors y 18 Advanced, con Visual & Performing Arts como el mayor departamento, con 39."
+    },
+    {
+      "text": "The course includes a review of grammar fundamentals and basic conventions of essay writing.",
+      "of": "78d62dd8",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[0].description"
+      ],
+      "t": "La asignatura incluye un repaso de los fundamentos de gramática y de las convenciones básicas de la redacción de ensayos."
+    },
+    {
+      "text": "Advanced English 9",
+      "of": "9c84f71c",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[1].title"
+      ],
+      "t": "Advanced English 9"
+    },
+    {
+      "text": "The course includes an overview and fast-paced review of grammar fundamentals and basic conventions of essay writing.",
+      "of": "f1a7bab0",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[1].description"
+      ],
+      "t": "La asignatura incluye una visión general y un repaso ágil de los fundamentos de gramática y de las convenciones básicas de la redacción de ensayos."
+    },
+    {
+      "text": "SASP English 9: The Art of Language",
+      "of": "2108d0da",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[2].title"
+      ],
+      "t": "SASP English 9: The Art of Language"
+    },
+    {
+      "text": "SASP",
+      "of": "01466c2a",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[2].tag",
+        "charlotte-catholic:divisions[0].departments[0].courses[3].tag",
+        "charlotte-catholic:divisions[0].departments[0].courses[7].tag",
+        "charlotte-catholic:divisions[0].departments[7].courses[3].tag",
+        "charlotte-catholic:divisions[0].departments[8].courses[2].tag",
+        "charlotte-catholic:divisions[0].departments[8].courses[5].tag"
+      ],
+      "t": "SASP"
+    },
+    {
+      "text": "The Art of Language cultivates mastery of language as both a tool for clear thought and an expression of beauty.",
+      "of": "81a1ad84",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[2].description"
+      ],
+      "t": "The Art of Language cultiva el dominio de la lengua tanto como herramienta de pensamiento claro como expresión de belleza."
+    },
+    {
+      "text": "SASP English 9: Great Adventure Seminar",
+      "of": "58f133d7",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[3].title"
+      ],
+      "t": "SASP English 9: Great Adventure Seminar"
+    },
+    {
+      "text": "The Great Adventure Seminar invites students to journey through some of the greatest works of literature, exploring timeless questions about the human person and the universal story.",
+      "of": "1ea44f76",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[3].description"
+      ],
+      "t": "El Great Adventure Seminar invita al alumnado a recorrer algunas de las mayores obras de la literatura, explorando preguntas atemporales sobre la persona humana y el relato universal."
+    },
+    {
+      "text": "This course includes the study of World Literature through novels, short stories, drama, and poetry; grammar fundamentals and the reinforcement of these essential grammar skills within the context of writing assignments; introduction to…",
+      "of": "bec957df",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[4].description"
+      ],
+      "t": "Esta asignatura incluye el estudio de la literatura universal a través de novelas, relatos breves, teatro y poesía; los fundamentos de gramática y el refuerzo de estas competencias gramaticales esenciales en el contexto de los trabajos escritos; una introducción a…"
+    },
+    {
+      "text": "Advanced English 10",
+      "of": "816488cc",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[5].title"
+      ],
+      "t": "Advanced English 10"
+    },
+    {
+      "text": "This course includes the study of World Literature through novels, short stories drama, and poetry; grammar fundamentals and the reinforcement of these essential grammar skills within the context of writing assignments; introduction to…",
+      "of": "a1da3a57",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[5].description"
+      ],
+      "t": "Esta asignatura incluye el estudio de la literatura universal a través de novelas, relatos breves, teatro y poesía; los fundamentos de gramática y el refuerzo de estas competencias gramaticales esenciales en el contexto de los trabajos escritos; una introducción a…"
+    },
+    {
+      "text": "Honors English 10",
+      "of": "da858005",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[6].title"
+      ],
+      "t": "Honors English 10"
+    },
+    {
+      "text": "This course includes many of the same topics taught in Advanced English 10, but involves a more comprehensive focus on World Literature and additional outside reading.",
+      "of": "19122635",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[6].description"
+      ],
+      "t": "Esta asignatura incluye muchos de los mismos contenidos que se imparten en Advanced English 10, pero con un enfoque más completo en la literatura universal y lecturas adicionales fuera del aula."
+    },
+    {
+      "text": "SASP English 10: Quest Seminar",
+      "of": "f91ed93e",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[7].title"
+      ],
+      "t": "SASP English 10: Quest Seminar"
+    },
+    {
+      "text": "Great books based: Homer, Odyssey; Plato, Apology; Boethius, Consolation of Philosophy; Anselm, Proslogion; Huxley, Brave New World.",
+      "of": "66b2b77e",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[7].description"
+      ],
+      "t": "Basada en los grandes libros: Homero, Odisea; Platón, Apología; Boecio, La consolación de la filosofía; Anselmo, Proslogion; Huxley, Un mundo feliz."
+    },
+    {
+      "text": "This course includes writing skills techniques (e.g., prewriting, organization, drafting, revisions, etc.); documented essays using primary and, in some cases, secondary sources; concentrated practice in literary analysis; reading…",
+      "of": "57f63d9a",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[8].description"
+      ],
+      "t": "Esta asignatura incluye técnicas de escritura (p. ej., preescritura, organización, borradores, revisiones, etc.); ensayos documentados con fuentes primarias y, en algunos casos, secundarias; práctica intensiva de análisis literario; lectura…"
+    },
+    {
+      "text": "Honors English 11",
+      "of": "d9857e72",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[9].title"
+      ],
+      "t": "Honors English 11"
+    },
+    {
+      "text": "This course includes writing skills techniques (e.g., prewriting, organization, drafting, revision, etc.,); documented essays using primary and secondary resources; concentrated practice in writing analytical essays; reading…",
+      "of": "c3ac6c0c",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[9].description"
+      ],
+      "t": "Esta asignatura incluye técnicas de escritura (p. ej., preescritura, organización, borradores, revisión, etc.); ensayos documentados con fuentes primarias y secundarias; práctica intensiva de redacción de ensayos analíticos; lectura…"
+    },
+    {
+      "text": "Advanced Placement English 11",
+      "of": "f5be7fc2",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[10].title"
+      ],
+      "t": "Advanced Placement English 11"
+    },
+    {
+      "text": "This course comprises much of the material covered in Honors English 11 Honors as well as the principles of rhetoric and argument.",
+      "of": "a5083a33",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[10].description"
+      ],
+      "t": "Esta asignatura comprende buena parte del material que se ve en Honors English 11, además de los principios de la retórica y la argumentación."
+    },
+    {
+      "text": "This course includes a survey of British Literature; review and practice of paragraph and essay structure; reinforcement of essential grammar skills within the context of writing assignments; reading comprehension, summary and analysis;…",
+      "of": "91060f53",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[11].description"
+      ],
+      "t": "Esta asignatura incluye un panorama de la literatura británica; repaso y práctica de la estructura del párrafo y del ensayo; refuerzo de las competencias gramaticales esenciales en el contexto de los trabajos escritos; comprensión lectora, resumen y análisis;…"
+    },
+    {
+      "text": "Honors English 12",
+      "of": "d8857cdf",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[12].title"
+      ],
+      "t": "Honors English 12"
+    },
+    {
+      "text": "This course includes an in-depth study of British Literature through close reading and discussion; advanced composition resulting in several documented literary analyses using primary and, in some cases.",
+      "of": "459deaf1",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[12].description"
+      ],
+      "t": "Esta asignatura incluye un estudio en profundidad de la literatura británica mediante la lectura atenta y el debate; composición avanzada que da lugar a varios análisis literarios documentados con fuentes primarias y, en algunos casos."
+    },
+    {
+      "text": "Advanced Placement English 12",
+      "of": "f4be7e2f",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[13].title",
+        "charlotte-catholic:divisions[0].departments[0].courses[14].title"
+      ],
+      "t": "Advanced Placement English 12"
+    },
+    {
+      "text": "This course includes all the essentials of Honors English 12 with the addition of several sophisticated texts.",
+      "of": "49e16eeb",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[13].description"
+      ],
+      "t": "Esta asignatura incluye todo lo esencial de Honors English 12 con la adición de varios textos más complejos."
+    },
+    {
+      "text": "This course comprises much of the material covered in Honors English 12 as well as the principles of rhetoric and argument.",
+      "of": "0bc63a29",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[14].description"
+      ],
+      "t": "Esta asignatura comprende buena parte del material que se ve en Honors English 12, además de los principios de la retórica y la argumentación."
+    },
+    {
+      "text": "Journalism",
+      "of": "ec22efe7",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[15].title"
+      ],
+      "t": "Journalism"
+    },
+    {
+      "text": "This class is designed to give practical experience in interviewing and writing techniques ( news, features, editorials, sports coverage, and reviews of cultural events ), photography, and layout.",
+      "of": "24ad2dab",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[15].description"
+      ],
+      "t": "Esta clase está pensada para dar experiencia práctica en técnicas de entrevista y de escritura (noticias, reportajes, editoriales, cobertura deportiva y reseñas de actos culturales), fotografía y maquetación."
+    },
+    {
+      "text": "Students receive instruction in layout and design, copywriting and caption writing, photo selection and cropping, and all other components involved in producing the school yearbook.",
+      "of": "cce529d1",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[16].description"
+      ],
+      "t": "El alumnado recibe formación en maquetación y diseño, redacción de textos y de pies de foto, selección y recorte de imágenes, y todos los demás componentes que intervienen en la elaboración del anuario del centro."
+    },
+    {
+      "text": "Honors Social Issues in Literature",
+      "of": "b60b1feb",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[17].title"
+      ],
+      "t": "Honors Social Issues in Literature"
+    },
+    {
+      "text": "Honors Social Issues in Literature focuses on texts and authors who raise up issues of race, gender, ethnicity, and socio-economics.",
+      "of": "2a429a77",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[0].courses[17].description"
+      ],
+      "t": "Honors Social Issues in Literature se centra en textos y autores que plantean cuestiones de raza, género, etnia y nivel socioeconómico."
+    },
+    {
+      "text": "Interdisciplinary Studies",
+      "of": "438bae3b",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].name"
+      ],
+      "t": "Estudios interdisciplinares"
+    },
+    {
+      "text": "Guided Academic Support",
+      "of": "9b78fbb3",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[0].title"
+      ],
+      "t": "Guided Academic Support"
+    },
+    {
+      "text": "This course is tailored for 10th, 11th, and 12th grade Academic Achievement students with a GPA 2.9 or below.",
+      "of": "a09da7c3",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[0].description"
+      ],
+      "t": "Esta asignatura está pensada para el alumnado de Academic Achievement de los grados 10.º, 11.º y 12.º con un GPA de 2.9 o inferior."
+    },
+    {
+      "text": "Assistants",
+      "of": "60365f5c",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[1].title"
+      ],
+      "t": "Assistants"
+    },
+    {
+      "text": "Assistants will be assigned tasks for the office, counselors, alumni and campus ministry. Evaluation is based on their willingness to learn, initiative and performance of assigned tasks, and demonstrated competencies within the area…",
+      "of": "bff66572",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[1].description"
+      ],
+      "t": "A los assistants se les asignan tareas para la secretaría, el departamento de orientación, exalumnos y campus ministry. La evaluación se basa en su disposición a aprender, su iniciativa y desempeño en las tareas asignadas, y las competencias demostradas en el ámbito…"
+    },
+    {
+      "text": "Study Hall",
+      "of": "7e263085",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[2].title",
+        "carmel-christian:divisions[1].departments[8].courses[4].title"
+      ],
+      "t": "Study Hall"
+    },
+    {
+      "text": "Students will spend their time working independently on their coursework in a supervised environment.",
+      "of": "126b46c0",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[2].description"
+      ],
+      "t": "El alumnado dedicará su tiempo a trabajar de forma autónoma en sus tareas en un entorno supervisado."
+    },
+    {
+      "text": "Options Scholars",
+      "of": "ea23a104",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[3].title"
+      ],
+      "t": "Options Scholars"
+    },
+    {
+      "text": "Options",
+      "of": "353e0d45",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[3].tag",
+        "charlotte-catholic:divisions[0].departments[3].courses[0].tag",
+        "charlotte-catholic:divisions[0].departments[3].courses[1].tag",
+        "charlotte-catholic:divisions[0].departments[3].courses[2].tag",
+        "charlotte-catholic:divisions[0].departments[3].courses[3].tag",
+        "charlotte-catholic:divisions[0].departments[3].courses[4].tag",
+        "charlotte-catholic:divisions[0].departments[3].courses[5].tag",
+        "charlotte-catholic:divisions[0].departments[3].courses[6].tag",
+        "charlotte-catholic:divisions[0].departments[3].courses[7].tag",
+        "charlotte-catholic:divisions[0].departments[3].courses[8].tag",
+        "charlotte-catholic:divisions[0].departments[3].courses[9].tag",
+        "charlotte-catholic:divisions[0].departments[3].courses[10].tag",
+        "charlotte-catholic:divisions[0].departments[3].courses[11].tag",
+        "charlotte-catholic:divisions[0].departments[3].courses[12].tag",
+        "charlotte-catholic:divisions[0].departments[3].courses[13].tag"
+      ],
+      "t": "Options"
+    },
+    {
+      "text": "Students will serve as academic peer mentors for those enrolled in the Options Program. In this role, Options Scholars will develop meaningful peer relationships while learning about various intellectual and developmental disabilities.",
+      "of": "6b3c2edc",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[3].description"
+      ],
+      "t": "El alumnado ejercerá de mentor académico entre iguales para quienes están matriculados en el Options Program. En esa función, los Options Scholars desarrollarán relaciones significativas entre compañeros a la vez que aprenden sobre distintas discapacidades intelectuales y del desarrollo."
+    },
+    {
+      "text": "SAT Prep",
+      "of": "b74c7f92",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[4].title"
+      ],
+      "t": "SAT Prep"
+    },
+    {
+      "text": "This course is designed to help students prepare effectively for the SAT. Instruction is divided into two main components: Evidence-Based Reading & Writing and Mathematics.",
+      "of": "66820258",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[4].description"
+      ],
+      "t": "Esta asignatura está pensada para ayudar al alumnado a prepararse con eficacia para el SAT. La enseñanza se divide en dos bloques principales: Evidence-Based Reading & Writing y Mathematics."
+    },
+    {
+      "text": "Sports Ethics",
+      "of": "0c47f292",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[5].title"
+      ],
+      "t": "Sports Ethics"
+    },
+    {
+      "text": "Students will explore the deeper meaning of sport through an ethical and philosophical lens.",
+      "of": "abea03c6",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[5].description"
+      ],
+      "t": "El alumnado explorará el sentido más profundo del deporte desde una mirada ética y filosófica."
+    },
+    {
+      "text": "Honors African American Studies",
+      "of": "968a9ea3",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[6].title"
+      ],
+      "t": "Honors African American Studies"
+    },
+    {
+      "text": "Honors African American Studies focuses on the historical, political, economic, and social figures and movements impacting Black Americans over the past 400+ years.",
+      "of": "43fa8361",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[6].description"
+      ],
+      "t": "Honors African American Studies se centra en las figuras y los movimientos históricos, políticos, económicos y sociales que han marcado a la población negra estadounidense a lo largo de más de 400 años."
+    },
+    {
+      "text": "Honors Latin American Influence",
+      "of": "37717a8b",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[7].title"
+      ],
+      "t": "Honors Latin American Influence"
+    },
+    {
+      "text": "This interdisciplinary course is designed for the students to explore the Latino influence in the United States in the last century.",
+      "of": "17c5af7e",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[7].description"
+      ],
+      "t": "Esta asignatura interdisciplinar está pensada para que el alumnado explore la influencia latina en Estados Unidos durante el último siglo."
+    },
+    {
+      "text": "Personal Finance",
+      "of": "a1435e7b",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[8].title",
+        "carmel-christian:divisions[0].departments[4].courses[8].title"
+      ],
+      "t": "Personal Finance"
+    },
+    {
+      "text": "This course is designed to provide students with personal skills needed daily. Topics of study include establishing a bank account and maintaining a checkbook and debit card, computing personal income tax and analyzing employment taxes.",
+      "of": "ea401078",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[8].description"
+      ],
+      "t": "Esta asignatura está pensada para dotar al alumnado de las competencias personales necesarias en el día a día. Entre los temas de estudio están abrir una cuenta bancaria y llevar un talonario y una tarjeta de débito, calcular el impuesto sobre la renta personal y analizar las cotizaciones laborales."
+    },
+    {
+      "text": "Marketing Principles",
+      "of": "03b6c714",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[9].title"
+      ],
+      "t": "Marketing Principles"
+    },
+    {
+      "text": "This is a beginning class to help students become familiar with the world of business through a marketing perspective.",
+      "of": "18d8cc71",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[9].description"
+      ],
+      "t": "Esta es una asignatura inicial para ayudar al alumnado a familiarizarse con el mundo empresarial desde la perspectiva del marketing."
+    },
+    {
+      "text": "Introduction to Accounting",
+      "of": "93ea8a53",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[10].title"
+      ],
+      "t": "Introduction to Accounting"
+    },
+    {
+      "text": "This class is designed to provide an understanding of the basic principles of the Accounting Cycle as it applies to business entities.",
+      "of": "a7b074f0",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[10].description"
+      ],
+      "t": "Esta clase está pensada para dar a entender los principios básicos del ciclo contable aplicados a las entidades empresariales."
+    },
+    {
+      "text": "Advanced Placement Computer Science A",
+      "of": "5369b620",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[11].title",
+        "cannon:divisions[2].departments[6].courses[1].title",
+        "hickory-grove-christian:divisions[0].departments[9].courses[2].title"
+      ],
+      "t": "Advanced Placement Computer Science A"
+    },
+    {
+      "text": "Advanced Placement Computer Science A emphasizes object-oriented programming methodology, with a strong focus on problem solving and algorithm development.",
+      "of": "564d1dca",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[11].description"
+      ],
+      "t": "Advanced Placement Computer Science A hace hincapié en la metodología de programación orientada a objetos, con un fuerte énfasis en la resolución de problemas y el desarrollo de algoritmos."
+    },
+    {
+      "text": "Advanced Placement Cybersecurity Kickstart",
+      "of": "01903e11",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[12].title"
+      ],
+      "t": "Advanced Placement Cybersecurity Kickstart"
+    },
+    {
+      "text": "AP Cybersecurity offers a broad introduction to the field and aligns closely with a college-level, introductory cybersecurity course.",
+      "of": "8caee700",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[12].description"
+      ],
+      "t": "AP Cybersecurity ofrece una amplia introducción a la disciplina y se ajusta estrechamente a una asignatura universitaria introductoria de ciberseguridad."
+    },
+    {
+      "text": "Introduction to STEM",
+      "of": "cc9fd807",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[13].title"
+      ],
+      "t": "Introduction to STEM"
+    },
+    {
+      "text": "Do you like building things? Do you tend to be curious how things work?",
+      "of": "e4de0528",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[13].description"
+      ],
+      "t": "¿Te gusta construir cosas? ¿Sueles tener curiosidad por saber cómo funcionan?"
+    },
+    {
+      "text": "Introduction to Engineering",
+      "of": "1c2acea9",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[14].title"
+      ],
+      "t": "Introduction to Engineering"
+    },
+    {
+      "text": "Introduction to Engineering is designed to develop foundational concepts and skills that will prepare students for more advanced courses in engineering.",
+      "of": "646417ea",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[14].description"
+      ],
+      "t": "Introduction to Engineering está pensada para desarrollar los conceptos y competencias fundamentales que prepararán al alumnado para asignaturas de ingeniería más avanzadas."
+    },
+    {
+      "text": "Honors Electrical and Computing Engineering",
+      "of": "b26ae162",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[15].title"
+      ],
+      "t": "Honors Electrical and Computing Engineering"
+    },
+    {
+      "text": "This course is designed to prepare students for advanced courses in electrical and computing engineering fields.",
+      "of": "e2038a46",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[15].description"
+      ],
+      "t": "Esta asignatura está pensada para preparar al alumnado para asignaturas avanzadas en los campos de la ingeniería eléctrica e informática."
+    },
+    {
+      "text": "Honors Civil and Construction Engineering",
+      "of": "c7aa0cac",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[16].title"
+      ],
+      "t": "Honors Civil and Construction Engineering"
+    },
+    {
+      "text": "This course is designed to prepare students for college level courses in these fields. Students will explore design concepts including building systems, building materials, structures and loads, transportation, and environmental…",
+      "of": "8e488616",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[16].description"
+      ],
+      "t": "Esta asignatura está pensada para preparar al alumnado para asignaturas de nivel universitario en estos campos. El alumnado explorará conceptos de diseño como los sistemas constructivos, los materiales de construcción, las estructuras y las cargas, el transporte y la…"
+    },
+    {
+      "text": "Honors Engineering Capstone",
+      "of": "272f33a0",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[17].title"
+      ],
+      "t": "Honors Engineering Capstone"
+    },
+    {
+      "text": "Honors Engineering Capstone is available for students who completed prior CCHS engineering courses and are interested in pursuing a degree in engineering fields.",
+      "of": "7d1490b7",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[1].courses[17].description"
+      ],
+      "t": "Honors Engineering Capstone está disponible para el alumnado que ha completado asignaturas previas de ingeniería en CCHS y tiene interés en cursar una carrera en campos de la ingeniería."
+    },
+    {
+      "text": "This course includes a review of operations with integers, fractions, and decimals; solving equations and inequalities in one variable; introduction to functions; linear functions; systems of linear equations and systems of linear…",
+      "of": "e1de9b86",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[0].description"
+      ],
+      "t": "Esta asignatura incluye un repaso de las operaciones con números enteros, fracciones y decimales; la resolución de ecuaciones e inecuaciones de una variable; una introducción a las funciones; las funciones lineales; los sistemas de ecuaciones lineales y los sistemas de…"
+    },
+    {
+      "text": "This course includes a brief review of operations with integers, fractions, and decimals; solving equations and inequalities in one variable; introduction to functions; linear functions; systems of linear equations and systems of linear…",
+      "of": "e5db73ce",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[1].description"
+      ],
+      "t": "Esta asignatura incluye un breve repaso de las operaciones con números enteros, fracciones y decimales; la resolución de ecuaciones e inecuaciones de una variable; una introducción a las funciones; las funciones lineales; los sistemas de ecuaciones lineales y los sistemas de…"
+    },
+    {
+      "text": "This course includes basic terms and symbols; congruence and similarity of polygons and circles; area and volume; parallel and perpendicular lines; transformations; and an introduction to proof.",
+      "of": "d2651304",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[2].description"
+      ],
+      "t": "Esta asignatura incluye los términos y símbolos básicos; la congruencia y la semejanza de polígonos y circunferencias; el área y el volumen; las rectas paralelas y perpendiculares; las transformaciones; y una introducción a la demostración."
+    },
+    {
+      "text": "Advanced Geometry",
+      "of": "a91bd63d",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[3].title"
+      ],
+      "t": "Advanced Geometry"
+    },
+    {
+      "text": "This course includes the study of basic terms and symbols; congruence and similarity of polygons and circles; area and volume; parallel and perpendicular lines; transformations and proofs.",
+      "of": "568449b3",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[3].description"
+      ],
+      "t": "Esta asignatura incluye el estudio de los términos y símbolos básicos; la congruencia y la semejanza de polígonos y circunferencias; el área y el volumen; las rectas paralelas y perpendiculares; las transformaciones y las demostraciones."
+    },
+    {
+      "text": "Honors Geometry",
+      "of": "e8101e6c",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[4].title",
+        "charlotte-country-day:divisions[2].departments[1].courses[2].title",
+        "davidson-day:divisions[1].departments[0].courses[9].title"
+      ],
+      "t": "Honors Geometry"
+    },
+    {
+      "text": "This rigorous course is designed for students who possess a strong work ethic and ability to think critically and includes the in depth study of basic terms and symbols; congruence and similarity of polygons and circles; parallel and…",
+      "of": "d399e213",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[4].description"
+      ],
+      "t": "Esta asignatura exigente está pensada para el alumnado con una fuerte ética de trabajo y capacidad de pensamiento crítico, e incluye el estudio en profundidad de los términos y símbolos básicos; la congruencia y la semejanza de polígonos y circunferencias; las rectas paralelas y…"
+    },
+    {
+      "text": "This course includes the study of linear, quadratic, exponential, logarithmic, radical, rational and trigonometric functions; complex numbers; correlation and regression.",
+      "of": "b5cfa283",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[5].description"
+      ],
+      "t": "Esta asignatura incluye el estudio de las funciones lineales, cuadráticas, exponenciales, logarítmicas, radicales, racionales y trigonométricas; los números complejos; la correlación y la regresión."
+    },
+    {
+      "text": "Advanced Algebra II",
+      "of": "daae60fb",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[6].title"
+      ],
+      "t": "Advanced Algebra II"
+    },
+    {
+      "text": "This course includes the study of linear, quadratic, exponential, logarithmic, radical, rational and trigonometric functions; complex numbers; correlation and regression; normal models; and confidence intervals for proportions and means.",
+      "of": "9c1c5de8",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[6].description"
+      ],
+      "t": "Esta asignatura incluye el estudio de las funciones lineales, cuadráticas, exponenciales, logarítmicas, radicales, racionales y trigonométricas; los números complejos; la correlación y la regresión; los modelos normales; y los intervalos de confianza para proporciones y medias."
+    },
+    {
+      "text": "Honors Algebra II",
+      "of": "cb784dca",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[7].title",
+        "charlotte-country-day:divisions[2].departments[1].courses[4].title",
+        "cannon:divisions[2].departments[1].courses[3].title"
+      ],
+      "t": "Honors Algebra II"
+    },
+    {
+      "text": "This rigorous course is designed for students who possess a strong work ethic and ability to think critically and includes the in depth study of linear, quadratic, exponential, logarithmic, radical, rational and trigonometric functions;…",
+      "of": "be216c19",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[7].description"
+      ],
+      "t": "Esta asignatura exigente está pensada para el alumnado con una fuerte ética de trabajo y capacidad de pensamiento crítico, e incluye el estudio en profundidad de las funciones lineales, cuadráticas, exponenciales, logarítmicas, radicales, racionales y trigonométricas;…"
+    },
+    {
+      "text": "Advanced Algebra 3/Statistics",
+      "of": "55e2d7f8",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[8].title"
+      ],
+      "t": "Advanced Algebra 3/Statistics"
+    },
+    {
+      "text": "This course is intended to prepare students for an Algebra, Statistics, or Pre-Calculus course at the university level.",
+      "of": "08efbcd2",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[8].description"
+      ],
+      "t": "Esta asignatura pretende preparar al alumnado para una asignatura universitaria de álgebra, estadística o precálculo."
+    },
+    {
+      "text": "Advanced Algebra 4/Trigonometry",
+      "of": "3704ea4b",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[9].title"
+      ],
+      "t": "Advanced Algebra 4/Trigonometry"
+    },
+    {
+      "text": "This course is intended to prepare students for an Algebra, Statistics, Pre-Calculus, or Calculus course at the university level.",
+      "of": "0a1b706a",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[9].description"
+      ],
+      "t": "Esta asignatura pretende preparar al alumnado para una asignatura universitaria de álgebra, estadística, precálculo o cálculo."
+    },
+    {
+      "text": "Functions and Modeling",
+      "of": "9d57c6ea",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[10].title"
+      ],
+      "t": "Functions and Modeling"
+    },
+    {
+      "text": "This course provides students the opportunity to further study linear, quadratic, exponential, logarithmic and trigonometric functions.",
+      "of": "73e22d33",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[10].description"
+      ],
+      "t": "Esta asignatura ofrece al alumnado la oportunidad de seguir estudiando las funciones lineales, cuadráticas, exponenciales, logarítmicas y trigonométricas."
+    },
+    {
+      "text": "Advanced Pre-Calculus",
+      "of": "b0277d49",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[11].title"
+      ],
+      "t": "Advanced Pre-Calculus"
+    },
+    {
+      "text": "This course includes the further development and analysis of functions including polynomial, rational, exponential, and logarithmic and trigonometric functions.",
+      "of": "35f390f8",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[11].description"
+      ],
+      "t": "Esta asignatura incluye el desarrollo y análisis más amplio de las funciones, incluidas las polinómicas, racionales, exponenciales, logarítmicas y trigonométricas."
+    },
+    {
+      "text": "Honors Pre-Calculus",
+      "of": "5a75cdc0",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[12].title"
+      ],
+      "t": "Honors Pre-Calculus"
+    },
+    {
+      "text": "This rigorous course is designed for students who possess a strong work ethic and ability to think critically and includes the further development and analysis of functions including polynomial, rational, exponential, and logarithmic…",
+      "of": "99a6e477",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[12].description"
+      ],
+      "t": "Esta asignatura exigente está pensada para el alumnado con una fuerte ética de trabajo y capacidad de pensamiento crítico, e incluye el desarrollo y análisis más amplio de las funciones, incluidas las polinómicas, racionales, exponenciales y logarítmicas…"
+    },
+    {
+      "text": "Honors Calculus",
+      "of": "4e67a2e4",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[13].title",
+        "cannon:divisions[2].departments[1].courses[8].title",
+        "davidson-day:divisions[2].departments[1].courses[8].title"
+      ],
+      "t": "Honors Calculus"
+    },
+    {
+      "text": "Topics included in this course are limits, derivatives of both algebraic and transcendental functions, methods of integration, and applications of the derivative and integral.",
+      "of": "babf9f4a",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[13].description"
+      ],
+      "t": "Entre los temas de esta asignatura están los límites, las derivadas de funciones algebraicas y trascendentes, los métodos de integración y las aplicaciones de la derivada y la integral."
+    },
+    {
+      "text": "The AP Statistics course is equivalent to a one-semester, introductory, non-calculus-based college course in statistics.",
+      "of": "b59edbde",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[14].description"
+      ],
+      "t": "La asignatura AP Statistics equivale a una asignatura universitaria introductoria de estadística de un semestre que no se apoya en el cálculo."
+    },
+    {
+      "text": "Advanced Placement Calculus AB is roughly equivalent to a first semester college calculus course devoted to topics in differential and integral calculus.",
+      "of": "b8d646ca",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[15].description"
+      ],
+      "t": "Advanced Placement Calculus AB equivale aproximadamente a una asignatura universitaria de cálculo de primer semestre dedicada a temas de cálculo diferencial e integral."
+    },
+    {
+      "text": "Advanced Placement Calculus BC is roughly equivalent to both first and second semester college calculus courses and includes the content learned in Calculus AB while extending it to different types of equations and introduces the topic…",
+      "of": "3c0d07a6",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[2].courses[16].description"
+      ],
+      "t": "Advanced Placement Calculus BC equivale aproximadamente a las asignaturas universitarias de cálculo de primer y segundo semestre, e incluye los contenidos de Calculus AB ampliándolos a distintos tipos de ecuaciones e introduciendo el tema…"
+    },
+    {
+      "text": "Options Program / Pathways Program",
+      "of": "13b8fe4f",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[3].name"
+      ],
+      "t": "Options Program / Pathways Program"
+    },
+    {
+      "text": "Options English 9",
+      "of": "d38a2e32",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[3].courses[0].title"
+      ],
+      "t": "Options English 9"
+    },
+    {
+      "text": "This course studies what it means to say that human beings are persons (i.e., beings endowed with freedom and an inner life capable of knowing and loving).",
+      "of": "078dacf5",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[3].courses[0].description",
+        "charlotte-catholic:divisions[0].departments[3].courses[1].description",
+        "charlotte-catholic:divisions[0].departments[3].courses[2].description",
+        "charlotte-catholic:divisions[0].departments[3].courses[3].description",
+        "charlotte-catholic:divisions[0].departments[3].courses[4].description",
+        "charlotte-catholic:divisions[0].departments[3].courses[5].description",
+        "charlotte-catholic:divisions[0].departments[3].courses[6].description",
+        "charlotte-catholic:divisions[0].departments[3].courses[7].description",
+        "charlotte-catholic:divisions[0].departments[3].courses[8].description",
+        "charlotte-catholic:divisions[0].departments[3].courses[9].description",
+        "charlotte-catholic:divisions[0].departments[3].courses[10].description",
+        "charlotte-catholic:divisions[0].departments[3].courses[11].description",
+        "charlotte-catholic:divisions[0].departments[3].courses[12].description",
+        "charlotte-catholic:divisions[0].departments[3].courses[13].description",
+        "charlotte-catholic:divisions[0].departments[4].courses[0].description"
+      ],
+      "t": "Esta asignatura estudia qué significa afirmar que los seres humanos son personas (es decir, seres dotados de libertad y de una vida interior capaz de conocer y de amar)."
+    },
+    {
+      "text": "Options English 10",
+      "of": "949ad78e",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[3].courses[1].title"
+      ],
+      "t": "Options English 10"
+    },
+    {
+      "text": "Options English 11",
+      "of": "959ad921",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[3].courses[2].title"
+      ],
+      "t": "Options English 11"
+    },
+    {
+      "text": "Options English 12",
+      "of": "929ad468",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[3].courses[3].title"
+      ],
+      "t": "Options English 12"
+    },
+    {
+      "text": "Options Year 1",
+      "of": "40a9e51d",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[3].courses[4].title"
+      ],
+      "t": "Options Year 1"
+    },
+    {
+      "text": "Options Year 2",
+      "of": "3da9e064",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[3].courses[5].title"
+      ],
+      "t": "Options Year 2"
+    },
+    {
+      "text": "Options Year 3",
+      "of": "3ea9e1f7",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[3].courses[6].title"
+      ],
+      "t": "Options Year 3"
+    },
+    {
+      "text": "Options Year 4",
+      "of": "3ba9dd3e",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[3].courses[7].title"
+      ],
+      "t": "Options Year 4"
+    },
+    {
+      "text": "Options PE",
+      "of": "5582de28",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[3].courses[8].title"
+      ],
+      "t": "Options PE"
+    },
+    {
+      "text": "Math Life 1",
+      "of": "a9b0524c",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[3].courses[9].title"
+      ],
+      "t": "Math Life 1"
+    },
+    {
+      "text": "Math Life 2",
+      "of": "acb05705",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[3].courses[10].title"
+      ],
+      "t": "Math Life 2"
+    },
+    {
+      "text": "Options Personal Finance",
+      "of": "5552d0e5",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[3].courses[11].title"
+      ],
+      "t": "Options Personal Finance"
+    },
+    {
+      "text": "Options Financial Management",
+      "of": "833d04c5",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[3].courses[12].title"
+      ],
+      "t": "Options Financial Management"
+    },
+    {
+      "text": "Pathway Program",
+      "of": "8c9998c9",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[3].courses[13].title"
+      ],
+      "t": "Pathway Program"
+    },
+    {
+      "text": "Philosophy",
+      "of": "7d9e611a",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[4].name"
+      ],
+      "t": "Filosofía"
+    },
+    {
+      "text": "Introduction to Philosophy: Human Person",
+      "of": "6713b605",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[4].courses[0].title"
+      ],
+      "t": "Introduction to Philosophy: Human Person"
+    },
+    {
+      "text": "Ethics",
+      "of": "6eca66f5",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[4].courses[1].title"
+      ],
+      "t": "Ethics"
+    },
+    {
+      "text": "This course introduces students to classical philosophy’s approach to ethics through a Catholic lens.",
+      "of": "6371b8ed",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[4].courses[1].description"
+      ],
+      "t": "Esta asignatura introduce al alumnado en el enfoque de la ética de la filosofía clásica desde una mirada católica."
+    },
+    {
+      "text": "Logic",
+      "of": "5aedf3b1",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[4].courses[2].title"
+      ],
+      "t": "Logic"
+    },
+    {
+      "text": "Logic is the art of habitually reasoning from true premises to true conclusions. The purpose of this course is to cultivate a student’s ability to think critically and apply logical reasoning across a variety of subject matters.",
+      "of": "3f60856d",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[4].courses[2].description"
+      ],
+      "t": "La lógica es el arte de razonar habitualmente de premisas verdaderas a conclusiones verdaderas. El propósito de esta asignatura es cultivar la capacidad del alumnado para pensar de forma crítica y aplicar el razonamiento lógico en materias muy diversas."
+    },
+    {
+      "text": "Health",
+      "of": "986145af",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[5].courses[0].title",
+        "charlotte-country-day:divisions[1].departments[5].courses[1].title",
+        "charlotte-country-day:divisions[1].departments[5].courses[2].title",
+        "charlotte-country-day:divisions[1].departments[5].courses[3].title",
+        "charlotte-country-day:divisions[1].departments[5].courses[4].title",
+        "covenant-day:divisions[0].departments[2].courses[5].title",
+        "carmel-christian:divisions[0].departments[6].courses[0].title"
+      ],
+      "t": "Salud"
+    },
+    {
+      "text": "The Health course aims to foster a holistic understanding of health, emphasizing the connection between physical, mental, emotional, and spiritual well-being.",
+      "of": "c0c4e6aa",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[5].courses[0].description"
+      ],
+      "t": "La asignatura de Health pretende fomentar una comprensión integral de la salud, subrayando la conexión entre el bienestar físico, mental, emocional y espiritual."
+    },
+    {
+      "text": "The Physical Education course is designed to promote the development of a healthy and active lifestyle through a variety of physical activities and sports.",
+      "of": "6317d898",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[5].courses[1].description"
+      ],
+      "t": "La asignatura de Physical Education está pensada para promover el desarrollo de un estilo de vida sano y activo mediante una variedad de actividades físicas y deportes."
+    },
+    {
+      "text": "Aerobics",
+      "of": "e7b8b0f7",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[5].courses[2].title"
+      ],
+      "t": "Aerobics"
+    },
+    {
+      "text": "This course will focus on simple endurance and aerobic movements in order to increase physical abilities.",
+      "of": "193f5c87",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[5].courses[2].description"
+      ],
+      "t": "Esta asignatura se centrará en movimientos sencillos de resistencia y aeróbicos con el fin de aumentar las capacidades físicas."
+    },
+    {
+      "text": "Men’s Weightlifting",
+      "of": "58962588",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[5].courses[3].title"
+      ],
+      "t": "Men’s Weightlifting"
+    },
+    {
+      "text": "This course is designed to educate students on the proper techniques of weightlifting, how to target specific muscle groups and the design and implementation of using a lifting schedule specifically to the needs of the male population.",
+      "of": "537b770f",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[5].courses[3].description"
+      ],
+      "t": "Esta asignatura está pensada para formar al alumnado en las técnicas correctas de levantamiento de pesas, en cómo trabajar grupos musculares concretos y en el diseño y la aplicación de una rutina de levantamiento adaptada específicamente a las necesidades de la población masculina."
+    },
+    {
+      "text": "Women’s Weightlifting",
+      "of": "96ac85ce",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[5].courses[4].title"
+      ],
+      "t": "Women’s Weightlifting"
+    },
+    {
+      "text": "This course is designed to educate students on the proper techniques of weightlifting, how to target specific muscle groups and the design and implementation of using a lifting schedule specifically to the needs of the female population.",
+      "of": "80375162",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[5].courses[4].description"
+      ],
+      "t": "Esta asignatura está pensada para formar al alumnado en las técnicas correctas de levantamiento de pesas, en cómo trabajar grupos musculares concretos y en el diseño y la aplicación de una rutina de levantamiento adaptada específicamente a las necesidades de la población femenina."
+    },
+    {
+      "text": "Jazzercise",
+      "of": "cdb9b0d3",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[5].courses[5].title"
+      ],
+      "t": "Jazzercise"
+    },
+    {
+      "text": "This course will focus on the elements of dance with cardio movement exercises. Pilates and stretching will also be implemented.",
+      "of": "98779b03",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[5].courses[5].description"
+      ],
+      "t": "Esta asignatura se centrará en los elementos de la danza con ejercicios de movimiento cardiovascular. También se incorporarán pilates y estiramientos."
+    },
+    {
+      "text": "Team Sports: Upperclassmen PE",
+      "of": "3f3676fe",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[5].courses[6].title"
+      ],
+      "t": "Team Sports: Upperclassmen PE"
+    },
+    {
+      "text": "Students will participate in various team activities with emphasis on group and individual choice and carry-over activities.",
+      "of": "53094926",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[5].courses[6].description"
+      ],
+      "t": "El alumnado participará en diversas actividades de equipo con énfasis en la elección grupal e individual y en actividades que se puedan mantener más adelante."
+    },
+    {
+      "text": "Honors Weightlifting & Wellness",
+      "of": "b33aaf54",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[5].courses[7].title"
+      ],
+      "t": "Honors Weightlifting & Wellness"
+    },
+    {
+      "text": "This advanced course is designed for students who have successfully completed introductory weightlifting classes and are ready to deepen their understanding of strength training, fitness, health, and wellness.",
+      "of": "4521caab",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[5].courses[7].description"
+      ],
+      "t": "Esta asignatura avanzada está pensada para el alumnado que ha superado las clases introductorias de levantamiento de pesas y está listo para profundizar en el entrenamiento de fuerza, la forma física, la salud y el bienestar."
+    },
+    {
+      "text": "The primary objective of this course is to introduce the student to a broad, general understanding of the fundamental principles of biology through a study of humans and their interaction with other organisms and their mutually shared…",
+      "of": "7deb16f2",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[0].description"
+      ],
+      "t": "El objetivo principal de esta asignatura es acercar al alumnado a una comprensión amplia y general de los principios fundamentales de la biología mediante el estudio del ser humano y de su interacción con otros organismos y con el entorno que comparten…"
+    },
+    {
+      "text": "Advanced Biology",
+      "of": "4c77c650",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[1].title"
+      ],
+      "t": "Advanced Biology"
+    },
+    {
+      "text": "The purpose of this course is to introduce the student to an in-depth study of the basic principles of biological processes.",
+      "of": "60b9b8e4",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[1].description"
+      ],
+      "t": "El propósito de esta asignatura es introducir al alumnado en un estudio en profundidad de los principios básicos de los procesos biológicos."
+    },
+    {
+      "text": "Integrated Chemistry and Physics",
+      "of": "9e4e09a2",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[2].title"
+      ],
+      "t": "Integrated Chemistry and Physics"
+    },
+    {
+      "text": "Integrated Chemistry and Physics explores matter, energy, and the interaction between matter and energy.",
+      "of": "139d8213",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[2].description"
+      ],
+      "t": "Integrated Chemistry and Physics explora la materia, la energía y la interacción entre ambas."
+    },
+    {
+      "text": "Advanced Chemistry",
+      "of": "59d57781",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[3].title"
+      ],
+      "t": "Advanced Chemistry"
+    },
+    {
+      "text": "This course covers the fundamentals of chemistry. Topics will include, but are not limited to, atomic structure, writing chemical names and formulas, balancing chemical equations, solving stoichiometric problems, behavior of gases,…",
+      "of": "9eb87da7",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[3].description"
+      ],
+      "t": "Esta asignatura cubre los fundamentos de la química. Entre los temas se incluyen, sin limitarse a ellos, la estructura atómica, la escritura de nombres y fórmulas químicas, el ajuste de ecuaciones químicas, la resolución de problemas estequiométricos, el comportamiento de los gases,…"
+    },
+    {
+      "text": "Honors Chemistry",
+      "of": "bebcf292",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[4].title",
+        "cannon:divisions[2].departments[2].courses[4].title",
+        "carmel-christian:divisions[0].departments[3].courses[5].title"
+      ],
+      "t": "Honors Chemistry"
+    },
+    {
+      "text": "This rigorous course is designed for students who possess a strong work ethic and the ability to think critically.",
+      "of": "03475785",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[4].description",
+        "charlotte-catholic:divisions[0].departments[6].courses[8].description"
+      ],
+      "t": "Esta asignatura exigente está pensada para el alumnado con una fuerte ética de trabajo y capacidad de pensamiento crítico."
+    },
+    {
+      "text": "Oceanography",
+      "of": "55417751",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[5].title"
+      ],
+      "t": "Oceanography"
+    },
+    {
+      "text": "Oceanography explores the geology, chemistry, physics, marine biology, and ecology of the oceans.",
+      "of": "f1586c54",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[5].description"
+      ],
+      "t": "Oceanography explora la geología, la química, la física, la biología marina y la ecología de los océanos."
+    },
+    {
+      "text": "Environmental Science",
+      "of": "e7a2758d",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[6].title",
+        "gaston-day:divisions[1].departments[2].courses[2].title"
+      ],
+      "t": "Environmental Science"
+    },
+    {
+      "text": "Environmental Science is offered to those students interested in studying present issues concerning the earth and its environment.",
+      "of": "4d77095f",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[6].description"
+      ],
+      "t": "Environmental Science se ofrece al alumnado interesado en estudiar las cuestiones actuales que afectan a la Tierra y su medio ambiente."
+    },
+    {
+      "text": "This introductory physics course is designed to relate the principles of physics to the world that surrounds the students.",
+      "of": "81a67add",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[7].description"
+      ],
+      "t": "Esta asignatura introductoria de física está pensada para relacionar los principios de la física con el mundo que rodea al alumnado."
+    },
+    {
+      "text": "Honors Anatomy and Physiology",
+      "of": "e9f192a9",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[8].title",
+        "cannon:divisions[2].departments[2].courses[15].title"
+      ],
+      "t": "Honors Anatomy and Physiology"
+    },
+    {
+      "text": "Honors Nutritional Science",
+      "of": "9ea9bddf",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[9].title"
+      ],
+      "t": "Honors Nutritional Science"
+    },
+    {
+      "text": "This course is designed to provide an introduction to human nutrition, health, and its impacts on society.",
+      "of": "88455d3f",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[9].description"
+      ],
+      "t": "Esta asignatura está pensada para ofrecer una introducción a la nutrición humana, la salud y su impacto en la sociedad."
+    },
+    {
+      "text": "Advanced Placement Biology is designed for students who are strongly considering furthering their studies in the life sciences and/or medical fields.",
+      "of": "7c6db505",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[10].description"
+      ],
+      "t": "Advanced Placement Biology está pensada para el alumnado que se plantea seriamente continuar sus estudios en las ciencias de la vida o en los campos médicos."
+    },
+    {
+      "text": "Advanced Placement Chemistry is designed as a second-year chemistry course. This is a highly intensive elective science covering the topics usually included in a first-year college level chemistry course.",
+      "of": "3f2ac5cc",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[11].description"
+      ],
+      "t": "Advanced Placement Chemistry está concebida como una asignatura de química de segundo año. Es una optativa científica muy intensiva que cubre los temas que suelen incluirse en una asignatura universitaria de química de primer año."
+    },
+    {
+      "text": "This course covers topics usually included in a first year college course in environmental science.",
+      "of": "56716f95",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[12].description"
+      ],
+      "t": "Esta asignatura cubre los temas que suelen incluirse en una asignatura universitaria de primer año de ciencias ambientales."
+    },
+    {
+      "text": "Advanced Placement Physics 1: Algebra-Based",
+      "of": "9ccc7d7a",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[13].title"
+      ],
+      "t": "Advanced Placement Physics 1: Algebra-Based"
+    },
+    {
+      "text": "This course is a full year in-depth study of Newtonian mechanics. The content includes kinematics, Newton’s laws of motion, work, energy and power, systems of particles and linear momentum, circular motion and rotation, and oscillations…",
+      "of": "86cbfc8a",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[13].description",
+        "charlotte-catholic:divisions[0].departments[6].courses[14].description"
+      ],
+      "t": "Esta asignatura es un estudio anual en profundidad de la mecánica newtoniana. El contenido incluye la cinemática, las leyes del movimiento de Newton, el trabajo, la energía y la potencia, los sistemas de partículas y el momento lineal, el movimiento circular y la rotación, y las oscilaciones…"
+    },
+    {
+      "text": "Advanced Placement Physics C: Mechanics",
+      "of": "469d94dd",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[14].title"
+      ],
+      "t": "Advanced Placement Physics C: Mechanics"
+    },
+    {
+      "text": "Sports Medicine",
+      "of": "d821a326",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[15].title"
+      ],
+      "t": "Sports Medicine"
+    },
+    {
+      "text": "Sports Medicine is a hands-on course for students interested in athletic performance, injury prevention, health care, and human movement.",
+      "of": "59aa5518",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[15].description"
+      ],
+      "t": "Sports Medicine es una asignatura eminentemente práctica para el alumnado interesado en el rendimiento deportivo, la prevención de lesiones, la atención sanitaria y el movimiento humano."
+    },
+    {
+      "text": "This semester course will familiarize students with the basic principles and uses of forensic science in the American justice system.",
+      "of": "f64f453e",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[16].description"
+      ],
+      "t": "Esta asignatura semestral familiarizará al alumnado con los principios básicos y los usos de la ciencia forense en el sistema judicial estadounidense."
+    },
+    {
+      "text": "Biotechnology",
+      "of": "83a189e3",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[17].title"
+      ],
+      "t": "Biotechnology"
+    },
+    {
+      "text": "This course will provide students with a comprehensive introduction to the scientific concepts and laboratory research techniques currently used in the field of biotechnology.",
+      "of": "17608f26",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[6].courses[17].description"
+      ],
+      "t": "Esta asignatura ofrecerá al alumnado una introducción completa a los conceptos científicos y a las técnicas de investigación de laboratorio que se emplean actualmente en el campo de la biotecnología."
+    },
+    {
+      "text": "This is a college prep survey course in World History with a scope and sequence that includes both western and non-western cultures and societies to the present.",
+      "of": "0a7fb75a",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[0].description"
+      ],
+      "t": "Esta es una asignatura panorámica de nivel college prep de historia universal, con un alcance y una secuencia que incluyen culturas y sociedades tanto occidentales como no occidentales hasta la actualidad."
+    },
+    {
+      "text": "Advanced World History",
+      "of": "f9c1e7ef",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[1].title"
+      ],
+      "t": "Advanced World History"
+    },
+    {
+      "text": "Students will explore this broad scope by reading actively and creatively, evaluating historical evidence using primary and secondary sources, analyzing visual materials, interpreting data, and recognizing point of view and bias.",
+      "of": "af9763a7",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[1].description"
+      ],
+      "t": "El alumnado explorará este amplio alcance mediante la lectura activa y creativa, la valoración de pruebas históricas con fuentes primarias y secundarias, el análisis de materiales visuales, la interpretación de datos y el reconocimiento del punto de vista y del sesgo."
+    },
+    {
+      "text": "Honors World History",
+      "of": "82998000",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[2].title",
+        "cannon:divisions[2].departments[3].courses[0].title"
+      ],
+      "t": "Honors World History"
+    },
+    {
+      "text": "Honors World History is the highest-level World History class at Charlotte Catholic. Deadlines for assignments are often given days and even weeks in advance, so students must plan their work and manage their time to be successful in…",
+      "of": "a3453ea4",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[2].description"
+      ],
+      "t": "Honors World History es la asignatura de historia universal del nivel más alto de Charlotte Catholic. Los plazos de entrega se comunican a menudo con días e incluso semanas de antelación, así que el alumnado debe planificar su trabajo y gestionar su tiempo para tener éxito en…"
+    },
+    {
+      "text": "SASP World History: Icon of Christian Art",
+      "of": "b18d58b0",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[3].title"
+      ],
+      "t": "SASP World History: Icon of Christian Art"
+    },
+    {
+      "text": "This course examines the development of Western and Near Eastern civilizations through the historical and artistic influence of Christianity.",
+      "of": "9b914725",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[3].description"
+      ],
+      "t": "Esta asignatura examina el desarrollo de las civilizaciones occidentales y del Próximo Oriente a través de la influencia histórica y artística del cristianismo."
+    },
+    {
+      "text": "U.S. History",
+      "of": "6fd41d17",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[4].title",
+        "covenant-day:divisions[0].departments[3].courses[2].title"
+      ],
+      "t": "Historia de Estados Unidos"
+    },
+    {
+      "text": "This survey course is a college prep level course that examines the political, economic, social, and cultural development of the United States.",
+      "of": "44c8db66",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[4].description"
+      ],
+      "t": "Esta asignatura panorámica es de nivel college prep y examina el desarrollo político, económico, social y cultural de Estados Unidos."
+    },
+    {
+      "text": "Honors U.S. History",
+      "of": "68f7f0aa",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[5].title"
+      ],
+      "t": "Honors U.S. History"
+    },
+    {
+      "text": "This course examines the major topics of United States history in greater depth and with more rigor than college prep U.S.",
+      "of": "788a6dda",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[5].description"
+      ],
+      "t": "Esta asignatura examina los grandes temas de la historia de Estados Unidos con más profundidad y exigencia que la de nivel college prep."
+    },
+    {
+      "text": "Advanced Placement U.S. History",
+      "of": "d208865a",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[6].title"
+      ],
+      "t": "Advanced Placement U.S. History"
+    },
+    {
+      "text": "This is a college level course in which students investigate significant events, individuals, developments, and historical processes in United States history from approximately 1491 to the present.",
+      "of": "bdd2aff6",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[6].description"
+      ],
+      "t": "Esta es una asignatura de nivel universitario en la que el alumnado investiga acontecimientos, personas, procesos y desarrollos históricos relevantes de la historia de Estados Unidos desde aproximadamente 1491 hasta la actualidad."
+    },
+    {
+      "text": "This course introduces students to the scientific study of human behavior and mental processes.",
+      "of": "0396eb47",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[7].description"
+      ],
+      "t": "Esta asignatura introduce al alumnado en el estudio científico del comportamiento humano y de los procesos mentales."
+    },
+    {
+      "text": "This course is a college-level course that introduces students to the systematic and scientific study of human behavior and mental processes.",
+      "of": "43a5d41d",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[8].description"
+      ],
+      "t": "Esta asignatura es de nivel universitario e introduce al alumnado en el estudio sistemático y científico del comportamiento humano y de los procesos mentales."
+    },
+    {
+      "text": "Politics",
+      "of": "b0fd982e",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[9].title"
+      ],
+      "t": "Politics"
+    },
+    {
+      "text": "This course is a college prep level U.S. Government class that introduces students to the foundations, structures, and processes of the American political system.",
+      "of": "5ac83c77",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[9].description"
+      ],
+      "t": "Esta asignatura es una clase de gobierno estadounidense de nivel college prep que introduce al alumnado en los fundamentos, las estructuras y los procesos del sistema político estadounidense."
+    },
+    {
+      "text": "Honors Politics",
+      "of": "c3c61e77",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[10].title"
+      ],
+      "t": "Honors Politics"
+    },
+    {
+      "text": "This course covers the same foundational topics as the college prep level U.S. Government course, but with greater depth, pace, and academic rigor.",
+      "of": "7d9301e8",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[10].description"
+      ],
+      "t": "Esta asignatura cubre los mismos temas fundamentales que la de gobierno estadounidense de nivel college prep, pero con mayor profundidad, ritmo y exigencia académica."
+    },
+    {
+      "text": "Advanced Placement United States Government",
+      "of": "5d8d342a",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[11].title"
+      ],
+      "t": "Advanced Placement United States Government"
+    },
+    {
+      "text": "This course provides a college-level introduction to key political concepts, ideas, institutions, policies, interactions, roles, and behaviors that characterize the constitutional system and political culture of the United States.",
+      "of": "d8b1836b",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[11].description"
+      ],
+      "t": "Esta asignatura ofrece una introducción de nivel universitario a los conceptos, ideas, instituciones, políticas, interacciones, funciones y comportamientos políticos clave que caracterizan el sistema constitucional y la cultura política de Estados Unidos."
+    },
+    {
+      "text": "This course is a college prep level economics course that introduces students to the fundamental principles of economics with a primary focus on the American economic system.",
+      "of": "bdde45a3",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[12].description"
+      ],
+      "t": "Esta asignatura de economía es de nivel college prep e introduce al alumnado en los principios fundamentales de la economía, con especial atención al sistema económico estadounidense."
+    },
+    {
+      "text": "Honors Economics",
+      "of": "f4a20b52",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[13].title"
+      ],
+      "t": "Honors Economics"
+    },
+    {
+      "text": "This class provides students with a thorough understanding of the principles of economics that apply to the behavior of individual decision makers, including consumers and producers, within the larger economic system.",
+      "of": "b0aced17",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[13].description"
+      ],
+      "t": "Esta clase ofrece al alumnado una comprensión sólida de los principios económicos que se aplican al comportamiento de los agentes que toman decisiones individuales, incluidos consumidores y productores, dentro del sistema económico más amplio."
+    },
+    {
+      "text": "Advanced Placement Microeconomics",
+      "of": "2a0f73a6",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[14].title"
+      ],
+      "t": "Advanced Placement Microeconomics"
+    },
+    {
+      "text": "This class is a college-level course that introduces students to the principles of economics that apply to the behavior of individual consumers, firms, and resource owners.",
+      "of": "43a6df4c",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[14].description"
+      ],
+      "t": "Esta clase es una asignatura de nivel universitario que introduce al alumnado en los principios económicos que se aplican al comportamiento de consumidores, empresas y propietarios de recursos individuales."
+    },
+    {
+      "text": "Advanced Placement European History",
+      "of": "b75faf55",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[15].title"
+      ],
+      "t": "Advanced Placement European History"
+    },
+    {
+      "text": "This course begins with a brief orientation to philosophy and logic. The remainder of the course examines how God reveals himself to people.",
+      "of": "0bb97eaf",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[7].courses[15].description",
+        "charlotte-catholic:divisions[0].departments[8].courses[0].description"
+      ],
+      "t": "Esta asignatura comienza con una breve orientación sobre filosofía y lógica. El resto de la asignatura examina cómo Dios se revela a las personas."
+    },
+    {
+      "text": "Theology",
+      "of": "e179f604",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].name"
+      ],
+      "t": "Teología"
+    },
+    {
+      "text": "Faith and Revelation: Knowing",
+      "of": "aa8dc6d2",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[0].title"
+      ],
+      "t": "Faith and Revelation: Knowing"
+    },
+    {
+      "text": "The Blessed Trinity and Our Christian Vocation",
+      "of": "0e8586e6",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[1].title"
+      ],
+      "t": "The Blessed Trinity and Our Christian Vocation"
+    },
+    {
+      "text": "This course presents the Blessed Trinity – one God in three divine Persons: Father, Son, and Holy Spirit – which is the central mystery of the Christian Faith.",
+      "of": "09259e9d",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[1].description"
+      ],
+      "t": "Esta asignatura presenta la Santísima Trinidad — un solo Dios en tres personas divinas: Padre, Hijo y Espíritu Santo — que es el misterio central de la fe cristiana."
+    },
+    {
+      "text": "SASP Theology 9: Sacred Scripture",
+      "of": "b06c3859",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[2].title"
+      ],
+      "t": "SASP Theology 9: Sacred Scripture"
+    },
+    {
+      "text": "Sacred Scripture offers students a deep encounter with the Word of God through a traditional, liberal arts lens.",
+      "of": "d3241369",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[2].description"
+      ],
+      "t": "Sacred Scripture ofrece al alumnado un encuentro profundo con la Palabra de Dios desde una mirada tradicional y de artes liberales."
+    },
+    {
+      "text": "The Mystery of Redemption and Christian",
+      "of": "a4b33301",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[3].title"
+      ],
+      "t": "The Mystery of Redemption and Christian"
+    },
+    {
+      "text": "This course examines the meaning of redemption; Original Sin; and how the salvific promise made to our first parents is fulfilled in the life, Death, Resurrection, and Ascension of Jesus Christ.",
+      "of": "68fe0098",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[3].description"
+      ],
+      "t": "Esta asignatura examina el sentido de la redención; el pecado original; y cómo la promesa salvífica hecha a nuestros primeros padres se cumple en la vida, muerte, resurrección y ascensión de Jesucristo."
+    },
+    {
+      "text": "The Church: Sacrament of Salvation",
+      "of": "2441fcfb",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[4].title"
+      ],
+      "t": "The Church: Sacrament of Salvation"
+    },
+    {
+      "text": "The Church, which is established by Jesus Christ and guided by the Holy Spirit, continues the salvific ministry of Christ in the world today; thus, the Church is both the Sacrament of Communion and the Sacrament of Salvation.",
+      "of": "985864eb",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[4].description"
+      ],
+      "t": "La Iglesia, fundada por Jesucristo y guiada por el Espíritu Santo, continúa hoy el ministerio salvífico de Cristo en el mundo; por eso la Iglesia es a la vez sacramento de comunión y sacramento de salvación."
+    },
+    {
+      "text": "SASP Theology 10: Wisdom of the Fathers",
+      "of": "244e4e4a",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[5].title"
+      ],
+      "t": "SASP Theology 10: Wisdom of the Fathers"
+    },
+    {
+      "text": "This course will immerse students in the works of the major Fathers of the Church and discuss their influence on the theological development of the Church and its understanding of Divine Revelation (Sacred Tradition and Sacred Scripture).",
+      "of": "a000c0c5",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[5].description"
+      ],
+      "t": "Esta asignatura sumergirá al alumnado en las obras de los principales Padres de la Iglesia y abordará su influencia en el desarrollo teológico de la Iglesia y en su comprensión de la revelación divina (la Sagrada Tradición y la Sagrada Escritura)."
+    },
+    {
+      "text": "The Sacraments: Source of Our Life in Christ",
+      "of": "10dd566d",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[6].title"
+      ],
+      "t": "The Sacraments: Source of Our Life in Christ"
+    },
+    {
+      "text": "This course recognizes how Jesus Christ, through his great love for us, instituted the Sacraments as the ordinary means of receiving salvation and entrusted them to the Church.",
+      "of": "95243e47",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[6].description"
+      ],
+      "t": "Esta asignatura reconoce cómo Jesucristo, por su gran amor hacia nosotros, instituyó los sacramentos como medio ordinario de recibir la salvación y los confió a la Iglesia."
+    },
+    {
+      "text": "Our Moral Life in Christ",
+      "of": "739e4ef4",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[7].title"
+      ],
+      "t": "Our Moral Life in Christ"
+    },
+    {
+      "text": "Through participation in this course students will learn how a well-formed conscience is essential to make moral decisions.",
+      "of": "3ed2113f",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[7].description"
+      ],
+      "t": "Al cursar esta asignatura, el alumnado aprenderá cómo una conciencia bien formada resulta esencial para tomar decisiones morales."
+    },
+    {
+      "text": "Catholic Apologetics",
+      "of": "9d641fac",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[8].title"
+      ],
+      "t": "Catholic Apologetics"
+    },
+    {
+      "text": "This course prepares students for active dialogue with non-Catholics in the public sphere.",
+      "of": "f567ced1",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[8].description"
+      ],
+      "t": "Esta asignatura prepara al alumnado para el diálogo activo con quienes no son católicos en el ámbito público."
+    },
+    {
+      "text": "Vocations and the Universal Call to Holiness",
+      "of": "f19b6224",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[9].title"
+      ],
+      "t": "Vocations and the Universal Call to Holiness"
+    },
+    {
+      "text": "This course explores the vocations of life that spring from our Baptism and how God calls each of us to holiness on earth and to eternal life with him in heaven.",
+      "of": "1a8b3f22",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[9].description"
+      ],
+      "t": "Esta asignatura explora las vocaciones de la vida que nacen de nuestro bautismo y cómo Dios nos llama a cada uno a la santidad en la tierra y a la vida eterna con Él en el cielo."
+    },
+    {
+      "text": "The Social Doctrine of the Catholic Church",
+      "of": "2632d339",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[10].title"
+      ],
+      "t": "The Social Doctrine of the Catholic Church"
+    },
+    {
+      "text": "This course introduces students to the social teachings of the Catholic Church, a rich body of thought covering love and family, law and justice, war and peace, wealth and poverty, rights and duties, and freedom and obligation.",
+      "of": "ae8a7974",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[10].description"
+      ],
+      "t": "Esta asignatura introduce al alumnado en la doctrina social de la Iglesia católica, un rico cuerpo de pensamiento que abarca el amor y la familia, la ley y la justicia, la guerra y la paz, la riqueza y la pobreza, los derechos y los deberes, y la libertad y la obligación."
+    },
+    {
+      "text": "History of the Church",
+      "of": "6a4b3da6",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[11].title"
+      ],
+      "t": "History of the Church"
+    },
+    {
+      "text": "This course begins with the story of God’s definitive intervention into human history in the Person of his Son and continues through his Church to the present day.",
+      "of": "16e347be",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[11].description"
+      ],
+      "t": "Esta asignatura comienza con el relato de la intervención definitiva de Dios en la historia humana en la persona de su Hijo y continúa a través de su Iglesia hasta nuestros días."
+    },
+    {
+      "text": "Honors Gospel and Film",
+      "of": "1c38529d",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[12].title"
+      ],
+      "t": "Honors Gospel and Film"
+    },
+    {
+      "text": "This course will enable students to develop a standard for analyzing what they see portrayed in the cinema.",
+      "of": "1385fa2f",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[12].description"
+      ],
+      "t": "Esta asignatura permitirá al alumnado desarrollar un criterio para analizar lo que ve representado en el cine."
+    },
+    {
+      "text": "Honors Ecumenical and Interreligious Studies",
+      "of": "0fa7bafb",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[13].title"
+      ],
+      "t": "Honors Ecumenical and Interreligious Studies"
+    },
+    {
+      "text": "This course presents an overview of world religions including Judaism, Christianity, Islam, Hinduism and Buddhism.",
+      "of": "548d4bba",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[8].courses[13].description"
+      ],
+      "t": "Esta asignatura ofrece un panorama de las religiones del mundo, incluidos el judaísmo, el cristianismo, el islam, el hinduismo y el budismo."
+    },
+    {
+      "text": "Visual and Performing Arts",
+      "of": "fd9c353b",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].name"
+      ],
+      "t": "Artes visuales y escénicas"
+    },
+    {
+      "text": "Art I is an introductory course focusing on fundamental art skills. Various media and tools are explored including painting, drawing, and sculpture.",
+      "of": "0a151589",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[0].description"
+      ],
+      "t": "Art I es una asignatura introductoria centrada en las destrezas artísticas fundamentales. Se exploran distintos medios y herramientas, entre ellos la pintura, el dibujo y la escultura."
+    },
+    {
+      "text": "Art II is an intermediate course focused on expanding on fundamental art skills learned in Art I, with an emphasis on further developing drawing techniques.",
+      "of": "b72a785a",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[1].description"
+      ],
+      "t": "Art II es una asignatura de nivel intermedio centrada en ampliar las destrezas artísticas fundamentales aprendidas en Art I, con énfasis en desarrollar más las técnicas de dibujo."
+    },
+    {
+      "text": "Art III",
+      "of": "2cf717e7",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[2].title",
+        "hickory-grove-christian:divisions[0].departments[6].courses[2].title"
+      ],
+      "t": "Art III"
+    },
+    {
+      "text": "Art III is a proficient course focused on developing techniques in painting and printmaking.",
+      "of": "9e1eb092",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[2].description"
+      ],
+      "t": "Art III es una asignatura de nivel avanzado centrada en desarrollar técnicas de pintura y de grabado."
+    },
+    {
+      "text": "Honors Portfolio Prep",
+      "of": "2c28ccbf",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[3].title"
+      ],
+      "t": "Honors Portfolio Prep"
+    },
+    {
+      "text": "Honors Portfolio Prep is an advanced course designed to prepare students for AP Studio Art and college portfolio submissions.",
+      "of": "323fe118",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[3].description"
+      ],
+      "t": "Honors Portfolio Prep es una asignatura avanzada pensada para preparar al alumnado para AP Studio Art y para la presentación de portafolios universitarios."
+    },
+    {
+      "text": "Honors Art IV",
+      "of": "e29c7ae8",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[4].title"
+      ],
+      "t": "Honors Art IV"
+    },
+    {
+      "text": "Honors Art IV is an advanced course focusing on refining proficient art skills through experimental and advanced techniques.",
+      "of": "703de8d0",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[4].description"
+      ],
+      "t": "Honors Art IV es una asignatura avanzada centrada en perfeccionar destrezas artísticas ya consolidadas mediante técnicas experimentales y avanzadas."
+    },
+    {
+      "text": "AP Studio Art",
+      "of": "c75dc683",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[5].title",
+        "covenant-day:divisions[0].departments[6].courses[16].title",
+        "davidson-day:divisions[2].departments[5].courses[6].title"
+      ],
+      "t": "AP Studio Art"
+    },
+    {
+      "text": "AP Studio Art is a college equivalent course in which students create a 2D Design or a Drawing portfolio to be evaluated by the College Board.",
+      "of": "e1ea6261",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[5].description"
+      ],
+      "t": "AP Studio Art es una asignatura equivalente a la universitaria en la que el alumnado crea un portafolio de 2D Design o de Drawing para que lo evalúe el College Board."
+    },
+    {
+      "text": "Ceramics I",
+      "of": "6b9cb6d7",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[6].title",
+        "hickory-grove-christian:divisions[0].departments[6].courses[5].title"
+      ],
+      "t": "Ceramics I"
+    },
+    {
+      "text": "Ceramics I is an introductory course focusing on fundamental skills for working with clay.",
+      "of": "96766432",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[6].description"
+      ],
+      "t": "Ceramics I es una asignatura introductoria centrada en las destrezas fundamentales para trabajar el barro."
+    },
+    {
+      "text": "Ceramics II",
+      "of": "05b37aba",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[7].title",
+        "hickory-grove-christian:divisions[0].departments[6].courses[6].title"
+      ],
+      "t": "Ceramics II"
+    },
+    {
+      "text": "Ceramics II is an intermediate course focusing on fundamental skills for working with the pottery wheel.",
+      "of": "29538d30",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[7].description"
+      ],
+      "t": "Ceramics II es una asignatura de nivel intermedio centrada en las destrezas fundamentales para trabajar con el torno de alfarero."
+    },
+    {
+      "text": "Introduction to Photography",
+      "of": "87ec7741",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[8].title"
+      ],
+      "t": "Introduction to Photography"
+    },
+    {
+      "text": "Photography II is a continuation of Photography I and requires students to have a good working knowledge of DSLR camera controls and the fundamentals of composition.",
+      "of": "81f85554",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[8].description",
+        "charlotte-catholic:divisions[0].departments[9].courses[9].description"
+      ],
+      "t": "Photography II es la continuación de Photography I y exige que el alumnado maneje bien los controles de una cámara DSLR y los fundamentos de la composición."
+    },
+    {
+      "text": "Photography II",
+      "of": "770d4cae",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[9].title",
+        "davidson-day:divisions[2].departments[5].courses[1].title"
+      ],
+      "t": "Photography II"
+    },
+    {
+      "text": "Photography III",
+      "of": "50f00fa5",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[10].title",
+        "davidson-day:divisions[2].departments[5].courses[2].title"
+      ],
+      "t": "Photography III"
+    },
+    {
+      "text": "Photography III is a continuation of Photography I and II and requires students to have a thorough knowledge of DSLR camera controls and the fundamentals of composition.",
+      "of": "67389adc",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[10].description"
+      ],
+      "t": "Photography III es la continuación de Photography I y II y exige que el alumnado conozca a fondo los controles de una cámara DSLR y los fundamentos de la composición."
+    },
+    {
+      "text": "Digital Art and Graphic Design",
+      "of": "ae2647f7",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[11].title"
+      ],
+      "t": "Digital Art and Graphic Design"
+    },
+    {
+      "text": "The foundational premise of graphic design is that the artist/designer uses words and pictures to tell a story.",
+      "of": "26c13a1e",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[11].description"
+      ],
+      "t": "La premisa fundamental del diseño gráfico es que el artista o diseñador usa palabras e imágenes para contar una historia."
+    },
+    {
+      "text": "Digital Art, Graphics, and Anime",
+      "of": "3c252624",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[12].title"
+      ],
+      "t": "Digital Art, Graphics, and Anime"
+    },
+    {
+      "text": "How digital art and graphics including anime took over the world. Students in this course will take a visual romp through the evolution of comics and advertising graphics, including the current anime craze, over the past century.",
+      "of": "af8e8ce0",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[12].description"
+      ],
+      "t": "Cómo el arte digital y los gráficos, incluido el anime, conquistaron el mundo. En esta asignatura el alumnado hará un recorrido visual por la evolución del cómic y de los gráficos publicitarios a lo largo del último siglo, incluida la actual fiebre del anime."
+    },
+    {
+      "text": "Freshman Men’s Chorus",
+      "of": "7613bf31",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[13].title"
+      ],
+      "t": "Freshman Men’s Chorus"
+    },
+    {
+      "text": "This course offers incoming freshmen men an opportunity to develop their singing voices through choral singing, correct breathing, sight singing, and vocal production techniques.",
+      "of": "9ea6724e",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[13].description"
+      ],
+      "t": "Esta asignatura ofrece a los chicos que entran en primer curso la oportunidad de desarrollar su voz mediante el canto coral, la respiración correcta, la lectura a primera vista y técnicas de emisión vocal."
+    },
+    {
+      "text": "Freshman Women’s Chorus",
+      "of": "ba4bcb17",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[14].title"
+      ],
+      "t": "Freshman Women’s Chorus"
+    },
+    {
+      "text": "This course offers incoming freshmen women an opportunity to develop their singing voices through choral singing, correct breathing, sight singing, and vocal production techniques.",
+      "of": "30121c3c",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[14].description"
+      ],
+      "t": "Esta asignatura ofrece a las chicas que entran en primer curso la oportunidad de desarrollar su voz mediante el canto coral, la respiración correcta, la lectura a primera vista y técnicas de emisión vocal."
+    },
+    {
+      "text": "Choral Ensemble",
+      "of": "daa32d7d",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[15].title"
+      ],
+      "t": "Choral Ensemble"
+    },
+    {
+      "text": "The Choral Ensemble is an intermediate level choir of students who are continuing to develop their singing voices through choral singing, correct breathing, sight singing, and vocal production techniques.",
+      "of": "07f878b1",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[15].description"
+      ],
+      "t": "El Choral Ensemble es un coro de nivel intermedio formado por alumnado que sigue desarrollando su voz mediante el canto coral, la respiración correcta, la lectura a primera vista y técnicas de emisión vocal."
+    },
+    {
+      "text": "Women’s Chamber Ensemble",
+      "of": "504b554a",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[16].title"
+      ],
+      "t": "Women’s Chamber Ensemble"
+    },
+    {
+      "text": "This course is an auditioned proficient level choir for women with previous singing experience.",
+      "of": "9f34af36",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[16].description"
+      ],
+      "t": "Esta asignatura es un coro femenino de nivel avanzado con audición previa para quienes tienen experiencia previa en canto."
+    },
+    {
+      "text": "Honors Women’s Chamber Ensemble",
+      "of": "432d4513",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[17].title"
+      ],
+      "t": "Honors Women’s Chamber Ensemble"
+    },
+    {
+      "text": "This course is an auditioned proficient and advanced level choir for women with previous singing experience.",
+      "of": "035360d3",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[17].description"
+      ],
+      "t": "Esta asignatura es un coro femenino de nivel avanzado y superior con audición previa para quienes tienen experiencia previa en canto."
+    },
+    {
+      "text": "Men’s Chamber Ensemble",
+      "of": "971f5d3c",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[18].title"
+      ],
+      "t": "Men’s Chamber Ensemble"
+    },
+    {
+      "text": "This course is an auditioned proficient level choir for men with previous singing experience.",
+      "of": "ce946530",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[18].description"
+      ],
+      "t": "Esta asignatura es un coro masculino de nivel avanzado con audición previa para quienes tienen experiencia previa en canto."
+    },
+    {
+      "text": "Honors Men’s Chamber Ensemble",
+      "of": "53e79e4d",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[19].title"
+      ],
+      "t": "Honors Men’s Chamber Ensemble"
+    },
+    {
+      "text": "This course is an auditioned proficient and advanced level choir for men with previous singing experience.",
+      "of": "6b9a427d",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[19].description"
+      ],
+      "t": "Esta asignatura es un coro masculino de nivel avanzado y superior con audición previa para quienes tienen experiencia previa en canto."
+    },
+    {
+      "text": "Honors Concert Choir",
+      "of": "b751536d",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[20].title",
+        "charlotte-country-day:divisions[2].departments[5].courses[1].title"
+      ],
+      "t": "Honors Concert Choir"
+    },
+    {
+      "text": "This course is an auditioned, advanced level mixed choir for men and women with significant previous singing experience.",
+      "of": "53180152",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[20].description"
+      ],
+      "t": "Esta asignatura es un coro mixto de nivel superior con audición previa, para chicos y chicas con una experiencia previa importante en canto."
+    },
+    {
+      "text": "Costume Design and Production",
+      "of": "d4e14727",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[21].title"
+      ],
+      "t": "Costume Design and Production"
+    },
+    {
+      "text": "Join this award-winning class that will lay the groundwork for hands-on experience in the world of clothing design and application.",
+      "of": "2960fbcc",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[21].description"
+      ],
+      "t": "Únete a esta clase premiada que sentará las bases de una experiencia práctica en el mundo del diseño y la confección de ropa."
+    },
+    {
+      "text": "Honors Costume Design and Production",
+      "of": "0b840884",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[22].title"
+      ],
+      "t": "Honors Costume Design and Production"
+    },
+    {
+      "text": "The clothes look great, but why do they look great? Learn about color theory and aesthetics to perfect your skills that can launch your career in the industry.",
+      "of": "14bc6028",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[22].description"
+      ],
+      "t": "La ropa queda estupenda, pero ¿por qué queda estupenda? Aprende teoría del color y estética para perfeccionar unas destrezas que pueden lanzar tu carrera en el sector."
+    },
+    {
+      "text": "Theatre: Design and Tech",
+      "of": "402c8973",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[23].title"
+      ],
+      "t": "Theatre: Design and Tech"
+    },
+    {
+      "text": "Interested in the craft of technical theatre? This program allows students the chance to design, build, rig, and engineer all the technical elements of our theatre performances.",
+      "of": "23fdd2cf",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[23].description"
+      ],
+      "t": "¿Te interesa el oficio del teatro técnico? Este programa da al alumnado la oportunidad de diseñar, construir, montar y proyectar todos los elementos técnicos de nuestras funciones de teatro."
+    },
+    {
+      "text": "Honors Theatre: Design and Tech",
+      "of": "561ee1f6",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[24].title"
+      ],
+      "t": "Honors Theatre: Design and Tech"
+    },
+    {
+      "text": "Perfect the craft, create and apply the vision. This advanced element of the course not only allows students to create the sets but gives them the tools to work in a professional setting, where all the concepts of design and aesthetics…",
+      "of": "8ba66e55",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[24].description"
+      ],
+      "t": "Perfecciona el oficio, crea y aplica la visión. Este componente avanzado de la asignatura no solo permite al alumnado crear los decorados, sino que le da las herramientas para trabajar en un entorno profesional, donde todos los conceptos de diseño y estética…"
+    },
+    {
+      "text": "On The Stage: Acting, Directing, Movie Making",
+      "of": "b4ceba77",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[25].title"
+      ],
+      "t": "On The Stage: Acting, Directing, Movie Making"
+    },
+    {
+      "text": "Begin your journey to stardom as a student of the craft of acting, directing, and movie making.",
+      "of": "9a61a6e4",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[25].description"
+      ],
+      "t": "Empieza tu camino hacia el estrellato como estudiante del oficio de la interpretación, la dirección y la realización cinematográfica."
+    },
+    {
+      "text": "Behind the Scenes: Set Design, Construction,",
+      "of": "18071e22",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[26].title"
+      ],
+      "t": "Behind the Scenes: Set Design, Construction,"
+    },
+    {
+      "text": "Come see how we make it look easy. The world of stage craft is vast and can lend itself to numerous other career paths.",
+      "of": "1d869022",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[26].description"
+      ],
+      "t": "Ven a ver cómo conseguimos que parezca fácil. El mundo de la técnica escénica es enorme y puede abrir muchas otras salidas profesionales."
+    },
+    {
+      "text": "This course is offered to students who desire to seriously pursue all acting techniques for the stage as well as screen.",
+      "of": "10b9628e",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[27].description"
+      ],
+      "t": "Esta asignatura se ofrece al alumnado que desea profundizar en serio en todas las técnicas de interpretación, tanto para el escenario como para la pantalla."
+    },
+    {
+      "text": "Honors Acting",
+      "of": "5cd8b9a0",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[28].title"
+      ],
+      "t": "Honors Acting"
+    },
+    {
+      "text": "Honors Acting requires students to put time, energy and commitment into fulfilling superior theater student requirements.",
+      "of": "72d42788",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[28].description"
+      ],
+      "t": "Honors Acting exige que el alumnado dedique tiempo, energía y compromiso a cumplir los requisitos propios de un estudiante de teatro sobresaliente."
+    },
+    {
+      "text": "Honors TV, Film, and Production",
+      "of": "b52fefb0",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[29].title"
+      ],
+      "t": "Honors TV, Film, and Production"
+    },
+    {
+      "text": "This course furthers the knowledge of the principles, procedures, and techniques of television/web series production.",
+      "of": "fddd3045",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[29].description"
+      ],
+      "t": "Esta asignatura amplía el conocimiento de los principios, procedimientos y técnicas de la producción de televisión y de series web."
+    },
+    {
+      "text": "Dance I",
+      "of": "1f30f967",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[30].title"
+      ],
+      "t": "Dance I"
+    },
+    {
+      "text": "Dance I is an introductory course for incoming freshmen with little or no formal dance instruction, but offered to those interested in learning and possibly furthering their dance knowledge and technique.",
+      "of": "aed0ca00",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[30].description"
+      ],
+      "t": "Dance I es una asignatura introductoria para quienes entran en primer curso con poca o ninguna formación formal en danza, pero abierta a quien tenga interés en aprender y quizá ampliar sus conocimientos y su técnica de danza."
+    },
+    {
+      "text": "Dance II",
+      "of": "4818436a",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[31].title"
+      ],
+      "t": "Dance II"
+    },
+    {
+      "text": "Dance II is an intermediate to advanced level dance class in which students with previous dance experience either outside of school or through Dance I freshman year can continue to improve their dance techniques and performance skills.",
+      "of": "2d51fc71",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[31].description"
+      ],
+      "t": "Dance II es una clase de danza de nivel intermedio a avanzado en la que el alumnado con experiencia previa en danza, ya sea fuera del centro o a través de Dance I en primer curso, puede seguir mejorando su técnica y sus destrezas interpretativas."
+    },
+    {
+      "text": "Honors Dance III",
+      "of": "f320fa56",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[32].title"
+      ],
+      "t": "Honors Dance III"
+    },
+    {
+      "text": "Dance III is an honors level performance course which highlights the advanced technique skills of students through the application of choreography The class meets the full year and two staged recitals are required including the use of…",
+      "of": "c16f00cb",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[32].description"
+      ],
+      "t": "Dance III es una asignatura de interpretación de nivel honors que destaca las destrezas técnicas avanzadas del alumnado mediante la aplicación de la coreografía. La clase se imparte todo el año y se exigen dos recitales escenificados, incluido el uso de…"
+    },
+    {
+      "text": "Concert Band",
+      "of": "b08df0b4",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[33].title"
+      ],
+      "t": "Concert Band"
+    },
+    {
+      "text": "Students with playing experience are eligible for this class through an audition. Students accepted into this ensemble are expected to be proficient on their instrument, have a basic knowledge of music theory, and be fluent in reading…",
+      "of": "4de73b80",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[33].description"
+      ],
+      "t": "El alumnado con experiencia tocando puede acceder a esta clase mediante audición. De quienes son admitidos en este conjunto se espera que dominen su instrumento, tengan conocimientos básicos de teoría musical y lean con soltura…"
+    },
+    {
+      "text": "Honors Wind Ensemble",
+      "of": "b4b08e49",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[34].title"
+      ],
+      "t": "Honors Wind Ensemble"
+    },
+    {
+      "text": "This class is for juniors and seniors who have completed one year of Concert Band and who wish to receive honors credit for their participation in band.",
+      "of": "ef41ca4c",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[34].description"
+      ],
+      "t": "Esta clase es para el alumnado de tercero y cuarto que ha completado un año de Concert Band y desea obtener crédito de honors por su participación en la banda."
+    },
+    {
+      "text": "Percussion",
+      "of": "37595b80",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[35].title"
+      ],
+      "t": "Percussion"
+    },
+    {
+      "text": "This class is for members of the symphonic band who play percussion instruments. The class will cover the fundamentals of playing percussion instruments and application of musicianship skills to the genre.",
+      "of": "16ac5eca",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[35].description"
+      ],
+      "t": "Esta clase es para los integrantes de la banda sinfónica que tocan instrumentos de percusión. La clase cubrirá los fundamentos de la interpretación de instrumentos de percusión y la aplicación de las destrezas musicales al género."
+    },
+    {
+      "text": "Honors Percussion",
+      "of": "0943913d",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[36].title"
+      ],
+      "t": "Honors Percussion"
+    },
+    {
+      "text": "This class is for members of the percussion group who wish to receive honors credit for their participation in band.",
+      "of": "eeccefc2",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[36].description"
+      ],
+      "t": "Esta clase es para los integrantes del grupo de percusión que desean obtener crédito de honors por su participación en la banda."
+    },
+    {
+      "text": "This course is designed as a performance based class to give an understanding of the fundamentals of acoustic guitar playing.",
+      "of": "9c317d08",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[37].description"
+      ],
+      "t": "Esta asignatura está concebida como una clase basada en la interpretación para dar a entender los fundamentos de tocar la guitarra acústica."
+    },
+    {
+      "text": "Guitar II",
+      "of": "c8101baf",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[38].title"
+      ],
+      "t": "Guitar II"
+    },
+    {
+      "text": "This course is designed for the intermediate-advanced guitar student. The course will be a continuation of the material covered in Guitar I with more emphasis on improving the fundamentals with sight reading, scales, chord spellings,…",
+      "of": "2a574145",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[9].courses[38].description"
+      ],
+      "t": "Esta asignatura está pensada para el alumnado de guitarra de nivel intermedio-avanzado. Será la continuación del material visto en Guitar I, con más énfasis en mejorar los fundamentos con la lectura a primera vista, las escalas, la construcción de acordes,…"
+    },
+    {
+      "text": "French I",
+      "of": "bd7271a2",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[0].title",
+        "davidson-day:divisions[2].departments[4].courses[0].title"
+      ],
+      "t": "French I"
+    },
+    {
+      "text": "The French I course involves the elementary acquisition of the four fundamental skills of learning the language: reading, writing, listening, and speaking.",
+      "of": "1c784189",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[0].description"
+      ],
+      "t": "La asignatura French I abarca la adquisición elemental de las cuatro destrezas fundamentales del aprendizaje de la lengua: leer, escribir, escuchar y hablar."
+    },
+    {
+      "text": "French II",
+      "of": "262954f1",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[1].title",
+        "davidson-day:divisions[2].departments[4].courses[1].title"
+      ],
+      "t": "French II"
+    },
+    {
+      "text": "This course is designed to continue the foundation learned in French I and build a greater understanding and comprehension of reading, writing, listening, and speaking.",
+      "of": "d9bf2f32",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[1].description",
+        "charlotte-catholic:divisions[0].departments[10].courses[2].description"
+      ],
+      "t": "Esta asignatura está pensada para continuar los cimientos adquiridos en French I y construir una mayor comprensión y dominio de la lectura, la escritura, la comprensión oral y la expresión oral."
+    },
+    {
+      "text": "Advanced French II",
+      "of": "d248811d",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[2].title"
+      ],
+      "t": "Advanced French II"
+    },
+    {
+      "text": "Advanced French III",
+      "of": "5c23973c",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[3].title"
+      ],
+      "t": "Advanced French III"
+    },
+    {
+      "text": "This course is an advanced course designed to develop in the students a greater understanding and comprehension of the French language, by continuing the development and application of the language on reading, writing, listening and…",
+      "of": "2fb65d18",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[3].description"
+      ],
+      "t": "Esta asignatura es de nivel avanzado y está pensada para desarrollar en el alumnado una mayor comprensión del francés, continuando el desarrollo y la aplicación de la lengua en la lectura, la escritura, la comprensión oral y…"
+    },
+    {
+      "text": "Honors French III",
+      "of": "ba821699",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[4].title"
+      ],
+      "t": "Honors French III"
+    },
+    {
+      "text": "This course is designed to prepare the student for Honors Spanish IV or AP French Language and Culture, developing in the student a greater comprehension and understanding of more complex reading, writing, listening and speaking.",
+      "of": "7b3dddbd",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[4].description"
+      ],
+      "t": "Esta asignatura está pensada para preparar al alumnado para Honors Spanish IV o AP French Language and Culture, desarrollando en él una mayor comprensión y dominio de la lectura, la escritura, la comprensión oral y la expresión oral más complejas."
+    },
+    {
+      "text": "Honors French IV",
+      "of": "f00057a3",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[5].title"
+      ],
+      "t": "Honors French IV"
+    },
+    {
+      "text": "On the linguistic level, the acquisition and honing of the four language skills are still constant goals within a culturally rich setting.",
+      "of": "775d5a79",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[5].description",
+        "charlotte-catholic:divisions[0].departments[10].courses[10].description",
+        "charlotte-catholic:divisions[0].departments[10].courses[25].description"
+      ],
+      "t": "En el plano lingüístico, la adquisición y el perfeccionamiento de las cuatro destrezas lingüísticas siguen siendo objetivos constantes dentro de un marco culturalmente rico."
+    },
+    {
+      "text": "Advanced Placement French V",
+      "of": "b0b20c96",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[6].title"
+      ],
+      "t": "Advanced Placement French V"
+    },
+    {
+      "text": "The Advanced Placement French Language and Culture course is equivalent to an introductory college-level course and is designed to advance students’ communicative proficiency in French within a culturally rich and content-based framework.",
+      "of": "11c3751d",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[6].description"
+      ],
+      "t": "La asignatura Advanced Placement French Language and Culture equivale a una asignatura universitaria introductoria y está pensada para hacer avanzar la competencia comunicativa del alumnado en francés dentro de un marco culturalmente rico y basado en contenidos."
+    },
+    {
+      "text": "German I",
+      "of": "3c91eae0",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[7].title"
+      ],
+      "t": "German I"
+    },
+    {
+      "text": "The German I course involves the elementary acquisition of the four fundamental skills of learning the language: reading, writing, listening, and speaking.",
+      "of": "6dc0c3fb",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[7].description"
+      ],
+      "t": "La asignatura German I abarca la adquisición elemental de las cuatro destrezas fundamentales del aprendizaje de la lengua: leer, escribir, escuchar y hablar."
+    },
+    {
+      "text": "German II",
+      "of": "02b4680b",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[8].title"
+      ],
+      "t": "German II"
+    },
+    {
+      "text": "This course is designed to continue the foundation learned in German I and build a greater understanding and comprehension of reading, writing, listening, and speaking.",
+      "of": "a1cbc734",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[8].description"
+      ],
+      "t": "Esta asignatura está pensada para continuar los cimientos adquiridos en German I y construir una mayor comprensión y dominio de la lectura, la escritura, la comprensión oral y la expresión oral."
+    },
+    {
+      "text": "Honors German III",
+      "of": "78b4d053",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[9].title"
+      ],
+      "t": "Honors German III"
+    },
+    {
+      "text": "This course is designed to prepare the student for Honors German IV or AP German Language and Culture, developing in the student a greater comprehension and understanding of more complex reading, writing, listening and speaking.",
+      "of": "b61d605b",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[9].description"
+      ],
+      "t": "Esta asignatura está pensada para preparar al alumnado para Honors German IV o AP German Language and Culture, desarrollando en él una mayor comprensión y dominio de la lectura, la escritura, la comprensión oral y la expresión oral más complejas."
+    },
+    {
+      "text": "Honors German IV",
+      "of": "2d641345",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[10].title"
+      ],
+      "t": "Honors German IV"
+    },
+    {
+      "text": "Advanced Placement German V",
+      "of": "1c2819ac",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[11].title"
+      ],
+      "t": "Advanced Placement German V"
+    },
+    {
+      "text": "The Advanced Placement German Language and Culture course is equivalent to an introductory college-level course and is designed to advance students’ communicative proficiency in German within a culturally rich and content-based framework.",
+      "of": "87857969",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[11].description"
+      ],
+      "t": "La asignatura Advanced Placement German Language and Culture equivale a una asignatura universitaria introductoria y está pensada para hacer avanzar la competencia comunicativa del alumnado en alemán dentro de un marco culturalmente rico y basado en contenidos."
+    },
+    {
+      "text": "The Latin I course involves the elementary acquisition of Latin grammar, reading, and vocabulary.",
+      "of": "845daddd",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[12].description"
+      ],
+      "t": "La asignatura Latin I abarca la adquisición elemental de la gramática, la lectura y el vocabulario latinos."
+    },
+    {
+      "text": "Latin II",
+      "of": "8e819985",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[13].title"
+      ],
+      "t": "Latin II"
+    },
+    {
+      "text": "This course is designed to continue the foundation learned in Latin I and build a greater understanding of complex sentence structures, increase vocabulary and help students prepare to read from well known authors from the ancient world.",
+      "of": "8ec2dd96",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[13].description",
+        "charlotte-catholic:divisions[0].departments[10].courses[14].description"
+      ],
+      "t": "Esta asignatura está pensada para continuar los cimientos adquiridos en Latin I, construir una mayor comprensión de las estructuras oracionales complejas, ampliar el vocabulario y ayudar al alumnado a prepararse para leer a autores muy conocidos del mundo antiguo."
+    },
+    {
+      "text": "Advanced Latin II",
+      "of": "e7d5fda9",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[14].title"
+      ],
+      "t": "Advanced Latin II"
+    },
+    {
+      "text": "Advanced Latin III",
+      "of": "d5dea7a0",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[15].title"
+      ],
+      "t": "Advanced Latin III"
+    },
+    {
+      "text": "Advanced Latin III will further review and apply Latin vocabulary and grammar. Students will explore readings in adapted and authentic Latin literature, while learning to read and interpret prose and poetry.",
+      "of": "38d33041",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[15].description"
+      ],
+      "t": "Advanced Latin III repasará y aplicará más a fondo el vocabulario y la gramática del latín. El alumnado explorará lecturas de literatura latina adaptada y auténtica, mientras aprende a leer e interpretar prosa y poesía."
+    },
+    {
+      "text": "Honors Latin III",
+      "of": "aaade11b",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[16].title"
+      ],
+      "t": "Honors Latin III"
+    },
+    {
+      "text": "This course is designed for students whose demonstrated mastery of Latin fundamentals indicates readiness for authentic literary texts.",
+      "of": "087ba19a",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[16].description"
+      ],
+      "t": "Esta asignatura está pensada para el alumnado cuyo dominio demostrado de los fundamentos del latín indica que está preparado para abordar textos literarios auténticos."
+    },
+    {
+      "text": "Honors Latin lV",
+      "of": "f7ddf50c",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[17].title"
+      ],
+      "t": "Honors Latin lV"
+    },
+    {
+      "text": "This course emphasizes the rhetorical, metrical, and cultural conventions of epic and lyric poetry.",
+      "of": "807d2322",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[17].description"
+      ],
+      "t": "Esta asignatura pone el acento en las convenciones retóricas, métricas y culturales de la poesía épica y lírica."
+    },
+    {
+      "text": "The Advanced Placement Latin course focuses on advanced Latin language acquisition through close reading, textual analysis, and contextualization of authentic texts.",
+      "of": "395bf95e",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[18].description"
+      ],
+      "t": "La asignatura Advanced Placement Latin se centra en la adquisición avanzada de la lengua latina mediante la lectura atenta, el análisis textual y la contextualización de textos auténticos."
+    },
+    {
+      "text": "Spanish I",
+      "of": "389b9238",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[19].title",
+        "davidson-day:divisions[2].departments[4].courses[6].title",
+        "carmel-christian:divisions[0].departments[5].courses[0].title",
+        "hickory-grove-christian:divisions[0].departments[5].courses[0].title"
+      ],
+      "t": "Spanish I"
+    },
+    {
+      "text": "The Spanish I course involves the elementary acquisition of the four fundamental skills of learning the language: reading, writing, listening, and speaking.",
+      "of": "fb73e7b9",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[19].description"
+      ],
+      "t": "La asignatura Spanish I abarca la adquisición elemental de las cuatro destrezas fundamentales del aprendizaje de la lengua: leer, escribir, escuchar y hablar."
+    },
+    {
+      "text": "Spanish II",
+      "of": "8de787e3",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[20].title",
+        "davidson-day:divisions[2].departments[4].courses[7].title",
+        "carmel-christian:divisions[0].departments[5].courses[1].title",
+        "carmel-christian:divisions[0].departments[5].courses[2].title",
+        "hickory-grove-christian:divisions[0].departments[5].courses[1].title"
+      ],
+      "t": "Spanish II"
+    },
+    {
+      "text": "This course is designed to continue the foundation learned in Spanish 1 and build a greater understanding and comprehension of reading, writing, listening, and speaking.",
+      "of": "5ff21440",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[20].description",
+        "charlotte-catholic:divisions[0].departments[10].courses[21].description"
+      ],
+      "t": "Esta asignatura está pensada para continuar los cimientos adquiridos en Spanish 1 y construir una mayor comprensión y dominio de la lectura, la escritura, la comprensión oral y la expresión oral."
+    },
+    {
+      "text": "Advanced Spanish II",
+      "of": "396a38d7",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[21].title"
+      ],
+      "t": "Advanced Spanish II"
+    },
+    {
+      "text": "Advanced Spanish III",
+      "of": "003720ba",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[22].title"
+      ],
+      "t": "Advanced Spanish III"
+    },
+    {
+      "text": "This course is an advanced course designed to develop in the students a greater understanding and comprehension of the Spanish language, by continuing the development and application of the language on reading, writing, listening and…",
+      "of": "835aafba",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[22].description"
+      ],
+      "t": "Esta asignatura es de nivel avanzado y está pensada para desarrollar en el alumnado una mayor comprensión del español, continuando el desarrollo y la aplicación de la lengua en la lectura, la escritura, la comprensión oral y…"
+    },
+    {
+      "text": "Advanced Spanish III - Native Speaker",
+      "of": "bb13b551",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[23].title"
+      ],
+      "t": "Advanced Spanish III - Native Speaker"
+    },
+    {
+      "text": "This course is an advanced course designed for students who already speak Spanish at home or in their communities.",
+      "of": "a440afa1",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[23].description"
+      ],
+      "t": "Esta asignatura es de nivel avanzado y está pensada para el alumnado que ya habla español en casa o en su comunidad."
+    },
+    {
+      "text": "Honors Spanish III",
+      "of": "33c8af69",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[24].title"
+      ],
+      "t": "Honors Spanish III"
+    },
+    {
+      "text": "This course is designed to prepare the student for Honors Spanish IV or AP Spanish Language and Culture, developing in the student a greater comprehension and understanding of more complex reading, writing, listening and speaking.",
+      "of": "0c82a02d",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[24].description"
+      ],
+      "t": "Esta asignatura está pensada para preparar al alumnado para Honors Spanish IV o AP Spanish Language and Culture, desarrollando en él una mayor comprensión y dominio de la lectura, la escritura, la comprensión oral y la expresión oral más complejas."
+    },
+    {
+      "text": "Honors Spanish IV",
+      "of": "2d15eb33",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[25].title",
+        "carmel-christian:divisions[0].departments[5].courses[5].title"
+      ],
+      "t": "Honors Spanish IV"
+    },
+    {
+      "text": "Advanced Placement Spanish V:",
+      "of": "ff6c6214",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[26].title"
+      ],
+      "t": "Advanced Placement Spanish V:"
+    },
+    {
+      "text": "The Advanced Placement Spanish Language and Culture course is equivalent to an introductory college-level course and is designed to advance students’ communicative proficiency in Spanish within a culturally rich and content-based framework.",
+      "of": "317c7f3b",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[26].description"
+      ],
+      "t": "La asignatura Advanced Placement Spanish Language and Culture equivale a una asignatura universitaria introductoria y está pensada para hacer avanzar la competencia comunicativa del alumnado en español dentro de un marco culturalmente rico y basado en contenidos."
+    },
+    {
+      "text": "Advanced Placement Spanish VI:",
+      "of": "486bc085",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[27].title"
+      ],
+      "t": "Advanced Placement Spanish VI:"
+    },
+    {
+      "text": "The Advanced Placement Spanish Literature and Culture course is equivalent to a college-level literature course and is designed to advance students’ interpretive, analytical, and communicative skills in Spanish.",
+      "of": "a6c071b3",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[10].courses[27].description"
+      ],
+      "t": "La asignatura Advanced Placement Spanish Literature and Culture equivale a una asignatura universitaria de literatura y está pensada para hacer avanzar las destrezas interpretativas, analíticas y comunicativas del alumnado en español."
+    },
+    {
+      "text": "Dual Enrollment",
+      "of": "84b99ed5",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[11].name",
+        "charlotte-catholic:divisions[0].departments[11].courses[0].tag",
+        "charlotte-catholic:divisions[0].departments[11].courses[1].tag"
+      ],
+      "t": "Matrícula dual"
+    },
+    {
+      "text": "Dual Enrollment: Public Speaking",
+      "of": "3943aa38",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[11].courses[0].title"
+      ],
+      "t": "Dual Enrollment: Public Speaking"
+    },
+    {
+      "text": "This course provides instruction and experience in preparation and delivery of speeches within a public setting and group discussion.",
+      "of": "dfae0ace",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[11].courses[0].description"
+      ],
+      "t": "Esta asignatura ofrece formación y experiencia en la preparación y exposición de discursos en un ámbito público y en el debate en grupo."
+    },
+    {
+      "text": "Dual Enrollment: Introduction to Sociology",
+      "of": "8fa388c6",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[11].courses[1].title"
+      ],
+      "t": "Dual Enrollment: Introduction to Sociology"
+    },
+    {
+      "text": "This course introduces the scientific study of human society, culture, and social interactions.",
+      "of": "ef3b3870",
+      "at": [
+        "charlotte-catholic:divisions[0].departments[11].courses[1].description"
+      ],
+      "t": "Esta asignatura introduce en el estudio científico de la sociedad humana, la cultura y las interacciones sociales."
     },
     {
       "text": "10 subject areas — both French and Spanish from JK, a Design Lab, and a Grade 4 Exhibition research capstone.",
@@ -10882,19 +13867,6 @@
       "t": "Una clase diaria centrada en la mejora de la forma física individual, la resistencia cardiovascular, la fuerza y el contacto con distintos deportes."
     },
     {
-      "text": "Health",
-      "of": "986145af",
-      "at": [
-        "charlotte-country-day:divisions[1].departments[5].courses[1].title",
-        "charlotte-country-day:divisions[1].departments[5].courses[2].title",
-        "charlotte-country-day:divisions[1].departments[5].courses[3].title",
-        "charlotte-country-day:divisions[1].departments[5].courses[4].title",
-        "covenant-day:divisions[0].departments[2].courses[5].title",
-        "carmel-christian:divisions[0].departments[6].courses[0].title"
-      ],
-      "t": "Salud"
-    },
-    {
       "text": "Instruction on human growth and development including reproductive systems and childbirth.",
       "of": "138f09bf",
       "at": [
@@ -11173,15 +14145,6 @@
       "t": "Geometría de nivel estándar."
     },
     {
-      "text": "Honors Geometry",
-      "of": "e8101e6c",
-      "at": [
-        "charlotte-country-day:divisions[2].departments[1].courses[2].title",
-        "davidson-day:divisions[1].departments[0].courses[9].title"
-      ],
-      "t": "Honors Geometry"
-    },
-    {
       "text": "Accelerated geometry; requires 90 in Algebra I plus teacher recommendation.",
       "of": "b74d8e2d",
       "at": [
@@ -11196,15 +14159,6 @@
         "charlotte-country-day:divisions[2].departments[1].courses[3].description"
       ],
       "t": "La asignatura de álgebra de segundo año."
-    },
-    {
-      "text": "Honors Algebra II",
-      "of": "cb784dca",
-      "at": [
-        "charlotte-country-day:divisions[2].departments[1].courses[4].title",
-        "cannon:divisions[2].departments[1].courses[3].title"
-      ],
-      "t": "Honors Algebra II"
     },
     {
       "text": "Accelerated Algebra II; requires 90 in Geometry or 83 in Honors Geometry.",
@@ -12223,14 +15177,6 @@
         "charlotte-country-day:divisions[2].departments[5].courses[0].description"
       ],
       "t": "Un conjunto coral sin audición."
-    },
-    {
-      "text": "Honors Concert Choir",
-      "of": "b751536d",
-      "at": [
-        "charlotte-country-day:divisions[2].departments[5].courses[1].title"
-      ],
-      "t": "Honors Concert Choir"
     },
     {
       "text": "Honors-level concert choir.",
@@ -13544,15 +16490,6 @@
       "t": "Una exploración basada en la investigación de los tipos de funciones que modelan fenómenos reales, especialmente indicada para quienes se encaminan a AP Calculus BC."
     },
     {
-      "text": "Honors Calculus",
-      "of": "4e67a2e4",
-      "at": [
-        "cannon:divisions[2].departments[1].courses[8].title",
-        "davidson-day:divisions[2].departments[1].courses[8].title"
-      ],
-      "t": "Honors Calculus"
-    },
-    {
       "text": "Introduces the topics of a semester of college calculus at a less intense pace and depth than the AP courses.",
       "of": "4798b033",
       "at": [
@@ -13695,15 +16632,6 @@
         "cannon:divisions[2].departments[2].courses[3].description"
       ],
       "t": "Ciencias de la vida en profundidad, con énfasis en el aprendizaje aplicado y el razonamiento analítico, desde las moléculas hasta los ecosistemas."
-    },
-    {
-      "text": "Honors Chemistry",
-      "of": "bebcf292",
-      "at": [
-        "cannon:divisions[2].departments[2].courses[4].title",
-        "carmel-christian:divisions[0].departments[3].courses[5].title"
-      ],
-      "t": "Honors Chemistry"
     },
     {
       "text": "A guided-inquiry course developing the properties, composition, and structure of matter plus energy’s role in changing matter.",
@@ -13859,14 +16787,6 @@
       "t": "Estudia los animales que habitan los océanos del mundo, incluida la instalación y el mantenimiento de acuarios de agua salada."
     },
     {
-      "text": "Honors Anatomy and Physiology",
-      "of": "e9f192a9",
-      "at": [
-        "cannon:divisions[2].departments[2].courses[15].title"
-      ],
-      "t": "Honors Anatomy and Physiology"
-    },
-    {
       "text": "An introductory study of the anatomical structures and physiological processes of key human body systems.",
       "of": "cf711b30",
       "at": [
@@ -13897,14 +16817,6 @@
         "cannon:divisions[2].departments[2].courses[16].description"
       ],
       "t": "Una asignatura totalmente en línea y asíncrona que fomenta el aprecio por los fenómenos científicos relevantes para un adulto con cultura científica."
-    },
-    {
-      "text": "Honors World History",
-      "of": "82998000",
-      "at": [
-        "cannon:divisions[2].departments[3].courses[0].title"
-      ],
-      "t": "Honors World History"
     },
     {
       "text": "Surveys prehistory through the twentieth century while equipping ninth graders with core humanities skills.",
@@ -14790,15 +17702,6 @@
       "t": "Introduce la amplitud de la informática, con los algoritmos, los programas, internet y la inteligencia artificial y sus consecuencias."
     },
     {
-      "text": "Advanced Placement Computer Science A",
-      "of": "5369b620",
-      "at": [
-        "cannon:divisions[2].departments[6].courses[1].title",
-        "hickory-grove-christian:divisions[0].departments[9].courses[2].title"
-      ],
-      "t": "Advanced Placement Computer Science A"
-    },
-    {
       "text": "Fundamentals of computer science through object-oriented design in Java, including data structures and algorithms.",
       "of": "4d4a492f",
       "at": [
@@ -14926,15 +17829,6 @@
         "carmel-christian:divisions[0].title"
       ],
       "t": "Asignaturas de High School"
-    },
-    {
-      "text": "GRADES 9 – 12",
-      "of": "b750d992",
-      "at": [
-        "covenant-day:divisions[0].grades",
-        "carmel-christian:divisions[0].grades"
-      ],
-      "t": "GRADOS 9 – 12"
     },
     {
       "text": "90 course entries across 9 departments — 17 Advanced Placement, a named Bible course for each of the four years, and a Restoration & Sustainability department no other school here runs.",
@@ -15448,14 +18342,6 @@
         "covenant-day:divisions[0].departments[3].courses[1].description"
       ],
       "t": "Historia universal de honores."
-    },
-    {
-      "text": "U.S. History",
-      "of": "6fd41d17",
-      "at": [
-        "covenant-day:divisions[0].departments[3].courses[2].title"
-      ],
-      "t": "Historia de Estados Unidos"
     },
     {
       "text": "The American-history year.",
@@ -16065,15 +18951,6 @@
         "covenant-day:divisions[0].departments[6].courses[15].description"
       ],
       "t": "El año de estudio pre-AP."
-    },
-    {
-      "text": "AP Studio Art",
-      "of": "c75dc683",
-      "at": [
-        "covenant-day:divisions[0].departments[6].courses[16].title",
-        "davidson-day:divisions[2].departments[5].courses[6].title"
-      ],
-      "t": "AP Studio Art"
     },
     {
       "text": "The AP portfolio year, shown at the Art Talk exhibit.",
@@ -17933,28 +20810,12 @@
       "t": "Un estudio completo de la estructura y función del cuerpo humano mediante casos clínicos, microscopía y disección."
     },
     {
-      "text": "French I",
-      "of": "bd7271a2",
-      "at": [
-        "davidson-day:divisions[2].departments[4].courses[0].title"
-      ],
-      "t": "French I"
-    },
-    {
       "text": "Beginning French developing the four skill areas in culturally appropriate contexts, with emphasis on interpretive skills before production.",
       "of": "2f89b43e",
       "at": [
         "davidson-day:divisions[2].departments[4].courses[0].description"
       ],
       "t": "Francés inicial, que desarrolla las cuatro destrezas en contextos culturalmente apropiados, con énfasis en la comprensión antes que en la producción."
-    },
-    {
-      "text": "French II",
-      "of": "262954f1",
-      "at": [
-        "davidson-day:divisions[2].departments[4].courses[1].title"
-      ],
-      "t": "French II"
     },
     {
       "text": "Builds French vocabulary around family, education, food, travel, and daily routines using authentic resources.",
@@ -18029,33 +20890,12 @@
       "t": "La asignatura culminante de francés, organizada en torno a seis temas e impartida casi exclusivamente en francés."
     },
     {
-      "text": "Spanish I",
-      "of": "389b9238",
-      "at": [
-        "davidson-day:divisions[2].departments[4].courses[6].title",
-        "carmel-christian:divisions[0].departments[5].courses[0].title",
-        "hickory-grove-christian:divisions[0].departments[5].courses[0].title"
-      ],
-      "t": "Spanish I"
-    },
-    {
       "text": "Introductory Spanish covering thematic and grammatical units, moving toward novice-level production with authentic songs and video.",
       "of": "de402e63",
       "at": [
         "davidson-day:divisions[2].departments[4].courses[6].description"
       ],
       "t": "Español introductorio con unidades temáticas y gramaticales, que avanza hacia la producción de nivel inicial con canciones y vídeos auténticos."
-    },
-    {
-      "text": "Spanish II",
-      "of": "8de787e3",
-      "at": [
-        "davidson-day:divisions[2].departments[4].courses[7].title",
-        "carmel-christian:divisions[0].departments[5].courses[1].title",
-        "carmel-christian:divisions[0].departments[5].courses[2].title",
-        "hickory-grove-christian:divisions[0].departments[5].courses[1].title"
-      ],
-      "t": "Spanish II"
     },
     {
       "text": "Expands vocabulary through units on education, family, daily life, travel, and traditions across twelve Spanish-speaking countries.",
@@ -18170,28 +21010,12 @@
       "t": "Fundamentos de la fotografía y de la cámara — composición, luz, triángulo de exposición y Adobe Lightroom — que culminan en un portafolio."
     },
     {
-      "text": "Photography II",
-      "of": "770d4cae",
-      "at": [
-        "davidson-day:divisions[2].departments[5].courses[1].title"
-      ],
-      "t": "Photography II"
-    },
-    {
       "text": "Continues photographic technique and post-production while developing individual point of view.",
       "of": "1b7536c5",
       "at": [
         "davidson-day:divisions[2].departments[5].courses[1].description"
       ],
       "t": "Continúa con la técnica fotográfica y la posproducción mientras se desarrolla un punto de vista propio."
-    },
-    {
-      "text": "Photography III",
-      "of": "50f00fa5",
-      "at": [
-        "davidson-day:divisions[2].departments[5].courses[2].title"
-      ],
-      "t": "Photography III"
     },
     {
       "text": "For serious student photographers mastering the digital SLR, advanced editing, and personal style, producing their own websites.",
@@ -19125,14 +21949,6 @@
       "t": "Una optativa combinada de psicología y sociología."
     },
     {
-      "text": "Personal Finance",
-      "of": "a1435e7b",
-      "at": [
-        "carmel-christian:divisions[0].departments[4].courses[8].title"
-      ],
-      "t": "Personal Finance"
-    },
-    {
       "text": "A personal-finance course.",
       "of": "f41cf752",
       "at": [
@@ -19220,14 +22036,6 @@
         "carmel-christian:divisions[0].departments[5].courses[4].description"
       ],
       "t": "La vía honors del español de tercer año."
-    },
-    {
-      "text": "Honors Spanish IV",
-      "of": "2d15eb33",
-      "at": [
-        "carmel-christian:divisions[0].departments[5].courses[5].title"
-      ],
-      "t": "Honors Spanish IV"
     },
     {
       "text": "AP Spanish (Language & Culture)",
@@ -20236,14 +23044,6 @@
         "carmel-christian:divisions[1].departments[8].courses[3].title"
       ],
       "t": "Problem Solvers"
-    },
-    {
-      "text": "Study Hall",
-      "of": "7e263085",
-      "at": [
-        "carmel-christian:divisions[1].departments[8].courses[4].title"
-      ],
-      "t": "Study Hall"
     },
     {
       "text": "A supervised study period.",
@@ -21457,14 +24257,6 @@
       "t": "Aplicar las destrezas de Art I a composiciones completas mediante los principios del diseño, e introducir nuevos medios."
     },
     {
-      "text": "Art III",
-      "of": "2cf717e7",
-      "at": [
-        "hickory-grove-christian:divisions[0].departments[6].courses[2].title"
-      ],
-      "t": "Art III"
-    },
-    {
       "text": "Preparation for the AP portfolio, culminating in a sustained investigation series on the student’s own artistic interests.",
       "of": "f16684e0",
       "at": [
@@ -21505,28 +24297,12 @@
       "t": "Conocimiento y apreciación del arte mediante el estudio, el debate, la crítica escrita y la creación; no se presupone formación artística previa."
     },
     {
-      "text": "Ceramics I",
-      "of": "6b9cb6d7",
-      "at": [
-        "hickory-grove-christian:divisions[0].departments[6].courses[5].title"
-      ],
-      "t": "Ceramics I"
-    },
-    {
       "text": "The fundamentals of 3D art and handbuilding with clay — pinch, slab and coil construction, plus decorative techniques and glazing.",
       "of": "951358fd",
       "at": [
         "hickory-grove-christian:divisions[0].departments[6].courses[5].description"
       ],
       "t": "Los fundamentos del arte tridimensional y el modelado a mano con arcilla —pellizco, placa y churro—, además de técnicas decorativas y esmaltado."
-    },
-    {
-      "text": "Ceramics II",
-      "of": "05b37aba",
-      "at": [
-        "hickory-grove-christian:divisions[0].departments[6].courses[6].title"
-      ],
-      "t": "Ceramics II"
     },
     {
       "text": "Project-based work building on handbuilding technique, and may include an introduction to wheel throwing.",
@@ -22422,14 +25198,6 @@
         "gaston-day:divisions[1].departments[2].courses[1].description"
       ],
       "t": "Ciencia de laboratorio obligatoria, ofrecida tanto en nivel Honors como AP."
-    },
-    {
-      "text": "Environmental Science",
-      "of": "e7a2758d",
-      "at": [
-        "gaston-day:divisions[1].departments[2].courses[2].title"
-      ],
-      "t": "Environmental Science"
     },
     {
       "text": "A third-year lab science option at the Honors level.",

@@ -305,12 +305,13 @@ export function CounselingBody({ data }: { data: Counseling }) {
       {data.roster.length > 0 && (
         <>
           <Heading>{data.rosterTitle ?? t('sections.whosInTheRoom')}</Heading>
-          <div
-            className="cs-roster"
-            style={{
-              gridTemplateColumns: `repeat(${Math.min(data.roster.length, 5)}, 1fr)`,
-            }}
-          >
+          {/* Column count is left to the grid rather than pinned to
+              min(roster.length, 5): a 7-person roster forced 5 columns too
+              narrow for an email address, which then wrapped mid-word while
+              the 2-cell second row sat half empty. `auto-fit` with a minimum
+              wide enough for the longest address packs as many equal columns
+              as fit and fills each row. */}
+          <div className="cs-roster">
             {data.roster.map((c) => (
               <div key={c.name} className="cs-counselor">
                 <div className="cs-counselor-role text-muted">{c.role}</div>

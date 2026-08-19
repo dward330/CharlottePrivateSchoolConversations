@@ -413,6 +413,18 @@ implementing window would otherwise get wrong:
 - **Sparse is worse than absent.** Better to omit a card than ship one padded with
   "not published". Where a real gap must be shown, the topic's existing flag types
   (`gap`, `verify`, `estimate`) are how — they exist for this.
+- **Financial Aid & Tuition renders the In-Depth Report, not a card per heading.**
+  (User-set, 2026-08-18, from the Charlotte Catholic review.) Cards in this area come from
+  the `##` headings of the school's research file, so a thorough file sprouts a card for
+  every section — Charlotte Catholic first shipped **nine**, including bare `Source URLs`,
+  `Provenance` and `Confirmed structural nulls` cards. **The target is the structured
+  report plus at most one or two genuinely additive cards** (a fee table, a tuition
+  history); five schools already ship the report alone. Keep scaffolding, warnings,
+  gap inventories and duplicate tuition tables as `###` under the intro — they belong in
+  the report's own `boxes` and `NOT PUBLISHED` blocks, not beside it. Nothing is deleted by
+  demoting a heading: the research still ships in the committed file and still renders
+  inside the intro card. See the ingest skill's "What the Financial Aid area should RENDER"
+  for the mechanism and the two schools currently in violation.
 - **Build each card to the FULLEST existing school's structure, not the most-recent add's.**
   A new school's per-school data files should mirror the richest, most complete example for
   each area — Providence Day, Charlotte Latin and Cannon are the deep ones (~96% Compare

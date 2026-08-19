@@ -282,6 +282,7 @@
       "at": [
         "providence-day:honors.societies[0].feedsFrom",
         "charlotte-latin:honors.societies[0].feedsFrom",
+        "charlotte-catholic:honors.societies[0].feedsFrom",
         "charlotte-country-day:honors.societies[0].feedsFrom",
         "cannon:honors.societies[0].feedsFrom",
         "carmel-christian:honors.societies[0].feedsFrom",
@@ -327,6 +328,8 @@
         "charlotte-christian:honors.societies[1].feedsFrom",
         "charlotte-christian:honors.societies[2].feedsFrom",
         "charlotte-christian:honors.societies[3].feedsFrom",
+        "charlotte-catholic:honors.societies[4].feedsFrom",
+        "charlotte-catholic:honors.societies[5].feedsFrom",
         "charlotte-country-day:honors.societies[3].feedsFrom",
         "charlotte-country-day:honors.societies[4].feedsFrom",
         "charlotte-country-day:honors.societies[5].feedsFrom",
@@ -390,6 +393,7 @@
         "providence-day:clusters.verdictHint",
         "charlotte-latin:clusters.verdictHint",
         "charlotte-christian:clusters.verdictHint",
+        "charlotte-catholic:clusters.verdictHint",
         "charlotte-country-day:clusters.verdictHint",
         "cannon:clusters.verdictHint",
         "covenant-day:clusters.verdictHint",
@@ -455,7 +459,8 @@
         "providence-day:clusters.rows[3].evidenceLabel",
         "providence-day:clusters.rows[4].evidenceLabel",
         "charlotte-christian:clusters.rows[1].evidenceLabel",
-        "charlotte-christian:clusters.rows[2].evidenceLabel"
+        "charlotte-christian:clusters.rows[2].evidenceLabel",
+        "charlotte-catholic:clusters.rows[1].evidenceLabel"
       ]
     },
     {
@@ -470,6 +475,7 @@
       "of": "5b91930f",
       "at": [
         "providence-day:clusters.rows[2].name",
+        "charlotte-catholic:clusters.rows[2].name",
         "covenant-day:clusters.rows[1].name"
       ]
     },
@@ -619,6 +625,7 @@
       "of": "7136d3fa",
       "at": [
         "providence-day:catalog.categories[5].short",
+        "charlotte-catholic:catalog.divisions[0].label",
         "cannon:catalog.categories[5].short",
         "gaston-day:catalog.categories[1].short"
       ]
@@ -1225,6 +1232,8 @@
       "at": [
         "providence-day:catalog.divisions[1].tag",
         "charlotte-latin:catalog.divisions[1].tag",
+        "charlotte-catholic:clusters.rows[4].evidenceLabel",
+        "charlotte-catholic:catalog.divisions[0].tag",
         "cannon:catalog.divisions[1].tag",
         "gaston-day:catalog.divisions[2].tag"
       ]
@@ -1622,6 +1631,8 @@
       "at": [
         "charlotte-latin:catalog.categories[0].short",
         "charlotte-latin:catalog.categories[0].full",
+        "charlotte-catholic:catalog.categories[1].short",
+        "charlotte-catholic:catalog.categories[1].full",
         "charlotte-country-day:catalog.categories[2].short",
         "charlotte-country-day:catalog.categories[2].full",
         "cannon:catalog.categories[3].short",
@@ -2485,6 +2496,1252 @@
       ]
     },
     {
+      "t": "76 klib nan sis kategori, prèske tout ak yon konseye ki gen non ak yon sal.",
+      "of": "3faabd45",
+      "at": [
+        "charlotte-catholic:affinity.headline"
+      ]
+    },
+    {
+      "t": "Anyè a se youn nan pi transparan sou lis sa a — pifò antre pibliye yon objektif alekri, yon konseye nan pèsonèl la ak kote klib la reyini vre.",
+      "of": "f32f497b",
+      "at": [
+        "charlotte-catholic:affinity.subhead"
+      ]
+    },
+    {
+      "t": "Anyè klib yo chita anba Campus Ministry olye ke aktivite elèv, sa ki fòme melanj lan: klib fòmasyon nan lafwa ak sèvis se pi gwo blòk yo, epi Campus Ministry Club la li menm òganize evènman fòmasyon, fratènite ak lafwa chak mwa ak wòl sèvitè lotèl, sakristen ak ministè ant kanmarad.",
+      "of": "8c02381e",
+      "at": [
+        "charlotte-catholic:affinity.umbrella.detail"
+      ]
+    },
+    {
+      "t": "Li kreye yon espas entansyonèl pou pataj pami elèv Nwa yo. Konseye Dr. Sigwald, Sal 225.",
+      "of": "84dc284d",
+      "at": [
+        "charlotte-catholic:affinity.groups[0].detail"
+      ]
+    },
+    {
+      "t": "Pou elèv ki gen oswa ki enterese nan yon orijin Azyatik-Ameriken ak Insular Pasifik. Konseye Mr. Pham, Bibliyotèk.",
+      "of": "6b6792fe",
+      "at": [
+        "charlotte-catholic:affinity.groups[1].detail"
+      ]
+    },
+    {
+      "t": "Li ankouraje lang ak kilti Alman. Konseye Mrs. Schmid-Rankin, Sal 527.",
+      "of": "da0d4ea4",
+      "at": [
+        "charlotte-catholic:affinity.groups[2].detail"
+      ]
+    },
+    {
+      "t": "Li pataje eksperyans kominote ki pale Panyòl yo. Konseye Ms. Palomino, Sal 204.",
+      "of": "7520fc64",
+      "at": [
+        "charlotte-catholic:affinity.groups[3].detail"
+      ]
+    },
+    {
+      "t": "Li ankouraje konsyans ak konpreyansyon lang siy. Konseye Mrs. Bick, Sal 318.",
+      "of": "9ad7a22c",
+      "at": [
+        "charlotte-catholic:affinity.groups[4].detail"
+      ]
+    },
+    {
+      "t": "Li rasanble elèv ki gen paran ki te gradye nan CCHS. Konseye Mrs. Clementi ak Mr. Morgan, Sal 218.",
+      "of": "dd55f67f",
+      "at": [
+        "charlotte-catholic:affinity.groups[5].detail"
+      ]
+    },
+    {
+      "t": "Li ogmante konsyans sou sante mantal nan kominote lekòl la. Konseye Mrs. Clementi, Oryantasyon.",
+      "of": "0c365344",
+      "at": [
+        "charlotte-catholic:affinity.groups[6].detail"
+      ]
+    },
+    {
+      "t": "Li nòmalize konvèsasyon sou defi mantal ak fizik pami elèv-atlèt yo. Konseye Mr. Christmas, Gimnaz.",
+      "of": "d4150275",
+      "at": [
+        "charlotte-catholic:affinity.groups[7].detail"
+      ]
+    },
+    {
+      "t": "Li sipòte elèv ki afekte pa alopesi. Konseye Mrs. Best, Campus Ministry.",
+      "of": "7b785ec4",
+      "at": [
+        "charlotte-catholic:affinity.groups[8].detail"
+      ]
+    },
+    {
+      "t": "Konsyans sou alèji manje, ak sèvis kolèk manje. Konseye Ms. Davaz, Sal 205.",
+      "of": "635ff4ed",
+      "at": [
+        "charlotte-catholic:affinity.groups[9].detail"
+      ]
+    },
+    {
+      "t": "Sis kategori yo",
+      "of": "351bc900",
+      "at": [
+        "charlotte-catholic:affinity.strips[0].title"
+      ]
+    },
+    {
+      "t": "jan lekòl la gwoupe yo",
+      "of": "b759a30c",
+      "at": [
+        "charlotte-catholic:affinity.strips[0].hint"
+      ]
+    },
+    {
+      "t": "Education 16 · Service 23 · Community 9 · Culture 4 · Sports 15 · General Interest 9. Sèvis se pi gwo blòk la, sa ki sòti nan yon lekòl kote sèvis se yon kondisyon pou gradyasyon.",
+      "of": "444bdd62",
+      "at": [
+        "charlotte-catholic:affinity.strips[0].text"
+      ]
+    },
+    {
+      "t": "Kilti se pi piti kategori a",
+      "of": "caaf9c5b",
+      "at": [
+        "charlotte-catholic:affinity.strips[1].title"
+      ]
+    },
+    {
+      "t": "4 nan 76",
+      "of": "1a924fad",
+      "at": [
+        "charlotte-catholic:affinity.strips[1].hint"
+      ]
+    },
+    {
+      "t": "Klib Achievers, Asian American Pacific Islander, Alman ak Panyòl. Pou yon lekòl ki gen ~1,171 elèv nan yon zòn metwopoliten divès, kat gwoup idantite-ak-kilti se yon lis mens parapò ak 23 klib sèvis yo — sa vo lapèn mande sou li pandan yon vizit.",
+      "of": "327f5890",
+      "at": [
+        "charlotte-catholic:affinity.strips[1].text"
+      ]
+    },
+    {
+      "t": "Klib espò yo se yon vrè dezyèm nivo",
+      "of": "f5f5ce26",
+      "at": [
+        "charlotte-catholic:affinity.strips[2].title"
+      ]
+    },
+    {
+      "t": "15 klib",
+      "of": "c63d6d3e",
+      "at": [
+        "charlotte-catholic:affinity.strips[2].hint"
+      ]
+    },
+    {
+      "t": "Eskalad, patinaj atistik, rugby fi, rugby gason, gòlf, kwòs, pickleball, ping pong, navigasyon, eskèt, foutbòl, wakeboard ak plis ankò — plizyè reyini deyò kanpis la nan Inner Peaks, Davie Park, Renaissance Skate Park ak Carolina Sports Complex. Yon elèv ki pa antre nan yon ekip varsity 6A toujou gen yon kote pou l jwe.",
+      "of": "d1c06c76",
+      "at": [
+        "charlotte-catholic:affinity.strips[2].text"
+      ]
+    },
+    {
+      "t": "Konseye yo gen non, sal yo pibliye",
+      "of": "40c1f315",
+      "at": [
+        "charlotte-catholic:affinity.strips[3].title"
+      ]
+    },
+    {
+      "t": "Prèske chak nan 76 antre yo pote yon konseye nan pèsonèl la ak yon sal reyinyon — yon nivo detay operasyonèl ki pibliye ki pa abityèl, epi yon fason pratik pou yon fanmi mande kiyès ki dirije yon gwoup vre.",
+      "of": "8c35c132",
+      "at": [
+        "charlotte-catholic:affinity.strips[3].text"
+      ]
+    },
+    {
+      "t": "Pwofil lekòl la di CCHS “encourages all students to participate in school-sponsored clubs”. Anyè a pibliye konseye ak sal men okenn pwosesis aplikasyon, okenn limit sou kantite manm ak okenn orè reyinyon, kidonk konbyen yon klib bay seleksyon — si li menm fè sa — pa divilge.",
+      "of": "c6490b93",
+      "at": [
+        "charlotte-catholic:affinity.leadership"
+      ]
+    },
+    {
+      "t": "Pwofil lekòl la di “over 50 club opportunities”; anyè klib yo bay 76. Tou de se chif lekòl la li menm. Anyè a se sa ou ka konte a epi se sa app sa a rapòte.",
+      "of": "14af0d9b",
+      "at": [
+        "charlotte-catholic:affinity.flags[0].text"
+      ]
+    },
+    {
+      "t": "Yo pa pibliye okenn kantite manm pou okenn klib, kidonk ou pa ka jije gwosè ak seleksyon apati anyè a.",
+      "of": "f81a29c9",
+      "at": [
+        "charlotte-catholic:affinity.flags[1].text"
+      ]
+    },
+    {
+      "t": "Sèvis pa senpleman ankouraje isit la — li obligatwa pou gradye.",
+      "of": "dc928c46",
+      "at": [
+        "charlotte-catholic:service.headline"
+      ]
+    },
+    {
+      "t": "70 èdtan apwouve sou kat ane, omwen 5 nan yo se sèvis nan parwas chak ane, dokimante sou Canvas epi ki dwe remèt anvan 1ye mas.",
+      "of": "e80ab2ab",
+      "at": [
+        "charlotte-catholic:service.subhead"
+      ]
+    },
+    {
+      "t": "èdtan pou gradye",
+      "of": "abdd987e",
+      "at": [
+        "charlotte-catholic:service.programs[0].valueLabel"
+      ]
+    },
+    {
+      "t": "Elèv premye ane yo remèt 10 èdtan; elèv dezyèm, twazyèm ak katriyèm ane yo remèt 20 chak ane. Yo ajiste total la lè yon elèv enskri mwens pase kat ane. Èdtan sèvis se yon kondisyon ki deklare pou gradyasyon nan CCHS.",
+      "of": "2e726edb",
+      "at": [
+        "charlotte-catholic:service.programs[0].detail"
+      ]
+    },
+    {
+      "t": "èdtan nan parwas pa ane",
+      "of": "be05b4a5",
+      "at": [
+        "charlotte-catholic:service.programs[1].valueLabel"
+      ]
+    },
+    {
+      "t": "Omwen senk nan èdtan chak ane yo dwe se sèvis nan parwas espesyalman — yon egzijans dyosèz la ki detèmine kote elèv yo sèvi, se pa sèlman konbyen.",
+      "of": "c01fb044",
+      "at": [
+        "charlotte-catholic:service.programs[1].detail"
+      ]
+    },
+    {
+      "t": "patisipasyon",
+      "of": "e32177c6",
+      "at": [
+        "charlotte-catholic:service.programs[2].valueLabel"
+      ]
+    },
+    {
+      "t": "Pwofil lekòl la rapòte 100% patisipasyon nan sèvis kominotè. Paske sèvis se yon kondisyon pou gradyasyon olye ke yon pwogram opsyonèl, chif sa a vre nan estrikti a — se pa yon mezi antouzyasm.",
+      "of": "0999378c",
+      "at": [
+        "charlotte-catholic:service.programs[2].detail"
+      ]
+    },
+    {
+      "t": "klib sèvis",
+      "of": "ba3a4969",
+      "at": [
+        "charlotte-catholic:service.programs[3].valueLabel"
+      ]
+    },
+    {
+      "t": "Pi gwo nan sis kategori klib yo: Best Buddies, Habitat for Humanity, Red Cross, Ronald McDonald House, Caritas, Mel’s Diner, Muffin Ministry, Beds for Kids, Helping Moms in Need, Golden Hearts, Live Like Bryant, Wayfinders Ambassadors ak U.S. Service Academy Club pami yo. Plizyè reyini deyò kanpis la — nan Habitat ReStore la, nan St. Matthew’s Parish Center la.",
+      "of": "e5f995ed",
+      "at": [
+        "charlotte-catholic:service.programs[3].detail"
+      ]
+    },
+    {
+      "t": "dat limit anyèl",
+      "of": "3b443b9e",
+      "at": [
+        "charlotte-catholic:service.programs[4].valueLabel"
+      ]
+    },
+    {
+      "t": "Èdtan yo dwe remèt anvan 1ye mas chak ane pou yo anrejistre epi apwouve yo, dokimante sou Canvas ak foto ki pèmèt. Campus Ministry ede elèv yo jwenn opòtinite ki kalifye.",
+      "of": "1c4c609a",
+      "at": [
+        "charlotte-catholic:service.programs[4].detail"
+      ]
+    },
+    {
+      "t": "Sa sa vle di pou yon fanmi",
+      "of": "016567cd",
+      "at": [
+        "charlotte-catholic:service.footnoteTitle"
+      ]
+    },
+    {
+      "t": "Paske chak moun ki gradye fè 70 èdtan, èdtan sèvis pa fè diferans ant yon aplikan CCHS ak yon lòt — egzijans parwas la ak wòl lidèchip ki dèyè èdtan yo se sa yon moun k ap li nan inivèsite ka reyèlman distenge. Yon fanmi ta dwe note chay pratik la tou: 20 èdtan pa ane apati dezyèm ane a, ak yon dat limit fiks 1ye mas, anwo yon orè sèt kou.",
+      "of": "11557f66",
+      "at": [
+        "charlotte-catholic:service.footnote"
+      ]
+    },
+    {
+      "t": "Dis sosyete onè, ak papòt GPA ki pibliye pou sa ki akademik yo.",
+      "of": "53653485",
+      "at": [
+        "charlotte-catholic:honors.headline"
+      ]
+    },
+    {
+      "t": "Kat nan dis yo se sosyete lang etranje, sa ki sòti nan yon kourikoulòm ki egzije de inite nan menm lang lan epi ki mennen kat lang jiska AP.",
+      "of": "9ef22276",
+      "at": [
+        "charlotte-catholic:honors.subhead"
+      ]
+    },
+    {
+      "t": "Etid, lidèchip, sèvis ak karaktè — papòt GPA 3.9 yo rapòte",
+      "of": "b5c4f711",
+      "at": [
+        "charlotte-catholic:honors.societies[0].recognizes"
+      ]
+    },
+    {
+      "t": "Matematik — papòt GPA 4.5 nan matematik yo rapòte, ki se baryè ki pi wo nan tout sosyete isit la",
+      "of": "85519470",
+      "at": [
+        "charlotte-catholic:honors.societies[1].recognizes"
+      ]
+    },
+    {
+      "t": "Matematik",
+      "of": "cadbef3d",
+      "at": [
+        "charlotte-catholic:honors.societies[1].feedsFrom"
+      ]
+    },
+    {
+      "t": "Syans — GPA syans 4.25 yo rapòte ak yon 4.0 an total",
+      "of": "4d33b929",
+      "at": [
+        "charlotte-catholic:honors.societies[2].recognizes"
+      ]
+    },
+    {
+      "t": "Syans",
+      "of": "35e9a35d",
+      "at": [
+        "charlotte-catholic:honors.societies[2].feedsFrom"
+      ]
+    },
+    {
+      "t": "Syans sosyal — papòt GPA 3.75 yo rapòte",
+      "of": "0315f742",
+      "at": [
+        "charlotte-catholic:honors.societies[3].recognizes"
+      ]
+    },
+    {
+      "t": "Syans Sosyal",
+      "of": "7c3f4e73",
+      "at": [
+        "charlotte-catholic:honors.societies[3].feedsFrom"
+      ]
+    },
+    {
+      "t": "Teyat — GPA 3.0 yo rapòte plis 60 pwen thespian akimile",
+      "of": "8b9fe661",
+      "at": [
+        "charlotte-catholic:honors.societies[4].recognizes"
+      ]
+    },
+    {
+      "t": "Atizay vizyèl",
+      "of": "6a45b160",
+      "at": [
+        "charlotte-catholic:honors.societies[5].recognizes"
+      ]
+    },
+    {
+      "t": "Etid lang Panyòl",
+      "of": "25e7b07e",
+      "at": [
+        "charlotte-catholic:honors.societies[6].recognizes"
+      ]
+    },
+    {
+      "t": "Lang Etranje",
+      "of": "c99b3a44",
+      "at": [
+        "charlotte-catholic:honors.societies[6].feedsFrom",
+        "charlotte-catholic:honors.societies[7].feedsFrom",
+        "charlotte-catholic:honors.societies[8].feedsFrom",
+        "charlotte-catholic:honors.societies[9].feedsFrom"
+      ]
+    },
+    {
+      "t": "Etid lang Franse",
+      "of": "6993ca4c",
+      "at": [
+        "charlotte-catholic:honors.societies[7].recognizes"
+      ]
+    },
+    {
+      "t": "Etid lang Alman",
+      "of": "cb2e66f6",
+      "at": [
+        "charlotte-catholic:honors.societies[8].recognizes"
+      ]
+    },
+    {
+      "t": "Etid lang Laten",
+      "of": "3ca03188",
+      "at": [
+        "charlotte-catholic:honors.societies[9].recognizes"
+      ]
+    },
+    {
+      "t": "National Merit",
+      "of": "c119ff02",
+      "at": [
+        "charlotte-catholic:honors.adjacent[0].label"
+      ]
+    },
+    {
+      "t": "2 Finalis ak 11 Commended Students an 2025.",
+      "of": "e2727c79",
+      "at": [
+        "charlotte-catholic:honors.adjacent[0].text"
+      ]
+    },
+    {
+      "t": "Akademi militè yo",
+      "of": "62b87e0e",
+      "at": [
+        "charlotte-catholic:honors.adjacent[1].label"
+      ]
+    },
+    {
+      "t": "Twa nominasyon nan US Naval Academy an 2025, plis yon bous Army ROTC nan Cornell.",
+      "of": "24c3ac47",
+      "at": [
+        "charlotte-catholic:honors.adjacent[1].text"
+      ]
+    },
+    {
+      "t": "Tablo desil la",
+      "of": "d83232ac",
+      "at": [
+        "charlotte-catholic:honors.adjacent[2].label"
+      ]
+    },
+    {
+      "t": "CCHS pa klase elèv yo, kidonk pa gen valedictorian ni distenksyon ran nan klas la — yon tablo GPA ak 10 desil pran plas li.",
+      "of": "072356a4",
+      "at": [
+        "charlotte-catholic:honors.adjacent[2].text"
+      ]
+    },
+    {
+      "t": "St. Augustine Scholars Program",
+      "of": "f7a37904",
+      "at": [
+        "charlotte-catholic:honors.adjacent[3].label"
+      ]
+    },
+    {
+      "t": "Yon pis klasik kat ane ak seleksyon ki te kòmanse ak yon gwoup nevyèm ane an 2025-26 — yon pwogram olye ke yon sosyete, men deziyasyon akademik lekòl la ki mande plis seleksyon.",
+      "of": "667b98b6",
+      "at": [
+        "charlotte-catholic:honors.adjacent[3].text"
+      ]
+    },
+    {
+      "t": "Finalis Blumey",
+      "of": "cda7a41e",
+      "at": [
+        "charlotte-catholic:honors.adjacent[4].label"
+      ]
+    },
+    {
+      "t": "Senk finalis an 2025 ak senk lòt plasman an 2026 — pi fò rekonesans konpetitif ekstèn resan lekòl la.",
+      "of": "2cfc5faa",
+      "at": [
+        "charlotte-catholic:honors.adjacent[4].text"
+      ]
+    },
+    {
+      "t": "Kritè endiksyon yo pibliye pou senk nan dis sosyete yo. Yo nonmen kat sosyete lang etranje yo ak National Art Honor Society la sou pwofil lekòl la san yon papòt GPA oswa pwen ki deklare, epi okenn sosyete pa pibliye kantite manm li.",
+      "of": "a618225f",
+      "at": [
+        "charlotte-catholic:honors.flags[0].text"
+      ]
+    },
+    {
+      "t": "CCHS gen yon jounal lekòl, yon magazin literè, yon album ane ak yon podcast — men kòm KOU ENGLISH (Journalism 234 ak Yearbook 235), se pa kòm klib, se poutèt sa okenn nan yo pa parèt nan anyè 76 klib la. Tou de se elektif pou tout ane a pou klas 10–12 ki mande yon mwayèn B nan English ak yon rekòmandasyon pwofesè; Yearbook mande anplis yon aplikasyon ak yon entèvyou.",
+      "of": "232fea48",
+      "at": [
+        "charlotte-catholic:honors.flags[1].text"
+      ]
+    },
+    {
+      "t": "Dis sosyete onè ak yon lis konpetisyon ki pa pibliye rezilta pou pifò.",
+      "of": "dd240094",
+      "at": [
+        "charlotte-catholic:clusters.verdict"
+      ]
+    },
+    {
+      "t": "Speech and Debate",
+      "of": "b46f47a7",
+      "at": [
+        "charlotte-catholic:clusters.rows[0].name"
+      ]
+    },
+    {
+      "t": "Sèl klib ki gen yon dosye konpetitif dokimante — men li soti nan 2017",
+      "of": "c8ac64bd",
+      "at": [
+        "charlotte-catholic:clusters.rows[0].oneLiner"
+      ]
+    },
+    {
+      "t": "Nouvèl lekòl la — ansyen",
+      "of": "fa1cace9",
+      "at": [
+        "charlotte-catholic:clusters.rows[0].evidenceLabel"
+      ]
+    },
+    {
+      "t": "Kouvèti dyosèz la anrejistre yon dezyèm plas nan eta North Carolina ak yon chanpyon eta nan Program Oral Interpretation (Darlene Singui-Tanyi). Kouvèti sa a soti nan 2017, pi ansyen pase nenpòt rezilta konpetitif nou pibliye pou yon lòt lekòl isit la, kidonk nou pa ka reklame okenn pozisyon aktyèl. Klib la reyini nan CCHS Media Center anba Mrs. Jennifer Taylor.",
+      "of": "9e78c329",
+      "at": [
+        "charlotte-catholic:clusters.rows[0].note"
+      ]
+    },
+    {
+      "t": "Sosyete onè →",
+      "of": "48a8bb43",
+      "at": [
+        "charlotte-catholic:clusters.rows[1].name",
+        "carmel-christian:clusters.rows[0].name",
+        "hickory-grove-christian:clusters.rows[0].name",
+        "gaston-day:clusters.rows[4].name"
+      ]
+    },
+    {
+      "t": "NHS, Mu Alpha Theta, Science NHS, Rho Kappa, International Thespian, National Art, plis Panyòl, Franse, Alman ak Laten",
+      "of": "1f251e47",
+      "at": [
+        "charlotte-catholic:clusters.rows[1].oneLiner"
+      ]
+    },
+    {
+      "t": "Dis sosyete yo nonmen sou pwofil lekòl la. Kritè GPA ki pibliye egziste pou senk: NHS 3.9, Mu Alpha Theta 4.5 nan matematik, Science NHS 4.25 nan syans ak 4.0 an total, Rho Kappa 3.75, ak International Thespian 3.0 plis 60 pwen. Kat sosyete lang etranje yo ak National Art Honor Society la pa pibliye okenn papòt, epi okenn nan yo pa pibliye kantite manm.",
+      "of": "bba100e1",
+      "at": [
+        "charlotte-catholic:clusters.rows[1].note"
+      ]
+    },
+    {
+      "t": "Robotics, Medical Pathways, Finance",
+      "of": "1138fd04",
+      "at": [
+        "charlotte-catholic:clusters.rows[2].oneLiner"
+      ]
+    },
+    {
+      "t": "Nonmen sèlman",
+      "of": "a0706e54",
+      "at": [
+        "charlotte-catholic:clusters.rows[2].evidenceLabel",
+        "charlotte-catholic:clusters.rows[3].evidenceLabel",
+        "charlotte-country-day:clusters.rows[1].evidenceLabel",
+        "gaston-day:clusters.rows[4].evidenceLabel"
+      ]
+    },
+    {
+      "t": "Robotics egziste pou “promote STEAM in Charlotte Catholic and allow members to get hands-on experience” anba Mr. Tucker nan Sal 517, men yo pa pibliye okenn sikwi konpetisyon, nimewo ekip ni rezilta pou li. Medical Pathways ak Finance se klib eksplorasyon karyè ak konferansye envite olye ke ekip konpetitif.",
+      "of": "7c7164cd",
+      "at": [
+        "charlotte-catholic:clusters.rows[2].note"
+      ]
+    },
+    {
+      "t": "Klib sivik ak akademik →",
+      "of": "171c7b60",
+      "at": [
+        "charlotte-catholic:clusters.rows[3].name"
+      ]
+    },
+    {
+      "t": "Model United Nations, Beacon of Truth, Apologetics, Young Authors, Good Reads",
+      "of": "ff0d58ed",
+      "at": [
+        "charlotte-catholic:clusters.rows[3].oneLiner"
+      ]
+    },
+    {
+      "t": "Model UN se sèl antre ki konpetitif nan sans abityèl la, epi CCHS pa pibliye okenn patisipasyon nan konferans ni prim pou li. Rès yo se klib diskisyon ak fòmasyon — plizyè prezante eksplisitman atravè yon pèspektiv Katolik, sa ki se karakteristik ki distenge lis klib akademik lekòl sa a.",
+      "of": "ff8523ec",
+      "at": [
+        "charlotte-catholic:clusters.rows[3].note"
+      ]
+    },
+    {
+      "t": "Mank nan piblikasyon yo",
+      "of": "3e0e7a9f",
+      "at": [
+        "charlotte-catholic:clusters.rows[4].name"
+      ]
+    },
+    {
+      "t": "Jounal, magazin literè, album ane ak podcast fonksyone kòm kou, se pa klib",
+      "of": "bbb1ed3c",
+      "at": [
+        "charlotte-catholic:clusters.rows[4].oneLiner"
+      ]
+    },
+    {
+      "t": "Elèv Journalism (234) yo pwodui epi pibliye jounal lekòl la an fòma dijital epi yo devlope magazin literè lekòl la, ak yon opsyon pou pwodui yon podcast; Yearbook (235) pwodui album ane a. Tou de se elektif English pou tout ane a ki mande yon mwayèn B ak yon rekòmandasyon pwofesè, kidonk aktivite sa a nan orè a olye ke andeyò pwogram nan epi li pa parèt nan okenn lis klib.",
+      "of": "2c514981",
+      "at": [
+        "charlotte-catholic:clusters.rows[4].note"
+      ]
+    },
+    {
+      "t": "76 klib atravè sis kategori, prèske chak nan yo pibliye yon konseye nan pèsonèl la, yon sal reyinyon ak yon objektif alekri.",
+      "of": "a60750e0",
+      "at": [
+        "charlotte-catholic:catalog.verdict"
+      ]
+    },
+    {
+      "t": "Sèvis se pi gwo blòk la ak 23 klib — sa pa etonan nan yon lekòl kote 70 èdtan sèvis obligatwa pou gradye.",
+      "of": "3bbcdb3b",
+      "at": [
+        "charlotte-catholic:catalog.verdictHint"
+      ]
+    },
+    {
+      "t": "Edikasyon",
+      "of": "1697d235",
+      "at": [
+        "charlotte-catholic:catalog.categories[0].short",
+        "charlotte-catholic:catalog.categories[0].full"
+      ]
+    },
+    {
+      "t": "Kominote",
+      "of": "d559270e",
+      "at": [
+        "charlotte-catholic:catalog.categories[2].short",
+        "charlotte-catholic:catalog.categories[2].full"
+      ]
+    },
+    {
+      "t": "Kilti",
+      "of": "9f5a3b71",
+      "at": [
+        "charlotte-catholic:catalog.categories[3].short",
+        "charlotte-catholic:catalog.categories[3].full"
+      ]
+    },
+    {
+      "t": "Espò",
+      "of": "92ee90da",
+      "at": [
+        "charlotte-catholic:catalog.categories[4].short",
+        "charlotte-catholic:catalog.categories[4].full"
+      ]
+    },
+    {
+      "t": "Enterè jeneral",
+      "of": "b48381c7",
+      "at": [
+        "charlotte-catholic:catalog.categories[5].short",
+        "charlotte-catholic:catalog.categories[5].full"
+      ]
+    },
+    {
+      "t": "Li sipòte elèv ki afekte pa alopesi epi li ogmante konsyans atravè lekòl la — konseye Mrs. Best",
+      "of": "452dc7ab",
+      "at": [
+        "charlotte-catholic:catalog.clubs[0].note"
+      ]
+    },
+    {
+      "t": "Mete sijè difisil nan Katolisis yo nan limyè pou bay elèv CCHS yo plis konpreyansyon sou sa lafwa Katolik la anseye — konseye Mr. Sifuentes, 304",
+      "of": "35119c8a",
+      "at": [
+        "charlotte-catholic:catalog.clubs[1].note"
+      ]
+    },
+    {
+      "t": "Edike manm Beacon yo ak enfòmasyon ki gen rapò ak evènman aktyèl ak klima k ap chanje nan lwès la atravè pèspektiv lafwa Katolik nou an — konseye Mr. Kennelly, 309",
+      "of": "946423a4",
+      "at": [
+        "charlotte-catholic:catalog.clubs[2].note"
+      ]
+    },
+    {
+      "t": "Aprann plis sou finans pèsonèl, mache aksyon an, ak karyè nan finans — konseye Mrs. Moricone, 212",
+      "of": "42ede412",
+      "at": [
+        "charlotte-catholic:catalog.clubs[3].note"
+      ]
+    },
+    {
+      "t": "Konsyans sou alèji manje, ak sèvis ki enkli kolèk manje — konseye Ms. Davaz, 205",
+      "of": "3d839b17",
+      "at": [
+        "charlotte-catholic:catalog.clubs[4].note"
+      ]
+    },
+    {
+      "t": "Reyini pou diskite evènman mondyal epi ogmante konsyans lè yo sipòte òganizasyon ak kolèk lajan ak sèvis ki chita sou lafwa ak charite — konseye Ms. Cabana, 512",
+      "of": "40074f33",
+      "at": [
+        "charlotte-catholic:catalog.clubs[5].note"
+      ]
+    },
+    {
+      "t": "Li ankouraje lanmou pou lekti; li fè yon kolèk liv pou timoun chak ane — konseye Ms. Davaz, 205",
+      "of": "dfb2be1a",
+      "at": [
+        "charlotte-catholic:catalog.clubs[6].note"
+      ]
+    },
+    {
+      "t": "Klib sa a se pou elèv ki enterese nan swiv karyè nan swen sante ak syans medikal — konseye Mrs. Cusack, 310",
+      "of": "5e775894",
+      "at": [
+        "charlotte-catholic:catalog.clubs[7].note"
+      ]
+    },
+    {
+      "t": "Li bay elèv yo eksperyans pratik ak tout pwosesis kreyatif pou fè mizik — konseye Mr. Queen, FAC Practice Rooms",
+      "of": "79b6c502",
+      "at": [
+        "charlotte-catholic:catalog.clubs[8].note"
+      ]
+    },
+    {
+      "t": "Edike elèv sou sekirite nan zòn sovaj epi fè plis elèv soti deyò — konseye Mr. Kennelly, 309",
+      "of": "1e8f44ee",
+      "at": [
+        "charlotte-catholic:catalog.clubs[9].note"
+      ]
+    },
+    {
+      "t": "Ankouraje STEAM nan Charlotte Catholic epi kite manm yo jwenn eksperyans pratik nan youn nan domèn jeni ki pi enpòtan pou lavni — konseye Mr. Tucker, 517",
+      "of": "19ceb578",
+      "at": [
+        "charlotte-catholic:catalog.clubs[10].note"
+      ]
+    },
+    {
+      "t": "Ekip Speech and Debate la ede moun amelyore ladrès pale ak deba lè yo konpetisyone nan tounwa epi kreye yon gwo kominote — konseye Mrs. Jennifer Taylor, CCHS Media Center",
+      "of": "33ae7dd9",
+      "at": [
+        "charlotte-catholic:catalog.clubs[11].note"
+      ]
+    },
+    {
+      "t": "Gaye konsyans sou kansè nan tete ak òganizasyon Go Jen Go — konseye Mrs. Nobary, College Room",
+      "of": "0d443209",
+      "at": [
+        "charlotte-catholic:catalog.clubs[12].note"
+      ]
+    },
+    {
+      "t": "Misyon klib nou an se ankouraje konsyans ak konpreyansyon lang siy — konseye Mrs. Bick, 318",
+      "of": "c1c659cb",
+      "at": [
+        "charlotte-catholic:catalog.clubs[13].note"
+      ]
+    },
+    {
+      "t": "Voices for Life egziste pou edike elèv sou kesyon kòmansman ak fen lavi epi pou defann moun ki pa gen vwa atravè lapriyè, sèvis… — konseye Mr. Quintero, 202",
+      "of": "9a3bb894",
+      "at": [
+        "charlotte-catholic:catalog.clubs[14].note"
+      ]
+    },
+    {
+      "t": "Li travay pou amelyore ladrès ekriti kreyatif, pataje pwojè ekriti, epi kiltive yon lanmou pou ekri — konseye Mr. Gbenyon, 307",
+      "of": "2af84b66",
+      "at": [
+        "charlotte-catholic:catalog.clubs[15].note"
+      ]
+    },
+    {
+      "t": "Li chèche gaye konsyans sou sante kè epi fè sèvis ak gwoup sante kè, sitou sa yo ki sèvi moun ki defavorize ak minorite — konseye Mr. Kuhn, 219",
+      "of": "095fcdcd",
+      "at": [
+        "charlotte-catholic:catalog.clubs[16].note"
+      ]
+    },
+    {
+      "t": "Li nan anyè klib lekòl la — konseye Mrs. Montague, 310",
+      "of": "dbfabdb4",
+      "at": [
+        "charlotte-catholic:catalog.clubs[17].note"
+      ]
+    },
+    {
+      "t": "Li dedye pou etabli yon mouvman volontè mondyal ki kreye opòtinite pou zanmitay 1:1 — konseye Ms. Reynolds, 229",
+      "of": "e8edcc87",
+      "at": [
+        "charlotte-catholic:catalog.clubs[18].note"
+      ]
+    },
+    {
+      "t": "Non klib nou an se mo Laten ki vle di “lanmou pou tout moun” oswa charite, lanmou Kretyen an pou limanite, kidonk nou akeyi chak okazyon pou nou se men ak… — konseye Dr. Leahy, 219",
+      "of": "02f5b826",
+      "at": [
+        "charlotte-catholic:catalog.clubs[19].note"
+      ]
+    },
+    {
+      "t": "Objektif CLT Foundation se anrichi epi chanje lavi timoun ki gen bezwen espesyal ansanm ak timoun ki gen sitiyasyon medikal ki chanje lavi yo — konseye Mrs. Taylor, Dance Room",
+      "of": "8fb02825",
+      "at": [
+        "charlotte-catholic:catalog.clubs[20].note"
+      ]
+    },
+    {
+      "t": "Rasanble elèv ki pataje yon enterè nan yon jwèt videyo popilè — konseye Ms. El Fahsi, 208",
+      "of": "c6e14267",
+      "at": [
+        "charlotte-catholic:catalog.clubs[21].note"
+      ]
+    },
+    {
+      "t": "Klib sa a reyini yon fwa pa mwa, nan sal 300, anjeneral apre lekòl — konseye Mr. Goodier, 300",
+      "of": "465ff954",
+      "at": [
+        "charlotte-catholic:catalog.clubs[22].note"
+      ]
+    },
+    {
+      "t": "Etabli yon koneksyon fizik nan pran swen kreyasyon Bondye a ak pwojè sèvis ki amelyore fason nou trete ekosistèm ak resous — konseye Mrs. Albertson, 325",
+      "of": "01a301bd",
+      "at": [
+        "charlotte-catholic:catalog.clubs[23].note"
+      ]
+    },
+    {
+      "t": "Li konsantre sou travay volontè ki plezan ki santre sou ede moun ki gen pwoblèm mobilite — konseye Mr. Georges, 316",
+      "of": "c3521063",
+      "at": [
+        "charlotte-catholic:catalog.clubs[24].note"
+      ]
+    },
+    {
+      "t": "Pote lajwa bay granmoun aje ki defavorize — konseye Mrs. Cusack ak Ms. DalCerro, 217",
+      "of": "9b3e1b97",
+      "at": [
+        "charlotte-catholic:catalog.clubs[25].note"
+      ]
+    },
+    {
+      "t": "Li konsantre sou opòtinite sèvis ki tounen alantou konstriksyon kay ansanm ak travay volontè nan divès depatman restore alantou… — konseye Mr. Smith",
+      "of": "a0f37ed2",
+      "at": [
+        "charlotte-catholic:catalog.clubs[26].note"
+      ]
+    },
+    {
+      "t": "Ede moun ki defavorize pandan jou fèt yo — konseye Dr. Sigwald, 225",
+      "of": "6d1bd31d",
+      "at": [
+        "charlotte-catholic:catalog.clubs[27].note"
+      ]
+    },
+    {
+      "t": "Helping with Mom’s in Needs Club la se yon klib ki fè patenarya ak òganizasyon Walking With Mom’s in Need nan St — konseye Mrs. Crainer, 319",
+      "of": "b3e27899",
+      "at": [
+        "charlotte-catholic:catalog.clubs[28].note"
+      ]
+    },
+    {
+      "t": "Chak manm Letters to Little Buddies Club la ap gen yon korespondan nan yon lekòl elemantè MACS epi l ap ekri l lèt epi fè diferan… — konseye Mrs. Finnegan, 223",
+      "of": "cdb9865c",
+      "at": [
+        "charlotte-catholic:catalog.clubs[29].note"
+      ]
+    },
+    {
+      "t": "Se pou ranmase lajan pou fondasyon LLB la epi ede timoun ki defavorize — konseye Mr. Chuttey, Bibliyotèk",
+      "of": "3da369f3",
+      "at": [
+        "charlotte-catholic:catalog.clubs[30].note"
+      ]
+    },
+    {
+      "t": "Mel’s Diner Club la ap travay pou bay manje pou moun ki nan bezwen tankou moun san kay nan kominote nou an ak refijye yon samdi pa mwa — konseye Mrs. Kosanovich, St. Matthew’s Parish Center",
+      "of": "3353c6c9",
+      "at": [
+        "charlotte-catholic:catalog.clubs[31].note"
+      ]
+    },
+    {
+      "t": "Muffin Ministry se yon klib kote elèv yo ka kwit muffin pou yo livre bay ministè k ap sèvi moun san kay nan St — konseye Ms. El Fahsi, 208",
+      "of": "b77aa09f",
+      "at": [
+        "charlotte-catholic:catalog.clubs[32].note"
+      ]
+    },
+    {
+      "t": "Ranmase rad ki byen pote pou vann yo dezyèm men epi bay lajan an nan òganizasyon charite pou fanm — konseye Mrs. Simpson, 514",
+      "of": "47d1bc13",
+      "at": [
+        "charlotte-catholic:catalog.clubs[33].note"
+      ]
+    },
+    {
+      "t": "Objektif Pawsitive Impact Society se ede sipòte humane society Charlotte la lè yo fè jwèt, bay manje, epi fè volontè nan… — konseye Mrs. Bick, 318",
+      "of": "b24eeb5d",
+      "at": [
+        "charlotte-catholic:catalog.clubs[34].note"
+      ]
+    },
+    {
+      "t": "Montre konesans ak ladrès pou sove lavi pou prepare tèt ou pou sèten sitiyasyon ki chanje lavi — konseye Mrs. Tripp, 324",
+      "of": "2bdc5036",
+      "at": [
+        "charlotte-catholic:catalog.clubs[35].note"
+      ]
+    },
+    {
+      "t": "Ronald McDonald House Charities of Greater Charlotte Club la ap fè vant gato ak kolèk pwovizyon pou bay òganizasyon charite a, epi vizite… — konseye Mrs. Burnham, 206",
+      "of": "31f6c8b8",
+      "at": [
+        "charlotte-catholic:catalog.clubs[36].note"
+      ]
+    },
+    {
+      "t": "Bay elèv yo opòtinite sèvis epi ede elèv ki pa gen sèvis nan Wayfinders — konseye Mrs. Adamian, 521",
+      "of": "011e8d50",
+      "at": [
+        "charlotte-catholic:catalog.clubs[37].note"
+      ]
+    },
+    {
+      "t": "Li nan anyè klib lekòl la — konseye Mr. Needham",
+      "of": "f75a6eb7",
+      "at": [
+        "charlotte-catholic:catalog.clubs[38].note"
+      ]
+    },
+    {
+      "t": "Li nan lis anba anyè klib la — konseye Mr. Quintero, Campus Ministry Offices",
+      "of": "868773ce",
+      "at": [
+        "charlotte-catholic:catalog.clubs[39].note"
+      ]
+    },
+    {
+      "t": "Charlotte Catholic Beautification Club la ap travay pou amelyore lavi elèv yo epi onore Bondye lè li anbeli kanpis la atravè pwojè sèvis ak… — konseye Mrs. Carano, Kafeterya",
+      "of": "5895d967",
+      "at": [
+        "charlotte-catholic:catalog.clubs[40].note"
+      ]
+    },
+    {
+      "t": "Rasanble elèv ki gen paran ki gradye nan CCHS pou devlope kominote a epi ranfòse koneksyon ak ansyen elèv yo — konseye Mrs. Clementi ak Mr. Morgan, 218",
+      "of": "d0d613e2",
+      "at": [
+        "charlotte-catholic:catalog.clubs[41].note"
+      ]
+    },
+    {
+      "t": "Pote konsyans sou pwoblèm sante mantal nan kominote lekòl nou an epi ede lòt moun ki nan bezwen — konseye Mrs. Clementi, Oryantasyon",
+      "of": "d4770fdc",
+      "at": [
+        "charlotte-catholic:catalog.clubs[42].note"
+      ]
+    },
+    {
+      "t": "Objektif Morgan’s Message se nòmalize konvèsasyon sou defi mantal ak fizik ki kouran nan mitan elèv-atlèt… — konseye Mr. Christmas, Gimnaz",
+      "of": "38a2ba4c",
+      "at": [
+        "charlotte-catholic:catalog.clubs[43].note"
+      ]
+    },
+    {
+      "t": "Li kreye yon opòtinite pou elèv yo bati yon kominote enterè lè yo eksplore mond fotografi a — konseye Mr. Johnson, 623",
+      "of": "8997a1d4",
+      "at": [
+        "charlotte-catholic:catalog.clubs[44].note"
+      ]
+    },
+    {
+      "t": "Devlope yon konpreyansyon ak apresyasyon ki pi pwofon pou gras lapè lapriyè Sen Rozè a bay — konseye Mrs. Friedman, 303",
+      "of": "2ecbf56d",
+      "at": [
+        "charlotte-catholic:catalog.clubs[45].note"
+      ]
+    },
+    {
+      "t": "Li vle fè elèv nan kominote CCHS la santi yo akeyi epi pran swen lè li ekri bèl mo sou papye kole - oswa ti mo ak souri - ki pral… — konseye Mrs. Madden, 532",
+      "of": "63181b93",
+      "at": [
+        "charlotte-catholic:catalog.clubs[46].note"
+      ]
+    },
+    {
+      "t": "The St — konseye Mr. Kennelly, 309",
+      "of": "50d37ed0",
+      "at": [
+        "charlotte-catholic:catalog.clubs[47].note"
+      ]
+    },
+    {
+      "t": "Kreye yon espas entansyonèl pou pataj pami elèv Nwa ak lòt elèv nan Charlotte Catholic — konseye Dr. Sigwald, 225",
+      "of": "955a03ce",
+      "at": [
+        "charlotte-catholic:catalog.clubs[48].note"
+      ]
+    },
+    {
+      "t": "Se yon klib pou elèv ki enterese nan oswa ki pataje yon orijin etnik Azyatik-Ameriken Insular Pasifik ak lafwa Katolik la — konseye Mr. Pham, Bibliyotèk",
+      "of": "a17902bc",
+      "at": [
+        "charlotte-catholic:catalog.clubs[49].note"
+      ]
+    },
+    {
+      "t": "Li travay pou ankouraje lang ak kilti Alman atravè reyinyon edikatif, evènman ak pwojè sèvis — konseye Mrs. Schmid-Rankin, 527",
+      "of": "28b4d7af",
+      "at": [
+        "charlotte-catholic:catalog.clubs[50].note"
+      ]
+    },
+    {
+      "t": "Misyon Spanish Club la se edike elèv nou yo plis lè li pataje eksperyans kominote ki pale Panyòl yo epi mennen Panyòl… — konseye Ms. Palomino, 204",
+      "of": "14201e60",
+      "at": [
+        "charlotte-catholic:catalog.clubs[51].note"
+      ]
+    },
+    {
+      "t": "Nan Climbing Club la n ap reyini chak mwa oswa chak de mwa pou monte nan youn nan twa kote Inner Peaks yo nan Charlotte — konseye Mr. Kalbaugh, 211",
+      "of": "7c774592",
+      "at": [
+        "charlotte-catholic:catalog.clubs[52].note"
+      ]
+    },
+    {
+      "t": "Objektif Fellowship of Christian Athletes la se ede atlèt yo konnen epi grandi nan Kris epi mennen lòt moun fè menm bagay la atravè… — konseye Mr. Christmas, AD Office",
+      "of": "cc23ea5f",
+      "at": [
+        "charlotte-catholic:catalog.clubs[53].note"
+      ]
+    },
+    {
+      "t": "Konekte elèv ki pataje yon pasyon pou patinaj atistik epi ede moun ki enterese aprann patinen — konseye Ms. El Fahsi, 208",
+      "of": "3f7d0cc6",
+      "at": [
+        "charlotte-catholic:catalog.clubs[54].note"
+      ]
+    },
+    {
+      "t": "Li nan anyè klib lekòl la — konseye Mr. Zenmke, Carolina Sports Complex",
+      "of": "6148fe05",
+      "at": [
+        "charlotte-catholic:catalog.clubs[55].note"
+      ]
+    },
+    {
+      "t": "Se yon gwoup elèv ki oryante nan sèvis ki ap chèche gen yon enpak pozitif sou kominote a pandan y ap jwi jwèt gòlf la — konseye Mr. Panther, 214",
+      "of": "c5c64c6f",
+      "at": [
+        "charlotte-catholic:catalog.clubs[56].note"
+      ]
+    },
+    {
+      "t": "Objektif Lacrosse Club la se rasanble moun pou aprann sou kwòs epi jwe l nan yon anviwònman plezan e detann pandan y ap fè nouvo zanmi tou — konseye Mr. Kalbaugh, Davie Park",
+      "of": "e6506e1d",
+      "at": [
+        "charlotte-catholic:catalog.clubs[57].note"
+      ]
+    },
+    {
+      "t": "Reprezante CCHS ak lafwa Katolik nou an kont lòt ekip rugby pandan n ap montre vèti, fidelite epi pote onè bay Charlotte Catholic — konseye Mr. Kuhn, 219",
+      "of": "919184fa",
+      "at": [
+        "charlotte-catholic:catalog.clubs[58].note"
+      ]
+    },
+    {
+      "t": "Kite elèv yo patisipe nan yon espò ki trè plezan epi fè koneksyon dirab ak lòt elèv — konseye Mrs. Best, Campus Ministry",
+      "of": "216c1d60",
+      "at": [
+        "charlotte-catholic:catalog.clubs[59].note"
+      ]
+    },
+    {
+      "t": "Objektif Ping Pong Club la se etabli yon kominote jwè ping pong nouvo oswa ki deja la — konseye Mr. Needham, Commons",
+      "of": "dfdfa587",
+      "at": [
+        "charlotte-catholic:catalog.clubs[60].note"
+      ]
+    },
+    {
+      "t": "Ede ogmante konsyans pou diferan òganizasyon charite nan Charlotte lè n ale nan kous 5k k ap sipòte yo — konseye Mr. Georges, 316",
+      "of": "c3b5f767",
+      "at": [
+        "charlotte-catholic:catalog.clubs[61].note"
+      ]
+    },
+    {
+      "t": "Pran plezi nan navigasyon ak zanmi epi aprann kijan pou navige — konseye Mrs. Tripp, 324",
+      "of": "816c43f3",
+      "at": [
+        "charlotte-catholic:catalog.clubs[62].note"
+      ]
+    },
+    {
+      "t": "Fè zanmi atravè eskèt epi ankouraje eskèt nan kominote a lè nou netwaye pak eskèt yo — konseye Mr. Whitsell, Renaissance Skate Park",
+      "of": "87a55f6b",
+      "at": [
+        "charlotte-catholic:catalog.clubs[63].note"
+      ]
+    },
+    {
+      "t": "Misyon Soccer Souls se gaye lajwa foutbòl la bay lòt moun ki swa pa konnen jwèt la oswa ki pa gen mwayen pou jwe — konseye Mrs. Yarussi, 311",
+      "of": "0099353d",
+      "at": [
+        "charlotte-catholic:catalog.clubs[64].note"
+      ]
+    },
+    {
+      "t": "Li travay pou bay pi bon swen sante pou atlèt CCHS yo pandan l ap edike elèv yo tou nan metòd medsin espòtif ak swen atletik — konseye Mr. Wisocki, Training Room",
+      "of": "4a4b0afa",
+      "at": [
+        "charlotte-catholic:catalog.clubs[65].note"
+      ]
+    },
+    {
+      "t": "Li ofri elèv yo yon opòtinite pou fè eksperyans espò wakeboard la — konseye Mr. Hage, South Town Waterpark",
+      "of": "11740525",
+      "at": [
+        "charlotte-catholic:catalog.clubs[66].note"
+      ]
+    },
+    {
+      "t": "Travay pou bati yon kominote ki gen yon lanmou komen pou atizay epi aprann ak amelyore ladrès desen, penti ak atizay 3D — konseye Mrs. Parks, 621",
+      "of": "1a14b79d",
+      "at": [
+        "charlotte-catholic:catalog.clubs[67].note"
+      ]
+    },
+    {
+      "t": "Li santre sou jwe divès jwèt kat — konseye Mr. Sifuentes, 304",
+      "of": "e580293a",
+      "at": [
+        "charlotte-catholic:catalog.clubs[68].note"
+      ]
+    },
+    {
+      "t": "Misyon nou se asire lòt moun santi yo sipòte epi pran swen pandan y ap pase move moman — konseye Mr. Galarde, 534",
+      "of": "67d284ce",
+      "at": [
+        "charlotte-catholic:catalog.clubs[69].note"
+      ]
+    },
+    {
+      "t": "Li fè vant gato pandan tout ane a pou ranmase lajan pou charite epi li òganize evènman kwit manje pou bay gato — konseye Ms. Cabanna, 512",
+      "of": "77b894bc",
+      "at": [
+        "charlotte-catholic:catalog.clubs[70].note"
+      ]
+    },
+    {
+      "t": "Li nan anyè klib lekòl la — konseye Ms. Waldron",
+      "of": "131ba04b",
+      "at": [
+        "charlotte-catholic:catalog.clubs[71].note"
+      ]
+    },
+    {
+      "t": "Li bay elèv yo yon espas pou eksplore epi diskite album enfliyan atravè jan ak epòk — konseye Mr. Queen, Math Workroom",
+      "of": "a91e651d",
+      "at": [
+        "charlotte-catholic:catalog.clubs[72].note"
+      ]
+    },
+    {
+      "t": "Yon klib ki reyini yon fwa pa mwa pou travay ansanm sou jwèt tablo ak jwèt estrateji — konseye Mr. Dorsett, 306",
+      "of": "6cef2d2f",
+      "at": [
+        "charlotte-catholic:catalog.clubs[73].note"
+      ]
+    },
+    {
+      "t": "Li kite elèv yo rasanble nan yon anviwònman plezan e akeyan pou jwi Pokemon epi fè zanmi — konseye Mr. Tucker, 517",
+      "of": "6ac74421",
+      "at": [
+        "charlotte-catholic:catalog.clubs[74].note"
+      ]
+    },
+    {
+      "t": "Sew fun se yon klib ki montre moun kijan pou koud epi sèvi ak yon machin a koud — konseye Ms. Mirizio, 620",
+      "of": "30c1a7c5",
+      "at": [
+        "charlotte-catholic:catalog.clubs[75].note"
+      ]
+    },
+    {
+      "t": "Jounal lekòl la, magazin literè a, album ane a ak yon podcast elèv yo tout egziste, men yo fonksyone kòm kou English — Journalism (234) ak Yearbook (235) — olye ke kòm klib, se poutèt sa okenn nan yo pa parèt nan lis sa a.",
+      "of": "f5d80dc1",
+      "at": [
+        "charlotte-catholic:catalog.divisions[0].text"
+      ]
+    },
+    {
+      "t": "Sèvis (grad 9–12)",
+      "of": "60bf72d6",
+      "at": [
+        "charlotte-catholic:catalog.divisions[1].label"
+      ]
+    },
+    {
+      "t": "70 èdtan sèvis apwouve sou kat ane obligatwa pou gradye — 10 nan 9yèm ane a ak 20 nan chak nan 10yèm–12yèm, omwen 5 nan yo se sèvis nan parwas chak ane, remèt anvan 1ye mas.",
+      "of": "91cc70bf",
+      "at": [
+        "charlotte-catholic:catalog.divisions[1].text"
+      ]
+    },
+    {
+      "t": "Kondisyon pou gradyasyon",
+      "of": "a5cdcdce",
+      "at": [
+        "charlotte-catholic:catalog.divisions[1].tag"
+      ]
+    },
+    {
+      "t": "Kantite manm",
+      "of": "3cbfc8ba",
+      "at": [
+        "charlotte-catholic:catalog.divisions[2].label"
+      ]
+    },
+    {
+      "t": "Anyè a pibliye konseye ak sal men pa gen kantite manm, pwosesis aplikasyon ni orè reyinyon, kidonk ou pa ka jije konbyen yon klib gwo oswa selektif apati li.",
+      "of": "bb6e3bfd",
+      "at": [
+        "charlotte-catholic:catalog.divisions[2].text"
+      ]
+    },
+    {
+      "t": "Pa pibliye",
+      "of": "d945d814",
+      "at": [
+        "charlotte-catholic:catalog.divisions[2].tag"
+      ]
+    },
+    {
       "t": "Kenz gwoup afinite ki nonmen atravè tout twa divizyon yo — chak louvri pou tout elèv — anba yon sèl fowòm parapli, ak yon kò lidèchip elèv dèyè l.",
       "of": "c2dfd002",
       "at": [
@@ -2801,14 +4058,6 @@
       "of": "6e7dd702",
       "at": [
         "charlotte-country-day:clusters.rows[1].oneLiner"
-      ]
-    },
-    {
-      "t": "Nonmen sèlman",
-      "of": "a0706e54",
-      "at": [
-        "charlotte-country-day:clusters.rows[1].evidenceLabel",
-        "gaston-day:clusters.rows[4].evidenceLabel"
       ]
     },
     {
@@ -4324,15 +5573,6 @@
       "of": "198f83e5",
       "at": [
         "carmel-christian:clusters.verdict"
-      ]
-    },
-    {
-      "t": "Sosyete onè →",
-      "of": "48a8bb43",
-      "at": [
-        "carmel-christian:clusters.rows[0].name",
-        "hickory-grove-christian:clusters.rows[0].name",
-        "gaston-day:clusters.rows[4].name"
       ]
     },
     {

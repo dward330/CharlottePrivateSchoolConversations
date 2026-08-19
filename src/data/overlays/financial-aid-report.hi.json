@@ -9,6 +9,7 @@
         "providence-day:title",
         "charlotte-latin:title",
         "charlotte-christian:title",
+        "charlotte-catholic:title",
         "charlotte-country-day:title",
         "cannon:title",
         "covenant-day:title",
@@ -77,6 +78,7 @@
         "providence-day:framing[2].title",
         "charlotte-latin:framing[2].title",
         "charlotte-christian:framing[2].title",
+        "charlotte-catholic:framing[2].title",
         "charlotte-country-day:framing[2].title",
         "cannon:framing[2].title",
         "covenant-day:framing[2].title",
@@ -99,6 +101,7 @@
       "at": [
         "providence-day:sections[0].navTitle",
         "charlotte-latin:sections[0].navTitle",
+        "charlotte-catholic:sections[0].navTitle",
         "charlotte-country-day:sections[0].navTitle",
         "cannon:sections[0].navTitle"
       ]
@@ -178,6 +181,10 @@
         "charlotte-latin:sections[3].boxes[2].tag",
         "charlotte-latin:sections[5].boxes[3].tag",
         "charlotte-christian:sections[3].boxes[2].tag",
+        "charlotte-catholic:sections[2].boxes[3].tag",
+        "charlotte-catholic:sections[3].boxes[0].tag",
+        "charlotte-catholic:sections[4].boxes[0].tag",
+        "charlotte-catholic:sections[5].boxes[0].tag",
         "charlotte-country-day:sections[0].boxes[0].tag",
         "charlotte-country-day:sections[2].boxes[2].tag",
         "charlotte-country-day:sections[3].boxes[1].tag",
@@ -241,6 +248,7 @@
       "at": [
         "providence-day:sections[1].navTitle",
         "charlotte-latin:sections[1].navTitle",
+        "charlotte-catholic:sections[1].navTitle",
         "charlotte-country-day:sections[1].navTitle",
         "cannon:sections[1].navTitle"
       ]
@@ -424,6 +432,7 @@
       "at": [
         "providence-day:sections[2].navTitle",
         "charlotte-latin:sections[2].navTitle",
+        "charlotte-catholic:sections[2].navTitle",
         "charlotte-country-day:sections[2].navTitle",
         "cannon:sections[2].navTitle",
         "covenant-day:sections[2].navTitle",
@@ -569,7 +578,8 @@
       "of": "e15b3ca0",
       "at": [
         "providence-day:sections[3].navTitle",
-        "charlotte-latin:sections[3].navTitle"
+        "charlotte-latin:sections[3].navTitle",
+        "charlotte-catholic:sections[3].navTitle"
       ]
     },
     {
@@ -797,6 +807,7 @@
       "at": [
         "providence-day:sections[5].navTitle",
         "charlotte-latin:sections[5].navTitle",
+        "charlotte-catholic:sections[5].navTitle",
         "charlotte-country-day:sections[4].navTitle",
         "cannon:sections[4].navTitle",
         "covenant-day:sections[5].navTitle",
@@ -2673,6 +2684,523 @@
       "of": "e315244a",
       "at": [
         "charlotte-christian:sections[5].questions[6]"
+      ]
+    },
+    {
+      "t": "2026–27 शैक्षणिक वर्ष · आँकड़े 18 Aug 2026 तक के",
+      "of": "f52eb327",
+      "at": [
+        "charlotte-catholic:meta"
+      ]
+    },
+    {
+      "t": "ट्यूशन स्कूल नहीं, बल्कि diocese तय करता है।",
+      "of": "d37a0857",
+      "at": [
+        "charlotte-catholic:framing[0].title"
+      ]
+    },
+    {
+      "t": "Charlotte Catholic अपनी कोई ट्यूशन प्रकाशित नहीं करता। Mecklenburg Area Catholic Schools हर MACS हाई स्कूल के लिए कक्षा 9–12 को समेटने वाली एक ही हाई-स्कूल सूची तय और प्रकाशित करता है, इसीलिए यहाँ हर आँकड़ा स्कूल की साइट के बजाय discovermacs.org का हवाला देता है।",
+      "of": "ce665388",
+      "at": [
+        "charlotte-catholic:framing[0].body"
+      ]
+    },
+    {
+      "t": "केवल मौजूदा वर्ष प्रकाशित है।",
+      "of": "733ce9aa",
+      "at": [
+        "charlotte-catholic:framing[1].title"
+      ]
+    },
+    {
+      "t": "MACS 2026-27 की सूची प्रकाशित करता है, कोई इतिहास नहीं। द्वितीयक स्रोत पुराने आँकड़े परस्पर विरोधी रूप में देते हैं ($13,348 और $9,366) और उनके वर्ष का कोई भरोसेमंद हवाला नहीं है, इसलिए यहाँ बिना हवाले वाले आँकड़ों से बना कोई रुझान दिखाने के बजाय ट्यूशन का कोई रुझान दिखाया ही नहीं गया।",
+      "of": "8a19c9b2",
+      "at": [
+        "charlotte-catholic:framing[1].body"
+      ]
+    },
+    {
+      "t": "यह नामांकन के दौरान मिलने वाली ट्यूशन सहायता है — न कि वे $17,242,184 की कॉलेज छात्रवृत्तियाँ जो Class of 2025 को मिलीं, जो विश्वविद्यालयों का पैसा है और हर जगह से बाहर रखा गया है। यह वित्तीय सलाह नहीं है।",
+      "of": "88649bba",
+      "at": [
+        "charlotte-catholic:framing[2].body"
+      ]
+    },
+    {
+      "t": "ट्यूशन कक्षा से नहीं, परिवार की स्थिति से तय होती है",
+      "of": "fab16aab",
+      "at": [
+        "charlotte-catholic:sections[0].title"
+      ]
+    },
+    {
+      "t": "ढाँचे में ही अलग",
+      "of": "9ad82de4",
+      "at": [
+        "charlotte-catholic:sections[0].tag"
+      ]
+    },
+    {
+      "t": "प्रकाशित 2026-27 ट्यूशन, कक्षा 9–12",
+      "of": "3b6db132",
+      "at": [
+        "charlotte-catholic:sections[0].figureCaption"
+      ]
+    },
+    {
+      "t": "भाग लेने वाले कैथोलिक",
+      "of": "46b1a9d3",
+      "at": [
+        "charlotte-catholic:sections[0].bands[0].label"
+      ]
+    },
+    {
+      "t": "Community (parish से बाहर)",
+      "of": "29b14c29",
+      "at": [
+        "charlotte-catholic:sections[0].bands[1].label"
+      ]
+    },
+    {
+      "t": "High International",
+      "of": "8c752f55",
+      "at": [
+        "charlotte-catholic:sections[0].bands[2].label"
+      ]
+    },
+    {
+      "t": "यह वह ढाँचागत ख़ासियत है जो इस सूची के किसी और स्कूल में नहीं है: **क़ीमत parish में भागीदारी पर निर्भर करती है, कक्षा-स्तर या आर्थिक ज़रूरत पर नहीं**। उसी कक्षा में उसी सीट के लिए भाग लेने वाला कैथोलिक परिवार **$15,041** देता है, जबकि community परिवार **$21,562** — यानी **$6,521 का अंतर, लगभग 30%**। चूँकि CCHS 9–12 का स्कूल है, यहाँ कक्षा-बैंड की कोई सीढ़ी है ही नहीं; ये तीन पंक्तियाँ ही पूरी सूची हैं।",
+      "of": "644cca30",
+      "at": [
+        "charlotte-catholic:sections[0].figureNote"
+      ]
+    },
+    {
+      "t": "International दर उन छात्रों पर लागू होती है जिन्हें I-20 चाहिए। दूसरे स्कूलों की प्रकाशित ट्यूशन से तुलना के लिए **$21,562** की community दर ही सही आँकड़ा है, क्योंकि यही उस परिवार के लिए क़ीमत है जिसका किसी parish से जुड़ाव नहीं है।",
+      "of": "bf157ee9",
+      "at": [
+        "charlotte-catholic:sections[0].figureNote2"
+      ]
+    },
+    {
+      "t": "परिवार और क्या-क्या देता है",
+      "of": "3a2b4304",
+      "at": [
+        "charlotte-catholic:sections[1].title"
+      ]
+    },
+    {
+      "t": "प्रकाशित शुल्क",
+      "of": "5cf0420e",
+      "at": [
+        "charlotte-catholic:sections[1].componentsTitle"
+      ]
+    },
+    {
+      "t": "Capital शुल्क — प्रति परिवार $1,995",
+      "of": "14bbf874",
+      "at": [
+        "charlotte-catholic:sections[1].components[0].label"
+      ]
+    },
+    {
+      "t": "आवेदन शुल्क — प्रति छात्र $120",
+      "of": "e4445282",
+      "at": [
+        "charlotte-catholic:sections[1].components[1].label"
+      ]
+    },
+    {
+      "t": "लगातार नामांकन शुल्क — लौटने वाले प्रति छात्र $150",
+      "of": "123a2fbe",
+      "at": [
+        "charlotte-catholic:sections[1].components[2].label"
+      ]
+    },
+    {
+      "t": "FACTS भुगतान-योजना शुल्क — प्रति परिवार $15–$45",
+      "of": "84475fdc",
+      "at": [
+        "charlotte-catholic:sections[1].components[3].label"
+      ]
+    },
+    {
+      "t": "Clarity सहायता आवेदन शुल्क — $65",
+      "of": "8b71866a",
+      "at": [
+        "charlotte-catholic:sections[1].components[4].label"
+      ]
+    },
+    {
+      "t": "किताबें, तकनीक और कोर्स शुल्क",
+      "of": "95c29770",
+      "at": [
+        "charlotte-catholic:sections[1].components[5].label"
+      ]
+    },
+    {
+      "t": "Athletics में भागीदारी और spirit-pack की लागत",
+      "of": "85f78519",
+      "at": [
+        "charlotte-catholic:sections[1].components[6].label"
+      ]
+    },
+    {
+      "t": "Band की यात्रा — Dublin परेड की यात्रा हर चार साल पर होती है",
+      "of": "03833e66",
+      "at": [
+        "charlotte-catholic:sections[1].components[7].label"
+      ]
+    },
+    {
+      "t": "**Capital शुल्क प्रति छात्र नहीं, बल्कि प्रति परिवार लिया जाता है**, इसलिए आवेदन और नामांकन शुल्क के उलट यह नामांकित बच्चों की संख्या के साथ नहीं बढ़ता।",
+      "of": "88be790b",
+      "at": [
+        "charlotte-catholic:sections[1].componentsNote"
+      ]
+    },
+    {
+      "t": "community दर वाला पहले वर्ष का एक परिवार, जिसका एक छात्र है, किताबों, गतिविधियों या athletics से पहले ही $21,562 + $1,995 + $120 = **$23,677** देता है।",
+      "of": "c3f0715f",
+      "at": [
+        "charlotte-catholic:sections[1].componentsAside"
+      ]
+    },
+    {
+      "t": "सहायता का आकलन कैसे और कब होता है",
+      "of": "6fea59c3",
+      "at": [
+        "charlotte-catholic:sections[2].title"
+      ]
+    },
+    {
+      "t": "फ़रवरी",
+      "of": "fca77633",
+      "at": [
+        "charlotte-catholic:sections[2].timeline[0].when"
+      ]
+    },
+    {
+      "t": "अगले शैक्षणिक वर्ष के लिए **NCSEAA** की आवेदन-अवधि खुलती है — जिसमें **Opportunity Scholarship** और **ESA+** शामिल हैं",
+      "of": "52e4974c",
+      "at": [
+        "charlotte-catholic:sections[2].timeline[0].detail"
+      ]
+    },
+    {
+      "t": "23 मार्च 2026",
+      "of": "ca4e1acd",
+      "at": [
+        "charlotte-catholic:sections[2].timeline[1].when"
+      ]
+    },
+    {
+      "t": "**2026-27 का नामांकन खुलता है**",
+      "of": "92eb0e82",
+      "at": [
+        "charlotte-catholic:sections[2].timeline[1].detail"
+      ]
+    },
+    {
+      "t": "15 मई तक",
+      "of": "27a6a3a5",
+      "at": [
+        "charlotte-catholic:sections[2].timeline[2].when"
+      ]
+    },
+    {
+      "t": "**लौटने वाले छात्रों के लिए Family Individualized Tuition (FIT) की समय-सीमा।** नए परिवारों को सलाह दी जाती है कि वे प्रवेश आवेदन के साथ-साथ ही आवेदन करें",
+      "of": "4290907b",
+      "at": [
+        "charlotte-catholic:sections[2].timeline[2].detail"
+      ]
+    },
+    {
+      "t": "Platform — Clarity, FACTS नहीं",
+      "of": "fca02a28",
+      "at": [
+        "charlotte-catholic:sections[2].boxes[0].title"
+      ]
+    },
+    {
+      "t": "ज़रूरत का आकलन **Clarity** आवेदन (**$65** शुल्क) से होता है। **इस व्यवस्था में FACTS केवल भुगतान संसाधित करने वाले के रूप में आता है**, ज़रूरत आँकने के platform के रूप में नहीं — यह गड़बड़ी आसानी से हो जाती है और इसके नतीजे भी होते हैं, क्योंकि इस सूची के अधिकांश स्कूल आकलन के लिए FACTS Grant & Aid चलाते हैं। **TADS का उपयोग नहीं होता।**",
+      "of": "064cd162",
+      "at": [
+        "charlotte-catholic:sections[2].boxes[0].body"
+      ]
+    },
+    {
+      "t": "Family Individualized Tuition (FIT)",
+      "of": "b47df294",
+      "at": [
+        "charlotte-catholic:sections[2].boxes[1].title"
+      ]
+    },
+    {
+      "t": "यह diocese का ज़रूरत-आधारित कार्यक्रम है। सहायता परिवार की परिस्थिति और उपलब्ध निधि के अनुसार बदलती है, इसलिए एक वर्ष मिली सहायता की गारंटी अगले वर्ष के लिए नहीं होती।",
+      "of": "8fdbb4b8",
+      "at": [
+        "charlotte-catholic:sections[2].boxes[1].body"
+      ]
+    },
+    {
+      "t": "एक से अधिक बच्चों पर छूट — केवल भाग लेने वाले कैथोलिक परिवारों के लिए",
+      "of": "6dda8413",
+      "at": [
+        "charlotte-catholic:sections[2].boxes[2].title"
+      ]
+    },
+    {
+      "t": "दूसरा बच्चा **10%**, तीसरा **25%**, चौथा **50%**, पाँचवाँ और उसके आगे **100%**। ध्यान रहे कि ये केवल भाग लेने वाले कैथोलिक दर पर लागू होते हैं, जिससे बड़े परिवारों के लिए parish से जुड़ाव का फ़ायदा और बढ़ जाता है।",
+      "of": "d729c103",
+      "at": [
+        "charlotte-catholic:sections[2].boxes[2].body"
+      ]
+    },
+    {
+      "t": "न फ़ैसले की समय-सीमा प्रकाशित है, न अपील की प्रक्रिया, न सहायता की अधिकतम सीमा की कोई नीति। यह भी नहीं बताया गया कि दोबारा आवेदन करने पर FIT की सहायता अपने आप जारी रहती है या नहीं।",
+      "of": "19c32b5c",
+      "at": [
+        "charlotte-catholic:sections[2].boxes[3].body"
+      ]
+    },
+    {
+      "t": "सहायता कार्यक्रम असल में क्या देता है",
+      "of": "5f013ce1",
+      "at": [
+        "charlotte-catholic:sections[3].title"
+      ]
+    },
+    {
+      "t": "केवल पूरे DIOCESE के लिए",
+      "of": "8f0b1009",
+      "at": [
+        "charlotte-catholic:sections[3].tag"
+      ]
+    },
+    {
+      "t": "स्कूल-वार सहायता के आँकड़े हैं ही नहीं",
+      "of": "3b95fbe8",
+      "at": [
+        "charlotte-catholic:sections[3].boxes[0].title"
+      ]
+    },
+    {
+      "t": "MACS सहायता के आँकड़े **केवल पूरे diocese के लिए प्रकाशित करता है, कभी स्कूल-वार नहीं**। न यह प्रकाशित है कि CCHS के कितने प्रतिशत छात्रों को सहायता मिलती है, न CCHS में दी गई कुल सहायता, न औसत सहायता। यह जानकारी देने का ढाँचा है, शोध की कोई कमी नहीं — ये आँकड़े ख़ास इस स्कूल के लिए कहीं प्रकाशित होते ही नहीं।",
+      "of": "7cd884da",
+      "at": [
+        "charlotte-catholic:sections[3].boxes[0].body"
+      ]
+    },
+    {
+      "t": "राज्य से मिलने वाली राशि",
+      "of": "c3eaa0ef",
+      "at": [
+        "charlotte-catholic:sections[4].navTitle"
+      ]
+    },
+    {
+      "t": "राज्य की छात्रवृत्तियाँ और voucher",
+      "of": "a398acdd",
+      "at": [
+        "charlotte-catholic:sections[4].title"
+      ]
+    },
+    {
+      "t": "ESA+",
+      "of": "4a10fc69",
+      "at": [
+        "charlotte-catholic:sections[4].ladder[0].gift",
+        "hickory-grove-christian:sections[3].plans[2].figure"
+      ]
+    },
+    {
+      "t": "पात्र दिव्यांगता वाले छात्रों के लिए हर वर्ष **$9,000 या $17,000** — यहाँ उपलब्ध सबसे बड़ी अकेली सहायता-परत",
+      "of": "b47647bd",
+      "at": [
+        "charlotte-catholic:sections[4].ladder[0].detail"
+      ]
+    },
+    {
+      "t": "Opportunity Scholarship",
+      "of": "2836de02",
+      "at": [
+        "charlotte-catholic:sections[4].ladder[1].gift",
+        "carmel-christian:sections[4].plans[2].label",
+        "hickory-grove-christian:sections[3].plans[1].label"
+      ]
+    },
+    {
+      "t": "हर वर्ष **$7,000+** तक, और — 2024 के विस्तार के बाद से — **आय की कोई सीमा नहीं**, इसलिए जो परिवार पहले बाहर थे, वे अब पात्र हैं",
+      "of": "db59fa2b",
+      "at": [
+        "charlotte-catholic:sections[4].ladder[1].detail"
+      ]
+    },
+    {
+      "t": "ये **North Carolina राज्य** के कार्यक्रम हैं, जिन्हें NCSEAA चलाता है, ये CCHS की सहायता नहीं हैं। ये FIT की जगह नहीं लेते बल्कि उसके ऊपर जुड़ते हैं, और diocese ख़ुद परिवारों को इनकी ओर भेजता है।",
+      "of": "61aeb20e",
+      "at": [
+        "charlotte-catholic:sections[4].note"
+      ]
+    },
+    {
+      "t": "CCHS और MACS अपनी **कोई merit छात्रवृत्ति** प्रकाशित नहीं करते — प्रकाशित रिकॉर्ड में कहीं भी शैक्षणिक, खेल या कला merit का कोई पुरस्कार नहीं दिखता। यहाँ सहायता ज़रूरत-आधारित (FIT), parish की स्थिति पर आधारित (कैथोलिक दर और एक से अधिक बच्चों पर छूट), या राज्य से मिलने वाली होती है।",
+      "of": "7106447c",
+      "at": [
+        "charlotte-catholic:sections[4].boxes[0].body"
+      ]
+    },
+    {
+      "t": "भुगतान की व्यवस्था",
+      "of": "73acf5f6",
+      "at": [
+        "charlotte-catholic:sections[5].title"
+      ]
+    },
+    {
+      "t": "FACTS",
+      "of": "fe5b76c4",
+      "at": [
+        "charlotte-catholic:sections[5].plans[0].figure",
+        "carmel-christian:sections[5].plans[1].figure",
+        "hickory-grove-christian:sections[4].plans[1].figure"
+      ]
+    },
+    {
+      "t": "भुगतान संसाधित करने वाला",
+      "of": "90169b25",
+      "at": [
+        "charlotte-catholic:sections[5].plans[0].label"
+      ]
+    },
+    {
+      "t": "ट्यूशन की क़िस्तें यही चलाता है। योजना शुल्क **प्रति परिवार $15–$45**।",
+      "of": "00f42751",
+      "at": [
+        "charlotte-catholic:sections[5].plans[0].detail"
+      ]
+    },
+    {
+      "t": "$150",
+      "of": "24155a9b",
+      "at": [
+        "charlotte-catholic:sections[5].plans[1].figure"
+      ]
+    },
+    {
+      "t": "लगातार नामांकन",
+      "of": "396a9f6e",
+      "at": [
+        "charlotte-catholic:sections[5].plans[1].label"
+      ]
+    },
+    {
+      "t": "अगले वर्ष के लिए सीट रोके रखने हेतु लौटने वाले हर छात्र से लिया जाता है।",
+      "of": "cfc5d5cf",
+      "at": [
+        "charlotte-catholic:sections[5].plans[1].detail"
+      ]
+    },
+    {
+      "t": "15 मई",
+      "of": "3b28a9a4",
+      "at": [
+        "charlotte-catholic:sections[5].plans[2].figure"
+      ]
+    },
+    {
+      "t": "FIT की समय-सीमा",
+      "of": "2a65d838",
+      "at": [
+        "charlotte-catholic:sections[5].plans[2].label"
+      ]
+    },
+    {
+      "t": "विचार में लिए जाने के लिए लौटने वाले परिवारों को इस तारीख़ तक आवेदन करना होगा।",
+      "of": "4d68970b",
+      "at": [
+        "charlotte-catholic:sections[5].plans[2].detail"
+      ]
+    },
+    {
+      "t": "FACTS योजना में कितनी क़िस्तें होती हैं, पूरी रक़म एकमुश्त देने पर छूट मिलती है या नहीं, और देर से भुगतान या नाम वापस लेने की कोई नीति — ये प्रकाशित नहीं हैं, ये नामांकन portal के भीतर हैं।",
+      "of": "352d01a7",
+      "at": [
+        "charlotte-catholic:sections[5].boxes[0].body"
+      ]
+    },
+    {
+      "t": "क्या पूछें",
+      "of": "bfb2863d",
+      "at": [
+        "charlotte-catholic:sections[6].navTitle",
+        "charlotte-catholic:sections[6].title"
+      ]
+    },
+    {
+      "t": "प्रवेश कार्यालय से पूछें",
+      "of": "ae061cf3",
+      "at": [
+        "charlotte-catholic:sections[6].questionsTitle"
+      ]
+    },
+    {
+      "t": "हमें \"participating Catholic\" परिवार ठीक-ठीक किस आधार पर माना जाएगा, और इसकी पुष्टि कौन-सा parish करता है?",
+      "of": "b8599d7f",
+      "at": [
+        "charlotte-catholic:sections[6].questions[0]"
+      ]
+    },
+    {
+      "t": "अगर नामांकन के बीच में parish से हमारी भागीदारी बदल जाए, तो क्या हमारी ट्यूशन दर भी उसके साथ बदलेगी?",
+      "of": "56ba5b67",
+      "at": [
+        "charlotte-catholic:sections[6].questions[1]"
+      ]
+    },
+    {
+      "t": "पिछले वर्ष FIT ने हमारी आय के स्तर वाले परिवारों को असल में कितनी सहायता दी — कम से कम एक दायरे के रूप में ही सही?",
+      "of": "d1f2a637",
+      "at": [
+        "charlotte-catholic:sections[6].questions[2]"
+      ]
+    },
+    {
+      "t": "क्या दोबारा आवेदन करने पर FIT की सहायता अपने आप जारी रहती है, या हर वर्ष उसका नए सिरे से आकलन होता है?",
+      "of": "471d67b0",
+      "at": [
+        "charlotte-catholic:sections[6].questions[3]"
+      ]
+    },
+    {
+      "t": "क्या एक से अधिक बच्चों की छूट FIT की सहायता की गणना से पहले लगती है या बाद में?",
+      "of": "2e987b5b",
+      "at": [
+        "charlotte-catholic:sections[6].questions[4]"
+      ]
+    },
+    {
+      "t": "क्या $1,995 का capital शुल्क हर वर्ष लगता है, या यह एक ही बार लिया जाता है?",
+      "of": "a4f5fe24",
+      "at": [
+        "charlotte-catholic:sections[6].questions[5]"
+      ]
+    },
+    {
+      "t": "FACTS योजना में कितनी क़िस्तें चलती हैं, और पूरी रक़म एक साथ देने पर कोई छूट मिलती है?",
+      "of": "852f4492",
+      "at": [
+        "charlotte-catholic:sections[6].questions[6]"
+      ]
+    },
+    {
+      "t": "ट्यूशन के अलावा किताबों, athletics और band की Dublin यात्रा के लिए हमें कितना बजट रखना चाहिए?",
+      "of": "8ad79183",
+      "at": [
+        "charlotte-catholic:sections[6].questions[7]"
       ]
     },
     {
@@ -4965,14 +5493,6 @@
       ]
     },
     {
-      "t": "Opportunity Scholarship",
-      "of": "2836de02",
-      "at": [
-        "carmel-christian:sections[4].plans[2].label",
-        "hickory-grove-christian:sections[3].plans[1].label"
-      ]
-    },
-    {
       "t": "स्कूल राज्य voucher का संदर्भ देता है, जिसमें आय की सीमाएँ हटा दी गई हैं और पात्रता वर्तमान में नामांकित private-school छात्रों तक विस्तारित है।",
       "of": "934cab38",
       "at": [
@@ -5005,14 +5525,6 @@
       "of": "899993cf",
       "at": [
         "carmel-christian:sections[5].plans[0].detail"
-      ]
-    },
-    {
-      "t": "FACTS",
-      "of": "fe5b76c4",
-      "at": [
-        "carmel-christian:sections[5].plans[1].figure",
-        "hickory-grove-christian:sections[4].plans[1].figure"
       ]
     },
     {
@@ -5281,13 +5793,6 @@
       "of": "da5dcffc",
       "at": [
         "hickory-grove-christian:sections[3].plans[1].detail"
-      ]
-    },
-    {
-      "t": "ESA+",
-      "of": "4a10fc69",
-      "at": [
-        "hickory-grove-christian:sections[3].plans[2].figure"
       ]
     },
     {

@@ -33,7 +33,7 @@
 import { SKIP_KEYS, PATH_OVERRIDES, REVIEWED_SKIPS, REVIEWED_SKIP_VALUES } from './i18n_fields.mjs'
 
 const SLUGS = [
-  'providence-day', 'charlotte-latin', 'charlotte-christian',
+  'providence-day', 'charlotte-latin', 'charlotte-christian', 'charlotte-catholic',
   'charlotte-country-day', 'cannon', 'covenant-day', 'davidson-day',
   'carmel-christian', 'hickory-grove-christian',
   'gaston-day',
@@ -51,6 +51,7 @@ const EXPORTS = {
   'providence-day': 'providenceDay',
   'charlotte-latin': 'charlotteLatin',
   'charlotte-christian': 'charlotteChristian',
+  'charlotte-catholic': 'charlotteCatholic',
   'charlotte-country-day': 'charlotteCountryDay',
   cannon: 'cannon',
   'covenant-day': 'covenantDay',

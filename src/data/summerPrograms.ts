@@ -289,6 +289,7 @@ import {
 import { providenceDay } from './summer/providence-day.ts'
 import { charlotteLatin } from './summer/charlotte-latin.ts'
 import { charlotteChristian } from './summer/charlotte-christian.ts'
+import { charlotteCatholic } from './summer/charlotte-catholic.ts'
 import { charlotteCountryDay } from './summer/charlotte-country-day.ts'
 import { cannon } from './summer/cannon.ts'
 import { covenantDay } from './summer/covenant-day.ts'
@@ -318,6 +319,7 @@ const PROGRAMS: Record<string, SummerProgram> = {
   'providence-day': providenceDay,
   'charlotte-latin': charlotteLatin,
   'charlotte-christian': charlotteChristian,
+  'charlotte-catholic': charlotteCatholic,
   'charlotte-country-day': charlotteCountryDay,
   cannon: cannon,
   'covenant-day': covenantDay,

@@ -2638,7 +2638,209 @@ const GASTON_DAY: FinancialAidReport = {
     'gastonday.org — Schedule of Tuition and Fees 2025-2026 (PDF) · Cost and Financial Aid · Scholarships · Academic Profile 2025-2026 (PDF) · After School Program · 2026 Summer Camps Catalog · privateschoolreview.com · nces.ed.gov PSS — retrieved 18 Aug 2026',
 }
 
+const CHARLOTTE_CATHOLIC: FinancialAidReport = {
+  title: 'Tuition & Financial Aid — Deep Dive Report',
+  meta: '2026–27 school year · figures as of 18 Aug 2026',
+  framing: [
+    {
+      icon: 'info',
+      title: 'Tuition is set by the diocese, not the school.',
+      body: 'Charlotte Catholic publishes no tuition of its own. Mecklenburg Area Catholic Schools sets and publishes one high-school schedule covering grades 9–12 for every MACS high school, which is why every figure here cites discovermacs.org rather than the school site.',
+    },
+    {
+      icon: 'clock',
+      title: 'Only the current year is published.',
+      body: 'MACS publishes the 2026-27 schedule and no history. Secondary sources give conflicting older figures ($13,348 and $9,366) with no reliable year attribution, so no tuition trend is shown here rather than one built from unattributable numbers.',
+    },
+    {
+      icon: 'book',
+      title: 'K–12 aid only.',
+      body: 'Tuition assistance while enrolled — not the $17,242,184 in college scholarships the Class of 2025 earned, which is university money and excluded throughout. Not financial advice.',
+    },
+  ],
+  sections: [
+    {
+      id: 'fa-tuition',
+      navTitle: 'The Tuition Table',
+      title: 'Tuition by Family Status — Not by Grade',
+      confidence: 95,
+      tag: 'STRUCTURALLY DIFFERENT',
+      figureCaption: 'Published 2026-27 tuition, grades 9–12',
+      bands: [
+        { label: 'Participating Catholic', amount: 15041 },
+        { label: 'Community (non-parishioner)', amount: 21562 },
+        { label: 'High International', amount: 23562 },
+      ],
+      figureNote:
+        'This is the structural feature no other school on this roster has: **price depends on parish participation, not on grade level or financial need**. A participating Catholic family pays **$15,041** where a community family pays **$21,562** for the same seat in the same classroom — a **$6,521 difference, roughly 30%**. Because CCHS is a 9–12 school, there is no grade-band ladder at all; these three rows are the entire schedule.',
+      figureNote2:
+        'The International rate applies to students requiring an I-20. The **$21,562** community rate is the figure to compare against other schools\' published tuition, since it is the price to a family with no parish affiliation.',
+      source: 'discovermacs.org — Tuition & Affordability, retrieved 18 Aug 2026',
+    },
+    {
+      id: 'fa-beyond',
+      navTitle: 'Beyond Tuition',
+      title: 'What Else a Family Pays',
+      confidence: 90,
+      componentsTitle: 'Published fees',
+      components: [
+        { label: 'Capital fee — $1,995 per FAMILY', status: 'priced' },
+        { label: 'Application fee — $120 per student', status: 'priced' },
+        { label: 'Continuous enrollment fee — $150 per returning student', status: 'priced' },
+        { label: 'FACTS payment plan fee — $15–$45 per family', status: 'range' },
+        { label: 'Clarity aid application fee — $65', status: 'priced' },
+        { label: 'Books, technology and course fees', status: 'unpriced' },
+        { label: 'Athletics participation and spirit-pack costs', status: 'unpriced' },
+        { label: 'Band travel — the Dublin parade trip runs quadrennially', status: 'unpriced' },
+      ],
+      componentsNote:
+        'The **capital fee is charged per family rather than per student**, so unlike the application and enrollment fees it does not scale with the number of children enrolled.',
+      componentsAside:
+        'A first-year community-rate family with one student pays $21,562 + $1,995 + $120 = **$23,677** before books, activities or athletics.',
+      source: 'discovermacs.org — Tuition & Affordability',
+    },
+    {
+      id: 'fa-engine',
+      navTitle: 'The Aid Engine',
+      title: 'How Aid Is Assessed and When',
+      confidence: 85,
+      timeline: [
+        {
+          when: 'February',
+          detail:
+            'The **NCSEAA** application window opens for the following school year — covering the **Opportunity Scholarship** and **ESA+**',
+        },
+        {
+          when: 'March 23, 2026',
+          detail: '**2026-27 enrollment opens**',
+          emphasis: true,
+        },
+        {
+          when: 'By May 15',
+          detail:
+            '**Family Individualized Tuition (FIT) deadline for returning students.** New families are encouraged to apply alongside the admission application',
+          emphasis: true,
+        },
+      ],
+      boxes: [
+        {
+          title: 'Platform — Clarity, not FACTS',
+          body: 'Need is assessed through the **Clarity** application (**$65** fee). **FACTS appears in this system only as the payment processor**, not the need-assessment platform — an easy and consequential mix-up, since most schools on this roster run FACTS Grant & Aid for assessment. **TADS is not used.**',
+        },
+        {
+          title: 'Family Individualized Tuition (FIT)',
+          body: 'The diocese\'s need-based programme. Awards vary by family circumstance and by fund availability, so an award in one year does not guarantee the same in the next.',
+        },
+        {
+          title: 'Multi-child discounts — participating Catholic families only',
+          body: 'Second child **10%**, third **25%**, fourth **50%**, fifth and beyond **100%**. Note these apply to the participating Catholic rate only, compounding the parish-status advantage for larger families.',
+        },
+        {
+          tag: 'NOT PUBLISHED',
+          body: 'No decision timeline, appeals process, or award-ceiling policy is published. Whether FIT awards are renewed automatically on re-application is not stated.',
+        },
+      ],
+      source: 'discovermacs.org — Tuition & Affordability',
+    },
+    {
+      id: 'fa-numbers',
+      navTitle: 'The Aid Numbers',
+      title: 'What the Aid Programme Actually Awards',
+      confidence: 30,
+      tag: 'DIOCESE-WIDE ONLY',
+      boxes: [
+        {
+          tag: 'NOT PUBLISHED',
+          title: 'No per-school aid figures exist',
+          body: 'MACS publishes aid data **diocese-wide only, never per school**. There is no published percentage of CCHS students receiving aid, no total aid awarded at CCHS, and no average award. This is a disclosure structure, not a research gap — the figures are not published anywhere for this school specifically.',
+        },
+      ],
+      source: 'discovermacs.org — Tuition & Affordability',
+    },
+    {
+      id: 'fa-merit',
+      navTitle: 'State Funding',
+      title: 'State Scholarships and Vouchers',
+      confidence: 85,
+      ladder: [
+        {
+          gift: 'ESA+',
+          share: 100,
+          detail: '**$9,000 or $17,000** yearly for students with qualifying disabilities — the largest single funding layer available here',
+        },
+        {
+          gift: 'Opportunity Scholarship',
+          share: 45,
+          detail: 'Up to **$7,000+** annually, and — since the 2024 expansion — **with no income cap**, so families previously excluded now qualify',
+        },
+      ],
+      note:
+        'These are **North Carolina state** programmes administered by NCSEAA, not CCHS awards. They stack with FIT rather than replacing it, and the diocese actively points families toward them.',
+      boxes: [
+        {
+          tag: 'NOT PUBLISHED',
+          body: 'CCHS and MACS publish **no merit scholarships** of their own — no academic, athletic or arts merit awards appear anywhere in the published record. Aid here is need-based (FIT), parish-status-based (the Catholic rate and multi-child discounts), or state-funded.',
+        },
+      ],
+      source:
+        'discovermacs.org; catholicnewsherald.com — Opportunity Scholarship coverage',
+    },
+    {
+      id: 'fa-paying',
+      navTitle: 'Paying the Balance',
+      title: 'Payment Mechanics',
+      confidence: 75,
+      plans: [
+        {
+          figure: 'FACTS',
+          label: 'Payment processor',
+          detail: 'Runs the tuition draft. Plan fee **$15–$45 per family**.',
+          emphasis: true,
+        },
+        {
+          figure: '$150',
+          label: 'Continuous enrollment',
+          detail: 'Charged per returning student to hold the seat for the next year.',
+        },
+        {
+          figure: 'May 15',
+          label: 'FIT deadline',
+          detail: 'Returning families must apply by this date to be considered.',
+        },
+      ],
+      boxes: [
+        {
+          tag: 'NOT PUBLISHED',
+          body: 'The number of installments in the FACTS plan, whether a pay-in-full discount exists, and any late-payment or withdrawal policy are not published — they sit inside the enrollment portal.',
+        },
+      ],
+      source: 'discovermacs.org — Tuition & Affordability',
+    },
+    {
+      id: 'fa-trend',
+      navTitle: 'What to Ask',
+      title: 'What to Ask',
+      confidence: 60,
+      questionsTitle: 'Ask the admissions office',
+      questions: [
+        'What exactly qualifies us as a "participating Catholic" family, and which parish verifies it?',
+        'If our parish participation changes mid-enrollment, does our tuition rate change with it?',
+        'What did FIT actually award families at our income level last year — even as a range?',
+        'Are FIT awards renewed automatically on re-application, or reassessed from scratch each year?',
+        'Do the multi-child discounts apply before or after a FIT award is calculated?',
+        'Does the $1,995 capital fee recur every year, or is it charged once?',
+        'How many installments does the FACTS plan run, and is there a discount for paying in full?',
+        'What should we budget beyond tuition for books, athletics and the band\'s Dublin trip?',
+      ],
+      source: 'discovermacs.org; charlottecatholic.org',
+    },
+  ],
+  sources:
+    'discovermacs.org — Tuition & Affordability (2026-27 schedule, fees, FIT, Clarity, multi-child discounts, OSP and ESA+, deadlines), retrieved 18 Aug 2026; catholicnewsherald.com — Opportunity Scholarship coverage; ProPublica Nonprofit Explorer — MACS EIN 56-1779865 (religious-organization filing exemption); charlottecatholic.org — School Profile 2025-2026 (PDF)',
+}
+
 const REPORTS: Record<string, FinancialAidReport> = {
+  'charlotte-catholic': CHARLOTTE_CATHOLIC,
   'charlotte-country-day': COUNTRY_DAY,
   cannon: CANNON,
   'charlotte-christian': CHARLOTTE_CHRISTIAN,

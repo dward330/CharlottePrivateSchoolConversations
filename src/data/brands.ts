@@ -41,6 +41,27 @@ export const BRANDS: Record<string, Brand> = {
     initials: 'CM',
     welcomeVideoUrl: 'https://www.youtube.com/embed/0ILLfsxWGYg', // user-chosen, 2026-08-16
   },
+  'charlotte-catholic': {
+    // Cougars — LIGHT BLUE, white & red (Wikipedia's infobox; the planning note
+    // said "green and gold", which is wrong and would also have collided with
+    // Charlotte Country Day's #107a43). The hue is the school's OWN: #75b2dd is
+    // the accent in charlottecatholic.org's theme stylesheet (nav hover, callout
+    // blocks, mobile sub-nav header). That raw value is only 2.29:1 against
+    // white, and .badge fills with --brand behind #fff text while --brand also
+    // renders as a text color on light surfaces, so it is deepened along the
+    // same hue (204.8°) to #3a759e — 4.98:1 white-on-badge, WCAG AA. It is the
+    // only light-to-mid blue in the set: 62 RGB units from its nearest
+    // neighbour (Davidson Day's #1e5fd1) and far from every navy.
+    // The school's red (#d7102a) is its other brand color but is a near-twin of
+    // Providence Day's #be123c, so the blue is the right accent to carry.
+    color: '#3a759e',
+    // 'CC' (Charlotte Christian), 'CA' (Cannon), 'CM' (Carmel), 'CD' (Country
+    // Day), 'CL' (Latin) and 'CV' (Covenant Day) are all taken — 7 of 11 badges
+    // start with C. 'CK' for Charlotte CatholiK is wrong; this uses the school's
+    // own common abbreviation CCHS reduced to its distinctive pair.
+    initials: 'CH',
+    welcomeVideoUrl: 'https://www.youtube.com/embed/mk06OtSv9ps', // user-chosen, 2026-08-18
+  },
   'charlotte-christian': {
     color: '#1e40af', // Knights — royal blue & white
     initials: 'CC',

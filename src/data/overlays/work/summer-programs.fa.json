@@ -38,6 +38,7 @@
         "charlotte-latin:catalog.gradeFilters[0].label",
         "charlotte-christian:catalog.categoryFilters[0].label",
         "charlotte-christian:catalog.gradeFilters[0].label",
+        "charlotte-catholic:catalog.categoryFilters[0].label",
         "charlotte-country-day:catalog.categoryFilters[0].label",
         "charlotte-country-day:catalog.gradeFilters[0].label",
         "cannon:catalog.categoryFilters[0].label",
@@ -178,6 +179,11 @@
         "charlotte-christian:catalog.camps[23].categoryLabel",
         "charlotte-christian:catalog.camps[24].categoryLabel",
         "charlotte-christian:catalog.camps[25].categoryLabel",
+        "charlotte-catholic:catalog.categoryFilters[1].label",
+        "charlotte-catholic:catalog.camps[0].categoryLabel",
+        "charlotte-catholic:catalog.camps[1].categoryLabel",
+        "charlotte-catholic:catalog.camps[2].categoryLabel",
+        "charlotte-catholic:catalog.camps[3].categoryLabel",
         "covenant-day:catalog.categoryFilters[2].label",
         "covenant-day:catalog.camps[3].categoryLabel",
         "covenant-day:catalog.camps[4].categoryLabel",
@@ -6084,6 +6090,200 @@
         "charlotte-christian:costPlanner.flags[1].text"
       ],
       "t": "هیچ **تخفیف خواهر و برادر، تخفیف چندهفته‌ای یا گزینهٔ بیعانه‌ای** منتشر نشده است. اردونشینانی که سرزده مراجعه می‌کنند «باید پیش از حضور، ثبت‌نام کنند و هزینهٔ اردو را به‌طور کامل بپردازند»."
+    },
+    {
+      "text": "Four sports camps CCHS runs for the surrounding community — for children aged 6 to 13, not for its own high schoolers.",
+      "of": "d33c71e6",
+      "at": [
+        "charlotte-catholic:catalog.headline"
+      ],
+      "t": "چهار اردوی ورزشی که CCHS برای جامعهٔ پیرامون خود برگزار می‌کند — برای کودکان 6 تا 13 ساله، و نه برای دانش‌آموزان دبیرستانی خودش."
+    },
+    {
+      "text": "Charlotte Catholic is a 9–12 school. Its summer slate is outreach coaching for younger children in the neighbourhood, plus two non-CCHS programmes it points its own students toward.",
+      "of": "1694f806",
+      "at": [
+        "charlotte-catholic:catalog.subhead"
+      ],
+      "t": "Charlotte Catholic مدرسه‌ای 9–12 است. برنامهٔ تابستانی آن مربیگری برون‌رسان برای کودکان کم‌سن‌تر محله است، به‌علاوهٔ دو برنامهٔ بیرون از CCHS که دانش‌آموزان خود را به آن‌ها راهنمایی می‌کند."
+    },
+    {
+      "text": "Every camp below is a half-day athletic camp hosted by a CCHS coaching staff and open to the community. Ages are the campers’ ages, which run well below CCHS’s own 9–12 enrollment. The school runs no academic summer school and no credit recovery — its handbook twice states that a student who fails a course retakes it externally, \"at their expense over the summer\".",
+      "of": "e51d247f",
+      "at": [
+        "charlotte-catholic:catalog.intro"
+      ],
+      "t": "هر اردوی زیر یک اردوی ورزشی نیم‌روزه است که کادر مربیگری CCHS میزبان آن است و برای جامعه باز است. سن‌های ذکرشده سن اردونشینان است که بسیار پایین‌تر از پایه‌های 9–12 خودِ CCHS است. مدرسه هیچ مدرسهٔ تابستانی تحصیلی و هیچ برنامهٔ جبران واحد برگزار نمی‌کند — آیین‌نامهٔ آن دو بار بیان می‌کند که دانش‌آموزی که در درسی مردود شود، آن را بیرون از مدرسه و «با هزینهٔ خود در تابستان» دوباره می‌گذراند."
+    },
+    {
+      "text": "All ages",
+      "of": "3012c794",
+      "at": [
+        "charlotte-catholic:catalog.gradeFilters[0].label"
+      ],
+      "t": "همهٔ سنین"
+    },
+    {
+      "text": "Rising 2–5 / ages 6–10",
+      "of": "5070d316",
+      "at": [
+        "charlotte-catholic:catalog.gradeFilters[1].label"
+      ],
+      "t": "ورودی پایه‌های 2–5 / سنین 6–10"
+    },
+    {
+      "text": "Rising 6–9 / ages 11–13",
+      "of": "d3377e0f",
+      "at": [
+        "charlotte-catholic:catalog.gradeFilters[2].label"
+      ],
+      "t": "ورودی پایه‌های 6–9 / سنین 11–13"
+    },
+    {
+      "text": "Girls’ basketball skill development run by the CCHS coaching staff, split into a morning session for younger campers and an afternoon session for older ones.",
+      "of": "9375f718",
+      "at": [
+        "charlotte-catholic:catalog.camps[0].desc"
+      ],
+      "t": "پرورش مهارت بسکتبال دختران به سرپرستی کادر مربیگری CCHS، که به یک نوبت صبح برای اردونشینان کم‌سن‌تر و یک نوبت بعدازظهر برای بزرگ‌ترها تقسیم می‌شود."
+    },
+    {
+      "text": "Rising grades 2–8",
+      "of": "fb7974d0",
+      "at": [
+        "charlotte-catholic:catalog.camps[0].gradeLabel"
+      ],
+      "t": "ورودی پایه‌های 2–8"
+    },
+    {
+      "text": "June 8–11",
+      "of": "92569b08",
+      "at": [
+        "charlotte-catholic:catalog.camps[0].dayLabel"
+      ],
+      "t": "8–11 ژوئن"
+    },
+    {
+      "text": "Rising 2–5: 9:00 AM–12:00 PM · rising 6–8: 1:00 PM–4:00 PM",
+      "of": "94518c1b",
+      "at": [
+        "charlotte-catholic:catalog.camps[0].hours"
+      ],
+      "t": "ورودی پایه‌های 2–5: 9:00 AM–12:00 PM · ورودی پایه‌های 6–8: 1:00 PM–4:00 PM"
+    },
+    {
+      "text": "Multi-session baseball camp with dynamic warm-ups, baserunning, offensive and defensive station work and age-grouped gameplay. Held at Freedom Park (Dilworth LL Ballfields) rather than on the CCHS campus; campers bring their own lunch.",
+      "of": "d0a1583b",
+      "at": [
+        "charlotte-catholic:catalog.camps[1].desc"
+      ],
+      "t": "اردوی چندنوبتی بیسبال با گرم‌کردن پویا، دویدن بین بیس‌ها، کار ایستگاهی در حمله و دفاع و بازی به تفکیک گروه سنی. به‌جای محوطهٔ CCHS در Freedom Park (Dilworth LL Ballfields) برگزار می‌شود؛ اردونشینان ناهار خود را می‌آورند."
+    },
+    {
+      "text": "Ages 6–13",
+      "of": "8561fb80",
+      "at": [
+        "charlotte-catholic:catalog.camps[1].gradeLabel"
+      ],
+      "t": "سنین 6–13"
+    },
+    {
+      "text": "June 2–5 · June 9–12 · July 21–24",
+      "of": "89952d2a",
+      "at": [
+        "charlotte-catholic:catalog.camps[1].dayLabel"
+      ],
+      "t": "2–5 ژوئن · 9–12 ژوئن · 21–24 ژوئیه"
+    },
+    {
+      "text": "9:00 AM–1:00 PM (check-in 8:45 AM)",
+      "of": "456d28db",
+      "at": [
+        "charlotte-catholic:catalog.camps[1].hours"
+      ],
+      "t": "9:00 AM–1:00 PM (ورود 8:45 AM)"
+    },
+    {
+      "text": "Youth football fundamentals with the CCHS football staff. The published flyer is a 2024 document that has not been refreshed, so both the price and the dates below are what the school currently publishes rather than a confirmed 2026 slate.",
+      "of": "69bb3862",
+      "at": [
+        "charlotte-catholic:catalog.camps[2].desc"
+      ],
+      "t": "مبانی فوتبال آمریکایی برای نوجوانان با کادر فوتبال آمریکایی CCHS. بروشور منتشرشده سندی از 2024 است که به‌روز نشده، پس هم قیمت و هم تاریخ‌های زیر همان چیزی است که مدرسه اکنون منتشر می‌کند و نه برنامه‌ای تأییدشده برای 2026."
+    },
+    {
+      "text": "Rising grades 3–9",
+      "of": "8f51d358",
+      "at": [
+        "charlotte-catholic:catalog.camps[2].gradeLabel"
+      ],
+      "t": "ورودی پایه‌های 3–9"
+    },
+    {
+      "text": "July",
+      "of": "011ca01f",
+      "at": [
+        "charlotte-catholic:catalog.camps[2].dayLabel"
+      ],
+      "t": "ژوئیه"
+    },
+    {
+      "text": "8:30–11:30 AM",
+      "of": "8f891dae",
+      "at": [
+        "charlotte-catholic:catalog.camps[2].hours"
+      ],
+      "t": "8:30–11:30 AM"
+    },
+    {
+      "text": "A soccer camp hosted on the CCHS site. The school lists it without dates, ages, hours or price.",
+      "of": "c88a5c9e",
+      "at": [
+        "charlotte-catholic:catalog.camps[3].desc"
+      ],
+      "t": "یک اردوی فوتبال که در محل CCHS برگزار می‌شود. مدرسه آن را بدون تاریخ، سن، ساعت یا قیمت فهرست می‌کند."
+    },
+    {
+      "text": "Not published",
+      "of": "d945d814",
+      "at": [
+        "charlotte-catholic:catalog.camps[3].gradeLabel",
+        "charlotte-catholic:catalog.camps[3].dayLabel",
+        "charlotte-catholic:catalog.camps[3].hours"
+      ],
+      "t": "منتشر نشده"
+    },
+    {
+      "text": "Three of the four camps publish no price on a school page. Eddie Hull Baseball handles fees entirely through a third-party registration site, and the basketball and soccer camps publish none at all — which is why the Cost Planner card is omitted rather than modeled.",
+      "of": "57ddb105",
+      "at": [
+        "charlotte-catholic:catalog.flags[0].text"
+      ],
+      "t": "سه اردو از این چهار اردو هیچ قیمتی در صفحه‌های مدرسه منتشر نمی‌کنند. Eddie Hull Baseball هزینه‌ها را به‌طور کامل از راه یک سایت ثبت‌نام شخص ثالث مدیریت می‌کند، و اردوهای بسکتبال و فوتبال هیچ قیمتی منتشر نمی‌کنند — به همین سبب کارت برنامه‌ریز هزینه به‌جای مدل‌سازی، حذف شده است."
+    },
+    {
+      "text": "The Cougar Football Camp flyer is a 2024 artifact still linked from the current site; its $160 price and grade range are reproduced as published, not confirmed for 2026.",
+      "of": "34908750",
+      "at": [
+        "charlotte-catholic:catalog.flags[1].text"
+      ],
+      "t": "بروشور Cougar Football Camp سندی از 2024 است که هنوز از سایت کنونی به آن پیوند داده شده؛ قیمت $160 و بازهٔ پایه‌های آن همان‌گونه که منتشر شده بازتولید شده و برای 2026 تأیید نشده است."
+    },
+    {
+      "text": "The baseball camp page lists its sessions under a 2025 heading. The dates are recorded verbatim as published rather than rolled forward, because a re-typed date would assert a schedule the school has not announced.",
+      "of": "947a23f5",
+      "at": [
+        "charlotte-catholic:catalog.flags[2].text"
+      ],
+      "t": "صفحهٔ اردوی بیسبال نوبت‌های خود را زیر عنوانی مربوط به 2025 فهرست می‌کند. تاریخ‌ها به‌جای جلو بردن، دقیقاً همان‌گونه که منتشر شده‌اند ثبت شده‌اند، چون تاریخی که دوباره تایپ شود برنامه‌ای را ادعا می‌کند که مدرسه اعلامش نکرده است."
+    },
+    {
+      "text": "There is no wrap-around or full-day care: every camp is a half-day block of three to four hours. The MACS 8am–5pm summer camp is a different school’s programme (St. Matthew and St. Patrick, age 5 to rising 6th) and is not attributed to CCHS.",
+      "of": "e75312f6",
+      "at": [
+        "charlotte-catholic:catalog.flags[3].text"
+      ],
+      "t": "هیچ مراقبت پیوسته یا تمام‌روز وجود ندارد: هر اردو یک بلوک نیم‌روزهٔ سه تا چهار ساعته است. اردوی تابستانی 8am–5pm مربوط به MACS برنامهٔ مدرسه‌ای دیگر است (St. Matthew و St. Patrick، از 5 سال تا ورودی پایهٔ ششم) و به CCHS نسبت داده نمی‌شود."
     },
     {
       "text": "132 priced camps across eight weeks, including a dedicated farm campus tier no other school here offers.",

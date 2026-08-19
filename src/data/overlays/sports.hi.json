@@ -59,6 +59,7 @@
         "providence-day:offered.seasons[0].name",
         "charlotte-latin:offered.seasons[0].name",
         "charlotte-christian:offered.seasons[0].name",
+        "charlotte-catholic:offered.seasons[0].name",
         "charlotte-country-day:offered.seasons[0].name",
         "cannon:offered.seasons[0].name",
         "covenant-day:offered.seasons[0].name",
@@ -86,6 +87,7 @@
         "providence-day:offered.seasons[1].name",
         "charlotte-latin:offered.seasons[1].name",
         "charlotte-christian:offered.seasons[1].name",
+        "charlotte-catholic:offered.seasons[1].name",
         "charlotte-country-day:offered.seasons[1].name",
         "cannon:offered.seasons[1].name",
         "covenant-day:offered.seasons[1].name",
@@ -102,6 +104,7 @@
         "providence-day:offered.seasons[2].name",
         "charlotte-latin:offered.seasons[2].name",
         "charlotte-christian:offered.seasons[2].name",
+        "charlotte-catholic:offered.seasons[2].name",
         "charlotte-country-day:offered.seasons[2].name",
         "cannon:offered.seasons[2].name",
         "covenant-day:offered.seasons[2].name",
@@ -155,6 +158,10 @@
         "charlotte-christian:record.rows[0].cells[2].result",
         "charlotte-christian:record.rows[2].cells[1].result",
         "charlotte-christian:record.rows[3].cells[1].result",
+        "charlotte-catholic:record.rows[0].cells[2].result",
+        "charlotte-catholic:record.rows[1].cells[2].result",
+        "charlotte-catholic:record.rows[2].cells[2].result",
+        "charlotte-catholic:record.bars[0].tag",
         "charlotte-country-day:record.rows[0].cells[0].result",
         "charlotte-country-day:record.rows[0].cells[1].result",
         "charlotte-country-day:record.rows[0].cells[2].result",
@@ -266,6 +273,15 @@
         "charlotte-christian:record.rows[5].cells[0].result",
         "charlotte-christian:record.rows[5].cells[1].result",
         "charlotte-christian:record.rows[5].cells[2].result",
+        "charlotte-catholic:record.rows[0].cells[0].result",
+        "charlotte-catholic:record.rows[0].cells[1].result",
+        "charlotte-catholic:record.rows[1].cells[0].result",
+        "charlotte-catholic:record.rows[1].cells[1].result",
+        "charlotte-catholic:record.rows[2].cells[0].result",
+        "charlotte-catholic:record.rows[2].cells[1].result",
+        "charlotte-catholic:record.rows[3].cells[0].result",
+        "charlotte-catholic:record.rows[3].cells[1].result",
+        "charlotte-catholic:record.rows[3].cells[2].result",
         "charlotte-country-day:record.rows[1].cells[1].result",
         "charlotte-country-day:record.rows[3].cells[2].result",
         "charlotte-country-day:record.rows[4].cells[0].result",
@@ -547,6 +563,11 @@
         "charlotte-christian:pipeline.roster[29].sport",
         "charlotte-christian:pipeline.roster[30].sport",
         "charlotte-christian:pipeline.roster[32].sport",
+        "charlotte-catholic:pipeline.roster[26].sport",
+        "charlotte-catholic:pipeline.roster[28].sport",
+        "charlotte-catholic:pipeline.roster[29].sport",
+        "charlotte-catholic:pipeline.roster[31].sport",
+        "charlotte-catholic:pipeline.roster[33].sport",
         "charlotte-country-day:pipeline.roster[20].sport",
         "covenant-day:pipeline.roster[11].sport",
         "hickory-grove-christian:coaching.tenure[0].role"
@@ -654,6 +675,8 @@
         "charlotte-christian:pipeline.roster[35].sport",
         "charlotte-christian:pipeline.roster[36].sport",
         "charlotte-christian:pipeline.roster[37].sport",
+        "charlotte-catholic:pipeline.roster[20].sport",
+        "charlotte-catholic:pipeline.roster[21].sport",
         "charlotte-country-day:pipeline.roster[38].sport"
       ]
     },
@@ -725,6 +748,12 @@
         "charlotte-christian:pipeline.roster[16].sport",
         "charlotte-christian:pipeline.roster[27].sport",
         "charlotte-christian:pipeline.roster[28].sport",
+        "charlotte-catholic:pipeline.roster[2].sport",
+        "charlotte-catholic:pipeline.roster[3].sport",
+        "charlotte-catholic:pipeline.roster[5].sport",
+        "charlotte-catholic:pipeline.roster[14].sport",
+        "charlotte-catholic:pipeline.roster[23].sport",
+        "charlotte-catholic:pipeline.roster[34].sport",
         "charlotte-country-day:pipeline.roster[5].sport",
         "charlotte-country-day:pipeline.roster[9].sport",
         "charlotte-country-day:pipeline.roster[10].sport",
@@ -779,6 +808,7 @@
       "at": [
         "providence-day:pipeline.roster[28].sport",
         "charlotte-christian:pipeline.roster[1].sport",
+        "charlotte-catholic:pipeline.roster[10].sport",
         "covenant-day:pipeline.roster[23].sport",
         "covenant-day:pipeline.roster[25].sport"
       ]
@@ -1080,7 +1110,8 @@
       "t": "#1",
       "of": "08c87a19",
       "at": [
-        "providence-day:coaching.featured[0].stats[2].value"
+        "providence-day:coaching.featured[0].stats[2].value",
+        "charlotte-catholic:national.stats[2].value"
       ]
     },
     {
@@ -1136,7 +1167,8 @@
       "t": "20",
       "of": "8df2997f",
       "at": [
-        "providence-day:coaching.featured[1].stats[2].value"
+        "providence-day:coaching.featured[1].stats[2].value",
+        "charlotte-catholic:coaching.featured[0].stats[0].value"
       ]
     },
     {
@@ -1385,6 +1417,7 @@
         "providence-day:facilities.care[0].label",
         "charlotte-latin:facilities.care[0].label",
         "charlotte-christian:facilities.care[0].label",
+        "charlotte-catholic:facilities.care[0].label",
         "charlotte-country-day:facilities.care[0].label",
         "cannon:facilities.care[0].label"
       ]
@@ -1664,6 +1697,7 @@
       "of": "60838c69",
       "at": [
         "charlotte-latin:offered.stats[0].label",
+        "charlotte-catholic:offered.stats[0].label",
         "charlotte-country-day:offered.stats[0].label"
       ]
     },
@@ -1870,6 +1904,17 @@
         "charlotte-christian:pipeline.roster[3].sport",
         "charlotte-christian:pipeline.roster[20].sport",
         "charlotte-christian:pipeline.roster[33].sport",
+        "charlotte-catholic:pipeline.roster[0].sport",
+        "charlotte-catholic:pipeline.roster[1].sport",
+        "charlotte-catholic:pipeline.roster[4].sport",
+        "charlotte-catholic:pipeline.roster[12].sport",
+        "charlotte-catholic:pipeline.roster[15].sport",
+        "charlotte-catholic:pipeline.roster[16].sport",
+        "charlotte-catholic:pipeline.roster[17].sport",
+        "charlotte-catholic:pipeline.roster[19].sport",
+        "charlotte-catholic:pipeline.roster[22].sport",
+        "charlotte-catholic:pipeline.roster[24].sport",
+        "charlotte-catholic:pipeline.roster[25].sport",
         "covenant-day:pipeline.roster[10].sport"
       ]
     },
@@ -1900,6 +1945,7 @@
       "at": [
         "charlotte-latin:pipeline.roster[35].sport",
         "charlotte-christian:pipeline.roster[9].sport",
+        "charlotte-catholic:pipeline.roster[11].sport",
         "charlotte-country-day:pipeline.roster[22].sport",
         "charlotte-country-day:pipeline.roster[34].sport",
         "covenant-day:pipeline.roster[6].sport"
@@ -2054,7 +2100,8 @@
       "t": "Wells Fargo Cups",
       "of": "a37e6596",
       "at": [
-        "charlotte-latin:honors.honors[3].label"
+        "charlotte-latin:honors.honors[3].label",
+        "charlotte-catholic:honors.honors[5].label"
       ]
     },
     {
@@ -2182,6 +2229,7 @@
       "of": "310ca263",
       "at": [
         "charlotte-latin:coaching.featured[1].stats[1].value",
+        "charlotte-catholic:national.stats[0].value",
         "cannon:coaching.featured[1].stats[0].value"
       ]
     },
@@ -3267,6 +3315,875 @@
       "of": "ad7551b2",
       "at": [
         "charlotte-christian:facilities.careNote"
+      ]
+    },
+    {
+      "t": "तीन सीज़न में 20 खेल, जो राज्य के सरकारी स्कूलों के ख़िलाफ़ खेले जाते हैं।",
+      "of": "96034d0d",
+      "at": [
+        "charlotte-catholic:offered.headline"
+      ]
+    },
+    {
+      "t": "CCHS, NCHSAA के केवल चार parochial स्कूलों में से एक है, इसलिए Cougars की किसी टीम को प्राइवेट-स्कूल वर्ग में नहीं, बल्कि North Carolina के सबसे बड़े सरकारी कार्यक्रमों के मुक़ाबले आँका जाता है।",
+      "of": "7653d9d7",
+      "at": [
+        "charlotte-catholic:offered.subhead"
+      ]
+    },
+    {
+      "t": "2000 से अब तक राज्य चैंपियनशिप",
+      "of": "a93f5ab0",
+      "at": [
+        "charlotte-catholic:offered.stats[1].label"
+      ]
+    },
+    {
+      "t": "Wachovia / Wells Fargo Cup",
+      "of": "68b3bfa3",
+      "at": [
+        "charlotte-catholic:offered.stats[2].label"
+      ]
+    },
+    {
+      "t": "पूर्व छात्र जो आगे NCAA / NAIA / JUCO स्तर पर खेले",
+      "of": "59a86ecc",
+      "at": [
+        "charlotte-catholic:offered.stats[3].label"
+      ]
+    },
+    {
+      "t": "NCHSAA का पतझड़ सीज़न",
+      "of": "295eed27",
+      "at": [
+        "charlotte-catholic:offered.seasons[0].note"
+      ]
+    },
+    {
+      "t": "NCHSAA का शीत सीज़न",
+      "of": "050c468b",
+      "at": [
+        "charlotte-catholic:offered.seasons[1].note"
+      ]
+    },
+    {
+      "t": "NCHSAA का वसंत सीज़न",
+      "of": "33d372ef",
+      "at": [
+        "charlotte-catholic:offered.seasons[2].note"
+      ]
+    },
+    {
+      "t": "20 खेल और उनके नाम ठीक वैसे ही हैं जैसे स्कूल अपने All Sports पृष्ठ पर सूचीबद्ध करता है — वह Soccer, Golf, Tennis, Basketball या Lacrosse के लिए लड़के-लड़कियों का कोई विभाजन प्रकाशित नहीं करता, जबकि इनमें से हर एक में उसकी लड़कों और लड़कियों दोनों की टीमें हैं, और वह किसी चीज़ को सीज़न के हिसाब से समूहबद्ध नहीं करता। ऊपर दिया गया सीज़न-विभाजन मानक NCHSAA कैलेंडर के अनुसार है; स्कूल ख़ुद यह सूची सपाट रूप में प्रकाशित करता है। स्तरों का विभाजन भी इसी कारण केवल संकेतात्मक है: अलग-अलग खेलों के पृष्ठ केवल navigation की औपचारिकता हैं, उन पर न roster है न schedule। CCHS में कोई middle school नहीं है — यह 9–12 का स्कूल है — इसलिए किसी टीम का MS स्तर नहीं है, जो इस सूची के हर PK/K–12 स्कूल से अलग है।",
+      "of": "9871dc64",
+      "at": [
+        "charlotte-catholic:offered.footnote"
+      ]
+    },
+    {
+      "t": "2000 से अब तक 74 राज्य चैंपियनशिप — और अकेले 2026 में तीन और।",
+      "of": "f1d81c9f",
+      "at": [
+        "charlotte-catholic:record.headline"
+      ]
+    },
+    {
+      "t": "लड़कियों की soccer टीम अपराजित रही; दोनों lacrosse कार्यक्रम overtime में जीते, और हर एक ने बारह साल का सूखा ख़त्म किया। सभी खिताब NCHSAA के।",
+      "of": "3f15e1e4",
+      "at": [
+        "charlotte-catholic:record.subhead"
+      ]
+    },
+    {
+      "t": "NCHSAA 6A फ़ाइनल में Jacksonville को 1–0 से हराया और वर्ष बिना किसी हार के पूरा किया।",
+      "of": "eb3f74fe",
+      "at": [
+        "charlotte-catholic:record.rows[0].note"
+      ]
+    },
+    {
+      "t": "Leonard के overtime गोल ने 1A-6A खिताब के लिए Middle Creek को हराया — कार्यक्रम का दूसरा खिताब, और बारह वर्षों में पहला।",
+      "of": "45acdbed",
+      "at": [
+        "charlotte-catholic:record.rows[1].note"
+      ]
+    },
+    {
+      "t": "Tan के overtime गोल ने 1A-6A खिताब के लिए East Chapel Hill को हराया और बारह साल का सूखा ख़त्म किया।",
+      "of": "d5da9935",
+      "at": [
+        "charlotte-catholic:record.rows[2].note"
+      ]
+    },
+    {
+      "t": "अब तक चैंपियनशिप मुक़ाबले में 11 बार पहुँचकर 8 राज्य खिताब। 2025 का सीज़न 7–5 (कॉन्फ़्रेंस में 3–3) पर पूरा हुआ, जिसमें playoff के पहले दौर में A.C. Reynolds पर 27–0 की जीत शामिल है।",
+      "of": "dabe8842",
+      "at": [
+        "charlotte-catholic:record.rows[3].note"
+      ]
+    },
+    {
+      "t": "ऊपर दी गई पंक्तियाँ वे कार्यक्रम हैं जिनका इस अवधि में कोई प्रलेखित परिणाम मिला। CCHS सीज़न-दर-सीज़न खिताबों का कोई ब्यौरा प्रकाशित नहीं करता, इसलिए ख़ाली खाने का अर्थ है \"उस वर्ष के लिए कोई खिताब नहीं मिला\", न कि पुष्ट हार — 2000 से 74 खिताबों का कुल आँकड़ा स्कूल का अपना है और इन चार से कहीं अधिक खेलों तक फैला है।",
+      "of": "14834971",
+      "at": [
+        "charlotte-catholic:record.didNotWin"
+      ]
+    },
+    {
+      "t": "कुल मिलाकर 7–5 और Southern Carolina 6A/7A कॉन्फ़्रेंस में 3–3, बारह मैचों के सीज़न में 235 अंक बनाए और 198 दिए, फिर playoff के पहले दौर में A.C. Reynolds को 27–0 से शून्य पर रोका।",
+      "of": "69250f89",
+      "at": [
+        "charlotte-catholic:record.seasonDetail[0].text"
+      ]
+    },
+    {
+      "t": "लगातार चौदह राज्य चैंपियनशिप — स्कूल के इतिहास की सबसे लंबी खिताबी लय और 74 खिताबों के कुल में सबसे मज़बूत कड़ी।",
+      "of": "6671982c",
+      "at": [
+        "charlotte-catholic:record.seasonDetail[1].text"
+      ]
+    },
+    {
+      "t": "तीन स्नातक कक्षाओं में 35 प्रलेखित कॉलेज खिलाड़ी — उनमें से 10 Power Four में।",
+      "of": "4a6719a2",
+      "at": [
+        "charlotte-catholic:pipeline.headline"
+      ]
+    },
+    {
+      "t": "नीचे दिए गए हर खिलाड़ी का नाम किसी तिथि-अंकित लेख में दर्ज है। यहाँ कुछ भी किसी commitment-tracker के सारांश से नहीं लिया गया है।",
+      "of": "36e608ca",
+      "at": [
+        "charlotte-catholic:pipeline.subhead"
+      ]
+    },
+    {
+      "t": "छात्र-समूह",
+      "of": "f7f025ac",
+      "at": [
+        "charlotte-catholic:pipeline.funnel[0].label"
+      ]
+    },
+    {
+      "t": "कक्षा 9–12",
+      "of": "3554df3c",
+      "at": [
+        "charlotte-catholic:pipeline.funnel[0].hint"
+      ]
+    },
+    {
+      "t": "पूर्व छात्र जो कॉलेज में खेले",
+      "of": "58e37f64",
+      "at": [
+        "charlotte-catholic:pipeline.funnel[1].label"
+      ]
+    },
+    {
+      "t": "NCAA / NAIA / JUCO, सभी वर्ष",
+      "of": "4166a49d",
+      "at": [
+        "charlotte-catholic:pipeline.funnel[1].hint"
+      ]
+    },
+    {
+      "t": "प्रलेखित कमिटमेंट",
+      "of": "a59c311f",
+      "at": [
+        "charlotte-catholic:pipeline.funnel[2].label"
+      ]
+    },
+    {
+      "t": "2024–2026 के बैच",
+      "of": "03a3c853",
+      "at": [
+        "charlotte-catholic:pipeline.funnel[2].hint"
+      ]
+    },
+    {
+      "t": "Division I",
+      "of": "e8c9e501",
+      "at": [
+        "charlotte-catholic:pipeline.funnel[3].label"
+      ]
+    },
+    {
+      "t": "Power Four सहित",
+      "of": "9ad6b053",
+      "at": [
+        "charlotte-catholic:pipeline.funnel[3].hint"
+      ]
+    },
+    {
+      "t": "Power Four",
+      "of": "b3297a32",
+      "at": [
+        "charlotte-catholic:pipeline.funnel[4].label"
+      ]
+    },
+    {
+      "t": "ACC · Big Ten · Big 12 · SEC",
+      "of": "b38dd22c",
+      "at": [
+        "charlotte-catholic:pipeline.funnel[4].hint"
+      ]
+    },
+    {
+      "t": "1000+ का आँकड़ा स्कूल की अपनी अब-तक की गिनती है और यह केवल इन तीन कक्षाओं तक सीमित नहीं है, इसलिए यह अपने नीचे की पंक्तियों से अलग समय-आधार पर टिका है। Class of 2026 की पंक्ति एक प्रलेखित न्यूनतम है: फ़रवरी का लेख केवल फ़रवरी के समारोह (football, soccer, cross country) को कवर करता है, और CCHS पतझड़ तथा वसंत में अलग-अलग signing day रखता है, इसलिए baseball और lacrosse — जो परंपरागत रूप से इसके सबसे समृद्ध खेल हैं — उस कक्षा के लिए काफ़ी हद तक अप्रकाशित हैं।",
+      "of": "1e7fb003",
+      "at": [
+        "charlotte-catholic:pipeline.funnelNote"
+      ]
+    },
+    {
+      "t": "यहाँ सबसे मज़बूत पाइपलाइन अकेले lacrosse की है — 35 प्रलेखित खिलाड़ियों में से 11, और 2026 में दोनों lacrosse कार्यक्रमों ने राज्य खिताब जीते। इसके बाद baseball है, और उसकी 2026 की कक्षा लगभग निश्चित रूप से कम आँकी गई है, क्योंकि उस कक्षा के baseball हस्ताक्षर कभी प्रकाशित ही नहीं हुए।",
+      "of": "836aa4c3",
+      "at": [
+        "charlotte-catholic:pipeline.realityCheck"
+      ]
+    },
+    {
+      "t": "किसी राष्ट्रीय top-100 भर्ती रैंकिंग में CCHS का कोई खिलाड़ी नहीं मिला। 247Sports और On3 के स्कूल पृष्ठ 403/404 लौटाते हैं, इसलिए इसे शून्य नहीं, बल्कि अप्रकाशित के रूप में दर्ज किया गया है।",
+      "of": "75a7230e",
+      "at": [
+        "charlotte-catholic:pipeline.rankedRecruits"
+      ]
+    },
+    {
+      "t": "Basketball",
+      "of": "5f3f8676",
+      "at": [
+        "charlotte-catholic:pipeline.roster[6].sport",
+        "charlotte-catholic:pipeline.roster[9].sport",
+        "charlotte-catholic:pipeline.roster[18].sport",
+        "covenant-day:pipeline.roster[1].sport",
+        "covenant-day:pipeline.roster[14].sport",
+        "covenant-day:pipeline.roster[15].sport",
+        "covenant-day:pipeline.roster[29].sport",
+        "covenant-day:pipeline.roster[30].sport",
+        "carmel-christian:pipeline.roster[0].sport",
+        "carmel-christian:pipeline.roster[1].sport",
+        "carmel-christian:pipeline.roster[2].sport",
+        "carmel-christian:pipeline.roster[3].sport",
+        "carmel-christian:pipeline.roster[4].sport",
+        "carmel-christian:pipeline.roster[7].sport",
+        "carmel-christian:pipeline.roster[10].sport"
+      ]
+    },
+    {
+      "t": "Field hockey",
+      "of": "87281338",
+      "at": [
+        "charlotte-catholic:pipeline.roster[7].sport"
+      ]
+    },
+    {
+      "t": "Swim & dive",
+      "of": "743c68e3",
+      "at": [
+        "charlotte-catholic:pipeline.roster[8].sport",
+        "charlotte-catholic:pipeline.roster[13].sport"
+      ]
+    },
+    {
+      "t": "Soccer",
+      "of": "4d37567e",
+      "at": [
+        "charlotte-catholic:pipeline.roster[27].sport",
+        "charlotte-catholic:pipeline.roster[30].sport",
+        "covenant-day:pipeline.roster[4].sport",
+        "covenant-day:pipeline.roster[5].sport",
+        "covenant-day:pipeline.roster[9].sport",
+        "covenant-day:pipeline.roster[12].sport",
+        "covenant-day:pipeline.roster[18].sport",
+        "covenant-day:pipeline.roster[19].sport",
+        "covenant-day:pipeline.roster[21].sport",
+        "covenant-day:pipeline.roster[24].sport",
+        "covenant-day:pipeline.roster[27].sport"
+      ]
+    },
+    {
+      "t": "Cross country / track",
+      "of": "5ed3d377",
+      "at": [
+        "charlotte-catholic:pipeline.roster[32].sport"
+      ]
+    },
+    {
+      "t": "Cannon Ridinger ने CCHS से स्नातक किया, इससे पहले वे Charlotte Country Day (जो इसी ऐप में है) और Hotchkiss में पढ़े थे; यहाँ उन्हें स्नातक वाले स्कूल के साथ जोड़ा गया है और उन्हें दो बार नहीं गिना जाना चाहिए। Evan MacIntyre को कमिटमेंट के समय के अनुसार P4 में गिना गया है और वे उसके बाद JUCO के रास्ते Belmont Abbey चले गए। Mary Catherine Farley (Wofford) 2024 की signing सूची में दिखती हैं, पर किसी कॉलेज roster पर कभी नहीं, इसलिए उन्हें हर गिनती से बाहर रखा गया है। Alex Hoffman केवल उलटी roster खोज से सामने आए, किसी signing लेख से नहीं।",
+      "of": "2f98b322",
+      "at": [
+        "charlotte-catholic:pipeline.rosterNote"
+      ]
+    },
+    {
+      "t": "पेशेवर खेल में छह पूर्व छात्र, और एक राष्ट्रीय lacrosse रैंकिंग जो 158 स्थान चढ़ी।",
+      "of": "3dccf567",
+      "at": [
+        "charlotte-catholic:honors.headline"
+      ]
+    },
+    {
+      "t": "पेशेवर खिलाड़ियों की यह सूची चार दशकों और चार खेलों तक फैली है।",
+      "of": "116c411f",
+      "at": [
+        "charlotte-catholic:honors.subhead"
+      ]
+    },
+    {
+      "t": "NFL",
+      "of": "b1dd07fb",
+      "at": [
+        "charlotte-catholic:honors.pros[0].kicker",
+        "charlotte-catholic:honors.pros[1].kicker"
+      ]
+    },
+    {
+      "t": "2017 में Oakland Raiders ने 7वें दौर में, 242वीं पिक पर ड्राफ़्ट किया। इससे पहले US Army Player of the Year (Hall Trophy)।",
+      "of": "1d66f4a8",
+      "at": [
+        "charlotte-catholic:honors.pros[0].detail"
+      ]
+    },
+    {
+      "t": "National Football League तक पहुँचे।",
+      "of": "1e01f5b0",
+      "at": [
+        "charlotte-catholic:honors.pros[1].detail"
+      ]
+    },
+    {
+      "t": "MLS",
+      "of": "694d3fbd",
+      "at": [
+        "charlotte-catholic:honors.pros[2].kicker",
+        "charlotte-catholic:honors.pros[3].kicker"
+      ]
+    },
+    {
+      "t": "Major League Soccer।",
+      "of": "19c339f8",
+      "at": [
+        "charlotte-catholic:honors.pros[2].detail",
+        "charlotte-catholic:honors.pros[3].detail"
+      ]
+    },
+    {
+      "t": "USL",
+      "of": "936bd10f",
+      "at": [
+        "charlotte-catholic:honors.pros[4].kicker"
+      ]
+    },
+    {
+      "t": "United Soccer League।",
+      "of": "56e53488",
+      "at": [
+        "charlotte-catholic:honors.pros[4].detail"
+      ]
+    },
+    {
+      "t": "WTA",
+      "of": "8aeb7ba5",
+      "at": [
+        "charlotte-catholic:honors.pros[5].kicker"
+      ]
+    },
+    {
+      "t": "पेशेवर tennis — स्कूल के पेशेवर पूर्व छात्रों में सबसे पहले।",
+      "of": "b6465d08",
+      "at": [
+        "charlotte-catholic:honors.pros[5].detail"
+      ]
+    },
+    {
+      "t": "लड़कों का lacrosse, राष्ट्रीय रैंक",
+      "of": "db3dfb06",
+      "at": [
+        "charlotte-catholic:honors.honors[0].label"
+      ]
+    },
+    {
+      "t": "MaxPreps पर देश में #28 और North Carolina में #1 — #186 से ऊपर उठकर।",
+      "of": "5e99042c",
+      "at": [
+        "charlotte-catholic:honors.honors[0].text"
+      ]
+    },
+    {
+      "t": "राष्ट्रीय स्तर पर #28",
+      "of": "9d89064e",
+      "at": [
+        "charlotte-catholic:honors.honors[0].tag"
+      ]
+    },
+    {
+      "t": "Football, राज्य रैंक",
+      "of": "a5844f31",
+      "at": [
+        "charlotte-catholic:honors.honors[1].label"
+      ]
+    },
+    {
+      "t": "NCHSAA 6A में #4।",
+      "of": "fa0d45a2",
+      "at": [
+        "charlotte-catholic:honors.honors[1].text"
+      ]
+    },
+    {
+      "t": "#4 IN 6A",
+      "of": "49a2a7c2",
+      "at": [
+        "charlotte-catholic:honors.honors[1].tag"
+      ]
+    },
+    {
+      "t": "Will Hartman",
+      "of": "919d686e",
+      "at": [
+        "charlotte-catholic:honors.honors[2].label"
+      ]
+    },
+    {
+      "t": "Charlotte Observer के वर्ष के golfer; आगे Vanderbilt गए।",
+      "of": "8c1391d7",
+      "at": [
+        "charlotte-catholic:honors.honors[2].text"
+      ]
+    },
+    {
+      "t": "Elijah Hood",
+      "of": "558a4b18",
+      "at": [
+        "charlotte-catholic:honors.honors[3].label"
+      ]
+    },
+    {
+      "t": "North Carolina और NFL से पहले US Army Player of the Year — Hall Trophy।",
+      "of": "42c30a13",
+      "at": [
+        "charlotte-catholic:honors.honors[3].text"
+      ]
+    },
+    {
+      "t": "Mason Poveromo",
+      "of": "331fabb4",
+      "at": [
+        "charlotte-catholic:honors.honors[4].label"
+      ]
+    },
+    {
+      "t": "वर्ष के खिलाड़ी की मान्यता में नामित।",
+      "of": "7775b17b",
+      "at": [
+        "charlotte-catholic:honors.honors[4].text"
+      ]
+    },
+    {
+      "t": "8 Wachovia / Wells Fargo Cup, जो North Carolina में division के अनुसार सर्वश्रेष्ठ खेल कार्यक्रम को दिए जाते हैं।",
+      "of": "ac60ebe3",
+      "at": [
+        "charlotte-catholic:honors.honors[5].text"
+      ]
+    },
+    {
+      "t": "8 कप",
+      "of": "14b765d4",
+      "at": [
+        "charlotte-catholic:honors.honors[5].tag"
+      ]
+    },
+    {
+      "t": "खेल-भावना और पढ़ाई",
+      "of": "5601c4fd",
+      "at": [
+        "charlotte-catholic:honors.honors[6].label"
+      ]
+    },
+    {
+      "t": "स्कूल बताता है कि उसके छात्र-खिलाड़ियों को खेल-भावना, शैक्षणिक उपलब्धि और 100% सामुदायिक-सेवा भागीदारी के लिए पुरस्कार मिले हैं।",
+      "of": "6e321e54",
+      "at": [
+        "charlotte-catholic:honors.honors[6].text"
+      ]
+    },
+    {
+      "t": "baseball का गहरा स्टाफ़, और बाकी हर जगह सार्वजनिक जानकारी बेहद कम।",
+      "of": "12472e7d",
+      "at": [
+        "charlotte-catholic:coaching.headline"
+      ]
+    },
+    {
+      "t": "baseball आठ कोचों के पूरे परिचय, शुरुआती वर्ष, रिकॉर्ड और खेल-इतिहास के साथ प्रकाशित करता है। किसी और खेल में इसके जैसा कुछ भी प्रकाशित नहीं है।",
+      "of": "76b1384c",
+      "at": [
+        "charlotte-catholic:coaching.subhead"
+      ]
+    },
+    {
+      "t": "Athletic Director",
+      "of": "e3e4c54b",
+      "at": [
+        "charlotte-catholic:coaching.featured[0].kicker",
+        "charlotte-catholic:coaching.tenure[1].role",
+        "covenant-day:coaching.tenure[1].role",
+        "gaston-day:facilities.care[0].label"
+      ]
+    },
+    {
+      "t": "संचालित खेल",
+      "of": "536291f9",
+      "at": [
+        "charlotte-catholic:coaching.featured[0].stats[0].label"
+      ]
+    },
+    {
+      "t": "6A",
+      "of": "24e8f9d8",
+      "at": [
+        "charlotte-catholic:coaching.featured[0].stats[1].value",
+        "charlotte-catholic:national.stats[3].value"
+      ]
+    },
+    {
+      "t": "NCHSAA डिवीज़न",
+      "of": "c2f96888",
+      "at": [
+        "charlotte-catholic:coaching.featured[0].stats[1].label"
+      ]
+    },
+    {
+      "t": "NCHSAA — राज्य के सरकारी-स्कूल संघ — में खेलने वाले 20 खेलों के athletics विभाग का संचालन करते हैं, और AD कार्यालय से Fellowship of Christian Athletes क्लब का मार्गदर्शन भी करते हैं।",
+      "of": "6369d528",
+      "at": [
+        "charlotte-catholic:coaching.featured[0].detail"
+      ]
+    },
+    {
+      "t": "मुख्य कोच — Football",
+      "of": "bfbc1fbe",
+      "at": [
+        "charlotte-catholic:coaching.featured[1].kicker"
+      ]
+    },
+    {
+      "t": "7–5",
+      "of": "4ec6e77e",
+      "at": [
+        "charlotte-catholic:coaching.featured[1].stats[0].value"
+      ]
+    },
+    {
+      "t": "2025 का रिकॉर्ड",
+      "of": "3afdb6b7",
+      "at": [
+        "charlotte-catholic:coaching.featured[1].stats[0].label"
+      ]
+    },
+    {
+      "t": "3–3",
+      "of": "6cb19c10",
+      "at": [
+        "charlotte-catholic:coaching.featured[1].stats[1].value"
+      ]
+    },
+    {
+      "t": "2025 कॉन्फ़्रेंस",
+      "of": "bb5b8dd4",
+      "at": [
+        "charlotte-catholic:coaching.featured[1].stats[1].label"
+      ]
+    },
+    {
+      "t": "2025 की टीम को 7–5 के समापन तक और playoff के पहले दौर में A.C. Reynolds पर 27–0 की जीत तक पहुँचाया, एक ऐसे कार्यक्रम में जिसने चैंपियनशिप मुक़ाबले में 11 बार पहुँचकर 8 राज्य खिताब जीते हैं।",
+      "of": "822425ea",
+      "at": [
+        "charlotte-catholic:coaching.featured[1].detail"
+      ]
+    },
+    {
+      "t": "8 कोच, जिनके परिचय, शुरुआती वर्ष और खेल-इतिहास प्रकाशित हैं",
+      "of": "0015992d",
+      "at": [
+        "charlotte-catholic:coaching.tenure[0].role"
+      ]
+    },
+    {
+      "t": "प्रकाशित",
+      "of": "bc488789",
+      "at": [
+        "charlotte-catholic:coaching.tenure[0].since"
+      ]
+    },
+    {
+      "t": "प्रकाशित नहीं",
+      "of": "c0bab374",
+      "at": [
+        "charlotte-catholic:coaching.tenure[1].since",
+        "charlotte-catholic:coaching.tenure[2].since",
+        "charlotte-catholic:coaching.tenure[3].since",
+        "charlotte-catholic:coaching.tenure[4].since"
+      ]
+    },
+    {
+      "t": "मुख्य कोच, Football",
+      "of": "9c7a7f24",
+      "at": [
+        "charlotte-catholic:coaching.tenure[2].role"
+      ]
+    },
+    {
+      "t": "Athletic trainer",
+      "of": "57d2789c",
+      "at": [
+        "charlotte-catholic:coaching.tenure[3].role"
+      ]
+    },
+    {
+      "t": "Strength & Conditioning कोच",
+      "of": "a1764d33",
+      "at": [
+        "charlotte-catholic:coaching.tenure[4].role"
+      ]
+    },
+    {
+      "t": "यहाँ जानकारी का अंतर असामान्य रूप से तीखा है। baseball के स्टाफ़ पृष्ठ पर आठ कोच पूरे परिचय के साथ हैं, जिनमें शुरुआती वर्ष, कोचिंग रिकॉर्ड और पेशेवर या draft का इतिहास शामिल है, जबकि बाकी उन्नीस खेल केवल navigation की औपचारिकता प्रकाशित करते हैं, जिनमें किसी कोच का नाम तक नहीं है। इसीलिए ऊपर के कार्यकाल-बार baseball स्टाफ़ को छोड़कर सबके लिए सत्यापन-योग्य चिह्नित हैं — उस एक कार्यक्रम के बाहर स्कूल शुरुआती वर्ष प्रकाशित ही नहीं करता।",
+      "of": "966e32eb",
+      "at": [
+        "charlotte-catholic:coaching.worthKnowing"
+      ]
+    },
+    {
+      "t": "Oddo Field at Keffer Stadium, और Atrium Health द्वारा संचालित athletic training।",
+      "of": "2b82713d",
+      "at": [
+        "charlotte-catholic:facilities.headline"
+      ]
+    },
+    {
+      "t": "देखभाल का यह मॉडल स्कूल के भीतर चलाने के बजाय एक अस्पताल-प्रणाली को सौंपा गया है — इस सूची के स्वतंत्र स्कूलों से अलग ढाँचा।",
+      "of": "8aad447c",
+      "at": [
+        "charlotte-catholic:facilities.subhead"
+      ]
+    },
+    {
+      "t": "लगभग 3,500 सीटें; मैदान का नाम Jim Oddo के नाम पर है",
+      "of": "002200c4",
+      "at": [
+        "charlotte-catholic:facilities.venues[0].detail"
+      ]
+    },
+    {
+      "t": "basketball, volleyball और wrestling",
+      "of": "0574fd68",
+      "at": [
+        "charlotte-catholic:facilities.venues[1].detail"
+      ]
+    },
+    {
+      "t": "उस कार्यक्रम का घर, जिसका कोचिंग स्टाफ़ स्कूल में सबसे विस्तार से प्रकाशित है",
+      "of": "e1fdbd55",
+      "at": [
+        "charlotte-catholic:facilities.venues[2].detail"
+      ]
+    },
+    {
+      "t": "Atrium Health के athletic-training स्टाफ़ और छात्रों के Sports Medicine क्लब का ठिकाना",
+      "of": "e1771a99",
+      "at": [
+        "charlotte-catholic:facilities.venues[3].detail"
+      ]
+    },
+    {
+      "t": "650 सीटों का auditorium, 2022 में समर्पित — कला कार्यक्रम के साथ साझा",
+      "of": "c30c3ba8",
+      "at": [
+        "charlotte-catholic:facilities.venues[4].detail"
+      ]
+    },
+    {
+      "t": "पूर्णकालिक लाइसेंस-प्राप्त और प्रमाणित athletic trainer, जो Atrium Health देता है, स्कूल सीधे नियुक्त नहीं करता।",
+      "of": "abfa9a8f",
+      "at": [
+        "charlotte-catholic:facilities.care[0].text"
+      ]
+    },
+    {
+      "t": "मुख्य trainer",
+      "of": "2e3ff8ea",
+      "at": [
+        "charlotte-catholic:facilities.care[1].label"
+      ]
+    },
+    {
+      "t": "Todd Wisocki, LAT/ATC — जो छात्रों द्वारा चलाए जाने वाले Sports Medicine क्लब का मार्गदर्शन भी करते हैं।",
+      "of": "6d491d12",
+      "at": [
+        "charlotte-catholic:facilities.care[1].text"
+      ]
+    },
+    {
+      "t": "Strength & conditioning",
+      "of": "980f5f55",
+      "at": [
+        "charlotte-catholic:facilities.care[2].label",
+        "covenant-day:facilities.care[0].label"
+      ]
+    },
+    {
+      "t": "Mike Hazel, NSCA CSCS।",
+      "of": "35aaf2bc",
+      "at": [
+        "charlotte-catholic:facilities.care[2].text"
+      ]
+    },
+    {
+      "t": "छात्रों के लिए राह",
+      "of": "95e57b6e",
+      "at": [
+        "charlotte-catholic:facilities.care[3].label"
+      ]
+    },
+    {
+      "t": "Sports Medicine एक पाठ्यक्रम कोर्स (851) के रूप में भी चलता है और एक छात्र क्लब के रूप में भी, इसलिए रुचि रखने वाला खिलाड़ी इस क्षेत्र का इलाज पाने के साथ-साथ इसकी पढ़ाई भी कर सकता है।",
+      "of": "a44c9cf9",
+      "at": [
+        "charlotte-catholic:facilities.care[3].text"
+      ]
+    },
+    {
+      "t": "Atrium Health की यह व्यवस्था एक सचमुच का ढाँचागत अंतर है: कवरेज और निरंतरता एक अस्पताल-प्रणाली के स्टाफ़िंग मॉडल से आती है। स्कूल न कोई concussion प्रोटोकॉल प्रकाशित करता है, न टीम-चिकित्सक का नाम, न खेल के हिसाब से कवरेज का कार्यक्रम — इसलिए किसी अभ्यास या बाहरी मुक़ाबले पर क्या उपलब्ध रहता है, यह बताया नहीं गया।",
+      "of": "1c9bcdbf",
+      "at": [
+        "charlotte-catholic:facilities.careNote"
+      ]
+    },
+    {
+      "t": "एक प्राइवेट स्कूल जो सरकारी-स्कूल वर्ग में खेलता है — और एक NIL नीति जो उसे NCHSAA से विरासत में मिली है।",
+      "of": "1ec81c89",
+      "at": [
+        "charlotte-catholic:national.headline"
+      ]
+    },
+    {
+      "t": "CCHS, North Carolina High School Athletic Association के केवल चार parochial सदस्यों में से एक है।",
+      "of": "c69989bc",
+      "at": [
+        "charlotte-catholic:national.subhead"
+      ]
+    },
+    {
+      "t": "पूरे NCHSAA में parochial स्कूल",
+      "of": "e37f4010",
+      "at": [
+        "charlotte-catholic:national.stats[0].label"
+      ]
+    },
+    {
+      "t": "#28",
+      "of": "7290b988",
+      "at": [
+        "charlotte-catholic:national.stats[1].value"
+      ]
+    },
+    {
+      "t": "लड़कों का lacrosse, राष्ट्रीय MaxPreps रैंक",
+      "of": "f42913e8",
+      "at": [
+        "charlotte-catholic:national.stats[1].label"
+      ]
+    },
+    {
+      "t": "लड़कों का lacrosse, North Carolina में रैंक",
+      "of": "c485b6f9",
+      "at": [
+        "charlotte-catholic:national.stats[2].label"
+      ]
+    },
+    {
+      "t": "जिस NCHSAA division में खेलते हैं",
+      "of": "70108fab",
+      "at": [
+        "charlotte-catholic:national.stats[3].label"
+      ]
+    },
+    {
+      "t": "NCHSAA में खेलने का असल मतलब क्या है",
+      "of": "8390dd52",
+      "at": [
+        "charlotte-catholic:national.scheduleTitle"
+      ]
+    },
+    {
+      "t": "वह कॉन्फ़्रेंस जिसमें CCHS खेलता है — मिलती-जुलती छात्र-संख्या वाले सरकारी स्कूल",
+      "of": "b2122665",
+      "at": [
+        "charlotte-catholic:national.schedule[0].detail"
+      ]
+    },
+    {
+      "t": "2026 के लड़कियों के lacrosse राज्य खिताब में overtime में 9–8 से हराया",
+      "of": "c6b82ec8",
+      "at": [
+        "charlotte-catholic:national.schedule[1].detail"
+      ]
+    },
+    {
+      "t": "2026 के लड़कों के lacrosse राज्य खिताब में overtime में 9–8 से हराया",
+      "of": "2c4a9710",
+      "at": [
+        "charlotte-catholic:national.schedule[2].detail"
+      ]
+    },
+    {
+      "t": "2026 के 6A लड़कियों के soccer राज्य खिताब में 1–0 से हराया",
+      "of": "6991ad76",
+      "at": [
+        "charlotte-catholic:national.schedule[3].detail"
+      ]
+    },
+    {
+      "t": "2025 के football playoff के पहले दौर में 27–0 से शून्य पर रोका",
+      "of": "290e16e5",
+      "at": [
+        "charlotte-catholic:national.schedule[4].detail"
+      ]
+    },
+    {
+      "t": "भर्ती की सोच रखने वाले परिवार के लिए यही असली फ़र्क़ है: इस ऐप का हर दूसरा स्कूल NCISAA में खेलता है, जो स्वतंत्र स्कूलों का संघ है। CCHS के किसी खिलाड़ी का रिकॉर्ड, रैंकिंग और चैंपियनशिप North Carolina के सरकारी स्कूलों के मुक़ाबले तय होती है, जो एक बड़ा और अलग बनावट वाला प्रतिस्पर्धी क्षेत्र है — और इससे बाकी सूची के साथ आपसी तुलना दोनों ही दिशाओं में अस्पष्ट हो जाती है।",
+      "of": "72d3999f",
+      "at": [
+        "charlotte-catholic:national.scheduleNote"
+      ]
+    },
+    {
+      "t": "1 जुलाई, 2023",
+      "of": "a4e51be1",
+      "at": [
+        "charlotte-catholic:national.nil[0].date"
+      ]
+    },
+    {
+      "t": "NCHSAA की name, image and likeness नीति लागू होती है, जो CCHS सहित हर सदस्य स्कूल पर लागू है।",
+      "of": "882a9d84",
+      "at": [
+        "charlotte-catholic:national.nil[0].text"
+      ]
+    },
+    {
+      "t": "वर्तमान",
+      "of": "b3d0c37a",
+      "at": [
+        "charlotte-catholic:national.nil[1].date"
+      ]
+    },
+    {
+      "t": "किसी प्रकाशित स्रोत में CCHS से जुड़ा कोई NIL सौदा नहीं मिला। जिस संघ की नीति से वह बँधा है, उससे आगे स्कूल ख़ुद NIL पर कोई मार्गदर्शन प्रकाशित नहीं करता।",
+      "of": "4365e2a1",
+      "at": [
+        "charlotte-catholic:national.nil[1].text"
       ]
     },
     {
@@ -4817,45 +5734,12 @@
       ]
     },
     {
-      "t": "Basketball",
-      "of": "5f3f8676",
-      "at": [
-        "covenant-day:pipeline.roster[1].sport",
-        "covenant-day:pipeline.roster[14].sport",
-        "covenant-day:pipeline.roster[15].sport",
-        "covenant-day:pipeline.roster[29].sport",
-        "covenant-day:pipeline.roster[30].sport",
-        "carmel-christian:pipeline.roster[0].sport",
-        "carmel-christian:pipeline.roster[1].sport",
-        "carmel-christian:pipeline.roster[2].sport",
-        "carmel-christian:pipeline.roster[3].sport",
-        "carmel-christian:pipeline.roster[4].sport",
-        "carmel-christian:pipeline.roster[7].sport",
-        "carmel-christian:pipeline.roster[10].sport"
-      ]
-    },
-    {
       "t": "XC / Track",
       "of": "0ef9f162",
       "at": [
         "covenant-day:pipeline.roster[3].sport",
         "covenant-day:pipeline.roster[7].sport",
         "covenant-day:pipeline.roster[22].sport"
-      ]
-    },
-    {
-      "t": "Soccer",
-      "of": "4d37567e",
-      "at": [
-        "covenant-day:pipeline.roster[4].sport",
-        "covenant-day:pipeline.roster[5].sport",
-        "covenant-day:pipeline.roster[9].sport",
-        "covenant-day:pipeline.roster[12].sport",
-        "covenant-day:pipeline.roster[18].sport",
-        "covenant-day:pipeline.roster[19].sport",
-        "covenant-day:pipeline.roster[21].sport",
-        "covenant-day:pipeline.roster[24].sport",
-        "covenant-day:pipeline.roster[27].sport"
       ]
     },
     {
@@ -5126,14 +6010,6 @@
       ]
     },
     {
-      "t": "Athletic Director",
-      "of": "e3e4c54b",
-      "at": [
-        "covenant-day:coaching.tenure[1].role",
-        "gaston-day:facilities.care[0].label"
-      ]
-    },
-    {
       "t": "HS Principal से पदोन्नत",
       "of": "ac5fbf5a",
       "at": [
@@ -5244,13 +6120,6 @@
       "of": "745c60ab",
       "at": [
         "covenant-day:facilities.venues[6].detail"
-      ]
-    },
-    {
-      "t": "Strength & conditioning",
-      "of": "980f5f55",
-      "at": [
-        "covenant-day:facilities.care[0].label"
       ]
     },
     {

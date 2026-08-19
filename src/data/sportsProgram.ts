@@ -422,6 +422,7 @@ import {
 import { providenceDay } from './sportsPrograms/providence-day.ts'
 import { charlotteLatin } from './sportsPrograms/charlotte-latin.ts'
 import { charlotteChristian } from './sportsPrograms/charlotte-christian.ts'
+import { charlotteCatholic } from './sportsPrograms/charlotte-catholic.ts'
 import { charlotteCountryDay } from './sportsPrograms/charlotte-country-day.ts'
 import { cannon } from './sportsPrograms/cannon.ts'
 import { davidsonDay } from './sportsPrograms/davidson-day.ts'
@@ -434,6 +435,7 @@ const PROGRAMS: Record<string, SportsProgram> = {
   'providence-day': providenceDay,
   'charlotte-latin': charlotteLatin,
   'charlotte-christian': charlotteChristian,
+  'charlotte-catholic': charlotteCatholic,
   'charlotte-country-day': charlotteCountryDay,
   cannon: cannon,
   'covenant-day': covenantDay,

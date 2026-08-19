@@ -282,6 +282,7 @@
       "at": [
         "providence-day:honors.societies[0].feedsFrom",
         "charlotte-latin:honors.societies[0].feedsFrom",
+        "charlotte-catholic:honors.societies[0].feedsFrom",
         "charlotte-country-day:honors.societies[0].feedsFrom",
         "cannon:honors.societies[0].feedsFrom",
         "carmel-christian:honors.societies[0].feedsFrom",
@@ -327,6 +328,8 @@
         "charlotte-christian:honors.societies[1].feedsFrom",
         "charlotte-christian:honors.societies[2].feedsFrom",
         "charlotte-christian:honors.societies[3].feedsFrom",
+        "charlotte-catholic:honors.societies[4].feedsFrom",
+        "charlotte-catholic:honors.societies[5].feedsFrom",
         "charlotte-country-day:honors.societies[3].feedsFrom",
         "charlotte-country-day:honors.societies[4].feedsFrom",
         "charlotte-country-day:honors.societies[5].feedsFrom",
@@ -390,6 +393,7 @@
         "providence-day:clusters.verdictHint",
         "charlotte-latin:clusters.verdictHint",
         "charlotte-christian:clusters.verdictHint",
+        "charlotte-catholic:clusters.verdictHint",
         "charlotte-country-day:clusters.verdictHint",
         "cannon:clusters.verdictHint",
         "covenant-day:clusters.verdictHint",
@@ -455,7 +459,8 @@
         "providence-day:clusters.rows[3].evidenceLabel",
         "providence-day:clusters.rows[4].evidenceLabel",
         "charlotte-christian:clusters.rows[1].evidenceLabel",
-        "charlotte-christian:clusters.rows[2].evidenceLabel"
+        "charlotte-christian:clusters.rows[2].evidenceLabel",
+        "charlotte-catholic:clusters.rows[1].evidenceLabel"
       ]
     },
     {
@@ -470,6 +475,7 @@
       "of": "5b91930f",
       "at": [
         "providence-day:clusters.rows[2].name",
+        "charlotte-catholic:clusters.rows[2].name",
         "covenant-day:clusters.rows[1].name"
       ]
     },
@@ -619,6 +625,7 @@
       "of": "7136d3fa",
       "at": [
         "providence-day:catalog.categories[5].short",
+        "charlotte-catholic:catalog.divisions[0].label",
         "cannon:catalog.categories[5].short",
         "gaston-day:catalog.categories[1].short"
       ]
@@ -1225,6 +1232,8 @@
       "at": [
         "providence-day:catalog.divisions[1].tag",
         "charlotte-latin:catalog.divisions[1].tag",
+        "charlotte-catholic:clusters.rows[4].evidenceLabel",
+        "charlotte-catholic:catalog.divisions[0].tag",
         "cannon:catalog.divisions[1].tag",
         "gaston-day:catalog.divisions[2].tag"
       ]
@@ -1622,6 +1631,8 @@
       "at": [
         "charlotte-latin:catalog.categories[0].short",
         "charlotte-latin:catalog.categories[0].full",
+        "charlotte-catholic:catalog.categories[1].short",
+        "charlotte-catholic:catalog.categories[1].full",
         "charlotte-country-day:catalog.categories[2].short",
         "charlotte-country-day:catalog.categories[2].full",
         "cannon:catalog.categories[3].short",
@@ -2485,6 +2496,1252 @@
       ]
     },
     {
+      "t": "76 clubes en seis categorías, casi todos con un responsable identificado y un aula.",
+      "of": "3faabd45",
+      "at": [
+        "charlotte-catholic:affinity.headline"
+      ]
+    },
+    {
+      "t": "El directorio es uno de los más transparentes de esta lista — la mayoría de las entradas publican un propósito por escrito, un responsable del profesorado y dónde se reúne realmente el club.",
+      "of": "f32f497b",
+      "at": [
+        "charlotte-catholic:affinity.subhead"
+      ]
+    },
+    {
+      "t": "El directorio de clubes depende de Campus Ministry y no de actividades estudiantiles, lo que condiciona la mezcla: los clubes de formación en la fe y de servicio son los bloques mayores, y el propio Campus Ministry Club organiza cada mes actos de formación, convivencia y fe con funciones de monaguillo, sacristán y ministerio entre iguales.",
+      "of": "8c02381e",
+      "at": [
+        "charlotte-catholic:affinity.umbrella.detail"
+      ]
+    },
+    {
+      "t": "Crea un espacio intencionado de intercambio entre el alumnado negro. Responsable: Dr. Sigwald, aula 225.",
+      "of": "84dc284d",
+      "at": [
+        "charlotte-catholic:affinity.groups[0].detail"
+      ]
+    },
+    {
+      "t": "Para el alumnado que comparte o tiene interés por un origen asiático-americano y de las islas del Pacífico. Responsable: Mr. Pham, biblioteca.",
+      "of": "6b6792fe",
+      "at": [
+        "charlotte-catholic:affinity.groups[1].detail"
+      ]
+    },
+    {
+      "t": "Promueve la lengua y la cultura alemanas. Responsable: Mrs. Schmid-Rankin, aula 527.",
+      "of": "da0d4ea4",
+      "at": [
+        "charlotte-catholic:affinity.groups[2].detail"
+      ]
+    },
+    {
+      "t": "Comparte las experiencias de las comunidades hispanohablantes. Responsable: Ms. Palomino, aula 204.",
+      "of": "7520fc64",
+      "at": [
+        "charlotte-catholic:affinity.groups[3].detail"
+      ]
+    },
+    {
+      "t": "Promueve el conocimiento y la comprensión de la lengua de signos. Responsable: Mrs. Bick, aula 318.",
+      "of": "9ad7a22c",
+      "at": [
+        "charlotte-catholic:affinity.groups[4].detail"
+      ]
+    },
+    {
+      "t": "Reúne al alumnado cuyos padres se graduaron en CCHS. Responsables: Mrs. Clementi y Mr. Morgan, aula 218.",
+      "of": "dd55f67f",
+      "at": [
+        "charlotte-catholic:affinity.groups[5].detail"
+      ]
+    },
+    {
+      "t": "Da a conocer la salud mental en la comunidad escolar. Responsable: Mrs. Clementi, orientación.",
+      "of": "0c365344",
+      "at": [
+        "charlotte-catholic:affinity.groups[6].detail"
+      ]
+    },
+    {
+      "t": "Normaliza las conversaciones sobre dificultades mentales y físicas entre los deportistas del centro. Responsable: Mr. Christmas, gimnasio.",
+      "of": "d4150275",
+      "at": [
+        "charlotte-catholic:affinity.groups[7].detail"
+      ]
+    },
+    {
+      "t": "Apoya al alumnado afectado por alopecia. Responsable: Mrs. Best, Campus Ministry.",
+      "of": "7b785ec4",
+      "at": [
+        "charlotte-catholic:affinity.groups[8].detail"
+      ]
+    },
+    {
+      "t": "Concienciación sobre alergias alimentarias, con recogidas de alimentos como servicio. Responsable: Ms. Davaz, aula 205.",
+      "of": "635ff4ed",
+      "at": [
+        "charlotte-catholic:affinity.groups[9].detail"
+      ]
+    },
+    {
+      "t": "Las seis categorías",
+      "of": "351bc900",
+      "at": [
+        "charlotte-catholic:affinity.strips[0].title"
+      ]
+    },
+    {
+      "t": "tal como las agrupa el centro",
+      "of": "b759a30c",
+      "at": [
+        "charlotte-catholic:affinity.strips[0].hint"
+      ]
+    },
+    {
+      "t": "Educación 16 · Servicio 23 · Comunidad 9 · Cultura 4 · Deportes 15 · Interés general 9. Servicio es el bloque más grande con diferencia, algo coherente con un centro donde el servicio es requisito para graduarse.",
+      "of": "444bdd62",
+      "at": [
+        "charlotte-catholic:affinity.strips[0].text"
+      ]
+    },
+    {
+      "t": "Cultura es la categoría más pequeña",
+      "of": "caaf9c5b",
+      "at": [
+        "charlotte-catholic:affinity.strips[1].title"
+      ]
+    },
+    {
+      "t": "4 de 76",
+      "of": "1a924fad",
+      "at": [
+        "charlotte-catholic:affinity.strips[1].hint"
+      ]
+    },
+    {
+      "t": "Clubes Achievers, Asian American Pacific Islander, alemán y español. Para un centro de ~1,171 alumnos en un área metropolitana diversa, cuatro grupos de identidad y cultura son pocos frente a los 23 clubes de servicio — conviene preguntarlo en una visita.",
+      "of": "327f5890",
+      "at": [
+        "charlotte-catholic:affinity.strips[1].text"
+      ]
+    },
+    {
+      "t": "Los clubes deportivos son un segundo nivel de verdad",
+      "of": "f5f5ce26",
+      "at": [
+        "charlotte-catholic:affinity.strips[2].title"
+      ]
+    },
+    {
+      "t": "15 clubes",
+      "of": "c63d6d3e",
+      "at": [
+        "charlotte-catholic:affinity.strips[2].hint"
+      ]
+    },
+    {
+      "t": "Escalada, patinaje artístico, rugby femenino, rugby masculino, golf, lacrosse, pickleball, ping pong, vela, skate, fútbol, wakeboard y más — varios se reúnen fuera del campus, en Inner Peaks, Davie Park, Renaissance Skate Park y el Carolina Sports Complex. Un alumno que no entre en un equipo varsity de 6A sigue teniendo dónde jugar.",
+      "of": "d1c06c76",
+      "at": [
+        "charlotte-catholic:affinity.strips[2].text"
+      ]
+    },
+    {
+      "t": "Los responsables tienen nombre y las aulas se publican",
+      "of": "40c1f315",
+      "at": [
+        "charlotte-catholic:affinity.strips[3].title"
+      ]
+    },
+    {
+      "t": "Casi todas las 76 entradas incluyen un responsable del profesorado y un aula de reunión — un nivel de detalle operativo publicado poco habitual, y una forma práctica de que una familia pregunte quién dirige realmente un grupo.",
+      "of": "8c35c132",
+      "at": [
+        "charlotte-catholic:affinity.strips[3].text"
+      ]
+    },
+    {
+      "t": "El perfil del centro dice que CCHS “anima a todo el alumnado a participar en los clubes organizados por el centro”. El directorio publica responsables y aulas, pero ningún proceso de solicitud, ningún límite de miembros y ningún calendario de reuniones, así que no se detalla cuán selectivo es un club concreto, si es que lo es.",
+      "of": "c6490b93",
+      "at": [
+        "charlotte-catholic:affinity.leadership"
+      ]
+    },
+    {
+      "t": "El perfil del centro habla de “más de 50 oportunidades de club”; el directorio enumera 76. Ambas son cifras del propio centro. El directorio es el que se puede contar y es lo que recoge esta app.",
+      "of": "14af0d9b",
+      "at": [
+        "charlotte-catholic:affinity.flags[0].text"
+      ]
+    },
+    {
+      "t": "No se publican cifras de miembros de ningún club, así que el tamaño y la selectividad no se pueden juzgar a partir del directorio.",
+      "of": "f81a29c9",
+      "at": [
+        "charlotte-catholic:affinity.flags[1].text"
+      ]
+    },
+    {
+      "t": "Aquí el servicio no se fomenta — es obligatorio para graduarse.",
+      "of": "dc928c46",
+      "at": [
+        "charlotte-catholic:service.headline"
+      ]
+    },
+    {
+      "t": "70 horas aprobadas a lo largo de cuatro años, al menos 5 de ellas de servicio parroquial cada año, documentadas en Canvas y con fecha límite el 1 de marzo.",
+      "of": "e80ab2ab",
+      "at": [
+        "charlotte-catholic:service.subhead"
+      ]
+    },
+    {
+      "t": "horas para graduarse",
+      "of": "abdd987e",
+      "at": [
+        "charlotte-catholic:service.programs[0].valueLabel"
+      ]
+    },
+    {
+      "t": "Los freshman entregan 10 horas; los alumnos de segundo, tercero y cuarto entregan 20 cada año. El total se ajusta cuando un alumno está matriculado menos de cuatro años. Las horas de servicio son una condición declarada para graduarse en CCHS.",
+      "of": "2e726edb",
+      "at": [
+        "charlotte-catholic:service.programs[0].detail"
+      ]
+    },
+    {
+      "t": "horas parroquiales al año",
+      "of": "be05b4a5",
+      "at": [
+        "charlotte-catholic:service.programs[1].valueLabel"
+      ]
+    },
+    {
+      "t": "Al menos cinco de las horas de cada año deben ser específicamente de servicio parroquial — un requisito diocesano que condiciona dónde sirve el alumnado, no solo cuánto.",
+      "of": "c01fb044",
+      "at": [
+        "charlotte-catholic:service.programs[1].detail"
+      ]
+    },
+    {
+      "t": "participación",
+      "of": "e32177c6",
+      "at": [
+        "charlotte-catholic:service.programs[2].valueLabel"
+      ]
+    },
+    {
+      "t": "El perfil del centro informa de una participación del 100% en servicio comunitario. Como el servicio es un requisito para graduarse y no un programa voluntario, esa cifra es cierta por estructura — no mide el entusiasmo.",
+      "of": "0999378c",
+      "at": [
+        "charlotte-catholic:service.programs[2].detail"
+      ]
+    },
+    {
+      "t": "clubes de servicio",
+      "of": "ba3a4969",
+      "at": [
+        "charlotte-catholic:service.programs[3].valueLabel"
+      ]
+    },
+    {
+      "t": "La mayor de las seis categorías de clubes: Best Buddies, Habitat for Humanity, Red Cross, Ronald McDonald House, Caritas, Mel’s Diner, Muffin Ministry, Beds for Kids, Helping Moms in Need, Golden Hearts, Live Like Bryant, Wayfinders Ambassadors y el U.S. Service Academy Club, entre otros. Varios se reúnen fuera del campus — en el Habitat ReStore o en el St. Matthew’s Parish Center.",
+      "of": "e5f995ed",
+      "at": [
+        "charlotte-catholic:service.programs[3].detail"
+      ]
+    },
+    {
+      "t": "fecha límite anual",
+      "of": "3b443b9e",
+      "at": [
+        "charlotte-catholic:service.programs[4].valueLabel"
+      ]
+    },
+    {
+      "t": "Las horas deben entregarse antes del 1 de marzo de cada año para quedar registradas y aprobadas, documentadas en Canvas y con fotografías permitidas. Campus Ministry ayuda al alumnado a encontrar oportunidades que cumplan los requisitos.",
+      "of": "1c4c609a",
+      "at": [
+        "charlotte-catholic:service.programs[4].detail"
+      ]
+    },
+    {
+      "t": "Qué significa esto para una familia",
+      "of": "016567cd",
+      "at": [
+        "charlotte-catholic:service.footnoteTitle"
+      ]
+    },
+    {
+      "t": "Como todos los graduados completan 70 horas, las horas de servicio no diferencian a un candidato de CCHS de otro — lo que un lector de admisiones puede distinguir realmente es el requisito parroquial y los puestos de liderazgo que hay detrás de esas horas. Una familia debería fijarse también en la carga práctica: 20 horas al año desde segundo curso, con un corte estricto el 1 de marzo, además de un horario de siete asignaturas.",
+      "of": "11557f66",
+      "at": [
+        "charlotte-catholic:service.footnote"
+      ]
+    },
+    {
+      "t": "Diez sociedades de honor, y umbrales de GPA publicados para las académicas.",
+      "of": "53653485",
+      "at": [
+        "charlotte-catholic:honors.headline"
+      ]
+    },
+    {
+      "t": "Cuatro de las diez son sociedades de lenguas del mundo, algo coherente con un currículo que exige dos unidades de la misma lengua y ofrece cuatro idiomas hasta el nivel AP.",
+      "of": "9ef22276",
+      "at": [
+        "charlotte-catholic:honors.subhead"
+      ]
+    },
+    {
+      "t": "Excelencia académica, liderazgo, servicio y carácter — umbral declarado de 3.9 de GPA",
+      "of": "b5c4f711",
+      "at": [
+        "charlotte-catholic:honors.societies[0].recognizes"
+      ]
+    },
+    {
+      "t": "Matemáticas — umbral declarado de 4.5 de GPA en matemáticas, el listón más alto de todas las sociedades de aquí",
+      "of": "85519470",
+      "at": [
+        "charlotte-catholic:honors.societies[1].recognizes"
+      ]
+    },
+    {
+      "t": "Matemáticas",
+      "of": "cadbef3d",
+      "at": [
+        "charlotte-catholic:honors.societies[1].feedsFrom"
+      ]
+    },
+    {
+      "t": "Ciencias — GPA declarado de 4.25 en ciencias con un 4.0 general",
+      "of": "4d33b929",
+      "at": [
+        "charlotte-catholic:honors.societies[2].recognizes"
+      ]
+    },
+    {
+      "t": "Ciencias",
+      "of": "35e9a35d",
+      "at": [
+        "charlotte-catholic:honors.societies[2].feedsFrom"
+      ]
+    },
+    {
+      "t": "Ciencias sociales — umbral declarado de 3.75 de GPA",
+      "of": "0315f742",
+      "at": [
+        "charlotte-catholic:honors.societies[3].recognizes"
+      ]
+    },
+    {
+      "t": "Ciencias sociales",
+      "of": "7c3f4e73",
+      "at": [
+        "charlotte-catholic:honors.societies[3].feedsFrom"
+      ]
+    },
+    {
+      "t": "Teatro — 3.0 de GPA declarado más 60 puntos thespian acumulados",
+      "of": "8b9fe661",
+      "at": [
+        "charlotte-catholic:honors.societies[4].recognizes"
+      ]
+    },
+    {
+      "t": "Arte visual",
+      "of": "6a45b160",
+      "at": [
+        "charlotte-catholic:honors.societies[5].recognizes"
+      ]
+    },
+    {
+      "t": "Estudio del español",
+      "of": "25e7b07e",
+      "at": [
+        "charlotte-catholic:honors.societies[6].recognizes"
+      ]
+    },
+    {
+      "t": "Lenguas extranjeras",
+      "of": "c99b3a44",
+      "at": [
+        "charlotte-catholic:honors.societies[6].feedsFrom",
+        "charlotte-catholic:honors.societies[7].feedsFrom",
+        "charlotte-catholic:honors.societies[8].feedsFrom",
+        "charlotte-catholic:honors.societies[9].feedsFrom"
+      ]
+    },
+    {
+      "t": "Estudio del francés",
+      "of": "6993ca4c",
+      "at": [
+        "charlotte-catholic:honors.societies[7].recognizes"
+      ]
+    },
+    {
+      "t": "Estudio del alemán",
+      "of": "cb2e66f6",
+      "at": [
+        "charlotte-catholic:honors.societies[8].recognizes"
+      ]
+    },
+    {
+      "t": "Estudio del latín",
+      "of": "3ca03188",
+      "at": [
+        "charlotte-catholic:honors.societies[9].recognizes"
+      ]
+    },
+    {
+      "t": "National Merit",
+      "of": "c119ff02",
+      "at": [
+        "charlotte-catholic:honors.adjacent[0].label"
+      ]
+    },
+    {
+      "t": "2 finalistas y 11 alumnos con mención (Commended Students) en 2025.",
+      "of": "e2727c79",
+      "at": [
+        "charlotte-catholic:honors.adjacent[0].text"
+      ]
+    },
+    {
+      "t": "Academias de servicio",
+      "of": "62b87e0e",
+      "at": [
+        "charlotte-catholic:honors.adjacent[1].label"
+      ]
+    },
+    {
+      "t": "Tres nombramientos para la US Naval Academy en 2025, más una beca del Army ROTC en Cornell.",
+      "of": "24c3ac47",
+      "at": [
+        "charlotte-catholic:honors.adjacent[1].text"
+      ]
+    },
+    {
+      "t": "El gráfico de deciles",
+      "of": "d83232ac",
+      "at": [
+        "charlotte-catholic:honors.adjacent[2].label"
+      ]
+    },
+    {
+      "t": "CCHS no clasifica al alumnado, así que no hay valedictorian ni distinción por puesto en la promoción — en su lugar hay un gráfico de GPA de 10 deciles.",
+      "of": "072356a4",
+      "at": [
+        "charlotte-catholic:honors.adjacent[2].text"
+      ]
+    },
+    {
+      "t": "St. Augustine Scholars Program",
+      "of": "f7a37904",
+      "at": [
+        "charlotte-catholic:honors.adjacent[3].label"
+      ]
+    },
+    {
+      "t": "Un itinerario clásico selectivo de cuatro años iniciado con una cohorte de 9.º grado en 2025-26 — es un programa más que una sociedad, pero es la distinción académica más selectiva del centro.",
+      "of": "667b98b6",
+      "at": [
+        "charlotte-catholic:honors.adjacent[3].text"
+      ]
+    },
+    {
+      "t": "Finalistas Blumey",
+      "of": "cda7a41e",
+      "at": [
+        "charlotte-catholic:honors.adjacent[4].label"
+      ]
+    },
+    {
+      "t": "Cinco finalistas en 2025 y cinco puestos más en 2026 — el reconocimiento competitivo externo reciente más sólido del centro.",
+      "of": "2cfc5faa",
+      "at": [
+        "charlotte-catholic:honors.adjacent[4].text"
+      ]
+    },
+    {
+      "t": "Los criterios de admisión se publican para cinco de las diez sociedades. Las cuatro sociedades de lenguas del mundo y la National Art Honor Society figuran en el perfil del centro sin un umbral declarado de GPA o de puntos, y ninguna sociedad publica su número de miembros.",
+      "of": "a618225f",
+      "at": [
+        "charlotte-catholic:honors.flags[0].text"
+      ]
+    },
+    {
+      "t": "CCHS tiene periódico escolar, revista literaria, anuario y pódcast — pero como ASIGNATURAS DE INGLÉS (Journalism 234 y Yearbook 235), no como clubes, y por eso ninguno aparece en el directorio de 76 clubes. Ambas son optativas anuales para los grados 10–12 que exigen una media de B en Inglés y la recomendación de un profesor; Yearbook exige además una solicitud y una entrevista.",
+      "of": "232fea48",
+      "at": [
+        "charlotte-catholic:honors.flags[1].text"
+      ]
+    },
+    {
+      "t": "Diez sociedades de honor y un abanico competitivo que en su mayor parte no publica resultados.",
+      "of": "dd240094",
+      "at": [
+        "charlotte-catholic:clusters.verdict"
+      ]
+    },
+    {
+      "t": "Speech and Debate",
+      "of": "b46f47a7",
+      "at": [
+        "charlotte-catholic:clusters.rows[0].name"
+      ]
+    },
+    {
+      "t": "El único club con un historial competitivo documentado — pero es de 2017",
+      "of": "c8ac64bd",
+      "at": [
+        "charlotte-catholic:clusters.rows[0].oneLiner"
+      ]
+    },
+    {
+      "t": "Noticias del centro — desactualizadas",
+      "of": "fa1cace9",
+      "at": [
+        "charlotte-catholic:clusters.rows[0].evidenceLabel"
+      ]
+    },
+    {
+      "t": "La cobertura diocesana registra un subcampeonato estatal de Carolina del Norte y una campeona estatal de Program Oral Interpretation (Darlene Singui-Tanyi). Esa cobertura es de 2017, más antigua que cualquier resultado competitivo publicado para otro centro de aquí, así que no puede afirmarse ninguna posición actual. El club se reúne en el CCHS Media Center bajo la dirección de Mrs. Jennifer Taylor.",
+      "of": "9e78c329",
+      "at": [
+        "charlotte-catholic:clusters.rows[0].note"
+      ]
+    },
+    {
+      "t": "Sociedades de honor →",
+      "of": "48a8bb43",
+      "at": [
+        "charlotte-catholic:clusters.rows[1].name",
+        "carmel-christian:clusters.rows[0].name",
+        "hickory-grove-christian:clusters.rows[0].name",
+        "gaston-day:clusters.rows[4].name"
+      ]
+    },
+    {
+      "t": "NHS, Mu Alpha Theta, Science NHS, Rho Kappa, International Thespian, National Art, además de español, francés, alemán y latín",
+      "of": "1f251e47",
+      "at": [
+        "charlotte-catholic:clusters.rows[1].oneLiner"
+      ]
+    },
+    {
+      "t": "Diez sociedades figuran en el perfil del centro. Existen criterios de GPA publicados para cinco: NHS 3.9, Mu Alpha Theta 4.5 en matemáticas, Science NHS 4.25 en ciencias con un 4.0 general, Rho Kappa 3.75 e International Thespian 3.0 más 60 puntos. Las cuatro sociedades de lenguas del mundo y la National Art Honor Society no publican umbral, y ninguna publica su número de miembros.",
+      "of": "bba100e1",
+      "at": [
+        "charlotte-catholic:clusters.rows[1].note"
+      ]
+    },
+    {
+      "t": "Robotics, Medical Pathways, Finance",
+      "of": "1138fd04",
+      "at": [
+        "charlotte-catholic:clusters.rows[2].oneLiner"
+      ]
+    },
+    {
+      "t": "Solo mencionado",
+      "of": "a0706e54",
+      "at": [
+        "charlotte-catholic:clusters.rows[2].evidenceLabel",
+        "charlotte-catholic:clusters.rows[3].evidenceLabel",
+        "charlotte-country-day:clusters.rows[1].evidenceLabel",
+        "gaston-day:clusters.rows[4].evidenceLabel"
+      ]
+    },
+    {
+      "t": "Robotics existe para “promover las STEAM en Charlotte Catholic y permitir que sus miembros adquieran experiencia práctica”, bajo la dirección de Mr. Tucker en el aula 517, pero no se publica ningún circuito de competición, número de equipo ni resultado. Medical Pathways y Finance son clubes de exploración profesional con ponentes invitados más que equipos de competición.",
+      "of": "7c7164cd",
+      "at": [
+        "charlotte-catholic:clusters.rows[2].note"
+      ]
+    },
+    {
+      "t": "Clubes cívicos y académicos →",
+      "of": "171c7b60",
+      "at": [
+        "charlotte-catholic:clusters.rows[3].name"
+      ]
+    },
+    {
+      "t": "Model United Nations, Beacon of Truth, Apologetics, Young Authors, Good Reads",
+      "of": "ff0d58ed",
+      "at": [
+        "charlotte-catholic:clusters.rows[3].oneLiner"
+      ]
+    },
+    {
+      "t": "Model UN es la única entrada competitiva en el sentido habitual, y CCHS no publica ninguna asistencia a conferencias ni premios. El resto son clubes de debate y formación — varios planteados explícitamente desde una mirada católica, que es el rasgo distintivo del abanico de clubes académicos de este centro.",
+      "of": "ff8523ec",
+      "at": [
+        "charlotte-catholic:clusters.rows[3].note"
+      ]
+    },
+    {
+      "t": "El vacío de las publicaciones",
+      "of": "3e0e7a9f",
+      "at": [
+        "charlotte-catholic:clusters.rows[4].name"
+      ]
+    },
+    {
+      "t": "El periódico, la revista literaria, el anuario y el pódcast funcionan como asignaturas, no como clubes",
+      "of": "bbb1ed3c",
+      "at": [
+        "charlotte-catholic:clusters.rows[4].oneLiner"
+      ]
+    },
+    {
+      "t": "El alumnado de Journalism (234) produce y publica el periódico escolar en formato digital y desarrolla la revista literaria del centro, con la opción de producir un pódcast; Yearbook (235) elabora el anuario. Ambas son optativas anuales de Inglés que exigen una media de B y la recomendación de un profesor, así que esta actividad está en el horario lectivo y no es extraescolar, y no aparece en ninguna lista de clubes.",
+      "of": "2c514981",
+      "at": [
+        "charlotte-catholic:clusters.rows[4].note"
+      ]
+    },
+    {
+      "t": "76 clubes repartidos en seis categorías, y casi todos publican un responsable del profesorado, un aula de reunión y un propósito por escrito.",
+      "of": "a60750e0",
+      "at": [
+        "charlotte-catholic:catalog.verdict"
+      ]
+    },
+    {
+      "t": "Servicio es el bloque más grande, con 23 clubes — algo esperable en un centro donde se exigen 70 horas de servicio para graduarse.",
+      "of": "3bbcdb3b",
+      "at": [
+        "charlotte-catholic:catalog.verdictHint"
+      ]
+    },
+    {
+      "t": "Educación",
+      "of": "1697d235",
+      "at": [
+        "charlotte-catholic:catalog.categories[0].short",
+        "charlotte-catholic:catalog.categories[0].full"
+      ]
+    },
+    {
+      "t": "Comunidad",
+      "of": "d559270e",
+      "at": [
+        "charlotte-catholic:catalog.categories[2].short",
+        "charlotte-catholic:catalog.categories[2].full"
+      ]
+    },
+    {
+      "t": "Cultura",
+      "of": "9f5a3b71",
+      "at": [
+        "charlotte-catholic:catalog.categories[3].short",
+        "charlotte-catholic:catalog.categories[3].full"
+      ]
+    },
+    {
+      "t": "Deportes",
+      "of": "92ee90da",
+      "at": [
+        "charlotte-catholic:catalog.categories[4].short",
+        "charlotte-catholic:catalog.categories[4].full"
+      ]
+    },
+    {
+      "t": "Interés general",
+      "of": "b48381c7",
+      "at": [
+        "charlotte-catholic:catalog.categories[5].short",
+        "charlotte-catholic:catalog.categories[5].full"
+      ]
+    },
+    {
+      "t": "Apoya al alumnado afectado por alopecia y da a conocer la enfermedad en todo el centro — responsable Mrs. Best",
+      "of": "452dc7ab",
+      "at": [
+        "charlotte-catholic:catalog.clubs[0].note"
+      ]
+    },
+    {
+      "t": "Sacar a la luz los temas difíciles del catolicismo para dar al alumnado de CCHS más perspectiva sobre lo que enseña la fe católica — responsable Mr. Sifuentes, 304",
+      "of": "35119c8a",
+      "at": [
+        "charlotte-catholic:catalog.clubs[1].note"
+      ]
+    },
+    {
+      "t": "Formar a los miembros del Beacon con información sobre la actualidad y el clima cambiante en Occidente desde la mirada de nuestra fe católica — responsable Mr. Kennelly, 309",
+      "of": "946423a4",
+      "at": [
+        "charlotte-catholic:catalog.clubs[2].note"
+      ]
+    },
+    {
+      "t": "Aprender más sobre finanzas personales, la bolsa y las carreras del sector financiero — responsable Mrs. Moricone, 212",
+      "of": "42ede412",
+      "at": [
+        "charlotte-catholic:catalog.clubs[3].note"
+      ]
+    },
+    {
+      "t": "Concienciación sobre alergias alimentarias, con servicio que incluye recogidas de alimentos — responsable Ms. Davaz, 205",
+      "of": "3d839b17",
+      "at": [
+        "charlotte-catholic:catalog.clubs[4].note"
+      ]
+    },
+    {
+      "t": "Se reúnen para debatir sobre la actualidad mundial y concienciar apoyando a organizaciones con recaudaciones y servicio desde la fe y la caridad — responsable Ms. Cabana, 512",
+      "of": "40074f33",
+      "at": [
+        "charlotte-catholic:catalog.clubs[5].note"
+      ]
+    },
+    {
+      "t": "Fomenta el gusto por la lectura; organiza una recogida anual de libros infantiles — responsable Ms. Davaz, 205",
+      "of": "dfb2be1a",
+      "at": [
+        "charlotte-catholic:catalog.clubs[6].note"
+      ]
+    },
+    {
+      "t": "Este club es para el alumnado interesado en dedicarse a profesiones de la sanidad y de las ciencias médicas — responsable Mrs. Cusack, 310",
+      "of": "5e775894",
+      "at": [
+        "charlotte-catholic:catalog.clubs[7].note"
+      ]
+    },
+    {
+      "t": "Da al alumnado experiencia práctica con todo el proceso creativo de hacer música — responsable Mr. Queen, salas de ensayo del FAC",
+      "of": "79b6c502",
+      "at": [
+        "charlotte-catholic:catalog.clubs[8].note"
+      ]
+    },
+    {
+      "t": "Formar al alumnado sobre seguridad en la naturaleza y lograr que más alumnos salgan al aire libre — responsable Mr. Kennelly, 309",
+      "of": "1e8f44ee",
+      "at": [
+        "charlotte-catholic:catalog.clubs[9].note"
+      ]
+    },
+    {
+      "t": "Promover las STEAM en Charlotte Catholic y permitir que sus miembros adquieran experiencia práctica en uno de los campos de la ingeniería más importantes para el futuro — responsable Mr. Tucker, 517",
+      "of": "19ceb578",
+      "at": [
+        "charlotte-catholic:catalog.clubs[10].note"
+      ]
+    },
+    {
+      "t": "El equipo de Speech and Debate ayuda a mejorar la oratoria y el debate compitiendo en torneos y creando una gran comunidad — responsable Mrs. Jennifer Taylor, CCHS Media Center",
+      "of": "33ae7dd9",
+      "at": [
+        "charlotte-catholic:catalog.clubs[11].note"
+      ]
+    },
+    {
+      "t": "Concienciar sobre el cáncer de mama con la organización Go Jen Go — responsable Mrs. Nobary, College Room",
+      "of": "0d443209",
+      "at": [
+        "charlotte-catholic:catalog.clubs[12].note"
+      ]
+    },
+    {
+      "t": "La misión de nuestro club es promover el conocimiento y la comprensión de la lengua de signos — responsable Mrs. Bick, 318",
+      "of": "c1c659cb",
+      "at": [
+        "charlotte-catholic:catalog.clubs[13].note"
+      ]
+    },
+    {
+      "t": "Voices for Life existe para formar al alumnado sobre las cuestiones del principio y el final de la vida y para defender a quienes no tienen voz mediante la oración, el servicio… — responsable Mr. Quintero, 202",
+      "of": "9a3bb894",
+      "at": [
+        "charlotte-catholic:catalog.clubs[14].note"
+      ]
+    },
+    {
+      "t": "Trabaja para mejorar la escritura creativa, compartir proyectos de escritura y cultivar el gusto por escribir — responsable Mr. Gbenyon, 307",
+      "of": "2af84b66",
+      "at": [
+        "charlotte-catholic:catalog.clubs[15].note"
+      ]
+    },
+    {
+      "t": "Busca concienciar sobre la salud cardiovascular y hacer servicio con grupos de salud cardiaca, sobre todo con los que atienden a personas desfavorecidas y a minorías — responsable Mr. Kuhn, 219",
+      "of": "095fcdcd",
+      "at": [
+        "charlotte-catholic:catalog.clubs[16].note"
+      ]
+    },
+    {
+      "t": "Figura en el directorio de clubes del centro — responsable Mrs. Montague, 310",
+      "of": "dbfabdb4",
+      "at": [
+        "charlotte-catholic:catalog.clubs[17].note"
+      ]
+    },
+    {
+      "t": "Se dedica a impulsar un movimiento global de voluntariado que crea oportunidades de amistad 1:1 — responsable Ms. Reynolds, 229",
+      "of": "e8edcc87",
+      "at": [
+        "charlotte-catholic:catalog.clubs[18].note"
+      ]
+    },
+    {
+      "t": "El propio nombre de nuestro club es la palabra latina para “amor a todos” o caridad, el amor cristiano a la humanidad, así que aprovechamos toda ocasión para ser las manos y… — responsable Dr. Leahy, 219",
+      "of": "02f5b826",
+      "at": [
+        "charlotte-catholic:catalog.clubs[19].note"
+      ]
+    },
+    {
+      "t": "El propósito de CLT Foundation es enriquecer y cambiar la vida de niños con necesidades especiales y de niños con circunstancias médicas que les cambian la vida — responsable Mrs. Taylor, sala de danza",
+      "of": "8fb02825",
+      "at": [
+        "charlotte-catholic:catalog.clubs[20].note"
+      ]
+    },
+    {
+      "t": "Reunir al alumnado que comparte interés por un videojuego popular — responsable Ms. El Fahsi, 208",
+      "of": "c6e14267",
+      "at": [
+        "charlotte-catholic:catalog.clubs[21].note"
+      ]
+    },
+    {
+      "t": "Este club se reúne una vez al mes, en el aula 300, normalmente después de clase — responsable Mr. Goodier, 300",
+      "of": "465ff954",
+      "at": [
+        "charlotte-catholic:catalog.clubs[22].note"
+      ]
+    },
+    {
+      "t": "Establecer una conexión física de cuidado de la creación de Dios con proyectos de servicio que mejoren nuestro trato a los ecosistemas y los recursos — responsable Mrs. Albertson, 325",
+      "of": "01a301bd",
+      "at": [
+        "charlotte-catholic:catalog.clubs[23].note"
+      ]
+    },
+    {
+      "t": "Se centra en un voluntariado ameno dedicado a ayudar a personas con problemas de movilidad — responsable Mr. Georges, 316",
+      "of": "c3521063",
+      "at": [
+        "charlotte-catholic:catalog.clubs[24].note"
+      ]
+    },
+    {
+      "t": "Llevar alegría a personas mayores desfavorecidas — responsables Mrs. Cusack y Ms. DalCerro, 217",
+      "of": "9b3e1b97",
+      "at": [
+        "charlotte-catholic:catalog.clubs[25].note"
+      ]
+    },
+    {
+      "t": "Se centra en oportunidades de servicio en torno a la construcción de viviendas, además de voluntariado en distintos departamentos de las restore de… — responsable Mr. Smith",
+      "of": "a0f37ed2",
+      "at": [
+        "charlotte-catholic:catalog.clubs[26].note"
+      ]
+    },
+    {
+      "t": "Ayudar a personas desfavorecidas durante las fiestas — responsable Dr. Sigwald, 225",
+      "of": "6d1bd31d",
+      "at": [
+        "charlotte-catholic:catalog.clubs[27].note"
+      ]
+    },
+    {
+      "t": "El club Helping with Mom’s in Needs es un club que colabora con la organización Walking With Mom’s in Need en St — responsable Mrs. Crainer, 319",
+      "of": "b3e27899",
+      "at": [
+        "charlotte-catholic:catalog.clubs[28].note"
+      ]
+    },
+    {
+      "t": "Cada miembro del club Letters to Little Buddies tendrá un amigo por correspondencia de una escuela primaria de MACS, le escribirá cartas y hará distintas… — responsable Mrs. Finnegan, 223",
+      "of": "cdb9865c",
+      "at": [
+        "charlotte-catholic:catalog.clubs[29].note"
+      ]
+    },
+    {
+      "t": "Consiste en recaudar fondos para la fundación LLB y ayudar a niños desfavorecidos — responsable Mr. Chuttey, biblioteca",
+      "of": "3da369f3",
+      "at": [
+        "charlotte-catholic:catalog.clubs[30].note"
+      ]
+    },
+    {
+      "t": "El club Mel’s Diner trabajará para dar comida a personas necesitadas, como las personas sin hogar de nuestra comunidad y los refugiados, un sábado al mes — responsable Mrs. Kosanovich, St. Matthew's Parish Center",
+      "of": "3353c6c9",
+      "at": [
+        "charlotte-catholic:catalog.clubs[31].note"
+      ]
+    },
+    {
+      "t": "Muffin Ministry es un club donde el alumnado puede hornear magdalenas para repartirlas a los ministerios que atienden a personas sin hogar en St — responsable Ms. El Fahsi, 208",
+      "of": "b77aa09f",
+      "at": [
+        "charlotte-catholic:catalog.clubs[32].note"
+      ]
+    },
+    {
+      "t": "Recoger ropa en buen estado para venderla de segunda mano y donar lo recaudado a organizaciones benéficas de mujeres — responsable Mrs. Simpson, 514",
+      "of": "47d1bc13",
+      "at": [
+        "charlotte-catholic:catalog.clubs[33].note"
+      ]
+    },
+    {
+      "t": "El propósito de Pawsitive Impact Society es ayudar a la sociedad protectora de animales de Charlotte fabricando juguetes, donando comida y haciendo voluntariado en la… — responsable Mrs. Bick, 318",
+      "of": "b24eeb5d",
+      "at": [
+        "charlotte-catholic:catalog.clubs[34].note"
+      ]
+    },
+    {
+      "t": "Mostrar conocimientos y técnicas de primeros auxilios para prepararse ante ciertas situaciones que cambian la vida — responsable Mrs. Tripp, 324",
+      "of": "2bdc5036",
+      "at": [
+        "charlotte-catholic:catalog.clubs[35].note"
+      ]
+    },
+    {
+      "t": "El club Ronald McDonald House Charities of Greater Charlotte organizará ventas de repostería y recogidas de material para donar a la organización, y visitará… — responsable Mrs. Burnham, 206",
+      "of": "31f6c8b8",
+      "at": [
+        "charlotte-catholic:catalog.clubs[36].note"
+      ]
+    },
+    {
+      "t": "Ofrecer oportunidades de servicio al alumnado y ayudar a los estudiantes sin atención de Wayfinders — responsable Mrs. Adamian, 521",
+      "of": "011e8d50",
+      "at": [
+        "charlotte-catholic:catalog.clubs[37].note"
+      ]
+    },
+    {
+      "t": "Figura en el directorio de clubes del centro — responsable Mr. Needham",
+      "of": "f75a6eb7",
+      "at": [
+        "charlotte-catholic:catalog.clubs[38].note"
+      ]
+    },
+    {
+      "t": "Figura debajo del directorio de clubes — responsable Mr. Quintero, oficinas de Campus Ministry",
+      "of": "868773ce",
+      "at": [
+        "charlotte-catholic:catalog.clubs[39].note"
+      ]
+    },
+    {
+      "t": "El Charlotte Catholic Beautification Club trabajará para mejorar la vida del alumnado y honrar a Dios embelleciendo el campus mediante proyectos de servicio y… — responsable Mrs. Carano, cafetería",
+      "of": "5895d967",
+      "at": [
+        "charlotte-catholic:catalog.clubs[40].note"
+      ]
+    },
+    {
+      "t": "Reunir al alumnado cuyos padres se graduaron en CCHS para fomentar la comunidad y estrechar el vínculo con los exalumnos — responsables Mrs. Clementi y Mr. Morgan, 218",
+      "of": "d0d613e2",
+      "at": [
+        "charlotte-catholic:catalog.clubs[41].note"
+      ]
+    },
+    {
+      "t": "Concienciar sobre los problemas de salud mental en nuestra comunidad escolar y ayudar a quien lo necesita — responsable Mrs. Clementi, orientación",
+      "of": "d4770fdc",
+      "at": [
+        "charlotte-catholic:catalog.clubs[42].note"
+      ]
+    },
+    {
+      "t": "El propósito de Morgan’s Message es normalizar las conversaciones sobre las dificultades mentales y físicas que abundan en el ámbito del deportista estudiante… — responsable Mr. Christmas, gimnasio",
+      "of": "38a2ba4c",
+      "at": [
+        "charlotte-catholic:catalog.clubs[43].note"
+      ]
+    },
+    {
+      "t": "Crea una oportunidad para que el alumnado construya una comunidad de interés explorando el mundo de la fotografía — responsable Mr. Johnson, 623",
+      "of": "8997a1d4",
+      "at": [
+        "charlotte-catholic:catalog.clubs[44].note"
+      ]
+    },
+    {
+      "t": "Fomentar una comprensión y un aprecio más hondos de la gracia serena que brinda el rezo del Santo Rosario — responsable Mrs. Friedman, 303",
+      "of": "2ecbf56d",
+      "at": [
+        "charlotte-catholic:catalog.clubs[45].note"
+      ]
+    },
+    {
+      "t": "Quiere que el alumnado de la comunidad de CCHS se sienta acogido y cuidado escribiendo palabras amables en notas adhesivas — o notas con caritas sonrientes — que se… — responsable Mrs. Madden, 532",
+      "of": "63181b93",
+      "at": [
+        "charlotte-catholic:catalog.clubs[46].note"
+      ]
+    },
+    {
+      "t": "El St — responsable Mr. Kennelly, 309",
+      "of": "50d37ed0",
+      "at": [
+        "charlotte-catholic:catalog.clubs[47].note"
+      ]
+    },
+    {
+      "t": "Crear un espacio intencionado de intercambio entre el alumnado negro y el resto del alumnado de Charlotte Catholic — responsable Dr. Sigwald, 225",
+      "of": "955a03ce",
+      "at": [
+        "charlotte-catholic:catalog.clubs[48].note"
+      ]
+    },
+    {
+      "t": "Es un club para el alumnado interesado en un origen étnico asiático-americano y de las islas del Pacífico, o que lo comparte, y en la fe católica — responsable Mr. Pham, biblioteca",
+      "of": "a17902bc",
+      "at": [
+        "charlotte-catholic:catalog.clubs[49].note"
+      ]
+    },
+    {
+      "t": "Trabaja para promover la lengua y la cultura alemanas mediante encuentros formativos, actos y proyectos de servicio — responsable Mrs. Schmid-Rankin, 527",
+      "of": "28b4d7af",
+      "at": [
+        "charlotte-catholic:catalog.clubs[50].note"
+      ]
+    },
+    {
+      "t": "La misión del Spanish Club es seguir formando a nuestro alumnado compartiendo las experiencias de las comunidades hispanohablantes, trayendo… — responsable Ms. Palomino, 204",
+      "of": "14201e60",
+      "at": [
+        "charlotte-catholic:catalog.clubs[51].note"
+      ]
+    },
+    {
+      "t": "En el Climbing Club nos reuniremos cada mes o cada dos meses para escalar en una de las tres sedes de Inner Peaks en Charlotte — responsable Mr. Kalbaugh, 211",
+      "of": "7c774592",
+      "at": [
+        "charlotte-catholic:catalog.clubs[52].note"
+      ]
+    },
+    {
+      "t": "El propósito de Fellowship of Christian Athletes es ayudar a los deportistas a conocer a Cristo y crecer en Él, y llevar a otros a hacer lo mismo mediante… — responsable Mr. Christmas, dirección deportiva",
+      "of": "cc23ea5f",
+      "at": [
+        "charlotte-catholic:catalog.clubs[53].note"
+      ]
+    },
+    {
+      "t": "Poner en contacto al alumnado que comparte pasión por el patinaje artístico y ayudar a aprender a patinar a quien tenga interés — responsable Ms. El Fahsi, 208",
+      "of": "3f7d0cc6",
+      "at": [
+        "charlotte-catholic:catalog.clubs[54].note"
+      ]
+    },
+    {
+      "t": "Figura en el directorio de clubes del centro — responsable Mr. Zenmke, Carolina Sports Complex",
+      "of": "6148fe05",
+      "at": [
+        "charlotte-catholic:catalog.clubs[55].note"
+      ]
+    },
+    {
+      "t": "Es un grupo de alumnos orientados al servicio que se esfuerzan por tener un impacto positivo en la comunidad mientras disfrutan del golf — responsable Mr. Panther, 214",
+      "of": "c5c64c6f",
+      "at": [
+        "charlotte-catholic:catalog.clubs[56].note"
+      ]
+    },
+    {
+      "t": "El propósito del Lacrosse Club es juntar a gente para conocer y jugar al lacrosse en un ambiente divertido y relajado, además de hacer nuevos amigos — responsable Mr. Kalbaugh, Davie Park",
+      "of": "e6506e1d",
+      "at": [
+        "charlotte-catholic:catalog.clubs[57].note"
+      ]
+    },
+    {
+      "t": "Representar a CCHS y a nuestra fe católica frente a otros equipos de rugby mostrando virtud y lealtad, y honrando a Charlotte Catholic — responsable Mr. Kuhn, 219",
+      "of": "919184fa",
+      "at": [
+        "charlotte-catholic:catalog.clubs[58].note"
+      ]
+    },
+    {
+      "t": "Permitir que el alumnado practique un deporte muy divertido y forje vínculos duraderos con otros alumnos — responsable Mrs. Best, Campus Ministry",
+      "of": "216c1d60",
+      "at": [
+        "charlotte-catholic:catalog.clubs[59].note"
+      ]
+    },
+    {
+      "t": "El objetivo del Ping Pong Club es crear una comunidad de jugadores de ping pong nuevos o veteranos — responsable Mr. Needham, Commons",
+      "of": "dfdfa587",
+      "at": [
+        "charlotte-catholic:catalog.clubs[60].note"
+      ]
+    },
+    {
+      "t": "Ayudar a dar visibilidad a distintas organizaciones benéficas de Charlotte participando en carreras de 5k que las apoyan — responsable Mr. Georges, 316",
+      "of": "c3b5f767",
+      "at": [
+        "charlotte-catholic:catalog.clubs[61].note"
+      ]
+    },
+    {
+      "t": "Disfrutar navegando a vela con amigos y aprender a navegar — responsable Mrs. Tripp, 324",
+      "of": "816c43f3",
+      "at": [
+        "charlotte-catholic:catalog.clubs[62].note"
+      ]
+    },
+    {
+      "t": "Hacer amigos patinando y promover el skate en la comunidad limpiando los skate parks — responsable Mr. Whitsell, Renaissance Skate Park",
+      "of": "87a55f6b",
+      "at": [
+        "charlotte-catholic:catalog.clubs[63].note"
+      ]
+    },
+    {
+      "t": "La misión de Soccer Souls es transmitir la alegría del fútbol a quienes no conocen el juego o no tienen medios para jugar — responsable Mrs. Yarussi, 311",
+      "of": "0099353d",
+      "at": [
+        "charlotte-catholic:catalog.clubs[64].note"
+      ]
+    },
+    {
+      "t": "Trabaja para ofrecer la mejor atención sanitaria a los deportistas de CCHS y, a la vez, formar al alumnado en métodos de medicina deportiva y cuidado del deportista — responsable Mr. Wisocki, sala de fisioterapia",
+      "of": "4a4b0afa",
+      "at": [
+        "charlotte-catholic:catalog.clubs[65].note"
+      ]
+    },
+    {
+      "t": "Ofrece al alumnado la oportunidad de practicar el wakeboard — responsable Mr. Hage, South Town Waterpark",
+      "of": "11740525",
+      "at": [
+        "charlotte-catholic:catalog.clubs[66].note"
+      ]
+    },
+    {
+      "t": "Trabajar para construir una comunidad con un amor común por el arte y aprender y mejorar en dibujo, pintura y arte en 3D — responsable Mrs. Parks, 621",
+      "of": "1a14b79d",
+      "at": [
+        "charlotte-catholic:catalog.clubs[67].note"
+      ]
+    },
+    {
+      "t": "Gira en torno a jugar a distintos juegos de cartas — responsable Mr. Sifuentes, 304",
+      "of": "e580293a",
+      "at": [
+        "charlotte-catholic:catalog.clubs[68].note"
+      ]
+    },
+    {
+      "t": "Nuestra misión es asegurarnos de que los demás se sientan apoyados y cuidados cuando pasan por momentos difíciles — responsable Mr. Galarde, 534",
+      "of": "67d284ce",
+      "at": [
+        "charlotte-catholic:catalog.clubs[69].note"
+      ]
+    },
+    {
+      "t": "Organiza ventas de repostería a lo largo del año para recaudar fondos benéficos y celebra encuentros de repostería para donar lo horneado — responsable Ms. Cabanna, 512",
+      "of": "77b894bc",
+      "at": [
+        "charlotte-catholic:catalog.clubs[70].note"
+      ]
+    },
+    {
+      "t": "Figura en el directorio de clubes del centro — responsable Ms. Waldron",
+      "of": "131ba04b",
+      "at": [
+        "charlotte-catholic:catalog.clubs[71].note"
+      ]
+    },
+    {
+      "t": "Ofrece un espacio para que el alumnado explore y comente álbumes influyentes de distintos géneros y épocas — responsable Mr. Queen, sala de trabajo de matemáticas",
+      "of": "a91e651d",
+      "at": [
+        "charlotte-catholic:catalog.clubs[72].note"
+      ]
+    },
+    {
+      "t": "Un club que se reúne una vez al mes para jugar juntos a juegos de mesa y de estrategia — responsable Mr. Dorsett, 306",
+      "of": "6cef2d2f",
+      "at": [
+        "charlotte-catholic:catalog.clubs[73].note"
+      ]
+    },
+    {
+      "t": "Permite que el alumnado se reúna en un ambiente divertido y acogedor para disfrutar de Pokémon y hacer amigos — responsable Mr. Tucker, 517",
+      "of": "6ac74421",
+      "at": [
+        "charlotte-catholic:catalog.clubs[74].note"
+      ]
+    },
+    {
+      "t": "Sew fun es un club que enseña a coser y a usar una máquina de coser — responsable Ms. Mirizio, 620",
+      "of": "30c1a7c5",
+      "at": [
+        "charlotte-catholic:catalog.clubs[75].note"
+      ]
+    },
+    {
+      "t": "El periódico escolar, la revista literaria, el anuario y un pódcast estudiantil existen todos, pero funcionan como asignaturas de Inglés — Journalism (234) y Yearbook (235) — y no como clubes, y por eso ninguno aparece en esta lista.",
+      "of": "f5d80dc1",
+      "at": [
+        "charlotte-catholic:catalog.divisions[0].text"
+      ]
+    },
+    {
+      "t": "Servicio (grados 9–12)",
+      "of": "60bf72d6",
+      "at": [
+        "charlotte-catholic:catalog.divisions[1].label"
+      ]
+    },
+    {
+      "t": "Para graduarse se exigen 70 horas de servicio aprobadas a lo largo de cuatro años — 10 en 9.º grado y 20 en cada uno de los grados 10.º a 12.º, al menos 5 de ellas de servicio parroquial cada año, entregadas antes del 1 de marzo.",
+      "of": "91cc70bf",
+      "at": [
+        "charlotte-catholic:catalog.divisions[1].text"
+      ]
+    },
+    {
+      "t": "Requisito para graduarse",
+      "of": "a5cdcdce",
+      "at": [
+        "charlotte-catholic:catalog.divisions[1].tag"
+      ]
+    },
+    {
+      "t": "Número de miembros",
+      "of": "3cbfc8ba",
+      "at": [
+        "charlotte-catholic:catalog.divisions[2].label"
+      ]
+    },
+    {
+      "t": "El directorio publica responsables y aulas, pero no cifras de miembros, ni proceso de solicitud, ni calendario de reuniones, así que a partir de él no se puede juzgar el tamaño ni la selectividad de un club concreto.",
+      "of": "bb6e3bfd",
+      "at": [
+        "charlotte-catholic:catalog.divisions[2].text"
+      ]
+    },
+    {
+      "t": "No publicado",
+      "of": "d945d814",
+      "at": [
+        "charlotte-catholic:catalog.divisions[2].tag"
+      ]
+    },
+    {
       "t": "Quince grupos de afinidad enumerados en las tres divisiones — todos ellos abiertos a cualquier estudiante — bajo un único foro paraguas, con un cuerpo de liderazgo estudiantil detrás.",
       "of": "c2dfd002",
       "at": [
@@ -2801,14 +4058,6 @@
       "of": "6e7dd702",
       "at": [
         "charlotte-country-day:clusters.rows[1].oneLiner"
-      ]
-    },
-    {
-      "t": "Solo mencionado",
-      "of": "a0706e54",
-      "at": [
-        "charlotte-country-day:clusters.rows[1].evidenceLabel",
-        "gaston-day:clusters.rows[4].evidenceLabel"
       ]
     },
     {
@@ -4324,15 +5573,6 @@
       "of": "198f83e5",
       "at": [
         "carmel-christian:clusters.verdict"
-      ]
-    },
-    {
-      "t": "Sociedades de honor →",
-      "of": "48a8bb43",
-      "at": [
-        "carmel-christian:clusters.rows[0].name",
-        "hickory-grove-christian:clusters.rows[0].name",
-        "gaston-day:clusters.rows[4].name"
       ]
     },
     {

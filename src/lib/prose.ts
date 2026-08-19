@@ -579,6 +579,27 @@ export function parseProse(raw: string, title?: string, topic?: string): ProseBl
   }
 
   for (const line of lines) {
+    /* ATX markdown headings ("# Title", "### Tuition by band and year").
+       The research files are markdown, but this parser only ever INFERRED
+       headings from wording — it never recognised `#` syntax — so the markers
+       survived into the rendered page as literal text ("# Covenant Day School —
+       … ### Tuition by band and year" ran together mid-paragraph). Recognise
+       them properly and render a real heading; the tone still comes from the
+       wording, so a "⚠️ …" or "At a glance" heading keeps its treatment. */
+    const atx = /^\s{0,3}(#{1,6})\s+(.+?)\s*#*\s*$/.exec(line)
+    if (atx) {
+      const text = atx[2].trim()
+      flushAll()
+      /* An H1 is the source document's own title, which is already the card's
+         title — rendering it again duplicates the heading. Skip it and keep the
+         body. Deeper levels are real in-note section headings. */
+      if (atx[1].length > 1 && text) {
+        blocks.push({ kind: 'heading', text, tone: headingTone(text) ?? 'default' })
+        mode = /source/i.test(text) ? 'sources' : 'body'
+      }
+      continue
+    }
+
     const tone = headingTone(line)
     if (tone) {
       flushAll()
