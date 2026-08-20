@@ -381,6 +381,29 @@ because `hi`/`te` regroup at render time, the data must still store the English
 3-3-3 figure, so a work file containing `$36,83,971` has hardcoded a regrouping
 the render layer would then apply a second time.
 
+**166 such re-typings shipped in `es` and were fixed 2026-08-19** (PR #159) —
+GPA scales (`4.33` → `4,33`), quality points (`+0.5` → `+0,5`), quintile spreads
+and, worst, `1,213` AP exams rendered `1.213`, which reads as *one point two one
+three*. They predated the checker and had sat at 178 for months.
+
+**Unit conversions are NOT drift, and the checker now knows the difference.**
+`es` alone renders `53,000 sq ft` as `4.924 m²` and `6-foot-10` as `2,08 m`.
+Those tokens are absent from the English by construction, so they flagged as
+drift for months and masked the 166 real re-typings above — a checker at a
+permanent non-zero reads as broken and stops being read. `CONVERSIONS` in
+`scripts/check_sep_drift.mjs` pins each accepted pair as **token + a source
+figure that must appear in the same entry's English text**, so `4.924` is
+forgiven only where the English actually says `53,000 sq ft`; the same token
+anywhere else is still a finding. Every pair is arithmetic-verified, and both
+properties are regression-tested by hand (a genuine `4.33` → `4,33` is still
+caught; an allowlisted token moved to an unrelated entry is still caught).
+
+**Open content question, deliberately not settled:** whether converted units
+belong in this data *at all*. Today only `es` converts, so a French or Italian
+reader — equally metric — gets square feet while a Spanish reader gets metres.
+Either answer is defensible; the current one-locale state is the only option
+that is not. Settle it and `CONVERSIONS` moves with it.
+
 **French has a native-speaker review.** French speakers read the rendered pages
 and accepted the prose (2026-07-30) — register, hedge strength, and the choice
 to leave `Upper School` and `French III Honors` in English. French therefore
