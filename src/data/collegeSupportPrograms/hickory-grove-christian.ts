@@ -202,6 +202,7 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
       { value: '26.7%', label: 'at UNC-Chapel Hill — 12 of 45, the most selective of the six' },
       { value: 'UNC Charlotte', label: 'drew the most applications in Fall 2025 (25)' },
     ],
+    latestTerm: '2025',
     universities: [
       {
         key: 'unc-chapel-hill',
