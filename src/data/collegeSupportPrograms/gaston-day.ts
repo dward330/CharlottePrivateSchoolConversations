@@ -294,6 +294,7 @@ export const gastonDay: CollegeSupportProgram = {
       { value: '29.6%', label: 'at UNC-Chapel Hill — 21 of 71, the most selective of the six' },
       { value: 'NC State University', label: 'drew the most applications in Fall 2025 (15)' },
     ],
+    latestTerm: '2025',
     universities: [
       {
         key: 'unc-chapel-hill',

@@ -155,8 +155,16 @@ export type NcAdmissions = {
   subhead?: string
   /** The 4-cell stat strip. */
   stats: CsStat[]
-  /** Heading over the ledger. */
+  /** Heading over the ledger. Overrides the composed default when set. */
   ledgerTitle?: string
+  /**
+   * The entering term the Applied / Accepted columns describe, e.g. '2025' for
+   * Fall 2025 — the dashboard's own label, NOT a high-school "Class of" year.
+   * Terms are per-school (the type note above), so this is stored rather than
+   * hardcoded in the heading: a school whose latest dashboard term is older
+   * would otherwise be captioned with a year its own figures do not support.
+   */
+  latestTerm?: string
   /**
    * The six universities, in US News rank order. Ships exactly six where the
    * dashboard has data for all six; a campus with no data is still listed

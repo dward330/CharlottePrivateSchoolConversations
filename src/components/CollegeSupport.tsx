@@ -228,7 +228,15 @@ export function NcAdmissionsBody({ data }: { data: NcAdmissions }) {
       <Lead headline={data.headline} subhead={data.subhead} />
       <Stats stats={data.stats} />
 
-      <Heading>{data.ledgerTitle ?? t('sections.ncLedger')}</Heading>
+      {/* Composed from the school's OWN latestTerm, so a school whose newest
+          dashboard term is older is never captioned with a year its figures do
+          not support. Falls back to the bare heading when the term is absent. */}
+      <Heading>
+        {data.ledgerTitle
+          ?? (data.latestTerm
+            ? t('sections.ncLedgerTerm', { term: data.latestTerm })
+            : t('sections.ncLedger'))}
+      </Heading>
       <div className="cs-ledger-wrap">
         <table className="cs-ledger cs-nc-ledger">
           <thead>

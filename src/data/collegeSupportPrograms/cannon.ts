@@ -342,6 +342,7 @@ export const cannon: CollegeSupportProgram = {
       { value: '37.4%', label: 'at UNC-Chapel Hill — 102 of 273, the most selective of the six' },
       { value: 'UNC-Chapel Hill', label: 'drew the most applications in Fall 2025 (63)' },
     ],
+    latestTerm: '2025',
     universities: [
       {
         key: 'unc-chapel-hill',

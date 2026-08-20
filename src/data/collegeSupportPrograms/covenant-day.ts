@@ -48,6 +48,7 @@ export const covenantDay: CollegeSupportProgram = {
       { value: '34.6%', label: 'at UNC-Chapel Hill — 47 of 136, the most selective of the six' },
       { value: 'NC State University', label: 'drew the most applications in Fall 2025 (42)' },
     ],
+    latestTerm: '2025',
     universities: [
       {
         key: 'unc-chapel-hill',
