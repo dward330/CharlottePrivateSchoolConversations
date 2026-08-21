@@ -34,3 +34,4 @@ Newest last.
 | [topicguard](topicguard.md) | Verify `check:live`'s `FOREIGN_TOPICS` allowlist against the content extractor instead of trusting it | 2026-08-20 | Superseded by [chromeguard](chromeguard.md) | — |
 | [halfday](halfday.md) | Translate 'Half day' — the one day-vocabulary value with no chrome key, rendering English in all nine locales | 2026-08-20 | Superseded by [chromeguard](chromeguard.md) | — |
 | [chromeguard](chromeguard.md) | Translate 'Half day', tighten the chrome-key checker, and make FOREIGN_TOPICS a verified claim | 2026-08-20 | Implemented | [#170](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/170) |
+| [contentlive](contentlive.md) | Check the content overlay's 70 blocks per locale for wrong-but-well-formed translations, the one gap neither resolution checker covers | 2026-08-20 | Implemented | [#171](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/171) |

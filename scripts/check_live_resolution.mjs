@@ -76,6 +76,27 @@ import {
  * extractor itself: the topic must be one the extractor will accept, and every
  * shipped block hash must reproduce from a fresh extract of src/content/**.
  *
+ * WHAT THE THREE GATES COVER, measured 2026-08-20 rather than assumed:
+ *
+ *   gate 1 — the extractor's LIVE map accepts the topic
+ *   gate 2 — every shipped hash reproduces from a fresh extract of src/content/**
+ *   gate 3 — every shipped translated VALUE is substantive (see verifyForeignTopic)
+ *
+ * A SECOND CORRECTION, to this file and to CLAUDE.md and .claude/plans/chromeguard.md.
+ * All three said these 70 blocks were "covered by check:runtime but NOT by
+ * check:live", which reads as "the resolution gap is open here". That is wrong.
+ * Gate 2 was written to prove the ALLOWLIST ENTRY is honest, but it proves it by
+ * requiring `shipped ⊆ fresh extract`, and a hash is a stamp of the live English —
+ * so it also, genuinely, catches English edited in src/content after the overlay
+ * was built. Editing `Platform: Clarity` -> `ClarityX` in
+ * src/content/financial-aid-tuition/gaston-day.json exits 1 here and exits 0 under
+ * check:runtime. Gate 2 does the resolution job under another name.
+ *
+ * What was genuinely uncovered, and is what gate 3 now closes, is a DIFFERENT
+ * failure: a block whose hash is valid but whose translated value is empty, still
+ * English, or garbage. Both checkers exited 0 on all three. Gate 3 found 14 real
+ * untranslated blocks on its first run (fr x5, hi x4, it x5).
+ *
  * What that does NOT buy — stated plainly rather than papered over: gate 1
  * delegates "is this a real foreign topic" to the LIVE map in
  * i18n_extract_content.mjs, so a maintainer determined to silence a red build
@@ -83,6 +104,11 @@ import {
  * two files, self-contradicting, and gate 2 still fails it because the extractor
  * finds no src/content/<topic>/ to extract from. Whether a genuinely new
  * extractor warrants a new entry here remains a human judgment no check makes.
+ *
+ * Still open, and deliberately out of this file's scope: the same
+ * wrong-but-well-formed class across the OTHER nine overlays (11,341 entries per
+ * locale, versus 70 here). `i18n:leaks` partially covers the English-left case
+ * there via cross-locale consensus.
  */
 const FOREIGN_TOPICS = new Set(['financial-aid-tuition.content'])
 
@@ -112,6 +138,98 @@ function shippedHashes(overlay) {
   const fromStrings = (overlay.strings ?? []).map((x) => x.of)
   return new Set([...fromBlocks, ...fromStrings])
 }
+
+/**
+ * The TRANSLATED VALUE an overlay ships per hash, across BOTH overlay shapes.
+ *
+ * Sibling to shippedHashes(), deliberately NOT folded into it: that function is
+ * called where only the key set is wanted (gate 2's set arithmetic), and widening
+ * its return type would make every caller carry values it does not use.
+ *
+ *   `blocks`  — an OBJECT, hash → translated string (the content extractor's shape)
+ *   `strings` — an ARRAY of {of, t, ...} (i18n_build_overlay.mjs's shape)
+ *
+ * A third shape, `sections`, exists in the WORK files only and is read separately
+ * by workEnglish(); it is not an overlay shape and is not handled here.
+ */
+function blockValues(overlay) {
+  const out = new Map()
+  for (const [h, t] of Object.entries(overlay.blocks ?? {})) out.set(h, t)
+  for (const x of overlay.strings ?? []) out.set(x.of, x.t)
+  return out
+}
+
+/**
+ * English `text` per hash from a locale's WORK file, or null if there is none.
+ *
+ * This is the join that makes gate 3 cheap: the work file carries `text`
+ * (English) and `t` (translation) side by side, so no second extract is needed
+ * to get the English a shipped block was made from.
+ *
+ * Shape note: work files use `sections`, an ARRAY of {of, subtopic, kind?, at[],
+ * text, t}. `kind` is absent on 56 of the 70 content blocks, so anything reading
+ * it must use `?.` / `??` rather than assuming the key exists.
+ *
+ * Staleness is not a concern here because gate 2 runs first and asserts
+ * `shipped ⊆ fresh extract of src/content/**`; a work file whose English had
+ * drifted from live would surface there as an orphan hash before gate 3 compares
+ * against it.
+ */
+function workEnglish(topic, lang) {
+  const p = join(OVERLAYS, 'work', `${topic}.${lang}.json`)
+  if (!existsSync(p)) return null
+  const w = JSON.parse(readFileSync(p, 'utf8'))
+  return new Map((w.sections ?? []).map((s) => [s.of, s.text]))
+}
+
+/**
+ * Hashes whose translation may legitimately be byte-identical to its English.
+ *
+ * ONE entry, and it is deliberately hash-keyed rather than a blanket rule such as
+ * "skip strings under N characters". A length exemption would have swallowed the
+ * 14 genuine leaks this gate found on its first run (fr ×5, hi ×4, it ×5), which
+ * were 30- to 1,530-character blocks of real prose left in English.
+ *
+ * The test applied when adding an entry is the cross-locale consensus one
+ * `i18n:leaks` uses: a block left English by ALL NINE locales is a keep; a block
+ * translated by six or seven of them and left English by the rest is a leak.
+ *
+ *   c4e4dc86  '---'  — a Markdown horizontal rule. No natural language in it at
+ *                      all, and identical in all nine locales.
+ *
+ * NOT exempt, though they look like candidates: the five Wayback tuition-quote
+ * blocks (92553f5e, a540e708, 78e448bd, df673496, 45fe4467). Each wraps its
+ * verbatim quote in translatable framing — `Wayback X and Y, both of the live
+ * tuition page. Verbatim: "..."` — and six or seven locales correctly translate
+ * that framing while copying the quoted figures char-for-char. Exempting them
+ * would license exactly the leak that shipped.
+ */
+const IDENTICAL_OK = new Set(['c4e4dc86'])
+
+/* Length-ratio bounds for gate 3, calibrated against all 9 locales x 70 blocks
+   on 2026-08-20 before being enforced.
+
+   Applied ONLY to blocks whose English is >= MIN_LEN characters. Across all 630
+   pairs the ratio spans 0.500-3.750, but every extreme is a short block where the
+   measure is meaningless: 'Fees' -> Arabic is 3.750x, 'Bus services' -> Spanish
+   2.583x. Restricted to English >= 80 chars (324 pairs) the range tightens to
+   0.758-1.438, and the bounds below sit ~1.8x outside it on both sides.
+
+   A ratio rule that fires on a correct repo is worse than no rule — this repo has
+   two recorded cases of a checker parked at a non-zero number and stopping being
+   read (check:sepdrift, and check:live itself at 4,646). Hence the length floor
+   rather than a wider bound: widening to fit 'Fees' would put the ceiling near 4x
+   and stop catching anything. */
+const RATIO_MIN_LEN = 80
+const RATIO_LO = 0.4
+const RATIO_HI = 2.5
+
+/* Translated values gate 3 actually compared, for the run summary. See step 5 of
+   .claude/plans/contentlive.md: check:live printed `11341 shipped entries` while
+   check:runtime printed `11411`, and that silent 70-block delta is what made this
+   overlay look uncovered. A number that excludes what it checks invites exactly
+   that mistake. */
+let foreignBlocksVerified = 0
 
 /* One extract per base topic per invocation. check_live_all.mjs runs this script
    once per locale, and the extraction is locale-independent for hash purposes. */
@@ -161,7 +279,15 @@ function freshExtract(base) {
  * src/content, and it is the one these blocks were made from."
  */
 function verifyForeignTopic(topic, filesByTopic, extractorTopics, verbose) {
+  /* Findings carry a `kind` so the caller can report them on SEPARATE EXIT
+     PATHS. A gate-1/2 finding means "the allowlist entry is dishonest" and its
+     remedy is to fix or remove the FOREIGN_TOPICS line. A gate-3 finding means
+     "a shipped translation is bad" and that remedy would be exactly wrong — it
+     would silence a real defect. Mirrors the two-exit-path split in
+     check_chrome_keys.mjs (PR #170), which is what lets an English-first phase
+     ship green without the gate going quiet. */
   const out = []
+  const bad = (kind, msg) => out.push({ kind, msg })
 
   /* The filename parse fuses topic and extractor discriminator into one string:
      `financial-aid-tuition.content`. The extractor takes only the base as
@@ -172,7 +298,8 @@ function verifyForeignTopic(topic, filesByTopic, extractorTopics, verbose) {
 
   // A stale or misspelled entry reads as protection while protecting nothing.
   if (!filesByTopic.has(topic)) {
-    out.push(
+    bad(
+      'allowlist',
       `FOREIGN_TOPICS entry '${topic}' matches no overlay file for --lang ${LANG}.
 ` +
         `      A stale or misspelled entry silences nothing and reads as protection. ` +
@@ -184,7 +311,8 @@ function verifyForeignTopic(topic, filesByTopic, extractorTopics, verbose) {
   // GATE 1 — the extractor's own LIVE map. This alone refuses every src/data
   // topic, on the extractor's authority rather than a list mirrored in here.
   if (!extractorTopics.has(base)) {
-    out.push(
+    bad(
+      'allowlist',
       `FOREIGN_TOPICS entry '${topic}' is not something i18n_extract_content.mjs ` +
         `can produce.
       Its LIVE map holds: ${[...extractorTopics].join(', ')}. ` +
@@ -195,14 +323,14 @@ function verifyForeignTopic(topic, filesByTopic, extractorTopics, verbose) {
     return out
   }
 
-  const shipped = shippedHashes(
-    JSON.parse(readFileSync(join(OVERLAYS, filesByTopic.get(topic)), 'utf8')),
-  )
+  const overlay = JSON.parse(readFileSync(join(OVERLAYS, filesByTopic.get(topic)), 'utf8'))
+  const shipped = shippedHashes(overlay)
 
   // GATE 2 — the shipped hashes must reproduce from a fresh extract.
   const fresh = freshExtract(base)
   if (fresh === null) {
-    out.push(
+    bad(
+      'allowlist',
       `FOREIGN_TOPICS entry '${topic}': the content extractor refused or failed on ` +
         `--topic ${base}.`,
     )
@@ -223,7 +351,8 @@ function verifyForeignTopic(topic, filesByTopic, extractorTopics, verbose) {
      fail on normal partial translation. */
   const orphans = [...shipped].filter((h) => !fresh.has(h))
   if (orphans.length) {
-    out.push(
+    bad(
+      'allowlist',
       `FOREIGN_TOPICS entry '${topic}': ${orphans.length} of ${shipped.size} shipped ` +
         `block hash(es) do NOT reproduce
       from a fresh extract of src/content/${base}/ ` +
@@ -234,12 +363,91 @@ function verifyForeignTopic(topic, filesByTopic, extractorTopics, verbose) {
     return out
   }
 
+  /* ── GATE 3 — the shipped translated VALUES must be substantive ────────────
+     Gates 1 and 2 prove the allowlist entry is honest and that each shipped hash
+     still stamps live English. Neither looks at what was translated. A block
+     whose hash is valid but whose value is empty, still English, or garbage
+     resolves perfectly and renders the wrong thing — measured on main at
+     2026-08-20, both check:live and check:runtime exited 0 on exactly that.
+
+     That is the failure this gate exists for, and it is a bad one to ship here:
+     these blocks carry Wayback-cited tuition figures quoted char-for-char, a
+     "Not FACTS and not TADS" mis-attribution warning that inverts if garbled, and
+     confirmed-null aid claims. */
+  const english = workEnglish(topic, LANG)
+  if (english === null) {
+    bad(
+      'allowlist',
+      `FOREIGN_TOPICS entry '${topic}': no work file at ` +
+        `src/data/overlays/work/${topic}.${LANG}.json,
+      so the shipped translations ` +
+        `cannot be checked against their English. Re-run the extractor for this locale.`,
+    )
+    return out
+  }
+
+  let verified = 0
+  for (const [hash, t] of blockValues(overlay)) {
+    const e = english.get(hash)
+    /* No English for a shipped hash cannot happen after gate 2 (shipped ⊆ fresh
+       extract, and the work file is that extract's output) — but if the work file
+       is partial, skipping is right: gate 3 asserts about pairs it can see. */
+    if (e === undefined) continue
+    verified++
+
+    const value = String(t ?? '')
+    if (!value.trim()) {
+      bad(
+        'translation',
+        `${topic}.${LANG}: block ${hash} ships an EMPTY translation.
+      ` +
+          `en: ${JSON.stringify(e.slice(0, 60))}`,
+      )
+      continue
+    }
+
+    if (value === e && !IDENTICAL_OK.has(hash)) {
+      bad(
+        'translation',
+        `${topic}.${LANG}: block ${hash} is byte-identical to its English — ` +
+          `untranslated.
+      en: ${JSON.stringify(e.slice(0, 60))}
+      ` +
+          `If this block is legitimately identical in ALL NINE locales, add its hash to ` +
+          `IDENTICAL_OK
+      with a reason. If other locales translated it, it is a leak — ` +
+          `translate it.`,
+      )
+      continue
+    }
+
+    if (e.length >= RATIO_MIN_LEN) {
+      const ratio = value.length / e.length
+      if (ratio < RATIO_LO || ratio > RATIO_HI) {
+        bad(
+          'translation',
+          `${topic}.${LANG}: block ${hash} is ${ratio.toFixed(2)}x its English length ` +
+            `(outside ${RATIO_LO}–${RATIO_HI}),
+      which is the shape of a truncated or ` +
+            `garbage value. en ${e.length} chars, ${LANG} ${value.length}.
+      ` +
+            `en: ${JSON.stringify(e.slice(0, 60))}
+      ${LANG}: ${JSON.stringify(value.slice(0, 60))}`,
+        )
+      }
+    }
+  }
+
   if (verbose) {
     console.log(
       `  · ${topic}: verified — ${shipped.size}/${shipped.size} shipped block hashes ` +
-        `reproduced from src/content/${base}/`,
+        `reproduced from src/content/${base}/, ${verified} translated value(s) checked`,
     )
   }
+  /* Reported to the caller so the run summary can name what gate 3 covered.
+     check:live printing a total that silently excluded these 70 blocks is how
+     they came to be believed unchecked in the first place. */
+  foreignBlocksVerified += verified
   return out
 }
 
@@ -406,10 +614,13 @@ for (const topic of filesByTopic.keys()) {
   }
 }
 
+let badTranslations = 0
+
 for (const topic of FOREIGN_TOPICS) {
-  for (const finding of verifyForeignTopic(topic, filesByTopic, extractorTopics, VERBOSE)) {
-    console.error(`  ✗ ${finding}`)
-    badTopics++
+  for (const { kind, msg } of verifyForeignTopic(topic, filesByTopic, extractorTopics, VERBOSE)) {
+    console.error(`  ✗ ${msg}`)
+    if (kind === 'translation') badTranslations++
+    else badTopics++
   }
 }
 
@@ -451,6 +662,10 @@ for (const file of files) {
 console.log(
   `\n${LANG}: ${checked} shipped entr${checked === 1 ? 'y' : 'ies'} checked against ` +
     `${liveStamps.size} live English string(s)` +
+    (foreignBlocksVerified
+      ? `,\n  plus ${foreignBlocksVerified} foreign-topic block(s) verified against their ` +
+        `English`
+      : '') +
     (ONLY ? ` — topic ${ONLY}` : ''),
 )
 
@@ -471,6 +686,23 @@ if (badTopics) {
       `FOREIGN_TOPICS\n  (this file), and every FOREIGN_TOPICS entry must verify against ` +
       `the content extractor.\n  An unverified allowlist is a documented bypass in a ` +
       `build gate.`,
+  )
+  process.exit(1)
+}
+
+if (badTranslations) {
+  /* DELIBERATELY SEPARATE from the badTopics message above. That one tells a
+     maintainer to fix or remove a FOREIGN_TOPICS entry; applied to this finding
+     that advice would drop 70 real blocks from the check to silence a real
+     defect — the documented-bypass shape this file already guards against one
+     layer up. Say plainly that the remedy here is the translation. */
+  console.error(
+    `\n✗ ${badTranslations} shipped translation(s) in a foreign-topic overlay are empty, ` +
+      `still English,\n  or the wrong length. Their hashes are VALID, so they resolve and ` +
+      `render — the reader sees\n  the bad value, and coverage still reports 100%.\n\n  ` +
+      `Fix the translation in src/data/overlays/<topic>.<lang>.json. Do NOT edit ` +
+      `FOREIGN_TOPICS:\n  that list is about which extractor produced a file, not about ` +
+      `whether its contents are good.`,
   )
   process.exit(1)
 }
