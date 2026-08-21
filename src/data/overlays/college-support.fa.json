@@ -3,6 +3,160 @@
   "lang": "fa",
   "strings": [
     {
+      "t": "در شش دانشگاه دولتی برتر NC، متقاضیان Providence Day School در پنج دورهٔ ورودی اخیر با نرخ تجمیعی 51.1% پذیرفته شدند — 499 پذیرش از 977 درخواست.",
+      "of": "6160090d",
+      "at": [
+        "providence-day:ncAdmissions.headline"
+      ]
+    },
+    {
+      "t": "NC State University دشوارترین است: 32.4% در پاییز 2025 — 23 از 71 — در برابر نرخ‌های بسیار بالاتر در دانشگاه‌های کم‌گزینش‌تر. اینها ارقام سامانهٔ UNC است که ایالت منتشر کرده، نه ارقام خودِ مدرسه.",
+      "of": "cf61d66d",
+      "at": [
+        "providence-day:ncAdmissions.subhead"
+      ]
+    },
+    {
+      "t": "درخواست به شش دانشگاه، پاییز 2021–2025",
+      "of": "bd6703ca",
+      "at": [
+        "providence-day:ncAdmissions.stats[0].label",
+        "charlotte-latin:ncAdmissions.stats[0].label",
+        "charlotte-christian:ncAdmissions.stats[0].label",
+        "charlotte-catholic:ncAdmissions.stats[0].label",
+        "charlotte-country-day:ncAdmissions.stats[0].label",
+        "cannon:ncAdmissions.stats[0].label",
+        "covenant-day:ncAdmissions.stats[0].label",
+        "davidson-day:ncAdmissions.stats[0].label",
+        "carmel-christian:ncAdmissions.stats[0].label",
+        "hickory-grove-christian:ncAdmissions.stats[0].label",
+        "gaston-day:ncAdmissions.stats[0].label"
+      ]
+    },
+    {
+      "t": "نرخ پذیرش تجمیعی — 499 از 977 در آن پنج دوره",
+      "of": "679fe477",
+      "at": [
+        "providence-day:ncAdmissions.stats[1].label"
+      ]
+    },
+    {
+      "t": "در NC State University — 23 از 71، دشوارترینِ این شش برای این مدرسه",
+      "of": "c6474067",
+      "at": [
+        "providence-day:ncAdmissions.stats[2].label"
+      ]
+    },
+    {
+      "t": "بیشترین درخواست را در پاییز 2025 داشت (103)",
+      "of": "884365c8",
+      "at": [
+        "providence-day:ncAdmissions.stats[3].label"
+      ]
+    },
+    {
+      "t": "دانشگاه مادر · Chapel Hill",
+      "of": "e4fbefd6",
+      "at": [
+        "providence-day:ncAdmissions.universities[0].note",
+        "charlotte-country-day:ncAdmissions.universities[0].note"
+      ]
+    },
+    {
+      "t": "دانشگاه مادر STEM · Raleigh · گزینشی‌ترینِ این شش",
+      "of": "f452f952",
+      "at": [
+        "providence-day:ncAdmissions.universities[1].note",
+        "charlotte-country-day:ncAdmissions.universities[1].note"
+      ]
+    },
+    {
+      "t": "پردیس شهر خود",
+      "of": "80c3cf73",
+      "at": [
+        "providence-day:ncAdmissions.universities[2].note",
+        "charlotte-latin:ncAdmissions.universities[2].note",
+        "charlotte-christian:ncAdmissions.universities[2].note",
+        "charlotte-catholic:ncAdmissions.universities[2].note",
+        "charlotte-country-day:ncAdmissions.universities[2].note",
+        "davidson-day:ncAdmissions.universities[2].note",
+        "carmel-christian:ncAdmissions.universities[2].note",
+        "hickory-grove-christian:ncAdmissions.universities[2].note",
+        "gaston-day:ncAdmissions.universities[2].note"
+      ]
+    },
+    {
+      "t": "Greenville · شرق کارولینای شمالی",
+      "of": "3fca8b24",
+      "at": [
+        "providence-day:ncAdmissions.universities[3].note",
+        "charlotte-christian:ncAdmissions.universities[3].note",
+        "cannon:ncAdmissions.universities[3].note",
+        "covenant-day:ncAdmissions.universities[3].note",
+        "hickory-grove-christian:ncAdmissions.universities[3].note"
+      ]
+    },
+    {
+      "t": "ساحلی · گزینش متوسط",
+      "of": "c49d4c43",
+      "at": [
+        "providence-day:ncAdmissions.universities[4].note",
+        "charlotte-latin:ncAdmissions.universities[4].note",
+        "charlotte-christian:ncAdmissions.universities[4].note",
+        "charlotte-catholic:ncAdmissions.universities[4].note",
+        "charlotte-country-day:ncAdmissions.universities[4].note",
+        "cannon:ncAdmissions.universities[4].note",
+        "covenant-day:ncAdmissions.universities[4].note",
+        "davidson-day:ncAdmissions.universities[4].note",
+        "carmel-christian:ncAdmissions.universities[4].note",
+        "hickory-grove-christian:ncAdmissions.universities[4].note",
+        "gaston-day:ncAdmissions.universities[4].note"
+      ]
+    },
+    {
+      "t": "Piedmont Triad · بالاترین نرخ پذیرش در میان این شش",
+      "of": "013e700c",
+      "at": [
+        "providence-day:ncAdmissions.universities[5].note",
+        "charlotte-christian:ncAdmissions.universities[5].note",
+        "hickory-grove-christian:ncAdmissions.universities[5].note"
+      ]
+    },
+    {
+      "t": "هر سطر را یک رقم مشترک بخوانید: نرخی که آن دانشگاه متقاضیان این مدرسه را پذیرفته است — نه نرخ پذیرش کلی دانشگاه و نه سنجه‌ای از گزینش‌گری خودِ مدرسه. درخواست/پذیرفته مربوط به دورهٔ ورودی پاییز 2025 است؛ ستون 5 ساله پاییز 2021–2025 را به‌صورت مجموع(پذیرفته)/مجموع(درخواست) تجمیع می‌کند، بنابراین سالی با درخواست بیشتر وزن بیشتری دارد. شمارها همراه هر نرخ می‌آید، چون چند خانه تک‌رقمی است.",
+      "of": "99f2fb2d",
+      "at": [
+        "providence-day:ncAdmissions.methodNote",
+        "charlotte-latin:ncAdmissions.methodNote",
+        "charlotte-christian:ncAdmissions.methodNote",
+        "charlotte-catholic:ncAdmissions.methodNote",
+        "charlotte-country-day:ncAdmissions.methodNote",
+        "cannon:ncAdmissions.methodNote",
+        "covenant-day:ncAdmissions.methodNote",
+        "davidson-day:ncAdmissions.methodNote",
+        "carmel-christian:ncAdmissions.methodNote",
+        "hickory-grove-christian:ncAdmissions.methodNote",
+        "gaston-day:ncAdmissions.methodNote"
+      ]
+    },
+    {
+      "t": "ترتیب رتبه‌بندی از جدول **National Universities** نشریهٔ US News برای دانشگاه‌های دولتی NC پیروی می‌کند. این قید مهم است: Appalachian State در **Regional Universities South** رتبه‌بندی شده که فهرستی جداگانه است، پس «6 دانشگاه برتر NC» به‌خودی‌خود روشن نیست. با انتشار ویرایش بعدی دوباره ارزیابی کنید.",
+      "of": "d7187d7b",
+      "at": [
+        "providence-day:ncAdmissions.flags[0].text",
+        "charlotte-latin:ncAdmissions.flags[0].text",
+        "charlotte-christian:ncAdmissions.flags[0].text",
+        "charlotte-catholic:ncAdmissions.flags[0].text",
+        "charlotte-country-day:ncAdmissions.flags[0].text",
+        "cannon:ncAdmissions.flags[0].text",
+        "covenant-day:ncAdmissions.flags[0].text",
+        "davidson-day:ncAdmissions.flags[0].text",
+        "carmel-christian:ncAdmissions.flags[0].text",
+        "hickory-grove-christian:ncAdmissions.flags[0].text",
+        "gaston-day:ncAdmissions.flags[0].text"
+      ]
+    },
+    {
       "t": "هر دانش‌آموز AP باید در آزمون شرکت کند، پس توزیع نمره‌ای که دانشگاه‌ها می‌خوانند کامل است — و 94% نمره‌های 2025 سه یا بالاتر بود، با 77% در سطح 4 یا 5.",
       "of": "299ca066",
       "at": [
@@ -1585,6 +1739,98 @@
       ]
     },
     {
+      "t": "در شش دانشگاه دولتی برتر NC، متقاضیان Charlotte Latin School در پنج دورهٔ ورودی اخیر با نرخ تجمیعی 45.5% پذیرفته شدند — 334 پذیرش از 734 درخواست.",
+      "of": "d2183318",
+      "at": [
+        "charlotte-latin:ncAdmissions.headline"
+      ]
+    },
+    {
+      "t": "UNC-Chapel Hill دشوارترین است: 33.3% در پاییز 2025 — 23 از 69 — در برابر نرخ‌های بسیار بالاتر در دانشگاه‌های کم‌گزینش‌تر. اینها ارقام سامانهٔ UNC است که ایالت منتشر کرده، نه ارقام خودِ مدرسه.",
+      "of": "f35f7b29",
+      "at": [
+        "charlotte-latin:ncAdmissions.subhead"
+      ]
+    },
+    {
+      "t": "نرخ پذیرش تجمیعی — 334 از 734 در آن پنج دوره",
+      "of": "6cfab420",
+      "at": [
+        "charlotte-latin:ncAdmissions.stats[1].label"
+      ]
+    },
+    {
+      "t": "در UNC-Chapel Hill — 23 از 69، دشوارترینِ این شش برای این مدرسه",
+      "of": "c1b36f49",
+      "at": [
+        "charlotte-latin:ncAdmissions.stats[2].label"
+      ]
+    },
+    {
+      "t": "بیشترین درخواست را در پاییز 2025 داشت (69)",
+      "of": "3df062ff",
+      "at": [
+        "charlotte-latin:ncAdmissions.stats[3].label",
+        "charlotte-country-day:ncAdmissions.stats[3].label"
+      ]
+    },
+    {
+      "t": "دانشگاه مادر · Chapel Hill · گزینشی‌ترینِ این شش",
+      "of": "5c94c33d",
+      "at": [
+        "charlotte-latin:ncAdmissions.universities[0].note",
+        "charlotte-christian:ncAdmissions.universities[0].note",
+        "charlotte-catholic:ncAdmissions.universities[0].note",
+        "cannon:ncAdmissions.universities[0].note",
+        "covenant-day:ncAdmissions.universities[0].note",
+        "davidson-day:ncAdmissions.universities[0].note",
+        "carmel-christian:ncAdmissions.universities[0].note",
+        "hickory-grove-christian:ncAdmissions.universities[0].note",
+        "gaston-day:ncAdmissions.universities[0].note"
+      ]
+    },
+    {
+      "t": "دانشگاه مادر STEM · Raleigh",
+      "of": "30c46415",
+      "at": [
+        "charlotte-latin:ncAdmissions.universities[1].note",
+        "charlotte-christian:ncAdmissions.universities[1].note",
+        "charlotte-catholic:ncAdmissions.universities[1].note",
+        "cannon:ncAdmissions.universities[1].note",
+        "covenant-day:ncAdmissions.universities[1].note",
+        "davidson-day:ncAdmissions.universities[1].note",
+        "carmel-christian:ncAdmissions.universities[1].note",
+        "hickory-grove-christian:ncAdmissions.universities[1].note",
+        "gaston-day:ncAdmissions.universities[1].note"
+      ]
+    },
+    {
+      "t": "Greenville · شرق کارولینای شمالی · بالاترین نرخ پذیرش در میان این شش",
+      "of": "df4c696f",
+      "at": [
+        "charlotte-latin:ncAdmissions.universities[3].note",
+        "charlotte-catholic:ncAdmissions.universities[3].note",
+        "charlotte-country-day:ncAdmissions.universities[3].note",
+        "davidson-day:ncAdmissions.universities[3].note",
+        "carmel-christian:ncAdmissions.universities[3].note",
+        "gaston-day:ncAdmissions.universities[3].note"
+      ]
+    },
+    {
+      "t": "Piedmont Triad",
+      "of": "91680e35",
+      "at": [
+        "charlotte-latin:ncAdmissions.universities[5].note",
+        "charlotte-catholic:ncAdmissions.universities[5].note",
+        "charlotte-country-day:ncAdmissions.universities[5].note",
+        "cannon:ncAdmissions.universities[5].note",
+        "covenant-day:ncAdmissions.universities[5].note",
+        "davidson-day:ncAdmissions.universities[5].note",
+        "carmel-christian:ncAdmissions.universities[5].note",
+        "gaston-day:ncAdmissions.universities[5].note"
+      ]
+    },
+    {
       "t": "دانش‌آموزان کلاس‌های AP باید در آزمون شرکت کنند — اما برخلاف همتایانش، Latin هیچ توزیع نمرهٔ AP منتشر نمی‌کند، پس نتایج آن سیاست نامرئی است.",
       "of": "545617b6",
       "at": [
@@ -2645,6 +2891,41 @@
       ]
     },
     {
+      "t": "در شش دانشگاه دولتی برتر NC، متقاضیان Charlotte Christian School در پنج دورهٔ ورودی اخیر با نرخ تجمیعی 54.8% پذیرفته شدند — 382 پذیرش از 697 درخواست.",
+      "of": "98f4e24d",
+      "at": [
+        "charlotte-christian:ncAdmissions.headline"
+      ]
+    },
+    {
+      "t": "UNC-Chapel Hill دشوارترین است: 26.3% در پاییز 2025 — 10 از 38 — در برابر نرخ‌های بسیار بالاتر در دانشگاه‌های کم‌گزینش‌تر. اینها ارقام سامانهٔ UNC است که ایالت منتشر کرده، نه ارقام خودِ مدرسه.",
+      "of": "f0de089b",
+      "at": [
+        "charlotte-christian:ncAdmissions.subhead"
+      ]
+    },
+    {
+      "t": "نرخ پذیرش تجمیعی — 382 از 697 در آن پنج دوره",
+      "of": "786b5c5f",
+      "at": [
+        "charlotte-christian:ncAdmissions.stats[1].label"
+      ]
+    },
+    {
+      "t": "در UNC-Chapel Hill — 10 از 38، دشوارترینِ این شش برای این مدرسه",
+      "of": "a60352dd",
+      "at": [
+        "charlotte-christian:ncAdmissions.stats[2].label"
+      ]
+    },
+    {
+      "t": "بیشترین درخواست را در پاییز 2025 داشت (38)",
+      "of": "ba101061",
+      "at": [
+        "charlotte-christian:ncAdmissions.stats[3].label"
+      ]
+    },
+    {
       "t": "دانش‌آموزان کلاس‌های AP باید در آزمون شرکت کنند، و 89% آزمون‌های 2024 نمرهٔ 3 یا بالاتر گرفتند — نرخی که بر مجموعه‌ای الزامی به دست آمده و نه خودگزین.",
       "of": "5a98620f",
       "at": [
@@ -3681,6 +3962,41 @@
       "of": "cbefe47b",
       "at": [
         "charlotte-christian:verdict.checklist[7]"
+      ]
+    },
+    {
+      "t": "در شش دانشگاه دولتی برتر NC، متقاضیان Charlotte Catholic High School در پنج دورهٔ ورودی اخیر با نرخ تجمیعی 56.0% پذیرفته شدند — 1,175 پذیرش از 2,100 درخواست.",
+      "of": "bd1d168f",
+      "at": [
+        "charlotte-catholic:ncAdmissions.headline"
+      ]
+    },
+    {
+      "t": "UNC-Chapel Hill دشوارترین است: 23.3% در پاییز 2025 — 24 از 103 — در برابر نرخ‌های بسیار بالاتر در دانشگاه‌های کم‌گزینش‌تر. اینها ارقام سامانهٔ UNC است که ایالت منتشر کرده، نه ارقام خودِ مدرسه.",
+      "of": "bad1c34e",
+      "at": [
+        "charlotte-catholic:ncAdmissions.subhead"
+      ]
+    },
+    {
+      "t": "نرخ پذیرش تجمیعی — 1,175 از 2,100 در آن پنج دوره",
+      "of": "933748c1",
+      "at": [
+        "charlotte-catholic:ncAdmissions.stats[1].label"
+      ]
+    },
+    {
+      "t": "در UNC-Chapel Hill — 24 از 103، دشوارترینِ این شش برای این مدرسه",
+      "of": "fc80e88f",
+      "at": [
+        "charlotte-catholic:ncAdmissions.stats[2].label"
+      ]
+    },
+    {
+      "t": "بیشترین درخواست را در پاییز 2025 داشت (141)",
+      "of": "a78a3c92",
+      "at": [
+        "charlotte-catholic:ncAdmissions.stats[3].label"
       ]
     },
     {
@@ -5098,6 +5414,34 @@
       ]
     },
     {
+      "t": "در شش دانشگاه دولتی برتر NC، متقاضیان Charlotte Country Day School در پنج دورهٔ ورودی اخیر با نرخ تجمیعی 46.7% پذیرفته شدند — 328 پذیرش از 702 درخواست.",
+      "of": "ddd3a8b3",
+      "at": [
+        "charlotte-country-day:ncAdmissions.headline"
+      ]
+    },
+    {
+      "t": "NC State University دشوارترین است: 22.9% در پاییز 2025 — 11 از 48 — در برابر نرخ‌های بسیار بالاتر در دانشگاه‌های کم‌گزینش‌تر. اینها ارقام سامانهٔ UNC است که ایالت منتشر کرده، نه ارقام خودِ مدرسه.",
+      "of": "b39e1ac6",
+      "at": [
+        "charlotte-country-day:ncAdmissions.subhead"
+      ]
+    },
+    {
+      "t": "نرخ پذیرش تجمیعی — 328 از 702 در آن پنج دوره",
+      "of": "f0709b02",
+      "at": [
+        "charlotte-country-day:ncAdmissions.stats[1].label"
+      ]
+    },
+    {
+      "t": "در NC State University — 11 از 48، دشوارترینِ این شش برای این مدرسه",
+      "of": "41ba7648",
+      "at": [
+        "charlotte-country-day:ncAdmissions.stats[2].label"
+      ]
+    },
+    {
       "t": "530 آزمون AP در 2025 با 93% نمرهٔ 3 به بالا و 74% در سطح 4 یا 5 — و مدرسه آن نتایج را رشته به رشته منتشر می‌کند، از جمله نقاط ضعف.",
       "of": "c507f1d9",
       "at": [
@@ -6192,6 +6536,49 @@
       ]
     },
     {
+      "t": "در شش دانشگاه دولتی برتر NC، متقاضیان Cannon School در پنج دورهٔ ورودی اخیر با نرخ تجمیعی 60.8% پذیرفته شدند — 479 پذیرش از 788 درخواست.",
+      "of": "d5b76392",
+      "at": [
+        "cannon:ncAdmissions.headline"
+      ]
+    },
+    {
+      "t": "UNC-Chapel Hill دشوارترین است: 31.7% در پاییز 2025 — 20 از 63 — در برابر نرخ‌های بسیار بالاتر در دانشگاه‌های کم‌گزینش‌تر. اینها ارقام سامانهٔ UNC است که ایالت منتشر کرده، نه ارقام خودِ مدرسه.",
+      "of": "829ec004",
+      "at": [
+        "cannon:ncAdmissions.subhead"
+      ]
+    },
+    {
+      "t": "نرخ پذیرش تجمیعی — 479 از 788 در آن پنج دوره",
+      "of": "2127adad",
+      "at": [
+        "cannon:ncAdmissions.stats[1].label"
+      ]
+    },
+    {
+      "t": "در UNC-Chapel Hill — 20 از 63، دشوارترینِ این شش برای این مدرسه",
+      "of": "22e98354",
+      "at": [
+        "cannon:ncAdmissions.stats[2].label"
+      ]
+    },
+    {
+      "t": "بیشترین درخواست را در پاییز 2025 داشت (63)",
+      "of": "ba092b19",
+      "at": [
+        "cannon:ncAdmissions.stats[3].label"
+      ]
+    },
+    {
+      "t": "پردیس شهر خود · بالاترین نرخ پذیرش در میان این شش",
+      "of": "d0419022",
+      "at": [
+        "cannon:ncAdmissions.universities[2].note",
+        "covenant-day:ncAdmissions.universities[2].note"
+      ]
+    },
+    {
       "t": "مدرسهٔ Cannon چیزی منتشر می‌کند که تقریباً هیچ همتایی نمی‌کند — سقفی صریح برای بار درسی AP/AT به تفکیک پایه، که کارنامهٔ چهارساله را در یازده درس پیشرفته محدود می‌کند و دانش‌آموزان سال اول را به‌کلی کنار می‌گذارد.",
       "of": "bce93f90",
       "at": [
@@ -7196,6 +7583,41 @@
       "of": "0eab99f5",
       "at": [
         "cannon:verdict.checklist[7]"
+      ]
+    },
+    {
+      "t": "در شش دانشگاه دولتی برتر NC، متقاضیان Covenant Day School در پنج دورهٔ ورودی اخیر با نرخ تجمیعی 60.3% پذیرفته شدند — 301 پذیرش از 499 درخواست.",
+      "of": "db346c77",
+      "at": [
+        "covenant-day:ncAdmissions.headline"
+      ]
+    },
+    {
+      "t": "UNC-Chapel Hill دشوارترین است: 27.3% در پاییز 2025 — 9 از 33 — در برابر نرخ‌های بسیار بالاتر در دانشگاه‌های کم‌گزینش‌تر. اینها ارقام سامانهٔ UNC است که ایالت منتشر کرده، نه ارقام خودِ مدرسه.",
+      "of": "227b1381",
+      "at": [
+        "covenant-day:ncAdmissions.subhead"
+      ]
+    },
+    {
+      "t": "نرخ پذیرش تجمیعی — 301 از 499 در آن پنج دوره",
+      "of": "e905a170",
+      "at": [
+        "covenant-day:ncAdmissions.stats[1].label"
+      ]
+    },
+    {
+      "t": "در UNC-Chapel Hill — 9 از 33، دشوارترینِ این شش برای این مدرسه",
+      "of": "736f276a",
+      "at": [
+        "covenant-day:ncAdmissions.stats[2].label"
+      ]
+    },
+    {
+      "t": "بیشترین درخواست را در پاییز 2025 داشت (42)",
+      "of": "08d287a2",
+      "at": [
+        "covenant-day:ncAdmissions.stats[3].label"
       ]
     },
     {
@@ -8262,6 +8684,42 @@
       ]
     },
     {
+      "t": "در شش دانشگاه دولتی برتر NC، متقاضیان Davidson Day School در پنج دورهٔ ورودی اخیر با نرخ تجمیعی 59.4% پذیرفته شدند — 177 پذیرش از 298 درخواست.",
+      "of": "7803b068",
+      "at": [
+        "davidson-day:ncAdmissions.headline"
+      ]
+    },
+    {
+      "t": "UNC-Chapel Hill دشوارترین است: 40.0% در پاییز 2025 — 10 از 25 — در برابر نرخ‌های بسیار بالاتر در دانشگاه‌های کم‌گزینش‌تر. اینها ارقام سامانهٔ UNC است که ایالت منتشر کرده، نه ارقام خودِ مدرسه.",
+      "of": "3d820ae2",
+      "at": [
+        "davidson-day:ncAdmissions.subhead"
+      ]
+    },
+    {
+      "t": "نرخ پذیرش تجمیعی — 177 از 298 در آن پنج دوره",
+      "of": "4a13b310",
+      "at": [
+        "davidson-day:ncAdmissions.stats[1].label"
+      ]
+    },
+    {
+      "t": "در UNC-Chapel Hill — 10 از 25، دشوارترینِ این شش برای این مدرسه",
+      "of": "9423d88b",
+      "at": [
+        "davidson-day:ncAdmissions.stats[2].label"
+      ]
+    },
+    {
+      "t": "بیشترین درخواست را در پاییز 2025 داشت (25)",
+      "of": "0a7352bf",
+      "at": [
+        "davidson-day:ncAdmissions.stats[3].label",
+        "hickory-grove-christian:ncAdmissions.stats[3].label"
+      ]
+    },
+    {
       "t": "مدرسهٔ Davidson Day سازوکار نمره‌دهی خود را به‌تمامی منتشر می‌کند — مقیاس، وزن‌دهی، و فهرستی به‌طور غیرمعمولی صریح از آنچه از معدل کنار گذاشته می‌شود — اما هیچ نتیجهٔ آزمون AP و اصلاً هیچ کارنامه‌ای از National Merit منتشر نمی‌کند.",
       "of": "410e02c8",
       "at": [
@@ -9197,6 +9655,41 @@
       "of": "660d65b7",
       "at": [
         "davidson-day:verdict.checklist[7]"
+      ]
+    },
+    {
+      "t": "در شش دانشگاه دولتی برتر NC، متقاضیان Carmel Christian School در پنج دورهٔ ورودی اخیر با نرخ تجمیعی 59.2% پذیرفته شدند — 346 پذیرش از 584 درخواست.",
+      "of": "555db8cd",
+      "at": [
+        "carmel-christian:ncAdmissions.headline"
+      ]
+    },
+    {
+      "t": "UNC-Chapel Hill دشوارترین است: 25.0% در پاییز 2025 — 4 از 16 — در برابر نرخ‌های بسیار بالاتر در دانشگاه‌های کم‌گزینش‌تر. اینها ارقام سامانهٔ UNC است که ایالت منتشر کرده، نه ارقام خودِ مدرسه.",
+      "of": "1e8c9c30",
+      "at": [
+        "carmel-christian:ncAdmissions.subhead"
+      ]
+    },
+    {
+      "t": "نرخ پذیرش تجمیعی — 346 از 584 در آن پنج دوره",
+      "of": "be1aa1d2",
+      "at": [
+        "carmel-christian:ncAdmissions.stats[1].label"
+      ]
+    },
+    {
+      "t": "در UNC-Chapel Hill — 4 از 16، دشوارترینِ این شش برای این مدرسه",
+      "of": "08b5909c",
+      "at": [
+        "carmel-christian:ncAdmissions.stats[2].label"
+      ]
+    },
+    {
+      "t": "بیشترین درخواست را در پاییز 2025 داشت (31)",
+      "of": "be25dcfc",
+      "at": [
+        "carmel-christian:ncAdmissions.stats[3].label"
       ]
     },
     {
@@ -10210,6 +10703,34 @@
       ]
     },
     {
+      "t": "در شش دانشگاه دولتی برتر NC، متقاضیان Hickory Grove Christian School در پنج دورهٔ ورودی اخیر با نرخ تجمیعی 74.9% پذیرفته شدند — 256 پذیرش از 342 درخواست.",
+      "of": "031cb01f",
+      "at": [
+        "hickory-grove-christian:ncAdmissions.headline"
+      ]
+    },
+    {
+      "t": "UNC-Chapel Hill دشوارترین است: 20.0% در پاییز 2025 — 2 از 10 — در برابر نرخ‌های بسیار بالاتر در دانشگاه‌های کم‌گزینش‌تر. اینها ارقام سامانهٔ UNC است که ایالت منتشر کرده، نه ارقام خودِ مدرسه.",
+      "of": "d2c2212b",
+      "at": [
+        "hickory-grove-christian:ncAdmissions.subhead"
+      ]
+    },
+    {
+      "t": "نرخ پذیرش تجمیعی — 256 از 342 در آن پنج دوره",
+      "of": "ca4ed73c",
+      "at": [
+        "hickory-grove-christian:ncAdmissions.stats[1].label"
+      ]
+    },
+    {
+      "t": "در UNC-Chapel Hill — 2 از 10، دشوارترینِ این شش برای این مدرسه",
+      "of": "1e5ba680",
+      "at": [
+        "hickory-grove-christian:ncAdmissions.stats[2].label"
+      ]
+    },
+    {
       "t": "در May 2025، 82 دانش‌آموز در 176 آزمون AP در چارچوب یک برنامهٔ 17 درسی AP به‌همراه AP Capstone شرکت کردند — و 29 نفر از آنان در دست‌کم یک آزمون نمرهٔ 5 گرفتند.",
       "of": "60fddbac",
       "at": [
@@ -11012,6 +11533,41 @@
       "of": "4c1c1db4",
       "at": [
         "hickory-grove-christian:verdict.checklist[5]"
+      ]
+    },
+    {
+      "t": "در شش دانشگاه دولتی برتر NC، متقاضیان Gaston Day School در پنج دورهٔ ورودی اخیر با نرخ تجمیعی 57.9% پذیرفته شدند — 140 پذیرش از 242 درخواست.",
+      "of": "30322e8c",
+      "at": [
+        "gaston-day:ncAdmissions.headline"
+      ]
+    },
+    {
+      "t": "UNC-Chapel Hill دشوارترین است: 27.3% در پاییز 2025 — 3 از 11 — در برابر نرخ‌های بسیار بالاتر در دانشگاه‌های کم‌گزینش‌تر. اینها ارقام سامانهٔ UNC است که ایالت منتشر کرده، نه ارقام خودِ مدرسه.",
+      "of": "55fc96a3",
+      "at": [
+        "gaston-day:ncAdmissions.subhead"
+      ]
+    },
+    {
+      "t": "نرخ پذیرش تجمیعی — 140 از 242 در آن پنج دوره",
+      "of": "688feeb5",
+      "at": [
+        "gaston-day:ncAdmissions.stats[1].label"
+      ]
+    },
+    {
+      "t": "در UNC-Chapel Hill — 3 از 11، دشوارترینِ این شش برای این مدرسه",
+      "of": "7630baf8",
+      "at": [
+        "gaston-day:ncAdmissions.stats[2].label"
+      ]
+    },
+    {
+      "t": "بیشترین درخواست را در پاییز 2025 داشت (15)",
+      "of": "67c3defa",
+      "at": [
+        "gaston-day:ncAdmissions.stats[3].label"
       ]
     },
     {
@@ -12329,532 +12885,6 @@
       "of": "9ddca282",
       "at": [
         "gaston-day:verdict.checklist[6]"
-      ]
-    },
-    {
-      "t": "در شش دانشگاه دولتی برتر NC، متقاضیان Providence Day School در پنج دورهٔ ورودی اخیر با نرخ تجمیعی 51.1% پذیرفته شدند — 499 پذیرش از 977 درخواست.",
-      "of": "6160090d",
-      "at": [
-        "providence-day:ncAdmissions.headline"
-      ]
-    },
-    {
-      "t": "UNC-Chapel Hill دشوارترین است: نرخ تجمیعی 42.0% در آنجا، در برابر نرخ‌های بسیار بالاتر در پردیس‌های کم‌گزینش‌تر. اینها ارقام سامانهٔ UNC است که ایالت منتشر کرده، نه ارقام خودِ مدرسه.",
-      "of": "db884594",
-      "at": [
-        "providence-day:ncAdmissions.subhead"
-      ]
-    },
-    {
-      "t": "درخواست به شش پردیس، پاییز 2021–2025",
-      "of": "b3ea37bb",
-      "at": [
-        "providence-day:ncAdmissions.stats[0].label",
-        "charlotte-latin:ncAdmissions.stats[0].label",
-        "charlotte-christian:ncAdmissions.stats[0].label",
-        "charlotte-catholic:ncAdmissions.stats[0].label",
-        "charlotte-country-day:ncAdmissions.stats[0].label",
-        "cannon:ncAdmissions.stats[0].label",
-        "covenant-day:ncAdmissions.stats[0].label",
-        "davidson-day:ncAdmissions.stats[0].label",
-        "carmel-christian:ncAdmissions.stats[0].label",
-        "hickory-grove-christian:ncAdmissions.stats[0].label",
-        "gaston-day:ncAdmissions.stats[0].label"
-      ]
-    },
-    {
-      "t": "نرخ پذیرش تجمیعی — 499 از 977 در آن پنج دوره",
-      "of": "679fe477",
-      "at": [
-        "providence-day:ncAdmissions.stats[1].label"
-      ]
-    },
-    {
-      "t": "در UNC-Chapel Hill — 176 از 419، گزینشی‌ترینِ این شش",
-      "of": "95234246",
-      "at": [
-        "providence-day:ncAdmissions.stats[2].label"
-      ]
-    },
-    {
-      "t": "بیشترین درخواست را در پاییز 2025 داشت (103)",
-      "of": "884365c8",
-      "at": [
-        "providence-day:ncAdmissions.stats[3].label"
-      ]
-    },
-    {
-      "t": "دانشگاه مادر · گزینشی‌ترینِ این شش",
-      "of": "975de2ca",
-      "at": [
-        "providence-day:ncAdmissions.universities[0].note",
-        "charlotte-latin:ncAdmissions.universities[0].note",
-        "charlotte-christian:ncAdmissions.universities[0].note",
-        "charlotte-catholic:ncAdmissions.universities[0].note",
-        "charlotte-country-day:ncAdmissions.universities[0].note",
-        "cannon:ncAdmissions.universities[0].note",
-        "covenant-day:ncAdmissions.universities[0].note",
-        "davidson-day:ncAdmissions.universities[0].note",
-        "carmel-christian:ncAdmissions.universities[0].note",
-        "hickory-grove-christian:ncAdmissions.universities[0].note",
-        "gaston-day:ncAdmissions.universities[0].note"
-      ]
-    },
-    {
-      "t": "دانشگاه مادر STEM · Raleigh",
-      "of": "30c46415",
-      "at": [
-        "providence-day:ncAdmissions.universities[1].note",
-        "charlotte-latin:ncAdmissions.universities[1].note",
-        "charlotte-christian:ncAdmissions.universities[1].note",
-        "charlotte-catholic:ncAdmissions.universities[1].note",
-        "charlotte-country-day:ncAdmissions.universities[1].note",
-        "cannon:ncAdmissions.universities[1].note",
-        "covenant-day:ncAdmissions.universities[1].note",
-        "davidson-day:ncAdmissions.universities[1].note",
-        "carmel-christian:ncAdmissions.universities[1].note",
-        "hickory-grove-christian:ncAdmissions.universities[1].note",
-        "gaston-day:ncAdmissions.universities[1].note"
-      ]
-    },
-    {
-      "t": "پردیس شهر خود",
-      "of": "80c3cf73",
-      "at": [
-        "providence-day:ncAdmissions.universities[2].note",
-        "charlotte-latin:ncAdmissions.universities[2].note",
-        "charlotte-christian:ncAdmissions.universities[2].note",
-        "charlotte-catholic:ncAdmissions.universities[2].note",
-        "charlotte-country-day:ncAdmissions.universities[2].note",
-        "cannon:ncAdmissions.universities[2].note",
-        "covenant-day:ncAdmissions.universities[2].note",
-        "davidson-day:ncAdmissions.universities[2].note",
-        "carmel-christian:ncAdmissions.universities[2].note",
-        "hickory-grove-christian:ncAdmissions.universities[2].note",
-        "gaston-day:ncAdmissions.universities[2].note"
-      ]
-    },
-    {
-      "t": "Greenville · بالاترین نرخ پذیرش در میان این شش",
-      "of": "0b01c1f3",
-      "at": [
-        "providence-day:ncAdmissions.universities[3].note",
-        "charlotte-latin:ncAdmissions.universities[3].note",
-        "charlotte-christian:ncAdmissions.universities[3].note",
-        "charlotte-catholic:ncAdmissions.universities[3].note",
-        "charlotte-country-day:ncAdmissions.universities[3].note",
-        "cannon:ncAdmissions.universities[3].note",
-        "covenant-day:ncAdmissions.universities[3].note",
-        "davidson-day:ncAdmissions.universities[3].note",
-        "carmel-christian:ncAdmissions.universities[3].note",
-        "hickory-grove-christian:ncAdmissions.universities[3].note",
-        "gaston-day:ncAdmissions.universities[3].note"
-      ]
-    },
-    {
-      "t": "ساحلی · گزینش متوسط",
-      "of": "c49d4c43",
-      "at": [
-        "providence-day:ncAdmissions.universities[4].note",
-        "charlotte-latin:ncAdmissions.universities[4].note",
-        "charlotte-christian:ncAdmissions.universities[4].note",
-        "charlotte-catholic:ncAdmissions.universities[4].note",
-        "charlotte-country-day:ncAdmissions.universities[4].note",
-        "cannon:ncAdmissions.universities[4].note",
-        "covenant-day:ncAdmissions.universities[4].note",
-        "davidson-day:ncAdmissions.universities[4].note",
-        "carmel-christian:ncAdmissions.universities[4].note",
-        "hickory-grove-christian:ncAdmissions.universities[4].note",
-        "gaston-day:ncAdmissions.universities[4].note"
-      ]
-    },
-    {
-      "t": "Piedmont Triad",
-      "of": "91680e35",
-      "at": [
-        "providence-day:ncAdmissions.universities[5].note",
-        "charlotte-latin:ncAdmissions.universities[5].note",
-        "charlotte-christian:ncAdmissions.universities[5].note",
-        "charlotte-catholic:ncAdmissions.universities[5].note",
-        "charlotte-country-day:ncAdmissions.universities[5].note",
-        "cannon:ncAdmissions.universities[5].note",
-        "covenant-day:ncAdmissions.universities[5].note",
-        "davidson-day:ncAdmissions.universities[5].note",
-        "carmel-christian:ncAdmissions.universities[5].note",
-        "hickory-grove-christian:ncAdmissions.universities[5].note",
-        "gaston-day:ncAdmissions.universities[5].note"
-      ]
-    },
-    {
-      "t": "هر سطر را یک رقم مشترک بخوانید: نرخی که آن دانشگاه متقاضیان این مدرسه را پذیرفته است — نه نرخ پذیرش کلی دانشگاه و نه سنجه‌ای از گزینش‌گری خودِ مدرسه. درخواست/پذیرفته مربوط به دورهٔ ورودی پاییز 2025 است؛ ستون 5 ساله پاییز 2021–2025 را به‌صورت مجموع(پذیرفته)/مجموع(درخواست) تجمیع می‌کند، بنابراین سالی با درخواست بیشتر وزن بیشتری دارد. شمارها همراه هر نرخ می‌آید، چون چند خانه تک‌رقمی است.",
-      "of": "99f2fb2d",
-      "at": [
-        "providence-day:ncAdmissions.methodNote",
-        "charlotte-latin:ncAdmissions.methodNote",
-        "charlotte-christian:ncAdmissions.methodNote",
-        "charlotte-catholic:ncAdmissions.methodNote",
-        "charlotte-country-day:ncAdmissions.methodNote",
-        "cannon:ncAdmissions.methodNote",
-        "covenant-day:ncAdmissions.methodNote",
-        "davidson-day:ncAdmissions.methodNote",
-        "carmel-christian:ncAdmissions.methodNote",
-        "hickory-grove-christian:ncAdmissions.methodNote",
-        "gaston-day:ncAdmissions.methodNote"
-      ]
-    },
-    {
-      "t": "ترتیب رتبه‌بندی از جدول **National Universities** نشریهٔ US News برای دانشگاه‌های دولتی NC پیروی می‌کند. این قید مهم است: Appalachian State در **Regional Universities South** رتبه‌بندی شده که فهرستی جداگانه است، پس «6 دانشگاه برتر NC» به‌خودی‌خود روشن نیست. با انتشار ویرایش بعدی دوباره ارزیابی کنید.",
-      "of": "d7187d7b",
-      "at": [
-        "providence-day:ncAdmissions.flags[0].text",
-        "charlotte-latin:ncAdmissions.flags[0].text",
-        "charlotte-christian:ncAdmissions.flags[0].text",
-        "charlotte-catholic:ncAdmissions.flags[0].text",
-        "charlotte-country-day:ncAdmissions.flags[0].text",
-        "cannon:ncAdmissions.flags[0].text",
-        "covenant-day:ncAdmissions.flags[0].text",
-        "davidson-day:ncAdmissions.flags[0].text",
-        "carmel-christian:ncAdmissions.flags[0].text",
-        "hickory-grove-christian:ncAdmissions.flags[0].text",
-        "gaston-day:ncAdmissions.flags[0].text"
-      ]
-    },
-    {
-      "t": "در شش دانشگاه دولتی برتر NC، متقاضیان Charlotte Latin School در پنج دورهٔ ورودی اخیر با نرخ تجمیعی 45.5% پذیرفته شدند — 334 پذیرش از 734 درخواست.",
-      "of": "d2183318",
-      "at": [
-        "charlotte-latin:ncAdmissions.headline"
-      ]
-    },
-    {
-      "t": "UNC-Chapel Hill دشوارترین است: نرخ تجمیعی 38.3% در آنجا، در برابر نرخ‌های بسیار بالاتر در پردیس‌های کم‌گزینش‌تر. اینها ارقام سامانهٔ UNC است که ایالت منتشر کرده، نه ارقام خودِ مدرسه.",
-      "of": "bd5d6bf0",
-      "at": [
-        "charlotte-latin:ncAdmissions.subhead"
-      ]
-    },
-    {
-      "t": "نرخ پذیرش تجمیعی — 334 از 734 در آن پنج دوره",
-      "of": "6cfab420",
-      "at": [
-        "charlotte-latin:ncAdmissions.stats[1].label"
-      ]
-    },
-    {
-      "t": "در UNC-Chapel Hill — 115 از 300، گزینشی‌ترینِ این شش",
-      "of": "64ff58fc",
-      "at": [
-        "charlotte-latin:ncAdmissions.stats[2].label"
-      ]
-    },
-    {
-      "t": "بیشترین درخواست را در پاییز 2025 داشت (69)",
-      "of": "3df062ff",
-      "at": [
-        "charlotte-latin:ncAdmissions.stats[3].label",
-        "charlotte-country-day:ncAdmissions.stats[3].label"
-      ]
-    },
-    {
-      "t": "در شش دانشگاه دولتی برتر NC، متقاضیان Charlotte Christian School در پنج دورهٔ ورودی اخیر با نرخ تجمیعی 54.8% پذیرفته شدند — 382 پذیرش از 697 درخواست.",
-      "of": "98f4e24d",
-      "at": [
-        "charlotte-christian:ncAdmissions.headline"
-      ]
-    },
-    {
-      "t": "UNC-Chapel Hill دشوارترین است: نرخ تجمیعی 28.2% در آنجا، در برابر نرخ‌های بسیار بالاتر در پردیس‌های کم‌گزینش‌تر. اینها ارقام سامانهٔ UNC است که ایالت منتشر کرده، نه ارقام خودِ مدرسه.",
-      "of": "b1da924a",
-      "at": [
-        "charlotte-christian:ncAdmissions.subhead"
-      ]
-    },
-    {
-      "t": "نرخ پذیرش تجمیعی — 382 از 697 در آن پنج دوره",
-      "of": "786b5c5f",
-      "at": [
-        "charlotte-christian:ncAdmissions.stats[1].label"
-      ]
-    },
-    {
-      "t": "در UNC-Chapel Hill — 46 از 163، گزینشی‌ترینِ این شش",
-      "of": "2db493de",
-      "at": [
-        "charlotte-christian:ncAdmissions.stats[2].label"
-      ]
-    },
-    {
-      "t": "بیشترین درخواست را در پاییز 2025 داشت (38)",
-      "of": "ba101061",
-      "at": [
-        "charlotte-christian:ncAdmissions.stats[3].label"
-      ]
-    },
-    {
-      "t": "در شش دانشگاه دولتی برتر NC، متقاضیان Charlotte Catholic High School در پنج دورهٔ ورودی اخیر با نرخ تجمیعی 56.0% پذیرفته شدند — 1,175 پذیرش از 2,100 درخواست.",
-      "of": "bd1d168f",
-      "at": [
-        "charlotte-catholic:ncAdmissions.headline"
-      ]
-    },
-    {
-      "t": "UNC-Chapel Hill دشوارترین است: نرخ تجمیعی 30.5% در آنجا، در برابر نرخ‌های بسیار بالاتر در پردیس‌های کم‌گزینش‌تر. اینها ارقام سامانهٔ UNC است که ایالت منتشر کرده، نه ارقام خودِ مدرسه.",
-      "of": "f218b7f2",
-      "at": [
-        "charlotte-catholic:ncAdmissions.subhead"
-      ]
-    },
-    {
-      "t": "نرخ پذیرش تجمیعی — 1,175 از 2,100 در آن پنج دوره",
-      "of": "933748c1",
-      "at": [
-        "charlotte-catholic:ncAdmissions.stats[1].label"
-      ]
-    },
-    {
-      "t": "در UNC-Chapel Hill — 140 از 459، گزینشی‌ترینِ این شش",
-      "of": "055ca9ff",
-      "at": [
-        "charlotte-catholic:ncAdmissions.stats[2].label"
-      ]
-    },
-    {
-      "t": "بیشترین درخواست را در پاییز 2025 داشت (141)",
-      "of": "a78a3c92",
-      "at": [
-        "charlotte-catholic:ncAdmissions.stats[3].label"
-      ]
-    },
-    {
-      "t": "در شش دانشگاه دولتی برتر NC، متقاضیان Charlotte Country Day School در پنج دورهٔ ورودی اخیر با نرخ تجمیعی 46.7% پذیرفته شدند — 328 پذیرش از 702 درخواست.",
-      "of": "ddd3a8b3",
-      "at": [
-        "charlotte-country-day:ncAdmissions.headline"
-      ]
-    },
-    {
-      "t": "UNC-Chapel Hill دشوارترین است: نرخ تجمیعی 37.7% در آنجا، در برابر نرخ‌های بسیار بالاتر در پردیس‌های کم‌گزینش‌تر. اینها ارقام سامانهٔ UNC است که ایالت منتشر کرده، نه ارقام خودِ مدرسه.",
-      "of": "7f527fdf",
-      "at": [
-        "charlotte-country-day:ncAdmissions.subhead"
-      ]
-    },
-    {
-      "t": "نرخ پذیرش تجمیعی — 328 از 702 در آن پنج دوره",
-      "of": "f0709b02",
-      "at": [
-        "charlotte-country-day:ncAdmissions.stats[1].label"
-      ]
-    },
-    {
-      "t": "در UNC-Chapel Hill — 119 از 316، گزینشی‌ترینِ این شش",
-      "of": "24298ce5",
-      "at": [
-        "charlotte-country-day:ncAdmissions.stats[2].label"
-      ]
-    },
-    {
-      "t": "در شش دانشگاه دولتی برتر NC، متقاضیان Cannon School در پنج دورهٔ ورودی اخیر با نرخ تجمیعی 60.8% پذیرفته شدند — 479 پذیرش از 788 درخواست.",
-      "of": "d5b76392",
-      "at": [
-        "cannon:ncAdmissions.headline"
-      ]
-    },
-    {
-      "t": "UNC-Chapel Hill دشوارترین است: نرخ تجمیعی 37.4% در آنجا، در برابر نرخ‌های بسیار بالاتر در پردیس‌های کم‌گزینش‌تر. اینها ارقام سامانهٔ UNC است که ایالت منتشر کرده، نه ارقام خودِ مدرسه.",
-      "of": "ca7d86a4",
-      "at": [
-        "cannon:ncAdmissions.subhead"
-      ]
-    },
-    {
-      "t": "نرخ پذیرش تجمیعی — 479 از 788 در آن پنج دوره",
-      "of": "2127adad",
-      "at": [
-        "cannon:ncAdmissions.stats[1].label"
-      ]
-    },
-    {
-      "t": "در UNC-Chapel Hill — 102 از 273، گزینشی‌ترینِ این شش",
-      "of": "b3b6eff3",
-      "at": [
-        "cannon:ncAdmissions.stats[2].label"
-      ]
-    },
-    {
-      "t": "بیشترین درخواست را در پاییز 2025 داشت (63)",
-      "of": "ba092b19",
-      "at": [
-        "cannon:ncAdmissions.stats[3].label"
-      ]
-    },
-    {
-      "t": "در شش دانشگاه دولتی برتر NC، متقاضیان Covenant Day School در پنج دورهٔ ورودی اخیر با نرخ تجمیعی 60.3% پذیرفته شدند — 301 پذیرش از 499 درخواست.",
-      "of": "db346c77",
-      "at": [
-        "covenant-day:ncAdmissions.headline"
-      ]
-    },
-    {
-      "t": "UNC-Chapel Hill دشوارترین است: نرخ تجمیعی 34.6% در آنجا، در برابر نرخ‌های بسیار بالاتر در پردیس‌های کم‌گزینش‌تر. اینها ارقام سامانهٔ UNC است که ایالت منتشر کرده، نه ارقام خودِ مدرسه.",
-      "of": "174010ed",
-      "at": [
-        "covenant-day:ncAdmissions.subhead"
-      ]
-    },
-    {
-      "t": "نرخ پذیرش تجمیعی — 301 از 499 در آن پنج دوره",
-      "of": "e905a170",
-      "at": [
-        "covenant-day:ncAdmissions.stats[1].label"
-      ]
-    },
-    {
-      "t": "در UNC-Chapel Hill — 47 از 136، گزینشی‌ترینِ این شش",
-      "of": "efe86ed3",
-      "at": [
-        "covenant-day:ncAdmissions.stats[2].label"
-      ]
-    },
-    {
-      "t": "بیشترین درخواست را در پاییز 2025 داشت (42)",
-      "of": "08d287a2",
-      "at": [
-        "covenant-day:ncAdmissions.stats[3].label"
-      ]
-    },
-    {
-      "t": "در شش دانشگاه دولتی برتر NC، متقاضیان Davidson Day School در پنج دورهٔ ورودی اخیر با نرخ تجمیعی 59.4% پذیرفته شدند — 177 پذیرش از 298 درخواست.",
-      "of": "7803b068",
-      "at": [
-        "davidson-day:ncAdmissions.headline"
-      ]
-    },
-    {
-      "t": "UNC-Chapel Hill دشوارترین است: نرخ تجمیعی 44.4% در آنجا، در برابر نرخ‌های بسیار بالاتر در پردیس‌های کم‌گزینش‌تر. اینها ارقام سامانهٔ UNC است که ایالت منتشر کرده، نه ارقام خودِ مدرسه.",
-      "of": "4fcaa4f2",
-      "at": [
-        "davidson-day:ncAdmissions.subhead"
-      ]
-    },
-    {
-      "t": "نرخ پذیرش تجمیعی — 177 از 298 در آن پنج دوره",
-      "of": "4a13b310",
-      "at": [
-        "davidson-day:ncAdmissions.stats[1].label"
-      ]
-    },
-    {
-      "t": "در UNC-Chapel Hill — 40 از 90، گزینشی‌ترینِ این شش",
-      "of": "3339fde7",
-      "at": [
-        "davidson-day:ncAdmissions.stats[2].label"
-      ]
-    },
-    {
-      "t": "بیشترین درخواست را در پاییز 2025 داشت (25)",
-      "of": "0a7352bf",
-      "at": [
-        "davidson-day:ncAdmissions.stats[3].label",
-        "hickory-grove-christian:ncAdmissions.stats[3].label"
-      ]
-    },
-    {
-      "t": "در شش دانشگاه دولتی برتر NC، متقاضیان Carmel Christian School در پنج دورهٔ ورودی اخیر با نرخ تجمیعی 59.2% پذیرفته شدند — 346 پذیرش از 584 درخواست.",
-      "of": "555db8cd",
-      "at": [
-        "carmel-christian:ncAdmissions.headline"
-      ]
-    },
-    {
-      "t": "UNC-Chapel Hill دشوارترین است: نرخ تجمیعی 32.7% در آنجا، در برابر نرخ‌های بسیار بالاتر در پردیس‌های کم‌گزینش‌تر. اینها ارقام سامانهٔ UNC است که ایالت منتشر کرده، نه ارقام خودِ مدرسه.",
-      "of": "79670c02",
-      "at": [
-        "carmel-christian:ncAdmissions.subhead"
-      ]
-    },
-    {
-      "t": "نرخ پذیرش تجمیعی — 346 از 584 در آن پنج دوره",
-      "of": "be1aa1d2",
-      "at": [
-        "carmel-christian:ncAdmissions.stats[1].label"
-      ]
-    },
-    {
-      "t": "در UNC-Chapel Hill — 37 از 113، گزینشی‌ترینِ این شش",
-      "of": "4c76c89b",
-      "at": [
-        "carmel-christian:ncAdmissions.stats[2].label"
-      ]
-    },
-    {
-      "t": "بیشترین درخواست را در پاییز 2025 داشت (31)",
-      "of": "be25dcfc",
-      "at": [
-        "carmel-christian:ncAdmissions.stats[3].label"
-      ]
-    },
-    {
-      "t": "در شش دانشگاه دولتی برتر NC، متقاضیان Hickory Grove Christian School در پنج دورهٔ ورودی اخیر با نرخ تجمیعی 74.9% پذیرفته شدند — 256 پذیرش از 342 درخواست.",
-      "of": "031cb01f",
-      "at": [
-        "hickory-grove-christian:ncAdmissions.headline"
-      ]
-    },
-    {
-      "t": "UNC-Chapel Hill دشوارترین است: نرخ تجمیعی 26.7% در آنجا، در برابر نرخ‌های بسیار بالاتر در پردیس‌های کم‌گزینش‌تر. اینها ارقام سامانهٔ UNC است که ایالت منتشر کرده، نه ارقام خودِ مدرسه.",
-      "of": "2e40f209",
-      "at": [
-        "hickory-grove-christian:ncAdmissions.subhead"
-      ]
-    },
-    {
-      "t": "نرخ پذیرش تجمیعی — 256 از 342 در آن پنج دوره",
-      "of": "ca4ed73c",
-      "at": [
-        "hickory-grove-christian:ncAdmissions.stats[1].label"
-      ]
-    },
-    {
-      "t": "در UNC-Chapel Hill — 12 از 45، گزینشی‌ترینِ این شش",
-      "of": "3e4c0348",
-      "at": [
-        "hickory-grove-christian:ncAdmissions.stats[2].label"
-      ]
-    },
-    {
-      "t": "در شش دانشگاه دولتی برتر NC، متقاضیان Gaston Day School در پنج دورهٔ ورودی اخیر با نرخ تجمیعی 57.9% پذیرفته شدند — 140 پذیرش از 242 درخواست.",
-      "of": "30322e8c",
-      "at": [
-        "gaston-day:ncAdmissions.headline"
-      ]
-    },
-    {
-      "t": "UNC-Chapel Hill دشوارترین است: نرخ تجمیعی 29.6% در آنجا، در برابر نرخ‌های بسیار بالاتر در پردیس‌های کم‌گزینش‌تر. اینها ارقام سامانهٔ UNC است که ایالت منتشر کرده، نه ارقام خودِ مدرسه.",
-      "of": "1751679f",
-      "at": [
-        "gaston-day:ncAdmissions.subhead"
-      ]
-    },
-    {
-      "t": "نرخ پذیرش تجمیعی — 140 از 242 در آن پنج دوره",
-      "of": "688feeb5",
-      "at": [
-        "gaston-day:ncAdmissions.stats[1].label"
-      ]
-    },
-    {
-      "t": "در UNC-Chapel Hill — 21 از 71، گزینشی‌ترینِ این شش",
-      "of": "d8cb57a7",
-      "at": [
-        "gaston-day:ncAdmissions.stats[2].label"
-      ]
-    },
-    {
-      "t": "بیشترین درخواست را در پاییز 2025 داشت (15)",
-      "of": "67c3defa",
-      "at": [
-        "gaston-day:ncAdmissions.stats[3].label"
       ]
     }
   ]

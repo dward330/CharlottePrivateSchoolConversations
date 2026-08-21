@@ -5,6 +5,174 @@
   "note": "Translate each `text` into `t`. Leave `of` and `at` untouched — they are how the overlay is rebuilt and drift-checked.",
   "strings": [
     {
+      "text": "Across the six top-ranked NC public universities, Providence Day School’s applicants were admitted at a pooled 51.1% over the last five entering classes — 499 acceptances from 977 applications.",
+      "of": "6160090d",
+      "at": [
+        "providence-day:ncAdmissions.headline"
+      ],
+      "t": "Nan sis inivèsite piblik ki pi byen klase nan NC yo, kandida Providence Day School yo te admèt nan yon to konbine 51.1% sou senk dènye pwomosyon ki antre yo — 499 admisyon sou 977 aplikasyon."
+    },
+    {
+      "text": "NC State University is the hard one: 32.4% in Fall 2025 — 23 of 71 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.",
+      "of": "cf61d66d",
+      "at": [
+        "providence-day:ncAdmissions.subhead"
+      ],
+      "t": "NC State University se sa ki difisil la: 32.4% nan otòn 2025 — 23 sou 71 — kont to ki pi wo anpil nan inivèsite ki mwens selektif yo. Sa se chif sistèm UNC leta a pibliye, se pa chif lekòl la menm."
+    },
+    {
+      "text": "applications to the six universities, Fall 2021–2025",
+      "of": "bd6703ca",
+      "at": [
+        "providence-day:ncAdmissions.stats[0].label",
+        "charlotte-latin:ncAdmissions.stats[0].label",
+        "charlotte-christian:ncAdmissions.stats[0].label",
+        "charlotte-catholic:ncAdmissions.stats[0].label",
+        "charlotte-country-day:ncAdmissions.stats[0].label",
+        "cannon:ncAdmissions.stats[0].label",
+        "covenant-day:ncAdmissions.stats[0].label",
+        "davidson-day:ncAdmissions.stats[0].label",
+        "carmel-christian:ncAdmissions.stats[0].label",
+        "hickory-grove-christian:ncAdmissions.stats[0].label",
+        "gaston-day:ncAdmissions.stats[0].label"
+      ],
+      "t": "aplikasyon nan sis inivèsite yo, otòn 2021–2025"
+    },
+    {
+      "text": "pooled admit rate — 499 of 977 across those five classes",
+      "of": "679fe477",
+      "at": [
+        "providence-day:ncAdmissions.stats[1].label"
+      ],
+      "t": "to admisyon konbine — 499 sou 977 nan senk pwomosyon sa yo"
+    },
+    {
+      "text": "at NC State University — 23 of 71, the toughest of the six for this school",
+      "of": "c6474067",
+      "at": [
+        "providence-day:ncAdmissions.stats[2].label"
+      ],
+      "t": "nan NC State University — 23 sou 71, sa ki pi difisil nan sis yo pou lekòl sa a"
+    },
+    {
+      "text": "drew the most applications in Fall 2025 (103)",
+      "of": "884365c8",
+      "at": [
+        "providence-day:ncAdmissions.stats[3].label"
+      ],
+      "t": "te resevwa plis aplikasyon nan otòn 2025 (103)"
+    },
+    {
+      "text": "Flagship · Chapel Hill",
+      "of": "e4fbefd6",
+      "at": [
+        "providence-day:ncAdmissions.universities[0].note",
+        "charlotte-country-day:ncAdmissions.universities[0].note"
+      ],
+      "t": "Inivèsite prensipal · Chapel Hill"
+    },
+    {
+      "text": "Flagship STEM · Raleigh · the most selective of the six",
+      "of": "f452f952",
+      "at": [
+        "providence-day:ncAdmissions.universities[1].note",
+        "charlotte-country-day:ncAdmissions.universities[1].note"
+      ],
+      "t": "Inivèsite prensipal STEM · Raleigh · sa ki pi selektif nan sis yo"
+    },
+    {
+      "text": "Hometown campus",
+      "of": "80c3cf73",
+      "at": [
+        "providence-day:ncAdmissions.universities[2].note",
+        "charlotte-latin:ncAdmissions.universities[2].note",
+        "charlotte-christian:ncAdmissions.universities[2].note",
+        "charlotte-catholic:ncAdmissions.universities[2].note",
+        "charlotte-country-day:ncAdmissions.universities[2].note",
+        "davidson-day:ncAdmissions.universities[2].note",
+        "carmel-christian:ncAdmissions.universities[2].note",
+        "hickory-grove-christian:ncAdmissions.universities[2].note",
+        "gaston-day:ncAdmissions.universities[2].note"
+      ],
+      "t": "Kanpis lakay"
+    },
+    {
+      "text": "Greenville · eastern NC",
+      "of": "3fca8b24",
+      "at": [
+        "providence-day:ncAdmissions.universities[3].note",
+        "charlotte-christian:ncAdmissions.universities[3].note",
+        "cannon:ncAdmissions.universities[3].note",
+        "covenant-day:ncAdmissions.universities[3].note",
+        "hickory-grove-christian:ncAdmissions.universities[3].note"
+      ],
+      "t": "Greenville · lès Kawolin di Nò"
+    },
+    {
+      "text": "Coastal · mid-selectivity",
+      "of": "c49d4c43",
+      "at": [
+        "providence-day:ncAdmissions.universities[4].note",
+        "charlotte-latin:ncAdmissions.universities[4].note",
+        "charlotte-christian:ncAdmissions.universities[4].note",
+        "charlotte-catholic:ncAdmissions.universities[4].note",
+        "charlotte-country-day:ncAdmissions.universities[4].note",
+        "cannon:ncAdmissions.universities[4].note",
+        "covenant-day:ncAdmissions.universities[4].note",
+        "davidson-day:ncAdmissions.universities[4].note",
+        "carmel-christian:ncAdmissions.universities[4].note",
+        "hickory-grove-christian:ncAdmissions.universities[4].note",
+        "gaston-day:ncAdmissions.universities[4].note"
+      ],
+      "t": "Bò lanmè · selektivite mwayen"
+    },
+    {
+      "text": "Piedmont Triad · largest admit rates of the six",
+      "of": "013e700c",
+      "at": [
+        "providence-day:ncAdmissions.universities[5].note",
+        "charlotte-christian:ncAdmissions.universities[5].note",
+        "hickory-grove-christian:ncAdmissions.universities[5].note"
+      ],
+      "t": "Piedmont Triad · pi gwo to admisyon nan sis yo"
+    },
+    {
+      "text": "Read each row as a joint figure: the rate at which that university admitted this school’s applicants — not the university’s overall admit rate, and not a measure of the school’s own selectivity. Applied/Accepted are the Fall 2025 entering class; the 5-yr column pools Fall 2021–2025 as sum(accepted)/sum(applied), so a heavy year counts more than a light one. Counts travel with every rate because several cells are single-digit.",
+      "of": "99f2fb2d",
+      "at": [
+        "providence-day:ncAdmissions.methodNote",
+        "charlotte-latin:ncAdmissions.methodNote",
+        "charlotte-christian:ncAdmissions.methodNote",
+        "charlotte-catholic:ncAdmissions.methodNote",
+        "charlotte-country-day:ncAdmissions.methodNote",
+        "cannon:ncAdmissions.methodNote",
+        "covenant-day:ncAdmissions.methodNote",
+        "davidson-day:ncAdmissions.methodNote",
+        "carmel-christian:ncAdmissions.methodNote",
+        "hickory-grove-christian:ncAdmissions.methodNote",
+        "gaston-day:ncAdmissions.methodNote"
+      ],
+      "t": "Li chak ranje kòm yon chif konjwen: to kote inivèsite sa a te admèt kandida lekòl sa a — se pa to admisyon jeneral inivèsite a, ni yon mezi selektivite lekòl la menm. Aplikasyon/Aksepte se pwomosyon ki antre nan otòn 2025 la; kolòn 5 an an konbine otòn 2021–2025 kòm sòm(aksepte)/sòm(aplikasyon), konsa yon ane ki chaje konte plis pase yon ane lejè. Chif yo mache ak chak to paske plizyè selil gen yon sèl chif."
+    },
+    {
+      "text": "Rank order follows the US News **National Universities** table for NC publics. That qualifier matters: Appalachian State is ranked in **Regional Universities South**, a different list, so “top 6 in NC” is not self-defining. Re-score when the next edition lands.",
+      "of": "d7187d7b",
+      "at": [
+        "providence-day:ncAdmissions.flags[0].text",
+        "charlotte-latin:ncAdmissions.flags[0].text",
+        "charlotte-christian:ncAdmissions.flags[0].text",
+        "charlotte-catholic:ncAdmissions.flags[0].text",
+        "charlotte-country-day:ncAdmissions.flags[0].text",
+        "cannon:ncAdmissions.flags[0].text",
+        "covenant-day:ncAdmissions.flags[0].text",
+        "davidson-day:ncAdmissions.flags[0].text",
+        "carmel-christian:ncAdmissions.flags[0].text",
+        "hickory-grove-christian:ncAdmissions.flags[0].text",
+        "gaston-day:ncAdmissions.flags[0].text"
+      ],
+      "t": "Lòd klasman an swiv tablo **National Universities** US News la pou inivèsite piblik NC yo. Presizyon sa a enpòtan: Appalachian State klase nan **Regional Universities South**, yon lis diferan, konsa « pi bon 6 nan NC » pa defini tèt li. Re-evalye lè pwochen edisyon an soti."
+    },
+    {
       "text": "Every AP student must sit the exam, so the score distribution colleges read is complete — and 94% of 2025’s scores were a 3 or higher, with 77% at 4 or 5.",
       "of": "299ca066",
       "at": [
@@ -1784,6 +1952,107 @@
       "t": "Paj admisyon ou an di $23 milyon nan bous merit pou Klas 2025 la; pwofil ofisyèl la di plis pase $20 milyon. Kiyès nan yo, epi kisa yo konte nan chak?"
     },
     {
+      "text": "Across the six top-ranked NC public universities, Charlotte Latin School’s applicants were admitted at a pooled 45.5% over the last five entering classes — 334 acceptances from 734 applications.",
+      "of": "d2183318",
+      "at": [
+        "charlotte-latin:ncAdmissions.headline"
+      ],
+      "t": "Nan sis inivèsite piblik ki pi byen klase nan NC yo, kandida Charlotte Latin School yo te admèt nan yon to konbine 45.5% sou senk dènye pwomosyon ki antre yo — 334 admisyon sou 734 aplikasyon."
+    },
+    {
+      "text": "UNC-Chapel Hill is the hard one: 33.3% in Fall 2025 — 23 of 69 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.",
+      "of": "f35f7b29",
+      "at": [
+        "charlotte-latin:ncAdmissions.subhead"
+      ],
+      "t": "UNC-Chapel Hill se sa ki difisil la: 33.3% nan otòn 2025 — 23 sou 69 — kont to ki pi wo anpil nan inivèsite ki mwens selektif yo. Sa se chif sistèm UNC leta a pibliye, se pa chif lekòl la menm."
+    },
+    {
+      "text": "pooled admit rate — 334 of 734 across those five classes",
+      "of": "6cfab420",
+      "at": [
+        "charlotte-latin:ncAdmissions.stats[1].label"
+      ],
+      "t": "to admisyon konbine — 334 sou 734 nan senk pwomosyon sa yo"
+    },
+    {
+      "text": "at UNC-Chapel Hill — 23 of 69, the toughest of the six for this school",
+      "of": "c1b36f49",
+      "at": [
+        "charlotte-latin:ncAdmissions.stats[2].label"
+      ],
+      "t": "nan UNC-Chapel Hill — 23 sou 69, sa ki pi difisil nan sis yo pou lekòl sa a"
+    },
+    {
+      "text": "drew the most applications in Fall 2025 (69)",
+      "of": "3df062ff",
+      "at": [
+        "charlotte-latin:ncAdmissions.stats[3].label",
+        "charlotte-country-day:ncAdmissions.stats[3].label"
+      ],
+      "t": "te resevwa plis aplikasyon nan otòn 2025 (69)"
+    },
+    {
+      "text": "Flagship · Chapel Hill · the most selective of the six",
+      "of": "5c94c33d",
+      "at": [
+        "charlotte-latin:ncAdmissions.universities[0].note",
+        "charlotte-christian:ncAdmissions.universities[0].note",
+        "charlotte-catholic:ncAdmissions.universities[0].note",
+        "cannon:ncAdmissions.universities[0].note",
+        "covenant-day:ncAdmissions.universities[0].note",
+        "davidson-day:ncAdmissions.universities[0].note",
+        "carmel-christian:ncAdmissions.universities[0].note",
+        "hickory-grove-christian:ncAdmissions.universities[0].note",
+        "gaston-day:ncAdmissions.universities[0].note"
+      ],
+      "t": "Inivèsite prensipal · Chapel Hill · sa ki pi selektif nan sis yo"
+    },
+    {
+      "text": "Flagship STEM · Raleigh",
+      "of": "30c46415",
+      "at": [
+        "charlotte-latin:ncAdmissions.universities[1].note",
+        "charlotte-christian:ncAdmissions.universities[1].note",
+        "charlotte-catholic:ncAdmissions.universities[1].note",
+        "cannon:ncAdmissions.universities[1].note",
+        "covenant-day:ncAdmissions.universities[1].note",
+        "davidson-day:ncAdmissions.universities[1].note",
+        "carmel-christian:ncAdmissions.universities[1].note",
+        "hickory-grove-christian:ncAdmissions.universities[1].note",
+        "gaston-day:ncAdmissions.universities[1].note"
+      ],
+      "t": "Inivèsite prensipal STEM · Raleigh"
+    },
+    {
+      "text": "Greenville · eastern NC · largest admit rates of the six",
+      "of": "df4c696f",
+      "at": [
+        "charlotte-latin:ncAdmissions.universities[3].note",
+        "charlotte-catholic:ncAdmissions.universities[3].note",
+        "charlotte-country-day:ncAdmissions.universities[3].note",
+        "davidson-day:ncAdmissions.universities[3].note",
+        "carmel-christian:ncAdmissions.universities[3].note",
+        "gaston-day:ncAdmissions.universities[3].note"
+      ],
+      "t": "Greenville · lès Kawolin di Nò · pi gwo to admisyon nan sis yo"
+    },
+    {
+      "text": "Piedmont Triad",
+      "of": "91680e35",
+      "at": [
+        "charlotte-latin:ncAdmissions.universities[5].note",
+        "charlotte-catholic:ncAdmissions.universities[5].note",
+        "charlotte-country-day:ncAdmissions.universities[5].note",
+        "cannon:ncAdmissions.universities[5].note",
+        "covenant-day:ncAdmissions.universities[5].note",
+        "davidson-day:ncAdmissions.universities[5].note",
+        "carmel-christian:ncAdmissions.universities[5].note",
+        "gaston-day:ncAdmissions.universities[5].note"
+      ],
+      "t": "Piedmont Triad"
+    },
+    {
       "text": "Students in AP classes are required to sit the exam — but unlike its peers, Latin publishes no AP score distribution at all, so the results of that policy are invisible.",
       "of": "545617b6",
       "at": [
@@ -2994,6 +3263,46 @@
       "t": "Ou te sispann pibliye total bous merit yo apre Klas 2023 la. Kisa twa dènye klas yo te resevwa?"
     },
     {
+      "text": "Across the six top-ranked NC public universities, Charlotte Christian School’s applicants were admitted at a pooled 54.8% over the last five entering classes — 382 acceptances from 697 applications.",
+      "of": "98f4e24d",
+      "at": [
+        "charlotte-christian:ncAdmissions.headline"
+      ],
+      "t": "Nan sis inivèsite piblik ki pi byen klase nan NC yo, kandida Charlotte Christian School yo te admèt nan yon to konbine 54.8% sou senk dènye pwomosyon ki antre yo — 382 admisyon sou 697 aplikasyon."
+    },
+    {
+      "text": "UNC-Chapel Hill is the hard one: 26.3% in Fall 2025 — 10 of 38 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.",
+      "of": "f0de089b",
+      "at": [
+        "charlotte-christian:ncAdmissions.subhead"
+      ],
+      "t": "UNC-Chapel Hill se sa ki difisil la: 26.3% nan otòn 2025 — 10 sou 38 — kont to ki pi wo anpil nan inivèsite ki mwens selektif yo. Sa se chif sistèm UNC leta a pibliye, se pa chif lekòl la menm."
+    },
+    {
+      "text": "pooled admit rate — 382 of 697 across those five classes",
+      "of": "786b5c5f",
+      "at": [
+        "charlotte-christian:ncAdmissions.stats[1].label"
+      ],
+      "t": "to admisyon konbine — 382 sou 697 nan senk pwomosyon sa yo"
+    },
+    {
+      "text": "at UNC-Chapel Hill — 10 of 38, the toughest of the six for this school",
+      "of": "a60352dd",
+      "at": [
+        "charlotte-christian:ncAdmissions.stats[2].label"
+      ],
+      "t": "nan UNC-Chapel Hill — 10 sou 38, sa ki pi difisil nan sis yo pou lekòl sa a"
+    },
+    {
+      "text": "drew the most applications in Fall 2025 (38)",
+      "of": "ba101061",
+      "at": [
+        "charlotte-christian:ncAdmissions.stats[3].label"
+      ],
+      "t": "te resevwa plis aplikasyon nan otòn 2025 (38)"
+    },
+    {
       "text": "Students in AP classes are required to sit the exam, and 89% of 2024’s exams scored 3 or higher — a rate earned on a mandated rather than self-selected pool.",
       "of": "5a98620f",
       "at": [
@@ -4178,6 +4487,46 @@
         "charlotte-christian:verdict.checklist[7]"
       ],
       "t": "Ki chif Klas 2026 yo — aksepte, bous, ak bann tès? Okenn pa pibliye ankò."
+    },
+    {
+      "text": "Across the six top-ranked NC public universities, Charlotte Catholic High School’s applicants were admitted at a pooled 56.0% over the last five entering classes — 1,175 acceptances from 2,100 applications.",
+      "of": "bd1d168f",
+      "at": [
+        "charlotte-catholic:ncAdmissions.headline"
+      ],
+      "t": "Nan sis inivèsite piblik ki pi byen klase nan NC yo, kandida Charlotte Catholic High School yo te admèt nan yon to konbine 56.0% sou senk dènye pwomosyon ki antre yo — 1,175 admisyon sou 2,100 aplikasyon."
+    },
+    {
+      "text": "UNC-Chapel Hill is the hard one: 23.3% in Fall 2025 — 24 of 103 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.",
+      "of": "bad1c34e",
+      "at": [
+        "charlotte-catholic:ncAdmissions.subhead"
+      ],
+      "t": "UNC-Chapel Hill se sa ki difisil la: 23.3% nan otòn 2025 — 24 sou 103 — kont to ki pi wo anpil nan inivèsite ki mwens selektif yo. Sa se chif sistèm UNC leta a pibliye, se pa chif lekòl la menm."
+    },
+    {
+      "text": "pooled admit rate — 1,175 of 2,100 across those five classes",
+      "of": "933748c1",
+      "at": [
+        "charlotte-catholic:ncAdmissions.stats[1].label"
+      ],
+      "t": "to admisyon konbine — 1,175 sou 2,100 nan senk pwomosyon sa yo"
+    },
+    {
+      "text": "at UNC-Chapel Hill — 24 of 103, the toughest of the six for this school",
+      "of": "fc80e88f",
+      "at": [
+        "charlotte-catholic:ncAdmissions.stats[2].label"
+      ],
+      "t": "nan UNC-Chapel Hill — 24 sou 103, sa ki pi difisil nan sis yo pou lekòl sa a"
+    },
+    {
+      "text": "drew the most applications in Fall 2025 (141)",
+      "of": "a78a3c92",
+      "at": [
+        "charlotte-catholic:ncAdmissions.stats[3].label"
+      ],
+      "t": "te resevwa plis aplikasyon nan otòn 2025 (141)"
     },
     {
       "text": "A weighted-only transcript, no class rank, and an AP program where the exam is not optional.",
@@ -5794,6 +6143,38 @@
       "t": "Ki espò ki gen jou siyati otòn ak prentan apa, epi ki kote yo pibliye rezilta sa yo?"
     },
     {
+      "text": "Across the six top-ranked NC public universities, Charlotte Country Day School’s applicants were admitted at a pooled 46.7% over the last five entering classes — 328 acceptances from 702 applications.",
+      "of": "ddd3a8b3",
+      "at": [
+        "charlotte-country-day:ncAdmissions.headline"
+      ],
+      "t": "Nan sis inivèsite piblik ki pi byen klase nan NC yo, kandida Charlotte Country Day School yo te admèt nan yon to konbine 46.7% sou senk dènye pwomosyon ki antre yo — 328 admisyon sou 702 aplikasyon."
+    },
+    {
+      "text": "NC State University is the hard one: 22.9% in Fall 2025 — 11 of 48 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.",
+      "of": "b39e1ac6",
+      "at": [
+        "charlotte-country-day:ncAdmissions.subhead"
+      ],
+      "t": "NC State University se sa ki difisil la: 22.9% nan otòn 2025 — 11 sou 48 — kont to ki pi wo anpil nan inivèsite ki mwens selektif yo. Sa se chif sistèm UNC leta a pibliye, se pa chif lekòl la menm."
+    },
+    {
+      "text": "pooled admit rate — 328 of 702 across those five classes",
+      "of": "f0709b02",
+      "at": [
+        "charlotte-country-day:ncAdmissions.stats[1].label"
+      ],
+      "t": "to admisyon konbine — 328 sou 702 nan senk pwomosyon sa yo"
+    },
+    {
+      "text": "at NC State University — 11 of 48, the toughest of the six for this school",
+      "of": "41ba7648",
+      "at": [
+        "charlotte-country-day:ncAdmissions.stats[2].label"
+      ],
+      "t": "nan NC State University — 11 sou 48, sa ki pi difisil nan sis yo pou lekòl sa a"
+    },
+    {
       "text": "530 AP exams in 2025 at 93% scoring 3+ and 74% at 4 or 5 — and the school publishes those results discipline by discipline, weak spots included.",
       "of": "c507f1d9",
       "at": [
@@ -7044,6 +7425,55 @@
       "t": "Konbyen inivèsite konseye ou yo vizite chak ane, èske Senior Externship la obligatwa, epi ki opsyon ki egziste pou ane apre diplòm, syans enfòmatik pòs-AP, oswa rechèch kapston?"
     },
     {
+      "text": "Across the six top-ranked NC public universities, Cannon School’s applicants were admitted at a pooled 60.8% over the last five entering classes — 479 acceptances from 788 applications.",
+      "of": "d5b76392",
+      "at": [
+        "cannon:ncAdmissions.headline"
+      ],
+      "t": "Nan sis inivèsite piblik ki pi byen klase nan NC yo, kandida Cannon School yo te admèt nan yon to konbine 60.8% sou senk dènye pwomosyon ki antre yo — 479 admisyon sou 788 aplikasyon."
+    },
+    {
+      "text": "UNC-Chapel Hill is the hard one: 31.7% in Fall 2025 — 20 of 63 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.",
+      "of": "829ec004",
+      "at": [
+        "cannon:ncAdmissions.subhead"
+      ],
+      "t": "UNC-Chapel Hill se sa ki difisil la: 31.7% nan otòn 2025 — 20 sou 63 — kont to ki pi wo anpil nan inivèsite ki mwens selektif yo. Sa se chif sistèm UNC leta a pibliye, se pa chif lekòl la menm."
+    },
+    {
+      "text": "pooled admit rate — 479 of 788 across those five classes",
+      "of": "2127adad",
+      "at": [
+        "cannon:ncAdmissions.stats[1].label"
+      ],
+      "t": "to admisyon konbine — 479 sou 788 nan senk pwomosyon sa yo"
+    },
+    {
+      "text": "at UNC-Chapel Hill — 20 of 63, the toughest of the six for this school",
+      "of": "22e98354",
+      "at": [
+        "cannon:ncAdmissions.stats[2].label"
+      ],
+      "t": "nan UNC-Chapel Hill — 20 sou 63, sa ki pi difisil nan sis yo pou lekòl sa a"
+    },
+    {
+      "text": "drew the most applications in Fall 2025 (63)",
+      "of": "ba092b19",
+      "at": [
+        "cannon:ncAdmissions.stats[3].label"
+      ],
+      "t": "te resevwa plis aplikasyon nan otòn 2025 (63)"
+    },
+    {
+      "text": "Hometown campus · largest admit rates of the six",
+      "of": "d0419022",
+      "at": [
+        "cannon:ncAdmissions.universities[2].note",
+        "covenant-day:ncAdmissions.universities[2].note"
+      ],
+      "t": "Kanpis lakay · pi gwo to admisyon nan sis yo"
+    },
+    {
       "text": "Cannon publishes something almost no peer does — an explicit maximum AP/AT load by grade, capping a four-year transcript at eleven advanced courses and barring freshmen entirely.",
       "of": "bce93f90",
       "at": [
@@ -8192,6 +8622,46 @@
         "cannon:verdict.checklist[7]"
       ],
       "t": "Kijan kourikoulòm konsèy la ye pou elèv yo nivo pa nivo — konbyen reyinyon youn a youn, epi kilè redaksyon yo kòmanse?"
+    },
+    {
+      "text": "Across the six top-ranked NC public universities, Covenant Day School’s applicants were admitted at a pooled 60.3% over the last five entering classes — 301 acceptances from 499 applications.",
+      "of": "db346c77",
+      "at": [
+        "covenant-day:ncAdmissions.headline"
+      ],
+      "t": "Nan sis inivèsite piblik ki pi byen klase nan NC yo, kandida Covenant Day School yo te admèt nan yon to konbine 60.3% sou senk dènye pwomosyon ki antre yo — 301 admisyon sou 499 aplikasyon."
+    },
+    {
+      "text": "UNC-Chapel Hill is the hard one: 27.3% in Fall 2025 — 9 of 33 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.",
+      "of": "227b1381",
+      "at": [
+        "covenant-day:ncAdmissions.subhead"
+      ],
+      "t": "UNC-Chapel Hill se sa ki difisil la: 27.3% nan otòn 2025 — 9 sou 33 — kont to ki pi wo anpil nan inivèsite ki mwens selektif yo. Sa se chif sistèm UNC leta a pibliye, se pa chif lekòl la menm."
+    },
+    {
+      "text": "pooled admit rate — 301 of 499 across those five classes",
+      "of": "e905a170",
+      "at": [
+        "covenant-day:ncAdmissions.stats[1].label"
+      ],
+      "t": "to admisyon konbine — 301 sou 499 nan senk pwomosyon sa yo"
+    },
+    {
+      "text": "at UNC-Chapel Hill — 9 of 33, the toughest of the six for this school",
+      "of": "736f276a",
+      "at": [
+        "covenant-day:ncAdmissions.stats[2].label"
+      ],
+      "t": "nan UNC-Chapel Hill — 9 sou 33, sa ki pi difisil nan sis yo pou lekòl sa a"
+    },
+    {
+      "text": "drew the most applications in Fall 2025 (42)",
+      "of": "08d287a2",
+      "at": [
+        "covenant-day:ncAdmissions.stats[3].label"
+      ],
+      "t": "te resevwa plis aplikasyon nan otòn 2025 (42)"
     },
     {
       "text": "96% of AP exam scores were a 3 or higher in 2026 — the top of a five-year climb from 84% — and every AP student must sit the exam.",
@@ -9408,6 +9878,47 @@
       "t": "Kijan prekondisyon NC Opportunity Scholarship la entèraji ak kalandriye èd la pou yon fanmi k ap aplike lòt kote tou?"
     },
     {
+      "text": "Across the six top-ranked NC public universities, Davidson Day School’s applicants were admitted at a pooled 59.4% over the last five entering classes — 177 acceptances from 298 applications.",
+      "of": "7803b068",
+      "at": [
+        "davidson-day:ncAdmissions.headline"
+      ],
+      "t": "Nan sis inivèsite piblik ki pi byen klase nan NC yo, kandida Davidson Day School yo te admèt nan yon to konbine 59.4% sou senk dènye pwomosyon ki antre yo — 177 admisyon sou 298 aplikasyon."
+    },
+    {
+      "text": "UNC-Chapel Hill is the hard one: 40.0% in Fall 2025 — 10 of 25 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.",
+      "of": "3d820ae2",
+      "at": [
+        "davidson-day:ncAdmissions.subhead"
+      ],
+      "t": "UNC-Chapel Hill se sa ki difisil la: 40.0% nan otòn 2025 — 10 sou 25 — kont to ki pi wo anpil nan inivèsite ki mwens selektif yo. Sa se chif sistèm UNC leta a pibliye, se pa chif lekòl la menm."
+    },
+    {
+      "text": "pooled admit rate — 177 of 298 across those five classes",
+      "of": "4a13b310",
+      "at": [
+        "davidson-day:ncAdmissions.stats[1].label"
+      ],
+      "t": "to admisyon konbine — 177 sou 298 nan senk pwomosyon sa yo"
+    },
+    {
+      "text": "at UNC-Chapel Hill — 10 of 25, the toughest of the six for this school",
+      "of": "9423d88b",
+      "at": [
+        "davidson-day:ncAdmissions.stats[2].label"
+      ],
+      "t": "nan UNC-Chapel Hill — 10 sou 25, sa ki pi difisil nan sis yo pou lekòl sa a"
+    },
+    {
+      "text": "drew the most applications in Fall 2025 (25)",
+      "of": "0a7352bf",
+      "at": [
+        "davidson-day:ncAdmissions.stats[3].label",
+        "hickory-grove-christian:ncAdmissions.stats[3].label"
+      ],
+      "t": "te resevwa plis aplikasyon nan otòn 2025 (25)"
+    },
+    {
       "text": "Davidson Day publishes its grading machinery in full — the scale, the weighting, and an unusually explicit list of what is excluded from the GPA — but no AP exam results and no National Merit record at all.",
       "of": "410e02c8",
       "at": [
@@ -10478,6 +10989,46 @@
         "davidson-day:verdict.checklist[7]"
       ],
       "t": "Si pitit mwen gen akomodasyon atravè Learning Enrichment Center la, kiyès ki fè apwouve yo pou tès College Board ak ACT, epi ki dokimante yo pou sèvis andikap nan inivèsite?"
+    },
+    {
+      "text": "Across the six top-ranked NC public universities, Carmel Christian School’s applicants were admitted at a pooled 59.2% over the last five entering classes — 346 acceptances from 584 applications.",
+      "of": "555db8cd",
+      "at": [
+        "carmel-christian:ncAdmissions.headline"
+      ],
+      "t": "Nan sis inivèsite piblik ki pi byen klase nan NC yo, kandida Carmel Christian School yo te admèt nan yon to konbine 59.2% sou senk dènye pwomosyon ki antre yo — 346 admisyon sou 584 aplikasyon."
+    },
+    {
+      "text": "UNC-Chapel Hill is the hard one: 25.0% in Fall 2025 — 4 of 16 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.",
+      "of": "1e8c9c30",
+      "at": [
+        "carmel-christian:ncAdmissions.subhead"
+      ],
+      "t": "UNC-Chapel Hill se sa ki difisil la: 25.0% nan otòn 2025 — 4 sou 16 — kont to ki pi wo anpil nan inivèsite ki mwens selektif yo. Sa se chif sistèm UNC leta a pibliye, se pa chif lekòl la menm."
+    },
+    {
+      "text": "pooled admit rate — 346 of 584 across those five classes",
+      "of": "be1aa1d2",
+      "at": [
+        "carmel-christian:ncAdmissions.stats[1].label"
+      ],
+      "t": "to admisyon konbine — 346 sou 584 nan senk pwomosyon sa yo"
+    },
+    {
+      "text": "at UNC-Chapel Hill — 4 of 16, the toughest of the six for this school",
+      "of": "08b5909c",
+      "at": [
+        "carmel-christian:ncAdmissions.stats[2].label"
+      ],
+      "t": "nan UNC-Chapel Hill — 4 sou 16, sa ki pi difisil nan sis yo pou lekòl sa a"
+    },
+    {
+      "text": "drew the most applications in Fall 2025 (31)",
+      "of": "be25dcfc",
+      "at": [
+        "carmel-christian:ncAdmissions.stats[3].label"
+      ],
+      "t": "te resevwa plis aplikasyon nan otòn 2025 (31)"
     },
     {
       "text": "73% of seniors scored a 3 or higher on at least one AP exam, and 80% sat at least one — enough for the College Board’s Platinum AP School Honor Roll, its top tier.",
@@ -11633,6 +12184,38 @@
       "t": "Apeprè konbyen reprezantan kolèj vizite chak ane, epi kijan College Admissions Panel la kadre ak kalandriye aplikasyon an?"
     },
     {
+      "text": "Across the six top-ranked NC public universities, Hickory Grove Christian School’s applicants were admitted at a pooled 74.9% over the last five entering classes — 256 acceptances from 342 applications.",
+      "of": "031cb01f",
+      "at": [
+        "hickory-grove-christian:ncAdmissions.headline"
+      ],
+      "t": "Nan sis inivèsite piblik ki pi byen klase nan NC yo, kandida Hickory Grove Christian School yo te admèt nan yon to konbine 74.9% sou senk dènye pwomosyon ki antre yo — 256 admisyon sou 342 aplikasyon."
+    },
+    {
+      "text": "UNC-Chapel Hill is the hard one: 20.0% in Fall 2025 — 2 of 10 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.",
+      "of": "d2c2212b",
+      "at": [
+        "hickory-grove-christian:ncAdmissions.subhead"
+      ],
+      "t": "UNC-Chapel Hill se sa ki difisil la: 20.0% nan otòn 2025 — 2 sou 10 — kont to ki pi wo anpil nan inivèsite ki mwens selektif yo. Sa se chif sistèm UNC leta a pibliye, se pa chif lekòl la menm."
+    },
+    {
+      "text": "pooled admit rate — 256 of 342 across those five classes",
+      "of": "ca4ed73c",
+      "at": [
+        "hickory-grove-christian:ncAdmissions.stats[1].label"
+      ],
+      "t": "to admisyon konbine — 256 sou 342 nan senk pwomosyon sa yo"
+    },
+    {
+      "text": "at UNC-Chapel Hill — 2 of 10, the toughest of the six for this school",
+      "of": "1e5ba680",
+      "at": [
+        "hickory-grove-christian:ncAdmissions.stats[2].label"
+      ],
+      "t": "nan UNC-Chapel Hill — 2 sou 10, sa ki pi difisil nan sis yo pou lekòl sa a"
+    },
+    {
       "text": "82 students sat 176 AP exams in May 2025 across a 17-course AP program with AP Capstone — and 29 of them earned a 5 on at least one exam.",
       "of": "60fddbac",
       "at": [
@@ -12551,6 +13134,46 @@
         "hickory-grove-christian:verdict.checklist[5]"
       ],
       "t": "Kijan College Admissions Boot Camp la kadre ak kalandriye aplikasyon an, epi èske li louvri pou tout elèv rising twazyèm ak dènye ane?"
+    },
+    {
+      "text": "Across the six top-ranked NC public universities, Gaston Day School’s applicants were admitted at a pooled 57.9% over the last five entering classes — 140 acceptances from 242 applications.",
+      "of": "30322e8c",
+      "at": [
+        "gaston-day:ncAdmissions.headline"
+      ],
+      "t": "Nan sis inivèsite piblik ki pi byen klase nan NC yo, kandida Gaston Day School yo te admèt nan yon to konbine 57.9% sou senk dènye pwomosyon ki antre yo — 140 admisyon sou 242 aplikasyon."
+    },
+    {
+      "text": "UNC-Chapel Hill is the hard one: 27.3% in Fall 2025 — 3 of 11 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.",
+      "of": "55fc96a3",
+      "at": [
+        "gaston-day:ncAdmissions.subhead"
+      ],
+      "t": "UNC-Chapel Hill se sa ki difisil la: 27.3% nan otòn 2025 — 3 sou 11 — kont to ki pi wo anpil nan inivèsite ki mwens selektif yo. Sa se chif sistèm UNC leta a pibliye, se pa chif lekòl la menm."
+    },
+    {
+      "text": "pooled admit rate — 140 of 242 across those five classes",
+      "of": "688feeb5",
+      "at": [
+        "gaston-day:ncAdmissions.stats[1].label"
+      ],
+      "t": "to admisyon konbine — 140 sou 242 nan senk pwomosyon sa yo"
+    },
+    {
+      "text": "at UNC-Chapel Hill — 3 of 11, the toughest of the six for this school",
+      "of": "7630baf8",
+      "at": [
+        "gaston-day:ncAdmissions.stats[2].label"
+      ],
+      "t": "nan UNC-Chapel Hill — 3 sou 11, sa ki pi difisil nan sis yo pou lekòl sa a"
+    },
+    {
+      "text": "drew the most applications in Fall 2025 (15)",
+      "of": "67c3defa",
+      "at": [
+        "gaston-day:ncAdmissions.stats[3].label"
+      ],
+      "t": "te resevwa plis aplikasyon nan otòn 2025 (15)"
     },
     {
       "text": "Every AP student must sit the exam, and the share scoring 3+ has climbed five years running — 72% in 2021 to 95% in 2025.",
@@ -14056,594 +14679,6 @@
         "gaston-day:verdict.checklist[6]"
       ],
       "t": "Enskripsyon an li 510 sou pwofil lekòl la men 466 ak 448 sou sous twazyèm pati ak federal — kilès ki konte preschool, epi ki nimewo Upper School la?"
-    },
-    {
-      "text": "Across the six top-ranked NC public universities, Providence Day School’s applicants were admitted at a pooled 51.1% over the last five entering classes — 499 acceptances from 977 applications.",
-      "of": "6160090d",
-      "at": [
-        "providence-day:ncAdmissions.headline"
-      ],
-      "t": "Nan sis inivèsite piblik ki pi byen klase nan NC yo, kandida Providence Day School yo te admèt nan yon to konbine 51.1% sou senk dènye pwomosyon ki antre yo — 499 admisyon sou 977 aplikasyon."
-    },
-    {
-      "text": "UNC-Chapel Hill is the hard one: 42.0% pooled there, against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.",
-      "of": "db884594",
-      "at": [
-        "providence-day:ncAdmissions.subhead"
-      ],
-      "t": "UNC-Chapel Hill se sa ki difisil la: 42.0% konbine la, kont to ki pi wo anpil nan kanpis ki mwens selektif yo. Sa se chif sistèm UNC leta a pibliye, se pa chif lekòl la menm."
-    },
-    {
-      "text": "applications to the six campuses, Fall 2021–2025",
-      "of": "b3ea37bb",
-      "at": [
-        "providence-day:ncAdmissions.stats[0].label",
-        "charlotte-latin:ncAdmissions.stats[0].label",
-        "charlotte-christian:ncAdmissions.stats[0].label",
-        "charlotte-catholic:ncAdmissions.stats[0].label",
-        "charlotte-country-day:ncAdmissions.stats[0].label",
-        "cannon:ncAdmissions.stats[0].label",
-        "covenant-day:ncAdmissions.stats[0].label",
-        "davidson-day:ncAdmissions.stats[0].label",
-        "carmel-christian:ncAdmissions.stats[0].label",
-        "hickory-grove-christian:ncAdmissions.stats[0].label",
-        "gaston-day:ncAdmissions.stats[0].label"
-      ],
-      "t": "aplikasyon nan sis kanpis yo, otòn 2021–2025"
-    },
-    {
-      "text": "pooled admit rate — 499 of 977 across those five classes",
-      "of": "679fe477",
-      "at": [
-        "providence-day:ncAdmissions.stats[1].label"
-      ],
-      "t": "to admisyon konbine — 499 sou 977 nan senk pwomosyon sa yo"
-    },
-    {
-      "text": "at UNC-Chapel Hill — 176 of 419, the most selective of the six",
-      "of": "95234246",
-      "at": [
-        "providence-day:ncAdmissions.stats[2].label"
-      ],
-      "t": "nan UNC-Chapel Hill — 176 sou 419, sa ki pi selektif nan sis yo"
-    },
-    {
-      "text": "drew the most applications in Fall 2025 (103)",
-      "of": "884365c8",
-      "at": [
-        "providence-day:ncAdmissions.stats[3].label"
-      ],
-      "t": "te resevwa plis aplikasyon nan otòn 2025 (103)"
-    },
-    {
-      "text": "Flagship · the most selective of the six",
-      "of": "975de2ca",
-      "at": [
-        "providence-day:ncAdmissions.universities[0].note",
-        "charlotte-latin:ncAdmissions.universities[0].note",
-        "charlotte-christian:ncAdmissions.universities[0].note",
-        "charlotte-catholic:ncAdmissions.universities[0].note",
-        "charlotte-country-day:ncAdmissions.universities[0].note",
-        "cannon:ncAdmissions.universities[0].note",
-        "covenant-day:ncAdmissions.universities[0].note",
-        "davidson-day:ncAdmissions.universities[0].note",
-        "carmel-christian:ncAdmissions.universities[0].note",
-        "hickory-grove-christian:ncAdmissions.universities[0].note",
-        "gaston-day:ncAdmissions.universities[0].note"
-      ],
-      "t": "Inivèsite prensipal · sa ki pi selektif nan sis yo"
-    },
-    {
-      "text": "Flagship STEM · Raleigh",
-      "of": "30c46415",
-      "at": [
-        "providence-day:ncAdmissions.universities[1].note",
-        "charlotte-latin:ncAdmissions.universities[1].note",
-        "charlotte-christian:ncAdmissions.universities[1].note",
-        "charlotte-catholic:ncAdmissions.universities[1].note",
-        "charlotte-country-day:ncAdmissions.universities[1].note",
-        "cannon:ncAdmissions.universities[1].note",
-        "covenant-day:ncAdmissions.universities[1].note",
-        "davidson-day:ncAdmissions.universities[1].note",
-        "carmel-christian:ncAdmissions.universities[1].note",
-        "hickory-grove-christian:ncAdmissions.universities[1].note",
-        "gaston-day:ncAdmissions.universities[1].note"
-      ],
-      "t": "Inivèsite prensipal STEM · Raleigh"
-    },
-    {
-      "text": "Hometown campus",
-      "of": "80c3cf73",
-      "at": [
-        "providence-day:ncAdmissions.universities[2].note",
-        "charlotte-latin:ncAdmissions.universities[2].note",
-        "charlotte-christian:ncAdmissions.universities[2].note",
-        "charlotte-catholic:ncAdmissions.universities[2].note",
-        "charlotte-country-day:ncAdmissions.universities[2].note",
-        "cannon:ncAdmissions.universities[2].note",
-        "covenant-day:ncAdmissions.universities[2].note",
-        "davidson-day:ncAdmissions.universities[2].note",
-        "carmel-christian:ncAdmissions.universities[2].note",
-        "hickory-grove-christian:ncAdmissions.universities[2].note",
-        "gaston-day:ncAdmissions.universities[2].note"
-      ],
-      "t": "Kanpis lakay"
-    },
-    {
-      "text": "Greenville · largest admit rates of the six",
-      "of": "0b01c1f3",
-      "at": [
-        "providence-day:ncAdmissions.universities[3].note",
-        "charlotte-latin:ncAdmissions.universities[3].note",
-        "charlotte-christian:ncAdmissions.universities[3].note",
-        "charlotte-catholic:ncAdmissions.universities[3].note",
-        "charlotte-country-day:ncAdmissions.universities[3].note",
-        "cannon:ncAdmissions.universities[3].note",
-        "covenant-day:ncAdmissions.universities[3].note",
-        "davidson-day:ncAdmissions.universities[3].note",
-        "carmel-christian:ncAdmissions.universities[3].note",
-        "hickory-grove-christian:ncAdmissions.universities[3].note",
-        "gaston-day:ncAdmissions.universities[3].note"
-      ],
-      "t": "Greenville · pi gwo to admisyon nan sis yo"
-    },
-    {
-      "text": "Coastal · mid-selectivity",
-      "of": "c49d4c43",
-      "at": [
-        "providence-day:ncAdmissions.universities[4].note",
-        "charlotte-latin:ncAdmissions.universities[4].note",
-        "charlotte-christian:ncAdmissions.universities[4].note",
-        "charlotte-catholic:ncAdmissions.universities[4].note",
-        "charlotte-country-day:ncAdmissions.universities[4].note",
-        "cannon:ncAdmissions.universities[4].note",
-        "covenant-day:ncAdmissions.universities[4].note",
-        "davidson-day:ncAdmissions.universities[4].note",
-        "carmel-christian:ncAdmissions.universities[4].note",
-        "hickory-grove-christian:ncAdmissions.universities[4].note",
-        "gaston-day:ncAdmissions.universities[4].note"
-      ],
-      "t": "Bò lanmè · selektivite mwayen"
-    },
-    {
-      "text": "Piedmont Triad",
-      "of": "91680e35",
-      "at": [
-        "providence-day:ncAdmissions.universities[5].note",
-        "charlotte-latin:ncAdmissions.universities[5].note",
-        "charlotte-christian:ncAdmissions.universities[5].note",
-        "charlotte-catholic:ncAdmissions.universities[5].note",
-        "charlotte-country-day:ncAdmissions.universities[5].note",
-        "cannon:ncAdmissions.universities[5].note",
-        "covenant-day:ncAdmissions.universities[5].note",
-        "davidson-day:ncAdmissions.universities[5].note",
-        "carmel-christian:ncAdmissions.universities[5].note",
-        "hickory-grove-christian:ncAdmissions.universities[5].note",
-        "gaston-day:ncAdmissions.universities[5].note"
-      ],
-      "t": "Piedmont Triad"
-    },
-    {
-      "text": "Read each row as a joint figure: the rate at which that university admitted this school’s applicants — not the university’s overall admit rate, and not a measure of the school’s own selectivity. Applied/Accepted are the Fall 2025 entering class; the 5-yr column pools Fall 2021–2025 as sum(accepted)/sum(applied), so a heavy year counts more than a light one. Counts travel with every rate because several cells are single-digit.",
-      "of": "99f2fb2d",
-      "at": [
-        "providence-day:ncAdmissions.methodNote",
-        "charlotte-latin:ncAdmissions.methodNote",
-        "charlotte-christian:ncAdmissions.methodNote",
-        "charlotte-catholic:ncAdmissions.methodNote",
-        "charlotte-country-day:ncAdmissions.methodNote",
-        "cannon:ncAdmissions.methodNote",
-        "covenant-day:ncAdmissions.methodNote",
-        "davidson-day:ncAdmissions.methodNote",
-        "carmel-christian:ncAdmissions.methodNote",
-        "hickory-grove-christian:ncAdmissions.methodNote",
-        "gaston-day:ncAdmissions.methodNote"
-      ],
-      "t": "Li chak ranje kòm yon chif konjwen: to kote inivèsite sa a te admèt kandida lekòl sa a — se pa to admisyon jeneral inivèsite a, ni yon mezi selektivite lekòl la menm. Aplikasyon/Aksepte se pwomosyon ki antre nan otòn 2025 la; kolòn 5 an an konbine otòn 2021–2025 kòm sòm(aksepte)/sòm(aplikasyon), konsa yon ane ki chaje konte plis pase yon ane lejè. Chif yo mache ak chak to paske plizyè selil gen yon sèl chif."
-    },
-    {
-      "text": "Rank order follows the US News **National Universities** table for NC publics. That qualifier matters: Appalachian State is ranked in **Regional Universities South**, a different list, so “top 6 in NC” is not self-defining. Re-score when the next edition lands.",
-      "of": "d7187d7b",
-      "at": [
-        "providence-day:ncAdmissions.flags[0].text",
-        "charlotte-latin:ncAdmissions.flags[0].text",
-        "charlotte-christian:ncAdmissions.flags[0].text",
-        "charlotte-catholic:ncAdmissions.flags[0].text",
-        "charlotte-country-day:ncAdmissions.flags[0].text",
-        "cannon:ncAdmissions.flags[0].text",
-        "covenant-day:ncAdmissions.flags[0].text",
-        "davidson-day:ncAdmissions.flags[0].text",
-        "carmel-christian:ncAdmissions.flags[0].text",
-        "hickory-grove-christian:ncAdmissions.flags[0].text",
-        "gaston-day:ncAdmissions.flags[0].text"
-      ],
-      "t": "Lòd klasman an swiv tablo **National Universities** US News la pou inivèsite piblik NC yo. Presizyon sa a enpòtan: Appalachian State klase nan **Regional Universities South**, yon lis diferan, konsa « pi bon 6 nan NC » pa defini tèt li. Re-evalye lè pwochen edisyon an soti."
-    },
-    {
-      "text": "Across the six top-ranked NC public universities, Charlotte Latin School’s applicants were admitted at a pooled 45.5% over the last five entering classes — 334 acceptances from 734 applications.",
-      "of": "d2183318",
-      "at": [
-        "charlotte-latin:ncAdmissions.headline"
-      ],
-      "t": "Nan sis inivèsite piblik ki pi byen klase nan NC yo, kandida Charlotte Latin School yo te admèt nan yon to konbine 45.5% sou senk dènye pwomosyon ki antre yo — 334 admisyon sou 734 aplikasyon."
-    },
-    {
-      "text": "UNC-Chapel Hill is the hard one: 38.3% pooled there, against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.",
-      "of": "bd5d6bf0",
-      "at": [
-        "charlotte-latin:ncAdmissions.subhead"
-      ],
-      "t": "UNC-Chapel Hill se sa ki difisil la: 38.3% konbine la, kont to ki pi wo anpil nan kanpis ki mwens selektif yo. Sa se chif sistèm UNC leta a pibliye, se pa chif lekòl la menm."
-    },
-    {
-      "text": "pooled admit rate — 334 of 734 across those five classes",
-      "of": "6cfab420",
-      "at": [
-        "charlotte-latin:ncAdmissions.stats[1].label"
-      ],
-      "t": "to admisyon konbine — 334 sou 734 nan senk pwomosyon sa yo"
-    },
-    {
-      "text": "at UNC-Chapel Hill — 115 of 300, the most selective of the six",
-      "of": "64ff58fc",
-      "at": [
-        "charlotte-latin:ncAdmissions.stats[2].label"
-      ],
-      "t": "nan UNC-Chapel Hill — 115 sou 300, sa ki pi selektif nan sis yo"
-    },
-    {
-      "text": "drew the most applications in Fall 2025 (69)",
-      "of": "3df062ff",
-      "at": [
-        "charlotte-latin:ncAdmissions.stats[3].label",
-        "charlotte-country-day:ncAdmissions.stats[3].label"
-      ],
-      "t": "te resevwa plis aplikasyon nan otòn 2025 (69)"
-    },
-    {
-      "text": "Across the six top-ranked NC public universities, Charlotte Christian School’s applicants were admitted at a pooled 54.8% over the last five entering classes — 382 acceptances from 697 applications.",
-      "of": "98f4e24d",
-      "at": [
-        "charlotte-christian:ncAdmissions.headline"
-      ],
-      "t": "Nan sis inivèsite piblik ki pi byen klase nan NC yo, kandida Charlotte Christian School yo te admèt nan yon to konbine 54.8% sou senk dènye pwomosyon ki antre yo — 382 admisyon sou 697 aplikasyon."
-    },
-    {
-      "text": "UNC-Chapel Hill is the hard one: 28.2% pooled there, against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.",
-      "of": "b1da924a",
-      "at": [
-        "charlotte-christian:ncAdmissions.subhead"
-      ],
-      "t": "UNC-Chapel Hill se sa ki difisil la: 28.2% konbine la, kont to ki pi wo anpil nan kanpis ki mwens selektif yo. Sa se chif sistèm UNC leta a pibliye, se pa chif lekòl la menm."
-    },
-    {
-      "text": "pooled admit rate — 382 of 697 across those five classes",
-      "of": "786b5c5f",
-      "at": [
-        "charlotte-christian:ncAdmissions.stats[1].label"
-      ],
-      "t": "to admisyon konbine — 382 sou 697 nan senk pwomosyon sa yo"
-    },
-    {
-      "text": "at UNC-Chapel Hill — 46 of 163, the most selective of the six",
-      "of": "2db493de",
-      "at": [
-        "charlotte-christian:ncAdmissions.stats[2].label"
-      ],
-      "t": "nan UNC-Chapel Hill — 46 sou 163, sa ki pi selektif nan sis yo"
-    },
-    {
-      "text": "drew the most applications in Fall 2025 (38)",
-      "of": "ba101061",
-      "at": [
-        "charlotte-christian:ncAdmissions.stats[3].label"
-      ],
-      "t": "te resevwa plis aplikasyon nan otòn 2025 (38)"
-    },
-    {
-      "text": "Across the six top-ranked NC public universities, Charlotte Catholic High School’s applicants were admitted at a pooled 56.0% over the last five entering classes — 1,175 acceptances from 2,100 applications.",
-      "of": "bd1d168f",
-      "at": [
-        "charlotte-catholic:ncAdmissions.headline"
-      ],
-      "t": "Nan sis inivèsite piblik ki pi byen klase nan NC yo, kandida Charlotte Catholic High School yo te admèt nan yon to konbine 56.0% sou senk dènye pwomosyon ki antre yo — 1,175 admisyon sou 2,100 aplikasyon."
-    },
-    {
-      "text": "UNC-Chapel Hill is the hard one: 30.5% pooled there, against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.",
-      "of": "f218b7f2",
-      "at": [
-        "charlotte-catholic:ncAdmissions.subhead"
-      ],
-      "t": "UNC-Chapel Hill se sa ki difisil la: 30.5% konbine la, kont to ki pi wo anpil nan kanpis ki mwens selektif yo. Sa se chif sistèm UNC leta a pibliye, se pa chif lekòl la menm."
-    },
-    {
-      "text": "pooled admit rate — 1,175 of 2,100 across those five classes",
-      "of": "933748c1",
-      "at": [
-        "charlotte-catholic:ncAdmissions.stats[1].label"
-      ],
-      "t": "to admisyon konbine — 1,175 sou 2,100 nan senk pwomosyon sa yo"
-    },
-    {
-      "text": "at UNC-Chapel Hill — 140 of 459, the most selective of the six",
-      "of": "055ca9ff",
-      "at": [
-        "charlotte-catholic:ncAdmissions.stats[2].label"
-      ],
-      "t": "nan UNC-Chapel Hill — 140 sou 459, sa ki pi selektif nan sis yo"
-    },
-    {
-      "text": "drew the most applications in Fall 2025 (141)",
-      "of": "a78a3c92",
-      "at": [
-        "charlotte-catholic:ncAdmissions.stats[3].label"
-      ],
-      "t": "te resevwa plis aplikasyon nan otòn 2025 (141)"
-    },
-    {
-      "text": "Across the six top-ranked NC public universities, Charlotte Country Day School’s applicants were admitted at a pooled 46.7% over the last five entering classes — 328 acceptances from 702 applications.",
-      "of": "ddd3a8b3",
-      "at": [
-        "charlotte-country-day:ncAdmissions.headline"
-      ],
-      "t": "Nan sis inivèsite piblik ki pi byen klase nan NC yo, kandida Charlotte Country Day School yo te admèt nan yon to konbine 46.7% sou senk dènye pwomosyon ki antre yo — 328 admisyon sou 702 aplikasyon."
-    },
-    {
-      "text": "UNC-Chapel Hill is the hard one: 37.7% pooled there, against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.",
-      "of": "7f527fdf",
-      "at": [
-        "charlotte-country-day:ncAdmissions.subhead"
-      ],
-      "t": "UNC-Chapel Hill se sa ki difisil la: 37.7% konbine la, kont to ki pi wo anpil nan kanpis ki mwens selektif yo. Sa se chif sistèm UNC leta a pibliye, se pa chif lekòl la menm."
-    },
-    {
-      "text": "pooled admit rate — 328 of 702 across those five classes",
-      "of": "f0709b02",
-      "at": [
-        "charlotte-country-day:ncAdmissions.stats[1].label"
-      ],
-      "t": "to admisyon konbine — 328 sou 702 nan senk pwomosyon sa yo"
-    },
-    {
-      "text": "at UNC-Chapel Hill — 119 of 316, the most selective of the six",
-      "of": "24298ce5",
-      "at": [
-        "charlotte-country-day:ncAdmissions.stats[2].label"
-      ],
-      "t": "nan UNC-Chapel Hill — 119 sou 316, sa ki pi selektif nan sis yo"
-    },
-    {
-      "text": "Across the six top-ranked NC public universities, Cannon School’s applicants were admitted at a pooled 60.8% over the last five entering classes — 479 acceptances from 788 applications.",
-      "of": "d5b76392",
-      "at": [
-        "cannon:ncAdmissions.headline"
-      ],
-      "t": "Nan sis inivèsite piblik ki pi byen klase nan NC yo, kandida Cannon School yo te admèt nan yon to konbine 60.8% sou senk dènye pwomosyon ki antre yo — 479 admisyon sou 788 aplikasyon."
-    },
-    {
-      "text": "UNC-Chapel Hill is the hard one: 37.4% pooled there, against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.",
-      "of": "ca7d86a4",
-      "at": [
-        "cannon:ncAdmissions.subhead"
-      ],
-      "t": "UNC-Chapel Hill se sa ki difisil la: 37.4% konbine la, kont to ki pi wo anpil nan kanpis ki mwens selektif yo. Sa se chif sistèm UNC leta a pibliye, se pa chif lekòl la menm."
-    },
-    {
-      "text": "pooled admit rate — 479 of 788 across those five classes",
-      "of": "2127adad",
-      "at": [
-        "cannon:ncAdmissions.stats[1].label"
-      ],
-      "t": "to admisyon konbine — 479 sou 788 nan senk pwomosyon sa yo"
-    },
-    {
-      "text": "at UNC-Chapel Hill — 102 of 273, the most selective of the six",
-      "of": "b3b6eff3",
-      "at": [
-        "cannon:ncAdmissions.stats[2].label"
-      ],
-      "t": "nan UNC-Chapel Hill — 102 sou 273, sa ki pi selektif nan sis yo"
-    },
-    {
-      "text": "drew the most applications in Fall 2025 (63)",
-      "of": "ba092b19",
-      "at": [
-        "cannon:ncAdmissions.stats[3].label"
-      ],
-      "t": "te resevwa plis aplikasyon nan otòn 2025 (63)"
-    },
-    {
-      "text": "Across the six top-ranked NC public universities, Covenant Day School’s applicants were admitted at a pooled 60.3% over the last five entering classes — 301 acceptances from 499 applications.",
-      "of": "db346c77",
-      "at": [
-        "covenant-day:ncAdmissions.headline"
-      ],
-      "t": "Nan sis inivèsite piblik ki pi byen klase nan NC yo, kandida Covenant Day School yo te admèt nan yon to konbine 60.3% sou senk dènye pwomosyon ki antre yo — 301 admisyon sou 499 aplikasyon."
-    },
-    {
-      "text": "UNC-Chapel Hill is the hard one: 34.6% pooled there, against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.",
-      "of": "174010ed",
-      "at": [
-        "covenant-day:ncAdmissions.subhead"
-      ],
-      "t": "UNC-Chapel Hill se sa ki difisil la: 34.6% konbine la, kont to ki pi wo anpil nan kanpis ki mwens selektif yo. Sa se chif sistèm UNC leta a pibliye, se pa chif lekòl la menm."
-    },
-    {
-      "text": "pooled admit rate — 301 of 499 across those five classes",
-      "of": "e905a170",
-      "at": [
-        "covenant-day:ncAdmissions.stats[1].label"
-      ],
-      "t": "to admisyon konbine — 301 sou 499 nan senk pwomosyon sa yo"
-    },
-    {
-      "text": "at UNC-Chapel Hill — 47 of 136, the most selective of the six",
-      "of": "efe86ed3",
-      "at": [
-        "covenant-day:ncAdmissions.stats[2].label"
-      ],
-      "t": "nan UNC-Chapel Hill — 47 sou 136, sa ki pi selektif nan sis yo"
-    },
-    {
-      "text": "drew the most applications in Fall 2025 (42)",
-      "of": "08d287a2",
-      "at": [
-        "covenant-day:ncAdmissions.stats[3].label"
-      ],
-      "t": "te resevwa plis aplikasyon nan otòn 2025 (42)"
-    },
-    {
-      "text": "Across the six top-ranked NC public universities, Davidson Day School’s applicants were admitted at a pooled 59.4% over the last five entering classes — 177 acceptances from 298 applications.",
-      "of": "7803b068",
-      "at": [
-        "davidson-day:ncAdmissions.headline"
-      ],
-      "t": "Nan sis inivèsite piblik ki pi byen klase nan NC yo, kandida Davidson Day School yo te admèt nan yon to konbine 59.4% sou senk dènye pwomosyon ki antre yo — 177 admisyon sou 298 aplikasyon."
-    },
-    {
-      "text": "UNC-Chapel Hill is the hard one: 44.4% pooled there, against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.",
-      "of": "4fcaa4f2",
-      "at": [
-        "davidson-day:ncAdmissions.subhead"
-      ],
-      "t": "UNC-Chapel Hill se sa ki difisil la: 44.4% konbine la, kont to ki pi wo anpil nan kanpis ki mwens selektif yo. Sa se chif sistèm UNC leta a pibliye, se pa chif lekòl la menm."
-    },
-    {
-      "text": "pooled admit rate — 177 of 298 across those five classes",
-      "of": "4a13b310",
-      "at": [
-        "davidson-day:ncAdmissions.stats[1].label"
-      ],
-      "t": "to admisyon konbine — 177 sou 298 nan senk pwomosyon sa yo"
-    },
-    {
-      "text": "at UNC-Chapel Hill — 40 of 90, the most selective of the six",
-      "of": "3339fde7",
-      "at": [
-        "davidson-day:ncAdmissions.stats[2].label"
-      ],
-      "t": "nan UNC-Chapel Hill — 40 sou 90, sa ki pi selektif nan sis yo"
-    },
-    {
-      "text": "drew the most applications in Fall 2025 (25)",
-      "of": "0a7352bf",
-      "at": [
-        "davidson-day:ncAdmissions.stats[3].label",
-        "hickory-grove-christian:ncAdmissions.stats[3].label"
-      ],
-      "t": "te resevwa plis aplikasyon nan otòn 2025 (25)"
-    },
-    {
-      "text": "Across the six top-ranked NC public universities, Carmel Christian School’s applicants were admitted at a pooled 59.2% over the last five entering classes — 346 acceptances from 584 applications.",
-      "of": "555db8cd",
-      "at": [
-        "carmel-christian:ncAdmissions.headline"
-      ],
-      "t": "Nan sis inivèsite piblik ki pi byen klase nan NC yo, kandida Carmel Christian School yo te admèt nan yon to konbine 59.2% sou senk dènye pwomosyon ki antre yo — 346 admisyon sou 584 aplikasyon."
-    },
-    {
-      "text": "UNC-Chapel Hill is the hard one: 32.7% pooled there, against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.",
-      "of": "79670c02",
-      "at": [
-        "carmel-christian:ncAdmissions.subhead"
-      ],
-      "t": "UNC-Chapel Hill se sa ki difisil la: 32.7% konbine la, kont to ki pi wo anpil nan kanpis ki mwens selektif yo. Sa se chif sistèm UNC leta a pibliye, se pa chif lekòl la menm."
-    },
-    {
-      "text": "pooled admit rate — 346 of 584 across those five classes",
-      "of": "be1aa1d2",
-      "at": [
-        "carmel-christian:ncAdmissions.stats[1].label"
-      ],
-      "t": "to admisyon konbine — 346 sou 584 nan senk pwomosyon sa yo"
-    },
-    {
-      "text": "at UNC-Chapel Hill — 37 of 113, the most selective of the six",
-      "of": "4c76c89b",
-      "at": [
-        "carmel-christian:ncAdmissions.stats[2].label"
-      ],
-      "t": "nan UNC-Chapel Hill — 37 sou 113, sa ki pi selektif nan sis yo"
-    },
-    {
-      "text": "drew the most applications in Fall 2025 (31)",
-      "of": "be25dcfc",
-      "at": [
-        "carmel-christian:ncAdmissions.stats[3].label"
-      ],
-      "t": "te resevwa plis aplikasyon nan otòn 2025 (31)"
-    },
-    {
-      "text": "Across the six top-ranked NC public universities, Hickory Grove Christian School’s applicants were admitted at a pooled 74.9% over the last five entering classes — 256 acceptances from 342 applications.",
-      "of": "031cb01f",
-      "at": [
-        "hickory-grove-christian:ncAdmissions.headline"
-      ],
-      "t": "Nan sis inivèsite piblik ki pi byen klase nan NC yo, kandida Hickory Grove Christian School yo te admèt nan yon to konbine 74.9% sou senk dènye pwomosyon ki antre yo — 256 admisyon sou 342 aplikasyon."
-    },
-    {
-      "text": "UNC-Chapel Hill is the hard one: 26.7% pooled there, against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.",
-      "of": "2e40f209",
-      "at": [
-        "hickory-grove-christian:ncAdmissions.subhead"
-      ],
-      "t": "UNC-Chapel Hill se sa ki difisil la: 26.7% konbine la, kont to ki pi wo anpil nan kanpis ki mwens selektif yo. Sa se chif sistèm UNC leta a pibliye, se pa chif lekòl la menm."
-    },
-    {
-      "text": "pooled admit rate — 256 of 342 across those five classes",
-      "of": "ca4ed73c",
-      "at": [
-        "hickory-grove-christian:ncAdmissions.stats[1].label"
-      ],
-      "t": "to admisyon konbine — 256 sou 342 nan senk pwomosyon sa yo"
-    },
-    {
-      "text": "at UNC-Chapel Hill — 12 of 45, the most selective of the six",
-      "of": "3e4c0348",
-      "at": [
-        "hickory-grove-christian:ncAdmissions.stats[2].label"
-      ],
-      "t": "nan UNC-Chapel Hill — 12 sou 45, sa ki pi selektif nan sis yo"
-    },
-    {
-      "text": "Across the six top-ranked NC public universities, Gaston Day School’s applicants were admitted at a pooled 57.9% over the last five entering classes — 140 acceptances from 242 applications.",
-      "of": "30322e8c",
-      "at": [
-        "gaston-day:ncAdmissions.headline"
-      ],
-      "t": "Nan sis inivèsite piblik ki pi byen klase nan NC yo, kandida Gaston Day School yo te admèt nan yon to konbine 57.9% sou senk dènye pwomosyon ki antre yo — 140 admisyon sou 242 aplikasyon."
-    },
-    {
-      "text": "UNC-Chapel Hill is the hard one: 29.6% pooled there, against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.",
-      "of": "1751679f",
-      "at": [
-        "gaston-day:ncAdmissions.subhead"
-      ],
-      "t": "UNC-Chapel Hill se sa ki difisil la: 29.6% konbine la, kont to ki pi wo anpil nan kanpis ki mwens selektif yo. Sa se chif sistèm UNC leta a pibliye, se pa chif lekòl la menm."
-    },
-    {
-      "text": "pooled admit rate — 140 of 242 across those five classes",
-      "of": "688feeb5",
-      "at": [
-        "gaston-day:ncAdmissions.stats[1].label"
-      ],
-      "t": "to admisyon konbine — 140 sou 242 nan senk pwomosyon sa yo"
-    },
-    {
-      "text": "at UNC-Chapel Hill — 21 of 71, the most selective of the six",
-      "of": "d8cb57a7",
-      "at": [
-        "gaston-day:ncAdmissions.stats[2].label"
-      ],
-      "t": "nan UNC-Chapel Hill — 21 sou 71, sa ki pi selektif nan sis yo"
-    },
-    {
-      "text": "drew the most applications in Fall 2025 (15)",
-      "of": "67c3defa",
-      "at": [
-        "gaston-day:ncAdmissions.stats[3].label"
-      ],
-      "t": "te resevwa plis aplikasyon nan otòn 2025 (15)"
     }
   ]
 }

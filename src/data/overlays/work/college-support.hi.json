@@ -5,6 +5,174 @@
   "note": "Translate each `text` into `t`. Leave `of` and `at` untouched — they are how the overlay is rebuilt and drift-checked.",
   "strings": [
     {
+      "text": "Across the six top-ranked NC public universities, Providence Day School’s applicants were admitted at a pooled 51.1% over the last five entering classes — 499 acceptances from 977 applications.",
+      "of": "6160090d",
+      "at": [
+        "providence-day:ncAdmissions.headline"
+      ],
+      "t": "NC की शीर्ष छह सरकारी यूनिवर्सिटी में Providence Day School के आवेदकों को पिछले पाँच प्रवेश बैचों में कुल मिलाकर 51.1% की दर से प्रवेश मिला — 977 आवेदनों में से 499 स्वीकृत।"
+    },
+    {
+      "text": "NC State University is the hard one: 32.4% in Fall 2025 — 23 of 71 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.",
+      "of": "cf61d66d",
+      "at": [
+        "providence-day:ncAdmissions.subhead"
+      ],
+      "t": "NC State University सबसे कठिन है: पतझड़ 2025 में 32.4% — 71 में से 23 — जबकि कम चयनात्मक विश्वविद्यालयों में दरें कहीं अधिक हैं। ये राज्य द्वारा प्रकाशित UNC-सिस्टम के आँकड़े हैं, स्कूल के अपने नहीं।"
+    },
+    {
+      "text": "applications to the six universities, Fall 2021–2025",
+      "of": "bd6703ca",
+      "at": [
+        "providence-day:ncAdmissions.stats[0].label",
+        "charlotte-latin:ncAdmissions.stats[0].label",
+        "charlotte-christian:ncAdmissions.stats[0].label",
+        "charlotte-catholic:ncAdmissions.stats[0].label",
+        "charlotte-country-day:ncAdmissions.stats[0].label",
+        "cannon:ncAdmissions.stats[0].label",
+        "covenant-day:ncAdmissions.stats[0].label",
+        "davidson-day:ncAdmissions.stats[0].label",
+        "carmel-christian:ncAdmissions.stats[0].label",
+        "hickory-grove-christian:ncAdmissions.stats[0].label",
+        "gaston-day:ncAdmissions.stats[0].label"
+      ],
+      "t": "छह विश्वविद्यालयों में आवेदन, पतझड़ 2021–2025"
+    },
+    {
+      "text": "pooled admit rate — 499 of 977 across those five classes",
+      "of": "679fe477",
+      "at": [
+        "providence-day:ncAdmissions.stats[1].label"
+      ],
+      "t": "कुल प्रवेश दर — उन पाँच बैचों में 977 में से 499"
+    },
+    {
+      "text": "at NC State University — 23 of 71, the toughest of the six for this school",
+      "of": "c6474067",
+      "at": [
+        "providence-day:ncAdmissions.stats[2].label"
+      ],
+      "t": "NC State University में — 71 में से 23, इस स्कूल के लिए छह में सबसे कठिन"
+    },
+    {
+      "text": "drew the most applications in Fall 2025 (103)",
+      "of": "884365c8",
+      "at": [
+        "providence-day:ncAdmissions.stats[3].label"
+      ],
+      "t": "पतझड़ 2025 में सबसे अधिक आवेदन मिले (103)"
+    },
+    {
+      "text": "Flagship · Chapel Hill",
+      "of": "e4fbefd6",
+      "at": [
+        "providence-day:ncAdmissions.universities[0].note",
+        "charlotte-country-day:ncAdmissions.universities[0].note"
+      ],
+      "t": "प्रमुख कैंपस · Chapel Hill"
+    },
+    {
+      "text": "Flagship STEM · Raleigh · the most selective of the six",
+      "of": "f452f952",
+      "at": [
+        "providence-day:ncAdmissions.universities[1].note",
+        "charlotte-country-day:ncAdmissions.universities[1].note"
+      ],
+      "t": "प्रमुख STEM कैंपस · Raleigh · छह में सबसे चयनात्मक"
+    },
+    {
+      "text": "Hometown campus",
+      "of": "80c3cf73",
+      "at": [
+        "providence-day:ncAdmissions.universities[2].note",
+        "charlotte-latin:ncAdmissions.universities[2].note",
+        "charlotte-christian:ncAdmissions.universities[2].note",
+        "charlotte-catholic:ncAdmissions.universities[2].note",
+        "charlotte-country-day:ncAdmissions.universities[2].note",
+        "davidson-day:ncAdmissions.universities[2].note",
+        "carmel-christian:ncAdmissions.universities[2].note",
+        "hickory-grove-christian:ncAdmissions.universities[2].note",
+        "gaston-day:ncAdmissions.universities[2].note"
+      ],
+      "t": "गृह-नगर कैंपस"
+    },
+    {
+      "text": "Greenville · eastern NC",
+      "of": "3fca8b24",
+      "at": [
+        "providence-day:ncAdmissions.universities[3].note",
+        "charlotte-christian:ncAdmissions.universities[3].note",
+        "cannon:ncAdmissions.universities[3].note",
+        "covenant-day:ncAdmissions.universities[3].note",
+        "hickory-grove-christian:ncAdmissions.universities[3].note"
+      ],
+      "t": "Greenville · पूर्वी नॉर्थ कैरोलाइना"
+    },
+    {
+      "text": "Coastal · mid-selectivity",
+      "of": "c49d4c43",
+      "at": [
+        "providence-day:ncAdmissions.universities[4].note",
+        "charlotte-latin:ncAdmissions.universities[4].note",
+        "charlotte-christian:ncAdmissions.universities[4].note",
+        "charlotte-catholic:ncAdmissions.universities[4].note",
+        "charlotte-country-day:ncAdmissions.universities[4].note",
+        "cannon:ncAdmissions.universities[4].note",
+        "covenant-day:ncAdmissions.universities[4].note",
+        "davidson-day:ncAdmissions.universities[4].note",
+        "carmel-christian:ncAdmissions.universities[4].note",
+        "hickory-grove-christian:ncAdmissions.universities[4].note",
+        "gaston-day:ncAdmissions.universities[4].note"
+      ],
+      "t": "तटीय · मध्यम चयनात्मकता"
+    },
+    {
+      "text": "Piedmont Triad · largest admit rates of the six",
+      "of": "013e700c",
+      "at": [
+        "providence-day:ncAdmissions.universities[5].note",
+        "charlotte-christian:ncAdmissions.universities[5].note",
+        "hickory-grove-christian:ncAdmissions.universities[5].note"
+      ],
+      "t": "Piedmont Triad · छह में सबसे अधिक प्रवेश दर"
+    },
+    {
+      "text": "Read each row as a joint figure: the rate at which that university admitted this school’s applicants — not the university’s overall admit rate, and not a measure of the school’s own selectivity. Applied/Accepted are the Fall 2025 entering class; the 5-yr column pools Fall 2021–2025 as sum(accepted)/sum(applied), so a heavy year counts more than a light one. Counts travel with every rate because several cells are single-digit.",
+      "of": "99f2fb2d",
+      "at": [
+        "providence-day:ncAdmissions.methodNote",
+        "charlotte-latin:ncAdmissions.methodNote",
+        "charlotte-christian:ncAdmissions.methodNote",
+        "charlotte-catholic:ncAdmissions.methodNote",
+        "charlotte-country-day:ncAdmissions.methodNote",
+        "cannon:ncAdmissions.methodNote",
+        "covenant-day:ncAdmissions.methodNote",
+        "davidson-day:ncAdmissions.methodNote",
+        "carmel-christian:ncAdmissions.methodNote",
+        "hickory-grove-christian:ncAdmissions.methodNote",
+        "gaston-day:ncAdmissions.methodNote"
+      ],
+      "t": "हर पंक्ति को एक संयुक्त आँकड़े के रूप में पढ़ें: वह दर जिस पर उस यूनिवर्सिटी ने इस स्कूल के आवेदकों को प्रवेश दिया — यह यूनिवर्सिटी की समग्र प्रवेश दर नहीं है, और न ही स्कूल की अपनी चयनात्मकता का माप। आवेदन/स्वीकृत पतझड़ 2025 के प्रवेश बैच के हैं; 5-वर्ष वाला कॉलम पतझड़ 2021–2025 को योग(स्वीकृत)/योग(आवेदन) के रूप में जोड़ता है, इसलिए अधिक आवेदनों वाला वर्ष कम वाले से अधिक भार रखता है। हर दर के साथ संख्याएँ इसलिए दी गई हैं क्योंकि कई खाने एक अंक के हैं।"
+    },
+    {
+      "text": "Rank order follows the US News **National Universities** table for NC publics. That qualifier matters: Appalachian State is ranked in **Regional Universities South**, a different list, so “top 6 in NC” is not self-defining. Re-score when the next edition lands.",
+      "of": "d7187d7b",
+      "at": [
+        "providence-day:ncAdmissions.flags[0].text",
+        "charlotte-latin:ncAdmissions.flags[0].text",
+        "charlotte-christian:ncAdmissions.flags[0].text",
+        "charlotte-catholic:ncAdmissions.flags[0].text",
+        "charlotte-country-day:ncAdmissions.flags[0].text",
+        "cannon:ncAdmissions.flags[0].text",
+        "covenant-day:ncAdmissions.flags[0].text",
+        "davidson-day:ncAdmissions.flags[0].text",
+        "carmel-christian:ncAdmissions.flags[0].text",
+        "hickory-grove-christian:ncAdmissions.flags[0].text",
+        "gaston-day:ncAdmissions.flags[0].text"
+      ],
+      "t": "रैंक क्रम NC की सरकारी यूनिवर्सिटी के लिए US News की **National Universities** तालिका का अनुसरण करता है। यह शर्त मायने रखती है: Appalachian State **Regional Universities South** में रैंक की गई है, जो एक अलग सूची है — इसलिए “NC में शीर्ष 6” अपने आप स्पष्ट नहीं है। अगला संस्करण आने पर दोबारा आकलन करें।"
+    },
+    {
       "text": "Every AP student must sit the exam, so the score distribution colleges read is complete — and 94% of 2025’s scores were a 3 or higher, with 77% at 4 or 5.",
       "of": "299ca066",
       "at": [
@@ -1784,6 +1952,107 @@
       "t": "आपका दाख़िला पृष्ठ Class of 2025 के लिए $23 million की मेधा-छात्रवृत्तियाँ बताता है; आधिकारिक profile $20 million से अधिक कहता है। सही कौन-सा है, और हर आँकड़े में क्या-क्या गिना गया है?"
     },
     {
+      "text": "Across the six top-ranked NC public universities, Charlotte Latin School’s applicants were admitted at a pooled 45.5% over the last five entering classes — 334 acceptances from 734 applications.",
+      "of": "d2183318",
+      "at": [
+        "charlotte-latin:ncAdmissions.headline"
+      ],
+      "t": "NC की शीर्ष छह सरकारी यूनिवर्सिटी में Charlotte Latin School के आवेदकों को पिछले पाँच प्रवेश बैचों में कुल मिलाकर 45.5% की दर से प्रवेश मिला — 734 आवेदनों में से 334 स्वीकृत।"
+    },
+    {
+      "text": "UNC-Chapel Hill is the hard one: 33.3% in Fall 2025 — 23 of 69 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.",
+      "of": "f35f7b29",
+      "at": [
+        "charlotte-latin:ncAdmissions.subhead"
+      ],
+      "t": "UNC-Chapel Hill सबसे कठिन है: पतझड़ 2025 में 33.3% — 69 में से 23 — जबकि कम चयनात्मक विश्वविद्यालयों में दरें कहीं अधिक हैं। ये राज्य द्वारा प्रकाशित UNC-सिस्टम के आँकड़े हैं, स्कूल के अपने नहीं।"
+    },
+    {
+      "text": "pooled admit rate — 334 of 734 across those five classes",
+      "of": "6cfab420",
+      "at": [
+        "charlotte-latin:ncAdmissions.stats[1].label"
+      ],
+      "t": "कुल प्रवेश दर — उन पाँच बैचों में 734 में से 334"
+    },
+    {
+      "text": "at UNC-Chapel Hill — 23 of 69, the toughest of the six for this school",
+      "of": "c1b36f49",
+      "at": [
+        "charlotte-latin:ncAdmissions.stats[2].label"
+      ],
+      "t": "UNC-Chapel Hill में — 69 में से 23, इस स्कूल के लिए छह में सबसे कठिन"
+    },
+    {
+      "text": "drew the most applications in Fall 2025 (69)",
+      "of": "3df062ff",
+      "at": [
+        "charlotte-latin:ncAdmissions.stats[3].label",
+        "charlotte-country-day:ncAdmissions.stats[3].label"
+      ],
+      "t": "पतझड़ 2025 में सबसे अधिक आवेदन मिले (69)"
+    },
+    {
+      "text": "Flagship · Chapel Hill · the most selective of the six",
+      "of": "5c94c33d",
+      "at": [
+        "charlotte-latin:ncAdmissions.universities[0].note",
+        "charlotte-christian:ncAdmissions.universities[0].note",
+        "charlotte-catholic:ncAdmissions.universities[0].note",
+        "cannon:ncAdmissions.universities[0].note",
+        "covenant-day:ncAdmissions.universities[0].note",
+        "davidson-day:ncAdmissions.universities[0].note",
+        "carmel-christian:ncAdmissions.universities[0].note",
+        "hickory-grove-christian:ncAdmissions.universities[0].note",
+        "gaston-day:ncAdmissions.universities[0].note"
+      ],
+      "t": "प्रमुख कैंपस · Chapel Hill · छह में सबसे चयनात्मक"
+    },
+    {
+      "text": "Flagship STEM · Raleigh",
+      "of": "30c46415",
+      "at": [
+        "charlotte-latin:ncAdmissions.universities[1].note",
+        "charlotte-christian:ncAdmissions.universities[1].note",
+        "charlotte-catholic:ncAdmissions.universities[1].note",
+        "cannon:ncAdmissions.universities[1].note",
+        "covenant-day:ncAdmissions.universities[1].note",
+        "davidson-day:ncAdmissions.universities[1].note",
+        "carmel-christian:ncAdmissions.universities[1].note",
+        "hickory-grove-christian:ncAdmissions.universities[1].note",
+        "gaston-day:ncAdmissions.universities[1].note"
+      ],
+      "t": "प्रमुख STEM कैंपस · Raleigh"
+    },
+    {
+      "text": "Greenville · eastern NC · largest admit rates of the six",
+      "of": "df4c696f",
+      "at": [
+        "charlotte-latin:ncAdmissions.universities[3].note",
+        "charlotte-catholic:ncAdmissions.universities[3].note",
+        "charlotte-country-day:ncAdmissions.universities[3].note",
+        "davidson-day:ncAdmissions.universities[3].note",
+        "carmel-christian:ncAdmissions.universities[3].note",
+        "gaston-day:ncAdmissions.universities[3].note"
+      ],
+      "t": "Greenville · पूर्वी नॉर्थ कैरोलाइना · छह में सबसे अधिक प्रवेश दर"
+    },
+    {
+      "text": "Piedmont Triad",
+      "of": "91680e35",
+      "at": [
+        "charlotte-latin:ncAdmissions.universities[5].note",
+        "charlotte-catholic:ncAdmissions.universities[5].note",
+        "charlotte-country-day:ncAdmissions.universities[5].note",
+        "cannon:ncAdmissions.universities[5].note",
+        "covenant-day:ncAdmissions.universities[5].note",
+        "davidson-day:ncAdmissions.universities[5].note",
+        "carmel-christian:ncAdmissions.universities[5].note",
+        "gaston-day:ncAdmissions.universities[5].note"
+      ],
+      "t": "Piedmont Triad"
+    },
+    {
       "text": "Students in AP classes are required to sit the exam — but unlike its peers, Latin publishes no AP score distribution at all, so the results of that policy are invisible.",
       "of": "545617b6",
       "at": [
@@ -2994,6 +3263,46 @@
       "t": "आपने Class of 2023 के बाद मेधा-छात्रवृत्ति के कुल आँकड़े प्रकाशित करना बंद कर दिया। पिछली तीन कक्षाओं को कितना मिला?"
     },
     {
+      "text": "Across the six top-ranked NC public universities, Charlotte Christian School’s applicants were admitted at a pooled 54.8% over the last five entering classes — 382 acceptances from 697 applications.",
+      "of": "98f4e24d",
+      "at": [
+        "charlotte-christian:ncAdmissions.headline"
+      ],
+      "t": "NC की शीर्ष छह सरकारी यूनिवर्सिटी में Charlotte Christian School के आवेदकों को पिछले पाँच प्रवेश बैचों में कुल मिलाकर 54.8% की दर से प्रवेश मिला — 697 आवेदनों में से 382 स्वीकृत।"
+    },
+    {
+      "text": "UNC-Chapel Hill is the hard one: 26.3% in Fall 2025 — 10 of 38 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.",
+      "of": "f0de089b",
+      "at": [
+        "charlotte-christian:ncAdmissions.subhead"
+      ],
+      "t": "UNC-Chapel Hill सबसे कठिन है: पतझड़ 2025 में 26.3% — 38 में से 10 — जबकि कम चयनात्मक विश्वविद्यालयों में दरें कहीं अधिक हैं। ये राज्य द्वारा प्रकाशित UNC-सिस्टम के आँकड़े हैं, स्कूल के अपने नहीं।"
+    },
+    {
+      "text": "pooled admit rate — 382 of 697 across those five classes",
+      "of": "786b5c5f",
+      "at": [
+        "charlotte-christian:ncAdmissions.stats[1].label"
+      ],
+      "t": "कुल प्रवेश दर — उन पाँच बैचों में 697 में से 382"
+    },
+    {
+      "text": "at UNC-Chapel Hill — 10 of 38, the toughest of the six for this school",
+      "of": "a60352dd",
+      "at": [
+        "charlotte-christian:ncAdmissions.stats[2].label"
+      ],
+      "t": "UNC-Chapel Hill में — 38 में से 10, इस स्कूल के लिए छह में सबसे कठिन"
+    },
+    {
+      "text": "drew the most applications in Fall 2025 (38)",
+      "of": "ba101061",
+      "at": [
+        "charlotte-christian:ncAdmissions.stats[3].label"
+      ],
+      "t": "पतझड़ 2025 में सबसे अधिक आवेदन मिले (38)"
+    },
+    {
       "text": "Students in AP classes are required to sit the exam, and 89% of 2024’s exams scored 3 or higher — a rate earned on a mandated rather than self-selected pool.",
       "of": "5a98620f",
       "at": [
@@ -4178,6 +4487,46 @@
         "charlotte-christian:verdict.checklist[7]"
       ],
       "t": "Class of 2026 के आँकड़े क्या हैं — स्वीकृतियाँ, छात्रवृत्तियाँ, और परीक्षा-पट्टियाँ? अभी इनमें से कुछ भी प्रकाशित नहीं है।"
+    },
+    {
+      "text": "Across the six top-ranked NC public universities, Charlotte Catholic High School’s applicants were admitted at a pooled 56.0% over the last five entering classes — 1,175 acceptances from 2,100 applications.",
+      "of": "bd1d168f",
+      "at": [
+        "charlotte-catholic:ncAdmissions.headline"
+      ],
+      "t": "NC की शीर्ष छह सरकारी यूनिवर्सिटी में Charlotte Catholic High School के आवेदकों को पिछले पाँच प्रवेश बैचों में कुल मिलाकर 56.0% की दर से प्रवेश मिला — 2,100 आवेदनों में से 1,175 स्वीकृत।"
+    },
+    {
+      "text": "UNC-Chapel Hill is the hard one: 23.3% in Fall 2025 — 24 of 103 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.",
+      "of": "bad1c34e",
+      "at": [
+        "charlotte-catholic:ncAdmissions.subhead"
+      ],
+      "t": "UNC-Chapel Hill सबसे कठिन है: पतझड़ 2025 में 23.3% — 103 में से 24 — जबकि कम चयनात्मक विश्वविद्यालयों में दरें कहीं अधिक हैं। ये राज्य द्वारा प्रकाशित UNC-सिस्टम के आँकड़े हैं, स्कूल के अपने नहीं।"
+    },
+    {
+      "text": "pooled admit rate — 1,175 of 2,100 across those five classes",
+      "of": "933748c1",
+      "at": [
+        "charlotte-catholic:ncAdmissions.stats[1].label"
+      ],
+      "t": "कुल प्रवेश दर — उन पाँच बैचों में 2,100 में से 1,175"
+    },
+    {
+      "text": "at UNC-Chapel Hill — 24 of 103, the toughest of the six for this school",
+      "of": "fc80e88f",
+      "at": [
+        "charlotte-catholic:ncAdmissions.stats[2].label"
+      ],
+      "t": "UNC-Chapel Hill में — 103 में से 24, इस स्कूल के लिए छह में सबसे कठिन"
+    },
+    {
+      "text": "drew the most applications in Fall 2025 (141)",
+      "of": "a78a3c92",
+      "at": [
+        "charlotte-catholic:ncAdmissions.stats[3].label"
+      ],
+      "t": "पतझड़ 2025 में सबसे अधिक आवेदन मिले (141)"
     },
     {
       "text": "A weighted-only transcript, no class rank, and an AP program where the exam is not optional.",
@@ -5794,6 +6143,38 @@
       "t": "किन खेलों में पतझड़ और वसंत के अलग-अलग signing day होते हैं, और उनके नतीजे कहाँ प्रकाशित होते हैं?"
     },
     {
+      "text": "Across the six top-ranked NC public universities, Charlotte Country Day School’s applicants were admitted at a pooled 46.7% over the last five entering classes — 328 acceptances from 702 applications.",
+      "of": "ddd3a8b3",
+      "at": [
+        "charlotte-country-day:ncAdmissions.headline"
+      ],
+      "t": "NC की शीर्ष छह सरकारी यूनिवर्सिटी में Charlotte Country Day School के आवेदकों को पिछले पाँच प्रवेश बैचों में कुल मिलाकर 46.7% की दर से प्रवेश मिला — 702 आवेदनों में से 328 स्वीकृत।"
+    },
+    {
+      "text": "NC State University is the hard one: 22.9% in Fall 2025 — 11 of 48 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.",
+      "of": "b39e1ac6",
+      "at": [
+        "charlotte-country-day:ncAdmissions.subhead"
+      ],
+      "t": "NC State University सबसे कठिन है: पतझड़ 2025 में 22.9% — 48 में से 11 — जबकि कम चयनात्मक विश्वविद्यालयों में दरें कहीं अधिक हैं। ये राज्य द्वारा प्रकाशित UNC-सिस्टम के आँकड़े हैं, स्कूल के अपने नहीं।"
+    },
+    {
+      "text": "pooled admit rate — 328 of 702 across those five classes",
+      "of": "f0709b02",
+      "at": [
+        "charlotte-country-day:ncAdmissions.stats[1].label"
+      ],
+      "t": "कुल प्रवेश दर — उन पाँच बैचों में 702 में से 328"
+    },
+    {
+      "text": "at NC State University — 11 of 48, the toughest of the six for this school",
+      "of": "41ba7648",
+      "at": [
+        "charlotte-country-day:ncAdmissions.stats[2].label"
+      ],
+      "t": "NC State University में — 48 में से 11, इस स्कूल के लिए छह में सबसे कठिन"
+    },
+    {
       "text": "530 AP exams in 2025 at 93% scoring 3+ and 74% at 4 or 5 — and the school publishes those results discipline by discipline, weak spots included.",
       "of": "c507f1d9",
       "at": [
@@ -7044,6 +7425,55 @@
       "t": "आपके counselor हर साल कितने कॉलेजों का दौरा करते हैं, क्या Senior Externship अनिवार्य है, और gap-year, post-AP कंप्यूटर विज्ञान या capstone-शोध के कौन-से विकल्प मौजूद हैं?"
     },
     {
+      "text": "Across the six top-ranked NC public universities, Cannon School’s applicants were admitted at a pooled 60.8% over the last five entering classes — 479 acceptances from 788 applications.",
+      "of": "d5b76392",
+      "at": [
+        "cannon:ncAdmissions.headline"
+      ],
+      "t": "NC की शीर्ष छह सरकारी यूनिवर्सिटी में Cannon School के आवेदकों को पिछले पाँच प्रवेश बैचों में कुल मिलाकर 60.8% की दर से प्रवेश मिला — 788 आवेदनों में से 479 स्वीकृत।"
+    },
+    {
+      "text": "UNC-Chapel Hill is the hard one: 31.7% in Fall 2025 — 20 of 63 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.",
+      "of": "829ec004",
+      "at": [
+        "cannon:ncAdmissions.subhead"
+      ],
+      "t": "UNC-Chapel Hill सबसे कठिन है: पतझड़ 2025 में 31.7% — 63 में से 20 — जबकि कम चयनात्मक विश्वविद्यालयों में दरें कहीं अधिक हैं। ये राज्य द्वारा प्रकाशित UNC-सिस्टम के आँकड़े हैं, स्कूल के अपने नहीं।"
+    },
+    {
+      "text": "pooled admit rate — 479 of 788 across those five classes",
+      "of": "2127adad",
+      "at": [
+        "cannon:ncAdmissions.stats[1].label"
+      ],
+      "t": "कुल प्रवेश दर — उन पाँच बैचों में 788 में से 479"
+    },
+    {
+      "text": "at UNC-Chapel Hill — 20 of 63, the toughest of the six for this school",
+      "of": "22e98354",
+      "at": [
+        "cannon:ncAdmissions.stats[2].label"
+      ],
+      "t": "UNC-Chapel Hill में — 63 में से 20, इस स्कूल के लिए छह में सबसे कठिन"
+    },
+    {
+      "text": "drew the most applications in Fall 2025 (63)",
+      "of": "ba092b19",
+      "at": [
+        "cannon:ncAdmissions.stats[3].label"
+      ],
+      "t": "पतझड़ 2025 में सबसे अधिक आवेदन मिले (63)"
+    },
+    {
+      "text": "Hometown campus · largest admit rates of the six",
+      "of": "d0419022",
+      "at": [
+        "cannon:ncAdmissions.universities[2].note",
+        "covenant-day:ncAdmissions.universities[2].note"
+      ],
+      "t": "गृह-नगर कैंपस · छह में सबसे अधिक प्रवेश दर"
+    },
+    {
       "text": "Cannon publishes something almost no peer does — an explicit maximum AP/AT load by grade, capping a four-year transcript at eleven advanced courses and barring freshmen entirely.",
       "of": "bce93f90",
       "at": [
@@ -8192,6 +8622,46 @@
         "cannon:verdict.checklist[7]"
       ],
       "t": "छात्रों के लिए बनी counseling की पाठ्य-योजना कक्षा-दर-कक्षा कैसी दिखती है — आमने-सामने कितनी बैठकें होती हैं, और निबंध कब से शुरू होते हैं?"
+    },
+    {
+      "text": "Across the six top-ranked NC public universities, Covenant Day School’s applicants were admitted at a pooled 60.3% over the last five entering classes — 301 acceptances from 499 applications.",
+      "of": "db346c77",
+      "at": [
+        "covenant-day:ncAdmissions.headline"
+      ],
+      "t": "NC की शीर्ष छह सरकारी यूनिवर्सिटी में Covenant Day School के आवेदकों को पिछले पाँच प्रवेश बैचों में कुल मिलाकर 60.3% की दर से प्रवेश मिला — 499 आवेदनों में से 301 स्वीकृत।"
+    },
+    {
+      "text": "UNC-Chapel Hill is the hard one: 27.3% in Fall 2025 — 9 of 33 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.",
+      "of": "227b1381",
+      "at": [
+        "covenant-day:ncAdmissions.subhead"
+      ],
+      "t": "UNC-Chapel Hill सबसे कठिन है: पतझड़ 2025 में 27.3% — 33 में से 9 — जबकि कम चयनात्मक विश्वविद्यालयों में दरें कहीं अधिक हैं। ये राज्य द्वारा प्रकाशित UNC-सिस्टम के आँकड़े हैं, स्कूल के अपने नहीं।"
+    },
+    {
+      "text": "pooled admit rate — 301 of 499 across those five classes",
+      "of": "e905a170",
+      "at": [
+        "covenant-day:ncAdmissions.stats[1].label"
+      ],
+      "t": "कुल प्रवेश दर — उन पाँच बैचों में 499 में से 301"
+    },
+    {
+      "text": "at UNC-Chapel Hill — 9 of 33, the toughest of the six for this school",
+      "of": "736f276a",
+      "at": [
+        "covenant-day:ncAdmissions.stats[2].label"
+      ],
+      "t": "UNC-Chapel Hill में — 33 में से 9, इस स्कूल के लिए छह में सबसे कठिन"
+    },
+    {
+      "text": "drew the most applications in Fall 2025 (42)",
+      "of": "08d287a2",
+      "at": [
+        "covenant-day:ncAdmissions.stats[3].label"
+      ],
+      "t": "पतझड़ 2025 में सबसे अधिक आवेदन मिले (42)"
     },
     {
       "text": "96% of AP exam scores were a 3 or higher in 2026 — the top of a five-year climb from 84% — and every AP student must sit the exam.",
@@ -9408,6 +9878,47 @@
       "t": "NC Opportunity Scholarship पूर्व-आवश्यकता एक ऐसे परिवार के लिए सहायता समयरेखा से कैसे जुड़ती है जो कहीं और भी आवेदन कर रहा है?"
     },
     {
+      "text": "Across the six top-ranked NC public universities, Davidson Day School’s applicants were admitted at a pooled 59.4% over the last five entering classes — 177 acceptances from 298 applications.",
+      "of": "7803b068",
+      "at": [
+        "davidson-day:ncAdmissions.headline"
+      ],
+      "t": "NC की शीर्ष छह सरकारी यूनिवर्सिटी में Davidson Day School के आवेदकों को पिछले पाँच प्रवेश बैचों में कुल मिलाकर 59.4% की दर से प्रवेश मिला — 298 आवेदनों में से 177 स्वीकृत।"
+    },
+    {
+      "text": "UNC-Chapel Hill is the hard one: 40.0% in Fall 2025 — 10 of 25 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.",
+      "of": "3d820ae2",
+      "at": [
+        "davidson-day:ncAdmissions.subhead"
+      ],
+      "t": "UNC-Chapel Hill सबसे कठिन है: पतझड़ 2025 में 40.0% — 25 में से 10 — जबकि कम चयनात्मक विश्वविद्यालयों में दरें कहीं अधिक हैं। ये राज्य द्वारा प्रकाशित UNC-सिस्टम के आँकड़े हैं, स्कूल के अपने नहीं।"
+    },
+    {
+      "text": "pooled admit rate — 177 of 298 across those five classes",
+      "of": "4a13b310",
+      "at": [
+        "davidson-day:ncAdmissions.stats[1].label"
+      ],
+      "t": "कुल प्रवेश दर — उन पाँच बैचों में 298 में से 177"
+    },
+    {
+      "text": "at UNC-Chapel Hill — 10 of 25, the toughest of the six for this school",
+      "of": "9423d88b",
+      "at": [
+        "davidson-day:ncAdmissions.stats[2].label"
+      ],
+      "t": "UNC-Chapel Hill में — 25 में से 10, इस स्कूल के लिए छह में सबसे कठिन"
+    },
+    {
+      "text": "drew the most applications in Fall 2025 (25)",
+      "of": "0a7352bf",
+      "at": [
+        "davidson-day:ncAdmissions.stats[3].label",
+        "hickory-grove-christian:ncAdmissions.stats[3].label"
+      ],
+      "t": "पतझड़ 2025 में सबसे अधिक आवेदन मिले (25)"
+    },
+    {
       "text": "Davidson Day publishes its grading machinery in full — the scale, the weighting, and an unusually explicit list of what is excluded from the GPA — but no AP exam results and no National Merit record at all.",
       "of": "410e02c8",
       "at": [
@@ -10478,6 +10989,46 @@
         "davidson-day:verdict.checklist[7]"
       ],
       "t": "अगर मेरे बच्चे को Learning Enrichment Center के ज़रिए सुविधाएँ मिली हैं, तो उन्हें College Board और ACT परीक्षा के लिए स्वीकृत कौन कराता है, और कॉलेज की दिव्यांगता सेवाओं के लिए दर्ज कौन करता है?"
+    },
+    {
+      "text": "Across the six top-ranked NC public universities, Carmel Christian School’s applicants were admitted at a pooled 59.2% over the last five entering classes — 346 acceptances from 584 applications.",
+      "of": "555db8cd",
+      "at": [
+        "carmel-christian:ncAdmissions.headline"
+      ],
+      "t": "NC की शीर्ष छह सरकारी यूनिवर्सिटी में Carmel Christian School के आवेदकों को पिछले पाँच प्रवेश बैचों में कुल मिलाकर 59.2% की दर से प्रवेश मिला — 584 आवेदनों में से 346 स्वीकृत।"
+    },
+    {
+      "text": "UNC-Chapel Hill is the hard one: 25.0% in Fall 2025 — 4 of 16 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.",
+      "of": "1e8c9c30",
+      "at": [
+        "carmel-christian:ncAdmissions.subhead"
+      ],
+      "t": "UNC-Chapel Hill सबसे कठिन है: पतझड़ 2025 में 25.0% — 16 में से 4 — जबकि कम चयनात्मक विश्वविद्यालयों में दरें कहीं अधिक हैं। ये राज्य द्वारा प्रकाशित UNC-सिस्टम के आँकड़े हैं, स्कूल के अपने नहीं।"
+    },
+    {
+      "text": "pooled admit rate — 346 of 584 across those five classes",
+      "of": "be1aa1d2",
+      "at": [
+        "carmel-christian:ncAdmissions.stats[1].label"
+      ],
+      "t": "कुल प्रवेश दर — उन पाँच बैचों में 584 में से 346"
+    },
+    {
+      "text": "at UNC-Chapel Hill — 4 of 16, the toughest of the six for this school",
+      "of": "08b5909c",
+      "at": [
+        "carmel-christian:ncAdmissions.stats[2].label"
+      ],
+      "t": "UNC-Chapel Hill में — 16 में से 4, इस स्कूल के लिए छह में सबसे कठिन"
+    },
+    {
+      "text": "drew the most applications in Fall 2025 (31)",
+      "of": "be25dcfc",
+      "at": [
+        "carmel-christian:ncAdmissions.stats[3].label"
+      ],
+      "t": "पतझड़ 2025 में सबसे अधिक आवेदन मिले (31)"
     },
     {
       "text": "73% of seniors scored a 3 or higher on at least one AP exam, and 80% sat at least one — enough for the College Board’s Platinum AP School Honor Roll, its top tier.",
@@ -11633,6 +12184,38 @@
       "t": "मोटे तौर पर हर साल कितने college reps विज़िट करते हैं, और College Admissions Panel application कैलेंडर में कैसे फ़िट होता है?"
     },
     {
+      "text": "Across the six top-ranked NC public universities, Hickory Grove Christian School’s applicants were admitted at a pooled 74.9% over the last five entering classes — 256 acceptances from 342 applications.",
+      "of": "031cb01f",
+      "at": [
+        "hickory-grove-christian:ncAdmissions.headline"
+      ],
+      "t": "NC की शीर्ष छह सरकारी यूनिवर्सिटी में Hickory Grove Christian School के आवेदकों को पिछले पाँच प्रवेश बैचों में कुल मिलाकर 74.9% की दर से प्रवेश मिला — 342 आवेदनों में से 256 स्वीकृत।"
+    },
+    {
+      "text": "UNC-Chapel Hill is the hard one: 20.0% in Fall 2025 — 2 of 10 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.",
+      "of": "d2c2212b",
+      "at": [
+        "hickory-grove-christian:ncAdmissions.subhead"
+      ],
+      "t": "UNC-Chapel Hill सबसे कठिन है: पतझड़ 2025 में 20.0% — 10 में से 2 — जबकि कम चयनात्मक विश्वविद्यालयों में दरें कहीं अधिक हैं। ये राज्य द्वारा प्रकाशित UNC-सिस्टम के आँकड़े हैं, स्कूल के अपने नहीं।"
+    },
+    {
+      "text": "pooled admit rate — 256 of 342 across those five classes",
+      "of": "ca4ed73c",
+      "at": [
+        "hickory-grove-christian:ncAdmissions.stats[1].label"
+      ],
+      "t": "कुल प्रवेश दर — उन पाँच बैचों में 342 में से 256"
+    },
+    {
+      "text": "at UNC-Chapel Hill — 2 of 10, the toughest of the six for this school",
+      "of": "1e5ba680",
+      "at": [
+        "hickory-grove-christian:ncAdmissions.stats[2].label"
+      ],
+      "t": "UNC-Chapel Hill में — 10 में से 2, इस स्कूल के लिए छह में सबसे कठिन"
+    },
+    {
       "text": "82 students sat 176 AP exams in May 2025 across a 17-course AP program with AP Capstone — and 29 of them earned a 5 on at least one exam.",
       "of": "60fddbac",
       "at": [
@@ -12551,6 +13134,46 @@
         "hickory-grove-christian:verdict.checklist[5]"
       ],
       "t": "College Admissions Boot Camp आवेदन की समय-सारणी में कहाँ बैठता है, और क्या यह सभी rising juniors और seniors के लिए खुला है?"
+    },
+    {
+      "text": "Across the six top-ranked NC public universities, Gaston Day School’s applicants were admitted at a pooled 57.9% over the last five entering classes — 140 acceptances from 242 applications.",
+      "of": "30322e8c",
+      "at": [
+        "gaston-day:ncAdmissions.headline"
+      ],
+      "t": "NC की शीर्ष छह सरकारी यूनिवर्सिटी में Gaston Day School के आवेदकों को पिछले पाँच प्रवेश बैचों में कुल मिलाकर 57.9% की दर से प्रवेश मिला — 242 आवेदनों में से 140 स्वीकृत।"
+    },
+    {
+      "text": "UNC-Chapel Hill is the hard one: 27.3% in Fall 2025 — 3 of 11 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.",
+      "of": "55fc96a3",
+      "at": [
+        "gaston-day:ncAdmissions.subhead"
+      ],
+      "t": "UNC-Chapel Hill सबसे कठिन है: पतझड़ 2025 में 27.3% — 11 में से 3 — जबकि कम चयनात्मक विश्वविद्यालयों में दरें कहीं अधिक हैं। ये राज्य द्वारा प्रकाशित UNC-सिस्टम के आँकड़े हैं, स्कूल के अपने नहीं।"
+    },
+    {
+      "text": "pooled admit rate — 140 of 242 across those five classes",
+      "of": "688feeb5",
+      "at": [
+        "gaston-day:ncAdmissions.stats[1].label"
+      ],
+      "t": "कुल प्रवेश दर — उन पाँच बैचों में 242 में से 140"
+    },
+    {
+      "text": "at UNC-Chapel Hill — 3 of 11, the toughest of the six for this school",
+      "of": "7630baf8",
+      "at": [
+        "gaston-day:ncAdmissions.stats[2].label"
+      ],
+      "t": "UNC-Chapel Hill में — 11 में से 3, इस स्कूल के लिए छह में सबसे कठिन"
+    },
+    {
+      "text": "drew the most applications in Fall 2025 (15)",
+      "of": "67c3defa",
+      "at": [
+        "gaston-day:ncAdmissions.stats[3].label"
+      ],
+      "t": "पतझड़ 2025 में सबसे अधिक आवेदन मिले (15)"
     },
     {
       "text": "Every AP student must sit the exam, and the share scoring 3+ has climbed five years running — 72% in 2021 to 95% in 2025.",
@@ -14056,594 +14679,6 @@
         "gaston-day:verdict.checklist[6]"
       ],
       "t": "स्कूल की profile पर छात्र-संख्या 510 दिखती है पर तीसरे पक्ष और संघीय स्रोतों पर 466 और 448 — इनमें से किसमें preschool गिना गया है, और Upper School की संख्या क्या है?"
-    },
-    {
-      "text": "Across the six top-ranked NC public universities, Providence Day School’s applicants were admitted at a pooled 51.1% over the last five entering classes — 499 acceptances from 977 applications.",
-      "of": "6160090d",
-      "at": [
-        "providence-day:ncAdmissions.headline"
-      ],
-      "t": "NC की शीर्ष छह सरकारी यूनिवर्सिटी में Providence Day School के आवेदकों को पिछले पाँच प्रवेश बैचों में कुल मिलाकर 51.1% की दर से प्रवेश मिला — 977 आवेदनों में से 499 स्वीकृत।"
-    },
-    {
-      "text": "UNC-Chapel Hill is the hard one: 42.0% pooled there, against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.",
-      "of": "db884594",
-      "at": [
-        "providence-day:ncAdmissions.subhead"
-      ],
-      "t": "UNC-Chapel Hill सबसे कठिन है: वहाँ कुल 42.0%, जबकि कम चयनात्मक कैंपस में दरें कहीं अधिक हैं। ये राज्य द्वारा प्रकाशित UNC-सिस्टम के आँकड़े हैं, स्कूल के अपने नहीं।"
-    },
-    {
-      "text": "applications to the six campuses, Fall 2021–2025",
-      "of": "b3ea37bb",
-      "at": [
-        "providence-day:ncAdmissions.stats[0].label",
-        "charlotte-latin:ncAdmissions.stats[0].label",
-        "charlotte-christian:ncAdmissions.stats[0].label",
-        "charlotte-catholic:ncAdmissions.stats[0].label",
-        "charlotte-country-day:ncAdmissions.stats[0].label",
-        "cannon:ncAdmissions.stats[0].label",
-        "covenant-day:ncAdmissions.stats[0].label",
-        "davidson-day:ncAdmissions.stats[0].label",
-        "carmel-christian:ncAdmissions.stats[0].label",
-        "hickory-grove-christian:ncAdmissions.stats[0].label",
-        "gaston-day:ncAdmissions.stats[0].label"
-      ],
-      "t": "छह कैंपस में आवेदन, पतझड़ 2021–2025"
-    },
-    {
-      "text": "pooled admit rate — 499 of 977 across those five classes",
-      "of": "679fe477",
-      "at": [
-        "providence-day:ncAdmissions.stats[1].label"
-      ],
-      "t": "कुल प्रवेश दर — उन पाँच बैचों में 977 में से 499"
-    },
-    {
-      "text": "at UNC-Chapel Hill — 176 of 419, the most selective of the six",
-      "of": "95234246",
-      "at": [
-        "providence-day:ncAdmissions.stats[2].label"
-      ],
-      "t": "UNC-Chapel Hill में — 419 में से 176, छह में सबसे चयनात्मक"
-    },
-    {
-      "text": "drew the most applications in Fall 2025 (103)",
-      "of": "884365c8",
-      "at": [
-        "providence-day:ncAdmissions.stats[3].label"
-      ],
-      "t": "पतझड़ 2025 में सबसे अधिक आवेदन मिले (103)"
-    },
-    {
-      "text": "Flagship · the most selective of the six",
-      "of": "975de2ca",
-      "at": [
-        "providence-day:ncAdmissions.universities[0].note",
-        "charlotte-latin:ncAdmissions.universities[0].note",
-        "charlotte-christian:ncAdmissions.universities[0].note",
-        "charlotte-catholic:ncAdmissions.universities[0].note",
-        "charlotte-country-day:ncAdmissions.universities[0].note",
-        "cannon:ncAdmissions.universities[0].note",
-        "covenant-day:ncAdmissions.universities[0].note",
-        "davidson-day:ncAdmissions.universities[0].note",
-        "carmel-christian:ncAdmissions.universities[0].note",
-        "hickory-grove-christian:ncAdmissions.universities[0].note",
-        "gaston-day:ncAdmissions.universities[0].note"
-      ],
-      "t": "प्रमुख कैंपस · छह में सबसे चयनात्मक"
-    },
-    {
-      "text": "Flagship STEM · Raleigh",
-      "of": "30c46415",
-      "at": [
-        "providence-day:ncAdmissions.universities[1].note",
-        "charlotte-latin:ncAdmissions.universities[1].note",
-        "charlotte-christian:ncAdmissions.universities[1].note",
-        "charlotte-catholic:ncAdmissions.universities[1].note",
-        "charlotte-country-day:ncAdmissions.universities[1].note",
-        "cannon:ncAdmissions.universities[1].note",
-        "covenant-day:ncAdmissions.universities[1].note",
-        "davidson-day:ncAdmissions.universities[1].note",
-        "carmel-christian:ncAdmissions.universities[1].note",
-        "hickory-grove-christian:ncAdmissions.universities[1].note",
-        "gaston-day:ncAdmissions.universities[1].note"
-      ],
-      "t": "प्रमुख STEM कैंपस · Raleigh"
-    },
-    {
-      "text": "Hometown campus",
-      "of": "80c3cf73",
-      "at": [
-        "providence-day:ncAdmissions.universities[2].note",
-        "charlotte-latin:ncAdmissions.universities[2].note",
-        "charlotte-christian:ncAdmissions.universities[2].note",
-        "charlotte-catholic:ncAdmissions.universities[2].note",
-        "charlotte-country-day:ncAdmissions.universities[2].note",
-        "cannon:ncAdmissions.universities[2].note",
-        "covenant-day:ncAdmissions.universities[2].note",
-        "davidson-day:ncAdmissions.universities[2].note",
-        "carmel-christian:ncAdmissions.universities[2].note",
-        "hickory-grove-christian:ncAdmissions.universities[2].note",
-        "gaston-day:ncAdmissions.universities[2].note"
-      ],
-      "t": "गृह-नगर कैंपस"
-    },
-    {
-      "text": "Greenville · largest admit rates of the six",
-      "of": "0b01c1f3",
-      "at": [
-        "providence-day:ncAdmissions.universities[3].note",
-        "charlotte-latin:ncAdmissions.universities[3].note",
-        "charlotte-christian:ncAdmissions.universities[3].note",
-        "charlotte-catholic:ncAdmissions.universities[3].note",
-        "charlotte-country-day:ncAdmissions.universities[3].note",
-        "cannon:ncAdmissions.universities[3].note",
-        "covenant-day:ncAdmissions.universities[3].note",
-        "davidson-day:ncAdmissions.universities[3].note",
-        "carmel-christian:ncAdmissions.universities[3].note",
-        "hickory-grove-christian:ncAdmissions.universities[3].note",
-        "gaston-day:ncAdmissions.universities[3].note"
-      ],
-      "t": "Greenville · छह में सबसे अधिक प्रवेश दर"
-    },
-    {
-      "text": "Coastal · mid-selectivity",
-      "of": "c49d4c43",
-      "at": [
-        "providence-day:ncAdmissions.universities[4].note",
-        "charlotte-latin:ncAdmissions.universities[4].note",
-        "charlotte-christian:ncAdmissions.universities[4].note",
-        "charlotte-catholic:ncAdmissions.universities[4].note",
-        "charlotte-country-day:ncAdmissions.universities[4].note",
-        "cannon:ncAdmissions.universities[4].note",
-        "covenant-day:ncAdmissions.universities[4].note",
-        "davidson-day:ncAdmissions.universities[4].note",
-        "carmel-christian:ncAdmissions.universities[4].note",
-        "hickory-grove-christian:ncAdmissions.universities[4].note",
-        "gaston-day:ncAdmissions.universities[4].note"
-      ],
-      "t": "तटीय · मध्यम चयनात्मकता"
-    },
-    {
-      "text": "Piedmont Triad",
-      "of": "91680e35",
-      "at": [
-        "providence-day:ncAdmissions.universities[5].note",
-        "charlotte-latin:ncAdmissions.universities[5].note",
-        "charlotte-christian:ncAdmissions.universities[5].note",
-        "charlotte-catholic:ncAdmissions.universities[5].note",
-        "charlotte-country-day:ncAdmissions.universities[5].note",
-        "cannon:ncAdmissions.universities[5].note",
-        "covenant-day:ncAdmissions.universities[5].note",
-        "davidson-day:ncAdmissions.universities[5].note",
-        "carmel-christian:ncAdmissions.universities[5].note",
-        "hickory-grove-christian:ncAdmissions.universities[5].note",
-        "gaston-day:ncAdmissions.universities[5].note"
-      ],
-      "t": "Piedmont Triad"
-    },
-    {
-      "text": "Read each row as a joint figure: the rate at which that university admitted this school’s applicants — not the university’s overall admit rate, and not a measure of the school’s own selectivity. Applied/Accepted are the Fall 2025 entering class; the 5-yr column pools Fall 2021–2025 as sum(accepted)/sum(applied), so a heavy year counts more than a light one. Counts travel with every rate because several cells are single-digit.",
-      "of": "99f2fb2d",
-      "at": [
-        "providence-day:ncAdmissions.methodNote",
-        "charlotte-latin:ncAdmissions.methodNote",
-        "charlotte-christian:ncAdmissions.methodNote",
-        "charlotte-catholic:ncAdmissions.methodNote",
-        "charlotte-country-day:ncAdmissions.methodNote",
-        "cannon:ncAdmissions.methodNote",
-        "covenant-day:ncAdmissions.methodNote",
-        "davidson-day:ncAdmissions.methodNote",
-        "carmel-christian:ncAdmissions.methodNote",
-        "hickory-grove-christian:ncAdmissions.methodNote",
-        "gaston-day:ncAdmissions.methodNote"
-      ],
-      "t": "हर पंक्ति को एक संयुक्त आँकड़े के रूप में पढ़ें: वह दर जिस पर उस यूनिवर्सिटी ने इस स्कूल के आवेदकों को प्रवेश दिया — यह यूनिवर्सिटी की समग्र प्रवेश दर नहीं है, और न ही स्कूल की अपनी चयनात्मकता का माप। आवेदन/स्वीकृत पतझड़ 2025 के प्रवेश बैच के हैं; 5-वर्ष वाला कॉलम पतझड़ 2021–2025 को योग(स्वीकृत)/योग(आवेदन) के रूप में जोड़ता है, इसलिए अधिक आवेदनों वाला वर्ष कम वाले से अधिक भार रखता है। हर दर के साथ संख्याएँ इसलिए दी गई हैं क्योंकि कई खाने एक अंक के हैं।"
-    },
-    {
-      "text": "Rank order follows the US News **National Universities** table for NC publics. That qualifier matters: Appalachian State is ranked in **Regional Universities South**, a different list, so “top 6 in NC” is not self-defining. Re-score when the next edition lands.",
-      "of": "d7187d7b",
-      "at": [
-        "providence-day:ncAdmissions.flags[0].text",
-        "charlotte-latin:ncAdmissions.flags[0].text",
-        "charlotte-christian:ncAdmissions.flags[0].text",
-        "charlotte-catholic:ncAdmissions.flags[0].text",
-        "charlotte-country-day:ncAdmissions.flags[0].text",
-        "cannon:ncAdmissions.flags[0].text",
-        "covenant-day:ncAdmissions.flags[0].text",
-        "davidson-day:ncAdmissions.flags[0].text",
-        "carmel-christian:ncAdmissions.flags[0].text",
-        "hickory-grove-christian:ncAdmissions.flags[0].text",
-        "gaston-day:ncAdmissions.flags[0].text"
-      ],
-      "t": "रैंक क्रम NC की सरकारी यूनिवर्सिटी के लिए US News की **National Universities** तालिका का अनुसरण करता है। यह शर्त मायने रखती है: Appalachian State **Regional Universities South** में रैंक की गई है, जो एक अलग सूची है — इसलिए “NC में शीर्ष 6” अपने आप स्पष्ट नहीं है। अगला संस्करण आने पर दोबारा आकलन करें।"
-    },
-    {
-      "text": "Across the six top-ranked NC public universities, Charlotte Latin School’s applicants were admitted at a pooled 45.5% over the last five entering classes — 334 acceptances from 734 applications.",
-      "of": "d2183318",
-      "at": [
-        "charlotte-latin:ncAdmissions.headline"
-      ],
-      "t": "NC की शीर्ष छह सरकारी यूनिवर्सिटी में Charlotte Latin School के आवेदकों को पिछले पाँच प्रवेश बैचों में कुल मिलाकर 45.5% की दर से प्रवेश मिला — 734 आवेदनों में से 334 स्वीकृत।"
-    },
-    {
-      "text": "UNC-Chapel Hill is the hard one: 38.3% pooled there, against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.",
-      "of": "bd5d6bf0",
-      "at": [
-        "charlotte-latin:ncAdmissions.subhead"
-      ],
-      "t": "UNC-Chapel Hill सबसे कठिन है: वहाँ कुल 38.3%, जबकि कम चयनात्मक कैंपस में दरें कहीं अधिक हैं। ये राज्य द्वारा प्रकाशित UNC-सिस्टम के आँकड़े हैं, स्कूल के अपने नहीं।"
-    },
-    {
-      "text": "pooled admit rate — 334 of 734 across those five classes",
-      "of": "6cfab420",
-      "at": [
-        "charlotte-latin:ncAdmissions.stats[1].label"
-      ],
-      "t": "कुल प्रवेश दर — उन पाँच बैचों में 734 में से 334"
-    },
-    {
-      "text": "at UNC-Chapel Hill — 115 of 300, the most selective of the six",
-      "of": "64ff58fc",
-      "at": [
-        "charlotte-latin:ncAdmissions.stats[2].label"
-      ],
-      "t": "UNC-Chapel Hill में — 300 में से 115, छह में सबसे चयनात्मक"
-    },
-    {
-      "text": "drew the most applications in Fall 2025 (69)",
-      "of": "3df062ff",
-      "at": [
-        "charlotte-latin:ncAdmissions.stats[3].label",
-        "charlotte-country-day:ncAdmissions.stats[3].label"
-      ],
-      "t": "पतझड़ 2025 में सबसे अधिक आवेदन मिले (69)"
-    },
-    {
-      "text": "Across the six top-ranked NC public universities, Charlotte Christian School’s applicants were admitted at a pooled 54.8% over the last five entering classes — 382 acceptances from 697 applications.",
-      "of": "98f4e24d",
-      "at": [
-        "charlotte-christian:ncAdmissions.headline"
-      ],
-      "t": "NC की शीर्ष छह सरकारी यूनिवर्सिटी में Charlotte Christian School के आवेदकों को पिछले पाँच प्रवेश बैचों में कुल मिलाकर 54.8% की दर से प्रवेश मिला — 697 आवेदनों में से 382 स्वीकृत।"
-    },
-    {
-      "text": "UNC-Chapel Hill is the hard one: 28.2% pooled there, against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.",
-      "of": "b1da924a",
-      "at": [
-        "charlotte-christian:ncAdmissions.subhead"
-      ],
-      "t": "UNC-Chapel Hill सबसे कठिन है: वहाँ कुल 28.2%, जबकि कम चयनात्मक कैंपस में दरें कहीं अधिक हैं। ये राज्य द्वारा प्रकाशित UNC-सिस्टम के आँकड़े हैं, स्कूल के अपने नहीं।"
-    },
-    {
-      "text": "pooled admit rate — 382 of 697 across those five classes",
-      "of": "786b5c5f",
-      "at": [
-        "charlotte-christian:ncAdmissions.stats[1].label"
-      ],
-      "t": "कुल प्रवेश दर — उन पाँच बैचों में 697 में से 382"
-    },
-    {
-      "text": "at UNC-Chapel Hill — 46 of 163, the most selective of the six",
-      "of": "2db493de",
-      "at": [
-        "charlotte-christian:ncAdmissions.stats[2].label"
-      ],
-      "t": "UNC-Chapel Hill में — 163 में से 46, छह में सबसे चयनात्मक"
-    },
-    {
-      "text": "drew the most applications in Fall 2025 (38)",
-      "of": "ba101061",
-      "at": [
-        "charlotte-christian:ncAdmissions.stats[3].label"
-      ],
-      "t": "पतझड़ 2025 में सबसे अधिक आवेदन मिले (38)"
-    },
-    {
-      "text": "Across the six top-ranked NC public universities, Charlotte Catholic High School’s applicants were admitted at a pooled 56.0% over the last five entering classes — 1,175 acceptances from 2,100 applications.",
-      "of": "bd1d168f",
-      "at": [
-        "charlotte-catholic:ncAdmissions.headline"
-      ],
-      "t": "NC की शीर्ष छह सरकारी यूनिवर्सिटी में Charlotte Catholic High School के आवेदकों को पिछले पाँच प्रवेश बैचों में कुल मिलाकर 56.0% की दर से प्रवेश मिला — 2,100 आवेदनों में से 1,175 स्वीकृत।"
-    },
-    {
-      "text": "UNC-Chapel Hill is the hard one: 30.5% pooled there, against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.",
-      "of": "f218b7f2",
-      "at": [
-        "charlotte-catholic:ncAdmissions.subhead"
-      ],
-      "t": "UNC-Chapel Hill सबसे कठिन है: वहाँ कुल 30.5%, जबकि कम चयनात्मक कैंपस में दरें कहीं अधिक हैं। ये राज्य द्वारा प्रकाशित UNC-सिस्टम के आँकड़े हैं, स्कूल के अपने नहीं।"
-    },
-    {
-      "text": "pooled admit rate — 1,175 of 2,100 across those five classes",
-      "of": "933748c1",
-      "at": [
-        "charlotte-catholic:ncAdmissions.stats[1].label"
-      ],
-      "t": "कुल प्रवेश दर — उन पाँच बैचों में 2,100 में से 1,175"
-    },
-    {
-      "text": "at UNC-Chapel Hill — 140 of 459, the most selective of the six",
-      "of": "055ca9ff",
-      "at": [
-        "charlotte-catholic:ncAdmissions.stats[2].label"
-      ],
-      "t": "UNC-Chapel Hill में — 459 में से 140, छह में सबसे चयनात्मक"
-    },
-    {
-      "text": "drew the most applications in Fall 2025 (141)",
-      "of": "a78a3c92",
-      "at": [
-        "charlotte-catholic:ncAdmissions.stats[3].label"
-      ],
-      "t": "पतझड़ 2025 में सबसे अधिक आवेदन मिले (141)"
-    },
-    {
-      "text": "Across the six top-ranked NC public universities, Charlotte Country Day School’s applicants were admitted at a pooled 46.7% over the last five entering classes — 328 acceptances from 702 applications.",
-      "of": "ddd3a8b3",
-      "at": [
-        "charlotte-country-day:ncAdmissions.headline"
-      ],
-      "t": "NC की शीर्ष छह सरकारी यूनिवर्सिटी में Charlotte Country Day School के आवेदकों को पिछले पाँच प्रवेश बैचों में कुल मिलाकर 46.7% की दर से प्रवेश मिला — 702 आवेदनों में से 328 स्वीकृत।"
-    },
-    {
-      "text": "UNC-Chapel Hill is the hard one: 37.7% pooled there, against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.",
-      "of": "7f527fdf",
-      "at": [
-        "charlotte-country-day:ncAdmissions.subhead"
-      ],
-      "t": "UNC-Chapel Hill सबसे कठिन है: वहाँ कुल 37.7%, जबकि कम चयनात्मक कैंपस में दरें कहीं अधिक हैं। ये राज्य द्वारा प्रकाशित UNC-सिस्टम के आँकड़े हैं, स्कूल के अपने नहीं।"
-    },
-    {
-      "text": "pooled admit rate — 328 of 702 across those five classes",
-      "of": "f0709b02",
-      "at": [
-        "charlotte-country-day:ncAdmissions.stats[1].label"
-      ],
-      "t": "कुल प्रवेश दर — उन पाँच बैचों में 702 में से 328"
-    },
-    {
-      "text": "at UNC-Chapel Hill — 119 of 316, the most selective of the six",
-      "of": "24298ce5",
-      "at": [
-        "charlotte-country-day:ncAdmissions.stats[2].label"
-      ],
-      "t": "UNC-Chapel Hill में — 316 में से 119, छह में सबसे चयनात्मक"
-    },
-    {
-      "text": "Across the six top-ranked NC public universities, Cannon School’s applicants were admitted at a pooled 60.8% over the last five entering classes — 479 acceptances from 788 applications.",
-      "of": "d5b76392",
-      "at": [
-        "cannon:ncAdmissions.headline"
-      ],
-      "t": "NC की शीर्ष छह सरकारी यूनिवर्सिटी में Cannon School के आवेदकों को पिछले पाँच प्रवेश बैचों में कुल मिलाकर 60.8% की दर से प्रवेश मिला — 788 आवेदनों में से 479 स्वीकृत।"
-    },
-    {
-      "text": "UNC-Chapel Hill is the hard one: 37.4% pooled there, against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.",
-      "of": "ca7d86a4",
-      "at": [
-        "cannon:ncAdmissions.subhead"
-      ],
-      "t": "UNC-Chapel Hill सबसे कठिन है: वहाँ कुल 37.4%, जबकि कम चयनात्मक कैंपस में दरें कहीं अधिक हैं। ये राज्य द्वारा प्रकाशित UNC-सिस्टम के आँकड़े हैं, स्कूल के अपने नहीं।"
-    },
-    {
-      "text": "pooled admit rate — 479 of 788 across those five classes",
-      "of": "2127adad",
-      "at": [
-        "cannon:ncAdmissions.stats[1].label"
-      ],
-      "t": "कुल प्रवेश दर — उन पाँच बैचों में 788 में से 479"
-    },
-    {
-      "text": "at UNC-Chapel Hill — 102 of 273, the most selective of the six",
-      "of": "b3b6eff3",
-      "at": [
-        "cannon:ncAdmissions.stats[2].label"
-      ],
-      "t": "UNC-Chapel Hill में — 273 में से 102, छह में सबसे चयनात्मक"
-    },
-    {
-      "text": "drew the most applications in Fall 2025 (63)",
-      "of": "ba092b19",
-      "at": [
-        "cannon:ncAdmissions.stats[3].label"
-      ],
-      "t": "पतझड़ 2025 में सबसे अधिक आवेदन मिले (63)"
-    },
-    {
-      "text": "Across the six top-ranked NC public universities, Covenant Day School’s applicants were admitted at a pooled 60.3% over the last five entering classes — 301 acceptances from 499 applications.",
-      "of": "db346c77",
-      "at": [
-        "covenant-day:ncAdmissions.headline"
-      ],
-      "t": "NC की शीर्ष छह सरकारी यूनिवर्सिटी में Covenant Day School के आवेदकों को पिछले पाँच प्रवेश बैचों में कुल मिलाकर 60.3% की दर से प्रवेश मिला — 499 आवेदनों में से 301 स्वीकृत।"
-    },
-    {
-      "text": "UNC-Chapel Hill is the hard one: 34.6% pooled there, against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.",
-      "of": "174010ed",
-      "at": [
-        "covenant-day:ncAdmissions.subhead"
-      ],
-      "t": "UNC-Chapel Hill सबसे कठिन है: वहाँ कुल 34.6%, जबकि कम चयनात्मक कैंपस में दरें कहीं अधिक हैं। ये राज्य द्वारा प्रकाशित UNC-सिस्टम के आँकड़े हैं, स्कूल के अपने नहीं।"
-    },
-    {
-      "text": "pooled admit rate — 301 of 499 across those five classes",
-      "of": "e905a170",
-      "at": [
-        "covenant-day:ncAdmissions.stats[1].label"
-      ],
-      "t": "कुल प्रवेश दर — उन पाँच बैचों में 499 में से 301"
-    },
-    {
-      "text": "at UNC-Chapel Hill — 47 of 136, the most selective of the six",
-      "of": "efe86ed3",
-      "at": [
-        "covenant-day:ncAdmissions.stats[2].label"
-      ],
-      "t": "UNC-Chapel Hill में — 136 में से 47, छह में सबसे चयनात्मक"
-    },
-    {
-      "text": "drew the most applications in Fall 2025 (42)",
-      "of": "08d287a2",
-      "at": [
-        "covenant-day:ncAdmissions.stats[3].label"
-      ],
-      "t": "पतझड़ 2025 में सबसे अधिक आवेदन मिले (42)"
-    },
-    {
-      "text": "Across the six top-ranked NC public universities, Davidson Day School’s applicants were admitted at a pooled 59.4% over the last five entering classes — 177 acceptances from 298 applications.",
-      "of": "7803b068",
-      "at": [
-        "davidson-day:ncAdmissions.headline"
-      ],
-      "t": "NC की शीर्ष छह सरकारी यूनिवर्सिटी में Davidson Day School के आवेदकों को पिछले पाँच प्रवेश बैचों में कुल मिलाकर 59.4% की दर से प्रवेश मिला — 298 आवेदनों में से 177 स्वीकृत।"
-    },
-    {
-      "text": "UNC-Chapel Hill is the hard one: 44.4% pooled there, against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.",
-      "of": "4fcaa4f2",
-      "at": [
-        "davidson-day:ncAdmissions.subhead"
-      ],
-      "t": "UNC-Chapel Hill सबसे कठिन है: वहाँ कुल 44.4%, जबकि कम चयनात्मक कैंपस में दरें कहीं अधिक हैं। ये राज्य द्वारा प्रकाशित UNC-सिस्टम के आँकड़े हैं, स्कूल के अपने नहीं।"
-    },
-    {
-      "text": "pooled admit rate — 177 of 298 across those five classes",
-      "of": "4a13b310",
-      "at": [
-        "davidson-day:ncAdmissions.stats[1].label"
-      ],
-      "t": "कुल प्रवेश दर — उन पाँच बैचों में 298 में से 177"
-    },
-    {
-      "text": "at UNC-Chapel Hill — 40 of 90, the most selective of the six",
-      "of": "3339fde7",
-      "at": [
-        "davidson-day:ncAdmissions.stats[2].label"
-      ],
-      "t": "UNC-Chapel Hill में — 90 में से 40, छह में सबसे चयनात्मक"
-    },
-    {
-      "text": "drew the most applications in Fall 2025 (25)",
-      "of": "0a7352bf",
-      "at": [
-        "davidson-day:ncAdmissions.stats[3].label",
-        "hickory-grove-christian:ncAdmissions.stats[3].label"
-      ],
-      "t": "पतझड़ 2025 में सबसे अधिक आवेदन मिले (25)"
-    },
-    {
-      "text": "Across the six top-ranked NC public universities, Carmel Christian School’s applicants were admitted at a pooled 59.2% over the last five entering classes — 346 acceptances from 584 applications.",
-      "of": "555db8cd",
-      "at": [
-        "carmel-christian:ncAdmissions.headline"
-      ],
-      "t": "NC की शीर्ष छह सरकारी यूनिवर्सिटी में Carmel Christian School के आवेदकों को पिछले पाँच प्रवेश बैचों में कुल मिलाकर 59.2% की दर से प्रवेश मिला — 584 आवेदनों में से 346 स्वीकृत।"
-    },
-    {
-      "text": "UNC-Chapel Hill is the hard one: 32.7% pooled there, against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.",
-      "of": "79670c02",
-      "at": [
-        "carmel-christian:ncAdmissions.subhead"
-      ],
-      "t": "UNC-Chapel Hill सबसे कठिन है: वहाँ कुल 32.7%, जबकि कम चयनात्मक कैंपस में दरें कहीं अधिक हैं। ये राज्य द्वारा प्रकाशित UNC-सिस्टम के आँकड़े हैं, स्कूल के अपने नहीं।"
-    },
-    {
-      "text": "pooled admit rate — 346 of 584 across those five classes",
-      "of": "be1aa1d2",
-      "at": [
-        "carmel-christian:ncAdmissions.stats[1].label"
-      ],
-      "t": "कुल प्रवेश दर — उन पाँच बैचों में 584 में से 346"
-    },
-    {
-      "text": "at UNC-Chapel Hill — 37 of 113, the most selective of the six",
-      "of": "4c76c89b",
-      "at": [
-        "carmel-christian:ncAdmissions.stats[2].label"
-      ],
-      "t": "UNC-Chapel Hill में — 113 में से 37, छह में सबसे चयनात्मक"
-    },
-    {
-      "text": "drew the most applications in Fall 2025 (31)",
-      "of": "be25dcfc",
-      "at": [
-        "carmel-christian:ncAdmissions.stats[3].label"
-      ],
-      "t": "पतझड़ 2025 में सबसे अधिक आवेदन मिले (31)"
-    },
-    {
-      "text": "Across the six top-ranked NC public universities, Hickory Grove Christian School’s applicants were admitted at a pooled 74.9% over the last five entering classes — 256 acceptances from 342 applications.",
-      "of": "031cb01f",
-      "at": [
-        "hickory-grove-christian:ncAdmissions.headline"
-      ],
-      "t": "NC की शीर्ष छह सरकारी यूनिवर्सिटी में Hickory Grove Christian School के आवेदकों को पिछले पाँच प्रवेश बैचों में कुल मिलाकर 74.9% की दर से प्रवेश मिला — 342 आवेदनों में से 256 स्वीकृत।"
-    },
-    {
-      "text": "UNC-Chapel Hill is the hard one: 26.7% pooled there, against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.",
-      "of": "2e40f209",
-      "at": [
-        "hickory-grove-christian:ncAdmissions.subhead"
-      ],
-      "t": "UNC-Chapel Hill सबसे कठिन है: वहाँ कुल 26.7%, जबकि कम चयनात्मक कैंपस में दरें कहीं अधिक हैं। ये राज्य द्वारा प्रकाशित UNC-सिस्टम के आँकड़े हैं, स्कूल के अपने नहीं।"
-    },
-    {
-      "text": "pooled admit rate — 256 of 342 across those five classes",
-      "of": "ca4ed73c",
-      "at": [
-        "hickory-grove-christian:ncAdmissions.stats[1].label"
-      ],
-      "t": "कुल प्रवेश दर — उन पाँच बैचों में 342 में से 256"
-    },
-    {
-      "text": "at UNC-Chapel Hill — 12 of 45, the most selective of the six",
-      "of": "3e4c0348",
-      "at": [
-        "hickory-grove-christian:ncAdmissions.stats[2].label"
-      ],
-      "t": "UNC-Chapel Hill में — 45 में से 12, छह में सबसे चयनात्मक"
-    },
-    {
-      "text": "Across the six top-ranked NC public universities, Gaston Day School’s applicants were admitted at a pooled 57.9% over the last five entering classes — 140 acceptances from 242 applications.",
-      "of": "30322e8c",
-      "at": [
-        "gaston-day:ncAdmissions.headline"
-      ],
-      "t": "NC की शीर्ष छह सरकारी यूनिवर्सिटी में Gaston Day School के आवेदकों को पिछले पाँच प्रवेश बैचों में कुल मिलाकर 57.9% की दर से प्रवेश मिला — 242 आवेदनों में से 140 स्वीकृत।"
-    },
-    {
-      "text": "UNC-Chapel Hill is the hard one: 29.6% pooled there, against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.",
-      "of": "1751679f",
-      "at": [
-        "gaston-day:ncAdmissions.subhead"
-      ],
-      "t": "UNC-Chapel Hill सबसे कठिन है: वहाँ कुल 29.6%, जबकि कम चयनात्मक कैंपस में दरें कहीं अधिक हैं। ये राज्य द्वारा प्रकाशित UNC-सिस्टम के आँकड़े हैं, स्कूल के अपने नहीं।"
-    },
-    {
-      "text": "pooled admit rate — 140 of 242 across those five classes",
-      "of": "688feeb5",
-      "at": [
-        "gaston-day:ncAdmissions.stats[1].label"
-      ],
-      "t": "कुल प्रवेश दर — उन पाँच बैचों में 242 में से 140"
-    },
-    {
-      "text": "at UNC-Chapel Hill — 21 of 71, the most selective of the six",
-      "of": "d8cb57a7",
-      "at": [
-        "gaston-day:ncAdmissions.stats[2].label"
-      ],
-      "t": "UNC-Chapel Hill में — 71 में से 21, छह में सबसे चयनात्मक"
-    },
-    {
-      "text": "drew the most applications in Fall 2025 (15)",
-      "of": "67c3defa",
-      "at": [
-        "gaston-day:ncAdmissions.stats[3].label"
-      ],
-      "t": "पतझड़ 2025 में सबसे अधिक आवेदन मिले (15)"
     }
   ]
 }

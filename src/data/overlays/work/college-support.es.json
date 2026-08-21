@@ -5,6 +5,174 @@
   "note": "Translate each `text` into `t`. Leave `of` and `at` untouched — they are how the overlay is rebuilt and drift-checked.",
   "strings": [
     {
+      "text": "Across the six top-ranked NC public universities, Providence Day School’s applicants were admitted at a pooled 51.1% over the last five entering classes — 499 acceptances from 977 applications.",
+      "of": "6160090d",
+      "at": [
+        "providence-day:ncAdmissions.headline"
+      ],
+      "t": "En las seis universidades públicas mejor clasificadas de NC, los solicitantes de Providence Day School fueron admitidos a una tasa combinada del 51.1% en las últimas cinco promociones de ingreso: 499 admisiones de 977 solicitudes."
+    },
+    {
+      "text": "NC State University is the hard one: 32.4% in Fall 2025 — 23 of 71 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.",
+      "of": "cf61d66d",
+      "at": [
+        "providence-day:ncAdmissions.subhead"
+      ],
+      "t": "NC State University es la difícil: 32.4% en otoño de 2025 — 23 de 71 — frente a tasas mucho más altas en las universidades menos selectivas. Estas son cifras del sistema UNC publicadas por el estado, no las propias del colegio."
+    },
+    {
+      "text": "applications to the six universities, Fall 2021–2025",
+      "of": "bd6703ca",
+      "at": [
+        "providence-day:ncAdmissions.stats[0].label",
+        "charlotte-latin:ncAdmissions.stats[0].label",
+        "charlotte-christian:ncAdmissions.stats[0].label",
+        "charlotte-catholic:ncAdmissions.stats[0].label",
+        "charlotte-country-day:ncAdmissions.stats[0].label",
+        "cannon:ncAdmissions.stats[0].label",
+        "covenant-day:ncAdmissions.stats[0].label",
+        "davidson-day:ncAdmissions.stats[0].label",
+        "carmel-christian:ncAdmissions.stats[0].label",
+        "hickory-grove-christian:ncAdmissions.stats[0].label",
+        "gaston-day:ncAdmissions.stats[0].label"
+      ],
+      "t": "solicitudes a las seis universidades, otoño de 2021–2025"
+    },
+    {
+      "text": "pooled admit rate — 499 of 977 across those five classes",
+      "of": "679fe477",
+      "at": [
+        "providence-day:ncAdmissions.stats[1].label"
+      ],
+      "t": "tasa de admisión combinada: 499 de 977 en esas cinco promociones"
+    },
+    {
+      "text": "at NC State University — 23 of 71, the toughest of the six for this school",
+      "of": "c6474067",
+      "at": [
+        "providence-day:ncAdmissions.stats[2].label"
+      ],
+      "t": "en NC State University: 23 de 71, la más dura de las seis para este colegio"
+    },
+    {
+      "text": "drew the most applications in Fall 2025 (103)",
+      "of": "884365c8",
+      "at": [
+        "providence-day:ncAdmissions.stats[3].label"
+      ],
+      "t": "recibió el mayor número de solicitudes en el otoño de 2025 (103)"
+    },
+    {
+      "text": "Flagship · Chapel Hill",
+      "of": "e4fbefd6",
+      "at": [
+        "providence-day:ncAdmissions.universities[0].note",
+        "charlotte-country-day:ncAdmissions.universities[0].note"
+      ],
+      "t": "Institución insignia · Chapel Hill"
+    },
+    {
+      "text": "Flagship STEM · Raleigh · the most selective of the six",
+      "of": "f452f952",
+      "at": [
+        "providence-day:ncAdmissions.universities[1].note",
+        "charlotte-country-day:ncAdmissions.universities[1].note"
+      ],
+      "t": "Institución insignia de STEM · Raleigh · la más selectiva de las seis"
+    },
+    {
+      "text": "Hometown campus",
+      "of": "80c3cf73",
+      "at": [
+        "providence-day:ncAdmissions.universities[2].note",
+        "charlotte-latin:ncAdmissions.universities[2].note",
+        "charlotte-christian:ncAdmissions.universities[2].note",
+        "charlotte-catholic:ncAdmissions.universities[2].note",
+        "charlotte-country-day:ncAdmissions.universities[2].note",
+        "davidson-day:ncAdmissions.universities[2].note",
+        "carmel-christian:ncAdmissions.universities[2].note",
+        "hickory-grove-christian:ncAdmissions.universities[2].note",
+        "gaston-day:ncAdmissions.universities[2].note"
+      ],
+      "t": "Campus local"
+    },
+    {
+      "text": "Greenville · eastern NC",
+      "of": "3fca8b24",
+      "at": [
+        "providence-day:ncAdmissions.universities[3].note",
+        "charlotte-christian:ncAdmissions.universities[3].note",
+        "cannon:ncAdmissions.universities[3].note",
+        "covenant-day:ncAdmissions.universities[3].note",
+        "hickory-grove-christian:ncAdmissions.universities[3].note"
+      ],
+      "t": "Greenville · este de Carolina del Norte"
+    },
+    {
+      "text": "Coastal · mid-selectivity",
+      "of": "c49d4c43",
+      "at": [
+        "providence-day:ncAdmissions.universities[4].note",
+        "charlotte-latin:ncAdmissions.universities[4].note",
+        "charlotte-christian:ncAdmissions.universities[4].note",
+        "charlotte-catholic:ncAdmissions.universities[4].note",
+        "charlotte-country-day:ncAdmissions.universities[4].note",
+        "cannon:ncAdmissions.universities[4].note",
+        "covenant-day:ncAdmissions.universities[4].note",
+        "davidson-day:ncAdmissions.universities[4].note",
+        "carmel-christian:ncAdmissions.universities[4].note",
+        "hickory-grove-christian:ncAdmissions.universities[4].note",
+        "gaston-day:ncAdmissions.universities[4].note"
+      ],
+      "t": "Costera · selectividad media"
+    },
+    {
+      "text": "Piedmont Triad · largest admit rates of the six",
+      "of": "013e700c",
+      "at": [
+        "providence-day:ncAdmissions.universities[5].note",
+        "charlotte-christian:ncAdmissions.universities[5].note",
+        "hickory-grove-christian:ncAdmissions.universities[5].note"
+      ],
+      "t": "Piedmont Triad · las mayores tasas de admisión de las seis"
+    },
+    {
+      "text": "Read each row as a joint figure: the rate at which that university admitted this school’s applicants — not the university’s overall admit rate, and not a measure of the school’s own selectivity. Applied/Accepted are the Fall 2025 entering class; the 5-yr column pools Fall 2021–2025 as sum(accepted)/sum(applied), so a heavy year counts more than a light one. Counts travel with every rate because several cells are single-digit.",
+      "of": "99f2fb2d",
+      "at": [
+        "providence-day:ncAdmissions.methodNote",
+        "charlotte-latin:ncAdmissions.methodNote",
+        "charlotte-christian:ncAdmissions.methodNote",
+        "charlotte-catholic:ncAdmissions.methodNote",
+        "charlotte-country-day:ncAdmissions.methodNote",
+        "cannon:ncAdmissions.methodNote",
+        "covenant-day:ncAdmissions.methodNote",
+        "davidson-day:ncAdmissions.methodNote",
+        "carmel-christian:ncAdmissions.methodNote",
+        "hickory-grove-christian:ncAdmissions.methodNote",
+        "gaston-day:ncAdmissions.methodNote"
+      ],
+      "t": "Lea cada fila como una cifra conjunta: la tasa a la que esa universidad admitió a los solicitantes de este colegio, no la tasa de admisión general de la universidad ni una medida de la selectividad del propio colegio. Solicitudes/Admitidos corresponden a la promoción de ingreso del otoño de 2025; la columna de 5 años agrupa el otoño de 2021–2025 como suma(admitidos)/suma(solicitudes), de modo que un año con mucho volumen pesa más que uno ligero. Las cifras absolutas acompañan a cada tasa porque varias celdas son de un solo dígito."
+    },
+    {
+      "text": "Rank order follows the US News **National Universities** table for NC publics. That qualifier matters: Appalachian State is ranked in **Regional Universities South**, a different list, so “top 6 in NC” is not self-defining. Re-score when the next edition lands.",
+      "of": "d7187d7b",
+      "at": [
+        "providence-day:ncAdmissions.flags[0].text",
+        "charlotte-latin:ncAdmissions.flags[0].text",
+        "charlotte-christian:ncAdmissions.flags[0].text",
+        "charlotte-catholic:ncAdmissions.flags[0].text",
+        "charlotte-country-day:ncAdmissions.flags[0].text",
+        "cannon:ncAdmissions.flags[0].text",
+        "covenant-day:ncAdmissions.flags[0].text",
+        "davidson-day:ncAdmissions.flags[0].text",
+        "carmel-christian:ncAdmissions.flags[0].text",
+        "hickory-grove-christian:ncAdmissions.flags[0].text",
+        "gaston-day:ncAdmissions.flags[0].text"
+      ],
+      "t": "El orden de clasificación sigue la tabla **National Universities** de US News para las universidades públicas de NC. Ese matiz importa: Appalachian State está clasificada en **Regional Universities South**, una lista distinta, así que «las 6 mejores de NC» no se define por sí solo. Vuelva a puntuarlo cuando salga la próxima edición."
+    },
+    {
       "text": "Every AP student must sit the exam, so the score distribution colleges read is complete — and 94% of 2025’s scores were a 3 or higher, with 77% at 4 or 5.",
       "of": "299ca066",
       "at": [
@@ -1784,6 +1952,107 @@
       "t": "Su página de admisiones dice $23 millones en becas por méritos para la promoción de 2025; el profile oficial dice más de $20 millones. ¿Cuál es la cifra correcta, y qué se contabiliza en cada una?"
     },
     {
+      "text": "Across the six top-ranked NC public universities, Charlotte Latin School’s applicants were admitted at a pooled 45.5% over the last five entering classes — 334 acceptances from 734 applications.",
+      "of": "d2183318",
+      "at": [
+        "charlotte-latin:ncAdmissions.headline"
+      ],
+      "t": "En las seis universidades públicas mejor clasificadas de NC, los solicitantes de Charlotte Latin School fueron admitidos a una tasa combinada del 45.5% en las últimas cinco promociones de ingreso: 334 admisiones de 734 solicitudes."
+    },
+    {
+      "text": "UNC-Chapel Hill is the hard one: 33.3% in Fall 2025 — 23 of 69 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.",
+      "of": "f35f7b29",
+      "at": [
+        "charlotte-latin:ncAdmissions.subhead"
+      ],
+      "t": "UNC-Chapel Hill es la difícil: 33.3% en otoño de 2025 — 23 de 69 — frente a tasas mucho más altas en las universidades menos selectivas. Estas son cifras del sistema UNC publicadas por el estado, no las propias del colegio."
+    },
+    {
+      "text": "pooled admit rate — 334 of 734 across those five classes",
+      "of": "6cfab420",
+      "at": [
+        "charlotte-latin:ncAdmissions.stats[1].label"
+      ],
+      "t": "tasa de admisión combinada: 334 de 734 en esas cinco promociones"
+    },
+    {
+      "text": "at UNC-Chapel Hill — 23 of 69, the toughest of the six for this school",
+      "of": "c1b36f49",
+      "at": [
+        "charlotte-latin:ncAdmissions.stats[2].label"
+      ],
+      "t": "en UNC-Chapel Hill: 23 de 69, la más dura de las seis para este colegio"
+    },
+    {
+      "text": "drew the most applications in Fall 2025 (69)",
+      "of": "3df062ff",
+      "at": [
+        "charlotte-latin:ncAdmissions.stats[3].label",
+        "charlotte-country-day:ncAdmissions.stats[3].label"
+      ],
+      "t": "recibió el mayor número de solicitudes en el otoño de 2025 (69)"
+    },
+    {
+      "text": "Flagship · Chapel Hill · the most selective of the six",
+      "of": "5c94c33d",
+      "at": [
+        "charlotte-latin:ncAdmissions.universities[0].note",
+        "charlotte-christian:ncAdmissions.universities[0].note",
+        "charlotte-catholic:ncAdmissions.universities[0].note",
+        "cannon:ncAdmissions.universities[0].note",
+        "covenant-day:ncAdmissions.universities[0].note",
+        "davidson-day:ncAdmissions.universities[0].note",
+        "carmel-christian:ncAdmissions.universities[0].note",
+        "hickory-grove-christian:ncAdmissions.universities[0].note",
+        "gaston-day:ncAdmissions.universities[0].note"
+      ],
+      "t": "Institución insignia · Chapel Hill · la más selectiva de las seis"
+    },
+    {
+      "text": "Flagship STEM · Raleigh",
+      "of": "30c46415",
+      "at": [
+        "charlotte-latin:ncAdmissions.universities[1].note",
+        "charlotte-christian:ncAdmissions.universities[1].note",
+        "charlotte-catholic:ncAdmissions.universities[1].note",
+        "cannon:ncAdmissions.universities[1].note",
+        "covenant-day:ncAdmissions.universities[1].note",
+        "davidson-day:ncAdmissions.universities[1].note",
+        "carmel-christian:ncAdmissions.universities[1].note",
+        "hickory-grove-christian:ncAdmissions.universities[1].note",
+        "gaston-day:ncAdmissions.universities[1].note"
+      ],
+      "t": "Institución insignia de STEM · Raleigh"
+    },
+    {
+      "text": "Greenville · eastern NC · largest admit rates of the six",
+      "of": "df4c696f",
+      "at": [
+        "charlotte-latin:ncAdmissions.universities[3].note",
+        "charlotte-catholic:ncAdmissions.universities[3].note",
+        "charlotte-country-day:ncAdmissions.universities[3].note",
+        "davidson-day:ncAdmissions.universities[3].note",
+        "carmel-christian:ncAdmissions.universities[3].note",
+        "gaston-day:ncAdmissions.universities[3].note"
+      ],
+      "t": "Greenville · este de Carolina del Norte · las mayores tasas de admisión de las seis"
+    },
+    {
+      "text": "Piedmont Triad",
+      "of": "91680e35",
+      "at": [
+        "charlotte-latin:ncAdmissions.universities[5].note",
+        "charlotte-catholic:ncAdmissions.universities[5].note",
+        "charlotte-country-day:ncAdmissions.universities[5].note",
+        "cannon:ncAdmissions.universities[5].note",
+        "covenant-day:ncAdmissions.universities[5].note",
+        "davidson-day:ncAdmissions.universities[5].note",
+        "carmel-christian:ncAdmissions.universities[5].note",
+        "gaston-day:ncAdmissions.universities[5].note"
+      ],
+      "t": "Piedmont Triad"
+    },
+    {
       "text": "Students in AP classes are required to sit the exam — but unlike its peers, Latin publishes no AP score distribution at all, so the results of that policy are invisible.",
       "of": "545617b6",
       "at": [
@@ -2994,6 +3263,46 @@
       "t": "Dejaron de publicar los totales de becas por méritos después de la promoción de 2023. ¿Qué recibieron las tres últimas promociones?"
     },
     {
+      "text": "Across the six top-ranked NC public universities, Charlotte Christian School’s applicants were admitted at a pooled 54.8% over the last five entering classes — 382 acceptances from 697 applications.",
+      "of": "98f4e24d",
+      "at": [
+        "charlotte-christian:ncAdmissions.headline"
+      ],
+      "t": "En las seis universidades públicas mejor clasificadas de NC, los solicitantes de Charlotte Christian School fueron admitidos a una tasa combinada del 54.8% en las últimas cinco promociones de ingreso: 382 admisiones de 697 solicitudes."
+    },
+    {
+      "text": "UNC-Chapel Hill is the hard one: 26.3% in Fall 2025 — 10 of 38 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.",
+      "of": "f0de089b",
+      "at": [
+        "charlotte-christian:ncAdmissions.subhead"
+      ],
+      "t": "UNC-Chapel Hill es la difícil: 26.3% en otoño de 2025 — 10 de 38 — frente a tasas mucho más altas en las universidades menos selectivas. Estas son cifras del sistema UNC publicadas por el estado, no las propias del colegio."
+    },
+    {
+      "text": "pooled admit rate — 382 of 697 across those five classes",
+      "of": "786b5c5f",
+      "at": [
+        "charlotte-christian:ncAdmissions.stats[1].label"
+      ],
+      "t": "tasa de admisión combinada: 382 de 697 en esas cinco promociones"
+    },
+    {
+      "text": "at UNC-Chapel Hill — 10 of 38, the toughest of the six for this school",
+      "of": "a60352dd",
+      "at": [
+        "charlotte-christian:ncAdmissions.stats[2].label"
+      ],
+      "t": "en UNC-Chapel Hill: 10 de 38, la más dura de las seis para este colegio"
+    },
+    {
+      "text": "drew the most applications in Fall 2025 (38)",
+      "of": "ba101061",
+      "at": [
+        "charlotte-christian:ncAdmissions.stats[3].label"
+      ],
+      "t": "recibió el mayor número de solicitudes en el otoño de 2025 (38)"
+    },
+    {
       "text": "Students in AP classes are required to sit the exam, and 89% of 2024’s exams scored 3 or higher — a rate earned on a mandated rather than self-selected pool.",
       "of": "5a98620f",
       "at": [
@@ -4178,6 +4487,46 @@
         "charlotte-christian:verdict.checklist[7]"
       ],
       "t": "¿Cuáles son las cifras de la promoción de 2026 — admisiones, becas y franjas de puntuación? Todavía no se ha publicado ninguna."
+    },
+    {
+      "text": "Across the six top-ranked NC public universities, Charlotte Catholic High School’s applicants were admitted at a pooled 56.0% over the last five entering classes — 1,175 acceptances from 2,100 applications.",
+      "of": "bd1d168f",
+      "at": [
+        "charlotte-catholic:ncAdmissions.headline"
+      ],
+      "t": "En las seis universidades públicas mejor clasificadas de NC, los solicitantes de Charlotte Catholic High School fueron admitidos a una tasa combinada del 56.0% en las últimas cinco promociones de ingreso: 1,175 admisiones de 2,100 solicitudes."
+    },
+    {
+      "text": "UNC-Chapel Hill is the hard one: 23.3% in Fall 2025 — 24 of 103 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.",
+      "of": "bad1c34e",
+      "at": [
+        "charlotte-catholic:ncAdmissions.subhead"
+      ],
+      "t": "UNC-Chapel Hill es la difícil: 23.3% en otoño de 2025 — 24 de 103 — frente a tasas mucho más altas en las universidades menos selectivas. Estas son cifras del sistema UNC publicadas por el estado, no las propias del colegio."
+    },
+    {
+      "text": "pooled admit rate — 1,175 of 2,100 across those five classes",
+      "of": "933748c1",
+      "at": [
+        "charlotte-catholic:ncAdmissions.stats[1].label"
+      ],
+      "t": "tasa de admisión combinada: 1,175 de 2,100 en esas cinco promociones"
+    },
+    {
+      "text": "at UNC-Chapel Hill — 24 of 103, the toughest of the six for this school",
+      "of": "fc80e88f",
+      "at": [
+        "charlotte-catholic:ncAdmissions.stats[2].label"
+      ],
+      "t": "en UNC-Chapel Hill: 24 de 103, la más dura de las seis para este colegio"
+    },
+    {
+      "text": "drew the most applications in Fall 2025 (141)",
+      "of": "a78a3c92",
+      "at": [
+        "charlotte-catholic:ncAdmissions.stats[3].label"
+      ],
+      "t": "recibió el mayor número de solicitudes en el otoño de 2025 (141)"
     },
     {
       "text": "A weighted-only transcript, no class rank, and an AP program where the exam is not optional.",
@@ -5794,6 +6143,38 @@
       "t": "¿Qué deportes celebran jornadas de firma separadas en otoño y primavera, y dónde se publican esos resultados?"
     },
     {
+      "text": "Across the six top-ranked NC public universities, Charlotte Country Day School’s applicants were admitted at a pooled 46.7% over the last five entering classes — 328 acceptances from 702 applications.",
+      "of": "ddd3a8b3",
+      "at": [
+        "charlotte-country-day:ncAdmissions.headline"
+      ],
+      "t": "En las seis universidades públicas mejor clasificadas de NC, los solicitantes de Charlotte Country Day School fueron admitidos a una tasa combinada del 46.7% en las últimas cinco promociones de ingreso: 328 admisiones de 702 solicitudes."
+    },
+    {
+      "text": "NC State University is the hard one: 22.9% in Fall 2025 — 11 of 48 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.",
+      "of": "b39e1ac6",
+      "at": [
+        "charlotte-country-day:ncAdmissions.subhead"
+      ],
+      "t": "NC State University es la difícil: 22.9% en otoño de 2025 — 11 de 48 — frente a tasas mucho más altas en las universidades menos selectivas. Estas son cifras del sistema UNC publicadas por el estado, no las propias del colegio."
+    },
+    {
+      "text": "pooled admit rate — 328 of 702 across those five classes",
+      "of": "f0709b02",
+      "at": [
+        "charlotte-country-day:ncAdmissions.stats[1].label"
+      ],
+      "t": "tasa de admisión combinada: 328 de 702 en esas cinco promociones"
+    },
+    {
+      "text": "at NC State University — 11 of 48, the toughest of the six for this school",
+      "of": "41ba7648",
+      "at": [
+        "charlotte-country-day:ncAdmissions.stats[2].label"
+      ],
+      "t": "en NC State University: 11 de 48, la más dura de las seis para este colegio"
+    },
+    {
       "text": "530 AP exams in 2025 at 93% scoring 3+ and 74% at 4 or 5 — and the school publishes those results discipline by discipline, weak spots included.",
       "of": "c507f1d9",
       "at": [
@@ -7044,6 +7425,55 @@
       "t": "¿Cuántas universidades visitan sus orientadores cada año, es obligatorio el Senior Externship, y qué opciones existen de año sabático, de informática post-AP o de trabajo final de investigación?"
     },
     {
+      "text": "Across the six top-ranked NC public universities, Cannon School’s applicants were admitted at a pooled 60.8% over the last five entering classes — 479 acceptances from 788 applications.",
+      "of": "d5b76392",
+      "at": [
+        "cannon:ncAdmissions.headline"
+      ],
+      "t": "En las seis universidades públicas mejor clasificadas de NC, los solicitantes de Cannon School fueron admitidos a una tasa combinada del 60.8% en las últimas cinco promociones de ingreso: 479 admisiones de 788 solicitudes."
+    },
+    {
+      "text": "UNC-Chapel Hill is the hard one: 31.7% in Fall 2025 — 20 of 63 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.",
+      "of": "829ec004",
+      "at": [
+        "cannon:ncAdmissions.subhead"
+      ],
+      "t": "UNC-Chapel Hill es la difícil: 31.7% en otoño de 2025 — 20 de 63 — frente a tasas mucho más altas en las universidades menos selectivas. Estas son cifras del sistema UNC publicadas por el estado, no las propias del colegio."
+    },
+    {
+      "text": "pooled admit rate — 479 of 788 across those five classes",
+      "of": "2127adad",
+      "at": [
+        "cannon:ncAdmissions.stats[1].label"
+      ],
+      "t": "tasa de admisión combinada: 479 de 788 en esas cinco promociones"
+    },
+    {
+      "text": "at UNC-Chapel Hill — 20 of 63, the toughest of the six for this school",
+      "of": "22e98354",
+      "at": [
+        "cannon:ncAdmissions.stats[2].label"
+      ],
+      "t": "en UNC-Chapel Hill: 20 de 63, la más dura de las seis para este colegio"
+    },
+    {
+      "text": "drew the most applications in Fall 2025 (63)",
+      "of": "ba092b19",
+      "at": [
+        "cannon:ncAdmissions.stats[3].label"
+      ],
+      "t": "recibió el mayor número de solicitudes en el otoño de 2025 (63)"
+    },
+    {
+      "text": "Hometown campus · largest admit rates of the six",
+      "of": "d0419022",
+      "at": [
+        "cannon:ncAdmissions.universities[2].note",
+        "covenant-day:ncAdmissions.universities[2].note"
+      ],
+      "t": "Campus local · las mayores tasas de admisión de las seis"
+    },
+    {
       "text": "Cannon publishes something almost no peer does — an explicit maximum AP/AT load by grade, capping a four-year transcript at eleven advanced courses and barring freshmen entirely.",
       "of": "bce93f90",
       "at": [
@@ -8192,6 +8622,46 @@
         "cannon:verdict.checklist[7]"
       ],
       "t": "¿Cómo es el plan de orientación dirigido a los estudiantes curso por curso — cuántas reuniones individuales, y cuándo empiezan los ensayos?"
+    },
+    {
+      "text": "Across the six top-ranked NC public universities, Covenant Day School’s applicants were admitted at a pooled 60.3% over the last five entering classes — 301 acceptances from 499 applications.",
+      "of": "db346c77",
+      "at": [
+        "covenant-day:ncAdmissions.headline"
+      ],
+      "t": "En las seis universidades públicas mejor clasificadas de NC, los solicitantes de Covenant Day School fueron admitidos a una tasa combinada del 60.3% en las últimas cinco promociones de ingreso: 301 admisiones de 499 solicitudes."
+    },
+    {
+      "text": "UNC-Chapel Hill is the hard one: 27.3% in Fall 2025 — 9 of 33 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.",
+      "of": "227b1381",
+      "at": [
+        "covenant-day:ncAdmissions.subhead"
+      ],
+      "t": "UNC-Chapel Hill es la difícil: 27.3% en otoño de 2025 — 9 de 33 — frente a tasas mucho más altas en las universidades menos selectivas. Estas son cifras del sistema UNC publicadas por el estado, no las propias del colegio."
+    },
+    {
+      "text": "pooled admit rate — 301 of 499 across those five classes",
+      "of": "e905a170",
+      "at": [
+        "covenant-day:ncAdmissions.stats[1].label"
+      ],
+      "t": "tasa de admisión combinada: 301 de 499 en esas cinco promociones"
+    },
+    {
+      "text": "at UNC-Chapel Hill — 9 of 33, the toughest of the six for this school",
+      "of": "736f276a",
+      "at": [
+        "covenant-day:ncAdmissions.stats[2].label"
+      ],
+      "t": "en UNC-Chapel Hill: 9 de 33, la más dura de las seis para este colegio"
+    },
+    {
+      "text": "drew the most applications in Fall 2025 (42)",
+      "of": "08d287a2",
+      "at": [
+        "covenant-day:ncAdmissions.stats[3].label"
+      ],
+      "t": "recibió el mayor número de solicitudes en el otoño de 2025 (42)"
     },
     {
       "text": "96% of AP exam scores were a 3 or higher in 2026 — the top of a five-year climb from 84% — and every AP student must sit the exam.",
@@ -9408,6 +9878,47 @@
       "t": "¿Cómo interactúa el requisito previo de la NC Opportunity Scholarship con el calendario de ayuda para una familia que también solicita en otros sitios?"
     },
     {
+      "text": "Across the six top-ranked NC public universities, Davidson Day School’s applicants were admitted at a pooled 59.4% over the last five entering classes — 177 acceptances from 298 applications.",
+      "of": "7803b068",
+      "at": [
+        "davidson-day:ncAdmissions.headline"
+      ],
+      "t": "En las seis universidades públicas mejor clasificadas de NC, los solicitantes de Davidson Day School fueron admitidos a una tasa combinada del 59.4% en las últimas cinco promociones de ingreso: 177 admisiones de 298 solicitudes."
+    },
+    {
+      "text": "UNC-Chapel Hill is the hard one: 40.0% in Fall 2025 — 10 of 25 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.",
+      "of": "3d820ae2",
+      "at": [
+        "davidson-day:ncAdmissions.subhead"
+      ],
+      "t": "UNC-Chapel Hill es la difícil: 40.0% en otoño de 2025 — 10 de 25 — frente a tasas mucho más altas en las universidades menos selectivas. Estas son cifras del sistema UNC publicadas por el estado, no las propias del colegio."
+    },
+    {
+      "text": "pooled admit rate — 177 of 298 across those five classes",
+      "of": "4a13b310",
+      "at": [
+        "davidson-day:ncAdmissions.stats[1].label"
+      ],
+      "t": "tasa de admisión combinada: 177 de 298 en esas cinco promociones"
+    },
+    {
+      "text": "at UNC-Chapel Hill — 10 of 25, the toughest of the six for this school",
+      "of": "9423d88b",
+      "at": [
+        "davidson-day:ncAdmissions.stats[2].label"
+      ],
+      "t": "en UNC-Chapel Hill: 10 de 25, la más dura de las seis para este colegio"
+    },
+    {
+      "text": "drew the most applications in Fall 2025 (25)",
+      "of": "0a7352bf",
+      "at": [
+        "davidson-day:ncAdmissions.stats[3].label",
+        "hickory-grove-christian:ncAdmissions.stats[3].label"
+      ],
+      "t": "recibió el mayor número de solicitudes en el otoño de 2025 (25)"
+    },
+    {
       "text": "Davidson Day publishes its grading machinery in full — the scale, the weighting, and an unusually explicit list of what is excluded from the GPA — but no AP exam results and no National Merit record at all.",
       "of": "410e02c8",
       "at": [
@@ -10478,6 +10989,46 @@
         "davidson-day:verdict.checklist[7]"
       ],
       "t": "Si mi hijo tiene adaptaciones a través del Learning Enrichment Center, ¿quién se encarga de que se aprueben para los exámenes del College Board y del ACT, y de documentarlas ante los servicios de discapacidad de la universidad?"
+    },
+    {
+      "text": "Across the six top-ranked NC public universities, Carmel Christian School’s applicants were admitted at a pooled 59.2% over the last five entering classes — 346 acceptances from 584 applications.",
+      "of": "555db8cd",
+      "at": [
+        "carmel-christian:ncAdmissions.headline"
+      ],
+      "t": "En las seis universidades públicas mejor clasificadas de NC, los solicitantes de Carmel Christian School fueron admitidos a una tasa combinada del 59.2% en las últimas cinco promociones de ingreso: 346 admisiones de 584 solicitudes."
+    },
+    {
+      "text": "UNC-Chapel Hill is the hard one: 25.0% in Fall 2025 — 4 of 16 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.",
+      "of": "1e8c9c30",
+      "at": [
+        "carmel-christian:ncAdmissions.subhead"
+      ],
+      "t": "UNC-Chapel Hill es la difícil: 25.0% en otoño de 2025 — 4 de 16 — frente a tasas mucho más altas en las universidades menos selectivas. Estas son cifras del sistema UNC publicadas por el estado, no las propias del colegio."
+    },
+    {
+      "text": "pooled admit rate — 346 of 584 across those five classes",
+      "of": "be1aa1d2",
+      "at": [
+        "carmel-christian:ncAdmissions.stats[1].label"
+      ],
+      "t": "tasa de admisión combinada: 346 de 584 en esas cinco promociones"
+    },
+    {
+      "text": "at UNC-Chapel Hill — 4 of 16, the toughest of the six for this school",
+      "of": "08b5909c",
+      "at": [
+        "carmel-christian:ncAdmissions.stats[2].label"
+      ],
+      "t": "en UNC-Chapel Hill: 4 de 16, la más dura de las seis para este colegio"
+    },
+    {
+      "text": "drew the most applications in Fall 2025 (31)",
+      "of": "be25dcfc",
+      "at": [
+        "carmel-christian:ncAdmissions.stats[3].label"
+      ],
+      "t": "recibió el mayor número de solicitudes en el otoño de 2025 (31)"
     },
     {
       "text": "73% of seniors scored a 3 or higher on at least one AP exam, and 80% sat at least one — enough for the College Board’s Platinum AP School Honor Roll, its top tier.",
@@ -11633,6 +12184,38 @@
       "t": "¿Aproximadamente cuántos representantes universitarios visitan cada año, y cómo encaja el College Admissions Panel en el calendario de solicitudes?"
     },
     {
+      "text": "Across the six top-ranked NC public universities, Hickory Grove Christian School’s applicants were admitted at a pooled 74.9% over the last five entering classes — 256 acceptances from 342 applications.",
+      "of": "031cb01f",
+      "at": [
+        "hickory-grove-christian:ncAdmissions.headline"
+      ],
+      "t": "En las seis universidades públicas mejor clasificadas de NC, los solicitantes de Hickory Grove Christian School fueron admitidos a una tasa combinada del 74.9% en las últimas cinco promociones de ingreso: 256 admisiones de 342 solicitudes."
+    },
+    {
+      "text": "UNC-Chapel Hill is the hard one: 20.0% in Fall 2025 — 2 of 10 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.",
+      "of": "d2c2212b",
+      "at": [
+        "hickory-grove-christian:ncAdmissions.subhead"
+      ],
+      "t": "UNC-Chapel Hill es la difícil: 20.0% en otoño de 2025 — 2 de 10 — frente a tasas mucho más altas en las universidades menos selectivas. Estas son cifras del sistema UNC publicadas por el estado, no las propias del colegio."
+    },
+    {
+      "text": "pooled admit rate — 256 of 342 across those five classes",
+      "of": "ca4ed73c",
+      "at": [
+        "hickory-grove-christian:ncAdmissions.stats[1].label"
+      ],
+      "t": "tasa de admisión combinada: 256 de 342 en esas cinco promociones"
+    },
+    {
+      "text": "at UNC-Chapel Hill — 2 of 10, the toughest of the six for this school",
+      "of": "1e5ba680",
+      "at": [
+        "hickory-grove-christian:ncAdmissions.stats[2].label"
+      ],
+      "t": "en UNC-Chapel Hill: 2 de 10, la más dura de las seis para este colegio"
+    },
+    {
       "text": "82 students sat 176 AP exams in May 2025 across a 17-course AP program with AP Capstone — and 29 of them earned a 5 on at least one exam.",
       "of": "60fddbac",
       "at": [
@@ -12551,6 +13134,46 @@
         "hickory-grove-christian:verdict.checklist[5]"
       ],
       "t": "¿Cómo encaja el College Admissions Boot Camp en el calendario de solicitudes, y está abierto a todos los alumnos que pasan a 11.º y 12.º grado?"
+    },
+    {
+      "text": "Across the six top-ranked NC public universities, Gaston Day School’s applicants were admitted at a pooled 57.9% over the last five entering classes — 140 acceptances from 242 applications.",
+      "of": "30322e8c",
+      "at": [
+        "gaston-day:ncAdmissions.headline"
+      ],
+      "t": "En las seis universidades públicas mejor clasificadas de NC, los solicitantes de Gaston Day School fueron admitidos a una tasa combinada del 57.9% en las últimas cinco promociones de ingreso: 140 admisiones de 242 solicitudes."
+    },
+    {
+      "text": "UNC-Chapel Hill is the hard one: 27.3% in Fall 2025 — 3 of 11 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.",
+      "of": "55fc96a3",
+      "at": [
+        "gaston-day:ncAdmissions.subhead"
+      ],
+      "t": "UNC-Chapel Hill es la difícil: 27.3% en otoño de 2025 — 3 de 11 — frente a tasas mucho más altas en las universidades menos selectivas. Estas son cifras del sistema UNC publicadas por el estado, no las propias del colegio."
+    },
+    {
+      "text": "pooled admit rate — 140 of 242 across those five classes",
+      "of": "688feeb5",
+      "at": [
+        "gaston-day:ncAdmissions.stats[1].label"
+      ],
+      "t": "tasa de admisión combinada: 140 de 242 en esas cinco promociones"
+    },
+    {
+      "text": "at UNC-Chapel Hill — 3 of 11, the toughest of the six for this school",
+      "of": "7630baf8",
+      "at": [
+        "gaston-day:ncAdmissions.stats[2].label"
+      ],
+      "t": "en UNC-Chapel Hill: 3 de 11, la más dura de las seis para este colegio"
+    },
+    {
+      "text": "drew the most applications in Fall 2025 (15)",
+      "of": "67c3defa",
+      "at": [
+        "gaston-day:ncAdmissions.stats[3].label"
+      ],
+      "t": "recibió el mayor número de solicitudes en el otoño de 2025 (15)"
     },
     {
       "text": "Every AP student must sit the exam, and the share scoring 3+ has climbed five years running — 72% in 2021 to 95% in 2025.",
@@ -14056,594 +14679,6 @@
         "gaston-day:verdict.checklist[6]"
       ],
       "t": "La matriculación figura como 510 en el perfil del colegio pero como 466 y 448 en fuentes de terceros y federales — ¿cuál incluye preescolar y cuál es la cifra de Upper School?"
-    },
-    {
-      "text": "Across the six top-ranked NC public universities, Providence Day School’s applicants were admitted at a pooled 51.1% over the last five entering classes — 499 acceptances from 977 applications.",
-      "of": "6160090d",
-      "at": [
-        "providence-day:ncAdmissions.headline"
-      ],
-      "t": "En las seis universidades públicas mejor clasificadas de NC, los solicitantes de Providence Day School fueron admitidos a una tasa combinada del 51.1% en las últimas cinco promociones de ingreso: 499 admisiones de 977 solicitudes."
-    },
-    {
-      "text": "UNC-Chapel Hill is the hard one: 42.0% pooled there, against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.",
-      "of": "db884594",
-      "at": [
-        "providence-day:ncAdmissions.subhead"
-      ],
-      "t": "UNC-Chapel Hill es la difícil: 42.0% combinado allí, frente a tasas mucho más altas en los campus menos selectivos. Estas son cifras del sistema UNC publicadas por el estado, no las propias del colegio."
-    },
-    {
-      "text": "applications to the six campuses, Fall 2021–2025",
-      "of": "b3ea37bb",
-      "at": [
-        "providence-day:ncAdmissions.stats[0].label",
-        "charlotte-latin:ncAdmissions.stats[0].label",
-        "charlotte-christian:ncAdmissions.stats[0].label",
-        "charlotte-catholic:ncAdmissions.stats[0].label",
-        "charlotte-country-day:ncAdmissions.stats[0].label",
-        "cannon:ncAdmissions.stats[0].label",
-        "covenant-day:ncAdmissions.stats[0].label",
-        "davidson-day:ncAdmissions.stats[0].label",
-        "carmel-christian:ncAdmissions.stats[0].label",
-        "hickory-grove-christian:ncAdmissions.stats[0].label",
-        "gaston-day:ncAdmissions.stats[0].label"
-      ],
-      "t": "solicitudes a los seis campus, otoño de 2021–2025"
-    },
-    {
-      "text": "pooled admit rate — 499 of 977 across those five classes",
-      "of": "679fe477",
-      "at": [
-        "providence-day:ncAdmissions.stats[1].label"
-      ],
-      "t": "tasa de admisión combinada: 499 de 977 en esas cinco promociones"
-    },
-    {
-      "text": "at UNC-Chapel Hill — 176 of 419, the most selective of the six",
-      "of": "95234246",
-      "at": [
-        "providence-day:ncAdmissions.stats[2].label"
-      ],
-      "t": "en UNC-Chapel Hill: 176 de 419, la más selectiva de las seis"
-    },
-    {
-      "text": "drew the most applications in Fall 2025 (103)",
-      "of": "884365c8",
-      "at": [
-        "providence-day:ncAdmissions.stats[3].label"
-      ],
-      "t": "recibió el mayor número de solicitudes en el otoño de 2025 (103)"
-    },
-    {
-      "text": "Flagship · the most selective of the six",
-      "of": "975de2ca",
-      "at": [
-        "providence-day:ncAdmissions.universities[0].note",
-        "charlotte-latin:ncAdmissions.universities[0].note",
-        "charlotte-christian:ncAdmissions.universities[0].note",
-        "charlotte-catholic:ncAdmissions.universities[0].note",
-        "charlotte-country-day:ncAdmissions.universities[0].note",
-        "cannon:ncAdmissions.universities[0].note",
-        "covenant-day:ncAdmissions.universities[0].note",
-        "davidson-day:ncAdmissions.universities[0].note",
-        "carmel-christian:ncAdmissions.universities[0].note",
-        "hickory-grove-christian:ncAdmissions.universities[0].note",
-        "gaston-day:ncAdmissions.universities[0].note"
-      ],
-      "t": "Institución insignia · la más selectiva de las seis"
-    },
-    {
-      "text": "Flagship STEM · Raleigh",
-      "of": "30c46415",
-      "at": [
-        "providence-day:ncAdmissions.universities[1].note",
-        "charlotte-latin:ncAdmissions.universities[1].note",
-        "charlotte-christian:ncAdmissions.universities[1].note",
-        "charlotte-catholic:ncAdmissions.universities[1].note",
-        "charlotte-country-day:ncAdmissions.universities[1].note",
-        "cannon:ncAdmissions.universities[1].note",
-        "covenant-day:ncAdmissions.universities[1].note",
-        "davidson-day:ncAdmissions.universities[1].note",
-        "carmel-christian:ncAdmissions.universities[1].note",
-        "hickory-grove-christian:ncAdmissions.universities[1].note",
-        "gaston-day:ncAdmissions.universities[1].note"
-      ],
-      "t": "Institución insignia de STEM · Raleigh"
-    },
-    {
-      "text": "Hometown campus",
-      "of": "80c3cf73",
-      "at": [
-        "providence-day:ncAdmissions.universities[2].note",
-        "charlotte-latin:ncAdmissions.universities[2].note",
-        "charlotte-christian:ncAdmissions.universities[2].note",
-        "charlotte-catholic:ncAdmissions.universities[2].note",
-        "charlotte-country-day:ncAdmissions.universities[2].note",
-        "cannon:ncAdmissions.universities[2].note",
-        "covenant-day:ncAdmissions.universities[2].note",
-        "davidson-day:ncAdmissions.universities[2].note",
-        "carmel-christian:ncAdmissions.universities[2].note",
-        "hickory-grove-christian:ncAdmissions.universities[2].note",
-        "gaston-day:ncAdmissions.universities[2].note"
-      ],
-      "t": "Campus local"
-    },
-    {
-      "text": "Greenville · largest admit rates of the six",
-      "of": "0b01c1f3",
-      "at": [
-        "providence-day:ncAdmissions.universities[3].note",
-        "charlotte-latin:ncAdmissions.universities[3].note",
-        "charlotte-christian:ncAdmissions.universities[3].note",
-        "charlotte-catholic:ncAdmissions.universities[3].note",
-        "charlotte-country-day:ncAdmissions.universities[3].note",
-        "cannon:ncAdmissions.universities[3].note",
-        "covenant-day:ncAdmissions.universities[3].note",
-        "davidson-day:ncAdmissions.universities[3].note",
-        "carmel-christian:ncAdmissions.universities[3].note",
-        "hickory-grove-christian:ncAdmissions.universities[3].note",
-        "gaston-day:ncAdmissions.universities[3].note"
-      ],
-      "t": "Greenville · las mayores tasas de admisión de las seis"
-    },
-    {
-      "text": "Coastal · mid-selectivity",
-      "of": "c49d4c43",
-      "at": [
-        "providence-day:ncAdmissions.universities[4].note",
-        "charlotte-latin:ncAdmissions.universities[4].note",
-        "charlotte-christian:ncAdmissions.universities[4].note",
-        "charlotte-catholic:ncAdmissions.universities[4].note",
-        "charlotte-country-day:ncAdmissions.universities[4].note",
-        "cannon:ncAdmissions.universities[4].note",
-        "covenant-day:ncAdmissions.universities[4].note",
-        "davidson-day:ncAdmissions.universities[4].note",
-        "carmel-christian:ncAdmissions.universities[4].note",
-        "hickory-grove-christian:ncAdmissions.universities[4].note",
-        "gaston-day:ncAdmissions.universities[4].note"
-      ],
-      "t": "Costera · selectividad media"
-    },
-    {
-      "text": "Piedmont Triad",
-      "of": "91680e35",
-      "at": [
-        "providence-day:ncAdmissions.universities[5].note",
-        "charlotte-latin:ncAdmissions.universities[5].note",
-        "charlotte-christian:ncAdmissions.universities[5].note",
-        "charlotte-catholic:ncAdmissions.universities[5].note",
-        "charlotte-country-day:ncAdmissions.universities[5].note",
-        "cannon:ncAdmissions.universities[5].note",
-        "covenant-day:ncAdmissions.universities[5].note",
-        "davidson-day:ncAdmissions.universities[5].note",
-        "carmel-christian:ncAdmissions.universities[5].note",
-        "hickory-grove-christian:ncAdmissions.universities[5].note",
-        "gaston-day:ncAdmissions.universities[5].note"
-      ],
-      "t": "Piedmont Triad"
-    },
-    {
-      "text": "Read each row as a joint figure: the rate at which that university admitted this school’s applicants — not the university’s overall admit rate, and not a measure of the school’s own selectivity. Applied/Accepted are the Fall 2025 entering class; the 5-yr column pools Fall 2021–2025 as sum(accepted)/sum(applied), so a heavy year counts more than a light one. Counts travel with every rate because several cells are single-digit.",
-      "of": "99f2fb2d",
-      "at": [
-        "providence-day:ncAdmissions.methodNote",
-        "charlotte-latin:ncAdmissions.methodNote",
-        "charlotte-christian:ncAdmissions.methodNote",
-        "charlotte-catholic:ncAdmissions.methodNote",
-        "charlotte-country-day:ncAdmissions.methodNote",
-        "cannon:ncAdmissions.methodNote",
-        "covenant-day:ncAdmissions.methodNote",
-        "davidson-day:ncAdmissions.methodNote",
-        "carmel-christian:ncAdmissions.methodNote",
-        "hickory-grove-christian:ncAdmissions.methodNote",
-        "gaston-day:ncAdmissions.methodNote"
-      ],
-      "t": "Lea cada fila como una cifra conjunta: la tasa a la que esa universidad admitió a los solicitantes de este colegio, no la tasa de admisión general de la universidad ni una medida de la selectividad del propio colegio. Solicitudes/Admitidos corresponden a la promoción de ingreso del otoño de 2025; la columna de 5 años agrupa el otoño de 2021–2025 como suma(admitidos)/suma(solicitudes), de modo que un año con mucho volumen pesa más que uno ligero. Las cifras absolutas acompañan a cada tasa porque varias celdas son de un solo dígito."
-    },
-    {
-      "text": "Rank order follows the US News **National Universities** table for NC publics. That qualifier matters: Appalachian State is ranked in **Regional Universities South**, a different list, so “top 6 in NC” is not self-defining. Re-score when the next edition lands.",
-      "of": "d7187d7b",
-      "at": [
-        "providence-day:ncAdmissions.flags[0].text",
-        "charlotte-latin:ncAdmissions.flags[0].text",
-        "charlotte-christian:ncAdmissions.flags[0].text",
-        "charlotte-catholic:ncAdmissions.flags[0].text",
-        "charlotte-country-day:ncAdmissions.flags[0].text",
-        "cannon:ncAdmissions.flags[0].text",
-        "covenant-day:ncAdmissions.flags[0].text",
-        "davidson-day:ncAdmissions.flags[0].text",
-        "carmel-christian:ncAdmissions.flags[0].text",
-        "hickory-grove-christian:ncAdmissions.flags[0].text",
-        "gaston-day:ncAdmissions.flags[0].text"
-      ],
-      "t": "El orden de clasificación sigue la tabla **National Universities** de US News para las universidades públicas de NC. Ese matiz importa: Appalachian State está clasificada en **Regional Universities South**, una lista distinta, así que «las 6 mejores de NC» no se define por sí solo. Vuelva a puntuarlo cuando salga la próxima edición."
-    },
-    {
-      "text": "Across the six top-ranked NC public universities, Charlotte Latin School’s applicants were admitted at a pooled 45.5% over the last five entering classes — 334 acceptances from 734 applications.",
-      "of": "d2183318",
-      "at": [
-        "charlotte-latin:ncAdmissions.headline"
-      ],
-      "t": "En las seis universidades públicas mejor clasificadas de NC, los solicitantes de Charlotte Latin School fueron admitidos a una tasa combinada del 45.5% en las últimas cinco promociones de ingreso: 334 admisiones de 734 solicitudes."
-    },
-    {
-      "text": "UNC-Chapel Hill is the hard one: 38.3% pooled there, against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.",
-      "of": "bd5d6bf0",
-      "at": [
-        "charlotte-latin:ncAdmissions.subhead"
-      ],
-      "t": "UNC-Chapel Hill es la difícil: 38.3% combinado allí, frente a tasas mucho más altas en los campus menos selectivos. Estas son cifras del sistema UNC publicadas por el estado, no las propias del colegio."
-    },
-    {
-      "text": "pooled admit rate — 334 of 734 across those five classes",
-      "of": "6cfab420",
-      "at": [
-        "charlotte-latin:ncAdmissions.stats[1].label"
-      ],
-      "t": "tasa de admisión combinada: 334 de 734 en esas cinco promociones"
-    },
-    {
-      "text": "at UNC-Chapel Hill — 115 of 300, the most selective of the six",
-      "of": "64ff58fc",
-      "at": [
-        "charlotte-latin:ncAdmissions.stats[2].label"
-      ],
-      "t": "en UNC-Chapel Hill: 115 de 300, la más selectiva de las seis"
-    },
-    {
-      "text": "drew the most applications in Fall 2025 (69)",
-      "of": "3df062ff",
-      "at": [
-        "charlotte-latin:ncAdmissions.stats[3].label",
-        "charlotte-country-day:ncAdmissions.stats[3].label"
-      ],
-      "t": "recibió el mayor número de solicitudes en el otoño de 2025 (69)"
-    },
-    {
-      "text": "Across the six top-ranked NC public universities, Charlotte Christian School’s applicants were admitted at a pooled 54.8% over the last five entering classes — 382 acceptances from 697 applications.",
-      "of": "98f4e24d",
-      "at": [
-        "charlotte-christian:ncAdmissions.headline"
-      ],
-      "t": "En las seis universidades públicas mejor clasificadas de NC, los solicitantes de Charlotte Christian School fueron admitidos a una tasa combinada del 54.8% en las últimas cinco promociones de ingreso: 382 admisiones de 697 solicitudes."
-    },
-    {
-      "text": "UNC-Chapel Hill is the hard one: 28.2% pooled there, against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.",
-      "of": "b1da924a",
-      "at": [
-        "charlotte-christian:ncAdmissions.subhead"
-      ],
-      "t": "UNC-Chapel Hill es la difícil: 28.2% combinado allí, frente a tasas mucho más altas en los campus menos selectivos. Estas son cifras del sistema UNC publicadas por el estado, no las propias del colegio."
-    },
-    {
-      "text": "pooled admit rate — 382 of 697 across those five classes",
-      "of": "786b5c5f",
-      "at": [
-        "charlotte-christian:ncAdmissions.stats[1].label"
-      ],
-      "t": "tasa de admisión combinada: 382 de 697 en esas cinco promociones"
-    },
-    {
-      "text": "at UNC-Chapel Hill — 46 of 163, the most selective of the six",
-      "of": "2db493de",
-      "at": [
-        "charlotte-christian:ncAdmissions.stats[2].label"
-      ],
-      "t": "en UNC-Chapel Hill: 46 de 163, la más selectiva de las seis"
-    },
-    {
-      "text": "drew the most applications in Fall 2025 (38)",
-      "of": "ba101061",
-      "at": [
-        "charlotte-christian:ncAdmissions.stats[3].label"
-      ],
-      "t": "recibió el mayor número de solicitudes en el otoño de 2025 (38)"
-    },
-    {
-      "text": "Across the six top-ranked NC public universities, Charlotte Catholic High School’s applicants were admitted at a pooled 56.0% over the last five entering classes — 1,175 acceptances from 2,100 applications.",
-      "of": "bd1d168f",
-      "at": [
-        "charlotte-catholic:ncAdmissions.headline"
-      ],
-      "t": "En las seis universidades públicas mejor clasificadas de NC, los solicitantes de Charlotte Catholic High School fueron admitidos a una tasa combinada del 56.0% en las últimas cinco promociones de ingreso: 1,175 admisiones de 2,100 solicitudes."
-    },
-    {
-      "text": "UNC-Chapel Hill is the hard one: 30.5% pooled there, against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.",
-      "of": "f218b7f2",
-      "at": [
-        "charlotte-catholic:ncAdmissions.subhead"
-      ],
-      "t": "UNC-Chapel Hill es la difícil: 30.5% combinado allí, frente a tasas mucho más altas en los campus menos selectivos. Estas son cifras del sistema UNC publicadas por el estado, no las propias del colegio."
-    },
-    {
-      "text": "pooled admit rate — 1,175 of 2,100 across those five classes",
-      "of": "933748c1",
-      "at": [
-        "charlotte-catholic:ncAdmissions.stats[1].label"
-      ],
-      "t": "tasa de admisión combinada: 1,175 de 2,100 en esas cinco promociones"
-    },
-    {
-      "text": "at UNC-Chapel Hill — 140 of 459, the most selective of the six",
-      "of": "055ca9ff",
-      "at": [
-        "charlotte-catholic:ncAdmissions.stats[2].label"
-      ],
-      "t": "en UNC-Chapel Hill: 140 de 459, la más selectiva de las seis"
-    },
-    {
-      "text": "drew the most applications in Fall 2025 (141)",
-      "of": "a78a3c92",
-      "at": [
-        "charlotte-catholic:ncAdmissions.stats[3].label"
-      ],
-      "t": "recibió el mayor número de solicitudes en el otoño de 2025 (141)"
-    },
-    {
-      "text": "Across the six top-ranked NC public universities, Charlotte Country Day School’s applicants were admitted at a pooled 46.7% over the last five entering classes — 328 acceptances from 702 applications.",
-      "of": "ddd3a8b3",
-      "at": [
-        "charlotte-country-day:ncAdmissions.headline"
-      ],
-      "t": "En las seis universidades públicas mejor clasificadas de NC, los solicitantes de Charlotte Country Day School fueron admitidos a una tasa combinada del 46.7% en las últimas cinco promociones de ingreso: 328 admisiones de 702 solicitudes."
-    },
-    {
-      "text": "UNC-Chapel Hill is the hard one: 37.7% pooled there, against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.",
-      "of": "7f527fdf",
-      "at": [
-        "charlotte-country-day:ncAdmissions.subhead"
-      ],
-      "t": "UNC-Chapel Hill es la difícil: 37.7% combinado allí, frente a tasas mucho más altas en los campus menos selectivos. Estas son cifras del sistema UNC publicadas por el estado, no las propias del colegio."
-    },
-    {
-      "text": "pooled admit rate — 328 of 702 across those five classes",
-      "of": "f0709b02",
-      "at": [
-        "charlotte-country-day:ncAdmissions.stats[1].label"
-      ],
-      "t": "tasa de admisión combinada: 328 de 702 en esas cinco promociones"
-    },
-    {
-      "text": "at UNC-Chapel Hill — 119 of 316, the most selective of the six",
-      "of": "24298ce5",
-      "at": [
-        "charlotte-country-day:ncAdmissions.stats[2].label"
-      ],
-      "t": "en UNC-Chapel Hill: 119 de 316, la más selectiva de las seis"
-    },
-    {
-      "text": "Across the six top-ranked NC public universities, Cannon School’s applicants were admitted at a pooled 60.8% over the last five entering classes — 479 acceptances from 788 applications.",
-      "of": "d5b76392",
-      "at": [
-        "cannon:ncAdmissions.headline"
-      ],
-      "t": "En las seis universidades públicas mejor clasificadas de NC, los solicitantes de Cannon School fueron admitidos a una tasa combinada del 60.8% en las últimas cinco promociones de ingreso: 479 admisiones de 788 solicitudes."
-    },
-    {
-      "text": "UNC-Chapel Hill is the hard one: 37.4% pooled there, against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.",
-      "of": "ca7d86a4",
-      "at": [
-        "cannon:ncAdmissions.subhead"
-      ],
-      "t": "UNC-Chapel Hill es la difícil: 37.4% combinado allí, frente a tasas mucho más altas en los campus menos selectivos. Estas son cifras del sistema UNC publicadas por el estado, no las propias del colegio."
-    },
-    {
-      "text": "pooled admit rate — 479 of 788 across those five classes",
-      "of": "2127adad",
-      "at": [
-        "cannon:ncAdmissions.stats[1].label"
-      ],
-      "t": "tasa de admisión combinada: 479 de 788 en esas cinco promociones"
-    },
-    {
-      "text": "at UNC-Chapel Hill — 102 of 273, the most selective of the six",
-      "of": "b3b6eff3",
-      "at": [
-        "cannon:ncAdmissions.stats[2].label"
-      ],
-      "t": "en UNC-Chapel Hill: 102 de 273, la más selectiva de las seis"
-    },
-    {
-      "text": "drew the most applications in Fall 2025 (63)",
-      "of": "ba092b19",
-      "at": [
-        "cannon:ncAdmissions.stats[3].label"
-      ],
-      "t": "recibió el mayor número de solicitudes en el otoño de 2025 (63)"
-    },
-    {
-      "text": "Across the six top-ranked NC public universities, Covenant Day School’s applicants were admitted at a pooled 60.3% over the last five entering classes — 301 acceptances from 499 applications.",
-      "of": "db346c77",
-      "at": [
-        "covenant-day:ncAdmissions.headline"
-      ],
-      "t": "En las seis universidades públicas mejor clasificadas de NC, los solicitantes de Covenant Day School fueron admitidos a una tasa combinada del 60.3% en las últimas cinco promociones de ingreso: 301 admisiones de 499 solicitudes."
-    },
-    {
-      "text": "UNC-Chapel Hill is the hard one: 34.6% pooled there, against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.",
-      "of": "174010ed",
-      "at": [
-        "covenant-day:ncAdmissions.subhead"
-      ],
-      "t": "UNC-Chapel Hill es la difícil: 34.6% combinado allí, frente a tasas mucho más altas en los campus menos selectivos. Estas son cifras del sistema UNC publicadas por el estado, no las propias del colegio."
-    },
-    {
-      "text": "pooled admit rate — 301 of 499 across those five classes",
-      "of": "e905a170",
-      "at": [
-        "covenant-day:ncAdmissions.stats[1].label"
-      ],
-      "t": "tasa de admisión combinada: 301 de 499 en esas cinco promociones"
-    },
-    {
-      "text": "at UNC-Chapel Hill — 47 of 136, the most selective of the six",
-      "of": "efe86ed3",
-      "at": [
-        "covenant-day:ncAdmissions.stats[2].label"
-      ],
-      "t": "en UNC-Chapel Hill: 47 de 136, la más selectiva de las seis"
-    },
-    {
-      "text": "drew the most applications in Fall 2025 (42)",
-      "of": "08d287a2",
-      "at": [
-        "covenant-day:ncAdmissions.stats[3].label"
-      ],
-      "t": "recibió el mayor número de solicitudes en el otoño de 2025 (42)"
-    },
-    {
-      "text": "Across the six top-ranked NC public universities, Davidson Day School’s applicants were admitted at a pooled 59.4% over the last five entering classes — 177 acceptances from 298 applications.",
-      "of": "7803b068",
-      "at": [
-        "davidson-day:ncAdmissions.headline"
-      ],
-      "t": "En las seis universidades públicas mejor clasificadas de NC, los solicitantes de Davidson Day School fueron admitidos a una tasa combinada del 59.4% en las últimas cinco promociones de ingreso: 177 admisiones de 298 solicitudes."
-    },
-    {
-      "text": "UNC-Chapel Hill is the hard one: 44.4% pooled there, against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.",
-      "of": "4fcaa4f2",
-      "at": [
-        "davidson-day:ncAdmissions.subhead"
-      ],
-      "t": "UNC-Chapel Hill es la difícil: 44.4% combinado allí, frente a tasas mucho más altas en los campus menos selectivos. Estas son cifras del sistema UNC publicadas por el estado, no las propias del colegio."
-    },
-    {
-      "text": "pooled admit rate — 177 of 298 across those five classes",
-      "of": "4a13b310",
-      "at": [
-        "davidson-day:ncAdmissions.stats[1].label"
-      ],
-      "t": "tasa de admisión combinada: 177 de 298 en esas cinco promociones"
-    },
-    {
-      "text": "at UNC-Chapel Hill — 40 of 90, the most selective of the six",
-      "of": "3339fde7",
-      "at": [
-        "davidson-day:ncAdmissions.stats[2].label"
-      ],
-      "t": "en UNC-Chapel Hill: 40 de 90, la más selectiva de las seis"
-    },
-    {
-      "text": "drew the most applications in Fall 2025 (25)",
-      "of": "0a7352bf",
-      "at": [
-        "davidson-day:ncAdmissions.stats[3].label",
-        "hickory-grove-christian:ncAdmissions.stats[3].label"
-      ],
-      "t": "recibió el mayor número de solicitudes en el otoño de 2025 (25)"
-    },
-    {
-      "text": "Across the six top-ranked NC public universities, Carmel Christian School’s applicants were admitted at a pooled 59.2% over the last five entering classes — 346 acceptances from 584 applications.",
-      "of": "555db8cd",
-      "at": [
-        "carmel-christian:ncAdmissions.headline"
-      ],
-      "t": "En las seis universidades públicas mejor clasificadas de NC, los solicitantes de Carmel Christian School fueron admitidos a una tasa combinada del 59.2% en las últimas cinco promociones de ingreso: 346 admisiones de 584 solicitudes."
-    },
-    {
-      "text": "UNC-Chapel Hill is the hard one: 32.7% pooled there, against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.",
-      "of": "79670c02",
-      "at": [
-        "carmel-christian:ncAdmissions.subhead"
-      ],
-      "t": "UNC-Chapel Hill es la difícil: 32.7% combinado allí, frente a tasas mucho más altas en los campus menos selectivos. Estas son cifras del sistema UNC publicadas por el estado, no las propias del colegio."
-    },
-    {
-      "text": "pooled admit rate — 346 of 584 across those five classes",
-      "of": "be1aa1d2",
-      "at": [
-        "carmel-christian:ncAdmissions.stats[1].label"
-      ],
-      "t": "tasa de admisión combinada: 346 de 584 en esas cinco promociones"
-    },
-    {
-      "text": "at UNC-Chapel Hill — 37 of 113, the most selective of the six",
-      "of": "4c76c89b",
-      "at": [
-        "carmel-christian:ncAdmissions.stats[2].label"
-      ],
-      "t": "en UNC-Chapel Hill: 37 de 113, la más selectiva de las seis"
-    },
-    {
-      "text": "drew the most applications in Fall 2025 (31)",
-      "of": "be25dcfc",
-      "at": [
-        "carmel-christian:ncAdmissions.stats[3].label"
-      ],
-      "t": "recibió el mayor número de solicitudes en el otoño de 2025 (31)"
-    },
-    {
-      "text": "Across the six top-ranked NC public universities, Hickory Grove Christian School’s applicants were admitted at a pooled 74.9% over the last five entering classes — 256 acceptances from 342 applications.",
-      "of": "031cb01f",
-      "at": [
-        "hickory-grove-christian:ncAdmissions.headline"
-      ],
-      "t": "En las seis universidades públicas mejor clasificadas de NC, los solicitantes de Hickory Grove Christian School fueron admitidos a una tasa combinada del 74.9% en las últimas cinco promociones de ingreso: 256 admisiones de 342 solicitudes."
-    },
-    {
-      "text": "UNC-Chapel Hill is the hard one: 26.7% pooled there, against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.",
-      "of": "2e40f209",
-      "at": [
-        "hickory-grove-christian:ncAdmissions.subhead"
-      ],
-      "t": "UNC-Chapel Hill es la difícil: 26.7% combinado allí, frente a tasas mucho más altas en los campus menos selectivos. Estas son cifras del sistema UNC publicadas por el estado, no las propias del colegio."
-    },
-    {
-      "text": "pooled admit rate — 256 of 342 across those five classes",
-      "of": "ca4ed73c",
-      "at": [
-        "hickory-grove-christian:ncAdmissions.stats[1].label"
-      ],
-      "t": "tasa de admisión combinada: 256 de 342 en esas cinco promociones"
-    },
-    {
-      "text": "at UNC-Chapel Hill — 12 of 45, the most selective of the six",
-      "of": "3e4c0348",
-      "at": [
-        "hickory-grove-christian:ncAdmissions.stats[2].label"
-      ],
-      "t": "en UNC-Chapel Hill: 12 de 45, la más selectiva de las seis"
-    },
-    {
-      "text": "Across the six top-ranked NC public universities, Gaston Day School’s applicants were admitted at a pooled 57.9% over the last five entering classes — 140 acceptances from 242 applications.",
-      "of": "30322e8c",
-      "at": [
-        "gaston-day:ncAdmissions.headline"
-      ],
-      "t": "En las seis universidades públicas mejor clasificadas de NC, los solicitantes de Gaston Day School fueron admitidos a una tasa combinada del 57.9% en las últimas cinco promociones de ingreso: 140 admisiones de 242 solicitudes."
-    },
-    {
-      "text": "UNC-Chapel Hill is the hard one: 29.6% pooled there, against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.",
-      "of": "1751679f",
-      "at": [
-        "gaston-day:ncAdmissions.subhead"
-      ],
-      "t": "UNC-Chapel Hill es la difícil: 29.6% combinado allí, frente a tasas mucho más altas en los campus menos selectivos. Estas son cifras del sistema UNC publicadas por el estado, no las propias del colegio."
-    },
-    {
-      "text": "pooled admit rate — 140 of 242 across those five classes",
-      "of": "688feeb5",
-      "at": [
-        "gaston-day:ncAdmissions.stats[1].label"
-      ],
-      "t": "tasa de admisión combinada: 140 de 242 en esas cinco promociones"
-    },
-    {
-      "text": "at UNC-Chapel Hill — 21 of 71, the most selective of the six",
-      "of": "d8cb57a7",
-      "at": [
-        "gaston-day:ncAdmissions.stats[2].label"
-      ],
-      "t": "en UNC-Chapel Hill: 21 de 71, la más selectiva de las seis"
-    },
-    {
-      "text": "drew the most applications in Fall 2025 (15)",
-      "of": "67c3defa",
-      "at": [
-        "gaston-day:ncAdmissions.stats[3].label"
-      ],
-      "t": "recibió el mayor número de solicitudes en el otoño de 2025 (15)"
     }
   ]
 }

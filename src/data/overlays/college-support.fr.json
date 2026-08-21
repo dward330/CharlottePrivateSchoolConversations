@@ -3,6 +3,160 @@
   "lang": "fr",
   "strings": [
     {
+      "t": "Dans les six universités publiques les mieux classées de NC, les candidats de Providence Day School ont été admis à un taux global de 51.1% sur les cinq dernières promotions entrantes — 499 admissions sur 977 candidatures.",
+      "of": "6160090d",
+      "at": [
+        "providence-day:ncAdmissions.headline"
+      ]
+    },
+    {
+      "t": "NC State University est la plus difficile : 32.4% à l’automne 2025 — 23 sur 71 — face à des taux bien plus élevés dans les universités moins sélectives. Ce sont des chiffres du système UNC publiés par l’État, et non ceux de l’établissement.",
+      "of": "cf61d66d",
+      "at": [
+        "providence-day:ncAdmissions.subhead"
+      ]
+    },
+    {
+      "t": "candidatures aux six universités, automne 2021–2025",
+      "of": "bd6703ca",
+      "at": [
+        "providence-day:ncAdmissions.stats[0].label",
+        "charlotte-latin:ncAdmissions.stats[0].label",
+        "charlotte-christian:ncAdmissions.stats[0].label",
+        "charlotte-catholic:ncAdmissions.stats[0].label",
+        "charlotte-country-day:ncAdmissions.stats[0].label",
+        "cannon:ncAdmissions.stats[0].label",
+        "covenant-day:ncAdmissions.stats[0].label",
+        "davidson-day:ncAdmissions.stats[0].label",
+        "carmel-christian:ncAdmissions.stats[0].label",
+        "hickory-grove-christian:ncAdmissions.stats[0].label",
+        "gaston-day:ncAdmissions.stats[0].label"
+      ]
+    },
+    {
+      "t": "taux d’admission global — 499 sur 977 sur ces cinq promotions",
+      "of": "679fe477",
+      "at": [
+        "providence-day:ncAdmissions.stats[1].label"
+      ]
+    },
+    {
+      "t": "à NC State University — 23 sur 71, la plus difficile des six pour cet établissement",
+      "of": "c6474067",
+      "at": [
+        "providence-day:ncAdmissions.stats[2].label"
+      ]
+    },
+    {
+      "t": "a reçu le plus de candidatures à l’automne 2025 (103)",
+      "of": "884365c8",
+      "at": [
+        "providence-day:ncAdmissions.stats[3].label"
+      ]
+    },
+    {
+      "t": "Établissement phare · Chapel Hill",
+      "of": "e4fbefd6",
+      "at": [
+        "providence-day:ncAdmissions.universities[0].note",
+        "charlotte-country-day:ncAdmissions.universities[0].note"
+      ]
+    },
+    {
+      "t": "Établissement phare en STEM · Raleigh · la plus sélective des six",
+      "of": "f452f952",
+      "at": [
+        "providence-day:ncAdmissions.universities[1].note",
+        "charlotte-country-day:ncAdmissions.universities[1].note"
+      ]
+    },
+    {
+      "t": "Campus local",
+      "of": "80c3cf73",
+      "at": [
+        "providence-day:ncAdmissions.universities[2].note",
+        "charlotte-latin:ncAdmissions.universities[2].note",
+        "charlotte-christian:ncAdmissions.universities[2].note",
+        "charlotte-catholic:ncAdmissions.universities[2].note",
+        "charlotte-country-day:ncAdmissions.universities[2].note",
+        "davidson-day:ncAdmissions.universities[2].note",
+        "carmel-christian:ncAdmissions.universities[2].note",
+        "hickory-grove-christian:ncAdmissions.universities[2].note",
+        "gaston-day:ncAdmissions.universities[2].note"
+      ]
+    },
+    {
+      "t": "Greenville · est de la Caroline du Nord",
+      "of": "3fca8b24",
+      "at": [
+        "providence-day:ncAdmissions.universities[3].note",
+        "charlotte-christian:ncAdmissions.universities[3].note",
+        "cannon:ncAdmissions.universities[3].note",
+        "covenant-day:ncAdmissions.universities[3].note",
+        "hickory-grove-christian:ncAdmissions.universities[3].note"
+      ]
+    },
+    {
+      "t": "Littoral · sélectivité moyenne",
+      "of": "c49d4c43",
+      "at": [
+        "providence-day:ncAdmissions.universities[4].note",
+        "charlotte-latin:ncAdmissions.universities[4].note",
+        "charlotte-christian:ncAdmissions.universities[4].note",
+        "charlotte-catholic:ncAdmissions.universities[4].note",
+        "charlotte-country-day:ncAdmissions.universities[4].note",
+        "cannon:ncAdmissions.universities[4].note",
+        "covenant-day:ncAdmissions.universities[4].note",
+        "davidson-day:ncAdmissions.universities[4].note",
+        "carmel-christian:ncAdmissions.universities[4].note",
+        "hickory-grove-christian:ncAdmissions.universities[4].note",
+        "gaston-day:ncAdmissions.universities[4].note"
+      ]
+    },
+    {
+      "t": "Piedmont Triad · les taux d’admission les plus élevés des six",
+      "of": "013e700c",
+      "at": [
+        "providence-day:ncAdmissions.universities[5].note",
+        "charlotte-christian:ncAdmissions.universities[5].note",
+        "hickory-grove-christian:ncAdmissions.universities[5].note"
+      ]
+    },
+    {
+      "t": "Lisez chaque ligne comme un chiffre conjoint : le taux auquel cette université a admis les candidats de cet établissement — et non le taux d’admission global de l’université, ni une mesure de la sélectivité de l’établissement lui-même. Candidatures/Admis correspondent à la promotion entrante de l’automne 2025 ; la colonne 5 ans cumule l’automne 2021–2025 sous la forme somme(admis)/somme(candidatures), de sorte qu’une année chargée pèse plus qu’une année légère. Les effectifs accompagnent chaque taux car plusieurs cellules sont à un chiffre.",
+      "of": "99f2fb2d",
+      "at": [
+        "providence-day:ncAdmissions.methodNote",
+        "charlotte-latin:ncAdmissions.methodNote",
+        "charlotte-christian:ncAdmissions.methodNote",
+        "charlotte-catholic:ncAdmissions.methodNote",
+        "charlotte-country-day:ncAdmissions.methodNote",
+        "cannon:ncAdmissions.methodNote",
+        "covenant-day:ncAdmissions.methodNote",
+        "davidson-day:ncAdmissions.methodNote",
+        "carmel-christian:ncAdmissions.methodNote",
+        "hickory-grove-christian:ncAdmissions.methodNote",
+        "gaston-day:ncAdmissions.methodNote"
+      ]
+    },
+    {
+      "t": "L’ordre de classement suit le tableau **National Universities** d’US News pour les universités publiques de NC. Cette précision compte : Appalachian State est classée dans **Regional Universities South**, une liste différente, si bien que « le top 6 en NC » ne va pas de soi. À réévaluer à la parution de la prochaine édition.",
+      "of": "d7187d7b",
+      "at": [
+        "providence-day:ncAdmissions.flags[0].text",
+        "charlotte-latin:ncAdmissions.flags[0].text",
+        "charlotte-christian:ncAdmissions.flags[0].text",
+        "charlotte-catholic:ncAdmissions.flags[0].text",
+        "charlotte-country-day:ncAdmissions.flags[0].text",
+        "cannon:ncAdmissions.flags[0].text",
+        "covenant-day:ncAdmissions.flags[0].text",
+        "davidson-day:ncAdmissions.flags[0].text",
+        "carmel-christian:ncAdmissions.flags[0].text",
+        "hickory-grove-christian:ncAdmissions.flags[0].text",
+        "gaston-day:ncAdmissions.flags[0].text"
+      ]
+    },
+    {
       "t": "Tout élève inscrit en AP doit passer l’examen : la distribution des scores que lisent les universités est donc complète — et 94% des scores de 2025 étaient de 3 ou plus, dont 77% à 4 ou 5.",
       "of": "299ca066",
       "at": [
@@ -1585,6 +1739,98 @@
       ]
     },
     {
+      "t": "Dans les six universités publiques les mieux classées de NC, les candidats de Charlotte Latin School ont été admis à un taux global de 45.5% sur les cinq dernières promotions entrantes — 334 admissions sur 734 candidatures.",
+      "of": "d2183318",
+      "at": [
+        "charlotte-latin:ncAdmissions.headline"
+      ]
+    },
+    {
+      "t": "UNC-Chapel Hill est la plus difficile : 33.3% à l’automne 2025 — 23 sur 69 — face à des taux bien plus élevés dans les universités moins sélectives. Ce sont des chiffres du système UNC publiés par l’État, et non ceux de l’établissement.",
+      "of": "f35f7b29",
+      "at": [
+        "charlotte-latin:ncAdmissions.subhead"
+      ]
+    },
+    {
+      "t": "taux d’admission global — 334 sur 734 sur ces cinq promotions",
+      "of": "6cfab420",
+      "at": [
+        "charlotte-latin:ncAdmissions.stats[1].label"
+      ]
+    },
+    {
+      "t": "à UNC-Chapel Hill — 23 sur 69, la plus difficile des six pour cet établissement",
+      "of": "c1b36f49",
+      "at": [
+        "charlotte-latin:ncAdmissions.stats[2].label"
+      ]
+    },
+    {
+      "t": "a reçu le plus de candidatures à l’automne 2025 (69)",
+      "of": "3df062ff",
+      "at": [
+        "charlotte-latin:ncAdmissions.stats[3].label",
+        "charlotte-country-day:ncAdmissions.stats[3].label"
+      ]
+    },
+    {
+      "t": "Établissement phare · Chapel Hill · la plus sélective des six",
+      "of": "5c94c33d",
+      "at": [
+        "charlotte-latin:ncAdmissions.universities[0].note",
+        "charlotte-christian:ncAdmissions.universities[0].note",
+        "charlotte-catholic:ncAdmissions.universities[0].note",
+        "cannon:ncAdmissions.universities[0].note",
+        "covenant-day:ncAdmissions.universities[0].note",
+        "davidson-day:ncAdmissions.universities[0].note",
+        "carmel-christian:ncAdmissions.universities[0].note",
+        "hickory-grove-christian:ncAdmissions.universities[0].note",
+        "gaston-day:ncAdmissions.universities[0].note"
+      ]
+    },
+    {
+      "t": "Établissement phare en STEM · Raleigh",
+      "of": "30c46415",
+      "at": [
+        "charlotte-latin:ncAdmissions.universities[1].note",
+        "charlotte-christian:ncAdmissions.universities[1].note",
+        "charlotte-catholic:ncAdmissions.universities[1].note",
+        "cannon:ncAdmissions.universities[1].note",
+        "covenant-day:ncAdmissions.universities[1].note",
+        "davidson-day:ncAdmissions.universities[1].note",
+        "carmel-christian:ncAdmissions.universities[1].note",
+        "hickory-grove-christian:ncAdmissions.universities[1].note",
+        "gaston-day:ncAdmissions.universities[1].note"
+      ]
+    },
+    {
+      "t": "Greenville · est de la Caroline du Nord · les taux d’admission les plus élevés des six",
+      "of": "df4c696f",
+      "at": [
+        "charlotte-latin:ncAdmissions.universities[3].note",
+        "charlotte-catholic:ncAdmissions.universities[3].note",
+        "charlotte-country-day:ncAdmissions.universities[3].note",
+        "davidson-day:ncAdmissions.universities[3].note",
+        "carmel-christian:ncAdmissions.universities[3].note",
+        "gaston-day:ncAdmissions.universities[3].note"
+      ]
+    },
+    {
+      "t": "Piedmont Triad",
+      "of": "91680e35",
+      "at": [
+        "charlotte-latin:ncAdmissions.universities[5].note",
+        "charlotte-catholic:ncAdmissions.universities[5].note",
+        "charlotte-country-day:ncAdmissions.universities[5].note",
+        "cannon:ncAdmissions.universities[5].note",
+        "covenant-day:ncAdmissions.universities[5].note",
+        "davidson-day:ncAdmissions.universities[5].note",
+        "carmel-christian:ncAdmissions.universities[5].note",
+        "gaston-day:ncAdmissions.universities[5].note"
+      ]
+    },
+    {
       "t": "Les élèves inscrits en cours AP sont tenus de passer l’examen — mais contrairement à ses homologues, Charlotte Latin ne publie aucune distribution des scores AP, de sorte que les résultats de cette politique sont invisibles.",
       "of": "545617b6",
       "at": [
@@ -2645,6 +2891,41 @@
       ]
     },
     {
+      "t": "Dans les six universités publiques les mieux classées de NC, les candidats de Charlotte Christian School ont été admis à un taux global de 54.8% sur les cinq dernières promotions entrantes — 382 admissions sur 697 candidatures.",
+      "of": "98f4e24d",
+      "at": [
+        "charlotte-christian:ncAdmissions.headline"
+      ]
+    },
+    {
+      "t": "UNC-Chapel Hill est la plus difficile : 26.3% à l’automne 2025 — 10 sur 38 — face à des taux bien plus élevés dans les universités moins sélectives. Ce sont des chiffres du système UNC publiés par l’État, et non ceux de l’établissement.",
+      "of": "f0de089b",
+      "at": [
+        "charlotte-christian:ncAdmissions.subhead"
+      ]
+    },
+    {
+      "t": "taux d’admission global — 382 sur 697 sur ces cinq promotions",
+      "of": "786b5c5f",
+      "at": [
+        "charlotte-christian:ncAdmissions.stats[1].label"
+      ]
+    },
+    {
+      "t": "à UNC-Chapel Hill — 10 sur 38, la plus difficile des six pour cet établissement",
+      "of": "a60352dd",
+      "at": [
+        "charlotte-christian:ncAdmissions.stats[2].label"
+      ]
+    },
+    {
+      "t": "a reçu le plus de candidatures à l’automne 2025 (38)",
+      "of": "ba101061",
+      "at": [
+        "charlotte-christian:ncAdmissions.stats[3].label"
+      ]
+    },
+    {
       "t": "Les élèves inscrits en cours AP sont tenus de passer l’examen, et 89% des examens de 2024 ont obtenu 3 ou plus — un taux atteint sur un ensemble d’élèves imposé plutôt qu’auto-sélectionné.",
       "of": "5a98620f",
       "at": [
@@ -3681,6 +3962,41 @@
       "of": "cbefe47b",
       "at": [
         "charlotte-christian:verdict.checklist[7]"
+      ]
+    },
+    {
+      "t": "Dans les six universités publiques les mieux classées de NC, les candidats de Charlotte Catholic High School ont été admis à un taux global de 56.0% sur les cinq dernières promotions entrantes — 1,175 admissions sur 2,100 candidatures.",
+      "of": "bd1d168f",
+      "at": [
+        "charlotte-catholic:ncAdmissions.headline"
+      ]
+    },
+    {
+      "t": "UNC-Chapel Hill est la plus difficile : 23.3% à l’automne 2025 — 24 sur 103 — face à des taux bien plus élevés dans les universités moins sélectives. Ce sont des chiffres du système UNC publiés par l’État, et non ceux de l’établissement.",
+      "of": "bad1c34e",
+      "at": [
+        "charlotte-catholic:ncAdmissions.subhead"
+      ]
+    },
+    {
+      "t": "taux d’admission global — 1,175 sur 2,100 sur ces cinq promotions",
+      "of": "933748c1",
+      "at": [
+        "charlotte-catholic:ncAdmissions.stats[1].label"
+      ]
+    },
+    {
+      "t": "à UNC-Chapel Hill — 24 sur 103, la plus difficile des six pour cet établissement",
+      "of": "fc80e88f",
+      "at": [
+        "charlotte-catholic:ncAdmissions.stats[2].label"
+      ]
+    },
+    {
+      "t": "a reçu le plus de candidatures à l’automne 2025 (141)",
+      "of": "a78a3c92",
+      "at": [
+        "charlotte-catholic:ncAdmissions.stats[3].label"
       ]
     },
     {
@@ -5098,6 +5414,34 @@
       ]
     },
     {
+      "t": "Dans les six universités publiques les mieux classées de NC, les candidats de Charlotte Country Day School ont été admis à un taux global de 46.7% sur les cinq dernières promotions entrantes — 328 admissions sur 702 candidatures.",
+      "of": "ddd3a8b3",
+      "at": [
+        "charlotte-country-day:ncAdmissions.headline"
+      ]
+    },
+    {
+      "t": "NC State University est la plus difficile : 22.9% à l’automne 2025 — 11 sur 48 — face à des taux bien plus élevés dans les universités moins sélectives. Ce sont des chiffres du système UNC publiés par l’État, et non ceux de l’établissement.",
+      "of": "b39e1ac6",
+      "at": [
+        "charlotte-country-day:ncAdmissions.subhead"
+      ]
+    },
+    {
+      "t": "taux d’admission global — 328 sur 702 sur ces cinq promotions",
+      "of": "f0709b02",
+      "at": [
+        "charlotte-country-day:ncAdmissions.stats[1].label"
+      ]
+    },
+    {
+      "t": "à NC State University — 11 sur 48, la plus difficile des six pour cet établissement",
+      "of": "41ba7648",
+      "at": [
+        "charlotte-country-day:ncAdmissions.stats[2].label"
+      ]
+    },
+    {
       "t": "530 examens AP en 2025, avec 93% obtenant 3+ et 74% obtenant 4 ou 5 — et l’école publie ces résultats discipline par discipline, points faibles compris.",
       "of": "c507f1d9",
       "at": [
@@ -6192,6 +6536,49 @@
       ]
     },
     {
+      "t": "Dans les six universités publiques les mieux classées de NC, les candidats de Cannon School ont été admis à un taux global de 60.8% sur les cinq dernières promotions entrantes — 479 admissions sur 788 candidatures.",
+      "of": "d5b76392",
+      "at": [
+        "cannon:ncAdmissions.headline"
+      ]
+    },
+    {
+      "t": "UNC-Chapel Hill est la plus difficile : 31.7% à l’automne 2025 — 20 sur 63 — face à des taux bien plus élevés dans les universités moins sélectives. Ce sont des chiffres du système UNC publiés par l’État, et non ceux de l’établissement.",
+      "of": "829ec004",
+      "at": [
+        "cannon:ncAdmissions.subhead"
+      ]
+    },
+    {
+      "t": "taux d’admission global — 479 sur 788 sur ces cinq promotions",
+      "of": "2127adad",
+      "at": [
+        "cannon:ncAdmissions.stats[1].label"
+      ]
+    },
+    {
+      "t": "à UNC-Chapel Hill — 20 sur 63, la plus difficile des six pour cet établissement",
+      "of": "22e98354",
+      "at": [
+        "cannon:ncAdmissions.stats[2].label"
+      ]
+    },
+    {
+      "t": "a reçu le plus de candidatures à l’automne 2025 (63)",
+      "of": "ba092b19",
+      "at": [
+        "cannon:ncAdmissions.stats[3].label"
+      ]
+    },
+    {
+      "t": "Campus local · les taux d’admission les plus élevés des six",
+      "of": "d0419022",
+      "at": [
+        "cannon:ncAdmissions.universities[2].note",
+        "covenant-day:ncAdmissions.universities[2].note"
+      ]
+    },
+    {
       "t": "Cannon publie une information que presque aucune école comparable ne donne — une charge maximale explicite de cours AP/AT par niveau, plafonnant un relevé de notes de quatre ans à onze cours avancés et excluant totalement les élèves de première année.",
       "of": "bce93f90",
       "at": [
@@ -7196,6 +7583,41 @@
       "of": "0eab99f5",
       "at": [
         "cannon:verdict.checklist[7]"
+      ]
+    },
+    {
+      "t": "Dans les six universités publiques les mieux classées de NC, les candidats de Covenant Day School ont été admis à un taux global de 60.3% sur les cinq dernières promotions entrantes — 301 admissions sur 499 candidatures.",
+      "of": "db346c77",
+      "at": [
+        "covenant-day:ncAdmissions.headline"
+      ]
+    },
+    {
+      "t": "UNC-Chapel Hill est la plus difficile : 27.3% à l’automne 2025 — 9 sur 33 — face à des taux bien plus élevés dans les universités moins sélectives. Ce sont des chiffres du système UNC publiés par l’État, et non ceux de l’établissement.",
+      "of": "227b1381",
+      "at": [
+        "covenant-day:ncAdmissions.subhead"
+      ]
+    },
+    {
+      "t": "taux d’admission global — 301 sur 499 sur ces cinq promotions",
+      "of": "e905a170",
+      "at": [
+        "covenant-day:ncAdmissions.stats[1].label"
+      ]
+    },
+    {
+      "t": "à UNC-Chapel Hill — 9 sur 33, la plus difficile des six pour cet établissement",
+      "of": "736f276a",
+      "at": [
+        "covenant-day:ncAdmissions.stats[2].label"
+      ]
+    },
+    {
+      "t": "a reçu le plus de candidatures à l’automne 2025 (42)",
+      "of": "08d287a2",
+      "at": [
+        "covenant-day:ncAdmissions.stats[3].label"
       ]
     },
     {
@@ -8262,6 +8684,42 @@
       ]
     },
     {
+      "t": "Dans les six universités publiques les mieux classées de NC, les candidats de Davidson Day School ont été admis à un taux global de 59.4% sur les cinq dernières promotions entrantes — 177 admissions sur 298 candidatures.",
+      "of": "7803b068",
+      "at": [
+        "davidson-day:ncAdmissions.headline"
+      ]
+    },
+    {
+      "t": "UNC-Chapel Hill est la plus difficile : 40.0% à l’automne 2025 — 10 sur 25 — face à des taux bien plus élevés dans les universités moins sélectives. Ce sont des chiffres du système UNC publiés par l’État, et non ceux de l’établissement.",
+      "of": "3d820ae2",
+      "at": [
+        "davidson-day:ncAdmissions.subhead"
+      ]
+    },
+    {
+      "t": "taux d’admission global — 177 sur 298 sur ces cinq promotions",
+      "of": "4a13b310",
+      "at": [
+        "davidson-day:ncAdmissions.stats[1].label"
+      ]
+    },
+    {
+      "t": "à UNC-Chapel Hill — 10 sur 25, la plus difficile des six pour cet établissement",
+      "of": "9423d88b",
+      "at": [
+        "davidson-day:ncAdmissions.stats[2].label"
+      ]
+    },
+    {
+      "t": "a reçu le plus de candidatures à l’automne 2025 (25)",
+      "of": "0a7352bf",
+      "at": [
+        "davidson-day:ncAdmissions.stats[3].label",
+        "hickory-grove-christian:ncAdmissions.stats[3].label"
+      ]
+    },
+    {
       "t": "Davidson Day publie intégralement sa mécanique de notation — le barème, la pondération et une liste exceptionnellement explicite de ce qui est exclu de la GPA — mais aucun résultat d’examen AP ni le moindre historique National Merit.",
       "of": "410e02c8",
       "at": [
@@ -9197,6 +9655,41 @@
       "of": "660d65b7",
       "at": [
         "davidson-day:verdict.checklist[7]"
+      ]
+    },
+    {
+      "t": "Dans les six universités publiques les mieux classées de NC, les candidats de Carmel Christian School ont été admis à un taux global de 59.2% sur les cinq dernières promotions entrantes — 346 admissions sur 584 candidatures.",
+      "of": "555db8cd",
+      "at": [
+        "carmel-christian:ncAdmissions.headline"
+      ]
+    },
+    {
+      "t": "UNC-Chapel Hill est la plus difficile : 25.0% à l’automne 2025 — 4 sur 16 — face à des taux bien plus élevés dans les universités moins sélectives. Ce sont des chiffres du système UNC publiés par l’État, et non ceux de l’établissement.",
+      "of": "1e8c9c30",
+      "at": [
+        "carmel-christian:ncAdmissions.subhead"
+      ]
+    },
+    {
+      "t": "taux d’admission global — 346 sur 584 sur ces cinq promotions",
+      "of": "be1aa1d2",
+      "at": [
+        "carmel-christian:ncAdmissions.stats[1].label"
+      ]
+    },
+    {
+      "t": "à UNC-Chapel Hill — 4 sur 16, la plus difficile des six pour cet établissement",
+      "of": "08b5909c",
+      "at": [
+        "carmel-christian:ncAdmissions.stats[2].label"
+      ]
+    },
+    {
+      "t": "a reçu le plus de candidatures à l’automne 2025 (31)",
+      "of": "be25dcfc",
+      "at": [
+        "carmel-christian:ncAdmissions.stats[3].label"
       ]
     },
     {
@@ -10210,6 +10703,34 @@
       ]
     },
     {
+      "t": "Dans les six universités publiques les mieux classées de NC, les candidats de Hickory Grove Christian School ont été admis à un taux global de 74.9% sur les cinq dernières promotions entrantes — 256 admissions sur 342 candidatures.",
+      "of": "031cb01f",
+      "at": [
+        "hickory-grove-christian:ncAdmissions.headline"
+      ]
+    },
+    {
+      "t": "UNC-Chapel Hill est la plus difficile : 20.0% à l’automne 2025 — 2 sur 10 — face à des taux bien plus élevés dans les universités moins sélectives. Ce sont des chiffres du système UNC publiés par l’État, et non ceux de l’établissement.",
+      "of": "d2c2212b",
+      "at": [
+        "hickory-grove-christian:ncAdmissions.subhead"
+      ]
+    },
+    {
+      "t": "taux d’admission global — 256 sur 342 sur ces cinq promotions",
+      "of": "ca4ed73c",
+      "at": [
+        "hickory-grove-christian:ncAdmissions.stats[1].label"
+      ]
+    },
+    {
+      "t": "à UNC-Chapel Hill — 2 sur 10, la plus difficile des six pour cet établissement",
+      "of": "1e5ba680",
+      "at": [
+        "hickory-grove-christian:ncAdmissions.stats[2].label"
+      ]
+    },
+    {
       "t": "82 élèves ont passé 176 examens AP en mai 2025, dans le cadre d’un programme AP de 17 cours avec AP Capstone — et 29 d’entre eux ont obtenu un 5 à au moins un examen.",
       "of": "60fddbac",
       "at": [
@@ -11012,6 +11533,41 @@
       "of": "4c1c1db4",
       "at": [
         "hickory-grove-christian:verdict.checklist[5]"
+      ]
+    },
+    {
+      "t": "Dans les six universités publiques les mieux classées de NC, les candidats de Gaston Day School ont été admis à un taux global de 57.9% sur les cinq dernières promotions entrantes — 140 admissions sur 242 candidatures.",
+      "of": "30322e8c",
+      "at": [
+        "gaston-day:ncAdmissions.headline"
+      ]
+    },
+    {
+      "t": "UNC-Chapel Hill est la plus difficile : 27.3% à l’automne 2025 — 3 sur 11 — face à des taux bien plus élevés dans les universités moins sélectives. Ce sont des chiffres du système UNC publiés par l’État, et non ceux de l’établissement.",
+      "of": "55fc96a3",
+      "at": [
+        "gaston-day:ncAdmissions.subhead"
+      ]
+    },
+    {
+      "t": "taux d’admission global — 140 sur 242 sur ces cinq promotions",
+      "of": "688feeb5",
+      "at": [
+        "gaston-day:ncAdmissions.stats[1].label"
+      ]
+    },
+    {
+      "t": "à UNC-Chapel Hill — 3 sur 11, la plus difficile des six pour cet établissement",
+      "of": "7630baf8",
+      "at": [
+        "gaston-day:ncAdmissions.stats[2].label"
+      ]
+    },
+    {
+      "t": "a reçu le plus de candidatures à l’automne 2025 (15)",
+      "of": "67c3defa",
+      "at": [
+        "gaston-day:ncAdmissions.stats[3].label"
       ]
     },
     {
@@ -12329,532 +12885,6 @@
       "of": "9ddca282",
       "at": [
         "gaston-day:verdict.checklist[6]"
-      ]
-    },
-    {
-      "t": "Dans les six universités publiques les mieux classées de NC, les candidats de Providence Day School ont été admis à un taux global de 51.1% sur les cinq dernières promotions entrantes — 499 admissions sur 977 candidatures.",
-      "of": "6160090d",
-      "at": [
-        "providence-day:ncAdmissions.headline"
-      ]
-    },
-    {
-      "t": "UNC-Chapel Hill est la plus difficile : 42.0% en cumulé, face à des taux bien plus élevés dans les campus moins sélectifs. Ce sont des chiffres du système UNC publiés par l’État, et non ceux de l’établissement.",
-      "of": "db884594",
-      "at": [
-        "providence-day:ncAdmissions.subhead"
-      ]
-    },
-    {
-      "t": "candidatures aux six campus, automne 2021–2025",
-      "of": "b3ea37bb",
-      "at": [
-        "providence-day:ncAdmissions.stats[0].label",
-        "charlotte-latin:ncAdmissions.stats[0].label",
-        "charlotte-christian:ncAdmissions.stats[0].label",
-        "charlotte-catholic:ncAdmissions.stats[0].label",
-        "charlotte-country-day:ncAdmissions.stats[0].label",
-        "cannon:ncAdmissions.stats[0].label",
-        "covenant-day:ncAdmissions.stats[0].label",
-        "davidson-day:ncAdmissions.stats[0].label",
-        "carmel-christian:ncAdmissions.stats[0].label",
-        "hickory-grove-christian:ncAdmissions.stats[0].label",
-        "gaston-day:ncAdmissions.stats[0].label"
-      ]
-    },
-    {
-      "t": "taux d’admission global — 499 sur 977 sur ces cinq promotions",
-      "of": "679fe477",
-      "at": [
-        "providence-day:ncAdmissions.stats[1].label"
-      ]
-    },
-    {
-      "t": "à UNC-Chapel Hill — 176 sur 419, la plus sélective des six",
-      "of": "95234246",
-      "at": [
-        "providence-day:ncAdmissions.stats[2].label"
-      ]
-    },
-    {
-      "t": "a reçu le plus de candidatures à l’automne 2025 (103)",
-      "of": "884365c8",
-      "at": [
-        "providence-day:ncAdmissions.stats[3].label"
-      ]
-    },
-    {
-      "t": "Établissement phare · la plus sélective des six",
-      "of": "975de2ca",
-      "at": [
-        "providence-day:ncAdmissions.universities[0].note",
-        "charlotte-latin:ncAdmissions.universities[0].note",
-        "charlotte-christian:ncAdmissions.universities[0].note",
-        "charlotte-catholic:ncAdmissions.universities[0].note",
-        "charlotte-country-day:ncAdmissions.universities[0].note",
-        "cannon:ncAdmissions.universities[0].note",
-        "covenant-day:ncAdmissions.universities[0].note",
-        "davidson-day:ncAdmissions.universities[0].note",
-        "carmel-christian:ncAdmissions.universities[0].note",
-        "hickory-grove-christian:ncAdmissions.universities[0].note",
-        "gaston-day:ncAdmissions.universities[0].note"
-      ]
-    },
-    {
-      "t": "Établissement phare en STEM · Raleigh",
-      "of": "30c46415",
-      "at": [
-        "providence-day:ncAdmissions.universities[1].note",
-        "charlotte-latin:ncAdmissions.universities[1].note",
-        "charlotte-christian:ncAdmissions.universities[1].note",
-        "charlotte-catholic:ncAdmissions.universities[1].note",
-        "charlotte-country-day:ncAdmissions.universities[1].note",
-        "cannon:ncAdmissions.universities[1].note",
-        "covenant-day:ncAdmissions.universities[1].note",
-        "davidson-day:ncAdmissions.universities[1].note",
-        "carmel-christian:ncAdmissions.universities[1].note",
-        "hickory-grove-christian:ncAdmissions.universities[1].note",
-        "gaston-day:ncAdmissions.universities[1].note"
-      ]
-    },
-    {
-      "t": "Campus local",
-      "of": "80c3cf73",
-      "at": [
-        "providence-day:ncAdmissions.universities[2].note",
-        "charlotte-latin:ncAdmissions.universities[2].note",
-        "charlotte-christian:ncAdmissions.universities[2].note",
-        "charlotte-catholic:ncAdmissions.universities[2].note",
-        "charlotte-country-day:ncAdmissions.universities[2].note",
-        "cannon:ncAdmissions.universities[2].note",
-        "covenant-day:ncAdmissions.universities[2].note",
-        "davidson-day:ncAdmissions.universities[2].note",
-        "carmel-christian:ncAdmissions.universities[2].note",
-        "hickory-grove-christian:ncAdmissions.universities[2].note",
-        "gaston-day:ncAdmissions.universities[2].note"
-      ]
-    },
-    {
-      "t": "Greenville · les taux d’admission les plus élevés des six",
-      "of": "0b01c1f3",
-      "at": [
-        "providence-day:ncAdmissions.universities[3].note",
-        "charlotte-latin:ncAdmissions.universities[3].note",
-        "charlotte-christian:ncAdmissions.universities[3].note",
-        "charlotte-catholic:ncAdmissions.universities[3].note",
-        "charlotte-country-day:ncAdmissions.universities[3].note",
-        "cannon:ncAdmissions.universities[3].note",
-        "covenant-day:ncAdmissions.universities[3].note",
-        "davidson-day:ncAdmissions.universities[3].note",
-        "carmel-christian:ncAdmissions.universities[3].note",
-        "hickory-grove-christian:ncAdmissions.universities[3].note",
-        "gaston-day:ncAdmissions.universities[3].note"
-      ]
-    },
-    {
-      "t": "Littoral · sélectivité moyenne",
-      "of": "c49d4c43",
-      "at": [
-        "providence-day:ncAdmissions.universities[4].note",
-        "charlotte-latin:ncAdmissions.universities[4].note",
-        "charlotte-christian:ncAdmissions.universities[4].note",
-        "charlotte-catholic:ncAdmissions.universities[4].note",
-        "charlotte-country-day:ncAdmissions.universities[4].note",
-        "cannon:ncAdmissions.universities[4].note",
-        "covenant-day:ncAdmissions.universities[4].note",
-        "davidson-day:ncAdmissions.universities[4].note",
-        "carmel-christian:ncAdmissions.universities[4].note",
-        "hickory-grove-christian:ncAdmissions.universities[4].note",
-        "gaston-day:ncAdmissions.universities[4].note"
-      ]
-    },
-    {
-      "t": "Piedmont Triad",
-      "of": "91680e35",
-      "at": [
-        "providence-day:ncAdmissions.universities[5].note",
-        "charlotte-latin:ncAdmissions.universities[5].note",
-        "charlotte-christian:ncAdmissions.universities[5].note",
-        "charlotte-catholic:ncAdmissions.universities[5].note",
-        "charlotte-country-day:ncAdmissions.universities[5].note",
-        "cannon:ncAdmissions.universities[5].note",
-        "covenant-day:ncAdmissions.universities[5].note",
-        "davidson-day:ncAdmissions.universities[5].note",
-        "carmel-christian:ncAdmissions.universities[5].note",
-        "hickory-grove-christian:ncAdmissions.universities[5].note",
-        "gaston-day:ncAdmissions.universities[5].note"
-      ]
-    },
-    {
-      "t": "Lisez chaque ligne comme un chiffre conjoint : le taux auquel cette université a admis les candidats de cet établissement — et non le taux d’admission global de l’université, ni une mesure de la sélectivité de l’établissement lui-même. Candidatures/Admis correspondent à la promotion entrante de l’automne 2025 ; la colonne 5 ans cumule l’automne 2021–2025 sous la forme somme(admis)/somme(candidatures), de sorte qu’une année chargée pèse plus qu’une année légère. Les effectifs accompagnent chaque taux car plusieurs cellules sont à un chiffre.",
-      "of": "99f2fb2d",
-      "at": [
-        "providence-day:ncAdmissions.methodNote",
-        "charlotte-latin:ncAdmissions.methodNote",
-        "charlotte-christian:ncAdmissions.methodNote",
-        "charlotte-catholic:ncAdmissions.methodNote",
-        "charlotte-country-day:ncAdmissions.methodNote",
-        "cannon:ncAdmissions.methodNote",
-        "covenant-day:ncAdmissions.methodNote",
-        "davidson-day:ncAdmissions.methodNote",
-        "carmel-christian:ncAdmissions.methodNote",
-        "hickory-grove-christian:ncAdmissions.methodNote",
-        "gaston-day:ncAdmissions.methodNote"
-      ]
-    },
-    {
-      "t": "L’ordre de classement suit le tableau **National Universities** d’US News pour les universités publiques de NC. Cette précision compte : Appalachian State est classée dans **Regional Universities South**, une liste différente, si bien que « le top 6 en NC » ne va pas de soi. À réévaluer à la parution de la prochaine édition.",
-      "of": "d7187d7b",
-      "at": [
-        "providence-day:ncAdmissions.flags[0].text",
-        "charlotte-latin:ncAdmissions.flags[0].text",
-        "charlotte-christian:ncAdmissions.flags[0].text",
-        "charlotte-catholic:ncAdmissions.flags[0].text",
-        "charlotte-country-day:ncAdmissions.flags[0].text",
-        "cannon:ncAdmissions.flags[0].text",
-        "covenant-day:ncAdmissions.flags[0].text",
-        "davidson-day:ncAdmissions.flags[0].text",
-        "carmel-christian:ncAdmissions.flags[0].text",
-        "hickory-grove-christian:ncAdmissions.flags[0].text",
-        "gaston-day:ncAdmissions.flags[0].text"
-      ]
-    },
-    {
-      "t": "Dans les six universités publiques les mieux classées de NC, les candidats de Charlotte Latin School ont été admis à un taux global de 45.5% sur les cinq dernières promotions entrantes — 334 admissions sur 734 candidatures.",
-      "of": "d2183318",
-      "at": [
-        "charlotte-latin:ncAdmissions.headline"
-      ]
-    },
-    {
-      "t": "UNC-Chapel Hill est la plus difficile : 38.3% en cumulé, face à des taux bien plus élevés dans les campus moins sélectifs. Ce sont des chiffres du système UNC publiés par l’État, et non ceux de l’établissement.",
-      "of": "bd5d6bf0",
-      "at": [
-        "charlotte-latin:ncAdmissions.subhead"
-      ]
-    },
-    {
-      "t": "taux d’admission global — 334 sur 734 sur ces cinq promotions",
-      "of": "6cfab420",
-      "at": [
-        "charlotte-latin:ncAdmissions.stats[1].label"
-      ]
-    },
-    {
-      "t": "à UNC-Chapel Hill — 115 sur 300, la plus sélective des six",
-      "of": "64ff58fc",
-      "at": [
-        "charlotte-latin:ncAdmissions.stats[2].label"
-      ]
-    },
-    {
-      "t": "a reçu le plus de candidatures à l’automne 2025 (69)",
-      "of": "3df062ff",
-      "at": [
-        "charlotte-latin:ncAdmissions.stats[3].label",
-        "charlotte-country-day:ncAdmissions.stats[3].label"
-      ]
-    },
-    {
-      "t": "Dans les six universités publiques les mieux classées de NC, les candidats de Charlotte Christian School ont été admis à un taux global de 54.8% sur les cinq dernières promotions entrantes — 382 admissions sur 697 candidatures.",
-      "of": "98f4e24d",
-      "at": [
-        "charlotte-christian:ncAdmissions.headline"
-      ]
-    },
-    {
-      "t": "UNC-Chapel Hill est la plus difficile : 28.2% en cumulé, face à des taux bien plus élevés dans les campus moins sélectifs. Ce sont des chiffres du système UNC publiés par l’État, et non ceux de l’établissement.",
-      "of": "b1da924a",
-      "at": [
-        "charlotte-christian:ncAdmissions.subhead"
-      ]
-    },
-    {
-      "t": "taux d’admission global — 382 sur 697 sur ces cinq promotions",
-      "of": "786b5c5f",
-      "at": [
-        "charlotte-christian:ncAdmissions.stats[1].label"
-      ]
-    },
-    {
-      "t": "à UNC-Chapel Hill — 46 sur 163, la plus sélective des six",
-      "of": "2db493de",
-      "at": [
-        "charlotte-christian:ncAdmissions.stats[2].label"
-      ]
-    },
-    {
-      "t": "a reçu le plus de candidatures à l’automne 2025 (38)",
-      "of": "ba101061",
-      "at": [
-        "charlotte-christian:ncAdmissions.stats[3].label"
-      ]
-    },
-    {
-      "t": "Dans les six universités publiques les mieux classées de NC, les candidats de Charlotte Catholic High School ont été admis à un taux global de 56.0% sur les cinq dernières promotions entrantes — 1,175 admissions sur 2,100 candidatures.",
-      "of": "bd1d168f",
-      "at": [
-        "charlotte-catholic:ncAdmissions.headline"
-      ]
-    },
-    {
-      "t": "UNC-Chapel Hill est la plus difficile : 30.5% en cumulé, face à des taux bien plus élevés dans les campus moins sélectifs. Ce sont des chiffres du système UNC publiés par l’État, et non ceux de l’établissement.",
-      "of": "f218b7f2",
-      "at": [
-        "charlotte-catholic:ncAdmissions.subhead"
-      ]
-    },
-    {
-      "t": "taux d’admission global — 1,175 sur 2,100 sur ces cinq promotions",
-      "of": "933748c1",
-      "at": [
-        "charlotte-catholic:ncAdmissions.stats[1].label"
-      ]
-    },
-    {
-      "t": "à UNC-Chapel Hill — 140 sur 459, la plus sélective des six",
-      "of": "055ca9ff",
-      "at": [
-        "charlotte-catholic:ncAdmissions.stats[2].label"
-      ]
-    },
-    {
-      "t": "a reçu le plus de candidatures à l’automne 2025 (141)",
-      "of": "a78a3c92",
-      "at": [
-        "charlotte-catholic:ncAdmissions.stats[3].label"
-      ]
-    },
-    {
-      "t": "Dans les six universités publiques les mieux classées de NC, les candidats de Charlotte Country Day School ont été admis à un taux global de 46.7% sur les cinq dernières promotions entrantes — 328 admissions sur 702 candidatures.",
-      "of": "ddd3a8b3",
-      "at": [
-        "charlotte-country-day:ncAdmissions.headline"
-      ]
-    },
-    {
-      "t": "UNC-Chapel Hill est la plus difficile : 37.7% en cumulé, face à des taux bien plus élevés dans les campus moins sélectifs. Ce sont des chiffres du système UNC publiés par l’État, et non ceux de l’établissement.",
-      "of": "7f527fdf",
-      "at": [
-        "charlotte-country-day:ncAdmissions.subhead"
-      ]
-    },
-    {
-      "t": "taux d’admission global — 328 sur 702 sur ces cinq promotions",
-      "of": "f0709b02",
-      "at": [
-        "charlotte-country-day:ncAdmissions.stats[1].label"
-      ]
-    },
-    {
-      "t": "à UNC-Chapel Hill — 119 sur 316, la plus sélective des six",
-      "of": "24298ce5",
-      "at": [
-        "charlotte-country-day:ncAdmissions.stats[2].label"
-      ]
-    },
-    {
-      "t": "Dans les six universités publiques les mieux classées de NC, les candidats de Cannon School ont été admis à un taux global de 60.8% sur les cinq dernières promotions entrantes — 479 admissions sur 788 candidatures.",
-      "of": "d5b76392",
-      "at": [
-        "cannon:ncAdmissions.headline"
-      ]
-    },
-    {
-      "t": "UNC-Chapel Hill est la plus difficile : 37.4% en cumulé, face à des taux bien plus élevés dans les campus moins sélectifs. Ce sont des chiffres du système UNC publiés par l’État, et non ceux de l’établissement.",
-      "of": "ca7d86a4",
-      "at": [
-        "cannon:ncAdmissions.subhead"
-      ]
-    },
-    {
-      "t": "taux d’admission global — 479 sur 788 sur ces cinq promotions",
-      "of": "2127adad",
-      "at": [
-        "cannon:ncAdmissions.stats[1].label"
-      ]
-    },
-    {
-      "t": "à UNC-Chapel Hill — 102 sur 273, la plus sélective des six",
-      "of": "b3b6eff3",
-      "at": [
-        "cannon:ncAdmissions.stats[2].label"
-      ]
-    },
-    {
-      "t": "a reçu le plus de candidatures à l’automne 2025 (63)",
-      "of": "ba092b19",
-      "at": [
-        "cannon:ncAdmissions.stats[3].label"
-      ]
-    },
-    {
-      "t": "Dans les six universités publiques les mieux classées de NC, les candidats de Covenant Day School ont été admis à un taux global de 60.3% sur les cinq dernières promotions entrantes — 301 admissions sur 499 candidatures.",
-      "of": "db346c77",
-      "at": [
-        "covenant-day:ncAdmissions.headline"
-      ]
-    },
-    {
-      "t": "UNC-Chapel Hill est la plus difficile : 34.6% en cumulé, face à des taux bien plus élevés dans les campus moins sélectifs. Ce sont des chiffres du système UNC publiés par l’État, et non ceux de l’établissement.",
-      "of": "174010ed",
-      "at": [
-        "covenant-day:ncAdmissions.subhead"
-      ]
-    },
-    {
-      "t": "taux d’admission global — 301 sur 499 sur ces cinq promotions",
-      "of": "e905a170",
-      "at": [
-        "covenant-day:ncAdmissions.stats[1].label"
-      ]
-    },
-    {
-      "t": "à UNC-Chapel Hill — 47 sur 136, la plus sélective des six",
-      "of": "efe86ed3",
-      "at": [
-        "covenant-day:ncAdmissions.stats[2].label"
-      ]
-    },
-    {
-      "t": "a reçu le plus de candidatures à l’automne 2025 (42)",
-      "of": "08d287a2",
-      "at": [
-        "covenant-day:ncAdmissions.stats[3].label"
-      ]
-    },
-    {
-      "t": "Dans les six universités publiques les mieux classées de NC, les candidats de Davidson Day School ont été admis à un taux global de 59.4% sur les cinq dernières promotions entrantes — 177 admissions sur 298 candidatures.",
-      "of": "7803b068",
-      "at": [
-        "davidson-day:ncAdmissions.headline"
-      ]
-    },
-    {
-      "t": "UNC-Chapel Hill est la plus difficile : 44.4% en cumulé, face à des taux bien plus élevés dans les campus moins sélectifs. Ce sont des chiffres du système UNC publiés par l’État, et non ceux de l’établissement.",
-      "of": "4fcaa4f2",
-      "at": [
-        "davidson-day:ncAdmissions.subhead"
-      ]
-    },
-    {
-      "t": "taux d’admission global — 177 sur 298 sur ces cinq promotions",
-      "of": "4a13b310",
-      "at": [
-        "davidson-day:ncAdmissions.stats[1].label"
-      ]
-    },
-    {
-      "t": "à UNC-Chapel Hill — 40 sur 90, la plus sélective des six",
-      "of": "3339fde7",
-      "at": [
-        "davidson-day:ncAdmissions.stats[2].label"
-      ]
-    },
-    {
-      "t": "a reçu le plus de candidatures à l’automne 2025 (25)",
-      "of": "0a7352bf",
-      "at": [
-        "davidson-day:ncAdmissions.stats[3].label",
-        "hickory-grove-christian:ncAdmissions.stats[3].label"
-      ]
-    },
-    {
-      "t": "Dans les six universités publiques les mieux classées de NC, les candidats de Carmel Christian School ont été admis à un taux global de 59.2% sur les cinq dernières promotions entrantes — 346 admissions sur 584 candidatures.",
-      "of": "555db8cd",
-      "at": [
-        "carmel-christian:ncAdmissions.headline"
-      ]
-    },
-    {
-      "t": "UNC-Chapel Hill est la plus difficile : 32.7% en cumulé, face à des taux bien plus élevés dans les campus moins sélectifs. Ce sont des chiffres du système UNC publiés par l’État, et non ceux de l’établissement.",
-      "of": "79670c02",
-      "at": [
-        "carmel-christian:ncAdmissions.subhead"
-      ]
-    },
-    {
-      "t": "taux d’admission global — 346 sur 584 sur ces cinq promotions",
-      "of": "be1aa1d2",
-      "at": [
-        "carmel-christian:ncAdmissions.stats[1].label"
-      ]
-    },
-    {
-      "t": "à UNC-Chapel Hill — 37 sur 113, la plus sélective des six",
-      "of": "4c76c89b",
-      "at": [
-        "carmel-christian:ncAdmissions.stats[2].label"
-      ]
-    },
-    {
-      "t": "a reçu le plus de candidatures à l’automne 2025 (31)",
-      "of": "be25dcfc",
-      "at": [
-        "carmel-christian:ncAdmissions.stats[3].label"
-      ]
-    },
-    {
-      "t": "Dans les six universités publiques les mieux classées de NC, les candidats de Hickory Grove Christian School ont été admis à un taux global de 74.9% sur les cinq dernières promotions entrantes — 256 admissions sur 342 candidatures.",
-      "of": "031cb01f",
-      "at": [
-        "hickory-grove-christian:ncAdmissions.headline"
-      ]
-    },
-    {
-      "t": "UNC-Chapel Hill est la plus difficile : 26.7% en cumulé, face à des taux bien plus élevés dans les campus moins sélectifs. Ce sont des chiffres du système UNC publiés par l’État, et non ceux de l’établissement.",
-      "of": "2e40f209",
-      "at": [
-        "hickory-grove-christian:ncAdmissions.subhead"
-      ]
-    },
-    {
-      "t": "taux d’admission global — 256 sur 342 sur ces cinq promotions",
-      "of": "ca4ed73c",
-      "at": [
-        "hickory-grove-christian:ncAdmissions.stats[1].label"
-      ]
-    },
-    {
-      "t": "à UNC-Chapel Hill — 12 sur 45, la plus sélective des six",
-      "of": "3e4c0348",
-      "at": [
-        "hickory-grove-christian:ncAdmissions.stats[2].label"
-      ]
-    },
-    {
-      "t": "Dans les six universités publiques les mieux classées de NC, les candidats de Gaston Day School ont été admis à un taux global de 57.9% sur les cinq dernières promotions entrantes — 140 admissions sur 242 candidatures.",
-      "of": "30322e8c",
-      "at": [
-        "gaston-day:ncAdmissions.headline"
-      ]
-    },
-    {
-      "t": "UNC-Chapel Hill est la plus difficile : 29.6% en cumulé, face à des taux bien plus élevés dans les campus moins sélectifs. Ce sont des chiffres du système UNC publiés par l’État, et non ceux de l’établissement.",
-      "of": "1751679f",
-      "at": [
-        "gaston-day:ncAdmissions.subhead"
-      ]
-    },
-    {
-      "t": "taux d’admission global — 140 sur 242 sur ces cinq promotions",
-      "of": "688feeb5",
-      "at": [
-        "gaston-day:ncAdmissions.stats[1].label"
-      ]
-    },
-    {
-      "t": "à UNC-Chapel Hill — 21 sur 71, la plus sélective des six",
-      "of": "d8cb57a7",
-      "at": [
-        "gaston-day:ncAdmissions.stats[2].label"
-      ]
-    },
-    {
-      "t": "a reçu le plus de candidatures à l’automne 2025 (15)",
-      "of": "67c3defa",
-      "at": [
-        "gaston-day:ncAdmissions.stats[3].label"
       ]
     }
   ]
