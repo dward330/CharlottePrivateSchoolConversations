@@ -1,12 +1,18 @@
 ---
 name: halfday
 title: Translate 'Half day' — the one day-vocabulary value with no chrome key, rendering English in all nine locales
-status: not-implemented
+status: superseded
 phases: 2
 created: 2026-08-20
 branch: i18n/half-day-chrome-key
 prs: []
+superseded_by: chromeguard
 ---
+
+> **SUPERSEDED 2026-08-20 by [`chromeguard`](chromeguard.md).** Merged with the other
+> PR #167 follow-up into one two-phase plan, one branch, one PR, at the user's request.
+> This document is kept as the fuller record of the reasoning behind its half; nothing in
+> it was dropped in the merge. **Do not `/implement` this plan — implement `chromeguard`.**
 
 # Translate `'Half day'`, the one day-vocabulary value with no chrome key
 
