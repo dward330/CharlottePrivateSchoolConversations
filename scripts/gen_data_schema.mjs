@@ -453,6 +453,32 @@ for (const s of STRUCTURED) {
     w('renders. `methodNote` still carries the joint-figure caveat, which is a different')
     w('point. Do not re-add the flag on the assumption the doc requires it.')
     w()
+    // Standing rule added 2026-08-20, after a user review of Providence Day
+    // found the card calling UNC-Chapel Hill "the most selective of the six"
+    // while NC State had the lower rate for that school.
+    w('**No string on this card may claim a RANKING that is not computed from that')
+    w('school\'s own rows.** A rate here is a joint property of school × university, so')
+    w('"the most selective of the six" is a per-school finding, never a fixed descriptor')
+    w('of a campus. The card originally hardcoded two ranking claims into the shared')
+    w('per-row `note` field — `the most selective of the six` on UNC-Chapel Hill and')
+    w('`largest admit rates of the six` on East Carolina — plus a matching subhead and')
+    w('stat tile. Measured across the 11 schools then shipped, the first was false on 5')
+    w('and the second on 6; only 2 schools were right on both, which is roughly what')
+    w('chance allows when nothing checks it.')
+    w()
+    w('The split that fixes it:')
+    w()
+    w('- **`universities[].note` is INSTITUTIONAL and shared** — geography or role')
+    w('  (`Flagship · Chapel Hill`, `Hometown campus`, `Piedmont Triad`). Identical')
+    w('  English collapses to ONE overlay entry by content hash, so a note is physically')
+    w('  the same string on every school and cannot carry a per-school claim.')
+    w('- **`subhead` and the third stat tile ARE per-school** and name the toughest')
+    w('  campus. Anchor them on the POOLED five-year rate, which is the figure they')
+    w('  quote; a latest-term rate can disagree because single-year cells are small.')
+    w('- **`npm run check:ncsuper` enforces both** and is chained into `npm run build`.')
+    w('  It fails when a `note` asserts any ranking, or when a subhead/stat tile names a')
+    w('  campus that is not that school\'s lowest pooled rate.')
+    w()
     // Standing rule set 2026-08-16, after Covenant Day first shipped its
     // acceptance list without rank labels: the rule lives here because this
     // doc is what /add-school and a new-school build read first.

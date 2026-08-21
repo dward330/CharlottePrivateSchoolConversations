@@ -41,11 +41,11 @@ export const covenantDay: CollegeSupportProgram = {
     headline:
       'Across the six top-ranked NC public universities, Covenant Day School’s applicants were admitted at a pooled 60.3% over the last five entering classes — 301 acceptances from 499 applications.',
     subhead:
-      'UNC-Chapel Hill is the hard one: 34.6% pooled there, against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.',
+      'UNC-Chapel Hill is the hard one: 34.6% pooled there — 47 of 136 — against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.',
     stats: [
       { value: '499', label: 'applications to the six campuses, Fall 2021–2025' },
       { value: '60.3%', label: 'pooled admit rate — 301 of 499 across those five classes' },
-      { value: '34.6%', label: 'at UNC-Chapel Hill — 47 of 136, the most selective of the six' },
+      { value: '34.6%', label: 'at UNC-Chapel Hill — 47 of 136, the toughest of the six for this school' },
       { value: 'NC State University', label: 'drew the most applications in Fall 2025 (42)' },
     ],
     latestTerm: '2025',
@@ -54,7 +54,7 @@ export const covenantDay: CollegeSupportProgram = {
         key: 'unc-chapel-hill',
         name: 'UNC-Chapel Hill',
         rank: 1,
-        note: 'Flagship · the most selective of the six',
+        note: 'Flagship · Chapel Hill',
         applied: '33',
         accepted: '9',
         rate: '27.3%',
@@ -93,7 +93,7 @@ export const covenantDay: CollegeSupportProgram = {
         key: 'east-carolina-university',
         name: 'East Carolina University',
         rank: 4,
-        note: 'Greenville · largest admit rates of the six',
+        note: 'Greenville · eastern NC',
         applied: '7',
         accepted: '6',
         rate: '85.7%',

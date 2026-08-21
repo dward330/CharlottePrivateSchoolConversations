@@ -437,11 +437,11 @@ export const providenceDay: CollegeSupportProgram = {
     headline:
       'Across the six top-ranked NC public universities, Providence Day School’s applicants were admitted at a pooled 51.1% over the last five entering classes — 499 acceptances from 977 applications.',
     subhead:
-      'UNC-Chapel Hill is the hard one: 42.0% pooled there, against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.',
+      'NC State University is the hard one: 38.5% pooled there — 117 of 304 — against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.',
     stats: [
       { value: '977', label: 'applications to the six campuses, Fall 2021–2025' },
       { value: '51.1%', label: 'pooled admit rate — 499 of 977 across those five classes' },
-      { value: '42.0%', label: 'at UNC-Chapel Hill — 176 of 419, the most selective of the six' },
+      { value: '38.5%', label: 'at NC State University — 117 of 304, the toughest of the six for this school' },
       { value: 'UNC-Chapel Hill', label: 'drew the most applications in Fall 2025 (103)' },
     ],
     latestTerm: '2025',
@@ -450,7 +450,7 @@ export const providenceDay: CollegeSupportProgram = {
         key: 'unc-chapel-hill',
         name: 'UNC-Chapel Hill',
         rank: 1,
-        note: 'Flagship · the most selective of the six',
+        note: 'Flagship · Chapel Hill',
         applied: '103',
         accepted: '47',
         rate: '45.6%',
@@ -489,7 +489,7 @@ export const providenceDay: CollegeSupportProgram = {
         key: 'east-carolina-university',
         name: 'East Carolina University',
         rank: 4,
-        note: 'Greenville · largest admit rates of the six',
+        note: 'Greenville · eastern NC',
         applied: '13',
         accepted: '12',
         rate: '92.3%',

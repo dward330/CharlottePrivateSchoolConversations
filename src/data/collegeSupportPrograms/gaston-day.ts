@@ -287,11 +287,11 @@ export const gastonDay: CollegeSupportProgram = {
     headline:
       'Across the six top-ranked NC public universities, Gaston Day School’s applicants were admitted at a pooled 57.9% over the last five entering classes — 140 acceptances from 242 applications.',
     subhead:
-      'UNC-Chapel Hill is the hard one: 29.6% pooled there, against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.',
+      'UNC-Chapel Hill is the hard one: 29.6% pooled there — 21 of 71 — against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.',
     stats: [
       { value: '242', label: 'applications to the six campuses, Fall 2021–2025' },
       { value: '57.9%', label: 'pooled admit rate — 140 of 242 across those five classes' },
-      { value: '29.6%', label: 'at UNC-Chapel Hill — 21 of 71, the most selective of the six' },
+      { value: '29.6%', label: 'at UNC-Chapel Hill — 21 of 71, the toughest of the six for this school' },
       { value: 'NC State University', label: 'drew the most applications in Fall 2025 (15)' },
     ],
     latestTerm: '2025',
@@ -300,7 +300,7 @@ export const gastonDay: CollegeSupportProgram = {
         key: 'unc-chapel-hill',
         name: 'UNC-Chapel Hill',
         rank: 1,
-        note: 'Flagship · the most selective of the six',
+        note: 'Flagship · Chapel Hill',
         applied: '11',
         accepted: '3',
         rate: '27.3%',
@@ -339,7 +339,7 @@ export const gastonDay: CollegeSupportProgram = {
         key: 'east-carolina-university',
         name: 'East Carolina University',
         rank: 4,
-        note: 'Greenville · largest admit rates of the six',
+        note: 'Greenville · eastern NC',
         applied: '4',
         accepted: '4',
         rate: '100.0%',
