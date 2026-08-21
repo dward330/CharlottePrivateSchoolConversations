@@ -1,7 +1,7 @@
 ---
 name: valuegates
 title: Extend translated-value checking to all ten overlays, fix the carmel-christian span, and make the vitals numbers reproducible
-status: english-done
+status: implemented
 phases: 2
 created: 2026-08-21
 branch: fix/value-gates
@@ -573,3 +573,66 @@ visible here as a worked example.
 `bn` holds the only real translation (`"দুপুর 12–1 টা"`) and it goes with the rest. The
 `carmel-christian` qual is a different hash and was verified still translated in all
 nine locales — it is what preserves the 12–1 PM detail for readers.
+
+## Implementation notes — Phase 2 (2026-08-21)
+
+### The pipeline route was verified, then deliberately not used to write the files
+
+Step 11 says "do not hand-edit if a re-extract/rebuild produces the same result — prefer
+the pipeline." The pipeline was run and it **cannot** be the write path here:
+`i18n_extract.mjs` emits `t: ''` for every string (`:269`), so re-extracting the nine work
+files would have blanked all 512 translations per locale to remove one entry. There is no
+carry-over branch on this extractor — only `i18n_extract_content.mjs` has one, which is
+what the CLAUDE.md note refers to.
+
+The pipeline was therefore used as the **spec** rather than the writer, via the plan's own
+`--lang __verify` throwaway technique: a fresh extract of `metric-values` from live English
+yields **512** strings against the shipped **513**, and the delta is exactly
+`['f9a26929']` — zero missing, zero `at`-list diffs, zero `text` diffs, and identical
+ordering once the orphan is dropped. The 18 files were then edited to that spec and
+asserted structurally byte-equal to the fresh extract afterwards. End state is what the
+plan asked for: no overlay references a value the English no longer has.
+
+### Results
+
+- **18 files, 135 deletions, zero insertions** — pure removals, nine shipped and nine
+  `work/`. `bn`'s real translation (`"দুপুর 12–1 টা"`) went with the rest, as predicted.
+- Every locale drops **513 → 512**; `check:runtime` correspondingly reports **11,410**
+  values per locale where Phase 1 reported 11,411.
+- **Zero untranslated strings** remain in any of the nine work files after the removal.
+
+### Step 12 — the qual survived
+
+The `carmel-christian` qual is hash **`a8a24ad5`** (distinct from the removed `f9a26929`)
+and is present and translated in all nine shipped overlays (113–168 chars each). The
+12–1 PM detail is preserved for every reader.
+
+### Phase 2 verification results
+
+| Check | Result |
+|---|---|
+| `npm run check:live` | ✓ all 9 locales — **was failing 1 orphan per locale before this change** |
+| `npm run check:runtime` | ✓ all 9, 11,410 values each across 10 overlay files |
+| `npm run check:hashes` | ✓ 8 cases, build-time and runtime stamps agree |
+| `npm run check:translations` | ✓ no drift; `metric-values` 100% (577/577) in all 9 |
+| `npm run build` | ✓ **exit 0 end to end**, with `check:live` + `check:runtime` chained |
+| Browser check, `en` | Carmel `[cell no]` → `<span class="mark-na" title="Not available">N/A</span>`; PD keeps `cell val` |
+| Browser check, `bn` | Carmel `[cell no]` → `<span class="mark-na" title="পাওয়া যায়নি">প্রযোজ্য নয়</span>`; localized N/A **and** localized tooltip; no raw `12–1 PM` anywhere on the page |
+
+The two locales render the row identically in structure, which is the point: the stale
+Bangla value is gone and the reader sees the same N/A affordance an English reader sees.
+
+### One observation, deliberately not acted on
+
+A `null` Compare cell renders `mark-na` with **no qual tooltip** — so the `carmel-christian`
+scope note explaining the 12–1 PM add-on is not reachable from that cell in *any* locale,
+English included. That is Phase 1's approved English behaviour rather than anything Phase 2
+introduced (verified by rendering both locales side by side), and it is how every other
+null cell in the file already behaves. Surfacing quals on null cells would be a UX change
+across all eleven `compareAs` rows and needs the approval gate — recorded here as a
+suggestion, not built.
+
+### Still outstanding from Phase 1, unchanged
+
+The three pre-existing `check:spans` failures (`program-span`/`summer-ages` on `gaston-day`,
+`bucket-hbcu`) are untouched and still exist on `main`. They remain worth their own plan.
