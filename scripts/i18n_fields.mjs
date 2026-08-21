@@ -491,4 +491,9 @@ export const PATH_OVERRIDES = new Map([
   // chrome key, which interpolates them. So both stay figures.
   ['ncAdmissions.universities[].fiveYearApplied', false],
   ['ncAdmissions.universities[].fiveYearAccepted', false],
+  // A bare term year ('2025'), interpolated into the `sections.ncLedgerTerm`
+  // chrome key, which is what carries the translatable words around it. The
+  // year itself is a figure and does not translate — same reading as the
+  // applied/accepted counts above.
+  ['ncAdmissions.latestTerm', false],
 ])
