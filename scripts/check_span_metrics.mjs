@@ -119,6 +119,8 @@ function fractionOf(v) {
 function agePointOf(part) {
   const t = part.trim()
   if (/^(age\s*)?2$/i.test(t)) return 2
+  if (/\bps\b|preschool/i.test(t)) return 3 // preschool, ~3
+  if (/\bpk\b/i.test(t)) return 4 // pre-K — the existing pre-?k misses "PK"
   if (/\b(tk|jrk|jk|pre-?k)\b/i.test(t)) return 4
   if (/\bk(indergarten)?\b/i.test(t) && !/grade/i.test(t)) return 5
   const g = /\b(?:gr(?:ade)?\.?\s*)(\d{1,2})\b/i.exec(t)
