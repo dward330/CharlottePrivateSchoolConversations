@@ -41,63 +41,12 @@ import { writeFileSync, mkdirSync, readFileSync } from 'node:fs'
 import { stamp } from './i18n_stamp.mjs'
 import { PROSE_KEYS, SKIP_KEYS, PATH_OVERRIDES } from './i18n_fields.mjs'
 
-const SLUGS = [
-  'providence-day', 'charlotte-latin', 'charlotte-christian', 'charlotte-catholic',
-  'charlotte-country-day', 'cannon', 'covenant-day', 'davidson-day',
-  'carmel-christian', 'hickory-grove-christian',
-  'gaston-day',
-]
+/* The topic/accessor/export layout is defined ONCE in i18n_topics.mjs and
+   imported by every script that walks src/data/**. Re-declaring any of these
+   locally is how check:live drifted to six topics against this file's nine.
+   That module is data only — no side effects — so importing it is safe. */
+import { SLUGS, TOPICS, ACCESSORS, EXPORTS, EXTRA_LAYERS } from './i18n_topics.mjs'
 
-/**
- * Topic slug -> the per-school module directory and its export name.
- *
- * Deliberately the SCHOOL modules, not the topic loader (sportsProgram.ts etc).
- * Those loaders now carry `import.meta.glob` for their locale overlays, which is
- * a Vite-only transform that plain Node cannot evaluate. The per-school files
- * are plain TypeScript, and they are the actual source of the prose anyway.
- */
-const TOPICS = {
-  sports: 'sportsPrograms',
-  'the-arts': 'artsPrograms',
-  'student-clubs': 'clubsPrograms',
-  'college-support': 'collegeSupportPrograms',
-  'after-school': 'afterSchoolPrograms',
-  // Summer Programs uses `summer/` rather than `summerPrograms/`: the doubled
-  // "Programs" in the folder name read badly beside the module's own name.
-  'summer-programs': 'summer',
-  'course-offerings': null,   // single module + accessor, see ACCESSORS
-  'financial-aid-report': null,
-  'metric-values': null,
-}
-
-/**
- * Topics whose per-school data lives in ONE module behind an accessor rather
- * than in `<dir>/<slug>.ts`. Course Offerings is a single 5,800-line file with
- * six school constants and a `courseOfferings(slug)` lookup.
- */
-const ACCESSORS = {
-  'course-offerings': ['../src/data/courseOfferings.ts', 'courseOfferings'],
-  'financial-aid-report': ['../src/data/financialAidReports.ts', 'financialAidReport'],
-  // Not per-school: one flat array of stat-tile captions keyed by TOPIC. The
-  // accessor ignores the slug and returns the whole set once, under the first
-  // school, so each caption is extracted exactly once.
-  'metric-values': ['../src/data/metricValues.ts', 'VALUE_METRICS'],
-}
-
-/** Slug -> the export name each per-school module uses. */
-const EXPORTS = {
-  'providence-day': 'providenceDay',
-  'charlotte-latin': 'charlotteLatin',
-  'charlotte-christian': 'charlotteChristian',
-  'charlotte-catholic': 'charlotteCatholic',
-  'charlotte-country-day': 'charlotteCountryDay',
-  cannon: 'cannon',
-  'covenant-day': 'covenantDay',
-  'davidson-day': 'davidsonDay',
-  'carmel-christian': 'carmelChristian',
-  'hickory-grove-christian': 'hickoryGroveChristian',
-  'gaston-day': 'gastonDay',
-}
 
 /** One school's entry for a topic, or undefined if that school has none. */
 async function entryFor(topic, slug) {
@@ -134,22 +83,6 @@ async function entryFor(topic, slug) {
     }
     return undefined
   }
-}
-/**
- * Extra per-school layers a topic renders alongside its `*Programs/<slug>.ts`
- * entry. Student Clubs renders FIVE cards: three from clubsPrograms, plus
- * Academic & Competitive Clubs (clubClusters.ts) and Club Catalog & Overview
- * (clubCatalog.ts), which are separate hand-maintained modules.
- *
- * They were invisible to the first extraction pass, which only walked the
- * `*Programs` entries — so two of the five cards shipped English. Paths are
- * prefixed (`clusters.*`, `catalog.*`) so overlay keys stay unambiguous.
- */
-const EXTRA_LAYERS = {
-  'student-clubs': [
-    ['clusters', '../src/data/clubClusters.ts', 'clubClusters'],
-    ['catalog', '../src/data/clubCatalog.ts', 'clubCatalog'],
-  ],
 }
 
 /** The extra layers for one school, as [prefix, entry] pairs. */
@@ -210,7 +143,6 @@ function guardExisting(dest) {
   )
   process.exit(2)
 }
-
 
 
 const words = (s) => s.trim().split(/\s+/).filter(Boolean).length
