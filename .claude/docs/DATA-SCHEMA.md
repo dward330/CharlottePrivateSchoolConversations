@@ -439,28 +439,34 @@ in prose, headings and any future summary — it no longer describes what the ca
 renders. `methodNote` still carries the joint-figure caveat, which is a different
 point. Do not re-add the flag on the assumption the doc requires it.
 
-**No string on this card may claim a RANKING that is not computed from that
-school's own rows.** A rate here is a joint property of school × university, so
-"the most selective of the six" is a per-school finding, never a fixed descriptor
-of a campus. The card originally hardcoded two ranking claims into the shared
-per-row `note` field — `the most selective of the six` on UNC-Chapel Hill and
-`largest admit rates of the six` on East Carolina — plus a matching subhead and
-stat tile. Measured across the 11 schools then shipped, the first was false on 5
-and the second on 6; only 2 schools were right on both, which is roughly what
-chance allows when nothing checks it.
+**A RANKING label on this card must sit on the university that earns it FOR THAT
+SCHOOL.** A rate here is a joint property of school × university, so the campus that
+is "the most selective of the six" differs per school and is not a fixed descriptor
+of any campus. The card originally pinned both ranking labels into the shared
+per-row `note` field -- `the most selective of the six` on UNC-Chapel Hill and
+`largest admit rates of the six` on East Carolina. Across the 11 schools then
+shipped, the first was false on 5 and the second on 6; only 2 were right on both.
 
-The split that fixes it:
+The labels are worth keeping -- they tell a parent which campus is the hard one --
+so they MOVE rather than being deleted. How the field is built:
 
-- **`universities[].note` is INSTITUTIONAL and shared** — geography or role
-  (`Flagship · Chapel Hill`, `Hometown campus`, `Piedmont Triad`). Identical
-  English collapses to ONE overlay entry by content hash, so a note is physically
-  the same string on every school and cannot carry a per-school claim.
-- **`subhead` and the third stat tile ARE per-school** and name the toughest
-  campus. Anchor them on the POOLED five-year rate, which is the figure they
-  quote; a latest-term rate can disagree because single-year cells are small.
-- **`npm run check:ncsuper` enforces both** and is chained into `npm run build`.
-  It fails when a `note` asserts any ranking, or when a subhead/stat tile names a
-  campus that is not that school's lowest pooled rate.
+- **Each `universities[].note` opens with an institutional half** (geography or
+  role: `Flagship · Chapel Hill`, `Hometown campus`, `Piedmont Triad`), and the
+  earning campus gets the ranking half appended after a ` · `.
+- **Anchor both labels on the POOLED five-year rate**, which is the figure the
+  subhead and third stat tile quote beside them. A latest-term rate can disagree
+  because single-year cells are small. Ties break on the larger denominator --
+  28 of 28 outranks 10 of 10.
+- **`subhead` and the third stat tile name the same hard campus**, on the same
+  anchor.
+- **`npm run check:ncsuper` enforces all of it** and is chained into
+  `npm run build`: each label must appear exactly once, on the campus holding the
+  lowest (resp. highest) pooled rate.
+
+Note this makes `note` a PER-SCHOOL string. Identical English still collapses to
+one overlay entry by content hash, so the four purely institutional notes remain
+shared while the two carrying a ranking half now differ per school -- which is
+correct, and is what the translation layer must carry.
 
 **The `outcomes.colleges` list is the school's FULL published acceptance list.** Each
 entry carries only `{ name, cats }` (plus `enrolling: true` for bold/matriculated
