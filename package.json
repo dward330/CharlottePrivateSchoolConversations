@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build && npm run prerender && npm run seo:files && npm run check:schema && npm run check:ranks && npm run check:ncsuper && npm run check:live && npm run check:chrome && npm run check:runtime",
+    "build": "tsc -b && vite build && npm run prerender && npm run seo:files && npm run check:schema && npm run check:ranks && npm run check:ncsuper && npm run check:live && npm run check:chrome && npm run check:runtime && npm run check:spans",
     "prerender": "node scripts/prerender.mjs",
     "seo:files": "node scripts/gen_seo_files.mjs",
     "check:seo": "node scripts/check_seo.mjs",

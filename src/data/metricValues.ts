@@ -780,7 +780,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': 'K–12', // arts integrated K-4, sequential from grade 5
       'davidson-day': 'Age 2–Gr 12',
       'hickory-grove-christian': 'TK–12',
-      'gaston-day': 'PS–12', // drama from grade 2; integrated arts from preschool
+      'gaston-day': 'PS–Grade 12', // drama from grade 2; integrated arts from preschool
       'providence-day': 'TK–12',
     },
     quals: {
@@ -1476,7 +1476,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'carmel-christian': 'rising K–8', // Summer Adventures
       'davidson-day': null,
       'hickory-grove-christian': 'rising 1–8', // most camps rising 1st–8th; one HS College Admissions Boot Camp
-      'gaston-day': 'rising PK–12', // Camp Spartan Jr from rising PK; tutoring to rising 12th; Nike camps by age (8-17)
+      'gaston-day': 'rising PK–Grade 12', // Camp Spartan Jr from rising PK; tutoring to rising 12th; Nike camps by age (8-17)
       'providence-day': '4–18', // four by January 1, 2026; About page says 4.5 to 18
     },
     quals: {
