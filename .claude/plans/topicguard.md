@@ -1,12 +1,18 @@
 ---
 name: topicguard
 title: Make FOREIGN_TOPICS a verified claim rather than a silencing switch
-status: not-implemented
+status: superseded
 phases: 1
 created: 2026-08-20
 branch: fix/foreign-topics-verification
 prs: []
+superseded_by: chromeguard
 ---
+
+> **SUPERSEDED 2026-08-20 by [`chromeguard`](chromeguard.md).** Merged with the other
+> PR #167 follow-up into one two-phase plan, one branch, one PR, at the user's request.
+> This document is kept as the fuller record of the reasoning behind its half; nothing in
+> it was dropped in the merge. **Do not `/implement` this plan — implement `chromeguard`.**
 
 # Make `FOREIGN_TOPICS` a verified claim rather than a silencing switch
 
