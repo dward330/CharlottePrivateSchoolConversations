@@ -1,11 +1,11 @@
 ---
 name: parseguard
 title: Parse Gaston Day's PS/PK spans, fix three drifted GPA figures, and close the allowlist that hid one
-status: english-done
+status: implemented
 phases: 2
 created: 2026-08-21
 branch: fix/parse-guard
-prs: []
+prs: [174]
 ---
 
 # Two silent parse failures, three drifted figures, and the allowlist entry that suppressed one
@@ -362,3 +362,37 @@ No new files. No `src/locales/*.json` change — this adds no UI chrome string.
 - **Should step 6's `SEP_TOKEN` widening ship at all?** — **default: yes, it is measured at
   0 new findings.** Drop it without hesitation if a full sweep disagrees; it is hardening,
   not a fix.
+
+## Implementation notes
+
+Shipped in two phases on `fix/parse-guard`, both in PR #174.
+
+**Phase 1** (commit `78008c1`) went as planned. One thing the plan did not anticipate:
+editing the two `metricValues.ts` values in step 3 **orphaned their metric-values overlay
+stamps in all nine locales** — 18 entries that would have silently rendered English at
+100% coverage. They were re-stamped and rebuilt in the same commit, each new translation
+derived from that locale's own existing rendering of the peer value `JK–Grade 12` rather
+than invented. Worth recording as a standing consequence: **any edit to a
+`src/data/metricValues.ts` string drags the metric-values overlay into the same commit.**
+
+**Phase 2** matched the plan exactly — three `t` fields, no `text` touched, then
+`i18n_build_overlay.mjs` to rebuild each shipped overlay. The rebuild produced a one-line
+diff per file and no incidental churn.
+
+Two findings from the Phase 2 verification worth keeping:
+
+- **The `ht` `4.9` was not invented from nothing.** `4.9` is a real figure in the
+  *adjacent* Cannon paragraph, whose English reads *"Cannon does not produce inflated 4.9
+  GPAs"* — correctly copied char-for-char in `ht` and left alone. The defect was the
+  translator pulling that neighbouring figure into the sentence where the English says
+  "the high 4s". A grep for the bare token therefore reports a false positive on the
+  correct unit; the check must be per-unit against that unit's own English, which is what
+  `check:sepdrift` does.
+- **`es` is now genuinely green on `check:sepdrift` for the first time**, rather than
+  green by suppression. That was the point of deleting the `CONVERSIONS` entry in Phase 1,
+  and Phase 2 is what actually earned the exit 0.
+
+The `i18n:leaks` counts for the three touched locales (`es` 233, `ht` 204, `fa` 203) were
+measured on both the branch and `main` and are **identical** — pre-existing review items,
+unmoved by this work.
+
