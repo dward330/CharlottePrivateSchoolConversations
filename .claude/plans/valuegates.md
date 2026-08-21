@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-08-21
 branch: fix/value-gates
-prs: []
+prs: [172]
 ---
 
 # Three open items: overlay value gates, the Carmel span, and a vitals harness
