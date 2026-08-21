@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build && npm run prerender && npm run seo:files && npm run check:schema && npm run check:ranks && npm run check:ncsuper",
+    "build": "tsc -b && vite build && npm run prerender && npm run seo:files && npm run check:schema && npm run check:ranks && npm run check:ncsuper && npm run check:live",
     "prerender": "node scripts/prerender.mjs",
     "seo:files": "node scripts/gen_seo_files.mjs",
     "check:seo": "node scripts/check_seo.mjs",
@@ -35,7 +35,8 @@
     "check:podcast": "node scripts/check_podcast_episodes.mjs",
     "check:ncsuper": "node scripts/check_nc_superlatives.mjs",
     "i18n:leaks": "node scripts/find_english_leaks.mjs",
-    "check:live": "node scripts/check_live_resolution.mjs",
+    "check:live": "node scripts/check_live_all.mjs",
+    "check:live:one": "node scripts/check_live_resolution.mjs",
     "check:script": "node scripts/check_script_purity.mjs",
     "check:spans": "node scripts/check_span_metrics.mjs"
   },
