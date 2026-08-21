@@ -33,4 +33,4 @@ Newest last.
 | [checklive](checklive.md) | Make check:live report only real stale translations (4,646 false positives → 0), and chain it into the build | 2026-08-20 | Implemented | [#167](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/167) |
 | [topicguard](topicguard.md) | Verify `check:live`'s `FOREIGN_TOPICS` allowlist against the content extractor instead of trusting it | 2026-08-20 | Superseded by [chromeguard](chromeguard.md) | — |
 | [halfday](halfday.md) | Translate 'Half day' — the one day-vocabulary value with no chrome key, rendering English in all nine locales | 2026-08-20 | Superseded by [chromeguard](chromeguard.md) | — |
-| [chromeguard](chromeguard.md) | Translate 'Half day', tighten the chrome-key checker, and make FOREIGN_TOPICS a verified claim | 2026-08-20 | Not implemented | — |
+| [chromeguard](chromeguard.md) | Translate 'Half day', tighten the chrome-key checker, and make FOREIGN_TOPICS a verified claim | 2026-08-20 | English shipped | — |

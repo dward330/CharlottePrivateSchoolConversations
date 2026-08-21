@@ -394,6 +394,70 @@ and reads as "this layer is empty". Widening the same list also un-blinded
 `check_chrome_keys.mjs` and `i18n_audit_skips.mjs`, which had been auditing five
 of nine topics.
 
+**`FOREIGN_TOPICS` is now a verified claim, not a trusted one.** `check:live`'s
+guard tells a maintainer facing a red build to add the offending topic to a
+one-line allowlist in `check_live_resolution.mjs` — and nothing asked whether
+that edit was honest. Adding `sports` turned a build-blocking gate green while
+**silently dropping 995 shipped entries per locale** from the check: a
+documented bypass inside a build gate, which is worse than no gate. Fixed
+2026-08-20: every shipped overlay topic must now be accounted for by **exactly
+one** of `TOPICS` (`i18n_topics.mjs`) or `FOREIGN_TOPICS` — being in both is a
+contradiction and fails — and every `FOREIGN_TOPICS` entry is **positively
+verified against the content extractor**: the topic must be one
+`i18n_extract_content.mjs` will accept, and every shipped block hash must
+reproduce from a fresh extract of `src/content/**` (70/70 today). A stale or
+misspelled entry fails as stale rather than passing as a silent no-op. Note the
+evidence is positive — *"this source was found in `src/content` and these blocks
+were made from it"* — not the absence a typo also produces.
+
+Three things travel with it. The extractor **cannot be imported** — it calls
+`main()` at module scope, so `await import()` exits the *calling* process with
+code 2; drive it as a subprocess and re-parse its `LIVE` map from source, the
+same technique `check_live_all.mjs` uses for `PROSE_TRANSLATED`. The verification
+run uses a throwaway `--lang __verify` because the extractor's carry-over branch
+would otherwise **rewrite a real work file**. And the check is **not airtight and
+cannot be**: gate 1 delegates "is this a real foreign topic" to that `LIVE` map,
+so the bypass is now two files and self-contradicting rather than impossible —
+whether a genuinely new extractor warrants an entry stays a human judgment.
+
+**Correction: the content overlay does NOT hold "0 strings".** Both the
+`checklive` plan and the old `FOREIGN_TOPICS` docstring said so; it holds **70
+fully translated blocks per locale**. The error came from asking for `.strings`,
+which that overlay does not have — it carries a `blocks` **object** keyed by
+hash, written by a different builder than `i18n_build_overlay.mjs`. That shape
+divergence is a *second, independent* reason the file is skipped, which is
+precisely why nobody noticed the allowlist was unverified: two belts on the same
+trousers, neither of them checked. Those 70 blocks are covered by `check:runtime`
+but **not** by `check:live` — the weaker of the two guards, since `check:runtime`
+validates against the work file. A real gap, still open.
+
+**The day vocabulary is chrome, is closed, and is no longer weekdays-only.**
+`day` / `days` / `dayFilters` are skipped by the prose extractor on the promise
+that the UI renders them from a locale key. `'Half day'` — a duration, not a
+weekday, used because Charlotte Catholic publishes no weekday pattern for its
+camps — had **no such key**, so `dayLabel()`'s `defaultValue` returned raw
+English on that filter chip in all nine locales. The raw value is now **slugged**
+into the key (`'Half day'` → `afterSchool.day_Halfday`, via
+`v.replace(/[^A-Za-z0-9]/g, '')`) so a value with a space or punctuation still
+resolves; the slug is defined identically in both `dayLabel()` copies
+(`SummerPrograms.tsx`, `AfterSchool.tsx`) **and** in `check_chrome_keys.mjs`,
+which must compute the same key the component looks up. Every member needs a key
+in **all ten** `src/locales/*.json` catalogs. Only the *label* is translated —
+the English token stays the state value, because `days` and `dayFilters` are
+compared by value for filtering, exactly as `'All'` already works.
+
+**`npm run check:chrome` is the gate, and it now reads all ten catalogs.** It
+previously read **only `en.json`**, and it is one of just two scripts under
+`scripts/` that read `src/locales/` at all — so **nothing in this repo verified
+that a chrome key existed in the other nine catalogs.** A key added to `en` and
+forgotten elsewhere passed every check while rendering English to every
+non-English reader: the same silent-fallback class one layer up. It parses
+`TRANSLATED` from `src/lib/i18n.ts` rather than hardcoding the list, and reports
+two states on **separate exit paths** — a key missing everywhere (a broken
+promise, exit 1) versus present in `en` and awaiting translation (named in full,
+exit 0). That split is what lets an English-first Phase 1 ship green without the
+gate going quiet.
+
 **The figure sweep cannot see a separator swap — run `check:sepdrift` too.**
 `check_figures.py` NORMALISES 3-3-3 group separators before comparing, so a
 figure that kept its digits but swapped separators (`20,642` → `20.642`,

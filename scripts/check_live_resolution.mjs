@@ -17,11 +17,13 @@
 //
 //   node scripts/check_live_resolution.mjs --lang fr
 //   node scripts/check_live_resolution.mjs --lang fr --topic summer-programs
+//   node scripts/check_live_resolution.mjs --lang fr --verbose
 //
 // Exit 1 on any shipped entry whose stamp no longer occurs in live English:
 // those are precisely the entries that will fall back without saying so.
 
-import { readFileSync, readdirSync } from 'node:fs'
+import { readFileSync, readdirSync, rmSync, existsSync } from 'node:fs'
+import { execFileSync } from 'node:child_process'
 import { join } from 'node:path'
 import { pathToFileURL } from 'node:url'
 
@@ -50,13 +52,196 @@ import {
  * extractor, and so must not be sourced here.
  *
  * `financial-aid-tuition.content` is produced by i18n_extract_content.mjs over
- * src/content/**, not src/data/**. It holds 0 strings today, so it contributes
- * nothing either way — but the moment it is populated it would report every
- * entry unresolvable, which is exactly the false positive this rewrite exists
- * to remove. Skipped by name rather than by "0 strings is fine", so a topic
- * that silently empties still fails.
+ * src/content/**, not src/data/**. Comparing it against src/data English would
+ * report every entry unresolvable — exactly the false positive this check's
+ * rewrite existed to remove.
+ *
+ * CORRECTION. An earlier version of this docstring said the file "holds 0
+ * strings today, so it contributes nothing either way." That is FALSE, and was
+ * false when written: it holds 70 fully translated blocks in each of the nine
+ * locales. The "0 strings" reading came from asking for `.strings`, which this
+ * overlay does not have — it carries a `blocks` OBJECT keyed by hash, written by
+ * a different builder than i18n_build_overlay.mjs (which emits `{topic, lang,
+ * strings: []}`). That shape divergence is a SECOND, independent reason the file
+ * is skipped: the `Array.isArray(shipped.strings)` test below would skip it even
+ * with this allowlist emptied. Two belts on the same trousers — deliberate, and
+ * noted here so neither is removed as redundant.
+ *
+ * ENTRIES ARE NOW VERIFIED, NOT TRUSTED. This list used to be a silencing switch
+ * nothing checked: the guard below tells a maintainer facing a red build to add
+ * the offending topic here, and nothing asked whether that edit was honest.
+ * Adding `sports` would have turned a build-blocking gate green while silently
+ * dropping 995 shipped French entries from the check — a documented bypass in a
+ * build gate. `verifyForeignTopic()` now proves each entry against the content
+ * extractor itself: the topic must be one the extractor will accept, and every
+ * shipped block hash must reproduce from a fresh extract of src/content/**.
+ *
+ * What that does NOT buy — stated plainly rather than papered over: gate 1
+ * delegates "is this a real foreign topic" to the LIVE map in
+ * i18n_extract_content.mjs, so a maintainer determined to silence a red build
+ * could edit that map too. The bypass is no longer one word in one list; it is
+ * two files, self-contradicting, and gate 2 still fails it because the extractor
+ * finds no src/content/<topic>/ to extract from. Whether a genuinely new
+ * extractor warrants a new entry here remains a human judgment no check makes.
  */
 const FOREIGN_TOPICS = new Set(['financial-aid-tuition.content'])
+
+/**
+ * The topics `i18n_extract_content.mjs` will accept, parsed from its LIVE map.
+ *
+ * PARSED, NOT IMPORTED. That module calls `main()` at module scope, so
+ * `await import()` of it runs the CLI and exits THIS process with code 2 —
+ * verified. It is the same hazard that forced i18n_topics.mjs to be split out of
+ * i18n_extract.mjs rather than imported from it, recurring one module over.
+ * Re-parsing the authority is also the technique check_live_all.mjs uses for
+ * PROSE_TRANSLATED and check_seo.mjs for TRANSLATED.
+ */
+function contentExtractorTopics() {
+  const src = readFileSync(join(ROOT, 'scripts/i18n_extract_content.mjs'), 'utf8')
+  const m = src.match(/const LIVE = \{([\s\S]*?)\n\}/)
+  if (!m) {
+    console.error('  ✗ could not parse LIVE from scripts/i18n_extract_content.mjs')
+    process.exit(2)
+  }
+  return new Set([...m[1].matchAll(/^\s*'([^']+)'\s*:/gm)].map((x) => x[1]))
+}
+
+/** Hashes an overlay claims to ship, across BOTH overlay shapes. */
+function shippedHashes(overlay) {
+  const fromBlocks = Object.keys(overlay.blocks ?? overlay.sections ?? {})
+  const fromStrings = (overlay.strings ?? []).map((x) => x.of)
+  return new Set([...fromBlocks, ...fromStrings])
+}
+
+/* One extract per base topic per invocation. check_live_all.mjs runs this script
+   once per locale, and the extraction is locale-independent for hash purposes. */
+const extractCache = new Map()
+
+/**
+ * Every block hash a fresh extract of `base` produces, or null if the extractor
+ * refuses the topic.
+ *
+ * Driven as a SUBPROCESS for the exit-2-on-import reason above. `--lang` is a
+ * throwaway code in no locale list, because the extractor's carry-over branch
+ * would otherwise merge into — and rewrite — a real work file, the one genuinely
+ * destructive move available here. Removed in a `finally` so a mid-run failure
+ * cannot leave src/data/overlays/work/ dirty.
+ */
+function freshExtract(base) {
+  if (extractCache.has(base)) return extractCache.get(base)
+  const PROBE = '__verify'
+  const work = join(ROOT, 'src/data/overlays/work', `${base}.content.${PROBE}.json`)
+  let result = null
+  try {
+    execFileSync(
+      'node',
+      [join(ROOT, 'scripts/i18n_extract_content.mjs'), '--topic', base, '--lang', PROBE],
+      { encoding: 'utf8', stdio: 'pipe' },
+    )
+    /* A topic with nothing translatable (student-clubs: every section is
+       card-replaced) returns before writing anything. That is a clean exit 0 and
+       a legitimately empty extract, not a failure. */
+    result = existsSync(work)
+      ? new Set((JSON.parse(readFileSync(work, 'utf8')).sections ?? []).map((e) => e.of))
+      : new Set()
+  } catch {
+    result = null // extractor refused the topic (exit 2) or failed outright
+  } finally {
+    if (existsSync(work)) rmSync(work)
+  }
+  extractCache.set(base, result)
+  return result
+}
+
+/**
+ * Positively verify one FOREIGN_TOPICS entry. Returns a findings array.
+ *
+ * The point of the whole exercise: not "no src/data source was found" — an
+ * absence, which a typo also produces — but "this source was found in
+ * src/content, and it is the one these blocks were made from."
+ */
+function verifyForeignTopic(topic, filesByTopic, extractorTopics, verbose) {
+  const out = []
+
+  /* The filename parse fuses topic and extractor discriminator into one string:
+     `financial-aid-tuition.content`. The extractor takes only the base as
+     --topic, so the suffix must come back off before gate 1 — hardcoding the
+     fused string fails gate 1 against this check's own legitimate entry. */
+  const dot = topic.lastIndexOf('.')
+  const base = dot === -1 ? topic : topic.slice(0, dot)
+
+  // A stale or misspelled entry reads as protection while protecting nothing.
+  if (!filesByTopic.has(topic)) {
+    out.push(
+      `FOREIGN_TOPICS entry '${topic}' matches no overlay file for --lang ${LANG}.
+` +
+        `      A stale or misspelled entry silences nothing and reads as protection. ` +
+        `Remove it, or fix the spelling.`,
+    )
+    return out
+  }
+
+  // GATE 1 — the extractor's own LIVE map. This alone refuses every src/data
+  // topic, on the extractor's authority rather than a list mirrored in here.
+  if (!extractorTopics.has(base)) {
+    out.push(
+      `FOREIGN_TOPICS entry '${topic}' is not something i18n_extract_content.mjs ` +
+        `can produce.
+      Its LIVE map holds: ${[...extractorTopics].join(', ')}. ` +
+        `A src/data topic allowlisted here would
+      silently drop every one of its ` +
+        `shipped entries from this check.`,
+    )
+    return out
+  }
+
+  const shipped = shippedHashes(
+    JSON.parse(readFileSync(join(OVERLAYS, filesByTopic.get(topic)), 'utf8')),
+  )
+
+  // GATE 2 — the shipped hashes must reproduce from a fresh extract.
+  const fresh = freshExtract(base)
+  if (fresh === null) {
+    out.push(
+      `FOREIGN_TOPICS entry '${topic}': the content extractor refused or failed on ` +
+        `--topic ${base}.`,
+    )
+    return out
+  }
+
+  if (!shipped.size) {
+    /* A legitimately empty foreign overlay is a real state — student-clubs
+       extracts to 0 blocks. Gate 1 plus a clean extractor exit IS the assertion
+       here; asserting the file is non-empty would fail a correct repo. */
+    if (verbose) console.log(`  · ${topic}: verified — extractor accepts '${base}', 0 shipped blocks`)
+    return out
+  }
+
+  /* Superset, one direction: shipped ⊆ extracted. NOT equality — the extractor
+     legitimately yields blocks nobody has translated yet, and i18n_build_overlay
+     drops those from the shipped overlay by design. Demanding equality would
+     fail on normal partial translation. */
+  const orphans = [...shipped].filter((h) => !fresh.has(h))
+  if (orphans.length) {
+    out.push(
+      `FOREIGN_TOPICS entry '${topic}': ${orphans.length} of ${shipped.size} shipped ` +
+        `block hash(es) do NOT reproduce
+      from a fresh extract of src/content/${base}/ ` +
+        `— e.g. ${orphans.slice(0, 3).join(', ')}.
+      Either the English moved, or this ` +
+        `overlay was not made by that extractor.`,
+    )
+    return out
+  }
+
+  if (verbose) {
+    console.log(
+      `  · ${topic}: verified — ${shipped.size}/${shipped.size} shipped block hashes ` +
+        `reproduced from src/content/${base}/`,
+    )
+  }
+  return out
+}
 
 /** One school's entry for a topic, or undefined if that school has none. */
 async function entryFor(topic, slug) {
@@ -173,6 +358,61 @@ const files = readdirSync(OVERLAYS)
 
 let unsourced = 0
 
+/* ── COMPLETENESS + ALLOWLIST VERIFICATION ───────────────────────────────────
+   Once per invocation, before the per-file loop: the finding is about the TOPIC
+   SET, so running it inside the loop would print it once per overlay file.
+
+   Two invariants, previously stated nowhere:
+
+     1. Every shipped overlay topic is accounted for by EXACTLY ONE of TOPICS
+        (a real src/data source) or FOREIGN_TOPICS (another extractor's output).
+        The unsourced guard below already catches an unaccounted-for topic, but
+        only by accident — `byTopic.get()` happens to return undefined. Stating
+        the invariant means it holds because it is asserted, not because a lookup
+        misses.
+     2. Every FOREIGN_TOPICS entry is verifiable against the content extractor.
+        See that constant's docstring for why an unverified allowlist is a
+        documented bypass in a build gate. */
+const VERBOSE = args.includes('--verbose')
+let badTopics = 0
+
+const filesByTopic = new Map(
+  files.map((f) => [f.slice(0, f.length - `.${LANG}.json`.length), f]),
+)
+
+const extractorTopics = contentExtractorTopics()
+
+for (const topic of filesByTopic.keys()) {
+  /* `topic in TOPICS`, never `TOPICS[topic]` truthiness: accessor topics are
+     TOPICS keys with a null value, so a truthiness test would report every one
+     of them unaccounted for. */
+  const inTopics = topic in TOPICS
+  const inForeign = FOREIGN_TOPICS.has(topic)
+  if (inTopics && inForeign) {
+    console.error(
+      `  ✗ topic '${topic}' is in BOTH TOPICS and FOREIGN_TOPICS.\n` +
+        `      Contradictory: the allowlist would suppress a topic that has a real ` +
+        `English source in\n      src/data. Remove it from whichever list is wrong.`,
+    )
+    badTopics++
+  } else if (!inTopics && !inForeign) {
+    console.error(
+      `  ✗ overlay topic '${topic}' is accounted for by neither TOPICS nor ` +
+        `FOREIGN_TOPICS.\n      Wire it into scripts/i18n_topics.mjs (TOPICS / ACCESSORS ` +
+        `/ EXTRA_LAYERS) — or, if the\n      topic comes from another extractor, add it ` +
+        `to FOREIGN_TOPICS, where it will be verified.`,
+    )
+    badTopics++
+  }
+}
+
+for (const topic of FOREIGN_TOPICS) {
+  for (const finding of verifyForeignTopic(topic, filesByTopic, extractorTopics, VERBOSE)) {
+    console.error(`  ✗ ${finding}`)
+    badTopics++
+  }
+}
+
 for (const file of files) {
   const topic = file.slice(0, file.length - `.${LANG}.json`.length)
   if (FOREIGN_TOPICS.has(topic)) continue
@@ -217,6 +457,20 @@ console.log(
 if (!checked) {
   console.error(
     `\n✗ nothing checked. Build the overlays first, or check --lang / --topic.`,
+  )
+  process.exit(1)
+}
+
+if (badTopics) {
+  /* Its own message and its own summary, deliberately. The value of the unsourced
+     guard is that it names its own cause; "an allowlist entry could not be
+     verified" must never be confusable with "a stale translation". */
+  console.error(
+    `\n✗ ${badTopics} overlay-topic accounting problem(s). Every shipped overlay topic ` +
+      `must be\n  accounted for by exactly one of TOPICS (scripts/i18n_topics.mjs) or ` +
+      `FOREIGN_TOPICS\n  (this file), and every FOREIGN_TOPICS entry must verify against ` +
+      `the content extractor.\n  An unverified allowlist is a documented bypass in a ` +
+      `build gate.`,
   )
   process.exit(1)
 }

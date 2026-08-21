@@ -66,16 +66,27 @@ function SourceRow({ sources }: { sources: AsSource[] }) {
 }
 
 /**
- * Weekday code -> localized label.
+ * Day token -> localized label.
  *
- * `day` is CHROME: a closed five-value vocabulary (Mon…Fri) identical for every
- * school, which is why `scripts/i18n_fields.mjs` skips it for the prose overlay.
- * That skip assumed a chrome key already existed; none did, so the raw English
- * code rendered inside otherwise-Spanish cards. Anything outside the set —
- * notably the '—' used when a school publishes no day — falls through unchanged.
+ * `day` is CHROME: a closed vocabulary identical for every school, which is why
+ * `scripts/i18n_fields.mjs` skips it for the prose overlay. That skip assumed a
+ * chrome key already existed; none did, so the raw English code rendered inside
+ * otherwise-Spanish cards.
+ *
+ * The vocabulary is closed but NO LONGER WEEKDAYS-ONLY — the summer catalog
+ * carries `'Half day'`, a duration, because Charlotte Catholic publishes no
+ * weekday pattern for its camps. The raw value is slugged into the key
+ * (`'Half day'` -> `afterSchool.day_Halfday`) so a value with a space or
+ * punctuation still resolves. The '—' used when a school publishes no day slugs
+ * to '', matches no key, and falls through to `defaultValue` unchanged.
+ *
+ * `scripts/check_chrome_keys.mjs` (`npm run check:chrome`) is what stops the next
+ * such value shipping as English: it fails on any value with no key in EVERY
+ * locale catalog. Adding a member means a key in all ten `src/locales/*.json`.
+ * The identical helper in `SummerPrograms.tsx` must change with this one.
  */
 function dayLabel(t: TFunction, day: string): string {
-  return t(`afterSchool.day_${day}`, { defaultValue: day })
+  return t(`afterSchool.day_${day.replace(/[^A-Za-z0-9]/g, '')}`, { defaultValue: day })
 }
 
 /**

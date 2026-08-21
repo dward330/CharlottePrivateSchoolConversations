@@ -1,7 +1,7 @@
 ---
 name: chromeguard
 title: Translate 'Half day', tighten the chrome-key checker, and make FOREIGN_TOPICS a verified claim
-status: not-implemented
+status: english-done
 phases: 2
 created: 2026-08-20
 branch: fix/chrome-and-topic-guards
