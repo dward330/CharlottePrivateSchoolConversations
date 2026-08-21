@@ -453,10 +453,17 @@ so they MOVE rather than being deleted. How the field is built:
 - **Each `universities[].note` opens with an institutional half** (geography or
   role: `Flagship · Chapel Hill`, `Hometown campus`, `Piedmont Triad`), and the
   earning campus gets the ranking half appended after a ` · `.
-- **Anchor both labels on the POOLED five-year rate**, which is the figure the
-  subhead and third stat tile quote beside them. A latest-term rate can disagree
-  because single-year cells are small. Ties break on the larger denominator --
-  28 of 28 outranks 10 of 10.
+- **Anchor both labels on the LATEST-TERM rate** -- the `Admit rate from this
+  school` column a reader actually scans -- and quote the same term in the subhead
+  and third stat tile, so the whole card speaks in one column. Ties break on the
+  larger denominator: 25 of 25 outranks 8 of 8.
+- **This anchor is a deliberate trade, settled 2026-08-20 on a review of Cannon.**
+  The two columns can disagree: UNC Greensboro led Cannon's pooled five-year rate
+  at 100% off 24 applicants, while UNC Charlotte showed 100% off 25 in Fall 2025,
+  and the label on the thinner row read as simply wrong beside a column showing
+  three campuses at 100.0%. The cost is that a label can now rest on very few
+  applicants -- Charlotte Christian's is 3 of 3 -- which the denominator tiebreak
+  limits but does not remove. Legibility beside the quoted column won.
 - **`subhead` and the third stat tile name the same hard campus**, on the same
   anchor.
 - **`npm run check:ncsuper` enforces all of it** and is chained into

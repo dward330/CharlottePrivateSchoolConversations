@@ -16,10 +16,18 @@
  * one — so the fix moves them rather than deleting them. This check asserts
  * the placement.
  *
- * ANCHOR: the POOLED five-year rate, because that is the figure the subhead and
- * stat tile quote alongside these labels. A latest-term rate can disagree,
- * since single-year cells are small (one school had 3 applicants at a campus).
- * Ties break on the larger denominator: 28 of 28 outranks 10 of 10.
+ * ANCHOR: the LATEST-TERM (Fall 2025) rate — the ADMIT RATE column a reader
+ * actually scans. Chosen 2026-08-20 after a user review of Cannon, where the
+ * two columns disagreed: UNC Greensboro won the pooled 5-yr at 100% off 24
+ * applicants, while UNC Charlotte showed 100% off 25 in Fall 2025 and the label
+ * on the thinner row read as wrong. Ranking on the column the label sits beside
+ * is what makes it legible.
+ *
+ * The cost is accepted knowingly: single-year cells are small, so some labels
+ * now rest on very few applicants (Charlotte Christian's UNC Greensboro is
+ * 3 of 3). Ties break on the larger denominator — 25 of 25 outranks 8 of 8 —
+ * which limits but does not remove it. The subhead and third stat tile quote
+ * the same term, so the whole card now speaks in one column.
  */
 import fs from 'node:fs'
 import path from 'node:path'
@@ -42,10 +50,10 @@ for (const file of fs.readdirSync(DIR).sort()) {
   const school = file.replace(/\.ts$/, '')
 
   const rows = [...seg.matchAll(
-    /key: '([^']+)',\s*\n\s*name: '([^']+)',[\s\S]*?note: '([^']*)',[\s\S]*?fiveYearRate: '([^']*)',\s*\n\s*fiveYearApplied: '([\d,]+)',\s*\n\s*fiveYearAccepted: '([\d,]+)'/g,
+    /key: '([^']+)',\s*\n\s*name: '([^']+)',[\s\S]*?note: '([^']*)',\s*\n\s*applied: '([\d,]+)',\s*\n\s*accepted: '([\d,]+)',\s*\n\s*rate: '([^']*)'/g,
   )].map((m) => ({
     key: m[1], name: m[2], note: m[3],
-    rate: parseFloat(m[4]), applied: num(m[5]), accepted: num(m[6]),
+    applied: num(m[4]), accepted: num(m[5]), rate: parseFloat(m[6]),
   }))
 
   if (rows.length === 0) {
@@ -53,6 +61,7 @@ for (const file of fs.readdirSync(DIR).sort()) {
     continue
   }
 
+  // Rank on the latest-term rate; a tie goes to the larger applicant pool.
   const pick = (better) => rows.reduce((a, c) =>
     better(c.rate, a.rate) ? c : c.rate === a.rate && c.applied > a.applied ? c : a)
   const lowest = pick((x, y) => x < y)
@@ -69,8 +78,9 @@ for (const file of fs.readdirSync(DIR).sort()) {
       findings.push(`${school}: "${label}" appears on ${carriers.length} rows — ${carriers.map((c) => c.name).join(', ')}`)
     } else if (carriers[0].key !== winner.key) {
       findings.push(
-        `${school}: "${label}" sits on ${carriers[0].name} (${carriers[0].rate}% pooled), ` +
-        `but ${winner.name} has the ${which} at ${winner.rate}%.`,
+        `${school}: "${label}" sits on ${carriers[0].name} (${carriers[0].rate}%, ` +
+        `${carriers[0].accepted} of ${carriers[0].applied}), but ${winner.name} has the ${which} ` +
+        `at ${winner.rate}% (${winner.accepted} of ${winner.applied}).`,
       )
     }
   }
@@ -107,4 +117,4 @@ if (findings.length) {
   console.error(`\n${findings.length} finding(s).`)
   process.exit(1)
 }
-console.log('check:ncsuper OK — both ranking labels sit on the university that earns them, on every school.')
+console.log('check:ncsuper OK — both ranking labels sit on the university that earns them (Fall 2025 rate), on every school.')
