@@ -335,11 +335,11 @@ export const cannon: CollegeSupportProgram = {
     headline:
       'Across the six top-ranked NC public universities, Cannon School’s applicants were admitted at a pooled 60.8% over the last five entering classes — 479 acceptances from 788 applications.',
     subhead:
-      'UNC-Chapel Hill is the hard one: 37.4% pooled there — 102 of 273 — against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.',
+      'UNC-Chapel Hill is the hard one: 31.7% in Fall 2025 — 20 of 63 — against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.',
     stats: [
       { value: '788', label: 'applications to the six campuses, Fall 2021–2025' },
       { value: '60.8%', label: 'pooled admit rate — 479 of 788 across those five classes' },
-      { value: '37.4%', label: 'at UNC-Chapel Hill — 102 of 273, the toughest of the six for this school' },
+      { value: '31.7%', label: 'at UNC-Chapel Hill — 20 of 63, the toughest of the six for this school' },
       { value: 'UNC-Chapel Hill', label: 'drew the most applications in Fall 2025 (63)' },
     ],
     latestTerm: '2025',
@@ -374,7 +374,7 @@ export const cannon: CollegeSupportProgram = {
         key: 'unc-charlotte',
         name: 'UNC Charlotte',
         rank: 3,
-        note: 'Hometown campus',
+        note: 'Hometown campus · largest admit rates of the six',
         applied: '25',
         accepted: '25',
         rate: '100.0%',
@@ -413,7 +413,7 @@ export const cannon: CollegeSupportProgram = {
         key: 'unc-greensboro',
         name: 'UNC Greensboro',
         rank: 6,
-        note: 'Piedmont Triad · largest admit rates of the six',
+        note: 'Piedmont Triad',
         applied: '8',
         accepted: '8',
         rate: '100.0%',

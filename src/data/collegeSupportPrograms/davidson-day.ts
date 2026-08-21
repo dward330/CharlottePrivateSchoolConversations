@@ -310,11 +310,11 @@ export const davidsonDay: CollegeSupportProgram = {
     headline:
       'Across the six top-ranked NC public universities, Davidson Day School’s applicants were admitted at a pooled 59.4% over the last five entering classes — 177 acceptances from 298 applications.',
     subhead:
-      'NC State University is the hard one: 42.4% pooled there — 39 of 92 — against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.',
+      'UNC-Chapel Hill is the hard one: 40.0% in Fall 2025 — 10 of 25 — against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.',
     stats: [
       { value: '298', label: 'applications to the six campuses, Fall 2021–2025' },
       { value: '59.4%', label: 'pooled admit rate — 177 of 298 across those five classes' },
-      { value: '42.4%', label: 'at NC State University — 39 of 92, the toughest of the six for this school' },
+      { value: '40.0%', label: 'at UNC-Chapel Hill — 10 of 25, the toughest of the six for this school' },
       { value: 'UNC-Chapel Hill', label: 'drew the most applications in Fall 2025 (25)' },
     ],
     latestTerm: '2025',
@@ -323,7 +323,7 @@ export const davidsonDay: CollegeSupportProgram = {
         key: 'unc-chapel-hill',
         name: 'UNC-Chapel Hill',
         rank: 1,
-        note: 'Flagship · Chapel Hill',
+        note: 'Flagship · Chapel Hill · the most selective of the six',
         applied: '25',
         accepted: '10',
         rate: '40.0%',
@@ -336,7 +336,7 @@ export const davidsonDay: CollegeSupportProgram = {
         key: 'nc-state-university',
         name: 'NC State University',
         rank: 2,
-        note: 'Flagship STEM · Raleigh · the most selective of the six',
+        note: 'Flagship STEM · Raleigh',
         applied: '21',
         accepted: '9',
         rate: '42.9%',

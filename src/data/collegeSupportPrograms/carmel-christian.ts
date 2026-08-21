@@ -275,11 +275,11 @@ export const carmelChristian: CollegeSupportProgram = {
     headline:
       'Across the six top-ranked NC public universities, Carmel Christian School’s applicants were admitted at a pooled 59.2% over the last five entering classes — 346 acceptances from 584 applications.',
     subhead:
-      'NC State University is the hard one: 32.5% pooled there — 41 of 126 — against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.',
+      'UNC-Chapel Hill is the hard one: 25.0% in Fall 2025 — 4 of 16 — against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.',
     stats: [
       { value: '584', label: 'applications to the six campuses, Fall 2021–2025' },
       { value: '59.2%', label: 'pooled admit rate — 346 of 584 across those five classes' },
-      { value: '32.5%', label: 'at NC State University — 41 of 126, the toughest of the six for this school' },
+      { value: '25.0%', label: 'at UNC-Chapel Hill — 4 of 16, the toughest of the six for this school' },
       { value: 'UNC Wilmington', label: 'drew the most applications in Fall 2025 (31)' },
     ],
     latestTerm: '2025',
@@ -288,7 +288,7 @@ export const carmelChristian: CollegeSupportProgram = {
         key: 'unc-chapel-hill',
         name: 'UNC-Chapel Hill',
         rank: 1,
-        note: 'Flagship · Chapel Hill',
+        note: 'Flagship · Chapel Hill · the most selective of the six',
         applied: '16',
         accepted: '4',
         rate: '25.0%',
@@ -301,7 +301,7 @@ export const carmelChristian: CollegeSupportProgram = {
         key: 'nc-state-university',
         name: 'NC State University',
         rank: 2,
-        note: 'Flagship STEM · Raleigh · the most selective of the six',
+        note: 'Flagship STEM · Raleigh',
         applied: '26',
         accepted: '8',
         rate: '30.8%',
