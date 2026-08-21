@@ -966,3 +966,42 @@ Chrome** (Playwright `channel: 'chrome'`, `headless: false`), not a headless
 render: chip text in-script, click still filtering to 4 of 4 camps, no wrap or
 overflow, and `ar`/`fa` reading RTL in the correct row position. The `fr` weekday
 regression spot-check on Providence Day passed (`lun.`…`ven.`, no English leak).
+
+### Correction (2026-08-20, from `contentlive` / PR #171)
+
+**This plan's claim that the content overlay's 70 blocks are "covered by
+`check:runtime` but not by `check:live`" was wrong**, and it propagated into the
+`FOREIGN_TOPICS` docstring and `CLAUDE.md`. Recorded here rather than left to be
+re-learned: this document is the historical record, and an uncorrected error in it
+re-teaches itself to the next window.
+
+The claim reads as *the resolution gap is open for these blocks*. It is not.
+`verifyForeignTopic()`'s **gate 2** asserts `shipped ⊆ fresh extract of
+src/content/**`, and a hash is a stamp of the live English — so it already fails
+the build when live English drifts. Verified by experiment on clean `main`
+(`aac242e`):
+
+```
+$ sed -i '' 's/Platform: Clarity/Platform: ClarityX/' \
+    src/content/financial-aid-tuition/gaston-day.json
+$ node scripts/check_live_resolution.mjs --lang es >/dev/null; echo $?
+  ✗ FOREIGN_TOPICS entry 'financial-aid-tuition.content': 1 of 70 shipped block
+    hash(es) do NOT reproduce from a fresh extract of src/content/…
+1
+$ node scripts/check_runtime_resolution.mjs --lang es >/dev/null; echo $?
+0
+```
+
+Run **unpiped** — `process.exitCode` makes a piped check print `0` misleadingly,
+the trap this plan already records.
+
+Gate 2 was designed to prove the *allowlist entry is honest*, and it does the
+resolution job as a side effect of how it proves it. The docstring's "what that
+does NOT buy" paragraph is about a **determined-maintainer bypass**, which is a
+different thing from resolution coverage; the two were conflated.
+
+What was genuinely uncovered was a different failure — **valid hash, wrong text**
+(empty, still English, or garbage), on which *both* checkers exited 0. `contentlive`
+closes it with gate 3, which found **14 genuinely untranslated blocks** on its
+first run (`fr` ×5, `hi` ×4, `it` ×5) that had shipped to readers while coverage
+reported 100%.

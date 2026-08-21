@@ -427,9 +427,35 @@ which that overlay does not have — it carries a `blocks` **object** keyed by
 hash, written by a different builder than `i18n_build_overlay.mjs`. That shape
 divergence is a *second, independent* reason the file is skipped, which is
 precisely why nobody noticed the allowlist was unverified: two belts on the same
-trousers, neither of them checked. Those 70 blocks are covered by `check:runtime`
-but **not** by `check:live` — the weaker of the two guards, since `check:runtime`
-validates against the work file. A real gap, still open.
+trousers, neither of them checked.
+
+**Second correction, measured 2026-08-20: those 70 blocks were NOT "covered by
+`check:runtime` but not by `check:live`."** That line — here, in the
+`FOREIGN_TOPICS` docstring and in `chromeguard.md` — read as *the resolution gap
+is open*, and it was wrong. `check:live`'s **gate 2** requires
+`shipped ⊆ fresh extract of src/content/**`, and a hash is a stamp of the live
+English, so it already fails the build on a live `src/content` edit
+(`Platform: Clarity` → `ClarityX` exits **1** here and **0** under
+`check:runtime`). Gate 2 was written to prove the allowlist entry is *honest*; it
+does the resolution job under another name.
+
+What was genuinely uncovered is a **different** failure — a block whose hash is
+valid but whose translated value is empty, still English, or garbage. Both
+checkers exited 0 on all three. **`check:live` gate 3 now closes it** (PR #171):
+per shipped block it asserts the value is non-empty, not byte-identical to its
+English, and — for English ≥80 chars — within 0.4–2.5× its length, bounds
+calibrated against all 9 × 70 real blocks (observed 0.758–1.438) before being
+enforced. It found **14 genuinely untranslated blocks** on its first run (`fr` ×5,
+`hi` ×4, `it` ×5), all fixed in the same PR. Gate-3 findings report on their **own
+exit path**: the remedy is to fix the translation, never to edit `FOREIGN_TOPICS`.
+One hash is allowlisted as legitimately identical (`c4e4dc86`, a `---` rule);
+the five Wayback tuition-quote blocks are deliberately **not**, because each wraps
+its verbatim quote in framing prose that six or seven locales correctly translate.
+
+**The residual gap is the same wrong-but-well-formed class across the *other* nine
+overlays** — 11,341 entries per locale versus 70 here. Genuinely open, and worth
+its own plan; `i18n:leaks` partially covers the English-left case there via
+cross-locale consensus.
 
 **The day vocabulary is chrome, is closed, and is no longer weekdays-only.**
 `day` / `days` / `dayFilters` are skipped by the prose extractor on the promise
