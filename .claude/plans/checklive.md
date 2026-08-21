@@ -124,6 +124,23 @@ extractor's `TOPICS`. It comes from the second extraction path
 which is why it contributes nothing to the 4,646. It must still be handled deliberately —
 see step 4 — or it becomes the next silent false positive the moment it is populated.
 
+### CORRECTION (2026-08-20, found while planning `topicguard`)
+
+**The "0 strings" claim below is false, in every place this document makes it.**
+`financial-aid-tuition.content.<lang>.json` holds **70 translated blocks per
+locale**, not 0 strings. The error came from reading `.strings` — a key this
+file does not have. It carries a `blocks` object keyed by content hash, written
+by a different builder (`i18n_extract_content.mjs` + its overlay builder).
+
+This did not change what shipped: the file is correctly skipped either way, and
+skipping it by name was the right call. But the recorded *reason* was wrong, and
+it concealed something that matters — `check_live_resolution.mjs:196` bails on
+`Array.isArray(shipped.strings)`, so the file was already being skipped by a
+second, independent mechanism. `FOREIGN_TOPICS` looked load-bearing when it was
+not, which is exactly why nobody noticed the allowlist was unverified.
+
+Corrected in the `topicguard` plan; the docstring fix is that plan's step 5.
+
 ## Decisions
 
 - **Extract the shared list into a new `scripts/i18n_topics.mjs`, rather than importing it
