@@ -335,11 +335,11 @@ export const cannon: CollegeSupportProgram = {
     headline:
       'Across the six top-ranked NC public universities, Cannon School’s applicants were admitted at a pooled 60.8% over the last five entering classes — 479 acceptances from 788 applications.',
     subhead:
-      'UNC-Chapel Hill is the hard one: 37.4% pooled there, against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.',
+      'UNC-Chapel Hill is the hard one: 37.4% pooled there — 102 of 273 — against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.',
     stats: [
       { value: '788', label: 'applications to the six campuses, Fall 2021–2025' },
       { value: '60.8%', label: 'pooled admit rate — 479 of 788 across those five classes' },
-      { value: '37.4%', label: 'at UNC-Chapel Hill — 102 of 273, the most selective of the six' },
+      { value: '37.4%', label: 'at UNC-Chapel Hill — 102 of 273, the toughest of the six for this school' },
       { value: 'UNC-Chapel Hill', label: 'drew the most applications in Fall 2025 (63)' },
     ],
     latestTerm: '2025',
@@ -348,7 +348,7 @@ export const cannon: CollegeSupportProgram = {
         key: 'unc-chapel-hill',
         name: 'UNC-Chapel Hill',
         rank: 1,
-        note: 'Flagship · the most selective of the six',
+        note: 'Flagship · Chapel Hill',
         applied: '63',
         accepted: '20',
         rate: '31.7%',
@@ -387,7 +387,7 @@ export const cannon: CollegeSupportProgram = {
         key: 'east-carolina-university',
         name: 'East Carolina University',
         rank: 4,
-        note: 'Greenville · largest admit rates of the six',
+        note: 'Greenville · eastern NC',
         applied: '12',
         accepted: '12',
         rate: '100.0%',

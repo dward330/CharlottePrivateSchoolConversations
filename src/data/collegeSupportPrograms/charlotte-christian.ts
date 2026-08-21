@@ -237,11 +237,11 @@ export const charlotteChristian: CollegeSupportProgram = {
     headline:
       'Across the six top-ranked NC public universities, Charlotte Christian School’s applicants were admitted at a pooled 54.8% over the last five entering classes — 382 acceptances from 697 applications.',
     subhead:
-      'UNC-Chapel Hill is the hard one: 28.2% pooled there, against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.',
+      'UNC-Chapel Hill is the hard one: 28.2% pooled there — 46 of 163 — against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.',
     stats: [
       { value: '697', label: 'applications to the six campuses, Fall 2021–2025' },
       { value: '54.8%', label: 'pooled admit rate — 382 of 697 across those five classes' },
-      { value: '28.2%', label: 'at UNC-Chapel Hill — 46 of 163, the most selective of the six' },
+      { value: '28.2%', label: 'at UNC-Chapel Hill — 46 of 163, the toughest of the six for this school' },
       { value: 'UNC-Chapel Hill', label: 'drew the most applications in Fall 2025 (38)' },
     ],
     latestTerm: '2025',
@@ -250,7 +250,7 @@ export const charlotteChristian: CollegeSupportProgram = {
         key: 'unc-chapel-hill',
         name: 'UNC-Chapel Hill',
         rank: 1,
-        note: 'Flagship · the most selective of the six',
+        note: 'Flagship · Chapel Hill',
         applied: '38',
         accepted: '10',
         rate: '26.3%',
@@ -289,7 +289,7 @@ export const charlotteChristian: CollegeSupportProgram = {
         key: 'east-carolina-university',
         name: 'East Carolina University',
         rank: 4,
-        note: 'Greenville · largest admit rates of the six',
+        note: 'Greenville · eastern NC',
         applied: '9',
         accepted: '8',
         rate: '88.9%',

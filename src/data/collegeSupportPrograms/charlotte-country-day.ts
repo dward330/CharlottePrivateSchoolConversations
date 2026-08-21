@@ -378,11 +378,11 @@ export const charlotteCountryDay: CollegeSupportProgram = {
     headline:
       'Across the six top-ranked NC public universities, Charlotte Country Day School’s applicants were admitted at a pooled 46.7% over the last five entering classes — 328 acceptances from 702 applications.',
     subhead:
-      'UNC-Chapel Hill is the hard one: 37.7% pooled there, against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.',
+      'NC State University is the hard one: 29.9% pooled there — 58 of 194 — against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.',
     stats: [
       { value: '702', label: 'applications to the six campuses, Fall 2021–2025' },
       { value: '46.7%', label: 'pooled admit rate — 328 of 702 across those five classes' },
-      { value: '37.7%', label: 'at UNC-Chapel Hill — 119 of 316, the most selective of the six' },
+      { value: '29.9%', label: 'at NC State University — 58 of 194, the toughest of the six for this school' },
       { value: 'UNC-Chapel Hill', label: 'drew the most applications in Fall 2025 (69)' },
     ],
     latestTerm: '2025',
@@ -391,7 +391,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
         key: 'unc-chapel-hill',
         name: 'UNC-Chapel Hill',
         rank: 1,
-        note: 'Flagship · the most selective of the six',
+        note: 'Flagship · Chapel Hill',
         applied: '69',
         accepted: '20',
         rate: '29.0%',
@@ -430,7 +430,7 @@ export const charlotteCountryDay: CollegeSupportProgram = {
         key: 'east-carolina-university',
         name: 'East Carolina University',
         rank: 4,
-        note: 'Greenville · largest admit rates of the six',
+        note: 'Greenville · eastern NC',
         applied: '11',
         accepted: '11',
         rate: '100.0%',

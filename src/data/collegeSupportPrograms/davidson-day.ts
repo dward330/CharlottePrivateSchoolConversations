@@ -310,11 +310,11 @@ export const davidsonDay: CollegeSupportProgram = {
     headline:
       'Across the six top-ranked NC public universities, Davidson Day School’s applicants were admitted at a pooled 59.4% over the last five entering classes — 177 acceptances from 298 applications.',
     subhead:
-      'UNC-Chapel Hill is the hard one: 44.4% pooled there, against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.',
+      'NC State University is the hard one: 42.4% pooled there — 39 of 92 — against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.',
     stats: [
       { value: '298', label: 'applications to the six campuses, Fall 2021–2025' },
       { value: '59.4%', label: 'pooled admit rate — 177 of 298 across those five classes' },
-      { value: '44.4%', label: 'at UNC-Chapel Hill — 40 of 90, the most selective of the six' },
+      { value: '42.4%', label: 'at NC State University — 39 of 92, the toughest of the six for this school' },
       { value: 'UNC-Chapel Hill', label: 'drew the most applications in Fall 2025 (25)' },
     ],
     latestTerm: '2025',
@@ -323,7 +323,7 @@ export const davidsonDay: CollegeSupportProgram = {
         key: 'unc-chapel-hill',
         name: 'UNC-Chapel Hill',
         rank: 1,
-        note: 'Flagship · the most selective of the six',
+        note: 'Flagship · Chapel Hill',
         applied: '25',
         accepted: '10',
         rate: '40.0%',
@@ -362,7 +362,7 @@ export const davidsonDay: CollegeSupportProgram = {
         key: 'east-carolina-university',
         name: 'East Carolina University',
         rank: 4,
-        note: 'Greenville · largest admit rates of the six',
+        note: 'Greenville · eastern NC',
         applied: '6',
         accepted: '6',
         rate: '100.0%',
