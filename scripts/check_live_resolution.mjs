@@ -166,9 +166,23 @@ function blockValues(overlay) {
  * (English) and `t` (translation) side by side, so no second extract is needed
  * to get the English a shipped block was made from.
  *
- * Shape note: work files use `sections`, an ARRAY of {of, subtopic, kind?, at[],
- * text, t}. `kind` is absent on 56 of the 70 content blocks, so anything reading
- * it must use `?.` / `??` rather than assuming the key exists.
+ * Shape note: work files carry their units under ONE of two top-level keys, and
+ * which one depends on the topic, not on the locale:
+ *
+ *   `sections` — the CONTENT work file (src/content), the only topic gate 3 reads
+ *   `strings`  — all NINE src/data work files (top keys are
+ *                ["topic","lang","generated","note","strings"])
+ *
+ * Either way the unit is an ARRAY of {of, subtopic, kind?, at[], text, t}. `kind`
+ * is absent on 56 of the 70 content blocks, so anything reading it must use `?.` /
+ * `??` rather than assuming the key exists.
+ *
+ * The `sections`-only read this used to do returned an EMPTY Map for all nine
+ * src/data topics. Gate 3 only ever calls it for the content topic, so nothing
+ * shipped wrong — but any check built on this helper for the other nine would
+ * have passed by verifying zero pairs, which is worse than not existing. The
+ * fallback order matches `find_english_leaks.mjs:47`, and it is safe for the
+ * content file because `strings` is absent there.
  *
  * Staleness is not a concern here because gate 2 runs first and asserts
  * `shipped ⊆ fresh extract of src/content/**`; a work file whose English had
@@ -179,7 +193,7 @@ function workEnglish(topic, lang) {
   const p = join(OVERLAYS, 'work', `${topic}.${lang}.json`)
   if (!existsSync(p)) return null
   const w = JSON.parse(readFileSync(p, 'utf8'))
-  return new Map((w.sections ?? []).map((s) => [s.of, s.text]))
+  return new Map((w.strings ?? w.sections ?? []).map((s) => [s.of, s.text]))
 }
 
 /**

@@ -699,7 +699,7 @@ highest number is not the best) · **Q** carries per-cell provenance tooltips.
 | `summer-weeks` | Weeks of summer camp | 10/11 | Q |
 | `summer-camps` | Camps published | 10/11 | Q |
 | `summer-ages` | Ages served | 10/11 | Q |
-| `summer-care-span` | Wrap-around care | 8/11 | Q |
+| `summer-care-span` | Wrap-around care | 7/11 | Q |
 
 ### Financial Aid & Tuition `financial-aid-tuition`
 

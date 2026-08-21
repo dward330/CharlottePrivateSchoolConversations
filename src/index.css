@@ -554,7 +554,11 @@ main { flex: 1; }
  *
  * Measured, not guessed: placeholder sections were 144-326px, settled ones
  * 271-684px, so ~200px of the gap per section is what actually moves the page.
- * Re-measure with scripts/check_vitals.mjs if the card layouts change. */
+ * Re-measure with `npm run check:vitals` if the card layouts change. That script
+ * exists as of 2026-08-21; this comment pointed at it for months while it did
+ * not. Its 2026-08-21 baseline is in .claude/plans/vitals.md — note that desktop
+ * CLS is now GOOD on nine of eleven school pages, so the 0.32 this reserve was
+ * written against no longer describes most of them. */
 .topic-section .loading {
   display: block;
   min-height: 220px;

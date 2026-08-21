@@ -452,10 +452,39 @@ One hash is allowlisted as legitimately identical (`c4e4dc86`, a `---` rule);
 the five Wayback tuition-quote blocks are deliberately **not**, because each wraps
 its verbatim quote in framing prose that six or seven locales correctly translate.
 
-**The residual gap is the same wrong-but-well-formed class across the *other* nine
-overlays** — 11,341 entries per locale versus 70 here. Genuinely open, and worth
-its own plan; `i18n:leaks` partially covers the English-left case there via
-cross-locale consensus.
+**The residual gap was the same wrong-but-well-formed class across the *other*
+nine overlays** — 11,341 entries per locale versus 70 here. **Half-closed
+2026-08-21 (PR #172), and the half that is deliberately left open is the
+interesting part.** `check:runtime` now applies the same two cheap rules to all
+ten overlays — non-empty, and a length ratio for English ≥80 chars — and it is
+**chained into `npm run build`** for the first time. Both rules were 0-finding
+across all nine locales before being enforced, and the ratio constants
+(`RATIO_MIN_LEN = 80`, `RATIO_LO = 0.4`, `RATIO_HI = 2.5`) are the *same* ones
+`check_live_resolution.mjs` calibrated for the content overlay, re-measured here
+rather than assumed to transfer: 38,691 pairs span 0.554–1.753, comfortably
+inside them.
+
+**The third rule — byte-identical-to-English — ships as a REPORT and must not
+become a gate.** `--report-identical` (exit 0 always) finds **~2,200 per locale /
+19,754 total**, and the overwhelming majority are legitimate keeps: course codes,
+figure labels, grade bands. Enforcing it would park the build at ~2,200 findings
+and make it the repo's **third** permanently-red checker after `check:sepdrift`
+and `check:live`-at-4,646 — a failure mode this file already records twice.
+Collapsed by identity there are 2,756 distinct `(topic, hash)` pairs, and the
+band is what separates keep from leak: **1,499 are identical in all 9 locales**
+(consensus keep) while **344 sit at 1–2 locales** (leak-shaped). Triaging those
+344 is a separate pass; do not flip the report to exit 1 to force it.
+
+**Two smaller things fixed alongside, both of the pass-by-doing-nothing kind.**
+`workEnglish()` read only `w.sections`, but the nine `src/data` work files key
+their units under **`strings`** — so it returned an **empty Map** for all nine,
+and any check built on it would have verified zero pairs while reporting success.
+And `check:runtime`'s `byStamp` skipped every unit with a falsy `t`, which would
+have reported the repo's one legitimately-empty pair (`financial-aid-report`
+`811c9dc5`, English `""` and translation `""` in all nine locales) as *orphaned*
+if the build ever shipped it. The empty rule tests **the English**, never a
+hardcoded hash — a hash exemption breaks the moment its English is edited, which
+is also why there is **no hash allowlist** here at all.
 
 **The day vocabulary is chrome, is closed, and is no longer weekdays-only.**
 `day` / `days` / `dayFilters` are skipped by the prose extractor on the promise
