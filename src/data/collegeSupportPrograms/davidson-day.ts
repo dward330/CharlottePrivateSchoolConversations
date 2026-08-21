@@ -310,9 +310,9 @@ export const davidsonDay: CollegeSupportProgram = {
     headline:
       'Across the six top-ranked NC public universities, Davidson Day School’s applicants were admitted at a pooled 59.4% over the last five entering classes — 177 acceptances from 298 applications.',
     subhead:
-      'UNC-Chapel Hill is the hard one: 40.0% in Fall 2025 — 10 of 25 — against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.',
+      'UNC-Chapel Hill is the hard one: 40.0% in Fall 2025 — 10 of 25 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.',
     stats: [
-      { value: '298', label: 'applications to the six campuses, Fall 2021–2025' },
+      { value: '298', label: 'applications to the six universities, Fall 2021–2025' },
       { value: '59.4%', label: 'pooled admit rate — 177 of 298 across those five classes' },
       { value: '40.0%', label: 'at UNC-Chapel Hill — 10 of 25, the toughest of the six for this school' },
       { value: 'UNC-Chapel Hill', label: 'drew the most applications in Fall 2025 (25)' },

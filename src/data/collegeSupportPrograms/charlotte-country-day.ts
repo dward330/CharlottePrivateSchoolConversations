@@ -378,9 +378,9 @@ export const charlotteCountryDay: CollegeSupportProgram = {
     headline:
       'Across the six top-ranked NC public universities, Charlotte Country Day School’s applicants were admitted at a pooled 46.7% over the last five entering classes — 328 acceptances from 702 applications.',
     subhead:
-      'NC State University is the hard one: 22.9% in Fall 2025 — 11 of 48 — against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.',
+      'NC State University is the hard one: 22.9% in Fall 2025 — 11 of 48 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.',
     stats: [
-      { value: '702', label: 'applications to the six campuses, Fall 2021–2025' },
+      { value: '702', label: 'applications to the six universities, Fall 2021–2025' },
       { value: '46.7%', label: 'pooled admit rate — 328 of 702 across those five classes' },
       { value: '22.9%', label: 'at NC State University — 11 of 48, the toughest of the six for this school' },
       { value: 'UNC-Chapel Hill', label: 'drew the most applications in Fall 2025 (69)' },

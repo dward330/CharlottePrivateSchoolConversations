@@ -41,9 +41,9 @@ export const covenantDay: CollegeSupportProgram = {
     headline:
       'Across the six top-ranked NC public universities, Covenant Day School’s applicants were admitted at a pooled 60.3% over the last five entering classes — 301 acceptances from 499 applications.',
     subhead:
-      'UNC-Chapel Hill is the hard one: 27.3% in Fall 2025 — 9 of 33 — against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.',
+      'UNC-Chapel Hill is the hard one: 27.3% in Fall 2025 — 9 of 33 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.',
     stats: [
-      { value: '499', label: 'applications to the six campuses, Fall 2021–2025' },
+      { value: '499', label: 'applications to the six universities, Fall 2021–2025' },
       { value: '60.3%', label: 'pooled admit rate — 301 of 499 across those five classes' },
       { value: '27.3%', label: 'at UNC-Chapel Hill — 9 of 33, the toughest of the six for this school' },
       { value: 'NC State University', label: 'drew the most applications in Fall 2025 (42)' },

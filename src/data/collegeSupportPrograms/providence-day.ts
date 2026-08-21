@@ -437,9 +437,9 @@ export const providenceDay: CollegeSupportProgram = {
     headline:
       'Across the six top-ranked NC public universities, Providence Day School’s applicants were admitted at a pooled 51.1% over the last five entering classes — 499 acceptances from 977 applications.',
     subhead:
-      'NC State University is the hard one: 32.4% in Fall 2025 — 23 of 71 — against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.',
+      'NC State University is the hard one: 32.4% in Fall 2025 — 23 of 71 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.',
     stats: [
-      { value: '977', label: 'applications to the six campuses, Fall 2021–2025' },
+      { value: '977', label: 'applications to the six universities, Fall 2021–2025' },
       { value: '51.1%', label: 'pooled admit rate — 499 of 977 across those five classes' },
       { value: '32.4%', label: 'at NC State University — 23 of 71, the toughest of the six for this school' },
       { value: 'UNC-Chapel Hill', label: 'drew the most applications in Fall 2025 (103)' },

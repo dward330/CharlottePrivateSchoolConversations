@@ -237,9 +237,9 @@ export const charlotteChristian: CollegeSupportProgram = {
     headline:
       'Across the six top-ranked NC public universities, Charlotte Christian School’s applicants were admitted at a pooled 54.8% over the last five entering classes — 382 acceptances from 697 applications.',
     subhead:
-      'UNC-Chapel Hill is the hard one: 26.3% in Fall 2025 — 10 of 38 — against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.',
+      'UNC-Chapel Hill is the hard one: 26.3% in Fall 2025 — 10 of 38 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.',
     stats: [
-      { value: '697', label: 'applications to the six campuses, Fall 2021–2025' },
+      { value: '697', label: 'applications to the six universities, Fall 2021–2025' },
       { value: '54.8%', label: 'pooled admit rate — 382 of 697 across those five classes' },
       { value: '26.3%', label: 'at UNC-Chapel Hill — 10 of 38, the toughest of the six for this school' },
       { value: 'UNC-Chapel Hill', label: 'drew the most applications in Fall 2025 (38)' },

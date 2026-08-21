@@ -335,9 +335,9 @@ export const cannon: CollegeSupportProgram = {
     headline:
       'Across the six top-ranked NC public universities, Cannon School’s applicants were admitted at a pooled 60.8% over the last five entering classes — 479 acceptances from 788 applications.',
     subhead:
-      'UNC-Chapel Hill is the hard one: 31.7% in Fall 2025 — 20 of 63 — against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.',
+      'UNC-Chapel Hill is the hard one: 31.7% in Fall 2025 — 20 of 63 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.',
     stats: [
-      { value: '788', label: 'applications to the six campuses, Fall 2021–2025' },
+      { value: '788', label: 'applications to the six universities, Fall 2021–2025' },
       { value: '60.8%', label: 'pooled admit rate — 479 of 788 across those five classes' },
       { value: '31.7%', label: 'at UNC-Chapel Hill — 20 of 63, the toughest of the six for this school' },
       { value: 'UNC-Chapel Hill', label: 'drew the most applications in Fall 2025 (63)' },

@@ -243,9 +243,9 @@ export const charlotteCatholic: CollegeSupportProgram = {
     headline:
       'Across the six top-ranked NC public universities, Charlotte Catholic High School’s applicants were admitted at a pooled 56.0% over the last five entering classes — 1,175 acceptances from 2,100 applications.',
     subhead:
-      'UNC-Chapel Hill is the hard one: 23.3% in Fall 2025 — 24 of 103 — against far higher rates at the less-selective campuses. These are UNC-system figures published by the state, not the school’s own.',
+      'UNC-Chapel Hill is the hard one: 23.3% in Fall 2025 — 24 of 103 — against far higher rates at the less-selective universities. These are UNC-system figures published by the state, not the school’s own.',
     stats: [
-      { value: '2,100', label: 'applications to the six campuses, Fall 2021–2025' },
+      { value: '2,100', label: 'applications to the six universities, Fall 2021–2025' },
       { value: '56.0%', label: 'pooled admit rate — 1,175 of 2,100 across those five classes' },
       { value: '23.3%', label: 'at UNC-Chapel Hill — 24 of 103, the toughest of the six for this school' },
       { value: 'NC State University', label: 'drew the most applications in Fall 2025 (141)' },
