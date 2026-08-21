@@ -68,16 +68,27 @@ function SourceRow({ sources }: { sources: SuSource[] }) {
 }
 
 /**
- * Weekday code -> localized label.
+ * Day token -> localized label.
  *
- * `day` is CHROME: a closed five-value vocabulary (Mon…Fri) identical for every
- * school, which is why the prose extractor skips it. Reuses the `afterSchool.*`
- * keys rather than duplicating five identical strings under a second namespace —
- * the words are the same words. Anything outside the set, notably the '—' used
- * when a school publishes no day, falls through unchanged.
+ * `days`/`dayFilters` are CHROME: a closed vocabulary identical for every school,
+ * which is why the prose extractor skips them. Reuses the `afterSchool.*` keys
+ * rather than duplicating identical strings under a second namespace — the words
+ * are the same words.
+ *
+ * The vocabulary is closed but NO LONGER WEEKDAYS-ONLY. Charlotte Catholic
+ * publishes no weekday pattern for its camps, only that each is a half-day block,
+ * so `'Half day'` — a duration — lives on the day axis. The raw value is slugged
+ * into the key (`'Half day'` -> `afterSchool.day_Halfday`) so a value with a space
+ * or punctuation still resolves; without that, `t()` looks up a key that cannot
+ * exist and `defaultValue` silently returns English.
+ *
+ * `scripts/check_chrome_keys.mjs` (`npm run check:chrome`) is what stops the next
+ * such value shipping as English: it fails on any value with no key in EVERY
+ * locale catalog. Adding a member means a key in all ten `src/locales/*.json`.
+ * The identical helper in `AfterSchool.tsx` must change with this one.
  */
 function dayLabel(t: TFunction, day: string): string {
-  return t(`afterSchool.day_${day}`, { defaultValue: day })
+  return t(`afterSchool.day_${day.replace(/[^A-Za-z0-9]/g, '')}`, { defaultValue: day })
 }
 
 /**

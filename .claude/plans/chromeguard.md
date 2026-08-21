@@ -1,12 +1,12 @@
 ---
 name: chromeguard
 title: Translate 'Half day', tighten the chrome-key checker, and make FOREIGN_TOPICS a verified claim
-status: not-implemented
+status: implemented
 phases: 2
 created: 2026-08-20
 branch: fix/chrome-and-topic-guards
 supersedes: [halfday, topicguard]
-prs: []
+prs: [170]
 ---
 
 # Translate `'Half day'`, tighten the chrome-key checker, and verify `FOREIGN_TOPICS`
@@ -929,3 +929,40 @@ No browser check: this plan changes no rendering path and no user-facing string.
 - **Should the completeness assertion also run over `src/data/overlays/work/`?** — **default:**
   no. Work files are inputs, not shipped artifacts, and `check:sources` already covers that
   layer. Mentioned because the same drift is possible there.
+
+## Implementation notes
+
+Both phases shipped in PR #170 (Phase 1 `bdae6e7`, Phase 2 `0e36bde`). Three
+deviations from the plan as written, none of them a change of substance:
+
+- **The key is `afterSchool.day_Halfday`, not `day_HalfDay`.** Steps 14–16 spell it
+  with a capital `D`, but the slug the plan itself specifies —
+  `v.replace(/[^A-Za-z0-9]/g, '')` over `'Half day'` — yields `Halfday`. The
+  component, the checker and the ten catalogs all agree on `day_Halfday`; the plan
+  text was the outlier. Nothing was renamed.
+
+- **Step 16 (chain `check:chrome` into `build`) landed in Phase 1, not Phase 2.**
+  The plan deferred it out of a worry that a pending-locale finding would turn the
+  Phase-1 stop red. That worry was resolved instead by step 4b's separate exit path:
+  "present in `en`, awaiting translation" reports in full and exits 0, so the gate
+  could be chained immediately and still let Phase 1 ship green. Phase 2 confirmed
+  it — `check:chrome` now exits 0 with no PENDING block.
+
+- **Step 17 needed no Phase-2 edit.** The wording was not changed at the user's
+  review, so the `CLAUDE.md` rule written in Phase 1's single edit pass stands as
+  the final text — the "otherwise" branch of the step.
+
+**On the translations themselves:** six of the nine chip labels match the wording
+the already-translated Charlotte Catholic prose uses for the same concept on the
+same page (`de medio día`, `en demi-journée`, `di mezza giornata`, `demi-jounen`,
+`অর্ধদিবস`), which was checked in the rendered browser output rather than assumed.
+Telugu deliberately differs from its prose: the prose reads `అర్ధ-రోజు`, the chip
+`సగం రోజు` — both correct, the latter the plainer register a filter chip wants.
+
+**The browser check found nothing.** That is worth recording rather than passing
+over, because this repo's standing lesson is that every defect surviving to 100%
+data coverage has been render-layer. All nine locales were driven in **real headed
+Chrome** (Playwright `channel: 'chrome'`, `headless: false`), not a headless
+render: chip text in-script, click still filtering to 4 of 4 camps, no wrap or
+overflow, and `ar`/`fa` reading RTL in the correct row position. The `fr` weekday
+regression spot-check on Providence Day passed (`lun.`…`ven.`, no English leak).

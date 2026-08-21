@@ -223,6 +223,9 @@ is no Phase 2 and no locale work.
    `financial-aid-tuition.content` by name, with a comment saying it comes from the
    `src/content` extractor (`i18n_extract_content.mjs`) and holds 0 strings today, so it is
    skipped rather than sourced.
+   *(CORRECTED — see the banner above: it holds 70 translated blocks per locale, not 0
+   strings. Allowlisting by name was still the right call. The docstring this step asked for
+   was rewritten by `chromeguard`, which also made the allowlist a verified claim.)*
 
 5. **Fix the two silent copies** — `scripts/check_chrome_keys.mjs` and
    `scripts/i18n_audit_skips.mjs` both carry 5-topic maps. Replace each with the shared
@@ -293,7 +296,7 @@ No browser check: this plan changes no rendering path and no user-facing string.
 | Risk | Mitigation |
 |---|---|
 | Reaching 0 by weakening the check rather than fixing coverage | The second negative test in Verification: a deliberately-edited English string must still be caught. Non-negotiable — without it, 0 proves nothing. |
-| The empty-source guard masks a topic that legitimately has no strings | `financial-aid-tuition.content` is the only such case today and is allowlisted **by name**, not by "0 strings is fine". A topic silently becoming empty still fails. |
+| The empty-source guard masks a topic that legitimately has no strings | `financial-aid-tuition.content` is the only such case today and is allowlisted **by name**, not by "0 strings is fine". A topic silently becoming empty still fails. *(It is not empty — 70 blocks per locale; see the CORRECTION banner. Allowlisting by name remains right, and `chromeguard` made each entry verified rather than trusted.)* |
 | Moving constants changes extractor behaviour | Step 2 is a pure move; step 6 diffs `i18n:report` output before and after. Do step 2 as its own commit so it can be reverted independently. |
 | Chaining `check:live` into `build` blocks the build on a pre-existing genuine defect | Step 7 is explicitly gated on step 6 reporting 0. If step 6 surfaces a real stale entry, **do not chain it** — report the finding and leave step 7 for a follow-up once the re-translation lands. |
 | The two now-fixed sibling checkers surface a backlog of real findings | Expected and in scope to *report*, out of scope to fix. They are not build gates, so a non-zero result blocks nothing. |
