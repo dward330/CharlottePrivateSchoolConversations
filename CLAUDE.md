@@ -362,9 +362,37 @@ strings.
 **Coverage at 100% does not mean the page renders the language.** A shipped
 overlay entry resolves only if its FNV-1a stamp still equals the hash of the
 live English at that field path; otherwise the runtime falls back to English
-**silently** — no error, no coverage change. `scripts/check_runtime_resolution.mjs`
-(`npm run check:runtime`) recomputes every stamp from live `src/data/**`. It is
-the last check that runs without a browser.
+**silently** — no error, no coverage change. Two checks cover this, and they are
+not interchangeable: `scripts/check_runtime_resolution.mjs` (`npm run
+check:runtime`) recomputes every stamp from the **work file's** `text`, which
+catches a corrupted build step but *cannot* see English prose edited in
+`src/data` after extraction — the work file and the overlay then agree with each
+other and disagree with the app. `scripts/check_live_resolution.mjs` (`npm run
+check:live`) walks the **live** modules and is the one that catches that.
+Between them they are the last checks that run without a browser.
+
+**`check:live` is a build gate, and the topic layout is defined exactly once.**
+It was previously unusable: it carried its own six-topic map against the
+extractor's nine, so four of the ten shipped overlay files were compared against
+English that was never loaded, and it sat at a permanent **4,646 "unresolvable"
+entries — every one a false positive**. A checker parked at a non-zero number
+stops being read; the same failure mode already recorded above for
+`check:sepdrift`. Fixed 2026-08-20 (PR #167): `scripts/i18n_topics.mjs` is now
+the single source of truth for `TOPICS` / `ACCESSORS` / `EXTRA_LAYERS` /
+`EXPORTS` / `SLUGS`, imported by the extractor and all three checkers —
+**never re-declare any of them locally.** `check:live` also refuses to compare a
+topic that contributed zero live English, reporting one wiring-bug line instead
+of thousands of phantom stale entries, and it is chained into `npm run build`.
+
+Two things this cleared up. The accessor modules (`courseOfferings.ts`,
+`financialAidReports.ts`, `metricValues.ts`, `clubClusters.ts`,
+`clubCatalog.ts`) **do** import under plain Node — the `import.meta.glob`
+constraint that forces `gen_data_schema.mjs` to parse the `*Program.ts`
+registries does not apply to them; and `clubClusters` / `clubCatalog` are
+accessor **functions taking a slug**, so walking the bare export yields nothing
+and reads as "this layer is empty". Widening the same list also un-blinded
+`check_chrome_keys.mjs` and `i18n_audit_skips.mjs`, which had been auditing five
+of nine topics.
 
 **The figure sweep cannot see a separator swap — run `check:sepdrift` too.**
 `check_figures.py` NORMALISES 3-3-3 group separators before comparing, so a

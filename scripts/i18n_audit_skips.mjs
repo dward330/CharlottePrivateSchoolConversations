@@ -32,34 +32,13 @@
  */
 import { SKIP_KEYS, PATH_OVERRIDES, REVIEWED_SKIPS, REVIEWED_SKIP_VALUES } from './i18n_fields.mjs'
 
-const SLUGS = [
-  'providence-day', 'charlotte-latin', 'charlotte-christian', 'charlotte-catholic',
-  'charlotte-country-day', 'cannon', 'covenant-day', 'davidson-day',
-  'carmel-christian', 'hickory-grove-christian',
-  'gaston-day',
-]
-
-const TOPICS = {
-  sports: 'sportsPrograms',
-  'the-arts': 'artsPrograms',
-  'student-clubs': 'clubsPrograms',
-  'college-support': 'collegeSupportPrograms',
-  'after-school': 'afterSchoolPrograms',
-}
-
-const EXPORTS = {
-  'providence-day': 'providenceDay',
-  'charlotte-latin': 'charlotteLatin',
-  'charlotte-christian': 'charlotteChristian',
-  'charlotte-catholic': 'charlotteCatholic',
-  'charlotte-country-day': 'charlotteCountryDay',
-  cannon: 'cannon',
-  'covenant-day': 'covenantDay',
-  'davidson-day': 'davidsonDay',
-  'carmel-christian': 'carmelChristian',
-  'hickory-grove-christian': 'hickoryGroveChristian',
-  'gaston-day': 'gastonDay',
-}
+/* The topic/accessor/export layout is defined ONCE in i18n_topics.mjs. This
+   file used to carry a five-topic copy against the extractor's nine, so it was
+   silently auditing a subset of the app — the same drift that left check:live
+   at 4,646 phantom findings. Never re-declare these locally. */
+import {
+  SLUGS, TOPICS, ACCESSORS, EXPORTS, EXTRA_LAYERS,
+} from './i18n_topics.mjs'
 
 const args = process.argv.slice(2)
 const val = (f) => { const i = args.indexOf(f); return i === -1 ? null : args[i + 1] }
@@ -83,11 +62,51 @@ function looksLikeProse(s) {
   return /\b[a-z]{3,}\b/.test(s)
 }
 
+/** One school's entry for a topic, or undefined if that school has none. */
 async function entryFor(topic, slug) {
+  const accessor = ACCESSORS[topic]
+  if (accessor) {
+    const [mod, fn] = accessor
+    try {
+      const got = (await import(mod))[fn]
+      // A plain export (not an accessor function) is shared across schools, so
+      // attribute it to the first slug only and let the rest report empty.
+      if (typeof got !== 'function') return slug === SLUGS[0] ? got : undefined
+      return got(slug)
+    } catch (err) {
+      // Never swallow this: a dropped accessor removes a whole topic from the
+      // audit, which reads as "nothing to report" rather than "not looked at".
+      console.error(`  ✗ ${topic}/${slug}: ${err.message}`)
+      process.exitCode = 2
+      return undefined
+    }
+  }
   try {
     const m = await import(`../src/data/${TOPICS[topic]}/${slug}.ts`)
     return m[EXPORTS[slug]]
-  } catch { return undefined }
+  } catch (err) {
+    if (ACCESSORS[topic]) {
+      console.error(`  ✗ ${topic}: ${err.message}`)
+      process.exitCode = 2
+    }
+    return undefined   // a school with no module for this topic is normal
+  }
+}
+
+/** The extra layers for one school, as [prefix, entry] pairs. Accessors take a slug. */
+async function extraFor(topic, slug) {
+  const out = []
+  for (const [prefix, mod, fn] of EXTRA_LAYERS[topic] ?? []) {
+    try {
+      const m = await import(mod)
+      const entry = m[fn]?.(slug)
+      if (entry) out.push([prefix, entry])
+    } catch (e) {
+      console.error(`  ! ${topic}/${prefix} failed to load: ${e.message}`)
+      process.exitCode = 2
+    }
+  }
+  return out
 }
 
 const generic = (p) => p.replace(/\[\d+\]/g, '[]')
@@ -108,8 +127,13 @@ async function main() {
   for (const topic of topics) {
     for (const slug of SLUGS) {
       const entry = await entryFor(topic, slug)
-      if (!entry) continue
-      walk(entry, '', (path, value) => {
+      const layers = [
+        ...(entry ? [['', entry]] : []),
+        ...(await extraFor(topic, slug)),
+      ]
+      if (!layers.length) continue
+      for (const [prefix, layer] of layers)
+      walk(layer, prefix, (path, value) => {
         const g = generic(path)
         const leaf = (g.split('.').pop() || '').replace(/\[\]$/, '')
         // Path overrides win; only report what SKIP_KEYS actually excludes.
