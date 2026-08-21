@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build && npm run prerender && npm run seo:files && npm run check:schema && npm run check:ranks && npm run check:ncsuper && npm run check:live && npm run check:chrome",
+    "build": "tsc -b && vite build && npm run prerender && npm run seo:files && npm run check:schema && npm run check:ranks && npm run check:ncsuper && npm run check:live && npm run check:chrome && npm run check:runtime",
     "prerender": "node scripts/prerender.mjs",
     "seo:files": "node scripts/gen_seo_files.mjs",
     "check:seo": "node scripts/check_seo.mjs",
@@ -39,7 +39,8 @@
     "check:live": "node scripts/check_live_all.mjs",
     "check:live:one": "node scripts/check_live_resolution.mjs",
     "check:script": "node scripts/check_script_purity.mjs",
-    "check:spans": "node scripts/check_span_metrics.mjs"
+    "check:spans": "node scripts/check_span_metrics.mjs",
+    "check:vitals": "node scripts/check_vitals.mjs"
   },
   "dependencies": {
     "i18next": "^26.3.6",

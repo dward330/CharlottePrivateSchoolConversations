@@ -6,7 +6,7 @@ partial: mobile CLS fixed; desktop CLS and LCP still open
 phases: 1
 created: 2026-08-06
 branch: perf/vitals
-prs: []
+prs: [110]
 ---
 
 # Fix the school-page layout shift and mobile LCP
@@ -257,3 +257,92 @@ means reworking the `ready` gate rather than reserving space around it — a mor
 change to the school-page mount than this plan scoped. **Re-plan rather than improvise**,
 now that the viewport-fraction insight changes the approach. Steps 5 (LCP) and 6
 (`check_vitals.mjs` regression guard) are untouched and still open.
+
+## Baseline — 2026-08-21, `npm run check:vitals`
+
+`scripts/check_vitals.mjs` now exists (`.claude/plans/valuegates.md`, workstream C), so
+every number below is reproducible on demand rather than remembered. `src/index.css:557`
+told readers to "re-measure with `scripts/check_vitals.mjs`" for months while that file did
+not exist; it does now, and this is its first run.
+
+Median of 3 runs per route, against a real `vite preview`-equivalent server over the
+production `dist/`. Desktop 1280×900, CPU 1×. Mobile 390×844, CPU 4×, Fast-3G.
+
+### Desktop
+
+| Route | CLS | LCP |
+|---|---|---|
+| `/` | 0.0012 GOOD | 148ms |
+| `/compare/` | **0.1608 NEEDS-WORK** | 140ms |
+| `/school/cannon/` | 0.0101 GOOD | 152ms |
+| `/school/carmel-christian/` | 0.0023 GOOD | 144ms |
+| `/school/charlotte-catholic/` | **0.3505 POOR** | 148ms |
+| `/school/charlotte-christian/` | 0.0102 GOOD | 152ms |
+| `/school/charlotte-country-day/` | 0.0102 GOOD | 160ms |
+| `/school/charlotte-latin/` | 0.0101 GOOD | 160ms |
+| `/school/covenant-day/` | 0.0023 GOOD | 152ms |
+| `/school/davidson-day/` | **0.3509 POOR** | 148ms |
+| `/school/gaston-day/` | 0.0023 GOOD | 152ms |
+| `/school/hickory-grove-christian/` | 0.0023 GOOD | 148ms |
+| `/school/providence-day/` | 0.0102 GOOD | 156ms |
+
+### Mobile (CPU 4×, Fast-3G)
+
+| Route | CLS | LCP |
+|---|---|---|
+| `/` | 0.0135 GOOD | **12,708ms POOR** |
+| `/compare/` | **0.1747 NEEDS-WORK** | 1,628ms GOOD |
+| `/school/cannon/` | 0.0031 GOOD | **20,648ms POOR** |
+| `/school/carmel-christian/` | 0.0277 GOOD | 2,008ms GOOD |
+| `/school/charlotte-catholic/` | 0.0274 GOOD | 2,004ms GOOD |
+| `/school/charlotte-christian/` | 0.0236 GOOD | 2,016ms GOOD |
+| `/school/charlotte-country-day/` | 0.0236 GOOD | 2,004ms GOOD |
+| `/school/charlotte-latin/` | 0.0031 GOOD | 2,016ms GOOD |
+| `/school/covenant-day/` | 0.0030 GOOD | 2,016ms GOOD |
+| `/school/davidson-day/` | 0.0028 GOOD | **20,820ms POOR** |
+| `/school/gaston-day/` | 0.0030 GOOD | 2,008ms GOOD |
+| `/school/hickory-grove-christian/` | 0.0277 GOOD | 2,008ms GOOD |
+| `/school/providence-day/` | 0.0031 GOOD | 2,012ms GOOD |
+
+### What this baseline changes about the plan above
+
+**The desktop CLS problem is SCHOOL-SPECIFIC, not universal — and that is new.** The
+"CLS 0.32" in this plan's title and opening table was measured on `/school/cannon/`, and
+Cannon now measures **0.0101 GOOD**. Ten of eleven school pages are GOOD on desktop. Only
+**`charlotte-catholic` (0.3505)** and **`davidson-day` (0.3509)** are POOR, and they
+reproduce the ~0.35 magnitude tightly across runs, so this is the same defect — it just
+does not affect the page the original diagnosis profiled.
+
+That reframes the remaining work. This plan's "Remaining work" section says desktop needs
+the `ready` gate reworked for *every* school page; the measurement says nine schools no
+longer need anything. **Do not start from that section.** Start from what those two pages
+have that the other nine do not.
+
+One lead, offered as a lead and NOT as a finding — it was not tested: Charlotte Catholic
+and Davidson Day are the two schools with **seven** research areas rather than eight
+(Davidson Day has no Summer Programs material at all; Charlotte Catholic shipped across
+seven areas). Both pre-render fully — 33 and 31 `<details>`, zero `.loading` placeholders
+in the shipped HTML — so it is *not* a pre-rendering failure. Whether a missing topic
+section is causally involved is exactly the sort of thing the next plan should measure
+before believing.
+
+**`/compare/` reproduces its recorded regression precisely** — 0.16 desktop, recorded here
+as 0.16 in "Two findings outside the plan's scope". It is now 0.1747 on mobile too, where
+this plan recorded 0.13. Still the worst non-school route.
+
+**The home page's mobile CLS is FIXED** — this plan records 0.165; it now measures 0.0135.
+
+### Caveats on these numbers
+
+- **The mobile LCP figures are not comparable to this plan's 4.27s.** That figure came
+  from a discarded harness whose throttle settings are unrecoverable. `check_vitals.mjs`
+  uses Chrome DevTools' Fast-3G preset (1.6 Mbps / 750 Kbps / 150ms RTT) at CPU 4×, which
+  is stricter. The POOR *verdict* agrees; the magnitude does not, and nothing is gained by
+  pretending otherwise. **Compare future runs to THIS table, not to the 2026-08-06 one.**
+- The three ~20s mobile LCP outliers are **reproducible, not noise** — `/school/cannon/`
+  re-measured at 20,640ms on an independent run. Ten routes sit near 2,010ms, which is
+  suspiciously uniform and looks like a resource-timing boundary rather than a per-page
+  property. Worth understanding before treating any of it as a page defect.
+- Lab numbers on one machine. They find problems; they do not predict the field score
+  Google ranks on. The site now has real traffic, so CrUX data may exist — check it before
+  spending effort on a lab number.

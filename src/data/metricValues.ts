@@ -1538,7 +1538,15 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-country-day': '7:30 AM–5:00 PM', // Morning Care 7:30, Afternoon Care ends 5
       'charlotte-latin': '7:30 AM–5:30 PM', // Before Care 7:30–8:15, After Care to 5:30
       'covenant-day': '7:30 AM–5:30 PM', // Before Care 7:30–8:45, After Care 4:00–5:30
-      'carmel-christian': '12–1 PM', // After Camp Lunch Hour add-on only; no before/after camp care
+      // No referent — this row measures the outer limit of a camp DAY, and Carmel
+      // publishes only a 12–1 PM After Camp Lunch Hour add-on: a one-hour bridge
+      // between two half-day camps, not before- or after-camp care. Ranking a
+      // 60-minute bridge against 540–660-minute wrap-around windows would compare
+      // different things and print Carmel as the narrowest care in the table,
+      // which is a worse claim than absence. Same reasoning as charlotte-catholic
+      // above and hickory-grove-christian below. The lunch-hour detail is not
+      // lost: it is stated in full in the carmel-christian qual below.
+      'carmel-christian': null,
       'davidson-day': null,
       'hickory-grove-christian': null, // no summer wrap-around care — after-school program is closed in summer, camps are half-day only
       'gaston-day': '7:45 AM–5:00 PM', // before-camp care 7:45-8:30 ($25/wk) through after-camp care 3:30-5:00 ($35/wk)
