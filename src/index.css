@@ -5,6 +5,54 @@
    accent. Mobile-first. Per-school --brand accent is set inline per element.
    ============================================================================ */
 
+/* Metric-matched fallback for Barlow Condensed.
+   ---------------------------------------------
+   `.pill` (and every other --heading consumer) renders in a CONDENSED face over
+   a NON-condensed `system-ui` fallback — about the largest metric mismatch a
+   fallback stack can produce. On /compare/ that swap re-wrapped both pill rows
+   (topic 3 lines -> 2, school 6 -> 5) and pulled the table up ~135px, for a
+   measured CLS of 0.1602 desktop / 0.1747 mobile.
+
+   That it is metric substitution rather than request timing was isolated by a
+   discriminating experiment: blocking ONLY fonts.gstatic.com — so the Google
+   Fonts stylesheet still loads and still render-blocks, leaving load order
+   identical — takes CLS to 0.0000. (The mirror of the school-page case in
+   PR #175, where the same discriminator left CLS at 0.3485 and exposed an
+   unsized crest <img> instead.)
+
+   The percentages are MEASURED, and measured on the RENDERED result rather than
+   from font metrics — the two disagree, which is the whole trap here. A canvas
+   advance-width ratio says Barlow Condensed is 0.9082 of system-ui, and shipping
+   `size-adjust: 90.8%` overshot badly: the pill then rendered 177.6px against the
+   real face's 190.2px, 6.6% too NARROW, because `size-adjust` scales the em box
+   while the 13px padding, 8px dot, 8px gap and 0.02em tracking do not scale with
+   it. Tuning against the rendered width instead gives 97.3%, landing 189.7px
+   against 190.2px. Across all 19 real pill labels the fallback-to-real ratio is
+   mean 1.006, spread 0.944-1.036.
+
+   (For the same reason it is NOT the ~80% the settled row-content delta
+   suggests: those same fixed-width parts make the row total shrink harder than
+   the text inside it.)
+
+   ascent/descent are % of the ADJUSTED em, so Barlow Condensed's 900/250 per
+   1000em become 900/0.973 = 92.5% and 250/0.973 = 25.7%.
+
+   Result: mobile 0.1747 -> 0.0636 (GOOD). Desktop 0.1602 -> 0.1263 — improved
+   but still over 0.1, because the residual per-string spread can still flip one
+   wrap boundary on the 11-pill school row at the 580px desktop width. Fixing
+   that needs self-hosting, not a tighter override; see .claude/plans/compare-cls.md.
+
+   Re-derive with a width-ratio measurement if the heading face ever changes;
+   re-measure the result with `npm run check:vitals -- --route /compare/`. */
+@font-face {
+  font-family: 'Barlow Condensed Fallback';
+  src: local('Helvetica Neue'), local('Arial'), local('Liberation Sans');
+  size-adjust: 97.3%;
+  ascent-override: 92.5%;
+  descent-override: 25.7%;
+  line-gap-override: 0%;
+}
+
 :root {
   --brand: #5980a6; /* fallback accent; overridden per-school inline */
 
@@ -32,7 +80,7 @@
   --accent-800: #2c455d;
   --accent-900: #1d2d3d;
 
-  --heading: 'Barlow Condensed', system-ui, sans-serif;
+  --heading: 'Barlow Condensed', 'Barlow Condensed Fallback', system-ui, sans-serif;
   --sans: 'Barlow', system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 
   color-scheme: light dark;
