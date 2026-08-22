@@ -481,11 +481,22 @@ export function SchoolDetail({ slug }: { slug: string }) {
           <PodcastDeepDive variant="page" school={slug} schoolName={school.name} />
         </div>
         {brand.logo && (
+          /* width/height are the crests' real intrinsic pixels (every file in
+             public/logos is 1200x800). They are what lets the browser reserve
+             the 3:2 box before the PNG arrives — without them the crest occupies
+             zero width until it loads, then pops in at 156px and squeezes
+             .school-header-topics from 986px to 830px. On Davidson Day that
+             squeeze re-wraps the chip row from one line to two and pushes the
+             whole page down 39px: desktop CLS 0.35. Not decorative, and not
+             `loading="lazy"` either — the crest is above the fold on every
+             school page, so lazy-loading only delays the pop-in.
+             See .claude/plans/vitals.md. */
           <img
             className="dossier-crest"
             src={brand.logo}
             alt={tr('a11y.crestAlt', { school: school.name })}
-            loading="lazy"
+            width={1200}
+            height={800}
           />
         )}
       </header>

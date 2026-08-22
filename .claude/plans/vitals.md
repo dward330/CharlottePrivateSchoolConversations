@@ -1,12 +1,12 @@
 ---
 name: vitals
-title: Fix the Davidson Day desktop CLS (0.35) — a webfont reflow, not the mount path
-status: in-progress
+title: Fix the Davidson Day desktop CLS (0.35) — an unsized header crest, not a webfont reflow
+status: implemented
 phases: 1
 created: 2026-08-06
 revised: 2026-08-22
 branch: perf/vitals-cls
-prs: [110]
+prs: [110, 175]
 ---
 
 # Fix the Davidson Day desktop CLS
@@ -17,6 +17,12 @@ prs: [110]
 the worst Core Web Vital on the site. Every other route is GOOD. The cause is now traced
 by experiment to the **Google Fonts stylesheet** swapping metrics under the header's topic
 chip row, which re-wraps from one line to two and pushes the whole page down 39px.
+
+> **Superseded at implementation — read `## Implementation notes` first.** The chip row
+> does re-wrap and the page does drop 39px, but the element that squeezes it is the
+> **unsized, lazy-loaded header crest `<img>`**, not the font swap. The font-blocking
+> experiment below reproduces reliably and is still the wrong mechanism. Everything from
+> here to the Follow-ups is preserved as written on 2026-08-22, corrections at the bottom.
 
 We will know it worked when `npm run check:vitals -- --route /school/davidson-day/ --runs 3`
 reports **CLS ≤ 0.1**, with no other route regressing and the settled page visually
@@ -277,3 +283,96 @@ two pages report the bundle's arrival time while the other nine report their rea
 mobile-LCP work is therefore dropped, not deferred. If a future pass wants a true mobile
 LCP number, it must exclude late candidates that merely re-measure an already-painted
 element.
+
+---
+
+## Implementation notes — 2026-08-22
+
+**Shipped, and the fix is NOT the one this plan specified.** Davidson Day desktop CLS went
+**0.3485 POOR → 0.0000 GOOD**, but via the header crest `<img>`, not `min-height` on
+`.school-header-topics` and not the Google Fonts stylesheet.
+
+### The measured root cause: an unsized, lazy-loaded image
+
+`.dossier-crest` was an `<img>` with **no `width`/`height` attributes and
+`loading="lazy"`**. It therefore occupied **zero width** until the PNG arrived, then popped
+in at 156px and squeezed its flex sibling — the chip row — from **986px to 830px**:
+
+```
++ 88ms  chipRow h=32  boxW=986  crestW=0     <- crest not yet loaded, chips fit ONE line
++125ms  chipRow h=71  boxW=830  crestW=156   <- crest lands, row re-wraps to TWO lines
++137ms  layout-shift v=0.3603                <- everything below moves 39px
+```
+
+Davidson Day's eight chips total 906px: they fit on one line at 986px and wrap at 830px.
+That 906px is the whole story — it is the only school whose chip total falls **between** the
+two box widths.
+
+### Two claims in the plan's Context section were wrong
+
+Both were reproduced honestly and still misattributed, so they are corrected here rather
+than quietly dropped:
+
+1. **"The chip row wraps to two lines either way" is false for the school that matters.**
+   Measured fallback-vs-Barlow content widths per school show Davidson Day at 977px
+   (fallback) / 906px (Barlow) against an **830px** box — two lines in both states, so the
+   font swap never changes its settled row count. The school whose row count *does* flip on
+   the font swap is **Charlotte Catholic** (2 rows → 1), and it scored **0.0000** throughout.
+   The plan's 830px figure was the *post-crest* width; the pre-crest 986px was never measured.
+
+2. **"Blocking `fonts.googleapis.com` takes it to 0.0000" is real but not causal.** Re-run
+   with request counting (`blocked=1` / `allowed=1`, so neither arm was a silent no-op),
+   it reproduces exactly. Blocking the stylesheet removes a render-blocking request, which
+   reorders the load enough that the crest lands *before* the chips paint — masking the
+   shift rather than removing its cause. A correlation that survives a request-count
+   assertion can still be the wrong mechanism.
+
+The plan's own warning — *verify an intervention actually applied before believing a
+result* — is what caught this. Three CSS-only candidates (`width: clamp()`, `aspect-ratio`,
+`min-width`) all measured as no-change; checking whether they applied showed the injected
+attributes were **stripped by React hydration**, i.e. no-ops rather than null results.
+
+### The fix
+
+`src/pages/SchoolDetail.tsx` — the crest carries its real intrinsic
+`width={1200} height={800}` (every file in `public/logos/` is 1200×800) and drops
+`loading="lazy"`, which was wrong anyway for an above-the-fold image.
+`src/index.css` — `aspect-ratio: 3 / 2` on `.dossier-crest`, so the reserved box survives
+the `height: clamp()` that would otherwise re-collapse `width: auto`.
+
+### Why `min-height` would have been the wrong fix
+
+Step 3's rule would have shipped a visible defect. The chip row's settled height is **not**
+a constant: measured across viewports and locales it is 1–4 rows (32 / 71 / 111 / 150px),
+varying by school, by crest presence (box is 830px with a crest, 1014px without) and by
+locale. A flat 71px would have left a **~39px blank band** under the chip row on
+**Charlotte Catholic in English** and on **carmel-christian, covenant-day, gaston-day and
+hickory-grove-christian in Farsi** — all of which genuinely settle at one line. This is the
+exact trade the Approvals section said to surface rather than ship.
+
+### Results — `npm run check:vitals -- --both --runs 3`
+
+| Route | Desktop CLS before | after |
+|---|---|---|
+| `/school/davidson-day/` | 0.3485 POOR | **0.0000 GOOD** |
+| `/school/cannon/` | 0.0079 | 0.0000 |
+| `/school/providence-day/` | 0.0079 | 0.0000 |
+| `/school/charlotte-christian/` | 0.0093 | 0.0000 |
+| every other school page | GOOD | GOOD (0.0000–0.0012) |
+| `/compare/` | 0.1602 | 0.1602 (unchanged — follow-up 1) |
+
+The other crested schools improving from 0.0079 to 0.0000 is the same defect, smaller: they
+were already two lines at both box widths, so the pop-in shifted only the crest's own row.
+Mobile CLS is GOOD on every route. Mobile LCP still reports ~20.7s on cannon/davidson-day
+and 12.7s on `/` — the documented artifact in follow-up 3, untouched here.
+
+Browser-verified at rest (real Chrome, 1280×900): Davidson Day, Cannon, Gaston Day,
+Charlotte Catholic and Davidson Day `?lang=fa`. Crest renders 156×104 from `nat=1200x800`,
+settled header heights match the pre-fix values (277px crested / 238px uncrested), Charlotte
+Catholic keeps its single 32px chip row with no blank band, and RTL mirrors correctly.
+
+### Follow-ups unchanged
+
+Compare's CLS (1), the bundle (2) and the mobile-LCP artifact (3) are all as recorded — none
+were touched. One new observation for whoever takes (1): `/` now also reports a POOR mobile
+LCP (12.7s), which has the same late-candidate shape as (3) and is probably the same artifact.
