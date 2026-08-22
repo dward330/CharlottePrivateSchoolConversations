@@ -2,10 +2,11 @@
 name: compare-cls
 title: Fix the Compare page CLS (0.16 desktop / 0.17 mobile) — a genuine font-metric reflow
 status: in-progress
+status_note: 'Mobile reached GOOD (0.0636). Desktop 0.1602 -> 0.1263, still over 0.1; step 7 stop gate applied. Closing it needs self-hosting — see Implementation notes.'
 phases: 1
 created: 2026-08-22
 branch: perf/compare-cls
-prs: []
+prs: [176]
 ---
 
 # Fix the Compare page CLS
@@ -229,8 +230,29 @@ applies and no second fix was stacked.
 | `/compare/` desktop, median of 5 | 0.1602 | **0.1263** | NEEDS-WORK — still over 0.1 |
 | `/compare/` mobile, median of 5 | 0.1747 | **0.0636** | **GOOD** |
 
-Every other route measured GOOD before and after, on both profiles (`--both --runs 3`);
-none regressed. Desktop school pages sit at 0.0000–0.0017, home at 0.0008.
+Every other route measured CLS GOOD on both profiles (`--both --runs 3`); none regressed.
+Desktop school pages sit at 0.0000–0.0017 and home at 0.0008; mobile school pages at
+0.0023–0.0237 and home at 0.0000.
+
+### A pre-existing mobile LCP finding, NOT caused by this change
+
+The mobile sweep shows three routes at POOR LCP — `/` 12.7s, `/school/cannon/` 20.7s,
+`/school/davidson-day/` 20.9s — while their siblings sit at ~2.0–2.4s.
+
+The first guess was measurement noise from concurrent builds. **That was wrong and was
+checked rather than assumed.** Re-measured in isolation the three reproduce almost
+exactly (20700 vs 20688, 20872 vs 20876, 12732 vs 12724), so they are stable properties
+of those routes.
+
+They are also **pre-existing**: `/school/cannon/` measures **20680ms on `main`** against
+this branch's 20700ms — a 20ms delta on a 20-second figure, i.e. no difference. This
+change removes no bytes and blocks no requests, so it cannot plausibly affect LCP.
+
+Left alone deliberately: this is a CLS plan, and the likely cause is the 2.2 MB bundle
+the plan's own *Out of scope* section already parks as a separate follow-up in
+[`vitals.md`](vitals.md). **Worth its own plan** — the odd part is that only three routes
+are affected while structurally similar ones are fine, which suggests something
+route-specific rather than the bundle alone.
 
 ### The overrides shipped, and how they were derived
 
