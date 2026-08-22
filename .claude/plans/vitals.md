@@ -1,348 +1,378 @@
 ---
 name: vitals
-title: Fix the school-page layout shift (CLS 0.32) and mobile LCP (4.3s)
-status: in-progress
-partial: mobile CLS fixed; desktop CLS and LCP still open
+title: Fix the Davidson Day desktop CLS (0.35) — an unsized header crest, not a webfont reflow
+status: implemented
 phases: 1
 created: 2026-08-06
-branch: perf/vitals
-prs: [110]
+revised: 2026-08-22
+branch: perf/vitals-cls
+prs: [110, 175]
 ---
 
-# Fix the school-page layout shift and mobile LCP
+# Fix the Davidson Day desktop CLS
 
 ## Goal
 
-School pages — the pages that matter most for search — fail two of the three Core Web
-Vitals:
+`/school/davidson-day/` measures **CLS 0.3496 on desktop** — 3.5× the 0.1 threshold and
+the worst Core Web Vital on the site. Every other route is GOOD. The cause is now traced
+by experiment to the **Google Fonts stylesheet** swapping metrics under the header's topic
+chip row, which re-wraps from one line to two and pushes the whole page down 39px.
 
-| Metric | School page | Threshold | Verdict |
-|---|---|---|---|
-| **CLS** | **0.32** | ≤ 0.10 | **POOR** (>3× over) |
-| **LCP** (mobile) | **4.27s** | ≤ 2.5s | **POOR** |
-| LCP (desktop) | 92ms | ≤ 2.5s | good |
-| CLS (home / Compare) | 0.001 / 0.06 | ≤ 0.10 | good |
+> **Superseded at implementation — read `## Implementation notes` first.** The chip row
+> does re-wrap and the page does drop 39px, but the element that squeezes it is the
+> **unsized, lazy-loaded header crest `<img>`**, not the font swap. The font-blocking
+> experiment below reproduces reliably and is still the wrong mechanism. Everything from
+> here to the Follow-ups is preserved as written on 2026-08-22, corrections at the bottom.
 
-We will know it worked when the school page measures **CLS ≤ 0.1** and **mobile LCP ≤
-2.5s** under the same harness that produced the numbers above, with no visual change to
-the page at rest.
+We will know it worked when `npm run check:vitals -- --route /school/davidson-day/ --runs 3`
+reports **CLS ≤ 0.1**, with no other route regressing and the settled page visually
+identical.
 
 ## Context
 
-### Measured, not assumed (2026-08-06)
+### THIS PLAN WAS REWRITTEN 2026-08-22 — the original was measuring a stale build
 
-Numbers came from a headless Chromium harness against a real `vite preview` of the
-production build: `PerformanceObserver` for `largest-contentful-paint` and `layout-shift`,
-CPU throttled 4× with Fast-3G network emulation for the mobile figures.
+PR #110 landed a partial fix (mobile CLS) and left this document describing a problem that
+no longer matches reality. Re-measured today against a fresh `npm run build`, using the
+`scripts/check_vitals.mjs` harness added by PR #172:
 
-**Caveat worth carrying into the work:** these are **lab numbers on one machine**. Google
-ranks on *field* data (CrUX, real visitors). Lab data finds problems; it does not predict
-the score. The site is also **not yet deployed**, so no field data exists at all.
+| | This plan used to say | Measured 2026-08-22 |
+|---|---|---|
+| Desktop CLS, school pages | 0.32 POOR on **all 6** | GOOD on **10 of 11** |
+| Desktop CLS, Davidson Day | — | **0.3496 POOR** |
+| Desktop CLS, Compare | 0.16 regressed | 0.1602 NEEDS-WORK (see follow-ups) |
+| Mobile CLS | 0.003 fixed | 0.003 confirmed GOOD everywhere |
+| Mobile LCP | 4.27s POOR | **artifact — real paint is ~2.0–2.3s GOOD** |
 
-### The CLS mechanism, traced
+There are also **11 schools now, not 6**. Any step that says "the six school pages" is
+stale; use the route list from `scripts/seo_routes.mjs`.
 
-Page height over time on `/school/cannon/`:
+### Root cause — confirmed by experiment, not inferred
+
+Blocking Google Fonts takes Davidson Day from **0.3485 → 0.0000**:
 
 ```
-+ 87ms   bodyH 4986
-+102ms   bodyH 3310     <- collapses ~1700px
-+141ms   bodyH 4966     <- restores
+/school/davidson-day/   fonts ALLOWED               CLS=0.3485
+/school/davidson-day/   googleapis+gstatic BLOCKED  CLS=0.0000
+/school/cannon/         fonts ALLOWED               CLS=0.0107
+/school/cannon/         googleapis+gstatic BLOCKED  CLS=0.0000
 ```
 
-One shift at +88ms accounts for **0.3175 of the 0.3195 total**. Everything below y≈216
-jumps up, then back down. At the moment of the shift, `document.querySelectorAll('details')`
-returns **0** — the research panels do not exist yet — and the shift's source nodes are
-already detached, the signature of nodes being removed and replaced.
+The mechanism, sampled every 3ms through the load:
 
-### What it is NOT — ruled out by experiment
+```
++ 92ms  hdrH=237  chipH=32  navY=424   <- one-line chip row, fallback metrics
++149ms  hdrH=277  chipH=71  navY=463   <- chip row WRAPS to two lines, page drops 39px
++172ms  det=0                          <- (React teardown, see "ruled out" below)
++229ms  det=31                          <- remount; settled geometry
+```
 
-Three hypotheses were tested and **refuted**; do not re-derive them:
+`.school-header-topics` is the row of topic chips in the school-page header
+([SchoolDetail.tsx](../../src/pages/SchoolDetail.tsx), rendered from `covered`). It is
+laid out at **830px wide**. With fallback metrics Davidson Day's eight chips total
+**921px** of content; with Barlow loaded they total **849px**. Both exceed 830px, so it
+wraps to two lines either way — but the *transition* between the two states is what
+shifts, and everything below the header (nav, main, all 31 research cards) moves 39px.
 
-- **Not caused by pre-rendering / PR #105.** The same page served with `#root` emptied (a
-  bare shell, no pre-rendered markup) shifts **just as much**: 0.3187 vs 0.3195. This CLS
-  is pre-existing and predates the SEO work.
-- **Not a web-font reflow.** Blocking `fonts.googleapis.com` and `fonts.gstatic.com`
-  entirely leaves CLS at 0.3175.
-- **Not images without dimensions.** At the moment of the shift, `document.images` has zero
-  incomplete entries.
+**Why Davidson Day and not the others.** It is the only school sitting near the wrap
+boundary at both metrics. Cannon carries nine chips totalling 979px (fallback) / 1063px
+(loaded) — already comfortably two lines in both states, so its row height never changes
+and it scores 0.0079. Davidson Day has **7 research areas** (no Summer Programs — a
+deliberate documented absence, not a gap) which is what puts its chip count on the knife
+edge.
 
-### The remaining hypothesis
+### The font stylesheet, not the font files
 
-The collapse-then-restore pattern points at the **school page mounting in two passes**:
-a first render without the topic content, then a second once lazily-loaded content
-resolves. `SchoolDetail` renders topic sections from `src/content/<topic>/<school>.json`
-loaded through `import.meta.glob`, and the locale overlay warms separately (see the
-`loadMetricValuesOverlay` effect in `Compare.tsx` for the same shape).
+Blocking **only** `fonts.gstatic.com` (the `.woff2` binaries) leaves CLS at 0.3485.
+Blocking `fonts.googleapis.com` (the stylesheet) is what takes it to zero. The stylesheet
+is a **render-blocking `<link>`** in [index.html:41-44](../../index.html#L41-L44) with
+`display=swap`, alongside `preconnect` hints on lines 39–40.
 
-**This is a hypothesis, not a finding.** Step 1 is to confirm it before changing anything.
+Font stacks are in [index.css:35-36](../../src/index.css#L35-L36):
 
-### LCP context
+```css
+--heading: 'Barlow Condensed', system-ui, sans-serif;
+--sans: 'Barlow', system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+```
 
-The main bundle is **1,441 KB (396 KB gzipped)** and Vite warns about it on every build.
-Per-topic per-locale chunks are separate and lazy, which is already right. Desktop LCP is
-92ms, so this is purely a slow-connection problem: the bundle has to arrive and execute
-before the largest element paints.
+### What it is NOT — ruled out by experiment, do not re-derive
+
+- **NOT the two-pass mount / `ready` gate.** The original plan's central hypothesis. The
+  pre-rendered markup *is* torn out and remounted (`details` 31 → 0 → 31 at +172/+229ms)
+  — but **Cannon and Gaston Day do exactly the same and score 0.008 and 0.000**. The
+  teardown is universal and is not the differentiator. Do not spend the plan reworking
+  `seed()` / `ready` in `SchoolDetail.tsx`.
+- **NOT the settled layout.** Header, nav, layout, main and body heights are byte-identical
+  pre- and post-hydration on every school page. The shift is purely transient.
+- **NOT `.dossier-nav` shrinking.** An earlier reading of the CLS attribution rects
+  suggested the nav shrank 477→438px. Measured directly it is **stable at 425px** before
+  and after hydration. The attribution rects report the *shifted region*, not the element
+  that changed size.
+- **NOT the bundle.** See follow-up 2.
+
+### A correction this plan must carry
+
+The previous version of this document listed **"Not a web-font reflow"** as a refuted
+hypothesis, citing a test that blocked `fonts.googleapis.com` and `fonts.gstatic.com` and
+saw CLS stay at 0.3175. **That refutation was wrong**, and it is very likely why this bug
+survived PR #110. A re-run of that same test today shows the route pattern matching **zero
+requests** — the block silently applied to nothing, so the experiment tested the unmodified
+page and "confirmed" the null result.
+
+The lesson generalises and belongs in the implementer's head: **verify an intervention
+actually applied before believing a null result.** This repo's `check_vitals.mjs` header
+already records the mirror-image trap (verify a rule *did not* apply before concluding it
+had no effect). Count the blocked requests; assert the number is non-zero.
+
+## Decisions
+
+- **Fix the chip row, not the font loading strategy** — self-hosting Barlow or switching to
+  `font-display: optional` would also fix it, but both are site-wide changes with their own
+  risk surface (FOUT/FOIT tradeoffs, a new asset pipeline, licensing). The chip row is the
+  one element whose wrap count changes; stabilising it is the narrow fix.
+- **Prefer `min-height` on `.school-header-topics` over `size-adjust` metric overrides** —
+  a `@font-face` metric override matched to the fallback is the "correct" general fix, but
+  it must be tuned per family and re-tuned whenever the stack changes. A reserved
+  two-line height is one rule and is obviously right for a row that is two lines in both
+  metric states on every school.
+- **Do not gate `check:vitals` in `npm run build`** — the harness's own docstring explains
+  why (a browser dependency, seconds of runtime, and the repo's recorded history of
+  permanently-red checkers). Keep it runnable, keep it out of the chain.
+- **Single-phase — adds no user-facing text.** A CSS rule and possibly one `<link>`
+  attribute. No `src/locales/*.json` key, no overlay work.
 
 ## Approvals needed
 
-**None** — no new card, section, stat tile, Compare row, metric key or topic; no
-reordering. The goal is explicitly that the page at rest looks **identical**.
+**None.** No new card, section, stat tile, Compare row, metric key or topic; no reordering.
+The goal is explicitly that the settled page renders identically.
 
-One thing to flag rather than gate on: if the fix requires reserving vertical space for
-content that has not loaded, readers may see a placeholder region where today they see the
-page's own (shifted) content. That is a visible change to the *loading* experience, though
-not to the settled page — surface it with a before/after if it comes to that.
+One thing to *flag* rather than gate on: if step 3 reserves two lines of height for the
+chip row, a school whose chips genuinely fit on one line would gain ~39px of blank header
+space. Check every school at step 4; if any is affected, say so before proceeding rather
+than trading an invisible shift for a visible gap.
 
 ## Out of scope
 
-- **Any change to what the settled page renders.** This is a timing and layout-stability
-  fix, not a redesign.
-- **Route-level code splitting of the main bundle.** Tempting for LCP, but it is a
-  structural change to how the app loads and deserves its own plan if step 5 shows the
-  bundle is genuinely the binding constraint.
-- **The home page and Compare.** Both already pass (CLS 0.001 / 0.06).
-- **Deploying.** `npm run deploy` stays the user's call.
+- **Compare's CLS** and **the main bundle** — recorded as follow-ups below, deliberately
+  not fixed here. They are different mechanisms in different files.
+- **Mobile LCP.** Dropped entirely — it was a measurement artifact, see follow-up 3.
+- **Reworking the `ready` gate or the pre-render/hydration path.** Ruled out above.
+- **Self-hosting the webfonts.** A defensible alternative fix, but a larger change; if
+  step 3 fails, it becomes the fallback and gets its own plan.
+- **Deploying.** `npm run deploy` stays the user's call, every time.
 
 ## Steps
 
-**Single-phase — adds no user-facing text.** No `en.json` key, no locale work.
+**Single-phase — adds no user-facing text.**
 
-1. **Confirm the two-pass hypothesis before changing code.** Instrument
-   `SchoolDetail`'s render path: log what is present at each commit, and correlate against
-   the `layout-shift` timeline. Identify the exact subtree that is absent at +88ms and
-   present at +141ms. **If the hypothesis is wrong, stop and re-plan** — the rest of these
-   steps assume it.
+1. **Reproduce the baseline.** `npm run build`, then
+   `npm run check:vitals -- --route /school/davidson-day/ --runs 3`. Confirm **CLS ≈ 0.35
+   POOR**. If it is already GOOD, stop and re-measure the whole route set — something
+   changed and this plan needs revisiting before any edit.
 
-2. **Reserve the space.** Whatever subtree collapses, give its container a stable height
-   before the content arrives — `min-height` on the section wrapper, sized from what the
-   pre-rendered markup already knows. The pre-rendered HTML contains the *full* expanded
-   content, so the correct height is knowable at build time in a way it usually is not.
+2. **Reproduce the root cause.** Re-run with `fonts.googleapis.com` blocked and confirm
+   CLS drops to ~0. **Assert the block matched a non-zero number of requests** — that
+   assertion is the entire point of this step, per the correction above.
 
-3. **Re-measure CLS.** Same harness, same route. Target ≤ 0.1. Also measure the home page
-   and Compare to confirm no regression there.
+3. **Reserve the chip row's height.** In [src/index.css](../../src/index.css), give
+   `.school-header-topics` a `min-height` equal to its settled two-line height (**71px** at
+   1280px wide, measured; confirm rather than copying the number). Scope it to the desktop
+   breakpoint if a narrower viewport wraps to a different line count.
 
-4. **Check the other five school pages.** Cannon was the probe; Providence Day is the
-   largest (416 KB pre-rendered) and Davidson Day the smallest (266 KB). CLS should be
-   ≤ 0.1 on all six.
+4. **Re-measure every route, both profiles.** `npm run check:vitals -- --both --runs 3`.
+   Requirements: Davidson Day **CLS ≤ 0.1**; no other route regresses; mobile stays GOOD
+   throughout. Note this takes several minutes — run it in the background.
 
-5. **Only then look at LCP.** With CLS fixed, re-measure mobile LCP. If it is still >2.5s,
-   identify what the LCP element actually is (likely the `h1` or the header block) and
-   whether it is blocked on the bundle or on the font. Report the finding; do **not**
-   start splitting the bundle inside this plan.
+5. **Browser check at rest.** Load Davidson Day and two others (Cannon, Gaston Day) in a
+   real browser and confirm the settled header is visually identical to `main` — no extra
+   blank band above the nav. Check `?lang=fa` too: RTL and the longer translated chip
+   labels are the case most likely to wrap differently.
 
-6. **Add a regression guard.** A `scripts/check_vitals.mjs` wired as `check:vitals`,
-   asserting CLS ≤ 0.1 on the six school pages against a built `dist/`. Keep it out of the
-   default `build` chain — it needs a browser and adds seconds — but make it runnable.
+6. **If step 4 fails, stop.** Do not stack a second fix on top. The harness header records
+   that CLS weights **viewport fraction**, not distance — reserving space can shrink the
+   movement without moving the score. If `min-height` does not clear it, record what the
+   number did and re-plan toward `size-adjust`/`ascent-override` metric overrides or
+   self-hosting Barlow. A failed step 3 is a useful finding, not a failure of the plan.
+
+7. **Update this document** with an `## Implementation notes` section: the measured
+   before/after, and — if step 6 triggered — what the reserved height actually did.
 
 ## Files touched
 
 | File | Change |
 |---|---|
-| `src/pages/SchoolDetail.tsx` | likely edit — reserve height for the late-mounting subtree |
-| `src/index.css` | likely edit — the `min-height` rule |
-| `scripts/check_vitals.mjs` | **new** — CLS regression guard |
-| `package.json` | edit — add `check:vitals` |
-
-Deliberately provisional: step 1 decides the real target. If the collapse turns out to be
-in a component rather than the page, that component is edited instead.
+| `src/index.css` | edit — `min-height` on `.school-header-topics` |
+| `index.html` | possible edit — only if step 6 sends the fix toward font loading |
+| `.claude/plans/vitals.md` | edit — implementation notes at step 7 |
 
 ## Verification
 
 - [ ] `npx tsc --noEmit` — clean
-- [ ] `npm run lint` — no new warnings (two pre-existing in `check_fa_script.mjs` and
+- [ ] `npm run lint` — no new warnings (two pre-existing, in `check_fa_script.mjs` and
       `check_chrome_keys.mjs`)
-- [ ] `npm run build` — succeeds, 8 pre-rendered pages
-- [ ] `npm run check:seo` — still passes
-- [ ] **CLS ≤ 0.1 on all six school pages**, measured with the harness described in Context
-- [ ] **Home and Compare CLS unchanged** (0.001 / 0.06) — no regression
-- [ ] Mobile LCP re-measured and reported, whether or not it improved
-- [ ] **Browser check**: the settled page is visually identical to before — same spacing,
-      same content, no placeholder left visible after load
-- [ ] **Non-English check**: `?lang=es` and `?lang=fa` still render correctly and the
-      PR #106 no-English-flash behaviour still holds (this touches the mount path)
-- [ ] `git status` clean of probe scripts
+- [ ] `npm run build` — succeeds; all eight chained checks pass
+- [ ] `npm run check:vitals -- --route /school/davidson-day/ --runs 3` — **CLS ≤ 0.1**
+- [ ] `npm run check:vitals -- --both --runs 3` — no route regresses on either profile
+- [ ] Browser: Davidson Day, Cannon, Gaston Day settled headers identical to `main`
+- [ ] Browser: `?lang=fa` on Davidson Day — chip row still correct in RTL
+- [ ] `git status` clean of probe scripts (this plan's research left none; keep it that way)
 
 ## Risks
 
 | Risk | Mitigation |
 |---|---|
-| **A reserved height that is wrong leaves a visible gap** on the settled page — trading an invisible shift for a visible defect. | Step 3's browser check is explicitly "identical at rest". Measure the real height from the pre-rendered HTML rather than guessing a round number. |
-| **The two-pass hypothesis is wrong**, and step 2 papers over a different cause. | Step 1 is a hard gate: confirm before changing. If it does not hold, stop and re-plan. |
-| **Fixing CLS regresses the non-English paint fix (#106)**, which gates on the same mount. | Explicit verification line; re-run the visibility harness, not a DOM probe — the DOM transitions identically either way, which is what made the original bug invisible. |
-| **Lab numbers improve, field numbers do not.** | Accept and state it. After deploy, check Search Console's Core Web Vitals report against real visitors before declaring it fixed. |
-| CLS differs by viewport; a mobile viewport may shift differently than the 1280×800 used here. | Measure at both a desktop and a mobile viewport in step 3. |
+| **A reserved height leaves a visible gap** on a school whose chips fit one line — trading an invisible shift for a visible defect. | Step 5 checks three schools plus a locale; the Approvals note says to surface it rather than ship it. |
+| **`min-height` shrinks the distance but not the score**, because CLS weights viewport fraction. | Step 6 is an explicit stop-and-re-plan gate, not a licence to keep patching. |
+| **The fix is viewport-dependent** — 71px is measured at 1280px. | Step 4 runs both desktop and mobile profiles; scope the rule to a breakpoint if needed. |
+| **Lab numbers improve, field numbers do not.** The site has been live since 2026-08-21, so CrUX data now exists. | Check Search Console's Core Web Vitals report after deploy before declaring it fixed. State plainly that these are lab numbers on one machine. |
 
 ## Open questions
 
-- **Is the ~1700px collapse the topic sections, or the `<details>` panels themselves?**
-  At +88ms `details` count is 0 and at +141ms it is 35, which suggests the panels — but the
-  pre-rendered HTML contains them, so the question is really *why they leave*.
-  **Default:** treat step 1 as the answer; do not guess.
-- **Should the reserved height come from the pre-rendered markup at build time?**
-  The pre-render already knows each page's true expanded height, so it could emit a
-  per-page value.
-  **Default:** try the simpler CSS `min-height` first; only reach for build-time values if
-  a static rule cannot fit all six pages.
-- **Is mobile LCP worth fixing at all if it needs bundle splitting?**
-  **Default:** measure and report in step 5, decide separately. A 4.3s LCP on emulated
-  Fast-3G may correspond to a much better real-world number for this audience.
+- **Is `min-height` enough, or does this need font metric overrides?** — **default:** try
+  `min-height` first (step 3); if step 4 fails, stop at step 6 and re-plan rather than
+  improvising a second fix in the same pass.
+- **Should Barlow be self-hosted?** It would fix this class of bug permanently and remove a
+  third-party render-blocking request, but it is a larger change. — **default:** out of
+  scope here; raise it as a follow-up if step 3 succeeds, or as the fallback plan if it
+  does not.
 
-## Implementation notes (partial — PR pending)
+---
 
-**Outcome: mobile CLS fixed, desktop CLS not.** Committed as a partial rather than
-reverted, because mobile-first indexing makes the mobile half the more valuable one and
-the negative findings below are worth keeping.
+## Follow-ups — measured 2026-08-22, deliberately NOT in this plan
 
-| Route | Desktop before | Desktop after | Mobile before | Mobile after |
-|---|---|---|---|---|
-| 6 school pages | 0.32 POOR | **0.32 POOR** | 0.32 POOR | **0.003 GOOD** |
-| home | 0.001 | 0.001 | — | 0.165 needs work |
-| compare | 0.06 | 0.16 | — | 0.134 needs work |
+Recorded here so they are not lost; each needs its own plan.
 
-### Step 1's gate passed — the hypothesis was right, and incomplete
+### 1. Compare page CLS — 0.1602 desktop / 0.1747 mobile (NEEDS-WORK)
 
-The two-pass mount is real and was proven, not assumed. At the shift the DOM goes from 35
-`<details>` to **0**, with seven `p.loading` placeholders, and page height drops
-4986 → 3310 → 4966px. The `ready` flag in `SchoolDetail` (`useState(false)`, flipped only
-after eight overlay promises resolve) is the cause.
+A **different mechanism** from the one above. The shift at +155ms is the school-picker pill
+row reflowing: `.control-hint`, `.empty` and the `BUTTON.pill.school` elements all move
+**up 45px** as one row of pills collapses.
 
-**But the diagnosis explained the height change, not the score.** After reserving space,
-the remaining desktop shift is only **20–40px per element** — the reserve worked — yet CLS
-stays 0.3175, because CLS weights the *fraction of viewport affected*, not the distance
-moved. On a ~5000px page, nudging nearly every element 40px scores as badly as moving it
-400px. Optimising displacement was optimising the wrong quantity.
+Two things make it a poor first target, which is why it is not this plan:
 
-### What was tried and rejected
+- **The numbers are unstable.** A single-route re-run measured 0.0027 GOOD; the median-of-3
+  says 0.1602. Reproduce it reliably before planning against it.
+- **It is measured in the empty state.** The timeline shows the table present at +127ms
+  (`rows=7`) then gone at +138ms (`tables=0`) — with no schools selected, the page renders
+  `compare.empty` ([Compare.tsx:263](../../src/pages/Compare.tsx#L263)). That is not what a
+  visitor who arrives from a school page sees, so the number may not describe the real
+  experience.
 
-- **Synchronous content loading** (seed first render from cache). Implemented, then found
-  useless for the case that matters: a cold page load has an empty cache, and the pre-render
-  and every real first visit are cold. Making it truly synchronous would mean bundling
-  **396–478 KB per school** into the main chunk — trading a layout shift for a worse LCP,
-  the other metric this plan is trying to fix. The cache was **kept** (it removes the
-  placeholder on re-visits: back button, language switch) but it is not the CLS fix.
-- **Raising the desktop `min-height`.** Makes it **worse**: 220px → 0.3184, 300px+ → 0.3365.
-  Overshoot causes sections to shrink back after load, shifting content the other way.
-  Settled desktop sections span 271–684px, so no single floor fits — and the plan's own risk
-  row (a wrong reserve leaves a visible gap) is the reason not to force it.
+### 2. Main bundle — 2.2 MB raw / 593 KB gzipped
 
-### A measurement trap worth recording
+Up ~50% gzipped from the 396 KB this plan recorded on 2026-08-06. It takes **~18s to
+transfer under the harness's Fast-3G emulation**.
 
-A probe reported *identical* CLS across six candidate `min-height` values, which first read
-as "the injected rule isn't applying." It **was** applying (`getComputedStyle` confirmed
-`min-height: 220px`); the values genuinely did not matter, for the viewport-fraction reason
-above. Nearly drew the opposite conclusion. Verify that a rule applied before concluding it
-had no effect — and vice versa.
+**This is an interactivity cost, not an LCP cost** — the pre-rendered HTML paints at ~2.3s
+regardless. Route-level code splitting would not move LCP. Worth its own plan on TTI/INP
+grounds, but do not justify it with LCP numbers.
 
-### Two findings outside the plan's scope
+### 3. Mobile LCP — the 20.7s figures are an ARTIFACT, not a regression
 
-Both were previously measured desktop-only, which is why the plan called them passing:
+`check:vitals -- --mobile` reports ~20.7s on `/school/cannon/` and
+`/school/davidson-day/`, and ~2.0s on the other nine — including
+`/school/providence-day/`, which is the **largest** page (484 KB) and therefore cannot be
+explained by size.
 
-- **`/compare/` needs work** — 0.16 desktop, 0.13 mobile. The plan scoped it out as good.
-- **The home page is 0.165 on mobile** despite 0.001 on desktop.
+Traced: both slow pages emit a **second LCP candidate at ~+17.9s**, for the *same* element
+grown from 11160 to 11412 bytes — a podcast line ("… is also covered in 1 episode
+outside…") reflowing when the bundle finally lands. LCP takes the last candidate, so those
+two pages report the bundle's arrival time while the other nine report their real paint.
 
-### What shipped
+**The real first paint is ~2.0–2.3s GOOD on every school page.** The original plan's
+mobile-LCP work is therefore dropped, not deferred. If a future pass wants a true mobile
+LCP number, it must exclude late candidates that merely re-measure an already-painted
+element.
 
-- `src/lib/content.ts` — `GROUPS_CACHE` + `peekMetricGroups()`, a synchronous read of
-  already-loaded research, keyed by topic×school×**lang** so an `es` result can never be
-  served to an `en` reader.
-- `src/pages/SchoolDetail.tsx` — seeds initial state from that cache, and no longer blanks
-  the page on a re-render when the data is already warm.
-- `src/index.css` — `.topic-section .loading` reserve: 220px desktop, 400px mobile. The
-  mobile value is what fixes mobile CLS.
+---
 
-### Remaining work
+## Implementation notes — 2026-08-22
 
-Desktop needs the topic sections to render their real content on the **first** pass, which
-means reworking the `ready` gate rather than reserving space around it — a more invasive
-change to the school-page mount than this plan scoped. **Re-plan rather than improvise**,
-now that the viewport-fraction insight changes the approach. Steps 5 (LCP) and 6
-(`check_vitals.mjs` regression guard) are untouched and still open.
+**Shipped, and the fix is NOT the one this plan specified.** Davidson Day desktop CLS went
+**0.3485 POOR → 0.0000 GOOD**, but via the header crest `<img>`, not `min-height` on
+`.school-header-topics` and not the Google Fonts stylesheet.
 
-## Baseline — 2026-08-21, `npm run check:vitals`
+### The measured root cause: an unsized, lazy-loaded image
 
-`scripts/check_vitals.mjs` now exists (`.claude/plans/valuegates.md`, workstream C), so
-every number below is reproducible on demand rather than remembered. `src/index.css:557`
-told readers to "re-measure with `scripts/check_vitals.mjs`" for months while that file did
-not exist; it does now, and this is its first run.
+`.dossier-crest` was an `<img>` with **no `width`/`height` attributes and
+`loading="lazy"`**. It therefore occupied **zero width** until the PNG arrived, then popped
+in at 156px and squeezed its flex sibling — the chip row — from **986px to 830px**:
 
-Median of 3 runs per route, against a real `vite preview`-equivalent server over the
-production `dist/`. Desktop 1280×900, CPU 1×. Mobile 390×844, CPU 4×, Fast-3G.
+```
++ 88ms  chipRow h=32  boxW=986  crestW=0     <- crest not yet loaded, chips fit ONE line
++125ms  chipRow h=71  boxW=830  crestW=156   <- crest lands, row re-wraps to TWO lines
++137ms  layout-shift v=0.3603                <- everything below moves 39px
+```
 
-### Desktop
+Davidson Day's eight chips total 906px: they fit on one line at 986px and wrap at 830px.
+That 906px is the whole story — it is the only school whose chip total falls **between** the
+two box widths.
 
-| Route | CLS | LCP |
+### Two claims in the plan's Context section were wrong
+
+Both were reproduced honestly and still misattributed, so they are corrected here rather
+than quietly dropped:
+
+1. **"The chip row wraps to two lines either way" is false for the school that matters.**
+   Measured fallback-vs-Barlow content widths per school show Davidson Day at 977px
+   (fallback) / 906px (Barlow) against an **830px** box — two lines in both states, so the
+   font swap never changes its settled row count. The school whose row count *does* flip on
+   the font swap is **Charlotte Catholic** (2 rows → 1), and it scored **0.0000** throughout.
+   The plan's 830px figure was the *post-crest* width; the pre-crest 986px was never measured.
+
+2. **"Blocking `fonts.googleapis.com` takes it to 0.0000" is real but not causal.** Re-run
+   with request counting (`blocked=1` / `allowed=1`, so neither arm was a silent no-op),
+   it reproduces exactly. Blocking the stylesheet removes a render-blocking request, which
+   reorders the load enough that the crest lands *before* the chips paint — masking the
+   shift rather than removing its cause. A correlation that survives a request-count
+   assertion can still be the wrong mechanism.
+
+The plan's own warning — *verify an intervention actually applied before believing a
+result* — is what caught this. Three CSS-only candidates (`width: clamp()`, `aspect-ratio`,
+`min-width`) all measured as no-change; checking whether they applied showed the injected
+attributes were **stripped by React hydration**, i.e. no-ops rather than null results.
+
+### The fix
+
+`src/pages/SchoolDetail.tsx` — the crest carries its real intrinsic
+`width={1200} height={800}` (every file in `public/logos/` is 1200×800) and drops
+`loading="lazy"`, which was wrong anyway for an above-the-fold image.
+`src/index.css` — `aspect-ratio: 3 / 2` on `.dossier-crest`, so the reserved box survives
+the `height: clamp()` that would otherwise re-collapse `width: auto`.
+
+### Why `min-height` would have been the wrong fix
+
+Step 3's rule would have shipped a visible defect. The chip row's settled height is **not**
+a constant: measured across viewports and locales it is 1–4 rows (32 / 71 / 111 / 150px),
+varying by school, by crest presence (box is 830px with a crest, 1014px without) and by
+locale. A flat 71px would have left a **~39px blank band** under the chip row on
+**Charlotte Catholic in English** and on **carmel-christian, covenant-day, gaston-day and
+hickory-grove-christian in Farsi** — all of which genuinely settle at one line. This is the
+exact trade the Approvals section said to surface rather than ship.
+
+### Results — `npm run check:vitals -- --both --runs 3`
+
+| Route | Desktop CLS before | after |
 |---|---|---|
-| `/` | 0.0012 GOOD | 148ms |
-| `/compare/` | **0.1608 NEEDS-WORK** | 140ms |
-| `/school/cannon/` | 0.0101 GOOD | 152ms |
-| `/school/carmel-christian/` | 0.0023 GOOD | 144ms |
-| `/school/charlotte-catholic/` | **0.3505 POOR** | 148ms |
-| `/school/charlotte-christian/` | 0.0102 GOOD | 152ms |
-| `/school/charlotte-country-day/` | 0.0102 GOOD | 160ms |
-| `/school/charlotte-latin/` | 0.0101 GOOD | 160ms |
-| `/school/covenant-day/` | 0.0023 GOOD | 152ms |
-| `/school/davidson-day/` | **0.3509 POOR** | 148ms |
-| `/school/gaston-day/` | 0.0023 GOOD | 152ms |
-| `/school/hickory-grove-christian/` | 0.0023 GOOD | 148ms |
-| `/school/providence-day/` | 0.0102 GOOD | 156ms |
+| `/school/davidson-day/` | 0.3485 POOR | **0.0000 GOOD** |
+| `/school/cannon/` | 0.0079 | 0.0000 |
+| `/school/providence-day/` | 0.0079 | 0.0000 |
+| `/school/charlotte-christian/` | 0.0093 | 0.0000 |
+| every other school page | GOOD | GOOD (0.0000–0.0012) |
+| `/compare/` | 0.1602 | 0.1602 (unchanged — follow-up 1) |
 
-### Mobile (CPU 4×, Fast-3G)
+The other crested schools improving from 0.0079 to 0.0000 is the same defect, smaller: they
+were already two lines at both box widths, so the pop-in shifted only the crest's own row.
+Mobile CLS is GOOD on every route. Mobile LCP still reports ~20.7s on cannon/davidson-day
+and 12.7s on `/` — the documented artifact in follow-up 3, untouched here.
 
-| Route | CLS | LCP |
-|---|---|---|
-| `/` | 0.0135 GOOD | **12,708ms POOR** |
-| `/compare/` | **0.1747 NEEDS-WORK** | 1,628ms GOOD |
-| `/school/cannon/` | 0.0031 GOOD | **20,648ms POOR** |
-| `/school/carmel-christian/` | 0.0277 GOOD | 2,008ms GOOD |
-| `/school/charlotte-catholic/` | 0.0274 GOOD | 2,004ms GOOD |
-| `/school/charlotte-christian/` | 0.0236 GOOD | 2,016ms GOOD |
-| `/school/charlotte-country-day/` | 0.0236 GOOD | 2,004ms GOOD |
-| `/school/charlotte-latin/` | 0.0031 GOOD | 2,016ms GOOD |
-| `/school/covenant-day/` | 0.0030 GOOD | 2,016ms GOOD |
-| `/school/davidson-day/` | 0.0028 GOOD | **20,820ms POOR** |
-| `/school/gaston-day/` | 0.0030 GOOD | 2,008ms GOOD |
-| `/school/hickory-grove-christian/` | 0.0277 GOOD | 2,008ms GOOD |
-| `/school/providence-day/` | 0.0031 GOOD | 2,012ms GOOD |
+Browser-verified at rest (real Chrome, 1280×900): Davidson Day, Cannon, Gaston Day,
+Charlotte Catholic and Davidson Day `?lang=fa`. Crest renders 156×104 from `nat=1200x800`,
+settled header heights match the pre-fix values (277px crested / 238px uncrested), Charlotte
+Catholic keeps its single 32px chip row with no blank band, and RTL mirrors correctly.
 
-### What this baseline changes about the plan above
+### Follow-ups unchanged
 
-**The desktop CLS problem is SCHOOL-SPECIFIC, not universal — and that is new.** The
-"CLS 0.32" in this plan's title and opening table was measured on `/school/cannon/`, and
-Cannon now measures **0.0101 GOOD**. Ten of eleven school pages are GOOD on desktop. Only
-**`charlotte-catholic` (0.3505)** and **`davidson-day` (0.3509)** are POOR, and they
-reproduce the ~0.35 magnitude tightly across runs, so this is the same defect — it just
-does not affect the page the original diagnosis profiled.
-
-That reframes the remaining work. This plan's "Remaining work" section says desktop needs
-the `ready` gate reworked for *every* school page; the measurement says nine schools no
-longer need anything. **Do not start from that section.** Start from what those two pages
-have that the other nine do not.
-
-One lead, offered as a lead and NOT as a finding — it was not tested: Charlotte Catholic
-and Davidson Day are the two schools with **seven** research areas rather than eight
-(Davidson Day has no Summer Programs material at all; Charlotte Catholic shipped across
-seven areas). Both pre-render fully — 33 and 31 `<details>`, zero `.loading` placeholders
-in the shipped HTML — so it is *not* a pre-rendering failure. Whether a missing topic
-section is causally involved is exactly the sort of thing the next plan should measure
-before believing.
-
-**`/compare/` reproduces its recorded regression precisely** — 0.16 desktop, recorded here
-as 0.16 in "Two findings outside the plan's scope". It is now 0.1747 on mobile too, where
-this plan recorded 0.13. Still the worst non-school route.
-
-**The home page's mobile CLS is FIXED** — this plan records 0.165; it now measures 0.0135.
-
-### Caveats on these numbers
-
-- **The mobile LCP figures are not comparable to this plan's 4.27s.** That figure came
-  from a discarded harness whose throttle settings are unrecoverable. `check_vitals.mjs`
-  uses Chrome DevTools' Fast-3G preset (1.6 Mbps / 750 Kbps / 150ms RTT) at CPU 4×, which
-  is stricter. The POOR *verdict* agrees; the magnitude does not, and nothing is gained by
-  pretending otherwise. **Compare future runs to THIS table, not to the 2026-08-06 one.**
-- The three ~20s mobile LCP outliers are **reproducible, not noise** — `/school/cannon/`
-  re-measured at 20,640ms on an independent run. Ten routes sit near 2,010ms, which is
-  suspiciously uniform and looks like a resource-timing boundary rather than a per-page
-  property. Worth understanding before treating any of it as a page defect.
-- Lab numbers on one machine. They find problems; they do not predict the field score
-  Google ranks on. The site now has real traffic, so CrUX data may exist — check it before
-  spending effort on a lab number.
+Compare's CLS (1), the bundle (2) and the mobile-LCP artifact (3) are all as recorded — none
+were touched. One new observation for whoever takes (1): `/` now also reports a POOR mobile
+LCP (12.7s), which has the same late-candidate shape as (3) and is probably the same artifact.

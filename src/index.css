@@ -721,10 +721,17 @@ main { flex: 1; }
 .school-header-topics { display: flex; flex-wrap: wrap; gap: 8px; }
 /* School's official athletics mascot mark, pinned to the right of the header.
    dossier-body has flex:1, so the crest sits at the far right; on narrow/wrapping
-   layouts the whole header reflows and the crest drops below the text. */
+   layouts the whole header reflows and the crest drops below the text.
+
+   `width: auto` would collapse the box to zero until the PNG's intrinsic size is
+   known, which is the shift this rule exists to prevent — see the comment on the
+   <img> in src/pages/SchoolDetail.tsx. `aspect-ratio` restates the 3:2 the
+   width/height attributes declare, so the reserved box holds even though the
+   height below is a clamp() rather than the attribute's own pixels. */
 .dossier-crest {
   flex: 0 0 auto;
   height: clamp(72px, 9vw, 104px);
+  aspect-ratio: 3 / 2;
   width: auto;
   max-width: 40%;
   object-fit: contain;
