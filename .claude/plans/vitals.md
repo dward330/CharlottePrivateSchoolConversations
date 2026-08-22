@@ -371,6 +371,25 @@ Charlotte Catholic and Davidson Day `?lang=fa`. Crest renders 156×104 from `nat
 settled header heights match the pre-fix values (277px crested / 238px uncrested), Charlotte
 Catholic keeps its single 32px chip row with no blank band, and RTL mirrors correctly.
 
+### Post-deploy observation — a possible second wrap-boundary case
+
+Deployed 2026-08-22 (Pages build `b5a5a86`, 42s, built clean). Measured against the **live**
+site, Davidson Day is **CLS 0.0000** with the crest rendering 156×104 from `attr=1200x800`,
+so the fix holds in production and not just against local `dist/`.
+
+But **`/school/charlotte-catholic/` threw 0.3492 on one of three production runs** (median
+0.0000; 0.0000 on every local run). That page has **no crest**, so it is *not* the defect
+fixed here. The likely shape: Charlotte Catholic is the one school whose chip row settles at
+a **single** line (8 chips, 941px content in a 1014px box — only 73px of slack), making it
+the page where variable real-network timing can still flip the row count. That is the same
+wrap-boundary sensitivity, on a different trigger.
+
+Deliberately **not** chased in this pass, per step 6 — one sample, and stacking a second fix
+was explicitly out of bounds. Whoever picks it up should reproduce it first over many runs
+against the live site; if it is real, the durable fix is the chip row's slack, not another
+image. Note it would ALSO have been invisible to the plan's `min-height`, which reserves two
+lines for a row that legitimately wants one here.
+
 ### Follow-ups unchanged
 
 Compare's CLS (1), the bundle (2) and the mobile-LCP artifact (3) are all as recorded — none
