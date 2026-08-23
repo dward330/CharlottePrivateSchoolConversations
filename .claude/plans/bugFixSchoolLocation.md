@@ -1,11 +1,11 @@
 ---
 name: bugFixSchoolLocation
 title: Show each school's real city in the dossier kicker instead of a hardcoded "Charlotte, NC"
-status: english-done
+status: implemented
 phases: 2
 created: 2026-08-23
 branch: fix/school-location-city
-prs: []
+prs: [180]
 ---
 
 # Show each school's real city in the dossier kicker
@@ -320,3 +320,39 @@ so no overlay rebuild, no `i18n:build`, and no work-file extraction is needed.
 - **Should the JSON-LD in `src/lib/head.ts` gain `addressLocality` now that a truthful city
   exists in the data?** — **default:** no, out of scope. Raise it as a follow-up; it is a
   genuine SEO improvement but changes pre-rendered output and deserves its own review.
+
+## Implementation notes
+
+Both phases shipped in PR #180 (merged 2026-08-23). The plan was followed as written;
+three things are worth recording.
+
+**One unplanned file: `.claude/docs/DATA-SCHEMA.md`.** The first `npm run build` failed on
+`check:schema`, because `scripts/gen_data_schema.mjs` catalogs the `Brand` type
+(`brands.ts` is in its type-doc list). `npm run schema` added exactly one row —
+`city` | `string` | yes. This is a good side effect rather than a workaround: `/add-school`
+reads that doc first, so a future school is now prompted for its city by the schema itself,
+which reinforces the "required, not optional" decision.
+
+**The open question was resolved as the plan's default — option (a), interpolate Latin.**
+`ar` and `fa` now render `Charlotte` instead of `شارلوت` for the six Charlotte schools. The
+consequence was flagged to the user in the Phase 1 report and in the PR body rather than
+shipped silently, on the grounds that the `ar` native review settled the transliteration's
+*spelling*, not whether to transliterate at all. If a future Arabic reviewer objects, the
+fallback is option (b) — a per-locale city map — and the five city names needing
+transliteration are Gastonia, Concord, Matthews and Davidson.
+
+**No bidi isolate was needed, as predicted.** The plan reasoned that `{{city}}` is a
+strong-L Latin identifier beside a comma rather than a bidi-neutral figure, and asked for
+browser verification rather than assumption. Screenshots on `fa` and `ar` confirmed it: the
+city, separator and state read in the correct order and the Latin name does not jump across
+the comma. The `ar` comma correctly attaches to the city's left in RTL.
+
+One measurement caveat for anyone repeating the RTL check: a per-character x-position scan
+reverses RTL text by construction, so it reports the Persian/Arabic words backwards and
+reads as a defect when nothing is wrong. The screenshot is the trustworthy artifact.
+
+### Second open question — still open
+
+Adding `addressLocality` to the JSON-LD in `src/lib/head.ts` was left out of scope as the
+plan specified. The premise has now changed — a truthful per-school city exists in the data,
+so the "do NOT invent any" comment no longer blocks it. Worth its own plan.
