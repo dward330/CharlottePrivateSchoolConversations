@@ -5800,7 +5800,7 @@ const DAVIDSON_DAY: CourseOfferings = {
       source: 'Davidson Day Lower School & Early Childhood pages',
       sourceUrl: 'https://www.davidsonday.org/academics/lower-school',
       notPublished:
-        'Davidson Day publishes no course lists, subject lists, or named curriculum programs for Early Childhood or Lower School. Verified against the live pages, their October 2025 Wayback captures, and the school’s full Issuu publication index.',
+        'Davidson Day publishes no course lists, subject lists, or named curriculum programs for Early Childhood or Lower School. Verified against the live pages, their October 2025 Wayback captures, and the school’s full Issuu publication index. The Lower School runs an 8:1 student-to-faculty ratio.',
       departments: [
         {
           name: 'What is published',
@@ -5816,11 +5816,6 @@ const DAVIDSON_DAY: CourseOfferings = {
               tag: 'K–Gr 4',
               description:
                 'Art, world language, library, physical education, and music, plus Lower School science and technology labs for hands-on experimentation.',
-            },
-            {
-              title: 'Student-to-faculty ratio',
-              tag: 'K–Gr 4',
-              description: 'The Lower School runs an 8:1 student-to-faculty ratio.',
             },
           ],
         },
