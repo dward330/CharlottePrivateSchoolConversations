@@ -1,11 +1,11 @@
 ---
 name: addressLocality
 title: Publish each school's real city in the JSON-LD as a PostalAddress, now that brands.ts holds a truthful city
-status: in-progress
+status: implemented
 phases: 1
 created: 2026-08-23
 branch: feat/jsonld-address-locality
-prs: []
+prs: [182]
 ---
 
 # Publish each school's city in the JSON-LD
@@ -297,3 +297,53 @@ No `src/data/` change: `city` already exists on all eleven `BRANDS` entries.
 None. The one real decision — how much of the address to publish — was settled with the user
 during planning: **city + state only** (2026-08-23), with full street + ZIP left available in
 the committed source-material record for a later plan.
+
+## Implementation notes
+
+Shipped as [PR #182](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/182)
+on 2026-08-23. All four steps landed as written. Three notes where reality differed from the
+plan, none of them changing the outcome:
+
+**`check:seo` is NOT chained into `npm run build`.** The Verification section said the build
+"chains `prerender`, `seo:files` and `check:seo`, so it exercises the new assertion". The
+build chain is actually `tsc -b && vite build && prerender && seo:files && check:schema &&
+check:ranks && check:ncsuper && check:live && check:chrome && check:runtime && check:spans`
+— `check:seo` is absent. It was run separately and passes. Worth knowing: **the new locality
+assertion is not a build gate**, so a wrong city fails only when someone runs `npm run
+check:seo`. Adding it to the chain was not in this plan's scope and is left as a candidate
+follow-up.
+
+**The checker parses the JSON-LD rather than regex-matching it, and deliberately does NOT
+unescape it.** Step 2 suggested asserting the HTML "contains an `addressLocality`". Parsing
+was chosen instead so a malformed-but-present block fails rather than passing, which also
+gives four distinct failure messages (missing address, wrong `@type`, unparseable JSON,
+wrong city). The helper skips `unescapeHtml()` on purpose: `<script>` is a raw-text element,
+so `outerHTML` returns its contents verbatim — verified against `dist/`, where the JSON-LD
+is unescaped — and running the attribute unescaper over it would corrupt a genuine `&amp;`
+inside a description into `&`.
+
+**`brands.ts` imports cleanly under plain Node**, as the plan expected — confirmed by
+experiment before relying on it, not assumed. The `gen_data_schema.mjs` source-parsing
+fallback was not needed. `seo_routes.mjs` already imports a `.ts` module, so the direct
+import follows existing precedent.
+
+### Verification results
+
+- `npx tsc --noEmit` — clean.
+- `npm run build` from a scratch `rm -rf dist` — exit 0.
+- `npm run check:seo` — 13 pre-rendered pages, sitemap and robots.txt all OK.
+- `npm run check:schema` — up to date (no `Brand` field added, as expected).
+- All eleven `dist/` localities confirmed: Concord, Matthews ×2, Davidson, Gastonia,
+  Charlotte ×6.
+- **The assertion was confirmed to bite.** Four negative tests against the built page — wrong
+  city, address removed, `@type` changed to `Place`, malformed JSON — each failed naming the
+  route with the correct message, and `dist/` was restored byte-identical afterwards. The
+  first attempt at this test was inconclusive (it skipped `seo:files` and failed on missing
+  sitemap/robots instead); it was redone properly rather than accepted.
+- **Externally validated** against validator.schema.org for `gaston-day`, `covenant-day`,
+  `cannon` and `charlotte-latin`: `PostalAddress` parses with 0 errors and 0 warnings, and
+  `addressCountry: 'US'` resolves to a `Country` node.
+
+### Not deployed
+
+`npm run deploy` remains the user's call. The change is merged to `main` but not published.
