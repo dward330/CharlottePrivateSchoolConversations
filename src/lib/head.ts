@@ -99,6 +99,7 @@ export function metaForRoute(route: Route): PageMeta {
         `${topicList(3)} and more. Every figure cited to its source.`,
     )
     const logo = BRANDS[school.slug]?.logo
+    const city = BRANDS[school.slug]?.city
     return {
       title: `${school.name} — ${SITE_NAME}`,
       description,
@@ -109,9 +110,27 @@ export function metaForRoute(route: Route): PageMeta {
         name: school.name,
         url: SITE_ORIGIN + path,
         description,
-        // Only fields the repo can populate truthfully. There is no structured
-        // address, geo, phone or founding data in src/data/ — do NOT invent any
-        // to fill out the schema (see "Out of scope" in .claude/plans/seo.md).
+        // Only fields the repo can populate truthfully — still no geo, phone,
+        // founding date or EIN, none of which exist in src/data/, and none of
+        // which may be invented to fill out the schema (see "Out of scope" in
+        // .claude/plans/seo.md). `city` is the exception that plan anticipated:
+        // verified per-school data added in PR #180, traceable to
+        // source-material/branding/_shared/. The state is a constant because
+        // all eleven schools are in NC — the same call the dossier kicker made.
+        //
+        // The `city ?` guard is a LOOKUP guard, not an optional-field guard:
+        // `city` is required on Brand, so it is only ever absent for a slug
+        // missing from BRANDS entirely.
+        ...(city
+          ? {
+              address: {
+                '@type': 'PostalAddress',
+                addressLocality: city,
+                addressRegion: 'NC',
+                addressCountry: 'US',
+              },
+            }
+          : {}),
         ...(logo ? { logo: SITE_ORIGIN + logo } : {}),
       },
     }
