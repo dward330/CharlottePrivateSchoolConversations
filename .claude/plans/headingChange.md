@@ -1,11 +1,11 @@
 ---
 name: headingChange
 title: Reword the home hero eyebrow and the footer disclaimer from "parent" to "independent" research
-status: english-done
+status: implemented
 phases: 2
 created: 2026-08-23
 branch: feat/heading-change
-prs: []
+prs: [177]
 ---
 
 # Reword the home hero eyebrow and footer disclaimer to "independent research"
@@ -324,3 +324,46 @@ No component, CSS, script, or data file changes.
 - **Whether "independent" should also replace "parent" anywhere else in the chrome** (no
   other occurrence exists in `src/locales/en.json` beyond these two keys — verified).
   **Default:** no; change only the two strings the user named.
+
+## Implementation notes
+
+Shipped as PR #177 (both phases, one PR). Built as planned; three things worth recording.
+
+**`check:spans` passed, contrary to the Verification section.** The plan told the
+implementer to expect it red on pre-existing gaston-day findings and to confirm the
+failures were the same ones. They are gone — fixed on `main` by the #174/#176 work that
+landed between planning and implementation. The whole `npm run build` chain exits 0, so
+there is no expected-red caveat left on this branch.
+
+**Per-locale renderings, and how the "independent school" collision was guarded.** Step 3
+asked for a construction where the adjective cannot attach to *schools*. In every case
+grammatical agreement or word order settles it rather than word placement alone:
+
+| Locale | eyebrow second segment | why it cannot attach to *schools* |
+|---|---|---|
+| `es` | `investigación independiente` | fem. sing.; `escuelas` is fem. **pl.** |
+| `fr` | `recherche indépendante` | fem. sing.; `écoles` is fem. **pl.** |
+| `it` | `ricerca indipendente` | sing.; `scuole` is pl. |
+| `ht` | `rechèch endepandan` | adjective directly follows its noun |
+| `bn` | `স্বতন্ত্র গবেষণা` | adjective precedes its noun |
+| `hi` | `स्वतंत्र शोध` | adjective precedes its noun |
+| `te` | `స్వతంత్ర పరిశోధన` | adjective precedes its noun |
+| `fa` | `پژوهش مستقل` | ezāfe binds the adjective to `پژوهش` |
+| `ar` | `بحث مستقل` | indef. masc. sing.; `المدارس` is def. fem. pl. |
+
+Two footers needed more than a phrase swap because their opening clause was structurally
+audience-framed rather than merely containing an audience noun: `te`
+(`తల్లిదండ్రుల కోసం రూపొందించిన పరిశోధన`, "research designed *for parents*") became
+`స్వతంత్రంగా చేసిన పరిశోధన` ("research carried out *independently*"), and `fa`
+(`پژوهشی رو به والدین`, "research *directed at* parents") became `پژوهشی مستقل`. Both
+second sentences are byte-identical to before.
+
+**One cosmetic finding, deliberately left.** At 375px the **English** eyebrow now wraps to
+two lines, breaking inside `INDEPENDENT RESEARCH` rather than at the `·`, because
+"independent" is four characters longer than "parent". Phase 1's verification asked for
+"no wrap mid-phrase at mobile width", so this is a miss against the letter of that check —
+but it is a property of the English wording the user reviewed and approved at the gate, and
+every other locale stays on one line at that width. Fixing it means a CSS change (a
+`white-space` rule on the segments, or a smaller mobile `font-size`), which this plan puts
+out of scope. Recorded here so a later pass can pick it up as a decision rather than
+rediscover it as a bug.
