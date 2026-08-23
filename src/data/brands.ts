@@ -19,9 +19,18 @@
 // (`https://www.youtube.com/embed/<id>`), not a watch/share link. Optional —
 // schools without one hide the Welcome Video section and its two TOC entries.
 
+// `city` is the municipality in the school's own published mailing address, and it
+// drives the dossier kicker ("School dossier · Gastonia, NC"). Five of the eleven
+// schools are not in Charlotte, so this is REQUIRED rather than optional: a new
+// school with no city is a compile error, not a page that silently claims Charlotte.
+// Verified 2026-08-23 against each school's own site; addresses and source URLs are
+// in `source-material/branding/_shared/`. The state is NOT stored here — every school
+// is in NC, and the abbreviation lives in each locale's kicker string as chrome.
+
 export type Brand = {
   color: string
   initials: string
+  city: string
   logo?: string
   welcomeVideoUrl?: string
 }
@@ -30,6 +39,7 @@ export const BRANDS: Record<string, Brand> = {
   cannon: {
     color: '#8a2433', // Cougars — maroon & gold
     initials: 'CA',
+    city: 'Concord',
     logo: '/logos/cannon.png',
     welcomeVideoUrl: 'https://www.youtube.com/embed/dI5x4KEkBSY',
   },
@@ -39,6 +49,7 @@ export const BRANDS: Record<string, Brand> = {
     // and 'CA' — Cannon — are taken, so the badge uses 'CM' for CarMel.)
     color: '#13294b',
     initials: 'CM',
+    city: 'Matthews',
     welcomeVideoUrl: 'https://www.youtube.com/embed/0ILLfsxWGYg', // user-chosen, 2026-08-16
   },
   'charlotte-catholic': {
@@ -60,23 +71,27 @@ export const BRANDS: Record<string, Brand> = {
     // start with C. 'CK' for Charlotte CatholiK is wrong; this uses the school's
     // own common abbreviation CCHS reduced to its distinctive pair.
     initials: 'CH',
+    city: 'Charlotte',
     welcomeVideoUrl: 'https://www.youtube.com/embed/mk06OtSv9ps', // user-chosen, 2026-08-18
   },
   'charlotte-christian': {
     color: '#1e40af', // Knights — royal blue & white
     initials: 'CC',
+    city: 'Charlotte',
     logo: '/logos/charlotte-christian.png',
     welcomeVideoUrl: 'https://www.youtube.com/embed/Be0ULPLDrMM',
   },
   'charlotte-country-day': {
     color: '#107a43', // Buccaneers — green & gold
     initials: 'CD',
+    city: 'Charlotte',
     logo: '/logos/charlotte-country-day.png',
     welcomeVideoUrl: 'https://www.youtube.com/embed/voNR9UF346g',
   },
   'charlotte-latin': {
     color: '#12294f', // Hawks — navy & white
     initials: 'CL',
+    city: 'Charlotte',
     logo: '/logos/charlotte-latin.png',
     welcomeVideoUrl: 'https://www.youtube.com/embed/QvM-MuKndus',
   },
@@ -86,11 +101,13 @@ export const BRANDS: Record<string, Brand> = {
     // the darkest navy in the set, distinct from Latin's #12294f.
     color: '#002855',
     initials: 'CV', // 'CD' is taken by Charlotte Country Day's badge
+    city: 'Matthews',
     welcomeVideoUrl: 'https://www.youtube.com/embed/sqXDmXq2zXY', // user-chosen, 2026-08-16
   },
   'davidson-day': {
     color: '#1e5fd1', // Patriots — red, white & navy
     initials: 'DD',
+    city: 'Davidson',
     logo: '/logos/davidson-day.png',
     welcomeVideoUrl: 'https://www.youtube.com/embed/wTYvCc7FXCs',
   },
@@ -111,6 +128,7 @@ export const BRANDS: Record<string, Brand> = {
     // rather than dropped.
     color: '#00263f',
     initials: 'GD', // confirmed by the GD monogram on the school's crest
+    city: 'Gastonia',
     welcomeVideoUrl: 'https://www.youtube.com/embed/f1ohuLbiKJI', // user-chosen, 2026-08-18
   },
   'hickory-grove-christian': {
@@ -120,11 +138,13 @@ export const BRANDS: Record<string, Brand> = {
     // brighter. Initials 'HG' — HG/HGC not otherwise taken.
     color: '#14396e',
     initials: 'HG',
+    city: 'Charlotte',
     welcomeVideoUrl: 'https://www.youtube.com/embed/hhtjvy5tCVE', // user-chosen, 2026-08-17
   },
   'providence-day': {
     color: '#be123c', // Chargers — red, white & navy
     initials: 'PD',
+    city: 'Charlotte',
     logo: '/logos/providence-day.png',
     welcomeVideoUrl: 'https://www.youtube.com/embed/EfrQPAWsqv8',
   },
@@ -144,5 +164,6 @@ export function brandFor(slug: string, name: string): Brand {
       .slice(0, 2)
       .map((w) => w[0]?.toUpperCase() ?? '')
       .join('') || slug.slice(0, 2).toUpperCase()
-  return { color: FALLBACK_COLOR, initials }
+  // Unknown-slug path only — every school in BRANDS carries its own verified city.
+  return { color: FALLBACK_COLOR, initials, city: 'Charlotte' }
 }

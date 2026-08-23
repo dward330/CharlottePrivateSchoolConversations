@@ -854,6 +854,7 @@ Per-school colors and marks used by the page chrome.
 |---|---|---|
 | `color` | `string` | yes |
 | `initials` | `string` | yes |
+| `city` | `string` | yes |
 | `logo` | `string` |  |
 | `welcomeVideoUrl` | `string` |  |
 
