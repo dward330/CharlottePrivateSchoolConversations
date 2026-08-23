@@ -1,11 +1,11 @@
 ---
 name: dd-lower-school-course-offerings-bug
 title: Davidson Day Lower School — drop the "Student-to-faculty ratio" pseudo-course, fold 8:1 into the scope note
-status: english-done
+status: implemented
 phases: 2
 created: 2026-08-23
 branch: fix/dd-lower-school-course-offerings-bug
-prs: []
+prs: [186]
 ---
 
 # Davidson Day Lower School — drop the "Student-to-faculty ratio" pseudo-course
@@ -327,3 +327,62 @@ pre-existing gaston-day failures, and the comparison must be against that baseli
   a positive fact about the division.
 - Does `check:schema` need a regeneration? — **default:** run `npm run schema` if
   `check:schema` fails, commit the result; otherwise touch nothing generated.
+
+## Implementation notes
+
+Both phases shipped as planned; the plan's analysis of the overlay layer was
+accurate in every particular. Four things worth recording.
+
+**`strings` is an ARRAY, not an object.** The plan (and the initial read) referred
+to overlay entries by key — `2247`, `2251`, `2253`, `2254`. Those are array
+*indices*, not object keys, in both the shipped overlays and the work files. An
+edit written as `delete strings[k]` leaves a hole rather than removing an entry.
+The edit was done as an array filter instead. This does not change the plan's
+advice — matching on the `at` path rather than the number was correct for a
+second reason it did not name.
+
+**The work files needed the same three edits.** The plan's *Files touched* table
+lists only `src/data/overlays/course-offerings.<lang>.json`. Each has a sibling
+under `src/data/overlays/work/` carrying the English `text` alongside `t`, and
+`check:sepdrift` reads the **work** files, not the shipped ones — so a work file
+left stale would have gone unnoticed by the gate the plan nominated to catch a
+re-typed figure. 18 files were edited, not 9; each work entry also had its `text`
+updated to the new English.
+
+**No bidi isolate is stored for `fa`/`ar`, and none was added.** The plan
+suggested wrapping the figure per LRI…PDI "if it sits against directional text."
+Measured first: **zero** of the 2,934 entries in either RTL overlay contain
+U+2066 or U+200E, isolates are applied at *render* by `format.ts` and only to
+money runs, and both locales already shipped this exact sentence unisolated as
+the course description. The browser check confirms `8:1` reads left-to-right
+inside the RTL paragraph unaided. Adding an isolate would have diverged from
+every neighbouring entry to fix a problem that does not occur.
+
+**`es` needed a re-worded sentence, not the shipped one.** The other eight
+locales reuse their own rendering of the deleted course description verbatim.
+Spanish had spelled the ratio out — *"una proporción de 8 estudiantes por
+docente"* — which carries no `8:1` token. Re-homing it unchanged would have put a
+figure into the scope note in a form no parent could match against the school's
+page, and `check:sepdrift` would not have caught it (the token is simply absent,
+not drifted). Changed to *"una proporción estudiantes-docentes de 8:1"*.
+
+**Two corrections to the plan's stated baselines**, both in the harmless
+direction:
+
+- `check:spans` is **green**, not "already red on 2–3 pre-existing gaston-day
+  parse failures". Those were fixed at some point after the memory note the plan
+  drew on was written. Baseline recorded green before starting; still green after.
+- `check:live` is **not** known-incomplete for this topic any more — it passes
+  cleanly over course-offerings in all nine locales. PR #167 fixed the
+  incomplete topic map, so it functioned here exactly as the plan hoped: it
+  flagged three stamps per locale at the end of Phase 1 and returned to zero
+  after Phase 2.
+
+**One leak removed as a side effect.** `te` had left the deleted course's title
+untranslated (`"Student-to-faculty ratio"`). Deleting the entry drops it, so
+`npm run i18n:leaks -- --lang te` falls 18 → 17 Davidson Day flags. `es` is
+unchanged at 7. The remaining flags in both are grade-band tags in other
+divisions — pre-existing and the legitimate-keep class.
+
+No `DATA-SCHEMA.md` regeneration was needed; `check:schema` passed untouched, as
+the plan's open question predicted.
