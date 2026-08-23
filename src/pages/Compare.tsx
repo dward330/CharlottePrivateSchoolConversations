@@ -11,7 +11,6 @@ import {
   schoolHasMetric,
 } from '../lib/manifest.ts'
 import { SchoolBadge } from '../components/SchoolBadge.tsx'
-import { BlueprintCorners } from '../components/BlueprintCorners.tsx'
 import { CellQual } from '../components/CellQual.tsx'
 import { toCompare, toSchool, toHome, useNavigate } from '../lib/router.ts'
 import {
@@ -263,7 +262,6 @@ export function Compare({ topic, schools }: Props) {
         <p className="empty">{t('compare.empty')}</p>
       ) : (
         <div className="table-frame">
-          <BlueprintCorners />
           <div className="table-wrap" role="region" aria-label={t('compare.tableAria')} tabIndex={0}>
             <table className="compare">
               <thead>

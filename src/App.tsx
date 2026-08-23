@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { useRoute, toHome, toCompare, useNavigate } from './lib/router.ts'
+import { useRoute, toHome, useNavigate } from './lib/router.ts'
 import { setPageMeta } from './lib/head.ts'
 import { assetUrl } from './lib/asset.ts'
 import { contactMailto, CONTACT_EMAIL } from './lib/contact.ts'
 import { trackEvent } from './lib/analytics.ts'
-import { topics, schools, brandOf, schoolBySlug } from './lib/manifest.ts'
+import { brandOf, schoolBySlug } from './lib/manifest.ts'
 import { Home } from './pages/Home.tsx'
 import { SchoolDetail } from './pages/SchoolDetail.tsx'
 import { Compare } from './pages/Compare.tsx'
@@ -18,7 +18,6 @@ function App() {
   const { t } = useTranslation()
   const route = useRoute()
   const navigate = useNavigate()
-  const allSlugs = schools.map((s) => s.slug)
   // Null on Home and Compare; StickySchoolTitle renders nothing for those.
   const schoolName =
     route.name === 'school' ? (schoolBySlug(route.slug)?.name ?? null) : null
@@ -59,13 +58,6 @@ function App() {
             is not clickable. */}
         <StickySchoolTitle name={schoolName} />
         <div className="nav-actions">
-          <a
-            className={`navlink ${route.name === 'compare' ? 'on' : ''}`}
-            href={toCompare(topics[0]?.slug ?? null, allSlugs)}
-            onClick={(e) => { e.preventDefault(); navigate(toCompare(topics[0]?.slug ?? null, allSlugs)) }}
-          >
-            {t('nav.compare')}
-          </a>
           {/* A real anchor, never a <button> + window.location: the browser must
               handle the mailto itself (and the address is copyable). No
               target="_blank" — it leaves an empty tab behind. trackEvent is

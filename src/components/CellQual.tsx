@@ -1,7 +1,6 @@
 import { useId, useRef } from 'react'
 import { useTranslation } from 'react-i18next'
 import type { CellQual as CellQualData } from '../data/metricValues.ts'
-import { BlueprintCorners } from './BlueprintCorners.tsx'
 
 type Props = {
   /** The already-localized display value (e.g. '$3.68M', '≥19'). */
@@ -101,7 +100,6 @@ export function CellQual({ value, qual, school, metricKey }: Props) {
         onPointerEnter={clearClose}
         onPointerLeave={scheduleClose}
       >
-        <BlueprintCorners />
         <div className="tip-scroll">
           <span className="tip-kind">{t(`compare.qual.${qual.kind}`)}</span>
           <span className="tip-body">{qual.text}</span>

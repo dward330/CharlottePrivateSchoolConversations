@@ -13,7 +13,6 @@ import {
 } from '../lib/content.ts'
 import { SchoolBadge } from '../components/SchoolBadge.tsx'
 import { TopicGlyph } from '../components/TopicGlyph.tsx'
-import { BlueprintCorners } from '../components/BlueprintCorners.tsx'
 import { ProseContent } from '../components/ProseContent.tsx'
 import { PodcastDeepDive } from '../components/PodcastDeepDive.tsx'
 import { proseSummary, previewHasGapLanguage } from '../lib/prose.ts'
@@ -438,7 +437,6 @@ export function SchoolDetail({ slug }: { slug: string }) {
       </a>
 
       <header className="dossier-header">
-        <BlueprintCorners />
         <SchoolBadge slug={slug} name={school.name} size={84} />
         <div className="dossier-body">
           <p className="dossier-kicker">{tr('school.dossierKicker')}</p>
@@ -771,7 +769,6 @@ export function SchoolDetail({ slug }: { slug: string }) {
                   <div className="note-cards">
                     {offerings.divisions.map((d) => (
                       <details key={d.title} className="note-card note-card-report">
-                        <BlueprintCorners />
                         <summary>
                           <span className="note-card-head">
                             <span className="course-kicker">{d.grades}</span>
@@ -799,7 +796,6 @@ export function SchoolDetail({ slug }: { slug: string }) {
                         key={card.key}
                         className="note-card note-card-report note-card-sports"
                       >
-                        <BlueprintCorners />
                         <summary>
                           <span className="note-card-head">
                             <span className="topic-title">{cardTitle(tr, 'sports', card.key, card.title)}</span>
@@ -829,7 +825,6 @@ export function SchoolDetail({ slug }: { slug: string }) {
                         key={card.key}
                         className="note-card note-card-report note-card-arts"
                       >
-                        <BlueprintCorners />
                         <summary>
                           <span className="note-card-head">
                             <span className="topic-title">
@@ -864,7 +859,6 @@ export function SchoolDetail({ slug }: { slug: string }) {
                         key={card.key}
                         className="note-card note-card-report note-card-cs"
                       >
-                        <BlueprintCorners />
                         <summary>
                           <span className="note-card-head">
                             <span className="topic-title">{cardTitle(tr, 'college-support', card.key, card.title)}</span>
@@ -902,7 +896,6 @@ export function SchoolDetail({ slug }: { slug: string }) {
                         key={card.key}
                         className="note-card note-card-report note-card-as"
                       >
-                        <BlueprintCorners />
                         <summary>
                           <span className="note-card-head">
                             <span className="topic-title">{cardTitle(tr, 'after-school', card.key, card.title)}</span>
@@ -944,7 +937,6 @@ export function SchoolDetail({ slug }: { slug: string }) {
                           key={card.key}
                           className="note-card note-card-report note-card-su"
                         >
-                          <BlueprintCorners />
                           <summary>
                             <span className="note-card-head">
                               <span className="topic-title">{cardTitle(tr, 'summer-programs', card.key, card.title)}</span>
@@ -985,7 +977,6 @@ export function SchoolDetail({ slug }: { slug: string }) {
                         key={card.key}
                         className="note-card note-card-report note-card-clubs"
                       >
-                        <BlueprintCorners />
                         <summary>
                           <span className="note-card-head">
                             <span className="topic-title">
@@ -1045,7 +1036,6 @@ export function SchoolDetail({ slug }: { slug: string }) {
                         key={g.metric.key}
                         className={`note-card${report || clusters || catalog ? ' note-card-report' : ''}`}
                       >
-                        <BlueprintCorners />
                         <summary>
                           <span className="note-card-head">
                             <span className="topic-title">{metricLabel(tr, g.metric.key, g.metric.label)}</span>

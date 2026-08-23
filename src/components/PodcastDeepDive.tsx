@@ -6,7 +6,6 @@ import {
   episodesFor,
   unmappedEpisodesFor,
 } from '../data/podcastEpisodes.ts'
-import { BlueprintCorners } from './BlueprintCorners.tsx'
 
 /**
  * Podcast deep-dive entry points, driven entirely by the episode table in
@@ -102,7 +101,6 @@ export function PodcastDeepDive({ school, schoolName, area, topicLabel, variant 
           className={single ? 'podcast-panel' : 'podcast-panel wide'}
           id={panelId}
         >
-          <BlueprintCorners />
           <div className="podcast-panel-head">
             {single ? t('podcast.whereToListen') : t('podcast.showName')}
           </div>
