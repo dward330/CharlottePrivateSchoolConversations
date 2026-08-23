@@ -1,4 +1,3 @@
-import { BlueprintCorners } from './BlueprintCorners.tsx'
 import { useTranslation } from 'react-i18next'
 
 /** Solid play triangle — marks the Welcome Video section and both of its TOC
@@ -36,7 +35,6 @@ export function WelcomeVideo({ name, url }: { name: string; url: string }) {
         <span className="welcome-note">{t('school.welcomeFrom')}</span>
       </div>
       <div className="welcome-frame">
-        <BlueprintCorners />
         <div className="welcome-embed">
           <iframe
             src={url}

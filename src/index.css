@@ -260,16 +260,6 @@ button { font: inherit; }
   border: 1px solid var(--border);
 }
 @media (max-width: 480px) { .brand-logo { height: 34px; } }
-.navlink {
-  padding: 8px 10px;
-  font-family: var(--heading);
-  font-weight: 600;
-  font-size: 15px;
-  letter-spacing: 0.02em;
-  color: var(--muted);
-}
-.navlink:hover { color: var(--text); }
-.navlink.on { color: var(--accent-700); }
 
 .nav-actions { display: flex; align-items: center; gap: 8px; flex: none; }
 
@@ -550,21 +540,6 @@ main { flex: 1; }
 }
 .chip-accent:hover { color: var(--brand); border-color: var(--brand); }
 
-/* neutral tag with a small accent topic glyph (school directory cards) */
-.mini-chip {
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-  padding: 3px 8px;
-  font-size: 10.5px;
-  letter-spacing: 0.02em;
-  border-radius: 3px;
-  background: var(--surface-2);
-  color: color-mix(in srgb, var(--text) 82%, var(--bg));
-  white-space: nowrap;
-}
-.mini-chip svg { color: var(--accent); flex: none; }
-
 .back {
   display: inline-flex;
   align-items: center;
@@ -737,7 +712,6 @@ main { flex: 1; }
 .school-card-body { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
 .school-card-name { font-family: var(--heading); font-weight: 600; font-size: 20px; line-height: 1.15; }
 .school-card-meta { color: var(--muted); font-size: 12.5px; }
-.school-card-topics { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; padding-top: 6px; }
 
 /* --------------------------------------------- school detail ("dossier") */
 
@@ -901,9 +875,9 @@ main { flex: 1; }
    that topic, plus the page-level line under the header chips. Ported from
    "Providence Day School.dc.html" in the design project; the mock's Industry
    token names were renamed on the way in (--color-accent → --accent,
-   --color-divider → --border, .elev-md → var(--shadow-md), .blueprint's four
-   .corner marks → <BlueprintCorners />, whose class is .bp-corner here —
-   .corner already means a Compare-table sticky cell and is NOT reused).
+   --color-divider → --border, .elev-md → var(--shadow-md); the mock's four
+   .blueprint .corner registration marks were dropped, and .corner was never
+   reused for them because it already means a Compare-table sticky cell).
 
    A section with no episode renders no strip at all, so every rule below is
    scoped to an element that only exists when there is something to listen to. */
@@ -2060,24 +2034,8 @@ main { flex: 1; }
 }
 .pill.school.on .dot { background: var(--brand); }
 
-/* comparison table — blueprint frame with registration marks at the corners */
+/* comparison table — blueprint frame around the scroll area */
 .table-frame { position: relative; }
-.bp-corner {
-  position: absolute;
-  width: 11px; height: 11px;
-  z-index: 5;
-  color: color-mix(in srgb, var(--text) 55%, transparent);
-  pointer-events: none;
-}
-/* Logical insets so the registration marks land on the right corners under
-   [dir='rtl'] (Arabic, Farsi) — .tl/.tr are read as inline-start/inline-end. */
-.bp-corner::before, .bp-corner::after { content: ''; position: absolute; background: currentColor; }
-.bp-corner::before { inset-inline-start: 5px; top: 0; width: 1px; height: 100%; }
-.bp-corner::after { top: 5px; inset-inline-start: 0; width: 100%; height: 1px; }
-.bp-corner.tl { top: -6px; inset-inline-start: -6px; }
-.bp-corner.tr { top: -6px; inset-inline-end: -6px; }
-.bp-corner.bl { bottom: -6px; inset-inline-start: -6px; }
-.bp-corner.br { bottom: -6px; inset-inline-end: -6px; }
 
 .table-wrap {
   overflow: auto;
@@ -2351,7 +2309,6 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   .theme-toggle,
   .lang-picker,
   .back-to-top,
-  .bp-corner,
   .qual-dot,
   .no-print,
   .btn.contact,
@@ -2361,8 +2318,7 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   .podcast-pageline,
   /* The dossier header prints in full, so the frozen name would just duplicate
      the <h1> already on the page. */
-  .nav-school,
-  .navlink { display: none; }
+  .nav-school { display: none; }
   /* A qualified figure must print identically to an unqualified one: no dot,
      no dotted underline, no button chrome. Closed popovers don't print. */
   .qual { cursor: auto; }

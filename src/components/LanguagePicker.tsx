@@ -1,7 +1,6 @@
 import { useEffect, useId, useRef, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { SUPPORTED, isTranslated, langCodeOf, langOf, setLanguage } from '../lib/i18n.ts'
-import { BlueprintCorners } from './BlueprintCorners.tsx'
 
 /**
  * Nav control that switches the UI language for the whole app. It only sets the
@@ -75,7 +74,6 @@ export function LanguagePicker() {
 
       {open && (
         <div className="lang-panel" id={panelId}>
-          <BlueprintCorners />
           <div className="lang-panel-head">
             <span className="tag-outline">{t('language.tag')}</span>
             {failed && <span className="lang-note">{t('language.loadFailed')}</span>}

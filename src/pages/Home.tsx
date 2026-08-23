@@ -3,7 +3,6 @@ import { topicLabel } from '../lib/labels.ts'
 import { schools, topics, topicsForSchool, docCount, projectStats, generated, brandOf } from '../lib/manifest.ts'
 import { SchoolBadge } from '../components/SchoolBadge.tsx'
 import { TopicGlyph } from '../components/TopicGlyph.tsx'
-import { BlueprintCorners } from '../components/BlueprintCorners.tsx'
 import { toSchool, toCompare, useNavigate } from '../lib/router.ts'
 
 function ArrowIcon() {
@@ -46,7 +45,6 @@ export function Home() {
         </p>
         <div className="hero-actions">
           <span className="cta-frame">
-            <BlueprintCorners />
             <a
               className="btn primary"
               href={compareAll}
@@ -90,6 +88,38 @@ export function Home() {
         </div>
       </header>
 
+      <section aria-labelledby="schools-h" className="block" id="schools">
+        <h2 id="schools-h">{t('home.schoolsHeading')}</h2>
+        <div className="school-grid">
+          {schools.map((s) => {
+            const covered = topicsForSchool(s.slug)
+            const docs = topics.reduce((sum, topic) => sum + docCount(topic.slug, s.slug), 0)
+            return (
+              <a
+                key={s.slug}
+                className="school-card"
+                href={toSchool(s.slug)}
+                onClick={(e) => {
+                  e.preventDefault()
+                  navigate(toSchool(s.slug))
+                }}
+                style={{ ['--brand' as string]: brandOf(s.slug).color }}
+              >
+                <div className="school-card-head">
+                  <SchoolBadge slug={s.slug} name={s.name} size={44} />
+                  <div className="school-card-body">
+                    <span className="school-card-name">{s.name}</span>
+                    <span className="school-card-meta">
+                      {t('home.schoolCardMeta', { topics: covered.length, documents: docs })}
+                    </span>
+                  </div>
+                </div>
+              </a>
+            )
+          })}
+        </div>
+      </section>
+
       <section aria-labelledby="topics-h" className="block">
         <h2 id="topics-h">{t('home.topicsHeading')}</h2>
         <div className="topic-grid hairline-grid">
@@ -111,45 +141,6 @@ export function Home() {
         </div>
       </section>
 
-      <section aria-labelledby="schools-h" className="block" id="schools">
-        <h2 id="schools-h">{t('home.schoolsHeading')}</h2>
-        <div className="school-grid">
-          {schools.map((s) => {
-            const covered = topicsForSchool(s.slug)
-            const docs = topics.reduce((sum, topic) => sum + docCount(topic.slug, s.slug), 0)
-            return (
-              <a
-                key={s.slug}
-                className="school-card"
-                href={toSchool(s.slug)}
-                onClick={(e) => {
-                  e.preventDefault()
-                  navigate(toSchool(s.slug))
-                }}
-                style={{ ['--brand' as string]: brandOf(s.slug).color }}
-              >
-                <BlueprintCorners />
-                <div className="school-card-head">
-                  <SchoolBadge slug={s.slug} name={s.name} size={44} />
-                  <div className="school-card-body">
-                    <span className="school-card-name">{s.name}</span>
-                    <span className="school-card-meta">
-                      {t('home.schoolCardMeta', { topics: covered.length, documents: docs })}
-                    </span>
-                  </div>
-                </div>
-                <div className="school-card-topics">
-                  {covered.map((topic) => (
-                    <span key={topic.slug} className="mini-chip">
-                      <TopicGlyph slug={topic.slug} size={11} /> {topicLabel(t, topic.slug, topic.name)}
-                    </span>
-                  ))}
-                </div>
-              </a>
-            )
-          })}
-        </div>
-      </section>
     </div>
   )
 }
