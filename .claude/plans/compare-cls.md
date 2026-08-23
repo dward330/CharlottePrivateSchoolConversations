@@ -1,8 +1,8 @@
 ---
 name: compare-cls
 title: Fix the Compare page CLS (0.16 desktop / 0.17 mobile) — a genuine font-metric reflow
-status: in-progress
-status_note: 'Mobile reached GOOD (0.0636). Desktop 0.1602 -> 0.1263, still over 0.1; step 7 stop gate applied. Closing it needs self-hosting — see Implementation notes.'
+status: implemented
+status_note: 'Mobile GOOD (0.0636). Desktop 0.1263 accepted as a known limit by user decision 2026-08-23 — see Closing decision.'
 phases: 1
 created: 2026-08-22
 branch: perf/compare-cls
@@ -338,3 +338,44 @@ in their own script's face and never reach the Latin-tuned fallback. No scoping 
   directly.
 - **Step 4 did not fully pass**, so per step 7 the work stopped rather than stacking a
   second fix. Mobile met the target; desktop is improved by 21% but not under 0.1.
+
+## Closing decision — accepted residual (2026-08-23)
+
+**This plan is closed as `implemented` with desktop `/compare/` still at CLS 0.1263,
+above the 0.1 threshold. That is a deliberate acceptance, not an oversight.**
+
+The user was offered the self-hosting fix the implementation notes recommend and chose to
+accept the residual instead. What shipped stands:
+
+| Profile | Before | After | Verdict |
+|---|---|---|---|
+| `/compare/` desktop | 0.1602 | **0.1263** | over 0.1 — **accepted** |
+| `/compare/` mobile | 0.1747 | **0.0636** | **GOOD** |
+
+**Why accepting is defensible.** Mobile — the profile Google weights for indexing — is
+comfortably GOOD. Desktop improved 21% and sits close to the line. CLS is one input among
+several, and the remaining gain is small relative to its cost.
+
+**What closing it costs.** The known fix is real and was not attempted: self-host Barlow
+Condensed and serve it with `font-display: optional`, eliminating the swap rather than
+approximating it. The price is that on a cold cache some first-time visitors render the
+fallback face for that pageview and never receive Barlow Condensed until a later visit —
+a typography-for-stability trade the user declined. Fonts today load from Google Fonts
+with `display=swap` (`index.html:43`) and nothing is self-hosted (no `public/fonts/`).
+
+**Two things to check first if this is ever reopened**, neither resolved here:
+
+1. Whether the `ffi`/`ffl` ligature workaround at `src/index.css:92` still applies to a
+   directly-vendored build. That comment attributes the substitution to *the Google-Fonts
+   build specifically*, so a self-hosted file may behave differently — and the ligature is
+   a recorded trap in this project's memory.
+2. Real field data before more lab tuning. The site is live, so Search Console holds
+   real-user CLS for `/compare/`; every number in this document is lab measurement from a
+   single macOS machine on one network.
+
+**Unrelated finding parked here, still open:** the mobile LCP outliers recorded above —
+`/school/cannon/` 20.7s, `/school/davidson-day/` 20.9s, `/` 12.7s — are **pre-existing and
+reproducible**, not caused by this work, and are untouched by this closure. They remain
+worth their own plan; the curious part is that only three routes are affected while
+structurally similar ones sit at ~2s, which points at something route-specific rather than
+the 2.2 MB bundle alone.
