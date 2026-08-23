@@ -1,11 +1,11 @@
 ---
 name: arrangements
 title: Home-page rearrangement — drop the nav Compare link, swap the two home sections, simplify the school cards, and remove the blueprint corner marks site-wide
-status: english-done
+status: implemented
 phases: 2
 created: 2026-08-23
 branch: feat/arrangements
-prs: []
+prs: [178]
 ---
 
 # Home-page rearrangement and blueprint-corner removal
