@@ -439,7 +439,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
       <header className="dossier-header">
         <SchoolBadge slug={slug} name={school.name} size={84} />
         <div className="dossier-body">
-          <p className="dossier-kicker">{tr('school.dossierKicker')}</p>
+          <p className="dossier-kicker">{tr('school.dossierKicker', { city: brand.city })}</p>
           {/* StickySchoolTitle observes this id to know when the school name has
               scrolled under the sticky nav — don't rename it without updating
               src/components/StickySchoolTitle.tsx. */}
