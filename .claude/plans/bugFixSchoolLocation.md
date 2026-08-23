@@ -351,8 +351,13 @@ One measurement caveat for anyone repeating the RTL check: a per-character x-pos
 reverses RTL text by construction, so it reports the Persian/Arabic words backwards and
 reads as a defect when nothing is wrong. The screenshot is the trustworthy artifact.
 
-### Second open question — still open
+### Second open question — planned and shipped
 
 Adding `addressLocality` to the JSON-LD in `src/lib/head.ts` was left out of scope as the
-plan specified. The premise has now changed — a truthful per-school city exists in the data,
-so the "do NOT invent any" comment no longer blocks it. Worth its own plan.
+plan specified. The premise changed here — a truthful per-school city now exists in the
+data, so the "do NOT invent any" comment no longer blocked it. That follow-up was written
+up as [`addressLocality`](addressLocality.md) on 2026-08-23 and implemented: each school's
+JSON-LD now carries a `PostalAddress` with its real city, plus a `check:seo` assertion that
+fails if any page's locality drifts from `BRANDS`. City + state only — `streetAddress` and
+`postalCode` remain unpublished by choice, though the verified values are in
+`source-material/branding/_shared/`.

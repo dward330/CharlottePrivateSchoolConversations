@@ -144,6 +144,13 @@ Two things worth flagging to the user rather than gating on:
   ([`src/data/brands.ts`](../../src/data/brands.ts)) holds only `color`, `initials`, `logo`,
   `welcomeVideoUrl`. So JSON-LD is limited to `name`, `url`, `logo`, and `description` —
   fields we can populate truthfully. **Do not invent addresses or EINs to fill the schema.**
+  **Update 2026-08-23 — half of this premise expired.** PR #180 added a *required*,
+  per-school `city` to `BRANDS`, verified against each school's own site, so
+  [`addressLocality`](addressLocality.md) shipped a `PostalAddress` carrying
+  `addressLocality` + `addressRegion: 'NC'` + `addressCountry: 'US'`. The rest of this
+  bullet **still stands**: there is still no geo, phone, founding-date or EIN data in
+  `src/data/`, and none of it may be invented. `streetAddress`/`postalCode` exist in
+  `source-material/branding/_shared/` but were deliberately not published (user's call).
 - **Running `npm run deploy`.**
 
 ## Steps

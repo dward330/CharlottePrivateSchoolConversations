@@ -15,7 +15,8 @@
  *   2. every page has a UNIQUE, non-default <title> and a <meta description>
  *   3. every page has og:title / og:description / og:image and a canonical
  *   4. og:image and canonical are ABSOLUTE (scrapers ignore relative URLs)
- *   5. school pages carry EducationalOrganization JSON-LD
+ *   5. school pages carry EducationalOrganization JSON-LD, whose PostalAddress
+ *      names that school's real city from BRANDS
  *   6. sitemap.xml lists exactly the routes that exist on disk — no more, no less
  *   7. sitemap hreflang alternates cover every locale in TRANSLATED
  *   8. robots.txt exists and names the sitemap
@@ -26,6 +27,11 @@
 import { readFileSync, existsSync } from 'node:fs'
 import { resolve, join } from 'node:path'
 import { ROUTES, LOCALES, SITE_ORIGIN, REPO_ROOT, urlFor } from './seo_routes.mjs'
+// brands.ts is a plain module with no import.meta.glob (unlike the six
+// *Program.ts registries), so it imports cleanly under plain Node — verified,
+// not assumed. It is the same source src/lib/head.ts reads the city from, so
+// the check compares the page against the data rather than a transcribed copy.
+import { BRANDS } from '../src/data/brands.ts'
 
 const QUIET = process.argv.includes('--quiet')
 const DIST = resolve(REPO_ROOT, 'dist')
@@ -57,6 +63,32 @@ function unescapeHtml(s) {
 function attr(html, re) {
   const raw = html.match(re)?.[1]?.trim()
   return raw === undefined ? undefined : unescapeHtml(raw)
+}
+
+/**
+ * Parse the EducationalOrganization JSON-LD out of a pre-rendered page.
+ *
+ * Returns undefined when there is no such block or it does not parse — both of
+ * which the caller reports, because a block that a crawler cannot parse is no
+ * better than one that is absent.
+ */
+function jsonLdFor(html) {
+  for (const m of html.matchAll(
+    /<script[^>]+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi,
+  )) {
+    // NOT unescapeHtml'd: <script> is a raw-text element, so its contents come
+    // back verbatim rather than entity-escaped (verified against dist/). Running
+    // the attribute unescaper over it would corrupt a genuine "&amp;" inside a
+    // description into "&".
+    let parsed
+    try {
+      parsed = JSON.parse(m[1])
+    } catch {
+      continue
+    }
+    if (parsed?.['@type'] === 'EducationalOrganization') return parsed
+  }
+  return undefined
 }
 
 if (!existsSync(DIST)) {
@@ -129,6 +161,28 @@ for (const route of ROUTES) {
   if (route.school) {
     if (!/"@type":\s*"EducationalOrganization"/.test(html)) {
       fail(`${route.path} — no EducationalOrganization JSON-LD`)
+    }
+    // Five of the eleven schools are not in Charlotte, so the locality is the
+    // one part of this address that can be WRONG rather than merely missing —
+    // and a wrong city is invisible to an existence check. Parse the block and
+    // compare it against BRANDS, the same source head.ts emits it from.
+    const expected = BRANDS[route.school.slug]?.city
+    if (!expected) {
+      fail(`${route.path} — no city in BRANDS for "${route.school.slug}"`)
+    } else {
+      const ld = jsonLdFor(html)
+      if (!ld) {
+        fail(`${route.path} — EducationalOrganization JSON-LD did not parse as JSON`)
+      } else if (!ld.address) {
+        fail(`${route.path} — JSON-LD has no address (expected a PostalAddress in ${expected})`)
+      } else if (ld.address['@type'] !== 'PostalAddress') {
+        fail(`${route.path} — JSON-LD address is "${ld.address['@type']}", expected "PostalAddress"`)
+      } else if (ld.address.addressLocality !== expected) {
+        fail(
+          `${route.path} — JSON-LD addressLocality is "${ld.address.addressLocality}", ` +
+            `expected "${expected}"`,
+        )
+      }
     }
     // The page should actually name its school somewhere in the served HTML —
     // this is the no-JS test in miniature: content present before any script runs.
