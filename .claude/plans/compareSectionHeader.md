@@ -1,11 +1,11 @@
 ---
 name: compareSectionHeader
 title: Reword the home topics section header from "What you can explore" to "What you can compare"
-status: english-done
+status: implemented
 phases: 2
 created: 2026-08-23
 branch: feat/compare-section-header
-prs: []
+prs: [185]
 ---
 
 # Reword the home topics section header to "What you can compare"
@@ -226,3 +226,30 @@ every `<title>`, meta description and canonical.
 
 None. The wording, the phase split, and the scope were all settled with the user at
 planning time.
+
+## Implementation notes
+
+Built as planned, both phases, no deviation from the documented scope. Only the ten
+`home.topicsHeading` values changed; `Home.tsx` was not touched.
+
+**Each locale's *compare* verb was taken from its own sibling keys rather than chosen
+fresh.** Every catalog already ships a settled rendering of the verb in `home.compareAll`
+and `compare.title` — `comparar` (es), `comparer` (fr), `confrontare` (it), `konpare` (ht),
+তুলনা (bn), పోల్చు (te), तुलना (hi), مقایسه (fa), قارن/مقارنة (ar) — so anchoring on those
+keeps the heading consistent with the CTA rendered directly beneath it, and avoids
+introducing a second word for the same action within one section.
+
+**The wrap risk did not materialise.** The browser sweep measured the `<h2>` at **one line
+in all ten locales at both 1280px and 375px**, including `hi`, `te` and `ar`, so the
+pre-agreed shorter fallback ("Topics to compare") was not needed and was not used. `fa` and
+`ar` render `dir=rtl` with `text-align: start`, correctly right-aligned.
+
+**One clarification on the Phase 2 grep.** The plan's stale-verb grep still matches
+`fa.json`, at line 96 — that hit is `home.title` ("مدارس خصوصی شارلوت را کاوش کنید", the
+hero title), which *Out of scope* explicitly keeps. The check passes as written: no old
+verb stem remains at `home.topicsHeading` in any catalog. A future reader running that grep
+should expect the one `fa` hit rather than treat it as a miss.
+
+**Phase 2 changed nothing in `dist/`,** as predicted — there are no per-locale pre-rendered
+pages, so `dist/index.html` still carries the English heading once and the old string zero
+times.
