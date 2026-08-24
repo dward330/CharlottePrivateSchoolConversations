@@ -1,7 +1,7 @@
 ---
 name: unitrevert
 title: Stop converting units in es — restore sq ft and feet, and delete the CONVERSIONS allowlist
-status: english-done
+status: implemented
 phases: 2
 created: 2026-08-24
 branch: i18n/unit-revert
@@ -255,3 +255,33 @@ the 13; the other 13 must be confirmed against `WORKLIST.md` and a re-scan.
 None — the direction was settled by the user on 2026-08-24. If the browser check in Phase 2
 shows a sentence that genuinely cannot carry an imperial figure naturally, report it rather
 than silently re-introducing a conversion.
+
+## Implementation notes
+
+Both phases shipped. Two things differed from the plan as written:
+
+**The count was 26, not 17.** The plan's scan pattern (`m²` and metre heights) could
+not see three unit families: pounds→kilograms (wrestling weight classes and dumbbell
+loads), acres→hectares (campus size) and inches→centimetres (a stage height). Phase 1
+recorded the corrected worklist at `.claude/plans/unitrevert-data/`; Phase 2 worked from
+that rather than from the plan's estimate. The risk table's "the count is 17, not 13"
+line was itself an undercount — the general lesson is in CLAUDE.md.
+
+**26 entries needed 28 edits.** Three entries carry two converted figures each
+(`d631c24a` has both `53,000 sq ft` and `5,400 sq ft`; `b61847b9` has both `150 lbs` and
+`138 lbs`), so patches were applied per figure, each guarded to match exactly once in
+its entry.
+
+Patches were keyed on `of`, the English content hash, never the array index. The shipped
+overlays were diffed against HEAD by hash after `i18n:build` to confirm the rebuild
+changed exactly the 26 intended entries and added or removed none.
+
+**Two sentences now carry an English unit word inside Spanish prose** — `elevado 42
+inches` and `pívot de 6-foot-10`. Both are grammatical and unambiguous, and the plan's
+rule is to swap the figure and leave the prose, so neither was reworded. Recorded here
+rather than silently edited, per the plan's open question.
+
+Three `es` strings mentioning metric units were confirmed as correct and left alone:
+two `200 metros` track references (the English source itself says `200-meter`) and one
+`pulsómetros` ("heart rate monitors").
+
