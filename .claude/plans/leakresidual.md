@@ -1,7 +1,7 @@
 ---
 name: leakresidual
 title: Clear the residual 106 cross-locale leak-shaped strings, concentrated in ar and te
-status: english-done
+status: implemented
 phases: 2
 created: 2026-08-24
 branch: i18n/leak-residual
@@ -277,3 +277,43 @@ the previous day. Details and the per-locale evidence are in the ledger section 
 One correction to a prior ledger claim: #193's row asserting `fa` "keeps `visual.media[]`
 technique lists verbatim" does not hold — `fa` translates **48 of 54** of them, so the three
 Cannon entries are genuine leaks and are on the Phase 2 worklist.
+
+### Phase 2 (2026-08-24) — eight translated, one more reclassified
+
+The nine-row worklist produced **8 translations and 1 further KEEP**, so the pass's final
+tally is **8 LEAK / 51 KEEP** over the 59 untriaged pairs — ratio **1 : 6.4**.
+
+`te` `Football QBs · Game Day Coordinator` was reclassified KEEP at translation time. Both
+halves are independently `te` keep classes: every bare job title in `sports.te.json` stays
+Latin, and `Football` is kept in 20 of 25 entries containing it. What made the call
+decidable was **measuring the middot class rather than eyeballing it** — `sport · JobTitle`
+roles split 6 kept / 6 translated, and the six translated ones agree that the *sport* is
+translated while the *job title* stays Latin. Applying that rule returns this string
+unchanged. A 6/6 split is not an absence of convention; it is a convention operating on
+part of the string.
+
+That makes four consecutive passes in which a LEAK verdict did not survive contact with the
+locale's own siblings — the pattern the plan's risk table predicted, holding once more.
+
+**No rendering was invented.** Each of the eight copies a form the same locale had already
+settled in the same work file; the derivations are tabulated in `src/data/overlays/NOTES.md`.
+The `fa` `CAD, woodworking, …` entry had a near-identical translated sibling
+(`CDE runs CAD, woodworking, metalworking…`) giving every term's established rendering.
+
+### One pre-existing finding, deliberately not fixed here
+
+The browser check passed on **7 of 8** strings. The eighth, `te` `current listing`
+(`charlotte-latin:guideYear`), rendered as **neither** English nor Telugu — because
+**`guideYear` has no consumer anywhere in `src/**/*.tsx`**. It is declared in
+`courseOfferings.ts` and populated for all 12 schools, but no component reads it, on this
+branch or on `main`. The translation is correctly shipped and will render if the field is
+ever surfaced. Wiring up an unrendered field is outside this plan's scope; recorded here so
+it is not rediscovered as a translation defect.
+
+### Verification
+
+All green: `npm run build` (exit 0, including `check:live`, `check:runtime`, `check:schema`,
+`check:chrome`, `check:spans`), `npx tsc --noEmit`, `check:sepdrift` / `check:sources` across
+all nine locales (0 drifted, 0 altered), `check:script`, `check:bidi`, and both detectors.
+The overlay rebuild was diffed **keyed on content hash** rather than array index: exactly 8
+deltas, 0 entries added or removed.

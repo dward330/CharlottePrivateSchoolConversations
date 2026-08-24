@@ -2250,3 +2250,45 @@ npm run i18n:siblings -- --lang <code>
 Note the cross-locale detector's default `--refs` list omits `hi` and `ar`; pass all eight
 others explicitly or those two locales never act as references. The full triage record,
 the verdicts and the Phase 2 worklist are in `.claude/plans/leakresidual-data/`.
+
+## Phase 2 (2026-08-24) — one more row reclassified at translation time
+
+Translating the nine-row worklist produced **eight** translations and **one further
+KEEP**. The reclassified row is worth recording, because it is the fourth consecutive pass
+in which a LEAK verdict did not survive contact with the locale's own siblings.
+
+| Value | Locale | Verdict | Reason |
+|---|---|---|---|
+| `Football QBs · Game Day Coordinator` | `te` | **KEEP** (was LEAK) | Both halves fall in `te` keep classes independently. Every bare job title in `sports.te.json` is kept Latin — `Director of Athletics`, `Athletic Director`, `Associate Athletic Director`, `Football Program Director`, `Director of Sports Performance`, `Strength & Conditioning` — and `Football` itself is kept in **20 of 25** entries containing it. Translating this one would have made it the locale's only Telugu-rendered `Game Day Coordinator`, the same defect the ledger already records for `bn`'s `Director of Counseling Services`. |
+
+**What made the call decidable was measuring the middot class rather than eyeballing it.**
+The `role` field's `sport · JobTitle` values split **6 kept / 6 translated**, so "does `te`
+keep middot roles?" has no answer — but the six translated ones agree exactly on the rule:
+*the sport name is translated, the job title stays Latin* (`Volleyball · Assistant AD` →
+`వాలీబాల్ · Assistant AD`; `Wrestling · Director of S&C` → `రెజ్లింగ్ · Director of S&C`).
+Applying that rule to `Football QBs · Game Day Coordinator` returns the string unchanged,
+because its sport half is one `te` keeps. A 6/6 split is not an absence of convention; it
+is a convention operating on a part of the string rather than the whole of it.
+
+## The eight translated, and the sibling each was derived from
+
+No rendering here was invented — each copies a form the same locale had already settled in
+the same work file.
+
+| Locale | Value | Rendering | Derived from |
+|---|---|---|---|
+| `fa` | `Lower School Courses` | `درس‌های Lower School` | `Middle School Courses` → `درس‌های Middle School`; division name stays Latin as a searchable identifier. |
+| `fa` | `History / Social Studies` | `تاریخ / مطالعات اجتماعی` | Same department's `Core Academics` → `دروس اصلی`, `Structured Literacy` → `سوادآموزی ساختارمند`. `fa`'s Latin holdouts there are acronyms (`STEAM`), not subject names. |
+| `fa` | `drawing, painting, printmaking, digital production` | `طراحی، نقاشی، چاپ دستی، تولید دیجیتال` | `Visual arts span drawing, painting, printmaking…` → `…طراحی، نقاشی، چاپ دستی…` in the same file. |
+| `fa` | `graphic design, commercial illustration, photo manipulation, video` | `طراحی گرافیک، تصویرسازی تجاری، دستکاری عکس، ویدیو` | Sibling `cannon:visual.media[1].detail` list form, Persian comma `،`. |
+| `fa` | `CAD, woodworking, metalworking, textiles, 3D printing, laser, CNC` | `CAD، نجاری، فلزکاری، منسوجات، چاپ سه‌بعدی، لیزر، CNC` | Near-identical sibling `CDE runs CAD, woodworking, metalworking…` → `CAD، نجاری، فلزکاری، … منسوجات، چاپ سه‌بعدی، برش لیزری و فرزکاری CNC`. `CAD`/`CNC` kept, craft terms translated. |
+| `te` | `current listing` | `ప్రస్తుత జాబితా` | `guideYear` siblings are bare figures (`2025-26`), so no keep-convention applies; all eight other locales translate it. |
+| `te` | `Honors Euclidean geometry.` | `Honors యూక్లిడియన్ జ్యామితి.` | Sibling descriptions keep `Honors` as a Latin token inside translated prose: `…యొక్క honors ట్రాక్.` |
+| `te` | `conference Coach of the Year` | `కాన్ఫరెన్స్ Coach of the Year` | Direct sibling `PTR national Coach of the Year` → `PTR జాతీయ Coach of the Year`: award name Latin, modifier translated. |
+
+**The `fa` `visual.media[].detail` correction from Phase 1 held up.** #193's ledger row
+claiming `fa` "keeps technique lists verbatim" is wrong — `fa` translates **48 of 54** of
+them, so the three Cannon entries were genuine leaks. Two rows in that column remain
+legitimate keeps (`Digital Art and Graphic Design`, `hand-building, wheel throwing,
+glazing, firing`); they are proper-noun course names and a term-of-art sequence, and were
+settled by the earlier passes.

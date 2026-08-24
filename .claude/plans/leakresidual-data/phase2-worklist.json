@@ -14,7 +14,8 @@
    "it"
   ],
   "verdict": "LEAK",
-  "reason": ""
+  "reason": "",
+  "phase2": "translated"
  },
  {
   "topic": "course-offerings",
@@ -32,7 +33,8 @@
    "it"
   ],
   "verdict": "LEAK",
-  "reason": ""
+  "reason": "",
+  "phase2": "translated"
  },
  {
   "topic": "course-offerings",
@@ -49,7 +51,8 @@
    "it"
   ],
   "verdict": "LEAK",
-  "reason": ""
+  "reason": "",
+  "phase2": "translated"
  },
  {
   "topic": "course-offerings",
@@ -67,7 +70,8 @@
    "it"
   ],
   "verdict": "LEAK",
-  "reason": ""
+  "reason": "",
+  "phase2": "translated"
  },
  {
   "topic": "sports",
@@ -84,8 +88,9 @@
    "ht",
    "it"
   ],
-  "verdict": "LEAK",
-  "reason": ""
+  "verdict": "KEEP",
+  "reason": "Reclassified at Phase 2. Both halves are te keep classes: every bare job title in sports.te.json stays Latin, and Football is kept in 20 of 25 entries. The middot role class splits 6/6, and the six translated ones translate the SPORT and keep the JOB TITLE — a rule that returns this string unchanged.",
+  "phase2": "reclassified-keep"
  },
  {
   "topic": "sports",
@@ -103,7 +108,8 @@
    "it"
   ],
   "verdict": "LEAK",
-  "reason": ""
+  "reason": "",
+  "phase2": "translated"
  },
  {
   "topic": "the-arts",
@@ -121,7 +127,8 @@
    "te"
   ],
   "verdict": "LEAK",
-  "reason": ""
+  "reason": "",
+  "phase2": "translated"
  },
  {
   "topic": "the-arts",
@@ -139,7 +146,8 @@
    "te"
   ],
   "verdict": "LEAK",
-  "reason": ""
+  "reason": "",
+  "phase2": "translated"
  },
  {
   "topic": "the-arts",
@@ -157,6 +165,7 @@
    "te"
   ],
   "verdict": "LEAK",
-  "reason": ""
+  "reason": "",
+  "phase2": "translated"
  }
 ]
