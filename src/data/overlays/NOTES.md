@@ -2396,3 +2396,44 @@ npm run i18n:siblings -- --lang ar
 
 The worklist and every sibling rendering are committed at
 `.claude/plans/capsleaks-data/`.
+
+## Phase 2 (2026-08-24) — 58 translated, one row reclassified at translation time
+
+The 54-string / 59-edit worklist produced **58 translations** and **one further KEEP**.
+That makes it the **fifth consecutive pass** in which a LEAK verdict did not survive
+contact with the locale's own siblings — the rate is now stable enough to plan for.
+
+| Value | Locale | Verdict | Reason |
+|---|---|---|---|
+| `#28 NATIONAL` | `fr` | **KEEP** (was LEAK) | `NATIONAL` is the same word in French, so the correct French rendering is byte-identical to the English. The detector compares bytes, not meaning, and cannot tell a cognate from a leak. |
+
+**The evidence was a sibling that was already a deliberate identical-keep.** `sports.fr.json`
+holds `'National' -> 'National'` — translated, and translated to itself. The neighbouring
+tag `#4 IN 6A` → `#4 EN 6A` shows what `fr` *does* change in this slot: the connector word,
+never `NATIONAL`. The other three Latin locales all translate it (`es` `NACIONAL`, `it`
+`NAZIONALE`, `ht` `NASYONAL`), which is exactly why the cross-locale majority read `fr` as
+the odd one out — the majority is measuring vocabulary distance, not correctness.
+
+**The general form of this trap: a cognate is indistinguishable from a leak by byte
+comparison.** It will recur for any Latin-script locale sharing a word with English, and it
+is the one leak class where the detector's core test is structurally unable to decide. The
+check is cheap — look for the bare word already translated-to-itself in the same file — and
+worth running before translating any short ALL-CAPS Latin-script candidate.
+
+## What Phase 2 verified that Phase 1 could not
+
+`ALL-CAPS leak-shaped strings remaining: 0` at the pass's own threshold (≥15 chars, ≥6 of
+8 translated, ≥1 locale keeping) — the class this plan opened is closed. The lowercase tail
+re-measures at 64 leak-shaped strings, all 64 already ledgered as KEEPs and **0 new**.
+
+A browser check in headed Chrome (`ar`, panels force-expanded, 155k rendered chars) found
+**0 of 9** probed English headings still on the page and confirmed the Arabic renderings in
+place, with figures (`3,683,971 US$`, `13,695 US$`, `≈21%`, `2017–18`) correctly isolated
+and `Form 990` / `Report on Philanthropy` correctly left Latin.
+
+**One measurement trap worth recording for the next pass.** A first browser probe reported
+`5/8` Arabic renderings found and looked like a partial failure. It was not: these headings
+are **per-school**, and three of the eight belong to Charlotte Christian and Davidson Day,
+not the Providence Day page being probed. Re-probed on their owning pages, all three
+render. Check the `at` paths before reading a MISS as a defect — a heading absent from a
+page it was never on is not evidence of anything.

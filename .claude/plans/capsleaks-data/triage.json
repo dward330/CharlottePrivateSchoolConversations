@@ -1,2718 +1,2717 @@
 {
- "caps": [
-  {
-   "topic": "after-school",
-   "at": "providence-day:coverage.summer.season",
-   "en": "JUN–AUG",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "ar"
-   ]
-  },
-  {
-   "topic": "after-school",
-   "at": "charlotte-latin:coverage.summer.season",
-   "en": "JUN–JUL",
-   "kept": [
-    "es",
-    "ar"
-   ],
-   "trans": [
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 7,
-   "verdict": "LEAK",
-   "reason": "LEAK for ar; KEEP for es - the correct Spanish abbreviation is byte-identical to the English. es translates the sibling `JUN-AUG` to `JUN-AGO`, where the letters differ.",
-   "leakLocales": [
-    "ar"
-   ],
-   "keepLocales": [
-    "es"
-   ]
-  },
-  {
-   "topic": "course-offerings",
-   "at": "charlotte-catholic:divisions[0].grades",
-   "en": "GRADES 9 – 12",
-   "kept": [
-    "te"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "fr",
-    "fa",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "te"
-   ]
-  },
-  {
-   "topic": "course-offerings",
-   "at": "covenant-day:divisions[2].grades",
-   "en": "JUNIOR KINDERGARTEN – GRADE 5",
-   "kept": [
-    "te"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "fr",
-    "fa",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "te"
-   ]
-  },
-  {
-   "topic": "financial-aid-report",
-   "at": "davidson-day:sections[5].boxes[1].tag",
-   "en": "A COMPARISON TRAP IN THE EARLY YEARS",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "ar"
-   ]
-  },
-  {
-   "topic": "financial-aid-report",
-   "at": "davidson-day:sections[5].boxes[2].tag",
-   "en": "A THIRD-PARTY FIGURE, NOT A SCHOOL ONE",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "ar"
-   ]
-  },
-  {
-   "topic": "financial-aid-report",
-   "at": "providence-day:sections[3].boxes[2].tag",
-   "en": "A UNIT CHANGE THAT BLOCKS COMPARISON",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "ar"
-   ]
-  },
-  {
-   "topic": "financial-aid-report",
-   "at": "charlotte-christian:sections[3].tag",
-   "en": "AID CAPPED AT 50% OF TUITION",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "ar"
-   ]
-  },
-  {
-   "topic": "financial-aid-report",
-   "at": "providence-day:sections[4].tag",
-   "en": "ALL AID IS NEED-BASED",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "ar"
-   ]
-  },
-  {
-   "topic": "financial-aid-report",
-   "at": "charlotte-christian:sections[4].boxes[1].tag",
-   "en": "ARREARS, PER THE SAME 2023–24 PACKET",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "ar"
-   ]
-  },
-  {
-   "topic": "financial-aid-report",
-   "at": "providence-day:sections[3].boxes[1].tag",
-   "en": "AVERAGE IS NOT MEDIAN",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "ar"
-   ]
-  },
-  {
-   "topic": "financial-aid-report",
-   "at": "davidson-day:sections[3].tag",
-   "en": "BOTH SCHOLARSHIPS REQUIRE NEED",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "ar"
-   ]
-  },
-  {
-   "topic": "financial-aid-report",
-   "at": "charlotte-christian:sections[4].boxes[0].tag",
-   "en": "CURRENCY WARNING — CONTRACT TERMS TAGGED 2023–24",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "ar"
-   ]
-  },
-  {
-   "topic": "financial-aid-report",
-   "at": "providence-day:sections[3].tag",
-   "en": "DETAIL LIVES IN THE PHILANTHROPY REPORT",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "ar"
-   ]
-  },
-  {
-   "topic": "financial-aid-report",
-   "at": "charlotte-christian:sections[2].boxes[1].tag",
-   "en": "DOCUMENTATION HAZARD",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "ar"
-   ]
-  },
-  {
-   "topic": "financial-aid-report",
-   "at": "davidson-day:sections[5].boxes[0].tag",
-   "en": "FOUR YEARS, FROM THE ARCHIVE",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "ar"
-   ]
-  },
-  {
-   "topic": "financial-aid-report",
-   "at": "providence-day:sections[3].boxes[4].tag",
-   "en": "HOW AID IS FUNDED",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "ar"
-   ]
-  },
-  {
-   "topic": "financial-aid-report",
-   "at": "charlotte-latin:sections[3].boxes[5].tag",
-   "en": "HOW TO READ THE 990 FIGURE",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "ar"
-   ]
-  },
-  {
-   "topic": "financial-aid-report",
-   "at": "providence-day:sections[6].boxes[2].tag",
-   "en": "NAVIGATION HAZARD",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "ar"
-   ]
-  },
-  {
-   "topic": "financial-aid-report",
-   "at": "charlotte-latin:sections[1].boxes[2].tag",
-   "en": "NO PUBLISHED EVIDENCE — TREATED AS NOT CHARGED",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "ar"
-   ]
-  },
-  {
-   "topic": "financial-aid-report",
-   "at": "charlotte-country-day:sections[4].boxes[0].tag",
-   "en": "NOT PUBLISHED — CONTRACT TERMS",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "ar"
-   ]
-  },
-  {
-   "topic": "financial-aid-report",
-   "at": "charlotte-latin:sections[4].boxes[3].tag",
-   "en": "NOT PUBLISHED — DISCOUNTS",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "ar"
-   ]
-  },
-  {
-   "topic": "financial-aid-report",
-   "at": "providence-day:sections[2].boxes[3].tag",
-   "en": "NOT PUBLISHED — FIVE PROCESS QUESTIONS",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "ar"
-   ]
-  },
-  {
-   "topic": "financial-aid-report",
-   "at": "providence-day:sections[4].boxes[3].tag",
-   "en": "NOT PUBLISHED — SIX ITEMS",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "ar"
-   ]
-  },
-  {
-   "topic": "financial-aid-report",
-   "at": "charlotte-latin:sections[4].boxes[2].tag",
-   "en": "NOT PUBLISHED — SIZES, CRITERIA AND STACKING",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "ar"
-   ]
-  },
-  {
-   "topic": "financial-aid-report",
-   "at": "davidson-day:sections[1].boxes[0].tag",
-   "en": "NOT PUBLISHED — THE DEPOSIT",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "ar"
-   ]
-  },
-  {
-   "topic": "financial-aid-report",
-   "at": "charlotte-latin:sections[5].boxes[2].tag",
-   "en": "NOT PUBLISHED — THE WITHDRAWAL OBLIGATION",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "ar"
-   ]
-  },
-  {
-   "topic": "financial-aid-report",
-   "at": "charlotte-latin:sections[2].boxes[3].tag",
-   "en": "NOT RETRIEVED — THE AID DOCUMENT LIBRARY",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "ar"
-   ]
-  },
-  {
-   "topic": "financial-aid-report",
-   "at": "providence-day:sections[5].boxes[1].tag",
-   "en": "ONE FIGURE AT A LOWER VERIFICATION TIER",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "ar"
-   ]
-  },
-  {
-   "topic": "financial-aid-report",
-   "at": "charlotte-latin:sections[6].boxes[2].tag",
-   "en": "READ THE TENURE FIGURES AS ARITHMETIC, NOT A FORECAST",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "ar"
-   ]
-  },
-  {
-   "topic": "financial-aid-report",
-   "at": "charlotte-latin:sections[2].boxes[5].tag",
-   "en": "RESEARCH PASS, NOT RE-RETRIEVED",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "ar"
-   ]
-  },
-  {
-   "topic": "financial-aid-report",
-   "at": "cannon:sections[5].boxes[1].tag",
-   "en": "SIX YEARS OF RATES, FROM THE ARCHIVE",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "ar"
-   ]
-  },
-  {
-   "topic": "financial-aid-report",
-   "at": "charlotte-latin:sections[6].boxes[3].tag",
-   "en": "THE MIDDLE-INCOME QUESTION",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "ar"
-   ]
-  },
-  {
-   "topic": "financial-aid-report",
-   "at": "charlotte-latin:sections[3].boxes[1].tag",
-   "en": "THE PARTICIPATION SHARE CARRIES A DENOMINATOR BUT NO YEAR",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "ar"
-   ]
-  },
-  {
-   "topic": "financial-aid-report",
-   "at": "charlotte-christian:sections[5].boxes[1].tag",
-   "en": "THE REACH GAP",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "ar"
-   ]
-  },
-  {
-   "topic": "financial-aid-report",
-   "at": "charlotte-latin:sections[1].boxes[3].tag",
-   "en": "THE SCHOOL INTENDS TO ANSWER THIS ITSELF",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "ar"
-   ]
-  },
-  {
-   "topic": "financial-aid-report",
-   "at": "providence-day:sections[6].boxes[0].tag",
-   "en": "TUITION TREND — NOT BUILT",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "ar"
-   ]
-  },
-  {
-   "topic": "financial-aid-report",
-   "at": "charlotte-latin:sections[6].boxes[4].tag",
-   "en": "TWO NAVIGATION HAZARDS",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "ar"
-   ]
-  },
-  {
-   "topic": "financial-aid-report",
-   "at": "providence-day:sections[1].boxes[1].tag",
-   "en": "TWO PUBLIC FIGURES NOT RETRIEVED",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "ar"
-   ]
-  },
-  {
-   "topic": "financial-aid-report",
-   "at": "charlotte-latin:sections[3].boxes[3].tag",
-   "en": "WHY THE AVERAGE AWARD IS NOT SHOWN AS A SHARE OF TUITION",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "ar"
-   ]
-  },
-  {
-   "topic": "financial-aid-report",
-   "at": "charlotte-christian:sections[3].boxes[1].tag",
-   "en": "WITHDRAWN",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "ar"
-   ]
-  },
-  {
-   "topic": "sports",
-   "at": "carmel-christian:record.bars[0].tag",
-   "en": "'21–22 SEASON",
-   "kept": [
-    "hi"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "hi"
-   ]
-  },
-  {
-   "topic": "sports",
-   "at": "carmel-christian:record.bars[2].tag",
-   "en": "'25–26 SEASON",
-   "kept": [
-    "hi"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "hi"
-   ]
-  },
-  {
-   "topic": "sports",
-   "at": "charlotte-catholic:honors.honors[0].tag",
-   "en": "#28 NATIONAL",
-   "kept": [
-    "fr",
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 7,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "fr",
-    "ar"
-   ]
-  },
-  {
-   "topic": "sports",
-   "at": "providence-day:record.bars[1].tag",
-   "en": "2 OF 3 YRS",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "ar"
-   ]
-  },
-  {
-   "topic": "sports",
-   "at": "charlotte-christian:record.bars[2].tag",
-   "en": "2 YRS",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "ar"
-   ]
-  },
-  {
-   "topic": "sports",
-   "at": "carmel-christian:record.bars[1].tag",
-   "en": "2020 TITLE RUN",
-   "kept": [
-    "hi"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "hi"
-   ]
-  },
-  {
-   "topic": "sports",
-   "at": "davidson-day:record.bars[3].tag",
-   "en": "3 YRS",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "ar"
-   ]
-  },
-  {
-   "topic": "sports",
-   "at": "davidson-day:record.bars[2].tag",
-   "en": "4 YRS",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "ar"
-   ]
-  },
-  {
-   "topic": "sports",
-   "at": "davidson-day:record.bars[1].tag",
-   "en": "5 YRS",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "ar"
-   ]
-  },
-  {
-   "topic": "sports",
-   "at": "charlotte-catholic:honors.honors[5].tag",
-   "en": "8 CUPS",
-   "kept": [
-    "te",
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 7,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "te",
-    "ar"
-   ]
-  },
-  {
-   "topic": "sports",
-   "at": "providence-day:record.rows[2].cells[0].result",
-   "en": "NONE",
-   "kept": [
-    "te",
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 7,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "te",
-    "ar"
-   ]
-  },
-  {
-   "topic": "sports",
-   "at": "providence-day:record.rows[0].cells[1].result",
-   "en": "RUNNER-UP",
-   "kept": [
-    "te",
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 7,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "te",
-    "ar"
-   ]
-  },
-  {
-   "topic": "sports",
-   "at": "providence-day:record.rows[0].cells[0].result",
-   "en": "STATE",
-   "kept": [
-    "te",
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 7,
-   "verdict": "LEAK",
-   "reason": "",
-   "leakLocales": [
-    "te",
-    "ar"
-   ]
-  }
- ],
- "low": [
-  {
-   "topic": "after-school",
-   "at": "carmel-christian:cost.fees[1].label",
-   "en": "Drop-in (YCC & After School)",
-   "kept": [
-    "te"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "fr",
-    "fa",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "after-school",
-   "at": "gaston-day:cost.rows[2].label",
-   "en": "Lower School · drop-in",
-   "kept": [
-    "bn",
-    "te"
-   ],
-   "trans": [
-    "es",
-    "ht",
-    "fr",
-    "fa",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 7,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "after-school",
-   "at": "gaston-day:cost.rows[3].label",
-   "en": "Middle School · drop-in",
-   "kept": [
-    "bn",
-    "te"
-   ],
-   "trans": [
-    "es",
-    "ht",
-    "fr",
-    "fa",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 7,
-   "verdict": "KEEP",
-   "reason": "Exact twin of the ledgered `Lower School · drop-in`: bn and te both keep `drop-in` as a loanword, leaving nothing to translate.",
-   "leakLocales": []
-  },
-  {
-   "topic": "college-support",
-   "at": "covenant-day:transcript.trust[1].text",
-   "en": "\"Due to the small class size and the college-bound nature of Covenant Day’s population, we believe that class rank is not a strong discriminator… Therefore, we do not rank.\"",
-   "kept": [
-    "bn",
-    "te"
-   ],
-   "trans": [
-    "es",
-    "ht",
-    "fr",
-    "fa",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 7,
-   "verdict": "KEEP",
-   "reason": "Verbatim attributed quotation from the school profile. fr keeps the English wording and merely swaps to French guillemets, signalling the quote-stays-in-original intent; bn/te keeping it whole is the same call.",
-   "leakLocales": []
-  },
-  {
-   "topic": "college-support",
-   "at": "charlotte-country-day:transcript.merit[3].detail",
-   "en": "**11** Semifinalists · **13** Commended",
-   "kept": [
-    "te"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "fr",
-    "fa",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "college-support",
-   "at": "charlotte-christian:transcript.merit[0].detail",
-   "en": "**14** Finalists · **48** Commended Scholars",
-   "kept": [
-    "te"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "fr",
-    "fa",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "college-support",
-   "at": "charlotte-christian:transcript.merit[1].detail",
-   "en": "**16** Finalists · **45** Commended Scholars",
-   "kept": [
-    "te"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "fr",
-    "fa",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "college-support",
-   "at": "charlotte-latin:transcript.merit[1].detail",
-   "en": "**6** Finalists · **16** Commended · 1 National Merit Scholar (Evan Li ’24)",
-   "kept": [
-    "te"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "fr",
-    "fa",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "college-support",
-   "at": "providence-day:transcript.merit[2].detail",
-   "en": "**7** Finalists · **16** Commended · 8 College Board Achievement Scholars",
-   "kept": [
-    "te"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "fr",
-    "fa",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "college-support",
-   "at": "charlotte-country-day:transcript.merit[5].detail",
-   "en": "**7** Semifinalists · **8** Commended",
-   "kept": [
-    "te"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "fr",
-    "fa",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "college-support",
-   "at": "providence-day:transcript.merit[3].detail",
-   "en": "**9** Semifinalists",
-   "kept": [
-    "te"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "fr",
-    "fa",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "college-support",
-   "at": "charlotte-catholic:outcomes.scholarships[2]",
-   "en": "11 National Merit Commended Students (2025)",
-   "kept": [
-    "te"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "fr",
-    "fa",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "college-support",
-   "at": "charlotte-catholic:transcript.merit[0].detail",
-   "en": "2 National Merit Finalists · 11 Commended Students",
-   "kept": [
-    "te"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "fr",
-    "fa",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "college-support",
-   "at": "charlotte-catholic:outcomes.scholarships[1]",
-   "en": "2 National Merit Finalists (2025)",
-   "kept": [
-    "te"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "fr",
-    "fa",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "college-support",
-   "at": "charlotte-latin:transcript.merit[3].detail",
-   "en": "25 Semifinalists · 34 Commended · 7 National Hispanic Scholars",
-   "kept": [
-    "te"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "fr",
-    "fa",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "college-support",
-   "at": "charlotte-latin:transcript.merit[4].detail",
-   "en": "34 Semifinalists · 33 Commended · 2 National Achievement Semifinalists",
-   "kept": [
-    "te"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "fr",
-    "fa",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "college-support",
-   "at": "charlotte-catholic:counseling.roster[0].role",
-   "en": "Director of Counseling Services",
-   "kept": [
-    "bn"
-   ],
-   "trans": [
-    "es",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "college-support",
-   "at": "gaston-day:wholeClass.scoreTables[0].rows[2].label",
-   "en": "SAT Math — 2025",
-   "kept": [
-    "fr"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fa",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "college-support",
-   "at": "charlotte-country-day:wholeClass.support[0].label",
-   "en": "The Educational Resource Program",
-   "kept": [
-    "fr"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fa",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "college-support",
-   "at": "charlotte-catholic:outcomes.buckets[3].tier",
-   "en": "Top-75 Liberal Arts Colleges",
-   "kept": [
-    "ht",
-    "it"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "te",
-    "fr",
-    "fa",
-    "hi",
-    "ar"
-   ],
-   "n": 7,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "course-offerings",
-   "at": "charlotte-catholic:divisions[0].departments[11].name",
-   "en": "Dual Enrollment",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "course-offerings",
-   "at": "charlotte-christian:divisions[1].departments[5].courses[0].title",
-   "en": "Fine Arts electives",
-   "kept": [
-    "te",
-    "fa"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "fr",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 7,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "course-offerings",
-   "at": "charlotte-latin:divisions[0].departments[0].courses[3].title",
-   "en": "History / Social Studies",
-   "kept": [
-    "te"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "fr",
-    "fa",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "course-offerings",
-   "at": "charlotte-christian:divisions[1].departments[5].courses[1].title",
-   "en": "Innovation electives",
-   "kept": [
-    "te",
-    "fa"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "fr",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 7,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "course-offerings",
-   "at": "charlotte-catholic:divisions[0].departments[1].name",
-   "en": "Interdisciplinary Studies",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "course-offerings",
-   "at": "providence-day:divisions[0].title",
-   "en": "Lower School Courses",
-   "kept": [
-    "te"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "fr",
-    "fa",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "course-offerings",
-   "at": "charlotte-christian:divisions[1].departments[5].courses[2].title",
-   "en": "Personal Skills electives",
-   "kept": [
-    "te",
-    "fa"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "fr",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 7,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "course-offerings",
-   "at": "davidson-day:divisions[1].departments[1].courses[1].title",
-   "en": "Upper School course access",
-   "kept": [
-    "te",
-    "fa"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "fr",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 7,
-   "verdict": "KEEP",
-   "reason": "te keeps division/course titles as roster identifiers and fa keeps course-catalog titles verbatim — both ledgered classes (#193).",
-   "leakLocales": []
-  },
-  {
-   "topic": "course-offerings",
-   "at": "charlotte-catholic:divisions[0].departments[9].name",
-   "en": "Visual and Performing Arts",
-   "kept": [
-    "ar"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "financial-aid-report",
-   "at": "charlotte-christian:sections[1].components[4].label",
-   "en": "Tuition Protection Program · $250/yr",
-   "kept": [
-    "it"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "hi",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "metric-values",
-   "at": "providence-day:[20].values.covenant-day",
-   "en": "Mock Trial art 2nd NC",
-   "kept": [
-    "te"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "fr",
-    "fa",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "sports",
-   "at": "charlotte-country-day:facilities.photos[1].meta",
-   "en": "~30,000 sq ft, 2022",
-   "kept": [
-    "es",
-    "it"
-   ],
-   "trans": [
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "hi",
-    "ar"
-   ],
-   "n": 7,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "sports",
-   "at": "charlotte-country-day:facilities.photos[2].meta",
-   "en": "~47,000 sq ft, 2022",
-   "kept": [
-    "es",
-    "it"
-   ],
-   "trans": [
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "hi",
-    "ar"
-   ],
-   "n": 7,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "sports",
-   "at": "charlotte-latin:facilities.photos[1].meta",
-   "en": "50,000 sq ft, 2001",
-   "kept": [
-    "es",
-    "it"
-   ],
-   "trans": [
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "hi",
-    "ar"
-   ],
-   "n": 7,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "sports",
-   "at": "providence-day:facilities.photos[1].meta",
-   "en": "53,000 sq ft, 2001",
-   "kept": [
-    "es",
-    "it"
-   ],
-   "trans": [
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "hi",
-    "ar"
-   ],
-   "n": 7,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "sports",
-   "at": "hickory-grove-christian:coaching.subhead",
-   "en": "Athletic Director: Jim Rhodes. Assistant AD: Crystal Rhodes.",
-   "kept": [
-    "te"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "fr",
-    "fa",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "KEEP",
-   "reason": "te keeps every bare job title in sports.te.json Latin (`Athletic Director`, `Assistant AD`) — the same class the ledger settled for `Football QBs · Game Day Coordinator` (#196). Names are proper nouns.",
-   "leakLocales": []
-  },
-  {
-   "topic": "sports",
-   "at": "charlotte-catholic:pipeline.roster[32].sport",
-   "en": "Cross country / track",
-   "kept": [
-    "te"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "fr",
-    "fa",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "sports",
-   "at": "providence-day:coaching.tenure[1].role",
-   "en": "Football QBs · Game Day Coordinator",
-   "kept": [
-    "te"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "fr",
-    "fa",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "sports",
-   "at": "hickory-grove-christian:honors.honors[0].tag",
-   "en": "NCISAA, individual",
-   "kept": [
-    "es"
-   ],
-   "trans": [
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "sports",
-   "at": "charlotte-country-day:facilities.venues[4].detail",
-   "en": "varsity baseball",
-   "kept": [
-    "hi"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "student-clubs",
-   "at": "providence-day:clusters.rows[3].oneLiner",
-   "en": "FBLA, Euro Challenge, PD Economics Challenge — plus DECA",
-   "kept": [
-    "bn",
-    "fr"
-   ],
-   "trans": [
-    "es",
-    "ht",
-    "te",
-    "fa",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 7,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "student-clubs",
-   "at": "charlotte-country-day:catalog.categories[0].full",
-   "en": "Governance / leadership",
-   "kept": [
-    "it"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "hi",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "student-clubs",
-   "at": "covenant-day:catalog.clubs[3].note",
-   "en": "Junior Classical League chapter",
-   "kept": [
-    "te"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "fr",
-    "fa",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "student-clubs",
-   "at": "charlotte-christian:catalog.categories[2].full",
-   "en": "Leadership / media",
-   "kept": [
-    "it"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "hi",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "student-clubs",
-   "at": "davidson-day:clusters.rows[1].oneLiner",
-   "en": "National Honor Society (28 in ’25), Global Studies Diploma, Acclaim Scholars",
-   "kept": [
-    "bn"
-   ],
-   "trans": [
-    "es",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "summer-programs",
-   "at": "charlotte-country-day:catalog.camps[0].categoryLabel",
-   "en": "Full Day - Farm",
-   "kept": [
-    "te",
-    "hi"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "fr",
-    "fa",
-    "it",
-    "ar"
-   ],
-   "n": 7,
-   "verdict": "KEEP",
-   "reason": "Already ledgered (#193) — category label.",
-   "leakLocales": []
-  },
-  {
-   "topic": "summer-programs",
-   "at": "charlotte-country-day:catalog.camps[10].categoryLabel",
-   "en": "Full Day (STEM)",
-   "kept": [
-    "te",
-    "hi"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "fr",
-    "fa",
-    "it",
-    "ar"
-   ],
-   "n": 7,
-   "verdict": "KEEP",
-   "reason": "Both keep the whole `Full Day` category-label family (#193); `Full Day - Farm` is already ledgered.",
-   "leakLocales": []
-  },
-  {
-   "topic": "summer-programs",
-   "at": "charlotte-latin:catalog.camps[41].weeks",
-   "en": "Sessions 1, 2, 4, 5, 7",
-   "kept": [
-    "fr"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fa",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "summer-programs",
-   "at": "charlotte-latin:catalog.camps[22].weeks",
-   "en": "Sessions 1, 2, 5, 6",
-   "kept": [
-    "fr"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fa",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "summer-programs",
-   "at": "charlotte-latin:catalog.camps[25].weeks",
-   "en": "Sessions 2, 3, 4, 5, 6",
-   "kept": [
-    "fr"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fa",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "summer-programs",
-   "at": "charlotte-latin:catalog.camps[56].weeks",
-   "en": "Sessions 2, 4, 5, 7",
-   "kept": [
-    "fr"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fa",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "summer-programs",
-   "at": "charlotte-latin:catalog.camps[16].weeks",
-   "en": "Sessions 3, 4, 7",
-   "kept": [
-    "fr"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fa",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "summer-programs",
-   "at": "charlotte-latin:catalog.camps[17].weeks",
-   "en": "Sessions 4, 5, 7",
-   "kept": [
-    "fr"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fa",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "the-arts",
-   "at": "charlotte-country-day:ladder.divisions[2].items[1]",
-   "en": "AP Music Theory; AP art courses including AP Sculpture; IB art courses including IB Theatre Arts",
-   "kept": [
-    "fa"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "the-arts",
-   "at": "charlotte-country-day:ladder.divisions[2].items[0]",
-   "en": "Concert Choir, Chamber/Honors Choir, Symphonic Band, Honors Symphonic Band, Orchestra, Honors Orchestra, Percussion Ensemble, Piano class",
-   "kept": [
-    "fa",
-    "hi"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "it",
-    "ar"
-   ],
-   "n": 7,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "the-arts",
-   "at": "charlotte-christian:ladder.divisions[2].items[1]",
-   "en": "Drawing & Painting beginner → intermediate → honors → AP; Art & Design beginner → AP; AP Art History",
-   "kept": [
-    "fa"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "the-arts",
-   "at": "charlotte-country-day:visual.media[3].detail",
-   "en": "hand-building, wheel throwing, glazing, firing",
-   "kept": [
-    "fa"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "the-arts",
-   "at": "davidson-day:ladder.enrichment[0].label",
-   "en": "Improv & Musical Review",
-   "kept": [
-    "fr",
-    "it"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fa",
-    "hi",
-    "ar"
-   ],
-   "n": 7,
-   "verdict": "KEEP",
-   "reason": "`Improv`, `Musical` and `Review` are all loanwords in both locales — the translation would be near-identical.",
-   "leakLocales": []
-  },
-  {
-   "topic": "the-arts",
-   "at": "davidson-day:ladder.divisions[2].items[1]",
-   "en": "Music & Performing Arts: Performance Ensemble (theatre), Contemporary Ensemble, Modern Music, Film Studies & Production",
-   "kept": [
-    "fa"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "the-arts",
-   "at": "cannon:ladder.divisions[2].items[2]",
-   "en": "Music: Honors Concert Chorus, String Ensemble I–IV, Upper School Band, Jazz Combo, Modern Ensemble, Music Technology I–III",
-   "kept": [
-    "fa"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "the-arts",
-   "at": "cannon:theatre.season[0].kind",
-   "en": "One-Acts (NCTC)",
-   "kept": [
-    "it",
-    "hi"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "ar"
-   ],
-   "n": 7,
-   "verdict": "KEEP",
-   "reason": "Festival entry plus its sanctioning-body acronym; it/hi treat the programme name as an identifier.",
-   "leakLocales": []
-  },
-  {
-   "topic": "the-arts",
-   "at": "charlotte-latin:theatre.season[1].kind",
-   "en": "Upper School Musical",
-   "kept": [
-    "hi"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  },
-  {
-   "topic": "the-arts",
-   "at": "davidson-day:theatre.season[1].kind",
-   "en": "Upper School Musicals",
-   "kept": [
-    "hi"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "fa",
-    "it",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "KEEP",
-   "reason": "Plural twin of the ledgered `Upper School Musical`: hi keeps `Musical` as a loanword and `Upper School` as an identifier.",
-   "leakLocales": []
-  },
-  {
-   "topic": "the-arts",
-   "at": "cannon:ladder.divisions[2].items[1]",
-   "en": "Visual: Honors Visual Foundations → Studio-2D / 3D → Studio Arts II → III → AP Studio Art; plus Advanced Topics: Art History",
-   "kept": [
-    "fa"
-   ],
-   "trans": [
-    "es",
-    "bn",
-    "ht",
-    "te",
-    "fr",
-    "it",
-    "hi",
-    "ar"
-   ],
-   "n": 8,
-   "verdict": "LEDGERED-KEEP",
-   "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
-   "leakLocales": []
-  }
- ]
+  "caps": [
+    {
+      "topic": "after-school",
+      "at": "providence-day:coverage.summer.season",
+      "en": "JUN–AUG",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "after-school",
+      "at": "charlotte-latin:coverage.summer.season",
+      "en": "JUN–JUL",
+      "kept": [
+        "es",
+        "ar"
+      ],
+      "trans": [
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 7,
+      "verdict": "LEAK",
+      "reason": "LEAK for ar; KEEP for es - the correct Spanish abbreviation is byte-identical to the English. es translates the sibling `JUN-AUG` to `JUN-AGO`, where the letters differ.",
+      "leakLocales": [
+        "ar"
+      ],
+      "keepLocales": [
+        "es"
+      ]
+    },
+    {
+      "topic": "course-offerings",
+      "at": "charlotte-catholic:divisions[0].grades",
+      "en": "GRADES 9 – 12",
+      "kept": [
+        "te"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "fr",
+        "fa",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "te"
+      ]
+    },
+    {
+      "topic": "course-offerings",
+      "at": "covenant-day:divisions[2].grades",
+      "en": "JUNIOR KINDERGARTEN – GRADE 5",
+      "kept": [
+        "te"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "fr",
+        "fa",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "te"
+      ]
+    },
+    {
+      "topic": "financial-aid-report",
+      "at": "davidson-day:sections[5].boxes[1].tag",
+      "en": "A COMPARISON TRAP IN THE EARLY YEARS",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "financial-aid-report",
+      "at": "davidson-day:sections[5].boxes[2].tag",
+      "en": "A THIRD-PARTY FIGURE, NOT A SCHOOL ONE",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "financial-aid-report",
+      "at": "providence-day:sections[3].boxes[2].tag",
+      "en": "A UNIT CHANGE THAT BLOCKS COMPARISON",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "financial-aid-report",
+      "at": "charlotte-christian:sections[3].tag",
+      "en": "AID CAPPED AT 50% OF TUITION",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "financial-aid-report",
+      "at": "providence-day:sections[4].tag",
+      "en": "ALL AID IS NEED-BASED",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "financial-aid-report",
+      "at": "charlotte-christian:sections[4].boxes[1].tag",
+      "en": "ARREARS, PER THE SAME 2023–24 PACKET",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "financial-aid-report",
+      "at": "providence-day:sections[3].boxes[1].tag",
+      "en": "AVERAGE IS NOT MEDIAN",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "financial-aid-report",
+      "at": "davidson-day:sections[3].tag",
+      "en": "BOTH SCHOLARSHIPS REQUIRE NEED",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "financial-aid-report",
+      "at": "charlotte-christian:sections[4].boxes[0].tag",
+      "en": "CURRENCY WARNING — CONTRACT TERMS TAGGED 2023–24",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "financial-aid-report",
+      "at": "providence-day:sections[3].tag",
+      "en": "DETAIL LIVES IN THE PHILANTHROPY REPORT",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "financial-aid-report",
+      "at": "charlotte-christian:sections[2].boxes[1].tag",
+      "en": "DOCUMENTATION HAZARD",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "financial-aid-report",
+      "at": "davidson-day:sections[5].boxes[0].tag",
+      "en": "FOUR YEARS, FROM THE ARCHIVE",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "financial-aid-report",
+      "at": "providence-day:sections[3].boxes[4].tag",
+      "en": "HOW AID IS FUNDED",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "financial-aid-report",
+      "at": "charlotte-latin:sections[3].boxes[5].tag",
+      "en": "HOW TO READ THE 990 FIGURE",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "financial-aid-report",
+      "at": "providence-day:sections[6].boxes[2].tag",
+      "en": "NAVIGATION HAZARD",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "financial-aid-report",
+      "at": "charlotte-latin:sections[1].boxes[2].tag",
+      "en": "NO PUBLISHED EVIDENCE — TREATED AS NOT CHARGED",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "financial-aid-report",
+      "at": "charlotte-country-day:sections[4].boxes[0].tag",
+      "en": "NOT PUBLISHED — CONTRACT TERMS",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "financial-aid-report",
+      "at": "charlotte-latin:sections[4].boxes[3].tag",
+      "en": "NOT PUBLISHED — DISCOUNTS",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "financial-aid-report",
+      "at": "providence-day:sections[2].boxes[3].tag",
+      "en": "NOT PUBLISHED — FIVE PROCESS QUESTIONS",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "financial-aid-report",
+      "at": "providence-day:sections[4].boxes[3].tag",
+      "en": "NOT PUBLISHED — SIX ITEMS",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "financial-aid-report",
+      "at": "charlotte-latin:sections[4].boxes[2].tag",
+      "en": "NOT PUBLISHED — SIZES, CRITERIA AND STACKING",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "financial-aid-report",
+      "at": "davidson-day:sections[1].boxes[0].tag",
+      "en": "NOT PUBLISHED — THE DEPOSIT",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "financial-aid-report",
+      "at": "charlotte-latin:sections[5].boxes[2].tag",
+      "en": "NOT PUBLISHED — THE WITHDRAWAL OBLIGATION",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "financial-aid-report",
+      "at": "charlotte-latin:sections[2].boxes[3].tag",
+      "en": "NOT RETRIEVED — THE AID DOCUMENT LIBRARY",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "financial-aid-report",
+      "at": "providence-day:sections[5].boxes[1].tag",
+      "en": "ONE FIGURE AT A LOWER VERIFICATION TIER",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "financial-aid-report",
+      "at": "charlotte-latin:sections[6].boxes[2].tag",
+      "en": "READ THE TENURE FIGURES AS ARITHMETIC, NOT A FORECAST",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "financial-aid-report",
+      "at": "charlotte-latin:sections[2].boxes[5].tag",
+      "en": "RESEARCH PASS, NOT RE-RETRIEVED",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "financial-aid-report",
+      "at": "cannon:sections[5].boxes[1].tag",
+      "en": "SIX YEARS OF RATES, FROM THE ARCHIVE",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "financial-aid-report",
+      "at": "charlotte-latin:sections[6].boxes[3].tag",
+      "en": "THE MIDDLE-INCOME QUESTION",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "financial-aid-report",
+      "at": "charlotte-latin:sections[3].boxes[1].tag",
+      "en": "THE PARTICIPATION SHARE CARRIES A DENOMINATOR BUT NO YEAR",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "financial-aid-report",
+      "at": "charlotte-christian:sections[5].boxes[1].tag",
+      "en": "THE REACH GAP",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "financial-aid-report",
+      "at": "charlotte-latin:sections[1].boxes[3].tag",
+      "en": "THE SCHOOL INTENDS TO ANSWER THIS ITSELF",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "financial-aid-report",
+      "at": "providence-day:sections[6].boxes[0].tag",
+      "en": "TUITION TREND — NOT BUILT",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "financial-aid-report",
+      "at": "charlotte-latin:sections[6].boxes[4].tag",
+      "en": "TWO NAVIGATION HAZARDS",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "financial-aid-report",
+      "at": "providence-day:sections[1].boxes[1].tag",
+      "en": "TWO PUBLIC FIGURES NOT RETRIEVED",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "financial-aid-report",
+      "at": "charlotte-latin:sections[3].boxes[3].tag",
+      "en": "WHY THE AVERAGE AWARD IS NOT SHOWN AS A SHARE OF TUITION",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "financial-aid-report",
+      "at": "charlotte-christian:sections[3].boxes[1].tag",
+      "en": "WITHDRAWN",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "sports",
+      "at": "carmel-christian:record.bars[0].tag",
+      "en": "'21–22 SEASON",
+      "kept": [
+        "hi"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "hi"
+      ]
+    },
+    {
+      "topic": "sports",
+      "at": "carmel-christian:record.bars[2].tag",
+      "en": "'25–26 SEASON",
+      "kept": [
+        "hi"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "hi"
+      ]
+    },
+    {
+      "topic": "sports",
+      "at": "charlotte-catholic:honors.honors[0].tag",
+      "en": "#28 NATIONAL",
+      "kept": [
+        "fr",
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 7,
+      "verdict": "LEAK",
+      "reason": "Phase 2: reclassified fr as KEEP — NATIONAL is the same word in French, so the correct rendering is byte-identical to English. sports.fr.json already holds 'National' -> 'National' as a deliberate identical-keep. ar remains a LEAK.",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "sports",
+      "at": "providence-day:record.bars[1].tag",
+      "en": "2 OF 3 YRS",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "sports",
+      "at": "charlotte-christian:record.bars[2].tag",
+      "en": "2 YRS",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "sports",
+      "at": "carmel-christian:record.bars[1].tag",
+      "en": "2020 TITLE RUN",
+      "kept": [
+        "hi"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "hi"
+      ]
+    },
+    {
+      "topic": "sports",
+      "at": "davidson-day:record.bars[3].tag",
+      "en": "3 YRS",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "sports",
+      "at": "davidson-day:record.bars[2].tag",
+      "en": "4 YRS",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "sports",
+      "at": "davidson-day:record.bars[1].tag",
+      "en": "5 YRS",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "ar"
+      ]
+    },
+    {
+      "topic": "sports",
+      "at": "charlotte-catholic:honors.honors[5].tag",
+      "en": "8 CUPS",
+      "kept": [
+        "te",
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 7,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "te",
+        "ar"
+      ]
+    },
+    {
+      "topic": "sports",
+      "at": "providence-day:record.rows[2].cells[0].result",
+      "en": "NONE",
+      "kept": [
+        "te",
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 7,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "te",
+        "ar"
+      ]
+    },
+    {
+      "topic": "sports",
+      "at": "providence-day:record.rows[0].cells[1].result",
+      "en": "RUNNER-UP",
+      "kept": [
+        "te",
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 7,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "te",
+        "ar"
+      ]
+    },
+    {
+      "topic": "sports",
+      "at": "providence-day:record.rows[0].cells[0].result",
+      "en": "STATE",
+      "kept": [
+        "te",
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 7,
+      "verdict": "LEAK",
+      "reason": "",
+      "leakLocales": [
+        "te",
+        "ar"
+      ]
+    }
+  ],
+  "low": [
+    {
+      "topic": "after-school",
+      "at": "carmel-christian:cost.fees[1].label",
+      "en": "Drop-in (YCC & After School)",
+      "kept": [
+        "te"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "fr",
+        "fa",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "after-school",
+      "at": "gaston-day:cost.rows[2].label",
+      "en": "Lower School · drop-in",
+      "kept": [
+        "bn",
+        "te"
+      ],
+      "trans": [
+        "es",
+        "ht",
+        "fr",
+        "fa",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 7,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "after-school",
+      "at": "gaston-day:cost.rows[3].label",
+      "en": "Middle School · drop-in",
+      "kept": [
+        "bn",
+        "te"
+      ],
+      "trans": [
+        "es",
+        "ht",
+        "fr",
+        "fa",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 7,
+      "verdict": "KEEP",
+      "reason": "Exact twin of the ledgered `Lower School · drop-in`: bn and te both keep `drop-in` as a loanword, leaving nothing to translate.",
+      "leakLocales": []
+    },
+    {
+      "topic": "college-support",
+      "at": "covenant-day:transcript.trust[1].text",
+      "en": "\"Due to the small class size and the college-bound nature of Covenant Day’s population, we believe that class rank is not a strong discriminator… Therefore, we do not rank.\"",
+      "kept": [
+        "bn",
+        "te"
+      ],
+      "trans": [
+        "es",
+        "ht",
+        "fr",
+        "fa",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 7,
+      "verdict": "KEEP",
+      "reason": "Verbatim attributed quotation from the school profile. fr keeps the English wording and merely swaps to French guillemets, signalling the quote-stays-in-original intent; bn/te keeping it whole is the same call.",
+      "leakLocales": []
+    },
+    {
+      "topic": "college-support",
+      "at": "charlotte-country-day:transcript.merit[3].detail",
+      "en": "**11** Semifinalists · **13** Commended",
+      "kept": [
+        "te"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "fr",
+        "fa",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "college-support",
+      "at": "charlotte-christian:transcript.merit[0].detail",
+      "en": "**14** Finalists · **48** Commended Scholars",
+      "kept": [
+        "te"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "fr",
+        "fa",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "college-support",
+      "at": "charlotte-christian:transcript.merit[1].detail",
+      "en": "**16** Finalists · **45** Commended Scholars",
+      "kept": [
+        "te"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "fr",
+        "fa",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "college-support",
+      "at": "charlotte-latin:transcript.merit[1].detail",
+      "en": "**6** Finalists · **16** Commended · 1 National Merit Scholar (Evan Li ’24)",
+      "kept": [
+        "te"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "fr",
+        "fa",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "college-support",
+      "at": "providence-day:transcript.merit[2].detail",
+      "en": "**7** Finalists · **16** Commended · 8 College Board Achievement Scholars",
+      "kept": [
+        "te"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "fr",
+        "fa",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "college-support",
+      "at": "charlotte-country-day:transcript.merit[5].detail",
+      "en": "**7** Semifinalists · **8** Commended",
+      "kept": [
+        "te"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "fr",
+        "fa",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "college-support",
+      "at": "providence-day:transcript.merit[3].detail",
+      "en": "**9** Semifinalists",
+      "kept": [
+        "te"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "fr",
+        "fa",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "college-support",
+      "at": "charlotte-catholic:outcomes.scholarships[2]",
+      "en": "11 National Merit Commended Students (2025)",
+      "kept": [
+        "te"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "fr",
+        "fa",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "college-support",
+      "at": "charlotte-catholic:transcript.merit[0].detail",
+      "en": "2 National Merit Finalists · 11 Commended Students",
+      "kept": [
+        "te"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "fr",
+        "fa",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "college-support",
+      "at": "charlotte-catholic:outcomes.scholarships[1]",
+      "en": "2 National Merit Finalists (2025)",
+      "kept": [
+        "te"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "fr",
+        "fa",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "college-support",
+      "at": "charlotte-latin:transcript.merit[3].detail",
+      "en": "25 Semifinalists · 34 Commended · 7 National Hispanic Scholars",
+      "kept": [
+        "te"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "fr",
+        "fa",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "college-support",
+      "at": "charlotte-latin:transcript.merit[4].detail",
+      "en": "34 Semifinalists · 33 Commended · 2 National Achievement Semifinalists",
+      "kept": [
+        "te"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "fr",
+        "fa",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "college-support",
+      "at": "charlotte-catholic:counseling.roster[0].role",
+      "en": "Director of Counseling Services",
+      "kept": [
+        "bn"
+      ],
+      "trans": [
+        "es",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "college-support",
+      "at": "gaston-day:wholeClass.scoreTables[0].rows[2].label",
+      "en": "SAT Math — 2025",
+      "kept": [
+        "fr"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fa",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "college-support",
+      "at": "charlotte-country-day:wholeClass.support[0].label",
+      "en": "The Educational Resource Program",
+      "kept": [
+        "fr"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fa",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "college-support",
+      "at": "charlotte-catholic:outcomes.buckets[3].tier",
+      "en": "Top-75 Liberal Arts Colleges",
+      "kept": [
+        "ht",
+        "it"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "te",
+        "fr",
+        "fa",
+        "hi",
+        "ar"
+      ],
+      "n": 7,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "course-offerings",
+      "at": "charlotte-catholic:divisions[0].departments[11].name",
+      "en": "Dual Enrollment",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "course-offerings",
+      "at": "charlotte-christian:divisions[1].departments[5].courses[0].title",
+      "en": "Fine Arts electives",
+      "kept": [
+        "te",
+        "fa"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "fr",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 7,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "course-offerings",
+      "at": "charlotte-latin:divisions[0].departments[0].courses[3].title",
+      "en": "History / Social Studies",
+      "kept": [
+        "te"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "fr",
+        "fa",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "course-offerings",
+      "at": "charlotte-christian:divisions[1].departments[5].courses[1].title",
+      "en": "Innovation electives",
+      "kept": [
+        "te",
+        "fa"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "fr",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 7,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "course-offerings",
+      "at": "charlotte-catholic:divisions[0].departments[1].name",
+      "en": "Interdisciplinary Studies",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "course-offerings",
+      "at": "providence-day:divisions[0].title",
+      "en": "Lower School Courses",
+      "kept": [
+        "te"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "fr",
+        "fa",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "course-offerings",
+      "at": "charlotte-christian:divisions[1].departments[5].courses[2].title",
+      "en": "Personal Skills electives",
+      "kept": [
+        "te",
+        "fa"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "fr",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 7,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "course-offerings",
+      "at": "davidson-day:divisions[1].departments[1].courses[1].title",
+      "en": "Upper School course access",
+      "kept": [
+        "te",
+        "fa"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "fr",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 7,
+      "verdict": "KEEP",
+      "reason": "te keeps division/course titles as roster identifiers and fa keeps course-catalog titles verbatim — both ledgered classes (#193).",
+      "leakLocales": []
+    },
+    {
+      "topic": "course-offerings",
+      "at": "charlotte-catholic:divisions[0].departments[9].name",
+      "en": "Visual and Performing Arts",
+      "kept": [
+        "ar"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "financial-aid-report",
+      "at": "charlotte-christian:sections[1].components[4].label",
+      "en": "Tuition Protection Program · $250/yr",
+      "kept": [
+        "it"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "hi",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "metric-values",
+      "at": "providence-day:[20].values.covenant-day",
+      "en": "Mock Trial art 2nd NC",
+      "kept": [
+        "te"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "fr",
+        "fa",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "sports",
+      "at": "charlotte-country-day:facilities.photos[1].meta",
+      "en": "~30,000 sq ft, 2022",
+      "kept": [
+        "es",
+        "it"
+      ],
+      "trans": [
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "hi",
+        "ar"
+      ],
+      "n": 7,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "sports",
+      "at": "charlotte-country-day:facilities.photos[2].meta",
+      "en": "~47,000 sq ft, 2022",
+      "kept": [
+        "es",
+        "it"
+      ],
+      "trans": [
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "hi",
+        "ar"
+      ],
+      "n": 7,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "sports",
+      "at": "charlotte-latin:facilities.photos[1].meta",
+      "en": "50,000 sq ft, 2001",
+      "kept": [
+        "es",
+        "it"
+      ],
+      "trans": [
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "hi",
+        "ar"
+      ],
+      "n": 7,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "sports",
+      "at": "providence-day:facilities.photos[1].meta",
+      "en": "53,000 sq ft, 2001",
+      "kept": [
+        "es",
+        "it"
+      ],
+      "trans": [
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "hi",
+        "ar"
+      ],
+      "n": 7,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "sports",
+      "at": "hickory-grove-christian:coaching.subhead",
+      "en": "Athletic Director: Jim Rhodes. Assistant AD: Crystal Rhodes.",
+      "kept": [
+        "te"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "fr",
+        "fa",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "KEEP",
+      "reason": "te keeps every bare job title in sports.te.json Latin (`Athletic Director`, `Assistant AD`) — the same class the ledger settled for `Football QBs · Game Day Coordinator` (#196). Names are proper nouns.",
+      "leakLocales": []
+    },
+    {
+      "topic": "sports",
+      "at": "charlotte-catholic:pipeline.roster[32].sport",
+      "en": "Cross country / track",
+      "kept": [
+        "te"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "fr",
+        "fa",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "sports",
+      "at": "providence-day:coaching.tenure[1].role",
+      "en": "Football QBs · Game Day Coordinator",
+      "kept": [
+        "te"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "fr",
+        "fa",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "sports",
+      "at": "hickory-grove-christian:honors.honors[0].tag",
+      "en": "NCISAA, individual",
+      "kept": [
+        "es"
+      ],
+      "trans": [
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "sports",
+      "at": "charlotte-country-day:facilities.venues[4].detail",
+      "en": "varsity baseball",
+      "kept": [
+        "hi"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "student-clubs",
+      "at": "providence-day:clusters.rows[3].oneLiner",
+      "en": "FBLA, Euro Challenge, PD Economics Challenge — plus DECA",
+      "kept": [
+        "bn",
+        "fr"
+      ],
+      "trans": [
+        "es",
+        "ht",
+        "te",
+        "fa",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 7,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "student-clubs",
+      "at": "charlotte-country-day:catalog.categories[0].full",
+      "en": "Governance / leadership",
+      "kept": [
+        "it"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "hi",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "student-clubs",
+      "at": "covenant-day:catalog.clubs[3].note",
+      "en": "Junior Classical League chapter",
+      "kept": [
+        "te"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "fr",
+        "fa",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "student-clubs",
+      "at": "charlotte-christian:catalog.categories[2].full",
+      "en": "Leadership / media",
+      "kept": [
+        "it"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "hi",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "student-clubs",
+      "at": "davidson-day:clusters.rows[1].oneLiner",
+      "en": "National Honor Society (28 in ’25), Global Studies Diploma, Acclaim Scholars",
+      "kept": [
+        "bn"
+      ],
+      "trans": [
+        "es",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "summer-programs",
+      "at": "charlotte-country-day:catalog.camps[0].categoryLabel",
+      "en": "Full Day - Farm",
+      "kept": [
+        "te",
+        "hi"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "fr",
+        "fa",
+        "it",
+        "ar"
+      ],
+      "n": 7,
+      "verdict": "KEEP",
+      "reason": "Already ledgered (#193) — category label.",
+      "leakLocales": []
+    },
+    {
+      "topic": "summer-programs",
+      "at": "charlotte-country-day:catalog.camps[10].categoryLabel",
+      "en": "Full Day (STEM)",
+      "kept": [
+        "te",
+        "hi"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "fr",
+        "fa",
+        "it",
+        "ar"
+      ],
+      "n": 7,
+      "verdict": "KEEP",
+      "reason": "Both keep the whole `Full Day` category-label family (#193); `Full Day - Farm` is already ledgered.",
+      "leakLocales": []
+    },
+    {
+      "topic": "summer-programs",
+      "at": "charlotte-latin:catalog.camps[41].weeks",
+      "en": "Sessions 1, 2, 4, 5, 7",
+      "kept": [
+        "fr"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fa",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "summer-programs",
+      "at": "charlotte-latin:catalog.camps[22].weeks",
+      "en": "Sessions 1, 2, 5, 6",
+      "kept": [
+        "fr"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fa",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "summer-programs",
+      "at": "charlotte-latin:catalog.camps[25].weeks",
+      "en": "Sessions 2, 3, 4, 5, 6",
+      "kept": [
+        "fr"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fa",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "summer-programs",
+      "at": "charlotte-latin:catalog.camps[56].weeks",
+      "en": "Sessions 2, 4, 5, 7",
+      "kept": [
+        "fr"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fa",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "summer-programs",
+      "at": "charlotte-latin:catalog.camps[16].weeks",
+      "en": "Sessions 3, 4, 7",
+      "kept": [
+        "fr"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fa",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "summer-programs",
+      "at": "charlotte-latin:catalog.camps[17].weeks",
+      "en": "Sessions 4, 5, 7",
+      "kept": [
+        "fr"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fa",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "the-arts",
+      "at": "charlotte-country-day:ladder.divisions[2].items[1]",
+      "en": "AP Music Theory; AP art courses including AP Sculpture; IB art courses including IB Theatre Arts",
+      "kept": [
+        "fa"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "the-arts",
+      "at": "charlotte-country-day:ladder.divisions[2].items[0]",
+      "en": "Concert Choir, Chamber/Honors Choir, Symphonic Band, Honors Symphonic Band, Orchestra, Honors Orchestra, Percussion Ensemble, Piano class",
+      "kept": [
+        "fa",
+        "hi"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "it",
+        "ar"
+      ],
+      "n": 7,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "the-arts",
+      "at": "charlotte-christian:ladder.divisions[2].items[1]",
+      "en": "Drawing & Painting beginner → intermediate → honors → AP; Art & Design beginner → AP; AP Art History",
+      "kept": [
+        "fa"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "the-arts",
+      "at": "charlotte-country-day:visual.media[3].detail",
+      "en": "hand-building, wheel throwing, glazing, firing",
+      "kept": [
+        "fa"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "the-arts",
+      "at": "davidson-day:ladder.enrichment[0].label",
+      "en": "Improv & Musical Review",
+      "kept": [
+        "fr",
+        "it"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fa",
+        "hi",
+        "ar"
+      ],
+      "n": 7,
+      "verdict": "KEEP",
+      "reason": "`Improv`, `Musical` and `Review` are all loanwords in both locales — the translation would be near-identical.",
+      "leakLocales": []
+    },
+    {
+      "topic": "the-arts",
+      "at": "davidson-day:ladder.divisions[2].items[1]",
+      "en": "Music & Performing Arts: Performance Ensemble (theatre), Contemporary Ensemble, Modern Music, Film Studies & Production",
+      "kept": [
+        "fa"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "the-arts",
+      "at": "cannon:ladder.divisions[2].items[2]",
+      "en": "Music: Honors Concert Chorus, String Ensemble I–IV, Upper School Band, Jazz Combo, Modern Ensemble, Music Technology I–III",
+      "kept": [
+        "fa"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "the-arts",
+      "at": "cannon:theatre.season[0].kind",
+      "en": "One-Acts (NCTC)",
+      "kept": [
+        "it",
+        "hi"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "ar"
+      ],
+      "n": 7,
+      "verdict": "KEEP",
+      "reason": "Festival entry plus its sanctioning-body acronym; it/hi treat the programme name as an identifier.",
+      "leakLocales": []
+    },
+    {
+      "topic": "the-arts",
+      "at": "charlotte-latin:theatre.season[1].kind",
+      "en": "Upper School Musical",
+      "kept": [
+        "hi"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    },
+    {
+      "topic": "the-arts",
+      "at": "davidson-day:theatre.season[1].kind",
+      "en": "Upper School Musicals",
+      "kept": [
+        "hi"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "fa",
+        "it",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "KEEP",
+      "reason": "Plural twin of the ledgered `Upper School Musical`: hi keeps `Musical` as a loanword and `Upper School` as an identifier.",
+      "leakLocales": []
+    },
+    {
+      "topic": "the-arts",
+      "at": "cannon:ladder.divisions[2].items[1]",
+      "en": "Visual: Honors Visual Foundations → Studio-2D / 3D → Studio Arts II → III → AP Studio Art; plus Advanced Topics: Art History",
+      "kept": [
+        "fa"
+      ],
+      "trans": [
+        "es",
+        "bn",
+        "ht",
+        "te",
+        "fr",
+        "it",
+        "hi",
+        "ar"
+      ],
+      "n": 8,
+      "verdict": "LEDGERED-KEEP",
+      "reason": "Already triaged as a KEEP in a prior pass (PR #190/#193/#194/#196) — see src/data/overlays/NOTES.md.",
+      "leakLocales": []
+    }
+  ]
 }
