@@ -2627,3 +2627,136 @@ detector re-run after a fix is not merely a regression check — it is a fresh s
 npm run i18n:siblings -- --lang <l>    # 3 remaining flags = the bn/hi/te Drop-in KEEPs
 npm run i18n:leaks    -- --lang <l>    # newly exposed rows, triaged above
 ```
+
+# siblingtail2 (2026-08-24) — the parenthetical-modifier class, re-triaged and partly reverted
+
+`siblingtail2`. This pass **overturns three of the six edits PR #200 shipped** and closes
+the `<Head Noun> (<modifier>)` course-title class with a measured convention rather than a
+sibling inference.
+
+**Split: 0 LEAK : 5 KEEP : 3 REVERT.** Nothing was translated; three values were restored
+to English char-for-char from `569a9bd^`.
+
+> **Supersedes earlier rows in this file.** The `siblingtail` section above lists
+> `Fine Arts (Art, Music, Drama)` (`fr`, `ar`) and `World Language (daily)` (`fr`) as
+> LEAKs translated in Phase 2, and lists the `te`/`fa`/`it`/`ar` rows as "probable leaks"
+> newly exposed. **Both readings are overturned here.** Read this section, not those, for
+> this class.
+
+## The governing finding — department names and course titles are separate classes
+
+PR #200 translated three course-title head nouns on the evidence that `fr` and `ar`
+translate the bare department name `Fine Arts`. **That inference is unsound.** Measured
+across all nine locales, every locale translates `departments[].name` at 56–89% and
+`courses[].title` at 2–29% — the gap is present in all nine, so the field distinction is a
+project-wide convention, not one locale's quirk.
+
+The decisive case is the *same string* in both slots, in data untouched by PR #200:
+
+| lang | `Fine Arts` as department name | `Fine Arts electives` as course title |
+|---|---|---|
+| `fr` | `Beaux-arts` | **`Options Fine Arts`** — head noun kept |
+| `te` | `లలిత కళలు` | **`Fine Arts electives`** — kept entire |
+| `fa` | `هنرهای زیبا` | **`Fine Arts electives`** — kept entire |
+
+`fr` answers the question against itself. The real rule these locales follow is *generic
+subject-area label → translate; catalog entry a parent looks up → keep*, and the
+parenthetical modifier is the marker of the latter.
+
+## The REVERTS — keyed by (string, locale)
+
+Each reverses part of PR #200. Values restored char-for-char from `git show 569a9bd^:…`,
+never re-typed.
+
+| English | Reverted in | Why PR #200 was wrong |
+|---|---|---|
+| `Fine Arts (Art, Music, Drama)` | `fr` | `fr` was **0 of 69** translated parenthesised course titles pre-#200, and keeps `Fine Arts` inside the course title `Options Fine Arts` in its own untouched data. PR #200's two edits were the only exceptions `fr` contained. |
+| `Fine Arts (Art, Music, Drama)` | `ar` | `ar` was **0 of 69** pre-#200. Its `Fine Arts electives` translation is department-adjacent; against a 0/69 course-title record one edit is the exception, not the rule. |
+| `World Language (daily)` | `fr` | Same 0/69 record. `fr` keeps `Spanish I / French I / Mandarin I` in the same parent group. |
+
+After the reverts `fr` and `ar` return to **HEAD-NOUN = 0 of 39**, restoring the uniform
+`te`/`fr`/`fa`/`it`/`ar` convention that held before PR #200.
+
+## The KEEPS — keyed by (string, locale)
+
+| English | Kept in | Reason |
+|---|---|---|
+| `Fine Arts (Art, Music, Drama)` | `te` | 0 of 69 parenthesised course titles; keeps `Fine Arts electives` entire while translating the `Fine Arts` **department** name. Parenthesis-marked convention. |
+| `Fine Arts (Art, Music, Drama)` | `fa` | Identical to `te` — 0 of 69, keeps `Fine Arts electives` entire. |
+| `Fine Arts (Art, Music, Drama)` | `it` | 0 of 69 parenthesised titles. Translates `Fine Arts electives`, so its rule is parenthesis-marked, not noun-marked. |
+| `World Language (daily)` | `te`, `fa`, `it`, `ar` | 0 of 69 each; all four keep `Spanish I / French I / Mandarin I` in the same parent group. |
+| `World Language (Online)` | all nine | Its parent group (`carmel-christian` dept 5) is `Spanish I`, `Spanish II`, `Spanish III`, `Honors Spanish IV`, `AP Spanish (Language & Culture)` — kept by **every** locale including `es`, which has 22 head-noun translations elsewhere. A 9/9 convention on a catalog group, not a threshold artefact. |
+
+`es` (22), `ht` (9), `hi` (5) and `bn` (3) translate head nouns in this class freely and
+translate these very rows. **Their rows are not in question and were not touched.** The
+finding is not "nobody translates this class" — it is that each locale has a settled
+position, and `fr`/`ar`'s was 0/69 until PR #200.
+
+## The final HEAD-NOUN table — inherit this rather than re-deriving it
+
+39 non-code parenthetical-modifier course titles per locale, after the reverts:
+
+```
+  lang  total  kept  paren-only  HEAD-NOUN
+  es       39    16           1         22
+  bn       39    33           3          3
+  ht       39    29           1          9
+  te       39    38           1          0
+  fr       39    38           1          0   <- restored
+  fa       39    38           1          0
+  it       39    38           1          0
+  hi       39    33           1          5
+  ar       39    38           1          0   <- restored
+```
+
+**A locale at HEAD-NOUN = 0 keeps head nouns by convention; a lone exception in such a
+locale is a leak in the fix, not in the data.** `paren-only` is the shape those locales do
+use when something must move — `Special Areas (All Grades)` → `Special Areas (అన్ని గ్రేడ్‌లు)`,
+head noun intact.
+
+## The two detectors moved in OPPOSITE directions, and that is the reusable finding
+
+Re-running both detectors × 9 locales before and after the reverts:
+
+- **Consensus detector** (`i18n:leaks --min 6`): `Fine Arts (Art, Music, Drama)`
+  **disappeared** from `te`, `fa` and `it`. PR #200's edits had pushed the string past the
+  ≥6 threshold, manufacturing three holdout flags out of locales that were following their
+  own settled convention. Total flags 437 → 434.
+- **Sibling detector** (`i18n:siblings`): the three reverted rows **reappeared** as flags
+  in `fr` and `ar` — correctly, since they are English again among translated siblings.
+  They are ledgered above, which is what a flag on a settled row is for.
+
+`siblingtail` recorded that *translating a leak exposes others*. This pass records the
+converse: **reverting a wrong fix retracts the flags that fix manufactured.** A consensus
+flag that appeared in the same pass as a fix elsewhere in its cohort is suspect evidence —
+check whether the threshold moved before treating it as a discovery.
+
+## Every remaining flag is ledgered — and one residual deliberately is not
+
+**Sibling detector: clean.** 571 `(string, locale)` pairs over 127 distinct strings, and
+**all 127 are ledgered**, verified two ways: every string lands inside an actual ledger
+**table row** rather than surrounding prose, and every flagged pair's **locale** is named
+in its own row. Both audits returned zero exceptions.
+
+**Consensus detector at `--min 6`: 434 pairs, of which 267 are not ledgered — and that
+count is identical before and after this pass (267 either way).** It is a pre-existing
+surface this pass neither created nor touched, spanning classes well outside the
+parenthetical-modifier scope (bare season words, grade bands, session lists, staff-role
+columns, quintile labels). Recorded here as a **measured follow-up**, not glossed: the
+approved scope was this one class, and triaging 267 pairs on the way past would be a
+different pass with a different plan.
+
+Note the two detectors are screened at different thresholds by design: the sibling
+detector has no consensus threshold, while `--min 6` is the calibrated triage line for the
+consensus detector. Neither instrument was retuned for this pass.
+
+## Reproducing this
+
+```
+node .claude/plans/siblingtail2-data/measure_parenmods.mjs   # the HEAD-NOUN table
+node .claude/plans/siblingtail-data/build_worklist.mjs       # 571 pairs -> 0 untriaged
+npm run i18n:siblings -- --lang <l>                          # x9
+npm run i18n:leaks    -- --lang <l> --min 6                  # x9
+```
+
+Verdicts and the full evidence: `.claude/plans/siblingtail2-data/TRIAGE.md`.
