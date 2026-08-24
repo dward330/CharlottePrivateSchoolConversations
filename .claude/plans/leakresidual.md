@@ -1,7 +1,7 @@
 ---
 name: leakresidual
 title: Clear the residual 106 cross-locale leak-shaped strings, concentrated in ar and te
-status: not-implemented
+status: english-done
 phases: 2
 created: 2026-08-24
 branch: i18n/leak-residual
@@ -234,3 +234,46 @@ mechanism; do not read a rollout doc for a *register* rule.
 - **Should the leak-shaped filter's ≥15-char floor be lowered now the queue is small?**
   — **default:** no. Keep the same filter so progress stays comparable across the three
   passes; revisit only after this one closes.
+
+## Implementation notes
+
+### Phase 1 (2026-08-24) — the Context section did not reproduce
+
+The plan's headline figures were **106 leak-shaped strings, `ar 38`, `financial-aid-report
+36`**. Re-measuring the same filter (kept ≤2, translated ≥2, ≥15 chars) across all nine work
+files gives **70**, with **`ar 3`** and **`financial-aid-report 1`**.
+
+Every other locale matched almost exactly — `te` 32 (plan: 33), `fa` 16, `it` 10, `fr` 10,
+`hi` 7, `bn` 6, `ht` 1 — so the discrepancy is confined to those two claims.
+
+This is **not** stale data. `financial-aid-report.ar.json` has not been touched since PR
+#150, well before #190/#193, so nothing translated those 36 away; and the raw unfiltered
+detector output for `ar` contains exactly one `financial-aid-report` row. The two figures
+appear to be a measurement error in the planning document. The rest of the plan — its
+method, decisions and risk table — held up well and was followed as written.
+
+Consequence for the plan's shape: "two locales and one topic, workable in batches" was
+right about `te` but not about `ar` or `financial-aid-report`. The real concentration is
+**`te` and `fa`**.
+
+### One detector caveat worth carrying forward
+
+`find_english_leaks.mjs` defaults to `--refs es,fr,it,te,bn,fa,ht` — it **omits `hi` and
+`ar`**. Run it with all eight other locales passed explicitly, or those two never serve as
+reference locales and their agreement is invisible.
+
+### Result
+
+**9 LEAK / 50 KEEP** over the 59 genuinely-untriaged `(string, locale)` pairs; the other 24
+of the 70 rows were already settled by #190/#193. Ratio **1 : 5.56**, the highest keep ratio
+of the three passes — the expected shape for the tail of the queue, and predicted by the
+plan.
+
+Five provisional LEAK calls were overturned by measurement before being recorded, including
+four `es` `sq ft` strings that PR #194 (`unitrevert`) had deliberately restored to English
+the previous day. Details and the per-locale evidence are in the ledger section of
+`src/data/overlays/NOTES.md` and in `.claude/plans/leakresidual-data/`.
+
+One correction to a prior ledger claim: #193's row asserting `fa` "keeps `visual.media[]`
+technique lists verbatim" does not hold — `fa` translates **48 of 54** of them, so the three
+Cannon entries are genuine leaks and are on the Phase 2 worklist.
