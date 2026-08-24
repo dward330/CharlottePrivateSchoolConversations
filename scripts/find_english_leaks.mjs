@@ -30,7 +30,11 @@ const args = process.argv.slice(2)
 const argOf = (n) => { const i = args.indexOf(n); return i === -1 ? null : args[i + 1] }
 
 const LANG = argOf('--lang')
-const REFS = (argOf('--refs') ?? 'es,fr,it,te,bn,fa,ht').split(',').filter((l) => l !== LANG)
+// Every other shipped prose locale is a reference by default. `hi` and `ar` were
+// silently absent from this list, so their agreement never counted — which is how
+// 35 `ar` findings hid twice over. Keep this in sync with PROSE_TRANSLATED.
+const ALL_LOCALES = 'es,bn,ht,te,fr,fa,it,hi,ar'
+const REFS = (argOf('--refs') ?? ALL_LOCALES).split(',').filter((l) => l !== LANG)
 const MIN = Number(argOf('--min') ?? 2)
 
 if (!LANG) {
@@ -74,7 +78,13 @@ for (const topic of topics) {
     const en = s.text ?? ''
     const t = s.t ?? ''
     if (!en || !t || t !== en) continue   // untranslated or genuinely translated
-    if (!/[a-z]/.test(en)) continue       // no lowercase → an acronym or code
+    // NO CAPS SKIP. A `!/[a-z]/.test(en)` filter used to live here on the theory
+    // that an all-caps string is an acronym or code. It is not: ALL-CAPS SECTION
+    // HEADINGS are prose (`AVERAGE IS NOT MEDIAN`, `HOW AID IS FUNDED`), and the
+    // skip hid 66 strong-consensus leaks from three separate triage passes. Shape
+    // cannot separate `SEMIFINAL` (prose) from `JUN–AUG` (a code) — they are
+    // structurally identical — so CONSENSUS is the discriminator instead: raise
+    // `--min` to filter, never a shape test. See .claude/plans/capsleaks.md.
 
     const by = []
     for (const [l, m] of Object.entries(refMaps)) {

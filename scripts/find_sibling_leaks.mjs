@@ -116,7 +116,9 @@ for (const topic of topics) {
     const seen = new Set()
     const flagged = []
     for (const k of kept) {
-      if (!/[a-z]/.test(k.en)) continue   // no lowercase -> an acronym or code
+      // NO CAPS SKIP — see find_english_leaks.mjs for the full reasoning. An
+      // all-caps string is not necessarily an acronym; ALL-CAPS headings are
+      // prose, and this same line in both detectors hid them from three passes.
       if (k.en.length < MIN_LEN) continue
       if (seen.has(k.en)) continue
       seen.add(k.en)

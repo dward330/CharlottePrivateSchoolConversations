@@ -2292,3 +2292,148 @@ them, so the three Cannon entries were genuine leaks. Two rows in that column re
 legitimate keeps (`Digital Art and Graphic Design`, `hand-building, wheel throwing,
 glazing, firing`); they are proper-noun course names and a term-of-art sequence, and were
 settled by the earlier passes.
+
+---
+
+# capsleaks (PR pending, 2026-08-24) — the ALL-CAPS blind spot
+
+## The bug: both detectors skipped every ALL-CAPS string
+
+`find_english_leaks.mjs` and `find_sibling_leaks.mjs` carried the identical line
+`if (!/[a-z]/.test(en)) continue`, on the theory that a string with no lowercase is an
+acronym or code. **ALL-CAPS section headings are prose**, so `AVERAGE IS NOT MEDIAN`,
+`HOW AID IS FUNDED` and `ALL AID IS NEED-BASED` were invisible to *both* tools — and
+therefore to the three triage passes (#190, #193, #196) that each reported the tail clean.
+
+Removing the skip surfaced **54 leaks across 59 (string, locale) edits**, 49 of them `ar`.
+
+## The open question — is `ar` keeping Latin headings a convention? — answered NO
+
+The plan flagged that 37 findings in one locale and one topic could be one decision
+rather than 37. Measured in `financial-aid-report.ar.json`, it is not:
+
+| Measure | Count |
+|---|---|
+| lowercase strings `ar` translated | 789 of 802 (98%) |
+| ALL-CAPS strings `ar` translated | 14 |
+| ALL-CAPS strings `ar` kept | 69 (26 of them bare figures like `$2.5K`, `3×`, `10%`) |
+
+A blanket convention cannot produce that split, and two pairs settle it outright:
+`ar` **translated** `ALL SCHOOL AID IS NEED-BASED` but **kept** `ALL AID IS NEED-BASED`;
+it translated `NOT PUBLISHED — SEVEN CONTRACT & PAYMENT QUESTIONS` but kept
+`NOT PUBLISHED — SIX ITEMS`. That is arbitrary coverage, i.e. the blind spot — not a rule.
+
+## Consensus separates prose from codes; shape cannot
+
+The plan predicted this and the re-measurement confirmed it. Bucketed by how many of the
+eight other locales translated the same ALL-CAPS string:
+
+| Consensus | Items | What they are |
+|---|---|---|
+| 8 of 8 | 48 | prose headings |
+| 7 of 8 | 6 | prose headings |
+| 6 of 8 | 2 | prose headings |
+| 5 of 8 | 2 | grade-band codes (`JK & K`) |
+| 4 of 8 | 2 | `K-12 (AM), K-8 (PM)` |
+| 3 of 8 | 3 | year abbreviations (`'23–24`) |
+| 2 of 8 | 7 | clock times (`7:30 AM–5:30 PM`) |
+
+`JUN–AUG` is the case that proves the point. The plan cited it as the archetypal *code*
+that a shape test cannot separate from `SEMIFINAL` — but **8 of 8 locales translate the
+month abbreviations**, so it is prose. No shape test would ever have found it; consensus
+did. Keep `--min` as the filter and never re-add a shape filter.
+
+## The lowercase tail is EXHAUSTED — 64 candidates, 64 keeps, 0 leaks
+
+The plan budgeted for a ~1:6.4 leak:keep ratio on the lowercase half. The real ratio is
+**0 leaks : 64 keeps**, and **55 of the 64 were already ledgered** by #190/#193/#194/#196.
+Three passes have now converged: the lowercase tail at >=6/8 consensus is fully triaged,
+and re-running it costs a pass and yields nothing. **The two halves invert each other** —
+the caps half is 100% leak because nothing had ever looked at it, the lowercase half is
+100% keep because three passes already had.
+
+The nine not previously ledgered are recorded below; each is resolved by a class rule an
+earlier pass had already established, not by a fresh judgement.
+
+## The KEEPS — keyed by (string, locale)
+
+| Value | Locale(s) | Reason |
+|---|---|---|
+| `"Due to the small class size and the college-bound nature of Covenant Day’s population, we…` | `bn`, `te` | Verbatim attributed quotation from the school profile. fr keeps the English wording and merely swaps to French guillemets, signalling the quote-stays-in-original intent; bn/te keeping it whole is the same call. |
+| `Athletic Director: Jim Rhodes. Assistant AD: Crystal Rhodes.` | `te` | te keeps every bare job title in sports.te.json Latin (`Athletic Director`, `Assistant AD`) — the same class the ledger settled for `Football QBs · Game Day Coordinator` (#196). Names are proper nouns. |
+| `Full Day - Farm` | `te`, `hi` | Already ledgered (#193) — category label. |
+| `Full Day (STEM)` | `te`, `hi` | Both keep the whole `Full Day` category-label family (#193); `Full Day - Farm` is already ledgered. |
+| `Improv & Musical Review` | `fr`, `it` | `Improv`, `Musical` and `Review` are all loanwords in both locales — the translation would be near-identical. |
+| `Middle School · drop-in` | `bn`, `te` | Exact twin of the ledgered `Lower School · drop-in`: bn and te both keep `drop-in` as a loanword, leaving nothing to translate. |
+| `One-Acts (NCTC)` | `it`, `hi` | Festival entry plus its sanctioning-body acronym; it/hi treat the programme name as an identifier. |
+| `Upper School course access` | `te`, `fa` | te keeps division/course titles as roster identifiers and fa keeps course-catalog titles verbatim — both ledgered classes (#193). |
+| `Upper School Musicals` | `hi` | Plural twin of the ledgered `Upper School Musical`: hi keeps `Musical` as a loanword and `Upper School` as an identifier. |
+| `JUN–JUL` | `es` | the correct Spanish abbreviation is byte-identical to the English. es translates the sibling `JUN-AUG` to `JUN-AGO`, where the letters differ. |
+
+Plus **55 strings already ledgered by an earlier pass** and re-confirmed here — they are
+listed in the #190/#193/#194/#196 tables above and are not duplicated.
+
+## Bare figures are not leaks, and the filter already excludes them
+
+Dropping the caps skip does surface `$2.5K`, `3×`, `10%`, `—` and similar. None reached
+the worklist: they are kept by every locale, so their consensus is 0/8 and the >=6/8
+threshold removes them without a shape rule. This is the same point as `JUN–AUG`, from
+the other direction.
+
+## The `--refs` default omitted `hi` and `ar`
+
+`find_english_leaks.mjs` defaulted to `es,fr,it,te,bn,fa,ht` — so `hi` and `ar` never
+acted as reference locales and their agreement was invisible. With `ar` holding 49 of
+this pass's 59 edits, that compounded the caps skip: the findings were hidden twice over.
+The default is now every other shipped prose locale.
+
+## Reproducing this
+
+```
+npm run i18n:leaks -- --lang ar        # refs now default to all eight others
+npm run i18n:siblings -- --lang ar
+```
+
+The worklist and every sibling rendering are committed at
+`.claude/plans/capsleaks-data/`.
+
+## Phase 2 (2026-08-24) — 58 translated, one row reclassified at translation time
+
+The 54-string / 59-edit worklist produced **58 translations** and **one further KEEP**.
+That makes it the **fifth consecutive pass** in which a LEAK verdict did not survive
+contact with the locale's own siblings — the rate is now stable enough to plan for.
+
+| Value | Locale | Verdict | Reason |
+|---|---|---|---|
+| `#28 NATIONAL` | `fr` | **KEEP** (was LEAK) | `NATIONAL` is the same word in French, so the correct French rendering is byte-identical to the English. The detector compares bytes, not meaning, and cannot tell a cognate from a leak. |
+
+**The evidence was a sibling that was already a deliberate identical-keep.** `sports.fr.json`
+holds `'National' -> 'National'` — translated, and translated to itself. The neighbouring
+tag `#4 IN 6A` → `#4 EN 6A` shows what `fr` *does* change in this slot: the connector word,
+never `NATIONAL`. The other three Latin locales all translate it (`es` `NACIONAL`, `it`
+`NAZIONALE`, `ht` `NASYONAL`), which is exactly why the cross-locale majority read `fr` as
+the odd one out — the majority is measuring vocabulary distance, not correctness.
+
+**The general form of this trap: a cognate is indistinguishable from a leak by byte
+comparison.** It will recur for any Latin-script locale sharing a word with English, and it
+is the one leak class where the detector's core test is structurally unable to decide. The
+check is cheap — look for the bare word already translated-to-itself in the same file — and
+worth running before translating any short ALL-CAPS Latin-script candidate.
+
+## What Phase 2 verified that Phase 1 could not
+
+`ALL-CAPS leak-shaped strings remaining: 0` at the pass's own threshold (≥15 chars, ≥6 of
+8 translated, ≥1 locale keeping) — the class this plan opened is closed. The lowercase tail
+re-measures at 64 leak-shaped strings, all 64 already ledgered as KEEPs and **0 new**.
+
+A browser check in headed Chrome (`ar`, panels force-expanded, 155k rendered chars) found
+**0 of 9** probed English headings still on the page and confirmed the Arabic renderings in
+place, with figures (`3,683,971 US$`, `13,695 US$`, `≈21%`, `2017–18`) correctly isolated
+and `Form 990` / `Report on Philanthropy` correctly left Latin.
+
+**One measurement trap worth recording for the next pass.** A first browser probe reported
+`5/8` Arabic renderings found and looked like a partial failure. It was not: these headings
+are **per-school**, and three of the eight belong to Charlotte Christian and Davidson Day,
+not the Providence Day page being probed. Re-probed on their owning pages, all three
+render. Check the `at` paths before reading a MISS as a defect — a heading absent from a
+page it was never on is not evidence of anything.
