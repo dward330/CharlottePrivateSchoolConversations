@@ -2487,3 +2487,69 @@ locales is invisible to the first and obvious to the second.
 After this follow-up: consensus class **0**, blind-spot prose class **0**. The 50 remaining
 ALL-CAPS items kept by ≥6 locales all carry digits — clock times, SAT/ACT pairs, session
 codes (`S1, S4, S6`), dollar figures — and are legitimate keeps.
+
+---
+
+## Sibling-detector tail (2026-08-24) — the 8 strings the ledger had not yet reached
+
+`siblingtail`, Phase 1. The within-locale detector (`npm run i18n:siblings`) reports **653
+raw rows across the nine locales**. Those rows double-count: a string flags once per parent
+group *and* once per locale. Deduplicated, they are **574 `(string, locale)` pairs over 128
+distinct strings** — and **120 of the 128 were already recorded in this ledger**, leaving a
+real queue of **8 strings / 25 pairs**.
+
+**The raw count is not the worklist.** Cross-referencing the ledger first is what turns 653
+into 8, and it must be done mechanically: a bare substring test was additionally checked
+two ways, because a false "already ledgered" silently hides a real leak. Every one of the
+120 matches lands inside an actual ledger **table row** rather than surrounding prose, and
+every flagged pair's **locale** is named in its own row (the ledger is keyed by
+`(string, locale)`, so a string settled for `te` is not thereby settled for `fr`). Both
+audits returned zero exceptions.
+
+**Ratio: 4 LEAK : 4 KEEP by string, 8 LEAK : 17 KEEP by pair.** A third distinct ratio,
+sitting between #196's 1:6.4 tail and `capsleaks`' 54:0 caps half — further evidence for
+`capsleaks`' rule that these classes must never share one threshold.
+
+**The clearest case yet for why this detector exists.** All nine locales keep
+`7:45 AM–5:00 PM`, so it scores 0/9 on the consensus detector and is invisible to it *by
+construction* — yet in `fr` and `ar` it is a lone English cell beside **four** clock-span
+siblings those locales did translate. The more widespread the keep, the less visible the
+leak (PR #198).
+
+### The KEEPS — keyed by (string, locale)
+
+| English | Kept by | Why it is a keep |
+|---|---|---|
+| `4.60 / 3.96 / 2.49` | `ar`, `bn`, `fa`, `fr`, `ht`, `te` | Bare figure triple (Class of 2026 GPA — highest, median, lowest). Figures are copied char-for-char; its caption sibling is translated and the sibling `21` is kept in the same group. |
+| `DECA → ICDC ’26` | `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Two organisation acronyms, an arrow and a year token. Every translated sibling in the cell carries a common noun to work on (`finalists`, `place`, `awards`, `medal`); this row has none. Same class as the ledgered `QuestBridge Scholar → Stanford`. |
+| `Drop-in (Before School, CCS)` | `te` | te keeps `drop-in` as a Latin loanword throughout the topic (`Drop-in రేటు`, `Drop-in సంరక్షణ`) and `Before School` / `CCS` are kept identifiers — nothing translatable remains. **A LEAK in `ht` in the same pass** — the per-locale-consistency override again. |
+| `Engaging the Culture - An Introduction to Apologetics and Worldviews` | `es` | All **nine** locales keep this title while all nine translate its short sibling labels (`Christian Doctrine` → `Doctrina cristiana`, `ईसाई सिद्धांत`, …). A published catalog course name with a subtitle, matchable against Covenant Day's own catalog. |
+| `Pathway Program` | `fr` | Named Charlotte Catholic programme, beside `Options Program` which fr also keeps; the translated sibling prose names the track in Latin (`la filière Options`). |
+
+### The LEAKS — translated in Phase 2
+
+| English | Leaking in | Sibling that decided it |
+|---|---|---|
+| `7:45 AM–5:00 PM` | `ar`, `fr` | Four of five clock spans in the same cell localize the marker (`7:30 a.m.–5:30 p.m.`, `7:30 صباحًا–5:30 مساءً`); digits keep `H:MM` per the fr bell-schedule rule. |
+| `Drop-in (Before School, CCS)` | `ht` | ht translates `Drop-in` itself (`Drop-in (YCC & After School)` → `San randevou (YCC & After School)`) and translated two of the three siblings. |
+| `Fine Arts (Art, Music, Drama)` | `ar`, `fr` | Both locales translate the bare `Fine Arts` in the same file (`Beaux-arts`, `الفنون الجميلة`), so it is not a kept identifier in either; the parenthetical is three plain common nouns. |
+| `World Language (daily)` | `fr` | fr translates `World Language` → `Langue étrangère` and `World Language Rotation` → `Rotation des langues étrangères` in the same file. |
+
+`bn` and `hi` were triaged LEAK on `Drop-in (Before School, CCS)` from the group evidence,
+but both keep `Drop-in` as a Latin loanword and translate only the tail common noun — and
+this string's tail is the acronym `CCS`. Phase 2 re-decides them on that basis and is
+expected to reclassify both to KEEP; see `.claude/plans/siblingtail-data/TRIAGE.md`.
+
+### One adjacent finding deliberately NOT folded in
+
+`World Language (Online)` (`course-offerings`, `carmel-christian`, `fr`) is the **same
+defect** as the `(daily)` row above, and the detector did **not** flag it — its parent group
+does not clear `--min-sibs 3`. Different school, outside this plan's stated scope; recorded
+as a follow-up rather than fixed silently. A threshold that hides one instance of a defect
+it flags elsewhere is worth remembering when reading a clean detector run.
+
+### Reproducing this
+
+```
+node .claude/plans/siblingtail-data/build_worklist.mjs   # 653 rows -> 8 untriaged strings
+```
