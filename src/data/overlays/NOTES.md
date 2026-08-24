@@ -1767,3 +1767,259 @@ the work file, so it reported green on both the stale-work-file state and the re
 so a future rebuild is safe — but the general lesson is that **a rebuild is not a no-op**:
 diff the shipped overlay against `HEAD` after rebuilding, and treat any block you did not
 intend to touch as a regression to investigate.
+
+---
+
+# The within-locale sibling ledger — 2026-08-23
+
+`scripts/find_sibling_leaks.mjs` (`npm run i18n:siblings`) is the second detector in the
+i18n kit, built by the `midband` plan. Where `find_english_leaks.mjs` compares **one string
+across locales**, this one compares **one locale's string against its own siblings** in the
+same rendered card. It exists because PR #190's retrospective concluded, after correcting
+its own triage 74 times, that the cross-locale diff is **a good detector and a poor
+adjudicator**: it cannot see the evidence that actually decides the call.
+
+**It is documentation and a review queue, not a gate.** The script exits 0 always and is
+deliberately **not** chained into `npm run build` — this repo has twice parked a checker at
+a permanent non-zero and watched it stop being read.
+
+## Why a second detector was needed — the 7+ blind spot, measured
+
+`find_english_leaks.mjs` defaults to `--min 2`: it reports a string only if **≥2 reference
+locales translated it**. A string that 7 or more of 9 locales keep almost never clears that
+bar, so it **never enters that queue at all**. That is not a tuning choice; it is structural.
+
+The sibling detector's first run surfaced **151 distinct strings** across 749 candidates.
+Banding them by how many of the nine locales keep them:
+
+| Cross-locale band | Distinct strings | Reachable by `i18n:leaks`? |
+|---|---|---|
+| 1–2 | 22 | yes — closed by PR #190 |
+| 3–6 | 45 | yes |
+| **7+** | **84** | **no — structurally invisible** |
+
+**84 of 151 sit in the band PR #190 declared "no work warranted".** They are strings almost
+every locale keeps, yet inside a single card each is a lone English cell among translated
+siblings. The two detectors are **orthogonal on purpose**; their union is the coverage.
+
+## The step-3 pin, and the one expectation that was wrong
+
+The plan required the detector be pinned against PR #190's known answers in both
+directions. Result: **three of four as predicted, and the fourth was the plan's error, not
+the detector's.**
+
+- ✅ Flags `Relax/Choice Time` in `es` (11 of 13 siblings translated).
+- ✅ Does **not** flag `ar`'s Charlotte Catholic department names.
+- ✅ Does **not** flag `fr`'s `Sessions N, M` labels.
+- ❌ **Does** flag two `te` National Merit tier strings, which the plan said would indicate
+  mis-grouping.
+
+The detector is right and the ledger's earlier claim was over-broad. PR #190 recorded that
+`te` "keeps **all 12** bare National Merit award-tier strings, translating only when extra
+prose is attached." Re-measured, `te` keeps only **2** of the six rows in
+`providence-day:transcript.merit`, and it **translated** a bare-looking sibling:
+
+```
+TRANS  "**7** Semifinalists · **16** Commended · 13 College Board National Recognition awards"
+    -> "**7** Semifinalists · **16** Commended · 13 College Board National Recognition పురస్కారాలు"
+KEPT   "**7** Finalists · **16** Commended · 8 College Board Achievement Scholars"
+KEPT   "**9** Semifinalists"
+```
+
+The real convention is narrower and more precise: **`te` keeps the award-tier tokens
+(`Semifinalists`, `Commended`, `Finalists`) and translates only trailing non-award prose**
+(`awards` → `పురస్కారాలు`). The two kept rows have no trailing prose, so nothing remained
+to translate. They are genuine KEEPs — reached by triage, not by the detector staying
+silent. **A detector that stays silent proves nothing; one that flags and is then
+adjudicated leaves a record.** That is the argument for this script.
+
+## The standing conventions, decided once and applied to all nine
+
+Settled here from what the already-translated instances actually do, rather than by
+preference — the majority behaviour was checked before being adopted as the rule.
+
+**1. Grade / time labels — translate the word, keep the clock and grade tokens
+char-for-char.**
+
+```
+"Kindergarten · 2:00–6:00 pm"  ->  ar  "رياض الأطفال · 2:00–6:00 مساءً"
+                                   te  "Kindergarten · మధ్యాహ్నం 2:00–సాయంత్రం 6:00"
+"Gr 1–5 · 2:55–4:30"           ->  fr  "Niv. 1–5 · 2:55–4:30"
+                                   hi  "कक्षा 1–5 · 2:55–4:30"
+```
+
+The grade word (`Gr`, `Grades`, `Kindergarten`) and the am/pm marker are prose and move.
+The digits, the en-dash span and the `·` separator never do.
+
+**2. Money and unit labels — the same rule.** The unit word translates; the figure is
+copied char-for-char, and the currency stays USD.
+
+```
+"$95/week"     ->  es "$95/semana"   fr "$95/semaine"   ht "$95/semèn"
+"$1.00 / min"  ->  hi "$1.00 / मिनट"  te "నిమిషానికి $1.00"
+```
+
+This does **not** reopen the converted-units question `CLAUDE.md` records (only `es`
+converts `sq ft` today). That stays open and is out of scope here.
+
+**3. Dates and session labels — the month name and the counter word translate; the numbers
+do not.**
+
+```
+"Week 1 (Jun 8–11)"  ->  es "Semana 1 (8–11 jun)"   it "Settimana 1 (8–11 giu)"
+"August 12, 2025"    ->  fr "12 août 2025"          ar "12 أغسطس 2025"
+```
+
+**4. The one exception that keeps rule 1 honest — a grade word followed by a SUBJECT noun
+is a course title, not a grade tag.** `9th Grade History`, `Sixth Grade Bible`,
+`5th Grade Math` and seven siblings are **KEEPs**: verified across all nine locales, **not
+one translates any of them**. Without this carve-out the convention would have translated
+ten catalog-matchable course titles.
+
+## What the triage found
+
+| | Count |
+|---|---|
+| Sibling candidates (749 rows) | **151 distinct strings** |
+| Mid-band 3–6 substantive strings (≥15 chars, non-convention) | **151** |
+| Verdict LEAK → Phase 2 worklist | **1,172 (string, locale) edits · 237 distinct** |
+| Verdict KEEP → this ledger | **612 rows · 102 distinct** |
+
+The dominant genuine-leak shape is a **department or subject-category name** sitting in a
+list whose every sibling is translated — `Health & Fitness` beside a translated `Science`,
+`English`, `Mathematics`; `Biblical Studies` beside eight translated departments;
+`Library / Information Literacy` beside a translated `Physical Education`. The dominant
+KEEP is a **proper noun or named award**.
+
+One score-table case is worth naming because it is the cleanest defect the detector found:
+in `gaston-day:wholeClass.scoreTables[0].rows`, five `SAT total — YYYY` rows are translated
+and the two subscore rows — `SAT Math — 2025`, `SAT EBRW — 2025` — are not. Nothing about
+those two is an identifier; they were simply skipped.
+
+## An English-side bug this pass surfaced
+
+`it` renders `Rising 9th–12th` as **`In ingresso Rising 9th–12th`** — the translation was
+prepended without removing the English word. Left as-is for Phase 2 to fix with the rest of
+the convention class; recorded here because it is a *translation* defect that neither
+detector reports (the string is not identical to English, so both consider it done).
+
+## The KEEPS — keyed by (string, locale)
+
+PR #190 established that the same string is legitimately a **leak in one locale and a keep
+in another** (`Cross country / track`: KEEP in `te`, real LEAK in `hi`). Every row is
+therefore keyed by string **and** locale.
+
+| English | Kept by | Why it is a keep |
+|---|---|---|
+| `— Class of 2022 · TO VERIFY` | `bn`, `fa`, `hi`, `ht`, `it`, `te` | Editorial provenance marker; the sibling that IS translated is the longer sentence form of it. |
+| `"Although service is not a graduation requirement at Cannon, students' deep sense of com…` | `bn`, `hi`, `it`, `te` | Verbatim quotation from the school profile (ledger class, PR #190). |
+| `"Due to the small class size and the college-bound nature of Covenant Day’s population, …` | `bn`, `te` | Verbatim quotation (already a bn/te ledger KEEP, PR #190). |
+| `"multiple Scholastic Art Award winners"` | `bn`, `es`, `ht`, `te` | Verbatim quotation naming an award; quoting convention differs per locale (ledger, PR #190). |
+| `(SEC · Big Ten · ACC · Big 12)` | `ar`, `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Four named athletic conferences. |
+| `**7** Finalists · **16** Commended · 8 College Board Achievement Scholars` | `te` | te keeps the award-tier tokens (Finalists/Commended/Scholars) and translates only trailing prose — this row has none. |
+| `**9** Semifinalists` | `te` | Bare award tier with no trailing prose; nothing left to translate under the te convention. |
+| `**College Application Bootcamp**` | `ar`, `bn`, `es`, `fr`, `hi`, `ht`, `it`, `te` | Named counselling-timeline milestone. |
+| `**College Kick-Off**` | `hi` | Named counselling-timeline milestone, same class as College Application Bootcamp. |
+| `~30,000 sq ft, 2022` | `it` | Figure plus unit — the open converted-units question, not this pass to settle (ledger, PR #190). |
+| `~47,000 sq ft, 2022` | `it` | Figure plus unit. |
+| `11 National Merit Commended Students (2025)` | `te` | Award-tier tokens under the te convention; the translated siblings carry non-award prose. |
+| `2 National Merit Finalists (2025)` | `te` | Same as above. |
+| `2026 Blumey — Best Actress` | `bn`, `hi`, `te` | Named award category with its year. |
+| `50,000 sq ft, 2001` | `it` | Figure plus unit. |
+| `53,000 sq ft, 2001` | `it` | Figure plus unit. |
+| `A Princess Castle Dollhouse Adventure` | `ar`, `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Named camp offering as printed in the catalog. |
+| `ACC · Big Ten · Big 12 · SEC` | `ar`, `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Four named athletic conferences. |
+| `Acts and the Early Church + Case for Christ` | `ar`, `bn`, `fa`, `fr`, `hi`, `it`, `te` | Named curriculum units; the sibling prose keeps them verbatim inside a translated sentence ("পড়ানো হয় Acts and the Early Church"). |
+| `Advanced Topics` | `ar`, `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Named course category (the "AT" in school-designed AT courses); catalog-matchable. |
+| `AFAR International Research` | `ar`, `bn`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Named programme (AFAR); catalog identifier. |
+| `After School Program · 3:00–6:00 · $3,784/yr` | `fa`, `hi`, `it` | Programme name, clock span and a figure — the grade/time convention leaves nothing. |
+| `Apple Distinguished School` | `ar`, `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Named Apple certification. |
+| `Art Studio I–IV` | `ar`, `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Course code with roman-numeral range; catalog-matchable. |
+| `Arts Jam · Cabaret` | `ar`, `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Named season events. |
+| `Assoc. Director` | `te` | Bare Director job title; te keeps the class (ledger, PR #190). |
+| `Athletic Director` | `bn`, `fr`, `hi`, `te` | Standing ledger KEEP (2026-08-19) — the per-locale-consistency override. |
+| `Battle of the Books` | `ar`, `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Named competition. |
+| `Blumey Best Show` | `bn`, `fr`, `hi`, `ht`, `it`, `te` | Named award category. |
+| `Camp Victor · 8:30am - 3:30pm` | `ar`, `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Named camp plus a clock span. |
+| `Charger Chill Day Camp · 8am–5pm` | `ar`, `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Named camp plus a clock span. |
+| `Christians in Theatre Arts (CITA)` | `ar`, `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Named organisation with its acronym. |
+| `College Counselor` | `te` | Bare job title beside a kept Director; same class. |
+| `College Essay Bootcamp` | `ar`, `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Named camp offering. |
+| `Cross Country / Track` | `fa`, `hi`, `te` | Bare sport names as roster identifiers (ledger precedent, PR #190). |
+| `DECA, Debate, Model UN, Latin Club` | `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Four organisation names in a list. |
+| `Digital Art and Graphic Design` | `ar`, `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Course-catalog title in a media list. |
+| `Digital Art, Graphics, and Anime` | `ar`, `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Course-catalog title in a media list. |
+| `Director of Athletics` | `bn`, `fr`, `hi`, `it`, `te` | Same class as Athletic Director; bn/te keep bare Director titles in Latin (ledger, PR #190). |
+| `Edinburgh Fringe` | `ar`, `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Named festival. |
+| `Family Individualized Tuition (FIT)` | `ar`, `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Named diocesan tuition programme with its acronym. |
+| `February One Scholarship (NC A&T)` | `bn`, `fr`, `hi`, `ht`, `it`, `te` | Named scholarship. |
+| `Friends of the Arts` | `ar`, `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Named parent volunteer organisation. |
+| `Gatorade Player of the Year` | `ar`, `bn`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Named national award. |
+| `Gatorade Players of the Year` | `ar`, `bn`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Named national award, plural. |
+| `Girls Basketball` | `fa`, `fr`, `hi`, `it` | Bare sport name as a roster identifier. |
+| `Governor’s School` | `ar`, `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Named NC state programme. |
+| `Gr 1–4 · Bridge 2:40–3:35` | `es`, `ht`, `it` | Same shape as above. |
+| `hand-building, wheel throwing, glazing, firing` | `fa` | Technique list in visual.media[].detail — fa keeps these verbatim by convention (ledger, PR #190). |
+| `Health Occupations Students of America` | `ar`, `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Official national organisation name (HOSA); the club catalog keeps org names verbatim. |
+| `History 7: A More Perfect Union` | `bn` | Course title; the sibling History 6 keeps its "History 6:" prefix in Latin too, translating only the descriptive tail — same shape, and bn did translate that tail elsewhere. Catalog-matchable title. |
+| `Hoffman Riley Court` | `ar`, `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Named venue. |
+| `Improv & Musical Review` | `fr`, `it` | Named enrichment offering (already a fr/it ledger KEEP, PR #190). |
+| `JK–K · Bridge 2:20–3:15` | `ar`, `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Grade tokens plus a clock span, and Bridge is a named programme; per the grade/time convention nothing translatable remains. |
+| `Johnson Scholarship, Washington & Lee (2026)` | `bn`, `es`, `fr`, `hi`, `ht`, `it`, `te` | Named scholarship at a named university. |
+| `Junior Classical League chapter` | `te` | Named national organisation; "chapter" alone is not enough to make the string prose. |
+| `Latin Arts Association` | `ar`, `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Named parent/faculty organisation. |
+| `Leadership / media` | `it` | Both words are Italian loanwords already; the correct rendering is byte-identical (ledger precedent, PR #190). |
+| `Lower School · PS–4th` | `bn`, `fr`, `hi`, `it`, `te` | Division identifier plus a grade token; the translated siblings all carry an extra prose word (weekly enrolment, drop-in). |
+| `Lower School (JK–4)` | `ar`, `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Division identifier with its grade span. |
+| `Lower School (JrK–4)` | `ar`, `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Division identifier with its grade span. |
+| `Lower School (TK–5)` | `ar`, `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Division identifier with its grade span; kept in Latin by every locale. |
+| `McDonald's All-Americans` | `ar`, `fa`, `fr`, `hi`, `it`, `te` | Named national honour. |
+| `Metrolina Athletic Conference` | `ar`, `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Named athletic conference. |
+| `Middle School · 5th–8th` | `bn`, `fr`, `hi`, `it`, `te` | Same shape as above. |
+| `Middle School (5–8)` | `ar`, `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Division identifier with its grade span. |
+| `Middle School (6–8)` | `ar`, `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Division identifier with its grade span. |
+| `Mike Hazel, NSCA CSCS.` | `es`, `fr`, `ht`, `it`, `te` | Person name plus certification acronyms. |
+| `Mock Trial art 2nd NC` | `te` | Named competition plus a rank token; the sibling ranks (Chess 2nd place) that te translated carry a full word it could translate. |
+| `Musical (Upper School)` | `bn`, `es`, `hi`, `it`, `te` | "Musical" is a loanword in these locales (hi ledger precedent, PR #190) and Upper School is a kept identifier. |
+| `NASCAR Cup Series` | `ar`, `bn`, `fr`, `hi`, `ht`, `it`, `te` | Named racing series. |
+| `National Honor Society (28 in ’25), Global Studies Diploma, Acclaim Scholars` | `bn` | Three named programmes/awards (already a bn ledger KEEP, PR #190). |
+| `NC Mr. Basketball` | `ar`, `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Named state award. |
+| `NC Mr. Football + All-Americans` | `ar`, `fr`, `hi`, `ht`, `it`, `te` | Named state award plus a named national honour. |
+| `P.E. — Dancercise II` | `es` | Course code with a roman numeral and a coined brand word (Dancercise); catalog-matchable. |
+| `Patriot Athletic Hall of Fame` | `ar`, `bn`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Named school hall of fame. |
+| `Promoting Respect, Inclusion and Safety for Sexual Minorities` | `bn`, `es`, `fr`, `hi`, `ht`, `it`, `te` | Official club name (PRISM) spelled out as printed. |
+| `QuestBridge Scholar → Stanford` | `bn`, `fr`, `hi`, `ht`, `it`, `te` | Named programme plus a university name; the arrow is punctuation. |
+| `Restoration & Sustainability` | `ar`, `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Named Covenant Day high-school department with its own director — the sibling prose calls it "a named department". |
+| `Scholastic Art Awards` | `ar`, `bn`, `es`, `fr`, `hi`, `ht`, `it`, `te` | Named national award programme. |
+| `Science Olympiad, Envirothon, Battle of the Books, Model UN` | `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Four named competitions. |
+| `SMU Hunt Leadership Scholars Program` | `ar`, `bn`, `es`, `fr`, `hi`, `ht`, `it`, `te` | Named scholarship programme. |
+| `Spanish I / French I / Mandarin I` | `ar`, `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Course codes with roman numerals — a family matches these against the published catalog. |
+| `Speech and Debate` | `ar` | Club name; ar keeps club identifiers in Latin, translating only the descriptive columns beside them. |
+| `Spotlight on the Arts` | `ar`, `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Named recurring event. |
+| `St. Augustine Scholars Program` | `ar`, `bn`, `es`, `fr`, `hi`, `ht`, `it`, `te` | Named school programme. |
+| `Strength & Conditioning` | `bn`, `hi`, `it`, `te` | Role label already triaged and settled 2026-08-19 (PR #151) — bn/it keep it. |
+| `Strength of America Award` | `ar`, `bn`, `fr`, `hi`, `ht`, `it`, `te` | Named award. |
+| `Students Advocating for Gender Equality` | `ar`, `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Official club name as printed in the catalog. |
+| `Studio Art · Art History · Music Theory` | `ar`, `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Three AP course-catalog titles separated by middots. |
+| `Studio Art (2-D & 3-D) · Art History` | `fa`, `hi`, `it` | Course-catalog titles with their dimension qualifiers. |
+| `Super Women's Affinity Group` | `ar`, `bn`, `fr`, `hi`, `it`, `te` | Official affinity-group name as printed. |
+| `The Educational Resource Program` | `fr` | Named in-house programme (already a ledger KEEP for fr, PR #190). |
+| `Tuition Protection Program · $250/yr` | `it` | Named programme plus a figure; the translated siblings are common-noun fee names (Enrollment fee, New family fee). |
+| `Ultimate Frisbee` | `ar`, `bn`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Sport name — the roster convention keeps bare sport names as identifiers (ledger precedent: te sport names, PR #190). |
+| `Upper School Musical` | `hi` | Same as above — hi keeps Musical as a loanword and Upper School as an identifier. |
+| `USA Lacrosse All-Americans` | `ar`, `fr`, `hi`, `ht`, `it`, `te` | Named national honour. |
+| `varsity baseball` | `hi` | hi keeps varsity and baseball as loanwords (ledger, PR #190). |
+| `Volleyball · Guidance Director` | `fr` | Sport name plus a bare Director title — both kept classes. |
+| `Wachovia / Wells Fargo Cups` | `es`, `fr`, `ht`, `te` | Named state trophy under both sponsor names. |
+| `Wells Fargo Cup` | `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Named state trophy. |
+| `Wells Fargo Cups` | `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Named state trophy, plural. |
+
+## Reproducing this
+
+```
+npm run i18n:siblings -- --lang <code>          # the within-locale review queue
+npm run i18n:leaks    -- --lang <code>          # the cross-locale review queue
+```
+
+Run **both**. Neither is a superset of the other, and the 84 strings above are the proof.
+The full triage record and the Phase 2 worklist are in `.claude/plans/midband-data/`.

@@ -1,7 +1,7 @@
 ---
 name: midband
 title: Build the within-locale sibling detector, then triage the mid-band and what it finds
-status: not-implemented
+status: english-done
 phases: 2
 created: 2026-08-23
 branch: i18n/midband
