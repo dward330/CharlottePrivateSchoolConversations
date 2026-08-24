@@ -1,7 +1,7 @@
 ---
 name: bundlesplit
 title: Split the 2.2 MB main chunk — all 11 schools' English research ships on every page
-status: not-implemented
+status: abandoned
 phases: 1
 created: 2026-08-24
 branch: perf/bundle-split
@@ -201,3 +201,106 @@ must keep working — see the risk table, and step 5.
 - **Does this change what a returning visitor caches?** More chunks means finer-grained
   cache invalidation, which is usually a win but is untested here. — **default:** do not
   optimise for it; note the chunk count before and after.
+
+
+## Implementation notes — ABANDONED 2026-08-24
+
+Built, measured, and **reverted**. The branch `perf/bundle-split` carries both the
+implementing commit (`41a337b`) and its revert (`748d0c8`), so the work is
+recoverable if the tradeoff is ever re-judged. No app code shipped.
+
+### What was built
+
+Step 3 only: `React.lazy` + `Suspense` on `SchoolDetail` and `Compare` in
+`src/App.tsx`, `Home` left static. Step 5 (per-school data splitting) never
+triggered, because step 4's target was met comfortably.
+
+### The byte win was real and large
+
+| | baseline | split | |
+|---|---|---|---|
+| Home page JS | 607,287 gz | **101,058 gz** | **−83%** |
+| `/compare/` | 607,287 gz | ~123,000 gz | −80% |
+| school pages | 607,287 gz | ~608,000 gz | unchanged |
+
+The plan's target was "under 250 KB gzipped" for the initial chunk. Met with room
+to spare, by route splitting alone.
+
+### Why it was abandoned anyway: CLS
+
+The plan's verification says **"No route may regress on CLS."** It did, on the
+emulated mobile profile (390×844, CPU 4×, Fast-3G, median of 3):
+
+| route | baseline | split | |
+|---|---|---|---|
+| `/school/*` (all 11) | 0.0021 GOOD | **0.1197 NEEDS-WORK** | crosses the 0.1 threshold |
+| `/compare/` | 0.0618 GOOD | **0.1197 NEEDS-WORK** | crosses |
+| `/` | 0.0000 GOOD | 0.0935 GOOD | stays under |
+
+Desktop was mixed rather than uniformly worse — `/compare/` **improved**
+(0.1254 NEEDS-WORK → 0.0322 GOOD, incidentally closing the `compare-cls`
+residual) while school pages went 0.0000 → 0.0913, still GOOD but close to the line.
+
+User's call, 2026-08-24: the CLS constraint wins over the byte win. Abandoned.
+
+### The mechanism, traced (worth keeping)
+
+A `layout-shift` PerformanceObserver plus a `MutationObserver` on `#root`:
+
+```
+{"k":"lcp","t":2864,"el":"SPAN"}
+{"k":"mut","t":20387,"tgt":"DIV#root","add":0,"rem":1}   <- whole subtree replaced
+{"k":"mut","t":20387,"tgt":"DIV#root","add":1,"rem":0}
+{"k":"shift","v":0.1197,"t":20696,"n":"FOOTER.footer"}   <- footer 743x101 -> 0x0
+```
+
+React replaces the entire `#root` subtree once, ~20s in on this throttled profile.
+**The baseline does this too** — but it re-renders a page identical in height to
+the pre-rendered markup, so nothing moves. Split, the research arrives later
+(cannon LCP 2.4s → 8.4s), the two heights differ, and the footer shifts.
+
+That distinction is the whole finding: the defect is not the split *per se*, it is
+the split **interacting with the pre-render**. A page that is pre-rendered to its
+full settled height cannot tolerate a client re-render that arrives at a different
+height.
+
+### A fix that was tried and did NOT work
+
+Awaiting the matching route's chunk in `src/main.tsx` before the first
+`createRoot().render()` — same shape as the existing `await ready` for the locale
+catalog, and it preserved the byte win (only the matching route is warmed). It
+left CLS at **0.1197, unchanged**, which is what proves the shift is not a
+Suspense suspend. It was removed rather than kept as a plausible-looking non-fix.
+
+Two wrong guesses are recorded here because each cost a measurement cycle:
+
+- *"The Suspense fallback replaces pre-rendered content."* It does not — a
+  MutationObserver on `main > .loading` counted **zero** fallback appearances, and
+  the browser check found 34 note-cards and intact `fa` RTL on the split build.
+- *"The `#root` teardown at ~20s is the bug."* It is present on the **baseline**
+  too. Always probe the baseline before attributing a timeline event to the change.
+
+### What the next attempt should do differently
+
+Not "split more carefully" — split, then **reserve the height**. The existing
+`.topic-section .loading { min-height: 220px }` reserve in `src/index.css` is the
+same idea one layer down, and its comment already records that CLS weights
+*viewport fraction*, not distance, so a reserve must match the settled height
+rather than merely shrink the gap. Alternatively, drop the pre-render for split
+routes so there is no settled-height markup to disagree with — a much larger
+change that trades against the search-indexability standard.
+
+### Verification results (on the split build, before revert)
+
+- ✅ `npx tsc --noEmit` — clean
+- ✅ `npm run lint` — unchanged (1 pre-existing warning; the plan said 2, stale)
+- ✅ `npm run build` — succeeds, all chained checks pass
+- ✅ `npm run check:seo` — 13 pages OK; **none shrank** (byte-compared, not existence)
+- ✅ `npm run schema` + `check:schema` — generator still parses the registries
+- ✅ `npm run check:runtime` — all 9 prose locales resolve, 11,408 entries each
+- ✅ **Browser** — home → school → Compare; 34 note-cards; no loading flash
+- ✅ **Browser `?lang=fa`** — `dir=rtl`, 2,412 Persian glyphs; overlays intact
+- ❌ `npm run check:vitals -- --both --runs 3` — **CLS regression above**
+
+The `import.meta.glob` risk the plan flagged as most dangerous never materialised:
+no glob call was touched, and `check:runtime` confirmed all nine locales.
