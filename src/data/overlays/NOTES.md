@@ -1681,6 +1681,101 @@ that makes no sense is one that locales disagree about how to handle.
   work warranted.
 - **Strings under 15 characters in the ≤2 band.** Same convention question as the 3–6 band.
 
+## Phase 2 — what the translations reclassified (2026-08-23)
+
+Phase 2 translated the 1,172 `(string, locale)` edits the triage confirmed. **182 of them
+were reclassified as KEEPs while being translated** — 44 distinct strings, listed below.
+
+The reason is the rule Phase 1 wrote down and Phase 2 then had to apply string by string:
+**adjudicate on the locale's own siblings.** Phase 1 classified the grade/time rows as a
+*convention class* — "a translatable word remains, so translate it" — but that verdict was
+reached from the shape of the English, not from what each locale actually does with it.
+Applied against the siblings, a large share of those rows had **nothing left to translate**:
+
+```
+es   "Junior Kindergarten · to 2:00 pm"  ->  "Junior Kindergarten · hasta las 2:00 pm"
+```
+
+`es` translates only `to` — it keeps `Junior Kindergarten`, and it keeps the clock. So bare
+`Junior Kindergarten`, and bare `TK · 1:00–3:00 pm`, are correct KEEPs in `es`: the
+convention was already satisfied. The same held for `fr`'s `Session N` (identical word in
+French) and for the AP/National Merit award-tier rows with no trailing prose.
+
+This is the *third* time this repo has recorded the same lesson — PR #190 corrected its
+triage 74 times, Phase 1 corrected the ledger's `te` National Merit claim, and Phase 2
+corrected 182 rows of Phase 1's own convention class. **A verdict reached from the English
+shape is a hypothesis; only the locale's siblings settle it.**
+
+Rows are keyed `(string, locale)`: several of these strings are genuine LEAKs in the
+locales *not* listed, and were translated there in the same pass.
+
+| String | Kept in | Why |
+|---|---|---|
+| `After School / After YCC · 3:00–6:00` | `ar`, `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Clock/label row where the locale keeps the grade token, the programme name and the am/pm marker — after the convention is applied nothing translatable remains. |
+| `Junior Kindergarten` | `ar`, `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Division name — every locale keeps it in the translated siblings (es `Junior Kindergarten · hasta las 2:00 pm`). |
+| `Kindergarten` | `ar`, `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Same: kept verbatim inside already-translated sibling labels in all nine. |
+| `Learning Academy` | `ar`, `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Named in-house support programme. |
+| `SAT EBRW — 2025` | `ar`, `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | `EBRW` is a College Board code and the year is a figure — nothing translatable remains. |
+| `Band / Strings / Choir` | `ar`, `bn`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Three ensemble names as printed in the course slot; the locales keep ensemble identifiers. |
+| `Before School · 7:30–8:00` | `ar`, `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `te` | Clock/label row where the locale keeps the grade token, the programme name and the am/pm marker — after the convention is applied nothing translatable remains. |
+| `Options Program / Pathways Program` | `ar`, `bn`, `es`, `fr`, `hi`, `ht`, `it`, `te` | Two named support tracks, slash-joined. |
+| `Spanish Immersion` | `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Named programme — es keeps it inside its own translated sentence (`Pasan a 1–3 (Spanish Immersion)`). |
+| `Transitional Kindergarten` | `bn`, `es`, `fa`, `fr`, `hi`, `ht`, `it`, `te` | Same division-name class as Kindergarten / Junior Kindergarten. |
+| `Gr 10–12` | `ar`, `es`, `fa`, `ht`, `it`, `te` | Clock/label row where the locale keeps the grade token, the programme name and the am/pm marker — after the convention is applied nothing translatable remains. |
+| `Gr 11–12` | `ar`, `es`, `fa`, `ht`, `it`, `te` | Clock/label row where the locale keeps the grade token, the programme name and the am/pm marker — after the convention is applied nothing translatable remains. |
+| `After School / After YCC · 3:00–6:00 pm` | `es`, `fr`, `hi`, `ht`, `it` | Clock/label row where the locale keeps the grade token, the programme name and the am/pm marker — after the convention is applied nothing translatable remains. |
+| `Young Cougars Club (K) · 1:15–3:00 pm` | `es`, `fr`, `hi`, `ht`, `it` | Clock/label row where the locale keeps the grade token, the programme name and the am/pm marker — after the convention is applied nothing translatable remains. |
+| `$1.00 / min` | `es`, `fr`, `ht`, `it` | Clock/label row where the locale keeps the grade token, the programme name and the am/pm marker — after the convention is applied nothing translatable remains. |
+| `$10 / 10 min` | `es`, `fr`, `ht`, `it` | Clock/label row where the locale keeps the grade token, the programme name and the am/pm marker — after the convention is applied nothing translatable remains. |
+| `96% — 38 AP Scholars with Distinction, 27 with Honor, 33 Scholars` | `fr`, `hi`, `it`, `te` | AP award-tier names; te/fr/it/hi keep the tier tokens (the te National Merit convention, generalised). |
+| `Kindergarten · 2:00–3:00 pm` | `es`, `fr`, `ht`, `it` | Clock/label row where the locale keeps the grade token, the programme name and the am/pm marker — after the convention is applied nothing translatable remains. |
+| `Kindergarten · 2:00–4:30 pm` | `es`, `fr`, `ht`, `it` | Clock/label row where the locale keeps the grade token, the programme name and the am/pm marker — after the convention is applied nothing translatable remains. |
+| `Kindergarten · 2:00–6:00 pm` | `es`, `fr`, `ht`, `it` | Clock/label row where the locale keeps the grade token, the programme name and the am/pm marker — after the convention is applied nothing translatable remains. |
+| `TK · 1:00–3:00 pm` | `es`, `fr`, `ht`, `it` | Clock/label row where the locale keeps the grade token, the programme name and the am/pm marker — after the convention is applied nothing translatable remains. |
+| `TK · 1:00–4:30 pm` | `es`, `fr`, `ht`, `it` | Clock/label row where the locale keeps the grade token, the programme name and the am/pm marker — after the convention is applied nothing translatable remains. |
+| `TK · 1:00–6:00 pm` | `es`, `fr`, `ht`, `it` | Clock/label row where the locale keeps the grade token, the programme name and the am/pm marker — after the convention is applied nothing translatable remains. |
+| `**7** Semifinalists · **7** Finalists · **2** Commended · 1 Scholar, 1 College-Sponsored Scholar` | `fa`, `fr`, `te` | All-award-tier row with no trailing non-award prose — the te National Merit rule exactly. |
+| `After Care 4:00–5:30 pm (TK–8)` | `es`, `ht`, `it` | Clock/label row where the locale keeps the grade token, the programme name and the am/pm marker — after the convention is applied nothing translatable remains. |
+| `Before Care 7:30–8:45 am (TK–8)` | `es`, `ht`, `it` | Clock/label row where the locale keeps the grade token, the programme name and the am/pm marker — after the convention is applied nothing translatable remains. |
+| `Football · Asst. AD Facilities` | `fr`, `it`, `te` | Sport name plus an abbreviated AD role title — both kept classes. |
+| `Gr 1–5 · 2:55–4:30` | `es`, `ht`, `it` | Clock/label row where the locale keeps the grade token, the programme name and the am/pm marker — after the convention is applied nothing translatable remains. |
+| `Gr 1–5 · 2:55–6:00` | `es`, `ht`, `it` | Clock/label row where the locale keeps the grade token, the programme name and the am/pm marker — after the convention is applied nothing translatable remains. |
+| `Gr 1–5 · 3:00–4:30` | `es`, `ht`, `it` | Clock/label row where the locale keeps the grade token, the programme name and the am/pm marker — after the convention is applied nothing translatable remains. |
+| `Gr 1–5 · 3:00–6:00` | `es`, `ht`, `it` | Clock/label row where the locale keeps the grade token, the programme name and the am/pm marker — after the convention is applied nothing translatable remains. |
+| `JrK–Gr 8 · 3:00–6:00` | `es`, `ht`, `it` | Clock/label row where the locale keeps the grade token, the programme name and the am/pm marker — after the convention is applied nothing translatable remains. |
+| `Asst AD · Boys Basketball` | `it` | Same: abbreviated AD title plus a team identifier. |
+| `Governance / leadership` | `it` | it renders both words identically to English. |
+| `Musical (Blumey)` | `es` | `Musical` is the same word in Spanish; `Blumey` is the award’s proper noun. |
+| `SAT Math — 2025` | `fr` | fr renders `Math` identically; nothing to translate (es/bn/te/hi/it DO translate it and are in the worklist). |
+| `Session 1` | `fr` | `Session` is the same word in French; the sibling `Session 2 of the flagship day camp.` translates only the trailing prose. |
+| `Session 2` | `fr` | As above. |
+| `Session 3` | `fr` | As above. |
+| `Session 4` | `fr` | As above. |
+| `Session 5` | `fr` | As above. |
+| `Session 6` | `fr` | As above. |
+| `Session 7` | `fr` | As above. |
+| `Softball · MS Girls Basketball` | `ar` | Same: two team identifiers, middot-joined. |
+
+### One English-side defect fixed in the same pass
+
+`it` rendered the *rising-grade* vocabulary three different broken ways, none of which
+either detector reports — the value differs from English, so both consider it translated:
+
+```
+"Rising K"          ->  "K in salita"              # literal 'uphill' — a mistranslation
+"Rising 9th–12th"   ->  "In ingresso Rising 9th–12th"   # English word never removed
+"Rising 1st–5th"    ->  "In ingresso 1st–5th"      # English ordinals inside Italian
+```
+
+All three were normalised to `in ingresso` with Italian ordinals across **73 entries**,
+including ~30 full prose sentences in the Carmel card that also said `in salita` — fixing
+only the labels would have left the card internally inconsistent. Verified in-browser:
+0 occurrences of either defect remain on Carmel, Cannon or Gaston Day.
+
+**Neither detector can see this class.** A wrong-but-not-English translation is invisible
+to a tool that asks only *"is this still English?"* — the same gap `check:live` gate 3
+closed for the content overlay.
+
 ## Reproducing this
 
 ```

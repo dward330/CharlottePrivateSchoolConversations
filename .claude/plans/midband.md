@@ -1,11 +1,11 @@
 ---
 name: midband
 title: Build the within-locale sibling detector, then triage the mid-band and what it finds
-status: english-done
+status: implemented
 phases: 2
 created: 2026-08-23
 branch: i18n/midband
-prs: []
+prs: [193]
 ---
 
 # Build the within-locale sibling detector, then triage what it finds
@@ -324,3 +324,80 @@ rollout doc for a *register* rule, per `CLAUDE.md`.
 2. **Whether converted units belong in the data at all** — recorded in `CLAUDE.md`, only
    `es` converts today, so a French or Italian reader gets square feet while a Spanish
    reader gets metres. Either answer is defensible; the current one-locale state is not.
+
+---
+
+## Implementation notes
+
+Phase 1 shipped in `dfb7a1d` (the detector, the conventions, the triage record).
+Phase 2 — this pass — translated the confirmed leaks into all nine locales.
+
+### What shipped in Phase 2
+
+- **1,039 work-file entries edited** across 59 `src/data/overlays/work/*.json` files, then
+  rebuilt into the 59 matching shipped overlays. Of the worklist's 1,172 rows, **966 were
+  translated** and **182 were reclassified as KEEPs** (44 distinct strings); the remaining
+  73 edits are the Italian defect fix below.
+- Per locale: `es` 136 · `bn` 92 · `ht` 93 · `te` 186 · `fr` 86 · `fa` 42 · `it` 82+73 ·
+  `hi` 170 · `ar` 90.
+
+### Deviation — 182 rows reclassified LEAK → KEEP
+
+The plan's step 4 decided the grade/time convention from the *shape of the English*
+("a translatable word remains"). Applied against each locale's own siblings — the
+adjudication rule the plan itself sets out — a large share of those rows had nothing left
+to translate. `es` renders `Junior Kindergarten · to 2:00 pm` as
+`Junior Kindergarten · hasta las 2:00 pm`: it translates only `to`. So bare
+`Junior Kindergarten` and bare `TK · 1:00–3:00 pm` are correct KEEPs in `es`.
+
+Writing a no-op "translation" would have silently overridden the verdict either way, so
+each was recorded in the ledger with its evidence rather than forced. Full reasoning and
+the 44-row table are in `src/data/overlays/NOTES.md`.
+
+This is the third recurrence of the same lesson (PR #190's 74 corrections; Phase 1's
+correction of the `te` National Merit claim; now 182 rows of Phase 1's own convention
+class) — it is written up in the ledger as the general rule, not as a one-off.
+
+### Additional fix — the `it` rising-grade defect class (73 entries)
+
+The `midband-data/README.md` flagged one instance (`In ingresso Rising 9th–12th`).
+Measured, it was three coexisting defects across 73 entries, including ~30 full prose
+sentences: `in salita` (a literal "uphill" mistranslation), `In ingresso Rising …`
+(English word retained) and `In ingresso 1st–5th` (English ordinals). All normalised to
+`in ingresso` with Italian ordinals. **Neither detector reports this class** — the value
+differs from English, so both consider it translated.
+
+### Verification
+
+| Check | Result |
+|---|---|
+| `npx tsc --noEmit` | clean |
+| `npm run build` | **exit 0** — every chained gate green, incl. `check:live`, `check:spans`, `check:schema` |
+| `npm run check:runtime` | ✓ all 9 locales, 11,408 entries each |
+| `npm run check:live` | ✓ all 9 resolve against live English |
+| `check:sepdrift` × 9 | 0 drifted figure tokens (`es` 13 allowed unit conversions) |
+| `check:sources` × 9 | 0 English sources altered |
+| `check:script` / `chrome` / `money` / `currency` / `bidi` | ✓ |
+| `check:fa` / `check:hi` / `check:fr` | ✓ |
+| Shipped-overlay regression diff | 1,039 changed, **0 unexpected, 0 value mismatches, 0 removed** |
+| Browser, panels forced open, 6 locales × 2 schools | translations render; `it` defect class 0 occurrences |
+
+The regression diff had to be keyed on the content hash `of`, not the array index: the
+builder drops one entry in `financial-aid-report` (886 work → 885 shipped), so index-keyed
+comparison reports ~34 false positives. Worth knowing before writing that check again.
+
+### Detector movement
+
+Both detectors fell in every locale. Residual flags are expected — both report
+*difference*, not defect, so recorded KEEPs still appear by design.
+
+| | es | bn | ht | te | fr | fa | it | hi | ar |
+|---|---|---|---|---|---|---|---|---|---|
+| `i18n:siblings` | 80→69 | 103→78 | 75→63 | 84→79 | 84→73 | 71→61 | 91→75 | 100→76 | 61→55 |
+| `i18n:leaks` | 224→105 | 213→148 | 202→135 | 476→317 | 304→255 | 173→157 | 348→293 | 348→204 | 227→160 |
+
+### Not done
+
+- **Not deployed.** `npm run deploy` is the user's call.
+- The two follow-ups the plan lists (ledger lines for the full 7+ band; whether converted
+  units belong in the data) remain open and out of scope.
