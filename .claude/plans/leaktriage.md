@@ -1,7 +1,7 @@
 ---
 name: leaktriage
 title: Triage the cross-locale English leaks — 147 leak-shaped strings, and a durable KEEPS ledger
-status: english-done
+status: implemented
 phases: 2
 created: 2026-08-23
 branch: i18n/leak-triage
@@ -365,3 +365,87 @@ plus the repaired St. Augustine note in all nine.
 
 `check:spans` passed inside the build, which supersedes the earlier note that it was red on
 two gaston-day parse failures.
+
+---
+
+## Implementation notes — Phase 2 (2026-08-23)
+
+### 100 translated, 74 reclassified as KEEP — the plan's 133 was over-counted by 43%
+
+Phase 1 handed Phase 2 a worklist of **133 LEAK strings / 174 (string, locale) edits**.
+Translating them revised that: **100 edits landed, 74 were reclassified as KEEPs.**
+
+Every reclassification used **the override the Phase 1 ledger itself defines** — per-locale
+internal consistency — applied to evidence Phase 1 had not gathered. Phase 1 scored each
+string on the cross-locale test alone (*7–8 locales rendered this as prose, so it is
+prose*). Phase 2 opened each locale's own siblings in the same card, and in 74 cases the
+locale that kept the string was following a convention covering the whole class.
+
+Examples that decided a whole group at once:
+
+- **`ar`** keeps **11 of 12** Charlotte Catholic department names in Latin. Translating the
+  three on the worklist would have made them the only Arabic entries in one rendered card.
+- **`te`** keeps **all 12** bare National Merit tier strings, translating only when extra
+  prose is attached. That single convention accounts for 12 of its 35 keeps.
+- **`fr`** keeps **all 20+** `Sessions N, M` labels — `Session` is French.
+
+**The methodological finding: the cross-locale diff is a good detector and a poor
+adjudicator.** It cannot see how the same locale treats the string's siblings, which is the
+evidence that actually decides the call. Recorded in the ledger for the next rollout.
+
+Per-locale: translated `fa` 29 · `bn` 22 · `hi` 16 · `fr` 16 · `it` 10 · `es` 9 · `te` 5 ·
+`ht` 2 · `ar` 0, plus the St. Augustine note in all nine.
+
+### The same string is legitimately a LEAK in one locale and a KEEP in another
+
+`Cross country / track` is a KEEP in `te` (bare sport names are roster identifiers) and a
+genuine LEAK in `hi` (rendered `क्रॉस कंट्री / ट्रैक`). Both correct. The ledger is therefore
+keyed by **(string, locale)**, never by string alone — a point the Phase 1 ledger's
+by-English-text framing did not anticipate.
+
+### Two defects found in the build path, neither caused by translation
+
+1. **The wrong overlay builder silently empties the content overlay.**
+   `financial-aid-tuition.content` stores a `blocks` object and keys its work units under
+   `sections`. `i18n_build_overlay.mjs` looks for `strings`, so it **exits 0 and writes
+   `{"strings": []}`** — a valid file holding nothing, which falls back to English for all
+   70 blocks. The correct script is `i18n_build_content_overlay.mjs`, and it takes
+   `--topic financial-aid-tuition` **without** the `.content` suffix.
+
+2. **Three content blocks were translated in the shipped file but English in the work
+   file** (`92553f5e`, `78e448bd`, `df673496` — Wayback tuition quotes, in `fr`/`it`/`hi`).
+   The shipped overlay was ahead of its own source, so rebuilding regressed them. Restored
+   into the work files from the shipped values, so a future rebuild is safe.
+
+`check:runtime` reported green throughout both — it validates against the work file, the
+documented blind spot. **`check:live` caught both.** The general lesson: a rebuild is not a
+no-op; diff the shipped overlay against `HEAD` afterwards and treat any unintended block
+change as a regression.
+
+### Deviation: `--report-identical`-style verification instead of "every triaged leak gone"
+
+The plan's verification asked that `i18n:leaks` show every triaged leak gone. That is not
+achievable by design — a recorded KEEP still appears in the review queue, because the tool
+reports *cross-locale difference*, not *defect*. Verified instead that each locale's count
+fell by exactly its translated-edit count, which it did for all nine.
+
+### Verification (Phase 2)
+
+| Check | Result |
+|---|---|
+| `npx tsc --noEmit` | clean |
+| `npm run build` (8 chained checks) | exit 0 |
+| `npm run check:runtime` | ✓ 9 locales × **11,408** entries (was 11,407 — the St. Augustine note now ships) |
+| `npm run check:live` | ✓ all 9 resolve against live English |
+| `npm run check:sepdrift` × 9 | 0 drifted figure tokens |
+| `npm run check:sources` × 9 | 11,409 English sources, 0 altered |
+| `check:script` / `check:chrome` / `check:money` / `check:currency` / `check:bidi` | ✓ |
+| `check:fa` / `check:hi` / `check:fr` | ✓ |
+| `i18n:leaks` × 9 | es −9 · bn −22 · ht −2 · te −5 · fr −16 · fa −29 · it −10 · hi −16 · ar 0 — each exactly its edit count |
+| Browser (Chrome, panels forced open) | 6 pages incl. 2 RTL (`fa`/`ar`) + lakh/crore (`te`/`hi`); 92k–163k chars rendered; 12 new translations confirmed rendering; no `The St —` fragment |
+
+### Follow-up found but not fixed (out of scope)
+
+`Drop-in (Before School, CCS)` is kept in English by `ht`, `bn`, `hi` and `te` while
+`Drop-in (YCC & After School)` is translated by several of them — a sibling leak the ≤2
+band did not surface. It belongs with the 3–6 band convention pass (follow-up 1).
