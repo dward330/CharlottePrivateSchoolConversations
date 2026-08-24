@@ -1587,3 +1587,183 @@ rejected as convention, not leaks: `Basketball` and `Soccer` (every locale keeps
 75–97% of sport labels Latin), `Health` (95–99% of `courses[].title` Latin — course
 titles are searchable identifiers), and `Choral`. Recorded so a later pass does not
 re-litigate them.
+
+---
+
+# The cross-locale leak KEEPS ledger — 2026-08-23
+
+`scripts/find_english_leaks.mjs` (`npm run i18n:leaks`) says in its own docstring that it
+is **a review queue, not a defect list**, and that the KEEP decisions must be "recorded
+somewhere durable so the decision is documented rather than merely implied by absence."
+Until this section existed there was no such record, so every rollout re-triaged the same
+strings from scratch.
+
+**This is the record. It is documentation, not a gate** — nothing fails a build because a
+string is or is not listed here. This repo has twice parked a checker at a permanent
+non-zero and watched it stop being read; a ledger avoids that by not pretending to be
+enforcement.
+
+## What was triaged, and what was not
+
+The tool reports **2,625 review items across the nine prose locales**, which dedupes to
+**740 distinct English strings**. Banding each string by *how many of the nine locales kept
+it in English* is what makes the pile tractable:
+
+| Kept by | Distinct strings | Reading |
+|---|---|---|
+| 1 locale | 218 | strongest leak signal — 8 locales translated it |
+| 2 locales | 68 | strong leak signal |
+| 3–6 locales | 377 | ambiguous middle — **not triaged**, see below |
+| 7+ locales | 77 | consensus keep — **not triaged** |
+
+**The triaged scope is `kept ≤2 locales AND ≥15 characters` — 147 distinct strings.** The
+length floor matters: below it the ≤2 band is dominated by grade/time labels
+(`Gr 1–5 · 3:00–4:30`) whose treatment is a separate convention question.
+
+Outcome: **133 LEAK, 13 KEEP, 1 English-side defect.** The ratio is worth stating plainly
+— in the ≤2 band the cross-locale diff is right about nine times out of ten, which is what
+justifies spending a pass on it at all.
+
+## The test used, and the one that overrides it
+
+Default test: **if 7–8 locales rendered a string as running prose, it is prose.** A KEEP has
+to be a course code or catalog title a family matches against the school's published page,
+a proper noun, a named award, a unit, or a figure label.
+
+**That test is overridden by a locale's own internal consistency.** This is the same rule
+already applied to `Athletic Director` (2026-08-19, below): the question is not whether a
+cross-locale majority translated a string, but whether translating it would make it the
+*sole* exception inside the locale that kept it. A locale that consistently keeps a whole
+class of identifier in Latin is following a convention, not leaking.
+
+That override changed exactly one call here — and it was the call the implementation plan
+had cited as a **verified example of an unambiguous leak**. See `Director of Counseling
+Services` below. Recorded because it is the failure mode this ledger exists to prevent: a
+string that looks like a leak from the cross-locale view and is a convention from inside
+the locale.
+
+## The KEEPS
+
+| English | Kept by | Why it is a keep |
+|---|---|---|
+| `Director of Counseling Services` | `bn` | **`bn` keeps all six bare `Director` job titles in Latin** — `Director`, `Assoc. Director`, `Sr. Assoc. Director`, `Co-Director`, `Director of Counseling` and this one. Translating it would make it the only translated Director title in the locale. The per-locale-consistency override, not the cross-locale majority. |
+| `The Educational Resource Program` | `fr` | Named in-house program at Charlotte Country Day; a family matches the name against the school's page. The other locales only strip or keep the leading article. |
+| `"Due to the small class size and the college-bound nature of Covenant Day's population… Therefore, we do not rank."` | `bn`, `te` | A **verbatim quotation** from the school's published profile. Quoting convention legitimately differs per locale; `fr` keeps it as a quote too. |
+| `~30,000 sq ft, 2022` · `~47,000 sq ft, 2022` · `50,000 sq ft, 2001` · `53,000 sq ft, 2001` | `it` | Figure + unit. **Whether converted units belong in this data at all is an open question** recorded in CLAUDE.md — only `es` converts today. Not this pass's call to settle. |
+| `Concert Choir, Chamber/Honors Choir, Symphonic Band, Honors Symphonic Band, Orchestra, Honors Orchestra, Percussion Ensemble, Piano class` | `fa`, `hi` | Ensemble proper names as printed in the arts catalog. `bn` and `ht` keep them verbatim too — only the trailing `Piano class` varies. |
+| `Music & Performing Arts: Performance Ensemble (theatre), Contemporary Ensemble, Modern Music, Film Studies & Production` | `fa` | Course/ensemble catalog names; only the parenthetical gloss varies, and `bn`/`ht` keep the names as well. |
+| `Music: Honors Concert Chorus, String Ensemble I–IV, Upper School Band, Jazz Combo, Modern Ensemble, Music Technology I–III` | `fa` | Course catalog names; the leading category word is the only prose. |
+| `Visual: Honors Visual Foundations → Studio-2D / 3D → Studio Arts II → III → AP Studio Art; plus Advanced Topics: Art History` | `fa` | Course catalog names in sequence; the leading category word is the only prose. |
+| `Improv & Musical Review` | `fr`, `it` | Named enrichment offering in Davidson Day's arts ladder. |
+| `National Honor Society (28 in '25), Global Studies Diploma, Acclaim Scholars` | `bn` | Three named programs and awards; only the `in` is prose, and `es`/`ht`/`te` keep the names verbatim. |
+
+## The English-side defect this pass exposed
+
+`clubCatalog.ts`, Charlotte Catholic, `St. Augustine Club` carried the note
+**`'The St — advisor Mr. Kennelly, 309'`** — the ingest truncated the source sentence at
+the period in *St. Augustine*, leaving a two-word fragment that nine locales then
+faithfully translated or kept. Repaired from `source-material/student-clubs/charlotte-catholic/`
+using the sibling notes' `…` convention.
+
+It is the **"sentence wearing an identifier's clothes"** class this repo keeps hitting,
+with a twist: here the English itself was broken, and the leak report is what surfaced it.
+A cross-locale diff finds English-side data defects as a side effect, because a fragment
+that makes no sense is one that locales disagree about how to handle.
+
+## Deliberately NOT triaged, and why
+
+- **The 3–6 band (377 strings).** Dominated by grade/time labels (`TK · 1:00–3:00 pm`,
+  `Gr 1–5 · 2:55–4:30`, `$1.00 / min`). These need **one convention decided once and
+  applied to all nine locales**, not string-by-string triage — four locales translate them,
+  five do not, and either answer is defensible as long as it is uniform.
+- **The 7+ consensus band (77 strings).** Course titles and proper nouns
+  (`World Myths and Legends`, `NC A&T`, `Science Lab`). Sampled and confirmed correct; no
+  work warranted.
+- **Strings under 15 characters in the ≤2 band.** Same convention question as the 3–6 band.
+
+## Reproducing this
+
+```
+node scripts/find_english_leaks.mjs --lang <code>     # per-locale review queue
+```
+
+Note the tool's default `--refs` is a **seven-locale list that excludes `hi` and `ar`** as
+reference locales. Per-locale totals are unaffected, but any banding computed from it is
+scored against seven peers, not eight — worth knowing before comparing a future count
+against the numbers above.
+
+---
+
+# Phase 2 — what translating actually found (2026-08-23)
+
+Phase 1 triaged **133 of the 147 as LEAK** and handed Phase 2 a worklist of
+**174 (string, locale) edits**. Translating them changed that verdict substantially:
+**100 were translated; 74 were reclassified as KEEPs.**
+
+Every one of the 74 was reclassified for the **same reason the ledger already names as the
+override** — per-locale internal consistency. Phase 1 scored each string on the
+cross-locale test (*7–8 locales rendered this as prose, so it is prose*) without opening
+the locale's own siblings. Phase 2 opened them, and in 74 cases the locale that "kept" the
+string was following a convention it applies to the whole class.
+
+**The lesson is about the method, not the strings.** The cross-locale diff is a good
+*detector* and a poor *adjudicator*. It cannot see the one piece of evidence that decides
+the call: how the same locale treats the string's siblings in the same card. Triage that
+skips that lookup will over-report leaks at roughly the rate seen here — a 43% correction.
+
+## Reclassified by locale, with the sibling evidence
+
+| Locale | Kept | The convention that decided it |
+|---|---|---|
+| `te` | 35 | Keeps **all 12** bare National Merit award-tier strings (`**9** Semifinalists`, `34 Semifinalists · 33 Commended · …`), translating only when extra prose is attached (`— 17 in the 97th percentile or above`). Also keeps division/course titles (`Lower School Courses`, `Fine Arts electives`), bare sport names (`Swimming`, `Wrestling`, `Cross country / track`) and `drop-in` as a loanword. |
+| `fa` | 14 | Keeps course-catalog titles and `visual.media[].detail` technique lists verbatim (`hand-building, wheel throwing, glazing, firing`), translating only running sentences. Same for arrow-sequence ladders (`Drawing & Painting beginner → intermediate → honors → AP`). |
+| `fr` | 7 | Keeps **all 20+** `Sessions N, M` camp labels — `Session` is French. `FBLA, Euro Challenge, PD Economics Challenge — plus DECA` is four org names and `plus`, also French. |
+| `it` | 5 | Keeps `Top-75 …` tier labels (all three), `grades N–M` as an identifier token (`per le grades 6–8`), and uses `Leadership` / `Governance` / `media` as Italian loanwords — so `Leadership / media` is already Italian. |
+| `hi` | 5 | Keeps `Full Day …` category labels (all three), `Musical` as a loanword (translating only `Play` → `नाटक`), and `varsity` + `baseball` as loanwords. |
+| `ar` | 3 | Keeps **11 of 12** Charlotte Catholic department names in Latin — only `World Languages` is translated. Translating these three would have made them the odd ones out in a single rendered card. |
+| `bn` | 3 | Keeps `drop-in` as a loanword, so `Lower School · drop-in` has nothing left to translate. |
+| `es` | 1 | `NCISAA, individual` — `individual` is spelled identically in Spanish. The correct translation is byte-identical to the English. |
+| `ht` | 1 | Keeps `Top-75 National Universities` and `Top-75 Liberal Arts` as tier labels; `Top-75 Liberal Arts Colleges` is the same class. |
+
+## The same string is a leak in one locale and a keep in another
+
+`Cross country / track` is the clearest case: a **KEEP** in `te`, which keeps bare sport
+names as roster identifiers, and a genuine **LEAK** in `hi`, which renders it
+`क्रॉस कंट्री / ट्रैक`. Both are correct. A ledger keyed only by English text would have to
+record this string twice with opposite verdicts — which is why every row above is keyed by
+**(string, locale)**, never by string alone.
+
+`Top-75 Liberal Arts Colleges` behaves the same way (KEEP in `it` and `ht`, translated by
+`es`/`bn`/`te`/`fr`), as does `FBLA, … — plus DECA` (KEEP in `bn` and `fr`).
+
+## Phase 1's one English-side defect is now translated
+
+The repaired `St. Augustine Club` note shipped English in all nine locales at the end of
+Phase 1 (its stamp was re-cut, blanking every translation). All nine are translated here,
+and `check:runtime` moves 11,407 → **11,408 entries per locale** as a result.
+
+## A build trap found in Phase 2 — the wrong overlay builder silently empties a file
+
+`financial-aid-tuition.content` is the odd overlay: it stores a `blocks` **object** keyed by
+hash, and its work file keys units under **`sections`**, not `strings`. Running the ordinary
+`i18n_build_overlay.mjs` against it **exits 0 and writes `{"strings": []}`** — a
+syntactically valid overlay holding nothing, which the runtime then falls back through to
+English for all 70 blocks. Use `i18n_build_content_overlay.mjs` for this topic, and note it
+takes `--topic financial-aid-tuition` **without** the `.content` suffix.
+
+`check:live` catches the damage (gate 2), which is how it was found — but only after the
+file was already overwritten.
+
+## Three content blocks were translated in the SHIPPED file and English in the WORK file
+
+Rebuilding `financial-aid-tuition.content` for `fr`/`it`/`hi` regressed three blocks per
+locale (`92553f5e`, `78e448bd`, `df673496` — the Wayback tuition quotes) from good
+translations to English, because the work file had never received them. The shipped overlay
+was ahead of its own source.
+
+This is the mirror image of the documented `check:runtime` blind spot: that check validates
+the work file, so it reported green on both the stale-work-file state and the regression.
+**`check:live` is the only check that saw it.** The work files now carry the translations,
+so a future rebuild is safe — but the general lesson is that **a rebuild is not a no-op**:
+diff the shipped overlay against `HEAD` after rebuilding, and treat any block you did not
+intend to touch as a regression to investigate.
