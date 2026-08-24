@@ -1,11 +1,11 @@
 ---
 name: siblingtail
 title: Triage the sibling-detector findings the cross-locale threshold cannot reach
-status: english-done
+status: implemented
 phases: 2
 created: 2026-08-24
 branch: i18n/sibling-tail
-prs: []
+prs: [200]
 ---
 
 # Triage the sibling-detector tail
@@ -284,3 +284,46 @@ is not proof of absence.
 Phase 1 changed **no data module and no overlay** — only `src/data/overlays/NOTES.md`
 (ledger), `.claude/plans/siblingtail-data/` (worklist) and the plan/index rows. Nothing a
 reader renders was touched, which is what the "inert for readers" verification asserts.
+
+### Phase 2 (2026-08-24) — 6 translated, 2 reclassified, 4 newly exposed
+
+Six of the eight worklist edits shipped. The two rows Phase 1 flagged for re-decision —
+`Drop-in (Before School, CCS)` in `bn` and `hi` — **both reclassified to KEEP**, exactly as
+Phase 1 predicted: each locale keeps `Drop-in` as a Latin loanword and moves only the tail
+common noun, and this string's tail is the acronym `CCS`. Final ratio for the pass:
+**4 LEAK : 4 KEEP by string; 6 LEAK : 19 KEEP by (string, locale) pair.**
+
+Every rendering was derived from a translated sibling in the same locale and file. Clock
+digits keep `H:MM` with only the marker localized; `Before School` and `CCS` stay Latin.
+
+### The pass's most reusable finding: a fix is a fresh scan
+
+Translating the `fr`/`ar` rows pushed two strings past the consensus detector's ≥6
+threshold, which **newly exposed holdouts that had been invisible** — the PR #198 mechanism
+running in reverse. Seven of those were confirmed KEEPs (`7:45 AM–5:00 PM` in seven locales
+that keep **all five** clock spans in English — a uniform convention, and the standing
+per-locale-consistency rule doing real work). Four are probable leaks
+(`World Language (daily)` in `te`/`fa`/`it`/`ar`; `Fine Arts (Art, Music, Drama)` in
+`te`/`fa`/`it`), left as a follow-up because the approved triage scoped this pass to 8
+strings and the within-locale sibling detector flags none of them. All are recorded in
+`src/data/overlays/NOTES.md` with their counter-evidence.
+
+**A detector re-run after a fix is not merely a regression check.**
+
+### Verification
+
+`npx tsc --noEmit`, `npm run build` (chaining check:live, check:runtime, check:chrome,
+check:spans, check:schema, check:ranks, check:ncsuper) all green. `check:sepdrift` and
+`check:sources` clean across all nine locales; `check:script`, `check:bidi`, `check:fa`,
+`check:hi`, `check:fr`, `check:currency`, `check:money` all pass. Both detectors re-run for
+all nine locales: the sibling detector's only remaining flags are the three ledgered
+`Drop-in` KEEPs.
+
+Browser-verified in headed Chrome across `fr`, `ar`, `ht`, plus `te`/`it`/`hi` KEEP
+controls that must still render English. The Compare page starts at **0 of 11 schools
+selected**, so a naive page-load check finds no rows at all — the schools and topic must be
+clicked first. A KEEP control failing the same way as a LEAK case is the tell that the
+harness, not the data, is wrong.
+
+`npm run check:live` now passes for all nine locales; the plan's "known-incomplete" note
+predates PR #167 and is stale.

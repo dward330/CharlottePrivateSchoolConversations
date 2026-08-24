@@ -2553,3 +2553,77 @@ it flags elsewhere is worth remembering when reading a clean detector run.
 ```
 node .claude/plans/siblingtail-data/build_worklist.mjs   # 653 rows -> 8 untriaged strings
 ```
+
+## Phase 2 (2026-08-24) — 6 translated, 2 rows reclassified, 4 newly exposed
+
+Six `(string, locale)` edits shipped. Every rendering was derived from a translated
+sibling in the same locale and file, never composed fresh:
+
+| String | Locale | New `t` | Derived from |
+|---|---|---|---|
+| `7:45 AM–5:00 PM` | `fr` | `7:45 a.m.–5:00 p.m.` | `7:30 AM–5:30 PM` → `7:30 a.m.–5:30 p.m.` |
+| `7:45 AM–5:00 PM` | `ar` | `7:45 صباحًا–5:00 مساءً` | `7:30 AM–5:30 PM` → `7:30 صباحًا–5:30 مساءً` |
+| `Drop-in (Before School, CCS)` | `ht` | `San randevou (Before School, CCS)` | `Drop-in (YCC & After School)` → `San randevou (YCC & After School)` |
+| `Fine Arts (Art, Music, Drama)` | `fr` | `Beaux-arts (arts plastiques, musique, théâtre)` | `Fine Arts` → `Beaux-arts` |
+| `Fine Arts (Art, Music, Drama)` | `ar` | `الفنون الجميلة (فنون، موسيقى، مسرح)` | `Fine Arts` → `الفنون الجميلة` |
+| `World Language (daily)` | `fr` | `Langue étrangère (quotidien)` | `World Language` → `Langue étrangère` |
+
+Clock digits keep `H:MM` and only the marker localizes; `Before School` and `CCS` stay
+Latin, as every sibling keeps them.
+
+### The two re-decided rows — both reclassified to KEEP, as Phase 1 predicted
+
+`Drop-in (Before School, CCS)` in `bn` and `hi`. Phase 1 triaged them LEAK on group
+evidence and flagged them for re-decision at translation time. The translation evidence
+settles it:
+
+| Locale | `Drop-in` itself | Sibling at `[724]` | Sibling at `[728]` |
+|---|---|---|---|
+| `bn` | kept as Latin loanword (`drop-in হার`, `drop-in সেবা`) | `Drop-in (YCC ও After School)` — only `&`→`ও` moved | `… WEE ভাইবোন` — only `sibling` moved |
+| `hi` | kept (`Drop-in पंजीकरण`, `Drop-in देखभाल`) | `Drop-in (YCC और After School)` — only `&`→`और` moved | `… WEE भाई-बहन` — only `sibling` moved |
+
+Both locales move **only the tail common noun**. This string's tail is `CCS`, an acronym,
+and `Before School` is a kept identifier — so under each locale's own convention there is
+nothing translatable left. That is the identical argument that made the string a KEEP for
+`te`, which keeps `Drop-in` as a Latin loanword throughout the topic.
+
+### The KEEPS — keyed by (string, locale)
+
+| English | Kept in | Reason |
+|---|---|---|
+| `Drop-in (Before School, CCS)` | `bn`, `hi` | Locale keeps `Drop-in` as a Latin loanword and translates only the tail common noun; the tail here is the acronym `CCS`. Nothing translatable remains. Reclassified from LEAK at Phase 2, per plan. |
+| `7:45 AM–5:00 PM` | `es`, `bn`, `ht`, `te`, `fa`, `it`, `hi` | Each of these seven keeps **all five** clock spans in the cell in English — a uniform per-locale convention, not a holdout. Only `fr`/`ar` localized four of five, which is what made those two LEAKs. |
+
+The second row is the standing rule doing real work: **per-locale consistency beats the
+cross-locale majority.** Seven locales were newly flagged by the consensus detector purely
+because the `fr`/`ar` fixes pushed the string over its ≥6 threshold — and all seven are
+correct as they stand.
+
+### Four rows newly exposed by this pass, deliberately NOT folded in
+
+Fixing `fr`/`ar` raised the translated-count on two strings past the consensus detector's
+threshold, making previously-invisible holdouts visible — the PR #198 mechanism running in
+reverse. These four share the shape of the leaks fixed above and are **probable leaks**:
+
+| String | Locale | Evidence |
+|---|---|---|
+| `World Language (daily)` | `te`, `fa`, `it`, `ar` | Each translates bare `World Language` **and** `World Language Rotation` in the same file, then keeps this one. |
+| `Fine Arts (Art, Music, Drama)` | `te`, `fa`, `it` | Each translates bare `Fine Arts` in the same file, then keeps this one. |
+
+They are left for a follow-up rather than fixed here, for the same reason as the
+`World Language (Online)` row above: the approved triage scoped this pass to 8 specific
+strings, and the **within-locale** sibling detector does not flag any of them (checked:
+0 flags in all four locales), so they sit below both detectors' thresholds. Measured
+counter-evidence, recorded rather than glossed: in all four locales the
+parenthetical-modifier construction is translated **0 of 3** times pre-pass, so a
+uniform-convention reading is not fully excluded by the file alone.
+
+**This is the pass's most reusable finding: translating a leak can expose others, so a
+detector re-run after a fix is not merely a regression check — it is a fresh scan.**
+
+### Reproducing this
+
+```
+npm run i18n:siblings -- --lang <l>    # 3 remaining flags = the bn/hi/te Drop-in KEEPs
+npm run i18n:leaks    -- --lang <l>    # newly exposed rows, triaged above
+```
