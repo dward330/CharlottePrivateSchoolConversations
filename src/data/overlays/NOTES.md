@@ -821,11 +821,11 @@ substituting a source-shaped number.
 
 Nine topics, 5,904 strings, one pass. Chrome catalog 327 keys.
 
-> **Status 2026-07-29: closed without a native-speaker review.** The list below
-> was written for a Kreyòl speaker who never reviewed it. Everything here is
-> therefore *unverified* — it records the calls that were made and why, not
-> calls that a speaker confirmed. Treat it as the agenda for a review that is
-> still owed, not as a record of one that happened.
+> **Status: REVIEWED AND ACCEPTED 2026-08-23.** Originally closed 2026-07-29
+> without a review; a Kreyòl speaker has since read the rendered pages and
+> accepted the prose, working from this list. The calls below are therefore
+> *confirmed*, not merely recorded — including the French-drift register
+> decision in the next section, which was the thing most at risk.
 
 ### The register decision, and why it is the thing to review first
 
@@ -1195,23 +1195,21 @@ defect legible.
 
 # Hindi (हिन्दी) — 2026-08-02
 
-**Status: rollout in progress.** Full rollout doc:
+**Status: COMPLETE and REVIEWED (2026-08-23).** Full rollout doc:
 `.claude/docs/prose-translation-hi.md`. This section is the reviewer's agenda —
 what to look at first, and why — rather than a summary of 84k words.
 
-**No native-speaker review yet — and it is being run ON THE LIVE SITE.** The
-owner is having a Hindi speaker read the deployed pages at
-charlotteschoolinsights.com (`?lang=hi`), not a local build (2026-08-02). Until
-that returns, `hi` sits in **Kreyòl's unreviewed position**, not the reviewed
-position of Spanish, Bangla, Telugu, French and Farsi.
+**NATIVE-SPEAKER REVIEW: ACCEPTED 2026-08-23.** It was run ON THE LIVE SITE — a
+Hindi speaker read the deployed pages at charlotteschoolinsights.com
+(`?lang=hi`), not a local build (commissioned 2026-08-02, accepted 2026-08-23).
+`hi` ships **reviewed**, alongside every other locale.
 
 Reviewing production is a stronger test than a local render — it is what a
-family actually sees — but note the trade: the unreviewed prose is publicly
-visible while the review is open. Normal for this site, which has shipped every
-locale's prose ahead of its review, and it was the owner's call.
+family actually sees. The trade it carried (unreviewed prose publicly visible
+while the review was open) is now spent: the review returned and accepted.
 
-**If you are that reviewer, start here:** the register axis in the next section
-is the thing to judge. Everything mechanical — figures, digits, grouping,
+**This section is kept as the record of what was judged**, not as a pending
+agenda — the register axis in the next section is what the reviewer assessed. Everything mechanical — figures, digits, grouping,
 glyphs, stranded English — has already been verified twice over, once by
 automated checks and once by a 131-page browser print-out of two schools that
 came back clean. What no check can reach is whether the Hindi *reads naturally

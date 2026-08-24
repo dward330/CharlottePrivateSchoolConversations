@@ -1,9 +1,9 @@
 # Hindi (हिन्दी) research-prose translation — rollout
 
-**Status:** **COMPLETE and PRINT-OUT SIGNED OFF.** Only the native-speaker
-review remains. All nine topics + the 333-key chrome catalog translated, every
-automated check green, `hi` live in `TRANSLATED` and `PROSE_TRANSLATED`.
-Written 2026-08-02.
+**Status:** **COMPLETE, PRINT-OUT SIGNED OFF, and NATIVE-SPEAKER REVIEWED
+(2026-08-23).** Nothing outstanding. All nine topics + the 333-key chrome
+catalog translated, every automated check green, `hi` live in `TRANSLATED` and
+`PROSE_TRANSLATED`. Written 2026-08-02; review closed 2026-08-23.
 
 > ## START HERE (fresh session)
 >
@@ -36,8 +36,9 @@ Written 2026-08-02.
 > 1. ~~The browser print-out~~ — **DONE, 2026-08-02.** Providence Day (66pp) and
 >    Charlotte Latin (65pp), fully expanded, real browser. **Both clean — the
 >    first rollout in this repo to find ZERO print-out defects.** See §5a.
-> 2. **A native-speaker review** — the only thing outstanding. Until then `hi`
->    sits in Kreyòl's unreviewed position. See §6 — the axis is Sanskritization.
+> 2. ~~A native-speaker review~~ — **DONE, 2026-08-23.** A Hindi speaker read
+>    the deployed pages and accepted the prose. The Sanskritization axis (§6)
+>    was the thing being checked; `hi` now ships reviewed.
 >
 > **Read [`prose-translation-te.md`](./prose-translation-te.md) for the method**
 > and [`prose-translation-architecture.md`](./prose-translation-architecture.md)
@@ -516,11 +517,10 @@ were not specific to the language being added. For Hindi specifically, look for:
 
 ## 6. Review
 
-**OPEN — review is being conducted ON THE LIVE SITE.** The owner is having a
+**CLOSED — ACCEPTED 2026-08-23.** The review was conducted ON THE LIVE SITE: a
 Hindi speaker read the deployed pages at charlotteschoolinsights.com rather than
-a local build or an exported document (2026-08-02). Until that review returns,
-`hi` ships in **Kreyòl's unreviewed position**, not the reviewed position of
-Spanish, Bangla, Telugu, French and Farsi.
+a local build or an exported document (commissioned 2026-08-02, accepted
+2026-08-23). `hi` ships **reviewed**, alongside every other locale.
 
 **This is a deliberate change of method from every prior locale, and it has one
 consequence worth stating.** Earlier reviews read a local render or a print-out;
@@ -528,7 +528,8 @@ this one reads production. That is a *better* test — it is exactly what a fami
 sees, including the real font fetch, the deployed bundle and the live analytics
 path — but it means **the unreviewed prose is publicly visible while the review
 is in progress**. That was the owner's call and is the normal state for this
-site, which has shipped every locale's prose before its review returned.
+site, which has shipped every locale's prose before its review returned. That
+window is now closed for `hi` — the review returned and accepted.
 
 To point the reviewer at a page directly: `?lang=hi` on any URL, e.g.
 `https://charlotteschoolinsights.com/?lang=hi#/school/providence-day`. The

@@ -274,8 +274,7 @@ passed while it was on screen, because both figures are individually correct.
 ## 4. Review
 
 **Done (2026-07-29).** A Telugu speaker read the rendered pages and accepted the
-prose. Telugu therefore ships reviewed, like Spanish and Bangla — not in Kreyòl's
-unreviewed position.
+prose. Telugu therefore ships reviewed, as every locale now does.
 
 That review is what closed the two things a non-speaker structurally cannot check,
 and which no automated check in this repo can reach:
