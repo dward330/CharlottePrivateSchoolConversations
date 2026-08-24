@@ -5,7 +5,7 @@ status: abandoned
 phases: 1
 created: 2026-08-24
 branch: perf/bundle-split
-prs: []
+prs: [195]
 ---
 
 # Split the main chunk
@@ -205,7 +205,7 @@ must keep working — see the risk table, and step 5.
 
 ## Implementation notes — ABANDONED 2026-08-24
 
-Built, measured, and **reverted**. The branch `perf/bundle-split` carries both the
+Built, measured, and **reverted** (PR #195). The branch `perf/bundle-split` carries both the
 implementing commit (`41a337b`) and its revert (`748d0c8`), so the work is
 recoverable if the tradeoff is ever re-judged. No app code shipped.
 
