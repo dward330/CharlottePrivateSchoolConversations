@@ -2437,3 +2437,53 @@ are **per-school**, and three of the eight belong to Charlotte Christian and Dav
 not the Providence Day page being probed. Re-probed on their owning pages, all three
 render. Check the `at` paths before reading a MISS as a defect — a heading absent from a
 page it was never on is not evidence of anything.
+
+## Follow-up (2026-08-24) — 35 more leaks the CONSENSUS detector cannot see by design
+
+PR #197 ran only `i18n:leaks` (cross-locale consensus). Running `i18n:siblings`
+(within-locale) as the plan's step 5 actually required surfaced **four more prose strings,
+35 (string, locale) edits**, and exposed a structural limit worth stating plainly.
+
+**The cross-locale detector needs ≥6 locales to have translated a string before it will
+flag the holdouts. A string that almost every locale keeps therefore scores far below any
+threshold and is invisible — the more widespread the leak, the less visible it is.**
+
+| String | topic | kept by | why it is a leak |
+|---|---|---|---|
+| `KINDERGARTEN – GRADE 5` | course-offerings | **9 of 9** | same 3-item card as `GRADES 9 – 12`, which all 9 translate |
+| `GRADES 6 – 8` | course-offerings | **9 of 9** | ditto |
+| `ENROLLMENT ALSO DIVERGES` | financial-aid-report | 8 of 9 | its sibling tag `NOT PUBLISHED` → `غير منشور`; its own `body` fully translated |
+| `REQUIREMENT` | student-clubs | **9 of 9** | see below |
+
+`GRADES 6 – 8` and `KINDERGARTEN – GRADE 5` are the sharpest case: **three grade bands in
+one card, and every locale translated exactly one of them.** That is not a convention — a
+convention would be consistent across the three. Confirmed in a browser: the Spanish
+Carmel Christian page rendered the kicker `KINDERGARTEN – GRADE 5` directly above the
+Spanish heading *Asignaturas de Lower School*.
+
+### `REQUIREMENT` — and a stale source comment that argued the wrong way
+
+`ClubsProgram.tsx` renders `f.label ?? t(FLAG_LABEL_KEY[f.kind])`, and its comment claims
+*"no school's data sets a `label`… so this constant, not the overlay, is what a reader
+actually sees."* **`clubsPrograms/gaston-day.ts:72` sets one.** It is the only school that
+does, so the comment describes the pattern correctly and the exception not at all — and
+following it would have filed a live reader-visible leak as a dead field.
+
+The consequence: every other school renders the localized chrome key
+(`INDIVIDUAL — NO ES UN CLUB`), while Gaston Day's hardcoded `label` overrode it with
+English in all nine locales. Translated at the overlay layer, matching each locale's own
+register for that chip — caps for the Latin locales, normal script otherwise.
+
+**The general lesson: verify a "does this render?" claim in a browser, not from a comment.**
+A comment is evidence about the code when it was written.
+
+### Method note for the next pass
+
+**Run both detectors — they answer different questions and neither subsumes the other.**
+Cross-locale consensus finds *one locale out of step with eight*; within-locale siblings
+find *one string out of step with its neighbours in the same card*. A leak in all nine
+locales is invisible to the first and obvious to the second.
+
+After this follow-up: consensus class **0**, blind-spot prose class **0**. The 50 remaining
+ALL-CAPS items kept by ≥6 locales all carry digits — clock times, SAT/ACT pairs, session
+codes (`S1, S4, S6`), dollar figures — and are legitimate keeps.
