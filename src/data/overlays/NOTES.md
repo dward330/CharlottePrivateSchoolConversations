@@ -2118,3 +2118,177 @@ npm run i18n:leaks    -- --lang <code>          # the cross-locale review queue
 
 Run **both**. Neither is a superset of the other, and the 84 strings above are the proof.
 The full triage record and the Phase 2 worklist are in `.claude/plans/midband-data/`.
+
+# The residual cross-locale leak ledger — 2026-08-24
+
+The third and final triage pass over the cross-locale leak queue (`leakresidual`, after
+#190 and #193). It closes the thread: every leak-shaped string is now either translated or
+recorded here with a reason.
+
+## What the pass actually measured — the plan's Context did not reproduce
+
+The plan predicted **106** leak-shaped strings, concentrated as `ar 38` and
+`financial-aid-report 36`. Re-measuring the same filter (kept ≤2 locales, ≥2 translated,
+≥15 chars) over all nine work files gives **70**, with **`ar 3`** and
+**`financial-aid-report 1`**.
+
+Every other locale matched almost exactly — `te` 32 (plan: 33), `fa` 16, `it` 10, `fr` 10,
+`hi` 7, `bn` 6, `ht` 1 — so this is two specific wrong figures, not a general drift.
+
+It is **not** stale data. `financial-aid-report.ar.json` has not been modified since PR
+#150, well before either prior triage pass, so nothing translated those 36 away in the
+meantime; and the raw unfiltered detector output for `ar` contains exactly one
+`financial-aid-report` row. Recorded because a future pass reading only the plan would
+otherwise go looking for 36 leaks that were never there.
+
+## The result
+
+| | Count |
+|---|---|
+| Leak-shaped rows (topic + string) | **70** |
+| Already settled by #190 / #193 | **24** |
+| Genuinely untriaged `(string, locale)` pairs | **59** |
+| Verdict LEAK → Phase 2 worklist | **9** |
+| Verdict KEEP → this ledger | **50** |
+
+**LEAK : KEEP is 1 : 5.56** — a higher keep ratio than either prior pass, which is the
+expected shape for the tail of a queue: the easy leaks were taken first, and what is left
+is dominated by per-locale conventions. The plan predicted this ("the translatable subset
+is likely well under half"); it is not a sign the pass was wasted. A recorded KEEP is a
+permanent result — it stops a fourth pass re-triaging the same string.
+
+## Five provisional LEAK calls this pass overturned by measurement
+
+Recorded because each looked like an obvious leak from the cross-locale view and was not.
+This is the fourth consecutive pass where the cross-locale majority argued for the wrong
+verdict.
+
+| String | Locale | Looked like | Why it is a KEEP |
+|---|---|---|---|
+| `53,000 sq ft, 2001` and 3 siblings | `es` | 7 locales translate the unit word | The unit token was **deliberately restored to English by PR #194** (`unitrevert`) the previous day. Translating it would re-litigate a decision the user had just settled. |
+| `NCISAA, individual` | `es` | 8 locales translated it | `individual` is spelled identically in Spanish — the correct translation is byte-identical to the English. |
+| `Fine Arts electives`, `Innovation electives`, `Personal Skills electives` | `fa` | department names are translated 69/78 in `fa` | Measured across every `fa` topic: **7 of 7** elective-*category labels* are kept (`Arts Electives`, `Physical Activity Electives`, `Core Content Electives`). The 131 "translated" matches are long sentences that merely contain the word. |
+| `Drawing & Painting beginner → … → AP`, `AP Music Theory; AP art courses …` | `fa` | contains connective prose 5 locales translated | `fa` keeps **17 of 17** course/ensemble roster lines in `ladder.divisions[].items[]`. Confirms the #193 ledger row. |
+| `Cross country / track` | `te` | 8 locales translated it | Already recorded in #193: `te` keeps bare sport names as roster identifiers. |
+
+**A method note.** The `fa` `visual.media[].detail` row in #193's table — "keeps technique
+lists verbatim" — does **not** hold: `fa` translates **48 of 54** of them, including the
+directly comparable `clay, plaster, wood, glass, metal and mixed media`. The three Cannon
+entries are therefore genuine leaks. A convention claim in this ledger is only as good as
+the count behind it; re-measure before reusing one.
+
+## The KEEPS — keyed by (string, locale)
+
+Keyed by string **and** locale, per the rule #190 established.
+
+| English | Kept by | Why it is a keep |
+|---|---|---|
+| `Interdisciplinary Studies` | `ar` | Charlotte Catholic department name. `ar` keeps **6 of 6** department names at this school in Latin, though it is mixed globally (31 kept / 47 translated) — the convention is per-school. |
+| `Visual and Performing Arts` | `ar` | Same Charlotte Catholic department-name class. |
+| `Dual Enrollment` | `ar` | Same Charlotte Catholic department-name class. |
+| `Lower School · drop-in` | `bn`, `te` | `drop-in` is a loanword in both; the rest is a division name they also keep. 4 of 4 sibling cost labels kept in each. |
+| `Middle School · drop-in` | `bn`, `te` | Same class. |
+| `Drop-in (YCC & After School)` | `te` | Same class — `drop-in` loanword plus two proper nouns. |
+| `FBLA, Euro Challenge, PD Economics Challenge — plus DECA` | `bn`, `fr` | Four organisation names and `plus`, which is also French (ledger #193). |
+| `53,000 sq ft, 2001` | `es` | Unit token deliberately restored to English by PR #194 (`unitrevert`), settled 2026-08-24. |
+| `50,000 sq ft, 2001` | `es` | Same — PR #194. |
+| `~30,000 sq ft, 2022` | `es` | Same — PR #194. |
+| `~47,000 sq ft, 2022` | `es` | Same — PR #194. |
+| `NCISAA, individual` | `es` | `individual` is spelled identically in Spanish. |
+| `Fine Arts electives` | `fa`, `te` | Elective-category label; `fa` keeps 7 of 7 such labels, `te` keeps course/division titles (#193). |
+| `Innovation electives` | `fa`, `te` | Same class. |
+| `Personal Skills electives` | `fa`, `te` | Same class. |
+| `Upper School course access` | `fa`, `te` | Course-title slot beside kept siblings `Honors Level Courses` / `Advanced Seminar Courses`. |
+| `Drawing & Painting beginner → intermediate → honors → AP; Art & Design beginner → AP; AP Art History` | `fa` | Course-roster line; `fa` keeps 17 of 17 in this field. |
+| `AP Music Theory; AP art courses including AP Sculpture; IB art courses including IB Theatre Arts` | `fa` | Same roster class — predominantly AP/IB course codes. |
+| `Sessions 3, 4, 7` | `fr` | `Session` is French; `fr` keeps **24 of 24** camp session labels. The translation would be a no-op. |
+| `Sessions 4, 5, 7` | `fr` | Same class. |
+| `Sessions 1, 2, 5, 6` | `fr` | Same class. |
+| `Sessions 2, 3, 4, 5, 6` | `fr` | Same class. |
+| `Sessions 1, 2, 4, 5, 7` | `fr` | Same class. |
+| `Sessions 2, 4, 5, 7` | `fr` | Same class. |
+| `Full Day - Farm` | `hi`, `te` | Category label; both keep the whole `Full Day` family (#193). |
+| `Full Day (STEM)` | `hi`, `te` | Same class. |
+| `One-Acts (NCTC)` | `hi`, `it` | Festival-format name sitting beside its NCTC organiser; both treat it as an identifier. |
+| `Top-75 Liberal Arts Colleges` | `ht`, `it` | Tier label; both keep the whole `Top-75` family (#193). |
+| `Lower School Courses` | `te` | Division title; `te` keeps these (#193). **Note the asymmetry:** the same string is a genuine LEAK in `fa`, whose two sibling division titles are translated. |
+| `History / Social Studies` | `te` | Division/course title; `te` keeps these (#193). Also a LEAK in `fa` — same asymmetry. |
+| `Cross country / track` | `te` | Bare sport name as a roster identifier (#193). |
+| `**6** Finalists · **16** Commended · 1 National Merit Scholar (Evan Li ’24)` | `te` | Bare National Merit award-tier string — see the convention below. |
+| `25 Semifinalists · 34 Commended · 7 National Hispanic Scholars` | `te` | Same class. |
+| `34 Semifinalists · 33 Commended · 2 National Achievement Semifinalists` | `te` | Same class. |
+| `**14** Finalists · **48** Commended Scholars` | `te` | Same class. |
+| `**16** Finalists · **45** Commended Scholars` | `te` | Same class. |
+| `2 National Merit Finalists · 11 Commended Students` | `te` | Same class. |
+| `**11** Semifinalists · **13** Commended` | `te` | Same class. |
+| `**7** Semifinalists · **8** Commended` | `te` | Same class. |
+
+## The `te` National Merit convention, measured rather than inferred
+
+The plan flagged this cluster as a trap, and it was — but the evidence is unambiguous once
+counted. Across `college-support.te.json`, **47 of 47** entries containing `Semifinalist`,
+`Commended`, `Finalist` or `National Merit` keep those award terms in Latin, including
+inside rows that are otherwise fully translated:
+
+```
+"**12** Semifinalists · **18** Commended — all named in the school's own announcement"
+  te  "**12** Semifinalists · **18** Commended — పాఠశాల స్వంత ప్రకటనలో అందరి పేర్లూ ఉన్నాయి"
+```
+
+`te` translates the **connective prose** and never the award term. A row that is *only*
+award terms and figures therefore has nothing left to translate, which is exactly why the
+eight bare rows above are kept while their siblings are not. One convention decision, eight
+rows — not eight independent judgments.
+
+## Reproducing this
+
+```
+npm run i18n:leaks    -- --lang <code> --refs <the other eight>
+npm run i18n:siblings -- --lang <code>
+```
+
+Note the cross-locale detector's default `--refs` list omits `hi` and `ar`; pass all eight
+others explicitly or those two locales never act as references. The full triage record,
+the verdicts and the Phase 2 worklist are in `.claude/plans/leakresidual-data/`.
+
+## Phase 2 (2026-08-24) — one more row reclassified at translation time
+
+Translating the nine-row worklist produced **eight** translations and **one further
+KEEP**. The reclassified row is worth recording, because it is the fourth consecutive pass
+in which a LEAK verdict did not survive contact with the locale's own siblings.
+
+| Value | Locale | Verdict | Reason |
+|---|---|---|---|
+| `Football QBs · Game Day Coordinator` | `te` | **KEEP** (was LEAK) | Both halves fall in `te` keep classes independently. Every bare job title in `sports.te.json` is kept Latin — `Director of Athletics`, `Athletic Director`, `Associate Athletic Director`, `Football Program Director`, `Director of Sports Performance`, `Strength & Conditioning` — and `Football` itself is kept in **20 of 25** entries containing it. Translating this one would have made it the locale's only Telugu-rendered `Game Day Coordinator`, the same defect the ledger already records for `bn`'s `Director of Counseling Services`. |
+
+**What made the call decidable was measuring the middot class rather than eyeballing it.**
+The `role` field's `sport · JobTitle` values split **6 kept / 6 translated**, so "does `te`
+keep middot roles?" has no answer — but the six translated ones agree exactly on the rule:
+*the sport name is translated, the job title stays Latin* (`Volleyball · Assistant AD` →
+`వాలీబాల్ · Assistant AD`; `Wrestling · Director of S&C` → `రెజ్లింగ్ · Director of S&C`).
+Applying that rule to `Football QBs · Game Day Coordinator` returns the string unchanged,
+because its sport half is one `te` keeps. A 6/6 split is not an absence of convention; it
+is a convention operating on a part of the string rather than the whole of it.
+
+## The eight translated, and the sibling each was derived from
+
+No rendering here was invented — each copies a form the same locale had already settled in
+the same work file.
+
+| Locale | Value | Rendering | Derived from |
+|---|---|---|---|
+| `fa` | `Lower School Courses` | `درس‌های Lower School` | `Middle School Courses` → `درس‌های Middle School`; division name stays Latin as a searchable identifier. |
+| `fa` | `History / Social Studies` | `تاریخ / مطالعات اجتماعی` | Same department's `Core Academics` → `دروس اصلی`, `Structured Literacy` → `سوادآموزی ساختارمند`. `fa`'s Latin holdouts there are acronyms (`STEAM`), not subject names. |
+| `fa` | `drawing, painting, printmaking, digital production` | `طراحی، نقاشی، چاپ دستی، تولید دیجیتال` | `Visual arts span drawing, painting, printmaking…` → `…طراحی، نقاشی، چاپ دستی…` in the same file. |
+| `fa` | `graphic design, commercial illustration, photo manipulation, video` | `طراحی گرافیک، تصویرسازی تجاری، دستکاری عکس، ویدیو` | Sibling `cannon:visual.media[1].detail` list form, Persian comma `،`. |
+| `fa` | `CAD, woodworking, metalworking, textiles, 3D printing, laser, CNC` | `CAD، نجاری، فلزکاری، منسوجات، چاپ سه‌بعدی، لیزر، CNC` | Near-identical sibling `CDE runs CAD, woodworking, metalworking…` → `CAD، نجاری، فلزکاری، … منسوجات، چاپ سه‌بعدی، برش لیزری و فرزکاری CNC`. `CAD`/`CNC` kept, craft terms translated. |
+| `te` | `current listing` | `ప్రస్తుత జాబితా` | `guideYear` siblings are bare figures (`2025-26`), so no keep-convention applies; all eight other locales translate it. |
+| `te` | `Honors Euclidean geometry.` | `Honors యూక్లిడియన్ జ్యామితి.` | Sibling descriptions keep `Honors` as a Latin token inside translated prose: `…యొక్క honors ట్రాక్.` |
+| `te` | `conference Coach of the Year` | `కాన్ఫరెన్స్ Coach of the Year` | Direct sibling `PTR national Coach of the Year` → `PTR జాతీయ Coach of the Year`: award name Latin, modifier translated. |
+
+**The `fa` `visual.media[].detail` correction from Phase 1 held up.** #193's ledger row
+claiming `fa` "keeps technique lists verbatim" is wrong — `fa` translates **48 of 54** of
+them, so the three Cannon entries were genuine leaks. Two rows in that column remain
+legitimate keeps (`Digital Art and Graphic Design`, `hand-building, wheel throwing,
+glazing, firing`); they are proper-noun course names and a term-of-art sequence, and were
+settled by the earlier passes.
