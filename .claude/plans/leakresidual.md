@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-08-24
 branch: i18n/leak-residual
-prs: []
+prs: [196]
 ---
 
 # Clear the residual cross-locale leaks
