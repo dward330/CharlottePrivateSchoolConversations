@@ -1,7 +1,7 @@
 ---
 name: capsleaks
 title: Fix the ALL-CAPS detector blind spot, then clear both it and the remaining leak tail
-status: english-done
+status: implemented
 phases: 2
 created: 2026-08-24
 branch: i18n/caps-leaks
@@ -294,3 +294,58 @@ mechanism; do not read a rollout doc for a *register* rule.
 - **Should `--min` default higher once the caps skip is gone?** — **default:** leave `--min`
   at 2 and filter at triage; changing the default silently changes what three prior passes
   measured against.
+
+## Implementation notes
+
+**Both phases shipped.** Phase 1 (commit `02bf76e`) removed the shared caps skip from both
+detectors, fixed the `--refs` default, and triaged what it exposed. Phase 2 (commit
+`8a9a034`) translated the result.
+
+### What shipped, versus what the plan estimated
+
+| | Plan | Actual |
+|---|---|---|
+| ALL-CAPS leaks | ~66 at ≥6/8 | **54 strings / 59 edits** triaged LEAK; **58 translated** |
+| Lowercase tail | 64 leak-shaped | **64 → 0 leaks / 64 keeps** |
+| ALL-CAPS LEAK:KEEP | assumed stronger than 1:6.4 | **54 LEAK : 0 KEEP** |
+| Lowercase LEAK:KEEP | ~1:6.4 expected | **0 LEAK : 64 KEEP** |
+
+**The two ratios invert completely, and that is the pass's main finding.** The plan
+anticipated the caps half would behave differently; it did not anticipate the split would
+be total. An 8-of-8 consensus on a full ALL-CAPS sentence was leak-shaped every single
+time, while the lowercase tail — filtered identically — was a keep every single time. The
+practical consequence is that these two classes should never again be triaged with one
+shared threshold.
+
+### One reclassification at translation time
+
+`#28 NATIONAL` in `fr` was triaged LEAK in Phase 1 and is a **KEEP**: `NATIONAL` is the
+same word in French, so a correct translation is byte-identical to the English. The
+deciding evidence was already in the file — `sports.fr.json` holds `'National' ->
+'National'` as a deliberate identical-keep, and the neighbouring `#4 IN 6A` → `#4 EN 6A`
+shows `fr` changes the connector, never the cognate.
+
+This is the **fifth consecutive pass** where a LEAK verdict did not survive contact with
+its locale's own siblings, and it is a class the detector is *structurally* unable to
+decide: its core test is a byte comparison, and a cognate is byte-identical to a leak. Any
+Latin-script locale sharing vocabulary with English can produce one. Written up in
+`src/data/overlays/NOTES.md`.
+
+### A measurement trap in the browser check
+
+The first `ar` probe reported 5 of 8 Arabic headings found and read as a partial failure.
+It was not — these headings are **per-school**, and three of the eight belong to Charlotte
+Christian and Davidson Day rather than the Providence Day page being probed. All three
+render on their owning pages. Check a string's `at` paths before treating a browser MISS
+as a defect.
+
+### Deviations from the plan
+
+- Phase 2 step 6 said to update the ledger "with anything Phase 2 reclassified" — done, plus
+  a section recording the closure measurements and the browser-check trap.
+- The committed worklist (`.claude/plans/capsleaks-data/`) was updated in place to mark the
+  `fr` reclassification, so the record matches what shipped rather than what was planned.
+
+### Not deployed
+
+`npm run deploy` remains the user's call.
