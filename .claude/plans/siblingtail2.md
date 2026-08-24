@@ -1,11 +1,11 @@
 ---
 name: siblingtail2
 title: Re-triage the parenthetical-modifier class the siblingtail fixes exposed — including three of siblingtail's own edits
-status: not-implemented
+status: implemented
 phases: 2
 created: 2026-08-24
 branch: i18n/sibling-tail-2
-prs: []
+prs: [203]
 ---
 
 # Re-triage the parenthetical-modifier class
@@ -295,3 +295,59 @@ Scope is the **overlay layer** (`PROSE_TRANSLATED`); see
   sibling `World Language (daily)` after Phase 1 settles.
 - **Should the class be re-measured for other topics** (`after-school`, `sports`)? —
   **default:** no. Out of scope; note it as a follow-up if the pattern looks general.
+
+## Implementation notes
+
+Both phases shipped in one PR. The build followed the plan; three things are worth
+recording because they differ from what the plan anticipated.
+
+**Phase 2 had no forward translations.** Phase 1 triaged 0 LEAK : 5 KEEP : 3 REVERT, so
+Phase 2 step 1 ("translate every row triaged LEAK") was a no-op by construction. Phase 2
+was ledger-and-verify only, exactly as `TRIAGE.md` §6 predicted. The only file changed in
+Phase 2 is `src/data/overlays/NOTES.md`.
+
+**The two detectors moved in OPPOSITE directions — the pass's most reusable finding.**
+Both were run × 9 locales before and after the reverts (a worktree at `8498278` supplied
+the pre-revert baseline):
+
+- Consensus (`i18n:leaks --min 6`): `Fine Arts (Art, Music, Drama)` **disappeared** from
+  `te`, `fa` and `it` (437 → 434 flags). PR #200's edits had pushed the string past the ≥6
+  threshold, manufacturing three holdout flags out of locales following their own settled
+  convention. This is direct confirmation that the `siblingtail` section's "four rows newly
+  exposed / probable leaks" reading was a threshold artefact.
+- Sibling (`i18n:siblings`): the three reverted rows **reappeared** as flags in `fr`/`ar`,
+  correctly, since they are English again among translated siblings. They are ledgered.
+
+`siblingtail` recorded that translating a leak exposes others; this pass records the
+converse — **reverting a wrong fix retracts the flags that fix manufactured.**
+
+**A measured residual is recorded rather than closed.** The sibling detector is fully
+ledgered (571 pairs / 127 strings, 0 untriaged, verified two ways — every string inside an
+actual table row, and every pair's locale named in its own row). The consensus detector at
+`--min 6` reports 434 pairs of which **267 are not ledgered — identically 267 before and
+after this pass**, so it is a pre-existing surface this pass neither created nor touched,
+spanning classes well outside the parenthetical-modifier scope. It is written into the
+ledger as a follow-up. Triaging it is a separate plan; neither detector was retuned.
+
+The ledger section explicitly **supersedes** the stale `siblingtail` rows that list these
+three strings as LEAKs translated in Phase 2, so a future pass reading top-to-bottom does
+not act on the overturned entries.
+
+### Verification results
+
+| Check | Result |
+|---|---|
+| `npx tsc --noEmit` | clean |
+| `npm run build` | exit 0 — all chained gates green (schema, ranks, ncsuper, live 9/9, chrome, runtime 9/9, spans, seo, compareAs) |
+| `npm run check:runtime` | ✓ all 9 locales, 11,408 entries each |
+| `npm run check:live` | ✓ all 9 locales + 70 foreign-topic blocks each |
+| `npm run check:sepdrift` × 9 | 0 drifted figure tokens in every locale |
+| `npm run check:sources` × 9 | 0 English source strings altered |
+| `npm run check:script` | ✓ script purity clean |
+| `npm run check:bidi` | ✓ 0 isolates leaked |
+| `npm run check:fr` | ✓ 11,338 strings, every frozen identifier preserved |
+| `npm run check:money` / `check:currency` | ✓ both clean |
+| `npm run i18n:siblings` × 9 | 571 pairs / 127 strings, **0 untriaged** |
+| `npm run i18n:leaks --min 6` × 9 | 434 pairs; 167 ledgered, 267 pre-existing residual (unchanged) |
+| Measurement script | `fr` and `ar` restored to HEAD-NOUN = 0 of 39 |
+| Browser (headed Chrome) | **12/12** — 3 REVERT + 4 KEEP rows render English across `fr`/`ar`/`te`/`it`/`fa`, plus 5 localization controls; both RTL locales included |
