@@ -1,7 +1,7 @@
 ---
 name: bundlesplit
 title: Split the 2.2 MB main chunk — all 11 schools' English research ships on every page
-status: in-progress
+status: not-implemented
 phases: 1
 created: 2026-08-24
 branch: perf/bundle-split
