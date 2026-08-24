@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-08-24
 branch: i18n/caps-leaks
-prs: [197]
+prs: [197, 198]
 ---
 
 # Fix the ALL-CAPS blind spot and clear the leak tail
@@ -349,3 +349,31 @@ as a defect.
 ### Not deployed
 
 `npm run deploy` remains the user's call.
+
+### Follow-up: PR #198 — the plan's step 5 was under-run
+
+**Phase 2 step 5 says to re-run BOTH detectors. The first pass ran only `i18n:leaks`.**
+Running `i18n:siblings` afterwards found **four more prose strings / 35 edits**, all
+shipped in PR #198.
+
+The gap is structural rather than an oversight in the triage, and it is the most reusable
+thing this plan produced:
+
+**The cross-locale consensus detector needs ≥6 locales to have translated a string before
+it will flag the holdouts — so a string almost every locale keeps is invisible to it. The
+more widespread the leak, the less visible it is.** `KINDERGARTEN – GRADE 5`, `GRADES 6 – 8`
+and `REQUIREMENT` were each kept in **9 of 9** locales and scored 0/9 on consensus.
+
+The within-locale sibling detector asks the complementary question — *is this string English
+while its neighbours in the same card are translated?* — and finds exactly this class.
+**Neither subsumes the other; both are required.**
+
+The grade bands are the clearest evidence: three bands in one card, every locale translating
+exactly one of them. That is not a convention.
+
+`REQUIREMENT` additionally corrected a **stale comment** in `ClubsProgram.tsx` asserting no
+school sets a flag `label` — `clubsPrograms/gaston-day.ts:72` does, and it is the only one.
+Trusting the comment would have filed a live reader-visible leak as a dead field.
+
+Final state: consensus leak class **0**, blind-spot prose class **0**, browser-verified in
+`es` and `ar` on both affected schools.
