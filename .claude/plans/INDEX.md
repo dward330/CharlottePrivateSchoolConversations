@@ -51,6 +51,6 @@ Newest last.
 | [bundlesplit](bundlesplit.md) | Split the 2.2 MB main chunk — all 11 schools' English research ships on every page | 2026-08-24 | Abandoned | [#195](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/195) |
 | [unitrevert](unitrevert.md) | Stop converting units in es — restore sq ft and feet, and delete the CONVERSIONS allowlist | 2026-08-24 | Implemented | [#194](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/194) |
 | [capsleaks](capsleaks.md) | Fix the ALL-CAPS detector blind spot, then clear both it and the remaining leak tail | 2026-08-24 | Implemented | [#197](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/197), [#198](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/198) |
-| [siblingtail](siblingtail.md) | Triage the sibling-detector findings the cross-locale threshold cannot reach | 2026-08-24 | English shipped | — |
+| [siblingtail](siblingtail.md) | Triage the sibling-detector findings the cross-locale threshold cannot reach | 2026-08-24 | Implemented | [#200](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/200) |
 | [ccwrap](ccwrap.md) | Reproduce the Charlotte Catholic CLS spike against the live site, and fix it only if it is real | 2026-08-24 | Not implemented | — |
 | [citeurls](citeurls.md) | Backfill the last four citation URLs, and correct three stale housekeeping claims | 2026-08-24 | Not implemented | — |
