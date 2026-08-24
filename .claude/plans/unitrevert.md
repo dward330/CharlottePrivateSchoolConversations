@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-08-24
 branch: i18n/unit-revert
-prs: []
+prs: [194]
 ---
 
 # Stop converting units in Spanish
