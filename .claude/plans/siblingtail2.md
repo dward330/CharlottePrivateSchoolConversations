@@ -1,7 +1,7 @@
 ---
 name: siblingtail2
 title: Re-triage the parenthetical-modifier class the siblingtail fixes exposed — including three of siblingtail's own edits
-status: not-implemented
+status: english-done
 phases: 2
 created: 2026-08-24
 branch: i18n/sibling-tail-2

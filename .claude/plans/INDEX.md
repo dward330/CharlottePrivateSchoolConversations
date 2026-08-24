@@ -54,4 +54,4 @@ Newest last.
 | [siblingtail](siblingtail.md) | Triage the sibling-detector findings the cross-locale threshold cannot reach | 2026-08-24 | Implemented | [#200](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/200) |
 | [ccwrap](ccwrap.md) | Reproduce the Charlotte Catholic CLS spike against the live site, and fix it only if it is real | 2026-08-24 | Not implemented | — |
 | [citeurls](citeurls.md) | Backfill the last four citation URLs, and correct three stale housekeeping claims | 2026-08-24 | Not implemented | — |
-| [siblingtail2](siblingtail2.md) | Re-triage the parenthetical-modifier class the siblingtail fixes exposed — including three of siblingtail's own edits | 2026-08-24 | Not implemented | — |
+| [siblingtail2](siblingtail2.md) | Re-triage the parenthetical-modifier class the siblingtail fixes exposed — including three of siblingtail's own edits | 2026-08-24 | English shipped | — |
