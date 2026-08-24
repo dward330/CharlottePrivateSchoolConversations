@@ -533,23 +533,31 @@ GPA scales (`4.33` → `4,33`), quality points (`+0.5` → `+0,5`), quintile spr
 and, worst, `1,213` AP exams rendered `1.213`, which reads as *one point two one
 three*. They predated the checker and had sat at 178 for months.
 
-**Unit conversions are NOT drift, and the checker now knows the difference.**
-`es` alone renders `53,000 sq ft` as `4.924 m²` and `6-foot-10` as `2,08 m`.
-Those tokens are absent from the English by construction, so they flagged as
-drift for months and masked the 166 real re-typings above — a checker at a
-permanent non-zero reads as broken and stops being read. `CONVERSIONS` in
-`scripts/check_sep_drift.mjs` pins each accepted pair as **token + a source
-figure that must appear in the same entry's English text**, so `4.924` is
-forgiven only where the English actually says `53,000 sq ft`; the same token
-anywhere else is still a finding. Every pair is arithmetic-verified, and both
-properties are regression-tested by hand (a genuine `4.33` → `4,33` is still
-caught; an allowlisted token moved to an unrelated entry is still caught).
+**Units are NEVER converted — settled 2026-08-24, and the `CONVERSIONS`
+allowlist is gone.** `es` alone used to render `53,000 sq ft` as `4.924 m²` and
+`6-foot-10` as `2,08 m`; the other eight locales kept the English figure. That
+one-locale state was the only indefensible option, and the question is now closed
+in the direction the rest of the project already pointed: **a figure is copied
+char-for-char from its English source, units and all**, because a parent matches
+it against the school's own published page. Charlotte Latin publishes
+"53,000 sq ft"; `4.924 m²` matches nothing a Spanish-reading parent can find.
 
-**Open content question, deliberately not settled:** whether converted units
-belong in this data *at all*. Today only `es` converts, so a French or Italian
-reader — equally metric — gets square feet while a Spanish reader gets metres.
-Either answer is defensible; the current one-locale state is the only option
-that is not. Settle it and `CONVERSIONS` moves with it.
+Deleting the allowlist **tightens** the checker rather than loosening it — with
+nothing left to forgive, any future `4.924 m²` is a finding again. Do not re-add
+one. The cost is accepted deliberately: a Spanish reader loses a genuinely useful
+conversion.
+
+**The revert found 26 converted entries, not the 17 a scan for `m²` and metres
+suggested** — because conversion was never only about area. Three whole unit
+families were invisible to that pattern: **pounds→kilograms** (wrestling weight
+classes, `175 lbs` → `79 kg`, and dumbbell loads), **acres→hectares**
+(`128-acre campus` → `52 hectáreas`) and **inches→centimetres** (a stage
+`raised 42 inches` → `107 cm`). Only 13 of the 26 ever tripped `check:sepdrift`,
+because it inspects **separator-bearing tokens only** — `502 m²` and `79 kg` have
+no separator and flagged nothing. The lesson generalises past this plan: **an
+allowlist is a lower bound on the population it forgives, never a census of it.**
+Work from a scan of the data. See `.claude/plans/unitrevert.md` and its committed
+worklist.
 
 **French has a native-speaker review.** French speakers read the rendered pages
 and accepted the prose (2026-07-30) — register, hedge strength, and the choice

@@ -47,3 +47,6 @@ Newest last.
 | [dd-lower-school-course-offerings-bug](dd-lower-school-course-offerings-bug.md) | Davidson Day Lower School — drop the "Student-to-faculty ratio" pseudo-course, fold 8:1 into the scope note | 2026-08-23 | Implemented | [#186](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/186) |
 | [leaktriage](leaktriage.md) | Triage the cross-locale English leaks — 147 leak-shaped strings, and a durable KEEPS ledger | 2026-08-23 | Implemented | [#190](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/190) |
 | [midband](midband.md) | Build the within-locale sibling detector, then triage the mid-band and what it finds | 2026-08-23 | Implemented | [#193](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/193) |
+| [leakresidual](leakresidual.md) | Clear the residual 106 cross-locale leak-shaped strings, concentrated in ar and te | 2026-08-24 | Not implemented | — |
+| [bundlesplit](bundlesplit.md) | Split the 2.2 MB main chunk — all 11 schools' English research ships on every page | 2026-08-24 | Not implemented | — |
+| [unitrevert](unitrevert.md) | Stop converting units in es — restore sq ft and feet, and delete the CONVERSIONS allowlist | 2026-08-24 | Implemented | [#194](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/194) |
