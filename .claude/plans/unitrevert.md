@@ -1,7 +1,7 @@
 ---
 name: unitrevert
 title: Stop converting units in es — restore sq ft and feet, and delete the CONVERSIONS allowlist
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-08-24
 branch: i18n/unit-revert
@@ -164,9 +164,35 @@ turns the checker into the worklist and proves when the job is done.
 deliberately left with `check:sepdrift -- --lang es` red; note that plainly in the handoff
 so it is not mistaken for a regression.
 
+### Phase 1 findings — read before starting Phase 2
+
+**The real count is 26, not 17.** Phase 1's scan (2026-08-24) found nine entries the
+plan's `m²`-and-metres pattern could not see, in three unit families the plan never
+considered:
+
+| Family | Count | Example |
+|---|---|---|
+| sq ft → m² | 15 | `53,000 sq ft` → `4.924 m²` |
+| lb → kg | 5 | `175 lbs` → `79 kg` (wrestling weight classes, dumbbell loads) |
+| acre → ha | 3 | `128-acre campus` → `52 hectáreas` |
+| ft/in → m | 2 | `6-foot-10` → `2,08 m` |
+| inch → cm | 1 | `raised 42 inches` → `107 cm` |
+
+Split by file: **sports.es.json 22, the-arts.es.json 4.**
+
+The full worklist is committed at `.claude/plans/unitrevert-data/` — `WORKLIST.md` for
+reading, `worklist.json` for scripting. Entries are keyed on `of`, the **content hash** of
+the English source, not on the array index, since indices shift on re-extraction.
+
+**`check:sepdrift --lang es` reports only 13 of the 26**, because it inspects
+separator-bearing tokens only — `502 m²`, `79 kg` and `52 hectáreas` have no separator and
+never flag. **The checker is the finish line, not the worklist.** Green at the end proves
+the 13; the other 13 must be confirmed against `WORKLIST.md` and a re-scan.
+
 ### Phase 2 — Restore the English figures
 
-1. **Edit each of the 17 `es` entries** in `src/data/overlays/work/`, replacing the
+1. **Edit each of the 26 `es` entries** (not 17 — see Phase 1 findings) in
+   `src/data/overlays/work/`, replacing the
    converted value with the English figure **copied char-for-char** from the entry's own
    `text` — `53,000 sq ft`, `5,400 sq ft`, `6'3"`. Keep the surrounding Spanish prose
    intact: `Un centro deportivo de 4.924 m² inició…` becomes
