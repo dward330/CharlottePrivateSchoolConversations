@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-08-24
 branch: i18n/sibling-tail-2
-prs: []
+prs: [203]
 ---
 
 # Re-triage the parenthetical-modifier class
