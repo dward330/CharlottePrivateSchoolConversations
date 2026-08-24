@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-08-24
 branch: i18n/caps-leaks
-prs: []
+prs: [197]
 ---
 
 # Fix the ALL-CAPS blind spot and clear the leak tail
