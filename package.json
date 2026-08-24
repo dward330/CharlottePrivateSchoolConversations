@@ -35,6 +35,7 @@
     "check:podcast": "node scripts/check_podcast_episodes.mjs",
     "check:ncsuper": "node scripts/check_nc_superlatives.mjs",
     "i18n:leaks": "node scripts/find_english_leaks.mjs",
+    "i18n:siblings": "node scripts/find_sibling_leaks.mjs",
     "check:chrome": "node scripts/check_chrome_keys.mjs",
     "check:live": "node scripts/check_live_all.mjs",
     "check:live:one": "node scripts/check_live_resolution.mjs",
