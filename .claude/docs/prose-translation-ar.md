@@ -1,6 +1,7 @@
 # Arabic (العربية) research-prose translation — rollout
 
-**Status:** **COMPLETE — data + code done, native review OPEN.** All nine prose
+**Status:** **COMPLETE AND REVIEWED** — data, code, print-out and the
+native-speaker review (2026-08-03, fix in PR #97) all done. All nine prose
 topics are 100% translated, the 385-key chrome catalog is built and validated,
 and `ar` is now in both `TRANSLATED` and `PROSE_TRANSLATED`. Every automated
 check is green (translations, figures, sep-drift, bidi, currency, money, runtime
@@ -10,7 +11,8 @@ proper-noun retentions consistent with the reviewed locales — §5). The
 two-school browser print-out was done (Providence Day 63pp, Charlotte Latin
 61pp, panels force-expanded) and the **live render is clean** — it also exposed
 a PDF-text-layer shaping artifact that is NOT a shipping defect (§6). Written and
-executed 2026-08-03. **Only the native-speaker review (§4) remains.**
+executed 2026-08-03. **The native-speaker review (§4) is DONE (2026-08-03,
+fix in PR #97) — nothing is open.**
 
 Arabic is the **tenth** language, after English, Spanish, French, Haitian
 Creole, Farsi, Bangla, Hindi, Telugu and Italian. It is the **second RTL
@@ -284,14 +286,24 @@ languages. Every prior locale carried it; carrying it keeps `ar` consistent.
 
 ---
 
-## 4. Review — OPEN
+## 4. Review — DONE (2026-08-03), fix shipped in PR #97
 
-`ar` has **no native-speaker review yet**, so it ships in Kreyòl's/Hindi's
-unreviewed position, not the reviewed position of Spanish, Bangla, Telugu, French
-and Farsi. The one failure mode no automated check reaches is §1: whether the
-register drifts toward Classical Arabic or toward a regional dialect, and whether
-any hedge softened into a claim. Soft spots are recorded per topic in
-`src/data/overlays/NOTES.md` for that pass.
+`ar` **has a native-speaker review** and ships reviewed, as every locale does.
+An Arabic speaker read the deployed pages and accepted the prose, flagging
+exactly one issue: **Charlotte** was rendered **تشارلوت** with a leading ت. In
+Arabic both "ch" and "sh" map to **ش**, so "Char-" is **شار** — the correct
+spelling is **شارلوت**, which Farsi already used. Fixed across all 11 shipped
+occurrences in [PR #97](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/97)
+(merged 2026-08-04).
+
+The failure mode this closed is §1: whether the register drifts toward Classical
+Arabic or toward a regional dialect, and whether any hedge softened into a claim.
+Soft spots remain recorded per topic in `src/data/overlays/NOTES.md` as the
+record of what was judged.
+
+**This section said "OPEN" until 2026-08-23** — the review had passed months
+earlier and the doc was never updated. If you are checking a locale's review
+status, trust `CLAUDE.md`'s i18n section over a rollout doc's header.
 
 To point a reviewer at a page: `?lang=ar` on any URL once the flip lands, e.g.
 `https://charlotteschoolinsights.com/?lang=ar#/school/providence-day`.

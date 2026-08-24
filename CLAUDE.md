@@ -290,9 +290,10 @@ grānthika/vyāvahārika and Kreyòl's French drift. It targets **मानक �
 standard of a school circular, and deliberately avoids over-Sanskritized
 शुद्ध हिन्दी (`कोर्स` not `अध्ययनक्रम`, `रिपोर्ट` not `प्रतिवेदन`). Domain loanwords are
 written in Devanagari (स्कूल, कॉलेज, ट्यूशन) while searchable identifiers stay
-Latin (`Upper School`, `GPA`, `AP`). **Hindi has NO native-speaker review yet**,
-so it ships in Kreyòl's unreviewed position — Sanskritization drift is exactly
-the class no automated check can reach. See
+Latin (`Upper School`, `GPA`, `AP`). **Hindi has a native-speaker review** — a
+Hindi speaker read the rendered pages and accepted the prose (2026-08-23),
+closing the Sanskritization-drift axis no automated check can reach. Hindi
+therefore ships in the same reviewed position as every other locale. See
 [`prose-translation-hi.md`](.claude/docs/prose-translation-hi.md).
 
 **A stale command in every prior rollout doc, found during the Hindi pass.**
@@ -316,8 +317,7 @@ two Providence Day / Charlotte Latin print-outs (2026-07-31, 64pp + 60pp, fully
 expanded) verified all of this. **Farsi has a native-speaker review** — a Persian
 speaker read the rendered pages and accepted the prose (2026-08-01), which closes
 the one failure mode no check reaches (register, naturalness, whether the prose
-over-Arabizes). Farsi therefore ships in the same reviewed position as Spanish,
-Bangla, Telugu and French, **not** Kreyòl's. See
+over-Arabizes). Farsi ships reviewed, as every locale now does. See
 [`prose-translation-fa.md`](.claude/docs/prose-translation-fa.md).
 
 **The first Farsi print-out found a print-path defect class worth remembering:
@@ -554,8 +554,7 @@ that is not. Settle it and `CONVERSIONS` moves with it.
 **French has a native-speaker review.** French speakers read the rendered pages
 and accepted the prose (2026-07-30) — register, hedge strength, and the choice
 to leave `Upper School` and `French III Honors` in English. French therefore
-ships in the same reviewed position as Spanish, Bangla and Telugu, **not**
-Kreyòl's.
+ships reviewed, as every locale now does.
 
 **Its two print-out rounds found four defects, three of them cross-locale, and
 every automated check had passed on all four.** Charlotte Latin (65pp) found a
@@ -576,17 +575,22 @@ reviewer in `src/data/overlays/NOTES.md`.
 **Telugu has a native-speaker review.** A Telugu speaker read the rendered pages
 and accepted the prose (2026-07-29). That closes the one failure mode no check in
 this repo can reach — register, naturalness, whether the wording drifts toward a
-formal/Sanskritized style a parent would not use. Telugu therefore ships in the
-same reviewed position as Spanish and Bangla, **not** in Kreyòl's.
+formal/Sanskritized style a parent would not use. Telugu ships reviewed, as
+every locale now does.
 
-**One caveat on Haitian Creole:** Spanish, Bangla, Telugu, French and Farsi have
-signed-off native-speaker reviews. Kreyòl was **accepted without one**
-(2026-07-29), so its
-register — specifically whether the prose drifts toward French — has never been
-checked by a speaker. That is the one failure mode a non-speaker structurally
-cannot catch, and it is invisible to every automated check in this repo. If a
-Kreyòl speaker becomes available, the soft-spot list in
-`src/data/overlays/NOTES.md` is written for exactly that pass.
+**Every shipped locale now has a signed-off native-speaker review.** Haitian
+Creole was the last one outstanding: it originally shipped **accepted without a
+review** (2026-07-29), leaving its register — specifically whether the prose
+drifts toward French — unchecked by a speaker. A Kreyòl speaker read the
+rendered pages and **accepted the prose (2026-08-23)**, working from the
+soft-spot list in `src/data/overlays/NOTES.md`, which was written for exactly
+that pass.
+
+That closes the one failure mode no automated check in this repo can reach —
+register, naturalness, whether the wording drifts toward a neighbouring
+language or an over-formal register. **There is no longer an "unreviewed
+position"**, so do not cite Kreyòl or Hindi as precedent for shipping one; a
+future locale is unreviewed only until its own review lands.
 
 To add a language, follow the rollout docs rather than re-deriving the method:
 [`prose-translation-bn.md`](.claude/docs/prose-translation-bn.md) is the worked

@@ -5,11 +5,12 @@ translated, `ht` is live in `TRANSLATED` / `PROSE_TRANSLATED`, all four
 print-out rounds done, both defects they found fixed and merged (PRs #59, #61).
 Print-out scaffolding removed. Written, shipped and closed 2026-07-29.
 
-**Closed without a native-speaker review.** Accepted as-is on 2026-07-29. The
-§1 register call — how far the prose drifts toward French — was therefore never
-checked by a Kreyòl speaker. It is the one defect class no checker in this repo
-can see, and unlike a rendering bug it would not announce itself. Recorded here
-so nobody later reads "COMPLETE" as "vetted".
+**NATIVE-SPEAKER REVIEW: ACCEPTED 2026-08-23.** `ht` originally closed
+*without* one on 2026-07-29 — for ~4 weeks the §1 register call (how far the
+prose drifts toward French) was unchecked by a Kreyòl speaker, the one defect
+class no checker in this repo can see. A Kreyòl speaker has now read the
+rendered pages and accepted the prose, working from the soft-spot list in
+`src/data/overlays/NOTES.md`. "COMPLETE" here now does mean vetted.
 
 > ## START HERE (fresh session)
 >
@@ -17,10 +18,12 @@ so nobody later reads "COMPLETE" as "vetted".
 >
 > ### What is left
 >
-> **Nothing blocking.** The one thing never done is a native-speaker review;
-> the rollout was accepted without it. If a Kreyòl speaker ever becomes
-> available, start with the §1 register call and the soft-spot list in
-> `src/data/overlays/NOTES.md` — that list was written for this pass.
+> **Nothing outstanding** — the native-speaker review landed 2026-08-23 and
+> accepted the prose, working from the §1 register call and the soft-spot list
+> in `src/data/overlays/NOTES.md`, which was written for exactly that pass.
+>
+> (Historical note, kept because later docs cite it: for ~4 weeks after
+> 2026-07-29 this was the repo's only locale shipped without a review.)
 >
 > ### The print-out rounds
 >
