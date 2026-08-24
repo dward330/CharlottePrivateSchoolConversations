@@ -787,7 +787,7 @@ const CHARLOTTE_CATHOLIC: ClubCatalog = {
     { name: 'Photography Club', cat: 'comm', note: 'Creates an opportunity for students to build a community of interest through exploring the world of photography — advisor Mr. Johnson, 623' },
     { name: 'Rosary Club', cat: 'comm', note: 'Foster a deeper understanding and appreciation of the peaceful grace provided through the prayer of the Holy Rosary — advisor Mrs. Friedman, 303' },
     { name: 'Smiley Note Club', cat: 'comm', note: 'Wishes to make students in the CCHS community feel welcomed and cared for by writing kind words on sticky notes - or smiley notes - that will be… — advisor Mrs. Madden, 532' },
-    { name: 'St. Augustine Club', cat: 'comm', note: 'The St — advisor Mr. Kennelly, 309' },
+    { name: 'St. Augustine Club', cat: 'comm', note: 'The St. Augustine Club inspires students to deepen their relationship with Christ through prayer and service, encouraging teens to seek truth, purpose, and a living… — advisor Mr. Kennelly, 309' },
     { name: 'Achievers Club', cat: 'cult', note: 'Create an intentional space for sharing among Black students and other students at Charlotte Catholic — advisor Dr. Sigwald, 225' },
     { name: 'Asian American Pacific Islander Club', cat: 'cult', note: 'Is a club that allows students who are interested in or share an Asian-American Pacific Islander ethnic background and the Catholic faith — advisor Mr. Pham, Library' },
     { name: 'German Club', cat: 'cult', note: 'Works to promote the German language and culture through educational meetings, events, and service projects — advisor Mrs. Schmid-Rankin, 527' },
