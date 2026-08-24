@@ -588,9 +588,16 @@ that pass.
 
 That closes the one failure mode no automated check in this repo can reach —
 register, naturalness, whether the wording drifts toward a neighbouring
-language or an over-formal register. **There is no longer an "unreviewed
-position"**, so do not cite Kreyòl or Hindi as precedent for shipping one; a
-future locale is unreviewed only until its own review lands.
+language or an over-formal register.
+
+**One locale is still unreviewed: Italian.** `it` ships in both `TRANSLATED`
+and `PROSE_TRANSLATED` and has no native-speaker review and no rollout doc of
+its own — so it, not Kreyòl, is now the standing example. Do not cite Kreyòl or
+Hindi as the unreviewed precedent; both are closed. Its register axis was never
+written down, which is itself a gap: every other locale recorded one before
+shipping (Bangla's Dhaka/Kolkata, Kreyòl's French drift, Telugu's
+grānthika/vyāvahārika, Hindi's Sanskritization). A reviewer would be starting
+without an agenda.
 
 To add a language, follow the rollout docs rather than re-deriving the method:
 [`prose-translation-bn.md`](.claude/docs/prose-translation-bn.md) is the worked
