@@ -1353,10 +1353,15 @@ reviewer disagrees.
 
 # Arabic (`ar`) — soft-spots for a native-speaker review
 
-Arabic ships **unreviewed by a native speaker** (like Kreyòl and Hindi at their
-launch). The prose passed every automated check and a two-school browser
-print-out, but register and naturalness are exactly what no check in this repo
-reaches. This block is written for whoever reviews it.
+**REVIEWED AND ACCEPTED 2026-08-03** (fix shipped as PR #97). An Arabic speaker
+read the deployed pages and accepted the prose, flagging one issue: *Charlotte*
+was rendered تشارلوت with a leading ت; the correct spelling is شارلوت, which
+Farsi already used. This block is kept as the record of what was judged — it was
+written as the reviewer's agenda and served that purpose.
+
+(This section said "ships unreviewed" until 2026-08-23, months after the review
+actually passed. When a rollout doc and `CLAUDE.md` disagree on review status,
+trust `CLAUDE.md`.)
 
 ## The one thing most likely to be reported as a bug — and is not
 
