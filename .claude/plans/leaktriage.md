@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-08-23
 branch: i18n/leak-triage
-prs: []
+prs: [190]
 ---
 
 # Triage the cross-locale English leaks
