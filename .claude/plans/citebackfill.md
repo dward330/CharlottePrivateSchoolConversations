@@ -4,184 +4,302 @@ title: Backfill deep-link URLs for the name-only Sports and Student Clubs citati
 status: not-implemented
 phases: 1
 created: 2026-08-24
+revised: 2026-08-24
 branch: chore/citebackfill
 prs: []
 ---
 
 # Backfill the name-only research citations
 
+> **This plan was rewritten on 2026-08-24 after a measurement pass.** The first
+> version's counts were wrong and its central premise — that the URLs must be
+> re-found on the web — was wrong too. No code shipped from that pass; the branch
+> was deleted and the tree reverted. Everything below is measured, and the
+> measurements are reproducible from committed scripts. See
+> [Superseded numbers](#superseded-numbers) for what changed and why, so a fresh
+> window does not re-derive it.
+
 ## Goal
 
-The distilled research notes under `.claude/docs/sports/` and `.claude/docs/student-clubs/`
-cite sources **by name only** — `[Source: Charlotte Christian Knights Accolades page]` — with
-no URL. A researcher cannot re-verify a claim without re-finding the page from scratch.
+The distilled research notes under `.claude/docs/sports/` and
+`.claude/docs/student-clubs/` cite sources **by name only** —
+`[Source: Charlotte Christian Knights Accolades page]` — with no URL. A researcher
+cannot re-verify a claim without re-finding the page from scratch.
 
-We will know it worked when each of those citations carries a resolvable deep-link URL, and
-when re-running the ingest pipeline does not erase the work.
+We will know it worked when each cite in the schools we take on carries a
+resolvable deep-link URL **or an honest `unresolved`**, and when re-running the
+ingest pipeline does not erase the work.
 
-**Read the Context section before step 1.** This plan is not the find-and-replace the
-outstanding-items list implied, and the reason changes the approach.
+**Scope is deliberately two schools, not all nine.** See
+[Why this is scoped small](#why-this-is-scoped-small).
 
 ## Context
 
-### The count is 179 + 53, not 111 + 45
+### The real numbers
 
-Measured 2026-08-24:
+Measured 2026-08-24 by `.claude/plans/citebackfill-data/count_cites.py`, which is
+committed so this is re-runnable rather than trusted:
 
-| Topic | Cites with a URL | Name-only |
+| Topic | Name-only cites | Distinct named sources |
 |---|---|---|
-| `sports` | 1 | **179** |
-| `student-clubs` | 19 | **53** |
+| `sports` | **279** | 281 |
+| `student-clubs` | **101** | 75 |
+| **Total** | **380** | **356** (topic-scoped pairs; 281 + 75) |
 
-The `111 + 45` figure in the project memory is **wrong** — it appears to have been recorded
-after a partial pass, or measured with a narrower pattern. Re-measure as step 1 rather than
-trusting either number; the command is in the steps below. For contrast, `the-arts` already
-has 68 cites carrying URLs, so a well-cited topic is what this should look like.
+Per school+topic — only nine of the twenty-two files have any name-only cites at
+all, which is what makes a partial pass coherent:
 
-### The critical constraint: these files are GENERATED from gitignored PDFs
+| File | Cites | Distinct |
+|---|---|---|
+| `sports/providence-day` | 84 | 106 |
+| `sports/cannon` | 67 | 59 |
+| `sports/charlotte-latin` | 54 | 47 |
+| `sports/charlotte-christian` | 50 | 42 |
+| `sports/charlotte-country-day` | 24 | 49 |
+| `student-clubs/charlotte-latin` | 33 | 29 |
+| `student-clubs/providence-day` | 27 | 13 |
+| `student-clubs/charlotte-country-day` | 21 | 23 |
+| `student-clubs/charlotte-christian` | 20 | 10 |
 
-`.claude/docs/**` is rebuilt by `.claude/skills/ingest-source-material/build_docs.py`, which
-is a **verbatim `pdfplumber` text extraction** (lines 93-98) of the raw files in
-`source-material/<topic>/<school>/`. The `[Sources: …]` strings originate **inside the PDFs**.
+(Distinct can exceed cites: one cite may name several sources separated by `;`.)
 
-Verified: the string `Sources: Charlotte Christian; NBA.com` appears in
-`.claude/docs/sports/charlotte-christian.md` and in **no committed file** under
-`source-material/` — because that school's Sports material is nine `.pdf` files and only two
-`.md` files, and per `.gitignore` the PDFs are read locally and never committed.
+### The URLs are ALREADY IN THE REPO
 
-Two consequences that drive the whole plan:
+This is the finding that changes the approach. The first version of this plan
+concluded that because the `[Sources: …]` strings originate inside gitignored
+PDFs, the URLs had to be re-found on the web. But **the same PDFs also emit a
+per-section `Source List` block**, a few lines below the cite, holding the URLs:
 
-1. **Editing the generated `.md` files directly is worthless** — the next
-   `build_docs.py <topic>` run silently reverts every edit. Any approach that ends with
-   "add the URL to `.claude/docs/sports/cannon.md`" is wrong.
-2. **The upstream is not editable either**, for the PDF-backed schools. The source of truth
-   is a binary this repo deliberately does not commit.
+```
+The Athletic Performance program is a four-time recipient of the NSCA's Strength
+of America Award. [Source: Charlotte Christian Athletic Performance page]
+...
+Source List
+(cid:127) Charlotte Christian — Athletic Performance (4x Strength of America) —
+https://www.charlottechristian.com/athletics/athletic-performance
+```
 
-### What this is actually worth
+`.claude/plans/citebackfill-data/harvest_urls.py` pulls these out: **384 labelled
+URLs** in `sports` and **495** across both topics. So the dominant task is **associating a cited name
+with a URL already sitting in the same file**, and the web is only needed for the
+remainder.
 
-`.claude/docs/**` is **researcher-facing only**. Confirmed: nothing under `src/` reads those
-files — the three `grep` hits are comments *referencing* doc filenames, not code loading
-them. The app's own citations are separate and are **already done**: `src/data/**` measured
-765 URLs against 35 URL-less entries, all 35 legitimate methodology notes, 0 genuine gaps
-(`citeurls`, PR #206).
+The constraint from the original plan still holds and still drives the output
+location: `.claude/docs/**` is regenerated by `build_docs.py` from the raw
+`source-material/` files, so **editing those `.md` files is worthless** — the next
+ingest reverts it. The sidecar decision below is unchanged.
 
-So no link on any school page is broken today, and none will render differently after this
-plan. The benefit is re-verifiability of the research record.
+### Two extraction traps that produce dead URLs
 
-### The cites are mostly resolvable
+Both bit the measurement pass. They are encoded in `harvest_urls.py`; do not
+re-derive them by hand-copying URLs out of the docs.
 
-Sampled from `sports`, the most common shapes are named school pages
-(`[Source: Charlotte Christian Knights Accolades page]`, `[Source: clshawks.com Staff
-Directory]`, `[Source: charlottelatin.org Hall of Fame]`) and named third parties
-(`Pro-Football-Reference`, `HighSchoolOT`, `On3`). These are findable. A minority
-(`[Sources: On3; Lewis Brisbois sports-law analysis]`) name an analysis rather than a page
-and may resolve to nothing — that is a real outcome, see the decisions below.
+1. **pdfplumber wraps a long URL across lines.** The continuation must be
+   rejoined or you get a truncated 404.
+2. **A naive URL regex drops the trailing `)`** of a Wikipedia disambiguation
+   slug. `..._(basketball` 404s; `..._(basketball)` returns 200.
+
+### What the harvested URLs are actually worth
+
+All 122 URLs matched to a cite were live-probed on 2026-08-24. Full record:
+`.claude/plans/citebackfill-data/probe-2026-08-24.txt`.
+
+| Status | Count | Reading |
+|---|---|---|
+| 200 | 101 | good |
+| 403 | 7 | **bot-block on a live page** — On3, WCNC, Pro-Football-Reference, FloWrestling. Status `ok`, not `unresolved`. |
+| 404 | 12 | mostly `pdschargers.com`, which restructured |
+| 410 | 1 | SI.com, gone |
+| 406 | 1 | FloWrestling, bot-block |
+
+**A 403 is not a dead link.** Several of these sites block `curl` while serving
+the page fine in a browser. Recording them `unresolved` would be a false negative.
+
+Wayback recovers some of the 404/410 set via the CDX API. `pdschargers.com` team
+pages are largely **unarchived** — a genuine `unresolved`, confirmed by CDX prefix
+listing rather than guessed. Note the CDX endpoint **rate-limits aggressively**:
+serialise those lookups with a delay, and treat a connection failure as *retry*,
+never as *not archived*. A silent CDX failure that reads as `unresolved` is the
+exact error this plan is trying not to make.
+
+### Automated matching CANNOT close this — do not try
+
+A token-overlap matcher was built and tuned during measurement. It looks
+convincing and it is not safe:
+
+| Threshold | "Resolves" | Reality |
+|---|---|---|
+| 0.5 | 71% | riddled with errors |
+| 0.9 | 31% | still wrong on bare names |
+
+Real mismatches it produced at a loose threshold:
+
+- `Charlotte Observer` → a **Yahoo Sports** URL
+- `247Sports "2025 Top Football Recruits"` → a **MaxPreps** rankings story
+- `HighSchoolOT girls lacrosse coverage, 2026` → a **wrestling** results story
+- two *different* Country Day clubs → the **same** `newsid`
+
+Even at 1.0, bare names like `MaxPreps` and `charlottelatin.org` match many URLs
+equally well, so the top score is arbitrary. **The matcher is an ordering aid at
+best.** Every row is a human judgment call; a script may propose, never decide.
+
+### ~70 cites can never resolve, by construction
+
+**~70 of the 356 distinct sources** are a bare brand name or a cross-reference:
+`Duke athletics`, `staff pages`, `college rosters`, `as cited below`,
+`as cited per entry below`, `247Sports`. These name a site or a pointer, not a
+page. (That 70 is a heuristic estimate, not an exact set — treat it as the order
+of magnitude to expect, not a target to hit.)
+They are `unresolved` and that is the correct, final answer for them. Writing a
+plausible URL into those rows is precisely the failure mode this plan exists to
+avoid.
+
+## Why this is scoped small
+
+The first version scoped all nine files in one pass, on numbers that were 40% low.
+At 380 cites / 356 distinct sources, each needing judgment, that is a very large
+single pass whose output format has never been reviewed by anyone.
+
+So: **prove the sidecar format on two files, then stop and get it reviewed.** The
+original plan's own risk table already argued for this — a partial pass should be
+"a smaller set of complete files, not one incomplete file."
+
+The two chosen are `sports/charlotte-latin` and `sports/charlotte-christian`,
+because they have the **highest in-repo URL density** (47 and 42 distinct sources
+against 55 and 52 harvested URLs), so they exercise the association path hardest
+while needing the least web research. They also include real `unresolved` cases
+(the WCNC 403, the SI.com 410), so the format gets tested against every status
+value rather than only the happy path.
+
+Country Day is deliberately **not** in Phase A: its cites are long methodology
+notes rather than page names, which is a different problem worth seeing separately.
 
 ## Decisions
 
-- **Write the URLs into a NEW committed sidecar per school+topic, not into `.claude/docs/`.**
-  The generated notes are not a durable home. Create
-  `source-material/<topic>/<school>/<School> - <Topic> - Source URLs.md` — a committed `.md`
-  (the `.gitignore` exempts `source-material/**/*.md`), holding a table of
-  `cited name → resolved URL → date checked → status`. This survives regeneration, sits
-  beside the material it documents, and follows the existing data-provenance standard.
-- **Do not modify `build_docs.py` to merge the sidecar into the generated notes.** That
-  couples the generator to a new file format for a researcher-only benefit, and this repo has
-  a standing lesson about generated docs drifting from hand-maintained layers. If the merge
-  is ever wanted, it is its own plan.
-- **A cite that cannot be resolved is recorded as `unresolved`, never guessed.** Per the
-  `citeurls` risk that carried over: an invented URL is worse than no URL. A confirmed
-  "no public page" is a useful result and gets written down as one.
-- **Scope to `sports` and `student-clubs`.** `college-support` (0 with URLs) and
-  `after-school` (0) have the same shape and are deliberately left; see Out of scope.
-- **Use the Wayback CDX API to list a domain's archived URLs rather than guessing filenames.**
-  This is the technique that resolved the `citeurls` profile after a prior pass wrongly
-  concluded it was unpublished — see the `not-published-needs-a-cdx-listing` memory. Never
-  conclude "not published" from filename guesses returning 404.
+Carried forward from the original plan, all still correct:
+
+- **Write the URLs into a NEW committed sidecar per school+topic, not into
+  `.claude/docs/`.** Create
+  `source-material/<topic>/<school>/<School> - <Topic> - Source URLs.md` — a
+  committed `.md` (`.gitignore` exempts `source-material/**/*.md`). This survives
+  regeneration, sits beside the material it documents, and follows the existing
+  data-provenance standard.
+- **Do not modify `build_docs.py`** to merge the sidecar into the generated notes.
+  If that merge is ever wanted, it is its own plan.
+- **A cite that cannot be resolved is recorded as `unresolved`, never guessed.**
+- **Use the Wayback CDX API** to list a domain's archived URLs rather than
+  guessing filenames (`not-published-needs-a-cdx-listing`).
+
+New, from the measurement pass:
+
+- **Build each sidecar from the in-repo harvest first**, then research only the
+  remainder. Reversing that order wastes most of the effort.
+- **A 403/406 on a known bot-blocking host is `ok`**, with the status noted. Do
+  not downgrade a live page to `unresolved` because `curl` was refused.
+- **A script may propose a URL; a human decides every row.** No threshold is safe
+  enough to auto-fill.
+- **`unresolved` is a first-class result and gets reported as a count**, not
+  softened or padded.
 
 ## Approvals needed
 
-**None.** No new card, section, stat tile, Compare row, metric key or topic. Nothing under
-`src/` changes and no rendered output changes.
+**None.** No new card, section, stat tile, Compare row, metric key or topic.
+Nothing under `src/` changes and no rendered output changes.
 
 ## Source material
 
-This plan **creates** committed source-material files: one
-`<School> - <Topic> - Source URLs.md` per school+topic that has name-only cites. They are
-new provenance records, not new research data, so there is nothing to ingest — but see
-step 6, which confirms that claim rather than assuming it.
+Creates committed provenance records under `source-material/`, one per
+school+topic. They are not new research data, so there is nothing to ingest — but
+step A6 confirms that rather than assuming it.
 
 ## Out of scope
 
-- **`college-support` and `after-school` cites.** Same defect, deliberately not in this pass
-  — do them as a follow-up once the sidecar format has proven itself on two topics.
-- **Editing `.claude/docs/**` directly.** Explicitly forbidden; regeneration reverts it.
-- **Changing `build_docs.py`.** See Decisions.
-- **`src/data/**` citations.** Already complete (PR #206). Do not re-open them.
-- **Re-verifying the underlying research claims.** This plan resolves *where a claim came
-  from*, not whether it is correct.
+- **The other seven school+topic files.** Phase B, after the format is reviewed.
+- **`college-support` and `after-school` cites.** Same defect, later pass.
+- **Editing `.claude/docs/**` directly.** Regeneration reverts it.
+- **Changing `build_docs.py`.**
+- **`src/data/**` citations.** Already complete (PR #206). Do not re-open.
+- **Re-verifying the underlying research claims.** This resolves *where a claim
+  came from*, not whether it is correct.
 
 ## Steps
 
-**Single-phase — adds no user-facing text.** Everything written here is researcher-facing
-provenance under `source-material/`; nothing reaches `src/` or any rendered page.
+**Single-phase — adds no user-facing text.** Everything written is
+researcher-facing provenance under `source-material/`; nothing reaches `src/` or
+any rendered page. (The A/B split below is a review checkpoint, not the
+English-then-translate phase split.)
 
-1. **Re-measure, and do not trust this document's numbers.** Run:
+### Phase A — two sidecars, then STOP for review
 
-   ```bash
-   for t in sports student-clubs; do
-     printf '%s name-only: ' "$t"
-     grep -roh "\[Sources\?:[^]]*\]" .claude/docs/$t/*.md | grep -vc http
-   done
-   ```
+1. **Re-measure.** Run `python3 .claude/plans/citebackfill-data/count_cites.py`.
+   Expect 279 / 101. **Do not use a single-line `grep`** — it reports 179/53 by
+   missing every wrapped cite. If the numbers differ from 279/101, the docs
+   changed; report before proceeding.
 
-   Expect ~179 and ~53. If the counts differ materially from both those and the memory's
-   `111/45`, stop and report before doing the work — a third number means something else
-   is going on.
+2. **Harvest the in-repo URLs.**
+   `python3 .claude/plans/citebackfill-data/harvest_urls.py sports > <scratch>/urls.tsv`
+   Expect 384 for `sports`, 495 across both topics.
 
-2. **Build the worklist**, grouped by school and topic, with each cite's source file and
-   line. Write it to the scratchpad, not the repo. De-duplicate: the sample shows
-   `[Source: Cannon Athletics Hall of Fame]` recurring 5+ times, so the number of *distinct*
-   sources to resolve is well below the raw cite count — resolve each distinct source once.
+3. **For `charlotte-latin` and `charlotte-christian` sports**, build the worklist
+   of distinct cited sources and pair each against the harvest **by hand**, using
+   any matcher output only to order the candidates. Scratchpad, not the repo.
 
-3. **Resolve each distinct source to a deep-link URL.** Prefer the school's own live page;
-   fall back to a Wayback capture when the page has moved, using the CDX listing technique
-   rather than filename guesses. Record the HTTP status actually observed. For a
-   third-party cite (`Pro-Football-Reference`, `HighSchoolOT`, `On3`), link the specific
-   page supporting the claim, not the site root.
+4. **Resolve the remainder.** School's own live page first; Wayback CDX when it
+   has moved. Record the HTTP status actually observed. For a third-party cite,
+   link the specific page supporting the claim, not the site root. Serialise CDX
+   calls with a delay and retry on connection failure.
 
-4. **Write one sidecar per school+topic** at
-   `source-material/<topic>/<school>/<School> - <Topic> - Source URLs.md`, each with a
-   provenance header (who/when/how, per the data-provenance standard) and a table:
+5. **Write the two sidecars** at
+   `source-material/sports/<school>/<School> - Sports - Source URLs.md`, each with
+   a provenance header (who/when/how) and:
 
    | Cited as | URL | Checked | Status |
    |---|---|---|---|
 
-   `Status` is `ok`, `wayback`, or `unresolved`. Every row is one of those three — no blanks.
+   `Status` ∈ `ok` | `wayback` | `unresolved`. Every row is one of the three — no
+   blanks. For a bot-blocked host, `ok` with a note (e.g. `ok (403 to curl)`).
 
-5. **Report the unresolved set explicitly** in the PR body, with a count and the reason each
-   failed. Do not soften it and do not pad the table with guessed URLs; a confirmed
-   "no public page" is the useful half of this work.
+6. **Confirm the sidecars are inert.** Run `build_docs.py` for `sports`, then
+   `npm run check:metrics`. Assert `git diff --stat .claude/docs/` is **empty**,
+   and that no new "on disk but not ingested" advisory appears. A new advisory
+   means the sidecar filename collides with the ingest glob and the naming must
+   change — say so rather than working around it.
 
-6. **Confirm the sidecars are inert.** Run `build_docs.py` for both topics and then
-   `npm run check:metrics`. Assert two things: the generated `.claude/docs/**` notes are
-   **unchanged** (`git diff --stat` shows nothing under `.claude/docs/`), and the new files
-   produce no new "on disk but not ingested" advisory beyond the known-benign ones. If they
-   *do* trigger a new advisory, say so — that would mean the sidecar name pattern collides
-   with the ingest glob and the naming needs changing.
+7. **STOP.** Open the PR for these two files and report: the resolved count, the
+   `unresolved` count with a reason each, and the format itself. **Phase B does
+   not start until the user has reviewed a real sidecar.** The point of the small
+   scope is that the format is cheap to change now and expensive to change across
+   nine files.
+
+### Phase B — the remaining seven, after review
+
+8. Apply the reviewed format to the other seven files, in descending order of
+   in-repo density: `sports/providence-day`, `sports/cannon`,
+   `student-clubs/charlotte-latin`, `student-clubs/providence-day`,
+   `student-clubs/charlotte-christian`, `student-clubs/charlotte-country-day`,
+   `sports/charlotte-country-day` (last — its cites are methodology notes, a
+   different shape).
+
+9. Re-run step 6's inertness check across both topics.
 
 ## Verification
 
-- [ ] Step 1's re-measure recorded, and any divergence from 179/53 reported
-- [ ] Every distinct cited source appears in exactly one sidecar row
-- [ ] Every row has a `Status` of `ok`, `wayback` or `unresolved` — no blank cells
-- [ ] A spot-check of **10 random `ok` URLs** returns HTTP 200 and actually shows the cited
-      content (a 200 on a redirect-to-homepage is not a resolution)
+Phase A:
+
+- [ ] `count_cites.py` re-run and its output recorded; any divergence from
+      279/101 reported
+- [ ] Every distinct cited source in the two files appears in exactly one row
+- [ ] Every row has `ok`, `wayback` or `unresolved` — no blank cells
+- [ ] A spot-check of **10 random `ok` URLs** returns 200 **and actually shows the
+      cited content** — a 200 that redirected to a homepage is not a resolution
+- [ ] Every `unresolved` row states *why* (no public page / unarchived / names a
+      site not a page)
+- [ ] No row was filled by an automated match without a human confirming it
 - [ ] `git diff --stat .claude/docs/` after re-running `build_docs.py` — **empty**
 - [ ] `npm run check:metrics` — no new advisories
-- [ ] `npx tsc --noEmit` and `npm run build` — clean; nothing under `src/` was touched, so
-      these should be unaffected, and a change here means something went wrong
-- [ ] The unresolved count stated plainly in the PR body
+- [ ] `npx tsc --noEmit` and `npm run build` — clean. Nothing under `src/` is
+      touched, so a change here means something went wrong.
+- [ ] The `unresolved` count stated plainly in the PR body
 
 No browser check: nothing rendered changes.
 
@@ -189,7 +307,27 @@ No browser check: nothing rendered changes.
 
 | Risk | Mitigation |
 |---|---|
-| **URLs get written into `.claude/docs/**` out of habit**, and the next ingest silently erases the whole pass. | Step 6 asserts `git diff` on that directory is empty. The Decisions section states the constraint up front, and Out of scope forbids it explicitly. |
-| **A URL is guessed to close a row.** | Step 3 requires an observed HTTP status; `unresolved` is a first-class outcome. Same discipline as `citeurls`, where inventing a URL would have hidden three-year-old figures. |
-| **The work is large and half-finishes**, leaving a partial sidecar that reads as complete. | Sidecars are per school+topic, so a partial pass is a *smaller set of complete files*, not one incomplete file. If stopping early, list the unwritten school+topic pairs in the PR. |
-| **The 179/53 count is itself wrong**, as the memory's 111/45 was. | Step 1 re-measures first and stops on a third number rather than proceeding on a bad denominator. |
+| **A URL is guessed to close a row.** | Step 4 requires an observed status; `unresolved` is first-class. The ~70 bare-name cites are expected to stay unresolved — a low unresolved count is a warning sign, not a win. |
+| **An automated matcher is trusted** because it looks convincing. | Measured error examples are in Context; a script may only propose. |
+| **A bot-block is misread as a dead link.** | The 7 known 403/406 hosts are listed; verify in a browser before writing `unresolved`. |
+| **A CDX rate-limit is misread as "not archived."** | Serialise with a delay; a connection failure is a retry, never a result. |
+| **URLs get written into `.claude/docs/**` out of habit**, and the next ingest erases the pass. | Step 6 asserts `git diff` on that directory is empty. |
+| **The format proves wrong after nine files are written.** | Phase A is two files and a hard stop. |
+| **A truncated URL is copied out of the docs** and 404s. | Use `harvest_urls.py`, which handles both extraction traps. |
+
+## Superseded numbers
+
+Recorded so a later window does not "correct" this plan back to the old figures:
+
+| Claim (original plan) | Actual | Why it was wrong |
+|---|---|---|
+| `sports` 179 name-only | **279** | its `grep` was line-scoped; ~148 cites wrap across lines |
+| `student-clubs` 53 name-only | **101** | same |
+| memory's `111 + 45` | **380 total** | recorded after a partial pass |
+| `sports` has 1 cite with a URL | **0 inline** | the URLs are in `Source List` blocks, not inline in the cite |
+| `the-arts` has 68 cites carrying URLs | **0 inline** | `the-arts` has no inline `[Source: ]` cites at all; 4 of its 11 files carry a `## Source URLs` table — a *different* shape, not a well-cited version of this one |
+| "the upstream is not editable, so the URLs must be re-found" | **495 URLs already in-repo** (384 in `sports`) | the PDFs emit the cite *and* a per-section Source List |
+
+The `the-arts` correction matters: it was cited as the model to imitate. It is not
+the same structure, so "make sports look like the-arts" is not the goal — the
+sidecar is.
