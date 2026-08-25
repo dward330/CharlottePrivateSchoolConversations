@@ -483,17 +483,17 @@ export const VALUE_METRICS: ValueMetric[] = [
     // in the row is identical — true today, but luck rather than logic.
     compareAs: 'fraction',
     values: {
-      cannon: '43 / 68', // buckets, collegeSupportPrograms/cannon.ts
-      'charlotte-christian': '34 / 68', // buckets, collegeSupportPrograms/charlotte-christian.ts
+      cannon: '52 / 68', // buckets, collegeSupportPrograms/cannon.ts
+      'charlotte-christian': '40 / 68', // buckets, collegeSupportPrograms/charlotte-christian.ts
       'charlotte-catholic': '39 / 68', // against the 68-member Power Four roster in _shared/; 40 list rows carry the tag but the two Arizona State campuses are one institution
-      'charlotte-country-day': '53 / 68', // buckets, collegeSupportPrograms/charlotte-country-day.ts
-      'charlotte-latin': '53 / 68', // buckets, collegeSupportPrograms/charlotte-latin.ts (researcher’s exact count was 62; table shows 53 / 68)
+      'charlotte-country-day': '61 / 68', // buckets, collegeSupportPrograms/charlotte-country-day.ts
+      'charlotte-latin': '61 / 68', // buckets, collegeSupportPrograms/charlotte-latin.ts
       'covenant-day': '46 / 68', // ACC 14 · SEC 12 · Big Ten 11 · Big 12 9 (worked in the dossier)
       'carmel-christian': '44 / 68', // distinct Power Four members in the cats list (45 rows, but Alabama appears twice — bare and as Tuscaloosa — and the list deliberately preserves the school's verbatim duplicates)
-      'davidson-day': '42 / 68', // buckets, collegeSupportPrograms/davidson-day.ts
-      'hickory-grove-christian': '24 / 68', // buckets, collegeSupportPrograms/hickory-grove-christian.ts (UConn excluded — Big East)
-      'gaston-day': '36 / 68', // against the 68-member Power Four roster in _shared/
-      'providence-day': '57 / 68', // buckets, collegeSupportPrograms/providence-day.ts
+      'davidson-day': '45 / 68', // buckets, collegeSupportPrograms/davidson-day.ts
+      'hickory-grove-christian': '25 / 68', // buckets, collegeSupportPrograms/hickory-grove-christian.ts (UConn excluded — Big East)
+      'gaston-day': '43 / 68', // against the 68-member Power Four roster in _shared/
+      'providence-day': '65 / 68', // buckets, collegeSupportPrograms/providence-day.ts
     },
     quals: {
       'charlotte-catholic': {
@@ -539,7 +539,7 @@ export const VALUE_METRICS: ValueMetric[] = [
       'charlotte-christian': '10 / 107', // buckets, collegeSupportPrograms/charlotte-christian.ts
       'charlotte-catholic': '2 / 107', // Hampton University, Benedict College
       'charlotte-country-day': '18 / 107', // buckets, collegeSupportPrograms/charlotte-country-day.ts
-      'charlotte-latin': '6 / 107', // buckets, collegeSupportPrograms/charlotte-latin.ts
+      'charlotte-latin': '7 / 107', // buckets, collegeSupportPrograms/charlotte-latin.ts
       'covenant-day': '3 / 107', // Fayetteville State, Johnson C. Smith, NC A&T (NC A&T bold/matriculated)
       'carmel-christian': '8 / 107', // Hampton, Howard, NC A&T, NC Central, Norfolk State, SC State, WSSU, FAMU
       'davidson-day': '3 / 107', // buckets, collegeSupportPrograms/davidson-day.ts

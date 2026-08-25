@@ -22,6 +22,13 @@
  * does not assert a National/LAC rank. Any p4 college that also holds a rank is
  * in the master and renders its label anyway.
  *
+ * COVERAGE (fixed 2026-08-25): the school list is read from the directory, not
+ * hardcoded. It used to be a literal array of 9 entries, so the two schools added
+ * after it was written — `gaston-day` and `hickory-grove-christian` — were never
+ * checked, and the gate reported success over 9 of 11 schools. Nothing said so;
+ * a green line read as full coverage. Never reintroduce a hardcoded school list
+ * here: adding a school must extend this check automatically.
+ *
  * Runs under plain Node (24+ type stripping): the data modules and the master
  * use type-only imports, so they import cleanly here.
  *
@@ -30,17 +37,30 @@
 
 const RANKED = new Set(['ivy', 'ivyplus', 'nu75', 'lac75'])
 
-const SCHOOLS = [
-  ['cannon', () => import('../src/data/collegeSupportPrograms/cannon.ts')],
-  ['carmel-christian', () => import('../src/data/collegeSupportPrograms/carmel-christian.ts')],
-  ['charlotte-catholic', () => import('../src/data/collegeSupportPrograms/charlotte-catholic.ts')],
-  ['charlotte-christian', () => import('../src/data/collegeSupportPrograms/charlotte-christian.ts')],
-  ['charlotte-country-day', () => import('../src/data/collegeSupportPrograms/charlotte-country-day.ts')],
-  ['charlotte-latin', () => import('../src/data/collegeSupportPrograms/charlotte-latin.ts')],
-  ['covenant-day', () => import('../src/data/collegeSupportPrograms/covenant-day.ts')],
-  ['davidson-day', () => import('../src/data/collegeSupportPrograms/davidson-day.ts')],
-  ['providence-day', () => import('../src/data/collegeSupportPrograms/providence-day.ts')],
-]
+// Every non-locale school file in the directory. Read from disk rather than
+// hardcoded: a hardcoded list silently stops covering schools added after it was
+// written, which is exactly what happened here — `gaston-day` and
+// `hickory-grove-christian` were added later and went unchecked, so this gate
+// was quietly verifying 9 of 11 schools. (Found 2026-08-25 while adding
+// check:buckets, which reads the directory for this reason.)
+const LOCALE_RE = /\.(es|bn|ht|te|fr|fa|it|hi|ar)\.ts$/
+const DIR = new URL('../src/data/collegeSupportPrograms/', import.meta.url)
+
+let SCHOOLS
+try {
+  const { readdirSync } = await import('node:fs')
+  SCHOOLS = readdirSync(DIR)
+    .filter((f) => f.endsWith('.ts') && !LOCALE_RE.test(f))
+    .sort()
+    .map((f) => [f.replace(/\.ts$/, ''), () => import(new URL(f, DIR).href)])
+} catch (e) {
+  console.error(`check:ranks — cannot read collegeSupportPrograms/: ${e.message}`)
+  process.exit(2)
+}
+if (SCHOOLS.length === 0) {
+  console.error('check:ranks — no school files found; the data directory moved or is empty')
+  process.exit(2)
+}
 
 // Labels resolve from the single-source master (src/data/collegeRankings.ts).
 // Because one institution has exactly one row there, cross-school label
@@ -136,5 +156,6 @@ if (missing || drift) {
   process.exit(1)
 }
 console.log(
-  'check:ranks — every ranked-bucket college resolves in the master, and the master agrees with the _shared doc (single source)',
+  `check:ranks — every ranked-bucket college in all ${SCHOOLS.length} schools resolves in ` +
+    'the master, and the master agrees with the _shared doc (single source)',
 )

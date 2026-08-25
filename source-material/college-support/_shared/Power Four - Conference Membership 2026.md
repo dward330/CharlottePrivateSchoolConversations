@@ -100,3 +100,28 @@ total to 68.
 The rest of the College Support card is scored against the **2026 U.S. News** tables, so
 64 was inconsistent with its own card. It was reconciled to 68 in the
 `bucket-denominators` change; see that plan for the numerator treatment.
+
+
+## Machine-readable master, 2026-08-25
+
+The roster above is now also carried as code at `src/data/collegeMemberships.ts`
+(`POWER_FOUR`), which is what the `p4` bucket tags are checked against by
+`npm run check:memberships`. The two are one source of truth in two forms; add a member
+to both.
+
+The code master reproduces this file's counts exactly — ACC 18, SEC 16, Big Ten 18,
+Big 12 16, total **68**, Notre Dame included. Covenant Day's published breakdown
+(`14 ACC · 12 SEC · 11 Big Ten · 9 Big 12`) was re-derived from the code master and
+matched to the row, an independent confirmation that the two agree.
+
+**Name variants.** Eleven schools transcribe these lists from eleven different
+publications, so one institution arrives spelled many ways (`Georgia Tech`,
+`Virginia Polytechnic Institute and State University`, `The Ohio State University
+(Main Campus)`). The code master resolves them via a shared `normName`, an alias map,
+and a campus-tag strip that only fires when the shorter name is *itself* a member — so
+`University of South Carolina (Lancaster)`, a distinct two-year campus, is never
+collapsed into its flagship.
+
+**Counts are institutions, not tagged rows.** A school listing both Arizona State
+campuses has two rows and one institution. `check:memberships` gates the printed
+`n / 68` figures on the institution count.

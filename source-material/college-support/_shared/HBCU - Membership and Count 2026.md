@@ -74,6 +74,36 @@ is a confirmed HBCU. An acceptance is tagged `hbcu` (and counted toward that sch
 | Fisk University | |
 | Lincoln University | Providence Day lists a bare "Lincoln University". Both Lincoln (PA) and Lincoln (MO) are HBCUs, so this counts as an HBCU regardless of which campus is meant |
 
+### Roster additions, 2026-08-25
+
+Added when `src/data/collegeMemberships.ts` was created and first checked against the
+data. **These were already tagged `hbcu` in the school files and were correct** — the
+roster above enumerated only the institutions the acceptance lists named *as of
+2026-08-02*, and the lists have grown since (Hickory Grove and Gaston Day were added
+later). The check reported them as "over-inclusions"; the tags were right and this table
+was incomplete.
+
+| Institution | Notes |
+|---|---|
+| Norfolk State University | Norfolk, VA |
+| Benedict College | Columbia, SC |
+| Claflin University | Orangeburg, SC — Hickory Grove's list spells it `Clafin University` |
+| Clinton College | Rock Hill, SC |
+| Voorhees University | Denmark, SC |
+| Saint Augustine's University | Raleigh, NC |
+| Tougaloo College | Tougaloo, MS — also carries `Liberal Rank #180`, outside the top 75 |
+
+- **Who:** Claude (Opus 5), on behalf of the project owner.
+- **When:** 2026-08-25.
+- **How:** Each name was already carried as `hbcu` in one or more committed acceptance
+  lists; membership was confirmed against the DoE-designated roster cited above. No new
+  denominator was derived — 107 is unchanged.
+
+**The lesson, recorded because it nearly went the other way:** a membership check that
+reports a violation is asking a question, not delivering a verdict. Confirm which side is
+wrong before editing either. Removing these seven tags would have been a silent
+data-quality regression that every check would then have reported as clean.
+
 ### Explicitly NOT HBCUs (guard against substring false-positives)
 
 These appear on the lists and superficially resemble an HBCU name but are **not**
