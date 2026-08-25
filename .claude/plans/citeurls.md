@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-08-24
 branch: chore/cite-urls
-prs: []
+prs: [206]
 ---
 
 # Backfill the last citation URLs
