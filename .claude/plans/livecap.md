@@ -1,7 +1,7 @@
 ---
 name: livecap
 title: Fix check:live's findings cap, which truncates the list while the summary counts every finding
-status: not-implemented
+status: in-progress
 phases: 1
 created: 2026-08-24
 branch: fix/livecap
