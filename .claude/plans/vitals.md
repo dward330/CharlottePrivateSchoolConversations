@@ -392,7 +392,7 @@ lines for a row that legitimately wants one here.
 
 #### RESOLVED 2026-08-24 — it was real, deterministic, and NOT intermittent
 
-Chased in [`ccwrap.md`](ccwrap.md) (PR pending) and **fixed**. Three corrections to the
+Chased in [`ccwrap.md`](ccwrap.md) ([#204](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/204)) and **fixed**. Three corrections to the
 reading above, each of which changes what the observation meant:
 
 1. **It is not intermittent.** Measured over 20 live runs against the deployed site
