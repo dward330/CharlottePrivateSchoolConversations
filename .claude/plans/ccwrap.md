@@ -5,7 +5,7 @@ status: implemented
 phases: 1
 created: 2026-08-24
 branch: perf/cc-wrap
-prs: []
+prs: [204]
 ---
 
 # Reproduce the Charlotte Catholic CLS spike
