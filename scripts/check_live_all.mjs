@@ -28,13 +28,23 @@ if (!m) {
 }
 const LANGS = [...m[1].matchAll(/'([a-z-]+)'/g)].map((x) => x[1])
 
+/* Forwarded to the per-locale checker so `npm run check:live -- --verbose`
+   uncaps its findings list. Without this the flag stops at the runner and the
+   child keeps printing only the first SHOW findings. */
+const VERBOSE = process.argv.slice(2).includes('--verbose')
+
 const failed = []
 for (const lang of LANGS) {
   process.stdout.write(`── ${lang} `)
   try {
     const out = execFileSync(
       'node',
-      [new URL('check_live_resolution.mjs', import.meta.url).pathname, '--lang', lang],
+      [
+        new URL('check_live_resolution.mjs', import.meta.url).pathname,
+        '--lang',
+        lang,
+        ...(VERBOSE ? ['--verbose'] : []),
+      ],
       { encoding: 'utf8' },
     )
     const line = out.trim().split('\n').filter(Boolean).slice(-2)[0] ?? ''

@@ -574,6 +574,9 @@ for (const topic of topics) {
 
 let checked = 0
 let unresolvable = 0
+/* Caps DISPLAY only — every finding is still counted and the summary below
+   reports the true total. Mirrors check_runtime_resolution.mjs:265. */
+const SHOW = 20
 const files = readdirSync(OVERLAYS)
   .filter((f) => f.endsWith(`.${LANG}.json`))
   .filter((f) => !ONLY || f.startsWith(`${ONLY}.`))
@@ -663,7 +666,7 @@ for (const file of files) {
     checked++
     if (!liveStamps.has(s.of)) {
       unresolvable++
-      if (unresolvable <= 8) {
+      if (VERBOSE || unresolvable <= SHOW) {
         console.error(
           `  ✗ ${file}: stamp ${s.of} occurs nowhere in live src/data English` +
             `\n      t: ${String(s.t).slice(0, 80)}`,
@@ -671,6 +674,13 @@ for (const file of files) {
       }
     }
   }
+}
+
+if (!VERBOSE && unresolvable > SHOW) {
+  console.error(
+    `   ... and ${unresolvable - SHOW} more (display capped, not collection) — ` +
+      `re-run with --verbose`,
+  )
 }
 
 console.log(
