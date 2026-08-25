@@ -390,6 +390,36 @@ against the live site; if it is real, the durable fix is the chip row's slack, n
 image. Note it would ALSO have been invisible to the plan's `min-height`, which reserves two
 lines for a row that legitimately wants one here.
 
+#### RESOLVED 2026-08-24 — it was real, deterministic, and NOT intermittent
+
+Chased in [`ccwrap.md`](ccwrap.md) (PR pending) and **fixed**. Three corrections to the
+reading above, each of which changes what the observation meant:
+
+1. **It is not intermittent.** Measured over 20 live runs against the deployed site
+   (`--origin`, added to `check_vitals.mjs` for exactly this), Charlotte Catholic was
+   **POOR on 19 of 20** at ~0.3494. The clean 0.0000 is the *outlier*. The original "1 of 3"
+   reading was a small-sample artifact — two of those three runs happened to be the rare
+   clean one. **`0.3492` was not a spike; it was the normal value.** Controls were clean and
+   near-zero-variance (davidson-day 0.0016, cannon 0.0018, both 0/20).
+2. **The trigger is the WEBFONT SWAP, not network timing.** Proven by blocking
+   `fonts.googleapis.com`/`gstatic.com`: CLS drops 0.3494 → **0.0002**, and the row stays at
+   71px. Barlow renders the chip strings ~7% narrower than the Arial-ish fallback, so the row
+   is one width before the swap and another after. Desktop-only — mobile is 0/20 at 0.0229,
+   because at 390px the row wraps regardless and has no boundary to cross.
+3. **The slack figure was backwards.** The note reads "941px content in a 1014px box — 73px
+   of slack", describing the *settled* state. The wrap decision is made in the **fallback**
+   state, where the same chips measure **1016px against that 1014px box — over by two
+   pixels.** So the row laid out as TWO lines, then Barlow shrank it to 941px and it
+   collapsed to one: header 238px → 198px, everything below jumped up 39px, one 0.3490 shift.
+
+The fix is the chip row's slack, as predicted — `.school-header-topics` gap 8px → **6px**,
+removing 12px from both states so the fallback fits the same single row the settled layout
+uses. Every school page is now GOOD (0/3 over threshold); settled geometry is byte-identical
+on all eleven pages apart from the expected 2px inter-row gap. A `size-adjust` metric-override
+on the body face was tried first and **rejected**: it fixed this page but pushed
+carmel-christian, covenant-day, gaston-day and hickory-grove-christian from 0.0022 to ~0.39
+by moving *them* onto the boundary.
+
 ### Follow-ups unchanged
 
 Compare's CLS (1), the bundle (2) and the mobile-LCP artifact (3) are all as recorded — none

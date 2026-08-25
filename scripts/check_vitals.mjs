@@ -41,6 +41,27 @@
  * alone. Verify a rule applied before concluding it had no effect, and verify it
  * did NOT apply before concluding it did.
  *
+ * MEASURING A LIVE ORIGIN (--origin)
+ * ----------------------------------
+ * By default this serves the local `dist/` over a localhost static server, which
+ * is the right target for "did my change help?" — it is deterministic, and the
+ * bytes are exactly what was just built.
+ *
+ * `--origin <url>` points the browser at a deployed site instead and skips the
+ * local server entirely. That is NOT a worse version of the local run; it
+ * answers a different question. A localhost server has near-zero latency and
+ * sends `cache-control: no-store`, so it cannot reproduce a defect whose trigger
+ * is VARIABLE REAL-NETWORK TIMING — a race that only opens when a stylesheet,
+ * font or overlay chunk arrives late. Live measurement deliberately INCLUDES
+ * that variance; that is the point of the flag, not a caveat on it.
+ *
+ * Two things follow. Live runs measure WHATEVER IS DEPLOYED, which may not be
+ * `main` — check the Pages build before quoting the numbers as describing a
+ * commit. And live runs are noisy by construction, so a single run proves
+ * nothing: use `--runs` with a real sample and read the DISTRIBUTION, not the
+ * median. A rare spike is invisible in a median, and a rare spike is usually the
+ * thing being hunted.
+ *
  * Usage:
  *   npm run check:vitals                 # desktop, every route
  *   npm run check:vitals -- --mobile     # 4x CPU throttle + Fast-3G emulation
@@ -48,6 +69,8 @@
  *   npm run check:vitals -- --route /school/cannon/
  *   npm run check:vitals -- --runs 3     # median of N runs per route
  *   npm run check:vitals -- --json       # machine-readable, for diffing runs
+ *   npm run check:vitals -- --origin https://example.com --runs 20
+ *                                        # measure the DEPLOYED site, real network
  *
  * Exit codes: 0 = measured, 1 = a route could not be measured, 2 = setup error.
  */
@@ -68,6 +91,10 @@ const val = (f, d) => {
 
 const JSON_OUT = flag('--json')
 const ONLY = val('--route', null)
+/* Trailing slashes are stripped so `--origin https://x.com/` and
+   `--origin https://x.com` build the same URL — route paths already lead with
+   one, and `//school/...` is a different path to some static hosts. */
+const ORIGIN = (val('--origin', null) ?? '').replace(/\/+$/, '') || null
 const RUNS = Math.max(1, Number(val('--runs', '1')) || 1)
 const PASSES = flag('--both')
   ? ['desktop', 'mobile']
@@ -271,11 +298,17 @@ const median = (xs) => {
 }
 
 async function main() {
-  if (!existsSync(join(DIST, 'index.html'))) {
+  /* Only the local pass needs a build. With --origin the bytes come from the
+     deployed site, so requiring dist/ would fail a run that never reads it. */
+  if (!ORIGIN && !existsSync(join(DIST, 'index.html'))) {
     console.error(
       'check:vitals: dist/index.html not found.\n' +
         'These are production numbers by definition — run `npm run build` first.',
     )
+    process.exit(2)
+  }
+  if (ORIGIN && !/^https?:\/\//.test(ORIGIN)) {
+    console.error(`check:vitals: --origin must be an http(s) URL, got ${ORIGIN}`)
     process.exit(2)
   }
 
@@ -296,9 +329,15 @@ async function main() {
     process.exit(2)
   }
 
-  const port = 4383 + (process.pid % 200)
-  const server = await serveDist(port)
-  const origin = `http://localhost:${port}`
+  /* With --origin there is no local server at all — `server` stays null and the
+     finally block below skips closing it. */
+  let server = null
+  let origin = ORIGIN
+  if (!origin) {
+    const port = 4383 + (process.pid % 200)
+    server = await serveDist(port)
+    origin = `http://localhost:${port}`
+  }
   const browser = await chromium.launch()
   const failures = []
   const results = {}
@@ -312,7 +351,8 @@ async function main() {
           `\n── ${pass} — ${profile.viewport.width}x${profile.viewport.height}` +
             `, CPU ${profile.cpuThrottle}x` +
             `${profile.network ? ', Fast-3G' : ''}` +
-            `${RUNS > 1 ? `, median of ${RUNS}` : ''} ──`,
+            `${RUNS > 1 ? `, median of ${RUNS}` : ''}` +
+            ` — ${ORIGIN ? `LIVE ${ORIGIN}` : 'local dist/'} ──`,
         )
       }
       for (const route of routes) {
@@ -331,16 +371,28 @@ async function main() {
           rows.push({ path: route.path, cls: null, lcp: null })
           continue
         }
-        const cls = median(runs.map((r) => r.cls))
-        const lcp = median(runs.map((r) => r.lcp))
-        rows.push({ path: route.path, cls, lcp })
+        const clsRuns = runs.map((r) => r.cls)
+        const lcpRuns = runs.map((r) => r.lcp)
+        rows.push({
+          path: route.path,
+          cls: median(clsRuns),
+          lcp: median(lcpRuns),
+          // Kept per-run so the DISTRIBUTION survives into the report. A rare
+          // spike — the thing worth hunting — is invisible in a median: one
+          // 0.3492 among twenty 0.0000s leaves the median at 0.0000.
+          clsRuns,
+          lcpRuns,
+        })
       }
       results[pass] = rows
-      if (!JSON_OUT) printTable(rows)
+      if (!JSON_OUT) {
+        printTable(rows)
+        if (RUNS > 1) printDistribution(rows)
+      }
     }
   } finally {
     await browser.close()
-    server.close()
+    server?.close()
   }
 
   if (JSON_OUT) {
@@ -365,6 +417,42 @@ async function main() {
     process.exit(1)
   }
   process.exit(0)
+}
+
+/**
+ * Per-run CLS distribution. Printed only for --runs > 1, because the question it
+ * answers — "did ANY run spike?" — is meaningless on a single sample.
+ *
+ * The three columns are the ones a rare intermittent actually shows up in: max,
+ * the count over the 0.1 GOOD threshold, and the raw sorted values. A median
+ * column alone would report 0.0000 for a page that threw 0.3492 once in twenty,
+ * which is exactly the reading this block exists to prevent.
+ */
+function printDistribution(rows) {
+  const w = Math.max(6, ...rows.map((r) => r.path.length))
+  console.log('\n  CLS distribution over ' + RUNS + ' runs')
+  console.log(
+    '  ' + 'route'.padEnd(w) + '  ' + 'min'.padStart(7) + '  ' + 'med'.padStart(7) +
+      '  ' + 'max'.padStart(7) + '  ' + '>0.1'.padStart(5) + '  runs',
+  )
+  console.log('  ' + '-'.repeat(w + 34))
+  for (const r of rows) {
+    const xs = (r.clsRuns ?? []).filter((x) => x != null)
+    if (!xs.length) {
+      console.log('  ' + r.path.padEnd(w) + '  ' + '—'.padStart(7))
+      continue
+    }
+    const sorted = [...xs].sort((a, b) => a - b)
+    const over = xs.filter((x) => x > GOOD.cls).length
+    console.log(
+      '  ' + r.path.padEnd(w) +
+        '  ' + sorted[0].toFixed(4).padStart(7) +
+        '  ' + (median(xs) ?? 0).toFixed(4).padStart(7) +
+        '  ' + sorted[sorted.length - 1].toFixed(4).padStart(7) +
+        '  ' + `${over}/${xs.length}`.padStart(5) +
+        '  ' + sorted.map((x) => x.toFixed(4)).join(' '),
+    )
+  }
 }
 
 function printTable(rows) {
