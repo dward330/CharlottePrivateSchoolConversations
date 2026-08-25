@@ -489,6 +489,37 @@ school's six Compare bucket cells. `npm run check:ranks`
 (`scripts/check_rank_labels.mjs`, chained into `npm run build`) verifies every
 ranked-bucket college resolves in the master and that the master agrees with the doc.
 
+**Every `cats` bucket is derived from a master, never hand-judged — and two build
+gates enforce it.** `cats` is hand-typed per college per school, and hand-typing
+drifts: a college tagged `nu75` while the rank printed beside it read `#127` shipped
+past a green build, and 10 colleges carried `p4` in some schools but not others.
+When adding a school, tag from the masters rather than judging membership by eye —
+the checkers will tell you either way, but the reasoning belongs in the master.
+
+- `nu75` / `lac75` — National / Liberal rank **≤75**, inclusive, from the rank label
+  the master resolves. A band (`National Rank #395-434`) never qualifies.
+  `npm run check:buckets` (`scripts/check_selectivity_buckets.mjs`).
+- `p4` / `hbcu` — membership in `src/data/collegeMemberships.ts` (`POWER_FOUR`, 68
+  institutions incl. Notre Dame; `HBCUS`). Sourced in
+  `source-material/college-support/_shared/`. `npm run check:memberships`
+  (`scripts/check_memberships.mjs`).
+- `ivy` / `ivyplus` — deliberately UNCHECKED. `ivy` is self-evident (the 8), and
+  `ivyplus` is an editorial grouping with no settled definition to check against.
+
+**A membership violation is a question, not a verdict.** The first run of
+`check:memberships` reported 12 `hbcu` over-inclusions and all twelve were genuine
+HBCUs missing from the roster — the tags were right and the table was wrong. Confirm
+which side is actually wrong before editing either; "fixing" the data would have
+deleted 12 correct tags and every check would then have reported clean.
+
+**The bucket counts are INSTITUTIONS, not tagged rows, and they live on three
+surfaces.** A school listing both Arizona State campuses has two rows and one
+institution, so counts derive through `canonicalMember()`. The same figure appears in
+the `buckets` row, sometimes a stat tile, and `src/data/metricValues.ts` for the
+Compare table; all three must move together. `check:memberships` gates all three —
+the third was found only by opening the page, which rendered `65 / 68` and `57 / 68`
+at once while every automated check passed.
+
 **`wholeClass` score tables carry a percentile header only when the rows genuinely
 hold percentiles.** A school that publishes averages or tier counts instead of
 distributions sets `noPercentiles: true` on that `ScoreTable` — otherwise the
