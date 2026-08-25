@@ -11177,12 +11177,12 @@
       "t": "Pondérée, et sans classement"
     },
     {
-      "text": "The 2022 profile reports a weighted-GPA range (**3.64–4.58**) against an unweighted range (**3.35–3.86**) and states the school does not rank students — the range stands in for a rank.",
-      "of": "0cb04cb9",
+      "text": "The 2024–25 profile reports a weighted-GPA range (**3.67–4.50**) against an unweighted range (**3.29–3.81**) and states the school does not rank students — the range stands in for a rank.",
+      "of": "c0497a2a",
       "at": [
         "carmel-christian:transcript.trust[0].text"
       ],
-      "t": "Le profil 2022 indique une fourchette de GPA pondérée (**3.64–4.58**) face à une fourchette non pondérée (**3.35–3.86**) et précise que l'école ne classe pas ses élèves — la fourchette tient lieu de classement."
+      "t": "Le profil 2024–25 indique une fourchette de GPA pondérée (**3.67–4.50**) face à une fourchette non pondérée (**3.29–3.81**) et précise que l’école ne classe pas ses élèves — la fourchette tient lieu de classement."
     },
     {
       "text": "The AP School Honor Roll post states no year. Its metadata (2024-02-12) plus the phrase “last year’s AP exams” points to the 2023 exams — treated as 2023 here, TO VERIFY. Separately, a 94%-of-exams-scoring-3+ figure surfaced in Course Offerings research (May 2025, 145 students); it measures a different denominator (exams, not seniors) and is not conflated with the 73% here.",
@@ -11871,20 +11871,20 @@
       "t": "Aucun programme de recherche, résultat d'Olympiades ou titre de compétition nationale n'est publié — les éléments différenciants sont la cadence et la lisibilité, non des résultats de compétition."
     },
     {
-      "text": "The most recent test and GPA data the research could locate is the Class of 2022 profile — ranges, not distributions, and TO VERIFY until the current-year profile is relocated.",
-      "of": "210fc0fc",
+      "text": "The 2024–25 profile publishes Class of 2024 test and GPA data as ranges, not distributions — a middle 50% for SAT, ACT and GPA, and nothing behind it.",
+      "of": "8943f2bf",
       "at": [
         "carmel-christian:wholeClass.headline"
       ],
-      "t": "Les données de tests et de GPA les plus récentes que la recherche a pu localiser sont le profil de la Class of 2022 — des fourchettes, non des distributions, et À VÉRIFIER jusqu'à ce que le profil de l'année en cours soit retrouvé."
+      "t": "Le profil 2024–25 publie les données de tests et de GPA de la Class of 2024 sous forme de fourchettes, non de distributions — des 50% centraux pour le SAT, l’ACT et le GPA, et rien derrière."
     },
     {
-      "text": "The school does not rank; the current-year School Profile PDF could not be relocated for this pass, so these figures are labeled Class of 2022 rather than presented as current.",
-      "of": "b547c43c",
+      "text": "The school does not rank, so the weighted range stands in for class position — but with no percentiles, quintiles or tester counts published, the shape of the class behind these ranges is not recoverable.",
+      "of": "7553373f",
       "at": [
         "carmel-christian:wholeClass.subhead"
       ],
-      "t": "L'école ne classe pas ; le PDF du School Profile de l'année en cours n'a pas pu être retrouvé pour cette recherche, si bien que ces chiffres sont étiquetés Class of 2022 plutôt que présentés comme actuels."
+      "t": "L’école ne classe pas, si bien que la fourchette pondérée tient lieu de rang dans la classe — mais en l’absence de centiles, de quintiles ou d’effectifs de candidats publiés, la forme de la classe derrière ces fourchettes reste hors d’atteinte."
     },
     {
       "text": "SAT & ACT middle-50% ranges",
@@ -11895,12 +11895,13 @@
       "t": "Fourchettes SAT & ACT des 50% centraux"
     },
     {
-      "text": "— Class of 2022 · TO VERIFY (from a cached 2022–23 profile)",
-      "of": "fb409b88",
+      "text": "— Class of 2024",
+      "of": "2f2b4e68",
       "at": [
-        "carmel-christian:wholeClass.scoreTables[0].hint"
+        "carmel-christian:wholeClass.scoreTables[0].hint",
+        "carmel-christian:wholeClass.scoreTables[1].hint"
       ],
-      "t": "— Class of 2022 · À VÉRIFIER (d'après un profil 2022–23 mis en cache)"
+      "t": "— Class of 2024"
     },
     {
       "text": "SAT total (middle 50%)",
@@ -11919,12 +11920,12 @@
       "t": "Composite ACT (50% centraux)"
     },
     {
-      "text": "Ranges only — the cached profile publishes the middle 50%, not percentiles or tester counts. Labeled Class of 2022 because the current-year profile could not be relocated.",
-      "of": "b668f65c",
+      "text": "Ranges only — the profile publishes the middle 50%, not percentiles or tester counts.",
+      "of": "579f5aad",
       "at": [
         "carmel-christian:wholeClass.scoreTables[0].note"
       ],
-      "t": "Fourchettes uniquement — le profil mis en cache publie les 50% centraux, non des centiles ou des effectifs de candidats. Étiqueté Class of 2022 car le profil de l'année en cours n'a pas pu être retrouvé."
+      "t": "Fourchettes uniquement — le profil publie les 50% centraux, non des centiles ou des effectifs de candidats."
     },
     {
       "text": "GPA ranges",
@@ -11933,14 +11934,6 @@
         "carmel-christian:wholeClass.scoreTables[1].title"
       ],
       "t": "Fourchettes de GPA"
-    },
-    {
-      "text": "— Class of 2022 · TO VERIFY",
-      "of": "e6e4fefd",
-      "at": [
-        "carmel-christian:wholeClass.scoreTables[1].hint"
-      ],
-      "t": "— Class of 2022 · À VÉRIFIER"
     },
     {
       "text": "Weighted GPA",
@@ -11967,12 +11960,12 @@
       "t": "Fourchettes, non une distribution par quintiles — l'école ne classe pas, et aucun quantile de GPA n'est publié."
     },
     {
-      "text": "No GPA distribution or quintile table is published — the weighted/unweighted ranges above (Class of 2022) are the entire GPA disclosure the research located.",
-      "of": "f4714619",
+      "text": "No GPA distribution or quintile table is published — the weighted/unweighted ranges above (Class of 2024) are the entire GPA disclosure the research located.",
+      "of": "a721a7f3",
       "at": [
         "carmel-christian:wholeClass.gpaNote"
       ],
-      "t": "Aucune distribution de GPA ni table de quintiles n'est publiée — les fourchettes pondérée/non pondérée ci-dessus (Class of 2022) constituent toute la divulgation de GPA que la recherche a localisée."
+      "t": "Aucune distribution de GPA ni table de quintiles n’est publiée — les fourchettes pondérée/non pondérée ci-dessus (Class of 2024) constituent toute la divulgation de GPA que la recherche a localisée."
     },
     {
       "text": "Personal counseling on staff",
@@ -12024,18 +12017,10 @@
       "t": "Des destinations artistiques et spécialisées apparaissent (SCAD, Ringling College of Art & Design, Watkins College of Art, UNC School of the Arts, New York Film Academy, The American Musical & Dramatic Academy), aux côtés d'un fil britannique/international (St Andrews, Glasgow, Stirling, York, Brock, Cape Breton)."
     },
     {
-      "text": "Every figure on this card is from a cached 2022–23 profile (Class of 2022); the current-year School Profile PDF 404s under every filename variant and Wayback was rate-limited during this pass. Re-hunt the current profile at ingest and refresh these numbers.",
-      "of": "5383d982",
-      "at": [
-        "carmel-christian:wholeClass.flags[0].text"
-      ],
-      "t": "Chaque chiffre de cette carte provient d'un profil 2022–23 mis en cache (Class of 2022) ; le PDF du School Profile de l'année en cours renvoie une erreur 404 sous toutes les variantes de nom de fichier, et Wayback était limité en débit pendant cette recherche. Retrouver le profil actuel lors de l'ingestion et rafraîchir ces chiffres."
-    },
-    {
       "text": "No score percentiles, no GPA quintiles, no tester counts and no per-quintile outcomes are published — only the ranges above. The shape of the class is not recoverable from public sources.",
       "of": "279d15f5",
       "at": [
-        "carmel-christian:wholeClass.flags[1].text"
+        "carmel-christian:wholeClass.flags[0].text"
       ],
       "t": "Aucun centile de score, quintile de GPA, effectif de candidats ni résultat par quintile n'est publié — seulement les fourchettes ci-dessus. La forme de la promotion n'est pas reconstituable à partir de sources publiques."
     },
@@ -12120,20 +12105,20 @@
       "t": "Environ 215 admissions nommées menées par Princeton et Duke, riches en universités publiques de Caroline du Nord et en collèges chrétiens — mais la liste ne marque aucune matriculation, elle montre donc des admissions, non l'endroit où les élèves se sont inscrits."
     },
     {
-      "text": "The quantitative profile is stale",
-      "of": "2d1df8bb",
+      "text": "The weighting changes with the Class of 2026",
+      "of": "726cda81",
       "at": [
         "carmel-christian:verdict.points[4].label"
       ],
-      "t": "Le profil quantitatif est ancien"
+      "t": "La pondération change à partir de la Class of 2026"
     },
     {
-      "text": "The most recent SAT/ACT/GPA data the research located is Class of 2022, from a cached profile; the current-year profile could not be relocated. That is the first thing to ask for on a visit.",
-      "of": "9daa1e81",
+      "text": "The profile states that from the Class of 2026 honors courses carry **+0.5** and AP courses **+1.0**, down from the **+1** and **+2** quality points behind the GPA ranges above — so a weighted GPA quoted today is not calculated the same way as one quoted for a current freshman.",
+      "of": "96c79b7e",
       "at": [
         "carmel-christian:verdict.points[4].text"
       ],
-      "t": "Les données SAT/ACT/GPA les plus récentes que la recherche a localisées datent de la Class of 2022, d'après un profil mis en cache ; le profil de l'année en cours n'a pas pu être retrouvé. C'est la première chose à demander lors d'une visite."
+      "t": "Le profil indique qu’à partir de la Class of 2026 les cours Honors valent **+0.5** et les cours AP **+1.0**, contre les **+1** et **+2** points de qualité qui sous-tendent les fourchettes de GPA ci-dessus — un GPA pondéré cité aujourd’hui n’est donc pas calculé de la même façon qu’un GPA cité pour un élève actuellement en première année du secondaire."
     },
     {
       "text": "How many seniors does the college counselor carry at peak season, and how large is the senior class?",

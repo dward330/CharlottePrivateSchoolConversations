@@ -1,7 +1,7 @@
 ---
 name: citeurls
 title: Backfill the last four citation URLs, and correct three stale housekeeping claims
-status: english-done
+status: implemented
 phases: 2
 created: 2026-08-24
 branch: chore/cite-urls
@@ -287,12 +287,44 @@ Carmel, Providence Day and Davidson Day pages.
 the strings rewritten above; their overlay translations are now orphaned and re-translating
 them IS Phase 2.
 
-### Phase 2 — outstanding
+### Phase 2 — shipped 2026-08-24
 
-Re-extract `college-support` and translate the 8 changed strings into the 9 locales in
-`PROSE_TRANSLATED`, then `npm run check:runtime` per locale plus `check:sepdrift` (the new
-figures are separator-bearing and must be copied char-for-char; note `hi`/`te` regroup at
-render, so the data keeps the English 3-3-3 form).
+Translated into all 9 `PROSE_TRANSLATED` locales. Three corrections to the estimate above:
+
+- **10 orphaned entries, not 8.** `check:live` prints at most 8 findings per file
+  (`if (unresolvable <= 8)`) while its summary line counts all of them — so the "8 stamps"
+  read off the printed list under-reported the real 10. The two it never printed were
+  `verdict.points[4].label` / `.text`, the visit-checklist item Phase 1 rewrote. A
+  fresh extract diffed by stamp is the reliable worklist, not the printed findings.
+- **Re-extraction had to be surgical.** `i18n_extract.mjs` emits `t: ''` for every string
+  and carries nothing over, so `--force` would have blanked all 1,791 translations per
+  locale. The work files were instead rebuilt from a throwaway `--lang __probe` extract,
+  carrying each translation across **by stamp** (never by index, per the
+  `translation-maps-key-by-text` rule).
+- **Net −2 strings per locale** (1,791 → 1,789): the deleted `wholeClass.flags[0]` stale-data
+  flag, and the two `scoreTables[].hint` values deduping onto one entry now that both read
+  `— Class of 2024`.
+
+Each locale's rendering reuses its own established conventions rather than inventing new
+ones — `ar` keeps `دفعة 2024` for "Class of 2024"; `fa` writes the signed weights as
+`0.5+`/`1.0+`; `fr` keeps `première année du secondaire` for *freshman*; `ht` keeps
+`pwen kalite` for *quality point*. All figures copied char-for-char, so `hi`/`te` keep the
+English 3-3-3 form and regroup at render.
+
+**Verification.** `npx tsc --noEmit` clean · `npm run build` passes all eleven chained
+gates · **`check:live` green across all 9 locales** (it was red on exactly these stamps
+before) · `check:runtime` 11,406 entries × 9 locales resolve · `check:sepdrift` **0 drifted
+figure tokens** in all 9 · `check:money` / `check:currency` / `check:bidi` / `check:fa` /
+`check:hi` / `check:fr` / `check:chrome` all pass · `i18n:leaks` per locale is
+**equal or one lower** than the pre-change baseline in every locale (158/187/177/363/291/
+165/341/247/173 vs 158/188/178/364/291/166/342/248/173) — one leak removed, none added.
+
+**Browser check** (headed Chromium, all 9 locales, every `<details>` force-opened): 36/36
+positive assertions — the new prose, `3.67–4.50` and `1060–1260` all render translated in
+every locale — and a scoped stale-figure scan is **72/72 clean**, with no `Class of 2022`,
+`3.64–4.58`, `1030–1290` or `3.35–3.86` anywhere on the page. The `TO VERIFY` strings still
+visible on that page are the **Arts cards and the AP Honor Roll flag**, both unrelated and
+both correctly still open.
 
 ### Follow-ups deliberately not in this diff
 
