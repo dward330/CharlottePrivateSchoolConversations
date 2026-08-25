@@ -108,7 +108,7 @@ const colleges = [
   {"name":"Southwestern University","cats":[]},
   {"name":"St. Andrews University","cats":[]},
   {"name":"Suffolk University","cats":[]},
-  {"name":"The University of Tennessee, Knoxville","cats":[]},
+  {"name":"The University of Tennessee, Knoxville","cats":['p4']},
   {"name":"Union Commonwealth University","cats":[]},
   {"name":"University of Albany","cats":[]},
   {"name":"University of Connecticut","cats":["nu75"]},
@@ -433,7 +433,7 @@ export const hickoryGroveChristian: CollegeSupportProgram = {
       { tier: '“Ivy Plus”', count: '0 / 17' },
       { tier: 'Top-75 National Universities', count: '22 / 75' },
       { tier: 'Top-75 Liberal Arts', count: '9 / 75', note: '— incl. Bowdoin, Pomona, Claremont McKenna, Grinnell, Colgate, Washington & Lee' },
-      { tier: 'Power Four', count: '24 / 68' },
+      { tier: 'Power Four', count: '25 / 68' },
       { tier: 'HBCUs', count: '20 / 107', note: '— incl. Howard, Hampton, Morehouse, NC A&T, Florida A&M, Fisk' },
     ],
     bucketsNote:

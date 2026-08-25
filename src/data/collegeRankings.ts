@@ -476,7 +476,12 @@ export const COLLEGE_RANKINGS: Record<string, string> = {
  * abbreviated. Matches institutions across the many spellings the acceptance
  * lists use ("University of California–Irvine" == "UC (Irvine)").
  */
-function normName(s: string): string {
+/**
+ * Canonical-name normalization, shared with the membership master
+ * (`collegeMemberships.ts`) so both resolve a college's many written forms the
+ * same way. Exported for that reason — keep ONE copy; two would drift.
+ */
+export function normName(s: string): string {
   return s
     .toLowerCase()
     .replace(/['’]/g, '')
