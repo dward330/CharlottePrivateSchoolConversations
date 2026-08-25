@@ -1,11 +1,11 @@
 ---
 name: livecap
 title: Fix check:live's findings cap, which truncates the list while the summary counts every finding
-status: in-progress
+status: implemented
 phases: 1
 created: 2026-08-24
 branch: fix/livecap
-prs: []
+prs: [209]
 ---
 
 # Fix check:live's findings cap
@@ -197,3 +197,23 @@ No browser check: this change produces no rendered output.
 | **The negative test is left in the tree**, shipping a corrupted overlay. | Verification requires `git checkout` of the overlay and a clean `git status` before the PR. `check:live` is a build gate, so a corrupted overlay would also fail `npm run build` — but do not rely on that as the only catch. |
 | **`VERBOSE` is declared after the loop that now uses it**, producing a TDZ `ReferenceError` at runtime rather than a compile error. | Step 2 says to confirm the declaration order and move line 598 up if needed. The negative test exercises this path, so a mistake surfaces there. |
 | **Uncapping via `--verbose` reproduces the unreadable 4,646-line output** that made this checker unusable before PR #167. | That is the opt-in path, requested deliberately. The default stays capped, which is why step 1 keeps a cap rather than removing it. |
+
+## Implementation notes
+
+Built as planned; no deviations.
+
+Two details the plan flagged as needing confirmation, both resolved without a change:
+
+- **`VERBOSE` declaration order.** Line 598 already sits ahead of the per-file loop
+  (line ~641), so step 2's contingency — moving the declaration up — was not needed and
+  the TDZ risk never materialised.
+- **Step 5's audit found neither sibling cap to be silent**, so neither was touched:
+  `check_fr_identifiers.mjs:179` announces its truncation three lines later
+  (`…and ${hits.length - 12} more`), and `check_chrome_keys.mjs:250` caps only the
+  informational sample printed on the `!prefix` "rendered verbatim by design" branch,
+  where there is nothing to fix — its actual finding paths print `values` uncapped.
+
+The negative test asserted all four conditions on the capped run (20 printed, `... and 5
+more`, summary reporting the true 25, exit 1) and both on the `--verbose` run (25 printed,
+no truncation line). The overlay was restored with `git checkout` and `git status` was
+clean before the commit.
