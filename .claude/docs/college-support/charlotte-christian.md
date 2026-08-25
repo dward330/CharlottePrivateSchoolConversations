@@ -1,5 +1,5 @@
 # Charlotte Christian School — College Support
-> Distilled from 12 source document(s) in `source-material/college-support/charlotte-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-19.
+> Distilled from 12 source document(s) in `source-material/college-support/charlotte-christian/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-24.
 **Documents:** Academic Case, Acceptances Window 2023-2026, Application Support, Counseling Engine, Fit and Rank, Institutional Leverage, NotebookLM Prompt, Outcomes, Redesign Research 2026, Standing Out, Deep Research, UNC System Admissions
 
 

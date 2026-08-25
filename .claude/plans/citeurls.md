@@ -1,8 +1,8 @@
 ---
 name: citeurls
 title: Backfill the last four citation URLs, and correct three stale housekeeping claims
-status: not-implemented
-phases: 1
+status: english-done
+phases: 2
 created: 2026-08-24
 branch: chore/cite-urls
 prs: []
@@ -184,3 +184,120 @@ outstanding list less trustworthy each time it is rebuilt.
   invariant. — **default:** out of scope; it is a schema change and would need the
   UX-approval gate if it renders differently. Note it as a follow-up if step 4 finds more
   than these two.
+
+
+## Implementation notes
+
+**Phase 1 (English) shipped 2026-08-24 on `chore/cite-urls`. Phase 2 (prose locales) is
+outstanding.**
+
+### The plan was single-phase; the build is two-phase
+
+The plan reasoned that adding a `url` to an existing label changes no user-facing text.
+That held for three of the four entries — but the Carmel Christian pair could not be
+honestly closed by adding a URL alone (below), and refreshing the figures **does** change
+rendered text. Per the standing English-first rule in `CLAUDE.md`, the locale work is
+therefore Phase 2. `phases:` corrected 1 → 2.
+
+### Step 1 re-measure confirmed the plan, with two corrections
+
+763 with URL / 37 without / 33 methodology notes / 4 genuine — exactly as documented. Two
+details differed:
+
+- The Providence Day after-school label is `(school packet)`, not `(school page)`.
+- **A fifth hedge of the same shape was missing from the worklist**:
+  `collegeSupportPrograms/davidson-day.ts` — *"Staff details partly from aggregated
+  professional profiles"*. Identical class to the Providence Day one, so step 4's decision
+  was applied to both.
+
+### Steps 2 — the citation was a symptom of stale data
+
+Both Carmel citations were URL-less *because* a prior pass recorded the current-year School
+Profile as unrelocatable ("every filename variant 404s; Wayback was rate-limited") and fell
+back to a Google cache of the **2022–23** profile, flagged `TO VERIFY`.
+
+**That conclusion was wrong.** Listing the domain's archived URLs via the Wayback CDX API —
+rather than guessing filenames — surfaced the live document immediately:
+`https://carmelchristian.org/pdf/High_School_Profile_24-25.pdf` (HTTP 200, 157,525 bytes),
+carrying **Class of 2024** figures. The school rotates the filename yearly and serves the
+same PDF from a second path, which is why enumeration failed.
+
+Adding a URL to a citation whose figures were three years stale would have closed the entry
+cosmetically while leaving wrong numbers on the page, so **the user was asked and chose to
+refresh the figures**:
+
+| Metric | Was (Class of 2022) | Now (Class of 2024) |
+|---|---|---|
+| SAT middle 50% | 1030–1290 | **1060–1260** |
+| ACT middle 50% | 25–33 | **22–30** |
+| Weighted GPA | 3.64–4.58 | **3.67–4.50** |
+| Unweighted GPA | 3.35–3.86 | **3.29–3.81** |
+
+Knock-on edits: two `TO VERIFY` flags retired (the AP Honor Roll year flag is unrelated and
+remains); the `wholeClass` headline/subhead rewritten from "the research could not locate"
+to what the profile actually publishes; and the visit-checklist item *"The quantitative
+profile is stale"* replaced with a real finding — from the Class of 2026 the school drops
+honors/AP weighting to **+0.5/+1.0** from +1/+2, so a weighted GPA quoted today is not
+computed the same way as one quoted for a current freshman. The stale file-header caveat
+was rewritten as a dated historical note rather than deleted.
+
+### Steps 3 and 4 — two entries correctly keep no URL
+
+- **Providence Day enrichment packet.** No public document exists: the research file records
+  it was *supplied by the user as a PDF*, and the public enrichment page carries only a
+  historical "past and present" roster that the term packet supersedes. Both public pages
+  were re-fetched (HTTP 200) to confirm. Relabelled *"Fall 2026 Enrichment Class
+  Descriptions — packet distributed by the school, not published online"*, pointing at the
+  committed PDF.
+- **The two staff-background hedges** are methodology, not citations. Both reworded to lead
+  with `Method:` and to say *"not independently verified"*. No URL invented. The renderer
+  already degrades URL-less sources to muted text, so nothing renders as a broken link.
+
+### Step 5 — source material persisted and ingested
+
+`source-material/college-support/carmel-christian/Carmel Christian - College Support - High
+School Profile 2024-25.md` records the provenance, all four candidate URLs with their
+statuses, the full Class-of-2024 data, and a denominator caution (the profile's *94% of 142
+exam-takers scoring 3+* is **not** the AP Honor Roll's *73% of seniors*; the existing flag
+warning against conflating them remains correct). Ingested via `build_docs.py college-support`
+and `npm run schema` (395 → 396 documents; no new cards or Compare rows, so no UX gate).
+
+### Step 6 — records corrected, and one was overstated rather than phantom
+
+- **Favicon: confirmed done.** `index.html:5-6` and the built `dist/index.html` both carry
+  the tags; `public/icon.png` exists. Carried open for months without anyone grepping the
+  file. The memory's secondary follow-up (title/branding mismatch) is also resolved — the
+  title now reads *Charlotte School Insights*.
+- **Sports/Student Clubs citations: the plan said "Done"; that is true only of `src/data`.**
+  Zero URL-less sources there, but the *distilled docs* still hold **111** Sports and **45**
+  Clubs name-only cites (down from 179/53). It does not block any link from rendering on a
+  school page, so it is a narrower item — the memory was corrected to say that rather than
+  being deleted.
+- **The `check:metrics` "not ingested" advisory** is benign exactly as the plan documented.
+
+### Verification
+
+`npx tsc --noEmit` clean · `npm run build` passes (tsc, vite, prerender, seo:files,
+check:schema, check:ranks, check:ncsuper) · `check:metrics`, `check:seo` clean · re-measure
+shows **765 with URL / 35 without, all 35 methodology notes — 0 genuine citations missing a
+URL** · cited URL re-confirmed HTTP 200 · **14/14 assertions in headed Chrome** across the
+Carmel, Providence Day and Davidson Day pages.
+
+**`check:live` is red on 8 stamps × 9 locales — expected and correct.** Those are precisely
+the strings rewritten above; their overlay translations are now orphaned and re-translating
+them IS Phase 2.
+
+### Phase 2 — outstanding
+
+Re-extract `college-support` and translate the 8 changed strings into the 9 locales in
+`PROSE_TRANSLATED`, then `npm run check:runtime` per locale plus `check:sepdrift` (the new
+figures are separator-bearing and must be copied char-for-char; note `hi`/`te` regroup at
+render, so the data keeps the English 3-3-3 form).
+
+### Follow-ups deliberately not in this diff
+
+- The open question (reclassifying methodology notes out of `sources` into a `method` field)
+  stays **out of scope** — but step 1 found **five** such notes-in-citation-clothes, not
+  two, and 35 URL-less entries overall, so the invariant would be worth having.
+- The AP Honor Roll year `TO VERIFY` flag is still open and unrelated.
+- Backfilling the 111 + 45 name-only cites in the distilled docs.

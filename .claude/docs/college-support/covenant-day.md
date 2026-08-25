@@ -1,5 +1,5 @@
 # Covenant Day School — College Support
-> Distilled from 9 source document(s) in `source-material/college-support/covenant-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-19.
+> Distilled from 9 source document(s) in `source-material/college-support/covenant-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-24.
 **Documents:** Academic Case, Application Support, Counseling Engine, Fit and the Whole Class, Institutional Leverage, Outcomes, Redesign Research 2026, Standing Out, UNC System Admissions
 
 

@@ -417,7 +417,13 @@ export const providenceDay: AfterSchoolProgram = {
     ],
     sources: [
       {
-        label: 'providenceday.org — Fall 2026 Enrichment Class Descriptions (school packet)',
+        // No URL by nature: this packet is distributed by the school to enrolled
+        // families rather than published on the website. The public enrichment
+        // page carries only a historical "past and present" roster, which the
+        // packet supersedes for the term. The document itself is committed at
+        // source-material/after-school/providence-day/Providence Day - After
+        // School - Enrichment Classes Fall 2026.pdf.
+        label: 'Fall 2026 Enrichment Class Descriptions — packet distributed by the school, not published online',
       },
       {
         label: 'providenceday.org — Extended Day (Lower School)',

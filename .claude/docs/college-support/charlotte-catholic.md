@@ -1,5 +1,5 @@
 # Charlotte Catholic High School — College Support
-> Distilled from 2 source document(s) in `source-material/college-support/charlotte-catholic/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-19.
+> Distilled from 2 source document(s) in `source-material/college-support/charlotte-catholic/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-24.
 **Documents:** School Profile 2025-2026, UNC System Admissions
 
 

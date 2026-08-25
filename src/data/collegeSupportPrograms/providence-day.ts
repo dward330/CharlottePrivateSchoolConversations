@@ -716,7 +716,10 @@ export const providenceDay: CollegeSupportProgram = {
       { label: 'providenceday.org — College Guidance programme page', url: GUIDANCE },
       { label: 'College Admission Representatives (~150 visits, SCOIR scheduling)', url: REPS },
       { label: '2025–26 Academic Profile (enrollment, memberships, contact block)', url: PROFILE },
-      { label: 'Staff backgrounds partly from aggregated professional profiles — self-reported, flagged', },
+      // Not a citation: a methodology note. Aggregated professional profiles are
+      // self-reported and are not cited as an authority, so there is deliberately
+      // no URL here — see the `citeurls` plan, step 4.
+      { label: 'Method: staff backgrounds partly from aggregated professional profiles — self-reported, not independently verified', },
     ],
   },
 

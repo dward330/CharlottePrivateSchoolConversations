@@ -568,7 +568,10 @@ export const davidsonDay: CollegeSupportProgram = {
     sources: [
       { label: 'davidsonday.org — College Counseling', url: COUNSELING },
       { label: 'School Profile 2025–26 (staff, enrollment, memberships)', url: PROFILE },
-      { label: 'Staff details partly from aggregated professional profiles — self-reported, flagged', },
+      // Not a citation: a methodology note. Aggregated professional profiles are
+      // self-reported and are not cited as an authority, so there is deliberately
+      // no URL here — see the `citeurls` plan, step 4.
+      { label: 'Method: staff details partly from aggregated professional profiles — self-reported, not independently verified', },
     ],
   },
 

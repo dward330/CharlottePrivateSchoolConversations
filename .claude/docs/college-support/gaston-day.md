@@ -1,5 +1,5 @@
 # Gaston Day School — College Support
-> Distilled from 2 source document(s) in `source-material/college-support/gaston-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-19.
+> Distilled from 2 source document(s) in `source-material/college-support/gaston-day/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-24.
 **Documents:** School Profile Research 2026, UNC System Admissions
 
 

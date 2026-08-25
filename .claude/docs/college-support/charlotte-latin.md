@@ -1,5 +1,5 @@
 # Charlotte Latin School — College Support
-> Distilled from 12 source document(s) in `source-material/college-support/charlotte-latin/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-19.
+> Distilled from 12 source document(s) in `source-material/college-support/charlotte-latin/`. Auto-extracted full text, lightly cleaned. Rebuilt 2026-08-24.
 **Documents:** Academic Case, Acceptances Window 2023-2026, Application Support, Counseling Engine, Fit and Rank, Institutional Leverage, NotebookLM Prompt v2, Outcomes, Redesign Research 2026, Standing Out, UNC System Admissions, Deep Research
 
 
