@@ -5,7 +5,7 @@ status: implemented
 phases: 1
 created: 2026-08-25
 branch: fix/selectivity-buckets
-prs: []
+prs: [213]
 ---
 
 # Make the acceptance-list bucket filters agree with the master rank table
