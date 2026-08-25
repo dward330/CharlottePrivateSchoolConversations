@@ -7,14 +7,19 @@
 // College Support - Redesign Research 2026.md for the hard data, source URLs,
 // and per-metric gap notes.
 //
-// Two source caveats carried onto the cards as TO VERIFY flags:
+// One source caveat is carried onto the cards as a TO VERIFY flag:
 //
-//  1. The current-year School Profile PDF could not be relocated (every filename
-//     variant 404s; Wayback was rate-limited). SAT/ACT/GPA below come from
-//     Google's cache of the 2022–23 profile — Class of 2022 — and are labeled
-//     as such and flagged TO VERIFY, not presented as current.
-//  2. The AP School Honor Roll post states no year; its metadata (2024-02-12)
-//     plus "last year's AP exams" points to the 2023 exams — flagged TO VERIFY.
+//   The AP School Honor Roll post states no year; its metadata (2024-02-12)
+//   plus "last year's AP exams" points to the 2023 exams — flagged TO VERIFY.
+//
+// A SECOND caveat was retired on 2026-08-24. It read that the current-year
+// School Profile "could not be relocated (every filename variant 404s)", so
+// SAT/ACT/GPA came from a Google cache of the 2022-23 profile (Class of 2022),
+// flagged TO VERIFY. That was wrong: the profile IS published. It was found by
+// listing the domain's archived URLs rather than guessing filenames, and the
+// figures on these cards are now Class of 2024 from the live document. See
+// source-material/college-support/carmel-christian/Carmel Christian - College
+// Support - High School Profile 2024-25.md.
 //
 // The acceptance list carries NO time window, NO counts and NO matriculation
 // markings — it is a cumulative acceptance list, so `enrolling` is set on NO
@@ -30,6 +35,13 @@ const AP_HONOR_ROLL =
   'https://www.carmelchristian.org/apps/news/show_news.jsp?REC_ID=896723&id=0'
 const COLLEGE_TIPS =
   'https://carmelchristian.org/pdf/College_tips_and_Information_for_HS_Students.pdf'
+// The CURRENT-year School Profile. A prior pass recorded this as unrelocatable
+// ("404s under every filename variant"); it is published, and was found by listing
+// the domain's archived URLs rather than guessing filenames. The school rotates the
+// filename yearly and serves the same PDF from a second path
+// (/pdf/2024-2025/High%20School%20Profile%2024-25.pdf).
+const SCHOOL_PROFILE =
+  'https://carmelchristian.org/pdf/High_School_Profile_24-25.pdf'
 
 /* The College Acceptances list, transcribed verbatim from the live page (S1):
    a cumulative acceptance list with no window, no counts and no markings.
@@ -413,7 +425,7 @@ export const carmelChristian: CollegeSupportProgram = {
     trust: [
       {
         label: 'Weighted, and does not rank',
-        text: 'The 2022 profile reports a weighted-GPA range (**3.64–4.58**) against an unweighted range (**3.35–3.86**) and states the school does not rank students — the range stands in for a rank.',
+        text: 'The 2024–25 profile reports a weighted-GPA range (**3.67–4.50**) against an unweighted range (**3.29–3.81**) and states the school does not rank students — the range stands in for a rank.',
       },
     ],
     flags: [
@@ -428,7 +440,7 @@ export const carmelChristian: CollegeSupportProgram = {
     ],
     sources: [
       { label: 'carmelchristian.org — AP School Honor Roll (Platinum; participation and score percentages; course/section/teacher counts)', url: AP_HONOR_ROLL },
-      { label: 'carmelchristian.org — 2022–23 High School Profile (weighting, rank policy) — cached, Class of 2022, TO VERIFY' },
+      { label: 'carmelchristian.org — 2024–25 High School Profile (weighting, rank policy)', url: SCHOOL_PROFILE },
     ],
   },
 
@@ -609,34 +621,34 @@ export const carmelChristian: CollegeSupportProgram = {
   /* -------------------------------------------------------- wholeClass ----- */
   wholeClass: {
     headline:
-      'The most recent test and GPA data the research could locate is the Class of 2022 profile — ranges, not distributions, and TO VERIFY until the current-year profile is relocated.',
+      'The 2024–25 profile publishes Class of 2024 test and GPA data as ranges, not distributions — a middle 50% for SAT, ACT and GPA, and nothing behind it.',
     subhead:
-      'The school does not rank; the current-year School Profile PDF could not be relocated for this pass, so these figures are labeled Class of 2022 rather than presented as current.',
+      'The school does not rank, so the weighted range stands in for class position — but with no percentiles, quintiles or tester counts published, the shape of the class behind these ranges is not recoverable.',
     scoreTables: [
       {
         title: 'SAT & ACT middle-50% ranges',
-        hint: '— Class of 2022 · TO VERIFY (from a cached 2022–23 profile)',
+        hint: '— Class of 2024',
         noPercentiles: true,
         rows: [
-          { label: 'SAT total (middle 50%)', values: ['1030–1290'] },
-          { label: 'ACT composite (middle 50%)', values: ['25–33'] },
+          { label: 'SAT total (middle 50%)', values: ['1060–1260'] },
+          { label: 'ACT composite (middle 50%)', values: ['22–30'] },
         ],
-        note: 'Ranges only — the cached profile publishes the middle 50%, not percentiles or tester counts. Labeled Class of 2022 because the current-year profile could not be relocated.',
+        note: 'Ranges only — the profile publishes the middle 50%, not percentiles or tester counts.',
       },
       {
         title: 'GPA ranges',
-        hint: '— Class of 2022 · TO VERIFY',
+        hint: '— Class of 2024',
         noPercentiles: true,
         rows: [
-          { label: 'Weighted GPA', values: ['3.64–4.58'] },
-          { label: 'Unweighted GPA', values: ['3.35–3.86'] },
+          { label: 'Weighted GPA', values: ['3.67–4.50'] },
+          { label: 'Unweighted GPA', values: ['3.29–3.81'] },
         ],
         note: 'Ranges, not a quintile distribution — the school does not rank, and no GPA quantiles are published.',
       },
     ],
     quintiles: [],
     gpaNote:
-      'No GPA distribution or quintile table is published — the weighted/unweighted ranges above (Class of 2022) are the entire GPA disclosure the research located.',
+      'No GPA distribution or quintile table is published — the weighted/unweighted ranges above (Class of 2024) are the entire GPA disclosure the research located.',
     support: [
       {
         label: 'Personal counseling on staff',
@@ -657,16 +669,12 @@ export const carmelChristian: CollegeSupportProgram = {
     ],
     flags: [
       {
-        kind: 'verify',
-        text: 'Every figure on this card is from a cached 2022–23 profile (Class of 2022); the current-year School Profile PDF 404s under every filename variant and Wayback was rate-limited during this pass. Re-hunt the current profile at ingest and refresh these numbers.',
-      },
-      {
         kind: 'gap',
         text: 'No score percentiles, no GPA quintiles, no tester counts and no per-quintile outcomes are published — only the ranges above. The shape of the class is not recoverable from public sources.',
       },
     ],
     sources: [
-      { label: 'carmelchristian.org — 2022–23 High School Profile (SAT/ACT/GPA ranges, rank policy) — cached, Class of 2022, TO VERIFY' },
+      { label: 'carmelchristian.org — 2024–25 High School Profile (SAT/ACT/GPA ranges, rank policy)', url: SCHOOL_PROFILE },
       { label: 'carmelchristian.org — College Acceptances (breadth of destinations)', url: ACCEPTANCES },
     ],
   },
@@ -695,8 +703,8 @@ export const carmelChristian: CollegeSupportProgram = {
         text: 'Around 215 named acceptances led by Princeton and Duke, deep in NC publics and Christian colleges — but the list marks no matriculations, so it shows acceptances, not where students enrolled.',
       },
       {
-        label: 'The quantitative profile is stale',
-        text: 'The most recent SAT/ACT/GPA data the research located is Class of 2022, from a cached profile; the current-year profile could not be relocated. That is the first thing to ask for on a visit.',
+        label: 'The weighting changes with the Class of 2026',
+        text: 'The profile states that from the Class of 2026 honors courses carry **+0.5** and AP courses **+1.0**, down from the **+1** and **+2** quality points behind the GPA ranges above — so a weighted GPA quoted today is not calculated the same way as one quoted for a current freshman.',
       },
     ],
     checklist: [
