@@ -1,7 +1,7 @@
 ---
 name: ccwrap
 title: Reproduce the Charlotte Catholic CLS spike against the live site, and fix it only if it is real
-status: not-implemented
+status: implemented
 phases: 1
 created: 2026-08-24
 branch: perf/cc-wrap
@@ -179,3 +179,104 @@ triggers, the fix targets header layout only and must leave the settled page ide
   fixing once the mechanism is known and the rate is measured.
 - **Should `--origin` runs become a routine post-deploy check?** — **default:** out of scope;
   note it as a follow-up if the flag proves useful.
+
+
+## Implementation notes
+
+**Outcome: REPRODUCED, traced, and fixed.** The plan was written as a measurement pass that
+would probably close as a negative. It closed the other way — and three of its premises were
+wrong in ways worth recording, because each would have misdirected the fix.
+
+### 1. It was never intermittent
+
+The plan is built around "a 1-in-3 spike vs. noise", and sizes its sample (20 runs) to tell
+those apart. Neither was the case. Against the deployed site:
+
+| Route | Runs | Median | Max | >0.1 |
+|---|---|---|---|---|
+| `/school/charlotte-catholic/` desktop | 20 | 0.3494 | 0.3585 | **19/20** |
+| `/school/charlotte-catholic/` mobile | 20 | 0.0229 | 0.0229 | 0/20 |
+| `/school/davidson-day/` (control) | 20 | 0.0016 | 0.0020 | 0/20 |
+| `/school/cannon/` (control) | 20 | 0.0018 | 0.0019 | 0/20 |
+
+**19 of 20 POOR.** The clean 0.0000 is the outlier, not the spike — the original three-run
+sample simply drew the rare clean run twice. The recorded `0.3492` is the *normal* value, and
+it also reproduced locally at 5/5 (min 0.3488) once actually measured, contradicting the
+plan's "0.0000 on every local run". So `--origin` was **not** required to see the defect,
+though it was required to establish the rate and to confirm production matched.
+
+Worth generalising: **a defect reported as "1 in 3" deserves a re-measure before it is
+modelled as a race.** The failure mode here was a three-run sample, not a rare event.
+
+### 2. The trigger is the webfont swap, not network timing
+
+Controlled experiment, with the block verified to have taken effect rather than assumed:
+
+| Condition | CLS | chip row height | fonts loaded |
+|---|---|---|---|
+| normal | 0.3494 | 32px | Barlow, Barlow Condensed |
+| `fonts.googleapis.com`/`gstatic.com` blocked | **0.0002** | 71px | Barlow Condensed Fallback |
+
+Chips are `white-space: nowrap`, so each is exactly as wide as its string; Barlow renders
+them ~7% narrower than the Arial-ish fallback (measured on the eight real labels at 13px/600:
+per-string 0.9058–0.9357, aggregate 0.9153). The trace showed one shift at t=287ms worth
+0.3490 of the 0.3494 total, with `.school-header-topics` going 71px → 32px, the header
+238px → 198px, and `.dossier-layout` moving up exactly 39px.
+
+That this is desktop-only is corroborating evidence: at 390px the row wraps regardless, so
+there is no boundary to cross, and mobile measured 0/20.
+
+### 3. The recorded slack figure was backwards, and that is the whole defect
+
+`vitals.md` describes "941px content in a 1014px box — only 73px of slack". That is the
+**settled** state. The wrap decision is made in the **fallback** state, where the same chips
+measure **1016px against the 1014px box — over by 2px.** The row therefore laid out as two
+lines and collapsed to one when Barlow arrived. The page was not sitting on the boundary with
+73px to spare; it was 2px on the wrong side of it.
+
+### The fix, and the one that was rejected after measuring
+
+Shipped: `.school-header-topics` gap **8px → 6px**. With 8 chips that removes 12px from both
+states, so the fallback (1016 → 1004px) fits the same single row the settled layout uses and
+the count can no longer flip. It scales both states equally, which is why it is safe for the
+other ten schools — they carry 9 chips at ~1110/1028px against an 830 or 1014px box and are
+unambiguously two rows either way. 7px also cleared it, but by only 5px; 6px leaves 12px of
+headroom on a rule shared by eleven pages and nine locales, where a longer translated label
+could otherwise reopen it.
+
+**Rejected after measuring — a `size-adjust: 91.5%` metric-override fallback for the body
+face.** It is the more principled fix (it removes the swap resize at source) and it did cure
+this page, 0.3635 → 0.0016. But it **regressed four other schools from 0.0022 to ~0.39** —
+carmel-christian, covenant-day, gaston-day, hickory-grove-christian — by shrinking their
+fallback row from 1044px to 993px and dropping it below their 1014px box, putting *them* on
+the boundary. Reverted. Recorded here so it is not re-attempted: **on this layout, any global
+font-width change moves the boundary for someone.** The plan's own step-6 instinct — widen the
+slack — was right.
+
+`min-height` was rejected without needing measurement, per the plan: it reserves two lines for
+a row that legitimately wants one here.
+
+### Verification
+
+- `--origin <url>` added to `scripts/check_vitals.mjs`; default local `dist/` behaviour
+  unchanged, non-http origin exits 2, trailing slash normalised.
+- Per-run **CLS distribution** (min/med/max/count over 0.1/raw values) now printed for
+  `--runs > 1`, since a median hides exactly the thing being hunted.
+- Full desktop sweep after the fix: **every school page GOOD, 0/3 over threshold.**
+  Charlotte Catholic 0.3635 → **0.0022**. `/compare/` unchanged at 0.1263 (the pre-existing
+  accepted residual from `compare-cls.md`).
+- Settled geometry diffed before/after across **all eleven** school pages: identical row
+  counts, chip counts and 1-row/2-row states; only the expected 2px inter-row gap changed
+  (71 → 69px on 2-row pages; Charlotte Catholic unchanged at 32px).
+- Browser-verified in real headed Chrome at 1280×900 — Charlotte Catholic's single row has no
+  blank band, and the 2-row headers do not read as cramped.
+- `npx tsc --noEmit` clean; `npm run lint` clean apart from a pre-existing unrelated warning
+  in `check_fa_script.mjs`; `npm run build` clean.
+
+### Follow-up left open, deliberately
+
+The plan's open question — whether `--origin` runs should become a routine post-deploy check
+— stays out of scope, but the flag proved its worth on first use: it is what established the
+19/20 rate. Note also that `--origin` measures **whatever is deployed**; these live numbers
+describe Pages build `0d96d408`, which predates PRs #200–#203 (translation-only, no layout
+effect).

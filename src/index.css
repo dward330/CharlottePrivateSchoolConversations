@@ -740,7 +740,36 @@ main { flex: 1; }
 }
 .dossier-header h1 { font-size: clamp(30px, 5vw, 44px); margin: 0 0 6px; }
 .school-sub { color: var(--muted); margin: 0 0 12px; font-size: 14px; }
-.school-header-topics { display: flex; flex-wrap: wrap; gap: 8px; }
+/* gap is 6px, not 8px, and that is load-bearing — it is the fix for a 0.35
+   desktop CLS on /school/charlotte-catholic/.
+
+   These chips are `white-space: nowrap` text, so each is exactly as wide as its
+   string, and the row's height is therefore decided by whether the strings fit.
+   Barlow renders them ~7% narrower than the Arial-ish fallback shown while the
+   webfont loads, so the row can be one width before the swap and another after.
+   Charlotte Catholic is the only school where that crosses a wrap boundary: at
+   gap 8 its chips measured 1016px in the fallback against a 1014px box — over by
+   TWO PIXELS, so the row laid out as two lines, then Barlow shrank it to 941px
+   and it collapsed to one. The header went 238px -> 198px and every section below
+   jumped up 39px: one 0.3490 shift, on 19 of 20 live runs.
+
+   Dropping the gap to 6px removes 12px (8 chips, 7 gaps) from BOTH states, so the
+   fallback fits the same single row the settled layout uses and the row count can
+   no longer flip. It scales both states equally, which is why it is safe for the
+   other ten schools: they carry 9 chips at 1110px/1028px against an 830px or
+   1014px box and are unambiguously two rows either way — nowhere near a boundary.
+
+   Rejected alternatives, both measured: `min-height` for two rows reserves a
+   visible ~39px blank band on this very page (it legitimately wants one row), and
+   a `size-adjust` metric-override on the body face fixed this page but pushed
+   carmel-christian, covenant-day, gaston-day and hickory-grove-christian from
+   0.0022 to ~0.39 by moving THEM onto the boundary.
+
+   The margin here is 12px, not 2px. Re-measure with
+   `npm run check:vitals -- --route /school/charlotte-catholic/ --runs 5` if the
+   chip labels, the body face, or the header's width budget change — a longer
+   translated label can reopen it. See .claude/plans/ccwrap.md. */
+.school-header-topics { display: flex; flex-wrap: wrap; gap: 6px; }
 /* School's official athletics mascot mark, pinned to the right of the header.
    dossier-body has flex:1, so the crest sits at the far right; on narrow/wrapping
    layouts the whole header reflows and the crest drops below the text.
