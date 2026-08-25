@@ -57,3 +57,4 @@ Newest last.
 | [siblingtail2](siblingtail2.md) | Re-triage the parenthetical-modifier class the siblingtail fixes exposed — including three of siblingtail's own edits | 2026-08-24 | Implemented | [#203](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/203) |
 | [livecap](livecap.md) | Fix check:live's findings cap, which truncates the list while the summary counts every finding | 2026-08-24 | Implemented | [#209](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/209) |
 | [citebackfill](citebackfill.md) | Backfill deep-link URLs for the name-only Sports and Student Clubs citations | 2026-08-24 | Not implemented — rewritten 2026-08-24 after a measurement pass; scoped to 2 files then review | — |
+| [mobilelcp](mobilelcp.md) | Settle the mobile LCP outliers — six routes report the bundle's arrival, not their paint | 2026-08-25 | Implemented | [#212](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/212) |

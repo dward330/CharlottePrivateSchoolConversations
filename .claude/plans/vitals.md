@@ -269,20 +269,63 @@ grounds, but do not justify it with LCP numbers.
 
 ### 3. Mobile LCP — the 20.7s figures are an ARTIFACT, not a regression
 
-`check:vitals -- --mobile` reports ~20.7s on `/school/cannon/` and
-`/school/davidson-day/`, and ~2.0s on the other nine — including
-`/school/providence-day/`, which is the **largest** page (484 KB) and therefore cannot be
-explained by size.
+> **CORRECTED 2026-08-25 by `.claude/plans/mobilelcp.md`.** The conclusion below held —
+> these figures are an artifact and the real paint is ~2s — but the paragraph explaining
+> the mechanism was **wrong in two ways**, and the affected route list was out of date.
+> Both are corrected here rather than left to be copied forward. The harness now reports
+> a paint LCP and flags supersession, so this is no longer an unexplained red.
 
-Traced: both slow pages emit a **second LCP candidate at ~+17.9s**, for the *same* element
-grown from 11160 to 11412 bytes — a podcast line ("… is also covered in 1 episode
-outside…") reflowing when the bundle finally lands. LCP takes the last candidate, so those
-two pages report the bundle's arrival time while the other nine report their real paint.
+`check:vitals -- --mobile` reports a POOR LCP on **six** routes, not two — re-measured
+2026-08-25, median of 3:
 
-**The real first paint is ~2.0–2.3s GOOD on every school page.** The original plan's
-mobile-LCP work is therefore dropped, not deferred. If a future pass wants a true mobile
-LCP number, it must exclude late candidates that merely re-measure an already-painted
-element.
+| POOR | | GOOD | |
+|---|---|---|---|
+| `/school/davidson-day/` | 20,812ms | `/compare/` | 1,604ms |
+| `/school/cannon/` | 20,624ms | `/school/charlotte-catholic/` | 2,000ms |
+| `/school/covenant-day/` | 19,972ms | `/school/hickory-grove-christian/` | 2,004ms |
+| `/school/gaston-day/` | 19,624ms | `/school/charlotte-country-day/` | 2,364ms |
+| `/school/carmel-christian/` | 19,452ms | `/school/charlotte-latin/` | 2,432ms |
+| `/` | 12,604ms | `/school/charlotte-christian/` | 2,432ms |
+| | | `/school/providence-day/` | 2,432ms |
+
+**Correction 1 — it is six routes, not three.** This follow-up originally listed
+`/school/cannon/`, `/school/davidson-day/` and `/`. Carmel Christian, Covenant Day and
+Gaston Day have since joined them, so "a known artifact on two pages" understated it and
+the set should be expected to keep growing.
+
+Not explained by page size: `/school/providence-day/` is the **largest** pre-rendered page
+(489 KB) and reports 2,432ms, while `/school/gaston-day/` (279 KB) reports 19,624ms.
+
+**Correction 2 — the element does not grow, and it is not usually the podcast line.**
+This follow-up said the second candidate was "the *same* element grown from 11160 to 11412
+bytes — a podcast line reflowing." Measured, both halves are wrong:
+
+- Nothing reflows. On `/school/gaston-day/` both candidates are the same
+  `<P.welcome-caption>` with **identical 85-character text**; `size` moves only
+  10608 → 10745 (1.013×) because the entry is **re-reported**, not because it grew.
+- It is not one element. `/school/carmel-christian/` goes `<H1>` (23 chars) →
+  `<P.welcome-caption>` (91 chars). Any test keyed on element identity would miss it.
+
+**The real mechanism, proven by a controlled experiment.** The pre-rendered HTML paints at
+~2.0s; the 2.2 MB main bundle finishes at `responseEnd` **+19,403ms**; React hydrates and
+the browser re-nominates a largest element at **+19,628ms** — 225ms later, in 3/3 runs, so
+it is deterministic rather than a race. `PerformanceObserver` hands you the **last** entry,
+so the harness recorded the bundle's arrival and called it the paint. Blocking
+`index-*.js` — with the route asserted to have matched a **non-zero** number of requests —
+removes the second candidate entirely and takes the route from 19,628ms to **1,568ms**.
+
+**The real first paint is ~1.6–2.4s GOOD on every route.** The original plan's mobile-LCP
+work stays dropped. `check_vitals.mjs` now reports the first candidate as `paint LCP` and
+prints a `↳ superseded at …` line carrying the final spec figure, so **neither number is
+hidden** — see its header docstring.
+
+**What this does NOT mean.** The ~17s gap is real: on an emulated Fast-3G connection the
+site is not interactive for that long. That is a TTI/INP problem owned by follow-up 2 and
+`.claude/plans/bundlesplit.md` (abandoned 2026-08-24 on a mobile-CLS regression), and none
+of the above may be cited as evidence the site loads fast on a slow connection. Real Chrome
+finalises LCP at first interaction or page hide, not after an arbitrary wait, so a visitor
+who scrolls before the bundle lands finalises at ~2s — check Search Console's CrUX data
+before drawing any conclusion about ranking impact.
 
 ---
 
@@ -425,3 +468,8 @@ by moving *them* onto the boundary.
 Compare's CLS (1), the bundle (2) and the mobile-LCP artifact (3) are all as recorded — none
 were touched. One new observation for whoever takes (1): `/` now also reports a POOR mobile
 LCP (12.7s), which has the same late-candidate shape as (3) and is probably the same artifact.
+
+> **Confirmed 2026-08-25, no longer "probably".** `/` is the same mechanism, measured: the
+> bundle's `responseEnd` lands at +12,454ms and a second candidate at +12,600ms, both the
+> **identical** 142-character `<P.lede>` (size 35292 → 36108, 1.023×). Blocking the bundle
+> leaves one candidate at 1,168ms. It is counted in the six-route set in follow-up 3 above.
