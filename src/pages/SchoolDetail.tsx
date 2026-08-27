@@ -103,6 +103,8 @@ import {
   SummerPhotoBand,
 } from '../components/SummerPrograms.tsx'
 import { WelcomeVideo, PlayIcon } from '../components/WelcomeVideo.tsx'
+import { LatestNews, NewspaperIcon } from '../components/LatestNews.tsx'
+import { newsSourceFor } from '../lib/news/sources.ts'
 import { useTranslation } from 'react-i18next'
 import { topicLabel, metricLabel, cardTitle } from '../lib/labels.ts'
 import { localizeMoneyText } from '../lib/format.ts'
@@ -427,6 +429,9 @@ export function SchoolDetail({ slug }: { slug: string }) {
   }
 
   const brand = brandOf(slug)
+
+  /* Absent slug -> no chip, no rail item, no section (absence-of-data). */
+  const newsSource = newsSourceFor(slug)
   const totalDocs = covered.reduce((sum, t) => sum + docCount(t.slug, slug), 0)
   const otherSlugs = allSchools.map((s) => s.slug)
 
@@ -457,6 +462,16 @@ export function SchoolDetail({ slug }: { slug: string }) {
               >
                 <PlayIcon size={10} />
                 {tr('school.welcomeVideo')}
+              </a>
+            )}
+            {newsSource && (
+              <a
+                className="chip chip-accent"
+                href="#news"
+                onClick={(e) => scrollToId(e, 'news')}
+              >
+                <NewspaperIcon size={10} />
+                {tr('news.tocLabel')}
               </a>
             )}
             {covered.map((t) => (
@@ -511,6 +526,16 @@ export function SchoolDetail({ slug }: { slug: string }) {
               {tr('school.welcomeVideo')}
             </a>
           )}
+          {newsSource && (
+            <a
+              className="dossier-nav-welcome"
+              href="#news"
+              onClick={(e) => scrollToId(e, 'news')}
+            >
+              <NewspaperIcon size={13} />
+              {tr('news.tocLabel')}
+            </a>
+          )}
           <div className="dossier-nav-label">{tr('school.researchAreas')}</div>
           {covered.map((t) => (
             <a
@@ -554,6 +579,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
           {brand.welcomeVideoUrl && (
             <WelcomeVideo name={school.name} url={brand.welcomeVideoUrl} />
           )}
+          {newsSource && <LatestNews slug={slug} source={newsSource} />}
           {covered.map((t) => {
             const allGroups = loaded[t.slug] ?? []
             /* Per-school overrides: some schools use a school-specific card

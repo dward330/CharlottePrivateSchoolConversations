@@ -90,13 +90,30 @@ export function parse(html: string, _boardUrl: string): NewsItem[] {
  * The only real preview text is the first substantive paragraph of the article
  * body, scoped to `.fsPageBody` so nav and footer prose cannot be mistaken for
  * article copy on a short post.
+ *
+ * TRAP 3 — a PHOTO CAPTION can outrank the opening paragraph.
+ *
+ * Found in the browser check, not in the HTML capture: several posts lead with
+ * a captioned hero image, and that caption is a <p> inside
+ * `<figure class="fsImageCaptioned">` sitting BEFORE the first body paragraph.
+ * It is comfortably over 60 chars, so a plain "first long <p>" rule returns
+ * "Pictured: Brooks Hinton '27 with Lower School Freedom School scholars." as
+ * the preview — grammatical, plausible, and not what the story is about.
+ * Captions are therefore excluded structurally.
  */
+
+/** A <p> that is really an image caption or photo credit, not article prose. */
+function isCaption(el: Element): boolean {
+  if (el.closest('figure, figcaption, .fsImageCaptioned, .fsCaption')) return true
+  return /^\s*(pictured|photo|above|l-r|l to r)\b[:\u2014-]/i.test(el.textContent ?? '')
+}
 export function preview(html: string): string | undefined {
   const doc = new DOMParser().parseFromString(html, 'text/html')
   const scope = doc.querySelector('.fsPageBody') ?? doc.body
   if (!scope) return undefined
 
   for (const p of Array.from(scope.querySelectorAll('p'))) {
+    if (isCaption(p)) continue
     // textContent decodes &#39; / &nbsp; for us; NBSP still needs flattening.
     const text = (p.textContent ?? '').replace(/ /g, ' ').replace(/\s+/g, ' ').trim()
     if (text.length > 60) return truncatePreview(text)

@@ -4835,3 +4835,279 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
 :root[lang='te'] .section-sub {
   line-height: 1.6;
 }
+
+
+/* ------------------------------------------------------------ latest news */
+
+/* The school's own news board, fetched and parsed at render time. Ported from
+   "Providence Day School.dc.html" (section id="news") in the design project;
+   the mock's token names were renamed on the way in exactly as the podcast
+   strip's were (--color-divider → --border, --space-4 → 16px). The mock's
+   .blueprint / .duotone helper classes do not exist in this stylesheet, so the
+   frame and the photo treatment are written out here.
+
+   ARTICLE CONTENT IS NEVER TRANSLATED — headlines, dates and previews render in
+   the source language in every locale. Only the chrome around them is a locale
+   key. See .claude/skills/add-school-news/SKILL.md. */
+
+.news-section { scroll-margin-top: 80px; }
+.news-head {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 10px;
+  margin-bottom: 16px;
+}
+.news-head h2 { font-size: clamp(24px, 3vw, 30px); margin: 0; }
+.news-head .glyph { color: var(--brand); align-self: center; display: inline-flex; }
+.news-note { color: var(--muted); font-size: 13px; }
+
+/* ---- featured card (newest article) ---- */
+
+.news-featured {
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  border: 1px solid var(--border);
+  text-decoration: none;
+  color: inherit;
+}
+/* No photo -> a single full-width text column. Never an empty image box. */
+.news-featured.no-photo { grid-template-columns: 1fr; }
+.news-featured:hover { background: color-mix(in srgb, var(--brand) 4%, transparent); }
+
+.news-featured-photo {
+  display: block;
+  min-height: 220px;
+  border-right: 1px solid var(--border);
+  overflow: hidden;
+  background: var(--accent-200);
+}
+.news-featured-photo img {
+  width: 100%;
+  height: 100%;
+  min-height: 220px;
+  object-fit: cover;
+  display: block;
+  /* Same duotone recipe as the summer-programs photo band, so a school's news
+     photos read as part of the same system rather than as stock imagery. */
+  filter: grayscale(1) contrast(1.08);
+  mix-blend-mode: multiply;
+}
+
+.news-featured-body {
+  display: flex;
+  flex-direction: column;
+  padding: 18px 20px;
+  gap: 8px;
+}
+.news-kicker {
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--brand);
+  font-family: var(--heading);
+}
+.news-featured-title {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 1.15;
+}
+.news-featured-preview { color: var(--muted); font-size: 14px; line-height: 1.5; }
+.news-read {
+  /* Pushed to the bottom of the card regardless of preview length. */
+  margin-top: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--brand);
+  font-size: 13px;
+  font-weight: 600;
+  padding-top: 6px;
+}
+
+/* ---- list rows ---- */
+
+.news-rows { border: 1px solid var(--border); border-top: 0; }
+.news-row {
+  display: grid;
+  grid-template-columns: 64px 1fr auto;
+  gap: 16px;
+  align-items: center;
+  padding: 13px 16px;
+  border-top: 1px solid var(--border);
+  text-decoration: none;
+  color: inherit;
+}
+.news-row:hover { background: color-mix(in srgb, var(--brand) 4%, transparent); }
+.news-row-date {
+  font-family: var(--heading);
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.news-row-main { display: block; min-width: 0; }
+.news-row-title {
+  display: block;
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 1.3;
+}
+.news-row-preview {
+  display: block;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.45;
+  margin-top: 3px;
+}
+.news-row-end {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--brand);
+}
+/* No photo -> the thumbnail is omitted entirely and the auto column absorbs it;
+   the arrow stays. */
+.news-row-thumb {
+  display: block;
+  width: 92px;
+  height: 58px;
+  border: 1px solid var(--border);
+  overflow: hidden;
+  background: var(--accent-200);
+  flex: none;
+}
+.news-row-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  filter: grayscale(1) contrast(1.08);
+  mix-blend-mode: multiply;
+}
+
+/* ---- footer bar ---- */
+
+.news-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  flex-wrap: wrap;
+  padding: 10px 0 0;
+}
+.news-foot-note { color: var(--muted); font-size: 12.5px; }
+.news-all {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--brand);
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.news-all:hover { text-decoration: underline; }
+
+/* ---- error state ---- */
+
+.news-error { border: 1px solid var(--border); padding: 18px 20px; }
+.news-error-title { margin: 0 0 6px; font-weight: 600; }
+.news-error-body { margin: 0 0 12px; color: var(--muted); font-size: 13.5px; }
+
+/* ---- loading experience ---- */
+
+@keyframes newsPulse { 0%, 100% { opacity: 0.45; } 50% { opacity: 1; } }
+@keyframes newsSpin  { to { transform: rotate(360deg); } }
+@keyframes newsBar   { 0% { left: -30%; } 100% { left: 100%; } }
+@keyframes newsFadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: none; }
+}
+
+.news-reveal { animation: newsFadeIn 0.4s ease; }
+
+.news-loading-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.news-crosshair { display: inline-flex; color: var(--brand); }
+.news-crosshair.is-spinning svg { animation: newsSpin 1.4s linear infinite; }
+.news-status {
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-family: var(--heading);
+}
+.news-loading-domain { margin-left: auto; color: var(--muted); font-size: 12px; }
+
+.news-hairline {
+  position: relative;
+  height: 2px;
+  overflow: hidden;
+  background: var(--border);
+  margin-bottom: 16px;
+}
+.news-hairline span {
+  position: absolute;
+  top: 0;
+  width: 30%;
+  height: 100%;
+  background: var(--brand);
+  left: -30%;
+}
+.news-hairline.is-sweeping span { animation: newsBar 1.6s ease-in-out infinite; }
+
+.news-sk-featured {
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  border: 1px solid var(--border);
+  min-height: 220px;
+}
+.news-sk-photo { background: var(--border); }
+.news-sk-lines {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px;
+}
+.news-sk-row {
+  display: grid;
+  grid-template-columns: 64px 1fr 92px;
+  gap: 16px;
+  align-items: center;
+  padding: 16px;
+  border: 1px solid var(--border);
+  border-top: 0;
+}
+.news-sk-line { display: block; height: 12px; background: var(--border); }
+.news-sk-thumb { display: block; height: 58px; background: var(--border); }
+.news-sk-line.w40 { width: 40%; }
+.news-sk-line.w70 { width: 70%; }
+.news-sk-line.w80 { width: 80%; }
+.news-sk-line.w90 { width: 90%; }
+.news-sk-line.w-date { width: 100%; }
+.is-pulsing { animation: newsPulse 1.5s ease-in-out infinite; }
+
+/* Accessibility baseline: no spin, sweep or pulse, and a static status line.
+   Not in the design reference — required by this app's motion policy. */
+@media (prefers-reduced-motion: reduce) {
+  .news-reveal,
+  .news-crosshair svg,
+  .news-hairline span,
+  .is-pulsing { animation: none !important; }
+}
+
+@media (max-width: 720px) {
+  .news-featured, .news-sk-featured { grid-template-columns: 1fr; }
+  .news-featured-photo { border-right: 0; border-bottom: 1px solid var(--border); }
+  .news-featured-title { font-size: 21px; }
+  .news-row, .news-sk-row { grid-template-columns: 52px 1fr auto; gap: 12px; }
+  .news-row-thumb { width: 64px; height: 42px; }
+}

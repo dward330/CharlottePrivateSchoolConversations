@@ -242,7 +242,24 @@ every row.
 boilerplate, take the first substantive `<p>` (>60 chars) of the article body instead,
 truncated to ~160 chars on a word boundary.
 
-### Trap 3 — the board may carry no summary at all
+### Trap 3 — a photo caption can outrank the opening paragraph
+
+Found in the **browser check** of the Providence Day build, not in its HTML capture — so
+it survives a careful `curl` pass. Posts that lead with a captioned hero image put that
+caption in a `<p>` inside `<figure class="fsImageCaptioned">`, **before** the first body
+paragraph. It is well over 60 chars, so a plain "first substantive `<p>`" rule ships
+
+> "Pictured: Brooks Hinton '27 with Lower School Freedom School scholars."
+
+as the preview: grammatical, plausible, and not what the story is about. Two of ten rows
+were wrong this way.
+
+Exclude captions **structurally** rather than by wording —
+`p.closest('figure, figcaption, .fsImageCaptioned, .fsCaption')` — with a
+`Pictured:` / `(L)` text guard as a backstop. **Read the previews on the rendered page**;
+this class of defect only shows up there.
+
+### Trap 4 — the board may carry no summary at all
 
 Common (Finalsite list views show only thumbnail/title/date). Previews then need a second
 fetch per article. Render the list as soon as the board parse resolves and let previews
@@ -261,7 +278,7 @@ Captured 2026-08-27; all 10 articles server-rendered, HTTP 200, ~62KB.
 | Date | `time[datetime]` | ISO-8601, e.g. `2026-08-24T08:00:00-04:00` |
 | Photo | `img[data-image-sizes]` | entity-encoded JSON — **Trap 1** |
 | Summary | — | **absent** — needs per-article fetch |
-| Preview | first body `<p>` >60 chars | **not** `og:description` — **Trap 2** |
+| Preview | first body `<p>` >60 chars, **captions skipped** | **not** `og:description` — **Traps 2 & 3** |
 
 **URL — user-confirmed 2026-08-27:**
 `https://www.providenceday.org/about/pd-communications/news-media`
@@ -335,6 +352,7 @@ data read 100% has been render-layer:
 | Error state, one school | Site redesign — re-run step 2, diff against the `source-material` record |
 | Renders, but no photos anywhere | **Trap 1** — photos moved to a data attribute |
 | Every preview identical/boilerplate | **Trap 2** — `og:description` is not a summary |
+| Previews read "Pictured: …" / describe a photo | **Trap 3** — a caption is outranking the body text |
 | Empty section, HTTP 200 | Wrong URL (step 1) or selectors matching nothing |
 | Headlines in English on a translated page | **Not a bug.** See the top of this skill. |
 
