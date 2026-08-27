@@ -115,6 +115,13 @@ export async function fetchNews(opts: FetchNewsOptions): Promise<NewsItem[]> {
     onPhase?.('extracting')
     clearTimeout(timer)
 
+    /* Cache the headline-only result IMMEDIATELY. Previews take ~10 further
+       round-trips; if we waited for them to settle before writing, a visitor
+       who navigated away mid-flight would cache nothing and re-hit the proxy
+       from scratch on their next visit. The preview pass overwrites this entry
+       with the enriched copy when it finishes. */
+    writeCache(slug, items)
+
     void hydratePreviews({ slug, source, items, signal, onUpdate })
     return items
   } catch (err) {

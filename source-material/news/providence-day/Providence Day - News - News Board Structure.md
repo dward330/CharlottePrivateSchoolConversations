@@ -42,7 +42,7 @@ no JavaScript execution required. `curl` returns HTTP 200 and 61,995 bytes.
 
 **Item count observed:** exactly 10 articles, newest first.
 
-## The two non-obvious traps
+## The three non-obvious traps
 
 1. **Photos are not in `src`.** The `<img>` carries no `src` at all — it is lazy-hydrated
    client-side. The real URLs live in `data-image-sizes` as escaped JSON
@@ -56,6 +56,22 @@ no JavaScript execution required. `curl` returns HTTP 200 and 61,995 bytes.
    article — worse than absent, because it looks like a valid summary. The only real
    preview text is the **first substantive `<p>` of the article body**, which requires a
    second fetch per article.
+
+3. **A photo caption can outrank the opening paragraph.** Found during the browser
+   verification of the `latestnews` build (2026-08-27), NOT in the original HTML capture.
+   Several posts lead with a captioned hero image whose caption is a `<p>` inside
+   `<figure class="fsImageCaptioned">`, appearing **before** the first body paragraph.
+   It is well over 60 characters, so a plain "first substantive `<p>`" rule returns
+
+   > "Pictured: Brooks Hinton '27 with Lower School Freedom School scholars."
+
+   as the article preview — grammatical, plausible, and not what the story is about.
+   Affected the *Inspired to Serve* (Jul 21) and *Prestigious National Recognition*
+   (Jun 23) posts. The parser excludes captions **structurally** (`closest('figure,
+   figcaption, .fsImageCaptioned, .fsCaption')`) plus a `Pictured:` / `(L)` text guard.
+
+   This trap is a general Finalsite risk, not a Providence Day quirk — check it when
+   adding any school whose previews come from article bodies.
 
 ## Dates observed on the board (2026-08-27 capture)
 
@@ -81,3 +97,7 @@ The board sends **no `Access-Control-Allow-Origin` header**. A browser `fetch()`
 `charlotteschoolinsights.com` is therefore blocked by the same-origin policy. This is a
 property of the school's server, not something the parser can work around; see the
 `latestnews` plan for the consequence.
+
+The relay chosen at implementation time is **`https://corsproxy.io/?url=`**, held in the
+single `PROXY` constant in `src/lib/news/fetchNews.ts`. Migrating to a Cloudflare Worker
+changes that one constant and no parser code.
