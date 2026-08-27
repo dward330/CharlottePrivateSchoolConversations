@@ -1,8 +1,9 @@
 ---
 name: add-school-news
 description: >
-  Add a school's live "Latest News" section to its dossier page — confirm the school's
-  news board URL with the user, inspect that site's real HTML, write a dedicated parser
+  Add a school's live "Latest News" section to its dossier page — confirm WHICH SCHOOL and
+  its news board URL with the user (both are blocking questions; never infer either),
+  inspect that site's real HTML, write a dedicated parser
   for its CMS, persist the structure into source-material, and register it so the section
   renders. Use when the user says "add news for <school>", "wire up the news section",
   "add the Latest News feed for <school>", or asks why a school's news section is missing
@@ -64,6 +65,39 @@ correct behavior.** Point them here.
 
 ---
 
+## Step 0 — STOP. Get the SCHOOL from the user, and wait for it
+
+**If the invocation did not name a school, ask which one and block on the answer.**
+
+> "Which school should I add the Latest News section for?"
+
+### Do not infer which school — not by any route
+
+Same rule and same reasoning as step 1. **All of these are forbidden:**
+
+- ❌ the next school in `src/data/schools.json` or alphabetical order
+- ❌ the school named in a plan, an open branch, or a recent commit
+- ❌ "the one after whichever shipped last"
+- ❌ the school in the design reference file (that is Providence Day for *every* mockup,
+  because the design was authored on that page — it says nothing about which school is next)
+- ❌ a school inferred from anything else in the repo
+
+If the user names a school, use exactly that one. **Do not expand the scope** — adding news
+is deliberately one school at a time, and doing two because they seem related is not the
+user's decision to make.
+
+### Why
+
+Picking the wrong school wastes the entire pass: the URL question, the HTML inspection, the
+parser and the provenance record are all school-specific, and none of it transfers. Worse,
+it can look like progress — a committed parser for a school nobody asked for reads as
+completed work.
+
+**Both blocking questions can be asked together.** If nothing was named, ask for the school
+*and* its news board URL in one message, then wait for both.
+
+---
+
 ## Before you start
 
 **Is the shared infrastructure built yet?**
@@ -75,7 +109,7 @@ ls src/lib/news/ 2>/dev/null && ls src/components/LatestNews.tsx 2>/dev/null
 - **Missing** → this is the first school. Build the whole feature from
   [`.claude/plans/latestnews.md`](../../plans/latestnews.md); this skill's step 3 is the
   parser part of that work.
-- **Present** → adding a school is only steps 1–6 below. Do not touch the component,
+- **Present** → adding a school is only steps 0–6 below. Do not touch the component,
   chrome strings, styles or wiring.
 
 ---

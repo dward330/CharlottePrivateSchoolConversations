@@ -1,0 +1,188 @@
+import { normalizeItems, type NewsItem, type NewsSource } from './types'
+
+/** The CORS relay.
+ *
+ *  School news boards send no `Access-Control-Allow-Origin` header, so a direct
+ *  browser fetch from this static site is blocked by the same-origin policy —
+ *  for every school, for every visitor. That is a property of the schools'
+ *  servers; no parser change affects it. The app is on GitHub Pages with no
+ *  backend, so a relay is the only runtime path.
+ *
+ *  ACCEPTED RISK: a public relay is rate-limited and can fail without notice.
+ *  When it does, visitors get the designed error state instead of news — which
+ *  is why that state is a required deliverable, not a nicety.
+ *
+ *  MIGRATION PATH: standing up a Cloudflare Worker changes THIS CONSTANT ONLY
+ *  and no parser code, because all parsing is isolated behind fetchNews().
+ */
+export const PROXY = 'https://corsproxy.io/?url='
+
+const TIMEOUT_MS = 12_000
+const CACHE_TTL_MS = 30 * 60 * 1000
+
+/** Real parse phases, so the UI's status line advances on events rather than on
+    a timer. The design reference's 2.4s setTimeout is a mock and must not ship. */
+export type NewsPhase = 'contacting' | 'parsing' | 'extracting'
+
+export class NewsError extends Error {}
+
+function proxied(url: string): string {
+  return `${PROXY}${encodeURIComponent(url)}`
+}
+
+async function getText(url: string, signal: AbortSignal): Promise<string> {
+  const res = await fetch(proxied(url), { signal })
+  if (!res.ok) throw new NewsError(`HTTP ${res.status} for ${url}`)
+  return res.text()
+}
+
+/** Parse third-party markup in an inert document. NEVER inject fetched HTML
+    into the live DOM — this is untrusted markup from a site we do not control. */
+function toDoc(html: string): Document {
+  return new DOMParser().parseFromString(html, 'text/html')
+}
+
+type Cached = { at: number; items: NewsItem[] }
+
+function cacheKey(slug: string): string {
+  return `news:${slug}`
+}
+
+/** sessionStorage read/write is try/catch-wrapped throughout: private windows
+    and blocked-storage contexts throw on access, not just on write. */
+function readCache(slug: string): NewsItem[] | null {
+  try {
+    const raw = sessionStorage.getItem(cacheKey(slug))
+    if (!raw) return null
+    const parsed = JSON.parse(raw) as Cached
+    if (!parsed?.at || Date.now() - parsed.at > CACHE_TTL_MS) return null
+    return Array.isArray(parsed.items) ? parsed.items : null
+  } catch {
+    return null
+  }
+}
+
+function writeCache(slug: string, items: NewsItem[]): void {
+  try {
+    sessionStorage.setItem(cacheKey(slug), JSON.stringify({ at: Date.now(), items }))
+  } catch {
+    /* storage unavailable or full — caching is an optimization, never required */
+  }
+}
+
+export type FetchNewsOptions = {
+  slug: string
+  source: NewsSource
+  onPhase?: (phase: NewsPhase) => void
+  /** Called when previews arrive, so the list can render before they do. */
+  onUpdate?: (items: NewsItem[]) => void
+  signal?: AbortSignal
+}
+
+/**
+ * Fetch and parse one school's news board.
+ *
+ * Resolves as soon as the BOARD parse succeeds — previews are fetched after,
+ * and reported through `onUpdate`. That ordering is deliberate: the section is
+ * useful with headlines alone, and 11 blocking requests through a throttled
+ * relay is exactly when it would otherwise hang.
+ */
+export async function fetchNews(opts: FetchNewsOptions): Promise<NewsItem[]> {
+  const { slug, source, onPhase, onUpdate, signal } = opts
+
+  const cached = readCache(slug)
+  if (cached && cached.length) {
+    onPhase?.('extracting')
+    return cached
+  }
+
+  const controller = new AbortController()
+  const timer = setTimeout(() => controller.abort(), TIMEOUT_MS)
+  const onOuterAbort = () => controller.abort()
+  signal?.addEventListener('abort', onOuterAbort)
+
+  try {
+    onPhase?.('contacting')
+    const html = await getText(source.boardUrl, controller.signal)
+
+    onPhase?.('parsing')
+    const items = normalizeItems(source.parse(html, source.boardUrl), source.boardUrl)
+
+    // A successful fetch yielding zero items means the parser is stale against a
+    // redesigned site. That is an error state, not an empty section.
+    if (!items.length) throw new NewsError(`No items parsed from ${source.boardUrl}`)
+
+    onPhase?.('extracting')
+    clearTimeout(timer)
+
+    void hydratePreviews({ slug, source, items, signal, onUpdate })
+    return items
+  } catch (err) {
+    clearTimeout(timer)
+    if (err instanceof NewsError) throw err
+    throw new NewsError(err instanceof Error ? err.message : String(err))
+  } finally {
+    signal?.removeEventListener('abort', onOuterAbort)
+  }
+}
+
+/**
+ * Second pass: fill in preview sentences from article bodies.
+ *
+ * Every failure here is silent by design. An article whose body fetch fails
+ * keeps its headline and date and shows NO preview line — never an empty
+ * element, never a spinner that outlives the section.
+ */
+async function hydratePreviews(args: {
+  slug: string
+  source: NewsSource
+  items: NewsItem[]
+  signal?: AbortSignal
+  onUpdate?: (items: NewsItem[]) => void
+}): Promise<void> {
+  const { slug, source, items, signal, onUpdate } = args
+  if (!source.preview) {
+    writeCache(slug, items)
+    return
+  }
+
+  const needed = items.filter((i) => !i.summary)
+  if (!needed.length) {
+    writeCache(slug, items)
+    return
+  }
+
+  const controller = new AbortController()
+  const timer = setTimeout(() => controller.abort(), TIMEOUT_MS)
+  const onOuterAbort = () => controller.abort()
+  signal?.addEventListener('abort', onOuterAbort)
+
+  const withPreview = new Map<string, string>()
+
+  await Promise.all(
+    needed.map(async (item) => {
+      try {
+        const html = await getText(item.url, controller.signal)
+        const summary = source.preview?.(html)
+        if (summary) withPreview.set(item.url, summary)
+      } catch {
+        /* no preview for this row — deliberate, see the doc comment */
+      }
+    }),
+  )
+
+  clearTimeout(timer)
+  signal?.removeEventListener('abort', onOuterAbort)
+
+  if (signal?.aborted) return
+
+  const merged = items.map((i) => {
+    const s = withPreview.get(i.url)
+    return s ? { ...i, summary: s } : i
+  })
+
+  writeCache(slug, merged)
+  if (withPreview.size) onUpdate?.(merged)
+}
+
+export { toDoc }
