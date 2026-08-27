@@ -71,7 +71,9 @@ It is not a research area and holds no `src/data` prose.
 The app is a **static site on GitHub Pages** (`npm run deploy` → `gh-pages -d dist`). There
 is no backend and no serverless function.
 
-Measured 2026-08-27: `https://www.providenceday.org/about/pd-communications/news-media`
+Providence Day's board URL — **user-confirmed 2026-08-27**, and the only URL needed for
+that school (it serves as both the parse target and the "All news & media" destination) —
+is `https://www.providenceday.org/about/pd-communications/news-media`. Measured that day, it
 returns HTTP 200 to `curl` but sends **no `Access-Control-Allow-Origin` header**. A direct
 browser `fetch()` from `charlotteschoolinsights.com` is therefore blocked by the
 same-origin policy — for every school, for every visitor. This is a property of the
@@ -246,7 +248,8 @@ export type NewsItem = {
 
 export type NewsSource = {
   boardUrl: string     // page the parser fetches
-  indexUrl: string     // "All news & media" destination
+  indexUrl: string     // "All news & media" destination; MAY equal boardUrl
+                       // (Providence Day: same URL for both, per the user)
   domain: string       // shown in the header + status line
   parse: (html: string, boardUrl: string) => NewsItem[]
   /** Optional: pull a preview from one article page. */
@@ -348,8 +351,12 @@ read 100% has been render-layer):
 Steps 1, 2, 4, 5, 6 and 7 are **school-independent and already done** after this plan ships.
 Adding school #2 is only:
 
-1. **Ask the user for the news board URL.** Never guess — the brief is explicit, and a
-   plausible-looking wrong URL fails silently as an empty section.
+1. **Get the news board URL from the user, and WAIT for it.** Never derive it — not from a
+   design file's links, not from a nav/footer link on the school's own site, not from a
+   plausible CMS path, not from a search result. Inferring from a design file is still
+   inferring. A plausible-but-wrong URL returns HTTP 200, parses to zero items, and renders
+   as an empty section that reads as a code bug rather than a wrong input. Also ask whether
+   the board and "All news & media" URLs differ — often they are the same page.
 2. `curl` it with a desktop UA. Confirm the articles are in the server-rendered HTML; if
    they are not, the site is JS-hydrated and needs a different approach — stop and report.
 3. Identify the CMS and write `src/lib/news/parsers/<slug>.ts`.

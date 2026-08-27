@@ -80,20 +80,56 @@ ls src/lib/news/ 2>/dev/null && ls src/components/LatestNews.tsx 2>/dev/null
 
 ---
 
-## Step 1 — Ask the user for the news board URL
+## Step 1 — STOP. Get the news board URL from the user, and wait for it
 
-**Always ask. Never guess, never infer from the school's domain.**
-
-A plausible-looking wrong URL is the worst outcome available: it returns HTTP 200, parses
-to zero items, and renders as an empty or error section that looks like a code bug. The
-handoff brief is explicit on this point.
+**Ask, then genuinely block on the answer. The URL comes from the user and from
+nowhere else.**
 
 > "What's the permanent news page URL for {school} — the official news/press board?"
 
-Get **two** URLs (often the same):
+### Do not derive the URL yourself — not by any route
+
+This is a hard rule, and it explicitly covers URLs that feel *verified* rather than
+guessed. **All of these are forbidden sources:**
+
+- ❌ links hardcoded in a Claude Design `.dc.html` reference file
+- ❌ article URLs already present in design markup
+- ❌ a footer, nav, or index link on the school's own site
+- ❌ a plausible CMS path (`/news`, `/about/communications`, `/news-media`)
+- ❌ a URL used for this school in a previous session, plan, or source-material record
+- ❌ a search result
+
+Inferring from a design file **is still inferring**. So is lifting a URL from this skill's
+own reference table.
+
+**Do not fetch, curl, or probe a URL you derived.** Announcing "ready for the URL" and then
+proceeding without it is the specific failure to avoid — it has happened, and it produced a
+merged plan built on an unconfirmed URL.
+
+### Why the rule is this strict
+
+The user is the authority on which page is the *permanent* news source. A plausible-but-wrong
+URL fails in the worst available way: it returns **HTTP 200**, parses to **zero items**, and
+renders as an empty or error section that reads as a **code bug** rather than a wrong input.
+Nobody debugging it later looks at the URL first.
+
+Corroborating evidence that a URL is "the one the designer used" is **not** the user
+confirming it is the one they want. Only the user can settle that.
+
+### While you wait
+
+Blocking on this URL does not mean idling. Read the design spec, study repo conventions,
+check whether the shared infrastructure exists, draft scaffolding. Just do not fetch, probe,
+or bake a self-derived URL into a parser, plan, skill, or committed source-material record.
+
+### What to capture
 
 - **`boardUrl`** — the page the parser fetches, listing articles.
 - **`indexUrl`** — where "All news & media" sends the reader.
+
+**Ask whether they differ.** Often they are the same page, and the user may say so
+explicitly ("this is the only site you need") — in that case use the one URL for both and
+do not go hunting for a separate index page.
 
 ---
 
@@ -193,8 +229,16 @@ Captured 2026-08-27; all 10 articles server-rendered, HTTP 200, ~62KB.
 | Summary | — | **absent** — needs per-article fetch |
 | Preview | first body `<p>` >60 chars | **not** `og:description` — **Trap 2** |
 
-- `boardUrl`: `https://www.providenceday.org/about/pd-communications/news-media`
-- `indexUrl`: `https://www.providenceday.org/about/pd-communications`
+**URL — user-confirmed 2026-08-27:**
+`https://www.providenceday.org/about/pd-communications/news-media`
+
+The user stated this is the **only** site needed for Providence Day, so it serves as both
+`boardUrl` and `indexUrl` (the "All news & media" link points back to the same board). An
+earlier `/about/pd-communications` index URL was **self-derived and has been removed** — it
+was never confirmed.
+
+For any **other** school, this table is a worked example of the *method*, not a source of
+URLs. Step 1 still applies in full: get the URL from the user and wait for it.
 
 ---
 
