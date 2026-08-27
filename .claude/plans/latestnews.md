@@ -1,11 +1,11 @@
 ---
 name: latestnews
 title: Latest News section — live school news on every school page, one custom parser per school
-status: not-implemented
+status: implemented
 phases: 1
 created: 2026-08-27
 branch: feat/latest-news
-prs: []
+prs: [219]
 ---
 
 # Latest News section
@@ -383,3 +383,57 @@ Granted by the design handoff itself — a `.dc.html` reference plus
 `latest-news-handoff-instructions.md`. Per the UX-design standard, design-MCP-driven work
 "is *expected* to change the UX and needs **no** advance approval". The ingestion-time
 approval gate does not apply.
+
+## Implementation notes
+
+Shipped in [#219](https://github.com/dward330/CharlottePrivateSchoolConversations/pull/219)
+(merged 2026-08-27, single-phase as planned). Three deviations worth recording.
+
+### A THIRD trap the plan did not anticipate — a photo caption outranks the body
+
+The plan documented two traps. A third appeared only in the **browser check**, never in
+the HTML capture the plan was written from: posts leading with a captioned hero image put
+that caption in a `<p>` inside `<figure class="fsImageCaptioned">` **before** the first
+body paragraph. It clears 60 characters, so the planned "first substantive `<p>`" rule
+shipped
+
+> "Pictured: Brooks Hinton '27 with Lower School Freedom School scholars."
+
+as the story preview on **2 of 10 rows** — grammatical, plausible, and not what the story
+is about. Captions are now excluded structurally (`closest('figure, figcaption,
+.fsImageCaptioned, .fsCaption')`) with a `Pictured:` / `(L)` text guard behind it.
+
+Recorded in the source-material record and the skill as **Trap 3**, because it is a
+general Finalsite risk rather than a Providence Day quirk. It also re-confirms the
+standing rule the plan itself cited: the defect was invisible to every source-level check
+and only a rendered page showed it.
+
+### Cache timing changed — write on board parse, not after previews settle
+
+The plan specified a sessionStorage cache but not *when* to write it. Writing it after the
+preview pass (the natural reading) means a visitor who navigates away during the ~10
+article round-trips caches **nothing** and re-hits the relay from scratch next visit. The
+board result is now cached the moment it parses, and the preview pass overwrites that
+entry with the enriched copy when it finishes.
+
+### `.blueprint` / `.duotone` do not exist in this stylesheet
+
+The design spec referenced both as if they were shared primitives. They are names from the
+`.dc.html` design file with **no CSS in `src/index.css`** — shipping them would have
+attached classes that style nothing. The news frame and photo treatment are written out
+directly instead, reusing the duotone recipe (`grayscale(1) contrast(1.08)` +
+`mix-blend-mode: multiply`) already used by the summer-programs photo band. Two design
+tokens also had no equivalent (`--accent-300` → `--accent-200`, `--font-head` →
+`--heading`); `src/index.css:1074` shows an earlier port hitting the same missing token.
+
+### Open decision, resolved
+
+The CORS relay is **`corsproxy.io`**, behind the single `PROXY` constant, chosen by the
+user at implementation time. The Cloudflare Worker migration path is unchanged: one
+constant, no parser code.
+
+### Note on the branch point
+
+Commit `a0cb0b1` (#218) incidentally captured four in-progress `src/lib/news/` files from
+the working tree, so part of this feature landed on `main` under a message describing only
+a skill change. Nothing was overwritten; #219 carries the remainder.
