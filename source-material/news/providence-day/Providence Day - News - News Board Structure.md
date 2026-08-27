@@ -6,14 +6,19 @@
 - **How:** `curl` with a desktop User-Agent against the school's public News & Media
   board, plus one article page, to determine which fields the Latest News section can
   actually populate.
+- **URL authority:** the board URL above was **supplied by the user**. An earlier
+  `/about/pd-communications` "landing" URL recorded here was self-derived from links in the
+  design file and has been removed — it was never confirmed. Never re-derive a news URL;
+  see `.claude/skills/add-school-news/SKILL.md` step 1.
 - **Why it is here:** the data-provenance standard — any figure or field the app surfaces
   must be traceable to a committed source file. This records the *shape* of the feed the
   parser depends on, so a future maintainer can tell a site redesign from a parser bug.
 
 ## Source URLs
 
-- News board (index): <https://www.providenceday.org/about/pd-communications/news-media>
-- "All news & media" landing: <https://www.providenceday.org/about/pd-communications>
+- **News board — USER-CONFIRMED 2026-08-27** (the only URL needed for this school; it is
+  both the parse target and the "All news & media" destination):
+  <https://www.providenceday.org/about/pd-communications/news-media>
 - Example article: <https://www.providenceday.org/about/pd-communications/news-media/post/~board/news-media/post/where-global-studies-meets-entrepreneurship-inside-pds-innovative-summer-course>
 
 ## Platform
