@@ -5,7 +5,7 @@ status: implemented
 phases: 1
 created: 2026-08-27
 branch: feat/latest-news
-prs: [219]
+prs: [219, 221, 223]
 ---
 
 # Latest News section
@@ -170,7 +170,8 @@ Newspaper glyph in `var(--brand)` · `<h2>Latest News</h2>` at 30px · muted not
 
 `display: grid; grid-template-columns: 360px 1fr` inside `.blueprint`:
 
-- **Left:** `.duotone` photo, `min-height: 220px`, right divider.
+- **Left:** photo, `min-height: 220px`, right divider. (The design said `.duotone`; it
+  ships in **full colour** — see Implementation notes.)
 - **Right:** kicker `Newest · {date}` (11px, `0.12em`, uppercase, `var(--brand)`) ·
   headline (heading font, 600, 26px, `line-height: 1.15`) · preview (muted, 14px) ·
   `Read the story` + arrow, pushed down with `margin-top: auto`.
@@ -184,7 +185,8 @@ Newspaper glyph in `var(--brand)` · `<h2>Latest News</h2>` at 30px · muted not
 
 - **Date column:** `Aug 10` — 12px, `0.05em`, uppercase, heading font, muted.
 - **Middle:** headline (heading font, 600, 17px) + preview (muted, 13px, `margin-top: 3px`).
-- **Right:** `.duotone` thumbnail `92×58` with a divider border, then the external-link
+- **Right:** thumbnail `92×58` (full colour, not `.duotone` — see Implementation notes)
+  with a divider border, then the external-link
   arrow at 15px. **No photo → omit the thumbnail entirely, keep the arrow**; the `auto`
   column absorbs it.
 
@@ -321,7 +323,8 @@ Translate the **chrome** into all nine non-English locales (it is UI chrome, and
 ### 7 — Styles
 
 Section CSS + the four keyframes, alongside the existing `.welcome-*` rules. Use existing
-`.blueprint` / `.duotone` / `.text-muted` primitives rather than new ones.
+`.text-muted` primitives rather than new ones. (`.blueprint` and `.duotone` turned out
+not to exist — see Implementation notes.)
 
 ## Verification
 
@@ -421,16 +424,50 @@ entry with the enriched copy when it finishes.
 The design spec referenced both as if they were shared primitives. They are names from the
 `.dc.html` design file with **no CSS in `src/index.css`** — shipping them would have
 attached classes that style nothing. The news frame and photo treatment are written out
-directly instead, reusing the duotone recipe (`grayscale(1) contrast(1.08)` +
-`mix-blend-mode: multiply`) already used by the summer-programs photo band. Two design
-tokens also had no equivalent (`--accent-300` → `--accent-200`, `--font-head` →
-`--heading`); `src/index.css:1074` shows an earlier port hitting the same missing token.
+directly instead. Two design tokens also had no equivalent (`--accent-300` →
+`--accent-200`, `--font-head` → `--heading`); `src/index.css:1074` shows an earlier port
+hitting the same missing token.
 
-### Open decision, resolved
+**The photos ship in FULL COLOUR — `.duotone` was resolved wrongly and then reverted
+(PR #223).** Because the class did not exist, the first implementation resolved it by
+copying the summer-programs photo band's recipe (`grayscale(1) contrast(1.08)` +
+`mix-blend-mode: multiply`). The user saw the deployed page, asked why the photos were
+black and white, and chose full colour.
 
-The CORS relay is **`corsproxy.io`**, behind the single `PROXY` constant, chosen by the
-user at implementation time. The Cloudflare Worker migration path is unchanged: one
-constant, no parser code.
+The distinction worth carrying forward: the summer-programs band is a curated strip where
+desaturation buys cohesion across six schools' snapshots. **News photos are the school's
+own current photography of real students and events, and the premise of the section is
+that it is live** — greyscale hid school colours, uniforms and faces, and made
+this-month's news look archival. The band keeps its duotone; the news section does not.
+
+Do not re-add a filter to `.news-featured-photo img` or `.news-row-thumb img` to match the
+design file. That is a user decision (2026-08-28), recorded in a comment on the rule
+itself.
+
+### Open decision, resolved — then re-decided within 24 hours
+
+The relay shipped as **`corsproxy.io`**, chosen by the user at implementation time over
+the Cloudflare Worker. **It was replaced by the Worker the next day (PR #221).**
+
+The plan's "accepted risk" — that a public relay can fail without notice — materialised
+immediately: a visitor hit the error state on mobile the day the section deployed. The
+cause was **not** rate limiting, which is what the plan anticipated. `corsproxy.io` gates
+on **User-Agent**, deterministically (6/6 each way): non-browser clients get
+`403 "Server-side requests are not allowed on your plan"` while real browsers pass. That
+also means a `curl` health check 403s against a perfectly healthy relay — the tooling is
+blocked, not the site.
+
+The relay is now our own Worker (`workers/news-proxy/`, free tier), and **the plan's claim
+that migration is one constant held exactly**: `PROXY` changed, no parser code moved.
+
+Two consequences the plan did not foresee, both now in the add-school-news skill:
+
+- The Worker allow-lists **which hosts it will fetch** (it is deliberately not an open
+  proxy), so **adding a school is now two registrations** — `sources.ts` *and*
+  `ALLOWED_HOSTS`, with a Worker redeploy. Missing the second fails as `403 Host not
+  allowed`, which renders identically to a parser bug.
+- That redeploy needs a Cloudflare credential from the user, which makes it a blocking
+  step rather than something a fresh window can complete alone.
 
 ### Note on the branch point
 
