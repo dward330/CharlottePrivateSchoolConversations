@@ -241,6 +241,36 @@ register it in `SUPPORTED` and `resources` in `src/lib/i18n.ts`.
   translation JSON would desync every non-English locale on each ingest pass. When
   translated content is in scope, it should be locale-keyed at the data layer instead
   (e.g. `sportsPrograms/cannon.es.ts`), with English as the fallback.
+- **Fetched news articles** (the Latest News section) — **NEVER translated, in any
+  locale.** See the exception below; this is the one place the rule is switched off.
+
+**⛔ THE ONE EXCEPTION: the Latest News section is never translated.**
+
+Article headlines, dates and preview sentences render in the **source language on every
+locale's page**, deliberately. This is not deferred work, not a bug, and not an oversight
+— and it is stated here because an i18n pass reading only this file would otherwise
+"fix" it:
+
+- **It cannot be translated in principle.** The articles are fetched live from the
+  school's own website at render time. There is no extraction step, no work file, no
+  overlay, and no moment at which a translator could see a string — tomorrow's headline
+  does not exist today.
+- **It is a citation surface.** A parent matches a headline against the school's own news
+  board, exactly as they match a tuition figure against a published page. The same
+  reasoning that keeps figures copied char-for-char keeps headlines in the source
+  language.
+- **Render-time machine translation is explicitly rejected.** It would put unreviewed
+  text on the page in nine locales with no native-speaker review possible.
+
+The **chrome around** the articles ("Latest News", "Read the story", status and error
+lines) is normal chrome and IS translated in all ten catalogs. Only the fetched content
+stays English. **Never add this section to `i18n_topics.mjs`, the prose extractor,
+`PROSE_TRANSLATED`, or any overlay** — it is not a research area and holds no `src/data`
+prose. If a reviewer reports "the headlines are in English on the Spanish page", that is
+correct behaviour.
+
+Adding a school's news is therefore always **single-phase**. See
+[`.claude/skills/add-school-news/SKILL.md`](.claude/skills/add-school-news/SKILL.md).
 
 **Section headings are split by the same test.** A heading that is identical for every
 school is chrome and lives in `sections.*` in the locale files, rendered as
@@ -735,6 +765,16 @@ Four things that are **not** automatic:
   `Published` in the deploy output is not the same as the GitHub Pages *build* finishing —
   check `gh api repos/OWNER/REPO/pages/builds --jq '.[0].status'` before believing a live
   URL 404 means something is wrong.
+- **There is a SECOND deploy target that `npm run deploy` does not touch:** the Cloudflare
+  Worker in [`workers/news-proxy/`](workers/news-proxy/), which relays the Latest News
+  fetches (school news boards send no CORS header, and this site has no backend). It is
+  deployed separately with `wrangler`, and it needs redeploying **only** when
+  `worker.js` changes — in practice, when a school is added to its `ALLOWED_HOSTS`
+  allow-list. A school registered in `src/lib/news/sources.ts` but missing there fails
+  with `403 Host not allowed`, which renders as the news section's error state and looks
+  exactly like a parser bug. That step needs a Cloudflare credential from the user, so it
+  cannot be completed unattended; the procedure and its traps are step 5b of
+  [`add-school-news`](.claude/skills/add-school-news/SKILL.md).
 
 **Path URLs are canonical; the hash router is a permanent compatibility layer.** Shared
 `#/school/…` links are already in the wild (Facebook is the #2 referrer), so `parse()`
