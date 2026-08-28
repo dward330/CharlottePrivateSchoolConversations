@@ -4,8 +4,10 @@ description: >
   Add a school's live "Latest News" section to its dossier page — confirm WHICH SCHOOL and
   its news board URL with the user (both are blocking questions; never infer either),
   inspect that site's real HTML, write a dedicated parser
-  for its CMS, persist the structure into source-material, and register it so the section
-  renders. Use when the user says "add news for <school>", "wire up the news section",
+  for its CMS, persist the structure into source-material, and register it BOTH in the app
+  and in the CORS Worker's host allow-list so the section renders. Adding a school requires
+  a one-off Cloudflare API token from the user to redeploy that Worker — a blocking step,
+  so ask early rather than after the parser is written. Use when the user says "add news for <school>", "wire up the news section",
   "add the Latest News feed for <school>", or asks why a school's news section is missing
   or empty. Also use when a shipped news section breaks — a school site redesign is the
   expected failure mode and this skill carries the diagnosis path. The news section is
@@ -111,6 +113,11 @@ ls src/lib/news/ 2>/dev/null && ls src/components/LatestNews.tsx 2>/dev/null
   parser part of that work.
 - **Present** → adding a school is only steps 0–6 below. Do not touch the component,
   chrome strings, styles or wiring.
+
+**One step needs the user and cannot be batched away: step 5b redeploys the CORS
+Worker**, which requires a Cloudflare API token they must create. Surface that
+early rather than at step 5b, so it is not discovered after the parser is written
+and the only thing left is a blocked deploy.
 
 ---
 
@@ -320,34 +327,93 @@ Add the slug → `NewsSource` entry in `src/lib/news/sources.ts` (`boardUrl`, `i
 project's absence-of-data principle. That is the correct treatment for a school whose board
 cannot be parsed; never ship an empty shell.
 
+**This is only HALF of registering a school. Step 5b is the other half** — the Worker must
+also be told it may fetch that host, or the section ships and errors.
+
 ---
 
 ## Step 5b — Allow the school's host in the CORS Worker (REQUIRED)
 
-The relay is **our own Cloudflare Worker** (`workers/news-proxy/`), not a public
-proxy, and it deliberately allow-lists **which hosts it will fetch** — otherwise it
-would be an open proxy anyone could point at any URL on your account's quota.
+**This step needs the USER — it cannot be completed unattended.** Read the whole
+section before starting, because the deploy needs a credential a fresh window
+does not have.
 
-**A school registered in `sources.ts` but missing from that allow-list fails with
-`403 Host not allowed`, which surfaces as the section's error state.** Nothing in
-the app build catches this; it looks exactly like a parser bug or a dead site.
+### Why it exists
 
-Add the hostname (both apex and `www.` if the board uses one) to `ALLOWED_HOSTS`
-in `workers/news-proxy/worker.js`, then redeploy:
+The relay is **our own Cloudflare Worker** (`workers/news-proxy/`, live at
+`https://news-proxy.dward330.workers.dev`), not a public proxy. It allow-lists
+**which hosts it will fetch** — without that it would be an open proxy anyone
+could point at any URL, on this account's quota and reputation.
+
+**A school registered in `sources.ts` but missing from `ALLOWED_HOSTS` fails with
+`403 Host not allowed`, which renders as the section's error state.** Nothing in
+the app build catches this. It looks identical to a parser bug or a dead site, so
+it is the FIRST thing to check when one school errors and the others are fine.
+
+### 1 — Add the host
+
+In `workers/news-proxy/worker.js`, add the board's hostname to `ALLOWED_HOSTS`.
+**Add both the apex and the `www.` form** unless you have confirmed which one the
+board actually serves — a redirect between them is invisible until it 403s.
+
+### 2 — Get a credential from the user (BLOCKING)
+
+`npx wrangler deploy` needs auth, and there is no stored credential — the token
+used for the last deploy was deliberately rolled afterwards.
+
+**Do not attempt `npx wrangler login` first.** It opens a browser OAuth flow that
+failed on this machine with `request_forbidden` / *"No CSRF value available in
+the session cookie"* (the callback landing in a different browser than the one
+that started it). It also cannot be completed by an agent in a headless or
+Remote Control session at all.
+
+**Ask the user for a scoped API token** — this is the path that works, including
+unattended:
+
+> "Adding <school> needs a one-off Cloudflare token to redeploy the news Worker.
+> At https://dash.cloudflare.com/profile/api-tokens → Create Token → Create
+> Custom Token, with permission **Account → Workers Scripts → Edit**."
+
+Then:
 
 ```bash
-cd workers/news-proxy && npx wrangler deploy
+cd workers/news-proxy
+CLOUDFLARE_API_TOKEN=<token> npx wrangler deploy
 ```
 
-Confirm before moving on — a plain `curl` is a valid health check here, unlike
-against the old public relay:
+**Tell the user to roll or delete the token afterwards.** A token pasted into a
+conversation lives in that transcript, which is append-only — rotating the
+credential is the fix, not deleting text. The Worker keeps running once deployed;
+the token is only needed to push.
+
+### 3 — Verify the host is actually allowed
 
 ```bash
 curl -s -o /dev/null -w '%{http_code}\n' \
   "https://news-proxy.dward330.workers.dev/?url=<url-encoded board URL>"
 ```
 
-Expect `200`. A `403` means the host is not allow-listed.
+`200` = allow-listed. `403` = the host is not in `ALLOWED_HOSTS`, or the deploy
+did not land. **A plain `curl` is a valid health check against this Worker** —
+unlike the old public relay `corsproxy.io`, which gated on User-Agent and 403'd
+every non-browser client while browsers passed cleanly.
+
+### Traps, all of which cost real time on the first deploy
+
+- **A brand-new `workers.dev` hostname takes minutes to serve TLS.** Symptoms in
+  order: `SSLV3_ALERT_HANDSHAKE_FAILURE`, then Cloudflare `error code: 1010`
+  returned to `curl`/Python — that is **bot protection rejecting the client
+  signature, not your Worker**. A real browser is the only trustworthy test in
+  that window. This only affects a first-ever deploy, not a redeploy.
+- **The free tier is 100k requests/day PER ACCOUNT**, not per Worker. The section
+  costs ~11 requests per scrolling visitor (1 board + 10 previews), so roughly
+  9,000 visitors/day — and a 15-minute edge cache plus the app's 30-minute
+  `sessionStorage` cache both sit in front of that. Over-cap requests are
+  **rejected, never billed**. If headroom ever gets tight, raising the Worker's
+  edge TTL is far cheaper than upgrading.
+- **`localhost` is already an allowed origin, deliberately.** Do not remove it —
+  without it the section renders its error state under `npm run dev` while
+  production is perfectly healthy, which reads as a broken feature.
 
 ## Step 6 — Verify
 
@@ -364,10 +430,15 @@ data read 100% has been render-layer:
 2. Loading → reveal, status lines advancing on **real** parse phases (not a timer).
 3. Headlines, dates and photos match the school's live board.
 4. Rows without a photo omit the thumbnail and keep the arrow — no empty box.
-5. **Block the proxy / go offline** → error state with a working link, no infinite spinner.
-6. Non-English locale → chrome translated, **headlines English**. Correct — see the top of
+5. **Block `news-proxy.dward330.workers.dev` in devtools / go offline** → error state with
+   a working link, no infinite spinner.
+6. **Confirm the requests actually hit the Worker** — in the Network tab, filter on
+   `news-proxy` and expect `1 board + N previews`, all `200`. **A `403` here means step 5b
+   was skipped or the deploy did not land**, and it is the one failure that renders exactly
+   like a broken parser.
+7. Non-English locale → chrome translated, **headlines English**. Correct — see the top of
    this skill.
-7. `prefers-reduced-motion: reduce` → no spin/sweep/pulse.
+8. `prefers-reduced-motion: reduce` → no spin/sweep/pulse.
 
 ---
 
@@ -376,7 +447,8 @@ data read 100% has been render-layer:
 | Symptom | Likely cause |
 |---|---|
 | Error state for every school | The Worker is down or misdeployed — check `PROXY` and `npx wrangler deployments list` in `workers/news-proxy/` |
-| Error state, one school | Site redesign — re-run step 2, diff against the `source-material` record. **Check `ALLOWED_HOSTS` first** (step 5b) — a missing host 403s and looks identical. |
+| Error state, one school — **check this first** | **`ALLOWED_HOSTS` (step 5b)** — host missing from the Worker, or the redeploy never ran. `curl` the Worker with that board URL: `403` confirms it. Costs seconds to rule out. |
+| Error state, one school, Worker returns `200` | Site redesign — re-run step 2 and diff against the `source-material` record |
 | Renders, but no photos anywhere | **Trap 1** — photos moved to a data attribute |
 | Every preview identical/boilerplate | **Trap 2** — `og:description` is not a summary |
 | Previews read "Pictured: …" / describe a photo | **Trap 3** — a caption is outranking the body text |
@@ -392,6 +464,9 @@ data read 100% has been render-layer:
   the prose extractor.
 - **Never inject fetched HTML into the live DOM** — parse with `DOMParser` only. This is
   third-party markup.
+- **Registering a school is TWO places, not one.** `src/lib/news/sources.ts` *and*
+  `ALLOWED_HOSTS` in `workers/news-proxy/worker.js` (redeployed). Either alone ships a
+  section that errors.
 - **One parser per school.** Do not generalize two schools into a shared parser because
   their CMS looks alike; the isolation is the point.
 - **Do not run `npm run deploy`** — publishing is the user's call, every time.
