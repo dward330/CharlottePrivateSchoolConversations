@@ -69,14 +69,23 @@ const ALLOWED_HOSTS = [
   // Apex 301s to www (verified 2026-08-28); both forms are listed because a
   // redirect between them is invisible until it 403s.
   //
-  // NOTE: eight of this board's posts link OFF-SITE — five to clshawks.com (the
-  // school's OWN athletics site, on a different registrable domain), plus
-  // sya.org, issuu.com and charlottelatinstories.com. None of those hosts are
-  // listed, deliberately, including clshawks.com: the same-site rule in
-  // normalizeItems drops those rows before they render, and the four boards
-  // carry 133 on-site posts — far more than the ten needed. Do not add them.
   'www.charlottelatin.org',
   'charlottelatin.org',
+  // Charlotte Latin publishes its ATHLETICS coverage on a separate domain
+  // (`og:site_name: Charlotte Latin School`). The user confirmed 2026-08-28 that
+  // a school's own athletics site is legitimate news, so those rows are kept by
+  // `alsoAllowedHosts` in sources.ts — and they need this entry too, or their
+  // preview fetch 403s and they render permanently preview-less.
+  //
+  // www.clshawks.com is a CNAME alias that 301s to the apex (verified
+  // 2026-08-28); both forms are listed because a redirect between them is
+  // invisible until it 403s.
+  //
+  // Still deliberately NOT listed, for this board or any other: sya.org and
+  // issuu.com (third parties the school merely links to) and instagram.com.
+  // Being linked BY a school is not being published BY the school.
+  'clshawks.com',
+  'www.clshawks.com',
 ]
 
 const TIMEOUT_MS = 12_000
