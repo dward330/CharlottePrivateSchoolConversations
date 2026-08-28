@@ -266,42 +266,61 @@ Exclude captions **structurally** rather than by wording —
 `Pictured:` / `(L)` text guard as a backstop. **Read the previews on the rendered page**;
 this class of defect only shows up there.
 
-### Trap 4 — a post may link OFF-SITE (social media), and those rows are DROPPED
+### Trap 4 — a post may link to ANOTHER HOST, and most of those rows are DROPPED
 
 A board can mix ordinary article posts with **link posts pointing somewhere
 else**: Charlotte Country Day's Finalsite board flags 2 of its 20 posts
-`data-opens-in="linked_url"` and sends them to `instagram.com/p/…`. Those rows
-carry a real headline, date and photo, so nothing about their appearance marks
-them as different.
+`data-opens-in="linked_url"` and sends them to `instagram.com/p/…`. Charlotte
+Latin's boards link to four other hosts. Those rows carry a real headline, date
+and photo, so nothing about their appearance marks them as different.
 
-**HARD RULE: every row must link to the school's own site.** Off-site rows are
-dropped by `normalizeItems` in `src/lib/news/types.ts` — centrally, so it holds
-for every school including ones added later. **Do not re-implement this in a
-parser**, and do not add a social host to the Worker's `ALLOWED_HOSTS` to "fix"
-a 403 from one.
+**RULE: every row must link to a site the SCHOOL ITSELF PUBLISHES.** This is
+enforced centrally in `normalizeItems` (`src/lib/news/types.ts`), so it holds for
+every school including ones added later. **Do not re-implement it in a parser.**
 
-It is an **allow-list on the board's own registrable domain**, not a block-list
-of named platforms: it catches Instagram, Facebook, X, YouTube, TikTok, a local
-paper's press mention, and whatever a school starts posting to next year, with
-no list to maintain. Apex/`www`, subdomains and relative URLs are all kept.
+Two categories, and the distinction is the whole rule:
 
-Three reasons this is the treatment:
+| Kept | Dropped |
+|---|---|
+| The board's own domain (apex, `www`, subdomains) | Social platforms — Instagram, Facebook, X, YouTube, TikTok |
+| A domain declared in that school's **`alsoAllowedHosts`** | Third parties the school merely *links to* |
 
-- **The section promises the school's own news board.** Its footer says so and
-  its header cites the school's domain. A row landing a parent on Instagram —
-  behind a login wall, beside content nobody here reviewed — breaks the citation
-  surface the section exists to be.
-- **Those rows can never carry a preview.** The relay allow-lists school hosts
-  only (correctly — it is what stops it being an open proxy), so the fetch 403s
-  and the row renders permanently preview-less beside siblings that have one.
-- **Nothing is lost.** Dropping happens BEFORE the `MAX_ITEMS` cap, so a board
-  with spare posts backfills to a full ten. Country Day still shows ten rows —
-  ten school articles instead of eight plus two Instagram links.
+**`alsoAllowedHosts` exists because a school's own publishing is not always on
+one domain.** Charlotte Latin runs its athletics coverage on `clshawks.com`
+(`og:site_name: Charlotte Latin School`), and the user confirmed 2026-08-28 that
+**a school's own athletics site is legitimate news**. Those 5 rows are kept.
+
+On those *same* boards, `sya.org` (a study-abroad organisation), `issuu.com` (a
+document host) and a dead `charlottelatinstories.com` are still dropped. **Being
+linked BY the school is not the same as being published BY the school** — that
+judgement is made once, explicitly, in review.
+
+It is deliberately an **explicit per-school list**, not a hostname heuristic:
+
+- A pattern like `/hawks|athletics/` is a block-list wearing an allow-list's
+  clothes — it passes tomorrow's unknown domain and can match a site the school
+  does not own.
+- A per-school entry is scoped, so it can never widen another school's section.
+
+⚠️ **A declared host must be added in TWO places, or the rows render visibly
+broken.** `alsoAllowedHosts` in `sources.ts` keeps the row; `ALLOWED_HOSTS` in
+the Worker lets its preview/date fetch through. Declare it in one and forget the
+other and the row still renders — with **no preview, no date and no error
+anywhere**. `npm run check:news` fails the build on exactly that mismatch.
+
+⚠️ **A kept off-domain host is very likely a DIFFERENT CMS.** Latin's athletics
+site is SIDEARM Sports: no `article:published`, no `div.fsBody`, and the
+Finalsite gate correctly rejects it — so without a second gate those rows get no
+preview, and without a JSON-LD date fallback they sort to the bottom as undated
+(which reads as a mis-ordered section, not a broken one). Keep the gates
+**separate** — one per CMS, each failing closed — rather than widening one into a
+permissive check. See TRAP 8 in `parsers/charlotte-latin.ts`.
 
 ⚠️ **Never let the cap stand in for the rule.** Country Day's two off-site posts
 sat at #12 and #14 by date, so the cap excluded them the day they shipped. That
 is a property of the calendar, not the board; it stops being true the first week
-two link posts are recent, and it fails silently when it does.
+two link posts are recent, and it fails silently when it does. Dropping happens
+BEFORE the `MAX_ITEMS` cap, so a board with spare posts backfills to a full ten.
 
 ### Trap 5 — the board may carry no summary at all
 
@@ -358,7 +377,8 @@ Use `source-material/news/providence-day/` as the model.
 ## Step 5 — Register the school
 
 Add the slug → `NewsSource` entry in `src/lib/news/sources.ts` (`boardUrl`, `indexUrl`,
-`domain`, `parse`, optional `preview`).
+`domain`, `parse`, optional `preview`, `publishedAt`, `extraBoardUrls`,
+`alsoAllowedHosts`).
 
 **A slug absent from this registry renders no chip, no rail item and no section** — the
 project's absence-of-data principle. That is the correct treatment for a school whose board
@@ -490,7 +510,9 @@ data read 100% has been render-layer:
 | Every preview identical/boilerplate | **Trap 2** — `og:description` is not a summary |
 | Previews read "Pictured: …" / describe a photo | **Trap 3** — a caption is outranking the body text |
 | Empty section, HTTP 200 | Wrong URL (step 1) or selectors matching nothing |
-| Fewer rows than the board shows | Expected if the board has off-site link posts — **Trap 4** drops them. Confirm the count only falls short when the board lacks spare posts to backfill. |
+| Fewer rows than the board shows | Expected if the board has third-party link posts — **Trap 4** drops them. Confirm the count only falls short when the board lacks spare posts to backfill. |
+| One row has no preview AND no date, others fine | A kept off-domain host (`alsoAllowedHosts`) on a **different CMS** — the parser's gate rejects it. See Trap 4 / Trap 8. |
+| `npm run check:news` fails | A host is declared in `sources.ts` but missing from the Worker's `ALLOWED_HOSTS` (or vice versa). Add it, then **redeploy the Worker**. |
 | Headlines in English on a translated page | **Not a bug.** See the top of this skill. |
 
 ---
@@ -505,9 +527,12 @@ data read 100% has been render-layer:
 - **Registering a school is TWO places, not one.** `src/lib/news/sources.ts` *and*
   `ALLOWED_HOSTS` in `workers/news-proxy/worker.js` (redeployed). Either alone ships a
   section that errors.
-- **Every row must link to the school's own site.** Off-site rows (Instagram, Facebook,
-  YouTube, a local paper) are dropped centrally by `normalizeItems` — never re-implement
-  that in a parser, and never add a social host to `ALLOWED_HOSTS` to silence its 403.
+- **Every row must link to a site the school itself publishes.** Third-party rows
+  (Instagram, Facebook, YouTube, a local paper, a document host) are dropped centrally by
+  `normalizeItems` — never re-implement that in a parser, and never add a social host to
+  `ALLOWED_HOSTS` to silence its 403. A school's OWN other domain (e.g. its athletics
+  site) is kept by declaring it in that school's `alsoAllowedHosts` **and** in the
+  Worker's `ALLOWED_HOSTS`; `npm run check:news` fails the build if the two disagree.
   See Trap 4.
 - **One parser per school.** Do not generalize two schools into a shared parser because
   their CMS looks alike; the isolation is the point.

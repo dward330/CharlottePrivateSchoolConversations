@@ -143,6 +143,7 @@ export async function fetchNews(opts: FetchNewsOptions): Promise<NewsItem[]> {
       raw,
       source.boardUrl,
       needsDates ? Math.max(MAX_ITEMS, raw.length) : MAX_ITEMS,
+      source.alsoAllowedHosts,
     )
 
     // A successful fetch yielding zero items means the parser is stale against a

@@ -137,6 +137,21 @@ export const NEWS_SOURCES: Record<string, NewsSource> = {
     // targets, and sending a reader to one of them would show them a quarter of
     // the news. It is not self-derived: it is the same path with the filter
     // dropped, which the school's own nav links (verified HTTP 200, 2026-08-28).
+    // The school publishes its athletics coverage on a SEPARATE domain,
+    // clshawks.com (its pages carry `og:site_name: Charlotte Latin School`).
+    // Five rows on the Athletics view link there, and the user confirmed
+    // 2026-08-28 that a school's own athletics site is legitimate news. Those
+    // rows are therefore KEPT rather than dropped as off-site.
+    //
+    // Third-party hosts these boards also link to stay dropped — `sya.org` (a
+    // study-abroad organisation), `issuu.com` (a document host) and
+    // `charlottelatinstories.com` (which no longer resolves at all). Being
+    // linked BY the school is not the same as being published BY the school.
+    //
+    // clshawks.com is also in ALLOWED_HOSTS in the Worker; without that these
+    // rows would render permanently preview-less. `npm run check:news` enforces
+    // that the two lists agree.
+    alsoAllowedHosts: ['clshawks.com'],
     boardUrl: 'https://www.charlottelatin.org/about/school-news?post_category_id=84',
     extraBoardUrls: [
       'https://www.charlottelatin.org/about/school-news?post_category_id=85',

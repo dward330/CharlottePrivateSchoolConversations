@@ -15,8 +15,10 @@ import { truncatePreview, type NewsItem } from '../types'
  * whose dates are recoverable (TRAP 2).
  */
 
-/** Hostname whose article pages this parser can actually read. See TRAP 4. */
+/** Hostnames whose article pages this parser can read. TWO domains, on TWO
+    DIFFERENT CMSes — see TRAP 4 and TRAP 8. */
 const SCHOOL_HOST = /(^|\.)charlottelatin\.org$/i
+const ATHLETICS_HOST = /(^|\.)clshawks\.com$/i
 
 /**
  * TRAP 1 — the news is spread over FOUR category views, and they are NOT in
@@ -108,20 +110,29 @@ function photoFrom(img: Element | null): string | undefined {
 }
 
 /**
- * TRAP 4 — this board links OFF-SITE more than any other in the app.
+ * TRAP 4 — this board links to FOUR other hosts, and only ONE of them belongs.
  *
- * Eight rows across the four views point somewhere else: five to `clshawks.com`
- * (the school's OWN athletics site, but a different registrable domain), one to
- * `www.sya.org`, one to `issuu.com`, one to `www.charlottelatinstories.com`.
- * Fourteen posts on the Athletics view carry `data-opens-in="linked_url"`.
+ * Eight rows across the four views point off the main domain:
  *
- * They are dropped by the same-site rule in `normalizeItems` — a project-wide
- * hard rule, not this parser's decision. `clshawks.com` is the interesting case:
- * it is genuinely the school's, yet it is correctly dropped, because the rule is
- * an allow-list on the board's own registrable domain and NOT a block-list of
- * social platforms. Do NOT add clshawks.com to the Worker's ALLOWED_HOSTS to
- * "rescue" those rows; the boards carry 133 on-site posts, far more than the ten
- * needed, so dropping costs nothing.
+ *   5 × clshawks.com               the school's OWN athletics site — KEPT
+ *   1 × www.sya.org                a study-abroad organisation     — dropped
+ *   1 × issuu.com                  a document host                 — dropped
+ *   1 × charlottelatinstories.com  does not resolve at all         — dropped
+ *
+ * `clshawks.com` is Charlotte Latin's athletics site — its pages carry
+ * `og:site_name: Charlotte Latin School` — and the user confirmed 2026-08-28
+ * that a school's own athletics coverage is legitimate news. Those rows are
+ * KEPT, via `alsoAllowedHosts: ['clshawks.com']` in sources.ts.
+ *
+ * The other three stay dropped by the same rule, and the distinction is the
+ * point: **being linked BY the school is not the same as being published BY the
+ * school.** `alsoAllowedHosts` is an explicit per-school list precisely so that
+ * judgement is made once, in review, rather than by a hostname heuristic that
+ * would pass tomorrow's unknown domain.
+ *
+ * Fourteen posts on the Athletics view carry `data-opens-in="linked_url"`; that
+ * attribute marks a link post but says nothing about WHOSE site it points to,
+ * so it is not used for filtering. The host is what decides.
  */
 
 /** Titles on link posts are suffixed by the CMS; strip it for display. */
@@ -223,8 +234,32 @@ function isSchoolArticlePage(doc: Document): boolean {
   }
 }
 
+/** True for an article on the school's ATHLETICS domain. See TRAP 8. */
+function isAthleticsArticlePage(doc: Document): boolean {
+  const canonical =
+    doc.querySelector('link[rel="canonical"]')?.getAttribute('href') ??
+    doc.querySelector('meta[property="og:url"]')?.getAttribute('content') ??
+    ''
+  if (!canonical) return false
+  try {
+    return ATHLETICS_HOST.test(new URL(canonical).hostname)
+  } catch {
+    return false
+  }
+}
+
 export function preview(html: string): string | undefined {
   const doc = new DOMParser().parseFromString(html, 'text/html')
+
+  // TRAP 8: the athletics site is a different CMS with a genuine description.
+  if (isAthleticsArticlePage(doc)) {
+    const og = doc
+      .querySelector('meta[property="og:description"]')
+      ?.getAttribute('content')
+      ?.trim()
+    return og && og.length > 40 ? truncatePreview(og) : undefined
+  }
+
   if (!isSchoolArticlePage(doc)) return undefined
 
   // TRAP 6: `div.fsBody` is the post's own body. `.fsPageBody` wraps the nav.
@@ -247,6 +282,32 @@ export function preview(html: string): string | undefined {
 }
 
 /**
+ * TRAP 8 — the KEPT athletics rows are on a COMPLETELY DIFFERENT CMS.
+ *
+ * Once `clshawks.com` rows are kept (TRAP 4), the second pass fetches article
+ * pages from a site that shares nothing with Finalsite. It is SIDEARM Sports:
+ *
+ *   - `link[rel=canonical]` is on clshawks.com, so `isSchoolArticlePage` — which
+ *     fails closed on any non-charlottelatin.org page — correctly rejects it.
+ *     Without a second gate those rows get NO preview.
+ *   - There is **no `article:published` meta at all**, so `publishedAt` returns
+ *     undefined and the rows sort to the bottom as undated, beneath articles
+ *     years older. That reads as a mis-ordered section rather than a broken one,
+ *     which is harder to spot.
+ *   - There is no `div.fsBody`, so the body-scoping rule finds nothing.
+ *
+ * Both are recoverable, and the athletics CMS is actually BETTER behaved than
+ * Finalsite for this: its `og:description` is a genuine per-article summary
+ * (not the boilerplate of TRAP 5), and its JSON-LD carries a clean ISO
+ * `datePublished`. So the athletics branch reads those two fields directly and
+ * skips the paragraph-scoping machinery entirely.
+ *
+ * The gates stay SEPARATE rather than being widened into one permissive check:
+ * each host gets the extraction that is correct for its own CMS, and a page on
+ * neither host still fails closed.
+ */
+
+/**
  * TRAP 7 — the article page carries TWO date metas, and the obvious one is wrong.
  *
  *   <meta name="page-published"        content="2025-10-29T19:16:39Z">   ← CMS page
@@ -260,11 +321,31 @@ export function preview(html: string): string | undefined {
  */
 export function publishedAt(html: string): string | undefined {
   const doc = new DOMParser().parseFromString(html, 'text/html')
-  const raw = doc
+
+  const meta = doc
     .querySelector('meta[property="article:published"]')
     ?.getAttribute('content')
     ?.trim()
-  if (!raw) return undefined
-  // Reject an unparseable value rather than poisoning the sort with NaN.
-  return Number.isNaN(Date.parse(raw)) ? undefined : raw
+  if (meta && !Number.isNaN(Date.parse(meta))) return meta
+
+  /* TRAP 8 — the athletics site publishes NO `article:published`.
+     Its date lives in a JSON-LD NewsArticle block instead. Without this the
+     five athletics rows would be undated and sort to the very bottom, beneath
+     articles years older — the section would look mis-ordered rather than
+     broken, which is harder to notice. */
+  for (const el of Array.from(
+    doc.querySelectorAll('script[type="application/ld+json"]'),
+  )) {
+    try {
+      const data = JSON.parse(el.textContent ?? '')
+      for (const node of Array.isArray(data) ? data : [data]) {
+        const d = node?.datePublished
+        if (typeof d === 'string' && !Number.isNaN(Date.parse(d))) return d
+      }
+    } catch {
+      // Malformed JSON-LD means "no date", never a crashed section.
+    }
+  }
+
+  return undefined
 }

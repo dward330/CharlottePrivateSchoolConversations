@@ -18,6 +18,9 @@
 
   The user asked for these four **merged, ordered by latest date, capped at 10**.
 
+- **`alsoAllowedHosts`:** `['clshawks.com']` — the school's athletics domain
+  (see Trap 4). `www.clshawks.com` is a CNAME alias that 301s to the apex; both
+  forms are in the Worker's `ALLOWED_HOSTS`.
 - **`indexUrl`** (the "All news & media" destination) is the **unfiltered** board,
   `https://www.charlottelatin.org/about/school-news` — verified HTTP 200, 330 posts,
   `<title>School News and Publications - Charlotte Latin School</title>`. The four
@@ -44,8 +47,10 @@
 All posts are **server-rendered** — no JS hydration needed.
 
 - **141 unique posts** across the four views; **10 cross-posted** (present on >1 view).
-- **8 rows link off-site** and are dropped by the same-site rule (see Trap 4).
-- **133 on-site posts** remain — far more than the ten needed.
+- **8 rows link to other hosts**; 5 are the school's own athletics site and are
+  **kept**, 3 are third parties and are dropped (see Trap 4).
+- **133 posts on the main domain** plus **5 on the athletics domain** remain — far
+more than the ten needed.
 
 ## Selector table
 
@@ -95,16 +100,57 @@ Thumbnails carry **no `src`**; real URLs live in `data-image-sizes` as an
 the same field — the encoding is per-school even within one CMS). A naive `src=` scrape
 finds **zero** photos. Verified: **16/16** candidates carry a photo.
 
-### Trap 4 — this board links off-site more than any other in the app
-Eight rows point elsewhere: **5 × `clshawks.com`** (the school's *own* athletics site, but
-a different registrable domain), `www.sya.org`, `issuu.com`,
-`www.charlottelatinstories.com`. Fourteen Athletics posts carry `data-opens-in="linked_url"`.
+### Trap 4 — four other hosts, and only one of them belongs
 
-All are dropped by the same-site rule in `normalizeItems`. **`clshawks.com` is the
-interesting case:** genuinely the school's, yet correctly dropped — the rule is an
-allow-list on the board's own registrable domain, not a block-list of social platforms.
-**Do not add `clshawks.com` to `ALLOWED_HOSTS`** to rescue those rows; dropping costs
-nothing here, as 133 on-site posts back-fill the ten.
+Eight rows across the four views point off the main domain:
+
+| Rows | Host | Treatment |
+|---|---|---|
+| 5 | `clshawks.com` | **KEPT** — the school's own athletics site |
+| 1 | `www.sya.org` | dropped — a study-abroad organisation |
+| 1 | `issuu.com` | dropped — a document host |
+| 1 | `www.charlottelatinstories.com` | dropped — **does not resolve at all** |
+
+`clshawks.com` is Charlotte Latin's athletics site: its pages carry
+`og:site_name: Charlotte Latin School`. **The user confirmed 2026-08-28 that a
+school's own athletics site is legitimate news**, so those rows are kept via
+`alsoAllowedHosts: ['clshawks.com']` in `sources.ts` (and the host added to the
+Worker's `ALLOWED_HOSTS`).
+
+The other three stay dropped by the same rule, and the distinction is the point:
+**being linked BY the school is not the same as being published BY the school.**
+
+Fourteen Athletics posts carry `data-opens-in="linked_url"`; that attribute marks
+a link post but says nothing about *whose* site it points to, so it is not used
+for filtering. The host decides.
+
+Only **one** athletics row reaches the rendered ten — the 2026-04-23 signing
+story, which lands at **#6**. The other four are dated 2025-11-12, 2025-04-24,
+2025-02-05 and 2024-12-08, all older than the #10 cutoff (2026-04-01), so none
+are lost to the per-board slice. Verified, not assumed.
+
+### Trap 8 — the kept athletics rows are on a COMPLETELY DIFFERENT CMS
+
+Keeping `clshawks.com` rows means the second pass fetches pages from **SIDEARM
+Sports**, which shares nothing with Finalsite:
+
+- `link[rel=canonical]` is on `clshawks.com`, so the Finalsite gate
+  (`isSchoolArticlePage`, which fails closed off-domain) correctly rejects it —
+  without a second gate those rows get **no preview**.
+- There is **no `article:published` meta at all**, so the rows would be undated
+  and sort beneath articles years older. That reads as a *mis-ordered* section
+  rather than a broken one, which is harder to notice.
+- There is no `div.fsBody`.
+
+Both are recoverable, and this CMS is better behaved than Finalsite here: its
+`og:description` is a **genuine per-article summary** (not the boilerplate of
+Trap 5), and its JSON-LD `NewsArticle` carries a clean ISO `datePublished`
+(`2026-04-23T22:04:00`). The athletics branch reads those two fields directly
+and skips the paragraph-scoping machinery.
+
+The two gates stay **separate** rather than widened into one permissive check:
+each host gets the extraction correct for its own CMS, and a page on neither
+host still fails closed.
 
 ### Trap 5 — `og:description` is boilerplate
 Every article returns the literal `"News Details - Charlotte Latin School"` — verified
@@ -127,7 +173,8 @@ name. `article:published` was present on **38/38** sampled articles.
 ## Verified result (2026-08-28)
 
 Running the shipped parser in Chromium over the captured HTML, then fetching the 14
-candidate article pages: **10/10 dates, 10/10 photos, 10/10 genuine previews** — no
+candidate article pages (main site *and* athletics site): **10/10 dates, 10/10
+photos, 10/10 genuine previews** — no
 boilerplate, no captions, no nav text, no bylines. The ordering matched an independently
 derived ranking from a 38-article date sample.
 
@@ -138,11 +185,11 @@ derived ranking from a 38-article date sample.
 | 3 | 2026-05-20 | School | 2026 Middle School Awards Assembly |
 | 4 | 2026-05-18 | School | Class of 2026 Celebrated at Baccalaureate and Senior Supper |
 | 5 | 2026-05-13 | Arts | Theater Arts Department Announces 2026-27 Schedule |
-| 6 | 2026-04-22 | Arts | Blumey Nominations Honor Cabaret Performers |
-| 7 | 2026-04-21 | Academics | SumoBot Tournament Challenges Student Roboticists |
-| 8 | 2026-04-09 | Athletics | Spotlight: Head Athletic Trainer Andy Russo |
-| 9 | 2026-04-01 | Arts | Latin Student Artists Win National Medals in Scholastic Awards |
-| 10 | 2026-03-25 | Arts | Charlotte Latin Celebrates Youth Art Month |
+| 6 | 2026-04-23 | Athletics (**clshawks.com**) | Record-Setting Year for Collegiate Athletic Commitments |
+| 7 | 2026-04-22 | Arts | Blumey Nominations Honor Cabaret Performers |
+| 8 | 2026-04-21 | Academics | SumoBot Tournament Challenges Student Roboticists |
+| 9 | 2026-04-09 | Athletics | Spotlight: Head Athletic Trainer Andy Russo |
+| 10 | 2026-04-01 | Arts | Latin Student Artists Win National Medals in Scholastic Awards |
 
 All four requested sections are represented.
 

@@ -32,6 +32,21 @@ export type NewsSource = {
    * views share 10 cross-posted articles) and enforces the newest-first cap.
    */
   extraBoardUrls?: string[]
+  /**
+   * Additional domains THIS SCHOOL publishes on, beyond the board's own.
+   *
+   * Rows on these hosts are kept rather than dropped as off-site. Today only
+   * Charlotte Latin needs it, for its athletics site `clshawks.com`.
+   *
+   * Every entry MUST also appear in ALLOWED_HOSTS in
+   * `workers/news-proxy/worker.js` (and the Worker redeployed), or those rows
+   * render permanently preview-less. `npm run check:news` enforces this.
+   *
+   * Only domains the SCHOOL ITSELF publishes belong here — never a third party
+   * it merely links to (a study-abroad org, a document host, a social platform,
+   * a local paper).
+   */
+  alsoAllowedHosts?: readonly string[]
   /** "All news & media" destination. MAY equal boardUrl — Providence Day uses
       one URL for both, per the user. */
   indexUrl: string
@@ -67,7 +82,7 @@ export function byNewestFirst(a: NewsItem, b: NewsItem): number {
 }
 
 /**
- * HARD RULE — every row must link to the SCHOOL'S OWN SITE.
+ * HARD RULE — every row must link to a site THE SCHOOL ITSELF PUBLISHES.
  *
  * A news board may mix ordinary article posts with LINK POSTS that point
  * somewhere else entirely: Charlotte Country Day's Finalsite board flags two of
@@ -104,11 +119,50 @@ export function byNewestFirst(a: NewsItem, b: NewsItem): number {
  * cap would silently shrink the section to 8 rows while 12 posts were
  * available, and would look like a parse failure.
  */
-function isSameSite(url: URL, board: URL): boolean {
-  const a = url.hostname.toLowerCase().replace(/^www\./, '')
-  const b = board.hostname.toLowerCase().replace(/^www\./, '')
-  // Exact match, or a subdomain of the board's domain (news.school.org).
+function registrable(hostname: string): string {
+  return hostname.toLowerCase().replace(/^www\./, '')
+}
+
+/** True when `url` is on `host` or a subdomain of it. Dot-anchored, so
+    `school.org.evil.com` never matches `school.org`. */
+function onHost(url: URL, host: string): boolean {
+  const a = registrable(url.hostname)
+  const b = registrable(host)
   return a === b || a.endsWith(`.${b}`)
+}
+
+/**
+ * A row is kept if it is on the board's own domain OR on one of the school's
+ * DECLARED additional domains (`alsoAllowedHosts`).
+ *
+ * The second half exists because a school's own publishing is not always on one
+ * domain. Charlotte Latin runs its athletics coverage on `clshawks.com`, which
+ * shares no string with `charlottelatin.org` — its pages carry
+ * `og:site_name: Charlotte Latin School`. Those are the school's own articles
+ * about its own teams, so they belong in the section; the user settled this
+ * 2026-08-28.
+ *
+ * This is the ONE place the rule stops being derivable from the board URL, so
+ * it is deliberately narrow:
+ *
+ *  - It is an explicit **per-school** list in `sources.ts`, not a heuristic on
+ *    the hostname and not a global list. A pattern like /hawks|athletics/ is a
+ *    block-list wearing an allow-list's clothes: it passes tomorrow's unknown
+ *    host and can match a site the school does not own.
+ *  - It is scoped to one school, so an entry can never widen another's section.
+ *  - Third-party hosts stay dropped even when a school links to them. On these
+ *    same four Latin boards `sya.org` (a study-abroad organisation), `issuu.com`
+ *    (a document host) and social platforms are all still excluded — being
+ *    linked BY the school is not the same as being published BY the school.
+ *
+ * A declared host must ALSO be added to ALLOWED_HOSTS in the Worker, or its rows
+ * render permanently preview-less beside siblings that have one — the exact
+ * failure this rule was written to prevent. The two lists are checked against
+ * each other by `npm run check:news`.
+ */
+function isAllowedHost(url: URL, board: URL, also: readonly string[]): boolean {
+  if (onHost(url, board.hostname)) return true
+  return also.some((h) => onHost(url, h))
 }
 
 /**
@@ -124,7 +178,12 @@ function isSameSite(url: URL, board: URL): boolean {
  * caps to MAX_ITEMS once the dates are in. Boards that publish their own dates
  * pass nothing and cap at ten immediately, exactly as before.
  */
-export function normalizeItems(raw: NewsItem[], boardUrl: string, cap = MAX_ITEMS): NewsItem[] {
+export function normalizeItems(
+  raw: NewsItem[],
+  boardUrl: string,
+  cap = MAX_ITEMS,
+  alsoAllowedHosts: readonly string[] = [],
+): NewsItem[] {
   const seen = new Set<string>()
   const out: NewsItem[] = []
 
@@ -151,8 +210,8 @@ export function normalizeItems(raw: NewsItem[], boardUrl: string, cap = MAX_ITEM
       continue
     }
 
-    // HARD RULE: off-site rows never render. See the doc comment above.
-    if (board && !isSameSite(parsed, board)) continue
+    // HARD RULE: rows the school does not publish never render. See above.
+    if (board && !isAllowedHost(parsed, board, alsoAllowedHosts)) continue
 
     if (seen.has(url)) continue
     seen.add(url)
