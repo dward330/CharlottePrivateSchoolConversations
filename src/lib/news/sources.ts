@@ -3,6 +3,7 @@ import * as cannon from './parsers/cannon'
 import * as carmelChristian from './parsers/carmel-christian'
 import * as charlotteCatholic from './parsers/charlotte-catholic'
 import * as charlotteChristian from './parsers/charlotte-christian'
+import * as charlotteCountryDay from './parsers/charlotte-country-day'
 import * as providenceDay from './parsers/providence-day'
 
 /**
@@ -100,6 +101,25 @@ export const NEWS_SOURCES: Record<string, NewsSource> = {
     // no feed. There is nothing for a second pass to fetch, so every item keeps
     // `date: null` and the board's own newest-first DOM order is preserved by
     // the stable sort in `normalizeItems`.
+  },
+  'charlotte-country-day': {
+    // USER-SUPPLIED 2026-08-28. One HTML board URL serves as both the parse
+    // target and the "All news & media" destination.
+    //
+    // The FOURTH Finalsite board, and the first board in the app that mixes
+    // ordinary article posts with OFF-SITE LINK POSTS: two of its twenty posts
+    // point straight at instagram.com. They are kept — they are real published
+    // items with a title, date and photo — but the parser's `preview` fails
+    // closed on any page that is not on charlottecountryday.org, so the second
+    // pass never asks the relay to fetch instagram.com. That host is NOT in
+    // ALLOWED_HOSTS and must not be added. See TRAP 3 in the parser.
+    boardUrl: 'https://www.charlottecountryday.org/news-events/school-news-detailed/news-only',
+    indexUrl: 'https://www.charlottecountryday.org/news-events/school-news-detailed/news-only',
+    domain: 'charlottecountryday.org',
+    parse: charlotteCountryDay.parse,
+    // Needed: the board is a thumbnail, a title and a timestamp — no summary.
+    preview: charlotteCountryDay.preview,
+    // No `publishedAt`: every post publishes a real <time> on the board.
   },
 }
 
