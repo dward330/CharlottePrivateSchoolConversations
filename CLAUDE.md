@@ -761,10 +761,12 @@ Four things that are **not** automatic:
 - **Meta descriptions are composed** in `src/lib/head.ts` from school and topic names, so
   adding a topic lengthens every one of them at once. They must stay ≤160 chars or search
   engines truncate them; `check:seo` enforces both ends of that budget.
-- **`npm run deploy` is the user's call, every time.** Merging is not publishing, and
-  `Published` in the deploy output is not the same as the GitHub Pages *build* finishing —
-  check `gh api repos/OWNER/REPO/pages/builds --jq '.[0].status'` before believing a live
-  URL 404 means something is wrong.
+- **`npm run deploy` is the user's call, every time** — see the publishing standard below,
+  which is a hard boundary rather than a detail of this section. One technical note that
+  belongs here: `Published` in the deploy output is **not** the same as the GitHub Pages
+  *build* finishing — check
+  `gh api repos/OWNER/REPO/pages/builds --jq '.[0].status'` before believing a live URL
+  404 means something is wrong.
 - **There is a SECOND deploy target that `npm run deploy` does not touch:** the Cloudflare
   Worker in [`workers/news-proxy/`](workers/news-proxy/), which relays the Latest News
   fetches (school news boards send no CORS header, and this site has no backend). It is
@@ -786,6 +788,41 @@ check because they were pure render-layer: pre-rendered English markup flashing 
 non-English readers (fixed by hiding `<body>` pre-paint — measure `visibility`, NOT the
 DOM, which transitions identically either way), and page-view URLs fragmenting Cloudflare's
 dashboard. See `.claude/plans/seo.md` and the memory notes for both.
+
+## Publishing standard (required)
+
+**`npm run deploy` publishes to the live public site
+[charlotteschoolinsights.com](https://charlotteschoolinsights.com). Never run it unless
+the user asks for it in that moment.**
+
+Merging is not publishing. Under the standing PR workflow, opening and squash-merging a PR
+needs no permission — **publishing is a separate act with a separate owner.** Merged work
+is expected to sit on `main` until the user chooses to release it.
+
+- **A deploy authorization is scoped to that ONE deploy and does not carry forward.** Not
+  to the next change, not to a follow-up fix minutes later, not to an obviously-related
+  tidy-up. Each publish needs its own fresh instruction.
+- **A general "go ahead", "ship it" or "sounds good" on a task is not deploy permission.**
+  It must be a specific instruction to deploy or publish.
+- **Finish by stopping.** Merge, then say "merged — ready to deploy whenever you want it",
+  and end the turn. Do not deploy because the work is done, green, reviewed, or small.
+
+**The known failure mode is momentum, not judgment.** This rule gets broken inside a fast
+commit → PR → merge → verify loop, where `deploy` gets swept along as if it were the last
+step of shipping. An authorized deploy *earlier in the same session* makes the slip more
+likely, not less — the permission feels like it is still in force. It is not.
+
+**Concrete guard: `npm run deploy` must never appear in the same command as `gh pr merge`,
+or chained after a merge or a `git reset`.** Being about to type it there is itself the
+signal to stop.
+
+This has been broken more than once (2026-08-16, and twice on 2026-08-28), each time by an
+agent that had already read the rule. Reading it is not the same as applying it under
+momentum, which is why the mechanical guard above exists alongside the principle.
+
+The Cloudflare Worker in [`workers/news-proxy/`](workers/news-proxy/) is a **separate
+deploy target** with the same standard: it is the user's call, and it additionally needs a
+credential only they can supply.
 
 ## Data-schema standard (required)
 
