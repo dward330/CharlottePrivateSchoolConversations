@@ -66,6 +66,17 @@ const ALLOWED_HOSTS = [
   // fetch Instagram. See TRAP 3 in parsers/charlotte-country-day.ts.
   'www.charlottecountryday.org',
   'charlottecountryday.org',
+  // Apex 301s to www (verified 2026-08-28); both forms are listed because a
+  // redirect between them is invisible until it 403s.
+  //
+  // NOTE: eight of this board's posts link OFF-SITE — five to clshawks.com (the
+  // school's OWN athletics site, on a different registrable domain), plus
+  // sya.org, issuu.com and charlottelatinstories.com. None of those hosts are
+  // listed, deliberately, including clshawks.com: the same-site rule in
+  // normalizeItems drops those rows before they render, and the four boards
+  // carry 133 on-site posts — far more than the ten needed. Do not add them.
+  'www.charlottelatin.org',
+  'charlottelatin.org',
 ]
 
 const TIMEOUT_MS = 12_000

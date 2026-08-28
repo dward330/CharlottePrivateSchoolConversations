@@ -4,6 +4,7 @@ import * as carmelChristian from './parsers/carmel-christian'
 import * as charlotteCatholic from './parsers/charlotte-catholic'
 import * as charlotteChristian from './parsers/charlotte-christian'
 import * as charlotteCountryDay from './parsers/charlotte-country-day'
+import * as charlotteLatin from './parsers/charlotte-latin'
 import * as providenceDay from './parsers/providence-day'
 
 /**
@@ -120,6 +121,38 @@ export const NEWS_SOURCES: Record<string, NewsSource> = {
     // Needed: the board is a thumbnail, a title and a timestamp — no summary.
     preview: charlotteCountryDay.preview,
     // No `publishedAt`: every post publishes a real <time> on the board.
+  },
+  'charlotte-latin': {
+    // USER-SUPPLIED 2026-08-28. The user gave FOUR category-filtered views of
+    // the school's news board and asked for them merged, ordered by date, and
+    // still capped at ten:
+    //
+    //   84 Arts · 85 Athletics · 167 School · 89 Academics
+    //
+    // This is the FIRST multi-board school, hence `extraBoardUrls`. The four
+    // are filtered views of one underlying board (`fsBoard-209`) and cross-post
+    // 10 articles between them; `normalizeItems` de-duplicates by URL.
+    //
+    // indexUrl is the UNFILTERED board — the four category URLs are parse
+    // targets, and sending a reader to one of them would show them a quarter of
+    // the news. It is not self-derived: it is the same path with the filter
+    // dropped, which the school's own nav links (verified HTTP 200, 2026-08-28).
+    boardUrl: 'https://www.charlottelatin.org/about/school-news?post_category_id=84',
+    extraBoardUrls: [
+      'https://www.charlottelatin.org/about/school-news?post_category_id=85',
+      'https://www.charlottelatin.org/about/school-news?post_category_id=167',
+      'https://www.charlottelatin.org/about/school-news?post_category_id=89',
+    ],
+    indexUrl: 'https://www.charlottelatin.org/about/school-news',
+    domain: 'charlottelatin.org',
+    parse: charlotteLatin.parse,
+    // Needed: the board is a thumbnail, a category chip and a title — no summary.
+    preview: charlotteLatin.preview,
+    // REQUIRED here, unlike the other Finalsite boards. These views publish no
+    // date in ANY form, so without this the merged list could only fall back to
+    // DOM order — and the four views are months out of step with each other, so
+    // that order would be wrong. See TRAP 2 and TRAP 7 in the parser.
+    publishedAt: charlotteLatin.publishedAt,
   },
 }
 
