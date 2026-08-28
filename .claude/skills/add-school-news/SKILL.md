@@ -266,7 +266,44 @@ Exclude captions **structurally** rather than by wording —
 `Pictured:` / `(L)` text guard as a backstop. **Read the previews on the rendered page**;
 this class of defect only shows up there.
 
-### Trap 4 — the board may carry no summary at all
+### Trap 4 — a post may link OFF-SITE (social media), and those rows are DROPPED
+
+A board can mix ordinary article posts with **link posts pointing somewhere
+else**: Charlotte Country Day's Finalsite board flags 2 of its 20 posts
+`data-opens-in="linked_url"` and sends them to `instagram.com/p/…`. Those rows
+carry a real headline, date and photo, so nothing about their appearance marks
+them as different.
+
+**HARD RULE: every row must link to the school's own site.** Off-site rows are
+dropped by `normalizeItems` in `src/lib/news/types.ts` — centrally, so it holds
+for every school including ones added later. **Do not re-implement this in a
+parser**, and do not add a social host to the Worker's `ALLOWED_HOSTS` to "fix"
+a 403 from one.
+
+It is an **allow-list on the board's own registrable domain**, not a block-list
+of named platforms: it catches Instagram, Facebook, X, YouTube, TikTok, a local
+paper's press mention, and whatever a school starts posting to next year, with
+no list to maintain. Apex/`www`, subdomains and relative URLs are all kept.
+
+Three reasons this is the treatment:
+
+- **The section promises the school's own news board.** Its footer says so and
+  its header cites the school's domain. A row landing a parent on Instagram —
+  behind a login wall, beside content nobody here reviewed — breaks the citation
+  surface the section exists to be.
+- **Those rows can never carry a preview.** The relay allow-lists school hosts
+  only (correctly — it is what stops it being an open proxy), so the fetch 403s
+  and the row renders permanently preview-less beside siblings that have one.
+- **Nothing is lost.** Dropping happens BEFORE the `MAX_ITEMS` cap, so a board
+  with spare posts backfills to a full ten. Country Day still shows ten rows —
+  ten school articles instead of eight plus two Instagram links.
+
+⚠️ **Never let the cap stand in for the rule.** Country Day's two off-site posts
+sat at #12 and #14 by date, so the cap excluded them the day they shipped. That
+is a property of the calendar, not the board; it stops being true the first week
+two link posts are recent, and it fails silently when it does.
+
+### Trap 5 — the board may carry no summary at all
 
 Common (Finalsite list views show only thumbnail/title/date). Previews then need a second
 fetch per article. Render the list as soon as the board parse resolves and let previews
@@ -453,6 +490,7 @@ data read 100% has been render-layer:
 | Every preview identical/boilerplate | **Trap 2** — `og:description` is not a summary |
 | Previews read "Pictured: …" / describe a photo | **Trap 3** — a caption is outranking the body text |
 | Empty section, HTTP 200 | Wrong URL (step 1) or selectors matching nothing |
+| Fewer rows than the board shows | Expected if the board has off-site link posts — **Trap 4** drops them. Confirm the count only falls short when the board lacks spare posts to backfill. |
 | Headlines in English on a translated page | **Not a bug.** See the top of this skill. |
 
 ---
@@ -467,6 +505,10 @@ data read 100% has been render-layer:
 - **Registering a school is TWO places, not one.** `src/lib/news/sources.ts` *and*
   `ALLOWED_HOSTS` in `workers/news-proxy/worker.js` (redeployed). Either alone ships a
   section that errors.
+- **Every row must link to the school's own site.** Off-site rows (Instagram, Facebook,
+  YouTube, a local paper) are dropped centrally by `normalizeItems` — never re-implement
+  that in a parser, and never add a social host to `ALLOWED_HOSTS` to silence its 403.
+  See Trap 4.
 - **One parser per school.** Do not generalize two schools into a shared parser because
   their CMS looks alike; the isolation is the point.
 - **Do not run `npm run deploy`** — publishing is the user's call, every time.
