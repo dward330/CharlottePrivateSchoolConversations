@@ -4946,6 +4946,11 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   color: inherit;
 }
 .news-row:hover { background: color-mix(in srgb, var(--brand) 4%, transparent); }
+/* A school that publishes no date (Charlotte Christian) drops the date TRACK,
+   not just its text — an empty 64px column plus its 16px gap would indent every
+   row with nothing to explain the space. Same principle as omitting the
+   thumbnail on a photo-less row rather than rendering an empty box. */
+.news-row.no-date { grid-template-columns: 1fr auto; }
 .news-row-date {
   font-family: var(--heading);
   font-size: 12px;

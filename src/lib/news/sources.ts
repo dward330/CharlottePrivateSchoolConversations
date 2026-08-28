@@ -2,6 +2,7 @@ import type { NewsSource } from './types'
 import * as cannon from './parsers/cannon'
 import * as carmelChristian from './parsers/carmel-christian'
 import * as charlotteCatholic from './parsers/charlotte-catholic'
+import * as charlotteChristian from './parsers/charlotte-christian'
 import * as providenceDay from './parsers/providence-day'
 
 /**
@@ -80,6 +81,25 @@ export const NEWS_SOURCES: Record<string, NewsSource> = {
     // Needed: the board is a title, a link and a timestamp — no summary.
     preview: charlotteCatholic.preview,
     // No `publishedAt`: unlike Cannon, this board publishes a real <time>.
+  },
+  'charlotte-christian': {
+    // USER-SUPPLIED 2026-08-28. One HTML board URL serves as both the parse
+    // target and the "All news & media" destination.
+    //
+    // The THIRD Finalsite board, and the one that differs from BOTH siblings at
+    // once: unlike Providence Day it publishes no <time>, and unlike Charlotte
+    // Catholic it publishes a photo on every post. See the parser's TRAP 1/2.
+    boardUrl: 'https://www.charlottechristian.com/about/knights-headlines',
+    indexUrl: 'https://www.charlottechristian.com/about/knights-headlines',
+    domain: 'charlottechristian.com',
+    parse: charlotteChristian.parse,
+    // Needed: the board is a thumbnail, a title and a tag list — no summary.
+    preview: charlotteChristian.preview,
+    // NO `publishedAt`, deliberately. Unlike Cannon — also dateless on its
+    // board — this school publishes no date on the ARTICLE page either, and has
+    // no feed. There is nothing for a second pass to fetch, so every item keeps
+    // `date: null` and the board's own newest-first DOM order is preserved by
+    // the stable sort in `normalizeItems`.
   },
 }
 
