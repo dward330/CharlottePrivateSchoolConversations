@@ -18,6 +18,20 @@ export type NewsItem = {
 export type NewsSource = {
   /** Page the parser fetches. */
   boardUrl: string
+  /**
+   * OPTIONAL extra boards, fetched and merged with `boardUrl`.
+   *
+   * Exists for Charlotte Latin, whose news lives on FOUR category-filtered
+   * views of one board (`?post_category_id=84|85|167|89`) that the user asked
+   * to be merged into a single date-ordered ten. Every other school has one
+   * board and leaves this undefined, so their fetch path is byte-for-byte
+   * unchanged — this is additive, not a rewrite.
+   *
+   * Each URL is fetched with the SAME `parse`, and the results concatenated
+   * before `normalizeItems`, which already de-duplicates by URL (the four
+   * views share 10 cross-posted articles) and enforces the newest-first cap.
+   */
+  extraBoardUrls?: string[]
   /** "All news & media" destination. MAY equal boardUrl — Providence Day uses
       one URL for both, per the user. */
   indexUrl: string
@@ -97,10 +111,20 @@ function isSameSite(url: URL, board: URL): boolean {
   return a === b || a.endsWith(`.${b}`)
 }
 
-/** Absolutize, drop the unusable, drop OFF-SITE links, de-duplicate, sort
-    newest-first, cap. Every parser routes through this so the guarantees hold
-    per-school without each parser re-implementing them. */
-export function normalizeItems(raw: NewsItem[], boardUrl: string): NewsItem[] {
+/**
+ * Absolutize, drop the unusable, drop OFF-SITE links, de-duplicate, sort
+ * newest-first, cap. Every parser routes through this so the guarantees hold
+ * per-school without each parser re-implementing them.
+ *
+ * `cap` exists for a DATELESS board whose dates are only learned on the second
+ * pass. Capping such a board at MAX_ITEMS here would choose the final ten
+ * BEFORE any date is known — the fetch pass would then faithfully date and sort
+ * the wrong ten, and the section would look correct while being wrong. Charlotte
+ * Latin passes a larger cap so the date pass has a real candidate pool, then
+ * caps to MAX_ITEMS once the dates are in. Boards that publish their own dates
+ * pass nothing and cap at ten immediately, exactly as before.
+ */
+export function normalizeItems(raw: NewsItem[], boardUrl: string, cap = MAX_ITEMS): NewsItem[] {
   const seen = new Set<string>()
   const out: NewsItem[] = []
 
@@ -155,7 +179,7 @@ export function normalizeItems(raw: NewsItem[], boardUrl: string): NewsItem[] {
   // emitting <time> should degrade to "no date shown", not to an empty section.
   out.sort(byNewestFirst)
 
-  return out.slice(0, MAX_ITEMS)
+  return out.slice(0, cap)
 }
 
 /** Trim a body paragraph to a preview sentence on a word boundary. */

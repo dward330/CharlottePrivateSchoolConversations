@@ -1,4 +1,4 @@
-import { byNewestFirst, normalizeItems, type NewsItem, type NewsSource } from './types'
+import { byNewestFirst, MAX_ITEMS, normalizeItems, type NewsItem, type NewsSource } from './types'
 
 /** The CORS relay.
  *
@@ -109,10 +109,41 @@ export async function fetchNews(opts: FetchNewsOptions): Promise<NewsItem[]> {
 
   try {
     onPhase?.('contacting')
-    const html = await getText(source.boardUrl, controller.signal)
+
+    /* One board for every school but Charlotte Latin, whose news is split over
+       four category views the user asked to be merged. Fetched in parallel and
+       concatenated; `normalizeItems` de-duplicates the cross-posts. A view that
+       fails is skipped rather than failing the section — with four sources,
+       losing one still leaves a useful list. All four failing yields zero items
+       and the error state below, exactly as a single dead board does. */
+    const boardUrls = [source.boardUrl, ...(source.extraBoardUrls ?? [])]
+    const pages = await Promise.all(
+      boardUrls.map(async (u) => {
+        try {
+          return await getText(u, controller.signal)
+        } catch (err) {
+          // The PRIMARY board failing is a real failure: propagate it so a dead
+          // site still surfaces as an error rather than a silently short list.
+          if (u === source.boardUrl) throw err
+          return null
+        }
+      }),
+    )
 
     onPhase?.('parsing')
-    const items = normalizeItems(source.parse(html, source.boardUrl), source.boardUrl)
+    const raw = pages.flatMap((html, i) => (html ? source.parse(html, boardUrls[i]) : []))
+
+    /* A board that publishes no date only learns its dates on the second pass.
+       Capping at MAX_ITEMS here would pick the final ten BEFORE any date was
+       known — the date pass would then correctly sort the WRONG ten, and the
+       section would look right while being wrong. Keep a wider candidate pool
+       when dates are still unknown, and cap to ten once they arrive. */
+    const needsDates = Boolean(source.publishedAt) && raw.every((i) => !i.date)
+    const items = normalizeItems(
+      raw,
+      source.boardUrl,
+      needsDates ? Math.max(MAX_ITEMS, raw.length) : MAX_ITEMS,
+    )
 
     // A successful fetch yielding zero items means the parser is stale against a
     // redesigned site. That is an error state, not an empty section.
@@ -121,15 +152,20 @@ export async function fetchNews(opts: FetchNewsOptions): Promise<NewsItem[]> {
     onPhase?.('extracting')
     clearTimeout(timer)
 
+    /* The caller and the cache must never see more than the section shows.
+       `items` may be a wider candidate pool (see `needsDates`); the extra rows
+       exist only so the date pass has something to choose from. */
+    const visible = items.slice(0, MAX_ITEMS)
+
     /* Cache the headline-only result IMMEDIATELY. Previews take ~10 further
        round-trips; if we waited for them to settle before writing, a visitor
        who navigated away mid-flight would cache nothing and re-hit the proxy
        from scratch on their next visit. The preview pass overwrites this entry
        with the enriched copy when it finishes. */
-    writeCache(slug, items)
+    writeCache(slug, visible)
 
     void hydratePreviews({ slug, source, items, signal, onUpdate })
-    return items
+    return visible
   } catch (err) {
     clearTimeout(timer)
     if (err instanceof NewsError) throw err
@@ -210,6 +246,10 @@ async function hydratePreviews(args: {
        year — so skipping this would ship a section ordered by neither date nor
        relevance. Sorting is stable for items whose dates did not change. */
     .sort(byNewestFirst)
+    /* Cap HERE, not before. For a dateless multi-board school the pool passed in
+       is deliberately wider than the section shows, precisely so this sort has
+       real candidates to choose from; ten is chosen only once dates exist. */
+    .slice(0, MAX_ITEMS)
 
   writeCache(slug, merged)
   if (withPreview.size || withDate.size) onUpdate?.(merged)
