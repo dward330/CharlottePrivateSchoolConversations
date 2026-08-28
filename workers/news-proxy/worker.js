@@ -44,6 +44,8 @@ function isDevOrigin(origin) {
 const ALLOWED_HOSTS = [
   'www.providenceday.org',
   'providenceday.org',
+  'www.cannonschool.org',
+  'cannonschool.org',
 ]
 
 const TIMEOUT_MS = 12_000

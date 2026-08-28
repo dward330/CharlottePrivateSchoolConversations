@@ -1,4 +1,4 @@
-import { normalizeItems, type NewsItem, type NewsSource } from './types'
+import { byNewestFirst, normalizeItems, type NewsItem, type NewsSource } from './types'
 
 /** The CORS relay.
  *
@@ -154,12 +154,17 @@ async function hydratePreviews(args: {
   onUpdate?: (items: NewsItem[]) => void
 }): Promise<void> {
   const { slug, source, items, signal, onUpdate } = args
-  if (!source.preview) {
+  if (!source.preview && !source.publishedAt) {
     writeCache(slug, items)
     return
   }
 
-  const needed = items.filter((i) => !i.summary)
+  /* An item needs the second pass if it is missing EITHER field this source can
+     supply. Cannon's board publishes no date at all, so filtering on `summary`
+     alone would skip exactly the articles whose dates are still unknown. */
+  const needed = items.filter(
+    (i) => (source.preview && !i.summary) || (source.publishedAt && !i.date),
+  )
   if (!needed.length) {
     writeCache(slug, items)
     return
@@ -171,6 +176,7 @@ async function hydratePreviews(args: {
   signal?.addEventListener('abort', onOuterAbort)
 
   const withPreview = new Map<string, string>()
+  const withDate = new Map<string, string>()
 
   await Promise.all(
     needed.map(async (item) => {
@@ -178,8 +184,10 @@ async function hydratePreviews(args: {
         const html = await getText(item.url, controller.signal)
         const summary = source.preview?.(html)
         if (summary) withPreview.set(item.url, summary)
+        const date = source.publishedAt?.(html)
+        if (date) withDate.set(item.url, date)
       } catch {
-        /* no preview for this row — deliberate, see the doc comment */
+        /* no preview or date for this row — deliberate, see the doc comment */
       }
     }),
   )
@@ -189,13 +197,22 @@ async function hydratePreviews(args: {
 
   if (signal?.aborted) return
 
-  const merged = items.map((i) => {
-    const s = withPreview.get(i.url)
-    return s ? { ...i, summary: s } : i
-  })
+  const merged = items
+    .map((i) => {
+      const s = withPreview.get(i.url)
+      const d = withDate.get(i.url)
+      if (!s && !d) return i
+      return { ...i, ...(s ? { summary: s } : {}), ...(d ? { date: d } : {}) }
+    })
+    /* Re-sort: for a board that publishes no date, the ONLY chronological
+       information arrives here. Cannon's two boards are not interleaved by date
+       on the page — its press-mention board trails the internal one by over a
+       year — so skipping this would ship a section ordered by neither date nor
+       relevance. Sorting is stable for items whose dates did not change. */
+    .sort(byNewestFirst)
 
   writeCache(slug, merged)
-  if (withPreview.size) onUpdate?.(merged)
+  if (withPreview.size || withDate.size) onUpdate?.(merged)
 }
 
 export { toDoc }
