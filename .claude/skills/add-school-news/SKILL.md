@@ -322,6 +322,33 @@ cannot be parsed; never ship an empty shell.
 
 ---
 
+## Step 5b — Allow the school's host in the CORS Worker (REQUIRED)
+
+The relay is **our own Cloudflare Worker** (`workers/news-proxy/`), not a public
+proxy, and it deliberately allow-lists **which hosts it will fetch** — otherwise it
+would be an open proxy anyone could point at any URL on your account's quota.
+
+**A school registered in `sources.ts` but missing from that allow-list fails with
+`403 Host not allowed`, which surfaces as the section's error state.** Nothing in
+the app build catches this; it looks exactly like a parser bug or a dead site.
+
+Add the hostname (both apex and `www.` if the board uses one) to `ALLOWED_HOSTS`
+in `workers/news-proxy/worker.js`, then redeploy:
+
+```bash
+cd workers/news-proxy && npx wrangler deploy
+```
+
+Confirm before moving on — a plain `curl` is a valid health check here, unlike
+against the old public relay:
+
+```bash
+curl -s -o /dev/null -w '%{http_code}\n' \
+  "https://news-proxy.dward330.workers.dev/?url=<url-encoded board URL>"
+```
+
+Expect `200`. A `403` means the host is not allow-listed.
+
 ## Step 6 — Verify
 
 ```bash
@@ -348,8 +375,8 @@ data read 100% has been render-layer:
 
 | Symptom | Likely cause |
 |---|---|
-| Error state for every school | Proxy down or rate-limited — check the `PROXY` constant; consider the Cloudflare Worker migration |
-| Error state, one school | Site redesign — re-run step 2, diff against the `source-material` record |
+| Error state for every school | The Worker is down or misdeployed — check `PROXY` and `npx wrangler deployments list` in `workers/news-proxy/` |
+| Error state, one school | Site redesign — re-run step 2, diff against the `source-material` record. **Check `ALLOWED_HOSTS` first** (step 5b) — a missing host 403s and looks identical. |
 | Renders, but no photos anywhere | **Trap 1** — photos moved to a data attribute |
 | Every preview identical/boilerplate | **Trap 2** — `og:description` is not a summary |
 | Previews read "Pictured: …" / describe a photo | **Trap 3** — a caption is outranking the body text |
