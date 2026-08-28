@@ -1,4 +1,5 @@
 import type { NewsSource } from './types'
+import * as cannon from './parsers/cannon'
 import * as providenceDay from './parsers/providence-day'
 
 /**
@@ -23,6 +24,18 @@ export const NEWS_SOURCES: Record<string, NewsSource> = {
     domain: 'providenceday.org',
     parse: providenceDay.parse,
     preview: providenceDay.preview,
+  },
+  cannon: {
+    // USER-CONFIRMED 2026-08-28. One URL serves as both the parse target and
+    // the "All news & media" destination.
+    boardUrl: 'https://www.cannonschool.org/news-and-stories',
+    indexUrl: 'https://www.cannonschool.org/news-and-stories',
+    domain: 'cannonschool.org',
+    parse: cannon.parse,
+    preview: cannon.preview,
+    // Cannon's board publishes NO date — it lives on the article page. See the
+    // parser's `publishedAt` and the `publishedAt` note in types.ts.
+    publishedAt: cannon.publishedAt,
   },
 }
 

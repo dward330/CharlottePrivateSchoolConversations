@@ -27,12 +27,30 @@ export type NewsSource = {
   /** Optional second pass: pull a preview sentence from one article page.
       Boards that carry their own summary do not need this. */
   preview?: (html: string) => string | undefined
+  /** Optional second pass: pull the publish date from one article page.
+      Only for boards that publish NO date in their list markup — Cannon's
+      Finalsite board emits no <time> at all and keeps the date in an
+      `article:published` meta tag on the article page. Dates arriving here
+      re-sort the list, since the board's own DOM order is not chronological. */
+  publishedAt?: (html: string) => string | undefined
 }
 
 /** Newest-first, capped. The board is the source of order, but a parser that
     reads a redesigned page can emit anything, so ordering is enforced here
     rather than trusted. */
 export const MAX_ITEMS = 10
+
+/** Newest first; undated items sort last rather than being dropped.
+    Exported because a board that publishes no date in its list markup only
+    learns its dates on the second pass, and must re-sort once they arrive. */
+export function byNewestFirst(a: NewsItem, b: NewsItem): number {
+  const at = a.date ? Date.parse(a.date) : NaN
+  const bt = b.date ? Date.parse(b.date) : NaN
+  if (Number.isNaN(at) && Number.isNaN(bt)) return 0
+  if (Number.isNaN(at)) return 1
+  if (Number.isNaN(bt)) return -1
+  return bt - at
+}
 
 /** Absolutize, drop the unusable, de-duplicate, sort newest-first, cap.
     Every parser routes through this so the guarantees hold per-school without
@@ -74,14 +92,7 @@ export function normalizeItems(raw: NewsItem[], boardUrl: string): NewsItem[] {
 
   // Undated items sort last rather than being dropped — a board that stops
   // emitting <time> should degrade to "no date shown", not to an empty section.
-  out.sort((a, b) => {
-    const at = a.date ? Date.parse(a.date) : NaN
-    const bt = b.date ? Date.parse(b.date) : NaN
-    if (Number.isNaN(at) && Number.isNaN(bt)) return 0
-    if (Number.isNaN(at)) return 1
-    if (Number.isNaN(bt)) return -1
-    return bt - at
-  })
+  out.sort(byNewestFirst)
 
   return out.slice(0, MAX_ITEMS)
 }
