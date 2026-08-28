@@ -86,6 +86,16 @@ const ALLOWED_HOSTS = [
   // Being linked BY a school is not being published BY the school.
   'clshawks.com',
   'www.clshawks.com',
+  // Apex 301s to www (verified 2026-08-28); both forms are listed because a
+  // redirect between them is invisible until it 403s.
+  //
+  // Covenant Day's board publishes NO date, so EVERY one of its 37 posts gets
+  // an article-page fetch through this relay before the section can be ordered
+  // — a wider second pass than any other school's ten. Both cache layers (the
+  // Worker's 15-minute edge cache and the app's 30-minute sessionStorage cache)
+  // sit in front of it, so only the first uncached visitor in a window pays it.
+  'www.covenantday.org',
+  'covenantday.org',
 ]
 
 const TIMEOUT_MS = 12_000

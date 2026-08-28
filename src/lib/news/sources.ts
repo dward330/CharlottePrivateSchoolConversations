@@ -5,6 +5,7 @@ import * as charlotteCatholic from './parsers/charlotte-catholic'
 import * as charlotteChristian from './parsers/charlotte-christian'
 import * as charlotteCountryDay from './parsers/charlotte-country-day'
 import * as charlotteLatin from './parsers/charlotte-latin'
+import * as covenantDay from './parsers/covenant-day'
 import * as providenceDay from './parsers/providence-day'
 
 /**
@@ -168,6 +169,33 @@ export const NEWS_SOURCES: Record<string, NewsSource> = {
     // DOM order — and the four views are months out of step with each other, so
     // that order would be wrong. See TRAP 2 and TRAP 7 in the parser.
     publishedAt: charlotteLatin.publishedAt,
+  },
+  'covenant-day': {
+    // USER-SUPPLIED 2026-08-28. One HTML board URL serves as both the parse
+    // target and the "All news & media" destination.
+    //
+    // THREE Finalsite boards render on this one page (`~board/news`,
+    // `~board/features`, `~board/lions-news` — 37 posts total), so unlike
+    // Charlotte Latin this needs no `extraBoardUrls`: a single fetch already
+    // returns all three.
+    //
+    // The fifth Finalsite board in the app and the only school with this field
+    // combination — a REAL inline summary but NO date anywhere. It is the exact
+    // inverse of Providence Day, which publishes a date and boilerplate.
+    boardUrl: 'https://www.covenantday.org/about-us/news',
+    indexUrl: 'https://www.covenantday.org/about-us/news',
+    domain: 'covenantday.org',
+    parse: covenantDay.parse,
+    // No `preview`: this board carries a genuine per-article `div.fsSummary`,
+    // verified across all three boards rather than trusted because the element
+    // exists. Adding a preview pass would spend ~37 extra proxy round-trips
+    // re-fetching text the board already handed us.
+    //
+    // `publishedAt` IS required — the board publishes no date in any form, so
+    // without it every row is undated and the section falls back to DOM order.
+    // That order is badly wrong here: the athletics board is over a year stale
+    // while the other two run current. See TRAP 3 in the parser.
+    publishedAt: covenantDay.publishedAt,
   },
 }
 
