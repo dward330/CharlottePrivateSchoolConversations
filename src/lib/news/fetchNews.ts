@@ -8,14 +8,20 @@ import { normalizeItems, type NewsItem, type NewsSource } from './types'
  *  servers; no parser change affects it. The app is on GitHub Pages with no
  *  backend, so a relay is the only runtime path.
  *
- *  ACCEPTED RISK: a public relay is rate-limited and can fail without notice.
- *  When it does, visitors get the designed error state instead of news — which
- *  is why that state is a required deliverable, not a nicety.
+ *  This is OUR OWN Cloudflare Worker (workers/news-proxy/), deployed 2026-08-28.
+ *  It replaced the public relay corsproxy.io, which gates on USER-AGENT — measured
+ *  deterministically 6/6 on 2026-08-27, non-browser clients get HTTP 403
+ *  "Server-side requests are not allowed on your plan" — and which can change its
+ *  rules with no notice. A visitor hit its failure state the day this shipped.
  *
- *  MIGRATION PATH: standing up a Cloudflare Worker changes THIS CONSTANT ONLY
- *  and no parser code, because all parsing is isolated behind fetchNews().
+ *  The Worker is NOT an open proxy: it allow-lists both the calling origin and
+ *  the fetched host. ADDING A SCHOOL therefore means adding its hostname to
+ *  ALLOWED_HOSTS in workers/news-proxy/worker.js and redeploying, or the section
+ *  fails with "Host not allowed" — see that directory's README.
+ *
+ *  The error state below is still a required deliverable: any relay can fail.
  */
-export const PROXY = 'https://corsproxy.io/?url='
+export const PROXY = 'https://news-proxy.dward330.workers.dev/?url='
 
 const TIMEOUT_MS = 12_000
 const CACHE_TTL_MS = 30 * 60 * 1000
