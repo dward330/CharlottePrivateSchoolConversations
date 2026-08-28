@@ -46,6 +46,8 @@ const ALLOWED_HOSTS = [
   'providenceday.org',
   'www.cannonschool.org',
   'cannonschool.org',
+  'www.carmelchristian.org',
+  'carmelchristian.org',
 ]
 
 const TIMEOUT_MS = 12_000
