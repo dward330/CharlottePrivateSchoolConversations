@@ -94,28 +94,39 @@ directly at `instagram.com/p/…`**:
 - `All-Observer Girls' Scholar Athlete: Caroline Mallard` → `instagram.com/p/DaOJvBCxIF3/`
 
 These are **real published items** with a real title, date and photo — only the
-destination leaves the school's domain. They are **kept** (dropping them would
-silently hide two of the school's own posts) but **never fetched for a preview**:
+destination leaves the school's domain.
 
-- `instagram.com` is **not** in the Worker's `ALLOWED_HOSTS` and **must never be
-  added** — that allow-list is what stops the relay being an open proxy, and it
-  is scoped to school domains.
-- The fetch would therefore 403, which `hydratePreviews` swallows silently. The
-  row still renders correctly, but it burns a proxy request per load and a later
-  reader debugging that 403 would be chasing correct behaviour.
-- Instagram serves a login wall to server-side clients anyway, so there is no
-  preview to extract even if it were allow-listed.
+**These rows are now DROPPED** by the project-wide same-site rule in
+`normalizeItems` (`src/lib/news/types.ts`), added 2026-08-28: every row in the
+Latest News section must link to the school's own site. The rule is an
+allow-list on the board's own registrable domain — not a block-list of named
+platforms — so it also covers Facebook, X, YouTube, TikTok and a local paper's
+press mention, with no list to maintain.
 
-`preview()` fails **closed**: it checks the fetched document's own
-`link[rel=canonical]` / `og:url` and returns `undefined` unless the page is on
-`charlottecountryday.org`. It keys on the fetched HTML rather than the item URL
-because `preview` only receives HTML — and a login wall or interstitial must not
-yield a preview either.
+Dropping runs **before** the `MAX_ITEMS = 10` cap, so this board backfills to a
+full ten rows: ten school articles instead of eight plus two Instagram links.
+Nothing is lost from the section.
 
-**At capture time both off-site posts sat at #12 and #14 by date, so the
-`MAX_ITEMS = 10` cap happens to exclude them today.** That is a property of the
-calendar, not of the board; it will stop being true. The guard does not depend
-on it.
+Why dropping rather than keeping the rows:
+
+- **The section promises the school's own news board.** Its footer says so and
+  its header cites `charlottecountryday.org`. A row landing a parent on
+  Instagram — behind a login wall, beside content nobody here reviewed — breaks
+  the citation surface the section exists to be.
+- **Those rows can never carry a preview.** `instagram.com` is deliberately
+  absent from the Worker's `ALLOWED_HOSTS` and must not be added — that
+  allow-list is what keeps the relay from being an open proxy — so the fetch
+  403s and the row renders permanently preview-less beside siblings that have
+  one.
+
+⚠️ **The cap must never stand in for the rule.** At capture time both off-site
+posts sat at #12 and #14 by date, so `MAX_ITEMS = 10` excluded them anyway. That
+is a property of the calendar, not the board; it stops being true the first week
+two link posts are recent, and it fails silently when it does.
+
+The parser still keeps its `preview` same-host guard, which defends a *different*
+failure: a page that is on-site when parsed but REDIRECTS off-site when fetched,
+or a school page serving a login wall.
 
 ### TRAP 4 — `og:description` is boilerplate
 

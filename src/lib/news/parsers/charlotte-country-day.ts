@@ -96,31 +96,24 @@ export function parse(html: string, _boardUrl: string): NewsItem[] {
  * This board mixes ordinary article posts with link posts: 18 of 20 carry
  * `data-opens-in="page"` and point at charlottecountryday.org, while 2 carry
  * `data-opens-in="linked_url"` and point straight at instagram.com/p/… . They
- * are real published items with a real title, date and photo — only the
- * destination leaves the school's domain.
+ * carry a real title, date and photo, so nothing about their appearance marks
+ * them as different.
  *
- * They must be KEPT (dropping them would silently hide two of the school's own
- * posts) but they must NOT be fetched for a preview:
+ * THOSE ROWS ARE NOW DROPPED, by the same-site rule in `normalizeItems`
+ * (src/lib/news/types.ts) — a hard, project-wide rule rather than anything this
+ * parser decides. Every row must link to the school's own site. Dropping runs
+ * before the MAX_ITEMS cap, so this board backfills to a full ten rows: ten
+ * school articles instead of eight plus two Instagram links.
  *
- *  - instagram.com is not in the Worker's ALLOWED_HOSTS and must never be added
- *    — the allow-list exists to stop this relay becoming an open proxy, and it
- *    is scoped to school domains.
- *  - So the fetch returns 403, which `hydratePreviews` swallows silently. The
- *    row renders correctly either way, but it burns a proxy request per load,
- *    and a future reader debugging a 403 in the Network tab would be chasing
- *    correct behaviour.
- *  - Instagram serves a login wall to server-side clients regardless, so there
- *    is no preview to extract even if it were allow-listed.
+ * This parser therefore emits them unchanged and lets the shared rule do the
+ * filtering. Do NOT re-add a per-parser drop here — the rule is centralised so
+ * it holds for every school, including ones added later whose boards nobody has
+ * inspected yet.
  *
- * `preview()` therefore returns undefined for any page that is not a Country
- * Day article, detected from the fetched document's own canonical/og:url rather
- * than from the item URL — `preview` receives only the HTML, and a login wall
- * or interstitial must fail closed.
- *
- * At the time of writing both off-site posts sit at #12 and #14 by date, so the
- * MAX_ITEMS=10 cap happens to exclude them today. That is a property of the
- * calendar, not of the board, and it will stop being true; the guard does not
- * depend on it.
+ * The `preview` guard below is kept even so, because it defends a DIFFERENT
+ * failure: a page that is on-site when parsed but REDIRECTS off-site when
+ * fetched, or a school page that serves a login wall or interstitial. It fails
+ * closed on anything that is not a Country Day article page.
  */
 function isSchoolArticlePage(doc: Document): boolean {
   const canonical =
