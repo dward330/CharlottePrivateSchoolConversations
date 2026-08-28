@@ -56,6 +56,16 @@ const ALLOWED_HOSTS = [
   // redirect between them is invisible until it 403s.
   'www.charlottechristian.com',
   'charlottechristian.com',
+  // Apex 301s to www (verified 2026-08-28); both forms are listed because a
+  // redirect between them is invisible until it 403s.
+  //
+  // NOTE: two of this board's posts link OFF-SITE to instagram.com. That host
+  // is deliberately NOT listed — this allow-list is what keeps the relay from
+  // being an open proxy, and it is scoped to school domains. The parser's
+  // `preview` fails closed on any non-school page, so nothing asks the relay to
+  // fetch Instagram. See TRAP 3 in parsers/charlotte-country-day.ts.
+  'www.charlottecountryday.org',
+  'charlottecountryday.org',
 ]
 
 const TIMEOUT_MS = 12_000
