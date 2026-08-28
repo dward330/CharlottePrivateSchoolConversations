@@ -69,9 +69,10 @@ function Skeleton({ domain, status, reduced }: { domain: string; status: string;
     <div className="news-loading" aria-busy="true" aria-live="polite">
       <div className="news-loading-head">
         <span className={reduced ? 'news-crosshair' : 'news-crosshair is-spinning'} aria-hidden="true">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-            <circle cx="12" cy="12" r="9" strokeDasharray="14 8" />
-            <circle cx="12" cy="12" r="2.5" />
+          {/* Design's crosshair: ring + four ticks (not a dashed ring). */}
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round">
+            <circle cx="12" cy="12" r="9" />
+            <path d="M12 3v4M12 17v4M3 12h4M17 12h4" />
           </svg>
         </span>
         <span className="news-status">{status}</span>
@@ -82,15 +83,27 @@ function Skeleton({ domain, status, reduced }: { domain: string; status: string;
       </div>
       <div className="news-skeleton" aria-hidden="true">
         <div className={reduced ? 'news-sk-featured' : 'news-sk-featured is-pulsing'}>
-          <div className="news-sk-photo" />
+          <div className="news-sk-photo">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+              <rect x="3" y="3" width="18" height="18" />
+              <circle cx="9" cy="9" r="2" />
+              <path d="m21 15-3.09-3.09a2 2 0 0 0-2.83 0L6 21" />
+            </svg>
+          </div>
           <div className="news-sk-lines">
+            {/* Design staggers the pulse across the stack rather than firing in unison. */}
             <span className="news-sk-line w40" />
-            <span className="news-sk-line w90" />
-            <span className="news-sk-line w70" />
+            <span className="news-sk-line w90" style={{ animationDelay: '0.1s' }} />
+            <span className="news-sk-line w55" style={{ animationDelay: '0.15s' }} />
+            <span className="news-sk-line w70" style={{ animationDelay: '0.2s' }} />
           </div>
         </div>
         {[0, 1, 2, 3, 4].map((i) => (
-          <div key={i} className={reduced ? 'news-sk-row' : 'news-sk-row is-pulsing'}>
+          <div
+            key={i}
+            className={reduced ? 'news-sk-row' : 'news-sk-row is-pulsing'}
+            style={reduced ? undefined : { animationDelay: `${0.06 * i}s` }}
+          >
             <span className="news-sk-line w-date" />
             <span className="news-sk-line w80" />
             <span className="news-sk-thumb" />
