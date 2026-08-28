@@ -52,6 +52,10 @@ const ALLOWED_HOSTS = [
   // redirect between them is invisible until it 403s.
   'www.charlottecatholic.org',
   'charlottecatholic.org',
+  // Apex 302s to www (verified 2026-08-28); both forms are listed because a
+  // redirect between them is invisible until it 403s.
+  'www.charlottechristian.com',
+  'charlottechristian.com',
 ]
 
 const TIMEOUT_MS = 12_000

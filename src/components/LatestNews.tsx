@@ -248,12 +248,21 @@ export function LatestNews({ slug, source }: { slug: string; source: NewsSource 
           {rest.map((item) => (
             <a
               key={item.url}
-              className="news-row"
+              className={`news-row${item.date ? '' : ' no-date'}`}
               href={item.url}
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span className="news-row-date">{fmt(item.date, { month: 'short', day: 'numeric' })}</span>
+              {/* No date -> omit the cell entirely, exactly as a missing photo
+                  omits the thumbnail. Charlotte Christian publishes no date
+                  anywhere on its site, so an unconditional span would indent
+                  every row by an empty 64px column with nothing to explain it.
+                  `.news-row.no-date` drops that grid track. */}
+              {item.date && (
+                <span className="news-row-date">
+                  {fmt(item.date, { month: 'short', day: 'numeric' })}
+                </span>
+              )}
               <span className="news-row-main">
                 <span className="news-row-title">{item.title}</span>
                 {item.summary && <span className="news-row-preview">{item.summary}</span>}
