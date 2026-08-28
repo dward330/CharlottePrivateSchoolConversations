@@ -5040,12 +5040,15 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   margin-bottom: 8px;
 }
 .news-crosshair { display: inline-flex; color: var(--brand); }
-.news-crosshair.is-spinning svg { animation: newsSpin 1.4s linear infinite; }
+.news-crosshair.is-spinning svg { animation: newsSpin 1.2s linear infinite; }
 .news-status {
-  font-size: 11px;
-  letter-spacing: 0.12em;
+  /* Design: 13px / 0.06em / 600 in accent-700 — the steel tone, not muted grey.
+     Matched to "Providence Day School.dc.html" (section id="news") 2026-08-28. */
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: var(--accent-700);
   font-family: var(--heading);
 }
 .news-loading-domain { margin-left: auto; color: var(--muted); font-size: 12px; }
@@ -5054,7 +5057,7 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   position: relative;
   height: 2px;
   overflow: hidden;
-  background: var(--border);
+  background: color-mix(in srgb, var(--brand) 12%, transparent);
   margin-bottom: 16px;
 }
 .news-hairline span {
@@ -5065,7 +5068,7 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   background: var(--brand);
   left: -30%;
 }
-.news-hairline.is-sweeping span { animation: newsBar 1.6s ease-in-out infinite; }
+.news-hairline.is-sweeping span { animation: newsBar 1.3s ease-in-out infinite; }
 
 .news-sk-featured {
   display: grid;
@@ -5073,7 +5076,12 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   border: 1px solid var(--border);
   min-height: 220px;
 }
-.news-sk-photo { background: var(--border); }
+.news-sk-photo {
+  display: grid;
+  place-items: center;
+  background: color-mix(in srgb, var(--text) 6%, transparent);
+  color: color-mix(in srgb, var(--text) 30%, transparent);
+}
 .news-sk-lines {
   display: flex;
   flex-direction: column;
@@ -5089,9 +5097,13 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   border: 1px solid var(--border);
   border-top: 0;
 }
-.news-sk-line { display: block; height: 12px; background: var(--border); }
-.news-sk-thumb { display: block; height: 58px; background: var(--border); }
-.news-sk-line.w40 { width: 40%; }
+.news-sk-line { display: block; height: 12px; background: color-mix(in srgb, var(--text) 10%, transparent); }
+/* The kicker bar is brand-tinted in the design, not neutral. */
+.news-sk-line.w40 { background: color-mix(in srgb, var(--brand) 25%, transparent); }
+.news-sk-line.w70 { background: color-mix(in srgb, var(--text) 7%, transparent); }
+.news-sk-thumb { display: block; height: 58px; background: color-mix(in srgb, var(--text) 6%, transparent); }
+.news-sk-line.w40 { width: 120px; }
+.news-sk-line.w55 { width: 55%; }
 .news-sk-line.w70 { width: 70%; }
 .news-sk-line.w80 { width: 80%; }
 .news-sk-line.w90 { width: 90%; }
@@ -5104,7 +5116,9 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   .news-reveal,
   .news-crosshair svg,
   .news-hairline span,
-  .is-pulsing { animation: none !important; }
+  .news-sk-line,
+  .news-sk-thumb,
+  .is-pulsing { animation: none !important; animation-delay: 0s !important; }
 }
 
 @media (max-width: 720px) {
