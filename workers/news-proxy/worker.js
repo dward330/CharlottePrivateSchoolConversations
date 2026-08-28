@@ -96,6 +96,16 @@ const ALLOWED_HOSTS = [
   // sit in front of it, so only the first uncached visitor in a window pays it.
   'www.covenantday.org',
   'covenantday.org',
+  // Apex 301s to www (verified 2026-08-28); both forms are listed because a
+  // redirect between them is invisible until it 403s.
+  //
+  // Davidson Day's board publishes NO date and NO summary, so each of its 9
+  // posts gets one article-page fetch through this relay for its preview
+  // (1 board + 9 previews = 10 requests per uncached visitor). Unlike Covenant
+  // Day that pass is for preview text only — there is no date to recover, so
+  // the section renders in board order and never waits on it to sort.
+  'www.davidsonday.org',
+  'davidsonday.org',
 ]
 
 const TIMEOUT_MS = 12_000
