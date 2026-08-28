@@ -4890,10 +4890,14 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   min-height: 220px;
   object-fit: cover;
   display: block;
-  /* Same duotone recipe as the summer-programs photo band, so a school's news
-     photos read as part of the same system rather than as stock imagery. */
-  filter: grayscale(1) contrast(1.08);
-  mix-blend-mode: multiply;
+  /* FULL COLOUR, deliberately — no duotone here.
+     The design reference marked these `.duotone`, and the summer-programs photo
+     band does desaturate for cohesion. News photos are different: they are the
+     school's own current photography of real students and events, and the whole
+     point of the section is that it is live. Flattening them to greyscale hid
+     school colours, uniforms and faces, and made recent news look archival.
+     Do NOT re-add a filter here without asking — this was a user decision
+     (2026-08-28). The summer-programs band keeps its duotone. */
 }
 
 .news-featured-body {
@@ -4986,8 +4990,7 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   height: 100%;
   object-fit: cover;
   display: block;
-  filter: grayscale(1) contrast(1.08);
-  mix-blend-mode: multiply;
+  /* Full colour — see .news-featured-photo img above. */
 }
 
 /* ---- footer bar ---- */
