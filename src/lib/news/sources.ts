@@ -6,6 +6,7 @@ import * as charlotteChristian from './parsers/charlotte-christian'
 import * as charlotteCountryDay from './parsers/charlotte-country-day'
 import * as charlotteLatin from './parsers/charlotte-latin'
 import * as covenantDay from './parsers/covenant-day'
+import * as davidsonDay from './parsers/davidson-day'
 import * as providenceDay from './parsers/providence-day'
 
 /**
@@ -196,6 +197,29 @@ export const NEWS_SOURCES: Record<string, NewsSource> = {
     // That order is badly wrong here: the athletics board is over a year stale
     // while the other two run current. See TRAP 3 in the parser.
     publishedAt: covenantDay.publishedAt,
+  },
+  'davidson-day': {
+    // USER-SUPPLIED 2026-08-28. One HTML board URL serves as both the parse
+    // target and the "All news & media" destination.
+    //
+    // The SIXTH Finalsite board in the app. Closest to Charlotte Christian —
+    // dateless, a photo on every post, a boilerplate og:description — but its
+    // article pages carry a `div.fsAuthor` byline directly above the body,
+    // which no sibling has. See TRAP 3 in the parser.
+    boardUrl: 'https://www.davidsonday.org/about/news-media/news',
+    indexUrl: 'https://www.davidsonday.org/about/news-media/news',
+    domain: 'davidsonday.org',
+    parse: davidsonDay.parse,
+    // Needed: a board post is a thumbnail, a title and a "Read More" link —
+    // no summary, and og:description is the CMS template's own name.
+    preview: davidsonDay.preview,
+    // NO `publishedAt`, deliberately. Unlike Cannon and Covenant Day — also
+    // dateless on their boards — this school publishes no date on the ARTICLE
+    // page either, and has no feed (the one path that answers 200 is an HTML
+    // article page, not RSS). There is nothing for a second pass to fetch, so
+    // every item keeps `date: null` and the board's own newest-first DOM order
+    // is preserved by the stable sort in `normalizeItems`. Matches Charlotte
+    // Christian, the app's other genuinely dateless school.
   },
 }
 
