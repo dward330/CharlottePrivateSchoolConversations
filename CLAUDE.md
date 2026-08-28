@@ -789,6 +789,37 @@ non-English readers (fixed by hiding `<body>` pre-paint — measure `visibility`
 DOM, which transitions identically either way), and page-view URLs fragmenting Cloudflare's
 dashboard. See `.claude/plans/seo.md` and the memory notes for both.
 
+## Git workflow standard (required)
+
+**All work lands through a feature branch and a pull request. Never commit directly to
+`main` — no exemptions.** Restated emphatically by the user on 2026-08-24 after a
+docs-only violation: there is no "it's just a doc / just the plan index / just one line"
+carve-out. Commits on `main` through `fc5336b` predate this decision and are not a
+precedent.
+
+- **Merging your own PRs is pre-authorized.** Open the PR, then
+  `gh pr merge --squash --delete-branch` without asking. **Publishing is not** — see the
+  publishing standard below.
+- **After merging, check out `main` and pull**, so the next branch starts from the merged
+  state.
+- **Pass PR bodies via `--body-file`, never a heredoc.** A shell heredoc mangles backtick
+  spans and breaks on apostrophes inside quoted text.
+
+**Never run `git add -A` or `git add .`. Stage explicit paths.** The working tree is shared
+with the user, who may be editing or generating files in parallel; `git add -A` sweeps
+those into a commit whose message describes something else, and merging it puts unreviewed
+code on `main`. This has happened twice: PR #218 swept in four app files the user had
+generated in parallel (~420 lines, merged sight-unseen), and PR #219 swept in a scratch
+test file. Run `git status --short` **before** committing and confirm every staged path
+belongs to the change you are describing.
+
+**`git push` can silently no-op.** It has reported `Everything up-to-date` while the remote
+branch sat on an *older* commit — after which `gh pr create` fails with the misleading
+"No commits between main and <branch>", which reads like a branching mistake rather than a
+failed push. Verify with `git rev-parse HEAD` against `git ls-remote origin <branch>`, and
+when they disagree push the SHA explicitly:
+`git push origin <sha>:refs/heads/<branch> --force`.
+
 ## Publishing standard (required)
 
 **`npm run deploy` publishes to the live public site
@@ -823,6 +854,44 @@ momentum, which is why the mechanical guard above exists alongside the principle
 The Cloudflare Worker in [`workers/news-proxy/`](workers/news-proxy/) is a **separate
 deploy target** with the same standard: it is the user's call, and it additionally needs a
 credential only they can supply.
+
+## Presentation and content conventions (required)
+
+Small standing rules that are easy to violate by accident and expensive to unpick later.
+Each was set after a real defect.
+
+- **Percentages are whole numbers.** `~50%`, never `~½` or `50.4%`. They are citation
+  figures a parent matches against a school's own page.
+- **Citations carry the URL, not just the publisher name.** The app auto-links URLs in
+  research notes, so a name-only citation renders as dead text — and it hid stale data
+  once, because nobody could click through to notice the source had moved.
+- **The real logo always stays.** Never substitute a design-mock mark (e.g. the blueprint
+  "CS" square) for `public/logo.png`, even when following a design handoff that shows one.
+- **Research-area cards carry no kicker line** — no `1a ·` numbering, no
+  `Topic 01 of 07` counters.
+- **When adding a school, mirror the RICHEST existing school's card structure**
+  (Providence Day, Charlotte Latin, Cannon — the ~96%-fill schools), never the most
+  recently added one. Reaching for the freshest example is natural and silently caps the
+  new school at a thin school's depth. Reduce below that full structure **only** where the
+  new school's data is genuinely unpublished — at which point the zero-items rule applies
+  and the card is omitted entirely rather than shipped empty.
+
+## Testing and verification conventions (required)
+
+- **Key translation maps by English text, never by index.** A drifted index ships fluent
+  prose attached to the wrong original — at 100% coverage, with every check passing.
+- **A negative test must isolate its assertion.** Corrupt the *artifact under test*, not an
+  upstream input, then diff the artifact back afterwards; and read *which* message
+  printed. A negative test that fails for the wrong reason proves nothing while looking
+  like proof.
+- **An allowlist is a lower bound, never a census.** It counts only what its checker could
+  see. When measuring how big a defect class is, scan the data — the `es` unit-conversion
+  revert found 26 entries where the allowlist implied 17, because whole unit families
+  (lbs→kg, acres→ha, in→cm) were invisible to the pattern that built it.
+- **A checker parked at a permanently non-zero count stops being read.** Three checkers in
+  this repo reached that state (`check:sepdrift`, `check:live` at 4,646 phantom findings,
+  and the identical-strings report). Either fix the findings or ship the check as a
+  report with exit 0 — never leave a gate red by default.
 
 ## Data-schema standard (required)
 
