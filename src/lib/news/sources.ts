@@ -7,6 +7,7 @@ import * as charlotteCountryDay from './parsers/charlotte-country-day'
 import * as charlotteLatin from './parsers/charlotte-latin'
 import * as covenantDay from './parsers/covenant-day'
 import * as davidsonDay from './parsers/davidson-day'
+import * as gastonDay from './parsers/gaston-day'
 import * as providenceDay from './parsers/providence-day'
 
 /**
@@ -220,6 +221,44 @@ export const NEWS_SOURCES: Record<string, NewsSource> = {
     // every item keeps `date: null` and the board's own newest-first DOM order
     // is preserved by the stable sort in `normalizeItems`. Matches Charlotte
     // Christian, the app's other genuinely dateless school.
+  },
+  'gaston-day': {
+    // USER-SUPPLIED 2026-08-28. The user gave the school's ATHLETICS board,
+    // and it is the school's own publishing — verified from the site itself,
+    // not assumed from the domain name: it serves
+    // `<title>News - Gaston Day School</title>`, brands as "Spartan Athletics",
+    // and links to gastonday.org for the official athletics handbook.
+    //
+    // Consequence worth stating: this is an ATHLETICS board, so the section
+    // carries athletics news only — not a whole-school feed. That is what the
+    // school publishes at the URL supplied.
+    //
+    // ⚠️ NO `alsoAllowedHosts`, deliberately — and adding one would be wrong.
+    // Charlotte Latin declares `clshawks.com` because its athletics site is an
+    // EXTRA host beside a main board on another domain. Here the athletics site
+    // IS the board, so `normalizeItems` anchors the same-site test on it and
+    // every row is same-site by construction. Inverted, not analogous.
+    //
+    // The app's TENTH CMS — Eventlink. See the parser for why nothing was
+    // ported: its photos live in `src` (the inverse of every Finalsite
+    // sibling), so the Finalsite decoder would find zero.
+    boardUrl: 'https://gastondayathletics.com/News',
+    indexUrl: 'https://gastondayathletics.com/News',
+    // The board paginates 7 + 1. Without this the section shows 7 of the
+    // school's 8 articles, which looks like a correct short board rather than a
+    // missing row. Page 2 offers no "Next", so the board is 8 items total and
+    // this is a complete list, not a first page of a crawl.
+    extraBoardUrls: ['https://gastondayathletics.com/News?pageNumber=2'],
+    domain: 'gastondayathletics.com',
+    parse: gastonDay.parse,
+    // Needed: a board row is a cover photo, a title and a "READ MORE" link —
+    // the board carries no summary at all.
+    preview: gastonDay.preview,
+    // Needed: the board publishes NO date, but the article page does, inside
+    // the same `p.text-muted` element as the byline. Places this school with
+    // Cannon and Covenant Day, NOT with the genuinely dateless Charlotte
+    // Christian and Davidson Day. See TRAP 1 in the parser.
+    publishedAt: gastonDay.publishedAt,
   },
 }
 

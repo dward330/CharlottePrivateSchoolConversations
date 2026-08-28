@@ -106,6 +106,25 @@ const ALLOWED_HOSTS = [
   // the section renders in board order and never waits on it to sort.
   'www.davidsonday.org',
   'davidsonday.org',
+  // Gaston Day School's news board is on its OWN ATHLETICS DOMAIN, not on
+  // gastonday.org. Ownership was verified from the site itself, not assumed
+  // from the domain name: it serves `<title>News - Gaston Day School</title>`
+  // and links to gastonday.org for the official athletics handbook.
+  //
+  // Unlike Charlotte Latin's clshawks.com above, this needs no
+  // `alsoAllowedHosts` in sources.ts — the athletics site IS the board here, so
+  // every row is same-site by construction rather than an allowed exception.
+  //
+  // Apex and www BOTH serve 200 directly with no redirect between them
+  // (verified 2026-08-28); both forms are listed anyway, per the convention
+  // above, so a future redirect cannot silently 403.
+  //
+  // The board publishes NO date and NO summary, so each of its 8 posts gets one
+  // article-page fetch through this relay for its date and preview (2 board
+  // pages + 8 articles = 10 requests per uncached visitor). The date pass is
+  // load-bearing: the board's DOM order is not chronological until it lands.
+  'gastondayathletics.com',
+  'www.gastondayathletics.com',
 ]
 
 const TIMEOUT_MS = 12_000
