@@ -1,6 +1,7 @@
 import type { NewsSource } from './types'
 import * as cannon from './parsers/cannon'
 import * as carmelChristian from './parsers/carmel-christian'
+import * as charlotteCatholic from './parsers/charlotte-catholic'
 import * as providenceDay from './parsers/providence-day'
 
 /**
@@ -60,6 +61,25 @@ export const NEWS_SOURCES: Record<string, NewsSource> = {
     // No `preview` and no `publishedAt`: the feed carries a genuine per-article
     // <description> and a real <pubDate>, so there is nothing for a second pass
     // to fetch.
+  },
+  'charlotte-catholic': {
+    // USER-SUPPLIED 2026-08-28. One HTML board URL serves as both the parse
+    // target and the "All news & media" destination.
+    //
+    // The SECOND Finalsite board in the app, and the case that justifies the
+    // one-parser-per-school rule rather than merely illustrating it: the same
+    // CMS ships a materially different board here. It publishes NO article
+    // photos at all (verified by inspection, not inferred from an empty
+    // scrape), scopes its body to `div.fsBody` rather than `.fsPageBody`, and
+    // percent-encodes the image JSON where Providence Day HTML-entity-encodes
+    // it. Sharing that parser would have silently produced photo-less rows.
+    boardUrl: 'https://www.charlottecatholic.org/community/news',
+    indexUrl: 'https://www.charlottecatholic.org/community/news',
+    domain: 'charlottecatholic.org',
+    parse: charlotteCatholic.parse,
+    // Needed: the board is a title, a link and a timestamp — no summary.
+    preview: charlotteCatholic.preview,
+    // No `publishedAt`: unlike Cannon, this board publishes a real <time>.
   },
 }
 
