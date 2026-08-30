@@ -168,14 +168,19 @@ export function ProseContent({
   text,
   title,
   topic,
+  subtopic,
 }: {
   text: string
   title?: string
   /** Topic slug — lets the parser scope its research-gap filtering (see prose.ts). */
   topic?: string
+  /** The note's own subtopic. Distinct from `title`, which is the shared METRIC
+   *  label: a whole subtopic can be a provenance section, and the parser needs to
+   *  see that (see stripProvenance in prose.ts). */
+  subtopic?: string
 }) {
   const { t } = useTranslation()
-  const { lede, sections } = group(parseProse(text, title, topic), title)
+  const { lede, sections } = group(parseProse(text, title, topic, subtopic), title)
   return (
     <div className="prose-doc">
       {lede.length > 0 && <div className="prose-lede"><Blocks blocks={lede} /></div>}

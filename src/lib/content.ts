@@ -5,6 +5,7 @@
 
 import { normalizeMetric, orderMetricKeys, type Metric } from './metrics.ts'
 import { stampFor } from './localizeData.ts'
+import { stripProvenanceRaw } from './prose.ts'
 import type { ContentSection, SchoolTopicContent } from './types.ts'
 
 const loaders = import.meta.glob<SchoolTopicContent>('../content/*/*.json')
@@ -176,6 +177,12 @@ export async function loadMetricGroups(
       byKey.set(metric.key, group)
       order.push(metric.key)
     }
+    /* Strip the tuition-history provenance apparatus from the ENGLISH text, before
+       the overlay swaps each block for its translation. Doing it here rather than
+       only in parseProse is what makes the removal apply in every locale: after
+       localizeBody the blocks are Spanish/Bangla/…, so an English-text pattern
+       would match nothing and only English readers would lose the bullets. */
+    const text = stripProvenanceRaw(section.text, topicSlug, section.subtopic)
     group.sections.push(
       blocks
         ? {
@@ -183,9 +190,9 @@ export async function loadMetricGroups(
             /* The heading renders as its own <h3>, so it is looked up whole
                rather than through localizeBody's block splitter. */
             subtopic: blocks[stampFor(section.subtopic.trim())] ?? section.subtopic,
-            text: localizeBody(section.text, blocks),
+            text: localizeBody(text, blocks),
           }
-        : section,
+        : { ...section, text },
     )
   }
   const result = orderMetricKeys(topicSlug, order).map((k) => byKey.get(k)!)

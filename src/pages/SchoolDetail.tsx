@@ -15,7 +15,7 @@ import { SchoolBadge } from '../components/SchoolBadge.tsx'
 import { TopicGlyph } from '../components/TopicGlyph.tsx'
 import { ProseContent } from '../components/ProseContent.tsx'
 import { PodcastDeepDive } from '../components/PodcastDeepDive.tsx'
-import { proseSummary, previewHasGapLanguage } from '../lib/prose.ts'
+import { proseSummary, previewHasGapLanguage, proseIsEmpty } from '../lib/prose.ts'
 import { toCompare, toHome, useNavigate } from '../lib/router.ts'
 import { schools as allSchools } from '../lib/manifest.ts'
 import { valueMetricsForTopic, loadMetricValuesOverlay } from '../data/metricValues.ts'
@@ -1093,14 +1093,35 @@ export function SchoolDetail({ slug }: { slug: string }) {
                           ) : catalog ? (
                             <ClubCatalogBody catalog={catalog} />
                           ) : (
-                            g.sections.map((s, i) => (
+                            /* A subtopic whose whole body is filtered out at parse
+                               time (the tuition-history provenance sections) would
+                               otherwise ship as a bare <h3> over empty space — the
+                               shape the no-empty-cards rule forbids. The heading is
+                               rendered here rather than inside ProseContent, so the
+                               emptiness has to be tested here too. */
+                            g.sections
+                              .filter(
+                                (s) =>
+                                  !proseIsEmpty(
+                                    s.text,
+                                    metricLabel(tr, g.metric.key, g.metric.label),
+                                    t.slug,
+                                    s.subtopic,
+                                  ),
+                              )
+                              .map((s, i, kept) => (
                               <article key={i} className="section-text">
-                                {g.sections.length > 1 &&
+                                {kept.length > 1 &&
                                   s.subtopic !== g.metric.label &&
                                   !/deep research/i.test(s.subtopic) && (
                                     <h3 className="section-sub">{s.subtopic}</h3>
                                   )}
-                                <ProseContent text={s.text} title={metricLabel(tr, g.metric.key, g.metric.label)} topic={t.slug} />
+                                <ProseContent
+                                  text={s.text}
+                                  title={metricLabel(tr, g.metric.key, g.metric.label)}
+                                  topic={t.slug}
+                                  subtopic={s.subtopic}
+                                />
                               </article>
                             ))
                           )}
