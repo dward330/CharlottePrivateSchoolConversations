@@ -5,7 +5,7 @@ status: implemented
 phases: 1
 created: 2026-08-29
 branch: feat/remove-tuition-history-bullets
-prs: [241]
+prs: [242]
 ---
 
 # Strip the provenance bullet lists from the Tuition History cards
@@ -342,7 +342,7 @@ is that render-layer defects survive every automated check:
 
 ## Implementation notes
 
-Shipped 2026-08-29 in PR #241. The plan's structure held — filter at parse time, match on
+Shipped 2026-08-29 in PR #242. The plan's structure held — filter at parse time, match on
 shape, scope to `financial-aid`, drop headings that empty out — but four things it
 specified turned out to be wrong about the repo, each found by verification rather than by
 reading.
