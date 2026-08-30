@@ -49,6 +49,30 @@ const manifest = JSON.parse(
  * school × band for pages nobody should land on from search. `check:seo` cannot
  * fail on a route it was never told about, so this is an omission by choice
  * rather than an oversight — hence this note.
+ *
+ * KNOWN CONSEQUENCE, accepted 2026-08-30: because this repo has **no
+ * `404.html`** (there never has been one — every reachable route is
+ * pre-rendered instead), "absent from ROUTES" also means "**deep links to it
+ * 404 in production**". GitHub Pages serves its own error page and the SPA
+ * never boots. Clicking "Export checklist" from the school page works
+ * perfectly — verified live in all nine locales — so only a pasted or shared
+ * URL fails. That was judged acceptable for a print utility nobody should
+ * reach from search, and the fix was deliberately NOT taken.
+ *
+ * Anyone reconsidering should know the three measured obstacles, so they are
+ * not rediscovered:
+ *
+ *   1. The sheet renders **14.4–14.9 KB**, under the 20 KB `MIN_BYTES` floor
+ *      in both prerender.mjs and check_seo.mjs — pre-rendering it as-is fails
+ *      the build, the same failure class as commit a868754.
+ *   2. `src/lib/head.ts` has **no branch for this route** (only `school` and
+ *      `compare`), so it falls back to the site-default title and a canonical
+ *      pointing at `/` — which check_seo.mjs rejects independently of the byte
+ *      floor, on both counts.
+ *   3. Reachability and indexability are **separate concerns**. A `404.html`
+ *      fallback would fix reachability alone and leave this sitemap decision
+ *      intact; adding the route here fixes both but reverses the rationale
+ *      above and forces a school × band fan-out decision.
  */
 export const ROUTES = [
   { path: '/', changefreq: 'weekly', priority: '1.0' },
