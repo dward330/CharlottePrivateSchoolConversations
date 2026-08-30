@@ -5,7 +5,7 @@ status: english-done
 phases: 2
 created: 2026-08-30
 branch: feat/admissions
-prs: []
+prs: [245]
 ---
 
 # Admissions research area — new first topic
