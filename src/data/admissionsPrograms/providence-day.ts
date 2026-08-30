@@ -45,10 +45,6 @@ export const providenceDay: AdmissionsProgram = {
         title: 'Dates are cycle-specific.',
         text: 'Every date below is the 2026–27 entry cycle from the live admissions calendar. Cycle dates shift year to year — verify before acting.',
       },
-      {
-        title: 'Not published ≠ deficient.',
-        text: "The application-fee amount and some band checklists aren't on the website. Those gaps are flagged below — confirm them with the admissions office.",
-      },
     ],
 
     spineNote:

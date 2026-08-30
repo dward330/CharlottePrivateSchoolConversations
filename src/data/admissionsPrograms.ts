@@ -150,7 +150,7 @@ export type AdmissionsGuide = {
   cycle: string
   /** The 4 stat-band tiles above the card. */
   stats: { value: string; label: string }[]
-  /** The three framing rules above the band selector. */
+  /** The framing rules above the band selector. */
   rules: { title: string; text: string }[]
   /** Line under the selector about the shared spine and the selection factors. */
   spineNote: string
