@@ -5440,29 +5440,71 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
 .ad-cell-all { color: var(--text); }
 
 .ad-address { font-size: 12.5px; color: var(--muted); }
-/* One shared hairline between cells rather than a border per card. Drawn with
-   per-cell box-shadows rather than a 1px gap over a divider-coloured ground:
-   8 contacts across 3 columns leaves a hole in the last row, and that ground
-   showed through it as a solid grey block. Same technique — and the same
-   reason — as the .stat-tile strip above. */
+/* One shared hairline between cells rather than a border per card.
+   The horizontal rules come from each cell's own top border; the VERTICAL ones
+   are painted on the grid container as a repeating gradient, so they run the
+   container's full height regardless of which cells exist.
+
+   Two earlier attempts each failed on the ragged last row — 8 contacts across
+   3 columns leaves a hole. A 1px gap over a divider-coloured ground showed that
+   hole as a solid grey block; per-cell box-shadows can only draw a rule where a
+   cell exists to cast it, so both interior verticals stopped short and the grid
+   ended ragged. Only the container can paint a line across empty track.
+
+   --ad-col is the column count and MUST stay in step with grid-template-columns
+   — the gradient computes its stops from it. */
 .ad-people {
+  --ad-col: 3;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(var(--ad-col), 1fr);
+  /* Equal-height rows. Needed for the horizontal rules below — a gradient can
+     only place them at a regular interval — and it squares the cells up, which
+     the ragged natural heights (77/79/79px) did not. */
+  grid-auto-rows: 1fr;
   gap: 0;
   border: 1px solid var(--border);
-  overflow: hidden;
+  /* BOTH rule directions are painted by the container, as two repeating
+     gradients over the grid's own content box.
+
+     This is the third approach, and the earlier two each failed the same way —
+     on the ragged last row, where 8 contacts across 3 columns leave a hole. A
+     1px gap over a divider-coloured ground showed that hole as a solid grey
+     block. Per-cell borders can only draw a rule where a cell exists to draw
+     it, so the interior verticals stopped short and the rule under the last
+     cell of column 3 was missing entirely. Only the container can paint across
+     empty track. */
+  background-image:
+    repeating-linear-gradient(
+      to right,
+      transparent 0,
+      transparent calc(100% / var(--ad-col) - 1px),
+      var(--border) calc(100% / var(--ad-col) - 1px),
+      var(--border) calc(100% / var(--ad-col))
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent calc(100% / var(--ad-rows) - 1px),
+      var(--border) calc(100% / var(--ad-rows) - 1px),
+      var(--border) calc(100% / var(--ad-rows))
+    );
+  /* rows = ceil(--ad-n / --ad-col). `round(up, …)` is the CSS ceiling — plain
+     calc() divides as a float (8/3 = 2.67), which put the rules in the wrong
+     places. --ad-n is the contact count, set by the component. */
+  --ad-rows: round(up, calc(var(--ad-n) / var(--ad-col)), 1);
 }
-.ad-person {
-  background: var(--bg);
-  padding: 10px 12px;
-  box-shadow: -1px 0 0 var(--border), 0 -1px 0 var(--border);
-}
+/* Transparent, so the container's rules show through between cells. */
+.ad-person { padding: 10px 12px; }
 .ad-person-name { font-family: var(--heading); font-size: 14.5px; font-weight: 600; color: var(--text); }
 .ad-person-detail { margin-top: 2px; font-size: 12px; line-height: 1.4; color: var(--muted); }
 
 @media (max-width: 900px) {
   .ad-grid { grid-template-columns: 1fr; }
   .ad-rules { grid-template-columns: 1fr; }
+  .ad-people { --ad-col: 2; }
+}
+@media (max-width: 560px) {
+  .ad-people { --ad-col: 1; }
 }
 /* Below ~430px three joined bands cannot share a row without forcing the card
    past the viewport, so the segmented control stacks into a vertical one — the

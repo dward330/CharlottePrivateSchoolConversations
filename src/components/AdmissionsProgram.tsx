@@ -348,7 +348,14 @@ export function AdmissionsGuideBody({ data, slug }: { data: AdmissionsGuide; slu
           <h4 className="ad-head-title">{data.contacts.title}</h4>
           <span className="ad-address">{data.contacts.address}</span>
         </div>
-        <div className="ad-people">
+        {/* --ad-n is the contact count; src/index.css derives the row count from
+            it and the breakpoint's column count, because BOTH grid rules are
+            painted by the container (a cell cannot draw a rule across the empty
+            track a ragged last row leaves). */}
+        <div
+          className="ad-people"
+          style={{ ['--ad-n' as string]: data.contacts.people.length }}
+        >
           {data.contacts.people.map((p) => (
             <div key={p.name} className="ad-person">
               <div className="ad-person-name">{p.name}</div>
