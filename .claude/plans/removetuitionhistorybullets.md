@@ -5,7 +5,7 @@ status: implemented
 phases: 1
 created: 2026-08-29
 branch: feat/remove-tuition-history-bullets
-prs: [242]
+prs: [242, 243]
 ---
 
 # Strip the provenance bullet lists from the Tuition History cards
@@ -435,3 +435,21 @@ In-Depth Report cards verified untouched (15 and 9 list items, 7 links each).
   `Tuition by band and year` heading does not render — its overlay translation does not
   parse back as a heading. Confirmed present on `main` before this change. Worth a separate
   look.
+
+### Follow-up: "The year-pinning decision" also removed (PR #243)
+
+On reviewing the shipped English page the user circled Covenant Day's
+`### The year-pinning decision` sub-section — heading and paragraph — and asked for it to
+go too. It is a note about **this project's own editorial method** (which school year the
+app quotes for `top-tuition`, and why), so it reads to a family as the same internal voice
+as the snapshot lists beside it, even though it is not provenance.
+
+Added as `PROVENANCE_YEAR_PINNING` at both layers, sharing rule 3's "drop the whole section
+whatever its blocks contain" path via a new `isWholeSectionDrop()` helper — its body is an
+ordinary paragraph, so the bullets-only guard used by rule 2 would not have reached it.
+
+Whole-corpus A/B diff against `main` still shows **exactly 6 sections** changed; the only
+new removal is Covenant Day's heading + paragraph. Browser-verified across en/es/hi/fa:
+Covenant Day's card is now `Tuition by band and year` plus its table, and the other three
+schools are unchanged. `npm run build` exit 0; `check:live`, `check:runtime`,
+`check:schema`, `check:chrome`, `check:seo` all pass.
