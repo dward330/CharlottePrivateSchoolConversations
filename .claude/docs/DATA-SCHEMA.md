@@ -674,7 +674,7 @@ Root type `AdmissionsProgram` · registry `ADMISSIONS_CARDS` · `src/data/admiss
 
 | Card key | Title | Parent question / kicker |
 |---|---|---|
-| `guide` | Grade-by-Grade Application Guide | Which steps, which deadlines, and which test for my child? |
+| `guide` | Grade-by-Grade Application Guide — TK/K · 1–5 · 6–12 | Which steps, which deadlines, and which test for my child? |
 
 **Schools with data:** 1/11 — absent: `cannon`, `carmel-christian`, `charlotte-catholic`, `charlotte-christian`, `charlotte-country-day`, `charlotte-latin`, `covenant-day`, `davidson-day`, `gaston-day`, `hickory-grove-christian`
 

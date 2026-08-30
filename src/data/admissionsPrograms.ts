@@ -24,10 +24,10 @@
 // THE CYCLE RULE IS LOAD-BEARING. A school's research file may carry two entry
 // cycles' dates (the live calendar for the current one, a mirror page for the
 // prior one). Only the CURRENT cycle ships, and `cycle` labels every date on
-// the page with it. Where the current cycle publishes no date, `unpublished`
-// marks the tile so the UI points at the live calendar instead — a prior
-// cycle's date is NEVER carried forward as if it were current, and a date is
-// never guessed.
+// the page with it. Where the current cycle publishes no date, the tile carries
+// the known constant and its caption names the live calendar — a prior cycle's
+// date is NEVER carried forward as if it were current, and a date is never
+// guessed.
 //
 // The card is optional, and a school with no admissions research simply has no
 // entry — the section then does not render at all, which is the honest outcome
@@ -55,8 +55,12 @@ export type AdDeadline = {
   /** Caption under the value, e.g. "all materials & assessments due". */
   label: string
   /**
-   * True when `value` is a constant rather than a published date — the UI
-   * appends the "see live calendar" pointer.
+   * True when `value` is a constant rather than a published date. The tile
+   * renders identically either way — the design deliberately does NOT decorate
+   * it, because the caption already says "date on the live calendar" and the
+   * cross-band table repeats the pointer. The flag is kept because the
+   * distinction is real research (published date vs known constant) and a
+   * later surface may want it.
    */
   unpublished?: boolean
 }
@@ -188,7 +192,7 @@ export type AdmissionsProgram = {
 export const ADMISSIONS_CARDS = [
   {
     key: 'guide',
-    title: 'Grade-by-Grade Application Guide',
+    title: 'Grade-by-Grade Application Guide — TK/K · 1–5 · 6–12',
     kicker: 'Which steps, which deadlines, and which test for my child?',
   },
 ] as const satisfies readonly {

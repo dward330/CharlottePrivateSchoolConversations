@@ -21,7 +21,7 @@
 // The card ends in a SOURCE row that linkifies any citation carrying a URL —
 // the project's citation standard.
 
-import { useState } from 'react'
+import { useState, type ReactNode } from 'react'
 import { useTranslation } from 'react-i18next'
 import { localizeMoneyText } from '../lib/format.ts'
 import { sourceLabel } from '../lib/labels.ts'
@@ -58,6 +58,66 @@ function SourceRow({ sources }: { sources: AdSource[] }) {
   )
 }
 
+/* The design's three framing-rule icons and the aid strip's clock, at the
+   Industry system's 1.5px round-capped stroke. Inline rather than in
+   TopicGlyph.tsx: that module is the per-TOPIC glyph registry, and these are
+   card-internal ornaments. */
+function RuleIcon({ children, size = 15 }: { children: ReactNode; size?: number }) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+      focusable="false"
+    >
+      {children}
+    </svg>
+  )
+}
+
+/** One icon per framing rule, in the design's order: calendar, clock, info. */
+const RULE_ICONS: ReactNode[] = [
+  <>
+    <rect x="3" y="4" width="18" height="16" />
+    <path d="M3 9h18M8 2v4M16 2v4" />
+  </>,
+  <>
+    <circle cx="12" cy="12" r="10" />
+    <path d="M12 6v6l4 2" />
+  </>,
+  <>
+    <circle cx="12" cy="12" r="10" />
+    <path d="M12 16v-4M12 8h.01" />
+  </>,
+]
+
+/**
+ * Renders `**bold**` spans as <strong>, which is how the design emphasizes the
+ * load-bearing phrase inside a watch-out card or the aid strip ("an **earlier
+ * calendar**", "due **Jan 22**"). Authoring it in the data as markdown keeps
+ * the emphasis a translatable part of the string rather than a structural split
+ * the overlay layer would have to reproduce.
+ */
+function Emphasized({ text }: { text: string }) {
+  return (
+    <>
+      {text.split(/(\*\*[^*]+\*\*)/g).map((part, i) =>
+        part.startsWith('**') && part.endsWith('**') ? (
+          <strong key={i}>{localizeMoneyText(part.slice(2, -2))}</strong>
+        ) : (
+          <span key={i}>{localizeMoneyText(part)}</span>
+        ),
+      )}
+    </>
+  )
+}
+
 /**
  * The 4-tile deadline strip for the selected band.
  *
@@ -66,7 +126,8 @@ function SourceRow({ sources }: { sources: AdSource[] }) {
  * ("$2,500"). A plain date passes through unchanged.
  *
  * A tile flagged `unpublished` carries a constant rather than a published date,
- * so it says where to look instead of implying the school published one.
+ * so it points at the live calendar instead of implying the school published
+ * one. Rendered as a link-coloured pointer, per the design.
  */
 function DeadlineStrip({ band }: { band: AdBand }) {
   const { t } = useTranslation()
@@ -106,7 +167,9 @@ function Stepper({ band }: { band: AdBand }) {
                 {s.tag}
               </span>
             </div>
-            <p className="ad-step-detail">{localizeMoneyText(s.detail)}</p>
+            <p className="ad-step-detail">
+              <Emphasized text={s.detail} />
+            </p>
           </div>
         </li>
       ))}
@@ -183,9 +246,11 @@ export function AdmissionsGuideBody({ data, slug }: { data: AdmissionsGuide; slu
     <div className="as-body ad-body">
       {/* The three framing rules — how the process works before any date. */}
       <div className="ad-rules">
-        {data.rules.map((r) => (
+        {data.rules.map((r, i) => (
           <div key={r.title} className="ad-rule">
-            <span className="ad-rule-mark" aria-hidden="true" />
+            <span className="ad-rule-icon">
+              <RuleIcon>{RULE_ICONS[i % RULE_ICONS.length]}</RuleIcon>
+            </span>
             <p className="ad-rule-text">
               <strong>{r.title}</strong> {r.text}
             </p>
@@ -193,17 +258,20 @@ export function AdmissionsGuideBody({ data, slug }: { data: AdmissionsGuide; slu
         ))}
       </div>
 
-      {/* The band selector, collapsed for a school with one uniform process. */}
+      {/* The band selector, collapsed for a school with one uniform process.
+          The buttons are JOINED (no gap, shared hairline) and share the row
+          equally, which is what makes them read as one segmented control rather
+          than three loose buttons. */}
       <div className="ad-pick">
         {!single && (
           <>
-            <span className="as-h ad-pick-label">{t('admissions.applyingFor')}</span>
+            <span className="ad-pick-label">{t('admissions.applyingFor')}</span>
             <div className="ad-bands" role="group" aria-label={t('admissions.applyingFor')}>
               {data.bands.map((b) => (
                 <button
                   key={b.key}
                   type="button"
-                  className={`btn ad-band${b.key === band.key ? ' is-on' : ''}`}
+                  className={`ad-band${b.key === band.key ? ' is-on' : ''}`}
                   aria-pressed={b.key === band.key}
                   onClick={() => setBandKey(b.key)}
                 >
@@ -215,6 +283,12 @@ export function AdmissionsGuideBody({ data, slug }: { data: AdmissionsGuide; slu
           </>
         )}
         <a className="btn primary ad-export" href={toAdmissionsChecklist(slug, band.key)}>
+          <RuleIcon>
+            <>
+              <path d="M12 3v12M7 10l5 5 5-5" />
+              <path d="M4 21h16" />
+            </>
+          </RuleIcon>
           {t('admissions.exportChecklist')}
         </a>
       </div>
@@ -228,8 +302,10 @@ export function AdmissionsGuideBody({ data, slug }: { data: AdmissionsGuide; slu
         <div className="ad-watch">
           {band.watchOuts.map((w) => (
             <div key={w.kicker} className="ad-watch-card">
-              <div className="as-h">{w.kicker}</div>
-              <p className="ad-watch-text">{localizeMoneyText(w.text)}</p>
+              <div className="ad-watch-kicker">{w.kicker}</div>
+              <p className="ad-watch-text">
+                <Emphasized text={w.text} />
+              </p>
             </div>
           ))}
         </div>
@@ -239,28 +315,44 @@ export function AdmissionsGuideBody({ data, slug }: { data: AdmissionsGuide; slu
           band's — so it sits outside the band-specific block and deep-links to
           the area that owns it. */}
       <div className="ad-aid">
+        <span className="ad-aid-icon">
+          <RuleIcon size={20}>
+            <>
+              <circle cx="12" cy="12" r="10" />
+              <path d="M12 6v6l4 2" />
+            </>
+          </RuleIcon>
+        </span>
         <div className="ad-aid-text">
-          <div className="as-h">{data.aid.title}</div>
-          <p className="ad-aid-body">{localizeMoneyText(data.aid.text)}</p>
+          <div className="ad-aid-title">{data.aid.title}</div>
+          <p className="ad-aid-body">
+            <Emphasized text={data.aid.text} />
+          </p>
         </div>
-        <a className="btn ghost" href="#topic-financial-aid-tuition">
+        <a className="btn ad-aid-btn" href="#topic-financial-aid-tuition">
           {data.aid.button}
+          <RuleIcon size={14}>
+            <path d="M12 5v14M5 12l7 7 7-7" />
+          </RuleIcon>
         </a>
       </div>
 
       <div className="ad-compare">
-        <div className="as-h">
-          <span className="tag-outline">{data.comparison.kicker}</span>{' '}
-          {data.comparison.title}
+        <div className="ad-head">
+          <span className="ad-head-kicker">{data.comparison.kicker}</span>
+          <h4 className="ad-head-title">{data.comparison.title}</h4>
         </div>
         <ComparisonTable guide={data} />
       </div>
 
       <div className="ad-contacts">
-        <div className="as-h">
-          <span className="tag-outline">{data.contacts.kicker}</span> {data.contacts.title}
+        {/* Kicker, title and address share ONE baseline row, per the design —
+            the address is inline context, not a paragraph under a heading. */}
+        <div className="ad-head">
+          <span className="ad-head-kicker">{data.contacts.kicker}</span>
+          <h4 className="ad-head-title">{data.contacts.title}</h4>
+          <span className="ad-address">{data.contacts.address}</span>
         </div>
-        <p className="as-note ad-address">{data.contacts.address}</p>
         <div className="ad-people">
           {data.contacts.people.map((p) => (
             <div key={p.name} className="ad-person">

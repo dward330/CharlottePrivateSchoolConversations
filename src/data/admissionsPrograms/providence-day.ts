@@ -119,11 +119,11 @@ export const providenceDay: AdmissionsProgram = {
         watchOuts: [
           {
             kicker: 'Why TK/K is different',
-            text: 'The youngest band runs on an earlier calendar than everyone else and uses a readiness model — WPPSI-IV, Readiness Screening, and Classroom Visit — instead of standardized testing. Three assessment pieces means three appointments to schedule: another reason the early application matters.',
+            text: 'The youngest band runs on an **earlier calendar** than everyone else and uses a **readiness model** — WPPSI-IV, Readiness Screening, and Classroom Visit — instead of standardized testing. Three assessment pieces means three appointments to schedule: another reason the early application matters.',
           },
           {
             kicker: 'Age eligibility',
-            text: 'The school publishes one rule: applicants must be at least 4 at the time of assessment. A specific "turn 4/5 by September 1" cutoff isn\'t published — confirm your child\'s eligibility with admissions before applying.',
+            text: 'The school publishes one rule: applicants must be **at least 4 at the time of assessment**. A specific "turn 4/5 by September 1" cutoff isn\'t published — confirm your child\'s eligibility with admissions before applying.',
           },
         ],
         checklistCallout: {
@@ -233,7 +233,7 @@ export const providenceDay: AdmissionsProgram = {
         watchOuts: [
           {
             kicker: 'The least-published band',
-            text: "Grades 1–5 shares the Grades 1–12 calendar, but its material list, recommendation form, and assessment instrument aren't published. Your Charger Commons checklist is the authoritative list — and if you need a definitive answer before applying, request it from admissions in writing.",
+            text: "Grades 1–5 shares the Grades 1–12 calendar, but its **material list, recommendation form, and assessment instrument aren't published**. Your Charger Commons checklist is the authoritative list — and if you need a definitive answer before applying, request it from admissions in writing.",
           },
           {
             kicker: 'No student-visit step published',
@@ -337,11 +337,11 @@ export const providenceDay: AdmissionsProgram = {
         watchOuts: [
           {
             kicker: 'Which test, exactly?',
-            text: "Standardized testing is required, and the ISEE is the only test the school names — but the exact domestic requirement (ISEE vs. SSAT, which level) isn't published. Confirm with admissions before booking a test date.",
+            text: "Standardized testing is required, and the ISEE is the only test the school names — but the exact domestic requirement (ISEE vs. SSAT, which level) **isn't published**. Confirm with admissions before booking a test date.",
           },
           {
             kicker: 'International applicants',
-            text: "Applicants outside China follow the grades 9–12 procedures and submit ISEE scores plus TOEFL (if English isn't the primary language). Applying from China and needing an I-20? The process begins with the school's partners at TBI-New Oasis.",
+            text: "Applicants outside China follow the grades 9–12 procedures and submit **ISEE scores plus TOEFL** (if English isn't the primary language). Applying from China and needing an I-20? The process begins with the school's partners at **TBI-New Oasis**.",
           },
         ],
         checklistCallout: {
@@ -390,7 +390,7 @@ export const providenceDay: AdmissionsProgram = {
 
     aid: {
       title: 'Running in parallel: the financial-aid clock',
-      text: 'Clarity application ($65) due Jan 22 for prospective families — complete both processes on time and the aid decision arrives inside the Enrollment Agreement. Applying for aid never influences admission; separate committees decide.',
+      text: 'Clarity application ($65) due **Jan 22** for prospective families — complete both processes on time and the aid decision arrives inside the Enrollment Agreement. Applying for aid never influences admission; separate committees decide.',
       button: 'Financial Aid & Tuition',
     },
 
