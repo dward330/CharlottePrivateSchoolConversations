@@ -265,6 +265,29 @@ const TOPIC_ORDER: string[] = [
   'summer-programs'
 ]
 
+/**
+ * The topic the Compare page opens on when the URL names none.
+ *
+ * Deliberately NOT `TOPIC_ORDER[0]`, which is where it used to come from. The
+ * two orderings answer different questions: TOPIC_ORDER is the reading order of
+ * a school dossier, where Admissions leads because it is the first thing a
+ * prospective parent needs; the Compare landing wants the topic with the most
+ * to compare.
+ *
+ * Admissions has ONE research-coverage row and no Compare value rows (its four
+ * figures live in the topic's own data — see the Compare deferral in
+ * .claude/plans/admissions.md), so opening there showed a near-empty table and
+ * dropped the pre-rendered page under check:seo's byte floor. Course Offerings
+ * carries value rows for every school and is what the page opened on before
+ * Admissions existed.
+ *
+ * Read by BOTH the app (Compare.tsx) and scripts/seo_routes.mjs, so the
+ * canonical pre-rendered URL and the page a reader actually lands on cannot
+ * drift apart — which is the whole reason seo_routes.mjs imports from here
+ * rather than re-deriving the order.
+ */
+export const COMPARE_DEFAULT_TOPIC = 'course-offerings'
+
 /** Stable-sort topic slugs into the explicit TOPIC_ORDER; unlisted slugs keep order. */
 export function orderTopicSlugs(slugs: string[]): string[] {
   const rank = (s: string) => {
