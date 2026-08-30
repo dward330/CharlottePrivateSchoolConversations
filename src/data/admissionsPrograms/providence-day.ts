@@ -8,9 +8,9 @@
 // CYCLE: 2026–27 only. The research file carries BOTH the 2025–26 mirror page's
 // dates and the live 2026–27 calendar's, each labeled. Only the current cycle
 // ships here. Where 2026–27 publishes no date — the Grades 1–5 and 6–12
-// decision release — the tile carries the known constant (`4:00 p.m.`) with
-// `unpublished: true`, which makes the UI point at the live calendar. A prior
-// cycle's date is never carried forward, and a date is never guessed.
+// decision release — the tile carries the known constant (`4:00 p.m.`) and its
+// caption names the live calendar in prose. A prior cycle's date is never
+// carried forward, and a date is never guessed.
 //
 // The school's own "NOT PUBLISHED" markers are load-bearing and are rendered as
 // "confirm with admissions" rather than dropped or asserted: the application-fee

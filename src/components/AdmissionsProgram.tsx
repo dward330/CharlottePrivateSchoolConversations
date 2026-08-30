@@ -125,23 +125,18 @@ function Emphasized({ text }: { text: string }) {
  * tiles do: they are authored US-style and one of them is a currency figure
  * ("$2,500"). A plain date passes through unchanged.
  *
- * A tile flagged `unpublished` carries a constant rather than a published date,
- * so it points at the live calendar instead of implying the school published
- * one. Rendered as a link-coloured pointer, per the design.
+ * A tile flagged `unpublished` carries a constant rather than a published date.
+ * It renders identically to a dated tile, deliberately: the school publishes no
+ * per-band calendar link to point at, and the tile's own caption already says
+ * the date lives on the live calendar.
  */
 function DeadlineStrip({ band }: { band: AdBand }) {
-  const { t } = useTranslation()
   return (
     <div className="ad-deadlines">
       {band.deadlines.map((d) => (
         <div key={d.label} className="ad-deadline">
           <div className="ad-deadline-val">{localizeMoneyText(d.value)}</div>
-          <div className="ad-deadline-label">
-            {d.label}
-            {d.unpublished && (
-              <span className="ad-unpub"> · {t('admissions.seeLiveCalendar')}</span>
-            )}
-          </div>
+          <div className="ad-deadline-label">{d.label}</div>
         </div>
       ))}
     </div>

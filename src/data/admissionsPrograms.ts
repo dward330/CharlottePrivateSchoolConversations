@@ -27,7 +27,8 @@
 // the page with it. Where the current cycle publishes no date, the tile carries
 // the known constant and its caption names the live calendar — a prior cycle's
 // date is NEVER carried forward as if it were current, and a date is never
-// guessed.
+// guessed. (`unpublished` marks those tiles in the data; it is not rendered —
+// see the field's own note.)
 //
 // The card is optional, and a school with no admissions research simply has no
 // entry — the section then does not render at all, which is the honest outcome
@@ -55,12 +56,17 @@ export type AdDeadline = {
   /** Caption under the value, e.g. "all materials & assessments due". */
   label: string
   /**
-   * True when `value` is a constant rather than a published date. The tile
-   * renders identically either way — the design deliberately does NOT decorate
-   * it, because the caption already says "date on the live calendar" and the
-   * cross-band table repeats the pointer. The flag is kept because the
-   * distinction is real research (published date vs known constant) and a
-   * later surface may want it.
+   * True when `value` is a constant rather than a published date.
+   *
+   * NOT RENDERED, deliberately. The tile looks identical either way: the
+   * school publishes no per-band calendar link to send the reader to, so a
+   * "see live calendar" pointer would be a link to nowhere. The caption
+   * carries the fact in prose instead ("decision release time — date on the
+   * live calendar"), and the cross-band table repeats it.
+   *
+   * The flag stays because the distinction is a real research finding —
+   * published date vs. known constant — and it is what stops a later pass
+   * mistaking `4:00 p.m.` for a date the school published.
    */
   unpublished?: boolean
 }
