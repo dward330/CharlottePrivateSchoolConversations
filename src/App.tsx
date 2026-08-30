@@ -9,6 +9,7 @@ import { brandOf, schoolBySlug } from './lib/manifest.ts'
 import { Home } from './pages/Home.tsx'
 import { SchoolDetail } from './pages/SchoolDetail.tsx'
 import { Compare } from './pages/Compare.tsx'
+import { AdmissionsChecklist } from './pages/AdmissionsChecklist.tsx'
 import { BackToTop } from './components/BackToTop.tsx'
 import { ThemeToggle } from './components/ThemeToggle.tsx'
 import { LanguagePicker } from './components/LanguagePicker.tsx'
@@ -33,8 +34,14 @@ function App() {
     setPageMeta(JSON.parse(routeKey))
   }, [routeKey])
 
+  /* The printable checklist is a standalone one-page document that carries its
+     own header, so on that route the app's nav and footer are hidden IN PRINT
+     ONLY (src/index.css). They stay on screen — the back link and band tabs sit
+     beside them. */
+  const isChecklist = route.name === 'admissions-checklist'
+
   return (
-    <div className="app">
+    <div className={`app${isChecklist ? ' adx-page-host' : ''}`}>
       <nav className="topnav">
         <a
           className="brand"
@@ -95,6 +102,9 @@ function App() {
         {route.name === 'home' && <Home />}
         {route.name === 'school' && <SchoolDetail slug={route.slug} />}
         {route.name === 'compare' && <Compare topic={route.topic} schools={route.schools} />}
+        {route.name === 'admissions-checklist' && (
+          <AdmissionsChecklist slug={route.slug} band={route.band} />
+        )}
       </main>
 
       <footer className="footer">

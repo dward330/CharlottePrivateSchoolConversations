@@ -31,62 +31,16 @@
 import { readdirSync, readFileSync, existsSync } from 'node:fs'
 import { PROSE_KEYS, SKIP_KEYS, PATH_OVERRIDES } from './i18n_fields.mjs'
 
-const SLUGS = [
-  'providence-day', 'charlotte-latin', 'charlotte-christian', 'charlotte-catholic',
-  'charlotte-country-day', 'cannon', 'covenant-day', 'davidson-day',
-  'carmel-christian', 'hickory-grove-christian',
-  'gaston-day',
-]
-
-/**
- * Topic slug -> the per-school module directory and its export name.
- *
- * Deliberately the SCHOOL modules, not the topic loader (sportsProgram.ts etc).
- * Those loaders now carry `import.meta.glob` for their locale overlays, which is
- * a Vite-only transform that plain Node cannot evaluate. The per-school files
- * are plain TypeScript, and they are the actual source of the prose anyway.
- */
-const TOPICS = {
-  sports: 'sportsPrograms',
-  'the-arts': 'artsPrograms',
-  'student-clubs': 'clubsPrograms',
-  'college-support': 'collegeSupportPrograms',
-  'after-school': 'afterSchoolPrograms',
-  // Summer Programs lives in `summer/`, not `summerPrograms/`. NOTE this list is
-  // a hand-kept mirror of the one in i18n_extract.mjs: a topic missing here is
-  // not reported as untranslated, it is not reported AT ALL — the locale simply
-  // shows one fewer row and reads as complete. Summer Programs was invisible
-  // here until it was added, at 0% coverage.
-  'summer-programs': 'summer',
-  'course-offerings': null,   // single module + accessor, see ACCESSORS
-  'financial-aid-report': null,
-  'metric-values': null,
-}
-
-/** Topics whose data lives in one module behind an accessor. Mirrors i18n_extract.mjs. */
-const ACCESSORS = {
-  'course-offerings': ['../src/data/courseOfferings.ts', 'courseOfferings'],
-  'financial-aid-report': ['../src/data/financialAidReports.ts', 'financialAidReport'],
-  // Not per-school: one flat array of stat-tile captions keyed by TOPIC. The
-  // accessor ignores the slug and returns the whole set once, under the first
-  // school, so each caption is extracted exactly once.
-  'metric-values': ['../src/data/metricValues.ts', 'VALUE_METRICS'],
-}
-
-/** Slug -> the export name each per-school module uses. */
-const EXPORTS = {
-  'providence-day': 'providenceDay',
-  'charlotte-latin': 'charlotteLatin',
-  'charlotte-christian': 'charlotteChristian',
-  'charlotte-catholic': 'charlotteCatholic',
-  'charlotte-country-day': 'charlotteCountryDay',
-  cannon: 'cannon',
-  'covenant-day': 'covenantDay',
-  'davidson-day': 'davidsonDay',
-  'carmel-christian': 'carmelChristian',
-  'hickory-grove-christian': 'hickoryGroveChristian',
-  'gaston-day': 'gastonDay',
-}
+/* The topic/accessor/export layout is defined ONCE in i18n_topics.mjs and
+   imported by every script that walks src/data/**. This file used to carry its
+   own copies of all four constants, and the drift was NOT hypothetical: the
+   old TOPICS comment here recorded that Summer Programs "was invisible here
+   until it was added, at 0% coverage" — a topic missing from the local list is
+   not reported as untranslated, it is not reported AT ALL, so the locale shows
+   one fewer row and reads as complete. Admissions would have repeated it
+   exactly. Never re-declare any of these locally; add to i18n_topics.mjs and
+   every consumer picks it up. */
+import { SLUGS, TOPICS, ACCESSORS, EXPORTS, EXTRA_LAYERS } from './i18n_topics.mjs'
 
 /** One school's entry for a topic, or undefined if that school has none. */
 async function entryFor(topic, slug) {
@@ -114,23 +68,6 @@ async function entryFor(topic, slug) {
     return undefined
   }
 }
-/**
- * Extra per-school layers a topic renders alongside its `*Programs/<slug>.ts`
- * entry. Student Clubs renders FIVE cards: three from clubsPrograms, plus
- * Academic & Competitive Clubs (clubClusters.ts) and Club Catalog & Overview
- * (clubCatalog.ts), which are separate hand-maintained modules.
- *
- * They were invisible to the first extraction pass, which only walked the
- * `*Programs` entries — so two of the five cards shipped English. Paths are
- * prefixed (`clusters.*`, `catalog.*`) so overlay keys stay unambiguous.
- */
-const EXTRA_LAYERS = {
-  'student-clubs': [
-    ['clusters', '../src/data/clubClusters.ts', 'clubClusters'],
-    ['catalog', '../src/data/clubCatalog.ts', 'clubCatalog'],
-  ],
-}
-
 /** The extra layers for one school, as [prefix, entry] pairs. */
 async function extraFor(topic, slug) {
   const out = []

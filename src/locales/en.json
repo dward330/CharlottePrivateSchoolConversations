@@ -30,7 +30,15 @@
     "weeksSelected_one": "{{count}} week of camp",
     "weeksSelected_other": "{{count}} weeks of camp"
   },
+  "admissions": {
+    "applyingFor": "Applying for entry at",
+    "backToSection": "Back to Admissions research",
+    "checklistKicker": "Charlotte School Compare · Admissions checklist",
+    "exportChecklist": "Export checklist",
+    "printSave": "Print / Save as PDF"
+  },
   "topics": {
+    "admissions": "Admissions",
     "after-school": "After School",
     "college-support": "College Support",
     "course-offerings": "Course Offerings",
@@ -41,6 +49,11 @@
     "the-arts": "The Arts"
   },
   "metrics": {
+    "admissions.redesign-research": "Admissions Research Dossier (2026)",
+    "after-school.redesign-research": "After School Research Dossier (2026)",
+    "college-support.redesign-research": "College Support Research Dossier (2026)",
+    "sports.redesign-research": "Sports Research Dossier (2026)",
+    "summer-programs.redesign-research": "Summer Programs Research Dossier (2026)",
     "academic-case": "Academic Case",
     "academic-clubs": "Academic & Competitive Clubs",
     "affinity": "Affinity & Identity Groups",
@@ -340,6 +353,7 @@
     "ncFiveYearCounts": "{{applied}} applied · {{accepted}} in"
   },
   "cards": {
+    "admissions.guide": "Grade-by-Grade Application Guide — TK/K · 1–5 · 6–12",
     "sports.offered": "Sports Offered",
     "sports.record": "Winning Record",
     "sports.pipeline": "The College Pipeline",

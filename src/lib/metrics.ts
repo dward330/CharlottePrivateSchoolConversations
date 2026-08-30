@@ -31,6 +31,22 @@ const HIDE = [
 ]
 
 const RULES: Record<string, Rule[]> = {
+  // Admissions renders as ONE structured card driven by
+  // data/admissionsPrograms.ts (the Grade-by-Grade Application Guide), not by
+  // the ingested prose — the same full substitution as Summer Programs. The
+  // research file is one long document per school whose headings the content
+  // builder slices into many subtopics ("Grade-by-Grade Application Plans",
+  // "Key findings", "Cross-band comparison", …). This single catch-all folds
+  // every one of those slices onto one key so none can slugify into an orphan
+  // prose card; the whole topic is rendered by the structured card, so there is
+  // nothing a second key could usefully separate.
+  admissions: [
+    {
+      match: /.*/,
+      key: 'redesign-research',
+      label: 'Admissions Research Dossier (2026)',
+    },
+  ],
   // Course Offerings renders as per-division cards driven by
   // data/courseOfferings.ts, not by the ingested prose. Every research file for
   // the topic folds onto ONE key so SchoolDetail can swap in the division
@@ -239,6 +255,7 @@ const RULES: Record<string, Rule[]> = {
 // listed fall to the end in manifest order (alphabetical). Edit this to reorder the
 // top-level sections without touching source-material folder names.
 const TOPIC_ORDER: string[] = [
+  'admissions',
   'course-offerings',
   'student-clubs',
   'the-arts',
@@ -247,6 +264,29 @@ const TOPIC_ORDER: string[] = [
   'after-school',
   'summer-programs'
 ]
+
+/**
+ * The topic the Compare page opens on when the URL names none.
+ *
+ * Deliberately NOT `TOPIC_ORDER[0]`, which is where it used to come from. The
+ * two orderings answer different questions: TOPIC_ORDER is the reading order of
+ * a school dossier, where Admissions leads because it is the first thing a
+ * prospective parent needs; the Compare landing wants the topic with the most
+ * to compare.
+ *
+ * Admissions has ONE research-coverage row and no Compare value rows (its four
+ * figures live in the topic's own data — see the Compare deferral in
+ * .claude/plans/admissions.md), so opening there showed a near-empty table and
+ * dropped the pre-rendered page under check:seo's byte floor. Course Offerings
+ * carries value rows for every school and is what the page opened on before
+ * Admissions existed.
+ *
+ * Read by BOTH the app (Compare.tsx) and scripts/seo_routes.mjs, so the
+ * canonical pre-rendered URL and the page a reader actually lands on cannot
+ * drift apart — which is the whole reason seo_routes.mjs imports from here
+ * rather than re-deriving the order.
+ */
+export const COMPARE_DEFAULT_TOPIC = 'course-offerings'
 
 /** Stable-sort topic slugs into the explicit TOPIC_ORDER; unlisted slugs keep order. */
 export function orderTopicSlugs(slugs: string[]): string[] {

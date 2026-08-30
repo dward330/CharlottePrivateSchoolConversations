@@ -496,4 +496,77 @@ export const PATH_OVERRIDES = new Map([
   // year itself is a figure and does not translate — same reading as the
   // applied/accepted counts above.
   ['ncAdmissions.latestTerm', false],
+
+  // ------------------------------------------------------------ admissions --
+  //
+  // Classified from an ENUMERATION of every distinct value in
+  // admissionsPrograms/providence-day.ts, not from the leaf names — the lesson
+  // of the three College Support splits and of `hours` before it. Sixteen paths
+  // in this topic hit no existing rule; fifteen are prose and one is not.
+  //
+  // `tagKind` is the ONE skip: a render enum ('accent' | 'outline') selecting
+  // which chip style the deadline tag draws. It is exactly `flags[].kind` — an
+  // enum key whose translation makes the lookup miss — and it is never
+  // displayed. The leaf `kind` is prose globally (artsPrograms season slots),
+  // so this needs the path.
+  ['*.steps[].tagKind', false],
+  // The paper checklist's action lines are full imperative sentences ("Submit
+  // the Inquiry form and book a campus tour") — the single most important prose
+  // on the printed sheet, since the sheet is what a parent works from offline.
+  ['*.checklistRows[].action', true],
+  // `due` looks like a bare date field and is one for 5 of its 7 values
+  // ("Jan 2, 2027"). The other two are "Fall 2026" and "Spring 2027", which
+  // carry English season nouns — the recurring "sentence wearing an
+  // identifier's clothes" shape, here inside a right-aligned table cell, which
+  // is precisely where every previous leak of this class hid. Prose; the
+  // translator carries the dated values through char-for-char.
+  ['*.checklistRows[].due', true],
+  // The band selector's sublabel is what tells a parent WHY the bands differ
+  // ("Readiness model · earlier calendar", "Standardized testing (ISEE)").
+  // `ISEE` is a searchable identifier and stays English inside it.
+  ['*.bands[].sublabel', true],
+  // The bolded lead-in of the checklist callout — "Apply early.",
+  // "Portal is definitive.", "Testing note." Short, but three real sentences.
+  ['guide.bands[].checklistCallout.lead', true],
+  // Contact lines mix a proper noun with a descriptive job title and an
+  // English preposition ("Lisa Knight, Asst. Head of School for Admissions —
+  // 704-887-6002", "Admissions main — 704-887-6000", "En español: Claudia
+  // Trower"). Same reading as `coaching.tenure[].role`: the title is chrome to
+  // a non-English parent. Phone numbers and the street address round-trip.
+  ['contactPanel.lines[]', true],
+  // "2026–27 entry cycle" — the label stamped on every date on the page. The
+  // year span round-trips; "entry cycle" is what a reader needs.
+  ['guide.cycle', true],
+  // The paragraph under the band selector, including a verbatim quoted list of
+  // the school's own selection factors. Plain prose.
+  ['guide.spineNote', true],
+  // The button that jumps to the Financial Aid & Tuition topic. Its English is
+  // the topic's own display name, which IS translated in the locale catalogs,
+  // so leaving it English would render one English button on an otherwise
+  // translated card.
+  ['guide.aid.button', true],
+  // The cross-band comparison cells are MIXED by design, and this is the
+  // topic's leak-shape hot spot. Five of the six rows per band are figures or
+  // identifiers that round-trip ("Jan 15, 2027", "WPPSI-IV + Readiness
+  // Screening + Classroom Visit"), while the rest are sentences that must move
+  // ("Required — instrument not published", "Via portal checklist — form not
+  // published", "4:00 p.m. release — see live calendar"). Prose, per band key
+  // plus the `all` spanning cell, because the path matcher does suffix matching
+  // only and each band key is its own path.
+  ['comparison.rows[].cells.tkk', true],
+  ['comparison.rows[].cells.g15', true],
+  ['comparison.rows[].cells.g612', true],
+  ['comparison.rows[].cells.all', true],
+  // "5800 Sardis Road, Charlotte, NC 28270 · main 704-887-6000" — the street
+  // address round-trips char-for-char, but `main` is an English word labelling
+  // the number. Same reading as the contact lines above.
+  ['contacts.address', true],
+  // "Portal: Charger Commons · providenceday.org" — `Charger Commons` is the
+  // portal's proper name and the domain is a link target, but `Portal:` is a
+  // label. Prose; the translator leaves both identifiers alone.
+  ['checklist.portalNote', true],
+  // The printed sheet's disclaimer — provenance, the retrieval date, the
+  // "verify against the live calendar" instruction and the not-affiliated
+  // statement. The one paragraph on the sheet that must reach every reader.
+  ['checklist.disclaimer', true],
 ])

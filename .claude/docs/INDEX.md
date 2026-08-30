@@ -5,6 +5,10 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 ## Notes by topic
 
 
+### Admissions (`admissions/`)
+
+- [Providence Day School](admissions/providence-day.md) — 1 docs
+
 ### After School (`after-school/`)
 
 - [Cannon School](after-school/cannon.md) — 5 docs
@@ -117,4 +121,4 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 
 ## Data layer
-- `src/data/schools.json` — 396 documents across 8 topics and 11 schools.
+- `src/data/schools.json` — 397 documents across 9 topics and 11 schools.

@@ -17,6 +17,7 @@ import { pushRoute } from './analytics.ts'
 export type Route =
   | { name: 'home' }
   | { name: 'school'; slug: string }
+  | { name: 'admissions-checklist'; slug: string; band: string | null }
   | { name: 'compare'; topic: string | null; schools: string[] }
 
 /**
@@ -33,6 +34,16 @@ function parsePath(pathLike: string): Route {
   const segs = path.split('/').filter(Boolean)
   const query = new URLSearchParams(queryStr ?? '')
 
+  /* MUST come before the plain-school branch below: that branch matches on
+     `segs[0] === 'school' && segs[1]` alone, so an unordered check would
+     swallow `/school/<slug>/admissions-checklist/` and render the school page. */
+  if (segs[0] === 'school' && segs[1] && segs[2] === 'admissions-checklist') {
+    return {
+      name: 'admissions-checklist',
+      slug: decodeURIComponent(segs[1]),
+      band: query.get('band'),
+    }
+  }
   if (segs[0] === 'school' && segs[1]) {
     return { name: 'school', slug: decodeURIComponent(segs[1]) }
   }
@@ -99,6 +110,16 @@ export function toHome(): string {
 }
 export function toSchool(slug: string): string {
   return `${import.meta.env.BASE_URL}school/${encodeURIComponent(slug)}/`
+}
+/**
+ * The printable admissions checklist for one school and one entry band.
+ *
+ * The band travels in the query string rather than the path because the sheet
+ * is a link a parent shares — and because an unknown band falls back to the
+ * school's first one rather than 404ing.
+ */
+export function toAdmissionsChecklist(slug: string, band: string): string {
+  return `${import.meta.env.BASE_URL}school/${encodeURIComponent(slug)}/admissions-checklist/?band=${encodeURIComponent(band)}`
 }
 export function toCompare(topic: string | null, schools: string[]): string {
   const params = new URLSearchParams()

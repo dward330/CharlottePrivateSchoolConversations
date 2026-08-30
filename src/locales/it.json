@@ -31,6 +31,7 @@
     "weeksSelected_other": "{{count}} settimane di campo"
   },
   "topics": {
+    "admissions": "Ammissioni",
     "after-school": "Doposcuola",
     "college-support": "Orientamento universitario",
     "course-offerings": "Offerta dei corsi",
@@ -41,6 +42,11 @@
     "the-arts": "Le arti"
   },
   "metrics": {
+    "admissions.redesign-research": "Dossier di ricerca sulle ammissioni (2026)",
+    "after-school.redesign-research": "Dossier di ricerca sul doposcuola (2026)",
+    "college-support.redesign-research": "Dossier di ricerca sull’orientamento universitario (2026)",
+    "sports.redesign-research": "Dossier di ricerca sullo sport (2026)",
+    "summer-programs.redesign-research": "Dossier di ricerca sui programmi estivi (2026)",
     "academic-case": "Profilo accademico",
     "academic-clubs": "Club accademici e competitivi",
     "affinity": "Gruppi di affinità e identità",
@@ -340,6 +346,7 @@
     "ncFiveYearCounts": "{{applied}} domande · {{accepted}} ammessi"
   },
   "cards": {
+    "admissions.guide": "Guida alla domanda anno per anno — TK/K · 1–5 · 6–12",
     "sports.offered": "Sport offerti",
     "sports.record": "Bilancio vincente",
     "sports.pipeline": "Il canale verso l'università",
@@ -452,5 +459,12 @@
     "statusParsing": "Analisi della bacheca notizie…",
     "title": "Ultime notizie",
     "tocLabel": "Ultime notizie"
+  },
+  "admissions": {
+    "applyingFor": "Domanda di ammissione per",
+    "backToSection": "Torna alla ricerca sulle Ammissioni",
+    "checklistKicker": "Charlotte School Compare · Check-list di ammissione",
+    "exportChecklist": "Esporta la check-list",
+    "printSave": "Stampa / Salva come PDF"
   }
 }

@@ -31,6 +31,7 @@ TOPIC_NAMES = {
     "after-school": "After School", "financial-aid-tuition": "Financial Aid & Tuition",
     "course-offerings": "Course Offerings",
     "summer-programs": "Summer Programs",
+    "admissions": "Admissions",
 }
 SCHOOL_NAMES = {
     "cannon": "Cannon School",

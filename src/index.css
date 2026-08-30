@@ -154,14 +154,16 @@
   :root:not([data-theme='light']) .mark-val {
     color: color-mix(in srgb, var(--brand) 60%, #e6e7e8);
   }
-  :root:not([data-theme='light']) .school-page {
+  :root:not([data-theme='light']) .school-page,
+  :root:not([data-theme='light']) .adx-page {
     --ink: color-mix(in srgb, var(--brand) 60%, #e6e7e8);
   }
 }
 :root[data-theme='dark'] .mark-val {
   color: color-mix(in srgb, var(--brand) 60%, #e6e7e8);
 }
-:root[data-theme='dark'] .school-page {
+:root[data-theme='dark'] .school-page,
+:root[data-theme='dark'] .adx-page {
   --ink: color-mix(in srgb, var(--brand) 60%, #e6e7e8);
 }
 
@@ -719,6 +721,11 @@ main { flex: 1; }
    the dark-theme blocks up top). Resolved here so the page's inline --brand
    is what gets mixed. */
 .school-page { --ink: var(--brand); }
+/* The printable checklist is a per-school document too, so it carries the same
+   brand ink. Without this --ink is UNDEFINED on that route, which silently
+   dropped `border: 1px solid var(--ink)` on the checkbox squares — an invalid
+   border shorthand is discarded whole, so the boxes printed as nothing. */
+.adx-page { --ink: var(--brand); }
 
 .dossier-header {
   position: relative;
@@ -5132,4 +5139,507 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   .news-featured-title { font-size: 21px; }
   .news-row, .news-sk-row { grid-template-columns: 52px 1fr auto; gap: 12px; }
   .news-row-thumb { width: 64px; height: 42px; }
+}
+
+/* ══════════════════════════════════════════════════════════════════════════
+   Admissions — the Grade-by-Grade Application Guide card, and the printable
+   checklist sheet at /school/<slug>/admissions-checklist/.
+
+   Recreates the design's Industry markup with this file's own tokens rather
+   than porting its inline styles: --color-accent → --accent, --color-accent-700
+   → --accent-700, --color-accent-900 → --accent-900. Square corners are the
+   system-wide rule and are inherited, not restated. Everything below resolves
+   to an existing token, so both dark-mode blocks handle it with no overrides.
+   ══════════════════════════════════════════════════════════════════════════ */
+
+.ad-body { font-size: 14px; }
+
+/* The three framing rules — how the process works, before any date. */
+.ad-rules {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 14px;
+  margin-bottom: 20px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--border);
+}
+.ad-rule { display: flex; gap: 10px; align-items: flex-start; }
+.ad-rule-icon { flex: none; margin-top: 1px; color: var(--accent); display: flex; }
+.ad-rule-text { margin: 0; font-size: 12.5px; line-height: 1.5; color: var(--muted); }
+.ad-rule-text strong { font-family: var(--heading); color: var(--text); font-weight: 600; }
+
+/* The band selector: a two-line label, then the bands as ONE segmented control
+   (joined, sharing a hairline, splitting the row equally), then the export
+   button inline at the end — the design's own three-part row. */
+.ad-pick {
+  display: flex;
+  align-items: stretch;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin: 20px 0 12px;
+}
+.ad-pick-label {
+  display: flex;
+  align-items: center;
+  flex: none;
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent-700);
+  /* Two short lines rather than one long one, so the control keeps the row. */
+  max-width: 7em;
+  line-height: 1.25;
+}
+/* gap:0 + the shared border below is what makes three buttons read as one
+   control; each takes an equal share of the remaining width. */
+.ad-bands { display: flex; gap: 0; flex: 1 1 340px; min-width: 0; }
+.ad-band {
+  flex: 1;
+  min-width: 0;
+  appearance: none;
+  cursor: pointer;
+  background: transparent;
+  color: var(--text);
+  border: 1px solid var(--border);
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 0.02em;
+  padding: 10px 16px;
+  text-align: left;
+  user-select: none;
+}
+/* Collapse the shared edge so the row draws one hairline, not two. */
+.ad-band + .ad-band { border-left: none; }
+.ad-band:hover { border-color: var(--accent); color: var(--accent-700); }
+.ad-band:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+/* The selected band. --accent-900 is near-black in light mode and near-white in
+   dark, and --bg inverts with it, so the fill reads correctly in both. */
+.ad-band.is-on {
+  background: var(--accent-900);
+  border-color: var(--accent-900);
+  color: var(--bg);
+}
+.bandsub {
+  display: block;
+  font-family: var(--sans);
+  font-weight: 400;
+  font-size: 11.5px;
+  margin-top: 2px;
+  color: color-mix(in srgb, currentColor 62%, transparent);
+}
+.ad-export {
+  flex: none;
+  align-self: center;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.ad-spine { margin: 0 0 18px; }
+
+/* The 4-tile deadline strip for the selected band. */
+.ad-deadlines {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  border: 1px solid var(--border);
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.ad-deadline {
+  padding: 11px 14px;
+  background: var(--bg);
+  box-shadow: -1px 0 0 var(--border), 0 -1px 0 var(--border), 0 1px 0 var(--border);
+}
+/* Default text, NOT the brand ink: the design reserves --brand for the topic
+   stat band above the card, so the per-band deadline tiles inside it stay
+   neutral and the two strips read as different levels. */
+.ad-deadline-val {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 1.15;
+  color: var(--text);
+}
+.ad-deadline-label { margin-top: 3px; font-size: 11.5px; line-height: 1.4; color: var(--muted); }
+
+/* Stepper left, watch-outs right — the design's 1.5fr / 1fr split. */
+.ad-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.ad-steps { list-style: none; margin: 0; padding: 0; }
+.ad-step { position: relative; display: flex; gap: 12px; padding-bottom: 16px; }
+/* The hairline connector joining one step's numeral to the next. The last step
+   has nothing below it to join, so it draws none. */
+.ad-step::before {
+  content: '';
+  position: absolute;
+  left: 13px;
+  top: 26px;
+  bottom: 0;
+  width: 1px;
+  background: var(--border);
+}
+.ad-step.is-last { padding-bottom: 0; }
+.ad-step.is-last::before { display: none; }
+.ad-step-n {
+  flex: none;
+  width: 26px;
+  height: 26px;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--accent);
+  background: var(--bg);
+  color: var(--accent-700);
+  font-family: var(--heading);
+  font-size: 12.5px;
+  font-weight: 600;
+  position: relative;
+  z-index: 1;
+}
+.ad-step-body { min-width: 0; }
+.ad-step-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 3px;
+}
+.ad-step-title { font-family: var(--heading); font-size: 16px; font-weight: 600; color: var(--text); }
+.ad-step-detail { margin: 3px 0 0; font-size: 13px; line-height: 1.55; color: var(--muted); }
+
+.ad-watch { display: flex; flex-direction: column; gap: 14px; }
+/* Border only — no fill. The design distinguishes these from the tinted
+   financial-aid strip below precisely by leaving them on the page ground. */
+.ad-watch-card { border: 1px solid var(--border); padding: 14px; }
+.ad-watch-kicker {
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent-700);
+  margin-bottom: 8px;
+}
+/* Body text, not muted: the bold spans inside must carry weight against it. */
+.ad-watch-text { margin: 0; font-size: 13px; line-height: 1.6; }
+.ad-watch-text strong { font-weight: 600; }
+
+/* The financial-aid clock, which runs on its own calendar.
+   A 5% accent wash over a NEUTRAL hairline, not the solid --accent-100 fill
+   with an accent border: the strip is a quiet aside beside the band's steps,
+   and the stronger treatment made it compete with the selected band button. */
+.ad-aid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px;
+  border: 1px solid var(--border);
+  background: color-mix(in oklab, var(--accent) 5%, transparent);
+  padding: 12px 14px;
+  margin: 24px 0 20px;
+}
+.ad-aid-icon { flex: none; color: var(--accent-700); display: flex; }
+.ad-aid-text { flex: 1 1 260px; min-width: 0; }
+.ad-aid-title {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 0.02em;
+  color: var(--text);
+}
+.ad-aid-body { margin: 0; font-size: 13px; line-height: 1.5; color: var(--muted); }
+.ad-aid-body strong { font-weight: 600; color: var(--text); }
+.ad-aid-btn { flex: none; display: inline-flex; align-items: center; gap: 7px; text-decoration: none; }
+
+.ad-compare { margin-bottom: 24px; }
+/* Kicker, title and (for contacts) the address share ONE baseline row. The
+   kicker is bare letterspaced type in accent-700 — NOT a bordered .tag chip,
+   which read as a button — and the title is sentence case at 19px. */
+.ad-head {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.ad-head-kicker {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  color: var(--accent-700);
+}
+.ad-head-title { margin: 0; font-size: 19px; font-weight: 600; }
+/* The comparison table is wider than a phone: four columns of prose cells have
+   a min-content width of ~333px, which — plus the card's padding and borders —
+   set a 377px floor on the whole card and produced horizontal PAGE scroll at
+   390px. Per the project's wide-content rule the table scrolls inside its own
+   container instead, so `contain: inline-size` stops the table's intrinsic
+   width propagating out to the card, and the table keeps its natural width and
+   scrolls within. */
+.ad-compare .table-wrap {
+  min-width: 0;
+  max-width: 100%;
+  overflow-x: auto;
+  contain: inline-size;
+  /* The shared .table-wrap draws a framed scroll area for the Compare page's
+     matrix; this table is hairline-ruled with no outer frame, per the design. */
+  border: 0;
+  background: transparent;
+}
+/* The Industry system's own .table: no outer frame, hairline row rules only,
+   left-aligned uppercase muted column heads, and a faint hover tint. The app
+   has no shared .table class, so the spec is reproduced here against the app's
+   tokens rather than left to inherit nothing. */
+.ad-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  /* No min-width: the cells WRAP to fit the card at desktop, exactly as the
+     design shows ("WPPSI-IV + Readiness Screening + Classroom / Visit" over two
+     lines). The wrapper still scrolls on a narrow viewport where even the
+     wrapped layout cannot fit. */
+  min-width: 380px;
+}
+.ad-table thead th {
+  text-align: left;
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  padding: 7px;
+  border-bottom: 1px solid var(--border);
+}
+/* The row-label column is the design's fixed 20%. */
+.ad-table thead th:first-child { width: 20%; }
+.ad-table td,
+.ad-table tbody th {
+  padding: 7px;
+  border-bottom: 1px solid color-mix(in srgb, var(--text) 8%, transparent);
+  text-align: left;
+  vertical-align: top;
+}
+/* The row label is a heading-face cell, not an uppercase column head. */
+.ad-table tbody th {
+  font-family: var(--heading);
+  font-weight: 600;
+  font-size: 13px;
+  color: var(--text);
+}
+.ad-table tbody tr:hover { background: color-mix(in srgb, var(--text) 4%, transparent); }
+/* A row identical in every band spans the band columns rather than repeating.
+   Plain text, like every other cell — the design does not italicise it. */
+.ad-cell-all { color: var(--text); }
+
+.ad-address { font-size: 12.5px; color: var(--muted); }
+/* One shared hairline between cells rather than a border per card.
+   The horizontal rules come from each cell's own top border; the VERTICAL ones
+   are painted on the grid container as a repeating gradient, so they run the
+   container's full height regardless of which cells exist.
+
+   Two earlier attempts each failed on the ragged last row — 8 contacts across
+   3 columns leaves a hole. A 1px gap over a divider-coloured ground showed that
+   hole as a solid grey block; per-cell box-shadows can only draw a rule where a
+   cell exists to cast it, so both interior verticals stopped short and the grid
+   ended ragged. Only the container can paint a line across empty track.
+
+   --ad-col is the column count and MUST stay in step with grid-template-columns
+   — the gradient computes its stops from it. */
+.ad-people {
+  --ad-col: 3;
+  display: grid;
+  grid-template-columns: repeat(var(--ad-col), 1fr);
+  /* Equal-height rows. Needed for the horizontal rules below — a gradient can
+     only place them at a regular interval — and it squares the cells up, which
+     the ragged natural heights (77/79/79px) did not. */
+  grid-auto-rows: 1fr;
+  gap: 0;
+  border: 1px solid var(--border);
+  /* BOTH rule directions are painted by the container, as two repeating
+     gradients over the grid's own content box.
+
+     This is the third approach, and the earlier two each failed the same way —
+     on the ragged last row, where 8 contacts across 3 columns leave a hole. A
+     1px gap over a divider-coloured ground showed that hole as a solid grey
+     block. Per-cell borders can only draw a rule where a cell exists to draw
+     it, so the interior verticals stopped short and the rule under the last
+     cell of column 3 was missing entirely. Only the container can paint across
+     empty track. */
+  background-image:
+    repeating-linear-gradient(
+      to right,
+      transparent 0,
+      transparent calc(100% / var(--ad-col) - 1px),
+      var(--border) calc(100% / var(--ad-col) - 1px),
+      var(--border) calc(100% / var(--ad-col))
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent calc(100% / var(--ad-rows) - 1px),
+      var(--border) calc(100% / var(--ad-rows) - 1px),
+      var(--border) calc(100% / var(--ad-rows))
+    );
+  /* rows = ceil(--ad-n / --ad-col). `round(up, …)` is the CSS ceiling — plain
+     calc() divides as a float (8/3 = 2.67), which put the rules in the wrong
+     places. --ad-n is the contact count, set by the component. */
+  --ad-rows: round(up, calc(var(--ad-n) / var(--ad-col)), 1);
+}
+/* Transparent, so the container's rules show through between cells. */
+.ad-person { padding: 10px 12px; }
+.ad-person-name { font-family: var(--heading); font-size: 14.5px; font-weight: 600; color: var(--text); }
+.ad-person-detail { margin-top: 2px; font-size: 12px; line-height: 1.4; color: var(--muted); }
+
+@media (max-width: 900px) {
+  .ad-grid { grid-template-columns: 1fr; }
+  .ad-rules { grid-template-columns: 1fr; }
+  .ad-people { --ad-col: 2; }
+}
+@media (max-width: 560px) {
+  .ad-people { --ad-col: 1; }
+}
+/* Below ~430px three joined bands cannot share a row without forcing the card
+   past the viewport, so the segmented control stacks into a vertical one — the
+   shared hairline moves from the left edge to the top. */
+@media (max-width: 430px) {
+  .ad-bands { flex-direction: column; flex-basis: auto; }
+  .ad-band + .ad-band { border-left: 1px solid var(--border); border-top: none; }
+  .ad-pick-label { max-width: none; }
+}
+
+/* ── the printable checklist sheet ─────────────────────────────────────────
+   One US-letter page. The screen chrome above it is hidden in print, so what
+   exports is the sheet alone. */
+
+.adx-page { max-width: 860px; }
+
+.adx-chrome {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+.adx-back { font-size: 13px; text-decoration: none; color: var(--muted); }
+.adx-back:hover { color: var(--ink); }
+.adx-chrome-right { margin-left: auto; display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.adx-tabs { display: flex; flex-wrap: wrap; gap: 6px; }
+.adx-tab { text-decoration: none; }
+.adx-tab.is-on { background: var(--accent-900); border-color: var(--accent-900); color: var(--bg); }
+
+.adx-sheet { border: 1px solid var(--border); padding: 26px; background: var(--bg); }
+
+.adx-head {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: flex-start;
+  padding-bottom: 14px;
+  margin-bottom: 16px;
+  border-bottom: 2px solid var(--ink);
+}
+.adx-head-main { flex: 1 1 320px; min-width: 0; }
+.adx-kicker {
+  font-size: 10.5px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent-700);
+}
+.adx-title { margin: 5px 0 0; font-size: 22px; line-height: 1.2; }
+.adx-head-rail { text-align: right; font-size: 11.5px; line-height: 1.5; color: var(--muted); }
+.adx-portal { margin-top: 2px; }
+
+.adx-callout {
+  border-left: 3px solid var(--accent);
+  background: var(--accent-100);
+  padding: 10px 13px;
+  margin-bottom: 18px;
+  font-size: 12.5px;
+  line-height: 1.5;
+}
+.adx-callout strong { font-family: var(--heading); }
+
+.adx-rows { list-style: none; margin: 0 0 20px; padding: 0; }
+.adx-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 11px;
+  padding: 9px 0;
+  border-bottom: 1px solid var(--border);
+}
+.adx-row:last-child { border-bottom: none; }
+/* Inert by design — ticked with a pen, never in the browser. */
+.adx-box {
+  flex: none;
+  width: 13px;
+  height: 13px;
+  margin-top: 2px;
+  border: 1px solid var(--ink);
+}
+.adx-row-body { flex: 1 1 auto; min-width: 0; }
+.adx-row-action { font-family: var(--heading); font-size: 13.5px; font-weight: 600; color: var(--ink); }
+.adx-row-detail { margin-top: 2px; font-size: 11.5px; line-height: 1.45; color: var(--muted); }
+.adx-row-due {
+  flex: none;
+  font-family: var(--heading);
+  font-size: 12px;
+  text-align: right;
+  white-space: nowrap;
+  color: var(--accent-700);
+}
+
+.adx-panels { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 16px; }
+.adx-panel { border: 1px solid var(--border); padding: 11px 13px; }
+.adx-panel-kicker {
+  font-size: 10.5px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent-700);
+  margin-bottom: 7px;
+}
+.adx-panel-list { margin: 0; padding-left: 16px; font-size: 11.5px; line-height: 1.5; color: var(--muted); }
+.adx-panel-list li + li { margin-top: 5px; }
+
+.adx-disclaimer {
+  margin: 0;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+  font-size: 10.5px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+@media (max-width: 700px) {
+  .adx-panels { grid-template-columns: 1fr; }
+  .adx-head-rail { text-align: left; }
+}
+
+/* The checklist prints as the sheet alone: no site nav, no screen chrome, no
+   frame around it. The site-wide @media print block above already hides the
+   theme toggle, language picker and back-to-top; these are this page's own. */
+@media print {
+  .adx-chrome { display: none; }
+  .adx-sheet { border: 0; padding: 0; }
+  .adx-page { max-width: none; padding: 0; }
+  /* Keep a row, a panel and the header whole across a page break. */
+  .adx-row,
+  .adx-panel,
+  .adx-head { break-inside: avoid; }
+  /* The site nav and footer belong to the app, not to the sheet — and they are
+     what pushed the export onto a second page. The site-wide print block above
+     keeps .topnav for a school dossier print-out, where the masthead is wanted;
+     a one-page checklist is a standalone document and carries its own header,
+     so this route drops both. Measured: the sheet is 855px against 960px of
+     usable Letter at 0.5in margins, and the nav (65px) plus footer (83px) is
+     exactly what overflowed it. */
+  .adx-page-host .topnav,
+  .adx-page-host .footer { display: none; }
 }

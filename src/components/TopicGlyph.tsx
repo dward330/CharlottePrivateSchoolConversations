@@ -3,6 +3,14 @@
 // pages and the home page topic/school cards.
 
 const PATHS: Record<string, React.ReactNode> = {
+  // Lucide "clipboard-check" — the admissions application checklist.
+  admissions: (
+    <>
+      <rect x="8" y="2" width="8" height="4" />
+      <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" />
+      <path d="m9 14 2 2 4-4" />
+    </>
+  ),
   'student-clubs': <path d="M17 6.1H3M21 12.1H3M15.1 18H3" />,
   'the-arts': (
     <>

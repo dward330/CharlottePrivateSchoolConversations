@@ -17,11 +17,12 @@
 import { readFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { dirname, resolve } from 'node:path'
-// The app's own topic ordering, imported rather than re-derived: the manifest's
-// topic array is folder order, but the UI renders TOPIC_ORDER, so the "first"
-// topic differs between the two. Importing keeps the pre-rendered compare page
-// showing the same default selection a reader sees.
-import { orderTopicSlugs } from '../src/lib/metrics.ts'
+// The Compare page's own default topic, imported rather than re-derived: the
+// manifest's topic array is folder order and TOPIC_ORDER is dossier reading
+// order, and the Compare landing matches NEITHER (see COMPARE_DEFAULT_TOPIC).
+// Importing the one constant both sides read keeps the pre-rendered canonical
+// URL and the page a reader actually lands on from drifting apart.
+import { COMPARE_DEFAULT_TOPIC } from '../src/lib/metrics.ts'
 
 const here = dirname(fileURLToPath(import.meta.url))
 export const REPO_ROOT = resolve(here, '..')
@@ -41,6 +42,13 @@ const manifest = JSON.parse(
  *
  * `changefreq`/`priority` are advisory hints only; search engines largely
  * ignore them, but they cost nothing and make the sitemap self-documenting.
+ *
+ * DELIBERATELY ABSENT: `/school/<slug>/admissions-checklist/`. It is a print
+ * utility keyed by a `?band=` query parameter, its content is already on the
+ * school page it exports from, and listing it would multiply the sitemap by
+ * school × band for pages nobody should land on from search. `check:seo` cannot
+ * fail on a route it was never told about, so this is an omission by choice
+ * rather than an oversight — hence this note.
  */
 export const ROUTES = [
   { path: '/', changefreq: 'weekly', priority: '1.0' },
@@ -68,7 +76,7 @@ export const ROUTES = [
     query:
       '?' +
       new URLSearchParams({
-        topic: orderTopicSlugs(manifest.topics.map((t) => t.slug))[0],
+        topic: COMPARE_DEFAULT_TOPIC,
         schools: manifest.schools.map((s) => s.slug).join(','),
       }).toString(),
   },

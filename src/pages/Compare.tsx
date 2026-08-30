@@ -19,6 +19,7 @@ import {
   englishValueOf,
   type ValueMetric,
 } from '../data/metricValues.ts'
+import { COMPARE_DEFAULT_TOPIC } from '../lib/metrics.ts'
 
 type Props = { topic: string | null; schools: string[] }
 
@@ -191,7 +192,14 @@ export function Compare({ topic, schools }: Props) {
     }
   }, [lang])
   const navigate = useNavigate()
-  const activeTopic = topic && topicBySlug(topic) ? topic : topics[0]?.slug ?? null
+  /* With no ?topic= in the URL, open on COMPARE_DEFAULT_TOPIC rather than the
+     first topic in reading order — see that constant for why the two differ.
+     It still falls back to topics[0] if the named default is ever absent from
+     the manifest, so a mis-set constant degrades rather than blanking the page. */
+  const defaultTopic = topicBySlug(COMPARE_DEFAULT_TOPIC)
+    ? COMPARE_DEFAULT_TOPIC
+    : topics[0]?.slug ?? null
+  const activeTopic = topic && topicBySlug(topic) ? topic : defaultTopic
 
   // Keep selection to known slugs, preserving manifest order for stable columns.
   const selected = allSchools.map((s) => s.slug).filter((slug) => schools.includes(slug))
@@ -362,7 +370,7 @@ export function Compare({ topic, schools }: Props) {
                 {metrics.map((m) => (
                   <tr key={m.metric.key}>
                     <th scope="row" className="row-metric">
-                      <span className="row-metric-label">{metricLabel(t, m.metric.key, m.metric.label)}</span>
+                      <span className="row-metric-label">{metricLabel(t, m.metric.key, m.metric.label, activeTopic!)}</span>
                       <span className="row-metric-cov">{t('compare.coverage', { count: m.coverage, total: allSchools.length })}</span>
                     </th>
                     {cols.map((s) => {

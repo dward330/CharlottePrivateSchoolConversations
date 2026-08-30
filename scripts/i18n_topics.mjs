@@ -39,6 +39,10 @@ export const SLUGS = [
  * are plain TypeScript, and they are the actual source of the prose anyway.
  */
 export const TOPICS = {
+  // Admissions leads TOPIC_ORDER on the school page, so it leads here too.
+  // Data ships for Providence Day only; every other school has no entry and
+  // renders no section, so the extractor simply yields nothing for them.
+  admissions: 'admissionsPrograms',
   sports: 'sportsPrograms',
   'the-arts': 'artsPrograms',
   'student-clubs': 'clubsPrograms',

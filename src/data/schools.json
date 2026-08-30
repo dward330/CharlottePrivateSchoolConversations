@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-24",
+  "generated": "2026-08-30",
   "description": "Charlotte private-school research manifest. Topics x schools x documents.",
   "schools": [
     {
@@ -49,6 +49,10 @@
   ],
   "topics": [
     {
+      "slug": "admissions",
+      "name": "Admissions"
+    },
+    {
       "slug": "after-school",
       "name": "After School"
     },
@@ -82,6 +86,11 @@
     }
   ],
   "matrix": [
+    {
+      "topic_slug": "admissions",
+      "school_slug": "providence-day",
+      "doc_count": 1
+    },
     {
       "topic_slug": "after-school",
       "school_slug": "cannon",
@@ -4473,6 +4482,16 @@
       "source_file": "source-material/college-support/providence-day/Providence Day School College Counseling and Placement Program - Program Review and Outcomes Analysis - Deep Research.pdf",
       "note_file": ".claude/docs/college-support/providence-day.md",
       "type": "pdf"
+    },
+    {
+      "school_slug": "providence-day",
+      "school": "Providence Day School",
+      "topic_slug": "admissions",
+      "topic": "Admissions",
+      "subtopic": "Grade-by-Grade Application Plans",
+      "source_file": "source-material/admissions/providence-day/Providence Day - Admissions - Grade-by-Grade Application Plans.md",
+      "note_file": ".claude/docs/admissions/providence-day.md",
+      "type": "md"
     }
   ]
 }

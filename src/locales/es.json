@@ -31,6 +31,7 @@
     "weeksSelected_other": "{{count}} semanas de campamento"
   },
   "topics": {
+    "admissions": "Admisiones",
     "after-school": "Actividades extraescolares",
     "college-support": "Orientación universitaria",
     "course-offerings": "Oferta académica",
@@ -41,6 +42,11 @@
     "the-arts": "Artes"
   },
   "metrics": {
+    "admissions.redesign-research": "Informe de admisiones (2026)",
+    "after-school.redesign-research": "Informe de actividades extraescolares (2026)",
+    "college-support.redesign-research": "Informe de orientación universitaria (2026)",
+    "sports.redesign-research": "Informe de deportes (2026)",
+    "summer-programs.redesign-research": "Informe de programas de verano (2026)",
     "academic-case": "Perfil académico",
     "academic-clubs": "Clubes académicos y de competición",
     "affinity": "Grupos de afinidad e identidad",
@@ -340,6 +346,7 @@
     "ncFiveYearCounts": "{{applied}} solicitudes · {{accepted}} admitidos"
   },
   "cards": {
+    "admissions.guide": "Guía de solicitud grado por grado — TK/K · 1–5 · 6–12",
     "sports.offered": "Deportes ofrecidos",
     "sports.record": "Historial de victorias",
     "sports.pipeline": "La cantera universitaria",
@@ -452,5 +459,12 @@
     "statusParsing": "Analizando el tablón de noticias…",
     "title": "Últimas noticias",
     "tocLabel": "Últimas noticias"
+  },
+  "admissions": {
+    "applyingFor": "Solicitud de ingreso en",
+    "backToSection": "Volver a la investigación de Admisiones",
+    "checklistKicker": "Charlotte School Compare · Lista de admisiones",
+    "exportChecklist": "Exportar lista",
+    "printSave": "Imprimir / Guardar como PDF"
   }
 }

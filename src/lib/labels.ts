@@ -61,8 +61,38 @@ export function topicLabel(t: TFunction, slug: string, fallback: string): string
   return t(`topics.${slug}`, { defaultValue: fallback })
 }
 
-/** Display name for a metric / sub-section, e.g. 'win-loss' -> 'Récords…'. */
-export function metricLabel(t: TFunction, key: string, fallback: string): string {
+/**
+ * Display name for a metric / sub-section, e.g. 'win-loss' -> 'Récords…'.
+ *
+ * A metric key is unique WITHIN a topic, not across topics — five topics share
+ * the key `redesign-research`, each with its own English label ("Sports
+ * Research Dossier (2026)", "Summer Programs Research Dossier (2026)", …).
+ * The flat `metrics.<key>` catalog cannot hold five strings under one key, so
+ * every one of those topics rendered whichever label happened to be in the
+ * catalog — "After School Research Dossier (2026)" — on the Compare table and
+ * in the school-page card headings, in all ten locales.
+ *
+ * So a topic-scoped key wins when the catalog has one, exactly as `cardTitle`
+ * scopes `cards.<topic>.<key>`; the flat key remains the fallback, which is
+ * correct for the genuinely topic-agnostic keys that share a name across topics
+ * on purpose (`awards`, `facilities`, `overview`, `in-depth-report`).
+ *
+ * `topic` is optional so the older call sites keep working unchanged.
+ */
+export function metricLabel(
+  t: TFunction,
+  key: string,
+  fallback: string,
+  topic?: string,
+): string {
+  if (topic) {
+    /* A SENTINEL, not an empty string: i18next returns the KEY ITSELF when a
+       lookup misses and `defaultValue` is empty, so `if (scoped)` was truthy
+       for every miss and rendered "metrics.sports.awards" on the page. */
+    const MISS = '\u0000'
+    const scoped = t(`metrics.${topic}.${key}`, { defaultValue: MISS })
+    if (scoped !== MISS) return scoped
+  }
   return t(`metrics.${key}`, { defaultValue: fallback })
 }
 

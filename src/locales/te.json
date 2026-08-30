@@ -31,6 +31,7 @@
     "weeksSelected_other": "{{count}} వారాల శిబిరం"
   },
   "topics": {
+    "admissions": "ప్రవేశాలు",
     "after-school": "పాఠశాల అనంతర కార్యక్రమాలు",
     "college-support": "కళాశాల మద్దతు",
     "course-offerings": "కోర్సుల జాబితా",
@@ -41,6 +42,11 @@
     "the-arts": "కళలు"
   },
   "metrics": {
+    "admissions.redesign-research": "ప్రవేశాల పరిశోధన సంపుటి (2026)",
+    "after-school.redesign-research": "పాఠశాల అనంతర పరిశోధన సంపుటి (2026)",
+    "college-support.redesign-research": "కళాశాల మద్దతు పరిశోధన సంపుటి (2026)",
+    "sports.redesign-research": "క్రీడల పరిశోధన సంపుటి (2026)",
+    "summer-programs.redesign-research": "వేసవి కార్యక్రమాల పరిశోధన సంపుటి (2026)",
     "academic-case": "విద్యాపరమైన బలం",
     "academic-clubs": "విద్యా మరియు పోటీ క్లబ్‌లు",
     "affinity": "అనుబంధ మరియు అస్తిత్వ బృందాలు",
@@ -340,6 +346,7 @@
     "ncFiveYearCounts": "{{applied}} దరఖాస్తులు · {{accepted}} అంగీకరించినవి"
   },
   "cards": {
+    "admissions.guide": "తరగతుల వారీ దరఖాస్తు మార్గదర్శి — TK/K · 1–5 · 6–12",
     "sports.offered": "అందుబాటులో ఉన్న క్రీడలు",
     "sports.record": "గెలుపు రికార్డు",
     "sports.pipeline": "కళాశాలకు దారితీసే మార్గం",
@@ -452,5 +459,12 @@
     "statusParsing": "వార్తా బోర్డును విశ్లేషిస్తోంది…",
     "title": "తాజా వార్తలు",
     "tocLabel": "తాజా వార్తలు"
+  },
+  "admissions": {
+    "applyingFor": "ప్రవేశం కోరుతున్న స్థాయి",
+    "backToSection": "ప్రవేశాల పరిశోధనకు తిరిగి వెళ్లండి",
+    "checklistKicker": "Charlotte School Compare · ప్రవేశాల చెక్‌లిస్ట్",
+    "exportChecklist": "చెక్‌లిస్ట్ ఎగుమతి చేయండి",
+    "printSave": "ముద్రించండి / PDF గా సేవ్ చేయండి"
   }
 }

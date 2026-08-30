@@ -225,6 +225,7 @@ const STRUCTURED = [
   { topic: 'college-support', file: 'collegeSupport.ts', reg: 'COLLEGE_SUPPORT_CARDS', root: 'CollegeSupportProgram', dir: 'collegeSupportPrograms' },
   { topic: 'after-school', file: 'afterSchool.ts', reg: 'AFTER_SCHOOL_CARDS', root: 'AfterSchoolProgram', dir: 'afterSchoolPrograms' },
   { topic: 'summer-programs', file: 'summerPrograms.ts', reg: 'SUMMER_CARDS', root: 'SummerProgram', dir: 'summer' },
+  { topic: 'admissions', file: 'admissionsPrograms.ts', reg: 'ADMISSIONS_CARDS', root: 'AdmissionsProgram', dir: 'admissionsPrograms' },
 ]
 
 for (const s of STRUCTURED) {
