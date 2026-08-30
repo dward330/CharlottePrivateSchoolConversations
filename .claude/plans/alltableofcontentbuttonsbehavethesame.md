@@ -5,7 +5,7 @@ status: implemented
 phases: 1
 created: 2026-08-30
 branch: fix/toc-buttons-behave-the-same
-prs: []
+prs: [250]
 ---
 
 # Make the Welcome Video and Latest News table-of-contents items look and behave like every other item
