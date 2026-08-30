@@ -239,7 +239,7 @@ export function AdmissionsGuideBody({ data, slug }: { data: AdmissionsGuide; slu
 
   return (
     <div className="as-body ad-body">
-      {/* The three framing rules — how the process works before any date. */}
+      {/* The framing rules — how the process works before any date. */}
       <div className="ad-rules">
         {data.rules.map((r, i) => (
           <div key={r.title} className="ad-rule">

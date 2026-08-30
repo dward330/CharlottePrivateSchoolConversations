@@ -5154,10 +5154,10 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
 
 .ad-body { font-size: 14px; }
 
-/* The three framing rules — how the process works, before any date. */
+/* The framing rules — how the process works, before any date. */
 .ad-rules {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 14px;
   margin-bottom: 20px;
   padding-bottom: 18px;
