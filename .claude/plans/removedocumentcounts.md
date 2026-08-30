@@ -5,7 +5,7 @@ status: implemented
 phases: 1
 created: 2026-08-30
 branch: feat/remove-document-counts
-prs: []
+prs: [247]
 ---
 
 # Show the sidebar research-area document counts in development only
