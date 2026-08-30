@@ -559,7 +559,20 @@ export function SchoolDetail({ slug }: { slug: string }) {
               }}
             >
               {topicLabel(tr, t.slug, t.name)}
-              <span className="count">{String(docCount(t.slug, slug)).padStart(2, '0')}</span>
+              {/* Local-testing-only research-coverage signal: how many source
+                  documents were distilled into this area. It is an internal
+                  corpus statistic, not information about the school — a reader
+                  learns nothing from it and is invited into the wrong
+                  comparison — so it NEVER ships to the production site.
+                  `import.meta.env.DEV` is true only under the `vite` dev server
+                  and false in every `vite build`, including the pre-render pass
+                  (which drives the built dist/). Do not remove the DEV guard,
+                  and do not delete the `.dossier-nav .count` CSS or the
+                  `docCount` import — both are still live in dev, and `docCount`
+                  additionally decides which areas render at all. */}
+              {import.meta.env.DEV && (
+                <span className="count">{String(docCount(t.slug, slug)).padStart(2, '0')}</span>
+              )}
             </a>
           ))}
           <p className="dossier-nav-hint">
