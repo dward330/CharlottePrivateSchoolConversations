@@ -1,7 +1,7 @@
 ---
 name: admissions
 title: Admissions research area — new first topic, grade-band application guide, printable checklist export
-status: english-done
+status: implemented
 phases: 2
 created: 2026-08-30
 branch: feat/admissions
@@ -1127,3 +1127,63 @@ same band, not a blind copy of `steps`.
 admissions calendar (retrieved Aug 2026); cycle dates shift year to year — verify against the
 live calendar before acting. Items marked \"confirm\" are not published on the website.
 Compiled by Charlotte School Compare; not affiliated with Providence Day School."
+
+## Implementation notes
+
+Phase 2 shipped 2026-08-30 in the same PR as Phase 1 (#245), per the plan's
+two-phase rule. 151 strings × 9 locales (219 field sites), plus 12 chrome keys
+in each of the nine catalogs. Four deviations from the plan as written:
+
+**Step 20 was incomplete: sixteen field paths had no classification rule.** The
+plan assumed registering `admissions` in `i18n_topics.mjs` was the whole wiring
+job, but `i18n_extract.mjs --report` then flagged 16 Admissions paths as neither
+prose nor skip — each silently excluded from extraction. They were classified
+from an ENUMERATION of every distinct value (the method the College Support and
+`hours` splits established), not from leaf names: fifteen prose, one skip.
+
+The skip is `steps[].tagKind` — a render enum (`accent` | `outline`) selecting a
+chip style, never displayed. It is exactly `flags[].kind`, and the leaf `kind` is
+prose globally (artsPrograms season slots), so it needed a path override.
+
+Three of the fifteen are worth recording because they are the "sentence wearing
+an identifier's clothes" shape this repo keeps rediscovering. `checklistRows[].due`
+looks like a bare date field and is one for 5 of its 7 values — the other two are
+`Fall 2026` and `Spring 2027`, English season nouns inside a right-aligned table
+cell. `comparison.rows[].cells.*` mixes round-tripping figures with sentences that
+must move (`Required — instrument not published`). And `contacts.address` /
+`checklist.portalNote` each wrap an identifier in one English label word (`main`,
+`Portal:`).
+
+**The printable checklist rendered ENGLISH in all nine locales.** `AdmissionsChecklist`
+is a standalone route that never mounts `SchoolDetail`, so it never called
+`loadAdmissionsOverlay()`; `localized()` then fell back to English exactly as
+designed — silently, at 100% coverage, with every automated check green. Fixed by
+warming the overlay on that route, gated behind `ready` for the same reason
+SchoolDetail gates its own: on a page whose purpose is to be printed, a mid-print
+English-to-translated swap is worse than a delay. This is the plan's own risk-table
+row ("Overlay silently falls back to English") landing on the route the row did not
+anticipate, and only the browser check could see it.
+
+**`check_translations.mjs` re-declared the topic layout locally**, against the
+standing rule in CLAUDE.md. Its own comment recorded the consequence — Summer
+Programs "was invisible here until it was added, at 0% coverage", because a topic
+missing from the local list is not reported as untranslated, it is not reported
+AT ALL. Admissions would have repeated it exactly: the checker would have shown
+nine clean topics and never mentioned the tenth. Now imports the shared module;
+`admissions` reports 100% (219/219) in all nine locales.
+
+**One genuine cross-locale leak**, caught by `i18n:leaks`: `es` kept `Portal:` in
+English on `checklist.portalNote` while the other eight translated it. Fixed to
+`Portal de admisiones:`. The two other flags are reviewed keeps — `TK / Kindergarten`
+(kept by the five Latin-script locales, a program name) and `CONTACTS` in `fr`
+(identical in French). `En español: Claudia Trower` is deliberately identical in all
+nine: it is the school's own label for its Spanish-language contact and must read as
+Spanish whatever the viewing locale.
+
+Verification beyond the plan's list: the browser pass covered all 9 school pages and
+all 27 checklist band × locale combinations, confirmed `dir=rtl` for `fa`/`ar`,
+confirmed Admissions is the first topic section in every locale, and confirmed the
+deep-dive prints OPEN with `.dossier-nav` hidden. Pre-existing findings left
+untouched and baseline-verified identical to the Phase-1 tree: 3 `bn` Bangla-script
+digits (course-offerings, metric-values) and 9 `check:translations` findings.
+
