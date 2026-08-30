@@ -120,6 +120,14 @@ const PROVENANCE_LEADIN = /^per-column sourcing\b/i
  *  (Cannon's "Related detail …", Davidson Day's "Financial aid detail …").
  *  They are NOT treated alike — see stripProvenance for why. */
 const PROVENANCE_SNAPSHOT_HEADING = /^source\s+snapshots?$/i
+/** "The year-pinning decision" (Covenant Day) — a sub-section explaining which
+ *  school year the APP chose to quote and why. That is a note about this
+ *  project's own editorial method, not about the school, so it reads to a family
+ *  as the same internal voice as the snapshot lists above it. Removed on the
+ *  user's instruction, 2026-08-29 (annotated screenshot). Dropped whole, like a
+ *  "Source snapshots" section — its body is an ordinary paragraph, so a
+ *  block-shape guard would not reach it. */
+const PROVENANCE_YEAR_PINNING = /^(?:the\s+)?year-pinning\s+decision$/i
 const PROVENANCE_CAPTURED_HEADING = /captured\s+in\s+the\s+same\s+snapshots$/i
 
 /** A fragment the `sources` parse mode leaves behind mid-section: the wrapped
@@ -144,8 +152,8 @@ function normHeading(text: string): string {
  *  2. A "… captured in the same snapshots" section — dropped ONLY when every
  *     block under it is a list. Davidson Day's "Fees captured in the same
  *     snapshots" matches the same heading but holds a TABLE, and must survive.
- *  3. A "Source snapshots" section — dropped unconditionally, whatever its block
- *     kinds. The parser flips into `sources` mode on any heading matching
+ *  3. A "Source snapshots" or "The year-pinning decision" section — dropped
+ *     unconditionally, whatever its block kinds. The parser flips into `sources` mode on any heading matching
  *     /source/i (see the ATX branch below), so Covenant Day's section arrives as
  *     a source CHIP plus a stray "(captured …)" paragraph plus one list item.
  *     A list-shaped guard would leave the chip and the stray line on the page,
@@ -193,11 +201,12 @@ function stripProvenance(blocks: ProseBlock[], topic?: string, subtopic?: string
          bullet after it survives. A parenthetical or URL-ish fragment is never a
          real heading, so it keeps the skip open. */
       if (sectionDrop === 'snapshots' && SOURCE_MODE_DEBRIS.test(h)) continue
-      sectionDrop = PROVENANCE_SNAPSHOT_HEADING.test(h)
-        ? 'snapshots'
-        : PROVENANCE_CAPTURED_HEADING.test(h)
-          ? 'captured'
-          : 'none'
+      sectionDrop =
+        PROVENANCE_SNAPSHOT_HEADING.test(h) || PROVENANCE_YEAR_PINNING.test(h)
+          ? 'snapshots'
+          : PROVENANCE_CAPTURED_HEADING.test(h)
+            ? 'captured'
+            : 'none'
       dropNextList = false
       // Rule 3: a "Source snapshots" section goes whole, heading included.
       if (sectionDrop === 'snapshots') {
@@ -313,10 +322,10 @@ export function stripProvenanceRaw(raw: string, topic?: string, subtopic?: strin
     // A `### Source snapshots` sub-heading takes everything under it, whatever
     // its shape, until the next sub-heading (Covenant Day).
     if (inSnapshots) {
-      if (isAtxHeading(part)) inSnapshots = PROVENANCE_SNAPSHOT_HEADING.test(t)
+      if (isAtxHeading(part)) inSnapshots = isWholeSectionDrop(t)
       else continue
       if (inSnapshots) continue
-    } else if (isAtxHeading(part) && PROVENANCE_SNAPSHOT_HEADING.test(t)) {
+    } else if (isAtxHeading(part) && isWholeSectionDrop(t)) {
       inSnapshots = true
       continue
     }
@@ -335,6 +344,11 @@ export function stripProvenanceRaw(raw: string, topic?: string, subtopic?: strin
   }
   // Collapse the blank-line runs the removals left behind.
   return out.join('').replace(/\n{3,}/g, '\n\n').trim()
+}
+
+/** A sub-heading whose whole section goes, whatever its blocks contain. */
+function isWholeSectionDrop(heading: string): boolean {
+  return PROVENANCE_SNAPSHOT_HEADING.test(heading) || PROVENANCE_YEAR_PINNING.test(heading)
 }
 
 function isAtxHeading(block: string): boolean {
