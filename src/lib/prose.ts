@@ -91,6 +91,271 @@ function isGapHeading(line: string, topic?: string): boolean {
   return GAP_HEADING.test(t) || GAP_CALLOUT.test(t)
 }
 
+// ── Provenance suppression (financial-aid Tuition History cards) ───────────────
+// The tuition-history dossiers carry their retrieval chain inline: a "Per-column
+// sourcing:" lead-in over a list of Wayback timestamps and verbatim archived
+// quotes, plus whole sub-sections of snapshot detail. That apparatus is what
+// makes the figures auditable and it stays in source-material/ for exactly that
+// reason — but a family reading the card came for the price tables, not for the
+// evidence trail behind them, and the bullets sit BETWEEN the tables they came
+// for.
+//
+// So, as with the research-gap filter above: the notes keep it and the app hides
+// it. The filter runs here at parse time rather than in source-material/, so the
+// dossiers stay complete and re-ingest can never put the bullets back on the
+// page (see the data-provenance standard in CLAUDE.md).
+//
+// Matched on SHAPE, not on a school allowlist, so a fifth school with a Tuition
+// History card is covered without a code change. Scoped to financial-aid via the
+// topic parameter, like KEEPS_GAP_TOPIC — a "Source snapshots" heading in another
+// topic is left alone.
+
+/** The lead-in paragraph that introduces a run of provenance bullets
+ *  ("Per-column sourcing:", "Per-column sourcing (verbatim quotes …):"). It and
+ *  the list that follows it are dropped together. */
+const PROVENANCE_LEADIN = /^per-column sourcing\b/i
+
+/** A sub-section heading that is nothing but retrieval detail. Two shapes:
+ *  "Source snapshots" (Covenant Day) and "<X> captured in the same snapshots"
+ *  (Cannon's "Related detail …", Davidson Day's "Financial aid detail …").
+ *  They are NOT treated alike — see stripProvenance for why. */
+const PROVENANCE_SNAPSHOT_HEADING = /^source\s+snapshots?$/i
+const PROVENANCE_CAPTURED_HEADING = /captured\s+in\s+the\s+same\s+snapshots$/i
+
+/** A fragment the `sources` parse mode leaves behind mid-section: the wrapped
+ *  tail of a hard-wrapped source line, which the heading classifier then reads as
+ *  a heading of its own ("(captured 2026-08-15)"). Never a real section heading. */
+const SOURCE_MODE_DEBRIS = /^\(|^https?:\/\//i
+
+/** One keeper-shaped sentence the user asked to remove on 2026-08-29 (annotated
+ *  screenshot): a table footer under Covenant Day's "Tuition by band and year".
+ *  It is not provenance and no structural rule reaches it, so it is matched
+ *  directly rather than by stretching one of the patterns above. */
+const PROVENANCE_USER_DROP = /^a flat-dollar \(not percentage\) increase across bands\.?$/i
+
+function normHeading(text: string): string {
+  return text.trim().replace(/\s+/g, ' ').replace(/[:.]$/, '')
+}
+
+/** Drop the provenance apparatus from a financial-aid note. Three shapes, kept
+ *  as separate rules because they fail differently:
+ *
+ *  1. A "Per-column sourcing:" paragraph plus the list block that follows it.
+ *  2. A "… captured in the same snapshots" section — dropped ONLY when every
+ *     block under it is a list. Davidson Day's "Fees captured in the same
+ *     snapshots" matches the same heading but holds a TABLE, and must survive.
+ *  3. A "Source snapshots" section — dropped unconditionally, whatever its block
+ *     kinds. The parser flips into `sources` mode on any heading matching
+ *     /source/i (see the ATX branch below), so Covenant Day's section arrives as
+ *     a source CHIP plus a stray "(captured …)" paragraph plus one list item.
+ *     A list-shaped guard would leave the chip and the stray line on the page,
+ *     which is why rule 3 is not folded into rule 2.
+ *
+ *  A heading whose blocks all go is dropped with them: ProseContent renders a
+ *  section heading whether or not anything is under it, and an empty shell is
+ *  what the no-empty-cards rule forbids. */
+function stripProvenance(blocks: ProseBlock[], topic?: string, subtopic?: string): ProseBlock[] {
+  if (!(topic && KEEPS_GAP_TOPIC.test(topic))) return blocks
+
+  /* Rule 2 also has to see the note's SUBTOPIC. Cannon's "Related detail captured
+     in the same snapshots" and Davidson Day's "Financial aid detail …" are whole
+     SUBTOPICS, not sub-headings — that heading is rendered by the card layer, so
+     no heading block reaches this function and the section state would never
+     open. Covenant Day's equivalents are `###` sub-headings inside one subtopic.
+     Seeding from the subtopic covers both layouts with one rule.
+
+     Note this is NOT the `title` parameter: that is the METRIC label
+     ("Tuition History & Sources"), shared by every subtopic on the card. */
+  const sub = subtopic ? normHeading(subtopic) : ''
+  const seed: 'none' | 'captured' | 'snapshots' = PROVENANCE_SNAPSHOT_HEADING.test(sub)
+    ? 'snapshots'
+    : PROVENANCE_CAPTURED_HEADING.test(sub)
+      ? 'captured'
+      : 'none'
+
+  // Pass 1 — drop lead-in paragraphs, their following lists, and the one
+  // user-flagged sentence. Headings are kept for now; pass 2 prunes any that
+  // emptied out.
+  const kept: ProseBlock[] = []
+  /* The heading blocks this filter took content away from — the only ones pass 2
+     is allowed to consider dropping. */
+  const emptied = new Set<ProseBlock>()
+  let openHeading: ProseBlock | null = null
+  let dropNextList = false
+  let sectionDrop: 'none' | 'captured' | 'snapshots' = seed
+  for (const b of blocks) {
+    if (b.kind === 'heading') {
+      const h = normHeading(b.text)
+      /* A "Source snapshots" section is parsed in `sources` mode (see the ATX
+         branch below), which shreds a hard-wrapped source line into a chip, a
+         stray HEADING holding the wrapped tail ("(captured 2026-08-15)") and a
+         list. That debris must not be read as the start of a new section, or the
+         bullet after it survives. A parenthetical or URL-ish fragment is never a
+         real heading, so it keeps the skip open. */
+      if (sectionDrop === 'snapshots' && SOURCE_MODE_DEBRIS.test(h)) continue
+      sectionDrop = PROVENANCE_SNAPSHOT_HEADING.test(h)
+        ? 'snapshots'
+        : PROVENANCE_CAPTURED_HEADING.test(h)
+          ? 'captured'
+          : 'none'
+      dropNextList = false
+      // Rule 3: a "Source snapshots" section goes whole, heading included.
+      if (sectionDrop === 'snapshots') {
+        openHeading = null
+        continue
+      }
+      openHeading = b
+      kept.push(b)
+      continue
+    }
+    // Rule 3 continued — everything under a "Source snapshots" heading, whatever
+    // its kind (sources chips, orphaned paragraph tails, lists).
+    if (sectionDrop === 'snapshots') continue
+    if (b.kind === 'para') {
+      const t = normHeading(b.text)
+      // Rule 1: the lead-in itself, and the list it introduces.
+      if (PROVENANCE_LEADIN.test(t)) {
+        dropNextList = true
+        if (openHeading) emptied.add(openHeading)
+        continue
+      }
+      if (PROVENANCE_USER_DROP.test(t)) {
+        if (openHeading) emptied.add(openHeading)
+        continue
+      }
+      dropNextList = false
+      kept.push(b)
+      continue
+    }
+    if (b.kind === 'list') {
+      if (dropNextList) {
+        dropNextList = false
+        if (openHeading) emptied.add(openHeading)
+        continue
+      }
+      // Rule 2: a "… captured in the same snapshots" section that is only lists.
+      if (sectionDrop === 'captured') {
+        if (openHeading) emptied.add(openHeading)
+        continue
+      }
+      kept.push(b)
+      continue
+    }
+    dropNextList = false
+    kept.push(b)
+  }
+
+  /* Pass 2 — a heading THIS FILTER emptied heads no section, so it goes too
+     (ProseContent renders a heading whether or not anything sits under it, and an
+     empty shell is what the no-empty-cards rule forbids).
+
+     Scoped deliberately to headings pass 1 actually stripped content from, via
+     `emptied`. A blanket "drop any heading followed by another heading" rule
+     over-reaches badly: heading-over-heading is a normal shape elsewhere in these
+     notes (Cannon's deep-dive report has "How Completely Each Section Could Be
+     Answered" directly above a flattened table header), and demoteEmptyHeadings
+     already owns that case earlier in the pipeline. */
+  if (!emptied.size) return kept
+  const out: ProseBlock[] = []
+  for (let i = 0; i < kept.length; i++) {
+    const b = kept[i]
+    if (b.kind === 'heading' && emptied.has(b)) {
+      const next = kept[i + 1]
+      if (!next || next.kind === 'heading') continue
+    }
+    out.push(b)
+  }
+  return out
+}
+
+/** Drop the provenance apparatus from a note's RAW markdown, block by block, on
+ *  the same blank-line split `localizeBody` uses.
+ *
+ *  This is the layer the filtering has to happen at for non-English readers. The
+ *  content overlay replaces each English block with its translation BEFORE the
+ *  text ever reaches parseProse, so an English-text pattern applied after that
+ *  swap matches nothing and every locale but English keeps the bullets — which is
+ *  exactly what a browser check on the Spanish page found. Filtering the raw
+ *  English here means one pass decides for all ten locales.
+ *
+ *  parseProse still runs stripProvenance afterwards: this pass cannot see the
+ *  `sources` chips and heading debris the parser synthesises, and the two are
+ *  cheap and idempotent together. */
+export function stripProvenanceRaw(raw: string, topic?: string, subtopic?: string): string {
+  if (!(topic && KEEPS_GAP_TOPIC.test(topic))) return raw
+
+  const sub = subtopic ? normHeading(subtopic) : ''
+  // A whole subtopic that IS a provenance section (Cannon's "Related detail
+  // captured in the same snapshots", Davidson Day's "Financial aid detail …") —
+  // but only when every block under it is a bullet list. Davidson Day's "Fees
+  // captured in the same snapshots" matches the same heading and holds a TABLE.
+  if (PROVENANCE_CAPTURED_HEADING.test(sub)) {
+    /* "every line is a bullet" is the wrong test: these lists are hard-wrapped, so
+       a bullet's continuation lines are indented prose. Test that every BLOCK
+       opens with a bullet instead — that is what distinguishes a bullets-only
+       section from Davidson Day's "Fees captured in the same snapshots", which
+       matches the same heading but holds a table. */
+    const bodies = raw.split(/\n\s*\n/).map((b) => b.trim()).filter(Boolean)
+    if (bodies.length && bodies.every((b) => BULLET.test(b))) return ''
+  }
+
+  const parts = raw.split(/(\n\s*\n)/)
+  const out: string[] = []
+  let dropNextBlock = false
+  let inSnapshots = false
+  for (const part of parts) {
+    if (/^\s*$/.test(part)) {
+      out.push(part)
+      continue
+    }
+    const t = normHeading(stripAtx(part.split('\n')[0] ?? ''))
+
+    // A `### Source snapshots` sub-heading takes everything under it, whatever
+    // its shape, until the next sub-heading (Covenant Day).
+    if (inSnapshots) {
+      if (isAtxHeading(part)) inSnapshots = PROVENANCE_SNAPSHOT_HEADING.test(t)
+      else continue
+      if (inSnapshots) continue
+    } else if (isAtxHeading(part) && PROVENANCE_SNAPSHOT_HEADING.test(t)) {
+      inSnapshots = true
+      continue
+    }
+
+    if (dropNextBlock) {
+      dropNextBlock = false
+      // The block a "Per-column sourcing:" lead-in introduces is its bullet list.
+      if (part.split('\n').every((l) => !l.trim() || BULLET.test(l) || /^\s/.test(l))) continue
+    }
+    if (PROVENANCE_LEADIN.test(t)) {
+      dropNextBlock = true
+      continue
+    }
+    if (PROVENANCE_USER_DROP.test(normHeading(part))) continue
+    out.push(part)
+  }
+  // Collapse the blank-line runs the removals left behind.
+  return out.join('').replace(/\n{3,}/g, '\n\n').trim()
+}
+
+function isAtxHeading(block: string): boolean {
+  return /^\s{0,3}#{1,6}\s+/.test(block)
+}
+
+function stripAtx(line: string): string {
+  return line.replace(/^\s{0,3}#{1,6}\s+/, '').replace(/\s*#*\s*$/, '')
+}
+
+/** True when a note renders nothing after parsing — used by the card layer to
+ *  suppress a subtopic <h3> whose whole body was filtered away. */
+export function proseIsEmpty(
+  raw: string,
+  title?: string,
+  topic?: string,
+  subtopic?: string,
+): boolean {
+  return parseProse(raw, title, topic, subtopic).length === 0
+}
+
 // Research voice also appears INLINE, mid-note, rather than in its own section:
 // a sentence about the research process ("A note on how to read this dossier."),
 // or a parenthetical hedge appended to a real fact ("(Full surnames not confirmed
@@ -462,7 +727,12 @@ export function proseSummary(raw: string, title?: string, topic?: string): strin
   return raw.split('\n').some((l) => isGapHeading(l, topic)) ? '' : flat
 }
 
-export function parseProse(raw: string, title?: string, topic?: string): ProseBlock[] {
+export function parseProse(
+  raw: string,
+  title?: string,
+  topic?: string,
+  subtopic?: string,
+): ProseBlock[] {
   // 1) Strip repeated boilerplate at the text level (some spans wrap across lines).
   const text = raw
     .replace(/[ \t]*\n?[-–—]{3,}\s*$/g, '')
@@ -688,7 +958,11 @@ export function parseProse(raw: string, title?: string, topic?: string): ProseBl
   }
   flushAll()
 
-  return stripInlineAsides(stripGapSections(promoteFlattenedTables(demoteEmptyHeadings(blocks)), topic))
+  return stripProvenance(
+    stripInlineAsides(stripGapSections(promoteFlattenedTables(demoteEmptyHeadings(blocks)), topic)),
+    topic,
+    subtopic,
+  )
 }
 
 // A pure money / number token — a value cell of a flattened stat-table row
