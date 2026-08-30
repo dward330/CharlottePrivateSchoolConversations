@@ -1,11 +1,11 @@
 ---
 name: removenotpublisheddeficient
 title: Remove the "Not published ≠ deficient." framing rule and let the remaining two share the row
-status: in-progress
+status: implemented
 phases: 1
 created: 2026-08-30
 branch: fix/remove-not-published-deficient
-prs: []
+prs: [248]
 ---
 
 # Remove the "Not published ≠ deficient." framing rule
