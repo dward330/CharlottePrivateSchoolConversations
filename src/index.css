@@ -533,14 +533,6 @@ main { flex: 1; }
 }
 .chip:hover { color: var(--text); border-color: var(--brand); }
 .chip.is-active { color: var(--ink); border-color: var(--brand); }
-/* Accent-tinted variant — marks the Welcome Video tag as not-a-research-area
-   against the neutral topic chips beside it. */
-.chip-accent {
-  color: var(--brand);
-  border-color: color-mix(in srgb, var(--brand) 45%, transparent);
-  background: color-mix(in srgb, var(--brand) 8%, transparent);
-}
-.chip-accent:hover { color: var(--brand); border-color: var(--brand); }
 
 .back {
   display: inline-flex;
@@ -834,12 +826,17 @@ main { flex: 1; }
 .dossier-nav a.is-active .count { color: var(--ink); }
 .dossier-nav .count { font-family: var(--sans); font-weight: 400; font-size: 12px; color: var(--muted); }
 .dossier-nav-hint { font-size: 11.5px; line-height: 1.5; color: var(--muted); padding: 14px 10px 0; margin: 0; }
-/* Welcome Video sits above the "Research areas" group label and carries no
-   count badge, so it centers its label+icon instead of the nav's space-between. */
+/* LAYOUT ONLY — Welcome Video and Latest News sit above the "Research areas"
+   group label and carry no count badge, so they override the rail's
+   space-between (which exists to push that badge right) and keep icon+label
+   together at the left, with room below before the group label. Deliberately
+   sets no colour: these two are ordinary table-of-contents entries and light up
+   through `.dossier-nav a.is-active` exactly like their research-area siblings.
+   The ▷/▤ icons are what mark them as not-a-research-area — do not re-add a
+   tint here. */
 .dossier-nav-welcome {
   justify-content: flex-start !important;
   margin-bottom: 10px;
-  color: var(--brand);
 }
 
 .dossier-main { display: flex; flex-direction: column; gap: 56px; min-width: 0; }
