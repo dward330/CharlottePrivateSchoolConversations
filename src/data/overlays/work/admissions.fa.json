@@ -1,0 +1,1284 @@
+{
+  "topic": "admissions",
+  "lang": "fa",
+  "generated": "i18n_extract.mjs",
+  "note": "Translate each `text` into `t`. Leave `of` and `at` untouched — they are how the overlay is rebuilt and drift-checked.",
+  "strings": [
+    {
+      "text": "Pick your child's entry point and the guide personalizes: the steps in order, the 2026–27 deadlines, and the testing for that band — plus a printable checklist to take with you. The financial-aid clock runs in parallel.",
+      "of": "b764c60c",
+      "at": [
+        "providence-day:guide.headline"
+      ],
+      "t": "پایهٔ ورود فرزندتان را انتخاب کنید تا راهنما متناسب با آن تنظیم شود: مراحل به‌ترتیب، مهلت‌های 2026–27 و آزمون‌های همان پایه — به‌همراه سیاهه‌ای قابل‌چاپ که می‌توانید با خود ببرید. زمان‌بندی کمک‌هزینهٔ مالی به‌موازات همین روند پیش می‌رود."
+    },
+    {
+      "text": "2026–27 entry cycle",
+      "of": "826ef611",
+      "at": [
+        "providence-day:guide.cycle"
+      ],
+      "t": "دورهٔ پذیرش 2026–27"
+    },
+    {
+      "text": "grade bands, each with its own process",
+      "of": "1b9dbd14",
+      "at": [
+        "providence-day:guide.stats[0].label"
+      ],
+      "t": "پایهٔ ورود، هر کدام با فرایند مخصوص خود"
+    },
+    {
+      "text": "TK/K application deadline — earlier than everyone else",
+      "of": "297b9d6d",
+      "at": [
+        "providence-day:guide.stats[1].label"
+      ],
+      "t": "مهلت درخواست TK/K — زودتر از همهٔ پایه‌های دیگر"
+    },
+    {
+      "text": "Grades 1–12 application deadline",
+      "of": "0115e4c6",
+      "at": [
+        "providence-day:guide.stats[2].label"
+      ],
+      "t": "مهلت درخواست پایه‌های 1–12"
+    },
+    {
+      "text": "enrollment deposit, credited toward tuition",
+      "of": "9edfe10e",
+      "at": [
+        "providence-day:guide.stats[3].label"
+      ],
+      "t": "ودیعهٔ ثبت‌نام، که از شهریه کسر می‌شود"
+    },
+    {
+      "text": "One portal.",
+      "of": "63513317",
+      "at": [
+        "providence-day:guide.rules[0].title"
+      ],
+      "t": "تنها یک سامانه."
+    },
+    {
+      "text": "Everything runs through Charger Commons: the inquiry triggers your account invitation, and the portal generates a personalized checklist that tracks every step.",
+      "of": "9a763398",
+      "at": [
+        "providence-day:guide.rules[0].text"
+      ],
+      "t": "همه‌چیز از طریق Charger Commons انجام می‌شود: با ثبت درخواست اطلاعات، دعوت‌نامهٔ حساب کاربری برایتان ارسال می‌شود و سامانه سیاهه‌ای شخصی می‌سازد که هر مرحله را پی می‌گیرد."
+    },
+    {
+      "text": "Dates are cycle-specific.",
+      "of": "799cf75d",
+      "at": [
+        "providence-day:guide.rules[1].title"
+      ],
+      "t": "تاریخ‌ها ویژهٔ همان دوره‌اند."
+    },
+    {
+      "text": "Every date below is the 2026–27 entry cycle from the live admissions calendar. Cycle dates shift year to year — verify before acting.",
+      "of": "87aa3e7b",
+      "at": [
+        "providence-day:guide.rules[1].text"
+      ],
+      "t": "هر تاریخ زیر مربوط به دورهٔ پذیرش 2026–27 بر اساس تقویم پذیرش به‌روز است. تاریخ‌های هر دوره سال‌به‌سال تغییر می‌کند — پیش از اقدام آن‌ها را بررسی کنید."
+    },
+    {
+      "text": "Not published ≠ deficient.",
+      "of": "0e93db6b",
+      "at": [
+        "providence-day:guide.rules[2].title"
+      ],
+      "t": "منتشرنشدن به‌معنای کاستی نیست."
+    },
+    {
+      "text": "The application-fee amount and some band checklists aren't on the website. Those gaps are flagged below — confirm them with the admissions office.",
+      "of": "4860d402",
+      "at": [
+        "providence-day:guide.rules[2].text"
+      ],
+      "t": "مبلغ هزینهٔ درخواست و سیاههٔ برخی پایه‌ها روی وب‌سایت نیست. این کاستی‌ها در ادامه مشخص شده‌اند — آن‌ها را با دفتر پذیرش بررسی کنید."
+    },
+    {
+      "text": "Same spine in every band — inquire → apply → materials → decision → contract. What changes is the testing and the calendar. Selection weighs \"academic performance, school records, teacher recommendations, extracurricular activities, and social-emotional maturity.\"",
+      "of": "eda16ea1",
+      "at": [
+        "providence-day:guide.spineNote"
+      ],
+      "t": "ساختار در همهٔ پایه‌ها یکسان است — درخواست اطلاعات ← ثبت درخواست ← مدارک ← تصمیم ← قرارداد. آنچه تغییر می‌کند آزمون‌ها و تقویم است. در گزینش، «عملکرد تحصیلی، سوابق مدرسه، توصیه‌نامه‌های معلمان، فعالیت‌های فوق‌برنامه و بلوغ اجتماعی-عاطفی» سنجیده می‌شود."
+    },
+    {
+      "text": "TK / Kindergarten",
+      "of": "d6a3513b",
+      "at": [
+        "providence-day:guide.bands[0].label"
+      ],
+      "t": "TK / کودکستان"
+    },
+    {
+      "text": "Readiness model · earlier calendar",
+      "of": "deab8cc7",
+      "at": [
+        "providence-day:guide.bands[0].sublabel"
+      ],
+      "t": "الگوی آمادگی · تقویم زودهنگام‌تر"
+    },
+    {
+      "text": "Transitional Kindergarten & Kindergarten",
+      "of": "75235da1",
+      "at": [
+        "providence-day:guide.bands[0].title"
+      ],
+      "t": "کودکستان انتقالی و کودکستان"
+    },
+    {
+      "text": "application form due",
+      "of": "19e5953b",
+      "at": [
+        "providence-day:guide.bands[0].deadlines[0].label",
+        "providence-day:guide.bands[1].deadlines[0].label",
+        "providence-day:guide.bands[2].deadlines[0].label"
+      ],
+      "t": "مهلت فرم درخواست"
+    },
+    {
+      "text": "all materials & assessments due",
+      "of": "f539ae89",
+      "at": [
+        "providence-day:guide.bands[0].deadlines[1].label",
+        "providence-day:guide.bands[1].deadlines[1].label"
+      ],
+      "t": "مهلت همهٔ مدارک و ارزیابی‌ها"
+    },
+    {
+      "text": "decisions release, 4:00 p.m.",
+      "of": "f90fde94",
+      "at": [
+        "providence-day:guide.bands[0].deadlines[2].label"
+      ],
+      "t": "اعلام تصمیم‌ها، 4:00 p.m."
+    },
+    {
+      "text": "contracts due at noon",
+      "of": "26deddcf",
+      "at": [
+        "providence-day:guide.bands[0].deadlines[3].label"
+      ],
+      "t": "مهلت قراردادها تا ظهر"
+    },
+    {
+      "text": "Inquire & tour",
+      "of": "0b98f222",
+      "at": [
+        "providence-day:guide.bands[0].steps[0].title",
+        "providence-day:guide.bands[1].steps[0].title",
+        "providence-day:guide.bands[2].steps[0].title"
+      ],
+      "t": "درخواست اطلاعات و بازدید"
+    },
+    {
+      "text": "Fall 2026",
+      "of": "486271a2",
+      "at": [
+        "providence-day:guide.bands[0].steps[0].tag",
+        "providence-day:guide.bands[0].checklistRows[0].due",
+        "providence-day:guide.bands[0].checklistRows[1].due",
+        "providence-day:guide.bands[1].steps[0].tag",
+        "providence-day:guide.bands[1].checklistRows[0].due",
+        "providence-day:guide.bands[1].checklistRows[1].due",
+        "providence-day:guide.bands[2].steps[0].tag",
+        "providence-day:guide.bands[2].checklistRows[0].due",
+        "providence-day:guide.bands[2].checklistRows[1].due"
+      ],
+      "t": "پاییز 2026"
+    },
+    {
+      "text": "The Inquiry form books your campus tour and triggers the invitation to create your Charger Commons account.",
+      "of": "0b8a192e",
+      "at": [
+        "providence-day:guide.bands[0].steps[0].detail",
+        "providence-day:guide.bands[1].steps[0].detail",
+        "providence-day:guide.bands[2].steps[0].detail"
+      ],
+      "t": "فرم درخواست اطلاعات، بازدید شما از مدرسه را رزرو می‌کند و دعوت‌نامهٔ ساخت حساب Charger Commons را می‌فرستد."
+    },
+    {
+      "text": "Submit the TK/K application + fee",
+      "of": "8378e57a",
+      "at": [
+        "providence-day:guide.bands[0].steps[1].title"
+      ],
+      "t": "درخواست TK/K را ثبت و هزینه را پرداخت کنید"
+    },
+    {
+      "text": "by Jan 2",
+      "of": "a636a187",
+      "at": [
+        "providence-day:guide.bands[0].steps[1].tag"
+      ],
+      "t": "تا 2 ژانویه"
+    },
+    {
+      "text": "Apply early — the Readiness Screening can't be scheduled until the application is in, and the earliest applicants get the earliest slots. Fee amount isn't published; confirm with admissions.",
+      "of": "603be8d3",
+      "at": [
+        "providence-day:guide.bands[0].steps[1].detail"
+      ],
+      "t": "زود اقدام کنید — تا زمانی که درخواست ثبت نشود، وقت ارزیابی آمادگی تعیین نمی‌شود و آن‌ها که زودتر اقدام می‌کنند نوبت‌های نخست را می‌گیرند. مبلغ هزینه منتشر نشده است؛ با دفتر پذیرش بررسی کنید."
+    },
+    {
+      "text": "Preschool Teacher Recommendation Form",
+      "of": "9b3a4723",
+      "at": [
+        "providence-day:guide.bands[0].steps[2].title",
+        "providence-day:guide.comparison.rows[3].cells.tkk"
+      ],
+      "t": "فرم توصیه‌نامهٔ معلم پیش‌دبستانی"
+    },
+    {
+      "text": "by Feb 1",
+      "of": "a0e9778e",
+      "at": [
+        "providence-day:guide.bands[0].steps[2].tag",
+        "providence-day:guide.bands[0].steps[3].tag",
+        "providence-day:guide.bands[0].steps[4].tag",
+        "providence-day:guide.bands[0].steps[5].tag"
+      ],
+      "t": "تا 1 فوریه"
+    },
+    {
+      "text": "Sent to your child's current teacher through the portal checklist.",
+      "of": "3ccd8e82",
+      "at": [
+        "providence-day:guide.bands[0].steps[2].detail",
+        "providence-day:guide.bands[0].checklistRows[3].detail"
+      ],
+      "t": "از طریق سیاههٔ سامانه برای معلم فعلی فرزندتان فرستاده می‌شود."
+    },
+    {
+      "text": "WPPSI-IV assessment",
+      "of": "ef7c3e10",
+      "at": [
+        "providence-day:guide.bands[0].steps[3].title"
+      ],
+      "t": "ارزیابی WPPSI-IV"
+    },
+    {
+      "text": "The Wechsler preschool scale. Your child \"must be at least 4 years old at the time of assessment administration.\"",
+      "of": "57403268",
+      "at": [
+        "providence-day:guide.bands[0].steps[3].detail"
+      ],
+      "t": "مقیاس پیش‌دبستانی وکسلر. فرزند شما «باید هنگام اجرای ارزیابی دست‌کم 4 سال داشته باشد»."
+    },
+    {
+      "text": "School Readiness Screening",
+      "of": "61d3bf21",
+      "at": [
+        "providence-day:guide.bands[0].steps[4].title"
+      ],
+      "t": "ارزیابی آمادگی برای مدرسه"
+    },
+    {
+      "text": "\"Application MUST be submitted prior to scheduling the Readiness Screening\" — the sequencing quirk that makes step 2 urgent.",
+      "of": "d2bdd824",
+      "at": [
+        "providence-day:guide.bands[0].steps[4].detail"
+      ],
+      "t": "«درخواست باید پیش از تعیین وقت ارزیابی آمادگی ثبت شود» — همین ترتیب است که مرحلهٔ 2 را فوری می‌کند."
+    },
+    {
+      "text": "TK/K Classroom Visit",
+      "of": "bde340f2",
+      "at": [
+        "providence-day:guide.bands[0].steps[5].title"
+      ],
+      "t": "بازدید از کلاس TK/K"
+    },
+    {
+      "text": "A required visit — the school observes readiness in a real classroom setting.",
+      "of": "b055b157",
+      "at": [
+        "providence-day:guide.bands[0].steps[5].detail"
+      ],
+      "t": "بازدیدی الزامی — مدرسه آمادگی کودک را در یک کلاس واقعی مشاهده می‌کند."
+    },
+    {
+      "text": "Decision → contract + deposit",
+      "of": "8870c14a",
+      "at": [
+        "providence-day:guide.bands[0].steps[6].title",
+        "providence-day:guide.bands[1].steps[4].title",
+        "providence-day:guide.bands[2].steps[4].title"
+      ],
+      "t": "تصمیم ← قرارداد و ودیعه"
+    },
+    {
+      "text": "Feb 26 → Mar 5",
+      "of": "52178ca7",
+      "at": [
+        "providence-day:guide.bands[0].steps[6].tag"
+      ],
+      "t": "26 فوریه ← 5 مارس"
+    },
+    {
+      "text": "Decisions release 4:00 p.m. Feb 26; the signed contract and $2,500 deposit (credited toward tuition) are due at noon Mar 5. Later applications go to rolling review for remaining seats.",
+      "of": "3928ae31",
+      "at": [
+        "providence-day:guide.bands[0].steps[6].detail"
+      ],
+      "t": "تصمیم‌ها در 26 فوریه ساعت 4:00 p.m. اعلام می‌شوند؛ قرارداد امضاشده و ودیعهٔ $2,500 (که از شهریه کسر می‌شود) باید تا ظهر 5 مارس تحویل شود. درخواست‌های پس از آن برای صندلی‌های باقی‌مانده به بررسی پیوسته می‌روند."
+    },
+    {
+      "text": "Why TK/K is different",
+      "of": "460b7dbd",
+      "at": [
+        "providence-day:guide.bands[0].watchOuts[0].kicker"
+      ],
+      "t": "چرا TK/K متفاوت است"
+    },
+    {
+      "text": "The youngest band runs on an **earlier calendar** than everyone else and uses a **readiness model** — WPPSI-IV, Readiness Screening, and Classroom Visit — instead of standardized testing. Three assessment pieces means three appointments to schedule: another reason the early application matters.",
+      "of": "2e0caba3",
+      "at": [
+        "providence-day:guide.bands[0].watchOuts[0].text"
+      ],
+      "t": "کوچک‌ترین پایه بر پایهٔ **تقویمی زودهنگام‌تر** از همه پیش می‌رود و به‌جای آزمون استاندارد از یک **الگوی آمادگی** استفاده می‌کند — WPPSI-IV، ارزیابی آمادگی و بازدید از کلاس. سه بخش ارزیابی یعنی سه نوبت که باید هماهنگ شود: دلیلی دیگر بر اهمیت اقدام زودهنگام."
+    },
+    {
+      "text": "Age eligibility",
+      "of": "49e0b27d",
+      "at": [
+        "providence-day:guide.bands[0].watchOuts[1].kicker"
+      ],
+      "t": "شرط سنی"
+    },
+    {
+      "text": "The school publishes one rule: applicants must be **at least 4 at the time of assessment**. A specific \"turn 4/5 by September 1\" cutoff isn't published — confirm your child's eligibility with admissions before applying.",
+      "of": "74aeaf54",
+      "at": [
+        "providence-day:guide.bands[0].watchOuts[1].text"
+      ],
+      "t": "مدرسه تنها یک قاعده منتشر کرده است: متقاضیان باید **هنگام ارزیابی دست‌کم 4 سال** داشته باشند. هیچ مهلت مشخصی مانند «تکمیل 4/5 سالگی تا 1 سپتامبر» منتشر نشده است — پیش از اقدام، واجد شرایط بودن فرزندتان را با دفتر پذیرش بررسی کنید."
+    },
+    {
+      "text": "Apply early.",
+      "of": "d1b883ba",
+      "at": [
+        "providence-day:guide.bands[0].checklistCallout.lead"
+      ],
+      "t": "زود اقدام کنید."
+    },
+    {
+      "text": "The Readiness Screening cannot be scheduled until the application is submitted — the earliest applicants get the earliest assessment slots, and review turns rolling after the first round.",
+      "of": "b2c8a460",
+      "at": [
+        "providence-day:guide.bands[0].checklistCallout.text"
+      ],
+      "t": "تا زمانی که درخواست ثبت نشود، وقت ارزیابی آمادگی تعیین نمی‌شود — آن‌ها که زودتر اقدام می‌کنند نخستین نوبت‌های ارزیابی را می‌گیرند و پس از دور نخست، بررسی پیوسته می‌شود."
+    },
+    {
+      "text": "Submit the Inquiry form and book a campus tour",
+      "of": "07f571d1",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[0].action",
+        "providence-day:guide.bands[1].checklistRows[0].action",
+        "providence-day:guide.bands[2].checklistRows[0].action"
+      ],
+      "t": "فرم درخواست اطلاعات را ثبت و بازدید از مدرسه را رزرو کنید"
+    },
+    {
+      "text": "The inquiry is what triggers your Charger Commons account invitation.",
+      "of": "2122304b",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[0].detail",
+        "providence-day:guide.bands[1].checklistRows[0].detail",
+        "providence-day:guide.bands[2].checklistRows[0].detail"
+      ],
+      "t": "همین درخواست اطلاعات است که دعوت‌نامهٔ حساب Charger Commons شما را می‌فرستد."
+    },
+    {
+      "text": "Create your Charger Commons account",
+      "of": "73443a2f",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[1].action",
+        "providence-day:guide.bands[1].checklistRows[1].action",
+        "providence-day:guide.bands[2].checklistRows[1].action"
+      ],
+      "t": "حساب Charger Commons خود را بسازید"
+    },
+    {
+      "text": "The portal generates the personalized checklist that tracks every step below.",
+      "of": "a3ff8412",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[1].detail",
+        "providence-day:guide.bands[1].checklistRows[1].detail",
+        "providence-day:guide.bands[2].checklistRows[1].detail"
+      ],
+      "t": "سامانه همان سیاههٔ شخصی را می‌سازد که هر یک از مراحل زیر را پی می‌گیرد."
+    },
+    {
+      "text": "Submit the TK/K application and pay the fee",
+      "of": "37e3bb8f",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[2].action"
+      ],
+      "t": "درخواست TK/K را ثبت و هزینه را پرداخت کنید"
+    },
+    {
+      "text": "Fee amount isn't published — confirm with admissions.",
+      "of": "fc8d9c5e",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[2].detail",
+        "providence-day:guide.bands[1].checklistRows[2].detail",
+        "providence-day:guide.bands[2].checklistRows[2].detail"
+      ],
+      "t": "مبلغ هزینه منتشر نشده است — با دفتر پذیرش بررسی کنید."
+    },
+    {
+      "text": "Jan 2, 2027",
+      "of": "105471a1",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[2].due",
+        "providence-day:guide.comparison.rows[0].cells.tkk"
+      ],
+      "t": "2 ژانویه 2027"
+    },
+    {
+      "text": "Send the Preschool Teacher Recommendation Form",
+      "of": "39df12ac",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[3].action"
+      ],
+      "t": "فرم توصیه‌نامهٔ معلم پیش‌دبستانی را بفرستید"
+    },
+    {
+      "text": "Feb 1, 2027",
+      "of": "ae987fd4",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[3].due",
+        "providence-day:guide.bands[0].checklistRows[4].due",
+        "providence-day:guide.bands[0].checklistRows[5].due",
+        "providence-day:guide.bands[0].checklistRows[6].due",
+        "providence-day:guide.comparison.rows[1].cells.tkk"
+      ],
+      "t": "1 فوریه 2027"
+    },
+    {
+      "text": "Complete the WPPSI-IV assessment",
+      "of": "3fc7a406",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[4].action"
+      ],
+      "t": "ارزیابی WPPSI-IV را انجام دهید"
+    },
+    {
+      "text": "Your child must be at least 4 years old at the time of assessment.",
+      "of": "a05af927",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[4].detail"
+      ],
+      "t": "فرزند شما باید هنگام ارزیابی دست‌کم 4 سال داشته باشد."
+    },
+    {
+      "text": "Complete the School Readiness Screening",
+      "of": "f2554afb",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[5].action"
+      ],
+      "t": "ارزیابی آمادگی برای مدرسه را انجام دهید"
+    },
+    {
+      "text": "Cannot be scheduled until the application is submitted.",
+      "of": "0b8487f0",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[5].detail"
+      ],
+      "t": "تا زمانی که درخواست ثبت نشود، وقت آن تعیین نمی‌شود."
+    },
+    {
+      "text": "Attend the TK/K Classroom Visit",
+      "of": "15185ae9",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[6].action"
+      ],
+      "t": "در بازدید از کلاس TK/K شرکت کنید"
+    },
+    {
+      "text": "A required visit — readiness is observed in a real classroom.",
+      "of": "5412ebc5",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[6].detail"
+      ],
+      "t": "بازدیدی الزامی — آمادگی کودک در یک کلاس واقعی مشاهده می‌شود."
+    },
+    {
+      "text": "Watch for the decision",
+      "of": "0397d67a",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[7].action",
+        "providence-day:guide.bands[1].checklistRows[5].action",
+        "providence-day:guide.bands[2].checklistRows[5].action"
+      ],
+      "t": "منتظر اعلام تصمیم باشید"
+    },
+    {
+      "text": "Decisions release at 4:00 p.m.",
+      "of": "43561d15",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[7].detail"
+      ],
+      "t": "تصمیم‌ها ساعت 4:00 p.m. اعلام می‌شوند."
+    },
+    {
+      "text": "Feb 26, 2027",
+      "of": "fa7e6753",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[7].due",
+        "providence-day:guide.bands[1].checklistRows[3].due",
+        "providence-day:guide.bands[1].checklistRows[4].due",
+        "providence-day:guide.bands[2].checklistRows[3].due",
+        "providence-day:guide.bands[2].checklistRows[4].due",
+        "providence-day:guide.comparison.rows[1].cells.g15",
+        "providence-day:guide.comparison.rows[1].cells.g612"
+      ],
+      "t": "26 فوریه 2027"
+    },
+    {
+      "text": "Return the signed contract with the $2,500 deposit",
+      "of": "913bb0d0",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[8].action",
+        "providence-day:guide.bands[1].checklistRows[6].action",
+        "providence-day:guide.bands[2].checklistRows[6].action"
+      ],
+      "t": "قرارداد امضاشده را همراه ودیعهٔ $2,500 بازگردانید"
+    },
+    {
+      "text": "Due at noon; the deposit is credited toward tuition.",
+      "of": "6ee1014f",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[8].detail"
+      ],
+      "t": "مهلت تا ظهر؛ ودیعه از شهریه کسر می‌شود."
+    },
+    {
+      "text": "Mar 5, 2027",
+      "of": "a86248f5",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[8].due"
+      ],
+      "t": "5 مارس 2027"
+    },
+    {
+      "text": "Grades 1–5",
+      "of": "c2d451ca",
+      "at": [
+        "providence-day:guide.bands[1].label",
+        "providence-day:guide.bands[1].title"
+      ],
+      "t": "پایه‌های 1–5"
+    },
+    {
+      "text": "School-administered assessment",
+      "of": "c40ac9cb",
+      "at": [
+        "providence-day:guide.bands[1].sublabel"
+      ],
+      "t": "ارزیابی به‌اجرای مدرسه"
+    },
+    {
+      "text": "decision release time — date on the live calendar",
+      "of": "1ab613ed",
+      "at": [
+        "providence-day:guide.bands[1].deadlines[2].label",
+        "providence-day:guide.bands[2].deadlines[2].label"
+      ],
+      "t": "ساعت اعلام تصمیم — تاریخ در تقویم به‌روز"
+    },
+    {
+      "text": "deposit with the contract, credited to tuition",
+      "of": "d6889cfb",
+      "at": [
+        "providence-day:guide.bands[1].deadlines[3].label",
+        "providence-day:guide.bands[2].deadlines[3].label"
+      ],
+      "t": "ودیعه همراه قرارداد، که از شهریه کسر می‌شود"
+    },
+    {
+      "text": "Submit the Grades 1–5 application + fee",
+      "of": "c2c164da",
+      "at": [
+        "providence-day:guide.bands[1].steps[1].title"
+      ],
+      "t": "درخواست پایه‌های 1–5 را ثبت و هزینه را پرداخت کنید"
+    },
+    {
+      "text": "by Jan 15",
+      "of": "6a02e2fd",
+      "at": [
+        "providence-day:guide.bands[1].steps[1].tag",
+        "providence-day:guide.bands[2].steps[1].tag"
+      ],
+      "t": "تا 15 ژانویه"
+    },
+    {
+      "text": "First-round consideration closes Jan 15; later applications roll for remaining seats. Fee amount isn't published; confirm with admissions.",
+      "of": "431e6bd4",
+      "at": [
+        "providence-day:guide.bands[1].steps[1].detail",
+        "providence-day:guide.bands[2].steps[1].detail"
+      ],
+      "t": "بررسی دور نخست در 15 ژانویه بسته می‌شود؛ درخواست‌های بعدی برای صندلی‌های باقی‌مانده به بررسی پیوسته می‌روند. مبلغ هزینه منتشر نشده است؛ با دفتر پذیرش بررسی کنید."
+    },
+    {
+      "text": "Records & teacher recommendation",
+      "of": "3862a5bc",
+      "at": [
+        "providence-day:guide.bands[1].steps[2].title"
+      ],
+      "t": "سوابق و توصیه‌نامهٔ معلم"
+    },
+    {
+      "text": "by Feb 26",
+      "of": "898471b7",
+      "at": [
+        "providence-day:guide.bands[1].steps[2].tag",
+        "providence-day:guide.bands[1].steps[3].tag",
+        "providence-day:guide.bands[2].steps[2].tag",
+        "providence-day:guide.bands[2].steps[3].tag"
+      ],
+      "t": "تا 26 فوریه"
+    },
+    {
+      "text": "School records/transcript and the recommendation form, both handled through the portal checklist — the exact items for this band aren't published, so treat the portal as definitive.",
+      "of": "9d914599",
+      "at": [
+        "providence-day:guide.bands[1].steps[2].detail"
+      ],
+      "t": "سوابق مدرسه/کارنامه و فرم توصیه‌نامه، هر دو از طریق سیاههٔ سامانه انجام می‌شوند — اینکه دقیقاً چه مدارکی برای این پایه لازم است منتشر نشده، پس سامانه را ملاک نهایی بدانید."
+    },
+    {
+      "text": "Required assessment",
+      "of": "f7b721a2",
+      "at": [
+        "providence-day:guide.bands[1].steps[3].title"
+      ],
+      "t": "ارزیابی الزامی"
+    },
+    {
+      "text": "An assessment step exists for Grades 1–5, but the specific instrument isn't published — ask admissions which assessment your child will take and how to schedule it.",
+      "of": "0fc7cf16",
+      "at": [
+        "providence-day:guide.bands[1].steps[3].detail"
+      ],
+      "t": "برای پایه‌های 1–5 مرحلهٔ ارزیابی وجود دارد، اما ابزار مشخص آن منتشر نشده است — از دفتر پذیرش بپرسید فرزندتان چه ارزیابی‌ای می‌دهد و وقت آن چگونه تعیین می‌شود."
+    },
+    {
+      "text": "Spring 2027",
+      "of": "a01a41e1",
+      "at": [
+        "providence-day:guide.bands[1].steps[4].tag",
+        "providence-day:guide.bands[1].checklistRows[5].due",
+        "providence-day:guide.bands[1].checklistRows[6].due",
+        "providence-day:guide.bands[2].steps[4].tag",
+        "providence-day:guide.bands[2].checklistRows[5].due",
+        "providence-day:guide.bands[2].checklistRows[6].due"
+      ],
+      "t": "بهار 2027"
+    },
+    {
+      "text": "First-round decisions release at 4:00 p.m. on the published date — watch the live calendar. Then the signed contract and $2,500 deposit secure the seat.",
+      "of": "6b44fdc7",
+      "at": [
+        "providence-day:guide.bands[1].steps[4].detail",
+        "providence-day:guide.bands[2].steps[4].detail"
+      ],
+      "t": "تصمیم‌های دور نخست در تاریخ اعلام‌شده ساعت 4:00 p.m. منتشر می‌شوند — تقویم به‌روز را دنبال کنید. سپس قرارداد امضاشده و ودیعهٔ $2,500 صندلی را تضمین می‌کند."
+    },
+    {
+      "text": "The least-published band",
+      "of": "9dd2cdbd",
+      "at": [
+        "providence-day:guide.bands[1].watchOuts[0].kicker"
+      ],
+      "t": "پایه‌ای با کمترین اطلاعات منتشرشده"
+    },
+    {
+      "text": "Grades 1–5 shares the Grades 1–12 calendar, but its **material list, recommendation form, and assessment instrument aren't published**. Your Charger Commons checklist is the authoritative list — and if you need a definitive answer before applying, request it from admissions in writing.",
+      "of": "5d4c93da",
+      "at": [
+        "providence-day:guide.bands[1].watchOuts[0].text"
+      ],
+      "t": "پایه‌های 1–5 از همان تقویم پایه‌های 1–12 پیروی می‌کنند، اما **فهرست مدارک، فرم توصیه‌نامه و ابزار ارزیابی آن منتشر نشده است**. سیاههٔ Charger Commons شما فهرست معتبر است — و اگر پیش از اقدام به پاسخی قطعی نیاز دارید، آن را کتباً از دفتر پذیرش بخواهید."
+    },
+    {
+      "text": "No student-visit step published",
+      "of": "787334a5",
+      "at": [
+        "providence-day:guide.bands[1].watchOuts[1].kicker"
+      ],
+      "t": "هیچ مرحلهٔ بازدید دانش‌آموز منتشر نشده است"
+    },
+    {
+      "text": "Unlike TK/K's required Classroom Visit, no comparable shadow day or visit is published for this band. That doesn't mean there isn't one — it simply wasn't retrievable. Ask on your tour.",
+      "of": "54f44ab8",
+      "at": [
+        "providence-day:guide.bands[1].watchOuts[1].text"
+      ],
+      "t": "برخلاف بازدید الزامی از کلاس در TK/K، برای این پایه هیچ روز همراهی یا بازدید مشابهی منتشر نشده است. این به‌معنای نبودن آن نیست — تنها اطلاعاتش در دسترس نبود. هنگام بازدید بپرسید."
+    },
+    {
+      "text": "Portal is definitive.",
+      "of": "cf3c4540",
+      "at": [
+        "providence-day:guide.bands[1].checklistCallout.lead"
+      ],
+      "t": "سامانه ملاک نهایی است."
+    },
+    {
+      "text": "The exact material list and assessment for Grades 1–5 are not published on the website — your Charger Commons checklist is the authoritative list. Confirm specifics with the admissions office.",
+      "of": "04ad8994",
+      "at": [
+        "providence-day:guide.bands[1].checklistCallout.text"
+      ],
+      "t": "فهرست دقیق مدارک و ارزیابی پایه‌های 1–5 روی وب‌سایت منتشر نشده است — سیاههٔ Charger Commons شما فهرست معتبر است. جزئیات را با دفتر پذیرش بررسی کنید."
+    },
+    {
+      "text": "Submit the Grades 1–5 application and pay the fee",
+      "of": "31e9ecef",
+      "at": [
+        "providence-day:guide.bands[1].checklistRows[2].action"
+      ],
+      "t": "درخواست پایه‌های 1–5 را ثبت و هزینه را پرداخت کنید"
+    },
+    {
+      "text": "Jan 15, 2027",
+      "of": "b1671085",
+      "at": [
+        "providence-day:guide.bands[1].checklistRows[2].due",
+        "providence-day:guide.bands[2].checklistRows[2].due",
+        "providence-day:guide.comparison.rows[0].cells.g15",
+        "providence-day:guide.comparison.rows[0].cells.g612"
+      ],
+      "t": "15 ژانویه 2027"
+    },
+    {
+      "text": "Send school records and the teacher recommendation",
+      "of": "ffd3c182",
+      "at": [
+        "providence-day:guide.bands[1].checklistRows[3].action"
+      ],
+      "t": "سوابق مدرسه و توصیه‌نامهٔ معلم را بفرستید"
+    },
+    {
+      "text": "Both handled through the portal checklist, which is the definitive list.",
+      "of": "05037617",
+      "at": [
+        "providence-day:guide.bands[1].checklistRows[3].detail"
+      ],
+      "t": "هر دو از طریق سیاههٔ سامانه انجام می‌شوند، که فهرست نهایی است."
+    },
+    {
+      "text": "Complete the required assessment",
+      "of": "c3487f84",
+      "at": [
+        "providence-day:guide.bands[1].checklistRows[4].action"
+      ],
+      "t": "ارزیابی الزامی را انجام دهید"
+    },
+    {
+      "text": "The instrument isn't published — ask admissions which one and how to book it.",
+      "of": "fa99945e",
+      "at": [
+        "providence-day:guide.bands[1].checklistRows[4].detail"
+      ],
+      "t": "ابزار آن منتشر نشده است — از دفتر پذیرش بپرسید کدام است و چگونه باید رزرو شود."
+    },
+    {
+      "text": "First-round decisions release at 4:00 p.m. — date on the live calendar.",
+      "of": "96ac0e7c",
+      "at": [
+        "providence-day:guide.bands[1].checklistRows[5].detail",
+        "providence-day:guide.bands[2].checklistRows[5].detail"
+      ],
+      "t": "تصمیم‌های دور نخست ساعت 4:00 p.m. اعلام می‌شوند — تاریخ در تقویم به‌روز."
+    },
+    {
+      "text": "The deposit is credited toward tuition.",
+      "of": "08ea3269",
+      "at": [
+        "providence-day:guide.bands[1].checklistRows[6].detail",
+        "providence-day:guide.bands[2].checklistRows[6].detail"
+      ],
+      "t": "ودیعه از شهریه کسر می‌شود."
+    },
+    {
+      "text": "Grades 6–12",
+      "of": "327ac2eb",
+      "at": [
+        "providence-day:guide.bands[2].label",
+        "providence-day:guide.bands[2].title"
+      ],
+      "t": "پایه‌های 6–12"
+    },
+    {
+      "text": "Standardized testing (ISEE)",
+      "of": "922c6d07",
+      "at": [
+        "providence-day:guide.bands[2].sublabel"
+      ],
+      "t": "آزمون استاندارد (ISEE)"
+    },
+    {
+      "text": "all materials & testing due",
+      "of": "47511426",
+      "at": [
+        "providence-day:guide.bands[2].deadlines[1].label"
+      ],
+      "t": "مهلت همهٔ مدارک و آزمون‌ها"
+    },
+    {
+      "text": "Submit the Grades 6–12 application + fee",
+      "of": "8c787175",
+      "at": [
+        "providence-day:guide.bands[2].steps[1].title"
+      ],
+      "t": "درخواست پایه‌های 6–12 را ثبت و هزینه را پرداخت کنید"
+    },
+    {
+      "text": "Transcript & recommendations",
+      "of": "5c4c3399",
+      "at": [
+        "providence-day:guide.bands[2].steps[2].title"
+      ],
+      "t": "کارنامه و توصیه‌نامه‌ها"
+    },
+    {
+      "text": "Submitted through the portal checklist. The specific recommendation forms for this band aren't published — the portal shows exactly which ones your child needs.",
+      "of": "08538be3",
+      "at": [
+        "providence-day:guide.bands[2].steps[2].detail"
+      ],
+      "t": "از طریق سیاههٔ سامانه ارسال می‌شوند. فرم‌های توصیه‌نامهٔ ویژهٔ این پایه منتشر نشده‌اند — سامانه دقیقاً نشان می‌دهد فرزند شما به کدام‌ها نیاز دارد."
+    },
+    {
+      "text": "Standardized testing",
+      "of": "9d9b59ca",
+      "at": [
+        "providence-day:guide.bands[2].steps[3].title"
+      ],
+      "t": "آزمون استاندارد"
+    },
+    {
+      "text": "The ISEE is the test the school references. Register early enough to sit the test — and receive scores — before the materials deadline.",
+      "of": "1eba7071",
+      "at": [
+        "providence-day:guide.bands[2].steps[3].detail"
+      ],
+      "t": "آزمونی که مدرسه به آن اشاره می‌کند ISEE است. آن‌قدر زود ثبت‌نام کنید که پیش از مهلت مدارک، آزمون را بدهید و نمره‌ها را دریافت کنید."
+    },
+    {
+      "text": "Which test, exactly?",
+      "of": "596cd98b",
+      "at": [
+        "providence-day:guide.bands[2].watchOuts[0].kicker"
+      ],
+      "t": "دقیقاً کدام آزمون؟"
+    },
+    {
+      "text": "Standardized testing is required, and the ISEE is the only test the school names — but the exact domestic requirement (ISEE vs. SSAT, which level) **isn't published**. Confirm with admissions before booking a test date.",
+      "of": "abf379a1",
+      "at": [
+        "providence-day:guide.bands[2].watchOuts[0].text"
+      ],
+      "t": "آزمون استاندارد الزامی است و ISEE تنها آزمونی است که مدرسه نام می‌برد — اما شرط دقیق برای متقاضیان داخلی (ISEE یا SSAT، و کدام سطح) **منتشر نشده است**. پیش از رزرو تاریخ آزمون با دفتر پذیرش بررسی کنید."
+    },
+    {
+      "text": "International applicants",
+      "of": "8a721542",
+      "at": [
+        "providence-day:guide.bands[2].watchOuts[1].kicker"
+      ],
+      "t": "متقاضیان بین‌المللی"
+    },
+    {
+      "text": "Applicants outside China follow the grades 9–12 procedures and submit **ISEE scores plus TOEFL** (if English isn't the primary language). Applying from China and needing an I-20? The process begins with the school's partners at **TBI-New Oasis**.",
+      "of": "8367ae21",
+      "at": [
+        "providence-day:guide.bands[2].watchOuts[1].text"
+      ],
+      "t": "متقاضیان خارج از چین از روال پایه‌های 9–12 پیروی می‌کنند و **نمرهٔ ISEE به‌همراه TOEFL** ارائه می‌دهند (اگر انگلیسی زبان اصلی‌شان نباشد). از چین اقدام می‌کنید و به I-20 نیاز دارید؟ روند از همکاران مدرسه در **TBI-New Oasis** آغاز می‌شود."
+    },
+    {
+      "text": "Testing note.",
+      "of": "3778e795",
+      "at": [
+        "providence-day:guide.bands[2].checklistCallout.lead"
+      ],
+      "t": "نکته‌ای دربارهٔ آزمون."
+    },
+    {
+      "text": "Standardized testing is required; the ISEE is the test the school references. The exact domestic requirement is not published — confirm with admissions. International applicants: ISEE + TOEFL (if English is not primary); from China with an I-20, begin via TBI-New Oasis.",
+      "of": "8f31dd11",
+      "at": [
+        "providence-day:guide.bands[2].checklistCallout.text"
+      ],
+      "t": "آزمون استاندارد الزامی است؛ آزمونی که مدرسه به آن اشاره می‌کند ISEE است. شرط دقیق برای متقاضیان داخلی منتشر نشده است — با دفتر پذیرش بررسی کنید. متقاضیان بین‌المللی: ISEE + TOEFL (اگر انگلیسی زبان اصلی نباشد)؛ از چین و با I-20، از طریق TBI-New Oasis آغاز کنید."
+    },
+    {
+      "text": "Submit the Grades 6–12 application and pay the fee",
+      "of": "66d706c4",
+      "at": [
+        "providence-day:guide.bands[2].checklistRows[2].action"
+      ],
+      "t": "درخواست پایه‌های 6–12 را ثبت و هزینه را پرداخت کنید"
+    },
+    {
+      "text": "Register for and sit the ISEE",
+      "of": "e8835419",
+      "at": [
+        "providence-day:guide.bands[2].checklistRows[3].action"
+      ],
+      "t": "برای ISEE ثبت‌نام کنید و در آزمون شرکت کنید"
+    },
+    {
+      "text": "Book early enough that scores arrive before the materials deadline.",
+      "of": "d55280c8",
+      "at": [
+        "providence-day:guide.bands[2].checklistRows[3].detail"
+      ],
+      "t": "آن‌قدر زود رزرو کنید که نمره‌ها پیش از مهلت مدارک برسند."
+    },
+    {
+      "text": "Submit the transcript and recommendations",
+      "of": "0ef8af51",
+      "at": [
+        "providence-day:guide.bands[2].checklistRows[4].action"
+      ],
+      "t": "کارنامه و توصیه‌نامه‌ها را ارائه دهید"
+    },
+    {
+      "text": "Through the portal checklist, which shows exactly which forms are needed.",
+      "of": "e2b3e095",
+      "at": [
+        "providence-day:guide.bands[2].checklistRows[4].detail"
+      ],
+      "t": "از طریق سیاههٔ سامانه، که دقیقاً نشان می‌دهد چه فرم‌هایی لازم است."
+    },
+    {
+      "text": "Running in parallel: the financial-aid clock",
+      "of": "15045be1",
+      "at": [
+        "providence-day:guide.aid.title"
+      ],
+      "t": "به‌موازات: زمان‌بندی کمک‌هزینهٔ مالی"
+    },
+    {
+      "text": "Clarity application ($65) due **Jan 22** for prospective families — complete both processes on time and the aid decision arrives inside the Enrollment Agreement. Applying for aid never influences admission; separate committees decide.",
+      "of": "faf983c3",
+      "at": [
+        "providence-day:guide.aid.text"
+      ],
+      "t": "مهلت درخواست Clarity ($65) برای خانواده‌های متقاضی **22 ژانویه** است — هر دو روند را به‌موقع کامل کنید تا تصمیم کمک‌هزینه در همان قرارداد ثبت‌نام بیاید. درخواست کمک‌هزینه هرگز بر پذیرش اثر نمی‌گذارد؛ کمیته‌های جداگانه تصمیم می‌گیرند."
+    },
+    {
+      "text": "Financial Aid & Tuition",
+      "of": "801e19b8",
+      "at": [
+        "providence-day:guide.aid.button"
+      ],
+      "t": "کمک‌هزینهٔ مالی و شهریه"
+    },
+    {
+      "text": "CROSS-BAND",
+      "of": "60faf9b9",
+      "at": [
+        "providence-day:guide.comparison.kicker"
+      ],
+      "t": "میان پایه‌ها"
+    },
+    {
+      "text": "Exactly what changes between bands",
+      "of": "2e98319a",
+      "at": [
+        "providence-day:guide.comparison.title"
+      ],
+      "t": "دقیقاً چه چیزی میان پایه‌ها تغییر می‌کند"
+    },
+    {
+      "text": "Application due",
+      "of": "8751989b",
+      "at": [
+        "providence-day:guide.comparison.rows[0].label"
+      ],
+      "t": "مهلت درخواست"
+    },
+    {
+      "text": "Materials due",
+      "of": "24ee4e87",
+      "at": [
+        "providence-day:guide.comparison.rows[1].label"
+      ],
+      "t": "مهلت مدارک"
+    },
+    {
+      "text": "Assessment",
+      "of": "7f464e4f",
+      "at": [
+        "providence-day:guide.comparison.rows[2].label"
+      ],
+      "t": "ارزیابی"
+    },
+    {
+      "text": "WPPSI-IV + Readiness Screening + Classroom Visit",
+      "of": "e4f9b916",
+      "at": [
+        "providence-day:guide.comparison.rows[2].cells.tkk"
+      ],
+      "t": "WPPSI-IV + ارزیابی آمادگی + بازدید از کلاس"
+    },
+    {
+      "text": "Required — instrument not published",
+      "of": "2d4beeb2",
+      "at": [
+        "providence-day:guide.comparison.rows[2].cells.g15"
+      ],
+      "t": "الزامی — ابزار منتشر نشده"
+    },
+    {
+      "text": "Standardized testing — ISEE referenced",
+      "of": "8982a6d7",
+      "at": [
+        "providence-day:guide.comparison.rows[2].cells.g612"
+      ],
+      "t": "آزمون استاندارد — به ISEE اشاره شده"
+    },
+    {
+      "text": "Recommendation",
+      "of": "eb33374e",
+      "at": [
+        "providence-day:guide.comparison.rows[3].label"
+      ],
+      "t": "توصیه‌نامه"
+    },
+    {
+      "text": "Via portal checklist — form not published",
+      "of": "096ca790",
+      "at": [
+        "providence-day:guide.comparison.rows[3].cells.g15"
+      ],
+      "t": "از طریق سیاههٔ سامانه — فرم منتشر نشده"
+    },
+    {
+      "text": "Via portal checklist — forms not published",
+      "of": "3fc80d2b",
+      "at": [
+        "providence-day:guide.comparison.rows[3].cells.g612"
+      ],
+      "t": "از طریق سیاههٔ سامانه — فرم‌ها منتشر نشده‌اند"
+    },
+    {
+      "text": "Decision & contract",
+      "of": "f4295bd1",
+      "at": [
+        "providence-day:guide.comparison.rows[4].label"
+      ],
+      "t": "تصمیم و قرارداد"
+    },
+    {
+      "text": "Feb 26 → contracts Mar 5, noon",
+      "of": "6ca84b56",
+      "at": [
+        "providence-day:guide.comparison.rows[4].cells.tkk"
+      ],
+      "t": "26 فوریه ← قراردادها 5 مارس، ظهر"
+    },
+    {
+      "text": "4:00 p.m. release — see live calendar",
+      "of": "04c61bd6",
+      "at": [
+        "providence-day:guide.comparison.rows[4].cells.g15",
+        "providence-day:guide.comparison.rows[4].cells.g612"
+      ],
+      "t": "اعلام در 4:00 p.m. — تقویم به‌روز را ببینید"
+    },
+    {
+      "text": "After first round",
+      "of": "d2c9fb93",
+      "at": [
+        "providence-day:guide.comparison.rows[5].label"
+      ],
+      "t": "پس از دور نخست"
+    },
+    {
+      "text": "Rolling review for remaining seats at each grade level — identical in every band",
+      "of": "17f47c64",
+      "at": [
+        "providence-day:guide.comparison.rows[5].cells.all"
+      ],
+      "t": "بررسی پیوسته برای صندلی‌های باقی‌مانده در هر پایه — در همهٔ پایه‌ها یکسان"
+    },
+    {
+      "text": "CONTACTS",
+      "of": "fa6ba530",
+      "at": [
+        "providence-day:guide.contacts.kicker"
+      ],
+      "t": "تماس‌ها"
+    },
+    {
+      "text": "The admissions office",
+      "of": "ba210c46",
+      "at": [
+        "providence-day:guide.contacts.title"
+      ],
+      "t": "دفتر پذیرش"
+    },
+    {
+      "text": "5800 Sardis Road, Charlotte, NC 28270 · main 704-887-6000",
+      "of": "9a21a040",
+      "at": [
+        "providence-day:guide.contacts.address"
+      ],
+      "t": "5800 Sardis Road, Charlotte, NC 28270 · شمارهٔ اصلی 704-887-6000"
+    },
+    {
+      "text": "Asst. Head of School, Admissions & Enrollment · 704-887-6002",
+      "of": "e0fe072e",
+      "at": [
+        "providence-day:guide.contacts.people[0].detail"
+      ],
+      "t": "معاون مدیر مدرسه، پذیرش و ثبت‌نام · 704-887-6002"
+    },
+    {
+      "text": "Associate Director of Admissions · 704-887-7015",
+      "of": "25dd7274",
+      "at": [
+        "providence-day:guide.contacts.people[1].detail"
+      ],
+      "t": "مدیر همکار پذیرش · 704-887-7015"
+    },
+    {
+      "text": "Associate Director of Admissions · 704-887-6029",
+      "of": "bb2b2ee6",
+      "at": [
+        "providence-day:guide.contacts.people[2].detail"
+      ],
+      "t": "مدیر همکار پذیرش · 704-887-6029"
+    },
+    {
+      "text": "Asst. Director of Enrollment Management · 704-887-7057",
+      "of": "a2f3863a",
+      "at": [
+        "providence-day:guide.contacts.people[3].detail"
+      ],
+      "t": "معاون مدیر مدیریت ثبت‌نام · 704-887-7057"
+    },
+    {
+      "text": "Admissions Officer · 704-887-7511",
+      "of": "34b8b71e",
+      "at": [
+        "providence-day:guide.contacts.people[4].detail"
+      ],
+      "t": "کارشناس پذیرش · 704-887-7511"
+    },
+    {
+      "text": "Admissions Officer · 704-887-7097",
+      "of": "d7e7b697",
+      "at": [
+        "providence-day:guide.contacts.people[5].detail"
+      ],
+      "t": "کارشناس پذیرش · 704-887-7097"
+    },
+    {
+      "text": "Admissions Services Manager · 704-887-7040",
+      "of": "015e1ef2",
+      "at": [
+        "providence-day:guide.contacts.people[6].detail"
+      ],
+      "t": "مدیر خدمات پذیرش · 704-887-7040"
+    },
+    {
+      "text": "Dir. of Student Billing, Financial Aid & Accounting · 704-887-7023",
+      "of": "1e375e62",
+      "at": [
+        "providence-day:guide.contacts.people[7].detail"
+      ],
+      "t": "مدیر صورت‌حساب دانش‌آموزی، کمک‌هزینهٔ مالی و حسابداری · 704-887-7023"
+    },
+    {
+      "text": "Portal: Charger Commons · providenceday.org",
+      "of": "ff35a443",
+      "at": [
+        "providence-day:guide.checklist.portalNote"
+      ],
+      "t": "سامانه: Charger Commons · providenceday.org"
+    },
+    {
+      "text": "In parallel — the financial aid clock",
+      "of": "3e87e1fd",
+      "at": [
+        "providence-day:guide.checklist.aidPanel.kicker"
+      ],
+      "t": "به‌موازات — زمان‌بندی کمک‌هزینهٔ مالی"
+    },
+    {
+      "text": "Complete the Clarity financial-aid application ($65 fee) by Jan 22 — both custodial and non-custodial parents submit documentation.",
+      "of": "559c8bc8",
+      "at": [
+        "providence-day:guide.checklist.aidPanel.items[0]"
+      ],
+      "t": "درخواست کمک‌هزینهٔ مالی Clarity (هزینهٔ $65) را تا 22 ژانویه کامل کنید — هر دو والد، چه سرپرست و چه غیرسرپرست، مدارک ارائه می‌دهند."
+    },
+    {
+      "text": "Complete both processes on time and any aid decision arrives inside the Enrollment Agreement. Applying for aid does not influence admission.",
+      "of": "d4139cb5",
+      "at": [
+        "providence-day:guide.checklist.aidPanel.items[1]"
+      ],
+      "t": "هر دو روند را به‌موقع کامل کنید تا هر تصمیمی دربارهٔ کمک‌هزینه در همان قرارداد ثبت‌نام بیاید. درخواست کمک‌هزینه بر پذیرش اثر نمی‌گذارد."
+    },
+    {
+      "text": "Questions — admissions office",
+      "of": "79312c44",
+      "at": [
+        "providence-day:guide.checklist.contactPanel.kicker"
+      ],
+      "t": "پرسش‌ها — دفتر پذیرش"
+    },
+    {
+      "text": "Lisa Knight, Asst. Head of School for Admissions — 704-887-6002",
+      "of": "729a968a",
+      "at": [
+        "providence-day:guide.checklist.contactPanel.lines[0]"
+      ],
+      "t": "Lisa Knight، معاون مدیر مدرسه در امور پذیرش — 704-887-6002"
+    },
+    {
+      "text": "Admissions main — 704-887-6000 · 5800 Sardis Road, Charlotte, NC 28270",
+      "of": "26f78a58",
+      "at": [
+        "providence-day:guide.checklist.contactPanel.lines[1]"
+      ],
+      "t": "شمارهٔ اصلی پذیرش — 704-887-6000 · 5800 Sardis Road, Charlotte, NC 28270"
+    },
+    {
+      "text": "En español: Claudia Trower — 704-887-7023",
+      "of": "9281c777",
+      "at": [
+        "providence-day:guide.checklist.contactPanel.lines[2]"
+      ],
+      "t": "En español: Claudia Trower — 704-887-7023"
+    },
+    {
+      "text": "Dates are the 2026–27 entry cycle as published on the providenceday.org admissions calendar (retrieved Aug 2026); cycle dates shift year to year — verify against the live calendar before acting. Items marked \"confirm\" are not published on the website. Compiled by Charlotte School Compare; not affiliated with Providence Day School.",
+      "of": "4437f3e8",
+      "at": [
+        "providence-day:guide.checklist.disclaimer"
+      ],
+      "t": "تاریخ‌ها مربوط به دورهٔ پذیرش 2026–27 است، همان‌گونه که در تقویم پذیرش providenceday.org منتشر شده (بازیابی‌شده در اوت 2026)؛ تاریخ‌های هر دوره سال‌به‌سال تغییر می‌کند — پیش از اقدام آن‌ها را با تقویم به‌روز بسنجید. مواردی که با «بررسی شود» نشان داده شده‌اند روی وب‌سایت منتشر نشده‌اند. گردآوری از Charlotte School Compare؛ وابسته به Providence Day School نیست."
+    }
+  ]
+}

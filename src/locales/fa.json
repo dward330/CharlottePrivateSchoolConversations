@@ -31,6 +31,7 @@
     "weeksSelected_other": "{{count}} هفته اردو"
   },
   "topics": {
+    "admissions": "پذیرش",
     "after-school": "پس از مدرسه",
     "college-support": "پشتیبانی دانشگاه",
     "course-offerings": "درس‌های ارائه‌شده",
@@ -41,6 +42,11 @@
     "the-arts": "هنرها"
   },
   "metrics": {
+    "admissions.redesign-research": "پروندهٔ پژوهش پذیرش (2026)",
+    "after-school.redesign-research": "پروندهٔ پژوهش پس از مدرسه (2026)",
+    "college-support.redesign-research": "پروندهٔ پژوهش پشتیبانی دانشگاه (2026)",
+    "sports.redesign-research": "پروندهٔ پژوهش ورزش (2026)",
+    "summer-programs.redesign-research": "پروندهٔ پژوهش برنامه‌های تابستانی (2026)",
     "academic-case": "پروندهٔ تحصیلی",
     "academic-clubs": "باشگاه‌های تحصیلی و رقابتی",
     "affinity": "گروه‌های هم‌گرایی و هویت",
@@ -340,6 +346,7 @@
     "ncFiveYearCounts": "{{applied}} متقاضی · {{accepted}} پذیرفته"
   },
   "cards": {
+    "admissions.guide": "راهنمای درخواست به تفکیک پایه — TK/K · 1–5 · 6–12",
     "sports.offered": "ورزش‌های ارائه‌شده",
     "sports.record": "کارنامهٔ برنده",
     "sports.pipeline": "خط لولهٔ دانشگاه",
@@ -452,5 +459,12 @@
     "statusParsing": "در حال تحلیل تابلوی اخبار…",
     "title": "آخرین اخبار",
     "tocLabel": "آخرین اخبار"
+  },
+  "admissions": {
+    "applyingFor": "درخواست ورود به",
+    "backToSection": "بازگشت به پژوهش پذیرش",
+    "checklistKicker": "Charlotte School Compare · سیاههٔ پذیرش",
+    "exportChecklist": "خروجی گرفتن از سیاهه",
+    "printSave": "چاپ / ذخیره به‌صورت PDF"
   }
 }

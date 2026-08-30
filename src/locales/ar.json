@@ -39,6 +39,7 @@
     "weeksSelected_zero": "{{count}} أسبوع مخيم"
   },
   "topics": {
+    "admissions": "القبول",
     "after-school": "أنشطة ما بعد المدرسة",
     "college-support": "الدعم الجامعي",
     "course-offerings": "المواد الدراسية",
@@ -49,6 +50,11 @@
     "the-arts": "الفنون"
   },
   "metrics": {
+    "admissions.redesign-research": "ملف بحثي عن القبول (2026)",
+    "after-school.redesign-research": "ملف بحثي عن أنشطة ما بعد المدرسة (2026)",
+    "college-support.redesign-research": "ملف بحثي عن الدعم الجامعي (2026)",
+    "sports.redesign-research": "ملف بحثي عن الرياضة (2026)",
+    "summer-programs.redesign-research": "ملف بحثي عن البرامج الصيفية (2026)",
     "academic-case": "الحجّة الأكاديمية",
     "academic-clubs": "الأندية الأكاديمية والتنافسية",
     "affinity": "مجموعات الانتماء والهوية",
@@ -408,6 +414,7 @@
     "ncFiveYearCounts": "{{applied}} طلب · {{accepted}} مقبول"
   },
   "cards": {
+    "admissions.guide": "دليل التقديم حسب الصف — TK/K · 1–5 · 6–12",
     "sports.offered": "الرياضات المتاحة",
     "sports.record": "سجلّ الفوز",
     "sports.pipeline": "خطّ الالتحاق بالجامعات",
@@ -520,5 +527,12 @@
     "statusParsing": "جارٍ تحليل لوحة الأخبار…",
     "title": "آخر الأخبار",
     "tocLabel": "آخر الأخبار"
+  },
+  "admissions": {
+    "applyingFor": "طلب الالتحاق بـ",
+    "backToSection": "العودة إلى بحث القبول",
+    "checklistKicker": "Charlotte School Compare · قائمة مراجعة القبول",
+    "exportChecklist": "تصدير القائمة",
+    "printSave": "طباعة / حفظ بصيغة PDF"
   }
 }

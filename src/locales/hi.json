@@ -31,6 +31,7 @@
     "weeksSelected_other": "{{count}} सप्ताह का कैंप"
   },
   "topics": {
+    "admissions": "प्रवेश",
     "after-school": "स्कूल के बाद",
     "college-support": "कॉलेज सहायता",
     "course-offerings": "पाठ्यक्रम सूची",
@@ -41,6 +42,11 @@
     "the-arts": "कला"
   },
   "metrics": {
+    "admissions.redesign-research": "प्रवेश पर शोध दस्तावेज़ (2026)",
+    "after-school.redesign-research": "स्कूल के बाद के कार्यक्रमों पर शोध दस्तावेज़ (2026)",
+    "college-support.redesign-research": "कॉलेज सहायता पर शोध दस्तावेज़ (2026)",
+    "sports.redesign-research": "खेल पर शोध दस्तावेज़ (2026)",
+    "summer-programs.redesign-research": "ग्रीष्मकालीन कार्यक्रमों पर शोध दस्तावेज़ (2026)",
     "academic-case": "शैक्षणिक पक्ष",
     "academic-clubs": "शैक्षणिक और प्रतियोगी क्लब",
     "affinity": "समुदाय और पहचान समूह",
@@ -340,6 +346,7 @@
     "ncFiveYearCounts": "{{applied}} आवेदन · {{accepted}} स्वीकृत"
   },
   "cards": {
+    "admissions.guide": "कक्षावार आवेदन मार्गदर्शिका — TK/K · 1–5 · 6–12",
     "sports.offered": "उपलब्ध खेल",
     "sports.record": "जीत का रिकॉर्ड",
     "sports.pipeline": "कॉलेज तक की राह",
@@ -452,5 +459,12 @@
     "statusParsing": "समाचार बोर्ड पढ़ा जा रहा है…",
     "title": "ताज़ा समाचार",
     "tocLabel": "ताज़ा समाचार"
+  },
+  "admissions": {
+    "applyingFor": "प्रवेश के लिए आवेदन —",
+    "backToSection": "प्रवेश शोध पर वापस जाएँ",
+    "checklistKicker": "Charlotte School Compare · प्रवेश चेकलिस्ट",
+    "exportChecklist": "चेकलिस्ट निर्यात करें",
+    "printSave": "प्रिंट करें / PDF के रूप में सहेजें"
   }
 }

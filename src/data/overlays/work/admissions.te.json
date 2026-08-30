@@ -1,0 +1,1284 @@
+{
+  "topic": "admissions",
+  "lang": "te",
+  "generated": "i18n_extract.mjs",
+  "note": "Translate each `text` into `t`. Leave `of` and `at` untouched — they are how the overlay is rebuilt and drift-checked.",
+  "strings": [
+    {
+      "text": "Pick your child's entry point and the guide personalizes: the steps in order, the 2026–27 deadlines, and the testing for that band — plus a printable checklist to take with you. The financial-aid clock runs in parallel.",
+      "of": "b764c60c",
+      "at": [
+        "providence-day:guide.headline"
+      ],
+      "t": "మీ పిల్లల ప్రవేశ స్థాయిని ఎంచుకోండి, మార్గదర్శి దానికి తగినట్లు మారుతుంది: దశలు వరుసక్రమంలో, 2026–27 గడువులు, ఆ స్థాయికి వర్తించే పరీక్షలు — వీటితో పాటు వెంట తీసుకెళ్లదగిన ముద్రించదగిన చెక్‌లిస్ట్. ఆర్థిక సహాయ కాలపట్టిక దీనితో సమాంతరంగా నడుస్తుంది."
+    },
+    {
+      "text": "2026–27 entry cycle",
+      "of": "826ef611",
+      "at": [
+        "providence-day:guide.cycle"
+      ],
+      "t": "2026–27 ప్రవేశ చక్రం"
+    },
+    {
+      "text": "grade bands, each with its own process",
+      "of": "1b9dbd14",
+      "at": [
+        "providence-day:guide.stats[0].label"
+      ],
+      "t": "ప్రవేశ స్థాయిలు, ఒక్కొక్కదానికి సొంత ప్రక్రియ"
+    },
+    {
+      "text": "TK/K application deadline — earlier than everyone else",
+      "of": "297b9d6d",
+      "at": [
+        "providence-day:guide.stats[1].label"
+      ],
+      "t": "TK/K దరఖాస్తు గడువు — మిగతా అందరికంటే ముందుగా"
+    },
+    {
+      "text": "Grades 1–12 application deadline",
+      "of": "0115e4c6",
+      "at": [
+        "providence-day:guide.stats[2].label"
+      ],
+      "t": "1–12 తరగతుల దరఖాస్తు గడువు"
+    },
+    {
+      "text": "enrollment deposit, credited toward tuition",
+      "of": "9edfe10e",
+      "at": [
+        "providence-day:guide.stats[3].label"
+      ],
+      "t": "ప్రవేశ డిపాజిట్, ట్యూషన్‌లో సర్దుబాటు చేయబడుతుంది"
+    },
+    {
+      "text": "One portal.",
+      "of": "63513317",
+      "at": [
+        "providence-day:guide.rules[0].title"
+      ],
+      "t": "ఒకే పోర్టల్."
+    },
+    {
+      "text": "Everything runs through Charger Commons: the inquiry triggers your account invitation, and the portal generates a personalized checklist that tracks every step.",
+      "of": "9a763398",
+      "at": [
+        "providence-day:guide.rules[0].text"
+      ],
+      "t": "అంతా Charger Commons ద్వారానే జరుగుతుంది: విచారణ పంపగానే మీ ఖాతా ఆహ్వానం వస్తుంది, ఆపై పోర్టల్ ప్రతి దశను అనుసరించే వ్యక్తిగత చెక్‌లిస్ట్‌ను రూపొందిస్తుంది."
+    },
+    {
+      "text": "Dates are cycle-specific.",
+      "of": "799cf75d",
+      "at": [
+        "providence-day:guide.rules[1].title"
+      ],
+      "t": "తేదీలు ఆ చక్రానికే వర్తిస్తాయి."
+    },
+    {
+      "text": "Every date below is the 2026–27 entry cycle from the live admissions calendar. Cycle dates shift year to year — verify before acting.",
+      "of": "87aa3e7b",
+      "at": [
+        "providence-day:guide.rules[1].text"
+      ],
+      "t": "కింది ప్రతి తేదీ ప్రత్యక్ష ప్రవేశ క్యాలెండర్ ప్రకారం 2026–27 ప్రవేశ చక్రానిది. చక్రపు తేదీలు ఏటా మారుతాయి — చర్య తీసుకునే ముందు సరిచూసుకోండి."
+    },
+    {
+      "text": "Not published ≠ deficient.",
+      "of": "0e93db6b",
+      "at": [
+        "providence-day:guide.rules[2].title"
+      ],
+      "t": "ప్రచురించకపోవడం అంటే లోపం కాదు."
+    },
+    {
+      "text": "The application-fee amount and some band checklists aren't on the website. Those gaps are flagged below — confirm them with the admissions office.",
+      "of": "4860d402",
+      "at": [
+        "providence-day:guide.rules[2].text"
+      ],
+      "t": "దరఖాస్తు రుసుము మొత్తం, కొన్ని స్థాయిల చెక్‌లిస్ట్‌లు వెబ్‌సైట్‌లో లేవు. ఆ ఖాళీలను కింద గుర్తించాం — ప్రవేశాల కార్యాలయంతో నిర్ధారించుకోండి."
+    },
+    {
+      "text": "Same spine in every band — inquire → apply → materials → decision → contract. What changes is the testing and the calendar. Selection weighs \"academic performance, school records, teacher recommendations, extracurricular activities, and social-emotional maturity.\"",
+      "of": "eda16ea1",
+      "at": [
+        "providence-day:guide.spineNote"
+      ],
+      "t": "ప్రతి స్థాయిలోనూ అదే వరుస — విచారణ → దరఖాస్తు → పత్రాలు → నిర్ణయం → ఒప్పందం. మారేది పరీక్షలు, కాలపట్టిక మాత్రమే. ఎంపికలో \"విద్యా పనితీరు, పాఠశాల రికార్డులు, ఉపాధ్యాయుల సిఫార్సులు, పాఠ్యేతర కార్యకలాపాలు, సామాజిక-భావోద్వేగ పరిణతి\" పరిగణనలోకి వస్తాయి."
+    },
+    {
+      "text": "TK / Kindergarten",
+      "of": "d6a3513b",
+      "at": [
+        "providence-day:guide.bands[0].label"
+      ],
+      "t": "TK / కిండర్‌గార్టెన్"
+    },
+    {
+      "text": "Readiness model · earlier calendar",
+      "of": "deab8cc7",
+      "at": [
+        "providence-day:guide.bands[0].sublabel"
+      ],
+      "t": "సన్నద్ధత నమూనా · ముందస్తు కాలపట్టిక"
+    },
+    {
+      "text": "Transitional Kindergarten & Kindergarten",
+      "of": "75235da1",
+      "at": [
+        "providence-day:guide.bands[0].title"
+      ],
+      "t": "ట్రాన్సిషనల్ కిండర్‌గార్టెన్ మరియు కిండర్‌గార్టెన్"
+    },
+    {
+      "text": "application form due",
+      "of": "19e5953b",
+      "at": [
+        "providence-day:guide.bands[0].deadlines[0].label",
+        "providence-day:guide.bands[1].deadlines[0].label",
+        "providence-day:guide.bands[2].deadlines[0].label"
+      ],
+      "t": "దరఖాస్తు ఫారం గడువు"
+    },
+    {
+      "text": "all materials & assessments due",
+      "of": "f539ae89",
+      "at": [
+        "providence-day:guide.bands[0].deadlines[1].label",
+        "providence-day:guide.bands[1].deadlines[1].label"
+      ],
+      "t": "అన్ని పత్రాలు, మూల్యాంకనాల గడువు"
+    },
+    {
+      "text": "decisions release, 4:00 p.m.",
+      "of": "f90fde94",
+      "at": [
+        "providence-day:guide.bands[0].deadlines[2].label"
+      ],
+      "t": "నిర్ణయాల విడుదల, 4:00 p.m."
+    },
+    {
+      "text": "contracts due at noon",
+      "of": "26deddcf",
+      "at": [
+        "providence-day:guide.bands[0].deadlines[3].label"
+      ],
+      "t": "ఒప్పందాల గడువు మధ్యాహ్నం"
+    },
+    {
+      "text": "Inquire & tour",
+      "of": "0b98f222",
+      "at": [
+        "providence-day:guide.bands[0].steps[0].title",
+        "providence-day:guide.bands[1].steps[0].title",
+        "providence-day:guide.bands[2].steps[0].title"
+      ],
+      "t": "విచారణ, క్యాంపస్ సందర్శన"
+    },
+    {
+      "text": "Fall 2026",
+      "of": "486271a2",
+      "at": [
+        "providence-day:guide.bands[0].steps[0].tag",
+        "providence-day:guide.bands[0].checklistRows[0].due",
+        "providence-day:guide.bands[0].checklistRows[1].due",
+        "providence-day:guide.bands[1].steps[0].tag",
+        "providence-day:guide.bands[1].checklistRows[0].due",
+        "providence-day:guide.bands[1].checklistRows[1].due",
+        "providence-day:guide.bands[2].steps[0].tag",
+        "providence-day:guide.bands[2].checklistRows[0].due",
+        "providence-day:guide.bands[2].checklistRows[1].due"
+      ],
+      "t": "శరత్కాలం 2026"
+    },
+    {
+      "text": "The Inquiry form books your campus tour and triggers the invitation to create your Charger Commons account.",
+      "of": "0b8a192e",
+      "at": [
+        "providence-day:guide.bands[0].steps[0].detail",
+        "providence-day:guide.bands[1].steps[0].detail",
+        "providence-day:guide.bands[2].steps[0].detail"
+      ],
+      "t": "విచారణ ఫారం మీ క్యాంపస్ సందర్శనను బుక్ చేసి, Charger Commons ఖాతా సృష్టించేందుకు ఆహ్వానాన్ని పంపుతుంది."
+    },
+    {
+      "text": "Submit the TK/K application + fee",
+      "of": "8378e57a",
+      "at": [
+        "providence-day:guide.bands[0].steps[1].title"
+      ],
+      "t": "TK/K దరఖాస్తు సమర్పించి రుసుము చెల్లించండి"
+    },
+    {
+      "text": "by Jan 2",
+      "of": "a636a187",
+      "at": [
+        "providence-day:guide.bands[0].steps[1].tag"
+      ],
+      "t": "జనవరి 2 లోపు"
+    },
+    {
+      "text": "Apply early — the Readiness Screening can't be scheduled until the application is in, and the earliest applicants get the earliest slots. Fee amount isn't published; confirm with admissions.",
+      "of": "603be8d3",
+      "at": [
+        "providence-day:guide.bands[0].steps[1].detail"
+      ],
+      "t": "ముందుగానే దరఖాస్తు చేయండి — దరఖాస్తు అందేవరకు సన్నద్ధత పరీక్షకు సమయం కేటాయించరు, ముందుగా దరఖాస్తు చేసినవారికే ముందు స్లాట్లు దక్కుతాయి. రుసుము మొత్తం ప్రచురించలేదు; ప్రవేశాల కార్యాలయంతో నిర్ధారించుకోండి."
+    },
+    {
+      "text": "Preschool Teacher Recommendation Form",
+      "of": "9b3a4723",
+      "at": [
+        "providence-day:guide.bands[0].steps[2].title",
+        "providence-day:guide.comparison.rows[3].cells.tkk"
+      ],
+      "t": "ప్రీస్కూల్ ఉపాధ్యాయుల సిఫార్సు ఫారం"
+    },
+    {
+      "text": "by Feb 1",
+      "of": "a0e9778e",
+      "at": [
+        "providence-day:guide.bands[0].steps[2].tag",
+        "providence-day:guide.bands[0].steps[3].tag",
+        "providence-day:guide.bands[0].steps[4].tag",
+        "providence-day:guide.bands[0].steps[5].tag"
+      ],
+      "t": "ఫిబ్రవరి 1 లోపు"
+    },
+    {
+      "text": "Sent to your child's current teacher through the portal checklist.",
+      "of": "3ccd8e82",
+      "at": [
+        "providence-day:guide.bands[0].steps[2].detail",
+        "providence-day:guide.bands[0].checklistRows[3].detail"
+      ],
+      "t": "పోర్టల్ చెక్‌లిస్ట్ ద్వారా మీ పిల్లల ప్రస్తుత ఉపాధ్యాయులకు పంపబడుతుంది."
+    },
+    {
+      "text": "WPPSI-IV assessment",
+      "of": "ef7c3e10",
+      "at": [
+        "providence-day:guide.bands[0].steps[3].title"
+      ],
+      "t": "WPPSI-IV మూల్యాంకనం"
+    },
+    {
+      "text": "The Wechsler preschool scale. Your child \"must be at least 4 years old at the time of assessment administration.\"",
+      "of": "57403268",
+      "at": [
+        "providence-day:guide.bands[0].steps[3].detail"
+      ],
+      "t": "వెక్స్‌లర్ ప్రీస్కూల్ స్కేల్. మీ పిల్లలకు \"మూల్యాంకనం నిర్వహించే సమయానికి కనీసం 4 సంవత్సరాలు నిండి ఉండాలి\"."
+    },
+    {
+      "text": "School Readiness Screening",
+      "of": "61d3bf21",
+      "at": [
+        "providence-day:guide.bands[0].steps[4].title"
+      ],
+      "t": "పాఠశాల సన్నద్ధత పరీక్ష"
+    },
+    {
+      "text": "\"Application MUST be submitted prior to scheduling the Readiness Screening\" — the sequencing quirk that makes step 2 urgent.",
+      "of": "d2bdd824",
+      "at": [
+        "providence-day:guide.bands[0].steps[4].detail"
+      ],
+      "t": "\"సన్నద్ధత పరీక్షకు సమయం కేటాయించే ముందు దరఖాస్తు తప్పనిసరిగా సమర్పించాలి\" — ఈ వరుసక్రమమే 2వ దశను అత్యవసరం చేస్తుంది."
+    },
+    {
+      "text": "TK/K Classroom Visit",
+      "of": "bde340f2",
+      "at": [
+        "providence-day:guide.bands[0].steps[5].title"
+      ],
+      "t": "TK/K తరగతి గది సందర్శన"
+    },
+    {
+      "text": "A required visit — the school observes readiness in a real classroom setting.",
+      "of": "b055b157",
+      "at": [
+        "providence-day:guide.bands[0].steps[5].detail"
+      ],
+      "t": "తప్పనిసరి సందర్శన — నిజమైన తరగతి గదిలో పాఠశాల సన్నద్ధతను గమనిస్తుంది."
+    },
+    {
+      "text": "Decision → contract + deposit",
+      "of": "8870c14a",
+      "at": [
+        "providence-day:guide.bands[0].steps[6].title",
+        "providence-day:guide.bands[1].steps[4].title",
+        "providence-day:guide.bands[2].steps[4].title"
+      ],
+      "t": "నిర్ణయం → ఒప్పందం, డిపాజిట్"
+    },
+    {
+      "text": "Feb 26 → Mar 5",
+      "of": "52178ca7",
+      "at": [
+        "providence-day:guide.bands[0].steps[6].tag"
+      ],
+      "t": "ఫిబ్రవరి 26 → మార్చి 5"
+    },
+    {
+      "text": "Decisions release 4:00 p.m. Feb 26; the signed contract and $2,500 deposit (credited toward tuition) are due at noon Mar 5. Later applications go to rolling review for remaining seats.",
+      "of": "3928ae31",
+      "at": [
+        "providence-day:guide.bands[0].steps[6].detail"
+      ],
+      "t": "నిర్ణయాలు ఫిబ్రవరి 26న 4:00 p.m.కు విడుదలవుతాయి; సంతకం చేసిన ఒప్పందం, $2,500 డిపాజిట్ (ట్యూషన్‌లో సర్దుబాటు అవుతుంది) మార్చి 5 మధ్యాహ్నం లోపు అందాలి. ఆ తర్వాతి దరఖాస్తులు మిగిలిన సీట్ల కోసం నిరంతర సమీక్షకు వెళ్తాయి."
+    },
+    {
+      "text": "Why TK/K is different",
+      "of": "460b7dbd",
+      "at": [
+        "providence-day:guide.bands[0].watchOuts[0].kicker"
+      ],
+      "t": "TK/K ఎందుకు వేరుగా ఉంటుంది"
+    },
+    {
+      "text": "The youngest band runs on an **earlier calendar** than everyone else and uses a **readiness model** — WPPSI-IV, Readiness Screening, and Classroom Visit — instead of standardized testing. Three assessment pieces means three appointments to schedule: another reason the early application matters.",
+      "of": "2e0caba3",
+      "at": [
+        "providence-day:guide.bands[0].watchOuts[0].text"
+      ],
+      "t": "అతి చిన్న స్థాయి మిగతా అందరికంటే **ముందస్తు కాలపట్టిక** ప్రకారం నడుస్తుంది, ప్రామాణిక పరీక్షలకు బదులు **సన్నద్ధత నమూనా**ను ఉపయోగిస్తుంది — WPPSI-IV, సన్నద్ధత పరీక్ష, తరగతి గది సందర్శన. మూడు మూల్యాంకన భాగాలంటే మూడు అపాయింట్‌మెంట్లు ఏర్పాటు చేసుకోవాలి: ముందుగా దరఖాస్తు చేయడం ముఖ్యం కావడానికి ఇది మరో కారణం."
+    },
+    {
+      "text": "Age eligibility",
+      "of": "49e0b27d",
+      "at": [
+        "providence-day:guide.bands[0].watchOuts[1].kicker"
+      ],
+      "t": "వయస్సు అర్హత"
+    },
+    {
+      "text": "The school publishes one rule: applicants must be **at least 4 at the time of assessment**. A specific \"turn 4/5 by September 1\" cutoff isn't published — confirm your child's eligibility with admissions before applying.",
+      "of": "74aeaf54",
+      "at": [
+        "providence-day:guide.bands[0].watchOuts[1].text"
+      ],
+      "t": "పాఠశాల ఒక్క నియమాన్నే ప్రచురిస్తుంది: దరఖాస్తుదారులకు **మూల్యాంకన సమయానికి కనీసం 4 సంవత్సరాలు** నిండి ఉండాలి. \"సెప్టెంబర్ 1 నాటికి 4/5 సంవత్సరాలు నిండాలి\" వంటి నిర్దిష్ట గడువు ప్రచురించలేదు — దరఖాస్తు చేసే ముందు మీ పిల్లల అర్హతను ప్రవేశాల కార్యాలయంతో నిర్ధారించుకోండి."
+    },
+    {
+      "text": "Apply early.",
+      "of": "d1b883ba",
+      "at": [
+        "providence-day:guide.bands[0].checklistCallout.lead"
+      ],
+      "t": "ముందుగానే దరఖాస్తు చేయండి."
+    },
+    {
+      "text": "The Readiness Screening cannot be scheduled until the application is submitted — the earliest applicants get the earliest assessment slots, and review turns rolling after the first round.",
+      "of": "b2c8a460",
+      "at": [
+        "providence-day:guide.bands[0].checklistCallout.text"
+      ],
+      "t": "దరఖాస్తు సమర్పించే వరకు సన్నద్ధత పరీక్షకు సమయం కేటాయించరు — ముందుగా దరఖాస్తు చేసినవారికే ముందు మూల్యాంకన స్లాట్లు దక్కుతాయి, మొదటి విడత తర్వాత సమీక్ష నిరంతరంగా మారుతుంది."
+    },
+    {
+      "text": "Submit the Inquiry form and book a campus tour",
+      "of": "07f571d1",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[0].action",
+        "providence-day:guide.bands[1].checklistRows[0].action",
+        "providence-day:guide.bands[2].checklistRows[0].action"
+      ],
+      "t": "విచారణ ఫారం సమర్పించి క్యాంపస్ సందర్శన బుక్ చేసుకోండి"
+    },
+    {
+      "text": "The inquiry is what triggers your Charger Commons account invitation.",
+      "of": "2122304b",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[0].detail",
+        "providence-day:guide.bands[1].checklistRows[0].detail",
+        "providence-day:guide.bands[2].checklistRows[0].detail"
+      ],
+      "t": "మీ Charger Commons ఖాతా ఆహ్వానాన్ని పంపేది ఈ విచారణే."
+    },
+    {
+      "text": "Create your Charger Commons account",
+      "of": "73443a2f",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[1].action",
+        "providence-day:guide.bands[1].checklistRows[1].action",
+        "providence-day:guide.bands[2].checklistRows[1].action"
+      ],
+      "t": "మీ Charger Commons ఖాతాను సృష్టించండి"
+    },
+    {
+      "text": "The portal generates the personalized checklist that tracks every step below.",
+      "of": "a3ff8412",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[1].detail",
+        "providence-day:guide.bands[1].checklistRows[1].detail",
+        "providence-day:guide.bands[2].checklistRows[1].detail"
+      ],
+      "t": "కింది ప్రతి దశను అనుసరించే వ్యక్తిగత చెక్‌లిస్ట్‌ను పోర్టల్ రూపొందిస్తుంది."
+    },
+    {
+      "text": "Submit the TK/K application and pay the fee",
+      "of": "37e3bb8f",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[2].action"
+      ],
+      "t": "TK/K దరఖాస్తు సమర్పించి రుసుము చెల్లించండి"
+    },
+    {
+      "text": "Fee amount isn't published — confirm with admissions.",
+      "of": "fc8d9c5e",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[2].detail",
+        "providence-day:guide.bands[1].checklistRows[2].detail",
+        "providence-day:guide.bands[2].checklistRows[2].detail"
+      ],
+      "t": "రుసుము మొత్తం ప్రచురించలేదు — ప్రవేశాల కార్యాలయంతో నిర్ధారించుకోండి."
+    },
+    {
+      "text": "Jan 2, 2027",
+      "of": "105471a1",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[2].due",
+        "providence-day:guide.comparison.rows[0].cells.tkk"
+      ],
+      "t": "జనవరి 2, 2027"
+    },
+    {
+      "text": "Send the Preschool Teacher Recommendation Form",
+      "of": "39df12ac",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[3].action"
+      ],
+      "t": "ప్రీస్కూల్ ఉపాధ్యాయుల సిఫార్సు ఫారం పంపండి"
+    },
+    {
+      "text": "Feb 1, 2027",
+      "of": "ae987fd4",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[3].due",
+        "providence-day:guide.bands[0].checklistRows[4].due",
+        "providence-day:guide.bands[0].checklistRows[5].due",
+        "providence-day:guide.bands[0].checklistRows[6].due",
+        "providence-day:guide.comparison.rows[1].cells.tkk"
+      ],
+      "t": "ఫిబ్రవరి 1, 2027"
+    },
+    {
+      "text": "Complete the WPPSI-IV assessment",
+      "of": "3fc7a406",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[4].action"
+      ],
+      "t": "WPPSI-IV మూల్యాంకనం పూర్తి చేయండి"
+    },
+    {
+      "text": "Your child must be at least 4 years old at the time of assessment.",
+      "of": "a05af927",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[4].detail"
+      ],
+      "t": "మూల్యాంకన సమయానికి మీ పిల్లలకు కనీసం 4 సంవత్సరాలు నిండి ఉండాలి."
+    },
+    {
+      "text": "Complete the School Readiness Screening",
+      "of": "f2554afb",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[5].action"
+      ],
+      "t": "పాఠశాల సన్నద్ధత పరీక్ష పూర్తి చేయండి"
+    },
+    {
+      "text": "Cannot be scheduled until the application is submitted.",
+      "of": "0b8487f0",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[5].detail"
+      ],
+      "t": "దరఖాస్తు సమర్పించే వరకు సమయం కేటాయించలేరు."
+    },
+    {
+      "text": "Attend the TK/K Classroom Visit",
+      "of": "15185ae9",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[6].action"
+      ],
+      "t": "TK/K తరగతి గది సందర్శనకు హాజరవ్వండి"
+    },
+    {
+      "text": "A required visit — readiness is observed in a real classroom.",
+      "of": "5412ebc5",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[6].detail"
+      ],
+      "t": "తప్పనిసరి సందర్శన — నిజమైన తరగతి గదిలో సన్నద్ధతను గమనిస్తారు."
+    },
+    {
+      "text": "Watch for the decision",
+      "of": "0397d67a",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[7].action",
+        "providence-day:guide.bands[1].checklistRows[5].action",
+        "providence-day:guide.bands[2].checklistRows[5].action"
+      ],
+      "t": "నిర్ణయం కోసం ఎదురుచూడండి"
+    },
+    {
+      "text": "Decisions release at 4:00 p.m.",
+      "of": "43561d15",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[7].detail"
+      ],
+      "t": "నిర్ణయాలు 4:00 p.m.కు విడుదలవుతాయి."
+    },
+    {
+      "text": "Feb 26, 2027",
+      "of": "fa7e6753",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[7].due",
+        "providence-day:guide.bands[1].checklistRows[3].due",
+        "providence-day:guide.bands[1].checklistRows[4].due",
+        "providence-day:guide.bands[2].checklistRows[3].due",
+        "providence-day:guide.bands[2].checklistRows[4].due",
+        "providence-day:guide.comparison.rows[1].cells.g15",
+        "providence-day:guide.comparison.rows[1].cells.g612"
+      ],
+      "t": "ఫిబ్రవరి 26, 2027"
+    },
+    {
+      "text": "Return the signed contract with the $2,500 deposit",
+      "of": "913bb0d0",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[8].action",
+        "providence-day:guide.bands[1].checklistRows[6].action",
+        "providence-day:guide.bands[2].checklistRows[6].action"
+      ],
+      "t": "సంతకం చేసిన ఒప్పందాన్ని $2,500 డిపాజిట్‌తో తిరిగి ఇవ్వండి"
+    },
+    {
+      "text": "Due at noon; the deposit is credited toward tuition.",
+      "of": "6ee1014f",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[8].detail"
+      ],
+      "t": "మధ్యాహ్నం లోపు అందాలి; డిపాజిట్ ట్యూషన్‌లో సర్దుబాటు అవుతుంది."
+    },
+    {
+      "text": "Mar 5, 2027",
+      "of": "a86248f5",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[8].due"
+      ],
+      "t": "మార్చి 5, 2027"
+    },
+    {
+      "text": "Grades 1–5",
+      "of": "c2d451ca",
+      "at": [
+        "providence-day:guide.bands[1].label",
+        "providence-day:guide.bands[1].title"
+      ],
+      "t": "1–5 తరగతులు"
+    },
+    {
+      "text": "School-administered assessment",
+      "of": "c40ac9cb",
+      "at": [
+        "providence-day:guide.bands[1].sublabel"
+      ],
+      "t": "పాఠశాల నిర్వహించే మూల్యాంకనం"
+    },
+    {
+      "text": "decision release time — date on the live calendar",
+      "of": "1ab613ed",
+      "at": [
+        "providence-day:guide.bands[1].deadlines[2].label",
+        "providence-day:guide.bands[2].deadlines[2].label"
+      ],
+      "t": "నిర్ణయ విడుదల సమయం — తేదీ ప్రత్యక్ష క్యాలెండర్‌లో"
+    },
+    {
+      "text": "deposit with the contract, credited to tuition",
+      "of": "d6889cfb",
+      "at": [
+        "providence-day:guide.bands[1].deadlines[3].label",
+        "providence-day:guide.bands[2].deadlines[3].label"
+      ],
+      "t": "ఒప్పందంతో పాటు డిపాజిట్, ట్యూషన్‌లో సర్దుబాటు"
+    },
+    {
+      "text": "Submit the Grades 1–5 application + fee",
+      "of": "c2c164da",
+      "at": [
+        "providence-day:guide.bands[1].steps[1].title"
+      ],
+      "t": "1–5 తరగతుల దరఖాస్తు సమర్పించి రుసుము చెల్లించండి"
+    },
+    {
+      "text": "by Jan 15",
+      "of": "6a02e2fd",
+      "at": [
+        "providence-day:guide.bands[1].steps[1].tag",
+        "providence-day:guide.bands[2].steps[1].tag"
+      ],
+      "t": "జనవరి 15 లోపు"
+    },
+    {
+      "text": "First-round consideration closes Jan 15; later applications roll for remaining seats. Fee amount isn't published; confirm with admissions.",
+      "of": "431e6bd4",
+      "at": [
+        "providence-day:guide.bands[1].steps[1].detail",
+        "providence-day:guide.bands[2].steps[1].detail"
+      ],
+      "t": "మొదటి విడత పరిశీలన జనవరి 15న ముగుస్తుంది; ఆ తర్వాతి దరఖాస్తులు మిగిలిన సీట్ల కోసం నిరంతర సమీక్షకు వెళ్తాయి. రుసుము మొత్తం ప్రచురించలేదు; ప్రవేశాల కార్యాలయంతో నిర్ధారించుకోండి."
+    },
+    {
+      "text": "Records & teacher recommendation",
+      "of": "3862a5bc",
+      "at": [
+        "providence-day:guide.bands[1].steps[2].title"
+      ],
+      "t": "రికార్డులు, ఉపాధ్యాయుల సిఫార్సు"
+    },
+    {
+      "text": "by Feb 26",
+      "of": "898471b7",
+      "at": [
+        "providence-day:guide.bands[1].steps[2].tag",
+        "providence-day:guide.bands[1].steps[3].tag",
+        "providence-day:guide.bands[2].steps[2].tag",
+        "providence-day:guide.bands[2].steps[3].tag"
+      ],
+      "t": "ఫిబ్రవరి 26 లోపు"
+    },
+    {
+      "text": "School records/transcript and the recommendation form, both handled through the portal checklist — the exact items for this band aren't published, so treat the portal as definitive.",
+      "of": "9d914599",
+      "at": [
+        "providence-day:guide.bands[1].steps[2].detail"
+      ],
+      "t": "పాఠశాల రికార్డులు/ట్రాన్‌స్క్రిప్ట్, సిఫార్సు ఫారం — రెండూ పోర్టల్ చెక్‌లిస్ట్ ద్వారానే. ఈ స్థాయికి ఖచ్చితంగా ఏమి కావాలో ప్రచురించలేదు, కాబట్టి పోర్టల్‌నే అంతిమంగా పరిగణించండి."
+    },
+    {
+      "text": "Required assessment",
+      "of": "f7b721a2",
+      "at": [
+        "providence-day:guide.bands[1].steps[3].title"
+      ],
+      "t": "తప్పనిసరి మూల్యాంకనం"
+    },
+    {
+      "text": "An assessment step exists for Grades 1–5, but the specific instrument isn't published — ask admissions which assessment your child will take and how to schedule it.",
+      "of": "0fc7cf16",
+      "at": [
+        "providence-day:guide.bands[1].steps[3].detail"
+      ],
+      "t": "1–5 తరగతులకు మూల్యాంకన దశ ఉంది, కానీ నిర్దిష్ట పరీక్షా సాధనం ప్రచురించలేదు — మీ పిల్లలు ఏ మూల్యాంకనం రాస్తారో, దానికి సమయం ఎలా కేటాయించుకోవాలో ప్రవేశాల కార్యాలయాన్ని అడగండి."
+    },
+    {
+      "text": "Spring 2027",
+      "of": "a01a41e1",
+      "at": [
+        "providence-day:guide.bands[1].steps[4].tag",
+        "providence-day:guide.bands[1].checklistRows[5].due",
+        "providence-day:guide.bands[1].checklistRows[6].due",
+        "providence-day:guide.bands[2].steps[4].tag",
+        "providence-day:guide.bands[2].checklistRows[5].due",
+        "providence-day:guide.bands[2].checklistRows[6].due"
+      ],
+      "t": "వసంతకాలం 2027"
+    },
+    {
+      "text": "First-round decisions release at 4:00 p.m. on the published date — watch the live calendar. Then the signed contract and $2,500 deposit secure the seat.",
+      "of": "6b44fdc7",
+      "at": [
+        "providence-day:guide.bands[1].steps[4].detail",
+        "providence-day:guide.bands[2].steps[4].detail"
+      ],
+      "t": "మొదటి విడత నిర్ణయాలు ప్రచురించిన తేదీన 4:00 p.m.కు విడుదలవుతాయి — ప్రత్యక్ష క్యాలెండర్‌ను గమనిస్తూ ఉండండి. ఆ తర్వాత సంతకం చేసిన ఒప్పందం, $2,500 డిపాజిట్ సీటును ఖాయం చేస్తాయి."
+    },
+    {
+      "text": "The least-published band",
+      "of": "9dd2cdbd",
+      "at": [
+        "providence-day:guide.bands[1].watchOuts[0].kicker"
+      ],
+      "t": "అతి తక్కువ సమాచారం ప్రచురించిన స్థాయి"
+    },
+    {
+      "text": "Grades 1–5 shares the Grades 1–12 calendar, but its **material list, recommendation form, and assessment instrument aren't published**. Your Charger Commons checklist is the authoritative list — and if you need a definitive answer before applying, request it from admissions in writing.",
+      "of": "5d4c93da",
+      "at": [
+        "providence-day:guide.bands[1].watchOuts[0].text"
+      ],
+      "t": "1–5 తరగతులు 1–12 తరగతుల కాలపట్టికనే అనుసరిస్తాయి, కానీ దాని **పత్రాల జాబితా, సిఫార్సు ఫారం, మూల్యాంకన సాధనం ప్రచురించలేదు**. మీ Charger Commons చెక్‌లిస్టే అధికారిక జాబితా — దరఖాస్తుకు ముందు కచ్చితమైన సమాధానం కావాలంటే ప్రవేశాల కార్యాలయాన్ని లిఖితపూర్వకంగా అడగండి."
+    },
+    {
+      "text": "No student-visit step published",
+      "of": "787334a5",
+      "at": [
+        "providence-day:guide.bands[1].watchOuts[1].kicker"
+      ],
+      "t": "విద్యార్థి సందర్శన దశ ఏదీ ప్రచురించలేదు"
+    },
+    {
+      "text": "Unlike TK/K's required Classroom Visit, no comparable shadow day or visit is published for this band. That doesn't mean there isn't one — it simply wasn't retrievable. Ask on your tour.",
+      "of": "54f44ab8",
+      "at": [
+        "providence-day:guide.bands[1].watchOuts[1].text"
+      ],
+      "t": "TK/K తప్పనిసరి తరగతి గది సందర్శన మాదిరిగా, ఈ స్థాయికి అలాంటి షాడో డే లేదా సందర్శన ఏదీ ప్రచురించలేదు. అంటే అది లేదని కాదు — కేవలం ఆ సమాచారం దొరకలేదు. క్యాంపస్ సందర్శన సమయంలో అడగండి."
+    },
+    {
+      "text": "Portal is definitive.",
+      "of": "cf3c4540",
+      "at": [
+        "providence-day:guide.bands[1].checklistCallout.lead"
+      ],
+      "t": "పోర్టలే అంతిమం."
+    },
+    {
+      "text": "The exact material list and assessment for Grades 1–5 are not published on the website — your Charger Commons checklist is the authoritative list. Confirm specifics with the admissions office.",
+      "of": "04ad8994",
+      "at": [
+        "providence-day:guide.bands[1].checklistCallout.text"
+      ],
+      "t": "1–5 తరగతులకు ఖచ్చితమైన పత్రాల జాబితా, మూల్యాంకనం వెబ్‌సైట్‌లో ప్రచురించలేదు — మీ Charger Commons చెక్‌లిస్టే అధికారిక జాబితా. వివరాలను ప్రవేశాల కార్యాలయంతో నిర్ధారించుకోండి."
+    },
+    {
+      "text": "Submit the Grades 1–5 application and pay the fee",
+      "of": "31e9ecef",
+      "at": [
+        "providence-day:guide.bands[1].checklistRows[2].action"
+      ],
+      "t": "1–5 తరగతుల దరఖాస్తు సమర్పించి రుసుము చెల్లించండి"
+    },
+    {
+      "text": "Jan 15, 2027",
+      "of": "b1671085",
+      "at": [
+        "providence-day:guide.bands[1].checklistRows[2].due",
+        "providence-day:guide.bands[2].checklistRows[2].due",
+        "providence-day:guide.comparison.rows[0].cells.g15",
+        "providence-day:guide.comparison.rows[0].cells.g612"
+      ],
+      "t": "జనవరి 15, 2027"
+    },
+    {
+      "text": "Send school records and the teacher recommendation",
+      "of": "ffd3c182",
+      "at": [
+        "providence-day:guide.bands[1].checklistRows[3].action"
+      ],
+      "t": "పాఠశాల రికార్డులు, ఉపాధ్యాయుల సిఫార్సు పంపండి"
+    },
+    {
+      "text": "Both handled through the portal checklist, which is the definitive list.",
+      "of": "05037617",
+      "at": [
+        "providence-day:guide.bands[1].checklistRows[3].detail"
+      ],
+      "t": "రెండూ పోర్టల్ చెక్‌లిస్ట్ ద్వారానే, అదే అంతిమ జాబితా."
+    },
+    {
+      "text": "Complete the required assessment",
+      "of": "c3487f84",
+      "at": [
+        "providence-day:guide.bands[1].checklistRows[4].action"
+      ],
+      "t": "తప్పనిసరి మూల్యాంకనం పూర్తి చేయండి"
+    },
+    {
+      "text": "The instrument isn't published — ask admissions which one and how to book it.",
+      "of": "fa99945e",
+      "at": [
+        "providence-day:guide.bands[1].checklistRows[4].detail"
+      ],
+      "t": "పరీక్షా సాధనం ప్రచురించలేదు — అది ఏమిటో, ఎలా బుక్ చేసుకోవాలో ప్రవేశాల కార్యాలయాన్ని అడగండి."
+    },
+    {
+      "text": "First-round decisions release at 4:00 p.m. — date on the live calendar.",
+      "of": "96ac0e7c",
+      "at": [
+        "providence-day:guide.bands[1].checklistRows[5].detail",
+        "providence-day:guide.bands[2].checklistRows[5].detail"
+      ],
+      "t": "మొదటి విడత నిర్ణయాలు 4:00 p.m.కు విడుదలవుతాయి — తేదీ ప్రత్యక్ష క్యాలెండర్‌లో."
+    },
+    {
+      "text": "The deposit is credited toward tuition.",
+      "of": "08ea3269",
+      "at": [
+        "providence-day:guide.bands[1].checklistRows[6].detail",
+        "providence-day:guide.bands[2].checklistRows[6].detail"
+      ],
+      "t": "డిపాజిట్ ట్యూషన్‌లో సర్దుబాటు అవుతుంది."
+    },
+    {
+      "text": "Grades 6–12",
+      "of": "327ac2eb",
+      "at": [
+        "providence-day:guide.bands[2].label",
+        "providence-day:guide.bands[2].title"
+      ],
+      "t": "6–12 తరగతులు"
+    },
+    {
+      "text": "Standardized testing (ISEE)",
+      "of": "922c6d07",
+      "at": [
+        "providence-day:guide.bands[2].sublabel"
+      ],
+      "t": "ప్రామాణిక పరీక్ష (ISEE)"
+    },
+    {
+      "text": "all materials & testing due",
+      "of": "47511426",
+      "at": [
+        "providence-day:guide.bands[2].deadlines[1].label"
+      ],
+      "t": "అన్ని పత్రాలు, పరీక్షల గడువు"
+    },
+    {
+      "text": "Submit the Grades 6–12 application + fee",
+      "of": "8c787175",
+      "at": [
+        "providence-day:guide.bands[2].steps[1].title"
+      ],
+      "t": "6–12 తరగతుల దరఖాస్తు సమర్పించి రుసుము చెల్లించండి"
+    },
+    {
+      "text": "Transcript & recommendations",
+      "of": "5c4c3399",
+      "at": [
+        "providence-day:guide.bands[2].steps[2].title"
+      ],
+      "t": "ట్రాన్‌స్క్రిప్ట్, సిఫార్సులు"
+    },
+    {
+      "text": "Submitted through the portal checklist. The specific recommendation forms for this band aren't published — the portal shows exactly which ones your child needs.",
+      "of": "08538be3",
+      "at": [
+        "providence-day:guide.bands[2].steps[2].detail"
+      ],
+      "t": "పోర్టల్ చెక్‌లిస్ట్ ద్వారా సమర్పిస్తారు. ఈ స్థాయికి నిర్దిష్ట సిఫార్సు ఫారాలు ప్రచురించలేదు — మీ పిల్లలకు ఏవి కావాలో పోర్టలే ఖచ్చితంగా చూపుతుంది."
+    },
+    {
+      "text": "Standardized testing",
+      "of": "9d9b59ca",
+      "at": [
+        "providence-day:guide.bands[2].steps[3].title"
+      ],
+      "t": "ప్రామాణిక పరీక్ష"
+    },
+    {
+      "text": "The ISEE is the test the school references. Register early enough to sit the test — and receive scores — before the materials deadline.",
+      "of": "1eba7071",
+      "at": [
+        "providence-day:guide.bands[2].steps[3].detail"
+      ],
+      "t": "పాఠశాల ప్రస్తావించే పరీక్ష ISEE. పత్రాల గడువుకు ముందే పరీక్ష రాసి — స్కోర్లు అందుకునేలా — తగినంత ముందుగా నమోదు చేసుకోండి."
+    },
+    {
+      "text": "Which test, exactly?",
+      "of": "596cd98b",
+      "at": [
+        "providence-day:guide.bands[2].watchOuts[0].kicker"
+      ],
+      "t": "సరిగ్గా ఏ పరీక్ష?"
+    },
+    {
+      "text": "Standardized testing is required, and the ISEE is the only test the school names — but the exact domestic requirement (ISEE vs. SSAT, which level) **isn't published**. Confirm with admissions before booking a test date.",
+      "of": "abf379a1",
+      "at": [
+        "providence-day:guide.bands[2].watchOuts[0].text"
+      ],
+      "t": "ప్రామాణిక పరీక్ష తప్పనిసరి, పాఠశాల పేరు పెట్టిన ఏకైక పరీక్ష ISEE — కానీ దేశీయ దరఖాస్తుదారులకు ఖచ్చితమైన అవసరం (ISEE లేదా SSAT, ఏ స్థాయి) **ప్రచురించలేదు**. పరీక్ష తేదీ బుక్ చేసుకునే ముందు ప్రవేశాల కార్యాలయంతో నిర్ధారించుకోండి."
+    },
+    {
+      "text": "International applicants",
+      "of": "8a721542",
+      "at": [
+        "providence-day:guide.bands[2].watchOuts[1].kicker"
+      ],
+      "t": "అంతర్జాతీయ దరఖాస్తుదారులు"
+    },
+    {
+      "text": "Applicants outside China follow the grades 9–12 procedures and submit **ISEE scores plus TOEFL** (if English isn't the primary language). Applying from China and needing an I-20? The process begins with the school's partners at **TBI-New Oasis**.",
+      "of": "8367ae21",
+      "at": [
+        "providence-day:guide.bands[2].watchOuts[1].text"
+      ],
+      "t": "చైనా వెలుపలి దరఖాస్తుదారులు 9–12 తరగతుల విధానాలను అనుసరించి **ISEE స్కోర్లతో పాటు TOEFL** సమర్పిస్తారు (ఆంగ్లం ప్రాథమిక భాష కాకపోతే). చైనా నుంచి దరఖాస్తు చేస్తూ I-20 అవసరమా? ప్రక్రియ పాఠశాల భాగస్వాములైన **TBI-New Oasis** వద్ద మొదలవుతుంది."
+    },
+    {
+      "text": "Testing note.",
+      "of": "3778e795",
+      "at": [
+        "providence-day:guide.bands[2].checklistCallout.lead"
+      ],
+      "t": "పరీక్షల గురించి గమనిక."
+    },
+    {
+      "text": "Standardized testing is required; the ISEE is the test the school references. The exact domestic requirement is not published — confirm with admissions. International applicants: ISEE + TOEFL (if English is not primary); from China with an I-20, begin via TBI-New Oasis.",
+      "of": "8f31dd11",
+      "at": [
+        "providence-day:guide.bands[2].checklistCallout.text"
+      ],
+      "t": "ప్రామాణిక పరీక్ష తప్పనిసరి; పాఠశాల ప్రస్తావించే పరీక్ష ISEE. దేశీయ దరఖాస్తుదారులకు ఖచ్చితమైన అవసరం ప్రచురించలేదు — ప్రవేశాల కార్యాలయంతో నిర్ధారించుకోండి. అంతర్జాతీయ దరఖాస్తుదారులు: ISEE + TOEFL (ఆంగ్లం ప్రాథమిక భాష కాకపోతే); చైనా నుంచి I-20తో అయితే TBI-New Oasis ద్వారా మొదలుపెట్టండి."
+    },
+    {
+      "text": "Submit the Grades 6–12 application and pay the fee",
+      "of": "66d706c4",
+      "at": [
+        "providence-day:guide.bands[2].checklistRows[2].action"
+      ],
+      "t": "6–12 తరగతుల దరఖాస్తు సమర్పించి రుసుము చెల్లించండి"
+    },
+    {
+      "text": "Register for and sit the ISEE",
+      "of": "e8835419",
+      "at": [
+        "providence-day:guide.bands[2].checklistRows[3].action"
+      ],
+      "t": "ISEE కోసం నమోదు చేసుకుని పరీక్ష రాయండి"
+    },
+    {
+      "text": "Book early enough that scores arrive before the materials deadline.",
+      "of": "d55280c8",
+      "at": [
+        "providence-day:guide.bands[2].checklistRows[3].detail"
+      ],
+      "t": "పత్రాల గడువుకు ముందే స్కోర్లు అందేలా తగినంత ముందుగా బుక్ చేసుకోండి."
+    },
+    {
+      "text": "Submit the transcript and recommendations",
+      "of": "0ef8af51",
+      "at": [
+        "providence-day:guide.bands[2].checklistRows[4].action"
+      ],
+      "t": "ట్రాన్‌స్క్రిప్ట్, సిఫార్సులు సమర్పించండి"
+    },
+    {
+      "text": "Through the portal checklist, which shows exactly which forms are needed.",
+      "of": "e2b3e095",
+      "at": [
+        "providence-day:guide.bands[2].checklistRows[4].detail"
+      ],
+      "t": "పోర్టల్ చెక్‌లిస్ట్ ద్వారా, అది ఏ ఫారాలు కావాలో ఖచ్చితంగా చూపుతుంది."
+    },
+    {
+      "text": "Running in parallel: the financial-aid clock",
+      "of": "15045be1",
+      "at": [
+        "providence-day:guide.aid.title"
+      ],
+      "t": "సమాంతరంగా: ఆర్థిక సహాయ కాలపట్టిక"
+    },
+    {
+      "text": "Clarity application ($65) due **Jan 22** for prospective families — complete both processes on time and the aid decision arrives inside the Enrollment Agreement. Applying for aid never influences admission; separate committees decide.",
+      "of": "faf983c3",
+      "at": [
+        "providence-day:guide.aid.text"
+      ],
+      "t": "ఆసక్తి గల కుటుంబాలకు Clarity దరఖాస్తు ($65) గడువు **జనవరి 22** — రెండు ప్రక్రియలూ సకాలంలో పూర్తి చేస్తే సహాయ నిర్ణయం ప్రవేశ ఒప్పందంలోనే వస్తుంది. సహాయం కోసం దరఖాస్తు చేయడం ప్రవేశంపై ఎప్పుడూ ప్రభావం చూపదు; వేర్వేరు కమిటీలు నిర్ణయిస్తాయి."
+    },
+    {
+      "text": "Financial Aid & Tuition",
+      "of": "801e19b8",
+      "at": [
+        "providence-day:guide.aid.button"
+      ],
+      "t": "ఆర్థిక సహాయం మరియు ట్యూషన్"
+    },
+    {
+      "text": "CROSS-BAND",
+      "of": "60faf9b9",
+      "at": [
+        "providence-day:guide.comparison.kicker"
+      ],
+      "t": "స్థాయుల మధ్య"
+    },
+    {
+      "text": "Exactly what changes between bands",
+      "of": "2e98319a",
+      "at": [
+        "providence-day:guide.comparison.title"
+      ],
+      "t": "స్థాయుల మధ్య సరిగ్గా ఏమి మారుతుంది"
+    },
+    {
+      "text": "Application due",
+      "of": "8751989b",
+      "at": [
+        "providence-day:guide.comparison.rows[0].label"
+      ],
+      "t": "దరఖాస్తు గడువు"
+    },
+    {
+      "text": "Materials due",
+      "of": "24ee4e87",
+      "at": [
+        "providence-day:guide.comparison.rows[1].label"
+      ],
+      "t": "పత్రాల గడువు"
+    },
+    {
+      "text": "Assessment",
+      "of": "7f464e4f",
+      "at": [
+        "providence-day:guide.comparison.rows[2].label"
+      ],
+      "t": "మూల్యాంకనం"
+    },
+    {
+      "text": "WPPSI-IV + Readiness Screening + Classroom Visit",
+      "of": "e4f9b916",
+      "at": [
+        "providence-day:guide.comparison.rows[2].cells.tkk"
+      ],
+      "t": "WPPSI-IV + సన్నద్ధత పరీక్ష + తరగతి గది సందర్శన"
+    },
+    {
+      "text": "Required — instrument not published",
+      "of": "2d4beeb2",
+      "at": [
+        "providence-day:guide.comparison.rows[2].cells.g15"
+      ],
+      "t": "తప్పనిసరి — పరీక్షా సాధనం ప్రచురించలేదు"
+    },
+    {
+      "text": "Standardized testing — ISEE referenced",
+      "of": "8982a6d7",
+      "at": [
+        "providence-day:guide.comparison.rows[2].cells.g612"
+      ],
+      "t": "ప్రామాణిక పరీక్ష — ISEE ప్రస్తావించారు"
+    },
+    {
+      "text": "Recommendation",
+      "of": "eb33374e",
+      "at": [
+        "providence-day:guide.comparison.rows[3].label"
+      ],
+      "t": "సిఫార్సు"
+    },
+    {
+      "text": "Via portal checklist — form not published",
+      "of": "096ca790",
+      "at": [
+        "providence-day:guide.comparison.rows[3].cells.g15"
+      ],
+      "t": "పోర్టల్ చెక్‌లిస్ట్ ద్వారా — ఫారం ప్రచురించలేదు"
+    },
+    {
+      "text": "Via portal checklist — forms not published",
+      "of": "3fc80d2b",
+      "at": [
+        "providence-day:guide.comparison.rows[3].cells.g612"
+      ],
+      "t": "పోర్టల్ చెక్‌లిస్ట్ ద్వారా — ఫారాలు ప్రచురించలేదు"
+    },
+    {
+      "text": "Decision & contract",
+      "of": "f4295bd1",
+      "at": [
+        "providence-day:guide.comparison.rows[4].label"
+      ],
+      "t": "నిర్ణయం, ఒప్పందం"
+    },
+    {
+      "text": "Feb 26 → contracts Mar 5, noon",
+      "of": "6ca84b56",
+      "at": [
+        "providence-day:guide.comparison.rows[4].cells.tkk"
+      ],
+      "t": "ఫిబ్రవరి 26 → ఒప్పందాలు మార్చి 5, మధ్యాహ్నం"
+    },
+    {
+      "text": "4:00 p.m. release — see live calendar",
+      "of": "04c61bd6",
+      "at": [
+        "providence-day:guide.comparison.rows[4].cells.g15",
+        "providence-day:guide.comparison.rows[4].cells.g612"
+      ],
+      "t": "4:00 p.m.కు విడుదల — ప్రత్యక్ష క్యాలెండర్ చూడండి"
+    },
+    {
+      "text": "After first round",
+      "of": "d2c9fb93",
+      "at": [
+        "providence-day:guide.comparison.rows[5].label"
+      ],
+      "t": "మొదటి విడత తర్వాత"
+    },
+    {
+      "text": "Rolling review for remaining seats at each grade level — identical in every band",
+      "of": "17f47c64",
+      "at": [
+        "providence-day:guide.comparison.rows[5].cells.all"
+      ],
+      "t": "ప్రతి తరగతిలో మిగిలిన సీట్ల కోసం నిరంతర సమీక్ష — అన్ని స్థాయుల్లోనూ ఒకేలా"
+    },
+    {
+      "text": "CONTACTS",
+      "of": "fa6ba530",
+      "at": [
+        "providence-day:guide.contacts.kicker"
+      ],
+      "t": "సంప్రదింపులు"
+    },
+    {
+      "text": "The admissions office",
+      "of": "ba210c46",
+      "at": [
+        "providence-day:guide.contacts.title"
+      ],
+      "t": "ప్రవేశాల కార్యాలయం"
+    },
+    {
+      "text": "5800 Sardis Road, Charlotte, NC 28270 · main 704-887-6000",
+      "of": "9a21a040",
+      "at": [
+        "providence-day:guide.contacts.address"
+      ],
+      "t": "5800 Sardis Road, Charlotte, NC 28270 · ప్రధాన నంబర్ 704-887-6000"
+    },
+    {
+      "text": "Asst. Head of School, Admissions & Enrollment · 704-887-6002",
+      "of": "e0fe072e",
+      "at": [
+        "providence-day:guide.contacts.people[0].detail"
+      ],
+      "t": "సహాయ పాఠశాల అధిపతి, ప్రవేశాలు & నమోదు · 704-887-6002"
+    },
+    {
+      "text": "Associate Director of Admissions · 704-887-7015",
+      "of": "25dd7274",
+      "at": [
+        "providence-day:guide.contacts.people[1].detail"
+      ],
+      "t": "ప్రవేశాల సహ సంచాలకురాలు · 704-887-7015"
+    },
+    {
+      "text": "Associate Director of Admissions · 704-887-6029",
+      "of": "bb2b2ee6",
+      "at": [
+        "providence-day:guide.contacts.people[2].detail"
+      ],
+      "t": "ప్రవేశాల సహ సంచాలకురాలు · 704-887-6029"
+    },
+    {
+      "text": "Asst. Director of Enrollment Management · 704-887-7057",
+      "of": "a2f3863a",
+      "at": [
+        "providence-day:guide.contacts.people[3].detail"
+      ],
+      "t": "నమోదు నిర్వహణ సహాయ సంచాలకురాలు · 704-887-7057"
+    },
+    {
+      "text": "Admissions Officer · 704-887-7511",
+      "of": "34b8b71e",
+      "at": [
+        "providence-day:guide.contacts.people[4].detail"
+      ],
+      "t": "ప్రవేశాల అధికారి · 704-887-7511"
+    },
+    {
+      "text": "Admissions Officer · 704-887-7097",
+      "of": "d7e7b697",
+      "at": [
+        "providence-day:guide.contacts.people[5].detail"
+      ],
+      "t": "ప్రవేశాల అధికారి · 704-887-7097"
+    },
+    {
+      "text": "Admissions Services Manager · 704-887-7040",
+      "of": "015e1ef2",
+      "at": [
+        "providence-day:guide.contacts.people[6].detail"
+      ],
+      "t": "ప్రవేశాల సేవల నిర్వాహకురాలు · 704-887-7040"
+    },
+    {
+      "text": "Dir. of Student Billing, Financial Aid & Accounting · 704-887-7023",
+      "of": "1e375e62",
+      "at": [
+        "providence-day:guide.contacts.people[7].detail"
+      ],
+      "t": "విద్యార్థి బిల్లింగ్, ఆర్థిక సహాయం & ఖాతాల సంచాలకురాలు · 704-887-7023"
+    },
+    {
+      "text": "Portal: Charger Commons · providenceday.org",
+      "of": "ff35a443",
+      "at": [
+        "providence-day:guide.checklist.portalNote"
+      ],
+      "t": "పోర్టల్: Charger Commons · providenceday.org"
+    },
+    {
+      "text": "In parallel — the financial aid clock",
+      "of": "3e87e1fd",
+      "at": [
+        "providence-day:guide.checklist.aidPanel.kicker"
+      ],
+      "t": "సమాంతరంగా — ఆర్థిక సహాయ కాలపట్టిక"
+    },
+    {
+      "text": "Complete the Clarity financial-aid application ($65 fee) by Jan 22 — both custodial and non-custodial parents submit documentation.",
+      "of": "559c8bc8",
+      "at": [
+        "providence-day:guide.checklist.aidPanel.items[0]"
+      ],
+      "t": "జనవరి 22 లోపు Clarity ఆర్థిక సహాయ దరఖాస్తు ($65 రుసుము) పూర్తి చేయండి — సంరక్షణ ఉన్న, లేని ఇద్దరు తల్లిదండ్రులూ పత్రాలు సమర్పించాలి."
+    },
+    {
+      "text": "Complete both processes on time and any aid decision arrives inside the Enrollment Agreement. Applying for aid does not influence admission.",
+      "of": "d4139cb5",
+      "at": [
+        "providence-day:guide.checklist.aidPanel.items[1]"
+      ],
+      "t": "రెండు ప్రక్రియలూ సకాలంలో పూర్తి చేస్తే ఏ సహాయ నిర్ణయమైనా ప్రవేశ ఒప్పందంలోనే వస్తుంది. సహాయం కోసం దరఖాస్తు చేయడం ప్రవేశంపై ప్రభావం చూపదు."
+    },
+    {
+      "text": "Questions — admissions office",
+      "of": "79312c44",
+      "at": [
+        "providence-day:guide.checklist.contactPanel.kicker"
+      ],
+      "t": "ప్రశ్నలు — ప్రవేశాల కార్యాలయం"
+    },
+    {
+      "text": "Lisa Knight, Asst. Head of School for Admissions — 704-887-6002",
+      "of": "729a968a",
+      "at": [
+        "providence-day:guide.checklist.contactPanel.lines[0]"
+      ],
+      "t": "Lisa Knight, ప్రవేశాల సహాయ పాఠశాల అధిపతి — 704-887-6002"
+    },
+    {
+      "text": "Admissions main — 704-887-6000 · 5800 Sardis Road, Charlotte, NC 28270",
+      "of": "26f78a58",
+      "at": [
+        "providence-day:guide.checklist.contactPanel.lines[1]"
+      ],
+      "t": "ప్రవేశాల ప్రధాన నంబర్ — 704-887-6000 · 5800 Sardis Road, Charlotte, NC 28270"
+    },
+    {
+      "text": "En español: Claudia Trower — 704-887-7023",
+      "of": "9281c777",
+      "at": [
+        "providence-day:guide.checklist.contactPanel.lines[2]"
+      ],
+      "t": "En español: Claudia Trower — 704-887-7023"
+    },
+    {
+      "text": "Dates are the 2026–27 entry cycle as published on the providenceday.org admissions calendar (retrieved Aug 2026); cycle dates shift year to year — verify against the live calendar before acting. Items marked \"confirm\" are not published on the website. Compiled by Charlotte School Compare; not affiliated with Providence Day School.",
+      "of": "4437f3e8",
+      "at": [
+        "providence-day:guide.checklist.disclaimer"
+      ],
+      "t": "తేదీలు providenceday.org ప్రవేశ క్యాలెండర్‌లో ప్రచురించిన 2026–27 ప్రవేశ చక్రానివి (ఆగస్టు 2026లో సేకరించినవి); చక్రపు తేదీలు ఏటా మారుతాయి — చర్య తీసుకునే ముందు ప్రత్యక్ష క్యాలెండర్‌తో సరిచూసుకోండి. \"నిర్ధారించుకోండి\" అని గుర్తించిన అంశాలు వెబ్‌సైట్‌లో ప్రచురించలేదు. Charlotte School Compare సంకలనం చేసింది; Providence Day School తో అనుబంధం లేదు."
+    }
+  ]
+}

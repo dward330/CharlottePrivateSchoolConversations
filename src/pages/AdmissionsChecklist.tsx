@@ -17,17 +17,47 @@
 // The checkboxes are INERT empty squares. They are checked by hand on paper —
 // there is no state and no <input>.
 
+import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { admissionsProgram } from '../data/admissionsPrograms.ts'
+import { admissionsProgram, loadAdmissionsOverlay } from '../data/admissionsPrograms.ts'
 import { schoolBySlug, brandOf } from '../lib/manifest.ts'
 import { toSchool, toAdmissionsChecklist } from '../lib/router.ts'
 import { localizeMoneyText } from '../lib/format.ts'
 
 export function AdmissionsChecklist({ slug, band }: { slug: string; band: string | null }) {
   const { t, i18n } = useTranslation()
+  const lang = i18n.language
   const school = schoolBySlug(slug)
-  const program = admissionsProgram(slug, i18n.language)
+
+  /* THIS ROUTE MUST WARM THE OVERLAY ITSELF. The locale prose resolves off an
+     index that `loadAdmissionsOverlay` populates, and this page is a standalone
+     route — it never mounts SchoolDetail, which is where every other overlay
+     loader is called. Without this the sheet rendered ENGLISH in all nine
+     locales while the school page beside it rendered the same data translated,
+     and it failed silently: `localized()` falls back to English by design, so
+     no checker and no coverage number could see it. Found by the browser
+     print-out check, which is exactly the defect class it exists to catch.
+
+     Gated behind `ready` rather than rendered optimistically, for the same
+     reason SchoolDetail gates its own: painting English and swapping a frame
+     later reads as a glitch — and on a page whose whole purpose is to be
+     printed, a mid-print swap is worse than a delay. */
+  const [ready, setReady] = useState(false)
+  useEffect(() => {
+    let live = true
+    setReady(false)
+    loadAdmissionsOverlay(lang).then(() => {
+      if (live) setReady(true)
+    })
+    return () => {
+      live = false
+    }
+  }, [lang])
+
+  const program = admissionsProgram(slug, lang)
   const guide = program?.guide
+
+  if (!ready) return <div className="page adx-page" />
 
   if (!school || !guide || guide.bands.length === 0) {
     return (

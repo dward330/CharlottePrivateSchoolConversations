@@ -1,0 +1,1284 @@
+{
+  "topic": "admissions",
+  "lang": "it",
+  "generated": "i18n_extract.mjs",
+  "note": "Translate each `text` into `t`. Leave `of` and `at` untouched — they are how the overlay is rebuilt and drift-checked.",
+  "strings": [
+    {
+      "text": "Pick your child's entry point and the guide personalizes: the steps in order, the 2026–27 deadlines, and the testing for that band — plus a printable checklist to take with you. The financial-aid clock runs in parallel.",
+      "of": "b764c60c",
+      "at": [
+        "providence-day:guide.headline"
+      ],
+      "t": "Scegli il livello di ingresso di tuo figlio e la guida si personalizza: i passaggi in ordine, le scadenze del 2026–27 e le prove previste per quel livello, più una check-list stampabile da portare con te. Il calendario degli aiuti finanziari corre in parallelo."
+    },
+    {
+      "text": "2026–27 entry cycle",
+      "of": "826ef611",
+      "at": [
+        "providence-day:guide.cycle"
+      ],
+      "t": "ciclo di ammissione 2026–27"
+    },
+    {
+      "text": "grade bands, each with its own process",
+      "of": "1b9dbd14",
+      "at": [
+        "providence-day:guide.stats[0].label"
+      ],
+      "t": "livelli di ingresso, ciascuno con un proprio processo"
+    },
+    {
+      "text": "TK/K application deadline — earlier than everyone else",
+      "of": "297b9d6d",
+      "at": [
+        "providence-day:guide.stats[1].label"
+      ],
+      "t": "scadenza della domanda per TK/K: prima di tutti gli altri"
+    },
+    {
+      "text": "Grades 1–12 application deadline",
+      "of": "0115e4c6",
+      "at": [
+        "providence-day:guide.stats[2].label"
+      ],
+      "t": "scadenza della domanda per le classi 1–12"
+    },
+    {
+      "text": "enrollment deposit, credited toward tuition",
+      "of": "9edfe10e",
+      "at": [
+        "providence-day:guide.stats[3].label"
+      ],
+      "t": "caparra di iscrizione, scalata dalla retta"
+    },
+    {
+      "text": "One portal.",
+      "of": "63513317",
+      "at": [
+        "providence-day:guide.rules[0].title"
+      ],
+      "t": "Un unico portale."
+    },
+    {
+      "text": "Everything runs through Charger Commons: the inquiry triggers your account invitation, and the portal generates a personalized checklist that tracks every step.",
+      "of": "9a763398",
+      "at": [
+        "providence-day:guide.rules[0].text"
+      ],
+      "t": "Tutto passa da Charger Commons: la richiesta di informazioni attiva l’invito a creare l’account e il portale genera una check-list personalizzata che segue ogni passaggio."
+    },
+    {
+      "text": "Dates are cycle-specific.",
+      "of": "799cf75d",
+      "at": [
+        "providence-day:guide.rules[1].title"
+      ],
+      "t": "Le date valgono solo per il singolo ciclo."
+    },
+    {
+      "text": "Every date below is the 2026–27 entry cycle from the live admissions calendar. Cycle dates shift year to year — verify before acting.",
+      "of": "87aa3e7b",
+      "at": [
+        "providence-day:guide.rules[1].text"
+      ],
+      "t": "Tutte le date che seguono si riferiscono al ciclo di ammissione 2026–27 come da calendario ammissioni aggiornato. Le date cambiano di anno in anno: verificale prima di agire."
+    },
+    {
+      "text": "Not published ≠ deficient.",
+      "of": "0e93db6b",
+      "at": [
+        "providence-day:guide.rules[2].title"
+      ],
+      "t": "Non pubblicato ≠ carente."
+    },
+    {
+      "text": "The application-fee amount and some band checklists aren't on the website. Those gaps are flagged below — confirm them with the admissions office.",
+      "of": "4860d402",
+      "at": [
+        "providence-day:guide.rules[2].text"
+      ],
+      "t": "L’importo della quota di iscrizione alla domanda e alcune check-list per livello non compaiono sul sito. Queste lacune sono segnalate qui sotto: confermale con l’ufficio ammissioni."
+    },
+    {
+      "text": "Same spine in every band — inquire → apply → materials → decision → contract. What changes is the testing and the calendar. Selection weighs \"academic performance, school records, teacher recommendations, extracurricular activities, and social-emotional maturity.\"",
+      "of": "eda16ea1",
+      "at": [
+        "providence-day:guide.spineNote"
+      ],
+      "t": "La stessa struttura per ogni livello: informarsi → fare domanda → documenti → decisione → contratto. Ciò che cambia sono le prove e il calendario. La selezione valuta «il rendimento scolastico, la documentazione scolastica, le lettere di raccomandazione dei docenti, le attività extrascolastiche e la maturità socio-emotiva»."
+    },
+    {
+      "text": "TK / Kindergarten",
+      "of": "d6a3513b",
+      "at": [
+        "providence-day:guide.bands[0].label"
+      ],
+      "t": "TK / Kindergarten"
+    },
+    {
+      "text": "Readiness model · earlier calendar",
+      "of": "deab8cc7",
+      "at": [
+        "providence-day:guide.bands[0].sublabel"
+      ],
+      "t": "Modello di prontezza · calendario anticipato"
+    },
+    {
+      "text": "Transitional Kindergarten & Kindergarten",
+      "of": "75235da1",
+      "at": [
+        "providence-day:guide.bands[0].title"
+      ],
+      "t": "Transitional Kindergarten e Kindergarten"
+    },
+    {
+      "text": "application form due",
+      "of": "19e5953b",
+      "at": [
+        "providence-day:guide.bands[0].deadlines[0].label",
+        "providence-day:guide.bands[1].deadlines[0].label",
+        "providence-day:guide.bands[2].deadlines[0].label"
+      ],
+      "t": "scadenza del modulo di domanda"
+    },
+    {
+      "text": "all materials & assessments due",
+      "of": "f539ae89",
+      "at": [
+        "providence-day:guide.bands[0].deadlines[1].label",
+        "providence-day:guide.bands[1].deadlines[1].label"
+      ],
+      "t": "scadenza di tutti i documenti e delle valutazioni"
+    },
+    {
+      "text": "decisions release, 4:00 p.m.",
+      "of": "f90fde94",
+      "at": [
+        "providence-day:guide.bands[0].deadlines[2].label"
+      ],
+      "t": "pubblicazione delle decisioni, 4:00 p.m."
+    },
+    {
+      "text": "contracts due at noon",
+      "of": "26deddcf",
+      "at": [
+        "providence-day:guide.bands[0].deadlines[3].label"
+      ],
+      "t": "contratti da consegnare entro mezzogiorno"
+    },
+    {
+      "text": "Inquire & tour",
+      "of": "0b98f222",
+      "at": [
+        "providence-day:guide.bands[0].steps[0].title",
+        "providence-day:guide.bands[1].steps[0].title",
+        "providence-day:guide.bands[2].steps[0].title"
+      ],
+      "t": "Informarsi e visitare"
+    },
+    {
+      "text": "Fall 2026",
+      "of": "486271a2",
+      "at": [
+        "providence-day:guide.bands[0].steps[0].tag",
+        "providence-day:guide.bands[0].checklistRows[0].due",
+        "providence-day:guide.bands[0].checklistRows[1].due",
+        "providence-day:guide.bands[1].steps[0].tag",
+        "providence-day:guide.bands[1].checklistRows[0].due",
+        "providence-day:guide.bands[1].checklistRows[1].due",
+        "providence-day:guide.bands[2].steps[0].tag",
+        "providence-day:guide.bands[2].checklistRows[0].due",
+        "providence-day:guide.bands[2].checklistRows[1].due"
+      ],
+      "t": "autunno 2026"
+    },
+    {
+      "text": "The Inquiry form books your campus tour and triggers the invitation to create your Charger Commons account.",
+      "of": "0b8a192e",
+      "at": [
+        "providence-day:guide.bands[0].steps[0].detail",
+        "providence-day:guide.bands[1].steps[0].detail",
+        "providence-day:guide.bands[2].steps[0].detail"
+      ],
+      "t": "Il modulo di richiesta informazioni prenota la visita al campus e attiva l’invito a creare l’account Charger Commons."
+    },
+    {
+      "text": "Submit the TK/K application + fee",
+      "of": "8378e57a",
+      "at": [
+        "providence-day:guide.bands[0].steps[1].title"
+      ],
+      "t": "Presentare la domanda TK/K e pagare la quota"
+    },
+    {
+      "text": "by Jan 2",
+      "of": "a636a187",
+      "at": [
+        "providence-day:guide.bands[0].steps[1].tag"
+      ],
+      "t": "entro il 2 gennaio"
+    },
+    {
+      "text": "Apply early — the Readiness Screening can't be scheduled until the application is in, and the earliest applicants get the earliest slots. Fee amount isn't published; confirm with admissions.",
+      "of": "603be8d3",
+      "at": [
+        "providence-day:guide.bands[0].steps[1].detail"
+      ],
+      "t": "Fai domanda per tempo: lo screening di prontezza non può essere fissato finché la domanda non è stata presentata, e chi si muove prima ottiene i primi posti disponibili. L’importo della quota non è pubblicato; confermalo con le ammissioni."
+    },
+    {
+      "text": "Preschool Teacher Recommendation Form",
+      "of": "9b3a4723",
+      "at": [
+        "providence-day:guide.bands[0].steps[2].title",
+        "providence-day:guide.comparison.rows[3].cells.tkk"
+      ],
+      "t": "Modulo di raccomandazione dell’insegnante della scuola dell’infanzia"
+    },
+    {
+      "text": "by Feb 1",
+      "of": "a0e9778e",
+      "at": [
+        "providence-day:guide.bands[0].steps[2].tag",
+        "providence-day:guide.bands[0].steps[3].tag",
+        "providence-day:guide.bands[0].steps[4].tag",
+        "providence-day:guide.bands[0].steps[5].tag"
+      ],
+      "t": "entro il 1º febbraio"
+    },
+    {
+      "text": "Sent to your child's current teacher through the portal checklist.",
+      "of": "3ccd8e82",
+      "at": [
+        "providence-day:guide.bands[0].steps[2].detail",
+        "providence-day:guide.bands[0].checklistRows[3].detail"
+      ],
+      "t": "Inviato all’insegnante attuale di tuo figlio tramite la check-list del portale."
+    },
+    {
+      "text": "WPPSI-IV assessment",
+      "of": "ef7c3e10",
+      "at": [
+        "providence-day:guide.bands[0].steps[3].title"
+      ],
+      "t": "Valutazione WPPSI-IV"
+    },
+    {
+      "text": "The Wechsler preschool scale. Your child \"must be at least 4 years old at the time of assessment administration.\"",
+      "of": "57403268",
+      "at": [
+        "providence-day:guide.bands[0].steps[3].detail"
+      ],
+      "t": "La scala Wechsler per l’età prescolare. Tuo figlio «deve avere almeno 4 anni al momento della somministrazione della valutazione»."
+    },
+    {
+      "text": "School Readiness Screening",
+      "of": "61d3bf21",
+      "at": [
+        "providence-day:guide.bands[0].steps[4].title"
+      ],
+      "t": "Screening di prontezza scolastica"
+    },
+    {
+      "text": "\"Application MUST be submitted prior to scheduling the Readiness Screening\" — the sequencing quirk that makes step 2 urgent.",
+      "of": "d2bdd824",
+      "at": [
+        "providence-day:guide.bands[0].steps[4].detail"
+      ],
+      "t": "«La domanda DEVE essere presentata prima di fissare lo screening di prontezza»: la particolarità di sequenza che rende urgente il passaggio 2."
+    },
+    {
+      "text": "TK/K Classroom Visit",
+      "of": "bde340f2",
+      "at": [
+        "providence-day:guide.bands[0].steps[5].title"
+      ],
+      "t": "Visita in classe TK/K"
+    },
+    {
+      "text": "A required visit — the school observes readiness in a real classroom setting.",
+      "of": "b055b157",
+      "at": [
+        "providence-day:guide.bands[0].steps[5].detail"
+      ],
+      "t": "Una visita obbligatoria: la scuola osserva la prontezza in una classe reale."
+    },
+    {
+      "text": "Decision → contract + deposit",
+      "of": "8870c14a",
+      "at": [
+        "providence-day:guide.bands[0].steps[6].title",
+        "providence-day:guide.bands[1].steps[4].title",
+        "providence-day:guide.bands[2].steps[4].title"
+      ],
+      "t": "Decisione → contratto e caparra"
+    },
+    {
+      "text": "Feb 26 → Mar 5",
+      "of": "52178ca7",
+      "at": [
+        "providence-day:guide.bands[0].steps[6].tag"
+      ],
+      "t": "26 febbraio → 5 marzo"
+    },
+    {
+      "text": "Decisions release 4:00 p.m. Feb 26; the signed contract and $2,500 deposit (credited toward tuition) are due at noon Mar 5. Later applications go to rolling review for remaining seats.",
+      "of": "3928ae31",
+      "at": [
+        "providence-day:guide.bands[0].steps[6].detail"
+      ],
+      "t": "Le decisioni vengono pubblicate alle 4:00 p.m. del 26 febbraio; il contratto firmato e la caparra di $2,500 (scalata dalla retta) vanno consegnati entro mezzogiorno del 5 marzo. Le domande successive passano alla valutazione continua per i posti rimasti."
+    },
+    {
+      "text": "Why TK/K is different",
+      "of": "460b7dbd",
+      "at": [
+        "providence-day:guide.bands[0].watchOuts[0].kicker"
+      ],
+      "t": "Perché TK/K fa storia a sé"
+    },
+    {
+      "text": "The youngest band runs on an **earlier calendar** than everyone else and uses a **readiness model** — WPPSI-IV, Readiness Screening, and Classroom Visit — instead of standardized testing. Three assessment pieces means three appointments to schedule: another reason the early application matters.",
+      "of": "2e0caba3",
+      "at": [
+        "providence-day:guide.bands[0].watchOuts[0].text"
+      ],
+      "t": "Il livello più piccolo segue un **calendario anticipato** rispetto a tutti gli altri e adotta un **modello di prontezza** — WPPSI-IV, screening di prontezza e visita in classe — invece dei test standardizzati. Tre componenti di valutazione significano tre appuntamenti da fissare: un motivo in più per presentare presto la domanda."
+    },
+    {
+      "text": "Age eligibility",
+      "of": "49e0b27d",
+      "at": [
+        "providence-day:guide.bands[0].watchOuts[1].kicker"
+      ],
+      "t": "Requisito di età"
+    },
+    {
+      "text": "The school publishes one rule: applicants must be **at least 4 at the time of assessment**. A specific \"turn 4/5 by September 1\" cutoff isn't published — confirm your child's eligibility with admissions before applying.",
+      "of": "74aeaf54",
+      "at": [
+        "providence-day:guide.bands[0].watchOuts[1].text"
+      ],
+      "t": "La scuola pubblica una sola regola: i candidati devono avere **almeno 4 anni al momento della valutazione**. Non è pubblicata alcuna data limite precisa del tipo «compiere 4/5 anni entro il 1º settembre»: verifica i requisiti di tuo figlio con le ammissioni prima di fare domanda."
+    },
+    {
+      "text": "Apply early.",
+      "of": "d1b883ba",
+      "at": [
+        "providence-day:guide.bands[0].checklistCallout.lead"
+      ],
+      "t": "Fai domanda per tempo."
+    },
+    {
+      "text": "The Readiness Screening cannot be scheduled until the application is submitted — the earliest applicants get the earliest assessment slots, and review turns rolling after the first round.",
+      "of": "b2c8a460",
+      "at": [
+        "providence-day:guide.bands[0].checklistCallout.text"
+      ],
+      "t": "Lo screening di prontezza non può essere fissato finché la domanda non è stata presentata: chi si muove prima ottiene i primi appuntamenti di valutazione, e dopo il primo turno la valutazione diventa continua."
+    },
+    {
+      "text": "Submit the Inquiry form and book a campus tour",
+      "of": "07f571d1",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[0].action",
+        "providence-day:guide.bands[1].checklistRows[0].action",
+        "providence-day:guide.bands[2].checklistRows[0].action"
+      ],
+      "t": "Presentare il modulo di richiesta informazioni e prenotare una visita al campus"
+    },
+    {
+      "text": "The inquiry is what triggers your Charger Commons account invitation.",
+      "of": "2122304b",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[0].detail",
+        "providence-day:guide.bands[1].checklistRows[0].detail",
+        "providence-day:guide.bands[2].checklistRows[0].detail"
+      ],
+      "t": "È la richiesta di informazioni ad attivare l’invito all’account Charger Commons."
+    },
+    {
+      "text": "Create your Charger Commons account",
+      "of": "73443a2f",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[1].action",
+        "providence-day:guide.bands[1].checklistRows[1].action",
+        "providence-day:guide.bands[2].checklistRows[1].action"
+      ],
+      "t": "Creare l’account Charger Commons"
+    },
+    {
+      "text": "The portal generates the personalized checklist that tracks every step below.",
+      "of": "a3ff8412",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[1].detail",
+        "providence-day:guide.bands[1].checklistRows[1].detail",
+        "providence-day:guide.bands[2].checklistRows[1].detail"
+      ],
+      "t": "Il portale genera la check-list personalizzata che segue ciascuno dei passaggi qui sotto."
+    },
+    {
+      "text": "Submit the TK/K application and pay the fee",
+      "of": "37e3bb8f",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[2].action"
+      ],
+      "t": "Presentare la domanda TK/K e pagare la quota"
+    },
+    {
+      "text": "Fee amount isn't published — confirm with admissions.",
+      "of": "fc8d9c5e",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[2].detail",
+        "providence-day:guide.bands[1].checklistRows[2].detail",
+        "providence-day:guide.bands[2].checklistRows[2].detail"
+      ],
+      "t": "L’importo della quota non è pubblicato: confermalo con le ammissioni."
+    },
+    {
+      "text": "Jan 2, 2027",
+      "of": "105471a1",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[2].due",
+        "providence-day:guide.comparison.rows[0].cells.tkk"
+      ],
+      "t": "2 gennaio 2027"
+    },
+    {
+      "text": "Send the Preschool Teacher Recommendation Form",
+      "of": "39df12ac",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[3].action"
+      ],
+      "t": "Inviare il modulo di raccomandazione dell’insegnante della scuola dell’infanzia"
+    },
+    {
+      "text": "Feb 1, 2027",
+      "of": "ae987fd4",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[3].due",
+        "providence-day:guide.bands[0].checklistRows[4].due",
+        "providence-day:guide.bands[0].checklistRows[5].due",
+        "providence-day:guide.bands[0].checklistRows[6].due",
+        "providence-day:guide.comparison.rows[1].cells.tkk"
+      ],
+      "t": "1º febbraio 2027"
+    },
+    {
+      "text": "Complete the WPPSI-IV assessment",
+      "of": "3fc7a406",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[4].action"
+      ],
+      "t": "Completare la valutazione WPPSI-IV"
+    },
+    {
+      "text": "Your child must be at least 4 years old at the time of assessment.",
+      "of": "a05af927",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[4].detail"
+      ],
+      "t": "Tuo figlio deve avere almeno 4 anni al momento della valutazione."
+    },
+    {
+      "text": "Complete the School Readiness Screening",
+      "of": "f2554afb",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[5].action"
+      ],
+      "t": "Completare lo screening di prontezza scolastica"
+    },
+    {
+      "text": "Cannot be scheduled until the application is submitted.",
+      "of": "0b8487f0",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[5].detail"
+      ],
+      "t": "Non può essere fissato finché la domanda non è stata presentata."
+    },
+    {
+      "text": "Attend the TK/K Classroom Visit",
+      "of": "15185ae9",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[6].action"
+      ],
+      "t": "Partecipare alla visita in classe TK/K"
+    },
+    {
+      "text": "A required visit — readiness is observed in a real classroom.",
+      "of": "5412ebc5",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[6].detail"
+      ],
+      "t": "Una visita obbligatoria: la prontezza viene osservata in una classe reale."
+    },
+    {
+      "text": "Watch for the decision",
+      "of": "0397d67a",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[7].action",
+        "providence-day:guide.bands[1].checklistRows[5].action",
+        "providence-day:guide.bands[2].checklistRows[5].action"
+      ],
+      "t": "Attendere la decisione"
+    },
+    {
+      "text": "Decisions release at 4:00 p.m.",
+      "of": "43561d15",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[7].detail"
+      ],
+      "t": "Le decisioni vengono pubblicate alle 4:00 p.m."
+    },
+    {
+      "text": "Feb 26, 2027",
+      "of": "fa7e6753",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[7].due",
+        "providence-day:guide.bands[1].checklistRows[3].due",
+        "providence-day:guide.bands[1].checklistRows[4].due",
+        "providence-day:guide.bands[2].checklistRows[3].due",
+        "providence-day:guide.bands[2].checklistRows[4].due",
+        "providence-day:guide.comparison.rows[1].cells.g15",
+        "providence-day:guide.comparison.rows[1].cells.g612"
+      ],
+      "t": "26 febbraio 2027"
+    },
+    {
+      "text": "Return the signed contract with the $2,500 deposit",
+      "of": "913bb0d0",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[8].action",
+        "providence-day:guide.bands[1].checklistRows[6].action",
+        "providence-day:guide.bands[2].checklistRows[6].action"
+      ],
+      "t": "Restituire il contratto firmato con la caparra di $2,500"
+    },
+    {
+      "text": "Due at noon; the deposit is credited toward tuition.",
+      "of": "6ee1014f",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[8].detail"
+      ],
+      "t": "Da consegnare entro mezzogiorno; la caparra viene scalata dalla retta."
+    },
+    {
+      "text": "Mar 5, 2027",
+      "of": "a86248f5",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[8].due"
+      ],
+      "t": "5 marzo 2027"
+    },
+    {
+      "text": "Grades 1–5",
+      "of": "c2d451ca",
+      "at": [
+        "providence-day:guide.bands[1].label",
+        "providence-day:guide.bands[1].title"
+      ],
+      "t": "Classi 1–5"
+    },
+    {
+      "text": "School-administered assessment",
+      "of": "c40ac9cb",
+      "at": [
+        "providence-day:guide.bands[1].sublabel"
+      ],
+      "t": "Valutazione somministrata dalla scuola"
+    },
+    {
+      "text": "decision release time — date on the live calendar",
+      "of": "1ab613ed",
+      "at": [
+        "providence-day:guide.bands[1].deadlines[2].label",
+        "providence-day:guide.bands[2].deadlines[2].label"
+      ],
+      "t": "orario di pubblicazione della decisione: la data è sul calendario aggiornato"
+    },
+    {
+      "text": "deposit with the contract, credited to tuition",
+      "of": "d6889cfb",
+      "at": [
+        "providence-day:guide.bands[1].deadlines[3].label",
+        "providence-day:guide.bands[2].deadlines[3].label"
+      ],
+      "t": "caparra insieme al contratto, scalata dalla retta"
+    },
+    {
+      "text": "Submit the Grades 1–5 application + fee",
+      "of": "c2c164da",
+      "at": [
+        "providence-day:guide.bands[1].steps[1].title"
+      ],
+      "t": "Presentare la domanda per le classi 1–5 e pagare la quota"
+    },
+    {
+      "text": "by Jan 15",
+      "of": "6a02e2fd",
+      "at": [
+        "providence-day:guide.bands[1].steps[1].tag",
+        "providence-day:guide.bands[2].steps[1].tag"
+      ],
+      "t": "entro il 15 gennaio"
+    },
+    {
+      "text": "First-round consideration closes Jan 15; later applications roll for remaining seats. Fee amount isn't published; confirm with admissions.",
+      "of": "431e6bd4",
+      "at": [
+        "providence-day:guide.bands[1].steps[1].detail",
+        "providence-day:guide.bands[2].steps[1].detail"
+      ],
+      "t": "La valutazione del primo turno si chiude il 15 gennaio; le domande successive passano alla valutazione continua per i posti rimasti. L’importo della quota non è pubblicato; confermalo con le ammissioni."
+    },
+    {
+      "text": "Records & teacher recommendation",
+      "of": "3862a5bc",
+      "at": [
+        "providence-day:guide.bands[1].steps[2].title"
+      ],
+      "t": "Documentazione scolastica e raccomandazione dell’insegnante"
+    },
+    {
+      "text": "by Feb 26",
+      "of": "898471b7",
+      "at": [
+        "providence-day:guide.bands[1].steps[2].tag",
+        "providence-day:guide.bands[1].steps[3].tag",
+        "providence-day:guide.bands[2].steps[2].tag",
+        "providence-day:guide.bands[2].steps[3].tag"
+      ],
+      "t": "entro il 26 febbraio"
+    },
+    {
+      "text": "School records/transcript and the recommendation form, both handled through the portal checklist — the exact items for this band aren't published, so treat the portal as definitive.",
+      "of": "9d914599",
+      "at": [
+        "providence-day:guide.bands[1].steps[2].detail"
+      ],
+      "t": "La documentazione scolastica e il modulo di raccomandazione, entrambi gestiti tramite la check-list del portale: i documenti esatti per questo livello non sono pubblicati, quindi considera il portale come fonte definitiva."
+    },
+    {
+      "text": "Required assessment",
+      "of": "f7b721a2",
+      "at": [
+        "providence-day:guide.bands[1].steps[3].title"
+      ],
+      "t": "Valutazione obbligatoria"
+    },
+    {
+      "text": "An assessment step exists for Grades 1–5, but the specific instrument isn't published — ask admissions which assessment your child will take and how to schedule it.",
+      "of": "0fc7cf16",
+      "at": [
+        "providence-day:guide.bands[1].steps[3].detail"
+      ],
+      "t": "Per le classi 1–5 esiste una fase di valutazione, ma lo strumento specifico non è pubblicato: chiedi alle ammissioni quale valutazione sosterrà tuo figlio e come fissarla."
+    },
+    {
+      "text": "Spring 2027",
+      "of": "a01a41e1",
+      "at": [
+        "providence-day:guide.bands[1].steps[4].tag",
+        "providence-day:guide.bands[1].checklistRows[5].due",
+        "providence-day:guide.bands[1].checklistRows[6].due",
+        "providence-day:guide.bands[2].steps[4].tag",
+        "providence-day:guide.bands[2].checklistRows[5].due",
+        "providence-day:guide.bands[2].checklistRows[6].due"
+      ],
+      "t": "primavera 2027"
+    },
+    {
+      "text": "First-round decisions release at 4:00 p.m. on the published date — watch the live calendar. Then the signed contract and $2,500 deposit secure the seat.",
+      "of": "6b44fdc7",
+      "at": [
+        "providence-day:guide.bands[1].steps[4].detail",
+        "providence-day:guide.bands[2].steps[4].detail"
+      ],
+      "t": "Le decisioni del primo turno vengono pubblicate alle 4:00 p.m. della data indicata: controlla il calendario aggiornato. Poi il contratto firmato e la caparra di $2,500 assicurano il posto."
+    },
+    {
+      "text": "The least-published band",
+      "of": "9dd2cdbd",
+      "at": [
+        "providence-day:guide.bands[1].watchOuts[0].kicker"
+      ],
+      "t": "Il livello meno documentato"
+    },
+    {
+      "text": "Grades 1–5 shares the Grades 1–12 calendar, but its **material list, recommendation form, and assessment instrument aren't published**. Your Charger Commons checklist is the authoritative list — and if you need a definitive answer before applying, request it from admissions in writing.",
+      "of": "5d4c93da",
+      "at": [
+        "providence-day:guide.bands[1].watchOuts[0].text"
+      ],
+      "t": "Le classi 1–5 seguono il calendario delle classi 1–12, ma **l’elenco dei documenti, il modulo di raccomandazione e lo strumento di valutazione non sono pubblicati**. La tua check-list Charger Commons è l’elenco che fa fede; e se ti serve una risposta certa prima di fare domanda, richiedila per iscritto alle ammissioni."
+    },
+    {
+      "text": "No student-visit step published",
+      "of": "787334a5",
+      "at": [
+        "providence-day:guide.bands[1].watchOuts[1].kicker"
+      ],
+      "t": "Nessuna fase di visita dello studente pubblicata"
+    },
+    {
+      "text": "Unlike TK/K's required Classroom Visit, no comparable shadow day or visit is published for this band. That doesn't mean there isn't one — it simply wasn't retrievable. Ask on your tour.",
+      "of": "54f44ab8",
+      "at": [
+        "providence-day:guide.bands[1].watchOuts[1].text"
+      ],
+      "t": "A differenza della visita in classe obbligatoria dei TK/K, per questo livello non è pubblicata alcuna giornata di affiancamento o visita analoga. Ciò non significa che non esista: semplicemente non è stato possibile reperirla. Chiedilo durante la visita."
+    },
+    {
+      "text": "Portal is definitive.",
+      "of": "cf3c4540",
+      "at": [
+        "providence-day:guide.bands[1].checklistCallout.lead"
+      ],
+      "t": "Il portale fa fede."
+    },
+    {
+      "text": "The exact material list and assessment for Grades 1–5 are not published on the website — your Charger Commons checklist is the authoritative list. Confirm specifics with the admissions office.",
+      "of": "04ad8994",
+      "at": [
+        "providence-day:guide.bands[1].checklistCallout.text"
+      ],
+      "t": "L’elenco esatto dei documenti e la valutazione per le classi 1–5 non sono pubblicati sul sito: la tua check-list Charger Commons è l’elenco che fa fede. Conferma i dettagli con l’ufficio ammissioni."
+    },
+    {
+      "text": "Submit the Grades 1–5 application and pay the fee",
+      "of": "31e9ecef",
+      "at": [
+        "providence-day:guide.bands[1].checklistRows[2].action"
+      ],
+      "t": "Presentare la domanda per le classi 1–5 e pagare la quota"
+    },
+    {
+      "text": "Jan 15, 2027",
+      "of": "b1671085",
+      "at": [
+        "providence-day:guide.bands[1].checklistRows[2].due",
+        "providence-day:guide.bands[2].checklistRows[2].due",
+        "providence-day:guide.comparison.rows[0].cells.g15",
+        "providence-day:guide.comparison.rows[0].cells.g612"
+      ],
+      "t": "15 gennaio 2027"
+    },
+    {
+      "text": "Send school records and the teacher recommendation",
+      "of": "ffd3c182",
+      "at": [
+        "providence-day:guide.bands[1].checklistRows[3].action"
+      ],
+      "t": "Inviare la documentazione scolastica e la raccomandazione dell’insegnante"
+    },
+    {
+      "text": "Both handled through the portal checklist, which is the definitive list.",
+      "of": "05037617",
+      "at": [
+        "providence-day:guide.bands[1].checklistRows[3].detail"
+      ],
+      "t": "Entrambi vengono gestiti tramite la check-list del portale, che è l’elenco definitivo."
+    },
+    {
+      "text": "Complete the required assessment",
+      "of": "c3487f84",
+      "at": [
+        "providence-day:guide.bands[1].checklistRows[4].action"
+      ],
+      "t": "Completare la valutazione obbligatoria"
+    },
+    {
+      "text": "The instrument isn't published — ask admissions which one and how to book it.",
+      "of": "fa99945e",
+      "at": [
+        "providence-day:guide.bands[1].checklistRows[4].detail"
+      ],
+      "t": "Lo strumento non è pubblicato: chiedi alle ammissioni quale sia e come prenotarlo."
+    },
+    {
+      "text": "First-round decisions release at 4:00 p.m. — date on the live calendar.",
+      "of": "96ac0e7c",
+      "at": [
+        "providence-day:guide.bands[1].checklistRows[5].detail",
+        "providence-day:guide.bands[2].checklistRows[5].detail"
+      ],
+      "t": "Le decisioni del primo turno vengono pubblicate alle 4:00 p.m.; la data è sul calendario aggiornato."
+    },
+    {
+      "text": "The deposit is credited toward tuition.",
+      "of": "08ea3269",
+      "at": [
+        "providence-day:guide.bands[1].checklistRows[6].detail",
+        "providence-day:guide.bands[2].checklistRows[6].detail"
+      ],
+      "t": "La caparra viene scalata dalla retta."
+    },
+    {
+      "text": "Grades 6–12",
+      "of": "327ac2eb",
+      "at": [
+        "providence-day:guide.bands[2].label",
+        "providence-day:guide.bands[2].title"
+      ],
+      "t": "Classi 6–12"
+    },
+    {
+      "text": "Standardized testing (ISEE)",
+      "of": "922c6d07",
+      "at": [
+        "providence-day:guide.bands[2].sublabel"
+      ],
+      "t": "Test standardizzati (ISEE)"
+    },
+    {
+      "text": "all materials & testing due",
+      "of": "47511426",
+      "at": [
+        "providence-day:guide.bands[2].deadlines[1].label"
+      ],
+      "t": "scadenza di tutti i documenti e dei test"
+    },
+    {
+      "text": "Submit the Grades 6–12 application + fee",
+      "of": "8c787175",
+      "at": [
+        "providence-day:guide.bands[2].steps[1].title"
+      ],
+      "t": "Presentare la domanda per le classi 6–12 e pagare la quota"
+    },
+    {
+      "text": "Transcript & recommendations",
+      "of": "5c4c3399",
+      "at": [
+        "providence-day:guide.bands[2].steps[2].title"
+      ],
+      "t": "Pagella e raccomandazioni"
+    },
+    {
+      "text": "Submitted through the portal checklist. The specific recommendation forms for this band aren't published — the portal shows exactly which ones your child needs.",
+      "of": "08538be3",
+      "at": [
+        "providence-day:guide.bands[2].steps[2].detail"
+      ],
+      "t": "Si inviano tramite la check-list del portale. I moduli di raccomandazione specifici per questo livello non sono pubblicati: il portale indica esattamente quali servono a tuo figlio."
+    },
+    {
+      "text": "Standardized testing",
+      "of": "9d9b59ca",
+      "at": [
+        "providence-day:guide.bands[2].steps[3].title"
+      ],
+      "t": "Test standardizzati"
+    },
+    {
+      "text": "The ISEE is the test the school references. Register early enough to sit the test — and receive scores — before the materials deadline.",
+      "of": "1eba7071",
+      "at": [
+        "providence-day:guide.bands[2].steps[3].detail"
+      ],
+      "t": "L’ISEE è il test a cui la scuola fa riferimento. Iscriviti con sufficiente anticipo per sostenere il test — e ricevere i risultati — prima della scadenza dei documenti."
+    },
+    {
+      "text": "Which test, exactly?",
+      "of": "596cd98b",
+      "at": [
+        "providence-day:guide.bands[2].watchOuts[0].kicker"
+      ],
+      "t": "Quale test, esattamente?"
+    },
+    {
+      "text": "Standardized testing is required, and the ISEE is the only test the school names — but the exact domestic requirement (ISEE vs. SSAT, which level) **isn't published**. Confirm with admissions before booking a test date.",
+      "of": "abf379a1",
+      "at": [
+        "providence-day:guide.bands[2].watchOuts[0].text"
+      ],
+      "t": "I test standardizzati sono obbligatori e l’ISEE è l’unico test che la scuola nomina, ma il requisito preciso per i candidati statunitensi (ISEE o SSAT, e quale livello) **non è pubblicato**. Confermalo con le ammissioni prima di prenotare una data d’esame."
+    },
+    {
+      "text": "International applicants",
+      "of": "8a721542",
+      "at": [
+        "providence-day:guide.bands[2].watchOuts[1].kicker"
+      ],
+      "t": "Candidati internazionali"
+    },
+    {
+      "text": "Applicants outside China follow the grades 9–12 procedures and submit **ISEE scores plus TOEFL** (if English isn't the primary language). Applying from China and needing an I-20? The process begins with the school's partners at **TBI-New Oasis**.",
+      "of": "8367ae21",
+      "at": [
+        "providence-day:guide.bands[2].watchOuts[1].text"
+      ],
+      "t": "I candidati che non si trovano in Cina seguono le procedure delle classi 9–12 e presentano **i punteggi ISEE più il TOEFL** (se l’inglese non è la lingua principale). Fai domanda dalla Cina e ti serve un I-20? La procedura inizia dai partner della scuola presso **TBI-New Oasis**."
+    },
+    {
+      "text": "Testing note.",
+      "of": "3778e795",
+      "at": [
+        "providence-day:guide.bands[2].checklistCallout.lead"
+      ],
+      "t": "Nota sui test."
+    },
+    {
+      "text": "Standardized testing is required; the ISEE is the test the school references. The exact domestic requirement is not published — confirm with admissions. International applicants: ISEE + TOEFL (if English is not primary); from China with an I-20, begin via TBI-New Oasis.",
+      "of": "8f31dd11",
+      "at": [
+        "providence-day:guide.bands[2].checklistCallout.text"
+      ],
+      "t": "I test standardizzati sono obbligatori; l’ISEE è il test a cui la scuola fa riferimento. Il requisito preciso per i candidati statunitensi non è pubblicato: confermalo con le ammissioni. Candidati internazionali: ISEE + TOEFL (se l’inglese non è la lingua principale); dalla Cina con un I-20, si parte da TBI-New Oasis."
+    },
+    {
+      "text": "Submit the Grades 6–12 application and pay the fee",
+      "of": "66d706c4",
+      "at": [
+        "providence-day:guide.bands[2].checklistRows[2].action"
+      ],
+      "t": "Presentare la domanda per le classi 6–12 e pagare la quota"
+    },
+    {
+      "text": "Register for and sit the ISEE",
+      "of": "e8835419",
+      "at": [
+        "providence-day:guide.bands[2].checklistRows[3].action"
+      ],
+      "t": "Iscriversi all’ISEE e sostenerlo"
+    },
+    {
+      "text": "Book early enough that scores arrive before the materials deadline.",
+      "of": "d55280c8",
+      "at": [
+        "providence-day:guide.bands[2].checklistRows[3].detail"
+      ],
+      "t": "Prenota con anticipo sufficiente perché i risultati arrivino prima della scadenza dei documenti."
+    },
+    {
+      "text": "Submit the transcript and recommendations",
+      "of": "0ef8af51",
+      "at": [
+        "providence-day:guide.bands[2].checklistRows[4].action"
+      ],
+      "t": "Presentare la pagella e le raccomandazioni"
+    },
+    {
+      "text": "Through the portal checklist, which shows exactly which forms are needed.",
+      "of": "e2b3e095",
+      "at": [
+        "providence-day:guide.bands[2].checklistRows[4].detail"
+      ],
+      "t": "Tramite la check-list del portale, che indica esattamente quali moduli servono."
+    },
+    {
+      "text": "Running in parallel: the financial-aid clock",
+      "of": "15045be1",
+      "at": [
+        "providence-day:guide.aid.title"
+      ],
+      "t": "In parallelo: il calendario degli aiuti finanziari"
+    },
+    {
+      "text": "Clarity application ($65) due **Jan 22** for prospective families — complete both processes on time and the aid decision arrives inside the Enrollment Agreement. Applying for aid never influences admission; separate committees decide.",
+      "of": "faf983c3",
+      "at": [
+        "providence-day:guide.aid.text"
+      ],
+      "t": "La domanda Clarity ($65) scade il **22 gennaio** per le famiglie interessate: completa entrambe le procedure nei tempi e la decisione sull’aiuto arriverà all’interno del contratto di iscrizione. Chiedere un aiuto non influenza mai l’ammissione; decidono commissioni distinte."
+    },
+    {
+      "text": "Financial Aid & Tuition",
+      "of": "801e19b8",
+      "at": [
+        "providence-day:guide.aid.button"
+      ],
+      "t": "Aiuti finanziari e retta"
+    },
+    {
+      "text": "CROSS-BAND",
+      "of": "60faf9b9",
+      "at": [
+        "providence-day:guide.comparison.kicker"
+      ],
+      "t": "TRA I LIVELLI"
+    },
+    {
+      "text": "Exactly what changes between bands",
+      "of": "2e98319a",
+      "at": [
+        "providence-day:guide.comparison.title"
+      ],
+      "t": "Che cosa cambia esattamente tra un livello e l’altro"
+    },
+    {
+      "text": "Application due",
+      "of": "8751989b",
+      "at": [
+        "providence-day:guide.comparison.rows[0].label"
+      ],
+      "t": "Scadenza della domanda"
+    },
+    {
+      "text": "Materials due",
+      "of": "24ee4e87",
+      "at": [
+        "providence-day:guide.comparison.rows[1].label"
+      ],
+      "t": "Scadenza dei documenti"
+    },
+    {
+      "text": "Assessment",
+      "of": "7f464e4f",
+      "at": [
+        "providence-day:guide.comparison.rows[2].label"
+      ],
+      "t": "Valutazione"
+    },
+    {
+      "text": "WPPSI-IV + Readiness Screening + Classroom Visit",
+      "of": "e4f9b916",
+      "at": [
+        "providence-day:guide.comparison.rows[2].cells.tkk"
+      ],
+      "t": "WPPSI-IV + screening di prontezza + visita in classe"
+    },
+    {
+      "text": "Required — instrument not published",
+      "of": "2d4beeb2",
+      "at": [
+        "providence-day:guide.comparison.rows[2].cells.g15"
+      ],
+      "t": "Obbligatoria: strumento non pubblicato"
+    },
+    {
+      "text": "Standardized testing — ISEE referenced",
+      "of": "8982a6d7",
+      "at": [
+        "providence-day:guide.comparison.rows[2].cells.g612"
+      ],
+      "t": "Test standardizzati: viene citato l’ISEE"
+    },
+    {
+      "text": "Recommendation",
+      "of": "eb33374e",
+      "at": [
+        "providence-day:guide.comparison.rows[3].label"
+      ],
+      "t": "Raccomandazione"
+    },
+    {
+      "text": "Via portal checklist — form not published",
+      "of": "096ca790",
+      "at": [
+        "providence-day:guide.comparison.rows[3].cells.g15"
+      ],
+      "t": "Tramite la check-list del portale: modulo non pubblicato"
+    },
+    {
+      "text": "Via portal checklist — forms not published",
+      "of": "3fc80d2b",
+      "at": [
+        "providence-day:guide.comparison.rows[3].cells.g612"
+      ],
+      "t": "Tramite la check-list del portale: moduli non pubblicati"
+    },
+    {
+      "text": "Decision & contract",
+      "of": "f4295bd1",
+      "at": [
+        "providence-day:guide.comparison.rows[4].label"
+      ],
+      "t": "Decisione e contratto"
+    },
+    {
+      "text": "Feb 26 → contracts Mar 5, noon",
+      "of": "6ca84b56",
+      "at": [
+        "providence-day:guide.comparison.rows[4].cells.tkk"
+      ],
+      "t": "26 febbraio → contratti il 5 marzo, mezzogiorno"
+    },
+    {
+      "text": "4:00 p.m. release — see live calendar",
+      "of": "04c61bd6",
+      "at": [
+        "providence-day:guide.comparison.rows[4].cells.g15",
+        "providence-day:guide.comparison.rows[4].cells.g612"
+      ],
+      "t": "Pubblicazione alle 4:00 p.m.: vedi il calendario aggiornato"
+    },
+    {
+      "text": "After first round",
+      "of": "d2c9fb93",
+      "at": [
+        "providence-day:guide.comparison.rows[5].label"
+      ],
+      "t": "Dopo il primo turno"
+    },
+    {
+      "text": "Rolling review for remaining seats at each grade level — identical in every band",
+      "of": "17f47c64",
+      "at": [
+        "providence-day:guide.comparison.rows[5].cells.all"
+      ],
+      "t": "Valutazione continua per i posti rimasti in ciascuna classe: identica per tutti i livelli"
+    },
+    {
+      "text": "CONTACTS",
+      "of": "fa6ba530",
+      "at": [
+        "providence-day:guide.contacts.kicker"
+      ],
+      "t": "CONTATTI"
+    },
+    {
+      "text": "The admissions office",
+      "of": "ba210c46",
+      "at": [
+        "providence-day:guide.contacts.title"
+      ],
+      "t": "L’ufficio ammissioni"
+    },
+    {
+      "text": "5800 Sardis Road, Charlotte, NC 28270 · main 704-887-6000",
+      "of": "9a21a040",
+      "at": [
+        "providence-day:guide.contacts.address"
+      ],
+      "t": "5800 Sardis Road, Charlotte, NC 28270 · centralino 704-887-6000"
+    },
+    {
+      "text": "Asst. Head of School, Admissions & Enrollment · 704-887-6002",
+      "of": "e0fe072e",
+      "at": [
+        "providence-day:guide.contacts.people[0].detail"
+      ],
+      "t": "Vicepreside, Ammissioni e Iscrizioni · 704-887-6002"
+    },
+    {
+      "text": "Associate Director of Admissions · 704-887-7015",
+      "of": "25dd7274",
+      "at": [
+        "providence-day:guide.contacts.people[1].detail"
+      ],
+      "t": "Direttrice associata delle ammissioni · 704-887-7015"
+    },
+    {
+      "text": "Associate Director of Admissions · 704-887-6029",
+      "of": "bb2b2ee6",
+      "at": [
+        "providence-day:guide.contacts.people[2].detail"
+      ],
+      "t": "Direttrice associata delle ammissioni · 704-887-6029"
+    },
+    {
+      "text": "Asst. Director of Enrollment Management · 704-887-7057",
+      "of": "a2f3863a",
+      "at": [
+        "providence-day:guide.contacts.people[3].detail"
+      ],
+      "t": "Vicedirettrice della gestione delle iscrizioni · 704-887-7057"
+    },
+    {
+      "text": "Admissions Officer · 704-887-7511",
+      "of": "34b8b71e",
+      "at": [
+        "providence-day:guide.contacts.people[4].detail"
+      ],
+      "t": "Addetta alle ammissioni · 704-887-7511"
+    },
+    {
+      "text": "Admissions Officer · 704-887-7097",
+      "of": "d7e7b697",
+      "at": [
+        "providence-day:guide.contacts.people[5].detail"
+      ],
+      "t": "Addetta alle ammissioni · 704-887-7097"
+    },
+    {
+      "text": "Admissions Services Manager · 704-887-7040",
+      "of": "015e1ef2",
+      "at": [
+        "providence-day:guide.contacts.people[6].detail"
+      ],
+      "t": "Responsabile dei servizi di ammissione · 704-887-7040"
+    },
+    {
+      "text": "Dir. of Student Billing, Financial Aid & Accounting · 704-887-7023",
+      "of": "1e375e62",
+      "at": [
+        "providence-day:guide.contacts.people[7].detail"
+      ],
+      "t": "Direttrice della fatturazione studenti, aiuti finanziari e contabilità · 704-887-7023"
+    },
+    {
+      "text": "Portal: Charger Commons · providenceday.org",
+      "of": "ff35a443",
+      "at": [
+        "providence-day:guide.checklist.portalNote"
+      ],
+      "t": "Portale: Charger Commons · providenceday.org"
+    },
+    {
+      "text": "In parallel — the financial aid clock",
+      "of": "3e87e1fd",
+      "at": [
+        "providence-day:guide.checklist.aidPanel.kicker"
+      ],
+      "t": "In parallelo: il calendario degli aiuti finanziari"
+    },
+    {
+      "text": "Complete the Clarity financial-aid application ($65 fee) by Jan 22 — both custodial and non-custodial parents submit documentation.",
+      "of": "559c8bc8",
+      "at": [
+        "providence-day:guide.checklist.aidPanel.items[0]"
+      ],
+      "t": "Completa la domanda di aiuto finanziario Clarity (quota di $65) entro il 22 gennaio: sia il genitore affidatario sia quello non affidatario presentano la documentazione."
+    },
+    {
+      "text": "Complete both processes on time and any aid decision arrives inside the Enrollment Agreement. Applying for aid does not influence admission.",
+      "of": "d4139cb5",
+      "at": [
+        "providence-day:guide.checklist.aidPanel.items[1]"
+      ],
+      "t": "Completa entrambe le procedure nei tempi e qualsiasi decisione sull’aiuto arriverà all’interno del contratto di iscrizione. Chiedere un aiuto non influenza l’ammissione."
+    },
+    {
+      "text": "Questions — admissions office",
+      "of": "79312c44",
+      "at": [
+        "providence-day:guide.checklist.contactPanel.kicker"
+      ],
+      "t": "Domande: ufficio ammissioni"
+    },
+    {
+      "text": "Lisa Knight, Asst. Head of School for Admissions — 704-887-6002",
+      "of": "729a968a",
+      "at": [
+        "providence-day:guide.checklist.contactPanel.lines[0]"
+      ],
+      "t": "Lisa Knight, vicepreside per le ammissioni — 704-887-6002"
+    },
+    {
+      "text": "Admissions main — 704-887-6000 · 5800 Sardis Road, Charlotte, NC 28270",
+      "of": "26f78a58",
+      "at": [
+        "providence-day:guide.checklist.contactPanel.lines[1]"
+      ],
+      "t": "Centralino ammissioni — 704-887-6000 · 5800 Sardis Road, Charlotte, NC 28270"
+    },
+    {
+      "text": "En español: Claudia Trower — 704-887-7023",
+      "of": "9281c777",
+      "at": [
+        "providence-day:guide.checklist.contactPanel.lines[2]"
+      ],
+      "t": "En español: Claudia Trower — 704-887-7023"
+    },
+    {
+      "text": "Dates are the 2026–27 entry cycle as published on the providenceday.org admissions calendar (retrieved Aug 2026); cycle dates shift year to year — verify against the live calendar before acting. Items marked \"confirm\" are not published on the website. Compiled by Charlotte School Compare; not affiliated with Providence Day School.",
+      "of": "4437f3e8",
+      "at": [
+        "providence-day:guide.checklist.disclaimer"
+      ],
+      "t": "Le date si riferiscono al ciclo di ammissione 2026–27 come pubblicato sul calendario ammissioni di providenceday.org (consultato ad agosto 2026); le date del ciclo cambiano di anno in anno: verificale sul calendario aggiornato prima di agire. Le voci contrassegnate come «da confermare» non sono pubblicate sul sito. Raccolto da Charlotte School Compare; non affiliato a Providence Day School."
+    }
+  ]
+}

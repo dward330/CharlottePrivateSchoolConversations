@@ -1,0 +1,1284 @@
+{
+  "topic": "admissions",
+  "lang": "ht",
+  "generated": "i18n_extract.mjs",
+  "note": "Translate each `text` into `t`. Leave `of` and `at` untouched — they are how the overlay is rebuilt and drift-checked.",
+  "strings": [
+    {
+      "text": "Pick your child's entry point and the guide personalizes: the steps in order, the 2026–27 deadlines, and the testing for that band — plus a printable checklist to take with you. The financial-aid clock runs in parallel.",
+      "of": "b764c60c",
+      "at": [
+        "providence-day:guide.headline"
+      ],
+      "t": "Chwazi nivo kote pitit ou ap antre a epi gid la ap adapte tèt li: etap yo nan lòd, dat limit 2026–27 yo, ak tès ki mande pou nivo sa a — plis yon lis kontwòl ou ka enprime pou pote avè w. Orè èd finansye a ap mache an menm tan."
+    },
+    {
+      "text": "2026–27 entry cycle",
+      "of": "826ef611",
+      "at": [
+        "providence-day:guide.cycle"
+      ],
+      "t": "sik antre 2026–27"
+    },
+    {
+      "text": "grade bands, each with its own process",
+      "of": "1b9dbd14",
+      "at": [
+        "providence-day:guide.stats[0].label"
+      ],
+      "t": "nivo antre, chak ak pwòp pwosesis pa l"
+    },
+    {
+      "text": "TK/K application deadline — earlier than everyone else",
+      "of": "297b9d6d",
+      "at": [
+        "providence-day:guide.stats[1].label"
+      ],
+      "t": "dat limit aplikasyon TK/K — pi bonè pase tout lòt yo"
+    },
+    {
+      "text": "Grades 1–12 application deadline",
+      "of": "0115e4c6",
+      "at": [
+        "providence-day:guide.stats[2].label"
+      ],
+      "t": "dat limit aplikasyon pou klas 1–12"
+    },
+    {
+      "text": "enrollment deposit, credited toward tuition",
+      "of": "9edfe10e",
+      "at": [
+        "providence-day:guide.stats[3].label"
+      ],
+      "t": "depo enskripsyon, yo dedwi l sou frè eskolè a"
+    },
+    {
+      "text": "One portal.",
+      "of": "63513317",
+      "at": [
+        "providence-day:guide.rules[0].title"
+      ],
+      "t": "Yon sèl pòtay."
+    },
+    {
+      "text": "Everything runs through Charger Commons: the inquiry triggers your account invitation, and the portal generates a personalized checklist that tracks every step.",
+      "of": "9a763398",
+      "at": [
+        "providence-day:guide.rules[0].text"
+      ],
+      "t": "Tout bagay pase nan Charger Commons: demann enfòmasyon an deklanche envitasyon pou kont ou an, epi pòtay la kreye yon lis kontwòl pèsonalize ki swiv chak etap."
+    },
+    {
+      "text": "Dates are cycle-specific.",
+      "of": "799cf75d",
+      "at": [
+        "providence-day:guide.rules[1].title"
+      ],
+      "t": "Dat yo chanje selon sik la."
+    },
+    {
+      "text": "Every date below is the 2026–27 entry cycle from the live admissions calendar. Cycle dates shift year to year — verify before acting.",
+      "of": "87aa3e7b",
+      "at": [
+        "providence-day:guide.rules[1].text"
+      ],
+      "t": "Tout dat ki anba yo se sik antre 2026–27 la, dapre kalandriye admisyon k ap mache a. Dat yo chanje chak ane — verifye yo anvan ou aji."
+    },
+    {
+      "text": "Not published ≠ deficient.",
+      "of": "0e93db6b",
+      "at": [
+        "providence-day:guide.rules[2].title"
+      ],
+      "t": "Pa pibliye ≠ pa bon."
+    },
+    {
+      "text": "The application-fee amount and some band checklists aren't on the website. Those gaps are flagged below — confirm them with the admissions office.",
+      "of": "4860d402",
+      "at": [
+        "providence-day:guide.rules[2].text"
+      ],
+      "t": "Montan frè aplikasyon an ak kèk lis kontwòl pou sèten nivo pa sou sit entènèt la. Nou make twou sa yo anba a — konfime yo ak biwo admisyon an."
+    },
+    {
+      "text": "Same spine in every band — inquire → apply → materials → decision → contract. What changes is the testing and the calendar. Selection weighs \"academic performance, school records, teacher recommendations, extracurricular activities, and social-emotional maturity.\"",
+      "of": "eda16ea1",
+      "at": [
+        "providence-day:guide.spineNote"
+      ],
+      "t": "Menm chemen an nan tout nivo — mande enfòmasyon → aplike → dokiman → desizyon → kontra. Sa k chanje se tès yo ak kalandriye a. Seleksyon an konsidere \"rannman akademik, dosye lekòl, rekòmandasyon pwofesè, aktivite parakolè, ak matirite sosyo-emosyonèl\"."
+    },
+    {
+      "text": "TK / Kindergarten",
+      "of": "d6a3513b",
+      "at": [
+        "providence-day:guide.bands[0].label"
+      ],
+      "t": "TK / Kindergarten"
+    },
+    {
+      "text": "Readiness model · earlier calendar",
+      "of": "deab8cc7",
+      "at": [
+        "providence-day:guide.bands[0].sublabel"
+      ],
+      "t": "Modèl preparasyon · kalandriye pi bonè"
+    },
+    {
+      "text": "Transitional Kindergarten & Kindergarten",
+      "of": "75235da1",
+      "at": [
+        "providence-day:guide.bands[0].title"
+      ],
+      "t": "Transitional Kindergarten ak Kindergarten"
+    },
+    {
+      "text": "application form due",
+      "of": "19e5953b",
+      "at": [
+        "providence-day:guide.bands[0].deadlines[0].label",
+        "providence-day:guide.bands[1].deadlines[0].label",
+        "providence-day:guide.bands[2].deadlines[0].label"
+      ],
+      "t": "dat limit fòm aplikasyon an"
+    },
+    {
+      "text": "all materials & assessments due",
+      "of": "f539ae89",
+      "at": [
+        "providence-day:guide.bands[0].deadlines[1].label",
+        "providence-day:guide.bands[1].deadlines[1].label"
+      ],
+      "t": "dat limit tout dokiman ak evalyasyon yo"
+    },
+    {
+      "text": "decisions release, 4:00 p.m.",
+      "of": "f90fde94",
+      "at": [
+        "providence-day:guide.bands[0].deadlines[2].label"
+      ],
+      "t": "desizyon yo soti, 4:00 p.m."
+    },
+    {
+      "text": "contracts due at noon",
+      "of": "26deddcf",
+      "at": [
+        "providence-day:guide.bands[0].deadlines[3].label"
+      ],
+      "t": "kontra yo dwe rive midi"
+    },
+    {
+      "text": "Inquire & tour",
+      "of": "0b98f222",
+      "at": [
+        "providence-day:guide.bands[0].steps[0].title",
+        "providence-day:guide.bands[1].steps[0].title",
+        "providence-day:guide.bands[2].steps[0].title"
+      ],
+      "t": "Mande enfòmasyon epi vizite"
+    },
+    {
+      "text": "Fall 2026",
+      "of": "486271a2",
+      "at": [
+        "providence-day:guide.bands[0].steps[0].tag",
+        "providence-day:guide.bands[0].checklistRows[0].due",
+        "providence-day:guide.bands[0].checklistRows[1].due",
+        "providence-day:guide.bands[1].steps[0].tag",
+        "providence-day:guide.bands[1].checklistRows[0].due",
+        "providence-day:guide.bands[1].checklistRows[1].due",
+        "providence-day:guide.bands[2].steps[0].tag",
+        "providence-day:guide.bands[2].checklistRows[0].due",
+        "providence-day:guide.bands[2].checklistRows[1].due"
+      ],
+      "t": "otòn 2026"
+    },
+    {
+      "text": "The Inquiry form books your campus tour and triggers the invitation to create your Charger Commons account.",
+      "of": "0b8a192e",
+      "at": [
+        "providence-day:guide.bands[0].steps[0].detail",
+        "providence-day:guide.bands[1].steps[0].detail",
+        "providence-day:guide.bands[2].steps[0].detail"
+      ],
+      "t": "Fòm demann enfòmasyon an rezève vizit ou sou kanpis la epi li deklanche envitasyon pou w kreye kont Charger Commons ou."
+    },
+    {
+      "text": "Submit the TK/K application + fee",
+      "of": "8378e57a",
+      "at": [
+        "providence-day:guide.bands[0].steps[1].title"
+      ],
+      "t": "Depoze aplikasyon TK/K la epi peye frè a"
+    },
+    {
+      "text": "by Jan 2",
+      "of": "a636a187",
+      "at": [
+        "providence-day:guide.bands[0].steps[1].tag"
+      ],
+      "t": "anvan 2 janvye"
+    },
+    {
+      "text": "Apply early — the Readiness Screening can't be scheduled until the application is in, and the earliest applicants get the earliest slots. Fee amount isn't published; confirm with admissions.",
+      "of": "603be8d3",
+      "at": [
+        "providence-day:guide.bands[0].steps[1].detail"
+      ],
+      "t": "Aplike bonè — yo pa ka fikse Egzamen Preparasyon an toutotan aplikasyon an poko rive, epi moun ki aplike pi bonè jwenn premye plas yo. Montan frè a pa pibliye; konfime l ak admisyon."
+    },
+    {
+      "text": "Preschool Teacher Recommendation Form",
+      "of": "9b3a4723",
+      "at": [
+        "providence-day:guide.bands[0].steps[2].title",
+        "providence-day:guide.comparison.rows[3].cells.tkk"
+      ],
+      "t": "Fòm Rekòmandasyon Pwofesè Preskolè"
+    },
+    {
+      "text": "by Feb 1",
+      "of": "a0e9778e",
+      "at": [
+        "providence-day:guide.bands[0].steps[2].tag",
+        "providence-day:guide.bands[0].steps[3].tag",
+        "providence-day:guide.bands[0].steps[4].tag",
+        "providence-day:guide.bands[0].steps[5].tag"
+      ],
+      "t": "anvan 1ye fevriye"
+    },
+    {
+      "text": "Sent to your child's current teacher through the portal checklist.",
+      "of": "3ccd8e82",
+      "at": [
+        "providence-day:guide.bands[0].steps[2].detail",
+        "providence-day:guide.bands[0].checklistRows[3].detail"
+      ],
+      "t": "Yo voye l bay pwofesè aktyèl pitit ou a atravè lis kontwòl pòtay la."
+    },
+    {
+      "text": "WPPSI-IV assessment",
+      "of": "ef7c3e10",
+      "at": [
+        "providence-day:guide.bands[0].steps[3].title"
+      ],
+      "t": "Evalyasyon WPPSI-IV"
+    },
+    {
+      "text": "The Wechsler preschool scale. Your child \"must be at least 4 years old at the time of assessment administration.\"",
+      "of": "57403268",
+      "at": [
+        "providence-day:guide.bands[0].steps[3].detail"
+      ],
+      "t": "Echèl Wechsler pou timoun preskolè. Pitit ou \"dwe gen omwen 4 an lè y ap fè evalyasyon an\"."
+    },
+    {
+      "text": "School Readiness Screening",
+      "of": "61d3bf21",
+      "at": [
+        "providence-day:guide.bands[0].steps[4].title"
+      ],
+      "t": "Egzamen Preparasyon pou Lekòl"
+    },
+    {
+      "text": "\"Application MUST be submitted prior to scheduling the Readiness Screening\" — the sequencing quirk that makes step 2 urgent.",
+      "of": "d2bdd824",
+      "at": [
+        "providence-day:guide.bands[0].steps[4].detail"
+      ],
+      "t": "\"Aplikasyon an DWE depoze anvan yo fikse Egzamen Preparasyon an\" — se detay lòd sa a ki fè etap 2 a ijan."
+    },
+    {
+      "text": "TK/K Classroom Visit",
+      "of": "bde340f2",
+      "at": [
+        "providence-day:guide.bands[0].steps[5].title"
+      ],
+      "t": "Vizit nan Salklas TK/K"
+    },
+    {
+      "text": "A required visit — the school observes readiness in a real classroom setting.",
+      "of": "b055b157",
+      "at": [
+        "providence-day:guide.bands[0].steps[5].detail"
+      ],
+      "t": "Yon vizit obligatwa — lekòl la obsève preparasyon an nan yon vrè salklas."
+    },
+    {
+      "text": "Decision → contract + deposit",
+      "of": "8870c14a",
+      "at": [
+        "providence-day:guide.bands[0].steps[6].title",
+        "providence-day:guide.bands[1].steps[4].title",
+        "providence-day:guide.bands[2].steps[4].title"
+      ],
+      "t": "Desizyon → kontra ak depo"
+    },
+    {
+      "text": "Feb 26 → Mar 5",
+      "of": "52178ca7",
+      "at": [
+        "providence-day:guide.bands[0].steps[6].tag"
+      ],
+      "t": "26 fevriye → 5 mas"
+    },
+    {
+      "text": "Decisions release 4:00 p.m. Feb 26; the signed contract and $2,500 deposit (credited toward tuition) are due at noon Mar 5. Later applications go to rolling review for remaining seats.",
+      "of": "3928ae31",
+      "at": [
+        "providence-day:guide.bands[0].steps[6].detail"
+      ],
+      "t": "Desizyon yo soti 4:00 p.m. 26 fevriye; kontra siyen an ak depo $2,500 la (yo dedwi l sou frè eskolè a) dwe rive midi 5 mas. Aplikasyon ki vin apre yo pase nan revizyon kontinyèl pou plas ki rete yo."
+    },
+    {
+      "text": "Why TK/K is different",
+      "of": "460b7dbd",
+      "at": [
+        "providence-day:guide.bands[0].watchOuts[0].kicker"
+      ],
+      "t": "Poukisa TK/K diferan"
+    },
+    {
+      "text": "The youngest band runs on an **earlier calendar** than everyone else and uses a **readiness model** — WPPSI-IV, Readiness Screening, and Classroom Visit — instead of standardized testing. Three assessment pieces means three appointments to schedule: another reason the early application matters.",
+      "of": "2e0caba3",
+      "at": [
+        "providence-day:guide.bands[0].watchOuts[0].text"
+      ],
+      "t": "Nivo ki pi piti a mache sou yon **kalandriye pi bonè** pase tout lòt yo epi li itilize yon **modèl preparasyon** — WPPSI-IV, Egzamen Preparasyon, ak Vizit nan Salklas — olye pou tès estandadize. Twa pyès evalyasyon vle di twa randevou pou fikse: yon lòt rezon ki fè aplike bonè enpòtan."
+    },
+    {
+      "text": "Age eligibility",
+      "of": "49e0b27d",
+      "at": [
+        "providence-day:guide.bands[0].watchOuts[1].kicker"
+      ],
+      "t": "Kondisyon laj"
+    },
+    {
+      "text": "The school publishes one rule: applicants must be **at least 4 at the time of assessment**. A specific \"turn 4/5 by September 1\" cutoff isn't published — confirm your child's eligibility with admissions before applying.",
+      "of": "74aeaf54",
+      "at": [
+        "providence-day:guide.bands[0].watchOuts[1].text"
+      ],
+      "t": "Lekòl la pibliye yon sèl règ: moun k ap aplike yo dwe gen **omwen 4 an lè evalyasyon an ap fèt**. Yo pa pibliye okenn dat limit presi tankou \"fè 4/5 an anvan 1ye septanm\" — konfime si pitit ou kalifye ak admisyon anvan w aplike."
+    },
+    {
+      "text": "Apply early.",
+      "of": "d1b883ba",
+      "at": [
+        "providence-day:guide.bands[0].checklistCallout.lead"
+      ],
+      "t": "Aplike bonè."
+    },
+    {
+      "text": "The Readiness Screening cannot be scheduled until the application is submitted — the earliest applicants get the earliest assessment slots, and review turns rolling after the first round.",
+      "of": "b2c8a460",
+      "at": [
+        "providence-day:guide.bands[0].checklistCallout.text"
+      ],
+      "t": "Yo pa ka fikse Egzamen Preparasyon an toutotan aplikasyon an poko depoze — moun ki aplike pi bonè jwenn premye plas evalyasyon yo, epi revizyon an vin kontinyèl apre premye tou a."
+    },
+    {
+      "text": "Submit the Inquiry form and book a campus tour",
+      "of": "07f571d1",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[0].action",
+        "providence-day:guide.bands[1].checklistRows[0].action",
+        "providence-day:guide.bands[2].checklistRows[0].action"
+      ],
+      "t": "Depoze fòm demann enfòmasyon an epi rezève yon vizit sou kanpis la"
+    },
+    {
+      "text": "The inquiry is what triggers your Charger Commons account invitation.",
+      "of": "2122304b",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[0].detail",
+        "providence-day:guide.bands[1].checklistRows[0].detail",
+        "providence-day:guide.bands[2].checklistRows[0].detail"
+      ],
+      "t": "Se demann enfòmasyon an ki deklanche envitasyon pou kont Charger Commons ou."
+    },
+    {
+      "text": "Create your Charger Commons account",
+      "of": "73443a2f",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[1].action",
+        "providence-day:guide.bands[1].checklistRows[1].action",
+        "providence-day:guide.bands[2].checklistRows[1].action"
+      ],
+      "t": "Kreye kont Charger Commons ou"
+    },
+    {
+      "text": "The portal generates the personalized checklist that tracks every step below.",
+      "of": "a3ff8412",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[1].detail",
+        "providence-day:guide.bands[1].checklistRows[1].detail",
+        "providence-day:guide.bands[2].checklistRows[1].detail"
+      ],
+      "t": "Pòtay la kreye lis kontwòl pèsonalize ki swiv chak etap ki anba yo."
+    },
+    {
+      "text": "Submit the TK/K application and pay the fee",
+      "of": "37e3bb8f",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[2].action"
+      ],
+      "t": "Depoze aplikasyon TK/K la epi peye frè a"
+    },
+    {
+      "text": "Fee amount isn't published — confirm with admissions.",
+      "of": "fc8d9c5e",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[2].detail",
+        "providence-day:guide.bands[1].checklistRows[2].detail",
+        "providence-day:guide.bands[2].checklistRows[2].detail"
+      ],
+      "t": "Montan frè a pa pibliye — konfime l ak admisyon."
+    },
+    {
+      "text": "Jan 2, 2027",
+      "of": "105471a1",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[2].due",
+        "providence-day:guide.comparison.rows[0].cells.tkk"
+      ],
+      "t": "2 janvye 2027"
+    },
+    {
+      "text": "Send the Preschool Teacher Recommendation Form",
+      "of": "39df12ac",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[3].action"
+      ],
+      "t": "Voye Fòm Rekòmandasyon Pwofesè Preskolè a"
+    },
+    {
+      "text": "Feb 1, 2027",
+      "of": "ae987fd4",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[3].due",
+        "providence-day:guide.bands[0].checklistRows[4].due",
+        "providence-day:guide.bands[0].checklistRows[5].due",
+        "providence-day:guide.bands[0].checklistRows[6].due",
+        "providence-day:guide.comparison.rows[1].cells.tkk"
+      ],
+      "t": "1ye fevriye 2027"
+    },
+    {
+      "text": "Complete the WPPSI-IV assessment",
+      "of": "3fc7a406",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[4].action"
+      ],
+      "t": "Fè evalyasyon WPPSI-IV la"
+    },
+    {
+      "text": "Your child must be at least 4 years old at the time of assessment.",
+      "of": "a05af927",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[4].detail"
+      ],
+      "t": "Pitit ou dwe gen omwen 4 an lè evalyasyon an ap fèt."
+    },
+    {
+      "text": "Complete the School Readiness Screening",
+      "of": "f2554afb",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[5].action"
+      ],
+      "t": "Fè Egzamen Preparasyon pou Lekòl la"
+    },
+    {
+      "text": "Cannot be scheduled until the application is submitted.",
+      "of": "0b8487f0",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[5].detail"
+      ],
+      "t": "Yo pa ka fikse l toutotan aplikasyon an poko depoze."
+    },
+    {
+      "text": "Attend the TK/K Classroom Visit",
+      "of": "15185ae9",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[6].action"
+      ],
+      "t": "Patisipe nan Vizit nan Salklas TK/K la"
+    },
+    {
+      "text": "A required visit — readiness is observed in a real classroom.",
+      "of": "5412ebc5",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[6].detail"
+      ],
+      "t": "Yon vizit obligatwa — yo obsève preparasyon an nan yon vrè salklas."
+    },
+    {
+      "text": "Watch for the decision",
+      "of": "0397d67a",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[7].action",
+        "providence-day:guide.bands[1].checklistRows[5].action",
+        "providence-day:guide.bands[2].checklistRows[5].action"
+      ],
+      "t": "Rete tann desizyon an"
+    },
+    {
+      "text": "Decisions release at 4:00 p.m.",
+      "of": "43561d15",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[7].detail"
+      ],
+      "t": "Desizyon yo soti 4:00 p.m."
+    },
+    {
+      "text": "Feb 26, 2027",
+      "of": "fa7e6753",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[7].due",
+        "providence-day:guide.bands[1].checklistRows[3].due",
+        "providence-day:guide.bands[1].checklistRows[4].due",
+        "providence-day:guide.bands[2].checklistRows[3].due",
+        "providence-day:guide.bands[2].checklistRows[4].due",
+        "providence-day:guide.comparison.rows[1].cells.g15",
+        "providence-day:guide.comparison.rows[1].cells.g612"
+      ],
+      "t": "26 fevriye 2027"
+    },
+    {
+      "text": "Return the signed contract with the $2,500 deposit",
+      "of": "913bb0d0",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[8].action",
+        "providence-day:guide.bands[1].checklistRows[6].action",
+        "providence-day:guide.bands[2].checklistRows[6].action"
+      ],
+      "t": "Remèt kontra siyen an ak depo $2,500 la"
+    },
+    {
+      "text": "Due at noon; the deposit is credited toward tuition.",
+      "of": "6ee1014f",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[8].detail"
+      ],
+      "t": "Li dwe rive midi; yo dedwi depo a sou frè eskolè a."
+    },
+    {
+      "text": "Mar 5, 2027",
+      "of": "a86248f5",
+      "at": [
+        "providence-day:guide.bands[0].checklistRows[8].due"
+      ],
+      "t": "5 mas 2027"
+    },
+    {
+      "text": "Grades 1–5",
+      "of": "c2d451ca",
+      "at": [
+        "providence-day:guide.bands[1].label",
+        "providence-day:guide.bands[1].title"
+      ],
+      "t": "Klas 1–5"
+    },
+    {
+      "text": "School-administered assessment",
+      "of": "c40ac9cb",
+      "at": [
+        "providence-day:guide.bands[1].sublabel"
+      ],
+      "t": "Evalyasyon lekòl la administre"
+    },
+    {
+      "text": "decision release time — date on the live calendar",
+      "of": "1ab613ed",
+      "at": [
+        "providence-day:guide.bands[1].deadlines[2].label",
+        "providence-day:guide.bands[2].deadlines[2].label"
+      ],
+      "t": "lè desizyon an soti — dat la sou kalandriye k ap mache a"
+    },
+    {
+      "text": "deposit with the contract, credited to tuition",
+      "of": "d6889cfb",
+      "at": [
+        "providence-day:guide.bands[1].deadlines[3].label",
+        "providence-day:guide.bands[2].deadlines[3].label"
+      ],
+      "t": "depo ansanm ak kontra a, yo dedwi l sou frè eskolè a"
+    },
+    {
+      "text": "Submit the Grades 1–5 application + fee",
+      "of": "c2c164da",
+      "at": [
+        "providence-day:guide.bands[1].steps[1].title"
+      ],
+      "t": "Depoze aplikasyon klas 1–5 la epi peye frè a"
+    },
+    {
+      "text": "by Jan 15",
+      "of": "6a02e2fd",
+      "at": [
+        "providence-day:guide.bands[1].steps[1].tag",
+        "providence-day:guide.bands[2].steps[1].tag"
+      ],
+      "t": "anvan 15 janvye"
+    },
+    {
+      "text": "First-round consideration closes Jan 15; later applications roll for remaining seats. Fee amount isn't published; confirm with admissions.",
+      "of": "431e6bd4",
+      "at": [
+        "providence-day:guide.bands[1].steps[1].detail",
+        "providence-day:guide.bands[2].steps[1].detail"
+      ],
+      "t": "Premye tou konsiderasyon an fèmen 15 janvye; aplikasyon ki vin apre yo pase nan revizyon kontinyèl pou plas ki rete yo. Montan frè a pa pibliye; konfime l ak admisyon."
+    },
+    {
+      "text": "Records & teacher recommendation",
+      "of": "3862a5bc",
+      "at": [
+        "providence-day:guide.bands[1].steps[2].title"
+      ],
+      "t": "Dosye lekòl ak rekòmandasyon pwofesè"
+    },
+    {
+      "text": "by Feb 26",
+      "of": "898471b7",
+      "at": [
+        "providence-day:guide.bands[1].steps[2].tag",
+        "providence-day:guide.bands[1].steps[3].tag",
+        "providence-day:guide.bands[2].steps[2].tag",
+        "providence-day:guide.bands[2].steps[3].tag"
+      ],
+      "t": "anvan 26 fevriye"
+    },
+    {
+      "text": "School records/transcript and the recommendation form, both handled through the portal checklist — the exact items for this band aren't published, so treat the portal as definitive.",
+      "of": "9d914599",
+      "at": [
+        "providence-day:guide.bands[1].steps[2].detail"
+      ],
+      "t": "Dosye lekòl la ak fòm rekòmandasyon an, tou de pase nan lis kontwòl pòtay la — yo pa pibliye ki dokiman egzak nivo sa a mande, kidonk konsidere pòtay la kòm sous ki fè lwa."
+    },
+    {
+      "text": "Required assessment",
+      "of": "f7b721a2",
+      "at": [
+        "providence-day:guide.bands[1].steps[3].title"
+      ],
+      "t": "Evalyasyon obligatwa"
+    },
+    {
+      "text": "An assessment step exists for Grades 1–5, but the specific instrument isn't published — ask admissions which assessment your child will take and how to schedule it.",
+      "of": "0fc7cf16",
+      "at": [
+        "providence-day:guide.bands[1].steps[3].detail"
+      ],
+      "t": "Gen yon etap evalyasyon pou klas 1–5, men yo pa pibliye ki zouti presi yo itilize — mande admisyon ki evalyasyon pitit ou ap fè epi kijan pou fikse l."
+    },
+    {
+      "text": "Spring 2027",
+      "of": "a01a41e1",
+      "at": [
+        "providence-day:guide.bands[1].steps[4].tag",
+        "providence-day:guide.bands[1].checklistRows[5].due",
+        "providence-day:guide.bands[1].checklistRows[6].due",
+        "providence-day:guide.bands[2].steps[4].tag",
+        "providence-day:guide.bands[2].checklistRows[5].due",
+        "providence-day:guide.bands[2].checklistRows[6].due"
+      ],
+      "t": "prentan 2027"
+    },
+    {
+      "text": "First-round decisions release at 4:00 p.m. on the published date — watch the live calendar. Then the signed contract and $2,500 deposit secure the seat.",
+      "of": "6b44fdc7",
+      "at": [
+        "providence-day:guide.bands[1].steps[4].detail",
+        "providence-day:guide.bands[2].steps[4].detail"
+      ],
+      "t": "Desizyon premye tou yo soti 4:00 p.m. nan dat yo pibliye a — swiv kalandriye k ap mache a. Apre sa, kontra siyen an ak depo $2,500 la asire plas la."
+    },
+    {
+      "text": "The least-published band",
+      "of": "9dd2cdbd",
+      "at": [
+        "providence-day:guide.bands[1].watchOuts[0].kicker"
+      ],
+      "t": "Nivo ki gen mwens enfòmasyon pibliye"
+    },
+    {
+      "text": "Grades 1–5 shares the Grades 1–12 calendar, but its **material list, recommendation form, and assessment instrument aren't published**. Your Charger Commons checklist is the authoritative list — and if you need a definitive answer before applying, request it from admissions in writing.",
+      "of": "5d4c93da",
+      "at": [
+        "providence-day:guide.bands[1].watchOuts[0].text"
+      ],
+      "t": "Klas 1–5 swiv menm kalandriye ak klas 1–12, men **lis dokiman li, fòm rekòmandasyon li, ak zouti evalyasyon li pa pibliye**. Lis kontwòl Charger Commons ou an se lis ki fè lwa a — epi si w bezwen yon repons definitif anvan w aplike, mande admisyon l alekri."
+    },
+    {
+      "text": "No student-visit step published",
+      "of": "787334a5",
+      "at": [
+        "providence-day:guide.bands[1].watchOuts[1].kicker"
+      ],
+      "t": "Pa gen etap vizit elèv ki pibliye"
+    },
+    {
+      "text": "Unlike TK/K's required Classroom Visit, no comparable shadow day or visit is published for this band. That doesn't mean there isn't one — it simply wasn't retrievable. Ask on your tour.",
+      "of": "54f44ab8",
+      "at": [
+        "providence-day:guide.bands[1].watchOuts[1].text"
+      ],
+      "t": "Kontrèman ak Vizit nan Salklas obligatwa TK/K la, yo pa pibliye okenn jounen akonpayman oswa vizit parèy pou nivo sa a. Sa pa vle di li pa egziste — nou senpleman pa t ka jwenn li. Poze kesyon an lè w ap vizite."
+    },
+    {
+      "text": "Portal is definitive.",
+      "of": "cf3c4540",
+      "at": [
+        "providence-day:guide.bands[1].checklistCallout.lead"
+      ],
+      "t": "Se pòtay la ki fè lwa."
+    },
+    {
+      "text": "The exact material list and assessment for Grades 1–5 are not published on the website — your Charger Commons checklist is the authoritative list. Confirm specifics with the admissions office.",
+      "of": "04ad8994",
+      "at": [
+        "providence-day:guide.bands[1].checklistCallout.text"
+      ],
+      "t": "Lis dokiman egzak la ak evalyasyon pou klas 1–5 pa pibliye sou sit entènèt la — lis kontwòl Charger Commons ou an se lis ki fè lwa a. Konfime detay yo ak biwo admisyon an."
+    },
+    {
+      "text": "Submit the Grades 1–5 application and pay the fee",
+      "of": "31e9ecef",
+      "at": [
+        "providence-day:guide.bands[1].checklistRows[2].action"
+      ],
+      "t": "Depoze aplikasyon klas 1–5 la epi peye frè a"
+    },
+    {
+      "text": "Jan 15, 2027",
+      "of": "b1671085",
+      "at": [
+        "providence-day:guide.bands[1].checklistRows[2].due",
+        "providence-day:guide.bands[2].checklistRows[2].due",
+        "providence-day:guide.comparison.rows[0].cells.g15",
+        "providence-day:guide.comparison.rows[0].cells.g612"
+      ],
+      "t": "15 janvye 2027"
+    },
+    {
+      "text": "Send school records and the teacher recommendation",
+      "of": "ffd3c182",
+      "at": [
+        "providence-day:guide.bands[1].checklistRows[3].action"
+      ],
+      "t": "Voye dosye lekòl yo ak rekòmandasyon pwofesè a"
+    },
+    {
+      "text": "Both handled through the portal checklist, which is the definitive list.",
+      "of": "05037617",
+      "at": [
+        "providence-day:guide.bands[1].checklistRows[3].detail"
+      ],
+      "t": "Tou de pase nan lis kontwòl pòtay la, ki se lis ki fè lwa a."
+    },
+    {
+      "text": "Complete the required assessment",
+      "of": "c3487f84",
+      "at": [
+        "providence-day:guide.bands[1].checklistRows[4].action"
+      ],
+      "t": "Fè evalyasyon obligatwa a"
+    },
+    {
+      "text": "The instrument isn't published — ask admissions which one and how to book it.",
+      "of": "fa99945e",
+      "at": [
+        "providence-day:guide.bands[1].checklistRows[4].detail"
+      ],
+      "t": "Zouti a pa pibliye — mande admisyon kilès li ye epi kijan pou rezève l."
+    },
+    {
+      "text": "First-round decisions release at 4:00 p.m. — date on the live calendar.",
+      "of": "96ac0e7c",
+      "at": [
+        "providence-day:guide.bands[1].checklistRows[5].detail",
+        "providence-day:guide.bands[2].checklistRows[5].detail"
+      ],
+      "t": "Desizyon premye tou yo soti 4:00 p.m. — dat la sou kalandriye k ap mache a."
+    },
+    {
+      "text": "The deposit is credited toward tuition.",
+      "of": "08ea3269",
+      "at": [
+        "providence-day:guide.bands[1].checklistRows[6].detail",
+        "providence-day:guide.bands[2].checklistRows[6].detail"
+      ],
+      "t": "Yo dedwi depo a sou frè eskolè a."
+    },
+    {
+      "text": "Grades 6–12",
+      "of": "327ac2eb",
+      "at": [
+        "providence-day:guide.bands[2].label",
+        "providence-day:guide.bands[2].title"
+      ],
+      "t": "Klas 6–12"
+    },
+    {
+      "text": "Standardized testing (ISEE)",
+      "of": "922c6d07",
+      "at": [
+        "providence-day:guide.bands[2].sublabel"
+      ],
+      "t": "Tès estandadize (ISEE)"
+    },
+    {
+      "text": "all materials & testing due",
+      "of": "47511426",
+      "at": [
+        "providence-day:guide.bands[2].deadlines[1].label"
+      ],
+      "t": "dat limit tout dokiman ak tès yo"
+    },
+    {
+      "text": "Submit the Grades 6–12 application + fee",
+      "of": "8c787175",
+      "at": [
+        "providence-day:guide.bands[2].steps[1].title"
+      ],
+      "t": "Depoze aplikasyon klas 6–12 la epi peye frè a"
+    },
+    {
+      "text": "Transcript & recommendations",
+      "of": "5c4c3399",
+      "at": [
+        "providence-day:guide.bands[2].steps[2].title"
+      ],
+      "t": "Rilve nòt ak rekòmandasyon"
+    },
+    {
+      "text": "Submitted through the portal checklist. The specific recommendation forms for this band aren't published — the portal shows exactly which ones your child needs.",
+      "of": "08538be3",
+      "at": [
+        "providence-day:guide.bands[2].steps[2].detail"
+      ],
+      "t": "Yo depoze yo atravè lis kontwòl pòtay la. Yo pa pibliye ki fòm rekòmandasyon presi nivo sa a mande — pòtay la montre egzakteman kilès pitit ou bezwen."
+    },
+    {
+      "text": "Standardized testing",
+      "of": "9d9b59ca",
+      "at": [
+        "providence-day:guide.bands[2].steps[3].title"
+      ],
+      "t": "Tès estandadize"
+    },
+    {
+      "text": "The ISEE is the test the school references. Register early enough to sit the test — and receive scores — before the materials deadline.",
+      "of": "1eba7071",
+      "at": [
+        "providence-day:guide.bands[2].steps[3].detail"
+      ],
+      "t": "ISEE a se tès lekòl la site a. Enskri ase bonè pou w fè tès la — epi resevwa nòt yo — anvan dat limit dokiman yo."
+    },
+    {
+      "text": "Which test, exactly?",
+      "of": "596cd98b",
+      "at": [
+        "providence-day:guide.bands[2].watchOuts[0].kicker"
+      ],
+      "t": "Ki tès, egzakteman?"
+    },
+    {
+      "text": "Standardized testing is required, and the ISEE is the only test the school names — but the exact domestic requirement (ISEE vs. SSAT, which level) **isn't published**. Confirm with admissions before booking a test date.",
+      "of": "abf379a1",
+      "at": [
+        "providence-day:guide.bands[2].watchOuts[0].text"
+      ],
+      "t": "Tès estandadize obligatwa, epi ISEE se sèl tès lekòl la nonmen — men egzijans egzak la pou moun ki nan peyi a (ISEE oswa SSAT, ki nivo) **pa pibliye**. Konfime l ak admisyon anvan w rezève yon dat tès."
+    },
+    {
+      "text": "International applicants",
+      "of": "8a721542",
+      "at": [
+        "providence-day:guide.bands[2].watchOuts[1].kicker"
+      ],
+      "t": "Moun k ap aplike depi lòt peyi"
+    },
+    {
+      "text": "Applicants outside China follow the grades 9–12 procedures and submit **ISEE scores plus TOEFL** (if English isn't the primary language). Applying from China and needing an I-20? The process begins with the school's partners at **TBI-New Oasis**.",
+      "of": "8367ae21",
+      "at": [
+        "providence-day:guide.bands[2].watchOuts[1].text"
+      ],
+      "t": "Moun k ap aplike andeyò Lachin swiv pwosedi klas 9–12 yo epi yo depoze **nòt ISEE ansanm ak TOEFL** (si angle se pa lang prensipal la). W ap aplike depi Lachin epi w bezwen yon I-20? Pwosesis la kòmanse ak patnè lekòl la nan **TBI-New Oasis**."
+    },
+    {
+      "text": "Testing note.",
+      "of": "3778e795",
+      "at": [
+        "providence-day:guide.bands[2].checklistCallout.lead"
+      ],
+      "t": "Nòt sou tès yo."
+    },
+    {
+      "text": "Standardized testing is required; the ISEE is the test the school references. The exact domestic requirement is not published — confirm with admissions. International applicants: ISEE + TOEFL (if English is not primary); from China with an I-20, begin via TBI-New Oasis.",
+      "of": "8f31dd11",
+      "at": [
+        "providence-day:guide.bands[2].checklistCallout.text"
+      ],
+      "t": "Tès estandadize obligatwa; ISEE se tès lekòl la site a. Egzijans egzak la pou moun ki nan peyi a pa pibliye — konfime l ak admisyon. Moun k ap aplike depi lòt peyi: ISEE + TOEFL (si angle se pa lang prensipal la); depi Lachin ak yon I-20, kòmanse pa TBI-New Oasis."
+    },
+    {
+      "text": "Submit the Grades 6–12 application and pay the fee",
+      "of": "66d706c4",
+      "at": [
+        "providence-day:guide.bands[2].checklistRows[2].action"
+      ],
+      "t": "Depoze aplikasyon klas 6–12 la epi peye frè a"
+    },
+    {
+      "text": "Register for and sit the ISEE",
+      "of": "e8835419",
+      "at": [
+        "providence-day:guide.bands[2].checklistRows[3].action"
+      ],
+      "t": "Enskri pou ISEE a epi fè l"
+    },
+    {
+      "text": "Book early enough that scores arrive before the materials deadline.",
+      "of": "d55280c8",
+      "at": [
+        "providence-day:guide.bands[2].checklistRows[3].detail"
+      ],
+      "t": "Rezève ase bonè pou nòt yo rive anvan dat limit dokiman yo."
+    },
+    {
+      "text": "Submit the transcript and recommendations",
+      "of": "0ef8af51",
+      "at": [
+        "providence-day:guide.bands[2].checklistRows[4].action"
+      ],
+      "t": "Depoze rilve nòt la ak rekòmandasyon yo"
+    },
+    {
+      "text": "Through the portal checklist, which shows exactly which forms are needed.",
+      "of": "e2b3e095",
+      "at": [
+        "providence-day:guide.bands[2].checklistRows[4].detail"
+      ],
+      "t": "Atravè lis kontwòl pòtay la, ki montre egzakteman ki fòm yo mande."
+    },
+    {
+      "text": "Running in parallel: the financial-aid clock",
+      "of": "15045be1",
+      "at": [
+        "providence-day:guide.aid.title"
+      ],
+      "t": "An menm tan: orè èd finansye a"
+    },
+    {
+      "text": "Clarity application ($65) due **Jan 22** for prospective families — complete both processes on time and the aid decision arrives inside the Enrollment Agreement. Applying for aid never influences admission; separate committees decide.",
+      "of": "faf983c3",
+      "at": [
+        "providence-day:guide.aid.text"
+      ],
+      "t": "Aplikasyon Clarity la ($65) dwe rive **22 janvye** pou fanmi k ap konsidere lekòl la — fè tou de pwosesis yo alè epi desizyon èd la ap vini andedan Kontra Enskripsyon an. Mande èd pa janm gen efè sou admisyon; se komite separe ki deside."
+    },
+    {
+      "text": "Financial Aid & Tuition",
+      "of": "801e19b8",
+      "at": [
+        "providence-day:guide.aid.button"
+      ],
+      "t": "Èd Finansye ak Frè Eskolè"
+    },
+    {
+      "text": "CROSS-BAND",
+      "of": "60faf9b9",
+      "at": [
+        "providence-day:guide.comparison.kicker"
+      ],
+      "t": "ANT NIVO YO"
+    },
+    {
+      "text": "Exactly what changes between bands",
+      "of": "2e98319a",
+      "at": [
+        "providence-day:guide.comparison.title"
+      ],
+      "t": "Egzakteman sa k chanje ant nivo yo"
+    },
+    {
+      "text": "Application due",
+      "of": "8751989b",
+      "at": [
+        "providence-day:guide.comparison.rows[0].label"
+      ],
+      "t": "Dat limit aplikasyon"
+    },
+    {
+      "text": "Materials due",
+      "of": "24ee4e87",
+      "at": [
+        "providence-day:guide.comparison.rows[1].label"
+      ],
+      "t": "Dat limit dokiman"
+    },
+    {
+      "text": "Assessment",
+      "of": "7f464e4f",
+      "at": [
+        "providence-day:guide.comparison.rows[2].label"
+      ],
+      "t": "Evalyasyon"
+    },
+    {
+      "text": "WPPSI-IV + Readiness Screening + Classroom Visit",
+      "of": "e4f9b916",
+      "at": [
+        "providence-day:guide.comparison.rows[2].cells.tkk"
+      ],
+      "t": "WPPSI-IV + Egzamen Preparasyon + Vizit nan Salklas"
+    },
+    {
+      "text": "Required — instrument not published",
+      "of": "2d4beeb2",
+      "at": [
+        "providence-day:guide.comparison.rows[2].cells.g15"
+      ],
+      "t": "Obligatwa — zouti a pa pibliye"
+    },
+    {
+      "text": "Standardized testing — ISEE referenced",
+      "of": "8982a6d7",
+      "at": [
+        "providence-day:guide.comparison.rows[2].cells.g612"
+      ],
+      "t": "Tès estandadize — yo site ISEE"
+    },
+    {
+      "text": "Recommendation",
+      "of": "eb33374e",
+      "at": [
+        "providence-day:guide.comparison.rows[3].label"
+      ],
+      "t": "Rekòmandasyon"
+    },
+    {
+      "text": "Via portal checklist — form not published",
+      "of": "096ca790",
+      "at": [
+        "providence-day:guide.comparison.rows[3].cells.g15"
+      ],
+      "t": "Atravè lis kontwòl pòtay la — fòm nan pa pibliye"
+    },
+    {
+      "text": "Via portal checklist — forms not published",
+      "of": "3fc80d2b",
+      "at": [
+        "providence-day:guide.comparison.rows[3].cells.g612"
+      ],
+      "t": "Atravè lis kontwòl pòtay la — fòm yo pa pibliye"
+    },
+    {
+      "text": "Decision & contract",
+      "of": "f4295bd1",
+      "at": [
+        "providence-day:guide.comparison.rows[4].label"
+      ],
+      "t": "Desizyon ak kontra"
+    },
+    {
+      "text": "Feb 26 → contracts Mar 5, noon",
+      "of": "6ca84b56",
+      "at": [
+        "providence-day:guide.comparison.rows[4].cells.tkk"
+      ],
+      "t": "26 fevriye → kontra 5 mas, midi"
+    },
+    {
+      "text": "4:00 p.m. release — see live calendar",
+      "of": "04c61bd6",
+      "at": [
+        "providence-day:guide.comparison.rows[4].cells.g15",
+        "providence-day:guide.comparison.rows[4].cells.g612"
+      ],
+      "t": "Yo soti 4:00 p.m. — gade kalandriye k ap mache a"
+    },
+    {
+      "text": "After first round",
+      "of": "d2c9fb93",
+      "at": [
+        "providence-day:guide.comparison.rows[5].label"
+      ],
+      "t": "Apre premye tou a"
+    },
+    {
+      "text": "Rolling review for remaining seats at each grade level — identical in every band",
+      "of": "17f47c64",
+      "at": [
+        "providence-day:guide.comparison.rows[5].cells.all"
+      ],
+      "t": "Revizyon kontinyèl pou plas ki rete nan chak klas — menm bagay nan tout nivo"
+    },
+    {
+      "text": "CONTACTS",
+      "of": "fa6ba530",
+      "at": [
+        "providence-day:guide.contacts.kicker"
+      ],
+      "t": "KONTAK"
+    },
+    {
+      "text": "The admissions office",
+      "of": "ba210c46",
+      "at": [
+        "providence-day:guide.contacts.title"
+      ],
+      "t": "Biwo admisyon an"
+    },
+    {
+      "text": "5800 Sardis Road, Charlotte, NC 28270 · main 704-887-6000",
+      "of": "9a21a040",
+      "at": [
+        "providence-day:guide.contacts.address"
+      ],
+      "t": "5800 Sardis Road, Charlotte, NC 28270 · liy prensipal 704-887-6000"
+    },
+    {
+      "text": "Asst. Head of School, Admissions & Enrollment · 704-887-6002",
+      "of": "e0fe072e",
+      "at": [
+        "providence-day:guide.contacts.people[0].detail"
+      ],
+      "t": "Direktris Adjwen Lekòl la, Admisyon ak Enskripsyon · 704-887-6002"
+    },
+    {
+      "text": "Associate Director of Admissions · 704-887-7015",
+      "of": "25dd7274",
+      "at": [
+        "providence-day:guide.contacts.people[1].detail"
+      ],
+      "t": "Direktris Asosye Admisyon · 704-887-7015"
+    },
+    {
+      "text": "Associate Director of Admissions · 704-887-6029",
+      "of": "bb2b2ee6",
+      "at": [
+        "providence-day:guide.contacts.people[2].detail"
+      ],
+      "t": "Direktris Asosye Admisyon · 704-887-6029"
+    },
+    {
+      "text": "Asst. Director of Enrollment Management · 704-887-7057",
+      "of": "a2f3863a",
+      "at": [
+        "providence-day:guide.contacts.people[3].detail"
+      ],
+      "t": "Direktris Adjwen Jesyon Enskripsyon · 704-887-7057"
+    },
+    {
+      "text": "Admissions Officer · 704-887-7511",
+      "of": "34b8b71e",
+      "at": [
+        "providence-day:guide.contacts.people[4].detail"
+      ],
+      "t": "Ajan Admisyon · 704-887-7511"
+    },
+    {
+      "text": "Admissions Officer · 704-887-7097",
+      "of": "d7e7b697",
+      "at": [
+        "providence-day:guide.contacts.people[5].detail"
+      ],
+      "t": "Ajan Admisyon · 704-887-7097"
+    },
+    {
+      "text": "Admissions Services Manager · 704-887-7040",
+      "of": "015e1ef2",
+      "at": [
+        "providence-day:guide.contacts.people[6].detail"
+      ],
+      "t": "Responsab Sèvis Admisyon · 704-887-7040"
+    },
+    {
+      "text": "Dir. of Student Billing, Financial Aid & Accounting · 704-887-7023",
+      "of": "1e375e62",
+      "at": [
+        "providence-day:guide.contacts.people[7].detail"
+      ],
+      "t": "Direktris Faktirasyon Elèv, Èd Finansye ak Kontabilite · 704-887-7023"
+    },
+    {
+      "text": "Portal: Charger Commons · providenceday.org",
+      "of": "ff35a443",
+      "at": [
+        "providence-day:guide.checklist.portalNote"
+      ],
+      "t": "Pòtay: Charger Commons · providenceday.org"
+    },
+    {
+      "text": "In parallel — the financial aid clock",
+      "of": "3e87e1fd",
+      "at": [
+        "providence-day:guide.checklist.aidPanel.kicker"
+      ],
+      "t": "An menm tan — orè èd finansye a"
+    },
+    {
+      "text": "Complete the Clarity financial-aid application ($65 fee) by Jan 22 — both custodial and non-custodial parents submit documentation.",
+      "of": "559c8bc8",
+      "at": [
+        "providence-day:guide.checklist.aidPanel.items[0]"
+      ],
+      "t": "Ranpli aplikasyon èd finansye Clarity la (frè $65) anvan 22 janvye — ni paran ki gen gad la ni sa ki pa genyen l lan dwe voye dokiman."
+    },
+    {
+      "text": "Complete both processes on time and any aid decision arrives inside the Enrollment Agreement. Applying for aid does not influence admission.",
+      "of": "d4139cb5",
+      "at": [
+        "providence-day:guide.checklist.aidPanel.items[1]"
+      ],
+      "t": "Fè tou de pwosesis yo alè epi tout desizyon sou èd la ap vini andedan Kontra Enskripsyon an. Mande èd pa gen efè sou admisyon."
+    },
+    {
+      "text": "Questions — admissions office",
+      "of": "79312c44",
+      "at": [
+        "providence-day:guide.checklist.contactPanel.kicker"
+      ],
+      "t": "Kesyon — biwo admisyon"
+    },
+    {
+      "text": "Lisa Knight, Asst. Head of School for Admissions — 704-887-6002",
+      "of": "729a968a",
+      "at": [
+        "providence-day:guide.checklist.contactPanel.lines[0]"
+      ],
+      "t": "Lisa Knight, Direktris Adjwen Lekòl la pou Admisyon — 704-887-6002"
+    },
+    {
+      "text": "Admissions main — 704-887-6000 · 5800 Sardis Road, Charlotte, NC 28270",
+      "of": "26f78a58",
+      "at": [
+        "providence-day:guide.checklist.contactPanel.lines[1]"
+      ],
+      "t": "Liy prensipal admisyon — 704-887-6000 · 5800 Sardis Road, Charlotte, NC 28270"
+    },
+    {
+      "text": "En español: Claudia Trower — 704-887-7023",
+      "of": "9281c777",
+      "at": [
+        "providence-day:guide.checklist.contactPanel.lines[2]"
+      ],
+      "t": "En español: Claudia Trower — 704-887-7023"
+    },
+    {
+      "text": "Dates are the 2026–27 entry cycle as published on the providenceday.org admissions calendar (retrieved Aug 2026); cycle dates shift year to year — verify against the live calendar before acting. Items marked \"confirm\" are not published on the website. Compiled by Charlotte School Compare; not affiliated with Providence Day School.",
+      "of": "4437f3e8",
+      "at": [
+        "providence-day:guide.checklist.disclaimer"
+      ],
+      "t": "Dat yo se sik antre 2026–27 la jan yo pibliye l sou kalandriye admisyon providenceday.org la (nou pran l nan mwa out 2026); dat sik la chanje chak ane — verifye yo sou kalandriye k ap mache a anvan ou aji. Bagay ki make \"konfime\" pa pibliye sou sit entènèt la. Se Charlotte School Compare ki rasanble l; nou pa afilye ak Providence Day School."
+    }
+  ]
+}

@@ -31,6 +31,7 @@
     "weeksSelected_other": "{{count}} সপ্তাহের ক্যাম্প"
   },
   "topics": {
+    "admissions": "ভর্তি",
     "after-school": "স্কুলের পরে",
     "college-support": "কলেজ সহায়তা",
     "course-offerings": "কোর্সের তালিকা",
@@ -41,6 +42,11 @@
     "the-arts": "আর্টস"
   },
   "metrics": {
+    "admissions.redesign-research": "ভর্তি বিষয়ক গবেষণা নথি (2026)",
+    "after-school.redesign-research": "স্কুল-পরবর্তী গবেষণা নথি (2026)",
+    "college-support.redesign-research": "কলেজ সহায়তা গবেষণা নথি (2026)",
+    "sports.redesign-research": "খেলাধুলা বিষয়ক গবেষণা নথি (2026)",
+    "summer-programs.redesign-research": "গ্রীষ্মকালীন কার্যক্রম গবেষণা নথি (2026)",
     "academic-case": "পড়াশোনার যুক্তি",
     "academic-clubs": "পড়াশোনা ও প্রতিযোগিতামূলক ক্লাব",
     "affinity": "অ্যাফিনিটি ও পরিচয়ভিত্তিক দল",
@@ -340,6 +346,7 @@
     "ncFiveYearCounts": "{{applied}} আবেদন · {{accepted}} গৃহীত"
   },
   "cards": {
+    "admissions.guide": "শ্রেণিভিত্তিক আবেদন নির্দেশিকা — TK/K · 1–5 · 6–12",
     "sports.offered": "যেসব খেলা আছে",
     "sports.record": "জয়ের রেকর্ড",
     "sports.pipeline": "কলেজে যাওয়ার পথ",
@@ -452,5 +459,12 @@
     "statusParsing": "নিউজ বোর্ড বিশ্লেষণ করা হচ্ছে…",
     "title": "সাম্প্রতিক খবর",
     "tocLabel": "সাম্প্রতিক খবর"
+  },
+  "admissions": {
+    "applyingFor": "যে স্তরে ভর্তির আবেদন",
+    "backToSection": "ভর্তি গবেষণায় ফিরে যান",
+    "checklistKicker": "Charlotte School Compare · ভর্তির চেকলিস্ট",
+    "exportChecklist": "চেকলিস্ট এক্সপোর্ট করুন",
+    "printSave": "প্রিন্ট / PDF হিসেবে সংরক্ষণ"
   }
 }
