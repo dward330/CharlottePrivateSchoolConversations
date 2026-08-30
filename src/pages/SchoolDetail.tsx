@@ -325,6 +325,26 @@ export function SchoolDetail({ slug }: { slug: string }) {
   const navigate = useNavigate()
   const school = schoolBySlug(slug)
 
+  /* Hoisted above the hooks on purpose. All three are pure lookups on `slug`,
+     and the table-of-contents seed below needs them inside a `useState`
+     initializer — which must run before the `if (!school)` early return, so
+     they cannot wait for their original positions further down the component. */
+  const brand = brandOf(slug)
+  /* Absent slug -> no chip, no rail item, no section (absence-of-data). */
+  const newsSource = newsSourceFor(slug)
+  const covered = school ? topicsForSchool(slug) : []
+
+  /* The page opens at the top, so the first table-of-contents entry that
+     renders is the section the reader is already looking at — seed the
+     selection to match it. The chain follows the render order in both tables of
+     contents (Welcome Video, Latest News, then the research areas), so the
+     seeded key always names a section that actually exists on this page. */
+  const initialKey = brand.welcomeVideoUrl
+    ? 'welcome'
+    : newsSource
+      ? 'news'
+      : (covered[0]?.slug ?? null)
+
   /* Seed from the synchronous cache so RE-VISITING a school (back button,
      language switch, navigating away and back) renders complete on the first
      pass instead of flashing "Loading research…" again.
@@ -351,9 +371,13 @@ export function SchoolDetail({ slug }: { slug: string }) {
   const [initial] = useState(seed)
   const [loaded, setLoaded] = useState<Loaded>(initial.loaded)
   const [ready, setReady] = useState(initial.ready)
-  /* The last-clicked research area in the nav keeps the active (foreground)
-     treatment so the reader can see which section they jumped to. */
-  const [activeSlug, setActiveSlug] = useState<string | null>(null)
+  /* The selected table-of-contents entry — a research-area slug, or 'welcome' /
+     'news' for the two entries that are not research areas. One variable, so
+     selection is mutually exclusive for free: exactly one entry in each table of
+     contents wears the active (foreground) treatment, and the reader can see
+     which section they jumped to. Click-driven, plus the initial seed above;
+     deliberately NOT a scroll-spy. */
+  const [activeKey, setActiveKey] = useState<string | null>(initialKey)
 
   /* Every research card is an uncontrolled <details>, which is what lets a
      reader open just the ones they want. The print toolbar drives them all at
@@ -372,10 +396,14 @@ export function SchoolDetail({ slug }: { slug: string }) {
     setAllOpen(open)
   }
 
-  const covered = school ? topicsForSchool(slug) : []
-
   useEffect(() => {
     let alive = true
+    /* This component is reused across schools — client-side navigation between
+       two school pages re-renders it rather than remounting it, so the
+       `useState` seed above runs only once. Without this reset, navigating from
+       a school with Sports selected to a different school would carry 'sports'
+       over instead of landing on the new school's Welcome Video. */
+    setActiveKey(initialKey)
     /* Only blank the page when the new school/language is NOT already cached.
        Unconditionally resetting would re-introduce the placeholder frame this
        fix removes — including on a plain re-render, since the effect re-runs
@@ -439,10 +467,6 @@ export function SchoolDetail({ slug }: { slug: string }) {
     )
   }
 
-  const brand = brandOf(slug)
-
-  /* Absent slug -> no chip, no rail item, no section (absence-of-data). */
-  const newsSource = newsSourceFor(slug)
   const totalDocs = covered.reduce((sum, t) => sum + docCount(t.slug, slug), 0)
   const otherSlugs = allSchools.map((s) => s.slug)
 
@@ -467,9 +491,9 @@ export function SchoolDetail({ slug }: { slug: string }) {
           <div className="school-header-topics">
             {brand.welcomeVideoUrl && (
               <a
-                className="chip chip-accent"
+                className={activeKey === 'welcome' ? 'chip is-active' : 'chip'}
                 href="#welcome"
-                onClick={(e) => scrollToId(e, 'welcome')}
+                onClick={(e) => { setActiveKey('welcome'); scrollToId(e, 'welcome') }}
               >
                 <PlayIcon size={10} />
                 {tr('school.welcomeVideo')}
@@ -477,9 +501,9 @@ export function SchoolDetail({ slug }: { slug: string }) {
             )}
             {newsSource && (
               <a
-                className="chip chip-accent"
+                className={activeKey === 'news' ? 'chip is-active' : 'chip'}
                 href="#news"
-                onClick={(e) => scrollToId(e, 'news')}
+                onClick={(e) => { setActiveKey('news'); scrollToId(e, 'news') }}
               >
                 <NewspaperIcon size={10} />
                 {tr('news.tocLabel')}
@@ -488,10 +512,10 @@ export function SchoolDetail({ slug }: { slug: string }) {
             {covered.map((t) => (
               <a
                 key={t.slug}
-                className={t.slug === activeSlug ? 'chip is-active' : 'chip'}
+                className={t.slug === activeKey ? 'chip is-active' : 'chip'}
                 href={`#topic-${t.slug}`}
                 onClick={(e) => {
-                  setActiveSlug(t.slug)
+                  setActiveKey(t.slug)
                   scrollToTopic(e, t.slug)
                 }}
               >
@@ -529,9 +553,13 @@ export function SchoolDetail({ slug }: { slug: string }) {
         <aside className="dossier-nav">
           {brand.welcomeVideoUrl && (
             <a
-              className="dossier-nav-welcome"
+              className={
+                activeKey === 'welcome'
+                  ? 'dossier-nav-welcome is-active'
+                  : 'dossier-nav-welcome'
+              }
               href="#welcome"
-              onClick={(e) => scrollToId(e, 'welcome')}
+              onClick={(e) => { setActiveKey('welcome'); scrollToId(e, 'welcome') }}
             >
               <PlayIcon size={13} />
               {tr('school.welcomeVideo')}
@@ -539,9 +567,11 @@ export function SchoolDetail({ slug }: { slug: string }) {
           )}
           {newsSource && (
             <a
-              className="dossier-nav-welcome"
+              className={
+                activeKey === 'news' ? 'dossier-nav-welcome is-active' : 'dossier-nav-welcome'
+              }
               href="#news"
-              onClick={(e) => scrollToId(e, 'news')}
+              onClick={(e) => { setActiveKey('news'); scrollToId(e, 'news') }}
             >
               <NewspaperIcon size={13} />
               {tr('news.tocLabel')}
@@ -551,10 +581,10 @@ export function SchoolDetail({ slug }: { slug: string }) {
           {covered.map((t) => (
             <a
               key={t.slug}
-              className={t.slug === activeSlug ? 'is-active' : undefined}
+              className={t.slug === activeKey ? 'is-active' : undefined}
               href={`#topic-${t.slug}`}
               onClick={(e) => {
-                setActiveSlug(t.slug)
+                setActiveKey(t.slug)
                 scrollToTopic(e, t.slug)
               }}
             >
