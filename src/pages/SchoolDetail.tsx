@@ -15,7 +15,7 @@ import { SchoolBadge } from '../components/SchoolBadge.tsx'
 import { TopicGlyph } from '../components/TopicGlyph.tsx'
 import { ProseContent } from '../components/ProseContent.tsx'
 import { PodcastDeepDive } from '../components/PodcastDeepDive.tsx'
-import { proseSummary, previewHasGapLanguage, proseIsEmpty } from '../lib/prose.ts'
+import { proseSummary, previewHasGapLanguage, proseIsEmpty, flattenMarkdown } from '../lib/prose.ts'
 import { toCompare, toHome, useNavigate } from '../lib/router.ts'
 import { schools as allSchools } from '../lib/manifest.ts'
 import { valueMetricsForTopic, loadMetricValuesOverlay } from '../data/metricValues.ts'
@@ -1075,12 +1075,20 @@ export function SchoolDetail({ slug }: { slug: string }) {
                                 ? clusters.verdict
                                 : catalog
                                   ? catalog.verdict
-                                  : proseSummary(g.sections[0]?.text ?? '', g.metric.label, t.slug) ||
-                                    // The stored preview is raw, unparsed text, so it can carry the
-                                    // research-gap framing the parser strips — only use it if clean.
+                                  : proseSummary(
+                                      g.sections[0]?.text ?? '',
+                                      g.metric.label,
+                                      t.slug,
+                                      g.sections[0]?.subtopic,
+                                    ) ||
+                                    /* The stored preview is raw, unparsed text: it can carry both
+                                       the research-gap framing the parser strips AND markdown
+                                       syntax, which this plain-text span would render literally
+                                       ("| Band | 2021–22 | | --- |"). Gate on the first, flatten
+                                       the second. */
                                     (previewHasGapLanguage(g.sections[0]?.preview ?? '', t.slug)
                                       ? ''
-                                      : g.sections[0]?.preview)}
+                                      : flattenMarkdown(g.sections[0]?.preview ?? ''))}
                             </span>
                           </span>
                           <span className="plusmark"><PlusIcon /></span>

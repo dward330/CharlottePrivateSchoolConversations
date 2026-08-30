@@ -729,16 +729,75 @@ function stripEmphasis(text: string): string {
     .replace(/\*\*/g, '')
 }
 
-export function proseSummary(raw: string, title?: string, topic?: string): string {
-  for (const b of parseProse(raw, title, topic)) {
+/** Flatten raw note text into something safe to show in a plain-text teaser.
+ *
+ *  The teaser renders inside a `.topic-teaser` span, so anything markdown-shaped
+ *  arrives as literal punctuation: a pipe table becomes
+ *  "| Band | 2021–22 | | --- | --- |" and an ATX heading keeps its hashes. This
+ *  strips the syntax rather than the content — heading markers go, table rows
+ *  become " · "-joined cells, bullets lose their dashes. */
+export function flattenMarkdown(raw: string): string {
+  const parts: string[] = []
+  for (const line of raw.split('\n')) {
+    const t = line.trim()
+    if (!t) continue
+    if (TABLE_DIVIDER.test(t)) continue // "|---|---|" carries no words at all
+    if (TABLE_ROW.test(t)) {
+      const cells = t.replace(/^\|/, '').replace(/\|$/, '').split('|').map((c) => c.trim()).filter(Boolean)
+      if (cells.length) parts.push(cells.join(' · '))
+      continue
+    }
+    if (/^\s{0,3}#{1,6}\s+/.test(t)) {
+      const h = stripAtx(t)
+      if (h) parts.push(h)
+      continue
+    }
+    parts.push(t.replace(BULLET, ''))
+  }
+  return stripEmphasis(parts.join(' — ').replace(/\s+/g, ' ').trim())
+}
+
+/** One line of plain text describing a note, for the collapsed card teaser.
+ *
+ *  Prefers real prose, then a "facts" run. Falls back to describing the note's
+ *  STRUCTURE — its heading and a table's column names — because many of these
+ *  notes are legitimately a heading plus a table and nothing else, and a teaser
+ *  is still owed for them. Measured 2026-08-29: 103 of 674 card teasers were
+ *  rendering raw markdown (pipe rows, `#` markers) because the last-resort branch
+ *  returned the unparsed source; the tuition-history cards made it visible, but
+ *  every topic and nearly every school was affected.
+ *
+ *  Everything returned here comes from PARSED blocks, so it inherits the gap and
+ *  provenance filtering — and the strings are the overlay-translated ones, so the
+ *  teaser is localized without this function needing `t()`. */
+export function proseSummary(raw: string, title?: string, topic?: string, subtopic?: string): string {
+  const blocks = parseProse(raw, title, topic, subtopic)
+  for (const b of blocks) {
     if (b.kind === 'para' && b.text && !b.demoted) return stripEmphasis(b.text)
     if (b.kind === 'facts' && b.lines.length) return stripEmphasis(b.lines.join(' — '))
   }
-  // No usable block. The raw text is the last resort, but it is unparsed and so
-  // unfiltered — returning it could surface gap language the parse just removed.
-  // Only fall back when the note carries no gap framing at all.
-  const flat = stripEmphasis(raw.replace(/\s+/g, ' ').trim())
-  return raw.split('\n').some((l) => isGapHeading(l, topic)) ? '' : flat
+
+  /* No prose in the note. Describe it instead: the first heading, and the first
+     table's column headers — which name what the table actually holds ("Band ·
+     2021–22 · 2022–23 …"), and are the closest thing to a summary such a note has.
+     A demoted heading counts here: it heads nothing, but it is still a title. */
+  const bits: string[] = []
+  const heading = blocks.find(
+    (b): b is Extract<ProseBlock, { kind: 'heading' } | { kind: 'para' }> =>
+      b.kind === 'heading' || (b.kind === 'para' && !!b.demoted),
+  )
+  if (heading) bits.push(stripEmphasis(heading.text))
+  const table = blocks.find((b): b is Extract<ProseBlock, { kind: 'table' }> => b.kind === 'table')
+  if (table) {
+    const cols = table.header.map((h) => stripEmphasis(h).trim()).filter(Boolean)
+    if (cols.length) bits.push(cols.join(' · '))
+  }
+  if (bits.length) return bits.join(' — ')
+
+  /* Last resort. Still never the raw source: it is unparsed, so it can carry both
+     the gap language the parse strips AND markdown syntax the teaser would render
+     literally. Flatten it, and only when the note has no gap framing at all. */
+  return raw.split('\n').some((l) => isGapHeading(l, topic)) ? '' : flattenMarkdown(raw)
 }
 
 export function parseProse(
