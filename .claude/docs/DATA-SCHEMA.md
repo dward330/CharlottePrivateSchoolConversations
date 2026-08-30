@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**11 schools × 8 research areas**, 396 ingested research documents.
+**11 schools × 9 research areas**, 397 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -54,6 +54,7 @@ exists yet and **the section does not render at all** for that school.
 
 | Research area | Slug | Cannon | Carmel Christian | Charlotte Catholic High | Charlotte Christian | Charlotte Country Day | Charlotte Latin | Covenant Day | Davidson Day | Gaston Day | Hickory Grove Christian | Providence Day |
 |---|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
+| Admissions | `admissions` | — | — | — | — | — | — | — | — | — | — | 1 |
 | Course Offerings | `course-offerings` | 1 | 2 | 1 | 1 | 1 | 1 | 4 | 1 | 1 | 2 | 1 |
 | Student Clubs | `student-clubs` | 10 | 1 | 1 | 10 | 10 | 8 | 6 | 9 | 2 | 1 | 8 |
 | The Arts | `the-arts` | 8 | 1 | 1 | 8 | 8 | 7 | 7 | 5 | 1 | 1 | 7 |
@@ -73,6 +74,12 @@ its own card** — which is a UX change, and needs approval.
 Keys below are the ones live documents actually resolve to today, with the schools that
 have material for each. `redesign-research` / `in-depth-report` keys are where a whole
 research dossier folds in behind a structured card.
+
+### Admissions `admissions`
+
+| Card key | Label | Schools | Distinct subtopic phrasings |
+|---|---|--:|--:|
+| `redesign-research` | Admissions Research Dossier (2026) | 1/11 | 1 |
 
 ### Course Offerings `course-offerings`
 
@@ -658,6 +665,40 @@ Root type `SummerProgram` · registry `SUMMER_CARDS` · `src/data/summerPrograms
 `SummerPhoto` — `src`, `caption`, `alt`
 
 `SummerProgram` — `catalog?`, `costPlanner?`, `photos?`
+
+</details>
+
+### Admissions `admissions`
+
+Root type `AdmissionsProgram` · registry `ADMISSIONS_CARDS` · `src/data/admissionsPrograms.ts` · per-school `src/data/admissionsPrograms/<slug>.ts`
+
+| Card key | Title | Parent question / kicker |
+|---|---|---|
+| `guide` | Grade-by-Grade Application Guide | Which steps, which deadlines, and which test for my child? |
+
+**Schools with data:** 1/11 — absent: `cannon`, `carmel-christian`, `charlotte-catholic`, `charlotte-christian`, `charlotte-country-day`, `charlotte-latin`, `covenant-day`, `davidson-day`, `gaston-day`, `hickory-grove-christian`
+
+<details><summary>Types defined in <code>admissionsPrograms.ts</code> (11)</summary>
+
+`AdSource` — `label`, `url?`
+
+`AdDeadline` — `value`, `label`, `unpublished?`
+
+`AdStep` — `title`, `tag`, `tagKind`, `detail`
+
+`AdWatchOut` — `kicker`
+
+`AdChecklistRow` — `action`, `detail`, `due`
+
+`AdBand` — `key`, `label`, `sublabel`, `title`, `deadlines`, `steps`, `watchOuts`, `checklistCallout`, `checklistRows`
+
+`AdComparisonRow` — `label`, `cells`
+
+`AdContact` — `name`
+
+`AdmissionsGuide` — `headline`, `cycle`, `stats`, `rules`, `spineNote`, `bands`, `aid`, `comparison`, `contacts`, `checklist`, `sources`
+
+`AdmissionsProgram` — `guide?`
 
 </details>
 

@@ -31,6 +31,22 @@ const HIDE = [
 ]
 
 const RULES: Record<string, Rule[]> = {
+  // Admissions renders as ONE structured card driven by
+  // data/admissionsPrograms.ts (the Grade-by-Grade Application Guide), not by
+  // the ingested prose — the same full substitution as Summer Programs. The
+  // research file is one long document per school whose headings the content
+  // builder slices into many subtopics ("Grade-by-Grade Application Plans",
+  // "Key findings", "Cross-band comparison", …). This single catch-all folds
+  // every one of those slices onto one key so none can slugify into an orphan
+  // prose card; the whole topic is rendered by the structured card, so there is
+  // nothing a second key could usefully separate.
+  admissions: [
+    {
+      match: /.*/,
+      key: 'redesign-research',
+      label: 'Admissions Research Dossier (2026)',
+    },
+  ],
   // Course Offerings renders as per-division cards driven by
   // data/courseOfferings.ts, not by the ingested prose. Every research file for
   // the topic folds onto ONE key so SchoolDetail can swap in the division
@@ -239,6 +255,7 @@ const RULES: Record<string, Rule[]> = {
 // listed fall to the end in manifest order (alphabetical). Edit this to reorder the
 // top-level sections without touching source-material folder names.
 const TOPIC_ORDER: string[] = [
+  'admissions',
   'course-offerings',
   'student-clubs',
   'the-arts',

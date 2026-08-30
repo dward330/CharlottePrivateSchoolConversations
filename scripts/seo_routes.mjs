@@ -41,6 +41,13 @@ const manifest = JSON.parse(
  *
  * `changefreq`/`priority` are advisory hints only; search engines largely
  * ignore them, but they cost nothing and make the sitemap self-documenting.
+ *
+ * DELIBERATELY ABSENT: `/school/<slug>/admissions-checklist/`. It is a print
+ * utility keyed by a `?band=` query parameter, its content is already on the
+ * school page it exports from, and listing it would multiply the sitemap by
+ * school × band for pages nobody should land on from search. `check:seo` cannot
+ * fail on a route it was never told about, so this is an omission by choice
+ * rather than an oversight — hence this note.
  */
 export const ROUTES = [
   { path: '/', changefreq: 'weekly', priority: '1.0' },

@@ -362,7 +362,7 @@ export function Compare({ topic, schools }: Props) {
                 {metrics.map((m) => (
                   <tr key={m.metric.key}>
                     <th scope="row" className="row-metric">
-                      <span className="row-metric-label">{metricLabel(t, m.metric.key, m.metric.label)}</span>
+                      <span className="row-metric-label">{metricLabel(t, m.metric.key, m.metric.label, activeTopic!)}</span>
                       <span className="row-metric-cov">{t('compare.coverage', { count: m.coverage, total: allSchools.length })}</span>
                     </th>
                     {cols.map((s) => {

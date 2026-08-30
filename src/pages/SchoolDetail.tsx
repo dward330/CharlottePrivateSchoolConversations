@@ -102,6 +102,15 @@ import {
   SummerProgramsCardBody,
   SummerPhotoBand,
 } from '../components/SummerPrograms.tsx'
+import {
+  admissionsProgram,
+  loadAdmissionsOverlay,
+  ADMISSIONS_CARDS,
+} from '../data/admissionsPrograms.ts'
+import {
+  AdmissionsCardBody,
+  AdmissionsStatBand,
+} from '../components/AdmissionsProgram.tsx'
 import { WelcomeVideo, PlayIcon } from '../components/WelcomeVideo.tsx'
 import { LatestNews, NewspaperIcon } from '../components/LatestNews.tsx'
 import { newsSourceFor } from '../lib/news/sources.ts'
@@ -391,6 +400,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
       loadCourseOfferingsOverlay(lang),
       loadMetricValuesOverlay(lang),
       loadFinancialAidReportOverlay(lang),
+      loadAdmissionsOverlay(lang),
       /* The content overlay must be warmed BEFORE loadMetricGroups reads it —
          it resolves blocks synchronously off the cached index, so racing them
          would render English on first paint. */
@@ -406,8 +416,9 @@ export function SchoolDetail({ slug }: { slug: string }) {
       /* The leading holes below MUST match the number of overlay loaders above.
          Adding a loader without adding a hole silently feeds its `void` result
          into Object.fromEntries as if it were a [slug, groups] pair — which is
-         what `tsc -b` caught when Summer Programs made it nine. */
-    ]).then(([, , , , , , , , , ...entries]) => {
+         what `tsc -b` caught when Summer Programs made it nine. Admissions
+         made it ten. */
+    ]).then(([, , , , , , , , , , ...entries]) => {
       if (!alive) return
       setLoaded(Object.fromEntries(entries))
       setReady(true)
@@ -715,6 +726,25 @@ export function SchoolDetail({ slug }: { slug: string }) {
               : []
             const summer = suCardList.length > 0 ? suEntry : undefined
             const suCards = suCardList
+            /* Admissions: a full substitution like the areas above — the one
+               Grade-by-Grade Application Guide card replaces the whole ingested
+               prose for the topic, which is one long research document per
+               school folded onto a single metric key by RULES['admissions'].
+
+               Ten of the eleven schools have no admissions research at all, so
+               `topicsForSchool()` never yields the topic for them and this
+               branch is never reached — the section is absent from their pages
+               entirely rather than rendering empty.
+
+               Same guard as the areas above — an entry that is present but
+               empty is still truthy, and would otherwise suppress the prose and
+               leave the whole section blank. */
+            const adEntry = t.slug === 'admissions' ? admissionsProgram(slug, lang) : undefined
+            const adCardList = adEntry
+              ? ADMISSIONS_CARDS.filter((c) => adEntry[c.key] != null)
+              : []
+            const admissions = adCardList.length > 0 ? adEntry : undefined
+            const adCards = adCardList
             const cardCount = offerings
               ? offerings.divisions.length
               : sports
@@ -727,9 +757,11 @@ export function SchoolDetail({ slug }: { slug: string }) {
                       ? asCards.length
                       : summer
                         ? suCards.length
-                        : clubs
-                          ? clubsCards.length + groups.length
-                          : groups.length
+                        : admissions
+                          ? adCards.length
+                          : clubs
+                            ? clubsCards.length + groups.length
+                            : groups.length
             return (
               <section key={t.slug} id={`topic-${t.slug}`} className="topic-section">
                 <div className="topic-section-head">
@@ -780,6 +812,16 @@ export function SchoolDetail({ slug }: { slug: string }) {
                       </div>
                     ))}
                   </div>
+                )}
+
+                {/* Admissions renders its 4-tile band from the topic's OWN data
+                    rather than from VALUE_METRICS. The strip above and the
+                    Compare table's Key Stats rows are the same array filtered by
+                    topic, so adding rows there would have shipped the Compare
+                    surface the user deferred for this area (2026-08-30). Same
+                    classes, same position — visually it is the band above. */}
+                {ready && t.slug === 'admissions' && admissions && (
+                  <AdmissionsStatBand program={admissions} />
                 )}
 
                 {!ready && <p className="loading">Loading research…</p>}
@@ -984,6 +1026,40 @@ export function SchoolDetail({ slug }: { slug: string }) {
                   </>
                 )}
 
+                {/* Admissions: one card, in its own grid like Summer Programs
+                    (Mechanism A). The substitution disjunction below empties
+                    `groups` for this topic, so the shared grid that follows
+                    renders nothing — the one-grid rule exists for Student Clubs,
+                    which MERGES structured and prose cards, and does not apply
+                    here. */}
+                {ready && t.slug === 'admissions' && admissions && (
+                  <div className="note-cards">
+                    {adCards.map((card) => (
+                      <details
+                        key={card.key}
+                        className="note-card note-card-report note-card-adm"
+                      >
+                        <summary>
+                          <span className="note-card-head">
+                            <span className="topic-title">{cardTitle(tr, 'admissions', card.key, card.title)}</span>
+                            <span className="topic-teaser">
+                              {admissions[card.key]!.headline}
+                            </span>
+                          </span>
+                          <span className="plusmark"><PlusIcon /></span>
+                        </summary>
+                        <div className="note-card-body">
+                          <AdmissionsCardBody
+                            program={admissions}
+                            cardKey={card.key}
+                            slug={slug}
+                          />
+                        </div>
+                      </details>
+                    ))}
+                  </div>
+                )}
+
                 <div className="note-cards">
                   {/* Student Clubs: the three redesigned cards, in the fixed
                       1a–1c order, ahead of the two prose cards that remain.
@@ -1025,7 +1101,8 @@ export function SchoolDetail({ slug }: { slug: string }) {
                     (t.slug === 'the-arts' && arts) ||
                     (t.slug === 'college-support' && collegeSupport) ||
                     (t.slug === 'after-school' && afterSchool) ||
-                    (t.slug === 'summer-programs' && summer)
+                    (t.slug === 'summer-programs' && summer) ||
+                    (t.slug === 'admissions' && admissions)
                       ? []
                       : groups
                   ).map((g) => {
@@ -1064,7 +1141,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                       >
                         <summary>
                           <span className="note-card-head">
-                            <span className="topic-title">{metricLabel(tr, g.metric.key, g.metric.label)}</span>
+                            <span className="topic-title">{metricLabel(tr, g.metric.key, g.metric.label, t.slug)}</span>
                             <span className="topic-teaser">
                               {/* The report replaces the prose BODY, so the teaser
                                   must come from the report too — deriving it from
@@ -1112,7 +1189,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                                 (s) =>
                                   !proseIsEmpty(
                                     s.text,
-                                    metricLabel(tr, g.metric.key, g.metric.label),
+                                    metricLabel(tr, g.metric.key, g.metric.label, t.slug),
                                     t.slug,
                                     s.subtopic,
                                   ),
@@ -1126,7 +1203,7 @@ export function SchoolDetail({ slug }: { slug: string }) {
                                   )}
                                 <ProseContent
                                   text={s.text}
-                                  title={metricLabel(tr, g.metric.key, g.metric.label)}
+                                  title={metricLabel(tr, g.metric.key, g.metric.label, t.slug)}
                                   topic={t.slug}
                                   subtopic={s.subtopic}
                                 />
