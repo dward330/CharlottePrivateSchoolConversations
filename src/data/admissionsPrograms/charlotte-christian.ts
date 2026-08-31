@@ -644,7 +644,7 @@ export const charlotteChristian: AdmissionsProgram = {
 
     aid: {
       title: 'Running in parallel: the financial-aid clock',
-      text: 'Aid runs through **SSS by NAIS** — Charlotte Christian\'s **school code is 2318** — and awards are **need-based only**, with the maximum grant **limited to 50 percent of tuition**. Two rules shape the timing: awards for new families "will not be provided until their students have been accepted," and applications "will be considered as applications are completed, but awards will be limited by the funding available at the time of completion" — so completing early matters more than the deadline suggests. Every family applying for aid **must also apply to the North Carolina Opportunity Scholarship Program**, which opens February 2. **The aid deadline for this cycle is not published** — the only dated sheet is a prior cycle\'s — so confirm it with the business office before you plan around it.',
+      text: 'Aid runs through **SSS by NAIS** (school code **2318**), is **need-based only** and is capped at **50 percent of tuition**. Every aid family must **also apply to the North Carolina Opportunity Scholarship Program**, which opens February 2. **The deadline for this cycle is not published** — confirm it with the business office.',
       button: 'Financial Aid & Tuition',
     },
 

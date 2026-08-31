@@ -538,9 +538,34 @@ already uses in eight other places and expands once, in the Grades 2–4 testing
 - `git diff main -- src/data/admissionsPrograms/ | grep '^[-+].*title:'` prints nothing —
   no `rules[].title` was touched, so the shared cross-school overlay entries are intact.
 
+### Added during Phase 1 review — the financial-aid strip
+
+The user asked for Charlotte Christian's `aid.text` to be shortened too, after seeing it
+rendered. The plan lists the financial-aid strip under **Out of scope**, so this is a
+deliberate, user-requested extension of Phase 1 rather than plan drift — recorded here so
+Phase 2 knows to expect a fifth re-stamped string.
+
+**792 → 320 chars**, cut on the same reasoning the plan applies to the watch-outs: every
+fact removed is carried in full by the printable checklist's `aidPanel` (all five items)
+and by the links block, and the paper sheet is the standalone artifact. What stays is what
+a parent must act on — the platform and school code to start with, the mandatory second
+application, and the unpublished deadline. What goes is the two long direct quotes about
+timing (dropped **entirely** rather than paraphrased, per the plan's quote rule) and the
+"completing early matters" gloss they supported.
+
+**Unlike `rules[].text`, `aid.text` DOES go through `Emphasized`**
+([AdmissionsProgram.tsx:331](src/components/AdmissionsProgram.tsx#L331)), so `**bold**` is
+real markup here and was preserved. The two fields are adjacent on the same card and
+behave oppositely — worth knowing before editing either.
+
+Browser-verified: 6 bold spans render as `<strong>`, no stray `**`, strip height 107px
+(Providence Day 88px, Country Day 127px — it is no longer the outlier). Country Day's and
+Providence Day's aid strips were left untouched.
+
 ### Note for Phase 2
 
-The plan's step 10(c) says to re-read the six rule-text stamps at implementation time. It is
-**four**, not six — Providence Day's two were not rewritten, so its two `rules[*].text`
+The plan's step 10(c) says to re-read the six rule-text stamps at implementation time. It is **five** strings, not six:
+four rule texts plus Charlotte Christian's `aid.text` (see above) — and not the same four/six
+the plan names — Providence Day's two were not rewritten, so its two `rules[*].text`
 overlay entries stay exactly as they are. The `check:live` failure above names the four
 that need re-stamping and re-translating.
