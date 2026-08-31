@@ -292,18 +292,25 @@ export function AdmissionsGuideBody({ data, slug }: { data: AdmissionsGuide; slu
 
       <DeadlineStrip band={band} />
 
-      <div className="ad-grid">
+      {/* A school may publish no band-specific watch-outs (Charlotte
+          Christian ships `watchOuts: []` by decision). The .ad-watch wrapper is
+          then skipped ENTIRELY rather than rendered empty — an empty flex
+          column still consumes its grid track — and .ad-grid collapses to one
+          column so the stepper gets the full card width. */}
+      <div className={`ad-grid${band.watchOuts.length > 0 ? '' : ' is-wide'}`}>
         <Stepper band={band} />
-        <div className="ad-watch">
-          {band.watchOuts.map((w) => (
-            <div key={w.kicker} className="ad-watch-card">
-              <div className="ad-watch-kicker">{w.kicker}</div>
-              <p className="ad-watch-text">
-                <Emphasized text={w.text} />
-              </p>
-            </div>
-          ))}
-        </div>
+        {band.watchOuts.length > 0 && (
+          <div className="ad-watch">
+            {band.watchOuts.map((w) => (
+              <div key={w.kicker} className="ad-watch-card">
+                <div className="ad-watch-kicker">{w.kicker}</div>
+                <p className="ad-watch-text">
+                  <Emphasized text={w.text} />
+                </p>
+              </div>
+            ))}
+          </div>
+        )}
       </div>
 
       {/* The financial-aid clock runs on its own calendar, in parallel with the

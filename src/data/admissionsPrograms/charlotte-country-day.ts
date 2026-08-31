@@ -80,11 +80,11 @@ export const charlotteCountryDay: AdmissionsProgram = {
     rules: [
       {
         title: 'One portal.',
-        text: 'Everything runs through Veracross: the inquiry form starts the file, your admissions portal account is where you apply, and the portal then generates a checklist personalized to your child\'s grade level that tracks every remaining step.',
+        text: 'Everything runs through Veracross: the inquiry starts your file, you apply in the portal, and it generates a checklist personalized to your child\'s grade.',
       },
       {
         title: 'Dates are cycle-specific.',
-        text: 'Every date below is the 2027–28 entry cycle, as published by the school and corroborated by the CAIS consortium brochure. Cycle dates shift year to year — verify against the live calendar before acting.',
+        text: 'Every date below is the 2027–28 entry cycle, corroborated by the CAIS consortium brochure. Cycle dates shift year to year — verify before acting.',
       },
     ],
 
