@@ -27,7 +27,7 @@ export const providenceDay: AdmissionsProgram = {
     cycle: '2026–27 entry cycle',
 
     stats: [
-      { value: '3', label: 'grade bands, each with its own process' },
+      // The 'grade bands' count tile was removed by request (2026-08-31) — not a data gap.
       {
         value: 'Jan 2, 2027',
         label: 'TK/K application deadline — earlier than everyone else',
