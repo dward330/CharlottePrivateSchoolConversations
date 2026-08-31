@@ -1,11 +1,11 @@
 ---
 name: updatesToCDSAdmissions
-title: Six trims to Charlotte Country Day's Admissions guide — two watch-out cards, three prose cuts and one checklist callout
-status: english-done
+title: Eight edits to Charlotte Country Day's Admissions guide — two watch-out cards, four prose cuts, one checklist callout and one reword
+status: implemented
 phases: 2
 created: 2026-08-31
 branch: fix/cds-admissions-trims
-prs: []
+prs: [261]
 ---
 
 # Six trims to Charlotte Country Day's Admissions guide
@@ -485,3 +485,34 @@ the only thing that catches it.
 | Re-extracting instead of splicing | Blanks all nine translated files (`t: ''`) | Called out in Context and step 15; PR #248 / #258 precedent |
 | Making the type optional without the render guard | `active.checklistCallout.lead` throws on the Grades 1–4 sheet | `tsc -b` catches it; step 7 pairs the guard with the type change |
 | Trimming the English but forgetting a stamp update | Overlay entry becomes unresolvable; locale renders English | `check:live` in the build catches every one |
+
+## Implementation notes
+
+Both phases shipped in **PR #261**. The build followed the plan; the deviations worth
+recording are all in Phase 2's execution detail, not its shape.
+
+- **Two edits were added mid-build during the English review** (7 and 8), which the plan
+  document already absorbed before Phase 2 ran. The worklist stayed at 11 stamps because
+  edit 8 rewrites the same `4a73f750` string edit 2 trims.
+- **Step 14's re-measure named exactly the eleven expected stamps**, plus one line about
+  `FOREIGN_TOPICS` / `financial-aid-tuition.content` that is an artifact of running the
+  checker with `--topic admissions`. It does not appear on a full `npm run check:live`,
+  which exits 0. No action was needed and none was taken — in particular the allowlist was
+  not edited, per the standing rule that a red gate is never cleared by touching it.
+- **The five new stamps**, recomputed with `scripts/i18n_stamp.mjs` rather than taken from
+  the checker's output: `4a73f750→ea8cc2e1`, `b002c06d→e345a6ba`, `f4958447→92343aa1`,
+  `f2534f0b→92454598`, `eb3db25a→71f78d09`.
+- **All splice assertions held on the first run** — every one of the six deleted entries
+  was sole-path `charlotte-country-day` in all nine locales, and no `at` string needed
+  editing anywhere, confirming the plan's reading that both deletions are last-element
+  removals.
+- **The shared `f4958447` entry kept both schools' paths** through the retranslation, as
+  step 16 required; verified in the shipped overlay for `es`, `ar` and `hi`.
+- **`npm run i18n:leaks` was run against the Phase-1 tree as well as the branch**, rather
+  than read in isolation. The admissions counts are identical either side
+  (4/0/2/0/5/0/3/0/0), which is what establishes that Phase 2 introduced no leak; the four
+  standing flags are pre-existing legitimate keeps.
+- **The browser pass needed a selector correction the plan could not have anticipated**:
+  the checklist band tabs are `<a class="adx-tab">`, not buttons. Worth knowing for the
+  next plan that verifies that route.
+
