@@ -588,10 +588,33 @@ header note records the removal so a later pass does not restore them as missing
 Browser-verified: Charlotte Christian's admissions source row is now **12 links and zero
 prose spans**. Country Day and Providence Day each keep their single note, untouched.
 
-### Note for Phase 2
+### Note for Phase 2 — MEASURED, supersedes step 10's counts
 
-The plan's step 10(c) says to re-read the six rule-text stamps at implementation time. It is **five** strings, not six:
-four rule texts plus Charlotte Christian's `aid.text` (see above) — and not the same four/six
-the plan names — Providence Day's two were not rewritten, so its two `rules[*].text`
-overlay entries stay exactly as they are. The `check:live` failure above names the four
-that need re-stamping and re-translating.
+The English is approved (user, 2026-08-31), so Phase 2 is clear to run. Phase 1 grew past
+the plan during review, so **step 10's counts are stale**. The authoritative worklist is
+`node scripts/check_live_resolution.mjs --verbose`, which reports **22 unresolvable stamps
+per locale**, identically across all nine — not the 17 the plan predicts. Note the checker
+**exits at the first failing locale**, so a per-locale total needs it re-run after each fix,
+and its default output is **display-capped**; use `--verbose` or the count is short.
+
+The 22, verified against the `fr` overlay:
+
+| Count | What | Operation |
+|---|---|---|
+| 16 | watch-outs — the exact stamps in step 10(a) | splice out whole; all Charlotte-Christian-only |
+| 1 | stat tile `1e27eb52` | splice out whole, then re-path its three survivors **element-wise** per step 10(b) — unchanged, still the highest-risk item |
+| 4 | rule texts: `6f367afa` + `843809fb` (Charlotte Christian), `96717b90` + `7f009b04` (Country Day) | blank `t`, re-stamp, re-translate |
+| 1 | aid text `74172915` (Charlotte Christian) | blank `t`, re-stamp, re-translate |
+
+So it is **five** strings to re-translate, not six. Two corrections to step 10(c): Providence
+Day was **not** rewritten, so its two `rules[*].text` entries stay exactly as they are; and
+Charlotte Christian's `aid.text` is a fifth string the plan never anticipated.
+
+**The two deleted source notes need NO overlay work.** `sources[].label` is not extracted —
+there is no `charlotte-christian:guide.sources[*].label` path in any work file, so the
+source row is never translated in any locale. Do not go looking for their stamps; they do
+not exist.
+
+**`aid.text` renders through `Emphasized`**, so its `**bold**` markup is real and must be
+carried into all nine translations — unlike `rules[].text`, which renders raw. Getting this
+backwards ships literal asterisks in one field or drops emphasis in the other.
