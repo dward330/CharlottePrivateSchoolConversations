@@ -83,7 +83,7 @@ export type AdStep = {
   detail: string
 }
 
-/** A band-specific "watch-out" card in the right column — exactly 2 per band. */
+/** A band-specific "watch-out" card in the right column. */
 export type AdWatchOut = { kicker: string; text: string }
 
 /** One row of the printable checklist, derived from the band's own steps. */
@@ -110,10 +110,14 @@ export type AdBand = {
   deadlines: AdDeadline[]
   /** The ordered application stepper. */
   steps: AdStep[]
-  /** Exactly two band-specific watch-outs. */
+  /** Band-specific watch-outs; may be empty, in which case none render. */
   watchOuts: AdWatchOut[]
-  /** Band-specific callout at the top of the printable checklist. */
-  checklistCallout: { lead: string; text: string }
+  /**
+   * Optional band-specific callout at the top of the printable checklist. A
+   * band that omits it opens straight at the numbered row list — the tinted
+   * bar is not emitted at all rather than rendered empty.
+   */
+  checklistCallout?: { lead: string; text: string }
   /**
    * The checklist sheet's own ordered rows. Deliberately NOT a blind copy of
    * `steps`: the paper sheet splits actions the section's stepper merges (for

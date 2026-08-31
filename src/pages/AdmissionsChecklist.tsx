@@ -121,9 +121,14 @@ export function AdmissionsChecklist({ slug, band }: { slug: string; band: string
           </div>
         </header>
 
-        <div className="adx-callout">
-          <strong>{active.checklistCallout.lead}</strong> {active.checklistCallout.text}
-        </div>
+        {/* A band may publish no callout (Country Day's Grades 1–4 by
+            decision). The tinted bar is then skipped ENTIRELY rather than
+            rendered empty, so the sheet opens straight at the row list. */}
+        {active.checklistCallout && (
+          <div className="adx-callout">
+            <strong>{active.checklistCallout.lead}</strong> {active.checklistCallout.text}
+          </div>
+        )}
 
         <ol className="adx-rows">
           {active.checklistRows.map((r) => (

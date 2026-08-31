@@ -225,8 +225,9 @@ export const charlotteChristian: AdmissionsProgram = {
         ],
         watchOuts: [],
         checklistCallout: {
-          lead: 'Your deadline is Jan 2, not Jan 15.',
-          text: 'Junior Kindergarten and Kindergarten apply two weeks ahead of every other grade and hear back six weeks earlier. The teacher recommendation is due Jan 15 — after the application, which is correct and not a misprint — and cannot be requested before November 1. The playdate is scheduled by the admissions office once your application arrives.',
+          lead: 'Your deadline is Jan 2.', // trimmed from '…, not Jan 15.' by user request, 2026-08-31
+          // 'after the application, which is correct and not a misprint' aside removed by user request, 2026-08-31.
+          text: 'Junior Kindergarten and Kindergarten apply two weeks ahead of every other grade and hear back six weeks earlier. The teacher recommendation is due Jan 15 and cannot be requested before November 1. The playdate is scheduled by the admissions office once your application arrives.',
         },
         checklistRows: [
           {

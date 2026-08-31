@@ -690,7 +690,7 @@ Root type `AdmissionsProgram` · registry `ADMISSIONS_CARDS` · `src/data/admiss
 
 `AdChecklistRow` — `action`, `detail`, `due`
 
-`AdBand` — `key`, `label`, `sublabel`, `title`, `deadlines`, `steps`, `watchOuts`, `checklistCallout`, `checklistRows`
+`AdBand` — `key`, `label`, `sublabel`, `title`, `deadlines`, `steps`, `watchOuts`, `checklistCallout?`, `checklistRows`
 
 `AdComparisonRow` — `label`, `cells`
 
