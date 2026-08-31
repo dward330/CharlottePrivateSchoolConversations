@@ -5,7 +5,7 @@ status: implemented
 phases: 1
 created: 2026-08-31
 branch: feat/remove-topic-count
-prs: []
+prs: [255]
 ---
 
 # Show the research-area header topic/division count in development only
