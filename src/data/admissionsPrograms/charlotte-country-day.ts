@@ -13,8 +13,22 @@
 // "the 2027–28 school year", the page states "Application Deadlines for the
 // 2027-28 School Year" outright, and every listed date falls in the 2026–2027
 // admission season — and corroborated by the CAIS brochure, which publishes the
-// same deadlines and notification dates for 2027–28. `rules[1]` tells the reader
-// this, because they will see the mislabelled header for themselves.
+// same deadlines and notification dates for 2027–28.
+//
+// The card does NOT say any of that (user's call, 2026-08-30). An earlier draft
+// carried a second framing rule, "Ignore the header, read the dates.", telling
+// the reader the school's own header was wrong; it was cut as too much
+// maintainer-facing argument for a parent-facing card. `rules[1]` is now the
+// plain cycle caveat every school's card carries. The finding itself is not
+// lost — it stays here, in the two research files, and in the checklist
+// disclaimer — so do not "restore" the dates to 2026–27 on the strength of the
+// school's header.
+//
+// NOTE FOR EDITORS: `rules[].text` is rendered RAW — `<strong>{title}</strong>
+// {text}` in AdmissionsProgram.tsx — so it is the one prose field on this card
+// with NO markdown support. A `**bold**` span here ships as literal asterisks
+// (it did, briefly, in that cut rule). `Emphasized` covers steps[].detail,
+// watchOuts[].text and aid.text, but not this.
 //
 // A prior enrichment check flagged stale-cache 2026–27 dates (a Dec 31, 2025
 // application deadline and a Feb 7, 2026 ISEE day). Those are the PRIOR, CLOSED
@@ -69,8 +83,8 @@ export const charlotteCountryDay: AdmissionsProgram = {
         text: 'Everything runs through Veracross: the inquiry form starts the file, your admissions portal account is where you apply, and the portal then generates a checklist personalized to your child\'s grade level that tracks every remaining step.',
       },
       {
-        title: 'Ignore the header, read the dates.',
-        text: 'The school\'s own admissions page heads these dates "2026-27" — that label is wrong. The content beneath it is the **2027–28** cycle, which the same page confirms in its own words ("Application Deadlines for the 2027-28 School Year"), and the CAIS consortium brochure publishes the same dates. Cycle dates shift year to year — verify against the live calendar before acting.',
+        title: 'Dates are cycle-specific.',
+        text: 'Every date below is the 2027–28 entry cycle, as published by the school and corroborated by the CAIS consortium brochure. Cycle dates shift year to year — verify against the live calendar before acting.',
       },
     ],
 
@@ -594,7 +608,7 @@ export const charlotteCountryDay: AdmissionsProgram = {
         ],
       },
       disclaimer:
-        'Dates are the 2027–28 entry cycle as published on the charlottecountryday.org admissions pages (retrieved Aug 2026) and corroborated by the 2027–28 CAIS consortium brochure. The school\'s own section headers label these dates "2026-27"; that header is a mislabel — the same page states "Application Deadlines for the 2027-28 School Year". Cycle dates shift year to year — verify against the live calendar before acting. Compiled by Charlotte School Compare; not affiliated with Charlotte Country Day School.',
+        'Dates are the 2027–28 entry cycle as published on the charlottecountryday.org admissions pages (retrieved Aug 2026) and corroborated by the 2027–28 CAIS consortium brochure. Cycle dates shift year to year — verify against the live calendar before acting. Compiled by Charlotte School Compare; not affiliated with Charlotte Country Day School.',
     },
 
     sources: [
