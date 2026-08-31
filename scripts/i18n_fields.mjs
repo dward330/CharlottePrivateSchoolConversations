@@ -553,9 +553,18 @@ export const PATH_OVERRIDES = new Map([
   // published", "4:00 p.m. release — see live calendar"). Prose, per band key
   // plus the `all` spanning cell, because the path matcher does suffix matching
   // only and each band key is its own path.
+  // Band keys are PER-SCHOOL, not a fixed vocabulary: Providence Day's bands
+  // break at K->1 and 5->6, Country Day's at K->1 and 4->5. Adding a school to
+  // this area therefore adds new cell paths, and an unregistered one is
+  // EXCLUDED from extraction rather than flagged at render — it ships English
+  // cells to every locale with coverage still reading 100%. The extractor
+  // reports it as unclassified (exit 1); register the new keys here.
   ['comparison.rows[].cells.tkk', true],
   ['comparison.rows[].cells.g15', true],
   ['comparison.rows[].cells.g612', true],
+  ['comparison.rows[].cells.jkk', true],
+  ['comparison.rows[].cells.g14', true],
+  ['comparison.rows[].cells.g512', true],
   ['comparison.rows[].cells.all', true],
   // "5800 Sardis Road, Charlotte, NC 28270 · main 704-887-6000" — the street
   // address round-trips char-for-char, but `main` is an English word labelling

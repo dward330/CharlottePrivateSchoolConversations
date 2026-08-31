@@ -1,11 +1,11 @@
 ---
 name: countrydayadmissions
 title: Add the Admissions research area for Charlotte Country Day School
-status: english-done
+status: implemented
 phases: 2
 created: 2026-08-30
 branch: feat/countryday-admissions
-prs: []
+prs: [252]
 ---
 
 # Add the Admissions research area for Charlotte Country Day School
@@ -404,3 +404,62 @@ deadline, and the JK/K teacher recommendation falling Jan 15 — after that band
 application deadline. All three defaults in *Open questions* were taken: both instruments
 named with the split explicit, no `$300` stat tile, and the "one evaluation serves seven
 schools" fact surfaced in the `jkk` watch-out.
+
+### Phase 2 — two defects the plan did not anticipate, both silent
+
+**1. The three new band keys were unregistered, so their comparison cells would
+have shipped English.** `PATH_OVERRIDES` in `scripts/i18n_fields.mjs` lists the
+comparison-cell paths **per band key**, and the path matcher does suffix matching
+only — so Providence Day's `tkk`/`g15`/`g612` were registered and Country Day's
+`jkk`/`g14`/`g512` were not. An unregistered path is **excluded from extraction**
+rather than flagged at render: 24 cells (8 rows × 3 bands) would have rendered
+English in all nine locales with coverage still reading 100%. The extractor does
+report it (exit 1, "3 UNCLASSIFIED field path(s)"), which is how it was caught.
+The three keys are now registered, with a comment saying band keys are per-school
+and that adding a school to this area adds new cell paths.
+
+**2. The card title rendered English in all nine locales.** Phase 1's
+`TITLE_OVERRIDES` correctly routes Country Day's heading through the
+school-scoped key `cards.admissions.guide@charlotte-country-day` — but that key
+existed in **no catalog, including `en`**, so `cardTitle()` fell back to the
+literal English string for every reader. Providence Day's title translates
+correctly, which is what made the contrast visible in the browser. `check:chrome`
+passed throughout: it audits *skip-claims*, not override keys, so nothing in the
+repo compares `TITLE_OVERRIDES` against the catalogs. Added to all ten catalogs
+by substituting the band span into each locale's existing `admissions.guide`
+translation (`TK/K · 1–5 · 6–12` → `JK/K · 1–4 · 5–12`), mirroring the shipped
+`the-arts.ladder@charlotte-country-day` precedent.
+
+Found by the **browser check**, not by any script — the same record this repo
+already has: every defect surviving to a 100% data read has been render-layer.
+
+### The extractor has no carry-over branch
+
+`i18n_extract.mjs` emits `t: ''` for every string and `--force` is the only way
+past `guardExisting()`, so re-extracting would have blanked all 149 shipped
+Providence Day translations. Phase 2 therefore extracted to a throwaway `--lang
+__probe --out <scratch>` and merged into the committed work files **keyed by
+English text**, preserving every existing `t`. The merge was verified as a clean
+superset first: 287 fresh, 149 existing, 138 new, **0 dropped**.
+
+### The cross-locale leak sweep found 5 flags, 2 of them real
+
+`find_english_leaks.mjs` has **no `--topic` flag** — passing one is silently
+ignored and yields whole-corpus counts, so the admissions delta was isolated by
+diffing against a `git stash`ed baseline. Net new flags: es +2, fr +1, it +1.
+"Campus" is a legitimate keep (the word is identical in es/fr/it). The rest were
+genuine inconsistencies with the *shipped Providence Day rendering of the same
+field*, and were aligned to it: `portalNote` (`Portal:` → `Portal de
+admisiones:` in es, `پورتال` → `سامانه` in fa, `Pòtal` → `Pòtay` in ht), the
+`cycle` label (`cycle d'entrée` → `cycle d'admission`, `ciclo di ingresso` →
+`ciclo di ammissione`, `دورهٔ ورود` → `دورهٔ پذیرش`), and ht's band labels
+(`Nivo` → `Klas`). A normalising sibling-scan over the two halves of the work
+file is what surfaced these; the leak sweep alone caught only two.
+
+### Bangla digits
+
+25 entries were first written with Bengali-script ordinals (`১ম`, `২য়–৪র্থ`).
+The shipped Bangla uses **zero** Bengali digits — grades render `1–12 শ্রেণির` —
+so all 25 were converted to Western digits before the overlay was built.
+`check_bn_numerals.mjs` reports 3 findings, all pre-existing in `metric-values`
+and identical on `main`; zero are in admissions.
