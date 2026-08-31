@@ -562,6 +562,32 @@ Browser-verified: 6 bold spans render as `<strong>`, no stray `**`, strip height
 (Providence Day 88px, Country Day 127px — it is no longer the outlier). Country Day's and
 Providence Day's aid strips were left untouched.
 
+### Also added during Phase 1 review — the two URL-less source notes
+
+The user asked for Charlotte Christian's two `Retrieved Aug 2026.` source-row paragraphs to
+go: one recording that no faith-based application component is published, one listing what
+the school does not publish (current-cycle aid deadline, waitlist, legacy/faculty-child
+preference, sibling preference beyond the JK–K track, re-application, transfer, mid-year
+entry, visa/I-20/SEVIS, 2027–28 dates and tuition). Also out of scope in the plan, so also
+recorded here as a user-requested extension.
+
+`AdSource.url` is **optional**, so these are a clean data-only deletion — no type change and
+no component change; `SourceRow` already renders a URL-less entry as a plain `<span>` and
+only bails at `sources.length === 0`. **All twelve cited URL sources are untouched**, so the
+citation surface the repo's standard cares about is intact — what went was prose sitting in
+a row of links.
+
+Checked before cutting, per the no-orphaned-findings rule: **neither note was the only
+record.** The faith finding is stated in this file's header comment and rendered to users in
+the Grades 5–12 questionnaire step ("Nothing published describes it as a faith
+questionnaire"); each not-published item is already named where it matters, the aid strip
+carrying the unpublished-deadline warning in its own text. The research file under
+`source-material/admissions/charlotte-christian/` remains the full record either way. A
+header note records the removal so a later pass does not restore them as missing provenance.
+
+Browser-verified: Charlotte Christian's admissions source row is now **12 links and zero
+prose spans**. Country Day and Providence Day each keep their single note, untouched.
+
 ### Note for Phase 2
 
 The plan's step 10(c) says to re-read the six rule-text stamps at implementation time. It is **five** strings, not six:

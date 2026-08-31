@@ -90,6 +90,20 @@
 // research file under source-material/admissions/charlotte-christian/ keeps the
 // full record regardless of what this card presents.
 //
+// THE TWO URL-LESS "Retrieved Aug 2026" SOURCE NOTES WERE REMOVED at the
+// user's request (2026-08-31) — one recording that no faith-based application
+// component is published, one listing what the school does not publish
+// (current-cycle aid deadline, waitlist, legacy/faculty-child preference,
+// re-application, transfer, visa/I-20/SEVIS, 2027-28 dates). Both were
+// prose paragraphs in a row of citation links, and both are DUPLICATES rather
+// than the only record: the faith finding is stated in this header and rendered
+// in the Grades 5-12 questionnaire step, and each not-published item is already
+// named at the point it matters (the aid strip says the deadline is not
+// published; the Grade 1 and Grades 5-12 material named the waitlist and visa
+// gaps). The eight CITED sources, all with URLs, are untouched. Do not restore
+// these as "missing provenance" — the research file under source-material/
+// remains the full record.
+//
 // The nondiscrimination statement quoted in the research file is NARROWER than
 // Country Day's (race, color, national and ethnic origin only). Each school's
 // own text is reported as published; they are never harmonized.
@@ -866,14 +880,6 @@ export const charlotteChristian: AdmissionsProgram = {
         label:
           'North Carolina Opportunity Scholarship — the second, mandatory application for every aid applicant',
         url: 'https://k12.ncseaa.edu',
-      },
-      {
-        label:
-          "Retrieved Aug 2026. No faith-based application component is published: across all three process PDFs, the admissions calendar and the apply page there is no pastoral or clergy reference, no church-membership requirement and no statement-of-faith affirmation for applicants or parents. The school's Statement of Faith governs the institution rather than applicants.",
-      },
-      {
-        label:
-          "Retrieved Aug 2026. The current-cycle financial-aid deadline, waitlist procedure, legacy/alumni and faculty-child preference, sibling preference beyond the JK–K decision track, re-application, transfer and mid-year entry, and international visa/I-20/SEVIS procedure aren't published on the pages and documents reviewed. The 2027–28 dates and tuition are not published yet. Confirm any of these directly with admissions.",
       },
     ],
   },
