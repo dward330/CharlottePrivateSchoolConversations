@@ -268,9 +268,42 @@ Business office (financial assistance): Kimberly Davenport, (704) 366-5657 ext. 
 kimberly.davenport@charchrist.com.
 
 **The prior research pass reported six named admissions staff with individual emails from a
-Meet Our Team page. That roster was NOT re-verified in this pass** — only the two contacts
-above were confirmed against a primary source. \`/implement\` should re-fetch the team page
-before shipping a contacts grid, or ship only the confirmed contacts.`},{subtopic:`NOT PUBLISHED / NOT RETRIEVED`,source_file:null,preview:`- Current-cycle financial-aid deadline — the only published sheet is prior-cycle (see the cycle audit). NOT PUBLISHED for 2026–27. - The year on "applications open February 2" for the NC Opportunity Scholarship. - Waitlist procedures; sibling preference mechanics beyond the JK–K decision track; legacy/alumni…`,text:`- **Current-cycle financial-aid deadline** — the only published sheet is prior-cycle (see
+Meet Our Team page. That roster was NOT re-verified in that pass** — only the two contacts
+above were confirmed against a primary source, so the plan defaulted to shipping those two.
+
+### Roster RE-VERIFIED 2026-08-31 during \`/implement\`
+
+The team page is at **\`/admissions/meet-the-team\`**, not the \`/meet-our-team\` spelling
+Country Day uses — the \`/meet-the-admissions-team\` guess returns **404**. Fetched directly;
+**five named staff**, each with a title and a direct email, verbatim:
+
+| Name | Title | Email |
+|---|---|---|
+| Allycia Brown | Director of Early Education and Lower School Admissions | allycia.brown@charchrist.com |
+| JoAnn Calhoun | Director of Middle and Upper School Admissions | joann.calhoun@charchrist.com |
+| Margaret Jackson ('89) | Admissions Specialist and International Student Coordinator | margaret.jackson@charchrist.com |
+| Kristen Brobst ('03) | Admissions Coordinator | kristen.brobst@charchrist.com |
+| Janet McPherson | Admissions Associate | janet.mcpherson@charchrist.com |
+
+**No individual phone numbers or extensions are published** for any of the five — the page
+carries only the department line. This differs from Country Day, whose team page lists a
+direct line per person. Do not synthesize extensions.
+
+The admissions department's own extension is **(704) 366-5657, ext. 6502** (from the
+Admissions landing page), distinct from the business office's ext. 6202.
+
+**A sixth name is listed and is NOT staff:** Ethan Walker ('27), "Admissions Prefect" — a
+student leadership position, published with no contact details. It is deliberately excluded
+from the app's contacts grid, which is a staff-contact list. This is very likely the source
+of the prior pass's "six named staff" count.
+
+**Two findings that matter beyond the contacts grid:**
+
+1. **The admissions directorship is SPLIT by division** — Early Education & Lower School vs
+ Middle & Upper School. Which director a family deals with tracks the band boundary.
+2. **There is a named International Student Coordinator** (Margaret Jackson), which is the
+ only published international-admissions contact point — the visa/I-20/SEVIS procedures
+ remain unpublished, so this person is the referral the international watch-out needs.`},{subtopic:`NOT PUBLISHED / NOT RETRIEVED`,source_file:null,preview:`- Current-cycle financial-aid deadline — the only published sheet is prior-cycle (see the cycle audit). NOT PUBLISHED for 2026–27. - The year on "applications open February 2" for the NC Opportunity Scholarship. - Waitlist procedures; sibling preference mechanics beyond the JK–K decision track; legacy/alumni…`,text:`- **Current-cycle financial-aid deadline** — the only published sheet is prior-cycle (see
  the cycle audit). NOT PUBLISHED for 2026–27.
 - **The year on "applications open February 2"** for the NC Opportunity Scholarship.
 - **Waitlist procedures; sibling preference mechanics beyond the JK–K decision track;
