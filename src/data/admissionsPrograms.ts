@@ -215,6 +215,47 @@ export function admissionsCardTitle(key: AdmissionsCardKey): string {
   return ADMISSIONS_CARDS.find((c) => c.key === key)!.title
 }
 
+/**
+ * Per-school card-title overrides, because the shared title NAMES THE BANDS.
+ *
+ * `ADMISSIONS_CARDS[0].title` ends "— TK/K · 1–5 · 6–12", which are Providence
+ * Day's bands. Those boundaries are a per-school research finding, not chrome:
+ * Country Day's process breaks at K→1 and 4→5 rather than K→1 and 5→6, and its
+ * youngest entry point is Junior Kindergarten, so it has no TK at all. Left
+ * shared, the heading above Country Day's card would advertise a band structure
+ * the card itself does not have.
+ *
+ * The Arts area hit the identical problem for the identical school and solved
+ * it this way — see `TITLE_OVERRIDES` in artsProgram.ts, where Country Day's
+ * ladder is renamed JK–12 because it "starts at JK, not TK".
+ */
+const TITLE_OVERRIDES: Record<string, Partial<Record<AdmissionsCardKey, string>>> = {
+  'charlotte-country-day': {
+    guide: 'Grade-by-Grade Application Guide — JK/K · 1–4 · 5–12',
+  },
+}
+
+/**
+ * The school slug when this school overrides the shared card title, else
+ * undefined.
+ *
+ * An override varies per school, so it is a research finding rather than chrome.
+ * `cardTitle()` uses this to look the title up under a school-scoped key
+ * (`cards.admissions.guide@charlotte-country-day`) instead of the shared one,
+ * and falls back to the school's own English wording if that key is absent.
+ */
+export function titleOverrideSlug(slug: string, key: AdmissionsCardKey): string | undefined {
+  return TITLE_OVERRIDES[slug]?.[key] != null ? slug : undefined
+}
+
+/** The card title for a school, applying any per-school override. */
+export function admissionsCardTitleFor(
+  slug: string,
+  card: (typeof ADMISSIONS_CARDS)[number],
+): string {
+  return TITLE_OVERRIDES[slug]?.[card.key] ?? card.title
+}
+
 /* ------------------------------------------------------------ school data -- */
 
 /**
@@ -230,15 +271,17 @@ import {
   type OverlayFile,
 } from '../lib/localizeData.ts'
 import { providenceDay } from './admissionsPrograms/providence-day.ts'
+import { charlotteCountryDay } from './admissionsPrograms/charlotte-country-day.ts'
 
 /**
- * ONE school, not eleven. **The other ten are deliberately absent.**
+ * TWO schools, not eleven. **The other nine are deliberately absent.**
  *
  * Nobody has researched their admissions processes — the topic infrastructure
- * is school-agnostic, but the data ships for Providence Day only. With no
- * source files under `source-material/admissions/<school>/`, the topic has no
- * `doc_count` for those schools, so `topicsForSchool()` never yields it and the
- * Admissions section does not render on their pages at all.
+ * is school-agnostic, but the data ships for Providence Day and Charlotte
+ * Country Day only. With no source files under
+ * `source-material/admissions/<school>/`, the topic has no `doc_count` for
+ * those schools, so `topicsForSchool()` never yields it and the Admissions
+ * section does not render on their pages at all.
  *
  * Adding a stub entry here would be actively wrong: an entry that exists but is
  * empty is still truthy, which is exactly the failure the card-list guard in
@@ -247,6 +290,7 @@ import { providenceDay } from './admissionsPrograms/providence-day.ts'
  */
 const PROGRAMS: Record<string, AdmissionsProgram> = {
   'providence-day': providenceDay,
+  'charlotte-country-day': charlotteCountryDay,
 }
 
 /* ---------------------------------------------------------- translations -- */
