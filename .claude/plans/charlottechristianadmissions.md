@@ -5,7 +5,7 @@ status: implemented
 phases: 2
 created: 2026-08-31
 branch: feat/charlotte-christian-admissions
-prs: []
+prs: [254]
 ---
 
 # Add the Admissions research area for Charlotte Christian School
