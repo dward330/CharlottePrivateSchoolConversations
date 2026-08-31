@@ -5503,10 +5503,18 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
 @media (max-width: 560px) {
   .ad-people { --ad-col: 1; }
 }
-/* Below ~430px three joined bands cannot share a row without forcing the card
+/* Below ~440px the joined bands cannot share a row without forcing the card
    past the viewport, so the segmented control stacks into a vertical one — the
-   shared hairline moves from the left edge to the top. */
-@media (max-width: 430px) {
+   shared hairline moves from the left edge to the top.
+
+   The threshold is 440px rather than the 430px three bands needed, because the
+   floor rises with the band count: Charlotte Christian ships FOUR bands (its
+   deadline break and its testing break sit at different grades, so no
+   three-band grouping states both), and four buttons plus the label leaked ~2px
+   past the viewport in the 431–432px window — page-level horizontal scroll,
+   which the wide-content rule forbids. Raising the breakpoint clears it for
+   every band count rather than only the one that exposed it. */
+@media (max-width: 440px) {
   .ad-bands { flex-direction: column; flex-basis: auto; }
   .ad-band + .ad-band { border-left: 1px solid var(--border); border-top: none; }
   .ad-pick-label { max-width: none; }

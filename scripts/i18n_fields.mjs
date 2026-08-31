@@ -565,6 +565,11 @@ export const PATH_OVERRIDES = new Map([
   ['comparison.rows[].cells.jkk', true],
   ['comparison.rows[].cells.g14', true],
   ['comparison.rows[].cells.g512', true],
+  // Charlotte Christian ships FOUR bands rather than three: its deadline
+  // boundary (K->1) and its assessment boundary (Grade 1->2) fall in different
+  // places, so `g1` and `g24` are its own two extra keys.
+  ['comparison.rows[].cells.g1', true],
+  ['comparison.rows[].cells.g24', true],
   ['comparison.rows[].cells.all', true],
   // "5800 Sardis Road, Charlotte, NC 28270 · main 704-887-6000" — the street
   // address round-trips char-for-char, but `main` is an English word labelling

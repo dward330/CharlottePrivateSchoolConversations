@@ -7,6 +7,7 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 ### Admissions (`admissions/`)
 
+- [Charlotte Christian School](admissions/charlotte-christian.md) — 1 docs
 - [Charlotte Country Day School](admissions/charlotte-country-day.md) — 2 docs
 - [Providence Day School](admissions/providence-day.md) — 1 docs
 
@@ -122,4 +123,4 @@ Consolidated, cheap-to-read markdown distilled from the raw PDFs in `source-mate
 
 
 ## Data layer
-- `src/data/schools.json` — 399 documents across 9 topics and 11 schools.
+- `src/data/schools.json` — 400 documents across 9 topics and 11 schools.
