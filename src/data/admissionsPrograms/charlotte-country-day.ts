@@ -164,16 +164,14 @@ export const charlotteCountryDay: AdmissionsProgram = {
         watchOuts: [
           {
             kicker: 'Why JK/K is its own band',
-            text: 'This band runs on an **entirely earlier calendar** — application Jan 2 rather than Jan 15, decisions Feb 26 rather than April 9. It also carries two requirements the older bands do not: a **separately deadlined teacher recommendation** and a **classroom visit** for your child. Miss the Jan 2 date and you are not on the Grades 1–12 track as a fallback; you are late for this one.',
+            text: 'This band runs on an **entirely earlier calendar** — applications are due Jan 2 rather than Jan 15, decisions release Feb 26 rather than April 9. It also carries two requirements the older bands do not: a **separately deadlined teacher recommendation** and a **classroom visit** for your child.',
           },
-          {
-            kicker: 'One test serves seven schools',
-            text: 'The CAIS screening is a consortium assessment: "your child will be evaluated only one time by a licensed psychologist designated by CAIS," and that single evaluation is accepted by **all seven member schools** — so applying to several Charlotte independents does not mean testing several times. Two rules bind, though: you must **apply to a school before it will consider your evaluation**, testing may happen **only once in a twelve-month period**, and any sign of coaching, tutoring or re-testing "will invalidate your application to any CAIS school."',
-          },
+          // 'One test serves seven schools' card removed by user request, 2026-08-31.
         ],
         checklistCallout: {
-          lead: 'Your deadline is Jan 2, not Jan 15.',
-          text: "Junior Kindergarten and Kindergarten apply two weeks ahead of every other grade, and hear back six weeks earlier. The teacher recommendation is due Jan 15 — after the application, which is correct and not a misprint.",
+          lead: 'Your deadline is Jan 2.', // trimmed from '…, not Jan 15.' by user request, 2026-08-31
+          // 'after the application, which is correct and not a misprint' aside removed by user request, 2026-08-31.
+          text: "Junior Kindergarten and Kindergarten apply two weeks ahead of every other grade, and hear back six weeks earlier. The teacher recommendation is due Jan 15.",
         },
         checklistRows: [
           {
@@ -301,17 +299,11 @@ export const charlotteCountryDay: AdmissionsProgram = {
         watchOuts: [
           {
             kicker: 'Same test as JK/K, different clock',
-            text: 'Grades 1–4 sit inside the **same CAIS screening population** as JK/K — the consortium brochure covers Pre-K through Grade 4 — but on the **later Grades 1–12 calendar**. So the assessment is the JK/K one while every date is the older bands\'. The instrument itself splits at **Grade 1 vs Grade 2**, not at the band boundary: a Grade 1 applicant takes the WPPSI-IV, a rising Grade 2–4 applicant the WISC-V.',
+            text: 'Grades 1–4 sit inside the **same CAIS screening population** as JK/K, but on the **later Grades 1–12 calendar**. So the assessment is the JK/K one while every date is the older bands\'. The instrument itself splits at **Grade 1 vs Grade 2**, not at the band boundary: a Grade 1 applicant takes the WPPSI-IV, a rising Grade 2–4 applicant the WISC-V.',
           },
-          {
-            kicker: 'Budget the testing fee separately',
-            text: 'The **$300** CAIS fee is paid **to the psychologist, not to the school**, and is on top of the school\'s own **$100** application fee. Payment is due within 24 hours of confirming the appointment, is non-refundable for appointments made after Jan 1, 2027, and a **$100 cancellation fee** applies once paid — with no refund at all inside 72 hours of the appointment.',
-          },
+          // 'Budget the testing fee separately' card removed by user request, 2026-08-31.
         ],
-        checklistCallout: {
-          lead: 'The portal is your material list.',
-          text: 'Unlike JK/K, grades 1–4 have no separately published recommendation deadline: your Veracross checklist itemizes exactly which recommendations and records are needed for your child\'s grade, and everything is due Feb 26.',
-        },
+        // Grades 1–4 checklist callout removed by user request, 2026-08-31.
         checklistRows: [
           {
             action: 'Submit the Veracross Inquiry Form',
