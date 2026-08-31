@@ -32,7 +32,7 @@
 //
 // The card is optional, and a school with no admissions research simply has no
 // entry — the section then does not render at all, which is the honest outcome
-// for a school whose process was never researched. Ten of the eleven schools
+// for a school whose process was never researched. Eight of the eleven schools
 // are in exactly that position today.
 
 /* ---------------------------------------------------------------- shared -- */
@@ -233,6 +233,13 @@ const TITLE_OVERRIDES: Record<string, Partial<Record<AdmissionsCardKey, string>>
   'charlotte-country-day': {
     guide: 'Grade-by-Grade Application Guide — JK/K · 1–4 · 5–12',
   },
+  // Charlotte Christian is the first school whose bands do not follow either
+  // shipped shape: Grade 1 is its OWN band, because the application deadline
+  // breaks at K→1 while the assessment breaks a grade later at 1→2, so no
+  // three-band grouping can state both facts. Four bands, four labels.
+  'charlotte-christian': {
+    guide: 'Grade-by-Grade Application Guide — JK/K · 1 · 2–4 · 5–12',
+  },
 }
 
 /**
@@ -272,13 +279,14 @@ import {
 } from '../lib/localizeData.ts'
 import { providenceDay } from './admissionsPrograms/providence-day.ts'
 import { charlotteCountryDay } from './admissionsPrograms/charlotte-country-day.ts'
+import { charlotteChristian } from './admissionsPrograms/charlotte-christian.ts'
 
 /**
- * TWO schools, not eleven. **The other nine are deliberately absent.**
+ * THREE schools, not eleven. **The other eight are deliberately absent.**
  *
  * Nobody has researched their admissions processes — the topic infrastructure
- * is school-agnostic, but the data ships for Providence Day and Charlotte
- * Country Day only. With no source files under
+ * is school-agnostic, but the data ships for Providence Day, Charlotte Country
+ * Day and Charlotte Christian only. With no source files under
  * `source-material/admissions/<school>/`, the topic has no `doc_count` for
  * those schools, so `topicsForSchool()` never yields it and the Admissions
  * section does not render on their pages at all.
@@ -291,6 +299,7 @@ import { charlotteCountryDay } from './admissionsPrograms/charlotte-country-day.
 const PROGRAMS: Record<string, AdmissionsProgram> = {
   'providence-day': providenceDay,
   'charlotte-country-day': charlotteCountryDay,
+  'charlotte-christian': charlotteChristian,
 }
 
 /* ---------------------------------------------------------- translations -- */
