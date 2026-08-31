@@ -40,7 +40,8 @@
       "text": "Grades 1–12 application deadline",
       "of": "0115e4c6",
       "at": [
-        "providence-day:guide.stats[2].label"
+        "providence-day:guide.stats[2].label",
+        "charlotte-country-day:guide.stats[2].label"
       ],
       "t": "date limite de candidature pour les niveaux 1–12"
     },
@@ -56,7 +57,8 @@
       "text": "One portal.",
       "of": "63513317",
       "at": [
-        "providence-day:guide.rules[0].title"
+        "providence-day:guide.rules[0].title",
+        "charlotte-country-day:guide.rules[0].title"
       ],
       "t": "Un seul portail."
     },
@@ -72,7 +74,8 @@
       "text": "Dates are cycle-specific.",
       "of": "799cf75d",
       "at": [
-        "providence-day:guide.rules[1].title"
+        "providence-day:guide.rules[1].title",
+        "charlotte-country-day:guide.rules[1].title"
       ],
       "t": "Les dates sont propres à chaque cycle."
     },
@@ -131,7 +134,8 @@
       "of": "f539ae89",
       "at": [
         "providence-day:guide.bands[0].deadlines[1].label",
-        "providence-day:guide.bands[1].deadlines[1].label"
+        "providence-day:guide.bands[1].deadlines[1].label",
+        "charlotte-country-day:guide.bands[1].deadlines[1].label"
       ],
       "t": "date limite de toutes les pièces et évaluations"
     },
@@ -173,7 +177,23 @@
         "providence-day:guide.bands[1].checklistRows[1].due",
         "providence-day:guide.bands[2].steps[0].tag",
         "providence-day:guide.bands[2].checklistRows[0].due",
-        "providence-day:guide.bands[2].checklistRows[1].due"
+        "providence-day:guide.bands[2].checklistRows[1].due",
+        "charlotte-country-day:guide.bands[0].steps[0].tag",
+        "charlotte-country-day:guide.bands[0].steps[1].tag",
+        "charlotte-country-day:guide.bands[0].checklistRows[0].due",
+        "charlotte-country-day:guide.bands[0].checklistRows[1].due",
+        "charlotte-country-day:guide.bands[1].steps[0].tag",
+        "charlotte-country-day:guide.bands[1].steps[1].tag",
+        "charlotte-country-day:guide.bands[1].steps[2].tag",
+        "charlotte-country-day:guide.bands[1].checklistRows[0].due",
+        "charlotte-country-day:guide.bands[1].checklistRows[1].due",
+        "charlotte-country-day:guide.bands[1].checklistRows[2].due",
+        "charlotte-country-day:guide.bands[2].steps[0].tag",
+        "charlotte-country-day:guide.bands[2].steps[1].tag",
+        "charlotte-country-day:guide.bands[2].steps[2].tag",
+        "charlotte-country-day:guide.bands[2].checklistRows[0].due",
+        "charlotte-country-day:guide.bands[2].checklistRows[1].due",
+        "charlotte-country-day:guide.bands[2].checklistRows[2].due"
       ],
       "t": "automne 2026"
     },
@@ -199,7 +219,8 @@
       "text": "by Jan 2",
       "of": "a636a187",
       "at": [
-        "providence-day:guide.bands[0].steps[1].tag"
+        "providence-day:guide.bands[0].steps[1].tag",
+        "charlotte-country-day:guide.bands[0].steps[3].tag"
       ],
       "t": "avant le 2 janvier"
     },
@@ -227,7 +248,9 @@
         "providence-day:guide.bands[0].steps[2].tag",
         "providence-day:guide.bands[0].steps[3].tag",
         "providence-day:guide.bands[0].steps[4].tag",
-        "providence-day:guide.bands[0].steps[5].tag"
+        "providence-day:guide.bands[0].steps[5].tag",
+        "charlotte-country-day:guide.bands[0].steps[5].tag",
+        "charlotte-country-day:guide.bands[0].steps[6].tag"
       ],
       "t": "avant le 1er février"
     },
@@ -294,7 +317,10 @@
       "at": [
         "providence-day:guide.bands[0].steps[6].title",
         "providence-day:guide.bands[1].steps[4].title",
-        "providence-day:guide.bands[2].steps[4].title"
+        "providence-day:guide.bands[2].steps[4].title",
+        "charlotte-country-day:guide.bands[0].steps[7].title",
+        "charlotte-country-day:guide.bands[1].steps[7].title",
+        "charlotte-country-day:guide.bands[2].steps[7].title"
       ],
       "t": "Décision → contrat et acompte"
     },
@@ -302,7 +328,8 @@
       "text": "Feb 26 → Mar 5",
       "of": "52178ca7",
       "at": [
-        "providence-day:guide.bands[0].steps[6].tag"
+        "providence-day:guide.bands[0].steps[6].tag",
+        "charlotte-country-day:guide.bands[0].steps[7].tag"
       ],
       "t": "26 février → 5 mars"
     },
@@ -425,7 +452,9 @@
       "of": "105471a1",
       "at": [
         "providence-day:guide.bands[0].checklistRows[2].due",
-        "providence-day:guide.comparison.rows[0].cells.tkk"
+        "providence-day:guide.comparison.rows[0].cells.tkk",
+        "charlotte-country-day:guide.bands[0].checklistRows[3].due",
+        "charlotte-country-day:guide.comparison.rows[0].cells.jkk"
       ],
       "t": "2 janvier 2027"
     },
@@ -445,7 +474,11 @@
         "providence-day:guide.bands[0].checklistRows[4].due",
         "providence-day:guide.bands[0].checklistRows[5].due",
         "providence-day:guide.bands[0].checklistRows[6].due",
-        "providence-day:guide.comparison.rows[1].cells.tkk"
+        "providence-day:guide.comparison.rows[1].cells.tkk",
+        "charlotte-country-day:guide.bands[0].checklistRows[5].due",
+        "charlotte-country-day:guide.bands[0].checklistRows[6].due",
+        "charlotte-country-day:guide.bands[0].checklistRows[7].due",
+        "charlotte-country-day:guide.comparison.rows[4].cells.jkk"
       ],
       "t": "1er février 2027"
     },
@@ -503,7 +536,10 @@
       "at": [
         "providence-day:guide.bands[0].checklistRows[7].action",
         "providence-day:guide.bands[1].checklistRows[5].action",
-        "providence-day:guide.bands[2].checklistRows[5].action"
+        "providence-day:guide.bands[2].checklistRows[5].action",
+        "charlotte-country-day:guide.bands[0].checklistRows[8].action",
+        "charlotte-country-day:guide.bands[1].checklistRows[7].action",
+        "charlotte-country-day:guide.bands[2].checklistRows[8].action"
       ],
       "t": "Guetter la décision"
     },
@@ -525,7 +561,17 @@
         "providence-day:guide.bands[2].checklistRows[3].due",
         "providence-day:guide.bands[2].checklistRows[4].due",
         "providence-day:guide.comparison.rows[1].cells.g15",
-        "providence-day:guide.comparison.rows[1].cells.g612"
+        "providence-day:guide.comparison.rows[1].cells.g612",
+        "charlotte-country-day:guide.bands[0].checklistRows[8].due",
+        "charlotte-country-day:guide.bands[1].checklistRows[4].due",
+        "charlotte-country-day:guide.bands[1].checklistRows[5].due",
+        "charlotte-country-day:guide.bands[1].checklistRows[6].due",
+        "charlotte-country-day:guide.bands[2].checklistRows[4].due",
+        "charlotte-country-day:guide.bands[2].checklistRows[5].due",
+        "charlotte-country-day:guide.bands[2].checklistRows[6].due",
+        "charlotte-country-day:guide.bands[2].checklistRows[7].due",
+        "charlotte-country-day:guide.comparison.rows[4].cells.g14",
+        "charlotte-country-day:guide.comparison.rows[4].cells.g512"
       ],
       "t": "26 février 2027"
     },
@@ -551,7 +597,8 @@
       "text": "Mar 5, 2027",
       "of": "a86248f5",
       "at": [
-        "providence-day:guide.bands[0].checklistRows[8].due"
+        "providence-day:guide.bands[0].checklistRows[8].due",
+        "charlotte-country-day:guide.bands[0].checklistRows[9].due"
       ],
       "t": "5 mars 2027"
     },
@@ -603,7 +650,10 @@
       "of": "6a02e2fd",
       "at": [
         "providence-day:guide.bands[1].steps[1].tag",
-        "providence-day:guide.bands[2].steps[1].tag"
+        "providence-day:guide.bands[2].steps[1].tag",
+        "charlotte-country-day:guide.bands[0].steps[4].tag",
+        "charlotte-country-day:guide.bands[1].steps[3].tag",
+        "charlotte-country-day:guide.bands[2].steps[3].tag"
       ],
       "t": "avant le 15 janvier"
     },
@@ -631,7 +681,13 @@
         "providence-day:guide.bands[1].steps[2].tag",
         "providence-day:guide.bands[1].steps[3].tag",
         "providence-day:guide.bands[2].steps[2].tag",
-        "providence-day:guide.bands[2].steps[3].tag"
+        "providence-day:guide.bands[2].steps[3].tag",
+        "charlotte-country-day:guide.bands[1].steps[4].tag",
+        "charlotte-country-day:guide.bands[1].steps[5].tag",
+        "charlotte-country-day:guide.bands[1].steps[6].tag",
+        "charlotte-country-day:guide.bands[2].steps[4].tag",
+        "charlotte-country-day:guide.bands[2].steps[5].tag",
+        "charlotte-country-day:guide.bands[2].steps[6].tag"
       ],
       "t": "avant le 26 février"
     },
@@ -744,7 +800,12 @@
         "providence-day:guide.bands[1].checklistRows[2].due",
         "providence-day:guide.bands[2].checklistRows[2].due",
         "providence-day:guide.comparison.rows[0].cells.g15",
-        "providence-day:guide.comparison.rows[0].cells.g612"
+        "providence-day:guide.comparison.rows[0].cells.g612",
+        "charlotte-country-day:guide.bands[0].checklistRows[4].due",
+        "charlotte-country-day:guide.bands[1].checklistRows[3].due",
+        "charlotte-country-day:guide.bands[2].checklistRows[3].due",
+        "charlotte-country-day:guide.comparison.rows[0].cells.g14",
+        "charlotte-country-day:guide.comparison.rows[0].cells.g512"
       ],
       "t": "15 janvier 2027"
     },
@@ -819,7 +880,8 @@
       "text": "all materials & testing due",
       "of": "47511426",
       "at": [
-        "providence-day:guide.bands[2].deadlines[1].label"
+        "providence-day:guide.bands[2].deadlines[1].label",
+        "charlotte-country-day:guide.bands[2].deadlines[1].label"
       ],
       "t": "date limite de toutes les pièces et des tests"
     },
@@ -883,7 +945,8 @@
       "text": "International applicants",
       "of": "8a721542",
       "at": [
-        "providence-day:guide.bands[2].watchOuts[1].kicker"
+        "providence-day:guide.bands[2].watchOuts[1].kicker",
+        "charlotte-country-day:guide.bands[2].watchOuts[1].kicker"
       ],
       "t": "Candidats internationaux"
     },
@@ -923,7 +986,8 @@
       "text": "Register for and sit the ISEE",
       "of": "e8835419",
       "at": [
-        "providence-day:guide.bands[2].checklistRows[3].action"
+        "providence-day:guide.bands[2].checklistRows[3].action",
+        "charlotte-country-day:guide.bands[2].checklistRows[4].action"
       ],
       "t": "S’inscrire à l’ISEE et le passer"
     },
@@ -955,7 +1019,8 @@
       "text": "Running in parallel: the financial-aid clock",
       "of": "15045be1",
       "at": [
-        "providence-day:guide.aid.title"
+        "providence-day:guide.aid.title",
+        "charlotte-country-day:guide.aid.title"
       ],
       "t": "En parallèle : le calendrier de l’aide financière"
     },
@@ -971,7 +1036,8 @@
       "text": "Financial Aid & Tuition",
       "of": "801e19b8",
       "at": [
-        "providence-day:guide.aid.button"
+        "providence-day:guide.aid.button",
+        "charlotte-country-day:guide.aid.button"
       ],
       "t": "Aide financière et frais de scolarité"
     },
@@ -979,7 +1045,8 @@
       "text": "CROSS-BAND",
       "of": "60faf9b9",
       "at": [
-        "providence-day:guide.comparison.kicker"
+        "providence-day:guide.comparison.kicker",
+        "charlotte-country-day:guide.comparison.kicker"
       ],
       "t": "ENTRE NIVEAUX"
     },
@@ -987,7 +1054,8 @@
       "text": "Exactly what changes between bands",
       "of": "2e98319a",
       "at": [
-        "providence-day:guide.comparison.title"
+        "providence-day:guide.comparison.title",
+        "charlotte-country-day:guide.comparison.title"
       ],
       "t": "Ce qui change exactement d’un niveau à l’autre"
     },
@@ -995,7 +1063,8 @@
       "text": "Application due",
       "of": "8751989b",
       "at": [
-        "providence-day:guide.comparison.rows[0].label"
+        "providence-day:guide.comparison.rows[0].label",
+        "charlotte-country-day:guide.comparison.rows[0].label"
       ],
       "t": "Date limite de candidature"
     },
@@ -1108,7 +1177,8 @@
       "text": "CONTACTS",
       "of": "fa6ba530",
       "at": [
-        "providence-day:guide.contacts.kicker"
+        "providence-day:guide.contacts.kicker",
+        "charlotte-country-day:guide.contacts.kicker"
       ],
       "t": "CONTACTS"
     },
@@ -1116,7 +1186,8 @@
       "text": "The admissions office",
       "of": "ba210c46",
       "at": [
-        "providence-day:guide.contacts.title"
+        "providence-day:guide.contacts.title",
+        "charlotte-country-day:guide.contacts.title"
       ],
       "t": "Le service des admissions"
     },
@@ -1204,7 +1275,8 @@
       "text": "In parallel — the financial aid clock",
       "of": "3e87e1fd",
       "at": [
-        "providence-day:guide.checklist.aidPanel.kicker"
+        "providence-day:guide.checklist.aidPanel.kicker",
+        "charlotte-country-day:guide.checklist.aidPanel.kicker"
       ],
       "t": "En parallèle : le calendrier de l’aide financière"
     },
@@ -1228,7 +1300,8 @@
       "text": "Questions — admissions office",
       "of": "79312c44",
       "at": [
-        "providence-day:guide.checklist.contactPanel.kicker"
+        "providence-day:guide.checklist.contactPanel.kicker",
+        "charlotte-country-day:guide.checklist.contactPanel.kicker"
       ],
       "t": "Questions : service des admissions"
     },
@@ -1263,6 +1336,1165 @@
         "providence-day:guide.checklist.disclaimer"
       ],
       "t": "Les dates correspondent au cycle d’admission 2026–27 tel que publié au calendrier des admissions de providenceday.org (consulté en août 2026) ; les dates du cycle changent d’une année à l’autre : vérifiez-les au calendrier en ligne avant d’agir. Les éléments marqués « à confirmer » ne sont pas publiés sur le site. Compilé par Charlotte School Compare ; sans lien avec Providence Day School."
+    },
+    {
+      "text": "Pick your child's entry point and the guide personalizes: the steps in order, the 2027–28 deadlines, and the testing for that band — plus a printable checklist to take with you. One shared six-step process, but it breaks twice — at Kindergarten→1 and again at Grade 4→5.",
+      "of": "d95a9b0c",
+      "at": [
+        "charlotte-country-day:guide.headline"
+      ],
+      "t": "Choisissez le niveau d’entrée de votre enfant et le guide s’adapte : les étapes dans l’ordre, les échéances 2027–28 et les tests correspondants, ainsi qu’une check-list imprimable à emporter. Un seul processus commun en six étapes, mais qui se scinde deux fois : entre le Kindergarten et la 1re, puis de nouveau entre la 4e et la 5e."
+    },
+    {
+      "text": "2027–28 entry cycle",
+      "of": "639aa0b9",
+      "at": [
+        "charlotte-country-day:guide.cycle"
+      ],
+      "t": "cycle d’admission 2027–28"
+    },
+    {
+      "text": "grade bands, each with its own calendar",
+      "of": "67f7b475",
+      "at": [
+        "charlotte-country-day:guide.stats[0].label"
+      ],
+      "t": "niveaux d’entrée, chacun avec son propre calendrier"
+    },
+    {
+      "text": "JK/K application deadline — two weeks ahead of everyone else",
+      "of": "0a55ba87",
+      "at": [
+        "charlotte-country-day:guide.stats[1].label"
+      ],
+      "t": "date limite de candidature JK/K : deux semaines avant tous les autres"
+    },
+    {
+      "text": "enrollment deposit — of tuition, credited toward it",
+      "of": "27f1c3e0",
+      "at": [
+        "charlotte-country-day:guide.stats[3].label"
+      ],
+      "t": "acompte d’inscription : des frais de scolarité, et déduit de ceux-ci"
+    },
+    {
+      "text": "Everything runs through Veracross: the inquiry form starts the file, your admissions portal account is where you apply, and the portal then generates a checklist personalized to your child's grade level that tracks every remaining step.",
+      "of": "96717b90",
+      "at": [
+        "charlotte-country-day:guide.rules[0].text"
+      ],
+      "t": "Tout passe par Veracross : le formulaire de renseignement ouvre votre dossier, le compte du portail des admissions est l’endroit où vous candidatez, et le portail génère ensuite une check-list personnalisée selon le niveau de votre enfant qui suit chacune des étapes restantes."
+    },
+    {
+      "text": "Every date below is the 2027–28 entry cycle, as published by the school and corroborated by the CAIS consortium brochure. Cycle dates shift year to year — verify against the live calendar before acting.",
+      "of": "7f009b04",
+      "at": [
+        "charlotte-country-day:guide.rules[1].text"
+      ],
+      "t": "Toutes les dates ci-dessous correspondent au cycle d’entrée 2027–28, tel que publié par l’école et confirmé par la brochure du consortium CAIS. Les dates changent d’une année à l’autre : vérifiez-les sur le calendrier en ligne avant d’agir."
+    },
+    {
+      "text": "Six published steps in every band — start your journey → submit an application → complete an entrance test → meet with a faculty member → provide supporting materials → follow your progress. What changes is step 3 (which test), the application deadline, and which decision track you land on.",
+      "of": "15531cc1",
+      "at": [
+        "charlotte-country-day:guide.spineNote"
+      ],
+      "t": "Six étapes publiées pour chaque niveau : commencez votre parcours → déposez une candidature → passez un test d’entrée → rencontrez un enseignant → fournissez les pièces justificatives → suivez votre progression. Ce qui change, c’est l’étape 3 (quel test), la date limite de candidature et la filière de décision dans laquelle vous vous inscrivez."
+    },
+    {
+      "text": "JK / Kindergarten",
+      "of": "9c31b86d",
+      "at": [
+        "charlotte-country-day:guide.bands[0].label"
+      ],
+      "t": "JK / Kindergarten"
+    },
+    {
+      "text": "CAIS screening · earlier calendar",
+      "of": "2e681cae",
+      "at": [
+        "charlotte-country-day:guide.bands[0].sublabel"
+      ],
+      "t": "Évaluation CAIS · calendrier avancé"
+    },
+    {
+      "text": "Junior Kindergarten & Kindergarten",
+      "of": "bad2eaf6",
+      "at": [
+        "charlotte-country-day:guide.bands[0].title"
+      ],
+      "t": "Junior Kindergarten et Kindergarten"
+    },
+    {
+      "text": "application form + $100 fee due",
+      "of": "8f6148fd",
+      "at": [
+        "charlotte-country-day:guide.bands[0].deadlines[0].label",
+        "charlotte-country-day:guide.bands[1].deadlines[0].label",
+        "charlotte-country-day:guide.bands[2].deadlines[0].label"
+      ],
+      "t": "date limite du formulaire de candidature et des frais de $100"
+    },
+    {
+      "text": "CAIS testing & classroom visit due",
+      "of": "f88e3229",
+      "at": [
+        "charlotte-country-day:guide.bands[0].deadlines[1].label"
+      ],
+      "t": "date limite du test CAIS et de la visite en classe"
+    },
+    {
+      "text": "decisions released",
+      "of": "6b93e04b",
+      "at": [
+        "charlotte-country-day:guide.bands[0].deadlines[2].label",
+        "charlotte-country-day:guide.bands[1].deadlines[2].label",
+        "charlotte-country-day:guide.bands[2].deadlines[2].label"
+      ],
+      "t": "publication des décisions"
+    },
+    {
+      "text": "family response due",
+      "of": "8ebe19b2",
+      "at": [
+        "charlotte-country-day:guide.bands[0].deadlines[3].label",
+        "charlotte-country-day:guide.bands[1].deadlines[3].label",
+        "charlotte-country-day:guide.bands[2].deadlines[3].label"
+      ],
+      "t": "date limite de réponse de la famille"
+    },
+    {
+      "text": "Submit the Inquiry Form",
+      "of": "3118ab2b",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[0].title",
+        "charlotte-country-day:guide.bands[1].steps[0].title",
+        "charlotte-country-day:guide.bands[2].steps[0].title"
+      ],
+      "t": "Déposer le formulaire de renseignement"
+    },
+    {
+      "text": "The Veracross inquiry form opens your file and is where inquiry, event RSVP and application all live in one place.",
+      "of": "b0aa88d7",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[0].detail",
+        "charlotte-country-day:guide.bands[1].steps[0].detail",
+        "charlotte-country-day:guide.bands[2].steps[0].detail"
+      ],
+      "t": "Le formulaire de renseignement Veracross ouvre votre dossier et réunit au même endroit la demande d’information, l’inscription aux événements et la candidature."
+    },
+    {
+      "text": "Create your Admissions Portal account",
+      "of": "1b6eacdb",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[1].title",
+        "charlotte-country-day:guide.bands[0].checklistRows[1].action",
+        "charlotte-country-day:guide.bands[1].steps[1].title",
+        "charlotte-country-day:guide.bands[1].checklistRows[1].action",
+        "charlotte-country-day:guide.bands[2].steps[1].title",
+        "charlotte-country-day:guide.bands[2].checklistRows[1].action"
+      ],
+      "t": "Créer votre compte du portail des admissions"
+    },
+    {
+      "text": "The portal generates a checklist personalized to your grade level and is where you book a campus visit.",
+      "of": "5c6ec227",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[1].detail",
+        "charlotte-country-day:guide.bands[1].steps[1].detail",
+        "charlotte-country-day:guide.bands[2].steps[1].detail"
+      ],
+      "t": "Le portail génère une check-list personnalisée selon le niveau et c’est là que vous réservez une visite du campus."
+    },
+    {
+      "text": "Attend the JK/K Open House",
+      "of": "83dbf269",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[2].title"
+      ],
+      "t": "Assister aux portes ouvertes JK/K"
+    },
+    {
+      "text": "Oct 14, 2026",
+      "of": "55a12610",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[2].tag",
+        "charlotte-country-day:guide.bands[0].checklistRows[2].due"
+      ],
+      "t": "14 octobre 2026"
+    },
+    {
+      "text": "9:30 a.m. on the Cannon Campus — the one open house the school names for this band. Recommended, not marked required.",
+      "of": "4d25f88e",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[2].detail"
+      ],
+      "t": "9h30 sur le Cannon Campus : les seules portes ouvertes que l’école indique pour ce niveau. Recommandées, mais pas signalées comme obligatoires."
+    },
+    {
+      "text": "Submit the application + $100 fee",
+      "of": "b015dc80",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[3].title",
+        "charlotte-country-day:guide.bands[1].steps[3].title",
+        "charlotte-country-day:guide.bands[2].steps[3].title"
+      ],
+      "t": "Déposer la candidature et régler les frais de $100"
+    },
+    {
+      "text": "Two weeks earlier than every other grade. \"A $100 fee is required as part of your child's application.\"",
+      "of": "51591e2b",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[3].detail"
+      ],
+      "t": "Deux semaines avant tous les autres niveaux. « Des frais de $100 sont exigés dans le cadre de la candidature de votre enfant. »"
+    },
+    {
+      "text": "Teacher recommendation(s)",
+      "of": "36cce318",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[4].title"
+      ],
+      "t": "Recommandation(s) d’enseignant"
+    },
+    {
+      "text": "Listed as its own line on the school's timeline — and it falls **after** the Jan 2 application deadline, not before it. Not a typo: apply first, then the recommendation follows.",
+      "of": "79815e43",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[4].detail"
+      ],
+      "t": "Figure comme une ligne distincte sur le calendrier de l’école — et elle tombe **après** la date limite de candidature du 2 janvier, non avant. Ce n’est pas une coquille : on candidate d’abord, la recommandation suit."
+    },
+    {
+      "text": "CAIS screening + classroom visit",
+      "of": "e75bbd88",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[5].title"
+      ],
+      "t": "Évaluation CAIS et visite en classe"
+    },
+    {
+      "text": "Both due on the same date. The screening is the WPPSI-IV, booked and paid for directly with a CAIS-designated psychologist ($300, separate from the school's $100 fee) — appointments open the day after Labor Day. The classroom visit is your child's, on campus.",
+      "of": "d9c62b07",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[5].detail"
+      ],
+      "t": "Les deux sont dues le même jour. L’évaluation est le WPPSI-IV, réservée et réglée directement auprès d’un psychologue désigné par le CAIS ($300, distincts des frais de $100 de l’école) — les rendez-vous ouvrent le lendemain du Labor Day. La visite en classe est celle de votre enfant, sur le campus."
+    },
+    {
+      "text": "Meet with a faculty member",
+      "of": "1a23e081",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[6].title",
+        "charlotte-country-day:guide.bands[1].steps[5].title",
+        "charlotte-country-day:guide.bands[2].steps[5].title"
+      ],
+      "t": "Rencontrer un enseignant"
+    },
+    {
+      "text": "Step 4 of the shared process — \"each applicant meets with a grade-appropriate member of our faculty.\"",
+      "of": "9d73c65b",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[6].detail",
+        "charlotte-country-day:guide.bands[1].steps[5].detail",
+        "charlotte-country-day:guide.bands[2].steps[5].detail"
+      ],
+      "t": "Étape 4 du processus commun : « chaque candidat rencontre un membre de notre corps enseignant du niveau correspondant »."
+    },
+    {
+      "text": "Decisions release Feb 26 and your response is due Mar 5. The enrollment contract carries a deposit of 10% of tuition, credited toward the total; families with an aid application in play pay a reduced deposit that is refundable if the award falls short.",
+      "of": "79f8b611",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[7].detail"
+      ],
+      "t": "Les décisions sortent le 26 février et votre réponse est attendue le 5 mars. Le contrat d’inscription prévoit un acompte de 10% des frais de scolarité, déduit du total ; les familles dont une demande d’aide est en cours versent un acompte réduit, remboursable si l’aide accordée est insuffisante."
+    },
+    {
+      "text": "Why JK/K is its own band",
+      "of": "11ad6e67",
+      "at": [
+        "charlotte-country-day:guide.bands[0].watchOuts[0].kicker"
+      ],
+      "t": "Pourquoi JK/K forme un niveau à part"
+    },
+    {
+      "text": "This band runs on an **entirely earlier calendar** — application Jan 2 rather than Jan 15, decisions Feb 26 rather than April 9. It also carries two requirements the older bands do not: a **separately deadlined teacher recommendation** and a **classroom visit** for your child. Miss the Jan 2 date and you are not on the Grades 1–12 track as a fallback; you are late for this one.",
+      "of": "4a73f750",
+      "at": [
+        "charlotte-country-day:guide.bands[0].watchOuts[0].text"
+      ],
+      "t": "Ce niveau suit un **calendrier entièrement avancé** : candidature le 2 janvier plutôt que le 15 janvier, décisions le 26 février plutôt que le 9 avril. Il comporte en outre deux exigences que les niveaux supérieurs n’ont pas : une **recommandation d’enseignant avec sa propre échéance** et une **visite en classe** pour votre enfant. Si vous manquez la date du 2 janvier, vous ne basculez pas sur la filière des niveaux 1–12 comme solution de repli : vous êtes simplement en retard pour celle-ci."
+    },
+    {
+      "text": "One test serves seven schools",
+      "of": "a920c12f",
+      "at": [
+        "charlotte-country-day:guide.bands[0].watchOuts[1].kicker"
+      ],
+      "t": "Un seul test vaut pour sept écoles"
+    },
+    {
+      "text": "The CAIS screening is a consortium assessment: \"your child will be evaluated only one time by a licensed psychologist designated by CAIS,\" and that single evaluation is accepted by **all seven member schools** — so applying to several Charlotte independents does not mean testing several times. Two rules bind, though: you must **apply to a school before it will consider your evaluation**, testing may happen **only once in a twelve-month period**, and any sign of coaching, tutoring or re-testing \"will invalidate your application to any CAIS school.\"",
+      "of": "bc71c525",
+      "at": [
+        "charlotte-country-day:guide.bands[0].watchOuts[1].text"
+      ],
+      "t": "L’évaluation CAIS est une évaluation du consortium : « votre enfant ne sera évalué qu’une seule fois par un psychologue agréé désigné par le CAIS », et cette évaluation unique est acceptée par **les sept écoles membres** — candidater à plusieurs écoles indépendantes de Charlotte n’oblige donc pas à passer plusieurs tests. Deux règles s’appliquent cependant : vous devez **candidater à une école avant qu’elle n’examine votre évaluation**, le test ne peut avoir lieu **qu’une fois par période de douze mois**, et tout indice de préparation ciblée, de cours particuliers ou de repassage « invalidera votre candidature auprès de toute école du CAIS »."
+    },
+    {
+      "text": "Your deadline is Jan 2, not Jan 15.",
+      "of": "f4958447",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistCallout.lead"
+      ],
+      "t": "Votre date limite est le 2 janvier, pas le 15 janvier."
+    },
+    {
+      "text": "Junior Kindergarten and Kindergarten apply two weeks ahead of every other grade, and hear back six weeks earlier. The teacher recommendation is due Jan 15 — after the application, which is correct and not a misprint.",
+      "of": "f2534f0b",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistCallout.text"
+      ],
+      "t": "Le Junior Kindergarten et le Kindergarten candidatent deux semaines avant tous les autres niveaux et reçoivent leur réponse six semaines plus tôt. La recommandation d’enseignant est due le 15 janvier — après la candidature, ce qui est exact et non une erreur d’impression."
+    },
+    {
+      "text": "Submit the Veracross Inquiry Form",
+      "of": "bc83696b",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[0].action",
+        "charlotte-country-day:guide.bands[1].checklistRows[0].action",
+        "charlotte-country-day:guide.bands[2].checklistRows[0].action"
+      ],
+      "t": "Déposer le formulaire de renseignement Veracross"
+    },
+    {
+      "text": "Opens your file; inquiry, event RSVP and application all run through it.",
+      "of": "f75b157b",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[0].detail",
+        "charlotte-country-day:guide.bands[1].checklistRows[0].detail",
+        "charlotte-country-day:guide.bands[2].checklistRows[0].detail"
+      ],
+      "t": "Ouvre votre dossier ; demande d’information, inscription aux événements et candidature passent toutes par lui."
+    },
+    {
+      "text": "Generates the grade-level checklist and books your campus visit.",
+      "of": "5d967102",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[1].detail",
+        "charlotte-country-day:guide.bands[1].checklistRows[1].detail",
+        "charlotte-country-day:guide.bands[2].checklistRows[1].detail"
+      ],
+      "t": "Génère la check-list correspondant au niveau et réserve votre visite du campus."
+    },
+    {
+      "text": "Attend the JK/K Admissions Open House",
+      "of": "6c0f8429",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[2].action"
+      ],
+      "t": "Assister aux portes ouvertes des admissions JK/K"
+    },
+    {
+      "text": "9:30 a.m., Cannon Campus. Recommended, not required.",
+      "of": "931fc684",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[2].detail"
+      ],
+      "t": "9h30, Cannon Campus. Recommandées, non obligatoires."
+    },
+    {
+      "text": "Submit the application and pay the $100 fee",
+      "of": "2da568b7",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[3].action",
+        "charlotte-country-day:guide.bands[1].checklistRows[3].action",
+        "charlotte-country-day:guide.bands[2].checklistRows[3].action"
+      ],
+      "t": "Déposer la candidature et régler les frais de $100"
+    },
+    {
+      "text": "Two weeks earlier than the Grades 1–12 deadline.",
+      "of": "145b19b5",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[3].detail"
+      ],
+      "t": "Deux semaines avant la date limite des niveaux 1–12."
+    },
+    {
+      "text": "Have the teacher recommendation(s) sent",
+      "of": "915a311f",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[4].action"
+      ],
+      "t": "Faire envoyer la ou les recommandations d’enseignant"
+    },
+    {
+      "text": "Falls after the application deadline — apply first, recommendation follows.",
+      "of": "06d89179",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[4].detail"
+      ],
+      "t": "Tombe après la date limite de candidature : on candidate d’abord, la recommandation suit."
+    },
+    {
+      "text": "Book and complete the CAIS screening (WPPSI-IV)",
+      "of": "970c0335",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[5].action"
+      ],
+      "t": "Réserver et passer l’évaluation CAIS (WPPSI-IV)"
+    },
+    {
+      "text": "Scheduled directly with a CAIS-designated psychologist; $300, paid to the psychologist.",
+      "of": "0c693fa0",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[5].detail"
+      ],
+      "t": "Fixée directement avec un psychologue désigné par le CAIS ; $300, réglés au psychologue."
+    },
+    {
+      "text": "Complete your child's classroom visit",
+      "of": "89030381",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[6].action"
+      ],
+      "t": "Faire effectuer la visite en classe de votre enfant"
+    },
+    {
+      "text": "Shares the same deadline as the CAIS screening.",
+      "of": "6a59ac09",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[6].detail"
+      ],
+      "t": "Même date limite que l’évaluation CAIS."
+    },
+    {
+      "text": "Meet with a grade-appropriate faculty member",
+      "of": "fa2faeaa",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[7].action",
+        "charlotte-country-day:guide.bands[1].checklistRows[5].action",
+        "charlotte-country-day:guide.bands[2].checklistRows[5].action"
+      ],
+      "t": "Rencontrer un enseignant du niveau correspondant"
+    },
+    {
+      "text": "Step 4 of the shared six-step process.",
+      "of": "95b3037a",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[7].detail",
+        "charlotte-country-day:guide.bands[1].checklistRows[5].detail",
+        "charlotte-country-day:guide.bands[2].checklistRows[5].detail"
+      ],
+      "t": "Étape 4 du processus commun en six étapes."
+    },
+    {
+      "text": "Six weeks ahead of the Grades 1–12 track.",
+      "of": "71e01f03",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[8].detail"
+      ],
+      "t": "Six semaines avant la filière des niveaux 1–12."
+    },
+    {
+      "text": "Return your response and the enrollment contract",
+      "of": "e4d9dfa1",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[9].action",
+        "charlotte-country-day:guide.bands[1].checklistRows[8].action",
+        "charlotte-country-day:guide.bands[2].checklistRows[9].action"
+      ],
+      "t": "Renvoyer votre réponse et le contrat d’inscription"
+    },
+    {
+      "text": "Deposit is 10% of tuition, credited toward the total.",
+      "of": "0925c078",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[9].detail",
+        "charlotte-country-day:guide.bands[1].checklistRows[8].detail",
+        "charlotte-country-day:guide.bands[2].checklistRows[9].detail"
+      ],
+      "t": "L’acompte est de 10% des frais de scolarité, déduit du total."
+    },
+    {
+      "text": "Grades 1–4",
+      "of": "c3d4535d",
+      "at": [
+        "charlotte-country-day:guide.bands[1].label",
+        "charlotte-country-day:guide.bands[1].title"
+      ],
+      "t": "Niveaux 1–4"
+    },
+    {
+      "text": "CAIS screening · later calendar",
+      "of": "1c8faf8c",
+      "at": [
+        "charlotte-country-day:guide.bands[1].sublabel"
+      ],
+      "t": "Évaluation CAIS · calendrier plus tardif"
+    },
+    {
+      "text": "Visit campus",
+      "of": "a70afee5",
+      "at": [
+        "charlotte-country-day:guide.bands[1].steps[2].title"
+      ],
+      "t": "Visiter le campus"
+    },
+    {
+      "text": "No open house is named for grades 1–4 in the published calendar — the school names only a JK/K event and a grades 9–12 one. Book an individual visit through the portal instead.",
+      "of": "afc47ef8",
+      "at": [
+        "charlotte-country-day:guide.bands[1].steps[2].detail"
+      ],
+      "t": "Aucune journée portes ouvertes n’est indiquée pour les niveaux 1–4 dans le calendrier publié : l’école ne signale qu’un événement JK/K et un événement pour les niveaux 9–12. Réservez plutôt une visite individuelle via le portail."
+    },
+    {
+      "text": "The Grades 1–12 deadline. \"A $100 fee is required as part of your child's application.\"",
+      "of": "f6ba594f",
+      "at": [
+        "charlotte-country-day:guide.bands[1].steps[3].detail",
+        "charlotte-country-day:guide.bands[2].steps[3].detail"
+      ],
+      "t": "La date limite des niveaux 1–12. « Des frais de $100 sont exigés dans le cadre de la candidature de votre enfant. »"
+    },
+    {
+      "text": "CAIS screening",
+      "of": "512c9881",
+      "at": [
+        "charlotte-country-day:guide.bands[1].steps[4].title"
+      ],
+      "t": "Évaluation CAIS"
+    },
+    {
+      "text": "Which instrument depends on the grade, and the split does not follow this band: **WPPSI-IV for Grade 1, WISC-V for rising Grades 2–4**. Either is $300, booked and paid directly with a CAIS-designated psychologist — appointments open the day after Labor Day, and you book with one psychologist only.",
+      "of": "6d06a7af",
+      "at": [
+        "charlotte-country-day:guide.bands[1].steps[4].detail"
+      ],
+      "t": "L’instrument utilisé dépend du niveau, et la répartition ne suit pas ce niveau d’entrée : **WPPSI-IV pour le niveau 1, WISC-V pour les élèves entrant en niveaux 2–4**. L’un comme l’autre coûte $300, se réserve et se règle directement auprès d’un psychologue désigné par le CAIS — les rendez-vous ouvrent le lendemain du Labor Day, et vous ne réservez qu’auprès d’un seul psychologue."
+    },
+    {
+      "text": "Provide supporting materials",
+      "of": "45de2561",
+      "at": [
+        "charlotte-country-day:guide.bands[1].steps[6].title",
+        "charlotte-country-day:guide.bands[2].steps[6].title"
+      ],
+      "t": "Fournir les pièces justificatives"
+    },
+    {
+      "text": "Teacher recommendations and academic records, as itemized by your portal checklist \"based on your child's grade level\". Unlike JK/K there is no separately published recommendation deadline — the portal is the list.",
+      "of": "6edcf0c1",
+      "at": [
+        "charlotte-country-day:guide.bands[1].steps[6].detail"
+      ],
+      "t": "Recommandations d’enseignants et bulletins scolaires, tels que détaillés par la check-list de votre portail « selon le niveau de votre enfant ». Contrairement à JK/K, il n’existe pas de date limite de recommandation publiée séparément : le portail est la liste."
+    },
+    {
+      "text": "Apr 9 → Apr 16",
+      "of": "f6651621",
+      "at": [
+        "charlotte-country-day:guide.bands[1].steps[7].tag",
+        "charlotte-country-day:guide.bands[2].steps[7].tag"
+      ],
+      "t": "9 avril → 16 avril"
+    },
+    {
+      "text": "Decisions release Apr 9 and your response is due Apr 16. The enrollment contract carries a deposit of 10% of tuition, credited toward the total; families with an aid application in play pay a reduced deposit that is refundable if the award falls short.",
+      "of": "a73714fb",
+      "at": [
+        "charlotte-country-day:guide.bands[1].steps[7].detail",
+        "charlotte-country-day:guide.bands[2].steps[7].detail"
+      ],
+      "t": "Les décisions sortent le 9 avril et votre réponse est attendue le 16 avril. Le contrat d’inscription prévoit un acompte de 10% des frais de scolarité, déduit du total ; les familles dont une demande d’aide est en cours versent un acompte réduit, remboursable si l’aide accordée est insuffisante."
+    },
+    {
+      "text": "Same test as JK/K, different clock",
+      "of": "0f710f2f",
+      "at": [
+        "charlotte-country-day:guide.bands[1].watchOuts[0].kicker"
+      ],
+      "t": "Même test que JK/K, autre horloge"
+    },
+    {
+      "text": "Grades 1–4 sit inside the **same CAIS screening population** as JK/K — the consortium brochure covers Pre-K through Grade 4 — but on the **later Grades 1–12 calendar**. So the assessment is the JK/K one while every date is the older bands'. The instrument itself splits at **Grade 1 vs Grade 2**, not at the band boundary: a Grade 1 applicant takes the WPPSI-IV, a rising Grade 2–4 applicant the WISC-V.",
+      "of": "b002c06d",
+      "at": [
+        "charlotte-country-day:guide.bands[1].watchOuts[0].text"
+      ],
+      "t": "Les niveaux 1–4 relèvent de la **même population d’évaluation CAIS** que JK/K — la brochure du consortium couvre de la Pre-K au niveau 4 — mais suivent le **calendrier plus tardif des niveaux 1–12**. L’évaluation est donc celle de JK/K tandis que toutes les dates sont celles des niveaux supérieurs. L’instrument lui-même se sépare entre le **niveau 1 et le niveau 2**, et non à la frontière du niveau d’entrée : un candidat au niveau 1 passe le WPPSI-IV, un élève entrant en niveaux 2–4 le WISC-V."
+    },
+    {
+      "text": "Budget the testing fee separately",
+      "of": "172e523b",
+      "at": [
+        "charlotte-country-day:guide.bands[1].watchOuts[1].kicker"
+      ],
+      "t": "Prévoyez les frais de test à part"
+    },
+    {
+      "text": "The **$300** CAIS fee is paid **to the psychologist, not to the school**, and is on top of the school's own **$100** application fee. Payment is due within 24 hours of confirming the appointment, is non-refundable for appointments made after Jan 1, 2027, and a **$100 cancellation fee** applies once paid — with no refund at all inside 72 hours of the appointment.",
+      "of": "8f8a3d93",
+      "at": [
+        "charlotte-country-day:guide.bands[1].watchOuts[1].text"
+      ],
+      "t": "Les frais CAIS de **$300** se règlent **au psychologue, pas à l’école**, et s’ajoutent aux frais de candidature de **$100** de l’école. Le paiement est dû dans les 24 heures suivant la confirmation du rendez-vous, n’est pas remboursable pour les rendez-vous pris après le 1er janvier 2027, et des **frais d’annulation de $100** s’appliquent une fois le paiement effectué — sans aucun remboursement dans les 72 heures précédant le rendez-vous."
+    },
+    {
+      "text": "The portal is your material list.",
+      "of": "b7d8d954",
+      "at": [
+        "charlotte-country-day:guide.bands[1].checklistCallout.lead"
+      ],
+      "t": "Le portail est votre liste de pièces."
+    },
+    {
+      "text": "Unlike JK/K, grades 1–4 have no separately published recommendation deadline: your Veracross checklist itemizes exactly which recommendations and records are needed for your child's grade, and everything is due Feb 26.",
+      "of": "5c1d54ec",
+      "at": [
+        "charlotte-country-day:guide.bands[1].checklistCallout.text"
+      ],
+      "t": "Contrairement à JK/K, les niveaux 1–4 n’ont pas de date limite de recommandation publiée séparément : votre check-list Veracross détaille exactement quelles recommandations et quels bulletins sont requis pour le niveau de votre enfant, et le tout est dû le 26 février."
+    },
+    {
+      "text": "Book an individual campus visit",
+      "of": "6e962860",
+      "at": [
+        "charlotte-country-day:guide.bands[1].checklistRows[2].action"
+      ],
+      "t": "Réserver une visite individuelle du campus"
+    },
+    {
+      "text": "No open house is named for grades 1–4 — arrange a visit through the portal.",
+      "of": "60532212",
+      "at": [
+        "charlotte-country-day:guide.bands[1].checklistRows[2].detail"
+      ],
+      "t": "Aucune journée portes ouvertes n’est indiquée pour les niveaux 1–4 : organisez une visite via le portail."
+    },
+    {
+      "text": "The Grades 1–12 deadline.",
+      "of": "034be8bd",
+      "at": [
+        "charlotte-country-day:guide.bands[1].checklistRows[3].detail",
+        "charlotte-country-day:guide.bands[2].checklistRows[3].detail"
+      ],
+      "t": "La date limite des niveaux 1–12."
+    },
+    {
+      "text": "Book and complete the CAIS screening",
+      "of": "0ea06345",
+      "at": [
+        "charlotte-country-day:guide.bands[1].checklistRows[4].action"
+      ],
+      "t": "Réserver et passer l’évaluation CAIS"
+    },
+    {
+      "text": "WPPSI-IV for Grade 1, WISC-V for rising Grades 2–4. $300, paid to the psychologist.",
+      "of": "f3b1c791",
+      "at": [
+        "charlotte-country-day:guide.bands[1].checklistRows[4].detail"
+      ],
+      "t": "WPPSI-IV pour le niveau 1, WISC-V pour les élèves entrant en niveaux 2–4. $300, réglés au psychologue."
+    },
+    {
+      "text": "Submit teacher recommendations and academic records",
+      "of": "0ee2306b",
+      "at": [
+        "charlotte-country-day:guide.bands[1].checklistRows[6].action"
+      ],
+      "t": "Déposer les recommandations d’enseignants et les bulletins scolaires"
+    },
+    {
+      "text": "Exactly as itemized by your portal checklist for your grade level.",
+      "of": "0b7533c7",
+      "at": [
+        "charlotte-country-day:guide.bands[1].checklistRows[6].detail",
+        "charlotte-country-day:guide.bands[2].checklistRows[6].detail"
+      ],
+      "t": "Exactement comme détaillé par la check-list de votre portail pour votre niveau."
+    },
+    {
+      "text": "The Grades 1–12 notification date.",
+      "of": "36b2e89c",
+      "at": [
+        "charlotte-country-day:guide.bands[1].checklistRows[7].detail",
+        "charlotte-country-day:guide.bands[2].checklistRows[8].detail"
+      ],
+      "t": "La date de notification des niveaux 1–12."
+    },
+    {
+      "text": "Apr 9, 2027",
+      "of": "deb16d0c",
+      "at": [
+        "charlotte-country-day:guide.bands[1].checklistRows[7].due",
+        "charlotte-country-day:guide.bands[2].checklistRows[8].due"
+      ],
+      "t": "9 avril 2027"
+    },
+    {
+      "text": "Apr 16, 2027",
+      "of": "91a9b508",
+      "at": [
+        "charlotte-country-day:guide.bands[1].checklistRows[8].due",
+        "charlotte-country-day:guide.bands[2].checklistRows[9].due"
+      ],
+      "t": "16 avril 2027"
+    },
+    {
+      "text": "Grades 5–12",
+      "of": "96ab2300",
+      "at": [
+        "charlotte-country-day:guide.bands[2].label",
+        "charlotte-country-day:guide.bands[2].title"
+      ],
+      "t": "Niveaux 5–12"
+    },
+    {
+      "text": "ISEE · two campuses",
+      "of": "ca55a975",
+      "at": [
+        "charlotte-country-day:guide.bands[2].sublabel"
+      ],
+      "t": "ISEE · deux campus"
+    },
+    {
+      "text": "Visit the right campus",
+      "of": "848630b2",
+      "at": [
+        "charlotte-country-day:guide.bands[2].steps[2].title"
+      ],
+      "t": "Visiter le bon campus"
+    },
+    {
+      "text": "Grades 5–8 are at **Bissell**; grades 9–12 at **Cannon**. The published calendar names a grades 9–12 open house on **Nov 5, 2026, 1:30 p.m. at Cannon** — no grades 5–8 event is listed, so arrange that visit through the portal.",
+      "of": "2a2d3bd9",
+      "at": [
+        "charlotte-country-day:guide.bands[2].steps[2].detail"
+      ],
+      "t": "Les niveaux 5–8 sont à **Bissell** ; les niveaux 9–12 à **Cannon**. Le calendrier publié indique des portes ouvertes pour les niveaux 9–12 le **5 novembre 2026 à 13h30 à Cannon** — aucun événement n’est prévu pour les niveaux 5–8, organisez donc cette visite via le portail."
+    },
+    {
+      "text": "Sit the ISEE",
+      "of": "bd7e5642",
+      "at": [
+        "charlotte-country-day:guide.bands[2].steps[4].title"
+      ],
+      "t": "Passer l’ISEE"
+    },
+    {
+      "text": "The break from the younger bands: no psychologist, no CAIS. The school hosts its own testing day — **Feb 6, 2027** — and you may instead sit any other ISEE date booked through the ISEE website. It \"measures verbal and quantitative ability, mathematics skills, reading comprehension, and writing skills\"; book early enough that scores arrive before the Feb 26 deadline.",
+      "of": "b78ef59b",
+      "at": [
+        "charlotte-country-day:guide.bands[2].steps[4].detail"
+      ],
+      "t": "La rupture avec les niveaux inférieurs : ni psychologue, ni CAIS. L’école organise sa propre journée de test — le **6 février 2027** — et vous pouvez sinon passer l’ISEE à toute autre date réservée via le site de l’ISEE. Il « mesure les aptitudes verbales et quantitatives, les compétences en mathématiques, la compréhension écrite et l’expression écrite » ; réservez suffisamment tôt pour que les résultats parviennent avant la date limite du 26 février."
+    },
+    {
+      "text": "Teacher recommendations plus academic records and transcripts, as itemized by your portal checklist for your child's grade level.",
+      "of": "b72f8c80",
+      "at": [
+        "charlotte-country-day:guide.bands[2].steps[6].detail"
+      ],
+      "t": "Recommandations d’enseignants, bulletins scolaires et relevés de notes, tels que détaillés par la check-list de votre portail pour le niveau de votre enfant."
+    },
+    {
+      "text": "Which campus you are applying to",
+      "of": "88cae8b7",
+      "at": [
+        "charlotte-country-day:guide.bands[2].watchOuts[0].kicker"
+      ],
+      "t": "Le campus auquel vous candidatez"
+    },
+    {
+      "text": "This band spans two addresses. **Grades 5–8 apply for and attend Bissell**; **grades 9–12 apply for and attend Cannon**. The admissions office itself is on Cannon, in the Levine Center, whichever campus your child is headed for. Note too that the only named open house here is the **grades 9–12** one — a middle-school visit is arranged individually rather than at a published event.",
+      "of": "3d54e03b",
+      "at": [
+        "charlotte-country-day:guide.bands[2].watchOuts[0].text"
+      ],
+      "t": "Ce niveau d’entrée couvre deux adresses. **Les niveaux 5–8 candidatent pour Bissell et y étudient** ; **les niveaux 9–12 candidatent pour Cannon et y étudient**. Le bureau des admissions se trouve à Cannon, dans le Levine Center, quel que soit le campus vers lequel se dirige votre enfant. Notez aussi que les seules portes ouvertes indiquées ici sont celles des **niveaux 9–12** : une visite du collège s’organise individuellement plutôt que lors d’un événement publié."
+    },
+    {
+      "text": "The TOEFL is an **addition to this band's process, not a replacement for it**: \"international applicants are asked to take the TOEFL test to measure the ability to use and understand the English language,\" on top of the ISEE and the same deadlines. The Duolingo English Test is not mentioned. Visa, I-20 and SEVIS procedures — and whether the application fee differs — are **not published**; ask admissions directly before you start.",
+      "of": "01c4dc32",
+      "at": [
+        "charlotte-country-day:guide.bands[2].watchOuts[1].text"
+      ],
+      "t": "Le TOEFL est un **ajout au processus de ce niveau, non un remplacement** : « il est demandé aux candidats internationaux de passer le test TOEFL afin de mesurer leur capacité à utiliser et comprendre la langue anglaise », en plus de l’ISEE et avec les mêmes échéances. Le Duolingo English Test n’est pas mentionné. Les démarches de visa, I-20 et SEVIS — et l’éventuelle différence de frais de candidature — **ne sont pas publiées** ; renseignez-vous directement auprès des admissions avant de commencer."
+    },
+    {
+      "text": "Book the ISEE early.",
+      "of": "76d95ec2",
+      "at": [
+        "charlotte-country-day:guide.bands[2].checklistCallout.lead"
+      ],
+      "t": "Réservez l’ISEE tôt."
+    },
+    {
+      "text": "The school hosts one testing day (Feb 6, 2027) and otherwise you book your own date through the ISEE website — either way scores must reach the school by Feb 26. International applicants add the TOEFL to this list rather than substituting it.",
+      "of": "cfd902a2",
+      "at": [
+        "charlotte-country-day:guide.bands[2].checklistCallout.text"
+      ],
+      "t": "L’école organise une journée de test (le 6 février 2027) et, sinon, vous réservez votre propre date via le site de l’ISEE — dans les deux cas, les résultats doivent parvenir à l’école avant le 26 février. Les candidats internationaux ajoutent le TOEFL à cette liste au lieu de s’y substituer."
+    },
+    {
+      "text": "Visit the campus your child would attend",
+      "of": "a38ee244",
+      "at": [
+        "charlotte-country-day:guide.bands[2].checklistRows[2].action"
+      ],
+      "t": "Visiter le campus que votre enfant fréquenterait"
+    },
+    {
+      "text": "Grades 5–8 Bissell, grades 9–12 Cannon. The named open house is Nov 5, 2026, 1:30 p.m. at Cannon, grades 9–12.",
+      "of": "39330145",
+      "at": [
+        "charlotte-country-day:guide.bands[2].checklistRows[2].detail"
+      ],
+      "t": "Niveaux 5–8 à Bissell, niveaux 9–12 à Cannon. Les portes ouvertes indiquées ont lieu le 5 novembre 2026 à 13h30 à Cannon, pour les niveaux 9–12."
+    },
+    {
+      "text": "The school's own testing day is Feb 6, 2027; other dates book through the ISEE website.",
+      "of": "18f6d3b4",
+      "at": [
+        "charlotte-country-day:guide.bands[2].checklistRows[4].detail"
+      ],
+      "t": "La journée de test propre à l’école est le 6 février 2027 ; les autres dates se réservent via le site de l’ISEE."
+    },
+    {
+      "text": "Submit recommendations, records and transcripts",
+      "of": "72087bbb",
+      "at": [
+        "charlotte-country-day:guide.bands[2].checklistRows[6].action"
+      ],
+      "t": "Déposer recommandations, bulletins et relevés de notes"
+    },
+    {
+      "text": "International applicants: sit the TOEFL",
+      "of": "94748321",
+      "at": [
+        "charlotte-country-day:guide.bands[2].checklistRows[7].action"
+      ],
+      "t": "Candidats internationaux : passer le TOEFL"
+    },
+    {
+      "text": "In addition to the ISEE, not instead of it.",
+      "of": "4614ad33",
+      "at": [
+        "charlotte-country-day:guide.bands[2].checklistRows[7].detail"
+      ],
+      "t": "En plus de l’ISEE, et non à sa place."
+    },
+    {
+      "text": "Clarity application ($65 fee) due **Jan 15** if you are a prospective family — the Nov 1 date the school also publishes is for families already enrolled, so it is not yours. Awards are **need-based only** (there are no merit scholarships), both custodial and non-custodial parents submit, \"admission decisions are made separately from financial aid decisions,\" and any award arrives with the enrollment contract.",
+      "of": "2353ae2a",
+      "at": [
+        "charlotte-country-day:guide.aid.text"
+      ],
+      "t": "La demande Clarity (frais de $65) est due le **15 janvier** si vous êtes une famille candidate — la date du 1er novembre que l’école publie également concerne les familles déjà inscrites, elle n’est donc pas la vôtre. Les aides sont accordées **uniquement sur critères de ressources** (il n’y a pas de bourses au mérite), le parent gardien comme le parent non gardien déposent le dossier, « les décisions d’admission sont prises séparément des décisions d’aide financière », et toute aide accordée parvient avec le contrat d’inscription."
+    },
+    {
+      "text": "Entrance test",
+      "of": "d2dbb321",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[1].label"
+      ],
+      "t": "Test d’entrée"
+    },
+    {
+      "text": "CAIS screening — WPPSI-IV",
+      "of": "16d551fc",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[1].cells.jkk"
+      ],
+      "t": "Évaluation CAIS — WPPSI-IV"
+    },
+    {
+      "text": "CAIS screening — WPPSI-IV (Gr 1), WISC-V (rising Gr 2–4)",
+      "of": "c517c1e1",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[1].cells.g14"
+      ],
+      "t": "Évaluation CAIS — WPPSI-IV (niveau 1), WISC-V (entrée en niveaux 2–4)"
+    },
+    {
+      "text": "ISEE — school testing day Feb 6, 2027",
+      "of": "cd5c4d05",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[1].cells.g512"
+      ],
+      "t": "ISEE — journée de test de l’école le 6 février 2027"
+    },
+    {
+      "text": "Teacher recommendation",
+      "of": "225892f0",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[2].label"
+      ],
+      "t": "Recommandation d’enseignant"
+    },
+    {
+      "text": "Own deadline — Jan 15, 2027",
+      "of": "80787dbf",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[2].cells.jkk"
+      ],
+      "t": "Échéance propre — 15 janvier 2027"
+    },
+    {
+      "text": "Via portal checklist — no separate deadline",
+      "of": "575c6115",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[2].cells.g14",
+        "charlotte-country-day:guide.comparison.rows[2].cells.g512"
+      ],
+      "t": "Via la check-list du portail — pas d’échéance distincte"
+    },
+    {
+      "text": "Child's visit",
+      "of": "22f2bd9c",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[3].label"
+      ],
+      "t": "Visite de l’enfant"
+    },
+    {
+      "text": "Classroom visit, due Feb 1, 2027",
+      "of": "493ccc20",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[3].cells.jkk"
+      ],
+      "t": "Visite en classe, à effectuer avant le 1er février 2027"
+    },
+    {
+      "text": "Meeting with a faculty member",
+      "of": "4c1b3975",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[3].cells.g14",
+        "charlotte-country-day:guide.comparison.rows[3].cells.g512"
+      ],
+      "t": "Rencontre avec un enseignant"
+    },
+    {
+      "text": "All materials due",
+      "of": "1fcfc124",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[4].label"
+      ],
+      "t": "Date limite de toutes les pièces"
+    },
+    {
+      "text": "Decision & response",
+      "of": "e91267e4",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[5].label"
+      ],
+      "t": "Décision et réponse"
+    },
+    {
+      "text": "Feb 26 → response Mar 5",
+      "of": "f744464c",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[5].cells.jkk"
+      ],
+      "t": "26 février → réponse le 5 mars"
+    },
+    {
+      "text": "Apr 9 → response Apr 16",
+      "of": "2d793792",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[5].cells.g14",
+        "charlotte-country-day:guide.comparison.rows[5].cells.g512"
+      ],
+      "t": "9 avril → réponse le 16 avril"
+    },
+    {
+      "text": "Campus",
+      "of": "d83f45a0",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[6].label"
+      ],
+      "t": "Campus"
+    },
+    {
+      "text": "Cannon",
+      "of": "5469a43c",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[6].cells.jkk",
+        "charlotte-country-day:guide.comparison.rows[6].cells.g14"
+      ],
+      "t": "Cannon"
+    },
+    {
+      "text": "Bissell (5–8) · Cannon (9–12)",
+      "of": "fbf7c8b2",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[6].cells.g512"
+      ],
+      "t": "Bissell (5–8) · Cannon (9–12)"
+    },
+    {
+      "text": "Named open house",
+      "of": "ad43504e",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[7].label"
+      ],
+      "t": "Portes ouvertes indiquées"
+    },
+    {
+      "text": "Oct 14, 2026, 9:30 a.m.",
+      "of": "0344415c",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[7].cells.jkk"
+      ],
+      "t": "14 octobre 2026, 9h30"
+    },
+    {
+      "text": "None published — book a visit",
+      "of": "df3f6496",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[7].cells.g14"
+      ],
+      "t": "Aucune publiée — réservez une visite"
+    },
+    {
+      "text": "Nov 5, 2026, 1:30 p.m. (grades 9–12)",
+      "of": "dedaafe8",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[7].cells.g512"
+      ],
+      "t": "5 novembre 2026, 13h30 (niveaux 9–12)"
+    },
+    {
+      "text": "Constant in every band",
+      "of": "4e17969e",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[8].label"
+      ],
+      "t": "Constant à tous les niveaux"
+    },
+    {
+      "text": "$100 application fee · the Veracross portal and its personalized checklist · a meeting with a grade-appropriate faculty member · a 10% enrollment deposit credited toward tuition",
+      "of": "c182280f",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[8].cells.all"
+      ],
+      "t": "Frais de candidature de $100 · le portail Veracross et sa check-list personnalisée · une rencontre avec un enseignant du niveau correspondant · un acompte d’inscription de 10% déduit des frais de scolarité"
+    },
+    {
+      "text": "1440 Carmel Road, Charlotte, NC 28226 · main 704-943-4530",
+      "of": "da15b10e",
+      "at": [
+        "charlotte-country-day:guide.contacts.address"
+      ],
+      "t": "1440 Carmel Road, Charlotte, NC 28226 · standard 704-943-4530"
+    },
+    {
+      "text": "Associate Director of Admissions · 704-943-4532",
+      "of": "d6960916",
+      "at": [
+        "charlotte-country-day:guide.contacts.people[0].detail"
+      ],
+      "t": "Directrice associée des admissions · 704-943-4532"
+    },
+    {
+      "text": "Assistant Director of Admissions · 704-943-4534",
+      "of": "5465bc7a",
+      "at": [
+        "charlotte-country-day:guide.contacts.people[1].detail"
+      ],
+      "t": "Directrice adjointe des admissions · 704-943-4534"
+    },
+    {
+      "text": "Assistant Director of Admissions · 704-943-4533",
+      "of": "4f65b49b",
+      "at": [
+        "charlotte-country-day:guide.contacts.people[2].detail"
+      ],
+      "t": "Directrice adjointe des admissions · 704-943-4533"
+    },
+    {
+      "text": "Administrative Assistant · 704-943-4530",
+      "of": "b895ef4b",
+      "at": [
+        "charlotte-country-day:guide.contacts.people[3].detail"
+      ],
+      "t": "Assistante administrative · 704-943-4530"
+    },
+    {
+      "text": "Admissions Assistant · 704-943-4595",
+      "of": "a8fbb90a",
+      "at": [
+        "charlotte-country-day:guide.contacts.people[4].detail"
+      ],
+      "t": "Assistante des admissions · 704-943-4595"
+    },
+    {
+      "text": "Portal: Veracross · charlottecountryday.org",
+      "of": "a9d3c2b6",
+      "at": [
+        "charlotte-country-day:guide.checklist.portalNote"
+      ],
+      "t": "Portail : Veracross · charlottecountryday.org"
+    },
+    {
+      "text": "Complete the Clarity financial-aid application ($65 fee) by Jan 15 — the Nov 1 deadline the school publishes alongside it applies to families already enrolled, not to prospective ones.",
+      "of": "b4a7eacc",
+      "at": [
+        "charlotte-country-day:guide.checklist.aidPanel.items[0]"
+      ],
+      "t": "Remplissez la demande d’aide financière Clarity (frais de $65) avant le 15 janvier — la date limite du 1er novembre que l’école publie à côté concerne les familles déjà inscrites, pas les familles candidates."
+    },
+    {
+      "text": "Both custodial and non-custodial parents submit through Clarity. Awards are need-based only; there are no merit scholarships.",
+      "of": "6d28e56f",
+      "at": [
+        "charlotte-country-day:guide.checklist.aidPanel.items[1]"
+      ],
+      "t": "Le parent gardien comme le parent non gardien déposent leur dossier via Clarity. Les aides sont accordées uniquement sur critères de ressources ; il n’y a pas de bourses au mérite."
+    },
+    {
+      "text": "Admission decisions are made separately from financial aid decisions, and any award is communicated with the enrollment contract. Families applying for aid pay a reduced deposit, refundable if the award is insufficient.",
+      "of": "104ed0e6",
+      "at": [
+        "charlotte-country-day:guide.checklist.aidPanel.items[2]"
+      ],
+      "t": "Les décisions d’admission sont prises séparément des décisions d’aide financière, et toute aide accordée est communiquée avec le contrat d’inscription. Les familles qui demandent une aide versent un acompte réduit, remboursable si l’aide est insuffisante."
+    },
+    {
+      "text": "Admissions main — 704-943-4530 · admissions@charlottecountryday.org",
+      "of": "12c840c6",
+      "at": [
+        "charlotte-country-day:guide.checklist.contactPanel.lines[0]"
+      ],
+      "t": "Standard des admissions — 704-943-4530 · admissions@charlottecountryday.org"
+    },
+    {
+      "text": "1440 Carmel Road, Charlotte, NC 28226 — Levine Center, first floor, Cannon Campus",
+      "of": "b9f730c7",
+      "at": [
+        "charlotte-country-day:guide.checklist.contactPanel.lines[1]"
+      ],
+      "t": "1440 Carmel Road, Charlotte, NC 28226 — Levine Center, premier étage, Cannon Campus"
+    },
+    {
+      "text": "Bissell Campus (grades 5–8) — 5936 Green Rea Road, Charlotte, NC 28226 · 704-943-4800",
+      "of": "d3447b58",
+      "at": [
+        "charlotte-country-day:guide.checklist.contactPanel.lines[2]"
+      ],
+      "t": "Bissell Campus (niveaux 5–8) — 5936 Green Rea Road, Charlotte, NC 28226 · 704-943-4800"
+    },
+    {
+      "text": "Dates are the 2027–28 entry cycle as published on the charlottecountryday.org admissions pages (retrieved Aug 2026) and corroborated by the 2027–28 CAIS consortium brochure. Cycle dates shift year to year — verify against the live calendar before acting. Compiled by Charlotte School Compare; not affiliated with Charlotte Country Day School.",
+      "of": "0bbe3ee5",
+      "at": [
+        "charlotte-country-day:guide.checklist.disclaimer"
+      ],
+      "t": "Les dates correspondent au cycle d’entrée 2027–28 tel que publié sur les pages admissions de charlottecountryday.org (consultées en août 2026) et confirmé par la brochure du consortium CAIS 2027–28. Les dates changent d’une année à l’autre : vérifiez-les sur le calendrier en ligne avant d’agir. Compilé par Charlotte School Compare ; sans affiliation avec Charlotte Country Day School."
     }
   ]
 }

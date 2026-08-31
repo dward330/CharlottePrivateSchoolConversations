@@ -34,7 +34,8 @@
       "t": "1–12 শ্রেণির আবেদনের সময়সীমা",
       "of": "0115e4c6",
       "at": [
-        "providence-day:guide.stats[2].label"
+        "providence-day:guide.stats[2].label",
+        "charlotte-country-day:guide.stats[2].label"
       ]
     },
     {
@@ -48,7 +49,8 @@
       "t": "একটিই পোর্টাল।",
       "of": "63513317",
       "at": [
-        "providence-day:guide.rules[0].title"
+        "providence-day:guide.rules[0].title",
+        "charlotte-country-day:guide.rules[0].title"
       ]
     },
     {
@@ -62,7 +64,8 @@
       "t": "তারিখগুলো প্রতিটি চক্রের জন্য আলাদা।",
       "of": "799cf75d",
       "at": [
-        "providence-day:guide.rules[1].title"
+        "providence-day:guide.rules[1].title",
+        "charlotte-country-day:guide.rules[1].title"
       ]
     },
     {
@@ -114,7 +117,8 @@
       "of": "f539ae89",
       "at": [
         "providence-day:guide.bands[0].deadlines[1].label",
-        "providence-day:guide.bands[1].deadlines[1].label"
+        "providence-day:guide.bands[1].deadlines[1].label",
+        "charlotte-country-day:guide.bands[1].deadlines[1].label"
       ]
     },
     {
@@ -152,7 +156,23 @@
         "providence-day:guide.bands[1].checklistRows[1].due",
         "providence-day:guide.bands[2].steps[0].tag",
         "providence-day:guide.bands[2].checklistRows[0].due",
-        "providence-day:guide.bands[2].checklistRows[1].due"
+        "providence-day:guide.bands[2].checklistRows[1].due",
+        "charlotte-country-day:guide.bands[0].steps[0].tag",
+        "charlotte-country-day:guide.bands[0].steps[1].tag",
+        "charlotte-country-day:guide.bands[0].checklistRows[0].due",
+        "charlotte-country-day:guide.bands[0].checklistRows[1].due",
+        "charlotte-country-day:guide.bands[1].steps[0].tag",
+        "charlotte-country-day:guide.bands[1].steps[1].tag",
+        "charlotte-country-day:guide.bands[1].steps[2].tag",
+        "charlotte-country-day:guide.bands[1].checklistRows[0].due",
+        "charlotte-country-day:guide.bands[1].checklistRows[1].due",
+        "charlotte-country-day:guide.bands[1].checklistRows[2].due",
+        "charlotte-country-day:guide.bands[2].steps[0].tag",
+        "charlotte-country-day:guide.bands[2].steps[1].tag",
+        "charlotte-country-day:guide.bands[2].steps[2].tag",
+        "charlotte-country-day:guide.bands[2].checklistRows[0].due",
+        "charlotte-country-day:guide.bands[2].checklistRows[1].due",
+        "charlotte-country-day:guide.bands[2].checklistRows[2].due"
       ]
     },
     {
@@ -175,7 +195,8 @@
       "t": "2 জানুয়ারির মধ্যে",
       "of": "a636a187",
       "at": [
-        "providence-day:guide.bands[0].steps[1].tag"
+        "providence-day:guide.bands[0].steps[1].tag",
+        "charlotte-country-day:guide.bands[0].steps[3].tag"
       ]
     },
     {
@@ -200,7 +221,9 @@
         "providence-day:guide.bands[0].steps[2].tag",
         "providence-day:guide.bands[0].steps[3].tag",
         "providence-day:guide.bands[0].steps[4].tag",
-        "providence-day:guide.bands[0].steps[5].tag"
+        "providence-day:guide.bands[0].steps[5].tag",
+        "charlotte-country-day:guide.bands[0].steps[5].tag",
+        "charlotte-country-day:guide.bands[0].steps[6].tag"
       ]
     },
     {
@@ -259,14 +282,18 @@
       "at": [
         "providence-day:guide.bands[0].steps[6].title",
         "providence-day:guide.bands[1].steps[4].title",
-        "providence-day:guide.bands[2].steps[4].title"
+        "providence-day:guide.bands[2].steps[4].title",
+        "charlotte-country-day:guide.bands[0].steps[7].title",
+        "charlotte-country-day:guide.bands[1].steps[7].title",
+        "charlotte-country-day:guide.bands[2].steps[7].title"
       ]
     },
     {
       "t": "26 ফেব্রুয়ারি → 5 মার্চ",
       "of": "52178ca7",
       "at": [
-        "providence-day:guide.bands[0].steps[6].tag"
+        "providence-day:guide.bands[0].steps[6].tag",
+        "charlotte-country-day:guide.bands[0].steps[7].tag"
       ]
     },
     {
@@ -375,7 +402,9 @@
       "of": "105471a1",
       "at": [
         "providence-day:guide.bands[0].checklistRows[2].due",
-        "providence-day:guide.comparison.rows[0].cells.tkk"
+        "providence-day:guide.comparison.rows[0].cells.tkk",
+        "charlotte-country-day:guide.bands[0].checklistRows[3].due",
+        "charlotte-country-day:guide.comparison.rows[0].cells.jkk"
       ]
     },
     {
@@ -393,7 +422,11 @@
         "providence-day:guide.bands[0].checklistRows[4].due",
         "providence-day:guide.bands[0].checklistRows[5].due",
         "providence-day:guide.bands[0].checklistRows[6].due",
-        "providence-day:guide.comparison.rows[1].cells.tkk"
+        "providence-day:guide.comparison.rows[1].cells.tkk",
+        "charlotte-country-day:guide.bands[0].checklistRows[5].due",
+        "charlotte-country-day:guide.bands[0].checklistRows[6].due",
+        "charlotte-country-day:guide.bands[0].checklistRows[7].due",
+        "charlotte-country-day:guide.comparison.rows[4].cells.jkk"
       ]
     },
     {
@@ -444,7 +477,10 @@
       "at": [
         "providence-day:guide.bands[0].checklistRows[7].action",
         "providence-day:guide.bands[1].checklistRows[5].action",
-        "providence-day:guide.bands[2].checklistRows[5].action"
+        "providence-day:guide.bands[2].checklistRows[5].action",
+        "charlotte-country-day:guide.bands[0].checklistRows[8].action",
+        "charlotte-country-day:guide.bands[1].checklistRows[7].action",
+        "charlotte-country-day:guide.bands[2].checklistRows[8].action"
       ]
     },
     {
@@ -464,7 +500,17 @@
         "providence-day:guide.bands[2].checklistRows[3].due",
         "providence-day:guide.bands[2].checklistRows[4].due",
         "providence-day:guide.comparison.rows[1].cells.g15",
-        "providence-day:guide.comparison.rows[1].cells.g612"
+        "providence-day:guide.comparison.rows[1].cells.g612",
+        "charlotte-country-day:guide.bands[0].checklistRows[8].due",
+        "charlotte-country-day:guide.bands[1].checklistRows[4].due",
+        "charlotte-country-day:guide.bands[1].checklistRows[5].due",
+        "charlotte-country-day:guide.bands[1].checklistRows[6].due",
+        "charlotte-country-day:guide.bands[2].checklistRows[4].due",
+        "charlotte-country-day:guide.bands[2].checklistRows[5].due",
+        "charlotte-country-day:guide.bands[2].checklistRows[6].due",
+        "charlotte-country-day:guide.bands[2].checklistRows[7].due",
+        "charlotte-country-day:guide.comparison.rows[4].cells.g14",
+        "charlotte-country-day:guide.comparison.rows[4].cells.g512"
       ]
     },
     {
@@ -487,7 +533,8 @@
       "t": "5 মার্চ 2027",
       "of": "a86248f5",
       "at": [
-        "providence-day:guide.bands[0].checklistRows[8].due"
+        "providence-day:guide.bands[0].checklistRows[8].due",
+        "charlotte-country-day:guide.bands[0].checklistRows[9].due"
       ]
     },
     {
@@ -533,7 +580,10 @@
       "of": "6a02e2fd",
       "at": [
         "providence-day:guide.bands[1].steps[1].tag",
-        "providence-day:guide.bands[2].steps[1].tag"
+        "providence-day:guide.bands[2].steps[1].tag",
+        "charlotte-country-day:guide.bands[0].steps[4].tag",
+        "charlotte-country-day:guide.bands[1].steps[3].tag",
+        "charlotte-country-day:guide.bands[2].steps[3].tag"
       ]
     },
     {
@@ -558,7 +608,13 @@
         "providence-day:guide.bands[1].steps[2].tag",
         "providence-day:guide.bands[1].steps[3].tag",
         "providence-day:guide.bands[2].steps[2].tag",
-        "providence-day:guide.bands[2].steps[3].tag"
+        "providence-day:guide.bands[2].steps[3].tag",
+        "charlotte-country-day:guide.bands[1].steps[4].tag",
+        "charlotte-country-day:guide.bands[1].steps[5].tag",
+        "charlotte-country-day:guide.bands[1].steps[6].tag",
+        "charlotte-country-day:guide.bands[2].steps[4].tag",
+        "charlotte-country-day:guide.bands[2].steps[5].tag",
+        "charlotte-country-day:guide.bands[2].steps[6].tag"
       ]
     },
     {
@@ -658,7 +714,12 @@
         "providence-day:guide.bands[1].checklistRows[2].due",
         "providence-day:guide.bands[2].checklistRows[2].due",
         "providence-day:guide.comparison.rows[0].cells.g15",
-        "providence-day:guide.comparison.rows[0].cells.g612"
+        "providence-day:guide.comparison.rows[0].cells.g612",
+        "charlotte-country-day:guide.bands[0].checklistRows[4].due",
+        "charlotte-country-day:guide.bands[1].checklistRows[3].due",
+        "charlotte-country-day:guide.bands[2].checklistRows[3].due",
+        "charlotte-country-day:guide.comparison.rows[0].cells.g14",
+        "charlotte-country-day:guide.comparison.rows[0].cells.g512"
       ]
     },
     {
@@ -724,7 +785,8 @@
       "t": "সব নথিপত্র ও পরীক্ষার সময়সীমা",
       "of": "47511426",
       "at": [
-        "providence-day:guide.bands[2].deadlines[1].label"
+        "providence-day:guide.bands[2].deadlines[1].label",
+        "charlotte-country-day:guide.bands[2].deadlines[1].label"
       ]
     },
     {
@@ -780,7 +842,8 @@
       "t": "আন্তর্জাতিক আবেদনকারী",
       "of": "8a721542",
       "at": [
-        "providence-day:guide.bands[2].watchOuts[1].kicker"
+        "providence-day:guide.bands[2].watchOuts[1].kicker",
+        "charlotte-country-day:guide.bands[2].watchOuts[1].kicker"
       ]
     },
     {
@@ -815,7 +878,8 @@
       "t": "ISEE-র জন্য নিবন্ধন করুন এবং পরীক্ষা দিন",
       "of": "e8835419",
       "at": [
-        "providence-day:guide.bands[2].checklistRows[3].action"
+        "providence-day:guide.bands[2].checklistRows[3].action",
+        "charlotte-country-day:guide.bands[2].checklistRows[4].action"
       ]
     },
     {
@@ -843,7 +907,8 @@
       "t": "পাশাপাশি চলছে: আর্থিক সহায়তার সময়সূচি",
       "of": "15045be1",
       "at": [
-        "providence-day:guide.aid.title"
+        "providence-day:guide.aid.title",
+        "charlotte-country-day:guide.aid.title"
       ]
     },
     {
@@ -857,28 +922,32 @@
       "t": "আর্থিক সহায়তা ও টিউশন",
       "of": "801e19b8",
       "at": [
-        "providence-day:guide.aid.button"
+        "providence-day:guide.aid.button",
+        "charlotte-country-day:guide.aid.button"
       ]
     },
     {
       "t": "স্তরভেদে",
       "of": "60faf9b9",
       "at": [
-        "providence-day:guide.comparison.kicker"
+        "providence-day:guide.comparison.kicker",
+        "charlotte-country-day:guide.comparison.kicker"
       ]
     },
     {
       "t": "স্তরভেদে ঠিক কী বদলায়",
       "of": "2e98319a",
       "at": [
-        "providence-day:guide.comparison.title"
+        "providence-day:guide.comparison.title",
+        "charlotte-country-day:guide.comparison.title"
       ]
     },
     {
       "t": "আবেদনের সময়সীমা",
       "of": "8751989b",
       "at": [
-        "providence-day:guide.comparison.rows[0].label"
+        "providence-day:guide.comparison.rows[0].label",
+        "charlotte-country-day:guide.comparison.rows[0].label"
       ]
     },
     {
@@ -977,14 +1046,16 @@
       "t": "যোগাযোগ",
       "of": "fa6ba530",
       "at": [
-        "providence-day:guide.contacts.kicker"
+        "providence-day:guide.contacts.kicker",
+        "charlotte-country-day:guide.contacts.kicker"
       ]
     },
     {
       "t": "ভর্তি দপ্তর",
       "of": "ba210c46",
       "at": [
-        "providence-day:guide.contacts.title"
+        "providence-day:guide.contacts.title",
+        "charlotte-country-day:guide.contacts.title"
       ]
     },
     {
@@ -1061,7 +1132,8 @@
       "t": "পাশাপাশি — আর্থিক সহায়তার সময়সূচি",
       "of": "3e87e1fd",
       "at": [
-        "providence-day:guide.checklist.aidPanel.kicker"
+        "providence-day:guide.checklist.aidPanel.kicker",
+        "charlotte-country-day:guide.checklist.aidPanel.kicker"
       ]
     },
     {
@@ -1082,7 +1154,8 @@
       "t": "প্রশ্ন — ভর্তি দপ্তর",
       "of": "79312c44",
       "at": [
-        "providence-day:guide.checklist.contactPanel.kicker"
+        "providence-day:guide.checklist.contactPanel.kicker",
+        "charlotte-country-day:guide.checklist.contactPanel.kicker"
       ]
     },
     {
@@ -1111,6 +1184,1027 @@
       "of": "4437f3e8",
       "at": [
         "providence-day:guide.checklist.disclaimer"
+      ]
+    },
+    {
+      "t": "আপনার সন্তানের ভর্তির স্তরটি বেছে নিন, আর নির্দেশিকাটি সেই অনুযায়ী সাজিয়ে নেবে: ধাপগুলো ক্রম অনুসারে, 2027–28 সালের সময়সীমা এবং ওই স্তরের পরীক্ষা — সেই সঙ্গে সঙ্গে নেওয়ার মতো একটি ছাপানোর উপযোগী তালিকা। ছয় ধাপের একটিই অভিন্ন প্রক্রিয়া, তবে সেটি দুবার ভাগ হয়ে যায় — Kindergarten থেকে 1ম শ্রেণিতে, আর আবার 4র্থ থেকে 5ম শ্রেণিতে।",
+      "of": "d95a9b0c",
+      "at": [
+        "charlotte-country-day:guide.headline"
+      ]
+    },
+    {
+      "t": "2027–28 ভর্তি চক্র",
+      "of": "639aa0b9",
+      "at": [
+        "charlotte-country-day:guide.cycle"
+      ]
+    },
+    {
+      "t": "ভর্তির স্তর, প্রতিটির নিজস্ব সময়সূচি",
+      "of": "67f7b475",
+      "at": [
+        "charlotte-country-day:guide.stats[0].label"
+      ]
+    },
+    {
+      "t": "JK/K আবেদনের সময়সীমা — বাকি সবার চেয়ে দুই সপ্তাহ আগে",
+      "of": "0a55ba87",
+      "at": [
+        "charlotte-country-day:guide.stats[1].label"
+      ]
+    },
+    {
+      "t": "ভর্তির জামানত — টিউশনের উপর, এবং তা থেকেই সমন্বয় করা হয়",
+      "of": "27f1c3e0",
+      "at": [
+        "charlotte-country-day:guide.stats[3].label"
+      ]
+    },
+    {
+      "t": "সবকিছু চলে Veracross-এর মধ্য দিয়ে: অনুসন্ধান ফর্ম আপনার ফাইল খোলে, ভর্তি পোর্টালের অ্যাকাউন্ট থেকেই আপনি আবেদন করেন, আর পোর্টাল তারপর আপনার সন্তানের শ্রেণি অনুযায়ী একটি ব্যক্তিগত তালিকা তৈরি করে যা বাকি প্রতিটি ধাপ অনুসরণ করে।",
+      "of": "96717b90",
+      "at": [
+        "charlotte-country-day:guide.rules[0].text"
+      ]
+    },
+    {
+      "t": "নিচের প্রতিটি তারিখ 2027–28 ভর্তি চক্রের, যেমনটি স্কুল প্রকাশ করেছে এবং CAIS কনসোর্টিয়ামের পুস্তিকা সমর্থন করেছে। চক্রের তারিখ বছরে বছরে বদলায় — পদক্ষেপ নেওয়ার আগে সরাসরি ক্যালেন্ডারে যাচাই করে নিন।",
+      "of": "7f009b04",
+      "at": [
+        "charlotte-country-day:guide.rules[1].text"
+      ]
+    },
+    {
+      "t": "প্রতিটি স্তরে প্রকাশিত ছয়টি ধাপ — যাত্রা শুরু করুন → আবেদন জমা দিন → ভর্তি পরীক্ষা দিন → একজন শিক্ষকের সঙ্গে দেখা করুন → সহায়ক কাগজপত্র দিন → নিজের অগ্রগতি অনুসরণ করুন। যা বদলায় তা হলো 3য় ধাপ (কোন পরীক্ষা), আবেদনের সময়সীমা, আর আপনি কোন সিদ্ধান্তের ধারায় পড়েন।",
+      "of": "15531cc1",
+      "at": [
+        "charlotte-country-day:guide.spineNote"
+      ]
+    },
+    {
+      "t": "JK / Kindergarten",
+      "of": "9c31b86d",
+      "at": [
+        "charlotte-country-day:guide.bands[0].label"
+      ]
+    },
+    {
+      "t": "CAIS স্ক্রিনিং · আগের সময়সূচি",
+      "of": "2e681cae",
+      "at": [
+        "charlotte-country-day:guide.bands[0].sublabel"
+      ]
+    },
+    {
+      "t": "Junior Kindergarten ও Kindergarten",
+      "of": "bad2eaf6",
+      "at": [
+        "charlotte-country-day:guide.bands[0].title"
+      ]
+    },
+    {
+      "t": "আবেদনপত্র ও $100 ফি জমার সময়সীমা",
+      "of": "8f6148fd",
+      "at": [
+        "charlotte-country-day:guide.bands[0].deadlines[0].label",
+        "charlotte-country-day:guide.bands[1].deadlines[0].label",
+        "charlotte-country-day:guide.bands[2].deadlines[0].label"
+      ]
+    },
+    {
+      "t": "CAIS পরীক্ষা ও শ্রেণিকক্ষ পরিদর্শনের সময়সীমা",
+      "of": "f88e3229",
+      "at": [
+        "charlotte-country-day:guide.bands[0].deadlines[1].label"
+      ]
+    },
+    {
+      "t": "সিদ্ধান্ত প্রকাশ",
+      "of": "6b93e04b",
+      "at": [
+        "charlotte-country-day:guide.bands[0].deadlines[2].label",
+        "charlotte-country-day:guide.bands[1].deadlines[2].label",
+        "charlotte-country-day:guide.bands[2].deadlines[2].label"
+      ]
+    },
+    {
+      "t": "পরিবারের জবাব দেওয়ার সময়সীমা",
+      "of": "8ebe19b2",
+      "at": [
+        "charlotte-country-day:guide.bands[0].deadlines[3].label",
+        "charlotte-country-day:guide.bands[1].deadlines[3].label",
+        "charlotte-country-day:guide.bands[2].deadlines[3].label"
+      ]
+    },
+    {
+      "t": "অনুসন্ধান ফর্ম জমা দিন",
+      "of": "3118ab2b",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[0].title",
+        "charlotte-country-day:guide.bands[1].steps[0].title",
+        "charlotte-country-day:guide.bands[2].steps[0].title"
+      ]
+    },
+    {
+      "t": "Veracross অনুসন্ধান ফর্ম আপনার ফাইল খোলে এবং অনুসন্ধান, অনুষ্ঠানে উপস্থিতির নিশ্চয়তা ও আবেদন — সব এক জায়গায় রাখে।",
+      "of": "b0aa88d7",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[0].detail",
+        "charlotte-country-day:guide.bands[1].steps[0].detail",
+        "charlotte-country-day:guide.bands[2].steps[0].detail"
+      ]
+    },
+    {
+      "t": "ভর্তি পোর্টালে আপনার অ্যাকাউন্ট খুলুন",
+      "of": "1b6eacdb",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[1].title",
+        "charlotte-country-day:guide.bands[0].checklistRows[1].action",
+        "charlotte-country-day:guide.bands[1].steps[1].title",
+        "charlotte-country-day:guide.bands[1].checklistRows[1].action",
+        "charlotte-country-day:guide.bands[2].steps[1].title",
+        "charlotte-country-day:guide.bands[2].checklistRows[1].action"
+      ]
+    },
+    {
+      "t": "পোর্টাল শ্রেণি অনুযায়ী একটি ব্যক্তিগত তালিকা তৈরি করে, আর ক্যাম্পাস পরিদর্শনের সময়ও সেখান থেকেই নেওয়া হয়।",
+      "of": "5c6ec227",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[1].detail",
+        "charlotte-country-day:guide.bands[1].steps[1].detail",
+        "charlotte-country-day:guide.bands[2].steps[1].detail"
+      ]
+    },
+    {
+      "t": "JK/K ওপেন হাউসে যোগ দিন",
+      "of": "83dbf269",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[2].title"
+      ]
+    },
+    {
+      "t": "14 অক্টোবর 2026",
+      "of": "55a12610",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[2].tag",
+        "charlotte-country-day:guide.bands[0].checklistRows[2].due"
+      ]
+    },
+    {
+      "t": "সকাল 9:30, Cannon Campus-এ — এই স্তরের জন্য স্কুল যে একটিমাত্র ওপেন হাউসের কথা বলে। এটি সুপারিশ করা হয়, বাধ্যতামূলক হিসেবে চিহ্নিত নয়।",
+      "of": "4d25f88e",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[2].detail"
+      ]
+    },
+    {
+      "t": "আবেদন জমা দিন ও $100 ফি দিন",
+      "of": "b015dc80",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[3].title",
+        "charlotte-country-day:guide.bands[1].steps[3].title",
+        "charlotte-country-day:guide.bands[2].steps[3].title"
+      ]
+    },
+    {
+      "t": "অন্য সব শ্রেণির চেয়ে দুই সপ্তাহ আগে। \"আপনার সন্তানের আবেদনের অংশ হিসেবে $100 ফি আবশ্যক।\"",
+      "of": "51591e2b",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[3].detail"
+      ]
+    },
+    {
+      "t": "শিক্ষকের সুপারিশপত্র",
+      "of": "36cce318",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[4].title"
+      ]
+    },
+    {
+      "t": "স্কুলের সময়রেখায় এটি আলাদা একটি সারি হিসেবে আছে — এবং এটি 2 জানুয়ারির আবেদন সময়সীমার **পরে** পড়ে, আগে নয়। এটি ছাপার ভুল নয়: আগে আবেদন করুন, সুপারিশপত্র তার পরে আসে।",
+      "of": "79815e43",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[4].detail"
+      ]
+    },
+    {
+      "t": "CAIS স্ক্রিনিং ও শ্রেণিকক্ষ পরিদর্শন",
+      "of": "e75bbd88",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[5].title"
+      ]
+    },
+    {
+      "t": "দুটিরই সময়সীমা একই দিনে। স্ক্রিনিংটি হলো WPPSI-IV, যা CAIS-মনোনীত একজন মনোবিজ্ঞানীর সঙ্গে সরাসরি বুক করে টাকা দিতে হয় ($300, স্কুলের $100 ফি থেকে আলাদা) — Labor Day-র পরদিন থেকে সময় নেওয়া শুরু হয়। শ্রেণিকক্ষ পরিদর্শনটি আপনার সন্তানের, ক্যাম্পাসে।",
+      "of": "d9c62b07",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[5].detail"
+      ]
+    },
+    {
+      "t": "একজন শিক্ষকের সঙ্গে দেখা করুন",
+      "of": "1a23e081",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[6].title",
+        "charlotte-country-day:guide.bands[1].steps[5].title",
+        "charlotte-country-day:guide.bands[2].steps[5].title"
+      ]
+    },
+    {
+      "t": "অভিন্ন প্রক্রিয়ার 4র্থ ধাপ — \"প্রতিটি আবেদনকারী আমাদের শিক্ষকমণ্ডলীর শ্রেণি-উপযোগী একজন সদস্যের সঙ্গে দেখা করেন।\"",
+      "of": "9d73c65b",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[6].detail",
+        "charlotte-country-day:guide.bands[1].steps[5].detail",
+        "charlotte-country-day:guide.bands[2].steps[5].detail"
+      ]
+    },
+    {
+      "t": "সিদ্ধান্ত প্রকাশিত হয় 26 ফেব্রুয়ারি এবং আপনার জবাবের সময়সীমা 5 মার্চ। ভর্তি চুক্তিতে টিউশনের 10% জামানত থাকে, যা মোট অঙ্ক থেকে সমন্বয় করা হয়; যাদের আর্থিক সহায়তার আবেদন চলমান, তারা কম জামানত দেন এবং সহায়তা অপর্যাপ্ত হলে তা ফেরতযোগ্য।",
+      "of": "79f8b611",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[7].detail"
+      ]
+    },
+    {
+      "t": "JK/K কেন আলাদা একটি স্তর",
+      "of": "11ad6e67",
+      "at": [
+        "charlotte-country-day:guide.bands[0].watchOuts[0].kicker"
+      ]
+    },
+    {
+      "t": "এই স্তরটি চলে **পুরোপুরি আগের একটি সময়সূচিতে** — আবেদন 15 জানুয়ারির বদলে 2 জানুয়ারি, সিদ্ধান্ত 9 এপ্রিলের বদলে 26 ফেব্রুয়ারি। এতে আরও দুটি শর্ত আছে যা বড় স্তরগুলোতে নেই: **আলাদা সময়সীমাযুক্ত একটি শিক্ষক-সুপারিশপত্র** এবং আপনার সন্তানের জন্য একটি **শ্রেণিকক্ষ পরিদর্শন**। 2 জানুয়ারির তারিখ হাতছাড়া হলে বিকল্প হিসেবে আপনি 1–12 শ্রেণির ধারায় পড়বেন না; আপনি এই স্তরের জন্যই দেরি করে ফেলেছেন।",
+      "of": "4a73f750",
+      "at": [
+        "charlotte-country-day:guide.bands[0].watchOuts[0].text"
+      ]
+    },
+    {
+      "t": "একটি পরীক্ষাই সাতটি স্কুলের জন্য",
+      "of": "a920c12f",
+      "at": [
+        "charlotte-country-day:guide.bands[0].watchOuts[1].kicker"
+      ]
+    },
+    {
+      "t": "CAIS স্ক্রিনিং একটি কনসোর্টিয়াম মূল্যায়ন: \"আপনার সন্তানকে CAIS-মনোনীত একজন লাইসেন্সধারী মনোবিজ্ঞানী কেবল একবারই মূল্যায়ন করবেন,\" আর সেই একটিমাত্র মূল্যায়ন **সাতটি সদস্য স্কুলই** গ্রহণ করে — অর্থাৎ Charlotte-এর একাধিক স্বাধীন স্কুলে আবেদন করলেও একাধিকবার পরীক্ষা দিতে হয় না। তবে দুটি নিয়ম প্রযোজ্য: কোনো স্কুল আপনার মূল্যায়ন বিবেচনা করার **আগে সেই স্কুলে আবেদন করতে হবে**, পরীক্ষা **বারো মাসে কেবল একবারই** হতে পারে, এবং প্রশিক্ষণ, প্রাইভেট পড়ানো বা পুনরায় পরীক্ষা দেওয়ার কোনো লক্ষণ \"যেকোনো CAIS স্কুলে আপনার আবেদন বাতিল করে দেবে।\"",
+      "of": "bc71c525",
+      "at": [
+        "charlotte-country-day:guide.bands[0].watchOuts[1].text"
+      ]
+    },
+    {
+      "t": "আপনার সময়সীমা 2 জানুয়ারি, 15 জানুয়ারি নয়।",
+      "of": "f4958447",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistCallout.lead"
+      ]
+    },
+    {
+      "t": "Junior Kindergarten ও Kindergarten বাকি সব শ্রেণির চেয়ে দুই সপ্তাহ আগে আবেদন করে এবং ছয় সপ্তাহ আগে জবাব পায়। শিক্ষকের সুপারিশপত্রের সময়সীমা 15 জানুয়ারি — অর্থাৎ আবেদনের পরে, যা ঠিকই আছে, ছাপার ভুল নয়।",
+      "of": "f2534f0b",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistCallout.text"
+      ]
+    },
+    {
+      "t": "Veracross অনুসন্ধান ফর্ম জমা দিন",
+      "of": "bc83696b",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[0].action",
+        "charlotte-country-day:guide.bands[1].checklistRows[0].action",
+        "charlotte-country-day:guide.bands[2].checklistRows[0].action"
+      ]
+    },
+    {
+      "t": "আপনার ফাইল খোলে; অনুসন্ধান, অনুষ্ঠানে উপস্থিতির নিশ্চয়তা ও আবেদন সবই এর মধ্য দিয়ে চলে।",
+      "of": "f75b157b",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[0].detail",
+        "charlotte-country-day:guide.bands[1].checklistRows[0].detail",
+        "charlotte-country-day:guide.bands[2].checklistRows[0].detail"
+      ]
+    },
+    {
+      "t": "শ্রেণি অনুযায়ী তালিকা তৈরি করে এবং আপনার ক্যাম্পাস পরিদর্শনের সময় নেয়।",
+      "of": "5d967102",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[1].detail",
+        "charlotte-country-day:guide.bands[1].checklistRows[1].detail",
+        "charlotte-country-day:guide.bands[2].checklistRows[1].detail"
+      ]
+    },
+    {
+      "t": "JK/K ভর্তি ওপেন হাউসে যোগ দিন",
+      "of": "6c0f8429",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[2].action"
+      ]
+    },
+    {
+      "t": "সকাল 9:30, Cannon Campus। সুপারিশ করা হয়, বাধ্যতামূলক নয়।",
+      "of": "931fc684",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[2].detail"
+      ]
+    },
+    {
+      "t": "আবেদন জমা দিন এবং $100 ফি দিন",
+      "of": "2da568b7",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[3].action",
+        "charlotte-country-day:guide.bands[1].checklistRows[3].action",
+        "charlotte-country-day:guide.bands[2].checklistRows[3].action"
+      ]
+    },
+    {
+      "t": "1–12 শ্রেণির সময়সীমার দুই সপ্তাহ আগে।",
+      "of": "145b19b5",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[3].detail"
+      ]
+    },
+    {
+      "t": "শিক্ষকের সুপারিশপত্র পাঠানোর ব্যবস্থা করুন",
+      "of": "915a311f",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[4].action"
+      ]
+    },
+    {
+      "t": "আবেদনের সময়সীমার পরে পড়ে — আগে আবেদন, সুপারিশপত্র তার পরে।",
+      "of": "06d89179",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[4].detail"
+      ]
+    },
+    {
+      "t": "CAIS স্ক্রিনিং (WPPSI-IV) বুক করে সম্পন্ন করুন",
+      "of": "970c0335",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[5].action"
+      ]
+    },
+    {
+      "t": "CAIS-মনোনীত একজন মনোবিজ্ঞানীর সঙ্গে সরাসরি সময় ঠিক করা হয়; $300, মনোবিজ্ঞানীকেই দিতে হয়।",
+      "of": "0c693fa0",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[5].detail"
+      ]
+    },
+    {
+      "t": "আপনার সন্তানের শ্রেণিকক্ষ পরিদর্শন সম্পন্ন করুন",
+      "of": "89030381",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[6].action"
+      ]
+    },
+    {
+      "t": "CAIS স্ক্রিনিংয়ের সঙ্গে একই সময়সীমা।",
+      "of": "6a59ac09",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[6].detail"
+      ]
+    },
+    {
+      "t": "শ্রেণি-উপযোগী একজন শিক্ষকের সঙ্গে দেখা করুন",
+      "of": "fa2faeaa",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[7].action",
+        "charlotte-country-day:guide.bands[1].checklistRows[5].action",
+        "charlotte-country-day:guide.bands[2].checklistRows[5].action"
+      ]
+    },
+    {
+      "t": "অভিন্ন ছয় ধাপের প্রক্রিয়ার 4র্থ ধাপ।",
+      "of": "95b3037a",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[7].detail",
+        "charlotte-country-day:guide.bands[1].checklistRows[5].detail",
+        "charlotte-country-day:guide.bands[2].checklistRows[5].detail"
+      ]
+    },
+    {
+      "t": "1–12 শ্রেণির ধারার ছয় সপ্তাহ আগে।",
+      "of": "71e01f03",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[8].detail"
+      ]
+    },
+    {
+      "t": "আপনার জবাব ও ভর্তি চুক্তি ফেরত দিন",
+      "of": "e4d9dfa1",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[9].action",
+        "charlotte-country-day:guide.bands[1].checklistRows[8].action",
+        "charlotte-country-day:guide.bands[2].checklistRows[9].action"
+      ]
+    },
+    {
+      "t": "জামানত টিউশনের 10%, যা মোট অঙ্ক থেকে সমন্বয় করা হয়।",
+      "of": "0925c078",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[9].detail",
+        "charlotte-country-day:guide.bands[1].checklistRows[8].detail",
+        "charlotte-country-day:guide.bands[2].checklistRows[9].detail"
+      ]
+    },
+    {
+      "t": "1–4 শ্রেণি",
+      "of": "c3d4535d",
+      "at": [
+        "charlotte-country-day:guide.bands[1].label",
+        "charlotte-country-day:guide.bands[1].title"
+      ]
+    },
+    {
+      "t": "CAIS স্ক্রিনিং · পরের সময়সূচি",
+      "of": "1c8faf8c",
+      "at": [
+        "charlotte-country-day:guide.bands[1].sublabel"
+      ]
+    },
+    {
+      "t": "ক্যাম্পাস ঘুরে দেখুন",
+      "of": "a70afee5",
+      "at": [
+        "charlotte-country-day:guide.bands[1].steps[2].title"
+      ]
+    },
+    {
+      "t": "প্রকাশিত সময়সূচিতে 1–4 শ্রেণির জন্য কোনো ওপেন হাউসের কথা নেই — স্কুল কেবল একটি JK/K অনুষ্ঠান ও একটি 9–12 শ্রেণির অনুষ্ঠানের কথা বলে। এর বদলে পোর্টালের মাধ্যমে আলাদা করে একটি পরিদর্শনের সময় নিন।",
+      "of": "afc47ef8",
+      "at": [
+        "charlotte-country-day:guide.bands[1].steps[2].detail"
+      ]
+    },
+    {
+      "t": "1–12 শ্রেণির সময়সীমা। \"আপনার সন্তানের আবেদনের অংশ হিসেবে $100 ফি আবশ্যক।\"",
+      "of": "f6ba594f",
+      "at": [
+        "charlotte-country-day:guide.bands[1].steps[3].detail",
+        "charlotte-country-day:guide.bands[2].steps[3].detail"
+      ]
+    },
+    {
+      "t": "CAIS স্ক্রিনিং",
+      "of": "512c9881",
+      "at": [
+        "charlotte-country-day:guide.bands[1].steps[4].title"
+      ]
+    },
+    {
+      "t": "কোন পদ্ধতিতে পরীক্ষা হবে তা শ্রেণির উপর নির্ভর করে, আর এই ভাগ এই স্তরের সীমা অনুসরণ করে না: **1ম শ্রেণির জন্য WPPSI-IV, 2য়–4র্থ শ্রেণিতে ওঠা শিক্ষার্থীদের জন্য WISC-V**। দুটোরই খরচ $300, CAIS-মনোনীত একজন মনোবিজ্ঞানীর সঙ্গে সরাসরি বুক করে টাকা দিতে হয় — Labor Day-র পরদিন থেকে সময় নেওয়া শুরু হয়, আর আপনি কেবল একজন মনোবিজ্ঞানীর সঙ্গেই সময় নেবেন।",
+      "of": "6d06a7af",
+      "at": [
+        "charlotte-country-day:guide.bands[1].steps[4].detail"
+      ]
+    },
+    {
+      "t": "সহায়ক কাগজপত্র দিন",
+      "of": "45de2561",
+      "at": [
+        "charlotte-country-day:guide.bands[1].steps[6].title",
+        "charlotte-country-day:guide.bands[2].steps[6].title"
+      ]
+    },
+    {
+      "t": "শিক্ষকের সুপারিশপত্র ও শিক্ষাগত নথি, যেমনটি আপনার পোর্টাল তালিকা \"আপনার সন্তানের শ্রেণি অনুযায়ী\" বিস্তারিত জানায়। JK/K-র মতো এখানে সুপারিশপত্রের আলাদা কোনো প্রকাশিত সময়সীমা নেই — পোর্টালই সেই তালিকা।",
+      "of": "6edcf0c1",
+      "at": [
+        "charlotte-country-day:guide.bands[1].steps[6].detail"
+      ]
+    },
+    {
+      "t": "9 এপ্রিল → 16 এপ্রিল",
+      "of": "f6651621",
+      "at": [
+        "charlotte-country-day:guide.bands[1].steps[7].tag",
+        "charlotte-country-day:guide.bands[2].steps[7].tag"
+      ]
+    },
+    {
+      "t": "সিদ্ধান্ত প্রকাশিত হয় 9 এপ্রিল এবং আপনার জবাবের সময়সীমা 16 এপ্রিল। ভর্তি চুক্তিতে টিউশনের 10% জামানত থাকে, যা মোট অঙ্ক থেকে সমন্বয় করা হয়; যাদের আর্থিক সহায়তার আবেদন চলমান, তারা কম জামানত দেন এবং সহায়তা অপর্যাপ্ত হলে তা ফেরতযোগ্য।",
+      "of": "a73714fb",
+      "at": [
+        "charlotte-country-day:guide.bands[1].steps[7].detail",
+        "charlotte-country-day:guide.bands[2].steps[7].detail"
+      ]
+    },
+    {
+      "t": "JK/K-র মতোই পরীক্ষা, ভিন্ন সময়সূচি",
+      "of": "0f710f2f",
+      "at": [
+        "charlotte-country-day:guide.bands[1].watchOuts[0].kicker"
+      ]
+    },
+    {
+      "t": "1–4 শ্রেণি JK/K-র **একই CAIS স্ক্রিনিং গোষ্ঠীর** মধ্যেই পড়ে — কনসোর্টিয়ামের পুস্তিকা Pre-K থেকে 4র্থ শ্রেণি পর্যন্ত ধরে — তবে চলে **1–12 শ্রেণির পরের সময়সূচিতে**। ফলে মূল্যায়নটি JK/K-র, অথচ প্রতিটি তারিখ বড় স্তরগুলোর। পদ্ধতিটি নিজেই ভাগ হয় **1ম বনাম 2য় শ্রেণিতে**, স্তরের সীমানায় নয়: 1ম শ্রেণির আবেদনকারী WPPSI-IV দেয়, আর 2য়–4র্থ শ্রেণিতে ওঠা আবেদনকারী WISC-V।",
+      "of": "b002c06d",
+      "at": [
+        "charlotte-country-day:guide.bands[1].watchOuts[0].text"
+      ]
+    },
+    {
+      "t": "পরীক্ষার ফি আলাদা করে হিসাব করুন",
+      "of": "172e523b",
+      "at": [
+        "charlotte-country-day:guide.bands[1].watchOuts[1].kicker"
+      ]
+    },
+    {
+      "t": "CAIS-র **$300** ফি **মনোবিজ্ঞানীকে দিতে হয়, স্কুলকে নয়**, এবং তা স্কুলের নিজস্ব **$100** আবেদন ফি-র উপরে অতিরিক্ত। সময় নিশ্চিত করার 24 ঘণ্টার মধ্যে টাকা দিতে হয়, 1 জানুয়ারি 2027-এর পরে নেওয়া সময়ের জন্য তা ফেরতযোগ্য নয়, এবং টাকা দেওয়ার পর একবার **$100 বাতিল ফি** প্রযোজ্য হয় — নির্ধারিত সময়ের 72 ঘণ্টার মধ্যে হলে কোনো টাকাই ফেরত পাওয়া যায় না।",
+      "of": "8f8a3d93",
+      "at": [
+        "charlotte-country-day:guide.bands[1].watchOuts[1].text"
+      ]
+    },
+    {
+      "t": "পোর্টালই আপনার কাগজপত্রের তালিকা।",
+      "of": "b7d8d954",
+      "at": [
+        "charlotte-country-day:guide.bands[1].checklistCallout.lead"
+      ]
+    },
+    {
+      "t": "JK/K-র মতো নয়, 1–4 শ্রেণির জন্য সুপারিশপত্রের আলাদা কোনো প্রকাশিত সময়সীমা নেই: আপনার Veracross তালিকা ঠিক কোন কোন সুপারিশপত্র ও নথি আপনার সন্তানের শ্রেণির জন্য দরকার তা বিস্তারিত জানায়, আর সবকিছুর সময়সীমা 26 ফেব্রুয়ারি।",
+      "of": "5c1d54ec",
+      "at": [
+        "charlotte-country-day:guide.bands[1].checklistCallout.text"
+      ]
+    },
+    {
+      "t": "আলাদা করে ক্যাম্পাস পরিদর্শনের সময় নিন",
+      "of": "6e962860",
+      "at": [
+        "charlotte-country-day:guide.bands[1].checklistRows[2].action"
+      ]
+    },
+    {
+      "t": "1–4 শ্রেণির জন্য কোনো ওপেন হাউসের কথা নেই — পোর্টালের মাধ্যমে একটি পরিদর্শনের ব্যবস্থা করুন।",
+      "of": "60532212",
+      "at": [
+        "charlotte-country-day:guide.bands[1].checklistRows[2].detail"
+      ]
+    },
+    {
+      "t": "1–12 শ্রেণির সময়সীমা।",
+      "of": "034be8bd",
+      "at": [
+        "charlotte-country-day:guide.bands[1].checklistRows[3].detail",
+        "charlotte-country-day:guide.bands[2].checklistRows[3].detail"
+      ]
+    },
+    {
+      "t": "CAIS স্ক্রিনিং বুক করে সম্পন্ন করুন",
+      "of": "0ea06345",
+      "at": [
+        "charlotte-country-day:guide.bands[1].checklistRows[4].action"
+      ]
+    },
+    {
+      "t": "1ম শ্রেণির জন্য WPPSI-IV, 2য়–4র্থ শ্রেণিতে ওঠা শিক্ষার্থীদের জন্য WISC-V। $300, মনোবিজ্ঞানীকেই দিতে হয়।",
+      "of": "f3b1c791",
+      "at": [
+        "charlotte-country-day:guide.bands[1].checklistRows[4].detail"
+      ]
+    },
+    {
+      "t": "শিক্ষকের সুপারিশপত্র ও শিক্ষাগত নথি জমা দিন",
+      "of": "0ee2306b",
+      "at": [
+        "charlotte-country-day:guide.bands[1].checklistRows[6].action"
+      ]
+    },
+    {
+      "t": "আপনার শ্রেণির জন্য পোর্টাল তালিকায় যেমন বিস্তারিত বলা আছে ঠিক তেমনই।",
+      "of": "0b7533c7",
+      "at": [
+        "charlotte-country-day:guide.bands[1].checklistRows[6].detail",
+        "charlotte-country-day:guide.bands[2].checklistRows[6].detail"
+      ]
+    },
+    {
+      "t": "1–12 শ্রেণির ফল জানানোর তারিখ।",
+      "of": "36b2e89c",
+      "at": [
+        "charlotte-country-day:guide.bands[1].checklistRows[7].detail",
+        "charlotte-country-day:guide.bands[2].checklistRows[8].detail"
+      ]
+    },
+    {
+      "t": "9 এপ্রিল 2027",
+      "of": "deb16d0c",
+      "at": [
+        "charlotte-country-day:guide.bands[1].checklistRows[7].due",
+        "charlotte-country-day:guide.bands[2].checklistRows[8].due"
+      ]
+    },
+    {
+      "t": "16 এপ্রিল 2027",
+      "of": "91a9b508",
+      "at": [
+        "charlotte-country-day:guide.bands[1].checklistRows[8].due",
+        "charlotte-country-day:guide.bands[2].checklistRows[9].due"
+      ]
+    },
+    {
+      "t": "5–12 শ্রেণি",
+      "of": "96ab2300",
+      "at": [
+        "charlotte-country-day:guide.bands[2].label",
+        "charlotte-country-day:guide.bands[2].title"
+      ]
+    },
+    {
+      "t": "ISEE · দুটি ক্যাম্পাস",
+      "of": "ca55a975",
+      "at": [
+        "charlotte-country-day:guide.bands[2].sublabel"
+      ]
+    },
+    {
+      "t": "সঠিক ক্যাম্পাসটি ঘুরে দেখুন",
+      "of": "848630b2",
+      "at": [
+        "charlotte-country-day:guide.bands[2].steps[2].title"
+      ]
+    },
+    {
+      "t": "5–8 শ্রেণি **Bissell**-এ; 9–12 শ্রেণি **Cannon**-এ। প্রকাশিত সময়সূচিতে 9–12 শ্রেণির একটি ওপেন হাউসের কথা আছে — **5 নভেম্বর 2026, দুপুর 1:30, Cannon-এ** — 5–8 শ্রেণির জন্য কোনো অনুষ্ঠানের উল্লেখ নেই, তাই সেই পরিদর্শনের ব্যবস্থা পোর্টালের মাধ্যমে করুন।",
+      "of": "2a2d3bd9",
+      "at": [
+        "charlotte-country-day:guide.bands[2].steps[2].detail"
+      ]
+    },
+    {
+      "t": "ISEE দিন",
+      "of": "bd7e5642",
+      "at": [
+        "charlotte-country-day:guide.bands[2].steps[4].title"
+      ]
+    },
+    {
+      "t": "ছোট স্তরগুলো থেকে এখানেই ছেদ: কোনো মনোবিজ্ঞানী নেই, CAIS নেই। স্কুল নিজেই একটি পরীক্ষার দিন রাখে — **6 ফেব্রুয়ারি 2027** — আর তার বদলে আপনি ISEE ওয়েবসাইটের মাধ্যমে বুক করা অন্য যেকোনো তারিখেও পরীক্ষা দিতে পারেন। এটি \"মৌখিক ও পরিমাণগত দক্ষতা, গণিতের দক্ষতা, পাঠ-বোধ এবং লেখার দক্ষতা যাচাই করে\"; এমন সময়ে বুক করুন যাতে নম্বর 26 ফেব্রুয়ারির সময়সীমার আগেই পৌঁছায়।",
+      "of": "b78ef59b",
+      "at": [
+        "charlotte-country-day:guide.bands[2].steps[4].detail"
+      ]
+    },
+    {
+      "t": "শিক্ষকের সুপারিশপত্রের সঙ্গে শিক্ষাগত নথি ও ট্রান্সক্রিপ্ট, যেমনটি আপনার সন্তানের শ্রেণির জন্য পোর্টাল তালিকা বিস্তারিত জানায়।",
+      "of": "b72f8c80",
+      "at": [
+        "charlotte-country-day:guide.bands[2].steps[6].detail"
+      ]
+    },
+    {
+      "t": "আপনি কোন ক্যাম্পাসে আবেদন করছেন",
+      "of": "88cae8b7",
+      "at": [
+        "charlotte-country-day:guide.bands[2].watchOuts[0].kicker"
+      ]
+    },
+    {
+      "t": "এই স্তরটি দুটি ঠিকানা জুড়ে আছে। **5–8 শ্রেণি Bissell-এ আবেদন করে এবং সেখানেই পড়ে**; **9–12 শ্রেণি Cannon-এ আবেদন করে এবং সেখানেই পড়ে**। আপনার সন্তান যে ক্যাম্পাসেই যাক, ভর্তি অফিসটি Cannon-এ, Levine Center-এ। আরও লক্ষ করুন, এখানে উল্লেখ করা একমাত্র ওপেন হাউসটি **9–12 শ্রেণির** — মাধ্যমিকের পরিদর্শন কোনো প্রকাশিত অনুষ্ঠানে নয়, আলাদা করেই ব্যবস্থা করতে হয়।",
+      "of": "3d54e03b",
+      "at": [
+        "charlotte-country-day:guide.bands[2].watchOuts[0].text"
+      ]
+    },
+    {
+      "t": "TOEFL এই স্তরের প্রক্রিয়ার **অতিরিক্ত অংশ, বিকল্প নয়**: \"আন্তর্জাতিক আবেদনকারীদের ইংরেজি ভাষা ব্যবহার ও বোঝার সক্ষমতা যাচাই করতে TOEFL পরীক্ষা দিতে বলা হয়,\" অর্থাৎ ISEE-র উপরে অতিরিক্ত এবং একই সময়সীমায়। Duolingo English Test-এর কথা বলা হয়নি। ভিসা, I-20 ও SEVIS-এর নিয়ম — এবং আবেদন ফি আলাদা কি না — **প্রকাশ করা হয়নি**; শুরু করার আগে সরাসরি ভর্তি অফিসে জিজ্ঞাসা করুন।",
+      "of": "01c4dc32",
+      "at": [
+        "charlotte-country-day:guide.bands[2].watchOuts[1].text"
+      ]
+    },
+    {
+      "t": "ISEE আগেভাগেই বুক করুন।",
+      "of": "76d95ec2",
+      "at": [
+        "charlotte-country-day:guide.bands[2].checklistCallout.lead"
+      ]
+    },
+    {
+      "t": "স্কুল একটি পরীক্ষার দিন রাখে (6 ফেব্রুয়ারি 2027) আর নইলে আপনি ISEE ওয়েবসাইটের মাধ্যমে নিজের তারিখ বুক করেন — যেভাবেই হোক, নম্বর 26 ফেব্রুয়ারির মধ্যে স্কুলে পৌঁছাতে হবে। আন্তর্জাতিক আবেদনকারীরা এই তালিকার সঙ্গে TOEFL যোগ করেন, বদলে দেন না।",
+      "of": "cfd902a2",
+      "at": [
+        "charlotte-country-day:guide.bands[2].checklistCallout.text"
+      ]
+    },
+    {
+      "t": "আপনার সন্তান যে ক্যাম্পাসে পড়বে সেটি ঘুরে দেখুন",
+      "of": "a38ee244",
+      "at": [
+        "charlotte-country-day:guide.bands[2].checklistRows[2].action"
+      ]
+    },
+    {
+      "t": "5–8 শ্রেণি Bissell, 9–12 শ্রেণি Cannon। উল্লেখ করা ওপেন হাউসটি 5 নভেম্বর 2026, দুপুর 1:30, Cannon-এ, 9–12 শ্রেণির জন্য।",
+      "of": "39330145",
+      "at": [
+        "charlotte-country-day:guide.bands[2].checklistRows[2].detail"
+      ]
+    },
+    {
+      "t": "স্কুলের নিজস্ব পরীক্ষার দিন 6 ফেব্রুয়ারি 2027; অন্য তারিখগুলো ISEE ওয়েবসাইটের মাধ্যমে বুক করতে হয়।",
+      "of": "18f6d3b4",
+      "at": [
+        "charlotte-country-day:guide.bands[2].checklistRows[4].detail"
+      ]
+    },
+    {
+      "t": "সুপারিশপত্র, নথি ও ট্রান্সক্রিপ্ট জমা দিন",
+      "of": "72087bbb",
+      "at": [
+        "charlotte-country-day:guide.bands[2].checklistRows[6].action"
+      ]
+    },
+    {
+      "t": "আন্তর্জাতিক আবেদনকারী: TOEFL দিন",
+      "of": "94748321",
+      "at": [
+        "charlotte-country-day:guide.bands[2].checklistRows[7].action"
+      ]
+    },
+    {
+      "t": "ISEE-র অতিরিক্ত হিসেবে, তার বদলে নয়।",
+      "of": "4614ad33",
+      "at": [
+        "charlotte-country-day:guide.bands[2].checklistRows[7].detail"
+      ]
+    },
+    {
+      "t": "আপনি যদি নতুন আবেদনকারী পরিবার হন, Clarity আবেদনের ($65 ফি) সময়সীমা **15 জানুয়ারি** — স্কুল যে 1 নভেম্বর তারিখটিও প্রকাশ করে সেটি আগে থেকেই ভর্তি থাকা পরিবারের জন্য, আপনার জন্য নয়। সহায়তা দেওয়া হয় **কেবল প্রয়োজনের ভিত্তিতে** (মেধাবৃত্তি নেই), হেফাজতে থাকা ও না-থাকা উভয় অভিভাবকই জমা দেন, \"ভর্তির সিদ্ধান্ত আর্থিক সহায়তার সিদ্ধান্ত থেকে আলাদাভাবে নেওয়া হয়,\" এবং যে সহায়তাই দেওয়া হোক তা ভর্তি চুক্তির সঙ্গে জানানো হয়।",
+      "of": "2353ae2a",
+      "at": [
+        "charlotte-country-day:guide.aid.text"
+      ]
+    },
+    {
+      "t": "ভর্তি পরীক্ষা",
+      "of": "d2dbb321",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[1].label"
+      ]
+    },
+    {
+      "t": "CAIS স্ক্রিনিং — WPPSI-IV",
+      "of": "16d551fc",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[1].cells.jkk"
+      ]
+    },
+    {
+      "t": "CAIS স্ক্রিনিং — WPPSI-IV (1ম শ্রেণি), WISC-V (2য়–4র্থ শ্রেণিতে ওঠা)",
+      "of": "c517c1e1",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[1].cells.g14"
+      ]
+    },
+    {
+      "t": "ISEE — স্কুলের পরীক্ষার দিন 6 ফেব্রুয়ারি 2027",
+      "of": "cd5c4d05",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[1].cells.g512"
+      ]
+    },
+    {
+      "t": "শিক্ষকের সুপারিশপত্র",
+      "of": "225892f0",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[2].label"
+      ]
+    },
+    {
+      "t": "নিজস্ব সময়সীমা — 15 জানুয়ারি 2027",
+      "of": "80787dbf",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[2].cells.jkk"
+      ]
+    },
+    {
+      "t": "পোর্টাল তালিকার মাধ্যমে — আলাদা সময়সীমা নেই",
+      "of": "575c6115",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[2].cells.g14",
+        "charlotte-country-day:guide.comparison.rows[2].cells.g512"
+      ]
+    },
+    {
+      "t": "সন্তানের পরিদর্শন",
+      "of": "22f2bd9c",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[3].label"
+      ]
+    },
+    {
+      "t": "শ্রেণিকক্ষ পরিদর্শন, সময়সীমা 1 ফেব্রুয়ারি 2027",
+      "of": "493ccc20",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[3].cells.jkk"
+      ]
+    },
+    {
+      "t": "একজন শিক্ষকের সঙ্গে সাক্ষাৎ",
+      "of": "4c1b3975",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[3].cells.g14",
+        "charlotte-country-day:guide.comparison.rows[3].cells.g512"
+      ]
+    },
+    {
+      "t": "সব কাগজপত্রের সময়সীমা",
+      "of": "1fcfc124",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[4].label"
+      ]
+    },
+    {
+      "t": "সিদ্ধান্ত ও জবাব",
+      "of": "e91267e4",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[5].label"
+      ]
+    },
+    {
+      "t": "26 ফেব্রুয়ারি → জবাব 5 মার্চ",
+      "of": "f744464c",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[5].cells.jkk"
+      ]
+    },
+    {
+      "t": "9 এপ্রিল → জবাব 16 এপ্রিল",
+      "of": "2d793792",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[5].cells.g14",
+        "charlotte-country-day:guide.comparison.rows[5].cells.g512"
+      ]
+    },
+    {
+      "t": "ক্যাম্পাস",
+      "of": "d83f45a0",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[6].label"
+      ]
+    },
+    {
+      "t": "Cannon",
+      "of": "5469a43c",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[6].cells.jkk",
+        "charlotte-country-day:guide.comparison.rows[6].cells.g14"
+      ]
+    },
+    {
+      "t": "Bissell (5–8) · Cannon (9–12)",
+      "of": "fbf7c8b2",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[6].cells.g512"
+      ]
+    },
+    {
+      "t": "উল্লেখ করা ওপেন হাউস",
+      "of": "ad43504e",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[7].label"
+      ]
+    },
+    {
+      "t": "14 অক্টোবর 2026, সকাল 9:30",
+      "of": "0344415c",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[7].cells.jkk"
+      ]
+    },
+    {
+      "t": "কিছুই প্রকাশ করা হয়নি — পরিদর্শনের সময় নিন",
+      "of": "df3f6496",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[7].cells.g14"
+      ]
+    },
+    {
+      "t": "5 নভেম্বর 2026, দুপুর 1:30 (9–12 শ্রেণি)",
+      "of": "dedaafe8",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[7].cells.g512"
+      ]
+    },
+    {
+      "t": "প্রতিটি স্তরেই অপরিবর্তিত",
+      "of": "4e17969e",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[8].label"
+      ]
+    },
+    {
+      "t": "$100 আবেদন ফি · Veracross পোর্টাল ও তার ব্যক্তিগত তালিকা · শ্রেণি-উপযোগী একজন শিক্ষকের সঙ্গে সাক্ষাৎ · টিউশন থেকে সমন্বয় করা 10% ভর্তি জামানত",
+      "of": "c182280f",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[8].cells.all"
+      ]
+    },
+    {
+      "t": "1440 Carmel Road, Charlotte, NC 28226 · প্রধান 704-943-4530",
+      "of": "da15b10e",
+      "at": [
+        "charlotte-country-day:guide.contacts.address"
+      ]
+    },
+    {
+      "t": "অ্যাসোসিয়েট ডিরেক্টর অব অ্যাডমিশনস · 704-943-4532",
+      "of": "d6960916",
+      "at": [
+        "charlotte-country-day:guide.contacts.people[0].detail"
+      ]
+    },
+    {
+      "t": "অ্যাসিস্ট্যান্ট ডিরেক্টর অব অ্যাডমিশনস · 704-943-4534",
+      "of": "5465bc7a",
+      "at": [
+        "charlotte-country-day:guide.contacts.people[1].detail"
+      ]
+    },
+    {
+      "t": "অ্যাসিস্ট্যান্ট ডিরেক্টর অব অ্যাডমিশনস · 704-943-4533",
+      "of": "4f65b49b",
+      "at": [
+        "charlotte-country-day:guide.contacts.people[2].detail"
+      ]
+    },
+    {
+      "t": "প্রশাসনিক সহকারী · 704-943-4530",
+      "of": "b895ef4b",
+      "at": [
+        "charlotte-country-day:guide.contacts.people[3].detail"
+      ]
+    },
+    {
+      "t": "ভর্তি সহকারী · 704-943-4595",
+      "of": "a8fbb90a",
+      "at": [
+        "charlotte-country-day:guide.contacts.people[4].detail"
+      ]
+    },
+    {
+      "t": "পোর্টাল: Veracross · charlottecountryday.org",
+      "of": "a9d3c2b6",
+      "at": [
+        "charlotte-country-day:guide.checklist.portalNote"
+      ]
+    },
+    {
+      "t": "15 জানুয়ারির মধ্যে Clarity আর্থিক সহায়তার আবেদন ($65 ফি) সম্পূর্ণ করুন — স্কুল তার পাশে যে 1 নভেম্বর সময়সীমাটি প্রকাশ করে সেটি আগে থেকেই ভর্তি থাকা পরিবারের জন্য, নতুন আবেদনকারীদের জন্য নয়।",
+      "of": "b4a7eacc",
+      "at": [
+        "charlotte-country-day:guide.checklist.aidPanel.items[0]"
+      ]
+    },
+    {
+      "t": "হেফাজতে থাকা ও না-থাকা উভয় অভিভাবকই Clarity-র মাধ্যমে জমা দেন। সহায়তা কেবল প্রয়োজনের ভিত্তিতে দেওয়া হয়; মেধাবৃত্তি নেই।",
+      "of": "6d28e56f",
+      "at": [
+        "charlotte-country-day:guide.checklist.aidPanel.items[1]"
+      ]
+    },
+    {
+      "t": "ভর্তির সিদ্ধান্ত আর্থিক সহায়তার সিদ্ধান্ত থেকে আলাদাভাবে নেওয়া হয়, এবং যে সহায়তাই দেওয়া হোক তা ভর্তি চুক্তির সঙ্গে জানানো হয়। যেসব পরিবার সহায়তার আবেদন করে তারা কম জামানত দেয়, যা সহায়তা অপর্যাপ্ত হলে ফেরতযোগ্য।",
+      "of": "104ed0e6",
+      "at": [
+        "charlotte-country-day:guide.checklist.aidPanel.items[2]"
+      ]
+    },
+    {
+      "t": "ভর্তি অফিসের প্রধান নম্বর — 704-943-4530 · admissions@charlottecountryday.org",
+      "of": "12c840c6",
+      "at": [
+        "charlotte-country-day:guide.checklist.contactPanel.lines[0]"
+      ]
+    },
+    {
+      "t": "1440 Carmel Road, Charlotte, NC 28226 — Levine Center, প্রথম তলা, Cannon Campus",
+      "of": "b9f730c7",
+      "at": [
+        "charlotte-country-day:guide.checklist.contactPanel.lines[1]"
+      ]
+    },
+    {
+      "t": "Bissell Campus (5–8 শ্রেণি) — 5936 Green Rea Road, Charlotte, NC 28226 · 704-943-4800",
+      "of": "d3447b58",
+      "at": [
+        "charlotte-country-day:guide.checklist.contactPanel.lines[2]"
+      ]
+    },
+    {
+      "t": "তারিখগুলো 2027–28 ভর্তি চক্রের, যেমনটি charlottecountryday.org-এর ভর্তি পাতাগুলোতে প্রকাশিত (আগস্ট 2026-এ সংগৃহীত) এবং 2027–28 CAIS কনসোর্টিয়াম পুস্তিকা দ্বারা সমর্থিত। চক্রের তারিখ বছরে বছরে বদলায় — পদক্ষেপ নেওয়ার আগে সরাসরি ক্যালেন্ডারে যাচাই করে নিন। Charlotte School Compare সংকলিত; Charlotte Country Day School-এর সঙ্গে সংযুক্ত নয়।",
+      "of": "0bbe3ee5",
+      "at": [
+        "charlotte-country-day:guide.checklist.disclaimer"
       ]
     }
   ]

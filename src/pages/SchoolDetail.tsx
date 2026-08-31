@@ -106,6 +106,8 @@ import {
   admissionsProgram,
   loadAdmissionsOverlay,
   ADMISSIONS_CARDS,
+  admissionsCardTitleFor,
+  titleOverrideSlug as admissionsOverrideSlug,
 } from '../data/admissionsPrograms.ts'
 import {
   AdmissionsCardBody,
@@ -1084,7 +1086,9 @@ export function SchoolDetail({ slug }: { slug: string }) {
                       >
                         <summary>
                           <span className="note-card-head">
-                            <span className="topic-title">{cardTitle(tr, 'admissions', card.key, card.title)}</span>
+                            <span className="topic-title">
+                              {cardTitle(tr, 'admissions', card.key, admissionsCardTitleFor(slug, card), admissionsOverrideSlug(slug, card.key))}
+                            </span>
                             <span className="topic-teaser">
                               {admissions[card.key]!.headline}
                             </span>

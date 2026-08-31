@@ -34,7 +34,8 @@
       "t": "مهلت درخواست پایه‌های 1–12",
       "of": "0115e4c6",
       "at": [
-        "providence-day:guide.stats[2].label"
+        "providence-day:guide.stats[2].label",
+        "charlotte-country-day:guide.stats[2].label"
       ]
     },
     {
@@ -48,7 +49,8 @@
       "t": "تنها یک سامانه.",
       "of": "63513317",
       "at": [
-        "providence-day:guide.rules[0].title"
+        "providence-day:guide.rules[0].title",
+        "charlotte-country-day:guide.rules[0].title"
       ]
     },
     {
@@ -62,7 +64,8 @@
       "t": "تاریخ‌ها ویژهٔ همان دوره‌اند.",
       "of": "799cf75d",
       "at": [
-        "providence-day:guide.rules[1].title"
+        "providence-day:guide.rules[1].title",
+        "charlotte-country-day:guide.rules[1].title"
       ]
     },
     {
@@ -114,7 +117,8 @@
       "of": "f539ae89",
       "at": [
         "providence-day:guide.bands[0].deadlines[1].label",
-        "providence-day:guide.bands[1].deadlines[1].label"
+        "providence-day:guide.bands[1].deadlines[1].label",
+        "charlotte-country-day:guide.bands[1].deadlines[1].label"
       ]
     },
     {
@@ -152,7 +156,23 @@
         "providence-day:guide.bands[1].checklistRows[1].due",
         "providence-day:guide.bands[2].steps[0].tag",
         "providence-day:guide.bands[2].checklistRows[0].due",
-        "providence-day:guide.bands[2].checklistRows[1].due"
+        "providence-day:guide.bands[2].checklistRows[1].due",
+        "charlotte-country-day:guide.bands[0].steps[0].tag",
+        "charlotte-country-day:guide.bands[0].steps[1].tag",
+        "charlotte-country-day:guide.bands[0].checklistRows[0].due",
+        "charlotte-country-day:guide.bands[0].checklistRows[1].due",
+        "charlotte-country-day:guide.bands[1].steps[0].tag",
+        "charlotte-country-day:guide.bands[1].steps[1].tag",
+        "charlotte-country-day:guide.bands[1].steps[2].tag",
+        "charlotte-country-day:guide.bands[1].checklistRows[0].due",
+        "charlotte-country-day:guide.bands[1].checklistRows[1].due",
+        "charlotte-country-day:guide.bands[1].checklistRows[2].due",
+        "charlotte-country-day:guide.bands[2].steps[0].tag",
+        "charlotte-country-day:guide.bands[2].steps[1].tag",
+        "charlotte-country-day:guide.bands[2].steps[2].tag",
+        "charlotte-country-day:guide.bands[2].checklistRows[0].due",
+        "charlotte-country-day:guide.bands[2].checklistRows[1].due",
+        "charlotte-country-day:guide.bands[2].checklistRows[2].due"
       ]
     },
     {
@@ -175,7 +195,8 @@
       "t": "تا 2 ژانویه",
       "of": "a636a187",
       "at": [
-        "providence-day:guide.bands[0].steps[1].tag"
+        "providence-day:guide.bands[0].steps[1].tag",
+        "charlotte-country-day:guide.bands[0].steps[3].tag"
       ]
     },
     {
@@ -200,7 +221,9 @@
         "providence-day:guide.bands[0].steps[2].tag",
         "providence-day:guide.bands[0].steps[3].tag",
         "providence-day:guide.bands[0].steps[4].tag",
-        "providence-day:guide.bands[0].steps[5].tag"
+        "providence-day:guide.bands[0].steps[5].tag",
+        "charlotte-country-day:guide.bands[0].steps[5].tag",
+        "charlotte-country-day:guide.bands[0].steps[6].tag"
       ]
     },
     {
@@ -259,14 +282,18 @@
       "at": [
         "providence-day:guide.bands[0].steps[6].title",
         "providence-day:guide.bands[1].steps[4].title",
-        "providence-day:guide.bands[2].steps[4].title"
+        "providence-day:guide.bands[2].steps[4].title",
+        "charlotte-country-day:guide.bands[0].steps[7].title",
+        "charlotte-country-day:guide.bands[1].steps[7].title",
+        "charlotte-country-day:guide.bands[2].steps[7].title"
       ]
     },
     {
       "t": "26 فوریه ← 5 مارس",
       "of": "52178ca7",
       "at": [
-        "providence-day:guide.bands[0].steps[6].tag"
+        "providence-day:guide.bands[0].steps[6].tag",
+        "charlotte-country-day:guide.bands[0].steps[7].tag"
       ]
     },
     {
@@ -375,7 +402,9 @@
       "of": "105471a1",
       "at": [
         "providence-day:guide.bands[0].checklistRows[2].due",
-        "providence-day:guide.comparison.rows[0].cells.tkk"
+        "providence-day:guide.comparison.rows[0].cells.tkk",
+        "charlotte-country-day:guide.bands[0].checklistRows[3].due",
+        "charlotte-country-day:guide.comparison.rows[0].cells.jkk"
       ]
     },
     {
@@ -393,7 +422,11 @@
         "providence-day:guide.bands[0].checklistRows[4].due",
         "providence-day:guide.bands[0].checklistRows[5].due",
         "providence-day:guide.bands[0].checklistRows[6].due",
-        "providence-day:guide.comparison.rows[1].cells.tkk"
+        "providence-day:guide.comparison.rows[1].cells.tkk",
+        "charlotte-country-day:guide.bands[0].checklistRows[5].due",
+        "charlotte-country-day:guide.bands[0].checklistRows[6].due",
+        "charlotte-country-day:guide.bands[0].checklistRows[7].due",
+        "charlotte-country-day:guide.comparison.rows[4].cells.jkk"
       ]
     },
     {
@@ -444,7 +477,10 @@
       "at": [
         "providence-day:guide.bands[0].checklistRows[7].action",
         "providence-day:guide.bands[1].checklistRows[5].action",
-        "providence-day:guide.bands[2].checklistRows[5].action"
+        "providence-day:guide.bands[2].checklistRows[5].action",
+        "charlotte-country-day:guide.bands[0].checklistRows[8].action",
+        "charlotte-country-day:guide.bands[1].checklistRows[7].action",
+        "charlotte-country-day:guide.bands[2].checklistRows[8].action"
       ]
     },
     {
@@ -464,7 +500,17 @@
         "providence-day:guide.bands[2].checklistRows[3].due",
         "providence-day:guide.bands[2].checklistRows[4].due",
         "providence-day:guide.comparison.rows[1].cells.g15",
-        "providence-day:guide.comparison.rows[1].cells.g612"
+        "providence-day:guide.comparison.rows[1].cells.g612",
+        "charlotte-country-day:guide.bands[0].checklistRows[8].due",
+        "charlotte-country-day:guide.bands[1].checklistRows[4].due",
+        "charlotte-country-day:guide.bands[1].checklistRows[5].due",
+        "charlotte-country-day:guide.bands[1].checklistRows[6].due",
+        "charlotte-country-day:guide.bands[2].checklistRows[4].due",
+        "charlotte-country-day:guide.bands[2].checklistRows[5].due",
+        "charlotte-country-day:guide.bands[2].checklistRows[6].due",
+        "charlotte-country-day:guide.bands[2].checklistRows[7].due",
+        "charlotte-country-day:guide.comparison.rows[4].cells.g14",
+        "charlotte-country-day:guide.comparison.rows[4].cells.g512"
       ]
     },
     {
@@ -487,7 +533,8 @@
       "t": "5 مارس 2027",
       "of": "a86248f5",
       "at": [
-        "providence-day:guide.bands[0].checklistRows[8].due"
+        "providence-day:guide.bands[0].checklistRows[8].due",
+        "charlotte-country-day:guide.bands[0].checklistRows[9].due"
       ]
     },
     {
@@ -533,7 +580,10 @@
       "of": "6a02e2fd",
       "at": [
         "providence-day:guide.bands[1].steps[1].tag",
-        "providence-day:guide.bands[2].steps[1].tag"
+        "providence-day:guide.bands[2].steps[1].tag",
+        "charlotte-country-day:guide.bands[0].steps[4].tag",
+        "charlotte-country-day:guide.bands[1].steps[3].tag",
+        "charlotte-country-day:guide.bands[2].steps[3].tag"
       ]
     },
     {
@@ -558,7 +608,13 @@
         "providence-day:guide.bands[1].steps[2].tag",
         "providence-day:guide.bands[1].steps[3].tag",
         "providence-day:guide.bands[2].steps[2].tag",
-        "providence-day:guide.bands[2].steps[3].tag"
+        "providence-day:guide.bands[2].steps[3].tag",
+        "charlotte-country-day:guide.bands[1].steps[4].tag",
+        "charlotte-country-day:guide.bands[1].steps[5].tag",
+        "charlotte-country-day:guide.bands[1].steps[6].tag",
+        "charlotte-country-day:guide.bands[2].steps[4].tag",
+        "charlotte-country-day:guide.bands[2].steps[5].tag",
+        "charlotte-country-day:guide.bands[2].steps[6].tag"
       ]
     },
     {
@@ -658,7 +714,12 @@
         "providence-day:guide.bands[1].checklistRows[2].due",
         "providence-day:guide.bands[2].checklistRows[2].due",
         "providence-day:guide.comparison.rows[0].cells.g15",
-        "providence-day:guide.comparison.rows[0].cells.g612"
+        "providence-day:guide.comparison.rows[0].cells.g612",
+        "charlotte-country-day:guide.bands[0].checklistRows[4].due",
+        "charlotte-country-day:guide.bands[1].checklistRows[3].due",
+        "charlotte-country-day:guide.bands[2].checklistRows[3].due",
+        "charlotte-country-day:guide.comparison.rows[0].cells.g14",
+        "charlotte-country-day:guide.comparison.rows[0].cells.g512"
       ]
     },
     {
@@ -724,7 +785,8 @@
       "t": "مهلت همهٔ مدارک و آزمون‌ها",
       "of": "47511426",
       "at": [
-        "providence-day:guide.bands[2].deadlines[1].label"
+        "providence-day:guide.bands[2].deadlines[1].label",
+        "charlotte-country-day:guide.bands[2].deadlines[1].label"
       ]
     },
     {
@@ -780,7 +842,8 @@
       "t": "متقاضیان بین‌المللی",
       "of": "8a721542",
       "at": [
-        "providence-day:guide.bands[2].watchOuts[1].kicker"
+        "providence-day:guide.bands[2].watchOuts[1].kicker",
+        "charlotte-country-day:guide.bands[2].watchOuts[1].kicker"
       ]
     },
     {
@@ -815,7 +878,8 @@
       "t": "برای ISEE ثبت‌نام کنید و در آزمون شرکت کنید",
       "of": "e8835419",
       "at": [
-        "providence-day:guide.bands[2].checklistRows[3].action"
+        "providence-day:guide.bands[2].checklistRows[3].action",
+        "charlotte-country-day:guide.bands[2].checklistRows[4].action"
       ]
     },
     {
@@ -843,7 +907,8 @@
       "t": "به‌موازات: زمان‌بندی کمک‌هزینهٔ مالی",
       "of": "15045be1",
       "at": [
-        "providence-day:guide.aid.title"
+        "providence-day:guide.aid.title",
+        "charlotte-country-day:guide.aid.title"
       ]
     },
     {
@@ -857,28 +922,32 @@
       "t": "کمک‌هزینهٔ مالی و شهریه",
       "of": "801e19b8",
       "at": [
-        "providence-day:guide.aid.button"
+        "providence-day:guide.aid.button",
+        "charlotte-country-day:guide.aid.button"
       ]
     },
     {
       "t": "میان پایه‌ها",
       "of": "60faf9b9",
       "at": [
-        "providence-day:guide.comparison.kicker"
+        "providence-day:guide.comparison.kicker",
+        "charlotte-country-day:guide.comparison.kicker"
       ]
     },
     {
       "t": "دقیقاً چه چیزی میان پایه‌ها تغییر می‌کند",
       "of": "2e98319a",
       "at": [
-        "providence-day:guide.comparison.title"
+        "providence-day:guide.comparison.title",
+        "charlotte-country-day:guide.comparison.title"
       ]
     },
     {
       "t": "مهلت درخواست",
       "of": "8751989b",
       "at": [
-        "providence-day:guide.comparison.rows[0].label"
+        "providence-day:guide.comparison.rows[0].label",
+        "charlotte-country-day:guide.comparison.rows[0].label"
       ]
     },
     {
@@ -977,14 +1046,16 @@
       "t": "تماس‌ها",
       "of": "fa6ba530",
       "at": [
-        "providence-day:guide.contacts.kicker"
+        "providence-day:guide.contacts.kicker",
+        "charlotte-country-day:guide.contacts.kicker"
       ]
     },
     {
       "t": "دفتر پذیرش",
       "of": "ba210c46",
       "at": [
-        "providence-day:guide.contacts.title"
+        "providence-day:guide.contacts.title",
+        "charlotte-country-day:guide.contacts.title"
       ]
     },
     {
@@ -1061,7 +1132,8 @@
       "t": "به‌موازات — زمان‌بندی کمک‌هزینهٔ مالی",
       "of": "3e87e1fd",
       "at": [
-        "providence-day:guide.checklist.aidPanel.kicker"
+        "providence-day:guide.checklist.aidPanel.kicker",
+        "charlotte-country-day:guide.checklist.aidPanel.kicker"
       ]
     },
     {
@@ -1082,7 +1154,8 @@
       "t": "پرسش‌ها — دفتر پذیرش",
       "of": "79312c44",
       "at": [
-        "providence-day:guide.checklist.contactPanel.kicker"
+        "providence-day:guide.checklist.contactPanel.kicker",
+        "charlotte-country-day:guide.checklist.contactPanel.kicker"
       ]
     },
     {
@@ -1111,6 +1184,1027 @@
       "of": "4437f3e8",
       "at": [
         "providence-day:guide.checklist.disclaimer"
+      ]
+    },
+    {
+      "t": "پایهٔ ورود فرزندتان را انتخاب کنید تا راهنما متناسب با آن تنظیم شود: مراحل به‌ترتیب، مهلت‌های 2027–28 و آزمون‌های همان پایه — به‌همراه سیاههٔ قابل‌چاپی که با خود ببرید. یک فرایند مشترک شش‌مرحله‌ای، اما دو بار می‌شکند — میان Kindergarten و پایهٔ 1، و بار دیگر میان پایه‌های 4 و 5.",
+      "of": "d95a9b0c",
+      "at": [
+        "charlotte-country-day:guide.headline"
+      ]
+    },
+    {
+      "t": "دورهٔ پذیرش 2027–28",
+      "of": "639aa0b9",
+      "at": [
+        "charlotte-country-day:guide.cycle"
+      ]
+    },
+    {
+      "t": "پایهٔ ورود، هرکدام با تقویم خاص خود",
+      "of": "67f7b475",
+      "at": [
+        "charlotte-country-day:guide.stats[0].label"
+      ]
+    },
+    {
+      "t": "مهلت درخواست JK/K — دو هفته زودتر از همه",
+      "of": "0a55ba87",
+      "at": [
+        "charlotte-country-day:guide.stats[1].label"
+      ]
+    },
+    {
+      "t": "ودیعهٔ ثبت‌نام — درصدی از شهریه که از همان کسر می‌شود",
+      "of": "27f1c3e0",
+      "at": [
+        "charlotte-country-day:guide.stats[3].label"
+      ]
+    },
+    {
+      "t": "همه‌چیز از Veracross می‌گذرد: فرم درخواست اطلاعات پروندهٔ شما را باز می‌کند، درخواست را از حساب پورتال پذیرش ثبت می‌کنید، و سپس پورتال سیاهه‌ای متناسب با پایهٔ فرزندتان می‌سازد که هر مرحلهٔ باقی‌مانده را پی می‌گیرد.",
+      "of": "96717b90",
+      "at": [
+        "charlotte-country-day:guide.rules[0].text"
+      ]
+    },
+    {
+      "t": "هر تاریخ زیر مربوط به دورهٔ ورود 2027–28 است، همان‌گونه که مدرسه منتشر کرده و بروشور کنسرسیوم CAIS تأیید می‌کند. تاریخ‌های هر دوره سال‌به‌سال تغییر می‌کند — پیش از اقدام، آن‌ها را با تقویم زندهٔ مدرسه بسنجید.",
+      "of": "7f009b04",
+      "at": [
+        "charlotte-country-day:guide.rules[1].text"
+      ]
+    },
+    {
+      "t": "شش مرحلهٔ منتشرشده در همهٔ پایه‌ها — مسیر خود را آغاز کنید ← درخواست را ثبت کنید ← آزمون ورودی بدهید ← با یکی از دبیران دیدار کنید ← مدارک پشتیبان را ارائه دهید ← پیشرفت خود را دنبال کنید. آنچه تغییر می‌کند مرحلهٔ 3 (کدام آزمون)، مهلت درخواست، و مسیر تصمیمی است که در آن قرار می‌گیرید.",
+      "of": "15531cc1",
+      "at": [
+        "charlotte-country-day:guide.spineNote"
+      ]
+    },
+    {
+      "t": "JK / Kindergarten",
+      "of": "9c31b86d",
+      "at": [
+        "charlotte-country-day:guide.bands[0].label"
+      ]
+    },
+    {
+      "t": "غربالگری CAIS · تقویم زودهنگام",
+      "of": "2e681cae",
+      "at": [
+        "charlotte-country-day:guide.bands[0].sublabel"
+      ]
+    },
+    {
+      "t": "Junior Kindergarten و Kindergarten",
+      "of": "bad2eaf6",
+      "at": [
+        "charlotte-country-day:guide.bands[0].title"
+      ]
+    },
+    {
+      "t": "مهلت فرم درخواست و هزینهٔ $100",
+      "of": "8f6148fd",
+      "at": [
+        "charlotte-country-day:guide.bands[0].deadlines[0].label",
+        "charlotte-country-day:guide.bands[1].deadlines[0].label",
+        "charlotte-country-day:guide.bands[2].deadlines[0].label"
+      ]
+    },
+    {
+      "t": "مهلت آزمون CAIS و بازدید از کلاس",
+      "of": "f88e3229",
+      "at": [
+        "charlotte-country-day:guide.bands[0].deadlines[1].label"
+      ]
+    },
+    {
+      "t": "اعلام نتایج",
+      "of": "6b93e04b",
+      "at": [
+        "charlotte-country-day:guide.bands[0].deadlines[2].label",
+        "charlotte-country-day:guide.bands[1].deadlines[2].label",
+        "charlotte-country-day:guide.bands[2].deadlines[2].label"
+      ]
+    },
+    {
+      "t": "مهلت پاسخ خانواده",
+      "of": "8ebe19b2",
+      "at": [
+        "charlotte-country-day:guide.bands[0].deadlines[3].label",
+        "charlotte-country-day:guide.bands[1].deadlines[3].label",
+        "charlotte-country-day:guide.bands[2].deadlines[3].label"
+      ]
+    },
+    {
+      "t": "فرم درخواست اطلاعات را ثبت کنید",
+      "of": "3118ab2b",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[0].title",
+        "charlotte-country-day:guide.bands[1].steps[0].title",
+        "charlotte-country-day:guide.bands[2].steps[0].title"
+      ]
+    },
+    {
+      "t": "فرم درخواست اطلاعات Veracross پروندهٔ شما را باز می‌کند و درخواست اطلاعات، اعلام حضور در رویدادها و ثبت درخواست را یک‌جا گرد می‌آورد.",
+      "of": "b0aa88d7",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[0].detail",
+        "charlotte-country-day:guide.bands[1].steps[0].detail",
+        "charlotte-country-day:guide.bands[2].steps[0].detail"
+      ]
+    },
+    {
+      "t": "حساب پورتال پذیرش خود را بسازید",
+      "of": "1b6eacdb",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[1].title",
+        "charlotte-country-day:guide.bands[0].checklistRows[1].action",
+        "charlotte-country-day:guide.bands[1].steps[1].title",
+        "charlotte-country-day:guide.bands[1].checklistRows[1].action",
+        "charlotte-country-day:guide.bands[2].steps[1].title",
+        "charlotte-country-day:guide.bands[2].checklistRows[1].action"
+      ]
+    },
+    {
+      "t": "پورتال سیاهه‌ای متناسب با پایه می‌سازد و بازدید از پردیس هم از همان‌جا رزرو می‌شود.",
+      "of": "5c6ec227",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[1].detail",
+        "charlotte-country-day:guide.bands[1].steps[1].detail",
+        "charlotte-country-day:guide.bands[2].steps[1].detail"
+      ]
+    },
+    {
+      "t": "در روز باز JK/K شرکت کنید",
+      "of": "83dbf269",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[2].title"
+      ]
+    },
+    {
+      "t": "14 اکتبر 2026",
+      "of": "55a12610",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[2].tag",
+        "charlotte-country-day:guide.bands[0].checklistRows[2].due"
+      ]
+    },
+    {
+      "t": "ساعت 9:30 صبح در Cannon Campus — تنها روز بازی که مدرسه برای این پایه نام می‌برد. توصیه‌شده است، نه الزامی.",
+      "of": "4d25f88e",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[2].detail"
+      ]
+    },
+    {
+      "t": "درخواست را ثبت و هزینهٔ $100 را پرداخت کنید",
+      "of": "b015dc80",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[3].title",
+        "charlotte-country-day:guide.bands[1].steps[3].title",
+        "charlotte-country-day:guide.bands[2].steps[3].title"
+      ]
+    },
+    {
+      "t": "دو هفته زودتر از همهٔ پایه‌های دیگر. «هزینه‌ای معادل $100 به‌عنوان بخشی از درخواست فرزندتان لازم است.»",
+      "of": "51591e2b",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[3].detail"
+      ]
+    },
+    {
+      "t": "توصیه‌نامهٔ معلم",
+      "of": "36cce318",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[4].title"
+      ]
+    },
+    {
+      "t": "در جدول زمانی مدرسه سطری جداگانه دارد — و **پس از** مهلت درخواست 2 ژانویه می‌آید، نه پیش از آن. اشتباه چاپی نیست: نخست درخواست بدهید، توصیه‌نامه پس از آن می‌رسد.",
+      "of": "79815e43",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[4].detail"
+      ]
+    },
+    {
+      "t": "غربالگری CAIS و بازدید از کلاس",
+      "of": "e75bbd88",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[5].title"
+      ]
+    },
+    {
+      "t": "مهلت هر دو یک روز است. غربالگری همان WPPSI-IV است که مستقیماً با روان‌شناس تعیین‌شدهٔ CAIS رزرو و پرداخت می‌شود ($300، جدا از هزینهٔ $100 مدرسه) — وقت‌ها از روز پس از Labor Day باز می‌شود. بازدید از کلاس مربوط به فرزند شماست، در پردیس.",
+      "of": "d9c62b07",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[5].detail"
+      ]
+    },
+    {
+      "t": "با یکی از دبیران دیدار کنید",
+      "of": "1a23e081",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[6].title",
+        "charlotte-country-day:guide.bands[1].steps[5].title",
+        "charlotte-country-day:guide.bands[2].steps[5].title"
+      ]
+    },
+    {
+      "t": "مرحلهٔ 4 فرایند مشترک — «هر داوطلب با عضوی از هیئت دبیران متناسب با پایهٔ خود دیدار می‌کند.»",
+      "of": "9d73c65b",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[6].detail",
+        "charlotte-country-day:guide.bands[1].steps[5].detail",
+        "charlotte-country-day:guide.bands[2].steps[5].detail"
+      ]
+    },
+    {
+      "t": "نتایج 26 فوریه اعلام می‌شود و مهلت پاسخ شما 5 مارس است. قرارداد ثبت‌نام ودیعه‌ای معادل 10% شهریه دارد که از کل مبلغ کسر می‌شود؛ خانواده‌هایی که درخواست کمک‌هزینه‌شان در جریان است ودیعهٔ کمتری می‌پردازند که اگر کمک‌هزینه کافی نباشد بازگردانده می‌شود.",
+      "of": "79f8b611",
+      "at": [
+        "charlotte-country-day:guide.bands[0].steps[7].detail"
+      ]
+    },
+    {
+      "t": "چرا JK/K پایه‌ای جداگانه است",
+      "of": "11ad6e67",
+      "at": [
+        "charlotte-country-day:guide.bands[0].watchOuts[0].kicker"
+      ]
+    },
+    {
+      "t": "این پایه بر **تقویمی کاملاً زودهنگام‌تر** حرکت می‌کند — درخواست 2 ژانویه به‌جای 15 ژانویه، نتایج 26 فوریه به‌جای 9 آوریل. دو الزام هم دارد که پایه‌های بالاتر ندارند: **توصیه‌نامهٔ معلم با مهلت جداگانه** و یک **بازدید از کلاس** برای فرزندتان. اگر تاریخ 2 ژانویه را از دست بدهید، به‌عنوان جایگزین وارد مسیر پایه‌های 1–12 نمی‌شوید؛ برای همین پایه دیر کرده‌اید.",
+      "of": "4a73f750",
+      "at": [
+        "charlotte-country-day:guide.bands[0].watchOuts[0].text"
+      ]
+    },
+    {
+      "t": "یک آزمون برای هفت مدرسه",
+      "of": "a920c12f",
+      "at": [
+        "charlotte-country-day:guide.bands[0].watchOuts[1].kicker"
+      ]
+    },
+    {
+      "t": "غربالگری CAIS ارزیابی کنسرسیومی است: «فرزند شما تنها یک بار توسط روان‌شناس دارای پروانه و تعیین‌شدهٔ CAIS ارزیابی می‌شود»، و همان یک ارزیابی را **هر هفت مدرسهٔ عضو** می‌پذیرند — پس درخواست به چند مدرسهٔ مستقل Charlotte به‌معنای چند بار آزمون دادن نیست. اما دو قاعده برقرار است: هر مدرسه تنها زمانی ارزیابی شما را بررسی می‌کند که **پیش‌تر در آن مدرسه درخواست داده باشید**، آزمون **تنها یک بار در هر دورهٔ دوازده‌ماهه** ممکن است، و هر نشانه‌ای از آموزش هدفمند، کلاس خصوصی یا تکرار آزمون «درخواست شما را در هر مدرسهٔ CAIS باطل خواهد کرد».",
+      "of": "bc71c525",
+      "at": [
+        "charlotte-country-day:guide.bands[0].watchOuts[1].text"
+      ]
+    },
+    {
+      "t": "مهلت شما 2 ژانویه است، نه 15 ژانویه.",
+      "of": "f4958447",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistCallout.lead"
+      ]
+    },
+    {
+      "t": "Junior Kindergarten و Kindergarten دو هفته زودتر از همهٔ پایه‌های دیگر درخواست می‌دهند و شش هفته زودتر پاسخ می‌گیرند. مهلت توصیه‌نامهٔ معلم 15 ژانویه است — یعنی پس از درخواست، که درست است و اشتباه چاپی نیست.",
+      "of": "f2534f0b",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistCallout.text"
+      ]
+    },
+    {
+      "t": "فرم درخواست اطلاعات Veracross را ثبت کنید",
+      "of": "bc83696b",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[0].action",
+        "charlotte-country-day:guide.bands[1].checklistRows[0].action",
+        "charlotte-country-day:guide.bands[2].checklistRows[0].action"
+      ]
+    },
+    {
+      "t": "پروندهٔ شما را باز می‌کند؛ درخواست اطلاعات، اعلام حضور در رویدادها و ثبت درخواست همه از آن می‌گذرد.",
+      "of": "f75b157b",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[0].detail",
+        "charlotte-country-day:guide.bands[1].checklistRows[0].detail",
+        "charlotte-country-day:guide.bands[2].checklistRows[0].detail"
+      ]
+    },
+    {
+      "t": "سیاههٔ متناسب با پایه را می‌سازد و بازدید شما از پردیس را رزرو می‌کند.",
+      "of": "5d967102",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[1].detail",
+        "charlotte-country-day:guide.bands[1].checklistRows[1].detail",
+        "charlotte-country-day:guide.bands[2].checklistRows[1].detail"
+      ]
+    },
+    {
+      "t": "در روز باز پذیرش JK/K شرکت کنید",
+      "of": "6c0f8429",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[2].action"
+      ]
+    },
+    {
+      "t": "ساعت 9:30 صبح، Cannon Campus. توصیه‌شده، نه الزامی.",
+      "of": "931fc684",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[2].detail"
+      ]
+    },
+    {
+      "t": "درخواست را ثبت و هزینهٔ $100 را پرداخت کنید",
+      "of": "2da568b7",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[3].action",
+        "charlotte-country-day:guide.bands[1].checklistRows[3].action",
+        "charlotte-country-day:guide.bands[2].checklistRows[3].action"
+      ]
+    },
+    {
+      "t": "دو هفته زودتر از مهلت پایه‌های 1–12.",
+      "of": "145b19b5",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[3].detail"
+      ]
+    },
+    {
+      "t": "ترتیبی دهید که توصیه‌نامهٔ معلم فرستاده شود",
+      "of": "915a311f",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[4].action"
+      ]
+    },
+    {
+      "t": "پس از مهلت درخواست می‌آید — نخست درخواست، سپس توصیه‌نامه.",
+      "of": "06d89179",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[4].detail"
+      ]
+    },
+    {
+      "t": "غربالگری CAIS (WPPSI-IV) را رزرو و انجام دهید",
+      "of": "970c0335",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[5].action"
+      ]
+    },
+    {
+      "t": "مستقیماً با روان‌شناس تعیین‌شدهٔ CAIS وقت گرفته می‌شود؛ $300، که به خود روان‌شناس پرداخت می‌شود.",
+      "of": "0c693fa0",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[5].detail"
+      ]
+    },
+    {
+      "t": "بازدید فرزندتان از کلاس را کامل کنید",
+      "of": "89030381",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[6].action"
+      ]
+    },
+    {
+      "t": "مهلت آن با غربالگری CAIS یکی است.",
+      "of": "6a59ac09",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[6].detail"
+      ]
+    },
+    {
+      "t": "با دبیری متناسب با پایهٔ فرزندتان دیدار کنید",
+      "of": "fa2faeaa",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[7].action",
+        "charlotte-country-day:guide.bands[1].checklistRows[5].action",
+        "charlotte-country-day:guide.bands[2].checklistRows[5].action"
+      ]
+    },
+    {
+      "t": "مرحلهٔ 4 فرایند مشترک شش‌مرحله‌ای.",
+      "of": "95b3037a",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[7].detail",
+        "charlotte-country-day:guide.bands[1].checklistRows[5].detail",
+        "charlotte-country-day:guide.bands[2].checklistRows[5].detail"
+      ]
+    },
+    {
+      "t": "شش هفته زودتر از مسیر پایه‌های 1–12.",
+      "of": "71e01f03",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[8].detail"
+      ]
+    },
+    {
+      "t": "پاسخ خود و قرارداد ثبت‌نام را بازگردانید",
+      "of": "e4d9dfa1",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[9].action",
+        "charlotte-country-day:guide.bands[1].checklistRows[8].action",
+        "charlotte-country-day:guide.bands[2].checklistRows[9].action"
+      ]
+    },
+    {
+      "t": "ودیعه معادل 10% شهریه است و از کل مبلغ کسر می‌شود.",
+      "of": "0925c078",
+      "at": [
+        "charlotte-country-day:guide.bands[0].checklistRows[9].detail",
+        "charlotte-country-day:guide.bands[1].checklistRows[8].detail",
+        "charlotte-country-day:guide.bands[2].checklistRows[9].detail"
+      ]
+    },
+    {
+      "t": "پایه‌های 1–4",
+      "of": "c3d4535d",
+      "at": [
+        "charlotte-country-day:guide.bands[1].label",
+        "charlotte-country-day:guide.bands[1].title"
+      ]
+    },
+    {
+      "t": "غربالگری CAIS · تقویم دیرهنگام‌تر",
+      "of": "1c8faf8c",
+      "at": [
+        "charlotte-country-day:guide.bands[1].sublabel"
+      ]
+    },
+    {
+      "t": "از پردیس بازدید کنید",
+      "of": "a70afee5",
+      "at": [
+        "charlotte-country-day:guide.bands[1].steps[2].title"
+      ]
+    },
+    {
+      "t": "در تقویم منتشرشده هیچ روز بازی برای پایه‌های 1–4 نام برده نشده — مدرسه تنها یک رویداد JK/K و یک رویداد پایه‌های 9–12 را نام می‌برد. به‌جای آن از طریق پورتال بازدیدی جداگانه رزرو کنید.",
+      "of": "afc47ef8",
+      "at": [
+        "charlotte-country-day:guide.bands[1].steps[2].detail"
+      ]
+    },
+    {
+      "t": "مهلت پایه‌های 1–12. «هزینه‌ای معادل $100 به‌عنوان بخشی از درخواست فرزندتان لازم است.»",
+      "of": "f6ba594f",
+      "at": [
+        "charlotte-country-day:guide.bands[1].steps[3].detail",
+        "charlotte-country-day:guide.bands[2].steps[3].detail"
+      ]
+    },
+    {
+      "t": "غربالگری CAIS",
+      "of": "512c9881",
+      "at": [
+        "charlotte-country-day:guide.bands[1].steps[4].title"
+      ]
+    },
+    {
+      "t": "اینکه کدام آزمون برگزار شود به پایه بستگی دارد و این تقسیم‌بندی با مرز این پایهٔ ورود همخوان نیست: **WPPSI-IV برای پایهٔ 1، WISC-V برای دانش‌آموزانی که به پایه‌های 2–4 می‌روند**. هزینهٔ هر دو $300 است و مستقیماً با روان‌شناس تعیین‌شدهٔ CAIS رزرو و پرداخت می‌شود — وقت‌ها از روز پس از Labor Day باز می‌شود و تنها با یک روان‌شناس وقت می‌گیرید.",
+      "of": "6d06a7af",
+      "at": [
+        "charlotte-country-day:guide.bands[1].steps[4].detail"
+      ]
+    },
+    {
+      "t": "مدارک پشتیبان را ارائه دهید",
+      "of": "45de2561",
+      "at": [
+        "charlotte-country-day:guide.bands[1].steps[6].title",
+        "charlotte-country-day:guide.bands[2].steps[6].title"
+      ]
+    },
+    {
+      "t": "توصیه‌نامه‌های معلمان و سوابق تحصیلی، همان‌گونه که سیاههٔ پورتال شما «بر پایهٔ پایهٔ تحصیلی فرزندتان» برمی‌شمارد. برخلاف JK/K اینجا مهلت جداگانه‌ای برای توصیه‌نامه منتشر نشده — خودِ پورتال آن فهرست است.",
+      "of": "6edcf0c1",
+      "at": [
+        "charlotte-country-day:guide.bands[1].steps[6].detail"
+      ]
+    },
+    {
+      "t": "9 آوریل ← 16 آوریل",
+      "of": "f6651621",
+      "at": [
+        "charlotte-country-day:guide.bands[1].steps[7].tag",
+        "charlotte-country-day:guide.bands[2].steps[7].tag"
+      ]
+    },
+    {
+      "t": "نتایج 9 آوریل اعلام می‌شود و مهلت پاسخ شما 16 آوریل است. قرارداد ثبت‌نام ودیعه‌ای معادل 10% شهریه دارد که از کل مبلغ کسر می‌شود؛ خانواده‌هایی که درخواست کمک‌هزینه‌شان در جریان است ودیعهٔ کمتری می‌پردازند که اگر کمک‌هزینه کافی نباشد بازگردانده می‌شود.",
+      "of": "a73714fb",
+      "at": [
+        "charlotte-country-day:guide.bands[1].steps[7].detail",
+        "charlotte-country-day:guide.bands[2].steps[7].detail"
+      ]
+    },
+    {
+      "t": "همان آزمون JK/K، با ساعتی دیگر",
+      "of": "0f710f2f",
+      "at": [
+        "charlotte-country-day:guide.bands[1].watchOuts[0].kicker"
+      ]
+    },
+    {
+      "t": "پایه‌های 1–4 در **همان گروه غربالگری CAIS** با JK/K قرار می‌گیرند — بروشور کنسرسیوم از Pre-K تا پایهٔ 4 را دربر می‌گیرد — اما بر **تقویم دیرهنگام‌تر پایه‌های 1–12** حرکت می‌کنند. پس ارزیابی همان ارزیابی JK/K است در حالی که همهٔ تاریخ‌ها از آنِ پایه‌های بالاترند. خودِ آزمون میان **پایهٔ 1 و پایهٔ 2** جدا می‌شود، نه در مرز پایهٔ ورود: داوطلب پایهٔ 1 آزمون WPPSI-IV می‌دهد و داوطلبی که به پایه‌های 2–4 می‌رود WISC-V.",
+      "of": "b002c06d",
+      "at": [
+        "charlotte-country-day:guide.bands[1].watchOuts[0].text"
+      ]
+    },
+    {
+      "t": "هزینهٔ آزمون را جداگانه در نظر بگیرید",
+      "of": "172e523b",
+      "at": [
+        "charlotte-country-day:guide.bands[1].watchOuts[1].kicker"
+      ]
+    },
+    {
+      "t": "هزینهٔ **$300** CAIS **به روان‌شناس پرداخت می‌شود، نه به مدرسه**، و افزون بر هزینهٔ درخواست **$100** خودِ مدرسه است. پرداخت باید ظرف 24 ساعت پس از تأیید وقت انجام شود، برای وقت‌های گرفته‌شده پس از 1 ژانویه 2027 بازگشت‌پذیر نیست، و پس از پرداخت **هزینهٔ لغو $100** اعمال می‌شود — و در فاصلهٔ 72 ساعت مانده به وقت، هیچ مبلغی بازگردانده نمی‌شود.",
+      "of": "8f8a3d93",
+      "at": [
+        "charlotte-country-day:guide.bands[1].watchOuts[1].text"
+      ]
+    },
+    {
+      "t": "پورتال همان فهرست مدارک شماست.",
+      "of": "b7d8d954",
+      "at": [
+        "charlotte-country-day:guide.bands[1].checklistCallout.lead"
+      ]
+    },
+    {
+      "t": "برخلاف JK/K، پایه‌های 1–4 مهلت جداگانه‌ای برای توصیه‌نامه ندارند: سیاههٔ Veracross شما دقیقاً برمی‌شمارد که برای پایهٔ فرزندتان چه توصیه‌نامه‌ها و چه سوابقی لازم است، و مهلت همهٔ آن‌ها 26 فوریه است.",
+      "of": "5c1d54ec",
+      "at": [
+        "charlotte-country-day:guide.bands[1].checklistCallout.text"
+      ]
+    },
+    {
+      "t": "بازدیدی جداگانه از پردیس رزرو کنید",
+      "of": "6e962860",
+      "at": [
+        "charlotte-country-day:guide.bands[1].checklistRows[2].action"
+      ]
+    },
+    {
+      "t": "برای پایه‌های 1–4 هیچ روز بازی نام برده نشده — از طریق پورتال بازدیدی ترتیب دهید.",
+      "of": "60532212",
+      "at": [
+        "charlotte-country-day:guide.bands[1].checklistRows[2].detail"
+      ]
+    },
+    {
+      "t": "مهلت پایه‌های 1–12.",
+      "of": "034be8bd",
+      "at": [
+        "charlotte-country-day:guide.bands[1].checklistRows[3].detail",
+        "charlotte-country-day:guide.bands[2].checklistRows[3].detail"
+      ]
+    },
+    {
+      "t": "غربالگری CAIS را رزرو و انجام دهید",
+      "of": "0ea06345",
+      "at": [
+        "charlotte-country-day:guide.bands[1].checklistRows[4].action"
+      ]
+    },
+    {
+      "t": "WPPSI-IV برای پایهٔ 1، WISC-V برای دانش‌آموزانی که به پایه‌های 2–4 می‌روند. $300، که به خود روان‌شناس پرداخت می‌شود.",
+      "of": "f3b1c791",
+      "at": [
+        "charlotte-country-day:guide.bands[1].checklistRows[4].detail"
+      ]
+    },
+    {
+      "t": "توصیه‌نامه‌های معلمان و سوابق تحصیلی را ارائه دهید",
+      "of": "0ee2306b",
+      "at": [
+        "charlotte-country-day:guide.bands[1].checklistRows[6].action"
+      ]
+    },
+    {
+      "t": "دقیقاً همان‌گونه که سیاههٔ پورتال برای پایهٔ شما برمی‌شمارد.",
+      "of": "0b7533c7",
+      "at": [
+        "charlotte-country-day:guide.bands[1].checklistRows[6].detail",
+        "charlotte-country-day:guide.bands[2].checklistRows[6].detail"
+      ]
+    },
+    {
+      "t": "تاریخ اعلام نتایج پایه‌های 1–12.",
+      "of": "36b2e89c",
+      "at": [
+        "charlotte-country-day:guide.bands[1].checklistRows[7].detail",
+        "charlotte-country-day:guide.bands[2].checklistRows[8].detail"
+      ]
+    },
+    {
+      "t": "9 آوریل 2027",
+      "of": "deb16d0c",
+      "at": [
+        "charlotte-country-day:guide.bands[1].checklistRows[7].due",
+        "charlotte-country-day:guide.bands[2].checklistRows[8].due"
+      ]
+    },
+    {
+      "t": "16 آوریل 2027",
+      "of": "91a9b508",
+      "at": [
+        "charlotte-country-day:guide.bands[1].checklistRows[8].due",
+        "charlotte-country-day:guide.bands[2].checklistRows[9].due"
+      ]
+    },
+    {
+      "t": "پایه‌های 5–12",
+      "of": "96ab2300",
+      "at": [
+        "charlotte-country-day:guide.bands[2].label",
+        "charlotte-country-day:guide.bands[2].title"
+      ]
+    },
+    {
+      "t": "ISEE · دو پردیس",
+      "of": "ca55a975",
+      "at": [
+        "charlotte-country-day:guide.bands[2].sublabel"
+      ]
+    },
+    {
+      "t": "از پردیس درست بازدید کنید",
+      "of": "848630b2",
+      "at": [
+        "charlotte-country-day:guide.bands[2].steps[2].title"
+      ]
+    },
+    {
+      "t": "پایه‌های 5–8 در **Bissell** هستند؛ پایه‌های 9–12 در **Cannon**. تقویم منتشرشده روز باز پایه‌های 9–12 را **5 نوامبر 2026، ساعت 1:30 بعدازظهر در Cannon** نام می‌برد — هیچ رویدادی برای پایه‌های 5–8 فهرست نشده، پس آن بازدید را از طریق پورتال ترتیب دهید.",
+      "of": "2a2d3bd9",
+      "at": [
+        "charlotte-country-day:guide.bands[2].steps[2].detail"
+      ]
+    },
+    {
+      "t": "در آزمون ISEE شرکت کنید",
+      "of": "bd7e5642",
+      "at": [
+        "charlotte-country-day:guide.bands[2].steps[4].title"
+      ]
+    },
+    {
+      "t": "نقطهٔ جدایی از پایه‌های پایین‌تر: نه روان‌شناسی در کار است نه CAIS. مدرسه روز آزمون خود را برگزار می‌کند — **6 فوریه 2027** — و در عوض می‌توانید در هر تاریخ دیگر ISEE که از وب‌گاه ISEE رزرو کرده‌اید شرکت کنید. این آزمون «توانایی کلامی و کمّی، مهارت‌های ریاضی، درک مطلب و مهارت‌های نوشتاری را می‌سنجد»؛ چنان زود رزرو کنید که نمره‌ها پیش از مهلت 26 فوریه برسد.",
+      "of": "b78ef59b",
+      "at": [
+        "charlotte-country-day:guide.bands[2].steps[4].detail"
+      ]
+    },
+    {
+      "t": "توصیه‌نامه‌های معلمان به‌همراه سوابق تحصیلی و ریزنمرات، همان‌گونه که سیاههٔ پورتال برای پایهٔ فرزندتان برمی‌شمارد.",
+      "of": "b72f8c80",
+      "at": [
+        "charlotte-country-day:guide.bands[2].steps[6].detail"
+      ]
+    },
+    {
+      "t": "برای کدام پردیس درخواست می‌دهید",
+      "of": "88cae8b7",
+      "at": [
+        "charlotte-country-day:guide.bands[2].watchOuts[0].kicker"
+      ]
+    },
+    {
+      "t": "این پایه دو نشانی را دربر می‌گیرد. **پایه‌های 5–8 برای Bissell درخواست می‌دهند و همان‌جا درس می‌خوانند**؛ **پایه‌های 9–12 برای Cannon درخواست می‌دهند و همان‌جا درس می‌خوانند**. دفتر پذیرش، فارغ از اینکه فرزند شما به کدام پردیس می‌رود، در Cannon و در Levine Center است. توجه کنید که تنها روز باز نام‌برده در اینجا مربوط به **پایه‌های 9–12** است — بازدید از دورهٔ متوسطهٔ اول به‌جای رویدادی منتشرشده، جداگانه ترتیب داده می‌شود.",
+      "of": "3d54e03b",
+      "at": [
+        "charlotte-country-day:guide.bands[2].watchOuts[0].text"
+      ]
+    },
+    {
+      "t": "آزمون TOEFL **افزوده‌ای بر فرایند این پایه است، نه جایگزین آن**: «از داوطلبان بین‌المللی خواسته می‌شود آزمون TOEFL را برای سنجش توانایی به‌کارگیری و درک زبان انگلیسی بدهند»، افزون بر ISEE و با همان مهلت‌ها. نامی از Duolingo English Test برده نشده. روال ویزا، I-20 و SEVIS — و اینکه آیا هزینهٔ درخواست متفاوت است — **منتشر نشده است**؛ پیش از آغاز، مستقیماً از دفتر پذیرش بپرسید.",
+      "of": "01c4dc32",
+      "at": [
+        "charlotte-country-day:guide.bands[2].watchOuts[1].text"
+      ]
+    },
+    {
+      "t": "ISEE را زود رزرو کنید.",
+      "of": "76d95ec2",
+      "at": [
+        "charlotte-country-day:guide.bands[2].checklistCallout.lead"
+      ]
+    },
+    {
+      "t": "مدرسه یک روز آزمون برگزار می‌کند (6 فوریه 2027) و در غیر این صورت تاریخ خود را از وب‌گاه ISEE رزرو می‌کنید — در هر دو حالت نمره‌ها باید تا 26 فوریه به مدرسه برسد. داوطلبان بین‌المللی TOEFL را به این فهرست می‌افزایند، نه اینکه جایگزین آن کنند.",
+      "of": "cfd902a2",
+      "at": [
+        "charlotte-country-day:guide.bands[2].checklistCallout.text"
+      ]
+    },
+    {
+      "t": "از پردیسی که فرزندتان در آن درس خواهد خواند بازدید کنید",
+      "of": "a38ee244",
+      "at": [
+        "charlotte-country-day:guide.bands[2].checklistRows[2].action"
+      ]
+    },
+    {
+      "t": "پایه‌های 5–8 در Bissell، پایه‌های 9–12 در Cannon. روز باز نام‌برده 5 نوامبر 2026، ساعت 1:30 بعدازظهر در Cannon و برای پایه‌های 9–12 است.",
+      "of": "39330145",
+      "at": [
+        "charlotte-country-day:guide.bands[2].checklistRows[2].detail"
+      ]
+    },
+    {
+      "t": "روز آزمون خودِ مدرسه 6 فوریه 2027 است؛ تاریخ‌های دیگر از وب‌گاه ISEE رزرو می‌شود.",
+      "of": "18f6d3b4",
+      "at": [
+        "charlotte-country-day:guide.bands[2].checklistRows[4].detail"
+      ]
+    },
+    {
+      "t": "توصیه‌نامه‌ها، سوابق و ریزنمرات را ارائه دهید",
+      "of": "72087bbb",
+      "at": [
+        "charlotte-country-day:guide.bands[2].checklistRows[6].action"
+      ]
+    },
+    {
+      "t": "داوطلبان بین‌المللی: در آزمون TOEFL شرکت کنید",
+      "of": "94748321",
+      "at": [
+        "charlotte-country-day:guide.bands[2].checklistRows[7].action"
+      ]
+    },
+    {
+      "t": "افزون بر ISEE، نه به‌جای آن.",
+      "of": "4614ad33",
+      "at": [
+        "charlotte-country-day:guide.bands[2].checklistRows[7].detail"
+      ]
+    },
+    {
+      "t": "اگر خانواده‌ای تازه‌داوطلب هستید، مهلت درخواست Clarity (هزینهٔ $65) **15 ژانویه** است — تاریخ 1 نوامبر که مدرسه در کنار آن منتشر می‌کند برای خانواده‌هایی است که از پیش ثبت‌نام کرده‌اند، پس از آنِ شما نیست. کمک‌هزینه‌ها **تنها بر پایهٔ نیاز مالی** داده می‌شود (بورس استعداد وجود ندارد)، هر دو والد سرپرست و غیرسرپرست درخواست می‌دهند، «تصمیم‌های پذیرش جدا از تصمیم‌های کمک مالی گرفته می‌شود»، و هر کمک‌هزینه‌ای همراه با قرارداد ثبت‌نام می‌رسد.",
+      "of": "2353ae2a",
+      "at": [
+        "charlotte-country-day:guide.aid.text"
+      ]
+    },
+    {
+      "t": "آزمون ورودی",
+      "of": "d2dbb321",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[1].label"
+      ]
+    },
+    {
+      "t": "غربالگری CAIS — WPPSI-IV",
+      "of": "16d551fc",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[1].cells.jkk"
+      ]
+    },
+    {
+      "t": "غربالگری CAIS — WPPSI-IV (پایهٔ 1)، WISC-V (ورود به پایه‌های 2–4)",
+      "of": "c517c1e1",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[1].cells.g14"
+      ]
+    },
+    {
+      "t": "ISEE — روز آزمون مدرسه 6 فوریه 2027",
+      "of": "cd5c4d05",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[1].cells.g512"
+      ]
+    },
+    {
+      "t": "توصیه‌نامهٔ معلم",
+      "of": "225892f0",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[2].label"
+      ]
+    },
+    {
+      "t": "مهلت جداگانه — 15 ژانویه 2027",
+      "of": "80787dbf",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[2].cells.jkk"
+      ]
+    },
+    {
+      "t": "از طریق سیاههٔ پورتال — بدون مهلت جداگانه",
+      "of": "575c6115",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[2].cells.g14",
+        "charlotte-country-day:guide.comparison.rows[2].cells.g512"
+      ]
+    },
+    {
+      "t": "بازدید فرزند",
+      "of": "22f2bd9c",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[3].label"
+      ]
+    },
+    {
+      "t": "بازدید از کلاس، مهلت 1 فوریه 2027",
+      "of": "493ccc20",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[3].cells.jkk"
+      ]
+    },
+    {
+      "t": "دیدار با یکی از دبیران",
+      "of": "4c1b3975",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[3].cells.g14",
+        "charlotte-country-day:guide.comparison.rows[3].cells.g512"
+      ]
+    },
+    {
+      "t": "مهلت همهٔ مدارک",
+      "of": "1fcfc124",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[4].label"
+      ]
+    },
+    {
+      "t": "تصمیم و پاسخ",
+      "of": "e91267e4",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[5].label"
+      ]
+    },
+    {
+      "t": "26 فوریه ← پاسخ 5 مارس",
+      "of": "f744464c",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[5].cells.jkk"
+      ]
+    },
+    {
+      "t": "9 آوریل ← پاسخ 16 آوریل",
+      "of": "2d793792",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[5].cells.g14",
+        "charlotte-country-day:guide.comparison.rows[5].cells.g512"
+      ]
+    },
+    {
+      "t": "پردیس",
+      "of": "d83f45a0",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[6].label"
+      ]
+    },
+    {
+      "t": "Cannon",
+      "of": "5469a43c",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[6].cells.jkk",
+        "charlotte-country-day:guide.comparison.rows[6].cells.g14"
+      ]
+    },
+    {
+      "t": "Bissell (5–8) · Cannon (9–12)",
+      "of": "fbf7c8b2",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[6].cells.g512"
+      ]
+    },
+    {
+      "t": "روز باز نام‌برده",
+      "of": "ad43504e",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[7].label"
+      ]
+    },
+    {
+      "t": "14 اکتبر 2026، ساعت 9:30 صبح",
+      "of": "0344415c",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[7].cells.jkk"
+      ]
+    },
+    {
+      "t": "چیزی منتشر نشده — بازدیدی رزرو کنید",
+      "of": "df3f6496",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[7].cells.g14"
+      ]
+    },
+    {
+      "t": "5 نوامبر 2026، ساعت 1:30 بعدازظهر (پایه‌های 9–12)",
+      "of": "dedaafe8",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[7].cells.g512"
+      ]
+    },
+    {
+      "t": "ثابت در همهٔ پایه‌ها",
+      "of": "4e17969e",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[8].label"
+      ]
+    },
+    {
+      "t": "هزینهٔ درخواست $100 · پورتال Veracross و سیاههٔ اختصاصی آن · دیدار با دبیری متناسب با پایه · ودیعهٔ ثبت‌نام 10% که از شهریه کسر می‌شود",
+      "of": "c182280f",
+      "at": [
+        "charlotte-country-day:guide.comparison.rows[8].cells.all"
+      ]
+    },
+    {
+      "t": "1440 Carmel Road, Charlotte, NC 28226 · شمارهٔ اصلی 704-943-4530",
+      "of": "da15b10e",
+      "at": [
+        "charlotte-country-day:guide.contacts.address"
+      ]
+    },
+    {
+      "t": "مدیر همکار پذیرش · 704-943-4532",
+      "of": "d6960916",
+      "at": [
+        "charlotte-country-day:guide.contacts.people[0].detail"
+      ]
+    },
+    {
+      "t": "معاون مدیر پذیرش · 704-943-4534",
+      "of": "5465bc7a",
+      "at": [
+        "charlotte-country-day:guide.contacts.people[1].detail"
+      ]
+    },
+    {
+      "t": "معاون مدیر پذیرش · 704-943-4533",
+      "of": "4f65b49b",
+      "at": [
+        "charlotte-country-day:guide.contacts.people[2].detail"
+      ]
+    },
+    {
+      "t": "دستیار اداری · 704-943-4530",
+      "of": "b895ef4b",
+      "at": [
+        "charlotte-country-day:guide.contacts.people[3].detail"
+      ]
+    },
+    {
+      "t": "دستیار پذیرش · 704-943-4595",
+      "of": "a8fbb90a",
+      "at": [
+        "charlotte-country-day:guide.contacts.people[4].detail"
+      ]
+    },
+    {
+      "t": "سامانه: Veracross · charlottecountryday.org",
+      "of": "a9d3c2b6",
+      "at": [
+        "charlotte-country-day:guide.checklist.portalNote"
+      ]
+    },
+    {
+      "t": "درخواست کمک مالی Clarity (هزینهٔ $65) را تا 15 ژانویه کامل کنید — مهلت 1 نوامبر که مدرسه در کنار آن منتشر می‌کند برای خانواده‌های از پیش ثبت‌نام‌شده است، نه برای داوطلبان تازه.",
+      "of": "b4a7eacc",
+      "at": [
+        "charlotte-country-day:guide.checklist.aidPanel.items[0]"
+      ]
+    },
+    {
+      "t": "هر دو والد سرپرست و غیرسرپرست از طریق Clarity درخواست می‌دهند. کمک‌هزینه‌ها تنها بر پایهٔ نیاز مالی داده می‌شود؛ بورس استعداد وجود ندارد.",
+      "of": "6d28e56f",
+      "at": [
+        "charlotte-country-day:guide.checklist.aidPanel.items[1]"
+      ]
+    },
+    {
+      "t": "تصمیم‌های پذیرش جدا از تصمیم‌های کمک مالی گرفته می‌شود و هر کمک‌هزینه‌ای همراه با قرارداد ثبت‌نام اعلام می‌گردد. خانواده‌هایی که درخواست کمک می‌دهند ودیعهٔ کمتری می‌پردازند که اگر کمک‌هزینه کافی نباشد بازگردانده می‌شود.",
+      "of": "104ed0e6",
+      "at": [
+        "charlotte-country-day:guide.checklist.aidPanel.items[2]"
+      ]
+    },
+    {
+      "t": "شمارهٔ اصلی پذیرش — 704-943-4530 · admissions@charlottecountryday.org",
+      "of": "12c840c6",
+      "at": [
+        "charlotte-country-day:guide.checklist.contactPanel.lines[0]"
+      ]
+    },
+    {
+      "t": "1440 Carmel Road, Charlotte, NC 28226 — Levine Center، طبقهٔ اول، Cannon Campus",
+      "of": "b9f730c7",
+      "at": [
+        "charlotte-country-day:guide.checklist.contactPanel.lines[1]"
+      ]
+    },
+    {
+      "t": "Bissell Campus (پایه‌های 5–8) — 5936 Green Rea Road, Charlotte, NC 28226 · 704-943-4800",
+      "of": "d3447b58",
+      "at": [
+        "charlotte-country-day:guide.checklist.contactPanel.lines[2]"
+      ]
+    },
+    {
+      "t": "تاریخ‌ها مربوط به دورهٔ ورود 2027–28 است، همان‌گونه که در صفحه‌های پذیرش charlottecountryday.org منتشر شده (بازیابی‌شده در اوت 2026) و بروشور کنسرسیوم CAIS 2027–28 آن را تأیید می‌کند. تاریخ‌های هر دوره سال‌به‌سال تغییر می‌کند — پیش از اقدام، آن‌ها را با تقویم زندهٔ مدرسه بسنجید. گردآوری از Charlotte School Compare؛ وابسته به Charlotte Country Day School نیست.",
+      "of": "0bbe3ee5",
+      "at": [
+        "charlotte-country-day:guide.checklist.disclaimer"
       ]
     }
   ]
