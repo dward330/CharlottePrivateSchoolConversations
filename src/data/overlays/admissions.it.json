@@ -36,7 +36,7 @@
       "of": "0115e4c6",
       "at": [
         "providence-day:guide.stats[2].label",
-        "charlotte-christian:guide.stats[2].label",
+        "charlotte-christian:guide.stats[1].label",
         "charlotte-country-day:guide.stats[2].label"
       ]
     },
@@ -1262,17 +1262,10 @@
       ]
     },
     {
-      "t": "fasce di ingresso, ciascuna con il proprio calendario",
-      "of": "1e27eb52",
-      "at": [
-        "charlotte-christian:guide.stats[0].label"
-      ]
-    },
-    {
       "t": "scadenza della domanda per JK/K: due settimane prima di tutti gli altri",
       "of": "0a55ba87",
       "at": [
-        "charlotte-christian:guide.stats[1].label",
+        "charlotte-christian:guide.stats[0].label",
         "charlotte-country-day:guide.stats[1].label"
       ]
     },
@@ -1280,12 +1273,12 @@
       "t": "quota di domanda — non rimborsabile, per ogni classe",
       "of": "64501c19",
       "at": [
-        "charlotte-christian:guide.stats[3].label"
+        "charlotte-christian:guide.stats[2].label"
       ]
     },
     {
-      "t": "Tutto passa da myCCS: un modulo di richiesta informazioni online ti aggiunge al portale, presenti la domanda al suo interno e il portale mostra poi una check-list personalizzata in base alla classe di tuo figlio che tiene traccia di ogni elemento rimanente — certificato di nascita, lettere di raccomandazione, documenti scolastici e punteggi dei test si caricano tutti lì. Le decisioni vengono pubblicate nella scheda decisioni del portale anziché inviate per posta.",
-      "of": "6f367afa",
+      "t": "Tutto passa da myCCS: richiedi informazioni, presenta la domanda, carica ogni documento e leggi la decisione nella scheda decisioni del portale — tutto in un unico posto.",
+      "of": "a24d5cd8",
       "at": [
         "charlotte-christian:guide.rules[0].text"
       ]
@@ -1298,8 +1291,8 @@
       ]
     },
     {
-      "t": "Tutte le date qui sotto si riferiscono al ciclo di ingresso 2026–27, e la scuola precisa che sono le date osservate dalle Charlotte Area Independent Schools per la considerazione prioritaria — dopo di esse, «Charlotte Christian School mantiene ammissioni a rotazione dove lo spazio della classe lo consente». Una domanda tardiva non è quindi automaticamente una porta chiusa; ciò che si perde è la priorità sui posti rimasti.",
-      "of": "843809fb",
+      "t": "Tutte le date qui sotto si riferiscono al ciclo 2026–27. Sono le date di priorità del CAIS; dopo di esse la scuola «mantiene ammissioni a rotazione dove lo spazio della classe lo consente».",
+      "of": "195f3279",
       "at": [
         "charlotte-christian:guide.rules[1].text"
       ]
@@ -1521,34 +1514,6 @@
       "of": "5be43123",
       "at": [
         "charlotte-christian:guide.bands[0].steps[7].detail"
-      ]
-    },
-    {
-      "t": "La tua scadenza è il 2 gennaio — ed è l'unica a esserlo",
-      "of": "b2e6fc3d",
-      "at": [
-        "charlotte-christian:guide.bands[0].watchOuts[0].kicker"
-      ]
-    },
-    {
-      "t": "JK e Kindergarten presentano domanda **due settimane prima di ogni altra classe** e ricevono risposta **sei settimane prima** (26 febbraio anziché 9 aprile). Il documento pubblicato JK–classe 1 copre tre classi e riporta **entrambe** le date in un'unica frase, cosa che si legge facilmente come un'unica scadenza per tutte: è il **2 gennaio per JK/K, il 15 gennaio per la classe 1**. Se perdi il 2 gennaio non passi al percorso delle classi 1–12 — sei semplicemente in ritardo per questo, e finisci nel bacino delle ammissioni a rotazione per lo spazio rimasto.",
-      "of": "6dad4f4f",
-      "at": [
-        "charlotte-christian:guide.bands[0].watchOuts[0].text"
-      ]
-    },
-    {
-      "t": "L'ordine delle operazioni è davvero insolito",
-      "of": "2ae6c12a",
-      "at": [
-        "charlotte-christian:guide.bands[0].watchOuts[1].kicker"
-      ]
-    },
-    {
-      "t": "Due elementi si trovano dove non te li aspetteresti. La **lettera di raccomandazione dell'insegnante è dovuta il 15 gennaio — dopo la domanda del 2 gennaio** — e **non può essere richiesta prima del 1º novembre**, quindi l'intera finestra di richiesta dura circa dieci settimane. E la **sessione di gioco viene fissata dall'ufficio ammissioni** una volta presentata la domanda, anziché prenotata da te: non c'è quindi nulla da riservare né una data da rincorrere — presenta prima la domanda, e il resto della sequenza segue.",
-      "of": "1a00cacb",
-      "at": [
-        "charlotte-christian:guide.bands[0].watchOuts[1].text"
       ]
     },
     {
@@ -1818,34 +1783,6 @@
       ]
     },
     {
-      "t": "La classe 1 è a cavallo dei due confini",
-      "of": "48c627ae",
-      "at": [
-        "charlotte-christian:guide.bands[1].watchOuts[0].kicker"
-      ]
-    },
-    {
-      "t": "È questa la fascia che coglie le famiglie di sorpresa, perché la classe 1 si trova da **un lato del confine delle scadenze e dall'altro lato del confine dei test**. La sua **scadenza di domanda è il 15 gennaio**, con le classi superiori — ma la sua **valutazione è il WPPSI-IV**, con le più piccole, e così anche la sua **sessione di gioco**. Leggere il documento JK–classe 1 come un unico processo dà la scadenza sbagliata; leggere il documento delle classi 2–4 perché «la classe 1 è una classe da grandi» dà il test sbagliato. Nessuna delle schede pubblicate descrive la classe 1 da sola.",
-      "of": "90db7d86",
-      "at": [
-        "charlotte-christian:guide.bands[1].watchOuts[0].text"
-      ]
-    },
-    {
-      "t": "Tardi non significa chiuso, ma nemmeno prioritario",
-      "of": "74152332",
-      "at": [
-        "charlotte-christian:guide.bands[1].watchOuts[1].kicker"
-      ]
-    },
-    {
-      "t": "Le date di questa scheda sono, nelle parole della scuola stessa, «quelle osservate dalle Charlotte Area Independent Schools (CAIS) per la considerazione prioritaria. Dopo queste date, Charlotte Christian School mantiene **ammissioni a rotazione dove lo spazio della classe lo consente**». Rispettare le scadenze «garantisce la considerazione prioritaria per i posti disponibili» — presentare domanda dopo il 15 gennaio ti colloca quindi in un bacino a rotazione per ciò che resta in una singola classe, che in una divisione piccola può essere nulla. Se accanto a ciò operi una lista d'attesa, e come sia ordinata, **non è pubblicato**.",
-      "of": "70832918",
-      "at": [
-        "charlotte-christian:guide.bands[1].watchOuts[1].text"
-      ]
-    },
-    {
       "t": "La classe 1 segue la scadenza più tardiva ma il test più anticipato.",
       "of": "06497453",
       "at": [
@@ -2002,34 +1939,6 @@
       "of": "f426fd87",
       "at": [
         "charlotte-christian:guide.bands[2].steps[6].detail"
-      ]
-    },
-    {
-      "t": "Il colloquio non verrà fissato finché il fascicolo non è completo",
-      "of": "dfba6a6a",
-      "at": [
-        "charlotte-christian:guide.bands[2].watchOuts[0].kicker"
-      ]
-    },
-    {
-      "t": "Il colloquio familiare è **vincolato a un fascicolo completo**, non si prenota in anticipo: viene fissato solo «una volta che i documenti del fascicolo di un candidato sono completi», e le **giornate di visita degli studenti avvengono su invito**. Ogni giorno speso a rincorrere l'ultima pagella è un giorno in cui il colloquio non può essere fissato. Il requisito dei documenti è il punto più lento — **l'anno in corso più i due anni precedenti** di pagelle, test standardizzati e altre valutazioni scolastiche, il che per una famiglia che si trasferisce da un'altra scuola spesso significa richiederli a due segreterie.",
-      "of": "8e09060a",
-      "at": [
-        "charlotte-christian:guide.bands[2].watchOuts[0].text"
-      ]
-    },
-    {
-      "t": "Un fratello o una sorella in JK–K cambia la tua data di decisione",
-      "of": "17ec4e33",
-      "at": [
-        "charlotte-christian:guide.bands[2].watchOuts[1].kicker"
-      ]
-    },
-    {
-      "t": "Se tuo figlio presenta domanda insieme a un fratello o una sorella che entra in JK o Kindergarten, questo candidato viene deciso sul **percorso JK–K — 26 febbraio 2027 — indipendentemente dalla classe richiesta**, circa sei settimane prima del resto della fascia. La scuola lo indica su tutte e tre le check-list. Sposta insieme la decisione e la scadenza del contratto, quindi una famiglia in quella situazione dovrebbe lavorare sul calendario più anticipato per tutto il percorso, anziché su quello stampato su questa scheda.",
-      "of": "c5c39583",
-      "at": [
-        "charlotte-christian:guide.bands[2].watchOuts[1].text"
       ]
     },
     {
@@ -2220,34 +2129,6 @@
       ]
     },
     {
-      "t": "Due requisiti esistono solo in questa fascia",
-      "of": "cc14d076",
-      "at": [
-        "charlotte-christian:guide.bands[3].watchOuts[0].kicker"
-      ]
-    },
-    {
-      "t": "Il **questionario del candidato è scritto dallo studente, a mano** — «stampato e compilato con la calligrafia dello studente», poi caricato su myCCS — richiede quindi il tempo di tuo figlio, non il tuo, e non può essere lasciato all'ultima sera. E l'elenco delle raccomandazioni **si divide a metà fascia**: le **classi 7–12** devono aggiungere una referenza del **preside o del consulente scolastico** oltre a inglese e matematica, mentre le **classi 5–6** necessitano solo dei due insegnanti. Una famiglia di classe 7 che lavori sull'elenco di una famiglia di classe 6 si troverà con una raccomandazione in meno alla scadenza del 26 febbraio.",
-      "of": "a221bcb2",
-      "at": [
-        "charlotte-christian:guide.bands[3].watchOuts[0].text"
-      ]
-    },
-    {
-      "t": "Candidati internazionali: il TOEFL e una quota annuale di $2,000",
-      "of": "8609f0d2",
-      "at": [
-        "charlotte-christian:guide.bands[3].watchOuts[1].kicker"
-      ]
-    },
-    {
-      "t": "I candidati internazionali vengono indirizzati al **TOEFL** in aggiunta al processo di questa fascia, non in sua sostituzione. Il versante dei costi è pubblicato ed è consistente: una **quota per studente internazionale di $2,000 per studente all'anno**, non rimborsabile e dovuta all'iscrizione — sebbene la **quota di $1,250 per le famiglie nuove esplicitamente non si applichi** agli studenti internazionali. Le procedure di visto, I-20 e SEVIS, le agenzie partner ed eventuali differenze nella quota di domanda **non sono pubblicate**; la scuola indica però una Admissions Specialist and International Student Coordinator, quindi informati lì prima di iniziare.",
-      "of": "3f10f567",
-      "at": [
-        "charlotte-christian:guide.bands[3].watchOuts[1].text"
-      ]
-    },
-    {
       "t": "Due elementi qui non esistono in nessun'altra fascia.",
       "of": "ba52f179",
       "at": [
@@ -2320,8 +2201,8 @@
       ]
     },
     {
-      "t": "Gli aiuti passano da **SSS by NAIS** — il codice scuola di Charlotte Christian è **2318** — e i contributi sono **assegnati solo in base al bisogno**, con la sovvenzione massima **limitata al 50 per cento della retta**. Due regole condizionano i tempi: i contributi per le famiglie nuove «non verranno erogati finché i loro studenti non saranno stati accettati», e le domande «verranno esaminate man mano che vengono completate, ma i contributi saranno limitati dai fondi disponibili al momento del completamento» — completare presto conta quindi più di quanto la scadenza suggerisca. Ogni famiglia che richiede un aiuto **deve fare domanda anche al North Carolina Opportunity Scholarship Program**, che apre il 2 febbraio. **La scadenza per gli aiuti di questo ciclo non è pubblicata** — l'unica scheda datata appartiene a un ciclo precedente — quindi confermala con l'ufficio amministrativo prima di pianificare in base a essa.",
-      "of": "74172915",
+      "t": "Gli aiuti passano da **SSS by NAIS** (codice scuola **2318**), sono **assegnati solo in base al bisogno** e sono **limitati al 50 per cento della retta**. Ogni famiglia che richiede un aiuto deve **fare domanda anche al North Carolina Opportunity Scholarship Program**, che apre il 2 febbraio. **La scadenza di questo ciclo non è pubblicata** — confermala con l'ufficio amministrativo.",
+      "of": "5cdd7282",
       "at": [
         "charlotte-christian:guide.aid.text"
       ]
@@ -2713,15 +2594,15 @@
       ]
     },
     {
-      "t": "Tutto passa da Veracross: il modulo di richiesta informazioni apre la pratica, l'account del portale ammissioni è dove si presenta la domanda e il portale genera poi una check-list personalizzata in base alla classe di tuo figlio che tiene traccia di ogni passaggio rimanente.",
-      "of": "96717b90",
+      "t": "Tutto passa da Veracross: la richiesta di informazioni apre la pratica, presenti la domanda nel portale e questo genera una check-list personalizzata in base alla classe di tuo figlio.",
+      "of": "44aa6f8e",
       "at": [
         "charlotte-country-day:guide.rules[0].text"
       ]
     },
     {
-      "t": "Tutte le date qui sotto si riferiscono al ciclo di ingresso 2027–28, come pubblicato dalla scuola e confermato dall'opuscolo del consorzio CAIS. Le date cambiano di anno in anno: verificale sul calendario aggiornato prima di agire.",
-      "of": "7f009b04",
+      "t": "Tutte le date qui sotto si riferiscono al ciclo di ingresso 2027–28, confermato dall'opuscolo del consorzio CAIS. Le date cambiano di anno in anno: verificale prima di agire.",
+      "of": "2d299a7f",
       "at": [
         "charlotte-country-day:guide.rules[1].text"
       ]

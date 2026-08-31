@@ -42,7 +42,7 @@
       "of": "0115e4c6",
       "at": [
         "providence-day:guide.stats[2].label",
-        "charlotte-christian:guide.stats[2].label",
+        "charlotte-christian:guide.stats[1].label",
         "charlotte-country-day:guide.stats[2].label"
       ],
       "t": "कक्षा 1–12 के आवेदन की अंतिम तिथि"
@@ -1414,18 +1414,10 @@
       "t": "अपने बच्चे का प्रवेश स्तर चुनिए और गाइड उसी के अनुसार ढल जाएगा: क्रम में चरण, 2026–27 की अंतिम तिथियाँ, और उस स्तर के टेस्ट — साथ में एक प्रिंट करने योग्य चेकलिस्ट जिसे आप साथ ले जा सकते हैं। तीन प्रकाशित दस्तावेज़, लेकिन असल में चार प्रक्रियाएँ: आवेदन की अंतिम तिथि Kindergarten→1 पर बँटती है जबकि टेस्ट एक कक्षा बाद, 1→2 पर बँटता है।"
     },
     {
-      "text": "entry bands, each with its own calendar",
-      "of": "1e27eb52",
-      "at": [
-        "charlotte-christian:guide.stats[0].label"
-      ],
-      "t": "प्रवेश स्तर, हर एक का अपना कैलेंडर"
-    },
-    {
       "text": "JK/K application deadline — two weeks ahead of everyone else",
       "of": "0a55ba87",
       "at": [
-        "charlotte-christian:guide.stats[1].label",
+        "charlotte-christian:guide.stats[0].label",
         "charlotte-country-day:guide.stats[1].label"
       ],
       "t": "JK/K आवेदन की अंतिम तिथि — बाकी सबसे दो हफ़्ते पहले"
@@ -1434,17 +1426,17 @@
       "text": "application fee — non-refundable, every grade",
       "of": "64501c19",
       "at": [
-        "charlotte-christian:guide.stats[3].label"
+        "charlotte-christian:guide.stats[2].label"
       ],
       "t": "आवेदन शुल्क — वापस नहीं होता, हर कक्षा में"
     },
     {
-      "text": "Everything runs through myCCS: an online inquiry form adds you to it, you apply inside it, and it then shows a checklist personalized to your child's grade that tracks every remaining item — birth certificate, recommendations, records and test scores all upload there. Decisions are posted to the portal's decision tab rather than mailed.",
-      "of": "6f367afa",
+      "text": "Everything runs through myCCS: inquire, apply, upload every document, and read your decision on the portal's decision tab — all in one place.",
+      "of": "a24d5cd8",
       "at": [
         "charlotte-christian:guide.rules[0].text"
       ],
-      "t": "सब कुछ myCCS से होकर चलता है: एक ऑनलाइन पूछताछ फ़ॉर्म आपको उसमें जोड़ देता है, आप उसी के भीतर आवेदन करते हैं, और फिर पोर्टल आपके बच्चे की कक्षा के अनुसार एक निजी चेकलिस्ट दिखाता है जो बची हुई हर चीज़ पर नज़र रखती है — जन्म प्रमाणपत्र, सिफ़ारिश पत्र, स्कूल रिकॉर्ड और टेस्ट स्कोर सब वहीं अपलोड होते हैं। निर्णय डाक से भेजने के बजाय पोर्टल के निर्णय टैब पर प्रकाशित किए जाते हैं।"
+      "t": "सब कुछ myCCS से होकर चलता है: पूछताछ कीजिए, आवेदन कीजिए, हर दस्तावेज़ अपलोड कीजिए और अपना निर्णय पोर्टल के निर्णय टैब पर पढ़िए — सब एक ही जगह।"
     },
     {
       "text": "The deadlines are for priority, and admissions roll after them.",
@@ -1455,12 +1447,12 @@
       "t": "अंतिम तिथियाँ प्राथमिकता के लिए हैं, और उनके बाद भी प्रवेश चलते रहते हैं।"
     },
     {
-      "text": "Every date below is the 2026–27 entry cycle, and the school states that these are the dates observed by Charlotte Area Independent Schools for priority consideration — after them, \"Charlotte Christian School maintains rolling admissions where grade level space permits.\" So a late application is not automatically a closed door; what you lose is priority for the space that remains.",
-      "of": "843809fb",
+      "text": "Every date below is the 2026–27 cycle. These are CAIS priority dates; after them the school \"maintains rolling admissions where grade level space permits.\"",
+      "of": "195f3279",
       "at": [
         "charlotte-christian:guide.rules[1].text"
       ],
-      "t": "नीचे दी गई सभी तारीख़ें 2026–27 प्रवेश चक्र की हैं, और स्कूल बताता है कि ये वही तारीख़ें हैं जिन्हें Charlotte Area Independent Schools प्राथमिकता विचार के लिए मानता है — उनके बाद, «Charlotte Christian School कक्षा में जगह होने पर निरंतर प्रवेश जारी रखता है।» यानी देर से किया गया आवेदन अपने आप बंद दरवाज़ा नहीं है; आप जो खोते हैं वह बची हुई जगह पर प्राथमिकता है।"
+      "t": "नीचे दी गई हर तारीख़ 2026–27 चक्र की है। ये CAIS की प्राथमिकता तारीख़ें हैं; उनके बाद स्कूल «कक्षा में जगह होने पर निरंतर प्रवेश जारी रखता है।»"
     },
     {
       "text": "One shared spine in every band — inquire and join myCCS → apply with the $100 fee → upload the birth certificate → send recommendations and records → complete the CAIS test or the ISEE → meet the school (a playdate for the youngest, a family interview for the rest) → decision on the myCCS decision tab → return the enrollment contract. What changes is which assessment, which application deadline, and which decision track you land on.",
@@ -1706,38 +1698,6 @@
         "charlotte-christian:guide.bands[0].steps[7].detail"
       ],
       "t": "निर्णय myCCS के निर्णय टैब पर **26 फ़रवरी 2027 को 4 p.m.** पर प्रकाशित होता है — कक्षा 1–12 की धारा से छह हफ़्ते पहले — और हस्ताक्षरित नामांकन अनुबंध **5 मार्च 2027 को दोपहर** तक जमा करना होता है। अनुबंध में **प्रति छात्र $1,500 नामांकन शुल्क** है, जो वापस नहीं होता और ट्यूशन के बकाया में समायोजित किया जाता है, साथ ही परिवार के पहली बार जुड़ने पर **$1,250 नया-परिवार शुल्क**।"
-    },
-    {
-      "text": "Your deadline is Jan 2 — and it is the only one that is",
-      "of": "b2e6fc3d",
-      "at": [
-        "charlotte-christian:guide.bands[0].watchOuts[0].kicker"
-      ],
-      "t": "आपकी अंतिम तिथि 2 जनवरी है — और केवल यही ऐसी है"
-    },
-    {
-      "text": "JK and Kindergarten apply **two weeks ahead of every other grade** and hear back **six weeks earlier** (Feb 26 rather than Apr 9). The published JK–Grade 1 document covers three grades and carries **both** dates in a single sentence, which is easy to misread as one deadline for all of them: it is **Jan 2 for JK/K, Jan 15 for Grade 1**. Miss Jan 2 and you do not fall back onto the Grades 1–12 track — you are simply late for this one, and into the rolling-admissions pool for whatever space is left.",
-      "of": "6dad4f4f",
-      "at": [
-        "charlotte-christian:guide.bands[0].watchOuts[0].text"
-      ],
-      "t": "JK और Kindergarten **बाक़ी सभी कक्षाओं से दो हफ़्ते पहले** आवेदन करते हैं और **छह हफ़्ते पहले** जवाब पाते हैं (9 अप्रैल के बजाय 26 फ़रवरी)। प्रकाशित JK–कक्षा 1 दस्तावेज़ तीन कक्षाओं को समेटता है और **दोनों** तारीख़ें एक ही वाक्य में रखता है, जिसे सबके लिए एक ही अंतिम तिथि समझ लेना आसान है: यह **JK/K के लिए 2 जनवरी, कक्षा 1 के लिए 15 जनवरी** है। 2 जनवरी छूट जाए तो आप कक्षा 1–12 की धारा में नहीं पहुँच जाते — आप बस इसी के लिए देर से हैं, और जो जगह बची हो उसके लिए निरंतर प्रवेश समूह में चले जाते हैं।"
-    },
-    {
-      "text": "The order of operations is genuinely unusual",
-      "of": "2ae6c12a",
-      "at": [
-        "charlotte-christian:guide.bands[0].watchOuts[1].kicker"
-      ],
-      "t": "कामों का क्रम सचमुच असामान्य है"
-    },
-    {
-      "text": "Two items sit where you would not expect them. The **teacher recommendation is due Jan 15 — after the Jan 2 application** — and it **cannot be requested before November 1**, so the whole request window is about ten weeks wide. And the **playdate is scheduled by the admissions office** once your application is in, rather than booked by you, so there is nothing to reserve and no date to chase: apply first, and the rest of the sequence follows.",
-      "of": "1a00cacb",
-      "at": [
-        "charlotte-christian:guide.bands[0].watchOuts[1].text"
-      ],
-      "t": "दो चीज़ें वहाँ हैं जहाँ आप उनकी उम्मीद नहीं करेंगे। **शिक्षक की सिफ़ारिश 15 जनवरी तक देनी है — 2 जनवरी के आवेदन के बाद** — और उसे **1 नवंबर से पहले माँगा नहीं जा सकता**, यानी पूरी अनुरोध अवधि क़रीब दस हफ़्ते की है। और **खेल सत्र प्रवेश कार्यालय तय करता है**, आपका आवेदन आने के बाद, आप उसे बुक नहीं करते, इसलिए न कुछ आरक्षित करना है और न किसी तारीख़ के पीछे भागना है: पहले आवेदन कीजिए, बाक़ी क्रम अपने आप चलता है।"
     },
     {
       "text": "Your deadline is Jan 2, not Jan 15.",
@@ -2038,38 +1998,6 @@
       "t": "निर्णय myCCS के निर्णय टैब पर **9 अप्रैल 2027 को 4 p.m.** पर प्रकाशित होता है और नामांकन अनुबंध **16 अप्रैल 2027 को दोपहर** तक देना होता है — कक्षा 1–12 की धारा, JK/K से छह हफ़्ते पीछे। अनुबंध में **प्रति छात्र $1,500 नामांकन शुल्क** है और स्कूल में नए परिवार के लिए **$1,250 नया-परिवार शुल्क** भी।"
     },
     {
-      "text": "Grade 1 straddles the two boundaries",
-      "of": "48c627ae",
-      "at": [
-        "charlotte-christian:guide.bands[1].watchOuts[0].kicker"
-      ],
-      "t": "कक्षा 1 दोनों सीमाओं के बीच पड़ती है"
-    },
-    {
-      "text": "This is the band that catches families out, because Grade 1 sits on **one side of the deadline break and the other side of the testing break**. Its **application deadline is Jan 15**, with the older grades — but its **assessment is the WPPSI-IV**, with the younger ones, and so is its **playdate**. Reading the JK–Grade 1 document as a single process gives you the wrong deadline; reading the Grades 2–4 document because \"Grade 1 is a big-kid grade\" gives you the wrong test. Neither published sheet describes Grade 1 on its own.",
-      "of": "90db7d86",
-      "at": [
-        "charlotte-christian:guide.bands[1].watchOuts[0].text"
-      ],
-      "t": "यही वह स्तर है जो परिवारों को उलझाता है, क्योंकि कक्षा 1 **अंतिम-तिथि सीमा के एक तरफ़ और टेस्ट सीमा के दूसरी तरफ़** पड़ती है। उसकी **आवेदन तिथि 15 जनवरी** है, बड़ी कक्षाओं के साथ — पर उसका **मूल्यांकन WPPSI-IV** है, छोटों के साथ, और उसका **खेल सत्र** भी। JK–कक्षा 1 दस्तावेज़ को एक ही प्रक्रिया मानकर पढ़ेंगे तो ग़लत अंतिम तिथि मिलेगी; «कक्षा 1 तो बड़ों की कक्षा है» सोचकर कक्षा 2–4 का दस्तावेज़ पढ़ेंगे तो ग़लत टेस्ट मिलेगा। कोई भी प्रकाशित पत्रक कक्षा 1 का अलग से वर्णन नहीं करता।"
-    },
-    {
-      "text": "Late is not closed, but it is not priority either",
-      "of": "74152332",
-      "at": [
-        "charlotte-christian:guide.bands[1].watchOuts[1].kicker"
-      ],
-      "t": "देर का मतलब बंद नहीं, पर प्राथमिकता भी नहीं"
-    },
-    {
-      "text": "The dates on this sheet are, in the school's own words, \"those observed by Charlotte Area Independent Schools (CAIS) for priority consideration. After these dates, Charlotte Christian School maintains **rolling admissions where grade level space permits**.\" Observing the deadlines \"promises priority consideration for available space\" — so applying after Jan 15 puts you in a rolling pool for whatever is left in a single grade, which in a small division may be nothing. Whether a waitlist operates alongside that, and how it is ordered, is **not published**.",
-      "of": "70832918",
-      "at": [
-        "charlotte-christian:guide.bands[1].watchOuts[1].text"
-      ],
-      "t": "इस पत्रक की तारीख़ें, स्कूल के अपने शब्दों में, «वे हैं जिन्हें Charlotte Area Independent Schools (CAIS) प्राथमिकता विचार के लिए मानता है। इन तारीख़ों के बाद, Charlotte Christian School **कक्षा में जगह होने पर निरंतर प्रवेश** जारी रखता है।» अंतिम तिथियाँ मानने पर «उपलब्ध जगह के लिए प्राथमिकता विचार का वादा» मिलता है — यानी 15 जनवरी के बाद आवेदन करने पर आप एक ही कक्षा में जो बचा हो उसके लिए निरंतर समूह में आ जाते हैं, जो छोटे खंड में कुछ भी न हो सकता है। इसके साथ कोई प्रतीक्षा सूची चलती है या नहीं, और उसका क्रम क्या है, यह **प्रकाशित नहीं है**।"
-    },
-    {
       "text": "Grade 1 is on the later deadline but the earlier test.",
       "of": "06497453",
       "at": [
@@ -2248,38 +2176,6 @@
         "charlotte-christian:guide.bands[2].steps[6].detail"
       ],
       "t": "निर्णय myCCS के निर्णय टैब पर **9 अप्रैल 2027 को 4 p.m.** पर प्रकाशित होता है, नामांकन अनुबंध **16 अप्रैल 2027 को दोपहर** तक देना होता है — **सिवाय** JK–K आवेदक के भाई-बहन के, जिनका निर्णय आवेदित कक्षा से बिना कोई फ़र्क़ पड़े JK–K धारा पर **26 फ़रवरी 2027** को होता है। अनुबंध में **प्रति छात्र $1,500 नामांकन शुल्क** है, और परिवार स्कूल में नया हो तो **$1,250 नया-परिवार शुल्क** भी।"
-    },
-    {
-      "text": "The interview will not be scheduled until your file is complete",
-      "of": "dfba6a6a",
-      "at": [
-        "charlotte-christian:guide.bands[2].watchOuts[0].kicker"
-      ],
-      "t": "आपकी फ़ाइल पूरी होने तक इंटरव्यू तय नहीं होगा"
-    },
-    {
-      "text": "The family interview is **gated on a complete file**, not booked in advance: it is scheduled only \"once an applicant's file materials are complete,\" and **student visit days are by invitation**. Every day you spend chasing the last transcript is a day the interview cannot be set. The records requirement is the long pole — **current year plus two prior years** of report cards, standardized tests and other educational assessments, which for a family moving from another school often means requesting from two registrars.",
-      "of": "8e09060a",
-      "at": [
-        "charlotte-christian:guide.bands[2].watchOuts[0].text"
-      ],
-      "t": "पारिवारिक इंटरव्यू **पूरी फ़ाइल पर निर्भर** है, पहले से बुक नहीं होता: वह केवल «किसी आवेदक की फ़ाइल के काग़ज़ात पूरे हो जाने पर» तय होता है, और **छात्र भ्रमण दिवस आमंत्रण पर** होते हैं। आख़िरी अंकपत्र के पीछे भागने में बीता हर दिन वह दिन है जब इंटरव्यू तय नहीं हो सकता। रिकॉर्ड की शर्त सबसे धीमा हिस्सा है — **मौजूदा साल और पिछले दो साल** के रिपोर्ट कार्ड, मानकीकृत टेस्ट और अन्य शैक्षिक मूल्यांकन, जो दूसरे स्कूल से आ रहे परिवार के लिए अक्सर दो कार्यालयों से माँगना होता है।"
-    },
-    {
-      "text": "A JK–K sibling changes your decision date",
-      "of": "17ec4e33",
-      "at": [
-        "charlotte-christian:guide.bands[2].watchOuts[1].kicker"
-      ],
-      "t": "JK–K में भाई-बहन होने से आपकी निर्णय तिथि बदल जाती है"
-    },
-    {
-      "text": "If your child is applying alongside a sibling entering JK or Kindergarten, this applicant is decided on the **JK–K track — February 26, 2027 — regardless of the grade applied for**, roughly six weeks ahead of the rest of the band. The school states this on all three checklists. It moves the decision and the contract deadline together, so a family in that position should be working to the earlier calendar throughout rather than the one printed on this sheet.",
-      "of": "c5c39583",
-      "at": [
-        "charlotte-christian:guide.bands[2].watchOuts[1].text"
-      ],
-      "t": "अगर आपका बच्चा JK या Kindergarten में जा रहे किसी भाई-बहन के साथ आवेदन कर रहा है, तो इस आवेदक का निर्णय **JK–K धारा पर — 26 फ़रवरी 2027 — आवेदित कक्षा से बिना कोई फ़र्क़ पड़े** होता है, स्तर के बाक़ी लोगों से क़रीब छह हफ़्ते पहले। स्कूल तीनों चेकलिस्ट पर यह बताता है। यह निर्णय और अनुबंध की अंतिम तिथि दोनों को साथ खिसका देता है, इसलिए ऐसी स्थिति वाले परिवार को इस पत्रक पर छपे कैलेंडर के बजाय शुरू से ही पहले वाले कैलेंडर पर चलना चाहिए।"
     },
     {
       "text": "Finish the file early — the interview waits on it.",
@@ -2494,38 +2390,6 @@
       "t": "निर्णय myCCS के निर्णय टैब पर **9 अप्रैल 2027 को 4 p.m.** पर प्रकाशित होता है, नामांकन अनुबंध **16 अप्रैल 2027 को दोपहर** तक देना होता है — **सिवाय** JK–K आवेदक के भाई-बहन के, जिनका निर्णय **26 फ़रवरी 2027** को होता है। अनुबंध में **प्रति छात्र $1,500 नामांकन शुल्क** है; स्कूल में नया परिवार **$1,250 नया-परिवार शुल्क** भी देता है, जो अंतरराष्ट्रीय छात्रों पर लागू नहीं होता।"
     },
     {
-      "text": "Two requirements exist only in this band",
-      "of": "cc14d076",
-      "at": [
-        "charlotte-christian:guide.bands[3].watchOuts[0].kicker"
-      ],
-      "t": "दो शर्तें केवल इसी स्तर में हैं"
-    },
-    {
-      "text": "The **applicant questionnaire is written by the student, by hand** — \"printed and completed in the student's handwriting,\" then uploaded to myCCS — so it needs your child's time, not yours, and it cannot be left to the last evening. And the recommendation list **splits mid-band**: **Grades 7–12** must add a **Principal or School Counselor** reference on top of English and Math, while **Grades 5–6** need only the two teachers. A Grade 7 family working from a Grade 6 family's list will be one recommendation short at the Feb 26 deadline.",
-      "of": "a221bcb2",
-      "at": [
-        "charlotte-christian:guide.bands[3].watchOuts[0].text"
-      ],
-      "t": "**आवेदक की प्रश्नावली छात्र ख़ुद, हाथ से लिखता है** — «प्रिंट करके छात्र की अपनी लिखावट में भरी जाए», फिर myCCS पर अपलोड की जाए — यानी इसमें आपका नहीं, आपके बच्चे का समय लगता है, और इसे आख़िरी रात के लिए नहीं छोड़ा जा सकता। और सिफ़ारिशों की सूची **स्तर के बीच में ही बँट जाती है**: **कक्षा 7–12** को अंग्रेज़ी और गणित के अलावा **प्रधानाचार्य या स्कूल काउंसलर** का संदर्भ जोड़ना होता है, जबकि **कक्षा 5–6** को केवल दो शिक्षक चाहिए। कक्षा 6 के किसी परिवार की सूची देखकर चलने वाला कक्षा 7 का परिवार 26 फ़रवरी की अंतिम तिथि पर एक सिफ़ारिश कम पाएगा।"
-    },
-    {
-      "text": "International applicants: the TOEFL and a $2,000 annual fee",
-      "of": "8609f0d2",
-      "at": [
-        "charlotte-christian:guide.bands[3].watchOuts[1].kicker"
-      ],
-      "t": "अंतरराष्ट्रीय आवेदक: TOEFL और सालाना $2,000 शुल्क"
-    },
-    {
-      "text": "International applicants are pointed to the **TOEFL** in addition to this band's process, not instead of it. The cost side is published and is substantial: an **International Student Fee of $2,000 per student per year**, non-refundable and due at enrollment — though the **$1,250 new-family fee explicitly does not apply** to international students. Visa, I-20 and SEVIS procedures, agency partners and any application-fee differential are **not published**; the school does name an Admissions Specialist and International Student Coordinator, so ask there before you start.",
-      "of": "3f10f567",
-      "at": [
-        "charlotte-christian:guide.bands[3].watchOuts[1].text"
-      ],
-      "t": "अंतरराष्ट्रीय आवेदकों को इस स्तर की प्रक्रिया के बजाय नहीं, बल्कि उसके **अलावा TOEFL** की ओर भेजा जाता है। ख़र्च का पक्ष प्रकाशित है और काफ़ी बड़ा है: **प्रति छात्र प्रति वर्ष $2,000 अंतरराष्ट्रीय छात्र शुल्क**, जो वापस नहीं होता और नामांकन के समय देना होता है — हालाँकि **$1,250 नया-परिवार शुल्क स्पष्ट रूप से लागू नहीं होता** अंतरराष्ट्रीय छात्रों पर। वीज़ा, I-20 और SEVIS प्रक्रियाएँ, साझेदार एजेंसियाँ, और आवेदन शुल्क में कोई अंतर **प्रकाशित नहीं है**; पर स्कूल एक Admissions Specialist and International Student Coordinator का नाम देता है, इसलिए शुरू करने से पहले वहीं पूछिए।"
-    },
-    {
       "text": "Two items here exist in no other band.",
       "of": "ba52f179",
       "at": [
@@ -2608,12 +2472,12 @@
       "t": "ISEE के अलावा, उसकी जगह नहीं।"
     },
     {
-      "text": "Aid runs through **SSS by NAIS** — Charlotte Christian's **school code is 2318** — and awards are **need-based only**, with the maximum grant **limited to 50 percent of tuition**. Two rules shape the timing: awards for new families \"will not be provided until their students have been accepted,\" and applications \"will be considered as applications are completed, but awards will be limited by the funding available at the time of completion\" — so completing early matters more than the deadline suggests. Every family applying for aid **must also apply to the North Carolina Opportunity Scholarship Program**, which opens February 2. **The aid deadline for this cycle is not published** — the only dated sheet is a prior cycle's — so confirm it with the business office before you plan around it.",
-      "of": "74172915",
+      "text": "Aid runs through **SSS by NAIS** (school code **2318**), is **need-based only** and is capped at **50 percent of tuition**. Every aid family must **also apply to the North Carolina Opportunity Scholarship Program**, which opens February 2. **The deadline for this cycle is not published** — confirm it with the business office.",
+      "of": "5cdd7282",
       "at": [
         "charlotte-christian:guide.aid.text"
       ],
-      "t": "सहायता **SSS by NAIS** के ज़रिए चलती है — Charlotte Christian का **स्कूल कोड 2318** है — और अनुदान **केवल ज़रूरत के आधार पर** मिलते हैं, अधिकतम अनुदान **ट्यूशन के 50 प्रतिशत तक सीमित**। दो नियम समय तय करते हैं: नए परिवारों के अनुदान «उनके छात्रों के स्वीकृत होने तक नहीं दिए जाएँगे», और आवेदन «पूरे होते जाने के क्रम में देखे जाएँगे, पर अनुदान पूरा होने के समय उपलब्ध धन से सीमित रहेंगे» — इसलिए जल्दी पूरा करना अंतिम तिथि से कहीं ज़्यादा मायने रखता है। सहायता माँगने वाले हर परिवार को **North Carolina Opportunity Scholarship Program में भी आवेदन करना होगा**, जो 2 फ़रवरी को खुलता है। **इस चक्र के लिए सहायता की अंतिम तिथि प्रकाशित नहीं है** — तारीख़ वाला अकेला पत्रक पिछले चक्र का है — इसलिए उसके आधार पर योजना बनाने से पहले व्यवसाय कार्यालय से पुष्टि कर लीजिए।"
+      "t": "सहायता **SSS by NAIS** के ज़रिए चलती है (**स्कूल कोड 2318**), यह **केवल ज़रूरत के आधार पर** है और **ट्यूशन के 50 प्रतिशत तक सीमित** है। सहायता माँगने वाले हर परिवार को **North Carolina Opportunity Scholarship Program में भी आवेदन करना होगा**, जो 2 फ़रवरी को खुलता है। **इस चक्र की अंतिम तिथि प्रकाशित नहीं है** — व्यवसाय कार्यालय से पुष्टि कर लीजिए।"
     },
     {
       "text": "CAIS — WPPSI-IV",
@@ -3056,20 +2920,20 @@
       "t": "प्रवेश जमा राशि — ट्यूशन का हिस्सा, और उसी में समायोजित"
     },
     {
-      "text": "Everything runs through Veracross: the inquiry form starts the file, your admissions portal account is where you apply, and the portal then generates a checklist personalized to your child's grade level that tracks every remaining step.",
-      "of": "96717b90",
+      "text": "Everything runs through Veracross: the inquiry starts your file, you apply in the portal, and it generates a checklist personalized to your child's grade.",
+      "of": "44aa6f8e",
       "at": [
         "charlotte-country-day:guide.rules[0].text"
       ],
-      "t": "सब कुछ Veracross से होकर गुज़रता है: पूछताछ फ़ॉर्म से आपकी फ़ाइल खुलती है, आवेदन आप एडमिशन पोर्टल खाते से करते हैं, और फिर पोर्टल आपके बच्चे की कक्षा के हिसाब से एक निजी चेकलिस्ट बनाता है जो बाकी हर चरण पर नज़र रखती है।"
+      "t": "सब कुछ Veracross से होकर गुज़रता है: पूछताछ से आपकी फ़ाइल खुलती है, आप पोर्टल में आवेदन करते हैं, और वह आपके बच्चे की कक्षा के हिसाब से एक निजी चेकलिस्ट बनाता है।"
     },
     {
-      "text": "Every date below is the 2027–28 entry cycle, as published by the school and corroborated by the CAIS consortium brochure. Cycle dates shift year to year — verify against the live calendar before acting.",
-      "of": "7f009b04",
+      "text": "Every date below is the 2027–28 entry cycle, corroborated by the CAIS consortium brochure. Cycle dates shift year to year — verify before acting.",
+      "of": "2d299a7f",
       "at": [
         "charlotte-country-day:guide.rules[1].text"
       ],
-      "t": "नीचे दी गई हर तारीख़ 2027–28 प्रवेश चक्र की है, जैसा स्कूल ने प्रकाशित किया है और CAIS कंसोर्टियम की पुस्तिका पुष्टि करती है। चक्र की तारीख़ें हर साल बदलती हैं — कुछ करने से पहले लाइव कैलेंडर पर जाँच लीजिए।"
+      "t": "नीचे दी गई हर तारीख़ 2027–28 प्रवेश चक्र की है, जिसकी पुष्टि CAIS कंसोर्टियम की पुस्तिका करती है। चक्र की तारीख़ें हर साल बदलती हैं — कुछ करने से पहले जाँच लीजिए।"
     },
     {
       "text": "Six published steps in every band — start your journey → submit an application → complete an entrance test → meet with a faculty member → provide supporting materials → follow your progress. What changes is step 3 (which test), the application deadline, and which decision track you land on.",
