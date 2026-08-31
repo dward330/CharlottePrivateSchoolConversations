@@ -812,13 +812,29 @@ export function SchoolDetail({ slug }: { slug: string }) {
                 <div className="topic-section-head">
                   <span className="glyph"><TopicGlyph slug={t.slug} /></span>
                   <h2>{topicLabel(tr, t.slug, t.name)}</h2>
-                  <span className="topic-count">
-                    {!ready
-                      ? '…'
-                      : offerings
-                        ? tr('school.divisions', { count: cardCount })
-                        : tr('school.topics', { count: cardCount })}
-                  </span>
+                  {/* Local-testing-only structure signal: how many cards this
+                      research area holds ("5 topics", or "3 divisions" for
+                      Course Offerings). It counts cards we built, not anything
+                      about the school — a reader learns nothing from it and is
+                      invited into the wrong comparison — so it NEVER ships to
+                      the production site. `import.meta.env.DEV` is true only
+                      under the `vite` dev server and false in every `vite
+                      build`, including the pre-render pass (which drives the
+                      built dist/). Do not remove the DEV guard, and do not
+                      delete the `.topic-count` CSS rule or the `school.topics`
+                      / `school.divisions` keys from the ten locale catalogs —
+                      all are still live in dev. The `'…'` placeholder is part
+                      of this affordance: it only reserves the count's slot
+                      while notes load, so it goes with it. */}
+                  {import.meta.env.DEV && (
+                    <span className="topic-count">
+                      {!ready
+                        ? '…'
+                        : offerings
+                          ? tr('school.divisions', { count: cardCount })
+                          : tr('school.topics', { count: cardCount })}
+                    </span>
+                  )}
                   <a
                     className="btn"
                     href={toCompare(t.slug, otherSlugs)}
