@@ -1,11 +1,11 @@
 ---
 name: removebandcount
 title: Remove the grade-band-count stat tile from the Admissions area for Providence Day and Charlotte Country Day
-status: english-done
+status: implemented
 phases: 2
 created: 2026-08-31
 branch: fix/remove-band-count-tile
-prs: []
+prs: [259]
 ---
 
 # Remove the grade-band-count stat tile from the Admissions area
@@ -346,3 +346,26 @@ element count.
 
 None. The tile, its two locations, its nine-locale overlay footprint and the exact re-path
 table were all measured during planning and are recorded above.
+
+## Implementation notes
+
+Built as planned; both phases shipped in PR #259. Three things worth recording.
+
+**The measured worklist matched the plan exactly.** All nine work files held 444 entries
+and were byte-identical in structure, and every one of the seven affected stamps sat at the
+same index with the same `at` array in all nine (`1b9dbd14` at 2, `67f7b475` at 322,
+`0a55ba87` at 150, and so on). `check_live_resolution.mjs --verbose` named exactly the two
+expected stamps. Nothing needed re-deriving from PR #258.
+
+**The round-trip format was confirmed before editing, not assumed.** Reading each work file
+and re-dumping it with `json.dumps(..., ensure_ascii=False, indent=2) + '\n'` reproduced the
+on-disk bytes exactly in all nine, which is what kept the non-Latin diffs surgical
+(28 changed lines per file, no re-escaping noise). Worth doing first on any future overlay
+surgery — it turns the escaping risk into a checked precondition rather than something you
+discover in the diff.
+
+**`npm run i18n:leaks` needs `--lang <code>`** and has no all-locale mode; a bare
+`npm run i18n:leaks` prints a usage line and exits. The plan's "totals byte-identical"
+requirement was met by capturing per-locale output, stashing only `src/data/overlays/`, and
+re-running to get a true pre-change baseline — the outputs were identical, not merely equal
+in count.
