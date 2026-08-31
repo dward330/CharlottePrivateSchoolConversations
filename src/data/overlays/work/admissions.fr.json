@@ -42,7 +42,7 @@
       "of": "0115e4c6",
       "at": [
         "providence-day:guide.stats[2].label",
-        "charlotte-christian:guide.stats[2].label",
+        "charlotte-christian:guide.stats[1].label",
         "charlotte-country-day:guide.stats[2].label"
       ],
       "t": "date limite de candidature pour les niveaux 1–12"
@@ -1414,18 +1414,10 @@
       "t": "Choisissez le niveau d'entrée de votre enfant et le guide se personnalise : les étapes dans l'ordre, les échéances 2026–27 et les tests correspondants — plus une check-list imprimable à emporter. Trois documents publiés, mais quatre processus réels : la date limite de candidature se situe entre le Kindergarten et le niveau 1, tandis que les tests changent un niveau plus tard, entre 1 et 2."
     },
     {
-      "text": "entry bands, each with its own calendar",
-      "of": "1e27eb52",
-      "at": [
-        "charlotte-christian:guide.stats[0].label"
-      ],
-      "t": "niveaux d'entrée, chacun avec son propre calendrier"
-    },
-    {
       "text": "JK/K application deadline — two weeks ahead of everyone else",
       "of": "0a55ba87",
       "at": [
-        "charlotte-christian:guide.stats[1].label",
+        "charlotte-christian:guide.stats[0].label",
         "charlotte-country-day:guide.stats[1].label"
       ],
       "t": "date limite de candidature JK/K : deux semaines avant tous les autres"
@@ -1434,17 +1426,17 @@
       "text": "application fee — non-refundable, every grade",
       "of": "64501c19",
       "at": [
-        "charlotte-christian:guide.stats[3].label"
+        "charlotte-christian:guide.stats[2].label"
       ],
       "t": "frais de candidature — non remboursables, à tous les niveaux"
     },
     {
-      "text": "Everything runs through myCCS: an online inquiry form adds you to it, you apply inside it, and it then shows a checklist personalized to your child's grade that tracks every remaining item — birth certificate, recommendations, records and test scores all upload there. Decisions are posted to the portal's decision tab rather than mailed.",
-      "of": "6f367afa",
+      "text": "Everything runs through myCCS: inquire, apply, upload every document, and read your decision on the portal's decision tab — all in one place.",
+      "of": "a24d5cd8",
       "at": [
         "charlotte-christian:guide.rules[0].text"
       ],
-      "t": "Tout passe par myCCS : un formulaire de demande de renseignements en ligne vous y inscrit, vous déposez votre candidature à l'intérieur, puis le portail affiche une check-list personnalisée selon le niveau de votre enfant qui suit chaque élément restant — acte de naissance, recommandations, dossiers scolaires et résultats de tests s'y téléversent tous. Les décisions sont publiées dans l'onglet des décisions du portail plutôt qu'envoyées par courrier."
+      "t": "Tout passe par myCCS : demandez des renseignements, candidatez, téléversez chaque document et lisez votre décision dans l'onglet des décisions du portail — le tout au même endroit."
     },
     {
       "text": "The deadlines are for priority, and admissions roll after them.",
@@ -1455,12 +1447,12 @@
       "t": "Les échéances valent pour la priorité, et les admissions se poursuivent au fil de l'eau ensuite."
     },
     {
-      "text": "Every date below is the 2026–27 entry cycle, and the school states that these are the dates observed by Charlotte Area Independent Schools for priority consideration — after them, \"Charlotte Christian School maintains rolling admissions where grade level space permits.\" So a late application is not automatically a closed door; what you lose is priority for the space that remains.",
-      "of": "843809fb",
+      "text": "Every date below is the 2026–27 cycle. These are CAIS priority dates; after them the school \"maintains rolling admissions where grade level space permits.\"",
+      "of": "195f3279",
       "at": [
         "charlotte-christian:guide.rules[1].text"
       ],
-      "t": "Toutes les dates ci-dessous correspondent au cycle d'entrée 2026–27, et l'école précise qu'il s'agit des dates observées par Charlotte Area Independent Schools pour l'examen prioritaire — après elles, « Charlotte Christian School maintient des admissions au fil de l'eau là où l'espace du niveau le permet ». Une candidature tardive n'est donc pas automatiquement une porte fermée ; ce que vous perdez, c'est la priorité sur les places restantes."
+      "t": "Toutes les dates ci-dessous correspondent au cycle 2026–27. Ce sont les dates de priorité du CAIS ; après elles, l'école « maintient des admissions au fil de l'eau là où l'espace du niveau le permet »."
     },
     {
       "text": "One shared spine in every band — inquire and join myCCS → apply with the $100 fee → upload the birth certificate → send recommendations and records → complete the CAIS test or the ISEE → meet the school (a playdate for the youngest, a family interview for the rest) → decision on the myCCS decision tab → return the enrollment contract. What changes is which assessment, which application deadline, and which decision track you land on.",
@@ -1706,38 +1698,6 @@
         "charlotte-christian:guide.bands[0].steps[7].detail"
       ],
       "t": "La décision est publiée dans l'onglet des décisions de myCCS le **26 février 2027 à 4 p.m.** — six semaines avant la voie des niveaux 1–12 — et le contrat d'inscription signé est dû le **5 mars 2027 à midi**. Le contrat comporte des **frais d'inscription de $1,500 par élève**, non remboursables et déduits du solde des frais de scolarité, plus des **frais de $1,250 pour les nouvelles familles** la première fois qu'une famille s'inscrit."
-    },
-    {
-      "text": "Your deadline is Jan 2 — and it is the only one that is",
-      "of": "b2e6fc3d",
-      "at": [
-        "charlotte-christian:guide.bands[0].watchOuts[0].kicker"
-      ],
-      "t": "Votre échéance est le 2 janvier — et c'est la seule qui l'est"
-    },
-    {
-      "text": "JK and Kindergarten apply **two weeks ahead of every other grade** and hear back **six weeks earlier** (Feb 26 rather than Apr 9). The published JK–Grade 1 document covers three grades and carries **both** dates in a single sentence, which is easy to misread as one deadline for all of them: it is **Jan 2 for JK/K, Jan 15 for Grade 1**. Miss Jan 2 and you do not fall back onto the Grades 1–12 track — you are simply late for this one, and into the rolling-admissions pool for whatever space is left.",
-      "of": "6dad4f4f",
-      "at": [
-        "charlotte-christian:guide.bands[0].watchOuts[0].text"
-      ],
-      "t": "JK et Kindergarten candidatent **deux semaines avant tous les autres niveaux** et reçoivent une réponse **six semaines plus tôt** (le 26 février plutôt que le 9 avril). Le document publié JK–niveau 1 couvre trois niveaux et porte les **deux** dates dans une seule phrase, ce qui se lit facilement comme une échéance unique pour tous : c'est le **2 janvier pour JK/K, le 15 janvier pour le niveau 1**. Si vous manquez le 2 janvier, vous ne basculez pas sur la voie des niveaux 1–12 — vous êtes simplement en retard pour celle-ci, et versé dans le vivier des admissions au fil de l'eau pour les places restantes."
-    },
-    {
-      "text": "The order of operations is genuinely unusual",
-      "of": "2ae6c12a",
-      "at": [
-        "charlotte-christian:guide.bands[0].watchOuts[1].kicker"
-      ],
-      "t": "L'ordre des opérations est véritablement inhabituel"
-    },
-    {
-      "text": "Two items sit where you would not expect them. The **teacher recommendation is due Jan 15 — after the Jan 2 application** — and it **cannot be requested before November 1**, so the whole request window is about ten weeks wide. And the **playdate is scheduled by the admissions office** once your application is in, rather than booked by you, so there is nothing to reserve and no date to chase: apply first, and the rest of the sequence follows.",
-      "of": "1a00cacb",
-      "at": [
-        "charlotte-christian:guide.bands[0].watchOuts[1].text"
-      ],
-      "t": "Deux éléments se trouvent là où on ne les attendrait pas. La **recommandation de l'enseignant est due le 15 janvier — après la candidature du 2 janvier** — et elle **ne peut pas être demandée avant le 1er novembre**, si bien que toute la fenêtre de demande dure environ dix semaines. Et la **séance de jeu est planifiée par le bureau des admissions** une fois votre candidature déposée, plutôt que réservée par vous : il n'y a donc rien à réserver ni de date à courir après — candidatez d'abord, et la suite s'enchaîne."
     },
     {
       "text": "Your deadline is Jan 2, not Jan 15.",
@@ -2038,38 +1998,6 @@
       "t": "La décision est publiée dans l'onglet des décisions de myCCS le **9 avril 2027 à 4 p.m.** et le contrat d'inscription est dû le **16 avril 2027 à midi** — la voie des niveaux 1–12, six semaines derrière JK/K. Le contrat comporte les **frais d'inscription de $1,500 par élève** et, pour une famille nouvelle dans l'école, les **frais de $1,250 pour les nouvelles familles**."
     },
     {
-      "text": "Grade 1 straddles the two boundaries",
-      "of": "48c627ae",
-      "at": [
-        "charlotte-christian:guide.bands[1].watchOuts[0].kicker"
-      ],
-      "t": "Le niveau 1 chevauche les deux frontières"
-    },
-    {
-      "text": "This is the band that catches families out, because Grade 1 sits on **one side of the deadline break and the other side of the testing break**. Its **application deadline is Jan 15**, with the older grades — but its **assessment is the WPPSI-IV**, with the younger ones, and so is its **playdate**. Reading the JK–Grade 1 document as a single process gives you the wrong deadline; reading the Grades 2–4 document because \"Grade 1 is a big-kid grade\" gives you the wrong test. Neither published sheet describes Grade 1 on its own.",
-      "of": "90db7d86",
-      "at": [
-        "charlotte-christian:guide.bands[1].watchOuts[0].text"
-      ],
-      "t": "C'est le niveau qui prend les familles au dépourvu, car le niveau 1 se situe **d'un côté de la frontière des échéances et de l'autre côté de la frontière des tests**. Sa **date limite de candidature est le 15 janvier**, avec les niveaux supérieurs — mais son **évaluation est le WPPSI-IV**, avec les plus jeunes, tout comme sa **séance de jeu**. Lire le document JK–niveau 1 comme un processus unique vous donne la mauvaise échéance ; lire le document des niveaux 2–4 parce que « le niveau 1 est un niveau de grands » vous donne le mauvais test. Aucune des fiches publiées ne décrit le niveau 1 à lui seul."
-    },
-    {
-      "text": "Late is not closed, but it is not priority either",
-      "of": "74152332",
-      "at": [
-        "charlotte-christian:guide.bands[1].watchOuts[1].kicker"
-      ],
-      "t": "Tardif ne veut pas dire fermé, mais pas prioritaire non plus"
-    },
-    {
-      "text": "The dates on this sheet are, in the school's own words, \"those observed by Charlotte Area Independent Schools (CAIS) for priority consideration. After these dates, Charlotte Christian School maintains **rolling admissions where grade level space permits**.\" Observing the deadlines \"promises priority consideration for available space\" — so applying after Jan 15 puts you in a rolling pool for whatever is left in a single grade, which in a small division may be nothing. Whether a waitlist operates alongside that, and how it is ordered, is **not published**.",
-      "of": "70832918",
-      "at": [
-        "charlotte-christian:guide.bands[1].watchOuts[1].text"
-      ],
-      "t": "Les dates de cette fiche sont, selon les mots de l'école elle-même, « celles observées par Charlotte Area Independent Schools (CAIS) pour l'examen prioritaire. Après ces dates, Charlotte Christian School maintient des **admissions au fil de l'eau là où l'espace du niveau le permet** ». Respecter les échéances « garantit un examen prioritaire pour les places disponibles » — candidater après le 15 janvier vous place donc dans un vivier au fil de l'eau pour ce qui reste dans un seul niveau, ce qui, dans une petite division, peut être rien. L'existence d'une liste d'attente en parallèle, et son ordre, ne sont **pas publiés**."
-    },
-    {
       "text": "Grade 1 is on the later deadline but the earlier test.",
       "of": "06497453",
       "at": [
@@ -2248,38 +2176,6 @@
         "charlotte-christian:guide.bands[2].steps[6].detail"
       ],
       "t": "La décision est publiée dans l'onglet des décisions de myCCS le **9 avril 2027 à 4 p.m.**, avec le contrat d'inscription dû le **16 avril 2027 à midi** — **sauf** pour le frère ou la sœur d'un candidat JK–K, dont la décision suit la voie JK–K le **26 février 2027**, quel que soit le niveau demandé. Le contrat comporte les **frais d'inscription de $1,500 par élève**, plus les **frais de $1,250 pour les nouvelles familles** si la famille est nouvelle dans l'école."
-    },
-    {
-      "text": "The interview will not be scheduled until your file is complete",
-      "of": "dfba6a6a",
-      "at": [
-        "charlotte-christian:guide.bands[2].watchOuts[0].kicker"
-      ],
-      "t": "L'entretien ne sera pas planifié tant que votre dossier n'est pas complet"
-    },
-    {
-      "text": "The family interview is **gated on a complete file**, not booked in advance: it is scheduled only \"once an applicant's file materials are complete,\" and **student visit days are by invitation**. Every day you spend chasing the last transcript is a day the interview cannot be set. The records requirement is the long pole — **current year plus two prior years** of report cards, standardized tests and other educational assessments, which for a family moving from another school often means requesting from two registrars.",
-      "of": "8e09060a",
-      "at": [
-        "charlotte-christian:guide.bands[2].watchOuts[0].text"
-      ],
-      "t": "L'entretien familial est **conditionné à un dossier complet**, il ne se réserve pas à l'avance : il n'est planifié qu'« une fois que les pièces du dossier d'un candidat sont complètes », et les **journées de visite des élèves se font sur invitation**. Chaque journée passée à courir après le dernier relevé de notes est une journée où l'entretien ne peut pas être fixé. L'exigence de dossiers est le point le plus long — **l'année en cours plus les deux années précédentes** de bulletins, tests standardisés et autres évaluations scolaires, ce qui, pour une famille venant d'une autre école, signifie souvent des demandes auprès de deux secrétariats."
-    },
-    {
-      "text": "A JK–K sibling changes your decision date",
-      "of": "17ec4e33",
-      "at": [
-        "charlotte-christian:guide.bands[2].watchOuts[1].kicker"
-      ],
-      "t": "Un frère ou une sœur en JK–K change votre date de décision"
-    },
-    {
-      "text": "If your child is applying alongside a sibling entering JK or Kindergarten, this applicant is decided on the **JK–K track — February 26, 2027 — regardless of the grade applied for**, roughly six weeks ahead of the rest of the band. The school states this on all three checklists. It moves the decision and the contract deadline together, so a family in that position should be working to the earlier calendar throughout rather than the one printed on this sheet.",
-      "of": "c5c39583",
-      "at": [
-        "charlotte-christian:guide.bands[2].watchOuts[1].text"
-      ],
-      "t": "Si votre enfant candidate en même temps qu'un frère ou une sœur entrant en JK ou Kindergarten, ce candidat est décidé sur la **voie JK–K — le 26 février 2027 — quel que soit le niveau demandé**, soit environ six semaines avant le reste du niveau. L'école l'indique sur les trois check-lists. Cela déplace ensemble la décision et l'échéance du contrat : une famille dans cette situation devrait donc travailler sur le calendrier le plus précoce tout du long, plutôt que sur celui imprimé sur cette fiche."
     },
     {
       "text": "Finish the file early — the interview waits on it.",
@@ -2494,38 +2390,6 @@
       "t": "La décision est publiée dans l'onglet des décisions de myCCS le **9 avril 2027 à 4 p.m.**, avec le contrat d'inscription dû le **16 avril 2027 à midi** — **sauf** pour le frère ou la sœur d'un candidat JK–K, dont la décision tombe le **26 février 2027**. Le contrat comporte les **frais d'inscription de $1,500 par élève** ; une famille nouvelle dans l'école paie aussi les **frais de $1,250 pour les nouvelles familles**, qui ne s'appliquent pas aux élèves internationaux."
     },
     {
-      "text": "Two requirements exist only in this band",
-      "of": "cc14d076",
-      "at": [
-        "charlotte-christian:guide.bands[3].watchOuts[0].kicker"
-      ],
-      "t": "Deux exigences n'existent que dans ce niveau"
-    },
-    {
-      "text": "The **applicant questionnaire is written by the student, by hand** — \"printed and completed in the student's handwriting,\" then uploaded to myCCS — so it needs your child's time, not yours, and it cannot be left to the last evening. And the recommendation list **splits mid-band**: **Grades 7–12** must add a **Principal or School Counselor** reference on top of English and Math, while **Grades 5–6** need only the two teachers. A Grade 7 family working from a Grade 6 family's list will be one recommendation short at the Feb 26 deadline.",
-      "of": "a221bcb2",
-      "at": [
-        "charlotte-christian:guide.bands[3].watchOuts[0].text"
-      ],
-      "t": "Le **questionnaire du candidat est rédigé par l'élève, à la main** — « imprimé et complété de la main de l'élève », puis téléversé sur myCCS — il exige donc le temps de votre enfant, pas le vôtre, et ne peut pas être laissé au dernier soir. Et la liste des recommandations **se scinde en milieu de niveau** : les **niveaux 7–12** doivent ajouter une référence du **principal ou du conseiller d'orientation** en plus de l'anglais et des mathématiques, tandis que les **niveaux 5–6** n'ont besoin que des deux enseignants. Une famille de niveau 7 travaillant à partir de la liste d'une famille de niveau 6 se retrouvera avec une recommandation de moins à l'échéance du 26 février."
-    },
-    {
-      "text": "International applicants: the TOEFL and a $2,000 annual fee",
-      "of": "8609f0d2",
-      "at": [
-        "charlotte-christian:guide.bands[3].watchOuts[1].kicker"
-      ],
-      "t": "Candidats internationaux : le TOEFL et des frais annuels de $2,000"
-    },
-    {
-      "text": "International applicants are pointed to the **TOEFL** in addition to this band's process, not instead of it. The cost side is published and is substantial: an **International Student Fee of $2,000 per student per year**, non-refundable and due at enrollment — though the **$1,250 new-family fee explicitly does not apply** to international students. Visa, I-20 and SEVIS procedures, agency partners and any application-fee differential are **not published**; the school does name an Admissions Specialist and International Student Coordinator, so ask there before you start.",
-      "of": "3f10f567",
-      "at": [
-        "charlotte-christian:guide.bands[3].watchOuts[1].text"
-      ],
-      "t": "Les candidats internationaux sont orientés vers le **TOEFL** en plus du processus de ce niveau, et non à sa place. Le volet financier est publié et il est conséquent : des **frais d'élève international de $2,000 par élève et par an**, non remboursables et dus à l'inscription — même si les **frais de $1,250 pour les nouvelles familles ne s'appliquent explicitement pas** aux élèves internationaux. Les procédures de visa, I-20 et SEVIS, les agences partenaires et toute différence de frais de candidature ne sont **pas publiées** ; l'école nomme cependant une Admissions Specialist and International Student Coordinator, alors renseignez-vous là avant de commencer."
-    },
-    {
       "text": "Two items here exist in no other band.",
       "of": "ba52f179",
       "at": [
@@ -2608,12 +2472,12 @@
       "t": "En plus de l’ISEE, et non à sa place."
     },
     {
-      "text": "Aid runs through **SSS by NAIS** — Charlotte Christian's **school code is 2318** — and awards are **need-based only**, with the maximum grant **limited to 50 percent of tuition**. Two rules shape the timing: awards for new families \"will not be provided until their students have been accepted,\" and applications \"will be considered as applications are completed, but awards will be limited by the funding available at the time of completion\" — so completing early matters more than the deadline suggests. Every family applying for aid **must also apply to the North Carolina Opportunity Scholarship Program**, which opens February 2. **The aid deadline for this cycle is not published** — the only dated sheet is a prior cycle's — so confirm it with the business office before you plan around it.",
-      "of": "74172915",
+      "text": "Aid runs through **SSS by NAIS** (school code **2318**), is **need-based only** and is capped at **50 percent of tuition**. Every aid family must **also apply to the North Carolina Opportunity Scholarship Program**, which opens February 2. **The deadline for this cycle is not published** — confirm it with the business office.",
+      "of": "5cdd7282",
       "at": [
         "charlotte-christian:guide.aid.text"
       ],
-      "t": "L'aide passe par **SSS by NAIS** — le code d'établissement de Charlotte Christian est **2318** — et les aides sont **attribuées uniquement selon les besoins**, la subvention maximale étant **limitée à 50 pour cent des frais de scolarité**. Deux règles conditionnent le calendrier : les aides aux nouvelles familles « ne seront pas accordées avant que leurs élèves aient été acceptés », et les demandes « seront examinées au fur et à mesure de leur finalisation, mais les aides seront limitées par les fonds disponibles au moment de la finalisation » — finaliser tôt compte donc davantage que l'échéance ne le laisse penser. Toute famille demandant une aide **doit également postuler au North Carolina Opportunity Scholarship Program**, qui ouvre le 2 février. **L'échéance de l'aide pour ce cycle n'est pas publiée** — la seule fiche datée relève d'un cycle antérieur — alors confirmez-la auprès du service financier avant de bâtir votre planning dessus."
+      "t": "L'aide passe par **SSS by NAIS** (code d'établissement **2318**), est **attribuée uniquement selon les besoins** et est **plafonnée à 50 pour cent des frais de scolarité**. Toute famille demandant une aide doit **également postuler au North Carolina Opportunity Scholarship Program**, qui ouvre le 2 février. **L'échéance de ce cycle n'est pas publiée** — confirmez-la auprès du service financier."
     },
     {
       "text": "CAIS — WPPSI-IV",
@@ -3056,20 +2920,20 @@
       "t": "acompte d’inscription : des frais de scolarité, et déduit de ceux-ci"
     },
     {
-      "text": "Everything runs through Veracross: the inquiry form starts the file, your admissions portal account is where you apply, and the portal then generates a checklist personalized to your child's grade level that tracks every remaining step.",
-      "of": "96717b90",
+      "text": "Everything runs through Veracross: the inquiry starts your file, you apply in the portal, and it generates a checklist personalized to your child's grade.",
+      "of": "44aa6f8e",
       "at": [
         "charlotte-country-day:guide.rules[0].text"
       ],
-      "t": "Tout passe par Veracross : le formulaire de renseignement ouvre votre dossier, le compte du portail des admissions est l’endroit où vous candidatez, et le portail génère ensuite une check-list personnalisée selon le niveau de votre enfant qui suit chacune des étapes restantes."
+      "t": "Tout passe par Veracross : la demande de renseignements ouvre votre dossier, vous candidatez dans le portail, et celui-ci génère une check-list personnalisée selon le niveau de votre enfant."
     },
     {
-      "text": "Every date below is the 2027–28 entry cycle, as published by the school and corroborated by the CAIS consortium brochure. Cycle dates shift year to year — verify against the live calendar before acting.",
-      "of": "7f009b04",
+      "text": "Every date below is the 2027–28 entry cycle, corroborated by the CAIS consortium brochure. Cycle dates shift year to year — verify before acting.",
+      "of": "2d299a7f",
       "at": [
         "charlotte-country-day:guide.rules[1].text"
       ],
-      "t": "Toutes les dates ci-dessous correspondent au cycle d’entrée 2027–28, tel que publié par l’école et confirmé par la brochure du consortium CAIS. Les dates changent d’une année à l’autre : vérifiez-les sur le calendrier en ligne avant d’agir."
+      "t": "Toutes les dates ci-dessous correspondent au cycle d'entrée 2027–28, confirmé par la brochure du consortium CAIS. Les dates changent d'une année à l'autre : vérifiez-les avant d'agir."
     },
     {
       "text": "Six published steps in every band — start your journey → submit an application → complete an entrance test → meet with a faculty member → provide supporting materials → follow your progress. What changes is step 3 (which test), the application deadline, and which decision track you land on.",

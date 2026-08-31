@@ -42,7 +42,7 @@
       "of": "0115e4c6",
       "at": [
         "providence-day:guide.stats[2].label",
-        "charlotte-christian:guide.stats[2].label",
+        "charlotte-christian:guide.stats[1].label",
         "charlotte-country-day:guide.stats[2].label"
       ],
       "t": "dat limit aplikasyon pou klas 1–12"
@@ -1414,18 +1414,10 @@
       "t": "Chwazi nivo kote pitit ou a ap antre epi gid la pèsonalize tèt li: etap yo nan lòd, dat limit 2026–27 yo, ak tès pou nivo sa a — plis yon lis kontwòl ou ka enprime pou pote avèk ou. Twa dokiman pibliye, men kat pwosesis reyèl: dat limit aplikasyon an separe ant Kindergarten→1 pandan tès la separe yon klas pi ta, ant 1→2."
     },
     {
-      "text": "entry bands, each with its own calendar",
-      "of": "1e27eb52",
-      "at": [
-        "charlotte-christian:guide.stats[0].label"
-      ],
-      "t": "nivo antre, chak ak pwòp kalandriye pa l"
-    },
-    {
       "text": "JK/K application deadline — two weeks ahead of everyone else",
       "of": "0a55ba87",
       "at": [
-        "charlotte-christian:guide.stats[1].label",
+        "charlotte-christian:guide.stats[0].label",
         "charlotte-country-day:guide.stats[1].label"
       ],
       "t": "dat limit aplikasyon JK/K — de semèn anvan tout lòt yo"
@@ -1434,17 +1426,17 @@
       "text": "application fee — non-refundable, every grade",
       "of": "64501c19",
       "at": [
-        "charlotte-christian:guide.stats[3].label"
+        "charlotte-christian:guide.stats[2].label"
       ],
       "t": "frè aplikasyon — pa ranbousab, nan tout klas"
     },
     {
-      "text": "Everything runs through myCCS: an online inquiry form adds you to it, you apply inside it, and it then shows a checklist personalized to your child's grade that tracks every remaining item — birth certificate, recommendations, records and test scores all upload there. Decisions are posted to the portal's decision tab rather than mailed.",
-      "of": "6f367afa",
+      "text": "Everything runs through myCCS: inquire, apply, upload every document, and read your decision on the portal's decision tab — all in one place.",
+      "of": "a24d5cd8",
       "at": [
         "charlotte-christian:guide.rules[0].text"
       ],
-      "t": "Tout bagay pase nan myCCS: yon fòm demann enfòmasyon sou entènèt mete w ladan l, ou aplike anndan l, epi apre sa pòtal la montre yon lis kontwòl pèsonalize dapre klas pitit ou a ki swiv chak bagay ki rete — batistè, rekòmandasyon, dosye lekòl ak nòt tès yo tout chaje la. Yo pibliye desizyon yo sou onglè desizyon pòtal la olye pou yo voye yo pa lapòs."
+      "t": "Tout bagay pase nan myCCS: mande enfòmasyon, aplike, chaje chak dokiman, epi li desizyon w sou onglè desizyon pòtal la — tout nan yon sèl kote."
     },
     {
       "text": "The deadlines are for priority, and admissions roll after them.",
@@ -1455,12 +1447,12 @@
       "t": "Dat limit yo se pou priyorite, epi admisyon yo kontinye apre yo."
     },
     {
-      "text": "Every date below is the 2026–27 entry cycle, and the school states that these are the dates observed by Charlotte Area Independent Schools for priority consideration — after them, \"Charlotte Christian School maintains rolling admissions where grade level space permits.\" So a late application is not automatically a closed door; what you lose is priority for the space that remains.",
-      "of": "843809fb",
+      "text": "Every date below is the 2026–27 cycle. These are CAIS priority dates; after them the school \"maintains rolling admissions where grade level space permits.\"",
+      "of": "195f3279",
       "at": [
         "charlotte-christian:guide.rules[1].text"
       ],
-      "t": "Tout dat anba yo se pou sik antre 2026–27 la, epi lekòl la di se dat Charlotte Area Independent Schools obsève pou konsiderasyon priyorite — apre yo, «Charlotte Christian School kenbe admisyon kontinye kote espas nan klas la pèmèt sa.» Kidonk yon aplikasyon an reta pa otomatikman yon pòt fèmen; sa w pèdi se priyorite pou espas ki rete a."
+      "t": "Tout dat anba yo se pou sik 2026–27 la. Se dat priyorite CAIS yo; apre yo lekòl la «kenbe admisyon kontinye kote espas nan klas la pèmèt sa.»"
     },
     {
       "text": "One shared spine in every band — inquire and join myCCS → apply with the $100 fee → upload the birth certificate → send recommendations and records → complete the CAIS test or the ISEE → meet the school (a playdate for the youngest, a family interview for the rest) → decision on the myCCS decision tab → return the enrollment contract. What changes is which assessment, which application deadline, and which decision track you land on.",
@@ -1706,38 +1698,6 @@
         "charlotte-christian:guide.bands[0].steps[7].detail"
       ],
       "t": "Yo pibliye desizyon an sou onglè desizyon myCCS la **26 fevriye 2027 a 4 p.m.** — sis semèn anvan wout klas 1–12 yo — epi kontra enskripsyon siyen an dwe rive **5 mas 2027 a midi**. Kontra a gen yon **frè enskripsyon $1,500 pou chak elèv**, ki pa ranbousab epi yo dedwi l sou balans frè eskolè a, plis yon **frè $1,250 pou nouvo fanmi** premye fwa yon fanmi enskri."
-    },
-    {
-      "text": "Your deadline is Jan 2 — and it is the only one that is",
-      "of": "b2e6fc3d",
-      "at": [
-        "charlotte-christian:guide.bands[0].watchOuts[0].kicker"
-      ],
-      "t": "Dat limit ou a se 2 janvye — epi se sèl la ki konsa"
-    },
-    {
-      "text": "JK and Kindergarten apply **two weeks ahead of every other grade** and hear back **six weeks earlier** (Feb 26 rather than Apr 9). The published JK–Grade 1 document covers three grades and carries **both** dates in a single sentence, which is easy to misread as one deadline for all of them: it is **Jan 2 for JK/K, Jan 15 for Grade 1**. Miss Jan 2 and you do not fall back onto the Grades 1–12 track — you are simply late for this one, and into the rolling-admissions pool for whatever space is left.",
-      "of": "6dad4f4f",
-      "at": [
-        "charlotte-christian:guide.bands[0].watchOuts[0].text"
-      ],
-      "t": "JK ak Kindergarten aplike **de semèn anvan tout lòt klas** epi yo resevwa repons **sis semèn pi bonè** (26 fevriye olye 9 avril). Dokiman JK–klas 1 ki pibliye a kouvri twa klas epi li gen **toude** dat yo nan yon sèl fraz, sa ki fasil pou moun li kòm yon sèl dat limit pou yo tout: se **2 janvye pou JK/K, 15 janvye pou klas 1**. Si w rate 2 janvye ou pa tonbe sou wout klas 1–12 yo — ou senpleman an reta pou sa a, epi ou antre nan gwoup admisyon kontinye pou espas ki rete a."
-    },
-    {
-      "text": "The order of operations is genuinely unusual",
-      "of": "2ae6c12a",
-      "at": [
-        "charlotte-christian:guide.bands[0].watchOuts[1].kicker"
-      ],
-      "t": "Lòd operasyon yo vrèman dwòl"
-    },
-    {
-      "text": "Two items sit where you would not expect them. The **teacher recommendation is due Jan 15 — after the Jan 2 application** — and it **cannot be requested before November 1**, so the whole request window is about ten weeks wide. And the **playdate is scheduled by the admissions office** once your application is in, rather than booked by you, so there is nothing to reserve and no date to chase: apply first, and the rest of the sequence follows.",
-      "of": "1a00cacb",
-      "at": [
-        "charlotte-christian:guide.bands[0].watchOuts[1].text"
-      ],
-      "t": "De bagay chita kote ou pa ta atann yo. **Rekòmandasyon pwofesè a dwe rive 15 janvye — apre aplikasyon 2 janvye a** — epi ou **pa ka mande l anvan 1ye novanm**, kidonk tout fenèt demann lan dire anviwon dis semèn. Epi **se biwo admisyon an ki pran randevou pou seyans jwe a** apre aplikasyon w lan rive, olye se ou menm ki rezève l, kidonk pa gen anyen pou rezève ni dat pou kouri dèyè: aplike anvan, epi rès sekans lan swiv."
     },
     {
       "text": "Your deadline is Jan 2, not Jan 15.",
@@ -2038,38 +1998,6 @@
       "t": "Yo pibliye desizyon an sou onglè desizyon myCCS la **9 avril 2027 a 4 p.m.** epi kontra enskripsyon an dwe rive **16 avril 2027 a midi** — wout klas 1–12 yo, sis semèn dèyè JK/K. Kontra a gen **frè enskripsyon $1,500 pou chak elèv** la epi, pou yon fanmi ki nouvo nan lekòl la, **frè $1,250 pou nouvo fanmi** an."
     },
     {
-      "text": "Grade 1 straddles the two boundaries",
-      "of": "48c627ae",
-      "at": [
-        "charlotte-christian:guide.bands[1].watchOuts[0].kicker"
-      ],
-      "t": "Klas 1 chita sou de limit yo alafwa"
-    },
-    {
-      "text": "This is the band that catches families out, because Grade 1 sits on **one side of the deadline break and the other side of the testing break**. Its **application deadline is Jan 15**, with the older grades — but its **assessment is the WPPSI-IV**, with the younger ones, and so is its **playdate**. Reading the JK–Grade 1 document as a single process gives you the wrong deadline; reading the Grades 2–4 document because \"Grade 1 is a big-kid grade\" gives you the wrong test. Neither published sheet describes Grade 1 on its own.",
-      "of": "90db7d86",
-      "at": [
-        "charlotte-christian:guide.bands[1].watchOuts[0].text"
-      ],
-      "t": "Se nivo sa a ki bay fanmi yo pwoblèm, paske klas 1 chita sou **yon bò limit dat yo epi sou lòt bò limit tès la**. **Dat limit aplikasyon l lan se 15 janvye**, ak klas ki pi gran yo — men **evalyasyon l lan se WPPSI-IV** la, ak pi piti yo, epi **seyans jwe** l la tou. Si w li dokiman JK–klas 1 an kòm yon sèl pwosesis sa ba w move dat limit la; si w li dokiman klas 2–4 la paske «klas 1 se yon klas gran timoun» sa ba w move tès la. Okenn nan fèy ki pibliye yo pa dekri klas 1 pou kont li."
-    },
-    {
-      "text": "Late is not closed, but it is not priority either",
-      "of": "74152332",
-      "at": [
-        "charlotte-christian:guide.bands[1].watchOuts[1].kicker"
-      ],
-      "t": "An reta pa vle di fèmen, men se pa priyorite non plis"
-    },
-    {
-      "text": "The dates on this sheet are, in the school's own words, \"those observed by Charlotte Area Independent Schools (CAIS) for priority consideration. After these dates, Charlotte Christian School maintains **rolling admissions where grade level space permits**.\" Observing the deadlines \"promises priority consideration for available space\" — so applying after Jan 15 puts you in a rolling pool for whatever is left in a single grade, which in a small division may be nothing. Whether a waitlist operates alongside that, and how it is ordered, is **not published**.",
-      "of": "70832918",
-      "at": [
-        "charlotte-christian:guide.bands[1].watchOuts[1].text"
-      ],
-      "t": "Dat sou fèy sa a se, nan pwòp mo lekòl la, «sa Charlotte Area Independent Schools (CAIS) obsève pou konsiderasyon priyorite. Apre dat sa yo, Charlotte Christian School kenbe **admisyon kontinye kote espas nan klas la pèmèt sa**.» Respekte dat limit yo «pwomèt konsiderasyon priyorite pou espas ki disponib» — kidonk si w aplike apre 15 janvye sa mete w nan yon gwoup kontinye pou sa k rete nan yon sèl klas, sa ki nan yon ti divizyon ka pa anyen. Èske gen yon lis datant ki mache ansanm ak sa, ak kijan yo klase l, sa **pa pibliye**."
-    },
-    {
       "text": "Grade 1 is on the later deadline but the earlier test.",
       "of": "06497453",
       "at": [
@@ -2248,38 +2176,6 @@
         "charlotte-christian:guide.bands[2].steps[6].detail"
       ],
       "t": "Yo pibliye desizyon an sou onglè desizyon myCCS la **9 avril 2027 a 4 p.m.**, ak kontra enskripsyon an ki dwe rive **16 avril 2027 a midi** — **eksepte** pou yon frè oswa sè yon aplikan JK–K, ke yo deside sou wout JK–K la **26 fevriye 2027** kèlkeswa klas yo aplike pou li a. Kontra a gen **frè enskripsyon $1,500 pou chak elèv** la, plis **frè $1,250 pou nouvo fanmi** an si fanmi an nouvo nan lekòl la."
-    },
-    {
-      "text": "The interview will not be scheduled until your file is complete",
-      "of": "dfba6a6a",
-      "at": [
-        "charlotte-christian:guide.bands[2].watchOuts[0].kicker"
-      ],
-      "t": "Yo p ap pran randevou pou entèvyou a jouk dosye w konplè"
-    },
-    {
-      "text": "The family interview is **gated on a complete file**, not booked in advance: it is scheduled only \"once an applicant's file materials are complete,\" and **student visit days are by invitation**. Every day you spend chasing the last transcript is a day the interview cannot be set. The records requirement is the long pole — **current year plus two prior years** of report cards, standardized tests and other educational assessments, which for a family moving from another school often means requesting from two registrars.",
-      "of": "8e09060a",
-      "at": [
-        "charlotte-christian:guide.bands[2].watchOuts[0].text"
-      ],
-      "t": "Entèvyou fanmi an **depann de yon dosye konplè**, ou pa rezève l davans: yo pran randevou a sèlman «yon fwa dokiman dosye yon aplikan konplè», epi **jounen vizit elèv yo se sou envitasyon**. Chak jou w pase ap kouri dèyè dènye kanè a se yon jou yo pa ka fikse entèvyou a. Kondisyon dosye yo se pati ki pi long lan — **ane aktyèl la plis de ane anvan yo** nan kanè, tès estandadize ak lòt evalyasyon edikatif, sa ki pou yon fanmi k ap soti nan yon lòt lekòl souvan vle di mande yo nan de sekretarya."
-    },
-    {
-      "text": "A JK–K sibling changes your decision date",
-      "of": "17ec4e33",
-      "at": [
-        "charlotte-christian:guide.bands[2].watchOuts[1].kicker"
-      ],
-      "t": "Yon frè oswa sè nan JK–K chanje dat desizyon w lan"
-    },
-    {
-      "text": "If your child is applying alongside a sibling entering JK or Kindergarten, this applicant is decided on the **JK–K track — February 26, 2027 — regardless of the grade applied for**, roughly six weeks ahead of the rest of the band. The school states this on all three checklists. It moves the decision and the contract deadline together, so a family in that position should be working to the earlier calendar throughout rather than the one printed on this sheet.",
-      "of": "c5c39583",
-      "at": [
-        "charlotte-christian:guide.bands[2].watchOuts[1].text"
-      ],
-      "t": "Si pitit ou a ap aplike ansanm ak yon frè oswa sè k ap antre nan JK oswa Kindergarten, yo deside aplikan sa a sou **wout JK–K la — 26 fevriye 2027 — kèlkeswa klas yo aplike pou li a**, anviwon sis semèn anvan rès nivo a. Lekòl la di sa sou tout twa lis kontwòl yo. Sa deplase desizyon an ak dat limit kontra a ansanm, kidonk yon fanmi nan sitiyasyon sa a ta dwe travay sou kalandriye ki pi bonè a pandan tout tan an, olye sa ki enprime sou fèy sa a."
     },
     {
       "text": "Finish the file early — the interview waits on it.",
@@ -2494,38 +2390,6 @@
       "t": "Yo pibliye desizyon an sou onglè desizyon myCCS la **9 avril 2027 a 4 p.m.**, ak kontra enskripsyon an ki dwe rive **16 avril 2027 a midi** — **eksepte** pou yon frè oswa sè yon aplikan JK–K, ke yo deside **26 fevriye 2027**. Kontra a gen **frè enskripsyon $1,500 pou chak elèv** la; yon fanmi ki nouvo nan lekòl la peye tou **frè $1,250 pou nouvo fanmi** an, ki pa aplike pou elèv entènasyonal yo."
     },
     {
-      "text": "Two requirements exist only in this band",
-      "of": "cc14d076",
-      "at": [
-        "charlotte-christian:guide.bands[3].watchOuts[0].kicker"
-      ],
-      "t": "De kondisyon egziste sèlman nan nivo sa a"
-    },
-    {
-      "text": "The **applicant questionnaire is written by the student, by hand** — \"printed and completed in the student's handwriting,\" then uploaded to myCCS — so it needs your child's time, not yours, and it cannot be left to the last evening. And the recommendation list **splits mid-band**: **Grades 7–12** must add a **Principal or School Counselor** reference on top of English and Math, while **Grades 5–6** need only the two teachers. A Grade 7 family working from a Grade 6 family's list will be one recommendation short at the Feb 26 deadline.",
-      "of": "a221bcb2",
-      "at": [
-        "charlotte-christian:guide.bands[3].watchOuts[0].text"
-      ],
-      "t": "**Se elèv la ki ekri kesyonè aplikan an, ak men l** — «enprime epi ranpli nan ekriti men elèv la», epi apre sa chaje sou myCCS — kidonk li mande tan pitit ou a, pa pa w, epi ou pa ka kite l pou dènye swa a. Epi lis rekòmandasyon an **separe nan mitan nivo a**: **klas 7–12** dwe ajoute yon referans **Direktè oswa Konseye Lekòl** anplis Anglè ak Matematik, pandan **klas 5–6** bezwen sèlman de pwofesè yo. Yon fanmi klas 7 k ap travay sou lis yon fanmi klas 6 ap gen yon rekòmandasyon ki manke lè dat limit 26 fevriye a rive."
-    },
-    {
-      "text": "International applicants: the TOEFL and a $2,000 annual fee",
-      "of": "8609f0d2",
-      "at": [
-        "charlotte-christian:guide.bands[3].watchOuts[1].kicker"
-      ],
-      "t": "Aplikan entènasyonal: TOEFL la ak yon frè anyèl $2,000"
-    },
-    {
-      "text": "International applicants are pointed to the **TOEFL** in addition to this band's process, not instead of it. The cost side is published and is substantial: an **International Student Fee of $2,000 per student per year**, non-refundable and due at enrollment — though the **$1,250 new-family fee explicitly does not apply** to international students. Visa, I-20 and SEVIS procedures, agency partners and any application-fee differential are **not published**; the school does name an Admissions Specialist and International Student Coordinator, so ask there before you start.",
-      "of": "3f10f567",
-      "at": [
-        "charlotte-christian:guide.bands[3].watchOuts[1].text"
-      ],
-      "t": "Yo voye aplikan entènasyonal yo sou **TOEFL** la anplis pwosesis nivo sa a, pa nan plas li. Bò kou a pibliye epi li konsekan: yon **Frè Elèv Entènasyonal $2,000 pou chak elèv pou chak ane**, ki pa ranbousab epi ki dwe peye lè enskripsyon — byenke **frè $1,250 pou nouvo fanmi an klèman pa aplike** pou elèv entènasyonal yo. Pwosedi viza, I-20 ak SEVIS, ajans patnè, ak nenpòt diferans nan frè aplikasyon **pa pibliye**; men lekòl la nonmen yon Admissions Specialist and International Student Coordinator, kidonk mande la anvan w kòmanse."
-    },
-    {
       "text": "Two items here exist in no other band.",
       "of": "ba52f179",
       "at": [
@@ -2608,12 +2472,12 @@
       "t": "Anplis ISEE a, se pa nan plas li."
     },
     {
-      "text": "Aid runs through **SSS by NAIS** — Charlotte Christian's **school code is 2318** — and awards are **need-based only**, with the maximum grant **limited to 50 percent of tuition**. Two rules shape the timing: awards for new families \"will not be provided until their students have been accepted,\" and applications \"will be considered as applications are completed, but awards will be limited by the funding available at the time of completion\" — so completing early matters more than the deadline suggests. Every family applying for aid **must also apply to the North Carolina Opportunity Scholarship Program**, which opens February 2. **The aid deadline for this cycle is not published** — the only dated sheet is a prior cycle's — so confirm it with the business office before you plan around it.",
-      "of": "74172915",
+      "text": "Aid runs through **SSS by NAIS** (school code **2318**), is **need-based only** and is capped at **50 percent of tuition**. Every aid family must **also apply to the North Carolina Opportunity Scholarship Program**, which opens February 2. **The deadline for this cycle is not published** — confirm it with the business office.",
+      "of": "5cdd7282",
       "at": [
         "charlotte-christian:guide.aid.text"
       ],
-      "t": "Èd la pase nan **SSS by NAIS** — kòd lekòl Charlotte Christian se **2318** — epi yo bay èd **sèlman dapre bezwen**, ak sibvansyon maksimòm nan **limite a 50 pousan frè eskolè a**. De règ fòme orè a: èd pou nouvo fanmi «p ap bay jouk elèv yo aksepte», epi aplikasyon yo «ap konsidere pandan aplikasyon yo ap konplete, men èd la ap limite pa lajan ki disponib nan moman konpletman an» — kidonk fini bonè konte plis pase sa dat limit la sijere. Chak fanmi k ap mande èd **dwe aplike tou nan North Carolina Opportunity Scholarship Program**, ki louvri 2 fevriye. **Dat limit èd la pou sik sa a pa pibliye** — sèl fèy ki gen dat se pou yon sik anvan — kidonk konfime l ak biwo administratif la anvan w planifye alantou l."
+      "t": "Èd la pase nan **SSS by NAIS** (kòd lekòl **2318**), li **sèlman dapre bezwen** epi li **limite a 50 pousan frè eskolè a**. Chak fanmi k ap mande èd **dwe aplike tou nan North Carolina Opportunity Scholarship Program**, ki louvri 2 fevriye. **Dat limit sik sa a pa pibliye** — konfime l ak biwo administratif la."
     },
     {
       "text": "CAIS — WPPSI-IV",
@@ -3056,20 +2920,20 @@
       "t": "depo enskripsyon — sou frè eskolè a, epi yo dedwi l sou li"
     },
     {
-      "text": "Everything runs through Veracross: the inquiry form starts the file, your admissions portal account is where you apply, and the portal then generates a checklist personalized to your child's grade level that tracks every remaining step.",
-      "of": "96717b90",
+      "text": "Everything runs through Veracross: the inquiry starts your file, you apply in the portal, and it generates a checklist personalized to your child's grade.",
+      "of": "44aa6f8e",
       "at": [
         "charlotte-country-day:guide.rules[0].text"
       ],
-      "t": "Tout bagay pase nan Veracross: fòm demann enfòmasyon an louvri dosye w la, kont pòtal admisyon w la se kote w aplike, epi apre sa pòtal la kreye yon lis kontwòl pèsonalize dapre nivo pitit ou a ki swiv chak etap ki rete."
+      "t": "Tout bagay pase nan Veracross: demann enfòmasyon an louvri dosye w la, ou aplike nan pòtal la, epi li kreye yon lis kontwòl pèsonalize dapre klas pitit ou a."
     },
     {
-      "text": "Every date below is the 2027–28 entry cycle, as published by the school and corroborated by the CAIS consortium brochure. Cycle dates shift year to year — verify against the live calendar before acting.",
-      "of": "7f009b04",
+      "text": "Every date below is the 2027–28 entry cycle, corroborated by the CAIS consortium brochure. Cycle dates shift year to year — verify before acting.",
+      "of": "2d299a7f",
       "at": [
         "charlotte-country-day:guide.rules[1].text"
       ],
-      "t": "Tout dat ki anba yo se pou sik antre 2027–28 la, jan lekòl la pibliye yo epi jan bwochi konsòsyòm CAIS la konfime yo. Dat sik yo chanje chak ane — verifye yo sou kalandriye an dirèk la anvan w aji."
+      "t": "Tout dat ki anba yo se pou sik antre 2027–28 la, jan bwochi konsòsyòm CAIS la konfime yo. Dat sik yo chanje chak ane — verifye yo anvan w aji."
     },
     {
       "text": "Six published steps in every band — start your journey → submit an application → complete an entrance test → meet with a faculty member → provide supporting materials → follow your progress. What changes is step 3 (which test), the application deadline, and which decision track you land on.",

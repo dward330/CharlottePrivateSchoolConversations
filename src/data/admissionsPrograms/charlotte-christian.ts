@@ -78,6 +78,32 @@
 // it ships as a watch-out. The doctrinal text itself is deliberately NOT
 // transcribed into the app.
 //
+// WATCH-OUTS REMOVED, AND `watchOuts: []` IS DELIBERATE (user's call,
+// 2026-08-31). This card used to ship two band-specific watch-out cards in the
+// right-hand column of every band, eight in total. The user asked for them
+// gone after reviewing the rendered page, so all four arrays are EMPTY BY
+// DECISION, not by a gap in the research. Do NOT read them as unresearched and
+// backfill them. The facts they carried are not lost: the deadline break, the
+// Grade 1 straddle, the file-complete interview gate and the two Grades 5-12
+// extras are all still carried by `steps[].detail` and by each band's
+// `checklistCallout`, which is why nothing was relocated when they went. The
+// research file under source-material/admissions/charlotte-christian/ keeps the
+// full record regardless of what this card presents.
+//
+// THE TWO URL-LESS "Retrieved Aug 2026" SOURCE NOTES WERE REMOVED at the
+// user's request (2026-08-31) — one recording that no faith-based application
+// component is published, one listing what the school does not publish
+// (current-cycle aid deadline, waitlist, legacy/faculty-child preference,
+// re-application, transfer, visa/I-20/SEVIS, 2027-28 dates). Both were
+// prose paragraphs in a row of citation links, and both are DUPLICATES rather
+// than the only record: the faith finding is stated in this header and rendered
+// in the Grades 5-12 questionnaire step, and each not-published item is already
+// named at the point it matters (the aid strip says the deadline is not
+// published; the Grade 1 and Grades 5-12 material named the waitlist and visa
+// gaps). The eight CITED sources, all with URLs, are untouched. Do not restore
+// these as "missing provenance" — the research file under source-material/
+// remains the full record.
+//
 // The nondiscrimination statement quoted in the research file is NARROWER than
 // Country Day's (race, color, national and ethnic origin only). Each school's
 // own text is reported as published; they are never harmonized.
@@ -105,7 +131,6 @@ export const charlotteChristian: AdmissionsProgram = {
     cycle: '2026–27 entry cycle',
 
     stats: [
-      { value: '4', label: 'entry bands, each with its own calendar' },
       {
         value: 'Jan 2, 2027',
         label: 'JK/K application deadline — two weeks ahead of everyone else',
@@ -117,11 +142,11 @@ export const charlotteChristian: AdmissionsProgram = {
     rules: [
       {
         title: 'One portal.',
-        text: 'Everything runs through myCCS: an online inquiry form adds you to it, you apply inside it, and it then shows a checklist personalized to your child\'s grade that tracks every remaining item — birth certificate, recommendations, records and test scores all upload there. Decisions are posted to the portal\'s decision tab rather than mailed.',
+        text: 'Everything runs through myCCS: inquire, apply, upload every document, and read your decision on the portal\'s decision tab — all in one place.',
       },
       {
         title: 'The deadlines are for priority, and admissions roll after them.',
-        text: 'Every date below is the 2026–27 entry cycle, and the school states that these are the dates observed by Charlotte Area Independent Schools for priority consideration — after them, "Charlotte Christian School maintains rolling admissions where grade level space permits." So a late application is not automatically a closed door; what you lose is priority for the space that remains.',
+        text: 'Every date below is the 2026–27 cycle. These are CAIS priority dates; after them the school "maintains rolling admissions where grade level space permits."',
       },
     ],
 
@@ -198,16 +223,7 @@ export const charlotteChristian: AdmissionsProgram = {
               'The decision is posted to the myCCS decision tab on **February 26, 2027 at 4 p.m.** — six weeks ahead of the Grades 1–12 track — and the signed enrollment contract is due **March 5, 2027 at noon**. The contract carries a **$1,500 per-student enrollment fee**, non-refundable and applied to the tuition balance, plus a **$1,250 new-family fee** the first time a family enrols.',
           },
         ],
-        watchOuts: [
-          {
-            kicker: 'Your deadline is Jan 2 — and it is the only one that is',
-            text: 'JK and Kindergarten apply **two weeks ahead of every other grade** and hear back **six weeks earlier** (Feb 26 rather than Apr 9). The published JK–Grade 1 document covers three grades and carries **both** dates in a single sentence, which is easy to misread as one deadline for all of them: it is **Jan 2 for JK/K, Jan 15 for Grade 1**. Miss Jan 2 and you do not fall back onto the Grades 1–12 track — you are simply late for this one, and into the rolling-admissions pool for whatever space is left.',
-          },
-          {
-            kicker: 'The order of operations is genuinely unusual',
-            text: 'Two items sit where you would not expect them. The **teacher recommendation is due Jan 15 — after the Jan 2 application** — and it **cannot be requested before November 1**, so the whole request window is about ten weeks wide. And the **playdate is scheduled by the admissions office** once your application is in, rather than booked by you, so there is nothing to reserve and no date to chase: apply first, and the rest of the sequence follows.',
-          },
-        ],
+        watchOuts: [],
         checklistCallout: {
           lead: 'Your deadline is Jan 2, not Jan 15.',
           text: 'Junior Kindergarten and Kindergarten apply two weeks ahead of every other grade and hear back six weeks earlier. The teacher recommendation is due Jan 15 — after the application, which is correct and not a misprint — and cannot be requested before November 1. The playdate is scheduled by the admissions office once your application arrives.',
@@ -329,16 +345,7 @@ export const charlotteChristian: AdmissionsProgram = {
               'The decision posts to the myCCS decision tab on **April 9, 2027 at 4 p.m.** and the enrollment contract is due **April 16, 2027 at noon** — the Grades 1–12 track, six weeks behind JK/K. The contract carries the **$1,500 per-student enrollment fee** and, for a family new to the school, the **$1,250 new-family fee**.',
           },
         ],
-        watchOuts: [
-          {
-            kicker: 'Grade 1 straddles the two boundaries',
-            text: 'This is the band that catches families out, because Grade 1 sits on **one side of the deadline break and the other side of the testing break**. Its **application deadline is Jan 15**, with the older grades — but its **assessment is the WPPSI-IV**, with the younger ones, and so is its **playdate**. Reading the JK–Grade 1 document as a single process gives you the wrong deadline; reading the Grades 2–4 document because "Grade 1 is a big-kid grade" gives you the wrong test. Neither published sheet describes Grade 1 on its own.',
-          },
-          {
-            kicker: 'Late is not closed, but it is not priority either',
-            text: 'The dates on this sheet are, in the school\'s own words, "those observed by Charlotte Area Independent Schools (CAIS) for priority consideration. After these dates, Charlotte Christian School maintains **rolling admissions where grade level space permits**." Observing the deadlines "promises priority consideration for available space" — so applying after Jan 15 puts you in a rolling pool for whatever is left in a single grade, which in a small division may be nothing. Whether a waitlist operates alongside that, and how it is ordered, is **not published**.',
-          },
-        ],
+        watchOuts: [],
         checklistCallout: {
           lead: 'Grade 1 is on the later deadline but the earlier test.',
           text: 'Apply by Jan 15 with the older grades, but sit the WPPSI-IV with the younger ones — the testing boundary is Grade 1 → Grade 2, one grade later than the deadline boundary. Grade 1 also gets the on-campus playdate rather than a family interview.',
@@ -453,16 +460,7 @@ export const charlotteChristian: AdmissionsProgram = {
               'The decision posts to the myCCS decision tab on **April 9, 2027 at 4 p.m.**, with the enrollment contract due **April 16, 2027 at noon** — **except** for a sibling of a JK–K applicant, who is decided on the JK–K track on **February 26, 2027** regardless of the grade applied for. The contract carries the **$1,500 per-student enrollment fee**, plus the **$1,250 new-family fee** for a family new to the school.',
           },
         ],
-        watchOuts: [
-          {
-            kicker: 'The interview will not be scheduled until your file is complete',
-            text: 'The family interview is **gated on a complete file**, not booked in advance: it is scheduled only "once an applicant\'s file materials are complete," and **student visit days are by invitation**. Every day you spend chasing the last transcript is a day the interview cannot be set. The records requirement is the long pole — **current year plus two prior years** of report cards, standardized tests and other educational assessments, which for a family moving from another school often means requesting from two registrars.',
-          },
-          {
-            kicker: 'A JK–K sibling changes your decision date',
-            text: 'If your child is applying alongside a sibling entering JK or Kindergarten, this applicant is decided on the **JK–K track — February 26, 2027 — regardless of the grade applied for**, roughly six weeks ahead of the rest of the band. The school states this on all three checklists. It moves the decision and the contract deadline together, so a family in that position should be working to the earlier calendar throughout rather than the one printed on this sheet.',
-          },
-        ],
+        watchOuts: [],
         checklistCallout: {
           lead: 'Finish the file early — the interview waits on it.',
           text: 'The family interview is scheduled only once your materials are complete, and student visit days are by invitation. The records ask is the slow part: current year plus two prior years of report cards, standardized tests and other assessments. If a sibling is applying for JK or K, your decision moves to Feb 26 instead of Apr 9.',
@@ -585,16 +583,7 @@ export const charlotteChristian: AdmissionsProgram = {
               'The decision posts to the myCCS decision tab on **April 9, 2027 at 4 p.m.**, with the enrollment contract due **April 16, 2027 at noon** — **except** for a sibling of a JK–K applicant, decided on **February 26, 2027**. The contract carries the **$1,500 per-student enrollment fee**; a family new to the school also pays the **$1,250 new-family fee**, which does not apply to international students.',
           },
         ],
-        watchOuts: [
-          {
-            kicker: 'Two requirements exist only in this band',
-            text: 'The **applicant questionnaire is written by the student, by hand** — "printed and completed in the student\'s handwriting," then uploaded to myCCS — so it needs your child\'s time, not yours, and it cannot be left to the last evening. And the recommendation list **splits mid-band**: **Grades 7–12** must add a **Principal or School Counselor** reference on top of English and Math, while **Grades 5–6** need only the two teachers. A Grade 7 family working from a Grade 6 family\'s list will be one recommendation short at the Feb 26 deadline.',
-          },
-          {
-            kicker: 'International applicants: the TOEFL and a $2,000 annual fee',
-            text: 'International applicants are pointed to the **TOEFL** in addition to this band\'s process, not instead of it. The cost side is published and is substantial: an **International Student Fee of $2,000 per student per year**, non-refundable and due at enrollment — though the **$1,250 new-family fee explicitly does not apply** to international students. Visa, I-20 and SEVIS procedures, agency partners and any application-fee differential are **not published**; the school does name an Admissions Specialist and International Student Coordinator, so ask there before you start.',
-          },
-        ],
+        watchOuts: [],
         checklistCallout: {
           lead: 'Two items here exist in no other band.',
           text: "The applicant questionnaire is printed and completed in the student's own handwriting, then uploaded — start it early. And Grades 7–12 need a Principal or School Counselor recommendation on top of English and Math, where Grades 5–6 need only the two teachers. Charlotte Christian's own ISEE day is Jan 23, 2027.",
@@ -669,7 +658,7 @@ export const charlotteChristian: AdmissionsProgram = {
 
     aid: {
       title: 'Running in parallel: the financial-aid clock',
-      text: 'Aid runs through **SSS by NAIS** — Charlotte Christian\'s **school code is 2318** — and awards are **need-based only**, with the maximum grant **limited to 50 percent of tuition**. Two rules shape the timing: awards for new families "will not be provided until their students have been accepted," and applications "will be considered as applications are completed, but awards will be limited by the funding available at the time of completion" — so completing early matters more than the deadline suggests. Every family applying for aid **must also apply to the North Carolina Opportunity Scholarship Program**, which opens February 2. **The aid deadline for this cycle is not published** — the only dated sheet is a prior cycle\'s — so confirm it with the business office before you plan around it.',
+      text: 'Aid runs through **SSS by NAIS** (school code **2318**), is **need-based only** and is capped at **50 percent of tuition**. Every aid family must **also apply to the North Carolina Opportunity Scholarship Program**, which opens February 2. **The deadline for this cycle is not published** — confirm it with the business office.',
       button: 'Financial Aid & Tuition',
     },
 
@@ -891,14 +880,6 @@ export const charlotteChristian: AdmissionsProgram = {
         label:
           'North Carolina Opportunity Scholarship — the second, mandatory application for every aid applicant',
         url: 'https://k12.ncseaa.edu',
-      },
-      {
-        label:
-          "Retrieved Aug 2026. No faith-based application component is published: across all three process PDFs, the admissions calendar and the apply page there is no pastoral or clergy reference, no church-membership requirement and no statement-of-faith affirmation for applicants or parents. The school's Statement of Faith governs the institution rather than applicants.",
-      },
-      {
-        label:
-          "Retrieved Aug 2026. The current-cycle financial-aid deadline, waitlist procedure, legacy/alumni and faculty-child preference, sibling preference beyond the JK–K decision track, re-application, transfer and mid-year entry, and international visa/I-20/SEVIS procedure aren't published on the pages and documents reviewed. The 2027–28 dates and tuition are not published yet. Confirm any of these directly with admissions.",
       },
     ],
   },

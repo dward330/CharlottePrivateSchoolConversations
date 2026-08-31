@@ -36,7 +36,7 @@
       "of": "0115e4c6",
       "at": [
         "providence-day:guide.stats[2].label",
-        "charlotte-christian:guide.stats[2].label",
+        "charlotte-christian:guide.stats[1].label",
         "charlotte-country-day:guide.stats[2].label"
       ]
     },
@@ -1262,17 +1262,10 @@
       ]
     },
     {
-      "t": "niveaux d'entrée, chacun avec son propre calendrier",
-      "of": "1e27eb52",
-      "at": [
-        "charlotte-christian:guide.stats[0].label"
-      ]
-    },
-    {
       "t": "date limite de candidature JK/K : deux semaines avant tous les autres",
       "of": "0a55ba87",
       "at": [
-        "charlotte-christian:guide.stats[1].label",
+        "charlotte-christian:guide.stats[0].label",
         "charlotte-country-day:guide.stats[1].label"
       ]
     },
@@ -1280,12 +1273,12 @@
       "t": "frais de candidature — non remboursables, à tous les niveaux",
       "of": "64501c19",
       "at": [
-        "charlotte-christian:guide.stats[3].label"
+        "charlotte-christian:guide.stats[2].label"
       ]
     },
     {
-      "t": "Tout passe par myCCS : un formulaire de demande de renseignements en ligne vous y inscrit, vous déposez votre candidature à l'intérieur, puis le portail affiche une check-list personnalisée selon le niveau de votre enfant qui suit chaque élément restant — acte de naissance, recommandations, dossiers scolaires et résultats de tests s'y téléversent tous. Les décisions sont publiées dans l'onglet des décisions du portail plutôt qu'envoyées par courrier.",
-      "of": "6f367afa",
+      "t": "Tout passe par myCCS : demandez des renseignements, candidatez, téléversez chaque document et lisez votre décision dans l'onglet des décisions du portail — le tout au même endroit.",
+      "of": "a24d5cd8",
       "at": [
         "charlotte-christian:guide.rules[0].text"
       ]
@@ -1298,8 +1291,8 @@
       ]
     },
     {
-      "t": "Toutes les dates ci-dessous correspondent au cycle d'entrée 2026–27, et l'école précise qu'il s'agit des dates observées par Charlotte Area Independent Schools pour l'examen prioritaire — après elles, « Charlotte Christian School maintient des admissions au fil de l'eau là où l'espace du niveau le permet ». Une candidature tardive n'est donc pas automatiquement une porte fermée ; ce que vous perdez, c'est la priorité sur les places restantes.",
-      "of": "843809fb",
+      "t": "Toutes les dates ci-dessous correspondent au cycle 2026–27. Ce sont les dates de priorité du CAIS ; après elles, l'école « maintient des admissions au fil de l'eau là où l'espace du niveau le permet ».",
+      "of": "195f3279",
       "at": [
         "charlotte-christian:guide.rules[1].text"
       ]
@@ -1521,34 +1514,6 @@
       "of": "5be43123",
       "at": [
         "charlotte-christian:guide.bands[0].steps[7].detail"
-      ]
-    },
-    {
-      "t": "Votre échéance est le 2 janvier — et c'est la seule qui l'est",
-      "of": "b2e6fc3d",
-      "at": [
-        "charlotte-christian:guide.bands[0].watchOuts[0].kicker"
-      ]
-    },
-    {
-      "t": "JK et Kindergarten candidatent **deux semaines avant tous les autres niveaux** et reçoivent une réponse **six semaines plus tôt** (le 26 février plutôt que le 9 avril). Le document publié JK–niveau 1 couvre trois niveaux et porte les **deux** dates dans une seule phrase, ce qui se lit facilement comme une échéance unique pour tous : c'est le **2 janvier pour JK/K, le 15 janvier pour le niveau 1**. Si vous manquez le 2 janvier, vous ne basculez pas sur la voie des niveaux 1–12 — vous êtes simplement en retard pour celle-ci, et versé dans le vivier des admissions au fil de l'eau pour les places restantes.",
-      "of": "6dad4f4f",
-      "at": [
-        "charlotte-christian:guide.bands[0].watchOuts[0].text"
-      ]
-    },
-    {
-      "t": "L'ordre des opérations est véritablement inhabituel",
-      "of": "2ae6c12a",
-      "at": [
-        "charlotte-christian:guide.bands[0].watchOuts[1].kicker"
-      ]
-    },
-    {
-      "t": "Deux éléments se trouvent là où on ne les attendrait pas. La **recommandation de l'enseignant est due le 15 janvier — après la candidature du 2 janvier** — et elle **ne peut pas être demandée avant le 1er novembre**, si bien que toute la fenêtre de demande dure environ dix semaines. Et la **séance de jeu est planifiée par le bureau des admissions** une fois votre candidature déposée, plutôt que réservée par vous : il n'y a donc rien à réserver ni de date à courir après — candidatez d'abord, et la suite s'enchaîne.",
-      "of": "1a00cacb",
-      "at": [
-        "charlotte-christian:guide.bands[0].watchOuts[1].text"
       ]
     },
     {
@@ -1818,34 +1783,6 @@
       ]
     },
     {
-      "t": "Le niveau 1 chevauche les deux frontières",
-      "of": "48c627ae",
-      "at": [
-        "charlotte-christian:guide.bands[1].watchOuts[0].kicker"
-      ]
-    },
-    {
-      "t": "C'est le niveau qui prend les familles au dépourvu, car le niveau 1 se situe **d'un côté de la frontière des échéances et de l'autre côté de la frontière des tests**. Sa **date limite de candidature est le 15 janvier**, avec les niveaux supérieurs — mais son **évaluation est le WPPSI-IV**, avec les plus jeunes, tout comme sa **séance de jeu**. Lire le document JK–niveau 1 comme un processus unique vous donne la mauvaise échéance ; lire le document des niveaux 2–4 parce que « le niveau 1 est un niveau de grands » vous donne le mauvais test. Aucune des fiches publiées ne décrit le niveau 1 à lui seul.",
-      "of": "90db7d86",
-      "at": [
-        "charlotte-christian:guide.bands[1].watchOuts[0].text"
-      ]
-    },
-    {
-      "t": "Tardif ne veut pas dire fermé, mais pas prioritaire non plus",
-      "of": "74152332",
-      "at": [
-        "charlotte-christian:guide.bands[1].watchOuts[1].kicker"
-      ]
-    },
-    {
-      "t": "Les dates de cette fiche sont, selon les mots de l'école elle-même, « celles observées par Charlotte Area Independent Schools (CAIS) pour l'examen prioritaire. Après ces dates, Charlotte Christian School maintient des **admissions au fil de l'eau là où l'espace du niveau le permet** ». Respecter les échéances « garantit un examen prioritaire pour les places disponibles » — candidater après le 15 janvier vous place donc dans un vivier au fil de l'eau pour ce qui reste dans un seul niveau, ce qui, dans une petite division, peut être rien. L'existence d'une liste d'attente en parallèle, et son ordre, ne sont **pas publiés**.",
-      "of": "70832918",
-      "at": [
-        "charlotte-christian:guide.bands[1].watchOuts[1].text"
-      ]
-    },
-    {
       "t": "Le niveau 1 est sur l'échéance tardive mais sur le test précoce.",
       "of": "06497453",
       "at": [
@@ -2002,34 +1939,6 @@
       "of": "f426fd87",
       "at": [
         "charlotte-christian:guide.bands[2].steps[6].detail"
-      ]
-    },
-    {
-      "t": "L'entretien ne sera pas planifié tant que votre dossier n'est pas complet",
-      "of": "dfba6a6a",
-      "at": [
-        "charlotte-christian:guide.bands[2].watchOuts[0].kicker"
-      ]
-    },
-    {
-      "t": "L'entretien familial est **conditionné à un dossier complet**, il ne se réserve pas à l'avance : il n'est planifié qu'« une fois que les pièces du dossier d'un candidat sont complètes », et les **journées de visite des élèves se font sur invitation**. Chaque journée passée à courir après le dernier relevé de notes est une journée où l'entretien ne peut pas être fixé. L'exigence de dossiers est le point le plus long — **l'année en cours plus les deux années précédentes** de bulletins, tests standardisés et autres évaluations scolaires, ce qui, pour une famille venant d'une autre école, signifie souvent des demandes auprès de deux secrétariats.",
-      "of": "8e09060a",
-      "at": [
-        "charlotte-christian:guide.bands[2].watchOuts[0].text"
-      ]
-    },
-    {
-      "t": "Un frère ou une sœur en JK–K change votre date de décision",
-      "of": "17ec4e33",
-      "at": [
-        "charlotte-christian:guide.bands[2].watchOuts[1].kicker"
-      ]
-    },
-    {
-      "t": "Si votre enfant candidate en même temps qu'un frère ou une sœur entrant en JK ou Kindergarten, ce candidat est décidé sur la **voie JK–K — le 26 février 2027 — quel que soit le niveau demandé**, soit environ six semaines avant le reste du niveau. L'école l'indique sur les trois check-lists. Cela déplace ensemble la décision et l'échéance du contrat : une famille dans cette situation devrait donc travailler sur le calendrier le plus précoce tout du long, plutôt que sur celui imprimé sur cette fiche.",
-      "of": "c5c39583",
-      "at": [
-        "charlotte-christian:guide.bands[2].watchOuts[1].text"
       ]
     },
     {
@@ -2220,34 +2129,6 @@
       ]
     },
     {
-      "t": "Deux exigences n'existent que dans ce niveau",
-      "of": "cc14d076",
-      "at": [
-        "charlotte-christian:guide.bands[3].watchOuts[0].kicker"
-      ]
-    },
-    {
-      "t": "Le **questionnaire du candidat est rédigé par l'élève, à la main** — « imprimé et complété de la main de l'élève », puis téléversé sur myCCS — il exige donc le temps de votre enfant, pas le vôtre, et ne peut pas être laissé au dernier soir. Et la liste des recommandations **se scinde en milieu de niveau** : les **niveaux 7–12** doivent ajouter une référence du **principal ou du conseiller d'orientation** en plus de l'anglais et des mathématiques, tandis que les **niveaux 5–6** n'ont besoin que des deux enseignants. Une famille de niveau 7 travaillant à partir de la liste d'une famille de niveau 6 se retrouvera avec une recommandation de moins à l'échéance du 26 février.",
-      "of": "a221bcb2",
-      "at": [
-        "charlotte-christian:guide.bands[3].watchOuts[0].text"
-      ]
-    },
-    {
-      "t": "Candidats internationaux : le TOEFL et des frais annuels de $2,000",
-      "of": "8609f0d2",
-      "at": [
-        "charlotte-christian:guide.bands[3].watchOuts[1].kicker"
-      ]
-    },
-    {
-      "t": "Les candidats internationaux sont orientés vers le **TOEFL** en plus du processus de ce niveau, et non à sa place. Le volet financier est publié et il est conséquent : des **frais d'élève international de $2,000 par élève et par an**, non remboursables et dus à l'inscription — même si les **frais de $1,250 pour les nouvelles familles ne s'appliquent explicitement pas** aux élèves internationaux. Les procédures de visa, I-20 et SEVIS, les agences partenaires et toute différence de frais de candidature ne sont **pas publiées** ; l'école nomme cependant une Admissions Specialist and International Student Coordinator, alors renseignez-vous là avant de commencer.",
-      "of": "3f10f567",
-      "at": [
-        "charlotte-christian:guide.bands[3].watchOuts[1].text"
-      ]
-    },
-    {
       "t": "Deux éléments ici n'existent dans aucun autre niveau.",
       "of": "ba52f179",
       "at": [
@@ -2320,8 +2201,8 @@
       ]
     },
     {
-      "t": "L'aide passe par **SSS by NAIS** — le code d'établissement de Charlotte Christian est **2318** — et les aides sont **attribuées uniquement selon les besoins**, la subvention maximale étant **limitée à 50 pour cent des frais de scolarité**. Deux règles conditionnent le calendrier : les aides aux nouvelles familles « ne seront pas accordées avant que leurs élèves aient été acceptés », et les demandes « seront examinées au fur et à mesure de leur finalisation, mais les aides seront limitées par les fonds disponibles au moment de la finalisation » — finaliser tôt compte donc davantage que l'échéance ne le laisse penser. Toute famille demandant une aide **doit également postuler au North Carolina Opportunity Scholarship Program**, qui ouvre le 2 février. **L'échéance de l'aide pour ce cycle n'est pas publiée** — la seule fiche datée relève d'un cycle antérieur — alors confirmez-la auprès du service financier avant de bâtir votre planning dessus.",
-      "of": "74172915",
+      "t": "L'aide passe par **SSS by NAIS** (code d'établissement **2318**), est **attribuée uniquement selon les besoins** et est **plafonnée à 50 pour cent des frais de scolarité**. Toute famille demandant une aide doit **également postuler au North Carolina Opportunity Scholarship Program**, qui ouvre le 2 février. **L'échéance de ce cycle n'est pas publiée** — confirmez-la auprès du service financier.",
+      "of": "5cdd7282",
       "at": [
         "charlotte-christian:guide.aid.text"
       ]
@@ -2713,15 +2594,15 @@
       ]
     },
     {
-      "t": "Tout passe par Veracross : le formulaire de renseignement ouvre votre dossier, le compte du portail des admissions est l’endroit où vous candidatez, et le portail génère ensuite une check-list personnalisée selon le niveau de votre enfant qui suit chacune des étapes restantes.",
-      "of": "96717b90",
+      "t": "Tout passe par Veracross : la demande de renseignements ouvre votre dossier, vous candidatez dans le portail, et celui-ci génère une check-list personnalisée selon le niveau de votre enfant.",
+      "of": "44aa6f8e",
       "at": [
         "charlotte-country-day:guide.rules[0].text"
       ]
     },
     {
-      "t": "Toutes les dates ci-dessous correspondent au cycle d’entrée 2027–28, tel que publié par l’école et confirmé par la brochure du consortium CAIS. Les dates changent d’une année à l’autre : vérifiez-les sur le calendrier en ligne avant d’agir.",
-      "of": "7f009b04",
+      "t": "Toutes les dates ci-dessous correspondent au cycle d'entrée 2027–28, confirmé par la brochure du consortium CAIS. Les dates changent d'une année à l'autre : vérifiez-les avant d'agir.",
+      "of": "2d299a7f",
       "at": [
         "charlotte-country-day:guide.rules[1].text"
       ]
