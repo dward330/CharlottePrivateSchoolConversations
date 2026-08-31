@@ -1,7 +1,7 @@
 ---
 name: charlottechristianadmissions
 title: Add the Admissions research area for Charlotte Christian School
-status: english-done
+status: implemented
 phases: 2
 created: 2026-08-31
 branch: feat/charlotte-christian-admissions
@@ -350,3 +350,65 @@ Traps specific to this card:
   all seven. The full list is in source-material. Listing seven dates in a step aimed at one
   school's applicants is more noise than signal — but it is genuinely useful, so this is
   worth the user's opinion.
+
+## Implementation notes
+
+Both phases shipped. Phase 2 deviated from the plan in one place and found two
+defects the plan did not anticipate.
+
+**`scripts/i18n_fields.mjs` needed an edit the plan did not list.** The extractor
+exited 1 with two UNCLASSIFIED paths — `comparison.rows[].cells.g1` and
+`…cells.g24` — because CCS is the first school to use those two band keys.
+`PATH_OVERRIDES` matches by full path and each band key is its own path, so an
+unregistered key is **excluded from extraction rather than flagged at render**:
+it would have shipped English comparison cells to all nine locales with coverage
+still reporting 100%. The file's own comment predicts exactly this case for a
+new school and prescribes registering the keys, which is what was done. Adding
+them raised the topic from 454 to 461 strings.
+
+**The extractor has no carry-over branch** (unlike `i18n_extract_content.mjs`),
+so `--force` would have blanked all 287 existing translations per locale. Phase 2
+therefore extracted to a throwaway `--lang __probe` outside the work directory and
+spliced the 174 new units into each committed work file **keyed by `of` stamp**,
+per the standing "key by text, never by index" rule. Zero orphans, confirming no
+English drift in the two existing schools.
+
+**Two leak classes were caught after the data read clean**, both by checkers
+rather than by eye:
+
+- `check:fr` flagged `Lower School` / `Upper School` translated inside the two
+  contact job titles. Measuring the whole corpus showed the convention is
+  unanimous — **219/219 occurrences keep those names in Latin in every locale** —
+  so the same fix was applied to all nine, not just French. `check:fr` guards
+  French only; the other eight would have shipped the leak silently.
+- `i18n:leaks` flagged `guide.checklist.portalNote`. Two locales disagreed with
+  the rendering already shipped for Providence Day and Country Day (`es` had
+  `Portal:` where both existing schools use `Portal de admisiones:`; `ht` had
+  `Pòtal:` against `Pòtay:`). Aligned to precedent.
+
+Its other flags were verified as **legitimate keeps**: `Oct 2026` / `Nov 2026`
+are genuinely identical in Spanish and French (and correctly differ in Italian
+`Ott` and Kreyòl `Okt`), and `myCCS` plus the portal domain are frozen
+identifiers.
+
+**`A Closer Look` — the trap the plan named — survived in all nine locales**,
+confirmed in the browser rather than in the data.
+
+Two pre-existing findings were left alone as out of scope, both confirmed
+identical on a stashed baseline: `check_bn_numerals.mjs` reports 3 Bangla-script
+digits in `course-offerings` and `metric-values`.
+
+### Phase 2 verification
+
+`check:runtime` ✓ all 9 locales · `check:live` ✓ all three gates · `check:sepdrift`
+✓ 0 drifted across 9 × 11,867 strings · `check:figures` ✓ 461 strings intact per
+locale · `check:fr` / `check:fa` / `check:hi` / `check:bidi` / `check:script` /
+`check:currency` / `check:money` / `check:chrome` ✓ · `npm run build` exit 0.
+
+Browser-verified in all nine locales at `/school/charlotte-christian/` with every
+`<details>` forced open: zero English sentinels outside `en`, `dir=rtl` correct for
+`fa`/`ar`, 271 LRI isolates wrapping figures in both RTL locales and 0 in `hi`
+(as designed — isolates are applied at render, never stored). The standalone
+checklist page was checked across all four bands: each renders its own heading and
+the right assessment (`jkk`/`g1` → WPPSI-IV + playdate, `g24` → WISC-V,
+`g512` → ISEE + questionnaire), and the headings translate per locale.
