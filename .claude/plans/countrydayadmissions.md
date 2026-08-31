@@ -1,7 +1,7 @@
 ---
 name: countrydayadmissions
 title: Add the Admissions research area for Charlotte Country Day School
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-08-30
 branch: feat/countryday-admissions
@@ -354,3 +354,53 @@ Locale traps that apply to this card specifically:
   **default:** yes, in the `jkk` watch-out. It is genuinely useful to a parent applying to
   several Charlotte independents, and four of the seven are schools this app covers. It does
   not name the other schools in the card.
+
+## Implementation notes
+
+### One deviation from the plan — the shared card title named the wrong bands
+
+`ADMISSIONS_CARDS[0].title` is a **single string shared by every school**, and it reads
+`'Grade-by-Grade Application Guide — TK/K · 1–5 · 6–12'` — Providence Day's band
+boundaries. The plan treated the card registry as school-agnostic (Context: "no hardcoded
+counts and no per-school branches"), which is true of the *renderer* but not of the card
+title. Left alone, the heading above Country Day's card would have advertised
+`TK/K · 1–5 · 6–12` over a card whose bands are `JK/K · 1–4 · 5–12`, for a school with no
+TK at all.
+
+Fixed by adding `TITLE_OVERRIDES` + `titleOverrideSlug()` + `admissionsCardTitleFor()` to
+`src/data/admissionsPrograms.ts` and wiring them at `SchoolDetail.tsx:1089`. This is not a
+new mechanism: **the Arts area already does exactly this, for exactly this school** — see
+`TITLE_OVERRIDES` in `artsProgram.ts`, where Country Day's ladder card is renamed
+`'The JK–12 Arts Ladder'` with the comment "Cannon and Country Day start at JrK/JK, not
+TK". The i18n contract comes along with it: `cardTitle()` looks an overridden title up
+under the school-scoped key `cards.admissions.guide@charlotte-country-day`, exactly as
+`cards.the-arts.ladder@davidson-day` already works.
+
+No UX approval was sought for this and none is needed: no card, section, tile, Compare row
+or metric key is added — an existing heading is corrected to name this school's own bands,
+which is per-school research data, using a mechanism already approved and shipped in
+another area.
+
+### An unrelated pre-existing drift, fixed in its own commit
+
+Running `scripts/build_site_content.py` (a whole-corpus pass) regenerated
+`src/content/college-support/carmel-christian.json`, which had nothing to do with this
+plan. The cause: `.claude/docs/college-support/carmel-christian.md` was rebuilt on
+2026-08-24 to add a `High School Profile 2024-25` source, but `build_site_content.py` was
+never re-run afterwards. The shipped JSON therefore held a stale 16-section slice that was
+missing that section **and had every following section's text sitting under the next
+section's subtopic heading** — so the page rendered real prose under wrong headings.
+
+Committed separately (`df9acaa`) so it is reviewable on its own rather than buried in the
+feature diff. No source material and no distilled note changed; only the derived content
+slice.
+
+### Everything else went as written
+
+The three content traps the plan called out were all authored correctly first time and
+were re-read against the research files at verification: the WPPSI-IV/WISC-V split at
+Grade 1 vs Grade 2 (never at the band boundary), Jan 15 as the *prospective*-family aid
+deadline, and the JK/K teacher recommendation falling Jan 15 — after that band's own Jan 2
+application deadline. All three defaults in *Open questions* were taken: both instruments
+named with the split explicit, no `$300` stat tile, and the "one evaluation serves seven
+schools" fact surfaced in the `jkk` watch-out.
