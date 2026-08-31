@@ -102,6 +102,7 @@ For each research area, probe the sources that area actually lives on:
 
 | Research area | Where coverage lives or dies |
 |---|---|
+| Admissions | the **admissions process / how-to-apply** page and its dated deadline calendar — this area needs *dates*, not narrative. Look for: an application deadline, a decision-notification date, a response deadline, the entrance test named per grade band, the application fee, and the portal's name. A page that says "rolling admissions, contact us" populates nothing. Check the **school year label against the dates themselves** — the two disagree more often than you would expect (see the Charlotte Country Day note below). |
 | Course Offerings | a published curriculum guide / course catalog (PDF or page). Without one this area is near-zero. |
 | Student Clubs | a clubs/activities list; honor-society pages; student-life section |
 | The Arts | fine-arts department pages, performance calendar, Blumey-style award records |
@@ -134,7 +135,7 @@ repeating the search.
 
 Give the user, in this order:
 
-**A one-line verdict first** — "Strong candidate: 7 of 8 areas viable" or "Thin: only
+**A one-line verdict first** — "Strong candidate: 8 of 9 areas viable" or "Thin: only
 Sports and Tuition are populatable." Lead with the answer, not the methodology.
 
 **The per-area table**, with the schema's own areas as rows:
@@ -166,13 +167,19 @@ Rules for the table:
   | Summer Programs | 7 | 14 pts |
   | Financial Aid & Tuition | 5 | 20 pts |
   | Course Offerings | 4 | **25 pts** |
+  | Admissions | 2 | **50 pts** |
 
-  A 5.8× spread. **Course Offerings can only ever read 0 / 25 / 50 / 75 / 100%** — there is
-  no such thing as a 56% there, and a single curriculum-guide PDF is the difference between
-  25% and 75%. Treat a Sports percentage as a measurement and a Course Offerings percentage
-  as a rough signal; never compare the two as if they carried equal weight. Recompute these
-  denominators from the schema doc rather than trusting the table — they move whenever a
-  card or Compare row is added.
+  An 11.5× spread. **Course Offerings can only ever read 0 / 25 / 50 / 75 / 100%** — there
+  is no such thing as a 56% there, and a single curriculum-guide PDF is the difference
+  between 25% and 75%. **Admissions is worse: 0 / 50 / 100 only**, because it holds one
+  prose card key, one structured card and **zero Compare rows**. Treat a Sports percentage
+  as a measurement and an Admissions percentage as barely more than a yes/no; never compare
+  the two as if they carried equal weight. Recompute these denominators from the schema doc
+  rather than trusting the table — they move whenever a card or Compare row is added.
+
+  **Admissions contributes no Compare rows at all**, so it cannot move the ≥17/30 figure in
+  either direction. A school can be perfect on Admissions and still fail the Compare bar,
+  or vice versa — do not let a strong Admissions sweep read as progress toward it.
 - **Score against the cards the existing schools actually have, not every card that
   exists.** §2 of the schema doc gives a `Schools` count per card key. Judge a candidate on
   the keys **5 or 6 of 6** schools hold; a key only 1 of 6 holds (`the-arts :: courses`,
@@ -215,10 +222,12 @@ a figure they doubt.
 #### The bar
 
 Two gates, both calibrated to **the thinnest school the project has judged worth
-shipping** — as of 2026-08-15 that is Davidson Day, at 17/30 Compare rows (56%) and 7 of 8
+shipping** — as of 2026-08-31 that is Davidson Day, at 17/30 Compare rows (56%) and 7 of 9
 research areas, with **no Summer Programs material at all**. That was an acceptable
 outcome, so the floor is "at least as good as our thinnest shipped school," not an invented
-round number. `npm run coverage:floor` recomputes it.
+round number. `npm run coverage:floor` recomputes it — **run it, do not transcribe these
+numbers.** The area denominator moved from 8 to 9 when Admissions shipped, and it will move
+again; the script reads the live data, this paragraph does not.
 
 - **Per area (include / omit / dig deeper):** **under ~50%, take the area to the step-5
   walk.** Judge the numerator on the card keys 5–6 of 6 existing schools hold — missing a
@@ -241,7 +250,7 @@ round number. `npm run coverage:floor` recomputes it.
   So: ~50% is a rough line for *which areas are worth discussing*, and the discussion —
   with its dig-deeper option — is what actually decides. An area a hair under it that the
   user obviously wants is included without ceremony.
-- **School-wide (go / no-go):** **≥17 of 30 Compare rows, and ≥6 of 8 research areas.**
+- **School-wide (go / no-go):** **≥17 of 30 Compare rows, and ≥6 of 9 research areas.**
   The comparison is **inclusive** — exactly 17/30 passes, 16/30 (53%) does not. Count in
   **rows, not rounded percentages**: each row moves the figure ~3.3 points, so "56%" means
   "at least 17 of 30." Do not round to a neater number in either direction.
@@ -254,12 +263,18 @@ round number. `npm run coverage:floor` recomputes it.
   a finding worth reporting, not an inconsistency to reconcile. When both figures appear in
   one report, label them (`Compare rows: 17/30` vs `Sports area: ~83%`).
 
-  On the area count, the script derives 7/8 from Davidson Day, but the stated bar is
-  **6 of 8** — one area more permissive, deliberately. Davidson Day is missing its one area
-  for a substantive reason (it genuinely runs no summer program), and a candidate that is
-  simply *unresearched* in two areas can still be worth adding. Tighten to 7/8 if the
-  roster grows and the extra latitude stops being useful; the script reports both so the
-  gap stays visible rather than silently forgotten.
+  On the area count, the script derives 7/9 from Davidson Day, but the stated bar is
+  **6 of 9** — one area more permissive, deliberately. Davidson Day's two gaps are
+  **Summer Programs** (it genuinely runs none — a confirmed absence) and **Admissions**
+  (simply not researched yet, like nine of the eleven schools). A candidate that is merely
+  *unresearched* in two areas can still be worth adding. Tighten to 7/9 if the roster grows
+  and the extra latitude stops being useful; the script reports both so the gap stays
+  visible rather than silently forgotten.
+
+  **The denominator is 9, not 8 — and it is read from the script, never typed.** Admissions
+  became the ninth area on 2026-08-31. `npm run coverage:floor` derives the area count from
+  the live data, so it moved on its own; every figure quoted here must be re-read from its
+  output rather than carried forward from a prior run of this skill.
 
 State the bar and the candidate's numbers against it. It is a default, not a rule — the
 user overrides it in step 5, and a school that misses on one axis while being exceptional
@@ -311,6 +326,15 @@ When the user picks it, run a **focused deep research pass on that one area only
   step: it converts a *not-found* into a **confirmed `null`**, which is exactly what a deep
   pass is for. Note it is UNC-system campuses only, so it complements a matriculation list
   rather than replacing one.
+- **For Admissions, the deep pass is mostly the archive and the consortium.** A school's
+  own calendar page is often the *only* place its dates appear, and it is rewritten each
+  cycle — so an archived copy is what distinguishes "not published" from "published, then
+  replaced." If the school belongs to a testing consortium (in Charlotte, **CAIS**), the
+  consortium's own brochure independently publishes the notification dates and the
+  per-grade instrument, and it corroborates or contradicts the school's page. Charlotte
+  Country Day's brochure was recorded as unretrievable by one pass and retrieved by the
+  next: the resource-manager URL **302-redirects** to a `resources.finalsite.net` PDF, and
+  following the redirect plus `pdftotext -layout` yields the whole document.
 - Score it again on the same basis as step 4 and **report the delta plainly** — "After
   School: ~30% → ~60%, i.e. 3 of 10 items to 6 of 10 (core cards 2/4 → 3/4, Compare rows
   0/2 → 2/2); found the 2025–26 rate sheet as a PDF the site never links."
@@ -341,6 +365,33 @@ split this skill exists to maintain.
 **Omitting an area is a normal outcome, not a defeat** — Davidson Day ships with no Summer
 Programs section at all. Present it that way rather than as a shortfall to be argued out
 of, and note the precedent when it helps the user decide.
+
+**Admissions needs one extra question the other areas do not: how many entry bands?**
+The card is built around a band selector, and the bands are **per-school** — they mirror
+that school's own documented process breaks, not a house standard. Providence Day breaks at
+K→1 and 5→6 (`tkk` / `g15` / `g612`); Charlotte Country Day at K→1 and 4→5
+(`jkk` / `g14` / `g512`). Settle the band count and boundaries during the walk, from the
+school's published calendar, and write them into the plan — inheriting another school's
+bands ships a card that is confidently wrong about which test a child sits.
+
+Three traps, all of which produce plausible-looking wrong text and none of which any
+checker can catch:
+
+- **The cycle label is a school year, not the calendar year of the dates.** A "2027–28
+  entry cycle" carries dates running Oct 2026 → Apr 2027, because you apply the year
+  before you enrol. Do not "correct" them to match the label.
+- **The school's own year label may disagree with its own dates.** Charlotte Country Day's
+  page headers read "2026-27" over content the same page elsewhere calls "the 2027-28
+  School Year", corroborated by the CAIS brochure. Verify the label against the dates
+  themselves and record which one you trusted and why — then note it for the plan, because
+  the next person to look will hit the same contradiction.
+- **A test boundary need not fall on a band boundary.** Country Day's Grades 1–4 band
+  contains *both* CAIS instruments: WPPSI-IV for Grade 1, WISC-V for rising Grades 2–4.
+  Writing "Grades 1–4 take the WISC-V" is the natural sentence and it is false.
+
+Also check whether the school publishes a **prospective**-family aid deadline distinct from
+its **current**-family one — Country Day publishes both (Jan 15 and Nov 1), and using the
+wrong one misinforms exactly the reader this area serves.
 
 **Record every answer.** These decisions are the main thing this skill contributes to the
 plan, and a fresh `/implement` window cannot re-derive them.
@@ -397,6 +448,11 @@ The brief must carry, explicitly:
   so explicitly: that is a confirmed "not published", it tells `/implement` to write
   deliberate `null`s rather than go hunting, and without it a fresh window will burn a
   research pass rediscovering the same absence.
+- **If Admissions is included: the entry bands**, as keys, labels and boundaries, plus the
+  cycle label and how you resolved any disagreement between it and the dates. Bands are
+  per-school and a fresh window cannot re-derive them; without this the plan inherits
+  another school's boundaries. Flag any test-instrument split that does **not** fall on a
+  band boundary, since that is the sentence most likely to be written wrongly.
 - **Every source URL found**, per area. This is the plan's head start.
 
 Then make sure the plan `/plan` writes carries these, since they are the parts a fresh
