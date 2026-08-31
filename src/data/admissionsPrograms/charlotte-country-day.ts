@@ -68,7 +68,7 @@ export const charlotteCountryDay: AdmissionsProgram = {
     cycle: '2027–28 entry cycle',
 
     stats: [
-      { value: '3', label: 'grade bands, each with its own calendar' },
+      // The 'grade bands' count tile was removed by request (2026-08-31) — not a data gap.
       {
         value: 'Jan 2, 2027',
         label: 'JK/K application deadline — two weeks ahead of everyone else',
