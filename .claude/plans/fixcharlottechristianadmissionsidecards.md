@@ -1,11 +1,11 @@
 ---
 name: fixcharlottechristianadmissionsidecards
 title: Remove Charlotte Christian's admissions watch-out cards and the "4 entry bands" tile, and cut the rule-card prose across all three admissions schools
-status: english-done
+status: implemented
 phases: 2
 created: 2026-08-31
 branch: fix/cc-admissions-side-cards
-prs: []
+prs: [258]
 ---
 
 # Remove Charlotte Christian's admissions watch-out cards and the "4 entry bands" tile, and cut the rule-card prose
@@ -618,3 +618,42 @@ not exist.
 **`aid.text` renders through `Emphasized`**, so its `**bold**` markup is real and must be
 carried into all nine translations — unlike `rules[].text`, which renders raw. Getting this
 backwards ships literal asterisks in one field or drops emphasis in the other.
+
+### Phase 2 — shipped, and three notes on the plan's Phase-2 steps
+
+Ran clean against the measured worklist above: **22 stamps per locale, identical across all
+nine**, 461 → 444 entries per work file. The surgery script asserted its own counts (17
+splices, 3 element-wise re-paths firing exactly once each, 5 re-stamps) and refused to splice
+any entry whose `at` named a school other than Charlotte Christian.
+
+**The element-wise re-path — the plan's highest-risk item — held.** Verified in a browser at
+`?lang=es`/`hi`/`ar`: Charlotte Christian renders **three translated** stat tiles, while
+Country Day and Providence Day still render **four translated** tiles each. Their shared `at`
+entries (`0a55ba87`, `0115e4c6`) kept every non-Charlotte-Christian path.
+
+Three corrections to step 10 as written:
+
+1. **`check:figures` is not an npm script.** The Verification section names it as though it
+   were; it is `python3 scripts/check_figures.py --topic admissions --lang <code>`. Run per
+   locale — 444 strings each, figures intact in all nine.
+
+2. **Re-stamping in place beats delete-then-add.** Step 10(c) says to set `t: ''` on the old
+   entry and *add a fresh entry* with the new stamp. Mutating the existing entry's `of` /
+   `text` / `t` instead keeps it at its original array position, which is what makes the diff
+   145–172 lines per file rather than a reshuffle. The builder is a pass-through either way.
+
+3. **Providence Day's `stats` were never at risk from the rules work, but its tiles were.**
+   The plan flags the shared-`at` risk on the stat entries only in the abstract; the concrete
+   confirmation is that `0115e4c6` covers `providence-day:guide.stats[2].label`, so the
+   browser check on Providence Day is not a courtesy regression test — it is the only place
+   that failure mode is visible.
+
+**No new leaks.** `i18n:leaks` totals are byte-identical to the pre-Phase-2 state in all nine
+locales (es 162, bn 187, ht 179, te 363, fr 296, fa 165, it 344, hi 247, ar 173), and none of
+the five rewritten paths or three re-pathed stat paths appear in any locale's report.
+
+Translations reuse each locale's already-reviewed renderings of the terms that survived the
+cut — including the direct quotation in `rules[1]`, which was lifted verbatim from the
+existing reviewed translation rather than re-translated. That keeps the shortened prose
+consistent with the surrounding shipped text and keeps the quote inside the plan's no-
+paraphrase rule.
