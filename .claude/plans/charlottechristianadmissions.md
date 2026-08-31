@@ -1,7 +1,7 @@
 ---
 name: charlottechristianadmissions
 title: Add the Admissions research area for Charlotte Christian School
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-08-31
 branch: feat/charlotte-christian-admissions
