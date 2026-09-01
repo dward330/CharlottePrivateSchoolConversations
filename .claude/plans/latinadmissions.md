@@ -1,7 +1,7 @@
 ---
 name: latinadmissions
 title: Add the Admissions research area for Charlotte Latin School
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-08-31
 branch: feat/latin-admissions

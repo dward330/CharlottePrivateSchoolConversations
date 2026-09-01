@@ -7,7 +7,7 @@
 Every level and category of school data this app presents, derived from the code that
 defines it. This is the answer to "what do we hold on a school, and where does it live?"
 
-**11 schools × 9 research areas**, 400 ingested research documents.
+**11 schools × 9 research areas**, 401 ingested research documents.
 
 This file is **generated**. Adding a research area, a card, or a Compare row updates it
 on the next `npm run schema`; `npm run check:schema` fails the build if it has drifted,
@@ -54,7 +54,7 @@ exists yet and **the section does not render at all** for that school.
 
 | Research area | Slug | Cannon | Carmel Christian | Charlotte Catholic High | Charlotte Christian | Charlotte Country Day | Charlotte Latin | Covenant Day | Davidson Day | Gaston Day | Hickory Grove Christian | Providence Day |
 |---|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
-| Admissions | `admissions` | — | — | — | 1 | 2 | — | — | — | — | — | 1 |
+| Admissions | `admissions` | — | — | — | 1 | 2 | 1 | — | — | — | — | 1 |
 | Course Offerings | `course-offerings` | 1 | 2 | 1 | 1 | 1 | 1 | 4 | 1 | 1 | 2 | 1 |
 | Student Clubs | `student-clubs` | 10 | 1 | 1 | 10 | 10 | 8 | 6 | 9 | 2 | 1 | 8 |
 | The Arts | `the-arts` | 8 | 1 | 1 | 8 | 8 | 7 | 7 | 5 | 1 | 1 | 7 |
@@ -79,7 +79,7 @@ research dossier folds in behind a structured card.
 
 | Card key | Label | Schools | Distinct subtopic phrasings |
 |---|---|--:|--:|
-| `redesign-research` | Admissions Research Dossier (2026) | 3/11 | 2 |
+| `redesign-research` | Admissions Research Dossier (2026) | 4/11 | 2 |
 
 ### Course Offerings `course-offerings`
 
@@ -676,7 +676,7 @@ Root type `AdmissionsProgram` · registry `ADMISSIONS_CARDS` · `src/data/admiss
 |---|---|---|
 | `guide` | Grade-by-Grade Application Guide — TK/K · 1–5 · 6–12 | Which steps, which deadlines, and which test for my child? |
 
-**Schools with data:** 3/11 — absent: `cannon`, `carmel-christian`, `charlotte-catholic`, `charlotte-latin`, `covenant-day`, `davidson-day`, `gaston-day`, `hickory-grove-christian`
+**Schools with data:** 4/11 — absent: `cannon`, `carmel-christian`, `charlotte-catholic`, `covenant-day`, `davidson-day`, `gaston-day`, `hickory-grove-christian`
 
 <details><summary>Types defined in <code>admissionsPrograms.ts</code> (11)</summary>
 
