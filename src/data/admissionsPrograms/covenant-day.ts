@@ -75,9 +75,8 @@
 // read them as unresearched and backfill them. Every fact they would have
 // carried is already in `steps[].detail` and each band's `checklistCallout`:
 // the Jan 2 / Jan 15 deadline break, the twice-moving instrument, the
-// non-priority consequence, the professing-Christian requirement and the
-// unpublished Grade 12 entry. The research file keeps the full record
-// regardless of what this card presents.
+// non-priority consequence and the professing-Christian requirement. The
+// research file keeps the full record regardless of what this card presents.
 //
 // NO URL-LESS TRAILING NOTE IN `sources` (2026-09-01), following PR #258 —
 // prose paragraphs in a row of citation links read as broken links. The
@@ -86,8 +85,15 @@
 // English-proficiency requirements, any reduced deposit for aid applicants, the
 // FACTS aid application fee, 2027–28 tuition) lives in this header and in the
 // research file. Each gap that a parent would act on is also named at the point
-// it matters — the aid strip says the fee and reduced deposit are unpublished,
-// and the Grades 6–11 decision step names the Grade 12 gap.
+// it matters — the aid strip says the fee and reduced deposit are unpublished.
+//
+// GRADE 12 IS ABSENT FROM THE CARD BY DECISION (user, 2026-09-01), not by a gap
+// in the research. It was removed from all four places it appeared: the Grades
+// 6-11 checklistCallout, that band's apply step, its checklist row, and its own
+// cross-band comparison row. The card presents the three bands the school
+// publishes; the unpublished 12th-grade entry point is recorded in the
+// NOT-PUBLISHED register above and in the research file. Do NOT read its
+// absence as unresearched and backfill it.
 //
 // NEVER NARRATE THE CAIS BROCHURE — standing editorial rule (user, PR #261).
 // The school's own page says "Please refer to the CAIS brochure for all details
@@ -400,7 +406,7 @@ export const covenantDay: AdmissionsProgram = {
             tag: 'by Jan 15',
             tagKind: 'accent',
             detail:
-              'The Grades 1–11 priority deadline. The fee is **non-refundable** and is charged per application. **Grade 12 entry is not published**: every deadline, decision date and testing reference the school publishes addresses JK/K and grades 1–11, so a rising senior should contact the admissions office rather than plan around these dates.',
+              'The Grades 1–11 priority deadline. The fee is **non-refundable** and is charged per application.',
           },
           {
             title: 'Sit the ISEE',
@@ -444,7 +450,7 @@ export const covenantDay: AdmissionsProgram = {
           },
           {
             action: 'Submit the online application and pay the $100 fee',
-            detail: 'The Grades 1–11 deadline. Grade 12 is not published as an entry point.',
+            detail: 'The Grades 1–11 deadline. Non-refundable, per application.',
             due: 'Jan 15, 2027',
           },
           {
@@ -576,12 +582,6 @@ export const covenantDay: AdmissionsProgram = {
             jkk: 'Mar 5, 2027, noon',
             g15: 'Apr 16, 2027, noon',
             g611: 'Apr 16, 2027, noon',
-          },
-        },
-        {
-          label: 'Grade 12 entry',
-          cells: {
-            all: 'Not published as an entry point. The school is JK–12, but every published deadline, decision date and testing reference addresses JK/K and grades 1–11 only — contact the admissions office about a rising senior.',
           },
         },
         {
