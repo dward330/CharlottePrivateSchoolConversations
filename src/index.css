@@ -5697,13 +5697,47 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   gap: 6px;
 }
 
-/* The tag hugs its text on its own line rather than stretching the column. */
-.srcrow > .tag-outline {
+/* The toggle and the tag share the row's first line; the citations stack
+   below. Grouping them in one element is what keeps the tag on its own line
+   without the toggle pushing the first citation up beside it. */
+.srcrow-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 2px;
+}
+
+/* The SOURCE/SOURCES chip that used to open every row is GONE (user's call,
+   2026-08-31): beside a button reading "HIDE SOURCES" it was two boxes saying
+   the same word. This rule stays for the rows that still render a chip —
+   ClubsProgram's inline per-tile attributions, which deliberately kept theirs
+   and took no toggle, since the button would be wider than the one line it
+   hides. */
+.srcrow > .tag-outline,
+.srcrow-head > .tag-outline {
   align-self: flex-start;
   width: auto;
   flex: none;
-  margin-bottom: 2px;
 }
+
+/* The toggle is boxed rather than the bare text it was in Course Offerings and
+   the club catalog: at forty-odd rows a page it is now the row's only header
+   element, and it needs to read as a control rather than as a stray caption. */
+.srcrow-head .catalog-src-toggle {
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 3px 7px;
+  font-size: 10px;
+  line-height: 1.2;
+}
+.srcrow-head .catalog-src-toggle:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+
+/* Each citation takes a full line. */
+.srcrow-item { display: block; width: 100%; }
 
 /* Each citation takes a full line of its own. Direct children only, so a
    nested <a> inside a wrapper span is unaffected — see caveat 2 above. */

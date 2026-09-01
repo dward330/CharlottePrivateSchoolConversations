@@ -23,6 +23,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import type { Course, Division } from '../data/courseOfferings.ts'
 import { useTranslation } from 'react-i18next'
+import { SourceRowRaw } from './SourceRow.tsx'
 
 /** AP, Post-AP, and IB read as the advanced track and take the filled tag. */
 function isAdvancedTag(tag: string): boolean {
@@ -90,7 +91,6 @@ export function CourseOfferingsBody({ division }: { division: Division }) {
   const { t } = useTranslation()
   const [active, setActive] = useState(ALL_TAB)
   const [query, setQuery] = useState('')
-  const [hideSources, setHideSources] = useState(false)
   const listRef = useRef<HTMLDivElement>(null)
   const rootRef = useRef<HTMLDivElement>(null)
 
@@ -112,7 +112,6 @@ export function CourseOfferingsBody({ division }: { division: Division }) {
       if (!details.open) {
         setActive(ALL_TAB)
         setQuery('')
-        setHideSources(false)
       }
     }
     details.addEventListener('toggle', onToggle)
@@ -279,30 +278,27 @@ export function CourseOfferingsBody({ division }: { division: Division }) {
         )}
       </div>
 
-      {/* Sources footer with a hide-sources toggle, matching Club Catalog. */}
+      {/* The toggle now lives inside SourceRowRaw, which every area shares.
+          This row keeps its OWN locale keys (`courses.*`) rather than the
+          shared `cardLabels.*` pair — they are already translated in all ten
+          catalogs, and swapping them would be a re-translation, not a
+          refactor. */}
       <div className="courses-foot">
-        <button
-          type="button"
-          className="catalog-src-toggle"
-          aria-pressed={hideSources}
-          onClick={() => setHideSources((v) => !v)}
+        <SourceRowRaw
+          className="courses-src"
+          showKey="courses.showSources"
+          hideKey="courses.hideSources"
         >
-          {t(hideSources ? 'courses.showSources' : 'courses.hideSources')}
-        </button>
-        {!hideSources && (
-          <div className="courses-src srcrow">
-            <span className="tag-outline">{t('cardLabels.source')}</span>
-            <span className="courses-src-text text-muted">
-              {division.sourceUrl ? (
-                <a href={division.sourceUrl} target="_blank" rel="noopener noreferrer">
-                  {division.source}
-                </a>
-              ) : (
-                division.source
-              )}
-            </span>
-          </div>
-        )}
+          <span className="courses-src-text text-muted">
+            {division.sourceUrl ? (
+              <a href={division.sourceUrl} target="_blank" rel="noopener noreferrer">
+                {division.source}
+              </a>
+            ) : (
+              division.source
+            )}
+          </span>
+        </SourceRowRaw>
       </div>
     </div>
   )

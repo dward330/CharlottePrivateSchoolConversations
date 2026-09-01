@@ -14,13 +14,13 @@
 import { useEffect, useRef, useState } from 'react'
 import type { ClubCatalog } from '../data/clubCatalog.ts'
 import { useTranslation } from 'react-i18next'
+import { SourceRowRaw } from './SourceRow.tsx'
 
 const ALL = 'all'
 
 export function ClubCatalogBody({ catalog }: { catalog: ClubCatalog }) {
   const { t } = useTranslation()
   const [filter, setFilter] = useState<string>(ALL)
-  const [hideSources, setHideSources] = useState(false)
   const rootRef = useRef<HTMLDivElement>(null)
 
   // The card is an uncontrolled <details> owned by SchoolDetail; there is no
@@ -33,7 +33,6 @@ export function ClubCatalogBody({ catalog }: { catalog: ClubCatalog }) {
     const onToggle = () => {
       if (!details.open) {
         setFilter(ALL)
-        setHideSources(false)
       }
     }
     details.addEventListener('toggle', onToggle)
@@ -113,22 +112,11 @@ export function ClubCatalogBody({ catalog }: { catalog: ClubCatalog }) {
         ))}
       </div>
 
-      {/* Sources footer with a hide-sources toggle. */}
+      {/* The toggle now lives inside SourceRowRaw, which every area shares. */}
       <div className="catalog-foot">
-        <button
-          type="button"
-          className="catalog-src-toggle"
-          aria-pressed={hideSources}
-          onClick={() => setHideSources((v) => !v)}
-        >
-          {hideSources ? t('cardLabels.showSources') : t('cardLabels.hideSources')}
-        </button>
-        {!hideSources && (
-          <div className="catalog-src srcrow">
-            <span className="tag-outline">{t('cardLabels.sources')}</span>
-            <span className="catalog-src-text text-muted">{catalog.source}</span>
-          </div>
-        )}
+        <SourceRowRaw className="catalog-src">
+          <span className="catalog-src-text text-muted">{catalog.source}</span>
+        </SourceRowRaw>
       </div>
     </div>
   )

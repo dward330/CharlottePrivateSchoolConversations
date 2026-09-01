@@ -17,13 +17,12 @@
 // — an empty placeholder frame is never shipped.
 
 import { useTranslation } from 'react-i18next'
+import { SourceRow } from './SourceRow.tsx'
 import { localizeMoneyText } from '../lib/format.ts'
-import { sourceLabel } from '../lib/labels.ts'
 import { assetUrl } from '../lib/asset.ts'
 import type {
   ArtsLadder,
   ArtsPhoto,
-  ArtsSource,
   ArtsStat,
   Music,
   Theatre,
@@ -33,27 +32,6 @@ import type {
 
 /* ------------------------------------------------------------ primitives -- */
 
-/** The SOURCE row every card ends with. Citations with a URL become links. */
-function SourceRow({ sources }: { sources: ArtsSource[] }) {
-  const { t } = useTranslation()
-  if (sources.length === 0) return null
-  return (
-    <div className="arts-src srcrow">
-      <span className="tag-outline">{t('cardLabels.source')}</span>
-      {sources.map((s) =>
-        s.url ? (
-          <a key={s.label} href={s.url} target="_blank" rel="noreferrer noopener">
-            {s.label} ↗
-          </a>
-        ) : (
-          <span key={s.label} className="text-muted">
-            {sourceLabel(t, s.label)}
-          </span>
-        ),
-      )}
-    </div>
-  )
-}
 
 /** The lead paragraph: bold headline plus muted continuation. */
 function Lead({ headline, subhead }: { headline: string; subhead?: string }) {
@@ -148,7 +126,7 @@ export function ArtsLadderBody({ data }: { data: ArtsLadder }) {
         </div>
       </div>
 
-      <SourceRow sources={data.sources} />
+      <SourceRow sources={data.sources} className="arts-src" />
     </div>
   )
 }
@@ -212,7 +190,7 @@ export function TheatreBody({ data }: { data: Theatre }) {
         </p>
       )}
 
-      <SourceRow sources={data.sources} />
+      <SourceRow sources={data.sources} className="arts-src" />
     </div>
   )
 }
@@ -282,7 +260,7 @@ export function MusicBody({ data }: { data: Music }) {
         </div>
       </div>
 
-      <SourceRow sources={data.sources} />
+      <SourceRow sources={data.sources} className="arts-src" />
     </div>
   )
 }
@@ -345,7 +323,7 @@ export function VisualArtsBody({ data }: { data: VisualArts }) {
 
       {data.footnote && <p className="arts-note text-muted">{data.footnote}</p>}
 
-      <SourceRow sources={data.sources} />
+      <SourceRow sources={data.sources} className="arts-src" />
     </div>
   )
 }
@@ -391,7 +369,7 @@ export function VerdictBody({ data }: { data: Verdict }) {
         </div>
       </div>
 
-      <SourceRow sources={data.sources} />
+      <SourceRow sources={data.sources} className="arts-src" />
     </div>
   )
 }

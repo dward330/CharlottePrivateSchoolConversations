@@ -24,7 +24,6 @@ import type {
   CsFlag,
   CsFlagKind,
   CsRow,
-  CsSource,
   CsStat,
   Edge,
   NcAdmissions,
@@ -36,31 +35,10 @@ import type {
 import { COLLEGE_FILTERS } from '../data/collegeSupport.ts'
 import { rankLabelFor } from '../data/collegeRankings.ts'
 import { useTranslation } from 'react-i18next'
-import { sourceLabel } from '../lib/labels.ts'
+import { SourceRow } from './SourceRow.tsx'
 
 /* ------------------------------------------------------------ primitives -- */
 
-/** The SOURCE row every card ends with. Citations with a URL become links. */
-function SourceRow({ sources }: { sources: CsSource[] }) {
-  const { t: tr } = useTranslation()
-  if (sources.length === 0) return null
-  return (
-    <div className="cs-src srcrow">
-      <span className="tag-outline">{tr('cardLabels.source')}</span>
-      {sources.map((s) =>
-        s.url ? (
-          <a key={s.label} href={s.url} target="_blank" rel="noreferrer noopener">
-            {s.label} ↗
-          </a>
-        ) : (
-          <span key={s.label} className="text-muted">
-            {sourceLabel(tr, s.label)}
-          </span>
-        ),
-      )}
-    </div>
-  )
-}
 
 /**
  * Locale key for the default chip wording per flag kind; `label` overrides it
@@ -304,7 +282,7 @@ export function NcAdmissionsBody({ data }: { data: NcAdmissions }) {
       {data.methodNote && <Note text={data.methodNote} />}
 
       <Flags flags={data.flags} />
-      <SourceRow sources={data.sources} />
+      <SourceRow sources={data.sources} className="cs-src" />
     </div>
   )
 }
@@ -388,7 +366,7 @@ export function TranscriptBody({ data }: { data: Transcript }) {
       )}
 
       <Flags flags={data.flags} />
-      <SourceRow sources={data.sources} />
+      <SourceRow sources={data.sources} className="cs-src" />
     </div>
   )
 }
@@ -491,7 +469,7 @@ export function CounselingBody({ data }: { data: Counseling }) {
       </div>
 
       <Flags flags={data.flags} />
-      <SourceRow sources={data.sources} />
+      <SourceRow sources={data.sources} className="cs-src" />
     </div>
   )
 }
@@ -656,7 +634,7 @@ export function OutcomesBody({ data }: { data: Outcomes }) {
       )}
 
       <Flags flags={data.flags} />
-      <SourceRow sources={data.sources} />
+      <SourceRow sources={data.sources} className="cs-src" />
     </div>
   )
 }
@@ -691,7 +669,7 @@ export function EdgeBody({ data }: { data: Edge }) {
       </div>
 
       <Flags flags={data.flags} />
-      <SourceRow sources={data.sources} />
+      <SourceRow sources={data.sources} className="cs-src" />
     </div>
   )
 }
@@ -804,7 +782,7 @@ export function WholeClassBody({ data }: { data: WholeClass }) {
       </div>
 
       <Flags flags={data.flags} />
-      <SourceRow sources={data.sources} />
+      <SourceRow sources={data.sources} className="cs-src" />
     </div>
   )
 }
@@ -855,7 +833,7 @@ export function VerdictBody({ data }: { data: Verdict }) {
       </div>
 
       <Flags flags={data.flags} />
-      <SourceRow sources={data.sources} />
+      <SourceRow sources={data.sources} className="cs-src" />
     </div>
   )
 }
