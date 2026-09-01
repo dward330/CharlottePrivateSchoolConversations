@@ -434,7 +434,7 @@ export const covenantDay: AdmissionsProgram = {
         watchOuts: [],
         checklistCallout: {
           lead: 'This is the band with a student interview — and Grade 6 has one extra step.',
-          text: 'Every applicant from Grade 6 up shadows a student for a morning and meets an admissions staff member; Grade 6 also takes a math and English assessment during that visit. Four recommendation forms are required, more than at any younger grade, and all Middle and High School testing must be submitted by February 26 — not merely taken by then. Grade 12 entry is not published as an entry point.',
+          text: 'Every applicant from Grade 6 up shadows a student for a morning and meets an admissions staff member; Grade 6 also takes a math and English assessment during that visit. Four recommendation forms are required, more than at any younger grade, and all Middle and High School testing must be submitted by February 26 — not merely taken by then.',
         },
         checklistRows: [
           {
