@@ -102,8 +102,17 @@ export type AdBand = {
   key: string
   /** Selector label, e.g. "TK / Kindergarten". */
   label: string
-  /** One-line sublabel naming what distinguishes the band. */
-  sublabel: string
+  /**
+   * One-line sublabel naming what distinguishes the band, rendered under the
+   * label inside the selector button.
+   *
+   * OPTIONAL, and a school may deliberately omit it: Charlotte Latin ships
+   * none, on the reasoning that the button should carry the grades and nothing
+   * else, with what changes between bands stated in the steps below (user's
+   * call, 2026-08-31). A band without one renders the label alone rather than
+   * an empty span.
+   */
+  sublabel?: string
   /** Full title for the checklist page header. */
   title: string
   /** The 4-tile deadline strip. */

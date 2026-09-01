@@ -75,6 +75,16 @@
 // assessment is published for GRADE 12, and the Upper School band says so
 // rather than papering over the gap.
 //
+// NO BAND SUBLABELS, BY DECISION (user's call, 2026-08-31). The other three
+// schools give each selector button a one-line sublabel naming what
+// distinguishes the band ("WPPSI-IV · earliest deadline"). Latin ships none:
+// the button carries the grades and nothing else, and what changes between
+// bands — the assessment, who schedules the Visit Day, whether there is an
+// interview — is stated in `spineNote`, in each band's steps and in the
+// cross-band table, which is where a parent reads it in full rather than in a
+// truncated chip. `sublabel` is optional on the shared type for exactly this
+// reason; do not backfill these as missing.
+//
 // NOTE FOR EDITORS: `rules[].text` is rendered RAW — `<strong>{title}</strong>
 // {text}` in AdmissionsProgram.tsx — so it is the one prose field on this card
 // with NO markdown support. A `**bold**` span here ships as literal asterisks.
@@ -165,7 +175,6 @@ export const charlotteLatin: AdmissionsProgram = {
       {
         key: 'tkk',
         label: 'TK / Kindergarten',
-        sublabel: 'WPPSI · the office schedules your Visit Day',
         title: 'Transitional Kindergarten & Kindergarten',
         // Three tiles: this band publishes no all-file-material deadline. See
         // the header — the strip is auto-fit and a 3-tile row is a first-class
@@ -273,8 +282,7 @@ export const charlotteLatin: AdmissionsProgram = {
       },
       {
         key: 'ls',
-        label: 'Lower School · Grades 1–5',
-        sublabel: 'WPPSI → WISC-V → ISEE by grade',
+        label: 'Lower School · Grades 1–5',
         title: 'Lower School — Grades 1–5',
         // TWO tiles, and deliberately not three. Like TK/K this band publishes
         // no all-file-material deadline, and unlike TK/K it has no dated event
@@ -371,8 +379,7 @@ export const charlotteLatin: AdmissionsProgram = {
       },
       {
         key: 'ms',
-        label: 'Middle School · Grades 6–8',
-        sublabel: 'ISEE · interview at the Visit Day',
+        label: 'Middle School · Grades 6–8',
         title: 'Middle School — Grades 6–8',
         deadlines: [
           { value: 'Jan 15, 2027', label: 'application due' },
@@ -477,8 +484,7 @@ export const charlotteLatin: AdmissionsProgram = {
       },
       {
         key: 'us',
-        label: 'Upper School · Grades 9–12',
-        sublabel: 'ISEE · interview + Student Ambassador',
+        label: 'Upper School · Grades 9–12',
         title: 'Upper School — Grades 9–12',
         deadlines: [
           { value: 'Jan 15, 2027', label: 'application due' },

@@ -271,7 +271,7 @@ export function AdmissionsGuideBody({ data, slug }: { data: AdmissionsGuide; slu
                   onClick={() => setBandKey(b.key)}
                 >
                   {b.label}
-                  <span className="bandsub">{b.sublabel}</span>
+                  {b.sublabel && <span className="bandsub">{b.sublabel}</span>}
                 </button>
               ))}
             </div>
