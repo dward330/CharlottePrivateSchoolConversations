@@ -1,11 +1,11 @@
 ---
 name: latinadmissions
 title: Add the Admissions research area for Charlotte Latin School
-status: english-done
+status: implemented
 phases: 2
 created: 2026-08-31
 branch: feat/latin-admissions
-prs: []
+prs: [262]
 ---
 
 # Add the Admissions research area for Charlotte Latin School
@@ -491,3 +491,40 @@ Traps specific to this card:
   roster in the topic. If the grid reads poorly at `--ad-n: 9`, consider leading with the
   assigned-counselor line in the kicker so the list reads as a team rather than nine dead
   ends.
+
+## Implementation notes
+
+Shipped in **PR #262**, both phases in one PR as planned.
+
+**One addition the plan did not anticipate.** Phase 2 had to register
+`comparison.rows[].cells.ls`, `.ms` and `.us` in `PATH_OVERRIDES`
+(`scripts/i18n_fields.mjs`). The plan's Files-touched table did not list that
+file, because the plan reasoned about the *band keys* (`tkk`/`ls`/`ms`/`us`) as
+a rendering concern and did not connect them to the extractor's exact-match
+path matcher. Charlotte Latin is the first school to name its bands after the
+**divisions** rather than the grade numbers, so `ls`/`ms`/`us` were new keys;
+`tkk` and `all` were already registered from Providence Day.
+
+This mattered: an unregistered cell key is **excluded from extraction rather
+than flagged at render**, so 12 comparison cells would have shipped English to
+all nine locales with `check:runtime` still reporting 100%. Charlotte Christian
+hit the identical trap with `g1`/`g24` in PR #254 — which means this is now the
+*second* occurrence, and a future admissions school should treat "does this
+school introduce a new band key?" as a required Phase 2 step rather than a
+discovery.
+
+**Work files were spliced, not re-extracted.** The extractor has no carry-over
+branch and blanks every `t`, so the 136 new units were merged into the nine
+committed work files by `of` stamp, preserving all 436 existing translations
+byte-identically. Zero orphans; 572 units per locale, none untranslated.
+
+**One leak fixed after the data read clean.** `guide.checklist.portalNote`
+rendered `Portal:` in `es`, disagreeing with the `Portal de admisiones:`
+already shipped for Providence Day; aligned to precedent. The remaining
+`i18n:leaks` flag on this card — `fr` keeping `Admissions` in the contact panel
+— is a legitimate keep, since the French word is identical to English.
+
+**Open questions, as resolved.** All three defaults were taken: the TK/K Fly By
+Open House ships as a deadline tile, the "no decision date" finding appears
+both as the `{ all }` comparison row and in each band's checklist callout, and
+`contacts.people` lists all nine staff.
