@@ -14,6 +14,7 @@
       "of": "826ef611",
       "at": [
         "providence-day:guide.cycle",
+        "charlotte-latin:guide.cycle",
         "charlotte-christian:guide.cycle"
       ]
     },
@@ -29,6 +30,7 @@
       "of": "0115e4c6",
       "at": [
         "providence-day:guide.stats[1].label",
+        "charlotte-latin:guide.stats[2].label",
         "charlotte-christian:guide.stats[1].label",
         "charlotte-country-day:guide.stats[1].label"
       ]
@@ -82,7 +84,8 @@
       "t": "TK / किंडरगार्टन",
       "of": "d6a3513b",
       "at": [
-        "providence-day:guide.bands[0].label"
+        "providence-day:guide.bands[0].label",
+        "charlotte-latin:guide.bands[0].label"
       ]
     },
     {
@@ -96,7 +99,8 @@
       "t": "ट्रांज़िशनल किंडरगार्टन और किंडरगार्टन",
       "of": "75235da1",
       "at": [
-        "providence-day:guide.bands[0].title"
+        "providence-day:guide.bands[0].title",
+        "charlotte-latin:guide.bands[0].title"
       ]
     },
     {
@@ -153,6 +157,18 @@
         "providence-day:guide.bands[2].steps[0].tag",
         "providence-day:guide.bands[2].checklistRows[0].due",
         "providence-day:guide.bands[2].checklistRows[1].due",
+        "charlotte-latin:guide.bands[0].steps[0].tag",
+        "charlotte-latin:guide.bands[0].checklistRows[0].due",
+        "charlotte-latin:guide.bands[0].checklistRows[1].due",
+        "charlotte-latin:guide.bands[1].steps[0].tag",
+        "charlotte-latin:guide.bands[1].checklistRows[0].due",
+        "charlotte-latin:guide.bands[1].checklistRows[1].due",
+        "charlotte-latin:guide.bands[2].steps[0].tag",
+        "charlotte-latin:guide.bands[2].checklistRows[0].due",
+        "charlotte-latin:guide.bands[2].checklistRows[1].due",
+        "charlotte-latin:guide.bands[3].steps[0].tag",
+        "charlotte-latin:guide.bands[3].checklistRows[0].due",
+        "charlotte-latin:guide.bands[3].checklistRows[1].due",
         "charlotte-christian:guide.bands[0].steps[0].tag",
         "charlotte-christian:guide.bands[0].checklistRows[0].due",
         "charlotte-christian:guide.bands[1].steps[0].tag",
@@ -200,6 +216,7 @@
       "of": "a636a187",
       "at": [
         "providence-day:guide.bands[0].steps[1].tag",
+        "charlotte-latin:guide.bands[0].steps[2].tag",
         "charlotte-christian:guide.bands[0].steps[2].tag",
         "charlotte-country-day:guide.bands[0].steps[3].tag"
       ]
@@ -410,6 +427,8 @@
       "at": [
         "providence-day:guide.bands[0].checklistRows[2].due",
         "providence-day:guide.comparison.rows[0].cells.tkk",
+        "charlotte-latin:guide.bands[0].checklistRows[3].due",
+        "charlotte-latin:guide.comparison.rows[0].cells.tkk",
         "charlotte-christian:guide.bands[0].checklistRows[2].due",
         "charlotte-christian:guide.comparison.rows[0].cells.jkk",
         "charlotte-country-day:guide.bands[0].checklistRows[3].due",
@@ -511,6 +530,12 @@
         "providence-day:guide.bands[2].checklistRows[4].due",
         "providence-day:guide.comparison.rows[1].cells.g15",
         "providence-day:guide.comparison.rows[1].cells.g612",
+        "charlotte-latin:guide.bands[2].checklistRows[4].due",
+        "charlotte-latin:guide.bands[2].checklistRows[5].due",
+        "charlotte-latin:guide.bands[3].checklistRows[4].due",
+        "charlotte-latin:guide.bands[3].checklistRows[5].due",
+        "charlotte-latin:guide.comparison.rows[5].cells.ms",
+        "charlotte-latin:guide.comparison.rows[5].cells.us",
         "charlotte-christian:guide.bands[0].checklistRows[7].due",
         "charlotte-christian:guide.bands[1].checklistRows[3].due",
         "charlotte-christian:guide.bands[1].checklistRows[4].due",
@@ -609,6 +634,13 @@
       "at": [
         "providence-day:guide.bands[1].steps[1].tag",
         "providence-day:guide.bands[2].steps[1].tag",
+        "charlotte-latin:guide.bands[0].steps[5].tag",
+        "charlotte-latin:guide.bands[1].steps[1].tag",
+        "charlotte-latin:guide.bands[1].steps[4].tag",
+        "charlotte-latin:guide.bands[2].steps[1].tag",
+        "charlotte-latin:guide.bands[2].steps[5].tag",
+        "charlotte-latin:guide.bands[3].steps[1].tag",
+        "charlotte-latin:guide.bands[3].steps[5].tag",
         "charlotte-christian:guide.bands[0].steps[3].tag",
         "charlotte-christian:guide.bands[0].steps[4].tag",
         "charlotte-christian:guide.bands[1].steps[2].tag",
@@ -642,6 +674,10 @@
         "providence-day:guide.bands[1].steps[3].tag",
         "providence-day:guide.bands[2].steps[2].tag",
         "providence-day:guide.bands[2].steps[3].tag",
+        "charlotte-latin:guide.bands[2].steps[3].tag",
+        "charlotte-latin:guide.bands[2].steps[4].tag",
+        "charlotte-latin:guide.bands[3].steps[3].tag",
+        "charlotte-latin:guide.bands[3].steps[4].tag",
         "charlotte-christian:guide.bands[1].steps[3].tag",
         "charlotte-christian:guide.bands[1].steps[4].tag",
         "charlotte-christian:guide.bands[1].steps[5].tag",
@@ -757,6 +793,16 @@
         "providence-day:guide.bands[2].checklistRows[2].due",
         "providence-day:guide.comparison.rows[0].cells.g15",
         "providence-day:guide.comparison.rows[0].cells.g612",
+        "charlotte-latin:guide.bands[0].checklistRows[6].due",
+        "charlotte-latin:guide.bands[1].checklistRows[2].due",
+        "charlotte-latin:guide.bands[1].checklistRows[5].due",
+        "charlotte-latin:guide.bands[2].checklistRows[2].due",
+        "charlotte-latin:guide.bands[2].checklistRows[6].due",
+        "charlotte-latin:guide.bands[3].checklistRows[2].due",
+        "charlotte-latin:guide.bands[3].checklistRows[6].due",
+        "charlotte-latin:guide.comparison.rows[0].cells.ls",
+        "charlotte-latin:guide.comparison.rows[0].cells.ms",
+        "charlotte-latin:guide.comparison.rows[0].cells.us",
         "charlotte-christian:guide.bands[0].checklistRows[3].due",
         "charlotte-christian:guide.bands[0].checklistRows[4].due",
         "charlotte-christian:guide.bands[1].checklistRows[2].due",
@@ -929,6 +975,7 @@
       "of": "e8835419",
       "at": [
         "providence-day:guide.bands[2].checklistRows[3].action",
+        "charlotte-latin:guide.bands[2].checklistRows[4].action",
         "charlotte-christian:guide.bands[3].checklistRows[7].action",
         "charlotte-country-day:guide.bands[2].checklistRows[4].action"
       ]
@@ -959,6 +1006,7 @@
       "of": "15045be1",
       "at": [
         "providence-day:guide.aid.title",
+        "charlotte-latin:guide.aid.title",
         "charlotte-christian:guide.aid.title",
         "charlotte-country-day:guide.aid.title"
       ]
@@ -975,6 +1023,7 @@
       "of": "801e19b8",
       "at": [
         "providence-day:guide.aid.button",
+        "charlotte-latin:guide.aid.button",
         "charlotte-christian:guide.aid.button",
         "charlotte-country-day:guide.aid.button"
       ]
@@ -984,6 +1033,7 @@
       "of": "60faf9b9",
       "at": [
         "providence-day:guide.comparison.kicker",
+        "charlotte-latin:guide.comparison.kicker",
         "charlotte-christian:guide.comparison.kicker",
         "charlotte-country-day:guide.comparison.kicker"
       ]
@@ -993,6 +1043,7 @@
       "of": "2e98319a",
       "at": [
         "providence-day:guide.comparison.title",
+        "charlotte-latin:guide.comparison.title",
         "charlotte-christian:guide.comparison.title",
         "charlotte-country-day:guide.comparison.title"
       ]
@@ -1002,6 +1053,7 @@
       "of": "8751989b",
       "at": [
         "providence-day:guide.comparison.rows[0].label",
+        "charlotte-latin:guide.comparison.rows[0].label",
         "charlotte-christian:guide.comparison.rows[0].label",
         "charlotte-country-day:guide.comparison.rows[0].label"
       ]
@@ -1104,6 +1156,7 @@
       "of": "fa6ba530",
       "at": [
         "providence-day:guide.contacts.kicker",
+        "charlotte-latin:guide.contacts.kicker",
         "charlotte-christian:guide.contacts.kicker",
         "charlotte-country-day:guide.contacts.kicker"
       ]
@@ -1113,6 +1166,8 @@
       "of": "ba210c46",
       "at": [
         "providence-day:guide.contacts.title",
+        "charlotte-latin:guide.comparison.rows[1].cells.tkk",
+        "charlotte-latin:guide.contacts.title",
         "charlotte-christian:guide.contacts.title",
         "charlotte-country-day:guide.contacts.title"
       ]
@@ -1192,6 +1247,7 @@
       "of": "3e87e1fd",
       "at": [
         "providence-day:guide.checklist.aidPanel.kicker",
+        "charlotte-latin:guide.checklist.aidPanel.kicker",
         "charlotte-christian:guide.checklist.aidPanel.kicker",
         "charlotte-country-day:guide.checklist.aidPanel.kicker"
       ]
@@ -1215,6 +1271,7 @@
       "of": "79312c44",
       "at": [
         "providence-day:guide.checklist.contactPanel.kicker",
+        "charlotte-latin:guide.checklist.contactPanel.kicker",
         "charlotte-christian:guide.checklist.contactPanel.kicker",
         "charlotte-country-day:guide.checklist.contactPanel.kicker"
       ]
@@ -1245,6 +1302,1046 @@
       "of": "4437f3e8",
       "at": [
         "providence-day:guide.checklist.disclaimer"
+      ]
+    },
+    {
+      "t": "अपने बच्चे का प्रवेश स्तर चुनिए और यह गाइड उसी के अनुसार ढल जाएगी: क्रम से चरण, 2026–27 की समय-सीमाएँ और उस स्तर के लिए ज़रूरी टेस्ट — साथ में एक प्रिंट करने योग्य चेकलिस्ट जिसे आप अपने साथ ले जा सकते हैं। एक ही ढाँचे पर चार रास्ते, और उनके बीच जो बदलता है वह है टेस्ट, Visit Day कौन तय करता है, इंटरव्यू है या नहीं, और अंतिम तिथि।",
+      "of": "ba66a2dc",
+      "at": [
+        "charlotte-latin:guide.headline"
+      ]
+    },
+    {
+      "t": "प्रवेश स्तर — TK/K, कक्षा 1–5, 6–8 और 9–12",
+      "of": "70c840a2",
+      "at": [
+        "charlotte-latin:guide.stats[0].label"
+      ]
+    },
+    {
+      "t": "TK/Kindergarten आवेदन की अंतिम तिथि — बाकी हर कक्षा से 13 दिन पहले",
+      "of": "af3286a6",
+      "at": [
+        "charlotte-latin:guide.stats[1].label"
+      ]
+    },
+    {
+      "t": "वापस न होने वाली प्रवेश जमा राशि",
+      "of": "5b3b8389",
+      "at": [
+        "charlotte-latin:guide.stats[3].label"
+      ]
+    },
+    {
+      "t": "एक ही पोर्टल, शुरू से आख़िर तक।",
+      "of": "ec3b31ed",
+      "at": [
+        "charlotte-latin:guide.rules[0].title"
+      ]
+    },
+    {
+      "t": "सब कुछ charlottelatin.fsenrollment.com पर Finalsite Enrollment से ही चलता है: पूछताछ भेजिए, अपने परिवार की प्रोफ़ाइल बनाइए, और फिर उसी खाते से वैकल्पिक प्रवेश कार्यक्रमों के लिए RSVP कीजिए, दस्तावेज़ जमा कीजिए, फ़ॉर्म ढूँढ़िए और समय-सीमाएँ पूरी कीजिए।",
+      "of": "833270ae",
+      "at": [
+        "charlotte-latin:guide.rules[0].text"
+      ]
+    },
+    {
+      "t": "नीचे दी गई हर तारीख़ 2026–27 चक्र की है।",
+      "of": "1b36e18c",
+      "at": [
+        "charlotte-latin:guide.rules[1].title"
+      ]
+    },
+    {
+      "t": "चक्र की तारीखें हर साल बदलती हैं, और पिछले किसी सत्र में इन पन्नों पर अलग तारीखें थीं। इनमें से किसी पर भी कदम उठाने से पहले लाइव प्रवेश पन्नों से मिला लीजिए।",
+      "of": "8a447828",
+      "at": [
+        "charlotte-latin:guide.rules[1].text"
+      ]
+    },
+    {
+      "t": "हर स्तर पर ढाँचा एक ही है — पोर्टल से ऑनलाइन आवेदन → एक Visit Day में उपस्थिति → एक मानक टेस्ट → समय-सीमाओं का पालन। स्तरों के बीच जो बदलता है वह है आपका बच्चा कौन-सा टेस्ट देगा, Visit Day प्रवेश कार्यालय तय करता है या आप, उस दिन इंटरव्यू होता है या नहीं, और आप किस अंतिम तिथि की ओर काम कर रहे हैं।",
+      "of": "96eb5424",
+      "at": [
+        "charlotte-latin:guide.spineNote"
+      ]
+    },
+    {
+      "t": "आवेदन की अंतिम तिथि",
+      "of": "0c1429fb",
+      "at": [
+        "charlotte-latin:guide.bands[0].deadlines[0].label",
+        "charlotte-latin:guide.bands[1].deadlines[0].label",
+        "charlotte-latin:guide.bands[2].deadlines[0].label",
+        "charlotte-latin:guide.bands[3].deadlines[0].label"
+      ]
+    },
+    {
+      "t": "TK/K Fly By Open House — 9:30–11:00 a.m.",
+      "of": "565729e5",
+      "at": [
+        "charlotte-latin:guide.bands[0].deadlines[1].label"
+      ]
+    },
+    {
+      "t": "वित्तीय सहायता आवेदन की अंतिम तिथि",
+      "of": "d2c4abce",
+      "at": [
+        "charlotte-latin:guide.bands[0].deadlines[2].label",
+        "charlotte-latin:guide.bands[1].deadlines[1].label",
+        "charlotte-latin:guide.bands[2].deadlines[3].label",
+        "charlotte-latin:guide.bands[3].deadlines[3].label"
+      ]
+    },
+    {
+      "t": "पूछताछ भेजिए, फिर अपने परिवार की प्रोफ़ाइल बनाइए",
+      "of": "d795a612",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[0].title",
+        "charlotte-latin:guide.bands[1].steps[0].title",
+        "charlotte-latin:guide.bands[2].steps[0].title",
+        "charlotte-latin:guide.bands[3].steps[0].title"
+      ]
+    },
+    {
+      "t": "अनिवार्य पहला चरण: परिवार «पहले पूछताछ भेजते हैं और फिर अपने परिवार के लिए एक प्रोफ़ाइल बनाते हैं»। इसके बाद वही खाता आपको वैकल्पिक प्रवेश कार्यक्रमों के लिए RSVP करने, दस्तावेज़ जमा करने, फ़ॉर्म ढूँढ़ने और समय-सीमाएँ पूरी करने को कहता है — इस सूची में इसके आगे का सब कुछ उसी से होकर गुज़रता है।",
+      "of": "a2a5e056",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[0].detail"
+      ]
+    },
+    {
+      "t": "वैकल्पिक प्रवेश कार्यक्रमों के लिए RSVP कीजिए",
+      "of": "18bbf90b",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[1].title"
+      ]
+    },
+    {
+      "t": "10 अक्टूबर 2026",
+      "of": "805b5a7c",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[1].tag",
+        "charlotte-latin:guide.bands[0].checklistRows[2].due"
+      ]
+    },
+    {
+      "t": "वैकल्पिक, अनिवार्य नहीं। इस स्तर के लिए प्रकाशित एकमात्र तारीख़ वाला कार्यक्रम है **10 अक्टूबर 2026, सुबह 9:30–11:00 का TK/K Fly By Open House**। कैंपस भ्रमण सितंबर में शुरू होकर पूरे शैक्षणिक वर्ष चलते हैं, और ओपन हाउस, भ्रमण तथा वर्चुअल सत्र — सब आपके पोर्टल खाते से ही बुक होते हैं।",
+      "of": "6adf47ab",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[1].detail"
+      ]
+    },
+    {
+      "t": "आवेदन पूरा कीजिए",
+      "of": "3ba6d9af",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[2].title",
+        "charlotte-latin:guide.bands[1].steps[1].title",
+        "charlotte-latin:guide.bands[2].steps[1].title",
+        "charlotte-latin:guide.bands[3].steps[1].title"
+      ]
+    },
+    {
+      "t": "अनिवार्य, और अंतिम तिथि **2 जनवरी 2027** — स्कूल की बाकी हर कक्षा से तेरह दिन पहले, यानी यह स्तर जनवरी के मध्य के बजाय पहले सप्ताह में पड़ने वाली अंतिम तिथि पर काम करता है। Transitional Kindergarten या Kindergarten के लिए **कोई आयु या जन्मतिथि सीमा प्रकाशित नहीं है**: स्कूल TK का वर्णन गुणात्मक ढंग से करता है, «ऐसे बच्चों के लिए बनाया गया जो अभी-अभी पाँच के हुए हैं और Kindergarten के लिए तैयार हैं», और कोई तारीख़ नहीं बताता। अपने बच्चे की स्थिति प्रवेश कार्यालय से पूछिए।",
+      "of": "b8de7ab6",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[2].detail"
+      ]
+    },
+    {
+      "t": "एक Visit Day में शामिल होइए — कार्यालय ही उसे तय करता है",
+      "of": "7af3b393",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[3].title"
+      ]
+    },
+    {
+      "t": "आपके लिए तय किया जाता है",
+      "of": "43a2ae4c",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[3].tag",
+        "charlotte-christian:guide.bands[0].steps[6].tag",
+        "charlotte-christian:guide.bands[1].steps[6].tag"
+      ]
+    },
+    {
+      "t": "अनिवार्य, और **यही एकमात्र स्तर है जहाँ आप ख़ुद उसे बुक नहीं करते**: «Visit Day में शामिल होइए (हमारा कार्यालय समय तय करेगा)।» बाकी हर कक्षा अपना ख़ुद तय करती है। उस दिन «आपका बच्चा कुछ घंटे Latin की एक कक्षा का आनंद अनुभव करेगा, जबकि आप मौजूदा अभिभावकों से मिलेंगे और Upper School के विद्यार्थियों के एक पैनल को सुनेंगे»।",
+      "of": "8b39d3c4",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[3].detail"
+      ]
+    },
+    {
+      "t": "WPPSI टेस्ट पूरा कीजिए",
+      "of": "9c97b742",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[4].title"
+      ]
+    },
+    {
+      "t": "अनिवार्य",
+      "of": "848c8620",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[4].tag",
+        "charlotte-latin:guide.bands[1].steps[3].tag"
+      ]
+    },
+    {
+      "t": "अनिवार्य। इस स्तर के आवेदक **WPPSI** देते हैं, जिसे Charlotte Area Independent Schools कंसोर्टियम का एक मनोवैज्ञानिक कराता है, और टेस्ट «पहले से तय कराना पड़ता है»। आप सीधे मनोवैज्ञानिक से संपर्क करते हैं और अंक Charlotte Latin को भेजने को कहते हैं — स्कूल यह अपॉइंटमेंट तय नहीं करता।",
+      "of": "3b709f36",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[4].detail"
+      ]
+    },
+    {
+      "t": "ज़रूरत हो तो वित्तीय सहायता के लिए आवेदन कीजिए",
+      "of": "47baf108",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[5].title",
+        "charlotte-latin:guide.bands[1].steps[4].title",
+        "charlotte-latin:guide.bands[2].steps[5].title",
+        "charlotte-latin:guide.bands[3].steps[5].title"
+      ]
+    },
+    {
+      "t": "वैकल्पिक, और इसका अपना अलग कैलेंडर है: आवेदन **Clarity** से **15 सितंबर 2026** को खुलता है और प्राथमिकता दौर में विचार के लिए **15 जनवरी 2027** तक देना होता है — इस स्तर की अपनी आवेदन तिथि के दो सप्ताह बाद। एक ही आवेदन परिवार के सभी बच्चों को कवर करता है।",
+      "of": "42434751",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[5].detail"
+      ]
+    },
+    {
+      "t": "आपके आवेदन की अंतिम तिथि 2 जनवरी 2027 है।",
+      "of": "c16225b0",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistCallout.lead"
+      ]
+    },
+    {
+      "t": "Transitional Kindergarten और Kindergarten बाकी हर कक्षा से तेरह दिन पहले आवेदन करते हैं, और इस स्तर का Visit Day परिवार नहीं, प्रवेश कार्यालय तय करता है। इस स्तर के लिए सभी दस्तावेज़ों की कोई अंतिम तिथि प्रकाशित नहीं है, इसलिए क्या बाक़ी है इसकी प्रामाणिक सूची अपने पोर्टल की चेकलिस्ट को ही मानिए। किसी भी स्तर के लिए न निर्णय की तारीख़ प्रकाशित है न प्रवेश अनुबंध की — दोनों प्रवेश कार्यालय से पुष्ट कर लीजिए।",
+      "of": "1d039340",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistCallout.text"
+      ]
+    },
+    {
+      "t": "ऑनलाइन पूछताछ फ़ॉर्म भेजिए",
+      "of": "523d1d7a",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[0].action",
+        "charlotte-latin:guide.bands[1].checklistRows[0].action",
+        "charlotte-latin:guide.bands[2].checklistRows[0].action",
+        "charlotte-latin:guide.bands[3].checklistRows[0].action"
+      ]
+    },
+    {
+      "t": "अनिवार्य पहला चरण; इसी से आप पोर्टल में अपने परिवार की प्रोफ़ाइल बना पाते हैं।",
+      "of": "34f5fe8a",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[0].detail",
+        "charlotte-latin:guide.bands[1].checklistRows[0].detail",
+        "charlotte-latin:guide.bands[2].checklistRows[0].detail",
+        "charlotte-latin:guide.bands[3].checklistRows[0].detail"
+      ]
+    },
+    {
+      "t": "पोर्टल में अपने परिवार की प्रोफ़ाइल बनाइए",
+      "of": "dd905b57",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[1].action",
+        "charlotte-latin:guide.bands[1].checklistRows[1].action",
+        "charlotte-latin:guide.bands[2].checklistRows[1].action",
+        "charlotte-latin:guide.bands[3].checklistRows[1].action"
+      ]
+    },
+    {
+      "t": "Finalsite Enrollment — यहीं आप RSVP करते हैं, दस्तावेज़ देते हैं और समय-सीमाएँ देखते हैं।",
+      "of": "743b3f8e",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[1].detail",
+        "charlotte-latin:guide.bands[1].checklistRows[1].detail",
+        "charlotte-latin:guide.bands[2].checklistRows[1].detail",
+        "charlotte-latin:guide.bands[3].checklistRows[1].detail"
+      ]
+    },
+    {
+      "t": "TK/K Fly By Open House के लिए RSVP कीजिए",
+      "of": "9280874d",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[2].action"
+      ]
+    },
+    {
+      "t": "वैकल्पिक। 10 अक्टूबर 2026, सुबह 9:30–11:00। कैंपस भ्रमण सितंबर से चलते हैं।",
+      "of": "a42e83e7",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[2].detail"
+      ]
+    },
+    {
+      "t": "आवेदन जमा कीजिए",
+      "of": "9aae6324",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[3].action",
+        "charlotte-latin:guide.bands[1].checklistRows[2].action",
+        "charlotte-latin:guide.bands[2].checklistRows[2].action",
+        "charlotte-latin:guide.bands[3].checklistRows[2].action"
+      ]
+    },
+    {
+      "t": "कक्षा 1–12 की अंतिम तिथि से तेरह दिन पहले। कोई आयु सीमा प्रकाशित नहीं है।",
+      "of": "614a3486",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[3].detail"
+      ]
+    },
+    {
+      "t": "कार्यालय आपके लिए जो Visit Day तय करे, उसमें शामिल होइए",
+      "of": "b443342a",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[4].action"
+      ]
+    },
+    {
+      "t": "Latin की एक कक्षा में कुछ घंटे; अभिभावक मौजूदा अभिभावकों और एक विद्यार्थी पैनल से मिलते हैं।",
+      "of": "4d1ad8cc",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[4].detail"
+      ]
+    },
+    {
+      "t": "आपके लिए तय किया जाता है",
+      "of": "8456386c",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[4].due"
+      ]
+    },
+    {
+      "t": "WPPSI टेस्ट का समय तय करके उसे पूरा कीजिए",
+      "of": "22d082a0",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[5].action"
+      ]
+    },
+    {
+      "t": "CAIS के मनोवैज्ञानिक से पहले से तय कराना होता है; अंक Latin को भेजने को कहिए।",
+      "of": "4f9cd594",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[5].detail"
+      ]
+    },
+    {
+      "t": "अपनी अंतिम तिथि से पहले",
+      "of": "de184993",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[5].due",
+        "charlotte-latin:guide.bands[1].checklistRows[3].due",
+        "charlotte-latin:guide.bands[1].checklistRows[4].due"
+      ]
+    },
+    {
+      "t": "Clarity वित्तीय सहायता आवेदन भेजिए",
+      "of": "c01cea75",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[6].action",
+        "charlotte-latin:guide.bands[1].checklistRows[5].action",
+        "charlotte-latin:guide.bands[2].checklistRows[6].action",
+        "charlotte-latin:guide.bands[3].checklistRows[6].action"
+      ]
+    },
+    {
+      "t": "वैकल्पिक। 15 सितंबर 2026 को खुलता है; एक ही आवेदन कई बच्चों को कवर करता है।",
+      "of": "283a6c3c",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[6].detail",
+        "charlotte-latin:guide.bands[1].checklistRows[5].detail",
+        "charlotte-latin:guide.bands[2].checklistRows[6].detail",
+        "charlotte-latin:guide.bands[3].checklistRows[6].detail"
+      ]
+    },
+    {
+      "t": "निर्णय और अनुबंध की तारीख़ें प्रवेश कार्यालय से पुष्ट कीजिए",
+      "of": "397c18a8",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[7].action",
+        "charlotte-latin:guide.bands[1].checklistRows[6].action",
+        "charlotte-latin:guide.bands[2].checklistRows[7].action",
+        "charlotte-latin:guide.bands[3].checklistRows[7].action"
+      ]
+    },
+    {
+      "t": "किसी भी स्तर के लिए दोनों में से कोई प्रकाशित नहीं है। पूछिए कि कब उत्तर की अपेक्षा करें।",
+      "of": "c3c92423",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[7].detail",
+        "charlotte-latin:guide.bands[1].checklistRows[6].detail",
+        "charlotte-latin:guide.bands[2].checklistRows[7].detail",
+        "charlotte-latin:guide.bands[3].checklistRows[7].detail"
+      ]
+    },
+    {
+      "t": "पुष्टि करें",
+      "of": "a183c9ef",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[7].due",
+        "charlotte-latin:guide.bands[1].checklistRows[6].due",
+        "charlotte-latin:guide.bands[2].checklistRows[7].due",
+        "charlotte-latin:guide.bands[3].checklistRows[7].due"
+      ]
+    },
+    {
+      "t": "Lower School · कक्षा 1–5",
+      "of": "10dbffb6",
+      "at": [
+        "charlotte-latin:guide.bands[1].label"
+      ]
+    },
+    {
+      "t": "Lower School — कक्षा 1–5",
+      "of": "13828dad",
+      "at": [
+        "charlotte-latin:guide.bands[1].title"
+      ]
+    },
+    {
+      "t": "अनिवार्य पहला चरण: परिवार «पहले पूछताछ भेजते हैं और फिर अपने परिवार के लिए एक प्रोफ़ाइल बनाते हैं»। इसके बाद वही खाता आपको वैकल्पिक प्रवेश कार्यक्रमों के लिए RSVP करने, दस्तावेज़ जमा करने, फ़ॉर्म ढूँढ़ने और समय-सीमाएँ पूरी करने को कहता है।",
+      "of": "2f3ea626",
+      "at": [
+        "charlotte-latin:guide.bands[1].steps[0].detail",
+        "charlotte-latin:guide.bands[2].steps[0].detail",
+        "charlotte-latin:guide.bands[3].steps[0].detail"
+      ]
+    },
+    {
+      "t": "अनिवार्य, और अंतिम तिथि **15 जनवरी 2027** — वही तिथि जिस पर कक्षा 1 से 12 तक हर कक्षा काम करती है, Transitional Kindergarten और Kindergarten से तेरह दिन बाद।",
+      "of": "1994f5d5",
+      "at": [
+        "charlotte-latin:guide.bands[1].steps[1].detail"
+      ]
+    },
+    {
+      "t": "एक Visit Day तय कीजिए और उसमें शामिल होइए",
+      "of": "b79bc13d",
+      "at": [
+        "charlotte-latin:guide.bands[1].steps[2].title",
+        "charlotte-latin:guide.bands[1].checklistRows[3].action"
+      ]
+    },
+    {
+      "t": "आप बुक करते हैं",
+      "of": "38b9bc86",
+      "at": [
+        "charlotte-latin:guide.bands[1].steps[2].tag",
+        "charlotte-latin:guide.bands[2].steps[2].tag",
+        "charlotte-latin:guide.bands[3].steps[2].tag"
+      ]
+    },
+    {
+      "t": "अनिवार्य, और **इस स्तर से ऊपर परिवार ही उसे तय करता है**: «एक Visit Day तय कीजिए।» प्रवेश कार्यालय केवल TK और Kindergarten की विज़िट बुक करता है। आपका बच्चा Latin की एक कक्षा में समय बिताता है, जबकि आप स्कूल को जानते हैं।",
+      "of": "9533cc8c",
+      "at": [
+        "charlotte-latin:guide.bands[1].steps[2].detail"
+      ]
+    },
+    {
+      "t": "अपने बच्चे की कक्षा के लिए तय मानक टेस्ट पूरा कीजिए",
+      "of": "970a438f",
+      "at": [
+        "charlotte-latin:guide.bands[1].steps[3].title"
+      ]
+    },
+    {
+      "t": "अनिवार्य, और **इसी एक स्तर के भीतर टेस्ट दो बार बदलता है**: कक्षा 1 के आवेदक **WPPSI**, कक्षा 2–4 के **WISC-V** और कक्षा 5 के **ISEE** देते हैं। इसके साथ बुकिंग का रास्ता भी बदलता है। WPPSI और WISC-V Charlotte Area Independent Schools कंसोर्टियम का एक मनोवैज्ञानिक कराता है, जिससे आप सीधे संपर्क करते हैं; ISEE को **Educational Records Bureau** बनाता और कराता है, और कक्षा 5 के परिवार ERB से पंजीकरण कराते हैं। कुछ भी बुक करने से पहले देख लीजिए कि आपके बच्चे की प्रवेश कक्षा पर कौन-सा लागू होता है।",
+      "of": "c8fe6d82",
+      "at": [
+        "charlotte-latin:guide.bands[1].steps[3].detail"
+      ]
+    },
+    {
+      "t": "वैकल्पिक, और इसका अपना अलग कैलेंडर है: आवेदन **Clarity** से **15 सितंबर 2026** को खुलता है और प्राथमिकता दौर में विचार के लिए **15 जनवरी 2027** तक देना होता है — इस स्तर की आवेदन तिथि वाले ही दिन। एक ही आवेदन परिवार के सभी बच्चों को कवर करता है।",
+      "of": "46e1a067",
+      "at": [
+        "charlotte-latin:guide.bands[1].steps[4].detail"
+      ]
+    },
+    {
+      "t": "इसी एक स्तर के भीतर टेस्ट दो बार बदलता है।",
+      "of": "fe67f3cc",
+      "at": [
+        "charlotte-latin:guide.bands[1].checklistCallout.lead"
+      ]
+    },
+    {
+      "t": "कक्षा 1 WPPSI देती है, कक्षा 2–4 WISC-V और कक्षा 5 ISEE — और इसके साथ बुकिंग का रास्ता भी बदलता है, सीधे संपर्क किए जाने वाले CAIS मनोवैज्ञानिक से लेकर Educational Records Bureau में पंजीकरण तक। बुक करने से पहले पुष्ट कर लीजिए कि आपके बच्चे की प्रवेश कक्षा पर कौन-सा टेस्ट लागू होता है। इस स्तर के लिए सभी दस्तावेज़ों की कोई अंतिम तिथि प्रकाशित नहीं है, इसलिए क्या बाक़ी है इसकी प्रामाणिक सूची अपने पोर्टल की चेकलिस्ट को ही मानिए, और किसी भी स्तर के लिए न निर्णय की तारीख़ प्रकाशित है न प्रवेश अनुबंध की — दोनों प्रवेश कार्यालय से पुष्ट कर लीजिए।",
+      "of": "de9b42bc",
+      "at": [
+        "charlotte-latin:guide.bands[1].checklistCallout.text"
+      ]
+    },
+    {
+      "t": "कक्षा 1–12 की अंतिम तिथि, TK/K वाली से तेरह दिन बाद।",
+      "of": "2e0d0ce3",
+      "at": [
+        "charlotte-latin:guide.bands[1].checklistRows[2].detail"
+      ]
+    },
+    {
+      "t": "कक्षा 1 से ऊपर इसे परिवार बुक करता है, प्रवेश कार्यालय नहीं।",
+      "of": "1eff8cfa",
+      "at": [
+        "charlotte-latin:guide.bands[1].checklistRows[3].detail"
+      ]
+    },
+    {
+      "t": "अपनी प्रवेश कक्षा के टेस्ट का समय तय करके उसे पूरा कीजिए",
+      "of": "58f28450",
+      "at": [
+        "charlotte-latin:guide.bands[1].checklistRows[4].action"
+      ]
+    },
+    {
+      "t": "कक्षा 1 WPPSI · कक्षा 2–4 WISC-V (दोनों CAIS) · कक्षा 5 ISEE (ERB से)।",
+      "of": "cc9ee7d8",
+      "at": [
+        "charlotte-latin:guide.bands[1].checklistRows[4].detail"
+      ]
+    },
+    {
+      "t": "Middle School · कक्षा 6–8",
+      "of": "d3378ce2",
+      "at": [
+        "charlotte-latin:guide.bands[2].label"
+      ]
+    },
+    {
+      "t": "Middle School — कक्षा 6–8",
+      "of": "6850595d",
+      "at": [
+        "charlotte-latin:guide.bands[2].title"
+      ]
+    },
+    {
+      "t": "टेस्ट पूरे करके भेजे गए",
+      "of": "843e4f26",
+      "at": [
+        "charlotte-latin:guide.bands[2].deadlines[1].label",
+        "charlotte-latin:guide.bands[3].deadlines[1].label"
+      ]
+    },
+    {
+      "t": "सभी दस्तावेज़ों की अंतिम तिथि",
+      "of": "80c0f159",
+      "at": [
+        "charlotte-latin:guide.bands[2].deadlines[2].label",
+        "charlotte-latin:guide.bands[3].deadlines[2].label"
+      ]
+    },
+    {
+      "t": "अनिवार्य, और अंतिम तिथि **15 जनवरी 2027** — कक्षा 1 से 12 तक सबकी साझा तिथि। छठी उन वर्षों में से एक है जिनमें स्कूल «स्वाभाविक रूप से बढ़ता है», TK, Kindergarten और नवीं के साथ।",
+      "of": "85254822",
+      "at": [
+        "charlotte-latin:guide.bands[2].steps[1].detail"
+      ]
+    },
+    {
+      "t": "एक Visit Day तय कीजिए और उसमें शामिल होइए — इंटरव्यू सहित",
+      "of": "61a0f672",
+      "at": [
+        "charlotte-latin:guide.bands[2].steps[2].title"
+      ]
+    },
+    {
+      "t": "अनिवार्य, और परिवार ही उसे तय करता है। इस स्तर का Visit Day निचले स्तरों से कहीं ज़्यादा करता है: «आपका भावी Middle School विद्यार्थी **एक इंटरव्यू देगा, एक मूल्यांकन देगा, एक कक्षा देखेगा और Latin के विद्यार्थियों से मिलेगा**।» इसे भ्रमण नहीं, मूल्यांकन का दिन मानिए — इस स्तर के लिए इंटरव्यू और मौके पर मूल्यांकन, दोनों स्पष्ट रूप से बताए गए हैं।",
+      "of": "7e2e5a3c",
+      "at": [
+        "charlotte-latin:guide.bands[2].steps[2].detail"
+      ]
+    },
+    {
+      "t": "ISEE पूरा कीजिए",
+      "of": "fb6e267d",
+      "at": [
+        "charlotte-latin:guide.bands[2].steps[3].title",
+        "charlotte-latin:guide.bands[3].steps[3].title"
+      ]
+    },
+    {
+      "t": "अनिवार्य: **कक्षा 6–8 के आवेदक ISEE देते हैं**, और «Middle School के सभी टेस्ट **26 फ़रवरी 2027** तक पूरे करके भेजने होते हैं»। ISEE को **Educational Records Bureau** बनाता और कराता है, और आप स्कूल से नहीं, ERB से पंजीकरण कराते हैं। 26 फ़रवरी की वही तारीख़ इस स्तर की निर्णायक सीमा है — **उसी से पीछे गिनकर अपने पंजीकरण की योजना बनाइए**, क्योंकि टेस्ट की सीट बुक करना, टेस्ट देना और अंक आना — सब अंतिम तिथि से पहले होना चाहिए, उसी दिन नहीं।",
+      "of": "570ae04d",
+      "at": [
+        "charlotte-latin:guide.bands[2].steps[3].detail"
+      ]
+    },
+    {
+      "t": "अपनी फ़ाइल पूरी कीजिए",
+      "of": "d6b72a0d",
+      "at": [
+        "charlotte-latin:guide.bands[2].steps[4].title",
+        "charlotte-latin:guide.bands[3].steps[4].title"
+      ]
+    },
+    {
+      "t": "सभी दस्तावेज़ों की अंतिम तिथि **26 फ़रवरी 2027** है, टेस्ट की तिथि वाले ही दिन। क्या बाक़ी है यह आपके पोर्टल खाते में ही दिखता है और वहीं जमा किया जाता है।",
+      "of": "c7fda622",
+      "at": [
+        "charlotte-latin:guide.bands[2].steps[4].detail",
+        "charlotte-latin:guide.bands[3].steps[4].detail"
+      ]
+    },
+    {
+      "t": "वैकल्पिक, और इसका अपना अलग कैलेंडर है: आवेदन **Clarity** से **15 सितंबर 2026** को खुलता है और प्राथमिकता दौर में विचार के लिए **15 जनवरी 2027** तक देना होता है — दस्तावेज़ों की अंतिम तिथि से छह सप्ताह पहले। एक ही आवेदन परिवार के सभी बच्चों को कवर करता है।",
+      "of": "f75db188",
+      "at": [
+        "charlotte-latin:guide.bands[2].steps[5].detail",
+        "charlotte-latin:guide.bands[3].steps[5].detail"
+      ]
+    },
+    {
+      "t": "26 फ़रवरी 2027 ही वह तारीख़ है जो इस स्तर को बाँधती है।",
+      "of": "eb208bbd",
+      "at": [
+        "charlotte-latin:guide.bands[2].checklistCallout.lead",
+        "charlotte-latin:guide.bands[3].checklistCallout.lead"
+      ]
+    },
+    {
+      "t": "ISEE और फ़ाइल का बाक़ी हर हिस्सा उसी दिन देना होता है, इसलिए उस तारीख़ को निशाना बनाने के बजाय उसी से पीछे गिनकर अपने ERB पंजीकरण की योजना बनाइए — टेस्ट की सीट बुक करना, टेस्ट देना और अंक आना सब अंतिम तिथि से पहले होना चाहिए। Visit Day मूल्यांकन का दिन है, भ्रमण नहीं: इसमें एक इंटरव्यू, मौके पर एक मूल्यांकन और एक कक्षा का अवलोकन शामिल है। किसी भी स्तर के लिए न निर्णय की तारीख़ प्रकाशित है न प्रवेश अनुबंध की — दोनों प्रवेश कार्यालय से पुष्ट कर लीजिए।",
+      "of": "140bd0c5",
+      "at": [
+        "charlotte-latin:guide.bands[2].checklistCallout.text"
+      ]
+    },
+    {
+      "t": "कक्षा 1–12 की अंतिम तिथि। छठी स्वाभाविक विस्तार का वर्ष है।",
+      "of": "4da27e9e",
+      "at": [
+        "charlotte-latin:guide.bands[2].checklistRows[2].detail"
+      ]
+    },
+    {
+      "t": "Visit Day तय कीजिए और उसमें शामिल होइए",
+      "of": "d0848c6d",
+      "at": [
+        "charlotte-latin:guide.bands[2].checklistRows[3].action",
+        "charlotte-latin:guide.bands[3].checklistRows[3].action"
+      ]
+    },
+    {
+      "t": "इसमें एक इंटरव्यू, मौके पर एक मूल्यांकन और एक कक्षा का अवलोकन शामिल है।",
+      "of": "fa886508",
+      "at": [
+        "charlotte-latin:guide.bands[2].checklistRows[3].detail"
+      ]
+    },
+    {
+      "t": "26 फ़रवरी 2027 से पहले",
+      "of": "7f3d9474",
+      "at": [
+        "charlotte-latin:guide.bands[2].checklistRows[3].due",
+        "charlotte-latin:guide.bands[3].checklistRows[3].due"
+      ]
+    },
+    {
+      "t": "Educational Records Bureau से बुक होता है; इतना पहले बुक कीजिए कि अंक आ जाएँ।",
+      "of": "03ca39a5",
+      "at": [
+        "charlotte-latin:guide.bands[2].checklistRows[4].detail"
+      ]
+    },
+    {
+      "t": "फ़ाइल का बाक़ी हर दस्तावेज़ जमा कीजिए",
+      "of": "13638683",
+      "at": [
+        "charlotte-latin:guide.bands[2].checklistRows[5].action",
+        "charlotte-latin:guide.bands[3].checklistRows[5].action"
+      ]
+    },
+    {
+      "t": "क्या बाक़ी है यह आपके पोर्टल की चेकलिस्ट बताती है।",
+      "of": "9e151ce5",
+      "at": [
+        "charlotte-latin:guide.bands[2].checklistRows[5].detail",
+        "charlotte-latin:guide.bands[3].checklistRows[5].detail"
+      ]
+    },
+    {
+      "t": "Upper School · कक्षा 9–12",
+      "of": "3ae019cb",
+      "at": [
+        "charlotte-latin:guide.bands[3].label"
+      ]
+    },
+    {
+      "t": "Upper School — कक्षा 9–12",
+      "of": "acd3948e",
+      "at": [
+        "charlotte-latin:guide.bands[3].title"
+      ]
+    },
+    {
+      "t": "अनिवार्य, और अंतिम तिथि **15 जनवरी 2027** — कक्षा 1 से 12 तक सबकी साझा तिथि। नवीं उन वर्षों में से एक है जिनमें स्कूल «स्वाभाविक रूप से बढ़ता है», TK, Kindergarten और छठी के साथ।",
+      "of": "b6749c0e",
+      "at": [
+        "charlotte-latin:guide.bands[3].steps[1].detail"
+      ]
+    },
+    {
+      "t": "एक Visit Day तय कीजिए और उसमें शामिल होइए — इंटरव्यू और एक शैडो डे",
+      "of": "64dad70e",
+      "at": [
+        "charlotte-latin:guide.bands[3].steps[2].title"
+      ]
+    },
+    {
+      "t": "अनिवार्य, और परिवार ही उसे तय करता है। यह स्तर एक औपचारिक इंटरव्यू को शैडो अनुभव के साथ जोड़ता है: «आपका भावी Upper School विद्यार्थी **एक इंटरव्यू देगा, Latin के एक Student Ambassador से मिलेगा और एक Latin विद्यार्थी के जीवन का एक दिन जिएगा**।» आपका बच्चा आपके साथ कैंपस घूमने के बजाय एक मौजूदा विद्यार्थी के साथ पूरा दिन बिताता है।",
+      "of": "dca8f1df",
+      "at": [
+        "charlotte-latin:guide.bands[3].steps[2].detail"
+      ]
+    },
+    {
+      "t": "**कक्षा 9–11 के आवेदकों** के लिए अनिवार्य, जो «ISEE देते हैं», और «Upper School के सभी टेस्ट **26 फ़रवरी 2027** तक पूरे करके भेजने होते हैं»। पंजीकरण स्कूल से नहीं, **Educational Records Bureau** से होता है, और 26 फ़रवरी इस स्तर की निर्णायक सीमा है — **उसी से पीछे गिनकर अपने पंजीकरण की योजना बनाइए**, क्योंकि टेस्ट की सीट बुक करना, टेस्ट देना और अंक आना सब अंतिम तिथि से पहले होना चाहिए। **कक्षा 12 के आवेदकों के लिए कोई प्रवेश परीक्षा प्रकाशित नहीं है**: प्रकाशित शर्त केवल कक्षा 9 से 11 तक को कवर करती है, इसलिए कक्षा 12 के परिवार को प्रवेश कार्यालय से पूछना चाहिए कि क्या लागू होता है।",
+      "of": "4ecd4f4c",
+      "at": [
+        "charlotte-latin:guide.bands[3].steps[3].detail"
+      ]
+    },
+    {
+      "t": "ISEE और फ़ाइल का बाक़ी हर हिस्सा उसी दिन देना होता है, इसलिए उस तारीख़ को निशाना बनाने के बजाय उसी से पीछे गिनकर अपने ERB पंजीकरण की योजना बनाइए। Visit Day एक इंटरव्यू को एक Student Ambassador के साथ शैडो डे से जोड़ता है, यानी आपका बच्चा पूरा दिन वैसे ही बिताता है जैसे एक Latin विद्यार्थी बिताता। प्रकाशित टेस्ट शर्त कक्षा 9 से 11 तक को कवर करती है — कक्षा 12 के आवेदकों के लिए कुछ भी प्रकाशित नहीं है, इसलिए प्रवेश कार्यालय से पूछिए कि क्या लागू होता है। किसी भी स्तर के लिए न निर्णय की तारीख़ प्रकाशित है न प्रवेश अनुबंध की; दोनों कार्यालय से पुष्ट कर लीजिए।",
+      "of": "012d1a5d",
+      "at": [
+        "charlotte-latin:guide.bands[3].checklistCallout.text"
+      ]
+    },
+    {
+      "t": "कक्षा 1–12 की अंतिम तिथि। नवीं स्वाभाविक विस्तार का वर्ष है।",
+      "of": "3eb92b51",
+      "at": [
+        "charlotte-latin:guide.bands[3].checklistRows[2].detail"
+      ]
+    },
+    {
+      "t": "एक इंटरव्यू, साथ में Latin के एक Student Ambassador के साथ एक शैडो डे।",
+      "of": "45bfe4c3",
+      "at": [
+        "charlotte-latin:guide.bands[3].checklistRows[3].detail"
+      ]
+    },
+    {
+      "t": "ISEE के लिए पंजीकरण कराइए और उसे दीजिए (कक्षा 9–11)",
+      "of": "134dc7b0",
+      "at": [
+        "charlotte-latin:guide.bands[3].checklistRows[4].action"
+      ]
+    },
+    {
+      "t": "Educational Records Bureau से। कक्षा 12 के लिए कुछ भी प्रकाशित नहीं है।",
+      "of": "b404a6ae",
+      "at": [
+        "charlotte-latin:guide.bands[3].checklistRows[4].detail"
+      ]
+    },
+    {
+      "t": "सहायता **Clarity** से चलती है, **15 सितंबर 2026** को खुलती है और प्राथमिकता दौर में विचार के लिए **15 जनवरी 2027** तक देनी होती है। एक ही आवेदन परिवार के सभी बच्चों को कवर करता है और «आम तौर पर 30 मिनट या उससे कम में पूरा हो जाता है»। इसके अलावा, «पहली बार प्रवेश या पुनः प्रवेश के समय» एक **$2,500 की वापस न होने वाली जमा राशि** «अनिवार्य» है, जो «दूसरी ट्यूशन किस्त से घटा दी जाती है» — उसके बिना किसी विद्यार्थी का प्रवेश या पुनः प्रवेश नहीं हो सकता। इस चक्र के लिए **कोई सहायता आवेदन शुल्क प्रकाशित नहीं है**।",
+      "of": "3cf2392e",
+      "at": [
+        "charlotte-latin:guide.aid.text"
+      ]
+    },
+    {
+      "t": "Visit Day कौन तय करता है",
+      "of": "3f974743",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[1].label"
+      ]
+    },
+    {
+      "t": "परिवार",
+      "of": "92b7489c",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[1].cells.ls",
+        "charlotte-latin:guide.comparison.rows[1].cells.ms",
+        "charlotte-latin:guide.comparison.rows[1].cells.us"
+      ]
+    },
+    {
+      "t": "मानक टेस्ट",
+      "of": "dbeeb10c",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[2].label"
+      ]
+    },
+    {
+      "t": "WPPSI",
+      "of": "ba951af2",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[2].cells.tkk"
+      ]
+    },
+    {
+      "t": "WPPSI (क. 1) · WISC-V (क. 2–4) · ISEE (क. 5)",
+      "of": "a3f2fffc",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[2].cells.ls"
+      ]
+    },
+    {
+      "t": "ISEE",
+      "of": "eac03f6f",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[2].cells.ms"
+      ]
+    },
+    {
+      "t": "ISEE (क. 9–11) · क. 12 के लिए कुछ प्रकाशित नहीं",
+      "of": "e53f0f3e",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[2].cells.us"
+      ]
+    },
+    {
+      "t": "Visit Day पर इंटरव्यू",
+      "of": "3dccbfff",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[3].label"
+      ]
+    },
+    {
+      "t": "वर्णन नहीं किया गया",
+      "of": "664909c9",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[3].cells.tkk",
+        "charlotte-latin:guide.comparison.rows[3].cells.ls"
+      ]
+    },
+    {
+      "t": "हाँ",
+      "of": "b3a43630",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[3].cells.ms",
+        "charlotte-latin:guide.comparison.rows[3].cells.us"
+      ]
+    },
+    {
+      "t": "Visit Day क्या है",
+      "of": "5f233293",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[4].label"
+      ]
+    },
+    {
+      "t": "Latin की एक कक्षा में कुछ घंटे; अभिभावक मौजूदा अभिभावकों और Upper School के विद्यार्थियों के एक पैनल से मिलते हैं",
+      "of": "1049268f",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[4].cells.tkk"
+      ]
+    },
+    {
+      "t": "एक कक्षा का दौरा",
+      "of": "81cd14ec",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[4].cells.ls"
+      ]
+    },
+    {
+      "t": "इंटरव्यू, मौके पर मूल्यांकन और एक कक्षा का अवलोकन",
+      "of": "718f4a5f",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[4].cells.ms"
+      ]
+    },
+    {
+      "t": "इंटरव्यू, एक Student Ambassador और एक Latin विद्यार्थी के जीवन का एक दिन",
+      "of": "fbbb0b92",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[4].cells.us"
+      ]
+    },
+    {
+      "t": "टेस्ट और दस्तावेज़ों की अंतिम तिथि",
+      "of": "6aff044f",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[5].label"
+      ]
+    },
+    {
+      "t": "कुछ प्रकाशित नहीं",
+      "of": "de8a893d",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[5].cells.tkk",
+        "charlotte-latin:guide.comparison.rows[5].cells.ls"
+      ]
+    },
+    {
+      "t": "निर्णय और अनुबंध",
+      "of": "6a9bcae4",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[6].label"
+      ]
+    },
+    {
+      "t": "किसी भी स्तर पर प्रकाशित नहीं — प्रवेश कार्यालय से पुष्ट कीजिए। हर प्रकाशित समय-रेखा आवेदन या दस्तावेज़ों की अंतिम तिथि पर ही ख़त्म हो जाती है, और किसी भी प्रवेश पन्ने पर न सूचना की तारीख़ है, न सूचना का समय, न प्रवेश अनुबंध की तारीख़।",
+      "of": "edcb873e",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[6].cells.all"
+      ]
+    },
+    {
+      "t": "हर स्तर पर एक जैसा",
+      "of": "4e17969e",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[7].label",
+        "charlotte-christian:guide.comparison.rows[10].label",
+        "charlotte-country-day:guide.comparison.rows[8].label"
+      ]
+    },
+    {
+      "t": "Finalsite Enrollment पोर्टल, पहली पूछताछ से लेकर हर दस्तावेज़ तक · Clarity से वित्तीय सहायता, 15 सितंबर 2026 को खुलती है और 15 जनवरी 2027 तक · $2,500 की वापस न होने वाली प्रवेश जमा राशि, जो दूसरी ट्यूशन किस्त से घटा दी जाती है",
+      "of": "c88c2a4f",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[7].cells.all"
+      ]
+    },
+    {
+      "t": "9502 Providence Road, Charlotte, NC 28277 · प्रवेश 704-846-7207 · admissions@charlottelatin.org · वित्तीय सहायता financialaid@charlottelatin.org। हर आवेदक को एक प्रवेश परामर्शदाता दिया जाता है जो पूरी प्रक्रिया में परिवार का मार्गदर्शन करता है; नीचे दी गई टीम के लिए कोई व्यक्तिगत फ़ोन नंबर या ईमेल पता प्रकाशित नहीं किया जाता।",
+      "of": "54cfc16d",
+      "at": [
+        "charlotte-latin:guide.contacts.address"
+      ]
+    },
+    {
+      "t": "नामांकन प्रबंधन निदेशक",
+      "of": "df651b3d",
+      "at": [
+        "charlotte-latin:guide.contacts.people[0].detail"
+      ]
+    },
+    {
+      "t": "सहयोगी प्रवेश निदेशक · प्रवेश परामर्शदाता",
+      "of": "4e58d111",
+      "at": [
+        "charlotte-latin:guide.contacts.people[1].detail"
+      ]
+    },
+    {
+      "t": "प्रवेश परामर्शदाता",
+      "of": "eb95e285",
+      "at": [
+        "charlotte-latin:guide.contacts.people[2].detail"
+      ]
+    },
+    {
+      "t": "प्रवेश परामर्शदाता · 1998 बैच",
+      "of": "fcdc41ec",
+      "at": [
+        "charlotte-latin:guide.contacts.people[3].detail"
+      ]
+    },
+    {
+      "t": "आवेदन समन्वयक · 1996 बैच",
+      "of": "b5884e8b",
+      "at": [
+        "charlotte-latin:guide.contacts.people[4].detail"
+      ]
+    },
+    {
+      "t": "प्रवेश कार्यालय प्रबंधक · 2007 बैच",
+      "of": "4f3b2087",
+      "at": [
+        "charlotte-latin:guide.contacts.people[5].detail"
+      ]
+    },
+    {
+      "t": "प्रवेश और वित्तीय सहायता सहायक",
+      "of": "5e192879",
+      "at": [
+        "charlotte-latin:guide.contacts.people[6].detail"
+      ]
+    },
+    {
+      "t": "प्रवेश सहायक कर्मचारी",
+      "of": "12fae1ce",
+      "at": [
+        "charlotte-latin:guide.contacts.people[7].detail"
+      ]
+    },
+    {
+      "t": "टूर गाइड · प्रवेश सहायक कर्मचारी",
+      "of": "6e03dd3d",
+      "at": [
+        "charlotte-latin:guide.contacts.people[8].detail"
+      ]
+    },
+    {
+      "t": "पोर्टल: Finalsite Enrollment · charlottelatin.fsenrollment.com",
+      "of": "e9f72c55",
+      "at": [
+        "charlotte-latin:guide.checklist.portalNote"
+      ]
+    },
+    {
+      "t": "app.clarityapp.com पर Clarity से आवेदन कीजिए। कई बच्चों के लिए आवेदन कर रहे हों तो भी एक ही आवेदन चाहिए, और वह आम तौर पर 30 मिनट या उससे कम में पूरा हो जाता है।",
+      "of": "56448a96",
+      "at": [
+        "charlotte-latin:guide.checklist.aidPanel.items[0]"
+      ]
+    },
+    {
+      "t": "आवेदन 15 सितंबर 2026 को खुलता है।",
+      "of": "6bf9db81",
+      "at": [
+        "charlotte-latin:guide.checklist.aidPanel.items[1]"
+      ]
+    },
+    {
+      "t": "प्राथमिकता दौर के निर्णयों में शामिल होने के लिए 15 जनवरी 2027 तक भेज दीजिए।",
+      "of": "43ac5026",
+      "at": [
+        "charlotte-latin:guide.checklist.aidPanel.items[2]"
+      ]
+    },
+    {
+      "t": "पहली बार प्रवेश या पुनः प्रवेश के समय $2,500 की वापस न होने वाली जमा राशि अनिवार्य है, और वह दूसरी ट्यूशन किस्त से घटा दी जाती है। उसके बिना किसी विद्यार्थी का प्रवेश या पुनः प्रवेश नहीं हो सकता।",
+      "of": "b8b6dd06",
+      "at": [
+        "charlotte-latin:guide.checklist.aidPanel.items[3]"
+      ]
+    },
+    {
+      "t": "इस चक्र के लिए कोई वित्तीय सहायता आवेदन शुल्क प्रकाशित नहीं है।",
+      "of": "45020e8a",
+      "at": [
+        "charlotte-latin:guide.checklist.aidPanel.items[4]"
+      ]
+    },
+    {
+      "t": "प्रवेश — 704-846-7207 · admissions@charlottelatin.org",
+      "of": "3512895d",
+      "at": [
+        "charlotte-latin:guide.checklist.contactPanel.lines[0]"
+      ]
+    },
+    {
+      "t": "वित्तीय सहायता — financialaid@charlottelatin.org",
+      "of": "46985bd5",
+      "at": [
+        "charlotte-latin:guide.checklist.contactPanel.lines[1]"
+      ]
+    },
+    {
+      "t": "9502 Providence Road, Charlotte, NC 28277",
+      "of": "11d622f9",
+      "at": [
+        "charlotte-latin:guide.checklist.contactPanel.lines[2]"
+      ]
+    },
+    {
+      "t": "तारीखें charlottelatin.org पर प्रकाशित 2026–27 प्रवेश चक्र की हैं (अगस्त 2026 में ली गईं) — आवेदन प्रक्रिया, ट्यूशन और वित्तीय सहायता, तथा प्रवेश पन्ने। «पुष्टि करें» चिह्नित बातें या तो आवेदन पोर्टल के भीतर हैं या बिल्कुल प्रकाशित नहीं हैं, जिनमें हर निर्णय और प्रवेश अनुबंध की तारीख़ शामिल है। चक्र की तारीखें हर साल बदलती हैं, और पिछले किसी सत्र में इन पन्नों पर अलग तारीखें थीं — कोई कदम उठाने से पहले लाइव पन्नों से मिला लीजिए। संकलन Charlotte School Compare द्वारा; Charlotte Latin School से कोई संबंध नहीं।",
+      "of": "b7abdac7",
+      "at": [
+        "charlotte-latin:guide.checklist.disclaimer"
       ]
     },
     {
@@ -1475,14 +2572,6 @@
       "at": [
         "charlotte-christian:guide.bands[0].steps[6].title",
         "charlotte-christian:guide.bands[1].steps[6].title"
-      ]
-    },
-    {
-      "t": "आपके लिए तय किया जाता है",
-      "of": "43a2ae4c",
-      "at": [
-        "charlotte-christian:guide.bands[0].steps[6].tag",
-        "charlotte-christian:guide.bands[1].steps[6].tag"
       ]
     },
     {
@@ -2422,14 +3511,6 @@
       "of": "7ef7298e",
       "at": [
         "charlotte-christian:guide.comparison.rows[9].cells.all"
-      ]
-    },
-    {
-      "t": "हर स्तर पर एक जैसा",
-      "of": "4e17969e",
-      "at": [
-        "charlotte-christian:guide.comparison.rows[10].label",
-        "charlotte-country-day:guide.comparison.rows[8].label"
       ]
     },
     {

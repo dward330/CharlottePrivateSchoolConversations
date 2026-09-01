@@ -14,6 +14,7 @@
       "of": "826ef611",
       "at": [
         "providence-day:guide.cycle",
+        "charlotte-latin:guide.cycle",
         "charlotte-christian:guide.cycle"
       ]
     },
@@ -29,6 +30,7 @@
       "of": "0115e4c6",
       "at": [
         "providence-day:guide.stats[1].label",
+        "charlotte-latin:guide.stats[2].label",
         "charlotte-christian:guide.stats[1].label",
         "charlotte-country-day:guide.stats[1].label"
       ]
@@ -82,7 +84,8 @@
       "t": "TK / কিন্ডারগার্টেন",
       "of": "d6a3513b",
       "at": [
-        "providence-day:guide.bands[0].label"
+        "providence-day:guide.bands[0].label",
+        "charlotte-latin:guide.bands[0].label"
       ]
     },
     {
@@ -96,7 +99,8 @@
       "t": "ট্রানজিশনাল কিন্ডারগার্টেন ও কিন্ডারগার্টেন",
       "of": "75235da1",
       "at": [
-        "providence-day:guide.bands[0].title"
+        "providence-day:guide.bands[0].title",
+        "charlotte-latin:guide.bands[0].title"
       ]
     },
     {
@@ -153,6 +157,18 @@
         "providence-day:guide.bands[2].steps[0].tag",
         "providence-day:guide.bands[2].checklistRows[0].due",
         "providence-day:guide.bands[2].checklistRows[1].due",
+        "charlotte-latin:guide.bands[0].steps[0].tag",
+        "charlotte-latin:guide.bands[0].checklistRows[0].due",
+        "charlotte-latin:guide.bands[0].checklistRows[1].due",
+        "charlotte-latin:guide.bands[1].steps[0].tag",
+        "charlotte-latin:guide.bands[1].checklistRows[0].due",
+        "charlotte-latin:guide.bands[1].checklistRows[1].due",
+        "charlotte-latin:guide.bands[2].steps[0].tag",
+        "charlotte-latin:guide.bands[2].checklistRows[0].due",
+        "charlotte-latin:guide.bands[2].checklistRows[1].due",
+        "charlotte-latin:guide.bands[3].steps[0].tag",
+        "charlotte-latin:guide.bands[3].checklistRows[0].due",
+        "charlotte-latin:guide.bands[3].checklistRows[1].due",
         "charlotte-christian:guide.bands[0].steps[0].tag",
         "charlotte-christian:guide.bands[0].checklistRows[0].due",
         "charlotte-christian:guide.bands[1].steps[0].tag",
@@ -200,6 +216,7 @@
       "of": "a636a187",
       "at": [
         "providence-day:guide.bands[0].steps[1].tag",
+        "charlotte-latin:guide.bands[0].steps[2].tag",
         "charlotte-christian:guide.bands[0].steps[2].tag",
         "charlotte-country-day:guide.bands[0].steps[3].tag"
       ]
@@ -410,6 +427,8 @@
       "at": [
         "providence-day:guide.bands[0].checklistRows[2].due",
         "providence-day:guide.comparison.rows[0].cells.tkk",
+        "charlotte-latin:guide.bands[0].checklistRows[3].due",
+        "charlotte-latin:guide.comparison.rows[0].cells.tkk",
         "charlotte-christian:guide.bands[0].checklistRows[2].due",
         "charlotte-christian:guide.comparison.rows[0].cells.jkk",
         "charlotte-country-day:guide.bands[0].checklistRows[3].due",
@@ -511,6 +530,12 @@
         "providence-day:guide.bands[2].checklistRows[4].due",
         "providence-day:guide.comparison.rows[1].cells.g15",
         "providence-day:guide.comparison.rows[1].cells.g612",
+        "charlotte-latin:guide.bands[2].checklistRows[4].due",
+        "charlotte-latin:guide.bands[2].checklistRows[5].due",
+        "charlotte-latin:guide.bands[3].checklistRows[4].due",
+        "charlotte-latin:guide.bands[3].checklistRows[5].due",
+        "charlotte-latin:guide.comparison.rows[5].cells.ms",
+        "charlotte-latin:guide.comparison.rows[5].cells.us",
         "charlotte-christian:guide.bands[0].checklistRows[7].due",
         "charlotte-christian:guide.bands[1].checklistRows[3].due",
         "charlotte-christian:guide.bands[1].checklistRows[4].due",
@@ -609,6 +634,13 @@
       "at": [
         "providence-day:guide.bands[1].steps[1].tag",
         "providence-day:guide.bands[2].steps[1].tag",
+        "charlotte-latin:guide.bands[0].steps[5].tag",
+        "charlotte-latin:guide.bands[1].steps[1].tag",
+        "charlotte-latin:guide.bands[1].steps[4].tag",
+        "charlotte-latin:guide.bands[2].steps[1].tag",
+        "charlotte-latin:guide.bands[2].steps[5].tag",
+        "charlotte-latin:guide.bands[3].steps[1].tag",
+        "charlotte-latin:guide.bands[3].steps[5].tag",
         "charlotte-christian:guide.bands[0].steps[3].tag",
         "charlotte-christian:guide.bands[0].steps[4].tag",
         "charlotte-christian:guide.bands[1].steps[2].tag",
@@ -642,6 +674,10 @@
         "providence-day:guide.bands[1].steps[3].tag",
         "providence-day:guide.bands[2].steps[2].tag",
         "providence-day:guide.bands[2].steps[3].tag",
+        "charlotte-latin:guide.bands[2].steps[3].tag",
+        "charlotte-latin:guide.bands[2].steps[4].tag",
+        "charlotte-latin:guide.bands[3].steps[3].tag",
+        "charlotte-latin:guide.bands[3].steps[4].tag",
         "charlotte-christian:guide.bands[1].steps[3].tag",
         "charlotte-christian:guide.bands[1].steps[4].tag",
         "charlotte-christian:guide.bands[1].steps[5].tag",
@@ -757,6 +793,16 @@
         "providence-day:guide.bands[2].checklistRows[2].due",
         "providence-day:guide.comparison.rows[0].cells.g15",
         "providence-day:guide.comparison.rows[0].cells.g612",
+        "charlotte-latin:guide.bands[0].checklistRows[6].due",
+        "charlotte-latin:guide.bands[1].checklistRows[2].due",
+        "charlotte-latin:guide.bands[1].checklistRows[5].due",
+        "charlotte-latin:guide.bands[2].checklistRows[2].due",
+        "charlotte-latin:guide.bands[2].checklistRows[6].due",
+        "charlotte-latin:guide.bands[3].checklistRows[2].due",
+        "charlotte-latin:guide.bands[3].checklistRows[6].due",
+        "charlotte-latin:guide.comparison.rows[0].cells.ls",
+        "charlotte-latin:guide.comparison.rows[0].cells.ms",
+        "charlotte-latin:guide.comparison.rows[0].cells.us",
         "charlotte-christian:guide.bands[0].checklistRows[3].due",
         "charlotte-christian:guide.bands[0].checklistRows[4].due",
         "charlotte-christian:guide.bands[1].checklistRows[2].due",
@@ -929,6 +975,7 @@
       "of": "e8835419",
       "at": [
         "providence-day:guide.bands[2].checklistRows[3].action",
+        "charlotte-latin:guide.bands[2].checklistRows[4].action",
         "charlotte-christian:guide.bands[3].checklistRows[7].action",
         "charlotte-country-day:guide.bands[2].checklistRows[4].action"
       ]
@@ -959,6 +1006,7 @@
       "of": "15045be1",
       "at": [
         "providence-day:guide.aid.title",
+        "charlotte-latin:guide.aid.title",
         "charlotte-christian:guide.aid.title",
         "charlotte-country-day:guide.aid.title"
       ]
@@ -975,6 +1023,7 @@
       "of": "801e19b8",
       "at": [
         "providence-day:guide.aid.button",
+        "charlotte-latin:guide.aid.button",
         "charlotte-christian:guide.aid.button",
         "charlotte-country-day:guide.aid.button"
       ]
@@ -984,6 +1033,7 @@
       "of": "60faf9b9",
       "at": [
         "providence-day:guide.comparison.kicker",
+        "charlotte-latin:guide.comparison.kicker",
         "charlotte-christian:guide.comparison.kicker",
         "charlotte-country-day:guide.comparison.kicker"
       ]
@@ -993,6 +1043,7 @@
       "of": "2e98319a",
       "at": [
         "providence-day:guide.comparison.title",
+        "charlotte-latin:guide.comparison.title",
         "charlotte-christian:guide.comparison.title",
         "charlotte-country-day:guide.comparison.title"
       ]
@@ -1002,6 +1053,7 @@
       "of": "8751989b",
       "at": [
         "providence-day:guide.comparison.rows[0].label",
+        "charlotte-latin:guide.comparison.rows[0].label",
         "charlotte-christian:guide.comparison.rows[0].label",
         "charlotte-country-day:guide.comparison.rows[0].label"
       ]
@@ -1104,6 +1156,7 @@
       "of": "fa6ba530",
       "at": [
         "providence-day:guide.contacts.kicker",
+        "charlotte-latin:guide.contacts.kicker",
         "charlotte-christian:guide.contacts.kicker",
         "charlotte-country-day:guide.contacts.kicker"
       ]
@@ -1113,6 +1166,8 @@
       "of": "ba210c46",
       "at": [
         "providence-day:guide.contacts.title",
+        "charlotte-latin:guide.comparison.rows[1].cells.tkk",
+        "charlotte-latin:guide.contacts.title",
         "charlotte-christian:guide.contacts.title",
         "charlotte-country-day:guide.contacts.title"
       ]
@@ -1192,6 +1247,7 @@
       "of": "3e87e1fd",
       "at": [
         "providence-day:guide.checklist.aidPanel.kicker",
+        "charlotte-latin:guide.checklist.aidPanel.kicker",
         "charlotte-christian:guide.checklist.aidPanel.kicker",
         "charlotte-country-day:guide.checklist.aidPanel.kicker"
       ]
@@ -1215,6 +1271,7 @@
       "of": "79312c44",
       "at": [
         "providence-day:guide.checklist.contactPanel.kicker",
+        "charlotte-latin:guide.checklist.contactPanel.kicker",
         "charlotte-christian:guide.checklist.contactPanel.kicker",
         "charlotte-country-day:guide.checklist.contactPanel.kicker"
       ]
@@ -1245,6 +1302,1046 @@
       "of": "4437f3e8",
       "at": [
         "providence-day:guide.checklist.disclaimer"
+      ]
+    },
+    {
+      "t": "আপনার সন্তানের ভর্তির স্তরটি বেছে নিন, আর নির্দেশিকাটি সেই অনুযায়ী সাজিয়ে নেবে: ধাপগুলো ক্রম অনুসারে, 2026–27 সালের সময়সীমা এবং ওই স্তরের জন্য প্রযোজ্য পরীক্ষা — সঙ্গে সঙ্গে নিয়ে যাওয়ার মতো একটি ছাপযোগ্য চেকলিস্টও। একই কাঠামোর উপর চারটি পথ, আর সেগুলোর মধ্যে যা বদলায় তা হলো পরীক্ষা, কে Visit Day ঠিক করে, সাক্ষাৎকার আছে কি না, এবং সময়সীমা।",
+      "of": "ba66a2dc",
+      "at": [
+        "charlotte-latin:guide.headline"
+      ]
+    },
+    {
+      "t": "ভর্তির স্তর — TK/K, শ্রেণি 1–5, 6–8 এবং 9–12",
+      "of": "70c840a2",
+      "at": [
+        "charlotte-latin:guide.stats[0].label"
+      ]
+    },
+    {
+      "t": "TK/Kindergarten আবেদনের সময়সীমা — অন্য সব শ্রেণির চেয়ে 13 দিন আগে",
+      "of": "af3286a6",
+      "at": [
+        "charlotte-latin:guide.stats[1].label"
+      ]
+    },
+    {
+      "t": "অফেরতযোগ্য ভর্তির জমা",
+      "of": "5b3b8389",
+      "at": [
+        "charlotte-latin:guide.stats[3].label"
+      ]
+    },
+    {
+      "t": "একটিই পোর্টাল, শুরু থেকে শেষ পর্যন্ত।",
+      "of": "ec3b31ed",
+      "at": [
+        "charlotte-latin:guide.rules[0].title"
+      ]
+    },
+    {
+      "t": "সবকিছুই charlottelatin.fsenrollment.com-এ Finalsite Enrollment-এর মাধ্যমে চলে: একটি অনুসন্ধান পাঠান, আপনার পরিবারের প্রোফাইল তৈরি করুন, তারপর সেই একই অ্যাকাউন্ট থেকে ঐচ্ছিক ভর্তি-অনুষ্ঠানে আসন সংরক্ষণ করুন, নথিপত্র জমা দিন, ফর্ম খুঁজে নিন এবং সময়সীমা মেনে চলুন।",
+      "of": "833270ae",
+      "at": [
+        "charlotte-latin:guide.rules[0].text"
+      ]
+    },
+    {
+      "t": "নিচের প্রতিটি তারিখ 2026–27 চক্রের।",
+      "of": "1b36e18c",
+      "at": [
+        "charlotte-latin:guide.rules[1].title"
+      ]
+    },
+    {
+      "t": "চক্রের তারিখ বছরে বছরে বদলায়, আর আগের কোনো মরশুমে এই পাতাগুলোতে অন্য একটি তালিকা ছিল। এগুলোর কোনোটির ভিত্তিতে পদক্ষেপ নেওয়ার আগে চলমান ভর্তি পাতাগুলোর সঙ্গে মিলিয়ে নিন।",
+      "of": "8a447828",
+      "at": [
+        "charlotte-latin:guide.rules[1].text"
+      ]
+    },
+    {
+      "t": "প্রতিটি স্তরে কাঠামো একই — পোর্টালের মাধ্যমে অনলাইনে আবেদন → একটি Visit Day-তে উপস্থিতি → একটি প্রমিত পরীক্ষা → সময়সীমা মেনে চলা। স্তরভেদে যা বদলায় তা হলো আপনার সন্তান কোন পরীক্ষাটি দেবে, Visit Day ভর্তি দপ্তর ঠিক করে না আপনি, সেই দিনে সাক্ষাৎকার থাকে কি না, এবং আপনি কোন সময়সীমা ধরে এগোচ্ছেন।",
+      "of": "96eb5424",
+      "at": [
+        "charlotte-latin:guide.spineNote"
+      ]
+    },
+    {
+      "t": "আবেদনের সময়সীমা",
+      "of": "0c1429fb",
+      "at": [
+        "charlotte-latin:guide.bands[0].deadlines[0].label",
+        "charlotte-latin:guide.bands[1].deadlines[0].label",
+        "charlotte-latin:guide.bands[2].deadlines[0].label",
+        "charlotte-latin:guide.bands[3].deadlines[0].label"
+      ]
+    },
+    {
+      "t": "TK/K Fly By Open House — 9:30–11:00 a.m.",
+      "of": "565729e5",
+      "at": [
+        "charlotte-latin:guide.bands[0].deadlines[1].label"
+      ]
+    },
+    {
+      "t": "আর্থিক সহায়তার আবেদনের সময়সীমা",
+      "of": "d2c4abce",
+      "at": [
+        "charlotte-latin:guide.bands[0].deadlines[2].label",
+        "charlotte-latin:guide.bands[1].deadlines[1].label",
+        "charlotte-latin:guide.bands[2].deadlines[3].label",
+        "charlotte-latin:guide.bands[3].deadlines[3].label"
+      ]
+    },
+    {
+      "t": "একটি অনুসন্ধান পাঠান, তারপর আপনার পরিবারের প্রোফাইল তৈরি করুন",
+      "of": "d795a612",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[0].title",
+        "charlotte-latin:guide.bands[1].steps[0].title",
+        "charlotte-latin:guide.bands[2].steps[0].title",
+        "charlotte-latin:guide.bands[3].steps[0].title"
+      ]
+    },
+    {
+      "t": "আবশ্যিক প্রথম ধাপ: পরিবারগুলো «প্রথমে একটি অনুসন্ধান পাঠায় এবং তারপর নিজেদের পরিবারের জন্য একটি প্রোফাইল তৈরি করে»। এরপর সেই অ্যাকাউন্টই আপনাকে ঐচ্ছিক ভর্তি-অনুষ্ঠানে আসন সংরক্ষণ করতে, নথিপত্র জমা দিতে, ফর্ম খুঁজে নিতে এবং সময়সীমা মানতে বলে — এই তালিকার পরবর্তী সবকিছুই এর মধ্য দিয়েই চলে।",
+      "of": "a2a5e056",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[0].detail"
+      ]
+    },
+    {
+      "t": "ঐচ্ছিক ভর্তি-অনুষ্ঠানগুলোতে আসন সংরক্ষণ করুন",
+      "of": "18bbf90b",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[1].title"
+      ]
+    },
+    {
+      "t": "10 অক্টোবর 2026",
+      "of": "805b5a7c",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[1].tag",
+        "charlotte-latin:guide.bands[0].checklistRows[2].due"
+      ]
+    },
+    {
+      "t": "ঐচ্ছিক, আবশ্যিক নয়। এই স্তরের জন্য প্রকাশিত একমাত্র নির্দিষ্ট-তারিখের অনুষ্ঠান হলো **10 অক্টোবর 2026, সকাল 9:30–11:00-এর TK/K Fly By Open House**। ক্যাম্পাস পরিদর্শন সেপ্টেম্বর থেকে শুরু হয়ে সারা শিক্ষাবর্ষ চলে, আর ওপেন হাউস, পরিদর্শন ও ভার্চুয়াল সেশন — সবই আপনার পোর্টাল অ্যাকাউন্ট থেকে বুক করা হয়।",
+      "of": "6adf47ab",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[1].detail"
+      ]
+    },
+    {
+      "t": "আবেদনটি সম্পন্ন করুন",
+      "of": "3ba6d9af",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[2].title",
+        "charlotte-latin:guide.bands[1].steps[1].title",
+        "charlotte-latin:guide.bands[2].steps[1].title",
+        "charlotte-latin:guide.bands[3].steps[1].title"
+      ]
+    },
+    {
+      "t": "আবশ্যিক, এবং সময়সীমা **2 জানুয়ারি 2027** — বিদ্যালয়ের অন্য প্রতিটি শ্রেণির চেয়ে তেরো দিন আগে, ফলে এই স্তরটি জানুয়ারির মাঝামাঝি নয়, প্রথম সপ্তাহে পড়া একটি সময়সীমা ধরে চলে। Transitional Kindergarten বা Kindergarten-এর জন্য **কোনো বয়স বা জন্মতারিখের সীমা প্রকাশ করা হয়নি**: বিদ্যালয়টি TK-কে গুণগতভাবে বর্ণনা করে, «সদ্য পাঁচ বছরে পা দেওয়া এবং Kindergarten-এর জন্য প্রস্তুত শিশুদের জন্য পরিকল্পিত» বলে, কোনো তারিখ উল্লেখ করে না। আপনার সন্তান কোথায় পড়ে তা ভর্তি দপ্তরকে জিজ্ঞেস করুন।",
+      "of": "b8de7ab6",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[2].detail"
+      ]
+    },
+    {
+      "t": "একটি Visit Day-তে যোগ দিন — দপ্তরই সেটি ঠিক করে",
+      "of": "7af3b393",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[3].title"
+      ]
+    },
+    {
+      "t": "আপনার জন্য নির্ধারিত",
+      "of": "43a2ae4c",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[3].tag",
+        "charlotte-christian:guide.bands[0].steps[6].tag",
+        "charlotte-christian:guide.bands[1].steps[6].tag"
+      ]
+    },
+    {
+      "t": "আবশ্যিক, এবং **এটিই একমাত্র স্তর যেখানে আপনি নিজে বুক করেন না**: «Visit Day-তে যোগ দিন (আমাদের দপ্তর সময় ঠিক করে দেবে)।» অন্য প্রতিটি শ্রেণি নিজেরটি নিজে ঠিক করে। সেদিন «আপনার সন্তান কয়েক ঘণ্টা ধরে Latin-এর একটি শ্রেণিকক্ষের আনন্দ অনুভব করবে, আর আপনি বর্তমান অভিভাবকদের সঙ্গে দেখা করবেন এবং Upper School শিক্ষার্থীদের একটি প্যানেলের কথা শুনবেন»।",
+      "of": "8b39d3c4",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[3].detail"
+      ]
+    },
+    {
+      "t": "WPPSI পরীক্ষাটি সম্পন্ন করুন",
+      "of": "9c97b742",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[4].title"
+      ]
+    },
+    {
+      "t": "আবশ্যিক",
+      "of": "848c8620",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[4].tag",
+        "charlotte-latin:guide.bands[1].steps[3].tag"
+      ]
+    },
+    {
+      "t": "আবশ্যিক। এই স্তরের আবেদনকারীরা **WPPSI** দেয়, যা Charlotte Area Independent Schools কনসোর্টিয়ামের একজন মনোবিজ্ঞানী পরিচালনা করেন, এবং পরীক্ষাটি «আগেভাগে নির্ধারণ করে নিতে হয়»। আপনি সরাসরি মনোবিজ্ঞানীর সঙ্গে যোগাযোগ করে নম্বরগুলো Charlotte Latin-এ পাঠাতে বলবেন — বিদ্যালয় এই সাক্ষাতের ব্যবস্থা করে না।",
+      "of": "3b709f36",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[4].detail"
+      ]
+    },
+    {
+      "t": "প্রয়োজন হলে আর্থিক সহায়তার জন্য আবেদন করুন",
+      "of": "47baf108",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[5].title",
+        "charlotte-latin:guide.bands[1].steps[4].title",
+        "charlotte-latin:guide.bands[2].steps[5].title",
+        "charlotte-latin:guide.bands[3].steps[5].title"
+      ]
+    },
+    {
+      "t": "ঐচ্ছিক, এবং এর নিজস্ব সময়সূচি আছে: আবেদনটি **Clarity**-র মাধ্যমে **15 সেপ্টেম্বর 2026**-এ খোলে এবং অগ্রাধিকার পর্যায়ে বিবেচনার জন্য **15 জানুয়ারি 2027**-এর মধ্যে জমা দিতে হয় — এই স্তরের নিজস্ব আবেদনের সময়সীমার দুই সপ্তাহ পরে। একটি আবেদনই পরিবারের সব সন্তানকে অন্তর্ভুক্ত করে।",
+      "of": "42434751",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[5].detail"
+      ]
+    },
+    {
+      "t": "আপনার আবেদনের সময়সীমা 2 জানুয়ারি 2027।",
+      "of": "c16225b0",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistCallout.lead"
+      ]
+    },
+    {
+      "t": "Transitional Kindergarten ও Kindergarten অন্য প্রতিটি শ্রেণির চেয়ে তেরো দিন আগে আবেদন করে, আর এই স্তরের Visit Day পরিবার নয়, ভর্তি দপ্তরই ঠিক করে। এই স্তরের জন্য সব নথি জমার কোনো সময়সীমা প্রকাশ করা হয়নি, তাই কী কী বাকি আছে তার প্রামাণ্য তালিকা হিসেবে আপনার পোর্টালের চেকলিস্টটিকেই ধরুন। কোনো স্তরের জন্যই সিদ্ধান্তের তারিখ বা ভর্তি চুক্তির তারিখ প্রকাশ করা হয়নি — দুটোই ভর্তি দপ্তরের সঙ্গে নিশ্চিত করে নিন।",
+      "of": "1d039340",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistCallout.text"
+      ]
+    },
+    {
+      "t": "অনলাইন অনুসন্ধান ফর্মটি জমা দিন",
+      "of": "523d1d7a",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[0].action",
+        "charlotte-latin:guide.bands[1].checklistRows[0].action",
+        "charlotte-latin:guide.bands[2].checklistRows[0].action",
+        "charlotte-latin:guide.bands[3].checklistRows[0].action"
+      ]
+    },
+    {
+      "t": "আবশ্যিক প্রথম ধাপ; এটির মাধ্যমেই পোর্টালে আপনার পরিবারের প্রোফাইল তৈরি করা যায়।",
+      "of": "34f5fe8a",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[0].detail",
+        "charlotte-latin:guide.bands[1].checklistRows[0].detail",
+        "charlotte-latin:guide.bands[2].checklistRows[0].detail",
+        "charlotte-latin:guide.bands[3].checklistRows[0].detail"
+      ]
+    },
+    {
+      "t": "পোর্টালে আপনার পরিবারের প্রোফাইল তৈরি করুন",
+      "of": "dd905b57",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[1].action",
+        "charlotte-latin:guide.bands[1].checklistRows[1].action",
+        "charlotte-latin:guide.bands[2].checklistRows[1].action",
+        "charlotte-latin:guide.bands[3].checklistRows[1].action"
+      ]
+    },
+    {
+      "t": "Finalsite Enrollment — যেখানে আপনি আসন সংরক্ষণ করেন, নথি জমা দেন ও সময়সীমা অনুসরণ করেন।",
+      "of": "743b3f8e",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[1].detail",
+        "charlotte-latin:guide.bands[1].checklistRows[1].detail",
+        "charlotte-latin:guide.bands[2].checklistRows[1].detail",
+        "charlotte-latin:guide.bands[3].checklistRows[1].detail"
+      ]
+    },
+    {
+      "t": "TK/K Fly By Open House-এ আসন সংরক্ষণ করুন",
+      "of": "9280874d",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[2].action"
+      ]
+    },
+    {
+      "t": "ঐচ্ছিক। 10 অক্টোবর 2026, সকাল 9:30–11:00। ক্যাম্পাস পরিদর্শন সেপ্টেম্বর থেকে চলে।",
+      "of": "a42e83e7",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[2].detail"
+      ]
+    },
+    {
+      "t": "আবেদনটি জমা দিন",
+      "of": "9aae6324",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[3].action",
+        "charlotte-latin:guide.bands[1].checklistRows[2].action",
+        "charlotte-latin:guide.bands[2].checklistRows[2].action",
+        "charlotte-latin:guide.bands[3].checklistRows[2].action"
+      ]
+    },
+    {
+      "t": "শ্রেণি 1–12-এর সময়সীমার তেরো দিন আগে। কোনো বয়সসীমা প্রকাশ করা হয়নি।",
+      "of": "614a3486",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[3].detail"
+      ]
+    },
+    {
+      "t": "দপ্তর আপনার জন্য যে Visit Day ঠিক করে, তাতে যোগ দিন",
+      "of": "b443342a",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[4].action"
+      ]
+    },
+    {
+      "t": "Latin-এর একটি শ্রেণিকক্ষে কয়েক ঘণ্টা; অভিভাবকেরা বর্তমান অভিভাবক ও একটি শিক্ষার্থী প্যানেলের সঙ্গে মিলিত হন।",
+      "of": "4d1ad8cc",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[4].detail"
+      ]
+    },
+    {
+      "t": "আপনার জন্য নির্ধারিত",
+      "of": "8456386c",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[4].due"
+      ]
+    },
+    {
+      "t": "WPPSI পরীক্ষার সময় ঠিক করে সম্পন্ন করুন",
+      "of": "22d082a0",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[5].action"
+      ]
+    },
+    {
+      "t": "CAIS-এর একজন মনোবিজ্ঞানীর সঙ্গে আগেভাগে নির্ধারিত; নম্বরগুলো Latin-এ পাঠাতে বলুন।",
+      "of": "4f9cd594",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[5].detail"
+      ]
+    },
+    {
+      "t": "আপনার সময়সীমার আগে",
+      "of": "de184993",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[5].due",
+        "charlotte-latin:guide.bands[1].checklistRows[3].due",
+        "charlotte-latin:guide.bands[1].checklistRows[4].due"
+      ]
+    },
+    {
+      "t": "Clarity আর্থিক সহায়তার আবেদনটি জমা দিন",
+      "of": "c01cea75",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[6].action",
+        "charlotte-latin:guide.bands[1].checklistRows[5].action",
+        "charlotte-latin:guide.bands[2].checklistRows[6].action",
+        "charlotte-latin:guide.bands[3].checklistRows[6].action"
+      ]
+    },
+    {
+      "t": "ঐচ্ছিক। 15 সেপ্টেম্বর 2026-এ খোলে; একটি আবেদনেই একাধিক সন্তান অন্তর্ভুক্ত হয়।",
+      "of": "283a6c3c",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[6].detail",
+        "charlotte-latin:guide.bands[1].checklistRows[5].detail",
+        "charlotte-latin:guide.bands[2].checklistRows[6].detail",
+        "charlotte-latin:guide.bands[3].checklistRows[6].detail"
+      ]
+    },
+    {
+      "t": "সিদ্ধান্ত ও চুক্তির তারিখ ভর্তি দপ্তরের সঙ্গে নিশ্চিত করুন",
+      "of": "397c18a8",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[7].action",
+        "charlotte-latin:guide.bands[1].checklistRows[6].action",
+        "charlotte-latin:guide.bands[2].checklistRows[7].action",
+        "charlotte-latin:guide.bands[3].checklistRows[7].action"
+      ]
+    },
+    {
+      "t": "কোনো স্তরের জন্যই এর কোনোটি প্রকাশ করা হয়নি। কবে উত্তর আশা করবেন তা জিজ্ঞেস করুন।",
+      "of": "c3c92423",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[7].detail",
+        "charlotte-latin:guide.bands[1].checklistRows[6].detail",
+        "charlotte-latin:guide.bands[2].checklistRows[7].detail",
+        "charlotte-latin:guide.bands[3].checklistRows[7].detail"
+      ]
+    },
+    {
+      "t": "নিশ্চিত করুন",
+      "of": "a183c9ef",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[7].due",
+        "charlotte-latin:guide.bands[1].checklistRows[6].due",
+        "charlotte-latin:guide.bands[2].checklistRows[7].due",
+        "charlotte-latin:guide.bands[3].checklistRows[7].due"
+      ]
+    },
+    {
+      "t": "Lower School · শ্রেণি 1–5",
+      "of": "10dbffb6",
+      "at": [
+        "charlotte-latin:guide.bands[1].label"
+      ]
+    },
+    {
+      "t": "Lower School — শ্রেণি 1–5",
+      "of": "13828dad",
+      "at": [
+        "charlotte-latin:guide.bands[1].title"
+      ]
+    },
+    {
+      "t": "আবশ্যিক প্রথম ধাপ: পরিবারগুলো «প্রথমে একটি অনুসন্ধান পাঠায় এবং তারপর নিজেদের পরিবারের জন্য একটি প্রোফাইল তৈরি করে»। এরপর সেই অ্যাকাউন্টই আপনাকে ঐচ্ছিক ভর্তি-অনুষ্ঠানে আসন সংরক্ষণ করতে, নথিপত্র জমা দিতে, ফর্ম খুঁজে নিতে এবং সময়সীমা মানতে বলে।",
+      "of": "2f3ea626",
+      "at": [
+        "charlotte-latin:guide.bands[1].steps[0].detail",
+        "charlotte-latin:guide.bands[2].steps[0].detail",
+        "charlotte-latin:guide.bands[3].steps[0].detail"
+      ]
+    },
+    {
+      "t": "আবশ্যিক, এবং সময়সীমা **15 জানুয়ারি 2027** — 1 থেকে 12 পর্যন্ত প্রতিটি শ্রেণি যে সময়সীমা ধরে চলে, Transitional Kindergarten ও Kindergarten-এর চেয়ে তেরো দিন পরে।",
+      "of": "1994f5d5",
+      "at": [
+        "charlotte-latin:guide.bands[1].steps[1].detail"
+      ]
+    },
+    {
+      "t": "একটি Visit Day ঠিক করে তাতে যোগ দিন",
+      "of": "b79bc13d",
+      "at": [
+        "charlotte-latin:guide.bands[1].steps[2].title",
+        "charlotte-latin:guide.bands[1].checklistRows[3].action"
+      ]
+    },
+    {
+      "t": "আপনি বুক করেন",
+      "of": "38b9bc86",
+      "at": [
+        "charlotte-latin:guide.bands[1].steps[2].tag",
+        "charlotte-latin:guide.bands[2].steps[2].tag",
+        "charlotte-latin:guide.bands[3].steps[2].tag"
+      ]
+    },
+    {
+      "t": "আবশ্যিক, এবং **এই স্তর থেকে উপরের দিকে পরিবারই সময় ঠিক করে**: «একটি Visit Day ঠিক করুন।» ভর্তি দপ্তর কেবল TK ও Kindergarten-এর পরিদর্শনগুলোই বুক করে। আপনার সন্তান Latin-এর একটি শ্রেণিকক্ষে সময় কাটায়, আর আপনি বিদ্যালয়টির সঙ্গে পরিচিত হন।",
+      "of": "9533cc8c",
+      "at": [
+        "charlotte-latin:guide.bands[1].steps[2].detail"
+      ]
+    },
+    {
+      "t": "আপনার সন্তানের শ্রেণির জন্য নির্ধারিত প্রমিত পরীক্ষাটি সম্পন্ন করুন",
+      "of": "970a438f",
+      "at": [
+        "charlotte-latin:guide.bands[1].steps[3].title"
+      ]
+    },
+    {
+      "t": "আবশ্যিক, এবং **এই একই স্তরের ভেতরেই পরীক্ষাটি দুবার বদলায়**: শ্রেণি 1-এর আবেদনকারীরা **WPPSI**, শ্রেণি 2–4 **WISC-V** এবং শ্রেণি 5 **ISEE** দেয়। এর সঙ্গে বুকিংয়ের পথও বদলায়। WPPSI ও WISC-V পরিচালনা করেন Charlotte Area Independent Schools কনসোর্টিয়ামের একজন মনোবিজ্ঞানী, যাঁর সঙ্গে আপনি সরাসরি যোগাযোগ করেন; ISEE তৈরি ও পরিচালনা করে **Educational Records Bureau**, আর শ্রেণি 5-এর পরিবারগুলো ERB-র মাধ্যমে নিবন্ধন করে। কিছু বুক করার আগে দেখে নিন আপনার সন্তান যে শ্রেণিতে ঢুকছে তার জন্য কোনটি প্রযোজ্য।",
+      "of": "c8fe6d82",
+      "at": [
+        "charlotte-latin:guide.bands[1].steps[3].detail"
+      ]
+    },
+    {
+      "t": "ঐচ্ছিক, এবং এর নিজস্ব সময়সূচি আছে: আবেদনটি **Clarity**-র মাধ্যমে **15 সেপ্টেম্বর 2026**-এ খোলে এবং অগ্রাধিকার পর্যায়ে বিবেচনার জন্য **15 জানুয়ারি 2027**-এর মধ্যে জমা দিতে হয় — এই স্তরের আবেদনের সময়সীমার সঙ্গে একই দিনে। একটি আবেদনই পরিবারের সব সন্তানকে অন্তর্ভুক্ত করে।",
+      "of": "46e1a067",
+      "at": [
+        "charlotte-latin:guide.bands[1].steps[4].detail"
+      ]
+    },
+    {
+      "t": "এই একই স্তরের ভেতরেই পরীক্ষাটি দুবার বদলায়।",
+      "of": "fe67f3cc",
+      "at": [
+        "charlotte-latin:guide.bands[1].checklistCallout.lead"
+      ]
+    },
+    {
+      "t": "শ্রেণি 1 দেয় WPPSI, শ্রেণি 2–4 দেয় WISC-V আর শ্রেণি 5 দেয় ISEE — আর এর সঙ্গে বুকিংয়ের পথও বদলায়, সরাসরি যোগাযোগ করা CAIS মনোবিজ্ঞানী থেকে Educational Records Bureau-তে নিবন্ধন পর্যন্ত। বুক করার আগে নিশ্চিত করুন আপনার সন্তানের ভর্তির শ্রেণির জন্য কোন পরীক্ষাটি প্রযোজ্য। এই স্তরের জন্য সব নথি জমার কোনো সময়সীমা প্রকাশ করা হয়নি, তাই কী কী বাকি আছে তার প্রামাণ্য তালিকা হিসেবে আপনার পোর্টালের চেকলিস্টটিকেই ধরুন, আর কোনো স্তরের জন্যই সিদ্ধান্তের তারিখ বা ভর্তি চুক্তির তারিখ প্রকাশ করা হয়নি — দুটোই ভর্তি দপ্তরের সঙ্গে নিশ্চিত করে নিন।",
+      "of": "de9b42bc",
+      "at": [
+        "charlotte-latin:guide.bands[1].checklistCallout.text"
+      ]
+    },
+    {
+      "t": "শ্রেণি 1–12-এর সময়সীমা, TK/K-এর চেয়ে তেরো দিন পরে।",
+      "of": "2e0d0ce3",
+      "at": [
+        "charlotte-latin:guide.bands[1].checklistRows[2].detail"
+      ]
+    },
+    {
+      "t": "শ্রেণি 1 থেকে উপরের দিকে পরিবারই এটি বুক করে, ভর্তি দপ্তর নয়।",
+      "of": "1eff8cfa",
+      "at": [
+        "charlotte-latin:guide.bands[1].checklistRows[3].detail"
+      ]
+    },
+    {
+      "t": "আপনার ভর্তির শ্রেণির পরীক্ষার সময় ঠিক করে সম্পন্ন করুন",
+      "of": "58f28450",
+      "at": [
+        "charlotte-latin:guide.bands[1].checklistRows[4].action"
+      ]
+    },
+    {
+      "t": "শ্রেণি 1 WPPSI · শ্রেণি 2–4 WISC-V (দুটোই CAIS) · শ্রেণি 5 ISEE (ERB-র মাধ্যমে)।",
+      "of": "cc9ee7d8",
+      "at": [
+        "charlotte-latin:guide.bands[1].checklistRows[4].detail"
+      ]
+    },
+    {
+      "t": "Middle School · শ্রেণি 6–8",
+      "of": "d3378ce2",
+      "at": [
+        "charlotte-latin:guide.bands[2].label"
+      ]
+    },
+    {
+      "t": "Middle School — শ্রেণি 6–8",
+      "of": "6850595d",
+      "at": [
+        "charlotte-latin:guide.bands[2].title"
+      ]
+    },
+    {
+      "t": "পরীক্ষা সম্পন্ন ও জমা",
+      "of": "843e4f26",
+      "at": [
+        "charlotte-latin:guide.bands[2].deadlines[1].label",
+        "charlotte-latin:guide.bands[3].deadlines[1].label"
+      ]
+    },
+    {
+      "t": "সব নথি জমার সময়সীমা",
+      "of": "80c0f159",
+      "at": [
+        "charlotte-latin:guide.bands[2].deadlines[2].label",
+        "charlotte-latin:guide.bands[3].deadlines[2].label"
+      ]
+    },
+    {
+      "t": "আবশ্যিক, এবং সময়সীমা **15 জানুয়ারি 2027** — 1 থেকে 12 পর্যন্ত প্রতিটি শ্রেণির অভিন্ন সময়সীমা। ষষ্ঠ শ্রেণি সেই বছরগুলোর একটি যেখানে বিদ্যালয়টি «স্বাভাবিকভাবে বিস্তৃত হয়», TK, Kindergarten ও নবম শ্রেণির সঙ্গে।",
+      "of": "85254822",
+      "at": [
+        "charlotte-latin:guide.bands[2].steps[1].detail"
+      ]
+    },
+    {
+      "t": "একটি Visit Day ঠিক করে তাতে যোগ দিন — সাক্ষাৎকারসহ",
+      "of": "61a0f672",
+      "at": [
+        "charlotte-latin:guide.bands[2].steps[2].title"
+      ]
+    },
+    {
+      "t": "আবশ্যিক, এবং পরিবারই সময় ঠিক করে। এই স্তরের Visit Day নিচের স্তরগুলোর চেয়ে অনেক বেশি কিছু করে: «আপনার সম্ভাব্য Middle School শিক্ষার্থী **একটি সাক্ষাৎকার দেবে, একটি মূল্যায়নে অংশ নেবে, একটি ক্লাস পর্যবেক্ষণ করবে এবং Latin-এর শিক্ষার্থীদের সঙ্গে মিশবে**।» এটিকে পরিদর্শন নয়, বরং একটি মূল্যায়নের দিন হিসেবেই ধরুন — এই স্তরের জন্য সাক্ষাৎকার ও সরাসরি মূল্যায়ন, দুটোই স্পষ্টভাবে উল্লেখ করা আছে।",
+      "of": "7e2e5a3c",
+      "at": [
+        "charlotte-latin:guide.bands[2].steps[2].detail"
+      ]
+    },
+    {
+      "t": "ISEE সম্পন্ন করুন",
+      "of": "fb6e267d",
+      "at": [
+        "charlotte-latin:guide.bands[2].steps[3].title",
+        "charlotte-latin:guide.bands[3].steps[3].title"
+      ]
+    },
+    {
+      "t": "আবশ্যিক: **শ্রেণি 6–8-এর আবেদনকারীরা ISEE দেয়**, এবং «Middle School-এর সব পরীক্ষা **26 ফেব্রুয়ারি 2027**-এর মধ্যে সম্পন্ন ও জমা দিতে হবে»। ISEE তৈরি ও পরিচালনা করে **Educational Records Bureau**, আর আপনি বিদ্যালয়ের নয়, ERB-র মাধ্যমে নিবন্ধন করেন। ওই 26 ফেব্রুয়ারি তারিখটিই এই স্তরের নির্ধারক সীমা — **সেখান থেকে পিছিয়ে হিসেব করে নিবন্ধনের পরিকল্পনা করুন**, কারণ পরীক্ষার আসন বুক করা, পরীক্ষা দেওয়া ও নম্বর পাওয়া — সবই সময়সীমার আগে সারতে হবে, সেদিনে নয়।",
+      "of": "570ae04d",
+      "at": [
+        "charlotte-latin:guide.bands[2].steps[3].detail"
+      ]
+    },
+    {
+      "t": "আপনার ফাইলটি সম্পূর্ণ করুন",
+      "of": "d6b72a0d",
+      "at": [
+        "charlotte-latin:guide.bands[2].steps[4].title",
+        "charlotte-latin:guide.bands[3].steps[4].title"
+      ]
+    },
+    {
+      "t": "সব নথি জমার সময়সীমা **26 ফেব্রুয়ারি 2027**, পরীক্ষার সময়সীমার সঙ্গে একই দিন। কী কী বাকি আছে তা আপনার পোর্টাল অ্যাকাউন্টেই তালিকাভুক্ত থাকে এবং সেখানেই জমা দেওয়া হয়।",
+      "of": "c7fda622",
+      "at": [
+        "charlotte-latin:guide.bands[2].steps[4].detail",
+        "charlotte-latin:guide.bands[3].steps[4].detail"
+      ]
+    },
+    {
+      "t": "ঐচ্ছিক, এবং এর নিজস্ব সময়সূচি আছে: আবেদনটি **Clarity**-র মাধ্যমে **15 সেপ্টেম্বর 2026**-এ খোলে এবং অগ্রাধিকার পর্যায়ে বিবেচনার জন্য **15 জানুয়ারি 2027**-এর মধ্যে জমা দিতে হয় — নথি জমার সময়সীমার ছয় সপ্তাহ আগে। একটি আবেদনই পরিবারের সব সন্তানকে অন্তর্ভুক্ত করে।",
+      "of": "f75db188",
+      "at": [
+        "charlotte-latin:guide.bands[2].steps[5].detail",
+        "charlotte-latin:guide.bands[3].steps[5].detail"
+      ]
+    },
+    {
+      "t": "26 ফেব্রুয়ারি 2027-ই এই স্তরের নির্ধারক তারিখ।",
+      "of": "eb208bbd",
+      "at": [
+        "charlotte-latin:guide.bands[2].checklistCallout.lead",
+        "charlotte-latin:guide.bands[3].checklistCallout.lead"
+      ]
+    },
+    {
+      "t": "ISEE এবং ফাইলের বাকি প্রতিটি বিষয় সেদিনই জমা দিতে হয়, তাই ওই তারিখটিকে লক্ষ্য না করে সেখান থেকে পিছিয়ে হিসেব করে ERB নিবন্ধনের পরিকল্পনা করুন — পরীক্ষার আসন বুক করা, পরীক্ষা দেওয়া ও নম্বর পাওয়া সবই সময়সীমার আগে সারতে হবে। Visit Day একটি মূল্যায়নের দিন, পরিদর্শন নয়: এতে থাকে একটি সাক্ষাৎকার, সরাসরি একটি মূল্যায়ন এবং একটি ক্লাস পর্যবেক্ষণ। কোনো স্তরের জন্যই সিদ্ধান্তের তারিখ বা ভর্তি চুক্তির তারিখ প্রকাশ করা হয়নি — দুটোই ভর্তি দপ্তরের সঙ্গে নিশ্চিত করে নিন।",
+      "of": "140bd0c5",
+      "at": [
+        "charlotte-latin:guide.bands[2].checklistCallout.text"
+      ]
+    },
+    {
+      "t": "শ্রেণি 1–12-এর সময়সীমা। ষষ্ঠ শ্রেণি একটি স্বাভাবিক বিস্তারের বছর।",
+      "of": "4da27e9e",
+      "at": [
+        "charlotte-latin:guide.bands[2].checklistRows[2].detail"
+      ]
+    },
+    {
+      "t": "Visit Day ঠিক করে তাতে যোগ দিন",
+      "of": "d0848c6d",
+      "at": [
+        "charlotte-latin:guide.bands[2].checklistRows[3].action",
+        "charlotte-latin:guide.bands[3].checklistRows[3].action"
+      ]
+    },
+    {
+      "t": "এতে থাকে একটি সাক্ষাৎকার, সরাসরি একটি মূল্যায়ন এবং একটি ক্লাস পর্যবেক্ষণ।",
+      "of": "fa886508",
+      "at": [
+        "charlotte-latin:guide.bands[2].checklistRows[3].detail"
+      ]
+    },
+    {
+      "t": "26 ফেব্রুয়ারি 2027-এর আগে",
+      "of": "7f3d9474",
+      "at": [
+        "charlotte-latin:guide.bands[2].checklistRows[3].due",
+        "charlotte-latin:guide.bands[3].checklistRows[3].due"
+      ]
+    },
+    {
+      "t": "Educational Records Bureau-র মাধ্যমে বুক করা হয়; নম্বর পাওয়ার মতো যথেষ্ট আগে বুক করুন।",
+      "of": "03ca39a5",
+      "at": [
+        "charlotte-latin:guide.bands[2].checklistRows[4].detail"
+      ]
+    },
+    {
+      "t": "ফাইলের বাকি প্রতিটি নথি জমা দিন",
+      "of": "13638683",
+      "at": [
+        "charlotte-latin:guide.bands[2].checklistRows[5].action",
+        "charlotte-latin:guide.bands[3].checklistRows[5].action"
+      ]
+    },
+    {
+      "t": "কী কী বাকি আছে তা আপনার পোর্টালের চেকলিস্টেই তালিকাভুক্ত থাকে।",
+      "of": "9e151ce5",
+      "at": [
+        "charlotte-latin:guide.bands[2].checklistRows[5].detail",
+        "charlotte-latin:guide.bands[3].checklistRows[5].detail"
+      ]
+    },
+    {
+      "t": "Upper School · শ্রেণি 9–12",
+      "of": "3ae019cb",
+      "at": [
+        "charlotte-latin:guide.bands[3].label"
+      ]
+    },
+    {
+      "t": "Upper School — শ্রেণি 9–12",
+      "of": "acd3948e",
+      "at": [
+        "charlotte-latin:guide.bands[3].title"
+      ]
+    },
+    {
+      "t": "আবশ্যিক, এবং সময়সীমা **15 জানুয়ারি 2027** — 1 থেকে 12 পর্যন্ত প্রতিটি শ্রেণির অভিন্ন সময়সীমা। নবম শ্রেণি সেই বছরগুলোর একটি যেখানে বিদ্যালয়টি «স্বাভাবিকভাবে বিস্তৃত হয়», TK, Kindergarten ও ষষ্ঠ শ্রেণির সঙ্গে।",
+      "of": "b6749c0e",
+      "at": [
+        "charlotte-latin:guide.bands[3].steps[1].detail"
+      ]
+    },
+    {
+      "t": "একটি Visit Day ঠিক করে তাতে যোগ দিন — সাক্ষাৎকার ও ছায়া-দিবস",
+      "of": "64dad70e",
+      "at": [
+        "charlotte-latin:guide.bands[3].steps[2].title"
+      ]
+    },
+    {
+      "t": "আবশ্যিক, এবং পরিবারই সময় ঠিক করে। এই স্তরে একটি আনুষ্ঠানিক সাক্ষাৎকারের সঙ্গে একটি ছায়া-অভিজ্ঞতা যুক্ত হয়: «আপনার সম্ভাব্য Upper School শিক্ষার্থী **একটি সাক্ষাৎকার দেবে, Latin-এর একজন Student Ambassador-এর সঙ্গে মিশবে এবং Latin শিক্ষার্থীর জীবনের একটি দিন কাটাবে**।» আপনার সন্তান আপনার সঙ্গে ক্যাম্পাস ঘুরে দেখার বদলে একজন বর্তমান শিক্ষার্থীর পাশে থেকে দিনটি কাটায়।",
+      "of": "dca8f1df",
+      "at": [
+        "charlotte-latin:guide.bands[3].steps[2].detail"
+      ]
+    },
+    {
+      "t": "**শ্রেণি 9–11-এর আবেদনকারীদের** জন্য আবশ্যিক, যারা «ISEE দেয়», এবং «Upper School-এর সব পরীক্ষা **26 ফেব্রুয়ারি 2027**-এর মধ্যে সম্পন্ন ও জমা দিতে হবে»। নিবন্ধন হয় বিদ্যালয়ের নয়, **Educational Records Bureau**-র মাধ্যমে, আর 26 ফেব্রুয়ারিই এই স্তরের নির্ধারক সীমা — **সেখান থেকে পিছিয়ে হিসেব করে নিবন্ধনের পরিকল্পনা করুন**, কারণ পরীক্ষার আসন বুক করা, পরীক্ষা দেওয়া ও নম্বর পাওয়া সবই সময়সীমার আগে সারতে হবে। **শ্রেণি 12-এর আবেদনকারীদের জন্য কোনো ভর্তি-পরীক্ষা প্রকাশ করা হয়নি**: প্রকাশিত শর্তটি কেবল শ্রেণি 9 থেকে 11 পর্যন্তই প্রযোজ্য, তাই শ্রেণি 12-এর পরিবারের উচিত ভর্তি দপ্তরকে জিজ্ঞেস করা কী প্রযোজ্য।",
+      "of": "4ecd4f4c",
+      "at": [
+        "charlotte-latin:guide.bands[3].steps[3].detail"
+      ]
+    },
+    {
+      "t": "ISEE এবং ফাইলের বাকি প্রতিটি বিষয় সেদিনই জমা দিতে হয়, তাই ওই তারিখটিকে লক্ষ্য না করে সেখান থেকে পিছিয়ে হিসেব করে ERB নিবন্ধনের পরিকল্পনা করুন। Visit Day-তে একটি সাক্ষাৎকারের সঙ্গে একজন Student Ambassador-এর পাশে থাকা একটি ছায়া-দিবস যুক্ত হয়, ফলে আপনার সন্তান দিনটি একজন Latin শিক্ষার্থীর মতোই কাটায়। প্রকাশিত পরীক্ষার শর্তটি শ্রেণি 9 থেকে 11 পর্যন্ত প্রযোজ্য — শ্রেণি 12-এর আবেদনকারীদের জন্য কিছুই প্রকাশ করা হয়নি, তাই ভর্তি দপ্তরকে জিজ্ঞেস করুন কী প্রযোজ্য। কোনো স্তরের জন্যই সিদ্ধান্তের তারিখ বা ভর্তি চুক্তির তারিখ প্রকাশ করা হয়নি; দুটোই দপ্তরের সঙ্গে নিশ্চিত করে নিন।",
+      "of": "012d1a5d",
+      "at": [
+        "charlotte-latin:guide.bands[3].checklistCallout.text"
+      ]
+    },
+    {
+      "t": "শ্রেণি 1–12-এর সময়সীমা। নবম শ্রেণি একটি স্বাভাবিক বিস্তারের বছর।",
+      "of": "3eb92b51",
+      "at": [
+        "charlotte-latin:guide.bands[3].checklistRows[2].detail"
+      ]
+    },
+    {
+      "t": "একটি সাক্ষাৎকার এবং Latin-এর একজন Student Ambassador-এর পাশে একটি ছায়া-দিবস।",
+      "of": "45bfe4c3",
+      "at": [
+        "charlotte-latin:guide.bands[3].checklistRows[3].detail"
+      ]
+    },
+    {
+      "t": "ISEE-র জন্য নিবন্ধন করে পরীক্ষা দিন (শ্রেণি 9–11)",
+      "of": "134dc7b0",
+      "at": [
+        "charlotte-latin:guide.bands[3].checklistRows[4].action"
+      ]
+    },
+    {
+      "t": "Educational Records Bureau-র মাধ্যমে। শ্রেণি 12-এর জন্য কিছুই প্রকাশ করা হয়নি।",
+      "of": "b404a6ae",
+      "at": [
+        "charlotte-latin:guide.bands[3].checklistRows[4].detail"
+      ]
+    },
+    {
+      "t": "সহায়তা চলে **Clarity**-র মাধ্যমে, খোলে **15 সেপ্টেম্বর 2026**-এ এবং অগ্রাধিকার পর্যায়ে বিবেচনার জন্য **15 জানুয়ারি 2027**-এর মধ্যে জমা দিতে হয়। একটি আবেদনই পরিবারের সব সন্তানকে অন্তর্ভুক্ত করে এবং «সাধারণত 30 মিনিট বা তার কম সময়ে সম্পন্ন হয়»। এর বাইরে, «প্রথম ভর্তি বা পুনঃভর্তির সময়» একটি **$2,500 অফেরতযোগ্য জমা** «আবশ্যক», যা «দ্বিতীয় টিউশন কিস্তি থেকে বাদ দেওয়া হয়» — এটি ছাড়া কোনো শিক্ষার্থীকে ভর্তি বা পুনঃভর্তি করা যায় না। এই চক্রের জন্য **কোনো সহায়তা-আবেদন ফি প্রকাশ করা হয়নি**।",
+      "of": "3cf2392e",
+      "at": [
+        "charlotte-latin:guide.aid.text"
+      ]
+    },
+    {
+      "t": "কে Visit Day ঠিক করে",
+      "of": "3f974743",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[1].label"
+      ]
+    },
+    {
+      "t": "পরিবার",
+      "of": "92b7489c",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[1].cells.ls",
+        "charlotte-latin:guide.comparison.rows[1].cells.ms",
+        "charlotte-latin:guide.comparison.rows[1].cells.us"
+      ]
+    },
+    {
+      "t": "প্রমিত পরীক্ষা",
+      "of": "dbeeb10c",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[2].label"
+      ]
+    },
+    {
+      "t": "WPPSI",
+      "of": "ba951af2",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[2].cells.tkk"
+      ]
+    },
+    {
+      "t": "WPPSI (শ্রে. 1) · WISC-V (শ্রে. 2–4) · ISEE (শ্রে. 5)",
+      "of": "a3f2fffc",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[2].cells.ls"
+      ]
+    },
+    {
+      "t": "ISEE",
+      "of": "eac03f6f",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[2].cells.ms"
+      ]
+    },
+    {
+      "t": "ISEE (শ্রে. 9–11) · শ্রে. 12-এর জন্য কিছুই প্রকাশিত নয়",
+      "of": "e53f0f3e",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[2].cells.us"
+      ]
+    },
+    {
+      "t": "Visit Day-তে সাক্ষাৎকার",
+      "of": "3dccbfff",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[3].label"
+      ]
+    },
+    {
+      "t": "বর্ণনা করা হয়নি",
+      "of": "664909c9",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[3].cells.tkk",
+        "charlotte-latin:guide.comparison.rows[3].cells.ls"
+      ]
+    },
+    {
+      "t": "হ্যাঁ",
+      "of": "b3a43630",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[3].cells.ms",
+        "charlotte-latin:guide.comparison.rows[3].cells.us"
+      ]
+    },
+    {
+      "t": "Visit Day কী",
+      "of": "5f233293",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[4].label"
+      ]
+    },
+    {
+      "t": "Latin-এর একটি শ্রেণিকক্ষে কয়েক ঘণ্টা; অভিভাবকেরা বর্তমান অভিভাবক ও Upper School শিক্ষার্থীদের একটি প্যানেলের সঙ্গে মিলিত হন",
+      "of": "1049268f",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[4].cells.tkk"
+      ]
+    },
+    {
+      "t": "একটি শ্রেণিকক্ষ পরিদর্শন",
+      "of": "81cd14ec",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[4].cells.ls"
+      ]
+    },
+    {
+      "t": "সাক্ষাৎকার, সরাসরি মূল্যায়ন এবং একটি ক্লাস পর্যবেক্ষণ",
+      "of": "718f4a5f",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[4].cells.ms"
+      ]
+    },
+    {
+      "t": "সাক্ষাৎকার, একজন Student Ambassador এবং একজন Latin শিক্ষার্থীর জীবনের একটি দিন",
+      "of": "fbbb0b92",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[4].cells.us"
+      ]
+    },
+    {
+      "t": "পরীক্ষা ও নথি জমার সময়সীমা",
+      "of": "6aff044f",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[5].label"
+      ]
+    },
+    {
+      "t": "কিছুই প্রকাশিত নয়",
+      "of": "de8a893d",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[5].cells.tkk",
+        "charlotte-latin:guide.comparison.rows[5].cells.ls"
+      ]
+    },
+    {
+      "t": "সিদ্ধান্ত ও চুক্তি",
+      "of": "6a9bcae4",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[6].label"
+      ]
+    },
+    {
+      "t": "কোনো স্তরেই প্রকাশিত নয় — ভর্তি দপ্তরের সঙ্গে নিশ্চিত করুন। প্রকাশিত প্রতিটি সময়রেখা আবেদন বা নথি জমার সময়সীমাতেই শেষ হয়, আর কোনো ভর্তি পাতায় বিজ্ঞপ্তির তারিখ, বিজ্ঞপ্তির সময় বা ভর্তি চুক্তির তারিখ নেই।",
+      "of": "edcb873e",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[6].cells.all"
+      ]
+    },
+    {
+      "t": "প্রতিটি স্তরেই অপরিবর্তিত",
+      "of": "4e17969e",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[7].label",
+        "charlotte-christian:guide.comparison.rows[10].label",
+        "charlotte-country-day:guide.comparison.rows[8].label"
+      ]
+    },
+    {
+      "t": "Finalsite Enrollment পোর্টাল, প্রথম অনুসন্ধান থেকে প্রতিটি জমা পর্যন্ত · Clarity-র মাধ্যমে আর্থিক সহায়তা, 15 সেপ্টেম্বর 2026-এ খোলে ও 15 জানুয়ারি 2027-এ শেষ · একটি $2,500 অফেরতযোগ্য ভর্তির জমা, যা দ্বিতীয় টিউশন কিস্তি থেকে বাদ দেওয়া হয়",
+      "of": "c88c2a4f",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[7].cells.all"
+      ]
+    },
+    {
+      "t": "9502 Providence Road, Charlotte, NC 28277 · ভর্তি 704-846-7207 · admissions@charlottelatin.org · আর্থিক সহায়তা financialaid@charlottelatin.org। প্রতিটি আবেদনকারীকে একজন ভর্তি পরামর্শদাতা দেওয়া হয়, যিনি পুরো প্রক্রিয়ায় পরিবারটিকে পথ দেখান; নিচের দলটির জন্য আলাদা কোনো ফোন নম্বর বা ইমেল ঠিকানা প্রকাশ করা হয় না।",
+      "of": "54cfc16d",
+      "at": [
+        "charlotte-latin:guide.contacts.address"
+      ]
+    },
+    {
+      "t": "ভর্তি ব্যবস্থাপনা পরিচালক",
+      "of": "df651b3d",
+      "at": [
+        "charlotte-latin:guide.contacts.people[0].detail"
+      ]
+    },
+    {
+      "t": "সহযোগী ভর্তি পরিচালক · ভর্তি পরামর্শদাতা",
+      "of": "4e58d111",
+      "at": [
+        "charlotte-latin:guide.contacts.people[1].detail"
+      ]
+    },
+    {
+      "t": "ভর্তি পরামর্শদাতা",
+      "of": "eb95e285",
+      "at": [
+        "charlotte-latin:guide.contacts.people[2].detail"
+      ]
+    },
+    {
+      "t": "ভর্তি পরামর্শদাতা · 1998 ব্যাচ",
+      "of": "fcdc41ec",
+      "at": [
+        "charlotte-latin:guide.contacts.people[3].detail"
+      ]
+    },
+    {
+      "t": "আবেদন সমন্বয়কারী · 1996 ব্যাচ",
+      "of": "b5884e8b",
+      "at": [
+        "charlotte-latin:guide.contacts.people[4].detail"
+      ]
+    },
+    {
+      "t": "ভর্তি দপ্তর ব্যবস্থাপক · 2007 ব্যাচ",
+      "of": "4f3b2087",
+      "at": [
+        "charlotte-latin:guide.contacts.people[5].detail"
+      ]
+    },
+    {
+      "t": "ভর্তি ও আর্থিক সহায়তা সহায়ক",
+      "of": "5e192879",
+      "at": [
+        "charlotte-latin:guide.contacts.people[6].detail"
+      ]
+    },
+    {
+      "t": "ভর্তি সহায়ক কর্মী",
+      "of": "12fae1ce",
+      "at": [
+        "charlotte-latin:guide.contacts.people[7].detail"
+      ]
+    },
+    {
+      "t": "পরিদর্শন গাইড · ভর্তি সহায়ক কর্মী",
+      "of": "6e03dd3d",
+      "at": [
+        "charlotte-latin:guide.contacts.people[8].detail"
+      ]
+    },
+    {
+      "t": "পোর্টাল: Finalsite Enrollment · charlottelatin.fsenrollment.com",
+      "of": "e9f72c55",
+      "at": [
+        "charlotte-latin:guide.checklist.portalNote"
+      ]
+    },
+    {
+      "t": "app.clarityapp.com-এ Clarity-র মাধ্যমে আবেদন করুন। একাধিক সন্তানের জন্য আবেদন করলেও একটিই আবেদন লাগে, আর সাধারণত তা 30 মিনিট বা তার কম সময়ে সম্পন্ন হয়।",
+      "of": "56448a96",
+      "at": [
+        "charlotte-latin:guide.checklist.aidPanel.items[0]"
+      ]
+    },
+    {
+      "t": "আবেদনটি 15 সেপ্টেম্বর 2026-এ খোলে।",
+      "of": "6bf9db81",
+      "at": [
+        "charlotte-latin:guide.checklist.aidPanel.items[1]"
+      ]
+    },
+    {
+      "t": "অগ্রাধিকার পর্যায়ের সিদ্ধান্তে বিবেচিত হতে 15 জানুয়ারি 2027-এর মধ্যে জমা দিন।",
+      "of": "43ac5026",
+      "at": [
+        "charlotte-latin:guide.checklist.aidPanel.items[2]"
+      ]
+    },
+    {
+      "t": "প্রথম ভর্তি বা পুনঃভর্তির সময় একটি $2,500 অফেরতযোগ্য জমা আবশ্যক, এবং তা দ্বিতীয় টিউশন কিস্তি থেকে বাদ দেওয়া হয়। এটি ছাড়া কোনো শিক্ষার্থীকে ভর্তি বা পুনঃভর্তি করা যায় না।",
+      "of": "b8b6dd06",
+      "at": [
+        "charlotte-latin:guide.checklist.aidPanel.items[3]"
+      ]
+    },
+    {
+      "t": "এই চক্রের জন্য কোনো আর্থিক সহায়তা আবেদন ফি প্রকাশ করা হয়নি।",
+      "of": "45020e8a",
+      "at": [
+        "charlotte-latin:guide.checklist.aidPanel.items[4]"
+      ]
+    },
+    {
+      "t": "ভর্তি — 704-846-7207 · admissions@charlottelatin.org",
+      "of": "3512895d",
+      "at": [
+        "charlotte-latin:guide.checklist.contactPanel.lines[0]"
+      ]
+    },
+    {
+      "t": "আর্থিক সহায়তা — financialaid@charlottelatin.org",
+      "of": "46985bd5",
+      "at": [
+        "charlotte-latin:guide.checklist.contactPanel.lines[1]"
+      ]
+    },
+    {
+      "t": "9502 Providence Road, Charlotte, NC 28277",
+      "of": "11d622f9",
+      "at": [
+        "charlotte-latin:guide.checklist.contactPanel.lines[2]"
+      ]
+    },
+    {
+      "t": "তারিখগুলো charlottelatin.org-এ প্রকাশিত 2026–27 ভর্তি চক্রের (সংগৃহীত আগস্ট 2026) — আবেদন প্রক্রিয়া, টিউশন ও আর্থিক সহায়তা, এবং ভর্তি পাতাগুলো। «নিশ্চিত করুন» চিহ্নিত বিষয়গুলো হয় আবেদন পোর্টালের ভেতরে, নয়তো একেবারেই প্রকাশিত নয় — এর মধ্যে প্রতিটি সিদ্ধান্ত ও ভর্তি চুক্তির তারিখও পড়ে। চক্রের তারিখ বছরে বছরে বদলায়, আর আগের কোনো মরশুমে এই পাতাগুলোতে অন্য একটি তালিকা ছিল — পদক্ষেপ নেওয়ার আগে চলমান পাতাগুলোর সঙ্গে মিলিয়ে নিন। সংকলন করেছে Charlotte School Compare; Charlotte Latin School-এর সঙ্গে সম্পর্কিত নয়।",
+      "of": "b7abdac7",
+      "at": [
+        "charlotte-latin:guide.checklist.disclaimer"
       ]
     },
     {
@@ -1475,14 +2572,6 @@
       "at": [
         "charlotte-christian:guide.bands[0].steps[6].title",
         "charlotte-christian:guide.bands[1].steps[6].title"
-      ]
-    },
-    {
-      "t": "আপনার জন্য নির্ধারিত",
-      "of": "43a2ae4c",
-      "at": [
-        "charlotte-christian:guide.bands[0].steps[6].tag",
-        "charlotte-christian:guide.bands[1].steps[6].tag"
       ]
     },
     {
@@ -2422,14 +3511,6 @@
       "of": "7ef7298e",
       "at": [
         "charlotte-christian:guide.comparison.rows[9].cells.all"
-      ]
-    },
-    {
-      "t": "প্রতিটি স্তরেই অপরিবর্তিত",
-      "of": "4e17969e",
-      "at": [
-        "charlotte-christian:guide.comparison.rows[10].label",
-        "charlotte-country-day:guide.comparison.rows[8].label"
       ]
     },
     {
