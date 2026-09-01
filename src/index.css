@@ -5651,3 +5651,96 @@ tbody tr:hover td { background: color-mix(in srgb, var(--text) 4%, var(--bg)); }
   .adx-page-host .topnav,
   .adx-page-host .footer { display: none; }
 }
+
+/* ═════════════════════════════════════════════════════════════════════════
+   Source rows — the shared .srcrow primitive
+
+   .srcrow was applied to eleven citation rows across ten components and had
+   NO RULE AT ALL: five comments above describe it as a shared primitive, but
+   every row was styled solely by its own per-area class (.as-src, .arts-src,
+   .sports-src, .clubs-src, .cs-src, .catalog-src, .courses-src, .clubrow-src,
+   .fa-srcrow, .fa-sources), and all ten were `display: flex` with the SOURCE
+   tag INLINE beside the first citation.
+
+   That made the layout an ACCIDENT OF LABEL LENGTH. Measured on the Charlotte
+   Latin page, 43 of 45 rows put the tag inline; the two that did not — the
+   Admissions card and the financial-aid footer — wrapped only because their
+   first citation was too long to fit beside the tag. A card with short labels
+   rendered the same CSS completely differently.
+
+   The user chose the wrapped shape as the intended one (2026-08-31): the tag
+   sits on its own line and each citation gets a line of its own. This rule
+   makes that deliberate and uniform instead of emergent.
+
+   THREE THINGS THIS RULE HAS TO HANDLE, and why it is not a one-liner:
+
+   1. CASCADE. The per-area rules are the same specificity as `.srcrow`, so
+      order decides. This block is at the END of the stylesheet, after all ten
+      of them, which is what lets it win. Moving it earlier silently reverts
+      every row it does not out-specify.
+   2. NESTED LINKS. Four rows (.courses-src, .clubrow-src, .fa-srcrow,
+      .fa-sources) put their citations inside ONE wrapper span rather than as
+      direct children, so a column flex on the parent stacks the wrapper, not
+      each link — one line no matter how many citations. Those wrappers are
+      given `display: block` below so their contents flow as text rather than
+      being pinned to a single flex line.
+   3. TAG SIZING. Each area sets `.tag-outline { flex: none }` to stop the tag
+      stretching in a row layout. In a column that same rule would let it
+      stretch to the full width, so the tag is explicitly `align-self:
+      flex-start` and `width: auto`.
+   ═════════════════════════════════════════════════════════════════════════ */
+
+.srcrow {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+/* The tag hugs its text on its own line rather than stretching the column. */
+.srcrow > .tag-outline {
+  align-self: flex-start;
+  width: auto;
+  flex: none;
+  margin-bottom: 2px;
+}
+
+/* Each citation takes a full line of its own. Direct children only, so a
+   nested <a> inside a wrapper span is unaffected — see caveat 2 above. */
+.srcrow > a,
+.srcrow > span:not(.tag-outline) {
+  align-self: stretch;
+}
+
+/* The four rows whose citations live inside a single wrapper span: let the
+   wrapper be a block so its text flows normally down the column instead of
+   being squeezed onto one flex line. */
+.srcrow > .courses-src-text,
+.srcrow > .clubrow-src-text,
+.srcrow > .fa-src-text,
+.srcrow > .catalog-src-text {
+  display: block;
+  width: 100%;
+}
+
+/* ClubsProgram's second citation row never carried .srcrow — it is a plain
+   block <div> with the tag as an inline sibling. Matched here so the whole app
+   shares one shape rather than nine of ten areas. */
+.clubs-program-src .clubs-src-tag {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+.clubs-program-src .clubs-src-tag + * {
+  display: block;
+}
+
+/* The prose renderer's citation line is a <p>, not a flex row, and its tag is
+   an inline span. Same treatment: the label takes its own line and the
+   citations flow beneath it. */
+.cite-label {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+.cite-label + span {
+  display: block;
+}
