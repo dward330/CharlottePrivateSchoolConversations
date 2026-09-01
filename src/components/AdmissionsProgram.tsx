@@ -23,40 +23,18 @@
 
 import { useState, type ReactNode } from 'react'
 import { useTranslation } from 'react-i18next'
+import { SourceRow } from './SourceRow.tsx'
 import { localizeMoneyText } from '../lib/format.ts'
-import { sourceLabel } from '../lib/labels.ts'
 import { toAdmissionsChecklist } from '../lib/router.ts'
 import type {
   AdBand,
   AdmissionsCardKey,
   AdmissionsGuide,
   AdmissionsProgram,
-  AdSource,
 } from '../data/admissionsPrograms.ts'
 
 /* ------------------------------------------------------------ primitives -- */
 
-/** The SOURCE row the card ends with. Citations with a URL become links. */
-function SourceRow({ sources }: { sources: AdSource[] }) {
-  const { t } = useTranslation()
-  if (sources.length === 0) return null
-  return (
-    <div className="as-src srcrow">
-      <span className="tag-outline">{t('cardLabels.source')}</span>
-      {sources.map((s) =>
-        s.url ? (
-          <a key={s.label} href={s.url} target="_blank" rel="noreferrer noopener">
-            {s.label} ↗
-          </a>
-        ) : (
-          <span key={s.label} className="text-muted">
-            {sourceLabel(t, s.label)}
-          </span>
-        ),
-      )}
-    </div>
-  )
-}
 
 /* The design's three framing-rule icons and the aid strip's clock, at the
    Industry system's 1.5px round-capped stroke. Inline rather than in
@@ -271,7 +249,7 @@ export function AdmissionsGuideBody({ data, slug }: { data: AdmissionsGuide; slu
                   onClick={() => setBandKey(b.key)}
                 >
                   {b.label}
-                  <span className="bandsub">{b.sublabel}</span>
+                  {b.sublabel && <span className="bandsub">{b.sublabel}</span>}
                 </button>
               ))}
             </div>
@@ -372,7 +350,7 @@ export function AdmissionsGuideBody({ data, slug }: { data: AdmissionsGuide; slu
         </div>
       </div>
 
-      <SourceRow sources={data.sources} />
+      <SourceRow sources={data.sources} className="as-src" />
     </div>
   )
 }

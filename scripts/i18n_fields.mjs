@@ -570,6 +570,12 @@ export const PATH_OVERRIDES = new Map([
   // places, so `g1` and `g24` are its own two extra keys.
   ['comparison.rows[].cells.g1', true],
   ['comparison.rows[].cells.g24', true],
+  // Charlotte Latin names its four bands after the DIVISIONS rather than the
+  // grade numbers, so it contributes three more keys on top of the shared
+  // `tkk`: `ls` (Grades 1-5), `ms` (6-8) and `us` (9-12).
+  ['comparison.rows[].cells.ls', true],
+  ['comparison.rows[].cells.ms', true],
+  ['comparison.rows[].cells.us', true],
   ['comparison.rows[].cells.all', true],
   // "5800 Sardis Road, Charlotte, NC 28270 · main 704-887-6000" — the street
   // address round-trips char-for-char, but `main` is an English word labelling

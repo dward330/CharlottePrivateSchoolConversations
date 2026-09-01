@@ -27,13 +27,12 @@
 import { useMemo, useState } from 'react'
 import { money, localizeMoneyText } from '../lib/format.ts'
 import { useTranslation } from 'react-i18next'
+import { SourceRow } from './SourceRow.tsx'
 import type { TFunction } from 'i18next'
-import { sourceLabel } from '../lib/labels.ts'
 import type {
   AfterSchoolProgram,
   AsFlag,
   AsFlagKind,
-  AsSource,
   Cost,
   Coverage,
   DayInside,
@@ -43,27 +42,6 @@ import type {
 
 /* ------------------------------------------------------------ primitives -- */
 
-/** The SOURCE row every card ends with. Citations with a URL become links. */
-function SourceRow({ sources }: { sources: AsSource[] }) {
-  const { t } = useTranslation()
-  if (sources.length === 0) return null
-  return (
-    <div className="as-src srcrow">
-      <span className="tag-outline">{t('cardLabels.source')}</span>
-      {sources.map((s) =>
-        s.url ? (
-          <a key={s.label} href={s.url} target="_blank" rel="noreferrer noopener">
-            {s.label} ↗
-          </a>
-        ) : (
-          <span key={s.label} className="text-muted">
-            {sourceLabel(t, s.label)}
-          </span>
-        ),
-      )}
-    </div>
-  )
-}
 
 /**
  * Day token -> localized label.
@@ -294,7 +272,7 @@ export function CoverageBody({ data }: { data: Coverage }) {
       )}
 
       <Flags flags={data.flags} />
-      <SourceRow sources={data.sources} />
+      <SourceRow sources={data.sources} className="as-src" />
     </div>
   )
 }
@@ -519,7 +497,7 @@ export function CostBody({ data }: { data: Cost }) {
       </div>
 
       <Flags flags={data.flags} />
-      <SourceRow sources={data.sources} />
+      <SourceRow sources={data.sources} className="as-src" />
     </div>
   )
 }
@@ -724,7 +702,7 @@ export function DayInsideBody({ data }: { data: DayInside }) {
       {data.classes.length > 0 && <EnrichmentCatalog data={data} />}
 
       <Flags flags={data.flags} />
-      <SourceRow sources={data.sources} />
+      <SourceRow sources={data.sources} className="as-src" />
     </div>
   )
 }
@@ -815,7 +793,7 @@ export function VerdictBody({ data }: { data: Verdict }) {
       </div>
 
       <Flags flags={data.flags} />
-      <SourceRow sources={data.sources} />
+      <SourceRow sources={data.sources} className="as-src" />
     </div>
   )
 }

@@ -32,7 +32,7 @@
 //
 // The card is optional, and a school with no admissions research simply has no
 // entry — the section then does not render at all, which is the honest outcome
-// for a school whose process was never researched. Eight of the eleven schools
+// for a school whose process was never researched. Seven of the eleven schools
 // are in exactly that position today.
 
 /* ---------------------------------------------------------------- shared -- */
@@ -102,8 +102,17 @@ export type AdBand = {
   key: string
   /** Selector label, e.g. "TK / Kindergarten". */
   label: string
-  /** One-line sublabel naming what distinguishes the band. */
-  sublabel: string
+  /**
+   * One-line sublabel naming what distinguishes the band, rendered under the
+   * label inside the selector button.
+   *
+   * OPTIONAL, and a school may deliberately omit it: Charlotte Latin ships
+   * none, on the reasoning that the button should carry the grades and nothing
+   * else, with what changes between bands stated in the steps below (user's
+   * call, 2026-08-31). A band without one renders the label alone rather than
+   * an empty span.
+   */
+  sublabel?: string
   /** Full title for the checklist page header. */
   title: string
   /** The 4-tile deadline strip. */
@@ -284,13 +293,14 @@ import {
 import { providenceDay } from './admissionsPrograms/providence-day.ts'
 import { charlotteCountryDay } from './admissionsPrograms/charlotte-country-day.ts'
 import { charlotteChristian } from './admissionsPrograms/charlotte-christian.ts'
+import { charlotteLatin } from './admissionsPrograms/charlotte-latin.ts'
 
 /**
- * THREE schools, not eleven. **The other eight are deliberately absent.**
+ * FOUR schools, not eleven. **The other seven are deliberately absent.**
  *
  * Nobody has researched their admissions processes — the topic infrastructure
  * is school-agnostic, but the data ships for Providence Day, Charlotte Country
- * Day and Charlotte Christian only. With no source files under
+ * Day, Charlotte Christian and Charlotte Latin only. With no source files under
  * `source-material/admissions/<school>/`, the topic has no `doc_count` for
  * those schools, so `topicsForSchool()` never yields it and the Admissions
  * section does not render on their pages at all.
@@ -304,6 +314,7 @@ const PROGRAMS: Record<string, AdmissionsProgram> = {
   'providence-day': providenceDay,
   'charlotte-country-day': charlotteCountryDay,
   'charlotte-christian': charlotteChristian,
+  'charlotte-latin': charlotteLatin,
 }
 
 /* ---------------------------------------------------------- translations -- */

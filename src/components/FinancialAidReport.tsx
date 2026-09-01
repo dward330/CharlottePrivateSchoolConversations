@@ -6,6 +6,7 @@
 // actually supports (see src/data/financialAidReports.ts for why).
 
 import { useTranslation } from 'react-i18next'
+import { SourceRowRaw } from './SourceRow.tsx'
 import { money, localizeMoneyText } from '../lib/format.ts'
 import { reportSources } from '../lib/labels.ts'
 import type {
@@ -318,13 +319,16 @@ function Boxes({ boxes, bullets }: { boxes: InfoBox[]; bullets?: string[] }) {
   )
 }
 
-function SourceRow({ text, label }: { text: string; label?: string }) {
-  const { t } = useTranslation()
+/**
+ * A section's source line. The optional `label` this used to take is gone with
+ * the SOURCE chip it labelled — no caller ever passed one, and the toggle now
+ * carries the wording.
+ */
+function SourceRow({ text }: { text: string }) {
   return (
-    <div className="fa-srcrow srcrow">
-      <span className="tag-outline">{label ?? t('finAid.source')}</span>
+    <SourceRowRaw className="fa-srcrow">
       <span className="fa-src-text">{text}</span>
-    </div>
+    </SourceRowRaw>
   )
 }
 
@@ -556,10 +560,9 @@ export function FinancialAidReportCard({
         <Section key={s.id} section={s} index={i} />
       ))}
 
-      <footer className="fa-sources srcrow">
-        <span className="tag-outline">{t('cardLabels.sources')}</span>
+      <SourceRowRaw className="fa-sources">
         <span className="fa-src-text">{reportSources(t, report.sources)}</span>
-      </footer>
+      </SourceRowRaw>
     </div>
   )
 }

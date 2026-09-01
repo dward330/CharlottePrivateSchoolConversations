@@ -14,6 +14,7 @@
       "of": "826ef611",
       "at": [
         "providence-day:guide.cycle",
+        "charlotte-latin:guide.cycle",
         "charlotte-christian:guide.cycle"
       ]
     },
@@ -29,6 +30,7 @@
       "of": "0115e4c6",
       "at": [
         "providence-day:guide.stats[1].label",
+        "charlotte-latin:guide.stats[2].label",
         "charlotte-christian:guide.stats[1].label",
         "charlotte-country-day:guide.stats[1].label"
       ]
@@ -82,7 +84,8 @@
       "t": "TK / Kindergarten",
       "of": "d6a3513b",
       "at": [
-        "providence-day:guide.bands[0].label"
+        "providence-day:guide.bands[0].label",
+        "charlotte-latin:guide.bands[0].label"
       ]
     },
     {
@@ -96,7 +99,8 @@
       "t": "Transitional Kindergarten ak Kindergarten",
       "of": "75235da1",
       "at": [
-        "providence-day:guide.bands[0].title"
+        "providence-day:guide.bands[0].title",
+        "charlotte-latin:guide.bands[0].title"
       ]
     },
     {
@@ -153,6 +157,18 @@
         "providence-day:guide.bands[2].steps[0].tag",
         "providence-day:guide.bands[2].checklistRows[0].due",
         "providence-day:guide.bands[2].checklistRows[1].due",
+        "charlotte-latin:guide.bands[0].steps[0].tag",
+        "charlotte-latin:guide.bands[0].checklistRows[0].due",
+        "charlotte-latin:guide.bands[0].checklistRows[1].due",
+        "charlotte-latin:guide.bands[1].steps[0].tag",
+        "charlotte-latin:guide.bands[1].checklistRows[0].due",
+        "charlotte-latin:guide.bands[1].checklistRows[1].due",
+        "charlotte-latin:guide.bands[2].steps[0].tag",
+        "charlotte-latin:guide.bands[2].checklistRows[0].due",
+        "charlotte-latin:guide.bands[2].checklistRows[1].due",
+        "charlotte-latin:guide.bands[3].steps[0].tag",
+        "charlotte-latin:guide.bands[3].checklistRows[0].due",
+        "charlotte-latin:guide.bands[3].checklistRows[1].due",
         "charlotte-christian:guide.bands[0].steps[0].tag",
         "charlotte-christian:guide.bands[0].checklistRows[0].due",
         "charlotte-christian:guide.bands[1].steps[0].tag",
@@ -200,6 +216,7 @@
       "of": "a636a187",
       "at": [
         "providence-day:guide.bands[0].steps[1].tag",
+        "charlotte-latin:guide.bands[0].steps[2].tag",
         "charlotte-christian:guide.bands[0].steps[2].tag",
         "charlotte-country-day:guide.bands[0].steps[3].tag"
       ]
@@ -410,6 +427,8 @@
       "at": [
         "providence-day:guide.bands[0].checklistRows[2].due",
         "providence-day:guide.comparison.rows[0].cells.tkk",
+        "charlotte-latin:guide.bands[0].checklistRows[3].due",
+        "charlotte-latin:guide.comparison.rows[0].cells.tkk",
         "charlotte-christian:guide.bands[0].checklistRows[2].due",
         "charlotte-christian:guide.comparison.rows[0].cells.jkk",
         "charlotte-country-day:guide.bands[0].checklistRows[3].due",
@@ -511,6 +530,12 @@
         "providence-day:guide.bands[2].checklistRows[4].due",
         "providence-day:guide.comparison.rows[1].cells.g15",
         "providence-day:guide.comparison.rows[1].cells.g612",
+        "charlotte-latin:guide.bands[2].checklistRows[4].due",
+        "charlotte-latin:guide.bands[2].checklistRows[5].due",
+        "charlotte-latin:guide.bands[3].checklistRows[4].due",
+        "charlotte-latin:guide.bands[3].checklistRows[5].due",
+        "charlotte-latin:guide.comparison.rows[5].cells.ms",
+        "charlotte-latin:guide.comparison.rows[5].cells.us",
         "charlotte-christian:guide.bands[0].checklistRows[7].due",
         "charlotte-christian:guide.bands[1].checklistRows[3].due",
         "charlotte-christian:guide.bands[1].checklistRows[4].due",
@@ -609,6 +634,13 @@
       "at": [
         "providence-day:guide.bands[1].steps[1].tag",
         "providence-day:guide.bands[2].steps[1].tag",
+        "charlotte-latin:guide.bands[0].steps[5].tag",
+        "charlotte-latin:guide.bands[1].steps[1].tag",
+        "charlotte-latin:guide.bands[1].steps[4].tag",
+        "charlotte-latin:guide.bands[2].steps[1].tag",
+        "charlotte-latin:guide.bands[2].steps[5].tag",
+        "charlotte-latin:guide.bands[3].steps[1].tag",
+        "charlotte-latin:guide.bands[3].steps[5].tag",
         "charlotte-christian:guide.bands[0].steps[3].tag",
         "charlotte-christian:guide.bands[0].steps[4].tag",
         "charlotte-christian:guide.bands[1].steps[2].tag",
@@ -642,6 +674,10 @@
         "providence-day:guide.bands[1].steps[3].tag",
         "providence-day:guide.bands[2].steps[2].tag",
         "providence-day:guide.bands[2].steps[3].tag",
+        "charlotte-latin:guide.bands[2].steps[3].tag",
+        "charlotte-latin:guide.bands[2].steps[4].tag",
+        "charlotte-latin:guide.bands[3].steps[3].tag",
+        "charlotte-latin:guide.bands[3].steps[4].tag",
         "charlotte-christian:guide.bands[1].steps[3].tag",
         "charlotte-christian:guide.bands[1].steps[4].tag",
         "charlotte-christian:guide.bands[1].steps[5].tag",
@@ -757,6 +793,16 @@
         "providence-day:guide.bands[2].checklistRows[2].due",
         "providence-day:guide.comparison.rows[0].cells.g15",
         "providence-day:guide.comparison.rows[0].cells.g612",
+        "charlotte-latin:guide.bands[0].checklistRows[6].due",
+        "charlotte-latin:guide.bands[1].checklistRows[2].due",
+        "charlotte-latin:guide.bands[1].checklistRows[5].due",
+        "charlotte-latin:guide.bands[2].checklistRows[2].due",
+        "charlotte-latin:guide.bands[2].checklistRows[6].due",
+        "charlotte-latin:guide.bands[3].checklistRows[2].due",
+        "charlotte-latin:guide.bands[3].checklistRows[6].due",
+        "charlotte-latin:guide.comparison.rows[0].cells.ls",
+        "charlotte-latin:guide.comparison.rows[0].cells.ms",
+        "charlotte-latin:guide.comparison.rows[0].cells.us",
         "charlotte-christian:guide.bands[0].checklistRows[3].due",
         "charlotte-christian:guide.bands[0].checklistRows[4].due",
         "charlotte-christian:guide.bands[1].checklistRows[2].due",
@@ -929,6 +975,7 @@
       "of": "e8835419",
       "at": [
         "providence-day:guide.bands[2].checklistRows[3].action",
+        "charlotte-latin:guide.bands[2].checklistRows[4].action",
         "charlotte-christian:guide.bands[3].checklistRows[7].action",
         "charlotte-country-day:guide.bands[2].checklistRows[4].action"
       ]
@@ -959,6 +1006,7 @@
       "of": "15045be1",
       "at": [
         "providence-day:guide.aid.title",
+        "charlotte-latin:guide.aid.title",
         "charlotte-christian:guide.aid.title",
         "charlotte-country-day:guide.aid.title"
       ]
@@ -975,6 +1023,7 @@
       "of": "801e19b8",
       "at": [
         "providence-day:guide.aid.button",
+        "charlotte-latin:guide.aid.button",
         "charlotte-christian:guide.aid.button",
         "charlotte-country-day:guide.aid.button"
       ]
@@ -984,6 +1033,7 @@
       "of": "60faf9b9",
       "at": [
         "providence-day:guide.comparison.kicker",
+        "charlotte-latin:guide.comparison.kicker",
         "charlotte-christian:guide.comparison.kicker",
         "charlotte-country-day:guide.comparison.kicker"
       ]
@@ -993,6 +1043,7 @@
       "of": "2e98319a",
       "at": [
         "providence-day:guide.comparison.title",
+        "charlotte-latin:guide.comparison.title",
         "charlotte-christian:guide.comparison.title",
         "charlotte-country-day:guide.comparison.title"
       ]
@@ -1002,6 +1053,7 @@
       "of": "8751989b",
       "at": [
         "providence-day:guide.comparison.rows[0].label",
+        "charlotte-latin:guide.comparison.rows[0].label",
         "charlotte-christian:guide.comparison.rows[0].label",
         "charlotte-country-day:guide.comparison.rows[0].label"
       ]
@@ -1104,6 +1156,7 @@
       "of": "fa6ba530",
       "at": [
         "providence-day:guide.contacts.kicker",
+        "charlotte-latin:guide.contacts.kicker",
         "charlotte-christian:guide.contacts.kicker",
         "charlotte-country-day:guide.contacts.kicker"
       ]
@@ -1113,6 +1166,8 @@
       "of": "ba210c46",
       "at": [
         "providence-day:guide.contacts.title",
+        "charlotte-latin:guide.comparison.rows[1].cells.tkk",
+        "charlotte-latin:guide.contacts.title",
         "charlotte-christian:guide.contacts.title",
         "charlotte-country-day:guide.contacts.title"
       ]
@@ -1192,6 +1247,7 @@
       "of": "3e87e1fd",
       "at": [
         "providence-day:guide.checklist.aidPanel.kicker",
+        "charlotte-latin:guide.checklist.aidPanel.kicker",
         "charlotte-christian:guide.checklist.aidPanel.kicker",
         "charlotte-country-day:guide.checklist.aidPanel.kicker"
       ]
@@ -1215,6 +1271,7 @@
       "of": "79312c44",
       "at": [
         "providence-day:guide.checklist.contactPanel.kicker",
+        "charlotte-latin:guide.checklist.contactPanel.kicker",
         "charlotte-christian:guide.checklist.contactPanel.kicker",
         "charlotte-country-day:guide.checklist.contactPanel.kicker"
       ]
@@ -1245,6 +1302,1046 @@
       "of": "4437f3e8",
       "at": [
         "providence-day:guide.checklist.disclaimer"
+      ]
+    },
+    {
+      "t": "Chwazi nivo kote pitit ou ap antre a epi gid la ap adapte tèt li: etap yo nan lòd, dat limit 2026–27 yo, ak tès ki mande pou nivo sa a — plis yon lis kontwòl ou ka enprime pou pote avè w. Kat chemen sou yon sèl estrikti, epi sa k chanje ant yo se tès la, kiyès ki fikse Visit Day la, si gen yon entèvyou, ak dat limit la.",
+      "of": "ba66a2dc",
+      "at": [
+        "charlotte-latin:guide.headline"
+      ]
+    },
+    {
+      "t": "nivo antre — TK/K, klas 1–5, 6–8 ak 9–12",
+      "of": "70c840a2",
+      "at": [
+        "charlotte-latin:guide.stats[0].label"
+      ]
+    },
+    {
+      "t": "dat limit aplikasyon TK/Kindergarten — 13 jou anvan tout lòt klas yo",
+      "of": "af3286a6",
+      "at": [
+        "charlotte-latin:guide.stats[1].label"
+      ]
+    },
+    {
+      "t": "depo enskripsyon ki pa ranbousab",
+      "of": "5b3b8389",
+      "at": [
+        "charlotte-latin:guide.stats[3].label"
+      ]
+    },
+    {
+      "t": "Yon sèl pòtay, depi nan kòmansman jiska nan fen.",
+      "of": "ec3b31ed",
+      "at": [
+        "charlotte-latin:guide.rules[0].title"
+      ]
+    },
+    {
+      "t": "Tout bagay pase nan Finalsite Enrollment sou charlottelatin.fsenrollment.com: voye yon demann enfòmasyon, kreye pwofil fanmi w lan, epi apre sa, nan menm kont sa a, enskri pou aktivite admisyon opsyonèl yo, voye dokiman w yo, jwenn fòm yo epi respekte dat limit yo.",
+      "of": "833270ae",
+      "at": [
+        "charlotte-latin:guide.rules[0].text"
+      ]
+    },
+    {
+      "t": "Tout dat ki anba yo se pou sik 2026–27 la.",
+      "of": "1b36e18c",
+      "at": [
+        "charlotte-latin:guide.rules[1].title"
+      ]
+    },
+    {
+      "t": "Dat sik la chanje chak ane, epi paj sa yo te gen yon lòt seri dat nan yon sezon anvan. Verifye yo sou paj admisyon k ap mache yo anvan ou aji sou okenn ladan yo.",
+      "of": "8a447828",
+      "at": [
+        "charlotte-latin:guide.rules[1].text"
+      ]
+    },
+    {
+      "t": "Menm estrikti a nan tout nivo — aplike sou entènèt nan pòtay la → ale nan yon Visit Day → pase yon tès estandadize → respekte dat limit yo. Sa k chanje ant nivo yo se ki tès pitit ou ap pase, si se biwo admisyon an ki fikse Visit Day la oswa se ou menm, si jounen sa a gen yon entèvyou ladan l, ak ki dat limit ou ap travay sou li.",
+      "of": "96eb5424",
+      "at": [
+        "charlotte-latin:guide.spineNote"
+      ]
+    },
+    {
+      "t": "dat limit aplikasyon an",
+      "of": "0c1429fb",
+      "at": [
+        "charlotte-latin:guide.bands[0].deadlines[0].label",
+        "charlotte-latin:guide.bands[1].deadlines[0].label",
+        "charlotte-latin:guide.bands[2].deadlines[0].label",
+        "charlotte-latin:guide.bands[3].deadlines[0].label"
+      ]
+    },
+    {
+      "t": "TK/K Fly By Open House — 9:30–11:00 a.m.",
+      "of": "565729e5",
+      "at": [
+        "charlotte-latin:guide.bands[0].deadlines[1].label"
+      ]
+    },
+    {
+      "t": "dat limit aplikasyon èd finansye a",
+      "of": "d2c4abce",
+      "at": [
+        "charlotte-latin:guide.bands[0].deadlines[2].label",
+        "charlotte-latin:guide.bands[1].deadlines[1].label",
+        "charlotte-latin:guide.bands[2].deadlines[3].label",
+        "charlotte-latin:guide.bands[3].deadlines[3].label"
+      ]
+    },
+    {
+      "t": "Voye yon demann enfòmasyon, epi kreye pwofil fanmi w lan",
+      "of": "d795a612",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[0].title",
+        "charlotte-latin:guide.bands[1].steps[0].title",
+        "charlotte-latin:guide.bands[2].steps[0].title",
+        "charlotte-latin:guide.bands[3].steps[0].title"
+      ]
+    },
+    {
+      "t": "Premye etap ki obligatwa a: fanmi yo «voye yon demann enfòmasyon anvan epi apre sa yo kreye yon pwofil pou fanmi yo». Kont sa a ap mande w apre sa pou w enskri nan aktivite admisyon opsyonèl yo, voye dokiman w yo, jwenn fòm yo epi respekte dat limit yo — tout rès lis sa a pase ladan l.",
+      "of": "a2a5e056",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[0].detail"
+      ]
+    },
+    {
+      "t": "Enskri pou aktivite admisyon opsyonèl yo",
+      "of": "18bbf90b",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[1].title"
+      ]
+    },
+    {
+      "t": "10 oktòb 2026",
+      "of": "805b5a7c",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[1].tag",
+        "charlotte-latin:guide.bands[0].checklistRows[2].due"
+      ]
+    },
+    {
+      "t": "Opsyonèl, se pa obligatwa. Sèl aktivite ki gen dat ki pibliye pou nivo sa a se **TK/K Fly By Open House la nan dat 10 oktòb 2026, 9:30–11:00 a.m.** Vizit kanpis yo kòmanse nan mwa septanm epi yo kontinye pandan tout ane lekòl la, epi se nan kont pòtay ou a ou rezève tout pòt louvri, vizit ak sesyon vityèl yo.",
+      "of": "6adf47ab",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[1].detail"
+      ]
+    },
+    {
+      "t": "Ranpli aplikasyon an",
+      "of": "3ba6d9af",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[2].title",
+        "charlotte-latin:guide.bands[1].steps[1].title",
+        "charlotte-latin:guide.bands[2].steps[1].title",
+        "charlotte-latin:guide.bands[3].steps[1].title"
+      ]
+    },
+    {
+      "t": "Obligatwa, epi li dwe rive **2 janvye 2027** — trèz jou anvan tout lòt klas nan lekòl la, kidonk nivo sa a ap travay sou yon dat limit ki tonbe nan premye semèn janvye a olye ke nan mitan mwa a. **Pa gen okenn limit laj oswa dat nesans ki pibliye** pou Transitional Kindergarten ni pou Kindergarten: lekòl la dekri TK yon fason kalitatif, tankou yon bagay ki «fèt pou timoun ki fèk gen senk an epi ki pare pou Kindergarten», epi li pa bay okenn dat. Mande biwo admisyon an kote pitit ou tonbe.",
+      "of": "b8de7ab6",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[2].detail"
+      ]
+    },
+    {
+      "t": "Ale nan yon Visit Day — se biwo a ki fikse l",
+      "of": "7af3b393",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[3].title"
+      ]
+    },
+    {
+      "t": "yo pran randevou pou ou",
+      "of": "43a2ae4c",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[3].tag",
+        "charlotte-christian:guide.bands[0].steps[6].tag",
+        "charlotte-christian:guide.bands[1].steps[6].tag"
+      ]
+    },
+    {
+      "t": "Obligatwa, epi **se sèl nivo kote se pa ou menm ki rezève l**: «Ale nan Visit Day la (biwo nou an ap fikse l).» Tout lòt klas yo fikse pa yo. Jou sa a, «pitit ou ap viv kè kontan yon salklas Latin pandan kèk èdtan pandan w ap rankontre paran aktyèl yo epi w ap koute yon panèl elèv Upper School».",
+      "of": "8b39d3c4",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[3].detail"
+      ]
+    },
+    {
+      "t": "Pase tès WPPSI a",
+      "of": "9c97b742",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[4].title"
+      ]
+    },
+    {
+      "t": "obligatwa",
+      "of": "848c8620",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[4].tag",
+        "charlotte-latin:guide.bands[1].steps[3].tag"
+      ]
+    },
+    {
+      "t": "Obligatwa. Moun k ap aplike pou nivo sa a pase **WPPSI** la, ki administre pa yon sikològ nan konsòsyòm Charlotte Area Independent Schools la, epi tès la «dwe fikse davans». Se ou menm ki kontakte sikològ la dirèkteman epi ki mande pou yo voye nòt yo bay Charlotte Latin — se pa lekòl la ki pran randevou a.",
+      "of": "3b709f36",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[4].detail"
+      ]
+    },
+    {
+      "t": "Mande èd finansye, si w bezwen l",
+      "of": "47baf108",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[5].title",
+        "charlotte-latin:guide.bands[1].steps[4].title",
+        "charlotte-latin:guide.bands[2].steps[5].title",
+        "charlotte-latin:guide.bands[3].steps[5].title"
+      ]
+    },
+    {
+      "t": "Opsyonèl, epi li gen pwòp kalandriye pa l: aplikasyon an louvri nan **Clarity** nan dat **15 septanm 2026** epi li dwe rive **15 janvye 2027** pou w antre nan tou prioritè a — de semèn apre pwòp dat limit aplikasyon nivo sa a. Yon sèl aplikasyon kouvri tout timoun nan fanmi an.",
+      "of": "42434751",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[5].detail"
+      ]
+    },
+    {
+      "t": "Dat limit aplikasyon w lan se 2 janvye 2027.",
+      "of": "c16225b0",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistCallout.lead"
+      ]
+    },
+    {
+      "t": "Transitional Kindergarten ak Kindergarten aplike trèz jou anvan tout lòt klas, epi pou nivo sa a se biwo admisyon an ki fikse Visit Day la, se pa fanmi an. Pa gen okenn dat limit pou tout dokiman ki pibliye pou nivo sa a, kidonk konsidere lis kontwòl pòtay ou a kòm lis ofisyèl sa ki rete pou fèt. Pa gen okenn dat desizyon ni dat kontra enskripsyon ki pibliye pou okenn nivo — konfime tou de ak biwo admisyon an.",
+      "of": "1d039340",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistCallout.text"
+      ]
+    },
+    {
+      "t": "Voye fòm demann enfòmasyon an sou entènèt",
+      "of": "523d1d7a",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[0].action",
+        "charlotte-latin:guide.bands[1].checklistRows[0].action",
+        "charlotte-latin:guide.bands[2].checklistRows[0].action",
+        "charlotte-latin:guide.bands[3].checklistRows[0].action"
+      ]
+    },
+    {
+      "t": "Premye etap ki obligatwa a; li kite w kreye pwofil fanmi w lan nan pòtay la.",
+      "of": "34f5fe8a",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[0].detail",
+        "charlotte-latin:guide.bands[1].checklistRows[0].detail",
+        "charlotte-latin:guide.bands[2].checklistRows[0].detail",
+        "charlotte-latin:guide.bands[3].checklistRows[0].detail"
+      ]
+    },
+    {
+      "t": "Kreye pwofil fanmi w lan nan pòtay la",
+      "of": "dd905b57",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[1].action",
+        "charlotte-latin:guide.bands[1].checklistRows[1].action",
+        "charlotte-latin:guide.bands[2].checklistRows[1].action",
+        "charlotte-latin:guide.bands[3].checklistRows[1].action"
+      ]
+    },
+    {
+      "t": "Finalsite Enrollment — kote w enskri, voye dokiman epi swiv dat limit yo.",
+      "of": "743b3f8e",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[1].detail",
+        "charlotte-latin:guide.bands[1].checklistRows[1].detail",
+        "charlotte-latin:guide.bands[2].checklistRows[1].detail",
+        "charlotte-latin:guide.bands[3].checklistRows[1].detail"
+      ]
+    },
+    {
+      "t": "Enskri pou TK/K Fly By Open House la",
+      "of": "9280874d",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[2].action"
+      ]
+    },
+    {
+      "t": "Opsyonèl. 10 oktòb 2026, 9:30–11:00 a.m. Vizit kanpis yo ap fèt depi nan mwa septanm.",
+      "of": "a42e83e7",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[2].detail"
+      ]
+    },
+    {
+      "t": "Voye aplikasyon an",
+      "of": "9aae6324",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[3].action",
+        "charlotte-latin:guide.bands[1].checklistRows[2].action",
+        "charlotte-latin:guide.bands[2].checklistRows[2].action",
+        "charlotte-latin:guide.bands[3].checklistRows[2].action"
+      ]
+    },
+    {
+      "t": "Trèz jou anvan dat limit klas 1–12 yo. Pa gen okenn limit laj ki pibliye.",
+      "of": "614a3486",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[3].detail"
+      ]
+    },
+    {
+      "t": "Ale nan Visit Day biwo a fikse pou ou a",
+      "of": "b443342a",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[4].action"
+      ]
+    },
+    {
+      "t": "Kèk èdtan nan yon salklas Latin; paran yo rankontre paran aktyèl yo ak yon panèl elèv.",
+      "of": "4d1ad8cc",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[4].detail"
+      ]
+    },
+    {
+      "t": "Yo fikse l pou ou",
+      "of": "8456386c",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[4].due"
+      ]
+    },
+    {
+      "t": "Fikse epi pase tès WPPSI a",
+      "of": "22d082a0",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[5].action"
+      ]
+    },
+    {
+      "t": "Fikse l davans ak yon sikològ CAIS; mande pou yo voye nòt yo bay Latin.",
+      "of": "4f9cd594",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[5].detail"
+      ]
+    },
+    {
+      "t": "Anvan dat limit ou a",
+      "of": "de184993",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[5].due",
+        "charlotte-latin:guide.bands[1].checklistRows[3].due",
+        "charlotte-latin:guide.bands[1].checklistRows[4].due"
+      ]
+    },
+    {
+      "t": "Voye aplikasyon èd finansye Clarity la",
+      "of": "c01cea75",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[6].action",
+        "charlotte-latin:guide.bands[1].checklistRows[5].action",
+        "charlotte-latin:guide.bands[2].checklistRows[6].action",
+        "charlotte-latin:guide.bands[3].checklistRows[6].action"
+      ]
+    },
+    {
+      "t": "Opsyonèl. Li louvri 15 septanm 2026; yon sèl aplikasyon kouvri plizyè timoun.",
+      "of": "283a6c3c",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[6].detail",
+        "charlotte-latin:guide.bands[1].checklistRows[5].detail",
+        "charlotte-latin:guide.bands[2].checklistRows[6].detail",
+        "charlotte-latin:guide.bands[3].checklistRows[6].detail"
+      ]
+    },
+    {
+      "t": "Konfime dat desizyon an ak dat kontra a ak biwo admisyon an",
+      "of": "397c18a8",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[7].action",
+        "charlotte-latin:guide.bands[1].checklistRows[6].action",
+        "charlotte-latin:guide.bands[2].checklistRows[7].action",
+        "charlotte-latin:guide.bands[3].checklistRows[7].action"
+      ]
+    },
+    {
+      "t": "Ni youn ni lòt pa pibliye pou okenn nivo. Mande kilè ou ta dwe tann yon repons.",
+      "of": "c3c92423",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[7].detail",
+        "charlotte-latin:guide.bands[1].checklistRows[6].detail",
+        "charlotte-latin:guide.bands[2].checklistRows[7].detail",
+        "charlotte-latin:guide.bands[3].checklistRows[7].detail"
+      ]
+    },
+    {
+      "t": "Konfime",
+      "of": "a183c9ef",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[7].due",
+        "charlotte-latin:guide.bands[1].checklistRows[6].due",
+        "charlotte-latin:guide.bands[2].checklistRows[7].due",
+        "charlotte-latin:guide.bands[3].checklistRows[7].due"
+      ]
+    },
+    {
+      "t": "Lower School · klas 1–5",
+      "of": "10dbffb6",
+      "at": [
+        "charlotte-latin:guide.bands[1].label"
+      ]
+    },
+    {
+      "t": "Lower School — klas 1–5",
+      "of": "13828dad",
+      "at": [
+        "charlotte-latin:guide.bands[1].title"
+      ]
+    },
+    {
+      "t": "Premye etap ki obligatwa a: fanmi yo «voye yon demann enfòmasyon anvan epi apre sa yo kreye yon pwofil pou fanmi yo». Kont sa a ap mande w apre sa pou w enskri nan aktivite admisyon opsyonèl yo, voye dokiman w yo, jwenn fòm yo epi respekte dat limit yo.",
+      "of": "2f3ea626",
+      "at": [
+        "charlotte-latin:guide.bands[1].steps[0].detail",
+        "charlotte-latin:guide.bands[2].steps[0].detail",
+        "charlotte-latin:guide.bands[3].steps[0].detail"
+      ]
+    },
+    {
+      "t": "Obligatwa, epi li dwe rive **15 janvye 2027** — dat limit tout klas depi 1 rive 12 ap travay sou li, trèz jou apre Transitional Kindergarten ak Kindergarten.",
+      "of": "1994f5d5",
+      "at": [
+        "charlotte-latin:guide.bands[1].steps[1].detail"
+      ]
+    },
+    {
+      "t": "Fikse epi ale nan yon Visit Day",
+      "of": "b79bc13d",
+      "at": [
+        "charlotte-latin:guide.bands[1].steps[2].title",
+        "charlotte-latin:guide.bands[1].checklistRows[3].action"
+      ]
+    },
+    {
+      "t": "se ou ki rezève l",
+      "of": "38b9bc86",
+      "at": [
+        "charlotte-latin:guide.bands[1].steps[2].tag",
+        "charlotte-latin:guide.bands[2].steps[2].tag",
+        "charlotte-latin:guide.bands[3].steps[2].tag"
+      ]
+    },
+    {
+      "t": "Obligatwa, epi **depi nivo sa a monte se fanmi an ki fikse l**: «Fikse yon Visit Day.» Biwo admisyon an rezève sèlman vizit TK ak Kindergarten yo. Pitit ou pase tan nan yon salklas Latin pandan w ap konnen lekòl la.",
+      "of": "9533cc8c",
+      "at": [
+        "charlotte-latin:guide.bands[1].steps[2].detail"
+      ]
+    },
+    {
+      "t": "Pase tès estandadize ki pou klas pitit ou a",
+      "of": "970a438f",
+      "at": [
+        "charlotte-latin:guide.bands[1].steps[3].title"
+      ]
+    },
+    {
+      "t": "Obligatwa, epi **tès la chanje de fwa anndan menm nivo sa a**: moun k ap aplike pou klas 1 pase **WPPSI** la, klas 2–4 yo **WISC-V** la, epi klas 5 la **ISEE** a. Chemen pou rezève a chanje avè l tou. Se yon sikològ nan konsòsyòm Charlotte Area Independent Schools la ki administre WPPSI ak WISC-V yo, epi se ou menm ki kontakte l dirèkteman; se **Educational Records Bureau** ki fè epi ki administre ISEE a, epi fanmi klas 5 yo enskri nan ERB la. Tcheke kilès ki aplike pou klas kote pitit ou ap antre a anvan ou rezève anyen.",
+      "of": "c8fe6d82",
+      "at": [
+        "charlotte-latin:guide.bands[1].steps[3].detail"
+      ]
+    },
+    {
+      "t": "Opsyonèl, epi li gen pwòp kalandriye pa l: aplikasyon an louvri nan **Clarity** nan dat **15 septanm 2026** epi li dwe rive **15 janvye 2027** pou w antre nan tou prioritè a — menm jou ak dat limit aplikasyon nivo sa a. Yon sèl aplikasyon kouvri tout timoun nan fanmi an.",
+      "of": "46e1a067",
+      "at": [
+        "charlotte-latin:guide.bands[1].steps[4].detail"
+      ]
+    },
+    {
+      "t": "Tès la chanje de fwa anndan menm nivo sa a.",
+      "of": "fe67f3cc",
+      "at": [
+        "charlotte-latin:guide.bands[1].checklistCallout.lead"
+      ]
+    },
+    {
+      "t": "Klas 1 pase WPPSI la, klas 2–4 yo WISC-V la epi klas 5 la ISEE a — epi chemen pou rezève a chanje avè l tou, depi yon sikològ CAIS ou kontakte dirèkteman jiska enskri nan Educational Records Bureau la. Konfime kilès tès ki aplike pou klas kote pitit ou ap antre a anvan ou rezève. Pa gen okenn dat limit pou tout dokiman ki pibliye pou nivo sa a, kidonk konsidere lis kontwòl pòtay ou a kòm lis ofisyèl sa ki rete pou fèt, epi pa gen okenn dat desizyon ni dat kontra enskripsyon ki pibliye pou okenn nivo — konfime tou de ak biwo admisyon an.",
+      "of": "de9b42bc",
+      "at": [
+        "charlotte-latin:guide.bands[1].checklistCallout.text"
+      ]
+    },
+    {
+      "t": "Dat limit klas 1–12 yo, trèz jou apre sa TK/K a.",
+      "of": "2e0d0ce3",
+      "at": [
+        "charlotte-latin:guide.bands[1].checklistRows[2].detail"
+      ]
+    },
+    {
+      "t": "Depi klas 1 monte se fanmi an ki rezève l, se pa biwo admisyon an.",
+      "of": "1eff8cfa",
+      "at": [
+        "charlotte-latin:guide.bands[1].checklistRows[3].detail"
+      ]
+    },
+    {
+      "t": "Fikse epi pase tès ki pou klas kote w ap antre a",
+      "of": "58f28450",
+      "at": [
+        "charlotte-latin:guide.bands[1].checklistRows[4].action"
+      ]
+    },
+    {
+      "t": "Klas 1 WPPSI · klas 2–4 WISC-V (tou de CAIS) · klas 5 ISEE (nan ERB la).",
+      "of": "cc9ee7d8",
+      "at": [
+        "charlotte-latin:guide.bands[1].checklistRows[4].detail"
+      ]
+    },
+    {
+      "t": "Middle School · klas 6–8",
+      "of": "d3378ce2",
+      "at": [
+        "charlotte-latin:guide.bands[2].label"
+      ]
+    },
+    {
+      "t": "Middle School — klas 6–8",
+      "of": "6850595d",
+      "at": [
+        "charlotte-latin:guide.bands[2].title"
+      ]
+    },
+    {
+      "t": "tès fini epi voye",
+      "of": "843e4f26",
+      "at": [
+        "charlotte-latin:guide.bands[2].deadlines[1].label",
+        "charlotte-latin:guide.bands[3].deadlines[1].label"
+      ]
+    },
+    {
+      "t": "dat limit tout dokiman yo",
+      "of": "80c0f159",
+      "at": [
+        "charlotte-latin:guide.bands[2].deadlines[2].label",
+        "charlotte-latin:guide.bands[3].deadlines[2].label"
+      ]
+    },
+    {
+      "t": "Obligatwa, epi li dwe rive **15 janvye 2027** — dat limit tout klas depi 1 rive 12 pataje a. Klas sizyèm nan se youn nan ane kote lekòl la «elaji natirèlman», ansanm ak TK, Kindergarten ak nevyèm.",
+      "of": "85254822",
+      "at": [
+        "charlotte-latin:guide.bands[2].steps[1].detail"
+      ]
+    },
+    {
+      "t": "Fikse epi ale nan yon Visit Day — ak entèvyou ladan l",
+      "of": "61a0f672",
+      "at": [
+        "charlotte-latin:guide.bands[2].steps[2].title"
+      ]
+    },
+    {
+      "t": "Obligatwa, epi se fanmi an ki fikse l. Visit Day nivo sa a fè anpil plis pase sa nivo anba yo fè: «elèv Middle School w ap prezante a ap gen **yon entèvyou, l ap pase yon evalyasyon, l ap obsève yon klas, epi l ap konekte ak elèv Latin yo**». Konsidere l tankou yon jounen evalyasyon olye ke yon vizit — ni entèvyou a ni yon pati evalyasyon sou plas la klè pou nivo sa a.",
+      "of": "7e2e5a3c",
+      "at": [
+        "charlotte-latin:guide.bands[2].steps[2].detail"
+      ]
+    },
+    {
+      "t": "Pase ISEE a",
+      "of": "fb6e267d",
+      "at": [
+        "charlotte-latin:guide.bands[2].steps[3].title",
+        "charlotte-latin:guide.bands[3].steps[3].title"
+      ]
+    },
+    {
+      "t": "Obligatwa: **moun k ap aplike pou klas 6–8 pase ISEE a**, epi «tout tès Middle School yo dwe fini epi voye anvan **26 fevriye 2027**». Se **Educational Records Bureau** ki fè epi ki administre ISEE a, epi se nan ERB la ou enskri, se pa nan lekòl la. Dat 26 fevriye sa a se kontrent ki mennen nivo sa a — **planifye enskripsyon w lan an ranvès depi nan li**, paske yon plas egzamen dwe rezève, pase epi note anvan dat limit la, se pa nan jou a menm.",
+      "of": "570ae04d",
+      "at": [
+        "charlotte-latin:guide.bands[2].steps[3].detail"
+      ]
+    },
+    {
+      "t": "Konplete dosye w la",
+      "of": "d6b72a0d",
+      "at": [
+        "charlotte-latin:guide.bands[2].steps[4].title",
+        "charlotte-latin:guide.bands[3].steps[4].title"
+      ]
+    },
+    {
+      "t": "Tout dokiman dosye a dwe rive **26 fevriye 2027**, menm jou ak dat limit tès la. Se nan kont pòtay ou a bagay ki rete yo make epi se la ou voye yo.",
+      "of": "c7fda622",
+      "at": [
+        "charlotte-latin:guide.bands[2].steps[4].detail",
+        "charlotte-latin:guide.bands[3].steps[4].detail"
+      ]
+    },
+    {
+      "t": "Opsyonèl, epi li gen pwòp kalandriye pa l: aplikasyon an louvri nan **Clarity** nan dat **15 septanm 2026** epi li dwe rive **15 janvye 2027** pou w antre nan tou prioritè a — sis semèn anvan dat limit dokiman yo. Yon sèl aplikasyon kouvri tout timoun nan fanmi an.",
+      "of": "f75db188",
+      "at": [
+        "charlotte-latin:guide.bands[2].steps[5].detail",
+        "charlotte-latin:guide.bands[3].steps[5].detail"
+      ]
+    },
+    {
+      "t": "26 fevriye 2027 se dat ki mennen nivo sa a.",
+      "of": "eb208bbd",
+      "at": [
+        "charlotte-latin:guide.bands[2].checklistCallout.lead",
+        "charlotte-latin:guide.bands[3].checklistCallout.lead"
+      ]
+    },
+    {
+      "t": "Ni ISEE a ni tout rès bagay nan dosye a dwe rive jou sa a, kidonk planifye enskripsyon ERB w lan an ranvès depi nan li olye ou vize l — yon plas egzamen dwe rezève, pase epi note anvan dat limit la. Visit Day la se yon jounen evalyasyon, se pa yon vizit: li gen yon entèvyou, yon evalyasyon sou plas ak obsèvasyon yon klas. Pa gen okenn dat desizyon ni dat kontra enskripsyon ki pibliye pou okenn nivo — konfime tou de ak biwo admisyon an.",
+      "of": "140bd0c5",
+      "at": [
+        "charlotte-latin:guide.bands[2].checklistCallout.text"
+      ]
+    },
+    {
+      "t": "Dat limit klas 1–12 yo. Klas sizyèm nan se yon ane elajisman natirèl.",
+      "of": "4da27e9e",
+      "at": [
+        "charlotte-latin:guide.bands[2].checklistRows[2].detail"
+      ]
+    },
+    {
+      "t": "Fikse epi ale nan Visit Day la",
+      "of": "d0848c6d",
+      "at": [
+        "charlotte-latin:guide.bands[2].checklistRows[3].action",
+        "charlotte-latin:guide.bands[3].checklistRows[3].action"
+      ]
+    },
+    {
+      "t": "Li gen yon entèvyou, yon evalyasyon sou plas ak obsèvasyon yon klas.",
+      "of": "fa886508",
+      "at": [
+        "charlotte-latin:guide.bands[2].checklistRows[3].detail"
+      ]
+    },
+    {
+      "t": "Anvan 26 fevriye 2027",
+      "of": "7f3d9474",
+      "at": [
+        "charlotte-latin:guide.bands[2].checklistRows[3].due",
+        "charlotte-latin:guide.bands[3].checklistRows[3].due"
+      ]
+    },
+    {
+      "t": "Rezève l nan Educational Records Bureau; rezève ase bonè pou yo ka note l.",
+      "of": "03ca39a5",
+      "at": [
+        "charlotte-latin:guide.bands[2].checklistRows[4].detail"
+      ]
+    },
+    {
+      "t": "Voye tout rès bagay ki nan dosye a",
+      "of": "13638683",
+      "at": [
+        "charlotte-latin:guide.bands[2].checklistRows[5].action",
+        "charlotte-latin:guide.bands[3].checklistRows[5].action"
+      ]
+    },
+    {
+      "t": "Lis kontwòl pòtay ou a montre sa ki rete pou fèt.",
+      "of": "9e151ce5",
+      "at": [
+        "charlotte-latin:guide.bands[2].checklistRows[5].detail",
+        "charlotte-latin:guide.bands[3].checklistRows[5].detail"
+      ]
+    },
+    {
+      "t": "Upper School · klas 9–12",
+      "of": "3ae019cb",
+      "at": [
+        "charlotte-latin:guide.bands[3].label"
+      ]
+    },
+    {
+      "t": "Upper School — klas 9–12",
+      "of": "acd3948e",
+      "at": [
+        "charlotte-latin:guide.bands[3].title"
+      ]
+    },
+    {
+      "t": "Obligatwa, epi li dwe rive **15 janvye 2027** — dat limit tout klas depi 1 rive 12 pataje a. Klas nevyèm nan se youn nan ane kote lekòl la «elaji natirèlman», ansanm ak TK, Kindergarten ak sizyèm.",
+      "of": "b6749c0e",
+      "at": [
+        "charlotte-latin:guide.bands[3].steps[1].detail"
+      ]
+    },
+    {
+      "t": "Fikse epi ale nan yon Visit Day — entèvyou ak yon jounen akonpayman",
+      "of": "64dad70e",
+      "at": [
+        "charlotte-latin:guide.bands[3].steps[2].title"
+      ]
+    },
+    {
+      "t": "Obligatwa, epi se fanmi an ki fikse l. Nivo sa a mete yon entèvyou fòmèl ansanm ak yon eksperyans akonpayman: «elèv Upper School w ap prezante a ap gen **yon entèvyou, l ap konekte ak yon Student Ambassador Latin, epi l ap viv jounen an tankou yon elèv Latin**». Pitit ou pase jounen an bò kote yon elèv aktyèl olye ke l vizite kanpis la avè w.",
+      "of": "dca8f1df",
+      "at": [
+        "charlotte-latin:guide.bands[3].steps[2].detail"
+      ]
+    },
+    {
+      "t": "Obligatwa pou **moun k ap aplike pou klas 9–11**, ki «pase ISEE a», epi «tout tès Upper School yo dwe fini epi voye anvan **26 fevriye 2027**». Se nan **Educational Records Bureau** ou enskri, se pa nan lekòl la, epi 26 fevriye se kontrent ki mennen nivo sa a — **planifye enskripsyon w lan an ranvès depi nan li**, paske yon plas egzamen dwe rezève, pase epi note anvan dat limit la. **Pa gen okenn evalyasyon antre ki pibliye pou moun k ap aplike pou klas 12**: sa yo mande a kouvri klas 9 rive 11 sèlman, kidonk yon fanmi klas 12 ta dwe mande biwo admisyon an kisa ki aplike.",
+      "of": "4ecd4f4c",
+      "at": [
+        "charlotte-latin:guide.bands[3].steps[3].detail"
+      ]
+    },
+    {
+      "t": "Ni ISEE a ni tout rès bagay nan dosye a dwe rive jou sa a, kidonk planifye enskripsyon ERB w lan an ranvès depi nan li olye ou vize l. Visit Day la mete yon entèvyou ansanm ak yon jounen akonpayman ak yon Student Ambassador, kidonk pitit ou pase jounen an menm jan yon elèv Latin ta pase l. Sa yo mande pou tès la kouvri klas 9 rive 11 — pa gen anyen ki pibliye pou moun k ap aplike pou klas 12, kidonk mande biwo admisyon an kisa ki aplike. Pa gen okenn dat desizyon ni dat kontra enskripsyon ki pibliye pou okenn nivo; konfime tou de ak biwo a.",
+      "of": "012d1a5d",
+      "at": [
+        "charlotte-latin:guide.bands[3].checklistCallout.text"
+      ]
+    },
+    {
+      "t": "Dat limit klas 1–12 yo. Klas nevyèm nan se yon ane elajisman natirèl.",
+      "of": "3eb92b51",
+      "at": [
+        "charlotte-latin:guide.bands[3].checklistRows[2].detail"
+      ]
+    },
+    {
+      "t": "Yon entèvyou plis yon jounen akonpayman bò kote yon Student Ambassador Latin.",
+      "of": "45bfe4c3",
+      "at": [
+        "charlotte-latin:guide.bands[3].checklistRows[3].detail"
+      ]
+    },
+    {
+      "t": "Enskri pou ISEE a epi pase l (klas 9–11)",
+      "of": "134dc7b0",
+      "at": [
+        "charlotte-latin:guide.bands[3].checklistRows[4].action"
+      ]
+    },
+    {
+      "t": "Nan Educational Records Bureau. Pa gen anyen ki pibliye pou klas 12.",
+      "of": "b404a6ae",
+      "at": [
+        "charlotte-latin:guide.bands[3].checklistRows[4].detail"
+      ]
+    },
+    {
+      "t": "Èd la pase nan **Clarity**, li louvri **15 septanm 2026** epi li dwe rive **15 janvye 2027** pou tou prioritè a. Yon sèl aplikasyon kouvri tout timoun nan fanmi an epi «nòmalman li pran 30 minit oswa mwens pou ranpli». Apa de sa, gen yon **depo $2,500 ki pa ranbousab** yo «mande nan moman premye enskripsyon an oswa reenskripsyon an» epi yo «wete l nan dezyèm peman ekolaj la» — okenn elèv pa ka enskri ni reenskri san li. **Pa gen okenn frè aplikasyon pou èd ki pibliye** pou sik sa a.",
+      "of": "3cf2392e",
+      "at": [
+        "charlotte-latin:guide.aid.text"
+      ]
+    },
+    {
+      "t": "Kiyès ki fikse Visit Day la",
+      "of": "3f974743",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[1].label"
+      ]
+    },
+    {
+      "t": "Fanmi an",
+      "of": "92b7489c",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[1].cells.ls",
+        "charlotte-latin:guide.comparison.rows[1].cells.ms",
+        "charlotte-latin:guide.comparison.rows[1].cells.us"
+      ]
+    },
+    {
+      "t": "Tès estandadize",
+      "of": "dbeeb10c",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[2].label"
+      ]
+    },
+    {
+      "t": "WPPSI",
+      "of": "ba951af2",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[2].cells.tkk"
+      ]
+    },
+    {
+      "t": "WPPSI (kl. 1) · WISC-V (kl. 2–4) · ISEE (kl. 5)",
+      "of": "a3f2fffc",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[2].cells.ls"
+      ]
+    },
+    {
+      "t": "ISEE",
+      "of": "eac03f6f",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[2].cells.ms"
+      ]
+    },
+    {
+      "t": "ISEE (kl. 9–11) · anyen pa pibliye pou kl. 12",
+      "of": "e53f0f3e",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[2].cells.us"
+      ]
+    },
+    {
+      "t": "Entèvyou nan Visit Day la",
+      "of": "3dccbfff",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[3].label"
+      ]
+    },
+    {
+      "t": "Yo pa dekri l",
+      "of": "664909c9",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[3].cells.tkk",
+        "charlotte-latin:guide.comparison.rows[3].cells.ls"
+      ]
+    },
+    {
+      "t": "Wi",
+      "of": "b3a43630",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[3].cells.ms",
+        "charlotte-latin:guide.comparison.rows[3].cells.us"
+      ]
+    },
+    {
+      "t": "Kisa Visit Day la ye",
+      "of": "5f233293",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[4].label"
+      ]
+    },
+    {
+      "t": "Kèk èdtan nan yon salklas Latin; paran yo rankontre paran aktyèl yo ak yon panèl elèv Upper School",
+      "of": "1049268f",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[4].cells.tkk"
+      ]
+    },
+    {
+      "t": "Yon vizit nan salklas",
+      "of": "81cd14ec",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[4].cells.ls"
+      ]
+    },
+    {
+      "t": "Entèvyou, evalyasyon sou plas ak obsèvasyon yon klas",
+      "of": "718f4a5f",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[4].cells.ms"
+      ]
+    },
+    {
+      "t": "Entèvyou, yon Student Ambassador ak yon jounen nan lavi yon elèv Latin",
+      "of": "fbbb0b92",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[4].cells.us"
+      ]
+    },
+    {
+      "t": "Dat limit tès ak dokiman yo",
+      "of": "6aff044f",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[5].label"
+      ]
+    },
+    {
+      "t": "Anyen pa pibliye",
+      "of": "de8a893d",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[5].cells.tkk",
+        "charlotte-latin:guide.comparison.rows[5].cells.ls"
+      ]
+    },
+    {
+      "t": "Desizyon ak kontra",
+      "of": "6a9bcae4",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[6].label"
+      ]
+    },
+    {
+      "t": "Yo pa pibliye l nan okenn nivo — konfime ak biwo admisyon an. Tout kalandriye ki pibliye yo rete nan dat limit aplikasyon an oswa dokiman yo, epi pa gen okenn dat notifikasyon, lè notifikasyon ni dat kontra enskripsyon ki parèt sou okenn paj admisyon.",
+      "of": "edcb873e",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[6].cells.all"
+      ]
+    },
+    {
+      "t": "Konstan nan tout nivo",
+      "of": "4e17969e",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[7].label",
+        "charlotte-christian:guide.comparison.rows[10].label",
+        "charlotte-country-day:guide.comparison.rows[8].label"
+      ]
+    },
+    {
+      "t": "Pòtay Finalsite Enrollment la, depi nan premye demann enfòmasyon an jiska chak dokiman ou voye · èd finansye nan Clarity, ki louvri 15 septanm 2026 epi ki dwe rive 15 janvye 2027 · yon depo enskripsyon $2,500 ki pa ranbousab, yo wete l nan dezyèm peman ekolaj la",
+      "of": "c88c2a4f",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[7].cells.all"
+      ]
+    },
+    {
+      "t": "9502 Providence Road, Charlotte, NC 28277 · admisyon 704-846-7207 · admissions@charlottelatin.org · èd finansye financialaid@charlottelatin.org. Yo bay chak moun k ap aplike yon konseye admisyon pou gide fanmi an nan pwosesis la; yo pa pibliye okenn nimewo telefòn ni adrès imèl endividyèl pou ekip ki anba a.",
+      "of": "54cfc16d",
+      "at": [
+        "charlotte-latin:guide.contacts.address"
+      ]
+    },
+    {
+      "t": "Direktè Jesyon Enskripsyon",
+      "of": "df651b3d",
+      "at": [
+        "charlotte-latin:guide.contacts.people[0].detail"
+      ]
+    },
+    {
+      "t": "Direktè Adjwen Admisyon · konseye admisyon",
+      "of": "4e58d111",
+      "at": [
+        "charlotte-latin:guide.contacts.people[1].detail"
+      ]
+    },
+    {
+      "t": "Konseye admisyon",
+      "of": "eb95e285",
+      "at": [
+        "charlotte-latin:guide.contacts.people[2].detail"
+      ]
+    },
+    {
+      "t": "Konseye admisyon · pwomosyon 1998",
+      "of": "fcdc41ec",
+      "at": [
+        "charlotte-latin:guide.contacts.people[3].detail"
+      ]
+    },
+    {
+      "t": "Kowòdonatè Aplikasyon · pwomosyon 1996",
+      "of": "b5884e8b",
+      "at": [
+        "charlotte-latin:guide.contacts.people[4].detail"
+      ]
+    },
+    {
+      "t": "Responsab Biwo Admisyon · pwomosyon 2007",
+      "of": "4f3b2087",
+      "at": [
+        "charlotte-latin:guide.contacts.people[5].detail"
+      ]
+    },
+    {
+      "t": "Fasilitatè Admisyon ak Èd Finansye",
+      "of": "5e192879",
+      "at": [
+        "charlotte-latin:guide.contacts.people[6].detail"
+      ]
+    },
+    {
+      "t": "Pèsonèl Sipò Admisyon",
+      "of": "12fae1ce",
+      "at": [
+        "charlotte-latin:guide.contacts.people[7].detail"
+      ]
+    },
+    {
+      "t": "Gid Vizit · pèsonèl sipò Admisyon",
+      "of": "6e03dd3d",
+      "at": [
+        "charlotte-latin:guide.contacts.people[8].detail"
+      ]
+    },
+    {
+      "t": "Pòtay: Finalsite Enrollment · charlottelatin.fsenrollment.com",
+      "of": "e9f72c55",
+      "at": [
+        "charlotte-latin:guide.checklist.portalNote"
+      ]
+    },
+    {
+      "t": "Aplike nan Clarity sou app.clarityapp.com. Si w ap aplike pou plizyè timoun ou bezwen yon sèl aplikasyon, epi nòmalman li pran 30 minit oswa mwens pou ranpli.",
+      "of": "56448a96",
+      "at": [
+        "charlotte-latin:guide.checklist.aidPanel.items[0]"
+      ]
+    },
+    {
+      "t": "Aplikasyon an louvri 15 septanm 2026.",
+      "of": "6bf9db81",
+      "at": [
+        "charlotte-latin:guide.checklist.aidPanel.items[1]"
+      ]
+    },
+    {
+      "t": "Voye l anvan 15 janvye 2027 pou yo konsidere w nan desizyon tou prioritè a.",
+      "of": "43ac5026",
+      "at": [
+        "charlotte-latin:guide.checklist.aidPanel.items[2]"
+      ]
+    },
+    {
+      "t": "Yo mande yon depo $2,500 ki pa ranbousab nan moman premye enskripsyon an oswa reenskripsyon an, epi yo wete l nan dezyèm peman ekolaj la. Okenn elèv pa ka enskri ni reenskri san li.",
+      "of": "b8b6dd06",
+      "at": [
+        "charlotte-latin:guide.checklist.aidPanel.items[3]"
+      ]
+    },
+    {
+      "t": "Pa gen okenn frè aplikasyon pou èd finansye ki pibliye pou sik sa a.",
+      "of": "45020e8a",
+      "at": [
+        "charlotte-latin:guide.checklist.aidPanel.items[4]"
+      ]
+    },
+    {
+      "t": "Admisyon — 704-846-7207 · admissions@charlottelatin.org",
+      "of": "3512895d",
+      "at": [
+        "charlotte-latin:guide.checklist.contactPanel.lines[0]"
+      ]
+    },
+    {
+      "t": "Èd finansye — financialaid@charlottelatin.org",
+      "of": "46985bd5",
+      "at": [
+        "charlotte-latin:guide.checklist.contactPanel.lines[1]"
+      ]
+    },
+    {
+      "t": "9502 Providence Road, Charlotte, NC 28277",
+      "of": "11d622f9",
+      "at": [
+        "charlotte-latin:guide.checklist.contactPanel.lines[2]"
+      ]
+    },
+    {
+      "t": "Dat yo se sik antre 2026–27 la jan yo pibliye l sou charlottelatin.org (nou pran l nan mwa out 2026) — paj pwosesis aplikasyon an, paj ekolaj ak èd finansye a, ak paj admisyon yo. Bagay ki make «konfime» yo swa dèyè pòtay aplikasyon an swa yo pa pibliye ditou, ansanm ak tout dat desizyon ak dat kontra enskripsyon. Dat sik la chanje chak ane, epi paj sa yo te gen yon lòt seri dat nan yon sezon anvan — verifye yo sou paj k ap mache yo anvan ou aji. Se Charlotte School Compare ki rasanble yo; li pa gen rapò ak Charlotte Latin School.",
+      "of": "b7abdac7",
+      "at": [
+        "charlotte-latin:guide.checklist.disclaimer"
       ]
     },
     {
@@ -1475,14 +2572,6 @@
       "at": [
         "charlotte-christian:guide.bands[0].steps[6].title",
         "charlotte-christian:guide.bands[1].steps[6].title"
-      ]
-    },
-    {
-      "t": "yo pran randevou pou ou",
-      "of": "43a2ae4c",
-      "at": [
-        "charlotte-christian:guide.bands[0].steps[6].tag",
-        "charlotte-christian:guide.bands[1].steps[6].tag"
       ]
     },
     {
@@ -2422,14 +3511,6 @@
       "of": "7ef7298e",
       "at": [
         "charlotte-christian:guide.comparison.rows[9].cells.all"
-      ]
-    },
-    {
-      "t": "Konstan nan tout nivo",
-      "of": "4e17969e",
-      "at": [
-        "charlotte-christian:guide.comparison.rows[10].label",
-        "charlotte-country-day:guide.comparison.rows[8].label"
       ]
     },
     {

@@ -15,6 +15,7 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import { winPct, localizeMoneyText } from '../lib/format.ts'
 import { assetUrl } from '../lib/asset.ts'
 import { useTranslation } from 'react-i18next'
+import { SourceRow } from './SourceRow.tsx'
 import type {
   Coaching,
   CollegePipeline,
@@ -24,7 +25,6 @@ import type {
   Level,
   NationalStage,
   SportsOffered,
-  SportsSource,
   StatTile,
   TitleCell,
   TitleRow,
@@ -33,27 +33,6 @@ import type {
 
 /* ------------------------------------------------------------ primitives -- */
 
-/** The SOURCE row every card ends with. Citations with a URL become links. */
-function SourceRow({ sources }: { sources: SportsSource[] }) {
-  const { t } = useTranslation()
-  if (sources.length === 0) return null
-  return (
-    <div className="sports-src srcrow">
-      <span className="tag-outline">{t('sports.source')}</span>
-      {sources.map((s) =>
-        s.url ? (
-          <a key={s.label} href={s.url} target="_blank" rel="noreferrer noopener">
-            {s.label} ↗
-          </a>
-        ) : (
-          <span key={s.label} className="text-muted">
-            {s.label}
-          </span>
-        ),
-      )}
-    </div>
-  )
-}
 
 /** The lead paragraph: bold headline plus muted continuation. */
 function Lead({ headline, subhead }: { headline: string; subhead?: string }) {
@@ -142,7 +121,7 @@ export function SportsOfferedBody({ data }: { data: SportsOffered }) {
       </div>
 
       {data.footnote && <p className="sports-note text-muted">{data.footnote}</p>}
-      <SourceRow sources={data.sources} />
+      <SourceRow sources={data.sources} className="sports-src" localizeLabels={false} />
     </div>
   )
 }
@@ -273,7 +252,7 @@ export function WinningRecordBody({ data }: { data: WinningRecord }) {
         </div>
       )}
 
-      <SourceRow sources={data.sources} />
+      <SourceRow sources={data.sources} className="sports-src" localizeLabels={false} />
     </div>
   )
 }
@@ -492,7 +471,7 @@ export function CollegePipelineBody({ data }: { data: CollegePipeline }) {
       </div>
 
       {data.rosterNote && <p className="sports-note text-muted">{data.rosterNote}</p>}
-      <SourceRow sources={data.sources} />
+      <SourceRow sources={data.sources} className="sports-src" localizeLabels={false} />
     </div>
   )
 }
@@ -535,7 +514,7 @@ export function HonorsBody({ data }: { data: HonorsAndPros }) {
         </div>
       </div>
 
-      <SourceRow sources={data.sources} />
+      <SourceRow sources={data.sources} className="sports-src" localizeLabels={false} />
     </div>
   )
 }
@@ -593,7 +572,7 @@ export function CoachingBody({ data }: { data: Coaching }) {
           <strong className="sports-note-strong">{t('sports.worthKnowing')}</strong> {data.worthKnowing}
         </p>
       )}
-      <SourceRow sources={data.sources} />
+      <SourceRow sources={data.sources} className="sports-src" localizeLabels={false} />
     </div>
   )
 }
@@ -659,7 +638,7 @@ export function FacilitiesBody({ data }: { data: Facilities }) {
         </div>
       </div>
 
-      <SourceRow sources={data.sources} />
+      <SourceRow sources={data.sources} className="sports-src" localizeLabels={false} />
     </div>
   )
 }
@@ -708,7 +687,7 @@ export function NationalStageBody({ data }: { data: NationalStage }) {
         </div>
       </div>
 
-      <SourceRow sources={data.sources} />
+      <SourceRow sources={data.sources} className="sports-src" localizeLabels={false} />
     </div>
   )
 }

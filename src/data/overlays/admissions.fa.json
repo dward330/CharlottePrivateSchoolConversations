@@ -14,6 +14,7 @@
       "of": "826ef611",
       "at": [
         "providence-day:guide.cycle",
+        "charlotte-latin:guide.cycle",
         "charlotte-christian:guide.cycle"
       ]
     },
@@ -29,6 +30,7 @@
       "of": "0115e4c6",
       "at": [
         "providence-day:guide.stats[1].label",
+        "charlotte-latin:guide.stats[2].label",
         "charlotte-christian:guide.stats[1].label",
         "charlotte-country-day:guide.stats[1].label"
       ]
@@ -82,7 +84,8 @@
       "t": "TK / کودکستان",
       "of": "d6a3513b",
       "at": [
-        "providence-day:guide.bands[0].label"
+        "providence-day:guide.bands[0].label",
+        "charlotte-latin:guide.bands[0].label"
       ]
     },
     {
@@ -96,7 +99,8 @@
       "t": "کودکستان انتقالی و کودکستان",
       "of": "75235da1",
       "at": [
-        "providence-day:guide.bands[0].title"
+        "providence-day:guide.bands[0].title",
+        "charlotte-latin:guide.bands[0].title"
       ]
     },
     {
@@ -153,6 +157,18 @@
         "providence-day:guide.bands[2].steps[0].tag",
         "providence-day:guide.bands[2].checklistRows[0].due",
         "providence-day:guide.bands[2].checklistRows[1].due",
+        "charlotte-latin:guide.bands[0].steps[0].tag",
+        "charlotte-latin:guide.bands[0].checklistRows[0].due",
+        "charlotte-latin:guide.bands[0].checklistRows[1].due",
+        "charlotte-latin:guide.bands[1].steps[0].tag",
+        "charlotte-latin:guide.bands[1].checklistRows[0].due",
+        "charlotte-latin:guide.bands[1].checklistRows[1].due",
+        "charlotte-latin:guide.bands[2].steps[0].tag",
+        "charlotte-latin:guide.bands[2].checklistRows[0].due",
+        "charlotte-latin:guide.bands[2].checklistRows[1].due",
+        "charlotte-latin:guide.bands[3].steps[0].tag",
+        "charlotte-latin:guide.bands[3].checklistRows[0].due",
+        "charlotte-latin:guide.bands[3].checklistRows[1].due",
         "charlotte-christian:guide.bands[0].steps[0].tag",
         "charlotte-christian:guide.bands[0].checklistRows[0].due",
         "charlotte-christian:guide.bands[1].steps[0].tag",
@@ -200,6 +216,7 @@
       "of": "a636a187",
       "at": [
         "providence-day:guide.bands[0].steps[1].tag",
+        "charlotte-latin:guide.bands[0].steps[2].tag",
         "charlotte-christian:guide.bands[0].steps[2].tag",
         "charlotte-country-day:guide.bands[0].steps[3].tag"
       ]
@@ -410,6 +427,8 @@
       "at": [
         "providence-day:guide.bands[0].checklistRows[2].due",
         "providence-day:guide.comparison.rows[0].cells.tkk",
+        "charlotte-latin:guide.bands[0].checklistRows[3].due",
+        "charlotte-latin:guide.comparison.rows[0].cells.tkk",
         "charlotte-christian:guide.bands[0].checklistRows[2].due",
         "charlotte-christian:guide.comparison.rows[0].cells.jkk",
         "charlotte-country-day:guide.bands[0].checklistRows[3].due",
@@ -511,6 +530,12 @@
         "providence-day:guide.bands[2].checklistRows[4].due",
         "providence-day:guide.comparison.rows[1].cells.g15",
         "providence-day:guide.comparison.rows[1].cells.g612",
+        "charlotte-latin:guide.bands[2].checklistRows[4].due",
+        "charlotte-latin:guide.bands[2].checklistRows[5].due",
+        "charlotte-latin:guide.bands[3].checklistRows[4].due",
+        "charlotte-latin:guide.bands[3].checklistRows[5].due",
+        "charlotte-latin:guide.comparison.rows[5].cells.ms",
+        "charlotte-latin:guide.comparison.rows[5].cells.us",
         "charlotte-christian:guide.bands[0].checklistRows[7].due",
         "charlotte-christian:guide.bands[1].checklistRows[3].due",
         "charlotte-christian:guide.bands[1].checklistRows[4].due",
@@ -609,6 +634,13 @@
       "at": [
         "providence-day:guide.bands[1].steps[1].tag",
         "providence-day:guide.bands[2].steps[1].tag",
+        "charlotte-latin:guide.bands[0].steps[5].tag",
+        "charlotte-latin:guide.bands[1].steps[1].tag",
+        "charlotte-latin:guide.bands[1].steps[4].tag",
+        "charlotte-latin:guide.bands[2].steps[1].tag",
+        "charlotte-latin:guide.bands[2].steps[5].tag",
+        "charlotte-latin:guide.bands[3].steps[1].tag",
+        "charlotte-latin:guide.bands[3].steps[5].tag",
         "charlotte-christian:guide.bands[0].steps[3].tag",
         "charlotte-christian:guide.bands[0].steps[4].tag",
         "charlotte-christian:guide.bands[1].steps[2].tag",
@@ -642,6 +674,10 @@
         "providence-day:guide.bands[1].steps[3].tag",
         "providence-day:guide.bands[2].steps[2].tag",
         "providence-day:guide.bands[2].steps[3].tag",
+        "charlotte-latin:guide.bands[2].steps[3].tag",
+        "charlotte-latin:guide.bands[2].steps[4].tag",
+        "charlotte-latin:guide.bands[3].steps[3].tag",
+        "charlotte-latin:guide.bands[3].steps[4].tag",
         "charlotte-christian:guide.bands[1].steps[3].tag",
         "charlotte-christian:guide.bands[1].steps[4].tag",
         "charlotte-christian:guide.bands[1].steps[5].tag",
@@ -757,6 +793,16 @@
         "providence-day:guide.bands[2].checklistRows[2].due",
         "providence-day:guide.comparison.rows[0].cells.g15",
         "providence-day:guide.comparison.rows[0].cells.g612",
+        "charlotte-latin:guide.bands[0].checklistRows[6].due",
+        "charlotte-latin:guide.bands[1].checklistRows[2].due",
+        "charlotte-latin:guide.bands[1].checklistRows[5].due",
+        "charlotte-latin:guide.bands[2].checklistRows[2].due",
+        "charlotte-latin:guide.bands[2].checklistRows[6].due",
+        "charlotte-latin:guide.bands[3].checklistRows[2].due",
+        "charlotte-latin:guide.bands[3].checklistRows[6].due",
+        "charlotte-latin:guide.comparison.rows[0].cells.ls",
+        "charlotte-latin:guide.comparison.rows[0].cells.ms",
+        "charlotte-latin:guide.comparison.rows[0].cells.us",
         "charlotte-christian:guide.bands[0].checklistRows[3].due",
         "charlotte-christian:guide.bands[0].checklistRows[4].due",
         "charlotte-christian:guide.bands[1].checklistRows[2].due",
@@ -929,6 +975,7 @@
       "of": "e8835419",
       "at": [
         "providence-day:guide.bands[2].checklistRows[3].action",
+        "charlotte-latin:guide.bands[2].checklistRows[4].action",
         "charlotte-christian:guide.bands[3].checklistRows[7].action",
         "charlotte-country-day:guide.bands[2].checklistRows[4].action"
       ]
@@ -959,6 +1006,7 @@
       "of": "15045be1",
       "at": [
         "providence-day:guide.aid.title",
+        "charlotte-latin:guide.aid.title",
         "charlotte-christian:guide.aid.title",
         "charlotte-country-day:guide.aid.title"
       ]
@@ -975,6 +1023,7 @@
       "of": "801e19b8",
       "at": [
         "providence-day:guide.aid.button",
+        "charlotte-latin:guide.aid.button",
         "charlotte-christian:guide.aid.button",
         "charlotte-country-day:guide.aid.button"
       ]
@@ -984,6 +1033,7 @@
       "of": "60faf9b9",
       "at": [
         "providence-day:guide.comparison.kicker",
+        "charlotte-latin:guide.comparison.kicker",
         "charlotte-christian:guide.comparison.kicker",
         "charlotte-country-day:guide.comparison.kicker"
       ]
@@ -993,6 +1043,7 @@
       "of": "2e98319a",
       "at": [
         "providence-day:guide.comparison.title",
+        "charlotte-latin:guide.comparison.title",
         "charlotte-christian:guide.comparison.title",
         "charlotte-country-day:guide.comparison.title"
       ]
@@ -1002,6 +1053,7 @@
       "of": "8751989b",
       "at": [
         "providence-day:guide.comparison.rows[0].label",
+        "charlotte-latin:guide.comparison.rows[0].label",
         "charlotte-christian:guide.comparison.rows[0].label",
         "charlotte-country-day:guide.comparison.rows[0].label"
       ]
@@ -1104,6 +1156,7 @@
       "of": "fa6ba530",
       "at": [
         "providence-day:guide.contacts.kicker",
+        "charlotte-latin:guide.contacts.kicker",
         "charlotte-christian:guide.contacts.kicker",
         "charlotte-country-day:guide.contacts.kicker"
       ]
@@ -1113,6 +1166,8 @@
       "of": "ba210c46",
       "at": [
         "providence-day:guide.contacts.title",
+        "charlotte-latin:guide.comparison.rows[1].cells.tkk",
+        "charlotte-latin:guide.contacts.title",
         "charlotte-christian:guide.contacts.title",
         "charlotte-country-day:guide.contacts.title"
       ]
@@ -1192,6 +1247,7 @@
       "of": "3e87e1fd",
       "at": [
         "providence-day:guide.checklist.aidPanel.kicker",
+        "charlotte-latin:guide.checklist.aidPanel.kicker",
         "charlotte-christian:guide.checklist.aidPanel.kicker",
         "charlotte-country-day:guide.checklist.aidPanel.kicker"
       ]
@@ -1215,6 +1271,7 @@
       "of": "79312c44",
       "at": [
         "providence-day:guide.checklist.contactPanel.kicker",
+        "charlotte-latin:guide.checklist.contactPanel.kicker",
         "charlotte-christian:guide.checklist.contactPanel.kicker",
         "charlotte-country-day:guide.checklist.contactPanel.kicker"
       ]
@@ -1245,6 +1302,1046 @@
       "of": "4437f3e8",
       "at": [
         "providence-day:guide.checklist.disclaimer"
+      ]
+    },
+    {
+      "t": "پایهٔ ورود فرزندتان را انتخاب کنید تا راهنما متناسب با آن تنظیم شود: مراحل به‌ترتیب، مهلت‌های 2026–27 و آزمون‌های همان پایه — به‌همراه سیاهه‌ای قابل‌چاپ که می‌توانید با خود ببرید. چهار مسیر بر یک ساختار مشترک، و آنچه میان آن‌ها تغییر می‌کند آزمون است، این‌که چه کسی Visit Day را تعیین می‌کند، وجود یا نبود مصاحبه، و مهلت.",
+      "of": "ba66a2dc",
+      "at": [
+        "charlotte-latin:guide.headline"
+      ]
+    },
+    {
+      "t": "پایه‌های ورود — TK/K، پایه‌های 1–5، 6–8 و 9–12",
+      "of": "70c840a2",
+      "at": [
+        "charlotte-latin:guide.stats[0].label"
+      ]
+    },
+    {
+      "t": "مهلت درخواست TK/Kindergarten — 13 روز زودتر از همهٔ پایه‌های دیگر",
+      "of": "af3286a6",
+      "at": [
+        "charlotte-latin:guide.stats[1].label"
+      ]
+    },
+    {
+      "t": "ودیعهٔ ثبت‌نام بازگشت‌ناپذیر",
+      "of": "5b3b8389",
+      "at": [
+        "charlotte-latin:guide.stats[3].label"
+      ]
+    },
+    {
+      "t": "تنها یک سامانه، از آغاز تا پایان.",
+      "of": "ec3b31ed",
+      "at": [
+        "charlotte-latin:guide.rules[0].title"
+      ]
+    },
+    {
+      "t": "همه‌چیز از طریق Finalsite Enrollment در نشانی charlottelatin.fsenrollment.com انجام می‌شود: درخواست اطلاعات بفرستید، نمایهٔ خانوادگی‌تان را بسازید، و سپس از همان حساب برای رویدادهای اختیاری پذیرش نام‌نویسی کنید، مدارک را ارسال کنید، فرم‌ها را بیابید و مهلت‌ها را رعایت کنید.",
+      "of": "833270ae",
+      "at": [
+        "charlotte-latin:guide.rules[0].text"
+      ]
+    },
+    {
+      "t": "هر تاریخ زیر مربوط به دورهٔ 2026–27 است.",
+      "of": "1b36e18c",
+      "at": [
+        "charlotte-latin:guide.rules[1].title"
+      ]
+    },
+    {
+      "t": "تاریخ‌های هر دوره سال‌به‌سال تغییر می‌کند، و این صفحه‌ها در فصلی پیشین مجموعهٔ دیگری را نشان می‌دادند. پیش از اقدام بر پایهٔ هر یک از آن‌ها، با صفحه‌های به‌روز پذیرش بسنجید.",
+      "of": "8a447828",
+      "at": [
+        "charlotte-latin:guide.rules[1].text"
+      ]
+    },
+    {
+      "t": "ساختار در همهٔ پایه‌ها یکسان است — درخواست آنلاین از طریق سامانه ← حضور در یک Visit Day ← آزمون استاندارد ← رعایت مهلت‌ها. آنچه میان پایه‌ها تغییر می‌کند این است که فرزندتان کدام آزمون را می‌دهد، Visit Day را دفتر پذیرش تعیین می‌کند یا شما، آن روز مصاحبه دارد یا نه، و شما بر پایهٔ کدام مهلت پیش می‌روید.",
+      "of": "96eb5424",
+      "at": [
+        "charlotte-latin:guide.spineNote"
+      ]
+    },
+    {
+      "t": "مهلت درخواست",
+      "of": "0c1429fb",
+      "at": [
+        "charlotte-latin:guide.bands[0].deadlines[0].label",
+        "charlotte-latin:guide.bands[1].deadlines[0].label",
+        "charlotte-latin:guide.bands[2].deadlines[0].label",
+        "charlotte-latin:guide.bands[3].deadlines[0].label"
+      ]
+    },
+    {
+      "t": "TK/K Fly By Open House — 9:30–11:00 a.m.",
+      "of": "565729e5",
+      "at": [
+        "charlotte-latin:guide.bands[0].deadlines[1].label"
+      ]
+    },
+    {
+      "t": "مهلت درخواست کمک‌هزینهٔ مالی",
+      "of": "d2c4abce",
+      "at": [
+        "charlotte-latin:guide.bands[0].deadlines[2].label",
+        "charlotte-latin:guide.bands[1].deadlines[1].label",
+        "charlotte-latin:guide.bands[2].deadlines[3].label",
+        "charlotte-latin:guide.bands[3].deadlines[3].label"
+      ]
+    },
+    {
+      "t": "درخواست اطلاعات بفرستید، سپس نمایهٔ خانوادگی‌تان را بسازید",
+      "of": "d795a612",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[0].title",
+        "charlotte-latin:guide.bands[1].steps[0].title",
+        "charlotte-latin:guide.bands[2].steps[0].title",
+        "charlotte-latin:guide.bands[3].steps[0].title"
+      ]
+    },
+    {
+      "t": "نخستین گام الزامی: خانواده‌ها «نخست درخواست اطلاعات می‌فرستند و سپس نمایه‌ای برای خانوادهٔ خود می‌سازند». آن حساب پس از آن از شما می‌خواهد برای رویدادهای اختیاری پذیرش نام‌نویسی کنید، مدارک را ارسال کنید، فرم‌ها را بیابید و مهلت‌ها را رعایت کنید — هر آنچه در ادامهٔ این فهرست می‌آید از همان‌جا می‌گذرد.",
+      "of": "a2a5e056",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[0].detail"
+      ]
+    },
+    {
+      "t": "برای رویدادهای اختیاری پذیرش نام‌نویسی کنید",
+      "of": "18bbf90b",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[1].title"
+      ]
+    },
+    {
+      "t": "10 اکتبر 2026",
+      "of": "805b5a7c",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[1].tag",
+        "charlotte-latin:guide.bands[0].checklistRows[2].due"
+      ]
+    },
+    {
+      "t": "اختیاری، نه الزامی. تنها رویداد تاریخ‌دار منتشرشده برای این پایه **TK/K Fly By Open House در 10 اکتبر 2026، ساعت 9:30–11:00 صبح** است. بازدیدهای پردیس از سپتامبر آغاز می‌شود و در سراسر سال تحصیلی ادامه دارد، و روزهای باز، بازدیدها و نشست‌های مجازی همگی از حساب شما در سامانه رزرو می‌شوند.",
+      "of": "6adf47ab",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[1].detail"
+      ]
+    },
+    {
+      "t": "درخواست را کامل کنید",
+      "of": "3ba6d9af",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[2].title",
+        "charlotte-latin:guide.bands[1].steps[1].title",
+        "charlotte-latin:guide.bands[2].steps[1].title",
+        "charlotte-latin:guide.bands[3].steps[1].title"
+      ]
+    },
+    {
+      "t": "الزامی، با مهلت **2 ژانویه 2027** — سیزده روز زودتر از هر پایهٔ دیگر مدرسه، به‌طوری که این پایه بر مهلتی کار می‌کند که در هفتهٔ نخست ژانویه می‌افتد نه میانهٔ آن. برای Transitional Kindergarten یا Kindergarten **هیچ محدودیت سنی یا تاریخ تولدی منتشر نشده است**: مدرسه TK را کیفی توصیف می‌کند، «طراحی‌شده برای کودکانی که تازه پنج‌ساله شده‌اند و آمادهٔ Kindergarten هستند»، و هیچ تاریخی نمی‌گوید. از دفتر پذیرش بپرسید فرزند شما کجا قرار می‌گیرد.",
+      "of": "b8de7ab6",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[2].detail"
+      ]
+    },
+    {
+      "t": "در یک Visit Day شرکت کنید — دفتر آن را تعیین می‌کند",
+      "of": "7af3b393",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[3].title"
+      ]
+    },
+    {
+      "t": "برای شما تعیین می‌شود",
+      "of": "43a2ae4c",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[3].tag",
+        "charlotte-christian:guide.bands[0].steps[6].tag",
+        "charlotte-christian:guide.bands[1].steps[6].tag"
+      ]
+    },
+    {
+      "t": "الزامی، و **این تنها پایه‌ای است که خودتان آن را رزرو نمی‌کنید**: «در Visit Day شرکت کنید (دفتر ما آن را تعیین خواهد کرد).» هر پایهٔ دیگری خودش آن را تعیین می‌کند. آن روز «فرزند شما چند ساعت شادی یک کلاس Latin را تجربه می‌کند، در حالی که شما با والدین کنونی دیدار می‌کنید و سخنان پنلی از دانش‌آموزان Upper School را می‌شنوید».",
+      "of": "8b39d3c4",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[3].detail"
+      ]
+    },
+    {
+      "t": "آزمون WPPSI را بدهید",
+      "of": "9c97b742",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[4].title"
+      ]
+    },
+    {
+      "t": "الزامی",
+      "of": "848c8620",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[4].tag",
+        "charlotte-latin:guide.bands[1].steps[3].tag"
+      ]
+    },
+    {
+      "t": "الزامی. متقاضیان این پایه **WPPSI** را می‌دهند که روان‌شناسی از کنسرسیوم Charlotte Area Independent Schools آن را برگزار می‌کند، و آزمون «باید از پیش هماهنگ شود». خودتان مستقیم با روان‌شناس تماس می‌گیرید و می‌خواهید نمره‌ها به Charlotte Latin فرستاده شود — مدرسه این وقت را نمی‌گیرد.",
+      "of": "3b709f36",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[4].detail"
+      ]
+    },
+    {
+      "t": "اگر نیاز دارید، درخواست کمک‌هزینهٔ مالی بدهید",
+      "of": "47baf108",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[5].title",
+        "charlotte-latin:guide.bands[1].steps[4].title",
+        "charlotte-latin:guide.bands[2].steps[5].title",
+        "charlotte-latin:guide.bands[3].steps[5].title"
+      ]
+    },
+    {
+      "t": "اختیاری، و با تقویم جداگانهٔ خود: درخواست از طریق **Clarity** در **15 سپتامبر 2026** باز می‌شود و برای بررسی در دور اولویت‌دار باید تا **15 ژانویه 2027** ارسال شود — دو هفته پس از مهلت درخواست خودِ این پایه. یک درخواست همهٔ فرزندان خانواده را پوشش می‌دهد.",
+      "of": "42434751",
+      "at": [
+        "charlotte-latin:guide.bands[0].steps[5].detail"
+      ]
+    },
+    {
+      "t": "مهلت درخواست شما 2 ژانویه 2027 است.",
+      "of": "c16225b0",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistCallout.lead"
+      ]
+    },
+    {
+      "t": "Transitional Kindergarten و Kindergarten سیزده روز زودتر از هر پایهٔ دیگر درخواست می‌دهند، و Visit Day این پایه را دفتر پذیرش تعیین می‌کند نه خانواده. برای این پایه هیچ مهلتی برای تکمیل همهٔ مدارک منتشر نشده است، پس سیاههٔ سامانهٔ خود را فهرست معتبر آنچه باقی مانده بدانید. برای هیچ پایه‌ای نه تاریخ تصمیم منتشر شده است و نه تاریخ قرارداد ثبت‌نام — هر دو را با دفتر پذیرش بررسی کنید.",
+      "of": "1d039340",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistCallout.text"
+      ]
+    },
+    {
+      "t": "فرم درخواست اطلاعات آنلاین را بفرستید",
+      "of": "523d1d7a",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[0].action",
+        "charlotte-latin:guide.bands[1].checklistRows[0].action",
+        "charlotte-latin:guide.bands[2].checklistRows[0].action",
+        "charlotte-latin:guide.bands[3].checklistRows[0].action"
+      ]
+    },
+    {
+      "t": "نخستین گام الزامی؛ همین است که به شما اجازه می‌دهد نمایهٔ خانوادگی‌تان را در سامانه بسازید.",
+      "of": "34f5fe8a",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[0].detail",
+        "charlotte-latin:guide.bands[1].checklistRows[0].detail",
+        "charlotte-latin:guide.bands[2].checklistRows[0].detail",
+        "charlotte-latin:guide.bands[3].checklistRows[0].detail"
+      ]
+    },
+    {
+      "t": "نمایهٔ خانوادگی‌تان را در سامانه بسازید",
+      "of": "dd905b57",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[1].action",
+        "charlotte-latin:guide.bands[1].checklistRows[1].action",
+        "charlotte-latin:guide.bands[2].checklistRows[1].action",
+        "charlotte-latin:guide.bands[3].checklistRows[1].action"
+      ]
+    },
+    {
+      "t": "Finalsite Enrollment — جایی که نام‌نویسی می‌کنید، مدارک می‌فرستید و مهلت‌ها را دنبال می‌کنید.",
+      "of": "743b3f8e",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[1].detail",
+        "charlotte-latin:guide.bands[1].checklistRows[1].detail",
+        "charlotte-latin:guide.bands[2].checklistRows[1].detail",
+        "charlotte-latin:guide.bands[3].checklistRows[1].detail"
+      ]
+    },
+    {
+      "t": "برای TK/K Fly By Open House نام‌نویسی کنید",
+      "of": "9280874d",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[2].action"
+      ]
+    },
+    {
+      "t": "اختیاری. 10 اکتبر 2026، ساعت 9:30–11:00 صبح. بازدیدهای پردیس از سپتامبر برگزار می‌شود.",
+      "of": "a42e83e7",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[2].detail"
+      ]
+    },
+    {
+      "t": "درخواست را بفرستید",
+      "of": "9aae6324",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[3].action",
+        "charlotte-latin:guide.bands[1].checklistRows[2].action",
+        "charlotte-latin:guide.bands[2].checklistRows[2].action",
+        "charlotte-latin:guide.bands[3].checklistRows[2].action"
+      ]
+    },
+    {
+      "t": "سیزده روز زودتر از مهلت پایه‌های 1–12. هیچ محدودیت سنی منتشر نشده است.",
+      "of": "614a3486",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[3].detail"
+      ]
+    },
+    {
+      "t": "در Visit Dayی که دفتر برایتان تعیین می‌کند شرکت کنید",
+      "of": "b443342a",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[4].action"
+      ]
+    },
+    {
+      "t": "چند ساعت در یک کلاس Latin؛ والدین با والدین کنونی و پنلی از دانش‌آموزان دیدار می‌کنند.",
+      "of": "4d1ad8cc",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[4].detail"
+      ]
+    },
+    {
+      "t": "برای شما تعیین می‌شود",
+      "of": "8456386c",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[4].due"
+      ]
+    },
+    {
+      "t": "آزمون WPPSI را هماهنگ کنید و بدهید",
+      "of": "22d082a0",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[5].action"
+      ]
+    },
+    {
+      "t": "با روان‌شناسی از CAIS از پیش هماهنگ می‌شود؛ بخواهید نمره‌ها به Latin فرستاده شود.",
+      "of": "4f9cd594",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[5].detail"
+      ]
+    },
+    {
+      "t": "پیش از مهلت شما",
+      "of": "de184993",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[5].due",
+        "charlotte-latin:guide.bands[1].checklistRows[3].due",
+        "charlotte-latin:guide.bands[1].checklistRows[4].due"
+      ]
+    },
+    {
+      "t": "درخواست کمک‌هزینهٔ مالی Clarity را بفرستید",
+      "of": "c01cea75",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[6].action",
+        "charlotte-latin:guide.bands[1].checklistRows[5].action",
+        "charlotte-latin:guide.bands[2].checklistRows[6].action",
+        "charlotte-latin:guide.bands[3].checklistRows[6].action"
+      ]
+    },
+    {
+      "t": "اختیاری. در 15 سپتامبر 2026 باز می‌شود؛ یک درخواست چند فرزند را پوشش می‌دهد.",
+      "of": "283a6c3c",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[6].detail",
+        "charlotte-latin:guide.bands[1].checklistRows[5].detail",
+        "charlotte-latin:guide.bands[2].checklistRows[6].detail",
+        "charlotte-latin:guide.bands[3].checklistRows[6].detail"
+      ]
+    },
+    {
+      "t": "تاریخ تصمیم و قرارداد را با دفتر پذیرش بررسی کنید",
+      "of": "397c18a8",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[7].action",
+        "charlotte-latin:guide.bands[1].checklistRows[6].action",
+        "charlotte-latin:guide.bands[2].checklistRows[7].action",
+        "charlotte-latin:guide.bands[3].checklistRows[7].action"
+      ]
+    },
+    {
+      "t": "برای هیچ پایه‌ای هیچ‌کدام منتشر نشده است. بپرسید چه زمانی باید پاسخ را انتظار داشته باشید.",
+      "of": "c3c92423",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[7].detail",
+        "charlotte-latin:guide.bands[1].checklistRows[6].detail",
+        "charlotte-latin:guide.bands[2].checklistRows[7].detail",
+        "charlotte-latin:guide.bands[3].checklistRows[7].detail"
+      ]
+    },
+    {
+      "t": "بررسی شود",
+      "of": "a183c9ef",
+      "at": [
+        "charlotte-latin:guide.bands[0].checklistRows[7].due",
+        "charlotte-latin:guide.bands[1].checklistRows[6].due",
+        "charlotte-latin:guide.bands[2].checklistRows[7].due",
+        "charlotte-latin:guide.bands[3].checklistRows[7].due"
+      ]
+    },
+    {
+      "t": "Lower School · پایه‌های 1–5",
+      "of": "10dbffb6",
+      "at": [
+        "charlotte-latin:guide.bands[1].label"
+      ]
+    },
+    {
+      "t": "Lower School — پایه‌های 1–5",
+      "of": "13828dad",
+      "at": [
+        "charlotte-latin:guide.bands[1].title"
+      ]
+    },
+    {
+      "t": "نخستین گام الزامی: خانواده‌ها «نخست درخواست اطلاعات می‌فرستند و سپس نمایه‌ای برای خانوادهٔ خود می‌سازند». آن حساب پس از آن از شما می‌خواهد برای رویدادهای اختیاری پذیرش نام‌نویسی کنید، مدارک را ارسال کنید، فرم‌ها را بیابید و مهلت‌ها را رعایت کنید.",
+      "of": "2f3ea626",
+      "at": [
+        "charlotte-latin:guide.bands[1].steps[0].detail",
+        "charlotte-latin:guide.bands[2].steps[0].detail",
+        "charlotte-latin:guide.bands[3].steps[0].detail"
+      ]
+    },
+    {
+      "t": "الزامی، با مهلت **15 ژانویه 2027** — همان مهلتی که هر پایه از 1 تا 12 بر آن کار می‌کند، سیزده روز پس از Transitional Kindergarten و Kindergarten.",
+      "of": "1994f5d5",
+      "at": [
+        "charlotte-latin:guide.bands[1].steps[1].detail"
+      ]
+    },
+    {
+      "t": "یک Visit Day هماهنگ کنید و در آن شرکت کنید",
+      "of": "b79bc13d",
+      "at": [
+        "charlotte-latin:guide.bands[1].steps[2].title",
+        "charlotte-latin:guide.bands[1].checklistRows[3].action"
+      ]
+    },
+    {
+      "t": "خودتان رزرو می‌کنید",
+      "of": "38b9bc86",
+      "at": [
+        "charlotte-latin:guide.bands[1].steps[2].tag",
+        "charlotte-latin:guide.bands[2].steps[2].tag",
+        "charlotte-latin:guide.bands[3].steps[2].tag"
+      ]
+    },
+    {
+      "t": "الزامی، و **از این پایه به بالا خانواده آن را تعیین می‌کند**: «یک Visit Day هماهنگ کنید.» دفتر پذیرش تنها بازدیدهای TK و Kindergarten را رزرو می‌کند. فرزند شما مدتی را در یک کلاس Latin می‌گذراند، در حالی که شما با مدرسه آشنا می‌شوید.",
+      "of": "9533cc8c",
+      "at": [
+        "charlotte-latin:guide.bands[1].steps[2].detail"
+      ]
+    },
+    {
+      "t": "آزمون استاندارد پایهٔ فرزندتان را بدهید",
+      "of": "970a438f",
+      "at": [
+        "charlotte-latin:guide.bands[1].steps[3].title"
+      ]
+    },
+    {
+      "t": "الزامی، و **آزمون در همین یک پایه دو بار تغییر می‌کند**: متقاضیان پایهٔ 1 **WPPSI**، پایه‌های 2–4 **WISC-V** و پایهٔ 5 **ISEE** را می‌دهند. مسیر رزرو نیز با آن تغییر می‌کند. WPPSI و WISC-V را روان‌شناسی از کنسرسیوم Charlotte Area Independent Schools برگزار می‌کند که خودتان مستقیم با او تماس می‌گیرید؛ ISEE را **Educational Records Bureau** تدوین و برگزار می‌کند و خانواده‌های پایهٔ 5 از طریق ERB ثبت‌نام می‌کنند. پیش از رزرو هر چیزی بررسی کنید کدام‌یک برای پایه‌ای که فرزندتان وارد آن می‌شود کاربرد دارد.",
+      "of": "c8fe6d82",
+      "at": [
+        "charlotte-latin:guide.bands[1].steps[3].detail"
+      ]
+    },
+    {
+      "t": "اختیاری، و با تقویم جداگانهٔ خود: درخواست از طریق **Clarity** در **15 سپتامبر 2026** باز می‌شود و برای بررسی در دور اولویت‌دار باید تا **15 ژانویه 2027** ارسال شود — همان روز مهلت درخواست این پایه. یک درخواست همهٔ فرزندان خانواده را پوشش می‌دهد.",
+      "of": "46e1a067",
+      "at": [
+        "charlotte-latin:guide.bands[1].steps[4].detail"
+      ]
+    },
+    {
+      "t": "آزمون در همین یک پایه دو بار تغییر می‌کند.",
+      "of": "fe67f3cc",
+      "at": [
+        "charlotte-latin:guide.bands[1].checklistCallout.lead"
+      ]
+    },
+    {
+      "t": "پایهٔ 1 WPPSI، پایه‌های 2–4 WISC-V و پایهٔ 5 ISEE را می‌دهند — و مسیر رزرو نیز با آن تغییر می‌کند، از روان‌شناس CAIS که مستقیم با او تماس می‌گیرید تا ثبت‌نام در Educational Records Bureau. پیش از رزرو بررسی کنید کدام آزمون برای پایهٔ ورود فرزندتان کاربرد دارد. برای این پایه هیچ مهلتی برای تکمیل همهٔ مدارک منتشر نشده است، پس سیاههٔ سامانهٔ خود را فهرست معتبر آنچه باقی مانده بدانید، و برای هیچ پایه‌ای نه تاریخ تصمیم منتشر شده است و نه تاریخ قرارداد ثبت‌نام — هر دو را با دفتر پذیرش بررسی کنید.",
+      "of": "de9b42bc",
+      "at": [
+        "charlotte-latin:guide.bands[1].checklistCallout.text"
+      ]
+    },
+    {
+      "t": "مهلت پایه‌های 1–12، سیزده روز پس از مهلت TK/K.",
+      "of": "2e0d0ce3",
+      "at": [
+        "charlotte-latin:guide.bands[1].checklistRows[2].detail"
+      ]
+    },
+    {
+      "t": "از پایهٔ 1 به بالا خانواده آن را رزرو می‌کند، نه دفتر پذیرش.",
+      "of": "1eff8cfa",
+      "at": [
+        "charlotte-latin:guide.bands[1].checklistRows[3].detail"
+      ]
+    },
+    {
+      "t": "آزمون پایهٔ ورود خود را هماهنگ کنید و بدهید",
+      "of": "58f28450",
+      "at": [
+        "charlotte-latin:guide.bands[1].checklistRows[4].action"
+      ]
+    },
+    {
+      "t": "پایهٔ 1 WPPSI · پایه‌های 2–4 WISC-V (هر دو CAIS) · پایهٔ 5 ISEE (از طریق ERB).",
+      "of": "cc9ee7d8",
+      "at": [
+        "charlotte-latin:guide.bands[1].checklistRows[4].detail"
+      ]
+    },
+    {
+      "t": "Middle School · پایه‌های 6–8",
+      "of": "d3378ce2",
+      "at": [
+        "charlotte-latin:guide.bands[2].label"
+      ]
+    },
+    {
+      "t": "Middle School — پایه‌های 6–8",
+      "of": "6850595d",
+      "at": [
+        "charlotte-latin:guide.bands[2].title"
+      ]
+    },
+    {
+      "t": "آزمون‌ها انجام و ارسال شود",
+      "of": "843e4f26",
+      "at": [
+        "charlotte-latin:guide.bands[2].deadlines[1].label",
+        "charlotte-latin:guide.bands[3].deadlines[1].label"
+      ]
+    },
+    {
+      "t": "مهلت همهٔ مدارک",
+      "of": "80c0f159",
+      "at": [
+        "charlotte-latin:guide.bands[2].deadlines[2].label",
+        "charlotte-latin:guide.bands[3].deadlines[2].label"
+      ]
+    },
+    {
+      "t": "الزامی، با مهلت **15 ژانویه 2027** — مهلت مشترک همهٔ پایه‌ها از 1 تا 12. پایهٔ ششم یکی از سال‌هایی است که مدرسه در آن «به‌طور طبیعی گسترش می‌یابد»، در کنار TK، Kindergarten و پایهٔ نهم.",
+      "of": "85254822",
+      "at": [
+        "charlotte-latin:guide.bands[2].steps[1].detail"
+      ]
+    },
+    {
+      "t": "یک Visit Day هماهنگ کنید و در آن شرکت کنید — همراه با مصاحبه",
+      "of": "61a0f672",
+      "at": [
+        "charlotte-latin:guide.bands[2].steps[2].title"
+      ]
+    },
+    {
+      "t": "الزامی، و خانواده آن را تعیین می‌کند. Visit Day این پایه بسیار بیش از پایه‌های پایین‌تر است: «دانش‌آموز آیندهٔ Middle School شما **یک مصاحبه خواهد داشت، ارزیابی‌ای می‌دهد، کلاسی را مشاهده می‌کند و با دانش‌آموزان Latin آشنا می‌شود**.» آن را به‌جای بازدید، روز ارزیابی بدانید — هم مصاحبه و هم بخش ارزیابی حضوری برای این پایه صریح‌اند.",
+      "of": "7e2e5a3c",
+      "at": [
+        "charlotte-latin:guide.bands[2].steps[2].detail"
+      ]
+    },
+    {
+      "t": "آزمون ISEE را بدهید",
+      "of": "fb6e267d",
+      "at": [
+        "charlotte-latin:guide.bands[2].steps[3].title",
+        "charlotte-latin:guide.bands[3].steps[3].title"
+      ]
+    },
+    {
+      "t": "الزامی: **متقاضیان پایه‌های 6–8 ISEE را می‌دهند**، و «همهٔ آزمون‌های Middle School باید تا **26 فوریه 2027** انجام و ارسال شود». ISEE را **Educational Records Bureau** تدوین و برگزار می‌کند و شما به‌جای مدرسه از طریق ERB ثبت‌نام می‌کنید. همان تاریخ 26 فوریه محدودیت تعیین‌کنندهٔ این پایه است — **برنامهٔ ثبت‌نام خود را از آن به عقب بچینید**، زیرا جای آزمون باید رزرو شود، آزمون داده شود و نمره برسد، همه پیش از مهلت و نه در همان روز.",
+      "of": "570ae04d",
+      "at": [
+        "charlotte-latin:guide.bands[2].steps[3].detail"
+      ]
+    },
+    {
+      "t": "پروندهٔ خود را کامل کنید",
+      "of": "d6b72a0d",
+      "at": [
+        "charlotte-latin:guide.bands[2].steps[4].title",
+        "charlotte-latin:guide.bands[3].steps[4].title"
+      ]
+    },
+    {
+      "t": "مهلت همهٔ مدارک **26 فوریه 2027** است، همان روز مهلت آزمون. آنچه باقی مانده در حساب شما در سامانه فهرست می‌شود و همان‌جا ارسال می‌شود.",
+      "of": "c7fda622",
+      "at": [
+        "charlotte-latin:guide.bands[2].steps[4].detail",
+        "charlotte-latin:guide.bands[3].steps[4].detail"
+      ]
+    },
+    {
+      "t": "اختیاری، و با تقویم جداگانهٔ خود: درخواست از طریق **Clarity** در **15 سپتامبر 2026** باز می‌شود و برای بررسی در دور اولویت‌دار باید تا **15 ژانویه 2027** ارسال شود — شش هفته پیش از مهلت مدارک. یک درخواست همهٔ فرزندان خانواده را پوشش می‌دهد.",
+      "of": "f75db188",
+      "at": [
+        "charlotte-latin:guide.bands[2].steps[5].detail",
+        "charlotte-latin:guide.bands[3].steps[5].detail"
+      ]
+    },
+    {
+      "t": "26 فوریه 2027 تاریخی است که این پایه را مقید می‌کند.",
+      "of": "eb208bbd",
+      "at": [
+        "charlotte-latin:guide.bands[2].checklistCallout.lead",
+        "charlotte-latin:guide.bands[3].checklistCallout.lead"
+      ]
+    },
+    {
+      "t": "هم ISEE و هم هر مورد باقی‌ماندهٔ پرونده در همان روز سررسید می‌شوند، پس به‌جای هدف گرفتن آن تاریخ، برنامهٔ ثبت‌نام ERB خود را از آن به عقب بچینید — جای آزمون باید رزرو شود، آزمون داده شود و نمره برسد، همه پیش از مهلت. Visit Day روز ارزیابی است نه بازدید: شامل یک مصاحبه، یک ارزیابی حضوری و مشاهدهٔ یک کلاس است. برای هیچ پایه‌ای نه تاریخ تصمیم منتشر شده است و نه تاریخ قرارداد ثبت‌نام — هر دو را با دفتر پذیرش بررسی کنید.",
+      "of": "140bd0c5",
+      "at": [
+        "charlotte-latin:guide.bands[2].checklistCallout.text"
+      ]
+    },
+    {
+      "t": "مهلت پایه‌های 1–12. پایهٔ ششم سال گسترش طبیعی است.",
+      "of": "4da27e9e",
+      "at": [
+        "charlotte-latin:guide.bands[2].checklistRows[2].detail"
+      ]
+    },
+    {
+      "t": "Visit Day را هماهنگ کنید و در آن شرکت کنید",
+      "of": "d0848c6d",
+      "at": [
+        "charlotte-latin:guide.bands[2].checklistRows[3].action",
+        "charlotte-latin:guide.bands[3].checklistRows[3].action"
+      ]
+    },
+    {
+      "t": "شامل یک مصاحبه، یک ارزیابی حضوری و مشاهدهٔ یک کلاس است.",
+      "of": "fa886508",
+      "at": [
+        "charlotte-latin:guide.bands[2].checklistRows[3].detail"
+      ]
+    },
+    {
+      "t": "پیش از 26 فوریه 2027",
+      "of": "7f3d9474",
+      "at": [
+        "charlotte-latin:guide.bands[2].checklistRows[3].due",
+        "charlotte-latin:guide.bands[3].checklistRows[3].due"
+      ]
+    },
+    {
+      "t": "از طریق Educational Records Bureau رزرو می‌شود؛ آن‌قدر زود رزرو کنید که نمره برسد.",
+      "of": "03ca39a5",
+      "at": [
+        "charlotte-latin:guide.bands[2].checklistRows[4].detail"
+      ]
+    },
+    {
+      "t": "هر مورد باقی‌ماندهٔ پرونده را ارسال کنید",
+      "of": "13638683",
+      "at": [
+        "charlotte-latin:guide.bands[2].checklistRows[5].action",
+        "charlotte-latin:guide.bands[3].checklistRows[5].action"
+      ]
+    },
+    {
+      "t": "سیاههٔ سامانهٔ شما آنچه را باقی مانده فهرست می‌کند.",
+      "of": "9e151ce5",
+      "at": [
+        "charlotte-latin:guide.bands[2].checklistRows[5].detail",
+        "charlotte-latin:guide.bands[3].checklistRows[5].detail"
+      ]
+    },
+    {
+      "t": "Upper School · پایه‌های 9–12",
+      "of": "3ae019cb",
+      "at": [
+        "charlotte-latin:guide.bands[3].label"
+      ]
+    },
+    {
+      "t": "Upper School — پایه‌های 9–12",
+      "of": "acd3948e",
+      "at": [
+        "charlotte-latin:guide.bands[3].title"
+      ]
+    },
+    {
+      "t": "الزامی، با مهلت **15 ژانویه 2027** — مهلت مشترک همهٔ پایه‌ها از 1 تا 12. پایهٔ نهم یکی از سال‌هایی است که مدرسه در آن «به‌طور طبیعی گسترش می‌یابد»، در کنار TK، Kindergarten و پایهٔ ششم.",
+      "of": "b6749c0e",
+      "at": [
+        "charlotte-latin:guide.bands[3].steps[1].detail"
+      ]
+    },
+    {
+      "t": "یک Visit Day هماهنگ کنید و در آن شرکت کنید — مصاحبه و یک روز همراهی",
+      "of": "64dad70e",
+      "at": [
+        "charlotte-latin:guide.bands[3].steps[2].title"
+      ]
+    },
+    {
+      "t": "الزامی، و خانواده آن را تعیین می‌کند. این پایه یک مصاحبهٔ رسمی را با تجربهٔ همراهی درمی‌آمیزد: «دانش‌آموز آیندهٔ Upper School شما **یک مصاحبه خواهد داشت، با یک Student Ambassador از Latin آشنا می‌شود و یک روز از زندگی یک دانش‌آموز Latin را تجربه می‌کند**.» فرزند شما به‌جای گشتن در پردیس همراه شما، روز را در کنار یک دانش‌آموز کنونی می‌گذراند.",
+      "of": "dca8f1df",
+      "at": [
+        "charlotte-latin:guide.bands[3].steps[2].detail"
+      ]
+    },
+    {
+      "t": "الزامی برای **متقاضیان پایه‌های 9–11**، که «ISEE را می‌دهند»، و «همهٔ آزمون‌های Upper School باید تا **26 فوریه 2027** انجام و ارسال شود». ثبت‌نام به‌جای مدرسه از طریق **Educational Records Bureau** انجام می‌شود، و 26 فوریه محدودیت تعیین‌کنندهٔ این پایه است — **برنامهٔ ثبت‌نام خود را از آن به عقب بچینید**، زیرا جای آزمون باید رزرو شود، آزمون داده شود و نمره برسد، همه پیش از مهلت. **برای متقاضیان پایهٔ 12 هیچ آزمون ورودی‌ای منتشر نشده است**: شرط منتشرشده تنها پایه‌های 9 تا 11 را دربر می‌گیرد، پس خانوادهٔ پایهٔ 12 باید از دفتر پذیرش بپرسد چه چیزی کاربرد دارد.",
+      "of": "4ecd4f4c",
+      "at": [
+        "charlotte-latin:guide.bands[3].steps[3].detail"
+      ]
+    },
+    {
+      "t": "هم ISEE و هم هر مورد باقی‌ماندهٔ پرونده در همان روز سررسید می‌شوند، پس به‌جای هدف گرفتن آن تاریخ، برنامهٔ ثبت‌نام ERB خود را از آن به عقب بچینید. Visit Day یک مصاحبه را با یک روز همراهی در کنار یک Student Ambassador درمی‌آمیزد، به‌طوری که فرزند شما روز را همان‌گونه می‌گذراند که یک دانش‌آموز Latin می‌گذراند. شرط آزمون منتشرشده پایه‌های 9 تا 11 را دربر می‌گیرد — برای متقاضیان پایهٔ 12 چیزی منتشر نشده است، پس از دفتر پذیرش بپرسید چه چیزی کاربرد دارد. برای هیچ پایه‌ای نه تاریخ تصمیم منتشر شده است و نه تاریخ قرارداد ثبت‌نام؛ هر دو را با دفتر بررسی کنید.",
+      "of": "012d1a5d",
+      "at": [
+        "charlotte-latin:guide.bands[3].checklistCallout.text"
+      ]
+    },
+    {
+      "t": "مهلت پایه‌های 1–12. پایهٔ نهم سال گسترش طبیعی است.",
+      "of": "3eb92b51",
+      "at": [
+        "charlotte-latin:guide.bands[3].checklistRows[2].detail"
+      ]
+    },
+    {
+      "t": "یک مصاحبه به‌همراه یک روز همراهی در کنار یک Student Ambassador از Latin.",
+      "of": "45bfe4c3",
+      "at": [
+        "charlotte-latin:guide.bands[3].checklistRows[3].detail"
+      ]
+    },
+    {
+      "t": "برای ISEE ثبت‌نام کنید و آن را بدهید (پایه‌های 9–11)",
+      "of": "134dc7b0",
+      "at": [
+        "charlotte-latin:guide.bands[3].checklistRows[4].action"
+      ]
+    },
+    {
+      "t": "از طریق Educational Records Bureau. برای پایهٔ 12 چیزی منتشر نشده است.",
+      "of": "b404a6ae",
+      "at": [
+        "charlotte-latin:guide.bands[3].checklistRows[4].detail"
+      ]
+    },
+    {
+      "t": "کمک‌هزینه از طریق **Clarity** انجام می‌شود، در **15 سپتامبر 2026** باز می‌شود و برای بررسی در دور اولویت‌دار باید تا **15 ژانویه 2027** ارسال شود. یک درخواست همهٔ فرزندان خانواده را پوشش می‌دهد و «معمولاً 30 دقیقه یا کمتر طول می‌کشد». جدا از آن، یک **ودیعهٔ بازگشت‌ناپذیر $2,500** «در زمان ثبت‌نام نخستین یا تمدید ثبت‌نام الزامی است» و «از قسط دوم شهریه کسر می‌شود» — بدون آن هیچ دانش‌آموزی ثبت‌نام یا تمدید ثبت‌نام نمی‌شود. برای این دوره **هیچ هزینهٔ درخواست کمک‌هزینه‌ای منتشر نشده است**.",
+      "of": "3cf2392e",
+      "at": [
+        "charlotte-latin:guide.aid.text"
+      ]
+    },
+    {
+      "t": "چه کسی Visit Day را تعیین می‌کند",
+      "of": "3f974743",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[1].label"
+      ]
+    },
+    {
+      "t": "خانواده",
+      "of": "92b7489c",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[1].cells.ls",
+        "charlotte-latin:guide.comparison.rows[1].cells.ms",
+        "charlotte-latin:guide.comparison.rows[1].cells.us"
+      ]
+    },
+    {
+      "t": "آزمون استاندارد",
+      "of": "dbeeb10c",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[2].label"
+      ]
+    },
+    {
+      "t": "WPPSI",
+      "of": "ba951af2",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[2].cells.tkk"
+      ]
+    },
+    {
+      "t": "WPPSI (پایهٔ 1) · WISC-V (پایه‌های 2–4) · ISEE (پایهٔ 5)",
+      "of": "a3f2fffc",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[2].cells.ls"
+      ]
+    },
+    {
+      "t": "ISEE",
+      "of": "eac03f6f",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[2].cells.ms"
+      ]
+    },
+    {
+      "t": "ISEE (پایه‌های 9–11) · برای پایهٔ 12 چیزی منتشر نشده",
+      "of": "e53f0f3e",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[2].cells.us"
+      ]
+    },
+    {
+      "t": "مصاحبه در Visit Day",
+      "of": "3dccbfff",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[3].label"
+      ]
+    },
+    {
+      "t": "توصیف نشده",
+      "of": "664909c9",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[3].cells.tkk",
+        "charlotte-latin:guide.comparison.rows[3].cells.ls"
+      ]
+    },
+    {
+      "t": "بله",
+      "of": "b3a43630",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[3].cells.ms",
+        "charlotte-latin:guide.comparison.rows[3].cells.us"
+      ]
+    },
+    {
+      "t": "Visit Day چیست",
+      "of": "5f233293",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[4].label"
+      ]
+    },
+    {
+      "t": "چند ساعت در یک کلاس Latin؛ والدین با والدین کنونی و پنلی از دانش‌آموزان Upper School دیدار می‌کنند",
+      "of": "1049268f",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[4].cells.tkk"
+      ]
+    },
+    {
+      "t": "یک بازدید کلاسی",
+      "of": "81cd14ec",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[4].cells.ls"
+      ]
+    },
+    {
+      "t": "مصاحبه، ارزیابی حضوری و مشاهدهٔ یک کلاس",
+      "of": "718f4a5f",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[4].cells.ms"
+      ]
+    },
+    {
+      "t": "مصاحبه، یک Student Ambassador و یک روز از زندگی یک دانش‌آموز Latin",
+      "of": "fbbb0b92",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[4].cells.us"
+      ]
+    },
+    {
+      "t": "مهلت آزمون و مدارک",
+      "of": "6aff044f",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[5].label"
+      ]
+    },
+    {
+      "t": "چیزی منتشر نشده",
+      "of": "de8a893d",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[5].cells.tkk",
+        "charlotte-latin:guide.comparison.rows[5].cells.ls"
+      ]
+    },
+    {
+      "t": "تصمیم و قرارداد",
+      "of": "6a9bcae4",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[6].label"
+      ]
+    },
+    {
+      "t": "در هیچ پایه‌ای منتشر نشده — با دفتر پذیرش بررسی کنید. هر جدول زمانی منتشرشده در مهلت درخواست یا مدارک پایان می‌یابد، و در هیچ صفحهٔ پذیرشی تاریخ اعلام، ساعت اعلام یا تاریخ قرارداد ثبت‌نام نیامده است.",
+      "of": "edcb873e",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[6].cells.all"
+      ]
+    },
+    {
+      "t": "ثابت در همهٔ پایه‌ها",
+      "of": "4e17969e",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[7].label",
+        "charlotte-christian:guide.comparison.rows[10].label",
+        "charlotte-country-day:guide.comparison.rows[8].label"
+      ]
+    },
+    {
+      "t": "سامانهٔ Finalsite Enrollment، از نخستین درخواست اطلاعات تا هر ارسال مدرک · کمک‌هزینهٔ مالی از طریق Clarity، باز از 15 سپتامبر 2026 و با مهلت 15 ژانویه 2027 · ودیعهٔ ثبت‌نام بازگشت‌ناپذیر $2,500 که از قسط دوم شهریه کسر می‌شود",
+      "of": "c88c2a4f",
+      "at": [
+        "charlotte-latin:guide.comparison.rows[7].cells.all"
+      ]
+    },
+    {
+      "t": "9502 Providence Road, Charlotte, NC 28277 · پذیرش 704-846-7207 · admissions@charlottelatin.org · کمک‌هزینهٔ مالی financialaid@charlottelatin.org. به هر متقاضی یک مشاور پذیرش اختصاص می‌یابد تا خانواده را در سراسر فرایند راهنمایی کند؛ برای گروه زیر هیچ شمارهٔ تلفن یا نشانی رایانامهٔ فردی منتشر نمی‌شود.",
+      "of": "54cfc16d",
+      "at": [
+        "charlotte-latin:guide.contacts.address"
+      ]
+    },
+    {
+      "t": "مدیر مدیریت ثبت‌نام",
+      "of": "df651b3d",
+      "at": [
+        "charlotte-latin:guide.contacts.people[0].detail"
+      ]
+    },
+    {
+      "t": "مدیر همکار پذیرش · مشاور پذیرش",
+      "of": "4e58d111",
+      "at": [
+        "charlotte-latin:guide.contacts.people[1].detail"
+      ]
+    },
+    {
+      "t": "مشاور پذیرش",
+      "of": "eb95e285",
+      "at": [
+        "charlotte-latin:guide.contacts.people[2].detail"
+      ]
+    },
+    {
+      "t": "مشاور پذیرش · دورهٔ 1998",
+      "of": "fcdc41ec",
+      "at": [
+        "charlotte-latin:guide.contacts.people[3].detail"
+      ]
+    },
+    {
+      "t": "هماهنگ‌کنندهٔ درخواست‌ها · دورهٔ 1996",
+      "of": "b5884e8b",
+      "at": [
+        "charlotte-latin:guide.contacts.people[4].detail"
+      ]
+    },
+    {
+      "t": "مسئول دفتر پذیرش · دورهٔ 2007",
+      "of": "4f3b2087",
+      "at": [
+        "charlotte-latin:guide.contacts.people[5].detail"
+      ]
+    },
+    {
+      "t": "تسهیل‌گر پذیرش و کمک‌هزینهٔ مالی",
+      "of": "5e192879",
+      "at": [
+        "charlotte-latin:guide.contacts.people[6].detail"
+      ]
+    },
+    {
+      "t": "کارکنان پشتیبانی پذیرش",
+      "of": "12fae1ce",
+      "at": [
+        "charlotte-latin:guide.contacts.people[7].detail"
+      ]
+    },
+    {
+      "t": "راهنمای بازدید · کارکنان پشتیبانی پذیرش",
+      "of": "6e03dd3d",
+      "at": [
+        "charlotte-latin:guide.contacts.people[8].detail"
+      ]
+    },
+    {
+      "t": "سامانه: Finalsite Enrollment · charlottelatin.fsenrollment.com",
+      "of": "e9f72c55",
+      "at": [
+        "charlotte-latin:guide.checklist.portalNote"
+      ]
+    },
+    {
+      "t": "از طریق Clarity در نشانی app.clarityapp.com درخواست بدهید. اگر برای چند فرزند درخواست می‌دهید تنها به یک درخواست نیاز دارید، و معمولاً 30 دقیقه یا کمتر طول می‌کشد.",
+      "of": "56448a96",
+      "at": [
+        "charlotte-latin:guide.checklist.aidPanel.items[0]"
+      ]
+    },
+    {
+      "t": "درخواست در 15 سپتامبر 2026 باز می‌شود.",
+      "of": "6bf9db81",
+      "at": [
+        "charlotte-latin:guide.checklist.aidPanel.items[1]"
+      ]
+    },
+    {
+      "t": "برای بررسی در تصمیم‌های دور اولویت‌دار تا 15 ژانویه 2027 ارسال کنید.",
+      "of": "43ac5026",
+      "at": [
+        "charlotte-latin:guide.checklist.aidPanel.items[2]"
+      ]
+    },
+    {
+      "t": "در زمان ثبت‌نام نخستین یا تمدید ثبت‌نام، ودیعهٔ بازگشت‌ناپذیر $2,500 الزامی است و از قسط دوم شهریه کسر می‌شود. بدون آن هیچ دانش‌آموزی ثبت‌نام یا تمدید ثبت‌نام نمی‌شود.",
+      "of": "b8b6dd06",
+      "at": [
+        "charlotte-latin:guide.checklist.aidPanel.items[3]"
+      ]
+    },
+    {
+      "t": "برای این دوره هیچ هزینهٔ درخواست کمک‌هزینهٔ مالی منتشر نشده است.",
+      "of": "45020e8a",
+      "at": [
+        "charlotte-latin:guide.checklist.aidPanel.items[4]"
+      ]
+    },
+    {
+      "t": "پذیرش — 704-846-7207 · admissions@charlottelatin.org",
+      "of": "3512895d",
+      "at": [
+        "charlotte-latin:guide.checklist.contactPanel.lines[0]"
+      ]
+    },
+    {
+      "t": "کمک‌هزینهٔ مالی — financialaid@charlottelatin.org",
+      "of": "46985bd5",
+      "at": [
+        "charlotte-latin:guide.checklist.contactPanel.lines[1]"
+      ]
+    },
+    {
+      "t": "9502 Providence Road, Charlotte, NC 28277",
+      "of": "11d622f9",
+      "at": [
+        "charlotte-latin:guide.checklist.contactPanel.lines[2]"
+      ]
+    },
+    {
+      "t": "تاریخ‌ها مربوط به دورهٔ پذیرش 2026–27 است، همان‌گونه که در charlottelatin.org منتشر شده (بازیابی‌شده در اوت 2026) — صفحه‌های فرایند درخواست، شهریه و کمک مالی، و پذیرش. مواردی که با «بررسی شود» نشان داده شده‌اند یا پشت سامانهٔ درخواست‌اند یا اصلاً منتشر نشده‌اند، از جمله هر تاریخ تصمیم و قرارداد ثبت‌نام. تاریخ‌های هر دوره سال‌به‌سال تغییر می‌کند، و این صفحه‌ها در فصلی پیشین مجموعهٔ دیگری را نشان می‌دادند — پیش از اقدام با صفحه‌های به‌روز بسنجید. گردآوری از Charlotte School Compare؛ وابسته به Charlotte Latin School نیست.",
+      "of": "b7abdac7",
+      "at": [
+        "charlotte-latin:guide.checklist.disclaimer"
       ]
     },
     {
@@ -1475,14 +2572,6 @@
       "at": [
         "charlotte-christian:guide.bands[0].steps[6].title",
         "charlotte-christian:guide.bands[1].steps[6].title"
-      ]
-    },
-    {
-      "t": "برای شما تعیین می‌شود",
-      "of": "43a2ae4c",
-      "at": [
-        "charlotte-christian:guide.bands[0].steps[6].tag",
-        "charlotte-christian:guide.bands[1].steps[6].tag"
       ]
     },
     {
@@ -2422,14 +3511,6 @@
       "of": "7ef7298e",
       "at": [
         "charlotte-christian:guide.comparison.rows[9].cells.all"
-      ]
-    },
-    {
-      "t": "ثابت در همهٔ پایه‌ها",
-      "of": "4e17969e",
-      "at": [
-        "charlotte-christian:guide.comparison.rows[10].label",
-        "charlotte-country-day:guide.comparison.rows[8].label"
       ]
     },
     {

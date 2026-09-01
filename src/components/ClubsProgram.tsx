@@ -16,11 +16,11 @@
 // simply has no flag in its data, and nothing is drawn. See the FlagKind docs.
 
 import { useTranslation } from 'react-i18next'
+import { SourceRow } from './SourceRow.tsx'
 import { localizeMoneyText } from '../lib/format.ts'
 import type {
   Affinity,
   ClubsFlag,
-  ClubsSource,
   FlagKind,
   Honors,
   Service,
@@ -28,27 +28,6 @@ import type {
 
 /* ------------------------------------------------------------ primitives -- */
 
-/** The SOURCE row every card ends with. Citations with a URL become links. */
-function SourceRow({ sources }: { sources: ClubsSource[] }) {
-  const { t } = useTranslation()
-  if (sources.length === 0) return null
-  return (
-    <div className="clubs-src srcrow">
-      <span className="tag-outline">{t('cardLabels.source')}</span>
-      {sources.map((s) =>
-        s.url ? (
-          <a key={s.label} href={s.url} target="_blank" rel="noreferrer noopener">
-            {s.label} ↗
-          </a>
-        ) : (
-          <span key={s.label} className="text-muted">
-            {s.label}
-          </span>
-        ),
-      )}
-    </div>
-  )
-}
 
 /**
  * Locale key for the default chip wording per flag kind; `label` overrides it
@@ -177,7 +156,7 @@ export function AffinityBody({ data }: { data: Affinity }) {
         </div>
       )}
 
-      <SourceRow sources={data.sources} />
+      <SourceRow sources={data.sources} className="clubs-src" localizeLabels={false} />
     </div>
   )
 }
@@ -227,7 +206,7 @@ export function ServiceBody({ data }: { data: Service }) {
       )}
 
       <Flags flags={data.flags} />
-      <SourceRow sources={data.sources} />
+      <SourceRow sources={data.sources} className="clubs-src" localizeLabels={false} />
     </div>
   )
 }
@@ -281,7 +260,7 @@ export function HonorsBody({ data }: { data: Honors }) {
       )}
 
       <Flags flags={data.flags} />
-      <SourceRow sources={data.sources} />
+      <SourceRow sources={data.sources} className="clubs-src" localizeLabels={false} />
     </div>
   )
 }

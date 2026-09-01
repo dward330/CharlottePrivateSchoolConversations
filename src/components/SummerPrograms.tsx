@@ -29,15 +29,14 @@
 import { useMemo, useState } from 'react'
 import { money, localizeMoneyText } from '../lib/format.ts'
 import { useTranslation } from 'react-i18next'
+import { SourceRow } from './SourceRow.tsx'
 import type { TFunction } from 'i18next'
-import { sourceLabel } from '../lib/labels.ts'
 import type {
   Camp,
   CampCatalog,
   CostPlanner,
   SuFlag,
   SuFlagKind,
-  SuSource,
   SummerCardKey,
   SummerPhoto,
   SummerProgram,
@@ -45,27 +44,6 @@ import type {
 
 /* ------------------------------------------------------------ primitives -- */
 
-/** The SOURCE row every card ends with. Citations with a URL become links. */
-function SourceRow({ sources }: { sources: SuSource[] }) {
-  const { t } = useTranslation()
-  if (sources.length === 0) return null
-  return (
-    <div className="as-src srcrow">
-      <span className="tag-outline">{t('cardLabels.source')}</span>
-      {sources.map((s) =>
-        s.url ? (
-          <a key={s.label} href={s.url} target="_blank" rel="noreferrer noopener">
-            {s.label} ↗
-          </a>
-        ) : (
-          <span key={s.label} className="text-muted">
-            {sourceLabel(t, s.label)}
-          </span>
-        ),
-      )}
-    </div>
-  )
-}
 
 /**
  * Day token -> localized label.
@@ -384,7 +362,7 @@ export function CampCatalogBody({ data }: { data: CampCatalog }) {
       </div>
 
       <Flags flags={data.flags} />
-      <SourceRow sources={data.sources} />
+      <SourceRow sources={data.sources} className="as-src" />
     </div>
   )
 }
@@ -645,7 +623,7 @@ export function CostPlannerBody({ data }: { data: CostPlanner }) {
       </div>
 
       <Flags flags={data.flags} />
-      <SourceRow sources={data.sources} />
+      <SourceRow sources={data.sources} className="as-src" />
     </div>
   )
 }
