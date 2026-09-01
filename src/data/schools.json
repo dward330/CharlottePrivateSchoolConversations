@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-31",
+  "generated": "2026-09-01",
   "description": "Charlotte private-school research manifest. Topics x schools x documents.",
   "schools": [
     {
@@ -99,6 +99,11 @@
     {
       "topic_slug": "admissions",
       "school_slug": "charlotte-latin",
+      "doc_count": 1
+    },
+    {
+      "topic_slug": "admissions",
+      "school_slug": "covenant-day",
       "doc_count": 1
     },
     {
@@ -4536,6 +4541,16 @@
       "subtopic": "Grade-by-Grade Application Plans",
       "source_file": "source-material/admissions/charlotte-latin/Charlotte Latin - Admissions - Grade-by-Grade Application Plans.md",
       "note_file": ".claude/docs/admissions/charlotte-latin.md",
+      "type": "md"
+    },
+    {
+      "school_slug": "covenant-day",
+      "school": "Covenant Day School",
+      "topic_slug": "admissions",
+      "topic": "Admissions",
+      "subtopic": "Grade-by-Grade Application Plans",
+      "source_file": "source-material/admissions/covenant-day/Covenant Day - Admissions - Grade-by-Grade Application Plans.md",
+      "note_file": ".claude/docs/admissions/covenant-day.md",
       "type": "md"
     },
     {
