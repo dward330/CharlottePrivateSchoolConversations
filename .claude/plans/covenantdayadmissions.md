@@ -1,11 +1,11 @@
 ---
 name: covenantdayadmissions
 title: Add the Admissions research area for Covenant Day School
-status: english-done
+status: implemented
 phases: 2
 created: 2026-09-01
 branch: feat/covenant-day-admissions
-prs: []
+prs: [264]
 ---
 
 # Add the Admissions research area for Covenant Day School
@@ -439,3 +439,58 @@ Traps specific to this card:
   the full record including psychological evaluations and behavior records. It is unusually
   broad and a parent would want to know, but it is not a step they *do* — so it stays a clause,
   not its own step.
+
+## Implementation notes
+
+Shipped as **PR #264**, both phases in one PR. The build followed the plan; the
+notes below record what the plan did not anticipate.
+
+**One extraction trap the plan did not name.** `comparison.rows[].cells.g611` is a
+new cell key and had to be registered in `PATH_OVERRIDES` (`scripts/i18n_fields.mjs`).
+The plan's Context said "No extractor change" — true of `i18n_topics.mjs` (`covenant-day`
+is already in `SLUGS`), but not of the field-path matcher, which is exact-match per band
+key. `jkk` and `g15` were already registered from earlier cards; `g611` was not, and an
+unregistered key is **excluded from extraction** rather than flagged at render, so nine
+comparison cells would have shipped English to all nine locales with coverage still
+reading 100%. Same trap as `ls`/`ms`/`us` (PR #262) and `g1`/`g24` (PR #254) — it recurs
+whenever a school's band boundaries differ from every prior school's, which the plan's
+own Decisions section guaranteed would be the case here.
+
+**Four figure defects surfaced after the data first read clean**, in three classes —
+two of which `check:sepdrift` structurally cannot see, because it inspects
+separator-bearing tokens only:
+
+| Defect | Locales | Caught by |
+|---|---|---|
+| `$1,000` → `1.000 $` | `it`, 6 tokens | `check:sepdrift` |
+| `$100` → `100 $`, `$1,000` → `1 000 $` | `fr`, 9 units | data scan — no separator to inspect |
+| `4:00 p.m.` → `16 h` / `ore 16:00` | `fr`, `it`, 14 units | data scan — against a 6/6 keep precedent |
+| Eastern-Arabic digits `۲۰۲۷–۲۸` | `fa`, 1 unit | data scan |
+
+The clock-time one is the same defect class CLAUDE.md already records from the French
+print-out round, and it reappeared here in a *second* locale. Worth generalising: the
+plan's Phase 2 trap list said "figures copied char-for-char" and named `$100`, `$1,000`
+and `4:00 p.m.` explicitly — and the defects landed anyway, because a translator
+rendering a clock or a currency into idiomatic French does it without noticing it is a
+figure. **The guard that worked was a scan of the data, not the checker and not the
+trap list.** A comprehensive scan now confirms every numeric token in all 131 English
+units round-trips char-for-char in all nine locales.
+
+**One genuine `i18n:leaks` finding**, fixed: `fr` kept `Grades 6–11` in English where
+all six prior French band labels use `Niveaux`. Only band 2 leaked — bands 0 and 1 reuse
+translation units that already existed from earlier schools, which is why a single band
+was the whole exposure. The two remaining French flags (`Admissions` in the address and
+contact lines) are legitimate keeps: the correct French word, identical to English by
+coincidence.
+
+**Both open questions were resolved by their stated defaults** and neither was raised at
+review: the Dec 12 2026 ISEE date stayed in the screening step's `detail` rather than
+taking a deadline tile, and the professing-Christian requirement stayed out of `rules`,
+carried instead by every band's interview step and the comparison table.
+
+**Verification beyond the plan's list.** The standalone checklist page was checked at all
+three bands in all nine locales — 27 pages — because it skips `SchoolDetail` and can
+render English at 100% coverage with every checker green. All translated, correct
+direction, no literal `**`. Money renders through `localizeMoneyText()` as designed: the
+data stores `$1,000` and Spanish presents `1.000 US$`, amount and currency unchanged.
+
