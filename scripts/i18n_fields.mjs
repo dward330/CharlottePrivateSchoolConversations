@@ -576,6 +576,10 @@ export const PATH_OVERRIDES = new Map([
   ['comparison.rows[].cells.ls', true],
   ['comparison.rows[].cells.ms', true],
   ['comparison.rows[].cells.us', true],
+  // Covenant Day's third band spans Grades 6-11, not 6-12: the school is JK-12
+  // but publishes no Grade 12 entry point. `jkk` and `g15` it shares with the
+  // cards above; `g611` is its own key.
+  ['comparison.rows[].cells.g611', true],
   ['comparison.rows[].cells.all', true],
   // "5800 Sardis Road, Charlotte, NC 28270 · main 704-887-6000" — the street
   // address round-trips char-for-char, but `main` is an English word labelling

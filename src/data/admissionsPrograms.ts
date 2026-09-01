@@ -32,7 +32,7 @@
 //
 // The card is optional, and a school with no admissions research simply has no
 // entry — the section then does not render at all, which is the honest outcome
-// for a school whose process was never researched. Seven of the eleven schools
+// for a school whose process was never researched. Six of the eleven schools
 // are in exactly that position today.
 
 /* ---------------------------------------------------------------- shared -- */
@@ -253,6 +253,17 @@ const TITLE_OVERRIDES: Record<string, Partial<Record<AdmissionsCardKey, string>>
   'charlotte-christian': {
     guide: 'Grade-by-Grade Application Guide — JK/K · 1 · 2–4 · 5–12',
   },
+  // Covenant Day's top band ENDS AT 11, which no other school's does. The
+  // school is JK–12, but every published deadline, decision date and testing
+  // reference addresses "JK/K" and "grades 1-11" only — 12th-grade entry is not
+  // published as an entry point. The shared title's "6–12" would advertise a
+  // band the card does not have and the school does not offer, which is the
+  // exact failure this override exists for. Its lower boundary differs too:
+  // the deadline breaks at K→1 while the screening instrument changes twice
+  // INSIDE Grades 1–5, so the band is 1–5 rather than 1–4.
+  'covenant-day': {
+    guide: 'Grade-by-Grade Application Guide — JK/K · 1–5 · 6–11',
+  },
 }
 
 /**
@@ -294,14 +305,15 @@ import { providenceDay } from './admissionsPrograms/providence-day.ts'
 import { charlotteCountryDay } from './admissionsPrograms/charlotte-country-day.ts'
 import { charlotteChristian } from './admissionsPrograms/charlotte-christian.ts'
 import { charlotteLatin } from './admissionsPrograms/charlotte-latin.ts'
+import { covenantDay } from './admissionsPrograms/covenant-day.ts'
 
 /**
- * FOUR schools, not eleven. **The other seven are deliberately absent.**
+ * FIVE schools, not eleven. **The other six are deliberately absent.**
  *
  * Nobody has researched their admissions processes — the topic infrastructure
  * is school-agnostic, but the data ships for Providence Day, Charlotte Country
- * Day, Charlotte Christian and Charlotte Latin only. With no source files under
- * `source-material/admissions/<school>/`, the topic has no `doc_count` for
+ * Day, Charlotte Christian, Charlotte Latin and Covenant Day only. With no
+ * source files under `source-material/admissions/<school>/`, the topic has no `doc_count` for
  * those schools, so `topicsForSchool()` never yields it and the Admissions
  * section does not render on their pages at all.
  *
@@ -315,6 +327,7 @@ const PROGRAMS: Record<string, AdmissionsProgram> = {
   'charlotte-country-day': charlotteCountryDay,
   'charlotte-christian': charlotteChristian,
   'charlotte-latin': charlotteLatin,
+  'covenant-day': covenantDay,
 }
 
 /* ---------------------------------------------------------- translations -- */
