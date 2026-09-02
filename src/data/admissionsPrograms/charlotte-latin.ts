@@ -148,7 +148,7 @@ export const charlotteLatin: AdmissionsProgram = {
     cycle: '2026–27 entry cycle',
 
     stats: [
-      { value: '4', label: 'entry bands — TK/K, Grades 1–5, 6–8 and 9–12' },
+      // The 'grade bands' count tile was removed by request (2026-08-31) — not a data gap.
       {
         value: 'Jan 2, 2027',
         label: 'TK/Kindergarten application deadline — 13 days ahead of every other grade',

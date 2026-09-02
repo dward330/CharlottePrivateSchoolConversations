@@ -132,7 +132,7 @@ export const covenantDay: AdmissionsProgram = {
     cycle: '2027–28 entry cycle',
 
     stats: [
-      { value: '3', label: 'entry bands — JK/K, Grades 1–5, Grades 6–11' },
+      // The 'grade bands' count tile was removed by request (2026-08-31) — not a data gap.
       {
         value: 'Jan 2, 2027',
         label: 'JK/K priority deadline — two weeks ahead of everyone else',

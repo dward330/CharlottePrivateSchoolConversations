@@ -93,6 +93,26 @@
 // `.ad-deadlines` handles natively — it is `repeat(auto-fit, minmax(150px,
 // 1fr))`, so an uneven tile count across bands is a first-class layout.
 //
+// THE STAT STRIP CARRIES NO BAND-COUNT TILE, BY DECISION (user, 2026-08-31,
+// PR #259). A leading "5 / entry bands" tile counts the card's own structure
+// rather than telling a parent anything about the school, and it was removed
+// from every card in this area then. It came back on three cards afterwards
+// (Charlotte Latin #262, Covenant Day #264, and this one) by mirroring a card
+// that had already regressed — so if a future card is built from a neighbour,
+// check this rule against Providence Day or Country Day, which never lost it.
+//
+// RULES ARE ONE SHORT SENTENCE EACH (user, 2026-09-02). The reviewed cards sit
+// at 45-48 words across both rules combined; this card first shipped at 144 and
+// was cut back. The rules frame the process — the detail belongs in the steps
+// below, which is where a parent reads it.
+//
+// THE AID STRIP DOES NOT NAME THE UNPUBLISHED 2027-28 NCSEAA WINDOW OR THE
+// ABSENT AID-APPLICANT DEPOSIT DISCOUNT (user, 2026-09-02). Both were removed
+// from the strip and the checklist panel. They are NOT-PUBLISHED disclosures
+// rather than facts a parent can act on, and the register in this header and
+// the research file keeps the record. Do not read their absence as a research
+// gap and backfill them.
+//
 // NOTE FOR EDITORS: `rules[].text` is rendered RAW — `<strong>{title}</strong>
 // {text}` in AdmissionsProgram.tsx — so it is the one prose field on this card
 // with NO markdown support. A `**bold**` span here ships as literal asterisks.
@@ -157,7 +177,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
     cycle: '2027–28 entry cycle',
 
     stats: [
-      { value: '5', label: 'entry bands — TK/K5, 1–5, 6–8, 9–12, International' },
+      // The 'grade bands' count tile was removed by request (2026-08-31) — not a data gap.
       {
         value: 'Nov 2, 2026',
         label: 'priority window opens — church members, EEC students, siblings',
@@ -168,12 +188,12 @@ export const hickoryGroveChristian: AdmissionsProgram = {
 
     rules: [
       {
-        title: 'Inquire and visit by form, then apply in FACTS.',
-        text: 'The first two steps are short forms linked from the admissions page; the application itself runs in the school\'s FACTS portal, which is also where you track your status and see which supplemental forms have arrived — and reprint one if it has not. The two campuses use different FACTS portals, so apply through the one for the campus you want: Harris for TK through 12, and Mallard Creek for its classical Transitional Kindergarten and Kindergarten.',
+        title: 'One portal, two campuses.',
+        text: 'Everything runs through FACTS: inquire, apply, and track which supplemental forms have arrived. Harris and Mallard Creek use separate portals, so apply through the one for your campus.',
       },
       {
-        title: 'Two application windows, then rolling admission.',
-        text: 'Hickory Grove Baptist Church members, Early Education Center students and current HGCS students\' siblings may apply from November 2, 2026; everyone else from November 16, 2026. This is an earlier place in the queue, not a tuition discount, and after those dates admission is rolling and capacity-dependent — the school asks families to call and confirm availability in a specific grade rather than publishing a single notification date.',
+        title: 'Two windows, then rolling admission.',
+        text: 'Church members, Early Education Center students and current-student siblings apply from Nov 2, 2026; everyone else from Nov 16. That is an earlier place in the queue, not a discount — after those dates, admission is rolling.',
       },
     ],
 
@@ -823,7 +843,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
 
     aid: {
       title: 'Running in parallel: the financial-aid clock',
-      text: 'Aid runs through **FACTS Grant & Aid Assessment**, and **FACTS charges $40** to process the application. Two things about the order of operations: **new families must be accepted for enrollment before they can apply for aid**, so the aid application follows the decision here rather than running alongside it; and families should **first apply for, accept or renew the NC Opportunity Scholarship** through the state education assistance authority, then apply to Hickory Grove for aid if that does not meet the need — awarded "until all available funds have been allocated". **ESA+** is available for children with disabilities attending an eligible non-public school. The **2026–27** state window ran **February 2 to March 2, 2026** with renewals due **April 15, 2026**; the **2027–28 window is set by the state and is not yet published**. **No reduced enrollment deposit for aid applicants is published.**',
+      text: 'Aid runs through **FACTS Grant & Aid Assessment**, and **FACTS charges $40** to process the application. Two things about the order of operations: **new families must be accepted for enrollment before they can apply for aid**, so the aid application follows the decision here rather than running alongside it; and families should **first apply for, accept or renew the NC Opportunity Scholarship** through the state education assistance authority, then apply to Hickory Grove for aid if that does not meet the need — awarded "until all available funds have been allocated". **ESA+** is available for children with disabilities attending an eligible non-public school. The **2026–27** state window ran **February 2 to March 2, 2026** with renewals due **April 15, 2026**.',
       button: 'Financial Aid & Tuition',
     },
 
@@ -960,8 +980,7 @@ export const hickoryGroveChristian: AdmissionsProgram = {
           'New families must be accepted for enrollment before they can apply for aid, so this follows the admissions decision rather than running alongside it.',
           'Apply for, accept or renew the NC Opportunity Scholarship first, then apply to Hickory Grove for aid if that does not meet your need — awarded until all available funds have been allocated.',
           'ESA+ is available for children with disabilities attending an eligible non-public school.',
-          'The 2026–27 state window ran February 2 to March 2, 2026, with renewals due April 15, 2026. The 2027–28 window is set by the state and is not yet published.',
-          'No reduced enrollment deposit for aid applicants is published — confirm with the admissions office.',
+          'The 2026–27 state window ran February 2 to March 2, 2026, with renewals due April 15, 2026.',
         ],
       },
       contactPanel: {
