@@ -1,11 +1,11 @@
 ---
 name: hickorygroveadmissions
 title: Add the Admissions research area for Hickory Grove Christian School
-status: english-done
+status: implemented
 phases: 2
 created: 2026-09-01
 branch: feat/hickory-grove-admissions
-prs: []
+prs: [268]
 ---
 
 # Add the Admissions research area for Hickory Grove Christian School
@@ -486,3 +486,53 @@ Traps specific to this card:
   published, so a date-shaped strip is impossible, and the thresholds are the band's most
   actionable published figures. If it reads oddly as a "deadline" strip, drop to a two-tile
   strip carrying the deposit and the full-payment rule.
+
+
+## Implementation notes
+
+Both phases shipped. Phase 1 (English) landed in commits 638e22e..164f173;
+Phase 2 (nine prose locales) in 937d367. PR #268.
+
+**Phase 2 deviated from the plan in one place, and it was load-bearing.** The plan's
+Phase 2 step 1 says "the extractor already knows the `admissions` topic and the
+`hickory-grove-christian` slug", which is true but not sufficient. Hickory Grove is the
+first FIVE-band card in the area and names its bands after its own divisions, so four of
+its six `guide.comparison.rows[].cells.*` keys (`tkk5`, `es`, `hs`, `intl`) did not exist
+in `PATH_OVERRIDES`. The path matcher is exact-match per key, and an unregistered key is
+**excluded from extraction rather than flagged at render** — so 32 comparison cells
+(8 rows x 4 bands) would have shipped English to all nine locales with coverage still
+reading 100%. Registering them in `scripts/i18n_fields.mjs` was step 0. The extractor
+reported exactly four unclassified paths before the fix and none after.
+
+This is the fourth card in a row to hit the same trap (`g611` #264, `ls`/`ms`/`us` #262,
+`g1`/`g24` #254). A future Admissions school should run
+`node scripts/i18n_extract.mjs --report --residual` **before** translating.
+
+**Merged by `of` stamp, never re-extracted.** The extractor blanks every `t`, so a
+`--force` re-extract would have wiped all 699 committed translations per locale. All nine
+work files went 699 -> 923 units with zero existing translations changed or lost.
+
+**Seven leaks were caught by comparing against the shipped corpus, not by the checkers.**
+Five locales left the "Director of Admissions & International Student Program" job title
+in English — and three of the translating agents explicitly defended it as a legitimate
+frozen keep. The corpus translates admissions job titles in all nine locales, which
+settled it. Separately, `hi` rendered `shadow` in Latin across 11 units where the
+pre-existing Hindi corpus uses `शैडो` 15 times and Latin zero times. The lesson
+generalises: **a translator's self-report is not evidence; the shipped corpus is.**
+
+**The `Transitional Kindergarten` rule is a split, not a freeze.** An initial verifier
+treated the whole phrase as frozen and flagged Arabic for translating it. The corpus
+actually splits it — every locale keeps it English as the program name beside `(TK)` and
+translates the descriptive use (3 of 4 kept, in all nine locales). Correcting the
+verifier to track the `TK`/`K5` **token** instead is what surfaced the genuine `fa`
+defect the original rule would have missed.
+
+**Open questions resolved as planned:** International shipped as a fifth band alone with
+no cross-links; the contacts grid carries the general admissions line and both EEC
+offices alongside Sheila Chaney; the `intl` deadline strip carries the English-proficiency
+thresholds as tiles. None needed revisiting in the browser.
+
+**The five-band layout risk did not materialise.** `.ad-bands` holds all five in one row
+in all nine locales at 1280px, with band widths within 5% of English (127-139px vs
+132px), and stacks to five full-width rows at 390px. No CSS change was needed, so the
+contingency the plan reserved for this PR went unused.
