@@ -1,7 +1,7 @@
 ---
 name: hickorygroveadmissions
 title: Add the Admissions research area for Hickory Grove Christian School
-status: in-progress
+status: english-done
 phases: 2
 created: 2026-09-01
 branch: feat/hickory-grove-admissions
