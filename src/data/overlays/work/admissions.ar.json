@@ -114,7 +114,8 @@
       "of": "75235da1",
       "at": [
         "providence-day:guide.bands[0].title",
-        "charlotte-latin:guide.bands[0].title"
+        "charlotte-latin:guide.bands[0].title",
+        "hickory-grove-christian:guide.bands[0].title"
       ],
       "t": "الروضة الانتقالية ورياض الأطفال"
     },
@@ -218,7 +219,15 @@
         "covenant-day:guide.bands[1].steps[0].tag",
         "covenant-day:guide.bands[1].checklistRows[0].due",
         "covenant-day:guide.bands[2].steps[0].tag",
-        "covenant-day:guide.bands[2].checklistRows[0].due"
+        "covenant-day:guide.bands[2].checklistRows[0].due",
+        "hickory-grove-christian:guide.bands[0].steps[0].tag",
+        "hickory-grove-christian:guide.bands[0].checklistRows[0].due",
+        "hickory-grove-christian:guide.bands[1].steps[0].tag",
+        "hickory-grove-christian:guide.bands[1].checklistRows[0].due",
+        "hickory-grove-christian:guide.bands[2].steps[0].tag",
+        "hickory-grove-christian:guide.bands[2].checklistRows[0].due",
+        "hickory-grove-christian:guide.bands[3].steps[0].tag",
+        "hickory-grove-christian:guide.bands[3].checklistRows[0].due"
       ],
       "t": "خريف 2026"
     },
@@ -1160,7 +1169,8 @@
         "charlotte-latin:guide.aid.title",
         "charlotte-christian:guide.aid.title",
         "charlotte-country-day:guide.aid.title",
-        "covenant-day:guide.aid.title"
+        "covenant-day:guide.aid.title",
+        "hickory-grove-christian:guide.aid.title"
       ],
       "t": "بالتوازي: جدول المساعدات المالية"
     },
@@ -1180,7 +1190,8 @@
         "charlotte-latin:guide.aid.button",
         "charlotte-christian:guide.aid.button",
         "charlotte-country-day:guide.aid.button",
-        "covenant-day:guide.aid.button"
+        "covenant-day:guide.aid.button",
+        "hickory-grove-christian:guide.aid.button"
       ],
       "t": "المساعدات المالية والرسوم"
     },
@@ -1192,7 +1203,8 @@
         "charlotte-latin:guide.comparison.kicker",
         "charlotte-christian:guide.comparison.kicker",
         "charlotte-country-day:guide.comparison.kicker",
-        "covenant-day:guide.comparison.kicker"
+        "covenant-day:guide.comparison.kicker",
+        "hickory-grove-christian:guide.comparison.kicker"
       ],
       "t": "بين المستويات"
     },
@@ -1204,7 +1216,8 @@
         "charlotte-latin:guide.comparison.title",
         "charlotte-christian:guide.comparison.title",
         "charlotte-country-day:guide.comparison.title",
-        "covenant-day:guide.comparison.title"
+        "covenant-day:guide.comparison.title",
+        "hickory-grove-christian:guide.comparison.title"
       ],
       "t": "ما الذي يتغيّر بالضبط بين المستويات"
     },
@@ -1233,7 +1246,8 @@
       "of": "7f464e4f",
       "at": [
         "providence-day:guide.comparison.rows[2].label",
-        "charlotte-christian:guide.comparison.rows[1].label"
+        "charlotte-christian:guide.comparison.rows[1].label",
+        "hickory-grove-christian:guide.comparison.rows[3].label"
       ],
       "t": "التقييم"
     },
@@ -1334,7 +1348,8 @@
         "charlotte-latin:guide.contacts.kicker",
         "charlotte-christian:guide.contacts.kicker",
         "charlotte-country-day:guide.contacts.kicker",
-        "covenant-day:guide.contacts.kicker"
+        "covenant-day:guide.contacts.kicker",
+        "hickory-grove-christian:guide.contacts.kicker"
       ],
       "t": "جهات الاتصال"
     },
@@ -1347,7 +1362,8 @@
         "charlotte-latin:guide.contacts.title",
         "charlotte-christian:guide.contacts.title",
         "charlotte-country-day:guide.contacts.title",
-        "covenant-day:guide.contacts.title"
+        "covenant-day:guide.contacts.title",
+        "hickory-grove-christian:guide.contacts.title"
       ],
       "t": "مكتب القبول"
     },
@@ -1439,7 +1455,8 @@
         "charlotte-latin:guide.checklist.aidPanel.kicker",
         "charlotte-christian:guide.checklist.aidPanel.kicker",
         "charlotte-country-day:guide.checklist.aidPanel.kicker",
-        "covenant-day:guide.checklist.aidPanel.kicker"
+        "covenant-day:guide.checklist.aidPanel.kicker",
+        "hickory-grove-christian:guide.checklist.aidPanel.kicker"
       ],
       "t": "بالتوازي — جدول المساعدات المالية"
     },
@@ -1467,7 +1484,8 @@
         "charlotte-latin:guide.checklist.contactPanel.kicker",
         "charlotte-christian:guide.checklist.contactPanel.kicker",
         "charlotte-country-day:guide.checklist.contactPanel.kicker",
-        "covenant-day:guide.checklist.contactPanel.kicker"
+        "covenant-day:guide.checklist.contactPanel.kicker",
+        "hickory-grove-christian:guide.checklist.contactPanel.kicker"
       ],
       "t": "الاستفسارات — مكتب القبول"
     },
@@ -2075,7 +2093,8 @@
       "text": "Middle School — Grades 6–8",
       "of": "6850595d",
       "at": [
-        "charlotte-latin:guide.bands[2].title"
+        "charlotte-latin:guide.bands[2].title",
+        "hickory-grove-christian:guide.bands[2].title"
       ],
       "t": "Middle School — الصفوف 6–8"
     },
@@ -2502,7 +2521,8 @@
         "charlotte-latin:guide.comparison.rows[7].label",
         "charlotte-christian:guide.comparison.rows[10].label",
         "charlotte-country-day:guide.comparison.rows[8].label",
-        "covenant-day:guide.comparison.rows[9].label"
+        "covenant-day:guide.comparison.rows[9].label",
+        "hickory-grove-christian:guide.comparison.rows[8].label"
       ],
       "t": "ثابت في كل مستوى"
     },
@@ -3141,7 +3161,31 @@
         "covenant-day:guide.bands[1].checklistRows[7].due",
         "covenant-day:guide.bands[2].checklistRows[6].due",
         "covenant-day:guide.bands[2].checklistRows[7].due",
-        "covenant-day:guide.bands[2].checklistRows[8].due"
+        "covenant-day:guide.bands[2].checklistRows[8].due",
+        "hickory-grove-christian:guide.bands[0].checklistRows[4].due",
+        "hickory-grove-christian:guide.bands[0].checklistRows[5].due",
+        "hickory-grove-christian:guide.bands[0].checklistRows[6].due",
+        "hickory-grove-christian:guide.bands[1].checklistRows[3].due",
+        "hickory-grove-christian:guide.bands[1].checklistRows[4].due",
+        "hickory-grove-christian:guide.bands[1].checklistRows[5].due",
+        "hickory-grove-christian:guide.bands[1].checklistRows[6].due",
+        "hickory-grove-christian:guide.bands[1].checklistRows[7].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[3].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[4].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[5].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[6].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[7].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[8].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[9].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[10].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[3].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[4].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[5].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[6].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[7].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[8].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[9].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[10].due"
       ],
       "t": "بعد التقديم"
     },
@@ -3541,7 +3585,15 @@
       "of": "95231371",
       "at": [
         "charlotte-christian:guide.bands[2].checklistRows[6].action",
-        "charlotte-christian:guide.bands[3].checklistRows[9].action"
+        "charlotte-christian:guide.bands[3].checklistRows[9].action",
+        "hickory-grove-christian:guide.bands[0].steps[5].title",
+        "hickory-grove-christian:guide.bands[0].checklistRows[8].action",
+        "hickory-grove-christian:guide.bands[1].steps[4].title",
+        "hickory-grove-christian:guide.bands[1].checklistRows[9].action",
+        "hickory-grove-christian:guide.bands[2].steps[4].title",
+        "hickory-grove-christian:guide.bands[2].checklistRows[12].action",
+        "hickory-grove-christian:guide.bands[3].steps[5].title",
+        "hickory-grove-christian:guide.bands[3].checklistRows[13].action"
       ],
       "t": "احضر المقابلة العائلية"
     },
@@ -4189,7 +4241,8 @@
       "of": "639aa0b9",
       "at": [
         "charlotte-country-day:guide.cycle",
-        "covenant-day:guide.cycle"
+        "covenant-day:guide.cycle",
+        "hickory-grove-christian:guide.cycle"
       ],
       "t": "دورة الالتحاق 2027–28"
     },
@@ -5324,7 +5377,11 @@
       "at": [
         "covenant-day:guide.bands[0].steps[4].tag",
         "covenant-day:guide.bands[1].steps[4].tag",
-        "covenant-day:guide.bands[2].steps[4].tag"
+        "covenant-day:guide.bands[2].steps[4].tag",
+        "hickory-grove-christian:guide.bands[0].steps[3].tag",
+        "hickory-grove-christian:guide.bands[1].steps[2].tag",
+        "hickory-grove-christian:guide.bands[2].steps[2].tag",
+        "hickory-grove-christian:guide.bands[3].steps[2].tag"
       ],
       "t": "بعد التقديم"
     },
@@ -5954,7 +6011,9 @@
       "of": "61e6be1a",
       "at": [
         "covenant-day:guide.comparison.rows[3].cells.jkk",
-        "covenant-day:guide.comparison.rows[3].cells.g15"
+        "covenant-day:guide.comparison.rows[3].cells.g15",
+        "hickory-grove-christian:guide.comparison.rows[4].cells.tkk5",
+        "hickory-grove-christian:guide.comparison.rows[4].cells.es"
       ],
       "t": "لا"
     },
@@ -5970,7 +6029,8 @@
       "text": "Recommendation forms",
       "of": "f250a57d",
       "at": [
-        "covenant-day:guide.comparison.rows[4].label"
+        "covenant-day:guide.comparison.rows[4].label",
+        "hickory-grove-christian:guide.comparison.rows[1].label"
       ],
       "t": "نماذج التزكية"
     },
@@ -5994,7 +6054,9 @@
       "text": "Math + English + principal/counselor + pastor",
       "of": "b819b98e",
       "at": [
-        "covenant-day:guide.comparison.rows[4].cells.g611"
+        "covenant-day:guide.comparison.rows[4].cells.g611",
+        "hickory-grove-christian:guide.comparison.rows[1].cells.ms",
+        "hickory-grove-christian:guide.comparison.rows[1].cells.hs"
       ],
       "t": "رياضيات + لغة إنجليزية + مدير/مرشد + قسّ"
     },
@@ -6214,6 +6276,1920 @@
         "covenant-day:guide.checklist.disclaimer"
       ],
       "t": "التواريخ تخصّ دورة الالتحاق 2027–28 كما هي منشورة على covenantday.org ومأخوذة في سبتمبر 2026 — تقويم التواريخ الرئيسية، وخطوات القبول الست، وصفحة التقديم، وهي متوافقة فيما بينها. وتواريخ الدورة تتغيّر من عام إلى آخر — تحقّق منها في التقويم المباشر قبل التصرف. جمعتها Charlotte School Compare؛ وهي غير تابعة لـ Covenant Day School."
+    },
+    {
+      "text": "Pick your child's entry point and the guide personalizes: the full application sequence in order, the 2027–28 application windows, and the forms and testing for that band — plus a printable checklist to take with you. One spine for every domestic applicant, but the priority window opens two weeks early for church members, Early Education Center families and current-student siblings, and the F-1 international process is a separate one end to end.",
+      "of": "3d1ccf3e",
+      "at": [
+        "hickory-grove-christian:guide.headline"
+      ],
+      "t": "اختر صف الالتحاق المناسب لطفلك فيتكيّف الدليل معه: تسلسل الطلب كاملًا بالترتيب، ونوافذ التقديم لدورة 2027–28، والاستمارات والاختبارات الخاصة بذلك المستوى — إضافة إلى قائمة مراجعة قابلة للطباعة تأخذها معك. البنية واحدة لكل متقدّم محلي، غير أن نافذة الأولوية تُفتح قبل أسبوعين لأعضاء الكنيسة وعائلات Early Education Center وإخوة الطلاب الحاليين، أما مسار الطلاب الدوليين F-1 فهو مسار منفصل من أوله إلى آخره."
+    },
+    {
+      "text": "priority window opens — church members, EEC students, siblings",
+      "of": "b6ba26cc",
+      "at": [
+        "hickory-grove-christian:guide.stats[0].label"
+      ],
+      "t": "تُفتح نافذة الأولوية — أعضاء الكنيسة وطلاب EEC والإخوة"
+    },
+    {
+      "text": "applications open to the public",
+      "of": "0ae2d1d5",
+      "at": [
+        "hickory-grove-christian:guide.stats[1].label",
+        "hickory-grove-christian:guide.bands[0].deadlines[1].label",
+        "hickory-grove-christian:guide.bands[1].deadlines[1].label",
+        "hickory-grove-christian:guide.bands[2].deadlines[1].label",
+        "hickory-grove-christian:guide.bands[3].deadlines[1].label"
+      ],
+      "t": "فتح باب التقديم للجميع"
+    },
+    {
+      "text": "enrollment deposit on acceptance — applied toward tuition",
+      "of": "09f05c01",
+      "at": [
+        "hickory-grove-christian:guide.stats[2].label"
+      ],
+      "t": "دفعة التسجيل عند القبول — تُخصم من الرسوم الدراسية"
+    },
+    {
+      "text": "One portal, two campuses.",
+      "of": "242d24c6",
+      "at": [
+        "hickory-grove-christian:guide.rules[0].title"
+      ],
+      "t": "بوابة واحدة، وحرمان دراسيان."
+    },
+    {
+      "text": "Everything runs through FACTS: inquire, apply, and track which supplemental forms have arrived. Harris and Mallard Creek use separate portals, so apply through the one for your campus.",
+      "of": "beedf199",
+      "at": [
+        "hickory-grove-christian:guide.rules[0].text"
+      ],
+      "t": "كل شيء يمرّ عبر FACTS: الاستفسار وتقديم الطلب ومتابعة الاستمارات التكميلية التي وصلت. ويستخدم Harris وMallard Creek بوابتين منفصلتين، لذا قدّم عبر البوابة الخاصة بحرمك."
+    },
+    {
+      "text": "Two windows, then rolling admission.",
+      "of": "cefb5cab",
+      "at": [
+        "hickory-grove-christian:guide.rules[1].title"
+      ],
+      "t": "نافذتان، ثم قبول مستمر."
+    },
+    {
+      "text": "Church members, Early Education Center students and current-student siblings apply from Nov 2, 2026; everyone else from Nov 16. That is an earlier place in the queue, not a discount — after those dates, admission is rolling.",
+      "of": "6c028ff5",
+      "at": [
+        "hickory-grove-christian:guide.rules[1].text"
+      ],
+      "t": "يتقدّم أعضاء الكنيسة وطلاب Early Education Center وإخوة الطلاب الحاليين اعتبارًا من Nov 2, 2026؛ ويتقدّم الجميع اعتبارًا من Nov 16. وهذا يعني موضعًا أسبق في الطابور، لا خصمًا في الرسوم — وبعد هذين الموعدين يصبح القبول مستمرًا."
+    },
+    {
+      "text": "One shared spine in every domestic band — submit the inquiry form → arrange your visit → apply in FACTS and pay the application fee → send the forms your band requires → sit the entrance testing, which is scheduled only once every form has arrived → attend the family interview → receive the decision in writing → pay the $500 enrollment deposit. What changes between bands is which forms you send, whether there is a shadow day, and whether a placement test applies. The international F-1 process replaces most of this and is set out in its own band.",
+      "of": "a2238ddf",
+      "at": [
+        "hickory-grove-christian:guide.spineNote"
+      ],
+      "t": "بنية مشتركة واحدة في كل المستويات المحلية — إرسال استمارة الاستفسار ← ترتيب زيارتك ← التقديم عبر FACTS ودفع رسوم الطلب ← إرسال الاستمارات التي يتطلبها مستواك ← أداء اختبار القبول، الذي لا يُحدَّد موعده إلا بعد وصول كل استمارة ← حضور مقابلة العائلة ← تلقّي القرار كتابةً ← دفع دفعة التسجيل $500. وما يتغيّر بين المستويات هو الاستمارات التي ترسلها، ووجود يوم مرافقة من عدمه، وانطباق اختبار تحديد المستوى. أما مسار الطلاب الدوليين F-1 فيحلّ محل معظم ذلك ويُعرض في مستوى خاص به."
+    },
+    {
+      "text": "TK / K5",
+      "of": "c4921f8b",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].label"
+      ],
+      "t": "TK / K5"
+    },
+    {
+      "text": "Readiness screening · age cutoffs",
+      "of": "4bc7a523",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].sublabel"
+      ],
+      "t": "فحص الجاهزية · حدود العمر"
+    },
+    {
+      "text": "priority window opens — members, EEC, siblings",
+      "of": "f2289bb7",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].deadlines[0].label",
+        "hickory-grove-christian:guide.bands[1].deadlines[0].label",
+        "hickory-grove-christian:guide.bands[2].deadlines[0].label",
+        "hickory-grove-christian:guide.bands[3].deadlines[0].label"
+      ],
+      "t": "تُفتح نافذة الأولوية — الأعضاء وEEC والإخوة"
+    },
+    {
+      "text": "enrollment deposit on acceptance",
+      "of": "31d3187f",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].deadlines[2].label",
+        "hickory-grove-christian:guide.bands[1].deadlines[2].label",
+        "hickory-grove-christian:guide.bands[2].deadlines[2].label",
+        "hickory-grove-christian:guide.bands[3].deadlines[2].label",
+        "hickory-grove-christian:guide.bands[4].deadlines[2].label"
+      ],
+      "t": "دفعة التسجيل عند القبول"
+    },
+    {
+      "text": "Send the inquiry form, then arrange a visit",
+      "of": "ec7cfe82",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[0].title",
+        "hickory-grove-christian:guide.bands[1].steps[0].title",
+        "hickory-grove-christian:guide.bands[2].steps[0].title",
+        "hickory-grove-christian:guide.bands[3].steps[0].title"
+      ],
+      "t": "أرسل استمارة الاستفسار، ثم رتّب زيارة"
+    },
+    {
+      "text": "The first two steps are short forms linked from the admissions page — an inquiry, then a request to visit the campus. This is also the point to decide which campus you are applying to: **Harris** runs Transitional Kindergarten and Kindergarten alongside the rest of TK–12, while **Mallard Creek** is launching a **classical Christian TK and Kindergarten** that grows one grade a year, with students moving to Harris at middle school.",
+      "of": "8b2d59d6",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[0].detail"
+      ],
+      "t": "الخطوتان الأوليان استمارتان قصيرتان مرتبطتان من صفحة القبول — استفسار، ثم طلب زيارة الحرم المدرسي. وهنا أيضًا تقرّر إلى أي حرم تتقدّم: يقدّم **Harris** الروضة الانتقالية ورياض الأطفال إلى جانب بقية صفوف TK–12، بينما يطلق **Mallard Creek** برنامج **TK ورياض أطفال مسيحيًا كلاسيكيًا** ينمو بصف كل عام، وينتقل طلابه إلى Harris عند المرحلة المتوسطة."
+    },
+    {
+      "text": "Check which grade your child is eligible for",
+      "of": "3ba53718",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[1].title"
+      ],
+      "t": "تحقّق من الصف الذي يستحقّه طفلك"
+    },
+    {
+      "text": "before applying",
+      "of": "1130444e",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[1].tag"
+      ],
+      "t": "قبل التقديم"
+    },
+    {
+      "text": "The two youngest grades are split by birthday. A child turning five **by October 16** of the school year applied for is eligible for **Kindergarten (K5)**; a child turning five **on or before April 16** is eligible for **Transitional Kindergarten (TK)**, which the school describes as a bridge between preschool and kindergarten, giving a child time to develop the fundamental skills kindergarten expects. The birthday is not the whole decision — see the readiness screening below. TK is the earliest K–12 entry point; younger children are enrolled through the **Early Education Center** office rather than this process.",
+      "of": "6131bdff",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[1].detail"
+      ],
+      "t": "يُفصل بين أصغر صفّين بتاريخ الميلاد. فالطفل الذي يتم الخامسة **by October 16** من السنة الدراسية المتقدَّم إليها مؤهّل لـ**رياض الأطفال (K5)**؛ والطفل الذي يتم الخامسة **on or before April 16** مؤهّل لـ**الروضة الانتقالية (TK)**، التي تصفها المدرسة بأنها جسر بين مرحلة ما قبل المدرسة ورياض الأطفال، يمنح الطفل وقتًا لتنمية المهارات الأساسية التي تتوقعها رياض الأطفال. وتاريخ الميلاد ليس القرار كله — راجع فحص الجاهزية أدناه. وتُعدّ TK أبكر نقطة التحاق في مسار K–12؛ أما الأطفال الأصغر فيُسجَّلون عبر مكتب **Early Education Center** لا عبر هذا المسار."
+    },
+    {
+      "text": "Apply in FACTS and pay the application fee",
+      "of": "5835dc0f",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[2].title",
+        "hickory-grove-christian:guide.bands[1].steps[1].title",
+        "hickory-grove-christian:guide.bands[2].steps[1].title",
+        "hickory-grove-christian:guide.bands[3].steps[1].title"
+      ],
+      "t": "قدّم الطلب عبر FACTS وادفع رسوم الطلب"
+    },
+    {
+      "text": "from Nov 2 or Nov 16",
+      "of": "26c07375",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[2].tag",
+        "hickory-grove-christian:guide.bands[1].steps[1].tag",
+        "hickory-grove-christian:guide.bands[2].steps[1].tag",
+        "hickory-grove-christian:guide.bands[3].steps[1].tag"
+      ],
+      "t": "من Nov 2 أو Nov 16"
+    },
+    {
+      "text": "Apply through the FACTS portal for your campus — **Harris and Mallard Creek use different portals**. Whether Mallard Creek's classical TK and Kindergarten follow different steps or dates from Harris is **not published**, so confirm with the admissions office if you are applying there. Send your child's **birth certificate** and **Immunization Registry Record** with the application. On the fee: the school publishes **$250 for a window that ran to May 31, 2026** and **$500 from June 1, 2026 onward**, but that published window predates the November 2026 application dates — **confirm the current fee with the admissions office before paying**.",
+      "of": "b0b3a64e",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[2].detail"
+      ],
+      "t": "قدّم عبر بوابة FACTS الخاصة بحرمك — **يستخدم Harris وMallard Creek بوابتين مختلفتين**. أما ما إذا كان برنامج TK ورياض الأطفال الكلاسيكي في Mallard Creek يتبع خطوات أو مواعيد مختلفة عن Harris فهو **غير منشور**، لذا تأكّد من مكتب القبول إن كنت تتقدّم إليه. وأرسل **شهادة ميلاد** طفلك و**Immunization Registry Record** مع الطلب. وبشأن الرسوم: تنشر المدرسة **$250 لنافذة امتدت حتى May 31, 2026** و**$500 اعتبارًا من June 1, 2026**، غير أن تلك النافذة المنشورة تسبق مواعيد التقديم في نوفمبر 2026 — **تأكّد من الرسوم الحالية مع مكتب القبول قبل الدفع**."
+    },
+    {
+      "text": "Send the three forms this band requires",
+      "of": "a6c25c1c",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[3].title"
+      ],
+      "t": "أرسل الاستمارات الثلاث التي يتطلبها هذا المستوى"
+    },
+    {
+      "text": "Three forms complete a TK or K5 file: an **Information form**; a **Readiness Checklist**, completed by your child's preschool or daycare teacher; and a **Personal Recommendation form from your family's pastor**, which is required at every grade from TK through 12. Send all three promptly — nothing is scheduled until the admissions office has every one of them.",
+      "of": "77555d76",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[3].detail"
+      ],
+      "t": "يكتمل ملف TK أو K5 بثلاث استمارات: **Information form**؛ و**Readiness Checklist** تعبّئها معلّمة طفلك في مرحلة ما قبل المدرسة أو الحضانة؛ و**Personal Recommendation form من راعي كنيسة عائلتك**، وهي مطلوبة في كل صف من TK حتى 12. أرسلها جميعًا سريعًا — فلا يُحدَّد أي موعد قبل أن يستلمها مكتب القبول كاملة."
+    },
+    {
+      "text": "Sit the readiness screening",
+      "of": "b8760e48",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[4].title"
+      ],
+      "t": "أدِّ فحص الجاهزية"
+    },
+    {
+      "text": "after all forms arrive",
+      "of": "ceda396c",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[4].tag",
+        "hickory-grove-christian:guide.bands[1].steps[3].tag",
+        "hickory-grove-christian:guide.bands[2].steps[3].tag",
+        "hickory-grove-christian:guide.bands[3].steps[4].tag"
+      ],
+      "t": "بعد وصول جميع الاستمارات"
+    },
+    {
+      "text": "Your child takes a **developmentally appropriate skills assessment** during the admissions process, and qualifying for the program depends on passing it — this is what settles TK-versus-K5 placement alongside the birthday cutoffs. Testing is arranged through the **Student Services office**, and it is scheduled **only after the admissions office has received all of the required forms**, so a single outstanding form holds up the whole timeline. The school does not publish which instrument it uses.",
+      "of": "7cf05845",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[4].detail"
+      ],
+      "t": "يخضع طفلك لـ**تقييم مهارات ملائم لمرحلته العمرية** أثناء عملية القبول، ويتوقف التأهل للبرنامج على اجتيازه — وهذا ما يحسم التصنيف بين TK وK5 إلى جانب حدود تاريخ الميلاد. ويُرتَّب الاختبار عبر مكتب **Student Services**، ولا يُحدَّد موعده **إلا بعد استلام مكتب القبول جميع الاستمارات المطلوبة**، لذا فإن استمارة واحدة متأخرة تعطّل الجدول الزمني كله. ولا تنشر المدرسة الأداة التي تستخدمها."
+    },
+    {
+      "text": "after testing",
+      "of": "e08f0319",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[5].tag",
+        "hickory-grove-christian:guide.bands[1].steps[4].tag",
+        "hickory-grove-christian:guide.bands[2].steps[4].tag",
+        "hickory-grove-christian:guide.bands[3].steps[5].tag"
+      ],
+      "t": "بعد الاختبار"
+    },
+    {
+      "text": "The family interview is scheduled once the earlier steps are complete and have gone well. The school describes it as an opportunity to share its **mission, vision and statement of faith**, and to assess whether Hickory Grove is the right fit for your family. **There is no published requirement that a parent be a professing Christian** — what is required is the pastor's recommendation form and this conversation.",
+      "of": "a7b32e23",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[5].detail",
+        "hickory-grove-christian:guide.bands[1].steps[4].detail",
+        "hickory-grove-christian:guide.bands[2].steps[4].detail",
+        "hickory-grove-christian:guide.bands[3].steps[5].detail"
+      ],
+      "t": "تُحدَّد مقابلة العائلة بعد اكتمال الخطوات السابقة وسيرها على ما يرام. وتصفها المدرسة بأنها فرصة لعرض **رسالتها ورؤيتها وبيان إيمانها**، ولتقييم مدى ملاءمة Hickory Grove لعائلتك. **ولا يوجد شرط منشور بأن يكون أحد الوالدين مسيحيًا مجاهرًا بإيمانه** — فالمطلوب هو استمارة توصية الراعي وهذه المقابلة."
+    },
+    {
+      "text": "Decision, then the $500 deposit",
+      "of": "4a1a7c50",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[6].title",
+        "hickory-grove-christian:guide.bands[1].steps[5].title",
+        "hickory-grove-christian:guide.bands[2].steps[5].title",
+        "hickory-grove-christian:guide.bands[3].steps[6].title"
+      ],
+      "t": "القرار، ثم دفعة $500"
+    },
+    {
+      "text": "rolling",
+      "of": "086a38f2",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[6].tag",
+        "hickory-grove-christian:guide.bands[1].steps[5].tag",
+        "hickory-grove-christian:guide.bands[2].steps[5].tag",
+        "hickory-grove-christian:guide.bands[3].steps[6].tag"
+      ],
+      "t": "مستمر"
+    },
+    {
+      "text": "The final decision is **communicated in writing**, and it weighs satisfactory grades, the letters of recommendation, the interview, behavior reports, entrance testing and any IEP, 504 or psychoeducational evaluation on file. **No fixed notification date is published** — admission is rolling and depends on space in the grade. On acceptance a **nonrefundable $500 deposit** is due, and it applies toward tuition.",
+      "of": "f1e7909d",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].steps[6].detail",
+        "hickory-grove-christian:guide.bands[1].steps[5].detail",
+        "hickory-grove-christian:guide.bands[2].steps[5].detail"
+      ],
+      "t": "يُبلَّغ القرار النهائي **كتابةً**، ويراعي الدرجات المُرضية وخطابات التوصية والمقابلة وتقارير السلوك واختبار القبول وأي IEP أو 504 أو تقييم نفسي تربوي في الملف. **ولا يُنشر موعد إشعار ثابت** — فالقبول مستمر ويتوقف على توفر المقاعد في الصف. وعند القبول تُستحق **دفعة $500 غير قابلة للاسترداد**، وتُخصم من الرسوم الدراسية."
+    },
+    {
+      "text": "Testing is not scheduled until every form is in.",
+      "of": "64f124e5",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistCallout.lead"
+      ],
+      "t": "لا يُحدَّد موعد الاختبار قبل وصول كل استمارة."
+    },
+    {
+      "text": "The readiness screening that settles TK-versus-K5 placement is arranged through Student Services only after the admissions office has received the Information form, the Readiness Checklist from your child's preschool or daycare teacher, and the pastor's Personal Recommendation form. Applications open November 2 for church members, Early Education Center students and current-student siblings, and November 16 for everyone else; after that admission is rolling and capacity-dependent, with no fixed notification date. Note that any suspensions, expulsions or failed courses on record are an automatic denial of admission.",
+      "of": "66185ba4",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistCallout.text"
+      ],
+      "t": "يُرتَّب فحص الجاهزية الذي يحسم التصنيف بين TK وK5 عبر Student Services فقط بعد أن يستلم مكتب القبول Information form وReadiness Checklist من معلّمة طفلك في مرحلة ما قبل المدرسة أو الحضانة وPersonal Recommendation form من الراعي. ويُفتح باب التقديم في 2 نوفمبر لأعضاء الكنيسة وطلاب Early Education Center وإخوة الطلاب الحاليين، وفي 16 نوفمبر للجميع؛ وبعد ذلك يصبح القبول مستمرًا ومرهونًا بالسعة، دون موعد إشعار ثابت. ولاحظ أن أي إيقاف أو فصل أو رسوب في مقررات مسجّل في السجل يعني رفضًا تلقائيًا للقبول."
+    },
+    {
+      "text": "Submit the inquiry form and request a campus visit",
+      "of": "405411b6",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[0].action",
+        "hickory-grove-christian:guide.bands[1].checklistRows[0].action",
+        "hickory-grove-christian:guide.bands[2].checklistRows[0].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[0].action"
+      ],
+      "t": "أرسل استمارة الاستفسار واطلب زيارة الحرم المدرسي"
+    },
+    {
+      "text": "Both are short forms linked from the admissions page. Decide Harris or Mallard Creek here.",
+      "of": "007e9989",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[0].detail"
+      ],
+      "t": "كلتاهما استمارة قصيرة مرتبطة من صفحة القبول. وهنا تقرّر Harris أم Mallard Creek."
+    },
+    {
+      "text": "Confirm whether your child is eligible for TK or K5",
+      "of": "e4be2401",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[1].action"
+      ],
+      "t": "تأكّد من أهلية طفلك لـ TK أو K5"
+    },
+    {
+      "text": "Five by Oct 16 for K5; five on or before Apr 16 for TK. The screening also weighs readiness.",
+      "of": "80653d29",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[1].detail"
+      ],
+      "t": "إتمام الخامسة by Oct 16 لـ K5؛ وإتمامها on or before Apr 16 لـ TK. ويراعي الفحص الجاهزية أيضًا."
+    },
+    {
+      "text": "Before applying",
+      "of": "4537836e",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[1].due"
+      ],
+      "t": "قبل التقديم"
+    },
+    {
+      "text": "Apply in the FACTS portal for your campus and pay the application fee",
+      "of": "b5ed2dfd",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[2].action"
+      ],
+      "t": "قدّم الطلب في بوابة FACTS الخاصة بحرمك وادفع رسوم الطلب"
+    },
+    {
+      "text": "Harris and Mallard Creek use different portals. Confirm the current fee — $250/$500 are published for a window that has passed.",
+      "of": "f43abcab",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[2].detail"
+      ],
+      "t": "يستخدم Harris وMallard Creek بوابتين مختلفتين. تأكّد من الرسوم الحالية — فمبلغا $250/$500 منشوران لنافذة انقضت."
+    },
+    {
+      "text": "Nov 2 or Nov 16, 2026",
+      "of": "8cf443e5",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[2].due",
+        "hickory-grove-christian:guide.bands[1].checklistRows[1].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[1].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[1].due"
+      ],
+      "t": "Nov 2 أو Nov 16, 2026"
+    },
+    {
+      "text": "Send the birth certificate and Immunization Registry Record",
+      "of": "77ee5233",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[3].action",
+        "hickory-grove-christian:guide.bands[1].checklistRows[2].action"
+      ],
+      "t": "أرسل شهادة الميلاد وImmunization Registry Record"
+    },
+    {
+      "text": "Both go with the application itself.",
+      "of": "3f7f01b6",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[3].detail",
+        "hickory-grove-christian:guide.bands[1].checklistRows[2].detail",
+        "hickory-grove-christian:guide.bands[2].checklistRows[2].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[2].detail"
+      ],
+      "t": "كلاهما يُرسل مع الطلب نفسه."
+    },
+    {
+      "text": "With the application",
+      "of": "72b1bf58",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[3].due",
+        "hickory-grove-christian:guide.bands[1].checklistRows[2].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[2].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[2].due",
+        "hickory-grove-christian:guide.bands[4].checklistRows[2].due",
+        "hickory-grove-christian:guide.bands[4].checklistRows[3].due"
+      ],
+      "t": "مع الطلب"
+    },
+    {
+      "text": "Complete the Information form",
+      "of": "cecb18bb",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[4].action"
+      ],
+      "t": "عبّئ Information form"
+    },
+    {
+      "text": "One of the three forms required for a TK or K5 file.",
+      "of": "dbdb37bd",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[4].detail"
+      ],
+      "t": "إحدى الاستمارات الثلاث المطلوبة لملف TK أو K5."
+    },
+    {
+      "text": "Ask your preschool or daycare teacher for the Readiness Checklist",
+      "of": "ff772f7c",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[5].action"
+      ],
+      "t": "اطلب من معلّمة مرحلة ما قبل المدرسة أو الحضانة تعبئة Readiness Checklist"
+    },
+    {
+      "text": "Completed by the teacher, not by you.",
+      "of": "a9fc55b7",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[5].detail"
+      ],
+      "t": "تعبّئها المعلّمة، لا أنت."
+    },
+    {
+      "text": "Ask your family's pastor for the Personal Recommendation form",
+      "of": "0bb991ad",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[6].action",
+        "hickory-grove-christian:guide.bands[1].checklistRows[6].action",
+        "hickory-grove-christian:guide.bands[2].checklistRows[6].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[6].action"
+      ],
+      "t": "اطلب من راعي كنيسة عائلتك تعبئة Personal Recommendation form"
+    },
+    {
+      "text": "Required at every grade from TK through 12.",
+      "of": "b0e9da36",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[6].detail",
+        "hickory-grove-christian:guide.bands[1].checklistRows[6].detail",
+        "hickory-grove-christian:guide.bands[2].checklistRows[6].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[6].detail"
+      ],
+      "t": "مطلوبة في كل صف من TK حتى 12."
+    },
+    {
+      "text": "Sit the developmentally appropriate readiness screening",
+      "of": "cba43a68",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[7].action"
+      ],
+      "t": "أدِّ فحص الجاهزية الملائم للمرحلة العمرية"
+    },
+    {
+      "text": "Arranged by Student Services only after every form has arrived. Qualifying depends on passing it.",
+      "of": "345206cc",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[7].detail"
+      ],
+      "t": "يرتّبه Student Services فقط بعد وصول كل استمارة. والتأهل يتوقف على اجتيازه."
+    },
+    {
+      "text": "After all forms arrive",
+      "of": "09225c0c",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[7].due",
+        "hickory-grove-christian:guide.bands[1].checklistRows[8].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[11].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[12].due"
+      ],
+      "t": "بعد وصول جميع الاستمارات"
+    },
+    {
+      "text": "Covers the mission, vision and statement of faith, and whether the school fits your family.",
+      "of": "48965695",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[8].detail",
+        "hickory-grove-christian:guide.bands[1].checklistRows[9].detail",
+        "hickory-grove-christian:guide.bands[2].checklistRows[12].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[13].detail"
+      ],
+      "t": "يتناول الرسالة والرؤية وبيان الإيمان، وما إذا كانت المدرسة مناسبة لعائلتك."
+    },
+    {
+      "text": "After testing",
+      "of": "f91a27b9",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[8].due",
+        "hickory-grove-christian:guide.bands[1].checklistRows[9].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[12].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[13].due"
+      ],
+      "t": "بعد الاختبار"
+    },
+    {
+      "text": "Watch for the written decision, then pay the $500 deposit",
+      "of": "44026a96",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[9].action",
+        "hickory-grove-christian:guide.bands[1].checklistRows[10].action",
+        "hickory-grove-christian:guide.bands[2].checklistRows[13].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[14].action"
+      ],
+      "t": "انتظر القرار المكتوب، ثم ادفع دفعة $500"
+    },
+    {
+      "text": "Nonrefundable, applied toward tuition. No fixed notification date — admission is rolling.",
+      "of": "724667d0",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[9].detail",
+        "hickory-grove-christian:guide.bands[1].checklistRows[10].detail",
+        "hickory-grove-christian:guide.bands[2].checklistRows[13].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[14].detail"
+      ],
+      "t": "غير قابلة للاسترداد، وتُخصم من الرسوم الدراسية. ولا يوجد موعد إشعار ثابت — فالقبول مستمر."
+    },
+    {
+      "text": "Rolling",
+      "of": "3914a792",
+      "at": [
+        "hickory-grove-christian:guide.bands[0].checklistRows[9].due",
+        "hickory-grove-christian:guide.bands[1].checklistRows[10].due",
+        "hickory-grove-christian:guide.bands[2].checklistRows[13].due",
+        "hickory-grove-christian:guide.bands[3].checklistRows[14].due"
+      ],
+      "t": "مستمر"
+    },
+    {
+      "text": "Elementary · Grades 1–5",
+      "of": "72ba36a9",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].label"
+      ],
+      "t": "الابتدائية · الصفوف 1–5"
+    },
+    {
+      "text": "Academic Referral · report cards",
+      "of": "607998a7",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].sublabel"
+      ],
+      "t": "Academic Referral · بطاقات الدرجات"
+    },
+    {
+      "text": "Elementary — Grades 1–5",
+      "of": "46af5fb2",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].title"
+      ],
+      "t": "الابتدائية — الصفوف 1–5"
+    },
+    {
+      "text": "The first two steps are short forms linked from the admissions page — an inquiry, then a request to visit the campus. Grades 1 through 5 are taught at the **Harris campus**, 7200 E. WT Harris Blvd.",
+      "of": "9e48cbc4",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].steps[0].detail"
+      ],
+      "t": "الخطوتان الأوليان استمارتان قصيرتان مرتبطتان من صفحة القبول — استفسار، ثم طلب زيارة الحرم المدرسي. وتُدرَّس الصفوف من 1 إلى 5 في **حرم Harris**، 7200 E. WT Harris Blvd."
+    },
+    {
+      "text": "Apply through the **FACTS portal**, and send your child's **birth certificate** and **Immunization Registry Record** with the application. On the fee: the school publishes **$250 for a window that ran to May 31, 2026** and **$500 from June 1, 2026 onward**, but that published window predates the November 2026 application dates — **confirm the current fee with the admissions office before paying**.",
+      "of": "4880974f",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].steps[1].detail"
+      ],
+      "t": "قدّم عبر **بوابة FACTS**، وأرسل **شهادة ميلاد** طفلك و**Immunization Registry Record** مع الطلب. وبشأن الرسوم: تنشر المدرسة **$250 لنافذة امتدت حتى May 31, 2026** و**$500 اعتبارًا من June 1, 2026**، غير أن تلك النافذة المنشورة تسبق مواعيد التقديم في نوفمبر 2026 — **تأكّد من الرسوم الحالية مع مكتب القبول قبل الدفع**."
+    },
+    {
+      "text": "Send the forms and records this band requires",
+      "of": "a07a2d41",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].steps[2].title"
+      ],
+      "t": "أرسل الاستمارات والسجلات التي يتطلبها هذا المستوى"
+    },
+    {
+      "text": "An elementary file needs more than the youngest band: an **Academic Referral form from your child's current teacher**; **report cards covering at least two years**; a **Personal Recommendation form from your family's pastor**, required at every grade TK–12; and, **for fourth and fifth graders only, a Student Questionnaire**. If your child has had **educational or diagnostic testing**, or has a current **IEP or 504 plan**, send those results too. Nothing is scheduled until all of it has arrived.",
+      "of": "0a0a777e",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].steps[2].detail"
+      ],
+      "t": "يحتاج ملف المرحلة الابتدائية إلى أكثر مما يحتاجه أصغر المستويات: **Academic Referral form من معلّم طفلك الحالي**؛ و**بطاقات درجات تغطي سنتين على الأقل**؛ و**Personal Recommendation form من راعي كنيسة عائلتك**، وهي مطلوبة في كل صف من صفوف TK–12؛ و**Student Questionnaire لطلاب الصفين الرابع والخامس فقط**. وإذا خضع طفلك لـ**اختبارات تربوية أو تشخيصية**، أو كان لديه **خطة IEP أو 504 سارية**، فأرسل تلك النتائج أيضًا. ولا يُحدَّد أي موعد قبل وصول ذلك كله."
+    },
+    {
+      "text": "Sit the entrance testing",
+      "of": "20ea4512",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].steps[3].title",
+        "hickory-grove-christian:guide.bands[1].checklistRows[8].action",
+        "hickory-grove-christian:guide.bands[2].steps[3].title",
+        "hickory-grove-christian:guide.bands[2].checklistRows[11].action"
+      ],
+      "t": "أدِّ اختبار القبول"
+    },
+    {
+      "text": "Testing is arranged through the **Student Services office**, and it is scheduled **only after the admissions office has received all of the required forms** — a single outstanding report card or recommendation holds up the whole timeline. The school does not publish which instrument it uses. **There is no shadow day at this band**; shadowing is required for high school applicants only.",
+      "of": "bfb0f385",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].steps[3].detail"
+      ],
+      "t": "يُرتَّب الاختبار عبر مكتب **Student Services**، ولا يُحدَّد موعده **إلا بعد استلام مكتب القبول جميع الاستمارات المطلوبة** — فبطاقة درجات واحدة أو توصية واحدة متأخرة تعطّل الجدول الزمني كله. ولا تنشر المدرسة الأداة التي تستخدمها. **ولا يوجد يوم مرافقة في هذا المستوى**؛ فالمرافقة مطلوبة من متقدّمي المرحلة الثانوية فقط."
+    },
+    {
+      "text": "Two years of report cards, and a referral from the teacher your child has now.",
+      "of": "8f0cc462",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistCallout.lead"
+      ],
+      "t": "سنتان من بطاقات الدرجات، وإحالة من المعلّم الذي يدرّس طفلك الآن."
+    },
+    {
+      "text": "An elementary file needs the Academic Referral form from your child's current teacher, report cards covering at least two years, the pastor's Personal Recommendation form, and — for fourth and fifth graders only — a Student Questionnaire. Testing is arranged through Student Services only after all of it has arrived, so start with the forms other people have to complete. Applications open November 2 for church members, Early Education Center students and current-student siblings, and November 16 for everyone else; after that admission is rolling, with no fixed notification date. Note that any suspensions, expulsions or failed courses on record are an automatic denial of admission.",
+      "of": "a4b5f901",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistCallout.text"
+      ],
+      "t": "يحتاج ملف المرحلة الابتدائية إلى Academic Referral form من معلّم طفلك الحالي، وبطاقات درجات تغطي سنتين على الأقل، وPersonal Recommendation form من الراعي، و— لطلاب الصفين الرابع والخامس فقط — Student Questionnaire. ويُرتَّب الاختبار عبر Student Services فقط بعد وصول ذلك كله، لذا ابدأ بالاستمارات التي يتعيّن على آخرين تعبئتها. ويُفتح باب التقديم في 2 نوفمبر لأعضاء الكنيسة وطلاب Early Education Center وإخوة الطلاب الحاليين، وفي 16 نوفمبر للجميع؛ وبعد ذلك يصبح القبول مستمرًا، دون موعد إشعار ثابت. ولاحظ أن أي إيقاف أو فصل أو رسوب في مقررات مسجّل في السجل يعني رفضًا تلقائيًا للقبول."
+    },
+    {
+      "text": "Both are short forms linked from the admissions page.",
+      "of": "b39af57a",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[0].detail",
+        "hickory-grove-christian:guide.bands[2].checklistRows[0].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[0].detail"
+      ],
+      "t": "كلتاهما استمارة قصيرة مرتبطة من صفحة القبول."
+    },
+    {
+      "text": "Apply in the FACTS portal and pay the application fee",
+      "of": "2f9b02da",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[1].action",
+        "hickory-grove-christian:guide.bands[2].checklistRows[1].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[1].action"
+      ],
+      "t": "قدّم الطلب في بوابة FACTS وادفع رسوم الطلب"
+    },
+    {
+      "text": "Confirm the current fee — $250/$500 are published for a window that has passed.",
+      "of": "3d61d2a5",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[1].detail",
+        "hickory-grove-christian:guide.bands[2].checklistRows[1].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[1].detail"
+      ],
+      "t": "تأكّد من الرسوم الحالية — فمبلغا $250/$500 منشوران لنافذة انقضت."
+    },
+    {
+      "text": "Ask your child's current teacher for the Academic Referral form",
+      "of": "c4333638",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[3].action"
+      ],
+      "t": "اطلب من معلّم طفلك الحالي تعبئة Academic Referral form"
+    },
+    {
+      "text": "Completed by the teacher your child has now.",
+      "of": "57b066e3",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[3].detail"
+      ],
+      "t": "يعبّئها المعلّم الذي يدرّس طفلك الآن."
+    },
+    {
+      "text": "Send report cards covering at least two years",
+      "of": "9bf51e5f",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[4].action"
+      ],
+      "t": "أرسل بطاقات درجات تغطي سنتين على الأقل"
+    },
+    {
+      "text": "Two full years is the published minimum.",
+      "of": "efc76a71",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[4].detail"
+      ],
+      "t": "سنتان كاملتان هما الحد الأدنى المنشور."
+    },
+    {
+      "text": "Fourth and fifth graders only — complete the Student Questionnaire",
+      "of": "75084c81",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[5].action"
+      ],
+      "t": "لطلاب الصفين الرابع والخامس فقط — عبّئ Student Questionnaire"
+    },
+    {
+      "text": "Not required below fourth grade.",
+      "of": "4a716a85",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[5].detail"
+      ],
+      "t": "غير مطلوبة لما دون الصف الرابع."
+    },
+    {
+      "text": "Send any educational or diagnostic testing, and a current IEP or 504",
+      "of": "897a3eb3",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[7].action"
+      ],
+      "t": "أرسل أي اختبارات تربوية أو تشخيصية، وخطة IEP أو 504 سارية"
+    },
+    {
+      "text": "Only if applicable — they are reviewed as part of the final decision.",
+      "of": "43b583e3",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[7].detail"
+      ],
+      "t": "فقط إن وُجدت — فهي تُراجَع ضمن القرار النهائي."
+    },
+    {
+      "text": "Arranged by Student Services only after every form has arrived. No shadow day at this band.",
+      "of": "22130b9e",
+      "at": [
+        "hickory-grove-christian:guide.bands[1].checklistRows[8].detail",
+        "hickory-grove-christian:guide.bands[2].checklistRows[11].detail"
+      ],
+      "t": "يرتّبه Student Services فقط بعد وصول كل استمارة. ولا يوجد يوم مرافقة في هذا المستوى."
+    },
+    {
+      "text": "Middle · Grades 6–8",
+      "of": "7dc2f276",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].label"
+      ],
+      "t": "المتوسطة · الصفوف 6–8"
+    },
+    {
+      "text": "Three teacher recommendations",
+      "of": "4becfc9d",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].sublabel"
+      ],
+      "t": "ثلاث توصيات من المعلمين"
+    },
+    {
+      "text": "The first two steps are short forms linked from the admissions page — an inquiry, then a request to visit the campus. Middle school is taught at the **Harris campus**, 7200 E. WT Harris Blvd.",
+      "of": "781ab056",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].steps[0].detail"
+      ],
+      "t": "الخطوتان الأوليان استمارتان قصيرتان مرتبطتان من صفحة القبول — استفسار، ثم طلب زيارة الحرم المدرسي. وتُدرَّس المرحلة المتوسطة في **حرم Harris**، 7200 E. WT Harris Blvd."
+    },
+    {
+      "text": "Apply through the **FACTS portal**, and send your child's **birth certificate** and **Immunization Registry record** with the application. On the fee: the school publishes **$250 for a window that ran to May 31, 2026** and **$500 from June 1, 2026 onward**, but that published window predates the November 2026 application dates — **confirm the current fee with the admissions office before paying**.",
+      "of": "f05c506f",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].steps[1].detail",
+        "hickory-grove-christian:guide.bands[3].steps[1].detail"
+      ],
+      "t": "قدّم عبر **بوابة FACTS**، وأرسل **شهادة ميلاد** طفلك و**Immunization Registry record** مع الطلب. وبشأن الرسوم: تنشر المدرسة **$250 لنافذة امتدت حتى May 31, 2026** و**$500 اعتبارًا من June 1, 2026**، غير أن تلك النافذة المنشورة تسبق مواعيد التقديم في نوفمبر 2026 — **تأكّد من الرسوم الحالية مع مكتب القبول قبل الدفع**."
+    },
+    {
+      "text": "Send four recommendations and the full record",
+      "of": "5a853f29",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].steps[2].title",
+        "hickory-grove-christian:guide.bands[3].steps[2].title"
+      ],
+      "t": "أرسل أربع توصيات والسجل الكامل"
+    },
+    {
+      "text": "This is the band where the paperwork jumps. **Four recommendation forms** are required — a **Math Teacher Recommendation**, an **English Teacher Recommendation**, a **Principal or Guidance Counselor Recommendation**, and the **Personal Recommendation form from your family's pastor** that every grade needs. Alongside them: **report cards from the most recent two years**, the **transcript**, **standardized testing results**, a **Student Questionnaire** completed by your child, and any **educational or diagnostic testing results or a current IEP, 504 or accommodations plan**. Three of the four recommendations depend on other people's time, so request them first.",
+      "of": "7b1e0181",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].steps[2].detail"
+      ],
+      "t": "هذا هو المستوى الذي تقفز فيه الأوراق المطلوبة. إذ تُطلب **أربع استمارات توصية** — **Math Teacher Recommendation** و**English Teacher Recommendation** و**Principal or Guidance Counselor Recommendation** و**Personal Recommendation form من راعي كنيسة عائلتك** المطلوبة في كل صف. وإلى جانبها: **بطاقات الدرجات لآخر سنتين**، و**كشف الدرجات**، و**نتائج الاختبارات المعيارية**، و**Student Questionnaire** يعبّئها طفلك، وأي **نتائج اختبارات تربوية أو تشخيصية أو خطة IEP أو 504 أو خطة تيسيرات سارية**. وثلاث من التوصيات الأربع تعتمد على وقت أشخاص آخرين، لذا اطلبها أولًا."
+    },
+    {
+      "text": "Testing is arranged through the **Student Services office**, and it is scheduled **only after the admissions office has received all of the required forms**. With four recommendations in the file, that condition is the one most likely to hold up a middle school application. **A shadow day is not required at this band** — that requirement applies to high school applicants only, even though grades 6 through 12 otherwise share the same form list.",
+      "of": "ba2d6a03",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].steps[3].detail"
+      ],
+      "t": "يُرتَّب الاختبار عبر مكتب **Student Services**، ولا يُحدَّد موعده **إلا بعد استلام مكتب القبول جميع الاستمارات المطلوبة**. ومع وجود أربع توصيات في الملف، يصبح هذا الشرط أكثر ما يُرجَّح أن يعطّل طلب المرحلة المتوسطة. **ولا يُطلب يوم مرافقة في هذا المستوى** — فذلك الشرط ينطبق على متقدّمي المرحلة الثانوية فقط، رغم أن الصفوف من 6 إلى 12 تتشارك قائمة الاستمارات نفسها فيما عدا ذلك."
+    },
+    {
+      "text": "Four recommendations — and no shadow day, unlike high school.",
+      "of": "59f54ed7",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistCallout.lead"
+      ],
+      "t": "أربع توصيات — ودون يوم مرافقة، بخلاف المرحلة الثانوية."
+    },
+    {
+      "text": "Grades 6 through 12 share one form list: math teacher, English teacher, principal or guidance counselor, and your family's pastor, plus the transcript, two years of report cards, standardized scores and a Student Questionnaire. What middle school does not have is the shadow day, which is required of high school applicants only. Testing is arranged through Student Services only after every one of those forms has arrived, so request the three school recommendations first. Applications open November 2 for church members, Early Education Center students and current-student siblings, and November 16 for everyone else; after that admission is rolling and capacity-dependent, with no fixed notification date. Note that any suspensions, expulsions or failed courses on record are an automatic denial of admission.",
+      "of": "22d6f213",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistCallout.text"
+      ],
+      "t": "تتشارك الصفوف من 6 إلى 12 قائمة استمارات واحدة: معلّم الرياضيات، ومعلّم اللغة الإنجليزية، ومدير المدرسة أو المرشد الطلابي، وراعي كنيسة عائلتك، إضافة إلى كشف الدرجات وبطاقات درجات سنتين والدرجات المعيارية وStudent Questionnaire. وما تفتقر إليه المرحلة المتوسطة هو يوم المرافقة، المطلوب من متقدّمي المرحلة الثانوية فقط. ويُرتَّب الاختبار عبر Student Services فقط بعد وصول كل واحدة من تلك الاستمارات، لذا اطلب التوصيات المدرسية الثلاث أولًا. ويُفتح باب التقديم في 2 نوفمبر لأعضاء الكنيسة وطلاب Early Education Center وإخوة الطلاب الحاليين، وفي 16 نوفمبر للجميع؛ وبعد ذلك يصبح القبول مستمرًا ومرهونًا بالسعة، دون موعد إشعار ثابت. ولاحظ أن أي إيقاف أو فصل أو رسوب في مقررات مسجّل في السجل يعني رفضًا تلقائيًا للقبول."
+    },
+    {
+      "text": "Send the birth certificate and Immunization Registry record",
+      "of": "059a3413",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[2].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[2].action"
+      ],
+      "t": "أرسل شهادة الميلاد وImmunization Registry record"
+    },
+    {
+      "text": "Request the Math Teacher Recommendation form",
+      "of": "5aab4e8c",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[3].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[3].action"
+      ],
+      "t": "اطلب استمارة Math Teacher Recommendation"
+    },
+    {
+      "text": "One of three school recommendations — request early.",
+      "of": "edbe12bc",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[3].detail",
+        "hickory-grove-christian:guide.bands[2].checklistRows[4].detail",
+        "hickory-grove-christian:guide.bands[2].checklistRows[5].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[3].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[4].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[5].detail"
+      ],
+      "t": "إحدى التوصيات المدرسية الثلاث — اطلبها مبكرًا."
+    },
+    {
+      "text": "Request the English Teacher Recommendation form",
+      "of": "dd1d22c0",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[4].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[4].action"
+      ],
+      "t": "اطلب استمارة English Teacher Recommendation"
+    },
+    {
+      "text": "Request the Principal or Guidance Counselor Recommendation form",
+      "of": "eb8ef6a7",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[5].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[5].action"
+      ],
+      "t": "اطلب استمارة Principal or Guidance Counselor Recommendation"
+    },
+    {
+      "text": "Send the transcript and the most recent two years of report cards",
+      "of": "f533f124",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[7].action"
+      ],
+      "t": "أرسل كشف الدرجات وبطاقات الدرجات لآخر سنتين"
+    },
+    {
+      "text": "Both are required from grade 6 upward.",
+      "of": "177a8bf1",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[7].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[7].detail"
+      ],
+      "t": "كلاهما مطلوب من الصف 6 فما فوق."
+    },
+    {
+      "text": "Send standardized testing results",
+      "of": "c27b10e4",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[8].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[8].action"
+      ],
+      "t": "أرسل نتائج الاختبارات المعيارية"
+    },
+    {
+      "text": "Required from grade 6 upward.",
+      "of": "dd07176a",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[8].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[8].detail"
+      ],
+      "t": "مطلوبة من الصف 6 فما فوق."
+    },
+    {
+      "text": "Have your child complete the Student Questionnaire",
+      "of": "81b7997a",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[9].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[9].action"
+      ],
+      "t": "اطلب من طفلك تعبئة Student Questionnaire"
+    },
+    {
+      "text": "Required at every grade from 6 through 12.",
+      "of": "084db8cf",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[9].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[9].detail"
+      ],
+      "t": "مطلوبة في كل صف من 6 حتى 12."
+    },
+    {
+      "text": "Send any diagnostic testing, IEP, 504 or accommodations plan",
+      "of": "6a09af62",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[10].action",
+        "hickory-grove-christian:guide.bands[3].checklistRows[10].action"
+      ],
+      "t": "أرسل أي اختبارات تشخيصية أو خطة IEP أو 504 أو خطة تيسيرات"
+    },
+    {
+      "text": "Only if applicable — reviewed as part of the final decision.",
+      "of": "4f218f25",
+      "at": [
+        "hickory-grove-christian:guide.bands[2].checklistRows[10].detail",
+        "hickory-grove-christian:guide.bands[3].checklistRows[10].detail"
+      ],
+      "t": "فقط إن وُجدت — وتُراجَع ضمن القرار النهائي."
+    },
+    {
+      "text": "High · Grades 9–12",
+      "of": "8a27ca4f",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].label"
+      ],
+      "t": "الثانوية · الصفوف 9–12"
+    },
+    {
+      "text": "Shadow day + placement test",
+      "of": "8d4aa467",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].sublabel"
+      ],
+      "t": "يوم مرافقة + اختبار تحديد المستوى"
+    },
+    {
+      "text": "High School — Grades 9–12",
+      "of": "aaf17dfc",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].title"
+      ],
+      "t": "المرحلة الثانوية — الصفوف 9–12"
+    },
+    {
+      "text": "The first two steps are short forms linked from the admissions page — an inquiry, then a request to visit the campus. High school is taught at the **Harris campus**, 7200 E. WT Harris Blvd.",
+      "of": "ebd8fbdd",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].steps[0].detail"
+      ],
+      "t": "الخطوتان الأوليان استمارتان قصيرتان مرتبطتان من صفحة القبول — استفسار، ثم طلب زيارة الحرم المدرسي. وتُدرَّس المرحلة الثانوية في **حرم Harris**، 7200 E. WT Harris Blvd."
+    },
+    {
+      "text": "High school shares its form list with middle school. **Four recommendation forms** are required — a **Math Teacher Recommendation**, an **English Teacher Recommendation**, a **Principal or Guidance Counselor Recommendation**, and the **Personal Recommendation form from your family's pastor** that every grade needs. Alongside them: the **high school transcript**, **report cards from the most recent two years**, **standardized testing results**, a **Student Questionnaire** completed by your child, and any **educational or diagnostic testing results or a current IEP, 504 or accommodations plan**. Request the three school recommendations first — they depend on other people's time.",
+      "of": "f3889155",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].steps[2].detail"
+      ],
+      "t": "تتشارك المرحلة الثانوية قائمة استماراتها مع المرحلة المتوسطة. إذ تُطلب **أربع استمارات توصية** — **Math Teacher Recommendation** و**English Teacher Recommendation** و**Principal or Guidance Counselor Recommendation** و**Personal Recommendation form من راعي كنيسة عائلتك** المطلوبة في كل صف. وإلى جانبها: **كشف درجات المرحلة الثانوية**، و**بطاقات الدرجات لآخر سنتين**، و**نتائج الاختبارات المعيارية**، و**Student Questionnaire** يعبّئها طفلك، وأي **نتائج اختبارات تربوية أو تشخيصية أو خطة IEP أو 504 أو خطة تيسيرات سارية**. واطلب التوصيات المدرسية الثلاث أولًا — فهي تعتمد على وقت أشخاص آخرين."
+    },
+    {
+      "text": "Shadow a Hickory Grove student",
+      "of": "1bdf7b4d",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].steps[3].title"
+      ],
+      "t": "رافِق طالبًا في Hickory Grove"
+    },
+    {
+      "text": "high school only",
+      "of": "54ed4603",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].steps[3].tag"
+      ],
+      "t": "المرحلة الثانوية فقط"
+    },
+    {
+      "text": "**This step exists only at this band.** High school applicants are **required** to shadow a current Hickory Grove student for a day, arranged by completing a shadow request form. Grades 6 through 8 have no equivalent requirement even though their paperwork is identical, so it is the clearest difference between applying to middle school and applying to high school here.",
+      "of": "07105718",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].steps[3].detail"
+      ],
+      "t": "**هذه الخطوة موجودة في هذا المستوى وحده.** فمتقدّمو المرحلة الثانوية **مُلزَمون** بمرافقة طالب حالي في Hickory Grove ليوم كامل، ويُرتَّب ذلك بتعبئة shadow request form. ولا يوجد شرط مماثل للصفوف من 6 إلى 8 رغم تطابق أوراقها، فهو أوضح فارق بين التقديم للمرحلة المتوسطة والتقديم للمرحلة الثانوية هنا."
+    },
+    {
+      "text": "Sit the entrance testing, including the placement test",
+      "of": "ba8246a3",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].steps[4].title"
+      ],
+      "t": "أدِّ اختبار القبول، بما فيه اختبار تحديد المستوى"
+    },
+    {
+      "text": "Testing is arranged through the **Student Services office**, and it is scheduled **only after the admissions office has received all of the required forms**. High school applicants also sit a **mandatory entrance test used to determine grade placement** — a step the school publishes for grades 9 through 12 only. The specific instruments are not published.",
+      "of": "b6003290",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].steps[4].detail"
+      ],
+      "t": "يُرتَّب الاختبار عبر مكتب **Student Services**، ولا يُحدَّد موعده **إلا بعد استلام مكتب القبول جميع الاستمارات المطلوبة**. ويؤدي متقدّمو المرحلة الثانوية أيضًا **اختبار قبول إلزاميًا يُستخدم لتحديد الصف الدراسي** — وهي خطوة تنشرها المدرسة للصفوف من 9 إلى 12 فقط. أما الأدوات المحدَّدة فغير منشورة."
+    },
+    {
+      "text": "The final decision is **communicated in writing**, and it weighs satisfactory grades, the letters of recommendation, the interview, behavior reports, entrance testing and any IEP, 504 or psychoeducational evaluation on file. **Any suspensions, expulsions or failed courses on record are an automatic denial of admission** — a rule that matters most at this band, because a high school transcript carries the longest record. **No fixed notification date is published** — admission is rolling and depends on space in the grade. On acceptance a **nonrefundable $500 deposit** is due, and it applies toward tuition.",
+      "of": "383188d7",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].steps[6].detail"
+      ],
+      "t": "يُبلَّغ القرار النهائي **كتابةً**، ويراعي الدرجات المُرضية وخطابات التوصية والمقابلة وتقارير السلوك واختبار القبول وأي IEP أو 504 أو تقييم نفسي تربوي في الملف. **وأي إيقاف أو فصل أو رسوب في مقررات مسجّل في السجل يعني رفضًا تلقائيًا للقبول** — وهي قاعدة تزداد أهميتها في هذا المستوى، لأن كشف درجات المرحلة الثانوية يحمل أطول سجل. **ولا يُنشر موعد إشعار ثابت** — فالقبول مستمر ويتوقف على توفر المقاعد في الصف. وعند القبول تُستحق **دفعة $500 غير قابلة للاسترداد**، وتُخصم من الرسوم الدراسية."
+    },
+    {
+      "text": "Two steps that exist only here — the shadow day and a placement test.",
+      "of": "a28b1f98",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].checklistCallout.lead"
+      ],
+      "t": "خطوتان لا توجدان إلا هنا — يوم المرافقة واختبار تحديد المستوى."
+    },
+    {
+      "text": "High school applicants are required to shadow a current Hickory Grove student for a day, and to sit a mandatory entrance test that determines grade placement. Neither applies to grades 6 through 8, even though the four recommendation forms and the records list are identical. Testing is arranged through Student Services only after every form has arrived. Applications open November 2 for church members, Early Education Center students and current-student siblings, and November 16 for everyone else; after that admission is rolling and capacity-dependent, with no fixed notification date. Note that any suspensions, expulsions or failed courses on record are an automatic denial of admission — the rule bites hardest here, because a high school transcript carries the longest record.",
+      "of": "dddeb142",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].checklistCallout.text"
+      ],
+      "t": "متقدّمو المرحلة الثانوية مُلزَمون بمرافقة طالب حالي في Hickory Grove ليوم كامل، وبأداء اختبار قبول إلزامي يحدّد الصف الدراسي. ولا ينطبق أي منهما على الصفوف من 6 إلى 8، رغم تطابق استمارات التوصية الأربع وقائمة السجلات. ويُرتَّب الاختبار عبر Student Services فقط بعد وصول كل استمارة. ويُفتح باب التقديم في 2 نوفمبر لأعضاء الكنيسة وطلاب Early Education Center وإخوة الطلاب الحاليين، وفي 16 نوفمبر للجميع؛ وبعد ذلك يصبح القبول مستمرًا ومرهونًا بالسعة، دون موعد إشعار ثابت. ولاحظ أن أي إيقاف أو فصل أو رسوب في مقررات مسجّل في السجل يعني رفضًا تلقائيًا للقبول — وهذه القاعدة أشدّ وقعًا هنا، لأن كشف درجات المرحلة الثانوية يحمل أطول سجل."
+    },
+    {
+      "text": "Send the high school transcript and two years of report cards",
+      "of": "2d5c2c89",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].checklistRows[7].action"
+      ],
+      "t": "أرسل كشف درجات المرحلة الثانوية وبطاقات درجات سنتين"
+    },
+    {
+      "text": "Complete the shadow request form and shadow a student",
+      "of": "e13b876b",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].checklistRows[11].action"
+      ],
+      "t": "عبّئ shadow request form ورافِق طالبًا"
+    },
+    {
+      "text": "Required of high school applicants only. Not asked of grades 6 through 8.",
+      "of": "230527cd",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].checklistRows[11].detail"
+      ],
+      "t": "مطلوبة من متقدّمي المرحلة الثانوية فقط. ولا تُطلب من الصفوف 6 إلى 8."
+    },
+    {
+      "text": "High school only",
+      "of": "324c1f23",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].checklistRows[11].due"
+      ],
+      "t": "المرحلة الثانوية فقط"
+    },
+    {
+      "text": "Sit the entrance testing and the grade placement test",
+      "of": "d2dacae0",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].checklistRows[12].action"
+      ],
+      "t": "أدِّ اختبار القبول واختبار تحديد الصف"
+    },
+    {
+      "text": "Arranged by Student Services after every form has arrived. The placement test is published for 9–12 only.",
+      "of": "fc7920cb",
+      "at": [
+        "hickory-grove-christian:guide.bands[3].checklistRows[12].detail"
+      ],
+      "t": "يرتّبه Student Services بعد وصول كل استمارة. واختبار تحديد المستوى منشور للصفوف 9–12 فقط."
+    },
+    {
+      "text": "International (F-1)",
+      "of": "7bda6384",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].label"
+      ],
+      "t": "الطلاب الدوليون (F-1)"
+    },
+    {
+      "text": "Separate process · I-20 issued by HGCS",
+      "of": "4ebc84d5",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].sublabel"
+      ],
+      "t": "مسار منفصل · تصدر HGCS نموذج I-20"
+    },
+    {
+      "text": "International Students — F-1 Visa",
+      "of": "e09bf602",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].title"
+      ],
+      "t": "الطلاب الدوليون — تأشيرة F-1"
+    },
+    {
+      "text": "English proficiency — or SLEP 50+",
+      "of": "a5447051",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].deadlines[0].label"
+      ],
+      "t": "إتقان اللغة الإنجليزية — أو SLEP 50+"
+    },
+    {
+      "text": "full payment required to enroll",
+      "of": "4440c6e0",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].deadlines[1].label"
+      ],
+      "t": "السداد الكامل مطلوب للتسجيل"
+    },
+    {
+      "text": "Interview with a school official — by video, not in person",
+      "of": "acb6008d",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[0].title"
+      ],
+      "t": "مقابلة مع مسؤول في المدرسة — عبر الفيديو، لا حضوريًا"
+    },
+    {
+      "text": "first step",
+      "of": "e849e211",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[0].tag"
+      ],
+      "t": "الخطوة الأولى"
+    },
+    {
+      "text": "The international process **begins** with an interview rather than ending with one, and it is held over **Skype, WeChat or WhatsApp** with a school official. This **replaces the campus visit** that opens every domestic band — a family applying from abroad is not expected to travel first. Hickory Grove has run its international program since **2013** and is **SEVIS-certified**, so it issues its own I-20 rather than routing families through a third party.",
+      "of": "aeb9cb2e",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[0].detail"
+      ],
+      "t": "يبدأ المسار الدولي **بمقابلة** بدل أن ينتهي بها، وتُجرى عبر **Skype أو WeChat أو WhatsApp** مع مسؤول في المدرسة. وهي **تحلّ محل زيارة الحرم المدرسي** التي تفتتح كل مستوى محلي — فالعائلة المتقدّمة من الخارج ليست مطالَبة بالسفر أولًا. وتدير Hickory Grove برنامجها الدولي منذ **2013** وهي **معتمدة في SEVIS**، لذا تصدر نموذج I-20 بنفسها بدل توجيه العائلات عبر جهة ثالثة."
+    },
+    {
+      "text": "Complete the online admission application",
+      "of": "1844e5ab",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[1].title",
+        "hickory-grove-christian:guide.bands[4].checklistRows[1].action"
+      ],
+      "t": "عبّئ طلب القبول الإلكتروني"
+    },
+    {
+      "text": "after the interview",
+      "of": "8a871a21",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[1].tag"
+      ],
+      "t": "بعد المقابلة"
+    },
+    {
+      "text": "The same online admission application as domestic applicants, submitted to the **International Admissions Office**. The **international application fee amount is not published** — confirm it with the international office. Note that it is paid **after** an acceptance decision rather than with the application (see the acceptance step).",
+      "of": "2a722558",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[1].detail"
+      ],
+      "t": "هو طلب القبول الإلكتروني نفسه الذي يقدّمه المتقدّمون المحليون، ويُرسل إلى **International Admissions Office**. أما **مبلغ رسوم الطلب الدولي فغير منشور** — تأكّد منه مع المكتب الدولي. ولاحظ أنه يُدفع **بعد** قرار القبول لا مع الطلب (راجع خطوة القبول)."
+    },
+    {
+      "text": "Meet the English-proficiency thresholds",
+      "of": "97501803",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[2].title"
+      ],
+      "t": "استيفاء عتبات إتقان اللغة الإنجليزية"
+    },
+    {
+      "text": "with the application",
+      "of": "76771438",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[2].tag",
+        "hickory-grove-christian:guide.bands[4].steps[3].tag"
+      ],
+      "t": "مع الطلب"
+    },
+    {
+      "text": "The published thresholds are **TOEFL Jr. 750 or above** and **SLEP 50 or above**, and the score sheet is submitted with the application. The school states it is **willing to discuss other testing options**, so a student holding a different recognized English assessment should ask rather than assume it will not be accepted.",
+      "of": "2b713050",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[2].detail"
+      ],
+      "t": "العتبات المنشورة هي **TOEFL Jr. 750 أو أعلى** و**SLEP 50 أو أعلى**، وتُقدَّم ورقة الدرجات مع الطلب. وتذكر المدرسة أنها **مستعدة لمناقشة خيارات اختبار أخرى**، لذا على الطالب الحاصل على اختبار إنجليزية معترف به مختلف أن يسأل بدل أن يفترض عدم قبوله."
+    },
+    {
+      "text": "Send transcripts translated into English",
+      "of": "e5f9426c",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[3].title"
+      ],
+      "t": "أرسل كشوف الدرجات مترجمة إلى الإنجليزية"
+    },
+    {
+      "text": "**Middle and high school transcripts must be translated into English**, and the school directs families to **International Education Evaluations (IEE)** — myiee.org, info@foreigntranscripts.com — for the evaluation. Prior **academic and behavioral performance** and standardized test scores are then reviewed together, so the translated record is what the decision is made on.",
+      "of": "8562191a",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[3].detail"
+      ],
+      "t": "**يجب ترجمة كشوف درجات المرحلتين المتوسطة والثانوية إلى الإنجليزية**، وتوجّه المدرسة العائلات إلى **International Education Evaluations (IEE)** — myiee.org، info@foreigntranscripts.com — لإجراء التقييم. ثم يُراجَع **الأداء الأكاديمي والسلوكي** السابق ودرجات الاختبارات المعيارية معًا، فالسجل المترجَم هو ما يُبنى عليه القرار."
+    },
+    {
+      "text": "Acceptance, the application fee, then the I-20",
+      "of": "76070f89",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[4].title"
+      ],
+      "t": "القبول، ثم رسوم الطلب، ثم نموذج I-20"
+    },
+    {
+      "text": "on acceptance",
+      "of": "7ca12683",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[4].tag"
+      ],
+      "t": "عند القبول"
+    },
+    {
+      "text": "An accepted student is **notified by email**. The **non-refundable application fee** is paid at that point, and a school official then **mails the I-20**. With the I-20 in hand, the student **arranges an interview with the U.S. Embassy in their own country to obtain the F-1 visa** — that appointment is the family's to book, and embassy waiting times are outside the school's control, so start it as soon as the I-20 arrives.",
+      "of": "d21aa6d6",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[4].detail"
+      ],
+      "t": "يُبلَّغ الطالب المقبول **عبر البريد الإلكتروني**. وتُدفع **رسوم الطلب غير القابلة للاسترداد** عند تلك المرحلة، ثم **يرسل مسؤول في المدرسة نموذج I-20 بالبريد**. وبعد استلام I-20، **يحدّد الطالب موعد مقابلة مع السفارة الأمريكية في بلده للحصول على تأشيرة F-1** — وحجز ذلك الموعد مسؤولية العائلة، ومدد انتظار السفارات خارج سيطرة المدرسة، لذا ابدأ فور وصول I-20."
+    },
+    {
+      "text": "Arrange homestay, health insurance and immunizations",
+      "of": "5b7a3163",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[5].title"
+      ],
+      "t": "رتّب الإقامة لدى أسرة مضيفة والتأمين الصحي والتطعيمات"
+    },
+    {
+      "text": "before arrival",
+      "of": "74a844c7",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[5].tag"
+      ],
+      "t": "قبل الوصول"
+    },
+    {
+      "text": "Where homestay is required, the **HGCS Student Coordinator** contacts the student or agent with the arrangements; the school has placed students with host families since **2013** and handles the arrangement internally. **Host-family vetting and background-check specifics are not published** — ask the coordinator directly. Health insurance runs through **American Benefit Services (Short Term Medical)**, on **843-214-2447** or wesley.abs@gmail.com, and the school also requires an **international-student immunizations form** and a **current physical**.",
+      "of": "5baf07d1",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[5].detail"
+      ],
+      "t": "حيث تكون الإقامة لدى أسرة مضيفة مطلوبة، يتواصل **منسّق شؤون الطلاب في HGCS** مع الطالب أو الوكيل لترتيبها؛ وقد أسكنت المدرسة طلابًا لدى أسر مضيفة منذ **2013** وتتولى الترتيب داخليًا. أما **تفاصيل فحص الأسر المضيفة والتحقق من خلفياتها فغير منشورة** — اسأل المنسّق مباشرة. ويُوفَّر التأمين الصحي عبر **American Benefit Services (Short Term Medical)**، على الرقم **843-214-2447** أو wesley.abs@gmail.com، كما تشترط المدرسة **استمارة تطعيمات للطلاب الدوليين** و**فحصًا طبيًا حديثًا**."
+    },
+    {
+      "text": "Pay in full before the first day",
+      "of": "5b35505b",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[6].title"
+      ],
+      "t": "ادفع المبلغ كاملًا قبل اليوم الأول"
+    },
+    {
+      "text": "before day one",
+      "of": "81a46c8c",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[6].tag"
+      ],
+      "t": "قبل اليوم الأول"
+    },
+    {
+      "text": "**Full payment must be received before the first day of school**, and a student cannot be enrolled until it is — an unpaid balance puts the application on **financial hold**. This is the sharpest difference from the domestic bands, which take a $500 deposit at acceptance and bill the balance over the year. The **international tuition figure is not published**; nor is whether financial aid reaches international students. **Withdrawing early costs $500 plus 50% of the international tuition.**",
+      "of": "6a9348ce",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[6].detail"
+      ],
+      "t": "**يجب استلام السداد الكامل قبل اليوم الأول من الدراسة**، ولا يمكن تسجيل الطالب قبل ذلك — فالرصيد غير المسدَّد يضع الطلب قيد **التعليق المالي**. وهذا أحدّ فارق عن المستويات المحلية، التي تأخذ دفعة $500 عند القبول وتوزّع الرصيد على مدار العام. أما **رقم الرسوم الدراسية للطلاب الدوليين فغير منشور**؛ وكذلك ما إذا كانت المساعدات المالية تشمل الطلاب الدوليين. **والانسحاب المبكر يكلّف $500 إضافة إلى 50% من الرسوم الدراسية الدولية.**"
+    },
+    {
+      "text": "What the program includes once you arrive",
+      "of": "c9c17920",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[7].title"
+      ],
+      "t": "ما يشمله البرنامج بعد وصولك"
+    },
+    {
+      "text": "through the year",
+      "of": "1a4fb75a",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[7].tag"
+      ],
+      "t": "على مدار العام"
+    },
+    {
+      "text": "The program covers an **orientation before school starts**, **weekly meetings with the International Student Director**, regular reports back to families and agencies, **airport transportation**, **I-20 maintenance**, lunch, athletic and technology fees, and field trips. One thing to plan for: **re-enrollment is not automatic** — it is applied for each year rather than carried forward.",
+      "of": "504cbdc2",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].steps[7].detail"
+      ],
+      "t": "يغطي البرنامج **توجيهًا تمهيديًا قبل بدء الدراسة**، و**لقاءات أسبوعية مع مدير شؤون الطلاب الدوليين**، وتقارير منتظمة إلى العائلات والوكالات، و**التنقل من المطار وإليه**، و**متابعة نموذج I-20**، والغداء، ورسوم الأنشطة الرياضية والتقنية، والرحلات الميدانية. وثمة أمر ينبغي الاستعداد له: **إعادة التسجيل ليست تلقائية** — إذ يُتقدَّم بها كل عام بدل أن تُرحَّل."
+    },
+    {
+      "text": "A different process, not the domestic one with extra paperwork.",
+      "of": "d1c87cc3",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistCallout.lead"
+      ],
+      "t": "مسار مختلف، لا المسار المحلي مع أوراق إضافية."
+    },
+    {
+      "text": "It opens with a video interview instead of a campus visit, runs on English-proficiency thresholds and transcripts translated through a named evaluator, and ends with an I-20 that Hickory Grove issues itself and an embassy appointment you book. The financial shape differs too: full payment is required before the first day of school, not a deposit and a billing plan. No separate international deadline is published, and neither is the international application fee or tuition — Sheila M. Chaney directs both admissions and the international program and is the person to ask.",
+      "of": "c3dc7ad0",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistCallout.text"
+      ],
+      "t": "يبدأ بمقابلة عبر الفيديو بدل زيارة الحرم المدرسي، ويقوم على عتبات إتقان الإنجليزية وكشوف درجات مترجمة عبر جهة تقييم محدّدة بالاسم، وينتهي بنموذج I-20 تصدره Hickory Grove بنفسها وبموعد سفارة تحجزه أنت. والشكل المالي مختلف كذلك: يُطلب السداد الكامل قبل اليوم الأول من الدراسة، لا دفعة وخطة سداد. ولا يُنشر موعد نهائي دولي منفصل، ولا رسوم الطلب الدولي ولا الرسوم الدراسية — وSheila M. Chaney هي مديرة القبول والبرنامج الدولي وهي الشخص الذي تسأله."
+    },
+    {
+      "text": "Arrange the Skype, WeChat or WhatsApp interview with a school official",
+      "of": "3ce91614",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[0].action"
+      ],
+      "t": "رتّب مقابلة Skype أو WeChat أو WhatsApp مع مسؤول في المدرسة"
+    },
+    {
+      "text": "The first step, and it replaces the campus visit the domestic bands begin with.",
+      "of": "1f5858bc",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[0].detail"
+      ],
+      "t": "الخطوة الأولى، وهي تحلّ محل زيارة الحرم التي تبدأ بها المستويات المحلية."
+    },
+    {
+      "text": "First step",
+      "of": "d2c74831",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[0].due"
+      ],
+      "t": "الخطوة الأولى"
+    },
+    {
+      "text": "Submitted to the International Admissions Office. The fee amount is not published.",
+      "of": "7c746076",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[1].detail"
+      ],
+      "t": "يُرسل إلى International Admissions Office. ومبلغ الرسوم غير منشور."
+    },
+    {
+      "text": "After the interview",
+      "of": "acc682c1",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[1].due"
+      ],
+      "t": "بعد المقابلة"
+    },
+    {
+      "text": "Sit TOEFL Jr. or SLEP and send the score sheet",
+      "of": "5aedcfc9",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[2].action"
+      ],
+      "t": "أدِّ اختبار TOEFL Jr. أو SLEP وأرسل ورقة الدرجات"
+    },
+    {
+      "text": "TOEFL Jr. 750+ or SLEP 50+. The school will discuss other testing options.",
+      "of": "909a3ce8",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[2].detail"
+      ],
+      "t": "TOEFL Jr. 750+ أو SLEP 50+. والمدرسة مستعدة لمناقشة خيارات اختبار أخرى."
+    },
+    {
+      "text": "Have middle and high school transcripts translated into English",
+      "of": "cc38d35a",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[3].action"
+      ],
+      "t": "ترجم كشوف درجات المرحلتين المتوسطة والثانوية إلى الإنجليزية"
+    },
+    {
+      "text": "Through International Education Evaluations (IEE) — myiee.org.",
+      "of": "81728386",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[3].detail"
+      ],
+      "t": "عبر International Education Evaluations (IEE) — myiee.org."
+    },
+    {
+      "text": "Watch for the acceptance email, then pay the non-refundable application fee",
+      "of": "3dc7c8d1",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[4].action"
+      ],
+      "t": "انتظر بريد القبول، ثم ادفع رسوم الطلب غير القابلة للاسترداد"
+    },
+    {
+      "text": "Paid after the decision, not with the application.",
+      "of": "77a93204",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[4].detail"
+      ],
+      "t": "تُدفع بعد القرار، لا مع الطلب."
+    },
+    {
+      "text": "On acceptance",
+      "of": "1079b123",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[4].due",
+        "hickory-grove-christian:guide.bands[4].checklistRows[5].due"
+      ],
+      "t": "عند القبول"
+    },
+    {
+      "text": "Receive the I-20 and book the U.S. Embassy interview",
+      "of": "da5470a1",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[5].action"
+      ],
+      "t": "استلم نموذج I-20 واحجز مقابلة السفارة الأمريكية"
+    },
+    {
+      "text": "HGCS mails the I-20; the embassy appointment for the F-1 visa is yours to arrange.",
+      "of": "1ba60e68",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[5].detail"
+      ],
+      "t": "ترسل HGCS نموذج I-20 بالبريد؛ أما موعد السفارة لتأشيرة F-1 فأنت من يرتّبه."
+    },
+    {
+      "text": "Arrange homestay with the HGCS Student Coordinator",
+      "of": "f2829f18",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[6].action"
+      ],
+      "t": "رتّب الإقامة لدى أسرة مضيفة مع منسّق شؤون الطلاب في HGCS"
+    },
+    {
+      "text": "The coordinator makes contact where homestay is required. Vetting specifics are not published.",
+      "of": "f078d2bc",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[6].detail"
+      ],
+      "t": "يتواصل المنسّق حيث تكون الإقامة لدى أسرة مضيفة مطلوبة. وتفاصيل الفحص غير منشورة."
+    },
+    {
+      "text": "Before arrival",
+      "of": "258f0e67",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[6].due",
+        "hickory-grove-christian:guide.bands[4].checklistRows[7].due"
+      ],
+      "t": "قبل الوصول"
+    },
+    {
+      "text": "Arrange health insurance and send the immunizations form and physical",
+      "of": "3026adac",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[7].action"
+      ],
+      "t": "رتّب التأمين الصحي وأرسل استمارة التطعيمات والفحص الطبي"
+    },
+    {
+      "text": "American Benefit Services (Short Term Medical) — 843-214-2447.",
+      "of": "ee64305b",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[7].detail"
+      ],
+      "t": "American Benefit Services (Short Term Medical) — 843-214-2447."
+    },
+    {
+      "text": "Pay the $500 enrollment deposit, then the balance in full",
+      "of": "eb37b221",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[8].action"
+      ],
+      "t": "ادفع دفعة التسجيل $500، ثم الرصيد كاملًا"
+    },
+    {
+      "text": "Full payment before the first day of school, or the application goes on financial hold.",
+      "of": "89d1db30",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[8].detail"
+      ],
+      "t": "السداد الكامل قبل اليوم الأول من الدراسة، وإلا وُضع الطلب قيد التعليق المالي."
+    },
+    {
+      "text": "Before day one",
+      "of": "7263a6ac",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[8].due"
+      ],
+      "t": "قبل اليوم الأول"
+    },
+    {
+      "text": "Plan to re-apply each year",
+      "of": "db80ae97",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[9].action"
+      ],
+      "t": "استعد لإعادة التقديم كل عام"
+    },
+    {
+      "text": "Re-enrollment is not automatic. Early withdrawal costs $500 plus 50% of international tuition.",
+      "of": "3c6afd19",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[9].detail"
+      ],
+      "t": "إعادة التسجيل ليست تلقائية. والانسحاب المبكر يكلّف $500 إضافة إلى 50% من الرسوم الدراسية الدولية."
+    },
+    {
+      "text": "Each year",
+      "of": "2191d0b1",
+      "at": [
+        "hickory-grove-christian:guide.bands[4].checklistRows[9].due"
+      ],
+      "t": "كل عام"
+    },
+    {
+      "text": "Aid runs through **FACTS Grant & Aid Assessment**, and **FACTS charges $40** to process the application. Two things about the order of operations: **new families must be accepted for enrollment before they can apply for aid**, so the aid application follows the decision here rather than running alongside it; and families should **first apply for, accept or renew the NC Opportunity Scholarship** through the state education assistance authority, then apply to Hickory Grove for aid if that does not meet the need — awarded \"until all available funds have been allocated\". **ESA+** is available for children with disabilities attending an eligible non-public school. The **2026–27** state window ran **February 2 to March 2, 2026** with renewals due **April 15, 2026**.",
+      "of": "250e2905",
+      "at": [
+        "hickory-grove-christian:guide.aid.text"
+      ],
+      "t": "تُدار المساعدات عبر **FACTS Grant & Aid Assessment**، وتتقاضى **FACTS مبلغ $40** لمعالجة الطلب. وثمة أمران يتعلقان بترتيب الخطوات: **يجب قبول العائلات الجديدة للتسجيل قبل أن تتمكن من طلب المساعدة**، فطلب المساعدة هنا يأتي بعد القرار لا بالتوازي معه؛ وعلى العائلات **أولًا التقدّم لـ NC Opportunity Scholarship أو قبولها أو تجديدها** عبر هيئة المساعدة التعليمية بالولاية، ثم التقدّم إلى Hickory Grove لطلب المساعدة إن لم تفِ تلك المنحة بالحاجة — وهي تُمنح «حتى تُخصَّص كل الأموال المتاحة». وتتوفر **ESA+** للأطفال ذوي الإعاقة الملتحقين بمدرسة غير حكومية مؤهّلة. وقد امتدت نافذة الولاية لعام **2026–27** من **February 2 to March 2, 2026** مع استحقاق التجديدات في **April 15, 2026**."
+    },
+    {
+      "text": "Application window",
+      "of": "4a9dc6ff",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[0].label"
+      ],
+      "t": "نافذة التقديم"
+    },
+    {
+      "text": "Nov 2, 2026 priority · Nov 16, 2026 public",
+      "of": "a7321ccc",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[0].cells.tkk5",
+        "hickory-grove-christian:guide.comparison.rows[0].cells.es",
+        "hickory-grove-christian:guide.comparison.rows[0].cells.ms",
+        "hickory-grove-christian:guide.comparison.rows[0].cells.hs"
+      ],
+      "t": "Nov 2, 2026 للأولوية · Nov 16, 2026 للعموم"
+    },
+    {
+      "text": "No separate international deadline is published",
+      "of": "d6242f35",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[0].cells.intl"
+      ],
+      "t": "لا يُنشر موعد نهائي دولي منفصل"
+    },
+    {
+      "text": "Readiness Checklist from a preschool or daycare teacher + pastor",
+      "of": "f7aa3171",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[1].cells.tkk5"
+      ],
+      "t": "Readiness Checklist من معلّم مرحلة ما قبل المدرسة أو الحضانة + الراعي"
+    },
+    {
+      "text": "Academic Referral from the current teacher + pastor",
+      "of": "a39ceabd",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[1].cells.es"
+      ],
+      "t": "Academic Referral من المعلّم الحالي + الراعي"
+    },
+    {
+      "text": "None published — the review is transcripts and test scores",
+      "of": "83c5ccf7",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[1].cells.intl"
+      ],
+      "t": "لا شيء منشور — فالمراجعة تقوم على كشوف الدرجات ودرجات الاختبارات"
+    },
+    {
+      "text": "Records required",
+      "of": "299a4b32",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[2].label"
+      ],
+      "t": "السجلات المطلوبة"
+    },
+    {
+      "text": "Birth certificate · immunization record · Information form",
+      "of": "e703d316",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[2].cells.tkk5"
+      ],
+      "t": "شهادة الميلاد · سجل التطعيمات · Information form"
+    },
+    {
+      "text": "Report cards, at least two years · any IEP or 504",
+      "of": "5e2ede11",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[2].cells.es"
+      ],
+      "t": "بطاقات الدرجات لسنتين على الأقل · أي IEP أو 504"
+    },
+    {
+      "text": "Transcript · two years of report cards · standardized scores · Student Questionnaire",
+      "of": "1c61f370",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[2].cells.ms",
+        "hickory-grove-christian:guide.comparison.rows[2].cells.hs"
+      ],
+      "t": "كشف الدرجات · بطاقات درجات سنتين · الدرجات المعيارية · Student Questionnaire"
+    },
+    {
+      "text": "Middle and high school transcripts translated into English through IEE",
+      "of": "35db9686",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[2].cells.intl"
+      ],
+      "t": "كشوف درجات المرحلتين المتوسطة والثانوية مترجمة إلى الإنجليزية عبر IEE"
+    },
+    {
+      "text": "Developmentally appropriate readiness screening — qualifying depends on it",
+      "of": "264dcccd",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[3].cells.tkk5"
+      ],
+      "t": "فحص جاهزية ملائم للمرحلة العمرية — والتأهل يتوقف عليه"
+    },
+    {
+      "text": "Entrance testing through Student Services",
+      "of": "8bf6bdbb",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[3].cells.es",
+        "hickory-grove-christian:guide.comparison.rows[3].cells.ms"
+      ],
+      "t": "اختبار قبول عبر Student Services"
+    },
+    {
+      "text": "Entrance testing plus a mandatory placement test",
+      "of": "715cc7e2",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[3].cells.hs"
+      ],
+      "t": "اختبار قبول إضافة إلى اختبار تحديد مستوى إلزامي"
+    },
+    {
+      "text": "TOEFL Jr. 750+ or SLEP 50+",
+      "of": "597696fb",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[3].cells.intl"
+      ],
+      "t": "TOEFL Jr. 750+ أو SLEP 50+"
+    },
+    {
+      "text": "Shadow day",
+      "of": "9c7c439f",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[4].label"
+      ],
+      "t": "يوم المرافقة"
+    },
+    {
+      "text": "No — the requirement starts at grade 9",
+      "of": "53fc7068",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[4].cells.ms"
+      ],
+      "t": "لا — فالشرط يبدأ من الصف 9"
+    },
+    {
+      "text": "Yes — required, by shadow request form",
+      "of": "5ae0b88d",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[4].cells.hs"
+      ],
+      "t": "نعم — مطلوب، عبر shadow request form"
+    },
+    {
+      "text": "Not applicable",
+      "of": "9f7f439b",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[4].cells.intl"
+      ],
+      "t": "لا ينطبق"
+    },
+    {
+      "text": "First contact with the school",
+      "of": "d57bb388",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[5].label"
+      ],
+      "t": "أول تواصل مع المدرسة"
+    },
+    {
+      "text": "Campus visit, by request form",
+      "of": "e3ee5bc3",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[5].cells.tkk5",
+        "hickory-grove-christian:guide.comparison.rows[5].cells.es",
+        "hickory-grove-christian:guide.comparison.rows[5].cells.ms",
+        "hickory-grove-christian:guide.comparison.rows[5].cells.hs"
+      ],
+      "t": "زيارة الحرم المدرسي، باستمارة طلب"
+    },
+    {
+      "text": "Skype, WeChat or WhatsApp interview instead of a visit",
+      "of": "50d9b6b4",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[5].cells.intl"
+      ],
+      "t": "مقابلة عبر Skype أو WeChat أو WhatsApp بدلًا من الزيارة"
+    },
+    {
+      "text": "Family interview",
+      "of": "94e34996",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[6].label"
+      ],
+      "t": "مقابلة العائلة"
+    },
+    {
+      "text": "Yes — mission, vision and statement of faith, and fit",
+      "of": "d89d340b",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[6].cells.tkk5",
+        "hickory-grove-christian:guide.comparison.rows[6].cells.es",
+        "hickory-grove-christian:guide.comparison.rows[6].cells.ms",
+        "hickory-grove-christian:guide.comparison.rows[6].cells.hs"
+      ],
+      "t": "نعم — الرسالة والرؤية وبيان الإيمان، ومدى الملاءمة"
+    },
+    {
+      "text": "The opening video interview serves this purpose",
+      "of": "6ebcb5c6",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[6].cells.intl"
+      ],
+      "t": "مقابلة الفيديو الافتتاحية تؤدي هذا الغرض"
+    },
+    {
+      "text": "Paying for the year",
+      "of": "adfcb210",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[7].label"
+      ],
+      "t": "سداد تكاليف العام"
+    },
+    {
+      "text": "$500 deposit on acceptance, applied toward tuition",
+      "of": "2a5439a8",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[7].cells.tkk5",
+        "hickory-grove-christian:guide.comparison.rows[7].cells.es",
+        "hickory-grove-christian:guide.comparison.rows[7].cells.ms",
+        "hickory-grove-christian:guide.comparison.rows[7].cells.hs"
+      ],
+      "t": "دفعة $500 عند القبول، تُخصم من الرسوم الدراسية"
+    },
+    {
+      "text": "Full payment before the first day, or the place goes on financial hold",
+      "of": "97398458",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[7].cells.intl"
+      ],
+      "t": "السداد الكامل قبل اليوم الأول، وإلا وُضع المقعد قيد التعليق المالي"
+    },
+    {
+      "text": "A Personal Recommendation form from the family’s pastor, required at every grade from TK through 12 · the FACTS online application, with the published $250/$500 fee window predating the current application dates · testing scheduled only after every required form has arrived · a written decision with no fixed notification date, because admission is rolling and capacity-dependent · a $500 nonrefundable enrollment deposit that applies toward tuition · and a published rule that any suspensions, expulsions or failed courses are an automatic denial of admission",
+      "of": "2330fb6d",
+      "at": [
+        "hickory-grove-christian:guide.comparison.rows[8].cells.all"
+      ],
+      "t": "Personal Recommendation form من راعي كنيسة العائلة، مطلوبة في كل صف من TK حتى 12 · طلب FACTS الإلكتروني، مع نافذة الرسوم المنشورة $250/$500 التي تسبق مواعيد التقديم الحالية · اختبار لا يُحدَّد موعده إلا بعد وصول كل استمارة مطلوبة · قرار مكتوب دون موعد إشعار ثابت، لأن القبول مستمر ومرهون بالسعة · دفعة تسجيل $500 غير قابلة للاسترداد تُخصم من الرسوم الدراسية · وقاعدة منشورة بأن أي إيقاف أو فصل أو رسوب في مقررات يعني رفضًا تلقائيًا للقبول"
+    },
+    {
+      "text": "7200 E. WT Harris Blvd., Charlotte, NC 28215 · admissions 704-531-4008 · admissions@hgchristian.org · Mon–Fri 7:30 a.m.–3:00 p.m. Mail is addressed separately, to 6050 Hickory Grove Road, Charlotte, NC 28215 — the church and school complex. Only one admissions staff member is named on the school’s site; the office lines below are published for the areas she does not cover.",
+      "of": "87d21ad5",
+      "at": [
+        "hickory-grove-christian:guide.contacts.address"
+      ],
+      "t": "7200 E. WT Harris Blvd., Charlotte, NC 28215 · القبول 704-531-4008 · admissions@hgchristian.org · الاثنين–الجمعة 7:30 a.m.–3:00 p.m. ويُرسل البريد إلى عنوان منفصل، 6050 Hickory Grove Road, Charlotte, NC 28215 — مجمّع الكنيسة والمدرسة. ولا يُذكر على موقع المدرسة سوى موظفة قبول واحدة بالاسم؛ وأرقام المكاتب أدناه منشورة للمجالات التي لا تغطيها."
+    },
+    {
+      "text": "Director of Admissions & International Student Program · 704-531-4008 · admissions@hgchristian.org",
+      "of": "197e28e7",
+      "at": [
+        "hickory-grove-christian:guide.contacts.people[0].detail"
+      ],
+      "t": "مديرة القبول وبرنامج الطلاب الدوليين · 704-531-4008 · admissions@hgchristian.org"
+    },
+    {
+      "text": "704-531-4008 · Mon–Fri 7:30 a.m.–3:00 p.m. · admissions@hgchristian.org",
+      "of": "c4bb6418",
+      "at": [
+        "hickory-grove-christian:guide.contacts.people[1].detail"
+      ],
+      "t": "704-531-4008 · الاثنين–الجمعة 7:30 a.m.–3:00 p.m. · admissions@hgchristian.org"
+    },
+    {
+      "text": "Full-day preschool, below TK · 704-531-4059 · harriseec@hgchristian.org",
+      "of": "8b7ab174",
+      "at": [
+        "hickory-grove-christian:guide.contacts.people[2].detail"
+      ],
+      "t": "مرحلة ما قبل المدرسة بدوام كامل، دون TK · 704-531-4059 · harriseec@hgchristian.org"
+    },
+    {
+      "text": "Half-day preschool and the classical TK/K campus · 704-531-5345",
+      "of": "bb554855",
+      "at": [
+        "hickory-grove-christian:guide.contacts.people[3].detail"
+      ],
+      "t": "مرحلة ما قبل المدرسة بنصف دوام وحرم TK/K الكلاسيكي · 704-531-5345"
+    },
+    {
+      "text": "Elementary Principal · 704-531-4195 · loricheuvront@hgchristian.org",
+      "of": "a5b73266",
+      "at": [
+        "hickory-grove-christian:guide.contacts.people[4].detail"
+      ],
+      "t": "مديرة المرحلة الابتدائية · 704-531-4195 · loricheuvront@hgchristian.org"
+    },
+    {
+      "text": "Portal: FACTS · hg-nc.client.factsmgt.com — memberId 496 for Harris, 15083 for Mallard Creek",
+      "of": "99b89586",
+      "at": [
+        "hickory-grove-christian:guide.checklist.portalNote"
+      ],
+      "t": "البوابة: FACTS · hg-nc.client.factsmgt.com — memberId 496 لـ Harris، و15083 لـ Mallard Creek"
+    },
+    {
+      "text": "Aid runs through FACTS Grant & Aid Assessment, and FACTS charges $40 to process the application.",
+      "of": "95b6ccfd",
+      "at": [
+        "hickory-grove-christian:guide.checklist.aidPanel.items[0]"
+      ],
+      "t": "تُدار المساعدات عبر FACTS Grant & Aid Assessment، وتتقاضى FACTS مبلغ $40 لمعالجة الطلب."
+    },
+    {
+      "text": "New families must be accepted for enrollment before they can apply for aid, so this follows the admissions decision rather than running alongside it.",
+      "of": "7eb67c47",
+      "at": [
+        "hickory-grove-christian:guide.checklist.aidPanel.items[1]"
+      ],
+      "t": "يجب قبول العائلات الجديدة للتسجيل قبل أن تتمكن من طلب المساعدة، فهذه الخطوة تأتي بعد قرار القبول لا بالتوازي معه."
+    },
+    {
+      "text": "Apply for, accept or renew the NC Opportunity Scholarship first, then apply to Hickory Grove for aid if that does not meet your need — awarded until all available funds have been allocated.",
+      "of": "7bb9b07d",
+      "at": [
+        "hickory-grove-christian:guide.checklist.aidPanel.items[2]"
+      ],
+      "t": "تقدّم لـ NC Opportunity Scholarship أو اقبلها أو جدّدها أولًا، ثم تقدّم إلى Hickory Grove لطلب المساعدة إن لم تفِ بحاجتك — وهي تُمنح حتى تُخصَّص كل الأموال المتاحة."
+    },
+    {
+      "text": "ESA+ is available for children with disabilities attending an eligible non-public school.",
+      "of": "ac450725",
+      "at": [
+        "hickory-grove-christian:guide.checklist.aidPanel.items[3]"
+      ],
+      "t": "تتوفر ESA+ للأطفال ذوي الإعاقة الملتحقين بمدرسة غير حكومية مؤهّلة."
+    },
+    {
+      "text": "The 2026–27 state window ran February 2 to March 2, 2026, with renewals due April 15, 2026.",
+      "of": "2dc6a621",
+      "at": [
+        "hickory-grove-christian:guide.checklist.aidPanel.items[4]"
+      ],
+      "t": "امتدت نافذة الولاية لعام 2026–27 من February 2 to March 2, 2026، مع استحقاق التجديدات في April 15, 2026."
+    },
+    {
+      "text": "Admissions — 704-531-4008 · admissions@hgchristian.org · Mon–Fri 7:30 a.m.–3:00 p.m.",
+      "of": "84d557ec",
+      "at": [
+        "hickory-grove-christian:guide.checklist.contactPanel.lines[0]"
+      ],
+      "t": "القبول — 704-531-4008 · admissions@hgchristian.org · الاثنين–الجمعة 7:30 a.m.–3:00 p.m."
+    },
+    {
+      "text": "7200 E. WT Harris Blvd., Charlotte, NC 28215 · mail to 6050 Hickory Grove Road, Charlotte, NC 28215",
+      "of": "b93fa2a3",
+      "at": [
+        "hickory-grove-christian:guide.checklist.contactPanel.lines[1]"
+      ],
+      "t": "7200 E. WT Harris Blvd., Charlotte, NC 28215 · البريد إلى 6050 Hickory Grove Road, Charlotte, NC 28215"
+    },
+    {
+      "text": "International applicants — Sheila M. Chaney, Director of Admissions & International Student Program · 704-531-4008",
+      "of": "b77af464",
+      "at": [
+        "hickory-grove-christian:guide.checklist.contactPanel.lines[2]"
+      ],
+      "t": "المتقدّمون الدوليون — Sheila M. Chaney، مديرة القبول وبرنامج الطلاب الدوليين · 704-531-4008"
+    },
+    {
+      "text": "Early Education Center — Harris 704-531-4059 · Mallard Creek 704-531-5345",
+      "of": "271c6df5",
+      "at": [
+        "hickory-grove-christian:guide.checklist.contactPanel.lines[3]"
+      ],
+      "t": "Early Education Center — Harris 704-531-4059 · Mallard Creek 704-531-5345"
+    },
+    {
+      "text": "Dates are the 2027–28 entry cycle as published on hgchristian.org and retrieved in September 2026, together with both new-family admission checklists revised 11/17/25. The published application-fee window ($250 to May 31, 2026; $500 from June 1, 2026) predates the November 2026 application dates on the same page — confirm the current fee with the admissions office. Cycle dates shift year to year — verify against the live site before acting. Compiled by Charlotte School Compare; not affiliated with Hickory Grove Christian School.",
+      "of": "263c78d5",
+      "at": [
+        "hickory-grove-christian:guide.checklist.disclaimer"
+      ],
+      "t": "المواعيد تخص دورة الالتحاق 2027–28 كما هي منشورة على hgchristian.org ومُستخرَجة في سبتمبر 2026، إلى جانب قائمتَي مراجعة القبول للعائلات الجديدة المنقّحتين بتاريخ 11/17/25. ونافذة رسوم الطلب المنشورة ($250 حتى May 31, 2026؛ و$500 اعتبارًا من June 1, 2026) تسبق مواعيد التقديم في نوفمبر 2026 الواردة في الصفحة نفسها — تأكّد من الرسوم الحالية مع مكتب القبول. تتغيّر مواعيد الدورة من سنة إلى أخرى — تحقّق منها على الموقع المحدَّث قبل اتخاذ أي خطوة. أعدّته Charlotte School Compare؛ وهو غير تابع لمدرسة Hickory Grove Christian School."
     }
   ]
 }
